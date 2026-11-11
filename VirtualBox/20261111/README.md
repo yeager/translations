@@ -386,6 +386,8 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 132: samtliga 18 aktiva meddelanden i
   `UITakeSnapshotDialog` är granskade radvis. Tre åtgärdstexter har rättats i
   lokal commit `99647ee` och ändringarna är ännu inte pushade till PR:n.
+- 2026-11-11, batch 133: samtliga 5 aktiva meddelanden i `UITextEditor` är
+  granskade radvis. Ingen textändring behövdes.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
