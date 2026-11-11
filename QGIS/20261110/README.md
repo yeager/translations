@@ -154,8 +154,9 @@ lokalt granskad och inskickad som Transifex-förslag. Kontot saknar behörighet
 att tillämpa ändringen direkt.
 
 2026-11-11: Batch 287 rättar ytterligare två resultattexter i samma
-interpoleringsfunktion. Ändringarna är lokalt granskade och inte skickade
-externt.
+interpoleringsfunktion. `Interpolated (data metrics)` är sparad direkt i
+Transifex som `Interpolerad (datamått)`. `Grid (Data metrics)` saknas i den
+aktuella resursen trots att den finns i råexporten och är därför inte inskickad.
 
 2026-11-11: Terminologilistan kompletterades med SpatiaLite, libspatialite,
 `ROWID`, miniatyr och socket från batch 253–254. Uppdateringen är lokal och
