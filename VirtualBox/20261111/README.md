@@ -105,6 +105,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 033: globala inställningar för allmänt, proxy, språk och
   uppdateringar (25) har granskats radvis. Den verifierade delbatchen finns
   lokalt i commit `1523f64` och är ännu inte pushad till PR:n.
+- 2026-11-11, batch 034: notifieringscenter, nedladdare, förlopp och
+  inställningsserialisering (10) har granskats radvis. Den verifierade
+  delbatchen finns lokalt i commit `02c13e7` och är ännu inte pushad till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
