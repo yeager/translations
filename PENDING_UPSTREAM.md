@@ -1,9 +1,10 @@
 # Väntande upstream-importer
 
-> **Aktuell sammanfattning, 2026-11-04.** Läs detta avsnitt före den
+> **Aktuell sammanfattning, 2026-11-11.** Läs detta avsnitt före den
 > historiska detaljloggen nedan. En post i detaljloggen beskriver det läge som
 > gällde vid datumet i posten och är inte i sig bevis för att samma fil ännu
-> väntar på uppladdning.
+> väntar på uppladdning. De aktuella Crowdin-batcherna för RetroArch,
+> RetroAchievements och RPCS3 står i avsnittet direkt nedan.
 
 ## Färdigt men ännu inte inskickat
 
