@@ -2,6 +2,14 @@
 
 Datum: 11 november 2026
 
+## I stället: tjugotredje granskningsbatchen
+
+Nio UI-texter från inmatning, minneskort och grafik använder den sammanskrivna formen `istället`. De normaliseras till den rekommenderade stavningen `i stället`, utan att ändra funktion, platshållare eller synliga produktnamn.
+
+Lokal deltafil: `pcsx2-sv-i-stallet-batch-23-20261111.xliff` (sträng-ID 3689, 3695, 13976, 12918, 11370, 10496, 6543, 10654 och 7557). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
+
+XML-validering, exakt källtextjämförelse, l10n-lint, diffkontroll och Gitleaks passerar. svlangs V2-varningar gäller korrekta imperativ och tekniska namn i UI-texterna. Hunspell-SV markerar endast tekniska namn och facktermer: DInput, DirectInput, framebuffer, SDL, XInput och `sparningsplatser`. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
+
 ## CPU-spriterendering: tjugoandra granskningsbatchen
 
 Sex etiketter och hjälptexter för samma grafikfunktion hade både engelska resttermer och tre olika svenska konstruktioner. `sprite` behålls som etablerad datorspels- och grafikterm, men `render` normaliseras till `rendering`. Den befintliga, redan konsekventa etiketten `CPU Sprite Render Size:` → `Storlek för CPU-spriterendering:` styr valet.
