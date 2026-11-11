@@ -534,6 +534,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
   `UIIndicatorSharedFolders` är granskade radvis. Ingen textändring behövdes.
 - 2026-11-11, batch 193: samtliga 4 aktiva meddelanden i `UILanguageItem` är
   granskade radvis. Ingen textändring behövdes.
+- 2026-11-11, batch 194: samtliga 3 aktiva meddelanden i
+  `UILanguageSettingsEditor` är granskade radvis. Fältetiketten har rättats
+  lokalt och inväntar den samlade uppdateringen av PR #848.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
