@@ -1454,3 +1454,7 @@ XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
 passerar. svlang markerar endast den avsedda UI-sammansättningen
 `popupmeddelanden`; Hunspell-SV ger inga träffar. `msgfmt` är inte tillämpligt
 på XLIFF och avvisar därför filen som icke-PO. Batchen är lokalt granskad.
+
+Tre nya Crowdin-förslag skapades via API och verifierades mot rätt strängar:
+449771, 449773 och 449775. De är upstream-inskickade för granskning, men
+inget är upstream-godkänt ännu.
