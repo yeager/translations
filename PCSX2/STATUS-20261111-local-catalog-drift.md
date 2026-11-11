@@ -320,6 +320,11 @@ passerar. Svlang och Hunspell-SV markerar enbart de avsiktliga fackorden
 `mipmapping` och `TV-shader`; det senare finns i PCSX2:s termbas.
 `msgfmt` är inte tillämpligt på XLIFF och avvisar därför filen som icke-PO.
 
+Crowdin-importen är verifierad via API: 4 strängar och 66 ord importerades,
+0 godkändes automatiskt och inga strängar hoppades över. De fyra nya
+översättningsposterna har ID 449079, 449081, 449083 och 449085. De är
+upstream-inskickade för granskning men ännu inte upstream-godkända.
+
 XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
 diffkontroll och Gitleaks passerar. l10n-lint rapporterar endast den väntade
 längdskillnaden mot den engelska förkortningen. `msgfmt` är inte tillämpligt
