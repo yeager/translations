@@ -91,3 +91,9 @@
 - Omfattning: 25 tidigare oöversatta strängar för åtkomstanslutningar, Privileged Controls och skrivbordsappar.
 - Upstream: 25 Crowdin-förslag skapade och verifierade, id `2008403`–`2008451` (udda id). Samtliga väntar på Bitwardens granskning (`approvalStatus: null`).
 - Kontroller: platshållarkontroll, Hunspell-sv, svlang, diffkontroll och Gitleaks godkända. Hunspellträffar gäller produktnamn, platshållare och sammansättningen skrivbordsapp; msgfmt och l10n-lint är inte direkt tillämpliga på API-JSON.
+
+## 2026-11-11, batch 15
+
+- Omfattning: 7 tidigare oöversatta strängar för Privileged Controls och Secrets Manager.
+- Upstream: 7 Crowdin-förslag skapade och verifierade, id `2008453`–`2008465` (udda id). Samtliga väntar på Bitwardens granskning (`approvalStatus: null`).
+- Kontroller: platshållarkontroll, Hunspell-sv, diffkontroll och Gitleaks godkända. Hunspellträffar gäller produktnamn, platshållare och facktermer; msgfmt och l10n-lint är inte direkt tillämpliga på API-JSON.
