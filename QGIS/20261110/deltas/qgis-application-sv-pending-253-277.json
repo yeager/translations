@@ -1,0 +1,912 @@
+{
+  "project": "qgis/QGIS",
+  "resource": "qgis-application",
+  "language": "sv",
+  "source_snapshot": "raw/qgis-application-sv-transifex-live-20261110.ts",
+  "status": "local-review-only",
+  "notes": "Generated review manifest. Resolve current Transifex units and compare their target text before generating an import delta.",
+  "batches": [
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277
+  ],
+  "changes": [
+    {
+      "batch": 253,
+      "source": "obsolete libspatialite: AbstractInterface is unsupported",
+      "target": "Föråldrad libspatialite: AbstractInterface stöds inte"
+    },
+    {
+      "batch": 253,
+      "source": "Autogenerate",
+      "target": "Generera automatiskt"
+    },
+    {
+      "batch": 253,
+      "source": "SQLite error while trying to inject ROWID: %2\nSQL: %1",
+      "target": "SQLite-fel vid försök att infoga ROWID: %2\nSQL: %1"
+    },
+    {
+      "batch": 253,
+      "source": "Spatialite: unexpected number of rows (%1) from aggregate query\nSQL: %2",
+      "target": "SpatiaLite: oväntat antal rader (%1) från aggregeringsfrågan\nSQL: %2"
+    },
+    {
+      "batch": 253,
+      "source": "SpatiaLite getTableInfo Error",
+      "target": "SpatiaLite-getTableInfo-fel"
+    },
+    {
+      "batch": 254,
+      "source": "Thumbnail size",
+      "target": "Miniatyrstorlek"
+    },
+    {
+      "batch": 254,
+      "source": "Format as number",
+      "target": "Formatera som tal"
+    },
+    {
+      "batch": 254,
+      "source": "Could not find the remote host",
+      "target": "Fjärrvärden kunde inte hittas"
+    },
+    {
+      "batch": 254,
+      "source": "Attempt to read or write from socket returned an error",
+      "target": "Ett försök att läsa från eller skriva till socketen resulterade i ett fel"
+    },
+    {
+      "batch": 255,
+      "source": "This algorithm compares two point clouds using an M3C2 (Multiscale Model-to-Model Cloud Comparison) algorithm and outputs a subset (filtered using Poisson sampling, based on Subsampling cell size parameter ) of the original point cloud.",
+      "target": "Denna algoritm jämför två punktmoln med en M3C2-algoritm (Multiscale Model-to-Model Cloud Comparison) och skapar en delmängd av det ursprungliga punktmolnet. Delmängden filtreras med Poisson-sampling utifrån parametern Cellstorlek för delurval."
+    },
+    {
+      "batch": 255,
+      "source": "The output point cloud will have several new dimensions: m3c2_distance, m3c2_uncertainty, m3c2_significant, m3c2_std_dev1, m3c2_std_dev2, m3c2_count1 and m3c2_count2.",
+      "target": "Utdatapunktmolnet kommer att ha flera nya dimensioner: m3c2_distance, m3c2_uncertainty, m3c2_significant, m3c2_std_dev1, m3c2_std_dev2, m3c2_count1 och m3c2_count2."
+    },
+    {
+      "batch": 255,
+      "source": "Compares two point clouds using M3C2 algorithm and outputs a subsample of the input point cloud containing additional dimensions describing the differences.",
+      "target": "Jämför två punktmoln med M3C2-algoritmen och skapar ett delurval av indatapunktmolnet med ytterligare dimensioner som beskriver skillnaderna."
+    },
+    {
+      "batch": 255,
+      "source": "Subsampling cell size",
+      "target": "Cellstorlek för delurval"
+    },
+    {
+      "batch": 256,
+      "source": "The M3C2 algorithm calculates the distance between two point clouds by considering the local orientation of the surface. It estimates surface normals at a user-defined scale and measures the average distance between clouds within a cylindrical projection along those normals.",
+      "target": "M3C2-algoritmen beräknar avståndet mellan två punktmoln genom att ta hänsyn till ytans lokala orientering. Den uppskattar ytnormaler i användardefinierad skala och mäter medelavståndet mellan molnen inom en cylindrisk projektion längs dessa normaler."
+    },
+    {
+      "batch": 256,
+      "source": "The approach is highly robust against sensor noise and surface roughness, making it the standard for detecting change in complex natural environments. It also provides a sign (indicating whether a surface has moved in or out) and a statistically significant level of detection to distinguish real change from measurement error.",
+      "target": "Metoden är mycket robust mot sensorbrus och ojämnheter i ytan, vilket gör den till standardmetod för att upptäcka förändringar i komplexa naturmiljöer. Den anger också tecknet, som visar om en yta har rört sig inåt eller utåt, och en statistiskt säkerställd detektionsnivå för att skilja verkliga förändringar från mätfel."
+    },
+    {
+      "batch": 256,
+      "source": "Radius of the sphere around each core point that defines the neighbors from which normals are calculated.",
+      "target": "Radien för sfären runt varje kärnpunkt anger vilka grannar som används för att beräkna normaler."
+    },
+    {
+      "batch": 256,
+      "source": "The half-length of the cylinder of neighbors used for calculating change.",
+      "target": "Halvlängden på cylindern med grannar som används för att beräkna förändring."
+    },
+    {
+      "batch": 256,
+      "source": "Which direction to orient the cylinder/normal vector used for comparison between the two point clouds.",
+      "target": "Anger i vilken riktning cylindern eller normalvektorn för jämförelsen mellan de två punktmolnen ska orienteras."
+    },
+    {
+      "batch": 256,
+      "source": "Comparison Point Cloud",
+      "target": "Jämförelsepunktmoln"
+    },
+    {
+      "batch": 256,
+      "source": "This algorithm requires PDAL version 2.10 or higher.",
+      "target": "Denna algoritm kräver PDAL-version 2.10 eller senare."
+    },
+    {
+      "batch": 257,
+      "source": "DTM filter (slope-based)",
+      "target": "DTM-filter (lutningsbaserat)"
+    },
+    {
+      "batch": 257,
+      "source": "Filters a Digital Elevation Model in order to classify its cells into ground and object (non-ground) cells.",
+      "target": "Filtrerar en digital höjdmodell (DEM) för att klassificera dess celler som markceller eller objektceller (icke-markceller)."
+    },
+    {
+      "batch": 257,
+      "source": "Kernel radius (pixels)",
+      "target": "Kärnradie (bildpunkter)"
+    },
+    {
+      "batch": 257,
+      "source": "The radius of the filter kernel (in pixels). Must be large enough to reach ground cells next to non-ground objects.",
+      "target": "Filterkärnans radie i bildpunkter. Den måste vara tillräckligt stor för att nå markceller intill objekt som inte är mark."
+    },
+    {
+      "batch": 257,
+      "source": "The approximate terrain slope in %. The terrain slope must be adjusted to account for the ratio of height units vs raster pixel dimensions. Used to relax the filter criterium in steeper terrain.",
+      "target": "Den uppskattade terränglutningen i procent. Terränglutningen måste justeras med hänsyn till förhållandet mellan höjdenheterna och rasterbildpunkternas dimensioner. Används för att mildra filterkriteriet i brantare terräng."
+    },
+    {
+      "batch": 258,
+      "source": "Choose whether to apply the filter kernel without modification or to use a confidence interval to relax or amplify the height criterium.",
+      "target": "Välj om filterkärnan ska användas utan ändring eller om ett konfidensintervall ska användas för att mildra eller förstärka höjdkriteriet."
+    },
+    {
+      "batch": 258,
+      "source": "The standard deviation used to calculate a 5% confidence interval applied to the height threshold.",
+      "target": "Standardavvikelsen som används för att beräkna ett konfidensintervall på 5 % för höjdtröskeln."
+    },
+    {
+      "batch": 258,
+      "source": "The filtered DEM containing only cells classified as ground.",
+      "target": "Den filtrerade DEM:en innehåller endast celler som har klassificerats som mark."
+    },
+    {
+      "batch": 258,
+      "source": "Output layer (non-ground objects)",
+      "target": "Utdatalager (objekt som inte är mark)"
+    },
+    {
+      "batch": 258,
+      "source": "The non-ground objects removed by the filter.",
+      "target": "Objekten som inte är mark och som har tagits bort av filtret."
+    },
+    {
+      "batch": 259,
+      "source": "Choose GRASS installation path (GISBASE)",
+      "target": "Välj sökväg till GRASS-installationen (GISBASE)"
+    },
+    {
+      "batch": 259,
+      "source": "GISBASE is not set.",
+      "target": "GISBASE är inte angiven."
+    },
+    {
+      "batch": 259,
+      "source": "%1 is not a GRASS mapset.",
+      "target": "%1 är inte en GRASS-kartuppsättning."
+    },
+    {
+      "batch": 259,
+      "source": "Mapset is already in use.",
+      "target": "GRASS-kartuppsättningen används redan."
+    },
+    {
+      "batch": 259,
+      "source": "Mapset lock failed (%1)",
+      "target": "Det gick inte att låsa GRASS-kartuppsättningen (%1)."
+    },
+    {
+      "batch": 259,
+      "source": "Temporary directory %1 exists but is not writable",
+      "target": "Den temporära katalogen %1 finns men är inte skrivbar."
+    },
+    {
+      "batch": 259,
+      "source": "Cannot create temporary directory %1",
+      "target": "Det gick inte att skapa den temporära katalogen %1."
+    },
+    {
+      "batch": 259,
+      "source": "Cannot remove mapset lock: %1",
+      "target": "Det gick inte att ta bort låset för GRASS-kartuppsättningen: %1."
+    },
+    {
+      "batch": 260,
+      "source": "Parse error at line %1 : %2",
+      "target": "Tolkningsfel på rad %1: %2"
+    },
+    {
+      "batch": 260,
+      "source": "GPS eXchange format provider",
+      "target": "GPX-datakälla"
+    },
+    {
+      "batch": 260,
+      "source": "Cannot read vector map region",
+      "target": "Det gick inte att läsa vektorkartans region."
+    },
+    {
+      "batch": 260,
+      "source": "Cannot find module %1",
+      "target": "Det gick inte att hitta modulen %1."
+    },
+    {
+      "batch": 260,
+      "source": "Cannot open GISRC file",
+      "target": "Det gick inte att öppna GISRC-filen."
+    },
+    {
+      "batch": 260,
+      "source": "Cannot run module",
+      "target": "Det gick inte att köra modulen."
+    },
+    {
+      "batch": 260,
+      "source": "Attempt to copy from different location.",
+      "target": "Det går inte att kopiera från en annan plats."
+    },
+    {
+      "batch": 260,
+      "source": "Delete confirmation",
+      "target": "Bekräfta borttagning"
+    },
+    {
+      "batch": 260,
+      "source": "Are you sure you want to delete %1 %2?",
+      "target": "Är du säker på att du vill ta bort %1 %2?"
+    },
+    {
+      "batch": 260,
+      "source": "Cannot insert, statement: '%1' error: '%2'",
+      "target": "Det gick inte att infoga. Uttryck: '%1'. Fel: '%2'."
+    },
+    {
+      "batch": 261,
+      "source": "Loading of the MSSQL provider failed",
+      "target": "MSSQL-datakällan kunde inte läsas in."
+    },
+    {
+      "batch": 261,
+      "source": "Error connecting to database: %1",
+      "target": "Fel vid anslutning till databasen: %1"
+    },
+    {
+      "batch": 261,
+      "source": "Could not check if layer_styles table exists: %1",
+      "target": "Det gick inte att kontrollera om tabellen layer_styles finns: %1"
+    },
+    {
+      "batch": 261,
+      "source": "Checking for style failed: %1",
+      "target": "Det gick inte att kontrollera stilen: %1"
+    },
+    {
+      "batch": 261,
+      "source": "Unsupported type for field %1",
+      "target": "Fälttypen för fältet %1 stöds inte."
+    },
+    {
+      "batch": 262,
+      "source": "Unable to create a new unit of measure. Unit of measure with name '%1' and different type already exist.",
+      "target": "Det gick inte att skapa en ny måttenhet. Det finns redan en måttenhet med namnet '%1', men av en annan typ."
+    },
+    {
+      "batch": 262,
+      "source": "Unable to retrieve the authority identifier for an CRS with id = %1.",
+      "target": "Det gick inte att hämta auktoritetsidentifieraren för ett koordinatreferenssystem med ID %1."
+    },
+    {
+      "batch": 262,
+      "source": "Schema name cannot be empty",
+      "target": "Schemanamnet får inte vara tomt."
+    },
+    {
+      "batch": 262,
+      "source": "Geometry type '%1' is not supported",
+      "target": "Geometritypen '%1' stöds inte."
+    },
+    {
+      "batch": 262,
+      "source": "Creation of fields failed",
+      "target": "Det gick inte att skapa fälten."
+    },
+    {
+      "batch": 263,
+      "source": "Unable to create the datasource. %1 exists and overwrite flag is false.",
+      "target": "Det gick inte att skapa datakällan. %1 finns redan och överskrivningsflaggan är falsk."
+    },
+    {
+      "batch": 263,
+      "source": "Unable to get driver %1",
+      "target": "Det gick inte att hämta drivrutinen %1."
+    },
+    {
+      "batch": 263,
+      "source": "Layer %2 of %1 exists and overwrite flag is false.",
+      "target": "Lager %2 i %1 finns redan och överskrivningsflaggan är falsk."
+    },
+    {
+      "batch": 263,
+      "source": "Mapinfo File",
+      "target": "MapInfo-fil"
+    },
+    {
+      "batch": 263,
+      "source": "OGDI Vectors",
+      "target": "OGDI-vektorer"
+    },
+    {
+      "batch": 264,
+      "source": "Too many files opened (%1). Cannot open %2. You may raise the limit with the 'ulimit -n number_of_files' command before starting QGIS.",
+      "target": "För många filer är öppna (%1). Det gick inte att öppna %2. Du kan höja gränsen med kommandot 'ulimit -n number_of_files' innan QGIS startas."
+    },
+    {
+      "batch": 264,
+      "source": "Too many files opened (%1). Cannot open %2",
+      "target": "För många filer är öppna (%1). Det gick inte att öppna %2."
+    },
+    {
+      "batch": 264,
+      "source": "Error updating style",
+      "target": "Det gick inte att uppdatera stilen."
+    },
+    {
+      "batch": 264,
+      "source": "Invalid style identifier",
+      "target": "Ogiltig stilidentifierare."
+    },
+    {
+      "batch": 264,
+      "source": "No style corresponding to style identifier",
+      "target": "Det finns ingen stil som motsvarar stilidentifieraren."
+    },
+    {
+      "batch": 264,
+      "source": "Storing metadata for the specified uri is not supported",
+      "target": "Det går inte att lagra metadata för den angivna URI:en."
+    },
+    {
+      "batch": 264,
+      "source": "Not enough data to deserialize",
+      "target": "För lite data för avserialisering."
+    },
+    {
+      "batch": 264,
+      "source": "Unsupported operation",
+      "target": "Åtgärden stöds inte."
+    },
+    {
+      "batch": 264,
+      "source": "Corrupt data",
+      "target": "Skadade data."
+    },
+    {
+      "batch": 264,
+      "source": "Failure",
+      "target": "Fel"
+    },
+    {
+      "batch": 264,
+      "source": "Unsupported SRS",
+      "target": "SRS stöds inte."
+    },
+    {
+      "batch": 265,
+      "source": "Non existing feature",
+      "target": "Objektet finns inte."
+    },
+    {
+      "batch": 265,
+      "source": "Success",
+      "target": "Lyckades"
+    },
+    {
+      "batch": 265,
+      "source": "GDAL result code: %1",
+      "target": "GDAL-resultatkod: %1"
+    },
+    {
+      "batch": 265,
+      "source": "Creating the data source %1 failed: %2",
+      "target": "Det gick inte att skapa datakällan %1: %2"
+    },
+    {
+      "batch": 265,
+      "source": "Unknown vector type of %1",
+      "target": "Okänd vektortyp för %1"
+    },
+    {
+      "batch": 265,
+      "source": "field %1 with unsupported type %2 skipped",
+      "target": "Fältet %1 med den typ som inte stöds, %2, hoppades över."
+    },
+    {
+      "batch": 265,
+      "source": "creation of field %1 failed",
+      "target": "Det gick inte att skapa fältet %1."
+    },
+    {
+      "batch": 266,
+      "source": "Connection to database failed",
+      "target": "Databasanslutningen misslyckades."
+    },
+    {
+      "batch": 266,
+      "source": "No owner name found",
+      "target": "Inget ägarnamn hittades."
+    },
+    {
+      "batch": 266,
+      "source": "Creation of data source %1 failed: \n%2",
+      "target": "Det gick inte att skapa datakällan %1:\n%2"
+    },
+    {
+      "batch": 266,
+      "source": "Loading of the layer %1 failed",
+      "target": "Det gick inte att läsa in lagret %1."
+    },
+    {
+      "batch": 266,
+      "source": "Field name clash found (%1 not remappable)",
+      "target": "Fältnamnskonflikt hittades (%1 kan inte mappas om)."
+    },
+    {
+      "batch": 266,
+      "source": "%1 not owner of the table %2.",
+      "target": "%1 är inte ägare till tabellen %2."
+    },
+    {
+      "batch": 266,
+      "source": "Unable to determine number of geometry columns of layer %1.%2: \n%3",
+      "target": "Det gick inte att fastställa antalet geometrikolumner för lagret %1.%2:\n%3"
+    },
+    {
+      "batch": 266,
+      "source": "Unable to delete layer %1.%2: \n%3",
+      "target": "Det gick inte att ta bort lagret %1.%2:\n%3"
+    },
+    {
+      "batch": 266,
+      "source": "Unable to clean metadata %1.%2: \n%3",
+      "target": "Det gick inte att rensa metadata för %1.%2:\n%3"
+    },
+    {
+      "batch": 266,
+      "source": "Could not connect to database",
+      "target": "Det gick inte att ansluta till databasen."
+    },
+    {
+      "batch": 267,
+      "source": "Unable to create layer style table [%1]",
+      "target": "Det gick inte att skapa tabellen för lagerstilar [%1]."
+    },
+    {
+      "batch": 267,
+      "source": "Unable to check style existence [%1]",
+      "target": "Det gick inte att kontrollera om stilen finns [%1]."
+    },
+    {
+      "batch": 267,
+      "source": "Unable to find layer style table [%1]",
+      "target": "Det gick inte att hitta tabellen för lagerstilar [%1]."
+    },
+    {
+      "batch": 267,
+      "source": "Could not load layer style table [%1]",
+      "target": "Det gick inte att läsa in tabellen för lagerstilar [%1]."
+    },
+    {
+      "batch": 267,
+      "source": "Cannot fetch new layer style id.",
+      "target": "Det gick inte att hämta ett nytt ID för lagerstilen."
+    },
+    {
+      "batch": 267,
+      "source": "Cannot create a table with no columns",
+      "target": "Det går inte att skapa en tabell utan kolumner."
+    },
+    {
+      "batch": 267,
+      "source": "Remove of temporary column '%1' failed",
+      "target": "Det gick inte att ta bort den temporära kolumnen '%1'."
+    },
+    {
+      "batch": 267,
+      "source": "Could not execute insert/update [%1]",
+      "target": "Det gick inte att köra infogning/uppdatering [%1]."
+    },
+    {
+      "batch": 267,
+      "source": "Could not reset default status [%1]",
+      "target": "Det gick inte att återställa standardstatusen [%1]."
+    },
+    {
+      "batch": 267,
+      "source": "Could not retrieve style [%1]",
+      "target": "Det gick inte att hämta stilen [%1]."
+    },
+    {
+      "batch": 267,
+      "source": "Style not found",
+      "target": "Stilen hittades inte."
+    },
+    {
+      "batch": 267,
+      "source": "Could not execute select [%1]",
+      "target": "Det gick inte att köra SELECT [%1]."
+    },
+    {
+      "batch": 267,
+      "source": "No styles found in layer table [%1]",
+      "target": "Det finns inga stilar i lagertabellen [%1]."
+    },
+    {
+      "batch": 268,
+      "source": "no result buffer",
+      "target": "Ingen resultatbuffert."
+    },
+    {
+      "batch": 268,
+      "source": "Fetching from cursor %1 failed\nDatabase error: %2",
+      "target": "Det gick inte att hämta från markören %1.\nDatabasfel: %2"
+    },
+    {
+      "batch": 268,
+      "source": "Unable to delete layer %1: \n%2",
+      "target": "Det gick inte att ta bort lagret %1:\n%2"
+    },
+    {
+      "batch": 268,
+      "source": "Unable to delete schema %1: \n%2",
+      "target": "Det gick inte att ta bort schemat %1:\n%2"
+    },
+    {
+      "batch": 268,
+      "source": "Unable to delete view %1: \n%2",
+      "target": "Det gick inte att ta bort vyn %1:\n%2"
+    },
+    {
+      "batch": 268,
+      "source": "Creation of fields failed:\n%1",
+      "target": "Det gick inte att skapa fälten:\n%1"
+    },
+    {
+      "batch": 268,
+      "source": "Connection to database failed using username: %1",
+      "target": "Databasanslutningen misslyckades med användarnamnet %1."
+    },
+    {
+      "batch": 268,
+      "source": "Error executing query: %1",
+      "target": "Fel när frågan kördes: %1"
+    },
+    {
+      "batch": 268,
+      "source": "Save style in database",
+      "target": "Spara stilen i databasen"
+    },
+    {
+      "batch": 269,
+      "source": "Error executing query %1: %2",
+      "target": "Fel när frågan %1 kördes: %2"
+    },
+    {
+      "batch": 269,
+      "source": "Unable to initialize SpatialMetadata:\n",
+      "target": "Det gick inte att initiera SpatialMetadata:\n"
+    },
+    {
+      "batch": 269,
+      "source": "Could not create a new database\n",
+      "target": "Det gick inte att skapa en ny databas\n"
+    },
+    {
+      "batch": 269,
+      "source": "Unable to delete table %1\n",
+      "target": "Det gick inte att ta bort tabellen %1\n"
+    },
+    {
+      "batch": 269,
+      "source": "Style with id %1 not found in %2 (Query: %3)",
+      "target": "Stilen med ID %1 hittades inte i %2 (fråga: %3)."
+    },
+    {
+      "batch": 269,
+      "source": "Error looking for style. The query was logged",
+      "target": "Fel vid sökning efter stil. Frågan loggades."
+    },
+    {
+      "batch": 269,
+      "source": "Unable to save layer style. It's not possible to create the destination table on the database.",
+      "target": "Det gick inte att spara lagerstilen. Det går inte att skapa måltabellen i databasen."
+    },
+    {
+      "batch": 269,
+      "source": "URI %1 doesn't end with .shp or .dbf",
+      "target": "URI:en %1 slutar inte med .shp eller .dbf."
+    },
+    {
+      "batch": 269,
+      "source": "Cannot find layer %1.",
+      "target": "Det gick inte att hitta lagret %1."
+    },
+    {
+      "batch": 269,
+      "source": "Cannot open %1 (%2).",
+      "target": "Det gick inte att öppna %1 (%2)."
+    },
+    {
+      "batch": 270,
+      "source": "Toggle extents and mouse position display",
+      "target": "Växla mellan visning av kartutbredning och musposition"
+    },
+    {
+      "batch": 270,
+      "source": "QGIS Hackfests",
+      "target": "QGIS-hackfester"
+    },
+    {
+      "batch": 270,
+      "source": "Current map extent (Longitude, Latitude : Longitude, Latitude)",
+      "target": "Aktuell kartutbredning (longitud, latitud: longitud, latitud)"
+    },
+    {
+      "batch": 270,
+      "source": "Current map coordinate (Easting, Northing)",
+      "target": "Aktuell kartkoordinat (östlig, nordlig)"
+    },
+    {
+      "batch": 270,
+      "source": "Current map extent (Easting, Northing : Easting, Northing)",
+      "target": "Aktuell kartutbredning (östlig, nordlig: östlig, nordlig)"
+    },
+    {
+      "batch": 270,
+      "source": "Current map coordinate (Latitude, Longitude : Latitude, Longitude)",
+      "target": "Aktuell kartkoordinat (latitud, longitud: latitud, longitud)"
+    },
+    {
+      "batch": 270,
+      "source": "Current map coordinate (Northing, Easting)",
+      "target": "Aktuell kartkoordinat (nordlig, östlig)"
+    },
+    {
+      "batch": 270,
+      "source": "Current map coordinate (Northing, Easting : Northing, Easting)",
+      "target": "Aktuell kartkoordinat (nordlig, östlig: nordlig, östlig)"
+    },
+    {
+      "batch": 271,
+      "source": "Set to Full Range",
+      "target": "Ange hela intervallet"
+    },
+    {
+      "batch": 271,
+      "source": "Set to Preset Project Range",
+      "target": "Ange projektets förinställda intervall"
+    },
+    {
+      "batch": 271,
+      "source": "Set to Single Layer's Range",
+      "target": "Ange ett enskilt lagers intervall"
+    },
+    {
+      "batch": 271,
+      "source": "Temporal navigation disabled",
+      "target": "Tidsnavigering är inaktiverad"
+    },
+    {
+      "batch": 271,
+      "source": "Fixed range temporal navigation",
+      "target": "Tidsnavigering med fast intervall"
+    },
+    {
+      "batch": 271,
+      "source": "Animated temporal navigation",
+      "target": "Tidsnavigering med animering"
+    },
+    {
+      "batch": 271,
+      "source": "Live update",
+      "target": "Uppdatera direkt"
+    },
+    {
+      "batch": 272,
+      "source": "Spacing",
+      "target": "Avstånd"
+    },
+    {
+      "batch": 272,
+      "source": "Bold text\n(data defined only, overrides Style)",
+      "target": "Fet text\n(endast datadefinierad, åsidosätter stilen)"
+    },
+    {
+      "batch": 272,
+      "source": "Italic text\n(data defined only, overrides Style)",
+      "target": "Kursiv text\n(endast datadefinierad, åsidosätter stilen)"
+    },
+    {
+      "batch": 272,
+      "source": "Multiple lines",
+      "target": "Flera rader"
+    },
+    {
+      "batch": 272,
+      "source": "Wrap on character",
+      "target": "Radbryt vid tecken"
+    },
+    {
+      "batch": 272,
+      "source": "Line height",
+      "target": "Radhöjd"
+    },
+    {
+      "batch": 272,
+      "source": "Paragraph style alignment of multi-line text",
+      "target": "Styckejustering för flerradig text"
+    },
+    {
+      "batch": 273,
+      "source": "Uncheck to write labeling engine derived rotation on pin and NULL on unpin",
+      "target": "Avmarkera för att skriva etikettmotorns beräknade rotation när etiketten fästs och NULL när den lossas"
+    },
+    {
+      "batch": 273,
+      "source": "Data defined",
+      "target": "Datadefinierad"
+    },
+    {
+      "batch": 273,
+      "source": "Preserve data rotation values",
+      "target": "Bevara datadefinierade rotationsvärden"
+    },
+    {
+      "batch": 273,
+      "source": "No repeat",
+      "target": "Upprepa inte"
+    },
+    {
+      "batch": 273,
+      "source": "Label options",
+      "target": "Etikettalternativ"
+    },
+    {
+      "batch": 273,
+      "source": "Text orientation",
+      "target": "Textriktning"
+    },
+    {
+      "batch": 273,
+      "source": "General Settings",
+      "target": "Allmänna inställningar"
+    },
+    {
+      "batch": 273,
+      "source": "Maximum distance",
+      "target": "Maximalt avstånd"
+    },
+    {
+      "batch": 274,
+      "source": "Maximum scale, i.e. most \"zoomed in\".\nThis limit is inclusive, that means the label will be displayed on this scale.",
+      "target": "Största skala, det vill säga den mest inzoomade skalan.\nGränsen är inkluderande, vilket innebär att etiketten visas vid denna skala."
+    },
+    {
+      "batch": 274,
+      "source": "Minimum scale, i.e. most \"zoomed out\".\nThis limit is exclusive, that means the label will not be displayed on this scale.",
+      "target": "Minsta skala, det vill säga den mest utzoomade skalan.\nGränsen är exkluderande, vilket innebär att etiketten inte visas vid denna skala."
+    },
+    {
+      "batch": 274,
+      "source": "Label spacing is not available on this QGIS installation",
+      "target": "Etikettavstånd är inte tillgängligt i den här QGIS-installationen"
+    },
+    {
+      "batch": 274,
+      "source": "Duplicate Labels",
+      "target": "Dubblettetiketter"
+    },
+    {
+      "batch": 274,
+      "source": "Avoid duplicate labels",
+      "target": "Undvik dubblettetiketter"
+    },
+    {
+      "batch": 274,
+      "source": "Duplicate label removal is not available on this QGIS installation",
+      "target": "Borttagning av dubblettetiketter är inte tillgänglig i den här QGIS-installationen"
+    },
+    {
+      "batch": 274,
+      "source": "Ignore label whitespace when detecting collisions",
+      "target": "Ignorera blanksteg i etiketter när kollisioner upptäcks"
+    },
+    {
+      "batch": 275,
+      "source": "Filter by magnitude",
+      "target": "Filtrera efter magnitud"
+    },
+    {
+      "batch": 275,
+      "source": "Display on User Grid",
+      "target": "Visa i användarrutnät"
+    },
+    {
+      "batch": 275,
+      "source": "Scale by a factor of",
+      "target": "Skala med faktor"
+    },
+    {
+      "batch": 275,
+      "source": "Particles count",
+      "target": "Antal partiklar"
+    },
+    {
+      "batch": 275,
+      "source": "Multiplier",
+      "target": "Multiplikator"
+    },
+    {
+      "batch": 275,
+      "source": "Data will be multiplied by this value to be converted to knots (nautical miles per hour)",
+      "target": "Data multipliceras med detta värde för att omvandlas till knop (nautiska mil per timme)."
+    },
+    {
+      "batch": 276,
+      "source": "Can't start editing invalid layer '%1'.",
+      "target": "Det går inte att börja redigera det ogiltiga lagret '%1'."
+    },
+    {
+      "batch": 276,
+      "source": "Can't start editing layer '%1' with invalid data provider.",
+      "target": "Det går inte att börja redigera lagret '%1' med en ogiltig dataleverantör."
+    },
+    {
+      "batch": 276,
+      "source": "Can't start editing. Layer '%1' doesn't support editing.",
+      "target": "Det går inte att börja redigera. Lagret '%1' har inte stöd för redigering."
+    },
+    {
+      "batch": 276,
+      "source": "Circular relation between some layers. Correct saving order of layers can't be guaranteed",
+      "target": "Cirkulär relation mellan vissa lager. Korrekt sparordning för lagren kan inte garanteras."
+    },
+    {
+      "batch": 276,
+      "source": "Layer '%1' doesn't have a valid data provider",
+      "target": "Lagret '%1' har ingen giltig dataleverantör."
+    },
+    {
+      "batch": 277,
+      "source": "Geographic Information System",
+      "target": "Geografiskt informationssystem"
+    },
+    {
+      "batch": 277,
+      "source": "A Geographic Information System",
+      "target": "Ett geografiskt informationssystem"
+    },
+    {
+      "batch": 277,
+      "source": "QGIS Development Team",
+      "target": "QGIS utvecklingsteam"
+    },
+    {
+      "batch": 277,
+      "source": "<p>QGIS is a user friendly Open Source Geographic Information System (GIS) licensed under the GNU General Public License. QGIS is an official project of the Open Source Geospatial Foundation (OSGeo). It runs on Linux, Unix, Mac OSX, Windows and Android and supports numerous vector, raster, and database formats and functionalities.</p>\n  ",
+      "target": "QGIS är ett användarvänligt geografiskt informationssystem (GIS) med öppen källkod som är licensierat enligt GNU General Public License. QGIS är ett officiellt projekt inom Open Source Geospatial Foundation (OSGeo). Det körs på Linux, Unix, Mac OSX, Windows och Android och har stöd för ett stort antal vektor-, raster- och databasformat samt funktioner.\n  "
+    }
+  ]
+}
