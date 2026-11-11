@@ -468,6 +468,18 @@ text redan finns i flödet. De nya översättningsposterna har ID 449295,
 449297, 449299 och 449301. De är upstream-inskickade för granskning men ännu
 inte upstream-godkända.
 
+## Felsökarloggning: femtioförsta granskningsbatchen
+
+`pcsx2-sv-debug-logging-batch-51-20261111.xliff` granskar den sammanhängande
+delen för EE- och IOP-loggning. Engelska parser- och samprocessoruttryck
+ersätts med svenska fackformer, och de tekniska förkortningarna behålls där de
+är synliga namn på PS2-hårdvara och felsökarfunktioner.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, diffkontroll och
+Gitleaks passerar. Hunspell-SV markerar endast bevarade tekniknamn och
+XLIFF-entiteter. `msgfmt` kan inte tolka XLIFF och är därför inte tillämpligt.
+Batchen är lokalt granskad.
+
 ## Symbolanalys: femtionde granskningsbatchen
 
 `pcsx2-sv-symbol-analysis-batch-50-20261111.xliff` rättar den svenska
