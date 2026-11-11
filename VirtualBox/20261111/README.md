@@ -345,6 +345,10 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 118: båda aktiva meddelandena i
   `UISettingsSerializerProgress` är granskade radvis. Ingen textändring
   behövdes.
+- 2026-11-11, batch 119: samtliga 6 aktiva meddelanden i
+  `UIAcquirePublicKeyDialog` är granskade radvis. Terminologin har rättats
+  till `offentlig nyckel` i lokal commit `633f115`; ändringen är ännu inte
+  pushad till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
