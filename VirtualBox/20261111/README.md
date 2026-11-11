@@ -367,6 +367,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 125: samtliga 6 aktiva meddelanden i
   `UIMaximumGuestScreenSizeEditor` är granskade radvis. Hjälptexterna har
   förtydligats i lokal commit `28cb328` och är ännu inte pushade till PR:n.
+- 2026-11-11, batch 126: samtliga 4 aktiva meddelanden i `UIMiniToolBar` är
+  granskade radvis. Verktygsfältsterminologin har rättats i lokal commit
+  `2786bae` och ändringen är ännu inte pushad till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
