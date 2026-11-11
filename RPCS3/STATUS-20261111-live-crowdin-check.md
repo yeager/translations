@@ -15,13 +15,17 @@ markerar endast XML/källtext och etablerade facktermer.
 
 De återkommande besluten finns samlade i `TERMINOLOGY.md`.
 
-Ingen ny Crowdin-ändring skickades i denna kontroll. Vid den senaste
-åtkomstkontrollen saknades den tidigare webbsessionen och Crowdin CLI saknade
-projektkonfiguration. När en etablerad kanal åter är tillgänglig ska ändringen
-sparas och läsas tillbaka innan den räknas som inskickad.
+## Inskick 2026-11-11
+
+Den granskade rättelsen för den sammansatta Tooltip-posten sparades i Crowdins
+redigerare med kontot `yeagersthlm`. Redigeraren visade den nya texten som
+sparad av kontot för några sekunder sedan och den exakta måltexten lästes
+tillbaka. En separat osparad post som redan fanns i redigeraren lämnades
+orörd. Detta bekräftar ett sparat översättningsförslag, men inte
+granskning, godkännande eller release uppströms.
 
 ## Omkontroll 2026-11-11
 
 Deltafilen kontrollerades på nytt med XML-validering, l10n-lint, svlangs
 svengelskakontroll och skrivregler, diffkontroll och Gitleaks. Samtliga
-kontroller passerar. Ingen Crowdin-ändring har gjorts av omkontrollen.
+kontroller passerar.
