@@ -538,6 +538,17 @@ Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 över. De nya förslagen har ID 449465, 449467, 449469 och 449471. De är
 upstream-inskickade för granskning men ännu inte upstream-godkända.
 
+## Realtidsklocka: femtionionde granskningsbatchen
+
+`pcsx2-sv-real-time-clock-batch-59-20261111.xliff` förenklar hjälptexten för
+den virtuella PlayStation 2:s realtidsklocka och använder `i stället` i
+enlighet med svensk stavning.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
+diffkontroll och Gitleaks passerar. Hunspell-SV markerar bara produktnamnet
+`PlayStation` och svlangs V2-varning är en falsk positiv på en korrekt
+uppmaning. `msgfmt` kan inte tolka XLIFF och är därför inte tillämpligt.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
