@@ -1361,3 +1361,10 @@ passerar. svlang markerar tekniska termen `blit` som ovanlig; Hunspell-SV
 markerar den tekniska sammansättningen `blit-växlingskedja`. Båda är
 avsedda. `msgfmt` är inte tillämpligt på XLIFF och avvisar därför filen som
 icke-PO. Batchen är lokalt granskad.
+
+Den vanliga XLIFF-importen rapporterade 0 importerade strängar utan någon
+orsak. Samma arkiverade, exakt validerade strängar skickades därför via
+Crowdins API för översättningsförslag. Sju nya förslag skapades och
+verifierades mot respektive sträng: 449693, 449695, 449697, 449699, 449701,
+449703 och 449705. Inga förslag godkändes automatiskt; de är
+upstream-inskickade för granskning, inte upstream-godkända.
