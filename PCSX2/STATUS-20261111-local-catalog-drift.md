@@ -734,6 +734,25 @@ finns i flödet. De nya förslagen har ID 449577, 449579, 449581, 449583,
 449585, 449587 och 449589. De är upstream-inskickade för granskning men ännu
 inte upstream-godkända.
 
+## Grafik och Hardcore-läge: sjuttionde granskningsbatchen
+
+`pcsx2-sv-graphics-hardcore-batch-70-20261111.xliff` normaliserar
+versaler i grafikinställningar, förtydligar rader om dithering och rendering
+och rättar den felaktiga formen `hårdporrläge` till RetroAchievements
+`hardcoreläge`.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar utan fel. Hunspell-SV markerar bara produktnamnet `PS2` samt de
+tekniska termerna `dithering` och `vertex`; svlangs V2-varning är en falsk
+positiv för en korrekt bisats. `msgfmt` kan inte tolka XLIFF och är därför inte
+tillämpligt.
+
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+10 översättningar med 60 ord; 0 godkändes automatiskt och inga strängar hoppades
+över. De nya förslagen har ID 449591, 449593, 449595, 449597, 449599, 449601,
+449603, 449605, 449607 och 449609. De är upstream-inskickade för granskning
+men ännu inte upstream-godkända.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar

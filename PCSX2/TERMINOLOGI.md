@@ -37,3 +37,4 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | notification | avisering | Gäller PCSX2:s systemmeddelanden och tillhörande ljud. |
 | leaderboard | topplista | Gäller resultatlistor i RetroAchievements-relaterade inställningar. |
 | overlay | överlägg | Gäller informationslager som visas ovanpå spelbilden. |
+| Hardcore Mode | hardcoreläge | RetroAchievements synliga lägesnamn används som produktnamn. |
