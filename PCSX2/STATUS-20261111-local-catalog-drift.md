@@ -468,6 +468,19 @@ text redan finns i flödet. De nya översättningsposterna har ID 449295,
 449297, 449299 och 449301. De är upstream-inskickade för granskning men ännu
 inte upstream-godkända.
 
+## Shinkansen Controller: fyrtiosjunde granskningsbatchen
+
+`pcsx2-sv-shinkansen-controller-batch-47-20261111.xliff` gör texten för
+Shinkansen Controller konsekvent med de tidigare granskade
+tågförarhandkontrollerna. Kraft- och bromsaxelns steg förklaras med samma
+svenska terminologi, medan spelets och handkontrollens produktnamn behålls.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. svlangs V2-varningar är falska positiva på samordnade satser.
+Hunspell-SV markerar endast produktnamn, XLIFF-entiteten `apos` och den
+projektspecifika sammansättningen `tågförarhandkontroll`. `msgfmt` kan inte
+tolka XLIFF och är därför inte tillämpligt. Batchen är lokalt granskad.
+
 ## Densha Controller Type 2: fyrtiofemte granskningsbatchen
 
 `pcsx2-sv-densha-controller-batch-45-20261111.xliff` normaliserar den
