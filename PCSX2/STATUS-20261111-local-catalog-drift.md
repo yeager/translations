@@ -2,6 +2,12 @@
 
 Datum: 11 november 2026
 
+## Långsam uppspelning och snabbspolning: trettiotredje granskningsbatchen
+
+Katalogen blandar tidigare `slowmotion`, `slow-motion` och den redan etablerade UI-formen `långsam uppspelning`. Fem sammanhängande etiketter och hjälptexter normaliseras till `långsam uppspelning`; snabbtangenter skrivs som begripliga fraser i stället för långa sammansättningar. Snabbspolningens hjälptext får också korrekt svensk ordföljd.
+
+Lokal deltafil: `pcsx2-sv-slow-motion-batch-33-20261111.xliff` (sträng-ID 6361, 6369, 6371, 8121 och 6677). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
+
 ## Makrots tryckkänslighet: trettioandra granskningsbatchen
 
 Hjälptexten för tryckkänsliga knappmakron förenklas till idiomatisk svenska. Reglagets funktion och villkoret att makrot är aktivt bevaras.
