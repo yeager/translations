@@ -8,6 +8,10 @@ GunCon2:s hjälpruta för mus och ljuspistol rättas rad för rad. Stavfelet `ko
 
 Lokal deltafil: `pcsx2-sv-guncon2-help-batch-29-20261111.xliff` (sträng-ID 7883). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
 
+XML-validering, exakt källtextjämförelse, l10n-lint, diffkontroll och Gitleaks passerar. svlangs V2-varning och Hunspell-SV:s träffar gäller de bevarade UI- och produktnamnen `Relative Aiming` och `GunCon2`. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
+
+Crowdin-importen verifierades via API: 1 sträng och 71 ord importerades, 0 godkändes automatiskt och inget hoppades över. Det skapade, ännu ej godkända förslaget är 449203. Detta är ett upstream-inskick, inte upstream-granskning eller merge.
+
 ## Inloggningstoken för RetroAchievements: tjugoåttonde granskningsbatchen
 
 En informationsruta i inloggningsdialogen får idiomatisk svensk ordföljd och normaliserad stavning av `i stället`. Meningen delas före tokenhanteringen, vilket gör att lösenordets behandling och åtkomsttokenens roll framgår tydligt.
