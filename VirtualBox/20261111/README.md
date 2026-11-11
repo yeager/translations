@@ -364,6 +364,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 124: samtliga 6 aktiva meddelanden i
   `UIShortcutConfigurationEditor` är granskade radvis. Etiketterna har
   förbättrats i lokal commit `f7d90f7` och är ännu inte pushade till PR:n.
+- 2026-11-11, batch 125: samtliga 6 aktiva meddelanden i
+  `UIMaximumGuestScreenSizeEditor` är granskade radvis. Hjälptexterna har
+  förtydligats i lokal commit `28cb328` och är ännu inte pushade till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
