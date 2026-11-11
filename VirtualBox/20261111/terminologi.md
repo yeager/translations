@@ -27,6 +27,23 @@ sammanhanget i gränssnittet.
 | unattended installation | obevakad installation | Omfattar installation av gästoperativsystem. |
 | clone | klon | `kloningstyp` för Clone Type. |
 | graphics controller | grafikkontroller | Inte `grafikkort` när den emulerade kontrollertypen avses. |
+| serial port | seriell port | Inte `serieport`; plural `seriella portar`. |
+| remote desktop server port | fjärrskrivbordsserverport | Används som sammanhållen detaljetikett. |
+| VM exits | VM-exits | Tekniskt räknarmått, inte `VM-avslut` som kan betyda avstängda maskiner. |
+| guest CPU, VMM CPU | gäst-CPU, VMM-CPU | Exempel: `gäst-CPU-belastning`. |
+| disk I/O | disk-I/O | Behåll förkortningen `I/O`; skriv inte `disk in/ut`. |
+| drag and drop | dra-och-släpp | Bindestreck i sammansättningar, exempelvis `dra-och-släpp-läge`. |
+| cloud VM | molnmaskin | Inte `virtuell molnmaskin`; en molnmaskin är redan virtuell i denna kontext. |
+| provisioning | förbereder | Status för molnmaskin; undvik engelska `provisionerar`. |
+| terminating, terminated | avslutas, avslutad | Statusord. Använd inte `stänger av` när processen eller sessionen avslutas. |
+| public key | offentlig nyckel | Undvik direktöversättningen `publik nyckel`. |
+| secure boot | säker start | Följ projektets användargränssnitt, inte `säker uppstart`, om samma funktion avses. |
+| VFS explorer | VFS-utforskaren | Behåll förkortningen, böj den svenska efterleden. |
+| I/O cache | I/O-cache | Exempel: `värdens I/O-cache`; undvik hybridformen `I/O-cachingförmåga`. |
+| solid-state drive | SSD-enhet | Produktnära UI-term; accelerator kan placeras på `SSD`. |
+| optical disk | optisk skiva | Använd `optisk enhet` endast för själva läsaren eller drivaren. |
+| file manager | filhanterare | `filhanterarfönster` för fönstret. |
+| progress | förlopp | `förloppsnotis`, inte `progress` i löpande UI-text. |
 
 ## Format och kod
 
@@ -36,3 +53,6 @@ sammanhanget i gränssnittet.
 - Använd bindestreck där det klargör sammansättning eller förebygger tre lika
   konsonanter, till exempel `SSD-enhet`, `VirtualBox-VM` och
   `endast-värd-nätverk`.
+- Behåll synliga protokoll- och formatnamn oförändrade, till exempel
+  `NEGOTIATE`, `TLS`, `RDP`, `ATAPI`, `VSD`, `VFS`, `VDI`, `VMDK` och `QCOW`.
+  Översätt bara den förklarande löptexten runt namnet.
