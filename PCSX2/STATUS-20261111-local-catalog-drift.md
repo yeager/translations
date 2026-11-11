@@ -216,6 +216,16 @@ svenska termen i helskärm, efterbehandling och kortkommandon.
 återstående förekomsten till `TV-shader`.
 
 XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. Svlang ger 10/10; Hunspell-SV markerar endast fackordet `shader`.
+`msgfmt` är inte tillämpligt på XLIFF och avvisar därför filen som icke-PO.
+Batchen är lokalt granskad.
+
+Crowdin-importen är API-verifierad: 1 sträng och 2 ord importerades, inget
+hoppades över och 0 godkändes automatiskt. Den nya översättningsposten är
+449131, skapad 2026-11-11 12:25 UTC. Batchen är upstream-inskickad för
+granskning men inte upstream-godkänd.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
 passerar. Svlang ger 8,8/10 och markerar enbart de bevarade synliga
 inställningsnamnen; Hunspell-SV markerar samma fack- och produktnamn.
 `msgfmt` är inte tillämpligt på XLIFF och avvisar därför filen som icke-PO.
