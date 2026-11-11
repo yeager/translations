@@ -306,6 +306,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 103: samtliga 2 aktiva meddelanden i
   `UIIndicatorFloppyDisks` är granskade radvis. Ändringarna är verifierade
   lokalt i commit `884442f` och ännu inte pushade till PR:n.
+- 2026-11-11, batch 104: samtliga 2 aktiva meddelanden i
+  `UIIndicatorOpticalDisks` är granskade radvis. Ändringarna är verifierade
+  lokalt i commit `f9051f9` och ännu inte pushade till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
