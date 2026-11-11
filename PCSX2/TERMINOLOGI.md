@@ -31,3 +31,5 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | condition | villkor | Gäller felsökarens uttrycksparser, inte ett programtillstånd. |
 | ternary operator | ternär operator | Gäller felsökarens uttrycksparser. |
 | Force Feedback | Force Feedback | Synligt funktionsnamn för rattar och haptisk återkoppling; behålls på engelska i PCSX2:s gränssnitt. |
+| present | visa | Gäller visning av redan renderade bildrutor. Undvik `presentera` i grafikinställningarna. |
+| frame pacing | bildruteintervall | Gäller jämnheten i tiden mellan visade bildrutor. |

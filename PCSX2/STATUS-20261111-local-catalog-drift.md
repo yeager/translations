@@ -554,6 +554,20 @@ Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 över. Det nya förslaget har ID 449473. Det är upstream-inskickat för granskning
 men ännu inte upstream-godkänt.
 
+## Visning av bildrutor: sextionde granskningsbatchen
+
+`pcsx2-sv-frame-presentation-batch-60-20261111.xliff` rättar
+grafikinställningen för överhoppad visning av dubblettbildrutor. `Visa`
+används för redan renderade bildrutor, medan `rendera` behålls för själva
+renderingen. Hjälptexten skiljer bildrutshoppning, bildruteintervall och
+inmatningsfördröjning åt.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
+diffkontroll och Gitleaks passerar. Hunspell-SV markerar de korrekta tekniska
+sammansättningarna `bildrutegenerering`, `bildruteintervall`, `bildrutetid`
+och `bildrutshoppning`. svlangs V2-varning gäller den korrekta första satsen
+i hjälptexten. `msgfmt` kan inte tolka XLIFF och är därför inte tillämpligt.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
