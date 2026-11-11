@@ -164,6 +164,18 @@ projektets termbas anger den termen; den enda V2-varningen är en felanalys av
 en bisats. `msgfmt` är inte tillämpligt på XLIFF. Ingen ändring har ännu
 skickats upstream i detta steg.
 
+## Emuleringshastighet: femte granskningsbatchen
+
+Sju korta etiketter för EE-cykelfrekvens använde engelskt procentformat utan
+mellanrum. `pcsx2-sv-cycle-rate-percent-batch-05-20261111.xliff` infogar
+svenskt mellanrum före procenttecknet i underklocknings-, normal- och
+överklockningsvärdena. Källtexterna, talen och själva inställningarna är
+oförändrade.
+
+XML-validering, exakt källjämförelse mot den färska exporten, l10n-lint,
+svlang, Hunspell-SV, diffkontroll och Gitleaks passerar. `msgfmt` är inte
+tillämpligt på XLIFF. Ingen ändring har ännu skickats upstream i detta steg.
+
 ## Installationsguiden: tredje granskningsbatchen
 
 Installationsguidens HTML-hjälpruta för spelkataloger hade en inledande
