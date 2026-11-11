@@ -1485,4 +1485,10 @@ upstream-inskickade för granskning, men inget är upstream-godkänt ännu.
 `pcsx2-sv-save-state-consistency-batch-83-20261111.xliff` rättar sex
 sparlägessträngar. Benämningarna blir konsekventa, säkerhetskopian avser rätt
 objekt och hardcorelägets begränsningar beskriver funktionerna korrekt.
-Batchen är lokalt granskad och inväntar upstream-inskick.
+Batchen är lokalt granskad.
+
+Fyra nya Crowdin-förslag skapades via API och verifierades mot rätt strängar:
+449793, 449795, 449797 och 449799. Två strängar hoppades över som dubbletter,
+eftersom rätt förslag redan fanns: 449309 och 449311. Inga befintliga förslag
+har ändrats. Alla berörda förslag är upstream-inskickade för granskning, men
+inget är upstream-godkänt ännu.
