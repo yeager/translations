@@ -638,6 +638,12 @@ på XML-kodade HTML-taggar; Hunspell-SV markerar bara den korrekta
 sammansättningen `videobithastighet`. `msgfmt` kan inte tolka XLIFF och är
 därför inte tillämpligt.
 
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+5 översättningar med 146 ord; 0 godkändes automatiskt och inga strängar
+hoppades över. De nya förslagen har ID 449515, 449517, 449519, 449521 och
+449523. De är upstream-inskickade för granskning men ännu inte
+upstream-godkända.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
