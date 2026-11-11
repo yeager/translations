@@ -218,6 +218,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 069: samtliga 14 aktiva meddelanden i
   `UIUserNamePasswordEditor` är granskade radvis. Ändringen är verifierad
   lokalt i commit `1525891` och ännu inte pushad till PR:n.
+- 2026-11-11, batch 070: samtliga 14 aktiva meddelanden i `UIToolsItem` är
+  granskade radvis. Ändringarna är verifierade lokalt i commit `5da26bf` och
+  ännu inte pushade till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
