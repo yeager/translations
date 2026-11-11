@@ -1627,3 +1627,20 @@ tolka XLIFF och är därför inte tillämplig.
 Crowdin-inskicket verifierades via API. De skapade, ännu inte godkända,
 förslagen är 449893 och 449895. Detta är ett upstream-inskick, inte
 upstream-granskning eller merge.
+
+## Styrning av bildruteintervall: nittiotredje granskningsbatchen
+
+Inställningarna för bildruteintervall och fördröjning normaliseras i både
+inställningsdialogen och helskärmsgränssnittet. `FIFO` och `Mailbox` behålls
+som tekniska presentationslägen, medan `frame pacing`, `double buffering` och
+`triple buffering` får svenska formuleringar.
+
+Lokal deltafil: `pcsx2-sv-frame-pacing-controls-batch-93-20261111.xliff`
+(sträng-ID 4261, 11482, 11492 och 10878). XML-validering, exakt
+källtextjämförelse, l10n-lint, diffkontroll och Gitleaks passerar. svlang och
+Hunspell-SV markerar bara tekniska namn och XLIFF-markup. `msgfmt --check` kan
+inte tolka XLIFF och är därför inte tillämplig.
+
+Crowdin-inskicket verifierades via API. De skapade, ännu inte godkända,
+förslagen är 449897, 449899, 449901 och 449903. Detta är ett
+upstream-inskick, inte upstream-granskning eller merge.
