@@ -204,8 +204,13 @@ Källtexternas betydelse, HTML-entiteter och tekniska namn bevaras. Svenskt
 procentformat används i den berörda hjälprutan. XML-validering, exakt
 källjämförelse, l10n-lint, Hunspell-SV, diffkontroll och Gitleaks passerar.
 svlang markerar endast de sammansatta PCSX2-termerna som sällsynta och tre
-falska V2-varningar. `msgfmt` är inte tillämpligt på XLIFF. Ingen ändring har
-ännu skickats upstream i detta steg.
+falska V2-varningar. `msgfmt` är inte tillämpligt på XLIFF.
+
+Batchen skickades via Crowdin API till fil 15 (`pcsx2-qt_en.ts`) för `sv-SE`.
+Den skapade fyra översättningar 2026-11-11 11:38 UTC: Crowdin-ID 448993,
+448995, 448997 och 448999. Automatisk granskning var uttryckligen avstängd;
+batchen är därför inskickad men inte godkänd upstream. En omedelbar
+kontrollimport gav 0 importerade, 0 godkända och 4 hoppade över som dubbletter.
 
 ## Installationsguiden: tredje granskningsbatchen
 
