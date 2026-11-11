@@ -171,6 +171,12 @@ markerar bara produkt- och komponentnamnen PCSX2, Vector Unit, EE, VU0 och
 VU1. `msgfmt` är inte tillämpligt på XLIFF och avvisar därför filen som
 icke-PO. Batchen är lokalt granskad.
 
+Crowdin-importen är API-verifierad: 2 strängar och 94 ord importerades, inga
+strängar hoppades över och 0 godkändes automatiskt. De nya
+översättningsposterna är 449093 och 449095, båda skapade 2026-11-11 12:08
+UTC. Batchen är upstream-inskickad för granskning men inte
+upstream-godkänd.
+
 ## Patchar och CRC:er: fjärde granskningsbatchen
 
 Den projektbundna termbasen använder `patchar` för PCSX2:s användarval och
