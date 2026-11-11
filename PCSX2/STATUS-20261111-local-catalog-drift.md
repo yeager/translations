@@ -177,6 +177,18 @@ strängar hoppades över och 0 godkändes automatiskt. De nya
 UTC. Batchen är upstream-inskickad för granskning men inte
 upstream-godkänd.
 
+## Shadercache på disk: sextonde granskningsbatchen
+
+Hjälprutan för cacheinställningen blandade ihop läsning från disk med
+allmän ”laddning”. `pcsx2-sv-shader-cache-loading-batch-16-20261111.xliff`
+använder `inläsning och lagring`, vilket beskriver cachefunktionen exakt och
+undviker att ordet för nätverksnedladdning används i fel sammanhang.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. Svlang ger 10/10 och markerar bara fackordet `shaders`; Hunspell-SV
+markerar samma fackord. `msgfmt` är inte tillämpligt på XLIFF och avvisar
+därför filen som icke-PO. Batchen är lokalt granskad.
+
 ## Patchar och CRC:er: fjärde granskningsbatchen
 
 Den projektbundna termbasen använder `patchar` för PCSX2:s användarval och
