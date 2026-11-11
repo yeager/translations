@@ -13,6 +13,10 @@
   i Crowdins redigerare 2026-11-11. Redigeraren bekräftade därefter att inga
   osparade översättningar återstod och visade den sparade texten. Den väntar
   fortfarande på eventuell granskningsstatus, godkännande och release.
+- **RetroArch, Xemu Chihiro:** nio lokalt granskade styrningssträngar finns i
+  [styrningsbatchen](RetroArch/retroach-sv-xemu-chihiro-steering-batch-20261111.json).
+  De är arkiverade och väntar på att sparas samt läsas tillbaka exakt från
+  Crowdin.
 - **RetroAchievements:** de 48 lokalt granskade posterna i
   [batch 05](RetroAchievements/retroachievements-sv-20261111-ticket-workflow-batch-05.json)
   sparades i Crowdins redigerare 2026-11-11. Redigeraren bekräftade därefter
