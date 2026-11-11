@@ -16569,6 +16569,19 @@ innehåller fyra granskade poster med SHA-256
 `msgfmt`, l10n-lint och Gitleaks passerade. Batchen är lokalt arkiverad och
 väntar på manuell import.
 
+## Verifieringsexport 9 – 11 november 2026
+
+Den senaste lokala exporten, `blender-ui-ui-sv (9).po`, omfattar 40 434
+översatta meddelanden och är en syntaktiskt giltig PO-fil enligt `msgfmt`.
+Jämförelsen mot export 8 bekräftar oförändrat antal aktiva nycklar och att
+alla 178 måltavlor från den avstämda deltafilen finns exakt i export 9. Fulla
+resultat finns i `QA-EXPORT-9-20261111.md` och
+`VERIFICATION-EXPORT-9-20261111.md`.
+
+Detta verifierar den lokala exporten och de manuellt importerade ändringarna,
+men säger inte att Blenderprojektet har granskat, sammanslagit eller släppt
+dem.
+
 ## Batch 1 437 — ljudsamplingsformat
 
 Systeminställningens *Sample Format* är normaliserad till
