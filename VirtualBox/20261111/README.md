@@ -227,6 +227,8 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 072: samtliga 11 aktiva meddelanden i
   `UIMediumSizeAndPathGroupBox` är granskade radvis. Ändringarna är
   verifierade lokalt i commit `f26489a` och ännu inte pushade till PR:n.
+- 2026-11-11, batch 073: samtliga 11 aktiva meddelanden i `UIMediumItem` är
+  granskade radvis. Ingen textändring behövdes.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
