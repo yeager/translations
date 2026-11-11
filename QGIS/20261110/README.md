@@ -16,7 +16,7 @@ Status: samtliga tio batcher är uppladdade och mottagna. Transifex visar 0 oöv
 
 Efter kompletteringen begärdes en radvis granskning av också redan översatta strängar. En oförändrad källsnapshot från QGIS huvudgren finns i `raw/qgis-application-sv-github-master.ts`; den innehåller 36 407 meddelanden, varav 149 är markerade som ofärdiga i just den källsnapshoten. Den aktuella, oförändrade Transifex-exporten finns i `raw/qgis-application-sv-transifex-live-20261110.ts`; den har 36 515 XML-meddelanden, medan resursens API-attribut `string_count` är 36 514. Transifex huvudresurs är därmed inte identisk med GitHub-snapshoten. Den aktuella Transifex-resursen är auktoritativ för ändringar och uppladdning.
 
-Terminologi används från `terminology.md` samt diskussionsunderlaget `qgis-se-terminologi-for-diskussion.md`. Hittills har 4 679 av 36 514 unika strängar granskats i kontext: 195 tidigare kompletterade strängar, 4 466 unika korrigeringskandidater och 18 ytterligare strängar som bedömts korrekta utan ändring. Fem dubbla granskningsposter visade sig ha samma Transifex-ID och har slagits ihop vid beräkning och import. Återstår 31 835 strängar. Fullständig granskning av befintliga översättningar är påbörjad men ännu inte klar; statusen ovan avser endast att oöversatta strängar har kompletterats.
+Terminologi används från `terminology.md` samt diskussionsunderlaget `qgis-se-terminologi-for-diskussion.md`. Hittills har 4 680 av 36 514 unika strängar granskats i kontext: 195 tidigare kompletterade strängar, 4 467 unika korrigeringskandidater och 18 ytterligare strängar som bedömts korrekta utan ändring. Fem dubbla granskningsposter visade sig ha samma Transifex-ID och har slagits ihop vid beräkning och import. Återstår 31 834 strängar. Fullständig granskning av befintliga översättningar är påbörjad men ännu inte klar; statusen ovan avser endast att oöversatta strängar har kompletterats.
 
 `local-review-archive.md` är revisionsregistret för batcherna 044–254 och
 deras lokala commits. Det markerar uttryckligen vad som ännu inte har laddats
@@ -157,6 +157,10 @@ att tillämpa ändringen direkt.
 interpoleringsfunktion. `Interpolated (data metrics)` är sparad direkt i
 Transifex som `Interpolerad (datamått)`. `Grid (Data metrics)` saknas i den
 aktuella resursen trots att den finns i råexporten och är därför inte inskickad.
+
+2026-11-11: Batch 288 rättar versalhanteringen för metodnamnet `nearest
+neighbour` i ett QGIS-algoritmnamn. Ändringen är lokalt granskad och inte
+skickad externt.
 
 2026-11-11: Terminologilistan kompletterades med SpatiaLite, libspatialite,
 `ROWID`, miniatyr och socket från batch 253–254. Uppdateringen är lokal och
