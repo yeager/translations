@@ -21,6 +21,17 @@ inmatningsomfångsproblem, inte ett godkänt språktest.
 Nästa steg är att hämta en färsk Crowdin-export, jämföra den mot denna
 arkiverade fil och först därefter granska faktiska QA-fynd rad för rad.
 
+## Färsk export 2026-11-11
+
+En ny XLIFF-export, `pcsx2-qt_en_sv-SE.xliff`, hämtades lokalt och har nu
+arkiverats som granskningens bas. XML-valideringen passerar. Exporten innehåller
+5 345 käll- och målsegment och samtliga målsegment har status `translated`.
+
+Den ersätter den äldre arkiverade exporten med 4 087 segment. Jämförelsen visar
+1 983 nya segment, 725 borttagna segment och 58 ändrade gemensamma segment. Det
+är därför den nya exporten, inte den gamla TS-filen, som används för fortsatt
+radvis granskning. Ingen översättning har ändrats eller skickats i detta steg.
+
 ## Livekontroll 2026-11-11
 
 Den inloggade Crowdin-projektvyn för `pcsx2-emulator`, svenska, visar
