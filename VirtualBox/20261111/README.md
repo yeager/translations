@@ -495,6 +495,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
   lokalt och inväntar den samlade uppdateringen av PR #848.
 - 2026-11-11, batch 178: det enda aktiva meddelandet i
   `UIDescriptionEditor` är granskat radvis. Ingen textändring behövdes.
+- 2026-11-11, batch 179: samtliga 2 aktiva meddelanden i `UIDetailsElement`
+  är granskade radvis. Två menyåtgärder har rättats lokalt och inväntar den
+  samlade uppdateringen av PR #848.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
