@@ -244,6 +244,19 @@ Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 4 översättningar med 20 ord; 0 godkändes automatiskt. Två poster hoppades
 över av dubblettkontrollen.
 
+## Palett-texturer: tionde granskningsbatchen
+
+Tre grafiska inställningsetiketter och två tillhörande hjälprutor beskrev
+`Palette Texture Draws` med olika och delvis obegripliga formuleringar.
+`pcsx2-sv-palette-textures-batch-10-20261111.xliff` normaliserar dem till
+`ritningar med palett-texturer` och använder projektets term
+`ursprunglig upplösning`. Bindestrecket undviker en otillåten följd av tre t.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
+diffkontroll och Gitleaks passerar utan språkvarningar. `msgfmt` är inte
+tillämpligt på XLIFF. Batchen är lokalt granskad men har ännu inte skickats
+upstream.
+
 ## Installationsguiden: tredje granskningsbatchen
 
 Installationsguidens HTML-hjälpruta för spelkataloger hade en inledande
