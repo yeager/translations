@@ -434,6 +434,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 151: samtliga 2 aktiva meddelanden i
   `UIVRDEAuthLibraryEditor` är granskade radvis. Verktygstipset har rättats i
   lokal commit `5f1cf89` och är ännu inte pushat till PR:n.
+- 2026-11-11, batch 152: samtliga 5 aktiva meddelanden i
+  `UIVirtualBoxManager` är granskade radvis. Tre texter har rättats i lokal
+  commit `c761881` och är ännu inte pushade till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
