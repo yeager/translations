@@ -1416,3 +1416,9 @@ passerar. svlang och Hunspell-SV markerar enbart produktnamn och avsedda
 tekniska termer, bland annat `FXAA`, `OSD`, `shader` och `spritar`.
 `msgfmt` är inte tillämpligt på XLIFF och avvisar därför filen som icke-PO.
 Batchen är lokalt granskad.
+
+Elva nya Crowdin-förslag skapades via API och verifierades mot rätt strängar:
+449735, 449737, 449739, 449741, 449743, 449745, 449747, 449749, 449751,
+449753 och 449755. Den tolfte strängen var en dubblett: det identiska
+förslaget 432633 finns redan för rätt sträng och lämnades orört. Alla är
+upstream-inskickade för granskning, men inget är upstream-godkänt ännu.
