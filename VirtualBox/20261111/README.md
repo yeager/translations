@@ -410,6 +410,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
   `UIUSBFiltersEditor` är granskade radvis. Ingen textändring behövdes.
 - 2026-11-11, batch 142: samtliga 2 aktiva meddelanden i `UIUSBMenu` är
   granskade radvis. Ingen textändring behövdes.
+- 2026-11-11, batch 143: samtliga 2 aktiva meddelanden i
+  `UIUSBSettingsEditor` är granskade radvis. Terminologin har rättats i lokal
+  commit `8054e3e` och är ännu inte pushad till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
