@@ -214,6 +214,12 @@ inställningsnamnen; Hunspell-SV markerar samma fack- och produktnamn.
 `msgfmt` är inte tillämpligt på XLIFF och avvisar därför filen som icke-PO.
 Batchen är lokalt granskad.
 
+Crowdin-importen är API-verifierad: 8 strängar och 74 ord importerades, inga
+strängar hoppades över och 0 godkändes automatiskt. De nya
+översättningsposterna är 449115, 449117, 449119, 449121, 449123, 449125,
+449127 och 449129, alla skapade 2026-11-11 12:19 UTC. Batchen är
+upstream-inskickad för granskning men inte upstream-godkänd.
+
 XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
 passerar. Svlangs V2-varningar är falska träffar på det korrekta
 infinitivsubjektet `Att aktivera …`; Hunspell-SV markerar endast
