@@ -52,6 +52,14 @@ godkända** och **6 hoppade över** översättningar. Crowdins detaljrapport
 redovisar noll behandlade strängar för `pcsx2-qt_en.ts`. Filen har alltså nått
 upstreams importflöde, men inga av batchens ändringar har införts upstream.
 
+Efter importsvaret jämfördes deltafilen med Crowdins kompletta XLIFF-export.
+Varje måltext i den kompletta exporten har attributet `state="translated"`,
+vilket minimalfilen saknade. Attributet har lagts till i den lokala
+importkandidaten utan att någon källa eller svensk måltext har ändrats.
+XML-validering, l10n-lint, diffkontroll och Gitleaks passerar även efter
+formatändringen. En ny serverimport har ännu inte kunnat verifieras; den första
+rapporten med sex överhoppade poster avser den tidigare minimalfilen.
+
 ## Livekontroll 2026-11-11
 
 Den inloggade Crowdin-projektvyn för `pcsx2-emulator`, svenska, visar
