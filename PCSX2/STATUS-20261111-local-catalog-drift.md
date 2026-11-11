@@ -663,6 +663,23 @@ finns i flödet. De nya förslagen har ID 449525, 449527, 449529, 449531,
 449533, 449535, 449537, 449539, 449541 och 449543. De är
 upstream-inskickade för granskning men ännu inte upstream-godkända.
 
+## Överlägg, uppföljning: sextiosjätte granskningsbatchen
+
+`pcsx2-sv-overlay-followup-batch-66-20261111.xliff` rättar ytterligare
+förekomster av topplisteöverlägg i samma gränssnitt. Överlägg, topplista och
+avisering används konsekvent även i dessa dubblettsträngar.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar utan fel. Hunspell-SV markerar enbart de korrekta sammansättningarna
+`popupaviseringar` och `topplisteöverlägg`. svlangs V2-varning avser den
+korrekta meningen `Visar ikoner på skärmen ...`. `msgfmt` kan inte tolka XLIFF
+och är därför inte tillämpligt.
+
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+4 översättningar med 35 ord; 0 godkändes automatiskt och inga strängar hoppades
+över. De nya förslagen har ID 449545, 449547, 449549 och 449551. De är
+upstream-inskickade för granskning men ännu inte upstream-godkända.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
