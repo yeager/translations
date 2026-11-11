@@ -1347,3 +1347,17 @@ Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 1 översättning med 116 ord; 0 godkändes automatiskt och inga strängar
 hoppades över. Den nya översättningsposten har ID 449271. Den är
 upstream-inskickad för granskning men ännu inte upstream-godkänd.
+
+## Grafik- och minneskortsformuleringar: sjuttiofemte granskningsbatchen
+
+`pcsx2-sv-graphics-ui-wording-batch-75-20261111.xliff` rättar sju korta
+helsärmssträngar. Batchen använder projektets etablerade `blit-växlingskedja`
+och `återläsningar`, gör CPU/GPU-alternativen idiomatiska och normaliserar
+`notis` till `avisering`. Minneskortsmeddelandena har också fått rakare,
+entydig svenska.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. svlang markerar tekniska termen `blit` som ovanlig; Hunspell-SV
+markerar den tekniska sammansättningen `blit-växlingskedja`. Båda är
+avsedda. `msgfmt` är inte tillämpligt på XLIFF och avvisar därför filen som
+icke-PO. Batchen är lokalt granskad.

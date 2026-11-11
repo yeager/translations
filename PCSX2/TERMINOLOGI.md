@@ -45,3 +45,5 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | interlacing | radsprångsvisning | Används för bildsammanflätning i videoinställningar. |
 | interlace offset | radsprångsförskjutning | Gäller den separata grafikinställningen. |
 | patch | korrigering | Används för spel- och kompatibilitetskorrigeringar i UI. |
+| Blit Swap Chain | blit-växlingskedja | Tekniskt grafikval. `Blit` behålls som fackterm medan `Swap Chain` försvenskas. |
+| Spin CPU/GPU During Readbacks | Låt CPU:n/GPU:n snurra under återläsningar | Gäller det explicita energikrävande arbetet som håller hårdvaran aktiv vid återläsning. |
