@@ -393,6 +393,8 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
   ännu inte pushat till PR:n.
 - 2026-11-11, batch 135: samtliga 14 aktiva meddelanden i `UIToolsItem` är
   granskade radvis. Ingen textändring behövdes.
+- 2026-11-11, batch 136: det enda aktiva meddelandet i `UIToolsView` är
+  granskat radvis. Ingen textändring behövdes.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
