@@ -191,6 +191,21 @@ allra flesta spel` i stället för de tungrodda varianterna `majoriteten av
 spel` och `den övervägande majoriteten av alla spel`. VU-kodnamnen skrivs
 dessutom korrekt som `VU0` och `VU1` utan extra mellanslag.
 
+## Fusk- och patchvarningar: artonde granskningsbatchen
+
+Den återkommande varningen för fusk och spelpatchar var både inkonsekvent och
+delvis engelskspråkig. `pcsx2-sv-cheat-patch-warning-batch-18-20261111.xliff`
+normaliserar de fyra förekomsterna till `låsningar` för `soft-locks` och
+`skadade sparningar` för `broken saved games`. De längre varningarna använder
+också raka uppmaningar och `på egen risk` i stället för ordagranna engelska
+konstruktioner.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. Svlangs V2-varningar är falska träffar på det korrekta
+infinitivsubjektet `Att aktivera …`; Hunspell-SV markerar endast
+produktsammansättningar och PCSX2-namnet. `msgfmt` är inte tillämpligt på
+XLIFF och avvisar därför filen som icke-PO. Batchen är lokalt granskad.
+
 XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
 passerar. Svlangs träffar är falska V2-varningar för korrekta bisatser och
 infinitivfraser samt de avsiktliga komponentnamnen. Hunspell-SV markerar
