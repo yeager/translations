@@ -26,3 +26,9 @@
 - Omfattning: 35 tidigare oöversatta strängar för tidsbegränsad privilegierad åtkomst.
 - Upstream: 35 Crowdin-förslag skapade och verifierade, id `2007347`–`2007419` (med luckor i den globala id-serien). Samtliga väntar på Bitwardens granskning (`approvalStatus: null`).
 - Kontroller: platshållarkontroll, Hunspell-sv, diffkontroll och Gitleaks godkända. Hunspell träffar endast produktnamn och platshållare; msgfmt och l10n-lint är inte direkt tillämpliga på API-JSON.
+
+## 2026-11-11, batch 04
+
+- Omfattning: 34 tidigare oöversatta strängar för ansökan om tidsbegränsad åtkomst.
+- Upstream: 34 Crowdin-förslag skapade och verifierade, id `2007441`–`2007507` (udda id). Samtliga väntar på Bitwardens granskning (`approvalStatus: null`).
+- Kontroller: platshållarkontroll, Hunspell-sv, svlang, diffkontroll och Gitleaks godkända. svlangs V2-markeringar är falska positiva för UI-fragment och platshållare; msgfmt och l10n-lint är inte direkt tillämpliga på API-JSON.
