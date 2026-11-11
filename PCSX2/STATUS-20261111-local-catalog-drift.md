@@ -533,6 +533,11 @@ diffkontroll och Gitleaks passerar. Hunspell-SV markerar bara den korrekta
 formen `sparningar`. svlangs V2-varning gäller den korrekta ordföljden i
 varningstexten. `msgfmt` kan inte tolka XLIFF och är därför inte tillämpligt.
 
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+4 översättningar med 46 ord; 0 godkändes automatiskt och inga strängar hoppades
+över. De nya förslagen har ID 449465, 449467, 449469 och 449471. De är
+upstream-inskickade för granskning men ännu inte upstream-godkända.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
