@@ -10,6 +10,8 @@ Lokal deltafil: `pcsx2-sv-i-stallet-batch-26-20261111.xliff` (sträng-ID 6237, 1
 
 XML-validering, exakt källtextjämförelse, l10n-lint, diffkontroll och Gitleaks passerar. svlangs V2-varningar gäller korrekta imperativ och tekniska formuleringar. Hunspell-SV markerar endast förkortningen `TLB`. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
 
+Crowdin-importen verifierades via API: 3 strängar och 107 ord importerades, 0 godkändes automatiskt och inget hoppades över. De skapade, ännu ej godkända förslagen är 449191, 449193 och 449195. Detta är ett upstream-inskick, inte upstream-granskning eller merge.
+
 ## Cykelhastighet och procent: tjugofemte granskningsbatchen
 
 Sju synliga cykelhastighetsalternativ saknade svenskt mellanrum före procenttecknet. Etiketterna normaliseras enligt svensk typografi till exempelvis `50 % (Underklockning)`. Ingen sifferuppgift eller inställningsbetydelse ändras.
