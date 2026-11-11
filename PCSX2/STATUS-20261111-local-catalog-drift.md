@@ -468,6 +468,18 @@ text redan finns i flödet. De nya översättningsposterna har ID 449295,
 449297, 449299 och 449301. De är upstream-inskickade för granskning men ännu
 inte upstream-godkända.
 
+## Uttrycksparser: femtiofjärde granskningsbatchen
+
+`pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
+felsökardialogens villkor, parenteser, hakparenteser, tal, token och operatorer.
+Den felöversatta hakparentesraden beskriver nu rätt syntaktiskt fel, och
+`ternär operator` används i stället för den felaktiga formen `tertiär`.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, diffkontroll och
+Gitleaks passerar. Hunspell-SV markerar endast parsertermen `tokenen` och
+XLIFF-entiteten `quot`. `msgfmt` kan inte tolka XLIFF och är därför inte
+tillämpligt. Batchen är lokalt granskad.
+
 ## JogCon-inställningar: femtiotredje granskningsbatchen
 
 `pcsx2-sv-jogcon-controls-batch-53-20261111.xliff` ersätter kvarlämnade

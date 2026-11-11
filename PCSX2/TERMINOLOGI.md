@@ -28,3 +28,5 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | software rendering | programvarurendering | Gäller växlingen mellan maskinvaru- och programvarurendering. |
 | input recording | inmatningsinspelning | Gäller inspelning och uppspelning av handkontrollsinmatning. |
 | deadzone | dödzon | Gäller tröskeln för ratt- och vridningsaxlar i JogCon-inställningarna. |
+| condition | villkor | Gäller felsökarens uttrycksparser, inte ett programtillstånd. |
+| ternary operator | ternär operator | Gäller felsökarens uttrycksparser. |
