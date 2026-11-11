@@ -55,3 +55,9 @@
 - Omfattning: 25 tidigare oöversatta strängar för rotationsutlösare, anslutningsstatus och rotationshistorik.
 - Upstream: 25 Crowdin-förslag skapade och verifierade, id `2008103`–`2008151` (udda id). Samtliga väntar på Bitwardens granskning (`approvalStatus: null`).
 - Kontroller: platshållarkontroll, Hunspell-sv, svlang, diffkontroll och Gitleaks godkända. Hunspell- och svlangträffar gäller platshållare, egennamnet Bitwarden och UI-fragment; msgfmt och l10n-lint är inte direkt tillämpliga på API-JSON.
+
+## 2026-11-11, batch 09
+
+- Omfattning: 25 tidigare oöversatta strängar för rotationsåtgärder, status och historik.
+- Upstream: 25 Crowdin-förslag skapade och verifierade, id `2008153`–`2008201` (udda id). Samtliga väntar på Bitwardens granskning (`approvalStatus: null`).
+- Kontroller: platshållarkontroll, Hunspell-sv, svlang, diffkontroll och Gitleaks godkända. Hunspell- och svlangträffar gäller platshållare och UI-fragment; msgfmt och l10n-lint är inte direkt tillämpliga på API-JSON.
