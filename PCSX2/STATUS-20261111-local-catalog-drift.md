@@ -10,6 +10,8 @@ Lokal deltafil: `pcsx2-sv-cpu-sprite-rendering-batch-22-20261111.xliff` (sträng
 
 XML-validering, exakt källtextjämförelse, l10n-lint, diffkontroll och Gitleaks passerar. svlang och Hunspell-SV markerar endast den sammansatta facktermen `CPU-spriterendering`, inte svensk prosa. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
 
+Crowdin-importen verifierades via API: 6 strängar och 30 ord importerades, 0 godkändes automatiskt och inget hoppades över. De skapade, ännu ej godkända förslagen är 449137, 449139, 449141, 449143, 449145 och 449147. Detta är ett upstream-inskick, inte upstream-granskning eller merge.
+
 ## Programvarurendering av CLUT: tjugoförsta granskningsbatchen
 
 De två aktuella UI-etiketterna `Software CLUT Render` hade blandade svensk-engelska översättningar: `Mjukvarubaserad CLUT Render` och `Programvara CLUT Render`. De normaliseras till `Programvarurendering av CLUT`, i linje med den befintliga etiketten `Software CLUT Render:` → `Programvarurendering av CLUT:`. CLUT behålls som den etablerade tekniska förkortningen.
