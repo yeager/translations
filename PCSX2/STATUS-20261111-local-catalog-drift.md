@@ -1458,3 +1458,9 @@ på XLIFF och avvisar därför filen som icke-PO. Batchen är lokalt granskad.
 Tre nya Crowdin-förslag skapades via API och verifierades mot rätt strängar:
 449771, 449773 och 449775. De är upstream-inskickade för granskning, men
 inget är upstream-godkänt ännu.
+
+## Prestationsstart: åttioförsta granskningsbatchen
+
+`pcsx2-sv-achievement-startup-batch-81-20261111.xliff` rättar en otydlig
+hjälptext: sökningen sker när PCSX2 startar, inte när ett spel läses in.
+Batchen är lokalt granskad och inväntar upstream-inskick.
