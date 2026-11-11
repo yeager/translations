@@ -2,6 +2,12 @@
 
 Datum: 11 november 2026
 
+## Makrots tryckkänslighet: trettioandra granskningsbatchen
+
+Hjälptexten för tryckkänsliga knappmakron förenklas till idiomatisk svenska. Reglagets funktion och villkoret att makrot är aktivt bevaras.
+
+Lokal deltafil: `pcsx2-sv-macro-pressure-batch-32-20261111.xliff` (sträng-ID 6311). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
+
 ## Analysalternativ: trettioförsta granskningsbatchen
 
 Dialogens hjälptext får idiomatisk svensk ordföljd. Den skiljer nu också tydligt mellan den globala inställningsdialogen och dialogen för enskilda spel.
