@@ -10,6 +10,8 @@ Lokal deltafil: `pcsx2-sv-i-stallet-batch-23-20261111.xliff` (sträng-ID 3689, 3
 
 XML-validering, exakt källtextjämförelse, l10n-lint, diffkontroll och Gitleaks passerar. svlangs V2-varningar gäller korrekta imperativ och tekniska namn i UI-texterna. Hunspell-SV markerar endast tekniska namn och facktermer: DInput, DirectInput, framebuffer, SDL, XInput och `sparningsplatser`. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
 
+Crowdin-importen verifierades via API: 9 strängar och 179 ord importerades, 0 godkändes automatiskt och inget hoppades över. De skapade, ännu ej godkända förslagen är 449149, 449151, 449153, 449155, 449157, 449159, 449161, 449163 och 449165. Detta är ett upstream-inskick, inte upstream-granskning eller merge.
+
 ## CPU-spriterendering: tjugoandra granskningsbatchen
 
 Sex etiketter och hjälptexter för samma grafikfunktion hade både engelska resttermer och tre olika svenska konstruktioner. `sprite` behålls som etablerad datorspels- och grafikterm, men `render` normaliseras till `rendering`. Den befintliga, redan konsekventa etiketten `CPU Sprite Render Size:` → `Storlek för CPU-spriterendering:` styr valet.
