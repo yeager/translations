@@ -2,6 +2,14 @@
 
 Datum: 11 november 2026
 
+## Cykelhastighet och procent: tjugofemte granskningsbatchen
+
+Sju synliga cykelhastighetsalternativ saknade svenskt mellanrum före procenttecknet. Etiketterna normaliseras enligt svensk typografi till exempelvis `50 % (Underklockning)`. Ingen sifferuppgift eller inställningsbetydelse ändras.
+
+Lokal deltafil: `pcsx2-sv-cycle-rate-percent-spacing-batch-25-20261111.xliff` (sträng-ID 4233, 4235, 4237, 4239, 4241, 4243 och 4245). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
+
+XML-validering, exakt källtextjämförelse, l10n-lint, svlang, Hunspell-SV, diffkontroll och Gitleaks passerar utan språkfynd. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
+
 ## Konsol, prestationer och VSync: tjugofjärde granskningsbatchen
 
 Fem korta UI-texter innehöll antingen grammatisk felaktighet eller onödiga engelska restord. Den virtuella konsolen får rätt genus, `sparade spel` ersätts av den mer precisa formuleringen `sparningar i spelet`, och prestationshanteringen får korrekt bestämd form. `VSync` behålls som synligt tekniskt namn, medan `host` översätts till `värden` konsekvent i båda förekomsterna.
