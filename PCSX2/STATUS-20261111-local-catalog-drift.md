@@ -716,6 +716,24 @@ Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 över. De nya förslagen har ID 449567, 449569, 449571, 449573 och 449575. De
 är upstream-inskickade för granskning men ännu inte upstream-godkända.
 
+## Inspelning och bildfilter: sextionionde granskningsbatchen
+
+`pcsx2-sv-capture-filtering-batch-69-20261111.xliff` rättar inmatningen i
+inspelning och fångst, kontrastanpassad skärpning, gemener i standardval samt
+filtervalen för bilinjär filtrering och förinläsning av texturer i cache.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar utan fel. Hunspell-SV markerar endast produktnamnet `PS2` och termen
+`sprite`; svlangs V2-varning gäller den korrekta etiketten i parentes.
+`msgfmt` kan inte tolka XLIFF och är därför inte tillämpligt.
+
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+7 översättningar med 17 ord; 0 godkändes automatiskt. En sträng hoppades över
+av dubblettkontrollen, vilket bekräftar att samma korrekta formulering redan
+finns i flödet. De nya förslagen har ID 449577, 449579, 449581, 449583,
+449585, 449587 och 449589. De är upstream-inskickade för granskning men ännu
+inte upstream-godkända.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
