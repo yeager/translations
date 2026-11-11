@@ -142,3 +142,21 @@ sammanhängande hjälprutan som formella respektive längdrelaterade träffar.
 den har redan 72 dubblettfel i historiska poster. Det är ett separat
 arkivproblem och påverkar inte XLIFF-batchens XML- eller platshållarstruktur.
 Ingen ändring har ännu skickats upstream i detta steg.
+
+## Installationsguiden: tredje granskningsbatchen
+
+Installationsguidens HTML-hjälpruta för spelkataloger hade en inledande
+avslutande HTML-tagg och blandade svenska med engelska formatbeskrivningar.
+`pcsx2-sv-setup-wizard-batch-03-20261111.xliff` rättar den enda berörda
+strängen. Den använder `skivavbild` i stället för engelska `dump`, behåller
+formatnamnen Media Descriptor File och Compressed Hunks of Data, och bevarar
+den ursprungliga länken, HTML-strukturen och samtliga filändelser.
+
+XML-validering, diffkontroll och Gitleaks passerar. l10n-lint har inga fel;
+dess enda URL-varning beror på att den analyserar den XML-kodade HTML-källan
+som en sammanhängande URL, medan länken finns både i källa och mål. svlang
+tolkar HTML, filformat och URL-delar som ord och ger därför en låg, ej
+språkligt relevant poäng. Hunspell-SV markerar bara produktnamnet PCSX2 och
+den tekniska sammansättningen `Gzip-komprimerad`.
+
+Ingen ändring har ännu skickats upstream i detta steg.
