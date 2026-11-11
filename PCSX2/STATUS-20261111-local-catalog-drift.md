@@ -2,6 +2,12 @@
 
 Datum: 11 november 2026
 
+## Inloggningstoken för RetroAchievements: tjugoåttonde granskningsbatchen
+
+En informationsruta i inloggningsdialogen får idiomatisk svensk ordföljd och normaliserad stavning av `i stället`. Meningen delas före tokenhanteringen, vilket gör att lösenordets behandling och åtkomsttokenens roll framgår tydligt.
+
+Lokal deltafil: `pcsx2-sv-achievement-token-batch-28-20261111.xliff` (sträng-ID 7895). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
+
 ## Oavsiktliga dubbla mellanslag: tjugosjunde granskningsbatchen
 
 Två vanliga UI-texter har oavsiktliga dubbla mellanslag. De reduceras till ett mellanslag. Formaterade kolumner i avlusarvyn lämnas uttryckligen utanför eftersom deras mellanslag är layoutdata.
