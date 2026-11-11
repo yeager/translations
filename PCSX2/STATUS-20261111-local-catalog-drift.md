@@ -789,6 +789,25 @@ Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 449639, 449641 och 449643. De är upstream-inskickade för granskning men ännu
 inte upstream-godkända.
 
+## Skärmvisning och teckensnitt: sjuttiotredje granskningsbatchen
+
+`pcsx2-sv-osd-and-fonts-batch-73-20261111.xliff` gör Big Picture-läge,
+OSD-text, minneskortskataloger, texturersättning, ritanrop och värddatorns
+processor- och grafikanvändning konsekventa. Det korrigerar även det felaktiga
+ordet `textersättning`.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar utan fel. Hunspell-SV markerar bara OSD, Big Picture, GS och andra
+korrekta tekniska namn; svlangs V2-varning gäller en korrekt huvudmening.
+`msgfmt` kan inte tolka XLIFF och är därför inte tillämpligt.
+
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+11 översättningar med 114 ord; 0 godkändes automatiskt. Två strängar hoppades
+över av dubblettkontrollen, vilket bekräftar att samma korrekta formuleringar
+redan finns i flödet. De nya förslagen har ID 449645, 449647, 449649, 449651,
+449653, 449655, 449657, 449659, 449661, 449663 och 449665. De är
+upstream-inskickade för granskning men ännu inte upstream-godkända.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar

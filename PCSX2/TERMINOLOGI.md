@@ -40,3 +40,5 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | Hardcore Mode | hardcoreläge | RetroAchievements synliga lägesnamn används som produktnamn. |
 | Big Picture Mode | Big Picture-läge | Synligt Steam-namn bevaras. |
 | header | filhuvud | Gäller filformat och GSDump. |
+| draw call | ritanrop | Gäller GS- och renderingsstatistik. |
+| texture replacement | texturersättning | Gäller ersättningar som läses in för speltexturer. |
