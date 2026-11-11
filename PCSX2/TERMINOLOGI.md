@@ -21,3 +21,5 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | game dump, disc dump | skivavbild | Välj `skivavbild` i löptext och hjälptexter; behåll filformatnamn oförändrade. |
 | game list | spellista | Gäller PCSX2:s lista över identifierade spel. |
 | controller port | handkontrollport | Gäller konsol- och Multitap-portar. |
+| train controller | tågförarhandkontroll | Gäller Densha De Go!-kompatibla handkontroller med kraft- och bromsreglage. |
+| power lever | kraftspak | Gäller kraftreglaget på tågförarhandkontroller. |

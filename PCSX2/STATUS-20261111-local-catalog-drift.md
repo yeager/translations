@@ -468,6 +468,19 @@ text redan finns i flödet. De nya översättningsposterna har ID 449295,
 449297, 449299 och 449301. De är upstream-inskickade för granskning men ännu
 inte upstream-godkända.
 
+## Tågförarhandkontroll: fyrtionionde granskningsbatchen
+
+`pcsx2-sv-train-controller-labels-batch-49-20261111.xliff` normaliserar
+etiketter och hjälptext för Densha De Go!-kompatibla handkontroller. Den
+tidigare otydliga `Tågkontroller` ersätts med `Tågförarhandkontroll`,
+kraftspaken får rätt namn och inställningen för obearbetade axlar förklaras
+utan engelska eller tekniskt felaktiga konstruktioner.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, diffkontroll och
+Gitleaks passerar. Hunspell-SV markerar endast produktnamnet Densha och den
+projektspecifika sammansättningen `tågförarhandkontroll`. `msgfmt` kan inte
+tolka XLIFF och är därför inte tillämpligt. Batchen är lokalt granskad.
+
 ## Sparlägen: fyrtioåttonde granskningsbatchen
 
 `pcsx2-sv-save-state-wording-batch-48-20261111.xliff` rättar en grammatiskt
