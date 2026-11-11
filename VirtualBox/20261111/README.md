@@ -89,6 +89,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 028: nedladdare (7), inspelningsinställningar (31) och
   fil-/sökvägsfält (13) har granskats radvis. Ändringarna är verifierade
   lokalt i commit `73a9742` och ännu inte pushade till PR:n.
+- 2026-11-11, batch 029: USB-kontroller, menyer, inställningar och verktyg
+  (23) har granskats radvis. Ändringarna är verifierade lokalt i commit
+  `99e657b` och ännu inte pushade till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
