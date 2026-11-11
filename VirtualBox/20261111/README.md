@@ -67,6 +67,10 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
   skärminställningar (11), system- och generella maskininställningar (22)
   samt ljudinställningar (2) har granskats radvis. Ändringarna är verifierade
   lokalt i commit `6d88175` och ännu inte pushade till PR:n.
+- 2026-11-11, batch 023: tilläggspakethanteraren (14), uppdateringshanteraren
+  (11) och guiden för ny virtuell maskin (75) har granskats radvis.
+  Ändringarna är verifierade lokalt i commit `bc91842` och ännu inte pushade
+  till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
