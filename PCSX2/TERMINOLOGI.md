@@ -42,3 +42,6 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | header | filhuvud | Gäller filformat och GSDump. |
 | draw call | ritanrop | Gäller GS- och renderingsstatistik. |
 | texture replacement | texturersättning | Gäller ersättningar som läses in för speltexturer. |
+| interlacing | radsprångsvisning | Används för bildsammanflätning i videoinställningar. |
+| interlace offset | radsprångsförskjutning | Gäller den separata grafikinställningen. |
+| patch | korrigering | Används för spel- och kompatibilitetskorrigeringar i UI. |

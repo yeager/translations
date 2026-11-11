@@ -808,6 +808,25 @@ redan finns i flödet. De nya förslagen har ID 449645, 449647, 449649, 449651,
 449653, 449655, 449657, 449659, 449661, 449663 och 449665. De är
 upstream-inskickade för granskning men ännu inte upstream-godkända.
 
+## Grafikprofil: sjuttiofjärde granskningsbatchen
+
+`pcsx2-sv-graphics-profile-batch-74-20261111.xliff` återställer de
+fastställda termerna `radsprångsvisning`, `radsprångsförskjutning`,
+`bildbuffert`, `avisering` och `korrigering`. Big Picture-läge och
+texturernas förinläsning använder också samma formuleringar som i resten av
+gränssnittet.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar utan fel. Hunspell-SV och svlang markerar endast korrekta
+förkortningar, produktnamn och facktermer. `msgfmt` kan inte tolka XLIFF och
+är därför inte tillämpligt.
+
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+13 översättningar med 56 ord; 0 godkändes automatiskt och inga strängar hoppades
+över. De nya förslagen har ID 449667, 449669, 449671, 449673, 449675, 449677,
+449679, 449681, 449683, 449685, 449687, 449689 och 449691. De är
+upstream-inskickade för granskning men ännu inte upstream-godkända.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
