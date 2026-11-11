@@ -1506,3 +1506,11 @@ Nio nya Crowdin-förslag skapades via API och verifierades mot rätt strängar:
 En sträng hoppades över som dubblett eftersom rätt förslag 449619 redan finns.
 Det befintliga förslaget lämnades orört. Alla berörda förslag är
 upstream-inskickade för granskning, men inget är upstream-godkänt ännu.
+
+## Prestationsaviseringar: åttiofemte granskningsbatchen
+
+`pcsx2-sv-achievement-notification-consistency-batch-85-20261111.xliff`
+normaliserar tretton återstående prestations- och topplisteaviseringar. Den
+använder `avisering` konsekvent i både det vanliga och helskärmsbaserade
+gränssnittet och förenklar flera maskinöversatta hjälprader.
+Batchen är lokalt granskad och inväntar upstream-inskick.
