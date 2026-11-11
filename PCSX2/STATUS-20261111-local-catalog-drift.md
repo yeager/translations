@@ -270,6 +270,17 @@ tillämpligt på XLIFF. Batchen är lokalt granskad.
 Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 5 översättningar med 30 ord; 0 godkändes automatiskt och 0 hoppades över.
 
+## Grafik- och inmatningsprocent: elfte granskningsbatchen
+
+`pcsx2-sv-graphics-input-percent-batch-11-20261111.xliff` rättar svenskt
+procentformat i en grafiketikett, två inmatningsvärden och den kodade
+hjälprutan för vertikal utsträckning. HTML-entiteterna bevaras oförändrade.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
+diffkontroll och Gitleaks passerar. svlangs enda träff kommer från de
+bevarade HTML-entiteterna. `msgfmt` är inte tillämpligt på XLIFF. Batchen är
+lokalt granskad men har ännu inte skickats upstream.
+
 ## Installationsguiden: tredje granskningsbatchen
 
 Installationsguidens HTML-hjälpruta för spelkataloger hade en inledande
