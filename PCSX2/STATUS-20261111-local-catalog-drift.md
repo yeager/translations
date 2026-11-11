@@ -468,6 +468,19 @@ text redan finns i flödet. De nya översättningsposterna har ID 449295,
 449297, 449299 och 449301. De är upstream-inskickade för granskning men ännu
 inte upstream-godkända.
 
+## Inmatningsinspelning och menyer: femtioandra granskningsbatchen
+
+`pcsx2-sv-input-recording-menu-batch-52-20261111.xliff` gör
+inmatningsinspelningens statusmeddelanden idiomatiska och rättar flera
+menyalternativ. `programvarurendering`, `felsökarkonsol` och
+`blockavbild` ersätter blandade eller felaktiga engelska former.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, diffkontroll och
+Gitleaks passerar. l10n-lint noterar endast att snabbtangenterna har flyttats
+i två översatta menyer. Hunspell-SV markerar bara bevarade tekniska
+förkortningar och sammansättningen `spelpatchar`. `msgfmt` kan inte tolka
+XLIFF och är därför inte tillämpligt. Batchen är lokalt granskad.
+
 ## Felsökarloggning: femtioförsta granskningsbatchen
 
 `pcsx2-sv-debug-logging-batch-51-20261111.xliff` granskar den sammanhängande

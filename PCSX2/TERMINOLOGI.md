@@ -25,3 +25,5 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | power lever | kraftspak | Gäller kraftreglaget på tågförarhandkontroller. |
 | demangle | demangla | Felsökarterm; behåll den etablerade tekniska formen och böj som `demanglade`. |
 | trace logging | spårningsloggning | Gäller felsökarens globala loggningsinställning. |
+| software rendering | programvarurendering | Gäller växlingen mellan maskinvaru- och programvarurendering. |
+| input recording | inmatningsinspelning | Gäller inspelning och uppspelning av handkontrollsinmatning. |
