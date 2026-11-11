@@ -14,5 +14,7 @@ passerar. Hunspell-SV markerar bara spelnamnen och fackordet `innerzon`.
 svlangs återstående varningar gäller kolon i de engelska förlagorna, medan
 den svenska texten har skrivits om med normal svensk meningsbyggnad.
 
-Batchen är arkiverad och redo att sparas i Crowdin. Sparresultat och exakt
-läsning tillbaka från servern dokumenteras efter importen.
+Batchen sparades i Crowdins redigerare 2026-11-11. Redigeraren bekräftade
+`Successfully added 9 translations`, visade `No unsaved translations` och
+läste tillbaka den längsta måltexten exakt. Översättningarna väntar nu på
+eventuell uppströmsgranskning, godkännande och release.
