@@ -408,7 +408,10 @@ gränser*. Deltafilen
 kontrollerad. `msgfmt`, l10n-lint, diffkontroll och Gitleaks passerade utan
 fel. Hunspell och svlang noterar endast den giltiga sammansättningen
 *ytgränser*. Blender-TM:n är synkad och pushad i commit `1c2e323`. Ingen
-Blender Translate-import är ännu verifierad för batchen.
+Blender Translate-import är ännu verifierad för batchen. Export 8, hämtad
+10 november, innehåller fortfarande den äldre formuleringen *Stöd ytors
+gränser*; den bekräftar alltså att denna deltafil ännu inte ingår i den
+exporten.
 
 ## Batch 1 725 – Filmmenyn (ersatt)
 
