@@ -238,7 +238,11 @@ bevarar alla Qt-platsmarkörer, bildfrekvenser samt NTSC och PAL.
 XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
 diffkontroll och Gitleaks passerar. svlang listar bara NTSC och PAL som
 sällsynta ord. `msgfmt` är inte tillämpligt på XLIFF. Batchen är lokalt
-granskad men har ännu inte skickats upstream.
+granskad.
+
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+4 översättningar med 20 ord; 0 godkändes automatiskt. Två poster hoppades
+över av dubblettkontrollen.
 
 ## Installationsguiden: tredje granskningsbatchen
 
