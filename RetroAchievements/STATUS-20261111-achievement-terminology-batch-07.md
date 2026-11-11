@@ -16,5 +16,10 @@ inte tillämpligt på JSON-deltat. Svlang analyserades men ger falska V2-larm f�
 korrekta bisatser, passiva former och platshållarled; den har därför inte
 använts som ensam grund för ändringarna.
 
-Arkivstatus: lokalt granskat och arkiverat. Upstream-inskick, godkännande och
-publicerad projektversion redovisas separat först när de kan verifieras.
+Arkivstatus: lokalt granskat, arkiverat och pushat till vårt arkiv.
+
+Upstream-inskick: 20 Crowdin-förslag skapades via API den 11 november 2026,
+med översättnings-id `89045` till `89083` (udda id:n, inklusive båda
+pluralformerna för sträng `7825`). En efterföljande API-avläsning bekräftade
+alla 20 måltexter. Samtliga är fortfarande förslag (`isApproved: false`);
+godkännande, merge och publicerad projektversion är inte verifierade.
