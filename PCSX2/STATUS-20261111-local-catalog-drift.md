@@ -457,7 +457,13 @@ för sökkataloger använder `genomsöks efter spel`.
 
 XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
 diffkontroll och Gitleaks passerar utan varningar. `msgfmt` är inte
-tillämpligt på XLIFF. Batchen är lokalt granskad och väntar på Crowdin-import.
+tillämpligt på XLIFF. Batchen är lokalt granskad.
+
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+3 översättningar med 11 ord; 0 godkändes automatiskt och inga strängar
+hoppades över. De nya översättningsposterna har ID 449289, 449291 och
+449293. De är upstream-inskickade för granskning men ännu inte
+upstream-godkända.
 
 ## Installationsguiden: fyrtioandra granskningsbatchen
 
