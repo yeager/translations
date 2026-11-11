@@ -29,3 +29,8 @@ sträng `6232407` blev översättning `2987975`, `6232409` blev `2987977`,
 `2987983`. API-avläsningen bekräftade exakt måltext för alla fem.
 Översättningarna är ännu inte godkända (`isApproved: false`); merge och
 publicerad projektversion är därför inte verifierade.
+
+Verifiering efter inskick: Crowdins komponentstatus visar nu 209 av 209
+strängar och 1 581 av 1 581 ord översatta (`translationProgress: 100`).
+Komponenten har endast 2 % godkänd översättning, så denna status innebär inte
+att ändringarna har granskats, mergats eller släppts uppströms.
