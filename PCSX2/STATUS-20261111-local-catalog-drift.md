@@ -284,6 +284,18 @@ lokalt granskad.
 Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 3 översättningar med 17 ord; 0 godkändes automatiskt och 0 hoppades över.
 
+## USB-färgetiketter: tolfte granskningsbatchen
+
+Fyra Buzz-kontrollsetiketter använde `Orange` med engelsk versal. Svenska
+färgnamn skrivs med liten bokstav i den här UI-kontexten, så
+`pcsx2-sv-usb-orange-labels-batch-12-20261111.xliff` använder konsekvent
+`Spelare 1 orange` till `Spelare 4 orange`.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
+diffkontroll och Gitleaks passerar utan språkvarningar. `msgfmt` är inte
+tillämpligt på XLIFF. Batchen är lokalt granskad men har ännu inte skickats
+upstream.
+
 ## Installationsguiden: tredje granskningsbatchen
 
 Installationsguidens HTML-hjälpruta för spelkataloger hade en inledande
