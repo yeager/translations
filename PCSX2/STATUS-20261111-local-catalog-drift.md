@@ -106,6 +106,17 @@ den här rättningen utan en projektgodkänd metod för dubbletter. Varken röst
 eller godkännande har utförts. Upstream-status för den lokala batchen är därför
 fortfarande: **ej införd**.
 
+## API-kontroll av första åtgärdsbatchen
+
+Crowdin API kontrollerades därefter direkt för samtliga sex sträng-ID:n i
+första åtgärdsbatchen. Varje korrekt måltext finns redan som en fristående
+svensk översättning: den korrigerade inmatningsprofilen, det oförändrade
+Qt-formatet `%1x%2 (%3x)`, båda Vulkan-namnen, tidsformatet `{}s` och USB-
+etiketten `B 1`. De felaktiga äldre alternativen finns samtidigt kvar i
+historiken. Resultatet förklarar de tidigare dubblettavvisningarna och
+innebär att batchen inte ska skickas för tredje gången. Ingen röstning eller
+godkännande har utförts.
+
 ## TS-export kontrollerad på nytt
 
 Filen `pcsx2-qt_sv-SE.ts` i Hämtade kontrollerades på nytt den 11 november.
