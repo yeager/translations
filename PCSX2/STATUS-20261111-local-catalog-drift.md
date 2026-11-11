@@ -608,6 +608,17 @@ Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 hoppades över. De nya förslagen har ID 449503, 449505 och 449507. De är
 upstream-inskickade för granskning men ännu inte upstream-godkända.
 
+## Hardcore-läge och spellista: sextiotredje granskningsbatchen
+
+`pcsx2-sv-hardcore-and-gamelist-batch-63-20261111.xliff` rättar
+RetroAchievements-dialogen, inloggningsfelet och valet av standardvy.
+`Sparläge`, `långsam uppspelning` och `topplista` följer projektets
+terminologi, medan Hardcore-läget behålls som synligt lägesnamn.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
+diffkontroll och Gitleaks passerar utan markeringar. `msgfmt` kan inte tolka
+XLIFF och är därför inte tillämpligt.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
