@@ -585,12 +585,13 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
   `UISettingsPageValidator` är granskade radvis. Texterna har rättats lokalt
   och inväntar den samlade uppdateringen av PR #848.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
-  `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
-  granskningscommitar. GitHub har bekräftat mottagandet.
+  `c63b77c5319f3c46e88b67fd1d5d5b4bc6cd717d` efter den fullständiga
+  radgranskningen. GitHub har bekräftat mottagandet och `oca/oracle` är köad.
 - Commithistoriken rättades därefter till `po@danielnylander.se` utan att
   kataloginnehållet ändrades. `oca/oracle` är godkänd för den aktuella
   huvudrevisionen.
-- PR:n är öppen och ännu inte granskad eller mergad.
+- PR:n är öppen och ännu inte granskad eller mergad. Se även
+  [slutverifieringen](final-verification.md).
 - Råfilerna i `../VirtualBox/` är historiska och har inte skrivits över.
 
 ## Kontroller för batch 001
