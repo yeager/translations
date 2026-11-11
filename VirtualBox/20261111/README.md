@@ -203,6 +203,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 064: samtliga 18 aktiva meddelanden i `UIMediumSelector`
   är granskade radvis. Ändringarna är verifierade lokalt i commit `eb32cfc`
   och ännu inte pushade till PR:n.
+- 2026-11-11, batch 065: samtliga 17 aktiva meddelanden i `UIHostComboEditor`
+  är granskade radvis. Ändringen är verifierad lokalt i commit `e265627` och
+  ännu inte pushad till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
