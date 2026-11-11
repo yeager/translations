@@ -2,6 +2,14 @@
 
 Datum: 11 november 2026
 
+## CPU-spriterendering: tjugoandra granskningsbatchen
+
+Sex etiketter och hjälptexter för samma grafikfunktion hade både engelska resttermer och tre olika svenska konstruktioner. `sprite` behålls som etablerad datorspels- och grafikterm, men `render` normaliseras till `rendering`. Den befintliga, redan konsekventa etiketten `CPU Sprite Render Size:` → `Storlek för CPU-spriterendering:` styr valet.
+
+Lokal deltafil: `pcsx2-sv-cpu-sprite-rendering-batch-22-20261111.xliff` (sträng-ID 8299, 8303, 8305, 10522, 17359 och 17361). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
+
+XML-validering, exakt källtextjämförelse, l10n-lint, diffkontroll och Gitleaks passerar. svlang och Hunspell-SV markerar endast den sammansatta facktermen `CPU-spriterendering`, inte svensk prosa. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
+
 ## Programvarurendering av CLUT: tjugoförsta granskningsbatchen
 
 De två aktuella UI-etiketterna `Software CLUT Render` hade blandade svensk-engelska översättningar: `Mjukvarubaserad CLUT Render` och `Programvara CLUT Render`. De normaliseras till `Programvarurendering av CLUT`, i linje med den befintliga etiketten `Software CLUT Render:` → `Programvarurendering av CLUT:`. CLUT behålls som den etablerade tekniska förkortningen.
