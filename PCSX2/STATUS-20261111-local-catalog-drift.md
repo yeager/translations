@@ -154,6 +154,23 @@ den har redan 72 dubblettfel i historiska poster. Det är ett separat
 arkivproblem och påverkar inte XLIFF-batchens XML- eller platshållarstruktur.
 Ingen ändring har ännu skickats upstream i detta steg.
 
+## VU-avrundning: femtonde granskningsbatchen
+
+Två hjälprutor för Emotion Engines vektorenheter innehöll den oidiomatiska
+slutfrasen `kommer orsaka instabilitet och/eller kraschar`. Båda använder nu
+`kommer att orsaka instabilitet och/eller krascher`. Samtidigt har den
+onödigt tungrodda formuleringen `den övervägande majoriteten av alla spel`
+förkortats till `de allra flesta spel`, utan att innebörd eller kodnamnen
+VU0 och VU1 ändras.
+
+`pcsx2-sv-vu-rounding-stability-batch-15-20261111.xliff` är XML-validerad,
+har exakt samma källsträngar som den lokala exporten och passerar l10n-lint,
+diffkontroll och Gitleaks. Svlang markerar endast en falsk V2-varning i en
+infinitivfras bakom den bevarade XML-kodade HTML-taggen. Hunspell-SV
+markerar bara produkt- och komponentnamnen PCSX2, Vector Unit, EE, VU0 och
+VU1. `msgfmt` är inte tillämpligt på XLIFF och avvisar därför filen som
+icke-PO. Batchen är lokalt granskad.
+
 ## Patchar och CRC:er: fjärde granskningsbatchen
 
 Den projektbundna termbasen använder `patchar` för PCSX2:s användarval och
