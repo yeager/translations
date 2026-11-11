@@ -176,6 +176,21 @@ XML-validering, exakt källjämförelse mot den färska exporten, l10n-lint,
 svlang, Hunspell-SV, diffkontroll och Gitleaks passerar. `msgfmt` är inte
 tillämpligt på XLIFF. Ingen ändring har ännu skickats upstream i detta steg.
 
+## Inställningsdialoger: sjätte granskningsbatchen
+
+`pcsx2-sv-settings-copy-batch-06-20261111.xliff` rättar sex fristående
+problem i inställningsdialogerna: två felmeddelanden med dubbelt mellanrum,
+en felböjd handkontrollsetikett, en otymplig återställningsfråga, den
+dubblerade formuleringen i gränssnittshjälpen och en upprepning i
+teckensnittsdialogen. HTML-entiteter och radbrytningen före platsmarkören
+`{}` bevaras.
+
+XML-validering, exakt källjämförelse mot den färska exporten, l10n-lint,
+Hunspell-SV, diffkontroll och Gitleaks passerar. svlang markerar bara tre
+falska V2-varningar i annars korrekta huvudsatser och i XML-kodad HTML.
+`msgfmt` är inte tillämpligt på XLIFF. Ingen ändring har ännu skickats
+upstream i detta steg.
+
 ## Installationsguiden: tredje granskningsbatchen
 
 Installationsguidens HTML-hjälpruta för spelkataloger hade en inledande
