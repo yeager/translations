@@ -212,6 +212,19 @@ Den skapade fyra översättningar 2026-11-11 11:38 UTC: Crowdin-ID 448993,
 batchen är därför inskickad men inte godkänd upstream. En omedelbar
 kontrollimport gav 0 importerade, 0 godkända och 4 hoppade över som dubbletter.
 
+## Helskärmsläge: åttonde granskningsbatchen
+
+`pcsx2-sv-fullscreen-speed-percent-batch-08-20261111.xliff` normaliserar
+svenskt procentformat i 23 hastighetsetiketter i helskärmsgränssnittet. Den
+enda förändringen är mellanrummet före procenttecknet, exempelvis `100 %`
+i stället för `100%`. Bildfrekvenserna, standardmarkeringen, NTSC, PAL och
+den faktiska procentnivån lämnas orörda.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
+diffkontroll och Gitleaks passerar. svlang listar enbart NTSC och PAL som
+sällsynta ord. `msgfmt` är inte tillämpligt på XLIFF. Batchen är lokalt
+granskad men har ännu inte skickats upstream.
+
 ## Installationsguiden: tredje granskningsbatchen
 
 Installationsguidens HTML-hjälpruta för spelkataloger hade en inledande
