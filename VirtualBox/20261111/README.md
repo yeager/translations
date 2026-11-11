@@ -212,6 +212,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 067: samtliga 18 aktiva meddelanden i
   `UITakeSnapshotDialog` är granskade radvis. Ändringarna är verifierade
   lokalt i commit `766be4d` och ännu inte pushade till PR:n.
+- 2026-11-11, batch 068: samtliga 15 aktiva meddelanden i
+  `UIFDCreationDialog` är granskade radvis. Ändringarna är verifierade lokalt
+  i commit `dc64857` och ännu inte pushade till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
