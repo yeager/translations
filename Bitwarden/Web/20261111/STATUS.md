@@ -73,3 +73,9 @@
 - Omfattning: 25 tidigare oöversatta strängar för målsystem, sessioner och Privileged Controls.
 - Upstream: 25 Crowdin-förslag skapade och verifierade, id `2008253`–`2008301` (udda id). Samtliga väntar på Bitwardens granskning (`approvalStatus: null`).
 - Kontroller: platshållarkontroll, Hunspell-sv, svlang, diffkontroll och Gitleaks godkända. Hunspell- och svlangträffar gäller produktnamn, egennamn och platshållare; msgfmt och l10n-lint är inte direkt tillämpliga på API-JSON.
+
+## 2026-11-11, batch 12
+
+- Omfattning: 25 tidigare oöversatta strängar för målsystemens konfiguration och åtkomstanslutningar.
+- Upstream: 25 Crowdin-förslag skapade och verifierade, id `2008303`–`2008351` (udda id). Samtliga väntar på Bitwardens granskning (`approvalStatus: null`).
+- Kontroller: platshållarkontroll, Hunspell-sv, svlang, diffkontroll och Gitleaks godkända. Hunspellträffen gäller egennamnet Entra; msgfmt och l10n-lint är inte direkt tillämpliga på API-JSON.
