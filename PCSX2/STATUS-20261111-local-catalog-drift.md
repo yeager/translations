@@ -298,6 +298,18 @@ tillämpligt på XLIFF. Batchen är lokalt granskad.
 Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 4 översättningar med 12 ord; 0 godkändes automatiskt och 0 hoppades över.
 
+## JogCon-riktningsknappar: trettonde granskningsbatchen
+
+JogCon var den enda kontrolltypen som lämnade `D-Pad` på engelska, medan
+övriga PS2- och USB-kontroller konsekvent använder `Riktningsknappar`.
+`pcsx2-sv-jogcon-directional-buttons-batch-13-20261111.xliff` normaliserar
+den enda avvikelsen.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
+diffkontroll och Gitleaks passerar. l10n-lint rapporterar endast den väntade
+längdskillnaden mot den engelska förkortningen. `msgfmt` är inte tillämpligt
+på XLIFF. Batchen är lokalt granskad men har ännu inte skickats upstream.
+
 ## Installationsguiden: tredje granskningsbatchen
 
 Installationsguidens HTML-hjälpruta för spelkataloger hade en inledande
