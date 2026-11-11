@@ -120,3 +120,25 @@ VRAM-adressen.` i den nyare, kompletta XLIFF-exporten
 `pcsx2-qt_en_sv-SE.xliff`. TS-filen är därför inte en grund för en ny
 importfil. XML-validering, `lrelease` och Gitleaks passerade för TS-filen.
 Ingen översättning ändrades eller skickades i denna kontroll.
+
+## Ljudtidssträckning: andra granskningsbatchen
+
+Två hjälprutor för SoundTouch-ljudtidssträckaren innehöll en språkligt
+bristfällig formulering och saknade mellanrum före procenttecknet. De har
+granskats i sin respektive Qt- och HTML-kontext och samlats i
+`pcsx2-sv-audio-time-stretch-batch-02-20261111.xliff`:
+
+- `AudioSettingsWidget` anger nu tydligt att det är emuleringen som körs med
+  en annan hastighet än 100 %.
+- `AudioStretchSettingsDialog` använder samma formulering i den bevarade
+  HTML-hjälptexten.
+
+Batchen har två strängar. XML-validering, l10n-lint, diffkontroll och
+Gitleaks passerar. Hunspell-SV markerar endast den avsiktliga sammansättningen
+`SoundTouch-ljudtidssträckarens`; svlang tolkar HTML-entiteterna och den
+sammanhängande hjälprutan som formella respektive längdrelaterade träffar.
+`msgfmt` är inte tillämpligt på XLIFF. Den äldre arkiverade PO-filen
+`pcsx2-reviewed-crowdin-20260920.po` kan inte heller användas som surrogat:
+den har redan 72 dubblettfel i historiska poster. Det är ett separat
+arkivproblem och påverkar inte XLIFF-batchens XML- eller platshållarstruktur.
+Ingen ändring har ännu skickats upstream i detta steg.
