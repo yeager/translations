@@ -481,6 +481,11 @@ passerar. svlangs V2-varningar är falska positiva; dess markering av
 endast samma filändelse. `msgfmt` kan inte tolka XLIFF och är därför inte
 tillämpligt. Batchen är lokalt granskad.
 
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+4 översättningar med 59 ord; 0 godkändes automatiskt och inga strängar hoppades
+över. De nya förslagen har ID 449309, 449311, 449313 och 449315. De är
+upstream-inskickade för granskning men ännu inte upstream-godkända.
+
 ## Shinkansen Controller: fyrtiosjunde granskningsbatchen
 
 `pcsx2-sv-shinkansen-controller-batch-47-20261111.xliff` gör texten för
