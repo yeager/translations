@@ -459,7 +459,14 @@ läggs till `i` respektive meny.
 XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
 passerar. svlang ger 10/10 och Hunspell-SV markerar endast produktnamnet
 PCSX2. `msgfmt` är inte tillämpligt på XLIFF. Batchen är lokalt granskad och
-väntar på Crowdin-import.
+arkiverad och pushad.
+
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+4 översättningar med 7 ord; 0 godkändes automatiskt. Fyra strängar hoppades
+över av Crowdins dubblettkontroll, vilket bekräftar att motsvarande korrekta
+text redan finns i flödet. De nya översättningsposterna har ID 449295,
+449297, 449299 och 449301. De är upstream-inskickade för granskning men ännu
+inte upstream-godkända.
 
 ## Spelkataloger: fyrtiotredje granskningsbatchen
 
