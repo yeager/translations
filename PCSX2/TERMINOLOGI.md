@@ -38,3 +38,5 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | leaderboard | topplista | Gäller resultatlistor i RetroAchievements-relaterade inställningar. |
 | overlay | överlägg | Gäller informationslager som visas ovanpå spelbilden. |
 | Hardcore Mode | hardcoreläge | RetroAchievements synliga lägesnamn används som produktnamn. |
+| Big Picture Mode | Big Picture-läge | Synligt Steam-namn bevaras. |
+| header | filhuvud | Gäller filformat och GSDump. |

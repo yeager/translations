@@ -772,6 +772,23 @@ Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 449623 och 449625. De är upstream-inskickade för granskning men ännu inte
 upstream-godkända.
 
+## Statusmeddelanden: sjuttioandra granskningsbatchen
+
+`pcsx2-sv-status-messages-batch-72-20261111.xliff` rättar fel för filhuvuden
+och återupptagningssparlägen, förtydligar att ljud går till värddatorn och
+normaliserar Big Picture-läge samt tågkontrollens färdriktare.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar utan fel. svlang ger 10,0 av 10 i naturlighetspoäng. Hunspell-SV
+markerar endast produktnamn och korrekta tekniska sammansättningar. `msgfmt`
+kan inte tolka XLIFF och är därför inte tillämpligt.
+
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+9 översättningar med 81 ord; 0 godkändes automatiskt och inga strängar hoppades
+över. De nya förslagen har ID 449627, 449629, 449631, 449633, 449635, 449637,
+449639, 449641 och 449643. De är upstream-inskickade för granskning men ännu
+inte upstream-godkända.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
