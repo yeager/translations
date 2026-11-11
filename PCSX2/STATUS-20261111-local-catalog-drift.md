@@ -448,6 +448,17 @@ hoppades över. De nya översättningsposterna har ID 449273, 449275, 449277,
 449279, 449281 och 449283. De är upstream-inskickade för granskning men ännu
 inte upstream-godkända.
 
+## Spelkataloger: fyrtiotredje granskningsbatchen
+
+`pcsx2-sv-search-directories-batch-43-20261111.xliff` ersätter den tekniska
+formuleringen `Sök rekursivt` med det konkreta gränssnittsalternativet
+`Sök i underkataloger` i både tabellkolumnen och följdfrågan. Hjälpetiketten
+för sökkataloger använder `genomsöks efter spel`.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
+diffkontroll och Gitleaks passerar utan varningar. `msgfmt` är inte
+tillämpligt på XLIFF. Batchen är lokalt granskad och väntar på Crowdin-import.
+
 ## Installationsguiden: fyrtioandra granskningsbatchen
 
 `pcsx2-sv-setup-wizard-help-batch-42-20261111.xliff` förtydligar de längre
