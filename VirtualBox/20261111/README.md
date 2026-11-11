@@ -506,6 +506,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
   inväntar den samlade uppdateringen av PR #848.
 - 2026-11-11, batch 182: samtliga 3 aktiva meddelanden i `UIDownloader` är
   granskade radvis. Ingen textändring behövdes.
+- 2026-11-11, batch 183: samtliga 2 aktiva meddelanden i
+  `UIDownloaderExtensionPack` är granskade radvis. Ingen textändring
+  behövdes.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
