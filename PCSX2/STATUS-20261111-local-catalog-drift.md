@@ -8,6 +8,10 @@ Katalogen blandar tidigare `slowmotion`, `slow-motion` och den redan etablerade 
 
 Lokal deltafil: `pcsx2-sv-slow-motion-batch-33-20261111.xliff` (sträng-ID 6361, 6369, 6371, 8121 och 6677). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
 
+XML-validering, exakt källtextjämförelse, l10n-lint, Hunspell-SV, diffkontroll och Gitleaks passerar. svlangs enda varning gäller en avsiktlig passiv form i en kort inställningsbeskrivning. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
+
+Crowdin-importen verifierades via API: 5 strängar och 32 ord importerades, 0 godkändes automatiskt och inget hoppades över. De skapade, ännu ej godkända förslagen är 449215, 449217, 449219, 449221 och 449223. Detta är ett upstream-inskick, inte upstream-granskning eller merge.
+
 ## Makrots tryckkänslighet: trettioandra granskningsbatchen
 
 Hjälptexten för tryckkänsliga knappmakron förenklas till idiomatisk svenska. Reglagets funktion och villkoret att makrot är aktivt bevaras.
