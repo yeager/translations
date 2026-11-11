@@ -13,10 +13,11 @@
   i Crowdins redigerare 2026-11-11. Redigeraren bekräftade därefter att inga
   osparade översättningar återstod och visade den sparade texten. Den väntar
   fortfarande på eventuell granskningsstatus, godkännande och release.
-- **RetroAchievements:** 48 lokalt granskade, oöversatta poster i
-  ärendeflödet väntar i
-  [batch 05](RetroAchievements/retroachievements-sv-20261111-ticket-workflow-batch-05.json).
-  Ingen av dem har sparats eller verifierats i Crowdin.
+- **RetroAchievements:** de 48 lokalt granskade posterna i
+  [batch 05](RetroAchievements/retroachievements-sv-20261111-ticket-workflow-batch-05.json)
+  sparades i Crowdins redigerare 2026-11-11. Redigeraren bekräftade därefter
+  `No unsaved translations`; de väntar på eventuell uppströmsgranskning,
+  godkännande och release.
 - **RPCS3:** rättelsen i
   [renderingsdeltat](RPCS3/rpcs3_sv-SE_crowdin-20261109-rendering-terminology.ts)
   sparades i Crowdins redigerare 2026-11-11. Texten med *rendera ungefärlig
