@@ -2,6 +2,12 @@
 
 Datum: 11 november 2026
 
+## SoundTouch-tidssträckning: trettionde granskningsbatchen
+
+Tre sammanhängande ljudinställningar normaliseras till den etablerade termen `tidssträckning`, som även används i termbasen och i närliggande emulatorprojekt. `SoundTouch` behålls som produktnamn. Texten förklarar nu att ljudet sträcks eller krymps för att hålla bufferten inom gränserna, och procenttecknet får korrekt svenskt mellanrum.
+
+Lokal deltafil: `pcsx2-sv-soundtouch-tidsstrackning-batch-30-20261111.xliff` (sträng-ID 3429, 11270 och 11324). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
+
 ## GunCon2-hjälptext: tjugonionde granskningsbatchen
 
 GunCon2:s hjälpruta för mus och ljuspistol rättas rad för rad. Stavfelet `kontrollera` ersätts med `handkontroll`, `Om inte` med korrekt `Annars` och `i stället` följer svensk stavning. `Relative Aiming` bevaras som synligt Sony-relaterat UI-namn.
