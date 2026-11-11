@@ -2,6 +2,14 @@
 
 Datum: 11 november 2026
 
+## Programvarurendering av CLUT: tjugoförsta granskningsbatchen
+
+De två aktuella UI-etiketterna `Software CLUT Render` hade blandade svensk-engelska översättningar: `Mjukvarubaserad CLUT Render` och `Programvara CLUT Render`. De normaliseras till `Programvarurendering av CLUT`, i linje med den befintliga etiketten `Software CLUT Render:` → `Programvarurendering av CLUT:`. CLUT behålls som den etablerade tekniska förkortningen.
+
+Lokal deltafil: `pcsx2-sv-software-clut-render-batch-21-20261111.xliff` (sträng-ID 8307 och 6535). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
+
+XML-validering, exakt källtextjämförelse, l10n-lint, diffkontroll och Gitleaks passerar. svlang och Hunspell-SV markerar endast den tekniska förkortningen `CLUT`, inte svensk prosa. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
+
 Den lokala filen `pcsx2-qt_sv-SE.ts` kontrollerades inför nästa
 kvalitetsgranskning. Den innehåller 4 057 meddelanden, varav 202 är markerade
 `unfinished`. `l10n-lint` rapporterar därför 202 saknade översättningar, men
