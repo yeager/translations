@@ -592,7 +592,8 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
   kataloginnehållet ändrades. `oca/oracle` är godkänd för den aktuella
   huvudrevisionen.
 - PR:n är öppen och ännu inte granskad eller mergad; GitHub rapporterar
-  merge-statusen `BLOCKED`. Se även [slutverifieringen](final-verification.md).
+  merge-statusen `BLOCKED`, men `mergeable: true`; det finns alltså ingen
+  verifierad mergekonflikt. Se även [slutverifieringen](final-verification.md).
 - Råfilerna i `../VirtualBox/` är historiska och har inte skrivits över.
 
 ## Kontroller för batch 001

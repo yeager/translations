@@ -35,4 +35,6 @@ Den samlade katalogändringen är pushad till PR #848:s källgren
 PR [#848](https://github.com/VirtualBox/virtualbox/pull/848) är öppen mot
 `main`. GitHub bekräftar rätt huvudrevision och kontrollen `oca/oracle` är
 godkänd. PR:n är ännu inte granskad eller mergad; GitHub rapporterar
-merge-statusen `BLOCKED`.
+merge-statusen `BLOCKED`. GitHub rapporterar samtidigt `mergeable: true`, så
+det finns ingen verifierad mergekonflikt; blockeringen hör till upstreams
+merge- eller granskningsflöde.
