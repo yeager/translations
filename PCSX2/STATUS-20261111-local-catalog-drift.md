@@ -8,6 +8,10 @@ En informationsruta i inloggningsdialogen får idiomatisk svensk ordföljd och n
 
 Lokal deltafil: `pcsx2-sv-achievement-token-batch-28-20261111.xliff` (sträng-ID 7895). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
 
+XML-validering, exakt källtextjämförelse, l10n-lint, Hunspell-SV, diffkontroll och Gitleaks passerar. svlangs varningar kommer från HTML-markeringen och produktnamnen, inte den svenska formuleringen. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
+
+Crowdin-importen verifierades via API: 1 sträng och 38 ord importerades, 0 godkändes automatiskt och inget hoppades över. Det skapade, ännu ej godkända förslaget är 449201. Detta är ett upstream-inskick, inte upstream-granskning eller merge.
+
 ## Oavsiktliga dubbla mellanslag: tjugosjunde granskningsbatchen
 
 Två vanliga UI-texter har oavsiktliga dubbla mellanslag. De reduceras till ett mellanslag. Formaterade kolumner i avlusarvyn lämnas uttryckligen utanför eftersom deras mellanslag är layoutdata.
