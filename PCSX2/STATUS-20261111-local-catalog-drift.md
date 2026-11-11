@@ -2,6 +2,27 @@
 
 Datum: 11 november 2026
 
+## Multitap: trettionionde granskningsbatchen
+
+Projektets not anger att `Multitap` är ett Sony-relaterat tekniskt namn och
+det behålls därför. Fyra närliggande texter får i stället korrekt svensk
+omgivande text: handkontroller skrivs ut, konsolport får gemen begynnelsebokstav
+och hjälptexten blir idiomatisk.
+
+Lokal deltafil: `pcsx2-sv-multitap-labels-batch-39-20261111.xliff`
+(sträng-ID 3699, 3701, 3703 och 3705). Lokal granskning och kontroller
+genomfördes före arkivering och Crowdin-inskick.
+
+XML-validering, exakt källtextjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. svlang och Hunspell-SV markerar endast det avsiktligt bevarade
+tekniska namnet `Multitap`. `msgfmt --check` kan inte tolka XLIFF och är därför
+ej tillämplig för denna fil.
+
+Crowdin-importen verifierades via API: 4 strängar och 37 ord importerades, 0
+godkändes automatiskt och inget hoppades över. De skapade, ännu ej godkända
+förslagen är 449255, 449257, 449259 och 449261. Detta är ett upstream-inskick,
+inte upstream-granskning eller merge.
+
 ## Handkontrollsmappning: trettioåttonde granskningsbatchen
 
 Installationsguidens och inställningsdialogens närliggande etiketter
