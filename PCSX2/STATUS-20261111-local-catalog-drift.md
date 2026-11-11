@@ -206,6 +206,12 @@ infinitivsubjektet `Att aktivera …`; Hunspell-SV markerar endast
 produktsammansättningar och PCSX2-namnet. `msgfmt` är inte tillämpligt på
 XLIFF och avvisar därför filen som icke-PO. Batchen är lokalt granskad.
 
+Crowdin-importen är API-verifierad: 4 strängar och 89 ord importerades, inga
+strängar hoppades över och 0 godkändes automatiskt. De nya
+översättningsposterna är 449107, 449109, 449111 och 449113, alla skapade
+2026-11-11 12:16 UTC. Batchen är upstream-inskickad för granskning men inte
+upstream-godkänd.
+
 XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
 passerar. Svlangs träffar är falska V2-varningar för korrekta bisatser och
 infinitivfraser samt de avsiktliga komponentnamnen. Hunspell-SV markerar
