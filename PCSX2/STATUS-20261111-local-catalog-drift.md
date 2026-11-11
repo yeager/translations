@@ -625,6 +625,19 @@ av dubblettkontrollen, vilket bekräftar att samma korrekta formulering redan
 finns i flödet. De nya förslagen har ID 449509, 449511 och 449513. De är
 upstream-inskickade för granskning men ännu inte upstream-godkända.
 
+## Mediainspelning: sextiofjärde granskningsbatchen
+
+`pcsx2-sv-media-capture-batch-64-20261111.xliff` normaliserar hjälptexterna
+för video- och ljudkodek, videoformat, bithastighet och intern upplösning vid
+videoinspelning. `Behåll standardvärdet` ersätter den krystade uppmaningen att
+låta något vara standard, och filstorlek beskrivs direkt.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
+diffkontroll och Gitleaks passerar. svlangs markeringar och låga poäng beror
+på XML-kodade HTML-taggar; Hunspell-SV markerar bara den korrekta
+sammansättningen `videobithastighet`. `msgfmt` kan inte tolka XLIFF och är
+därför inte tillämpligt.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
