@@ -2,6 +2,28 @@
 
 Datum: 11 november 2026
 
+## Handkontrollsmappning: trettioåttonde granskningsbatchen
+
+Installationsguidens och inställningsdialogens närliggande etiketter
+normaliseras till läsbara svenska. Felaktiga pluralformer och en felaktig
+sammansättning ersätts med `handkontroll`, `typ av handkontroll` och
+`handkontrollsmappning`. Den inbäddade HTML-hjälptexten förklarar nu tydligt
+hur fysiska handkontroller mappas till emulerade handkontroller.
+
+Lokal deltafil: `pcsx2-sv-controller-mapping-labels-batch-38-20261111.xliff`
+(sträng-ID 7391, 7435, 7437, 9491, 10922 och 10924). Lokal granskning och
+kontroller genomfördes före arkivering och Crowdin-inskick.
+
+XML-validering, exakt källtextjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. svlangs enda V2-varning är en falsk positiv från XLIFF-HTML.
+Hunspell-SV markerar bara markup och fackformen `mappning`. `msgfmt --check`
+kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
+
+Crowdin-importen verifierades via API: 6 strängar och 54 ord importerades, 0
+godkändes automatiskt och inget hoppades över. De skapade, ännu ej godkända
+förslagen är 449243, 449245, 449247, 449249, 449251 och 449253. Detta är ett
+upstream-inskick, inte upstream-granskning eller merge.
+
 ## Installationsguidens handkontroller: trettiosjunde granskningsbatchen
 
 Installationsguidens längre HTML-text för handkontroller granskas rad för rad.
