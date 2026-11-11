@@ -1644,3 +1644,19 @@ inte tolka XLIFF och är därför inte tillämplig.
 Crowdin-inskicket verifierades via API. De skapade, ännu inte godkända,
 förslagen är 449897, 449899, 449901 och 449903. Detta är ett
 upstream-inskick, inte upstream-granskning eller merge.
+
+## UI-etiketter och videokodek: nittiofjärde granskningsbatchen
+
+Tri-Ace-etiketten, instruktionen för `custom.qss` och hjälptexten för
+videokodeksparametrar får idiomatisk svenska. Konfigurationssyntaxen i
+kodekexemplet bevaras exakt.
+
+Lokal deltafil: `pcsx2-sv-ui-labels-codec-batch-94-20261111.xliff` (sträng-ID
+9955, 10680 och 15064). XML-validering, exakt källtextjämförelse, l10n-lint,
+diffkontroll och Gitleaks passerar. svlang och Hunspell-SV markerar bara
+produktnamn, filnamn, konfigurationsnycklar och XLIFF-markup. `msgfmt --check`
+kan inte tolka XLIFF och är därför inte tillämplig.
+
+Crowdin-inskicket verifierades via API. De skapade, ännu inte godkända,
+förslagen är 449905, 449907 och 449909. Detta är ett upstream-inskick, inte
+upstream-granskning eller merge.
