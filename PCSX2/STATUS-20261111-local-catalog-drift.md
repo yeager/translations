@@ -2,6 +2,14 @@
 
 Datum: 11 november 2026
 
+## Konsol, prestationer och VSync: tjugofjärde granskningsbatchen
+
+Fem korta UI-texter innehöll antingen grammatisk felaktighet eller onödiga engelska restord. Den virtuella konsolen får rätt genus, `sparade spel` ersätts av den mer precisa formuleringen `sparningar i spelet`, och prestationshanteringen får korrekt bestämd form. `VSync` behålls som synligt tekniskt namn, medan `host` översätts till `värden` konsekvent i båda förekomsterna.
+
+Lokal deltafil: `pcsx2-sv-console-achievements-vsync-batch-24-20261111.xliff` (sträng-ID 13068, 9615, 11460, 11476 och 11478). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
+
+XML-validering, exakt källtextjämförelse, l10n-lint, diffkontroll och Gitleaks passerar. svlangs V2-varning är en falsk träff på en grammatisk korrekt huvudsats. Hunspell-SV markerar endast produkt- och facktermerna PCSX2, RAIntegration, VSync, `bildrutetidtagning` och `sparningar`. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
+
 ## I stället: tjugotredje granskningsbatchen
 
 Nio UI-texter från inmatning, minneskort och grafik använder den sammanskrivna formen `istället`. De normaliseras till den rekommenderade stavningen `i stället`, utan att ändra funktion, platshållare eller synliga produktnamn.
