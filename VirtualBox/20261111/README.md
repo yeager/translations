@@ -23,40 +23,16 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 
 ## Status
 
-- 2026-11-11, batch 001: 18 svenska strängar radvis granskade och korrigerade
-  lokalt ovanpå PR #848.
-- 2026-11-11, batch 002: `QApplication`, `UIAccelerationFeaturesEditor`,
-  `UIActionPool` och `UIBootFailureDialog` har granskats radvis i den aktuella
-  genomgången. Ändringarna är fortfarande endast lokala.
-- 2026-11-11, batch 003: `UIApplianceEditorWidget`,
-  `UIApplianceUnverifiedCertificateViewer`, ljudinställningar,
-  tangentbordsfångst och uppstartsordning har granskats radvis. Ändringarna är
-  fortfarande endast lokala.
-- 2026-11-11, batch 004: maskinväljaren, molnkonsoler, färgtema,
-  detaljer för virtuella maskiner och virtuella medier har granskats radvis.
-  Ändringarna är fortfarande endast lokala.
-- 2026-11-11, batch 005: nätverksinställningar, delade mappar,
-  ögonblicksbilder, virtuellt tangentbord, filhanterare och global proxy har
-  granskats radvis. Ändringarna är fortfarande endast lokala.
-- 2026-11-11, batch 006: indikatorer, maskininställningar, lagring,
-  nätverksfunktioner och proxyfel har granskats radvis. Ändringarna är
-  fortfarande endast lokala.
-- 2026-11-11, batch 007: delat urklipp, lagringsvyn, seriella portar,
-  avslut av virtuella maskiner och den nya maskinguiden har granskats radvis.
-  Ändringarna är fortfarande endast lokala.
-- 2026-11-11, batch 008: loggvisaren, CPU- och USB-etiketter samt
-  kloningsguiden har granskats radvis. Ändringarna är fortfarande endast
-  lokala.
-- 2026-11-11, batch 009: konsoltexter, återstående systemmeddelanden och
-  terminologin har normaliserats. Ändringarna är fortfarande endast lokala.
-- 2026-11-11, batch 010: virtuell mediehantering har granskats och
-  normaliserats till svensk singular och plural. Ändringarna är fortfarande
-  endast lokala.
-- 2026-11-11, batch 011: maskinåtgärder, fångsthjälp, moln- och
-  kloningsguider samt uppdateringsinställningar har granskats radvis.
-- 2026-11-11, batch 012: slutgranskningen av katalogen är klar. Startsidan
-  rättades där konfigurationen felaktigt angavs som ett sätt att använda
-  datorn, i stället för att få VirtualBox Manager att fungera med den.
+- Batch 001–011 omfattar radvis granskning av angivna gränssnittsområden,
+  bland annat start, maskinåtgärder, nätverk, lagring, media, loggar,
+  guider och uppdateringsinställningar. De sammanlagda ändringarna är
+  inskickade i PR #848.
+- Den tekniska helkontrollen av katalogen är klar: 3 589 aktiva strängar,
+  giltig XML och en kompilerbar QM-fil.
+- **Den manuella radvisa granskningen av samtliga 3 589 strängar är inte
+  klar.** Den fortsätter från den aktuella PR-katalogen i avgränsade,
+  dokumenterade batcher. Tidigare formulering om en fullständig
+  slutgranskning har korrigerats.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
