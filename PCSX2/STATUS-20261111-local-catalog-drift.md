@@ -10,6 +10,8 @@ Lokal deltafil: `pcsx2-sv-cycle-rate-percent-spacing-batch-25-20261111.xliff` (s
 
 XML-validering, exakt källtextjämförelse, l10n-lint, svlang, Hunspell-SV, diffkontroll och Gitleaks passerar utan språkfynd. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
 
+Crowdin-importen verifierades via API: 7 strängar och 15 ord importerades, 0 godkändes automatiskt och inget hoppades över. De skapade, ännu ej godkända förslagen är 449177, 449179, 449181, 449183, 449185, 449187 och 449189. Detta är ett upstream-inskick, inte upstream-granskning eller merge.
+
 ## Konsol, prestationer och VSync: tjugofjärde granskningsbatchen
 
 Fem korta UI-texter innehöll antingen grammatisk felaktighet eller onödiga engelska restord. Den virtuella konsolen får rätt genus, `sparade spel` ersätts av den mer precisa formuleringen `sparningar i spelet`, och prestationshanteringen får korrekt bestämd form. `VSync` behålls som synligt tekniskt namn, medan `host` översätts till `värden` konsekvent i båda förekomsterna.
