@@ -580,6 +580,10 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 211: samtliga 3 aktiva meddelanden i
   `UIScreenshotViewer` är granskade radvis. Två verktygstips har rättats
   lokalt och inväntar den samlade uppdateringen av PR #848.
+- 2026-11-11, batch 212: de sista 4 aktiva meddelandena i
+  `UISessionStateStatusBarIndicator`, `UISessionTextStatusBarIndicator` och
+  `UISettingsPageValidator` är granskade radvis. Texterna har rättats lokalt
+  och inväntar den samlade uppdateringen av PR #848.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
