@@ -1463,4 +1463,8 @@ inget är upstream-godkänt ännu.
 
 `pcsx2-sv-achievement-startup-batch-81-20261111.xliff` rättar en otydlig
 hjälptext: sökningen sker när PCSX2 startar, inte när ett spel läses in.
-Batchen är lokalt granskad och inväntar upstream-inskick.
+Batchen är lokalt granskad.
+
+Ett nytt Crowdin-förslag, 449777, skapades via API och verifierades mot rätt
+sträng. Det är upstream-inskickat för granskning, men inte
+upstream-godkänt ännu.
