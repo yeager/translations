@@ -2,6 +2,12 @@
 
 Datum: 11 november 2026
 
+## GunCon2-hjälptext: tjugonionde granskningsbatchen
+
+GunCon2:s hjälpruta för mus och ljuspistol rättas rad för rad. Stavfelet `kontrollera` ersätts med `handkontroll`, `Om inte` med korrekt `Annars` och `i stället` följer svensk stavning. `Relative Aiming` bevaras som synligt Sony-relaterat UI-namn.
+
+Lokal deltafil: `pcsx2-sv-guncon2-help-batch-29-20261111.xliff` (sträng-ID 7883). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
+
 ## Inloggningstoken för RetroAchievements: tjugoåttonde granskningsbatchen
 
 En informationsruta i inloggningsdialogen får idiomatisk svensk ordföljd och normaliserad stavning av `i stället`. Meningen delas före tokenhanteringen, vilket gör att lösenordets behandling och åtkomsttokenens roll framgår tydligt.
