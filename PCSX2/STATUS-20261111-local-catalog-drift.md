@@ -8,6 +8,10 @@ Två vanliga UI-texter har oavsiktliga dubbla mellanslag. De reduceras till ett 
 
 Lokal deltafil: `pcsx2-sv-double-space-batch-27-20261111.xliff` (sträng-ID 11416 och 6413). Lokal granskning och kontroller genomförs före arkivering och Crowdin-inskick. Upstream-resultat förs in här först efter verifierad API-import.
 
+XML-validering, exakt källtextjämförelse, l10n-lint, diffkontroll och Gitleaks passerar. svlangs V2-varning gäller det synliga tekniska alternativnamnet `Spin GPU During Readbacks`. Hunspell-SV har inga språkträffar. `msgfmt --check` kan inte tolka XLIFF och är därför ej tillämplig för denna fil.
+
+Crowdin-importen verifierades via API: 2 strängar och 23 ord importerades, 0 godkändes automatiskt och inget hoppades över. De skapade, ännu ej godkända förslagen är 449197 och 449199. Detta är ett upstream-inskick, inte upstream-granskning eller merge.
+
 ## I stället, fortsättning: tjugosjätte granskningsbatchen
 
 Tre återstående granskade UI-texter med den sammanskrivna formen `istället` normaliseras till `i stället`. Ett tidigare förslag för realtidsklockan fanns redan upstream och lämnas därför utanför denna deltafil.
