@@ -151,6 +151,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
   endast-värd-nätverk, gästtillägg, USB-behörighet, styrkort, delat urklipp
   och avstängning, har granskats radvis. Ändringarna är verifierade lokalt i
   commit `6bb42b5` och ännu inte pushade till PR:n.
+- 2026-11-11, batch 048: samtliga 569 aktiva meddelanden i
+  `UIMessageCenter` är granskade radvis. Delbatcherna 043–047 är verifierade
+  lokalt och ännu inte pushade till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
