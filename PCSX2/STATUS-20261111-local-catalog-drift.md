@@ -568,6 +568,11 @@ sammansättningarna `bildrutegenerering`, `bildruteintervall`, `bildrutetid`
 och `bildrutshoppning`. svlangs V2-varning gäller den korrekta första satsen
 i hjälptexten. `msgfmt` kan inte tolka XLIFF och är därför inte tillämpligt.
 
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+2 översättningar med 75 ord; 0 godkändes automatiskt och inga strängar hoppades
+över. De nya förslagen har ID 449475 och 449477. De är upstream-inskickade för
+granskning men ännu inte upstream-godkända.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
