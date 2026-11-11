@@ -468,6 +468,18 @@ text redan finns i flödet. De nya översättningsposterna har ID 449295,
 449297, 449299 och 449301. De är upstream-inskickade för granskning men ännu
 inte upstream-godkända.
 
+## JogCon-inställningar: femtiotredje granskningsbatchen
+
+`pcsx2-sv-jogcon-controls-batch-53-20261111.xliff` ersätter kvarlämnade
+engelska inställningsord med `rattens dödzon`, `vridningsdödzon` och deras
+motsvarande känslighets- och skalningsformuleringar.
+
+XML-validering, exakt källjämförelse, l10n-lint, diffkontroll och Gitleaks
+passerar. svlangs två V2-varningar är falska positiva på subjektfrasen
+`Inmatning under detta värde`. Hunspell-SV markerar endast produktnamnet
+PS2. `msgfmt` kan inte tolka XLIFF och är därför inte tillämpligt. Batchen är
+lokalt granskad.
+
 ## Inmatningsinspelning och menyer: femtioandra granskningsbatchen
 
 `pcsx2-sv-input-recording-menu-batch-52-20261111.xliff` gör
