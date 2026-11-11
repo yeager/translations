@@ -481,6 +481,12 @@ Gitleaks passerar. Hunspell-SV markerar endast produktnamnet Densha och den
 projektspecifika sammansättningen `tågförarhandkontroll`. `msgfmt` kan inte
 tolka XLIFF och är därför inte tillämpligt. Batchen är lokalt granskad.
 
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+6 översättningar med 37 ord; 0 godkändes automatiskt och inga strängar hoppades
+över. De nya förslagen har ID 449317, 449319, 449321, 449323, 449325 och
+449327. De är upstream-inskickade för granskning men ännu inte
+upstream-godkända.
+
 ## Sparlägen: fyrtioåttonde granskningsbatchen
 
 `pcsx2-sv-save-state-wording-batch-48-20261111.xliff` rättar en grammatiskt
