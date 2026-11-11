@@ -46,7 +46,11 @@ Den granskade importfilen
 korrekta måltexterna. XML-validering, l10n-lint, svlang, Hunspell-SV,
 diffkontroll och Gitleaks har körts. svlangs enda anmärkning och Hunspell-SV:s
 tre träffar gäller XLIFF-entiteten `apos` och Qt-platsmarkörerna, inte svensk
-prosa. Batchen är lokalt granskad men ännu inte skickad till Crowdin.
+prosa. Batchen är lokalt granskad. Den skickades till Crowdins etablerade
+importflöde den 11 november. Importresultatet var **0 tillagda**, **0
+godkända** och **6 hoppade över** översättningar. Crowdins detaljrapport
+redovisar noll behandlade strängar för `pcsx2-qt_en.ts`. Filen har alltså nått
+upstreams importflöde, men inga av batchens ändringar har införts upstream.
 
 ## Livekontroll 2026-11-11
 
