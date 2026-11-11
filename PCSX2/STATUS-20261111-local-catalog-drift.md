@@ -481,6 +481,11 @@ Hunspell-SV markerar endast produktnamn, XLIFF-entiteten `apos` och den
 projektspecifika sammansättningen `tågförarhandkontroll`. `msgfmt` kan inte
 tolka XLIFF och är därför inte tillämpligt. Batchen är lokalt granskad.
 
+Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
+1 översättning med 72 ord; 0 godkändes automatiskt och inga strängar hoppades
+över. Det nya förslaget har ID 449307. Det är upstream-inskickat för
+granskning men ännu inte upstream-godkänt.
+
 ## Densha Controller Type 2: fyrtiofemte granskningsbatchen
 
 `pcsx2-sv-densha-controller-batch-45-20261111.xliff` normaliserar den
