@@ -586,12 +586,13 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
   och inväntar den samlade uppdateringen av PR #848.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `c63b77c5319f3c46e88b67fd1d5d5b4bc6cd717d` efter den fullständiga
-  radgranskningen. GitHub har bekräftat mottagandet och `oca/oracle` är köad.
+  radgranskningen. GitHub har bekräftat mottagandet och `oca/oracle` är
+  godkänd.
 - Commithistoriken rättades därefter till `po@danielnylander.se` utan att
   kataloginnehållet ändrades. `oca/oracle` är godkänd för den aktuella
   huvudrevisionen.
-- PR:n är öppen och ännu inte granskad eller mergad. Se även
-  [slutverifieringen](final-verification.md).
+- PR:n är öppen och ännu inte granskad eller mergad; GitHub rapporterar
+  merge-statusen `BLOCKED`. Se även [slutverifieringen](final-verification.md).
 - Råfilerna i `../VirtualBox/` är historiska och har inte skrivits över.
 
 ## Kontroller för batch 001

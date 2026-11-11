@@ -33,5 +33,6 @@ Den samlade katalogändringen är pushad till PR #848:s källgren
 `c63b77c5319f3c46e88b67fd1d5d5b4bc6cd717d`.
 
 PR [#848](https://github.com/VirtualBox/virtualbox/pull/848) är öppen mot
-`main`. GitHub bekräftar rätt huvudrevision; kontrollen `oca/oracle` är
-köad. PR:n är ännu inte granskad eller mergad.
+`main`. GitHub bekräftar rätt huvudrevision och kontrollen `oca/oracle` är
+godkänd. PR:n är ännu inte granskad eller mergad; GitHub rapporterar
+merge-statusen `BLOCKED`.
