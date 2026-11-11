@@ -15,5 +15,7 @@ Den här listan gäller webbgränssnittets flöde för rapporterade prestationer
 | demote | nedgradera | Statusändring för prestation eller topplista. |
 | unpromote | ta bort framhävningen | Tar bort en topplistas framhävda status. |
 | logic change | logikändring | Ändring av villkoren som avgör en prestation eller topplista. |
+| note (ticket workflow) | meddelande | Text till rapportören i ärendeflödet. |
+| subscribe to a ticket | prenumerera på ett ärende | Följ ärendet och få dess uppdateringar. `Subscribed Tickets` blir **Prenumererade ärenden**. |
 
 Platshållare som `{{duration}}`, `{{date}}`, `{{user}}` och taggar som `<1>...</1>` måste bevaras byte för byte.
