@@ -24,7 +24,10 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 ## Status
 
 - 2026-11-11, batch 001: 18 svenska strängar radvis granskade och korrigerade
-  lokalt ovanpå PR #848. Ändringarna är inte pushade till PR:n ännu.
+  lokalt ovanpå PR #848.
+- 2026-11-11, batch 002: `QApplication`, `UIAccelerationFeaturesEditor`,
+  `UIActionPool` och `UIBootFailureDialog` har granskats radvis i den aktuella
+  genomgången. Ändringarna är fortfarande endast lokala.
 - Kvar: radvis granskning av återstående aktiva strängar i `VirtualBox_sv.ts`.
 - Råfilerna i `../VirtualBox/` är historiska och har inte skrivits över.
 
