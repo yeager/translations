@@ -92,6 +92,10 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 029: USB-kontroller, menyer, inställningar och verktyg
   (23) har granskats radvis. Ändringarna är verifierade lokalt i commit
   `99e657b` och ännu inte pushade till PR:n.
+- 2026-11-11, batch 030: diskvarianter, diskettverktyg, ny virtuell disk och
+  mediesökning (39) samt aktivitetsöversikt och maskinförhandsvisning (45)
+  har granskats radvis. Ändringarna är verifierade lokalt i commit `18da0a4`
+  och ännu inte pushade till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
