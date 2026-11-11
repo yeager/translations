@@ -453,6 +453,19 @@ hoppades över. De nya översättningsposterna har ID 449273, 449275, 449277,
 449279, 449281 och 449283. De är upstream-inskickade för granskning men ännu
 inte upstream-godkända.
 
+## Installationsguiden: fyrtioandra granskningsbatchen
+
+`pcsx2-sv-setup-wizard-help-batch-42-20261111.xliff` förtydligar de längre
+hjälptexterna för BIOS och välkomststeget. Den använder `PS2-BIOS`,
+`BIOS-avbild`, `skapa en BIOS-avbild`, `Gränssnittsinställningar` och en
+kortare, idiomatisk formulering av uppdaterings- och nätverksvalen.
+
+XML-validering, exakt källjämförelse, diffkontroll och Gitleaks passerar.
+l10n-lint har inga fel; dess två URL-varningar beror på XML-kodad HTML.
+svlang och Hunspell-SV analyserar HTML/CSS, URL-delar och produktnamnen som
+vanliga ord och är därför inte relevanta språkvarningar. `msgfmt` är inte
+tillämpligt på XLIFF. Batchen är lokalt granskad och väntar på Crowdin-import.
+
 ## VU-avrundning: femtonde granskningsbatchen
 
 Två hjälprutor för Emotion Engines vektorenheter innehöll den oidiomatiska
