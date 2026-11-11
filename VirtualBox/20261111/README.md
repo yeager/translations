@@ -254,6 +254,9 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 082: samtliga 8 aktiva meddelanden i
   `UIMediumSearchWidget` är granskade radvis. Ändringen är verifierad lokalt
   i commit `8fff2fb` och ännu inte pushad till PR:n.
+- 2026-11-11, batch 083: samtliga 8 aktiva meddelanden i
+  `UIIndicatorNetwork` är granskade radvis. Ändringen är verifierad lokalt i
+  commit `49c7f6f` och ännu inte pushad till PR:n.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
