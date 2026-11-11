@@ -401,6 +401,8 @@ hjälpprogrammets programmeny trots att TS- och QM-filerna finns.
 - 2026-11-11, batch 138: samtliga 19 aktiva meddelanden i `UITranslator` är
   granskade radvis. Relativ tid har rättats i lokal commit `b87eebc` och är
   ännu inte pushad till PR:n.
+- 2026-11-11, batch 139: samtliga 6 aktiva meddelanden i
+  `UIUSBControllerEditor` är granskade radvis. Ingen textändring behövdes.
 - PR #848 uppdaterades 2026-11-11 till huvudrevision
   `f11f1d7cb7cd85ced4377bb8d3b329d68b30fa36` med samtliga tio
   granskningscommitar. GitHub har bekräftat mottagandet.
