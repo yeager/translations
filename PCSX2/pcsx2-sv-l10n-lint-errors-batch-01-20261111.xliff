@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file id="15" original="/master/pcsx2-qt/Translations/pcsx2-qt_en.ts" source-language="en" target-language="sv-SE" datatype="plaintext" project-id="561203" tool-id="crowdin">
+    <header>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1"/>
+    </header>
     <body>
       <trans-unit id="10288" resname="ControllerSettingsWindow['Custom input profiles are used to override the Shared input profile for specific games.&#10;To apply a custom input profile to a game, go to its Game Properties, then change the {[=-apos;-=]}Input Profile{[=-apos;-=]} on the Summary tab.&#10;&#10;Enter the name for the new input profile:']">
         <source>Custom input profiles are used to override the Shared input profile for specific games.
@@ -11,26 +14,51 @@ Enter the name for the new input profile:</source>
 För att använda en egen inmatningsprofil för ett spel går du till dess spelegenskaper och ändrar sedan &amp;apos;Inmatningsprofil&amp;apos; på fliken Sammanfattning.
 
 Ange namnet på den nya inmatningsprofilen:</target>
+        <context-group purpose="information">
+          <context context-type="source">ControllerSettingsWindow
+../Settings/ControllerSettingsWindow.cpp:93</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="16667" resname="EmuThread['%1x%2 (%3x)']">
         <source>%1x%2 (%3x)</source>
         <target state="translated">%1x%2 (%3x)</target>
+        <context-group purpose="information">
+          <context context-type="source">EmuThread
+../QtHost.cpp:1064</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="9081" resname="FullscreenUI['Vulkan']">
         <source>Vulkan</source>
         <target state="translated">Vulkan</target>
+        <context-group purpose="information">
+          <context context-type="source">FullscreenUI
+../../pcsx2/ImGui/FullscreenUI_Settings.cpp:6597</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="9675" resname="GameList['{}s']">
         <source>{}s</source>
         <target state="translated">{}s</target>
+        <context-group purpose="information">
+          <context context-type="source">GameList
+../../pcsx2/GameList.cpp:1256</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="5003" resname="GraphicsSettingsWidget['Vulkan']">
         <source>Vulkan</source>
         <target state="translated">Vulkan</target>
+        <context-group purpose="information">
+          <context context-type="source">Graphics backend/engine type. Leave as-is.
+GraphicsSettingsWidget
+../Settings/GraphicsSettingsWidget.cpp:36</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="7213" resname="USB['B 1']">
         <source>B 1</source>
         <target state="translated">B 1</target>
+        <context-group purpose="information">
+          <context context-type="source">USB
+../../pcsx2/USB/usb-pad/usb-pad.cpp:988</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>

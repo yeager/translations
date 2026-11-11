@@ -54,11 +54,18 @@ upstreams importflöde, men inga av batchens ändringar har införts upstream.
 
 Efter importsvaret jämfördes deltafilen med Crowdins kompletta XLIFF-export.
 Varje måltext i den kompletta exporten har attributet `state="translated"`,
-vilket minimalfilen saknade. Attributet har lagts till i den lokala
-importkandidaten utan att någon källa eller svensk måltext har ändrats.
+en verktygsdeklaration och en källkontext. Samma metadata har lagts till i den
+lokala importkandidaten utan att någon källa eller svensk måltext har ändrats.
 XML-validering, l10n-lint, diffkontroll och Gitleaks passerar även efter
-formatändringen. En ny serverimport har ännu inte kunnat verifieras; den första
-rapporten med sex överhoppade poster avser den tidigare minimalfilen.
+formatändringen.
+
+Den kontextbevarade filen skickades därefter på nytt, med alternativet som
+tillåter en måltext lika med källtext aktiverat för avsiktliga UI-namn och
+formatsträngar. Crowdins resultat var åter **0 tillagda**, **0 godkända** och
+**6 hoppade över**. Importkanalen tar alltså emot filen men tillämpar inte de
+sex posterna i den här rollen eller projektkonfigurationen. Fler identiska
+återförsök görs inte automatiskt; ingen av batchens ändringar är verifierad
+upstream.
 
 ## Livekontroll 2026-11-11
 
