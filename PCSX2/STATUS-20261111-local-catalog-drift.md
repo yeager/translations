@@ -1528,4 +1528,8 @@ inget är upstream-godkänt ännu.
 fusk, minneskort, pnach-filer och GunCon2. Den rättar bland annat den felaktiga
 formen `Ppnach`, växlingen mellan singular och plural för handkontroller samt
 otydlig meningsbyggnad kring sparlägen.
-Batchen är lokalt granskad och inväntar upstream-inskick.
+Batchen är lokalt granskad.
+
+Sex nya Crowdin-förslag skapades via API och verifierades mot rätt strängar:
+449835, 449837, 449839, 449841, 449843 och 449845. De är
+upstream-inskickade för granskning, men inget är upstream-godkänt ännu.
