@@ -33,8 +33,9 @@ företräde när den är mer precis.
 ## Status
 
 - Lokal radgranskning: klar och verifierad.
-- Arkivering i `yeager/translations`: klar lokalt i denna katalog.
-- Push av arkiv: avvaktar den separata Git-verifieringen.
+- Arkivering i `yeager/translations`: klar.
+- Push av arkiv: verifierad på `main` i commit
+  `1efb01510a8b48dd2adcd8c9a72d40bf90766a42`.
 - Upstream-inskick: inte gjort av Codex. Beställaren uppgav att hen skickar in
   katalogen själv.
 - Upstream-granskning, merge och publicering: okända.
