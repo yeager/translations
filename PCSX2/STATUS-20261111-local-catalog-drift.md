@@ -1380,3 +1380,7 @@ XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
 diffkontroll och Gitleaks passerar utan språkvarningar. `msgfmt` är inte
 tillämpligt på XLIFF och avvisar därför filen som icke-PO. Batchen är lokalt
 granskad.
+
+Åtta Crowdin-förslag skapades via API och verifierades mot rätt strängar:
+449707, 449709, 449711, 449713, 449715, 449717, 449719 och 449721. De är
+upstream-inskickade för granskning, men ännu inte upstream-godkända.
