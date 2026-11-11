@@ -33,3 +33,5 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | Force Feedback | Force Feedback | Synligt funktionsnamn för rattar och haptisk återkoppling; behålls på engelska i PCSX2:s gränssnitt. |
 | present | visa | Gäller visning av redan renderade bildrutor. Undvik `presentera` i grafikinställningarna. |
 | frame pacing | bildruteintervall | Gäller jämnheten i tiden mellan visade bildrutor. |
+| notification | avisering | Gäller PCSX2:s systemmeddelanden och tillhörande ljud. |
+| leaderboard | topplista | Gäller resultatlistor i RetroAchievements-relaterade inställningar. |

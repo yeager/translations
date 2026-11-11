@@ -573,6 +573,17 @@ Batchen skickades via Crowdin API till fil 15 för `sv-SE`. Importen skapade
 över. De nya förslagen har ID 449475 och 449477. De är upstream-inskickade för
 granskning men ännu inte upstream-godkända.
 
+## Aviseringsljud: sextioförsta granskningsbatchen
+
+`pcsx2-sv-notification-sounds-batch-61-20261111.xliff` normaliserar
+ljudinställningarna för aviseringar, prestationer och topplistor. `Avisering`
+ersätter den mindre idiomatiska formen `notifiering`, och längre etiketter är
+omskrivna till naturliga svenska UI-texter.
+
+XML-validering, exakt källjämförelse, l10n-lint, svlang, Hunspell-SV,
+diffkontroll och Gitleaks passerar utan markeringar. `msgfmt` kan inte tolka
+XLIFF och är därför inte tillämpligt.
+
 ## Uttrycksparser: femtiofjärde granskningsbatchen
 
 `pcsx2-sv-expression-parser-batch-54-20261111.xliff` rättar
