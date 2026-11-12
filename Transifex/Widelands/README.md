@@ -8,8 +8,8 @@ Källa: Transifex API, befintliga svenska översättningar.
 ## Status
 
 - Widelands v1.3.1 släpptes 2026-02-22.
-- Transifex inventarie innehåller 34 komponenter. Samtliga 34 har granskats komponentvis och dokumenteras nedan.
-- Alla 34 komponenter har 0 oöversatta svenska strängar. Språkgranskningen är klar; Transifex granskningsmarkering styrs separat av projektets upstreamflöde.
+- Transifex inventarie innehåller 34 komponenter. Trettiotvå komponenter har granskats komponentvis och dokumenteras nedan.
+- Alla 34 komponenter har 0 oöversatta svenska strängar. Två komponenter har dock fått fler källsträngar efter tidigare granskning: `scenario_atl02` (220 aktuella mot 150 granskade) och `scenario_bar01` (169 aktuella mot 150 granskade). Deras tillkomna strängar granskas innan en komplett projektstatus kan deklareras. Transifex granskningsmarkering styrs separat av projektets upstreamflöde.
 - `appdata`: 14 strängar granskade rad för rad, 6 verkliga språkfel rättade och uppladdade i en API-batch (HTTP 200). Läsning av varje enskild uppdatering via API bekräftade att den sparats.
 - `editor`: 20 strängar granskade rad för rad, 8 verkliga språkfel rättade och uppladdade i en API-batch (HTTP 200). Läsning av varje enskild uppdatering via API bekräftade att den sparats.
 - `map_plateau`: 25 strängar granskade rad för rad, 10 verkliga språkfel rättade och uppladdade via API. Kontroll av enskilda uppdateringar bekräftade att de sparats.
