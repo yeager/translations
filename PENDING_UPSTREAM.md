@@ -6,7 +6,7 @@
 > väntar på uppladdning. De aktuella Crowdin-batcherna för RetroArch,
 > RetroAchievements och RPCS3 står i avsnittet direkt nedan.
 
-## Färdigt men ännu inte inskickat
+## Inskickat, väntar på upstream-granskning eller release
 
 - **RetroArch, Xemu:** `XEMU_ASPECT_RATIO_INFO_0` i
   [Xemu-deltat](RetroArch/retroarch-sv-xemu-aspect-ratio-20261111.po) sparades
