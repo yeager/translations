@@ -1,0 +1,30 @@
+# Widelands – svensk granskning
+
+Datum: 2026-11-12  
+Projekt: `o:widelands:p:widelands`  
+Komponent: `appdata`  
+Källa: Transifex API, befintliga svenska översättningar.
+
+## Status
+
+- Widelands v1.3.1 släpptes 2026-02-22.
+- Alla 34 komponenter har 0 oöversatta svenska strängar.
+- Samtliga saknar dock Transifex granskningsmarkering; full språkgranskning sker komponentvis.
+- `appdata`: 14 strängar granskade rad för rad, 6 verkliga språkfel rättade och uppladdade i en API-batch (HTTP 200). Läsning av varje enskild uppdatering via API bekräftade att den sparats.
+- `editor`: 20 strängar granskade rad för rad, 8 verkliga språkfel rättade och uppladdade i en API-batch (HTTP 200). Läsning av varje enskild uppdatering via API bekräftade att den sparats.
+- `map_plateau`: 25 strängar granskade rad för rad, 10 verkliga språkfel rättade och uppladdade via API. Kontroll av enskilda uppdateringar bekräftade att de sparats.
+- `map_river`: 86 strängar granskade rad för rad, 21 verkliga språkfel rättade och uppladdade i en API-batch (HTTP 200). Kontroll av varje uppdatering via API bekräftade att den sparats. Varningarna från l10n-lint och svlang gäller procentplatshållarna `%1%`, `%2%` och `%3%`, som måste bevaras exakt.
+- `mp_scenario_island_hopping`: 27 strängar granskade rad för rad, 12 verkliga språkfel rättade och uppladdade i en API-batch (HTTP 200). Kontroll av varje uppdatering via API bekräftade att den sparats.
+- `mp_scenario_smugglers`: 19 strängar granskade rad för rad, 7 verkliga språkfel rättade och uppladdade i en API-batch (HTTP 200). Kontroll av varje uppdatering via API bekräftade att den sparats. l10n-lint missar siffran 10 när den skrivs idiomatiskt som ”tionde”; detta är en falsk positiv informationsnotis.
+- `scenario_dummy`: 2 strängar granskade rad för rad, 2 idiomatiska korrigeringar uppladdade i en API-batch (HTTP 200) och verifierade via API.
+- `training_wheels`: 46 strängar granskade rad för rad, 8 korrigeringar uppladdade i en API-batch (HTTP 200) och verifierade via API.
+- `win_conditions`: 70 strängar granskade rad för rad, 10 korrigeringar uppladdade i en API-batch (HTTP 200) och verifierade via API. Hunspell-träffen `skogsgnom` är projektspecifik terminologi.
+- `scenario_emp01`: 70 strängar granskade rad för rad, 4 säkra korrigeringar uppladdade i en API-batch (HTTP 200) och verifierade via API. Deltafilen var först felmärkt som `scenario_atl01`; API:t avvisade den före ändringar sparades, och komponent-ID:t rättades innan den godkända uppladdningen.
+- `scenario_atl02`: 150 strängar granskade rad för rad, 16 korrigeringar uppladdade i en API-batch (HTTP 200) och verifierade via API.
+- `scenario_bar01`: 150 strängar granskade rad för rad. 9 korrigeringar uppladdade i rätt komponent och verifierade via API. Tre felmärkta rader hörde till `scenario_emp01`; de laddades upp och verifierades där separat.
+- `scenario_emp02`: 88 strängar granskade rad för rad, 17 verkliga språkfel rättade och uppladdade i en API-batch (HTTP 200). Direkt läsning av samtliga uppdateringar via API bekräftade att de sparats. Hunspell-träffarna är egennamnen Amalea, Fremil, Malac och Saledus. l10n-lints enda varning är en medveten, idiomatisk omformulering som inte bevarar källans kolon. Svlangs V2- och anglicismmarkeringar har bedömts i sitt berättelse- och spelsammanhang.
+
+## Kontroller
+
+- `git diff --check` och `gitleaks` passerade för varje uppladdad batch. Resultat från l10n-lint, svlang och hunspell har bedömts i kontext och dokumenterats per komponent när de inte är verkliga fel.
+- `msgfmt` är inte tillämpligt på denna Transifex JSON-deltafil; ingen rå PO-export har ändrats.
