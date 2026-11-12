@@ -37,3 +37,7 @@
 | reframe | beskär | Souvenirs-foton | Justera bildutsnittet inom en ruta. |
 | soundtrack | ljudspår | Souvenirs-albumsida | Ett ljudspår kan fortsätta över flera sidor. |
 | freehand drawing | frihandsteckning | Souvenirs-albumsida | Teckning ovanpå sidans rutor. |
+| inventory | lager | Pantry | Behålls som substantiv för en namngiven samling med lagervaror. |
+| checklist | checklista | Pantry | Namngiven lista med rader som kan kopplas till lagervaror. |
+| restock | fyll på | Pantry | Verb för att öka lagersaldot. |
+| template | mall | Pantry | Mall för checklisteinnehåll. |
