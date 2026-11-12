@@ -45,3 +45,6 @@
 | reorder point | beställningspunkt | Pantry-lager | Nivå då varan bör köpas eller fyllas på. |
 | expiry | utgångsdatum | Pantry-lager | Datum då en vara inte längre bör användas. |
 | stock mode | lagerläge | Pantry-lager | Hantering som antal eller nivåerna fullt, lågt och slut. |
+| restock checklist | checklista för påfyllning | Pantry-lager | Checklista som varor med låg lagerstatus läggs till i. |
+| shopping list | inköpslista | Pantry | Lista med varor som ska köpas. |
+| house | hem | Pantry | Delat organisatoriskt område för listor, foton och anteckningar. |
