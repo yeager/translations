@@ -4,7 +4,7 @@ Källa: Transifex-projektet `nextcloud/nextcloud`. Projektets serverrelease `v33
 
 Den 12 november 2026 granskades 297 tidigare oöversatta svenska resurssträngar i 32 komponenter och skickades med Transifex API. Varje komponent kontrollerades efter inskick med HTTP 200 och en separat API-läsning som visade 0 oöversatta strängar i den aktuella komponenten.
 
-Dessutom är tre delbatcher med sammanlagt 74 strängar i Memories uppladdade och arkiverade. Komponenten har en oöversatt Markdown-sträng kvar och räknas därför inte som färdig.
+Memories är färdig: 75 strängar har granskats i fyra batcher och en separat API-läsning visar 0 oöversatta strängar.
 
 Vid den inledande inventeringen omfattade projektet 299 resurser. Den visade minst 821 oöversatta svenska strängar på första resultatenheten, fördelade på 36 komponenter. `introvox` och `pantry` var paginerade och har fler än de 150 strängar som första sidan visar. Efter de 297 verifierade ändringarna kunde en ny heltäckande inventering inte slutföras, eftersom Transifex svarade med HTTP 429. Därför anges inget osäkert totalantal återstående strängar här.
 
