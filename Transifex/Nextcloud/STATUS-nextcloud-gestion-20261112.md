@@ -1,0 +1,3 @@
+# Nextcloud Gestion – svenska översättningar
+
+57 strängar granskades mot Gestions dokumentation för version 3.4.7. Komponenten är en app för affärsadministration och fakturering. Faktura-, offert-, lås-, backup- och statistiktermer har granskats i sitt gränssnittssammanhang. Produktnamnen Gestion, Qonto, Iopole och Factur-X bevaras. l10n-lint, svlang, Hunspell, `git diff --check` och Gitleaks godkändes; Hunspells återstående träffar är produktnamn, formatnamn och platshållaren `{number}`. Batchen skickades via Transifex API 2026-11-12; HTTP 200 och en separat andra API-läsning visar 0 oöversatta svenska strängar. `msgfmt` är inte tillämpligt för JSON-resursen.
