@@ -24,3 +24,8 @@
 | map tile server | kartplattsserver | Memories kartinställning | Etablerad GIS- och webbkartterm. |
 | manage media | hantera medier | Memories enhetsbehörighet | Android-behörighet; undvik det tvetydiga "media" som svenskt substantiv. |
 | space | arbetsyta | OpenCloud, inte Nextcloud | Projektbunden term; använd inte automatiskt i Nextcloud. |
+| signer | undertecknare | LibreSign och signeringsflöden | Avser person som undertecknar, inte en kryptografisk komponent. |
+| signature request | signeringsbegäran | LibreSign-notifieringar | Begäran om en elektronisk underskrift. |
+| signing invitation | inbjudan att underteckna | LibreSign-e-post | Idiomatisk uppmaning i mottagarens kontext. |
+| validate a signature | validera en signatur | LibreSign-kontroll | Teknisk kontrollterm. |
+| delivery is not confirmed | leveransen är inte bekräftad | LibreSign-notifieringar | Skilj från att notifieringsbegäran har behandlats. |
