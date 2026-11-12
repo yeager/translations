@@ -11,6 +11,7 @@ Källa: Transifex API, befintliga svenska översättningar.
 - Alla 34 komponenter har 0 oöversatta svenska strängar.
 - Samtliga saknar dock Transifex granskningsmarkering; full språkgranskning sker komponentvis.
 - `appdata`: 14 strängar granskade rad för rad, 6 verkliga språkfel rättade och uppladdade i en API-batch (HTTP 200). Läsning av varje enskild uppdatering via API bekräftade att den sparats.
+- `editor`: 20 strängar granskade rad för rad, 8 verkliga språkfel rättade och uppladdade i en API-batch (HTTP 200). Läsning av varje enskild uppdatering via API bekräftade att den sparats.
 
 ## Kontroller
 
