@@ -16,4 +16,11 @@
 | target folder | målmapp | filöverföring | `nextcloud-transfer` |
 | speaker view | talarvy | Talk-layout | `android-talk` |
 | call view mode | visningsläge för samtal | Talk-layout | `android-talk` |
+| timeline | tidslinje | Memories fotovy | Sortering efter fotograferingsdatum. |
+| external sharing | extern delning | Memories album och delning | Skiljs från intern Nextcloud-delning. |
+| preview | förhandsvisning | Memories bildhantering | Gäller genererade bildförhandsvisningar, inte dialogförhandsvisning. |
+| reverse geocoding | omvänd geokodning | Memories kartvy | Teknisk geografisk term. |
+| video transcoding | videoomkodning | Memories videouppspelning | Beskriver konvertering för uppspelning. |
+| map tile server | kartplattsserver | Memories kartinställning | Etablerad GIS- och webbkartterm. |
+| manage media | hantera medier | Memories enhetsbehörighet | Android-behörighet; undvik det tvetydiga "media" som svenskt substantiv. |
 | space | arbetsyta | OpenCloud, inte Nextcloud | Projektbunden term; använd inte automatiskt i Nextcloud. |
