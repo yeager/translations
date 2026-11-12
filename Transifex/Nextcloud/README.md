@@ -14,6 +14,8 @@ Pantry är färdig: 238 lager-, checkliste-, mall- och inköpssträngar granskad
 
 IntroVox är blockerad: komponenten har 367 oöversatta svenska strängar och samtliga är markerade `locked` i Transifex. API:t avvisar därför uppdateringar med HTTP 409. Tolv lokalt granskade kandidatsträngar är arkiverade i två deltafiler, men inte uppladdade. Komponenten behöver låsas upp av projektet innan den kan kompletteras.
 
+En ny heltäckande API-inventering den 12 november 2026 visar att IntroVox är projektets enda komponent med oöversatta svenska strängar. Alla övriga komponenter i Nextcloud-projektet är svenska-kompletta enligt Transifex statistik-API.
+
 Vid den inledande inventeringen omfattade projektet 299 resurser. Den visade minst 821 oöversatta svenska strängar på första resultatenheten, fördelade på 36 komponenter. `introvox` och `pantry` var paginerade och har fler än de 150 strängar som första sidan visar. Efter de 297 verifierade ändringarna kunde en ny heltäckande inventering inte slutföras, eftersom Transifex svarade med HTTP 429. Därför anges inget osäkert totalantal återstående strängar här.
 
 Arkivet innehåller oförändrade JSON-deltafiler, komponentvisa statusfiler och en projektterminologilista. För JSON-resurser är `msgfmt` inte tillämpligt. l10n-lint, svlang, Hunspell, `git diff --check` och Gitleaks kördes per batch; produktnamn, format och platshållare dokumenteras som förväntade Hunspell-träffar.
