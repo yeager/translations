@@ -29,3 +29,7 @@
 | signing invitation | inbjudan att underteckna | LibreSign-e-post | Idiomatisk uppmaning i mottagarens kontext. |
 | validate a signature | validera en signatur | LibreSign-kontroll | Teknisk kontrollterm. |
 | delivery is not confirmed | leveransen är inte bekräftad | LibreSign-notifieringar | Skilj från att notifieringsbegäran har behandlats. |
+| signing flow | signeringsflöde | LibreSign-konfiguration | Flödet från begäran till slutförd underskrift. |
+| footer | sidfot | LibreSign-dokumentmallar | Avser dokumentets sidfot, inte en allmän UI-sidfot. |
+| signature stamp | signaturstämpel | LibreSign-dokumentmallar | Grafisk stämpel kopplad till signaturen. |
+| background processing | bakgrundsbearbetning | LibreSign-notifieringar | Bearbetning via tillgängliga jobbkörningar. |
