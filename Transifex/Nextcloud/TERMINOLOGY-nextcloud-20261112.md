@@ -33,3 +33,7 @@
 | footer | sidfot | LibreSign-dokumentmallar | Avser dokumentets sidfot, inte en allmän UI-sidfot. |
 | signature stamp | signaturstämpel | LibreSign-dokumentmallar | Grafisk stämpel kopplad till signaturen. |
 | background processing | bakgrundsbearbetning | LibreSign-notifieringar | Bearbetning via tillgängliga jobbkörningar. |
+| tile | ruta | Souvenirs-album | Ett flyttbart och storleksändringsbart innehållsobjekt på en albumsida. |
+| reframe | beskär | Souvenirs-foton | Justera bildutsnittet inom en ruta. |
+| soundtrack | ljudspår | Souvenirs-albumsida | Ett ljudspår kan fortsätta över flera sidor. |
+| freehand drawing | frihandsteckning | Souvenirs-albumsida | Teckning ovanpå sidans rutor. |
