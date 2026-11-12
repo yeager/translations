@@ -1,0 +1,27 @@
+# Plex TV / Swedish / batch 08 / 2026-11-12
+# Source: Transifex, plex-1/plex_tv, untranslated strings.
+# Status: Locally reviewed; not yet submitted to Transifex.
+notifier:
+  email_reset_address_taken:
+    subject: "ÅTGÄRD KRÄVS: Vi kunde inte återställa e-postadressen för ditt Plex-konto helt"
+    temporary_address_subject: "Ditt Plex-konto har en tillfällig e-postadress"
+    recovery_complete: "Vi har slutfört återställningen av e-postadressbytet som du begärde för Plex-kontot som använde %{original_email}. Vi kunde inte återställa den adressen på ditt ursprungliga konto, oftast eftersom ett annat, nyare Plex-konto använder den nu."
+    temporary_address_bold: "%{bold_start}E-postadressen för ditt ursprungliga konto är nu en tillfällig adress som inte kan ta emot e-post: %{temporary_email}%{bold_end}"
+    temporary_address: "E-postadressen för ditt ursprungliga konto är nu en tillfällig adress som inte kan ta emot e-post: %{temporary_email}"
+    what_to_do: "Gör så här:"
+    sign_in: "1. Logga in på ditt ursprungliga konto med den tillfälliga adressen (%{temporary_email}) och det nya lösenord som du valde efter återställningen."
+    account_settings_markup: "2. Gå till %{account_settings_link_start}Kontoinställningar%{link_end}."
+    account_settings_link: "2. Gå till Kontoinställningar på %{account_settings_link}."
+    change_email: "3. Ändra kontots e-postadress under E-post till en adress där du kan ta emot e-post."
+    reclaim_email: "Om ett annat Plex-konto använder %{original_email} och du vill ha tillbaka adressen, loggar du först in på det kontot och ändrar dess e-postadress till en annan. Då frigörs adressen och du kan sedan använda den på ditt ursprungliga konto."
+    sign_in_help: "Om du får problem med att logga in på kontot efter återställningen, skickar du uppgifterna till oss via vårt kontaktformulär på https://www.plex.tv/contact/?option=plex-pass-billing."
+subscriptions:
+  recurring_renewal: "Din återkommande %{plan}-prenumeration av typen %{type}, som faktureras via %{store}, förnyas den %{date}. Du debiteras %{store}s aktuella pris för din plan."
+  manage_subscription_markup: "För att kontrollera om prenumerationen fortfarande förnyas eller avsluta den går du till %{link_html}%{store}s prenumerationssida%{link_end}. Om du redan har avslutat den där kan du bortse från det här e-postmeddelandet."
+  manage_subscription_link: "För att kontrollera om prenumerationen fortfarande förnyas eller avsluta den går du till %{store}s prenumerationssida på %{link}. Om du redan har avslutat den där kan du bortse från det här e-postmeddelandet."
+  amazon_appstore: "Amazon Appstore"
+payments:
+  google_pay: "Google Pay"
+  google_pay_description: "Google Pay (%{description})"
+notifications:
+  sales_and_promotions: "Erbjudanden och kampanjer"
