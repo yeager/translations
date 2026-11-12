@@ -12,6 +12,7 @@ Källa: Transifex API, befintliga svenska översättningar.
 - Samtliga saknar dock Transifex granskningsmarkering; full språkgranskning sker komponentvis.
 - `appdata`: 14 strängar granskade rad för rad, 6 verkliga språkfel rättade och uppladdade i en API-batch (HTTP 200). Läsning av varje enskild uppdatering via API bekräftade att den sparats.
 - `editor`: 20 strängar granskade rad för rad, 8 verkliga språkfel rättade och uppladdade i en API-batch (HTTP 200). Läsning av varje enskild uppdatering via API bekräftade att den sparats.
+- `map_plateau`: 25 strängar granskade rad för rad, 10 verkliga språkfel rättade och uppladdade via API. Kontroll av enskilda uppdateringar bekräftade att de sparats.
 
 ## Kontroller
 
