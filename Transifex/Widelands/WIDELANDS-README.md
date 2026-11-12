@@ -19,6 +19,7 @@ Källa: Transifex API, befintliga svenska översättningar.
 - `scenario_dummy`: 2 strängar granskade rad för rad, 2 idiomatiska korrigeringar uppladdade i en API-batch (HTTP 200) och verifierade via API.
 - `training_wheels`: 46 strängar granskade rad för rad, 8 korrigeringar uppladdade i en API-batch (HTTP 200) och verifierade via API.
 - `win_conditions`: 70 strängar granskade rad för rad, 10 korrigeringar uppladdade i en API-batch (HTTP 200) och verifierade via API. Hunspell-träffen `skogsgnom` är projektspecifik terminologi.
+- `scenario_emp01`: 70 strängar granskade rad för rad, 4 säkra korrigeringar uppladdade i en API-batch (HTTP 200) och verifierade via API. Deltafilen var först felmärkt som `scenario_atl01`; API:t avvisade den före ändringar sparades, och komponent-ID:t rättades innan den godkända uppladdningen.
 
 ## Kontroller
 
