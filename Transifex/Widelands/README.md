@@ -24,6 +24,7 @@ Källa: Transifex API, befintliga svenska översättningar.
 - `scenario_bar01`: 150 strängar granskade rad för rad. 9 korrigeringar uppladdade i rätt komponent och verifierade via API. Tre felmärkta rader hörde till `scenario_emp01`; de laddades upp och verifierades där separat.
 - `scenario_emp02`: 88 strängar granskade rad för rad, 17 verkliga språkfel rättade och uppladdade i en API-batch (HTTP 200). Direkt läsning av samtliga uppdateringar via API bekräftade att de sparats. Hunspell-träffarna är egennamnen Amalea, Fremil, Malac och Saledus. l10n-lints enda varning är en medveten, idiomatisk omformulering som inte bevarar källans kolon. Svlangs V2- och anglicismmarkeringar har bedömts i sitt berättelse- och spelsammanhang.
 - `scenario_emp03`: 150 strängar granskade rad för rad, 40 verkliga språkfel rättade och uppladdade i en API-batch (HTTP 200). Direkt läsning av samtliga uppdateringar via API bekräftade att de sparats. l10n-lint hittade inga fel; svlangs V2-markeringar är kontextberoende. Hunspell-träffarna är egennamnen Amalea, Fremil, Lutius och Saledus.
+- `scenario_emp04`: 292 strängar granskade rad för rad, 54 verkliga språkfel rättade och uppladdade i en API-batch. Direkt läsning av samtliga uppdateringar via API bekräftade att de sparats. l10n-lint, JSON-/plural- och em-dash-kontroller, diffkontroll och Gitleaks passerade. Svlangs V2-markeringar är kontextberoende; Hunspell-träffarna är egennamnen Amalea, Lutius och Saledus samt projektspråkets `rustningsdelar`.
 
 ## Kontroller
 
