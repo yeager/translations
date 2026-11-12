@@ -10,7 +10,7 @@ LibreSign är färdig: 81 strängar granskades i tre batcher den 12 november 202
 
 Souvenirs är färdig: 63 strängar med produktbeskrivning, guide och UI-gränssnitt granskades och skickades i en API-batch den 12 november 2026. En separat API-läsning efter inskicket visade 0 oöversatta svenska strängar i komponenten.
 
-Pantry: den första batchen omfattar 100 lager-, checkliste- och mallsträngar. Den skickades med Transifex API den 12 november 2026 och en separat API-läsning visar 138 oöversatta strängar kvar i komponenten. Arbetet med Pantry pågår.
+Pantry: två batcher med totalt 200 lager-, checkliste- och mallsträngar har skickats med Transifex API den 12 november 2026. En separat API-läsning visar 38 oöversatta strängar kvar i komponenten. Arbetet med Pantry pågår.
 
 Vid den inledande inventeringen omfattade projektet 299 resurser. Den visade minst 821 oöversatta svenska strängar på första resultatenheten, fördelade på 36 komponenter. `introvox` och `pantry` var paginerade och har fler än de 150 strängar som första sidan visar. Efter de 297 verifierade ändringarna kunde en ny heltäckande inventering inte slutföras, eftersom Transifex svarade med HTTP 429. Därför anges inget osäkert totalantal återstående strängar här.
 

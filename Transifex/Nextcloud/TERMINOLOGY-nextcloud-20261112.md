@@ -41,3 +41,7 @@
 | checklist | checklista | Pantry | Namngiven lista med rader som kan kopplas till lagervaror. |
 | restock | fyll på | Pantry | Verb för att öka lagersaldot. |
 | template | mall | Pantry | Mall för checklisteinnehåll. |
+| on hand | tillgänglig mängd | Pantry-lager | Aktuell mängd i lager, skild från målnivå. |
+| reorder point | beställningspunkt | Pantry-lager | Nivå då varan bör köpas eller fyllas på. |
+| expiry | utgångsdatum | Pantry-lager | Datum då en vara inte längre bör användas. |
+| stock mode | lagerläge | Pantry-lager | Hantering som antal eller nivåerna fullt, lågt och slut. |
