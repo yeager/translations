@@ -1,0 +1,3 @@
+# Nextcloud Talk webb (`spreed`) – svenska översättningar
+
+4 Talk-strängar för mobilstöd, reaktioner och räckta händer granskades i UI-kontext. Svenska pluralformer är avsiktligt identiska för den idiomatiska formuleringen `%n har räckt upp handen`; detta är inte ett pluralfel. Platshållarsträngen `{participantsInCall}, {participantsRaisedHand}` behölls oförändrad. l10n-lint, svlang, Hunspell, `git diff --check` och Gitleaks godkändes. Batchen skickades via Transifex API 2026-11-12; HTTP 200 och ny API-läsning visar 0 oöversatta svenska strängar. `msgfmt` är inte tillämpligt för JSON-resursen.
