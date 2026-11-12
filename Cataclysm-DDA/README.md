@@ -12,5 +12,8 @@ sträng lästes tillbaka efter indexering.
 
 Arbetet är lokalt granskat, arkiverat, pushat till detta arkiv och uppladdat
 till Transifex. Upstreamgranskning eller publicering är inte verifierad.
-Återstående arbete: huvudkomponenten har fortfarande fler än 1 000 oöversatta
-svenska strängar och fortsätter i separata batcher.
+Återstående arbete: efter nio batcher om sammanlagt 90 strängar visade en
+sidindelad API-avläsning fortfarande 1 000 oöversatta svenska strängar på var
+och en av de första 21 sidorna. Huvudkomponenten har alltså minst 21 000
+oöversatta svenska strängar; den exakta mängden kräver att hela
+sidindelningen läses färdigt. Arbetet fortsätter i separata batcher.
