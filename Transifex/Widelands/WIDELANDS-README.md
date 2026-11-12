@@ -15,6 +15,7 @@ Källa: Transifex API, befintliga svenska översättningar.
 - `map_plateau`: 25 strängar granskade rad för rad, 10 verkliga språkfel rättade och uppladdade via API. Kontroll av enskilda uppdateringar bekräftade att de sparats.
 - `map_river`: 86 strängar granskade rad för rad, 21 verkliga språkfel rättade och uppladdade i en API-batch (HTTP 200). Kontroll av varje uppdatering via API bekräftade att den sparats. Varningarna från l10n-lint och svlang gäller procentplatshållarna `%1%`, `%2%` och `%3%`, som måste bevaras exakt.
 - `mp_scenario_island_hopping`: 27 strängar granskade rad för rad, 12 verkliga språkfel rättade och uppladdade i en API-batch (HTTP 200). Kontroll av varje uppdatering via API bekräftade att den sparats.
+- `mp_scenario_smugglers`: 19 strängar granskade rad för rad, 7 verkliga språkfel rättade och uppladdade i en API-batch (HTTP 200). Kontroll av varje uppdatering via API bekräftade att den sparats. l10n-lint missar siffran 10 när den skrivs idiomatiskt som ”tionde”; detta är en falsk positiv informationsnotis.
 
 ## Kontroller
 
