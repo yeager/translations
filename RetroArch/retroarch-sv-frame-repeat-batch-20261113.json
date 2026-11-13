@@ -1,0 +1,25 @@
+{
+  "project": "RetroArch",
+  "projectId": 380544,
+  "language": "sv-SE",
+  "reviewedAt": "2026-11-13",
+  "status": "submitted-and-api-verified",
+  "scope": "Frame repetition, frame pacing and new core strings",
+  "entries": [
+    {"stringId": 6233231, "component": "msg_hash_us.json", "target": "Hoppa över upprepade bildrutor", "translationId": 2990865},
+    {"stringId": 6233233, "component": "msg_hash_us.json", "target": "Visa inte en bildruta som kärnan markerar som en upprepning av den föregående, så att bildskärmen får innehållets egen bildfrekvens: innehåll med 30 fps visas i 30 Hz. För verktyg för bildrutegenerering och interpolering som arbetar med visade bildrutor. När upprepningar hoppas över används ljudsynkronisering, Scanline Sync eller gränssnittets tidsinställare för att hålla takten i innehållet i stället för VSync. Kräver Frame Duping i kärnan. Gäller inte när menyn är öppen, vid snabbspolning, Black Frame Insertion, shaderbildrutor eller Threaded Video Frame Repeat.", "translationId": 2990867},
+    {"stringId": 6233235, "component": "msg_hash_us.json", "target": "Snabb bläddring med vänster+höger", "translationId": 2990869},
+    {"stringId": 6233237, "component": "msg_hash_us.json", "target": "Tillåt vänster+höger för snabb bläddring i poster som inte är inställningar.", "translationId": 2990871},
+    {"stringId": 6233229, "component": "beetle-psx-libretro.json", "target": "Låt gränssnittet upprepa föregående bildruta när spelet inte har något nytt att visa, i stället för att kärnan skickar den igen. Med gränssnittets ”Hoppa över upprepade bildrutor” visas inte dessa upprepningar, så att bildskärmen får spelets egen bildfrekvens, vilket passar verktyg för bildrutegenerering och interpolering.", "translationId": 2990873},
+    {"stringId": 6233243, "component": "pcee2-libretro.json", "target": "Emulatorns meddelanden ovanpå bilden, till exempel sparlägen, minneskort och varningar. När inställningen är av visas inga meddelanden, men de skrivs fortfarande i loggen.", "translationId": 2990875},
+    {"stringId": 6233245, "component": "pcee2-libretro.json", "target": "Upptäcker när ett spel körs under full bildfrekvens, till exempel 30 fps i ett 60 Hz-läge, och signalerar upprepade bildrutor till gränssnittet i stället för att visa dem igen. Krävs för RetroArchs inställning ”Hoppa över upprepade bildrutor”.", "translationId": 2990877},
+    {"stringId": 6233239, "component": "xemu-libretro.json", "target": "Visar tre rader i övre vänstra hörnet. FPS: den bildfrekvens som spelet visar, beräknad över de senaste 60 bildrutorna, som i xemus fristående felsökningsöverlägg för video. GPU: den bildfrekvens spelet skulle kunna nå utifrån tiden för att rita en bildruta, MSPF i fristående xemu, beräknad som genomsnitt över de senaste 60 bildrutorna och uppdaterad var 20:e bildruta. Gäller bara när GPU:n begränsar spelet. NV2A IDLE: den andel av tiden sedan överlägget aktiverades då GPU-tråden väntade på att spelet skulle skicka arbete. Ett högt värde när bildfrekvensen är lägre än spelets mål innebär att CPU:n begränsar. F10 på tangentbordet aktiverar eller inaktiverar överlägget, och varje gång det aktiveras börjar NV2A IDLE om. I Windows mäter kärnan även var CPU-emuleringen använder sin tid medan överlägget är aktivt, vilket gör den något långsammare. När det inaktiveras skrivs andelarna till RetroArchs logg och varje mätvärde till system/xemu/xemu_profile.txt. När överlägget är aktivt skriver kärnan också till RetroArchs logg var 300:e körning hur gästens bildrutor och gränssnittets körningar stämde överens. Träder i kraft direkt.", "translationId": 2990879}
+  ],
+  "verification": {
+    "created": 8,
+    "readBackExact": 8,
+    "approved": 0,
+    "projectPhrases": {"total": 10015, "translated": 10015, "approved": 4793},
+    "projectWords": {"total": 72689, "translated": 72689}
+  }
+}
