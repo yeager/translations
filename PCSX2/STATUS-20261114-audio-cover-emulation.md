@@ -28,3 +28,18 @@ Kontroller före inskick:
 
 `msgfmt` är inte tillämpligt på XLIFF. Upstream-resultatet fylls i först efter
 verifierad Crowdin-import och återläsning.
+
+## Första importen och återläsning
+
+Crowdins import meddelade 0 vanliga importer, 0 automatiska godkännanden och
+7 överhoppade dubbletter. En direkt återläsning visar att importflödet ändå
+skapade sju nya, ogranskade kandidater: `450003`, `450005`, `450007`,
+`450009`, `450011`, `450013` och `450015`. De täcker strängarna `11282`,
+`11286`, `13856`, `3805`, `11946`, `4295` och `8231`.
+
+Strängarna `11944` och `4299` saknades i återläsningen. Orsaken är teknisk:
+den första deltafilen använde XML-entiteter som inte byte för byte motsvarade
+Crowdins lagrade källtext. De två korrigerade posterna ligger därför i den
+separata deltafilen `pcsx2-sv-xml-entity-retry-batch-94-20261114.xliff`.
+Den skickas och verifieras separat. Varken granskning eller aktivt val av
+översättning har ändrats upstream.
