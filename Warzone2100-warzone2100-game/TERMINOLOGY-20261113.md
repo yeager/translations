@@ -97,3 +97,12 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | constructor droid | konstruktionsdroid | Droid som bygger strukturer. |
 | intelligence display | underrättelsevy | Spelgränssnittets informationsvy. |
 | HQ | högkvarter | Byggnad och taktisk funktion. |
+
+## Introduktionshandledning
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| oil derrick | oljetorn | Byggnad som utvinner olja. |
+| recover artifact | bärga artefakt | Aktiv handling för att hämta en forskningsartefakt. |
+| delivery point | leveranspunkt | Fabrikens destinationspunkt för nya enheter. |
+| vehicle body | fordonschassi | Del i fordonskonstruktören. |
