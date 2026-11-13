@@ -124,3 +124,11 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | LasSat | LasSat | Systemspecifikt namn för lasersatellit. |
 | counterstrike | motanfall | Kärnvapenkontext i kampanjens historik. |
 | Nexus Intruder Virus | NEXUS Intruder-virus | Namn med svensk funktionsdel. |
+
+## Kampanj 3 – inledning
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| strike VTOL | VTOL-anfallsfarkost | Vertikalstartande attackfarkost. |
+| command centre | ledningscentral | NEXUS styrande byggnad. |
+| tactical nuclear warhead | taktisk kärnvapenstridsspets | Robottens kärnladdning i silouppdraget. |
