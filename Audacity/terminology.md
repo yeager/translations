@@ -45,6 +45,8 @@
 | MIDI Synth Latency | MIDI-syntens fördröjning | Fördröjning för MIDI-ljudgenerering, angiven i millisekunder. |
 | Key binding | tangentbindning | Koppling mellan ett kommando och en tangent eller tangentkombination. |
 | Crossfade | övertoning | Gradvis övergång mellan två ljudavsnitt. |
+| Scrubbing | skrubbning | Variabel uppspelning som hjälper användaren att hitta ett ljud med hörseln. |
+| Scrub | skrubba | Åtgärden att spela upp ljud variabelt vid avsökning. |
 | Zero padding | nollutfyllnad | Utfyllnad med nollor före FFT-analys. |
 | Frequency gain | frekvensförstärkning | Förstärkning per frekvensområde i spektrogrammet. |
 | Playhead | uppspelningshuvud | Markör som visar aktuell uppspelnings- eller inspelningsposition. |
