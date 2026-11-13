@@ -23,5 +23,5 @@ Kontroller:
 - Gradle kunde inte köras i miljön eftersom Java-runtime saknas
 
 Upstream: [Mindustry PR #12833](https://github.com/Anuken/Mindustry/pull/12833),
-öppen den 13 november 2026. Den är inskickad men ännu inte granskad eller
-mergad.
+öppen den 13 november 2026. Projektets test- och valideringskontroller är
+godkända. PR:n är inskickad men ännu inte granskad eller mergad.
