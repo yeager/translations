@@ -6,11 +6,11 @@ Utvecklingsgrenens UI-katalog (`master/inkscape`) radgranskades i sin helhet mot
 
 Weblate-projektet har 26 komponenter. Svenska finns och är helt översatt i utvecklingsgrenens UI, 1.4.x-komponenterna samt tillgängliga nyckel-, manual- och självstudiekomponenter. Komponenten **Windows store** har endast en tom engelsk resurs och saknar svenska strängar, så den har inget översättningsarbete.
 
-Dokumentationskatalogerna (`keys`, `man` och nio självstudier) har därefter granskats rad för rad lokalt. De exporterades på nytt från Weblate före inskickning. 215 ändringar som fortfarande hade samma utgångstext skickades som förslag till vardera `master` och `1-4-x`; 39 poster per gren hade nyare befintliga översättningar och lämnades orörda för separat kontextgranskning. Weblate tillåter här förslag men inte direkt ersättning av redan översatta strängar. API:t har lästs tillbaka och bekräftar 215 öppna förslag i respektive gren.
+Dokumentationskatalogerna (`keys`, `man` och nio självstudier) har därefter granskats rad för rad lokalt. De exporterades på nytt från Weblate före inskickning. 215 ändringar som fortfarande hade samma utgångstext skickades som förslag till vardera `master` och `1-4-x`. De 39 poster som redan avvek på servern granskades separat; 38 gav ytterligare förslag och en lokal korrekturändring sammanföll med den tidigare utgångstexten. Weblate tillåter här förslag men inte direkt ersättning av redan översatta strängar. API:t har lästs tillbaka och bekräftar 253 öppna förslag i respektive gren.
 
 | Datum | Komponent | Granskat/ändrat | Status |
 | --- | --- | --- | --- |
-| 2026-11-13 | `master` och `1-4-x`: `keys`, `man` och självstudier | 11 kataloger, 215 säkra ändringar per gren; 39 samtidiga serveravvikelser per gren | Lokalt radgranskat, validerat och arkiverat. 215 förslag per gren har accepterats av Weblate och räknats om via enhets-API:t; de är inte ännu godkända/publicerade |
+| 2026-11-13 | `master` och `1-4-x`: `keys`, `man` och självstudier | 11 kataloger, 253 granskade förslag per gren | Lokalt radgranskat, validerat och arkiverat. 253 förslag per gren har accepterats av Weblate och räknats om via enhets-API:t; de är inte ännu godkända/publicerade |
 | 2026-11-13 | `master/inkscape` | 15 tomma och 93 fuzzy-poster | Arkiverat och inskickat via Weblate API; 108 accepterade, 0 hoppade över, 0 saknade |
 | 2026-11-13 | `master/inkscape` | 3 acceleratorfel | Arkiverat och inskickat via Weblate API; 3 accepterade efter ersättningskontroll |
 | 2026-11-13 | `master/inkscape`, poster 0001–0100 | 8 språk- och korrekturfel | Arkiverat och inskickat via Weblate API; 8 accepterade, 0 hoppade över, 0 saknade |

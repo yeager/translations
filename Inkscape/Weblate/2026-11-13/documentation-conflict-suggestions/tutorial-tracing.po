@@ -1,0 +1,100 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2026-07-22 18:56+0200\n"
+"PO-Revision-Date: 2026-02-01 17:20+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.inkscape.org/projects/inkscape/master/documentation/tutorials/tutorial-tracing/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14.3\n"
+
+#. (itstool) path: abstract/para
+#: tutorial-tracing.xml:11
+msgid ""
+"One of the features in Inkscape is a tool for tracing a bitmap image into "
+"one or more &lt;path&gt; elements for your SVG drawing. These short notes "
+"should help you become acquainted with how it works."
+msgstr ""
+"En av funktionerna i Inkscape är ett verktyg för att kalkera en rasterbild "
+"till ett eller flera &lt;path&gt;-element i din SVG-ritning. De här korta "
+"anteckningarna hjälper dig att förstå hur det fungerar."
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:26
+msgid ""
+"Generally the more dark pixels in the intermediate bitmap, the more tracing "
+"that Potrace will perform. As the amount of tracing increases, more CPU time"
+" will be required, and the &lt;path&gt; element will become much larger. It "
+"is suggested that the user experiment with lighter intermediate images "
+"first, getting gradually darker to get the desired proportion and complexity"
+" of the output path."
+msgstr ""
+"Generellt gäller att ju fler mörka bildpunkter som finns i den "
+"mellanliggande rasterbilden, desto mer kalkering utför Potrace. När mängden "
+"kalkering ökar krävs mer processortid och &lt;path&gt;-elementet blir mycket"
+" större. Börja med ljusare mellanbilder och gör dem sedan gradvis mörkare "
+"för att få önskad proportion och komplexitet i utdatabanan."
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:32
+msgid ""
+"To use the tracer, load or import an image, select it, and select the "
+"<menuchoice><guimenu>Path</guimenu><guimenuitem>Trace "
+"Bitmap</guimenuitem></menuchoice> item, or <keycombo><keycap "
+"function=\"shift\">Shift</keycap><keycap "
+"function=\"alt\">Alt</keycap><keycap>B</keycap></keycombo>."
+msgstr ""
+"Läs in eller importera en bild, markera den och välj "
+"<menuchoice><guimenu>Slinga</guimenu><guimenuitem>Kalkera "
+"rasterbild</guimenuitem></menuchoice> eller <keycombo><keycap "
+"function=\"shift\">Skift</keycap><keycap "
+"function=\"alt\">Alt</keycap><keycap>B</keycap></keycombo>."
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:113
+msgid ""
+"After tracing, it is also suggested that the user try "
+"<menuchoice><guimenu>Path</guimenu><guimenuitem>Simplify</guimenuitem></menuchoice>"
+" (<keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap>L</keycap></keycombo>) on the "
+"output path to reduce the number of nodes. This can make the output of "
+"Potrace much easier to edit. For example, here is a typical tracing of the "
+"Old Man Playing Guitar:"
+msgstr ""
+"Efter kalkering föreslås det också att användaren provar "
+"<menuchoice><guimenu>Slinga</guimenu><guimenuitem>Förenkla</guimenuitem></menuchoice>"
+" (<keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap>L</keycap></keycombo>) på "
+"utdatabanan för att minska antalet noder. Detta kan göra utdata från Potrace"
+" mycket enklare att redigera. Här är till exempel en typisk kalkering av Old"
+" Man Playing Guitar:"
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:127
+msgid ""
+"Note the enormous number of nodes in the path. After hitting "
+"<keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap>L</keycap></keycombo>, this is a "
+"typical result:"
+msgstr ""
+"Observera det enorma antalet noder i banan. Efter att ha tryckt på "
+"<keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap>L</keycap></keycombo> är detta ett"
+" typiskt resultat:"
+
+#. (itstool) path: text/tspan
+#: tracing-f05.svg:81
+#, no-wrap
+msgid "Traced Image / Output Path"
+msgstr "Kalkerad bild / Utdatabana"
+
+#. (itstool) path: text/tspan
+#: tracing-f06.svg:81
+#, no-wrap
+msgid "Traced Image / Output Path - Simplified"
+msgstr "Kalkerad bild / Utdatabana - förenklad"
