@@ -57,6 +57,7 @@
 | Time signature | taktart | Musikaliskt mått med täljare och nämnare. |
 | Snap | fästning | Fäster markör eller markering till närliggande tids- eller ljudpunkt. |
 | Clip pitch | klipptonhöjd | Tonhöjd som gäller för ett enskilt klipp. |
+| Pitch shift | tonhöjdsförskjutning | Ändring av tonhöjd utan tempoändring i Time Scale och fördröjningseffekten. |
 | Clip speed | klipphastighet | Uppspelningshastighet som gäller för ett enskilt klipp. |
 | Wah Frequency Offset | wahwah-frekvensförskjutning | Frekvensförskjutning i wahwah-effekten. |
 | Grabber | draghandtag | Greppyta för att flytta ett verktygsfält eller spår. |
