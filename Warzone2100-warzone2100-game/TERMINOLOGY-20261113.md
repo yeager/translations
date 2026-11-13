@@ -160,3 +160,12 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | locked teams | låsta lag | Låser lagindelningen i flerspelarmatchen. |
 | shared research | delad forskning | Forskningsinställning för lag. |
 | beacon | fyr | Karta-/hjälpmarkör som AI:n begär. |
+
+## Nätverk och systemdialoger
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| port mapping | portmappning | Routerinställning för inkommande spelanslutningar. |
+| replay | repris | Inspelad match i användargränssnittet. |
+| graphics backend | grafikrutin | Valbar teknisk grafikimplementation vid start. |
+| lobby server | lobbyserver | Server för offentliga matchlistningar. |
