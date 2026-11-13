@@ -9,6 +9,7 @@ ska prövas mot varje strängs funktion; den är inte en mekanisk ersättningsli
 | board | tavla | Den konkreta sidtypen, inte en fysisk anslagstavla. |
 | notification | avisering | Gäller meddelandecentralens händelser och status. |
 | reminder | påminnelse | Gäller datumväljarens tidsstyrda påminnelser. |
+| favorite | favorit | Gäller märkta sidor och deras sidofältsåtgärder. |
 | upload | läsa in | Gäller lokal import i uppladdarens instruktioner; behåll format- och API-namn. |
 | unread | oläst | Används i filter och status för aviseringar. |
 | archive | arkivera | Verb för att flytta en avisering till arkivet. |
