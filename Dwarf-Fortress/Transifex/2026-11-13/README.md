@@ -45,9 +45,9 @@ Detta är inte en markering som granskad i Transifex. De uppladdade raderna har 
 
 - Källa: Transifex REST API, resurs
   `o:dwarf-fortress-translation:p:dwarf-fortress-steam:r:hardcoded_steam`.
-- Batcherna `hardcoded-steam-batch01` till `hardcoded-steam-batch40` har
+- Batcherna `hardcoded-steam-batch01` till `hardcoded-steam-batch50` har
   granskats i separata deltafiler och skickats in via API.
-- Senaste verifierade batch: 40, med 9 strängar. API:t bekräftade importen och
+- Senaste verifierade batch: 50, med 20 strängar. API:t bekräftade importen och
   direkt återläsning matchade samtliga måltexter.
 - Den aktuella API-frågan med `filter[translated]=false` returnerar fortsatt
   fler än en sida med oöversatta strängar. Något totalt antal får därför inte
