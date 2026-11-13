@@ -1,0 +1,104 @@
+From 8a19bdc82f6bc3565eba2e1b153befc7ffcb6f6d Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 16:07:11 +0100
+Subject: [PATCH] l10n(sv): refine import and MIDI diagnostics
+
+---
+ au3/locale/sv.po | 20 ++++++++++----------
+ 1 file changed, 10 insertions(+), 10 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 7da41de..9a5ae60 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -955,7 +955,7 @@ msgid ""
+ "then import it, or record it into Audacity."
+ msgstr ""
+ "\"%s\" är en textbaserad fil, inte en ljudfil. \n"
+-"Audacity kan inte öppna denna filtyp. \n"
++"Audacity kan inte öppna den här filtypen. \n"
+ "Du måste konvertera den till ett ljudformat som WAV eller AIFF och \n"
+ "sedan importera den, eller spela in den i Audacity."
+ 
+@@ -970,7 +970,7 @@ msgid ""
+ "format, such as WAV or AIFF."
+ msgstr ""
+ "\"%s\" är en Musepack-ljudfil. \n"
+-"Audacity kan inte öppna denna filtyp. \n"
++"Audacity kan inte öppna den här filtypen. \n"
+ "Om du tror att det kan vara en MP3-fil, byt namn på den så att den slutar på \".mp3\"\n"
+ "och försök att importera den igen. Annars måste du konvertera filen till ett \n"
+ "ljudformat som stöds, t.ex. WAV eller AIFF."
+@@ -984,7 +984,7 @@ msgid ""
+ "You need to convert it to a supported audio format, such as WAV or AIFF."
+ msgstr ""
+ "\"%s\" är en Wavpack-ljudfil. \n"
+-"Audacity kan inte öppna denna filtyp. \n"
++"Audacity kan inte öppna den här filtypen. \n"
+ "Du måste konvertera den till ett ljudformat som stöds, t.ex. WAV eller AIFF."
+ 
+ #. i18n-hint: %s will be the filename
+@@ -996,7 +996,7 @@ msgid ""
+ "You need to convert it to a supported audio format, such as WAV or AIFF."
+ msgstr ""
+ "\"%s\" är en Dolby Digital-ljudfil. \n"
+-"Audacity kan inte öppna denna filtyp. \n"
++"Audacity kan inte öppna den här filtypen. \n"
+ "Du måste konvertera den till ett ljudformat som stöds, t.ex. WAV eller AIFF."
+ 
+ #. i18n-hint: %s will be the filename
+@@ -1008,7 +1008,7 @@ msgid ""
+ "You need to convert it to a supported audio format, such as WAV or AIFF."
+ msgstr ""
+ "\"%s\" är en Ogg Speex-ljudfil. \n"
+-"Audacity kan inte öppna denna filtyp. \n"
++"Audacity kan inte öppna den här filtypen. \n"
+ "Du måste konvertera den till ett ljudformat som stöds, t.ex. WAV eller AIFF."
+ 
+ #. i18n-hint: %s will be the filename
+@@ -1020,7 +1020,7 @@ msgid ""
+ "You need to extract the audio to a supported format, such as WAV or AIFF."
+ msgstr ""
+ "\"%s\" är en videofil. \n"
+-"Audacity kan inte öppna denna filtyp. \n"
++"Audacity kan inte öppna den här filtypen. \n"
+ "Du måste extrahera ljudet till ett ljudformat som stöds, t.ex. WAV eller AIFF."
+ 
+ #: libraries/lib-import-export/Import.cpp
+@@ -1191,7 +1191,7 @@ msgid ""
+ "this is a bug, please tell us exactly where it occurred."
+ msgstr ""
+ "Det uppstod ett problem med ditt sista val. Om du tror\n"
+-"att det är en bugg, var vänlig tala om för oss exakt när det uppstod."
++"att det är en bugg, tala om för oss exakt var det uppstod."
+ 
+ #: libraries/lib-menus/CommandManager.cpp
+ msgid "Disallowed"
+@@ -1387,13 +1387,13 @@ msgstr "&Slag"
+ #: libraries/lib-note-track/NoteTrack.cpp
+ #, c-format
+ msgid "Supports output: %d\n"
+-msgstr "Stöd för utdata: %d\n"
++msgstr "Stöder utdata: %d\n"
+ 
+ #. i18n-hint: Supported, meaning made available by the system
+ #: libraries/lib-note-track/NoteTrack.cpp
+ #, c-format
+ msgid "Supports input: %d\n"
+-msgstr "Stöd för indata: %d\n"
++msgstr "Stöder indata: %d\n"
+ 
+ #: libraries/lib-note-track/NoteTrack.cpp
+ #, c-format
+@@ -1424,7 +1424,7 @@ msgstr "Ingen MIDI-uppspelningsenhet hittades för '%s'.\n"
+ #. * minutes, seconds and samples (at the current project sample rate)
+ #: libraries/lib-numeric-formats/NumericConverterFormats.cpp
+ msgid "hh:mm:ss + samples"
+-msgstr "hh:mm:ss + samplingar"
++msgstr "hh:mm:ss + samplar"
+ 
+ #. i18n-hint: Name of time display format that shows time in seconds
+ #: libraries/lib-numeric-formats/NumericConverterFormats.cpp
+-- 
+2.54.0 (Apple Git-157)
+
