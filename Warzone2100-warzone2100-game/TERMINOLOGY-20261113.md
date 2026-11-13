@@ -39,3 +39,12 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | --- | --- | --- |
 | core systems | kärnsystem | NEXUS system som måste förstöras i slutbriefingen. |
 | final base | sista bas | NEXUS sista bas i kampanj 3. |
+
+## Kampanj 3 – lasersatelliter och robotkoder
+
+| Källa | Svensk term | Beslut |
+| --- | --- | --- |
+| missile | robot | Vapentyp i spelets uppdragsbriefingar. |
+| missile silo | robotsilo | Konstruktionen som innehåller robotar. |
+| missile control code | robotstyrkod | Kod för styrning av robotarna. |
+| high orbit | hög omloppsbana | Beskrivning av robotarnas räckvidd. |
