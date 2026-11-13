@@ -1306,9 +1306,9 @@ korrekt`. De två beskrivningarna av TV-shadern använder den projektspecifika
 termen `TV-shader` och samma idiomatiska formulering i helskärms- och
 grafikdialogen.
 
-Batchen är lokalt granskad och ännu inte inskickad. XML-validering, exakt
+Batchen var lokalt granskad före inskicket. XML-validering, exakt
 källjämförelse, l10n-lint, svlang, Hunspell-SV, Gitleaks och diffkontroll
-passerar. Svlang och Hunspell-SV markerar enbart de avsiktliga fackorden
+passerade. Svlang och Hunspell-SV markerade enbart de avsiktliga fackorden
 `mipmapping` och `TV-shader`; det senare finns i PCSX2:s termbas.
 `msgfmt` är inte tillämpligt på XLIFF och avvisar därför filen som icke-PO.
 
