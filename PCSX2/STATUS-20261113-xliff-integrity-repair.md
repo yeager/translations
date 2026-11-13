@@ -29,4 +29,8 @@ Deltafilen importerades den 13 november 2026 som oattesterade översättningar:
 2 strängar och 47 ord uppdaterades, 0 strängar godkändes, och 3 strängar
 hoppades över eftersom översättning och källtext medvetet är lika. Inga
 strängar hoppades över av QA eller därför att de är dolda. Importresultatet är
-API-verifierat; ingen separat upstreamgranskning eller merge är verifierad.
+API-verifierat. En efterläsning av samtliga fem strängar bekräftar de två nya
+serverförslagen: inmatningsprofilernas radbrytningskorrigering (sträng 10288,
+förslag 449921) och formatet `{} s` (sträng 9675, förslag 449923). `Vulkan`
+och `B 1` fanns redan som korrekta måltexter och behövde därför inte skapas på
+nytt. Ingen separat upstreamgranskning eller merge är verifierad.
