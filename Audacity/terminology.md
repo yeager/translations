@@ -65,3 +65,4 @@
 | Alias summary file | aliassammanfattningsfil | `.auf`-fil som sammanfattar en aliasfil för vågformsvisning. |
 | Block file | blockfil | Intern projektfil som lagrar ljud- eller sammanfattningsdata. |
 | Orphan block file | föräldralös blockfil | Oanvänd blockfil som kan höra till ett annat projekt. |
+| Compact (project) | packa | Tar bort oanvända byte i en projektfil för att frigöra diskutrymme, utan att förväxlas med ljudkomprimering. |
