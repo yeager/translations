@@ -233,3 +233,14 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | EMP cannon / mortar | EMP-kanon / EMP-granatkastare | Elektromagnetiska pulsvapen. |
 | EMP missile launcher | EMP-robotlavett | Lavett för EMP-robotar. |
 | fast-fire mini-rockets | snabbskjutande miniroboter | Forskningsserie för lättare robotvapen. |
+
+## Eldkastare, Gausskanoner och framdrivning
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| flamer | eldkastare | Vapentyp och försvarsbestyckning. |
+| flamer autoloader / fast loader | eldkastarens automatladdare / snabbladdare | Eldhastighetsforskning för eldkastare. |
+| fuel injection engine | bränsleinsprutningsmotor | Motoruppgradering för fordon. |
+| gas turbine engine / generator | gasturbinmotor / gasturbingenerator | Motor- respektive energiforskning. |
+| Gauss cannon | Gausskanon | Skenkanonvariant och dess ställningar. |
+| half-tracks | halvband | Fordonets framdrivningstyp. |
