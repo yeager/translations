@@ -1,0 +1,169 @@
+From dccce8d8c66f9fb19dfe0de15f95ee0e0de02c68 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 15:53:29 +0100
+Subject: [PATCH] l10n(sv): refine Nyquist effect translations
+
+---
+ au3/locale/sv.po | 40 ++++++++++++++++++++--------------------
+ 1 file changed, 20 insertions(+), 20 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index eef5217..9da4b40 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -19790,7 +19790,7 @@ msgstr "%s (%s)"
+ #: src/widgets/UnwritableLocationErrorDialog.cpp
+ #, c-format
+ msgid "Unable to write files to directory: %s."
+-msgstr "Kan inte spara filer i katalog: %s."
++msgstr "Det går inte att skriva filer till katalogen: %s."
+ 
+ #. i18n-hint: This message describes the error in the Error dialog.
+ #: src/widgets/UnwritableLocationErrorDialog.cpp
+@@ -19834,12 +19834,12 @@ msgstr "Tomt värde"
+ 
+ #: src/widgets/valnum.cpp
+ msgid "Malformed number"
+-msgstr "Felskrivet nummer"
++msgstr "Felaktigt tal"
+ 
+ #: src/widgets/valnum.cpp
+ #, c-format
+ msgid "Not in range %d to %d"
+-msgstr "Inte inom intervallet %d till %d"
++msgstr "Inte i intervallet %d till %d"
+ 
+ #: src/widgets/valnum.cpp
+ msgid "Value overflow"
+@@ -19866,7 +19866,7 @@ msgstr "Värdet får inte vara större än %s"
+ 
+ #: plug-ins/ShelfFilter.ny resources/EffectsMenuDefaults.xml
+ msgid "Shelf Filter"
+-msgstr "Shelf Filter"
++msgstr "Hyllfilter"
+ 
+ #: plug-ins/ShelfFilter.ny plug-ins/StudioFadeOut.ny
+ #: plug-ins/adjustable-fade.ny plug-ins/crossfadeclips.ny
+@@ -19890,11 +19890,11 @@ msgstr "Filtertyp"
+ 
+ #: plug-ins/ShelfFilter.ny
+ msgid "Low-shelf"
+-msgstr "Low-shelf"
++msgstr "Låghylla"
+ 
+ #: plug-ins/ShelfFilter.ny
+ msgid "High-shelf"
+-msgstr "High-shelf"
++msgstr "Höghylla"
+ 
+ #: plug-ins/ShelfFilter.ny plug-ins/highpass.ny plug-ins/lowpass.ny
+ #: plug-ins/notch.ny plug-ins/rissetdrum.ny plug-ins/tremolo.ny
+@@ -19923,7 +19923,7 @@ msgstr "Paul Licameli"
+ #: plug-ins/SpectralEditShelves.ny
+ #, lisp-format
+ msgid "~aPlease select frequencies."
+-msgstr "~aVar god välj frekvenser."
++msgstr "~aVälj frekvenser."
+ 
+ #: plug-ins/SpectralEditMulti.ny
+ #, lisp-format
+@@ -19932,7 +19932,7 @@ msgid ""
+ "                       frequencies are both ~a Hz).~%~\n"
+ "                       Please select a frequency range."
+ msgstr ""
+-"~aBandbredden är noll (de över och undre~%~\n"
++"~aBandbredden är noll (de övre och nedre~%~\n"
+ "                       frekvenserna är båda ~a Hz).~%~\n"
+ "                       Välj ett frekvensintervall."
+ 
+@@ -19983,9 +19983,9 @@ msgid ""
+ "                        For the current track, the high frequency setting cannot~%~\n"
+ "                        be greater than ~a Hz"
+ msgstr ""
+-"~aFrekvensvalet är för högt för spårets samplingshastigheten.~%~\n"
+-"                        För nuvarande spår kan inte inställningen högfrekvens~%~\n"
+-"                        vara större än ~a Hz"
++"~aFrekvensvalet är för högt för spårets samplingshastighet.~%~\n"
++"                        För det aktuella spåret får inställningen för den höga~%~\n"
++"                        frekvensen inte vara större än ~a Hz"
+ 
+ #: plug-ins/SpectralEditParametricEQ.ny plug-ins/SpectralEditShelves.ny
+ #, lisp-format
+@@ -19994,13 +19994,13 @@ msgid ""
+ "                         frequencies are both ~a Hz).~%~\n"
+ "                         Please select a frequency range."
+ msgstr ""
+-"~aBandbredden är noll (de över och undre~%~\n"
++"~aBandbredden är noll (de övre och nedre~%~\n"
+ "                         frekvenserna är båda ~a Hz).~%~\n"
+ "                         Välj ett frekvensintervall."
+ 
+ #: plug-ins/SpectralEditShelves.ny resources/EffectsMenuDefaults.xml
+ msgid "Spectral Edit Shelves"
+-msgstr "Spektral redigera nivåer"
++msgstr "Spektralredigering med hyllfilter"
+ 
+ #: plug-ins/SpectralEditShelves.ny plug-ins/StudioFadeOut.ny
+ #: plug-ins/adjustable-fade.ny plug-ins/crossfadeclips.ny
+@@ -20010,7 +20010,7 @@ msgstr "Spektral redigera nivåer"
+ #: plug-ins/sample-data-export.ny plug-ins/sample-data-import.ny
+ #: plug-ins/spectral-delete.ny plug-ins/tremolo.ny
+ msgid "GNU General Public License v2.0 or later"
+-msgstr "GNU General Public licens v.2.0 eller senare"
++msgstr "GNU General Public License v2.0 eller senare"
+ 
+ #: plug-ins/StudioFadeOut.ny resources/EffectsMenuDefaults.xml
+ msgid "Studio Fade Out"
+@@ -20019,7 +20019,7 @@ msgstr "Studiouttoning"
+ #: plug-ins/StudioFadeOut.ny
+ #, lisp-format
+ msgid "Selection too short.~%It must be more than 2 samples."
+-msgstr "Markeringen är för kort.~%Den måste vara större än 2 samplingar."
++msgstr "Markeringen är för kort.~%Den måste innehålla fler än två samplar."
+ 
+ #: plug-ins/adjustable-fade.ny resources/EffectsMenuDefaults.xml
+ msgid "Adjustable Fade"
+@@ -20047,7 +20047,7 @@ msgstr "S-kurva ned"
+ 
+ #: plug-ins/adjustable-fade.ny
+ msgid "Mid-fade Adjust (%)"
+-msgstr "Justering av mittentoning (%)"
++msgstr "Justera mittpunkt för toning (%)"
+ 
+ #: plug-ins/adjustable-fade.ny
+ msgid "Start/End as"
+@@ -20071,7 +20071,7 @@ msgstr "Slut (eller start)"
+ 
+ #: plug-ins/adjustable-fade.ny
+ msgid "Handy Presets (override controls)"
+-msgstr "Behändiga förinställningar (överskrider kontroller)"
++msgstr "Praktiska förinställningar (åsidosätter reglage)"
+ 
+ #: plug-ins/adjustable-fade.ny
+ msgid "None Selected"
+@@ -20153,11 +20153,11 @@ msgstr ""
+ 
+ #: plug-ins/beat.ny
+ msgid "Beat Finder"
+-msgstr "Beat Sök"
++msgstr "Taktsökare"
+ 
+ #: plug-ins/beat.ny
+ msgid "Threshold Percentage"
+-msgstr "Tröskel procent"
++msgstr "Tröskelvärde i procent"
+ 
+ #: plug-ins/clipfix.ny resources/EffectsMenuDefaults.xml
+ msgid "Clip Fix"
+@@ -20177,7 +20177,7 @@ msgstr "Reducera amplituden för att tillåta återställda maxpunkter (dB)"
+ 
+ #: plug-ins/crossfadeclips.ny resources/EffectsMenuDefaults.xml
+ msgid "Crossfade Clips"
+-msgstr "Kör crossfade på klipp"
++msgstr "Övertona klipp"
+ 
+ #: plug-ins/crossfadeclips.ny
+ #, lisp-format
+-- 
+2.54.0 (Apple Git-157)
+
