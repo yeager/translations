@@ -1,0 +1,79 @@
+From 8d40ab95136d626d2b2a0b232548fbf0391ec1f6 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 17:26:02 +0100
+Subject: [PATCH] l10n(sv): refine Nyquist effect wording
+
+---
+ au3/locale/sv.po | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 8718ec4..1a12e99 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -20458,7 +20458,7 @@ msgid ""
+ "                 Track sample rate is ~a Hz~%~\n"
+ "                 Frequency must be less than ~a Hz."
+ msgstr ""
+-"Fel:~%~%Frekvens (~a Hz) är för hög för spårets samplingshastighet.~%~%~\n"
++"Fel:~%~%Frekvens (~a Hz) är för hög för spårets samplingsfrekvens.~%~%~\n"
+ "                  Spårets samplingsfrekvens är ~a Hz~%~\n"
+ "                  Frekvensen måste vara mindre än ~a Hz."
+ 
+@@ -20473,7 +20473,7 @@ msgstr "Tröskelnivå (dB)"
+ 
+ #: plug-ins/label-sounds.ny
+ msgid "Threshold measurement"
+-msgstr "Tröskel mätvärde"
++msgstr "Tröskelmätning"
+ 
+ #: plug-ins/label-sounds.ny
+ msgid "Peak level"
+@@ -20517,7 +20517,7 @@ msgstr "Område mellan ljud"
+ 
+ #: plug-ins/label-sounds.ny
+ msgid "Maximum leading silence"
+-msgstr "Maximal tystnad"
++msgstr "Längsta inledande tystnad"
+ 
+ #: plug-ins/label-sounds.ny
+ msgid "Maximum trailing silence"
+@@ -20545,7 +20545,7 @@ msgid ""
+ "                 Try lowering 'Threshold level (dB)'."
+ msgstr ""
+ "Inga ljud hittades.~%~\n"
+-"                  Försök att sänka 'Tröskelnivå (dB)'."
++"                  Försök att sänka ”Tröskelnivå (dB)”."
+ 
+ #: plug-ins/label-sounds.ny
+ #, lisp-format
+@@ -20554,7 +20554,7 @@ msgid ""
+ "                 at least two sounds.~%~\n"
+ "                 Only one sound detected."
+ msgstr ""
+-"Att märka regioner mellan ljud kräver ~%~\n"
++"Att skapa områdesetiketter mellan ljud kräver ~%~\n"
+ "                  minst två ljud.~%~\n"
+ "                  Endast ett ljud upptäckt."
+ 
+@@ -20708,7 +20708,7 @@ msgstr "Steve Daulton och Bill Wharrie"
+ 
+ #: plug-ins/notch.ny
+ msgid "Q (higher value reduces width)"
+-msgstr "Q (högre värden reducerar bredden)"
++msgstr "Q (högre värde minskar bandbredden)"
+ 
+ #: plug-ins/notch.ny
+ #, lisp-format
+@@ -20717,7 +20717,7 @@ msgid ""
+ "               Track sample rate is ~a Hz.~%~\n"
+ "               Frequency must be less than ~a Hz."
+ msgstr ""
+-"Fel:~%~%Frekvens (~a Hz) är för hög för spårets samplingshastighet.~%~%~\n"
++"Fel:~%~%Frekvens (~a Hz) är för hög för spårets samplingsfrekvens.~%~%~\n"
+ "                Spårets samplingsfrekvens är ~a Hz.~%~\n"
+ "                Frekvensen måste vara mindre än ~a Hz."
+ 
+-- 
+2.54.0 (Apple Git-157)
+
