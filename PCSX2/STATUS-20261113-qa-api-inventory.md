@@ -21,6 +21,12 @@ Alla 58 rader i kategorin `punctuation` har lästs mot den aktuella XLIFF-export
 
 Återstående 54 rader använder `spaces_after_punctuation_check`. De granskade exemplen innehåller HTML-kodning, avsiktligt oförändrade tekniska värden eller en redan existerande korrekt kandidat. Till exempel har post `6237` redan förslag `449191` med *i stället* i stället för den äldre aktiva formen *istället*. Inga dubblettförslag, röster eller QA-avfärdanden skapades i denna genomgång.
 
+## Radgranskning: specialtecken
+
+Genomgången av `special_symbols` identifierade två verkliga felaktiga aktiva val i exporten. Post `5379` har källformatet `%1 (%2)`, men den aktiva måltexten är den orelaterade nätverksstatusen *Ansluten till %1:%2: skickar begäran*. Den korrekta kandidaten `%1 (%2)` finns redan som förslag `252904`. Post `13439` har en äldre aktiv måltext med bland annat felaktigt mellanrum i `GPU: n`; tre nyare, radgranskade svenska kandidater finns redan som `448997`, `449477` och `449817`.
+
+Ingen av dessa kandidater är vald eller upstreamgranskad. Därför skapades inga dubblettförslag och inga befintliga förslag manipulerades. De behöver väljas av en projektbehörig granskare innan den aktiva exporten kan betraktas som reparerad.
+
 ## Beslut
 
 Inga QA-poster har avfärdats eller massgodkänts. Formateringskontroller ska jämföras med exakt käll- och måltext före varje rättning. Stavningsposter behandlas endast när den konkreta svenska formuleringen är fel, inte därför att Crowdins ordlista saknar termen.
