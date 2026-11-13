@@ -1,0 +1,34 @@
+From fc66148cf5543299566e90806e12a5b769ec06ae Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 17:07:01 +0100
+Subject: [PATCH] l10n(sv): normalize recording and spectrogram labels
+
+---
+ au3/locale/sv.po | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index d9df2b9..616622a 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -17342,7 +17342,7 @@ msgstr "Spela in på ett nytt spår"
+ #. i18n-hint: Dropout is a loss of a short sequence audio sample data from the recording
+ #: src/prefs/RecordingPrefs.cpp
+ msgid "Detect dropouts"
+-msgstr "Upptäck signalförluster"
++msgstr "Upptäck ljudbortfall"
+ 
+ #: src/prefs/RecordingPrefs.cpp
+ msgid "Sound Activated Recording"
+@@ -17503,7 +17503,7 @@ msgstr "Minimifrekvens måste vara minst 0 Hz"
+ 
+ #: src/prefs/SpectrogramSettings.cpp
+ msgid "Minimum frequency must be less than maximum frequency"
+-msgstr "Minimifrekvensen måste vara mindre än maxfrekvens"
++msgstr "Minimifrekvensen måste vara mindre än maximifrekvensen"
+ 
+ #: src/prefs/SpectrogramSettings.cpp
+ msgid "The range must be at least 1 dB"
+-- 
+2.54.0 (Apple Git-157)
+
