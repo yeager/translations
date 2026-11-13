@@ -286,3 +286,11 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | display scale | visningsskala | Inställning för gränssnittets skala. |
 | replay | repris | Inspelad match som visas eller läses in. |
 | original campaign | ursprunglig kampanj | Förvalet med originalkampanjens regler. |
+
+## Handledningens guidevyer
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| game guide | spelguide | Hjälpavsnitt i handledningen. |
+| sidebar | sidopanel | Fällbar panel i guidevyn. |
+| keymapping | tangentbindning | Konfigurerbar koppling mellan tangent och funktion. |
