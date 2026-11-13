@@ -29,3 +29,15 @@ Post `8827` är den parallella informationstexten i FullscreenUI. Den exporterad
 Under kontrollen upptäcktes att post `3113` i AboutDialog redan hade en bättre exporterad måltext än den nyss skapade kandidaten. Kandidaten `449927` drogs därför tillbaka och dess frånvaro bekräftades med API-svaret 404. En ännu tidigare kandidat, `449925`, som saknade HTML-strukturen, hade redan raderats. Ingen befintlig översättning eller godkännandestatus ändrades. Kandidaten `449931` är inskickad men ännu inte upstreamgranskad eller vald som aktiv översättning.
 
 Post `10498` i FullscreenUI använder den källspecifika förklaringen "auto fire". Den tidigare svenska kandidaten behöll det engelska uttrycket. Efter kontroll mot källans inställningskontext skickades därför kandidat `449929` med *automateld*. Den återlästes direkt; Hunspell-sv hade inga träffar och svlang bedömde formuleringen som naturlig svenska. Även denna kandidat är ogranskad och inte vald som aktiv översättning.
+
+## Fortsatt exportgranskning
+
+Tre ytterligare FullscreenUI- och ljudinställningsposter skickades som ogranskade kandidater och återlästes via API:
+
+| Sträng | Kandidat | Beslut |
+| --- | ---: | --- |
+| `11360` | `449933` | Rättar felaktig *utdatavolym* till *snabbspolningsvolym*. |
+| `11304` | `449935` | *5.1 Surround* normaliseras till *5.1-surroundljud*. |
+| `11306` | `449937` | *7.1 Surround* normaliseras till *7.1-surroundljud*. |
+
+Hunspell-sv och svlang hade inga språkvarningar för dessa tre kandidater. Post `3449` för procentformatet hade redan kandidaten `%1 %`; Crowdins API avvisade en identisk inskickning med `Duplicate translation`. Ingen röst eller befintlig kandidat ändrades.
