@@ -1,0 +1,229 @@
+From 3c8b9fe2c1b7741207e84fcd731dbdcc9ca1e824 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:09:09 +0100
+Subject: [PATCH] l10n(sv): review presets and import diagnostics
+
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 1406ffa..1ffd415 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -485,7 +485,7 @@ msgstr "Akustisk gitarr"
+ #. i18n-hint: This is the name of an effect preset.
+ #: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+ msgid "Bass Guitar"
+-msgstr "Bass Guitar"
++msgstr "Basgitarr"
+ 
+ #. i18n-hint: This is the name of an effect preset. Strings is violins, etc
+ #: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+@@ -495,12 +495,12 @@ msgstr "Stråkar"
+ #. i18n-hint: This is the name of an effect preset.
+ #: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+ msgid "Kick Drums"
+-msgstr "Kick Drums"
++msgstr "Baskaggar"
+ 
+ #. i18n-hint: This is the name of an effect preset.
+ #: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+ msgid "Drums Control"
+-msgstr "Trummor kontroll"
++msgstr "Trumkontroll"
+ 
+ #. i18n-hint: This is the name of an effect preset. SFX means sound effects.
+ #: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+@@ -535,12 +535,12 @@ msgstr "Smack Explosion SFX"
+ #. i18n-hint: This is the name of an effect preset.
+ #: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+ msgid "Master Limiter"
+-msgstr "Master Limiter"
++msgstr "Masterbegränsare"
+ 
+ #. i18n-hint: This is the name of an effect preset. SFX means sound effects.
+ #: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+ msgid "SFX Limiter"
+-msgstr "SFX Limiter"
++msgstr "Ljudeffektsbegränsare"
+ 
+ #. i18n-hint: This is the name of an effect preset. VO means Voiceover.
+ #: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+@@ -560,7 +560,7 @@ msgstr "Modern Punch 2"
+ #. i18n-hint: This is the name of an effect preset.
+ #: libraries/lib-dynamic-range-processor/DynamicRangeProcessorUtils.h
+ msgid "Play it Loud"
+-msgstr "Spelar upp starkt"
++msgstr "Spela högt"
+ 
+ #: libraries/lib-effects/Effect.cpp
+ #: libraries/lib-preference-pages/PrefsPanel.cpp
+@@ -604,7 +604,7 @@ msgstr "Inbyggda effekter"
+ 
+ #: libraries/lib-effects/LoadEffects.cpp
+ msgid "Provides builtin effects to Audacity"
+-msgstr "Tillhandahåller inbyggda effekter i Audacity"
++msgstr "Ger Audacity inbyggda effekter"
+ 
+ #: libraries/lib-effects/LoadEffects.cpp
+ msgid "Unknown built-in effect name"
+@@ -642,7 +642,7 @@ msgstr "Internt fel"
+ 
+ #: libraries/lib-fft/FFT.cpp
+ msgid "Rectangular"
+-msgstr "Rekangulär"
++msgstr "Rektangulär"
+ 
+ #. i18n-hint a proper name
+ #: libraries/lib-fft/FFT.cpp
+@@ -693,7 +693,7 @@ msgstr "Gaussian(a=4.5)"
+ #: libraries/lib-file-formats/FileFormats.cpp
+ #, c-format
+ msgid "Error (file may not have been written): %s"
+-msgstr "Fel (filen kanske inte blev rätt gjord): %s"
++msgstr "Fel (filen kanske inte skrevs): %s"
+ 
+ #: libraries/lib-files/FileException.cpp
+ #, c-format
+@@ -708,7 +708,7 @@ msgstr "Audacity misslyckades att läsa in en fil i %s."
+ #: libraries/lib-files/FileException.cpp
+ #, c-format
+ msgid "Audacity successfully wrote a file in %s but failed to rename it as %s."
+-msgstr "Audacity skrev en till i %s men misslyckades att döpa om den till %s."
++msgstr "Audacity skrev en fil i %s men kunde inte byta namn på den till %s."
+ 
+ #: libraries/lib-files/FileException.cpp
+ #, c-format
+@@ -732,7 +732,7 @@ msgstr "Alla filer"
+ #. files that can be reopened to resume the session later
+ #: libraries/lib-files/FileNames.cpp
+ msgid "AUP3 project files"
+-msgstr "AUP3 projektfiler"
++msgstr "AUP3-projektfiler"
+ 
+ #: libraries/lib-files/FileNames.cpp
+ msgid "Dynamically Linked Libraries"
+@@ -778,15 +778,15 @@ msgstr ""
+ 
+ #: libraries/lib-files/TempDirectory.cpp
+ msgid "Unsuitable"
+-msgstr "Opassande"
++msgstr "Olämplig"
+ 
+ #: libraries/lib-files/TempDirectory.cpp
+ msgid ""
+ "The temporary files directory is on a FAT formatted drive.\n"
+ "Resetting to default location."
+ msgstr ""
+-"Mappen för tempfiler finns på en FAT-formaterad disk.\n"
+-"Återställ till standardplats."
++"Katalogen för temporära filer finns på en FAT-formaterad disk.\n"
++"Återställer till standardplatsen."
+ 
+ #: libraries/lib-files/TempDirectory.cpp
+ #, c-format
+@@ -797,7 +797,7 @@ msgid ""
+ msgstr ""
+ "%s\n"
+ "\n"
+-"För tips på passande disk, klicka på hjälpknappen."
++"Klicka på hjälpknappen för tips om lämpliga diskar."
+ 
+ #: libraries/lib-import-export/Export.cpp
+ #: libraries/lib-import-export/ExportProgressUI.h
+@@ -832,7 +832,7 @@ msgstr "Exportera"
+ 
+ #: libraries/lib-import-export/ExportProgressUI.cpp
+ msgid "Export completed with error."
+-msgstr "Export komplett med fel."
++msgstr "Exporten slutfördes med fel."
+ 
+ #: libraries/lib-import-export/Import.cpp
+ msgid "All supported files"
+@@ -851,7 +851,7 @@ msgstr ""
+ 
+ #: libraries/lib-import-export/Import.cpp
+ msgid "Importing files"
+-msgstr "Importera filer"
++msgstr "Importerar filer"
+ 
+ #: libraries/lib-import-export/Import.cpp
+ #, c-format
+@@ -876,10 +876,10 @@ msgid ""
+ "Extract (rip) the CD tracks to an audio format that \n"
+ "Audacity can import, such as WAV or AIFF."
+ msgstr ""
+-"\"%s\" är en Audio CD-fil. \n"
+-"Audacity kan inte öppna denna typ av fil. \n"
+-"Försök att spela av filen till ett ljudformat \n"
+-"som Audacity kan importera som WAV eller AIFF."
++"\"%s\" är ett ljudspår från en ljud-CD. \n"
++"Audacity kan inte öppna ljud-CD:er direkt. \n"
++"Kopiera (rippa) CD-spåret till ett ljudformat \n"
++"som Audacity kan importera, till exempel WAV eller AIFF."
+ 
+ #. i18n-hint: %s will be the filename
+ #: libraries/lib-import-export/Import.cpp
+@@ -891,7 +891,7 @@ msgid ""
+ msgstr ""
+ "\"%s\" är en spellista.\n"
+ "Audacity kan inte öppna denna fil eftersom den bara innehåller länkar till andra filer.\n"
+-"Du kanske kan öppna filen i en textredigerare och ladda ned de riktiga ljudfilerna."
++"Du kanske kan öppna filen i en textredigerare och hämta de faktiska ljudfilerna."
+ 
+ #. i18n-hint: %s will be the filename
+ #: libraries/lib-import-export/Import.cpp
+@@ -902,8 +902,8 @@ msgid ""
+ "You need to convert it to a supported audio format, such as WAV or AIFF."
+ msgstr ""
+ "\"%s\" är en Windows Media Audio-fil (.wma). \n"
+-"Audacity kan inte öppna denna filtyp p.g.a patentrestriktioner.\n"
+-"Du måste konvertera filen till en ljudformat som stöds, t.ex. WAV eller AIFF."
++"Audacity kan inte öppna denna filtyp på grund av patentbegränsningar.\n"
++"Du måste konvertera filen till ett ljudformat som stöds, till exempel WAV eller AIFF."
+ 
+ #. i18n-hint: %s will be the filename
+ #: libraries/lib-import-export/Import.cpp
+@@ -913,9 +913,9 @@ msgid ""
+ "Without the optional FFmpeg library, Audacity cannot open this type of file.\n"
+ "Otherwise, you need to convert it to a supported audio format, such as WAV or AIFF."
+ msgstr ""
+-"\"%s\" är en avancerad ljudkodningsfil. \n"
+-"Utan FFmpeg bibliotek, Audacity kan inte öppna denna typ av fil.\n"
+-"Du behöver konvertera filen till ett ljudformat som stöds, som WAV eller AIFF."
++"\"%s\" är en Advanced Audio Coding-fil.\n"
++"Utan det valfria FFmpeg-biblioteket kan Audacity inte öppna den här filtypen.\n"
++"Annars måste du konvertera filen till ett ljudformat som stöds, till exempel WAV eller AIFF."
+ 
+ #. i18n-hint: %s will be the filename
+ #: libraries/lib-import-export/Import.cpp
+@@ -928,10 +928,10 @@ msgid ""
+ "extract the CD track to a supported audio format such as WAV or AIFF."
+ msgstr ""
+ "\"%s\" är en krypterad ljudfil. \n"
+-"Dessa kommer från en musikaffär på nätet. \n"
++"De kommer vanligen från en musikbutik på nätet. \n"
+ "Audacity kan inte öppna denna filtyp p.g.a. krypteringen.\n"
+-"Försök att spela in filen i Audacity eller bränn den på en ljud-CD för\n"
+-"att sedan extrahera CD-spåret till ett ljudformat som stöds, t.ex. WAV eller AIFF."
++"Försök att spela in filen i Audacity, eller bränn den på en ljud-CD och\n"
++"kopiera sedan CD-spåret till ett ljudformat som stöds, till exempel WAV eller AIFF."
+ 
+ #. i18n-hint: %s will be the filename
+ #: libraries/lib-import-export/Import.cpp
+@@ -942,7 +942,7 @@ msgid ""
+ "You need to convert it to a supported audio format, such as WAV or AIFF."
+ msgstr ""
+ "\"%s\" är en RealPlayer-mediafil. \n"
+-"Audadcity kan inte öppna detta licensierade format.\n"
++"Audacity kan inte öppna det här egenutvecklade formatet.\n"
+ "Du måste konvertera det till ett ljudformat som stöds, t.ex. WAV eller AIFF."
+ 
+ #. i18n-hint: %s will be the filename
+@@ -971,7 +971,7 @@ msgid ""
+ msgstr ""
+ "\"%s\" är en Musepack-ljudfil. \n"
+ "Audacity kan inte öppna denna filtyp. \n"
+-"Om du tror att det kan vara en MP3-fil, döp om den så att det slutar på \".mp3\"\n"
++"Om du tror att det kan vara en MP3-fil, byt namn på den så att den slutar på \".mp3\"\n"
+ "och försök att importera den igen. Annars måste du konvertera filen till ett \n"
+ "ljudformat som stöds, t.ex. WAV eller AIFF."
+ 
