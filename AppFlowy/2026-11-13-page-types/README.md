@@ -43,10 +43,10 @@ Kontroller:
 Upstream: [AppFlowy PR #9132](https://github.com/AppFlowy-IO/AppFlowy/pull/9132),
 öppen den 13 november 2026. Den är inskickad men inte granskad eller mergad.
 
-Upstreamkontroller: en tidigare Ninja-i18n-körning och Sourcery har godkänt
-PR:n. Den senaste Ninja-i18n-körningen stoppades före lintning eftersom dess
-`pull_request_target`-konfiguration av säkerhetsskäl inte får checka ut
-fork-kod. Det är en workflowbegränsning, inte en rapporterad översättningsbrist.
+Upstreamkontroller: Ninja-i18n och Sourcery har godkänt den senaste revisionen.
+En tidigare Ninja-i18n-körning stoppades före lintning eftersom dess
+`pull_request_target`-konfiguration tillfälligt inte fick checka ut fork-kod.
+Det var en workflowbegränsning, inte en rapporterad översättningsbrist.
 Ninja-i18n:s tidigare varning för `colors.orange` är en medveten svensk
 identisk översättning och är förklarad i PR:n. CLA-boten bekräftar att samtliga
 commitförfattare har signerat. PR:n väntar på projektets granskning och merge.
