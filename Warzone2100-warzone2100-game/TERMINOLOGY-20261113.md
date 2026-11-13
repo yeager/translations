@@ -106,3 +106,12 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | recover artifact | bärga artefakt | Aktiv handling för att hämta en forskningsartefakt. |
 | delivery point | leveranspunkt | Fabrikens destinationspunkt för nya enheter. |
 | vehicle body | fordonschassi | Del i fordonskonstruktören. |
+
+## Kampanjsekvenser
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| Team Alpha | Alpha-gruppen | Spelarens expeditionsteam i kampanj 1. |
+| command turret | befälstorn | Torn som samordnar tilldelade enheter. |
+| power suit | stridsdräkt | Synapslänksstyrd militär utrustning i kampanjberättelsen. |
+| Nexus Intruder Program | NEXUS Intruder-program | Produktnamn med svensk funktionsdel. |
