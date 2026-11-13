@@ -27,6 +27,8 @@ Genomgången av `special_symbols` identifierade två verkliga felaktiga aktiva v
 
 Ingen av dessa kandidater är vald eller upstreamgranskad. Därför skapades inga dubblettförslag och inga befintliga förslag manipulerades. De behöver väljas av en projektbehörig granskare innan den aktiva exporten kan betraktas som reparerad.
 
+Kontrollerna `numbers` och `symbol_register` gav ytterligare en faktisk katalogskada: post `6067` är registerförkortningen `PC` (programräknare) men har aktiv måltext `st`. Den korrekta, avsiktligt oförändrade kandidaten `PC` finns redan som `255694`. Övriga träffar i dessa två kontrolltyper är korrekta tal utskrivna med svenska ord, avsiktlig versalisering av handkontrollknappen `START`, eller etablerade tekniska termer. Även dubbelposterna för TV-shader har redan granskat förslag (`449081` och `449079`).
+
 ## Beslut
 
 Inga QA-poster har avfärdats eller massgodkänts. Formateringskontroller ska jämföras med exakt käll- och måltext före varje rättning. Stavningsposter behandlas endast när den konkreta svenska formuleringen är fel, inte därför att Crowdins ordlista saknar termen.
