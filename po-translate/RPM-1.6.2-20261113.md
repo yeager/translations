@@ -10,6 +10,7 @@ GitHub-releasen och PyPI-paketet `po-translate-ai` var redan 1.6.2, men DNF-repo
 - Workflow-körning [43382135143](https://github.com/yeager/po-translate/actions/runs/43382135143) byggde och laddade upp `po-translate-1.6.2-1.noarch.rpm` till den publicerade releasen `v1.6.2`.
 - RPM-repots importlista fick den nya, versionslåsta release-tillgången i commit `bf39b92f39750b15fbdba9b00ab017d8fe7574e0`.
 - Importkörning [43382231641](https://github.com/yeager/rpm-repo/actions/runs/43382231641) uppdaterade metadata och publicerade repot. README uppdaterades därefter till 1.6.2 i commit `f0cbd6e837fba96f7470223e58fe7c66af5b5fd6`.
+- `po-translate`-README uppdaterades i commit `9c65127` så att DEB-exemplet hämtar 1.6.2 och PyPI-distributionen anges som `po-translate-ai`, inte det separata paketet `po-translate`.
 
 ## Verifiering
 
