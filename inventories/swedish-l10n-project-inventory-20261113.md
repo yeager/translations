@@ -13,7 +13,7 @@ Prioritet 1 betyder bred slutanvändarnytta, 2 produktivitets- och samarbetsprog
 | 1 | [audacity/audacity](https://github.com/audacity/audacity) | 2026-11-02 | Svensk resurs: `au3/locale/sv.po` | 2024-10-15, Igor |
 | 1 | [brave/brave-browser](https://github.com/brave/brave-browser) | 2026-11-12 | Transifex `brave_en`: svenska 99 %; ingen svensk resurs i Git | Senaste projektaktivitet: 2025-03-18 |
 | 1 | [BrowserWorks/waterfox](https://github.com/BrowserWorks/waterfox) | 2026-11-07 | Svensk resurs: `browser/extensions/newtab/webext-glue/locales/sv-SE` | 2026-06-14, Maxx Crawford |
-| 1 | [darktable-org/darktable](https://github.com/darktable-org/darktable) | 2026-10-04 | Svensk resurs: `po/sv.po` | 2026-11-04, Johan Schiff |
+| 1 | [darktable-org/darktable](https://github.com/darktable-org/darktable) | 2026-10-04 | Svensk resurs: `po/sv.po`; verifierad komplett den 13 november: 6 732 översatta, 0 oöversatta och 0 luddiga | 2026-11-08, Philipp Lutz |
 | 1 | [element-hq/element-x-android](https://github.com/element-hq/element-x-android) | 2026-11-06 | Svensk resurs: `features/analytics/api/src/main/res/values-sv` | 2024-02-23, Benoit Marty |
 | 1 | [element-hq/element-x-ios](https://github.com/element-hq/element-x-ios) | 2026-11-05 | Svensk resurs: `ElementX/Resources/Localizations/sv.lproj` | 2026-11-09, Element CI |
 | 1 | [elementary/os](https://github.com/elementary/os) | 2025-12-11 | elementary Weblate: 22 komponenter helt översatta; Settings har 1 svensk post som behöver redigeras (`accent color` → `Accentfärg`) | 2026-10-19, yeager |
@@ -21,7 +21,7 @@ Prioritet 1 betyder bred slutanvändarnytta, 2 produktivitets- och samarbetsprog
 | 1 | [FossifyOrg/Calendar](https://github.com/FossifyOrg/Calendar) | 2026-11-07 | Resursträff kräver UI-kontroll: `app/src/main/assets/holidays/SV` | 2026-11-04, fossifybot[bot] |
 | 1 | [FossifyOrg/Clock](https://github.com/FossifyOrg/Clock) | 2026-01-30 | Svensk resurs: `app/src/main/res/values-sv` | 2025-05-29, P.O |
 | 1 | [FossifyOrg/Contacts](https://github.com/FossifyOrg/Contacts) | 2026-01-30 | Svensk resurs: `app/src/main/res/values-sv` | 2026-01-26, Naveen Singh |
-| 1 | [FossifyOrg/File-Manager](https://github.com/FossifyOrg/File-Manager) | 2026-11-07 | Svensk resurs: `app/src/main/res/values-sv` | 2024-02-11, Vsnmrn |
+| 1 | [FossifyOrg/File-Manager](https://github.com/FossifyOrg/File-Manager) | 2026-11-07 | Svensk resurs: `app/src/main/res/values-sv`; verifierad komplett den 13 november: 44 av 44 engelska strängar täckta | 2024-02-11, Vsnmrn |
 | 1 | [FossifyOrg/Gallery](https://github.com/FossifyOrg/Gallery) | 2026-11-07 | Svensk resurs: `app/src/main/res/values-sv` | 2026-09-10, Daniel Nylander |
 | 1 | [FossifyOrg/Launcher](https://github.com/FossifyOrg/Launcher) | 2026-02-17 | Svensk resurs: `app/src/main/res/values-sv` | 2026-02-11, en2sv |
 | 1 | [FossifyOrg/Messages](https://github.com/FossifyOrg/Messages) | 2026-10-24 | Svensk resurs: `app/src/main/res/values-sv` | 2026-10-16, en2sv |
