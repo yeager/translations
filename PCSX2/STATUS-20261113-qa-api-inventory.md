@@ -64,3 +64,7 @@ Hunspell-sv och svlang hade inga språkvarningar för dessa tre kandidater. Post
 ## Exportens radbrytningsfel
 
 L10n-lint markerar post `10288` eftersom den aktiva översättningen saknar en av källtextens tre radbrytningar. Den svenska kandidaten `448991` har samma fyra stycken och tre radbrytningar som källtexten, korrekt böjning och konsekvent UI-terminologi. Den återlästes från Crowdins API den 13 november. Ingen ny kandidat skickades, eftersom den redan täcker rättningen. En senare kandidat, `449921`, har samma radbrytningsfel som den aktiva måltexten och ska inte väljas.
+
+## FullscreenUI: beskrivande form
+
+Post `17295` är hjälptexten för FXAA-kantutjämning. Källtexten beskriver vad inställningen gör, medan den aktiva svenska texten felaktigt använder uppmaningsformen *Tillämpa*. Den korrekta kandidat `449735`, *Tillämpar FXAA-kantutjämningsalgoritmen för att förbättra spelens visuella kvalitet.*, återlästes från Crowdins API den 13 november. Ingen ny kandidat skapades; den befintliga kandidaten är inte vald eller upstreamgranskad.
