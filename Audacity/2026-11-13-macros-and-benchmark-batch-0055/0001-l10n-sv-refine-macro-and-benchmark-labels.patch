@@ -1,0 +1,116 @@
+From 0014c323d44417f3c25d1088598195a9eed66fec Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 16:28:20 +0100
+Subject: [PATCH] l10n(sv): refine macro and benchmark labels
+
+---
+ au3/locale/sv.po | 24 ++++++++++++------------
+ 1 file changed, 12 insertions(+), 12 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 2f6333f..c2826fc 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -7476,7 +7476,7 @@ msgstr "Makro"
+ 
+ #: src/BatchProcessDialog.cpp
+ msgid "Apply Macro to:"
+-msgstr "Tillämpa makro till:"
++msgstr "Tillämpa makro på:"
+ 
+ #: src/BatchProcessDialog.cpp
+ msgid "Apply macro to project"
+@@ -7488,7 +7488,7 @@ msgstr "&Projekt"
+ 
+ #: src/BatchProcessDialog.cpp
+ msgid "Apply macro to files..."
+-msgstr "Tillämpa makro i filer..."
++msgstr "Tillämpa makro på filer..."
+ 
+ #: src/BatchProcessDialog.cpp
+ msgid "&Files..."
+@@ -7497,7 +7497,7 @@ msgstr "&Filer..."
+ #. i18n-hint: The Expand button makes the dialog bigger, with more in it
+ #: src/BatchProcessDialog.cpp
+ msgid "&Expand"
+-msgstr "&Expandera"
++msgstr "U&töka"
+ 
+ #: src/BatchProcessDialog.cpp
+ msgid "No macro selected"
+@@ -7506,7 +7506,7 @@ msgstr "Inget makro har valts"
+ #: src/BatchProcessDialog.cpp
+ #, c-format
+ msgid "Applying '%s' to current project"
+-msgstr "Tillämpar \"%s\" i nuvarande projekt"
++msgstr "Tillämpar \"%s\" i aktuellt projekt"
+ 
+ #: src/BatchProcessDialog.cpp
+ msgid "Please save and close the current project first."
+@@ -7618,7 +7618,7 @@ msgstr "Namnet på det nya makrot"
+ 
+ #: src/BatchProcessDialog.cpp
+ msgid "Name must not be blank"
+-msgstr "Namn kan inte vara tomt"
++msgstr "Namnet får inte vara tomt"
+ 
+ #. i18n-hint: The %c will be replaced with 'forbidden characters', like '/' and '\'.
+ #: src/BatchProcessDialog.cpp
+@@ -7684,7 +7684,7 @@ msgstr "Storlek på testdata (MB):"
+ #. pseudorandom number generating algorithm
+ #: src/Benchmark.cpp
+ msgid "Random Seed:"
+-msgstr "Slumpartat frö:"
++msgstr "Slumptalsfrö:"
+ 
+ #: src/Benchmark.cpp
+ msgid "Show detailed info about each block file"
+@@ -7710,15 +7710,15 @@ msgstr "Exportera prestandatestdata som:"
+ 
+ #: src/Benchmark.cpp
+ msgid "Block size should be in the range 1 - 1024 KB."
+-msgstr "Blockstorleken bör vara mellan 1 och 1024 kB."
++msgstr "Blockstorleken bör vara mellan 1–1024 kB."
+ 
+ #: src/Benchmark.cpp
+ msgid "Number of edits should be in the range 1 - 10000."
+-msgstr "Antalet redigeringar bör vara mellan 1 och 10000."
++msgstr "Antalet redigeringar bör vara mellan 1–10000."
+ 
+ #: src/Benchmark.cpp
+ msgid "Test data size should be in the range 1 - 2000 MB."
+-msgstr "Testdatastorleken bör vara mellan 1 och 2000 MB."
++msgstr "Testdatastorleken bör vara mellan 1–2000 MB."
+ 
+ #: src/Benchmark.cpp
+ #, c-format
+@@ -7784,7 +7784,7 @@ msgstr "Spår # block: %ld\n"
+ 
+ #: src/Benchmark.cpp
+ msgid "Disk # blocks: \n"
+-msgstr "Disknummerblock:\n"
++msgstr "Antal diskblock:\n"
+ 
+ #: src/Benchmark.cpp
+ msgid "Doing correctness check...\n"
+@@ -7793,7 +7793,7 @@ msgstr "Utför riktighetskontroll...\n"
+ #: src/Benchmark.cpp
+ #, c-format
+ msgid "Bad: chunk %lld sample %lld\n"
+-msgstr "Trasig: datablock %lld sampling %lld\n"
++msgstr "Fel: datablock %lld, samplar %lld\n"
+ 
+ #: src/Benchmark.cpp
+ msgid "Passed correctness check!\n"
+@@ -8011,7 +8011,7 @@ msgstr "Saknas"
+ 
+ #: src/Dependencies.cpp
+ msgid "If you proceed, your project will not be saved to disk. Is this what you want?"
+-msgstr "Om du fortsätter, kommer inte ditt projekt att sparas. Är det det du vill?"
++msgstr "Om du fortsätter kommer inte ditt projekt att sparas. Är det det du vill?"
+ 
+ #: src/Dependencies.cpp
+ msgid ""
+-- 
+2.54.0 (Apple Git-157)
+
