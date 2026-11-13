@@ -1,0 +1,175 @@
+From 6943327d6cf6dd79f2a30bba2983a79da07960cc Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:38:19 +0100
+Subject: [PATCH] l10n(sv): review startup recovery and macro dialogs
+
+---
+ au3/locale/sv.po | 50 ++++++++++++++++++++++++------------------------
+ 1 file changed, 25 insertions(+), 25 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index d1b58d5..f730c6c 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -7086,10 +7086,10 @@ msgid ""
+ "This is likely due to a resource shortage\n"
+ "and a reboot may be required."
+ msgstr ""
+-"Unable to create semaphores.\n"
++"Kunde inte skapa semaforer.\n"
+ "\n"
+-"This is likely due to a resource shortage\n"
+-"and a reboot may be required."
++"Det beror troligen på resursbrist\n"
++"och datorn kan behöva startas om."
+ 
+ #: src/AudacityApp.cpp
+ msgid ""
+@@ -7098,10 +7098,10 @@ msgid ""
+ "This is likely due to a resource shortage\n"
+ "and a reboot may be required."
+ msgstr ""
+-"Unable to acquire lock semaphore.\n"
++"Kunde inte hämta låssemaforen.\n"
+ "\n"
+-"This is likely due to a resource shortage\n"
+-"and a reboot may be required."
++"Det beror troligen på resursbrist\n"
++"och datorn kan behöva startas om."
+ 
+ #: src/AudacityApp.cpp
+ msgid ""
+@@ -7110,10 +7110,10 @@ msgid ""
+ "This is likely due to a resource shortage\n"
+ "and a reboot may be required."
+ msgstr ""
+-"Unable to acquire server semaphore.\n"
++"Kunde inte hämta serversemaforen.\n"
+ "\n"
+-"This is likely due to a resource shortage\n"
+-"and a reboot may be required."
++"Det beror troligen på resursbrist\n"
++"och datorn kan behöva startas om."
+ 
+ #: src/AudacityApp.cpp
+ msgid ""
+@@ -7122,14 +7122,14 @@ msgid ""
+ "This is likely due to a resource shortage\n"
+ "and a reboot may be required."
+ msgstr ""
+-"The Audacity IPC server failed to initialize.\n"
++"Audacitys IPC-server kunde inte initieras.\n"
+ "\n"
+-"This is likely due to a resource shortage\n"
+-"and a reboot may be required."
++"Det beror troligen på resursbrist\n"
++"och datorn kan behöva startas om."
+ 
+ #: src/AudacityApp.cpp
+ msgid "An unrecoverable error has occurred during startup"
+-msgstr "Ett icke reparabelt fel uppstod under uppstart"
++msgstr "Ett fel som inte kan återställas uppstod vid starten"
+ 
+ #. i18n-hint: This controls the number of bytes that Audacity will
+ #. *           use when writing files to the disk
+@@ -7142,7 +7142,7 @@ msgstr "ändra maximal storlek för diskblock i byte"
+ #. "log," "trail," "trace" have somewhat similar meanings
+ #: src/AudacityApp.cpp
+ msgid "replay a journal file"
+-msgstr "replay a journal file"
++msgstr "spela upp en journalfil igen"
+ 
+ #. i18n-hint: This displays a list of available options
+ #: src/AudacityApp.cpp
+@@ -7168,7 +7168,7 @@ msgstr "ljud- eller projektfilnamn"
+ #. i18n-hint: This option is used to handle custom URLs in Audacity
+ #: src/AudacityApp.cpp
+ msgid "Handle 'audacity://' url"
+-msgstr "Hantera 'audacity://' url"
++msgstr "hantera webbadressen 'audacity://'"
+ 
+ #: src/AudacityApp.cpp
+ msgid ""
+@@ -7188,7 +7188,7 @@ msgstr "Audacity-projektfiler"
+ 
+ #: src/AudacityFileConfig.cpp
+ msgid "Audacity Configuration Error"
+-msgstr "Audacity konfiguration fel"
++msgstr "Fel i Audacitys konfiguration"
+ 
+ #: src/AudacityFileConfig.cpp
+ #, c-format
+@@ -7249,7 +7249,7 @@ msgstr ""
+ 
+ #: src/AudacityMirProject.cpp
+ msgid "Music Import"
+-msgstr "Musik Import"
++msgstr "Musikimport"
+ 
+ #: src/AudioPasteDialog.cpp src/prefs/TracksBehaviorsPrefs.cpp
+ msgid ""
+@@ -7281,7 +7281,7 @@ msgstr "Hur vill du klistra in ditt ljud?"
+ #: src/AudioPasteDialog.cpp
+ #, c-format
+ msgid "The full smart clip is %s. Larger sizes will take longer to paste."
+-msgstr "Hela smart clip är %s. Större storlekar tar längre tid att klistra in."
++msgstr "Hela smarta klippet är %s. Större klipp tar längre tid att klistra in."
+ 
+ #: src/AudioPasteDialog.cpp
+ msgid "Remember my choice and don't ask again"
+@@ -7289,7 +7289,7 @@ msgstr "Kom ihåg mitt val och fråga inte igen"
+ 
+ #: src/AutoRecoveryDialog.cpp
+ msgid "Automatic Crash Recovery"
+-msgstr "Automatiskt återskapande vid krasch"
++msgstr "Automatisk återställning efter krasch"
+ 
+ #: src/AutoRecoveryDialog.cpp
+ msgid ""
+@@ -7297,13 +7297,13 @@ msgid ""
+ "\n"
+ "After recovery, save the projects to ensure changes are written to disk."
+ msgstr ""
+-"Några projekt sparades inte ordentligt förra gången Audacity kördes och kan återskapas automatiskt.\n"
++"Följande projekt sparades inte korrekt när Audacity kördes senast och kan återställas automatiskt.\n"
+ "\n"
+-"Efter återskapadet, spara projekten för att försäkra dig om att ändringarna sparas på hårddisken."
++"Spara projekten efter återställningen så att ändringarna skrivs till disken."
+ 
+ #: src/AutoRecoveryDialog.cpp
+ msgid "Recoverable &projects"
+-msgstr "Projekt möjliga &att återskapa"
++msgstr "&Återställningsbara projekt"
+ 
+ #. i18n-hint: (verb).  It instruct the user to select items.
+ #: src/AutoRecoveryDialog.cpp src/commands/SelectCommand.cpp
+@@ -7500,7 +7500,7 @@ msgstr "&Expandera"
+ 
+ #: src/BatchProcessDialog.cpp
+ msgid "No macro selected"
+-msgstr "Ingen makro har valts"
++msgstr "Inget makro har valts"
+ 
+ #: src/BatchProcessDialog.cpp
+ #, c-format
+@@ -7509,7 +7509,7 @@ msgstr "Tillämpar \"%s\" i nuvarande projekt"
+ 
+ #: src/BatchProcessDialog.cpp
+ msgid "Please save and close the current project first."
+-msgstr "Var god spara och stäng nuvarande projekt först."
++msgstr "Spara och stäng det aktuella projektet först."
+ 
+ #: src/BatchProcessDialog.cpp
+ msgid "Select file(s) for batch processing..."
+@@ -7522,7 +7522,7 @@ msgstr "Tillämpar..."
+ 
+ #: src/BatchProcessDialog.cpp
+ msgid "File"
+-msgstr "Arkiv"
++msgstr "Fil"
+ 
+ #: src/BatchProcessDialog.cpp
+ msgid "Remo&ve"
+-- 
+2.54.0 (Apple Git-157)
+
