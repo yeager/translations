@@ -1,7 +1,7 @@
 # MKVToolNix `programs`: svensk UI-granskning, batch 01
 
-Datum: 13 november 2026  
-Resurs: `moritz-bunkus/mkvtoolnix/programs` i Transifex  
+Datum: 13 november 2026
+Resurs: `moritz-bunkus/mkvtoolnix/programs` i Transifex
 Omfattning: 9 av 3 134 aktiva svenska poster
 
 ## Genomförd radgranskning
