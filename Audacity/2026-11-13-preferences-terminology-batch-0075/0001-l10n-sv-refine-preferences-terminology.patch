@@ -1,0 +1,104 @@
+From 1568b64217ba835d3917c1dcb020f44110dc2d19 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 17:05:48 +0100
+Subject: [PATCH] l10n(sv): refine preferences terminology
+
+---
+ au3/locale/sv.po | 24 ++++++++++++------------
+ 1 file changed, 12 insertions(+), 12 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 9a3ba77..d9df2b9 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -16795,7 +16795,7 @@ msgstr "Filändelser"
+ 
+ #: src/prefs/ExtImportPrefs.cpp
+ msgid "Mime-types"
+-msgstr "Mime-typer"
++msgstr "MIME-typer"
+ 
+ #: src/prefs/ExtImportPrefs.cpp
+ msgid "Importer order"
+@@ -16865,23 +16865,23 @@ msgstr "-36 dB (ytligt intervall för redigering i hög amplitud)"
+ 
+ #: src/prefs/GUIPrefs.cpp
+ msgid "-48 dB (PCM range of 8 bit samples)"
+-msgstr "-48 dB (PCM-intervall av 8-bitars samplingar)"
++msgstr "-48 dB (PCM-intervall för 8-bitars samplar)"
+ 
+ #: src/prefs/GUIPrefs.cpp
+ msgid "-60 dB (PCM range of 10 bit samples)"
+-msgstr "-60 dB (PCM-intervall av 10-bitars samplingar)"
++msgstr "-60 dB (PCM-intervall för 10-bitars samplar)"
+ 
+ #: src/prefs/GUIPrefs.cpp
+ msgid "-72 dB (PCM range of 12 bit samples)"
+-msgstr "-72 dB (PCM-intervall för 12-bitars samplingar)"
++msgstr "-72 dB (PCM-intervall för 12-bitars samplar)"
+ 
+ #: src/prefs/GUIPrefs.cpp
+ msgid "-84 dB (PCM range of 14 bit samples)"
+-msgstr "-84 dB (PCM-intervall för 14-bitars samplingar)"
++msgstr "-84 dB (PCM-intervall för 14-bitars samplar)"
+ 
+ #: src/prefs/GUIPrefs.cpp
+ msgid "-96 dB (PCM range of 16 bit samples)"
+-msgstr "-96 dB (PCM-intervall av 16-bitars samplingar)"
++msgstr "-96 dB (PCM-intervall för 16-bitars samplar)"
+ 
+ #: src/prefs/GUIPrefs.cpp
+ msgid "-120 dB (approximate limit of human hearing)"
+@@ -16889,7 +16889,7 @@ msgstr "-120 dB (uppskattad gräns för mänsklig hörsel)"
+ 
+ #: src/prefs/GUIPrefs.cpp
+ msgid "-145 dB (PCM range of 24 bit samples)"
+-msgstr "-145 dB (PCM-intervall av 24-bitars samplingar)"
++msgstr "-145 dB (PCM-intervall för 24-bitars samplar)"
+ 
+ #: src/prefs/GUIPrefs.cpp src/prefs/TracksPrefs.cpp src/prefs/WaveformPrefs.cpp
+ msgid "Display"
+@@ -17044,7 +17044,7 @@ msgstr "Än&dra"
+ 
+ #: src/prefs/KeyConfigPrefs.cpp
+ msgid "Note: Pressing Cmd+Q will quit. All other keys are valid."
+-msgstr "OBS: Cmd+Q kommer att avsluta programmet. Alla andra tangenter är giltiga."
++msgstr "OBS: Cmd+Q avslutar programmet. Alla andra tangenter är giltiga."
+ 
+ #: src/prefs/KeyConfigPrefs.cpp
+ msgid "&Import..."
+@@ -17065,11 +17065,11 @@ msgstr ""
+ 
+ #: src/prefs/KeyConfigPrefs.cpp
+ msgid "Select an XML file containing Audacity keyboard shortcuts..."
+-msgstr "Välj en XML-fil som innehåller Audacity kortkommandon..."
++msgstr "Välj en XML-fil som innehåller Audacitys kortkommandon..."
+ 
+ #: src/prefs/KeyConfigPrefs.cpp
+ msgid "Error Importing Keyboard Shortcuts"
+-msgstr "Fel uppstod när tangentbordskommandon skulle importeras"
++msgstr "Det gick inte att importera kortkommandon"
+ 
+ #: src/prefs/KeyConfigPrefs.cpp
+ #, c-format
+@@ -17077,7 +17077,7 @@ msgid ""
+ "The file with the shortcuts contains illegal shortcut duplicates for \"%s\" and \"%s\".\n"
+ "Nothing is imported."
+ msgstr ""
+-"Kortkommandofilen innehåller felaktiga kopior för \"%s\" och \"%s\".\n"
++"Kortkommandofilen innehåller otillåtna dubbletter av kortkommandon för \"%s\" och \"%s\".\n"
+ "Inget importerades."
+ 
+ #: src/prefs/KeyConfigPrefs.cpp
+@@ -17091,7 +17091,7 @@ msgid ""
+ "The following commands are not mentioned in the imported file, but have their shortcuts removed because of the conflict with other new shortcuts:\n"
+ msgstr ""
+ "\n"
+-"Följande kommandon nämns inte i den importerade filen, men radera deras kortkommando eftersom de orsakar en konflikt med nya kortkommandon:\n"
++"Följande kommandon nämns inte i den importerade filen, men deras kortkommandon tas bort eftersom de orsakar en konflikt med nya kortkommandon:\n"
+ 
+ #: src/prefs/KeyConfigPrefs.cpp
+ msgid "Loading Keyboard Shortcuts"
+-- 
+2.54.0 (Apple Git-157)
+
