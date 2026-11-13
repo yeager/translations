@@ -1,6 +1,6 @@
 # AppFlowy, nya sidtyper, 13 november 2026
 
-Den första avgränsade batchen för den aktuella AppFlowy-resursen fyller sex
+Den första avgränsade batchen för den aktuella AppFlowy-resursen fyller 17
 grundläggande, synliga UI-texter i `sv-SE.json`:
 
 - nytt dokument
@@ -8,6 +8,7 @@ grundläggande, synliga UI-texter i `sv-SE.json`:
 - ny kalender
 - ny tavla
 - tomt sidinnehåll
+- färgväljarens 11 namn och alternativ
 
 Den engelska resursen har 94 toppnivåsektioner medan den svenska har 44.
 Resterande sektioner, bland annat kontoinställningar, AI-chatt, meddelanden och
@@ -16,7 +17,7 @@ rimligen betraktas som färdiggranskade genom den här batchen.
 
 Kontroller:
 
-- JSON-parsning och de sex nycklarna verifierade mot `en-US.json`
+- JSON-parsning och samtliga 17 nycklarna verifierade mot `en-US.json`
 - l10n-lint: godkänd
 - Hunspell-sv: inga träffar i de nya formuleringarna
 - svlang: tidigare resurs har befintliga V2-varningar; inga nya varningar från
