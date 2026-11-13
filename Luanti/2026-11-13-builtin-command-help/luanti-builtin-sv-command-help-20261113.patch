@@ -1,0 +1,45 @@
+From 9f3ef36c6c7d9dbaaf6e5ad1702803388ad64de5 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <danielnylander@hgwkwq50x4.lan>
+Date: Fri, 13 Nov 2026 12:50:43 +0100
+Subject: [PATCH] Translate Swedish builtin command help
+
+---
+ builtin/locale/__builtin.sv.tr | 26 ++++++++++++++++++++++++++
+ 1 file changed, 26 insertions(+)
+
+diff --git a/builtin/locale/__builtin.sv.tr b/builtin/locale/__builtin.sv.tr
+index 1150145..718199b 100644
+--- a/builtin/locale/__builtin.sv.tr
++++ b/builtin/locale/__builtin.sv.tr
+@@ -1,3 +1,29 @@
+ # textdomain: __builtin
+ You died=Du dog
+ Respawn=Återuppstå
++Invalid parameters (see /help @1).=Ogiltiga parametrar (se /help @1).
++Too many arguments, try using just /help <command>=För många argument, försök med bara /help <kommando>
++Available commands: @1=Tillgängliga kommandon: @1
++Use '/help <cmd>' to get more information, or '/help all' to list everything.=Använd "/help <kommando>" för mer information eller "/help all" för att lista allt.
++Available commands:=Tillgängliga kommandon:
++Command not available: @1=Kommandot är inte tillgängligt: @1
++[all | privs | <cmd>] [-t]=[all | privs | <kommando>] [-t]
++Get help for commands or list privileges (-t: output in chat)=Visa hjälp för kommandon eller lista behörigheter (-t: utdata i chatten)
++Available privileges:=Tillgängliga behörigheter:
++Command=Kommando
++Parameters=Parametrar
++For more information, click on any entry in the list.=Klicka på en post i listan för mer information.
++Double-click to copy the entry to the chat history.=Dubbelklicka för att kopiera posten till chatthistoriken.
++Command: @1 @2=Kommando: @1 @2
++Available commands: (see also: /help <cmd>)=Tillgängliga kommandon: (se även /help <kommando>)
++Close=Stäng
++Privilege=Behörighet
++Description=Beskrivning
++Empty command.=Tomt kommando.
++Invalid command: @1=Ogiltigt kommando: @1
++Invalid command usage.=Ogiltig kommandoanvändning.
++ (@1 s)= (@1 s)
++Command execution took @1 s=Det tog @1 s att köra kommandot
++You don't have permission to run this command (missing privileges: @1).=Du har inte behörighet att köra det här kommandot (saknade behörigheter: @1).
++Unable to get position of player @1.=Det går inte att hämta positionen för spelaren @1.
++Incorrect area format. Expected: (x1,y1,z1) (x2,y2,z2)=Felaktigt områdesformat. Förväntat: (x1,y1,z1) (x2,y2,z2)
+--
+2.54.0 (Apple Git-157)
