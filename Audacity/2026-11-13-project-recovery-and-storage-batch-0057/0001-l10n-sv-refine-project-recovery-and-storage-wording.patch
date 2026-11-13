@@ -1,0 +1,109 @@
+From 8b656c85366cd0312ec6ff55aa8f096b529e5f91 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 16:32:44 +0100
+Subject: [PATCH] l10n(sv): refine project recovery and storage wording
+
+---
+ au3/locale/sv.po | 22 +++++++++++-----------
+ 1 file changed, 11 insertions(+), 11 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 59e340b..fa1b477 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -8839,7 +8839,7 @@ msgstr ""
+ "Observera att för det andra alternativet kanske\n"
+ "vågformen inte visar tystnad. \n"
+ "\n"
+-"Om du väljer det tredje alternativet kommer detta spara \n"
++"Om du väljer det tredje alternativet sparas \n"
+ "projektet i dess nuvarande tillstånd om du inte väljer \n"
+ "\"Stäng projektet genast\" vid ytterligare felmeddelanden."
+ 
+@@ -8874,7 +8874,7 @@ msgstr "Återskapa aliassammanfattningsfiler (är säkert och rekommenderas)"
+ 
+ #: src/ProjectFSCK.cpp
+ msgid "Fill in silence for missing display data (this session only)"
+-msgstr "Fyll i tystnad som ersättning för saknad data [endast denna session]"
++msgstr "Fyll i tystnad för saknade visningsdata (endast denna session)"
+ 
+ #: src/ProjectFSCK.cpp
+ msgid "Close project immediately with no further changes"
+@@ -8989,9 +8989,9 @@ msgid ""
+ "\n"
+ "It has been recovered to the last snapshot."
+ msgstr ""
+-"Detta projekt sparades inte rätt sista gången Audacity kördes.\n"
++"Det här projektet sparades inte korrekt när Audacity kördes senast.\n"
+ "\n"
+-"Den har återskapats till den sista versionen."
++"Det har återställts till den senaste ögonblicksbilden."
+ 
+ #: src/ProjectFileManager.cpp
+ msgid ""
+@@ -9002,7 +9002,7 @@ msgid ""
+ msgstr ""
+ "Detta projekt sparades inte rätt sista gången Audacity kördes.\n"
+ "\n"
+-"Den har återskapats till den sista versionen, men du måste\n"
++"Det har återställts till den senaste ögonblicksbilden, men du måste\n"
+ "spara den för att bevara innehållet."
+ 
+ #: src/ProjectFileManager.cpp
+@@ -9105,7 +9105,7 @@ msgstr "Välj en eller flera filer"
+ #: src/ProjectFileManager.cpp
+ #, c-format
+ msgid "%s is already open in another window."
+-msgstr "%s är redan öppnad i ett annat fönster."
++msgstr "%s är redan öppet i ett annat fönster."
+ 
+ #: src/ProjectFileManager.cpp
+ msgid "Error Opening Project"
+@@ -9141,7 +9141,7 @@ msgid ""
+ "File may be invalid or corrupted: \n"
+ "%s"
+ msgstr ""
+-"Fil är kanske skadad: \n"
++"Filen kan vara ogiltig eller skadad: \n"
+ "%s"
+ 
+ #: src/ProjectFileManager.cpp
+@@ -9210,7 +9210,7 @@ msgstr "Importerar %s"
+ 
+ #: src/ProjectFileManager.cpp
+ msgid "Music Information Retrieval"
+-msgstr "Hämtning av musikinformation"
++msgstr "Musikinformationshämtning"
+ 
+ #: src/ProjectFileManager.cpp
+ msgid "Analyzing imported audio"
+@@ -9273,7 +9273,7 @@ msgstr "Välkommen till Audacity version %s"
+ #: src/ProjectManager.cpp
+ #, c-format
+ msgid "%sSave changes to %s?"
+-msgstr "%sSpara ändringar för %s?"
++msgstr "%sSpara ändringar i %s?"
+ 
+ #: src/ProjectManager.cpp
+ msgid "Save project before closing?"
+@@ -9282,7 +9282,7 @@ msgstr "Spara projektet innan programmet avslutas?"
+ #: src/ProjectManager.cpp
+ #, c-format
+ msgid "Disk space remaining for recording: %s"
+-msgstr "Återstående hårddiskutrymme för inspelning: %s"
++msgstr "Återstående diskutrymme för inspelning: %s"
+ 
+ #: src/ProjectManager.cpp
+ msgid "Less than 1 minute"
+@@ -9354,7 +9354,7 @@ msgstr "Ersätt effekt"
+ #: src/RealtimeEffectPanel.cpp
+ #, c-format
+ msgid "Removed %s from %s"
+-msgstr "Raderat %s från %s"
++msgstr "Tog bort %s från %s"
+ 
+ #. i18n-hint: undo history record
+ #. first parameter - realtime effect name
+-- 
+2.54.0 (Apple Git-157)
+
