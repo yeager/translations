@@ -1,0 +1,399 @@
+From e2831b3802c0864cca2201aa9cc74132194defa7 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:13:38 +0100
+Subject: [PATCH] l10n(sv): review project file diagnostics
+
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 7670767..fba6449 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -1448,7 +1448,7 @@ msgstr "hh:mm:ss + millisekunder"
+ #. * minutes, seconds and hundredths of a second (1/100 second)
+ #: libraries/lib-numeric-formats/NumericConverterFormats.cpp
+ msgid "hh:mm:ss + hundredths"
+-msgstr "hh:mm:ss + hundratal"
++msgstr "hh:mm:ss + hundradelar"
+ 
+ #. i18n-hint: Name of display format that shows frequency in hertz
+ #. i18n-hint: This is the abbreviation for "Hertz", or
+@@ -1774,7 +1774,7 @@ msgstr "100>01000 oktaver|1.442695041"
+ #. i18n-hint: an octave is a doubling of frequency
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "thousandths of octaves"
+-msgstr "tusentals oktaver"
++msgstr "tusendelar av oktaver"
+ 
+ #. i18n-hint: Name of display format that shows log of frequency
+ #. * in semitones and cents
+@@ -1794,7 +1794,7 @@ msgstr "1000 halvtoner >0100 cent|17.312340491"
+ #. i18n-hint: a cent is a hundredth of a semitone (which is 1/12 octave)
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "hundredths of cents"
+-msgstr "hundratals cent"
++msgstr "hundradelar av cent"
+ 
+ #. i18n-hint: Name of display format that shows log of frequency
+ #. * in decades
+@@ -1811,7 +1811,7 @@ msgstr "10>01000 årtionden|0.434294482"
+ #. i18n-hint: a decade is a tenfold increase of frequency
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "thousandths of decades"
+-msgstr "tusentals årtionden"
++msgstr "tusendelar av årtionden"
+ 
+ #: libraries/lib-playable-track/PlayableTrack.cpp
+ msgid "Audio Track"
+@@ -1850,31 +1850,31 @@ msgstr "(%d): %s"
+ #: libraries/lib-project-file-io/DBConnection.cpp
+ #, c-format
+ msgid "Failed to set page size for database %s"
+-msgstr "Misslyckades att ställa in sidans storlek för databas %s"
++msgstr "Kunde inte ange sidstorleken för databasen %s"
+ 
+ #: libraries/lib-project-file-io/DBConnection.cpp
+ #, c-format
+ msgid "Failed to set safe mode on primary connection to %s"
+-msgstr "Misslyckades att ställa in säker anslutning på primära kopplingen till %s"
++msgstr "Kunde inte aktivera säkert läge för primäranslutningen till %s"
+ 
+ #: libraries/lib-project-file-io/DBConnection.cpp
+ #, c-format
+ msgid "Failed to set safe mode on checkpoint connection to %s"
+-msgstr "Misslyckades med att ställa in säker anslutning på checkpoint anslutning till %s"
++msgstr "Kunde inte aktivera säkert läge för kontrollpunktsanslutningen till %s"
+ 
+ #: libraries/lib-project-file-io/DBConnection.cpp
+ msgid "Checkpointing project"
+-msgstr "Kontrollpunkt projekt"
++msgstr "Skapar kontrollpunkt för projektet"
+ 
+ #: libraries/lib-project-file-io/DBConnection.cpp
+ #, c-format
+ msgid "Checkpointing %s"
+-msgstr "Kontrollpunkt %s"
++msgstr "Skapar kontrollpunkt för %s"
+ 
+ #: libraries/lib-project-file-io/DBConnection.cpp
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp src/CrashReport.cpp
+ msgid "This may take several seconds"
+-msgstr "Detta kan ta flera minuter"
++msgstr "Detta kan ta några sekunder"
+ 
+ #: libraries/lib-project-file-io/DBConnection.cpp
+ #, c-format
+@@ -1933,7 +1933,7 @@ msgid ""
+ "\n"
+ "%s"
+ msgstr ""
+-"Misslyckades med att öppna databasfil\n"
++"Kunde inte öppna databasfilen:\n"
+ "\n"
+ "%s"
+ 
+@@ -1952,7 +1952,7 @@ msgid ""
+ "\n"
+ "%s"
+ msgstr ""
+-"Misslyckades med att starta en projektfils kommando:\n"
++"Kunde inte köra ett projektfilskommando:\n"
+ "\n"
+ "%s"
+ 
+@@ -1967,7 +1967,7 @@ msgstr ""
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "This is not an Audacity project file"
+-msgstr "Detta är inte en Audacity projektfil"
++msgstr "Det här är inte en Audacity-projektfil"
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid ""
+@@ -1975,7 +1975,7 @@ msgid ""
+ "\n"
+ "You will need to upgrade to open it."
+ msgstr ""
+-"Detta projekt skapades av en tidigare version av Audacity.\n"
++"Det här projektet skapades med en nyare version av Audacity.\n"
+ "\n"
+ "Du behöver uppdatera programmet för att kunna öppna filen."
+ 
+@@ -1986,7 +1986,8 @@ msgstr "Kunde inte initialisera projektfilen"
+ #. i18n-hint: An error message.  Don't translate inset or blockids.
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "Unable to add 'inset' function (can't verify blockids)"
+-msgstr "Unable to add 'inset' function (can't verify blockids)"
++msgstr "Kunde inte lägga till funktionen "
++"'inset' (kan inte verifiera blockids)"
+ 
+ #. i18n-hint: An error message.  Don't translate blockfiles.
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+@@ -2012,7 +2013,7 @@ msgid ""
+ "Project is busy\n"
+ "(Unable to work with the blockfiles)"
+ msgstr ""
+-"Projektet arbetar\n"
++"Projektet används\n"
+ "(Kunde inte arbeta med blockfilerna)"
+ 
+ #. i18n-hint: An error message.  Don't translate blockfiles.
+@@ -2030,7 +2031,7 @@ msgid ""
+ "Some permissions issue\n"
+ "(Unable to work with the blockfiles)"
+ msgstr ""
+-"Några tillståndsproblem\n"
++"Problem med behörighet\n"
+ "(Kunde inte arbeta med blockfilerna)"
+ 
+ #. i18n-hint: An error message.  Don't translate blockfiles.
+@@ -2039,7 +2040,7 @@ msgid ""
+ "A disk I/O error\n"
+ "(Unable to work with the blockfiles)"
+ msgstr ""
+-"Ett disk I/O fel\n"
++"Ett disk-I/O-fel\n"
+ "(Kunde inte arbeta med blockfilerna)"
+ 
+ #. i18n-hint: An error message.  Don't translate blockfiles.
+@@ -2048,7 +2049,7 @@ msgid ""
+ "Not authorized\n"
+ "(Unable to work with the blockfiles)"
+ msgstr ""
+-"Inte godkänd\n"
++"Inte behörig\n"
+ "(Kunde inte arbeta med blockfilerna)"
+ 
+ #. i18n-hint: An error message.  Don't translate blockfiles.
+@@ -2059,7 +2060,7 @@ msgstr "Kunde inte arbeta med blockfilerna"
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ #, c-format
+ msgid "Total orphan blocks deleted %d"
+-msgstr "Alla föräldralösa block raderade %d"
++msgstr "Antal raderade överblivna block: %d"
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "Failed to rollback transaction during import"
+@@ -2071,7 +2072,7 @@ msgstr "Kunde inte bifoga databasen för destinationen"
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "Unable to switch to fast journaling mode"
+-msgstr "Unable to switch to fast journaling mode"
++msgstr "Kunde inte växla till snabbt journalföringsläge"
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ #, c-format
+@@ -2094,7 +2095,7 @@ msgstr "Förlopp"
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "Failed to bind SQL parameter"
+-msgstr "Misslyckades med att sätta samman SQL parameter"
++msgstr "Kunde inte binda SQL-parametern"
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ #, c-format
+@@ -2115,7 +2116,7 @@ msgstr "Projektet med denna destination kunde inte frigöras"
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "Copying Project"
+-msgstr "Kopiera projekt"
++msgstr "Kopierar projekt"
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "Error Writing to File"
+@@ -2140,7 +2141,7 @@ msgstr "Packar samman projektet"
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ #, c-format
+ msgid "[Project %02i] Audacity \"%s\""
+-msgstr "[Project %02i] Audacity \"%s\""
++msgstr "[Projekt %02i] Audacity \"%s\""
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp src/ProjectFileManager.cpp
+ msgid "<untitled>"
+@@ -2172,7 +2173,7 @@ msgstr "Misslyckades med att ta bort information kring autospar från projektfil
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "Unable to bind to blob"
+-msgstr "Unable to bind to blob"
++msgstr "Kunde inte binda BLOB-objektet"
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "Unable to parse project information."
+@@ -2192,7 +2193,7 @@ msgstr "Fel uppstod när projektet sparades"
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "Syncing"
+-msgstr "Synka"
++msgstr "Synkroniserar"
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ #, c-format
+@@ -2215,34 +2216,34 @@ msgid ""
+ "\n"
+ "%s"
+ msgstr ""
+-"Kunde inte radera autospar information, förmodligen beroende på \n"
++"Kunde inte ta bort information om autosparning, möjligen på grund av \n"
+ "för lite utrymme på hårddisken.\n"
+ "\n"
+ "%s"
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "Backing up project"
+-msgstr "Gör backup på projekt"
++msgstr "Säkerhetskopierar projektet"
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "Automatic database backup failed."
+-msgstr "Automatisk backup av databasen misslyckades."
++msgstr "Automatisk säkerhetskopiering av databasen misslyckades."
+ 
+ #: libraries/lib-project-file-io/ProjectSerializer.cpp
+ msgid ""
+ "This recovery file was saved by Audacity 2.3.0 or before.\n"
+ "You need to run that version of Audacity to recover the project."
+ msgstr ""
+-"Denna återställningsfil sparades av Audacity 2.3.0 tidigare.\n"
++"Den här återställningsfilen sparades av Audacity 2.3.0 eller tidigare.\n"
+ "Du behöver köra den versionen av Audacity för att återskapa projektet."
+ 
+ #: libraries/lib-project-file-io/SqliteSampleBlock.cpp
+ msgid "Connection to project file is null"
+-msgstr "Förbindelse med projektfil är noll"
++msgstr "Anslutningen till projektfilen saknas"
+ 
+ #: libraries/lib-project-file-io/SqliteSampleBlock.cpp
+ msgid "Discarding undo/redo history"
+-msgstr "Radera Ångra/Gör om historik"
++msgstr "Rensar ångra-/gör om-historiken"
+ 
+ #: libraries/lib-project-history/ProjectHistory.cpp
+ msgid "Created new project"
+@@ -2264,12 +2265,12 @@ msgstr "Plug-ingrupp på %s slogs ihop med tidigare definierad grupp"
+ #: libraries/lib-registries/Registry.cpp
+ #, c-format
+ msgid "Plug-in item at %s conflicts with a previously defined item and was discarded"
+-msgstr "Plug-indelen på %s orsakade prloblem med tidigare inställd och blev avstängd"
++msgstr "Insticksmodulposten vid %s står i konflikt med en tidigare definierad post och ignorerades"
+ 
+ #: libraries/lib-registries/Registry.cpp
+ #, c-format
+ msgid "Plug-in items at %s specify conflicting placements"
+-msgstr "Plug-inmodul på %s anger problemplaceringar"
++msgstr "Insticksmodulposterna vid %s anger motstridiga placeringar"
+ 
+ #: libraries/lib-sample-track/SampleTrack.cpp
+ msgid "Sample Track"
+@@ -2389,15 +2390,15 @@ msgstr "Bildrutor (24 fps)"
+ 
+ #: libraries/lib-snapping/details/FrameSnapFunctions.cpp
+ msgid "NTSC frames (29.97 fps)"
+-msgstr "NTSC bildrutor (29.97 fps)"
++msgstr "NTSC-bildrutor (29,97 fps)"
+ 
+ #: libraries/lib-snapping/details/FrameSnapFunctions.cpp
+ msgid "NTSC frames (30 fps)"
+-msgstr "NTSC bildrutor (30 fps)"
++msgstr "NTSC-bildrutor (30 fps)"
+ 
+ #: libraries/lib-snapping/details/FrameSnapFunctions.cpp
+ msgid "CD frames"
+-msgstr "CD bildrutor"
++msgstr "CD-bildrutor"
+ 
+ #: libraries/lib-snapping/details/TimeSnapFunctions.cpp
+ msgid "Seconds && samples"
+@@ -2410,11 +2411,11 @@ msgstr "Sekunder"
+ 
+ #: libraries/lib-snapping/details/TimeSnapFunctions.cpp
+ msgid "Deciseconds"
+-msgstr "Tiondels sekunder"
++msgstr "Tiondelssekunder"
+ 
+ #: libraries/lib-snapping/details/TimeSnapFunctions.cpp
+ msgid "Centiseconds"
+-msgstr "Hudradels sekunder"
++msgstr "Hundradelssekunder"
+ 
+ #: libraries/lib-snapping/details/TimeSnapFunctions.cpp
+ msgid "Milliseconds"
+@@ -2427,7 +2428,7 @@ msgstr "Samplingar"
+ 
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+ msgid "SQLite3 error"
+-msgstr "SQLite3 fel"
++msgstr "SQLite3-fel"
+ 
+ #. i18n-hint: database operation was successful
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+@@ -2452,7 +2453,7 @@ msgstr "Åtkomst nekad"
+ #. i18n-hint: database operation was aborted by the callback
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+ msgid "Callback routine requested an abort"
+-msgstr "Callback begärde ett avbrott"
++msgstr "Återanropsrutinen begärde ett avbrott"
+ 
+ #. i18n-hint: database operation has failed because database is locked
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+@@ -2477,12 +2478,12 @@ msgstr "Försök att skriva en skrivskyddad databas"
+ #. i18n-hint: database operation was interrupted
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+ msgid "Operation terminated"
+-msgstr "Driften avslutad"
++msgstr "Åtgärden avslutades"
+ 
+ #. i18n-hint: database operation has failed due to the I/O failure
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+ msgid "I/O error occurred"
+-msgstr "I/O fel uppstod"
++msgstr "I/O-fel uppstod"
+ 
+ #. i18n-hint: database operation has failed due to the database corruption
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+@@ -2497,12 +2498,12 @@ msgstr "Insättningen misslyckades eftersom enheten är full"
+ #. i18n-hint: database operation has failed because the file cannot be opened
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+ msgid "Unable to open the database file"
+-msgstr "Misslyckades med att öppna databasfil"
++msgstr "Kunde inte öppna databasfilen"
+ 
+ #. i18n-hint: database operation has failed because the lock protocol has failed
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+ msgid "Database lock protocol error"
+-msgstr "Databas lås protokoll fel"
++msgstr "Fel i databasens låsprotokoll"
+ 
+ #. i18n-hint: database operation has failed because the database schema has changed
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+@@ -2537,7 +2538,7 @@ msgstr "Stödet för stora filer är inaktiverat"
+ #. i18n-hint: database operation has failed due to the authorization error
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+ msgid "Authorization denied"
+-msgstr "Auktorisering nekad"
++msgstr "Auktorisering nekades"
+ 
+ #. i18n-hint: database operation has failed due to the format error
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+@@ -2547,12 +2548,12 @@ msgstr "Inte använd"
+ #. i18n-hint: database operation has failed because the parameter is out of range
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+ msgid "2nd parameter to sqlite3_bind out of range"
+-msgstr "2:a parametern till sqlite3_bind utanför intervallet"
++msgstr "Andra parametern till sqlite3_bind ligger utanför intervallet"
+ 
+ #. i18n-hint: database operation has failed because the file opened is not a database file
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+ msgid "File opened that is not a database file "
+-msgstr "Fil öppnad som inte är en databas fil "
++msgstr "En öppnad fil är inte en databasfil "
+ 
+ #. i18n-hint: database operation has failed due to the unknown error
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+@@ -2575,7 +2576,7 @@ msgstr "Kunde inte fastställas"
+ #: libraries/lib-strings/Internat.cpp
+ #, c-format
+ msgid "%s bytes"
+-msgstr "%s bitar"
++msgstr "%s byte"
+ 
+ #. i18n-hint: Abbreviation for Kilo bytes
+ #: libraries/lib-strings/Internat.cpp
