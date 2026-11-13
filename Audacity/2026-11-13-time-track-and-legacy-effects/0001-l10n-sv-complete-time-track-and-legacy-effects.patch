@@ -1,0 +1,97 @@
+From 47cf3c8c4fd55a35f70146575610af13da445d55 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 13:54:08 +0100
+Subject: [PATCH] l10n(sv): complete time track and legacy effect labels
+
+---
+ au3/locale/sv.po | 26 +++++++++-----------------
+ 1 file changed, 9 insertions(+), 17 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index d6744fe..394a809 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -8768,10 +8768,10 @@ msgstr "För få kompatibla spår valda"
+ 
+ #. i18n-hint a numerical suffix added to distinguish otherwise like-named clips when new record started
+ #: src/ProjectAudioManager.cpp
+-#, fuzzy, c-format
++#, c-format
+ msgctxt "clip name template"
+ msgid "%s.%d"
+-msgstr "%s.%i"
++msgstr "%s.%d"
+ 
+ #: src/ProjectAudioManager.cpp
+ msgid "Recorded Audio"
+@@ -12633,9 +12633,8 @@ msgid "Flips the audio samples upside-down, reversing their polarity"
+ msgstr "Vänder uppochned på ljudsamplingarna och vänder på deras polaritet"
+ 
+ #: src/effects/LegacyCompressor.cpp resources/EffectsMenuDefaults.xml
+-#, fuzzy
+ msgid "Legacy Compressor"
+-msgstr "Glue Compressor"
++msgstr "Äldre kompressor"
+ 
+ #: src/effects/LegacyCompressor.cpp
+ msgid "Compresses the dynamic range of audio"
+@@ -19165,33 +19164,28 @@ msgid "WaveColor Change"
+ msgstr "Byt vågfärg"
+ 
+ #: src/tracks/timetrack/ui/TimeTrackControls.cpp
+-#, fuzzy
+ msgid "Change Speed Limits"
+-msgstr "Ändrad hastighet"
++msgstr "Ändra hastighetsgränser"
+ 
+ #: src/tracks/timetrack/ui/TimeTrackControls.cpp
+-#, fuzzy
+ msgid "Change speed limit (%) to:"
+-msgstr "Ändra lägsta nivån på hastighet (%) till:"
++msgstr "Ändra hastighetsgräns (%) till:"
+ 
+ #: src/tracks/timetrack/ui/TimeTrackControls.cpp
+-#, fuzzy
+ msgid "Lower Speed Limit"
+ msgstr "Nedre hastighetsgräns"
+ 
+ #: src/tracks/timetrack/ui/TimeTrackControls.cpp
+-#, fuzzy
+ msgid "Upper Speed Limit"
+ msgstr "Övre hastighetsgräns"
+ 
+ #: src/tracks/timetrack/ui/TimeTrackControls.cpp
+ msgid "Upper Speed Limit must be greater than the Lower Speed Limit"
+-msgstr ""
++msgstr "Den övre hastighetsgränsen måste vara högre än den nedre hastighetsgränsen"
+ 
+ #: src/tracks/timetrack/ui/TimeTrackControls.cpp
+-#, fuzzy
+ msgid "Invalid Limits"
+-msgstr "Hård gräns"
++msgstr "Ogiltiga gränser"
+ 
+ #: src/tracks/timetrack/ui/TimeTrackControls.cpp
+ #, c-format
+@@ -20564,9 +20558,8 @@ msgstr ""
+ "                  Endast ett ljud upptäckt."
+ 
+ #: plug-ins/legacy-limiter.ny resources/EffectsMenuDefaults.xml
+-#, fuzzy
+ msgid "Legacy Limiter"
+-msgstr "VO Limiter"
++msgstr "Äldre begränsare"
+ 
+ #: plug-ins/legacy-limiter.ny
+ msgid "Soft Limit"
+@@ -21448,9 +21441,8 @@ msgid "Spectral Tools"
+ msgstr "Spektralverktyg"
+ 
+ #: resources/EffectsMenuDefaults.xml
+-#, fuzzy
+ msgid "Legacy"
+-msgstr "Legal"
++msgstr "Äldre"
+ 
+ #~ msgctxt "clip name template"
+ #~ msgid "%s %i"
