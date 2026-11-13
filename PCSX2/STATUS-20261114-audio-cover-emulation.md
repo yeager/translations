@@ -43,3 +43,15 @@ Crowdins lagrade källtext. De två korrigerade posterna ligger därför i den
 separata deltafilen `pcsx2-sv-xml-entity-retry-batch-94-20261114.xliff`.
 Den skickas och verifieras separat. Varken granskning eller aktivt val av
 översättning har ändrats upstream.
+
+## Verifierad omimport
+
+Den korrigerade tvåsträngsfilen importerades via Crowdins API till projekt
+`561203`, fil `15` och språket `sv-SE`. Importen rapporterade 2 importerade
+strängar och 71 ord, 0 automatiskt godkända samt 0 överhoppade strängar.
+Direkt återläsning bekräftar de nya ogranskade kandidaterna `450017` för
+`11944` och `450019` för `4299` med exakt inskickad måltext.
+
+Alla nio rättningar i denna batch är därmed inskickade upstream som kandidater.
+De är inte upstreamgranskade, inte godkända och inte verifierade som valda
+aktiva översättningar.
