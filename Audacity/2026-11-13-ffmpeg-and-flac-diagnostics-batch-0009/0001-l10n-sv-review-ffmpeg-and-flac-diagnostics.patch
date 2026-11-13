@@ -1,0 +1,140 @@
+From a1e3ec45a90a391c0646c4924084a2ea44013263 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:22:56 +0100
+Subject: [PATCH] l10n(sv): review FFmpeg and FLAC diagnostics
+
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 106464a..ed9a060 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -4277,10 +4277,10 @@ msgid ""
+ "\n"
+ "You may want to go back to Preferences > Libraries and re-configure it."
+ msgstr ""
+-"FFmpeg var konfigurerad i inställningar och kunde startas tidigare, \n"
+-"men denna gång misslyckades Audacity att starta detta vid uppstart. \n"
++"FFmpeg var konfigurerat i Inställningar och hade tidigare lästs in, \n"
++"men den här gången kunde Audacity inte läsa in det vid start. \n"
+ "\n"
+-"Du kanske vill gå tillbaka till Inställningar > Bibliotek och konfigurera den rätt."
++"Gå tillbaka till Inställningar > Bibliotek och konfigurera det på nytt."
+ 
+ #: modules/import-export/mod-ffmpeg/FFmpeg.cpp
+ msgid "FFmpeg startup failed"
+@@ -4317,7 +4317,7 @@ msgstr "För att få en gratis kopia av FFmpeg, klicka här -->"
+ #: modules/import-export/mod-ffmpeg/FFmpeg.cpp
+ #: modules/import-export/mod-mp3/ExportMP3.cpp
+ msgid "Download"
+-msgstr "Ladda ned"
++msgstr "Hämta"
+ 
+ #: modules/import-export/mod-ffmpeg/FFmpeg.cpp
+ msgid "Only avformat.dll"
+@@ -4355,7 +4355,7 @@ msgstr ""
+ "men biblioteken kunde inte hittas.\n"
+ "\n"
+ "För att kunna importera med FFmpeg, gå till Redigera > Inställningar > Bibliotek\n"
+-"för att ladda ned och lokalisera FFmpeg-biblioteken."
++"för att hämta eller hitta FFmpeg-biblioteken."
+ 
+ #: modules/import-export/mod-ffmpeg/FFmpeg.cpp
+ msgid "Do not show this warning again"
+@@ -4383,7 +4383,7 @@ msgstr "Hi&tta..."
+ 
+ #: modules/import-export/mod-ffmpeg/FFmpegPrefs.cpp
+ msgid "Dow&nload"
+-msgstr "Lad&da ned"
++msgstr "&Hämta"
+ 
+ #: modules/import-export/mod-ffmpeg/FFmpegPrefs.cpp
+ msgid ""
+@@ -4391,11 +4391,11 @@ msgid ""
+ "Do you still want to locate them manually?"
+ msgstr ""
+ "Audacity har automatiskt hittat giltiga FFmpeg-bibliotek.\n"
+-"Vill du fortfarande leta dem manuellt?"
++"Vill du ändå hitta dem manuellt?"
+ 
+ #: modules/import-export/mod-ffmpeg/FFmpegPrefs.cpp
+ msgid "Success"
+-msgstr "Succé"
++msgstr "Klart"
+ 
+ #: modules/import-export/mod-ffmpeg/FFmpegPresets.cpp
+ msgid "Error Saving FFmpeg Presets"
+@@ -4435,7 +4435,7 @@ msgstr "FFmpeg-kompatibla filer"
+ 
+ #: modules/import-export/mod-ffmpeg/ImportFFmpeg.cpp
+ msgid "Try installing FFmpeg.\n"
+-msgstr "Pröva att installera FFmpeg./n\n"
++msgstr "Prova att installera FFmpeg.\n"
+ 
+ #. i18n-hint: "codec" is short for a "coder-decoder" algorithm
+ #: modules/import-export/mod-ffmpeg/ImportFFmpeg.cpp
+@@ -4451,12 +4451,12 @@ msgstr "Bitdjup"
+ #: modules/import-export/mod-flac/ExportFLAC.cpp
+ #: modules/import-export/mod-wavpack/ExportWavPack.cpp
+ msgid "16 bit"
+-msgstr "16 bitar"
++msgstr "16 bit"
+ 
+ #: modules/import-export/mod-flac/ExportFLAC.cpp
+ #: modules/import-export/mod-wavpack/ExportWavPack.cpp
+ msgid "24 bit"
+-msgstr "24 bitar"
++msgstr "24 bit"
+ 
+ #: modules/import-export/mod-flac/ExportFLAC.cpp src/effects/BassTreble.cpp
+ msgid "Level"
+@@ -4505,7 +4505,7 @@ msgstr "FLAC-filer"
+ #: modules/import-export/mod-flac/ExportFLAC.cpp
+ #, c-format
+ msgid "FLAC export couldn't open %s"
+-msgstr "FLAC-exportering kunde inte öppna %s"
++msgstr "FLAC-exporten kunde inte öppna %s"
+ 
+ #: modules/import-export/mod-flac/ExportFLAC.cpp
+ #, c-format
+@@ -4513,7 +4513,7 @@ msgid ""
+ "FLAC encoder failed to initialize\n"
+ "Status: %d"
+ msgstr ""
+-"FLAC-avkodare lyckades inte initieras\n"
++"FLAC-kodaren kunde inte initieras\n"
+ "Status: %d"
+ 
+ #: modules/import-export/mod-flac/ExportFLAC.cpp
+@@ -4535,7 +4535,7 @@ msgstr "Lista över filer i vanligt textformat"
+ #. i18n-hint: You do not need to translate "LOF"
+ #: modules/import-export/mod-lof/ImportLOF.cpp
+ msgid "Invalid window offset in LOF file."
+-msgstr "Fönstret har en ogiltig offset i LOF-filen."
++msgstr "Fönstret har en ogiltig förskjutning i LOF-filen."
+ 
+ #. i18n-hint: You do not need to translate "LOF"
+ #: modules/import-export/mod-lof/ImportLOF.cpp
+@@ -4544,12 +4544,12 @@ msgstr "Felaktig längd i LOF-filen."
+ 
+ #: modules/import-export/mod-lof/ImportLOF.cpp
+ msgid "MIDI tracks cannot be offset individually, only audio files can be."
+-msgstr "MIDI-kanalerna kan inte vara offset var för sig, endast ljudfiler kan var det."
++msgstr "MIDI-spår kan inte förskjutas individuellt, det kan bara ljudfiler."
+ 
+ #. i18n-hint: You do not need to translate "LOF"
+ #: modules/import-export/mod-lof/ImportLOF.cpp
+ msgid "Invalid track offset in LOF file."
+-msgstr "Spåret har en ogiltig offset i LOF-filen."
++msgstr "Spåret har en ogiltig förskjutning i LOF-filen."
+ 
+ #: modules/import-export/mod-mp2/ExportMP2.cpp
+ msgid "Version"
+@@ -4577,7 +4577,7 @@ msgstr "Kan inte exportera MP2 med denna samplingsfrekvens och bithastighet"
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ #: modules/import-export/mod-wavpack/ExportWavPack.cpp
+ msgid "Unable to open target file for writing"
+-msgstr "Kunde inte öppna målfil att skriva till"
++msgstr "Kunde inte öppna målfilen för skrivning"
+ 
+ #: modules/import-export/mod-mp2/ExportMP2.cpp
+ #, c-format
