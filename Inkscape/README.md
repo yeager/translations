@@ -140,3 +140,5 @@ Se `TERMINOLOGY.md` för projektets svenska termer och `Weblate/2026-11-13/dev-u
 | 2026-11-13 | `1-4-x/inkscape`, unika poster 1201-1224 | 8 språk- och korrekturfel | Arkiverat och inskickat via Weblate API; 8 accepterade, 0 hoppades över och 0 saknade. Lokal granskning av samtliga 1 224 unika 1.4-poster är klar; gemensamma poster återgranskas inte |
 
 Fullständig slutstatus för 1.4.x finns i [FINAL-STATUS-1-4-20261113.md](FINAL-STATUS-1-4-20261113.md).
+
+Komponentomfattning och dokumentationsstatus finns i [COMPONENT-INVENTORY-20261113.md](COMPONENT-INVENTORY-20261113.md).
