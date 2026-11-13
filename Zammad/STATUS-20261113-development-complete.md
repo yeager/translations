@@ -12,4 +12,6 @@ Före varje uppdatering kontrollerades att källsträngen fortfarande var densam
 
 Samma dag lästes stable-komponenten också tillbaka: 5 336 av 5 336 svenska strängar är översatta, utan redigeringsmarkeringar eller felande kontroller. De tidigare noterade två tomma stable-posterna är därför inte längre en aktiv restpunkt.
 
+De två separata komponenterna för hostade tillägg kontrollerades därefter via samma Weblate-API: `zammad-hosted-extensions` och `zammad-hosted-extensions-stable` visar båda 249 av 249 översatta svenska strängar, 0 redigeringsmarkeringar och 0 felande kontroller. Vardera komponenten har 152 särskilt granskar-godkända poster. Kontrollen bekräftar täckning och sparat läge, men innebär inte att de återstående posterna har fått ett nytt granskar-godkännande eller har ingått i en Zammad-release.
+
 Kontroller för de lokala batchunderlagen: JSON-validering, platshållar- och mallparitet, Hunspell-sv, l10n-lint, diffkontroll och Gitleaks. `msgfmt` är inte tillämpligt på Weblates enhetsposter. `svlang` analyserade även engelska källfält i JSON-underlagen och gav därför inga användbara svenska resultat i detta format.
