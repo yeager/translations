@@ -141,3 +141,13 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | immersion tank | immersionskammare | Kammare där operatörens kropp förvaras. |
 | nuclear winter | kärnvapenvinter | Historisk följd av Kollapsen. |
 | nuclear deterrent | kärnvapenavskräckning | NASDA-systemets avsedda funktion. |
+
+## Namn, system och forskning
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| sensor tower | sensortorn | Byggnad för sensorfunktion. |
+| command turret | befälstorn | Uppgraderbar enhet för befälhavare. |
+| command center | ledningscentral | Fraktionsspecifik byggnad. |
+| missile targeting codes | robotmålsökningskoder | Forskning för robotmålval. |
+| missile firing codes | robotavfyrningskoder | Forskning för robotavfyrning. |
