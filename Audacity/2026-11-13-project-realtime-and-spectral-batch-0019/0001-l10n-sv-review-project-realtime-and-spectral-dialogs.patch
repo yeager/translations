@@ -1,0 +1,212 @@
+From 43c1ebfdb93b5700f98e62a55b715a6b6266a561 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:45:02 +0100
+Subject: [PATCH] l10n(sv): review project realtime and spectral dialogs
+
+---
+ au3/locale/sv.po | 56 ++++++++++++++++++++++++------------------------
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 29a01b3..40cae0b 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -9117,10 +9117,10 @@ msgid ""
+ "\n"
+ "Please open the actual Audacity project file instead."
+ msgstr ""
+-"Du försöker öppna en automatisk skapad backup-fil.\n"
+-"Detta kan orsaka att data går förlorad.\n"
++"Du försöker öppna en automatiskt skapad säkerhetskopia.\n"
++"Detta kan leda till allvarlig dataförlust.\n"
+ "\n"
+-"Vänligen öppna den aktuella Audacity projektfilen istället."
++"Öppna i stället själva Audacity-projektfilen."
+ 
+ #: src/ProjectFileManager.cpp
+ msgid "Warning - Backup File Detected"
+@@ -9152,8 +9152,8 @@ msgid ""
+ "Project resides on FAT formatted drive.\n"
+ "Copy it to another drive to open it."
+ msgstr ""
+-"Projektet är placerat på en FAT formaterad disk.\n"
+-"Kopiera det till en annan hårddisk på att öppna det."
++"Projektet ligger på en FAT-formaterad enhet.\n"
++"Kopiera det till en annan enhet för att öppna det."
+ 
+ #: src/ProjectFileManager.cpp
+ msgid "A channel of a stereo track was missing."
+@@ -9167,7 +9167,7 @@ msgstr "Detta projekt innehöll stereospår med olika samplingshastigheter per k
+ #. i18n-hint: explains why opened project was auto-modified
+ #: src/ProjectFileManager.cpp
+ msgid "This project contained stereo tracks with different sample formats in channels."
+-msgstr "Detta projekt innehöll stereospår med olika samplingshastigheter per kanal."
++msgstr "Det här projektet innehöll stereospår med olika samplingsformat i kanalerna."
+ 
+ #. i18n-hint: explains why opened project was auto-modified
+ #: src/ProjectFileManager.cpp
+@@ -9217,7 +9217,7 @@ msgstr "Analyserar importerat ljud"
+ 
+ #: src/ProjectFileManager.cpp
+ msgid "Failed to import project"
+-msgstr "Misslyckades med importera projekt"
++msgstr "Kunde inte importera projektet"
+ 
+ #: src/ProjectFileManager.cpp
+ msgid "Error Importing"
+@@ -9225,7 +9225,7 @@ msgstr "Fel uppstod under import"
+ 
+ #: src/ProjectFileManager.cpp
+ msgid "Cannot import AUP3 format.  Use File > Open instead"
+-msgstr "Kan inte importera AUP3 format. Välj Arkiv > Öppna istället"
++msgstr "Kan inte importera AUP3-format. Välj Arkiv > Öppna i stället"
+ 
+ #: src/ProjectFileManager.cpp
+ msgid "Compact Project"
+@@ -9242,11 +9242,11 @@ msgid ""
+ "\n"
+ "Do you want to continue?"
+ msgstr ""
+-"Genom att packa projektet genom att ta bort oanvända bytes i filen frigör det mer utrymme på disken.\n"
++"Om projektet komprimeras tas oanvända byte i filen bort och diskutrymme frigörs.\n"
+ "\n"
+-"Det finns %s fritt hårddiskutrymme och projektet använder nu %s.\n"
++"Det finns %s ledigt diskutrymme och projektet använder nu %s.\n"
+ "\n"
+-"Om du fortsätter, nuvarande Ångra/Gör om historia och innehållet i Urklipp kommer att raderas och du återskapar ungefär %s av diskutrymmet.\n"
++"Om du fortsätter rensas aktuell ångra- och gör om-historik samt urklippet, och ungefär %s diskutrymme frigörs.\n"
+ "\n"
+ "Vill du fortsätta?"
+ 
+@@ -9256,12 +9256,12 @@ msgstr "Packad projektfil"
+ 
+ #: src/ProjectFileManager.cpp
+ msgid "Compact"
+-msgstr "Packad"
++msgstr "Komprimera"
+ 
+ #: src/ProjectFileManager.cpp
+ #, c-format
+ msgid "[Project %02i] "
+-msgstr "[Project %02i] "
++msgstr "[Projekt %02i] "
+ 
+ #: src/ProjectManager.cpp
+ #, c-format
+@@ -9313,7 +9313,7 @@ msgstr "Horisontell rullningslist"
+ 
+ #: src/ProjectWindow.cpp
+ msgid "Vertical Scrollbar"
+-msgstr "Vertikalt rullningslist"
++msgstr "Vertikal rullningslist"
+ 
+ #: src/RealtimeEffectPanel.cpp
+ msgid "No Effect"
+@@ -9368,7 +9368,7 @@ msgstr "Radera %s"
+ #: src/RealtimeEffectPanel.cpp
+ #, c-format
+ msgid "Replaced %s with %s"
+-msgstr "Ersätt %s med %s"
++msgstr "Ersatte %s med %s"
+ 
+ #. i18n-hint: undo history record
+ #. first parameter - realtime effect name
+@@ -9418,12 +9418,12 @@ msgid ""
+ "This plugin could not be loaded.\n"
+ "It may have been deleted."
+ msgstr ""
+-"Plugin kunde inte laddas./n\n"
++"Insticksmodulen kunde inte läsas in.\n"
+ "Den kan ha raderats."
+ 
+ #: src/RealtimeEffectPanel.cpp src/effects/EffectUI.cpp
+ msgid "Plugin Error"
+-msgstr "Plugin Fel"
++msgstr "Fel i insticksmodul"
+ 
+ #. i18n-hint: undo history record
+ #. first parameter - realtime effect name
+@@ -9442,17 +9442,17 @@ msgstr "Lägg till %s"
+ 
+ #: src/RealtimeEffectPanel.cpp
+ msgid "Realtime effects"
+-msgstr "Realtime effekter"
++msgstr "Realtidseffekter"
+ 
+ #. i18n-hint: argument - track name
+ #: src/RealtimeEffectPanel.cpp
+ #, c-format
+ msgid "Realtime effects for %s"
+-msgstr "Realtime effekter för %s"
++msgstr "Realtidseffekter för %s"
+ 
+ #: src/RealtimeEffectPanel.cpp
+ msgid "Realtime Effects"
+-msgstr "Realtime Effekter"
++msgstr "Realtidseffekter"
+ 
+ #: src/RealtimeEffectPanel.cpp
+ msgid "Watch video"
+@@ -9464,11 +9464,11 @@ msgstr "Realtidseffekter förstör inte och kan ändras när som helst."
+ 
+ #: src/RealtimeEffectPanel.cpp
+ msgid "Master Effects"
+-msgstr "Master effekter"
++msgstr "Huvudeffekter"
+ 
+ #: src/RealtimeEffectPanel.cpp
+ msgid "Applies to all tracks"
+-msgstr "Tillämpa på alla spår"
++msgstr "Gäller alla spår"
+ 
+ #: src/SelectUtilities.cpp
+ msgid "Position"
+@@ -9484,7 +9484,7 @@ msgstr "Aktiveringsnivå (dB):"
+ 
+ #: src/SpectralDataDialog.cpp
+ msgid "Spectral Data Control Panel"
+-msgstr "Kontrollpanel spektraldata"
++msgstr "Kontrollpanel för spektraldata"
+ 
+ #: src/SpectralDataDialog.cpp
+ msgid "Brush Tool"
+@@ -9496,7 +9496,7 @@ msgstr "Spektralverktyg"
+ 
+ #: src/SpectralDataDialog.cpp
+ msgid "Brush radius"
+-msgstr "Ritverktyg radie"
++msgstr "Penselradie"
+ 
+ #: src/SpectralDataDialog.cpp
+ msgid "Custom brush size"
+@@ -9504,11 +9504,11 @@ msgstr "Anpassad storlek"
+ 
+ #: src/SpectralDataDialog.cpp
+ msgid "Auto-select overtones (beta)"
+-msgstr "Autoskapa övertoner (beta)"
++msgstr "Välj övertoner automatiskt (beta)"
+ 
+ #: src/SpectralDataDialog.cpp
+ msgid "Enable smart selection"
+-msgstr "Möjliggör smart urval"
++msgstr "Aktivera smart markering"
+ 
+ #: src/SpectralDataDialog.cpp
+ msgid ""
+@@ -9520,11 +9520,11 @@ msgstr ""
+ 
+ #: src/SpectralDataDialog.cpp
+ msgid "Spectra&l Selection Panel"
+-msgstr "Spektralpanel urval"
++msgstr "Panel för spektral&markering"
+ 
+ #: src/SpectralDataManager.cpp
+ msgid "Applied effect to selection"
+-msgstr "Tillämpa effekt på markering"
++msgstr "Tillämpade effekt på markeringen"
+ 
+ #: src/TagsEditor.cpp
+ msgid "Artist Name"
+-- 
+2.54.0 (Apple Git-157)
+
