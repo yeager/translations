@@ -49,6 +49,7 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | TV shader | TV-shader | Projektspecifik teknisk sammansättning för TV-liknande bildfilter. |
 | interlacing | radsprångsvisning | Används för bildsammanflätning i videoinställningar. |
 | interlace offset | radsprångsförskjutning | Gäller den separata grafikinställningen. |
-| patch | korrigering | Används för spel- och kompatibilitetskorrigeringar i UI. |
+| Game Fixes | spelfixar | Etablerat namn på PCSX2:s särskilda inställningspanel. Böj som plural, till exempel `Spelfixar är inte aktiverade`. |
+| patch, game patch | patch, spelpatch | Behålls när det är en teknisk spelpatch eller patchfil. För vanliga programrättningar används i stället `korrigering` eller `programfix` efter kontext. |
 | Blit Swap Chain | blit-växlingskedja | Tekniskt grafikval. `Blit` behålls som fackterm medan `Swap Chain` försvenskas. |
 | Spin CPU/GPU During Readbacks | Låt CPU:n/GPU:n snurra under återläsningar | Gäller det explicita energikrävande arbetet som håller hårdvaran aktiv vid återläsning. |

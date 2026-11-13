@@ -15,6 +15,11 @@ Den granskade måltexten är:
 Hunspell-sv saknar sammansättningen, men svlang bedömer hela formuleringen
 som naturlig svenska. `xmllint --noout` och `l10n-lint` godkände deltafilen.
 
+Den projektspecifika terminologin skiljer nu mellan panelnamnet `Game Fixes`,
+som blir *spelfixar*, och tekniska spelpatchar eller patchfiler, som behåller
+*patch* efter sin konkreta kontext. Den tidigare generella regeln att alltid
+översätta *patch* till *korrigering* var för grov för PCSX2 och ersattes.
+
 Förslag `450001` skickades via Crowdin API den 13 november och återlästes
 direkt med identisk text. Det är ett ogranskat förslag; ingen
 upstreamgranskning, godkännande eller aktivering av den befintliga
