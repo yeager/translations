@@ -1,0 +1,160 @@
+From 4d8705df9bf98d2b2aaa37432f7f36559e940aba Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 16:08:55 +0100
+Subject: [PATCH] l10n(sv): localize numeric display formats
+
+---
+ au3/locale/sv.po | 32 ++++++++++++++++----------------
+ 1 file changed, 16 insertions(+), 16 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 9a5ae60..d808a19 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -1507,7 +1507,7 @@ msgstr "sekunder + millisekunder"
+ #. * your languages uses a ',' or to '>' if your language uses a '.'.
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "01000,01000>01000 seconds"
+-msgstr "01000,01000>01000 sekunder"
++msgstr "01000,01000<01000 sekunder"
+ 
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ #: src/prefs/DevicePrefs.cpp src/prefs/RecordingPrefs.cpp
+@@ -1547,7 +1547,7 @@ msgstr "0100 dygn 024 h 060 m 060 s"
+ #. * to '>' if your language uses a '.'.
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "0100 h 060 m 060>0100 s"
+-msgstr "0100 h 060 m 060>0100 s"
++msgstr "0100 h 060 m 060<0100 s"
+ 
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "centiseconds"
+@@ -1562,7 +1562,7 @@ msgstr "centisekunder"
+ #. * to '>' if your language uses a '.'.
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "0100 h 060 m 060>01000 s"
+-msgstr "0100 h 060 m 060>01000 s"
++msgstr "0100 h 060 m 060<01000 s"
+ 
+ #. i18n-hint: Format string for displaying time in hours, minutes, seconds
+ #. * and samples. Change the 'h' to the abbreviation for hours, 'm' to the
+@@ -1573,7 +1573,7 @@ msgstr "0100 h 060 m 060>01000 s"
+ #. * to '>' if your language uses a '.'.
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "0100 h 060 m 060 s+># samples"
+-msgstr "0100 h 060 m 060 s+># samplingar"
++msgstr "0100 h 060 m 060 s+<# samplar"
+ 
+ #. i18n-hint: Name of time display format that shows time in samples (at the
+ #. * current project sample rate).  For example the number of a sample at 1
+@@ -1582,7 +1582,7 @@ msgstr "0100 h 060 m 060 s+># samplingar"
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ #: plug-ins/sample-data-export.ny
+ msgid "samples"
+-msgstr "samplingar"
++msgstr "samplar"
+ 
+ #. i18n-hint: Format string for displaying time in samples (lots of samples).
+ #. * Change the ',' to the 1000s separator for your locale, and translate
+@@ -1590,7 +1590,7 @@ msgstr "samplingar"
+ #. * can change the numbers to an appropriate one, and put a 0 on the front
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "01000,01000,01000 samples|#"
+-msgstr "01000,01000,01000 samplingar|#"
++msgstr "01000,01000,01000 samplar|#"
+ 
+ #. i18n-hint: Name of time display format that shows time in hours, minutes,
+ #. * seconds and frames at 24 frames per second (commonly used for films)
+@@ -1607,7 +1607,7 @@ msgstr "hh:mm:ss + filmbildrutor (24 fps)"
+ #. * to '>' if your language uses a '.'.
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "0100 h 060 m 060 s+>24 frames"
+-msgstr "0100 h 060 m 060 s+>24 bildrutor"
++msgstr "0100 h 060 m 060 s+<24 bildrutor"
+ 
+ #. i18n-hint: Name of time display format that shows time in frames (lots of
+ #. * frames) at 24 frames per second (commonly used for films)
+@@ -1638,7 +1638,7 @@ msgstr "hh:mm:ss + tappade NTSC-bildrutor"
+ #. * to '>' if your language uses a '.'.
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "0100 h 060 m 060 s+>30 frames|N"
+-msgstr "0100 h 060 m 060 s+>30 bildrutor|N"
++msgstr "0100 h 060 m 060 s+<30 bildrutor|N"
+ 
+ #. i18n-hint: Name of time display format that shows time in hours, minutes,
+ #. * seconds and frames at NTSC TV non-drop-frame rate (used for American /
+@@ -1656,7 +1656,7 @@ msgstr "hh:mm:ss + otappade NTSC-bildrutor"
+ #. * to '>' if your language uses a '.'.
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "0100 h 060 m 060 s+>030 frames| .999000999"
+-msgstr "0100 h 060 m 060 s+>030 bildrutor| .999000999"
++msgstr "0100 h 060 m 060 s+<030 bildrutor| .999000999"
+ 
+ #. i18n-hint: Name of time display format that shows time in frames at NTSC
+ #. * TV frame rate (used for American / Japanese TV
+@@ -1687,7 +1687,7 @@ msgstr "hh:mm:ss + PAL-bildrutor (25 fps)"
+ #. * to '>' if your language uses a '.'.
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "0100 h 060 m 060 s+>25 frames"
+-msgstr "0100 h 060 m 060 s+>25 bildrutor"
++msgstr "0100 h 060 m 060 s+<25 bildrutor"
+ 
+ #. i18n-hint: Name of time display format that shows time in frames at PAL
+ #. * TV frame rate (used for European TV)
+@@ -1718,7 +1718,7 @@ msgstr "hh:mm:ss + CDDA-bildrutor (75 fps)"
+ #. * to '>' if your language uses a '.'.
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "0100 h 060 m 060 s+>75 frames"
+-msgstr "0100 h 060 m 060 s+>75 bildrutor"
++msgstr "0100 h 060 m 060 s+<75 bildrutor"
+ 
+ #. i18n-hint: Name of time display format that shows time in frames at CD
+ #. * Audio frame rate (75 frames per second)
+@@ -1741,7 +1741,7 @@ msgstr "01000,01000 bildrutor|75"
+ #. * to '>' if your language uses a '.'.
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "010,01000>0100 Hz"
+-msgstr "010,01000>0100 Hz"
++msgstr "010,01000<0100 Hz"
+ 
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "centihertz"
+@@ -1758,7 +1758,7 @@ msgstr "kHz"
+ #. * to '>' if your language uses a '.'.
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "01000>01000 kHz|0.001"
+-msgstr "01000>01000 kHz|0.001"
++msgstr "01000<01000 kHz|0.001"
+ 
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "hertz"
+@@ -1770,7 +1770,7 @@ msgstr "hertz"
+ #. * to '>' if your language uses a '.'.
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "100>01000 octaves|1.442695041"
+-msgstr "100>01000 oktaver|1.442695041"
++msgstr "100<01000 oktaver|1.442695041"
+ 
+ #. i18n-hint: an octave is a doubling of frequency
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+@@ -1790,7 +1790,7 @@ msgstr "halvtoner + cent"
+ #. * to '>' if your language uses a '.'.
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "1000 semitones >0100 cents|17.312340491"
+-msgstr "1000 halvtoner >0100 cent|17.312340491"
++msgstr "1000 halvtoner <0100 cent|17.312340491"
+ 
+ #. i18n-hint: a cent is a hundredth of a semitone (which is 1/12 octave)
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+@@ -1807,7 +1807,7 @@ msgstr "årtionden"
+ #. * Change the decimal points for your locale. Don't change the numbers.
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+ msgid "10>01000 decades|0.434294482"
+-msgstr "10>01000 årtionden|0.434294482"
++msgstr "10<01000 årtionden|0.434294482"
+ 
+ #. i18n-hint: a decade is a tenfold increase of frequency
+ #: libraries/lib-numeric-formats/formatters/ParsedNumericConverterFormatter.cpp
+-- 
+2.54.0 (Apple Git-157)
+
