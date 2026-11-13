@@ -1,0 +1,269 @@
+From c51ee06c5e52756c88041f18f179855c475dba58 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 15:01:08 +0100
+Subject: [PATCH] l10n(sv): review noise and reverb effects
+
+---
+ au3/locale/sv.po | 72 ++++++++++++++++++++++++------------------------
+ 1 file changed, 36 insertions(+), 36 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 165cb65..525e88e 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -12889,15 +12889,15 @@ msgstr "Du måste ange samma fönsterstorlek för stegen 1 och 2."
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "Warning: window types are not the same as for profiling."
+-msgstr "Varning: Fönstertyper är inte densamma som för profilering."
++msgstr "Varning: Fönstertyperna är inte desamma som för profilering."
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "All noise profile data must have the same sample rate."
+-msgstr "All brusprofildata måste vara samma samplingsfrekvens."
++msgstr "All brusprofildata måste ha samma samplingsfrekvens."
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "The sample rate of the noise profile must match that of the sound to be processed."
+-msgstr "Samplingsfrekvensen för brusprofilen måste överensstämma med ljudet att bearbetas."
++msgstr "Samplingsfrekvensen för brusprofilen måste överensstämma med den för ljudet som ska bearbetas."
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "Selected noise profile is too short."
+@@ -12929,19 +12929,19 @@ msgstr "Attacktid"
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "R&elease time (secs):"
+-msgstr "R&elease-tid (sek):"
++msgstr "Åter&gångstid (sek):"
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "Release time"
+-msgstr "Release-tid"
++msgstr "Återgångstid"
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "&Frequency smoothing (bands):"
+-msgstr "&Frekvensutjämning (Hz):"
++msgstr "&Frekvensutjämning (band):"
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "Frequency smoothing"
+-msgstr "Släta ut frekvenser"
++msgstr "Frekvensutjämning"
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "Sensiti&vity (dB):"
+@@ -12960,8 +12960,8 @@ msgid ""
+ "Select a few seconds of just noise so Audacity knows what to filter out,\n"
+ "then click Get Noise Profile:"
+ msgstr ""
+-"Välj några sekunder brus så Audacity vet vad som skall filtreras bort,\n"
+-"klicka sedan på Hämta brusprofil:"
++"Markera några sekunder med enbart brus så att Audacity vet vad som ska filtreras bort.\n"
++"Klicka sedan på Hämta brusprofil:"
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "&Get Noise Profile"
+@@ -12977,7 +12977,7 @@ msgid ""
+ "filtered out, and then click 'OK' to reduce noise.\n"
+ msgstr ""
+ "Markera allt ljud som du vill filtrera, välj hur mycket brus du vill\n"
+-"filtrera bort och klicka sedan på \"OK\" för att radera brus.\n"
++"filtrera bort och klicka sedan på \"OK\" för att minska bruset.\n"
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "Noise:"
+@@ -13075,7 +13075,7 @@ msgstr "Normalisera"
+ 
+ #: src/effects/Normalize.cpp
+ msgid "Sets the peak amplitude of one or more tracks"
+-msgstr "Ändrar den maximala amplituden för ett eller fler spår"
++msgstr "Ställer in toppamplituden för ett eller flera spår"
+ 
+ #: src/effects/Normalize.cpp
+ msgid "Removing DC offset and Normalizing...\n"
+@@ -13140,7 +13140,7 @@ msgstr "Paulstretch"
+ 
+ #: src/effects/Paulstretch.cpp
+ msgid "Paulstretch is only for an extreme time-stretch or \"stasis\" effect"
+-msgstr "Paulstretch är endast avsedd för en extrem tidsutsträckt effekt eller \"stasiseffekt\""
++msgstr "Paulstretch är bara avsedd för en extrem tidsutsträckning eller en \"stasis\"-effekt"
+ 
+ #. i18n-hint: This is how many times longer the sound will be, e.g. applying
+ #. * the effect to a 1-second sample, with the default Stretch Factor of 10.0
+@@ -13148,7 +13148,7 @@ msgstr "Paulstretch är endast avsedd för en extrem tidsutsträckt effekt eller
+ #.
+ #: src/effects/Paulstretch.cpp
+ msgid "&Stretch Factor:"
+-msgstr "&Utträckningsfaktor:"
++msgstr "&Tidsutsträckningsfaktor:"
+ 
+ #: src/effects/Paulstretch.cpp
+ msgid "&Time Resolution (seconds):"
+@@ -13177,7 +13177,7 @@ msgid ""
+ "For the current audio selection, the maximum\n"
+ "'Time Resolution' is %.1f seconds."
+ msgstr ""
+-"Kunde inte förhandsvisas.\n"
++"Det gick inte att förhandsvisa.\n"
+ "\n"
+ "För nuvarande ljudmarkering är den maximala\n"
+ "\"Tidsupplösning\" %.1f sekunder."
+@@ -13214,11 +13214,11 @@ msgstr "Steg"
+ 
+ #: src/effects/Phaser.cpp
+ msgid "&Dry/Wet:"
+-msgstr "&Dry/Wet:"
++msgstr "&Torr/effekt:"
+ 
+ #: src/effects/Phaser.cpp
+ msgid "Dry Wet"
+-msgstr "Dry Wet"
++msgstr "Torr/effekt"
+ 
+ #: src/effects/Phaser.cpp src/effects/Wahwah.cpp
+ msgid "LFO Freq&uency (Hz):"
+@@ -13254,11 +13254,11 @@ msgstr "Återkoppling i procent"
+ 
+ #: src/effects/Phaser.cpp src/effects/Wahwah.cpp
+ msgid "&Output gain (dB):"
+-msgstr "&Utmatningsförstärkning (dB):"
++msgstr "&Utnivå (dB):"
+ 
+ #: src/effects/Phaser.cpp src/effects/Wahwah.cpp
+ msgid "Output gain (dB)"
+-msgstr "Utmatningsförstärkning (dB):"
++msgstr "Utnivå (dB)"
+ 
+ #. i18n-hint: First %s is an effect name, second is a track name
+ #: src/effects/RealtimeEffectStateUI.cpp
+@@ -13276,7 +13276,7 @@ msgstr "Ändrar den maximala amplituden för ett eller fler spår"
+ 
+ #: src/effects/Repair.cpp
+ msgid "The Repair effect cannot be applied within stretched or shrunk clips"
+-msgstr "Reparationseffekten kan inte appliceras i stretchade eller krympta clips"
++msgstr "Effekten Reparera kan inte användas i tidsutsträckta eller förkortade klipp"
+ 
+ #: src/effects/Repair.cpp
+ msgid ""
+@@ -13284,7 +13284,7 @@ msgid ""
+ "\n"
+ "Zoom in and select a tiny fraction of a second to repair."
+ msgstr ""
+-"Reparationseffekten är gjord för att användas på en mycket kort del av skadat ljud (upp till 128 samplingar).\n"
++"Effekten Reparera är avsedd för mycket korta delar av skadat ljud (upp till 128 samplar).\n"
+ "\n"
+ "Zooma in och välj en liten bråkdel av en sekund att reparera."
+ 
+@@ -13296,9 +13296,9 @@ msgid ""
+ "\n"
+ "The more surrounding audio, the better it performs."
+ msgstr ""
+-"Reparera arbete genom att använda ljuddata utanför markeringsområdet.\n"
++"Reparera fungerar genom att använda ljuddata utanför markeringsområdet.\n"
+ "\n"
+-"Var god markera ett område där ljud har kontakt med annat ljud på minst ena sidan.\n"
++"Markera ett område där ljud gränsar till annat ljud på minst ena sidan.\n"
+ "\n"
+ "Ju mer omgivande ljud, desto bättre fungerar det."
+ 
+@@ -13344,7 +13344,7 @@ msgstr "Akustisk"
+ #. i18n-hint: This is the name of an effect preset
+ #: src/effects/Reverb.cpp
+ msgid "Ambience"
+-msgstr "Ambience"
++msgstr "Atmosfär"
+ 
+ #. i18n-hint: This is the name of an effect preset
+ #: src/effects/Reverb.cpp
+@@ -13354,7 +13354,7 @@ msgstr "Artificiell"
+ #. i18n-hint: This is the name of an effect preset
+ #: src/effects/Reverb.cpp
+ msgid "Clean"
+-msgstr "Rensa"
++msgstr "Ren"
+ 
+ #. i18n-hint: This is the name of an effect preset
+ #: src/effects/Reverb.cpp
+@@ -13369,17 +13369,17 @@ msgstr "Sång II"
+ #. i18n-hint: This is the name of an effect preset
+ #: src/effects/Reverb.cpp
+ msgid "Dance Vocal"
+-msgstr "Dans vokal"
++msgstr "Danssång"
+ 
+ #. i18n-hint: This is the name of an effect preset
+ #: src/effects/Reverb.cpp
+ msgid "Modern Vocal"
+-msgstr "Modern vokal"
++msgstr "Modern sång"
+ 
+ #. i18n-hint: This is the name of an effect preset
+ #: src/effects/Reverb.cpp
+ msgid "Voice Tail"
+-msgstr "Voice Tail"
++msgstr "Röstsvans"
+ 
+ #. i18n-hint: This is the name of an effect preset
+ #: src/effects/Reverb.cpp
+@@ -13419,7 +13419,7 @@ msgstr "Katedral"
+ #. i18n-hint: This is the name of an effect preset
+ #: src/effects/Reverb.cpp
+ msgid "Big Cave"
+-msgstr "Big Cave"
++msgstr "Stor grotta"
+ 
+ #: src/effects/Reverb.cpp resources/EffectsMenuDefaults.xml
+ msgid "Reverb"
+@@ -13447,19 +13447,19 @@ msgstr "Dä&mpning (%):"
+ 
+ #: src/effects/Reverb.cpp
+ msgid "Tone &Low (%):"
+-msgstr "&Minpunkt för ton (%):"
++msgstr "&Låg ton (%):"
+ 
+ #: src/effects/Reverb.cpp
+ msgid "Tone &High (%):"
+-msgstr "&Maxpunkt för ton (%):"
++msgstr "&Hög ton (%):"
+ 
+ #: src/effects/Reverb.cpp
+ msgid "Wet &Gain (dB):"
+-msgstr "Wet-&förstärkning (dB):"
++msgstr "Effekt&nivå (dB):"
+ 
+ #: src/effects/Reverb.cpp
+ msgid "Dr&y Gain (dB):"
+-msgstr "Förstärkning av dry (dB):"
++msgstr "Torrsigna&lnivå (dB):"
+ 
+ #: src/effects/Reverb.cpp
+ msgid "Stereo Wid&th (%):"
+@@ -13467,19 +13467,19 @@ msgstr "S&tereobredd (%):"
+ 
+ #: src/effects/Reverb.cpp
+ msgid "Wet O&nly"
+-msgstr "&Endast Wet"
++msgstr "&Endast effekt"
+ 
+ #: src/effects/Reverse.cpp resources/EffectsMenuDefaults.xml
+ msgid "Reverse"
+-msgstr "Baklänges"
++msgstr "Vänd baklänges"
+ 
+ #: src/effects/Reverse.cpp
+ msgid "Reverses the selected audio"
+-msgstr "Vänd på markerat ljud"
++msgstr "Vänder det markerade ljudet baklänges"
+ 
+ #: src/effects/SBSMSEffect.h
+ msgid "SBSMS Time / Pitch Stretch"
+-msgstr "SBSMS-tid / Tonhöjdssträckning"
++msgstr "SBSMS tids-/tonhöjdsutsträckning"
+ 
+ #. i18n-hint: Butterworth is the name of the person after whom the filter type is named.
+ #: src/effects/ScienFilter.cpp
+-- 
+2.54.0 (Apple Git-157)
+

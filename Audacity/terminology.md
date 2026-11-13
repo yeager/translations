@@ -18,3 +18,6 @@
 | Equalization | equalizer | Effekt för frekvensberoende nivåjustering. |
 | Noise Floor | brusgolv | Lägsta brusnivå i dynamik- och förvrängningseffekter. |
 | Loudness | ljudstyrka | Upplevd ljudstyrka, exempelvis mätt med LUFS. |
+| Noise Profile | brusprofil | Analys av brus som används som underlag för brusreducering. |
+| Reverb | efterklang | Effekt som simulerar rummets akustiska återklang. |
+| Wet/Dry | effekt/torrsignal | Förhållandet mellan bearbetad och obearbetad signal. |
