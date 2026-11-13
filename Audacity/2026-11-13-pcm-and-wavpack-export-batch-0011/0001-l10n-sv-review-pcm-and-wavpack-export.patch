@@ -1,0 +1,145 @@
+From a653ba5ca2a9746c87678729736c13f7008863de Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:29:09 +0100
+Subject: [PATCH] l10n(sv): review PCM and WavPack export
+
+---
+ au3/locale/sv.po | 36 ++++++++++++++++++------------------
+ 1 file changed, 18 insertions(+), 18 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 6afe14a..280b8ea 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -5108,7 +5108,7 @@ msgstr "GSM 6.10 behöver mono"
+ 
+ #: modules/import-export/mod-pcm/ExportPCM.cpp
+ msgid "WAVEX and GSM 6.10 formats are not compatible"
+-msgstr "WAVEX och GSM 6.10 format är inte kompatibla"
++msgstr "Formaten WAVEX och GSM 6.10 är inte kompatibla"
+ 
+ #: modules/import-export/mod-pcm/ExportPCM.cpp
+ msgid "Cannot export audio in this format."
+@@ -5119,13 +5119,13 @@ msgid ""
+ "You have attempted to Export a WAV or AIFF file which would be greater than 4GB.\n"
+ "Audacity cannot do this, the Export was abandoned."
+ msgstr ""
+-"Du har försökt att exportera en WAV eller AIFF fil som skulle bli större än 4GB.\n"
+-"Audacity kan inte göra det.."
++"Du har försökt exportera en WAV- eller AIFF-fil som skulle bli större än 4 GB.\n"
++"Audacity kan inte göra detta. Exporten avbröts."
+ 
+ #: modules/import-export/mod-pcm/ExportPCM.cpp
+ #, c-format
+ msgid "Exporting the selected audio as %s"
+-msgstr "Exporterar markerat ljudet som %s"
++msgstr "Exporterar markerat ljud som %s"
+ 
+ #. i18n-hint: %s will be the error message from libsndfile, which
+ #. * is usually something unhelpful (and untranslated) like "system
+@@ -5136,7 +5136,7 @@ msgid ""
+ "Error while writing %s file (disk full?).\n"
+ "Libsndfile says \"%s\""
+ msgstr ""
+-"Fel uppstod när %s fil sparades (hårddisken full?).\n"
++"Fel när filen %s skrevs (är disken full?).\n"
+ "Libsndfile säger \"%s\""
+ 
+ #: modules/import-export/mod-pcm/ImportPCM.cpp
+@@ -5182,7 +5182,7 @@ msgstr "MPC (Akai MPC 2k)"
+ 
+ #: modules/import-export/mod-pcm/ImportPCM.cpp
+ msgid "OGG (OGG Container format)"
+-msgstr "OGG (OGG Container format)"
++msgstr "OGG (OGG-containerformat)"
+ 
+ #: modules/import-export/mod-pcm/ImportPCM.cpp
+ msgid "PAF (Ensoniq PARIS)"
+@@ -5194,7 +5194,7 @@ msgstr "PVF (Portable Voice Format)"
+ 
+ #: modules/import-export/mod-pcm/ImportPCM.cpp
+ msgid "RAW (header-less)"
+-msgstr "RAW (header-less)"
++msgstr "RAW (utan sidhuvud)"
+ 
+ #: modules/import-export/mod-pcm/ImportPCM.cpp
+ msgid "RF64 (RIFF 64)"
+@@ -5238,32 +5238,32 @@ msgstr "XI (FastTracker 2)"
+ 
+ #: modules/import-export/mod-pcm/ImportPCM.cpp
+ msgid "Signed 8 bit PCM"
+-msgstr "Signed 8 bit PCM"
++msgstr "Signerad 8-bitars PCM"
+ 
+ #: modules/import-export/mod-pcm/ImportPCM.cpp
+ msgid "Signed 16 bit PCM"
+-msgstr "Signed 16 bit PCM"
++msgstr "Signerad 16-bitars PCM"
+ 
+ #: modules/import-export/mod-pcm/ImportPCM.cpp
+ msgid "Signed 24 bit PCM"
+-msgstr "Signed 24 bit PCM"
++msgstr "Signerad 24-bitars PCM"
+ 
+ #: modules/import-export/mod-pcm/ImportPCM.cpp
+ msgid "Signed 32 bit PCM"
+-msgstr "Signed 32 bit PCM"
++msgstr "Signerad 32-bitars PCM"
+ 
+ #: modules/import-export/mod-pcm/ImportPCM.cpp
+ msgid "Unsigned 8 bit PCM"
+-msgstr "Unsigned 8 bit PCM"
++msgstr "Osignerad 8-bitars PCM"
+ 
+ #: modules/import-export/mod-pcm/ImportPCM.cpp
+ #: modules/import-export/mod-wavpack/ExportWavPack.cpp
+ msgid "32 bit float"
+-msgstr "32 bit float"
++msgstr "32-bitars flyttal"
+ 
+ #: modules/import-export/mod-pcm/ImportPCM.cpp
+ msgid "64 bit float"
+-msgstr "64 bit float"
++msgstr "64-bitars flyttal"
+ 
+ #: modules/import-export/mod-pcm/ImportPCM.cpp
+ msgid "U-Law"
+@@ -5331,7 +5331,7 @@ msgstr "Normal kvalitet"
+ 
+ #: modules/import-export/mod-wavpack/ExportWavPack.cpp
+ msgid "High Quality (Slow)"
+-msgstr "Hög kvalitet (Långsam)"
++msgstr "Hög kvalitet (långsam)"
+ 
+ #: modules/import-export/mod-wavpack/ExportWavPack.cpp
+ msgid "Very High Quality (Slowest)"
+@@ -5345,7 +5345,7 @@ msgstr "%.1f bps"
+ 
+ #: modules/import-export/mod-wavpack/ExportWavPack.cpp
+ msgid "Hybrid Mode"
+-msgstr "Hybrid läge"
++msgstr "Hybridläge"
+ 
+ #: modules/import-export/mod-wavpack/ExportWavPack.cpp
+ msgid "Create Correction(.wvc) File"
+@@ -5353,7 +5353,7 @@ msgstr "Skapa korrigeringsfil (.wvc)"
+ 
+ #: modules/import-export/mod-wavpack/ExportWavPack.cpp
+ msgid "WavPack Files"
+-msgstr "WavPack filer"
++msgstr "WavPack-filer"
+ 
+ #: modules/import-export/mod-wavpack/ExportWavPack.cpp
+ msgid "Unable to create target file for writing"
+@@ -5369,7 +5369,7 @@ msgstr "Exporterar ljudet som WavPack"
+ 
+ #: modules/import-export/mod-wavpack/ImportWavPack.cpp
+ msgid "WavPack files"
+-msgstr "WavPack filer"
++msgstr "WavPack-filer"
+ 
+ #: modules/import-export/mod-wavpack/ImportWavPack.cpp
+ #, c-format
+-- 
+2.54.0 (Apple Git-157)
+
