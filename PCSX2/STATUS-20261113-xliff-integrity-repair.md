@@ -19,9 +19,14 @@ mellanslag före sekundenheten. `l10n-lint` godkänner deltafilen utan fynd.
 `xmllint --noout`, diffkontroll och Gitleaks passerar. Hunspell-sv och
 svlang är körda på den svenska löptexten utan fynd.
 
-Filen är arkiverad lokalt och pushad till vårt arkiv. Ett försök att öppna
-PCSX2:s Crowdin-projekt i den inloggade webbsessionen stoppade vid "Project
-Not Found"; den tidigare projektsluggen går alltså inte att använda för en
-säker import. Deltafilen är därför inte importerad. Importresultat och
-eventuell upstreamgranskning ska verifieras separat när den aktuella
-projektadressen eller API-kopplingen är identifierad.
+Filen är arkiverad lokalt och pushad till vårt arkiv. Projektbindningen är
+verifierad via Crowdin API: projekt 561203, `PCSX2 Emulator`,
+[`pcsx2-emulator`](https://crowdin.com/project/pcsx2-emulator), med mål-
+språket `sv-SE` och källfilen `pcsx2-qt_en.ts` (fil-ID 15). Den tidigare
+sluggen `pcsx2` var alltså fel.
+
+Deltafilen importerades den 13 november 2026 som oattesterade översättningar:
+2 strängar och 47 ord uppdaterades, 0 strängar godkändes, och 3 strängar
+hoppades över eftersom översättning och källtext medvetet är lika. Inga
+strängar hoppades över av QA eller därför att de är dolda. Importresultatet är
+API-verifierat; ingen separat upstreamgranskning eller merge är verifierad.
