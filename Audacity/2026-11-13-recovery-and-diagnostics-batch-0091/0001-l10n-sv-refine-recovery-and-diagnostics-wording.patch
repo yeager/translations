@@ -1,0 +1,110 @@
+From 01201960e9cf916dc2bcd7f163389185f2e1bf2f Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 17:39:21 +0100
+Subject: [PATCH] l10n(sv): refine recovery and diagnostics wording
+
+---
+ au3/locale/sv.po | 24 ++++++++++++------------
+ 1 file changed, 12 insertions(+), 12 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index a425a9f..ab1e2e0 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -7208,11 +7208,11 @@ msgstr ""
+ "\n"
+ "\t%s\n"
+ "\n"
+-"Detta kan orsakas av många orsaker, men de mest troliga är att disken är full eller att du inte har skrivbehörighet till filen.\n"
++"Detta kan ha många orsaker, men de troligaste är att disken är full eller att du inte har skrivbehörighet till filen.\n"
+ "\n"
+ "Du kan försöka åtgärda problemet och klicka sedan på \"Försök igen\" för att fortsätta.\n"
+ "\n"
+-"Om du väljer att \"Avsluta Audacity\", kan ditt projekt lämnas i ett osparat tillstånd som kommer att återställas nästa gång du öppnar det."
++"Om du väljer \"Avsluta Audacity\" kan ditt projekt lämnas i ett osparat tillstånd som återställs nästa gång du öppnar det."
+ 
+ #: src/AudacityFileConfig.cpp src/AutoRecoveryDialog.cpp
+ msgid "&Quit Audacity"
+@@ -7228,7 +7228,7 @@ msgstr "Konfigurera projekt från musikfil"
+ 
+ #: src/AudacityMirProject.cpp
+ msgid "Automatic Music Configuration"
+-msgstr "Automatisk musikkonfiguration"
++msgstr "Automatisk musikinställning"
+ 
+ #: src/AudacityMirProject.cpp
+ #, c-format
+@@ -7341,7 +7341,7 @@ msgid ""
+ msgstr ""
+ "Är du säker på att du vill radera de markerade projekten?\n"
+ "\n"
+-"Om du klickar på \"Ja\" raderas de markerade projekten."
++"Om du klickar på \"Ja\" raderas de markerade projekten omedelbart och permanent."
+ 
+ #: src/BatchCommandDialog.cpp
+ msgid "Select Command"
+@@ -7480,7 +7480,7 @@ msgstr "Tillämpa makro på:"
+ 
+ #: src/BatchProcessDialog.cpp
+ msgid "Apply macro to project"
+-msgstr "Tillämpa makro i projektet"
++msgstr "Tillämpa makro på projektet"
+ 
+ #: src/BatchProcessDialog.cpp
+ msgid "&Project"
+@@ -7624,7 +7624,7 @@ msgstr "Namnet får inte vara tomt"
+ #: src/BatchProcessDialog.cpp
+ #, c-format
+ msgid "Names may not contain '%c' and '%c'"
+-msgstr "Namn kan inte innehålla \"%c\" och \"%c\""
++msgstr "Namn får inte innehålla \"%c\" och \"%c\""
+ 
+ #. i18n-hint: %s will be replaced by the name of a file.
+ #: src/BatchProcessDialog.cpp
+@@ -7775,12 +7775,12 @@ msgstr "Tid för att utföra %d redigeringar: %ld ms\n"
+ 
+ #: src/Benchmark.cpp
+ msgid "Checking file pointer leaks:\n"
+-msgstr "Kollar efter pekarläckor i filen:\n"
++msgstr "Kontrollerar läckor av filpekare:\n"
+ 
+ #: src/Benchmark.cpp
+ #, c-format
+ msgid "Track # blocks: %ld\n"
+-msgstr "Spår # block: %ld\n"
++msgstr "Antal block i spåret: %ld\n"
+ 
+ #: src/Benchmark.cpp
+ msgid "Disk # blocks: \n"
+@@ -7793,7 +7793,7 @@ msgstr "Utför riktighetskontroll...\n"
+ #: src/Benchmark.cpp
+ #, c-format
+ msgid "Bad: chunk %lld sample %lld\n"
+-msgstr "Fel: datablock %lld, samplar %lld\n"
++msgstr "Fel: datablock %lld, sample %lld\n"
+ 
+ #: src/Benchmark.cpp
+ msgid "Passed correctness check!\n"
+@@ -7824,8 +7824,8 @@ msgid ""
+ "At 44100 Hz, %d bytes per sample, the estimated number of\n"
+ " simultaneous tracks that could be played at once: %.1f\n"
+ msgstr ""
+-"Vid 44100 Hz och %d byte per sampling är det uppskattade antalet\n"
+-" samtidiga spår som kan spelas samtidigt: %.1f\n"
++"Vid 44 100 Hz och %d byte per sample är uppskattat antal\n"
++"spår som kan spelas upp samtidigt: %.1f\n"
+ 
+ #: src/Benchmark.cpp
+ msgid "TEST FAILED!!!\n"
+@@ -7903,7 +7903,7 @@ msgstr "Audacitys supportdata"
+ 
+ #: src/CrashReport.cpp
+ msgid "Report generated to:"
+-msgstr "Rapporten skapades till:"
++msgstr "Rapport skapad i:"
+ 
+ #: src/Dependencies.cpp
+ msgid "Removing Dependencies"
+-- 
+2.54.0 (Apple Git-157)
+
