@@ -29,6 +29,10 @@ Ingen av dessa kandidater är vald eller upstreamgranskad. Därför skapades ing
 
 Kontrollerna `numbers` och `symbol_register` gav ytterligare en faktisk katalogskada: post `6067` är registerförkortningen `PC` (programräknare) men har aktiv måltext `st`. Den korrekta, avsiktligt oförändrade kandidaten `PC` finns redan som `255694`. Övriga träffar i dessa två kontrolltyper är korrekta tal utskrivna med svenska ord, avsiktlig versalisering av handkontrollknappen `START`, eller etablerade tekniska termer. Även dubbelposterna för TV-shader har redan granskat förslag (`449081` och `449079`).
 
+## L10n-varningar med svensk måltext
+
+L10n-lint träffade ett dubbelmellanrum i två felmeddelanden (`11416` och `11448`) och det dubbla ordet *och* i `10874`. Korrekt form finns redan som kandidaterna `449197`, `449227` och `449225`. Sträng `16251` träffas därför att *Välj* förekommer både som synligt knappnamn och som verb i instruktionen; formuleringen är grammatisk och ändrades inte. Inga nya kandidater behövdes.
+
 ## Beslut
 
 Inga QA-poster har avfärdats eller massgodkänts. Formateringskontroller ska jämföras med exakt käll- och måltext före varje rättning. Stavningsposter behandlas endast när den konkreta svenska formuleringen är fel, inte därför att Crowdins ordlista saknar termen.
