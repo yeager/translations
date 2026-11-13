@@ -28,3 +28,6 @@
 | Sample | samplar | Digitala mätvärden i en ljudström; används i bland annat buffertbeskrivningar. |
 | Raw data | rådata | Obearbetade ljuddata vid import. |
 | Byte order | byteordning | Ordningen för byte i råa ljuddata. |
+| Render | återge | Sammanräkna ett eller flera ljudspår till ett nytt, spelbart ljudresultat. |
+| Realtime effect | realtidseffekt | Effekt som bearbetar ljud under uppspelning eller redigering. |
+| Clip | klipp | Avgränsat ljudavsnitt i ett spår. |
