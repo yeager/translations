@@ -24,5 +24,5 @@ Källtexterna är uppdragsrubriker, landningsbriefingar och underrättelser som 
 ## Status
 
 - Lokal radgranskning: färdig för denna batch.
-- Arkivering och push till detta arkiv: färdig när filerna är synliga på `main`.
+- Arkivering och push till detta arkiv: färdig och verifierad genom GitHubs API-svar.
 - Crowdin-uppladdning, upstream-inskick, upstream-granskning och merge: har inte skett.
