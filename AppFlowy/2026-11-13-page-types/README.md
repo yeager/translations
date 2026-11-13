@@ -29,3 +29,8 @@ Kontroller:
 
 Upstream: [AppFlowy PR #9132](https://github.com/AppFlowy-IO/AppFlowy/pull/9132),
 öppen den 13 november 2026. Den är inskickad men inte granskad eller mergad.
+
+Upstreamkontroller: projektets Ninja-i18n-jobb avvisar av säkerhetsskäl
+utcheckning av kod från en fork i ett `pull_request_target`-jobb. Det är en
+workflowbegränsning och inte ett fel som kontrollen har påvisat i översättningen.
+PR:n väntar dessutom på att bidragsgivarens CLA ska signeras.
