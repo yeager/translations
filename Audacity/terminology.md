@@ -15,6 +15,8 @@
 | Timer Recording | timerinspelning | Schemalagd inspelning med start- och stopptid. |
 | Auto Duck | automatisk duckning | Effekt som sänker nivån i spår automatiskt utifrån ett kontrollspår. |
 | Make-up Gain | kompensationsförstärkning | Förstärkning som kompenserar för nivåminskning vid dynamikbearbetning. |
+| Noise Gate | brusgrind | Effekt som dämpar signaler under en vald tröskel. |
+| Gate threshold | grindtröskel | Signalnivå där brusgrinden öppnar eller stänger. |
 | Equalization | equalizer | Effekt för frekvensberoende nivåjustering. |
 | Noise Floor | brusgolv | Lägsta brusnivå i dynamik- och förvrängningseffekter. |
 | Loudness | ljudstyrka | Upplevd ljudstyrka, exempelvis mätt med LUFS. |

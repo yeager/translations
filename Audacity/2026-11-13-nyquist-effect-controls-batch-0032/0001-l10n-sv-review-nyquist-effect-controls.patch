@@ -1,0 +1,243 @@
+From b9f460f0b7643857503b2fa939e7f86101fe3d17 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 15:32:56 +0100
+Subject: [PATCH] l10n(sv): review Nyquist effect controls
+
+---
+ au3/locale/sv.po | 62 ++++++++++++++++++++++++------------------------
+ 1 file changed, 31 insertions(+), 31 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index cb9be16..39a8d75 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -20604,7 +20604,7 @@ msgstr "Håll (ms)"
+ 
+ #: plug-ins/legacy-limiter.ny
+ msgid "Apply Make-up Gain"
+-msgstr "Tillämpa ombrytningsförstärkning"
++msgstr "Använd kompensationsförstärkning"
+ 
+ #: plug-ins/lowpass.ny resources/EffectsMenuDefaults.xml
+ msgid "Low-Pass Filter"
+@@ -20612,7 +20612,7 @@ msgstr "Lågpassfilter"
+ 
+ #: plug-ins/noisegate.ny resources/EffectsMenuDefaults.xml
+ msgid "Noise Gate"
+-msgstr "Noise Gate"
++msgstr "Brusgrind"
+ 
+ #: plug-ins/noisegate.ny
+ msgid "Select Function"
+@@ -20620,7 +20620,7 @@ msgstr "Välj funktion"
+ 
+ #: plug-ins/noisegate.ny
+ msgid "Gate"
+-msgstr "Gate"
++msgstr "Grind"
+ 
+ #: plug-ins/noisegate.ny
+ msgid "Analyze Noise Level"
+@@ -20628,7 +20628,7 @@ msgstr "Analysera brusnivå"
+ 
+ #: plug-ins/noisegate.ny
+ msgid "Stereo Linking"
+-msgstr "Stereo länk"
++msgstr "Stereolänkning"
+ 
+ #: plug-ins/noisegate.ny
+ msgid "Link Stereo Tracks"
+@@ -20640,15 +20640,15 @@ msgstr "Länka inte stereo"
+ 
+ #: plug-ins/noisegate.ny
+ msgid "Gate threshold (dB)"
+-msgstr "Gate Tröskel (dB)"
++msgstr "Grindtröskel (dB)"
+ 
+ #: plug-ins/noisegate.ny
+ msgid "Gate frequencies above (kHz)"
+-msgstr "Gate frekvenser över (kHz)"
++msgstr "Frekvenser över (kHz) för grinden"
+ 
+ #: plug-ins/noisegate.ny
+ msgid "Level reduction (dB)"
+-msgstr "Nivå minskning (dB)"
++msgstr "Nivåminskning (dB)"
+ 
+ #: plug-ins/noisegate.ny
+ msgid "Attack (ms)"
+@@ -20656,7 +20656,7 @@ msgstr "Attack (ms)"
+ 
+ #: plug-ins/noisegate.ny
+ msgid "Decay (ms)"
+-msgstr "Decay (ms)"
++msgstr "Avklingning (ms)"
+ 
+ #: plug-ins/noisegate.ny
+ #, lisp-format
+@@ -20667,9 +20667,9 @@ msgid ""
+ "                             Set the control below ~a kHz."
+ msgstr ""
+ "Fel.~%~\n"
+-"                              Gatefrekvenser ovan: ~s kHz~%~\n"
+-"                              är för hög för valt spår.~%~\n"
+-"                              Ställ in kontrollen under ~a kHz."
++"                              Frekvenser över ~s kHz för grinden~%~\n"
++"                              är för höga för det valda spåret.~%~\n"
++"                              Ställ in värdet under ~a kHz."
+ 
+ #: plug-ins/noisegate.ny
+ #, lisp-format
+@@ -20679,7 +20679,7 @@ msgid ""
+ "                            Make the selection longer than ~a ms."
+ msgstr ""
+ "Fel.~%~\n"
+-"                             Otillräckligt ljud valt.~%~\n"
++"                             Det valda ljudet är för kort.~%~\n"
+ "                             Gör markeringen längre än ~a ms."
+ 
+ #: plug-ins/noisegate.ny
+@@ -20688,7 +20688,7 @@ msgid ""
+ "Peak based on first ~a seconds ~a dB~%~\n"
+ "               Suggested Threshold Setting ~a dB."
+ msgstr ""
+-"Peak baserad på första ~a sekunder ~a dB~%~\n"
++"Toppvärde baserat på de första ~a sekunderna: ~a dB~%~\n"
+ "                Föreslagen tröskelinställning ~a dB."
+ 
+ #. i18n-hint: hours and minutes. Do not translate "~a".
+@@ -20722,7 +20722,7 @@ msgstr ""
+ 
+ #: plug-ins/nyquist-plug-in-installer.ny
+ msgid "Nyquist Plugin Installer"
+-msgstr "Nyquist Plugin Installerare"
++msgstr "Nyquist-installationsverktyg för insticksmoduler"
+ 
+ #. i18n-hint: "Browse..." is text on a button that launches a file browser.
+ #: plug-ins/nyquist-plug-in-installer.ny
+@@ -20731,24 +20731,24 @@ msgstr "Välj fil(er) att installera"
+ 
+ #: plug-ins/nyquist-plug-in-installer.ny
+ msgid "Plug-in"
+-msgstr "Plug-in"
++msgstr "Insticksmodul"
+ 
+ #: plug-ins/nyquist-plug-in-installer.ny
+ msgid "Lisp file"
+-msgstr "Lisp fil"
++msgstr "Lisp-fil"
+ 
+ #: plug-ins/nyquist-plug-in-installer.ny
+ msgid "HTML file"
+-msgstr "HTML fil"
++msgstr "HTML-fil"
+ 
+ #: plug-ins/nyquist-plug-in-installer.ny plug-ins/sample-data-export.ny
+ #: plug-ins/sample-data-import.ny
+ msgid "Text file"
+-msgstr "Text fil"
++msgstr "Textfil"
+ 
+ #: plug-ins/nyquist-plug-in-installer.ny
+ msgid "All supported"
+-msgstr "Alla stöds"
++msgstr "Alla format som stöds"
+ 
+ #: plug-ins/nyquist-plug-in-installer.ny
+ msgid "Allow overwriting"
+@@ -20756,7 +20756,7 @@ msgstr "Tillåt överskrivning"
+ 
+ #: plug-ins/nyquist-plug-in-installer.ny
+ msgid "Disallow"
+-msgstr "Otillåten"
++msgstr "Tillåt inte"
+ 
+ #: plug-ins/nyquist-plug-in-installer.ny
+ msgid "Allow"
+@@ -20770,20 +20770,20 @@ msgstr "Lyckades.~%Filer skrivna till:~%~s~%"
+ #: plug-ins/nyquist-plug-in-installer.ny
+ #, lisp-format
+ msgid "Warning.~%Failed to copy some files:~%"
+-msgstr "Varning.~%Misslyckades med att kopiera visas filer:~%"
++msgstr "Varning.~%Det gick inte att kopiera vissa filer:~%"
+ 
+ #: plug-ins/nyquist-plug-in-installer.ny
+ #, lisp-format
+ msgid "Plug-ins installed.~%(Use the Plug-in Manager to enable effects):"
+-msgstr "Plug-ins installerade.~%(Använd Plug-in Manager för att välja ut effekter):"
++msgstr "Insticksmoduler installerade.~%(Använd hanteraren för insticksmoduler för att aktivera effekter):"
+ 
+ #: plug-ins/nyquist-plug-in-installer.ny
+ msgid "Plug-ins updated:"
+-msgstr "Plug-ins updaterade:"
++msgstr "Insticksmoduler uppdaterade:"
+ 
+ #: plug-ins/nyquist-plug-in-installer.ny
+ msgid "Files copied to plug-ins folder:"
+-msgstr "Filer kopierade till plug-inmappen:"
++msgstr "Filer kopierade till mappen för insticksmoduler:"
+ 
+ #: plug-ins/nyquist-plug-in-installer.ny
+ msgid "Not found or cannot be read:"
+@@ -20799,7 +20799,7 @@ msgstr "Filer redan installerade ('Tillåt överskrivning' avstängd):"
+ 
+ #: plug-ins/nyquist-plug-in-installer.ny
+ msgid "Cannot be written to plug-ins folder:"
+-msgstr "Kan inte skrivas till plug-inmapp:"
++msgstr "Kan inte skrivas till mappen för insticksmoduler:"
+ 
+ #: plug-ins/nyquist-plug-in-installer.ny
+ #, lisp-format
+@@ -20860,7 +20860,7 @@ msgstr "1 - 20 slag/takt"
+ 
+ #: plug-ins/rhythmtrack.ny
+ msgid "Swing amount"
+-msgstr "Förvrängningsmängd"
++msgstr "Swingmängd"
+ 
+ #: plug-ins/rhythmtrack.ny
+ msgid "+/- 1"
+@@ -20888,7 +20888,7 @@ msgstr "Används om \"Antal takter\" = 0"
+ 
+ #: plug-ins/rhythmtrack.ny
+ msgid "Start time offset"
+-msgstr "Offset för starttid"
++msgstr "Förskjutning av starttid"
+ 
+ #: plug-ins/rhythmtrack.ny
+ msgid "Silence before first beat"
+@@ -20965,7 +20965,7 @@ msgstr "Fördröjning (sekunder)"
+ 
+ #: plug-ins/rissetdrum.ny
+ msgid "Center frequency of noise (Hz)"
+-msgstr "Centrera brusfrekvens (Hz)"
++msgstr "Brusets mittfrekvens (Hz)"
+ 
+ #: plug-ins/rissetdrum.ny
+ msgid "Width of noise band (Hz)"
+@@ -20997,11 +20997,11 @@ msgstr "Exportera data till"
+ 
+ #: plug-ins/sample-data-export.ny
+ msgid "CSV files"
+-msgstr "CSV filer"
++msgstr "CSV-filer"
+ 
+ #: plug-ins/sample-data-export.ny
+ msgid "HTML files"
+-msgstr "HTML filer"
++msgstr "HTML-filer"
+ 
+ #: plug-ins/sample-data-export.ny
+ msgid "Index (text files only)"
+@@ -21009,7 +21009,7 @@ msgstr "Index (endast textfiler)"
+ 
+ #: plug-ins/sample-data-export.ny
+ msgid "Sample Count"
+-msgstr "Antal samplingar"
++msgstr "Antal samplar"
+ 
+ #: plug-ins/sample-data-export.ny
+ msgid "Time Indexed"
+-- 
+2.54.0 (Apple Git-157)
+
