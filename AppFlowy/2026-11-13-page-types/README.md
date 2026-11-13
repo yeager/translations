@@ -43,7 +43,7 @@ Kontroller:
 Upstream: [AppFlowy PR #9132](https://github.com/AppFlowy-IO/AppFlowy/pull/9132),
 öppen den 13 november 2026. Den är inskickad men inte granskad eller mergad.
 
-Upstreamkontroller: Ninja-i18n och Sourcery har godkänt den senaste revisionen.
+Upstreamkontroller: Ninja-i18n och CLA-kontrollen har godkänt den senaste revisionen. Sourcery kördes inte för den aktuella revisionen.
 En tidigare Ninja-i18n-körning stoppades före lintning eftersom dess
 `pull_request_target`-konfiguration tillfälligt inte fick checka ut fork-kod.
 Det var en workflowbegränsning, inte en rapporterad översättningsbrist.
