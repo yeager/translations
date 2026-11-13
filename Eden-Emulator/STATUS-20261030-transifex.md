@@ -70,3 +70,23 @@ Den inloggade Transifex-redigeraren kontrollerades direkt för
 filtren visade **0 Inte översatta** respektive **0 Inte granskade**. Detta
 verifierar den aktuella UI-statusen för Qt-resursen; ingen ny översättning
 eller extern ändring skickades vid kontrollen.
+
+## Android-resurs – fuskmenyn 13 november 2026
+
+Aktuell Android-källkod vid `63e957b` lade till två nya tillståndsbeskrivningar
+för en öppningsbar fuskmeny: `Expanded` och `Collapsed`. Källan visar att
+texterna används med Androids `ViewCompat.setStateDescription`, alltså som
+tillgänglighetsbeskrivning av menyns faktiska tillstånd. De översattes därför
+till **Utfälld** respektive **Hopfälld**, efter kontroll mot den svenska
+gränssnittsterminologin för utfällbara paneler.
+
+Batchen i `eden-android-sv-cheat-submenu-20261113.json` har validerats med
+JSON-syntax, käll- och kontextjämförelse, Hunspell-SV, diffkontroll och
+Gitleaks. `l10n-lint` felmarkerar API-payloaden eftersom den kräver en
+pluralform `one` trots att båda Androidsträngarna är singulara; det är inte
+ett problem i måltexterna eller Transifex-resursen.
+
+De båda posterna skickades som en Transifex API-batch och lästes tillbaka
+exakt. API-statistiken efter inskicket visar **1 084 av 1 084** svenska
+Androidsträngar översatta och **0 oöversatta**. Båda posterna är ännu inte
+markerade som upstreamgranskade.
