@@ -1,0 +1,111 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-07-14 16:46+0200\n"
+"PO-Revision-Date: 2026-02-01 19:35+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.inkscape.org/projects/inkscape/1-4-x/documentation/tutorials/tutorial-tracing/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.14.3\n"
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:16
+msgid ""
+"Keep in mind that the Tracer's purpose is not to reproduce an exact "
+"duplicate of the original image; nor is it intended to produce a final "
+"product. No autotracer can do that. What it does is give you a set of curves"
+" which you can use as a resource for your drawing."
+msgstr ""
+"Tänk på att kalkeringsverktyget inte ska återge en exakt kopia av "
+"originalbilden och inte heller skapa en färdig slutprodukt. Ingen automatisk"
+" kalkerare kan göra det. Verktyget ger dig i stället en uppsättning kurvor "
+"som du kan använda i din ritning."
+
+#. (itstool) path: listitem/para
+#: tutorial-tracing.xml:49
+msgid "Brightness Cutoff"
+msgstr "Tröskelvärde för ljusstyrka"
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:74
+msgid ""
+"This uses the edge detection algorithm devised by J. Canny as a way of "
+"quickly finding isoclines of similar contrast. This will produce an "
+"intermediate bitmap that will look less like the original image than does "
+"the result of Brightness Threshold, but will likely provide curve "
+"information that would otherwise be ignored. The threshold setting here (0.0"
+" – 1.0) adjusts the brightness threshold of whether a pixel adjacent to a "
+"contrast edge will be included in the output. This setting can adjust the "
+"darkness or thickness of the edge in the output."
+msgstr ""
+"Här används den algoritm för kantdetektering som utvecklats av J. Canny som "
+"ett sätt att snabbt hitta isokliner med liknande kontrast. Detta ger en "
+"mellanliggande rasterbild som ser mindre ut som originalbilden än vad "
+"resultatet av Tröskelvärde för ljusstyrka gör, men som sannolikt ger "
+"kurvinformation som annars skulle ignoreras. Inställningen för tröskelvärdet"
+" här (0,0 – 1,0) justerar tröskelvärdet för ljusstyrkan för om en bildpunkt "
+"som gränsar till en kontrastkant ska inkluderas i resultatet. Den här "
+"inställningen kan justera hur mörk eller tjock kanten ska vara i resultatet."
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:95
+msgid ""
+"The result of this filter will produce an intermediate image that is very "
+"different from the other two, but is very useful indeed. Instead of showing "
+"isoclines of brightness or contrast, this will find edges where colors "
+"change, even at equal brightness and contrast. The setting here, Number of "
+"Colors, decides how many output colors there would be if the intermediate "
+"bitmap were in color. It then decides black/white on whether the color has "
+"an even or odd index."
+msgstr ""
+"Resultatet av detta filter blir en mellanbild som skiljer sig mycket från de"
+" andra två, men som är mycket användbar. I stället för att visa isokliner av"
+" ljusstyrka eller kontrast hittar detta filter kanter där färgerna ändras, "
+"även vid lika ljusstyrka och kontrast. Inställningen här, Antal färger, "
+"bestämmer hur många utdatafärger det skulle finnas om den mellanliggande "
+"rasterbilden var i färg. Den avgör sedan svart/vitt beroende på om färgen "
+"har ett jämnt eller udda index."
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:109
+msgid ""
+"The user should try all three filters, and observe the different types of "
+"output for different types of input images. There will always be an image "
+"where one works better than the others."
+msgstr ""
+"Prova alla tre filtren och observera de olika typerna av utdata för olika "
+"typer av inmatningsbilder. Det kommer alltid att finnas en bild där ett "
+"filter fungerar bättre än de andra."
+
+#. (itstool) path: listitem/para
+#: tutorial-tracing.xml:156
+msgid "Centerline tracing (autotrace)"
+msgstr "Mittlinjekalkering (autotrace)"
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:161
+msgid ""
+"If you would like to vectorize a line drawing, and get strokes that are easy"
+" to modify instead of filled areas as a result, use this option. It will "
+"attempt to find contiguous lines that make up your drawing."
+msgstr ""
+"Om du vill vektorisera en linjeritning och få streck som är lätta att ändra "
+"i stället för fyllda områden, ska du använda det här alternativet. Det "
+"försöker hitta sammanhängande linjer som utgör din ritning."
+
+#. (itstool) path: text/tspan
+#: tracing-f03.svg:81 tracing-f03.svg:97
+#, no-wrap
+msgid "Edge Detected"
+msgstr "Kant identifierad"
+
+#. (itstool) path: text/tspan
+#: tracing-f05.svg:86
+#, no-wrap
+msgid "(1,551 nodes)"
+msgstr "(1 551 noder)"
