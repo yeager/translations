@@ -48,3 +48,18 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | missile silo | robotsilo | Konstruktionen som innehåller robotar. |
 | missile control code | robotstyrkod | Kod för styrning av robotarna. |
 | high orbit | hög omloppsbana | Beskrivning av robotarnas räckvidd. |
+
+## Enheter och försvar
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| cyborg | cyborg | Etablerad science-fictionterm i spelets enhetsnamn. |
+| cannon | kanon | Används i sammansättningar, exempelvis *cyborgkanon*. |
+| emplacement | ställning | Fast försvarsplats för vapen. |
+| turret | torn | Roterande vapenenhet. |
+| flak / AA | luftvärn | Luftförsvar; produktnamnet behålls. |
+| howitzer | haubits | Svensk militär fackterm. |
+| mortar | granatkastare | Svensk militär fackterm. |
+| Dragon's Teeth | draktänder | Militärt hinder; översätts som etablerad svensk term. |
+| Ground Shaker / Hellstorm / Bombard / Pepperpot / Tornado | oförändrat produktnamn | Följs av svensk funktionsdel, exempelvis *-ställning* eller *luftvärnstorn*. |
+| repair center | reparationscentral | Byggnad för reparationsfunktionen. |
