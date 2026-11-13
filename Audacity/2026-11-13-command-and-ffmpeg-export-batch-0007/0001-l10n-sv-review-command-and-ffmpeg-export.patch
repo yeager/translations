@@ -1,0 +1,189 @@
+From 0a73c3729fdc202ee48858b75e34057c10ed5904 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:19:31 +0100
+Subject: [PATCH] l10n(sv): review command and FFmpeg export
+
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 3276c9e..99b162d 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -3420,7 +3420,7 @@ msgstr "Misslyckades med att söka position %lld i %s"
+ #: modules/import-export/mod-aup/ImportAUP.cpp
+ #, c-format
+ msgid "Unable to read %lld samples from %s"
+-msgstr "Kan inte läsa f%lld samples från %s"
++msgstr "Kunde inte läsa %lld samplingar från %s"
+ 
+ #: modules/import-export/mod-cl/ExportCL.cpp src/commands/HelpCommand.cpp
+ msgid "Command:"
+@@ -3447,7 +3447,7 @@ msgstr "Visa utmatning"
+ #: modules/import-export/mod-cl/ExportCL.cpp
+ #, c-format
+ msgid "Data will be piped to standard in. \"%f\" uses the file name in the export window."
+-msgstr "Data kommer att matas på för att passa in. \"%f\" använder filnamnet i exportfönstret."
++msgstr "Data skickas via standardindata. \"%f\" använder filnamnet i exportfönstret."
+ 
+ #: modules/import-export/mod-cl/ExportCL.cpp
+ msgid "Program name appears to be missing."
+@@ -3484,11 +3484,11 @@ msgstr "Kan inte exportera ljud till %s"
+ 
+ #: modules/import-export/mod-cl/ExportCL.cpp
+ msgid "Exporting the selected audio using command-line encoder"
+-msgstr "Exporterar det valda ljudet med hjälp av command-line encoder"
++msgstr "Exporterar det valda ljudet med kommandoradskodaren"
+ 
+ #: modules/import-export/mod-cl/ExportCL.cpp
+ msgid "Exporting the audio using command-line encoder"
+-msgstr "Exporterar ljudet med hjälp av kommandoradsavkodare"
++msgstr "Exporterar ljudet med kommandoradskodaren"
+ 
+ #: modules/import-export/mod-cl/ExportCL.cpp
+ msgid "Command Output"
+@@ -3525,7 +3525,7 @@ msgstr "Bithastighet"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ msgid "Quality (kbps)"
+-msgstr "Kvalité (kbps)"
++msgstr "Kvalitet (kbps)"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ msgid "Compression"
+@@ -3539,7 +3539,7 @@ msgstr "Ramlängd"
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "2.5 ms"
+-msgstr "2.5 ms"
++msgstr "2,5 ms"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+@@ -3568,7 +3568,7 @@ msgstr "60 ms"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ msgid "Vbr Mode"
+-msgstr "Vbr läge"
++msgstr "VBR-läge"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+@@ -3598,12 +3598,12 @@ msgstr "VOIP"
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Low Delay"
+-msgstr "Låg delay"
++msgstr "Låg fördröjning"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Cutoff"
+-msgstr "Cutoff"
++msgstr "Brytfrekvens"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp src/AboutDialog.cpp
+ #: src/PluginDataViewCtrl.cpp src/PluginRegistrationDialog.cpp
+@@ -3614,31 +3614,31 @@ msgstr "Inaktiverad"
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Narrowband"
+-msgstr "Narrowband"
++msgstr "Smalband"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Mediumband"
+-msgstr "Mediumband"
++msgstr "Mellanband"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Wideband"
+-msgstr "Wideband"
++msgstr "Bredband"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Super Wideband"
+-msgstr "Super Wideband"
++msgstr "Superbredband"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Fullband"
+-msgstr "Fullband"
++msgstr "Helband"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ msgid "Open custom FFmpeg format options"
+-msgstr "Öppna anpassade FFmpeg-formatsalterantiv"
++msgstr "Öppna anpassade FFmpeg-formatalternativ"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ msgid "Current Format:"
+@@ -3655,7 +3655,7 @@ msgstr "FFmpeg : FEL - Kan inte bestämma formatbeskrivningen för filen \"%s\".
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ msgid "FFmpeg : ERROR - Can't allocate output format context."
+-msgstr "FFmpeg : FEL - Kan inte allokera utmaningsformatets sammanhang."
++msgstr "FFmpeg: FEL - kan inte tilldela kontext för utdataformatet."
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ #, c-format
+@@ -3670,7 +3670,7 @@ msgstr "FFmpeg : FEL - Kan inte öppna utmatningsfilen \"%s\" för att skriva ti
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ #, c-format
+ msgid "FFmpeg : ERROR - Can't write headers to output file \"%s\". Error code is %d."
+-msgstr "FFmpeg : FEL - Kan inte skriva sidhuvuden till utmatningsfilen \"%s\". Felkoden är %d."
++msgstr "FFmpeg: FEL - kan inte skriva filhuvuden till utdatafilen \"%s\". Felkoden är %d."
+ 
+ #. i18n-hint: "codec" is short for a "coder-decoder" algorithm
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+@@ -3698,7 +3698,7 @@ msgid ""
+ "\n"
+ "%s"
+ msgstr ""
+-"Kan inte ljudkodec \"%s\" (0x%x)\n"
++"Kan inte öppna ljudkodeken \"%s\" (0x%x)\n"
+ "\n"
+ "%s"
+ 
+@@ -3708,7 +3708,7 @@ msgstr "FFmpeg : FEL - Kan inte allokera buffert att läsa till från ljud-FIFO.
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ msgid "FFmpeg : ERROR - Couldn't write audio frame to output file."
+-msgstr "FFmpeg : FEL - Kunde inte skriva sista ljudramen till output-fil."
++msgstr "FFmpeg: FEL - kunde inte skriva ljudramen till utdatafilen."
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ msgid "FFmpeg : ERROR - Could not get sample buffer size"
+@@ -3720,11 +3720,11 @@ msgstr "FFmpeg : FEL - Kunde inte allokera byte för samplingsbuffert"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ msgid "FFmpeg : ERROR - Could not setup audio frame"
+-msgstr "FFmpeg : FEL - Kunde inte ställa in ljudbildruta"
++msgstr "FFmpeg: FEL - kunde inte konfigurera ljudramen"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ msgid "FFmpeg : ERROR - encoding frame failed"
+-msgstr "FFmpeg : FEL - avkodning av bildruta misslyckades"
++msgstr "FFmpeg: FEL - kodning av ljudramen misslyckades"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ msgid "FFmpeg : ERROR - Too much remaining data."
+@@ -3739,13 +3739,13 @@ msgid ""
+ "Properly configured FFmpeg is required to proceed.\n"
+ "You can configure it at Preferences > Libraries."
+ msgstr ""
+-"Rätt konfigurerad FFmpeg är nödvändig för att fortsätta.\n"
+-"Du kan konfigurera det i Inställningar> Bibliotek."
++"En korrekt konfigurerad FFmpeg krävs för att fortsätta.\n"
++"Du kan konfigurera den under Inställningar > Bibliotek."
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ #, c-format
+ msgid "Attempted to export %d channels, but maximum number of channels for selected output format is %d"
+-msgstr "Försökte att exportera %d kanaler, men max antal kanaler för valt output-format är %d"
++msgstr "Försökte exportera %d kanaler, men det valda utdataformatet har högst %d kanaler"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ #, c-format
