@@ -134,3 +134,4 @@ Se `TERMINOLOGY.md` för projektets svenska termer och `Weblate/2026-11-13/dev-u
 | 2026-11-13 | `1-4-x/inkscape`, unika poster 0601-0700 | 5 språk- och korrekturfel | Arkiverat och inskickat via Weblate API; 5 accepterade, 0 hoppades över och 0 saknade. Gemensamma poster återgranskas inte |
 | 2026-11-13 | `1-4-x/inkscape`, unika poster 0701-0800 | 14 språk- och korrekturfel | Arkiverat och inskickat via Weblate API; 14 accepterade, 0 hoppades över och 0 saknade. Gemensamma poster återgranskas inte |
 | 2026-11-13 | `1-4-x/inkscape`, unika poster 0801-0900 | 6 språk- och korrekturfel | Arkiverat och inskickat via Weblate API; 6 accepterade, 0 hoppades över och 0 saknade. Gemensamma poster återgranskas inte |
+| 2026-11-13 | `1-4-x/inkscape`, unika poster 0901-1000 | 11 språk- och korrekturfel | Arkiverat och inskickat via Weblate API; 11 accepterade, 0 hoppades över och 0 saknade. Gemensamma poster återgranskas inte |
