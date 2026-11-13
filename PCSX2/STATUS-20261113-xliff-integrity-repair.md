@@ -19,6 +19,9 @@ mellanslag före sekundenheten. `l10n-lint` godkänner deltafilen utan fynd.
 `xmllint --noout`, diffkontroll och Gitleaks passerar. Hunspell-sv och
 svlang är körda på den svenska löptexten utan fynd.
 
-Filen är arkiverad lokalt. Den är ännu inte importerad till Crowdin i denna
-statuspost; importresultat och eventuell upstreamgranskning ska verifieras
-separat.
+Filen är arkiverad lokalt och pushad till vårt arkiv. Ett försök att öppna
+PCSX2:s Crowdin-projekt i den inloggade webbsessionen stoppade vid "Project
+Not Found"; den tidigare projektsluggen går alltså inte att använda för en
+säker import. Deltafilen är därför inte importerad. Importresultat och
+eventuell upstreamgranskning ska verifieras separat när den aktuella
+projektadressen eller API-kopplingen är identifierad.
