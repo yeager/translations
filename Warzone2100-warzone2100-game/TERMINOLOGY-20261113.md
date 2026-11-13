@@ -313,3 +313,11 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | ready | klar | Kort status i väntrummet före matchstart. |
 | host | värd | Spelaren som är värd för matchen. |
 | lobby | lobby | Etablerat synligt UI-namn i flerspelarläget. |
+
+## Snabbchatt: taktik
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| group up / split up | samlas / dela upp er | Korta taktiska uppmaningar. |
+| rush oils | rusa mot oljekällorna | Taktik för tidig kontroll av oljeresurser. |
+| transfer request | överföringsbegäran | Begäran om enheter eller konstruktionsfordon. |
