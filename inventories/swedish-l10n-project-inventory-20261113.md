@@ -2,7 +2,7 @@
 
 Kontrollerad 13 november 2026. Listan omfattar 250 aktiva öppenkällkodsprojekt med verifierad GitHub-utgåva från de senaste 24 månaderna. GIMP, GNOME, KDE, Inkscape och projekt med tydlig tidigare arkivering har filtrerats bort. Dokumentationsprojekt ligger längst ned.
 
-Statusen ”ingen svensk resurs i Git” är inte ett påstående om att svenska saknas upstream. Externa plattformar som Crowdin, Weblate och Transifex måste kontrolleras separat innan översättningsarbete startar. ”Senaste bidrag” är den senast offentligt synliga committen för den första relevanta svenska resursen och kan vara en robot.
+Statusen ”ingen svensk resurs i Git” är inte ett påstående om att svenska saknas upstream. Externa plattformar som Crowdin, Weblate och Transifex måste kontrolleras separat innan översättningsarbete startar. Sökningen omfattar språkvarianterna `sv`, `sv_SE`, `sv-SE` och `svSE`. ”Senaste bidrag” är den senast offentligt synliga committen för den första relevanta svenska resursen och kan vara en robot.
 
 Prioritet 1 betyder bred slutanvändarnytta, 2 produktivitets- och samarbetsprogram, 3 drift och utveckling samt 4 spel eller specialiserade verktyg. Inom varje prioritet är projekten sorterade alfabetiskt.
 
