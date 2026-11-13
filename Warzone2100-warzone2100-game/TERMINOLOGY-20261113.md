@@ -22,3 +22,9 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | convoy | konvoj | Fientlig eller egen transportstyrka i uppdragsmål. |
 | containment camp | interneringsläger | Plats där civila hålls fångna i kampanj 2. |
 | bring online | driftsätta | Ta reaktorn i aktiv drift. |
+| satellite uplink site | satellitlänksplats | Anläggning för kommunikation med satelliter. |
+| SAM site | SAM-ställning | Luftvärnsrobotställning; förkortningen bevaras i uppdragstiteln. |
+| safe haven | säker zon | Evakueringsplats som spelaren ska upprätta. |
+| missile silo | robotsilo | Byggnad som rymmer och avfyrar robotar. |
+| warhead | stridsspets | Kärnvapenrobotens explosiva del. |
+| high orbit | hög omloppsbana | Rymdteknisk kontext i satellituppdraget. |
