@@ -48,7 +48,7 @@ Prioritet 1 betyder bred slutanvändarnytta, 2 produktivitets- och samarbetsprog
 | 1 | [OpenTTD/OpenTTD](https://github.com/OpenTTD/OpenTTD) | 2026-04-04 | Svenska förvaltas i officiella WebTranslator: 4 792 aktuella, 9 inaktuella och 6 saknade; lokal 15-posters delta klar | Senaste svenska översättare är inte offentligt angiven; skrivrätt för yeager nekades 2026-11-13 |
 | 1 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 2026-11-11 | Resursträff kräver UI-kontroll | 2026-11-11, yanatalia |
 | 1 | [PintaProject/Pinta](https://github.com/PintaProject/Pinta) | 2026-04-02 | Svensk resurs: `po/sv.po` | 2026-10-18, Åke Engelbrektson |
-| 1 | [PrismLauncher/PrismLauncher](https://github.com/PrismLauncher/PrismLauncher) | 2026-09-28 | Ingen svensk resurs i Git, extern kanal ej verifierad | Ej offentligt fastställt |
+| 1 | [PrismLauncher/PrismLauncher](https://github.com/PrismLauncher/PrismLauncher) | 2026-09-28 | Svenska finns i officiella `PrismLauncher/Translations`; 3 lokalt färdiggranskade poster väntar på Weblate-inskick | Senaste källsynkning: PrismAutomata 2026-11-12 |
 | 1 | [prusa3d/PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) | 2026-11-02 | Svensk resurs: `resources/localization/wx_locale/sv.po` | 2021-12-21, YuSanka |
 | 1 | [Ranchero-Software/NetNewsWire](https://github.com/Ranchero-Software/NetNewsWire) | 2026-10-20 | Ingen svensk resurs i Git, extern kanal ej verifierad | Ej offentligt fastställt |
 | 1 | [session-foundation/session-desktop](https://github.com/session-foundation/session-desktop) | 2026-11-13 | Ingen svensk resurs i Git, extern kanal ej verifierad | Ej offentligt fastställt |
