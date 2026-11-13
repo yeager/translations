@@ -16,6 +16,7 @@ ska prövas mot varje strängs funktion; den är inte en mekanisk ersättningsli
 | reference | hänvisning till | Gäller redigerarens snabbinfogningsmeny, följt av objektets typ. |
 | request access | begär åtkomst | Gäller begäran till en sidägare, inte en administrativ behörighetsdialog. |
 | workspace plan | arbetsytans abonnemang | Gäller gränsen för antal medlemmar i åtkomstflödet. |
+| invitation | inbjudan | Gäller medlemskap i en arbetsyta och dess kontoåtgärder. |
 | upload | läsa in | Gäller lokal import i uppladdarens instruktioner; behåll format- och API-namn. |
 | log file | loggfil | Gäller filer som delas vid felsökning. |
 | unread | oläst | Används i filter och status för aviseringar. |

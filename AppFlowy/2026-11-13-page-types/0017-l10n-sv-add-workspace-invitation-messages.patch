@@ -1,0 +1,44 @@
+From 91763ee5f6cbd61e44d18414d8240d28812ac7ed Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 13:47:07 +0100
+Subject: [PATCH] l10n(sv): add workspace invitation messages
+
+---
+ frontend/resources/translations/sv-SE.json | 24 ++++++++++++++++++++++
+ 1 file changed, 24 insertions(+)
+
+diff --git a/frontend/resources/translations/sv-SE.json b/frontend/resources/translations/sv-SE.json
+index 9bd38de..f0c9d94 100644
+--- a/frontend/resources/translations/sv-SE.json
++++ b/frontend/resources/translations/sv-SE.json
+@@ -197,6 +197,30 @@
+     "requestToJoin": "vill gå med",
+     "asMember": "som medlem"
+   },
++  "invitation": {
++    "join": "Gå med",
++    "on": "på",
++    "invitedBy": "Inbjuden av",
++    "membersCount": {
++      "zero": "{count} medlemmar",
++      "one": "{count} medlem",
++      "many": "{count} medlemmar",
++      "other": "{count} medlemmar"
++    },
++    "tip": "Du har bjudits in att gå med i den här arbetsytan med kontaktuppgifterna nedan. Om något inte stämmer kan du kontakta administratören och be om en ny inbjudan.",
++    "joinWorkspace": "Gå med i arbetsytan",
++    "success": "Du har gått med i arbetsytan",
++    "successMessage": "Du har nu åtkomst till alla sidor och arbetsytor som ingår i den.",
++    "openWorkspace": "Öppna AppFlowy",
++    "alreadyAccepted": "Du har redan accepterat inbjudan",
++    "errorModal": {
++      "title": "Något gick fel",
++      "description": "Ditt nuvarande konto {email} kanske inte har åtkomst till den här arbetsytan. Logga in med rätt konto eller kontakta arbetsytans ägare om du behöver hjälp.",
++      "contactOwner": "Kontakta ägaren",
++      "close": "Tillbaka till startsidan",
++      "changeAccount": "Byt konto"
++    }
++  },
+   "titleBar": {
+     "pageIcon": "Sidans ikon",
+     "language": "Språk",
