@@ -24,8 +24,8 @@ Inga QA-poster har avfärdats eller massgodkänts. Formateringskontroller ska j�
 
 ## Första radgranskade rättningen
 
-Post `3113` är informationstexten i `AboutDialog` och innehöll den faktiska språkbristen "PCSX2 är an gratis emulator". Källans HTML-struktur och platshållarliknande entiteter kontrollerades mot måltexten. En ny, ogranskad Crowdin-kandidat med översättnings-id `449927` skickades via API den 13 november 2026. Den återlästes direkt efteråt och har samma HTML-struktur som källan.
+Post `8827` är den parallella informationstexten i FullscreenUI. Den exporterade måltexten hade bland annat engelsk apostrof i `PS2&amp;apos;s`, oböjd term `Recompilers` och en oidiomatisk ordföljd. En ny, ogranskad Crowdin-kandidat med översättnings-id `449931` skickades via API den 13 november 2026 och återlästes direkt efteråt.
 
-Den tidigare felaktiga kandidaten `449925`, som saknade HTML-strukturen, raderades omedelbart innan den hann lämnas över för granskning. Ingen befintlig översättning eller godkännandestatus ändrades. Kandidaten `449927` är inskickad men ännu inte upstreamgranskad eller vald som aktiv översättning.
+Under kontrollen upptäcktes att post `3113` i AboutDialog redan hade en bättre exporterad måltext än den nyss skapade kandidaten. Kandidaten `449927` drogs därför tillbaka och dess frånvaro bekräftades med API-svaret 404. En ännu tidigare kandidat, `449925`, som saknade HTML-strukturen, hade redan raderats. Ingen befintlig översättning eller godkännandestatus ändrades. Kandidaten `449931` är inskickad men ännu inte upstreamgranskad eller vald som aktiv översättning.
 
 Post `10498` i FullscreenUI använder den källspecifika förklaringen "auto fire". Den tidigare svenska kandidaten behöll det engelska uttrycket. Efter kontroll mot källans inställningskontext skickades därför kandidat `449929` med *automateld*. Den återlästes direkt; Hunspell-sv hade inga träffar och svlang bedömde formuleringen som naturlig svenska. Även denna kandidat är ogranskad och inte vald som aktiv översättning.
