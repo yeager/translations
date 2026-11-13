@@ -1,0 +1,68 @@
+From 94490eeab51c35e45458db3fd89834c1922994f2 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 15:35:51 +0100
+Subject: [PATCH] l10n(sv): preserve project dialog formatting
+
+---
+ au3/locale/sv.po | 16 ++++++++--------
+ 1 file changed, 8 insertions(+), 8 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 39a8d75..e9f4e14 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -1238,7 +1238,8 @@ msgid ""
+ "It will not be loaded."
+ msgstr ""
+ "Modulen \"%s\" har ingen versionsinformation.\n"
+-"Den kommer inte att läsas in."
++"\n"
++"Den läses inte in."
+ 
+ #: libraries/lib-module-manager/ModuleManager.cpp
+ #, c-format
+@@ -1247,9 +1248,9 @@ msgid ""
+ "\n"
+ "It will not be loaded."
+ msgstr ""
+-"Modulen \"%s\" matchar Audacity-version \"%s\".\n"
++"Modulen \"%s\" är avsedd för Audacity-version \"%s\".\n"
+ "\n"
+-"Den kommer inte att läsas in."
++"Den läses inte in."
+ 
+ #: libraries/lib-module-manager/ModuleManager.cpp
+ #, c-format
+@@ -1260,7 +1261,7 @@ msgid ""
+ msgstr ""
+ "Modulen \"%s\" kunde inte initieras.\n"
+ "\n"
+-"Den kommer inte att läsas in."
++"Den läses inte in."
+ 
+ #: libraries/lib-module-manager/ModuleManager.cpp
+ #, c-format
+@@ -1920,7 +1921,8 @@ msgid ""
+ "Directories Preferences."
+ msgstr ""
+ "Det är väldigt lite utrymme som är ledigt på %s\n"
+-"Vänligen välj plats för en större temporär katalog under Kataloger i Inställningar."
++"Välj en plats för en större tillfällig katalog i\n"
++"Inställningar > Kataloger."
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "Failed to open the project's database"
+@@ -2159,9 +2161,7 @@ msgid ""
+ "This file was saved using Audacity %s.\n"
+ "You are using Audacity %s. You may need to upgrade to a newer version to open this file."
+ msgstr ""
+-"Denna fil är sparad i Audacity %s.\n"
+-"Du använder Audacity %s. Du behöver kanske uppgradera till\n"
+-"en nyare version för att kunna öppna denna fil."
++"Filen sparades med Audacity %s. Du använder Audacity %s. Du kan behöva uppgradera till en nyare version för att öppna filen."
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "Can't open project file"
+-- 
+2.54.0 (Apple Git-157)
+
