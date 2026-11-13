@@ -1,0 +1,293 @@
+From 4596ccfd256dbd87fe6a0537e66c046b5a8f6c8f Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:27:08 +0100
+Subject: [PATCH] l10n(sv): review MP3 Ogg and Opus export
+
+---
+ au3/locale/sv.po | 82 ++++++++++++++++++++++++------------------------
+ 1 file changed, 41 insertions(+), 41 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index ed9a060..6afe14a 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -4591,7 +4591,7 @@ msgstr "Exporterar ljudet vid %ld kbps"
+ 
+ #: modules/import-export/mod-mp3/ExportMP3.cpp
+ msgid "220-260 kbps (Best Quality)"
+-msgstr "220-260 kbps (Bäst kvalité)"
++msgstr "220-260 kbps (Bästa kvalitet)"
+ 
+ #: modules/import-export/mod-mp3/ExportMP3.cpp
+ msgid "200-250 kbps"
+@@ -4662,11 +4662,11 @@ msgstr "Standard"
+ 
+ #: modules/import-export/mod-mp3/ExportMP3.cpp
+ msgid "Medium"
+-msgstr "Mellanstor"
++msgstr "Medel"
+ 
+ #: modules/import-export/mod-mp3/ExportMP3.cpp
+ msgid "Bit Rate Mode"
+-msgstr "Bit rate läge"
++msgstr "Bithastighetsläge"
+ 
+ #: modules/import-export/mod-mp3/ExportMP3.cpp
+ msgid "Preset"
+@@ -4697,7 +4697,7 @@ msgstr "Kvalitet"
+ #. i18n-hint: LAME is the name of an MP3 converter and should not be translated
+ #: modules/import-export/mod-mp3/ExportMP3.cpp
+ msgid "Locate LAME"
+-msgstr "Hitta Lame"
++msgstr "Hitta LAME"
+ 
+ #: modules/import-export/mod-mp3/ExportMP3.cpp
+ #, c-format
+@@ -4735,7 +4735,7 @@ msgid ""
+ "Please download the latest version of 'LAME for Audacity'."
+ msgstr ""
+ "Du länkar till lame_enc.dll v%d.%d. Denna version är inte kompatibel med Audacity %d.%d.%d.\n"
+-"Var vänlig och ladda ned den senaste versionen av 'LAME for Audacity'."
++"Hämta den senaste versionen av 'LAME for Audacity'."
+ 
+ #: modules/import-export/mod-mp3/ExportMP3.cpp
+ msgid "Only lame_enc.dll"
+@@ -4771,15 +4771,15 @@ msgstr "MP3-filer"
+ 
+ #: modules/import-export/mod-mp3/ExportMP3.cpp
+ msgid "Could not open MP3 encoding library!"
+-msgstr "Kunde inte öppna biblioteket för avkodning av MP3!"
++msgstr "Kunde inte öppna MP3-kodningsbiblioteket!"
+ 
+ #: modules/import-export/mod-mp3/ExportMP3.cpp
+ msgid "Could not initialize MP3 encoding library!"
+-msgstr "Kunde inte öppna biblioteket för avkodning av MP3!"
++msgstr "Kunde inte initiera MP3-kodningsbiblioteket!"
+ 
+ #: modules/import-export/mod-mp3/ExportMP3.cpp
+ msgid "Not a valid or supported MP3 encoding library!"
+-msgstr "Inte ett giltigt eller stödjande avkodningsbibliotek för MP3!"
++msgstr "Inte ett giltigt MP3-kodningsbibliotek med stöd!"
+ 
+ #: modules/import-export/mod-mp3/ExportMP3.cpp
+ msgid "Unable to initialize MP3 stream"
+@@ -4818,7 +4818,7 @@ msgstr "Exporterar ljudet vid %d kbps"
+ #: modules/import-export/mod-mp3/ExportMP3.cpp
+ #, c-format
+ msgid "Error %ld returned from MP3 encoder"
+-msgstr "Fel %ld returnerades från MP3-avkodaren"
++msgstr "MP3-kodaren returnerade fel %ld"
+ 
+ #: modules/import-export/mod-mp3/ExportMP3.cpp
+ #, c-format
+@@ -4848,7 +4848,7 @@ msgstr "(Inbyggd)"
+ 
+ #: modules/import-export/mod-mp3/MP3Prefs.cpp
+ msgid "LAME MP3 Export Library"
+-msgstr "Exporteringsbibliotek för LAME MP3"
++msgstr "LAME MP3-exportbibliotek"
+ 
+ #: modules/import-export/mod-mp3/MP3Prefs.cpp
+ msgid "MP3 Library Version:"
+@@ -4864,15 +4864,15 @@ msgstr "Ogg Vorbis-filer"
+ 
+ #: modules/import-export/mod-ogg/ExportOGG.cpp
+ msgid "Unable to export - rate or quality problem"
+-msgstr "Kan inte exportera - värdefel eller fel kvalité"
++msgstr "Kan inte exportera - problem med samplingsfrekvens eller kvalitet"
+ 
+ #: modules/import-export/mod-ogg/ExportOGG.cpp
+ msgid "Unable to export - problem initialising"
+-msgstr "Kan inte exportera - problem med igångstart"
++msgstr "Kan inte exportera - problem vid initiering"
+ 
+ #: modules/import-export/mod-ogg/ExportOGG.cpp
+ msgid "Unable to export - problem creating stream"
+-msgstr "Kan inte exportera - problem med att skapa strömmande"
++msgstr "Kan inte exportera - problem när strömmen skapades"
+ 
+ #: modules/import-export/mod-ogg/ExportOGG.cpp
+ msgid "Unable to export - problem with packets"
+@@ -4897,7 +4897,7 @@ msgstr "Ogg Vorbis-filer"
+ #: modules/import-export/mod-ogg/ImportOGG.cpp
+ #, c-format
+ msgid "Index[%02x] Version[%d], Channels[%d], Rate[%ld]"
+-msgstr "Index[%02x] Version[%d], Kanaler[%d], Rate[%ld]"
++msgstr "Index[%02x] Version[%d], Kanaler[%d], Samplingsfrekvens[%ld]"
+ 
+ #: modules/import-export/mod-ogg/ImportOGG.cpp
+ msgid "Media read error"
+@@ -4909,7 +4909,7 @@ msgstr "Inte en Ogg Vorbis-fil"
+ 
+ #: modules/import-export/mod-ogg/ImportOGG.cpp
+ msgid "Vorbis version mismatch"
+-msgstr "Vorbis-version överensstämmer inte"
++msgstr "Vorbis-versionerna stämmer inte överens"
+ 
+ #: modules/import-export/mod-ogg/ImportOGG.cpp
+ msgid "Invalid Vorbis bitstream header"
+@@ -4921,7 +4921,7 @@ msgstr "Internt logiskt fel"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "no error"
+-msgstr "inga fel"
++msgstr "inget fel"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ #: modules/import-export/mod-opus/ImportOpus.cpp
+@@ -4930,7 +4930,7 @@ msgstr "ogiltigt argument"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "buffer too small"
+-msgstr "buffer för liten"
++msgstr "bufferten är för liten"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ #: modules/import-export/mod-opus/ImportOpus.cpp
+@@ -4945,7 +4945,7 @@ msgstr "ogiltigt paket"
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ #: modules/import-export/mod-opus/ImportOpus.cpp
+ msgid "not implemented"
+-msgstr "ej implementerat"
++msgstr "inte implementerat"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "invalid state"
+@@ -4953,23 +4953,23 @@ msgstr "ogiltigt tillstånd"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "memory allocation has failed"
+-msgstr "minnesallokering misslyckades"
++msgstr "Minnestilldelningen misslyckades"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Auto"
+-msgstr "Auto"
++msgstr "Automatiskt"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Maximum"
+-msgstr "Maximum"
++msgstr "Maximalt"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "VBR Mode"
+-msgstr "VBR Läge"
++msgstr "VBR-läge"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Optimize for"
+-msgstr "Optimerat för"
++msgstr "Optimera för"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Speech"
+@@ -4977,23 +4977,23 @@ msgstr "Tal"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Buffer overflow in OGG packet"
+-msgstr "Buffertspill i OGG-paket"
++msgstr "Buffertöverskridning i OGG-paketet"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Unable to write OGG page header"
+-msgstr "Kunde inte skriva till OGG page header"
++msgstr "Kunde inte skriva OGG-sidhuvudet"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Unable to write OGG page"
+-msgstr "Kan inte skriva till OGG page"
++msgstr "Kunde inte skriva OGG-sidan"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Opus Files"
+-msgstr "Opus filer"
++msgstr "Opus-filer"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Unsupported sample rate"
+-msgstr "Samplingsfrekvens stöds inte"
++msgstr "Samplingsfrekvensen stöds inte"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Exporting selected audio as Opus"
+@@ -5005,43 +5005,43 @@ msgstr "Exporterar ljudet som Opus"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Unable to create Opus encoder"
+-msgstr "Det gick inte att skapa Opus encoder"
++msgstr "Kunde inte skapa Opus-kodaren"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Unable to set bitrate"
+-msgstr "Kan inte ställa bitrate"
++msgstr "Kunde inte ange bithastigheten"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Unable to set complexity"
+-msgstr "Det går inte att ställa in komplexitet"
++msgstr "Kunde inte ange komplexiteten"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Unable to set bandwidth"
+-msgstr "Det går inte att ställa bandbredd"
++msgstr "Kunde inte ange bandbredden"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Unable to set VBR mode"
+-msgstr "Det går inte att ställa in CVBR läge"
++msgstr "Kunde inte ange VBR-läget"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Unable to set CVBR mode"
+-msgstr "Det går inte att ställa in CVBR läge"
++msgstr "Kunde inte ange CVBR-läget"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Unable to get lookahead"
+-msgstr "Unable to get lookahead"
++msgstr "Kunde inte hämta fördröjningsvärdet"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Failed to calculate correct preskip"
+-msgstr "Det gick inte att beräkna korrekt förhopp"
++msgstr "Kunde inte beräkna rätt fördröjning före uppspelning"
+ 
+ #: modules/import-export/mod-opus/ExportOpus.cpp
+ msgid "Failed to encode input buffer"
+-msgstr "Det gick inte att koda indatabuffert"
++msgstr "Kunde inte koda indatabufferten"
+ 
+ #: modules/import-export/mod-opus/ImportOpus.cpp
+ msgid "Opus files"
+-msgstr "Opus filer"
++msgstr "Opus-filer"
+ 
+ #: modules/import-export/mod-opus/ImportOpus.cpp
+ msgid "File has changed the number of channels in the middle."
+@@ -5053,11 +5053,11 @@ msgstr "IO-fel vid läsning från fil"
+ 
+ #: modules/import-export/mod-opus/ImportOpus.cpp
+ msgid "not an Opus file"
+-msgstr "är inte en Opus fil"
++msgstr "inte en Opus-fil"
+ 
+ #: modules/import-export/mod-opus/ImportOpus.cpp
+ msgid "invalid header"
+-msgstr "ogiltig rubrik"
++msgstr "ogiltigt sidhuvud"
+ 
+ #: modules/import-export/mod-opus/ImportOpus.cpp
+ msgid "unsupported version"
+@@ -5065,7 +5065,7 @@ msgstr "versionen stöds inte"
+ 
+ #: modules/import-export/mod-opus/ImportOpus.cpp
+ msgid "invalid stream structure"
+-msgstr "ogiltig strömmande struktur"
++msgstr "ogiltig strömstruktur"
+ 
+ #: modules/import-export/mod-opus/ImportOpus.cpp
+ msgid "stream is not seekable"
+-- 
+2.54.0 (Apple Git-157)
+
