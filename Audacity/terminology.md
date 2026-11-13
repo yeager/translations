@@ -40,3 +40,7 @@
 | Zero padding | nollutfyllnad | Utfyllnad med nollor före FFT-analys. |
 | Frequency gain | frekvensförstärkning | Förstärkning per frekvensområde i spektrogrammet. |
 | Playhead | uppspelningshuvud | Markör som visar aktuell uppspelnings- eller inspelningsposition. |
+| Time signature | taktart | Musikaliskt mått med täljare och nämnare. |
+| Snap | fästning | Fäster markör eller markering till närliggande tids- eller ljudpunkt. |
+| Clip pitch | klipptonhöjd | Tonhöjd som gäller för ett enskilt klipp. |
+| Clip speed | klipphastighet | Uppspelningshastighet som gäller för ett enskilt klipp. |
