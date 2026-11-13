@@ -32,3 +32,10 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | task force | insatsstyrka | Organiserad fientlig styrka i ett uppdragsmål. |
 | ambush | lägga ett bakhåll | Aktivt uppdragsmål mot NEXUS-styrkor. |
 | site of operations | operationsbas | Bas som erbjuds för fortsatta operationer. |
+
+## Kampanj 3 – slutbas
+
+| Källa | Svensk term | Beslut |
+| --- | --- | --- |
+| core systems | kärnsystem | NEXUS system som måste förstöras i slutbriefingen. |
+| final base | sista bas | NEXUS sista bas i kampanj 3. |
