@@ -15,6 +15,8 @@ Crowdins API för projekt `PCSX2 Emulator` (`561203`), svenska och den aktiva fi
 
 De första posterna visar att stavningskontrollerna bland annat träffar `PCSX2`, `RetroAchievements`, `PlayStation`, `GitHub-förråd`, `MIPS-processortolkar` och `omkompilatorer`. Dessa är produktnamn, tekniska termer eller svenska sammansättningar och inte bevis på felaktig måltext.
 
+En frekvensinventering av stavningskön bekräftar samma mönster: de vanligaste träffarna är bland annat `PCSX2`, `D-Pad`, `RetroAchievements`, `TV-shader`, `Bilinjär`, `Trilinjär`, `Bildrutehastighet` och `Förinläsning`. Hunspell-sv saknar flera av de projektbundna formerna, bland annat `PCSX2`, `TV-shader`, `Bildrutehastighet`, `Discord-närvaro` och den böjda formen `hårdvarurenderaren`; det är ordlisteluckor och inte automatiska språkfel. Svlang markerar på motsvarande sätt tekniska termer som sällsynta. Terminologilistan har uppdaterats för att styra fortsatt manuell granskning.
+
 ## Radgranskning: skiljetecken
 
 Alla 58 rader i kategorin `punctuation` har lästs mot den aktuella XLIFF-exporten den 13 november. De fyra rader som använder den direkta kontrollen `punctuation_check` är `13366`, `15698`, `16059` och `16165`; samtliga är falska positiva. Svenska helmeningar har korrekt avslutande punkt även när källtexten saknar den, och citattecknen runt platshållaren `%1` i `13366` är korrekta.
