@@ -1,0 +1,84 @@
+From 7361d33b6351c82861b53ff270dbbf7314c95eb1 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 16:19:50 +0100
+Subject: [PATCH] l10n(sv): refine codec import and Nyquist labels
+
+---
+ au3/locale/sv.po | 16 ++++++++--------
+ 1 file changed, 8 insertions(+), 8 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index b37623d..1765f92 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -5050,7 +5050,7 @@ msgstr "Filen har ändrat antalet kanaler i mitten."
+ 
+ #: modules/import-export/mod-opus/ImportOpus.cpp
+ msgid "IO error reading from file"
+-msgstr "IO-fel vid läsning från fil"
++msgstr "I/O-fel vid läsning från fil"
+ 
+ #: modules/import-export/mod-opus/ImportOpus.cpp
+ msgid "not an Opus file"
+@@ -5079,7 +5079,7 @@ msgstr "ogiltig tidsstämpel"
+ #: modules/import-export/mod-opus/ImportOpus.cpp
+ #, c-format
+ msgid "Failed to decode Opus file: %s"
+-msgstr "Det gick inte att avkoda Opus-fil: %s"
++msgstr "Kunde inte avkoda Opus-filen: %s"
+ 
+ #: modules/import-export/mod-pcm/ExportPCM.cpp
+ #: modules/import-export/mod-pcm/ImportPCM.cpp
+@@ -5097,7 +5097,7 @@ msgstr "Kodning"
+ 
+ #: modules/import-export/mod-pcm/ExportPCM.cpp
+ msgid "Header"
+-msgstr "Rubrik"
++msgstr "Filhuvud"
+ 
+ #: modules/import-export/mod-pcm/ExportPCM.cpp
+ msgid "Other uncompressed files"
+@@ -5113,7 +5113,7 @@ msgstr "Formaten WAVEX och GSM 6.10 är inte kompatibla"
+ 
+ #: modules/import-export/mod-pcm/ExportPCM.cpp
+ msgid "Cannot export audio in this format."
+-msgstr "Kan inte exportera ljud i detta format."
++msgstr "Kan inte exportera ljud i det här formatet."
+ 
+ #: modules/import-export/mod-pcm/ExportPCM.cpp
+ msgid ""
+@@ -5358,7 +5358,7 @@ msgstr "WavPack-filer"
+ 
+ #: modules/import-export/mod-wavpack/ExportWavPack.cpp
+ msgid "Unable to create target file for writing"
+-msgstr "Kunde inte skapa målfil att skriva till"
++msgstr "Kunde inte skapa målfilen för skrivning"
+ 
+ #: modules/import-export/mod-wavpack/ExportWavPack.cpp
+ msgid "Exporting selected audio as WavPack"
+@@ -5375,11 +5375,11 @@ msgstr "WavPack-filer"
+ #: modules/import-export/mod-wavpack/ImportWavPack.cpp
+ #, c-format
+ msgid "Encountered %d errors decoding WavPack file!"
+-msgstr "Påträffade %d fel vid avkodning av WavPack-fil!"
++msgstr "Det uppstod %d fel vid avkodning av WavPack-filen."
+ 
+ #: modules/nyquist/mod-nyq-bench/NyqBench.cpp
+ msgid "&Nyquist Workbench..."
+-msgstr "Instrumentpanel för &Nyquist..."
++msgstr "&Nyquist-arbetsbänk..."
+ 
+ #: modules/nyquist/mod-nyq-bench/NyqBench.cpp
+ msgid "&Undo\tCtrl+Z"
+@@ -5509,7 +5509,7 @@ msgstr "Spara Nyquist-skript"
+ 
+ #: modules/nyquist/mod-nyq-bench/NyqBench.cpp
+ msgid "Find dialog"
+-msgstr "Hitta-dialog"
++msgstr "Sökdialog"
+ 
+ #: modules/nyquist/mod-nyq-bench/NyqBench.cpp
+ msgid "Harvey Lubin (logo)"
+-- 
+2.54.0 (Apple Git-157)
+
