@@ -14,7 +14,7 @@ Prioritet 1 betyder bred slutanvändarnytta, 2 produktivitets- och samarbetsprog
 | 1 | [brave/brave-browser](https://github.com/brave/brave-browser) | 2026-11-12 | Transifex `brave_en`: svenska 99 %; ingen svensk resurs i Git | Senaste projektaktivitet: 2025-03-18 |
 | 1 | [BrowserWorks/waterfox](https://github.com/BrowserWorks/waterfox) | 2026-11-07 | Svensk resurs: `browser/extensions/newtab/webext-glue/locales/sv-SE` | 2026-06-14, Maxx Crawford |
 | 1 | [darktable-org/darktable](https://github.com/darktable-org/darktable) | 2026-10-04 | Svensk resurs: `po/sv.po`; verifierad komplett den 13 november: 6 732 översatta, 0 oöversatta och 0 luddiga | 2026-11-08, Philipp Lutz |
-| 1 | [element-hq/element-x-android](https://github.com/element-hq/element-x-android) | 2026-11-06 | Svensk resurs: `features/analytics/api/src/main/res/values-sv` | 2024-02-23, Benoit Marty |
+| 1 | [element-hq/element-x-android](https://github.com/element-hq/element-x-android) | 2026-11-06 | Ingen svensk resurs i aktuella `develop`; den tidigare sökvägsträffen kunde inte återskapas 2026-11-13 | Ej offentligt fastställt |
 | 1 | [element-hq/element-x-ios](https://github.com/element-hq/element-x-ios) | 2026-11-05 | Svensk resurs: `ElementX/Resources/Localizations/sv.lproj` | 2026-11-09, Element CI |
 | 1 | [elementary/os](https://github.com/elementary/os) | 2025-12-11 | elementary Weblate: 22 komponenter helt översatta; Settings har 1 svensk post som behöver redigeras (`accent color` → `Accentfärg`) | 2026-10-19, yeager |
 | 1 | [Floorp-Projects/Floorp](https://github.com/Floorp-Projects/Floorp) | 2026-11-13 | Svensk resurs: `browser-features/pages-aboutDialog/src/lib/i18n/locales/sv-SE.json`; Om-dialogen verifierad komplett: 30 av 30 nycklar | 2026-11-13, Ryosuke Asano |
