@@ -1,7 +1,7 @@
 # Obtainium – hämtnings-, import- och uppdateringstexter
 
-Datum: 2026-11-14  
-Komponent: `assets/translations/sv.json`  
+Datum: 2026-11-14
+Komponent: `assets/translations/sv.json`
 Källversion: `v1.7.4`, publicerad 2026-11-01
 
 ## Granskning
