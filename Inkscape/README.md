@@ -110,3 +110,4 @@ Se `TERMINOLOGY.md` för projektets svenska termer och `Weblate/2026-11-13/dev-u
 | 2026-11-13 | `master/inkscape`, poster 9701-9800 | 32 språk- och korrekturfel | Arkiverat och inskickat via Weblate API; 32 accepterade, 0 hoppades över och 0 saknade. Weblate-granskning är avstängd för komponenten |
 | 2026-11-13 | `master/inkscape`, poster 9801-9900 | 45 språk- och korrekturfel | Arkiverat och inskickat via Weblate API; 44 accepterade, 1 redan aktuell hoppades över och 0 saknade. Weblate-granskning är avstängd för komponenten |
 | 2026-11-13 | `master/inkscape`, poster 9901–10000 | 39 språk- och korrekturfel | Arkiverat och inskickat via Weblate API; 39 accepterade, 0 hoppades över och 0 saknade. Weblate-granskning är avstängd för komponenten |
+| 2026-11-13 | `master/inkscape`, poster 10001–10100 | 29 språk- och korrekturfel | Arkiverat och inskickat via Weblate API; 29 accepterade, 0 hoppades över och 0 saknade. Weblate-granskning är avstängd för komponenten |
