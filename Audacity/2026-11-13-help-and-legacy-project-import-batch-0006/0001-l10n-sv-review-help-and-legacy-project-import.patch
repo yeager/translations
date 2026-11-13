@@ -1,0 +1,143 @@
+From 4d23a4ddfd97d6fc01a532440c72ba8eb3e704f9 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:17:08 +0100
+Subject: [PATCH] l10n(sv): review help and legacy project import
+
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 33aab8d..3276c9e 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -3038,17 +3038,17 @@ msgstr "Spelar in ljud"
+ #. i18n-hint: Title for a topic.
+ #: libraries/lib-wx-init/HelpText.cpp
+ msgid "Recording - Choosing the Recording Device"
+-msgstr "Inspelning - Välj inspelningsenheten"
++msgstr "Inspelning: välja inspelningsenhet"
+ 
+ #. i18n-hint: Title for a topic.
+ #: libraries/lib-wx-init/HelpText.cpp
+ msgid "Recording - Choosing the Recording Source"
+-msgstr "Inspelning - Välj inspelningskällan"
++msgstr "Inspelning: välja inspelningskälla"
+ 
+ #. i18n-hint: Title for a topic.
+ #: libraries/lib-wx-init/HelpText.cpp
+ msgid "Recording - Setting the Recording Level"
+-msgstr "Inspelning - Ändrar inspelningsnivån"
++msgstr "Inspelning: ställa in inspelningsnivån"
+ 
+ #. i18n-hint: Title for a topic.
+ #: libraries/lib-wx-init/HelpText.cpp
+@@ -3058,12 +3058,12 @@ msgstr "Redigeringsrelaterade och inaktiverade menyer"
+ #. i18n-hint: Title for a topic.
+ #: libraries/lib-wx-init/HelpText.cpp
+ msgid "Exporting an Audio File"
+-msgstr "Exporterar en ljudfil"
++msgstr "Exportera en ljudfil"
+ 
+ #. i18n-hint: Title for a topic.
+ #: libraries/lib-wx-init/HelpText.cpp
+ msgid "Saving an Audacity Project"
+-msgstr "Spara ett Audacity projekt"
++msgstr "Spara ett Audacity-projekt"
+ 
+ #. i18n-hint: Title for a topic.
+ #: libraries/lib-wx-init/HelpText.cpp
+@@ -3081,15 +3081,15 @@ msgstr "Ingen lokal hjälp"
+ 
+ #: libraries/lib-wx-init/HelpText.cpp
+ msgid "Audacity can import unprotected files in many other formats (such as M4A and WMA, compressed WAV files from portable recorders and audio from video files) if you download and install the optional [[https://support.audacityteam.org/basics/installing-ffmpeg| FFmpeg library]] to your computer."
+-msgstr "Audacity kan importera oskyddade filer i många andra format (som M4A och WMA, komprimerade WAV-filer från bärbara inspelare och ljud från videofiler) om du laddar ner och installerar den valfria [[https://support.audacityteam.org/basics/installing -ffmpeg| FFmpeg library]] till din dator."
++msgstr "Audacity kan importera oskyddade filer i många andra format (som M4A och WMA, komprimerade WAV-filer från bärbara inspelare och ljud från videofiler) om du hämtar och installerar det valfria [[https://support.audacityteam.org/basics/installing-ffmpeg|FFmpeg-biblioteket]] på datorn."
+ 
+ #: libraries/lib-wx-init/HelpText.cpp
+ msgid "You can also read our help on importing [[https://manual.audacityteam.org/man/playing_and_recording.html#midi|MIDI files]] and tracks from [[https://manual.audacityteam.org/man/faq_opening_and_saving_files.html#fromcd| audio CDs]]."
+-msgstr "Du kan också läsa vår hjälp om hur man importerar [[http://manual.audacityteam.org/man/faq_opening_and_saving_files.html#midi|MIDI-filer]] och spår från [[http://manual.audacityteam.org/man/faq_opening_and_saving_files.html#fromcd|ljud-CD]]."
++msgstr "Du kan också läsa vår hjälp om hur du importerar [[https://manual.audacityteam.org/man/playing_and_recording.html#midi|MIDI-filer]] och spår från [[https://manual.audacityteam.org/man/faq_opening_and_saving_files.html#fromcd|ljud-CD:er]]."
+ 
+ #: libraries/lib-wx-init/HelpText.cpp
+ msgid "The Manual does not appear to be installed. Please [[*URL*|view the Manual online]] or [[https://manual.audacityteam.org/man/unzipping_the_manual.html| download the Manual]].<br><br>To always view the Manual online, change \"Location of Manual\" in Interface Preferences to \"From Internet\"."
+-msgstr "Manualen verkar inte vara installerad. Var god [[*URL*|se manualen på Internet]] eller [[http://manual.audacityteam.org/man/unzipping_the_manual.html| ladda ned manualen]].<br><br>För att alltid se manualen på Internet, ändra \"Manualens plats\" i gränssnittsinställningarna till \"Från Internet\"."
++msgstr "Manualen verkar inte vara installerad. [[*URL*|Visa manualen på nätet]] eller [[https://manual.audacityteam.org/man/unzipping_the_manual.html|hämta manualen]].<br><br>Om du alltid vill visa manualen på nätet ändrar du \"Manualens plats\" i gränssnittsinställningarna till \"Från Internet\"."
+ 
+ #: libraries/lib-wx-init/LogWindow.cpp
+ msgid "Audacity Log"
+@@ -3137,7 +3137,7 @@ msgstr "OK"
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ShareAudioDialog.cpp
+ #: src/PluginStartupRegistration.cpp
+ msgid "Elapsed Time:"
+-msgstr "Förbrukad tid:"
++msgstr "Förfluten tid:"
+ 
+ #: libraries/lib-wx-init/ProgressDialog.cpp
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ShareAudioDialog.cpp
+@@ -3181,11 +3181,11 @@ msgstr "Är du säker på att du vill stänga?"
+ 
+ #: libraries/lib-wx-init/ProgressDialog.cpp
+ msgid "Confirm Close"
+-msgstr "Bekräfta nedstängning"
++msgstr "Bekräfta stängning"
+ 
+ #: libraries/lib-wx-init/SelectFile.cpp
+ msgid "The specified filename could not be converted due to Unicode character use."
+-msgstr "Det specifika filnamnet kunde inte konverteras beroende på val av Unicode-bokstav."
++msgstr "Det angivna filnamnet kunde inte konverteras på grund av Unicode-tecken."
+ 
+ #: libraries/lib-wx-init/SelectFile.cpp
+ msgid "Specify New Filename:"
+@@ -3223,11 +3223,11 @@ msgstr "Dialog"
+ 
+ #: libraries/lib-wx-wrappers/wxPanelWrapper.h
+ msgid "Directory Dialog"
+-msgstr "Katalog dialog"
++msgstr "Katalogdialog"
+ 
+ #: libraries/lib-wx-wrappers/wxPanelWrapper.h
+ msgid "File Dialog"
+-msgstr "Fil dialog"
++msgstr "Fildialog"
+ 
+ #: libraries/lib-xml/XMLFileReader.cpp
+ #, c-format
+@@ -3249,11 +3249,11 @@ msgstr "1:a experimentella kommandot..."
+ 
+ #: modules/etc/mod-null/ModNullCallback.cpp
+ msgid "2nd Experimental Command"
+-msgstr "2:a experimentellla kommandot"
++msgstr "Andra experimentella kommandot"
+ 
+ #: modules/import-export/mod-aup/ImportAUP.cpp
+ msgid "AUP project files (*.aup)"
+-msgstr "AUP projektfiler (*.aup)"
++msgstr "AUP-projektfiler (*.aup)"
+ 
+ #: modules/import-export/mod-aup/ImportAUP.cpp
+ #, c-format
+@@ -3279,7 +3279,7 @@ msgid ""
+ "Please verify that everything works as intended before saving."
+ msgstr ""
+ "%s\n"
+-"Denna funktion stöds inte i Audacity-versioner tidigare 3.3.3.\n"
++"Den här funktionen stöds inte i Audacity-versioner efter 3.3.3.\n"
+ "Dessa stereospår har delats upp i monospår.\n"
+ "Kontrollera att allt fungerar som avsett innan du sparar."
+ 
+@@ -3291,7 +3291,7 @@ msgid ""
+ "Use a version of Audacity prior to v3.0.0 to upgrade the project and then\n"
+ "you may import it with this version of Audacity."
+ msgstr ""
+-"This project blev sparat av Audacity version 1.0 eller äldre. Formatet har\n"
++"Det här projektet sparades av Audacity version 1.0 eller tidigare. Formatet har\n"
+ "ändrats och denna version av Audacity kan inte importera projektet.\n"
+ "\n"
+ "Använd en version av Audacity före v3.0.0 för att uppgradera projektet och sedan\n"
+@@ -3299,7 +3299,7 @@ msgstr ""
+ 
+ #: modules/import-export/mod-aup/ImportAUP.cpp
+ msgid "Internal error in importer...tag not recognized"
+-msgstr "Internt fel vid import....taq kändes inte igen"
++msgstr "Internt fel i importverktyget ... taggen kändes inte igen"
+ 
+ #: modules/import-export/mod-aup/ImportAUP.cpp
+ msgid "Invalid project 'vpos' attribute."
