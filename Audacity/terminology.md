@@ -29,6 +29,7 @@
 | Spectral effect | spektral effekt | Effekt som tillämpas på ett valt frekvensintervall i spektrogramvyn. |
 | Sample | samplar | Digitala mätvärden i en ljudström; används i bland annat buffertbeskrivningar. |
 | Raw data | rådata | Obearbetade ljuddata vid import. |
+| Resample | sampla om | Ändrar samplingsfrekvensen för ljudet. |
 | Byte order | byteordning | Ordningen för byte i råa ljuddata. |
 | Render | återge | Sammanräkna ett eller flera ljudspår till ett nytt, spelbart ljudresultat. |
 | Realtime effect | realtidseffekt | Effekt som bearbetar ljud under uppspelning eller redigering. |
@@ -48,3 +49,4 @@
 | Snap | fästning | Fäster markör eller markering till närliggande tids- eller ljudpunkt. |
 | Clip pitch | klipptonhöjd | Tonhöjd som gäller för ett enskilt klipp. |
 | Clip speed | klipphastighet | Uppspelningshastighet som gäller för ett enskilt klipp. |
+| Wah Frequency Offset | wahwah-frekvensförskjutning | Frekvensförskjutning i wahwah-effekten. |

@@ -1,0 +1,507 @@
+From 230fab2524f454aca4ef68cb3fb2ec2a7c7b3db4 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 15:46:33 +0100
+Subject: [PATCH] l10n(sv): refine menu accelerators and effects
+
+---
+ au3/locale/sv.po | 118 +++++++++++++++++++++++------------------------
+ 1 file changed, 59 insertions(+), 59 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index d31a668..161c693 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -5423,7 +5423,7 @@ msgstr "Öv&ersta S-uttryck\tF9"
+ 
+ #: modules/nyquist/mod-nyq-bench/NyqBench.cpp
+ msgid "&Higher S-expr\tF10"
+-msgstr "H&ögre S-uttryck\tF10"
++msgstr "Högre S-&uttryck\tF10"
+ 
+ #: modules/nyquist/mod-nyq-bench/NyqBench.cpp
+ msgid "&Previous S-expr\tF11"
+@@ -6971,11 +6971,11 @@ msgstr "&Nytt"
+ #. i18n-hint: (verb)
+ #: src/AudacityApp.cpp src/menus/FileMenus.cpp
+ msgid "&Open..."
+-msgstr "&Öppna..."
++msgstr "Ö&ppna..."
+ 
+ #: src/AudacityApp.cpp
+ msgid "Open &Recent..."
+-msgstr "Öppna senaste..."
++msgstr "Öppna &senaste..."
+ 
+ #: src/AudacityApp.cpp
+ msgid "&About Audacity..."
+@@ -7304,7 +7304,7 @@ msgstr ""
+ 
+ #: src/AutoRecoveryDialog.cpp
+ msgid "Recoverable &projects"
+-msgstr "&Återställningsbara projekt"
++msgstr "Å&terställningsbara projekt"
+ 
+ #. i18n-hint: (verb).  It instruct the user to select items.
+ #: src/AutoRecoveryDialog.cpp src/commands/SelectCommand.cpp
+@@ -7323,7 +7323,7 @@ msgstr "&Radera markerade"
+ 
+ #: src/AutoRecoveryDialog.cpp
+ msgid "&Recover Selected"
+-msgstr "&Återskapa markerade"
++msgstr "Åter&skapa markerade"
+ 
+ #: src/AutoRecoveryDialog.cpp src/PluginStartupRegistration.cpp
+ msgid "&Skip"
+@@ -7353,7 +7353,7 @@ msgstr "&Kommando"
+ 
+ #: src/BatchCommandDialog.cpp
+ msgid "&Edit Parameters"
+-msgstr "&Ändra parametrar"
++msgstr "Än&dra parametrar"
+ 
+ #: src/BatchCommandDialog.cpp
+ msgid "&Use Preset"
+@@ -8259,7 +8259,7 @@ msgstr "&Totalt använt utrymme"
+ 
+ #: src/HistoryWindow.cpp
+ msgid "&Undo levels available"
+-msgstr "&Ångranivåer tillgängliga"
++msgstr "Å&ngranivåer tillgängliga"
+ 
+ #: src/HistoryWindow.cpp
+ msgid "&Levels to discard"
+@@ -8272,11 +8272,11 @@ msgstr "&Släng"
+ 
+ #: src/HistoryWindow.cpp
+ msgid "Clip&board space used"
+-msgstr "Anv&änt utrymme i urklipp"
++msgstr "Använt u&trymme i urklipp"
+ 
+ #: src/HistoryWindow.cpp
+ msgid "D&iscard"
+-msgstr "Sl&äng"
++msgstr "Slä&ng"
+ 
+ #: src/HistoryWindow.cpp
+ msgid "&Compact"
+@@ -8721,7 +8721,7 @@ msgstr "Insticksmodul"
+ 
+ #: src/PluginRegistrationDialog.cpp
+ msgid "&Rescan"
+-msgstr "&Återskanna"
++msgstr "Åter&skanna"
+ 
+ #: src/PluginRegistrationDialog.cpp
+ msgid "&Get more effects..."
+@@ -10952,7 +10952,7 @@ msgstr "&Ny maximal amplitud(dB):"
+ 
+ #: src/effects/Amplify.cpp
+ msgid "Allo&w clipping"
+-msgstr "Till&åt klippning"
++msgstr "Tillå&t klippning"
+ 
+ #: src/effects/AutoDuck.cpp resources/EffectsMenuDefaults.xml
+ msgid "Auto Duck"
+@@ -11442,7 +11442,7 @@ msgstr "&Kontrastresultat:"
+ 
+ #: src/effects/Contrast.cpp
+ msgid "R&eset"
+-msgstr "&Återställ"
++msgstr "Å&terställ"
+ 
+ #: src/effects/Contrast.cpp
+ msgid "&Difference:"
+@@ -12002,7 +12002,7 @@ msgstr "Attac&k (ms)"
+ 
+ #: src/effects/DynamicRangeProcessorEditor.h
+ msgid "&Release (ms)"
+-msgstr "&Återgång (ms)"
++msgstr "Åter&gång (ms)"
+ 
+ #: src/effects/DynamicRangeProcessorHistoryPanel.cpp
+ msgid "Input"
+@@ -12010,7 +12010,7 @@ msgstr "Indata"
+ 
+ #: src/effects/DynamicRangeProcessorHistoryPanel.cpp
+ msgid "Actual Compression"
+-msgstr "Aktuell komprimering"
++msgstr "Faktisk komprimering"
+ 
+ #: src/effects/DynamicRangeProcessorHistoryPanel.cpp
+ msgid "Target Compression"
+@@ -13952,7 +13952,7 @@ msgstr "Resonans"
+ 
+ #: src/effects/Wahwah.cpp
+ msgid "Wah Frequency Offse&t (%):"
+-msgstr "Frekvensoffset för wahwah (%):"
++msgstr "Wahwah-frekvensför&skjutning (%):"
+ 
+ #: src/effects/Wahwah.cpp
+ msgid "Wah frequency offset in percent"
+@@ -14703,7 +14703,7 @@ msgstr "Ljud&klipp"
+ 
+ #: src/menus/ClipMenus.cpp
+ msgid "Pre&vious Clip Boundary to Cursor"
+-msgstr "Föreg&ående klippgräns till markör"
++msgstr "Före&gående klippgräns till markör"
+ 
+ #: src/menus/ClipMenus.cpp
+ msgid "Cursor to Ne&xt Clip Boundary"
+@@ -14711,23 +14711,23 @@ msgstr "Från markören till nä&sta klippgräns"
+ 
+ #: src/menus/ClipMenus.cpp
+ msgid "Previo&us Clip"
+-msgstr "F&öregående klipp"
++msgstr "Före&gående klipp"
+ 
+ #: src/menus/ClipMenus.cpp
+ msgid "Select Previous Clip"
+-msgstr "Välj f&öregående klipp"
++msgstr "Välj före&gående klipp"
+ 
+ #: src/menus/ClipMenus.cpp
+ msgid "N&ext Clip"
+-msgstr "N&ästa klipp"
++msgstr "Nä&sta klipp"
+ 
+ #: src/menus/ClipMenus.cpp
+ msgid "Select Next Clip"
+-msgstr "Välj n&ästa klipp"
++msgstr "Välj nä&sta klipp"
+ 
+ #: src/menus/ClipMenus.cpp
+ msgid "Pre&vious Clip Boundary"
+-msgstr "F&öregående klippgräns"
++msgstr "Före&gående klippgräns"
+ 
+ #: src/menus/ClipMenus.cpp
+ msgid "Cursor to Prev Clip Boundary"
+@@ -14735,7 +14735,7 @@ msgstr "Från markören till föregående klippgräns"
+ 
+ #: src/menus/ClipMenus.cpp
+ msgid "Ne&xt Clip Boundary"
+-msgstr "N&ästa klippgräns"
++msgstr "Nä&sta klippgräns"
+ 
+ #: src/menus/ClipMenus.cpp
+ msgid "Cursor to Next Clip Boundary"
+@@ -15035,7 +15035,7 @@ msgstr "&Etiketter..."
+ 
+ #: src/menus/FileMenus.cpp
+ msgid "&Raw Data..."
+-msgstr "R&ådata..."
++msgstr "Rå&data..."
+ 
+ #. i18n-hint: (verb) It's item on a menu.
+ #: src/menus/FileMenus.cpp
+@@ -15376,7 +15376,7 @@ msgstr "Flytta fokus till &nästa spår"
+ 
+ #: src/menus/NavigationMenus.cpp
+ msgid "Move Focus to &First Track"
+-msgstr "Flytta fokus till f&örsta spåret"
++msgstr "Flytta fokus till för&sta spåret"
+ 
+ #: src/menus/NavigationMenus.cpp
+ msgid "Move Focus to &Last Track"
+@@ -15388,7 +15388,7 @@ msgstr "Flytta fokus till för&egående och markera"
+ 
+ #: src/menus/NavigationMenus.cpp
+ msgid "Move Focus to N&ext and Select"
+-msgstr "Flytta fokus till n&ästa och markera"
++msgstr "Flytta fokus till nä&sta och markera"
+ 
+ #: src/menus/NavigationMenus.cpp
+ msgid "&Toggle Focused Track"
+@@ -15563,7 +15563,7 @@ msgstr "&Spara markering"
+ 
+ #: src/menus/SelectMenus.cpp
+ msgid "Retrieve Selectio&n"
+-msgstr "H&ämta markering"
++msgstr "Häm&ta markering"
+ 
+ #: src/menus/SelectMenus.cpp
+ msgid "Cursor to Stored &Cursor Position"
+@@ -15619,11 +15619,11 @@ msgstr "Utöka markering åt &höger"
+ 
+ #: src/menus/SelectMenus.cpp
+ msgid "Set (or Extend) Le&ft Selection"
+-msgstr "Ändra (eller utöka) markering åt v&änster"
++msgstr "Ändra (eller utöka) markering åt &vänster"
+ 
+ #: src/menus/SelectMenus.cpp
+ msgid "Set (or Extend) Rig&ht Selection"
+-msgstr "Ändra (eller utöka) markering åt h&öger"
++msgstr "Ändra (eller utöka) markering åt &höger"
+ 
+ #: src/menus/SelectMenus.cpp
+ msgid "Selection Contract L&eft"
+@@ -15663,7 +15663,7 @@ msgstr "Från markören till spårets början"
+ 
+ #: src/menus/SelectMenus.cpp
+ msgid "Track &End"
+-msgstr "Sp&årets slut"
++msgstr "Spårets s&lut"
+ 
+ #: src/menus/SelectMenus.cpp
+ msgid "Cursor to Track End"
+@@ -15687,7 +15687,7 @@ msgstr "Från markören till projektets slut"
+ 
+ #: src/menus/SelectMenus.cpp
+ msgid "&Cursor"
+-msgstr "Mark&ör"
++msgstr "Markö&r"
+ 
+ #: src/menus/SelectMenus.cpp
+ msgid "Cursor &Left"
+@@ -15711,7 +15711,7 @@ msgstr "Flytta markören ett &långt hopp åt vänster"
+ 
+ #: src/menus/SelectMenus.cpp
+ msgid "Cursor Long Ju&mp Right"
+-msgstr "Flytta markören ett l&ångt hopp till höger"
++msgstr "Flytta markören ett lå&ngt hopp till höger"
+ 
+ #. i18n-hint: These commands assist the user in finding a sound by ear. ...
+ #. "Scrubbing" is variable-speed playback, ...
+@@ -15731,11 +15731,11 @@ msgstr "Kort sökning åt &höger under uppspelning"
+ 
+ #: src/menus/SelectMenus.cpp
+ msgid "Long Seek Le&ft During Playback"
+-msgstr "Lång sökning åt v&änster under uppspelning"
++msgstr "Lång sökning åt &vänster under uppspelning"
+ 
+ #: src/menus/SelectMenus.cpp
+ msgid "Long Seek Rig&ht During Playback"
+-msgstr "Lång sökning åt h&öger under uppspelning"
++msgstr "Lång sökning åt &höger under uppspelning"
+ 
+ #: src/menus/TimelineMenus.cpp
+ msgid "Tim&eline"
+@@ -15748,7 +15748,7 @@ msgstr "&Verktygsfält"
+ #. i18n-hint: (verb)
+ #: src/menus/ToolbarMenus.cpp
+ msgid "Reset Toolb&ars"
+-msgstr "&Återställ verktygsfält"
++msgstr "Återställ &verktygsfält"
+ 
+ #: src/menus/TrackMenus.cpp
+ msgid "Mix"
+@@ -15990,7 +15990,7 @@ msgstr "&Mixa stereo ned till mono"
+ 
+ #: src/menus/TrackMenus.cpp
+ msgid "Mi&x and Render"
+-msgstr "Mixa och &återge"
++msgstr "Mixa och å&terge"
+ 
+ #: src/menus/TrackMenus.cpp
+ msgid "Mix and Render to Ne&w Track"
+@@ -15998,7 +15998,7 @@ msgstr "Mixa och återge till &nytt spår"
+ 
+ #: src/menus/TrackMenus.cpp
+ msgid "&Resample..."
+-msgstr "&Återsampling..."
++msgstr "Sampla &om..."
+ 
+ #: src/menus/TrackMenus.cpp
+ msgid "Remo&ve Tracks"
+@@ -16110,7 +16110,7 @@ msgstr "Ändra &förstärkning för aktuellt spår..."
+ 
+ #: src/menus/TrackMenus.cpp
+ msgid "&Increase Gain on Focused Track"
+-msgstr "&Öka förstärkningen för aktuellt spår"
++msgstr "Öka &förstärkningen för aktuellt spår"
+ 
+ #: src/menus/TrackMenus.cpp
+ msgid "&Decrease Gain on Focused Track"
+@@ -16142,7 +16142,7 @@ msgstr "Flytta aktuellt spår &nedåt"
+ 
+ #: src/menus/TrackMenus.cpp
+ msgid "Move Focused Track to T&op"
+-msgstr "Flytta aktuellt spår l&ängst upp"
++msgstr "Flytta aktuellt spår längs&t upp"
+ 
+ #: src/menus/TrackMenus.cpp
+ msgid "Move Focused Track to &Bottom"
+@@ -16260,7 +16260,7 @@ msgstr "Ange &markeringen som loop"
+ 
+ #: src/menus/TransportMenus.cpp src/toolbars/AudioSetupToolBar.cpp
+ msgid "R&escan Audio Devices"
+-msgstr "&Återskanna ljudenheter"
++msgstr "Återskanna &ljudenheter"
+ 
+ #: src/menus/TransportMenus.cpp
+ msgid "Transport &Options"
+@@ -16268,11 +16268,11 @@ msgstr "&Transportalternativ"
+ 
+ #: src/menus/TransportMenus.cpp
+ msgid "Set sound activation le&vel..."
+-msgstr "Ställ in ljudaktiveringsnivå..."
++msgstr "Ställ in ljudaktiverings&nivå..."
+ 
+ #: src/menus/TransportMenus.cpp
+ msgid "Enable sound a&ctivated recording"
+-msgstr "Aktivera ljudaktiverad inspelning"
++msgstr "A&ktivera ljudaktiverad inspelning"
+ 
+ #: src/menus/TransportMenus.cpp
+ msgid "Hear &other tracks during recording"
+@@ -16358,7 +16358,7 @@ msgstr "Zooma &in"
+ 
+ #: src/menus/ViewMenus.cpp
+ msgid "Zoom &Normal"
+-msgstr "&Återställ zoom"
++msgstr "Återställ &zoom"
+ 
+ #: src/menus/ViewMenus.cpp
+ msgid "Zoom &Out"
+@@ -16591,7 +16591,7 @@ msgstr "&Importera:"
+ 
+ #: src/prefs/DirectoriesPrefs.cpp
+ msgid "Br&owse..."
+-msgstr "Bl&äddra..."
++msgstr "Blä&ddra..."
+ 
+ #: src/prefs/DirectoriesPrefs.cpp
+ msgid "&Export:"
+@@ -16783,7 +16783,7 @@ msgstr "Inställningar för ExtImport"
+ 
+ #: src/prefs/ExtImportPrefs.cpp
+ msgid "A&ttempt to use filter in OpenFile dialog first"
+-msgstr "F&örsök först att använda filter i dialogrutan Öppna fil"
++msgstr "&Försök först att använda filter i dialogrutan Öppna fil"
+ 
+ #: src/prefs/ExtImportPrefs.cpp
+ msgid "Rules to choose import filters"
+@@ -16955,7 +16955,7 @@ msgstr "Inställningar för ImportExport"
+ 
+ #: src/prefs/ImportExportPrefs.cpp
+ msgid "S&witch view to Beats and Measures and align with musical grid"
+-msgstr "V&äxla vy till slag och takter och anpassa efter musikaliskt rutnät"
++msgstr "Vä&xla vy till slag och takter och anpassa efter musikaliskt rutnät"
+ 
+ #: src/prefs/ImportExportPrefs.cpp
+ msgid "&Ask me each time"
+@@ -17040,7 +17040,7 @@ msgstr "Kortkommando"
+ #. i18n-hint: (verb)
+ #: src/prefs/KeyConfigPrefs.cpp
+ msgid "&Set"
+-msgstr "&Ändra"
++msgstr "Än&dra"
+ 
+ #: src/prefs/KeyConfigPrefs.cpp
+ msgid "Note: Pressing Cmd+Q will quit. All other keys are valid."
+@@ -17181,7 +17181,7 @@ msgstr "Använder: PortMidi"
+ 
+ #: src/prefs/MidiIOPrefs.cpp
+ msgid "MIDI Synth L&atency (ms):"
+-msgstr "MIDI-syntens fördröjning (ms):"
++msgstr "MIDI-syntens &fördröjning (ms):"
+ 
+ #: src/prefs/MidiIOPrefs.cpp
+ msgid "The MIDI Synthesizer Latency must be an integer"
+@@ -17633,7 +17633,7 @@ msgstr "Globala inställningar"
+ 
+ #: src/prefs/SpectrumPrefs.cpp
+ msgid "Ena&ble spectral selection"
+-msgstr "Aktivera spektrumsmarkering"
++msgstr "A&ktivera spektrumsmarkering"
+ 
+ #: src/prefs/SpectrumPrefs.cpp
+ msgid "The maximum frequency must be an integer"
+@@ -17769,7 +17769,7 @@ msgstr "&Klistra alltid in ljud som nya klipp"
+ 
+ #: src/prefs/TracksBehaviorsPrefs.cpp
+ msgid "\"Move track focus\" c&ycles repeatedly through tracks"
+-msgstr "\"Flytta spårfokus\" v&äxlar upprepat genom spåren"
++msgstr "\"Flytta spårfokus\" vä&xlar upprepat genom spåren"
+ 
+ #: src/prefs/TracksBehaviorsPrefs.cpp
+ msgid "&Type to create a label"
+@@ -17923,7 +17923,7 @@ msgstr "Inställningar för vågformer"
+ 
+ #: src/prefs/WaveformPrefs.cpp
+ msgid "Waveform dB &range:"
+-msgstr "Vågformsintervall i dB:"
++msgstr "Vågforms&intervall i dB:"
+ 
+ #. i18n-hint: Audio setup button text, keep as short as possible
+ #: src/toolbars/AudioSetupToolBar.cpp
+@@ -18217,7 +18217,7 @@ msgstr "Justera uppspelnings&volym..."
+ 
+ #: src/toolbars/MeterToolBar.cpp
+ msgid "&Increase Playback Volume"
+-msgstr "&Öka uppspelningsvolym"
++msgstr "Öka uppspelnings&volym"
+ 
+ #: src/toolbars/MeterToolBar.cpp
+ msgid "&Decrease Playback Volume"
+@@ -18453,7 +18453,7 @@ msgstr "Spela upp en gång med hastighet"
+ 
+ #: src/toolbars/TranscriptionToolBar.cpp
+ msgid "Pla&y-at-Speed Toolbar"
+-msgstr "Verktygsfält för spela med hastighet"
++msgstr "Verktygsfält för uppspelning med &hastighet"
+ 
+ #. i18n-hint: 'Normal Play-at-Speed' doesn't loop or cut preview.
+ #: src/toolbars/TranscriptionToolBar.cpp
+@@ -18474,7 +18474,7 @@ msgstr "&Justera uppspelningshastighet..."
+ 
+ #: src/toolbars/TranscriptionToolBar.cpp
+ msgid "&Increase Playback Speed"
+-msgstr "&Öka uppspelningshastighet"
++msgstr "Öka uppspelnings&hastighet"
+ 
+ #: src/toolbars/TranscriptionToolBar.cpp
+ msgid "&Decrease Playback Speed"
+@@ -18766,7 +18766,7 @@ msgstr "S&pektrum"
+ 
+ #: src/tracks/playabletrack/wavetrack/ui/SpectrumView.cpp
+ msgid "To&ggle Spectral Selection"
+-msgstr "Aktivera/inaktivera spektrumsmarkering"
++msgstr "Vä&xla spektrumsmarkering"
+ 
+ #: src/tracks/playabletrack/wavetrack/ui/SpectrumView.cpp
+ msgid "Next &Higher Peak Frequency"
+@@ -19012,7 +19012,7 @@ msgstr "384000 Hz"
+ 
+ #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
+ msgid "&Other..."
+-msgstr "&Övrigt..."
++msgstr "Ö&vrigt..."
+ 
+ #. i18n-hint: The string names a track
+ #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
+@@ -19030,7 +19030,7 @@ msgstr "Ändra frekvens"
+ 
+ #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
+ msgid "Ma&ke Stereo Track"
+-msgstr "Skapa stereosp&år"
++msgstr "Skapa &stereospår"
+ 
+ #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
+ msgid "Swap Stereo &Channels"
+@@ -19301,7 +19301,7 @@ msgstr "Flytta spåret &längst upp"
+ 
+ #: src/tracks/ui/CommonTrackControls.cpp
+ msgid "Move Track to &Bottom"
+-msgstr "Flytta spåret l&ängst ned"
++msgstr "Flytta spåret längst &ned"
+ 
+ #: src/tracks/ui/CommonTrackControls.cpp
+ msgid "Set Track Name"
+@@ -19371,11 +19371,11 @@ msgstr "Scru&bbing"
+ 
+ #: src/tracks/ui/Scrubbing.cpp
+ msgid "Scrub Bac&kwards"
+-msgstr "Spola bak&åt"
++msgstr "Spola &bakåt"
+ 
+ #: src/tracks/ui/Scrubbing.cpp
+ msgid "Scrub For&wards"
+-msgstr "Spola framåt"
++msgstr "Spola &framåt"
+ 
+ #: src/tracks/ui/SelectHandle.cpp
+ msgid "Click and drag to move left selection boundary."
+-- 
+2.54.0 (Apple Git-157)
+
