@@ -1,6 +1,6 @@
 # AppFlowy, nya sidtyper, 13 november 2026
 
-Den första avgränsade batchen för den aktuella AppFlowy-resursen fyller 56
+Den första avgränsade batchen för den aktuella AppFlowy-resursen fyller 82
 grundläggande, synliga UI-texter i `sv-SE.json`:
 
 - nytt dokument
@@ -12,15 +12,16 @@ grundläggande, synliga UI-texter i `sv-SE.json`:
 - relativa datum: i går, i dag, i morgon och en vecka
 - datumväljaren: format, slutdatum och 13 påminnelsealternativ
 - ikonuppladdaren och dialogen Sök och ersätt
+- meddelandecentralen: status, arkivering, läst-markering och filter
 
 Den engelska resursen har 94 toppnivåsektioner medan den svenska har 44.
-Resterande sektioner, bland annat kontoinställningar, AI-chatt, meddelanden och
+Resterande sektioner, bland annat kontoinställningar, AI-chatt och
 redigeraren, behöver därför behandlas komponentvis med sammanhang och kan inte
 rimligen betraktas som färdiggranskade genom den här batchen.
 
 Kontroller:
 
-- JSON-parsning och samtliga 56 nycklarna verifierade mot `en-US.json`
+- JSON-parsning och samtliga 82 nycklarna verifierade mot `en-US.json`
 - l10n-lint: godkänd
 - Hunspell-sv: inga träffar i de nya formuleringarna
 - svlang: tidigare resurs har befintliga V2-varningar; inga nya varningar från

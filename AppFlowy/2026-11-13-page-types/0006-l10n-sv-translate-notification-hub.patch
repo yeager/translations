@@ -1,0 +1,59 @@
+From eb30426b2ed962367f7c290bae763718285f295f Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <danielnylander@hgwkwq50x4.lan>
+Date: Fri, 13 Nov 2026 13:18:34 +0100
+Subject: [PATCH] l10n(sv): translate notification hub
+
+---
+ frontend/resources/translations/sv-SE.json | 37 ++++++++++++++++++++++
+ 1 file changed, 37 insertions(+)
+
+diff --git a/frontend/resources/translations/sv-SE.json b/frontend/resources/translations/sv-SE.json
+index 7571929..5e57ea0 100644
+--- a/frontend/resources/translations/sv-SE.json
++++ b/frontend/resources/translations/sv-SE.json
+@@ -149,6 +149,43 @@
+     "caseSensitive": "Skiftlägeskänslig",
+     "searchMore": "Sök för att hitta fler resultat"
+   },
++  "notificationHub": {
++    "title": "Aviseringar",
++    "closeNotification": "Stäng avisering",
++    "viewNotifications": "Visa aviseringar",
++    "noNotifications": "Inga aviseringar ännu",
++    "mentionedYou": "Nämnde dig",
++    "archivedTooltip": "Arkivera avisering",
++    "unarchiveTooltip": "Återställ avisering",
++    "markAsReadTooltip": "Markera avisering som läst",
++    "markAsArchivedSucceedToast": "Arkiverades",
++    "markAllAsArchivedSucceedToast": "Alla arkiverades",
++    "markAsReadSucceedToast": "Markerades som läst",
++    "markAllAsReadSucceedToast": "Alla markerades som lästa",
++    "today": "I dag",
++    "older": "Äldre",
++    "mobile": {
++      "title": "Uppdateringar"
++    },
++    "emptyTitle": "Du är ikapp!",
++    "emptyBody": "Inga väntande aviseringar eller åtgärder. Njut av lugnet.",
++    "tabs": {
++      "inbox": "Inkorg",
++      "upcoming": "Kommande"
++    },
++    "actions": {
++      "markAllRead": "Markera alla som lästa",
++      "showAll": "Alla",
++      "showUnreads": "Olästa"
++    },
++    "filters": {
++      "ascending": "Stigande",
++      "descending": "Fallande",
++      "groupByDate": "Gruppera efter datum",
++      "showUnreadsOnly": "Visa endast olästa",
++      "resetToDefault": "Återställ standardvärden"
++    }
++  },
+   "trash": {
+     "text": "Skräp",
+     "restoreAll": "Återställ alla",
+--
+2.54.0 (Apple Git-157)
