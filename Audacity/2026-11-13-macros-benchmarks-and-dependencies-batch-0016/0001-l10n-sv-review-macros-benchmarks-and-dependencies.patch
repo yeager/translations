@@ -1,0 +1,202 @@
+From 975a4b490934fdfc85b51978da69e6a7dc6bc89c Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:40:26 +0100
+Subject: [PATCH] l10n(sv): review macros benchmarks and dependencies
+
+---
+ au3/locale/sv.po | 54 ++++++++++++++++++++++++------------------------
+ 1 file changed, 27 insertions(+), 27 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index f730c6c..6c8ab12 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -7569,7 +7569,7 @@ msgstr "&Infoga"
+ 
+ #: src/BatchProcessDialog.cpp
+ msgid "&Edit..."
+-msgstr "R&edigera..."
++msgstr "&Redigera..."
+ 
+ #: src/BatchProcessDialog.cpp src/LabelDialog.cpp
+ msgid "De&lete"
+@@ -7638,15 +7638,15 @@ msgstr "&Upprepa %s"
+ 
+ #: src/BatchProcessDialog.cpp
+ msgid "Repeat Last Tool"
+-msgstr "Använd senaste Verktyg"
++msgstr "Använd senaste verktyg"
+ 
+ #: src/BatchProcessDialog.cpp
+ msgid "&Macro Manager"
+-msgstr "&Makro manager"
++msgstr "&Makrohanterare"
+ 
+ #: src/BatchProcessDialog.cpp
+ msgid "&Apply Macro"
+-msgstr "&Verkställ makron"
++msgstr "&Verkställ makro"
+ 
+ #: src/BatchProcessDialog.cpp
+ msgid "Palette..."
+@@ -7655,12 +7655,12 @@ msgstr "Palett..."
+ #. i18n-hint: Scriptables are commands normally used from Python, Perl etc.
+ #: src/BatchProcessDialog.cpp
+ msgid "Script&ables I"
+-msgstr "&Skript I"
++msgstr "Skript&kommandon I"
+ 
+ #. i18n-hint: Scriptables are commands normally used from Python, Perl etc.
+ #: src/BatchProcessDialog.cpp
+ msgid "Scripta&bles II"
+-msgstr "S&kript II"
++msgstr "Skriptkomma&ndon II"
+ 
+ #. i18n-hint: Benchmark means a software speed test
+ #: src/Benchmark.cpp
+@@ -7709,15 +7709,15 @@ msgstr "Exportera prestandatestdata som:"
+ 
+ #: src/Benchmark.cpp
+ msgid "Block size should be in the range 1 - 1024 KB."
+-msgstr "Blockstorleken bör vara inom intervallet 1 - 1024 KB."
++msgstr "Blockstorleken bör vara mellan 1 och 1024 kB."
+ 
+ #: src/Benchmark.cpp
+ msgid "Number of edits should be in the range 1 - 10000."
+-msgstr "Antalet redigeringar bör vara inom intervallet 1..10000."
++msgstr "Antalet redigeringar bör vara mellan 1 och 10000."
+ 
+ #: src/Benchmark.cpp
+ msgid "Test data size should be in the range 1 - 2000 MB."
+-msgstr "Testdatastorleken bör vara mellan 1 - 2000 MB."
++msgstr "Testdatastorleken bör vara mellan 1 och 2000 MB."
+ 
+ #: src/Benchmark.cpp
+ #, c-format
+@@ -7731,7 +7731,7 @@ msgstr "Förbereder...\n"
+ #: src/Benchmark.cpp
+ #, c-format
+ msgid "Expected len %lld, track len %lld.\n"
+-msgstr "Förväntade längd %lld, spårlängd %lld.\n"
++msgstr "Förväntad längd %lld, spårlängd %lld.\n"
+ 
+ #: src/Benchmark.cpp
+ #, c-format
+@@ -7751,7 +7751,7 @@ msgstr "Test %d\n"
+ #: src/Benchmark.cpp
+ #, c-format
+ msgid "Cut (%lld, %lld) failed.\n"
+-msgstr "Klippa ut (%lld, %lld) misslyckades.\n"
++msgstr "Klipp ut (%lld, %lld) misslyckades.\n"
+ 
+ #: src/Benchmark.cpp
+ #, c-format
+@@ -7823,7 +7823,7 @@ msgid ""
+ "At 44100 Hz, %d bytes per sample, the estimated number of\n"
+ " simultaneous tracks that could be played at once: %.1f\n"
+ msgstr ""
+-"Vid 44100 Hz, %d bitar per sampling, är det bedömda antalet\n"
++"Vid 44100 Hz och %d byte per sampling är det uppskattade antalet\n"
+ " samtidiga spår som kan spelas samtidigt: %.1f\n"
+ 
+ #: src/Benchmark.cpp
+@@ -7867,9 +7867,9 @@ msgid ""
+ msgstr ""
+ "Välj det ljud som %s kan använda.\n"
+ "\n"
+-"1. Välj ljud som är brus och använd %s to för få din 'brusprofil'.\n"
++"1. Välj ljud som är brus och använd %s för att få din brusprofil.\n"
+ "\n"
+-"2. När du fått din brusprofil, välj det ljud som du vill ändra\n"
++"2. När du har fått din brusprofil väljer du det ljud som du vill ändra\n"
+ "och använd %s för att ändra ljudet."
+ 
+ #: src/CommonCommandFlags.cpp
+@@ -7898,7 +7898,7 @@ msgstr ""
+ 
+ #: src/CrashReport.cpp
+ msgid "Audacity Support Data"
+-msgstr "Audacitys supportteam"
++msgstr "Audacitys supportdata"
+ 
+ #: src/CrashReport.cpp
+ msgid "Report generated to:"
+@@ -7910,7 +7910,7 @@ msgstr "Tar bort externa filer"
+ 
+ #: src/Dependencies.cpp
+ msgid "Copying audio data into project..."
+-msgstr "Kopiera ljuddata till projekt..."
++msgstr "Kopierar ljuddata till projektet..."
+ 
+ #: src/Dependencies.cpp
+ msgid "Project Depends on Other Audio Files"
+@@ -7938,7 +7938,7 @@ msgstr ""
+ 
+ #: src/Dependencies.cpp
+ msgid "Project Dependencies"
+-msgstr "Projekt externa filer"
++msgstr "Projektberoenden"
+ 
+ #: src/Dependencies.cpp
+ msgid "Audio File"
+@@ -7993,7 +7993,7 @@ msgstr "Kopiera aldrig några filer"
+ #: src/Dependencies.cpp
+ #, c-format
+ msgid "MISSING %s"
+-msgstr "SAKNAR %s"
++msgstr "SAKNAS %s"
+ 
+ #: src/Dependencies.cpp
+ msgid "&Copy Names to Clipboard"
+@@ -8020,15 +8020,15 @@ msgid ""
+ "is needed to keep their external dependencies in the right place.\n"
+ "New projects will be self-contained and are less risky."
+ msgstr ""
+-"Ditt projekt är för tillfället oberoende; det förlitar sig inte på några externa ljudfiler. \n"
++"Ditt projekt är fristående och beror inte på några externa ljudfiler.\n"
+ "\n"
+-"Vissa äldre Audacityprojekt är kanske inte oberoende, och behöver\n"
+-"därför man medvetet behåller de externa filerna på rätt plats.\n"
+-"Nya projekt har inte detta problemet."
++"Vissa äldre Audacity-projekt är kanske inte fristående. Då behöver du\n"
++"se till att de externa filerna ligger på rätt plats.\n"
++"Nya projekt är fristående och innebär mindre risk."
+ 
+ #: src/Dependencies.cpp
+ msgid "Dependency Check"
+-msgstr "Kontrollera beroenden"
++msgstr "Kontroll av beroenden"
+ 
+ #. i18n-hint:  A name given to a track, appearing as its menu button.
+ #. The translation should be short or else it will not display well.
+@@ -8037,7 +8037,7 @@ msgstr "Kontrollera beroenden"
+ #. recording
+ #: src/DropoutDetector.cpp
+ msgid "Dropouts"
+-msgstr "Signalförluster"
++msgstr "Ljudbortfall"
+ 
+ #: src/DropoutDetector.cpp
+ msgid ""
+@@ -8047,15 +8047,15 @@ msgid ""
+ "\n"
+ "You are saving directly to a slow external storage device\n"
+ msgstr ""
+-"Inspelat ljud förlorades i platserna med etikett. Möjliga orsaker:\n"
++"Inspelat ljud förlorades vid de märkta platserna. Möjliga orsaker:\n"
+ "\n"
+-"Andra applikationer brottas med Audacity om processortid\n"
++"Andra program konkurrerar med Audacity om processortid\n"
+ "\n"
+ "Du sparar direkt till en långsam lagringsenhet\n"
+ 
+ #: src/DropoutDetector.cpp
+ msgid "Turn off dropout detection"
+-msgstr "Sluta upptäcka signalförluster"
++msgstr "Stäng av upptäckt av ljudbortfall"
+ 
+ #: src/FreqWindow.cpp
+ msgid "Frequency Analysis"
+-- 
+2.54.0 (Apple Git-157)
+
