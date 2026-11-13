@@ -151,3 +151,12 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | command center | ledningscentral | Fraktionsspecifik byggnad. |
 | missile targeting codes | robotmålsökningskoder | Forskning för robotmålval. |
 | missile firing codes | robotavfyrningskoder | Forskning för robotavfyrning. |
+
+## Flerspelare
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| power level | energinivå | Startresurs i lobbyinställningarna. |
+| locked teams | låsta lag | Låser lagindelningen i flerspelarmatchen. |
+| shared research | delad forskning | Forskningsinställning för lag. |
+| beacon | fyr | Karta-/hjälpmarkör som AI:n begär. |
