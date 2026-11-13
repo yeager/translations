@@ -1,0 +1,180 @@
+From 2e53ff3e394c6a127446daf66da993cf97b137aa Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 15:55:34 +0100
+Subject: [PATCH] l10n(sv): refine Nyquist labeling and crossfades
+
+---
+ au3/locale/sv.po | 44 ++++++++++++++++++++++----------------------
+ 1 file changed, 22 insertions(+), 22 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 9da4b40..0a23fc5 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -20182,25 +20182,25 @@ msgstr "Övertona klipp"
+ #: plug-ins/crossfadeclips.ny
+ #, lisp-format
+ msgid "Error.~%Invalid selection.~%More than 2 audio clips selected."
+-msgstr "Fel.~%Ogiltig markering..~%Fler än 2 ljudklipp är markerade."
++msgstr "Fel.~%Ogiltig markering.~%Fler än två ljudklipp är markerade."
+ 
+ #: plug-ins/crossfadeclips.ny
+ #, lisp-format
+ msgid "Error.~%Invalid selection.~%Empty space at start/ end of the selection."
+-msgstr "Fel..~%Ogiltig ljudmarkering..~%Tomt mellanrum i början av markeringen."
++msgstr "Fel.~%Ogiltig markering.~%Tomt utrymme i början eller slutet av markeringen."
+ 
+ #: plug-ins/crossfadeclips.ny
+ #, lisp-format
+ msgid "Error.~%Crossfade Clips may only be applied to one track."
+-msgstr "Fel.~%Crossfade på klipp kan endast tillämpas på ett spår."
++msgstr "Fel.~%Övertoning av klipp kan bara tillämpas på ett spår."
+ 
+ #: plug-ins/crossfadetracks.ny resources/EffectsMenuDefaults.xml
+ msgid "Crossfade Tracks"
+-msgstr "Kör crossfade på spår"
++msgstr "Övertona spår"
+ 
+ #: plug-ins/crossfadetracks.ny
+ msgid "Fade TYPE"
+-msgstr "Fade TYPE"
++msgstr "TONINGSTYP"
+ 
+ #: plug-ins/crossfadetracks.ny
+ msgid "Constant Gain"
+@@ -20208,11 +20208,11 @@ msgstr "Konstant förstärkning"
+ 
+ #: plug-ins/crossfadetracks.ny
+ msgid "Constant Power 1"
+-msgstr "Konstant kraft 1"
++msgstr "Konstant effekt 1"
+ 
+ #: plug-ins/crossfadetracks.ny
+ msgid "Constant Power 2"
+-msgstr "Konstant kraft 2"
++msgstr "Konstant effekt 2"
+ 
+ #: plug-ins/crossfadetracks.ny
+ msgid "Custom Curve"
+@@ -20249,7 +20249,7 @@ msgstr "Fördröjningstyp"
+ 
+ #: plug-ins/delay.ny
+ msgid "Regular"
+-msgstr "Reguljär"
++msgstr "Vanlig"
+ 
+ #: plug-ins/delay.ny
+ msgid "Bouncing Ball"
+@@ -20306,7 +20306,7 @@ msgstr "Skapa etiketter baserat på"
+ 
+ #: plug-ins/equalabel.ny
+ msgid "Number and Interval"
+-msgstr "Nummer och intervall"
++msgstr "Antal och intervall"
+ 
+ #: plug-ins/equalabel.ny
+ msgid "Number of Labels"
+@@ -20375,7 +20375,7 @@ msgstr "Börja numrering från"
+ 
+ #: plug-ins/equalabel.ny
+ msgid "Message on completion"
+-msgstr "Meddelande vid slutförd"
++msgstr "Meddelande när åtgärden är klar"
+ 
+ #: plug-ins/equalabel.ny
+ msgid "Details"
+@@ -20393,7 +20393,7 @@ msgstr "Fel: Det finns inte tillräckligt med utrymme för att skapa etiketter.~
+ #: plug-ins/equalabel.ny
+ #, lisp-format
+ msgid "Warning: Overlapping region labels.~%"
+-msgstr "Varning: Områdesetiketter överlappas.~%"
++msgstr "Varning: Överlappande områdesetiketter.~%"
+ 
+ #. i18n-hint:  Type of label
+ #: plug-ins/equalabel.ny
+@@ -20425,7 +20425,7 @@ msgstr "Dominic Mazzoni"
+ 
+ #: plug-ins/highpass.ny plug-ins/lowpass.ny
+ msgid "Roll-off (dB per octave)"
+-msgstr "Roll-off (dB per oktav)"
++msgstr "Branthet (dB per oktav)"
+ 
+ #: plug-ins/highpass.ny plug-ins/lowpass.ny
+ msgid "6 dB"
+@@ -20449,7 +20449,7 @@ msgstr "48 dB"
+ 
+ #: plug-ins/highpass.ny plug-ins/lowpass.ny plug-ins/notch.ny
+ msgid "Frequency must be at least 0.1 Hz."
+-msgstr "Frekvensen måste vara minst 0.1 Hz."
++msgstr "Frekvensen måste vara minst 0,1 Hz."
+ 
+ #: plug-ins/highpass.ny plug-ins/lowpass.ny
+ #, lisp-format
+@@ -20465,11 +20465,11 @@ msgstr ""
+ #. i18n-hint: Name of effect that labels sounds
+ #: plug-ins/label-sounds.ny
+ msgid "Label Sounds"
+-msgstr "Etikett ljud"
++msgstr "Märk ljud"
+ 
+ #: plug-ins/label-sounds.ny
+ msgid "Threshold level (dB)"
+-msgstr "Tröskel nivå (dB)"
++msgstr "Tröskelnivå (dB)"
+ 
+ #: plug-ins/label-sounds.ny
+ msgid "Threshold measurement"
+@@ -20477,7 +20477,7 @@ msgstr "Tröskel mätvärde"
+ 
+ #: plug-ins/label-sounds.ny
+ msgid "Peak level"
+-msgstr "Peak nivå"
++msgstr "Toppnivå"
+ 
+ #: plug-ins/label-sounds.ny
+ msgid "Average level"
+@@ -20485,19 +20485,19 @@ msgstr "Medelnivå"
+ 
+ #: plug-ins/label-sounds.ny
+ msgid "RMS level"
+-msgstr "RMS nivå"
++msgstr "RMS-nivå"
+ 
+ #: plug-ins/label-sounds.ny
+ msgid "Minimum silence duration"
+-msgstr "Minimum tystnad varaktighet"
++msgstr "Minsta tystnadslängd"
+ 
+ #: plug-ins/label-sounds.ny
+ msgid "Minimum label interval"
+-msgstr "Minimum etikettintervall"
++msgstr "Minsta etikettintervall"
+ 
+ #: plug-ins/label-sounds.ny
+ msgid "Label type"
+-msgstr "Etikett typ"
++msgstr "Etikettyp"
+ 
+ #: plug-ins/label-sounds.ny
+ msgid "Point before sound"
+@@ -20521,7 +20521,7 @@ msgstr "Maximal tystnad"
+ 
+ #: plug-ins/label-sounds.ny
+ msgid "Maximum trailing silence"
+-msgstr "Maximum efterföljande tystnad"
++msgstr "Längsta efterföljande tystnad"
+ 
+ #: plug-ins/label-sounds.ny
+ msgid "Sound ##1"
+@@ -20536,7 +20536,7 @@ msgstr "~ah ~am ~as"
+ #: plug-ins/label-sounds.ny
+ #, lisp-format
+ msgid "Too many silences detected.~%Only the first 10000 labels added."
+-msgstr "För många tystnader upptäcktes.~%Bara de första 10000 etiketter tillagda."
++msgstr "För många tystnader upptäcktes.~%Bara de första 10 000 etiketterna lades till."
+ 
+ #: plug-ins/label-sounds.ny
+ #, lisp-format
+-- 
+2.54.0 (Apple Git-157)
+
