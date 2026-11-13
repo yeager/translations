@@ -22,6 +22,7 @@ Den här katalogen innehåller svenska granskningsbatcher för Dwarf Fortress St
 - Batch 12: 3 tidigare oöversatta boktitelsmallar
 - Batch 13: 1 tidigare oöversatt berättelserad
 - Batch 14: 10 tidigare oöversatta boktitelsmallar
+- Batch 15: 10 tidigare oöversatta boktitelsmallar
 - Råinventering: 349 oöversatta strängar före batchen. Råfilen är en oförändrad API-export från 2026-11-12.
 
 ## Status
@@ -48,6 +49,7 @@ Detta är inte en markering som granskad i Transifex. De uppladdade raderna har 
 - `dwarf-fortress-text-set-batch12-sv-20261113.jsonl`: oförändrad deltafil med de tre uppladdade boktitelsmallarna.
 - `dwarf-fortress-text-set-batch13-sv-20261113.jsonl`: oförändrad deltafil med den uppladdade berättelseraden.
 - `dwarf-fortress-text-set-batch14-sv-20261113.jsonl`: oförändrad deltafil med de tio uppladdade boktitelsmallarna.
+- `dwarf-fortress-text-set-batch15-sv-20261113.jsonl`: oförändrad deltafil med de tio uppladdade boktitelsmallarna.
 - `dwarf-fortress-text-set-missing-raw-20261112.json`: oförändrad råexport av den inventering som låg till grund för batchen.
 - `TERMINOLOGY.md`: beslut för återkommande speltermer i denna batch.
 - `STATUS.md` samt batchspecifika statusfiler: kontroller och verifieringsresultat.
