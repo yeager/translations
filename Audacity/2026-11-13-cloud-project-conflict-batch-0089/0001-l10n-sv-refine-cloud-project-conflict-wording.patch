@@ -1,0 +1,90 @@
+From 7143ce53e2593357241c739bb8baef1bcd485f00 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 17:34:46 +0100
+Subject: [PATCH] l10n(sv): refine cloud project conflict wording
+
+---
+ au3/locale/sv.po | 20 ++++++++++----------
+ 1 file changed, 10 insertions(+), 10 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index e0430ce..5eccaf6 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -6056,7 +6056,7 @@ msgstr "Det här projektet sparas inte längre i molnet"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/NotCloudProjectDialog.cpp
+ msgid "This project was removed from audio.com and therefore cannot be saved at this time. "
+-msgstr "Detta projekt togs bort från audio.com och kan därför inte sparas för närvarande. "
++msgstr "Det här projektet togs bort från audio.com och kan därför inte sparas för närvarande. "
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/NotCloudProjectDialog.cpp
+ msgid "You can either save it to the Cloud as a new project, or save it to your computer."
+@@ -6094,19 +6094,19 @@ msgstr "Konflikt med projektets version upptäcktes"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectVersionConflictDialog.cpp
+ msgid "There's a newer version of this Audacity project on Audio.com. Saving this project will replace it as the newest version instead."
+-msgstr "Det finns en nyare version av detta Audacity-projekt på Audio.com. Om du sparar det här projektet ersätts det som den senaste versionen istället."
++msgstr "Det finns en nyare version av det här Audacity-projektet på Audio.com. Om du sparar det här projektet blir det i stället den senaste versionen."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectVersionConflictDialog.cpp
+ msgid "Save this project"
+-msgstr "Spara detta projekt"
++msgstr "Spara det här projektet"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectVersionConflictDialog.cpp
+ msgid "Discard and open latest version"
+-msgstr "Släng och öppna senaste versionen"
++msgstr "Ignorera och öppna den senaste versionen"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectVersionConflictDialog.cpp
+ msgid "Project contains unsaved changes. There's a newer version of this Audacity project on Audio.com. Discarding changes will open the latest version instead."
+-msgstr "Projektet innehåller osparade ändringar. Det finns en nyare version av detta Audacity-projekt på Audio.com. Om du ignorerar ändringar öppnas den senaste versionen istället."
++msgstr "Projektet innehåller osparade ändringar. Det finns en nyare version av det här Audacity-projektet på Audio.com. Om du ignorerar ändringarna öppnas i stället den senaste versionen."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectVersionConflictDialog.cpp
+ msgid "Open local project"
+@@ -6122,11 +6122,11 @@ msgstr "Du försöker öppna en ny aktiv version av det här projektet när det
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectVersionConflictDialog.cpp
+ msgid "Keep currently open version"
+-msgstr "Behåll nuvarande öppna version"
++msgstr "Behåll den öppna versionen"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectVersionConflictDialog.cpp
+ msgid "Open new version"
+-msgstr "Öppna en ny version"
++msgstr "Öppna den nya versionen"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectsListDialog.cpp
+ msgid "Open from Cloud"
+@@ -6180,7 +6180,7 @@ msgstr "Tidigare"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectsListDialog.cpp
+ msgid "View in audio.com"
+-msgstr "Visa i audio.com"
++msgstr "Visa på audio.com"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectsListDialog.cpp
+ #, c-format
+@@ -6342,7 +6342,7 @@ msgstr "Ingen version av det här projektet har laddats upp fullständigt till a
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/UploadCanceledDialog.cpp
+ msgid "You have canceled this upload to audio.com"
+-msgstr "Du har avbrutit denna uppladdning till audio.com"
++msgstr "Du har avbrutit den här uppladdningen till audio.com"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/WaitForActionDialog.cpp
+ msgid "Retry"
+@@ -6350,7 +6350,7 @@ msgstr "Försök igen"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/WaitForActionDialog.h
+ msgid "An action on audio.com is required before you can continue. Once you are done with it, click Retry"
+-msgstr "En åtgärd på audio.com krävs innan du kan fortsätta. När du är klar med det klickar du på Försök igen"
++msgstr "En åtgärd på audio.com krävs innan du kan fortsätta. När du har utfört åtgärden klickar du på Försök igen"
+ 
+ #: modules/track-ui/mod-midi-import-export/ExportMIDI.cpp
+ msgid "Exported Allegro (.gro) files save time as:"
+-- 
+2.54.0 (Apple Git-157)
+
