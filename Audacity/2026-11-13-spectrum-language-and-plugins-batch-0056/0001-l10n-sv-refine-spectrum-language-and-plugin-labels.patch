@@ -1,0 +1,79 @@
+From f9416fa97af5042b9e24eb719fb6049ebb31e95b Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 16:30:02 +0100
+Subject: [PATCH] l10n(sv): refine spectrum language and plugin labels
+
+---
+ au3/locale/sv.po | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index c2826fc..59e340b 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -8174,7 +8174,7 @@ msgstr "För mycket ljud har valts. Endast de första %.1f sekunderna av ljud ko
+ 
+ #: src/FreqWindow.cpp
+ msgid "Not enough data selected."
+-msgstr "Inte tillräckligt mycket data har markerats."
++msgstr "För lite data har markerats."
+ 
+ #. i18n-hint: short form of 'seconds'.
+ #: src/FreqWindow.cpp src/effects/AutoDuck.cpp
+@@ -8221,7 +8221,7 @@ msgstr "Frekvens (Hz)\tNivå (dB)"
+ 
+ #: src/FreqWindow.cpp
+ msgid "Lag (seconds)\tFrequency (Hz)\tLevel"
+-msgstr "Lagg (sekunder)\tFrekvens (Hz)\tNivå"
++msgstr "Fördröjning (sekunder)\tFrekvens (Hz)\tNivå"
+ 
+ #: src/FreqWindow.cpp
+ msgid "Plot Spectrum..."
+@@ -8235,7 +8235,7 @@ msgstr "Spara %s"
+ #: src/HelpUtilities.cpp
+ #, c-format
+ msgid "Unable to save %s"
+-msgstr "Kan inte spara %s"
++msgstr "Kunde inte spara %s"
+ 
+ #: src/HistoryWindow.cpp
+ msgid "History"
+@@ -8444,7 +8444,7 @@ msgstr "Välj språk för Audacity:"
+ #: src/LangChoice.cpp
+ #, c-format
+ msgid "The language you have chosen, %s (%s), is not the same as the system language, %s (%s)."
+-msgstr "Språket du valde, %s (%s), är inte densamma som systemspråket, %s (%s)."
++msgstr "Språket du valde, %s (%s), är inte samma som systemspråket, %s (%s)."
+ 
+ #: src/Legacy.cpp
+ msgid "Error Converting Legacy Project File"
+@@ -8529,7 +8529,7 @@ msgstr "Flyttade förstärkningsreglaget"
+ #: src/MixerBoard.cpp
+ #: src/tracks/playabletrack/notetrack/ui/NoteTrackSliderHandles.cpp
+ msgid "Moved velocity slider"
+-msgstr "Flyttade hastighetsreglaget"
++msgstr "Flyttade anslagsstyrkereglaget"
+ 
+ #: src/MixerBoard.cpp
+ #: src/tracks/playabletrack/wavetrack/ui/WaveTrackSliderHandles.cpp
+@@ -8697,7 +8697,7 @@ msgstr "Hantera insticksmoduler"
+ 
+ #: src/PluginRegistrationDialog.cpp
+ msgid "Native Audacity"
+-msgstr "Ursprunglig Audacity"
++msgstr "Audacitys inbyggda"
+ 
+ #: src/PluginRegistrationDialog.cpp
+ msgid "&Show:"
+@@ -8725,7 +8725,7 @@ msgstr "Åter&skanna"
+ 
+ #: src/PluginRegistrationDialog.cpp
+ msgid "&Get more effects..."
+-msgstr "&Hämta mer effekter..."
++msgstr "&Hämta fler effekter..."
+ 
+ #: src/PluginStartupRegistration.cpp
+ msgid "Searching for plugins"
+-- 
+2.54.0 (Apple Git-157)
+
