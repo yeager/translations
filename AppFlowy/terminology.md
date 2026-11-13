@@ -13,6 +13,7 @@ ska prövas mot varje strängs funktion; den är inte en mekanisk ersättningsli
 | quick note | snabbanteckning | Gäller AppFlowys korta, fristående anteckningar. |
 | block | block | AppFlowys redigeringsenhet; används i platshållare och instruktioner. |
 | page icon | sidans ikon | Ikon som representerar en sida i titelraden. |
+| reference | hänvisning till | Gäller redigerarens snabbinfogningsmeny, följt av objektets typ. |
 | upload | läsa in | Gäller lokal import i uppladdarens instruktioner; behåll format- och API-namn. |
 | log file | loggfil | Gäller filer som delas vid felsökning. |
 | unread | oläst | Används i filter och status för aviseringar. |
