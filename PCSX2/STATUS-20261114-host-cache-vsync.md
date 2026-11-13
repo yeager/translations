@@ -19,3 +19,12 @@ oförändrat.
 XML, l10n-lint, platshållarkontroll, Hunspell-sv på enbart batchens måltext,
 svlang, diffkontroll och Gitleaks ska köras före arkivering och API-import.
 `msgfmt` är inte tillämpligt på XLIFF.
+
+## Verifierat inskick
+
+Crowdins API importerade deltafilen till projekt `561203`, fil `15` och
+språket `sv-SE`: 4 strängar och 25 ord importerades, 0 godkändes automatiskt
+och 0 hoppades över. Direkt återläsning bekräftar de ogranskade kandidaterna
+`450021` (`4053`), `450023` (`11512`), `450025` (`11472`) och `450027`
+(`10652`). Upstreamgranskning, aktivt val och merge är fortfarande separata
+och inte verifierade.
