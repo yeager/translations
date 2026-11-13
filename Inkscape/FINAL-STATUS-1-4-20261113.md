@@ -18,6 +18,10 @@ Datum: 13 november 2026.
 - `hunspell-sv`: träffar endast domänspecifika och korrekta ord: `Affinity-filer`, `dubblettnoder` och `importeraren`.
 - `git diff --check` och Gitleaks: godkända.
 
+## Upstreamstatus
+
+Direktavläsning från Weblate den 13 november 2026 visar 10 913 av 10 913 poster översatta, 0 fuzzy-poster och 331 poster med fallerande Weblate-kontroller. De 331 kontrollerna är ett separat kvarvarande kvalitetsarbete och ska inte förväxlas med de lokala verktygsresultaten ovan.
+
 ## Status
 
-Lokalt radgranskad, arkiverad, pushad till `yeager/translations`, uppladdad till Weblate och återläst. Weblates granskningsstatus är avstängd för komponenten, så inga poster kan märkas som granskade i tjänsten.
+Lokalt radgranskad, arkiverad, pushad till `yeager/translations`, uppladdad till Weblate och återläst. Weblates granskningsstatus är avstängd för komponenten, så inga poster kan märkas som granskade i tjänsten. Weblates kvarvarande kontrollvarningar är ännu inte kategoriserade eller åtgärdade.
