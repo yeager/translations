@@ -115,3 +115,12 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | command turret | befälstorn | Torn som samordnar tilldelade enheter. |
 | power suit | stridsdräkt | Synapslänksstyrd militär utrustning i kampanjberättelsen. |
 | Nexus Intruder Program | NEXUS Intruder-program | Produktnamn med svensk funktionsdel. |
+
+## NASDA och kampanj 2
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| NASDA | NASDA | Behålls som organisationsnamn; Nordamerikanska strategiska försvarsmyndigheten i förklarande text. |
+| LasSat | LasSat | Systemspecifikt namn för lasersatellit. |
+| counterstrike | motanfall | Kärnvapenkontext i kampanjens historik. |
+| Nexus Intruder Virus | NEXUS Intruder-virus | Namn med svensk funktionsdel. |
