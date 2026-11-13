@@ -1,0 +1,179 @@
+From b8a6c0d395e193edbd5309a000f7cca138d348b5 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:41:59 +0100
+Subject: [PATCH] l10n(sv): review spectrum plugins and labels
+
+---
+ au3/locale/sv.po | 42 +++++++++++++++++++++---------------------
+ 1 file changed, 21 insertions(+), 21 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 6c8ab12..8601dae 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -8071,7 +8071,7 @@ msgstr "Standardautokorrelation"
+ 
+ #: src/FreqWindow.cpp
+ msgid "Cuberoot Autocorrelation"
+-msgstr "Cuberoot-autokorrelation"
++msgstr "Kubikrotsautokorrelation"
+ 
+ #: src/FreqWindow.cpp
+ msgid "Enhanced Autocorrelation"
+@@ -8090,7 +8090,7 @@ msgstr "Cepstrum"
+ #: src/FreqWindow.cpp
+ #, c-format
+ msgid "%s window"
+-msgstr "%s fönster"
++msgstr "%s-fönster"
+ 
+ #: src/FreqWindow.cpp
+ msgid "Linear frequency"
+@@ -8098,7 +8098,7 @@ msgstr "Linjär frekvens"
+ 
+ #: src/FreqWindow.cpp
+ msgid "Log frequency"
+-msgstr "Log frekvens"
++msgstr "Logaritmisk frekvens"
+ 
+ #. i18n-hint: short form of 'decibels'.
+ #: src/FreqWindow.cpp src/effects/AutoDuck.cpp src/effects/EqualizationUI.cpp
+@@ -8144,7 +8144,7 @@ msgstr "&Exportera..."
+ 
+ #: src/FreqWindow.cpp
+ msgid "&Function:"
+-msgstr "&Funktioner:"
++msgstr "&Funktion:"
+ 
+ #: src/FreqWindow.cpp
+ msgid "&Axis:"
+@@ -8156,15 +8156,15 @@ msgstr "&Rita ut igen..."
+ 
+ #: src/FreqWindow.cpp
+ msgid "To plot the spectrum, all selected tracks must have the same sample rate."
+-msgstr "För att plotta spektrumet måste alla valda spår ha samma samplingshastighet."
++msgstr "För att rita spektrumet måste alla valda spår ha samma samplingsfrekvens."
+ 
+ #: src/FreqWindow.cpp
+ msgid ""
+ "Audio could not be analyzed. This may be due to a stretched or pitch-shifted clip.\n"
+ "Try resetting any stretched clips, or mixing and rendering the tracks before analyzing"
+ msgstr ""
+-"Ljudet kunde inte analyseras. Detta kan bero på ett stretchat eller tonhöjdsförskjutet klipp.\n"
+-"Försök att återställa eventuella stretchade klipp, eller mixa och rendera spåren innan du analyserar"
++"Ljudet kunde inte analyseras. Det kan bero på ett tidsutsträckt eller tonhöjdsförskjutet klipp.\n"
++"Försök återställa tidsutsträckta klipp eller mixa och återge spåren före analysen"
+ 
+ #: src/FreqWindow.cpp
+ #, c-format
+@@ -8212,7 +8212,7 @@ msgstr "spectrum.txt"
+ 
+ #: src/FreqWindow.cpp
+ msgid "Export Spectral Data As:"
+-msgstr "Exportera spektrumsdata som:"
++msgstr "Exportera spektraldata som:"
+ 
+ #: src/FreqWindow.cpp
+ msgid "Frequency (Hz)\tLevel (dB)"
+@@ -8246,7 +8246,7 @@ msgstr "&Hantera historik"
+ 
+ #: src/HistoryWindow.cpp src/effects/TruncSilence.cpp
+ msgid "Action"
+-msgstr "Handling"
++msgstr "Åtgärd"
+ 
+ #: src/HistoryWindow.cpp
+ msgid "Used Space"
+@@ -8284,7 +8284,7 @@ msgstr "&Packa"
+ #: src/HistoryWindow.cpp src/ProjectFileManager.cpp
+ #, c-format
+ msgid "Compacting actually freed %s of disk space."
+-msgstr "Packar och frigör %s av hårddiskutrymmet."
++msgstr "Komprimeringen frigjorde %s diskutrymme."
+ 
+ #. i18n-hint: Clicking this menu item shows the various editing steps
+ #. that have been taken.
+@@ -8294,25 +8294,25 @@ msgstr "&Historik"
+ 
+ #: src/IncompatiblePluginsDialog.cpp
+ msgid "New Plugins"
+-msgstr "Nya plugins"
++msgstr "Nya insticksmoduler"
+ 
+ #: src/IncompatiblePluginsDialog.cpp
+ msgid "Incompatible plugin(s) found"
+-msgstr "Inkompatibla plungin(s) hittade"
++msgstr "Inkompatibla insticksmoduler hittades"
+ 
+ #: src/IncompatiblePluginsDialog.cpp
+ msgid "&Manage Plugins"
+-msgstr "&Hantera Plugins"
++msgstr "&Hantera insticksmoduler"
+ 
+ #: src/IncompatiblePluginsDialog.cpp
+ #, c-format
+ msgid "Audacity has found %d incompatible plugins which could not be loaded. We have disabled these plugins to avoid any stalling or crashes. If you would still like to attempt to use these plugins, you can enable them using \"Manage Plugins\". Otherwise, select \"Continue\"."
+-msgstr "Audacity har hittat %d inkompatibla plugins som inte kunde laddas. Vi har inaktiverat dessa plugins för att undvika att de stannar eller kraschar. Om du fortfarande vill försöka använda dessa plugins kan du aktivera dem med \"Hantera plugins\". Annars väljer du \"Fortsätt\"."
++msgstr "Audacity har hittat %d inkompatibla insticksmoduler som inte kunde läsas in. De har inaktiverats för att undvika att programmet låser sig eller kraschar. Om du ändå vill försöka använda dem kan du aktivera dem med \"Hantera insticksmoduler\". Annars väljer du \"Fortsätt\"."
+ 
+ #: src/IncompatiblePluginsDialog.cpp
+ #, c-format
+ msgid "Audacity has found %d incompatible plugins which could not be loaded. We have disabled these plugins to avoid any stalling or crashes."
+-msgstr "Audacity har hittat %d inkompatibla plugins som inte kunde laddas. Vi har inaktiverat dessa plugins för att undvika att de stannar eller kraschar."
++msgstr "Audacity har hittat %d inkompatibla insticksmoduler som inte kunde läsas in. De har inaktiverats för att undvika att programmet låser sig eller kraschar."
+ 
+ #: src/JournalEvents.cpp
+ msgid "Journal recording failed"
+@@ -8397,11 +8397,11 @@ msgstr "Etikettspår"
+ 
+ #: src/LabelTrack.cpp
+ msgid "SubRip text file"
+-msgstr "SubRib text fil"
++msgstr "SubRip-textfil"
+ 
+ #: src/LabelTrack.cpp
+ msgid "WebVTT file"
+-msgstr "WebVTT fil"
++msgstr "WebVTT-fil"
+ 
+ #: src/LabelTrack.cpp src/commands/GetInfoCommand.cpp
+ #: src/commands/GetTrackInfoCommand.cpp src/export/ExportAudioDialog.cpp
+@@ -8436,7 +8436,7 @@ msgstr "Första gången Audacity körs"
+ 
+ #: src/LangChoice.cpp
+ msgid "Choose Language for Audacity to use:"
+-msgstr "Ändra språket för Audacity att använda:"
++msgstr "Välj språk för Audacity:"
+ 
+ #. i18n-hint: The %s's are replaced by translated and untranslated
+ #. * versions of language names.
+@@ -8447,7 +8447,7 @@ msgstr "Språket du valde, %s (%s), är inte densamma som systemspråket, %s (%s
+ 
+ #: src/Legacy.cpp
+ msgid "Error Converting Legacy Project File"
+-msgstr "Fel uppstod när ursprungligt projektet konverterades"
++msgstr "Fel vid konvertering av äldre projektfil"
+ 
+ #: src/Legacy.cpp
+ #, c-format
+@@ -8473,7 +8473,7 @@ msgstr "Genvägar har raderats"
+ #: src/MixerBoard.cpp
+ #, c-format
+ msgid "Audacity Mixer%s"
+-msgstr "Audacity mixer%s"
++msgstr "Audacity-mixer%s"
+ 
+ #. i18n-hint: title of the Gain slider, used to adjust the volume
+ #. i18n-hint: Title of the Gain slider, used to adjust the volume
+@@ -8489,7 +8489,7 @@ msgstr "Förstärkning"
+ #: src/tracks/playabletrack/notetrack/ui/NoteTrackControls.cpp
+ #: src/tracks/playabletrack/notetrack/ui/NoteTrackSliderHandles.cpp
+ msgid "Velocity"
+-msgstr "Hastighet"
++msgstr "Anslagsstyrka"
+ 
+ #: src/MixerBoard.cpp
+ msgid "Musical Instrument"
+-- 
+2.54.0 (Apple Git-157)
+
