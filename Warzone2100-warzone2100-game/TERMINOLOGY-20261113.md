@@ -88,3 +88,12 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | rocket / mini-rocket | robot / minirobot | Svensk vapenterminologi i denna spelkontext. |
 | rate of fire (ROF) | eldhastighet | Teknisk vapenspecifikation. |
 | armor-piercing | pansarbrytande | Ammunition och stridsspetsar. |
+
+## Kampanjmål och huvud-UI
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| manufacture | tillverkning | Huvudfunktion i spelgränssnittet. |
+| constructor droid | konstruktionsdroid | Droid som bygger strukturer. |
+| intelligence display | underrättelsevy | Spelgränssnittets informationsvy. |
+| HQ | högkvarter | Byggnad och taktisk funktion. |
