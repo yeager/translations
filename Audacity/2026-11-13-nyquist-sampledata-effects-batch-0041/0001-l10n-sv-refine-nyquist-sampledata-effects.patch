@@ -1,0 +1,144 @@
+From 05a513d4bf51e4ffa75df5b009c3bf3beb543a8b Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 15:59:56 +0100
+Subject: [PATCH] l10n(sv): refine Nyquist sample data and effects
+
+---
+ au3/locale/sv.po | 30 +++++++++++++++---------------
+ 1 file changed, 15 insertions(+), 15 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 2d16f37..233eb86 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -21018,7 +21018,7 @@ msgstr "Indexerad tid"
+ 
+ #: plug-ins/sample-data-export.ny
+ msgid "Include header information"
+-msgstr "Inkludera sidhuvudsinformation"
++msgstr "Inkludera rubrikinformation"
+ 
+ #: plug-ins/sample-data-export.ny
+ msgid "Minimal"
+@@ -21030,7 +21030,7 @@ msgstr "Valfri sidhuvudstext"
+ 
+ #: plug-ins/sample-data-export.ny
+ msgid "Channel layout for stereo"
+-msgstr "Kanalutseende för stereo"
++msgstr "Kanalordning för stereo"
+ 
+ #. i18n-hint: Left and Right
+ #: plug-ins/sample-data-export.ny
+@@ -21101,7 +21101,7 @@ msgid ""
+ "                  DC offset: ~a~a"
+ msgstr ""
+ "~a~%Samplingshastighet: ~a Hz. Samplingsvärden på skalan ~a. ~a.~%~aBearbetad längd: ~a ~\n"
+-"                  samplingar, ~a sekunder.~%Maximal amplitud: ~a (linjär) ~a dB.  Unweighted RMS: ~a dB.~%~\n"
++"                  samplingar, ~a sekunder.~%Maximal amplitud: ~a (linjär) ~a dB.  Oviktad RMS: ~a dB.~%~\n"
+ "                  DC-offset: ~a~a"
+ 
+ #: plug-ins/sample-data-export.ny
+@@ -21143,7 +21143,7 @@ msgstr "<b>Maximal amplitud:</b> &nbsp;&nbsp;~a (linjär) &nbsp;&nbsp;~a dB."
+ #: plug-ins/sample-data-export.ny
+ #, lisp-format
+ msgid "<b>RMS</b> (unweighted): &nbsp;&nbsp;~a dB."
+-msgstr "<b>RMS</b> (ouppskattad): &nbsp;&nbsp;~a dB."
++msgstr "<b>RMS</b> (oviktad): &nbsp;&nbsp;~a dB."
+ 
+ #. i18n-hint: DC derives from "direct current" in electronics, really means the zero frequency component of a signal
+ #: plug-ins/sample-data-export.ny
+@@ -21179,7 +21179,7 @@ msgstr "Värde (dB)"
+ 
+ #: plug-ins/sample-data-export.ny
+ msgid "audio sample value analysis"
+-msgstr "värdesanalys av ljudsamling"
++msgstr "analys av ljudsamplingsvärden"
+ 
+ #: plug-ins/sample-data-export.ny
+ msgid "Left (linear)"
+@@ -21268,7 +21268,7 @@ msgstr "Ogiltig datahantering"
+ 
+ #: plug-ins/sample-data-import.ny
+ msgid "Throw Error"
+-msgstr "Kasta fel"
++msgstr "Rapportera fel"
+ 
+ #: plug-ins/sample-data-import.ny
+ msgid "Read as Zero"
+@@ -21304,7 +21304,7 @@ msgid ""
+ "              '~a' is not a numeric value."
+ msgstr ""
+ "Fel~%~\n"
+-"              Data måste vara siffror i vanlig ASCII-text.~%~\n"
++"              Data måste bestå av tal i vanlig ASCII-text.~%~\n"
+ "              \"~a\" är inte ett numeriskt värde."
+ 
+ #: plug-ins/sample-data-import.ny
+@@ -21314,12 +21314,12 @@ msgstr "Fel.~%Kan inte öppna fil"
+ 
+ #: plug-ins/spectral-delete.ny resources/EffectsMenuDefaults.xml
+ msgid "Spectral Delete"
+-msgstr "Spektrum radera"
++msgstr "Spektral radering"
+ 
+ #: plug-ins/spectral-delete.ny
+ #, lisp-format
+ msgid "Error.~%Track sample rate below 100 Hz is not supported."
+-msgstr "Fel.~%Spår sample rate under 100 Hz stöds inte."
++msgstr "Fel.~%Samplingsfrekvenser för spår under 100 Hz stöds inte."
+ 
+ #: plug-ins/tremolo.ny resources/EffectsMenuDefaults.xml
+ msgid "Tremolo"
+@@ -21343,11 +21343,11 @@ msgstr "Startfas (grader)"
+ 
+ #: plug-ins/tremolo.ny
+ msgid "Wet level (percent)"
+-msgstr "Wet-nivå (procent)"
++msgstr "Effektnivå (procent)"
+ 
+ #: plug-ins/vocoder.ny resources/EffectsMenuDefaults.xml
+ msgid "Vocoder"
+-msgstr "Vocoder"
++msgstr "Vokoder"
+ 
+ #: plug-ins/vocoder.ny
+ msgid "Edgar-RFT and Steve Daulton"
+@@ -21359,7 +21359,7 @@ msgstr "Avstånd: (1 till 120, standard är 20)"
+ 
+ #: plug-ins/vocoder.ny
+ msgid "Output choice"
+-msgstr "Val av utmatning"
++msgstr "Val av utgång"
+ 
+ #: plug-ins/vocoder.ny
+ msgid "Both Channels"
+@@ -21371,7 +21371,7 @@ msgstr "Endast höger"
+ 
+ #: plug-ins/vocoder.ny
+ msgid "Number of vocoder bands"
+-msgstr "Antal vocoder-band"
++msgstr "Antal vokoderband"
+ 
+ #: plug-ins/vocoder.ny
+ msgid "Amplitude of carrier wave (percent)"
+@@ -21402,7 +21402,7 @@ msgstr "Volym och komprimering"
+ #. Effects menu group name
+ #: resources/EffectsMenuDefaults.xml
+ msgid "Fading"
+-msgstr "Uttoning"
++msgstr "Toning"
+ 
+ #: resources/EffectsMenuDefaults.xml
+ msgid "Pitch and Tempo"
+@@ -21414,7 +21414,7 @@ msgstr "EQ och filter"
+ 
+ #: resources/EffectsMenuDefaults.xml
+ msgid "Noise Removal and Repair"
+-msgstr "Brusreducering och reparera"
++msgstr "Brusreducering och reparation"
+ 
+ #: resources/EffectsMenuDefaults.xml
+ msgid "Delay and Reverb"
+-- 
+2.54.0 (Apple Git-157)
+
