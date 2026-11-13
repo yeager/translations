@@ -2,6 +2,8 @@
 
 Senast kontrollerat: 2026-11-13.
 
+Utvecklingsgrenens UI-katalog (`master/inkscape`) radgranskades i sin helhet mot en återläst Weblate-export med 11 245 aktiva poster. Exporten har inga aktiva oöversatta poster; föråldrade fuzzy-poster räknas inte som aktiva översättningar. Weblate-granskning är avstängd för komponenten.
+
 Weblate-projektet har 26 komponenter. Svenska finns och är helt översatt i utvecklingsgrenens UI, 1.4.x-komponenterna samt tillgängliga nyckel-, manual- och självstudiekomponenter. Komponenten **Windows store** har endast en tom engelsk resurs och saknar svenska strängar, så den har inget översättningsarbete.
 
 | Datum | Komponent | Granskat/ändrat | Status |
@@ -122,3 +124,4 @@ Se `TERMINOLOGY.md` för projektets svenska termer och `Weblate/2026-11-13/dev-u
 | 2026-11-13 | `master/inkscape`, poster 10901-11000 | 27 språk- och korrekturfel | Arkiverat och inskickat via Weblate API; 27 accepterade, 0 hoppades över och 0 saknade. Weblate-granskning är avstängd för komponenten |
 | 2026-11-13 | `master/inkscape`, poster 11001-11100 | 43 språk- och korrekturfel | Arkiverat och inskickat via Weblate API; 43 accepterade, 0 hoppades över och 0 saknade. Weblate-granskning är avstängd för komponenten |
 | 2026-11-13 | `master/inkscape`, poster 11101-11200 | 41 språk- och korrekturfel | Arkiverat och inskickat via Weblate API; 40 accepterade, 1 redan aktuell hoppades över och 0 saknade. Weblate-granskning är avstängd för komponenten |
+| 2026-11-13 | `master/inkscape`, poster 11201-11245 | 7 språk- och korrekturfel | Arkiverat och inskickat via Weblate API; 6 accepterade, 1 redan aktuell hoppades över och 0 saknade. Weblate-granskning är avstängd för komponenten |
