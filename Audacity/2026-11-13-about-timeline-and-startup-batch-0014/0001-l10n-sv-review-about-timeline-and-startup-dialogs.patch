@@ -1,0 +1,333 @@
+From 3212f00f12da07ab108f63ee7f15f7bb4621a70b Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:35:54 +0100
+Subject: [PATCH] l10n(sv): review about timeline and startup dialogs
+
+---
+ au3/locale/sv.po | 86 ++++++++++++++++++++++++------------------------
+ 1 file changed, 43 insertions(+), 43 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index c504e19..d1b58d5 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -6569,7 +6569,7 @@ msgstr "<h3>"
+ #: src/AboutDialog.cpp
+ #, c-format
+ msgid "%s the free, open source, cross-platform software for recording and editing sounds."
+-msgstr "%s är den fria, plattformsoberoende mjukvaran med öppen källkod för att spela in och redigera ljud."
++msgstr "%s är den fria programvaran med öppen källkod för inspelning och redigering av ljud på flera plattformar."
+ 
+ #: src/AboutDialog.cpp
+ msgid "Credits"
+@@ -6579,7 +6579,7 @@ msgstr "Tack till"
+ #: src/AboutDialog.cpp
+ #, c-format
+ msgid "%s Team Members"
+-msgstr "%s Teammedlemmar"
++msgstr "%s teammedlemmar"
+ 
+ #: src/AboutDialog.cpp
+ msgid "Emeritus:"
+@@ -6624,7 +6624,7 @@ msgstr "%s webbplats: "
+ #: src/AboutDialog.cpp
+ #, c-format
+ msgid "%s software is copyright %s 1999-2024 %s Team."
+-msgstr "%s mjukvaran är copyrightskyddad %s 1999-2023 %s Team."
++msgstr "%s-programvaran har upphovsrättsskydd %s 1999-2024 %s Team."
+ 
+ #. i18n-hint Audacity's name substitutes for %s
+ #: src/AboutDialog.cpp
+@@ -6644,11 +6644,11 @@ msgstr "Aktiverad"
+ #. i18n-hint: Information about when audacity was compiled follows
+ #: src/AboutDialog.cpp
+ msgid "The Build"
+-msgstr "Konstruktion"
++msgstr "Bygget"
+ 
+ #: src/AboutDialog.cpp
+ msgid "Program build date:"
+-msgstr "Programmet skapades den:"
++msgstr "Datum då programmet byggdes:"
+ 
+ #: src/AboutDialog.cpp
+ msgid "Commit Id:"
+@@ -6657,22 +6657,22 @@ msgstr "Commit-ID:"
+ #: src/AboutDialog.cpp
+ #, c-format
+ msgid "Debug build (debug level %d)"
+-msgstr "Felsökning gjord (debug level %d)"
++msgstr "Felsökningsbygge (felsökningsnivå %d)"
+ 
+ #: src/AboutDialog.cpp
+ #, c-format
+ msgid "Release build (debug level %d)"
+-msgstr "Utgivning (debug nivå %d)"
++msgstr "Releasebygge (felsökningsnivå %d)"
+ 
+ #: src/AboutDialog.cpp
+ #, c-format
+ msgid "%s, 64 bits"
+-msgstr "%s, 64 bits"
++msgstr "%s, 64 bitar"
+ 
+ #: src/AboutDialog.cpp
+ #, c-format
+ msgid "%s, 32 bits"
+-msgstr "%s, 32 bits"
++msgstr "%s, 32 bitar"
+ 
+ #: src/AboutDialog.cpp
+ msgid "Build type:"
+@@ -6689,7 +6689,7 @@ msgstr "Installationsprefix:"
+ 
+ #: src/AboutDialog.cpp
+ msgid "Cache folder:"
+-msgstr "Cache mapp:"
++msgstr "Cachekatalog:"
+ 
+ #: src/AboutDialog.cpp
+ msgid "Settings folder:"
+@@ -6701,7 +6701,7 @@ msgstr "Datamapp:"
+ 
+ #: src/AboutDialog.cpp
+ msgid "State folder:"
+-msgstr "State folder:"
++msgstr "Tillståndskatalog:"
+ 
+ #. i18n-hint: Libraries that are essential to audacity
+ #: src/AboutDialog.cpp
+@@ -6714,7 +6714,7 @@ msgstr "Plattformsoberoende gränssnittsbibliotek"
+ 
+ #: src/AboutDialog.cpp
+ msgid "Audio playback and recording"
+-msgstr "Upp- och inspelning av ljud"
++msgstr "Ljuduppspelning och inspelning"
+ 
+ #: src/AboutDialog.cpp
+ msgid "Sample rate conversion"
+@@ -6722,17 +6722,17 @@ msgstr "Konvertering av samplingsfrekvens"
+ 
+ #: src/AboutDialog.cpp
+ msgid "File Format Support"
+-msgstr "Stöd av filformat"
++msgstr "Stöd för filformat"
+ 
+ #: src/AboutDialog.cpp
+ msgid "MP3 Import"
+-msgstr "MP3 Import"
++msgstr "MP3-import"
+ 
+ #. i18n-hint: LAME is the codec name. This name should not be translated
+ #.
+ #: src/AboutDialog.cpp
+ msgid "MP3 Export"
+-msgstr "MP3 Export"
++msgstr "MP3-export"
+ 
+ #. i18n-hint: Opus is the codec name. This name should not be translated
+ #.
+@@ -6741,7 +6741,7 @@ msgstr "MP3 Export"
+ #.
+ #: src/AboutDialog.cpp
+ msgid "Opus Import and Export"
+-msgstr "Opus Import och Export"
++msgstr "Opus-import och -export"
+ 
+ #. i18n-hint: Ogg is the container format. Vorbis is the compression codec.
+ #. * Both are proper nouns and shouldn't be translated
+@@ -6769,7 +6769,7 @@ msgstr "Import-/exportbibliotek för FFmpeg"
+ 
+ #: src/AboutDialog.cpp
+ msgid "Features"
+-msgstr "Innehåll"
++msgstr "Funktioner"
+ 
+ #: src/AboutDialog.cpp
+ msgid "Plug-in support"
+@@ -6790,7 +6790,7 @@ msgstr "Stöd för extrem ändring av tonhöjd och tempo"
+ #: src/AboutDialog.cpp
+ msgctxt "about dialog"
+ msgid "Legal"
+-msgstr "Legal"
++msgstr "Juridik"
+ 
+ #: src/AboutDialog.cpp
+ msgid "GPL License"
+@@ -6800,7 +6800,7 @@ msgstr "GPL-licens"
+ #: src/AboutDialog.cpp
+ msgctxt "about dialog"
+ msgid "PRIVACY POLICY"
+-msgstr "PRIVACY POLICY"
++msgstr "INTEGRITETSPOLICY"
+ 
+ #: src/AboutDialog.cpp
+ msgid "App update checking and error reporting require network access. These features are optional."
+@@ -6811,11 +6811,11 @@ msgstr "För att kontrollera om uppdateringar finns och rapportera buggar krävs
+ #: src/update/UpdateNoticeDialog.cpp
+ #, c-format
+ msgid "See %s for more info."
+-msgstr "Se %s för mer detaljer."
++msgstr "Se %s för mer information."
+ 
+ #: src/AdornedRulerPanel.cpp
+ msgid "Click and drag to define a looping region."
+-msgstr "Klicka och dra för att markera loopområde."
++msgstr "Klicka och dra för att ange ett slingområde."
+ 
+ #: src/AdornedRulerPanel.cpp
+ msgid "Timeline actions disabled during recording"
+@@ -6829,7 +6829,7 @@ msgstr "Klicka och dra för att justera, dubbelklicka för att återställa"
+ #. the temporal position in the audio.
+ #: src/AdornedRulerPanel.cpp
+ msgid "Record/Playhead"
+-msgstr "Spela in/upp"
++msgstr "Inspelnings-/uppspelningshuvud"
+ 
+ #: src/AdornedRulerPanel.cpp
+ msgid "Timeline"
+@@ -6841,7 +6841,7 @@ msgstr "Tidslinje"
+ #.
+ #: src/AdornedRulerPanel.cpp
+ msgid "Click or drag to begin Seek"
+-msgstr "Klicka och dra för att redigera samplingar"
++msgstr "Klicka eller dra för att börja söka"
+ 
+ #. i18n-hint: These commands assist the user in finding a sound by ear. ...
+ #. "Scrubbing" is variable-speed playback, ...
+@@ -6849,7 +6849,7 @@ msgstr "Klicka och dra för att redigera samplingar"
+ #.
+ #: src/AdornedRulerPanel.cpp
+ msgid "Click or drag to begin Scrub"
+-msgstr "Klicka och dra för att börja använda scrubbing"
++msgstr "Klicka eller dra för att börja snabblyssna"
+ 
+ #. i18n-hint: These commands assist the user in finding a sound by ear. ...
+ #. "Scrubbing" is variable-speed playback, ...
+@@ -6857,7 +6857,7 @@ msgstr "Klicka och dra för att börja använda scrubbing"
+ #.
+ #: src/AdornedRulerPanel.cpp
+ msgid "Click & move to Scrub. Click & drag to Seek."
+-msgstr "Klicka och flytta för att använda scrubbing. Klicka och dra för att söka."
++msgstr "Klicka och flytta för att snabblyssna. Klicka och dra för att söka."
+ 
+ #. i18n-hint: These commands assist the user in finding a sound by ear. ...
+ #. "Scrubbing" is variable-speed playback, ...
+@@ -6873,7 +6873,7 @@ msgstr "Flytta för att söka"
+ #.
+ #: src/AdornedRulerPanel.cpp
+ msgid "Move to Scrub"
+-msgstr "Flytta för att använda scrubbing"
++msgstr "Flytta för att snabblyssna"
+ 
+ #: src/AdornedRulerPanel.cpp
+ msgid "Drag to Seek. Release to stop seeking."
+@@ -6881,11 +6881,11 @@ msgstr "Dra för att söka. Släpp för att sluta söka."
+ 
+ #: src/AdornedRulerPanel.cpp
+ msgid "Drag to Seek. Release and move to Scrub."
+-msgstr "Dra för att söka. Släpp och flytta för att använda scrubbing."
++msgstr "Dra för att söka. Släpp och flytta för att snabblyssna."
+ 
+ #: src/AdornedRulerPanel.cpp
+ msgid "Move to Scrub. Drag to Seek."
+-msgstr "Flytta för att använda scrubbing. Dra för att söka."
++msgstr "Flytta för att snabblyssna. Dra för att söka."
+ 
+ #: src/AdornedRulerPanel.cpp
+ msgid "Quick-Play disabled"
+@@ -6897,7 +6897,7 @@ msgstr "Snabbuppspelning är aktiverat"
+ 
+ #: src/AdornedRulerPanel.cpp
+ msgid "Timeline Options"
+-msgstr "Alternativ för Timeline"
++msgstr "Tidslinjealternativ"
+ 
+ #: src/AdornedRulerPanel.cpp src/TimeDisplayMode.cpp
+ #: src/menus/TimelineMenus.cpp
+@@ -6907,7 +6907,7 @@ msgstr "Minuter och sekunder"
+ #: src/AdornedRulerPanel.cpp src/TimeDisplayMode.cpp
+ #: src/menus/TimelineMenus.cpp
+ msgid "Beats and Measures"
+-msgstr "Beats and Measures"
++msgstr "Taktslag och takter"
+ 
+ #: src/AdornedRulerPanel.cpp
+ msgid "Setting a loop region also makes an audio selection"
+@@ -6952,11 +6952,11 @@ msgstr ""
+ 
+ #: src/AudacityApp.cpp
+ msgid "SQLite library failed to initialize.  Audacity cannot continue."
+-msgstr "SQLites bibliotek kunde inte startas. Audacity kan inte fortsätta."
++msgstr "SQLite-biblioteket kunde inte initieras. Audacity kan inte fortsätta."
+ 
+ #: src/AudacityApp.cpp
+ msgid "Block size must be within 256 to 100000000\n"
+-msgstr "Blockstorleken måste vara mellan 256 till 100000000\n"
++msgstr "Blockstorleken måste vara mellan 256 och 100000000\n"
+ 
+ #: src/AudacityApp.cpp
+ msgid "Audacity is starting up..."
+@@ -6994,21 +6994,21 @@ msgid ""
+ "Audacity needs a place where automatic cleanup programs won't delete the temporary files.\n"
+ "Please enter an appropriate directory in the preferences dialog."
+ msgstr ""
+-"Audacity kunde inte hitta säker plats att spara temporära filer. \n"
+-"Audacity behöver en plats där automatiserade upprensningsprogram inte raderar temporära filer.\n"
+-"Var vänlig och skriv in lämplig katalog i inställningarna."
++"Audacity kunde inte hitta en säker plats för tillfälliga filer.\n"
++"Audacity behöver en plats där automatiska rensningsprogram inte tar bort filerna.\n"
++"Ange en lämplig katalog i inställningarna."
+ 
+ #: src/AudacityApp.cpp
+ msgid ""
+ "Audacity could not find a place to store temporary files.\n"
+ "Please enter an appropriate directory in the preferences dialog."
+ msgstr ""
+-"Audacity kunde inte hitta plats att spara temporära filer. \n"
+-"Var vänlig och skriv in lämplig plats i inställningarna."
++"Audacity kunde inte hitta en plats för tillfälliga filer.\n"
++"Ange en lämplig katalog i inställningarna."
+ 
+ #: src/AudacityApp.cpp
+ msgid "Audacity is now going to exit. Please launch Audacity again to use the new temporary directory."
+-msgstr "Audacity kommer nu att avslutas. Var vänlig och starta om Audacity för att använda den nya temporära katalogen."
++msgstr "Audacity avslutas nu. Starta Audacity igen för att använda den nya katalogen för tillfälliga filer."
+ 
+ #: src/AudacityApp.cpp
+ msgid ""
+@@ -7034,7 +7034,7 @@ msgstr "Vill du ändå starta Audacity?"
+ 
+ #: src/AudacityApp.cpp
+ msgid "Error Locking Temporary Folder"
+-msgstr "Fel uppstod när temporär mapp låstes"
++msgstr "Fel när katalogen för tillfälliga filer låstes"
+ 
+ #: src/AudacityApp.cpp
+ msgid "The system has detected that another copy of Audacity is running.\n"
+@@ -7065,7 +7065,7 @@ msgstr ""
+ 
+ #: src/AudacityApp.cpp
+ msgid "Audacity Startup Failure"
+-msgstr "Audacity uppstart fel"
++msgstr "Audacity kunde inte starta"
+ 
+ #: src/AudacityApp.cpp
+ msgid ""
+@@ -7074,10 +7074,10 @@ msgid ""
+ "This is likely due to a resource shortage\n"
+ "and a reboot may be required."
+ msgstr ""
+-"Unable to acquire semaphores.\n"
++"Kunde inte hämta semaforer.\n"
+ "\n"
+-"This is likely due to a resource shortage\n"
+-"and a reboot may be required."
++"Det beror troligen på resursbrist\n"
++"och datorn kan behöva startas om."
+ 
+ #: src/AudacityApp.cpp
+ msgid ""
+-- 
+2.54.0 (Apple Git-157)
+
