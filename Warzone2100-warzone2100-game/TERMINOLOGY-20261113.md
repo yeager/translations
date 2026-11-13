@@ -169,3 +169,13 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | replay | repris | Inspelad match i användargränssnittet. |
 | graphics backend | grafikrutin | Valbar teknisk grafikimplementation vid start. |
 | lobby server | lobbyserver | Server för offentliga matchlistningar. |
+
+## Luftvärn och vapenforskning
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| AA / flak | luftvärn / luftvärnsflak | Luftförsvar och dess vapenklass. |
+| ammunition hopper | ammunitionsmatare | Matning av luftvärnsammunition. |
+| chainfeed loader | kedjematare | Matningsmekanism för luftvärn. |
+| target acquisition | målsökning | Målfångst för luftvärnseld. |
+| hardpoint | värn | Befäst vapenplats. |
