@@ -1,0 +1,647 @@
+From c2b55e8d7792863fbf7b96886f69ec8d264dc531 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:54:57 +0100
+Subject: [PATCH] l10n(sv): review command and effect dialogs
+
+---
+ au3/locale/sv.po | 174 +++++++++++++++++++++++------------------------
+ 1 file changed, 87 insertions(+), 87 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 353ef76..a4bd10a 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -10661,7 +10661,7 @@ msgstr "Välj spår..."
+ 
+ #: src/commands/SelectCommand.h
+ msgid "Selects a time range."
+-msgstr "Välj ett tidsintervall."
++msgstr "Väljer ett tidsintervall."
+ 
+ #: src/commands/SelectCommand.h
+ msgid "Selects a frequency range."
+@@ -10709,7 +10709,7 @@ msgstr "Start:"
+ 
+ #: src/commands/SetClipCommand.cpp
+ msgid "Set Clip..."
+-msgstr "Ändra klipp...."
++msgstr "Ändra klipp..."
+ 
+ #: src/commands/SetClipCommand.h
+ msgid "Sets various values for a clip."
+@@ -10841,7 +10841,7 @@ msgstr "Ändra spårets utseende"
+ #: src/commands/SetTrackInfoCommand.cpp src/prefs/TracksPrefs.cpp
+ #: src/prefs/WaveformSettings.cpp
+ msgid "Linear (amp)"
+-msgstr "Linear (amp)"
++msgstr "Linjär (amp)"
+ 
+ #. i18n-hint: abbreviates decibels
+ #: src/commands/SetTrackInfoCommand.cpp src/prefs/TracksPrefs.cpp
+@@ -10853,7 +10853,7 @@ msgstr "Logaritmisk (dB)"
+ #: src/commands/SetTrackInfoCommand.cpp src/prefs/TracksPrefs.cpp
+ #: src/prefs/WaveformSettings.cpp
+ msgid "Linear (dB)"
+-msgstr "Linear (dB)"
++msgstr "Linjär (dB)"
+ 
+ #: src/commands/SetTrackInfoCommand.cpp
+ msgid "Reset"
+@@ -10861,7 +10861,7 @@ msgstr "Återställ"
+ 
+ #: src/commands/SetTrackInfoCommand.cpp
+ msgid "Times 2"
+-msgstr "Tider 2"
++msgstr "Gånger 2"
+ 
+ #: src/commands/SetTrackInfoCommand.cpp
+ msgid "HalfWave"
+@@ -10955,11 +10955,11 @@ msgstr "Till&åt klippning"
+ 
+ #: src/effects/AutoDuck.cpp resources/EffectsMenuDefaults.xml
+ msgid "Auto Duck"
+-msgstr "Automatisk ducking"
++msgstr "Automatisk duckning"
+ 
+ #: src/effects/AutoDuck.cpp
+ msgid "Reduces (ducks) the volume of one or more tracks whenever the volume of a specified \"control\" track reaches a particular level"
+-msgstr "Reducerar (ducking) volymen för ett eller flera spår när volymen för ett specificerat \"kontrolspår\" når en särskild nivå"
++msgstr "Sänker automatiskt volymen för ett eller flera spår när volymen i ett angivet kontrollspår når en viss nivå"
+ 
+ #. i18n-hint: Auto duck is the name of an effect that 'ducks'
+ #. (reduces the volume) of the audio automatically when there is
+@@ -10973,11 +10973,11 @@ msgstr "Du har valt ett spår som inte innehåller ljud. Duckning kan bara bearb
+ #. track.  Not as in 'Donald-Duck'!
+ #: src/effects/AutoDuck.cpp
+ msgid "Auto Duck needs a control track which must be placed below the selected track(s)."
+-msgstr "Automatisk ducking behöver ett kontrollspår som måste vara placerad under valt spår."
++msgstr "Automatisk duckning behöver ett kontrollspår som måste placeras under de valda spåren."
+ 
+ #: src/effects/AutoDuck.cpp
+ msgid "Rendering Control-Track Time-Stretched Audio"
+-msgstr "Rendering Control-Track Time-Stretched Audio"
++msgstr "Återger tidsutsträckt ljud från kontrollspåret"
+ 
+ #: src/effects/AutoDuck.cpp src/effects/TruncSilence.cpp
+ msgid "db"
+@@ -10985,7 +10985,7 @@ msgstr "db"
+ 
+ #: src/effects/AutoDuck.cpp
+ msgid "Duck &amount:"
+-msgstr "Duckings&mängd:"
++msgstr "&Mängd duckning:"
+ 
+ #: src/effects/AutoDuck.cpp
+ msgid "Ma&ximum pause:"
+@@ -11014,15 +11014,15 @@ msgstr "&Tröskel:"
+ 
+ #: src/effects/AutoDuck.cpp
+ msgid "Preview not available"
+-msgstr "Förhandsvisning inte tillgänglig"
++msgstr "Förhandsvisning är inte tillgänglig"
+ 
+ #: src/effects/BasicEffectUIServices.cpp
+ msgid "Presets"
+-msgstr "Förinställning"
++msgstr "Förinställningar"
+ 
+ #: src/effects/BasicEffectUIServices.cpp
+ msgid "Export Effect Parameters"
+-msgstr "Export effektparametrar"
++msgstr "Exportera effektparametrar"
+ 
+ #: src/effects/BasicEffectUIServices.cpp
+ msgid "Import Effect Parameters"
+@@ -11046,7 +11046,7 @@ msgstr "Bas och diskant"
+ 
+ #: src/effects/BassTreble.cpp
+ msgid "Simple tone control effect"
+-msgstr "Kontrolleffekt för enkel ton"
++msgstr "Enkel effekt för tonkontroll"
+ 
+ #: src/effects/BassTreble.cpp
+ msgid "Tone controls"
+@@ -11136,11 +11136,11 @@ msgstr "till oktav"
+ 
+ #: src/effects/ChangePitch.cpp
+ msgid "Semitones (half-steps)"
+-msgstr "Halvtoner (halva tonsteg)"
++msgstr "Halvtoner (halvtonssteg)"
+ 
+ #: src/effects/ChangePitch.cpp
+ msgid "&Semitones (half-steps):"
+-msgstr "&Halvtoner (halva tonsteg):"
++msgstr "&Halvtoner (halvtonssteg):"
+ 
+ #: src/effects/ChangePitch.cpp
+ msgid "Frequency"
+@@ -11174,7 +11174,7 @@ msgstr "Procentuell ändring"
+ 
+ #: src/effects/ChangePitch.cpp src/effects/ChangeTempo.cpp
+ msgid "&Use high quality stretching (slow)"
+-msgstr "&Använd sträckning i hög kvalitet (långsam)"
++msgstr "&Använd tidsutsträckning av hög kvalitet (långsam)"
+ 
+ #: src/effects/ChangeSpeed.cpp
+ msgid "33⅓"
+@@ -11242,7 +11242,7 @@ msgstr "N&uvarande längd:"
+ 
+ #: src/effects/ChangeSpeed.cpp
+ msgid "Current length of selection."
+-msgstr "Nuvarande längd på markering."
++msgstr "Nuvarande längd på markeringen."
+ 
+ #. i18n-hint: changing speed of audio "from" one value "to" another
+ #: src/effects/ChangeSpeed.cpp
+@@ -11325,7 +11325,7 @@ msgstr "Klickborttagning"
+ 
+ #: src/effects/ClickRemoval.cpp
+ msgid "Click Removal is designed to remove clicks on audio tracks"
+-msgstr "Klickborttagning är designad för att ta bort klickningar i ljudspåren"
++msgstr "Klickborttagning är avsedd att ta bort klickljud i ljudspår"
+ 
+ #: src/effects/ClickRemoval.cpp
+ msgid "Algorithm not effective on this audio. Nothing changed."
+@@ -11334,7 +11334,7 @@ msgstr "Algoritmen är inte effektiv i detta ljud. Ingenting ändrades."
+ #: src/effects/ClickRemoval.cpp
+ #, c-format
+ msgid "Selection must be larger than %d samples."
+-msgstr "Markeringen måste vara större än %d samplingar."
++msgstr "Markeringen måste vara större än %d samplar."
+ 
+ #: src/effects/ClickRemoval.cpp
+ msgid "&Threshold (lower is more sensitive):"
+@@ -11354,7 +11354,7 @@ msgstr "Max. spikbredd"
+ 
+ #: src/effects/Compressor.cpp resources/EffectsMenuDefaults.xml
+ msgid "Compressor"
+-msgstr "Komprimerare"
++msgstr "Kompressor"
+ 
+ #: src/effects/Compressor.cpp
+ msgid "Reduces \"dynamic range\", or differences between loud and quiet parts."
+@@ -11366,7 +11366,7 @@ msgstr "Du kan bara mäta ett spår åt gången."
+ 
+ #: src/effects/Contrast.cpp
+ msgid "Please select an audio track."
+-msgstr "Var god välj ett ljudspår."
++msgstr "Välj ett ljudspår."
+ 
+ #: src/effects/Contrast.cpp
+ msgid ""
+@@ -11374,7 +11374,7 @@ msgid ""
+ "Please ensure that audio is selected."
+ msgstr ""
+ "Ogiltig ljudmarkering.\n"
+-"Var god se till att ljudet är markerat."
++"Kontrollera att ljudet är markerat."
+ 
+ #: src/effects/Contrast.cpp
+ msgid ""
+@@ -11515,12 +11515,12 @@ msgstr "Bakgrunden är högre än föregrunden"
+ #. i18n-hint: WCAG2 is the 'Web Content Accessibility Guidelines (WCAG) 2.0', see http://www.w3.org/TR/WCAG20/
+ #: src/effects/Contrast.cpp
+ msgid "WCAG2 Pass"
+-msgstr "WCAG2 genomfördes"
++msgstr "WCAG2 godkänd"
+ 
+ #. i18n-hint: WCAG abbreviates Web Content Accessibility Guidelines
+ #: src/effects/Contrast.cpp
+ msgid "WCAG2 Fail"
+-msgstr "WCAG2 misslyckades"
++msgstr "WCAG2 underkänd"
+ 
+ #. i18n-hint: i.e. difference in loudness at the moment.
+ #: src/effects/Contrast.cpp
+@@ -11539,7 +11539,7 @@ msgstr "%.2f dB"
+ 
+ #: src/effects/Contrast.cpp
+ msgid "No foreground measured"
+-msgstr "Ingen förgrund har mätts"
++msgstr "Ingen förgrundsnivå har mätts"
+ 
+ #: src/effects/Contrast.cpp
+ msgid "Foreground not yet measured"
+@@ -11551,7 +11551,7 @@ msgstr "Mätt bakgrundsnivå"
+ 
+ #: src/effects/Contrast.cpp
+ msgid "No background measured"
+-msgstr "Ingen bakgrund har mätts"
++msgstr "Ingen bakgrundsnivå har mätts"
+ 
+ #: src/effects/Contrast.cpp
+ msgid "Background not yet measured"
+@@ -11578,12 +11578,12 @@ msgstr "Förgrund"
+ #: src/effects/Contrast.cpp
+ #, c-format
+ msgid "Time started = %2d hour(s), %2d minute(s), %.2f seconds."
+-msgstr "Tid startad = %2d tim(mar), %2d minut(er), %.2f sekunder."
++msgstr "Starttid = %2d tim(mar), %2d minut(er), %.2f sekunder."
+ 
+ #: src/effects/Contrast.cpp
+ #, c-format
+ msgid "Time ended = %2d hour(s), %2d minute(s), %.2f seconds."
+-msgstr "Tid slutade = %2d tim(mar), %2d minut(er), %.2f sekunder."
++msgstr "Sluttid = %2d tim(mar), %2d minut(er), %.2f sekunder."
+ 
+ #: src/effects/Contrast.cpp
+ msgid "Background"
+@@ -11595,11 +11595,11 @@ msgstr "Resultat"
+ 
+ #: src/effects/Contrast.cpp
+ msgid "Success Criteria 1.4.7 of WCAG 2.0: Pass"
+-msgstr "Framgångskriterier 1.4.7 av WCAG 2.0: Genomfördes"
++msgstr "Framgångskriterium 1.4.7 i WCAG 2.0: Godkänd"
+ 
+ #: src/effects/Contrast.cpp
+ msgid "Success Criteria 1.4.7 of WCAG 2.0: Fail"
+-msgstr "Framgångskriterier 1.4.7 av WCAG 2.0: Misslyckades"
++msgstr "Framgångskriterium 1.4.7 i WCAG 2.0: Underkänd"
+ 
+ #: src/effects/Contrast.cpp
+ msgid "Data gathered"
+@@ -11629,15 +11629,15 @@ msgstr "Mjuk klippning"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Soft Overdrive"
+-msgstr "Mjuk overdrive"
++msgstr "Mjuk överstyrning"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Medium Overdrive"
+-msgstr "Mellanstor overdrive"
++msgstr "Medelhög överstyrning"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Hard Overdrive"
+-msgstr "Hård overdrive"
++msgstr "Kraftig överstyrning"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Cubic Curve (odd harmonics)"
+@@ -11666,12 +11666,12 @@ msgstr "Hård begränsare 1413"
+ #: src/effects/Distortion.cpp
+ #, no-c-format
+ msgid "Hard clip -12dB, 80% make-up gain"
+-msgstr "Hårt klipp -12dB, 80% ombrytningsförstärkning"
++msgstr "Hård klippning -12 dB, 80 % kompensationsförstärkning"
+ 
+ #: src/effects/Distortion.cpp
+ #, no-c-format
+ msgid "Soft clip -12dB, 80% make-up gain"
+-msgstr "Mjukt klipp -12dB, 80% ombrytningsförstärkning"
++msgstr "Mjuk klippning -12 dB, 80 % kompensationsförstärkning"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Fuzz Box"
+@@ -11687,11 +11687,11 @@ msgstr "Blues drive-bevarande"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Light Crunch Overdrive"
+-msgstr "Light Crunch-overdrive"
++msgstr "Lätt crunch med överstyrning"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Heavy Overdrive"
+-msgstr "Tung overdrive"
++msgstr "Kraftig överstyrning"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "3rd Harmonic (Perfect Fifth)"
+@@ -11699,7 +11699,7 @@ msgstr "Tredje övertonen (perfekt femma)"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Valve Overdrive"
+-msgstr "Valve-overdrive"
++msgstr "Röröverstyrning"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "2nd Harmonic (Octave)"
+@@ -11707,7 +11707,7 @@ msgstr "Andra övertonen (oktav)"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Gated Expansion Distortion"
+-msgstr "Låst utvidgningsförvrängning"
++msgstr "Tröskelstyrd expansionsförvrängning"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Leveller, Light, -70dB noise floor"
+@@ -11751,7 +11751,7 @@ msgstr "Övre tröskel"
+ 
+ #: src/effects/Distortion.cpp src/effects/LegacyCompressor.cpp
+ msgid "Noise Floor"
+-msgstr "Brusgrund"
++msgstr "Brusgolv"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Parameter 1"
+@@ -11795,11 +11795,11 @@ msgstr "Klippningsnivå"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Drive"
+-msgstr "Enhet"
++msgstr "Drivning"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Make-up Gain"
+-msgstr "Ombrytningsförstärkning"
++msgstr "Kompensationsförstärkning"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Clipping threshold"
+@@ -11815,7 +11815,7 @@ msgstr "Förvrängningsmängd"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Output level"
+-msgstr "Utmatningsnivå"
++msgstr "Utnivå"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Repeat processing"
+@@ -11823,7 +11823,7 @@ msgstr "Upprepa bearbetning"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Harmonic brightness"
+-msgstr "Ljusstyrka för övertoner"
++msgstr "Övertonsljusstyrka"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Levelling fine adjustment"
+@@ -11835,11 +11835,11 @@ msgstr "Utjämningsgrad"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "dB Limit"
+-msgstr "db-gräns"
++msgstr "dB-gräns"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Wet level"
+-msgstr "Wet-nivå"
++msgstr "Effektnivå"
+ 
+ #: src/effects/Distortion.cpp
+ msgid "Residual level"
+@@ -11875,15 +11875,15 @@ msgstr "DTMF-toner"
+ 
+ #: src/effects/DtmfGen.cpp
+ msgid "Generates dual-tone multi-frequency (DTMF) tones like those produced by the keypad on telephones"
+-msgstr "Generar tvåtoniga multifrekvenstoner (DTMF) som efterliknar knappsatstoner på telefoner"
++msgstr "Genererar flerfrekvenstoner med dubbla toner (DTMF), som dem från telefoners knappsatser"
+ 
+ #: src/effects/DtmfGen.cpp
+ msgid ""
+ "DTMF sequence empty.\n"
+ "Check ALL settings for this effect."
+ msgstr ""
+-"DMTF sekvens tom.\n"
+-"Kolla ALLA inställningar för denna effekt."
++"DTMF-sekvensen är tom.\n"
++"Kontrollera ALLA inställningar för effekten."
+ 
+ #: src/effects/DtmfGen.cpp
+ msgid "DTMF &sequence:"
+@@ -11934,20 +11934,20 @@ msgstr "%0.f ms"
+ 
+ #: src/effects/DynamicRangeProcessorEditor.cpp
+ msgid "I&nput"
+-msgstr "I&nput"
++msgstr "I&ndata"
+ 
+ #. i18n-hint: show input on a graph
+ #: src/effects/DynamicRangeProcessorEditor.cpp
+ msgid "Show input"
+-msgstr "Visa input"
++msgstr "Visa indata"
+ 
+ #: src/effects/DynamicRangeProcessorEditor.cpp
+ msgid "O&utput"
+-msgstr "O&utput"
++msgstr "U&tdata"
+ 
+ #: src/effects/DynamicRangeProcessorEditor.cpp
+ msgid "A&ctual compression"
+-msgstr "A&ktuell Komprimering"
++msgstr "A&ktuell komprimering"
+ 
+ #. i18n-hint: show actual compression on a graph
+ #: src/effects/DynamicRangeProcessorEditor.cpp
+@@ -11956,20 +11956,20 @@ msgstr "Visa aktuell komprimering"
+ 
+ #: src/effects/DynamicRangeProcessorEditor.cpp
+ msgid "Tar&get compression"
+-msgstr "Må&l Komprimering"
++msgstr "Må&lkomprimering"
+ 
+ #. i18n-hint: show target compression on a graph
+ #: src/effects/DynamicRangeProcessorEditor.cpp
+ msgid "Show target compression"
+-msgstr "Visa mål komprimering"
++msgstr "Visa målkomprimering"
+ 
+ #: src/effects/DynamicRangeProcessorEditor.cpp
+ msgid "Compression curve"
+-msgstr "Kompression kurva"
++msgstr "Komprimeringskurva"
+ 
+ #: src/effects/DynamicRangeProcessorEditor.cpp
+ msgid "Smoothing"
+-msgstr "Släta ut"
++msgstr "Utjämning"
+ 
+ #: src/effects/DynamicRangeProcessorEditor.h
+ msgid "&Threshold (dB)"
+@@ -11977,23 +11977,23 @@ msgstr "&Tröskelvärde (dB)"
+ 
+ #: src/effects/DynamicRangeProcessorEditor.h
+ msgid "&Make-up gain (dB)"
+-msgstr "&Make-up gain (dB)"
++msgstr "&Kompensationsförstärkning (dB)"
+ 
+ #: src/effects/DynamicRangeProcessorEditor.h
+ msgid "&Make-up target (dB)"
+-msgstr "&Make-up target (dB)"
++msgstr "&Kompensationsmål (dB)"
+ 
+ #: src/effects/DynamicRangeProcessorEditor.h
+ msgid "Knee &width (dB)"
+-msgstr "Knee &width (dB)"
++msgstr "Knä&bredd (dB)"
+ 
+ #: src/effects/DynamicRangeProcessorEditor.h
+ msgid "Rati&o:"
+-msgstr "Rati&o:"
++msgstr "Förhåll&ande:"
+ 
+ #: src/effects/DynamicRangeProcessorEditor.h
+ msgid "&Lookahead (ms)"
+-msgstr "&Lookahead (ms)"
++msgstr "&Framförhållning (ms)"
+ 
+ #: src/effects/DynamicRangeProcessorEditor.h
+ msgid "Attac&k (ms)"
+@@ -12001,11 +12001,11 @@ msgstr "Attac&k (ms)"
+ 
+ #: src/effects/DynamicRangeProcessorEditor.h
+ msgid "&Release (ms)"
+-msgstr "&Release (ms)"
++msgstr "&Återgång (ms)"
+ 
+ #: src/effects/DynamicRangeProcessorHistoryPanel.cpp
+ msgid "Input"
+-msgstr "Input"
++msgstr "Indata"
+ 
+ #: src/effects/DynamicRangeProcessorHistoryPanel.cpp
+ msgid "Actual Compression"
+@@ -12013,11 +12013,11 @@ msgstr "Aktuell komprimering"
+ 
+ #: src/effects/DynamicRangeProcessorHistoryPanel.cpp
+ msgid "Target Compression"
+-msgstr "Mål komprimering"
++msgstr "Målkomprimering"
+ 
+ #: src/effects/DynamicRangeProcessorHistoryPanel.cpp
+ msgid "awaiting playback"
+-msgstr "väntar på uppspelning"
++msgstr "inväntar uppspelning"
+ 
+ #: src/effects/Echo.cpp resources/EffectsMenuDefaults.xml
+ msgid "Echo"
+@@ -12038,17 +12038,17 @@ msgstr "&Fördröjningstid (sekunder):"
+ 
+ #: src/effects/Echo.cpp
+ msgid "D&ecay factor:"
+-msgstr "D&ecay-faktor:"
++msgstr "A&vklingningsfaktor:"
+ 
+ #: src/effects/EffectManager.cpp
+ #, c-format
+ msgid "Applied effect: %s"
+-msgstr "Tillämpade effekt: %s"
++msgstr "Tillämpade effekten: %s"
+ 
+ #: src/effects/EffectManager.cpp
+ #, c-format
+ msgid "Applied command: %s"
+-msgstr "Tillämpade kommando: %s"
++msgstr "Tillämpade kommandot: %s"
+ 
+ #: src/effects/EffectManager.cpp
+ msgid "Select Preset"
+@@ -12064,7 +12064,7 @@ msgstr "Användarförinställningar"
+ 
+ #: src/effects/EffectManager.cpp src/effects/EffectUI.cpp
+ msgid "Factory Presets"
+-msgstr "Fabriksförinställning"
++msgstr "Fabriksförinställningar"
+ 
+ #: src/effects/EffectManager.cpp
+ msgid "Current Settings"
+@@ -12083,15 +12083,15 @@ msgid ""
+ "\n"
+ "More information may be available in 'Help > Diagnostics > Show Log'"
+ msgstr ""
+-"Misslyckades att försöka initialisera följande effekt:\n"
++"Det gick inte att initiera följande effekt:\n"
+ "\n"
+ "%s\n"
+ "\n"
+-"Mer information finns kanske tillgänglig i 'Hjälp ->Diagnostik > Visa logg'"
++"Mer information kan finnas i ”Hjälp > Diagnostik > Visa logg”."
+ 
+ #: src/effects/EffectManager.cpp
+ msgid "Effect failed to initialize"
+-msgstr "Effekten misslyckades att initieras"
++msgstr "Effekten kunde inte initieras"
+ 
+ #: src/effects/EffectManager.cpp
+ #, c-format
+@@ -12102,15 +12102,15 @@ msgid ""
+ "\n"
+ "More information may be available in 'Help > Diagnostics > Show Log'"
+ msgstr ""
+-"Misslyckades att försöka initialisera följande kommando:\n"
++"Det gick inte att initiera följande kommando:\n"
+ "\n"
+ "%s\n"
+ "\n"
+-"Mer information kan finnas tillgänglig i 'Hjälp ->Diagnostik > Visa logg'"
++"Mer information kan finnas i ”Hjälp > Diagnostik > Visa logg”."
+ 
+ #: src/effects/EffectManager.cpp
+ msgid "Command failed to initialize"
+-msgstr "Kommandot misslyckades att initieras"
++msgstr "Kommandot kunde inte initieras"
+ 
+ #: src/effects/EffectPreview.cpp
+ msgid "Preparing preview"
+@@ -12206,16 +12206,16 @@ msgstr ""
+ 
+ #: src/effects/Equalization.cpp
+ msgid "Equalization"
+-msgstr "Equalization"
++msgstr "Equalizer"
+ 
+ #: src/effects/Equalization.cpp resources/EffectsMenuDefaults.xml
+ msgid "Filter Curve EQ"
+-msgstr "Filterkurva EQ"
++msgstr "Filterkurve-EQ"
+ 
+ #: src/effects/Equalization.cpp src/effects/EqualizationUI.cpp
+ #: resources/EffectsMenuDefaults.xml
+ msgid "Graphic EQ"
+-msgstr "Graphic EQ"
++msgstr "Grafisk EQ"
+ 
+ #: src/effects/Equalization.cpp
+ msgid "Adjusts the volume levels of particular frequencies"
+@@ -12223,19 +12223,19 @@ msgstr "Justerar volymnivåerna för vissa frekvenser"
+ 
+ #: src/effects/Equalization.cpp
+ msgid "100Hz Rumble"
+-msgstr "100Hz brum"
++msgstr "100 Hz-brum"
+ 
+ #: src/effects/Equalization.cpp
+ msgid "AM Radio"
+-msgstr "AM Radio"
++msgstr "AM-radio"
+ 
+ #: src/effects/Equalization.cpp
+ msgid "Bass Boost"
+-msgstr "Bas boost"
++msgstr "Basförstärkning"
+ 
+ #: src/effects/Equalization.cpp
+ msgid "Bass Cut"
+-msgstr "Bas Klipp"
++msgstr "Basreducering"
+ 
+ #: src/effects/Equalization.cpp
+ msgid "Low rolloff for speech"
+@@ -12251,11 +12251,11 @@ msgstr "Telefon"
+ 
+ #: src/effects/Equalization.cpp
+ msgid "Treble Boost"
+-msgstr "Diskant boost"
++msgstr "Diskantförstärkning"
+ 
+ #: src/effects/Equalization.cpp
+ msgid "Treble Cut"
+-msgstr "Diskant Klipp"
++msgstr "Diskantreducering"
+ 
+ #: src/effects/Equalization.cpp
+ msgid "To apply Equalization, all selected tracks must have the same sample rate."
+@@ -12267,7 +12267,7 @@ msgstr "Spårets samplingsfrekvens är för låg för denna effekt."
+ 
+ #: src/effects/Equalization.cpp
+ msgid "Effect Unavailable"
+-msgstr "Effekt otillgänglig"
++msgstr "Effekten är inte tillgänglig"
+ 
+ #: src/effects/Equalization48x.cpp
+ #, c-format
+-- 
+2.54.0 (Apple Git-157)
+

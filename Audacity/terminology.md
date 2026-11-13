@@ -13,3 +13,6 @@
 | Property list | egenskapslista | Serialiserat Apple-format för inställningar. |
 | Plugin | insticksmodul | Audacitys tillägg för effekter, ljud och funktioner. |
 | Timer Recording | timerinspelning | Schemalagd inspelning med start- och stopptid. |
+| Auto Duck | automatisk duckning | Effekt som sänker nivån i spår automatiskt utifrån ett kontrollspår. |
+| Make-up Gain | kompensationsförstärkning | Förstärkning som kompenserar för nivåminskning vid dynamikbearbetning. |
+| Equalization | equalizer | Effekt för frekvensberoende nivåjustering. |
