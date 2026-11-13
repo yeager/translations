@@ -30,6 +30,8 @@
 | Byte order | byteordning | Ordningen för byte i råa ljuddata. |
 | Render | återge | Sammanräkna ett eller flera ljudspår till ett nytt, spelbart ljudresultat. |
 | Realtime effect | realtidseffekt | Effekt som bearbetar ljud under uppspelning eller redigering. |
+| Amplitude envelope | amplitudkurva | Kurva som styr ett spårs nivå över tid. |
+| Silent monitoring | tyst medlyssning | Medlyssning utan att signalen hörs i programmets utgång. |
 | Clip | klipp | Avgränsat ljudavsnitt i ett spår. |
 | Loop | loop | Markerad del som upprepas vid uppspelning. |
 | Input monitoring | medlyssning av insignalen | Lyssning på inkommande ljud under inspelning. |

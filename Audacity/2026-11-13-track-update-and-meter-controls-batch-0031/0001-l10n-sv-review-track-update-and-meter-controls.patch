@@ -1,0 +1,318 @@
+From 986943d90ffcbee61f5b7b6118f1d043aca835d4 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 15:28:53 +0100
+Subject: [PATCH] l10n(sv): review track and update controls
+
+---
+ au3/locale/sv.po | 83 ++++++++++++++++++++++++------------------------
+ 1 file changed, 41 insertions(+), 42 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index c092861..cb9be16 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -19057,12 +19057,11 @@ msgid ""
+ "Do you wish to continue?"
+ msgstr ""
+ "Spåren du försöker slå samman till stereo innehåller klipp på\n"
+-"olika positioner eller klipp som inte matchar på annat sätt. Slår ihop dem\n"
+-"kommer att återge spåren.\n"
++"olika positioner eller klipp som inte matchar på annat sätt. Om du slår\n"
++"ihop dem återges spåren.\n"
+ "\n"
+ "Detta gör att alla realtidseffekter appliceras på vågformen och\n"
+-"dolda data som ska tas bort. Dessutom kommer hela banan\n"
+-"bli ett enda stort klipp.\n"
++"dolda data tas bort. Dessutom blir hela spåret ett enda stort klipp.\n"
+ "\n"
+ "Vill du fortsätta?"
+ 
+@@ -19253,7 +19252,7 @@ msgstr "Högerklicka för meny."
+ #. i18n-hint Appears on hovering mouse over clip affordance
+ #: src/tracks/ui/AffordanceHandle.cpp
+ msgid "Drag clips to reposition them. Hold Shift and drag to move all clips on the same track."
+-msgstr "Dra i klipp för att omplacera dem. Tryck Shift och dra för att flytta alla klipp på samma spår."
++msgstr "Dra i klipp för att flytta dem. Håll ned Skift och dra för att flytta alla klipp på samma spår."
+ 
+ #: src/tracks/ui/BackgroundCell.cpp
+ msgid "Add Mono Track"
+@@ -19273,15 +19272,15 @@ msgstr "Exportera ljud..."
+ 
+ #: src/tracks/ui/BrushHandle.cpp
+ msgid "Erased selected area"
+-msgstr "Radera markerad yta"
++msgstr "Raderade markerat område"
+ 
+ #: src/tracks/ui/BrushHandle.cpp
+ msgid "Selected area using Brush Tool"
+-msgstr "Vald yta använd Brush tool"
++msgstr "Markerade område med penselverktyget"
+ 
+ #: src/tracks/ui/BrushHandle.cpp
+ msgid "Brush tool selection"
+-msgstr "Brush tool urval"
++msgstr "Markering med penselverktyget"
+ 
+ #: src/tracks/ui/CommonTrackControls.cpp
+ msgid "Re&name Track..."
+@@ -19322,12 +19321,12 @@ msgstr "Klicka och dra för att förvrida uppspelningstiden"
+ 
+ #: src/tracks/ui/EnvelopeHandle.cpp
+ msgid "Click and drag to edit the amplitude envelope"
+-msgstr "Klicka och dra för att redigera amplitudens envelopp"
++msgstr "Klicka och dra för att redigera amplitudkurvan"
+ 
+ #. i18n-hint: (verb) Audacity has just adjusted the envelope .
+ #: src/tracks/ui/EnvelopeHandle.cpp
+ msgid "Adjusted envelope."
+-msgstr "Justerade envelopp."
++msgstr "Justerade amplitudkurvan."
+ 
+ #. i18n-hint: These commands assist the user in finding a sound by ear. ...
+ #. "Scrubbing" is variable-speed playback, ...
+@@ -19395,11 +19394,11 @@ msgstr "Klicka och dra för att flytta den övre markeringsfrekvensen."
+ 
+ #: src/tracks/ui/SelectHandle.cpp
+ msgid "Click and drag to move center selection frequency to a spectral peak."
+-msgstr "Klicka och dra för att flytta den centrerade markeringsfrekvensen till en spektrumshöjdpunkt."
++msgstr "Klicka och dra för att flytta markeringsfrekvensens mittpunkt till en spektraltopp."
+ 
+ #: src/tracks/ui/SelectHandle.cpp
+ msgid "Click and drag to move center selection frequency."
+-msgstr "Klicka och dra för att flytta den centrerade markeringsfrekvensen."
++msgstr "Klicka och dra för att flytta markeringsfrekvensens mittpunkt."
+ 
+ #: src/tracks/ui/SelectHandle.cpp
+ msgid "Click and drag to adjust frequency bandwidth."
+@@ -19427,7 +19426,7 @@ msgstr "Klicka och dra för att välja ljud"
+ #. i18n-hint: "Snapping" means automatic alignment of selection edges to any nearby label or clip boundaries
+ #: src/tracks/ui/SelectHandle.cpp
+ msgid "(snapping)"
+-msgstr "(fäster)"
++msgstr "(fästning)"
+ 
+ #: src/tracks/ui/TimeShiftHandle.cpp
+ msgid "Click and drag to move a track in time"
+@@ -19453,7 +19452,7 @@ msgstr "Tidsförsköt spår/klipp åt vänster med %.02f sekunder"
+ 
+ #: src/tracks/ui/TimeShiftHandle.cpp
+ msgid "Move Clip"
+-msgstr "Flytta clip"
++msgstr "Flytta klipp"
+ 
+ #: src/tracks/ui/TrackButtonHandles.cpp
+ msgid "Collapse"
+@@ -19506,7 +19505,7 @@ msgstr "Flytta spår"
+ 
+ #: src/tracks/ui/ZoomHandle.cpp
+ msgid "Click to Zoom In, Shift-Click to Zoom Out"
+-msgstr "Klicka för att zooma in, Shift-klicka för att zooma ut"
++msgstr "Klicka för att zooma in, Skift-klicka för att zooma ut"
+ 
+ #: src/tracks/ui/ZoomHandle.cpp
+ msgid "Drag to Zoom Into Region, Right-Click to Zoom Out"
+@@ -19529,18 +19528,18 @@ msgstr "Sök efter uppdateringar"
+ #: src/update/NoUpdatesAvailableDialog.cpp
+ #, c-format
+ msgid "If you want to change your preference for automatic updates checking, you can find it in %s."
+-msgstr "Om du vill ändra din inställning för autmatiska uppdateringar, så kan du göra det på %s."
++msgstr "Om du vill ändra inställningen för automatiska uppdateringskontroller finns den i %s."
+ 
+ #. i18n-hint: Hyperlink title that opens Preferences dialog on Application page and is substituted into "... you can find it in %s." string.
+ #. i18n-hint: a page in the Preferences dialog; use same name
+ #: src/update/NoUpdatesAvailableDialog.cpp src/update/UpdateNoticeDialog.cpp
+ msgid "Preferences > Application"
+-msgstr "Inställningar > Applikation"
++msgstr "Inställningar > Program"
+ 
+ #: src/update/UpdateManager.cpp
+ msgctxt "update dialog"
+ msgid "Error checking for update"
+-msgstr "Fel vid sök efter uppdateringar"
++msgstr "Fel vid sökning efter uppdateringar"
+ 
+ #: src/update/UpdateManager.cpp
+ msgctxt "update dialog"
+@@ -19550,41 +19549,41 @@ msgstr "Kan inte koppla upp mot Audacitys uppdateringsserver."
+ #: src/update/UpdateManager.cpp
+ msgctxt "update dialog"
+ msgid "Update data was corrupted."
+-msgstr "Uppdaterad data var korrupta."
++msgstr "Uppdateringsdata var skadade."
+ 
+ #: src/update/UpdateManager.cpp
+ msgctxt "update dialog"
+ msgid "Error downloading update"
+-msgstr "Fel vid nedladdning av uppdatering"
++msgstr "Det gick inte att hämta uppdateringen"
+ 
+ #: src/update/UpdateManager.cpp
+ msgctxt "update dialog"
+ msgid "Can't open the Audacity download link."
+-msgstr "Kan inte öppna Audacitys nerladdningslänk."
++msgstr "Det går inte att öppna Audacitys hämtningslänk."
+ 
+ #: src/update/UpdateManager.cpp
+ msgid "Audacity update"
+-msgstr "Audacity uppdatering"
++msgstr "Audacity-uppdatering"
+ 
+ #: src/update/UpdateManager.cpp
+ #, c-format
+ msgid "Downloading %s"
+-msgstr "Laddar ned %s"
++msgstr "Hämtar %s"
+ 
+ #. i18n-hint: Title of the app update notice dialog.
+ #: src/update/UpdateNoticeDialog.cpp
+ msgid "App update checking"
+-msgstr "Söker uppdatering"
++msgstr "Söker efter programuppdateringar"
+ 
+ #. i18n-hint: The first paragraph of app update notice dialog.
+ #: src/update/UpdateNoticeDialog.cpp
+ msgid "To stay up to date, you will receive an in-app notification whenever there is a new version of Audacity available to download."
+-msgstr "För att hålla dig uppdaterad, kommer du att få ett meddelande när det finns en ny version av audacity som kan laddas ner."
++msgstr "Du får en avisering i programmet när en ny version av Audacity finns att hämta."
+ 
+ #. i18n-hint: The second paragraph of app update notice dialog
+ #: src/update/UpdateNoticeDialog.cpp
+ msgid "In order to protect your privacy, Audacity does not collect any personal information. However, app update checking does require network access."
+-msgstr "För att skydda din integritet, så kommer inte Audacity att samla någon form av personlig information. Men för att söka uppdateringar krävs tillgång till ett nätverk."
++msgstr "Audacity samlar inte in personuppgifter för att skydda din integritet. Uppdateringskontrollen kräver dock nätverksåtkomst."
+ 
+ #. i18n-hint: Hint to the user about how to turn the app update off. %s is replaced with "Preferences > Application" link
+ #: src/update/UpdateNoticeDialog.cpp
+@@ -19595,7 +19594,7 @@ msgstr "Du kan stänga av sökning efter uppdateringar när som helst i %s."
+ #. i18n-hint: Title of the app update notice dialog.
+ #: src/update/UpdateNoticeDialog.cpp
+ msgid "App updates"
+-msgstr "Programuppdatering"
++msgstr "Programuppdateringar"
+ 
+ #: src/update/UpdatePopupDialog.cpp
+ msgctxt "update dialog"
+@@ -19622,7 +19621,7 @@ msgstr "Audacity %s finns tillgänglig!"
+ #: src/update/UpdatePopupDialog.cpp
+ msgctxt "update dialog"
+ msgid "Changelog"
+-msgstr "Changelog"
++msgstr "Ändringslogg"
+ 
+ #: src/update/UpdatePopupDialog.cpp
+ msgctxt "update dialog"
+@@ -19695,11 +19694,11 @@ msgstr "Mätare"
+ 
+ #: src/widgets/MeterPanel.cpp
+ msgid "Disable Silent Monitoring"
+-msgstr "Inaktivera tyst monitoring"
++msgstr "Inaktivera tyst medlyssning"
+ 
+ #: src/widgets/MeterPanel.cpp
+ msgid "Enable Silent Monitoring"
+-msgstr "Aktivera tyst monitoring"
++msgstr "Aktivera tyst medlyssning"
+ 
+ #: src/widgets/MeterPanel.cpp
+ msgid "Recording Meter Options"
+@@ -19719,9 +19718,9 @@ msgid ""
+ "changes. A rate of 30 per second or less should prevent\n"
+ "the meter affecting audio quality on slower machines."
+ msgstr ""
+-"Högre värden gör att mätaren visar fler frekvensändringar.\n"
++"Högre värden gör att mätaren visar förändringar oftare.\n"
+ "Ett värde på 30 per sekund eller mindre bör förhindra\n"
+-"att mätaren påverkar ljudkvalitén på långsamma datorer."
++"att mätaren påverkar ljudkvaliteten på långsamma datorer."
+ 
+ #: src/widgets/MeterPanel.cpp
+ msgid "Meter refresh rate per second [1-100]"
+@@ -19761,11 +19760,11 @@ msgstr "Vertikal"
+ 
+ #: src/widgets/MissingPluginsErrorDialog.cpp
+ msgid "Missing Plugins"
+-msgstr "Saknade plugins"
++msgstr "Saknade insticksmoduler"
+ 
+ #: src/widgets/MissingPluginsErrorDialog.cpp
+ msgid "This project contains some realtime effect plugins that cannot be found on this system."
+-msgstr "Detta projekt innehåller några realtidseffektplugins som inte kan hittas på det här systemet."
++msgstr "Projektet innehåller insticksmoduler för realtidseffekter som inte finns i systemet."
+ 
+ #. i18n-hint: %s will be replaced with "Learn more"
+ #: src/widgets/MissingPluginsErrorDialog.cpp
+@@ -19795,7 +19794,7 @@ msgstr "Kan inte spara filer i katalog: %s."
+ #. i18n-hint: This message describes the error in the Error dialog.
+ #: src/widgets/UnwritableLocationErrorDialog.cpp
+ msgid "Please check that the directory exists, has the necessary permissions, and the drive isn't full."
+-msgstr "Var vänlig kontrollera att katalogen finns, att du har tillstånd att spara, och att hårddisken inte är full."
++msgstr "Kontrollera att katalogen finns, att du har behörighet att spara där och att enheten inte är full."
+ 
+ #. i18n-hint: %s is replaced with 'Preferences > Directories'.
+ #: src/widgets/UnwritableLocationErrorDialog.cpp
+@@ -19912,7 +19911,7 @@ msgstr "Fel.~%Frekvensen är inställd för högt för valt spår."
+ 
+ #: plug-ins/SpectralEditMulti.ny resources/EffectsMenuDefaults.xml
+ msgid "Spectral Edit Multi Tool"
+-msgstr "Spectral Redigera multiverktyg"
++msgstr "Spektralredigering med multiverktyg"
+ 
+ #: plug-ins/SpectralEditMulti.ny plug-ins/SpectralEditParametricEQ.ny
+ #: plug-ins/SpectralEditShelves.ny
+@@ -19955,7 +19954,7 @@ msgstr "Fel.~%"
+ 
+ #: plug-ins/SpectralEditParametricEQ.ny resources/EffectsMenuDefaults.xml
+ msgid "Spectral Edit Parametric EQ"
+-msgstr "Spectral Redigera Parametrisk EQ"
++msgstr "Spektralredigering med parametrisk EQ"
+ 
+ #: plug-ins/SpectralEditParametricEQ.ny plug-ins/SpectralEditShelves.ny
+ msgid "Gain (dB)"
+@@ -20027,7 +20026,7 @@ msgstr "Justerbar toning"
+ 
+ #: plug-ins/adjustable-fade.ny
+ msgid "Fade Type"
+-msgstr "Toning typ"
++msgstr "Toningsform"
+ 
+ #: plug-ins/adjustable-fade.ny
+ msgid "Fade Up"
+@@ -20123,7 +20122,7 @@ msgstr "S-kurva in"
+ 
+ #: plug-ins/adjustable-fade.ny
+ msgid "S-Curve Out"
+-msgstr "S-kurva finns"
++msgstr "S-kurva ut"
+ 
+ #: plug-ins/adjustable-fade.ny
+ #, lisp-format
+@@ -20281,7 +20280,7 @@ msgstr "Tonhöjdsskiftning i låg kvalitet"
+ 
+ #: plug-ins/delay.ny
+ msgid "High-quality Pitch Shift"
+-msgstr "High-quality Pitch Shift"
++msgstr "Tonhöjdsskiftning med hög kvalitet"
+ 
+ #: plug-ins/delay.ny
+ msgid "Pitch change per echo (semitones)"
+@@ -20306,7 +20305,7 @@ msgstr "Skapa etiketter baserat på"
+ 
+ #: plug-ins/equalabel.ny
+ msgid "Number and Interval"
+-msgstr "Nummer ochintervall"
++msgstr "Nummer och intervall"
+ 
+ #: plug-ins/equalabel.ny
+ msgid "Number of Labels"
+@@ -20335,7 +20334,7 @@ msgstr "Justera etikettintervall för att passa längd"
+ #. i18n-hint: Do not translate '##1'
+ #: plug-ins/equalabel.ny plug-ins/label-sounds.ny
+ msgid "Label text"
+-msgstr "Etikettext"
++msgstr "Etikettens text"
+ 
+ #: plug-ins/equalabel.ny
+ msgid "Minimum number of digits in label"
+-- 
+2.54.0 (Apple Git-157)
+
