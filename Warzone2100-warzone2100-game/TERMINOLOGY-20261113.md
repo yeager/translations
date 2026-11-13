@@ -294,3 +294,13 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | game guide | spelguide | Hjälpavsnitt i handledningen. |
 | sidebar | sidopanel | Fällbar panel i guidevyn. |
 | keymapping | tangentbindning | Konfigurerbar koppling mellan tangent och funktion. |
+
+## Aktivt spelgränssnitt och order
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| build progress | byggförlopp | Status för en pågående byggnation. |
+| construction progress | tillverkningsförlopp | Status för fabriksproduktion. |
+| fire support | eldunderstöd | Tilldelad indirekt eldgivning. |
+| fire-at-will | eld efter eget omdöme | Eldorder där enheten själv väljer mål. |
+| recycle | återvinn | Skrota enhet för återvunna resurser. |
