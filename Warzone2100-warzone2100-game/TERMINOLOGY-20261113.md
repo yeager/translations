@@ -254,3 +254,13 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | HE / HEAP / HEAT | HE / HEAP / HEAT | Tekniska ammunitionstyper behålls som synliga förkortningar. |
 | shell / warhead | granat / stridsspets | Ammunitionsdelar i vapenforskning. |
 | rail dart | skenprojektil | Projektil för skenkanon. |
+
+## Tunga vapen och chassin
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| heavy body | tungt chassi | Tung fordonskropp i forskningsserien. |
+| heavy cannon / machinegun | tung kanon / tung kulspruta | Tunga vapen på fordon och värn. |
+| heavy plasma launcher | tung plasmakanon | Tungt plasmavapen och dess ställning. |
+| heavy rocket array / battery | tung robotlavett / tungt robotbatteri | Tungt robotförsvar. |
+| surface-to-air missile | luftvärnsrobot | Robot för luftförsvar. |
