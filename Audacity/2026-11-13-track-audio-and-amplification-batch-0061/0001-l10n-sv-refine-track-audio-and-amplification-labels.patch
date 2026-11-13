@@ -1,0 +1,57 @@
+From a36da1da884b17f70d045b46aa317be84a45fd64 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 16:40:42 +0100
+Subject: [PATCH] l10n(sv): refine track audio and amplification labels
+
+---
+ au3/locale/sv.po | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index c10afe2..50f64c0 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -10824,7 +10824,7 @@ msgstr "Fokuserad"
+ 
+ #: src/commands/SetTrackInfoCommand.cpp
+ msgid "Set Track Audio"
+-msgstr "Ändra spårljud"
++msgstr "Ändra ljudet för spåret"
+ 
+ #: src/commands/SetTrackInfoCommand.cpp
+ msgid "Gain:"
+@@ -10882,7 +10882,7 @@ msgstr "VZoom:"
+ 
+ #: src/commands/SetTrackInfoCommand.cpp
+ msgid "VZoom Top:"
+-msgstr "VZoom max:"
++msgstr "VZoom överst:"
+ 
+ #: src/commands/SetTrackInfoCommand.cpp
+ msgid "VZoom Bottom:"
+@@ -10948,11 +10948,11 @@ msgstr "Förstärkning dB"
+ 
+ #: src/effects/Amplify.cpp
+ msgid "&New Peak Amplitude (dB):"
+-msgstr "&Ny maximal amplitud(dB):"
++msgstr "&Ny toppamplitud (dB):"
+ 
+ #: src/effects/Amplify.cpp
+ msgid "Allo&w clipping"
+-msgstr "Tillå&t klippning"
++msgstr "Tillå&t överstyrning"
+ 
+ #: src/effects/AutoDuck.cpp resources/EffectsMenuDefaults.xml
+ msgid "Auto Duck"
+@@ -10982,7 +10982,7 @@ msgstr "Återger tidsutsträckt ljud från kontrollspåret"
+ 
+ #: src/effects/AutoDuck.cpp src/effects/TruncSilence.cpp
+ msgid "db"
+-msgstr "db"
++msgstr "dB"
+ 
+ #: src/effects/AutoDuck.cpp
+ msgid "Duck &amount:"
+-- 
+2.54.0 (Apple Git-157)
+
