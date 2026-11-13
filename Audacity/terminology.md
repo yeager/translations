@@ -7,6 +7,7 @@
 | Legacy | äldre | Äldre, fortfarande tillgänglig effekt eller menygrupp. |
 | Limiter | begränsare | Ljudeffekt som begränsar signalnivån. |
 | Compressor | kompressor | Ljudeffekt som komprimerar dynamiskt omfång. |
+| Actual compression | faktisk komprimering | Den uppmätta komprimeringen i dynamikbearbetarens graf, till skillnad från ett målvärde eller aktuell inställning. |
 | Latency | fördröjning | Tidsfördröjning för inspelning eller uppspelning. |
 | Audio Unit | Audio Unit | Apples protokollnamn; översätts inte. |
 | Audio Unit Effects | Audio Unit-effekter | Effekter via Apples Audio Unit-protokoll. |
