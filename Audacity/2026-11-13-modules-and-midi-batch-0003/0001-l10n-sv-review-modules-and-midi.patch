@@ -1,0 +1,175 @@
+From 87742bd77a2f7c429c274508df8a02355f8a62ce Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:11:09 +0100
+Subject: [PATCH] l10n(sv): review modules and MIDI devices
+
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 1ffd415..7670767 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -1079,7 +1079,7 @@ msgstr "LADSPA-effekter"
+ 
+ #: libraries/lib-ladspa/LadspaEffectsModule.cpp
+ msgid "Provides LADSPA Effects"
+-msgstr "Tillhandahåller LADSPA-effekter"
++msgstr "Ger stöd för LADSPA-effekter"
+ 
+ #: libraries/lib-ladspa/LadspaEffectsModule.cpp
+ msgid "Audacity no longer uses vst-bridge"
+@@ -1107,7 +1107,7 @@ msgstr "LV2-effekter"
+ 
+ #: libraries/lib-lv2/LoadLV2.cpp
+ msgid "Provides LV2 Effects support to Audacity"
+-msgstr "Tillhandahåller LV2-effekter till Audacity"
++msgstr "Ger Audacity stöd för LV2-effekter"
+ 
+ #: libraries/lib-math/Dither.cpp src/effects/EffectManager.cpp
+ #: src/effects/EffectUI.cpp plug-ins/equalabel.ny
+@@ -1217,7 +1217,7 @@ msgstr "&Gör om"
+ 
+ #: libraries/lib-module-manager/ModuleManager.cpp
+ msgid "Module Unsuitable"
+-msgstr "Opassande modul"
++msgstr "Olämplig modul"
+ 
+ #: libraries/lib-module-manager/ModuleManager.cpp
+ #, c-format
+@@ -1226,7 +1226,7 @@ msgid ""
+ "\n"
+ "Error: %s"
+ msgstr ""
+-"Kan inte ladda \"%s\" modul\n"
++"Kunde inte läsa in modulen \"%s\".\n"
+ "\n"
+ "Fel: %s"
+ 
+@@ -1238,7 +1238,7 @@ msgid ""
+ "It will not be loaded."
+ msgstr ""
+ "Modulen \"%s\" har ingen versionsinformation.\n"
+-"Den kommer inte att laddas."
++"Den kommer inte att läsas in."
+ 
+ #: libraries/lib-module-manager/ModuleManager.cpp
+ #, c-format
+@@ -1247,9 +1247,9 @@ msgid ""
+ "\n"
+ "It will not be loaded."
+ msgstr ""
+-"Modulen %s ska matcha Audacity-version %s.\n"
++"Modulen \"%s\" matchar Audacity-version \"%s\".\n"
+ "\n"
+-"Den kommer inte att laddas."
++"Den kommer inte att läsas in."
+ 
+ #: libraries/lib-module-manager/ModuleManager.cpp
+ #, c-format
+@@ -1258,9 +1258,9 @@ msgid ""
+ "\n"
+ "It will not be loaded."
+ msgstr ""
+-"Modulen \"%s\" misslyckades med att starta.\n"
++"Modulen \"%s\" kunde inte initieras.\n"
+ "\n"
+-"Den kommer inte att laddas."
++"Den kommer inte att läsas in."
+ 
+ #: libraries/lib-module-manager/ModuleManager.cpp
+ #, c-format
+@@ -1290,11 +1290,11 @@ msgstr "Nej"
+ 
+ #: libraries/lib-module-manager/ModuleManager.cpp
+ msgid "Audacity Module Loader"
+-msgstr "Audacitys modulinläsare"
++msgstr "Audacitys modulinläsning"
+ 
+ #: libraries/lib-module-manager/ModuleManager.cpp
+ msgid "Try and load this module?"
+-msgstr "Prova och läs in denna modul?"
++msgstr "Vill du försöka läsa in den här modulen?"
+ 
+ #: libraries/lib-module-manager/ModuleManager.cpp
+ #, c-format
+@@ -1303,9 +1303,9 @@ msgid ""
+ "\n"
+ "It will not be loaded."
+ msgstr ""
+-"Modulen \"%s\" har ingen av de önskade funktionerna.\n"
++"Modulen \"%s\" har ingen av de funktioner som krävs.\n"
+ "\n"
+-"Den kommer inte att laddas."
++"Den kommer inte att läsas in."
+ 
+ #: libraries/lib-module-manager/PluginManager.cpp
+ #, c-format
+@@ -1335,7 +1335,7 @@ msgstr ""
+ msgctxt "plug-ins"
+ msgid "Enable this plug-in?\n"
+ msgid_plural "Enable these plug-ins?\n"
+-msgstr[0] "Aktivera denna/dessa insticksmoduler?\n"
++msgstr[0] "Aktivera denna insticksmodul?\n"
+ msgstr[1] "Aktivera dessa insticksmoduler?\n"
+ 
+ #: libraries/lib-module-manager/PluginManager.cpp
+@@ -1349,7 +1349,7 @@ msgstr "Nyquist-inmatning"
+ #: libraries/lib-network-manager/MultipartData.cpp
+ #, c-format
+ msgid "Failed to open the file for upload: %s"
+-msgstr "Misslyckades att öppna fil för att ladda upp\\%s"
++msgstr "Kunde inte öppna filen för uppladdning: %s"
+ 
+ #: libraries/lib-note-track/MIDIPlay.cpp
+ msgid "There was an error initializing the midi i/o layer.\n"
+@@ -1365,7 +1365,7 @@ msgstr ""
+ 
+ #: libraries/lib-note-track/MIDIPlay.cpp
+ msgid "Error Initializing Midi"
+-msgstr "Fel uppstod när MIDI initialiserades"
++msgstr "Fel vid initiering av MIDI"
+ 
+ #. i18n-hint: This is for screen reader software and indicates that
+ #. this is a Note track.
+@@ -1386,13 +1386,13 @@ msgstr "&Slag"
+ #: libraries/lib-note-track/NoteTrack.cpp
+ #, c-format
+ msgid "Supports output: %d\n"
+-msgstr "Supports output: %d\n"
++msgstr "Stöd för utdata: %d\n"
+ 
+ #. i18n-hint: Supported, meaning made available by the system
+ #: libraries/lib-note-track/NoteTrack.cpp
+ #, c-format
+ msgid "Supports input: %d\n"
+-msgstr "Supports input: %d\n"
++msgstr "Stöd för indata: %d\n"
+ 
+ #: libraries/lib-note-track/NoteTrack.cpp
+ #, c-format
+@@ -1402,22 +1402,22 @@ msgstr "Öppnad: %d\n"
+ #: libraries/lib-note-track/NoteTrack.cpp
+ #, c-format
+ msgid "Selected MIDI recording device: %d - %s\n"
+-msgstr "Välj MIDI inspelningsenhet: %d - %s\n"
++msgstr "Vald MIDI-inspelningsenhet: %d - %s\n"
+ 
+ #: libraries/lib-note-track/NoteTrack.cpp
+ #, c-format
+ msgid "No MIDI recording device found for '%s'.\n"
+-msgstr "Ingen MIDI inspelningsenhet hittades för '%s'.\n"
++msgstr "Ingen MIDI-inspelningsenhet hittades för '%s'.\n"
+ 
+ #: libraries/lib-note-track/NoteTrack.cpp
+ #, c-format
+ msgid "Selected MIDI playback device: %d - %s\n"
+-msgstr "Välj MIDI uppspelningsenhet: %d - %s\n"
++msgstr "Vald MIDI-uppspelningsenhet: %d - %s\n"
+ 
+ #: libraries/lib-note-track/NoteTrack.cpp
+ #, c-format
+ msgid "No MIDI playback device found for '%s'.\n"
+-msgstr "Ingen MIDI uppspelningsenhet hittades för '%s'.\n"
++msgstr "Ingen MIDI-uppspelningsenhet hittades för '%s'.\n"
+ 
+ #. i18n-hint: Name of time display format that shows time in hours,
+ #. * minutes, seconds and samples (at the current project sample rate)
