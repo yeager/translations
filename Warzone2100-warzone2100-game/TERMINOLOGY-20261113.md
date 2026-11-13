@@ -264,3 +264,15 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | heavy plasma launcher | tung plasmakanon | Tungt plasmavapen och dess ställning. |
 | heavy rocket array / battery | tung robotlavett / tungt robotbatteri | Tungt robotförsvar. |
 | surface-to-air missile | luftvärnsrobot | Robot för luftförsvar. |
+
+## Haubitsar och förfinad vapenforskning
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| howitzer | haubits | Svensk militär fackterm för indirekt artilleri. |
+| howitzer fast loader | haubitssnabbladdare | Eldhastighetsuppgradering för haubitsar. |
+| incendiary howitzer | brandhaubits | Haubits med brandverkan. |
+| hyper velocity cannon | hyperhastighetskanon | Kanon med hög projektilhastighet. |
+| HVC | HVC | Synlig teknisk förkortning i enhetsnamn behålls. |
+| rocket wire guidance | trådstyrning för robotar | Robotstyrning genom tråd. |
+| shaped charge | riktad sprängverkan | Stridsspetsens verkan. |
