@@ -11,3 +11,5 @@
 | Audio Unit | Audio Unit | Apples protokollnamn; översätts inte. |
 | Audio Unit Effects | Audio Unit-effekter | Effekter via Apples Audio Unit-protokoll. |
 | Property list | egenskapslista | Serialiserat Apple-format för inställningar. |
+| Plugin | insticksmodul | Audacitys tillägg för effekter, ljud och funktioner. |
+| Timer Recording | timerinspelning | Schemalagd inspelning med start- och stopptid. |

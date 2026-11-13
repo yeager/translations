@@ -1,0 +1,239 @@
+From b9380d3ea66333dbc32e40478ac60685aac7e5cf Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:50:33 +0100
+Subject: [PATCH] l10n(sv): review timer and track dialogs
+
+---
+ au3/locale/sv.po | 60 ++++++++++++++++++++++++------------------------
+ 1 file changed, 30 insertions(+), 30 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 40cae0b..353ef76 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -9637,7 +9637,7 @@ msgstr "Metadatataggar"
+ 
+ #: src/TagsEditor.cpp
+ msgid "&Metadata Editor"
+-msgstr "&Metadata Editor"
++msgstr "&Metadataredigerare"
+ 
+ #. i18n-hint: This string is used to configure the controls which shows the recording
+ #. * duration. As such it is important that only the alphabetic parts of the string
+@@ -9725,7 +9725,7 @@ msgstr ""
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Timer Recording Disk Space Warning"
+-msgstr "Hårddiskvarning för timerinspelning"
++msgstr "Varning om diskutrymme för timerinspelning"
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Current Project"
+@@ -9733,7 +9733,7 @@ msgstr "Nuvarande projekt"
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Recording start:"
+-msgstr "Inspelningens början:"
++msgstr "Inspelningen börjar:"
+ 
+ #: src/TimerRecordDialog.cpp src/effects/VST/VSTEditor.cpp
+ #: src/effects/VST3/VST3Editor.cpp src/effects/ladspa/LadspaEditor.cpp
+@@ -9742,23 +9742,23 @@ msgstr "Längd:"
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Recording end:"
+-msgstr "Inspelningens slut:"
++msgstr "Inspelningen slutar:"
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Automatic Save enabled:"
+-msgstr "Automatisk sparning har aktiverats:"
++msgstr "Automatisk sparning aktiverad:"
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Automatic Export enabled:"
+-msgstr "Automatisk exportering har aktiverats:"
++msgstr "Automatisk export aktiverad:"
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Action after Timer Recording:"
+-msgstr "Handling efter timerinspelning:"
++msgstr "Åtgärd efter timerinspelning:"
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Audacity Timer Record Progress"
+-msgstr "Audacity tidsinställd inspelning"
++msgstr "Audacitys timerinspelning"
+ 
+ #: src/TimerRecordDialog.cpp src/export/ExportAudioDialog.cpp
+ #: src/menus/FileMenus.cpp
+@@ -9767,7 +9767,7 @@ msgstr "Allt ljud är avstängt."
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Timer Recording stopped."
+-msgstr "Timer&inspelning stoppades."
++msgstr "Timerinspelning stoppades."
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Timer Recording completed."
+@@ -9877,7 +9877,7 @@ msgstr "Slutdatum"
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Automatic Save"
+-msgstr "Automatiskt sparning"
++msgstr "Automatisk sparning"
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Enable &Automatic Save?"
+@@ -9893,11 +9893,11 @@ msgstr "Bläddra..."
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Automatic Export"
+-msgstr "Automatisk exportering"
++msgstr "Automatisk export"
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Enable Automatic &Export?"
+-msgstr "Aktivera automatisk &exportering?"
++msgstr "Aktivera automatisk &export?"
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Export Project As:"
+@@ -9976,9 +9976,9 @@ msgid ""
+ "\n"
+ "Please close any additional projects and try again."
+ msgstr ""
+-"Timerinspelning kan inte användas med mer än ett öppet projekt.\n"
++"Timerinspelning kan inte användas med fler än ett öppet projekt.\n"
+ "\n"
+-"Var god stäng alla ytterligare projekt och försök igen."
++"Stäng eventuella ytterligare projekt och försök igen."
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid ""
+@@ -9986,9 +9986,9 @@ msgid ""
+ "\n"
+ "Please save or close this project and try again."
+ msgstr ""
+-"Timerinspelning kan inte användas när du har osparade ändringar.\n"
++"Timerinspelning kan inte användas när det finns osparade ändringar.\n"
+ "\n"
+-"Var god spara eller stäng detta projekt och försök igen."
++"Spara eller stäng projektet och försök igen."
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "&Timer Record..."
+@@ -10027,7 +10027,7 @@ msgstr "Spårvy"
+ #. this track is muted. (The mute button is on.)
+ #: src/TrackPanelAx.cpp
+ msgid " Muted"
+-msgstr " Tystade"
++msgstr " Tystat"
+ 
+ #. i18n-hint: This is for screen reader software and indicates that
+ #. this track is soloed. (The Solo button is on.)
+@@ -10039,7 +10039,7 @@ msgstr " Solo"
+ #. this track is selected.
+ #: src/TrackPanelAx.cpp
+ msgid " Selected"
+-msgstr " Markerade"
++msgstr " Markerat"
+ 
+ #. i18n-hint: This is for screen reader software and indicates that
+ #. this track is shown with a sync-locked icon.
+@@ -10057,7 +10057,7 @@ msgstr "Spår %d"
+ 
+ #: src/TrackPanelAx.cpp
+ msgid " Mute On"
+-msgstr " Tyst på"
++msgstr " Tystning på"
+ 
+ #: src/TrackPanelAx.cpp
+ msgid " Solo On"
+@@ -10065,11 +10065,11 @@ msgstr " Solo på"
+ 
+ #: src/TrackPanelAx.cpp
+ msgid " Select On"
+-msgstr " Välj på"
++msgstr " Markering på"
+ 
+ #: src/TrackPanelResizeHandle.cpp
+ msgid "Click and drag to adjust relative size of stereo tracks, double-click to make heights equal"
+-msgstr "Klicka och dra för att justera relativa storleken för stereospår, dubbelklicka för att göra höjden lika"
++msgstr "Klicka och dra för att justera den relativa storleken på stereospår. Dubbelklicka för att göra höjderna lika."
+ 
+ #: src/TrackPanelResizeHandle.cpp
+ msgid "Click and drag to resize the track."
+@@ -10158,7 +10158,7 @@ msgstr "Markeringen är för liten för att använda voice key."
+ 
+ #: src/VoiceKey.cpp
+ msgid "Calibration Results\n"
+-msgstr "Kalibrera resultat\n"
++msgstr "Kalibreringsresultat\n"
+ 
+ #. i18n-hint: %1.4f is replaced by a number.  sd stands for 'Standard Deviations'
+ #: src/VoiceKey.cpp
+@@ -10174,7 +10174,7 @@ msgstr "Teckenändringar        -- medel: %1.4f  sd: (%1.4f)\n"
+ #: src/VoiceKey.cpp
+ #, c-format
+ msgid "Direction Changes  -- mean: %1.4f  sd: (%1.4f)\n"
+-msgstr "Riktningsändringar -- mean: %1.4f  sd: (%1.4f)\n"
++msgstr "Riktningsändringar -- medel: %1.4f  sd: (%1.4f)\n"
+ 
+ #: src/VoiceKey.cpp
+ msgid "Calibration Complete"
+@@ -10188,20 +10188,20 @@ msgstr "Vad är nytt i Audacity %s"
+ #: src/WhatsNewDialog.cpp
+ #, c-format
+ msgid "Watch the [[%s|release video]] or read the [[https://support.audacityteam.org/additional-resources/changelog|changelog]] to learn more!</p>"
+-msgstr "Titta på [[%s|release video]] eller läs [[https://support.audacityteam.org/additional-resources/changelog|changelog]] för att lära dig mer!</p>"
++msgstr "Se [[%s|lanseringsvideon]] eller läs [[https://support.audacityteam.org/additional-resources/changelog|ändringsloggen]] om du vill veta mer.</p>"
+ 
+ #: src/WhatsNewDialog.cpp
+ msgid "Get free plugins & sounds"
+-msgstr "Hämta gratis plugins & ljud"
++msgstr "Hämta kostnadsfria insticksmoduler och ljud"
+ 
+ #: src/WhatsNewDialog.cpp
+ #, c-format
+ msgid "<p>Check out our [[%s|Muse Hub app]] for a wide range of audio plugins for Audacity users</p>"
+-msgstr "<p>Kolla in vår [[%s|Muse Hub-app]] för ett brett utbud av ljudpluginprogram för Audacity-användare</p>"
++msgstr "<p>Se vår [[%s|Muse Hub-app]] med ett brett utbud av ljudinsticksmoduler för Audacity-användare.</p>"
+ 
+ #: src/WhatsNewDialog.cpp
+ msgid "Welcome to Audacity!"
+-msgstr "Välkommen to Audacity!"
++msgstr "Välkommen till Audacity!"
+ 
+ #: src/WhatsNewDialog.cpp
+ msgid "View tutorials"
+@@ -10270,7 +10270,7 @@ msgstr "Fördröjningstid (sekunder):"
+ 
+ #: src/commands/Demo.cpp
+ msgid "Decay factor:"
+-msgstr "Decay-faktor:"
++msgstr "Avklingningsfaktor:"
+ 
+ #: src/commands/Demo.h
+ msgid "Does the demo action."
+@@ -10423,7 +10423,7 @@ msgstr "Ger hjälp om ett kommando."
+ 
+ #: src/commands/HelpCommand.h
+ msgid "For comments in a macro."
+-msgstr "För kommentarar i ett makro."
++msgstr "För kommentarer i ett makro."
+ 
+ #: src/commands/ImportExportCommands.cpp
+ msgid "Import2"
+@@ -10555,7 +10555,7 @@ msgstr "Värde:"
+ 
+ #: src/commands/PreferenceCommands.cpp
+ msgid "Reload"
+-msgstr "Ladda igen"
++msgstr "Läs in igen"
+ 
+ #: src/commands/PreferenceCommands.cpp
+ msgid "Get Preference..."
+-- 
+2.54.0 (Apple Git-157)
+
