@@ -1,0 +1,83 @@
+From 5bc07fded9d901b0b4c369601662c4e846c5bbfe Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 16:42:26 +0100
+Subject: [PATCH] l10n(sv): refine speed tempo and click removal labels
+
+---
+ au3/locale/sv.po | 16 ++++++++--------
+ 1 file changed, 8 insertions(+), 8 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 50f64c0..c343ae9 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -11195,7 +11195,7 @@ msgstr "Ändra hastighet och tonhöjd"
+ 
+ #: src/effects/ChangeSpeed.cpp
+ msgid "Changes the speed of a track, also changing its pitch"
+-msgstr "Ändrar hastigheten för ett spår, ändrar även dess tonhöjd"
++msgstr "Ändrar hastigheten för ett spår och ändrar även dess tonhöjd"
+ 
+ #: src/effects/ChangeSpeed.cpp
+ msgid "&Speed Multiplier:"
+@@ -11205,14 +11205,14 @@ msgstr "&Hastighetsmultiplikator:"
+ #. "vinyl" refers to old-fashioned phonograph records
+ #: src/effects/ChangeSpeed.cpp
+ msgid "Standard Vinyl rpm:"
+-msgstr "Rpm för standardvinyl:"
++msgstr "Standardvarvtal för vinyl:"
+ 
+ #. i18n-hint: changing speed of audio "from" one value "to" another
+ #. "rpm" means "revolutions per minute" as on a vinyl record turntable
+ #.
+ #: src/effects/ChangeSpeed.cpp
+ msgid "From rpm"
+-msgstr "Från rpm"
++msgstr "Från varv/min"
+ 
+ #. i18n-hint: changing speed of audio "from" one value "to" another
+ #: src/effects/ChangeSpeed.cpp
+@@ -11225,7 +11225,7 @@ msgstr "&från"
+ #.
+ #: src/effects/ChangeSpeed.cpp
+ msgid "To rpm"
+-msgstr "Till rpm"
++msgstr "Till varv/min"
+ 
+ #. i18n-hint: changing speed of audio "from" one value "to" another
+ #: src/effects/ChangeSpeed.cpp
+@@ -11239,11 +11239,11 @@ msgstr "Markeringens längd"
+ 
+ #: src/effects/ChangeSpeed.cpp
+ msgid "C&urrent Length:"
+-msgstr "N&uvarande längd:"
++msgstr "A&ktuell längd:"
+ 
+ #: src/effects/ChangeSpeed.cpp
+ msgid "Current length of selection."
+-msgstr "Nuvarande längd på markeringen."
++msgstr "Markeringens aktuella längd."
+ 
+ #. i18n-hint: changing speed of audio "from" one value "to" another
+ #: src/effects/ChangeSpeed.cpp
+@@ -11271,7 +11271,7 @@ msgstr "Ändrar tempot för en markering utan att ändra dess tonhöjd"
+ 
+ #: src/effects/ChangeTempo.cpp
+ msgid "High Quality Tempo Change"
+-msgstr "Tempoändring i hög kvalitet"
++msgstr "Tempoändring med hög kvalitet"
+ 
+ #: src/effects/ChangeTempo.cpp
+ msgid "Beats per minute"
+@@ -11330,7 +11330,7 @@ msgstr "Klickborttagning är avsedd att ta bort klickljud i ljudspår"
+ 
+ #: src/effects/ClickRemoval.cpp
+ msgid "Algorithm not effective on this audio. Nothing changed."
+-msgstr "Algoritmen är inte effektiv i detta ljud. Ingenting ändrades."
++msgstr "Algoritmen är inte effektiv för det här ljudet. Ingenting ändrades."
+ 
+ #: src/effects/ClickRemoval.cpp
+ #, c-format
+-- 
+2.54.0 (Apple Git-157)
+
