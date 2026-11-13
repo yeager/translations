@@ -1,0 +1,195 @@
+From f343f5b8ec8296a0958658220ffa6fbc2117a00d Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 15:18:42 +0100
+Subject: [PATCH] l10n(sv): review keyboard MIDI and recording preferences
+
+---
+ au3/locale/sv.po | 46 +++++++++++++++++++++++-----------------------
+ 1 file changed, 23 insertions(+), 23 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 3c13738..843234c 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -16966,11 +16966,11 @@ msgstr "Gör &ingenting"
+ 
+ #: src/prefs/ImportExportPrefs.cpp
+ msgid "Music Imports"
+-msgstr "Musik Import"
++msgstr "Musikimport"
+ 
+ #: src/prefs/ImportExportPrefs.cpp
+ msgid "When Audacity detects music in file imported on empty project"
+-msgstr "När Audacity upptäcker musik i fil importerad på tomt projekt"
++msgstr "När Audacity upptäcker musik i en fil som importeras till ett tomt projekt"
+ 
+ #: src/prefs/ImportExportPrefs.h
+ msgid "IMPORT EXPORT"
+@@ -16982,7 +16982,7 @@ msgstr "Genvägar"
+ 
+ #: src/prefs/KeyConfigPrefs.cpp
+ msgid "Preferences for KeyConfig"
+-msgstr "Inställningar för Keyconfig"
++msgstr "Inställningar för kortkommandon"
+ 
+ #: src/prefs/KeyConfigPrefs.cpp
+ msgid "Keyboard preferences currently unavailable."
+@@ -16990,7 +16990,7 @@ msgstr "Inställningar för tangentbordet är för tillfället inte tillgänglig
+ 
+ #: src/prefs/KeyConfigPrefs.cpp
+ msgid "Open a new project to modify keyboard shortcuts."
+-msgstr "Öppna ett nytt projekt för att modifiera tangentbordets kortkommandon."
++msgstr "Öppna ett nytt projekt för att ändra kortkommandon."
+ 
+ #: src/prefs/KeyConfigPrefs.cpp
+ msgid "&Hotkey:"
+@@ -17030,7 +17030,7 @@ msgstr "Visa efter tangent"
+ 
+ #: src/prefs/KeyConfigPrefs.cpp
+ msgid "Bindings"
+-msgstr "Kopplingar"
++msgstr "Tangentbindningar"
+ 
+ #: src/prefs/KeyConfigPrefs.cpp
+ msgid "Short cut"
+@@ -17106,11 +17106,11 @@ msgstr "Fel uppstod när tangentbordskommandon skulle exporteras"
+ 
+ #: src/prefs/KeyConfigPrefs.cpp
+ msgid "You may not assign a key to this entry"
+-msgstr "Man kan inte tilldela en tangent till detta"
++msgstr "Det går inte att tilldela en tangent till den här posten"
+ 
+ #: src/prefs/KeyConfigPrefs.cpp
+ msgid "You must select a binding before assigning a shortcut"
+-msgstr "Du måste välja en koppling innan du väljer kortkommando"
++msgstr "Du måste välja en tangentbindning innan du tilldelar ett kortkommando"
+ 
+ #: src/prefs/KeyConfigPrefs.cpp
+ msgid ""
+@@ -17154,7 +17154,7 @@ msgstr ""
+ 
+ #: src/prefs/KeyConfigPrefs.h
+ msgid "Key Config"
+-msgstr "Tangenter konfiguration"
++msgstr "Tangentkonfiguration"
+ 
+ #. i18n-hint: untranslatable acronym for "Musical Instrument Device Interface"
+ #: src/prefs/MidiIOPrefs.cpp
+@@ -17181,11 +17181,11 @@ msgstr "Använder: PortMidi"
+ 
+ #: src/prefs/MidiIOPrefs.cpp
+ msgid "MIDI Synth L&atency (ms):"
+-msgstr "Latens för MIDI-synthesizer (ms):"
++msgstr "MIDI-syntens fördröjning (ms):"
+ 
+ #: src/prefs/MidiIOPrefs.cpp
+ msgid "The MIDI Synthesizer Latency must be an integer"
+-msgstr "Latensen för MIDI-synthesizer måste var ett heltal"
++msgstr "MIDI-syntens fördröjning måste vara ett heltal"
+ 
+ #: src/prefs/MidiIOPrefs.h
+ msgid "Midi IO"
+@@ -17210,7 +17210,7 @@ msgstr ""
+ 
+ #: src/prefs/ModulePrefs.cpp
+ msgid "Changes to these settings only take effect when restarting Audacity.\n"
+-msgstr "Ändringar i dessa inställningar kommer bara få effekt efter att Audacity har startas om.\n"
++msgstr "Ändringar i de här inställningarna träder i kraft först när Audacity startas om.\n"
+ 
+ #: src/prefs/ModulePrefs.cpp
+ msgid "Always ask"
+@@ -17234,7 +17234,7 @@ msgstr "Modul"
+ 
+ #: src/prefs/PlaybackPrefs.cpp
+ msgid "Preferences for Playback"
+-msgstr "Inställningar för playback"
++msgstr "Uppspelningsinställningar"
+ 
+ #: src/prefs/PlaybackPrefs.cpp
+ msgid "Effects Preview"
+@@ -17271,11 +17271,11 @@ msgstr "Lå&ng period:"
+ 
+ #: src/prefs/PlaybackPrefs.cpp
+ msgid "&Micro-fades"
+-msgstr "%Mikrotoningar"
++msgstr "&Mikrotoningar"
+ 
+ #: src/prefs/PlaybackPrefs.cpp
+ msgid "Always scrub un&pinned"
+-msgstr "Utför alltid scrubbing på o&fästade"
++msgstr "Utför alltid genomsökning på o&fästa spår"
+ 
+ #: src/prefs/PrefsDialog.cpp
+ msgid "Audacity Preferences"
+@@ -17291,7 +17291,7 @@ msgstr "Inställningar:"
+ 
+ #: src/prefs/QualityPrefs.cpp
+ msgid "Preferences for Quality"
+-msgstr "Inställningar för kvalité"
++msgstr "Kvalitetsinställningar"
+ 
+ #: src/prefs/QualityPrefs.cpp
+ msgid "Real-time Conversion"
+@@ -17333,7 +17333,7 @@ msgstr "Använd &hårdvara för att spela upp andra spår"
+ 
+ #: src/prefs/RecordingPrefs.cpp
+ msgid "Audible input &monitoring"
+-msgstr "Hörbar input & monitoring"
++msgstr "Medlyssning av &insignalen"
+ 
+ #: src/prefs/RecordingPrefs.cpp
+ msgid "Record on a new track"
+@@ -17401,7 +17401,7 @@ msgstr "Aktivera automatisk justering av inspelningsnivå."
+ #. i18n-hint: Desired maximum (peak) volume for sound
+ #: src/prefs/RecordingPrefs.cpp
+ msgid "Target Peak:"
+-msgstr "Målets maxpunkt:"
++msgstr "Måltopp:"
+ 
+ #: src/prefs/RecordingPrefs.cpp
+ msgid "Within:"
+@@ -17413,7 +17413,7 @@ msgstr "Analystid:"
+ 
+ #: src/prefs/RecordingPrefs.cpp
+ msgid "milliseconds (time of one analysis)"
+-msgstr "millisekunder (tid från en analys)"
++msgstr "millisekunder (tiden för en analys)"
+ 
+ #: src/prefs/RecordingPrefs.cpp
+ msgid "Number of consecutive analysis:"
+@@ -17425,15 +17425,15 @@ msgstr "0 betyder oändligt"
+ 
+ #: src/prefs/RecordingPrefs.cpp
+ msgid "Punch and Roll Recording"
+-msgstr "Punch and Roll-inspelning"
++msgstr "Punch-and-roll-inspelning"
+ 
+ #: src/prefs/RecordingPrefs.cpp
+ msgid "Pre-ro&ll:"
+-msgstr "&Ljud innan inspelning:"
++msgstr "&Förinrullning:"
+ 
+ #: src/prefs/RecordingPrefs.cpp
+ msgid "Cross&fade:"
+-msgstr "Cross&fade:"
++msgstr "Övertonin&g:"
+ 
+ #. i18n-hint: The name of a frequency scale in psychoacoustics
+ #: src/prefs/SpectrogramSettings.cpp
+@@ -17511,11 +17511,11 @@ msgstr "Området måste vara minst 1 dB"
+ 
+ #: src/prefs/SpectrogramSettings.cpp
+ msgid "The frequency gain cannot be negative"
+-msgstr "Frekvensens värde kan inte vara negativt"
++msgstr "Frekvensförstärkningen kan inte vara negativ"
+ 
+ #: src/prefs/SpectrogramSettings.cpp
+ msgid "The frequency gain must be no more than 60 dB/dec"
+-msgstr "Frekvensens värde måste vara inte mindre än 60dB/dec"
++msgstr "Frekvensförstärkningen får inte vara högre än 60 dB/dec"
+ 
+ #: src/prefs/SpectrumPrefs.cpp
+ msgid "Spectrogram Settings"
+-- 
+2.54.0 (Apple Git-157)
+

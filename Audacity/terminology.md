@@ -34,3 +34,6 @@
 | Loop | loop | Markerad del som upprepas vid uppspelning. |
 | Input monitoring | medlyssning av insignalen | Lyssning på inkommande ljud under inspelning. |
 | PCM | PCM | Formatnamn som behålls, med bitdjup och samplingsintervall på svenska. |
+| MIDI Synth Latency | MIDI-syntens fördröjning | Fördröjning för MIDI-ljudgenerering, angiven i millisekunder. |
+| Key binding | tangentbindning | Koppling mellan ett kommando och en tangent eller tangentkombination. |
+| Crossfade | övertoning | Gradvis övergång mellan två ljudavsnitt. |
