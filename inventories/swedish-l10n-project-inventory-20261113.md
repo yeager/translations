@@ -45,7 +45,7 @@ Prioritet 1 betyder bred slutanvändarnytta, 2 produktivitets- och samarbetsprog
 | 1 | [OpenMW/openmw](https://github.com/OpenMW/openmw) | 2026-06-19 | Svensk resurs: `files/data-mw/l10n/Calendar/sv.yaml` | 2024-05-18, Alexei Kotov |
 | 1 | [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) | 2026-11-01 | Svensk resurs: `data/language/sv-SE.txt` | 2026-09-13, OpenRCT2 git bot |
 | 1 | [OpenShot/openshot-qt](https://github.com/OpenShot/openshot-qt) | 2026-11-02 | Svensk resurs: `src/language/OpenShot_sv.qm` | 2026-07-25, Jonathan Thomas |
-| 1 | [OpenTTD/OpenTTD](https://github.com/OpenTTD/OpenTTD) | 2026-04-04 | Ingen svensk resurs i Git, extern kanal ej verifierad | Ej offentligt fastställt |
+| 1 | [OpenTTD/OpenTTD](https://github.com/OpenTTD/OpenTTD) | 2026-04-04 | Svenska förvaltas i officiella WebTranslator: 4 792 aktuella, 9 inaktuella och 6 saknade; lokal 15-posters delta klar | Senaste svenska översättare är inte offentligt angiven; skrivrätt för yeager nekades 2026-11-13 |
 | 1 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | 2026-11-11 | Resursträff kräver UI-kontroll | 2026-11-11, yanatalia |
 | 1 | [PintaProject/Pinta](https://github.com/PintaProject/Pinta) | 2026-04-02 | Svensk resurs: `po/sv.po` | 2026-10-18, Åke Engelbrektson |
 | 1 | [PrismLauncher/PrismLauncher](https://github.com/PrismLauncher/PrismLauncher) | 2026-09-28 | Ingen svensk resurs i Git, extern kanal ej verifierad | Ej offentligt fastställt |
