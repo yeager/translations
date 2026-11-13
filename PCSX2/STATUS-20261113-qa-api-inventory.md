@@ -83,3 +83,20 @@ Hunspell-sv kördes inte över hela katalogen. Verktyget används med sänkt
 prioritet och endast på måltexter i en aktuell ändringsbatch; efter varje körning
 kontrolleras att ingen `hunspell`-process finns kvar. Detta begränsar CPU-belastningen
 utan att utelämna den språkkontroll som krävs före ett nytt inskick.
+
+## Katalogskador med redan befintliga kandidater
+
+En ny genomgång av l10n-lints faktiska platshållar- och formatfel i samma
+XLIFF-export identifierade ytterligare tre felaktiga aktiva måltexter:
+
+| Sträng-ID | Källa | Felaktig aktiv måltext | Befintlig korrekt kandidat |
+| --- | --- | --- | --- |
+| `9081` | `Vulkan` | Ett orelaterat felmeddelande om Vulkan-renderaren | `205996`: `Vulkan` |
+| `9083` | `Metal` | `Metall` | `205998`: `Metal` |
+| `9675` | `{}s` | `%s: Fel - %s` med andra platshållare | `255546`: `{}s` |
+
+`Vulkan` och `Metal` är synliga grafik-API-namn och ska behållas oförändrade.
+Tidsformatet är en kompakt teknisk etikett; den källidentiska kandidaten
+bevarar platshållaren. Inga dubbletter, röster eller statusändringar gjordes.
+De redan befintliga kandidaterna måste väljas eller granskas av en
+projektbehörig granskare.
