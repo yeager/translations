@@ -187,7 +187,7 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | guard tower | vakttorn | Försvarstorn med bestyckning. |
 | battery pit | batterigrop | Skyddad ställning för indirekt eld. |
 | strongpoint | starkt värn | Tung, befäst försvarsplats. |
-| rail gun | skenkanon | Elektromagnetiskt vapensystem. |
+| rail gun | rälsgevär | Elektromagnetiskt vapensystem; används konsekvent i vapen- och forskningsnamn. |
 
 ## Automatiserade system
 
