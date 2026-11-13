@@ -1,0 +1,105 @@
+From 263080a7fb51b4928821fbeb4e15a6fc54a7e748 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 16:11:58 +0100
+Subject: [PATCH] l10n(sv): refine database theme and VST labels
+
+---
+ au3/locale/sv.po | 22 +++++++++++-----------
+ 1 file changed, 11 insertions(+), 11 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 9e20039..dd6b451 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -2474,7 +2474,7 @@ msgstr "En malloc() misslyckades"
+ #. i18n-hint: database operation has failed because database is read-only
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+ msgid "Attempt to write a read-only database"
+-msgstr "Försök att skriva en skrivskyddad databas"
++msgstr "Försök att skriva till en skrivskyddad databas"
+ 
+ #. i18n-hint: database operation was interrupted
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+@@ -2539,12 +2539,12 @@ msgstr "Stödet för stora filer är inaktiverat"
+ #. i18n-hint: database operation has failed due to the authorization error
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+ msgid "Authorization denied"
+-msgstr "Auktorisering nekades"
++msgstr "Behörighet nekad"
+ 
+ #. i18n-hint: database operation has failed due to the format error
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+ msgid "Not used"
+-msgstr "Inte använd"
++msgstr "Används inte"
+ 
+ #. i18n-hint: database operation has failed because the parameter is out of range
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+@@ -2564,11 +2564,11 @@ msgstr "Okänt problem"
+ 
+ #: libraries/lib-strings/FutureStrings.h src/toolbars/CutCopyPasteToolBar.cpp
+ msgid "Cut/Copy/Paste"
+-msgstr "Klipp ut/Kopiera/Klistra in"
++msgstr "Klipp ut/kopiera/klistra in"
+ 
+ #: libraries/lib-strings/FutureStrings.h src/toolbars/CutCopyPasteToolBar.cpp
+ msgid "&Cut/Copy/Paste Toolbar"
+-msgstr "&Klipp ut/Kopiera/Klistra in verktygsfält"
++msgstr "Verktygsfält för &klipp ut/kopiera/klistra in"
+ 
+ #: libraries/lib-strings/Internat.cpp
+ msgid "Unable to determine"
+@@ -2677,7 +2677,7 @@ msgid ""
+ msgstr ""
+ "Audacity kunde inte hitta fil:\n"
+ "  %s.\n"
+-"Temat kunde inte läsas in."
++"Temat lästes inte in."
+ 
+ #. i18n-hint: Do not translate png.  It is the name of a file format.
+ #: libraries/lib-theme/Theme.cpp
+@@ -2721,7 +2721,7 @@ msgid ""
+ "Themes written to:\n"
+ "  %s/*/Components/."
+ msgstr ""
+-"Tema skrevs till:\n"
++"Teman skrevs till:\n"
+ "  %s/*/Components/."
+ 
+ #: libraries/lib-theme/Theme.cpp
+@@ -2869,7 +2869,7 @@ msgstr "VST3-effekter"
+ 
+ #: libraries/lib-vst3/VST3EffectsModule.cpp
+ msgid "Adds the ability to use VST3 effects in Audacity."
+-msgstr "Lägger till möjligheten att använda VST3-effekter i Audacity."
++msgstr "Ger Audacity stöd för VST3-effekter."
+ 
+ #: libraries/lib-vst3/VST3EffectsModule.cpp
+ #, c-format
+@@ -2891,7 +2891,7 @@ msgid ""
+ "Sequence has block file exceeding maximum %s samples per block.\n"
+ "Truncating to this maximum length."
+ msgstr ""
+-"Sekvensen har blockfil som överskrider maximalt %s samplingar per block.\n"
++"Sekvensen har en blockfil som överskrider maximalt %s samplar per block.\n"
+ "Trunkerar till maximal längd."
+ 
+ #: libraries/lib-wave-track/Sequence.cpp
+@@ -2955,12 +2955,12 @@ msgstr "här"
+ 
+ #: libraries/lib-wx-init/ErrorReportDialog.cpp
+ msgid "Would you like to send a report to help us fix this issue?"
+-msgstr "Vill du skicka en rapport för att hjälpa oss att fixa detta problem?"
++msgstr "Vill du skicka en rapport som hjälper oss att lösa problemet?"
+ 
+ #: libraries/lib-wx-init/ErrorReportDialog.cpp
+ #, c-format
+ msgid "All reports are anonymous. See %s for more info."
+-msgstr "Alla rapporter är anonyma. Se %s för mer info."
++msgstr "Alla rapporter är anonyma. Se %s för mer information."
+ 
+ #. i18n-hint: Title of hyperlink to the privacy policy. This is an object of "See".
+ #: libraries/lib-wx-init/ErrorReportDialog.cpp src/AboutDialog.cpp
+-- 
+2.54.0 (Apple Git-157)
+
