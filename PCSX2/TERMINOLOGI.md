@@ -33,6 +33,7 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | Force Feedback | Force Feedback | Synligt funktionsnamn för rattar och haptisk återkoppling; behålls på engelska i PCSX2:s gränssnitt. |
 | present | visa | Gäller visning av redan renderade bildrutor. Undvik `presentera` i grafikinställningarna. |
 | frame pacing | bildruteintervall | Gäller jämnheten i tiden mellan visade bildrutor. |
+| frame rate | bildrutehastighet | Gäller visad eller emulerad frekvens, bland annat NTSC och PAL. |
 | input lag | inmatningsfördröjning | Gäller fördröjning mellan användarens inmatning och spelets respons. |
 | notification | avisering | Gäller PCSX2:s systemmeddelanden och tillhörande ljud. |
 | leaderboard | topplista | Gäller resultatlistor i RetroAchievements-relaterade inställningar. |
@@ -42,6 +43,10 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | header | filhuvud | Gäller filformat och GSDump. |
 | draw call | ritanrop | Gäller GS- och renderingsstatistik. |
 | texture replacement | texturersättning | Gäller ersättningar som läses in för speltexturer. |
+| preload | förinläsning | Gäller särskilt texturer som läses in i cache före användning. |
+| bilinear filtering | bilinjär filtrering | Gäller grafikinställningen; `Bilinjär` används i korta valetiketter. |
+| trilinear filtering | trilinjär filtrering | Gäller grafikinställningen; `Trilinjär` används i korta valetiketter. |
+| TV shader | TV-shader | Projektspecifik teknisk sammansättning för TV-liknande bildfilter. |
 | interlacing | radsprångsvisning | Används för bildsammanflätning i videoinställningar. |
 | interlace offset | radsprångsförskjutning | Gäller den separata grafikinställningen. |
 | patch | korrigering | Används för spel- och kompatibilitetskorrigeringar i UI. |
