@@ -16,3 +16,9 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | landing zone | LZ | Synlig förkortning i uppdragstexten; behålls oförändrad. |
 | The Project | projektet | Löpande berättelsetext i denna batch. |
 | New Paradigm / NEXUS | New Paradigm / NEXUS | Fraktions- och egennamn som behålls. |
+| The Collective | The Collective | Fraktionsnamn som behålls i berättelsetext och UI. |
+| VTOL | VTOL | Synlig teknisk förkortning för vertikal start och landning. |
+| NASDA | NASDA | Organisationsnamn som behålls. |
+| convoy | konvoj | Fientlig eller egen transportstyrka i uppdragsmål. |
+| containment camp | interneringsläger | Plats där civila hålls fångna i kampanj 2. |
+| bring online | driftsätta | Ta reaktorn i aktiv drift. |
