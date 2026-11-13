@@ -13,6 +13,6 @@ Datum: 13 november 2026. Underlaget är direktavläst från Inkscape Weblate API
 
 ## Dokumentation
 
-Komponenterna `man`, `keys` och handledningarna basic, advanced, calligraphy, elements, interpolate, shapes, tips, tracing och tracing-pixelart finns för både utvecklingsgrenen och 1.4.x. Samtliga är 100 % översatta och har 0 fuzzy-poster enligt Weblate.
+Komponenterna `man`, `keys` och handledningarna basic, advanced, calligraphy, elements, interpolate, shapes, tips, tracing och tracing-pixelart finns för både utvecklingsgrenen och 1.4.x. Den gemensamma svenska katalogen har nu granskats rad för rad lokalt; gemensamma strängar mellan versionerna har inte dubbelgranskats.
 
-De är inte radgranskade i denna arbetsomgång. Dokumentationsgranskning är medvetet uppskjuten och ska inte blandas ihop med den färdiga UI-granskningen.
+Nybörjarguiden omfattar 71 svenska PO-filer och handledningarna 11. Samtliga 82 lokala PO-filer har lästs rad för rad och har inga fuzzy-poster. `msgfmt` och `git diff --check` har passerat. `l10n-lint` har kvar varningar som måste tolkas per kontext, främst om avsiktliga UI-etiketter och dokumentationsmarkup.
