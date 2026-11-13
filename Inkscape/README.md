@@ -1,6 +1,6 @@
 # Inkscape
 
-Senast kontrollerat: 2026-11-13.
+Senast kontrollerat: 2026-11-13. Den aktuella stabila utgåvan är Inkscape 1.4.4, släppt i maj 2026.
 
 Utvecklingsgrenens UI-katalog (`master/inkscape`) radgranskades i sin helhet mot en återläst Weblate-export med 11 245 aktiva poster. Exporten har inga aktiva oöversatta poster; föråldrade fuzzy-poster räknas inte som aktiva översättningar. Weblate-granskning är avstängd för komponenten.
 
