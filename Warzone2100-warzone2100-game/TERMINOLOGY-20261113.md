@@ -221,3 +221,15 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | thermal armor | termiskt pansar | Skyddstyp i statistik och forskningsnamn. |
 | high-intensity thermal armor | värmetåligt pansar med hög intensitet | Cyborgspecifik materialuppgradering. |
 | depleted uranium | utarmat uran | Ammunitionsmaterial för kulsprutor. |
+
+## Fabriker, sensorer och EMP
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| factory module | fabriksmodul | Modul som utökar fabrikens chassikapacitet. |
+| factory output | fabrikens produktionstakt | Produktionsvärde i forskningsbeskrivningar. |
+| sensor range | sensorräckvidd | Räckvidd för målupptäckt. |
+| counter-battery range | motbatteriräckvidd | Räckvidd för sensorer mot indirekt eld. |
+| EMP cannon / mortar | EMP-kanon / EMP-granatkastare | Elektromagnetiska pulsvapen. |
+| EMP missile launcher | EMP-robotlavett | Lavett för EMP-robotar. |
+| fast-fire mini-rockets | snabbskjutande miniroboter | Forskningsserie för lättare robotvapen. |
