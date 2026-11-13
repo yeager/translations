@@ -35,6 +35,8 @@ Kontrollerna `numbers` och `symbol_register` gav ytterligare en faktisk katalogs
 
 L10n-lint träffade ett dubbelmellanrum i två felmeddelanden (`11416` och `11448`) och det dubbla ordet *och* i `10874`. Korrekt form finns redan som kandidaterna `449197`, `449227` och `449225`. Sträng `16251` träffas därför att *Välj* förekommer både som synligt knappnamn och som verb i instruktionen; formuleringen är grammatisk och ändrades inte. Inga nya kandidater behövdes.
 
+Procentvarningarna granskades också mot UI-kontexten. Reglageetiketter och de två SoundTouch-hjälptexterna har redan korrekta svenska kandidater: `449207` och `449209` förbättrar den språkligt felaktiga ljudtidssträckningstexten, medan `119161`, `119879` och `449177` till `449189` använder svenskt mellanrum före procenttecknet. Inga dubblettförslag skapades.
+
 ## Beslut
 
 Inga QA-poster har avfärdats eller massgodkänts. Formateringskontroller ska jämföras med exakt käll- och måltext före varje rättning. Stavningsposter behandlas endast när den konkreta svenska formuleringen är fel, inte därför att Crowdins ordlista saknar termen.
