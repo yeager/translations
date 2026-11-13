@@ -1,0 +1,108 @@
+From 6998f7d0f37d733b13ae00d6d3751ed20a226822 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 16:13:30 +0100
+Subject: [PATCH] l10n(sv): refine legacy project import messages
+
+---
+ au3/locale/sv.po | 28 ++++++++++++++--------------
+ 1 file changed, 14 insertions(+), 14 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index dd6b451..7780bd7 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -3203,7 +3203,7 @@ msgstr "Filen \"%s\" finns redan, vill du verkligen skriva över den?"
+ 
+ #: libraries/lib-wx-wrappers/FileDialog/gtk/FileDialogPrivate.cpp
+ msgid "Please choose an existing file."
+-msgstr "Var god välj en befintlig fil."
++msgstr "Välj en befintlig fil."
+ 
+ #: libraries/lib-wx-wrappers/FileDialog/mac/FileDialogPrivate.mm
+ msgid "File type:"
+@@ -3304,31 +3304,31 @@ msgstr "Internt fel i importverktyget ... taggen kändes inte igen"
+ 
+ #: modules/import-export/mod-aup/ImportAUP.cpp
+ msgid "Invalid project 'vpos' attribute."
+-msgstr "Ogiltigt projekt 'vpos' attribut."
++msgstr "Ogiltigt projektattribut 'vpos'."
+ 
+ #: modules/import-export/mod-aup/ImportAUP.cpp
+ msgid "Invalid project 'h' attribute."
+-msgstr "Ogiltigt projekt 'h' attribut."
++msgstr "Ogiltigt projektattribut 'h'."
+ 
+ #: modules/import-export/mod-aup/ImportAUP.cpp
+ msgid "Invalid project 'zoom' attribute."
+-msgstr "Ogiltigt projekt 'zoom' attribut."
++msgstr "Ogiltigt projektattribut 'zoom'."
+ 
+ #: modules/import-export/mod-aup/ImportAUP.cpp
+ msgid "Invalid project 'sel0' attribute."
+-msgstr "Ogiltigt projekt 'sel0' attribut."
++msgstr "Ogiltigt projektattribut 'sel0'."
+ 
+ #: modules/import-export/mod-aup/ImportAUP.cpp
+ msgid "Invalid project 'sel1' attribute."
+-msgstr "Ogiltigt projekt 'sel1' attribut."
++msgstr "Ogiltigt projektattribut 'sel1'."
+ 
+ #: modules/import-export/mod-aup/ImportAUP.cpp
+ msgid "Invalid project 'selLow' attribute."
+-msgstr "Ogiltigt projekt 'selLow' attribut."
++msgstr "Ogiltigt projektattribut 'selLow'."
+ 
+ #: modules/import-export/mod-aup/ImportAUP.cpp
+ msgid "Invalid project 'selHigh' attribute."
+-msgstr "Ogiltigt projekt 'selHigh' attribut."
++msgstr "Ogiltigt projektattribut 'selHigh'."
+ 
+ #: modules/import-export/mod-aup/ImportAUP.cpp
+ #, c-format
+@@ -3337,11 +3337,11 @@ msgstr "Kunde inte hitta projektets datamapp: \"%s\""
+ 
+ #: modules/import-export/mod-aup/ImportAUP.cpp
+ msgid "MIDI tracks found in project file, but this build of Audacity does not include MIDI support, bypassing track."
+-msgstr "MIDI-spår funna i denna projektfil, men denna version av Audacity inkluderar inte MIDI support, därför undantas spår."
++msgstr "MIDI-spår hittades i projektfilen, men den här versionen av Audacity saknar MIDI-stöd. Spåret hoppas över."
+ 
+ #: modules/import-export/mod-aup/ImportAUP.cpp
+ msgid "The active project already has a time track and one was encountered in the project being imported, bypassing imported time track."
+-msgstr "Detta aktiva projekt har redan ett tidsspår och det var med i det importerade projektet, andra tidsspår undantas."
++msgstr "Det aktiva projektet har redan ett tidsspår. Det importerade tidsspåret hoppas över."
+ 
+ #: modules/import-export/mod-aup/ImportAUP.cpp
+ msgid "Invalid sequence 'maxsamples' attribute."
+@@ -3368,7 +3368,7 @@ msgid ""
+ msgstr ""
+ "Saknad projektfil %s\n"
+ "\n"
+-"Ersätter med tystnad istället."
++"Ersätter med tystnad i stället."
+ 
+ #: modules/import-export/mod-aup/ImportAUP.cpp
+ msgid "Missing or invalid simpleblockfile 'len' attribute."
+@@ -3385,9 +3385,9 @@ msgid ""
+ "\n"
+ "Inserting silence instead."
+ msgstr ""
+-"Saknar alias fil %s\n"
++"Aliasfil saknas: %s\n"
+ "\n"
+-"Ersätter med tystnad istället."
++"Ersätter med tystnad i stället."
+ 
+ #: modules/import-export/mod-aup/ImportAUP.cpp
+ msgid "Missing or invalid pcmaliasblockfile 'aliasstart' attribute."
+@@ -3421,7 +3421,7 @@ msgstr "Misslyckades med att söka position %lld i %s"
+ #: modules/import-export/mod-aup/ImportAUP.cpp
+ #, c-format
+ msgid "Unable to read %lld samples from %s"
+-msgstr "Kunde inte läsa %lld samplingar från %s"
++msgstr "Kunde inte läsa %lld samplar från %s"
+ 
+ #: modules/import-export/mod-cl/ExportCL.cpp src/commands/HelpCommand.cpp
+ msgid "Command:"
+-- 
+2.54.0 (Apple Git-157)
+
