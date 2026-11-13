@@ -30,6 +30,7 @@
 | Spectral effect | spektral effekt | Effekt som tillämpas på ett valt frekvensintervall i spektrogramvyn. |
 | Spectral selection | spektral markering | Markering av ett frekvensintervall i spektrogramvyn. |
 | Sample | samplar | Digitala mätvärden i en ljudström; används i bland annat buffertbeskrivningar. |
+| Sample (value or index) | samplingsvärde | Ett enskilt digitalt ljudvärde eller dess index i benchmark- och visningskontext. |
 | Sample rate | samplingsfrekvens | Antal samplar per sekund i ett ljudspår, angivet i hertz. |
 | Sub-view | undervy | Delvy i ett vågspår som kan visas, ordnas om och stängas. |
 | Raw data | rådata | Obearbetade ljuddata vid import. |
