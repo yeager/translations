@@ -49,6 +49,7 @@
 | Scrub | skrubba | Åtgärden att spela upp ljud variabelt vid avsökning. |
 | Zero padding | nollutfyllnad | Utfyllnad med nollor före FFT-analys. |
 | Frequency gain | frekvensförstärkning | Förstärkning per frekvensområde i spektrogrammet. |
+| Peak frequency | toppfrekvens | Nästa högre eller lägre lokala frekvenstopp i spektrogramvyn. |
 | Playhead | uppspelningshuvud | Markör som visar aktuell uppspelnings- eller inspelningsposition. |
 | Time signature | taktart | Musikaliskt mått med täljare och nämnare. |
 | Snap | fästning | Fäster markör eller markering till närliggande tids- eller ljudpunkt. |
