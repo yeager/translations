@@ -276,3 +276,13 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | HVC | HVC | Synlig teknisk förkortning i enhetsnamn behålls. |
 | rocket wire guidance | trådstyrning för robotar | Robotstyrning genom tråd. |
 | shaped charge | riktad sprängverkan | Stridsspetsens verkan. |
+
+## Huvudmeny och spelstart
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| single player / multiplayer | enspelarläge / flerspelarläge | Konsekventa val i huvudmenyn. |
+| skirmish | skärmytsling | Etablerad spelterm för fristående match. |
+| display scale | visningsskala | Inställning för gränssnittets skala. |
+| replay | repris | Inspelad match som visas eller läses in. |
+| original campaign | ursprunglig kampanj | Förvalet med originalkampanjens regler. |
