@@ -1,0 +1,200 @@
+From 528ac231252a3e8b9cac5b7a18e22119c41a9a47 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:33:08 +0100
+Subject: [PATCH] l10n(sv): review cloud sync and MIDI dialogs
+
+---
+ au3/locale/sv.po | 46 +++++++++++++++++++++++-----------------------
+ 1 file changed, 23 insertions(+), 23 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 0b38ad6..c504e19 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -6113,7 +6113,7 @@ msgstr "Öppna ett lokalt projekt"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectVersionConflictDialog.cpp
+ msgid "Cloud project conflict"
+-msgstr "Konflikt med Molnprojekt"
++msgstr "Konflikt med molnprojekt"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectVersionConflictDialog.cpp
+ msgid "You are attempting to open a new active version of this project when there is already one open. Please select which version you wish to remain open."
+@@ -6129,7 +6129,7 @@ msgstr "Öppna en ny version"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectsListDialog.cpp
+ msgid "Open from Cloud"
+-msgstr "Öppna från Moln"
++msgstr "Öppna från molnet"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectsListDialog.cpp
+ msgid "less than 1 minute"
+@@ -6151,7 +6151,7 @@ msgstr[1] "%d timmar sedan"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectsListDialog.cpp
+ msgid "Modified"
+-msgstr "Modifierad"
++msgstr "Ändrad"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectsListDialog.cpp
+ msgid "Failed to authorize account"
+@@ -6163,11 +6163,11 @@ msgstr "Laddar projektlistan..."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectsListDialog.cpp
+ msgid "Failed to get projects list"
+-msgstr "Misslyckades med att få projektlistan"
++msgstr "Kunde inte hämta projektlistan"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectsListDialog.cpp
+ msgid "Cloud saved projects"
+-msgstr "Projekt sparade i Moln"
++msgstr "Projekt sparade i molnet"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectsListDialog.cpp
+ msgid "Search:"
+@@ -6188,11 +6188,11 @@ msgstr "Sida %d av %d"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ShareAudioDialog.cpp
+ msgid "Anyone will be able to listen to this audio."
+-msgstr "Du kommer inte att kunna spela upp eller spela in ljud.Alla kommer att kunna lyssna på detta ljud."
++msgstr "Alla kan lyssna på det här ljudet."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ShareAudioDialog.cpp
+ msgid "Only you and people you share a link with will be able to listen to this audio."
+-msgstr "Bara du och personer du delar länk med kan lyssna på detta ljud."
++msgstr "Bara du och personer som du delar en länk med kan lyssna på det här ljudet."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ShareAudioDialog.cpp
+ msgid "Are you sure you want to cancel?"
+@@ -6220,7 +6220,7 @@ msgstr "Vi kan inte förbereda denna fil för uppladdning."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ShareAudioDialog.cpp
+ msgid "Finalizing upload..."
+-msgstr "Slutför uppladdning..."
++msgstr "Slutför uppladdningen..."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ShareAudioDialog.cpp
+ #: src/TagsEditor.cpp
+@@ -6231,7 +6231,7 @@ msgstr "Spårtitel"
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ShareAudioDialog.cpp
+ #, c-format
+ msgid "Sharing audio requires a free %s account linked to Audacity. %%Press \"Link account\" above to proceed."
+-msgstr "Att dela ljud kräver ett gratis %s-konto kopplat till Audacity. %%Tryck på \"Länka konto\" ovan för att fortsätta."
++msgstr "Att dela ljud kräver ett kostnadsfritt %s-konto kopplat till Audacity. %%Klicka på \"Länka konto\" ovan för att fortsätta."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ShareAudioDialog.cpp
+ msgid "audio.com"
+@@ -6239,7 +6239,7 @@ msgstr "audio.com"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ShareAudioDialog.cpp
+ msgid "Press \"Continue\" to upload to audio.com"
+-msgstr "Klicka \"Fortsätt\" för att uppladda till Audio.com"
++msgstr "Klicka på \"Fortsätt\" för att ladda upp till audio.com"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ShareAudioDialog.cpp
+ msgid "Preparing audio..."
+@@ -6259,7 +6259,7 @@ msgstr "Audacity hade problem med att ansluta till servern."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/SyncFailedDialog.cpp
+ msgid "The project is too large to upload. Please save it to your computer instead."
+-msgstr "Projektet är för stort för att ladda upp. Spara det på din dator istället."
++msgstr "Projektet är för stort för att laddas upp. Spara det på din dator i stället."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/SyncFailedDialog.cpp
+ msgid "You don't have access to this project."
+@@ -6287,7 +6287,7 @@ msgstr "Audacity stötte på ett okänt fel."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/SyncFailedDialog.cpp
+ msgid "Sync failed"
+-msgstr "Synk misslyckades"
++msgstr "Synkroniseringen misslyckades"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/SyncFailedDialog.cpp
+ #, c-format
+@@ -6295,12 +6295,12 @@ msgid ""
+ "Error details:\n"
+ "%s"
+ msgstr ""
+-"Fel detaljer: \n"
++"Felinformation:\n"
+ "%s"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/SyncInBackroundDialog.cpp
+ msgid "Syncing your project"
+-msgstr "Synkronisera ditt projekt"
++msgstr "Synkroniserar projektet"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/SyncInBackroundDialog.cpp
+ msgid "The project will sync in background while you work. You can check the sync status on the bottom right corner of Audacity at any time"
+@@ -6313,7 +6313,7 @@ msgstr "Fortsätt"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/SyncSucceededDialog.cpp
+ msgid "Success!"
+-msgstr "Succé!"
++msgstr "Klart!"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/SyncSucceededDialog.cpp
+ msgid "All saved changes will now update to the cloud. You can manage this file from your uploaded projects page on audio.com"
+@@ -6333,11 +6333,11 @@ msgstr "Den senaste versionen av detta projekt laddades inte upp helt till audio
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/UnsyncedProjectDialog.cpp
+ msgid "Load latest"
+-msgstr "Ladda senaste"
++msgstr "Läs in senaste"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/UnsyncedProjectDialog.cpp
+ msgid "No version of this project has been fully uploaded to audio.com. It cannot be loaded."
+-msgstr "Ingen version av detta projekt har laddats upp fullständigt till audio.com. Det går inte att ladda."
++msgstr "Ingen version av det här projektet har laddats upp fullständigt till audio.com. Det går inte att läsa in."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/UploadCanceledDialog.cpp
+ msgid "You have canceled this upload to audio.com"
+@@ -6353,7 +6353,7 @@ msgstr "En åtgärd på audio.com krävs innan du kan fortsätta. När du är kl
+ 
+ #: modules/track-ui/mod-midi-import-export/ExportMIDI.cpp
+ msgid "Exported Allegro (.gro) files save time as:"
+-msgstr "Exporterade Allegro-filer (.gro) sparningstid som:"
++msgstr "Exporterade Allegro-filer (.gro) sparar tid som:"
+ 
+ #: modules/track-ui/mod-midi-import-export/ExportMIDI.cpp
+ msgid "Please select only one Note Track at a time."
+@@ -6361,7 +6361,7 @@ msgstr "Du kan bara välja ett notspår åt gången."
+ 
+ #: modules/track-ui/mod-midi-import-export/ExportMIDI.cpp
+ msgid "Please select a Note Track."
+-msgstr "Var god välj ett notspår."
++msgstr "Välj ett notspår."
+ 
+ #: modules/track-ui/mod-midi-import-export/ExportMIDI.cpp
+ msgid "Export MIDI As:"
+@@ -6373,7 +6373,7 @@ msgstr "MIDI-fil"
+ 
+ #: modules/track-ui/mod-midi-import-export/ExportMIDI.cpp
+ msgid "Allegro file"
+-msgstr "Allegro fil"
++msgstr "Allegro-fil"
+ 
+ #: modules/track-ui/mod-midi-import-export/ExportMIDI.cpp
+ msgid ""
+@@ -6421,15 +6421,15 @@ msgstr "Välj en MIDI-fil"
+ 
+ #: modules/track-ui/mod-midi-import-export/ImportMIDI.cpp
+ msgid "MIDI and Allegro files"
+-msgstr "MIDI and Allegro filer"
++msgstr "MIDI- och Allegro-filer"
+ 
+ #: modules/track-ui/mod-midi-import-export/ImportMIDI.cpp
+ msgid "MIDI files"
+-msgstr "MIDI filer"
++msgstr "MIDI-filer"
+ 
+ #: modules/track-ui/mod-midi-import-export/ImportMIDI.cpp
+ msgid "Allegro files"
+-msgstr "Allegro file"
++msgstr "Allegro-filer"
+ 
+ #: modules/track-ui/mod-midi-import-export/ImportMIDI.cpp
+ msgid "&MIDI..."
+-- 
+2.54.0 (Apple Git-157)
+
