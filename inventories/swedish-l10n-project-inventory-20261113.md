@@ -33,7 +33,7 @@ Prioritet 1 betyder bred slutanvändarnytta, 2 produktivitets- och samarbetsprog
 | 1 | [godotengine/godot](https://github.com/godotengine/godot) | 2026-08-18 | Svensk resurs: `editor/translations/editor/sv.po` | 2026-11-12, Hugo Locurcio |
 | 1 | [Heroic-Games-Launcher/HeroicGamesLauncher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher) | 2026-10-15 | Svensk resurs: `public/locales/sv` | 2026-11-08, Weblate (bot) |
 | 1 | [ImranR98/Obtainium](https://github.com/ImranR98/Obtainium) | 2026-11-01 | Svensk resurs: `assets/translations/sv.json` | 2026-11-01, ImranR |
-| 1 | [krille-chan/fluffychat](https://github.com/krille-chan/fluffychat) | 2026-11-06 | Svensk resurs: `ios/Runner/sv-SE.lproj` | 2020-12-18, Christian Pauly |
+| 1 | [krille-chan/fluffychat](https://github.com/krille-chan/fluffychat) | 2026-11-06 | Svensk Flutter-resurs `lib/l10n/intl_sv.arb`; 57 saknade call- och mediatexter är färdiggranskade och pushade till fork, men PR-behörighet nekades | 2020-12-18, Christian Pauly |
 | 1 | [laurent22/joplin](https://github.com/laurent22/joplin) | 2026-10-28 | Resursträff kräver UI-kontroll: `Assets/TinyMCE/langs/sv_SE.js` | 2020-11-05, Laurent Cozic |
 | 1 | [LibreCAD/LibreCAD](https://github.com/LibreCAD/LibreCAD) | 2026-10-17 | Svensk resurs: `librecad/support/library/elektro/source/sv.dxf` | 2026-09-05, Dongxu Li |
 | 1 | [localsend/localsend](https://github.com/localsend/localsend) | 2026-08-21 | Svensk resurs: `app/assets/i18n/_missing_translations_sv.json`; tre aktuella UI-strängar inskickade som [PR #3706](https://github.com/localsend/localsend/pull/3706), väntar på granskning | 2026-08-10, Tien Do Nam |
