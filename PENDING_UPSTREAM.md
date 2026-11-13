@@ -22,6 +22,12 @@
   redan fanns. Inga QA-kontroller eller dolda strängar orsakade överhopp.
   Förslagen väntar på eventuell Crowdin-granskning, godkännande och release;
   se [integritetsstatusen](PCSX2/STATUS-20261113-xliff-integrity-repair.md).
+- **Plex TV:** den enda nya oöversatta strängen i huvudresursen `en.yml`
+  skickades via Transifex API och återlästes den 13 november 2026. Resursen
+  är nu **1 712/1 712** svenska strängar och filtret för oöversatta ger 0
+  resultat. Transifex visar fortfarande 0 formellt granskade poster, så
+  inskicket är synligt men inte upstreamgranskat eller släppt; se
+  [statusen](Plex-TV/STATUS-20261113-en-yml.md).
 - **RetroArch, Xemu:** `XEMU_ASPECT_RATIO_INFO_0` i
   [Xemu-deltat](RetroArch/retroarch-sv-xemu-aspect-ratio-20261111.po) sparades
   i Crowdins redigerare 2026-11-11. Redigeraren bekräftade därefter att inga
