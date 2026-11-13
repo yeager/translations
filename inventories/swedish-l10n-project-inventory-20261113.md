@@ -16,7 +16,7 @@ Prioritet 1 betyder bred slutanvändarnytta, 2 produktivitets- och samarbetsprog
 | 1 | [darktable-org/darktable](https://github.com/darktable-org/darktable) | 2026-10-04 | Svensk resurs: `po/sv.po` | 2026-11-04, Johan Schiff |
 | 1 | [element-hq/element-x-android](https://github.com/element-hq/element-x-android) | 2026-11-06 | Svensk resurs: `features/analytics/api/src/main/res/values-sv` | 2024-02-23, Benoit Marty |
 | 1 | [element-hq/element-x-ios](https://github.com/element-hq/element-x-ios) | 2026-11-05 | Svensk resurs: `ElementX/Resources/Localizations/sv.lproj` | 2026-11-09, Element CI |
-| 1 | [elementary/os](https://github.com/elementary/os) | 2025-12-11 | Ingen svensk resurs i Git, extern kanal ej verifierad | Ej offentligt fastställt |
+| 1 | [elementary/os](https://github.com/elementary/os) | 2025-12-11 | elementary Weblate: 22 komponenter helt översatta; Settings har 1 svensk post som behöver redigeras (`accent color` → `Accentfärg`) | 2026-10-19, yeager |
 | 1 | [Floorp-Projects/Floorp](https://github.com/Floorp-Projects/Floorp) | 2026-11-13 | Svensk resurs: `browser-features/pages-aboutDialog/src/lib/i18n/locales/sv-SE.json` | 2026-08-07, github-actions[bot] |
 | 1 | [FossifyOrg/Calendar](https://github.com/FossifyOrg/Calendar) | 2026-11-07 | Resursträff kräver UI-kontroll: `app/src/main/assets/holidays/SV` | 2026-11-04, fossifybot[bot] |
 | 1 | [FossifyOrg/Clock](https://github.com/FossifyOrg/Clock) | 2026-01-30 | Svensk resurs: `app/src/main/res/values-sv` | 2025-05-29, P.O |
