@@ -1,0 +1,99 @@
+From 88e5c891ff4c5c64647f7fee48c99cf50d85436e Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 16:48:46 +0100
+Subject: [PATCH] l10n(sv): refine noise reduction and normalization labels
+
+---
+ au3/locale/sv.po | 22 +++++++++++-----------
+ 1 file changed, 11 insertions(+), 11 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index f79c6b4..8c35208 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -12894,7 +12894,7 @@ msgstr "Varning: Fönstertyperna är inte desamma som för profilering."
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "All noise profile data must have the same sample rate."
+-msgstr "All brusprofildata måste ha samma samplingsfrekvens."
++msgstr "Alla data i brusprofilen måste ha samma samplingsfrekvens."
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "The sample rate of the noise profile must match that of the sound to be processed."
+@@ -12902,7 +12902,7 @@ msgstr "Samplingsfrekvensen för brusprofilen måste överensstämma med den fö
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "Selected noise profile is too short."
+-msgstr "Markerad brusprofil är för kort."
++msgstr "Den markerade brusprofilen är för kort."
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "&Noise reduction (dB):"
+@@ -12950,7 +12950,7 @@ msgstr "&Känslighet (dB):"
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "Old Sensitivity"
+-msgstr "Gammal känslighet"
++msgstr "Tidigare känslighet"
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "Step 1"
+@@ -12996,7 +12996,7 @@ msgstr "&Isolera"
+ #. i18n-hint: Means the difference between effect and original sound.  Translate differently from "Reduce" !
+ #: src/effects/NoiseReduction.cpp
+ msgid "Resid&ue"
+-msgstr "&Resterande"
++msgstr "&Restsignal"
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "Advanced Settings"
+@@ -13080,15 +13080,15 @@ msgstr "Ställer in toppamplituden för ett eller flera spår"
+ 
+ #: src/effects/Normalize.cpp
+ msgid "Removing DC offset and Normalizing...\n"
+-msgstr "Tar bort DC-offset och normaliserar...\n"
++msgstr "Tar bort DC-förskjutning och normaliserar...\n"
+ 
+ #: src/effects/Normalize.cpp
+ msgid "Removing DC offset...\n"
+-msgstr "Tar bort DC-offset...\n"
++msgstr "Tar bort DC-förskjutning...\n"
+ 
+ #: src/effects/Normalize.cpp
+ msgid "Normalizing without removing DC offset...\n"
+-msgstr "Normaliserar utan att ta bort DC-offset...\n"
++msgstr "Normaliserar utan att ta bort DC-förskjutning...\n"
+ 
+ #: src/effects/Normalize.cpp
+ msgid "Not doing anything...\n"
+@@ -13121,15 +13121,15 @@ msgstr "Bearbetar andra spåret i stereoparet: %s"
+ 
+ #: src/effects/Normalize.cpp
+ msgid "&Remove DC offset (center on 0.0 vertically)"
+-msgstr "&Ta bort DC-offset (centrera vid 0.0 vertikalt)"
++msgstr "&Ta bort DC-förskjutning (centrera vid 0,0 vertikalt)"
+ 
+ #: src/effects/Normalize.cpp
+ msgid "&Normalize peak amplitude to   "
+-msgstr "&Normalisera maxamplitud till "
++msgstr "&Normalisera toppamplitud till "
+ 
+ #: src/effects/Normalize.cpp
+ msgid "Peak amplitude dB"
+-msgstr "Maximal amplitud i dB"
++msgstr "Toppamplitud i dB"
+ 
+ #: src/effects/Normalize.cpp
+ msgid "N&ormalize stereo channels independently"
+@@ -13180,7 +13180,7 @@ msgid ""
+ msgstr ""
+ "Det gick inte att förhandsvisa.\n"
+ "\n"
+-"För nuvarande ljudmarkering är den maximala\n"
++"För den aktuella ljudmarkeringen är den maximala\n"
+ "\"Tidsupplösning\" %.1f sekunder."
+ 
+ #. i18n-hint: 'Time Resolution' is the name of a control in the Paulstretch effect.
+-- 
+2.54.0 (Apple Git-157)
+
