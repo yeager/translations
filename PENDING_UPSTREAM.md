@@ -73,6 +73,12 @@
   synliga svenska måltexter och hör inte till uppdaterarbatchen. Se
   [uppdaterarstatusen](eden/STATUS-20261111-updater-batch.md). De väntar på
   projektets Transifex-synk, uppströmsgranskning och merge.
+- **Eden Emulator:** Transifex API-kontrollen 2026-11-13 bekräftar 2 134 av
+  2 134 svenska Qt-strängar och 1 084 av 1 084 Androidsträngar, utan
+  oöversatta poster. Transifex rapporterar dock 0 granskade strängar i båda
+  resurserna. De lokala översättningarna är därför inskickade och synliga,
+  men ännu inte verifierat upstreamgranskade eller släppta; se
+  [livekontrollen](Transifex/Eden-Emulator/STATUS-eden-emulator-20261112.md).
 - **Virtaal:** [PR #4697](https://github.com/translate/virtaal/pull/4697).
 - **sK1:** [PR #348](https://github.com/sk1-project/sk1-wx/pull/348).
 - **Rust Coreutils:** [PR #96](https://github.com/uutils/coreutils-l10n/pull/96).

@@ -24,6 +24,20 @@ Status: inskickat och verifierat i Transifex
 
 En Transifex API-batch med 8 översättningar skickades den 2026-11-12 och fick HTTP 200. En efterföljande API-kontroll med filtret `translated=false` bekräftade 0 återstående strängar i den svenska Qt-resursen.
 
+### Livekontroll 13 november 2026
+
+En ny API-kontroll bekräftar att `qt-translations` har **2 134 av 2 134**
+svenska strängar och **0 oöversatta** (10 709 av 10 709 ord). Resursens
+senaste översättningsuppdatering är 12 november 2026 09:21:31 UTC.
+
+Androidresursen har **1 084 av 1 084** svenska strängar och **0 oöversatta**
+(5 079 av 5 079 ord). Dess senaste översättningsuppdatering är 13 november
+2026 12:59:48 UTC.
+
+Transifex rapporterar samtidigt **0 granskade** och **0 korrekturlästa**
+strängar för båda resurserna. Översättningarna är alltså inskickade och
+synliga, men de är inte verifierat upstreamgranskade eller släppta.
+
 ## Versionskontroll
 
 Senaste stabila tagg som kontrollerades var `v0.2.1`, daterad 2026-06-01. Projektet uppfyller därför 48-månaderskravet.
