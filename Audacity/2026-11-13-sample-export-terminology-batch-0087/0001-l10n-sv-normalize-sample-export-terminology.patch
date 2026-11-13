@@ -1,0 +1,118 @@
+From 9cde96cb1a62f8e941b2c7575fcb9d4387a766ff Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 17:27:59 +0100
+Subject: [PATCH] l10n(sv): normalize sample export terminology
+
+---
+ au3/locale/sv.po | 28 ++++++++++++++--------------
+ 1 file changed, 14 insertions(+), 14 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 1a12e99..1d9ca05 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -20792,7 +20792,7 @@ msgstr "Hittades inte eller kan inte läsas:"
+ 
+ #: plug-ins/nyquist-plug-in-installer.ny
+ msgid "Unsupported file type:"
+-msgstr "Filtyper som inte stöds:"
++msgstr "Filtyp som inte stöds:"
+ 
+ #: plug-ins/nyquist-plug-in-installer.ny
+ msgid "Files already installed ('Allow Overwriting' disabled):"
+@@ -20817,7 +20817,7 @@ msgstr "David R.Sky"
+ 
+ #: plug-ins/pluck.ny
+ msgid "Pluck MIDI pitch"
+-msgstr "Pluck MIDI tonhöjd"
++msgstr "MIDI-tonhöjd för Pluck"
+ 
+ #: plug-ins/pluck.ny
+ msgid "Fade-out type"
+@@ -20949,8 +20949,8 @@ msgid ""
+ "Set either 'Number of bars' or~%~\n"
+ "                    'Rhythm track duration' to greater than zero."
+ msgstr ""
+-"Ställ in antingen 'Antal takter' eller ~%~\n"
+-"                     'Rhythm track duration' till mer än noll."
++"Ställ in antingen ”Antal takter” eller ~%~\n"
++"                     ”Längd på rytmspår” till mer än noll."
+ 
+ #: plug-ins/rissetdrum.ny
+ msgid "Risset Drum"
+@@ -20970,7 +20970,7 @@ msgstr "Brusets mittfrekvens (Hz)"
+ 
+ #: plug-ins/rissetdrum.ny
+ msgid "Width of noise band (Hz)"
+-msgstr "Bredd för brusband (Hz)"
++msgstr "Brusbandets bredd (Hz)"
+ 
+ #: plug-ins/rissetdrum.ny
+ msgid "Amount of noise in mix (percent)"
+@@ -21014,7 +21014,7 @@ msgstr "Antal samplar"
+ 
+ #: plug-ins/sample-data-export.ny
+ msgid "Time Indexed"
+-msgstr "Indexerad tid"
++msgstr "Tidsindexerad"
+ 
+ #: plug-ins/sample-data-export.ny
+ msgid "Include header information"
+@@ -21077,12 +21077,12 @@ msgstr "~aData skrevs till:~%~a"
+ #: plug-ins/sample-data-export.ny
+ #, lisp-format
+ msgid "Sample Rate: ~a Hz.  Sample values on ~a scale.~%~a~%~a"
+-msgstr "Samplingshastighet: ~a Hz.  Samplingsvärden på skalan ~a.~%~a~%~a"
++msgstr "Samplingsfrekvens: ~a Hz.  Samplingsvärden på skalan ~a.~%~a~%~a"
+ 
+ #: plug-ins/sample-data-export.ny
+ #, lisp-format
+ msgid "~a   ~a~%~aSample Rate: ~a Hz.~%Length processed: ~a samples ~a seconds.~a"
+-msgstr "~a   ~a~%~aSamplingshastighet: ~a Hz.~%Bearbetad längd: ~a samplingar ~a sekunder.~a"
++msgstr "~a   ~a~%~aSamplingsfrekvens: ~a Hz.~%Bearbetad längd: ~a samplar ~a sekunder.~a"
+ 
+ #: plug-ins/sample-data-export.ny
+ #, lisp-format
+@@ -21090,8 +21090,8 @@ msgid ""
+ "~a   ~a~%~aSample Rate: ~a Hz. Sample values on ~a scale.~%~\n"
+ "                     Length processed: ~a samples ~a seconds.~a"
+ msgstr ""
+-"~a   ~a~%~aSamplingshastighet: ~a Hz. Samplingsvärden på skalan ~a.~%~\n"
+-"                     Bearbetad längd: ~a samplingar ~a sekunder.~a"
++"~a   ~a~%~aSamplingsfrekvens: ~a Hz. Samplingsvärden på skalan ~a.~%~\n"
++"                     Bearbetad längd: ~a samplar ~a sekunder.~a"
+ 
+ #: plug-ins/sample-data-export.ny
+ #, lisp-format
+@@ -21100,8 +21100,8 @@ msgid ""
+ "                  samples, ~a seconds.~%Peak amplitude: ~a (linear) ~a dB.  Unweighted RMS: ~a dB.~%~\n"
+ "                  DC offset: ~a~a"
+ msgstr ""
+-"~a~%Samplingshastighet: ~a Hz. Samplingsvärden på skalan ~a. ~a.~%~aBearbetad längd: ~a ~\n"
+-"                  samplingar, ~a sekunder.~%Maximal amplitud: ~a (linjär) ~a dB.  Oviktad RMS: ~a dB.~%~\n"
++"~a~%Samplingsfrekvens: ~a Hz. Samplingsvärden på skalan ~a. ~a.~%~aBearbetad längd: ~a ~\n"
++"                  samplar, ~a sekunder.~%Maximal amplitud: ~a (linjär) ~a dB.  Oviktad RMS: ~a dB.~%~\n"
+ "                  DC-offset: ~a~a"
+ 
+ #: plug-ins/sample-data-export.ny
+@@ -21117,7 +21117,7 @@ msgstr "Vänster: ~a lin, ~a dB | Höger: ~a lin, ~a dB."
+ #: plug-ins/sample-data-export.ny
+ #, lisp-format
+ msgid "~a samples."
+-msgstr "~a samplingar."
++msgstr "~a samplar."
+ 
+ #: plug-ins/sample-data-export.ny
+ #, lisp-format
+@@ -21167,7 +21167,7 @@ msgstr "samplingsdata"
+ 
+ #: plug-ins/sample-data-export.ny
+ msgid "Sample #"
+-msgstr "Samplingsnr"
++msgstr "Samplenr"
+ 
+ #: plug-ins/sample-data-export.ny
+ msgid "Value (linear)"
+-- 
+2.54.0 (Apple Git-157)
+
