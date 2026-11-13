@@ -19,4 +19,8 @@ Kontroller:
 - l10n-lint: stöder inte OpenRCT2:s id-baserade textformat
 - svlang: inte tillämpligt på filformatet; verktyget analyserar hela katalogen som löpande text
 
-Upstream: inskickat som [OpenRCT2 PR #27415](https://github.com/OpenRCT2/OpenRCT2/pull/27415) den 13 november 2026. PR:en är öppen och väntar på granskning.
+Det ursprungliga inskicket [OpenRCT2 PR #27415](https://github.com/OpenRCT2/OpenRCT2/pull/27415)
+stängdes den 13 november 2026, eftersom översättningarna förvaltas i det separata
+arkivet `OpenRCT2/Localisation`. Batchen skickades därefter, tillsammans med
+färgerna och formatmallarna, som [Localisation PR #3571](https://github.com/OpenRCT2/Localisation/pull/3571).
+Den PR:en är öppen och väntar på granskning.
