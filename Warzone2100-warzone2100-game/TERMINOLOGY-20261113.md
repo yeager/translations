@@ -73,3 +73,18 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | propulsion | framdrivning | Teknisk egenskap för enhetens rörlighet. |
 | Bunker Blaster | bunkersprängare | Beskrivande vapennamn. |
 | Lancer / Scourge / Flashlight | oförändrat produktnamn | Behålls med svensk funktionsdel. |
+
+## Vapenforskning
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| bomb bay | bombkapsel | Intern bombbärare i flygfarkost. |
+| bombsight | bombsikte | Siktesystem för bombning. |
+| body points | skrovpoäng | Enhetens tålighet i statistik och forskning. |
+| flamer | eldkastare | Vapentyp; inte ett produktnamn. |
+| howitzer | haubits | Svensk militär fackterm. |
+| machinegun | kulspruta | Vapentyp i forskningstext. |
+| mortar | granatkastare | Vapentyp i forskningstext. |
+| rocket / mini-rocket | robot / minirobot | Svensk vapenterminologi i denna spelkontext. |
+| rate of fire (ROF) | eldhastighet | Teknisk vapenspecifikation. |
+| armor-piercing | pansarbrytande | Ammunition och stridsspetsar. |
