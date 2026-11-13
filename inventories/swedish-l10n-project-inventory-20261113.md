@@ -28,7 +28,7 @@ Prioritet 1 betyder bred slutanvändarnytta, 2 produktivitets- och samarbetsprog
 | 1 | [FossifyOrg/Music-Player](https://github.com/FossifyOrg/Music-Player) | 2026-10-24 | Svensk resurs: `app/src/main/res/values-sv` | 2025-05-18, P.O |
 | 1 | [FossifyOrg/Notes](https://github.com/FossifyOrg/Notes) | 2026-01-30 | Svensk resurs: `app/src/main/res/values-sv` | 2025-07-13, en2sv |
 | 1 | [FossifyOrg/Paint](https://github.com/FossifyOrg/Paint) | 2026-01-30 | Svensk resurs: `app/src/main/res/values-sv` | 2025-11-24, en2sv |
-| 1 | [FossifyOrg/Phone](https://github.com/FossifyOrg/Phone) | 2026-02-03 | Svensk resurs: `app/src/main/res/values-sv` | 2025-09-28, en2sv |
+| 1 | [FossifyOrg/Phone](https://github.com/FossifyOrg/Phone) | 2026-02-03 | Svensk resurs: `app/src/main/res/values-sv`; 77 av 77 översättningsbara nycklar täcks. FAQ-stavfel inskickat som [PR #943](https://github.com/FossifyOrg/Phone/pull/943) | 2025-09-28, en2sv |
 | 1 | [FossifyOrg/Voice-Recorder](https://github.com/FossifyOrg/Voice-Recorder) | 2026-10-24 | Svensk resurs: `app/src/main/res/values-sv` | 2026-02-14, en2sv |
 | 1 | [godotengine/godot](https://github.com/godotengine/godot) | 2026-08-18 | Svensk resurs: `editor/translations/editor/sv.po` | 2026-11-12, Hugo Locurcio |
 | 1 | [Heroic-Games-Launcher/HeroicGamesLauncher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher) | 2026-10-15 | Svensk resurs: `public/locales/sv` | 2026-11-08, Weblate (bot) |
