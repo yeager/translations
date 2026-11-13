@@ -197,3 +197,15 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | rearming pad | omladdningsplatta | Platta för VTOL-farkosters omladdning. |
 | automatic repair | automatisk reparation | Systemfunktion för återställning av skador. |
 | best targets | bästa mål | Prioriterade vapentyper i forskningsbeskrivningar. |
+
+## Kommando och motbatteri
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| command center | ledningscentral | Central byggnad för befäl och samordning. |
+| command relay center / post | ledningsreläcentral / ledningsreläpost | Byggnader som utökar befälskedjan. |
+| command turret | befälstorn | Torn som leder grupper och enheter. |
+| counter-battery | motbatteri | Eld mot fientligt indirekt artilleri. |
+| counter-battery radar / sensor | motbatteriradar / motbatterisensor | Sensorer som hittar fientliga batterier. |
+| cannon / chaingun | kanon / kedjekanon | Vapentyper i forskning och enhetsnamn. |
+| construction unit | konstruktionsenhet | Forskningsnamn för byggförmåga. |
