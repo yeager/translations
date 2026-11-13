@@ -179,3 +179,12 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | chainfeed loader | kedjematare | Matningsmekanism för luftvärn. |
 | target acquisition | målsökning | Målfångst för luftvärnseld. |
 | hardpoint | värn | Befäst vapenplats. |
+
+## Pansrade försvar
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| guard tower | vakttorn | Försvarstorn med bestyckning. |
+| battery pit | batterigrop | Skyddad ställning för indirekt eld. |
+| strongpoint | starkt värn | Tung, befäst försvarsplats. |
+| rail gun | skenkanon | Elektromagnetiskt vapensystem. |
