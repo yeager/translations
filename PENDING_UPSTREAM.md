@@ -8,6 +8,12 @@
 
 ## Inskickat, väntar på upstream-granskning eller release
 
+- **PCSX2:** en femsträngars XLIFF-integritetsbatch importerades via Crowdin
+  den 13 november 2026 och återlästes via API. Två svenska förslag skapades
+  (47 ord); tre strängar hoppades över eftersom korrekta, identiska måltexter
+  redan fanns. Inga QA-kontroller eller dolda strängar orsakade överhopp.
+  Förslagen väntar på eventuell Crowdin-granskning, godkännande och release;
+  se [integritetsstatusen](PCSX2/STATUS-20261113-xliff-integrity-repair.md).
 - **RetroArch, Xemu:** `XEMU_ASPECT_RATIO_INFO_0` i
   [Xemu-deltat](RetroArch/retroarch-sv-xemu-aspect-ratio-20261111.po) sparades
   i Crowdins redigerare 2026-11-11. Redigeraren bekräftade därefter att inga
