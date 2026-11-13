@@ -1,0 +1,187 @@
+From c88e38bc9f068a5b3dae2d23ea6f44b43df9a1a8 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:15:10 +0100
+Subject: [PATCH] l10n(sv): review themes and VST diagnostics
+
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index fba6449..33aab8d 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -2644,7 +2644,7 @@ msgid ""
+ "Audacity could not write file:\n"
+ "  %s."
+ msgstr ""
+-"Audacity kunde inte skriva till fil:\n"
++"Audacity kunde inte skriva filen:\n"
+ "  %s."
+ 
+ #: libraries/lib-theme/Theme.cpp
+@@ -2654,9 +2654,9 @@ msgid ""
+ "  %s\n"
+ "for writing."
+ msgstr ""
+-"Audacity kunde inte öppna önskad fil:\n"
++"Audacity kunde inte öppna filen:\n"
+ "  %s\n"
+-" för att skriva till."
++"för skrivning."
+ 
+ #: libraries/lib-theme/Theme.cpp
+ #, c-format
+@@ -2664,7 +2664,7 @@ msgid ""
+ "Audacity could not write images to file:\n"
+ "  %s."
+ msgstr ""
+-"Audacity kunde inte skriva bilder till fil:\n"
++"Audacity kunde inte skriva bilderna till filen:\n"
+ "  %s."
+ 
+ #: libraries/lib-theme/Theme.cpp
+@@ -2676,7 +2676,7 @@ msgid ""
+ msgstr ""
+ "Audacity kunde inte hitta fil:\n"
+ "  %s.\n"
+-"Temat läste inte in."
++"Temat kunde inte läsas in."
+ 
+ #. i18n-hint: Do not translate png.  It is the name of a file format.
+ #: libraries/lib-theme/Theme.cpp
+@@ -2688,14 +2688,14 @@ msgid ""
+ msgstr ""
+ "Audacity kunde inte läsa in fil:\n"
+ "  %s.\n"
+-"Kanske ett dåligt png-format?"
++"Kanske ett felaktigt PNG-format?"
+ 
+ #: libraries/lib-theme/Theme.cpp
+ msgid ""
+ "Audacity could not read its default theme.\n"
+ "Please report the problem."
+ msgstr ""
+-"Audacity kunde inte läsa dess standardtema.\n"
++"Audacity kunde inte läsa sitt standardtema.\n"
+ "Var vänlig och rapportera problemet."
+ 
+ #: libraries/lib-theme/Theme.cpp
+@@ -2775,7 +2775,7 @@ msgstr "Anpassat"
+ 
+ #: libraries/lib-time-frequency-selection/ViewInfo.cpp
+ msgid "Enable &Looping"
+-msgstr "Aktivera &Loopa"
++msgstr "Aktivera &loopning"
+ 
+ #. i18n-hint: This is for screen reader software and indicates that
+ #. this is a Time track.
+@@ -2808,19 +2808,19 @@ msgstr "VST-effekter"
+ 
+ #: libraries/lib-vst/VSTEffectsModule.cpp
+ msgid "Adds the ability to use VST effects in Audacity."
+-msgstr "Lägger till funktionalitet att använda VST-effekter i Audacity."
++msgstr "Ger Audacity stöd för VST-effekter."
+ 
+ #: libraries/lib-vst/VSTWrapper.cpp
+ msgid "Unable to allocate memory when loading presets file."
+-msgstr "Kunde inte allokera minne när filerna till förinställningarna lästes in."
++msgstr "Kunde inte tilldela minne när förinställningsfilen lästes in."
+ 
+ #: libraries/lib-vst/VSTWrapper.cpp src/effects/VST/VSTEffect.cpp
+ msgid "Error Loading VST Presets"
+-msgstr "Fel uppstod när VST-förinställning lästes in"
++msgstr "Fel vid inläsning av VST-förinställningar"
+ 
+ #: libraries/lib-vst/VSTWrapper.cpp
+ msgid "Unable to read presets file."
+-msgstr "Kunde inte läsa förinställningsfil."
++msgstr "Kunde inte läsa förinställningsfilen."
+ 
+ #: libraries/lib-vst/VSTWrapper.cpp libraries/lib-xml/XMLFileReader.cpp
+ #: src/effects/BasicEffectUIServices.cpp
+@@ -2830,7 +2830,7 @@ msgstr "Kunde inte öppna fil: \"%s\""
+ 
+ #: libraries/lib-vst/VSTWrapper.cpp src/effects/VST/VSTEffect.cpp
+ msgid "Error Saving VST Presets"
+-msgstr "Fel uppstod när VST-förinställning sparades"
++msgstr "Fel när VST-förinställningar sparades"
+ 
+ #: libraries/lib-vst/VSTWrapper.cpp src/effects/BasicEffectUIServices.cpp
+ #, c-format
+@@ -2839,7 +2839,7 @@ msgstr "Fel uppstod under skrivning till fil: \"%s\""
+ 
+ #: libraries/lib-vst/VSTWrapper.cpp src/effects/BasicEffectUIServices.cpp
+ msgid "Error Saving Effect Presets"
+-msgstr "Fel uppstod när effektförinställningar sparades"
++msgstr "Fel när effektförinställningar sparades"
+ 
+ #: libraries/lib-vst/VSTWrapper.cpp
+ #, c-format
+@@ -2864,7 +2864,7 @@ msgstr "Underkategorier: %s"
+ 
+ #: libraries/lib-vst3/VST3EffectsModule.cpp
+ msgid "VST3 Effects"
+-msgstr "VST3 effekter"
++msgstr "VST3-effekter"
+ 
+ #: libraries/lib-vst3/VST3EffectsModule.cpp
+ msgid "Adds the ability to use VST3 effects in Audacity."
+@@ -2873,16 +2873,16 @@ msgstr "Lägger till möjligheten att använda VST3-effekter i Audacity."
+ #: libraries/lib-vst3/VST3EffectsModule.cpp
+ #, c-format
+ msgid "VST3 module error: %s"
+-msgstr "VST3 modul fel: %s"
++msgstr "VST3-modulfel: %s"
+ 
+ #: libraries/lib-vst3/VST3Wrapper.cpp
+ #, c-format
+ msgid "Unable to apply VST3 preset file %s"
+-msgstr "Kan inte tillämpa VST3 förinställningsfil %s"
++msgstr "Kunde inte använda VST3-förinställningsfilen %s"
+ 
+ #: libraries/lib-vst3/VST3Wrapper.cpp
+ msgid "Failed to save VST3 preset to file"
+-msgstr "Kunde inte spara VST3 förinställning till fil"
++msgstr "Kunde inte spara VST3-förinställningen till fil"
+ 
+ #: libraries/lib-wave-track/Sequence.cpp
+ #, c-format
+@@ -2903,7 +2903,7 @@ msgstr "Förbearbetning"
+ 
+ #: libraries/lib-wave-track/TimeStretching.cpp
+ msgid "Rendering Clip"
+-msgstr "Rendering Klipp"
++msgstr "Återger klipp"
+ 
+ #: libraries/lib-wave-track/WaveClip.cpp
+ msgid "Resampling failed."
+@@ -2917,7 +2917,7 @@ msgstr "Ljud"
+ 
+ #: libraries/lib-wave-track/WaveTrack.cpp
+ msgid "Wave Track"
+-msgstr "Våg spår"
++msgstr "Vågformsspår"
+ 
+ #. i18n-hint Template for clip name generation on copy-paste
+ #. i18n-hint Template for clip name generation on inserting new empty clip
+@@ -2933,7 +2933,7 @@ msgstr "Det finns inte tillräcklig plats att klistra in markering"
+ 
+ #: libraries/lib-wave-track/WaveTrack.cpp
+ msgid "A track has a corrupted sample sequence."
+-msgstr "Ett spår har en korrupt provsekvens."
++msgstr "Ett spår har en skadad samplingssekvens."
+ 
+ #: libraries/lib-wave-track/WaveTrackUtilities.cpp
+ msgid "There is not enough room available to expand the cut line"
+@@ -2965,11 +2965,11 @@ msgstr "Alla rapporter är anonyma. Se %s för mer info."
+ #: libraries/lib-wx-init/ErrorReportDialog.cpp src/AboutDialog.cpp
+ #: src/prefs/ApplicationPrefs.cpp src/update/UpdateNoticeDialog.cpp
+ msgid "our Privacy Policy"
+-msgstr "¨vår privatpolicy"
++msgstr "vår integritetspolicy"
+ 
+ #: libraries/lib-wx-init/ErrorReportDialog.cpp
+ msgid "Problem details"
+-msgstr "Problem detaljer"
++msgstr "Problemdetaljer"
+ 
+ #: libraries/lib-wx-init/ErrorReportDialog.cpp src/TagsEditor.cpp
+ msgid "Comments"
