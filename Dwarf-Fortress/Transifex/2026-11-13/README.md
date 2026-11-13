@@ -2,6 +2,10 @@
 
 Den här katalogen innehåller svenska granskningsbatcher för Dwarf Fortress Steam-resursen `text_set`.
 
+Den innehåller även fortlöpande, separata deltafiler för resursen
+`hardcoded_steam`. Råexporter lämnas orörda; varje ändringsbatch dokumenteras
+och arkiveras separat.
+
 ## Omfattning
 
 - Projekt: Dwarf Fortress
@@ -33,11 +37,23 @@ Den här katalogen innehåller svenska granskningsbatcher för Dwarf Fortress St
 
 Lokalt granskat, validerat, arkiverat och uppladdat via Transifex REST API 2026-11-13. Batch 1 gav HTTP 200 med 10 uppdateringar, batch 2 HTTP 200 med 7 uppdateringar, batch 3–7 och 9 HTTP 200 med 10 uppdateringar vardera, batch 8 HTTP 200 med 9 uppdateringar och batch 10 HTTP 200 med 3 uppdateringar. Direkt återläsning verifierade samtliga 89 måltexter.
 
-Den första paginerade API-inventeringen efter batch 18 visade 199 oöversatta
-svenska strängar. De hanterades i efterföljande batcher. Den aktuella
-Transifex-frågan med `filter[translated]=false` returnerar 0 strängar.
+Efter batch 18 visar en ny paginerad API-inventering 199 oöversatta svenska strängar i komponenten.
 
 Detta är inte en markering som granskad i Transifex. De uppladdade raderna har översatts; granskningsstatus hanteras enligt projektets egna behörighetsflöde.
+
+### `hardcoded_steam`
+
+- Källa: Transifex REST API, resurs
+  `o:dwarf-fortress-translation:p:dwarf-fortress-steam:r:hardcoded_steam`.
+- Batcherna `hardcoded-steam-batch01` till `hardcoded-steam-batch40` har
+  granskats i separata deltafiler och skickats in via API.
+- Senaste verifierade batch: 40, med 9 strängar. API:t bekräftade importen och
+  direkt återläsning matchade samtliga måltexter.
+- Den aktuella API-frågan med `filter[translated]=false` returnerar fortsatt
+  fler än en sida med oöversatta strängar. Något totalt antal får därför inte
+  anges utan en fullständig paginerad inventering.
+- Uppladdning betyder inte att strängarna är granskade, finaliserade eller
+  publicerade i en release.
 
 ## Filer
 
@@ -63,5 +79,7 @@ Detta är inte en markering som granskad i Transifex. De uppladdade raderna har 
 - `dwarf-fortress-text-set-missing-raw-20261112.json`: oförändrad råexport av den inventering som låg till grund för batchen.
 - `TERMINOLOGY.md`: beslut för återkommande speltermer i denna batch.
 - `STATUS.md` samt batchspecifika statusfiler: kontroller och verifieringsresultat.
+- `dwarf-fortress-hardcoded-steam-batch*-sv-20261113.json`: separata, rena
+  deltafiler för `hardcoded_steam`.
 
 Råexporten ska inte redigeras. Korrigeringar och kommande granskning ska ligga i nya deltafiler.
