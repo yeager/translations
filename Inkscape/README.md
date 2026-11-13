@@ -58,5 +58,6 @@ Weblate-projektet har 26 komponenter. Svenska finns och är helt översatt i utv
 | 2026-11-13 | `master/inkscape`, poster 4701–4800 | 13 språk- och korrekturfel | Arkiverat och inskickat via Weblate API; 13 accepterade, 0 hoppade över, 0 saknade. Weblate-granskning är avstängd för komponenten |
 | 2026-11-13 | `master/inkscape`, poster 4801–4900 | 17 språk- och korrekturfel | Arkiverat och inskickat via Weblate API; 16 accepterade, 1 redan aktuell hoppades över, 0 saknade. Weblate-granskning är avstängd för komponenten |
 | 2026-11-13 | `master/inkscape`, poster 4901–5000 | 8 språk- och korrekturfel | Arkiverat och inskickat via Weblate API; 8 accepterade, 0 hoppade över, 0 saknade. Weblate-granskning är avstängd för komponenten |
+| 2026-11-13 | `master/inkscape`, poster 5001–5100 | 18 språk- och korrekturfel | Arkiverat och inskickat via Weblate API; 18 accepterade, 0 hoppade över, 0 saknade. Weblate-granskning är avstängd för komponenten |
 
 Se `TERMINOLOGY.md` för projektets svenska termer och `Weblate/2026-11-13/dev-ui-batch-01/` för råexport, deltafil, resultat och kvitto.
