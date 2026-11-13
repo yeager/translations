@@ -24,6 +24,8 @@ Direktavläsning från Weblate den 13 november 2026 visar 10 913 av 10 913 poste
 
 Ett första urval om 50 poster är dokumenterat i [WEBLATE-CHECK-SAMPLING-1-4-20261113.md](WEBLATE-CHECK-SAMPLING-1-4-20261113.md). Urvalet visade inga verifierade språkfel; inga kontroller har avfärdats automatiskt.
 
+Samtliga 331 kontrollträffar är därefter kategoriserade i [WEBLATE-CHECK-CATEGORIZATION-1-4-20261113.md](WEBLATE-CHECK-CATEGORIZATION-1-4-20261113.md). Kategoriseringen fann inga verifierade språk-, markup- eller platshållarfel.
+
 ## Status
 
 Lokalt radgranskad, arkiverad, pushad till `yeager/translations`, uppladdad till Weblate och återläst. Weblates granskningsstatus är avstängd för komponenten, så inga poster kan märkas som granskade i tjänsten. Weblates kvarvarande kontrollvarningar är ännu inte kategoriserade eller åtgärdade.
