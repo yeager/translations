@@ -209,3 +209,15 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | counter-battery radar / sensor | motbatteriradar / motbatterisensor | Sensorer som hittar fientliga batterier. |
 | cannon / chaingun | kanon / kedjekanon | Vapentyper i forskning och enhetsnamn. |
 | construction unit | konstruktionsenhet | Forskningsnamn för byggförmåga. |
+
+## Cyborger och material
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| cyborg factory | cyborgfabrik | Byggnad som tillverkar cyborger. |
+| cyborg propulsion | cyborgframdrivning | Cyborgernas rörlighetsforskning. |
+| composite alloys | kompositlegeringar | Materialuppgradering för chassin och cyborger. |
+| dense / superdense | täta / supertäta | Nivåer för kompositlegeringar i forskningen. |
+| thermal armor | termiskt pansar | Skyddstyp i statistik och forskningsnamn. |
+| high-intensity thermal armor | värmetåligt pansar med hög intensitet | Cyborgspecifik materialuppgradering. |
+| depleted uranium | utarmat uran | Ammunitionsmaterial för kulsprutor. |
