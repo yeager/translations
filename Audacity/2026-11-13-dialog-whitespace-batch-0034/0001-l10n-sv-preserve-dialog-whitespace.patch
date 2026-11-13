@@ -1,0 +1,59 @@
+From 749ea114dd65a95fb63acbd61de27760e6993ae7 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 15:38:48 +0100
+Subject: [PATCH] l10n(sv): preserve dialog whitespace
+
+---
+ au3/locale/sv.po | 13 +++++++------
+ 1 file changed, 7 insertions(+), 6 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index e9f4e14..e3a157b 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -2161,7 +2161,8 @@ msgid ""
+ "This file was saved using Audacity %s.\n"
+ "You are using Audacity %s. You may need to upgrade to a newer version to open this file."
+ msgstr ""
+-"Filen sparades med Audacity %s. Du använder Audacity %s. Du kan behöva uppgradera till en nyare version för att öppna filen."
++"Filen sparades med Audacity %s.\n"
++"Du använder Audacity %s. Du kan behöva uppgradera till en nyare version för att öppna filen."
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "Can't open project file"
+@@ -7205,7 +7206,7 @@ msgid ""
+ msgstr ""
+ "Följande konfigurationsfil kunde inte nås:\n"
+ "\n"
+-"%s\n"
++"\t%s\n"
+ "\n"
+ "Detta kan orsakas av många orsaker, men de mest troliga är att disken är full eller att du inte har skrivbehörighet till filen.\n"
+ "\n"
+@@ -17149,7 +17150,6 @@ msgstr ""
+ "\n"
+ "\t%s\n"
+ "\n"
+-"\n"
+ "istället. Om inte, klicka på Avbryt."
+ 
+ #: src/prefs/KeyConfigPrefs.h
+@@ -19057,11 +19057,12 @@ msgid ""
+ "Do you wish to continue?"
+ msgstr ""
+ "Spåren du försöker slå samman till stereo innehåller klipp på\n"
+-"olika positioner eller klipp som inte matchar på annat sätt. Om du slår\n"
+-"ihop dem återges spåren.\n"
++"olika positioner eller klipp som inte matchar på annat sätt.\n"
++"Om du slår ihop dem återges spåren.\n"
+ "\n"
+ "Detta gör att alla realtidseffekter appliceras på vågformen och\n"
+-"dolda data tas bort. Dessutom blir hela spåret ett enda stort klipp.\n"
++"dolda data tas bort.\n"
++"Dessutom blir hela spåret ett enda stort klipp.\n"
+ "\n"
+ "Vill du fortsätta?"
+ 
+-- 
+2.54.0 (Apple Git-157)
+
