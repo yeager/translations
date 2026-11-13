@@ -68,3 +68,18 @@ L10n-lint markerar post `10288` eftersom den aktiva översättningen saknar en a
 ## FullscreenUI: beskrivande form
 
 Post `17295` är hjälptexten för FXAA-kantutjämning. Källtexten beskriver vad inställningen gör, medan den aktiva svenska texten felaktigt använder uppmaningsformen *Tillämpa*. Den korrekta kandidat `449735`, *Tillämpar FXAA-kantutjämningsalgoritmen för att förbättra spelens visuella kvalitet.*, återlästes från Crowdins API den 13 november. Ingen ny kandidat skapades; den befintliga kandidaten är inte vald eller upstreamgranskad.
+
+## Uppföljning 14 november
+
+En ny, autentiserad läskontroll av Crowdins språkstatus visar fortsatt 5 331 av
+5 331 översatta fraser och 28 451 av 28 451 översatta ord för `sv-SE`.
+Granskningsgraden är fortfarande 0 procent. Kandidaterna för de fem tidigare
+identifierade felen finns fortfarande i API:t: `252904` för `5379`, minst en
+av `448997`, `449477` och `449817` för `13439`, `255694` för `6067`, `448991`
+för `10288` och `449735` för `17295`. Ingen dubblett skapades och ingen
+upstream-status ändrades.
+
+Hunspell-sv kördes inte över hela katalogen. Verktyget används med sänkt
+prioritet och endast på måltexter i en aktuell ändringsbatch; efter varje körning
+kontrolleras att ingen `hunspell`-process finns kvar. Detta begränsar CPU-belastningen
+utan att utelämna den språkkontroll som krävs före ett nytt inskick.
