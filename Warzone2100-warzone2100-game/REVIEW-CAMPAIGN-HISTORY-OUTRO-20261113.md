@@ -4,7 +4,7 @@ Datum: 2026-11-13
 
 ## Omfattning
 
-44 strängar från bakgrunden om Reed Corporation och NEXUS, Kol­lapsens historiska sekvens, nödsändningar och slutsekvensen. Berättelsetexten har översatts som sammanhängande svenska med bibehållen ton och etablerade egennamn.
+44 strängar från bakgrunden om Reed Corporation och NEXUS, Kollapsens historiska sekvens, nödsändningar och slutsekvensen. Berättelsetexten har översatts som sammanhängande svenska med bibehållen ton och etablerade egennamn.
 
 ## Terminologibeslut
 
