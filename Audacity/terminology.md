@@ -21,3 +21,6 @@
 | Noise Profile | brusprofil | Analys av brus som används som underlag för brusreducering. |
 | Reverb | efterklang | Effekt som simulerar rummets akustiska återklang. |
 | Wet/Dry | effekt/torrsignal | Förhållandet mellan bearbetad och obearbetad signal. |
+| Buffer | buffert | Grupp av samplar som skickas till en effekt vid en iteration. |
+| Latency Compensation | fördröjningskompensation | Kompenserar för fördröjning som en insticksmodul introducerar. |
+| High-pass | högpass | Filter som släpper igenom högre frekvenser. |

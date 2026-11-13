@@ -1,0 +1,262 @@
+From 365a5787b35447a788e0b4770d14e89b1802e1e3 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 15:04:10 +0100
+Subject: [PATCH] l10n(sv): review filters and plug-in options
+
+---
+ au3/locale/sv.po | 64 ++++++++++++++++++++++++------------------------
+ 1 file changed, 32 insertions(+), 32 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 525e88e..5c474f4 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -13502,7 +13502,7 @@ msgstr "Lågpass"
+ 
+ #: src/effects/ScienFilter.cpp
+ msgid "Highpass"
+-msgstr "Highpass"
++msgstr "Högpass"
+ 
+ #: src/effects/ScienFilter.cpp resources/EffectsMenuDefaults.xml
+ msgid "Classic Filters"
+@@ -13548,11 +13548,11 @@ msgstr "A&vskärning:"
+ 
+ #: src/effects/ScienFilter.cpp
+ msgid "Minimum S&topband Attenuation:"
+-msgstr "Minimal förtunning av s&toppband:"
++msgstr "Minsta dämpning i s&toppbandet:"
+ 
+ #: src/effects/ScienFilter.cpp
+ msgid "Minimum S&topband Attenuation (dB)"
+-msgstr "Minimal förtunning av s&toppband (dB)"
++msgstr "Minsta dämpning i s&toppbandet (dB)"
+ 
+ #: src/effects/ScoreAlignDialog.cpp
+ msgid "Align MIDI to Audio"
+@@ -13663,11 +13663,11 @@ msgstr "Stereo till mono"
+ 
+ #: src/effects/StereoToMono.cpp
+ msgid "Converts stereo tracks to mono"
+-msgstr "Konverterar stereospå&r till mono"
++msgstr "Konverterar stereospår till mono"
+ 
+ #: src/effects/StereoToMono.cpp
+ msgid "Mixing down to mono"
+-msgstr "Mixa ned ljud till mono"
++msgstr "Mixar ned till mono"
+ 
+ #: src/effects/TimeScale.cpp resources/EffectsMenuDefaults.xml
+ msgid "Sliding Stretch"
+@@ -13745,11 +13745,11 @@ msgstr "Ton"
+ 
+ #: src/effects/ToneGen.cpp
+ msgid "Generates an ascending or descending tone of one of four types"
+-msgstr "Genererar en stigande eller sjunkande ton utav en av fyra typer"
++msgstr "Genererar en stigande eller sjunkande ton av en av fyra typer"
+ 
+ #: src/effects/ToneGen.cpp
+ msgid "Generates a constant frequency tone of one of four types"
+-msgstr "Genererar en ton med konstant frekvens utav en av fyra typer"
++msgstr "Genererar en ton med konstant frekvens av en av fyra typer"
+ 
+ #: src/effects/ToneGen.cpp
+ msgid "&Waveform:"
+@@ -13825,15 +13825,15 @@ msgstr "Spara VST-förinställning som:"
+ 
+ #: src/effects/VST/VSTEffect.cpp
+ msgid "Standard VST bank file"
+-msgstr "Standard VST bank fil"
++msgstr "VST-bankfil av standardtyp"
+ 
+ #: src/effects/VST/VSTEffect.cpp
+ msgid "Standard VST program file"
+-msgstr "Standard VST program fil"
++msgstr "VST-programfil av standardtyp"
+ 
+ #: src/effects/VST/VSTEffect.cpp
+ msgid "Audacity VST preset file"
+-msgstr "Audacity VST förinställning fil"
++msgstr "Audacity VST-förinställningsfil"
+ 
+ #: src/effects/VST/VSTEffect.cpp
+ msgid "Unrecognized file extension."
+@@ -13845,7 +13845,7 @@ msgstr "Läs in VST-förinställning:"
+ 
+ #: src/effects/VST/VSTEffect.cpp
+ msgid "VST preset files"
+-msgstr "VST förinställning filer"
++msgstr "VST-förinställningsfiler"
+ 
+ #: src/effects/VST/VSTEffect.cpp
+ msgid "Unable to load presets file."
+@@ -13866,12 +13866,12 @@ msgstr "Buffertstorlek"
+ #: src/effects/VST3/VST3OptionsDialog.cpp
+ #: src/effects/lv2/LV2PreferencesDialog.cpp
+ msgid "The buffer size controls the number of samples sent to the effect on each iteration. Smaller values will cause slower processing and some effects require 8192 samples or less to work properly. However most effects can accept large buffers and using them will greatly reduce processing time."
+-msgstr "Bufferstorleken kontrollerar antalet samples som skickas till effekten vid varje upprepning. Mindre värde orsakar långsammare process och några effekter behöver 8192 samples eller mindre för att kunna arbeta normalt. Vissa effekter kan acceptera stora bufferstorlekar och genom att använda dem kan processtiden minskas avsevärt."
++msgstr "Buffertstorleken styr hur många samplar som skickas till effekten vid varje iteration. Mindre värden ger långsammare bearbetning och vissa effekter kräver högst 8 192 samplar för att fungera korrekt. De flesta effekter kan dock använda stora buffertar, vilket förkortar bearbetningstiden avsevärt."
+ 
+ #: src/effects/VST/VSTEffectOptionsDialog.cpp
+ #: src/effects/VST3/VST3OptionsDialog.cpp
+ msgid "&Buffer Size (8 to 1048576 samples):"
+-msgstr "&Buffertstorlek (8 till 1048576 samplingar):"
++msgstr "&Buffertstorlek (8 till 1 048 576 samplar):"
+ 
+ #: src/effects/VST/VSTEffectOptionsDialog.cpp
+ #: src/effects/VST3/VST3OptionsDialog.cpp
+@@ -13883,7 +13883,7 @@ msgstr "Latenskompensering"
+ 
+ #: src/effects/VST/VSTEffectOptionsDialog.cpp
+ msgid "As part of their processing, some VST effects must delay returning audio to Audacity. When not compensating for this delay, you will notice that small silences have been inserted into the audio. Enabling this option will provide that compensation, but it may not work for all VST effects."
+-msgstr "Som en del av deras process, kan några VST effekter dröja med att sända ljudet till Aucacity. Om förseningen inte kompenseras kommer du att märka att små tystnader har lagts in i ljudet. Väljer du detta val kompenseras detta, men det kommer inte att fungera på alla VST effekter."
++msgstr "Som en del av bearbetningen måste vissa VST-effekter fördröja återgivningen av ljud till Audacity. Utan kompensation för fördröjningen kan små tystnader läggas in i ljudet. Det här alternativet kompenserar för fördröjningen, men fungerar kanske inte för alla VST-effekter."
+ 
+ #: src/effects/VST/VSTEffectOptionsDialog.cpp
+ #: src/effects/VST3/VST3OptionsDialog.cpp
+@@ -13891,7 +13891,7 @@ msgstr "Som en del av deras process, kan några VST effekter dröja med att sän
+ #: src/effects/ladspa/LadspaEffectOptionsDialog.cpp
+ #: src/effects/lv2/LV2PreferencesDialog.cpp
+ msgid "Enable &compensation"
+-msgstr "Aktiverar &kompensering"
++msgstr "Aktivera &kompensation"
+ 
+ #: src/effects/VST/VSTEffectOptionsDialog.cpp
+ #: src/effects/VST3/VST3OptionsDialog.cpp
+@@ -13915,7 +13915,7 @@ msgstr "Spara VST3-förinställning som:"
+ 
+ #: src/effects/VST3/VST3Effect.cpp
+ msgid "VST3 preset file"
+-msgstr "VST3 förinställning fil"
++msgstr "VST3-förinställningsfil"
+ 
+ #: src/effects/VST3/VST3Effect.cpp
+ msgid "Load VST3 preset:"
+@@ -13923,7 +13923,7 @@ msgstr "Läs in VST3-förinställning:"
+ 
+ #: src/effects/VST3/VST3OptionsDialog.cpp
+ msgid "As part of their processing, some VST3 effects must delay returning audio to Audacity. When not compensating for this delay, you will notice that small silences have been inserted into the audio. Enabling this option will provide that compensation, but it may not work for all VST3 effects."
+-msgstr "Som en del av deras process, kan några VST3 effekter dröja med att sända ljudet till Aucacity. Om förseningen inte kompenseras kommer du att märka att små tystnader har lagts in i ljudet. Väljer du detta val kompenseras detta, men det kommer inte att fungera på alla VST effekter."
++msgstr "Som en del av bearbetningen måste vissa VST3-effekter fördröja återgivningen av ljud till Audacity. Utan kompensation för fördröjningen kan små tystnader läggas in i ljudet. Det här alternativet kompenserar för fördröjningen, men fungerar kanske inte för alla VST3-effekter."
+ 
+ #: src/effects/VST3/VST3OptionsDialog.cpp
+ msgid "Most VST3 effects have a graphical interface for setting parameter values. A basic text-only method is also available.  Reopen the effect for this to take effect."
+@@ -13955,16 +13955,16 @@ msgstr "Frekvensoffset för wahwah (%):"
+ 
+ #: src/effects/Wahwah.cpp
+ msgid "Wah frequency offset in percent"
+-msgstr "Frevensoffset för wahwah i procent"
++msgstr "Frekvensförskjutning för wahwah i procent"
+ 
+ #: src/effects/audiounits/AudioUnitEffect.cpp
+ #, c-format
+ msgid "Export Audio Unit Preset As %s:"
+-msgstr "Exportera förinställningar på ljudenheten som %s:"
++msgstr "Exportera Audio Unit-förinställning som %s:"
+ 
+ #: src/effects/audiounits/AudioUnitEffect.cpp
+ msgid "Standard Audio Unit preset file"
+-msgstr "Standard förinställning ljudenhet fil"
++msgstr "Audio Unit-förinställningsfil av standardtyp"
+ 
+ #: src/effects/audiounits/AudioUnitEffect.cpp
+ #, c-format
+@@ -13973,7 +13973,7 @@ msgid ""
+ "\n"
+ "%s"
+ msgstr ""
+-"Kunde inte exportera \"%s\" förinställningar\n"
++"Kunde inte exportera förinställningen \"%s\"\n"
+ "\n"
+ "%s"
+ 
+@@ -13984,7 +13984,7 @@ msgstr "Exportera ljudenhetsförinställningar"
+ #: src/effects/audiounits/AudioUnitEffect.cpp
+ #, c-format
+ msgid "Import Audio Unit Preset As %s:"
+-msgstr "Importera förinställningar till ljudenhet som %s:"
++msgstr "Importera Audio Unit-förinställning som %s:"
+ 
+ #: src/effects/audiounits/AudioUnitEffect.cpp
+ #, c-format
+@@ -13993,7 +13993,7 @@ msgid ""
+ "\n"
+ "%s"
+ msgstr ""
+-"Kunde inte importera \"%s\" förinställningar\n"
++"Kunde inte importera förinställningen \"%s\"\n"
+ "\n"
+ "%s"
+ 
+@@ -14003,11 +14003,11 @@ msgstr "Importera ljudenhetsförinställningar"
+ 
+ #: src/effects/audiounits/AudioUnitEffectOptionsDialog.cpp
+ msgid "Audio Unit Effect Options"
+-msgstr "Alternativ för ljudenhetseffekter"
++msgstr "Alternativ för Audio Unit-effekter"
+ 
+ #: src/effects/audiounits/AudioUnitEffectOptionsDialog.cpp
+ msgid "As part of their processing, some Audio Unit effects must delay returning audio to Audacity. When not compensating for this delay, you will notice that small silences have been inserted into the audio. Enabling this option will provide that compensation, but it may not work for all Audio Unit effects."
+-msgstr "Som en del av deras process, kan några ljudenheters effekter dröja med att sända ljudet till Aucacity. Om förseningen inte kompenseras kommer du att märka att små tystnader har lagts in i ljudet. Väljer du detta val kompenseras detta, men det kommer inte att fungera på alla VST effekter."
++msgstr "Som en del av bearbetningen måste vissa Audio Unit-effekter fördröja återgivningen av ljud till Audacity. Utan kompensation för fördröjningen kan små tystnader läggas in i ljudet. Det här alternativet kompenserar för fördröjningen, men fungerar kanske inte för alla Audio Unit-effekter."
+ 
+ #: src/effects/audiounits/AudioUnitEffectOptionsDialog.cpp
+ msgid "User Interface"
+@@ -14045,7 +14045,7 @@ msgstr "%s:"
+ 
+ #: src/effects/ladspa/LadspaEditor.cpp
+ msgid "Effect Output"
+-msgstr "Effektutmatning"
++msgstr "Effektutdata"
+ 
+ #: src/effects/ladspa/LadspaEffectOptionsDialog.cpp
+ msgid "LADSPA Effect Options"
+@@ -14053,7 +14053,7 @@ msgstr "LADSPA-effektalternativ"
+ 
+ #: src/effects/ladspa/LadspaEffectOptionsDialog.cpp
+ msgid "As part of their processing, some LADSPA effects must delay returning audio to Audacity. When not compensating for this delay, you will notice that small silences have been inserted into the audio. Enabling this option will provide that compensation, but it may not work for all LADSPA effects."
+-msgstr "Som en del av deras processande, kommer några LADSPA effekter att skicka fördröjt ljud till Audacity. Om du inte kompenserar för fördröjningen, kommer du att märka små tystnader i ljudet. Kopplar du på detta val har du möjlighet att kompensera, men det kommer inte att fungera för alla LADSPA effekter."
++msgstr "Som en del av bearbetningen måste vissa LADSPA-effekter fördröja återgivningen av ljud till Audacity. Utan kompensation för fördröjningen kan små tystnader läggas in i ljudet. Det här alternativet kompenserar för fördröjningen, men fungerar kanske inte för alla LADSPA-effekter."
+ 
+ #: src/effects/lv2/LV2Effect.cpp
+ msgid "Couldn't instantiate effect"
+@@ -14066,15 +14066,15 @@ msgstr "LV2-effektinställningar"
+ #: src/effects/lv2/LV2PreferencesDialog.cpp
+ #, c-format
+ msgid "&Buffer Size (8 to %d) samples:"
+-msgstr "&Bufferstorlek (8 till %d) samples:"
++msgstr "&Buffertstorlek (8 till %d) samplar:"
+ 
+ #: src/effects/lv2/LV2PreferencesDialog.cpp
+ msgid "As part of their processing, some LV2 effects must delay returning audio to Audacity. When not compensating for this delay, you will notice that small silences have been inserted into the audio. Enabling this setting will provide that compensation, but it may not work for all LV2 effects."
+-msgstr "Som en del av deras processande, kommer några LV2 effekter att skicka fördröjt ljud till Audacity. Om du inte kompenserar för fördröjningen, kommer du att märka små tystnader i ljudet. Kopplar du på detta val har du möjlighet att kompensera, men det kommer inte att fungera för alla LADSPA effekter."
++msgstr "Som en del av bearbetningen måste vissa LV2-effekter fördröja återgivningen av ljud till Audacity. Utan kompensation för fördröjningen kan små tystnader läggas in i ljudet. Den här inställningen kompenserar för fördröjningen, men fungerar kanske inte för alla LV2-effekter."
+ 
+ #: src/effects/lv2/LV2PreferencesDialog.cpp
+ msgid "LV2 effects can have a graphical interface for setting parameter values. A basic text-only method is also available.  Reopen the effect for this to take effect."
+-msgstr "LV2-effekter kan ha ett grafiskt användargränssnitt för att ställa parametervärden. En basic text -metod finns också. Omstarta effekten för att detta ska få effekt."
++msgstr "LV2-effekter kan ha ett grafiskt gränssnitt för att ställa in parametervärden. En grundläggande metod med enbart text finns också. Öppna effekten igen för att ändringen ska börja gälla."
+ 
+ #: src/effects/nyquist/LoadNyquist.cpp
+ msgid "Nyquist Effects"
+@@ -14086,7 +14086,7 @@ msgstr "Lägger till stöd för Nyquist-effekter i Audacity"
+ 
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid "Applying Nyquist Effect..."
+-msgstr "Verkställer Nyquist effekt..."
++msgstr "Verkställer Nyquist-effekt..."
+ 
+ #. i18n-hint: It is acceptable to translate this the same as for "Nyquist Prompt"
+ #: src/effects/nyquist/Nyquist.cpp
+@@ -14095,7 +14095,7 @@ msgstr "Nyquist-arbetare"
+ 
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid "Ill-formed Nyquist plug-in header"
+-msgstr "Felaktig header för Nyquist-insticksmodul"
++msgstr "Felaktigt filhuvud för Nyquist-insticksmodul"
+ 
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid ""
+-- 
+2.54.0 (Apple Git-157)
+
