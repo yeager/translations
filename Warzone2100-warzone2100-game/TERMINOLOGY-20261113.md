@@ -304,3 +304,12 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | fire support | eldunderstöd | Tilldelad indirekt eldgivning. |
 | fire-at-will | eld efter eget omdöme | Eldorder där enheten själv väljer mål. |
 | recycle | återvinn | Skrota enhet för återvunna resurser. |
+
+## Snabbchatt
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| quick chat | snabbchatt | Fördefinierade meddelanden för samordning. |
+| ready | klar | Kort status i väntrummet före matchstart. |
+| host | värd | Spelaren som är värd för matchen. |
+| lobby | lobby | Etablerat synligt UI-namn i flerspelarläget. |
