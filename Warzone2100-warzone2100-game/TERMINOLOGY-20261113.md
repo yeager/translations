@@ -188,3 +188,12 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | battery pit | batterigrop | Skyddad ställning för indirekt eld. |
 | strongpoint | starkt värn | Tung, befäst försvarsplats. |
 | rail gun | skenkanon | Elektromagnetiskt vapensystem. |
+
+## Automatiserade system
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| assault gun | automatvapen | Roterande automatvapen på enheter och försvar. |
+| rearming pad | omladdningsplatta | Platta för VTOL-farkosters omladdning. |
+| automatic repair | automatisk reparation | Systemfunktion för återställning av skador. |
+| best targets | bästa mål | Prioriterade vapentyper i forskningsbeskrivningar. |
