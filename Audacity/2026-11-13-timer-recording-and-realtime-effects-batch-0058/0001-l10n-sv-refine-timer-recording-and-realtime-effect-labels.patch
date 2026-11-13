@@ -1,0 +1,133 @@
+From d5816c0f4985d1d52459ff64584767d79617aa17 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 16:34:52 +0100
+Subject: [PATCH] l10n(sv): refine timer recording and realtime effect labels
+
+---
+ au3/locale/sv.po | 26 +++++++++++++-------------
+ 1 file changed, 13 insertions(+), 13 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index fa1b477..f26beea 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -9399,7 +9399,7 @@ msgstr "Lägg till effekt"
+ #: src/RealtimeEffectPanel.cpp
+ #, c-format
+ msgid "Moved %s up in %s"
+-msgstr "Flyttade %s upp till %s"
++msgstr "Flyttade %s upp i %s"
+ 
+ #. i18n-hint: undo history record
+ #. first parameter - realtime effect name
+@@ -9408,7 +9408,7 @@ msgstr "Flyttade %s upp till %s"
+ #: src/RealtimeEffectPanel.cpp
+ #, c-format
+ msgid "Moved %s down in %s"
+-msgstr "Flyttade %s ner till %s"
++msgstr "Flyttade %s ned i %s"
+ 
+ #: src/RealtimeEffectPanel.cpp
+ msgid "Change effect order"
+@@ -9433,7 +9433,7 @@ msgstr "Fel i insticksmodul"
+ #: src/RealtimeEffectPanel.cpp
+ #, c-format
+ msgid "Added %s to %s"
+-msgstr "Lade till %s till %s"
++msgstr "Lade till %s i %s"
+ 
+ #. i18n-hint: undo history record
+ #: src/RealtimeEffectPanel.cpp
+@@ -9457,7 +9457,7 @@ msgstr "Realtidseffekter"
+ 
+ #: src/RealtimeEffectPanel.cpp
+ msgid "Watch video"
+-msgstr "Se video"
++msgstr "Titta på video"
+ 
+ #: src/RealtimeEffectPanel.cpp
+ msgid "Realtime effects are non-destructive and can be changed at any time."
+@@ -9525,7 +9525,7 @@ msgstr "Panel för spektral&markering"
+ 
+ #: src/SpectralDataManager.cpp
+ msgid "Applied effect to selection"
+-msgstr "Tillämpade effekt på markeringen"
++msgstr "Tillämpade effekten på markeringen"
+ 
+ #: src/TagsEditor.cpp
+ msgid "Artist Name"
+@@ -9549,7 +9549,7 @@ msgstr "Genre"
+ 
+ #: src/TagsEditor.cpp
+ msgid "Use arrow keys (or ENTER key after editing) to navigate fields."
+-msgstr "Använd piltangenter (eller ENTER efter redigering) för att navigera fält."
++msgstr "Använd piltangenterna (eller ENTER efter redigering) för att navigera mellan fälten."
+ 
+ #: src/TagsEditor.cpp
+ msgid "Tag"
+@@ -9730,7 +9730,7 @@ msgstr "Varning om diskutrymme för timerinspelning"
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Current Project"
+-msgstr "Nuvarande projekt"
++msgstr "Aktuellt projekt"
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Recording start:"
+@@ -9816,7 +9816,7 @@ msgid ""
+ msgstr ""
+ "%s\n"
+ "\n"
+-"Fel uppstod när inspelning exporterades."
++"Fel uppstod när inspelningen exporterades."
+ 
+ #: src/TimerRecordDialog.cpp
+ #, c-format
+@@ -9827,7 +9827,7 @@ msgid ""
+ msgstr ""
+ "%s\n"
+ "\n"
+-"\"%s\" har avbrutits p.g.a. fel som listas ovan."
++"\"%s\" har avbrutits på grund av felen ovan."
+ 
+ #: src/TimerRecordDialog.cpp
+ #, c-format
+@@ -9852,7 +9852,7 @@ msgstr "099 h 060 m 060 s"
+ #. i18n-hint a format string for days, hours, minutes, and seconds
+ #: src/TimerRecordDialog.cpp
+ msgid "099 days 024 h 060 m 060 s"
+-msgstr "099 dygn 024 h 060 m 060 s"
++msgstr "099 dagar 024 h 060 m 060 s"
+ 
+ #. i18n-hint: This string is used to configure the controls for times when the recording is
+ #. * started and stopped. As such it is important that only the alphabetic parts of the string
+@@ -9939,7 +9939,7 @@ msgstr "Inspelningslängd:"
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Scheduled to stop at:"
+-msgstr "Schemalagt att stoppas vid:"
++msgstr "Planerad sluttid:"
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Audacity Timer Record - Waiting for Start"
+@@ -9957,7 +9957,7 @@ msgstr "Inspelningen kommer att börja om:"
+ #: src/TimerRecordDialog.cpp
+ #, c-format
+ msgid "%s in:"
+-msgstr "%s i:"
++msgstr "%s om:"
+ 
+ #: src/TimerRecordDialog.cpp
+ msgid "Recording Saved:"
+@@ -10001,7 +10001,7 @@ msgstr "Exportera ljud"
+ 
+ #: src/TimerRecordExportDialog.cpp src/export/ExportAudioDialog.cpp
+ msgid "Edit &Metadata..."
+-msgstr "Redigera &Metadata..."
++msgstr "Redigera &metadata..."
+ 
+ #: src/TimerRecordExportDialog.cpp
+ msgid "O&K"
+-- 
+2.54.0 (Apple Git-157)
+
