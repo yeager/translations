@@ -1,0 +1,99 @@
+From e9b42399cce68f5c977d30794fabcc62253ad2a9 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 16:50:15 +0100
+Subject: [PATCH] l10n(sv): refine repeat reverb and filter labels
+
+---
+ au3/locale/sv.po | 22 +++++++++++-----------
+ 1 file changed, 11 insertions(+), 11 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 8c35208..ac967e1 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -13305,19 +13305,19 @@ msgstr ""
+ 
+ #: src/effects/Repeat.cpp resources/EffectsMenuDefaults.xml
+ msgid "Repeat"
+-msgstr "Repetera"
++msgstr "Upprepa"
+ 
+ #: src/effects/Repeat.cpp
+ msgid "Repeats the selection the specified number of times"
+-msgstr "Upprepar markeringen ett specificerat antal gånger"
++msgstr "Upprepar markeringen angivet antal gånger"
+ 
+ #: src/effects/Repeat.cpp
+ msgid "&Number of repeats to add:"
+-msgstr "&Antal upprepade gånger att lägga till:"
++msgstr "&Antal upprepningar att lägga till:"
+ 
+ #: src/effects/Repeat.cpp
+ msgid "Current selection length: dd:hh:mm:ss"
+-msgstr "Nuvarande markeringslängd: dd:hh:mm:ss"
++msgstr "Aktuell markeringslängd: dd:hh:mm:ss"
+ 
+ #: src/effects/Repeat.cpp
+ msgid "New selection length: dd:hh:mm:ss"
+@@ -13326,7 +13326,7 @@ msgstr "Ny markeringslängd: dd:hh:mm:ss"
+ #: src/effects/Repeat.cpp
+ #, c-format
+ msgid "Current selection length: %s"
+-msgstr "Nuvarande markeringslängd: %s"
++msgstr "Aktuell markeringslängd: %s"
+ 
+ #: src/effects/Repeat.cpp
+ #, c-format
+@@ -13428,7 +13428,7 @@ msgstr "Efterklang"
+ 
+ #: src/effects/Reverb.cpp
+ msgid "Adds ambience or a \"hall effect\""
+-msgstr "Lägger till atmosfär eller en \"halleffekt\""
++msgstr "Lägger till rymd eller en \"salklangeffekt\""
+ 
+ #: src/effects/Reverb.cpp
+ msgid "&Room Size (%):"
+@@ -13468,7 +13468,7 @@ msgstr "S&tereobredd (%):"
+ 
+ #: src/effects/Reverb.cpp
+ msgid "Wet O&nly"
+-msgstr "&Endast effekt"
++msgstr "&Endast effektljud"
+ 
+ #: src/effects/Reverse.cpp resources/EffectsMenuDefaults.xml
+ msgid "Reverse"
+@@ -13525,7 +13525,7 @@ msgstr "&Filtertyp:"
+ #. i18n-hint: 'Order' means the complexity of the filter, and is a number between 1 and 10.
+ #: src/effects/ScienFilter.cpp
+ msgid "O&rder:"
+-msgstr "O&rdning:"
++msgstr "Filtero&rdning:"
+ 
+ #: src/effects/ScienFilter.cpp
+ msgid "&Passband Ripple:"
+@@ -13541,11 +13541,11 @@ msgstr "&Undertyp:"
+ 
+ #: src/effects/ScienFilter.cpp
+ msgid "Cutoff (Hz)"
+-msgstr "Avskärning (Hz)"
++msgstr "Gränsfrekvens (Hz)"
+ 
+ #: src/effects/ScienFilter.cpp
+ msgid "C&utoff:"
+-msgstr "A&vskärning:"
++msgstr "Gräns&frekvens:"
+ 
+ #: src/effects/ScienFilter.cpp
+ msgid "Minimum S&topband Attenuation:"
+@@ -13557,7 +13557,7 @@ msgstr "Minsta dämpning i s&toppbandet (dB)"
+ 
+ #: src/effects/ScoreAlignDialog.cpp
+ msgid "Align MIDI to Audio"
+-msgstr "Justera MIDI med ljud"
++msgstr "Synkronisera MIDI med ljud"
+ 
+ #: src/effects/ScoreAlignDialog.cpp
+ msgid "Frame Period:"
+-- 
+2.54.0 (Apple Git-157)
+
