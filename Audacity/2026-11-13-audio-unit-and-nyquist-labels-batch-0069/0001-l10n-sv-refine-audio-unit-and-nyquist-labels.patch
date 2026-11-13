@@ -1,0 +1,52 @@
+From 6557d08783bf1475f3fe6317e5cd53d758160e05 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 16:55:21 +0100
+Subject: [PATCH] l10n(sv): refine Audio Unit and Nyquist labels
+
+---
+ au3/locale/sv.po | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index f0d1f2a..a9998cd 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -13980,7 +13980,7 @@ msgstr ""
+ 
+ #: src/effects/audiounits/AudioUnitEffect.cpp
+ msgid "Export Audio Unit Presets"
+-msgstr "Exportera ljudenhetsförinställningar"
++msgstr "Exportera Audio Unit-förinställningar"
+ 
+ #: src/effects/audiounits/AudioUnitEffect.cpp
+ #, c-format
+@@ -14000,7 +14000,7 @@ msgstr ""
+ 
+ #: src/effects/audiounits/AudioUnitEffect.cpp
+ msgid "Import Audio Unit Presets"
+-msgstr "Importera ljudenhetsförinställningar"
++msgstr "Importera Audio Unit-förinställningar"
+ 
+ #: src/effects/audiounits/AudioUnitEffectOptionsDialog.cpp
+ msgid "Audio Unit Effect Options"
+@@ -14016,7 +14016,7 @@ msgstr "Användargränssnitt"
+ 
+ #: src/effects/audiounits/AudioUnitEffectOptionsDialog.cpp
+ msgid "Select \"Full\" to use the graphical interface if supplied by the Audio Unit. Select \"Generic\" to use the system supplied generic interface. Select \"Basic\" for a basic text-only interface. Reopen the effect for this to take effect."
+-msgstr "Välj \"Full\" för att använda det grafiska gränssnittet om det stöds av ljudenheten. Välj \"Generisk\" för att använda systemets generiska gränssnitt. Välj \"Basic\" för ett enkelt textgränssnitt. Öppna effekten igen för att detta ska träda i kraft."
++msgstr "Välj \"Fullständig\" för att använda det grafiska gränssnittet om det stöds av Audio Unit. Välj \"Generisk\" för att använda systemets generiska gränssnitt. Välj \"Grundläggande\" för ett enkelt textgränssnitt. Öppna effekten igen för att detta ska träda i kraft."
+ 
+ #: src/effects/audiounits/AudioUnitEffectOptionsDialog.cpp
+ msgid "Select &interface"
+@@ -14194,7 +14194,7 @@ msgstr "[Varning: Nyquist returnerade en ogiltig UTF-8-sträng, som här har omv
+ #: src/effects/nyquist/Nyquist.cpp
+ #, c-format
+ msgid "This version of Audacity does not support Nyquist plug-in version %ld"
+-msgstr "Den här versionen av Audacity har inte stöd för Nyquist-insticksmodul version %ld"
++msgstr "Den här versionen av Audacity har inte stöd för Nyquist-insticksmodulens version %ld"
+ 
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid "Could not open file"
+-- 
+2.54.0 (Apple Git-157)
+
