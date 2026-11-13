@@ -8,6 +8,8 @@ Senaste arkivändring är datumet för den senaste Git-incheckningen som berör 
 
 Senaste tillägg som ännu inte hunnit in i den alfabetiska projektöversikten:
 
+
+| [Warzone 2100 – wz2100.net](Warzone2100-wz2100.net/) | 2026-11-13 | Hela UI-katalogen är granskad rad för rad: 217 av 217 poster i två svenska JSON-deltakataloger. [Terminologi](Warzone2100-wz2100.net/TERMINOLOGY-20261113.md), [batch 000–099](Warzone2100-wz2100.net/REVIEW-UI-000-099-20261113.md), [batch 100–216](Warzone2100-wz2100.net/REVIEW-UI-100-216-20261113.md) och [status](Warzone2100-wz2100.net/STATUS-20261113.md) är arkiverade. JSON- och paritetskontroll, l10n-lint, diffkontroll och Gitleaks passerade. | Svenska saknas ännu i projektets Crowdin. [Ärende #74](https://github.com/Warzone2100/wz2100.net/issues/74) är en begäran om att aktivera språket, inte ett upstream-inskick. Jämför kandidaten mot aktuell Crowdin-export, TM, ordlista och stilguide när svenska öppnas. |
 | Projekt | Datum | Granskning och status | Att göra |
 | --- | --- | --- | --- |
 | [Blender UI](Blender/) | 2026-11-11 | **Statuskorrigering som ersätter de äldre Blender-raderna längre ned.** Export 8 omfattar 40 434 av 40 434 svenska strängar. Hela katalogen är radgranskad lokalt; [slutblocket](Blender/REVIEW-UI-40385-40434-20261111.md), [projektstatusen](Blender/PROJECT-STATUS-20261104.md), [helkatalogskontrollen](Blender/QA-EXPORT-8-20261111.md) och [Weblate-kontrollerna](Blender/WEBLATE-CHECKS-20261111.md) dokumenterar arbetet. `msgfmt`, `l10n-lint`, diffkontroll och Gitleaks passerade. | Hämta en ny export när källan ändras och jämför den mot export 8. Lokal granskning är inte i sig ett påstående om upstream; import bekräftas endast per verifierat importresultat. |
