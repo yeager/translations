@@ -56,3 +56,8 @@
 | Clip speed | klipphastighet | Uppspelningshastighet som gäller för ett enskilt klipp. |
 | Wah Frequency Offset | wahwah-frekvensförskjutning | Frekvensförskjutning i wahwah-effekten. |
 | Grabber | draghandtag | Greppyta för att flytta ett verktygsfält eller spår. |
+| Undo level | ångranivå | En sparad punkt i ångrahistoriken som kan tas bort för att frigöra diskutrymme. |
+| Alias file | aliasfil | Extern ljudfil som ett Audacity-projekt refererar till. |
+| Alias summary file | aliassammanfattningsfil | `.auf`-fil som sammanfattar en aliasfil för vågformsvisning. |
+| Block file | blockfil | Intern projektfil som lagrar ljud- eller sammanfattningsdata. |
+| Orphan block file | föräldralös blockfil | Oanvänd blockfil som kan höra till ett annat projekt. |
