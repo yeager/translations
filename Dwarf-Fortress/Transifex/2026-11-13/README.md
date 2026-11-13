@@ -17,11 +17,12 @@ Den här katalogen innehåller svenska granskningsbatcher för Dwarf Fortress St
 - Batch 7: 10 tidigare oöversatta boktitelsmallar
 - Batch 8: 9 tidigare oöversatta boktitelsmallar
 - Batch 9: 10 tidigare oöversatta boktitelsmallar
+- Batch 10: 3 tidigare oöversatta boktitelsmallar
 - Råinventering: 349 oöversatta strängar före batchen. Råfilen är en oförändrad API-export från 2026-11-12.
 
 ## Status
 
-Lokalt granskat, validerat, arkiverat och uppladdat via Transifex REST API 2026-11-13. Batch 1 gav HTTP 200 med 10 uppdateringar, batch 2 HTTP 200 med 7 uppdateringar, batch 3–7 och 9 HTTP 200 med 10 uppdateringar vardera samt batch 8 HTTP 200 med 9 uppdateringar. Direkt återläsning verifierade samtliga 86 måltexter.
+Lokalt granskat, validerat, arkiverat och uppladdat via Transifex REST API 2026-11-13. Batch 1 gav HTTP 200 med 10 uppdateringar, batch 2 HTTP 200 med 7 uppdateringar, batch 3–7 och 9 HTTP 200 med 10 uppdateringar vardera, batch 8 HTTP 200 med 9 uppdateringar och batch 10 HTTP 200 med 3 uppdateringar. Direkt återläsning verifierade samtliga 89 måltexter.
 
 Efter batch 9 visar en ny paginerad API-inventering 263 oöversatta svenska strängar i komponenten.
 
@@ -38,6 +39,7 @@ Detta är inte en markering som granskad i Transifex. De uppladdade raderna har 
 - `dwarf-fortress-text-set-batch07-sv-20261113.jsonl`: oförändrad deltafil med de tio uppladdade boktitelsmallarna.
 - `dwarf-fortress-text-set-batch08-sv-20261113.jsonl`: oförändrad deltafil med de nio uppladdade boktitelsmallarna.
 - `dwarf-fortress-text-set-batch09-sv-20261113.jsonl`: oförändrad deltafil med de tio uppladdade boktitelsmallarna.
+- `dwarf-fortress-text-set-batch10-sv-20261113.jsonl`: oförändrad deltafil med de tre uppladdade boktitelsmallarna.
 - `dwarf-fortress-text-set-missing-raw-20261112.json`: oförändrad råexport av den inventering som låg till grund för batchen.
 - `TERMINOLOGY.md`: beslut för återkommande speltermer i denna batch.
 - `STATUS.md` samt `STATUS-batch02.md` till och med `STATUS-batch09.md`: kontroller och verifieringsresultat.
