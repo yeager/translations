@@ -36,7 +36,7 @@ Prioritet 1 betyder bred slutanvändarnytta, 2 produktivitets- och samarbetsprog
 | 1 | [krille-chan/fluffychat](https://github.com/krille-chan/fluffychat) | 2026-11-06 | Svensk resurs: `ios/Runner/sv-SE.lproj` | 2020-12-18, Christian Pauly |
 | 1 | [laurent22/joplin](https://github.com/laurent22/joplin) | 2026-10-28 | Resursträff kräver UI-kontroll: `Assets/TinyMCE/langs/sv_SE.js` | 2020-11-05, Laurent Cozic |
 | 1 | [LibreCAD/LibreCAD](https://github.com/LibreCAD/LibreCAD) | 2026-10-17 | Svensk resurs: `librecad/support/library/elektro/source/sv.dxf` | 2026-09-05, Dongxu Li |
-| 1 | [localsend/localsend](https://github.com/localsend/localsend) | 2026-08-21 | Svensk resurs: `app/assets/i18n/_missing_translations_sv.json`; tre aktuella UI-strängar granskade lokalt och väntar på upstream | 2026-08-10, Tien Do Nam |
+| 1 | [localsend/localsend](https://github.com/localsend/localsend) | 2026-08-21 | Svensk resurs: `app/assets/i18n/_missing_translations_sv.json`; tre aktuella UI-strängar inskickade som [PR #3706](https://github.com/localsend/localsend/pull/3706), väntar på granskning | 2026-08-10, Tien Do Nam |
 | 1 | [luanti-org/luanti](https://github.com/luanti-org/luanti) | 2026-10-29 | Svensk resurs: `android/app/src/main/res/values-sv` | 2026-08-14, Jonatan Nyberg |
 | 1 | [mozilla-mobile/firefox-ios](https://github.com/mozilla-mobile/firefox-ios) | 2026-11-06 | Svensk resurs: `firefox-ios/Client/sv.lproj` | 2026-09-10, github-actions[bot] |
 | 1 | [music-assistant/server](https://github.com/music-assistant/server) | 2026-10-30 | Svensk resurs: `music_assistant/translations/sv_SE.json` | 2026-07-21, github-actions[bot] |
