@@ -44,6 +44,9 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | draw call | ritanrop | Gäller GS- och renderingsstatistik. |
 | texture replacement | texturersättning | Gäller ersättningar som läses in för speltexturer. |
 | preload | förinläsning | Gäller särskilt texturer som läses in i cache före användning. |
+| precaching | förinläsning | Gäller förinläsning av skivdata före användning. |
+| expand | utvidgning | Gäller SoundTouchs interna ljudutvidgningssteg i latenstext. |
+| Use Title File Names | Använd speltitel som filnamn | Etikett i dialogen för omslagsbilder; samma formulering används i dess hjälptext. |
 | bilinear filtering | bilinjär filtrering | Gäller grafikinställningen; `Bilinjär` används i korta valetiketter. |
 | trilinear filtering | trilinjär filtrering | Gäller grafikinställningen; `Trilinjär` används i korta valetiketter. |
 | TV shader | TV-shader | Projektspecifik teknisk sammansättning för TV-liknande bildfilter. |
