@@ -60,3 +60,7 @@ Tre ytterligare FullscreenUI- och ljudinställningsposter skickades som ogranska
 | `11306` | `449937` | *7.1 Surround* normaliseras till *7.1-surroundljud*. |
 
 Hunspell-sv och svlang hade inga språkvarningar för dessa tre kandidater. Post `3449` för procentformatet hade redan kandidaten `%1 %`; Crowdins API avvisade en identisk inskickning med `Duplicate translation`. Ingen röst eller befintlig kandidat ändrades.
+
+## Exportens radbrytningsfel
+
+L10n-lint markerar post `10288` eftersom den aktiva översättningen saknar en av källtextens tre radbrytningar. Den svenska kandidaten `448991` har samma fyra stycken och tre radbrytningar som källtexten, korrekt böjning och konsekvent UI-terminologi. Den återlästes från Crowdins API den 13 november. Ingen ny kandidat skickades, eftersom den redan täcker rättningen. En senare kandidat, `449921`, har samma radbrytningsfel som den aktiva måltexten och ska inte väljas.
