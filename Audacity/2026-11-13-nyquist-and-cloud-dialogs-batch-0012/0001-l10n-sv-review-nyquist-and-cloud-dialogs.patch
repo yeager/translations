@@ -1,0 +1,260 @@
+From f140ed7518ef5ca84a04ea7e8895982171eccb98 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:31:39 +0100
+Subject: [PATCH] l10n(sv): review Nyquist and cloud dialogs
+
+---
+ au3/locale/sv.po | 64 ++++++++++++++++++++++++------------------------
+ 1 file changed, 32 insertions(+), 32 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 280b8ea..0b38ad6 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -5414,7 +5414,7 @@ msgstr "&Hitta...\tCtrl+F"
+ 
+ #: modules/nyquist/mod-nyq-bench/NyqBench.cpp
+ msgid "&Matching Paren\tF8"
+-msgstr "&Matchande överordnad\tF8"
++msgstr "&Matchande parentes\tF8"
+ 
+ #: modules/nyquist/mod-nyq-bench/NyqBench.cpp
+ msgid "&Top S-expr\tF9"
+@@ -5450,7 +5450,7 @@ msgstr "Dela &horisontellt"
+ 
+ #: modules/nyquist/mod-nyq-bench/NyqBench.cpp
+ msgid "Show S&cript"
+-msgstr "Visa s&kript"
++msgstr "Visa &skript"
+ 
+ #: modules/nyquist/mod-nyq-bench/NyqBench.cpp
+ msgid "Show &Output"
+@@ -5516,7 +5516,7 @@ msgstr "Harvey Lubin (logotyp)"
+ 
+ #: modules/nyquist/mod-nyq-bench/NyqBench.cpp
+ msgid "Tango Icon Gallery (toolbar icons)"
+-msgstr "Tango ikongalleri (verktygsfältsikoner)"
++msgstr "Tango-ikongalleri (verktygsfältsikoner)"
+ 
+ #: modules/nyquist/mod-nyq-bench/NyqBench.cpp
+ msgid "Leland Lucius"
+@@ -5544,7 +5544,7 @@ msgstr "Koden har ändrats. Är du säker?"
+ 
+ #: modules/nyquist/mod-nyq-bench/NyqBench.cpp
+ msgid "Untitled"
+-msgstr "Namnlös"
++msgstr "Namnlöst"
+ 
+ #: modules/nyquist/mod-nyq-bench/NyqBench.cpp
+ msgid "Nyquist Effect Workbench - "
+@@ -5650,7 +5650,7 @@ msgstr "Gör om"
+ 
+ #: modules/nyquist/mod-nyq-bench/NyqBench.cpp
+ msgid "Redo previous change"
+-msgstr "Ångra föregående ändring"
++msgstr "Gör om senaste ändring"
+ 
+ #: modules/nyquist/mod-nyq-bench/NyqBench.cpp
+ msgid "Find"
+@@ -5666,7 +5666,7 @@ msgstr "Matcha"
+ 
+ #: modules/nyquist/mod-nyq-bench/NyqBench.cpp
+ msgid "Go to matching paren"
+-msgstr "Gå till matchande överordnad"
++msgstr "Gå till matchande parentes"
+ 
+ #: modules/nyquist/mod-nyq-bench/NyqBench.cpp
+ msgid "Top"
+@@ -5749,11 +5749,11 @@ msgstr "Förhandsvisningar kan endast uppdateras för molnprojekt"
+ 
+ #: modules/sharing/mod-cloud-audiocom/menus/AudioComMenus.cpp
+ msgid "Save &To Cloud..."
+-msgstr "Spara & Till molnet..."
++msgstr "Spara &till molnet..."
+ 
+ #: modules/sharing/mod-cloud-audiocom/menus/AudioComMenus.cpp
+ msgid "&Update Cloud Audio Preview"
+-msgstr "&Uppdatera Förhandsgranska moln ljud"
++msgstr "&Uppdatera ljudförhandsvisning i molnet"
+ 
+ #: modules/sharing/mod-cloud-audiocom/menus/AudioComMenus.cpp
+ msgid "Open Fro&m Cloud..."
+@@ -5773,15 +5773,15 @@ msgstr "Konto"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/AudioComPrefsPanel.cpp
+ msgid "Export behavior"
+-msgstr "Export beteende"
++msgstr "Exportbeteende"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/AudioComPrefsPanel.cpp
+ msgid "S&how 'How would you like to export?' dialog"
+-msgstr "V&isa \"Hur vill du exportera?\" dialogruta"
++msgstr "V&isa dialogrutan \"Hur vill du exportera?\""
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/AudioComPrefsPanel.cpp
+ msgid "Save behavior"
+-msgstr "Spara beteende"
++msgstr "Beteende vid sparande"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/AudioComPrefsPanel.cpp
+ msgid "Always &ask"
+@@ -5789,7 +5789,7 @@ msgstr "Fråga &alltid"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/AudioComPrefsPanel.cpp
+ msgid "Always &save to cloud"
+-msgstr "Spara &alltid till Moln"
++msgstr "Spara &alltid till molnet"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/AudioComPrefsPanel.cpp
+ msgid "Always save to the co&mputer"
+@@ -5815,26 +5815,26 @@ msgstr "dagar"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/AudioComPrefsPanel.cpp
+ msgid "&Remove temporary files after:"
+-msgstr "&Radera temporära filer efter:"
++msgstr "&Radera tillfälliga filer efter:"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/AudioComPrefsPanel.cpp
+ msgid "Preferences for Cloud"
+-msgstr "Inställningar för Moln"
++msgstr "Inställningar för molnet"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/AudioComPrefsPanel.cpp
+ #: src/prefs/DirectoriesPrefs.cpp
+ msgid "Choose a location to place the temporary directory"
+-msgstr "Välj ett utrymme att placera den temporära katalogen"
++msgstr "Välj en plats för den tillfälliga katalogen"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/AudioComPrefsPanel.cpp
+ #: src/prefs/DirectoriesPrefs.cpp
+ msgid "Temporary files directory cannot be on a FAT drive."
+-msgstr "Katalog för temporära filer kan inte vara på en FAT drive."
++msgstr "Katalogen för tillfälliga filer kan inte ligga på en FAT-enhet."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/AudioComPrefsPanel.cpp
+ #: src/prefs/DirectoriesPrefs.cpp
+ msgid "Cannot set the preference."
+-msgstr "Kan inte göra ändring i inställningar."
++msgstr "Inställningen kan inte ändras."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/CloudSyncStatusField.cpp
+ msgid "Failed."
+@@ -5843,7 +5843,7 @@ msgstr "Misslyckades."
+ #: modules/sharing/mod-cloud-audiocom/ui/CloudSyncStatusField.cpp
+ #, c-format
+ msgid "Syncing to audio.com... (%d%%)"
+-msgstr "Synkronisera till audio.com... (%d%%)"
++msgstr "Synkroniserar med audio.com... (%d%%)"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/ProjectCloudUIExtension.cpp
+ msgid "Project is syncing with audio.com. Do you want to stop the sync process?"
+@@ -5867,7 +5867,7 @@ msgstr "Dela ljud"
+ #. that opens Share Audio dialog
+ #: modules/sharing/mod-cloud-audiocom/ui/ShareAudioToolbar.cpp
+ msgid "&Share Audio Toolbar"
+-msgstr "&Dela ljud verktygfält"
++msgstr "&Verktygsfältet Dela ljud"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/UserPanel.cpp
+ msgid "Account not linked"
+@@ -5875,11 +5875,11 @@ msgstr "Kontot är inte länkat"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/UserPanel.cpp
+ msgid "&Link Account"
+-msgstr "&Länk konto"
++msgstr "&Länka konto"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/UserPanel.cpp
+ msgid "&Unlink Account"
+-msgstr "&Ta bort länk till konto"
++msgstr "&Ta bort koppling till konto"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/AudioComDialogBase.cpp
+ msgid "Open from audio.com"
+@@ -5897,7 +5897,7 @@ msgstr "Hur vill du spara?"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/CloudLocationDialog.cpp
+ msgid "Save to the Cloud (free)"
+-msgstr "Spara till Molnet (gratis)"
++msgstr "Spara till molnet (gratis)"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/CloudLocationDialog.cpp
+ msgid "Your project is backed up privately on audio.com. You can access your work from any device and collaborate on your project with others. Cloud saving is free for a limited number of projects."
+@@ -5905,7 +5905,7 @@ msgstr "Ditt projekt säkerhetskopieras privat på audio.com. Du kan komma åt d
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/CloudLocationDialog.cpp
+ msgid "&Save to Cloud"
+-msgstr "&Spara till Moln"
++msgstr "&Spara till molnet"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/CloudLocationDialog.cpp
+ msgid "On your computer"
+@@ -5916,8 +5916,8 @@ msgid ""
+ "Files are saved on your device.\n"
+ "Note: To export MP3 and WAV files, use File > Export Audio instead."
+ msgstr ""
+-"Filer sparades på din enhet.\n"
+-"Obs:: För att exportera MP3- och WAV-filer, använd Arkiv > Exportera ljud istället."
++"Filerna sparas på din enhet.\n"
++"Obs! Om du vill exportera MP3- och WAV-filer använder du Arkiv > Exportera ljud i stället."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/CloudLocationDialog.cpp
+ msgid "Save to &computer"
+@@ -5939,7 +5939,7 @@ msgstr "Dela till audio.com"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/CloudLocationDialog.cpp
+ msgid "Uploads an uncompressed audio file and generates a shareable link. This link allows others to download the file in either .wav or .mp3 format."
+-msgstr "Laddar upp en okomprimerad ljudfil och genererar en delbar länk. Denna länk låter andra ladda ner filen i antingen .wav- eller .mp3-format."
++msgstr "Laddar upp en okomprimerad ljudfil och skapar en delbar länk. Med länken kan andra hämta filen i formatet .wav eller .mp3."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/CloudLocationDialog.cpp
+ msgid "&Share to audio.com"
+@@ -5964,7 +5964,7 @@ msgstr "Projektnamn"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/CloudProjectPropertiesDialog.cpp
+ msgid "Cloud saving requires a free audio.com account linked to Audacity. Press \"Link account\" above to proceed."
+-msgstr "Att spara i Moln kräver ett gratis audio.com-konto kopplat till Audacity. Tryck på \"Länka konto\" ovan för att fortsätta."
++msgstr "Sparande i molnet kräver ett kostnadsfritt audio.com-konto kopplat till Audacity. Klicka på \"Länka konto\" ovan för att fortsätta."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/CloudProjectPropertiesDialog.cpp
+ msgid "Private"
+@@ -6033,11 +6033,11 @@ msgstr "Kontot har länkats!"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/LinkWithTokenDialog.cpp
+ msgid "Enter token to link your account"
+-msgstr "Ange bevis för att länka ditt konto"
++msgstr "Ange token för att länka ditt konto"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/LinkWithTokenDialog.cpp
+ msgid "Token"
+-msgstr "Bevis"
++msgstr "Token"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/LinkWithTokenDialog.cpp
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ShareAudioDialog.cpp
+@@ -6047,7 +6047,7 @@ msgstr "F&ortsätt"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/LinkWithTokenDialog.cpp
+ msgid "L&ink audio.com account..."
+-msgstr "L&änka audio.com konto..."
++msgstr "L&änka audio.com-konto..."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/NotCloudProjectDialog.cpp
+ msgid "This project is no longer saved to the Cloud"
+@@ -6068,11 +6068,11 @@ msgstr "Spara till dator"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/NotCloudProjectDialog.cpp
+ msgid "Save to Cloud"
+-msgstr "Spara till Moln"
++msgstr "Spara till molnet"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectLimitDialog.cpp
+ msgid "Your project storage limit has been reached."
+-msgstr "Ditt utrymme för att spara ditt projekt har nåtts."
++msgstr "Projektets lagringsgräns har uppnåtts."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ProjectLimitDialog.cpp
+ msgid "You may need to remove older projects to make space available. For more options, visit audio.com"
+-- 
+2.54.0 (Apple Git-157)
+
