@@ -50,3 +50,4 @@
 | Clip pitch | klipptonhöjd | Tonhöjd som gäller för ett enskilt klipp. |
 | Clip speed | klipphastighet | Uppspelningshastighet som gäller för ett enskilt klipp. |
 | Wah Frequency Offset | wahwah-frekvensförskjutning | Frekvensförskjutning i wahwah-effekten. |
+| Grabber | draghandtag | Greppyta för att flytta ett verktygsfält eller spår. |
