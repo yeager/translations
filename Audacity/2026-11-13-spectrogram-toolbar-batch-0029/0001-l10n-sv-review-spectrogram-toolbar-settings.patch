@@ -1,0 +1,236 @@
+From b11fe2fe75c531c1e336469acd6eecfab521d642 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 15:21:38 +0100
+Subject: [PATCH] l10n(sv): review spectrogram and toolbar settings
+
+---
+ au3/locale/sv.po | 58 ++++++++++++++++++++++++------------------------
+ 1 file changed, 29 insertions(+), 29 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 843234c..77b48ab 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -17560,11 +17560,11 @@ msgstr "För&stärkning (dB):"
+ 
+ #: src/prefs/SpectrumPrefs.cpp
+ msgid "&Range (dB):"
+-msgstr "&Intervall (dB)"
++msgstr "&Intervall (dB):"
+ 
+ #: src/prefs/SpectrumPrefs.cpp
+ msgid "High &boost (dB/dec):"
+-msgstr "&Frekv.förstärkn. (dB/dec):"
++msgstr "Hög&frekvensförstärkning (dB/dec):"
+ 
+ #: src/prefs/SpectrumPrefs.cpp
+ msgid "Algorithm"
+@@ -17580,7 +17580,7 @@ msgstr "Fönster&storlek:"
+ 
+ #: src/prefs/SpectrumPrefs.cpp
+ msgid "8 - most wideband"
+-msgstr "8 - mest bredband"
++msgstr "8 - bredast band"
+ 
+ #: src/prefs/SpectrumPrefs.cpp
+ msgid "2048"
+@@ -17588,7 +17588,7 @@ msgstr "2048"
+ 
+ #: src/prefs/SpectrumPrefs.cpp
+ msgid "32768 - most narrowband"
+-msgstr "32768 - mest smalband"
++msgstr "32768 - smalast band"
+ 
+ #: src/prefs/SpectrumPrefs.cpp
+ msgid "Window &type:"
+@@ -17596,7 +17596,7 @@ msgstr "Fönster&typ:"
+ 
+ #: src/prefs/SpectrumPrefs.cpp
+ msgid "&Zero padding factor:"
+-msgstr "&Faktor för nollor:"
++msgstr "&Nollutfyllnadsfaktor:"
+ 
+ #: src/prefs/SpectrumPrefs.cpp
+ msgid "Ena&ble Spectral Selection"
+@@ -17604,16 +17604,16 @@ msgstr "Akti&vera spektrumsmarkering"
+ 
+ #: src/prefs/SpectrumPrefs.cpp
+ msgid "Show a grid along the &Y-axis"
+-msgstr "Visa ett rutnät längst &Y-axeln"
++msgstr "Visa ett rutnät längs &Y-axeln"
+ 
+ #. i18n-hint: FFT stands for Fast Fourier Transform and probably shouldn't be translated
+ #: src/prefs/SpectrumPrefs.cpp
+ msgid "FFT Find Notes"
+-msgstr "FFT Hitta noter"
++msgstr "FFT: hitta noter"
+ 
+ #: src/prefs/SpectrumPrefs.cpp
+ msgid "Minimum Amplitude (dB):"
+-msgstr "Minímal amplitud (dB):"
++msgstr "Minsta amplitud (dB):"
+ 
+ #: src/prefs/SpectrumPrefs.cpp
+ msgid "Max. Number of Notes (1..128):"
+@@ -17653,7 +17653,7 @@ msgstr "Intervallet måste vara ett positivt heltal"
+ 
+ #: src/prefs/SpectrumPrefs.cpp
+ msgid "The frequency gain must be an integer"
+-msgstr "Frekvensen måste vara ett heltal"
++msgstr "Frekvensförstärkningen måste vara ett heltal"
+ 
+ #: src/prefs/SpectrumPrefs.cpp
+ msgid "The minimum amplitude (dB) must be an integer"
+@@ -17665,7 +17665,7 @@ msgstr "Maximala antalet noter måste vara ett heltal"
+ 
+ #: src/prefs/SpectrumPrefs.cpp
+ msgid "The maximum number of notes must be in the range 1..128"
+-msgstr "Maximala antalet noter måste vara mellan 1..128"
++msgstr "Det maximala antalet noter måste vara mellan 1 och 128"
+ 
+ #. i18n-hint: A theme is a consistent visual style across an application's
+ #. graphical user interface, including choices of colors, and similarity of images
+@@ -17801,11 +17801,11 @@ msgstr "Spektrogram"
+ 
+ #: src/prefs/TracksPrefs.cpp
+ msgid "Connect dots"
+-msgstr "Anslut pickar"
++msgstr "Sammanbind punkter"
+ 
+ #: src/prefs/TracksPrefs.cpp
+ msgid "Stem plot"
+-msgstr "Rita ut ihopmixade ljudkällor"
++msgstr "Stjälkdiagram"
+ 
+ #: src/prefs/TracksPrefs.cpp src/toolbars/EditToolBar.cpp
+ msgid "Fit to Width"
+@@ -17874,15 +17874,15 @@ msgstr "Använd &halvvågsvisning vid kollapsad vy"
+ 
+ #: src/prefs/TracksPrefs.cpp
+ msgid "&Pinned Recording/Playback head"
+-msgstr "&Fäst sidhuvudet för inspelning/uppspelning"
++msgstr "&Fäst inspelnings-/uppspelningshuvudet"
+ 
+ #: src/prefs/TracksPrefs.cpp
+ msgid "A&uto-scroll if head unpinned"
+-msgstr "A&utorulla om sidhuvudet inte är fäst"
++msgstr "A&utorulla om huvudet inte är fäst"
+ 
+ #: src/prefs/TracksPrefs.cpp
+ msgid "Pinned &head position"
+-msgstr "Fäste sid&huvudets position"
++msgstr "Fäst &huvudposition"
+ 
+ #: src/prefs/TracksPrefs.cpp
+ msgid "Default &view mode:"
+@@ -17890,11 +17890,11 @@ msgstr "Standard&visningsläge:"
+ 
+ #: src/prefs/TracksPrefs.cpp
+ msgid "Default Waveform scale:"
+-msgstr "Standard vågform skala:"
++msgstr "Standardvågformsskala:"
+ 
+ #: src/prefs/TracksPrefs.cpp
+ msgid "Display &samples:"
+-msgstr "Visar &samplingar:"
++msgstr "Visa &samplingar:"
+ 
+ #: src/prefs/TracksPrefs.cpp
+ msgid "Default audio track &name:"
+@@ -17923,12 +17923,12 @@ msgstr "Inställningar för vågformer"
+ 
+ #: src/prefs/WaveformPrefs.cpp
+ msgid "Waveform dB &range:"
+-msgstr "Vågform dB intervall:"
++msgstr "Vågformsintervall i dB:"
+ 
+ #. i18n-hint: Audio setup button text, keep as short as possible
+ #: src/toolbars/AudioSetupToolBar.cpp
+ msgid "Audio Setup"
+-msgstr "Ställ in ljud"
++msgstr "Ljudinställning"
+ 
+ #. i18n-hint: Audio setup menu
+ #: src/toolbars/AudioSetupToolBar.cpp
+@@ -17945,11 +17945,11 @@ msgstr "&Inspelningsenhet"
+ 
+ #: src/toolbars/AudioSetupToolBar.cpp
+ msgid "Recording &Channels"
+-msgstr "Inspelning &kanaler"
++msgstr "Inspelnings&kanaler"
+ 
+ #: src/toolbars/AudioSetupToolBar.cpp
+ msgid "&Audio Settings..."
+-msgstr "&Ljud inställning..."
++msgstr "&Ljudinställningar..."
+ 
+ #: src/toolbars/AudioSetupToolBar.cpp src/toolbars/DeviceToolBar.cpp
+ msgid "1 (Mono) Recording Channel"
+@@ -17957,20 +17957,20 @@ msgstr "1 (mono) inspelningskanal"
+ 
+ #: src/toolbars/AudioSetupToolBar.cpp src/toolbars/DeviceToolBar.cpp
+ msgid "2 (Stereo) Recording Channels"
+-msgstr "2 (stereo) inspelningskanal"
++msgstr "2 (stereo) inspelningskanaler"
+ 
+ #. i18n-hint: Clicking this menu item shows the toolbar
+ #. that manages the audio devices
+ #: src/toolbars/AudioSetupToolBar.cpp
+ msgid "&Audio Setup Toolbar"
+-msgstr "&Ljud inställning verktygsfält"
++msgstr "&Verktygsfält för ljudinställning"
+ 
+ #. i18n-hint: These are strings for the status bar, and indicate whether Audacity
+ #. is playing or recording or stopped, and whether it is paused;
+ #. progressive verb form
+ #: src/toolbars/ControlToolBar.cpp
+ msgid "Stopped"
+-msgstr "Stoppades"
++msgstr "Stoppad"
+ 
+ #: src/toolbars/ControlToolBar.cpp
+ msgid "Transport"
+@@ -18017,7 +18017,7 @@ msgstr "Markera till början"
+ #: src/toolbars/ControlToolBar.cpp src/tracks/ui/Scrubbing.cpp
+ #, c-format
+ msgid "%s Paused."
+-msgstr "%s Pausad."
++msgstr "%s är pausad."
+ 
+ #: src/toolbars/ControlToolBar.cpp
+ #, c-format
+@@ -18157,7 +18157,7 @@ msgstr " Max %.2f "
+ 
+ #: src/toolbars/MeterToolBar.cpp
+ msgid " Clipped "
+-msgstr " Klipptes "
++msgstr " Överstyrd "
+ 
+ #: src/toolbars/MeterToolBar.cpp
+ msgid "Record Meter"
+@@ -18245,11 +18245,11 @@ msgstr "Längd"
+ #: src/tracks/playabletrack/wavetrack/ui/WaveTrackSliderHandles.cpp
+ #: src/widgets/ASlider.cpp
+ msgid "Center"
+-msgstr "Centrera"
++msgstr "Mittpunkt"
+ 
+ #: src/toolbars/SelectionBar.cpp
+ msgid "Selection Toolbar Setup"
+-msgstr "Urval verktygsfält inställningar"
++msgstr "Inställningar för markeringsverktygsfältet"
+ 
+ #: src/toolbars/SelectionBar.cpp
+ msgid "Start and End of Selection"
+@@ -18265,7 +18265,7 @@ msgstr "Markeringens längd och slut"
+ 
+ #: src/toolbars/SelectionBar.cpp
+ msgid "Length and Center of Selection"
+-msgstr "Markeringens längd och center"
++msgstr "Markeringens längd och mittpunkt"
+ 
+ #. i18n-hint: Clicking this menu item shows the toolbar
+ #. for selecting a time range of audio
+-- 
+2.54.0 (Apple Git-157)
+
