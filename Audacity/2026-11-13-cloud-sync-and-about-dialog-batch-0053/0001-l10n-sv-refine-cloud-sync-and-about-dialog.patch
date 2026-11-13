@@ -1,0 +1,135 @@
+From d3f58432762d2b3176f5021f42193ff883fc3c46 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 16:23:45 +0100
+Subject: [PATCH] l10n(sv): refine cloud sync and about dialog text
+
+---
+ au3/locale/sv.po | 28 ++++++++++++++--------------
+ 1 file changed, 14 insertions(+), 14 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index f72dc7a..80dfa4c 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -6209,7 +6209,7 @@ msgstr "Laddar upp ljud..."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ShareAudioDialog.cpp
+ msgid "We are unable to upload this file. Please try again and make sure to link to your audio.com account before uploading."
+-msgstr "Vi kan inte ladda upp den här filen. Försök igen och se till att du länkar till ditt audio.com-konto innan du laddar upp."
++msgstr "Vi kan inte ladda upp den här filen. Försök igen och koppla ditt audio.com-konto innan du laddar upp."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ShareAudioDialog.cpp
+ msgid "Upload error"
+@@ -6217,11 +6217,11 @@ msgstr "Fel vid uppladdning"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ShareAudioDialog.cpp
+ msgid "We are unable to prepare this file for uploading."
+-msgstr "Vi kan inte förbereda denna fil för uppladdning."
++msgstr "Vi kan inte förbereda den här filen för uppladdning."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ShareAudioDialog.cpp
+ msgid "Finalizing upload..."
+-msgstr "Slutför uppladdningen..."
++msgstr "Uppladdningen slutförs..."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/ShareAudioDialog.cpp
+ #: src/TagsEditor.cpp
+@@ -6305,7 +6305,7 @@ msgstr "Synkroniserar projektet"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/SyncInBackroundDialog.cpp
+ msgid "The project will sync in background while you work. You can check the sync status on the bottom right corner of Audacity at any time"
+-msgstr "Projektet synkroniseras i bakgrunden medan du arbetar. Du kan när som helst kontrollera status på synkroniseringen i det nedre högra hörnet av Audacity"
++msgstr "Projektet synkroniseras i bakgrunden medan du arbetar. Du kan när som helst kontrollera synkroniseringsstatusen längst ned till höger i Audacity"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/SyncInBackroundDialog.cpp
+ #: src/AudioPasteDialog.cpp
+@@ -6330,7 +6330,7 @@ msgstr "Molnprojektet är ofullständigt"
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/UnsyncedProjectDialog.cpp
+ msgid "The latest version of this project was not fully uploaded to audio.com. You can load the last complete version instead."
+-msgstr "Den senaste versionen av detta projekt laddades inte upp helt till audio.com. Du kan ladda den senaste kompletta versionen istället."
++msgstr "Den senaste versionen av det här projektet laddades inte upp helt till audio.com. Du kan läsa in den senaste kompletta versionen i stället."
+ 
+ #: modules/sharing/mod-cloud-audiocom/ui/dialogs/UnsyncedProjectDialog.cpp
+ msgid "Load latest"
+@@ -6438,7 +6438,7 @@ msgstr "&MIDI..."
+ 
+ #: src/AboutDialog.cpp
+ msgid "No revision identifier was provided"
+-msgstr "Ingen identifiering av omarbetningen bifogas"
++msgstr "Ingen versionsidentifierare angavs"
+ 
+ #. i18n-hint: For "About Audacity..." credits, substituting a person's proper name
+ #: src/AboutDialog.cpp
+@@ -6540,12 +6540,12 @@ msgstr "%s, grafik"
+ #: src/AboutDialog.cpp
+ #, c-format
+ msgid "%s, effects presets"
+-msgstr "%s, effekter förinställning"
++msgstr "%s, effektförinställningar"
+ 
+ #: src/AboutDialog.cpp
+ #, c-format
+ msgid "%s (incorporating %s, %s, %s, %s and %s)"
+-msgstr "%s (tillägger %s, %s, %s, %s och %s)"
++msgstr "%s (med %s, %s, %s, %s och %s)"
+ 
+ #. i18n-hint: information about the program
+ #: src/AboutDialog.cpp
+@@ -6612,7 +6612,7 @@ msgstr "%s innehåller kod från följande projekt:"
+ 
+ #: src/AboutDialog.cpp
+ msgid "Special thanks:"
+-msgstr "Speciellt tack till:"
++msgstr "Särskilt tack till:"
+ 
+ #. i18n-hint: The program's name substitutes for %s
+ #: src/AboutDialog.cpp
+@@ -6635,7 +6635,7 @@ msgstr "Namnet %s är ett registrerat varumärke."
+ 
+ #: src/AboutDialog.cpp
+ msgid "Build Information"
+-msgstr "Versionsinformation"
++msgstr "Bygginformation"
+ 
+ #: src/AboutDialog.cpp src/PluginDataViewCtrl.cpp
+ #: src/PluginRegistrationDialog.cpp src/prefs/ModulePrefs.cpp
+@@ -6677,7 +6677,7 @@ msgstr "%s, 32 bitar"
+ 
+ #: src/AboutDialog.cpp
+ msgid "Build type:"
+-msgstr "Versionstyp:"
++msgstr "Byggtyp:"
+ 
+ #: src/AboutDialog.cpp
+ msgid "Compiler:"
+@@ -6752,7 +6752,7 @@ msgstr "Import och export av Ogg Vorbis"
+ 
+ #: src/AboutDialog.cpp
+ msgid "ID3 tag support"
+-msgstr "Stöd för ID3-tagg"
++msgstr "Stöd för ID3-taggar"
+ 
+ #. i18n-hint: FLAC stands for Free Lossless Audio Codec, but is effectively
+ #. * a proper noun and so shouldn't be translated
+@@ -6766,7 +6766,7 @@ msgstr "MP2-export"
+ 
+ #: src/AboutDialog.cpp
+ msgid "FFmpeg Import/Export"
+-msgstr "Import-/exportbibliotek för FFmpeg"
++msgstr "FFmpeg-import/-export"
+ 
+ #: src/AboutDialog.cpp
+ msgid "Features"
+@@ -6805,7 +6805,7 @@ msgstr "INTEGRITETSPOLICY"
+ 
+ #: src/AboutDialog.cpp
+ msgid "App update checking and error reporting require network access. These features are optional."
+-msgstr "För att kontrollera om uppdateringar finns och rapportera buggar krävs internetkoppling. Detta är frivilligt."
++msgstr "Kontroll av programuppdateringar och felrapportering kräver nätverksåtkomst. Funktionerna är valfria."
+ 
+ #. i18n-hint: %s will be replaced with "our Privacy Policy"
+ #: src/AboutDialog.cpp src/prefs/ApplicationPrefs.cpp
+-- 
+2.54.0 (Apple Git-157)
+
