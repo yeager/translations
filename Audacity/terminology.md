@@ -66,3 +66,5 @@
 | Block file | blockfil | Intern projektfil som lagrar ljud- eller sammanfattningsdata. |
 | Orphan block file | föräldralös blockfil | Oanvänd blockfil som kan höra till ett annat projekt. |
 | Compact (project) | packa | Tar bort oanvända byte i en projektfil för att frigöra diskutrymme, utan att förväxlas med ljudkomprimering. |
+| Output gain | utgångsförstärkning | Förstärkning av effektsignalens utgång; ska inte förväxlas med utgångsnivå. |
+| Frame period (audio analysis) | ramperiod | Tidsperiod för en analysram vid ljudbaserad synkronisering, inte en bildruta. |
