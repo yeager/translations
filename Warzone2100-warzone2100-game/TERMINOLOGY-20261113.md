@@ -244,3 +244,13 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | gas turbine engine / generator | gasturbinmotor / gasturbingenerator | Motor- respektive energiforskning. |
 | Gauss cannon | Gausskanon | Skenkanonvariant och dess ställningar. |
 | half-tracks | halvband | Fordonets framdrivningstyp. |
+
+## Försvar och ammunition
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| Hardcrete | Hardcrete | Spelets materialnamn behålls. |
+| hardpoint | värn | Befäst vapensystem. |
+| HE / HEAP / HEAT | HE / HEAP / HEAT | Tekniska ammunitionstyper behålls som synliga förkortningar. |
+| shell / warhead | granat / stridsspets | Ammunitionsdelar i vapenforskning. |
+| rail dart | skenprojektil | Projektil för skenkanon. |
