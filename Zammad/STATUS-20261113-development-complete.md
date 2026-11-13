@@ -10,4 +10,6 @@ Arbetet bestod av tre verifierade delar:
 
 Före varje uppdatering kontrollerades att källsträngen fortfarande var densamma. Varje PATCH-svar lästes sedan tillbaka med målvärdet och tillståndet `translated`. Slutlig statistik: 5 418 totalt, 5 418 översatta, 0 redigeringsmarkerade, 0 felande kontroller och 2 083 särskilt granskar-godkända. De nya översättningarna är alltså inskickade och lästa tillbaka, men de icke godkända posterna är inte ännu särskilt granskar-godkända eller del av en utgiven Zammad-version.
 
+Samma dag lästes stable-komponenten också tillbaka: 5 336 av 5 336 svenska strängar är översatta, utan redigeringsmarkeringar eller felande kontroller. De tidigare noterade två tomma stable-posterna är därför inte längre en aktiv restpunkt.
+
 Kontroller för de lokala batchunderlagen: JSON-validering, platshållar- och mallparitet, Hunspell-sv, l10n-lint, diffkontroll och Gitleaks. `msgfmt` är inte tillämpligt på Weblates enhetsposter. `svlang` analyserade även engelska källfält i JSON-underlagen och gav därför inga användbara svenska resultat i detta format.
