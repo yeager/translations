@@ -30,7 +30,7 @@ Den här katalogen innehåller svenska granskningsbatcher för Dwarf Fortress St
 
 Lokalt granskat, validerat, arkiverat och uppladdat via Transifex REST API 2026-11-13. Batch 1 gav HTTP 200 med 10 uppdateringar, batch 2 HTTP 200 med 7 uppdateringar, batch 3–7 och 9 HTTP 200 med 10 uppdateringar vardera, batch 8 HTTP 200 med 9 uppdateringar och batch 10 HTTP 200 med 3 uppdateringar. Direkt återläsning verifierade samtliga 89 måltexter.
 
-Efter batch 15 visar en ny paginerad API-inventering 230 oöversatta svenska strängar i komponenten.
+Efter batch 16 visar en ny paginerad API-inventering 220 oöversatta svenska strängar i komponenten.
 
 Detta är inte en markering som granskad i Transifex. De uppladdade raderna har översatts; granskningsstatus hanteras enligt projektets egna behörighetsflöde.
 
