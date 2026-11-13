@@ -118,6 +118,12 @@ Cacti-delta ska därför inte laddas upp på nytt.
 
 Följande arbete är ännu inte fullt verifierat eller inskickat:
 
+- **Bitwarden, uppföljning 2026-11-13:** Browser, Desktop, Web och Mobile
+  kontrollerades på nytt mot Crowdins API. Browser och Desktop är vardera
+  100 % översatta efter ett nytt återläst förslag; Web är 100 % översatt efter
+  nio återlästa förslag. De nya texterna väntar fortfarande på Bitwardens
+  formella Crowdin-granskning. Se [aktuell status](Bitwarden/STATUS-20261113.md).
+
 - **Bitwarden:** Web (263), Browser (10) och Desktop (46) jämfördes på nytt
   mot aktuell `main`, validerades och skickades som [PR #24212](https://github.com/bitwarden/clients/pull/24212)
   2026-10-28. PR:n stängdes samma dag utan merge; underhållaren hänvisade
