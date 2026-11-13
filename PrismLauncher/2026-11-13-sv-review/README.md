@@ -14,5 +14,7 @@ Kontroller:
 - Diffkontroll och Gitleaks: godkända.
 
 Upstream-status: **inte inskickad**. Ingen åtkomlig Hosted Weblate-API-nyckel
-fanns i de kontrollerade nyckelringsposterna. Projektets etablerade kanal är
+fanns i de kontrollerade nyckelringsposterna. Den enda funna generella
+Weblate-token som kunde testas avvisades dessutom av Hosted Weblate med HTTP
+401 den 13 november 2026. Projektets etablerade kanal är
 https://hosted.weblate.org/projects/prismlauncher/launcher/.
