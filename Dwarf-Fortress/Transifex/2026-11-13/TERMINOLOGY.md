@@ -1,4 +1,4 @@
-# Terminologi: Dwarf Fortress `text_set`
+# Terminologi: Dwarf Fortress `text_set` och `hardcoded_steam`
 
 | Engelska | Svenska | Sammanhang | Beslut |
 | --- | --- | --- | --- |
@@ -9,6 +9,10 @@
 | standard plural (`STP`) | svensk pluralform | Taggar som skapar plural av engelsk form | Ersätt `STP` med korrekt svensk plural när taggen kräver en uttrycklig form. |
 | 3rd-person verb | tredje person singular | Verbtaggar med engelsk ändelse `-s` | Det engelska `-s` är verbform, inte plural; ange svensk grundform och tredje person enligt taggens semantik. |
 | generated names | böjningsneutrala formuleringar | Bok- och artefaktnamn med `[NAME]`, `[NO_ART_NAME]`, `[ADJ]` och `[NOUN]` | Undvik svenska konstruktioner som kräver okänt genus eller böjning hos en infogad variabel. |
+| stockpile | förråd | Förvaringsyta och logistik i fästningsläget | Använd `förråd` konsekvent i UI där spelets särskilda lagringsyta avses. |
+| track stop | spårstopp | Gruvvagnsrutter; stopp som lastar och lossar ett fordon | `Spårstopp` används som projektspecifik sammansättning. Den beskriver objektets funktion och undviker den svenska järnvägsbetydelsen av signalstopp. |
+| water-powered trip hammer | vattendriven fallhammare | Teknikhistorisk bok- eller kunskapstext | `Fallhammare` är den etablerade svenska tekniska termen; vattenkraften uttrycks som ett attribut. |
+| Charge Attack | rusningsattack | Valbar stridsåtgärd | Översätts som en sammanhållen åtgärdsbenämning, inte som en allmän uppmaning att anfalla. |
 
 ## Källor och avgränsning
 
