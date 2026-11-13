@@ -1,0 +1,28 @@
+From c89f9cded7370b174db4ebe2723f2f64818fddcc Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 13:30:05 +0100
+Subject: [PATCH] l10n(sv): add file feedback messages
+
+---
+ frontend/resources/translations/sv-SE.json | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+diff --git a/frontend/resources/translations/sv-SE.json b/frontend/resources/translations/sv-SE.json
+index ce5183b..d121c21 100644
+--- a/frontend/resources/translations/sv-SE.json
++++ b/frontend/resources/translations/sv-SE.json
+@@ -117,6 +117,14 @@
+     "removeFromSidebar": "Ta bort från sidofältet",
+     "addToSidebar": "Fäst i sidofältet"
+   },
++  "noLogFiles": "Det finns inga loggfiler",
++  "openFileMessage": {
++    "success": "Filen öppnades",
++    "fileNotFound": "Filen hittades inte",
++    "noAppToOpenFile": "Ingen app kan öppna filen",
++    "permissionDenied": "Du har inte behörighet att öppna filen",
++    "unknownError": "Det gick inte att öppna filen"
++  },
+   "datePicker": {
+     "dateTimeFormatTooltip": "Ändra datum- och tidsformatet i inställningarna",
+     "dateFormat": "Datumformat",

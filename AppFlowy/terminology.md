@@ -11,5 +11,6 @@ ska prövas mot varje strängs funktion; den är inte en mekanisk ersättningsli
 | reminder | påminnelse | Gäller datumväljarens tidsstyrda påminnelser. |
 | favorite | favorit | Gäller märkta sidor och deras sidofältsåtgärder. |
 | upload | läsa in | Gäller lokal import i uppladdarens instruktioner; behåll format- och API-namn. |
+| log file | loggfil | Gäller filer som delas vid felsökning. |
 | unread | oläst | Används i filter och status för aviseringar. |
 | archive | arkivera | Verb för att flytta en avisering till arkivet. |

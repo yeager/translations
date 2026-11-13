@@ -1,6 +1,6 @@
 # AppFlowy, nya sidtyper, 13 november 2026
 
-Den första avgränsade batchen för den aktuella AppFlowy-resursen fyller 91
+Den första avgränsade batchen för den aktuella AppFlowy-resursen fyller 97
 grundläggande, synliga UI-texter i `sv-SE.json`:
 
 - nytt dokument
@@ -13,6 +13,7 @@ grundläggande, synliga UI-texter i `sv-SE.json`:
 - datumväljaren: format, slutdatum och 13 påminnelsealternativ
 - påminnelseaviseringens rubrik, meddelande och statusåtgärder
 - favoritsidornas tomläge, instruktion och sidofältsåtgärder
+- återkoppling vid öppning av filer och delning av loggfiler
 - ikonuppladdaren och dialogen Sök och ersätt
 - meddelandecentralen: status, arkivering, läst-markering och filter
 
@@ -23,7 +24,7 @@ rimligen betraktas som färdiggranskade genom den här batchen.
 
 Kontroller:
 
-- JSON-parsning och samtliga 91 nycklarna verifierade mot `en-US.json`
+- JSON-parsning och samtliga 97 nycklarna verifierade mot `en-US.json`
 - l10n-lint: godkänd
 - Hunspell-sv: inga träffar i de nya formuleringarna
 - svlang: tidigare resurs har befintliga V2-varningar; inga nya varningar från
