@@ -1,0 +1,125 @@
+From 0f208eeeaacb29a9ddf78fbd684dd9aec8c7e231 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 16:26:23 +0100
+Subject: [PATCH] l10n(sv): refine timeline startup and macro actions
+
+---
+ au3/locale/sv.po | 26 +++++++++++++-------------
+ 1 file changed, 13 insertions(+), 13 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 80dfa4c..2f6333f 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -6917,15 +6917,15 @@ msgstr "Att ställa in en loopregion gör också ett ljudval"
+ #. i18n-hint Clear is a verb
+ #: src/AdornedRulerPanel.cpp
+ msgid "Clear Loop"
+-msgstr "Rensa Loop"
++msgstr "Rensa slinga"
+ 
+ #: src/AdornedRulerPanel.cpp
+ msgid "Set Loop To Selection"
+-msgstr "Ställ in loop för val"
++msgstr "Ange slinga efter markering"
+ 
+ #: src/AdornedRulerPanel.cpp
+ msgid "Scroll view to playhead"
+-msgstr "Skrolla vy till spelhuvud"
++msgstr "Rulla vyn till spelhuvudet"
+ 
+ #: src/AdornedRulerPanel.cpp
+ msgid "Continuous scrolling"
+@@ -6934,7 +6934,7 @@ msgstr "Kontinuerlig rullning"
+ #: src/AudacityApp.cpp
+ #, c-format
+ msgid "Failed to remove %s"
+-msgstr "Misslyckades att ta bort %s"
++msgstr "Kunde inte ta bort %s"
+ 
+ #: src/AudacityApp.cpp
+ msgid "Failed!"
+@@ -6966,7 +6966,7 @@ msgstr "Audacity startas..."
+ #. i18n-hint: "New" is an action (verb) to create a NEW project
+ #: src/AudacityApp.cpp src/BatchProcessDialog.cpp src/menus/FileMenus.cpp
+ msgid "&New"
+-msgstr "&Nytt"
++msgstr "&Ny"
+ 
+ #. i18n-hint: (verb)
+ #: src/AudacityApp.cpp src/menus/FileMenus.cpp
+@@ -7018,7 +7018,7 @@ msgid ""
+ "\n"
+ msgstr ""
+ "Om du kör två instanser av Audacity samtidigt kan det\n"
+-"leda till att data går förlorat eller att ditt system kraschar.\n"
++"leda till att data går förlorade eller att ditt system kraschar.\n"
+ "\n"
+ 
+ #: src/AudacityApp.cpp
+@@ -7027,7 +7027,7 @@ msgid ""
+ "This folder may be in use by another copy of Audacity.\n"
+ msgstr ""
+ "Audacity kunde inte låsa katalogen för temporära filer.\n"
+-"Denna mapp används eventuellt av en annan instans av Audacity.\n"
++"Den här mappen används eventuellt av en annan instans av Audacity.\n"
+ 
+ #: src/AudacityApp.cpp
+ msgid "Do you still want to start Audacity?"
+@@ -7046,7 +7046,7 @@ msgid ""
+ "Use the New or Open commands in the currently running Audacity\n"
+ "process to open multiple projects simultaneously.\n"
+ msgstr ""
+-"Använd kommandon Ny eller Öppna i pågående instans av\n"
++"Använd kommandona Ny eller Öppna i den pågående instansen av\n"
+ "Audacity för att öppna flera projekt samtidigt.\n"
+ 
+ #: src/AudacityApp.cpp
+@@ -7136,7 +7136,7 @@ msgstr "Ett fel som inte kan återställas uppstod vid starten"
+ #. *           use when writing files to the disk
+ #: src/AudacityApp.cpp
+ msgid "set max disk block size in bytes"
+-msgstr "ändra maximal storlek för diskblock i byte"
++msgstr "ange maximal storlek för diskblock i byte"
+ 
+ #. i18n-hint: brief help message for Audacity's command-line options
+ #. A journal contains a sequence of user interface interactions to be repeated
+@@ -7323,7 +7323,7 @@ msgstr "&Radera markerade"
+ 
+ #: src/AutoRecoveryDialog.cpp
+ msgid "&Recover Selected"
+-msgstr "Åter&skapa markerade"
++msgstr "Åter&ställ markerade"
+ 
+ #: src/AutoRecoveryDialog.cpp src/PluginStartupRegistration.cpp
+ msgid "&Skip"
+@@ -7339,7 +7339,7 @@ msgid ""
+ "\n"
+ "Choosing \"Yes\" permanently deletes the selected projects immediately."
+ msgstr ""
+-"Är du säker på att du vill radera följande projekt?\n"
++"Är du säker på att du vill radera de markerade projekten?\n"
+ "\n"
+ "Om du klickar på \"Ja\" raderas de markerade projekten."
+ 
+@@ -7418,7 +7418,7 @@ msgstr "Ditt batchkommando för %s kändes inte igen."
+ #. i18n-hint: active verb in past tense
+ #: src/BatchCommands.cpp
+ msgid "Applied Macro"
+-msgstr "Tillämpade makro"
++msgstr "Makro tillämpades"
+ 
+ #: src/BatchCommands.cpp
+ msgid "Apply Macro"
+@@ -7428,7 +7428,7 @@ msgstr "Tillämpa makro"
+ #: src/BatchCommands.cpp
+ #, c-format
+ msgid "Applied Macro '%s'"
+-msgstr "Tillämpade makrot  \"%s\""
++msgstr "Makrot \"%s\" tillämpades"
+ 
+ #: src/BatchCommands.cpp
+ #, c-format
+-- 
+2.54.0 (Apple Git-157)
+
