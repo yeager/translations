@@ -22,4 +22,8 @@ De första posterna visar att stavningskontrollerna bland annat träffar `PCSX2`
 
 Inga QA-poster har avfärdats eller massgodkänts. Formateringskontroller ska jämföras med exakt käll- och måltext före varje rättning. Stavningsposter behandlas endast när den konkreta svenska formuleringen är fel, inte därför att Crowdins ordlista saknar termen.
 
-Det här är en läsning av aktuell upstreamdata. Ingen text har ändrats eller importerats i samband med inventeringen.
+## Första radgranskade rättningen
+
+Post `3113` är informationstexten i `AboutDialog` och innehöll den faktiska språkbristen "PCSX2 är an gratis emulator". Källans HTML-struktur och platshållarliknande entiteter kontrollerades mot måltexten. En ny, ogranskad Crowdin-kandidat med översättnings-id `449927` skickades via API den 13 november 2026. Den återlästes direkt efteråt och har samma HTML-struktur som källan.
+
+Den tidigare felaktiga kandidaten `449925`, som saknade HTML-strukturen, raderades omedelbart innan den hann lämnas över för granskning. Ingen befintlig översättning eller godkännandestatus ändrades. Kandidaten `449927` är inskickad men ännu inte upstreamgranskad eller vald som aktiv översättning.
