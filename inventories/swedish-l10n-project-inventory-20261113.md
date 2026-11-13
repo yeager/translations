@@ -23,7 +23,7 @@ Prioritet 1 betyder bred slutanvändarnytta, 2 produktivitets- och samarbetsprog
 | 1 | [FossifyOrg/Contacts](https://github.com/FossifyOrg/Contacts) | 2026-01-30 | Svensk resurs: `app/src/main/res/values-sv`; 79 av 79 översättningsbara resurser täcks. FAQ-rättning inskickad som [PR #647](https://github.com/FossifyOrg/Contacts/pull/647) | 2026-01-26, Naveen Singh |
 | 1 | [FossifyOrg/File-Manager](https://github.com/FossifyOrg/File-Manager) | 2026-11-07 | Svensk resurs: `app/src/main/res/values-sv`; 44 av 44 resurser täcks. Sju UI-rättningar inskickade som [PR #525](https://github.com/FossifyOrg/File-Manager/pull/525) | 2024-02-11, Vsnmrn |
 | 1 | [FossifyOrg/Gallery](https://github.com/FossifyOrg/Gallery) | 2026-11-07 | Svensk resurs: `app/src/main/res/values-sv` | 2026-09-10, Daniel Nylander |
-| 1 | [FossifyOrg/Launcher](https://github.com/FossifyOrg/Launcher) | 2026-02-17 | Svensk resurs: `app/src/main/res/values-sv` | 2026-02-11, en2sv |
+| 1 | [FossifyOrg/Launcher](https://github.com/FossifyOrg/Launcher) | 2026-02-17 | Svensk resurs: `app/src/main/res/values-sv`; 19 av 19 nycklar täcks. Fyra UI-rättningar inskickade som [PR #479](https://github.com/FossifyOrg/Launcher/pull/479) | 2026-02-11, en2sv |
 | 1 | [FossifyOrg/Messages](https://github.com/FossifyOrg/Messages) | 2026-10-24 | Svensk resurs: `app/src/main/res/values-sv` | 2026-10-16, en2sv |
 | 1 | [FossifyOrg/Music-Player](https://github.com/FossifyOrg/Music-Player) | 2026-10-24 | Svensk resurs: `app/src/main/res/values-sv` | 2025-05-18, P.O |
 | 1 | [FossifyOrg/Notes](https://github.com/FossifyOrg/Notes) | 2026-01-30 | Svensk resurs: `app/src/main/res/values-sv` | 2025-07-13, en2sv |
