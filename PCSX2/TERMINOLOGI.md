@@ -34,6 +34,7 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | present | visa | Gäller visning av redan renderade bildrutor. Undvik `presentera` i grafikinställningarna. |
 | frame pacing | bildruteintervall | Gäller jämnheten i tiden mellan visade bildrutor. |
 | frame rate | bildrutehastighet | Gäller visad eller emulerad frekvens, bland annat NTSC och PAL. |
+| framebuffer | bildbuffert | Gäller grafikdata som både kan visas och användas som inmatningstextur. |
 | input lag | inmatningsfördröjning | Gäller fördröjning mellan användarens inmatning och spelets respons. |
 | notification | avisering | Gäller PCSX2:s systemmeddelanden och tillhörande ljud. |
 | leaderboard | topplista | Gäller resultatlistor i RetroAchievements-relaterade inställningar. |
