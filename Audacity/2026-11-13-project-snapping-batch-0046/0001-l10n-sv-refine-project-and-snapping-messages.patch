@@ -1,0 +1,93 @@
+From f29a32620d6f4f20799063fe2d2028fb8a77bf18 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 16:10:32 +0100
+Subject: [PATCH] l10n(sv): refine project and snapping messages
+
+---
+ au3/locale/sv.po | 18 +++++++++---------
+ 1 file changed, 9 insertions(+), 9 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index d808a19..9e20039 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -2024,7 +2024,7 @@ msgid ""
+ "Project is corrupt\n"
+ "(Unable to work with the blockfiles)"
+ msgstr ""
+-"Projektet är korrupt\n"
++"Projektet är skadat\n"
+ "(Kunde inte arbeta med blockfilerna)"
+ 
+ #. i18n-hint: An error message.  Don't translate blockfiles.
+@@ -2062,7 +2062,7 @@ msgstr "Kunde inte arbeta med blockfilerna"
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ #, c-format
+ msgid "Total orphan blocks deleted %d"
+-msgstr "Antal raderade överblivna block: %d"
++msgstr "%d överblivna block raderades"
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "Failed to rollback transaction during import"
+@@ -2114,7 +2114,7 @@ msgstr ""
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "Destination project could not be detached"
+-msgstr "Projektet med denna destination kunde inte frigöras"
++msgstr "Målprojektet kunde inte kopplas loss"
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "Copying Project"
+@@ -2132,7 +2132,7 @@ msgid ""
+ "For tips on freeing up space, click the help button."
+ msgstr ""
+ "Audacity misslyckades att skriva till en fil %s.\n"
+-"Kanske hårddisken är skrivskyddad eller är full.\n"
++"Lagringsenheten är kanske skrivskyddad eller full.\n"
+ "För tips på hur man frigör utrymme, klicka på hjälpknappen."
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+@@ -2186,11 +2186,11 @@ msgstr "Projektets databas misslyckades med att öppna igen, förmodligen beroen
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "Saving project"
+-msgstr "Spara projekt"
++msgstr "Sparar projektet"
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp src/ProjectFileManager.cpp
+ msgid "Error Saving Project"
+-msgstr "Fel uppstod när projektet sparades"
++msgstr "Fel när projektet sparades"
+ 
+ #: libraries/lib-project-file-io/ProjectFileIO.cpp
+ msgid "Syncing"
+@@ -2300,7 +2300,7 @@ msgstr "För&handsvisa"
+ 
+ #: libraries/lib-shuttlegui/ShuttleGui.cpp
+ msgid "Dry Previe&w"
+-msgstr "Förhandsvis&ning av dry"
++msgstr "För&handsvisa torrsignal"
+ 
+ #: libraries/lib-shuttlegui/ShuttleGui.cpp
+ msgid "&Settings"
+@@ -2403,7 +2403,7 @@ msgstr "CD-bildrutor"
+ 
+ #: libraries/lib-snapping/details/TimeSnapFunctions.cpp
+ msgid "Seconds && samples"
+-msgstr "Sekunder && samplingar"
++msgstr "Sekunder && samplar"
+ 
+ #: libraries/lib-snapping/details/TimeSnapFunctions.cpp
+ #: src/prefs/TracksPrefs.cpp plug-ins/sample-data-export.ny
+@@ -2425,7 +2425,7 @@ msgstr "Millisekunder"
+ #: libraries/lib-snapping/details/TimeSnapFunctions.cpp
+ #: src/prefs/TracksPrefs.cpp
+ msgid "Samples"
+-msgstr "Samplingar"
++msgstr "Samplar"
+ 
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+ msgid "SQLite3 error"
+-- 
+2.54.0 (Apple Git-157)
+
