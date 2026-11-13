@@ -63,3 +63,13 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | Dragon's Teeth | draktänder | Militärt hinder; översätts som etablerad svensk term. |
 | Ground Shaker / Hellstorm / Bombard / Pepperpot / Tornado | oförändrat produktnamn | Följs av svensk funktionsdel, exempelvis *-ställning* eller *luftvärnstorn*. |
 | repair center | reparationscentral | Byggnad för reparationsfunktionen. |
+
+## Cyborger och rörlighet
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| jump | hoppande / hopp- | Rörlig enhet med hoppförmåga. |
+| jump pack | hoppmodul | Undviker tre lika konsonanter i sammansättning. |
+| propulsion | framdrivning | Teknisk egenskap för enhetens rörlighet. |
+| Bunker Blaster | bunkersprängare | Beskrivande vapennamn. |
+| Lancer / Scourge / Flashlight | oförändrat produktnamn | Behålls med svensk funktionsdel. |
