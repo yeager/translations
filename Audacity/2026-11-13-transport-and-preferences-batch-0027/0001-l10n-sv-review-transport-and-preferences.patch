@@ -1,0 +1,270 @@
+From 631d723fae211ba79a89598ca24d8ab07faa105b Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 15:15:00 +0100
+Subject: [PATCH] l10n(sv): review transport and preferences
+
+---
+ au3/locale/sv.po | 70 ++++++++++++++++++++++++------------------------
+ 1 file changed, 35 insertions(+), 35 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 8daf062..3c13738 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -16173,29 +16173,29 @@ msgstr "inga etiketter i etikettspår"
+ #. i18n-hint Sets a starting point for looping play
+ #: src/menus/TransportMenus.cpp
+ msgid "Set Loop &In"
+-msgstr "Sätt Loop &In"
++msgstr "Ange &loopstart"
+ 
+ #. i18n-hint Sets an ending point for looping play
+ #: src/menus/TransportMenus.cpp
+ msgid "Set Loop &Out"
+-msgstr "Sätt Loop &Out"
++msgstr "Ange loop&slut"
+ 
+ #: src/menus/TransportMenus.cpp
+ msgid "Please select in a mono track."
+-msgstr "Var god välj i ett monospår."
++msgstr "Markera ett område i ett monospår."
+ 
+ #: src/menus/TransportMenus.cpp
+ msgid "Please select in a stereo track or two mono tracks."
+-msgstr "Var god välj i ett stereospår eller två monospår."
++msgstr "Markera ett område i ett stereospår eller i två monospår."
+ 
+ #: src/menus/TransportMenus.cpp
+ #, c-format
+ msgid "Please select at least %d channels."
+-msgstr "Var god välj minst %d kanaler."
++msgstr "Markera minst %d kanaler."
+ 
+ #: src/menus/TransportMenus.cpp
+ msgid "Please select a time within a clip."
+-msgstr "Var god välj en tid i ett klipp."
++msgstr "Välj en tidpunkt i ett klipp."
+ 
+ #. i18n-hint: 'Transport' is the name given to the set of controls that
+ #. play, record, pause etc.
+@@ -16214,7 +16214,7 @@ msgstr "&Spela upp/stoppa"
+ 
+ #: src/menus/TransportMenus.cpp
+ msgid "Play/Stop and &Set Cursor"
+-msgstr "Spela upp/stoppa och &ändra markören"
++msgstr "Spela upp/stoppa och &placera markören"
+ 
+ #: src/menus/TransportMenus.cpp
+ msgid "Play &Once/Stop"
+@@ -16243,19 +16243,19 @@ msgstr "Spela i&n nytt spår"
+ 
+ #: src/menus/TransportMenus.cpp
+ msgid "Punch and Rol&l Record"
+-msgstr "Punch and Rol&l-inspelning"
++msgstr "Punch-and-rol&l-inspelning"
+ 
+ #: src/menus/TransportMenus.cpp
+ msgid "&Looping"
+-msgstr "&Loopa"
++msgstr "&Loopning"
+ 
+ #: src/menus/TransportMenus.cpp
+ msgid "&Clear Loop"
+-msgstr "&Rensa Loop"
++msgstr "&Rensa loopningen"
+ 
+ #: src/menus/TransportMenus.cpp
+ msgid "&Set Loop to Selection"
+-msgstr "&Sätt Loop till markering"
++msgstr "Ange &markeringen som loop"
+ 
+ #: src/menus/TransportMenus.cpp src/toolbars/AudioSetupToolBar.cpp
+ msgid "R&escan Audio Devices"
+@@ -16279,7 +16279,7 @@ msgstr "Lyssna till &andra spår under inspelning"
+ 
+ #: src/menus/TransportMenus.cpp
+ msgid "Enable audible input &monitoring"
+-msgstr "Aktivera ljudinsignal &monitoring"
++msgstr "Aktivera &medlyssning av insignalen"
+ 
+ #: src/menus/TransportMenus.cpp
+ msgid "A&utomated Recording Level Adjustment (on/off)"
+@@ -16421,22 +16421,22 @@ msgstr "Visa &RMS i vågform"
+ 
+ #: src/prefs/ApplicationPrefs.cpp
+ msgid "Preferences for Application"
+-msgstr "Inställningar för applikation"
++msgstr "Programinställningar"
+ 
+ #. i18n-hint: Title for the update notifications panel in the preferences dialog.
+ #: src/prefs/ApplicationPrefs.cpp
+ msgid "Update notifications"
+-msgstr "Uppdatering meddelanden"
++msgstr "Uppdateringsmeddelanden"
+ 
+ #. i18n-hint: Check-box title that configures periodic updates checking.
+ #: src/prefs/ApplicationPrefs.cpp
+ msgctxt "application preferences"
+ msgid "&Check for updates"
+-msgstr "&Kolla uppdateringar"
++msgstr "&Sök efter uppdateringar"
+ 
+ #: src/prefs/ApplicationPrefs.cpp
+ msgid "App update checking requires network access. In order to protect your privacy, Audacity does not store any personal information."
+-msgstr "För att kolla programmets uppdatering krävs nätverk. För att skydda din integritet kommer Audacity inte att spara någon personlig information."
++msgstr "Det krävs nätverksåtkomst för att söka efter programuppdateringar. Audacity lagrar inga personuppgifter för att skydda din integritet."
+ 
+ #: src/prefs/BatchPrefs.cpp src/prefs/BatchPrefs.h
+ msgid "Batch"
+@@ -16456,7 +16456,7 @@ msgstr "&Använd inte effekter i batchläge"
+ 
+ #: src/prefs/DevicePrefs.cpp
+ msgid "Audio Settings"
+-msgstr "Ljud Inställningar"
++msgstr "Ljudinställningar"
+ 
+ #: src/prefs/DevicePrefs.cpp
+ #, c-format
+@@ -16504,7 +16504,7 @@ msgstr "Ka&naler:"
+ 
+ #: src/prefs/DevicePrefs.cpp
+ msgid "&Project Sample Rate:"
+-msgstr "& Projekt Samplingsfrekvens:"
++msgstr "Projektets &samplingsfrekvens:"
+ 
+ #: src/prefs/DevicePrefs.cpp
+ msgid "Sample Rate used when recording new tracks, mixing down tracks and for playback in this project."
+@@ -16512,7 +16512,7 @@ msgstr "Samplingsfrekvens används vid inspelning av nya spår, mixning av spår
+ 
+ #: src/prefs/DevicePrefs.cpp
+ msgid "D&efault Sample Rate:"
+-msgstr "S&tandard samplingsfrekvens:"
++msgstr "S&tandardsamplingsfrekvens:"
+ 
+ #: src/prefs/DevicePrefs.cpp
+ msgid "Default Sample &Format:"
+@@ -16520,7 +16520,7 @@ msgstr "Samplings&format som standard:"
+ 
+ #: src/prefs/DevicePrefs.cpp
+ msgid "Latency"
+-msgstr "Latens"
++msgstr "Fördröjning"
+ 
+ #: src/prefs/DevicePrefs.cpp
+ msgid "&Buffer length:"
+@@ -16528,11 +16528,11 @@ msgstr "&Buffertlängd:"
+ 
+ #: src/prefs/DevicePrefs.cpp
+ msgid "&Latency compensation:"
+-msgstr "&Latenskompensering:"
++msgstr "Fördröjnings&kompensation:"
+ 
+ #: src/prefs/DevicePrefs.cpp
+ msgid "No audio interfaces"
+-msgstr "Inga ljudgränsnitt"
++msgstr "Inga ljudgränssnitt"
+ 
+ #: src/prefs/DevicePrefs.cpp src/prefs/MidiIOPrefs.cpp
+ msgid "No devices found"
+@@ -16562,7 +16562,7 @@ msgstr "Inställningar för kataloger"
+ 
+ #: src/prefs/DirectoriesPrefs.cpp
+ msgid "Default directories"
+-msgstr "Standard kataloger"
++msgstr "Standardkataloger"
+ 
+ #: src/prefs/DirectoriesPrefs.cpp
+ msgid ""
+@@ -16602,7 +16602,7 @@ msgstr "Blä&ddra..."
+ 
+ #: src/prefs/DirectoriesPrefs.cpp
+ msgid "&Macro output:"
+-msgstr "&Makro output:"
++msgstr "&Makroutdata:"
+ 
+ #: src/prefs/DirectoriesPrefs.cpp
+ msgid "Temporary files directory"
+@@ -16736,15 +16736,15 @@ msgstr "Gruppera efter typ och företag"
+ 
+ #: src/prefs/EffectsPrefs.cpp
+ msgid "Effect Options"
+-msgstr "Effektalterantiv"
++msgstr "Effektalternativ"
+ 
+ #: src/prefs/EffectsPrefs.cpp
+ msgid "Effect menu &organization:"
+-msgstr "Effekt meny &organisation:"
++msgstr "Organisering av effekt&menyn:"
+ 
+ #: src/prefs/EffectsPrefs.cpp
+ msgid "Realtime effect o&rganization:"
+-msgstr "Realtid effekt &organisation:"
++msgstr "Organisering av &realtidseffekter:"
+ 
+ #: src/prefs/EffectsPrefs.cpp
+ msgid "Instruction Set"
+@@ -16760,7 +16760,7 @@ msgstr "&Använd SSE/SSE2/.../AVX"
+ #: src/prefs/EffectsPrefs.cpp
+ #, c-format
+ msgid "%s plugin locations"
+-msgstr "%s plugin-platser"
++msgstr "%s insticksmodulplatser"
+ 
+ #: src/prefs/EffectsPrefs.cpp
+ msgid "&Skip effects scanning at startup"
+@@ -16768,13 +16768,13 @@ msgstr "&Hoppa över effektskanning vid start"
+ 
+ #: src/prefs/EffectsPrefs.cpp
+ msgid "Open Plugin &Manager"
+-msgstr "Öppna Plugin &Manager"
++msgstr "Öppna insticksmodul&hanteraren"
+ 
+ #. i18n-hint:  Title of dialog governing "Extended", or "advanced,"
+ #. * audio file import options
+ #: src/prefs/ExtImportPrefs.cpp
+ msgid "Extended Import"
+-msgstr "Utökad importering"
++msgstr "Utökad import"
+ 
+ #: src/prefs/ExtImportPrefs.cpp
+ msgid "Preferences for ExtImport"
+@@ -16782,7 +16782,7 @@ msgstr "Inställningar för ExtImport"
+ 
+ #: src/prefs/ExtImportPrefs.cpp
+ msgid "A&ttempt to use filter in OpenFile dialog first"
+-msgstr "F&örsöker att använda filter i dialogrutan för att öppna filer först"
++msgstr "F&örsök först att använda filter i dialogrutan Öppna fil"
+ 
+ #: src/prefs/ExtImportPrefs.cpp
+ msgid "Rules to choose import filters"
+@@ -16830,11 +16830,11 @@ msgstr "Oanvända filter:"
+ 
+ #: src/prefs/ExtImportPrefs.cpp
+ msgid "There are space characters (spaces, newlines, tabs or linefeeds) in one of the items. They are likely to break the pattern matching. Unless you know what you are doing, it is recommended to trim spaces. Do you want Audacity to trim spaces for you?"
+-msgstr "Det finns tomrum (blanksteg, radbrytningar, tabbmellanrum eller radflöden) i en av objekten. De kommer förmodligen bryta mönstermatchningen. Om du inte vet vad du håller på med rekommenderas du att ta bort tomrummen. Vill du att Audacity tar bort mellanrummen åt dig?"
++msgstr "Ett av objekten innehåller blanktecken, till exempel blanksteg, radbrytningar eller tabbar. De kan störa mönstermatchningen. Om du inte vet att de behövs rekommenderas att de tas bort. Vill du att Audacity tar bort dem?"
+ 
+ #: src/prefs/ExtImportPrefs.cpp
+ msgid "Spaces detected"
+-msgstr "Tomrum hittades"
++msgstr "Blanktecken hittades"
+ 
+ #: src/prefs/ExtImportPrefs.cpp
+ msgid "Do you really want to delete selected rule?"
+@@ -16872,11 +16872,11 @@ msgstr "-60 dB (PCM-intervall av 10-bitars samplingar)"
+ 
+ #: src/prefs/GUIPrefs.cpp
+ msgid "-72 dB (PCM range of 12 bit samples)"
+-msgstr "-60 dB (PCM-intervall av 10-bitars samplingar)"
++msgstr "-72 dB (PCM-intervall för 12-bitars samplingar)"
+ 
+ #: src/prefs/GUIPrefs.cpp
+ msgid "-84 dB (PCM range of 14 bit samples)"
+-msgstr "-145 dB (PCM-intervall av 24-bitars samplingar)"
++msgstr "-84 dB (PCM-intervall för 14-bitars samplingar)"
+ 
+ #: src/prefs/GUIPrefs.cpp
+ msgid "-96 dB (PCM range of 16 bit samples)"
+-- 
+2.54.0 (Apple Git-157)
+

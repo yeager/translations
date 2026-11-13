@@ -31,3 +31,6 @@
 | Render | återge | Sammanräkna ett eller flera ljudspår till ett nytt, spelbart ljudresultat. |
 | Realtime effect | realtidseffekt | Effekt som bearbetar ljud under uppspelning eller redigering. |
 | Clip | klipp | Avgränsat ljudavsnitt i ett spår. |
+| Loop | loop | Markerad del som upprepas vid uppspelning. |
+| Input monitoring | medlyssning av insignalen | Lyssning på inkommande ljud under inspelning. |
+| PCM | PCM | Formatnamn som behålls, med bitdjup och samplingsintervall på svenska. |
