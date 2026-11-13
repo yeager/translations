@@ -24,3 +24,7 @@
 | Buffer | buffert | Grupp av samplar som skickas till en effekt vid en iteration. |
 | Latency Compensation | fördröjningskompensation | Kompenserar för fördröjning som en insticksmodul introducerar. |
 | High-pass | högpass | Filter som släpper igenom högre frekvenser. |
+| Spectral effect | spektral effekt | Effekt som tillämpas på ett valt frekvensintervall i spektrogramvyn. |
+| Sample | samplar | Digitala mätvärden i en ljudström; används i bland annat buffertbeskrivningar. |
+| Raw data | rådata | Obearbetade ljuddata vid import. |
+| Byte order | byteordning | Ordningen för byte i råa ljuddata. |

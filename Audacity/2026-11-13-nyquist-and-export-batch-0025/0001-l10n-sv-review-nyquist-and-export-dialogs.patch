@@ -1,0 +1,396 @@
+From a4260ee8aced92bde59bb1162f9d58b5c966a27a Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 15:08:50 +0100
+Subject: [PATCH] l10n(sv): review Nyquist and export dialogs
+
+---
+ au3/locale/sv.po | 108 +++++++++++++++++++++++------------------------
+ 1 file changed, 54 insertions(+), 54 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 5c474f4..1a6131f 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -14102,8 +14102,8 @@ msgid ""
+ "Enable track spectrogram view before\n"
+ "applying 'Spectral' effects."
+ msgstr ""
+-"Möjliggör spår spektrogramvy innan\n"
+-"du lägger på 'Spectral' effekter."
++"Aktivera spårets spektrogramvy innan\n"
++"du tillämpar spektrala effekter."
+ 
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid ""
+@@ -14111,18 +14111,18 @@ msgid ""
+ "in the track Spectrogram settings and select the\n"
+ "frequency range for the effect to act on."
+ msgstr ""
+-"För att använda \"Spektrumseffekter\", aktivera \"Spektrumsmarkering\"\n"
+-"i spårets spektrograminställningar och markera\n"
+-"frekvensintervallet för effekten att tillämpas på."
++"Aktivera \"Spektral markering\" i spårets spektrograminställningar och välj\n"
++"det frekvensintervall som effekten ska tillämpas på för att använda\n"
++"spektrala effekter."
+ 
+ #: src/effects/nyquist/Nyquist.cpp
+ #, c-format
+ msgid "error: File \"%s\" specified in header but not found in plug-in path.\n"
+-msgstr "fel: Filen \"%s\" som specificerades in sidhuvudet men hittades inte i insticksmodulens sökväg.\n"
++msgstr "fel: Filen \"%s\" anges i filhuvudet men hittades inte i insticksmodulens sökväg.\n"
+ 
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid "Audio selection required."
+-msgstr "Ljudmarkering är nödvändig."
++msgstr "En ljudmarkering krävs."
+ 
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid "Nyquist Error"
+@@ -14130,7 +14130,7 @@ msgstr "Nyquist-fel"
+ 
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid "Debug Output: "
+-msgstr "Felsökningsutmatning: "
++msgstr "Felsökningsutdata: "
+ 
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid "Processing complete."
+@@ -14139,12 +14139,12 @@ msgstr "Bearbetning slutförd."
+ #. i18n-hint: Don't translate ';type tool'.
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid "';type tool' effects cannot return audio from Nyquist.\n"
+-msgstr "\";type tool\"-effekter kan inte returnera ljud från Nyquist.\n"
++msgstr "\";type tool\"-effekter kan inte skicka tillbaka ljud från Nyquist.\n"
+ 
+ #. i18n-hint: Don't translate ';type tool'.
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid "';type tool' effects cannot return labels from Nyquist.\n"
+-msgstr "\";type tool\"-effekter kan inte returnera etiketter från Nyquist.\n"
++msgstr "\";type tool\"-effekter kan inte skicka tillbaka etiketter från Nyquist.\n"
+ 
+ #. i18n-hint: "%s" is replaced by name of plug-in.
+ #: src/effects/nyquist/Nyquist.cpp
+@@ -14176,11 +14176,11 @@ msgstr "Nyquist returnerade för många ljudkanaler.\n"
+ 
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid "Nyquist returned one audio channel as an array.\n"
+-msgstr "Nyquist returnerade en ljudkanal som uppställning.\n"
++msgstr "Nyquist returnerade en ljudkanal som en matris.\n"
+ 
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid "Nyquist returned an empty array.\n"
+-msgstr "Nyquist returnerade en tom array.\n"
++msgstr "Nyquist returnerade en tom matris.\n"
+ 
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid "Nyquist returned nil audio.\n"
+@@ -14188,12 +14188,12 @@ msgstr "Nyquist returnerade inget ljud.\n"
+ 
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid "[Warning: Nyquist returned invalid UTF-8 string, converted here as Latin-1]"
+-msgstr "[Varning: Nyquist returnerade felaktig sträng i UTF-8 som omvandlades hit som Latin-1]"
++msgstr "[Varning: Nyquist returnerade en ogiltig UTF-8-sträng, som här har omvandlats från Latin-1]"
+ 
+ #: src/effects/nyquist/Nyquist.cpp
+ #, c-format
+ msgid "This version of Audacity does not support Nyquist plug-in version %ld"
+-msgstr "Denna version av Audacity har inte stöd för Nyquist-insticksmoduler av version %ld"
++msgstr "Den här versionen av Audacity har inte stöd för Nyquist-insticksmodul version %ld"
+ 
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid "Could not open file"
+@@ -14208,8 +14208,8 @@ msgid ""
+ "\t(mult *track* 0.1)\n"
+ " ."
+ msgstr ""
+-"Din kod ser ut som SAL-syntax, men det finns inget \"return\".\n"
+-"För SAL, använd en \"return\", t.ex.:\n"
++"Din kod verkar använda SAL-syntax, men saknar en retursats.\n"
++"För SAL, använd en retursats, till exempel:\n"
+ "\treturn *track* * 0.1\n"
+ "eller för LISP, börja med en öppen parentes, t.ex.:\n"
+ "\t(mult *track* 0.1)\n"
+@@ -14250,12 +14250,12 @@ msgstr "&Läs in"
+ #. i18n-hint: Nyquist is the name of a programming language
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid "Nyquist scripts"
+-msgstr "Nyquist script"
++msgstr "Nyquist-skript"
+ 
+ #. i18n-hint: Lisp is the name of a programming language
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid "Lisp scripts"
+-msgstr "Lisp script"
++msgstr "Lisp-skript"
+ 
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid ""
+@@ -14263,7 +14263,7 @@ msgid ""
+ "Discard changes?"
+ msgstr ""
+ "Nuvarande program har ändrats.\n"
+-"Släng ändringarna?"
++"Förkasta ändringarna?"
+ 
+ #: src/effects/nyquist/Nyquist.cpp
+ msgid "File could not be loaded"
+@@ -14279,7 +14279,7 @@ msgid ""
+ "Value range:\n"
+ "%s to %s"
+ msgstr ""
+-"Värdesintervall: \n"
++"Värdesintervall:\n"
+ "%s till %s"
+ 
+ #: src/effects/nyquist/Nyquist.cpp
+@@ -14304,11 +14304,11 @@ msgstr "Lägger till stöd för Vamp-effekter i Audacity"
+ 
+ #: src/effects/vamp/VampEffect.cpp
+ msgid "Sorry, failed to load Vamp Plug-in."
+-msgstr "Tyvärr, Vamp-insticksmodul misslyckades att läsas in."
++msgstr "Det gick inte att läsa in Vamp-insticksmodulen."
+ 
+ #: src/effects/vamp/VampEffect.cpp
+ msgid "Sorry, Vamp Plug-in failed to initialize."
+-msgstr "Tyvärr, Vamp-insticksmodul misslyckades att initialiseras."
++msgstr "Det gick inte att initiera Vamp-insticksmodulen."
+ 
+ #: src/effects/vamp/VampEffect.cpp
+ msgid "Plugin Settings"
+@@ -14330,15 +14330,15 @@ msgstr "Hela &projektet"
+ 
+ #: src/export/ExportAudioDialog.cpp
+ msgid "M&ultiple Files"
+-msgstr "M&ultipla filer"
++msgstr "&Flera filer"
+ 
+ #: src/export/ExportAudioDialog.cpp
+ msgid "Curren&t Selection"
+-msgstr "Nuvarand&e urval"
++msgstr "Aktuell mark&ering"
+ 
+ #: src/export/ExportAudioDialog.cpp
+ msgid "Using Label/Track Name"
+-msgstr "Använd namn på etikett/spår"
++msgstr "Använd etikett-/spårnamn"
+ 
+ #: src/export/ExportAudioDialog.cpp
+ msgid "Numbering before Label/Track Name"
+@@ -14350,7 +14350,7 @@ msgstr "Numrera efter filnamnets prefix"
+ 
+ #: src/export/ExportAudioDialog.cpp
+ msgid "Export Range:"
+-msgstr "Export Intervall:"
++msgstr "Exportintervall:"
+ 
+ #: src/export/ExportAudioDialog.cpp
+ msgid "Export entire project"
+@@ -14358,7 +14358,7 @@ msgstr "Exportera hela projektet"
+ 
+ #: src/export/ExportAudioDialog.cpp
+ msgid "Export multiple files"
+-msgstr "Exportera multipla filer"
++msgstr "Exportera flera filer"
+ 
+ #: src/export/ExportAudioDialog.cpp
+ msgid "Export current selection"
+@@ -14366,7 +14366,7 @@ msgstr "Exportera nuvarande urval"
+ 
+ #: src/export/ExportAudioDialog.cpp
+ msgid "Trim blank space before first clip"
+-msgstr "Trimma tom yta före första clip"
++msgstr "Trimma tomt utrymme före första klippet"
+ 
+ #: src/export/ExportAudioDialog.cpp
+ msgid "Split files based on:"
+@@ -14436,7 +14436,7 @@ msgstr "Fortsätt för att exportera återstående filer?"
+ 
+ #: src/export/ExportFilePanel.cpp
+ msgid "Custom Sample Rate"
+-msgstr "Anpassad sampingsfrekvens"
++msgstr "Anpassad samplingsfrekvens"
+ 
+ #: src/export/ExportFilePanel.cpp src/menus/TrackMenus.cpp
+ #: src/tracks/playabletrack/wavetrack/ui/WaveTrackControls.cpp
+@@ -14445,11 +14445,11 @@ msgstr "Ny samplingsfrekvens (Hz):"
+ 
+ #: src/export/ExportFilePanel.cpp
+ msgid "File &Name:"
+-msgstr "Fil &Namn:"
++msgstr "Fil&namn:"
+ 
+ #: src/export/ExportFilePanel.cpp
+ msgid "Fo&lder:"
+-msgstr "Ma&pp:"
++msgstr "&Mapp:"
+ 
+ #: src/export/ExportFilePanel.cpp
+ msgid "&Format:"
+@@ -14457,7 +14457,7 @@ msgstr "&Format:"
+ 
+ #: src/export/ExportFilePanel.cpp
+ msgid "Audio options"
+-msgstr "Ljud alternativ"
++msgstr "Ljudalternativ"
+ 
+ #: src/export/ExportFilePanel.cpp
+ msgid "Channels"
+@@ -14474,12 +14474,12 @@ msgstr "&Stereo"
+ #. i18n-hint refers to custom channel mapping configuration
+ #: src/export/ExportFilePanel.cpp
+ msgid "Custom mappin&g"
+-msgstr "Custom mappin&g"
++msgstr "Anpassad kanalmappnin&g"
+ 
+ #. i18n-hint accessibility hint, refers to export channel configuration
+ #: src/export/ExportFilePanel.cpp
+ msgid "Configure custom mapping"
+-msgstr "Configure custom mapping"
++msgstr "Konfigurera anpassad kanalmappning"
+ 
+ #: src/export/ExportFilePanel.cpp
+ msgid "Configure"
+@@ -14487,7 +14487,7 @@ msgstr "Konfigurera"
+ 
+ #: src/export/ExportFilePanel.cpp
+ msgid "Sample &Rate"
+-msgstr "Sample &Rate"
++msgstr "Samplings&frekvens"
+ 
+ #: src/export/ExportFilePanel.cpp
+ msgid "Choose a location to save the exported files"
+@@ -14495,12 +14495,12 @@ msgstr "Välj en plats att spara de exporterade filerna"
+ 
+ #: src/export/ExportFilePanel.cpp
+ msgid "Advanced Mixing Options"
+-msgstr "Avancerad mixning Inställningar"
++msgstr "Avancerade mixningsalternativ"
+ 
+ #: src/export/ExportFilePanel.cpp
+ #, c-format
+ msgid "%d Hz (custom)"
+-msgstr "%d Hz (custom)"
++msgstr "%d Hz (anpassad)"
+ 
+ #: src/export/ExportFilePanel.cpp src/prefs/DevicePrefs.cpp
+ msgid "Other..."
+@@ -14521,7 +14521,7 @@ msgstr "%s - H"
+ #: src/export/ExportMixerDialog.cpp
+ #, c-format
+ msgid "Output Channels: %2d"
+-msgstr "Utmatningskanaler: %2d"
++msgstr "Utkanaler: %2d"
+ 
+ #: src/export/ExportMixerDialog.cpp
+ msgid "Mixer Panel"
+@@ -14534,12 +14534,12 @@ msgstr "Kanal: %2d"
+ 
+ #: src/export/ExportOptionsHandler.cpp
+ msgid "No format specific options"
+-msgstr "Inget formatspecifika alternativ"
++msgstr "Inga formatspecifika alternativ"
+ 
+ #. i18n-hint: 'Raw' means 'unprocessed' here and should usually be translated.
+ #: src/import/ImportRaw.cpp
+ msgid "Import Raw"
+-msgstr "Importera rå"
++msgstr "Importera rådata"
+ 
+ #: src/import/ImportRaw.cpp
+ msgid "Import Raw Data"
+@@ -14549,7 +14549,7 @@ msgstr "Importera rådata"
+ #. know the correct technical word.
+ #: src/import/ImportRaw.cpp
+ msgid "No endianness"
+-msgstr "Ingen endian"
++msgstr "Ingen byteordning"
+ 
+ #. i18n-hint: Refers to byte-order.  Don't translate this if you don't
+ #. know the correct technical word.
+@@ -14567,7 +14567,7 @@ msgstr "Big-endian"
+ #. know the correct technical word.
+ #: src/import/ImportRaw.cpp
+ msgid "Default endianness"
+-msgstr "Standardendian"
++msgstr "Standardbyteordning"
+ 
+ #: src/import/ImportRaw.cpp
+ msgid "1 Channel (Mono)"
+@@ -14584,7 +14584,7 @@ msgstr "%d kanaler"
+ 
+ #: src/import/ImportRaw.cpp
+ msgid "Encoding:"
+-msgstr "Avkodning:"
++msgstr "Kodning:"
+ 
+ #: src/import/ImportRaw.cpp
+ msgid "Byte order:"
+@@ -14597,7 +14597,7 @@ msgstr "Kanaler:"
+ #. i18n-hint: (noun)
+ #: src/import/ImportRaw.cpp
+ msgid "Start offset:"
+-msgstr "Startoffset:"
++msgstr "Startförskjutning:"
+ 
+ #: src/import/ImportRaw.cpp
+ msgid "bytes"
+@@ -14615,7 +14615,7 @@ msgstr "Samplingsfrekvens:"
+ #. i18n-hint: Guess format of raw file
+ #: src/import/ImportRaw.cpp
+ msgid "Detect"
+-msgstr "Upptäck"
++msgstr "Identifiera"
+ 
+ #: src/import/ImportRaw.cpp src/menus/FileMenus.cpp
+ msgid "&Import"
+@@ -14639,8 +14639,8 @@ msgstr "Fel datastorlek. Kan inte importera ljud"
+ #, c-format
+ msgid "%s %s, %d of %d clip %s"
+ msgid_plural "%s %s, %d of %d clips %s"
+-msgstr[0] "%s %s, %d of %d clip %s"
+-msgstr[1] "%s %s, %d of %d clips %s"
++msgstr[0] "%s %s, klipp %d av %d i %s"
++msgstr[1] "%s %s, klipp %d av %d i %s"
+ 
+ #: src/menus/ClipMenus.cpp
+ msgid "start"
+@@ -14664,8 +14664,8 @@ msgstr "slutet"
+ #, c-format
+ msgid "%s %s and %s %s, %d and %d of %d clip %s"
+ msgid_plural "%s %s and %s %s, %d and %d of %d clips %s"
+-msgstr[0] "%s %s and %s %s, %d and %d of %d clip %s"
+-msgstr[1] "%s %s and %s %s, %d and %d of %d clips %s"
++msgstr[0] "%s %s och %s %s, klipp %d och %d av %d i %s"
++msgstr[1] "%s %s och %s %s, klipp %d och %d av %d i %s"
+ 
+ #. i18n-hint:
+ #. first string is the name of a clip,
+@@ -14677,20 +14677,20 @@ msgstr[1] "%s %s and %s %s, %d and %d of %d clips %s"
+ #, c-format
+ msgid "%s, %d of %d clip %s"
+ msgid_plural "%s, %d of %d clips %s"
+-msgstr[0] "%s, %d of %d clip %s"
+-msgstr[1] "%s, %d of %d clips %s"
++msgstr[0] "%s, klipp %d av %d i %s"
++msgstr[1] "%s, klipp %d av %d i %s"
+ 
+ #: src/menus/ClipMenus.cpp
+ msgid "Moved clips to the right"
+-msgstr "Flyttade clip till höger"
++msgstr "Flyttade klipp åt höger"
+ 
+ #: src/menus/ClipMenus.cpp
+ msgid "Moved clips to the left"
+-msgstr "Flyttade clip tioll vänster"
++msgstr "Flyttade klipp åt vänster"
+ 
+ #: src/menus/ClipMenus.cpp
+ msgid "Move audio clips"
+-msgstr "Flytta ljudclip"
++msgstr "Flytta ljudklipp"
+ 
+ #: src/menus/ClipMenus.cpp
+ msgid "clip not moved"
+-- 
+2.54.0 (Apple Git-157)
+
