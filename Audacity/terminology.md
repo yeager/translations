@@ -16,3 +16,5 @@
 | Auto Duck | automatisk duckning | Effekt som sänker nivån i spår automatiskt utifrån ett kontrollspår. |
 | Make-up Gain | kompensationsförstärkning | Förstärkning som kompenserar för nivåminskning vid dynamikbearbetning. |
 | Equalization | equalizer | Effekt för frekvensberoende nivåjustering. |
+| Noise Floor | brusgolv | Lägsta brusnivå i dynamik- och förvrängningseffekter. |
+| Loudness | ljudstyrka | Upplevd ljudstyrka, exempelvis mätt med LUFS. |

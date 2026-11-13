@@ -1,0 +1,222 @@
+From c2f6bb596dab9ca8c66ad2f473f7b94305799594 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:57:17 +0100
+Subject: [PATCH] l10n(sv): review equalizer and dynamics effects
+
+---
+ au3/locale/sv.po | 56 ++++++++++++++++++++++++------------------------
+ 1 file changed, 28 insertions(+), 28 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index a4bd10a..165cb65 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -12333,7 +12333,7 @@ msgstr "Fel uppstod när EQ-kurvor lästes in"
+ 
+ #: src/effects/EqualizationCurves.cpp
+ msgid "Error Saving Equalization Curves"
+-msgstr "Fel uppstod när equalizationkurvor sparades"
++msgstr "Fel uppstod när equalizerkurvor sparades"
+ 
+ #: src/effects/EqualizationCurvesDialog.cpp
+ msgid "Manage Curves List"
+@@ -12368,8 +12368,8 @@ msgid ""
+ "Rename 'unnamed' to save a new entry.\n"
+ "'OK' saves all changes, 'Cancel' doesn't."
+ msgstr ""
+-"Döp om \"namnlös\" för att spara en ny ingång.\n"
+-"\"OK\" sparar alla ändringar, \"Avbryt\" gör det inte."
++"Byt namn på ”namnlös” för att spara en ny post.\n"
++"”OK” sparar alla ändringar, medan ”Avbryt” inte gör det."
+ 
+ #: src/effects/EqualizationCurvesDialog.cpp
+ msgid "'unnamed' always stays at the bottom of the list"
+@@ -12404,7 +12404,7 @@ msgstr "Samma namn"
+ #: src/effects/EqualizationCurvesDialog.cpp
+ #, c-format
+ msgid "Overwrite existing curve '%s'?"
+-msgstr "Skriv över befintliga kurvan \"%s\"?"
++msgstr "Skriv över den befintliga kurvan ”%s”?"
+ 
+ #: src/effects/EqualizationCurvesDialog.cpp
+ msgid "Curve exists"
+@@ -12426,7 +12426,7 @@ msgstr "Radera \"%s\"?"
+ #: src/effects/EqualizationCurvesDialog.cpp
+ #, c-format
+ msgid "Delete %d items?"
+-msgstr "Radera %d föremål?"
++msgstr "Radera %d kurvor?"
+ 
+ #: src/effects/EqualizationCurvesDialog.cpp
+ msgid "You cannot delete the 'unnamed' curve, it is special."
+@@ -12479,12 +12479,12 @@ msgid ""
+ "To use this filter curve in a macro, please choose a new name for it.\n"
+ "Choose the 'Save/Manage Curves...' button and rename the 'unnamed' curve, then use that one."
+ msgstr ""
+-"För att använda denna kurva i ett makro, välj ett nytt namn för den.\n"
+-"Välj \"Spara/Hantera kurvor...\"-knappen och döp om den 'namnlösa' kurvan och använd den sedan."
++"Välj ett nytt namn för att använda filterkurvan i ett makro.\n"
++"Välj knappen ”Spara/Hantera kurvor...”, byt namn på kurvan ”namnlös” och använd sedan den kurvan."
+ 
+ #: src/effects/EqualizationUI.cpp
+ msgid "Filter Curve EQ needs a different name"
+-msgstr "Filter EQ-kurva behöver ett annat namn"
++msgstr "Filterkurve-EQ behöver ett annat namn"
+ 
+ #: src/effects/EqualizationUI.cpp src/effects/ScienFilter.cpp
+ msgid "+ dB"
+@@ -12568,7 +12568,7 @@ msgstr "Visa &rutnätslinjer"
+ 
+ #: src/effects/EqualizationUI.cpp
+ msgid "Requested curve not found, using 'unnamed'"
+-msgstr "Begärd kurva hittades inte, använder \"namnlös\""
++msgstr "Den begärda kurvan hittades inte. ”Namnlös” används i stället."
+ 
+ #: src/effects/EqualizationUI.cpp
+ msgid "Curve not found"
+@@ -12611,15 +12611,15 @@ msgstr "Klippning"
+ #, c-format
+ msgctxt "find clipping"
+ msgid "%lld of %lld"
+-msgstr "%lld of %lld"
++msgstr "%lld av %lld"
+ 
+ #: src/effects/FindClipping.cpp
+ msgid "&Start threshold (samples):"
+-msgstr "&Starttröskelvärde (samplingar):"
++msgstr "&Starttröskelvärde (samplar):"
+ 
+ #: src/effects/FindClipping.cpp
+ msgid "St&op threshold (samples):"
+-msgstr "Sl&uttröskelvärde (samplingar):"
++msgstr "Sl&uttröskelvärde (samplar):"
+ 
+ #: src/effects/Generator.cpp
+ msgid "There is not enough room available to generate the audio"
+@@ -12683,7 +12683,7 @@ msgstr "Förhållande %.1f till 1"
+ 
+ #: src/effects/LegacyCompressor.cpp
+ msgid "&Noise Floor:"
+-msgstr "&Brusgrund:"
++msgstr "&Brusgolv:"
+ 
+ #: src/effects/LegacyCompressor.cpp
+ msgid "&Ratio:"
+@@ -12712,19 +12712,19 @@ msgstr "Attacktid"
+ #. * sound dies away.
+ #: src/effects/LegacyCompressor.cpp
+ msgid "R&elease Time:"
+-msgstr "R&elease-tid:"
++msgstr "Åter&gångstid:"
+ 
+ #. i18n-hint: Particularly in percussion, sounds can be regarded as having
+ #. * an 'attack' phase where the sound builds up and a 'decay' or 'release' where the
+ #. * sound dies away.
+ #: src/effects/LegacyCompressor.cpp
+ msgid "Release Time"
+-msgstr "Release-tid"
++msgstr "Återgångstid"
+ 
+ #. i18n-hint: Make-up, i.e. correct for any reduction, rather than fabricate it.
+ #: src/effects/LegacyCompressor.cpp
+ msgid "Ma&ke-up gain for 0 dB after compressing"
+-msgstr "Om&brytningsförstärkning för 0 dB efter komprimering"
++msgstr "&Kompensationsförstärkning till 0 dB efter komprimering"
+ 
+ #. i18n-hint: "Compress" here means reduce variations of sound volume,
+ #. NOT related to file-size compression; Peaks means extremes in volume
+@@ -12740,7 +12740,7 @@ msgstr "Tröskel %d dB"
+ #: src/effects/LegacyCompressor.cpp
+ #, c-format
+ msgid "Noise Floor %d dB"
+-msgstr "Brusgrund %d dB"
++msgstr "Brusgolv %d dB"
+ 
+ #: src/effects/LegacyCompressor.cpp
+ #, c-format
+@@ -12750,7 +12750,7 @@ msgstr "Attacktid %.2f sek"
+ #: src/effects/LegacyCompressor.cpp
+ #, c-format
+ msgid "Release Time %.1f secs"
+-msgstr "Fördröjningstid %.1f sek"
++msgstr "Återgångstid %.1f sek"
+ 
+ #: src/effects/Limiter.cpp resources/EffectsMenuDefaults.xml
+ msgid "Limiter"
+@@ -12762,7 +12762,7 @@ msgstr "Ökar ljudstyrkan samtidigt som distorsion minimeras."
+ 
+ #: src/effects/Loudness.cpp
+ msgid "perceived loudness"
+-msgstr "hörbar loudness"
++msgstr "upplevd ljudstyrka"
+ 
+ #: src/effects/Loudness.cpp src/widgets/MeterPanel.cpp
+ msgid "RMS"
+@@ -12770,15 +12770,15 @@ msgstr "RMS"
+ 
+ #: src/effects/Loudness.cpp resources/EffectsMenuDefaults.xml
+ msgid "Loudness Normalization"
+-msgstr "Loudness normalisering"
++msgstr "Normalisering av ljudstyrka"
+ 
+ #: src/effects/Loudness.cpp
+ msgid "Sets the loudness of one or more tracks"
+-msgstr "Ställ in loudness för ett eller fler spår"
++msgstr "Ställer in ljudstyrkan för ett eller flera spår"
+ 
+ #: src/effects/Loudness.cpp
+ msgid "Normalizing Loudness...\n"
+-msgstr "Normalisera loudness…\n"
++msgstr "Normaliserar ljudstyrka...\n"
+ 
+ #: src/effects/Loudness.cpp src/effects/Normalize.cpp
+ #, c-format
+@@ -12797,7 +12797,7 @@ msgstr "&Normalisera"
+ #. i18n-hint: LUFS is a particular method for measuring loudnesss
+ #: src/effects/Loudness.cpp
+ msgid "Loudness LUFS"
+-msgstr "Högljuddhets-LUFS"
++msgstr "Ljudstyrka (LUFS)"
+ 
+ #: src/effects/Loudness.cpp
+ msgid "LUFS"
+@@ -12813,11 +12813,11 @@ msgstr "Normalisera &stereokanalerna var och en för sig"
+ 
+ #: src/effects/Loudness.cpp
+ msgid "&Treat mono as dual-mono (recommended)"
+-msgstr "&Hantera mono som dual-mono (rekommenderas)"
++msgstr "&Hantera mono som dubbelmono (rekommenderas)"
+ 
+ #: src/effects/Loudness.cpp src/effects/Normalize.cpp
+ msgid "(Maximum 0dB)"
+-msgstr "(maximalt 0dB)"
++msgstr "(maximalt 0 dB)"
+ 
+ #. i18n-hint: not a color, but "white noise" having a uniform spectrum
+ #: src/effects/Noise.cpp
+@@ -12848,11 +12848,11 @@ msgstr "Genererar en av tre olika brustyper"
+ 
+ #: src/effects/Noise.cpp
+ msgid "&Noise type:"
+-msgstr "&Brus typ:"
++msgstr "&Brustyp:"
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "Median"
+-msgstr "Medium"
++msgstr "Median"
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "Second greatest"
+@@ -12869,7 +12869,7 @@ msgstr "Brusreducering"
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "Removes background noise such as fans, tape noise, or hums"
+-msgstr "Tar bort bakgrundsbrus som fläktar, bandbrus eller nynnande"
++msgstr "Tar bort bakgrundsbrus från exempelvis fläktar, bandbrus eller brum"
+ 
+ #: src/effects/NoiseReduction.cpp
+ msgid "Steps per block are too few for the window types."
+-- 
+2.54.0 (Apple Git-157)
+
