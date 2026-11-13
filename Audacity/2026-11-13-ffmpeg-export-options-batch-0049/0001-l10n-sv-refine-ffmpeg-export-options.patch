@@ -1,0 +1,98 @@
+From 66d432e928eea9ecd0a5d5a7df0eefd795cd0efe Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 16:14:52 +0100
+Subject: [PATCH] l10n(sv): refine FFmpeg export options
+
+---
+ au3/locale/sv.po | 20 ++++++++++----------
+ 1 file changed, 10 insertions(+), 10 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 7780bd7..d47c8d9 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -3767,7 +3767,7 @@ msgstr "Felaktig samplingsfrekvens"
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ #: modules/import-export/mod-mp3/ExportMP3.cpp src/menus/TrackMenus.cpp
+ msgid "Resample"
+-msgstr "Återsampla"
++msgstr "Sampla om"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ #, c-format
+@@ -3776,7 +3776,7 @@ msgid ""
+ "file format. "
+ msgstr ""
+ "Projektets samplingsfrekvens (%d) stöds inte av filformatet för den\n"
+-"nuvarande utmatningen.  "
++"valda utmatningen.  "
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ #, c-format
+@@ -3790,7 +3790,7 @@ msgstr ""
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ #: modules/import-export/mod-mp3/ExportMP3.cpp
+ msgid "You may resample to one of the rates below."
+-msgstr "Du kan återsampla till någon av frekvenserna nedan."
++msgstr "Du kan sampla om till någon av frekvenserna nedan."
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpeg.cpp
+ #: modules/import-export/mod-mp3/ExportMP3.cpp
+@@ -3839,15 +3839,15 @@ msgstr "Uppskatta"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "2-level"
+-msgstr "2-nivå"
++msgstr "2 nivåer"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "4-level"
+-msgstr "4-nivå"
++msgstr "4 nivåer"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "8-level"
+-msgstr "8-nivå"
++msgstr "8 nivåer"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "Full search"
+@@ -4241,7 +4241,7 @@ msgstr "Du kan inte spara en förinställning utan namn"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "Select xml file with presets to import"
+-msgstr "Välj xml-fil med förinställningar att importera"
++msgstr "Välj XML-fil med förinställningar att importera"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "No presets to export"
+@@ -4249,7 +4249,7 @@ msgstr "Inga förinställningar att exportera"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "Select xml file to export presets into"
+-msgstr "Välj xml-fil att exportera förinställningar till"
++msgstr "Välj XML-fil att exportera förinställningar till"
+ 
+ #. i18n-hint: "codec" is short for a "coder-decoder" algorithm
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+@@ -4338,7 +4338,7 @@ msgstr "Endast libavformat.so"
+ #: modules/import-export/mod-ffmpeg/FFmpeg.cpp
+ #, c-format
+ msgid "Where is '%s'?"
+-msgstr "Var hittar man \"%s\"?"
++msgstr "Var finns \"%s\"?"
+ 
+ #: modules/import-export/mod-ffmpeg/FFmpeg.cpp
+ msgid "FFmpeg not found"
+@@ -4360,7 +4360,7 @@ msgstr ""
+ 
+ #: modules/import-export/mod-ffmpeg/FFmpeg.cpp
+ msgid "Do not show this warning again"
+-msgstr "Visa inte denna varning igen"
++msgstr "Visa inte den här varningen igen"
+ 
+ #: modules/import-export/mod-ffmpeg/FFmpegPrefs.cpp
+ msgid "FFmpeg Import/Export Library"
+-- 
+2.54.0 (Apple Git-157)
+
