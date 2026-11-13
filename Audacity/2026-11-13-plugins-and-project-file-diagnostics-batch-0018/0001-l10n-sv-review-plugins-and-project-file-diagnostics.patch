@@ -1,0 +1,129 @@
+From ad663bca7e866c1d1fbae1e9b618631546ee5743 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:43:19 +0100
+Subject: [PATCH] l10n(sv): review plugins and project file diagnostics
+
+---
+ au3/locale/sv.po | 28 ++++++++++++++--------------
+ 1 file changed, 14 insertions(+), 14 deletions(-)
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 8601dae..29a01b3 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -8692,7 +8692,7 @@ msgstr "Verktyg"
+ 
+ #: src/PluginRegistrationDialog.cpp
+ msgid "Manage Plugins"
+-msgstr "Hantera plugins"
++msgstr "Hantera insticksmoduler"
+ 
+ #: src/PluginRegistrationDialog.cpp
+ msgid "Native Audacity"
+@@ -8716,7 +8716,7 @@ msgstr "Sö&k:"
+ 
+ #: src/PluginRegistrationDialog.cpp
+ msgid "Plugin"
+-msgstr "Plugin"
++msgstr "Insticksmodul"
+ 
+ #: src/PluginRegistrationDialog.cpp
+ msgid "&Rescan"
+@@ -8728,12 +8728,12 @@ msgstr "&Hämta mer effekter..."
+ 
+ #: src/PluginStartupRegistration.cpp
+ msgid "Searching for plugins"
+-msgstr "Söker plugins"
++msgstr "Söker efter insticksmoduler"
+ 
+ #: src/ProjectAudioManager.cpp
+ #, c-format
+ msgid "Actual Rate: %d"
+-msgstr "Faktisk frekvens: %d"
++msgstr "Faktisk samplingsfrekvens: %d"
+ 
+ #: src/ProjectAudioManager.cpp src/effects/EffectPreview.cpp
+ msgid ""
+@@ -8741,7 +8741,7 @@ msgid ""
+ "Try changing the audio host, playback device and the project sample rate."
+ msgstr ""
+ "Fel uppstod när ljudenheten öppnades.\n"
+-"Försök att ändra ljudvärden, uppspelningsenhet och projektets samplingsfrekvens."
++"Försök ändra ljudvärd, uppspelningsenhet och projektets samplingsfrekvens."
+ 
+ #: src/ProjectAudioManager.cpp src/TimerRecordDialog.cpp
+ #: src/menus/TransportMenus.cpp
+@@ -8751,7 +8751,7 @@ msgstr "För att spela in på de valda spåren måste alla ha samma samplingsfre
+ #: src/ProjectAudioManager.cpp src/TimerRecordDialog.cpp
+ #: src/menus/TransportMenus.cpp
+ msgid "Mismatched Sampling Rates"
+-msgstr "Ihopblandade samplingsfrekvenser"
++msgstr "Olika samplingsfrekvenser"
+ 
+ #: src/ProjectAudioManager.cpp src/TimerRecordDialog.cpp
+ msgid ""
+@@ -8776,7 +8776,7 @@ msgstr "%s.%d"
+ 
+ #: src/ProjectAudioManager.cpp
+ msgid "Recorded Audio"
+-msgstr "Spelade in ljud"
++msgstr "Inspelat ljud"
+ 
+ #: src/ProjectAudioManager.cpp src/toolbars/ControlToolBar.cpp
+ msgid "Record"
+@@ -8947,7 +8947,7 @@ msgstr "Varning - Föräldralösa blockfil(er)"
+ 
+ #: src/ProjectFSCK.cpp
+ msgid "Cleaning up unused directories in project data"
+-msgstr "Städar upp oanvända mappar i projekt data"
++msgstr "Rensar oanvända kataloger i projektdata"
+ 
+ #: src/ProjectFSCK.cpp
+ msgid ""
+@@ -8977,9 +8977,9 @@ msgid ""
+ "Please verify that everything works as intended before saving."
+ msgstr ""
+ "%s\n"
+-"Denna funktion stöds inte i Audacity-versioner tidigare 3.3.3.\n"
++"Den här funktionen stöds inte i Audacity-versioner efter 3.3.3.\n"
+ "Dessa stereospår har delats upp i monospår.\n"
+-"Som ett resultat kan vissa realtidseffekter saknas.\n"
++"Därför kan vissa realtidseffekter saknas.\n"
+ "Kontrollera att allt fungerar som avsett innan du sparar."
+ 
+ #: src/ProjectFileManager.cpp
+@@ -9010,7 +9010,7 @@ msgstr "Projektet återskapades"
+ 
+ #: src/ProjectFileManager.cpp src/prefs/DirectoriesPrefs.cpp
+ msgid "Projects cannot be saved to FAT drives."
+-msgstr "Projekt kan inte sparas i FAT diskar."
++msgstr "Projekt kan inte sparas på FAT-enheter."
+ 
+ #: src/ProjectFileManager.cpp
+ msgid "Insufficient Disk Space"
+@@ -9024,11 +9024,11 @@ msgid ""
+ msgstr ""
+ "Projektets storlek överskrider det tillgängliga utrymmet på måldisken.\n"
+ "\n"
+-"Vänligen välj en annan disk med mera utrymme."
++"Välj en annan disk med mer ledigt utrymme."
+ 
+ #: src/ProjectFileManager.cpp
+ msgid "The project exceeds the maximum size of 4GB when writing to a FAT32 formatted filesystem."
+-msgstr "Projektet överskrider maxstorleken på 4 GB när den försöker skriva till ett FAT32 formaterat filsystem."
++msgstr "Projektet överskrider den maximala storleken på 4 GB när det skrivs till ett FAT32-formaterat filsystem."
+ 
+ #: src/ProjectFileManager.cpp
+ #, c-format
+@@ -9095,7 +9095,7 @@ msgstr ""
+ 
+ #: src/ProjectFileManager.cpp
+ msgid "Error Saving Copy of Project"
+-msgstr "Fel uppstod när kopia av projektet sparades"
++msgstr "Fel när projektkopian sparades"
+ 
+ #: src/ProjectFileManager.cpp src/effects/nyquist/Nyquist.cpp
+ msgid "Select one or more files"
+-- 
+2.54.0 (Apple Git-157)
+
