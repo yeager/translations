@@ -1,7 +1,7 @@
 # Waterfox – nya flikens inläsningstexter
 
-Datum: 2026-11-14  
-Komponent: `browser/extensions/newtab/webext-glue/locales/sv-SE/browser/newtab/newtab.ftl`  
+Datum: 2026-11-14
+Komponent: `browser/extensions/newtab/webext-glue/locales/sv-SE/browser/newtab/newtab.ftl`
 Källversion: Waterfox `6.7.8`, publicerad 2026-11-07
 
 ## Granskning
