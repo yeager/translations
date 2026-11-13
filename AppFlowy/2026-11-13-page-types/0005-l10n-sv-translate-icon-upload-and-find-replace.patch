@@ -1,0 +1,42 @@
+From 2b26924e65351579b81c1c0692fd7a6a460252cd Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <danielnylander@hgwkwq50x4.lan>
+Date: Fri, 13 Nov 2026 13:17:03 +0100
+Subject: [PATCH] l10n(sv): translate icon upload and find replace
+
+---
+ frontend/resources/translations/sv-SE.json | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+
+diff --git a/frontend/resources/translations/sv-SE.json b/frontend/resources/translations/sv-SE.json
+index 82ed1dd..7571929 100644
+--- a/frontend/resources/translations/sv-SE.json
++++ b/frontend/resources/translations/sv-SE.json
+@@ -129,6 +129,26 @@
+       "custom": "Egen"
+     }
+   },
++  "emojiIconPicker": {
++    "iconUploader": {
++      "placeholderLeft": "Dra och släpp en fil, klicka för att ",
++      "placeholderUpload": "läsa in",
++      "placeholderRight": ", eller klistra in en bildlänk.",
++      "dropToUpload": "Släpp filen här för att läsa in den",
++      "change": "Byt"
++    }
++  },
++  "findAndReplace": {
++    "find": "Sök",
++    "previousMatch": "Föregående träff",
++    "nextMatch": "Nästa träff",
++    "close": "Stäng",
++    "replace": "Ersätt",
++    "replaceAll": "Ersätt alla",
++    "noResult": "Inga resultat",
++    "caseSensitive": "Skiftlägeskänslig",
++    "searchMore": "Sök för att hitta fler resultat"
++  },
+   "trash": {
+     "text": "Skräp",
+     "restoreAll": "Återställ alla",
+--
+2.54.0 (Apple Git-157)
