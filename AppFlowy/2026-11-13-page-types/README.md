@@ -37,5 +37,6 @@ Upstream: [AppFlowy PR #9132](https://github.com/AppFlowy-IO/AppFlowy/pull/9132)
 
 Upstreamkontroller: Ninja-i18n och Sourcery har godkänt den senaste revisionen.
 Ninja-i18n:s tidigare varning för `colors.orange` är en medveten svensk
-identisk översättning och är förklarad i PR:n. PR:n väntar fortfarande på att
-bidragsgivarens CLA ska signeras och är därför inte mergningsbar ännu.
+identisk översättning och är förklarad i PR:n. CLA-boten bekräftar att samtliga
+commitförfattare har signerat. PR:n är ren men väntar på projektets granskning
+och merge.
