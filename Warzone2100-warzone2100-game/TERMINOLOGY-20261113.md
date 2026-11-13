@@ -28,3 +28,7 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | missile silo | robotsilo | Byggnad som rymmer och avfyrar robotar. |
 | warhead | stridsspets | Kärnvapenrobotens explosiva del. |
 | high orbit | hög omloppsbana | Rymdteknisk kontext i satellituppdraget. |
+| away team | insatsgrupp | Fristående styrka i kampanj 3. |
+| task force | insatsstyrka | Organiserad fientlig styrka i ett uppdragsmål. |
+| ambush | lägga ett bakhåll | Aktivt uppdragsmål mot NEXUS-styrkor. |
+| site of operations | operationsbas | Bas som erbjuds för fortsatta operationer. |
