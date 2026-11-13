@@ -17,6 +17,7 @@ grundläggande, synliga UI-texter i `sv-SE.json`:
 - snabbanteckningar: etiketter, visningsläge, tomvy och borttagning
 - kortdetaljer och redigerarens platshållare för listor, citat och rubriker
 - titelradens fält och ikoner
+- precisering av titelradens sidikon enligt befintlig svensk termbank
 - ikonuppladdaren och dialogen Sök och ersätt
 - meddelandecentralen: status, arkivering, läst-markering och filter
 
