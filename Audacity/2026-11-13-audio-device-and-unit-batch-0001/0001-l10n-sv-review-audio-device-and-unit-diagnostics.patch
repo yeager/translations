@@ -1,0 +1,293 @@
+From 41ef0f3788ec3d3b26a1a769c3f9d450ba233d13 Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:06:39 +0100
+Subject: [PATCH] l10n(sv): review audio device and unit diagnostics
+
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 394a809..1406ffa 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -23,19 +23,19 @@ msgstr ""
+ #: libraries/lib-audio-devices/AudioIOBase.cpp
+ #: libraries/lib-note-track/NoteTrack.cpp
+ msgid "Stream is active ... unable to gather information.\n"
+-msgstr "Strömmande är aktivt … kan inte samla information.\n"
++msgstr "Strömmen är aktiv ... det går inte att hämta information.\n"
+ 
+ #: libraries/lib-audio-devices/AudioIOBase.cpp
+ #: libraries/lib-note-track/NoteTrack.cpp
+ #, c-format
+ msgid "Default recording device number: %d\n"
+-msgstr "Förinställd inspelningsenhet nummer: %d\n"
++msgstr "Nummer för standardinspelningsenhet: %d\n"
+ 
+ #: libraries/lib-audio-devices/AudioIOBase.cpp
+ #: libraries/lib-note-track/NoteTrack.cpp
+ #, c-format
+ msgid "Default playback device number: %d\n"
+-msgstr "Förinställd uppspelningsenhet nummer: %d\n"
++msgstr "Nummer för standarduppspelningsenhet: %d\n"
+ 
+ #: libraries/lib-audio-devices/AudioIOBase.cpp
+ #: libraries/lib-note-track/NoteTrack.cpp
+@@ -46,13 +46,13 @@ msgstr "Inga enheter hittades\n"
+ #: libraries/lib-note-track/NoteTrack.cpp
+ #, c-format
+ msgid "Device info unavailable for: %d\n"
+-msgstr "Enhetsinformation är inte tillgänglig för %d\n"
++msgstr "Enhetsinformation saknas för: %d\n"
+ 
+ #: libraries/lib-audio-devices/AudioIOBase.cpp
+ #: libraries/lib-note-track/NoteTrack.cpp
+ #, c-format
+ msgid "Device ID: %d\n"
+-msgstr "Enhet ID:%d\n"
++msgstr "Enhets-ID: %d\n"
+ 
+ #: libraries/lib-audio-devices/AudioIOBase.cpp
+ #: libraries/lib-note-track/NoteTrack.cpp
+@@ -64,7 +64,7 @@ msgstr "Enhetsnamn: %s\n"
+ #: libraries/lib-note-track/NoteTrack.cpp
+ #, c-format
+ msgid "Host name: %s\n"
+-msgstr "Värd namn: %s\n"
++msgstr "Värdnamn: %s\n"
+ 
+ #: libraries/lib-audio-devices/AudioIOBase.cpp
+ #, c-format
+@@ -79,27 +79,27 @@ msgstr "Uppspelningskanaler: %d\n"
+ #: libraries/lib-audio-devices/AudioIOBase.cpp
+ #, c-format
+ msgid "Low Recording Latency: %g\n"
+-msgstr "Låg inspelningslatency: %g\n"
++msgstr "Låg inspelningsfördröjning: %g\n"
+ 
+ #: libraries/lib-audio-devices/AudioIOBase.cpp
+ #, c-format
+ msgid "Low Playback Latency: %g\n"
+-msgstr "Låg uppspelningslatency: %g\n"
++msgstr "Låg uppspelningsfördröjning: %g\n"
+ 
+ #: libraries/lib-audio-devices/AudioIOBase.cpp
+ #, c-format
+ msgid "High Recording Latency: %g\n"
+-msgstr "Hög inspelningslatency: %g\n"
++msgstr "Hög inspelningsfördröjning: %g\n"
+ 
+ #: libraries/lib-audio-devices/AudioIOBase.cpp
+ #, c-format
+ msgid "High Playback Latency: %g\n"
+-msgstr "Hög uppspelningslatency: %g\n"
++msgstr "Hög uppspelningsfördröjning: %g\n"
+ 
+ #. i18n-hint: Supported, meaning made available by the system
+ #: libraries/lib-audio-devices/AudioIOBase.cpp
+ msgid "Supported Rates:\n"
+-msgstr "Stödjer skala:\n"
++msgstr "Samplingsfrekvenser som stöds:\n"
+ 
+ #: libraries/lib-audio-devices/AudioIOBase.cpp
+ #, c-format
+@@ -123,12 +123,12 @@ msgstr "Ingen uppspelningsenhet hittades för '%s'.\n"
+ 
+ #: libraries/lib-audio-devices/AudioIOBase.cpp
+ msgid "Cannot check mutual sample rates without both devices.\n"
+-msgstr "Kan inte kolla gemensam samplingsfrekvens utan båda enheterna.\n"
++msgstr "Kan inte kontrollera gemensamma samplingsfrekvenser utan båda enheterna.\n"
+ 
+ #: libraries/lib-audio-devices/AudioIOBase.cpp
+ #, c-format
+ msgid "Received %d while opening devices\n"
+-msgstr "Erhöll %d när enheterna startades\n"
++msgstr "Mottog %d när enheterna öppnades\n"
+ 
+ #: libraries/lib-audio-devices/AudioIOBase.cpp
+ msgid "Unable to open Portmixer\n"
+@@ -136,7 +136,7 @@ msgstr "Kan inte öppna portmixer\n"
+ 
+ #: libraries/lib-audio-devices/AudioIOBase.cpp
+ msgid "Available mixers:\n"
+-msgstr "Tillgängliga mixers:\n"
++msgstr "Tillgängliga mixrar:\n"
+ 
+ #: libraries/lib-audio-devices/AudioIOBase.cpp
+ #, c-format
+@@ -157,11 +157,11 @@ msgstr "Inspelningsvolymen är emulerad\n"
+ 
+ #: libraries/lib-audio-devices/AudioIOBase.cpp
+ msgid "Recording volume is native\n"
+-msgstr "Inspelningsvolymen har grundinställning\n"
++msgstr "Inspelningsvolymen är inbyggd\n"
+ 
+ #: libraries/lib-audio-io/AudioIO.cpp
+ msgid "Could not find any audio devices.\n"
+-msgstr "Kan inte hitta några ljudenheter\n"
++msgstr "Kunde inte hitta några ljudenheter.\n"
+ 
+ #: libraries/lib-audio-io/AudioIO.cpp
+ msgid ""
+@@ -179,11 +179,11 @@ msgstr "Fel: %s"
+ 
+ #: libraries/lib-audio-io/AudioIO.cpp
+ msgid "Error Initializing Audio"
+-msgstr "Fel uppstod när ljud initialiserades"
++msgstr "Fel vid initiering av ljud"
+ 
+ #: libraries/lib-audio-io/AudioIO.cpp
+ msgid "Audacity Audio"
+-msgstr "Audacity ljud"
++msgstr "Audacity-ljud"
+ 
+ #: libraries/lib-audio-io/AudioIO.cpp src/ProjectAudioManager.cpp
+ #, c-format
+@@ -191,7 +191,7 @@ msgid ""
+ "Error opening recording device.\n"
+ "Error code: %s"
+ msgstr ""
+-"Fel uppstod när inspelningsenhet öppnades.\n"
++"Fel när inspelningsenheten öppnades.\n"
+ "Felkod: %s"
+ 
+ #: libraries/lib-audio-io/AudioIO.cpp libraries/lib-files/FileNames.cpp
+@@ -247,11 +247,11 @@ msgstr "Automatisk justering av inspelningsnivån stoppades. %.2f verkar vara en
+ #: libraries/lib-audio-unit/AudioUnitEffectBase.cpp
+ #, c-format
+ msgid "Failed to encode preset from \"%s\""
+-msgstr "Misslyckades med att tyda förinställningarna från \"%s\""
++msgstr "Kunde inte koda förinställningen från \"%s\""
+ 
+ #: libraries/lib-audio-unit/AudioUnitEffectBase.cpp
+ msgid "Unable to store preset in config file"
+-msgstr "Kunde inte lagra förinställningarna i konfig fil"
++msgstr "Kunde inte lagra förinställningen i konfigurationsfilen"
+ 
+ #. i18n-hint: Can mean "not available," "not applicable," "no answer"
+ #. i18n-hint: n/a is an English abbreviation meaning "not applicable".
+@@ -269,22 +269,22 @@ msgstr "Kunde inte öppna \"%s\""
+ #: libraries/lib-audio-unit/AudioUnitEffectBase.cpp
+ #, c-format
+ msgid "Failed to write XML preset to \"%s\""
+-msgstr "Misslyckades med att skriva XML förinställning till \"%s\""
++msgstr "Kunde inte skriva XML-förinställningen till \"%s\""
+ 
+ #: libraries/lib-audio-unit/AudioUnitEffectBase.cpp
+ #, c-format
+ msgid "Unable to read the preset from \"%s\""
+-msgstr "Kunde inte läsa förinställningarna från \"%s\""
++msgstr "Kunde inte läsa förinställningen från \"%s\""
+ 
+ #. i18n-hint: the name of an Apple audio software protocol
+ #: libraries/lib-audio-unit/AudioUnitEffectBase.h
+ msgid "Audio Unit"
+-msgstr "Ljudenhet"
++msgstr "Audio Unit"
+ 
+ #. i18n-hint: Audio Unit is the name of an Apple audio software protocol
+ #: libraries/lib-audio-unit/AudioUnitEffectsModule.cpp
+ msgid "Audio Unit Effects"
+-msgstr "Ljudenhetseffekter"
++msgstr "Audio Unit-effekter"
+ 
+ #: libraries/lib-audio-unit/AudioUnitEffectsModule.cpp
+ #: libraries/lib-effects/LoadEffects.cpp
+@@ -297,7 +297,7 @@ msgstr "Audacity-teamet"
+ 
+ #: libraries/lib-audio-unit/AudioUnitEffectsModule.cpp
+ msgid "Provides Audio Unit Effects support to Audacity"
+-msgstr "Tillhandahåller stöd för ljudenhetseffekter till Audacity"
++msgstr "Ger Audacity stöd för Audio Unit-effekter"
+ 
+ #: libraries/lib-audio-unit/AudioUnitEffectsModule.cpp
+ msgid "Could not find component"
+@@ -310,26 +310,26 @@ msgstr "Kunde inte initialisera komponent"
+ #: libraries/lib-audio-unit/AudioUnitWrapper.cpp
+ #, c-format
+ msgid "Failed to decode \"%s\" preset"
+-msgstr "Misslyckades med att dekoda \"%s\" förinställning"
++msgstr "Kunde inte avkoda förinställningen \"%s\""
+ 
+ #: libraries/lib-audio-unit/AudioUnitWrapper.cpp
+ #, c-format
+ msgid "Failed to convert \"%s\" preset to internal format"
+-msgstr "Misslyckades med att konvertera \"%s\" förinställning till internt format"
++msgstr "Kunde inte konvertera förinställningen \"%s\" till internt format"
+ 
+ #: libraries/lib-audio-unit/AudioUnitWrapper.cpp
+ #, c-format
+ msgid "Failed to create property list for \"%s\" preset"
+-msgstr "Misslyckades med att skapa tillhörande lista för \"%s\" förinställningar"
++msgstr "Kunde inte skapa egenskapslistan för förinställningen \"%s\""
+ 
+ #: libraries/lib-audio-unit/AudioUnitWrapper.cpp
+ #, c-format
+ msgid "Failed to set class info for \"%s\" preset"
+-msgstr "Misslyckades med att sätta klass för \"%s\" förinställning"
++msgstr "Kunde inte ange klassinformationen för förinställningen \"%s\""
+ 
+ #: libraries/lib-audio-unit/AudioUnitWrapper.cpp
+ msgid "Failed to set preset name"
+-msgstr "Kunde inte läsa filen med förinställningar"
++msgstr "Kunde inte ange förinställningens namn"
+ 
+ #: libraries/lib-audio-unit/AudioUnitWrapper.cpp
+ msgid "Failed to retrieve preset content"
+@@ -337,11 +337,11 @@ msgstr "Kunde inte hämta förinställningens innehåll"
+ 
+ #: libraries/lib-audio-unit/AudioUnitWrapper.cpp
+ msgid "Failed to convert property list to XML data"
+-msgstr "Misslyckades att konvertera listan till XML data"
++msgstr "Kunde inte konvertera egenskapslistan till XML-data"
+ 
+ #: libraries/lib-audio-unit/AudioUnitWrapper.cpp
+ msgid "XML data is empty after conversion"
+-msgstr "XML data är tomt efter omvandlingen"
++msgstr "XML-data är tom efter konverteringen"
+ 
+ #: libraries/lib-basic-ui/BasicUI.cpp
+ #: libraries/lib-exceptions/AudacityException.h
+@@ -351,17 +351,17 @@ msgstr "Meddelande"
+ 
+ #: libraries/lib-cloud-audiocom/UploadService.cpp
+ msgid "Cannot proceed to upload."
+-msgstr "Kan inte ladda upp."
++msgstr "Kan inte fortsätta med uppladdningen."
+ 
+ #. i18n-hint: database operation has failed because the requested item was not found
+ #: libraries/lib-cloud-audiocom/sync/DataUploader.cpp
+ #: libraries/lib-sqlite-helpers/sqlite/Error.cpp
+ msgid "File not found"
+-msgstr "Filen hittades inte."
++msgstr "Filen hittades inte"
+ 
+ #: libraries/lib-cloud-audiocom/sync/LocalProjectSnapshot.cpp
+ msgid "Project was closed before snapshot was created"
+-msgstr "Projektet stängdes innan snapshotbilden skapades"
++msgstr "Projektet stängdes innan ögonblicksbilden skapades"
+ 
+ #: libraries/lib-cloud-audiocom/sync/LocalProjectSnapshot.cpp
+ #, c-format
+@@ -381,19 +381,19 @@ msgstr "Fel vid export"
+ 
+ #: libraries/lib-cloud-audiocom/sync/RemoteProjectSnapshot.cpp
+ msgid "Failed to attach to the Cloud project database"
+-msgstr "Det gick inte att bifoga till Cloud-projektdatabasen"
++msgstr "Kunde inte ansluta till Cloud-projektdatabasen"
+ 
+ #: libraries/lib-cloud-audiocom/sync/RemoteProjectSnapshot.cpp
+ msgid "Failed to decompress the Cloud project block"
+-msgstr "Det gick inte att dekomprimera Cloud-projektblocket"
++msgstr "Kunde inte packa upp Cloud-projektblocket"
+ 
+ #: libraries/lib-cloud-audiocom/sync/ResumedSnaphotUploadOperation.cpp
+ msgid "Local project data was removed before the sync has completed"
+-msgstr "Lokala projektdata togs bort innan synkroniseringen har slutförts"
++msgstr "Lokala projektdata togs bort innan synkroniseringen slutfördes"
+ 
+ #: libraries/lib-cloud-audiocom/sync/ResumedSnaphotUploadOperation.cpp
+ msgid "Failed to deserialize the response"
+-msgstr "Det gick inte att deserialisera svaret"
++msgstr "Kunde inte tolka svaret"
+ 
+ #. i18n-hint: This is the name of an effect preset.
+ #. i18n-hint: This is the name of an effect preset
