@@ -15,6 +15,12 @@ Crowdins API för projekt `PCSX2 Emulator` (`561203`), svenska och den aktiva fi
 
 De första posterna visar att stavningskontrollerna bland annat träffar `PCSX2`, `RetroAchievements`, `PlayStation`, `GitHub-förråd`, `MIPS-processortolkar` och `omkompilatorer`. Dessa är produktnamn, tekniska termer eller svenska sammansättningar och inte bevis på felaktig måltext.
 
+## Radgranskning: skiljetecken
+
+Alla 58 rader i kategorin `punctuation` har lästs mot den aktuella XLIFF-exporten den 13 november. De fyra rader som använder den direkta kontrollen `punctuation_check` är `13366`, `15698`, `16059` och `16165`; samtliga är falska positiva. Svenska helmeningar har korrekt avslutande punkt även när källtexten saknar den, och citattecknen runt platshållaren `%1` i `13366` är korrekta.
+
+Återstående 54 rader använder `spaces_after_punctuation_check`. De granskade exemplen innehåller HTML-kodning, avsiktligt oförändrade tekniska värden eller en redan existerande korrekt kandidat. Till exempel har post `6237` redan förslag `449191` med *i stället* i stället för den äldre aktiva formen *istället*. Inga dubblettförslag, röster eller QA-avfärdanden skapades i denna genomgång.
+
 ## Beslut
 
 Inga QA-poster har avfärdats eller massgodkänts. Formateringskontroller ska jämföras med exakt käll- och måltext före varje rättning. Stavningsposter behandlas endast när den konkreta svenska formuleringen är fel, inte därför att Crowdins ordlista saknar termen.
