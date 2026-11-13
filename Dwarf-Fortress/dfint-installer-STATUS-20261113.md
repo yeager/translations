@@ -6,10 +6,11 @@ Komponent: `application.json`
 
 ## Omfattning
 
-Samtliga 19 tidigare oöversatta svenska UI-strängar granskades rad för rad
-mot installerarens aktuella Rust-källkod. De omfattar installationens
-översättningsfiler, Hook-komponenten, ordboken, versionskontroll och
-skrivbehörighet.
+Samtliga 34 svenska UI-strängar granskades rad för rad mot installerarens
+aktuella Rust-källkod. Arbetet omfattar 19 tidigare oöversatta strängar samt
+tre korrigerade befintliga översättningar: `Report bug`, `Ok` och varningen om
+äldre översättningsfiler. De omfattar installationens översättningsfiler,
+Hook-komponenten, ordboken, versionskontroll och skrivbehörighet.
 
 ## Kontroller
 
@@ -23,7 +24,8 @@ skrivbehörighet.
 
 ## Upstream
 
-Alla 19 strängar skickades i ett gemensamt Transifex API-anrop 13 november
-2026 18:19:31 UTC. API-svaret och 19 individuella återläsningar matchar
-exakt. Resursen är 34/34 översatt, 0 oöversatt. Texterna är inskickade men
-inte markerade som granskade av projektet.
+De 19 nya strängarna skickades i ett gemensamt Transifex API-anrop 13 november
+2026 18:19:31 UTC. De tre korrigeringarna skickades därefter i ett andra,
+samlat API-anrop. API-svaren och individuella återläsningar matchar exakt.
+Resursen är 34/34 översatt, 0 oöversatt. Texterna är inskickade men inte
+markerade som granskade av projektet.
