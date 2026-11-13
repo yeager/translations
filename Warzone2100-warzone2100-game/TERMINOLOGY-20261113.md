@@ -132,3 +132,12 @@ Gäller den lokala kampanj 1-batchen från 2026-11-13. Besluten bygger på käll
 | strike VTOL | VTOL-anfallsfarkost | Vertikalstartande attackfarkost. |
 | command centre | ledningscentral | NEXUS styrande byggnad. |
 | tactical nuclear warhead | taktisk kärnvapenstridsspets | Robottens kärnladdning i silouppdraget. |
+
+## Bakgrundshistoria och slutsekvens
+
+| Källa | Svensk term | Anmärkning |
+| --- | --- | --- |
+| Cyberspace | cyberrymden | Miljö för överfört medvetande i Reed-briefingen. |
+| immersion tank | immersionskammare | Kammare där operatörens kropp förvaras. |
+| nuclear winter | kärnvapenvinter | Historisk följd av Kollapsen. |
+| nuclear deterrent | kärnvapenavskräckning | NASDA-systemets avsedda funktion. |
