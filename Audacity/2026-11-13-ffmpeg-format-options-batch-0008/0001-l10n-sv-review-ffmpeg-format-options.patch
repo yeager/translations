@@ -1,0 +1,128 @@
+From ef45ee92b68b2a820ca2c2bd185f074689dbe61c Mon Sep 17 00:00:00 2001
+From: Daniel Nylander <github@danielnylander.se>
+Date: Fri, 13 Nov 2026 14:21:08 +0100
+Subject: [PATCH] l10n(sv): review FFmpeg format options
+
+
+diff --git a/au3/locale/sv.po b/au3/locale/sv.po
+index 99b162d..106464a 100644
+--- a/au3/locale/sv.po
++++ b/au3/locale/sv.po
+@@ -3822,7 +3822,7 @@ msgstr "AMR-filer (smalband, FFmpeg)"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "Opus (OggOpus) Files (FFmpeg)"
+-msgstr "Opus (OggOpus) Files (FFmpeg)"
++msgstr "Opus-filer (OggOpus, FFmpeg)"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "WMA (version 2) Files (FFmpeg)"
+@@ -3830,7 +3830,7 @@ msgstr "WMA-filer (version 2, FFmpeg)"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "Custom FFmpeg Export"
+-msgstr "Anpassad exportering av FFmpeg"
++msgstr "Anpassad FFmpeg-export"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "Estimate"
+@@ -3850,7 +3850,7 @@ msgstr "8-nivå"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "Full search"
+-msgstr "Full sökning"
++msgstr "Fullständig sökning"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "Log search"
+@@ -3858,7 +3858,7 @@ msgstr "Loggsökning"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "Configure custom FFmpeg options"
+-msgstr "Konfigurera anpassade FFmpeg-alterantiv"
++msgstr "Konfigurera anpassade FFmpeg-alternativ"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "Preset:"
+@@ -3914,7 +3914,7 @@ msgstr "Format"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "Codecs"
+-msgstr "Codecs"
++msgstr "Kodekar"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "General Options"
+@@ -3965,7 +3965,7 @@ msgid ""
+ "Recommended - 192000"
+ msgstr ""
+ "Bithastighet (bitar/sekund) - påverkar den slutliga filens storlek och kvalitet\n"
+-"Vissa kodekar kan bara acceptera specifika värden (128k, 192k, 256k, etc.)\n"
++"Vissa kodekar kan bara acceptera specifika värden (128k, 192k, 256k osv.).\n"
+ "0 - automatiskt\n"
+ "Rekommenderas - 192000"
+ 
+@@ -3983,7 +3983,7 @@ msgstr ""
+ "Övergripande kvalitet, används olika av olika kodekar\n"
+ "Nödvändigt för vorbis\n"
+ "0 - automatiskt\n"
+-"-1 - av (använd bithastighet istället)"
++"-1 - av (använd bithastighet i stället)"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "Quality:"
+@@ -4007,13 +4007,13 @@ msgid ""
+ "Optional\n"
+ "0 - automatic"
+ msgstr ""
+-"Ljudavskärning för bandbredd (Hz)\n"
++"Ljudets brytfrekvens (Hz)\n"
+ "Valfritt\n"
+ "0 - automatiskt"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "Cutoff:"
+-msgstr "Avskärning:"
++msgstr "Brytfrekvens:"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid ""
+@@ -4023,7 +4023,7 @@ msgid ""
+ msgstr ""
+ "AAC-profil\n"
+ "Låg komplexitet - standard\n"
+-"De flesta spelare kommer inte spela upp någonting annat än LC"
++"De flesta spelare kan bara spela upp LC"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "Profile:"
+@@ -4059,7 +4059,7 @@ msgid ""
+ "min - 16\n"
+ "max - 65535"
+ msgstr ""
+-"Bildrutestorlek\n"
++"Ramstorlek\n"
+ "Valfritt\n"
+ "0 - standard\n"
+ "min - 16\n"
+@@ -4095,9 +4095,9 @@ msgid ""
+ "Full search - default"
+ msgstr ""
+ "Metod för förutsägelseordning\n"
+-"Uppskattad - snabbast, lägre komprimering\n"
++"Uppskatta - snabbast, lägre komprimering\n"
+ "Loggsökning - långsammast, bäst komprimering\n"
+-"Full sökning - default"
++"Fullständig sökning - standard"
+ 
+ #: modules/import-export/mod-ffmpeg/ExportFFmpegOptions.cpp
+ msgid "PdO Method:"
+@@ -4165,7 +4165,7 @@ msgid ""
+ "min - 0\n"
+ "max - 8"
+ msgstr ""
+-"Maximal partitionordning\n"
++"Maximal partitionsordning\n"
+ "Valfritt\n"
+ "-1 - standard\n"
+ "min - 0\n"
