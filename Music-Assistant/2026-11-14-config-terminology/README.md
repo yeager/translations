@@ -150,3 +150,9 @@ The earlier GitHub proposal, [music-assistant/server#7640](https://github.com/mu
 Lokalise access was subsequently established. The Frontend project received and read back ten reviewed onboarding strings, and the Server project received and read back the separate four-string live batch documented in `../2026-11-14-server-live-batch-01/`. This review archive is not itself a claim that all of the older local changes have been entered, reviewed, synchronized or released upstream.
 
 The latest local Swedish candidate is the closed-PR head `b92a0cc69162637e95b89bed8ae4e51a969b622e`, not the much older exported snapshot. Against the current 2026-11-14 English source it covers 2,083 of 3,175 current keys; 1,092 were still missing before the separately archived provider batches. Batches 1 and 2 add 22 reviewed current-source keys, leaving 1,070 keys without a local candidate. The four strings documented in `../2026-11-14-server-live-batch-01/` are separately verified in Lokalise; that does not establish that the whole local candidate has been entered, reviewed, synchronized or released.
+
+Further local, current-source Swedish deltas were archived on 2026-11-14 for
+authentication/network settings, player audio options, ABC Radio Network and
+AcoustID. They are intentionally marked pending Lokalise save; no API token
+or editor readback was available for those batches, so they do not represent
+an upstream submission, review, repository synchronization or release.
