@@ -15,4 +15,12 @@ innehåller bara dessa tre poster.
 
 XML-validering, l10n-lint, svlang, lågprioriterad Hunspell-SV,
 diffkontroll och Gitleaks passerade. `msgfmt` är inte tillämpligt på XLIFF.
-Upstream-resultat dokumenteras här först efter verifierat API-svar.
+
+## Upstream-resultat
+
+Direkta API-försök den 14 november 2026 för samtliga tre strängar avvisades
+som `Duplicate translation`. Ingen ny kandidat skapades. Det visar att den
+korrekta, källidentiska kandidaten redan finns i Crowdin, medan den felaktiga
+måltexten fortfarande är aktiv i den nedladdade exporten. Inga röster,
+godkännanden eller ändringar av tidigare kandidater har gjorts. Detta är inte
+ett nytt upstream-inskick och inte en upstream-granskning.
