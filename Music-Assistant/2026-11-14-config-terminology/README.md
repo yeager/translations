@@ -76,6 +76,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish context review of the metal, polka, punk and reggaeton metadata in `common.media`
 - Swedish context review of the bluegrass, blues, Brazilian-music and comedy-music metadata in `common.media`
 - Swedish context review of the country-music and dance-music metadata in `common.media`
+- Swedish context review of the dark-ambient and dark-wave metadata in `common.media`
 
 ## Checks
 
