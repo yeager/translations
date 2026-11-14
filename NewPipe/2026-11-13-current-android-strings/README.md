@@ -31,6 +31,13 @@ Indonesien, Singapore och Thailand, och att en global utrullning planeras till
 
 ## Upstream
 
-Ändringarna är inskickade som
-[TeamNewPipe/NewPipe#14036](https://github.com/TeamNewPipe/NewPipe/pull/14036).
-PR:en är öppen; upstreamgranskning och merge återstår.
+Den tidigare källkods-PR:n
+[TeamNewPipe/NewPipe#14036](https://github.com/TeamNewPipe/NewPipe/pull/14036)
+stängdes den 14 november 2026. NewPipe tar emot översättningar enbart via
+Hosted Weblate, inte via pull requests.
+
+Den enda aktuella oöversatta svenska strängen, `kao_dialog_warning`, skickades
+in i Hosted Weblate samma dag. Efter inskicket visar komponenten 778/778
+översatta strängar (en skrivskyddad referenssträng och inga oöversatta
+strängar). Hosted Weblate gör sedan sin vanliga synkronisering till arkivet;
+upstream-commit och release är ännu inte verifierade.
