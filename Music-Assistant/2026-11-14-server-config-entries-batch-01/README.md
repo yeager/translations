@@ -12,11 +12,15 @@ källa och den faktiska svenska Lokalise-strängen.
 - `common.config_entries.ai_engine.description`: *The AI engine used for this
   feature.* → *AI-motorn som används för den här funktionen.*; saknad
   översättning tillagd och återläst.
+- `common.config_entries.ai_engine.label`: *AI engine* → *AI-motor*; saknad
+  översättning tillagd och återläst.
 
 ## Upstreamstatus
 
 `common.config_entries.ai_engine.description` översattes och återlästes i MA
 Server på Lokalise 2026-11-14. Lokalise-granskning, kodsynkronisering och
 release är inte verifierade.
+`common.config_entries.ai_engine.label` översattes och återlästes i MA Server
+på Lokalise 2026-11-14.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
