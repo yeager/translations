@@ -75,6 +75,8 @@ oförändrade; språkfel rättas direkt och återläses.
   befintlig översättning bevarad.
 - `common.config_categories.protocol_settings`: *Output Protocol(s)* →
   *Utgångsprotokoll*; befintlig översättning bevarad.
+- `common.config_categories.protocol_output_settings`: *Enable {0} support* →
+  *Aktivera stöd för {0}*; befintlig översättning rättad och återläst.
 
 ## Upstreamstatus
 
@@ -141,5 +143,8 @@ Lokalise 2026-11-14. Ingen ändring behövdes.
 Lokalise 2026-11-14. Ingen ändring behövdes.
 `common.config_categories.protocol_settings` kontrollerades i MA Server på
 Lokalise 2026-11-14. Ingen ändring behövdes.
+`common.config_categories.protocol_output_settings` språkgranskades, rättades
+och återlästes i MA Server på Lokalise 2026-11-14. Platshållaren `{0}`
+bevarades.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
