@@ -15,6 +15,7 @@
 | `Charge attack` | rusningsattack | Stridsmanöver. |
 | `Item` | föremål | Generisk spelterm för ett hanterbart objekt. |
 | `Gear assembly` | kugghjulsuppsättning | Mekanisk kraftöverföring. |
+| `Megabeast` | megabest | Etablerad spelterm för en särskilt mäktig varelse; behåll som sammansatt fackterm i världsinställningarna. |
 | `Potash` | pottaska | Kemiskt material; behåll facktermen. |
 | `Ashery` | askverkstad | Verkstad för aska och pottaska; används bara när källsträngen avser byggnaden. |
 | `Acknowledge lack of …` | Tillstå brist på … | Samtals- eller känslohandling. |
