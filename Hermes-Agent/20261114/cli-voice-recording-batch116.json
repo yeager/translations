@@ -1,0 +1,31 @@
+{
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "component": "cli.voice.recording",
+  "strings": {
+    "cli.voice.err_termux_app_missing": "Kommandopaketet Termux:API har identifierats, men Android-appen saknas.\nInstallera eller uppdatera Android-appen Termux:API och försök sedan med /voice on igen.",
+    "cli.voice.err_mic_access": "Röstläge behöver åtkomst till mikrofonen.\nKör pkg install termux-api och installera Android-appen Termux:API, försök sedan med /voice on igen.",
+    "cli.voice.err_audio_capture": "Röstläge kräver ljudupptagning.",
+    "cli.voice.err_stt_provider": "Röstläge kräver en STT-leverantör för transkribering.\nKör hermes tools och konfigurera Speech-to-Text, starta sedan om Hermes.",
+    "cli.voice.silence_autostop": "Tystnad upptäcktes, stoppar automatiskt...",
+    "cli.voice.hint_continuous": "stoppar automatiskt vid tystnad | {shortcut} för att stoppa och avsluta kontinuerligt läge",
+    "cli.voice.hint_termux": "Termux:API-upptagning | {shortcut} för att stoppa",
+    "cli.voice.hint_stop": "{shortcut} för att stoppa",
+    "cli.voice.recording": "● Spelar in...",
+    "cli.voice.autorestart_failed": "Automatisk omstart av röstläge misslyckades: {error}",
+    "cli.voice.no_speech": "Inget tal upptäcktes.",
+    "cli.voice.preparing_stt": "Förbereder lokal STT-modell '{model}' (den kan hämtas från Hugging Face vid första användningen)...",
+    "cli.voice.transcribing": "Transkriberar...",
+    "cli.voice.stop_phrase": "Avslutsfras upptäcktes — avslutar röstchatten.",
+    "cli.voice.transcription_failed": "Transkriberingen misslyckades: {error}",
+    "cli.voice.processing_error": "Fel vid röstbearbetning: {error}",
+    "cli.voice.recording_preserved": "Inspelningen sparades på: {path}",
+    "cli.voice.no_speech_stop": "Inget tal upptäcktes tre gånger, kontinuerligt läge stoppades.",
+    "cli.voice.tts_failed": "TTS-uppspelningen misslyckades: {error}",
+    "cli.voice.interjection": "🎤 Röstinpass — avbryter…",
+    "cli.voice.echo_ignored": "Ignorerade ett troligt TTS-eko (köades inte).",
+    "cli.voice.already_enabled": "Röstläge är redan aktiverat.",
+    "cli.voice.unavailable_header": "Röstläge är inte tillgängligt i denna miljö:",
+    "cli.voice.requirements_header": "Röstlägets krav är inte uppfyllda:",
+    "cli.voice.termux_install_cmd": "Kör: pkg install termux-api"
+  }
+}
