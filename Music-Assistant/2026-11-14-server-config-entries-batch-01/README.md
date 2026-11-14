@@ -58,6 +58,8 @@ källa och den faktiska svenska Lokalise-strängen.
 - `common.config_entries.auth_cookies.description`: *Authenticate using browser
   cookies from passport.yandex.ru.* → *Autentisera med webbläsarkakor från
   passport.yandex.ru.*; saknad översättning tillagd och återläst.
+- `common.config_entries.auth_cookies.action_label`: *Login with Cookies* →
+  *Logga in med kakor*; saknad översättning tillagd och återläst.
 
 ## Upstreamstatus
 
@@ -98,6 +100,8 @@ Server på Lokalise 2026-11-14.
 `common.config_entries.auth_cookies.label` översattes och återlästes i MA
 Server på Lokalise 2026-11-14.
 `common.config_entries.auth_cookies.description` översattes och återlästes i
+MA Server på Lokalise 2026-11-14.
+`common.config_entries.auth_cookies.action_label` översattes och återlästes i
 MA Server på Lokalise 2026-11-14.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
