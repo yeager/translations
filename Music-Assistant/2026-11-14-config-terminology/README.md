@@ -82,6 +82,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish context review of the folk-music and funk metadata in `common.media`
 - Swedish context review of the gangsta-rap, gospel and hip-hop metadata in `common.media`
 - Swedish context review of the Indian-classical and industrial-music metadata in `common.media`
+- Swedish context review of the jazz, klezmer and Latin-music metadata in `common.media`
 
 ## Checks
 
