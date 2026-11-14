@@ -74,6 +74,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish review of 23 visible music-genre labels in `common.media`, using Swedish labels where natural and retaining established international genre names
 - Swedish review of 27 additional visible music-genre labels in `common.media`, including Middle Eastern music, spoken word, soundtrack and wellness
 - Swedish context review of the metal, polka, punk and reggaeton metadata in `common.media`
+- Swedish context review of the bluegrass, blues, Brazilian-music and comedy-music metadata in `common.media`
 
 ## Checks
 
