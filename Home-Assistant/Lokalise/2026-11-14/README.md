@@ -46,7 +46,8 @@ Ytterligare Voice-strängar finns i
 [`voice-support-batch-28.md`](voice-support-batch-28.md) och
 [`hp-printer-lamarzocco-batch-29.md`](hp-printer-lamarzocco-batch-29.md).
 [`hp-printer-advanced-settings-batch-30.md`](hp-printer-advanced-settings-batch-30.md).
-Totalt omfattar dagens arkiverade arbete därmed 81 direkt sparade och
+[`hp-printer-host-batch-31.md`](hp-printer-host-batch-31.md).
+Totalt omfattar dagens arkiverade arbete därmed 82 direkt sparade och
 återlästa strängar.
 
 Not: Batcharna är sparade upstream i Lokalise. Detta är inte en fullständig
