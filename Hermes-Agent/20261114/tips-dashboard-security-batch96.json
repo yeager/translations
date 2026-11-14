@@ -1,0 +1,26 @@
+{
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "component": "tips.t301-t320",
+  "strings": {
+    "tips.t301": "Krokhändelser omfattar gateway:startup, session:start, agent:step och jokerteckenprenumerationer på command:*.",
+    "tips.t302": "Lägg en checklista i ~/.hermes/BOOT.md så kör en gateway:startup-krok den som en engångsagent vid varje uppstart.",
+    "tips.t303": "hermes curator run --dry-run förhandsvisar vad kuratorn skulle arkivera eller konsolidera utan att ändra något.",
+    "tips.t304": "hermes curator pin <skill> skyddar en färdighet mot både automatisk arkivering och agentens verktyg skill_manage.",
+    "tips.t305": "hermes curator rollback återställer färdigheter från en ögonblicksbild före körning — säkerhetskopior finns under skills/.curator_backups/.",
+    "tips.t306": "hermes auth reset <provider> [target] rensar karenstider och uttömningsflaggor för en hel uppsättning autentiseringsuppgifter, eller för en enskild uppgift efter index, id eller etikett.",
+    "tips.t307": "credential_pool_strategies.<provider>: round_robin växlar nycklar jämnt i stället för standardvärdet fill_first.",
+    "tips.t308": "use_gateway: true per verktyg dirigerar web, image, tts eller browser via din Nous-prenumeration — inga extra nycklar.",
+    "tips.t309": "provider_routing.data_collection: deny utesluter leverantörer som lagrar data på OpenRouter.",
+    "tips.t310": "provider_routing.require_parameters: true dirigerar bara till leverantörer som stöder alla parametrar i din begäran.",
+    "tips.t311": "HERMES_TUI_RESUME=1 återansluter automatiskt till den senaste TUI-sessionen vid start — praktiskt efter avbruten SSH-anslutning.",
+    "tips.t312": "HERMES_TUI_THEME=light|dark|<hex> tvingar fram TUI-temat i terminaler som inte ställer in COLORFGBG.",
+    "tips.t313": "Ctrl+G eller Ctrl+X Ctrl+E i TUI:t öppnar indatabufferten i $EDITOR för långa flerradiga promptar.",
+    "tips.t314": "TUI:t återger LaTeX direkt i texten — $E=mc^2$ blir Unicode-matematik i stället för rå TeX.",
+    "tips.t315": "hermes dashboard startar ett lokalt webbgränssnitt på 127.0.0.1:9119 — ingen data lämnar localhost.",
+    "tips.t316": "hermes dashboard bäddar in hela Hermes TUI i webbläsaren via xterm.js och en WebSocket-PTY.",
+    "tips.t317": "Lägg en YAML-fil med två palettfärger i ~/.hermes/dashboard-themes/ för att ge hela instrumentpanelen ett nytt utseende.",
+    "tips.t318": "Insticksmoduler för instrumentpanelen kan läggas direkt: manifest.json + JS-paket i ~/.hermes/dashboard-plugins/ — ingen npm-byggning krävs.",
+    "tips.t319": "layoutVariant: cockpit i ett instrumentpanelstema lägger till en vänsterspalt på 260 px som insticksmoduler kan fylla via sidofältsplatsen.",
+    "tips.t320": "display.tool_progress_command: true exponerar /verbose på meddelandeplattformar; det är endast CLI som standard."
+  }
+}
