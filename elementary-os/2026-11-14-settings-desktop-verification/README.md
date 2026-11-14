@@ -11,15 +11,17 @@ inställningsgränssnittet.
 
 Den redan arkiverade deltafilen
 `../2026-11-13-settings-desktop/elementary-settings-desktop-sv-accent-color.delta.po`
-kan därför importeras utan språklig ändring när skrivåtkomst till elementarys
-Weblate finns. Ingen upstream-import gjordes i denna uppföljning: servern
-saknar en åtkomlig inloggning eller API-token i den aktuella miljön.
+skickades därefter till Weblate via API. Enheten `3984095` återlästes efter
+ändringen: måltexten är `Accentfärg`, statusen är översatt och fuzzy är
+avmarkerad. Komponentstatistiken efter inskicket är 94 av 94 översatta,
+noll fuzzy och noll fallerande kontroller. Posten är ännu inte upstream-
+godkänd, vilket Weblate redovisar separat.
 
 Projektets senaste GitHub-release är `8.1.0-rc3`, publicerad 11 december
 2025, och ligger inom projektets aktualitetsgräns.
 
-Kontroller: officiellt Weblate-API, publicerad GitHub-release, kontroll av
-den befintliga deltafilens måltext samt diffkontroll och Gitleaks före
-arkivering. `msgfmt`, l10n-lint, svlang och Hunspell-SV har redan passerat
-för deltafilen den 13 november; inga översättningstextändringar har gjorts
-i denna verifiering.
+Kontroller: officiellt Weblate-API före och efter inskick, publicerad
+GitHub-release, kontroll av den befintliga deltafilens måltext samt
+diffkontroll och Gitleaks före arkivering. `msgfmt`, l10n-lint, svlang och
+Hunspell-SV har redan passerat för deltafilen den 13 november; inga
+översättningstextändringar har gjorts i denna verifiering.
