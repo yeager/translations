@@ -49,6 +49,12 @@ källa och den faktiska svenska Lokalise-strängen.
   *När ett meddelande sänds till den här spelaren, hur ska volymen justeras
   tillfälligt (använd i kombination med volymvärdet nedan).*; befintlig
   översättning bevarad.
+- `common.config_entries.announce_volume_strategy.options.none`: *Do not
+  adjust volume* → *Justera inte volymen*; befintlig översättning bevarad.
+- `common.config_entries.announce_volume_strategy.option_descriptions.none`:
+  *Leave the volume unchanged; play the announcement at the player's current
+  volume.* → *Lämna volymen oförändrad; spela upp meddelandet med spelarens
+  aktuella volym.*; saknad översättning tillagd och återläst.
 
 ## Upstreamstatus
 
@@ -74,5 +80,8 @@ på Lokalise 2026-11-14. Ingen ändring behövdes.
 `common.config_entries.announce_volume_strategy.label` och
 `common.config_entries.announce_volume_strategy.description` kontrollerades i
 MA Server på Lokalise 2026-11-14. Ingen ändring behövdes.
+`common.config_entries.announce_volume_strategy.options.none` kontrollerades
+och dess saknade förklaring lades till och återlästes i MA Server på Lokalise
+2026-11-14.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
