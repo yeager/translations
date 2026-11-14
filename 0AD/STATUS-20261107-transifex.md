@@ -60,3 +60,9 @@ som egen deltafil med granskningslogg. I Community – Mods är båda strängarn
 nu översatta och återlästa (2/2), med bevarad Markdown-länk till `mod.io`.
 Projektgranskning, källsynkronisering och webbpublicering är fortfarande inte
 verifierade.
+
+Community – Donate har därefter granskats rad för rad: 14 av 14 svenska
+strängar är sparade och återlästa i Transifex. Länkar, den escapade
+dollarsymbolen och Hugo-kortkoden har bevarats. Arkivbatch:
+`website-2026-11-14-community-donate`. Projektgranskning,
+källsynkronisering och publicering är inte verifierade.
