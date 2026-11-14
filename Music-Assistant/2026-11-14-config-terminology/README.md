@@ -19,7 +19,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - consistent `favoritspår` terminology in the infinite-mix variant
 - ten missing, context-clear configuration categories, including `Automatisk uppspelning`, `Klickåtgärder`, `Felsökning`, `Källval` and placeholder-preserving protocol support labels
 - five further context-checked configuration categories: `Objekt att välja`, `Insticksmoduler`, `Förinställningar`, `Rekommendationer` and `Server`
-- `Smart blandning` for the recency-aware queue algorithm and `Upptäck` for the recommendation row
+- `Intelligent blandning` for the recency-aware queue algorithm and `Upptäck` for the recommendation row
 - fourteen context-clear configuration labels for network, content, volume and player controls, including `TCP-port`, `Klient-ID`, `Volymstyrning` and `Samplingsfrekvenser som stöds av den här spelaren`
 - eleven source-specific library synchronization labels, using `läs in` for track import and `synkronisera` for two-way library operations
 - the corresponding eleven source-specific library synchronization descriptions, including the behavior for albums, playlists, deletions and two-way sync
