@@ -60,6 +60,11 @@ Ytterligare Voice-strängar finns i
 Totalt omfattar dagens arkiverade arbete därmed 119 direkt sparade och
 återlästa strängar.
 
+Det finns även 27 lokalt granskade HP Printer-strängar i
+[`hp-printer-pending-batches-41-45.md`](hp-printer-pending-batches-41-45.md).
+De är inte sparade upstream och ska först genomgå sparning samt separat
+återläsning i Lokalise.
+
 Not: Batcharna är sparade upstream i Lokalise. Detta är inte en fullständig
 genomgång av Home Assistant Core; oöversatta strängar återstår och behandlas i
 kommande kontextstyrda batchar.
