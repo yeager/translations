@@ -1,0 +1,20 @@
+{
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "component": "explainer.exit",
+  "strings": {
+    "explainer.no_reply_prefix": "⚠️ Inget svar: ",
+    "explainer.empty_response": "{model} gav inget svar den här gången, inte heller efter nya försök. Skicka `continue` för att försöka igen eller byt modell med /model.",
+    "explainer.exit.all_retries_exhausted_no_response": "modellleverantören svarade inte efter alla nya försök. Skicka /retry eller byt modell med /model.",
+    "explainer.exit.partial_stream_recovery": "strömningen stoppade tidigt och bara ett delsvar kunde återställas. Skicka `continue` för att fortsätta där den slutade.",
+    "explainer.exit.fallback_prior_turn_content": "inget nytt innehåll skapades denna tur; tidigare återställt sammanhang visas. Skicka `continue` för att försöka igen.",
+    "explainer.exit.redirect_restart_limit_exceeded": "begäran avbröts av en ny rättelse vid varje försök, så turen stoppades i stället för att försöka igen för alltid. Din senaste rättelse har köats som nästa meddelande.",
+    "explainer.exit.rebuilt_restart_limit_exceeded": "varje leverantör i reservkedjan fortsatte att fallera, så turen stoppades i stället för att försöka igen för alltid. Skicka `continue` eller byt leverantör.",
+    "explainer.exit.budget_exhausted": "budgeten för iterationer och kostnad per tur tog slut före ett slutsvar. Skicka `continue` för att fortsätta.",
+    "explainer.exit.ollama_runtime_context_too_small": "den lokala modellens kontextfönster var för litet för att slutföra. Öka kontextstorleken eller använd en större modell.",
+    "explainer.exit.pending_tool_result": "turen stoppades medan ett verktygsresultat fortfarande väntade och modellen gav ingen uppföljande text. Skicka `continue` för att låta den sammanfatta.",
+    "explainer.exit.interrupted_during_api_call": "begäran avbröts mitt i anropet innan ett svar togs emot. Skicka `continue` för att försöka igen.",
+    "explainer.exit.max_iterations_reached": "gränsen för verktygsiterationer nåddes före ett slutsvar. Skicka `continue` för att fortsätta eller höj `max_iterations`.",
+    "explainer.exit.error_near_max_iterations": "ett fel uppstod nära iterationsgränsen före ett slutsvar. Kontrollera verktygsutdata ovan och skicka sedan `continue`.",
+    "explainer.exit.repeated_outer_errors": "turen fortsatte att misslyckas med upprepade fel och stoppades tidigt i stället för att försöka igen för alltid. Kontrollera felen ovan och skicka sedan `continue` för att försöka igen."
+  }
+}
