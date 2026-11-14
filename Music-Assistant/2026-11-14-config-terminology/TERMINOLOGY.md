@@ -13,6 +13,11 @@ Datum: 2026-11-14
 | crossfade | övertoning | Samma term används i spelarinställningarna. |
 | queue playback | köuppspelning | Namn på kategorin för köns uppspelningsbeteende. |
 | player controls | spelarkontroller | Namn på kategorin för spelarens kontroller. |
+| announcement | meddelande | Används för tidsbegränsade utrop som spelas upp till en spelare. |
+| volume strategy | volymstrategi | Inställning för hur volymen tillfälligt ändras för meddelanden. |
+| absolute volume | absolut volym | Spelar upp med fast angiven volym. |
+| relative volume increase | relativ volymökning | Ökar spelarens aktuella volym med ett absolut belopp. |
+| volume increase by fixed percentage | volymökning med fast procentsats | Ökar spelarens aktuella volym proportionellt. |
 | plugin | insticksmodul | Används för utbyggnadskomponenter i gränssnitt och dokumentation. |
 | offset | förskjutning | Sendspin: justering för synkronisering i millisekunder. |
 | static playback delay | fast uppspelningsfördröjning | Sendspin: bestående, manuellt angiven fördröjning. |
