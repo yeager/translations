@@ -60,6 +60,13 @@ källa och den faktiska svenska Lokalise-strängen.
   passport.yandex.ru.*; saknad översättning tillagd och återläst.
 - `common.config_entries.auth_cookies.action_label`: *Login with Cookies* →
   *Logga in med kakor*; saknad översättning tillagd och återläst.
+- `common.config_entries.auto_play.label`: *Automatically play (resume on
+  power on)* → *Automatisk uppspelning (återupptas när strömmen slås på)*;
+  befintlig översättning bevarad.
+- `common.config_entries.auto_play.description`: *When this player is turned
+  ON, automatically start playing (if there are items in the queue).* → *När
+  spelaren är påslagen startar uppspelningen automatiskt (om det finns objekt
+  i kön).*; befintlig översättning bevarad.
 
 ## Upstreamstatus
 
@@ -103,5 +110,8 @@ Server på Lokalise 2026-11-14.
 MA Server på Lokalise 2026-11-14.
 `common.config_entries.auth_cookies.action_label` översattes och återlästes i
 MA Server på Lokalise 2026-11-14.
+`common.config_entries.auto_play.label` och
+`common.config_entries.auto_play.description` kontrollerades i MA Server på
+Lokalise 2026-11-14. Ingen ändring behövdes.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
