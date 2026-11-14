@@ -18,6 +18,8 @@ oförändrade; språkfel rättas direkt och återläses.
   återläst.
 - `common.config_categories.announcements`: *Announcements* → *Meddelanden*;
   befintlig översättning bevarad.
+- `common.config_categories.audio`: *Audio* → *Ljud*; befintlig översättning
+  bevarad.
 
 ## Upstreamstatus
 
@@ -28,5 +30,7 @@ MA Server på Lokalise 2026-11-14. Lokalise-granskning, kodsynkronisering och
 release är inte verifierade.
 `common.config_categories.announcements` kontrollerades i MA Server på
 Lokalise 2026-11-14. Ingen ändring behövdes.
+`common.config_categories.audio` kontrollerades i MA Server på Lokalise
+2026-11-14. Ingen ändring behövdes.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
