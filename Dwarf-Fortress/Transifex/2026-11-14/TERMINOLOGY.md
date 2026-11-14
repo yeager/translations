@@ -6,6 +6,7 @@
 | `Track Stop` | spårstopp | Gruvjärnväg; använd inte den allmänna termen hållplats. |
 | `Minecart` | gruvvagn | Fordonet som kör på räls i fästningen. |
 | `Track` | spår | Räls- och terrängnamn. Väderriktningar och markeringar bevaras när de används som kod. |
+| `Ice Upward Track` | uppåtgående isspår | Terrängtyp. Riktningskoden `NEW` bevaras oförändrad när den förekommer i UI-strängen. |
 | `Upward Track` | uppåtgående spår | Används för räls som lutar uppåt. |
 | `Squad` | trupp | Militär eller tilldelad grupp. |
 | `Workshop` | verkstad | Byggnad där arbetsuppgifter utförs. |
