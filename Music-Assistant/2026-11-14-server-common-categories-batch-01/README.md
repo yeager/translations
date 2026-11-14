@@ -16,6 +16,8 @@ oförändrade; språkfel rättas direkt och återläses.
 - `common.config_categories.airplay`: *AirPlay specific settings* →
   *AirPlay-specifika inställningar*; befintlig översättning rättad och
   återläst.
+- `common.config_categories.announcements`: *Announcements* → *Meddelanden*;
+  befintlig översättning bevarad.
 
 ## Upstreamstatus
 
@@ -24,5 +26,7 @@ oförändrade; språkfel rättas direkt och återläses.
 `common.config_categories.airplay` språkgranskades, rättades och återlästes i
 MA Server på Lokalise 2026-11-14. Lokalise-granskning, kodsynkronisering och
 release är inte verifierade.
+`common.config_categories.announcements` kontrollerades i MA Server på
+Lokalise 2026-11-14. Ingen ändring behövdes.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
