@@ -20,6 +20,8 @@ oförändrade; språkfel rättas direkt och återläses.
   befintlig översättning bevarad.
 - `common.config_categories.audio`: *Audio* → *Ljud*; befintlig översättning
   bevarad.
+- `common.config_categories.audio_analysis`: *Audio Analysis* → *Ljudanalys*;
+  befintlig översättning bevarad.
 
 ## Upstreamstatus
 
@@ -32,5 +34,7 @@ release är inte verifierade.
 Lokalise 2026-11-14. Ingen ändring behövdes.
 `common.config_categories.audio` kontrollerades i MA Server på Lokalise
 2026-11-14. Ingen ändring behövdes.
+`common.config_categories.audio_analysis` kontrollerades i MA Server på
+Lokalise 2026-11-14. Ingen ändring behövdes.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
