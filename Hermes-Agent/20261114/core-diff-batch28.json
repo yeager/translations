@@ -1,0 +1,18 @@
+{
+  "project": "Hermes Agent",
+  "component": "CLI diff and checkpoint baseline",
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "reviewed_at": "2026-11-14",
+  "strings": {
+    "cli.commands.diff.label_working": "Ej indexerade",
+    "cli.commands.diff.label_staged": "Indexerade",
+    "cli.commands.diff.label_all": "Alla (mot HEAD)",
+    "cli.commands.diff.untracked": "Ospårade:",
+    "cli.commands.diff.and_more": "... och {count} till",
+    "cli.commands.diff.more_lines": "... ({count} rader till — {hint})",
+    "cli.commands.diff.stat_hint": "kör /diff --stat för en sammanfattning",
+    "cli.commands.diff.stat_hint_session": "kör /diff session --stat för en sammanfattning",
+    "cli.commands.diff.not_enabled": "Återställningspunkter är inte aktiverade, så det finns ingen sessionsbaslinje.\nAktivera med: hermes --checkpoints\nEller i config.yaml: checkpoints: { enabled: true }\n(En vanlig /diff fungerar fortfarande — den använder Git direkt.)",
+    "cli.commands.diff.no_session_changes": "Inga ändringar — Hermes har inte redigerat några filer här ännu."
+  }
+}
