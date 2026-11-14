@@ -1,0 +1,26 @@
+{
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "component": "tips.t241-t260",
+  "strings": {
+    "tips.t241": "Gatewayen cachelagrar AIAgent-instanser per session — om denna cache förstörs fungerar inte Anthropics promptcachning.",
+    "tips.t242": "Alla webbplatser kan exponera färdigheter via /.well-known/skills/index.json — färdighetshubben upptäcker dem automatiskt.",
+    "tips.t243": "Granskningsloggen för färdigheter i ~/.hermes/skills/.hub/audit.log spårar varje installation och borttagning.",
+    "tips.t244": "Inaktuella git-arbetskopior rensas automatiskt: rena sammanslagna arbetskopior tas bort, medan oanvända smutsiga eller opushade arbetskopior först arkiveras och kan återställas med hermes worktree restore.",
+    "tips.t245": "Profiler avgränsar Hermes tillstånd via HERMES_HOME. Underprocesser för värdverktyg behåller ditt faktiska HOME om inte terminal.home_mode är profile.",
+    "tips.t246": "Miljövariabeln HERMES_HOME_MODE (oktalt, till exempel 0701) anger anpassade katalogbehörigheter för åtkomst till underkataloger i webbservern.",
+    "tips.t247": "Behållarläge: lägg .container-mode i HERMES_HOME så kör värd-CLI:t automatiskt exec i behållaren.",
+    "tips.t248": "Ctrl+C har fem prioritetsnivåer: avbryt inspelning → avbryt promptar → avbryt väljare → avbryt agent → avsluta.",
+    "tips.t249": "Avbrott under en agentkörning loggas i agent.log (visa med `hermes logs`); ange HERMES_DEBUG_INTERRUPT=1 för en detaljerad spårning.",
+    "tips.t250": "BROWSER_CDP_URL ansluter webbläsarverktyg till valfri webbläsare i Chromium-familjen — accepterar WebSocket, HTTP eller värd:port.",
+    "tips.t251": "BROWSERBASE_ADVANCED_STEALTH=true aktiverar avancerat skydd mot upptäckt med anpassad Chromium (Scale Plan).",
+    "tips.t252": "CLI:t växlar automatiskt till kompakt läge i terminaler som är smalare än 80 kolumner.",
+    "tips.t253": "Snabbkommandon stöder två typer: exec (kör skalkommandot direkt) och alias (omdirigerar till ett annat kommando).",
+    "tips.t254": "Delegeringsmodell per uppgift: delegation.model och delegation.provider i konfigurationen dirigerar underagenter till billigare modeller.",
+    "tips.t255": "delegation.reasoning_effort styr oberoende resonemangsdjupet för underagenter.",
+    "tips.t256": "display.platforms i config.yaml tillåter åsidosättning av visning per plattform: {telegram: {tool_progress: all}}.",
+    "tips.t257": "human_delay.mode i konfigurationen simulerar mänsklig skrivhastighet — intervallet min_ms/max_ms kan konfigureras.",
+    "tips.t258": "Migreringar av konfigurationsversioner körs automatiskt vid inläsning — nya konfigurationsnycklar visas utan manuella åtgärder.",
+    "tips.t259": "GPT- och Codex-modeller får särskild vägledning i systemprompten för verktygsdisciplin och obligatorisk verktygsanvändning.",
+    "tips.t260": "Gemini-modeller får anpassade instruktioner för absoluta sökvägar, parallella verktygsanrop och icke-interaktiva kommandon."
+  }
+}
