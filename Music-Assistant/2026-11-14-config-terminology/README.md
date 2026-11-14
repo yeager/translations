@@ -112,6 +112,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish completion of the Deezer configuration batch: ARL authentication, profiles, stream quality, queue continuation and recovery errors
 - Swedish completion of the Deezer media batch: Flow, discovery, genres, personal and recommended playlists, and top-list navigation
 - Swedish completion of the OpenSubsonic provider: connection and authentication settings, recommendations, raw-stream handling and connection errors
+- Swedish completion of the Audible provider: marketplace selection, browser login, redirect handling, catalog and library navigation
 
 ## Checks
 
@@ -126,7 +127,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `1fa26a54a5123dde53a09c66dd2f313cf914eaff`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `2440d0cadb5e7cc558492016a2e2f7e01f5b761f`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
