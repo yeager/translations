@@ -24,6 +24,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - eleven source-specific library synchronization labels, using `läs in` for track import and `synkronisera` for two-way library operations
 - the corresponding eleven source-specific library synchronization descriptions, including the behavior for albums, playlists, deletions and two-way sync
 - Swedish network-discovery and stream-server binding settings, with technical terms retained where required: `mDNS`, `UPnP`, `IPv4`, `IPv6` and `Zeroconf`
+- Swedish device setup, network-advertised naming and session-authentication settings, retaining the established technical term `token`
 
 ## Checks
 
@@ -36,6 +37,6 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `d8d921b89d18667640124a553de41f9fecb48112`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `12c927e7e3e02ba2a704315f636a3d99edcc1093`.
 
 The PR is open. Its initial repository verification requests the project's full pre-commit and pytest checklist. Those commands are unavailable in the sparse review checkout, which lacks both the repository runner and its Python 3.14 environment; the PR body records that limitation rather than claiming checks that did not run. Repository lint passed; its three pytest jobs are still pending. It has not received maintainer review or been merged.
