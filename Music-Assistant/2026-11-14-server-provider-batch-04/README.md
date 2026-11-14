@@ -4,7 +4,7 @@ Datum: 2026-11-14
 
 Komponent: `music-assistant/server`, Lokalise-projektet **MA Server**.
 
-Nio svenska strängar för Apple Music: ett synligt tokenfält samt hela anslutningsflödet. `MusicKit App Token` utelämnas avsiktligt eftersom Lokalise redan har den etablerade översättningen *MusicKit-apptoken*. Apple Music, MusicKit, Apple-ID och `Music User Token` är produkt- eller API-namn och behålls därför i den form användaren möter i Apples dokumentation. Omgivande UI-text är svensk.
+Åtta svenska strängar för Apple Musics anslutningsflöde. Tokenetiketterna utelämnas avsiktligt eftersom Lokalise redan har *MusicKit-apptoken* och *Manuell Musik-användartoken*. Apple Music, MusicKit och Apple-ID behålls som synliga produktnamn. Omgivande UI-text är svensk.
 
 ## Upstreamstatus
 
