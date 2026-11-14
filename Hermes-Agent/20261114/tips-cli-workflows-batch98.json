@@ -1,0 +1,26 @@
+{
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "component": "tips.t341-t360",
+  "strings": {
+    "tips.t341": "/commands delar upp den fullständiga listan över snedstreckskommandon och installerade färdigheter i sidor — användbart på plattformar utan tabbkomplettering.",
+    "tips.t342": "/toolsets listar alla tillgängliga verktygsuppsättningar så att du vet vad -t/--toolsets accepterar.",
+    "tips.t343": "/voice tts växlar läget för enbart TTS — agenten svarar högt men du skriver fortfarande dina promptar.",
+    "tips.t344": "/reload-skills skannar om ~/.hermes/skills/ så att färdigheter som lagts direkt visas utan att sessionen startas om.",
+    "tips.t345": "/indicator kaomoji|emoji|unicode|ascii väljer stilen för TUI:ts upptagenindikator som visas under agentkörningar.",
+    "tips.t346": "/debug upload laddar upp en sammanfattning (versioner, konfigurationsnycklar, antal fel; ingen loggtext) och returnerar en delbar länk — fungerar även i chatten.",
+    "tips.t347": "hermes -z \"<prompt>\" är den renaste engångskörningen: slutsvar på standardutdata, inget annat — perfekt för att skicka vidare i skript.",
+    "tips.t348": "hermes chat --pass-session-id injicerar sessions-ID:t i systemprompten så att agenten kan referera till det själv.",
+    "tips.t349": "hermes chat --image path/to/pic.png bifogar en lokal bild till en enskild -q-fråga utan ett separat uppladdningssteg.",
+    "tips.t350": "hermes chat --ignore-user-config hoppar över den aktiva användarkonfigurationen — reproducerbara felrapporter och CI-körningar.",
+    "tips.t351": "hermes chat --source tool märker programmatiska chattar så att de inte fyller listan över hermes-sessioner.",
+    "tips.t352": "hermes dump --show-keys inkluderar maskerade API-nyckelfingeravtryck för mer djupgående felsökning av supportärenden.",
+    "tips.t353": "hermes sessions rename <ID> \"new title\" byter namn på valfri tidigare session; hermes sessions delete <ID> tar bort en.",
+    "tips.t354": "hermes import återställer en fullständig Hermes-säkerhetskopia i zip-format; sessionsexporter i JSON/JSONL importeras från Sessions-sidan i instrumentpanelen.",
+    "tips.t355": "hermes fallback hanterar kedjan fallback_model interaktivt — ingen manuell redigering av config.yaml.",
+    "tips.t356": "hermes pairing roterar token för DM-parkoppling — den första som skickar meddelande efter rotationen får åtkomst till boten.",
+    "tips.t357": "hermes setup guidar förstagångsanvändare genom leverantör, nycklar och plattformsanslutning i ett interaktivt flöde.",
+    "tips.t358": "hermes status --deep kör den fullständiga hälsogenomgången av alla komponenter; vanliga hermes status är snabbvyn.",
+    "tips.t359": "HERMES_AGENT_TIMEOUT=0 inaktiverar gatewayens avslutning på grund av inaktivitet för en körande agent — använd för långa forskningskörningar.",
+    "tips.t360": "HERMES_ENABLE_PROJECT_PLUGINS=1 läser automatiskt in lokala insticksmoduler från ./.hermes/plugins/ — med avsikt skyddat av en förtroendekontroll."
+  }
+}
