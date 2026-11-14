@@ -70,8 +70,8 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `da3f0aa547454a7cc8b3b709949c58827e16b18b`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `5c4374e967aadfb6fb9dcb57ec8b3c538f55560b`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
-All previously recorded batches have been pushed to the PR branch. The newly recorded smart-shuffle batch is locally committed as `5c4374e` and ready for the normal upstream push; it is not maintainer reviewed or merged.
+All recorded batches have been pushed to the PR branch. The replacement CI run was requested by the latest push; it is not maintainer reviewed or merged.
