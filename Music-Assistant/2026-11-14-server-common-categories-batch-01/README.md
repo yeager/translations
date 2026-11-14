@@ -26,6 +26,8 @@ oförändrade; språkfel rättas direkt och återläses.
   saknad översättning tillagd och återläst.
 - `common.config_categories.builtin_playlists`: *Builtin Playlists* →
   *Inbyggda spellistor*; befintlig översättning bevarad.
+- `common.config_categories.click_actions`: *Click actions* →
+  *Klickåtgärder*; saknad översättning tillagd och återläst.
 
 ## Upstreamstatus
 
@@ -44,5 +46,7 @@ Lokalise 2026-11-14. Ingen ändring behövdes.
 Lokalise 2026-11-14.
 `common.config_categories.builtin_playlists` kontrollerades i MA Server på
 Lokalise 2026-11-14. Ingen ändring behövdes.
+`common.config_categories.click_actions` översattes och återlästes i MA Server
+på Lokalise 2026-11-14.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
