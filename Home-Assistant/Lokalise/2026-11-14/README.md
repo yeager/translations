@@ -16,9 +16,10 @@ och den nya Voice-appen:
 - Nästa generations röst
 - Funktionen är fortfarande under utveckling och kan ändras. På ett system med Home Assistant OS eller Supervised installeras Voice-appen när funktionen aktiveras.
 
-Fem ytterligare, sammanhängande Voice-strängar finns i
-[`voice-batch-2.md`](voice-batch-2.md). Totalt omfattar dagens arkiverade
-arbete därmed 14 direkt sparade och återlästa strängar.
+Ytterligare Voice-strängar finns i
+[`voice-batch-2.md`](voice-batch-2.md) och
+[`voice-batch-3.md`](voice-batch-3.md). Totalt omfattar dagens arkiverade
+arbete därmed 17 direkt sparade och återlästa strängar.
 
 Not: Batcharna är sparade upstream i Lokalise. Detta är inte en fullständig
 genomgång av Home Assistant Core; oöversatta strängar återstår och behandlas i
