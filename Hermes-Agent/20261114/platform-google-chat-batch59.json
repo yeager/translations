@@ -1,0 +1,31 @@
+{
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "component": "platform.google_chat",
+  "strings": {
+    "platform.google_chat.clarify.other_button": "Annat / skriv svaret",
+    "platform.google_chat.clarify.header": "Fråga",
+    "platform.google_chat.clarify.question": "❓ {question}",
+    "platform.google_chat.typing.thinking": "Hermes tänker…",
+    "platform.google_chat.typing.interrupted": "(avbröts)",
+    "platform.google_chat.typing.no_reply": "(inget svar)",
+    "platform.google_chat.attachment_fallback.header": "⚠️ Jag kunde inte bifoga **{filename}**.",
+    "platform.google_chat.attachment_fallback.explain": "Google Chat tillåter bara filbilagor när boten har ditt uttryckliga tillstånd (användar-OAuth). Det är ett engångsgodkännande som görs från denna chatt.",
+    "platform.google_chat.attachment_fallback.activate": "**Så aktiverar du det:** skicka `/setup-files` och följ instruktionerna.",
+    "platform.google_chat.attachment_fallback.host_path": "Under tiden finns filen på värden: `{path}`",
+    "platform.google_chat.setup_files.not_configured": "🔧 Inbyggd leverans av bilagor är **inte konfigurerad**.\n**Steg 1 (en gång, på värden):** skapa OAuth-klientuppgifter på https://console.cloud.google.com/apis/credentials → *Create credentials* → *OAuth client ID* → *Desktop app*. Hämta JSON-filen. Kör sedan på värden:\n```\npython -m plugins.platforms.google_chat.oauth --client-secret /path/to/client_secret.json\n```\n**Steg 2:** kom tillbaka hit och skicka `/setup-files start`.",
+    "platform.google_chat.setup_files.start_instructions": "1. Öppna den här webbadressen i webbläsaren och auktorisera:\n{auth_url}\n\n2. När du har klickat på *Allow* kan webbläsaren inte läsa in `http://localhost:1/?...&code=...`. Det är förväntat.\n\n3. Kopiera hela den misslyckade webbadressen från webbläsarens adressfält och klistra in den här som: `/setup-files <PASTE_URL>` (eller bara värdet `code=...`).\n\nTips: webbadressen innehåller ditt åtkomstbeviljande — håll den privat.",
+    "platform.google_chat.setup_files.start_failed": "❌ Kunde inte generera OAuth-webbadressen. Kontrollera gateway-loggarna och att client_secret.json är giltig.",
+    "platform.google_chat.setup_files.exchange_failed": "❌ Tokenutbytet misslyckades. Koden kan ha löpt ut eller så har webbadressen fel format. Skicka `/setup-files start` för att hämta en ny OAuth-webbadress.",
+    "platform.google_chat.setup_files.revoke_completed": "Återkallandet är klart (vissa steg kan ha hoppats över).",
+    "platform.google_chat.setup_files.revoked": "Återkallad.",
+    "platform.google_chat.setup_files.helper_error": "❌ Fel: {error}",
+    "platform.google_chat.setup_files.revoke_error": "❌ Fel vid återkallande: {error}",
+    "platform.google_chat.setup_files.who_shared": "delad (äldre)",
+    "platform.google_chat.setup_files.active": "✅ Inbyggd leverans av bilagor är **aktiv** för `{who}`.\nToken: `{token_path}`\nSkicka `/setup-files revoke` för att inaktivera.",
+    "platform.google_chat.setup_files.not_authorized_yet": "🔧 Klientuppgifterna är lagrade, men du har inte auktoriserat ännu. Skicka `/setup-files start` för att börja.",
+    "platform.google_chat.setup_files.no_client_credentials": "⚠️ Det finns inga lagrade klientuppgifter för denna profil. Skicka `/setup-files` (utan argument) för installationsanvisningar.",
+    "platform.google_chat.setup_files.done_output": "✅ Klart.\n```\n{output}\n```",
+    "platform.google_chat.setup_files.authorized": "✅ Auktoriserad! Inbyggd leverans av bilagor är nu aktiv. Be mig prova att skicka en PDF.",
+    "platform.google_chat.setup_files.exchanged_not_loaded": "⚠️ Token har utbytts men gatewayen kunde inte läsa in de nya klientuppgifterna i minnet. Starta om gatewayen så läses token på `{token_path}` in.\nHjälputdata:\n```\n{output}\n```"
+  }
+}
