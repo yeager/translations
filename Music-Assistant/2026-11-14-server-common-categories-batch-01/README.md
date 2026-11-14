@@ -52,6 +52,8 @@ oförändrade; språkfel rättas direkt och återläses.
   befintlig översättning rättad och återläst.
 - `common.config_categories.player_controls`: *Player controls* →
   *Spelarkontroller*; befintlig översättning rättad och återläst.
+- `common.config_categories.plugins`: *Plugins* → *Insticksmoduler*; saknad
+  översättning tillagd och återläst.
 
 ## Upstreamstatus
 
@@ -96,5 +98,7 @@ Server på Lokalise 2026-11-14.
 MA Server på Lokalise 2026-11-14.
 `common.config_categories.player_controls` språkgranskades, rättades och
 återlästes i MA Server på Lokalise 2026-11-14.
+`common.config_categories.plugins` översattes och återlästes i MA Server på
+Lokalise 2026-11-14.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
