@@ -55,6 +55,7 @@ Ytterligare Voice-strängar finns i
 [`tuya-electrical-alerts-batch-37.md`](tuya-electrical-alerts-batch-37.md).
 [`tuya-temperature-power-batch-38.md`](tuya-temperature-power-batch-38.md).
 [`midea-sleep-batch-39.md`](midea-sleep-batch-39.md).
+[`latest-readback-verification.md`](latest-readback-verification.md).
 Totalt omfattar dagens arkiverade arbete därmed 117 direkt sparade och
 återlästa strängar.
 
