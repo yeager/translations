@@ -52,3 +52,11 @@ webbplatssträngen skickades och återlästes: `release_line` →
 `{{ .Name }}, släppt {{ .Date }}.`. Efter återläsning visar Transifex 14
 ogranskade svenska strängar och 460 oöversatta. Arkivbatch:
 `website-2026-11-14-batch-01`.
+
+Fortsatt radgranskning och direkt sparande i Transifex har slutfört
+komponenterna About – Concept art, About – Development activity, About – The
+story, Community – Tips och Community – Mods. Varje komponent har arkiverats
+som egen deltafil med granskningslogg. I Community – Mods är båda strängarna
+nu översatta och återlästa (2/2), med bevarad Markdown-länk till `mod.io`.
+Projektgranskning, källsynkronisering och webbpublicering är fortfarande inte
+verifierade.
