@@ -1,0 +1,32 @@
+{
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "component": "cli.billing.remote_reload",
+  "strings": {
+    "cli.billing.monthly_cap_reached": "🔴 Månatlig utgiftsgräns nådd.",
+    "cli.billing.try_again_in_min": " (försök igen om ~{minutes} min)",
+    "cli.billing.too_many_charges": "🟡 För många debiteringar just nu{mins}. Detta är inte ett betalningsfel.",
+    "cli.billing.remote_spending_needs_approval": "🔴 Fjärrbetalning kräver godkännande — kör /topup för att tillåta den och försök sedan igen.",
+    "cli.billing.your_topup": "din påfyllning",
+    "cli.billing.charge_stepup_explain": "För att debitera från den här terminalen tillåter du fjärrbetalning en gång. Det öppnar webbläsaren för auktorisering, sedan fortsätter processen för {amount} här.",
+    "cli.billing.charge_stepup_noninteractive": "Kör `hermes portal` och tillåt fjärrbetalning, försök sedan igen.",
+    "cli.billing.charge_stepup_declined": "Ingen debitering genomfördes. Kör /topup när du vill tillåta fjärrbetalning.",
+    "cli.billing.charge_stepup_not_granted": "Kunde inte tillåta fjärrbetalning — en organisationsadministratör eller -ägare måste godkänna den. Ditt kort debiterades inte.",
+    "cli.billing.allowed_but_org_off": "Fjärrbetalning är tillåten för den här terminalen men fortfarande avstängd för organisationen. En faktureringsadministratör kan aktivera den på Hermes Agent-sidan i portalen. Kör sedan /topup igen.",
+    "cli.billing.allowed_no_card": "Fjärrbetalning tillåten — men inget registrerat kort finns ännu.",
+    "cli.billing.topup_on_portal_to_continue": "Fyll på och hantera faktureringen i portalen för att fortsätta.",
+    "cli.billing.allowed_run_topup": "Fjärrbetalning tillåten. Kör /topup för att fortsätta.",
+    "cli.billing.choice_resume_topup": "Återuppta påfyllning på {amount}",
+    "cli.billing.desc_resume_topup": "slutför det vilande köpet",
+    "cli.billing.resume_topup_title": "Återuppta påfyllningen",
+    "cli.billing.resume_topup_detail": "{amount} är redo att slutföras — tryck Enter för att återuppta.",
+    "cli.billing.resuming_topup": "Återupptar påfyllningen — bekräftar avräkningen…",
+    "cli.billing.auto_reload": "Automatisk påfyllning",
+    "cli.billing.auto_reload_hint": "Lägg till pengar automatiskt när saldot är lågt.",
+    "cli.billing.card_on_file": "Registrerat kort: {card}",
+    "cli.billing.no_saved_card_manage_portal": "Inget registrerat kort — hantera faktureringen i portalen.",
+    "cli.billing.auto_reload_rule": "under {threshold} → fyll på till {reload_to}",
+    "cli.billing.auto_reload_rule_cap": "Under {threshold} → fyll på till {reload_to}",
+    "cli.billing.currently": "Nuvarande: {rule}",
+    "cli.billing.auto_reload_on_detail": "På — {rule}"
+  }
+}
