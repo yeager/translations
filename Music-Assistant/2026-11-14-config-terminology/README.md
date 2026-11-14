@@ -100,6 +100,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish completion of all seven current-source Player-module keys: announcement text-to-speech, adaptive volume steps and protocol-compatible group playback
 - Swedish completion of all six current-source Statistics and Tasks module keys: listening analytics and bounded concurrent background work
 - Swedish completion of the current-source Webserver module: self-registration, internal and external URLs, TLS certificates, reverse-proxy guidance and secure remote access; the changed `base_url` label is `Intern URL`
+- Swedish completion of the first Streams-module batch: same-album crossfade, background-analysis concurrency, memory-buffer strategy, published IP address, intelligent-overtoning logging, source selection and quality thresholds
 
 ## Checks
 
@@ -114,7 +115,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `25d11385a3c43aeaf635a5768daf338217a8cee5`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `55e640edfd725827972ef1764f389c860d1c8732`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
