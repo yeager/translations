@@ -55,6 +55,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish review of 25 player-queue settings for automatic playback and övertoning, including the source-specific explanations, dynamic playlists, similar artists, smart transitions and audio-buffer requirements
 - Swedish review of 24 player-queue settings for default click actions on albums, artists, genres, playlists and radio stations, plus global, smart and standard övertoning choices
 - Swedish review of 25 further player-queue settings for tracks and default queuing of albums, artists, audiobooks, folders, genres, radio stations and direct inputs. The source em dash is retained in the live-stream explanation
+- Swedish review of 20 player-queue settings for playlists, podcasts, podcast episodes and tracks, plus artist playback order and its album, release-year and shuffled-track behaviors
 
 ## Checks
 
@@ -72,3 +73,5 @@ Submitted as [music-assistant/server#7640](https://github.com/music-assistant/se
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
 All recorded batches have been pushed to the PR branch. The replacement CI run has been requested; it is not maintainer reviewed or merged.
+
+The locally checked queue-ordering batch is committed as `3162aa4e96e0419f1acea89d342cab9d336bcd98` and awaits the currently running CI before its push to the PR branch.
