@@ -58,6 +58,8 @@ oförändrade; språkfel rättas direkt och återläses.
   befintlig översättning bevarad.
 - `common.config_categories.presets`: *Presets* → *Förinställningar*;
   befintlig översättning bevarad.
+- `common.config_categories.recommendations`: *Recommendations* →
+  *Rekommendationer*; saknad översättning tillagd och återläst.
 
 ## Upstreamstatus
 
@@ -108,5 +110,7 @@ Lokalise 2026-11-14.
 2026-11-14. Ingen ändring behövdes.
 `common.config_categories.presets` kontrollerades i MA Server på Lokalise
 2026-11-14. Ingen ändring behövdes.
+`common.config_categories.recommendations` översattes och återlästes i MA
+Server på Lokalise 2026-11-14.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
