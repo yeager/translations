@@ -71,6 +71,8 @@ oförändrade; språkfel rättas direkt och återläses.
   befintlig översättning bevarad.
 - `common.config_categories.protocol_general`: *General* → *Allmänt*;
   befintlig översättning bevarad.
+- `common.config_categories.protocol_generic`: *Generic* → *Allmänt*;
+  befintlig översättning bevarad.
 
 ## Upstreamstatus
 
@@ -132,6 +134,8 @@ Lokalise 2026-11-14; identisk källtext är korrekt fackterm.
 `common.config_categories.web_player` kontrollerades i MA Server på Lokalise
 2026-11-14. Ingen ändring behövdes.
 `common.config_categories.protocol_general` kontrollerades i MA Server på
+Lokalise 2026-11-14. Ingen ändring behövdes.
+`common.config_categories.protocol_generic` kontrollerades i MA Server på
 Lokalise 2026-11-14. Ingen ändring behövdes.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
