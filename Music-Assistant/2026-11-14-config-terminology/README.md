@@ -103,6 +103,8 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Targeted `svlang` review found only known false positives for the product names AirPlay and TTS, and for valid Swedish inversion.
 - Targeted `hunspell -d sv_SE -l` ran with `nice -n 10`; technical or product compounds such as `AirPlay` and `streamingtjänsten` are reviewed manually. No Hunspell process remained afterward.
 - `git diff --check` and Gitleaks passed.
+- Full-catalog checks found no target em dash that is absent from its source and no value with three consecutive identical consonants.
+- The remaining source-identical values are verified UI terms, technical values, folder names or established genre names. The only remaining `smart` wording is the established home-automation term `smart uttag`.
 - `msgfmt` is not applicable to this JSON catalog.
 
 ## Upstream status
