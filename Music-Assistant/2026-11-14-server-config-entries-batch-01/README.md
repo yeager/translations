@@ -37,6 +37,9 @@ källa och den faktiska svenska Lokalise-strängen.
   (adjustment) of announcements should not go below this level.* →
   *Volymjusteringen för meddelanden bör inte understiga denna nivå.*;
   översättningen förtydligad.
+- `common.config_entries.announce_volume_min.label`: *Minimum Volume level
+  for Announcements* → *Lägsta volymnivå för meddelanden*; befintlig
+  översättning bevarad.
 
 ## Upstreamstatus
 
@@ -57,5 +60,7 @@ Server på Lokalise 2026-11-14. Ingen ändring behövdes.
 på Lokalise 2026-11-14. Ingen ändring behövdes.
 `common.config_entries.announce_volume_min.description` förtydligades och
 återlästes i MA Server på Lokalise 2026-11-14.
+`common.config_entries.announce_volume_min.label` kontrollerades i MA Server
+på Lokalise 2026-11-14. Ingen ändring behövdes.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
