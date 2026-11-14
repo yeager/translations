@@ -1,0 +1,26 @@
+{
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "component": "tips.t281-t300",
+  "strings": {
+    "tips.t281": "MCP-platshållare av typen ${ENV_VAR} i konfigurationen löses när servern startas — även variabler från ~/.hermes/.env.",
+    "tips.t282": "Färdigheter från betrodda förråd (NousResearch) får säkerhetsnivån 'trusted'; färdigheter från gemenskapen får extra granskning.",
+    "tips.t283": "Karantänen för färdigheter i ~/.hermes/skills/.hub/quarantine/ innehåller färdigheter som väntar på säkerhetsgranskning.",
+    "tips.t284": "/steer <prompt> injicerar en anteckning efter nästa verktygsanrop — styr riktningen mitt i uppgiften utan att avbryta.",
+    "tips.t285": "/goal <text> anger ett fortlöpande Ralph-loopmål — Hermes fortsätter automatiskt tur efter tur tills en bedömare säger att det är klart.",
+    "tips.t286": "/snapshot create [label] sparar en fullständig tillståndsbild av Hermes konfiguration; /snapshot restore <id> återställer den senare.",
+    "tips.t287": "/copy [N] kopierar det senaste assistentsvaret till urklipp, eller det n:te senaste med ett nummer.",
+    "tips.t288": "/redraw tvingar fram en fullständig omritning av gränssnittet och åtgärdar terminalförskjutning efter ändrad tmux-storlek eller artefakter från musmarkering.",
+    "tips.t289": "/agents (alias /tasks) visar aktiva agenter och körande bakgrundsuppgifter i den aktuella sessionen.",
+    "tips.t290": "/footer växlar gatewayens sidfot i slutsvar, som visar modell, kontextprocent och cwd.",
+    "tips.t291": "/busy queue|steer|interrupt styr vad en tryckning på Enter gör medan Hermes arbetar.",
+    "tips.t292": "/topic i Telegram-direktmeddelanden aktiverar användarhanterat ämnesläge med flera sessioner — /topic <id> återställer tidigare sessioner direkt i chatten.",
+    "tips.t293": "/approve session|always kör ett väntande riskfyllt kommando med din valda omfattning för förtroendet; /deny avvisar det.",
+    "tips.t294": "/restart startar om gatewayen kontrollerat efter att aktiva körningar har tömts och pingar sedan begäraren när den är igång igen.",
+    "tips.t295": "/kanban boards switch <slug> ändrar den aktiva Kanban-tavlan för flera projekt inifrån chatten.",
+    "tips.t296": "/reload läser in ~/.hermes/.env på nytt i den körande sessionen — nya API-nycklar används utan omstart.",
+    "tips.t297": "Ett cronjobb med no_agent=True kör ett skript enligt schema och skickar standardutdata direkt — noll token, ingen LLM.",
+    "tips.t298": "Tomma standardutdata från ett cron-skript innebär en tyst körning — inget levereras, perfekt för övervakare av tröskelvärden.",
+    "tips.t299": "HERMES_CRON_MAX_PARALLEL (standardvärde 4) begränsar hur många cronjobb som körs per körning så att toppar inte mättar dina nycklar.",
+    "tips.t300": "Gatewaykrokar finns under ~/.hermes/hooks/<name>/ med HOOK.yaml + handler.py — hanteraren måste heta `handle`."
+  }
+}
