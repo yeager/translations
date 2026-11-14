@@ -1,0 +1,28 @@
+{
+  "project": "Hermes Agent",
+  "component": "CLI browser connection and launch",
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "reviewed_at": "2026-11-14",
+  "strings": {
+    "cli.commands.browser.engine_not_in_use": "⚠ browser.engine är 'lightpanda' men används INTE: {reason}",
+    "cli.commands.browser.engine_lightpanda": "Motor: Lightpanda — {reason} (inga skärmbilder)",
+    "cli.commands.browser.binary": "Binärfil: {path}",
+    "cli.commands.browser.binary_not_found": "⚠ Hittade inte binärfilen lightpanda — {hint}",
+    "cli.commands.browser.scheme_missing": "(saknas)",
+    "cli.commands.browser.unsupported_scheme": "⚠ Webbläsarens URL-schema {scheme} stöds inte (förväntade något av: http, https, ws, wss)",
+    "cli.commands.browser.invalid_port": "⚠ Ogiltig port i webbläsarens URL: {url}",
+    "cli.commands.browser.missing_host": "⚠ Värd saknas i webbläsarens URL: {url}",
+    "cli.commands.browser.port_occupied": "⚠ Port {port} används av ett annat program som inte är en CDP-webbläsare",
+    "cli.commands.browser.port_occupied_detail": "(en IDE-felsökare eller utvecklingsserver kan använda den) — startar i stället på port {launch_port}...",
+    "cli.commands.browser.launching": "En Chromium-baserad webbläsare körs inte med fjärrfelsökning — försöker starta den...",
+    "cli.commands.browser.launch_failed": "⚠ Det gick inte att starta en Chromium-baserad webbläsare automatiskt",
+    "cli.commands.browser.launch_manually": "Starta en Chromium-baserad webbläsare manuellt:",
+    "cli.commands.browser.no_executable": "Ingen Chromium-baserad webbläsare som stöds hittades i den här miljön",
+    "cli.commands.browser.launched": "✓ Chromium-baserad webbläsare startades och lyssnar på port {port}",
+    "cli.commands.browser.not_responding": "⚠ Webbläsaren startades men port {port} svarar inte ännu",
+    "cli.commands.browser.try_again": "Försök igen om några sekunder — felsökningsinstansen kanske fortfarande startar",
+    "cli.commands.browser.already_listening": "✓ Chromium-baserad webbläsare lyssnar redan på {url}",
+    "cli.commands.browser.port_unreachable": "⚠ Port {port} kan inte nås på {url}",
+    "cli.commands.browser.not_connected": "Webbläsaren är inte ansluten. Starta en Chromium-baserad webbläsare med fjärrfelsökning och kör /browser connect igen"
+  }
+}
