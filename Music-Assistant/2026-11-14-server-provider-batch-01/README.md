@@ -25,6 +25,12 @@ Den tidigare lokala kandidaten från den stängda PR:en `yeager/music-assistant-
 - `l10n-lint`, `svlang` och `hunspell-sv` när verktygens formatstöd räcker
 - `git diff --check` och Gitleaks före arkivering
 
+`svlang check --file` kördes 2026-11-14. Dess sällsynthetsvarningar och
+Hunspell-träffar gäller produktnamn, protokoll, API-namn och JSON-nycklar.
+Tre V2-varningar gäller etiketter eller satsinledningar och är manuellt
+bedömda som falska positiva. Inga ord har därför ändrats enbart för att tysta
+verktygen.
+
 `msgfmt` är inte tillämpligt eftersom Lokalise-exporten är JSON.
 
 ## Upstreamstatus
