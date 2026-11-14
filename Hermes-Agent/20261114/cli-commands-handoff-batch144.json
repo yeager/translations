@@ -1,0 +1,33 @@
+{
+  "project": "Hermes Agent",
+  "language": "sv",
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "status": "reviewed-local",
+  "strings": {
+    "cli.commands.handoff.usage": "Användning: /handoff <plattform>",
+    "cli.commands.handoff.usage_detail_1": "Lämnar över den aktuella sessionen till plattformens hemkanal.",
+    "cli.commands.handoff.usage_detail_2": "CLI-sessionen avslutas här; återuppta den senare med /resume.",
+    "cli.commands.handoff.already_in_flight": "Sessionen håller redan på att lämnas över. Vänta tills den är stabil och försök igen.",
+    "cli.commands.handoff.queued": "Köade överlämning av '{title}' → {platform} (hem: {home}).",
+    "cli.commands.handoff.waiting": "Väntar på att gatewayen ska ta hand om den...",
+    "cli.commands.handoff.config_load_failed": "Kunde inte läsa in gatewaykonfigurationen: {error}",
+    "cli.commands.handoff.unknown_platform": "Okänd plattform '{platform}'.",
+    "cli.commands.handoff.platform_not_enabled": "Plattformen '{platform}' är inte konfigurerad eller aktiverad i gatewayen.",
+    "cli.commands.handoff.no_home_channel": "Ingen hemkanal är konfigurerad för {platform}.",
+    "cli.commands.handoff.set_home_hint": "Ange en med /sethome i målchatten först.",
+    "cli.commands.handoff.session_row_failed": "Kunde inte säkerställa sessionsraden i state.db: {error}",
+    "cli.commands.handoff.picked_up": "Gatewayen tog hand om den; överför...",
+    "cli.commands.handoff.complete": "↻ Överlämningen är klar. Sessionen är nu aktiv på {platform}.",
+    "cli.commands.handoff.resume_hint": "Återuppta den senare i detta CLI med: /resume {title}",
+    "cli.commands.handoff.unknown_error": "okänt fel",
+    "cli.commands.handoff.failed": "Överlämningen misslyckades: {error}",
+    "cli.commands.handoff.session_intact_retry": "Din CLI-session är intakt. Försök med /handoff igen eller /resume manuellt på plattformen.",
+    "cli.commands.handoff.still_transferring": "Överför fortfarande (agenten spelar upp sessionen på målet)...",
+    "cli.commands.handoff.taking_long": "Gatewayen tar ovanligt lång tid på sig att slutföra överföringen.",
+    "cli.commands.handoff.check_platform": "Kontrollera {platform} — sessionen kan fortfarande komma dit.",
+    "cli.commands.handoff.no_longer_waiting": "Det här CLI:t väntar inte längre. Undvik att fortsätta sessionen här;",
+    "cli.commands.handoff.retry_when_settled": "om inget kommer fram kan du försöka med /handoff igen när tillståndet har stabiliserats.",
+    "cli.commands.handoff.timed_out": "Tidsgränsen gick ut medan gatewayen väntades på. Körs `hermes gateway`?",
+    "cli.commands.handoff.session_intact": "Din CLI-session är intakt."
+  }
+}
