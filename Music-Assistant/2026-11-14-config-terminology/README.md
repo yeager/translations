@@ -149,4 +149,4 @@ The reviewed work is **not submitted through Music Assistant's established trans
 
 On 2026-11-14, the available authenticated Lokalise session was checked. It provides access to four Home Assistant projects only; Music Assistant is not listed. No Music Assistant translation was uploaded, suggested or modified in Lokalise. Access to the project's Lokalise space is the remaining blocker before submission and subsequent readback verification.
 
-The local Swedish export predates the current English source snapshot: it contains 1,034 keys while the current source contains 3,173. The current-source gaps are being added in reviewed batches; do not infer a fully current Swedish catalog from the older export's non-empty-value count.
+The latest local Swedish candidate is the closed-PR head `b92a0cc69162637e95b89bed8ae4e51a969b622e`, not the much older exported snapshot. Against the current 2026-11-14 English source it covers 2,083 of 3,175 current keys; 1,092 were still missing before the separately archived provider batch. Do not infer upstream availability from this local candidate: no part of it has been entered in Lokalise.
