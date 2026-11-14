@@ -98,6 +98,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish completion of 13 current-source keys for the Cache, Dashboard and Discovery modules, including cache clearing, dashboard casting and UPnP/SSDP network discovery
 - Swedish completion of all 20 current-source Metadata-module keys: online and local metadata precedence, radio artwork, MusicBrainz linking, preferred language and thumbnail-cache limits
 - Swedish completion of all seven current-source Player-module keys: announcement text-to-speech, adaptive volume steps and protocol-compatible group playback
+- Swedish completion of all six current-source Statistics and Tasks module keys: listening analytics and bounded concurrent background work
 
 ## Checks
 
@@ -112,7 +113,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `13da1aa45e1e26caf99e8f1c1922f2b70c80cb78`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `834ae62362f347e7e99e5588768b5463f2e692ef`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
