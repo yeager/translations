@@ -8,6 +8,6 @@ Komponent: `music-assistant/server`, Lokalise-projektet **MA Server**.
 
 ## Upstreamstatus
 
-Inte uppladdad, föreslagen eller inskickad. Deltat ska skickas i den etablerade Lokalise-redigeraren när den väntande sparbekräftelsen har lämnats. Importresultat och läsning tillbaka dokumenteras därefter.
+`setup_flow.abort.auth_cancelled` sparades och lästes tillbaka i MA Server på Lokalise 2026-11-14. Övriga deltastringar är ännu inte inskickade och befintliga Lokalise-värden ersätts inte. Lokalise-granskning, kodsynkronisering och release är inte verifierade.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON. Övriga kontroller körs före arkivering.
