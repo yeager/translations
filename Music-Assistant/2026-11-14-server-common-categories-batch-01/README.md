@@ -30,6 +30,8 @@ oförändrade; språkfel rättas direkt och återläses.
   *Klickåtgärder*; saknad översättning tillagd och återläst.
 - `common.config_categories.crossfade`: *Crossfade* → *Övertoning*; saknad
   översättning tillagd och återläst.
+- `common.config_categories.debug`: *Debug* → *Felsökning*; saknad
+  översättning tillagd och återläst.
 
 ## Upstreamstatus
 
@@ -51,6 +53,8 @@ Lokalise 2026-11-14. Ingen ändring behövdes.
 `common.config_categories.click_actions` översattes och återlästes i MA Server
 på Lokalise 2026-11-14.
 `common.config_categories.crossfade` översattes och återlästes i MA Server på
+Lokalise 2026-11-14.
+`common.config_categories.debug` översattes och återlästes i MA Server på
 Lokalise 2026-11-14.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
