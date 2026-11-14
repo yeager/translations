@@ -1,0 +1,21 @@
+{
+  "project": "Hermes Agent",
+  "language": "sv",
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "status": "reviewed-local",
+  "strings": {
+    "gateway.approvals.admin_only": "Endast gatewayadministratörer kan ändra det beständiga godkännandeläget.",
+    "gateway.blueprint.failed": "Cron-kommandot /blueprint misslyckades: {error}",
+    "gateway.codex_runtime.config_load_failed": "❌ Det gick inte att läsa in konfigurationen: {error}",
+    "gateway.cron_store.recovered": "✅ Cronlagret {store} är skrivbart igen; {skipped} körning(ar) hoppades över, och varje jobb körs i kapp en gång.",
+    "gateway.cron_store.unwritable": "⚠️ Cronlagret {store} är inte skrivbart ({error}) sedan {since}. Schemalagda jobb hoppas över tills det går att skriva till lagret igen. Åtgärd: {fix}.",
+    "gateway.hooks.command_blocked": "Kommandot `/{command}` blockerades av en hook.",
+    "gateway.login.free_tier_remaining": "\nVissa chattar använder fortfarande gratisnivån; använd /model i de chattarna för att byta.",
+    "gateway.loop.goal_defers_note": "\nObs: ett aktivt /goal styr den här sessionen — loopuppvaknanden skjuts upp tills målet är klart, pausas eller parkeras.",
+    "gateway.loop.no_session": "Loopar är inte tillgängliga (ingen aktiv session).",
+    "gateway.loop.unavailable": "Loopar är inte tillgängliga.",
+    "gateway.memory.unknown_subcommand": "Okänt underkommando till /memory. Använd: pending, approve <id>, reject <id>, approval <on|off>.",
+    "gateway.moa.managed_session": "/moa är inte tillgängligt i den här sessionen: sessioner med säkert läge, konfigurationsfria sessioner, Kanban-sessioner och hanterade arbetarsessioner kör varje tur med sin egen modell. Skicka prompten utan /moa.",
+    "gateway.moa.prepare_failed": "Det gick inte att förbereda MoA-turen."
+  }
+}
