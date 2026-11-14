@@ -1,15 +1,17 @@
-# HP Printer: lokalt granskade, väntande batch 45
+# HP Printer: batcherna 41–45 är klara
 
 Datum: 2026-11-14
 
-Detta underlag är arkiverat för spårbarhet. Strängarna är **inte** sparade
-upstream i Lokalise ännu och får inte räknas som uppladdade eller återlästa.
+Detta underlag är arkiverat för spårbarhet. Samtliga strängar i batch 41–45
+är nu sparade eller separat verifierade i Lokalise.
 
-| Batch | Omfattning | Status |
+| Batch | Omfattning | Slutstatus |
 | --- | ---: | --- |
-| 45 | 10 skrivarstatusvärden | Lokal QA godkänd; väntar på sparning och återläsning. |
-
-Sammanlagt: 10 lokalt granskade strängar.
+| 41 | 2 etiketter för pappersstopp | En sparad, en redan korrekt. |
+| 42 | 4 grundläggande sidräknare | Samtliga redan korrekta. |
+| 43 | 7 räknare för ark, dokumentmatare och skannerglas | Tre sparade, fyra redan korrekta. |
+| 44 | 4 räknare för svartvitt och färg | Två sparade, två redan korrekta. |
+| 45 | 10 skrivarstatusvärden | Tre sparade, sju redan korrekta. |
 
 Käll- och termkontroll:
 
@@ -21,6 +23,5 @@ Käll- och termkontroll:
   Hunspell-sv, diffkontroll och Gitleaks. `skannerglaset` är ett avsiktligt
   sammansatt fackord som Hunspell-sv inte känner igen.
 
-Före sparning krävs fortfarande exakt nyckelkontroll, sparning i Lokalise och
-separat återläsning av varje måltext. Batch 41–44 är sparade eller verifierade
-upstream och dokumenteras i respektive batchfil.
+Varje ändrad måltext sparades i Lokalise och lästes därefter tillbaka separat.
+Oförändrade texter kontrollerades också mot sin exakta nyckel.

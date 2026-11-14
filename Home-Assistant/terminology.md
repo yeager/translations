@@ -19,10 +19,11 @@ källtextens sammanhang.
 | scanned pages from glass | skannade sidor från skannerglaset | HP Printer, flatbäddsskannerns räknare; förtydligar att glaset är skannerns. |
 | copied black and white pages | kopierade svartvita sidor | HP Printer, räknare för svartvita kopior. |
 | copied color pages | kopierade färgsidor | HP Printer, räknare för färgkopior. |
+| close door or cover | stäng luckan eller locket | HP Printer, aktiv åtgärdsstatus. |
+| shutting down | stängs av | HP Printer, pågående status. |
 
 ## Status
 
-De två molnstatusetiketterna, `scanner_jams`, räknaren för skannerglaset och
-två kopieringsräknare är sparade i Lokalise och återlästa där. `jams` och åtta
-övriga räknaretiketter var redan korrekta vid den oberoende verifieringen.
-Återstående räknare väntar på upstream-sparning och separat återläsning.
+De två molnstatusetiketterna, `scanner_jams`, fem räknaretiketter och tre
+skrivarstatusvärden är sparade i Lokalise och återlästa där. Övriga texter i
+batch 41–45 var redan korrekta vid den oberoende verifieringen.
