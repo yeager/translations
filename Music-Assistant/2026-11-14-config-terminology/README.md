@@ -30,6 +30,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish authentication settings for remote servers, device codes, QR codes and browser cookies, retaining canonical names and standards such as `passport.yandex.ru`, `OAuth`, `SSL` and `TLS`
 - Swedish review of output-codec choices and their help text, using `kodek`, `förlustfri`, `med förlust`, `bithastighet` and `samplingsfrekvens`, while retaining the format names `AAC`, `FLAC`, `MP3`, `WAV` and `PCM`
 - Swedish ICY metadata settings, including the flow-mode behavior and the basic and full metadata profiles; the established protocol name `ICY` is retained
+- Swedish AI, image-generation and text-to-speech engine settings. Home Assistant entities and the visible `OpenAI Compatible` integration name remain identifiable while the surrounding UI is Swedish
 
 ## Checks
 
@@ -42,6 +43,6 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `61a1234410000cdb38999d543253a119a1e9e6c2`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `a27c4c6a7dc448956ab82b92356f3078da4d55b0`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
