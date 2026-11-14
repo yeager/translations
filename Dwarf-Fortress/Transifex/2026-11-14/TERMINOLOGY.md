@@ -7,6 +7,7 @@
 | `Minecart` | gruvvagn | Fordonet som kör på räls i fästningen. |
 | `History Seed` | historikfrö | Inställning som styr den genererade världshistorien. |
 | `Cloud View` | molnvy | Visningsläge för moln i världsvyn. |
+| `Dig Mode` | grävläge | Läge för att utse områden för grävning och brytning. |
 | `Track` | spår | Räls- och terrängnamn. Väderriktningar och markeringar bevaras när de används som kod. |
 | `Ice Upward Track` | uppåtgående isspår | Terrängtyp. Riktningskoden `NEW` bevaras oförändrad när den förekommer i UI-strängen. |
 | `Upward Track` | uppåtgående spår | Används för räls som lutar uppåt. |
