@@ -1,0 +1,33 @@
+{
+  "project": "Hermes Agent",
+  "language": "sv",
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "status": "reviewed-local",
+  "strings": {
+    "cli.startup.cooldown_cause_rate_limit": "efter ett svar om hastighets- eller kvotbegränsning",
+    "cli.startup.cooldown_cause_token_refresh": "efter misslyckad uppdatering av token",
+    "cli.startup.cooldown_cause_http": "efter ett HTTP-svar med koden {code}",
+    "cli.startup.cooldown_cause_failed_request": "efter en misslyckad begäran",
+    "cli.startup.credential_cooling_down": "Autentiseringsuppgiften för {provider} är i karens {cause}; den återgår till rotationen om ungefär {minutes} min.",
+    "cli.startup.sign_in_lost": "inloggningen gick förlorad",
+    "cli.startup.sign_in_was_lost": "Inloggningen för {provider} gick förlorad ({reason}); kör `hermes auth add {provider}` för att logga in igen.",
+    "cli.startup.provider_resolution_failed": "Det gick inte att fastställa leverantören.",
+    "cli.startup.no_api_key_for_provider": "⚠️  Ingen API-nyckel hittades för leverantören '{provider}'.",
+    "cli.startup.no_provider_configured": "⚠️  Ingen inferensleverantör har konfigurerats.",
+    "cli.startup.run_model_or_setup": "Kör 'hermes model' för att välja leverantör eller 'hermes setup' för första konfigureringen.",
+    "cli.startup.empty_base_url": "⚠️  Leverantörshanteraren returnerade en tom bas-URL. Kontrollera leverantörens konfiguration eller kör: hermes setup",
+    "cli.startup.switching_to_fallback": "⚠️  {reason} — byter till reserv: {provider} / {model}",
+    "cli.startup.first_run_no_provider": "☤ Ingen inferensleverantör har konfigurerats ännu — vi ordnar det.",
+    "cli.startup.first_run_pick_provider": "Du väljer en leverantör (Nous Portal OAuth är snabbast; ingen API-nyckel behövs) och en modell.",
+    "cli.startup.first_run_prompt": "Konfigurera en leverantör nu? [Y/n]:",
+    "cli.startup.first_run_skipped": "Hoppades över. Kör 'hermes model' eller 'hermes setup' när som helst.",
+    "cli.startup.first_run_cancelled": "Konfigureringen avbröts. Kör 'hermes model' när som helst.",
+    "cli.startup.provider_setup_failed": "⚠️  Leverantörskonfigureringen misslyckades: {error}",
+    "cli.startup.run_model_to_retry": "Kör 'hermes model' för att försöka igen.",
+    "cli.startup.provider_configured": "✓ Leverantören är konfigurerad — du kan börja chatta.",
+    "cli.startup.provider_setup_incomplete": "Leverantörskonfigureringen slutfördes inte. Kör 'hermes model' för att försöka igen.",
+    "cli.startup.unknown_toolsets": "Varning: Okända verktygsuppsättningar: {names}",
+    "cli.startup.stdin_unusable": "\nFel: standardinmatning kan inte användas ({error}).\nDetta kan inträffa med vissa Python-installationer (t.ex. uv-hanterad cPython på macOS)\ndär kqueue inte kan registrera fd 0.\nFörsök installera om Python via pyenv eller Homebrew och kör sedan hermes setup igen",
+    "cli.startup.warning": "Varning: {warning}"
+  }
+}
