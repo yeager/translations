@@ -57,6 +57,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish review of 25 further player-queue settings for tracks and default queuing of albums, artists, audiobooks, folders, genres, radio stations and direct inputs. The source em dash is retained in the live-stream explanation
 - Swedish review of 20 player-queue settings for playlists, podcasts, podcast episodes and tracks, plus artist playback order and its album, release-year and shuffled-track behaviors
 - Swedish review of 16 player-queue settings for choosing album and artist contents and for playing individual tracks from albums and playlists
+- Swedish review of 30 player-queue settings for pause timeouts, smart shuffle, repeat spacing, artist recency and smart-overtoning order optimization
 
 ## Checks
 
@@ -73,4 +74,4 @@ Submitted as [music-assistant/server#7640](https://github.com/music-assistant/se
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
-All recorded batches have been pushed to the PR branch. The replacement CI run was requested by the latest push; it is not maintainer reviewed or merged.
+All previously recorded batches have been pushed to the PR branch. The newly recorded smart-shuffle batch is locally committed as `5c4374e` and ready for the normal upstream push; it is not maintainer reviewed or merged.
