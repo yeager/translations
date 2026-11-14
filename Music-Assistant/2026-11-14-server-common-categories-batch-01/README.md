@@ -62,6 +62,8 @@ oförändrade; språkfel rättas direkt och återläses.
   *Rekommendationer*; saknad översättning tillagd och återläst.
 - `common.config_categories.server`: *Server* → *Server*; saknad översättning
   tillagd och återläst. Identisk källtext är korrekt fackterm.
+- `common.config_categories.status`: *Status* → *Status*; saknad översättning
+  tillagd och återläst. Identisk källtext är korrekt fackterm.
 
 ## Upstreamstatus
 
@@ -115,6 +117,8 @@ Lokalise 2026-11-14.
 `common.config_categories.recommendations` översattes och återlästes i MA
 Server på Lokalise 2026-11-14.
 `common.config_categories.server` översattes och återlästes i MA Server på
+Lokalise 2026-11-14; identisk källtext är korrekt fackterm.
+`common.config_categories.status` översattes och återlästes i MA Server på
 Lokalise 2026-11-14; identisk källtext är korrekt fackterm.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
