@@ -90,6 +90,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish context review of the salsa, singer-songwriter, ska and soul metadata in `common.media`
 - Swedish context review of the trap, waltz and meditation-music metadata in `common.media`
 - Swedish completion of all 59 currently missing `common.media` music-genre descriptions: sound effects, soundtrack, spoken word, swing and tango; the visible `Soundtrack` label was corrected to `Filmmusik`
+- Swedish context review of all 43 source-identical values: 42 are valid Swedish technical values, UI terms, folder names or established genre names; Flow Mode's sample-rate strategy was translated from `Smart` to `Intelligent`
 
 ## Checks
 
@@ -102,7 +103,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `da1e14565eea1de9a8548ee6bef118de6e50af59`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `9d8c0eb589ab6f20991e2892a8c13a3268454308`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
