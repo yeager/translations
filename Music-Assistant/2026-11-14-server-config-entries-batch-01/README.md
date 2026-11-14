@@ -30,6 +30,9 @@ källa och den faktiska svenska Lokalise-strängen.
   (adjustment) of announcements should not go above this level.* → *Volymen
   (justeringen) för meddelanden bör inte överstiga denna nivå.*; befintlig
   översättning bevarad.
+- `common.config_entries.announce_volume_max.label`: *Maximum Volume level
+  for Announcements* → *Maximal volymnivå för meddelanden*; befintlig
+  översättning bevarad.
 
 ## Upstreamstatus
 
@@ -46,5 +49,7 @@ Lokalise 2026-11-14. Ingen ändring behövdes.
 på Lokalise 2026-11-14. Ingen ändring behövdes.
 `common.config_entries.announce_volume_max.description` kontrollerades i MA
 Server på Lokalise 2026-11-14. Ingen ändring behövdes.
+`common.config_entries.announce_volume_max.label` kontrollerades i MA Server
+på Lokalise 2026-11-14. Ingen ändring behövdes.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
