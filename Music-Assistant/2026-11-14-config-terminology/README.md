@@ -106,6 +106,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish completion of the Audiobookshelf provider: connection and authentication settings, server errors, library navigation and recommendation views
 - Swedish completion of the Plex provider: local and account authentication, library selection, collections, stream quality, ratings, discovery and setup flow
 - Swedish completion of the AirPlay provider: buffering, pairing, encryption, volume reporting, stream timing and remote-control setup
+- Swedish completion of the Spotify configuration batch: stream quality, playback engines, Soloist setup, loudness normalization and listening-progress synchronization
 
 ## Checks
 
@@ -120,7 +121,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `c878ca4dba337a7229960da662687f010a7be752`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `46c36894c3e374369679089ea6a46bf9f482303a`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
