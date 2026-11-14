@@ -1,0 +1,30 @@
+{
+  "project": "Hermes Agent",
+  "component": "Display status and failures",
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "reviewed_at": "2026-11-14",
+  "strings": {
+    "display.failure.file_not_found": "Hittade inte filen: {name}",
+    "display.failure.terminal_backend_unavailable": "terminalfunktionen är inte tillgänglig",
+    "display.failure.exit_code": " [avslutskod {code}]",
+    "display.failure.memory_full": " [fullt]",
+    "display.failure.generic": " [fel]",
+    "display.failure.generic_word": "fel",
+    "display.diff.review_header": "  ┊ granskningsdiff",
+    "display.diff.omitted_lines": "… utelämnade {count} diffrader",
+    "display.diff.omitted_files": " i ytterligare {count} filer/avsnitt",
+    "display.bridge_generating.tool_call": "ett verktygsanrop",
+    "display.bridge_generating.tool_search": "en verktygssökning",
+    "display.bridge_generating.tool_describe": "verktygsdetaljer",
+    "display.verb_connector.search": " efter ",
+    "display.verb_connector.default": " ",
+    "display.status_phrase.verb": "är {verb}",
+    "display.status_phrase.using_tool": "använder {tool}",
+    "display.spinner.tool_line": "  [tool] {message}",
+    "display.spinner.done_line": "  [done] {message}{elapsed}",
+    "display.iteration_progress.unbounded": "iteration {n}",
+    "display.iteration_progress.bounded": "iteration {n}/{max}",
+    "display.thinking_verbs": "funderar,överväger,grubblar,tänker,tänker efter,resonerar,överväger,reflekterar,bearbetar,resonerar,analyserar,beräknar,sammanställer,formulerar,spånar",
+    "display.notice.uncompressed_context_overflow": "⚠️ Sessionskontexten (~{tokens} token) överskrider modellens kontextfönster (~{context_length} token) med komprimering inaktiverad (compression.enabled: false). Använd /compact för att komprimera historiken eller aktivera komprimering i config.yaml."
+  }
+}
