@@ -22,6 +22,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - `Smart blandning` for the recency-aware queue algorithm and `Upptäck` for the recommendation row
 - fourteen context-clear configuration labels for network, content, volume and player controls, including `TCP-port`, `Klient-ID`, `Volymstyrning` and `Samplingsfrekvenser som stöds av den här spelaren`
 - eleven source-specific library synchronization labels, using `läs in` for track import and `synkronisera` for two-way library operations
+- the corresponding eleven source-specific library synchronization descriptions, including the behavior for albums, playlists, deletions and two-way sync
 
 ## Checks
 
@@ -34,6 +35,6 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `6d958f2d46f56741718d1840c352c8895397a71f`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `f6927ecb2f29c831f8707e365c6af5b5357468bc`.
 
 The PR is open. Its initial repository verification requests the project's full pre-commit and pytest checklist. Those commands are unavailable in the sparse review checkout, which lacks both the repository runner and its Python 3.14 environment; the PR body records that limitation rather than claiming checks that did not run. Repository lint passed; its three pytest jobs are still pending. It has not received maintainer review or been merged.
