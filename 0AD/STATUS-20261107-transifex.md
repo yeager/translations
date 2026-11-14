@@ -72,3 +72,9 @@ strängar är sparade och återlästa i Transifex. Markdown-länkar, URL-paramet
 IRC-markeringen och avdelarna har bevarats. Arkivbatch:
 `website-2026-11-14-community-support`. Projektgranskning,
 källsynkronisering och publicering är inte verifierade.
+
+About – Contact us har därefter granskats rad för rad: 12 av 12 svenska
+strängar är sparade och återlästa i Transifex. Markdown, interna länkar och
+avdelare har bevarats; en felaktig radbrytning rättades efter Transifex QA.
+Arkivbatch: `website-2026-11-14-about-contact-us`. Projektgranskning,
+källsynkronisering och publicering är inte verifierade.
