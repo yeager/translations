@@ -50,7 +50,7 @@ Prioritet 1 betyder bred slutanvändarnytta, 2 produktivitets- och samarbetsprog
 | 1 | [PintaProject/Pinta](https://github.com/PintaProject/Pinta) | 2026-04-02 | Svensk resurs: `po/sv.po` | 2026-10-18, Åke Engelbrektson |
 | 1 | [PrismLauncher/PrismLauncher](https://github.com/PrismLauncher/PrismLauncher) | 2026-09-28 | Svenska finns i officiella `PrismLauncher/Translations`; 3 lokalt färdiggranskade poster väntar på Weblate-inskick | Senaste källsynkning: PrismAutomata 2026-11-12 |
 | 1 | [prusa3d/PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) | 2026-11-02 | Svensk resurs: `resources/localization/wx_locale/sv.po` | 2021-12-21, YuSanka |
-| 1 | [Ranchero-Software/NetNewsWire](https://github.com/Ranchero-Software/NetNewsWire) | 2026-10-20 | Ingen svensk resurs i Git, extern kanal ej verifierad | Ej offentligt fastställt |
+| 1 | [Ranchero-Software/NetNewsWire](https://github.com/Ranchero-Software/NetNewsWire) | 2026-10-20 | Ingen svensk lokal i de använda Xcode-katalogerna; ingen extern plattform funnen. Ny lokal kräver först diskussion enligt CONTRIBUTING.md | Ej offentligt fastställt |
 | 1 | [session-foundation/session-desktop](https://github.com/session-foundation/session-desktop) | 2026-11-13 | Ingen svensk resurs i Git, extern kanal ej verifierad | Ej offentligt fastställt |
 | 1 | [signalapp/Signal-Android](https://github.com/signalapp/Signal-Android) | 2026-11-09 | Svensk resurs: `app/src/main/res/values-sv` | 2026-11-11, Greyson Parrelli |
 | 1 | [signalapp/Signal-Desktop](https://github.com/signalapp/Signal-Desktop) | 2026-11-11 | Svensk resurs: `_locales/sv` | 2026-11-11, Fedor Indutny |
