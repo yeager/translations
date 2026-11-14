@@ -33,6 +33,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish AI, image-generation and text-to-speech engine settings. Home Assistant entities and the visible `OpenAI Compatible` integration name remain identifiable while the surrounding UI is Swedish
 - Swedish player output-protocol settings, including the experimental variants and the dependency on an underlying protocol; the dynamic `{0}` protocol placeholder is preserved
 - Swedish Home Assistant player exposure and plug-in availability settings, plus track-version suffix and audio-synchronization-delay controls. The existing UI label `Anslutna spelare` is used consistently
+- Swedish group-playback, announcement-signal URL and preview-warning settings, retaining canonical URLs, formats and command semantics while using Swedish UI wording
 
 ## Checks
 
@@ -45,6 +46,6 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `f54171271d1441ab40ac06fb320f71ec2508096f`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `8213fa5218565444920792619cc8d4553b36a40f`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
