@@ -7,7 +7,7 @@ Källversion: `2026.11.11-39-android`, publicerad 2026-11-11
 
 ## Granskad batch
 
-Femtiotre tidigare engelska Qt-strängar har fått svenska översättningar i kartprogrammets datorgränssnitt:
+Åttioåtta tidigare engelska Qt-strängar har fått svenska översättningar i kartprogrammets datorgränssnitt:
 
 - hämtningsknapp, köstatus, omförsök och förlopp för kartområden
 - rutt längs spår samt kopiering av länk och text
@@ -17,6 +17,7 @@ Femtiotre tidigare engelska Qt-strängar har fått svenska översättningar i ka
 - tangentbords- och musanvisningar, ruttverktyg, sökomfång och kolumner för karthämtning
 - uppdatering och borttagning av offlinekartor, inklusive deras statusetiketter
 - filfilter samt export och borttagning för bokmärkessamlingar, bokmärken och spår
+- urval och felsökning av kartdata, inloggning, ruttinställningar och redigeringsfält för OpenStreetMap
 
 Projektets källfil är Twine-liknande `strings.txt`; Qt-katalogen återskapades med projektets eget skript. Android- och Apple-resurser påverkas inte eftersom samtliga strängar är märkta `qt`.
 
@@ -36,20 +37,22 @@ Efter batchen finns ingen aktuell Qt-märkt källsträng utan svensk översättn
 | Viewport | Kartvyn | Begränsar sökning till den synliga kartan |
 | Bookmark category | Bokmärkessamling | Samling med bokmärken och spår |
 | Installed / Out of date | Installerad / Föråldrad | Status för offlinekarta |
+| Selection mode | Urvalsläge | Verktyg för att välja kartdata |
+| Routing mode | Ruttläge | Val av fordons-, gång- eller cykelprofil |
 
 ## Kontroller
 
 - `tools/unix/strings_validate_keys.sh`: godkänd, 897 definierade och 897 använda nycklar.
 - `tools/unix/strings_validate_format.sh`: godkänd för `strings.txt`, `types_strings.txt` och `sound.txt`.
 - `lrelease`: 277 färdiga och 0 oavslutade svenska Qt-översättningar.
-- svlang: godkänd för den avgränsade batchen.
-- Hunspell-SV: körd endast för batchens 21 nya strängar med låg CPU-prioritet; endast avsiktliga formatnamn och filändelser flaggades.
-- l10n-lint: 0 fel; 6 kvarvarande varningar i den genererade Qt-filen utanför batchen.
+- svlang: granskad strängvis; verktyget markerar enbart interna MWM-namn, filnamn och en falsk V2-varning för en korrekt koordinatfras.
+- Hunspell-SV: körd endast för den avgränsade batchen med låg CPU-prioritet; endast avsiktliga interna namn, formatnamn och filändelser flaggades. Ingen Hunspell-process fanns kvar efter körningen.
+- l10n-lint: 0 fel och 1 avsiktlig URL-varning; den svenska länken går till webbplatsens språkversion.
 - `git diff --check` och Gitleaks: godkända.
 - `msgfmt`: ej tillämpligt, eftersom resurserna inte är PO-filer.
 
 ## Upstream
 
-PR [organicmaps/organicmaps#14218](https://github.com/organicmaps/organicmaps/pull/14218) är öppnad från `yeager:sv-qt-map-actions-20261114` med commit `0692317`.
+PR [organicmaps/organicmaps#14218](https://github.com/organicmaps/organicmaps/pull/14218) är öppnad från `yeager:sv-qt-map-actions-20261114` med commit `4da8ae0`.
 
 Status: lokalt granskat, arkiverat och inskickat som PR. Upstreamgranskning och merge återstår.
