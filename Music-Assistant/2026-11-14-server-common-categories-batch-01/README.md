@@ -67,6 +67,8 @@ oförändrade; språkfel rättas direkt och återläses.
 - `common.config_categories.sync_options`: *Sync/import options* →
   *Synkroniserings- och importalternativ*; befintlig översättning rättad och
   återläst.
+- `common.config_categories.web_player`: *Web Player* → *Webbspelare*;
+  befintlig översättning bevarad.
 
 ## Upstreamstatus
 
@@ -125,5 +127,7 @@ Lokalise 2026-11-14; identisk källtext är korrekt fackterm.
 Lokalise 2026-11-14; identisk källtext är korrekt fackterm.
 `common.config_categories.sync_options` språkgranskades, rättades och
 återlästes i MA Server på Lokalise 2026-11-14.
+`common.config_categories.web_player` kontrollerades i MA Server på Lokalise
+2026-11-14. Ingen ändring behövdes.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
