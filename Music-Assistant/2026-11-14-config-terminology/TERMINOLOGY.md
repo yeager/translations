@@ -11,6 +11,9 @@ Datum: 2026-11-14
 | sample rate | samplingsfrekvens | Etablerad ljudteknisk term. |
 | resample | sampla om | Används i den konkreta ljudinställningskontexten. |
 | crossfade | övertoning | Samma term används i spelarinställningarna. |
+| queue playback | köuppspelning | Namn på kategorin för köns uppspelningsbeteende. |
+| player controls | spelarkontroller | Namn på kategorin för spelarens kontroller. |
+| plugin | insticksmodul | Används för utbyggnadskomponenter i gränssnitt och dokumentation. |
 | offset | förskjutning | Sendspin: justering för synkronisering i millisekunder. |
 | static playback delay | fast uppspelningsfördröjning | Sendspin: bestående, manuellt angiven fördröjning. |
 | scan genre mappings | sök igenom genremappningar | Bakgrundsåtgärd; undviker det onödiga lånet *skanna*. |
