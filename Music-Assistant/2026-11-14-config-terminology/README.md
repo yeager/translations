@@ -117,6 +117,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish completion of the Bose SoundTouch provider: presets, media search, announcement key configuration and physical-button mapping
 - Swedish completion of the gPodder provider: gPodder/opodsync and Nextcloud connection, account setup, authorization and errors
 - Swedish completion of the Plex Connect provider: device registration, plex.tv linking, mobile discovery, ports and player exposure
+- Swedish completion of the Hue Entertainment provider: Hue Bridge and ZHA setup, pairing, timing, visualization modes and multi-lamp synchronization
 
 ## Checks
 
@@ -131,7 +132,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `8ed21541b86e266e9c1db68524c5f0e0830991ca`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `eeed230c2fc1e4d97f3d65aeea2978dfd6c2f69f`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
