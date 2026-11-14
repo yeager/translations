@@ -33,5 +33,8 @@ Datum: 2026-11-14
 | white noise | vitt brus | Etablerad ljudterm för jämnt fördelat frekvensinnehåll. |
 | load/import | läs in / importera | *Läs in* för lokalbibliotekets inläsning, *importera* för uttalad importåtgärd. |
 | render (TTS) | syntetisera | I talsynteskontext beskriver *syntetisera* resultatet tydligare än den generella termen *återgivning*. |
+| fingerprinting | fingeravtryck | AcoustID-/Chromaprint-kontekst; avser ljudidentifiering, inte biometriska uppgifter. |
+| confidence threshold | säkerhetströskel | AcoustID-gräns för att förkasta osäkra matchningar. |
+| match score | matchningspoäng | Poäng för AcoustID-träffar. |
 
 Behåll produkt-, standard- och formatnamn när de är synliga identifierare: exempelvis AirPlay, DTS, ICY, OAuth, PCM och Pure Direct. Internationellt etablerade genrenamn som jazz, soul, reggae och tango är avsiktligt oförändrade.
