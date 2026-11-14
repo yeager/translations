@@ -11,7 +11,7 @@ källtextens sammanhang.
 | cloud services | molntjänster | HP Printer, binär sensors etikett för tillgängliga tjänster. |
 | cloud registered | registrerad i molnet | HP Printer, registreringsstatus. |
 | paper jam | pappersstopp | HP Printer, skrivarfel och räknarstatus. |
-| scanner jam | pappersstopp i skannern | HP Printer, skannerrelaterat pappersstopp. |
+| scanner jam | pappersstopp i dokumentmataren | HP Printer, pappersstopp i dokumentmataren enligt komponentens dokumentation. |
 | printed pages | utskrivna sidor | HP Printer, ackumulerad räknare. |
 | copied pages | kopierade sidor | HP Printer, ackumulerad räknare. |
 | scanned pages | skannade sidor | HP Printer, ackumulerad räknare. |
