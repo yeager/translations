@@ -17,6 +17,8 @@ Sjutton tidigare engelska Qt-strängar har fått svenska översättningar i kart
 
 Projektets källfil är Twine-liknande `strings.txt`; Qt-katalogen återskapades med projektets eget skript. Android- och Apple-resurser påverkas inte eftersom samtliga strängar är märkta `qt`.
 
+Efter batchen finns ingen aktuell Qt-märkt källsträng utan svensk översättning. Det innebär täckning för 277 av 277 svenska Qt-poster; det är en täckningskontroll, inte ett påstående om att alla äldre svenska formuleringar redan är kvalitetssäkrade rad för rad.
+
 ## Terminologi
 
 | Engelska | Svenska | Kontext |
