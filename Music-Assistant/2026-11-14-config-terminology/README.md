@@ -45,6 +45,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish review of all currently missing `common.player_options` strings: receiver and speaker sound controls, network and sleep options, and canonical audio-mode names such as `DRC`, `DTS`, `Link` and `Pure Direct`
 - Swedish completion of all currently missing `common.setup_flow` strings: initial library import, completion state and selection of a child device for setup
 - Swedish device-code login page: code copying, expiry, denial and failure states, and the Yandex continuation step. The source em dash is retained only in the manual-copy notice where the English source also uses it
+- Swedish review of 20 context-clear common error messages for authentication, connections, permissions, provider identifiers, tokens and invalid values; all `{0}` placeholders are preserved
 
 ## Checks
 
@@ -61,4 +62,4 @@ Submitted as [music-assistant/server#7640](https://github.com/music-assistant/se
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
-The device-code batch has been pushed to the PR branch. Its replacement CI run has been requested; it is not maintainer reviewed or merged.
+The device-code batch has been pushed to the PR branch. Its replacement CI run has been requested; it is not maintainer reviewed or merged. The next locally checked error-message batch is committed as `a720f7e3436e8148af313b2c3d0cf8bd7cc24fb2` and awaits the currently running CI before push.
