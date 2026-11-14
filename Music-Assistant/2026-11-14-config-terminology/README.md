@@ -37,6 +37,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish per-player and per-user scrobbling controls. The established Swedish free-software spelling `scrobbla` is used, and the unofficial-provider notice retains its original scope and legal qualifications
 - Swedish help text for all announcement-volume strategies: fixed volume, unchanged volume, percentage increase and relative increase
 - Swedish content-type settings for stored music, podcasts, audiobooks and sound effects
+- Swedish mute and power-control choices for players, including native, simulated and automatic protocol-controlled behavior; the Home Assistant entity concept is retained
 
 ## Checks
 
@@ -49,6 +50,6 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `1a076fd68f5e2e6bfce02583b81952cf405dcb03`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `8daa0d9df9325b19ea28a6673b44e9ec3134d685`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
