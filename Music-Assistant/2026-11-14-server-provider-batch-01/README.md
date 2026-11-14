@@ -23,4 +23,4 @@ Källan är `dev` från 2026-11-14. Releasesidan kontrollerades för version 2.1
 
 ## Upstreamstatus
 
-Åtta av de nio tidigare väntande värdena kontrollerades i MA Server på Lokalise 2026-11-14 och är redan sparade där. De lämnas oförändrade. Två värden är fortfarande tomma i Lokalise och ligger därför kvar i deltafilen: AcoustID Lookup-beskrivningen och AirPlay Receiver-namnmallens beskrivning. De har inte kunnat sparas via den aktuella Lokalise-redigeraren och är inte upstream-inskickade. Lokalise-granskning, kodsynkronisering och release är inte verifierade.
+Alla nio tidigare väntande värden kontrollerades i MA Server på Lokalise 2026-11-14 och är sparade där. De åtta befintliga värdena lämnades oförändrade. AcoustID Lookup-beskrivningen och AirPlay Receiver-namnmallens beskrivning sparades och återlästes. Deltafilen är därför tom. Lokalise-granskning, kodsynkronisering och release är inte verifierade.
