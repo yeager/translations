@@ -1,0 +1,29 @@
+{
+  "project": "Hermes Agent",
+  "language": "sv",
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "status": "reviewed-local",
+  "strings": {
+    "cli.commands.snapshot.unknown_subcommand": "Okänt underkommando: {subcommand}",
+    "cli.commands.snapshot.usage": "Användning: /snapshot [list|create [label]|restore <id>|prune [N]]",
+    "cli.commands.snapshot.none_yet": "Det finns inga ögonblicksbilder av tillståndet ännu.",
+    "cli.commands.snapshot.create_hint": "Skapa en: /snapshot create [label]",
+    "cli.commands.snapshot.list_header": "Ögonblicksbilder av tillståndet ({dir}/state-snapshots/):",
+    "cli.commands.snapshot.col_num": "#",
+    "cli.commands.snapshot.col_id": "ID",
+    "cli.commands.snapshot.col_files": "Filer",
+    "cli.commands.snapshot.col_size": "Storlek",
+    "cli.commands.snapshot.col_label": "Etikett",
+    "cli.commands.snapshot.created": "Ögonblicksbild skapad: {snapshot_id}",
+    "cli.commands.snapshot.nothing_to_snapshot": "Inga tillståndsfiler hittades att skapa en ögonblicksbild av.",
+    "cli.commands.snapshot.usage_restore": "Användning: /snapshot restore <snapshot-id>",
+    "cli.commands.snapshot.most_recent": "Senaste: {snapshot_id}",
+    "cli.commands.snapshot.invalid_number": "Ogiltigt nummer på ögonblicksbild. Använd 1-{max}.",
+    "cli.commands.snapshot.restored": "Återställde tillstånd från: {snapshot_id}",
+    "cli.commands.snapshot.restart_recommended": "Omstart rekommenderas så att gateway- och dashboardprocesser läser in ändringar i state.db.",
+    "cli.commands.snapshot.not_found": "Ögonblicksbilden hittades inte: {snapshot_id}",
+    "cli.commands.snapshot.restore_incomplete": "Ögonblicksbilden {snapshot_id} återställdes inte helt; vissa filer nekades (se loggarna)",
+    "cli.commands.snapshot.usage_prune": "Användning: /snapshot prune [keep-count]",
+    "cli.commands.snapshot.pruned": "Rensade {deleted} gamla ögonblicksbilder (behåller {keep})."
+  }
+}
