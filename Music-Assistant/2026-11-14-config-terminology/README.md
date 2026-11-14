@@ -20,6 +20,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - ten missing, context-clear configuration categories, including `Automatisk uppspelning`, `Klickåtgärder`, `Felsökning`, `Källval` and placeholder-preserving protocol support labels
 - five further context-checked configuration categories: `Objekt att välja`, `Insticksmoduler`, `Förinställningar`, `Rekommendationer` and `Server`
 - `Smart blandning` for the recency-aware queue algorithm and `Upptäck` for the recommendation row
+- fourteen context-clear configuration labels for network, content, volume and player controls, including `TCP-port`, `Klient-ID`, `Volymstyrning` and `Samplingsfrekvenser som stöds av den här spelaren`
 
 ## Checks
 
@@ -32,6 +33,6 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `4bed73bef21ca7b6f467df83d85620518fd8c198`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `95fae6789a81cb1fb318c4f261b81d7c85e24620`.
 
 The PR is open. Its initial repository verification requests the project's full pre-commit and pytest checklist. Those commands are unavailable in the sparse review checkout, which lacks both the repository runner and its Python 3.14 environment; the PR body records that limitation rather than claiming checks that did not run. Repository lint passed; its three pytest jobs are still pending. It has not received maintainer review or been merged.
