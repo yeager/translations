@@ -55,6 +55,18 @@ Detta är inte en markering som granskad i Transifex. De uppladdade raderna har 
 - Uppladdning betyder inte att strängarna är granskade, finaliserade eller
   publicerade i en release.
 
+### Uppdatering 2026-11-14
+
+- Batcherna 58–78 för `hardcoded_steam` består av 493 nya, separata svenska
+  deltaöversättningar. Varje batch har skickats via Transifex JSON:API,
+  kontrollerats lokalt och lästs tillbaka direkt från API:t efter import.
+- Batchernas JSON-filer, statusposter och den uppdaterade terminologin finns i
+  `../2026-11-14/`. Råexporter har inte ändrats.
+- Senast verifierade komponentstatus via Transifex API: 2 762 översatta,
+  23 657 oöversatta, 26 419 totalt och 915 granskade strängar.
+- De uppladdade strängarna är inte därmed markerade som granskade, finaliserade
+  eller publicerade. Dessa statusar hanteras separat av Transifex och projektet.
+
 ## Filer
 
 - `dwarf-fortress-text-set-batch01-sv-20261113.jsonl`: oförändrad deltafil med de tio uppladdade måltexterna.
