@@ -3,9 +3,9 @@
 Två hjälptexter för kortkommandon har granskats i sin UI-kontext och sparats i
 Transifex.
 
-Projekt: Widelands Add-Ons  
-Resurs: rotresursen  
-Språk: svenska (sv)  
+Projekt: Widelands Add-Ons
+Resurs: rotresursen
+Språk: svenska (sv)
 Transifex-strängar: 612431537 och 612431538
 
 Översättningarna använder samma begrepp som befintliga Widelands-texter:
