@@ -24,6 +24,8 @@ oförändrade; språkfel rättas direkt och återläses.
   befintlig översättning bevarad.
 - `common.config_categories.autoplay`: *Autoplay* → *Automatisk uppspelning*;
   saknad översättning tillagd och återläst.
+- `common.config_categories.builtin_playlists`: *Builtin Playlists* →
+  *Inbyggda spellistor*; befintlig översättning bevarad.
 
 ## Upstreamstatus
 
@@ -40,5 +42,7 @@ Lokalise 2026-11-14. Ingen ändring behövdes.
 Lokalise 2026-11-14. Ingen ändring behövdes.
 `common.config_categories.autoplay` översattes och återlästes i MA Server på
 Lokalise 2026-11-14.
+`common.config_categories.builtin_playlists` kontrollerades i MA Server på
+Lokalise 2026-11-14. Ingen ändring behövdes.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
