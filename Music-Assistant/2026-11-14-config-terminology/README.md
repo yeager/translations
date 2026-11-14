@@ -51,6 +51,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish completion of all currently missing `common.errors` strings, including account, media, feature and system-requirement errors. Technical identifiers such as `AVX2`, `CPU`, `RAM`, `Intel Haswell`, `AMD Zen`, `Proxmox`, `TrueNAS` and the visible CPU type `host` remain identifiable
 - Swedish completion of all currently missing `core.music` strings: background tasks for library synchronization and maintenance, remaster handling, library-database reset and the core module metadata. The visible title `Remastered 2009` is intentionally retained
 - Swedish review of the first 17 `core.storage` errors: storage folders, absolute export paths, containers, mounts and the security rationale for refusing unsafe network-share mount paths
+- Swedish completion of all currently missing `core.storage` strings: network-share discovery, mounting, credentials, protocol versions, Home Assistant ownership and manifest metadata
 
 ## Checks
 
@@ -63,7 +64,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `7e59c21aa1572a46b745a06d7f131dce2e76002d`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `57f169d9059b65efe2c846778e80d22a7132b9f3`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
