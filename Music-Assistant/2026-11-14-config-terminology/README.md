@@ -93,6 +93,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish context review of all 43 source-identical values: 42 are valid Swedish technical values, UI terms, folder names or established genre names; Flow Mode's sample-rate strategy was translated from `Smart` to `Intelligent`
 - Swedish terminology normalization of the Smart Shuffle category from `Smart blandning` to `Intelligent blandning`
 - Swedish review of Sendspin's delay setting: `Offset` and `Statisk uppspelningsfördröjning` were clarified as `Förskjutning` and `Fast uppspelningsfördröjning`
+- Swedish terminology review of Music's background task `Scan genre mappings`, clarified as `Sök igenom genremappningar`
 
 ## Checks
 
@@ -105,7 +106,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `e168f9926a89621adbf1a073d2fb57199b1f04e5`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `2fb338f5d9b055dba1fa933a2a076bbb27b83100`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
