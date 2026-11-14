@@ -87,6 +87,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish context review of the new-age, poetry and pop-music metadata in `common.media`
 - Swedish context review of the psychedelic-music, rhythm-and-blues and ragtime metadata in `common.media`
 - Swedish context review of the raï, reggae and rock metadata in `common.media`
+- Swedish context review of the salsa, singer-songwriter, ska and soul metadata in `common.media`
 
 ## Checks
 
