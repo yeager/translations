@@ -96,3 +96,8 @@ strängar är sparade och återlästa i Transifex. Produktnamn, UI-namn och
 Gitea- och forumlänkar har bevarats. Arkivbatch:
 `website-2026-11-14-about-contributors`. Projektgranskning,
 källsynkronisering och publicering är inte verifierade.
+
+Media – Music har därefter granskats rad för rad: 4 av 4 svenska strängar är
+sparade och återlästa i Transifex. Licens, filformat, länkar och Hugo-kortkod
+har bevarats. Arkivbatch: `website-2026-11-14-media-music`.
+Projektgranskning, källsynkronisering och publicering är inte verifierade.
