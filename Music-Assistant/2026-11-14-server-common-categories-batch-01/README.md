@@ -69,6 +69,8 @@ oförändrade; språkfel rättas direkt och återläses.
   återläst.
 - `common.config_categories.web_player`: *Web Player* → *Webbspelare*;
   befintlig översättning bevarad.
+- `common.config_categories.protocol_general`: *General* → *Allmänt*;
+  befintlig översättning bevarad.
 
 ## Upstreamstatus
 
@@ -129,5 +131,7 @@ Lokalise 2026-11-14; identisk källtext är korrekt fackterm.
 återlästes i MA Server på Lokalise 2026-11-14.
 `common.config_categories.web_player` kontrollerades i MA Server på Lokalise
 2026-11-14. Ingen ändring behövdes.
+`common.config_categories.protocol_general` kontrollerades i MA Server på
+Lokalise 2026-11-14. Ingen ändring behövdes.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
