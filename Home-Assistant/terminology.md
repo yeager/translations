@@ -27,6 +27,12 @@ källtextens sammanhang.
 | faxed pages from document feeder | faxade sidor från dokumentmataren | HP Printer, faxräknare. |
 | faxed pages from glass | faxade sidor från skannerglaset | HP Printer, faxräknare via skannerglaset. |
 | faxed pages from computer | faxade sidor från datorn | HP Printer, faxräknare för datorutskick. |
+| consumable installation date | installationsdatum för [färg] patron | HP Printer, datum då en bläck- eller tonerpatron installerades. |
+| consumable level | nivå för [färg] patron | HP Printer, procentuell kvarvarande mängd för patronen. |
+| consumable manufacturing date | tillverkningsdatum för [färg] patron | HP Printer, informationsfält. |
+| consumable pages printed | utskrivna sidor med [färg] patron | HP Printer, ackumulerad patronräknare. |
+| consumable pages remaining | återstående sidor för [färg] patron | HP Printer, uppskattning för patronen. |
+| consumable warranty expiration date | garantins utgångsdatum för [färg] patron | HP Printer, informationsfält. |
 
 ## Status
 
@@ -34,3 +40,7 @@ De två molnstatusetiketterna, `scanner_jams`, fem räknaretiketter, tre
 skrivarstatusvärden, tre matnings- och informationsfält samt tre faxräknare är
 sparade i Lokalise och återlästa där. Övriga texter i batch 41–45 var redan
 korrekta vid den oberoende verifieringen.
+
+Batch 48 omfattar 30 sparade och återlästa patronfält för svart, cyan,
+magenta, trefärg och gul patron. Påfyllningsräknare är medvetet utelämnade
+i väntan på en tydligare betydelsekontroll.
