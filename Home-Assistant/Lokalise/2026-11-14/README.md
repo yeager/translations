@@ -2,7 +2,7 @@
 
 Datum: 2026-11-14
 
-En kontrollerad batch med nio nya svenska översättningar har sparats direkt i
+En första kontrollerad batch med nio nya svenska översättningar har sparats direkt i
 Lokalise och återlästs i gränssnittet. Den omfattar Sofar-fel, HomeKit-kameror
 och den nya Voice-appen:
 
@@ -16,6 +16,10 @@ och den nya Voice-appen:
 - Nästa generations röst
 - Funktionen är fortfarande under utveckling och kan ändras. På ett system med Home Assistant OS eller Supervised installeras Voice-appen när funktionen aktiveras.
 
-Not: Denna batch är sparad upstream i Lokalise. Den är inte en fullständig
+Fem ytterligare, sammanhängande Voice-strängar finns i
+[`voice-batch-2.md`](voice-batch-2.md). Totalt omfattar dagens arkiverade
+arbete därmed 14 direkt sparade och återlästa strängar.
+
+Not: Batcharna är sparade upstream i Lokalise. Detta är inte en fullständig
 genomgång av Home Assistant Core; oöversatta strängar återstår och behandlas i
 kommande kontextstyrda batchar.
