@@ -110,6 +110,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish completion of the Spotify error-message batch: authentication, account and pairing recovery, API-key validation and Soloist playback failures
 - Swedish completion of the Spotify setup flow: account connection, browser authorization, playback approval, pairing and Soloist consent
 - Swedish completion of the Deezer configuration batch: ARL authentication, profiles, stream quality, queue continuation and recovery errors
+- Swedish completion of the Deezer media batch: Flow, discovery, genres, personal and recommended playlists, and top-list navigation
 
 ## Checks
 
@@ -124,7 +125,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `dd47abab411eea32159733ef9c1c6ed2c706ba29`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `4f68c8465e1d94330e05819f032a588ac2aa9b51`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
