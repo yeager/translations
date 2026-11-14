@@ -1,0 +1,26 @@
+{
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "component": "tips.t261-t280",
+  "strings": {
+    "tips.t261": "context.engine i config.yaml kan sättas till namnet på en insticksmodul för alternativa strategier för kontexthantering.",
+    "tips.t262": "Med en molnwebbläsare öppnas localhost- och LAN-URL:er i stället i en lokal Chromium (browser.auto_local_for_private_urls, aktiverat som standard).",
+    "tips.t263": "Komprimeraren gör en billig första bearbetning: verktygsutdata på fler än 200 tecken ersätts med platshållare innan LLM körs.",
+    "tips.t264": "När komprimeringen misslyckas pausas ytterligare försök i tio minuter för att undvika att överbelasta API:t.",
+    "tips.t265": "Långa riskfyllda kommandon (>70 tecken) får alternativet ”view” i frågan om godkännande så att hela texten kan visas först.",
+    "tips.t266": "Visualisering av ljudnivå visar staplarna ▁▂▃▄▅▆▇ under röstinspelning baserat på mikrofonens RMS-nivåer.",
+    "tips.t267": "Profilnamn får inte krocka med befintliga binärfiler i PATH — 'hermes profile create ls' skulle avvisas.",
+    "tips.t268": "hermes profile create backup --clone-all kopierar allt (config, keys, SOUL.md, minnen, färdigheter, sessioner).",
+    "tips.t269": "Tangenten för röstinspelning kan konfigureras via voice.record_key i config.yaml — inte bara Ctrl+B.",
+    "tips.t270": "Filerna .cursorrules och .cursor/rules/*.mdc upptäcks automatiskt och läses in som projektkontext.",
+    "tips.t271": "Kontextfiler har stöd för fler än tio mönster för promptinjektion — osynlig Unicode, ”ignore instructions”, försök till datautfiltrering.",
+    "tips.t272": "GPT-5 och Codex använder rollen 'developer' i stället för 'system' i meddelandeformatet.",
+    "tips.t273": "Åsidosättningar för extraklienten per uppgift: auxiliary.vision.provider, auxiliary.compression.model med mera i config.yaml.",
+    "tips.t274": "Den extra klienten behandlar 'main' som ett leverantörsalias — det löses till din verkliga primära leverantör + modell.",
+    "tips.t275": "hermes import-agent openclaw --dry-run förhandsvisar migrering från OpenClaw utan att skriva något.",
+    "tips.t276": "Filsökvägar som klistras in med citationstecken eller avskärmade mellanslag hanteras automatiskt — ingen manuell rensning behövs.",
+    "tips.t277": "Snedstreckskommandon utlöser aldrig hopfällning av stora inklistringar — /command med stora argument fungerar korrekt.",
+    "tips.t278": "I avbrottsläge kringgår snedstreckskommandon som skrivs under agentkörning avbrottslogiken och körs direkt.",
+    "tips.t279": "HERMES_DEV=1 kringgår identifiering av behållarläge för lokal utveckling.",
+    "tips.t280": "Varje MCP-server får en egen verktygsuppsättning (mcp-servername) som kan växlas oberoende via hermes tools."
+  }
+}
