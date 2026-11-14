@@ -31,4 +31,6 @@ kommandots synliga namn.
 
 Commit [`ae9ae2c`](https://github.com/yeager/audacity/commit/ae9ae2c244e7af3f4d81469ecc8f2f4e1524d814)
 är pushad till [audacity/audacity#12759](https://github.com/audacity/audacity/pull/12759).
-PR:n är öppen och väntar på CI samt upstream-granskning; den är inte mergead.
+PR:n är öppen och väntar på upstream-granskning; den är inte mergead.
+CodeRabbit-kontrollen för committen har passerat, men ingen
+underhållargranskning eller merge är verifierad.
