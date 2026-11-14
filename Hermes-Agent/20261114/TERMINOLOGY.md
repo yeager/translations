@@ -27,3 +27,4 @@ Källa: aktuell kärnkatalog i `NousResearch/hermes-agent` vid
 | charge | debitera / debitering | Verb respektive resultat/åtgärd. |
 | portal | portalen | Produktens egen webbportal, utan översatt produktnamn. |
 | organization admin | organisationsadministratör | Rollnamn; *ägare* för owner. |
+| heartbeat | pulssignal | Återkommande automatisering som körs när en session är inaktiv; kommandot `/heartbeat` lämnas exakt. |

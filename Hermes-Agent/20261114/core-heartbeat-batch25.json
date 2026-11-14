@@ -1,0 +1,21 @@
+{
+  "project": "Hermes Agent",
+  "component": "CLI heartbeat automation",
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "reviewed_at": "2026-11-14",
+  "strings": {
+    "cli.commands.heartbeat.label": "Pulssignaler",
+    "cli.commands.heartbeat.paused": "⏸ Pulssignal pausad: {prompt}",
+    "cli.commands.heartbeat.none_set": "Ingen pulssignal är inställd.",
+    "cli.commands.heartbeat.none_to_resume": "Det finns ingen pulssignal att återuppta.",
+    "cli.commands.heartbeat.resumed": "▶ Pulssignal återupptagen (var {interval}): {prompt}",
+    "cli.commands.heartbeat.cleared": "✓ Pulssignalen rensades.",
+    "cli.commands.heartbeat.usage": "Användning: /heartbeat every <intervall> <prompt>   (t.ex. /heartbeat every 10m Kontrollera CI)",
+    "cli.commands.heartbeat.usage_also": "Dessutom: /heartbeat status | pause | resume | clear",
+    "cli.commands.heartbeat.interval_too_small": "Intervallet är för kort — minsta tillåtna är {min_seconds} s.",
+    "cli.commands.heartbeat.prompt_required": "Användning: /heartbeat every <intervall> <prompt> — en prompt krävs.",
+    "cli.commands.heartbeat.invalid_label": "Ogiltig pulssignal",
+    "cli.commands.heartbeat.set": "♥ Pulssignal inställd (var {interval}): {prompt}",
+    "cli.commands.heartbeat.set_note": "Körs som ett vanligt varv när sessionen är inaktiv och intervallet har gått ut. Hantera med /heartbeat pause | resume | clear. Gäller bara medan denna Hermes-process körs — använd `hermes cron` för beständiga scheman."
+  }
+}
