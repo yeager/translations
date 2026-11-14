@@ -54,6 +54,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish completion of all currently missing `core.storage` strings: network-share discovery, mounting, credentials, protocol versions, Home Assistant ownership and manifest metadata
 - Swedish review of 25 player-queue settings for automatic playback and övertoning, including the source-specific explanations, dynamic playlists, similar artists, smart transitions and audio-buffer requirements
 - Swedish review of 24 player-queue settings for default click actions on albums, artists, genres, playlists and radio stations, plus global, smart and standard övertoning choices
+- Swedish review of 25 further player-queue settings for tracks and default queuing of albums, artists, audiobooks, folders, genres, radio stations and direct inputs. The source em dash is retained in the live-stream explanation
 
 ## Checks
 
@@ -71,3 +72,5 @@ Submitted as [music-assistant/server#7640](https://github.com/music-assistant/se
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
 The device-code and error-message batches have been pushed to the PR branch. Their replacement CI run has been requested; it is not maintainer reviewed or merged.
+
+The locally checked queue-actions batch is committed as `d3517a80f8d6ed5f6c85525fa574f51d43a01882` and awaits the currently running CI before its push to the PR branch.
