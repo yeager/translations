@@ -53,6 +53,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish review of the first 17 `core.storage` errors: storage folders, absolute export paths, containers, mounts and the security rationale for refusing unsafe network-share mount paths
 - Swedish completion of all currently missing `core.storage` strings: network-share discovery, mounting, credentials, protocol versions, Home Assistant ownership and manifest metadata
 - Swedish review of 25 player-queue settings for automatic playback and övertoning, including the source-specific explanations, dynamic playlists, similar artists, smart transitions and audio-buffer requirements
+- Swedish review of 24 player-queue settings for default click actions on albums, artists, genres, playlists and radio stations, plus global, smart and standard övertoning choices
 
 ## Checks
 
@@ -65,7 +66,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `20ef3a8ac2181e966ee7040b1476249dc9ab9c74`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `f9c395e006733795ac86c6186dbfd395a46f2f1d`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
