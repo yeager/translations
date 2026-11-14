@@ -48,6 +48,13 @@ Remote Spending recovery and interactive CLI guidance. JSON syntax and 93/93
 placeholder parity against the current English catalog pass. `l10n-lint`,
 diff check and Gitleaks pass. `msgfmt` remains inapplicable to JSON deltas.
 
+## Batch 04: billing timeouts and balance recovery
+
+`core-billing-batch04.json` completes the currently identified
+`cli.billing` recovery, timeout, threshold and balance strings (16 entries).
+JSON syntax, 16/16 placeholder parity, `l10n-lint`, diff check and Gitleaks
+pass. `msgfmt` remains inapplicable to JSON deltas.
+
 ## Upstream state
 
 The web localization PR [#148618](https://github.com/NousResearch/hermes-agent/pull/148618)
