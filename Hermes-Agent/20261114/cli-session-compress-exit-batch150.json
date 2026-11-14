@@ -1,0 +1,26 @@
+{
+  "project": "Hermes Agent",
+  "language": "sv",
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "status": "reviewed-local",
+  "strings": {
+    "cli.session.yolo_state_locked_on": "låst PÅ",
+    "cli.session.yolo_locked": "⚡ YOLO är {state} för den här processen (startad med --yolo / HERMES_YOLO_MODE). /yolo kan inte stänga av det — starta om utan flaggan för att återaktivera godkännanden.",
+    "cli.session.yolo_off": "⚠ YOLO-läge {state} — farliga kommandon kommer att kräva godkännande.",
+    "cli.session.yolo_on": "⚡ YOLO-läge {state} — alla kommandon godkänns automatiskt. Använd med försiktighet.",
+    "cli.session.compress_too_short": "(._.) Samtalet är inte långt nog att komprimera (minst {min} meddelanden krävs).",
+    "cli.session.compress_no_agent": "(._.) Ingen aktiv agent -- skicka först ett meddelande.",
+    "cli.session.compress_busy": "Komprimerar kontext...",
+    "cli.session.compress_summarizing": "🗜️  Sammanfattar fram till denna punkt: {count} meddelanden, bevarar de senaste {keep_last} utbytena ordagrant...",
+    "cli.session.compress_focus": "🗜️  Komprimerar {count} meddelanden, fokus: \"{focus}\"...",
+    "cli.session.compress_plain": "🗜️  Komprimerar {count} meddelanden...",
+    "cli.session.compress_failed": "❌ Komprimeringen misslyckades: {error}",
+    "cli.session.persist_prompt_summary": "{icon} {label}: {detail} → {outcome}",
+    "cli.session.goodbye": "Adjö! ☤",
+    "cli.session.exit_resume_hint": "Återuppta den här sessionen med:",
+    "cli.session.exit_label_session": "Session:        {session_id}",
+    "cli.session.exit_label_title": "Titel:          {title}",
+    "cli.session.exit_label_duration": "Varaktighet:    {duration}",
+    "cli.session.exit_label_messages": "Meddelanden:    {count} ({user} användare, {tool_calls} verktygsanrop)"
+  }
+}
