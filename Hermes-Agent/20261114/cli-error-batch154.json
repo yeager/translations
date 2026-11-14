@@ -1,0 +1,21 @@
+{
+  "project": "Hermes Agent",
+  "language": "sv",
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "status": "reviewed-local",
+  "strings": {
+    "cli.error.auth": "Din nyckel för {provider} avvisades. Kör `hermes model` för att ange den igen.",
+    "cli.error.billing": "Ditt konto hos {provider} saknar krediter. Fyll på hos leverantören eller kör /model för att byta.",
+    "cli.error.model_not_found": "'{model}' är inte tillgänglig hos {provider}. Kör /model för att välja en giltig modell.",
+    "cli.error.rate_limit": "{provider} har begränsat anropshastigheten; vänta en minut eller kör /model för att byta.",
+    "cli.error.upstream_blocked": "En brandvägg eller CDN framför {provider} blockerade begäran (inte din nyckel). Ange en User-Agent via extra_headers eller kör /model för att byta.",
+    "cli.error.overloaded": "{provider} är överbelastad just nu. Skicka /retry om en stund eller kör /model för att byta.",
+    "cli.error.server_error": "{provider} hade ett internt fel. Skicka /retry om en stund eller kör /model för att byta.",
+    "cli.error.timeout": "{provider} svarade inte i tid. Skicka /retry eller kör /model för att byta.",
+    "cli.error.unknown": "Modellbegäran misslyckades. Kör /model för att byta eller `hermes doctor` för att kontrollera konfigurationen.",
+    "cli.error.the_provider": "leverantören",
+    "cli.error.the_current_model": "den aktuella modellen",
+    "cli.error.with_details": "{lead}\nDetaljer: {details}",
+    "cli.error.agent_init_failed": "Hermes kunde inte starta modellanslutningen: {error}. Ditt meddelande skickades inte. Kör `hermes doctor` för att kontrollera konfigurationen eller /model för att välja en annan leverantör."
+  }
+}
