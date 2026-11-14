@@ -22,6 +22,9 @@ företräde framför en generell termträff.
 | Giza Plateau | Giza-platån | Historiskt geografiskt namn. |
 | Athenian | atensk | Till exempel *Atens gymnasion*. |
 | support | support | Avser hjälpkanal på webbplatsen; undvik tekniskt tvetydiga omskrivningar. |
+| torrent | torrent | Etablerad BitTorrent-term. |
+| seed | seed | Behåll termen i den pedagogiska BitTorrent-ordlistan. |
+| peer | peer | Behåll termen i den pedagogiska BitTorrent-ordlistan. |
 
 Egennamn, namn på antika folk och platser, filformat, produktnamn, kod,
 API-namn och synliga tekniska funktionsnamn behålls när deras etablerade form
