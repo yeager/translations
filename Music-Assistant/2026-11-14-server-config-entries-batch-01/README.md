@@ -55,6 +55,9 @@ källa och den faktiska svenska Lokalise-strängen.
   *Leave the volume unchanged; play the announcement at the player's current
   volume.* → *Lämna volymen oförändrad; spela upp meddelandet med spelarens
   aktuella volym.*; saknad översättning tillagd och återläst.
+- `common.config_entries.auth_cookies.description`: *Authenticate using browser
+  cookies from passport.yandex.ru.* → *Autentisera med webbläsarkakor från
+  passport.yandex.ru.*; saknad översättning tillagd och återläst.
 
 ## Upstreamstatus
 
@@ -94,5 +97,7 @@ kontrollerades och dess saknade förklaring lades till och återlästes i MA
 Server på Lokalise 2026-11-14.
 `common.config_entries.auth_cookies.label` översattes och återlästes i MA
 Server på Lokalise 2026-11-14.
+`common.config_entries.auth_cookies.description` översattes och återlästes i
+MA Server på Lokalise 2026-11-14.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
