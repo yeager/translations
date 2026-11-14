@@ -102,3 +102,16 @@ sparade och återlästa i Transifex. Licens, filformat, länkar och Hugo-kortkod
 har bevarats. Arkivbatch: `website-2026-11-14-media-music`.
 Projektgranskning, källsynkronisering och publicering är inte verifierade.
 \n- 2026-11-14: Media – Screenshots (`page-media-screenshots`) färdigställdes rad för rad på svenska: 69/69 strängar, 0 oöversatta och 69 ogranskade i Transifex vid avläsning. Arkivering och egen GitHub-push dokumenteras separat; upstream-granskning och merge är inte verifierade.
+
+### Slutlig webbstatus 14 november 2026
+
+Samtliga 35 resurser i `play0ad-website` är nu radgranskade, sparade och
+återlästa via Transifex REST API. Den slutliga API-statistiken är 474 av 474
+översatta svenska strängar, 0 oöversatta och 0 granskade. UI-resursen på 108
+strängar slutfördes i tre arkiverade batcher:
+`website-2026-11-14-ui-strings-batch-01`,
+`website-2026-11-14-ui-strings-batch-02` och
+`website-2026-11-14-ui-strings-batch-03`.
+
+Detta bekräftar sparad svensk översättning i Transifex, men inte separat
+upstream-granskning, källsynkronisering, merge eller publicering av webbplatsen.
