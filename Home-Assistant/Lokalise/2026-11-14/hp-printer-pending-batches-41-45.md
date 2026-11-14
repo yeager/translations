@@ -1,4 +1,4 @@
-# HP Printer: lokalt granskade, väntande batcher 43–45
+# HP Printer: lokalt granskade, väntande batcher 44–45
 
 Datum: 2026-11-14
 
@@ -7,11 +7,10 @@ upstream i Lokalise ännu och får inte räknas som uppladdade eller återlästa
 
 | Batch | Omfattning | Status |
 | --- | ---: | --- |
-| 43 | 7 räknare för ark, dokumentmatare och skannerglas | Lokal QA godkänd; `skannerglaset` är manuellt godkänt fackord. |
 | 44 | 4 räknare för svartvitt och färg | Lokal QA godkänd; väntar på sparning och återläsning. |
 | 45 | 10 skrivarstatusvärden | Lokal QA godkänd; väntar på sparning och återläsning. |
 
-Sammanlagt: 21 lokalt granskade strängar.
+Sammanlagt: 14 lokalt granskade strängar.
 
 Käll- och termkontroll:
 
@@ -24,5 +23,5 @@ Käll- och termkontroll:
   sammansatt fackord som Hunspell-sv inte känner igen.
 
 Före sparning krävs fortfarande exakt nyckelkontroll, sparning i Lokalise och
-separat återläsning av varje måltext. Batch 41 och 42 är sparade eller
-verifierade upstream och dokumenteras i respektive batchfil.
+separat återläsning av varje måltext. Batch 41–43 är sparade eller verifierade
+upstream och dokumenteras i respektive batchfil.
