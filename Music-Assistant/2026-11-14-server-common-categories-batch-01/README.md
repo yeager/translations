@@ -60,6 +60,8 @@ oförändrade; språkfel rättas direkt och återläses.
   befintlig översättning bevarad.
 - `common.config_categories.recommendations`: *Recommendations* →
   *Rekommendationer*; saknad översättning tillagd och återläst.
+- `common.config_categories.server`: *Server* → *Server*; saknad översättning
+  tillagd och återläst. Identisk källtext är korrekt fackterm.
 
 ## Upstreamstatus
 
@@ -112,5 +114,7 @@ Lokalise 2026-11-14.
 2026-11-14. Ingen ändring behövdes.
 `common.config_categories.recommendations` översattes och återlästes i MA
 Server på Lokalise 2026-11-14.
+`common.config_categories.server` översattes och återlästes i MA Server på
+Lokalise 2026-11-14; identisk källtext är korrekt fackterm.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
