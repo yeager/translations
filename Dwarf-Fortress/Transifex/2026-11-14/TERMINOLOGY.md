@@ -3,6 +3,7 @@
 | Engelska | Svenska | Sammanhang och anmärkning |
 |---|---|---|
 | `Stockpile` | förråd | Lagerplats för material och föremål. |
+| `Stockpile link` | förrådskoppling | Koppling mellan ett förråd och en verkstad. |
 | `Track Stop` | spårstopp | Gruvjärnväg; använd inte den allmänna termen hållplats. |
 | `Minecart` | gruvvagn | Fordonet som kör på räls i fästningen. |
 | `History Seed` | historikfrö | Inställning som styr den genererade världshistorien. |
