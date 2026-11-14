@@ -83,6 +83,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish context review of the gangsta-rap, gospel and hip-hop metadata in `common.media`
 - Swedish context review of the Indian-classical and industrial-music metadata in `common.media`
 - Swedish context review of the jazz, klezmer and Latin-music metadata in `common.media`
+- Swedish context review of the marching-band, Middle-Eastern-music and musical-theatre metadata in `common.media`; the visible genre label was corrected from `Marschmusik` to `Marschorkester`
 
 ## Checks
 
