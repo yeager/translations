@@ -1,0 +1,29 @@
+{
+  "project": "Hermes Agent",
+  "component": "CLI state snapshots",
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "reviewed_at": "2026-11-14",
+  "strings": {
+    "cli.commands.snapshot.unknown_subcommand": "Okänt underkommando: {subcommand}",
+    "cli.commands.snapshot.usage": "Användning: /snapshot [list|create [etikett]|restore <id>|prune [N]]",
+    "cli.commands.snapshot.none_yet": "Det finns inga tillståndskopior ännu.",
+    "cli.commands.snapshot.create_hint": "Skapa en: /snapshot create [etikett]",
+    "cli.commands.snapshot.list_header": "Tillståndskopior ({dir}/state-snapshots/):",
+    "cli.commands.snapshot.col_num": "#",
+    "cli.commands.snapshot.col_id": "ID",
+    "cli.commands.snapshot.col_files": "Filer",
+    "cli.commands.snapshot.col_size": "Storlek",
+    "cli.commands.snapshot.col_label": "Etikett",
+    "cli.commands.snapshot.created": "Tillståndskopia skapad: {snapshot_id}",
+    "cli.commands.snapshot.nothing_to_snapshot": "Hittade inga tillståndsfiler att skapa en kopia av.",
+    "cli.commands.snapshot.usage_restore": "Användning: /snapshot restore <snapshot-id>",
+    "cli.commands.snapshot.most_recent": "Senaste: {snapshot_id}",
+    "cli.commands.snapshot.invalid_number": "Ogiltigt nummer på tillståndskopian. Använd 1–{max}.",
+    "cli.commands.snapshot.restored": "Återställde tillståndet från: {snapshot_id}",
+    "cli.commands.snapshot.restart_recommended": "Vi rekommenderar att du startar om gateway- och dashboard-processerna så att ändringarna i state.db läses in.",
+    "cli.commands.snapshot.not_found": "Hittade inte tillståndskopian: {snapshot_id}",
+    "cli.commands.snapshot.restore_incomplete": "Tillståndskopian {snapshot_id} återställdes inte helt. Vissa filer nekades (se loggarna)",
+    "cli.commands.snapshot.usage_prune": "Användning: /snapshot prune [antal-att-behålla]",
+    "cli.commands.snapshot.pruned": "Rensade bort {deleted} gamla tillståndskopior (behåller {keep})."
+  }
+}
