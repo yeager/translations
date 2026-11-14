@@ -114,6 +114,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish completion of the OpenSubsonic provider: connection and authentication settings, recommendations, raw-stream handling and connection errors
 - Swedish completion of the Audible provider: marketplace selection, browser login, redirect handling, catalog and library navigation
 - Swedish completion of the Last.fm Recommendations provider: refresh controls, chart configuration and personalized, genre and geographic recommendation views
+- Swedish completion of the Bose SoundTouch provider: presets, media search, announcement key configuration and physical-button mapping
 
 ## Checks
 
@@ -128,7 +129,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `b56f753cd2da580c6fda68241c20b502ebfe3b57`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `3db7e9712590070a202ea81234220cdb703f830f`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
