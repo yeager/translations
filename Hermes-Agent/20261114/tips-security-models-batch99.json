@@ -1,0 +1,23 @@
+{
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "component": "tips.t361-t377",
+  "strings": {
+    "tips.t361": "HERMES_DISABLE_FILE_STATE_GUARD=1 stänger av skyddet ”filen har ändrats sedan du läste den” i patch och write_file.",
+    "tips.t362": "HERMES_ALLOW_PRIVATE_URLS=true låter webbverktyg nå localhost och privata nätverk — avstängt som standard i gatewayläge.",
+    "tips.t363": "HERMES_OPTIONAL_SKILLS=name1,name2 installerar automatiskt ytterligare färdigheter från den valfria katalogen vid första körningen per profil.",
+    "tips.t364": "HERMES_BUNDLED_SKILLS pekar på ett anpassat träd med medföljande färdigheter — används av paketering för Homebrew och Nix.",
+    "tips.t365": "HERMES_DUMP_REQUEST_STDOUT=1 skriver nyttolasten för varje API-begäran till standardutdata i stället för loggfiler.",
+    "tips.t366": "HERMES_OAUTH_TRACE=1 loggar maskerat OAuth-tokenutbyte och uppdateringsförsök för felsökning av leverantörsautentisering.",
+    "tips.t367": "HERMES_STREAM_RETRIES (standardvärde 3) styr återanslutningsförsök under pågående strömning vid tillfälliga nätverksfel.",
+    "tips.t368": "HERMES_GATEWAY_BUSY_ACK_ENABLED=false tystar ⚡/⏳/⏩-bekräftelsemeddelanden när en användare skriver till en upptagen agent.",
+    "tips.t369": "HERMES_AGENT_NOTIFY_INTERVAL (standardvärde 180 s) anger hur ofta gatewayen pingar med förlopp vid långa turer.",
+    "tips.t370": "HERMES_RESTART_DRAIN_TIMEOUT (standardvärde 900 s) begränsar hur länge /restart väntar på pågående körningar innan den tvingar fram avbrott.",
+    "tips.t371": "HERMES_CHECKPOINT_TIMEOUT (standardvärde 30 s) begränsar hur länge skapandet av en återställningspunkt i filsystemet får ta — höj värdet för mycket stora monorepon.",
+    "tips.t372": "image_gen.model i config.yaml väljer FAL-modell: flux-2/klein, gpt-image-2, nano-banana-pro med flera.",
+    "tips.t373": "image_gen.provider dirigerar bildgenerering via en insticksmodul (OpenAI Images, Codex, FAL) i stället för standardvägen.",
+    "tips.t374": "AUXILIARY_VISION_BASE_URL + AUXILIARY_VISION_API_KEY pekar bildanalys mot valfri OpenAI-kompatibel ändpunkt.",
+    "tips.t375": "API_SERVER_MODEL_NAME anpassar modellnamnet på /v1/models — avgörande för Open WebUI-konfigurationer med flera profiler.",
+    "tips.t376": "Insticksmoduler för instrumentpanelen levereras från /dashboard-plugins/<name>/ — lägg filer i ~/.hermes/dashboard-plugins/.",
+    "tips.t377": "Chattar med --source tool undantas från listan över hermes sessions som standard — ange --source uttryckligen för att se dem."
+  }
+}
