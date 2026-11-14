@@ -29,4 +29,4 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, commit `c99f3abf95c93f9f2e72fa876e1abccadb35f053`.
 
-At archive time the PR is open. Its automated checks have started; it has not received maintainer review or been merged.
+The PR is open. Its initial repository verification requests the project's full pre-commit and pytest checklist. Those commands are unavailable in the sparse review checkout, which lacks both the repository runner and its Python 3.14 environment; the PR body records that limitation rather than claiming checks that did not run. Repository CI is still running its lint and test jobs. It has not received maintainer review or been merged.
