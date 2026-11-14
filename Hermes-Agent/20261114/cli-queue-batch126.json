@@ -1,0 +1,32 @@
+{
+  "project": "Hermes Agent",
+  "language": "sv",
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "status": "reviewed-local",
+  "strings": {
+    "cli.queue.usage": "Användning: /queue <prompt> | /queue list | /queue edit N <prompt> | /queue rm N | /queue move FRÅN TILL | /queue clear",
+    "cli.queue.queued": "Köad: {preview}",
+    "cli.queue.queued_next_turn": "Köad till nästa tur: {preview}",
+    "cli.queue.empty": "Kön är tom.",
+    "cli.queue.pending_header": "Kö ({count} väntande):",
+    "cli.queue.cleared_one": "Rensade {count} köad prompt.",
+    "cli.queue.cleared_other": "Rensade {count} köade promptar.",
+    "cli.queue.removed": "Tog bort köobjekt {index}: {preview}",
+    "cli.queue.item_not_found": "Köobjekt {index} hittades inte. Aktuell storlek: {size}",
+    "cli.queue.usage_edit": "Användning: /queue edit <nummer> <ny prompt>",
+    "cli.queue.usage_remove": "Användning: /queue rm <nummer>",
+    "cli.queue.updated": "Uppdaterade köobjekt {index}: {preview}",
+    "cli.queue.usage_move": "Användning: /queue move <från> <till>",
+    "cli.queue.move_out_of_range": "Förflyttningen i kön ligger utanför intervallet. Aktuell storlek: {size}",
+    "cli.queue.moved": "Flyttade köobjekt {source} till {destination}.",
+    "cli.queue.usage_add": "Användning: /queue add <prompt>",
+    "cli.queue.gateway_refused": "Gatewayen lade inte till den i kön: {error}. Inget köades; skicka den igen när turen är slut.",
+    "cli.queue.submit_unknown": "Gatewayen svarade inte ({error}), så prompten kan redan vara köad. Kontrollera /queue list innan du skickar den igen.",
+    "cli.queue.move_gateway_fifo": "Gatewayen kör köade promptar i den ordning de skickades; redigera eller ta bort en i stället.",
+    "cli.queue.remove_refused": "Det gick inte att ta bort köobjekt {index}: {error}",
+    "cli.queue.edit_refused": "Det gick inte att redigera köobjekt {index}: {error}",
+    "cli.queue.already_started": "Köobjekt {index} har redan startat och körs som det skickades.",
+    "cli.queue.started_stopped": "Köobjekt {index} hade redan startat; gatewayen stoppade det.",
+    "cli.queue.change_unknown": "Gatewayen svarade inte om köobjekt {index} ({error}); kontrollera /queue list innan du försöker igen."
+  }
+}
