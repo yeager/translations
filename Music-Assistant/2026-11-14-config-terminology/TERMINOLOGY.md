@@ -4,7 +4,9 @@ Datum: 2026-11-14
 
 | Källa | Svenska | Anmärkning |
 | --- | --- | --- |
-| Smart / Smart shuffle | Intelligent / Intelligent blandning | Konfigurationslägen och köalgoritm, inte egennamn. |
+| Smart | Intelligent | Konfigurationslägen, inte egennamn. |
+| Smart shuffle | Intelligent slumpning | Köalgoritm som varierar urvalet utifrån nyligen spelat innehåll. |
+| Smart crossfade | Intelligent övertoning | Väljer övergång utifrån spårparets analys. |
 | Flow Mode | köflödesläge | Beskriver en enda sömlös ljudström för kön. |
 | sample rate | samplingsfrekvens | Etablerad ljudteknisk term. |
 | resample | sampla om | Används i den konkreta ljudinställningskontexten. |
