@@ -1,7 +1,8 @@
 # Organic Maps – svenska Qt-kartåtgärder
 
-Datum: 2026-11-14  
-Komponent: `data/strings/strings.txt` och den genererade `qt/translations/sv/organicmaps.ts`  
+Datum: 2026-11-14
+
+Komponent: `data/strings/strings.txt` och den genererade `qt/translations/sv/organicmaps.ts`
 Källversion: `2026.11.11-39-android`, publicerad 2026-11-11
 
 ## Granskad batch
