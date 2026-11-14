@@ -27,6 +27,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish device setup, network-advertised naming and session-authentication settings, retaining the established technical term `token`
 - complete Swedish review of flow-mode sample-rate and live-source audio settings, retaining established sound terms such as `WAV`, `PCM`, `bitperfekt` and `samplingsfrekvens`
 - complete Swedish review of local-library behavior settings: feed limits, idle shutdown, album playlists, missing `Albumartist` tags and genre inheritance; `Various Artists` is preserved because it is an internal, visible canonical artist name
+- Swedish authentication settings for remote servers, device codes, QR codes and browser cookies, retaining canonical names and standards such as `passport.yandex.ru`, `OAuth`, `SSL` and `TLS`
 
 ## Checks
 
@@ -39,6 +40,6 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `8d585798b2b77a8aa3923270c8443f966acfcc44`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `254902d88eb4c18b3ea71639f8db464966e3b1e6`.
 
-The PR is open. Its initial repository verification requests the project's full pre-commit and pytest checklist. Those commands are unavailable in the sparse review checkout, which lacks both the repository runner and its Python 3.14 environment; the PR body records that limitation rather than claiming checks that did not run. Repository lint passed; its three pytest jobs are still pending. It has not received maintainer review or been merged.
+The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
