@@ -10,12 +10,14 @@
 | `Upward Track` | uppåtgående spår | Används för räls som lutar uppåt. |
 | `Squad` | trupp | Militär eller tilldelad grupp. |
 | `Workshop` | verkstad | Byggnad där arbetsuppgifter utförs. |
+| `Bookkeeper` | bokhållare | Befattning som förbättrar precisionen i fästningens räkenskaper. |
 | `Tannery` | garveri | Verkstad för garvning. |
 | `Hauler` | bärare | Dvärg med arbetsuppgift att flytta föremål. |
 | `Cavern dweller` | grottinvånare | Varelse- och anfallsinställningar. |
 | `Charge attack` | rusningsattack | Stridsmanöver. |
 | `Item` | föremål | Generisk spelterm för ett hanterbart objekt. |
 | `Gear assembly` | kugghjulsuppsättning | Mekanisk kraftöverföring. |
+| `Quern` | handkvarn | Manuell kvarn för spannmål; en driven version kan kopplas till väderkvarn eller vattenhjul. |
 | `Megabeast` | megabest | Etablerad spelterm för en särskilt mäktig varelse; behåll som sammansatt fackterm i världsinställningarna. |
 | `Potash` | pottaska | Kemiskt material; behåll facktermen. |
 | `Ashery` | askverkstad | Verkstad för aska och pottaska; används bara när källsträngen avser byggnaden. |
