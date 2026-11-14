@@ -1,0 +1,21 @@
+# Ändringar
+
+- Bézier Curve → Bézierkurva
+- Apply Master Page → Använd mallsida
+- Show Grid → Visa rutnät
+- Snap to Grid → Fäst vid rutnät
+- Snap to Guides → Fäst vid stödlinjer
+- Eye Dropper → Pipett
+- Zero Width Non-Joiner → Icke-sammanfogare med nollbredd
+- Zero Width Joiner → Sammanfogare med nollbredd
+- Bullet → Punkt
+- Figure Dash → Sifferstreck
+- Quotation Dash → Citatstreck
+- Middle Dot → Mellanpunkt
+- En Space → Halvfyrkantsmellanslag
+- Em Space → Fyrkantsmellanslag
+- Thin Space → Tunt mellanslag
+- Thick Space → Brett mellanslag
+- Mid Space → Mellanbrett mellanslag
+- Hair Space → Hårfint mellanslag
+- Tre UI-strängar fick samma tre punkter som respektive källsträng.
