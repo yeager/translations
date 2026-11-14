@@ -26,6 +26,10 @@ källa och den faktiska svenska Lokalise-strängen.
   relative or absolute volume level, used with the strategy for
   announcements.* → *Den procentuella, relativa eller absoluta volymnivån som
   används med strategin för meddelanden.*; befintlig översättning bevarad.
+- `common.config_entries.announce_volume_max.description`: *The volume
+  (adjustment) of announcements should not go above this level.* → *Volymen
+  (justeringen) för meddelanden bör inte överstiga denna nivå.*; befintlig
+  översättning bevarad.
 
 ## Upstreamstatus
 
@@ -40,5 +44,7 @@ i MA Server på Lokalise 2026-11-14.
 Lokalise 2026-11-14. Ingen ändring behövdes.
 `common.config_entries.announce_volume.description` kontrollerades i MA Server
 på Lokalise 2026-11-14. Ingen ändring behövdes.
+`common.config_entries.announce_volume_max.description` kontrollerades i MA
+Server på Lokalise 2026-11-14. Ingen ändring behövdes.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
