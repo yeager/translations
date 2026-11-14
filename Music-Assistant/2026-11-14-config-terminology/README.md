@@ -1,0 +1,32 @@
+# Music Assistant server — Swedish configuration terminology
+
+Date: 2026-11-14
+
+Repository: `music-assistant/server` (`dev` at `8b1c3fb4e5c2411b5c97a247129876ebbf0f09e9`)
+
+Release freshness: 2.10.11 was published 2026-11-13.
+
+## Reviewed changes
+
+- `AirPlay-specifika inställningar`
+- `Aktivera stöd för {0}`
+- source-aligned help for flow mode and the shared Music Assistant icon set
+- an idiomatic TTS pre-announcement description using `klocksignal`
+- corrected loudness terminology: `ljudklippning`, not interrupted audio
+- `förinläsning` in the infinite-mix description; the em dash remains because it is present in the source
+- `Alla favoritspår`
+
+## Checks
+
+- JSON parsing passed.
+- `l10n-lint` passed.
+- Targeted `svlang` review found only known false positives for the product names AirPlay and TTS, and for valid Swedish inversion.
+- Targeted `hunspell -d sv_SE -l` ran with `nice -n 10`; it flagged only AirPlay. No Hunspell process remained afterward.
+- `git diff --check` and Gitleaks passed.
+- `msgfmt` is not applicable to this JSON catalog.
+
+## Upstream status
+
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, commit `c99f3abf95c93f9f2e72fa876e1abccadb35f053`.
+
+At archive time the PR is open. Its automated checks have started; it has not received maintainer review or been merged.
