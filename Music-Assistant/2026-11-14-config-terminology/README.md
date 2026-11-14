@@ -44,6 +44,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish server port, exposed-player, log-level and volume-control settings. This completes the source-context review of all currently missing `common.config_entries` strings in the reviewed catalog
 - Swedish review of all currently missing `common.player_options` strings: receiver and speaker sound controls, network and sleep options, and canonical audio-mode names such as `DRC`, `DTS`, `Link` and `Pure Direct`
 - Swedish completion of all currently missing `common.setup_flow` strings: initial library import, completion state and selection of a child device for setup
+- Swedish device-code login page: code copying, expiry, denial and failure states, and the Yandex continuation step. The source em dash is retained only in the manual-copy notice where the English source also uses it
 
 ## Checks
 
@@ -59,3 +60,5 @@ Release freshness: 2.10.11 was published 2026-11-13.
 Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `485f4cb8e19a3a9f487a85dbe921830803924fb0`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
+
+The locally checked device-code batch is committed as `fbed58745f022c724f3d8c2beea30ef7e1f79194` and is awaiting the currently running CI before its push to the PR branch.
