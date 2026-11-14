@@ -22,6 +22,10 @@ källa och den faktiska svenska Lokalise-strängen.
   tillagd och återläst.
 - `common.config_entries.announce_volume.label`: *Volume for Announcements* →
   *Volym för meddelanden*; befintlig översättning bevarad.
+- `common.config_entries.announce_volume.description`: *The percentual,
+  relative or absolute volume level, used with the strategy for
+  announcements.* → *Den procentuella, relativa eller absoluta volymnivån som
+  används med strategin för meddelanden.*; befintlig översättning bevarad.
 
 ## Upstreamstatus
 
@@ -34,5 +38,7 @@ på Lokalise 2026-11-14.
 i MA Server på Lokalise 2026-11-14.
 `common.config_entries.announce_volume.label` kontrollerades i MA Server på
 Lokalise 2026-11-14. Ingen ändring behövdes.
+`common.config_entries.announce_volume.description` kontrollerades i MA Server
+på Lokalise 2026-11-14. Ingen ändring behövdes.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
