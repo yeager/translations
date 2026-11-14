@@ -38,6 +38,8 @@ oförändrade; språkfel rättas direkt och återläses.
   översättning tillagd och återläst.
 - `common.config_categories.display_settings`: *Display* → *Visning*;
   befintlig översättning rättad och återläst.
+- `common.config_categories.dsp`: *Digital Signal Processing (DSP)* →
+  *Digital signalbehandling (DSP)*; befintlig översättning bevarad.
 
 ## Upstreamstatus
 
@@ -68,5 +70,7 @@ MA Server på Lokalise 2026-11-14.
 Lokalise 2026-11-14.
 `common.config_categories.display_settings` språkgranskades, rättades och
 återlästes i MA Server på Lokalise 2026-11-14.
+`common.config_categories.dsp` kontrollerades i MA Server på Lokalise
+2026-11-14. Ingen ändring behövdes.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
