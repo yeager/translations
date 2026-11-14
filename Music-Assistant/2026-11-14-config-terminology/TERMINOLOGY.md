@@ -19,5 +19,6 @@ Datum: 2026-11-14
 | marching band | marschorkester | Musikgenre, inte den bredare aktiviteten marschmusik. |
 | spoken word | talad text | Musikgenre-/bibliotekskontext. |
 | load/import | läs in / importera | *Läs in* för lokalbibliotekets inläsning, *importera* för uttalad importåtgärd. |
+| render (TTS) | syntetisera | I talsynteskontext beskriver *syntetisera* resultatet tydligare än den generella termen *återgivning*. |
 
 Behåll produkt-, standard- och formatnamn när de är synliga identifierare: exempelvis AirPlay, DTS, ICY, OAuth, PCM och Pure Direct. Internationellt etablerade genrenamn som jazz, soul, reggae och tango är avsiktligt oförändrade.
