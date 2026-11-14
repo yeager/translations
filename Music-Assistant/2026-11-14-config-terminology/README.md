@@ -121,6 +121,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish completion of the Sonic Similarity provider: local audio-signature search, similarity presets, CLAP character index, free-text search and discovery rows
 - Swedish completion of the Party provider: guest QR access, queue requests and prioritization, rate limits, karaoke mode, screen protection and playback modes
 - Swedish completion of the FastMCP Server provider: MCP configuration, token policies, resources, connection wizard and reverse-proxy security controls
+- Swedish completion of the Spotify Connect provider: playback engines, stream quality, volume handling, Soloist API-key setup and download consent
 
 ## Checks
 
@@ -135,7 +136,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `d94f3bb39d7f09f5a7cc410de86742896df55704`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `a815e895f63cd9796d71f5dbbd6c1c654caa955e`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
