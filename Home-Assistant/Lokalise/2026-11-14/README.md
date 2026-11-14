@@ -43,8 +43,9 @@ Ytterligare Voice-strängar finns i
 [`tuya-batch-25.md`](tuya-batch-25.md) och
 [`wattwaechter-rainmachine-batch-26.md`](wattwaechter-rainmachine-batch-26.md),
 [`keyboard-remote-batch-27.md`](keyboard-remote-batch-27.md) och
-[`voice-support-batch-28.md`](voice-support-batch-28.md).
-Totalt omfattar dagens arkiverade arbete därmed 69 direkt sparade och
+[`voice-support-batch-28.md`](voice-support-batch-28.md) och
+[`hp-printer-lamarzocco-batch-29.md`](hp-printer-lamarzocco-batch-29.md).
+Totalt omfattar dagens arkiverade arbete därmed 74 direkt sparade och
 återlästa strängar.
 
 Not: Batcharna är sparade upstream i Lokalise. Detta är inte en fullständig
