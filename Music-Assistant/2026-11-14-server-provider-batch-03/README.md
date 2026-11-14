@@ -8,6 +8,6 @@ Tre svenska strängar för AmpliPi, en nätverksansluten flerzonsstyrenhet för 
 
 ## Upstreamstatus
 
-Inte uppladdad, föreslagen eller inskickad. Deltat väntar på att den pågående Lokalise-redigeringen av **MA Server** blir tillgänglig för säker inmatning och läsning tillbaka.
+Alla tre översättningar sparades i Music Assistants etablerade Lokalise-redigerare 2026-11-14 och lästes tillbaka direkt: `Värd`, den fullständiga AmpliPi-värdbeskrivningen och felmeddelandet om en redan konfigurerad styrenhet. Lokalise-granskning, synkronisering till källkodsarkivet och en släppt serverversion är inte verifierade.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON. Övriga kontroller körs före arkivering.
