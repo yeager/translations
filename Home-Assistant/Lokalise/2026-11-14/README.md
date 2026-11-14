@@ -49,7 +49,8 @@ Ytterligare Voice-strängar finns i
 [`hp-printer-host-batch-31.md`](hp-printer-host-batch-31.md).
 [`tuya-batch-32.md`](tuya-batch-32.md).
 [`tuya-batch-33.md`](tuya-batch-33.md).
-Totalt omfattar dagens arkiverade arbete därmed 86 direkt sparade och
+[`tuya-batch-34.md`](tuya-batch-34.md).
+Totalt omfattar dagens arkiverade arbete därmed 89 direkt sparade och
 återlästa strängar.
 
 Not: Batcharna är sparade upstream i Lokalise. Detta är inte en fullständig
