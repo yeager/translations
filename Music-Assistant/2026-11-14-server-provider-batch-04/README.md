@@ -8,6 +8,6 @@ Sex svenska strängar för Apple Musics anslutningsflöde. Tokenetiketterna utel
 
 ## Upstreamstatus
 
-`setup_flow.abort.auth_cancelled` sparades och lästes tillbaka i MA Server på Lokalise 2026-11-14. De sex återstående deltastringarna är ännu inte inskickade och befintliga Lokalise-värden ersätts inte. Lokalise-granskning, kodsynkronisering och release är inte verifierade.
+`setup_flow.abort.auth_cancelled` och `setup_flow.app_token.description` sparades och lästes tillbaka i MA Server på Lokalise 2026-11-14. De fem återstående deltastringarna är ännu inte inskickade och befintliga Lokalise-värden ersätts inte. Lokalise-granskning, kodsynkronisering och release är inte verifierade.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON. Övriga kontroller körs före arkivering.
