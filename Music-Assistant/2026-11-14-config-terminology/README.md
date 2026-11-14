@@ -66,6 +66,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish completion of the remaining four visible media-folder names and context review of Afrobeats metadata in `common.media`
 - Swedish review of ten `common.media` podcast genres: arts, business, comedy, education, fiction, government, health, history, kids and leisure
 - Swedish completion of the remaining nine `common.media` podcast genres: music, news, religion, science, society, sports, technology, true crime and television/film
+- Swedish review of 38 visible `common.media` recommendation labels and subtitles for albums, artists, podcasts, playlists, radio and recently or frequently played content
 
 ## Checks
 
@@ -82,4 +83,4 @@ Submitted as [music-assistant/server#7640](https://github.com/music-assistant/se
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
-All recorded batches have been pushed to the PR branch. The replacement CI run was requested by the latest push; it is not maintainer reviewed or merged.
+All previously recorded batches have been pushed to the PR branch. The newly recorded recommendations batch is locally committed as `b3b554c` and ready for the normal upstream push; it is not maintainer reviewed or merged.
