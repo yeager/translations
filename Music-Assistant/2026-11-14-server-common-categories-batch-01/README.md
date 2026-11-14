@@ -42,6 +42,8 @@ oförändrade; språkfel rättas direkt och återläses.
   *Digital signalbehandling (DSP)*; befintlig översättning bevarad.
 - `common.config_categories.features`: *Features* → *Funktioner*; saknad
   översättning tillagd och återläst.
+- `common.config_categories.generic`: *Generic* → *Allmänt*; befintlig
+  översättning bevarad.
 
 ## Upstreamstatus
 
@@ -76,5 +78,7 @@ Lokalise 2026-11-14.
 2026-11-14. Ingen ändring behövdes.
 `common.config_categories.features` översattes och återlästes i MA Server på
 Lokalise 2026-11-14.
+`common.config_categories.generic` kontrollerades i MA Server på Lokalise
+2026-11-14. Ingen ändring behövdes.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
