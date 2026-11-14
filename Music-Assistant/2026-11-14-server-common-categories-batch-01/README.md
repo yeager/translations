@@ -22,6 +22,8 @@ oförändrade; språkfel rättas direkt och återläses.
   bevarad.
 - `common.config_categories.audio_analysis`: *Audio Analysis* → *Ljudanalys*;
   befintlig översättning bevarad.
+- `common.config_categories.autoplay`: *Autoplay* → *Automatisk uppspelning*;
+  saknad översättning tillagd och återläst.
 
 ## Upstreamstatus
 
@@ -36,5 +38,7 @@ Lokalise 2026-11-14. Ingen ändring behövdes.
 2026-11-14. Ingen ändring behövdes.
 `common.config_categories.audio_analysis` kontrollerades i MA Server på
 Lokalise 2026-11-14. Ingen ändring behövdes.
+`common.config_categories.autoplay` översattes och återlästes i MA Server på
+Lokalise 2026-11-14.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
