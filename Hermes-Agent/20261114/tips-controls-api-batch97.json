@@ -1,0 +1,26 @@
+{
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "component": "tips.t321-t340",
+  "strings": {
+    "tips.t321": "HERMES_BACKGROUND_NOTIFICATIONS=result pingar endast när bakgrundsuppgifter är klara (jämfört med concise/all/error/off).",
+    "tips.t322": "HERMES_WRITE_SAFE_ROOT begränsar write_file/patch till katalogprefix; flera sökvägar via os.pathsep (: eller ;).",
+    "tips.t323": "HERMES_IGNORE_RULES hoppar över automatisk injicering av AGENTS.md, SOUL.md, .cursorrules, minne och förinlästa färdigheter.",
+    "tips.t324": "HERMES_ACCEPT_HOOKS godkänner automatiskt skalkrokar som inte har setts tidigare och som anges i config.yaml, utan en TTY-fråga.",
+    "tips.t325": "auxiliary.goal_judge.model dirigerar /goal-bedömaren till en billig snabb modell för att hålla loopkostnaden nära noll.",
+    "tips.t326": "Återställningspunkter hoppar över kataloger med fler än 50 000 filer för att undvika långsamma git-åtgärder i mycket stora monorepon.",
+    "tips.t327": "tts.provider: piper kör lokal TTS på CPU för 44 språk — röster hämtas automatiskt till ~/.hermes/cache/piper-voices/.",
+    "tips.t328": "tts.providers.<name>.type: command kopplar valfri CLI-baserad TTS-motor med platshållarna {input_path} och {output_path}.",
+    "tips.t329": "API_SERVER_ENABLED=true kör en OpenAI-kompatibel ändpunkt parallellt med gatewayen för Open WebUI och LibreChat.",
+    "tips.t330": "GATEWAY_PROXY_URL kör en uppdelad konfiguration: plattforms-I/O lokalt och agentarbete delegerat till en fjärransluten API-server.",
+    "tips.t331": "MATRIX_DEVICE_ID fäster ett stabilt enhets-ID för E2EE — utan det roteras nycklar vid varje start och historisk dekryptering slutar fungera.",
+    "tips.t332": "TELEGRAM_WEBHOOK_SECRET krävs när TELEGRAM_WEBHOOK_URL är angiven — skapa den med openssl rand -hex 32.",
+    "tips.t333": "batch_runner.py --resume matchar slutförda promptar mot innehållet så att omordnade datauppsättningar inte kör färdigt arbete igen.",
+    "tips.t334": "/new startar en ny session på plats (alias /reset) — nytt sessions-ID, ren historik, CLI:t förblir öppet.",
+    "tips.t335": "/clear tömmer terminalskärmen och startar en ny session — en genväg för visuell återställning.",
+    "tips.t336": "/history skriver ut den aktuella konversationen direkt i CLI:t utan att lämna det — användbart för en snabb omläsning.",
+    "tips.t337": "/save skriver den aktuella konversationen till disk utan att avsluta sessionen.",
+    "tips.t338": "/status visar sessionsinformation med en blick: ID, titel, modell, tokenanvändning och förfluten tid.",
+    "tips.t339": "/image <path> bifogar en lokal bildfil till nästa prompt utan inklistring eller dra-och-släpp.",
+    "tips.t340": "/platforms visar anslutningsstatus för gatewayen och meddelandeplattformar direkt i chatten."
+  }
+}
