@@ -38,8 +38,9 @@ Ytterligare Voice-strängar finns i
 [`tuya-batch-20.md`](tuya-batch-20.md) och
 [`lamarzocco-batch-21.md`](lamarzocco-batch-21.md) och
 [`webostv-neopool-batch-22.md`](webostv-neopool-batch-22.md) och
-[`tts-vesync-tuya-batch-23.md`](tts-vesync-tuya-batch-23.md). Totalt omfattar
-dagens arkiverade arbete därmed 55 direkt sparade och återlästa strängar.
+[`tts-vesync-tuya-batch-23.md`](tts-vesync-tuya-batch-23.md) och
+[`hp-printer-batch-24.md`](hp-printer-batch-24.md). Totalt omfattar dagens
+arkiverade arbete därmed 56 direkt sparade och återlästa strängar.
 
 Not: Batcharna är sparade upstream i Lokalise. Detta är inte en fullständig
 genomgång av Home Assistant Core; oöversatta strängar återstår och behandlas i
