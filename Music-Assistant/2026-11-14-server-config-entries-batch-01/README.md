@@ -67,6 +67,11 @@ källa och den faktiska svenska Lokalise-strängen.
   ON, automatically start playing (if there are items in the queue).* → *När
   spelaren är påslagen startar uppspelningen automatiskt (om det finns objekt
   i kön).*; befintlig översättning bevarad.
+- `common.config_entries.crossfade_duration.label`: *Crossfade duration* →
+  *Varaktighet för övertoning*; befintlig översättning bevarad.
+- `common.config_entries.crossfade_duration.description`: *Duration in seconds
+  of the crossfade between tracks (if enabled)* → *Varaktighet i sekunder för
+  övertoning mellan spår (om aktiverad)*; befintlig översättning bevarad.
 
 ## Upstreamstatus
 
@@ -113,5 +118,8 @@ MA Server på Lokalise 2026-11-14.
 `common.config_entries.auto_play.label` och
 `common.config_entries.auto_play.description` kontrollerades i MA Server på
 Lokalise 2026-11-14. Ingen ändring behövdes.
+`common.config_entries.crossfade_duration.label` och
+`common.config_entries.crossfade_duration.description` kontrollerades i MA
+Server på Lokalise 2026-11-14. Ingen ändring behövdes.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
