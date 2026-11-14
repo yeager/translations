@@ -1,0 +1,32 @@
+{
+  "project": "Hermes Agent",
+  "language": "sv",
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "status": "reviewed-local",
+  "strings": {
+    "gateway.exec_approval.header": "Hermes vill köra ett kommando som kräver ditt godkännande",
+    "gateway.exec_approval.reason_label": "Varför det flaggades",
+    "gateway.exec_approval.default_reason": "farligt kommando",
+    "gateway.exec_approval.smart_deny_line": "Smart NEKA: ägarens åsidosättning gäller bara denna åtgärd.",
+    "gateway.exec_approval.smart_deny_heading": "⚠️ **Smart NEKA — ägarens åsidosättning för en åtgärd:**",
+    "gateway.exec_approval.timed_out_notice": "⌛ Godkännandet fick tidsgränsen {window} — kommandot kördes INTE. Be mig försöka igen om du fortfarande vill det, eller höj approvals.timeout i config.yaml.",
+    "gateway.exec_approval.timed_out_card_body": "{notice}\n```\n{command}\n```",
+    "gateway.exec_approval.action_once": "Tillåt en gång",
+    "gateway.exec_approval.action_session": "Tillåt i sessionen",
+    "gateway.exec_approval.action_always": "Tillåt alltid",
+    "gateway.exec_approval.action_deny": "Neka",
+    "gateway.exec_approval.deadline": "Om du inte svarar inom {window} körs det INTE.",
+    "gateway.exec_approval.not_requester": "Bara {requester} kan svara på detta godkännande.",
+    "gateway.exec_approval.not_requester_admins_only": "Bara en administratör eller en angiven godkännare kan svara på detta godkännande.",
+    "gateway.exec_approval.text_choice_once": "Svara `{prefix}approve` för att köra det en gång",
+    "gateway.exec_approval.text_choice_session": "`{prefix}approve session` för att tillåta detta mönster resten av sessionen",
+    "gateway.exec_approval.text_choice_always": "`{prefix}approve always` för att tillåta det permanent",
+    "gateway.exec_approval.text_choice_deny": "`{prefix}deny` för att avbryta",
+    "gateway.exec_approval.text_choice_joiner": ", ",
+    "gateway.exec_approval.text_choice_last": ", eller {choice}.\n",
+    "gateway.exec_approval.text_body": "{heading}\n```\n{command}\n```\n{reason_label}: {reason}\n\n",
+    "gateway.exec_approval.truncated_full_above": "Förhandsvisningen har kortats. Hela kommandot ({total} tecken) finns i meddelandet ovan.",
+    "gateway.exec_approval.truncated_deny_only": "Förhandsvisningen har kortats ({total} tecken) och hela kommandot kunde inte visas här, så bara Neka erbjuds. Granska det i CLI eller skrivbordsappen.",
+    "gateway.exec_approval.text_prompt_deny_only": "Hela godkännandeprompten är för lång för denna plattform, så bara Neka erbjuds. Granska den i CLI eller skrivbordsappen."
+  }
+}
