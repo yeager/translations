@@ -1,0 +1,21 @@
+{
+  "project": "Hermes Agent",
+  "language": "sv",
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "status": "reviewed-local",
+  "strings": {
+    "gateway.shutdown.action_restarting": "startar om",
+    "gateway.shutdown.action_shutting_down": "stängs av",
+    "gateway.shutdown.cron_interrupted": "⚠️ Det schemalagda jobbet '{job}' avbröts eftersom Hermes {action}; inget resultat denna körning. Det körs igen enligt schemat, eller kör det nu med `hermes cron run {job}` när Hermes är tillbaka.",
+    "gateway.shutdown.notice_restart": "⚠️ Hermes startar om — din aktuella uppgift avbryts. Skicka ett meddelande efter omstarten så försöker jag fortsätta där du slutade.",
+    "gateway.shutdown.notice_shutdown": "⚠️ Hermes stängs av — din aktuella uppgift avbryts. När Hermes är tillbaka online skickar du ett meddelande så försöker jag fortsätta där vi slutade.",
+    "gateway.startup.db_corrupt": "⚠️ Skada i sessionsdatabasen upptäcktes. Meddelanden kanske inte sparas. Återställningsalternativ:\n1. Kör `hermes {profile_arg}doctor --fix`\n2. Stoppa gatewayen och återställ sedan med:\n   hermes {profile_arg}sessions recover --source {db_path} --inspect-only\n   (om det rapporterar att återställning är möjlig) hermes {profile_arg}sessions recover --source {db_path} --output recovered-state.db\n   — återställningen tar först en ögonblicksbild av den skadade filen; kör INTE `sqlite3 ... \".recover\"` mot den aktiva state.db, eftersom en sårbar sqlite3 CLI kan skada den ytterligare\n3. Återställ från en säkerhetskopia i {backups_dir}/\nKör `hermes {profile_arg}doctor` för rensad diagnostik.",
+    "gateway.startup.db_fts_corrupt": "⚠️ Sessionsdatabasen rapporterade ett skadfel som är begränsat till sökindexet (FTS5); meddelandetabellerna är oskadade. Meddelanden kanske inte sparas förrän det har reparerats: kör `hermes {profile_arg}doctor --fix` och starta sedan om gatewayen. Kör inte återställningsverktyg och återställ inte från en säkerhetskopia om inte `hermes {profile_arg}doctor` bekräftar skadan.",
+    "gateway.startup.db_then_restart": "{action} Starta sedan om med `hermes {profile_arg}gateway restart`.",
+    "gateway.startup.db_unavailable": "⚠️ Sessionsdatabasen är inte tillgänglig — meddelanden kanske inte sparas och /resume blir tomt. Orsak: {cause}. {action}",
+    "gateway.startup.handoff_thread_title": "Hermes — {title}",
+    "gateway.startup.online": "♻️ Gatewayen är online — Hermes är tillbaka och redo.",
+    "gateway.startup.restarted": "♻ Gatewayen startades om utan fel. Din session fortsätter.",
+    "gateway.stop.force_stopped_pending": "⚡ Tvångsstoppad. Agenten höll fortfarande på att starta — sessionen är upplåst."
+  }
+}
