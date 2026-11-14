@@ -17,10 +17,12 @@ källtextens sammanhang.
 | scanned pages | skannade sidor | HP Printer, ackumulerad räknare. |
 | faxed pages | faxade sidor | HP Printer, ackumulerad räknare. |
 | scanned pages from glass | skannade sidor från skannerglaset | HP Printer, flatbäddsskannerns räknare; förtydligar att glaset är skannerns. |
+| copied black and white pages | kopierade svartvita sidor | HP Printer, räknare för svartvita kopior. |
+| copied color pages | kopierade färgsidor | HP Printer, räknare för färgkopior. |
 
 ## Status
 
-De två molnstatusetiketterna, `scanner_jams` och räknaren för skannerglaset
-är sparade i Lokalise och återlästa där. `jams` och sex övriga räknaretiketter
-var redan korrekta vid den oberoende verifieringen. Återstående räknare väntar
-på upstream-sparning och separat återläsning.
+De två molnstatusetiketterna, `scanner_jams`, räknaren för skannerglaset och
+två kopieringsräknare är sparade i Lokalise och återlästa där. `jams` och åtta
+övriga räknaretiketter var redan korrekta vid den oberoende verifieringen.
+Återstående räknare väntar på upstream-sparning och separat återläsning.

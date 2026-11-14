@@ -60,10 +60,11 @@ Ytterligare Voice-strängar finns i
 [`hp-printer-jams-batch-41.md`](hp-printer-jams-batch-41.md).
 [`hp-printer-page-counters-batch-42.md`](hp-printer-page-counters-batch-42.md).
 [`hp-printer-feed-batch-43.md`](hp-printer-feed-batch-43.md).
-Totalt omfattar dagens arkiverade arbete därmed 123 direkt sparade och
+[`hp-printer-color-counters-batch-44.md`](hp-printer-color-counters-batch-44.md).
+Totalt omfattar dagens arkiverade arbete därmed 125 direkt sparade och
 återlästa strängar.
 
-Det finns även 14 lokalt granskade HP Printer-strängar i
+Det finns även 10 lokalt granskade HP Printer-strängar i
 [`hp-printer-pending-batches-41-45.md`](hp-printer-pending-batches-41-45.md).
 De är inte sparade upstream och ska först genomgå sparning samt separat
 återläsning i Lokalise.
