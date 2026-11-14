@@ -48,6 +48,8 @@ oförändrade; språkfel rättas direkt och återläses.
   välja*; saknad översättning tillagd och återläst.
 - `common.config_categories.options`: *Player options* → *Spelaralternativ*;
   befintlig översättning bevarad.
+- `common.config_categories.playback`: *Queue Playback* → *Köuppspelning*;
+  befintlig översättning rättad och återläst.
 
 ## Upstreamstatus
 
@@ -88,5 +90,7 @@ Lokalise 2026-11-14.
 Server på Lokalise 2026-11-14.
 `common.config_categories.options` kontrollerades i MA Server på Lokalise
 2026-11-14. Ingen ändring behövdes.
+`common.config_categories.playback` språkgranskades, rättades och återlästes i
+MA Server på Lokalise 2026-11-14.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
