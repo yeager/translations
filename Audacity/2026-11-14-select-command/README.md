@@ -7,6 +7,10 @@ timerinspelningen och för kommandot i `SelectCommand`. Den tidigare svenska
 texten `Bläddra...` beskrev bara den ena användningen. Den är ändrad till
 `Välj...`, som fungerar i båda sammanhangen.
 
+Två närliggande gränssnittsposter är också normaliserade: kommandonamnet
+`Handle 'audacity://' url` börjar med `Hantera`, och EQ-kurvans reserverade
+visningsnamn använder katalogens etablerade form `namnlös` med liten bokstav.
+
 ## Underlag
 
 Källan i `TimerRecordDialog.cpp` använder posten för att välja sökväg för att
@@ -25,6 +29,6 @@ kommandots synliga namn.
 
 ## Upstreamstatus
 
-Commit [`1356c99`](https://github.com/yeager/audacity/commit/1356c99407cd8cca641d0458f0b65e47238ea5de)
+Commit [`ae9ae2c`](https://github.com/yeager/audacity/commit/ae9ae2c244e7af3f4d81469ecc8f2f4e1524d814)
 är pushad till [audacity/audacity#12759](https://github.com/audacity/audacity/pull/12759).
 PR:n är öppen och väntar på CI samt upstream-granskning; den är inte mergead.
