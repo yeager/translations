@@ -145,8 +145,8 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-The reviewed work is **not submitted through Music Assistant's established translation channel**. It was previously proposed as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `b92a0cc69162637e95b89bed8ae4e51a969b622e`. The pull request was closed without merge on 2026-11-14 after the maintainers confirmed that Swedish translations are synchronized from Lokalise and must be entered there.
+The earlier GitHub proposal, [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), was closed without merge on 2026-11-14 after the maintainers confirmed that translations must be entered in Lokalise.
 
-On 2026-11-14, the available authenticated Lokalise session was checked. It provides access to four Home Assistant projects only; Music Assistant is not listed. No Music Assistant translation was uploaded, suggested or modified in Lokalise. Access to the project's Lokalise space is the remaining blocker before submission and subsequent readback verification.
+Lokalise access was subsequently established. The Frontend project received and read back ten reviewed onboarding strings, and the Server project received and read back the separate four-string live batch documented in `../2026-11-14-server-live-batch-01/`. This review archive is not itself a claim that all of the older local changes have been entered, reviewed, synchronized or released upstream.
 
-The latest local Swedish candidate is the closed-PR head `b92a0cc69162637e95b89bed8ae4e51a969b622e`, not the much older exported snapshot. Against the current 2026-11-14 English source it covers 2,083 of 3,175 current keys; 1,092 were still missing before the separately archived provider batch. Do not infer upstream availability from this local candidate: no part of it has been entered in Lokalise.
+The local Swedish export predates the current English source snapshot: it contains 1,034 keys while the current source contains 3,173. The current-source gaps are being added in reviewed batches; do not infer a fully current Swedish catalog from the older export's non-empty-value count.
