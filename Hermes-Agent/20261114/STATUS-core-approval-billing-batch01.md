@@ -40,6 +40,14 @@ current English catalog pass. `l10n-lint`, diff check and Gitleaks pass.
 Hunspell and svlang only flag identifiers, placeholders, `3DS`, product names
 or grammatical V2 false positives; no wording change is required.
 
+## Batch 03: billing completion
+
+`core-billing-batch03.json` adds 93 further current entries for billing
+descriptions, balances, registered cards, monthly limits, Portal links,
+Remote Spending recovery and interactive CLI guidance. JSON syntax and 93/93
+placeholder parity against the current English catalog pass. `l10n-lint`,
+diff check and Gitleaks pass. `msgfmt` remains inapplicable to JSON deltas.
+
 ## Upstream state
 
 The web localization PR [#148618](https://github.com/NousResearch/hermes-agent/pull/148618)
