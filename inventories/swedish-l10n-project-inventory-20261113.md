@@ -55,7 +55,7 @@ Prioritet 1 betyder bred slutanvändarnytta, 2 produktivitets- och samarbetsprog
 | 1 | [signalapp/Signal-Android](https://github.com/signalapp/Signal-Android) | 2026-11-09 | Svensk resurs: `app/src/main/res/values-sv` | 2026-11-11, Greyson Parrelli |
 | 1 | [signalapp/Signal-Desktop](https://github.com/signalapp/Signal-Desktop) | 2026-11-11 | Svensk resurs: `_locales/sv` | 2026-11-11, Fedor Indutny |
 | 1 | [standardnotes/app](https://github.com/standardnotes/app) | 2026-10-23 | Ny JSON-baserad web- och mobillokalisering, men svenska saknas; ingen extern plattform funnen och funktionen är under intern utrullning | Ej offentligt fastställt |
-| 1 | [TeamAmaze/AmazeFileManager](https://github.com/TeamAmaze/AmazeFileManager) | 2026-10-15 | Svensk resurs: `app/src/main/res/values-sv` | 2026-01-05, Raymond Lai |
+| 1 | [TeamAmaze/AmazeFileManager](https://github.com/TeamAmaze/AmazeFileManager) | 2026-10-15 | Svenska förvaltas i Transifex: 72 % och aktivitet 2026-11-09. Git-kopian saknar 216 av 723 aktuella källnycklar och är inte säker importkälla. | Senaste publikt synliga Git-ändring: 2026-01-05, Raymond Lai; aktuell Transifex-översättare ej offentligt fastställd |
 | 1 | [TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe) | 2026-11-10 | Svensk resurs: `app/src/main/res/values-sv` | 2026-11-02, TobiGr |
 | 1 | [thunderbird/thunderbird-android](https://github.com/thunderbird/thunderbird-android) | 2026-11-10 | Svensk resurs: `app-common/src/main/res/values-sv` | 2025-11-05, Hosted Weblate |
 | 1 | [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | 2026-08-18 | Svensk resurs: `packages/frontend/i18n/src/resources/sv-SE.json` | 2026-08-10, DarkSky |
