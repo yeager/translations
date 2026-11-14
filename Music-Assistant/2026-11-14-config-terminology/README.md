@@ -61,6 +61,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish review of 21 remaining player-queue settings for smart-shuffle song recency, smart-overtoning defaults and EBU-R128 volume normalization
 - Swedish completion of all currently missing `core.player_queues` strings: playback-request timeout, module description and the visible module name
 - Swedish review of 15 audiobook genres and descriptions in `common.media`, with Swedish library terminology and source-preserving em dashes
+- Swedish completion of the remaining six audiobook genres in `common.media`: science, self-help, speakers, sports, technology and travel
 
 ## Checks
 
@@ -77,4 +78,4 @@ Submitted as [music-assistant/server#7640](https://github.com/music-assistant/se
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
-All recorded batches have been pushed to the PR branch. The replacement CI run was requested by the latest push; it is not maintainer reviewed or merged.
+All previously recorded batches have been pushed to the PR branch. The completed audiobook-genres batch is locally committed as `ea423cc` and ready for the normal upstream push; it is not maintainer reviewed or merged.
