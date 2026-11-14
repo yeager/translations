@@ -90,3 +90,9 @@ strängar är sparade och återlästa i Transifex. Namn, användarnamn,
 organisationsnamn och datum har bevarats. Arkivbatch:
 `website-2026-11-14-about-organization`. Projektgranskning,
 källsynkronisering och publicering är inte verifierade.
+
+About – Contributors har därefter granskats rad för rad: 4 av 4 svenska
+strängar är sparade och återlästa i Transifex. Produktnamn, UI-namn och
+Gitea- och forumlänkar har bevarats. Arkivbatch:
+`website-2026-11-14-about-contributors`. Projektgranskning,
+källsynkronisering och publicering är inte verifierade.
