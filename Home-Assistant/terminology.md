@@ -19,6 +19,7 @@ källtextens sammanhang.
 
 ## Status
 
-De två molnstatusetiketterna är sparade i Lokalise och återlästa där.
-Pappersstopps- och sidräknaretiketterna är lokalt granskade men väntar på
+De två molnstatusetiketterna och `scanner_jams` är sparade i Lokalise och
+återlästa där. `jams` var redan korrekt som `Pappersstopp` vid den oberoende
+verifieringen. Sidräknaretiketterna är lokalt granskade men väntar på
 upstream-sparning och separat återläsning.
