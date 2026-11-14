@@ -78,3 +78,9 @@ strängar är sparade och återlästa i Transifex. Markdown, interna länkar och
 avdelare har bevarats; en felaktig radbrytning rättades efter Transifex QA.
 Arkivbatch: `website-2026-11-14-about-contact-us`. Projektgranskning,
 källsynkronisering och publicering är inte verifierade.
+
+About – Official logos har därefter granskats rad för rad: 7 av 7 svenska
+strängar är sparade och återlästa i Transifex. Hugo-kortkoder,
+typsnittsnamn, licenslänkar och filformat har bevarats. Arkivbatch:
+`website-2026-11-14-about-official-logos`. Projektgranskning,
+källsynkronisering och publicering är inte verifierade.
