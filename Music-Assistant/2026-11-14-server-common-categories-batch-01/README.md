@@ -64,6 +64,9 @@ oförändrade; språkfel rättas direkt och återläses.
   tillagd och återläst. Identisk källtext är korrekt fackterm.
 - `common.config_categories.status`: *Status* → *Status*; saknad översättning
   tillagd och återläst. Identisk källtext är korrekt fackterm.
+- `common.config_categories.sync_options`: *Sync/import options* →
+  *Synkroniserings- och importalternativ*; befintlig översättning rättad och
+  återläst.
 
 ## Upstreamstatus
 
@@ -120,5 +123,7 @@ Server på Lokalise 2026-11-14.
 Lokalise 2026-11-14; identisk källtext är korrekt fackterm.
 `common.config_categories.status` översattes och återlästes i MA Server på
 Lokalise 2026-11-14; identisk källtext är korrekt fackterm.
+`common.config_categories.sync_options` språkgranskades, rättades och
+återlästes i MA Server på Lokalise 2026-11-14.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
