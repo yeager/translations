@@ -82,6 +82,8 @@ oförändrade; språkfel rättas direkt och återläses.
   och återläst.
 - `common.config_categories.source_selection`: *Source selection* →
   *Källurval*; saknad översättning tillagd och återläst.
+- `common.config_categories.settings`: *Settings* → *Inställningar*;
+  befintlig översättning bevarad.
 
 ## Upstreamstatus
 
@@ -156,5 +158,7 @@ bevarades.
 bevarades.
 `common.config_categories.source_selection` översattes och återlästes i MA
 Server på Lokalise 2026-11-14.
+`common.config_categories.settings` kontrollerades i MA Server på Lokalise
+2026-11-14. Ingen ändring behövdes.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
