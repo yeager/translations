@@ -70,6 +70,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish context review of the Ambient genre metadata in `common.media`, retaining the established genre and new-age terminology
 - Swedish context review of the anime/video-game and Asian-music genre metadata in `common.media`, retaining identifiers such as VGM, PSG, FM synthesis and chiptune
 - Swedish context review of the children’s, Christmas and church-music genre metadata in `common.media`
+- Swedish context review of the classical-music and chanson metadata in `common.media`, including music-historical terminology
 
 ## Checks
 
@@ -86,4 +87,4 @@ Submitted as [music-assistant/server#7640](https://github.com/music-assistant/se
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
-All recorded batches have been pushed to the PR branch. The replacement CI run was requested by the latest push; it is not maintainer reviewed or merged.
+All previously recorded batches have been pushed to the PR branch. The newly recorded classical-and-chanson batch is locally committed as `f38bcfb` and ready for the normal upstream push; it is not maintainer reviewed or merged.
