@@ -66,3 +66,9 @@ strängar är sparade och återlästa i Transifex. Länkar, den escapade
 dollarsymbolen och Hugo-kortkoden har bevarats. Arkivbatch:
 `website-2026-11-14-community-donate`. Projektgranskning,
 källsynkronisering och publicering är inte verifierade.
+
+Community – Get support har därefter granskats rad för rad: 19 av 19 svenska
+strängar är sparade och återlästa i Transifex. Markdown-länkar, URL-parametrar,
+IRC-markeringen och avdelarna har bevarats. Arkivbatch:
+`website-2026-11-14-community-support`. Projektgranskning,
+källsynkronisering och publicering är inte verifierade.
