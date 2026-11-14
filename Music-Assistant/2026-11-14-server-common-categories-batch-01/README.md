@@ -80,6 +80,8 @@ oförändrade; språkfel rättas direkt och återläses.
 - `common.config_categories.protocol_output_settings_via`: *Enable {0} support
   (over {1})* → *Aktivera stöd för {0} via {1}*; saknad översättning tillagd
   och återläst.
+- `common.config_categories.source_selection`: *Source selection* →
+  *Källurval*; saknad översättning tillagd och återläst.
 
 ## Upstreamstatus
 
@@ -152,5 +154,7 @@ bevarades.
 `common.config_categories.protocol_output_settings_via` översattes och
 återlästes i MA Server på Lokalise 2026-11-14. Platshållarna `{0}` och `{1}`
 bevarades.
+`common.config_categories.source_selection` översattes och återlästes i MA
+Server på Lokalise 2026-11-14.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
