@@ -145,10 +145,8 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `b92a0cc69162637e95b89bed8ae4e51a969b622e`.
+The reviewed work is **not submitted through Music Assistant's established translation channel**. It was previously proposed as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `b92a0cc69162637e95b89bed8ae4e51a969b622e`. The pull request was closed without merge on 2026-11-14 after the maintainers confirmed that Swedish translations are synchronized from Lokalise and must be entered there.
 
-The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
-
-All recorded batches have been pushed to the PR branch. The replacement CI run was requested by the latest push; it is not maintainer reviewed or merged.
+On 2026-11-14, the available authenticated Lokalise session was checked. It provides access to four Home Assistant projects only; Music Assistant is not listed. No Music Assistant translation was uploaded, suggested or modified in Lokalise. Access to the project's Lokalise space is the remaining blocker before submission and subsequent readback verification.
 
 The local Swedish export predates the current English source snapshot: it contains 1,034 keys while the current source contains 3,173. The current-source gaps are being added in reviewed batches; do not infer a fully current Swedish catalog from the older export's non-empty-value count.
