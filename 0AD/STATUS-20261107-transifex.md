@@ -101,3 +101,4 @@ Media – Music har därefter granskats rad för rad: 4 av 4 svenska strängar �
 sparade och återlästa i Transifex. Licens, filformat, länkar och Hugo-kortkod
 har bevarats. Arkivbatch: `website-2026-11-14-media-music`.
 Projektgranskning, källsynkronisering och publicering är inte verifierade.
+\n- 2026-11-14: Media – Screenshots (`page-media-screenshots`) färdigställdes rad för rad på svenska: 69/69 strängar, 0 oöversatta och 69 ogranskade i Transifex vid avläsning. Arkivering och egen GitHub-push dokumenteras separat; upstream-granskning och merge är inte verifierade.
