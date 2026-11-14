@@ -12,6 +12,8 @@ Datum: 2026-11-14
 | resample | sampla om | Används i den konkreta ljudinställningskontexten. |
 | crossfade | övertoning | Samma term används i spelarinställningarna. |
 | queue playback | köuppspelning | Namn på kategorin för köns uppspelningsbeteende. |
+| enqueue | köa | Verb för att lägga ett medieobjekt i kön. |
+| default enqueue option | standardalternativ för att köa | Inställning som styr vad som händer när ett visst medieslag köas. |
 | player controls | spelarkontroller | Namn på kategorin för spelarens kontroller. |
 | announcement | meddelande | Används för tidsbegränsade utrop som spelas upp till en spelare. |
 | volume strategy | volymstrategi | Inställning för hur volymen tillfälligt ändras för meddelanden. |

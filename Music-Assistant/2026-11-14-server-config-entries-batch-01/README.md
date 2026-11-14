@@ -72,6 +72,12 @@ källa och den faktiska svenska Lokalise-strängen.
 - `common.config_entries.crossfade_duration.description`: *Duration in seconds
   of the crossfade between tracks (if enabled)* → *Varaktighet i sekunder för
   övertoning mellan spår (om aktiverad)*; befintlig översättning bevarad.
+- `common.config_entries.default_enqueue_option_album.label`: *Default enqueue
+  option for Album item(s).* → *Standardalternativ för att köa album.*;
+  översättningen förtydligad och återläst.
+- `common.config_entries.default_enqueue_option_artist.label`: *Default enqueue
+  option for Artist item(s).* → *Standardalternativ för att köa artister.*;
+  översättningen förtydligad och återläst.
 
 ## Upstreamstatus
 
@@ -121,5 +127,8 @@ Lokalise 2026-11-14. Ingen ändring behövdes.
 `common.config_entries.crossfade_duration.label` och
 `common.config_entries.crossfade_duration.description` kontrollerades i MA
 Server på Lokalise 2026-11-14. Ingen ändring behövdes.
+`common.config_entries.default_enqueue_option_album.label` och
+`common.config_entries.default_enqueue_option_artist.label` förtydligades och
+återlästes i MA Server på Lokalise 2026-11-14.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
