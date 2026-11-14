@@ -56,7 +56,8 @@ Ytterligare Voice-strängar finns i
 [`tuya-temperature-power-batch-38.md`](tuya-temperature-power-batch-38.md).
 [`midea-sleep-batch-39.md`](midea-sleep-batch-39.md).
 [`latest-readback-verification.md`](latest-readback-verification.md).
-Totalt omfattar dagens arkiverade arbete därmed 117 direkt sparade och
+[`hp-printer-cloud-status-batch-40.md`](hp-printer-cloud-status-batch-40.md).
+Totalt omfattar dagens arkiverade arbete därmed 119 direkt sparade och
 återlästa strängar.
 
 Not: Batcharna är sparade upstream i Lokalise. Detta är inte en fullständig
