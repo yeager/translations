@@ -1,0 +1,30 @@
+{
+  "project": "Hermes Agent",
+  "component": "core locales/en.yaml",
+  "source_commit": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "language": "sv",
+  "kind": "reviewed-delta",
+  "reviewed_at": "2026-11-14",
+  "strings": {
+    "cli.worktree.archive_failed": "✗ Det gick inte att arkivera {path}; behåller den: {error}",
+    "cli.worktree.archived": "✓ Arbetskopian arkiverades till {ref} och togs bort: {path}",
+    "cli.worktree.archived_kept": "✓ Arbetskopian arkiverades till {ref} men behölls ({reason}): {path}",
+    "cli.worktree.archiving": "Arkiverar {path} … (det kan ta en stund för ett stort träd)",
+    "cli.worktree.clean_up_manually": "För manuell rensning: git worktree remove --force {path}",
+    "cli.worktree.cleaned_up": "✓ Arbetskopia rensad: {path}",
+    "cli.worktree.discarded": "Arbetskopian togs bort och dess ändringar förkastades: {path}",
+    "cli.worktree.exit_choice_archive": "Arkivera och ta bort den (kan återställas)",
+    "cli.worktree.exit_choice_discard": "Ta bort den och förkasta ändringarna",
+    "cli.worktree.exit_choice_keep": "Behåll arbetskopian (standard)",
+    "cli.worktree.exit_question_dirty": "Den här arbetskopian har ändringar som inte har checkats in: {path}",
+    "cli.worktree.exit_question_unpushed": "Den här arbetskopian har incheckningar som inte har pushats: {path}",
+    "cli.worktree.kept_reason": "⚠ Behåller arbetskopian ({reason}): {path}",
+    "cli.worktree.next_session_deepens": "Nästa `hermes -w`-session fördjupar klonen och rensar automatiskt sammanslagna arbetskopior.",
+    "cli.worktree.restore_hint": "Återställ den med: hermes worktree restore {name}",
+    "cli.worktree.shallow_clone_keeping": "⚠ Ytlig klon, kan inte verifiera pushstatus. Behåller: {path}",
+    "cli.worktree.sweep_archived_kept": "arkiverad, behölls ({reason}) → {ref}",
+    "cli.worktree.sweep_archived_removed": "arkiverad och borttagen → {ref}",
+    "cli.worktree.uncommitted_keeping": "⚠ Arbetskopian har ändringar som inte har checkats in, behåller: {path}",
+    "cli.worktree.unpushed_keeping": "⚠ Arbetskopian har incheckningar som inte har pushats, behåller: {path}"
+  }
+}
