@@ -15,6 +15,8 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - corrected loudness terminology: `ljudklippning`, not interrupted audio
 - `förinläsning` in the infinite-mix description; the em dash remains because it is present in the source
 - `Alla favoritspår`
+- `Visning`, `Synkroniserings- och importalternativ` och `Utgångskanalläge`
+- consistent `favoritspår` terminology in the infinite-mix variant
 
 ## Checks
 
@@ -27,6 +29,6 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, commit `c99f3abf95c93f9f2e72fa876e1abccadb35f053`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `9a3e37d48ffe9fa98c9955067e9d4287d3790d11`.
 
 The PR is open. Its initial repository verification requests the project's full pre-commit and pytest checklist. Those commands are unavailable in the sparse review checkout, which lacks both the repository runner and its Python 3.14 environment; the PR body records that limitation rather than claiming checks that did not run. Repository lint passed; its three pytest jobs are still pending. It has not received maintainer review or been merged.
