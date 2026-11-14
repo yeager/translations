@@ -127,6 +127,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish completion of the Alexa provider: language selection, Amazon authentication, companion API credentials and Echo-device streaming
 - Swedish completion of the OpenAI Compatible provider: API connection, model and image-model selection, local servers and service presets
 - Swedish completion of the Music Quiz provider: quiz playback, players, AI-generated answer options, game validation and QR-code participation
+- Swedish completion of the VBAN Receiver provider: PCM stream format, sample rate, network binding, packet queues, diagnostics and sender setup
 
 ## Checks
 
@@ -141,7 +142,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `56958b8ac16f8aff3410d703a6f2f11812ae666e`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `e4aabe49affffe174f820b5d6ffb08622b77cf60`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
