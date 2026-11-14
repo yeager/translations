@@ -1,0 +1,29 @@
+{
+  "project": "Hermes Agent",
+  "component": "CLI browser connection status and commands",
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "reviewed_at": "2026-11-14",
+  "strings": {
+    "cli.commands.browser.connected": "🌐 Webbläsaren är ansluten till en aktiv Chromium-baserad webbläsare via CDP",
+    "cli.commands.browser.endpoint": "Slutpunkt: {url}",
+    "cli.commands.browser.already_default": "Webbläsaren är inte ansluten till en aktiv Chromium-baserad webbläsare (använder redan standardläge)",
+    "cli.commands.browser.disconnected": "🌐 Webbläsaren kopplades från den aktiva Chromium-baserade webbläsaren",
+    "cli.commands.browser.reverted": "Webbläsarverktygen återgick till standardläge (lokalt headless-läge eller molnleverantör)",
+    "cli.commands.browser.status_lightpanda": "🌐 Webbläsare: lokal Lightpanda (lightpanda serve)",
+    "cli.commands.browser.status_lightpanda_note": "⚡ Lightpanda: snabbare navigering, utan stöd för skärmbilder",
+    "cli.commands.browser.status_auto": "🌐 Webbläsare: lokalt headless-läge med Chromium",
+    "cli.commands.browser.status_connected": "🌐 Webbläsare: ansluten till en aktiv Chromium-baserad webbläsare via CDP",
+    "cli.commands.browser.status_reachable": "Status: ✓ kan nås",
+    "cli.commands.browser.status_unreachable": "Status: ⚠ kan inte nås (webbläsaren kanske inte körs)",
+    "cli.commands.browser.status_cloud": "🌐 Webbläsare: {provider} (molntjänst)",
+    "cli.commands.browser.status_connect_hint": "/browser connect      — anslut till din aktiva Chromium-baserade webbläsare",
+    "cli.commands.browser.status_disconnect_hint": "/browser disconnect   — återgå till standardläge",
+    "cli.commands.browser.usage": "Användning: /browser connect|disconnect|status",
+    "cli.commands.browser.usage_connect": "connect      Anslut webbläsarverktygen till din aktiva Chromium-baserade webbläsarsession",
+    "cli.commands.browser.usage_disconnect": "disconnect   Återgå till webbläsarens standardläge",
+    "cli.commands.browser.usage_status": "status       Visa aktuellt webbläsarläge",
+    "cli.commands.browser.remote_gateway": "/browser connect och /browser disconnect hanterar en Chromium-baserad webbläsare på gatewayvärden — är endast tillgängliga när du är ansluten till en lokal gateway.",
+    "cli.commands.browser.checking": "Kontrollerar Chromium-baserad webbläsares fjärrfelsökning på {url}...",
+    "cli.commands.browser.status_gateway_default": "🌐 Webbläsare: gatewayvärdens standardläge för webbläsaren (ingen aktiv CDP-anslutning)"
+  }
+}
