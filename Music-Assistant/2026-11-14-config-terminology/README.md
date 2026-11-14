@@ -47,6 +47,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish device-code login page: code copying, expiry, denial and failure states, and the Yandex continuation step. The source em dash is retained only in the manual-copy notice where the English source also uses it
 - Swedish review of 20 context-clear common error messages for authentication, connections, permissions, provider identifiers, tokens and invalid values; all `{0}` placeholders are preserved
 - Swedish review of 20 further common error messages for user roles, music sources, playlists, players, provider-stream limits and request limits; all `{0}` and `{1}` placeholders are preserved
+- Swedish review of 20 common error messages for required fields, roles, music-source ownership and sharing, setup, sign-in expiry and the protected Home Assistant system account; the dynamic `{0}` limit is preserved
 
 ## Checks
 
@@ -59,7 +60,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `d86fd4a915686efc1be80e7ae81ecac9bf95ebe7`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `c049fa149d197307b2cadedf5a4557d3d5343032`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
