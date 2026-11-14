@@ -84,3 +84,9 @@ strängar är sparade och återlästa i Transifex. Hugo-kortkoder,
 typsnittsnamn, licenslänkar och filformat har bevarats. Arkivbatch:
 `website-2026-11-14-about-official-logos`. Projektgranskning,
 källsynkronisering och publicering är inte verifierade.
+
+About – Organization har därefter granskats rad för rad: 6 av 6 svenska
+strängar är sparade och återlästa i Transifex. Namn, användarnamn,
+organisationsnamn och datum har bevarats. Arkivbatch:
+`website-2026-11-14-about-organization`. Projektgranskning,
+källsynkronisering och publicering är inte verifierade.
