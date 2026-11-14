@@ -44,6 +44,8 @@ oförändrade; språkfel rättas direkt och återläses.
   översättning tillagd och återläst.
 - `common.config_categories.generic`: *Generic* → *Allmänt*; befintlig
   översättning bevarad.
+- `common.config_categories.items_to_select`: *Items to select* → *Objekt att
+  välja*; saknad översättning tillagd och återläst.
 
 ## Upstreamstatus
 
@@ -80,5 +82,7 @@ Lokalise 2026-11-14.
 Lokalise 2026-11-14.
 `common.config_categories.generic` kontrollerades i MA Server på Lokalise
 2026-11-14. Ingen ändring behövdes.
+`common.config_categories.items_to_select` översattes och återlästes i MA
+Server på Lokalise 2026-11-14.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
