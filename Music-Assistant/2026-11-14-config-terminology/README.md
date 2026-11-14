@@ -41,6 +41,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish help text and availability states for the preferred player output protocol, including automatic selection and setup requirements
 - Swedish player-visibility, volume-bound and fixed-content-length help text, preserving the behavioral distinction between hiding and disabling a player
 - Swedish supported-sample-rate settings, including bit depths and Swedish numeric typography while retaining the technical sample-rate values
+- Swedish server port, exposed-player, log-level and volume-control settings. This completes the source-context review of all currently missing `common.config_entries` strings in the reviewed catalog
 
 ## Checks
 
@@ -53,6 +54,6 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `d64782816283d14e21ff3c681a1c0fc0c2a52846`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `bb48ad482bfec0ee0117cfa33d32e38200c3de6c`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
