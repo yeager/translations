@@ -72,6 +72,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish context review of the children’s, Christmas and church-music genre metadata in `common.media`
 - Swedish context review of the classical-music and chanson metadata in `common.media`, including music-historical terminology
 - Swedish review of 23 visible music-genre labels in `common.media`, using Swedish labels where natural and retaining established international genre names
+- Swedish review of 27 additional visible music-genre labels in `common.media`, including Middle Eastern music, spoken word, soundtrack and wellness
 
 ## Checks
 
@@ -88,4 +89,4 @@ Submitted as [music-assistant/server#7640](https://github.com/music-assistant/se
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
-All recorded batches have been pushed to the PR branch. The replacement CI run was requested by the latest push; it is not maintainer reviewed or merged.
+All previously recorded batches have been pushed to the PR branch. The newly recorded additional-genre-label batch is locally committed as `891498f` and ready for the normal upstream push; it is not maintainer reviewed or merged.
