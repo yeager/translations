@@ -84,6 +84,8 @@ oförändrade; språkfel rättas direkt och återläses.
   *Källurval*; saknad översättning tillagd och återläst.
 - `common.config_categories.settings`: *Settings* → *Inställningar*;
   befintlig översättning bevarad.
+- `common.config_categories.smart_shuffle`: *Smart shuffle* → *Intelligent
+  slumpning*; saknad översättning tillagd och återläst.
 
 ## Upstreamstatus
 
@@ -160,5 +162,7 @@ bevarades.
 Server på Lokalise 2026-11-14.
 `common.config_categories.settings` kontrollerades i MA Server på Lokalise
 2026-11-14. Ingen ändring behövdes.
+`common.config_categories.smart_shuffle` översattes och återlästes i MA Server
+på Lokalise 2026-11-14 enligt projektets terminologilista.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
