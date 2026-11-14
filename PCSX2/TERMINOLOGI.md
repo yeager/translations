@@ -46,6 +46,8 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | texture replacement | texturersättning | Gäller ersättningar som läses in för speltexturer. |
 | preload | förinläsning | Gäller särskilt texturer som läses in i cache före användning. |
 | TLB hack | TLB-hack | TLB är en teknikförkortning; använd den svenska sammansättningen i spelåtgärder. |
+| VU * Hack | VU *-hack | Behåll VU-instruktionens namn och skriv hack som svensk sammansättning. |
+| VU XGKick Sync | VU XGKick-synkronisering | XGKick är en VU-instruktion; synkronisering beskriver åtgärdens funktion. |
 | EE Cycle Skipping | EE-cykelöverhoppning | Gäller hastighetsinställningen för den emulerade Emotion Engine-processorn. |
 | Force Even Sprite Position | Tvinga jämn sprite-position | Gäller kryssrutan som minskar mellanrum mellan bildpunkter vid uppskalning. |
 | precaching | förinläsning | Gäller förinläsning av skivdata före användning. |
