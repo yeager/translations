@@ -4,7 +4,7 @@ Datum: 2026-11-14
 
 Komponent: `music-assistant/server`, Lokalise-projektet **MA Server**.
 
-Deltafilen innehåller 10 nya, radgranskade svenska översättningar för ABC Radio Network, AcoustID Lookup och AirPlay Receiver. Två befintliga svenska ABC Radio-översättningar och två AcoustID-översättningar bevaras i Lokalise och ingår därför inte längre. Källan är `dev` från 2026-11-14 och kontrollen av releasesidan visar version 2.10.11, publicerad 2026-11-13.
+Deltafilen innehåller 9 nya, radgranskade svenska översättningar för ABC Radio Network, AcoustID Lookup och AirPlay Receiver. Två befintliga svenska ABC Radio-översättningar och tre AcoustID-översättningar bevaras i Lokalise och ingår därför inte längre. Källan är `dev` från 2026-11-14 och kontrollen av releasesidan visar version 2.10.11, publicerad 2026-11-13.
 
 ## Terminologibeslut
 
@@ -35,4 +35,4 @@ verktygen.
 
 ## Upstreamstatus
 
-`provider.abc_radio_network.config_entries.state.description`, `provider.abc_radio_network.manifest.description`, `provider.acoustid_lookup.config_entries.analyse_streaming.description` och `provider.acoustid_lookup.config_entries.analyse_streaming.label` kontrollerades i MA Server på Lokalise 2026-11-14 och har redan svenska översättningar; de bevaras. Övriga 10 rader är ännu inte uppladdade, föreslagna eller inskickade. Projektet avvisade PR-vägen och hänvisade till Lokalise. Den inloggade webbläsarsessionen har verifierats ha redigeringsbehörighet för enskilda strängar. Läs tillbaka importerade, hoppade över och saknade strängar efter en eventuell deltaimport.
+`provider.abc_radio_network.config_entries.state.description`, `provider.abc_radio_network.manifest.description`, `provider.acoustid_lookup.config_entries.analyse_streaming.description` och `provider.acoustid_lookup.config_entries.analyse_streaming.label` och `provider.acoustid_lookup.config_entries.api_key.description` kontrollerades i MA Server på Lokalise 2026-11-14 och har redan svenska översättningar; de bevaras. Övriga 9 rader är ännu inte uppladdade, föreslagna eller inskickade. Projektet avvisade PR-vägen och hänvisade till Lokalise. Den inloggade webbläsarsessionen har verifierats ha redigeringsbehörighet för enskilda strängar. Läs tillbaka importerade, hoppade över och saknade strängar efter en eventuell deltaimport.
