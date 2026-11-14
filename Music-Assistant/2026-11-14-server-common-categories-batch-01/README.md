@@ -36,6 +36,8 @@ oförändrade; språkfel rättas direkt och återläses.
   → *Standardalternativ för kö*; saknad översättning tillagd och återläst.
 - `common.config_categories.discover`: *Discover* → *Upptäck*; saknad
   översättning tillagd och återläst.
+- `common.config_categories.display_settings`: *Display* → *Visning*;
+  befintlig översättning rättad och återläst.
 
 ## Upstreamstatus
 
@@ -64,5 +66,7 @@ Lokalise 2026-11-14.
 MA Server på Lokalise 2026-11-14.
 `common.config_categories.discover` översattes och återlästes i MA Server på
 Lokalise 2026-11-14.
+`common.config_categories.display_settings` språkgranskades, rättades och
+återlästes i MA Server på Lokalise 2026-11-14.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
