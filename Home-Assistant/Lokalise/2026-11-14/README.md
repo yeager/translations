@@ -23,8 +23,9 @@ Ytterligare Voice-strängar finns i
 [`voice-batch-5.md`](voice-batch-5.md),
 [`voice-batch-6.md`](voice-batch-6.md) och
 [`voice-batch-7.md`](voice-batch-7.md), samt
-[`overseerr-batch-8.md`](overseerr-batch-8.md). Totalt omfattar dagens
-arkiverade arbete därmed 26 direkt sparade och återlästa strängar.
+[`overseerr-batch-8.md`](overseerr-batch-8.md) och
+[`hotspring-batch-9.md`](hotspring-batch-9.md). Totalt omfattar dagens
+arkiverade arbete därmed 27 direkt sparade och återlästa strängar.
 
 Not: Batcharna är sparade upstream i Lokalise. Detta är inte en fullständig
 genomgång av Home Assistant Core; oöversatta strängar återstår och behandlas i
