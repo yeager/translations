@@ -1,0 +1,26 @@
+{
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "component": "tips.t221-t240",
+  "strings": {
+    "tips.t221": "/compress <focus topic> tilldelar 60-70 % av sammanfattningsutrymmet till ditt ämne och beskär resten kraftigt.",
+    "tips.t222": "Vid andra och senare komprimeringar uppdaterar komprimeraren den föregående sammanfattningen i stället för att börja från början.",
+    "tips.t223": "Före en återställning av en gateway-session sparar Hermes automatiskt viktiga fakta i minnet i bakgrunden.",
+    "tips.t224": "network.force_ipv4: true i config.yaml åtgärdar låsningar på servrar med trasig IPv6 — monkeypatchar socket.",
+    "tips.t225": "Terminalverktyget förklarar vanliga slutkoder: grep som returnerar 1 = ”Inga träffar hittades (inte ett fel)”.",
+    "tips.t226": "Terminalkommandon i förgrunden som misslyckas försöks automatiskt igen upp till tre gånger med exponentiellt ökat intervall (2 s, 4 s, 8 s).",
+    "tips.t227": "Rena sudo-kommandon skrivs automatiskt om för att leda SUDO_PASSWORD från .env via pipe — ingen interaktiv fråga krävs.",
+    "tips.t228": "Hjälpfunktionerna i execute_code kräver uttryckliga importer: from hermes_tools import json_parse, shell_quote, retry.",
+    "tips.t229": "De sju sandlådeverktygen i execute_code (web_search, terminal, read/write/search/patch) använder RPC — de hamnar aldrig i kontexten.",
+    "tips.t230": "Att läsa samma filområde tre gånger eller fler utlöser en varning. Vid fyra gånger eller fler blockeras det för att förhindra loopar.",
+    "tips.t231": "write_file och patch upptäcker om en fil har ändrats externt sedan den senast lästes och varnar för inaktuellt innehåll.",
+    "tips.t232": "Patchformatet V4A stöder direktiven Add File, Delete File och Move File — inte bara Update.",
+    "tips.t233": "MCP-servrar kan begära LLM-svar via sampling — agenten blir ett verktyg för servern.",
+    "tips.t234": "MCP-servrar skickar notifications/tools/list_changed för att utlösa automatisk omregistrering av verktyg utan omstart.",
+    "tips.t235": "delegate_task med acp_command: 'claude' startar Claude Code som underagent från valfri plattform.",
+    "tips.t236": "Delegering har en pulssignalstråd — underagentens aktivitet sprids till den överordnade agenten och förhindrar gatewaytidsgränser.",
+    "tips.t237": "När en leverantör returnerar HTTP 402 (betalning krävs) växlar den extra klienten automatiskt till nästa.",
+    "tips.t238": "agent.tool_use_enforcement styr modeller som beskriver åtgärder i stället för att anropa verktyg — automatiskt för GPT/Codex.",
+    "tips.t239": "agent.restart_after_turn_timeout låter pågående turer slutföras innan /restart anropar stop(); restart_drain_timeout är bara budgeten för tvingat avbrott när stop() börjar.",
+    "tips.t240": "agent.api_max_retries (standardvärde 3) styr hur många gånger agenten försöker igen efter ett misslyckat API-anrop innan felet visas — sänk värdet för snabb reservväg."
+  }
+}
