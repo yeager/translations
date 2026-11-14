@@ -4,7 +4,7 @@ Datum: 2026-11-14
 
 Komponent: `music-assistant/server`, Lokalise-projektet **MA Server**.
 
-Den här deltafilen innehåller 14 nya, radgranskade svenska översättningar för ABC Radio Network, AcoustID Lookup och AirPlay Receiver. Källan är `dev` från 2026-11-14 och kontrollen av releasesidan visar version 2.10.11, publicerad 2026-11-13.
+Deltafilen innehåller 13 nya, radgranskade svenska översättningar för ABC Radio Network, AcoustID Lookup och AirPlay Receiver. En befintlig svensk ABC Radio-översättning bevaras i Lokalise och ingår därför inte längre. Källan är `dev` från 2026-11-14 och kontrollen av releasesidan visar version 2.10.11, publicerad 2026-11-13.
 
 ## Terminologibeslut
 
@@ -29,4 +29,4 @@ Den tidigare lokala kandidaten från den stängda PR:en `yeager/music-assistant-
 
 ## Upstreamstatus
 
-Inte uppladdad, föreslagen eller inskickad. Projektet avvisade PR-vägen och hänvisade till Lokalise. Den inloggade webbläsarsessionen har ännu inte verifierats ha redigeringsbehörighet till **MA Server**. Deltafilen ska därför laddas upp först när åtkomsten är bekräftad, följt av läsning tillbaka av importerade, hoppade över och saknade strängar.
+`provider.abc_radio_network.config_entries.state.description` kontrollerades i MA Server på Lokalise 2026-11-14 och har redan en svensk översättning; den bevaras. Övriga 13 rader är ännu inte uppladdade, föreslagna eller inskickade. Projektet avvisade PR-vägen och hänvisade till Lokalise. Den inloggade webbläsarsessionen har verifierats ha redigeringsbehörighet för enskilda strängar. Läs tillbaka importerade, hoppade över och saknade strängar efter en eventuell deltaimport.
