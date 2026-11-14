@@ -54,7 +54,8 @@ Ytterligare Voice-strängar finns i
 [`arcam-vicare-tuya-batch-36.md`](arcam-vicare-tuya-batch-36.md) och
 [`tuya-electrical-alerts-batch-37.md`](tuya-electrical-alerts-batch-37.md).
 [`tuya-temperature-power-batch-38.md`](tuya-temperature-power-batch-38.md).
-Totalt omfattar dagens arkiverade arbete därmed 115 direkt sparade och
+[`midea-sleep-batch-39.md`](midea-sleep-batch-39.md).
+Totalt omfattar dagens arkiverade arbete därmed 116 direkt sparade och
 återlästa strängar.
 
 Not: Batcharna är sparade upstream i Lokalise. Detta är inte en fullständig
