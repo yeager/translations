@@ -32,6 +32,8 @@ oförändrade; språkfel rättas direkt och återläses.
   översättning tillagd och återläst.
 - `common.config_categories.debug`: *Debug* → *Felsökning*; saknad
   översättning tillagd och återläst.
+- `common.config_categories.default_enqueue_option`: *Default enqueue option*
+  → *Standardalternativ för kö*; saknad översättning tillagd och återläst.
 
 ## Upstreamstatus
 
@@ -56,5 +58,7 @@ på Lokalise 2026-11-14.
 Lokalise 2026-11-14.
 `common.config_categories.debug` översattes och återlästes i MA Server på
 Lokalise 2026-11-14.
+`common.config_categories.default_enqueue_option` översattes och återlästes i
+MA Server på Lokalise 2026-11-14.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
