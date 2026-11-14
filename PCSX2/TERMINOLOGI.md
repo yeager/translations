@@ -51,6 +51,7 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | EE Cycle Skipping | EE-cykelöverhoppning | Gäller hastighetsinställningen för den emulerade Emotion Engine-processorn. |
 | Force Even Sprite Position | Tvinga jämn sprite-position | Gäller kryssrutan som minskar mellanrum mellan bildpunkter vid uppskalning. |
 | deinterlacing | avflätning | Gäller val av metod för den emulerade konsolens sammanflätade bild. |
+| disassembly | assemblerkod | Gäller felsökarvyn som visar avlästa processorinstruktioner. |
 | precaching | förinläsning | Gäller förinläsning av skivdata före användning. |
 | expand | utvidgning | Gäller SoundTouchs interna ljudutvidgningssteg i latenstext. |
 | Use Title File Names | Använd speltitel som filnamn | Etikett i dialogen för omslagsbilder; samma formulering används i dess hjälptext. |
