@@ -83,5 +83,8 @@ MA Server på Lokalise 2026-11-14. Ingen ändring behövdes.
 `common.config_entries.announce_volume_strategy.options.none` kontrollerades
 och dess saknade förklaring lades till och återlästes i MA Server på Lokalise
 2026-11-14.
+`common.config_entries.announce_volume_strategy.options.absolute`
+kontrollerades och dess saknade förklaring lades till och återlästes i MA
+Server på Lokalise 2026-11-14.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
