@@ -50,7 +50,8 @@ Ytterligare Voice-strängar finns i
 [`tuya-batch-32.md`](tuya-batch-32.md).
 [`tuya-batch-33.md`](tuya-batch-33.md).
 [`tuya-batch-34.md`](tuya-batch-34.md).
-Totalt omfattar dagens arkiverade arbete därmed 89 direkt sparade och
+[`tuya-batch-35.md`](tuya-batch-35.md).
+Totalt omfattar dagens arkiverade arbete därmed 90 direkt sparade och
 återlästa strängar.
 
 Not: Batcharna är sparade upstream i Lokalise. Detta är inte en fullständig
