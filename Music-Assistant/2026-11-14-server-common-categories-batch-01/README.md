@@ -13,11 +13,16 @@ oförändrade; språkfel rättas direkt och återläses.
 
 - `common.config_categories.advanced`: *Advanced* → *Avancerat*; befintlig
   översättning bevarad.
+- `common.config_categories.airplay`: *AirPlay specific settings* →
+  *AirPlay-specifika inställningar*; befintlig översättning rättad och
+  återläst.
 
 ## Upstreamstatus
 
 `common.config_categories.advanced` kontrollerades i MA Server på Lokalise
-2026-11-14. Ingen ändring behövdes. Lokalise-granskning, kodsynkronisering och
+2026-11-14. Ingen ändring behövdes.
+`common.config_categories.airplay` språkgranskades, rättades och återlästes i
+MA Server på Lokalise 2026-11-14. Lokalise-granskning, kodsynkronisering och
 release är inte verifierade.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
