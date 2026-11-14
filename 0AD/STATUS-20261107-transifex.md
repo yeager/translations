@@ -46,3 +46,9 @@ tillgängliga språk innehåller ännu inte svenska. Någon svensk webbplatsdelt
 finns inte i detta arkiv och därför har ingen översättning laddats upp eller
 skickats in. Väntar på att Transifex synkroniserar svenska till teamets
 anslutningslista.
+
+Senare samma dag verifierades direktredigering i Transifex och den första
+webbplatssträngen skickades och återlästes: `release_line` →
+`{{ .Name }}, släppt {{ .Date }}.`. Efter återläsning visar Transifex 14
+ogranskade svenska strängar och 460 oöversatta. Arkivbatch:
+`website-2026-11-14-batch-01`.
