@@ -31,6 +31,15 @@ prepared.
 
 `msgfmt` is not applicable: this is a JSON delta for a YAML catalog.
 
+## Batch 02: billing and payment authorization
+
+`core-billing-batch02.json` adds 65 current core-locale entries for cards,
+balance top-ups, automatic reload, Remote Spending, role requirements and
+payment failures. JSON syntax and 65/65 placeholder parity against the
+current English catalog pass. `l10n-lint`, diff check and Gitleaks pass.
+Hunspell and svlang only flag identifiers, placeholders, `3DS`, product names
+or grammatical V2 false positives; no wording change is required.
+
 ## Upstream state
 
 The web localization PR [#148618](https://github.com/NousResearch/hermes-agent/pull/148618)
