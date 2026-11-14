@@ -19,7 +19,8 @@ a competing translation pull request.
 - `git diff --check`: passed.
 - Gitleaks: passed.
 - Android resource processing could not run locally because this machine has
-  no Java runtime. Upstream CI was queued after the push.
+  no Java runtime. The pushed commit was subsequently verified by upstream CI:
+  Android lint, tests, Detekt, wrapper validation, and the CI gate all passed.
 
 ## Upstream status
 
