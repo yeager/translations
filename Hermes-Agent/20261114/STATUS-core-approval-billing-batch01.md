@@ -55,6 +55,21 @@ diff check and Gitleaks pass. `msgfmt` remains inapplicable to JSON deltas.
 JSON syntax, 16/16 placeholder parity, `l10n-lint`, diff check and Gitleaks
 pass. `msgfmt` remains inapplicable to JSON deltas.
 
+## Batch 05: subscription management
+
+`core-subscription-batch05.json` adds 97 current entries for plan selection,
+upgrades, downgrades, cancellation, scheduled changes, Portal hand-off and
+payment authorization. JSON syntax and 97/97 placeholder parity pass, as do
+`l10n-lint`, diff check and Gitleaks.
+
+## Batch 06: credits terminology correction
+
+The older Swedish Hermes catalog uses *krediter* for product credits. The
+separate correction delta applies that established term to 12 new billing and
+subscription entries, while retaining *saldo* for account balance. JSON
+syntax and 12/12 placeholder parity pass, as do `l10n-lint`, diff check and
+Gitleaks.
+
 ## Upstream state
 
 The web localization PR [#148618](https://github.com/NousResearch/hermes-agent/pull/148618)
