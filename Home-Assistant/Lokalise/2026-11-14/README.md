@@ -66,7 +66,8 @@ Ytterligare Voice-strängar finns i
 [`hp-printer-fax-counters-batch-47.md`](hp-printer-fax-counters-batch-47.md) och
 [`hp-printer-consumables-batch-48.md`](hp-printer-consumables-batch-48.md).
 [`hp-printer-connectivity-batch-49.md`](hp-printer-connectivity-batch-49.md).
-Totalt omfattar dagens arkiverade arbete därmed 167 direkt sparade och
+[`hp-printer-refills-batch-50.md`](hp-printer-refills-batch-50.md).
+Totalt omfattar dagens arkiverade arbete därmed 177 direkt sparade och
 återlästa strängar.
 
 Batcherna 41–45 är nu sparade eller verifierade upstream. Det finns inga
@@ -74,8 +75,11 @@ Batcherna 41–45 är nu sparade eller verifierade upstream. Det finns inga
 [`hp-printer-pending-batches-41-45.md`](hp-printer-pending-batches-41-45.md).
 Batcherna 46–47 är också sparade och återlästa.
 Batch 48 är sparad och återläst; den omfattar patronernas datum-, nivå- och
-sidräknarfält men inte de semantiskt oklara påfyllningsräknarna.
+sidräknarfält.
 Batch 49 är sparad och återläst; den omfattar Ethernet, USB och Wi-Fi.
+Batch 50 är sparad och återläst; den omfattar de diagnostiska
+påfyllningsräknarna. Den aktuella HP Printer-inventeringen med 69
+entitetsnamn och statusvärden är därmed granskad rad för rad.
 
 Not: Batcharna är sparade upstream i Lokalise. Detta är inte en fullständig
 genomgång av Home Assistant Core; oöversatta strängar återstår och behandlas i

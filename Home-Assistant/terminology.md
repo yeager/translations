@@ -33,6 +33,8 @@ källtextens sammanhang.
 | consumable pages printed | utskrivna sidor med [färg] patron | HP Printer, ackumulerad patronräknare. |
 | consumable pages remaining | återstående sidor för [färg] patron | HP Printer, uppskattning för patronen. |
 | consumable warranty expiration date | garantins utgångsdatum för [färg] patron | HP Printer, informationsfält. |
+| genuine refills | äkta påfyllningar för [färg] patron | HP Printer, diagnostisk ackumulerande räknare. |
+| counterfeit refills | förfalskade påfyllningar för [färg] patron | HP Printer, diagnostisk ackumulerande räknare. |
 
 ## Status
 
@@ -43,4 +45,6 @@ korrekta vid den oberoende verifieringen.
 
 Batch 48 omfattar 30 sparade och återlästa patronfält för svart, cyan,
 magenta, trefärg och gul patron. Påfyllningsräknare är medvetet utelämnade
-i väntan på en tydligare betydelsekontroll.
+i väntan på en tydligare betydelsekontroll. Den kontrollen är nu genomförd:
+batch 50 omfattar tio sparade och återlästa diagnostiska
+påfyllningsräknare.
