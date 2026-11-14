@@ -1,0 +1,26 @@
+{
+  "project": "Hermes Agent",
+  "language": "sv",
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "status": "reviewed-local",
+  "strings": {
+    "gateway.proxy.closed_early": "⚠️ Proxyanslutningen stängdes innan svaret var klart",
+    "gateway.proxy.connection_error": "⚠️ Fel vid proxyanslutning: {error}",
+    "gateway.proxy.http_error": "⚠️ Proxyfel ({status}): {error}",
+    "gateway.proxy.no_response": "(Inget svar från fjärragenten)",
+    "gateway.proxy.requires_aiohttp": "⚠️ Proxyläget kräver aiohttp. Kör: {hint}",
+    "gateway.proxy.url_missing": "⚠️ Proxy-URL är inte konfigurerad (GATEWAY_PROXY_URL eller gateway.proxy_url)",
+    "gateway.quick_command.error": "Fel i snabbkommando: {error}",
+    "gateway.quick_command.no_command": "Snabbkommandot '/{command}' har inget kommando definierat.",
+    "gateway.quick_command.no_output": "Kommandot gav ingen utdata.",
+    "gateway.quick_command.no_target": "Snabbkommandot '/{command}' har inget mål definierat.",
+    "gateway.quick_command.timed_out": "Snabbkommandot överskred tidsgränsen (30 s).",
+    "gateway.quick_command.unsupported_type": "Snabbkommandot '/{command}' har en typ som inte stöds (stöds: 'exec', 'alias').",
+    "gateway.refine.empty": "Det finns inget att förfina ännu — konversationen är tom.",
+    "gateway.refine.focus_suffix": " (fokus: {focus})",
+    "gateway.refine.nothing_yet": "Det finns inget att förfina ännu — skicka först ett meddelande.",
+    "gateway.refine.start_failed": "/refine kunde inte startas: {error}",
+    "gateway.refine.started": "⚗ Den här konversationen granskas i bakgrunden{focus_suffix} — eventuella uppdateringar av minne eller färdigheter rapporteras när de är klara.",
+    "gateway.refine.unavailable": "Förfining är inte tillgänglig (ingen session)."
+  }
+}
