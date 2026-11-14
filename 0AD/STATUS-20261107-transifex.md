@@ -36,3 +36,13 @@ Svenska är dock inte aktiverat som projektspråk. Ett försök att lägga till
 `l:sv` via projektets normala Transifex-ändpunkt fick HTTP 403
 `permission_denied`; Wildfire Games behöver därför aktivera svenska eller ge
 behörighet innan webbplatsens svenska översättning kan påbörjas.
+
+### Statusuppdatering 14 november 2026
+
+Transifex bekräftar nu att svenska är ett aktivt projektspråk för
+`play0ad-website`: 474 källsträngar, 0 % översatta och 0 % granskade.
+Projektets teamanslutning krävs fortfarande, men dialogens lista över
+tillgängliga språk innehåller ännu inte svenska. Någon svensk webbplatsdeltafil
+finns inte i detta arkiv och därför har ingen översättning laddats upp eller
+skickats in. Väntar på att Transifex synkroniserar svenska till teamets
+anslutningslista.
