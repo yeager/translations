@@ -1,0 +1,32 @@
+{
+  "source_revision": "abeeef4d491cba7ea6126a2f54d81c879da5059f",
+  "component": "cli.billing.charge",
+  "strings": {
+    "cli.billing.total_line": "Totalt: {amount}",
+    "cli.billing.portal_card_will_be_charged": "Ditt kort som är registrerat i portalen kommer att debiteras.",
+    "cli.billing.consent_charge": "Genom att bekräfta godkänner du att Nous Research debiterar ditt kort.",
+    "cli.billing.choice_pay_now": "Betala {amount} nu",
+    "cli.billing.desc_submit_charge": "genomför debiteringen",
+    "cli.billing.desc_manage_card_billing": "hantera kortet/faktureringen i webbläsaren",
+    "cli.billing.run_interactive_to_confirm": "Kör i den interaktiva CLI:n för att bekräfta ett köp.",
+    "cli.billing.pay_question": "Betala {amount}?",
+    "cli.billing.no_charge_id": "Inget debiterings-ID returnerades; kontrollera portalen.",
+    "cli.billing.charge_submitted": "Debiteringen har skickats — bekräftar avräkningen…",
+    "cli.billing.could_not_check_charge": "🔴 Kunde inte kontrollera debiteringen: {error}",
+    "cli.billing.added_to_balance": "✓ {amount} lades till i ditt saldo.",
+    "cli.billing.still_processing": "🟡 Behandlas fortfarande efter fem minuter — detta är en tidsgräns, inte ett fel. Kontrollera snart /billing eller portalen.",
+    "cli.billing.charge_failed_authentication_required": "🔴 Din bank kräver verifiering (3DS). Slutför den i portalen för att slutföra köpet.",
+    "cli.billing.charge_failed_payment_method_expired": "🔴 Ditt kort har gått ut. Uppdatera det i portalen.",
+    "cli.billing.charge_failed_card_declined": "🔴 Ditt kort nekades. Prova ett annat kort i portalen.",
+    "cli.billing.charge_failed_generic": "🔴 Debiteringen gick inte igenom ({reason}).",
+    "cli.billing.charge_error_no_payment_method": "💳 Inget registrerat kort — fyll på och hantera faktureringen i portalen.",
+    "cli.billing.charge_error_remote_spending_disabled": "Fjärrbetalning är avstängd för det här kontot — en faktureringsadministratör kan aktivera den på Hermes Agent-sidan i portalen.",
+    "cli.billing.charge_error_role_required": "Att lägga till pengar kräver en organisationsadministratör eller -ägare. Fråga en administratör eller hantera i portalen.",
+    "cli.billing.charge_error_idempotency_conflict": "🔴 Den debiteringsnyckeln användes redan för ett annat belopp. Starta en ny påfyllning.",
+    "cli.billing.revoked_by_admin": "En administratör stoppade terminalens betalningar.",
+    "cli.billing.revoked_by_you": "Du stoppade terminalens betalningar.",
+    "cli.billing.revoked_reconnect": "🔴 {who} Återanslut för att återställa — kör `hermes portal` för att auktorisera igen.",
+    "cli.billing.session_logged_out": "🔴 Du loggades ut ur sessionen. Kör `hermes portal` för att logga in igen.",
+    "cli.billing.monthly_cap_reached_headroom": "🔴 Månatlig utgiftsgräns nådd — ${remaining} marginal kvar."
+  }
+}
