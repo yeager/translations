@@ -18,6 +18,9 @@ Datum: 2026-11-14
 | soundtrack | filmmusik | Synligt musikgenre-/biblioteksnamn. |
 | marching band | marschorkester | Musikgenre, inte den bredare aktiviteten marschmusik. |
 | spoken word | talad text | Musikgenre-/bibliotekskontext. |
+| brown noise | brunt brus | Etablerad ljudterm för brus med tyngd i låga frekvenser. |
+| pink noise | rosa brus | Etablerad ljudterm för brus med avtagande energi vid högre frekvenser. |
+| white noise | vitt brus | Etablerad ljudterm för jämnt fördelat frekvensinnehåll. |
 | load/import | läs in / importera | *Läs in* för lokalbibliotekets inläsning, *importera* för uttalad importåtgärd. |
 | render (TTS) | syntetisera | I talsynteskontext beskriver *syntetisera* resultatet tydligare än den generella termen *återgivning*. |
 
