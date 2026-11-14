@@ -40,6 +40,15 @@ källa och den faktiska svenska Lokalise-strängen.
 - `common.config_entries.announce_volume_min.label`: *Minimum Volume level
   for Announcements* → *Lägsta volymnivå för meddelanden*; befintlig
   översättning bevarad.
+- `common.config_entries.announce_volume_strategy.label`: *Volume strategy for
+  Announcements* → *Volymstrategi för meddelanden*; befintlig översättning
+  bevarad.
+- `common.config_entries.announce_volume_strategy.description`: *When an
+  announcement is being broadcast to this player, how should the volume be
+  adjusted temporarily (use in combination with the volume value below)?* →
+  *När ett meddelande sänds till den här spelaren, hur ska volymen justeras
+  tillfälligt (använd i kombination med volymvärdet nedan).*; befintlig
+  översättning bevarad.
 
 ## Upstreamstatus
 
@@ -62,5 +71,8 @@ på Lokalise 2026-11-14. Ingen ändring behövdes.
 återlästes i MA Server på Lokalise 2026-11-14.
 `common.config_entries.announce_volume_min.label` kontrollerades i MA Server
 på Lokalise 2026-11-14. Ingen ändring behövdes.
+`common.config_entries.announce_volume_strategy.label` och
+`common.config_entries.announce_volume_strategy.description` kontrollerades i
+MA Server på Lokalise 2026-11-14. Ingen ändring behövdes.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
