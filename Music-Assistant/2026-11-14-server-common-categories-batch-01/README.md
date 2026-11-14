@@ -54,6 +54,8 @@ oförändrade; språkfel rättas direkt och återläses.
   *Spelarkontroller*; befintlig översättning rättad och återläst.
 - `common.config_categories.plugins`: *Plugins* → *Insticksmoduler*; saknad
   översättning tillagd och återläst.
+- `common.config_categories.preferences`: *Preferences* → *Inställningar*;
+  befintlig översättning bevarad.
 
 ## Upstreamstatus
 
@@ -100,5 +102,7 @@ MA Server på Lokalise 2026-11-14.
 återlästes i MA Server på Lokalise 2026-11-14.
 `common.config_categories.plugins` översattes och återlästes i MA Server på
 Lokalise 2026-11-14.
+`common.config_categories.preferences` kontrollerades i MA Server på Lokalise
+2026-11-14. Ingen ändring behövdes.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
