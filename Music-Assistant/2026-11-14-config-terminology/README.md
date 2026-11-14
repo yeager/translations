@@ -95,6 +95,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish review of Sendspin's delay setting: `Offset` and `Statisk uppspelningsfördröjning` were clarified as `Förskjutning` and `Fast uppspelningsfördröjning`
 - Swedish terminology review of Music's background task `Scan genre mappings`, clarified as `Sök igenom genremappningar`
 - Swedish normalization of the queue UI: `Smart shuffle` and `Smart crossfade` are consistently rendered as `Intelligent slumpning` and `Intelligent övertoning`; `smart uttag` remains an established home-automation term
+- Swedish completion of 13 current-source keys for the Cache, Dashboard and Discovery modules, including cache clearing, dashboard casting and UPnP/SSDP network discovery
 
 ## Checks
 
@@ -109,8 +110,10 @@ Release freshness: 2.10.11 was published 2026-11-13.
 
 ## Upstream status
 
-Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `52a30ad80da6a5319f08ecb285ba7015839b77d1`.
+Submitted as [music-assistant/server#7640](https://github.com/music-assistant/server/pull/7640), branch `yeager:l10n/sv-config-terminology-20261114`, latest commit `224681122f605b62fb58aa0255b96cab658957f9`.
 
 The PR is open. Its checklist truthfully leaves the project's full pre-commit and pytest checks unchecked: the sparse review checkout lacks the repository runner and its Python 3.14 environment. Repository CI performs its checks separately. The PR has not received maintainer review or been merged.
 
 All recorded batches have been pushed to the PR branch. The replacement CI run was requested by the latest push; it is not maintainer reviewed or merged.
+
+The local Swedish export predates the current English source snapshot: it contains 1,034 keys while the current source contains 3,173. The current-source gaps are being added in reviewed batches; do not infer a fully current Swedish catalog from the older export's non-empty-value count.
