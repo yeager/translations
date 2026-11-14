@@ -62,13 +62,15 @@ Ytterligare Voice-strängar finns i
 [`hp-printer-feed-batch-43.md`](hp-printer-feed-batch-43.md).
 [`hp-printer-color-counters-batch-44.md`](hp-printer-color-counters-batch-44.md).
 [`hp-printer-status-batch-45.md`](hp-printer-status-batch-45.md).
-Totalt omfattar dagens arkiverade arbete därmed 128 direkt sparade och
+[`hp-printer-feed-errors-batch-46.md`](hp-printer-feed-errors-batch-46.md) och
+[`hp-printer-fax-counters-batch-47.md`](hp-printer-fax-counters-batch-47.md).
+Totalt omfattar dagens arkiverade arbete därmed 134 direkt sparade och
 återlästa strängar.
 
 Batcherna 41–45 är nu sparade eller verifierade upstream. Det finns inga
 återstående strängar i
 [`hp-printer-pending-batches-41-45.md`](hp-printer-pending-batches-41-45.md).
-De senare lokalt granskade batcherna 46–47 behandlas och arkiveras separat.
+Batcherna 46–47 är också sparade och återlästa.
 
 Not: Batcharna är sparade upstream i Lokalise. Detta är inte en fullständig
 genomgång av Home Assistant Core; oöversatta strängar återstår och behandlas i

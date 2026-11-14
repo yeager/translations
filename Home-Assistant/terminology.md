@@ -21,9 +21,16 @@ källtextens sammanhang.
 | copied color pages | kopierade färgsidor | HP Printer, räknare för färgkopior. |
 | close door or cover | stäng luckan eller locket | HP Printer, aktiv åtgärdsstatus. |
 | shutting down | stängs av | HP Printer, pågående status. |
+| manufacturing date | tillverkningsdatum | HP Printer, informationsfält. |
+| paper mispicks | pappersmatningsfel | HP Printer, räknare för misslyckade pappersmatningar. |
+| scanner mispicks | matningsfel i dokumentmataren | HP Printer, räknare för misslyckade matningar i dokumentmataren. |
+| faxed pages from document feeder | faxade sidor från dokumentmataren | HP Printer, faxräknare. |
+| faxed pages from glass | faxade sidor från skannerglaset | HP Printer, faxräknare via skannerglaset. |
+| faxed pages from computer | faxade sidor från datorn | HP Printer, faxräknare för datorutskick. |
 
 ## Status
 
-De två molnstatusetiketterna, `scanner_jams`, fem räknaretiketter och tre
-skrivarstatusvärden är sparade i Lokalise och återlästa där. Övriga texter i
-batch 41–45 var redan korrekta vid den oberoende verifieringen.
+De två molnstatusetiketterna, `scanner_jams`, fem räknaretiketter, tre
+skrivarstatusvärden, tre matnings- och informationsfält samt tre faxräknare är
+sparade i Lokalise och återlästa där. Övriga texter i batch 41–45 var redan
+korrekta vid den oberoende verifieringen.
