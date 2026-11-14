@@ -45,6 +45,7 @@ granskningsunderlag, inte en ersättning för strängens konkreta UI-kontext.
 | draw call | ritanrop | Gäller GS- och renderingsstatistik. |
 | texture replacement | texturersättning | Gäller ersättningar som läses in för speltexturer. |
 | preload | förinläsning | Gäller särskilt texturer som läses in i cache före användning. |
+| TLB hack | TLB-hack | TLB är en teknikförkortning; använd den svenska sammansättningen i spelåtgärder. |
 | precaching | förinläsning | Gäller förinläsning av skivdata före användning. |
 | expand | utvidgning | Gäller SoundTouchs interna ljudutvidgningssteg i latenstext. |
 | Use Title File Names | Använd speltitel som filnamn | Etikett i dialogen för omslagsbilder; samma formulering används i dess hjälptext. |
