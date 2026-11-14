@@ -20,6 +20,8 @@ källa och den faktiska svenska Lokalise-strängen.
   Konfigurera en insticksmodul som tillhandahåller AI, till exempel Home
   Assistant-insticksmodulen med en AI-uppgiftsentitet.*; saknad översättning
   tillagd och återläst.
+- `common.config_entries.announce_volume.label`: *Volume for Announcements* →
+  *Volym för meddelanden*; befintlig översättning bevarad.
 
 ## Upstreamstatus
 
@@ -30,5 +32,7 @@ release är inte verifierade.
 på Lokalise 2026-11-14.
 `common.config_entries.ai_engine_unavailable.label` översattes och återlästes
 i MA Server på Lokalise 2026-11-14.
+`common.config_entries.announce_volume.label` kontrollerades i MA Server på
+Lokalise 2026-11-14. Ingen ändring behövdes.
 
 `msgfmt` är inte tillämpligt eftersom katalogen är JSON.
