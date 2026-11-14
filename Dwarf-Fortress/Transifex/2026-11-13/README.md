@@ -67,6 +67,14 @@ Detta är inte en markering som granskad i Transifex. De uppladdade raderna har 
 - De uppladdade strängarna är inte därmed markerade som granskade, finaliserade
   eller publicerade. Dessa statusar hanteras separat av Transifex och projektet.
 
+### Komponentinventering 2026-11-14
+
+| Komponent | Svensk Transifex-status | Återstående arbete |
+| --- | --- | --- |
+| `dfint-installer` / `application` | 34/34 översatta, 0 granskade | Inga oöversatta strängar. |
+| `dwarf-fortress-steam` / `text_set` | 354/354 översatta, 0 granskade | Inga oöversatta strängar. |
+| `dwarf-fortress-steam` / `hardcoded_steam` | Se uppdateringen ovan | Fortsatt radvis granskning och översättning av oöversatta UI- och spelsträngar. |
+
 ## Filer
 
 - `dwarf-fortress-text-set-batch01-sv-20261113.jsonl`: oförändrad deltafil med de tio uppladdade måltexterna.
