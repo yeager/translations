@@ -89,6 +89,7 @@ Release freshness: 2.10.11 was published 2026-11-13.
 - Swedish context review of the raï, reggae and rock metadata in `common.media`
 - Swedish context review of the salsa, singer-songwriter, ska and soul metadata in `common.media`
 - Swedish context review of the trap, waltz and meditation-music metadata in `common.media`
+- Swedish completion of all 59 currently missing `common.media` music-genre descriptions: sound effects, soundtrack, spoken word, swing and tango; the visible `Soundtrack` label was corrected to `Filmmusik`
 
 ## Checks
 
