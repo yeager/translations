@@ -1,10 +1,4 @@
 {
-  "provider.acoustid_lookup.config_entries.min_score.description": "Säkerhetströskel (0,5–1,0) under vilken AcoustID-träffar förkastas. Standardvärdet 0,85 är en avvägning mellan träffsäkerhet och falska positiva resultat; höj värdet för striktare matchning.",
-  "provider.acoustid_lookup.config_entries.min_score.label": "Lägsta matchningspoäng",
-  "provider.acoustid_lookup.config_entries.write_tags_back.description": "När ljudanalysen identifierar ett spår via AcoustID skrivs även taggarna AcoustID ID, MusicBrainz Recording ID, ISRC och, när det går att fastställa, MusicBrainz Artist ID tillbaka till ljudfilen. Det är användbart om andra appar i nätverket använder taggarna för egen metadata. Kräver en musik-källa av typen Filsystem med skrivåtkomst till filen; skrivskyddade filer hoppas över utan meddelande.",
-  "provider.acoustid_lookup.config_entries.write_tags_back.label": "Skriv tillbaka AcoustID-/MusicBrainz-taggar till filer",
   "provider.acoustid_lookup.manifest.description": "Identifierar lokala ljudfiler med AcoustID-/Chromaprint-fingeravtryck och fyller i deras MusicBrainz Recording ID för fortsatt metadataberikning.",
-  "provider.airplay_receiver.config_entries.connected_players.description": "De Music Assistant-spelare som ska exponeras via AirPlay. Varje vald spelare annonseras som en egen AirPlay-mottagare, och ljud som strömmas till den spelas upp på den spelaren. Lämna tomt om insticksmodulen ska vara inaktiv.",
-  "provider.airplay_receiver.config_entries.publish_name_template.description": "Hur varje mottagare i AirPlay-enhetslistan namnges utifrån den anslutna spelarens namn.",
-  "provider.airplay_receiver.manifest.description": "Ta emot AirPlay-ljudströmmar och använd dem som källa i Music Assistant."
+  "provider.airplay_receiver.config_entries.publish_name_template.description": "Hur varje mottagare i AirPlay-enhetslistan namnges utifrån den anslutna spelarens namn."
 }

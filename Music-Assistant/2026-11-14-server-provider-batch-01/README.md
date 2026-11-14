@@ -4,35 +4,23 @@ Datum: 2026-11-14
 
 Komponent: `music-assistant/server`, Lokalise-projektet **MA Server**.
 
-Deltafilen innehåller 8 nya, radgranskade svenska översättningar för ABC Radio Network, AcoustID Lookup och AirPlay Receiver. Två befintliga svenska ABC Radio-översättningar och fyra AcoustID-översättningar bevaras i Lokalise och ingår därför inte längre. Källan är `dev` från 2026-11-14 och kontrollen av releasesidan visar version 2.10.11, publicerad 2026-11-13.
+Källan är `dev` från 2026-11-14. Releasesidan kontrollerades för version 2.10.11, publicerad 2026-11-13.
 
 ## Terminologibeslut
 
 - `stream` är *ljudström* i beskrivande text och *strömma* som verb.
 - `fingerprint` är *fingeravtryck* i AcoustID-/Chromaprint-kontext.
-- Synliga produkt-, protokoll- och standardnamn behålls: AirPlay, AcoustID, Chromaprint, ISRC och MusicBrainz Recording ID.
-- `plugin` är *insticksmodul*, enligt projektets befintliga terminologilista.
-
-## Omfattning
-
-Den tidigare lokala kandidaten från den stängda PR:en `yeager/music-assistant-server#7640` innehåller 2 083 aktuella källnycklar. Den aktuella engelska katalogen har 3 175 nycklar. Denna batch ökar den lokalt förberedda omfattningen till 2 097 nycklar; 1 078 aktuella källnycklar återstår.
+- AirPlay, AcoustID, Chromaprint, ISRC och MusicBrainz Recording ID behålls som produkt-, protokoll- och standardnamn.
+- `plugin` är *insticksmodul*.
 
 ## Kontroller
 
-- JSON-syntax
-- samma platshållare och URL:er som i källan
-- kontroll av tre identiska konsonanter i följd
-- `l10n-lint`, `svlang` och `hunspell-sv` när verktygens formatstöd räcker
-- `git diff --check` och Gitleaks före arkivering
-
-`svlang check --file` kördes 2026-11-14. Dess sällsynthetsvarningar och
-Hunspell-träffar gäller produktnamn, protokoll, API-namn och JSON-nycklar.
-Tre V2-varningar gäller etiketter eller satsinledningar och är manuellt
-bedömda som falska positiva. Inga ord har därför ändrats enbart för att tysta
-verktygen.
-
-`msgfmt` är inte tillämpligt eftersom Lokalise-exporten är JSON.
+- JSON-syntax, URL:er och platshållare har kontrollerats.
+- Tre identiska konsonanter i följd har kontrollerats.
+- `svlang`- och Hunspell-träffar för produktnamn, protokoll, API-namn och JSON-nycklar har manuellt bedömts som falska positiva.
+- `msgfmt` är inte tillämpligt eftersom Lokalise-exporten är JSON.
+- Diffkontroll och Gitleaks körs före arkivering.
 
 ## Upstreamstatus
 
-`provider.abc_radio_network.config_entries.state.description`, `provider.abc_radio_network.manifest.description`, `provider.acoustid_lookup.config_entries.analyse_streaming.description`, `provider.acoustid_lookup.config_entries.analyse_streaming.label`, `provider.acoustid_lookup.config_entries.api_key.description` och `provider.acoustid_lookup.config_entries.api_key.label` kontrollerades i MA Server på Lokalise 2026-11-14 och har redan svenska översättningar; de bevaras. Övriga 8 rader är ännu inte uppladdade, föreslagna eller inskickade. Projektet avvisade PR-vägen och hänvisade till Lokalise. Den inloggade webbläsarsessionen har verifierats ha redigeringsbehörighet för enskilda strängar. Läs tillbaka importerade, hoppade över och saknade strängar efter en eventuell deltaimport.
+Åtta av de nio tidigare väntande värdena kontrollerades i MA Server på Lokalise 2026-11-14 och är redan sparade där. De lämnas oförändrade. Två värden är fortfarande tomma i Lokalise och ligger därför kvar i deltafilen: AcoustID Lookup-beskrivningen och AirPlay Receiver-namnmallens beskrivning. De har inte kunnat sparas via den aktuella Lokalise-redigeraren och är inte upstream-inskickade. Lokalise-granskning, kodsynkronisering och release är inte verifierade.
