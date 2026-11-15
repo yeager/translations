@@ -3,8 +3,8 @@
 Datum: 2026-11-15  
 Upstream: [PR #199526](https://github.com/openclaw/openclaw/pull/199526)
 
-Fyrtiosju delade poster i Control UI:s svenska översättningsminne har granskats
-och uppdaterats. De gäller minst 67 synliga positioner.
+Femtiofem delade poster i Control UI:s svenska översättningsminne har granskats
+och uppdaterats. De gäller minst 75 synliga positioner.
 
 | Segment | Engelska | Svenska |
 | --- | --- | --- |
@@ -55,6 +55,14 @@ och uppdaterats. De gäller minst 67 synliga positioner.
 | `skillDiscovery.search` | Search skills | Sök efter färdigheter |
 | `agents.overview.allSkills` | All skills | Alla färdigheter |
 | `configHints.nodeHost…skills.enabled` | Node Host Skills Enabled | Nodvärdens färdigheter aktiverade |
+| `skillGroups.learned` | Learned skills | Inlärda färdigheter |
+| `skillGroups.other` | Other skills | Övriga färdigheter |
+| `chat.sessionDetails.contextSkills` | Skills catalog | Färdighetskatalog |
+| `skillsPage.filterPlaceholder` | Filter installed skills | Filtrera installerade färdigheter |
+| `skillWorkshop.skills.empty` | No learned skills yet… | Inga inlärda färdigheter ännu… |
+| `subtitles.skillWorkshop` | Skills your agent learned… | Färdigheter som din agent har lärt sig… |
+| `configHints.agents…skillsLimits` | Agent Skills Limits | Agentens gränser för färdigheter |
+| `configHints.agents…maxSkillsPromptChars` | Agent Skills Prompt Max Chars | Maximalt antal tecken i agentens prompt för färdigheter |
 
 De delade segmenten omfattar bland annat appens stödlänk, inställningar för
 automatiskt läge, färdigheter i agenter, chatt och inställningar samt den
