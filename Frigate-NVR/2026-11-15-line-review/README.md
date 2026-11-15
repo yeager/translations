@@ -250,3 +250,9 @@ och interna statusfält.
 
 Första läspasset av `config/global`: sträng 1–100 av 775. Tre rättningar
 behövdes för sessionsförnyelse, go2rtc-återströmning och TTL-lägen.
+
+## Batch 035
+
+Andra läspasset av `config/global`: sträng 101–300 av 775. Åtta rättningar
+behövdes: Birdseye behåller sitt produktnamn, och globala liveinställningar
+använder konsekvent *liveuppspelning* och *återströmning*.
