@@ -189,3 +189,10 @@ Tionde läspasset av `views-settings`: sträng 901–1 000 av 1 434. Sex
 rättningar behövdes: utlösarnas beskrivningar har korrekt handlingsriktning,
 konsekvent imperativform och idiomatisk svenska. Mediesynkroniseringen
 beskriver nu korrekt överblivna filer utan databasreferens.
+
+## Batch 025
+
+Elfte läspasset av `views-settings`: sträng 1 001–1 100 av 1 434. Elva
+rättningar behövdes. Medietyper, integrationer, registreringsskyltar,
+svensk typografi, strömordning och ärvda FFmpeg-inställningar är nu
+terminologiskt och grammatiskt konsekventa.
