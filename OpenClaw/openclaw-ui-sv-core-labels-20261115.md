@@ -3,8 +3,8 @@
 Datum: 2026-11-15  
 Upstream: [PR #199526](https://github.com/openclaw/openclaw/pull/199526)
 
-Trettioett delade poster i Control UI:s svenska översättningsminne har
-granskats och uppdaterats. De gäller sammanlagt 51 synliga positioner.
+Trettiosex delade poster i Control UI:s svenska översättningsminne har
+granskats och uppdaterats. De gäller sammanlagt 56 synliga positioner.
 
 | Segment | Engelska | Svenska |
 | --- | --- | --- |
@@ -39,6 +39,11 @@ granskats och uppdaterats. De gäller sammanlagt 51 synliga positioner.
 | `profilePage.identity.prAttributionDescription` | Appends this link to new pull requests. | Lägger till den här länken i slutet av nya pull-begäranden. |
 | `chat.activityPills.publication.review` | Review pull request publication on GitHub | Granska publiceringen av en pull-begäran på GitHub |
 | `profilePage.identity.prAttribution` | Add OpenClaw attribution to pull requests | Lägg till ett omnämnande av OpenClaw i pull-begäranden |
+| `updates.page.lastCommitAt` | Last commit | Senaste incheckning |
+| `aboutPage.copyBuild` | Copy version and commit | Kopiera version och incheckning |
+| `aboutPage.commit` | Commit | Incheckning |
+| `aboutPage.copiedCommit` | Commit hash copied | Hash för incheckning kopierad |
+| `aboutPage.copyCommit` | Copy full commit hash | Kopiera fullständig hash för incheckning |
 
 De delade segmenten omfattar bland annat appens stödlänk, inställningar för
 automatiskt läge, färdigheter i agenter, chatt och inställningar samt den
