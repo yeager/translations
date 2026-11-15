@@ -38,6 +38,10 @@ Updated: 2026-11-15.
 | bind (a network interface/address) | binda OBS till | Include the application as the subject in instructional error text. |
 | socket loop | socketslinga | Low-level RTMP option. |
 | Safe Mode | felsäkert läge | Use the established operating-system term consistently. |
+| streamid | streamid | SRT protocol parameter; retain the literal parameter name. |
+| bearer token | Bearer-token | Authentication-scheme name; not `ägartoken`. |
+| encoding lag | kodningsfördröjning | Statistics label. |
+| rendering lag | renderingsfördröjning | Statistics label. |
 
 ## Style decisions
 

@@ -109,6 +109,12 @@ Component: `Frontend` (core UI, keys 1–180 in local source order)
 
 The first 180 local English source keys were compared one by one with Swedish. Five corrections are recorded in `frontend-core-ui.delta.json`: one spelling error, an already-running recovery message, consistent `felsäkert läge`, and a complete automatic-configuration priority label. Keys missing only from the older local Swedish snapshot are documented but not reconstructed; Crowdin has Swedish at 100% completion.
 
+## Reviewed batch 14 — pending upstream save
+
+Component: `Frontend` (auto-configuration, status and undo UI; keys 181–360 in local source order)
+
+The next 180 local English source keys were compared one by one with Swedish. `frontend-autoconfig-status-undo.delta.json` contains 34 repairs to source meaning, Swedish grammar, terminology, typos and punctuation. It retains all placeholders, markup and source line structure. Newer keys absent from the local Swedish snapshot are deliberately excluded.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
