@@ -289,3 +289,20 @@ ONVIF-protokoll.
 Hela `views/setup` har granskats och kompletterats: 81 av 81 tidigare tomma
 strängar. Platshållare, produktnamn, modellnamn, konfigurationsvägar och
 maskinvarutermer är bevarade eller konsekvent översatta.
+
+## Slutstatus
+
+Samtliga 29 komponenter och 5 237 källsträngar har granskats rad för rad mot
+den engelska utvecklingskatalogen och den svenska katalogen hämtad från Hosted
+Weblate. Arbetet omfattar 277 korrigerade eller kompletterade strängar i 39
+separata deltafiler.
+
+Varje ändringsbatch har kontrollerats med JSON-validering, `l10n-lint`,
+`git diff --check` och Gitleaks. `msgfmt` är inte tillämpligt på i18next-JSON.
+Hunspell kördes inte eftersom användaren begärt att begränsa dess CPU-belastning.
+
+Status 2026-11-15: lokalt granskat och arkiverat i `yeager/translations`.
+Hosted Weblate är inte uppdaterat: den tillgängliga API-uppladdningsvägen
+accepterar inte metodvalet för filimport, och MCP-anslutningen genererar en
+felaktig dubblerad API-sökväg. Ingen uppladdning eller upstream-mottagning
+påstås därför.
