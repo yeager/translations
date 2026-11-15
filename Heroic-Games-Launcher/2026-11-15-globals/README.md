@@ -27,3 +27,9 @@ Kontroller: `jq empty`, `l10n-lint`, `git diff --check` och `gitleaks detect --n
 - Omfattning: 36 saknade strängar för GOG-affiliatlänkar, grafik- och prestandaalternativ, Steam-genvägar, itch.io-installationsprogram och inmatning i webbvyn.
 - Status: uppladdad och återläst 2026-11-15. Weblate rapporterar 973 översatta strängar, 0 fuzzy-strängar och 1 096 totalt.
 - Särskilt kontrollerat: `{{title}}`, `{{exe}}` och `{{path}}`; bevarade tekniska namn och formatering för AVX, Rosetta, DirectX, Vulkan, DXVK, DLSS, UMU, HTTPS, CDN, eventfd, futex, Wayland, HDR och MangoHud.
+
+## Batch 005
+
+- Omfattning: 43 saknade strängar för stödvyn, donationsformer, Steam-molnsparning och återställning vid fel.
+- Status: uppladdad och återläst 2026-11-15. Weblate rapporterar 1 016 översatta strängar, 0 fuzzy-strängar och 1 096 totalt.
+- Särskilt kontrollerat: båda svenska pluralformerna, `{{game}}`, `{{files}}` och `{{details}}`, samt bevarande av Steam, GOG, GitHub, Ko-fi, Patreon och PayPal.
