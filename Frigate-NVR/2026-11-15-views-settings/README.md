@@ -57,6 +57,21 @@ Kontrollträffar i den här delen avser korrekta tekniska namn: `go2rtc`,
 Kontroller: `jq empty`, `l10n-lint`, käll- och tokenjämförelse,
 `git diff --check` och Gitleaks.
 
+## Batch 015
+
+Batchen omfattar kopiering av kamerainställningar, med särskild kontroll av
+upplösningsvarningen och dess platshållare. Hosted Weblate accepterade samtliga
+24 strängar. Komponenten står därefter på 1 105 av 1 409 översatta strängar
+och 0 fuzzy.
+
+Kontrollträffen för upplösningsvarningen är en medveten falsk positiv träff för
+kolon. Den engelska källans “differs from:” blir idiomatiskt “skiljer sig från”
+på svenska; platshållarna `{{srcCamera}}`, `{{srcWidth}}`, `{{srcHeight}}` och
+`{{cameras}}` är bevarade.
+
+Kontroller: `jq empty`, `l10n-lint`, käll- och platshållarjämförelse,
+`git diff --check` och Gitleaks.
+
 ## Batch 014
 
 Batchen omfattar kamerans driftstatus, live-strömmar och
