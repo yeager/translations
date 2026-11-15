@@ -6,7 +6,7 @@ Tjugotvå lokalt granskade texter: klickåtgärdernas val, alternativ för
 intelligent slumpning och inställningar för volymnormalisering. EBU-R128
 behålls som standardnamn.
 
-Status: lokalt granskad och arkiverad. Fem strängar sparades manuellt i Lokalise
+Status: lokalt granskad och arkiverad. Sex strängar sparades manuellt i Lokalise
 2026-11-15 och lästes tillbaka.
 
 Kontroller: JSON, källnycklar, l10n-lint, svlang, Hunspell, kontroll av tre
