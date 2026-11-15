@@ -3,7 +3,7 @@
 Datum: 2026-11-15  
 Upstream: [PR #199526](https://github.com/openclaw/openclaw/pull/199526)
 
-Etthundrafemton delade poster i Control UI:s svenska översättningsminne har
+Etthundratjugo delade poster i Control UI:s svenska översättningsminne har
 granskats och uppdaterats. De gäller minst 135 synliga positioner.
 
 | Segment | Engelska | Svenska |
@@ -120,6 +120,11 @@ granskats och uppdaterats. De gäller minst 135 synliga positioner.
 | `cron.job.pluginCommand` | Plugin command | Tilläggskommando |
 | `skillWorkshop.plugin.failed` | Check Plugins for details. | Se Tillägg för mer information. |
 | `skillWorkshop.plugin.pluginsDisabled` | Plugins are turned off… | Tillägg är avstängda… |
+| `newSession.offlineFor` | Offline for {duration} | Frånkopplad sedan {duration} |
+| `agentChip.getHelp` | Get support | Få stöd |
+| `systems.offlineTitle` | This device is offline | Den här enheten är frånkopplad |
+| `presence.onlineIdle` | Online · Idle | Ansluten · Inaktiv |
+| `presence.onlineActive` | Online · Active | Ansluten · Aktiv |
 
 De delade segmenten omfattar bland annat appens stödlänk, inställningar för
 automatiskt läge, färdigheter i agenter, chatt och inställningar, den
@@ -130,6 +135,8 @@ beskrivningen av
 ändringsverktyget, texten om heartbeat-övervakning och ordvalet för Git-
 incheckningar samt närvarolistan och frånkopplad-statusen. Källan och
 översättningen finns i `ui/src/i18n/.i18n/sv.tm.jsonl` i upstream-PR:n.
+De synliga statusetiketterna och den direkta stödlänken använder nu också
+Ansluten, Frånkopplad och Stöd konsekvent.
 Tekniska konfigurationssökvägar som `skills.*` har lämnats orörda.
 
 Kontroller som passerar: JSONL-parsning, Hunspell-sv för de vanliga nya orden,
