@@ -1,0 +1,21 @@
+{
+  "project": "Wine",
+  "component": "po/sv.po",
+  "source_revision": "9f8c4ae4d35c7ff4153267aba9618c026f5f5583",
+  "date": "2026-11-15",
+  "status": "locally reviewed; not submitted upstream",
+  "strings_reviewed": 3,
+  "scope": "start and xcopy command help, color-dialog label",
+  "decisions": [
+    "Add the /machine and /exec options to the Swedish start help text.",
+    "Add the /K option and its explanation to the Swedish XCOPY help text.",
+    "Resolve the abbreviated color-dialog source using its Solid translation context and comparable upstream locale behavior."
+  ],
+  "validation": {
+    "msgfmt": "passed",
+    "git_diff_check": "passed",
+    "gitleaks": "passed",
+    "svlang": "ran; existing global findings reviewed separately",
+    "l10n_lint": "ran; pre-existing catalog baseline remains"
+  }
+}
