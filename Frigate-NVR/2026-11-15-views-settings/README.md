@@ -57,6 +57,20 @@ Kontrollträffar i den här delen avser korrekta tekniska namn: `go2rtc`,
 Kontroller: `jq empty`, `l10n-lint`, käll- och tokenjämförelse,
 `git diff --check` och Gitleaks.
 
+## Batch 010
+
+Batchen omfattar FFmpeg-förinställningar, synkroniseringsloggning,
+ONVIF-profiler och tidsstämpelpositioner. Hosted Weblate accepterade samtliga
+16 strängar. Komponenten står därefter på 996 av 1 409 översatta strängar och
+0 fuzzy.
+
+Åtta nya kontrollträffar är granskade och avsiktliga: Raspberry Pi, VAAPI,
+Intel QuickSync, NVIDIA Jetson, Rockchip RKMPP och H.264/H.265 är tekniska
+namn och format som ska behållas oförändrade.
+
+Kontroller: `jq empty`, `l10n-lint`, käll- och tokenjämförelse,
+`git diff --check` och Gitleaks.
+
 ## Batch 009
 
 Batchen omfattar permanent kameraradering, återkoppling i bekräftelsedialoger,
