@@ -19,3 +19,8 @@
 | codec | kodek | Behåll tekniknamnet IYUV/Indeo |
 | axes | axlar | Spelkontroll |
 | rumble | vibration | Spelkontroll |
+| property | egenskap | ECMAScript-fel |
+| accessor | åtkomstfunktion | ECMAScript-fel |
+| typed array | typad array | ECMAScript-fel |
+| non-extensible | icke-utbyggbar | ECMAScript-objekt |
+| DataView | DataView | API-namn, översätt inte |
