@@ -1,0 +1,22 @@
+{
+  "project": "Wine",
+  "component": "po/sv.po",
+  "source_revision": "9f8c4ae4d35c7ff4153267aba9618c026f5f5583",
+  "date": "2026-11-15",
+  "status": "locally reviewed; not submitted upstream",
+  "strings_reviewed": 10,
+  "scope": "Media Foundation errors and Windows time-zone display names",
+  "decisions": [
+    "Replace unrelated fuzzy values in Media Foundation diagnostics with Swedish technical messages that preserve the source meaning and line endings.",
+    "Use the established Swedish name Saint-Pierre och Miquelon.",
+    "All non-fuzzy maximum-31-character translations remain within the UI limit."
+  ],
+  "validation": {
+    "msgfmt": "passed",
+    "git_diff_check": "passed",
+    "gitleaks": "passed",
+    "svlang": "ran; existing global findings reviewed separately",
+    "l10n_lint": "ran; pre-existing catalog baseline remains",
+    "maximum_31_characters": "passed"
+  }
+}
