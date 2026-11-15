@@ -1,6 +1,6 @@
 # Music Assistant – svensk Lokalise-status
 
-Senast verifierad: 2026-11-15
+Senast verifierad: 2026-11-16
 
 | Komponent | Projekt-ID | Oöversatta svenska API-poster |
 | --- | --- | ---: |
@@ -11,3 +11,7 @@ Senast verifierad: 2026-11-15
 
 Statusen avser Lokalise API:s filter för tom svensk översättning. Den bevisar
 inte projektgranskning, publicering eller release.
+
+Music Assistant Server räknades om direkt via API den 16 november. Katalogen
+omfattar 4 098 svenska poster, varav 0 är tomma eller oöversatta efter batch
+66. Övriga komponenter behåller senast verifierade status från 15 november.
