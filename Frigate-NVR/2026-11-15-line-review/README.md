@@ -283,3 +283,9 @@ för visningsnamn, konfidens, oskärpefilter och registreringsskyltigenkänning.
 Sjunde och sista läspasset av `config/global`: sträng 701–775 av 775. Sex
 rättningar behövdes för profilers visningsnamn, MQTT-avgränsningsrutor och
 ONVIF-protokoll.
+
+## Batch 041
+
+Hela `views/setup` har granskats och kompletterats: 81 av 81 tidigare tomma
+strängar. Platshållare, produktnamn, modellnamn, konfigurationsvägar och
+maskinvarutermer är bevarade eller konsekvent översatta.

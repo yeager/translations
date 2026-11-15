@@ -1,0 +1,115 @@
+{
+  "setupWizard": {
+    "steps": {
+      "welcome": "Välkommen",
+      "account": "Konto",
+      "camera": "Lägg till kamera",
+      "hwaccel": "Acceleration",
+      "detector": "Detektering",
+      "recording": "Inspelning",
+      "complete": "Klart"
+    },
+    "welcome": {
+      "title": "Välkommen till Frigate",
+      "description": "Nu ställer vi in dina säkerhetskameror. Vi går igenom kameraanslutning, maskinvaruinställningar och inspelning.",
+      "getStarted": "Kom igång",
+      "skipSetup": "Hoppa över installationen och konfigurera manuellt"
+    },
+    "account": {
+      "title": "Skydda ditt konto",
+      "descriptionSignedIn": "Du är inloggad som {{username}} med det tillfälliga lösenordet från Frigates loggar. Ange ett lösenord du kommer ihåg.",
+      "descriptionAnonymous": "Du använder Frigate via en port som inte kräver inloggning. Ange ett lösenord för administratörskontot så att du kan logga in via den skyddade porten.",
+      "passwordSet": "Lösenordet har angetts",
+      "changePassword": "Byt lösenord",
+      "addUser": "Lägg till användare",
+      "usersFailed": "Det gick inte att läsa in användarlistan. Du kan fortfarande ange administratörslösenordet.",
+      "userFailed": "Det gick inte att lägga till användaren. Försök igen."
+    },
+    "camera": {
+      "title": "Lägg till din första kamera",
+      "description": "Anslut en kamera för att börja övervaka. Du kan lägga till fler kameror senare i Inställningar.",
+      "addCamera": "Lägg till kamera",
+      "addAnother": "Lägg till ytterligare en kamera",
+      "cameraAdded": "Kameran har lagts till",
+      "retry": "Försök igen"
+    },
+    "hwaccel": {
+      "title": "Maskinvaruacceleration",
+      "description": "Snabba upp videoavkodningen med GPU:n.",
+      "detecting": "Kontrollerar maskinvaran...",
+      "auto": "Automatiskt",
+      "autoResolved": "{{family}} används för dina kameror.",
+      "autoNone": "Inget videokort som stöds hittades. Frigate avgör detta vid start.",
+      "recommendFailed": "Maskinvarudetektering är inte tillgänglig. Frigate avgör detta vid start.",
+      "families": {
+        "nvidia": "CUDA (NVIDIA)",
+        "vaapi": "VAAPI (Intel/AMD)",
+        "intel-qsv": "QuickSync (Intel)",
+        "rkmpp": "RKMPP (Rockchip)",
+        "jetson": "NVIDIA Jetson",
+        "rpi": "V4L2 (Raspberry Pi)",
+        "apple-silicon": "Mediamotor (Apple Silicon)",
+        "none": "Ingen (programvaruavkodning)"
+      }
+    },
+    "detector": {
+      "title": "Objektdetektering",
+      "description": "Välj maskinvaran som Frigate använder för att detektera personer och objekt.",
+      "detecting": "Söker efter maskinvara för detektering...",
+      "probeFailed": "Maskinvarudetektering är inte tillgänglig. Du kan konfigurera detektering senare i Inställningar.",
+      "recommended": "Rekommenderas",
+      "modelRequired": "{{name}} behöver en detekteringsmodell innan den kan köras. Välj en Frigate+-modell eller slutför installationen och lägg till en under Inställningar > Detekteringsmodeller.",
+      "plusModelPlaceholder": "Välj en Frigate+-modell",
+      "continueWithout": "Fortsätt utan detektering"
+    },
+    "recording": {
+      "title": "Inspelningar",
+      "description": "Spara video från dina kameror så att du kan se den senare.",
+      "enableRecording": "Aktivera inspelningar",
+      "retentionDays": "Spara inspelningar i (dagar)",
+      "storageEstimate": "Med {{free}} GB ledigt fyller {{cameras}} kamera/kameror som spelar in dygnet runt disken på ungefär {{days}} dagar.",
+      "noCameras": "Du har inte lagt till några kameror än. Inspelning tillämpas när du lägger till kameror i Inställningar.",
+      "modeLabel": "Vad ska spelas in?",
+      "modes": {
+        "events": {
+          "label": "Endast när något detekteras",
+          "description": "Sparar video kring personer, bilar och andra objekt som Frigate detekterar. Använder betydligt mindre diskutrymme."
+        },
+        "continuous": {
+          "label": "Hela tiden",
+          "description": "Sparar video dygnet runt så att du kan gå tillbaka till vilken tidpunkt som helst. Använder betydligt mer diskutrymme."
+        }
+      },
+      "retentionHint": {
+        "events": "Video av allt som Frigate detekterar sparas så här länge och tas sedan bort automatiskt.",
+        "continuous": "All video sparas så här länge och tas sedan bort automatiskt."
+      }
+    },
+    "complete": {
+      "title": "Klart!",
+      "description": "Ditt Frigate-system är konfigurerat. Detta har vi ställt in:",
+      "configured": "Konfigurerat",
+      "notConfigured": "Inte konfigurerat",
+      "configureInSettings": "Konfigurera i Inställningar",
+      "camera": "Kamera",
+      "hwaccel": "Maskinvaruacceleration",
+      "detector": "Objektdetektering",
+      "recording": "Inspelning",
+      "goToLiveView": "Gå till livevyn",
+      "applyAndRestart": "Tillämpa och starta om",
+      "restartNotice": "Frigate måste startas om för att tillämpa inställningarna. Det tar ungefär 30 sekunder.",
+      "nextSteps": "Nästa steg: Ställ in rörelsemasker, zoner och aviseringar i Inställningar.",
+      "restarting": "Startar Frigate...",
+      "restartingDescription": "Det tar ungefär 30 sekunder."
+    },
+    "actions": {
+      "next": "Nästa",
+      "back": "Tillbaka",
+      "skip": "Hoppa över",
+      "saving": "Sparar..."
+    },
+    "errors": {
+      "saveFailed": "Det gick inte att spara konfigurationen. Försök igen."
+    }
+  }
+}
