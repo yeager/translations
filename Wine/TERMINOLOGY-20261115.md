@@ -55,3 +55,7 @@
 | Automation | Automation | VBScript-fel; tekniknamn |
 | named argument | namngivet argument | VBScript-fel |
 | locale setting | språkområdesinställning | VBScript-fel |
+| security protocol | säkerhetsprotokoll | WinINet-certifikat |
+| signature/encryption type | signaturtyp/krypteringstyp | WinINet-certifikat |
+| URL scheme | URL-schema | WinINet-fel |
+| host name | värdnamn | SSL-certifikat |
