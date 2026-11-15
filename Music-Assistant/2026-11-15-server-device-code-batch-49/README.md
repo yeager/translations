@@ -5,8 +5,8 @@ Datum: 2026-11-15
 Sexton lokalt granskade UI-texter för inloggning med enhetskod, inklusive
 instruktioner, fel, utgångna koder och Yandex-länken.
 
-Status: lokalt granskad och arkiverad. Fjorton saknade strängar sparades manuellt i
-Lokalise 2026-11-15 och lästes tillbaka.
+Status: lokalt granskad. Samtliga sexton saknade strängar sparades manuellt i
+Lokalise 2026-11-15 och lästes tillbaka; arkivering och push pågår.
 
 Kontroller: JSON, källnycklar, l10n-lint, svlang, Hunspell, kontroll av tre
 identiska tecken i översatta värden, diffkontroll och Gitleaks. `msgfmt` är inte
