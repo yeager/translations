@@ -169,3 +169,9 @@ granskningstermer rättades så att de konsekvent avser *granskning* och
 
 Sjunde läspasset av `views-settings`: 100 ytterligare strängar. Två
 förekomster av *friendly name* normaliserades till *visningsnamn*.
+
+## Batch 022
+
+Åttonde läspasset av `views-settings`: 100 ytterligare strängar. Tre
+rättningar behövdes: två åtgärder återställer lösenord, och poängtermen i
+felsökningen är nu konsekvent.
