@@ -1,0 +1,65 @@
+{
+  "health": {
+    "hardware": {
+      "streamsChecked_one": "{{count}} kamera kontrollerad",
+      "streamsChecked_other": "{{count}} kameror kontrollerade",
+      "streamsFlagged_one": "{{count}} med problem, listad under Meddelanden",
+      "streamsFlagged_other": "{{count}} med problem, listade under Meddelanden"
+    },
+    "notices": {
+      "acknowledge": "Bekräfta",
+      "acknowledgeHint": "Dölj tills detta händer igen",
+      "mute": "Tysta",
+      "muteHint": "Visa aldrig detta igen",
+      "unmute": "Slå på igen",
+      "showAgain": "Visa igen",
+      "hiddenTitle": "Dolda",
+      "noneHidden": "Inga dolda meddelanden",
+      "showAll": "Visa alla igen",
+      "showAllTitle": "Visa alla dolda meddelanden?",
+      "showAllDesc": "Alla bekräftade och tystade meddelanden återgår till meddelandelistan, även konfigurations- och strömkontroller.",
+      "acknowledgedAt": "Bekräftad {{time}}",
+      "mutedAt": "Tystad {{time}}",
+      "filter": {
+        "showHidden": "Visa dolda"
+      },
+      "kinds": {
+        "ffmpeg_high_cpu": "FFmpeg använder mycket CPU ({{cpu}} % i genomsnitt)",
+        "detect_high_cpu": "Detekteringen använder mycket CPU ({{cpu}} % i genomsnitt)",
+        "object_processing_behind": "Bearbetningen av spårade objekt hann inte med, så kamerabildrutor tappades. Kontrollera CPU-användningen och om CPU-gränser eller processorbindning för behållaren eller VM:n ger Frigate för lite CPU",
+        "analytics_prompt": "Överväg att dela anonym användningsstatistik för att hjälpa utvecklarna att förbättra Frigate"
+      },
+      "occurred_one": "Inträffade {{time}}",
+      "occurred_other": "Senast inträffad {{lastTime}} · {{count}} gånger sedan {{time}}"
+    }
+  },
+  "storage": {
+    "cameraStorage": {
+      "subStream": {
+        "information": "Lagringsinformation för underström",
+        "tips": "Kameror som spelar in en underström visar användningen för original- och låg kvalitet separat, med samma namn som kvalitetsalternativen vid inspelningsuppspelning. Inspelningar med låg kvalitet ligger kvar på disken tills lagringsperioden löper ut, så denna uppdelning kan fortfarande visas för en kamera efter att inspelning från underström har stängts av."
+      }
+    }
+  },
+  "cameras": {
+    "info": {
+      "keyframes": {
+        "warningFixed": "Nyckelrutorna är jämnt fördelade men glest placerade (var ~{{seconds}} s). Inspelning fungerar fortfarande, men liveuppspelning och sökning startar långsammare. Ställ in kamerans I-bildruteintervall så att det matchar bildfrekvensen.",
+        "warningVariable": "Avståndet mellan nyckelrutor är inkonsekvent ({{minSeconds}} s till {{maxSeconds}} s), vilket vanligtvis betyder att en smart codec (H.264+/H.265+) är aktiverad. Det rekommenderas inte.",
+        "errorFixed": "Nyckelrutor var ~{{seconds}} s är längre än inspelningssegmentets längd ({{segmentTime}} s), så vissa segment saknar nyckelruta och kan inte spelas upp. Förkorta kamerans I-bildruteintervall så att det matchar bildfrekvensen.",
+        "errorVariable": "Avståndet mellan nyckelrutor når ~{{seconds}} s, längre än inspelningssegmentets längd ({{segmentTime}} s). Vissa segment saknar nyckelruta, vilket bryter uppspelningen. Inaktivera smart/+ codec på kameran eller förkorta nyckelruteintervallet."
+      }
+    }
+  },
+  "stats": {
+    "cameraSkippedDetections": "{{camera}} hoppar över detektering på {{pct}} % av bildrutorna",
+    "systemNotices_one": "{{count}} systemmeddelande",
+    "systemNotices_other": "{{count}} systemmeddelanden",
+    "retentionUnmet": "Inspelningar tas bort innan lagringsperioden har löpt ut för att frigöra utrymme",
+    "moreMessages_one": "+{{count}}",
+    "moreMessages_other": "+{{count}}",
+    "reindexEmbeddingsFailed": "Det gick inte att omindexera inbäddningar, kontrollera loggarna"
+  },
+  "showAllTabs": "Visa alla flikar",
+  "showLessTabs": "Visa färre"
+}

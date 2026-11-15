@@ -36,3 +36,10 @@ Batchen för maskinvaru- och strömdiagnostik accepterades med 41 av 282 nycklar
 Komponenten står därefter på 243 av 282 översatta strängar. Den enda
 kontrollträffen gäller den avsiktligt oförändrade teknikformatsträngen
 `{{camera}} / {{expected}} fps`.
+
+## Batch 004
+
+Slutbatchen accepterades med 39 av 282 nycklar. Ett interpunktionsfel i en
+diagnostiktext korrigerades via enhets-API:t. Komponenten är nu 282 av 282
+översatt, med 0 fuzzy; den enda kontrollträffen är den medvetet oförändrade
+formatsträngen `{{camera}} / {{expected}} fps`.
