@@ -202,3 +202,9 @@ terminologiskt och grammatiskt konsekventa.
 Tolfte läspasset av `views-settings`: sträng 1 101–1 200 av 1 434. Två
 rättningar behövdes: snedstreckstypografin följer svensk UI-praxis och
 GenAI-rollen använder den etablerade termen *inbäddning*.
+
+## Batch 027
+
+Trettonde läspasset av `views-settings`: sträng 1 201–1 300 av 1 434. Fjorton
+rättningar behövdes. Profilnamn, återställning, synkroniseringsstatus och
+återströmning är nu idiomatiska; interna konfigurationsvärden bevaras.
