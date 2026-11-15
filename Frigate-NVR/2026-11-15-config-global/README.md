@@ -44,3 +44,14 @@ och produktnamnet/formatet för nätverksstatistik.
 
 Kontroller: `jq empty`, `l10n-lint`, plats- och tekniktokenjämförelse mot
 källfilen, `git diff --check` och Gitleaks.
+
+## Batch 005
+
+Batchen omfattar LPR (registreringsskyltigenkänning) och kameragrupper.
+Hosted Weblate accepterade samtliga 33 strängar. Komponenten står därefter på
+699 av 775 översatta strängar och 0 fuzzy. De tre kvarvarande kontrollträffarna
+är de dokumenterade tekniska undantagen `FFmpeg`, `ONVIF-port` och
+nätverksstatistikens produktnamn/format.
+
+Kontroller: `jq empty`, `l10n-lint`, plats- och tekniktokenjämförelse mot
+källfilen, `git diff --check` och Gitleaks.

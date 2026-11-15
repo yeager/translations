@@ -1,0 +1,81 @@
+{
+  "classification": {
+    "custom": {
+      "state_config": {
+        "cameras": {
+          "crop": {
+            "label": "Beskärning för klassificering",
+            "description": "Beskärningskoordinater som ska användas för klassificering på den här kameran."
+          }
+        }
+      }
+    }
+  },
+  "lpr": {
+    "enabled": {
+      "description": "Aktivera eller inaktivera registreringsskyltigenkänning för alla kameror. Kan åsidosättas per kamera."
+    },
+    "model_size": {
+      "label": "Modellstorlek",
+      "description": "Modellstorlek för textdetektering och textigenkänning. De flesta bör använda 'small'."
+    },
+    "detection_threshold": {
+      "label": "Detekteringströskel",
+      "description": "Tröskelvärde för detekteringssäkerhet för att börja köra OCR på en misstänkt registreringsskylt."
+    },
+    "recognition_threshold": {
+      "label": "Igenkänningströskel",
+      "description": "Tröskelvärde för säkerhet som krävs för att igenkänd registreringsskyltstext ska kopplas som en underetikett."
+    },
+    "min_plate_length": {
+      "label": "Minsta skyltlängd",
+      "description": "Minsta antal tecken som en igenkänd registreringsskylt måste innehålla för att betraktas som giltig."
+    },
+    "format": {
+      "label": "Regex för skyltformat",
+      "description": "Valfri regex för att kontrollera att igenkända registreringsskyltar följer ett förväntat format."
+    },
+    "match_distance": {
+      "label": "Träffavstånd",
+      "description": "Antal teckenavvikelser som tillåts när identifierade registreringsskyltar jämförs med kända registreringsskyltar."
+    },
+    "known_plates": {
+      "label": "Kända registreringsskyltar",
+      "description": "Lista med registreringsskyltar eller regexar som ska spåras särskilt eller utlösa en avisering."
+    },
+    "debug_save_plates": {
+      "label": "Spara felsökningsskyltar",
+      "description": "Spara beskurna bilder av registreringsskyltar för att felsöka LPR-prestanda."
+    },
+    "device": {
+      "label": "Enhet",
+      "description": "Detta är en åsidosättning för att rikta in sig på en viss enhet. Läs mer på https://onnxruntime.ai/docs/execution-providers/"
+    },
+    "replace_rules": {
+      "label": "Ersättningsregler",
+      "description": "Regexbaserade ersättningsregler som används för att normalisera identifierade registreringsskyltar före jämförelse.",
+      "pattern": {
+        "label": "Regexmönster"
+      },
+      "replacement": {
+        "label": "Ersättningssträng"
+      }
+    }
+  },
+  "camera_groups": {
+    "label": "Kameragrupper",
+    "description": "Konfiguration för namngivna kameragrupper som används för att organisera kameror i gränssnittet.",
+    "cameras": {
+      "label": "Kameralista",
+      "description": "Lista med kameranamnen som ingår i gruppen."
+    },
+    "icon": {
+      "label": "Gruppikon",
+      "description": "Ikon som representerar kameragruppen i gränssnittet."
+    },
+    "order": {
+      "label": "Sorteringsordning",
+      "description": "Numerisk ordning som används för att sortera kameragrupper i gränssnittet. Högre värden visas senare."
+    }
+  }
+}
