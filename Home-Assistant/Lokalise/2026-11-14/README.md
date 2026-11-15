@@ -82,6 +82,7 @@ Efterföljande arbete finns i
 [`../2026-11-15/core-alarmdecoder-connection-batch-61.md`](../2026-11-15/core-alarmdecoder-connection-batch-61.md).
 [`../2026-11-15/core-anthropic-thinking-batch-62.md`](../2026-11-15/core-anthropic-thinking-batch-62.md).
 [`../2026-11-15/core-indi-allsky-login-ssl-batch-63.md`](../2026-11-15/core-indi-allsky-login-ssl-batch-63.md).
+[`../2026-11-15/core-nam-login-batch-64.md`](../2026-11-15/core-nam-login-batch-64.md).
 Totalt omfattar dagens arkiverade arbete därmed 177 direkt sparade och
 återlästa strängar.
 
