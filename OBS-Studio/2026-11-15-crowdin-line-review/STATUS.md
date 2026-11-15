@@ -71,6 +71,14 @@ Component: `Filters`
 
 The local source snapshot contains 133 English keys and 122 Swedish keys. The 11 missing keys are newer than that snapshot and are already translated in Crowdin; they are kept outside this local delta until a current Crowdin export is available. The 122 matching keys were reviewed. `filters.delta.json` records 25 terminology and natural-language corrections, chiefly for dynamics processors, blending modes and video-filter labels.
 
+## Reviewed batch 8 — pending upstream save
+
+Component: `Frontend` (first wording batch)
+
+Seventeen context-sensitive frontend messages were reviewed against their English counterparts. All 17 have clear Swedish UI corrections in `frontend-phrasing.delta.json`: direct dialog wording in place of repeated *Var god*, one exposed English audio term, a definite-form correction and a connection error rewritten into natural Swedish. Placeholders, line breaks, product names and the source ellipses are preserved where present.
+
+This is not a claim that the full 1,382-key local frontend snapshot has been reviewed. It is one bounded, archived batch.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
