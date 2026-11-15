@@ -3,8 +3,8 @@
 Datum: 2026-11-15  
 Upstream: [PR #199526](https://github.com/openclaw/openclaw/pull/199526)
 
-Tjugotre delade poster i Control UI:s svenska översättningsminne har granskats
-och uppdaterats. De gäller sammanlagt 43 synliga positioner.
+Trettioett delade poster i Control UI:s svenska översättningsminne har
+granskats och uppdaterats. De gäller sammanlagt 51 synliga positioner.
 
 | Segment | Engelska | Svenska |
 | --- | --- | --- |
@@ -31,6 +31,14 @@ och uppdaterats. De gäller sammanlagt 43 synliga positioner.
 | `profilePage.identity.prAttributionShort` | Appends this link to new pull requests: | Lägger till den här länken i slutet av nya pull-begäranden: |
 | `chat.pullRequests.actions` | Actions for pull request {reference} | Åtgärder för pull-begäran {reference} |
 | `chat.pullRequests.dismiss` | Dismiss pull request {reference} | Avfärda pull-begäran {reference} |
+| `chat.pullRequests.ciSummaryMany` | {count} pull requests with CI: {parts} | {count} pull-begäranden med CI: {parts} |
+| `chat.pullRequests.ciSummaryOne` | 1 pull request with CI: {parts} | 1 pull-begäran med CI: {parts} |
+| `githubConnections.agentsHelp` | Publish PR | publicera pull-begäranden |
+| `chat.pullRequests.linkLabel` | Pull request {reference}: {title} | Pull-begäran {reference}: {title} |
+| `chat.pullRequests.countOne` | 1 pull request | 1 pull-begäran |
+| `profilePage.identity.prAttributionDescription` | Appends this link to new pull requests. | Lägger till den här länken i slutet av nya pull-begäranden. |
+| `chat.activityPills.publication.review` | Review pull request publication on GitHub | Granska publiceringen av en pull-begäran på GitHub |
+| `profilePage.identity.prAttribution` | Add OpenClaw attribution to pull requests | Lägg till ett omnämnande av OpenClaw i pull-begäranden |
 
 De delade segmenten omfattar bland annat appens stödlänk, inställningar för
 automatiskt läge, färdigheter i agenter, chatt och inställningar samt den

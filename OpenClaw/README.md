@@ -20,8 +20,8 @@ och Populära. Den förbättrar också formuleringar för ändringar och
 heartbeat-övervakning och gör Git-terminologin konsekvent med den befintliga
 svenska termen incheckning. Batchen omfattar nu även närvarolistan
 `Online` → Anslutna och statusen `Offline` → Frånkopplad. De sjutton
-posterna används på sammanlagt 43 ställen i webbgränssnittet. I samma batch
-normaliseras sex synliga förekomster av GitHub-termen pull request till
+posterna används på sammanlagt 51 ställen i webbgränssnittet. I samma batch
+normaliseras fjorton synliga förekomster av GitHub-termen pull request till
 pull-begäran. Upstream-PR
 [#199526](https://github.com/openclaw/openclaw/pull/199526) skapades
 2026-11-15 och väntar på granskning. JSONL-filen parsar, de nya svenska
