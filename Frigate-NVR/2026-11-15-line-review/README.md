@@ -37,3 +37,12 @@ Radgranskade komponenter: `views-motionsearch` (66) och `views-chat` (66).
 Inga rättningar behövdes. Svenska målkatalogen hämtades från Hosted Weblate och
 jämfördes rad för rad med den engelska källkatalogen på Frigates aktuella
 utvecklingsgren.
+
+## Batch 004
+
+Radgranskad komponent: `views-events` (68). Två rättningar behövdes:
+
+- `Events` är en fliketikett i plural och ska vara *Händelser*, inte
+  *Händelse*.
+- Sidtiteln `Review` betecknar funktionen, inte en uppmaning. Därför används
+  substantivet *Granskning - Frigate*.
