@@ -24,5 +24,6 @@ musikkällas bibliotek och Music Assistant.
 
 ## Status
 
-Lokalt granskad och arkiverad. Inte uppladdad eller inskickad upstream:
+Samtliga elva strängar verifierades i Lokalise 2026-11-15. De fanns redan som
+svenska upstream-översättningar och lämnades orörda. Arkivering och push pågår:
 Lokalise-tokenen saknar rättigheten `Upload files`.
