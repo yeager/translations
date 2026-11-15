@@ -46,3 +46,14 @@ Radgranskad komponent: `views-events` (68). Två rättningar behövdes:
   *Händelse*.
 - Sidtiteln `Review` betecknar funktionen, inte en uppmaning. Därför används
   substantivet *Granskning - Frigate*.
+
+## Batch 005
+
+Radgranskad komponent: `views-facelibrary` (64). Tre rättningar behövdes:
+
+- Den korta fliketiketten `Recent` var felaktigt *Ny* och är nu *Senaste*.
+- Åtgärden för det valda ansiktet får den idiomatiska formuleringen *Byt namn
+  på ansiktet*.
+- Framgångsmeddelandet uttrycker nu resultatet, *Ansiktet har fått namnet
+  {{name}}*, i stället för den missvisande reflexiva formuleringen att
+  ansiktet självt bytt namn.
