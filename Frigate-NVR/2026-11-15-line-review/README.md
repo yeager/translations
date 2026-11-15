@@ -134,3 +134,9 @@ Radgranskad komponent: `views-system` (282). Tre rättningar behövdes:
 Första läspasset av `views-settings`: 100 av 1 434 strängar. Två rättningar
 behövdes: *Objects* normaliseras till *Objekt* och produktnamnet *Birdseye*
 behålls oförändrat.
+
+## Batch 016
+
+Andra läspasset av `views-settings`: 100 ytterligare strängar. Ett materiellt
+fel rättades: `Motion tuner` betecknar inställningsverktyget
+*Rörelsejustering*, inte en mottagare.
