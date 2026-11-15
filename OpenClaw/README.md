@@ -33,5 +33,10 @@ l10n-lint och Gitleaks passerar. Upstream-PR
 underlag passerade efter att problemformulering och testunderlag lagts till.
 Den övergripande statusen `openclaw/ci-gate` är fortfarande röd med den
 generiska uppmaningen att CI måste slutföras. Den hänvisade körningen för
-säkerhetsgranskning passerade, men någon separat testkörning för denna
-katalogändring startades inte.
+säkerhetsgranskning passerade. ClawSweeper har därefter begärt körningsbevis
+från svenska Android- eller Apple-vyer före merge. I en isolerad arbetskopia
+passerade `native:i18n:verify`, och den lokala resursgenereringen förde in
+värdena i Android-, iOS- och macOS-resurserna. Ett lokalt macOS-bygge hann
+inte starta kompileringen eftersom SwiftPM:s Node-probe avslutades av systemet.
+Det är inte ett påstående om att den svenska UI-återgivningen har verifierats;
+PR:n står därför kvar öppen för skärmbildsbevis.
