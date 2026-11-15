@@ -35,6 +35,9 @@ källtextens sammanhang.
 | consumable warranty expiration date | garantins utgångsdatum för [färg] patron | HP Printer, informationsfält. |
 | genuine refills | äkta påfyllningar för [färg] patron | HP Printer, diagnostisk ackumulerande räknare. |
 | counterfeit refills | förfalskade påfyllningar för [färg] patron | HP Printer, diagnostisk ackumulerande räknare. |
+| indoor humidity | luftfuktighet inomhus | Helty Cloud och andra klimatentiteter; egenskapsnamn. |
+| indoor temperature | inomhustemperatur | Helty Cloud och andra klimatentiteter; egenskapsnamn. |
+| outdoor temperature | utomhustemperatur | Helty Cloud och andra klimatentiteter; egenskapsnamn. |
 
 ## Status
 
