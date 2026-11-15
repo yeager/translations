@@ -27,7 +27,7 @@ och förklaringar av omprovtagning, bandbredd och sömlös uppspelning.
 ## Status
 
 En tidigare snabbkontroll var inte tillräcklig för att intyga radvis
-verifiering. Fyra av tolv rader är rättade och sparade, och tre är verifierade
-i Lokalise; fem återstår.
+verifiering. Fem av tolv rader är rättade och sparade, och tre är verifierade
+i Lokalise; fyra återstår.
 Arkivering och push sker efter varje ändring:
 Lokalise-tokenen saknar rättigheten `Upload files`.
