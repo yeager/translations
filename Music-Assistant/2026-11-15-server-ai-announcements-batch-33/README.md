@@ -27,6 +27,7 @@ meddelandevolym och övertoning mellan olika samplingsfrekvenser.
 
 ## Status
 
-Samtliga elva strängar verifierades i Lokalise 2026-11-15. De fanns redan som
-svenska upstream-översättningar och lämnades orörda. Arkivering och push pågår:
+En tidigare snabbkontroll var inte tillräcklig för att intyga radvis
+verifiering. Samtliga elva rader är därför markerade för omkontroll i Lokalise.
+Arkivering och push sker efter varje ändring:
 Lokalise-tokenen saknar rättigheten `Upload files`.
