@@ -57,6 +57,17 @@ Kontrollträffar i den här delen avser korrekta tekniska namn: `go2rtc`,
 Kontroller: `jq empty`, `l10n-lint`, käll- och tokenjämförelse,
 `git diff --check` och Gitleaks.
 
+## Batch 011
+
+Batchen omfattar återstående HTTP-, RTSP- och inspelningsförinställningar,
+granskningsetiketter och profilkolumner. Hosted Weblate accepterade samtliga
+21 strängar. Komponenten står därefter på 1 017 av 1 409 översatta strängar
+och 0 fuzzy.
+
+Den nya kontrollträffen är produktnamnet `Blue Iris`, som ska vara oförändrat.
+Kontroller: `jq empty`, `l10n-lint`, käll- och tokenjämförelse,
+`git diff --check` och Gitleaks.
+
 ## Batch 010
 
 Batchen omfattar FFmpeg-förinställningar, synkroniseringsloggning,
