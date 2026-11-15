@@ -24,8 +24,7 @@ musikkällas bibliotek och Music Assistant.
 
 ## Status
 
-En tidigare snabbkontroll var inte tillräcklig för att intyga radvis
-verifiering. Tre rader är nu verifierade och sju är manuellt sparade i Lokalise;
-en återstår.
-Arkivering och push sker efter varje ändring:
+Den radvisa granskningen är klar: tre rader är verifierade och åtta är
+manuellt sparade i Lokalise. Batchen är arkiverad och pushad till
+`yeager/translations`; detta är inte ett merge-besked för Music Assistant.
 Lokalise-tokenen saknar rättigheten `Upload files`.
