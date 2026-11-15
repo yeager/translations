@@ -3,8 +3,8 @@
 Datum: 2026-11-15  
 Upstream: [PR #199526](https://github.com/openclaw/openclaw/pull/199526)
 
-Nittionio delade poster i Control UI:s svenska översättningsminne har granskats
-och uppdaterats. De gäller minst 119 synliga positioner.
+Etthundrafemton delade poster i Control UI:s svenska översättningsminne har
+granskats och uppdaterats. De gäller minst 135 synliga positioner.
 
 | Segment | Engelska | Svenska |
 | --- | --- | --- |
@@ -104,11 +104,29 @@ och uppdaterats. De gäller minst 119 synliga positioner.
 | `templatesCatalog.reviewDescription` | plugins or skills | insticksprogram eller färdigheter |
 | `configHints.gateway.nodes.allowSkills` | Gateway Node Skills Enabled | Färdigheter för Gateway-noder aktiverade |
 | `skillsPage.empty` | No skills yet… | Inga färdigheter ännu… |
+| `desktop.accountPrompt` | System Settings → General → Sharing | Systeminställningar → Allmänt → Delning |
+| `desktop.hostScreenSharingSetupHint` | Screen Sharing / Remote Management | Skärmdelning / Fjärrhantering |
+| `systems.screenSharingSetupHint` | Screen Sharing / Remote Management | Skärmdelning / Fjärrhantering |
+| `configPage.deviceSettings.desktopSharingHint` | Screen Sharing | Skärmdelning |
+| `agentTools.githubAuthorName` | Commit author name | Författarens namn för incheckningen |
+| `agentTools.githubAuthorEmail` | Commit author email | Författarens e-postadress för incheckningen |
+| `configHints.wizard.lastRunCommit` | Wizard Last Run Commit | Incheckning för guidens senaste körning |
+| `appsPage.cards.plugins.title` | Plugins and ClawHub | Tillägg och ClawHub |
+| `updates.run.oracle.plugins` | Plugins | Tillägg |
+| `templatesDraft.pluginsHint` | Plugins this template needs to work. | Tillägg som den här mallen behöver för att fungera. |
+| `skillWorkshop.plugin.needsAdmin` | …from Plugins. | …under Tillägg. |
+| `pluginsPage.uiCapabilities.replacement.description` | Plugins → Advanced → Customize UI | Tillägg → Avancerat → Anpassa gränssnitt |
+| `configHints.plugins.entries.*.enabled` | Plugin Enabled | Tillägg aktiverat |
+| `cron.job.pluginCommand` | Plugin command | Tilläggskommando |
+| `skillWorkshop.plugin.failed` | Check Plugins for details. | Se Tillägg för mer information. |
+| `skillWorkshop.plugin.pluginsDisabled` | Plugins are turned off… | Tillägg är avstängda… |
 
 De delade segmenten omfattar bland annat appens stödlänk, inställningar för
 automatiskt läge, färdigheter i agenter, chatt och inställningar, den
 populära kategorin i tilläggskatalogen samt konsekvent användning av
-`tillägg` i dess synliga etiketter och meddelanden. De omfattar också beskrivningen av
+`tillägg` i dess synliga etiketter och meddelanden. De omfattar också svenska
+macOS-namn för Systeminställningar, Skärmdelning och Fjärrhantering, samt
+beskrivningen av
 ändringsverktyget, texten om heartbeat-övervakning och ordvalet för Git-
 incheckningar samt närvarolistan och frånkopplad-statusen. Källan och
 översättningen finns i `ui/src/i18n/.i18n/sv.tm.jsonl` i upstream-PR:n.
