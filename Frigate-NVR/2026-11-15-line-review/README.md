@@ -164,3 +164,8 @@ name* använder den redan etablerade termen *visningsnamn*.
 Sjätte läspasset av `views-settings`: 100 ytterligare strängar. Tre
 granskningstermer rättades så att de konsekvent avser *granskning* och
 *granskningsobjekt*.
+
+## Batch 021
+
+Sjunde läspasset av `views-settings`: 100 ytterligare strängar. Två
+förekomster av *friendly name* normaliserades till *visningsnamn*.
