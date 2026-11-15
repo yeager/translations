@@ -3,7 +3,7 @@
 Datum: 2026-11-15  
 Upstream: [PR #199526](https://github.com/openclaw/openclaw/pull/199526)
 
-Etthundratjugofyra delade poster i Control UI:s svenska översättningsminne har
+Etthundratjugofem delade poster i Control UI:s svenska översättningsminne har
 granskats och uppdaterats. De gäller minst 135 synliga positioner.
 
 | Segment | Engelska | Svenska |
@@ -129,6 +129,7 @@ granskats och uppdaterats. De gäller minst 135 synliga positioner.
 | `sessionsView.discardWorkspaceDeleteConfirm` | The device for “{session}” is offline… | Enheten för ”{session}” är frånkopplad… |
 | `connection.offlineChangesReloadBlocked` | Offline changes are waiting to reconnect… | Ändringar som gjordes utan anslutning väntar på återanslutning… |
 | `connection.offlineChangesDiscarded` | Offline changes discarded: {count} | Ändringar som gjordes utan anslutning har tagits bort: {count} |
+| `configHints.gateway…repositoryIntegration.help` | Plugin ID required… | Tilläggs-ID som krävs… |
 
 De delade segmenten omfattar bland annat appens stödlänk, inställningar för
 automatiskt läge, färdigheter i agenter, chatt och inställningar, den
