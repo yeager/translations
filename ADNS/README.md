@@ -5,7 +5,7 @@ Senast granskad: 15 november 2026
 | Komponent | Omfattning | Lokal status | Upstreamstatus |
 | --- | ---: | --- | --- |
 | `adns-xml-strings` | 432/432 | Radgranskad | 16 förslag mottagna av Weblate, väntar på granskning |
-| `nextdns-strings` | 200/774 | Batch 001–002 radgranskade | 4 förslag mottagna av Weblate, väntar på granskning |
+| `nextdns-strings` | 300/774 | Batch 001–003 radgranskade | 4 förslag mottagna av Weblate, väntar på granskning |
 
 ADNS v2.1.9 publicerades den 3 november 2026. Android-XML-komponenten har
 granskats mot den engelska källfilen i fem avgränsade batcher. Batch 001
