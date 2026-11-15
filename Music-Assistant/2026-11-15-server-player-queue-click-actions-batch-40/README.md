@@ -6,5 +6,5 @@ Tolv svenska UI-texter för inställningen som avgör om ett klick öppnar eller
 spelar ett album, en artist, en genre, en spellista, en radiostation eller ett
 spår.
 
-Status: lokalt granskad och arkiverad. Tio strängar sparades manuellt i Lokalise
-2026-11-15 och lästes tillbaka; två strängar återstår.
+Status: lokalt granskad och arkiverad. Elva strängar sparades manuellt i Lokalise
+2026-11-15 och lästes tillbaka; en sträng återstår.
