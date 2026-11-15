@@ -59,6 +59,12 @@ Thirteen changes are prepared in `nvidia-filters.delta.json`. They correct brand
 
 `TERMINOLOGY.md` records the decisions already applied to ASIO, VST3, virtual-camera, NVENC and NVIDIA Filters UI. It is the source of truth for remaining OBS component batches.
 
+## Reviewed batch 6 — pending upstream save
+
+Component: `Desktop Entry`
+
+Both strings are reviewed. `desktop-entry.delta.json` contains two word-order and UI-style corrections; the component's translation state is otherwise complete.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
