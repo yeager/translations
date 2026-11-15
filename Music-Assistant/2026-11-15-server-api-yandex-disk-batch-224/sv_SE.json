@@ -1,0 +1,21 @@
+{
+  "provider.fastmcp_server.config_entries.policy_token.options.Inherit": "Ärv",
+  "provider.fastmcp_server.config_entries.policy_token.options.Interactive admin": "Interaktiv administration",
+  "provider.fastmcp_server.config_entries.policy_token.options.Safe queries": "Säkra frågor",
+  "provider.fastmcp_server.config_entries.policy_token.options.Trusted": "Betrodd",
+  "provider.fastmcp_server.config_entries.policy_token_suffixes.description": "Interna, icke återställningsbara referenser som gör policyer per token tillgängliga efter omstart. Bearer-token och token-ID:n lagras aldrig här.",
+  "provider.fastmcp_server.config_entries.policy_token_suffixes.label": "Sparade referenser till tokenpolicyer",
+  "provider.filesystem_yandex_disk.config_entries.client_id.description": "Skapa en egen app på https://oauth.yandex.ru/: välj ”Skapa app”, välj ”För API-åtkomst eller felsökning” och lägg under ”Dataåtkomst” till behörigheten cloud_api:disk.read. Kopiera sedan appens klient-ID hit.",
+  "provider.filesystem_yandex_disk.config_entries.client_id.label": "Yandex OAuth-klient-ID",
+  "provider.filesystem_yandex_disk.config_entries.client_secret.description": "Klienthemligheten som visas på samma sida för Yandex OAuth-appen som klient-ID:t. Lämna fältet tomt vid ny inställning för att behålla den sparade hemligheten.",
+  "provider.filesystem_yandex_disk.config_entries.client_secret.label": "Yandex OAuth-klienthemlighet",
+  "provider.filesystem_yandex_disk.config_entries.folder_id.description": "Yandex Disk-sökvägen som ska genomsökas, till exempel disk:/Music. Låt värdet vara ”root” för att genomsöka hela disken.",
+  "provider.filesystem_yandex_disk.config_entries.folder_id.label": "Rotmapp att genomsöka",
+  "provider.filesystem_yandex_disk.errors.connection_error": "Det gick inte att kontakta Yandex OAuth. Kontrollera anslutningen och försök igen.",
+  "provider.filesystem_yandex_disk.errors.oauth_error": "Yandex avvisade OAuth-begäran. Kontrollera klient-ID, klienthemlighet och appbehörigheter.",
+  "provider.filesystem_yandex_disk.setup_flow.abort.login_denied": "Yandex avvisade auktoriseringsbegäran.",
+  "provider.filesystem_yandex_disk.setup_flow.device_login.description": "Din kod:\n\n**`{0}`**\n\nAnvänd knappen nedan för att öppna Yandex verifieringssida, ange koden och tillåt skrivskyddad åtkomst till Yandex Disk. Du kan också öppna sidan på en annan enhet. En ny kod visas automatiskt om den här går ut, och skärmen uppdateras när du har bekräftat.",
+  "provider.filesystem_yandex_disk.setup_flow.device_login.title": "Auktorisera Yandex Disk",
+  "provider.filesystem_yandex_disk.setup_flow.user.description": "Ange uppgifterna för din egen Yandex OAuth-app, välj innehållstyp och begränsa vid behov genomsökningen till en mapp.",
+  "provider.filesystem_yandex_disk.setup_flow.user.title": "Anslut Yandex Disk"
+}
