@@ -1,0 +1,24 @@
+{
+  "project": "OBS Studio",
+  "platform": "Crowdin",
+  "locale": "sv-SE",
+  "component": "App/Frontend",
+  "reviewed_at": "2026-11-15",
+  "reviewed_strings": 180,
+  "source_snapshot_note": "Newer source keys missing only from the local Swedish snapshot are excluded from this delta.",
+  "changes": [
+    {"key":"Basic.Settings.Output.Adv.Streaming.Settings","before":"Ströminställningar","after":"Strömningsinställningar","reason":"Use the established activity term for Streaming Settings."},
+    {"key":"Basic.Settings.Output.Adv.FFmpeg.CustomModeWarning","before":"Anpassad utmatning (FFmpeg) tillhandahålls utan skydd.\\nÖverväg att använda inspelningstypen \"Standard\".","after":"Anpassad utmatning (FFmpeg) tillhandahålls utan skyddsmekanismer.\\nÖverväg att använda inspelningstypen \"Standard\".","reason":"Restore the safeguards meaning while preserving the line break and recording-type label."},
+    {"key":"Basic.Settings.Output.Adv.FFmpeg.SavePathURL","before":"Sökväg eller webbadress","after":"Filsökväg eller webbadress","reason":"Retain the source's file-path distinction."},
+    {"key":"Screenshot.SourceHotkey","before":"Vald källa för skärmdump","after":"Spara skärmdump av vald källa","reason":"Restore the source action and natural Swedish word order."},
+    {"key":"Screenshot.StudioProgram","before":"Skärmdump (program)","after":"Spara skärmdump av programmet","reason":"Restore the source action."},
+    {"key":"Screenshot.Preview","before":"Skärmdump (förhandsvisning)","after":"Spara skärmdump av förhandsvisningen","reason":"Restore the source action."},
+    {"key":"Screenshot.Scene","before":"Skärmdump (scen)","after":"Spara skärmdump av scenen","reason":"Restore the source action."},
+    {"key":"Screenshot.Source","before":"Skärmdump (källa)","after":"Spara skärmdump av källan","reason":"Restore the source action."},
+    {"key":"Basic.Settings.Video.CurrentlyActive","before":"Videoutmatning är aktiv. Stoppa alla utmatningar för att kunna ändra videoinställningar.","after":"Videoutmatningen är aktiv. Stoppa alla utmatningar för att kunna ändra videoinställningarna.","reason":"Use the definite form in the status message and its referenced settings."},
+    {"key":"Basic.Settings.Video.DownscaleFilter.Bilinear","before":"Bilinjär (snabbast, men blir suddigt det skalas)","after":"Bilinjär (snabbast, men suddig vid skalning)","reason":"Repair the broken Swedish condition."},
+    {"key":"Basic.Settings.Video.DownscaleFilter.Area","before":"Area (viktad summa, 4/6/9 samplingar)","after":"Område (viktad summa, 4/6/9 samplingar)","reason":"Translate the exposed filter label."},
+    {"key":"Basic.Settings.Audio.MeterDecayRate","before":"Sänkningshastighet","after":"Avklingningshastighet","reason":"Use the established audio-meter term for decay rate."},
+    {"key":"Basic.Settings.Audio.PeakMeterType","before":"Typ av maxpunktsmätare","after":"Typ av toppnivåmätare","reason":"Use a natural Swedish audio-meter term for peak meter."}
+  ]
+}

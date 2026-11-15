@@ -133,6 +133,12 @@ Component: `Frontend` (general, streaming and output settings; keys 721–900 in
 
 The next 180 local English source keys were compared one by one with Swedish. `frontend-general-stream-settings.delta.json` contains 25 corrections for general preferences, snapping, system-tray wording, multiview layouts, stream settings and fragmented-recording tooltips. Placeholders, markup, line breaks and menu paths are retained.
 
+## Reviewed batch 18 — pending upstream save
+
+Component: `Frontend` (output, video and audio settings; keys 901–1080 in local source order)
+
+The next 180 local English source keys were compared one by one with Swedish. `frontend-output-video-audio.delta.json` contains 13 corrections for FFmpeg wording, screenshots, video settings and audio-meter terminology. Existing prepared changes for the same output settings are not duplicated.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.

@@ -47,6 +47,8 @@ Updated: 2026-11-15.
 | snapping | fästning | Use `fästning` in settings labels and `fäst` in action text. |
 | System Tray | systemfält | Use consistently in all related settings. |
 | Config Override | konfigurationsåsidosättning | JSON configuration setting. |
+| decay rate | avklingningshastighet | Audio-meter setting. |
+| peak meter | toppnivåmätare | Audio-meter setting. |
 
 ## Style decisions
 
