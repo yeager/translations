@@ -179,6 +179,8 @@ The archive now contains 315 prepared corrections across all reviewed OBS compon
 
 2026-11-16: reviewed page 4 of the live `App/Core` component line by line in Crowdin (200 of 1,428 strings). Most applicable corrections were already present in `frontend-general-stream-settings.delta.json` and `frontend-properties-transform-menu.delta.json`; 3 additional corrections are in `core-page-04.delta.json`. None has been saved upstream.
 
+2026-11-16: reviewed page 5 of the live `App/Core` component line by line in Crowdin (250 of 1,428 strings). All identified wording, terminology and grammar corrections were already recorded in `frontend-general-stream-settings.delta.json`, `frontend-output-audio.delta.json`, `frontend-output-settings.delta.json` and `frontend-output-video-audio.delta.json`; no duplicate delta was created. None has been saved upstream.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
@@ -192,5 +194,5 @@ Crowdin currently lists 100%-translated Swedish components with widely varying a
 - svlang: the installed CLI only accepts plain text through `svlang check`; it has no INI parser. The translations were reviewed in their source/UI context instead.
 - Hunspell was intentionally not run, following the current CPU constraint.
 - Gitleaks: passed for the archive payload.
-- Final delta audit: all 286 proposed changes pass JSON parsing plus placeholder, markup and escaped-line-break parity checks; `git diff --check` and Gitleaks pass.
+- Final delta audit: all 315 proposed changes pass JSON parsing plus placeholder, markup and escaped-line-break parity checks; `git diff --check` and Gitleaks pass.
 - svlang: run on the combined delta text. Its aggregate score and 74 warnings are false positives caused by concatenated UI fragments, code/format tokens, product names and markup; each delta remains reviewed in source context. It has no INI parser.
