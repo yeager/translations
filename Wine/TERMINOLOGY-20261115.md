@@ -49,3 +49,6 @@
 | Standard/Daylight Time | normaltid/sommartid | Windows tidszonsnamn |
 | page setup | sidinställningar | Anteckningar |
 | printer setup | skrivarinställningar | Anteckningar |
+| Expected | förväntades | VBScript-syntaxfel; behåll kodnyckelord på engelska |
+| statement | sats | VBScript-syntaxfel |
+| integer constant | heltalskonstant | VBScript-syntaxfel |
