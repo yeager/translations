@@ -161,7 +161,7 @@ The final 19 local English source keys were compared one by one with Swedish. `f
 
 All 1,459 keys in the local English frontend snapshot were compared line by line. This proves the scope of the local snapshot only: it has 1,382 Swedish keys, while Crowdin contains newer Swedish keys and remains the authoritative upstream catalog. The archived delta files must be applied to current Crowdin strings individually or by an API flow that can list and verify the target translations; the raw local snapshot must not be uploaded wholesale.
 
-The archive now contains 340 prepared corrections across all reviewed OBS components. None has been saved to Crowdin in this work session.
+The archive now contains 342 prepared corrections across all reviewed OBS components. None has been saved to Crowdin in this work session.
 
 2026-11-16: reviewed the live `Stores/Steam/Store Page` component line by line in Crowdin (23 strings). Prepared 9 context-checked corrections in `store-steam.delta.json`; none has been saved upstream.
 
@@ -187,6 +187,8 @@ The archive now contains 340 prepared corrections across all reviewed OBS compon
 
 2026-11-16: reviewed page 8 of the live `App/Core` component line by line in Crowdin (400 of 1,428 strings). Existing corrections in `frontend-advanced-audio-hotkeys.delta.json` and `frontend-youtube-plugins.delta.json` cover output warnings, Browser Source, about text, importer labels and YouTube authorization. `core-page-08.delta.json` adds 16 distinct corrections for numeric-keypad labels, monitorering, the empty-sources guidance and a channel-information error. None has been saved upstream.
 
+2026-11-16: reviewed page 9 of the live `App/Core` component line by line in Crowdin (450 of 1,428 strings). Existing corrections in `frontend-phrasing.delta.json`, `frontend-system-messages.delta.json`, `frontend-youtube-plugins.delta.json` and `frontend-advanced-audio-hotkeys.delta.json` cover YouTube, multitrack-video, plugin-manager and streaming-error wording. `core-page-09.delta.json` adds 2 distinct encoder-configuration corrections. None has been saved upstream.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
@@ -200,5 +202,5 @@ Crowdin currently lists 100%-translated Swedish components with widely varying a
 - svlang: the installed CLI only accepts plain text through `svlang check`; it has no INI parser. The translations were reviewed in their source/UI context instead.
 - Hunspell was intentionally not run, following the current CPU constraint.
 - Gitleaks: passed for the archive payload.
-- Final delta audit: all 340 proposed changes pass JSON parsing plus placeholder, markup and escaped-line-break parity checks; `git diff --check` and Gitleaks pass.
+- Final delta audit: all 342 proposed changes pass JSON parsing plus placeholder, markup and escaped-line-break parity checks; `git diff --check` and Gitleaks pass.
 - svlang: run on the combined delta text. Its aggregate score and 74 warnings are false positives caused by concatenated UI fragments, code/format tokens, product names and markup; each delta remains reviewed in source context. It has no INI parser.
