@@ -42,3 +42,7 @@
 | Quick Edit mode | snabbredigeringsläge | Konsolvärd |
 | Insert mode | infogningsläge | Konsolvärd |
 | line number | radnummer | Anteckningar |
+| overflow | spill | VBScript-körfel |
+| array | matris | VBScript-körfel |
+| type mismatch | typkonflikt | VBScript-körfel |
+| permission denied | åtkomst nekad | VBScript-körfel |
