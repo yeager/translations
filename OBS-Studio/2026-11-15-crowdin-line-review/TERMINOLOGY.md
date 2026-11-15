@@ -49,6 +49,8 @@ Updated: 2026-11-15.
 | Config Override | konfigurationsåsidosättning | JSON configuration setting. |
 | decay rate | avklingningshastighet | Audio-meter setting. |
 | peak meter | toppnivåmätare | Audio-meter setting. |
+| TCP pacing | TCP-taktning | Network option. |
+| audio monitoring | ljudmonitorering | OBS generic audio UI; retain `ASIO-monitorering` in the ASIO context. |
 
 ## Style decisions
 

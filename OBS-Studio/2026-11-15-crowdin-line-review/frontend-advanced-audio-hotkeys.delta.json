@@ -1,0 +1,27 @@
+{
+  "project": "OBS Studio",
+  "platform": "Crowdin",
+  "locale": "sv-SE",
+  "component": "App/Frontend",
+  "reviewed_at": "2026-11-15",
+  "reviewed_strings": 180,
+  "source_snapshot_note": "Newer source keys missing only from the local Swedish snapshot are excluded from this delta.",
+  "changes": [
+    {"key":"Basic.Settings.Advanced.FormatWarning","before":"Varning: Andra färgformat än NV12/P010 är avsedda för inspelning och rekommenderas inte för att strömma. Högre processoranvändning kan uppstå vid strömning p.g.a. konvertering av färgformat.","after":"Varning: Andra färgformat än NV12/P010 är främst avsedda för inspelning och rekommenderas inte vid strömning. Strömning kan medföra högre processoranvändning på grund av konvertering av färgformat.","reason":"Restore the primarily-intended qualification and use natural Swedish."},
+    {"key":"Basic.Settings.Advanced.StreamDelay","before":"Strömfördröjning","after":"Strömningsfördröjning","reason":"Use the established activity term for Stream Delay."},
+    {"key":"Basic.Settings.Advanced.StreamDelay.Preserve","before":"Behåll stoppunkten (öka fördröjningen) vid återanslutning","after":"Behåll brytpunkten (öka fördröjningen) vid återanslutning","reason":"Use the source meaning cutoff point, not stopping point."},
+    {"key":"Basic.Settings.Advanced.Network.BindToIP","before":"Bind till IP","after":"Bind OBS till IP-adress","reason":"Restore the application subject and the full network-address term."},
+    {"key":"Basic.Settings.Advanced.Network.EnableLowLatencyMode","before":"Använd TCP-hastighet","after":"Aktivera TCP-taktning","reason":"Translate TCP pacing rather than speed."},
+    {"key":"Basic.Settings.Advanced.Network.TCPPacing.Tooltip","before":"Försöker göra RTMP-utmatning vänligare mot andra latenskänsliga applikationer i nätverket genom att reglera överföringshastigheten.\\nDet kan öka risken för tappade ramar på instabila anslutningar.","after":"Försöker göra RTMP-utmatningen mer skonsam mot andra program i nätverket som är känsliga för fördröjning, genom att reglera överföringshastigheten.\\nDet kan öka risken för förlorade bildrutor vid instabila anslutningar.","reason":"Use idiomatic Swedish and the established dropped-frames term while retaining the line break."},
+    {"key":"Basic.AudioMixer.Layout.Horizontal","before":"Horisontal layout","after":"Horisontell layout","reason":"Use the correct Swedish adjective."},
+    {"key":"Basic.AdvAudio.Monitoring","before":"Ljudövervakning","after":"Ljudmonitorering","reason":"Use the established OBS audio term consistently."},
+    {"key":"Basic.AdvAudio.Monitoring.None","before":"Monitor av","after":"Ingen monitorering","reason":"Use a natural Swedish off-state label."},
+    {"key":"Basic.AdvAudio.Monitoring.MonitorOnly","before":"Endast monitor (tysta utgång)","after":"Endast monitorering (tysta utmatning)","reason":"Use consistent audio terminology and the established output term."},
+    {"key":"Basic.AdvAudio.Monitoring.Both","before":"Övervakning aktiverad","after":"Monitorering aktiverad","reason":"Use the established OBS audio term consistently."},
+    {"key":"Basic.AdvAudio.MonitoringSource","before":"Ljudövervakning för \"%1\"","after":"Ljudmonitorering för \"%1\"","reason":"Use the established OBS audio term and retain %1."},
+    {"key":"Basic.Settings.Hotkeys.Pair","before":"Tangentkombinationer som delas med \"%1\" fungerar som strömbrytare","after":"Tangentkombinationer som delas med \"%1\" fungerar som växlare","reason":"A hotkey toggle is a switch action, not a physical power switch; retain %1."},
+    {"key":"Basic.SystemTray.Message.Reconnecting","before":"Frånkopplad. Ansluter igen...","after":"Frånkopplad. Återansluter...","reason":"Use the established reconnection status term."},
+    {"key":"OutputWarnings.MP4Recording","before":"Varning: Inspelningar som sparas i MP4/MOV kommer inte kunna återhämtas om filen inte slutförs (t.ex. p.g.a. blåskärmar, strömavbrott, etc.). Om du vill spela in flera ljudspår, överväg att använda MKV och remuxa inspelningen till MP4/MOV när den är färdig (Arkiv → Remuxa inspelningar)","after":"Varning: Inspelningar som sparas i MP4/MOV kan inte återställas om filen inte kan slutföras, till exempel på grund av blåskärm eller strömavbrott. Om du vill spela in flera ljudspår bör du överväga att använda MKV och remuxa inspelningen till MP4/MOV när den är klar (Arkiv → Remuxa inspelningar).","reason":"Use natural Swedish and retain the unrecoverable-file warning and menu path."},
+    {"key":"OutputWarnings.CodecIncompatible","before":"Vald ljud- eller videoenkodare var återställd då den var inkompatibel. Vänligen välj en kompatibel enkodare från listan.","after":"Det valda ljud- eller videokodarvalet återställdes på grund av inkompatibilitet. Välj en kompatibel kodare från listan.","reason":"Correct grammar and use the established Swedish encoder term."}
+  ]
+}
