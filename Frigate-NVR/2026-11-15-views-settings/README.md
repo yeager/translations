@@ -91,6 +91,15 @@ strängar. Komponenten står därefter på 1 137 av 1 409 översatta strängar o
 
 Kontroller: `jq empty`, `l10n-lint`, `git diff --check` och Gitleaks.
 
+## Batch 020
+
+Batchen omfattar PTZ-förinställningar, standardroller, go2rtc-källor,
+ONVIF-autospårning och synlighet i Live/granskning. Hosted Weblate accepterade
+samtliga 11 strängar. Komponenten står därefter på 1 185 av 1 409 översatta
+strängar och 0 fuzzy.
+
+Kontroller: `jq empty`, `l10n-lint`, `git diff --check` och Gitleaks.
+
 ## Batch 019
 
 Batchen omfattar återstående kloningskategorier och resultatmeddelanden.
