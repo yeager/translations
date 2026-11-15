@@ -3,8 +3,8 @@
 Datum: 2026-11-15  
 Upstream: [PR #199526](https://github.com/openclaw/openclaw/pull/199526)
 
-Nittiosex delade poster i Control UI:s svenska översättningsminne har granskats
-och uppdaterats. De gäller minst 116 synliga positioner.
+Nittionio delade poster i Control UI:s svenska översättningsminne har granskats
+och uppdaterats. De gäller minst 119 synliga positioner.
 
 | Segment | Engelska | Svenska |
 | --- | --- | --- |
@@ -101,6 +101,9 @@ och uppdaterats. De gäller minst 116 synliga positioner.
 | `pluginsPage.detailSourceCommit` | Source commit | Källkodsincheckning |
 | `updates.page.controlUiCommit` | Web app commit | Webbappens incheckning |
 | `newSession.worktreeBranchesUnavailable` | …branch or commit | …gren eller incheckning |
+| `templatesCatalog.reviewDescription` | plugins or skills | insticksprogram eller färdigheter |
+| `configHints.gateway.nodes.allowSkills` | Gateway Node Skills Enabled | Färdigheter för Gateway-noder aktiverade |
+| `skillsPage.empty` | No skills yet… | Inga färdigheter ännu… |
 
 De delade segmenten omfattar bland annat appens stödlänk, inställningar för
 automatiskt läge, färdigheter i agenter, chatt och inställningar, den
