@@ -1,0 +1,37 @@
+{
+  "wizard": {
+    "step3": {
+      "refreshExamples": "Generera nya exempel",
+      "refreshConfirm": {
+        "title": "Generera nya exempel?",
+        "description": "Detta genererar en ny uppsättning bilder och rensar alla val, inklusive tidigare klasser. Du måste välja exempel igen för alla klasser."
+      }
+    }
+  },
+  "toast": {
+    "success": {
+      "reclassifiedImage": "Bilden har omklassificerats"
+    },
+    "error": {
+      "reclassifyFailed": "Det gick inte att omklassificera bilden: {{errorMessage}}"
+    }
+  },
+  "reclassifyImageAs": "Omklassificera bild som:",
+  "reclassifyImage": "Omklassificera bild",
+  "disabled": "Inaktiverad",
+  "edit": {
+    "enabled": "Aktiverad",
+    "enabledDesc": "Kör den här modellen. När den inaktiveras slutar den köras och klassificerar inte längre.",
+    "saveAttempts": "Spara klassificeringsförsök",
+    "saveAttemptsDesc": "Antal bilder från klassificeringsförsök att behålla i gränssnittet för senaste klassificeringar.",
+    "motion": "Kör vid rörelse",
+    "motionDesc": "Kör klassificering när rörelse upptäcks inom den konfigurerade beskärningen.",
+    "interval": "Intervall",
+    "intervalDesc": "Sekunder mellan periodiska klassificeringskörningar. Lämna tomt om den endast ska köras vid rörelse.",
+    "intervalPlaceholder": "Inget intervall",
+    "errors": {
+      "saveAttemptsInvalid": "Antalet sparade försök måste vara ett heltal som är 0 eller större",
+      "intervalInvalid": "Intervallet måste vara ett heltal större än 0"
+    }
+  }
+}
