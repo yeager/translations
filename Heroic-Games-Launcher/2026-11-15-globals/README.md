@@ -33,3 +33,20 @@ Kontroller: `jq empty`, `l10n-lint`, `git diff --check` och `gitleaks detect --n
 - Omfattning: 43 saknade strängar för stödvyn, donationsformer, Steam-molnsparning och återställning vid fel.
 - Status: uppladdad och återläst 2026-11-15. Weblate rapporterar 1 016 översatta strängar, 0 fuzzy-strängar och 1 096 totalt.
 - Särskilt kontrollerat: båda svenska pluralformerna, `{{game}}`, `{{files}}` och `{{details}}`, samt bevarande av Steam, GOG, GitHub, Ko-fi, Patreon och PayPal.
+
+## Batch 006
+
+- Omfattning: 63 saknade strängar för Steam Cloud, Steam-startmål, konsolläge, bildcache och hämtningsgränser.
+- Status: uppladdad och återläst 2026-11-15.
+- Särskilt kontrollerat: samtliga svenska pluralformer och platshållarna `{{count}}`, `{{size}}`, `{{when}}`, `{{game}}`, `{{files}}` och `{{details}}`.
+
+## Batch 007
+
+- Omfattning: 17 saknade strängar för butiksväljare, inloggning och genvägar.
+- Status: uppladdad och återläst 2026-11-15.
+
+## Slutkontroll och korrigeringar
+
+- Efter full återläsning: 1 096/1 096 översatta ord och strängar, 0 tomma strängar samt 0 fuzzy-strängar.
+- Tre verkliga befintliga fel rättades direkt via Weblate API: en kvarlämnad engelsk Steam-feltext, felaktigt översatt *Steam runtime* och den engelska sektionsrubriken *Tools*.
+- 45 kvarvarande Weblate-kontroller granskades rad för rad. De är avsiktliga undantag: svensk interpunktion/versalisering eller korrekt bevarade produkt-, protokoll- och tekniknamn (bland annat Steam, Wine, Epic Games, DXVK, VKD3D, MangoHUD, CPU, GPU, EXE, API, DRM, HDR, GOG, URL-liknande text samt markeringen `{{…}}`). Inga fler materiella fel hittades.
