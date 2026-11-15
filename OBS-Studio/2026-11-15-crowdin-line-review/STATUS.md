@@ -30,6 +30,15 @@ Two strings were reviewed in their Crowdin component. No source or Swedish value
 
 `ASIO-monitorering`, `ASIO-utmatning`, `ASIO-ingång`, `samplingsfrekvens` and `värdprogram` are retained as established audio-software wording. The driver-reload instruction deliberately retains the full operational caveat from the source rather than shortening it.
 
+## Reviewed batch 3 — pending upstream save
+
+| Component | Reviewed strings | Result |
+| --- | ---: | --- |
+| `Jack` | 3 | Two wording corrections prepared in `jack.delta.json`; one translation is already correct. |
+| `Mac Virtualcam` | 10 | Four idiomatic Swedish corrections prepared in `mac-virtualcam.delta.json`; six translations are correct. |
+
+The pending deltas have not been saved to Crowdin. Raw Crowdin exports remain unchanged.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
