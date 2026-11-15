@@ -79,6 +79,7 @@ Efterföljande arbete finns i
 [`../2026-11-15/core-helty-cloud-sensors-batch-58.md`](../2026-11-15/core-helty-cloud-sensors-batch-58.md).
 [`../2026-11-15/core-ecosmart-price-forecast-batch-59.md`](../2026-11-15/core-ecosmart-price-forecast-batch-59.md).
 [`../2026-11-15/core-lametric-repeat-batch-60.md`](../2026-11-15/core-lametric-repeat-batch-60.md).
+[`../2026-11-15/core-alarmdecoder-connection-batch-61.md`](../2026-11-15/core-alarmdecoder-connection-batch-61.md).
 Totalt omfattar dagens arkiverade arbete därmed 177 direkt sparade och
 återlästa strängar.
 
