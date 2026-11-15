@@ -1,0 +1,62 @@
+{
+  "genai": {
+    "label": "Konfiguration av generativ AI",
+    "description": "Inställningar för integrerade leverantörer av generativ AI som används för att skapa objektbeskrivningar och granskningssammanfattningar.",
+    "api_key": {
+      "label": "API-nyckel",
+      "description": "API-nyckel som krävs av vissa leverantörer (kan även anges med miljövariabler)."
+    },
+    "base_url": {
+      "label": "Bas-URL",
+      "description": "Bas-URL för självhostade eller kompatibla leverantörer (till exempel en Ollama-instans)."
+    },
+    "model": {
+      "label": "Modell",
+      "description": "Modellen från leverantören som ska användas för att skapa beskrivningar eller sammanfattningar."
+    },
+    "provider": {
+      "label": "Leverantör",
+      "description": "GenAI-leverantör som ska användas (till exempel ollama, gemini, openai)."
+    },
+    "roles": {
+      "label": "Roller",
+      "description": "GenAI-roller (chat, descriptions, embeddings, transcribe); en leverantör per roll. Endast chat, descriptions och embeddings beviljas som standard; transcribe måste anges uttryckligen."
+    },
+    "provider_options": {
+      "label": "Leverantörsalternativ",
+      "description": "Ytterligare leverantörsspecifika alternativ som ska skickas till GenAI-klienten."
+    },
+    "runtime_options": {
+      "label": "Körningsalternativ",
+      "description": "Körningsalternativ som skickas till leverantören för varje inferensanrop."
+    }
+  },
+  "audio": {
+    "description": "Inställningar för ljudbaserad händelsedetektering för alla kameror; kan åsidosättas per kamera.",
+    "enabled": {
+      "description": "Aktivera eller inaktivera ljudbaserad händelsedetektering för alla kameror; kan åsidosättas per kamera."
+    }
+  },
+  "birdseye": {
+    "restream": {
+      "label": "Återströmma RTSP",
+      "description": "Återströmma Birdseye-utdata som ett RTSP-flöde; om detta aktiveras körs Birdseye kontinuerligt."
+    },
+    "width": {
+      "label": "Bredd",
+      "description": "Utdatabredd i bildpunkter för den sammansatta Birdseye-bildrutan."
+    },
+    "height": {
+      "label": "Höjd",
+      "description": "Utdatahöjd i bildpunkter för den sammansatta Birdseye-bildrutan."
+    },
+    "quality": {
+      "label": "Kodningskvalitet",
+      "description": "Kodningskvalitet för Birdseyes mpeg1-flöde (1 är högst kvalitet, 31 lägst)."
+    },
+    "inactivity_threshold": {
+      "label": "Tröskel för inaktivitet",
+      "description": "Sekunder av inaktivitet innan en kamera slutar visas i Birdseye."
+    }
+  }
+}
