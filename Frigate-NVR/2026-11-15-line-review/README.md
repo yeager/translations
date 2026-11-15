@@ -57,3 +57,12 @@ Radgranskad komponent: `views-facelibrary` (64). Tre rättningar behövdes:
 - Framgångsmeddelandet uttrycker nu resultatet, *Ansiktet har fått namnet
   {{name}}*, i stället för den missvisande reflexiva formuleringen att
   ansiktet självt bytt namn.
+
+## Batch 006
+
+Radgranskad komponent: `components-filter` (74). Två rättningar behövdes:
+
+- `Filter` används som flik, knappetikett och rubrik. Svenskan ska därför vara
+  substantivet *Filter*, inte uppmaningen *Filtrera*.
+- Filtergruppen för ögonblicksbild och videoklipp avser egenskaper och heter
+  därför *Egenskaper*, inte det otydliga *Detaljer*.
