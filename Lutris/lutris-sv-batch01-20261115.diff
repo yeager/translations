@@ -1,7 +1,43 @@
 diff --git a/po/sv.po b/po/sv.po
-index 6836dc7..e56e730 100644
+index 6836dc7..9e4fc49 100644
 --- a/po/sv.po
 +++ b/po/sv.po
+@@ -98,7 +98,7 @@ msgid ""
+ "A new filter button on the search box can build many of these fancy tags for "
+ "you"
+ msgstr ""
+-"En ny filterknapp i sökrutan kan skapa många av dessa snygga taggar åt dig"
++"En ny filterknapp i sökrutan kan skapa många av dessa avancerade sökvillkor åt dig"
+ 
+ #: share/metainfo/net.lutris.Lutris.metainfo.xml:41
+ msgid ""
+@@ -217,7 +217,7 @@ msgid ""
+ "Torturous and sadistic options for multi-GPUs that were half broken and "
+ "understood by no one have been replaced by a simple GPU selector."
+ msgstr ""
+-"Tortyriska och sadistiska alternativ för multi-GPU:er som var halvt trasiga "
++"Krångliga och sadistiska alternativ för flera GPU:er som var halvt trasiga "
+ "och som ingen förstod har ersatts av en enkel GPU-väljare."
+ 
+ #: share/metainfo/net.lutris.Lutris.metainfo.xml:68
+@@ -322,7 +322,7 @@ msgid ""
+ "Fix some crashes happening when using Wayland and a high DPI gaming mouse"
+ msgstr ""
+ "Åtgärda några krascher som inträffar när du använder Wayland och en "
+-"gamingmus med hög DPI"
++"spelmus med hög DPI"
+ 
+ #: share/metainfo/net.lutris.Lutris.metainfo.xml:100
+ msgid "Fix crash when opening the system preferences tab for a game"
+@@ -342,7 +342,7 @@ msgstr "Åtgärda att Lutris inte utökar \"~\" i sökvägar"
+ 
+ #: share/metainfo/net.lutris.Lutris.metainfo.xml:103
+ msgid "Download runtime components from the main window,"
+-msgstr "Hämta körmiljökomponenter från huvudfönstret;"
++msgstr "Hämta körmiljökomponenter från huvudfönstret,"
+ 
+ #: share/metainfo/net.lutris.Lutris.metainfo.xml:104
+ msgid ""
 @@ -556,18 +556,18 @@ msgid ""
  "You should have received a copy of the GNU General Public License\n"
  "along with this program.  If not, see <http://www.gnu.org/licenses/>.\n"
@@ -30,6 +66,71 @@ index 6836dc7..e56e730 100644
  
  #: share/lutris/ui/about-dialog.ui:34 lutris/settings.py:17
  msgid "The Lutris team"
+@@ -697,7 +697,7 @@ msgstr "Senast spelat"
+ 
+ #: share/lutris/ui/lutris-window.ui:603 lutris/gui/views/list.py:72
+ msgid "Installed At"
+-msgstr "Installerat"
++msgstr "Installationsdatum"
+ 
+ #: share/lutris/ui/lutris-window.ui:618 lutris/gui/views/list.py:71
+ msgid "Play Time"
+@@ -994,8 +994,8 @@ msgstr ""
+ #: lutris/game.py:556
+ msgid "Unable to find Antimicrox, install it or disable the Antimicrox option"
+ msgstr ""
+-"Det går inte att hitta Antimicrox, installera det eller inaktivera "
+-"alternativet Antimicrox"
++"Antimicrox kunde inte hittas. Installera det eller inaktivera "
++"Antimicrox-alternativet."
+ 
+ #: lutris/game.py:593
+ #, python-format
+@@ -1017,7 +1017,7 @@ msgid ""
+ "\n"
+ "%s"
+ msgstr ""
+-"<b>Fel: Saknar delat bibliotek.</b>\n"
++"<b>Fel: Ett delat bibliotek saknas.</b>\n"
+ "\n"
+ "%s"
+ 
+@@ -1169,7 +1169,7 @@ msgstr "Förinställning för installationsprogram:"
+ 
+ #: lutris/gui/addgameswindow.py:317
+ msgid "Windows 11 64-bit"
+-msgstr "Windows 11 (64-bitars)"
++msgstr "Windows 11 64-bitars"
+ 
+ #: lutris/gui/addgameswindow.py:318
+ msgid "Windows 10 64-bit (Default)"
+@@ -1234,13 +1234,13 @@ msgid ""
+ "When you click 'Install' below, the installer window will appear and load "
+ "the script, and it will guide the process from there."
+ msgstr ""
+-"Lutris installationsskript är YAML-filer som guidar Lutris genom "
++"Lutris-installationsskript är YAML-filer som vägleder Lutris genom "
+ "installationsprocessen.\n"
+ "\n"
+-"De kan erhållas på Lutris.net eller skrivas för hand.\n"
++"De finns på Lutris.net eller kan skrivas för hand.\n"
+ "\n"
+-"När du klickar på \"Installera\" nedan kommer installationsfönstret att "
+-"visas och ladda skriptet, och det kommer att styra processen därifrån."
++"När du klickar på ”Installera” nedan öppnas installationsfönstret, läser in "
++"skriptet och vägleder dig genom processen."
+ 
+ #: lutris/gui/addgameswindow.py:441
+ msgid "<b>Select a Lutris installer</b>"
+@@ -1275,7 +1275,7 @@ msgid ""
+ "When you click 'Install' below, the process of installing the games will "
+ "begin."
+ msgstr ""
+-"Lutris identifierar ROM:er via sin MD5-hash och hämtar spelinformation från "
++"Lutris identifierar ROM-filer via sin MD5-hash och hämtar spelinformation från "
+ "Lutris.net.\n"
+ "\n"
+ "ROM-data som används för detta kommer från TOSEC-, No-Intro- och Redump-"
 @@ -1487,9 +1487,9 @@ msgid ""
  "and store information to the lutris website so you can \n"
  "sync this data on multiple devices</i>"
