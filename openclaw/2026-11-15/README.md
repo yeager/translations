@@ -44,8 +44,8 @@ Control UI:s översättningsminne. Den ersätter de gemensamma etiketterna
 och Populära. Den förbättrar också formuleringar för ändringar och
 heartbeat-övervakning och gör Git-terminologin konsekvent med den befintliga
 svenska termen incheckning. Batchen omfattar nu även närvarolistan
-`Online` → Anslutna och statusen `Offline` → Frånkopplad. Etthundratrettiotre
-delade poster används på minst 167 ställen i webbgränssnittet. Där skiljs också
+`Online` → Anslutna och statusen `Offline` → Frånkopplad. Etthundrafyrtioett
+delade poster används på minst 175 ställen i webbgränssnittet. Där skiljs också
 inläsning av vyer och resurser från nedladdning av filer. I samma batch
 normaliseras fjorton synliga förekomster av GitHub-termen pull request till
 pull-begäran. Upstream-PR
@@ -61,6 +61,8 @@ Synlig hjälptext använder också Tilläggs-ID och ägartillägg i stället fö
 plugin som ett vanligt svenskt ord. Den senaste uppföljningen normaliserar
 även de återstående korta gränssnittsetiketterna: Tillägg, Tillägg: {id},
 Tilläggspanelen och Tilläggsappar.
+Navigering, sök, kategorier och inställningar använder också Tillägg
+konsekvent i sina synliga texter.
 PR:en kräver fortfarande
 skärmbildsbevis från ett byggt svenskt Control UI före merge.
 
