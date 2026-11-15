@@ -6,9 +6,9 @@ Tolv lokalt granskade inställningstexter för nätmetadata, radioomslag,
 språk, MusicBrainz-länkning, genremetadata och miniatyrbildscache.
 Produktnamn och filformat har bevarats där de visas i gränssnittet.
 
-Status: samtliga tolv strängar verifierades i Lokalise 2026-11-15. De fanns
-redan som svenska upstream-översättningar och lämnades orörda. Arkivering och
-push pågår.
+Status: en tidigare snabbkontroll räckte inte för radvis verifiering. Samtliga
+tolv strängar ska därför granskas på nytt i Lokalise innan batchen kan räknas
+som klar.
 
 Kontroller: JSON, källnycklar, l10n-lint, svlang, Hunspell, kontroll av tre
 identiska tecken, diffkontroll och Gitleaks. `msgfmt` är inte tillämpligt på
