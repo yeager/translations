@@ -75,3 +75,11 @@ Radgranskad komponent: `components-dialog` (128). Tre rättningar behövdes:
   em dash används inte när källtexten saknar det.
 - *Restreaming* normaliseras till *återströmning* enligt Frigates ordlista.
 - *Live view* normaliseras till *livevy* i kontexten för go2rtc-inställningar.
+
+## Batch 008
+
+Radgranskad komponent: `views-exports` (87). Två rättningar behövdes:
+
+- Tomstatusen är nu den kompletta meningen *Inga exporter hittades*.
+- Eftersom *ärende* är ett neutrum är datumetiketten *Skapat {{value}}*, inte
+  *Skapad {{value}}*.
