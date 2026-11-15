@@ -4,7 +4,7 @@ Datum: 13 november 2026
 Projekt: `nextcloud/enterprise-4`
 Komponent: `introvox`
 Källa: Transifex API-inventering 12 november 2026
-Upstreamstatus: låst, inte inskickad
+Upstreamstatus: borttagen från Transifex, inte inskickad
 
 ## Omfattning
 
@@ -37,6 +37,11 @@ De återstående 42 Enterprise-specifika strängarna har granskats rad för rad.
 
 Vid inventeringen var samtliga 367 poster märkta `locked`. Transifex avvisade
 den etablerade uppdateringen med HTTP 409, så ingen API-skrivning eller
-webbläsaruppladdning har gjorts för denna batch. Ladda upp exakt denna
-deltafil först när komponenten har låsts upp och kontrollera därefter både
-importkvittens och återläst komponentstatus.
+webbläsaruppladdning har gjorts för denna batch.
+
+En ny autentiserad och skrivskyddad API-kontroll den 15 november 2026 ger
+HTTP 404 för `o:nextcloud:p:enterprise-4:r:introvox`: resursen finns alltså
+inte längre under det tidigare resurs-ID:t. Deltat får endast återanvändas om
+projektet återställer komponenten eller anger en ersättande resurs och
+källsträngarna därefter jämförs på nytt. Det får inte laddas upp mot någon
+annan Enterprise-resurs enbart utifrån namnet.
