@@ -221,3 +221,9 @@ detekteringsmaskinvara återger nu korrekt funktion och terminologi.
 Hela `audio` har granskats rad för rad: 500 av 500 etiketter. Åtta rättningar
 behövdes för faktiska sakfel i ljudklassernas svenska benämningar, bland annat
 kattjämmer, valars läten, stråksektion, elhissar och summer.
+
+## Batch 030
+
+Första läspasset av `config/cameras`: sträng 1–80 av 522. Sju rättningar
+behövdes. Produktnamnet *Birdseye* bevaras, och ljudtranskribering samt
+ansiktsdetektering återger nu källans skilda funktioner.
