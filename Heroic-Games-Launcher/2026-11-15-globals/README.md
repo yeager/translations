@@ -15,3 +15,9 @@ Kontroller: `jq empty`, `l10n-lint`, `git diff --check` och `gitleaks detect --n
 - Omfattning: 27 saknade strängar för NVIDIA/AMD-grafik, handkontroller, Steam-genvägar, tomt spelbibliotek, tillgänglighet och hämtningshanteraren.
 - Status: uppladdad och återläst 2026-11-15. Weblate rapporterar 890 översatta strängar, 0 fuzzy-strängar och 1 096 totalt.
 - Särskilt kontrollerat: i18next-markupen `<0>…</0>`, platshållaren `{{game}}`, två svenska pluralformer för `{{count}}` samt tekniska produktnamn.
+
+## Batch 003
+
+- Omfattning: 47 saknade strängar för experimentella funktioner, Wine/Proton, prefix, cacher, körtidsmiljöer och inställningsavsnitt.
+- Status: uppladdad och återläst 2026-11-15. Weblate rapporterar 937 översatta strängar, 0 fuzzy-strängar och 1 096 totalt.
+- Särskilt kontrollerat: `{{numOfCores}}`, `{{percentUsed}}` och `{{usedGib}}`/`{{totalGib}}`, samt bevarande av Wine, Proton, CrossOver, BattlEye och EasyAntiCheat.
