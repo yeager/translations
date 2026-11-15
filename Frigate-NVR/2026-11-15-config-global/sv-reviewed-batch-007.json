@@ -1,0 +1,103 @@
+{
+  "objects": {
+    "filters_attribute": {
+      "label": "Attributfilter",
+      "description": "Filter som används på identifierade attribut för att minska falska positiva resultat (area, förhållande, säkerhet).",
+      "min_area": {
+        "label": "Minsta attributarea",
+        "description": "Minsta area för begränsningsrutan (pixlar eller procent) som krävs för det här attributet. Kan anges i pixlar (int) eller procent (float mellan 0.000001 och 0.99)."
+      },
+      "max_area": {
+        "label": "Största attributarea",
+        "description": "Största area för begränsningsrutan (pixlar eller procent) som tillåts för det här attributet. Kan anges i pixlar (int) eller procent (float mellan 0.000001 och 0.99)."
+      },
+      "min_ratio": {
+        "label": "Minsta bildförhållande",
+        "description": "Minsta förhållande mellan bredd och höjd som krävs för att begränsningsrutan ska kvalificera sig."
+      },
+      "max_ratio": {
+        "label": "Största bildförhållande",
+        "description": "Största förhållande mellan bredd och höjd som tillåts för att begränsningsrutan ska kvalificera sig."
+      },
+      "threshold": {
+        "label": "Säkerhetströskel",
+        "description": "Genomsnittlig tröskel för detekteringssäkerhet som krävs för att attributet ska betraktas som ett sant positivt resultat."
+      },
+      "min_score": {
+        "label": "Lägsta säkerhet",
+        "description": "Lägsta detekteringssäkerhet för en enskild bildruta som krävs för att koppla attributet till dess överordnade objekt."
+      },
+      "mask": {
+        "label": "Filtermask",
+        "description": "Polygonkoordinater som anger var filtret gäller inom bildrutan."
+      },
+      "raw_mask": {
+        "label": "Obearbetad mask"
+      }
+    }
+  },
+  "models": {
+    "label": "Detekteringsmodeller",
+    "description": "Modeller för objektdetektering och maskinvaran som var och en körs på. Kameror väljer en modell genom att matcha detect.scene mot en modells scene, och använder modellen 'default' om ingen matchning finns.",
+    "scene": {
+      "label": "Modellscen",
+      "description": "Ett namn på kameramiljön som modellen används för, till exempel 'thermal'. Kameror väljer en modell genom att ange detect.scene till ett matchande värde. Modellen 'default' används av kameror som inte anger något värde."
+    },
+    "devices": {
+      "label": "Maskinvara för detektering",
+      "description": "Maskinvara som modellen körs på, som '<detector>' eller '<detector>:<device>' (till exempel 'edgetpu:pci:0' eller 'openvino:GPU'). Om samma enhet anges mer än en gång körs ytterligare inferensprocesser på den."
+    },
+    "path": {
+      "label": "Sökväg till egen objektdetektormodell",
+      "description": "Sökväg till en egen detekteringsmodellfil (eller plus://<model_id> för Frigate+-modeller)."
+    },
+    "labelmap_path": {
+      "label": "Etikettkarta för egen objektdetektor",
+      "description": "Sökväg till en etikettkartfil som mappar numeriska klasser till strängetiketter för detektorn."
+    },
+    "width": {
+      "label": "Indatabredd för objektdetekteringsmodell",
+      "description": "Bredden på modellens indatatensor i pixlar."
+    },
+    "height": {
+      "label": "Indatahöjd för objektdetekteringsmodell",
+      "description": "Höjden på modellens indatatensor i pixlar."
+    },
+    "labelmap": {
+      "label": "Anpassning av etikettkarta",
+      "description": "Åsidosättningar eller ommappningsposter som ska sammanfogas med standardetikettkartan."
+    },
+    "attributes_map": {
+      "label": "Mappning av objektetiketter till deras attributetiketter",
+      "description": "Mappning från objektetiketter till attributetiketter som används för att koppla metadata (till exempel 'car' -> ['license_plate'])."
+    },
+    "input_tensor": {
+      "label": "Form för modellens indatatensor",
+      "description": "Tensorformat som modellen förväntar sig: 'nhwc' eller 'nchw'."
+    },
+    "input_pixel_format": {
+      "label": "Pixelfärgformat för modellens indata",
+      "description": "Färgrymd för pixlar som modellen förväntar sig: 'rgb', 'bgr' eller 'yuv'."
+    },
+    "input_dtype": {
+      "label": "Datatyp för modellens indata",
+      "description": "Datatyp för modellens indatatensor (till exempel 'float32')."
+    },
+    "model_type": {
+      "label": "Typ av objektdetekteringsmodell",
+      "description": "Arkitekturtyp för detektormodellen (ssd, yolox, yolonas, yolo-generic, rfdetr, dfine) som vissa detektorer använder för optimering."
+    }
+  },
+  "audio_transcription": {
+    "model": {
+      "label": "Modell för ljudtranskribering eller GenAI-leverantör",
+      "description": "Transkriberingsbakände: 'whisper' för Frigates inbyggda lokala modeller, eller namnet på en GenAI-leverantör med rollen transcribe."
+    }
+  },
+  "telemetry": {
+    "analytics": {
+      "label": "Dela anonym analysdata",
+      "description": "Skicka en anonym användningsrapport per dag för att hjälpa Frigates utvecklare avgöra vad som ska stödjas. Ingenting skickas förrän detta är aktiverat."
+    }
+  }
+}
