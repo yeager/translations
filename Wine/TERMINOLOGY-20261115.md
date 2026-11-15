@@ -36,3 +36,6 @@
 | effective date | giltighetsdatum | WinINet-certifikat |
 | privacy strength | sekretessnivå | WinINet-certifikat |
 | word wrap | radbrytning | Anteckningar |
+| Local intranet | lokalt intranät | Internet Explorer-zoner |
+| Trusted/Restricted sites | betrodda/begränsade platser | Internet Explorer-zoner |
+| zone | zon | Internet Explorer-zoner |
