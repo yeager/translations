@@ -7,6 +7,6 @@ Datum: 2026-11-15
 Kontroller: `l10n-lint`, `svlang`, JSON, diffkontroll och Gitleaks godkända.
 `msgfmt` är inte tillämpligt eftersom resursformatet är JSON.
 
-Status: lokalt granskad och arkiverad. Tre strängar sparades manuellt i Lokalise
-2026-11-15 och lästes tillbaka; övriga 12 strängar i batchen är ännu inte manuellt
+Status: lokalt granskad och arkiverad. Sex strängar sparades manuellt i Lokalise
+2026-11-15 och lästes tillbaka; övriga nio strängar i batchen är ännu inte manuellt
 inskickade upstream. Detaljer finns i `upstream-manual-status.json`.
