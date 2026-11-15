@@ -33,3 +33,6 @@
 | StartUp | autostart | Windows-mapp i skalet |
 | item | objekt | Shell32-fildialoger |
 | send to Trash | flytta till papperskorgen | Shell32-fildialoger |
+| effective date | giltighetsdatum | WinINet-certifikat |
+| privacy strength | sekretessnivå | WinINet-certifikat |
+| word wrap | radbrytning | Anteckningar |
