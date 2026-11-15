@@ -26,6 +26,12 @@ hämta minne, bildgenerering, ladda upp, hantera roller, visa bild, spela in
 skärm, skärmavbildning och tidsgräns. Kodord, kommandon och produktnamn är
 medvetet orörda.
 
+En uppföljande native-batch omfattar nio systemetiketter i Android-, Apple-
+och macOS-gränssnitten: Kodkörning, Tillägg, INCHECKNING, Ansluten och
+Frånkopplad samt Få stöd. Statusfraserna har granskats i respektive
+källkodsvy; det befintliga tankstrecket i den engelska källtexten har
+behållits i den svenska frånkopplingsfrasen.
+
 `openclaw-ui-sv-core-labels-20261115.md` dokumenterar en liten batch för
 Control UI:s översättningsminne. Den ersätter de gemensamma etiketterna
 `Support`, `Skills`, `Auto` och `Trending` med Stöd, Färdigheter, Automatiskt
