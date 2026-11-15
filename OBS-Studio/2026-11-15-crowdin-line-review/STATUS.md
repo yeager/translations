@@ -213,6 +213,8 @@ The archive now contains 342 prepared corrections across all reviewed OBS compon
 
 2026-11-16: reviewed page 21 of the live `App/Core` component line by line in Crowdin (1,050 of 1,428 strings). Existing work already corrects the horizontal-centering typo and docked-toolbar meaning. `core-page-21.delta.json` adds one distinct terminology correction for custom browser docks. None has been saved upstream.
 
+2026-11-16: reviewed page 22 of the live `App/Core` component line by line in Crowdin (1,100 of 1,428 strings). Program-restart wording, source snapping, center snapping and all horizontal multiview-layout labels are already covered by `frontend-general-stream-settings.delta.json`. The remaining appearance and destination labels are contextually correct. No duplicate delta was created and none has been saved upstream.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
