@@ -55,6 +55,10 @@ Reviewed strings: 22
 
 Thirteen changes are prepared in `nvidia-filters.delta.json`. They correct brand possessives, restore the every-N-frames meaning, and normalize GPU and blur-strength terminology. The other nine strings are correct in the filter UI context.
 
+## Terminology
+
+`TERMINOLOGY.md` records the decisions already applied to ASIO, VST3, virtual-camera, NVENC and NVIDIA Filters UI. It is the source of truth for remaining OBS component batches.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
