@@ -301,8 +301,18 @@ Varje ändringsbatch har kontrollerats med JSON-validering, `l10n-lint`,
 `git diff --check` och Gitleaks. `msgfmt` är inte tillämpligt på i18next-JSON.
 Hunspell kördes inte eftersom användaren begärt att begränsa dess CPU-belastning.
 
+## Upstreamstatus
+
 Status 2026-11-15: lokalt granskat och arkiverat i `yeager/translations`.
-Hosted Weblate är inte uppdaterat: den tillgängliga API-uppladdningsvägen
-accepterar inte metodvalet för filimport, och MCP-anslutningen genererar en
-felaktig dubblerad API-sökväg. Ingen uppladdning eller upstream-mottagning
-påstås därför.
+Hosted Weblate tillåter inte direkt ersättning av redan översatta poster med
+den tillgängliga behörigheten. De kontrollerade ändringarna skickas därför som
+granskningsförslag. API:t har tagit emot 38 förslag i komponenterna `audio`,
+`common`, `views-configeditor`, `components-dialog`, `components-filter`,
+`config-validation`, `views-events`, `views-explore`, `views-exports`,
+`views-classificationmodel` och `views-facelibrary`.
+
+De 38 förslagen är mottagna men inte godkända eller införda i den publicerade
+svenska katalogen. Återstående 158 validerade ändringar väntar på en ny
+uppladdningsperiod efter Weblates begränsning av förfrågningar. De 81
+granskade posterna i `views/setup` saknar motsvarande Weblate-komponent och
+kan därför inte skickas in där.
