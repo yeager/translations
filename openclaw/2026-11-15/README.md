@@ -26,7 +26,7 @@ hämta minne, bildgenerering, ladda upp, hantera roller, visa bild, spela in
 skärm, skärmavbildning och tidsgräns. Kodord, kommandon och produktnamn är
 medvetet orörda.
 
-En uppföljande native-batch omfattar tjugofem systemetiketter i Android-, Apple-
+En uppföljande native-batch omfattar trettiofyra systemetiketter i Android-, Apple-
 och macOS-gränssnitten: Kodkörning, Tillägg, INCHECKNING, Ansluten och
 Frånkopplad samt Få stöd. Statusfraserna har granskats i respektive
 källkodsvy; det befintliga tankstrecket i den engelska källtexten har
@@ -34,6 +34,8 @@ behållits i den svenska frånkopplingsfrasen. Den omfattar även verktygsetiket
 Kameralista, PTZ-kamera, Närvaro och Underagent. Den omfattar även de synliga
 verktygsnamnen kanal, redigera, emojilista, skapa händelse, omröstning,
 presentera, reaktioner, klistermärke, stoppa, flikar, skapa tråd och väck.
+De synliga anslutningsetiketterna och räknarna använder dessutom nu Ansluten,
+Frånkopplad och anslutna i stället för online och offline.
 
 `openclaw-ui-sv-core-labels-20261115.md` dokumenterar en liten batch för
 Control UI:s översättningsminne. Den ersätter de gemensamma etiketterna
