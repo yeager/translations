@@ -5,7 +5,7 @@ Datum: 2026-11-15
 Tjugoen svenska UI-texter för hur en artists album och spår väljs i biblioteket,
 samt om ett album eller en spellista ska fortsätta efter ett valt spår.
 
-Status: lokalt granskad och arkiverad. Sex strängar sparades manuellt i Lokalise
+Status: lokalt granskad och arkiverad. Sju strängar sparades manuellt i Lokalise
 2026-11-15 och lästes tillbaka. Två befintliga svenska värden verifierades utan
 att skrivas över. Övriga nycklar måste jämföras med Lokalise före
 eventuell manuell sparning.
