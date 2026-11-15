@@ -97,6 +97,12 @@ Component: `Frontend` (output-settings batch)
 
 Eleven output-settings strings were reviewed. `frontend-output-settings.delta.json` corrects bitrate warning wording, ambiguous pronouns, codec terminology, FFmpeg settings grammar and the split-file labels. Every source placeholder and line break is retained.
 
+## Reviewed batch 12 — pending upstream save
+
+Component: `obs-outputs`
+
+The local snapshot has 27 English keys and 25 Swedish keys. The two absent Swedish keys are newer local-source drift (`RTMPStream.BindIP` and `MP4Output.StartChapter`); they are already translated in Crowdin and therefore are not recreated from this outdated export. The 25 matching keys were reviewed. `obs-outputs.delta.json` contains ten corrections for timeout semantics, networking terms, binding instructions and Swedish compounds.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.

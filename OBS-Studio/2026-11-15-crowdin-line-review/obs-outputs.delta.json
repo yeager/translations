@@ -1,0 +1,21 @@
+{
+  "project": "OBS Studio",
+  "platform": "Crowdin",
+  "locale": "sv-SE",
+  "component": "App/Plugins/obs-outputs",
+  "reviewed_at": "2026-11-15",
+  "reviewed_strings": 25,
+  "source_snapshot_note": "The local Swedish snapshot lacks the newer Bind IP and Start keys. Crowdin reports Swedish complete, so those keys are not recreated here.",
+  "changes": [
+    {"key":"RTMPStream.DropThreshold","before":"Släppningströskel","after":"Bortfallströskel","reason":"Use the term for a threshold of dropped frames/data, not the action release."},
+    {"key":"RTMPStream.NewSocketLoop","before":"Ny socket-loop","after":"Ny socketslinga","reason":"Use a readable Swedish compound for the technical loop option."},
+    {"key":"RTMPStream.LowLatencyMode","before":"Låg latens-läge","after":"Läge med låg latens","reason":"Use natural Swedish word order."},
+    {"key":"ConnectionTimedOut","before":"Anslutningen förlorades. Se till att du har konfigurerat en giltig strömningstjänst och att inga brandväggar blockerar anslutningen.","after":"Tidsgränsen för anslutningen överskreds. Kontrollera att du har konfigurerat en giltig strömningstjänst och att ingen brandvägg blockerar anslutningen.","reason":"A timeout is not a lost connection; retain the configuration and firewall guidance."},
+    {"key":"PermissionDenied","before":"Anslutningen blockerades. Kontrollera inställningarna för brandväggen/antivirusprogrammet och säkerställ att OBS har fullständig internetåtkomst.","after":"Anslutningen blockerades. Kontrollera brandväggs- och antivirusinställningarna och att OBS har fullständig internetåtkomst.","reason":"Use a natural Swedish compound and direct instruction."},
+    {"key":"ConnectionReset","before":"Anslutningen återställdes av en peer. Detta innebär vanligtvis problem med internetanslutningen mellan dig och strömningstjänsten.","after":"Anslutningen återställdes av motparten. Detta tyder vanligtvis på problem med internetanslutningen mellan dig och strömningstjänsten.","reason":"Translate the exposed networking term peer and use the correct diagnostic nuance."},
+    {"key":"HostNotFound","before":"Värdnamnet hittades inte. Se till att du har angivit en giltig strömningstjänst och att din internetanslutning/DNS fungerar.","after":"Värdnamnet hittades inte. Kontrollera att du har angett en giltig strömningsserver och att din internetanslutning och DNS fungerar.","reason":"The source requires a server, not a service; use standard Swedish spelling and conjunction."},
+    {"key":"NoData","before":"Värdnamnet hittades, men ingen data av den begärda typen. Detta kan förekomma om du har bundit till en IPv6-adress och din strömtjänst endast har IPv4-adresser (se Inställningar → Avancerat).","after":"Värdnamnet hittades, men inga data av den begärda typen. Detta kan inträffa om du har bundit OBS till en IPv6-adress och din strömningstjänst endast har IPv4-adresser (se Inställningar → Avancerat).","reason":"Restore the missing subject of the bind operation and normalize the service term."},
+    {"key":"AddressNotAvailable","before":"Adressen är inte tillgänglig. Du kanske har försökt binda till en ogiltig IP-adress (se Inställningar → Avancerat).","after":"Adressen är inte tillgänglig. Du kanske har försökt binda OBS till en ogiltig IP-adress (se Inställningar → Avancerat).","reason":"Restore the missing subject of the bind operation."},
+    {"key":"NoRoute","before":"Fel när värd skulle nås. Se till att gränssnittet du har kopplat har internetåtkomst och att strömningstjänsten har stöd för adressfamiljen du valde (se Inställningar → Avancerat).","after":"Det gick inte att nå värden. Kontrollera att nätverksgränssnittet som du har bundit OBS till har internetåtkomst och att strömningstjänsten stöder den valda adressfamiljen (se Inställningar → Avancerat).","reason":"Restore the networking meaning of the bound interface and use natural Swedish error text."}
+  ]
+}

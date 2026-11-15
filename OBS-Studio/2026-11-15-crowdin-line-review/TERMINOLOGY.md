@@ -35,6 +35,8 @@ Updated: 2026-11-15.
 | Advanced Audio Properties | Avancerade ljudegenskaper | Preserve the named UI route in help text. |
 | Split by Time | dela efter tid | A duration criterion, not a clock time. |
 | codec compatibility | kodekkompatibilitet | `kodek` denotes a format; do not confuse it with `kodare`. |
+| bind (a network interface/address) | binda OBS till | Include the application as the subject in instructional error text. |
+| socket loop | socketslinga | Low-level RTMP option. |
 
 ## Style decisions
 
