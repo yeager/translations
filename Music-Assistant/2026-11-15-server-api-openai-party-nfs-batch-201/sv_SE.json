@@ -1,0 +1,22 @@
+{
+  "provider.openai_tts.config_entries.base_url.label": "API-slutpunkt",
+  "provider.openai_tts.config_entries.model.description": "Talmodellen som ska användas, till exempel tts-1 eller gpt-4o-mini-tts med högre kvalitet i OpenAI:s moln-API. Självhostade servrar använder sina egna modellnamn.",
+  "provider.openai_tts.config_entries.model.label": "Modell",
+  "provider.openai_tts.config_entries.voices.description": "Röster som ska exponeras som motorer, en röst per värde. Åsidosätter röster som normalt identifieras automatiskt eller annars återgår till OpenAI:s standardröster (alloy, echo, fable, nova, onyx, shimmer).",
+  "provider.openai_tts.config_entries.voices.label": "Röster",
+  "provider.openai_tts.errors.cannot_connect": "Det gick inte att nå tal-API:t. Kontrollera adressen och försök igen.",
+  "provider.openai_tts.errors.endpoint_not_found": "Ingen talslutpunkt hittades på den här adressen. Kontrollera API-slutpunkten.",
+  "provider.openai_tts.errors.invalid_auth": "API:t avvisade den angivna API-nyckeln.",
+  "provider.openai_tts.manifest.description": "Omvandlar text till tal med OpenAI:s tal-API och fungerar med självhostade servrar som implementerar samma slutpunkt, till exempel Kokoro-FastAPI, LocalAI och Speaches.",
+  "provider.openai_tts.setup_flow.user.description": "Ange API-slutpunkten, modellen och ljudformatet som ska användas. För OpenAI:s moln-API krävs även en API-nyckel. Självhostade servrar som implementerar samma slutpunkt fungerar vanligen utan en.",
+  "provider.openai_tts.setup_flow.user.title": "Anslut till tal-API:t",
+  "provider.party.config_entries.party_duration.description": "Hur länge (i timmar) en skapad gästlänk eller QR-kod för anslutning är giltig. Ändringen påverkar bara länkar som skapas efter ändringen. Den förlänger inte en länk som redan är aktiv.",
+  "provider.party.config_entries.party_duration.label": "Partylängd (timmar)",
+  "common.errors.no_playable_items": "Det finns inget att spela här.",
+  "provider.filesystem_nfs.errors.invalid_subfolder": "Ogiltig undermapp {0}: den måste vara en relativ sökväg i exporten.",
+  "provider.filesystem_nfs.errors.subfolder_not_found": "Undermappen {0} finns inte i NFS-exporten.",
+  "provider.openai_compatible.config_entries.api_key.label": "API-nyckel",
+  "provider.openai_compatible.config_entries.base_url.description": "API:ets adress, inklusive versionssökvägen. Ändra detta om tjänsten inte körs där den normalt ska köras, till exempel på en annan dator än Music Assistant.",
+  "provider.openai_compatible.config_entries.base_url.label": "API-bas-URL",
+  "provider.openai_compatible.config_entries.clear_api_key.description": "Markera detta när du flyttar till en tjänst som inte använder någon nyckel."
+}
