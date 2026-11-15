@@ -91,6 +91,15 @@ strängar. Komponenten står därefter på 1 137 av 1 409 översatta strängar o
 
 Kontroller: `jq empty`, `l10n-lint`, `git diff --check` och Gitleaks.
 
+## Batch 018
+
+Batchen omfattar grundflödet för att kopiera kamerainställningar: käll- och
+målval samt validering av nya kameranamn. Hosted Weblate accepterade samtliga
+15 strängar. Komponenten står därefter på 1 152 av 1 409 översatta strängar
+och 0 fuzzy.
+
+Kontroller: `jq empty`, `l10n-lint`, `git diff --check` och Gitleaks.
+
 ## Batch 014
 
 Batchen omfattar kamerans driftstatus, live-strömmar och
