@@ -65,6 +65,12 @@ Component: `Desktop Entry`
 
 Both strings are reviewed. `desktop-entry.delta.json` contains two word-order and UI-style corrections; the component's translation state is otherwise complete.
 
+## Reviewed batch 7 — pending upstream save
+
+Component: `Filters`
+
+The local source snapshot contains 133 English keys and 122 Swedish keys. The 11 missing keys are newer than that snapshot and are already translated in Crowdin; they are kept outside this local delta until a current Crowdin export is available. The 122 matching keys were reviewed. `filters.delta.json` records 25 terminology and natural-language corrections, chiefly for dynamics processors, blending modes and video-filter labels.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
