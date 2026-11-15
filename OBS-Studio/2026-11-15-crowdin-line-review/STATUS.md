@@ -79,6 +79,12 @@ Seventeen context-sensitive frontend messages were reviewed against their Englis
 
 This is not a claim that the full 1,382-key local frontend snapshot has been reviewed. It is one bounded, archived batch.
 
+## Reviewed batch 9 — pending upstream save
+
+Component: `Frontend` (output and audio batch)
+
+Twelve output, encoder and audio strings were reviewed against the English source. `frontend-output-audio.delta.json` contains the resulting corrections: Swedish compounds and agreement, an actual typo, the standard `i stället`, technical encoder terminology and clearer audio-warning wording. It preserves `%1` through `%3`, HTML markup and all source line breaks. The remaining frontend catalog is outside this batch.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
