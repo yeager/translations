@@ -152,3 +152,9 @@ bevarar både `rtsp://` och `rtsps://` från källtexten.
 Fjärde läspasset av `views-settings`: 100 ytterligare strängar.
 Inga rättningar behövdes. Protokoll, produktnamn och tekniska termer i
 kameraassistenten är korrekta och bevarar källans funktion.
+
+## Batch 019
+
+Femte läspasset av `views-settings`: 100 ytterligare strängar. Två rättningar
+behövdes: rubriken beskriver nu *Kamerastatus och detaljer*, och *friendly
+name* använder den redan etablerade termen *visningsnamn*.
