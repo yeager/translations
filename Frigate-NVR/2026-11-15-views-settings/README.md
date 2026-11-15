@@ -72,6 +72,16 @@ på svenska; platshållarna `{{srcCamera}}`, `{{srcWidth}}`, `{{srcHeight}}` och
 Kontroller: `jq empty`, `l10n-lint`, käll- och platshållarjämförelse,
 `git diff --check` och Gitleaks.
 
+## Batch 016
+
+Batchen omfattar konfigurationsvarningar för inspelning, ljud, detektering,
+ansiktsigenkänning och LPR. Hosted Weblate accepterade samtliga 12 strängar.
+Komponenten står därefter på 1 117 av 1 409 översatta strängar och 0 fuzzy,
+utan nya kontrollträffar.
+
+Kontroller: `jq empty`, `l10n-lint`, tokenjämförelse, `git diff --check` och
+Gitleaks.
+
 ## Batch 014
 
 Batchen omfattar kamerans driftstatus, live-strömmar och
