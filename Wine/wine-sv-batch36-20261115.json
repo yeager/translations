@@ -1,0 +1,21 @@
+{
+  "project": "Wine",
+  "component": "po/sv.po",
+  "source_revision": "9f8c4ae4d35c7ff4153267aba9618c026f5f5583",
+  "date": "2026-11-15",
+  "status": "locally reviewed; not submitted upstream",
+  "strings_reviewed": 14,
+  "scope": "OLE DB permissions, SANE scanner details and Shell32 file properties",
+  "decisions": [
+    "Use Läs, Läs/skriv and Skriv for OLE DB access modes.",
+    "Use scanner-specific product fields in SANE and source-matching colons in Shell32 properties.",
+    "Shortcuts are moved only where the source carries an access-key marker."
+  ],
+  "validation": {
+    "msgfmt": "passed",
+    "git_diff_check": "passed",
+    "gitleaks": "passed",
+    "svlang": "ran; existing global findings reviewed separately",
+    "l10n_lint": "ran; pre-existing catalog baseline remains"
+  }
+}
