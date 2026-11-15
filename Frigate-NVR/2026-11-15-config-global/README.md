@@ -32,3 +32,15 @@ Batchen för ögonblicksbilder, ljudtranskribering och klassificeringsmodeller
 accepterades med 30 av 775 nycklar. Komponenten står därefter på 629 av 775
 översatta strängar och 0 fuzzy. De tre kontrollträffarna är oförändrade,
 dokumenterade tekniska undantag.
+
+## Batch 004
+
+Batchen omfattar anpassad klassificering, semantisk sökning och
+ansiktsigenkänning. Hosted Weblate accepterade 37 strängar; två redan
+översatta nycklar behövde därför inte ändras. Komponenten står därefter på
+666 av 775 översatta strängar och 0 fuzzy. De tre kvarvarande
+kontrollträffarna är dokumenterade tekniska undantag: `FFmpeg`, `ONVIF-port`
+och produktnamnet/formatet för nätverksstatistik.
+
+Kontroller: `jq empty`, `l10n-lint`, plats- och tekniktokenjämförelse mot
+källfilen, `git diff --check` och Gitleaks.

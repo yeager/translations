@@ -1,0 +1,91 @@
+{
+  "classification": {
+    "custom": {
+      "object_config": {
+        "classification_type": {
+          "label": "Klassificeringstyp",
+          "description": "Klassificeringstyp som används: 'sub_label' (lägger till sub_label) eller andra typer som stöds."
+        }
+      },
+      "state_config": {
+        "cameras": {
+          "label": "Klassificeringskameror",
+          "description": "Kameravisa beskärningar och inställningar för klassificering av tillstånd."
+        },
+        "crop": {
+          "label": "Beskärning för klassificering",
+          "description": "Beskärningskoordinater som ska användas för klassificering på den här kameran."
+        },
+        "motion": {
+          "label": "Kör vid rörelse",
+          "description": "Om detta är sant körs klassificering när rörelse upptäcks inom den angivna beskärningen."
+        },
+        "interval": {
+          "label": "Klassificeringsintervall",
+          "description": "Intervall (sekunder) mellan periodiska klassificeringar av tillstånd."
+        }
+      }
+    }
+  },
+  "semantic_search": {
+    "description": "Inställningar för semantisk sökning, som bygger och söker i objektinbäddningar för att hitta liknande objekt.",
+    "enabled": {
+      "label": "Aktivera semantisk sökning",
+      "description": "Aktivera eller inaktivera funktionen för semantisk sökning."
+    },
+    "reindex": {
+      "label": "Indexera om vid start",
+      "description": "Starta en fullständig omindexering av historiska spårade objekt i databasen med inbäddningar."
+    },
+    "model": {
+      "label": "Modell för semantisk sökning eller GenAI-leverantör",
+      "description": "Modellen för inbäddningar som ska användas för semantisk sökning (till exempel 'jinav1'), eller namnet på en GenAI-leverantör med rollen embeddings."
+    },
+    "model_size": {
+      "label": "Modellstorlek",
+      "description": "Välj modellstorlek. 'small' körs på CPU och 'large' kräver vanligtvis GPU."
+    },
+    "device": {
+      "label": "Enhet",
+      "description": "Detta är en åsidosättning för att rikta in sig på en viss enhet. Läs mer på https://onnxruntime.ai/docs/execution-providers/"
+    }
+  },
+  "face_recognition": {
+    "description": "Inställningar för ansiktsdetektering och ansiktsigenkänning för alla kameror. Kan åsidosättas per kamera.",
+    "enabled": {
+      "description": "Aktivera eller inaktivera ansiktsigenkänning för alla kameror. Kan åsidosättas per kamera."
+    },
+    "model_size": {
+      "label": "Modellstorlek",
+      "description": "Modellstorlek för ansiktsinbäddningar (small/large). Större modeller kan kräva GPU."
+    },
+    "unknown_score": {
+      "label": "Tröskelvärde för okänd",
+      "description": "Avståndströskel under vilken ett ansikte betraktas som en möjlig träff (högre = striktare)."
+    },
+    "detection_threshold": {
+      "label": "Detekteringströskel",
+      "description": "Lägsta detekteringssäkerhet som krävs för att en ansiktsdetektering ska betraktas som giltig."
+    },
+    "recognition_threshold": {
+      "label": "Igenkänningströskel",
+      "description": "Avståndströskel för ansiktsinbäddning för att två ansikten ska betraktas som en träff."
+    },
+    "min_faces": {
+      "label": "Minsta antal ansikten",
+      "description": "Minsta antal ansiktsigenkänningar som krävs innan en igenkänd underetikett används för en person."
+    },
+    "save_attempts": {
+      "label": "Spara försök",
+      "description": "Antal försök till ansiktsigenkänning att behålla i gränssnittet för senaste igenkänningar."
+    },
+    "blur_confidence_filter": {
+      "label": "Skärpefilter för säkerhet",
+      "description": "Justera säkerhetspoäng efter bildoskärpa för att minska falska positiva resultat för ansikten med låg kvalitet."
+    },
+    "device": {
+      "label": "Enhet",
+      "description": "Detta är en åsidosättning för att rikta in sig på en viss enhet. Läs mer på https://onnxruntime.ai/docs/execution-providers/"
+    }
+  }
+}
