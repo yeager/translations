@@ -20,10 +20,10 @@ formulering:
 | `Select the format you want for displaying times.` | `Välj formatet som tider ska visas med.` | `Välj det format du vill använda för att visa tider.` |
 
 Den separata deltafilen `cacti-npc-sv-delta-20261115.po` innehåller enbart
-denna rättning. Webbläsarens Cacti-redigerare gick inte att öppna från den
-aktuella automatiseringssessionen och någon API-token för tjänsten var inte
-tillgänglig under denna kontroll. Deltat är därför **lokalt granskat och
-arkiverat, men inte inskickat**.
+denna rättning. Rättningen sparades i Cacti Translates Weblate-redigerare och
+lästes sedan tillbaka direkt i samma redigerarvy. Deltat är därmed **lokalt
+granskat, arkiverat, inskickat och verifierat mottaget**. Projektets fortsatta
+granskning och en eventuell releasepublicering är inte verifierade.
 
 ## Kontroller
 
