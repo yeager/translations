@@ -1,0 +1,36 @@
+{
+  "cameraManagement": {
+    "clone": {
+      "categories": {
+        "items": {
+          "genai": "Generativ AI",
+          "type": "Kameratyp (normal / dedikerad LPR)",
+          "profiles": "Profiler",
+          "detect": "Detekteringsdimensioner",
+          "zones": "Zoner",
+          "motion_mask": "Rörelsemasker",
+          "object_masks": "Objektmasker",
+          "ffmpeg_live": "Ström-URL:er och roller"
+        }
+      },
+      "footer": {
+        "changeCount": "{{count}} ändring tillämpas",
+        "restartNeeded": "Omstart krävs för vissa ändringar.",
+        "liveOnly": "Alla ändringar tillämpas direkt utan omstart.",
+        "submit": "Kopiera",
+        "submitting": "Kopierar…"
+      },
+      "toast": {
+        "success": "Inställningarna har kopierats till {{cameraName}}",
+        "successWithRestart": "Inställningarna har kopierats till {{cameraName}}. Starta om Frigate för att tillämpa alla ändringar.",
+        "successMulti": "Inställningarna har kopierats till {{count}} kamera",
+        "successMultiWithRestart": "Inställningarna har kopierats till {{count}} kamera. Starta om Frigate för att tillämpa alla ändringar.",
+        "partialFailure": "{{successCount}} avsnitt tillämpades, '{{failedSection}}' misslyckades: {{errorMessage}}",
+        "partialFailureMulti": "Kopierat till {{successCount}} kamera/kameror, misslyckades för {{failed}}: {{errorMessage}}",
+        "newCameraPartialFailure": "Kameran {{cameraName}} skapades, men vissa inställningar kunde inte kopieras: {{errorMessage}}",
+        "sourceMissing": "Källkameran finns inte längre",
+        "submitError": "Det gick inte att kopiera kameran: {{errorMessage}}"
+      }
+    }
+  }
+}

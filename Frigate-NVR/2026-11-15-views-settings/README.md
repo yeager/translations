@@ -91,6 +91,16 @@ strängar. Komponenten står därefter på 1 137 av 1 409 översatta strängar o
 
 Kontroller: `jq empty`, `l10n-lint`, `git diff --check` och Gitleaks.
 
+## Batch 019
+
+Batchen omfattar återstående kloningskategorier och resultatmeddelanden.
+Hosted Weblate accepterade 22 strängar. Tre pluralvarningar rättades därefter
+via enhets-API:t med båda svenska pluralformerna: `{{count}} ändring/ändringar`
+och `{{count}} kamera/kameror`. Komponenten står därefter på 1 174 av 1 409
+översatta strängar och 0 fuzzy.
+
+Kontroller: `jq empty`, `l10n-lint`, API-läsning och svensk pluralgranskning.
+
 ## Batch 018
 
 Batchen omfattar grundflödet för att kopiera kamerainställningar: käll- och
