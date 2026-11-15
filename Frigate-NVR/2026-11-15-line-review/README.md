@@ -140,3 +140,9 @@ behålls oförändrat.
 Andra läspasset av `views-settings`: 100 ytterligare strängar. Ett materiellt
 fel rättades: `Motion tuner` betecknar inställningsverktyget
 *Rörelsejustering*, inte en mottagare.
+
+## Batch 017
+
+Tredje läspasset av `views-settings`: 100 ytterligare strängar. Tre rättningar
+behövdes: båda valfria fälten använder *Valfritt*, och RTSP-valideringen
+bevarar både `rtsp://` och `rtsps://` från källtexten.
