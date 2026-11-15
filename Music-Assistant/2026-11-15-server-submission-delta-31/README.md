@@ -29,3 +29,12 @@ rättigheten `Upload files`.
 
 Ingen fil har därför laddats upp och inget importresultat, ingen
 upstream-granskning eller integrering har verifierats.
+
+## Manuell upstream-status
+
+2026-11-15 sparades fyra tidigare tomma, lokalt granskade strängar manuellt i
+Lokalise-redigeraren: två etiketter för inloggning med enhetskod samt två
+etiketter för QR-kodinloggning. Varje sparning lästes tillbaka i redigeraren.
+Två kontrollsträngar i samma delta fanns redan upstream med matchande svensk
+text. Detta är inte en filimport; återstående deltasträngar är inte inskickade
+eller verifierade.
