@@ -205,6 +205,8 @@ The archive now contains 342 prepared corrections across all reviewed OBS compon
 
 2026-11-16: reviewed page 17 of the live `App/Core` component line by line in Crowdin (850 of 1,428 strings). Existing work already corrects the access-granted spelling. `core-page-17.delta.json` adds two distinct corrections for missing-file matching and the established macOS input-monitoring permission term. None has been saved upstream.
 
+2026-11-16: reviewed page 18 of the live `App/Core` component line by line in Crowdin (900 of 1,428 strings). Dialog prompts, preview status and reconnection wording are already covered by `frontend-phrasing.delta.json`, `frontend-output-remux-scene.delta.json` and `frontend-properties-transform-menu.delta.json`. No duplicate delta was created and none has been saved upstream.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
