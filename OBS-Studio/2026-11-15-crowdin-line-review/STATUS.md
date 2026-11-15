@@ -21,15 +21,25 @@ Crowdin component URL: <https://crowdin.com/editor/obs-studio/771/enus-sv>
 
 Two strings were reviewed in their Crowdin component. No source or Swedish value was changed, so no upload was required. Crowdin exposes the entries as translated; the current account has no visible approve action in this component.
 
+## Reviewed batch 2
+
+| Component | Strings | Result |
+| --- | ---: | --- |
+| `obs-vst3.ini` | 8 | All keys, one-to-one UI terminology, line break and technical tokens are correct. No change. |
+| `win-asio.ini` | 15 | All keys, `%i` placeholders and ASIO/driver terminology are correct in context. No change. |
+
+`ASIO-monitorering`, `ASIO-utmatning`, `ASIO-ingång`, `samplingsfrekvens` and `värdprogram` are retained as established audio-software wording. The driver-reload instruction deliberately retains the full operational caveat from the source rather than shortening it.
+
 ## Scope and next batch
 
-Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is `obs-vst3.ini` (0% approved), followed by `win-asio.ini` (0% approved) and the remaining plugin components before the frontend catalog.
+Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
 
 ## Checks
 
-- INI key parity was checked against the local OBS source tree.
-- `git diff --check`: not applicable to this no-change batch; no patch exists.
+- INI key parity was checked against the local OBS source tree; batch 2 has 8/8 and 15/15 matching keys, with no missing or extra keys and no `%i` mismatch.
+- `git diff --check`: passed for the archive batch.
 - `msgfmt`: not applicable; OBS uses INI catalogs.
-- `l10n-lint`: no OBS INI parser available.
+- `l10n-lint`: no OBS INI parser available (reported unsupported translation-file format).
+- svlang: the installed CLI only accepts plain text through `svlang check`; it has no INI parser. The translations were reviewed in their source/UI context instead.
 - Hunspell was intentionally not run, following the current CPU constraint.
-- Gitleaks: deferred until a changed batch produces an archive payload.
+- Gitleaks: passed for the archive payload.
