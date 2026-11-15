@@ -46,6 +46,13 @@ Reviewed strings: 60 (two pages in Crowdin)
 
 Fifteen changes are prepared in `nvenc.delta.json`. They correct bitrate-versus-speed terminology, technical compounds, Swedish grammar, a `Windows Game DVR` typo, the Swedish spelling `kodek`, and a misleading technical tooltip. The remaining 45 strings are contextually correct and unchanged. Markup, `%1`, product names, encoder names and example options are retained byte-for-byte where required.
 
+## Reviewed batch 5 — pending upstream save
+
+Component: `NVIDIA Filters`
+Reviewed strings: 22
+
+Thirteen changes are prepared in `nvidia-filters.delta.json`. They correct brand possessives, restore the every-N-frames meaning, and normalize GPU and blur-strength terminology. The other nine strings are correct in the filter UI context.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
