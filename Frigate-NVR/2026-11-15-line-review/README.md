@@ -66,3 +66,12 @@ Radgranskad komponent: `components-filter` (74). Två rättningar behövdes:
   substantivet *Filter*, inte uppmaningen *Filtrera*.
 - Filtergruppen för ögonblicksbild och videoklipp avser egenskaper och heter
   därför *Egenskaper*, inte det otydliga *Detaljer*.
+
+## Batch 007
+
+Radgranskad komponent: `components-dialog` (128). Tre rättningar behövdes:
+
+- Platsmarkören för granskningsexport behåller bindestrecket från källtexten;
+  em dash används inte när källtexten saknar det.
+- *Restreaming* normaliseras till *återströmning* enligt Frigates ordlista.
+- *Live view* normaliseras till *livevy* i kontexten för go2rtc-inställningar.
