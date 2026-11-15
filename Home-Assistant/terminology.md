@@ -38,6 +38,8 @@ källtextens sammanhang.
 | indoor humidity | luftfuktighet inomhus | Helty Cloud och andra klimatentiteter; egenskapsnamn. |
 | indoor temperature | inomhustemperatur | Helty Cloud och andra klimatentiteter; egenskapsnamn. |
 | outdoor temperature | utomhustemperatur | Helty Cloud och andra klimatentiteter; egenskapsnamn. |
+| thinking type | typ av resonemang | Anthropic, val för hur Claude använder ytterligare token. |
+| effort | ansträngning | Anthropic, val för hur många token Claude använder vid svar. |
 
 ## Status
 
