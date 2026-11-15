@@ -52,3 +52,6 @@
 | Expected | förväntades | VBScript-syntaxfel; behåll kodnyckelord på engelska |
 | statement | sats | VBScript-syntaxfel |
 | integer constant | heltalskonstant | VBScript-syntaxfel |
+| Automation | Automation | VBScript-fel; tekniknamn |
+| named argument | namngivet argument | VBScript-fel |
+| locale setting | språkområdesinställning | VBScript-fel |
