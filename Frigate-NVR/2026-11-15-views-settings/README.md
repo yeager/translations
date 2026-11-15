@@ -27,6 +27,17 @@ separat i sitt tekniska sammanhang.
 Kontroller: `jq empty`, `l10n-lint`, tokenjämförelse mot aktuell källfil,
 `git diff --check` och Gitleaks.
 
+## Batch 021
+
+Batchen omfattar kameraadministration, Frigate+-modeller, go2rtc/FFmpeg-kodekar,
+GenAI-modeller och kategorier för kloning av kamerainställningar. Hosted Weblate
+accepterade samtliga 34 strängar. Komponenten står därefter på 1 219 av 1 409
+översatta strängar och 0 fuzzy.
+
+Kontroller: `jq empty`, `l10n-lint`, `git diff --check` och Gitleaks.
+Tekniska namn som Frigate+, FFmpeg, VAAPI, CUDA, V4L2 M2M, DXVA2,
+VideoToolbox, Birdseye, MQTT och ONVIF bevarades enligt terminologilistan.
+
 ## Batch 004
 
 Batchen omfattar formulärfält, globala inställningar, kamerainställningar och

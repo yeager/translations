@@ -1,0 +1,16 @@
+{
+  "cameraManagement": {
+    "description": "Lägg till, redigera och ta bort kameror, styr varje kameras status och konfigurera åsidosättningar per profil och kameratyp. Om du vill konfigurera strömmar, detektering, rörelse och andra kameraspecifika inställningar väljer du lämpligt avsnitt under Kamerakonfiguration.",
+    "streams": {
+      "details": {
+        "edit": "Redigera kamerainformation", "title": "Redigera kamerainformation", "description": "Uppdatera visningsnamnet, den externa URL:en och synligheten som används för den här kameran i Frigates gränssnitt.",
+        "friendlyNameLabel": "Visningsnamn", "friendlyNameHelp": "Användarvänligt namn som visas för den här kameran i Frigates gränssnitt. Lämna tomt för att använda kamera-ID:t.",
+        "webuiUrlLabel": "URL till kamerans webbgränssnitt", "webuiUrlHelp": "URL som öppnar kamerans webbgränssnitt direkt från felsökningsvyn. Lämna tomt för att inaktivera länken."
+      }
+    },
+    "clone": {"categories": {"items": {"birdseye": "Birdseye", "mqtt": "MQTT", "timestamp_style": "Tidsstämpelstil", "onvif": "ONVIF", "lpr": "Registreringsskyltigenkänning", "face_recognition": "Ansiktsigenkänning", "semantic_search": "Semantisk sökning"}}}
+  },
+  "frigatePlus": {"modelInfo": {"noModelLoaded": "Ingen Frigate+-modell är inläst just nu.", "selectModel": "Välj en modell", "noModelsAvailable": "Inga modeller är tillgängliga", "filter": {"ariaLabel": "Filtrera modeller efter typ", "baseModels": "Basmodeller", "fineTunedModels": "Finjusterade modeller"}}},
+  "go2rtcStreams": {"ffmpeg": {"hardwareVaapi": "VAAPI", "hardwareCuda": "CUDA", "hardwareV4l2m2m": "V4L2 M2M", "hardwareDxva2": "DXVA2", "hardwareVideotoolbox": "VideoToolbox", "addVideoCodec": "Lägg till videokodek", "addAudioCodec": "Lägg till ljudkodek", "removeCodec": "Ta bort kodek"}},
+  "configForm": {"genaiModel": {"available": "Tillgängliga modeller", "useCustom": "Använd ”{{value}}”", "refresh": "Uppdatera modeller", "probeFailed": "Det gick inte att avsöka modeller", "fetchedModels": "Modellistan har hämtats"}}
+}
