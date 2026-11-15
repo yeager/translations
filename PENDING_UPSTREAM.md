@@ -102,9 +102,12 @@
   [PR #101116](https://github.com/NousResearch/hermes-agent/pull/101116),
   rebasad och uppdaterad 2026-11-03. Den separata webbkatalogen är nu också
   inskickad som [PR #148618](https://github.com/NousResearch/hermes-agent/pull/148618)
-  efter typkontroll, test och terminologigranskning. Den statiska katalogen
-  och TUI-katalogen är fortfarande lokala och kräver fortsatt struktur- och
-  radgranskning före inskick.
+  efter typkontroll, test och terminologigranskning. Den första svenska
+  TUI-batchen för fakturering är inskickad som
+  [PR #156261](https://github.com/NousResearch/hermes-agent/pull/156261):
+  97 aktuella nycklar med kontrollerade platshållare och engelskt reservfall
+  för resterande UI. Den statiska katalogen och återstående TUI-strängar
+  kräver fortsatt struktur- och radgranskning före inskick.
 
 Arbete som den 3 november har importerats eller skickats via respektive API
 (bland annat RetroArch, qBittorrent, Widelands, VLC, ScummVM, pgRouting,
