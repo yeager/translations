@@ -3,7 +3,7 @@
 Datum: 2026-11-15  
 Upstream: [PR #199519](https://github.com/openclaw/openclaw/pull/199519)
 
-Elva synliga systemetiketter i den svenska katalogen för Android och Apple-
+Tretton synliga systemetiketter i den svenska katalogen för Android och Apple-
 apparna har granskats i källkodens användningssammanhang och uppdaterats.
 
 | Segment | Engelska | Svenska |
@@ -19,6 +19,8 @@ apparna har granskats i källkodens användningssammanhang och uppdaterats.
 | `native.apple.8ed2f28696ae9ce7` | Get support | Få stöd |
 | `native.android.58020f117fba52cb` | camera list | Kameralista |
 | `native.android.8da8c80a72399f1a` | camera PTZ | PTZ-kamera |
+| `native.android.a479b236e0ea5d98` | Presence | Närvaro |
+| `native.android.9ca4a48091ddbbb1` | Sub-agent | Underagent |
 
 Ordet *online* har ersatts endast i dessa statusetiketter, där användaren
 behöver förstå anslutningsläget. Produktnamn, kodtermer och platshållare har
