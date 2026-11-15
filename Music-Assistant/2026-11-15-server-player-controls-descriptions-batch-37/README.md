@@ -28,8 +28,8 @@ avstängning vid inaktivitet, volymgränser, ljudavstängning och ljudkodekar.
 
 ## Status
 
-Tre strängar sparades manuellt i Lokalise 2026-11-15 och lästes tillbaka. En
-tidigare snabbkontroll var inte tillräcklig för de återstående elva raderna;
+Fyra strängar sparades manuellt i Lokalise 2026-11-15 och lästes tillbaka. En
+tidigare snabbkontroll var inte tillräcklig för de återstående tio raderna;
 de är markerade för radvis omkontroll innan deras status påstås. Arkivering och
 push pågår:
 Lokalise-tokenen saknar rättigheten `Upload files`.
