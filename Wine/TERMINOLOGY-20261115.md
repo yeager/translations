@@ -13,3 +13,9 @@
 | compilation error | kompileringsfel | JScript |
 | runtime error | körningsfel | JScript |
 | exception | undantag | Programmeringsfel |
+| remaining | återstår | Tidsåterstående; bevara `!u!`-platshållare |
+| flip on short/long edge | vänd längs kort-/långsidan | Dubbelsidig utskrift |
+| display mode | visningsläge | Bildskärmsinställning |
+| codec | kodek | Behåll tekniknamnet IYUV/Indeo |
+| axes | axlar | Spelkontroll |
+| rumble | vibration | Spelkontroll |
