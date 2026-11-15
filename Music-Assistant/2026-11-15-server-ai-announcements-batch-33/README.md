@@ -28,6 +28,7 @@ meddelandevolym och övertoning mellan olika samplingsfrekvenser.
 ## Status
 
 En tidigare snabbkontroll var inte tillräcklig för att intyga radvis
-verifiering. Sju av elva rader är nu verifierade i Lokalise; fyra återstår.
+verifiering. Sju rader är nu verifierade och en är manuellt sparad i Lokalise;
+tre återstår.
 Arkivering och push sker efter varje ändring:
 Lokalise-tokenen saknar rättigheten `Upload files`.
