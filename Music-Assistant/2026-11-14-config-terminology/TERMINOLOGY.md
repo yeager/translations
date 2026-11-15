@@ -10,6 +10,8 @@ Datum: 2026-11-14
 | Flow Mode | köflödesläge | Beskriver en enda sömlös ljudström för kön. |
 | sample rate | samplingsfrekvens | Etablerad ljudteknisk term. |
 | resample | sampla om | Används i den konkreta ljudinställningskontexten. |
+| bit-perfect | bitperfekt | Oförändrad digital ljudsignal utan omprovtagning. |
+| gapless playback | sömlös uppspelning | Uppspelning utan avbrott mellan spår. |
 | crossfade | övertoning | Samma term används i spelarinställningarna. |
 | queue playback | köuppspelning | Namn på kategorin för köns uppspelningsbeteende. |
 | enqueue | köa | Verb för att lägga ett medieobjekt i kön. |
