@@ -73,6 +73,7 @@ Efterföljande arbete finns i
 [`../2026-11-15/core-airzone-mqtt-batch-52.md`](../2026-11-15/core-airzone-mqtt-batch-52.md).
 [`../2026-11-15/core-http-https-encryption-batch-53.md`](../2026-11-15/core-http-https-encryption-batch-53.md).
 [`../2026-11-15/core-blebox-levels-probe-batch-54.md`](../2026-11-15/core-blebox-levels-probe-batch-54.md).
+[`../2026-11-15/core-overkiz-somfy-login-batch-55.md`](../2026-11-15/core-overkiz-somfy-login-batch-55.md).
 Totalt omfattar dagens arkiverade arbete därmed 177 direkt sparade och
 återlästa strängar.
 
