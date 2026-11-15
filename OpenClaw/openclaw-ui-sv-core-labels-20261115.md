@@ -3,8 +3,8 @@
 Datum: 2026-11-15  
 Upstream: [PR #199526](https://github.com/openclaw/openclaw/pull/199526)
 
-Sjutton delade poster i Control UI:s svenska översättningsminne har granskats
-och uppdaterats. De gäller sammanlagt 37 synliga positioner.
+Tjugotre delade poster i Control UI:s svenska översättningsminne har granskats
+och uppdaterats. De gäller sammanlagt 43 synliga positioner.
 
 | Segment | Engelska | Svenska |
 | --- | --- | --- |
@@ -25,6 +25,12 @@ och uppdaterats. De gäller sammanlagt 37 synliga positioner.
 | `profilePage.identity.gitCoauthorDescription` | commit history | incheckningshistoriken |
 | `presence.rosterTitle` | Online | Anslutna |
 | `presence.offline` | Offline | Frånkopplad |
+| `githubPublication.effectPullRequest` | pull request | pull-begäran |
+| `githubPublication.target` | Pull request: {repository} → {base} | Pull-begäran: {repository} → {base} |
+| `chat.pullRequests.empty` | No pull requests yet. | Inga pull-begäranden ännu. |
+| `profilePage.identity.prAttributionShort` | Appends this link to new pull requests: | Lägger till den här länken i slutet av nya pull-begäranden: |
+| `chat.pullRequests.actions` | Actions for pull request {reference} | Åtgärder för pull-begäran {reference} |
+| `chat.pullRequests.dismiss` | Dismiss pull request {reference} | Avfärda pull-begäran {reference} |
 
 De delade segmenten omfattar bland annat appens stödlänk, inställningar för
 automatiskt läge, färdigheter i agenter, chatt och inställningar samt den
