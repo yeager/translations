@@ -1,0 +1,12 @@
+{
+  "provider.fastmcp_server.config_entries.enforce_audience.label": "Tillämpa tokenmålgrupp (RFC 8707)",
+  "provider.fastmcp_server.config_entries.extra_allowed_origins.description": "Kommaseparerad lista med ytterligare `Origin`-huvuden som ska accepteras, till exempel `https://ha.example.com` för Home Assistant-ingress eller ett värdnamn för en omvänd proxy. Som standard accepterar servern endast `localhost`, `127.0.0.1`, värdnamnet i MA:s `base_url` och `publish_ip`. Origin-värden som inte matchar avvisas med 403 för att motverka DNS-återbindning.",
+  "provider.fastmcp_server.config_entries.extra_allowed_origins.label": "Ytterligare tillåtna Origin-värden (CSV)",
+  "provider.fastmcp_server.config_entries.mount_path.description": "HTTP-sökvägsprefix där MCP-servern monteras på MA:s webbserver. Ändra bara om den krockar med en annan rutt.",
+  "provider.fastmcp_server.config_entries.mount_path.label": "Monteringssökväg",
+  "provider.fastmcp_server.config_entries.open_connect.description": "Guidat installationsflöde för Claude Code, Cursor, OpenCode, VSCode och andra MCP-klienter med statisk token. Skapar en token per klient med etiketten `MCP — <Client>` (kan återkallas under Profil → Långlivade åtkomsttoken) och ger granskade anslutningsmetoder.",
+  "provider.fastmcp_server.config_entries.open_connect.label": "Öppna anslutningsguiden",
+  "provider.fastmcp_server.config_entries.require_auth.description": "Kräv en aktuell, aktiverad Music Assistant-användare och token för MCP-begäranden. Låt autentisering vara aktiverad vid normal användning.",
+  "provider.fastmcp_server.config_entries.require_auth.label": "Kräv autentisering",
+  "provider.fastmcp_server.config_entries.require_confirmation.description": "Be MCP-klienten bekräfta innan verktyg som kan radera data körs (`clear_queue`, `remove_item`, `remove_tracks`, `remove_from_library`, `remove_from_favorites`). Om klienten inte stöder begäran om bekräftelse styrs anropet av behörighetsflaggan."
+}
