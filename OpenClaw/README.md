@@ -17,8 +17,9 @@ produktnamn är medvetet orörda.
 Control UI:s översättningsminne. Den ersätter de gemensamma etiketterna
 `Support`, `Skills`, `Auto` och `Trending` med Stöd, Färdigheter, Automatiskt
 och Populära. Den förbättrar också formuleringar för ändringar och
-heartbeat-övervakning. De sju posterna används på sammanlagt 26 ställen i
-webbgränssnittet. Upstream-PR
+heartbeat-övervakning och gör Git-terminologin konsekvent med den befintliga
+svenska termen incheckning. De femton posterna används på sammanlagt 34
+ställen i webbgränssnittet. Upstream-PR
 [#199526](https://github.com/openclaw/openclaw/pull/199526) skapades
 2026-11-15 och väntar på granskning. PR:ens kontroll för sammanhang och
 underlag passerar. Även här är den övergripande statusen `openclaw/ci-gate`
