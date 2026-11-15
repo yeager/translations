@@ -7,7 +7,7 @@ standardbeteende i inställningarna för intelligent slumpning. Termerna
 *spelarkö*, *intelligent slumpning* och *Smart Fades* följer projektets
 terminologilista och intilliggande UI-texter.
 
-Status: lokalt granskad och arkiverad. Tretton strängar sparades manuellt i Lokalise
+Status: lokalt granskad och arkiverad. Fjorton strängar sparades manuellt i Lokalise
 2026-11-15 och lästes tillbaka. Övriga nycklar ska jämföras med Lokalise före
 manuell sparning.
 
