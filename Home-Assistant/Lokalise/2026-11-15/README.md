@@ -14,3 +14,10 @@ release kopplad till batchen.
 `msgfmt` är inte tillämpligt på Lokalise-JSON. JSON-, l10n-lint-,
 svlang-, Hunspell-, diff- och Gitleaks-kontroller dokumenteras tillsammans med
 batchens arkivering.
+
+Den 16 november återställdes dessutom åtta enspråkiga poster med avsiktligt
+tom engelsk källa från felaktiga värden “Tom” till tom svensk text via
+Lokalise API. Värden med engelska *Empty* för behållare, nivåer och
+förbrukningsmaterial har inte ändrats, eftersom *Tom* där är korrekt i sitt
+sammanhang. Poster med engelska *Clear* granskas separat efter
+integrationskontext, inte genom en generell ersättning.
