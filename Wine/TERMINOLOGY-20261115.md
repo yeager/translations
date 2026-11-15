@@ -24,3 +24,6 @@
 | typed array | typad array | ECMAScript-fel |
 | non-extensible | icke-utbyggbar | ECMAScript-objekt |
 | DataView | DataView | API-namn, översätt inte |
+| Central Europe | Centraleuropa | Språk-/skriptgrupp |
+| Turkic | turkiska språk | Språkgrupp, inte enbart turkiska |
+| Traditional/Simplified Chinese | traditionell/förenklad kinesiska | Språk-/skriptgrupp |
