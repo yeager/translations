@@ -89,3 +89,10 @@ Radgranskad komponent: `views-exports` (87). Två rättningar behövdes:
 Radgranskad komponent: `objects` (129). Inga ändringar behövdes. Etiketterna
 följer vedertagna svenska namn för objektigenkänning; varumärken och
 transportörnamn behålls oförändrade.
+
+## Batch 010
+
+Radgranskad komponent: `common` (273). Åtta rättningar behövdes: sex
+dataenheter bevarar byte (`B`) i stället för den felaktiga bit-omvandlingen
+(`bit`), och två texter använder nu de etablerade termerna
+*granskningsobjekt* respektive *urklipp*.
