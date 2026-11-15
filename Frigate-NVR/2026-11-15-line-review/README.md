@@ -146,3 +146,9 @@ fel rättades: `Motion tuner` betecknar inställningsverktyget
 Tredje läspasset av `views-settings`: 100 ytterligare strängar. Tre rättningar
 behövdes: båda valfria fälten använder *Valfritt*, och RTSP-valideringen
 bevarar både `rtsp://` och `rtsps://` från källtexten.
+
+## Batch 018
+
+Fjärde läspasset av `views-settings`: 100 ytterligare strängar.
+Inga rättningar behövdes. Protokoll, produktnamn och tekniska termer i
+kameraassistenten är korrekta och bevarar källans funktion.
