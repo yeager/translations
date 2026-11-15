@@ -43,6 +43,20 @@ kontrollträffar. De kvarvarande träffarna granskas separat; tekniska namn som
 Kontroller: `jq empty`, `l10n-lint`, käll- och tokenjämförelse, API-läsning,
 `git diff --check` och Gitleaks.
 
+## Batch 005
+
+Batchen omfattar formulärflikar, extra egenskaper, rollmappningar,
+FFmpeg-argument, indataströmmar och konfigurationsavsnitt. Hosted Weblate
+accepterade samtliga 54 strängar. Komponenten står därefter på 854 av 1 409
+översatta strängar och 0 fuzzy.
+
+Kontrollträffar i den här delen avser korrekta tekniska namn: `go2rtc`,
+`FFmpeg`, `GenAI` och `Birdseye`. De är dokumenterade undantag; inga
+översättningar ändrades för att dölja dem.
+
+Kontroller: `jq empty`, `l10n-lint`, käll- och tokenjämförelse,
+`git diff --check` och Gitleaks.
+
 ## Batch 003
 
 Batchen omfattar sidtitlar, inställningsmenyer, sparade ändringar, Frigate+ och
