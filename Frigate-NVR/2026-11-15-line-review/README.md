@@ -30,3 +30,10 @@ Radgranskade komponenter: `components-camera` (50), `views-replay` (46) och
 Två funktionella rättningar i `views-search`: exemplen `cameras:`, `before:`
 och `after:` är filterkommandon som användaren ska skriva och får därför inte
 översättas. De bekräftades mot Frigates implementation av textfilter.
+
+## Batch 003
+
+Radgranskade komponenter: `views-motionsearch` (66) och `views-chat` (66).
+Inga rättningar behövdes. Svenska målkatalogen hämtades från Hosted Weblate och
+jämfördes rad för rad med den engelska källkatalogen på Frigates aktuella
+utvecklingsgren.
