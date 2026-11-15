@@ -75,6 +75,19 @@ Detta är inte en markering som granskad i Transifex. De uppladdade raderna har 
 | `dwarf-fortress-steam` / `text_set` | 354/354 översatta, 0 granskade | Inga oöversatta strängar. |
 | `dwarf-fortress-steam` / `hardcoded_steam` | Se uppdateringen ovan | Fortsatt radvis granskning och översättning av oöversatta UI- och spelsträngar. |
 
+### Uppdatering 2026-11-15
+
+- Batcherna 81–87 för `hardcoded_steam` innehåller 222 nya svenska
+  deltaöversättningar. Varje batch har validerats lokalt och importerats med
+  ett Transifex JSON:API-anrop.
+- Direkt API-återläsning bekräftade 222 av 222 exakta måltexter efter import.
+  Statusposterna och deltafilerna finns under `../2026-11-14/` och
+  `../2026-11-15/`.
+- `dfint-installer` / `application` kontrollerades på nytt via API den
+  2026-11-15 och har fortfarande 0 oöversatta svenska strängar.
+- De inskickade översättningarna är inte automatiskt granskade, finaliserade
+  eller publicerade i en release.
+
 ## Filer
 
 - `dwarf-fortress-text-set-batch01-sv-20261113.jsonl`: oförändrad deltafil med de tio uppladdade måltexterna.
