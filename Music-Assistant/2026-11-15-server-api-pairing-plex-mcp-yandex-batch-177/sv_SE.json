@@ -1,0 +1,12 @@
+{
+  "provider.sendspin.config_entries.verify_pin_start.description": "Bekräfta att det är den fysiska enheten framför dig genom att ange dess dynamiska PIN-kod. Avbryter uppspelningen kort.",
+  "provider.sendspin.config_entries.verify_pin_start.label": "Verifiera enhetens närvaro",
+  "provider.plex.config_entries.extended_recommendations.description": "Visa ytterligare rekommendationsnav på instrumentpanelen, bland annat 'Mixar för dig', senaste spellistorna från biblioteket och utgåvorna 'På den här dagen'. Matchar de nav som Plex egna klienter visar. Ändringarna gäller vid nästa uppdatering av rekommendationer.",
+  "provider.plex.config_entries.extended_recommendations.label": "Utökade rekommendationer",
+  "provider.fastmcp_server.config_entries.meta_tool_discovery.description": "Exponera bara tre metaverktyg (search_tools, get_tool_schema, call_tool) i stället för hela verktygslistan. Agenter upptäcker funktioner vid behov genom rankad sökning, hämtar ett schema i taget och kör via proxyn call_tool. Det minskar sessionskontexten för MCP-värdar som läser in varje verktygsschema i förväg. Behörighetsflaggor och bekräftelse för destruktiva åtgärder gäller fortfarande för anrop via proxyn. Låt vara avstängt för värdar som skjuter upp verktygsscheman inbyggt, till exempel Claude.",
+  "provider.fastmcp_server.config_entries.meta_tool_discovery.label": "Förenklad verktygsupptäckt",
+  "provider.yandex_station.config_entries.cookies.description": "Öppna passport.yandex.ru/profile i webbläsaren, använd tillägget ”Copy Cookies” för att kopiera kakor och klistra sedan in dem här. Stöder JSON-matris eller rå kaksträng.",
+  "provider.yandex_station.config_entries.cookies.label": "Webbläsarkakor",
+  "provider.yandex_station.config_entries.intercept_enabled.description": "När Station startar inbyggd uppspelning från Yandex Music, normalt med ett röstkommando till Alice men även genom tryck på Stations gränssnitt, tystas Station (setVolume 0; Station fortsätter att spela sin egen kö i bakgrunden så att varje nästa spår upptäcks) och samma spår spelas på den valda målspelaren. Kräver att avlyssningsfunktionen på leverantörsnivå är aktiverad och att musikleverantören 'yandex_music' är konfigurerad.",
+  "provider.yandex_station.config_entries.intercept_enabled.label": "Experimentellt: fånga upp Stations inbyggda uppspelning"
+}
