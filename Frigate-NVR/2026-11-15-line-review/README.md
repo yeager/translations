@@ -120,3 +120,11 @@ Radgranskad komponent: `views-explore` (147). Två rättningar behövdes:
 
 - *Högsta poäng* ersätter den felaktiga sammansättningen med tre p.
 - Raderingsvarningen bevarar den avsiktliga betoningen `INTE` i markupen.
+
+## Batch 014
+
+Radgranskad komponent: `views-system` (282). Tre rättningar behövdes:
+
+- Två texter om nyckelrutors intervall har nu korrekt svensk satsstruktur.
+- Diagrametiketten för bildrutor och detekteringar följer källans mellanrum
+  kring snedstrecket.
