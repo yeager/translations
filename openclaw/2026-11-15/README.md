@@ -89,3 +89,11 @@ värdena i Android-, iOS- och macOS-resurserna. Ett lokalt macOS-bygge hann
 inte starta kompileringen eftersom SwiftPM:s Node-probe avslutades av systemet.
 Det är inte ett påstående om att den svenska UI-återgivningen har verifierats;
 PR:n står därför kvar öppen för skärmbildsbevis.
+
+Uppföljning 2026-11-16: båda öppna PR:erna har nu nyare commits än den
+senaste beständiga ClawSweeper-granskningen. Robotens aktuella instruktion är
+att kommentera `@clawsweeper re-review` först när respektive huvudrevision är
+redo. Det tidigare kravet på verkligt körningsbevis för ett svenskt Android-
+eller Apple-gränssnitt kvarstår dock, så någon ny granskningsbegäran har inte
+skickats ännu. PR #199519 och PR #199526 är fortfarande öppna och saknar
+formellt granskningsbeslut.
