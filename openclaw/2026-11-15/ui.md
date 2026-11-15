@@ -69,7 +69,7 @@ och uppdaterats. De gäller minst 85 synliga positioner.
 | `skillGroups.builtIn` | Built-in skills | Inbyggda färdigheter |
 | `skillGroups.workspace` | Workspace skills | Färdigheter i arbetsytan |
 | `skillGroups.extra` | Extra skills | Extra färdigheter |
-| `skillsPage.mode.offTitle` | The agent does not save or update skills… | Agenten sparar eller uppdaterar inte färdigheter… |
+| `skillWorkshop.mode.offTitle` | The agent does not save or update skills… | Agenten sparar eller uppdaterar inte färdigheter… |
 
 De delade segmenten omfattar bland annat appens stödlänk, inställningar för
 automatiskt läge, färdigheter i agenter, chatt och inställningar samt den
