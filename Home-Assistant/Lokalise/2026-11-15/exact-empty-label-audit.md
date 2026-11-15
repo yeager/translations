@@ -1,15 +1,30 @@
-# Home Assistant Swedish `Tom`/`Tomt` audit
+# Home Assistant Core, svenska: kontroll av tomma etiketter
 
-Date: 2026-11-15
+## Omfattning
 
-The Lokalise API was queried directly for every Swedish translation in project
-`130246255a974bd3b5e8a1.51616605`, language ID `754`.
+En fullständig läsning via Lokalise API av projektet **Home Assistant - Core**
+(projekt-ID `130246255a974bd3b5e8a1.51616605`). Sökningen omfattade samtliga
+150 API-sidor och 74 564 svenska översättningar som returnerades under
+genomgången.
 
-- Total keys examined: 74,540.
-- Exact Swedish target values `Tom`: 0.
-- Exact Swedish target values `Tomt`: 0.
-- Changes submitted in this pass: 0.
+## Resultat
 
-This verifies that the previously corrected false-empty labels are not present
-as exact Swedish target strings in the current API-visible catalog. It does not
-claim a complete linguistic review of the entire Home Assistant catalog.
+Inga svenska översättningar innehåller något av orden `Tom`, `Tomt` eller
+`Tomma`. Inga ändringar behövde sparas.
+
+Det är viktigt att skilja en synlig etikett med innebörden *empty* från ett
+avsiktligt tomt strängvärde. De senare ska även fortsättningsvis vara tomma,
+inte översättas till "Tom".
+
+## Verifiering
+
+- Lokalise API:s paginering gick igenom sidorna 1--150.
+- Varje returnerad svensk översättning kontrollerades med ordgränser för
+  `Tom`, `Tomt` och `Tomma`.
+- Träffar: 0.
+
+## Status
+
+Ingen uppladdning behövdes. Detta är en läsverifiering av den aktuella
+upstream-statusen i Lokalise, inte ett påstående om att hela den svenska
+lokaliseringen i övrigt är språkgranskad.
