@@ -7,7 +7,8 @@ språk, MusicBrainz-länkning, genremetadata och miniatyrbildscache.
 Produktnamn och filformat har bevarats där de visas i gränssnittet.
 
 Status: en tidigare snabbkontroll räckte inte för radvis verifiering. Fem
-strängar är nu sparade och återlästa i Lokalise; sju återstår.
+strängar är sparade och återlästa i Lokalise, och en är verifierad oförändrad;
+sex återstår.
 
 Kontroller: JSON, källnycklar, l10n-lint, svlang, Hunspell, kontroll av tre
 identiska tecken, diffkontroll och Gitleaks. `msgfmt` är inte tillämpligt på
