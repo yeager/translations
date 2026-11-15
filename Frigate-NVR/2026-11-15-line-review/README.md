@@ -306,13 +306,15 @@ Hunspell kördes inte eftersom användaren begärt att begränsa dess CPU-belast
 Status 2026-11-15: lokalt granskat och arkiverat i `yeager/translations`.
 Hosted Weblate tillåter inte direkt ersättning av redan översatta poster med
 den tillgängliga behörigheten. De kontrollerade ändringarna skickas därför som
-granskningsförslag. API:t har tagit emot 38 förslag i komponenterna `audio`,
-`common`, `views-configeditor`, `components-dialog`, `components-filter`,
-`config-validation`, `views-events`, `views-explore`, `views-exports`,
-`views-classificationmodel` och `views-facelibrary`.
+granskningsförslag. API:t har tagit emot samtliga 196 ändringar som kan kopplas
+till en befintlig Weblate-komponent. De blev 194 förslagsenheter, eftersom fyra
+pluralformer i två översättningsenheter räknas parvis av Weblate. Förslagen
+omfattar `audio`, `common`, `views-configeditor`, `components-dialog`,
+`components-filter`, `config-validation`, `views-events`, `views-explore`,
+`views-exports`, `views-classificationmodel`, `views-facelibrary`,
+`views-live`, `views-search`, `views-settings`, `views-system`, `config-cameras`
+och `config-global`.
 
-De 38 förslagen är mottagna men inte godkända eller införda i den publicerade
-svenska katalogen. Återstående 158 validerade ändringar väntar på en ny
-uppladdningsperiod efter Weblates begränsning av förfrågningar. De 81
-granskade posterna i `views/setup` saknar motsvarande Weblate-komponent och
-kan därför inte skickas in där.
+Förslagen är mottagna men inte godkända eller införda i den publicerade svenska
+katalogen. De 81 granskade posterna i `views/setup` saknar motsvarande
+Weblate-komponent och kan därför inte skickas in där.
