@@ -196,3 +196,9 @@ Elfte läspasset av `views-settings`: sträng 1 001–1 100 av 1 434. Elva
 rättningar behövdes. Medietyper, integrationer, registreringsskyltar,
 svensk typografi, strömordning och ärvda FFmpeg-inställningar är nu
 terminologiskt och grammatiskt konsekventa.
+
+## Batch 026
+
+Tolfte läspasset av `views-settings`: sträng 1 101–1 200 av 1 434. Två
+rättningar behövdes: snedstreckstypografin följer svensk UI-praxis och
+GenAI-rollen använder den etablerade termen *inbäddning*.
