@@ -15,8 +15,9 @@ produktnamn är medvetet orörda.
 
 `openclaw-ui-sv-core-labels-20261115.md` dokumenterar en liten batch för
 Control UI:s översättningsminne. Den ersätter de gemensamma etiketterna
-`Support`, `Skills` och `Auto` med Stöd, Färdigheter och Automatiskt. De tre
-posterna används på sammanlagt 22 ställen i webbgränssnittet. Upstream-PR
+`Support`, `Skills`, `Auto` och `Trending` med Stöd, Färdigheter, Automatiskt
+och Populära. De fyra posterna används på sammanlagt 23 ställen i
+webbgränssnittet. Upstream-PR
 [#199526](https://github.com/openclaw/openclaw/pull/199526) skapades
 2026-11-15 och väntar på granskning.
 
