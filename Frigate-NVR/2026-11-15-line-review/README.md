@@ -158,3 +158,9 @@ kameraassistenten är korrekta och bevarar källans funktion.
 Femte läspasset av `views-settings`: 100 ytterligare strängar. Två rättningar
 behövdes: rubriken beskriver nu *Kamerastatus och detaljer*, och *friendly
 name* använder den redan etablerade termen *visningsnamn*.
+
+## Batch 020
+
+Sjätte läspasset av `views-settings`: 100 ytterligare strängar. Tre
+granskningstermer rättades så att de konsekvent avser *granskning* och
+*granskningsobjekt*.
