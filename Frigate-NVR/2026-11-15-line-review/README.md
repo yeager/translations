@@ -113,3 +113,10 @@ behövdes: korrekta statusformer för pågående generering, *Senaste
 klassificeringar* i stället för den felaktiga betydelsen ”nyligen tillagda”,
 korrekt resultattext vid namnbyte och en omskriven informationstext som nu
 återger källans betydelse.
+
+## Batch 013
+
+Radgranskad komponent: `views-explore` (147). Två rättningar behövdes:
+
+- *Högsta poäng* ersätter den felaktiga sammansättningen med tre p.
+- Raderingsvarningen bevarar den avsiktliga betoningen `INTE` i markupen.
