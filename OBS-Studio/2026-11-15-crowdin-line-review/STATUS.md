@@ -127,6 +127,12 @@ Component: `Frontend` (properties, transforms and main menus; keys 541–720 in 
 
 The next 180 local English source keys were compared one by one with Swedish. `frontend-properties-transform-menu.delta.json` records 18 corrections for properties terminology, reconnecting status text, transform modes, virtual-camera choices and menus. Placeholders and access-key markup remain present.
 
+## Reviewed batch 17 — pending upstream save
+
+Component: `Frontend` (general, streaming and output settings; keys 721–900 in local source order)
+
+The next 180 local English source keys were compared one by one with Swedish. `frontend-general-stream-settings.delta.json` contains 25 corrections for general preferences, snapping, system-tray wording, multiview layouts, stream settings and fragmented-recording tooltips. Placeholders, markup, line breaks and menu paths are retained.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.

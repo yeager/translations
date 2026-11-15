@@ -44,6 +44,9 @@ Updated: 2026-11-15.
 | rendering lag | renderingsfördröjning | Statistics label. |
 | Display Capture | bildskärmsfångst | Source-type label. |
 | remuxing | remuxning | Use `remuxa` as the verb and `remuxning` as the noun. |
+| snapping | fästning | Use `fästning` in settings labels and `fäst` in action text. |
+| System Tray | systemfält | Use consistently in all related settings. |
+| Config Override | konfigurationsåsidosättning | JSON configuration setting. |
 
 ## Style decisions
 
