@@ -7,11 +7,12 @@ extra värden vid kontroll 2026-11-15.
 Projektet är aktivt: den senaste stabila utgåvan, `v2026.11.3`, publicerades
 2026-11-10.
 
-`openclaw-native-sv-status-labels-20261115.patch` kompletterar tio synliga
-etiketter som tidigare stod kvar på engelska. Ändringen omfattar
-Färdigheter, Stöd, anslutningsstatus och frånkopplad Gateway i Android- och
-Apple-gränssnitten samt System (automatiskt) på macOS. Kodord, kommandon och
-produktnamn är medvetet orörda.
+`openclaw-native-sv-status-labels-20261115.patch` kompletterar tjugoen
+synliga etiketter som tidigare stod kvar på engelska. Ändringen omfattar
+Färdigheter, sessionssökning, sessionshistorik, webbsökning, Stöd,
+anslutningsstatus och frånkopplad Gateway i Android- och Apple-gränssnitten
+samt System (automatiskt) på macOS. Kodord, kommandon och produktnamn är
+medvetet orörda.
 
 `openclaw-ui-sv-core-labels-20261115.md` dokumenterar en liten batch för
 Control UI:s översättningsminne. Den ersätter de gemensamma etiketterna
@@ -19,7 +20,7 @@ Control UI:s översättningsminne. Den ersätter de gemensamma etiketterna
 och Populära. Den förbättrar också formuleringar för ändringar och
 heartbeat-övervakning och gör Git-terminologin konsekvent med den befintliga
 svenska termen incheckning. Batchen omfattar nu även närvarolistan
-`Online` → Anslutna och statusen `Offline` → Frånkopplad. De sjutton
+`Online` → Anslutna och statusen `Offline` → Frånkopplad. De fyrtio
 posterna används på sammanlagt 60 ställen i webbgränssnittet. Där skiljs också
 inläsning av vyer och resurser från nedladdning av filer. I samma batch
 normaliseras fjorton synliga förekomster av GitHub-termen pull request till
@@ -32,11 +33,14 @@ hemligheter. `l10n-lint` stöder inte översättningsminnets JSONL-format och
 räknas därför inte som en passerad kontroll. PR:en kräver fortfarande
 skärmbildsbevis från ett byggt svenskt Control UI före merge.
 
-Kontroller: JSON-paritet, `git diff --check`, svlang, Hunspell-sv,
-l10n-lint och Gitleaks passerar. Upstream-PR
+Kontroller: JSON-parsning, Hunspell-sv, svlang för de enskilda tillagda
+etiketterna och en fokuserad Gitleaks-kontroll av de nya värdena passerar.
+Upstream-PR
 [#199519](https://github.com/openclaw/openclaw/pull/199519) skapades
 2026-11-15 och väntar på granskning. PR:ens kontroll för sammanhang och
 underlag passerade efter att problemformulering och testunderlag lagts till.
+Den äldre resursverifieringen avsåg den föregående PR-revisionen; den
+uppdaterade resursverifieringen återstår.
 Den övergripande statusen `openclaw/ci-gate` är fortfarande röd med den
 generiska uppmaningen att CI måste slutföras. Den hänvisade körningen för
 säkerhetsgranskning passerade. ClawSweeper har därefter begärt körningsbevis
