@@ -17298,3 +17298,22 @@ stället för det missvisande *klämning*. Deltafilens SHA-256 är
 `msgfmt`, l10n-lint och Gitleaks passerade. Batchen är lokalt arkiverad och
 väntar på manuell import.
 
+## Importberedning 15 november 2026 — batch 1 674–1 709
+
+De senast arkiverade UI-deltana har slagits ihop utan helfilsimport, i två
+separata importfiler: `blender-ui-sv-reviewed-import-batch-1674-1690-20261115.po`
+med 79 översatta poster och
+`blender-ui-sv-reviewed-import-batch-1691-1709-20261115.po` med 68
+översatta poster. Gemensamma nycklar har slagits samman, så sammanställningen
+innehåller 147 unika översättningar och ligger under gränsen på 100 strängar
+per uppladdning.
+
+Båda filerna har validerats med `msgfmt`, `l10n-lint`, `git diff --check` och
+Gitleaks. `l10n-lint` rapporterar bara informationssignaler för den andra
+filens platshållare och den tekniska förkortningen USD, inga fel eller
+varningar. Den sparade Blender Translate-tokenen testades mot API-roten den
+15 november 2026 och fick HTTP 403. Ingen import har därför gjorts och ingen
+av de 147 posterna får räknas som upstream-inskickad. Nästa steg är att
+återställa behörigheten eller använda en inloggad webbläsarsession och sedan
+kontrollera Weblates importresultat för vardera fil.
+
