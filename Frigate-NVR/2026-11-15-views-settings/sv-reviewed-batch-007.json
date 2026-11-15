@@ -1,0 +1,66 @@
+{
+  "menu": {
+    "systemGo2rtcStreams": "go2rtc-strömmar"
+  },
+  "go2rtcStreams": {
+    "title": "go2rtc-strömmar",
+    "description": "Hantera go2rtc-strömkonfigurationer för att återströmma kameror. Varje ström har ett namn och en eller flera käll-URL:er.",
+    "addStream": "Lägg till ström",
+    "addStreamDesc": "Ange ett namn för den nya strömmen. Namnet används för att hänvisa till strömmen i kamerakonfigurationen.",
+    "addUrl": "Lägg till URL",
+    "streamName": "Strömnamn",
+    "streamNamePlaceholder": "t.ex. front_door",
+    "streamUrlPlaceholder": "t.ex. rtsp://user:pass@192.168.1.100/stream",
+    "deleteStream": "Ta bort ström",
+    "deleteStreamConfirm": "Vill du verkligen ta bort strömmen \"{{streamName}}\"? Kameror som hänvisar till strömmen kan sluta fungera.",
+    "noStreams": "Inga go2rtc-strömmar har konfigurerats. Lägg till en ström för att komma igång.",
+    "validation": {
+      "nameRequired": "Strömnamn krävs",
+      "nameDuplicate": "Det finns redan en ström med det här namnet",
+      "nameInvalid": "Strömnamnet får endast innehålla bokstäver, siffror, understreck och bindestreck",
+      "urlRequired": "Minst en URL krävs"
+    },
+    "renameStream": "Byt namn på ström",
+    "renameStreamDesc": "Ange ett nytt namn för den här strömmen. Att byta namn på en ström kan göra att kameror eller andra strömmar som hänvisar till den slutar fungera.",
+    "newStreamName": "Nytt strömnamn",
+    "ffmpeg": {
+      "useFfmpegModule": "Använd kompatibilitetsläge (ffmpeg)",
+      "video": "Video",
+      "audio": "Ljud",
+      "hardware": "Maskinvaruacceleration",
+      "videoCopy": "Kopiera",
+      "videoH264": "Omkoda till H.264",
+      "videoH265": "Omkoda till H.265",
+      "videoExclude": "Uteslut",
+      "audioCopy": "Kopiera",
+      "audioAac": "Omkoda till AAC",
+      "audioOpus": "Omkoda till Opus",
+      "audioPcmu": "Omkoda till PCM μ-law",
+      "audioPcma": "Omkoda till PCM A-law",
+      "audioPcm": "Omkoda till PCM",
+      "audioMp3": "Omkoda till MP3",
+      "audioExclude": "Uteslut",
+      "hardwareNone": "Ingen maskinvaruacceleration",
+      "hardwareAuto": "Automatisk (rekommenderas)"
+    }
+  },
+  "configForm": {
+    "ffmpegArgs": {
+      "none": "Ingen",
+      "useGlobalSetting": "Ärv från global inställning"
+    },
+    "genaiRoles": {
+      "options": {
+        "embeddings": "Inbäddningar"
+      }
+    },
+    "semanticSearchModel": {
+      "placeholder": "Välj modell…",
+      "builtIn": "Inbyggda modeller",
+      "genaiProviders": "GenAI-leverantörer"
+    },
+    "camera": {
+      "noCameras": "Inga kameror tillgängliga"
+    }
+  }
+}
