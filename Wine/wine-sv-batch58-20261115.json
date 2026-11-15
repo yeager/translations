@@ -1,0 +1,21 @@
+{
+  "project": "Wine",
+  "component": "po/sv.po",
+  "source_revision": "9f8c4ae4d35c7ff4153267aba9618c026f5f5583",
+  "date": "2026-11-15",
+  "status": "locally reviewed; not submitted upstream",
+  "strings_reviewed": 9,
+  "scope": "Registry Editor, tasklist and Winecfg UI",
+  "decisions": [
+    "Correct QWORD, 64-bit value and selected-value UI labels.",
+    "Keep registry value placeholders and Winecfg confirmation text intact.",
+    "Translate tasklist filtering diagnostics with the ERROR prefix retained as FEL."
+  ],
+  "validation": {
+    "msgfmt": "passed",
+    "git_diff_check": "passed",
+    "gitleaks": "passed",
+    "svlang": "ran; existing global findings reviewed separately",
+    "l10n_lint": "ran; pre-existing catalog baseline remains"
+  }
+}
