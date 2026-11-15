@@ -1,0 +1,22 @@
+{
+  "project": "Calibre Web Companion",
+  "component": "metadata",
+  "language": "sv",
+  "entries": [
+    {
+      "unit": 196655902,
+      "context": "changelogs/39.txt:1",
+      "target": "- Funktion: Startskärmswidgetar har lagts till (snabbåtgärder, statistik, bok som läses just nu, hyllrutnät).\n- Rättat: FileOpener använde inte rätt MIME-typ för EPUB-filer, vilket gjorde att vissa appar inte kunde öppna dem korrekt.\n- Rättat: SSO-inloggningsflödet har uppdaterats och cookiehanteringen i LoginRemoteDataSource har förbättrats\n- Språk: Översättningar till spanska (@Libre), italienska (@Michele Abbondanza), ungerska (@Márton Kónya) och kinesiska (förenklad han-skrift) (@Mas Wang) har uppdaterats."
+    },
+    {
+      "unit": 201612430,
+      "context": "changelogs/2413.txt:1",
+      "target": "- Funktion: ISBN-skanning frågar nu flera kataloger samtidigt (Open Library, Google Books, BnF samt valfritt Hardcover och ISBNdb) och sammanfogar deras metadata. Källor kan aktiveras/inaktiveras och ordnas om i inställningarna.\n- Funktion: Det nya hämtningsschemat ”Endast serie” sparar böcker till /series/book.epub, och med en anpassad sökvägsbyggare sätts hämtningssökvägen ihop av byggblock som {author}, {series}, {series_index} eller {year}.\n- Funktion: Hämtade böcker kan öppnas i en extern läsare från offlinebiblioteket.\n- Rättat: Sidor i Upptäck använder nu sidindelning korrekt.\n- Rättat: När en redan hämtad bok öppnas i en extern läsare väntar den inte längre på en omslagsbegäran; cachelagrade offlinemetadata återanvänds.\n- Rättat: Uppladdningar behåller filnamnet från filväljaren och återställer en saknad filändelse från filinnehållet, så att böcker från molnleverantörer inte längre avvisas. En avvisad uppladdning rapporteras inte längre som lyckad, utan serverns felmeddelande visas i stället."
+    },
+    {
+      "unit": 209054842,
+      "context": "changelogs/2493.txt:1",
+      "target": "Ny funktion: Alternativet ”Använd SSO-session för nedladdaren” gör att nedladdaren kan fungera bakom samma SSO-proxy (t.ex. Authelia, Authentik) som Calibre-Web; detta inkluderar hantering av omslagsbilder och automatisk återinloggning.\nÅtgärd: Nedladdaren visar nu ett tydligt felmeddelande i stället för ett JSON-fel när en autentiseringsproxy returnerar sin inloggningssida.\nÅtgärd: Inloggning och automatisk återinloggning fungerar återigen i Calibre-Web-NextGen, som tidigare svarade med felmeddelanden som ”CSRF token not found” eller ”Session not accepted”"
+    }
+  ]
+}
