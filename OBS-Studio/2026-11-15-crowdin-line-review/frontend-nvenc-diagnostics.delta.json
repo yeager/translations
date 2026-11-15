@@ -1,0 +1,16 @@
+{
+  "project": "OBS Studio",
+  "platform": "Crowdin",
+  "locale": "sv-SE",
+  "component": "App/Frontend",
+  "reviewed_at": "2026-11-16",
+  "reviewed_strings": 19,
+  "changes": [
+    {"key":"EncoderMissing.NVENC.TestProgramFailedStartup","before":"NVENC-kontrollprogrammet misslyckades att startas","after":"Det gick inte att starta NVENC-kontrollprogrammet","reason":"Use natural Swedish error wording."},
+    {"key":"EncoderMissing.NVENC.TestProgramExitWithError","before":"NVENC-kontrollprocessen misslyckades, slutkod: %1","after":"NVENC-kontrollprocessen avslutades med fel, avslutningskod: %1","reason":"Restore the process-exit meaning and retain %1."},
+    {"key":"EncoderMissing.NVENC.TestProgramReadFailure","before":"NVENC-kontrollprocessens utmatning misslyckades att läsas, slutkod: %1","after":"Det gick inte att läsa utmatningen från NVENC-kontrollprocessen, avslutningskod: %1","reason":"Use natural Swedish error wording and retain %1."},
+    {"key":"EncoderMissing.NVENC.TestProgramError","before":"NVENC-kontrollen misslyckades med orsaken: %1","after":"NVENC-kontrollen misslyckades av följande orsak: %1","reason":"Use idiomatic Swedish and retain %1."},
+    {"key":"EncoderMissing.NVENC.Reason.CudaVersion","before":"Ogiltig/saknad CUDA-version","after":"Ogiltig eller saknad CUDA-version","reason":"Use Swedish coordination instead of a source-style slash."},
+    {"key":"EncoderMissing.NVENC.Reason.SessionLimitExceeded","before":"Gränsen för kodarsession överskreds","after":"Gränsen för kodarsessioner överskreds","reason":"Use the plural noun for the session limit."}
+  ]
+}

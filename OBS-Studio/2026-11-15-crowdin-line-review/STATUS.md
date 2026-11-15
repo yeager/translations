@@ -151,6 +151,18 @@ Component: `Frontend` (about, import, YouTube and plugin manager; keys 1261–14
 
 The next 180 local English source keys were compared one by one with Swedish. `frontend-youtube-plugins.delta.json` contains 19 corrections for source meaning, product capitalization, direct UI wording, YouTube broadcasts and plugin-manager messages. Placeholders and markup are retained.
 
+## Reviewed batch 21 — pending upstream save
+
+Component: `Frontend` (NVENC diagnostics; keys 1441–1459 in local source order)
+
+The final 19 local English source keys were compared one by one with Swedish. `frontend-nvenc-diagnostics.delta.json` contains six diagnostics-wording corrections. The earlier `i stället` correction for the Kepler message remains in the existing frontend system-message batch and is intentionally not duplicated.
+
+## Local frontend review complete
+
+All 1,459 keys in the local English frontend snapshot were compared line by line. This proves the scope of the local snapshot only: it has 1,382 Swedish keys, while Crowdin contains newer Swedish keys and remains the authoritative upstream catalog. The archived delta files must be applied to current Crowdin strings individually or by an API flow that can list and verify the target translations; the raw local snapshot must not be uploaded wholesale.
+
+The archive now contains 277 prepared corrections across all reviewed OBS components. None has been saved to Crowdin in this work session.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
@@ -164,3 +176,5 @@ Crowdin currently lists 100%-translated Swedish components with widely varying a
 - svlang: the installed CLI only accepts plain text through `svlang check`; it has no INI parser. The translations were reviewed in their source/UI context instead.
 - Hunspell was intentionally not run, following the current CPU constraint.
 - Gitleaks: passed for the archive payload.
+- Final delta audit: all 277 proposed changes pass JSON parsing plus placeholder, markup and escaped-line-break parity checks; `git diff --check` and Gitleaks pass.
+- svlang: run on the combined delta text. Its aggregate score and 74 warnings are false positives caused by concatenated UI fragments, code/format tokens, product names and markup; each delta remains reviewed in source context. It has no INI parser.
