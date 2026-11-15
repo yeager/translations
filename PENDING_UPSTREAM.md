@@ -105,7 +105,7 @@
   efter typkontroll, test och terminologigranskning. Den första svenska
   TUI-batchen för fakturering är inskickad som
   [PR #156261](https://github.com/NousResearch/hermes-agent/pull/156261):
-  730 aktuella nycklar för fakturering, anslutningsdialoger, Journey-vyn,
+  747 aktuella nycklar för fakturering, anslutningsdialoger, Journey-vyn,
   statusraden, bekräftelsedialoger, kompositören, snabbhjälpen och
   gateway-meddelanden, säkerhetsdialoger, chattpanelen, startmeddelanden och
   kanoniska meddelanden för session, kö och bildhantering samt
@@ -113,8 +113,9 @@
   återanslutning, fel från modellleverantörer, körningsfel och
   prenumerationsöversikten, prenumerationsbekräftelser, utfall och
   behörighetssteg för fjärrbetalningar, teamabonnemang, sessionhantering och
-  batteriindikering, spärrade kommandon och köhantering, med kontrollerade
-  platshållare och engelskt reservfall för resterande UI.
+  batteriindikering, spärrade kommandon, köhantering samt styrning och
+  återställning av konversationer, med kontrollerade platshållare och
+  engelskt reservfall för resterande UI.
   Den statiska katalogen och återstående TUI-strängar
   kräver fortsatt struktur- och radgranskning före inskick.
 
