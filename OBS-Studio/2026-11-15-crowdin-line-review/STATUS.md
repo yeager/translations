@@ -189,6 +189,8 @@ The archive now contains 342 prepared corrections across all reviewed OBS compon
 
 2026-11-16: reviewed page 9 of the live `App/Core` component line by line in Crowdin (450 of 1,428 strings). Existing corrections in `frontend-phrasing.delta.json`, `frontend-system-messages.delta.json`, `frontend-youtube-plugins.delta.json` and `frontend-advanced-audio-hotkeys.delta.json` cover YouTube, multitrack-video, plugin-manager and streaming-error wording. `core-page-09.delta.json` adds 2 distinct encoder-configuration corrections. None has been saved upstream.
 
+2026-11-16: reviewed page 10 of the live `App/Core` component line by line in Crowdin (500 of 1,428 strings). The NVENC diagnostics, Kepler guidance and dropped-frames label are already corrected in `frontend-nvenc-diagnostics.delta.json`, `frontend-system-messages.delta.json` and `frontend-core-ui.delta.json`. Generic approved UI labels were retained. No duplicate delta was created and none has been saved upstream.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
