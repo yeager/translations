@@ -17312,8 +17312,12 @@ Båda filerna har validerats med `msgfmt`, `l10n-lint`, `git diff --check` och
 Gitleaks. `l10n-lint` rapporterar bara informationssignaler för den andra
 filens platshållare och den tekniska förkortningen USD, inga fel eller
 varningar. Den sparade Blender Translate-tokenen testades mot API-roten den
-15 november 2026 och fick HTTP 403. Ingen import har därför gjorts och ingen
-av de 147 posterna får räknas som upstream-inskickad. Nästa steg är att
-återställa behörigheten eller använda en inloggad webbläsarsession och sedan
-kontrollera Weblates importresultat för vardera fil.
+15 november 2026 och fick HTTP 403.
+
+Filerna importerades i stället via den inloggade webbläsaren samma dag.
+Blender Translate behandlade i den första filen 79 strängar och i den andra
+68. Samtliga 147 hoppades över, inga uppdaterades och inga saknades. Alla
+deltaändringar fanns alltså redan exakt i den aktuella upstream-översättningen.
+Detta är ett verifierat importresultat, inte en ny upstream-ändring. Någon
+ytterligare import av dessa två filer behövs inte.
 
