@@ -15,9 +15,12 @@ Den projektspecifika terminologin finns i `TERMINOLOGI-sv.md`. Granskade deltafi
 
 För `globals` utfördes JSON-validering, `l10n-lint`, `git diff --check` och `gitleaks detect --no-git --redact`. Weblate-kontrollerna är dokumenterade i batchens README; verkliga fel rättades och övriga träffar är tekniska namn eller medveten svensk typografi.
 
-Upstreamstatus, återläst 2026-11-15: Hosted Weblate rapporterar `login-page`
-43/43, `gamepage` 270/270 och `globals` 1 096/1 096 översatta svenska
-strängar. Samtliga tre komponenter har 0 fuzzy-strängar. Sex senare
+Upstreamstatus, återläst 2026-11-15 22:21 CET: Hosted Weblate rapporterar
+`login-page` 43/43, `gamepage` 270/270 och `globals` 1 096/1 096 översatta
+svenska strängar. Samtliga tre komponenter har 0 fuzzy-strängar.
+Weblate rapporterar tre kontrollvarningar för `gamepage` och 45 för `globals`;
+de är ännu inte en ny radgranskad batch och har därför inte ändrats
+automatiskt. Sex senare
 kvalitetsrättningar är inskickade som granskningsförslag och väntar på
 godkännande: fyra för `gamepage` och två för `login-page`. Ett separat försök
 att ta bort ett avslutande blanksteg i `globals` hoppades över av Weblates
