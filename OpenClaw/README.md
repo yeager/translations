@@ -13,4 +13,9 @@ produktnamn är medvetet orörda.
 Kontroller: JSON-paritet, `git diff --check`, svlang, Hunspell-sv,
 l10n-lint och Gitleaks passerar. Upstream-PR
 [#199519](https://github.com/openclaw/openclaw/pull/199519) skapades
-2026-11-15 och väntar på granskning.
+2026-11-15 och väntar på granskning. PR:ens kontroll för sammanhang och
+underlag passerade efter att problemformulering och testunderlag lagts till.
+Den övergripande statusen `openclaw/ci-gate` är fortfarande röd med den
+generiska uppmaningen att CI måste slutföras. Den hänvisade körningen för
+säkerhetsgranskning passerade, men någon separat testkörning för denna
+katalogändring startades inte.
