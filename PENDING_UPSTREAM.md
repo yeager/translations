@@ -105,8 +105,9 @@
   efter typkontroll, test och terminologigranskning. Den första svenska
   TUI-batchen för fakturering är inskickad som
   [PR #156261](https://github.com/NousResearch/hermes-agent/pull/156261):
-  97 aktuella nycklar med kontrollerade platshållare och engelskt reservfall
-  för resterande UI. Den statiska katalogen och återstående TUI-strängar
+  125 aktuella nycklar för fakturering och anslutningsdialoger, med
+  kontrollerade platshållare och engelskt reservfall för resterande UI. Den
+  statiska katalogen och återstående TUI-strängar
   kräver fortsatt struktur- och radgranskning före inskick.
 
 Arbete som den 3 november har importerats eller skickats via respektive API
