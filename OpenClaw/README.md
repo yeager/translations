@@ -19,7 +19,10 @@ Control UI:s översättningsminne. Den ersätter de gemensamma etiketterna
 och Populära. De fyra posterna används på sammanlagt 23 ställen i
 webbgränssnittet. Upstream-PR
 [#199526](https://github.com/openclaw/openclaw/pull/199526) skapades
-2026-11-15 och väntar på granskning.
+2026-11-15 och väntar på granskning. PR:ens kontroll för sammanhang och
+underlag passerar. Även här är den övergripande statusen `openclaw/ci-gate`
+röd med en generell CI-spärr, medan gransknings- och säkerhetskontrollerna
+passerar.
 
 Kontroller: JSON-paritet, `git diff --check`, svlang, Hunspell-sv,
 l10n-lint och Gitleaks passerar. Upstream-PR
