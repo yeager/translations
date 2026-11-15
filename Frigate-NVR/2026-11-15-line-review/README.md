@@ -233,3 +233,9 @@ ansiktsdetektering återger nu källans skilda funktioner.
 Andra läspasset av `config/cameras`: sträng 81–160 av 522. Elva rättningar
 behövdes. Återströmning, omkodning, registreringsskyltigenkänning och
 rörelsetrösklarnas faktiska beteende motsvarar nu aktuell källtext.
+
+## Batch 032
+
+Tredje läspasset av `config/cameras`: sträng 161–340 av 522. Nio rättningar
+behövdes för interna MQTT- och lagringsvärden, visningsnamn, GenAI-instruktioner,
+bildpublicering och TTL-lägen.

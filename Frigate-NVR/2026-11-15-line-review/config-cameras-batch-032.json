@@ -1,0 +1,51 @@
+{
+  "motion": {
+    "mqtt_off_delay": {
+      "description": "Antal sekunder efter den senaste rörelsen innan MQTT-tillståndet 'off' publiceras."
+    }
+  },
+  "record": {
+    "sub": {
+      "alerts": {
+        "mode": {
+          "description": "Läge för lagring: 'all' (spara alla segment), 'motion' (spara segment med rörelse) eller 'active_objects' (spara segment med aktiva objekt)."
+        }
+      },
+      "detections": {
+        "mode": {
+          "description": "Läge för lagring: 'all' (spara alla segment), 'motion' (spara segment med rörelse) eller 'active_objects' (spara segment med aktiva objekt)."
+        }
+      }
+    }
+  },
+  "review": {
+    "genai": {
+      "additional_concerns": {
+        "description": "Lista över ytterligare saker att uppmärksamma eller anteckningar som GenAI ska ta hänsyn till vid utvärdering av aktivitet från den här kameran."
+      }
+    }
+  },
+  "semantic_search": {
+    "triggers": {
+      "friendly_name": {
+        "description": "Valfritt visningsnamn som visas i gränssnittet för den här utlösaren."
+      }
+    }
+  },
+  "mqtt": {
+    "enabled": {
+      "description": "Aktivera publicering av ögonblicksbilder av objekt till MQTT-ämnen för den här kameran."
+    },
+    "bounding_box": {
+      "description": "Rita avgränsningsrutor på bilder som publiceras via MQTT."
+    },
+    "crop": {
+      "description": "Beskär bilder som publiceras till MQTT till det detekterade objektets avgränsningsruta."
+    }
+  },
+  "notifications": {
+    "ttl": {
+      "description": "Så här hanterar push-tjänsten en avisering som skickas medan en varning är aktiv, om enheten inte går att nå. Omedelbar levererar den direkt eller släpper den. Tillförlitlig fortsätter att försöka i upp till 30 sekunder. Aviseringen som skickas när en varning upphör behålls alltid i upp till en timme."
+    }
+  }
+}
