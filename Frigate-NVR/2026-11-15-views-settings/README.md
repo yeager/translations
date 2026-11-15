@@ -91,6 +91,24 @@ Kontroller: `jq empty`, `l10n-lint`, `git diff --check` och Gitleaks.
 Platshållarna `{{value}}` och `{{kbps}}` samt tekniknamn som MQTT, Birdseye
 och GenAI bevarades.
 
+## Batch 027–029 och slutstatus
+
+Batch 027/029 består av de kvarvarande pluralenheterna och en enskild
+feltext, uppdaterade via Weblate API:s enhetsändpunkt. Batch 028 omfattar
+omkodade go2rtc-strömmar, körningsstatus, autentisering, analysförhandsvisning,
+notispauser och Frigate+-API-nycklar. API-arkivfilen innehåller enhets-ID och
+pluralernas ordningsföljd singular/plural.
+
+Slutlig återläsning 2026-11-15: **1 409/1 409** översatta, **0** tomma och
+**0 fuzzy** strängar. Platshållare och tekniska namn bevarades genomgående.
+
+Fullständig kontrollåterläsning gav 43 Weblate-träffar. De har granskats rad
+för rad och är medvetna undantag: svensk interpunktion och böjning, korrekta
+pluralformer eller bevarade produkt- och tekniknamn som FFmpeg, Birdseye,
+go2rtc, GenAI, ONVIF, RTSP, Blue Iris, Raspberry Pi, VAAPI, Intel QuickSync,
+NVIDIA Jetson, Rockchip, VideoToolbox och Apple Silicon. Inga ytterligare
+materiella fel hittades.
+
 ## Batch 004
 
 Batchen omfattar formulärfält, globala inställningar, kamerainställningar och

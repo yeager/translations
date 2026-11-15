@@ -1,0 +1,15 @@
+{
+  "configForm": {"liveTranscode": {"title": "Omkodade strömmar", "description": "Lägger till strömmar med lägre kvalitet som go2rtc omkodar i realtid medan någon tittar.", "unavailable": "Omkodade strömmar behöver en go2rtc-ström att läsa från. Lägg först till en under go2rtc-strömmar.", "enable": "Aktivera omkodade strömmar", "source": "Källström", "height": "Höjd", "heightOption": "{{height}}p", "bitrate": "Bithastighet (kbit/s)", "addQuality": "Lägg till kvalitet", "removeQuality": "Ta bort kvalitet"}},
+  "toast": {"go2rtcSyncFailed": "Sparat, men go2rtc kunde inte uppdateras. Starta om Frigate för att tillämpa ändringarna."},
+  "configMessages": {
+    "record": {"profileBaseDisabled": "Inspelning är inaktiverad i den här kamerans baskonfiguration, så att aktivera den i en profil har ingen effekt. Aktivera inspelning i baskonfigurationen och använd i stället en profil för att inaktivera den."},
+    "notifications": {"profileBaseDisabled": "Inga kameror har notiser aktiverade i sin baskonfiguration, så att aktivera dem i en profil har ingen effekt. Aktivera notiser i baskonfigurationen för minst en kamera.", "ttlDelay": "Notiser kan komma upp till 30 sekunder sent och fortfarande länka till livevyn efter att granskningsobjektet har avslutats."},
+    "live": {"noGo2rtcStream": "Livevyn för den här kameran använder en enkel spelare med lägre bildfrekvens och utan ljud. Konfigurera en go2rtc-ström för den här kameran för att få jämnare video och ljud."}
+  },
+  "users": {"dialog": {"createUser": {"usernameOnlyDots": "Användarnamnet kan inte bara innehålla punkter"}}, "management": {"authDisabled": "Inbyggd autentisering är inaktiverad. Dessa konton används bara för att logga in när den aktiveras."}},
+  "frigatePlus": {"modelInfo": {"showIncompatible": "Visa inkompatibla modeller"}, "apiKey": {"formatValid": "Frigate+-API-nyckeln har identifierats och matchar det förväntade formatet", "formatInvalid": "Frigate+-API-nyckeln har inte identifierats eller matchar inte det förväntade formatet", "validate": "Validera med Frigate+", "validating": "Validerar…", "serverValid": "Frigate+ godkände den här API-nyckeln", "serverInvalid": "Frigate+ avvisade den här API-nyckeln", "serverUnreachable": "Det går inte att nå Frigate+ för att validera den här API-nyckeln"}},
+  "cameraWizard": {"step1": {"errors": {"onvifPortInvalid": "ONVIF-porten måste vara ett heltal från 1 till 65535"}}},
+  "notificationTtl": {"immediate": "Omedelbar", "reliable": "Tillförlitlig"},
+  "analyticsPreview": {"show": "Förhandsvisa rapporten", "desc": "Frigate skickar den här rapporten en gång om dagen medan delning är aktiverad. Den innehåller aldrig kameranamnen, zoner, etiketter eller adresser.", "error": "Det gick inte att skapa förhandsvisningen"},
+  "notification": {"suspendTime": {"custom": "Pausa till..."}, "customSuspension": {"title": "Anpassad paustid", "description": "Pausa notiser för den här kameran fram till den valda tiden.", "untilLabel": "Pausa till", "invalidTime": "Välj en tid i framtiden."}}
+}
