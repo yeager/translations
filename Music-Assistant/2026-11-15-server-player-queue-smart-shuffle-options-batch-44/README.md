@@ -7,7 +7,9 @@ standardbeteende i inställningarna för intelligent slumpning. Termerna
 *spelarkö*, *intelligent slumpning* och *Smart Fades* följer projektets
 terminologilista och intilliggande UI-texter.
 
-Status: lokalt granskad och arkiverad. Inte sparad i Lokalise ännu.
+Status: lokalt granskad och arkiverad. En sträng sparades manuellt i Lokalise
+2026-11-15 och lästes tillbaka. Övriga nycklar ska jämföras med Lokalise före
+manuell sparning.
 
 Kontroller: JSON, källnycklar, l10n-lint, svlang, Hunspell, kontroll av tre
 identiska tecken, diffkontroll och Gitleaks. `msgfmt` är inte tillämpligt på
