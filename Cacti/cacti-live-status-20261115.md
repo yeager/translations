@@ -25,4 +25,25 @@ Källa: Cacti Translates offentliga Weblate-API och komponentexporter.
 
 ## Upstreamblockerare
 
-Cacti Translates Weblate visar komponenter och API-data, men uppladdningsvyn svarade upprepade gånger med Cloudflare-fel 520 den 2026-11-15. Weblate API fungerar däremot och användes för Mactrack, Syslog och MikroTik. I MikroTik-batch 01 förekom `End Date Selector` i två delbatcher; den deduplicerades före importen, medan rådeltafilerna bevarades oförändrade.
+Cacti Translates Weblate visade tidigare Cloudflare-fel 520 i uppladdningsvyn
+den 15 november 2026. API:t svarar nu normalt och användes för omkontroll av
+de redan arkiverade deltabatcherna. Ingen aktuell API-blockerare kvarstår.
+
+## Verifierad API-import, 15 november 2026 kl. 16:01–16:02
+
+Följande tidigare validerade deltafiler skickades separat via Weblate API med
+läget `translate` och konflikthanteringen `replace-translated`:
+
+| Komponent | Deltafil | Behandlade | Överhoppade | Uppdaterade | Saknade |
+| --- | --- | ---: | ---: | ---: | ---: |
+| Mactrack | `cacti-mactrack-sv-vendor-list-20261026.delta.po` | 2 | 2 | 0 | 0 |
+| Syslog | `cacti-syslog-sv-batch01-20261115.po` | 6 | 6 | 0 | 0 |
+| MikroTik | `cacti-mikrotik-sv-batch01-20261115.po` | 34 | 34 | 0 | 0 |
+| MikroTik | `cacti-mikrotik-sv-batch01b-20261115.po` | 18 | 18 | 0 | 0 |
+
+Weblate bekräftade HTTP 200 för varje import. Alla 60 översättningar var
+redan identiska med den aktuella svenska upstreamtexten. Inget skickades som
+en ny serverändring och inga källsträngar saknades. Batchernas `msgfmt`,
+`l10n-lint`, `svlang`, diffkontroll och Gitleaks är godkända; `msgfmt` varnar
+för avsiktligt minimala deltafilshuvuden i Syslog och MikroTik, inte för
+översättningssyntax eller format.
