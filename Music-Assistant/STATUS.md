@@ -1,24 +1,13 @@
-# Music Assistant – svensk lokaliseringsstatus
+# Music Assistant – svensk Lokalise-status
 
-Senast uppdaterad: 15 november 2026.
+Senast verifierad: 2026-11-15
 
-## Lokalise
+| Komponent | Projekt-ID | Oöversatta svenska API-poster |
+| --- | --- | ---: |
+| MA Frontend | `321419046440c0f2bba414.05634832` | 0 |
+| MA Mobile App | `695520566a0e9085a45b61.13739013` | 0 |
+| MA Server | `264744796a2c5fd1b48fb5.28236063` | 0 |
+| MA Desktop App | `701408876a3161720d8f59.60695778` | 0 |
 
-Music Assistant Server har **100 % svensk täckning** i Lokalise enligt
-projektets statistik: 41 901 basord och 0 ord kvar att översätta. Senaste
-granskade strängbatch är 236.
-
-En tom källsträng för `provider.plex_connect.config_entries.plextv_divider.label`
-kan fortsatt visas i listan över oöversatta poster. Den har en sparad svensk
-etikett, `Plex.tv`, med `is_untranslated: false` och påverkar inte statistikens
-100 %-resultat.
-
-## Status för leverans
-
-- Lokal granskning: klar för arkiverade batchar.
-- Arkivering och push till `yeager/translations`: klar.
-- Sparad och läst tillbaka via Lokalise API: klar.
-- Projektets redaktionella granskning, publicering eller release: inte
-  verifierad här.
-
-JSON användes för dessa deltafiler; `msgfmt` är därför inte tillämpligt.
+Statusen avser Lokalise API:s filter för tom svensk översättning. Den bevisar
+inte projektgranskning, publicering eller release.
