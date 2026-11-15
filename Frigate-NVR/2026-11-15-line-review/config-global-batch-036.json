@@ -1,0 +1,43 @@
+{
+  "live": {
+    "streams": {
+      "description": "Mappning av konfigurerade strömnamn till namn för återströmning/go2rtc som används vid liveuppspelning."
+    },
+    "transcode": {
+      "label": "Omkodade strömmar",
+      "description": "Live-strömmar med lägre kvalitet som go2rtc omkodar vid behov.",
+      "enabled": {
+        "label": "Aktivera omkodade strömmar",
+        "description": "Lägg till live-strömmar med lägre kvalitet som go2rtc omkodar i realtid medan någon tittar."
+      }
+    }
+  },
+  "motion": {
+    "lightning_threshold": {
+      "description": "Tröskel för att upptäcka och ignorera kortvariga ljusförändringar (lägre värde ger högre känslighet; värden mellan 0.3 och 1.0). Detta förhindrar inte rörelsedetektering helt; det gör bara att detektorn slutar analysera fler bildrutor när tröskeln överskrids. Rörelsebaserade inspelningar skapas fortfarande under dessa händelser."
+    },
+    "skip_motion_threshold": {
+      "description": "Om ett värde mellan 0.0 och 1.0 anges och en större andel än detta av bilden ändras i en enda bildruta, returnerar detektorn inga rörelserutor och kalibreras om omedelbart. Detta kan spara CPU och minska falska positiva resultat vid blixtar, stormar osv., men kan missa verkliga händelser, till exempel när en PTZ-kamera automatiskt spårar ett objekt. Avvägningen är mellan att förlora några megabyte inspelningar och att granska ett par korta klipp. Lämna fältet tomt (None) för att inaktivera funktionen."
+    },
+    "mqtt_off_delay": {
+      "description": "Antal sekunder efter den senaste rörelsen innan MQTT-tillståndet 'off' publiceras."
+    }
+  },
+  "objects": {
+    "genai": {
+      "use_snapshot": {
+        "label": "Använd ögonblicksbilder",
+        "description": "Använd ögonblicksbilder av objekt i stället för miniatyrbilder när GenAI-beskrivningar genereras."
+      }
+    },
+    "filters_attribute": {
+      "description": "Filter som tillämpas på detekterade attribut för att minska falska positiva resultat, till exempel area, bildförhållande och konfidens.",
+      "min_area": {
+        "description": "Minsta area för avgränsningsrutan, i pixlar eller procent, som krävs för det här attributet. Kan anges i pixlar (heltal) eller procent (flyttal mellan 0.000001 och 0.99)."
+      },
+      "max_area": {
+        "description": "Största tillåtna area för avgränsningsrutan, i pixlar eller procent, för det här attributet. Kan anges i pixlar (heltal) eller procent (flyttal mellan 0.000001 och 0.99)."
+      }
+    }
+  }
+}
