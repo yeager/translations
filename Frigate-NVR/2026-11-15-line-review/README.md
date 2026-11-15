@@ -175,3 +175,10 @@ förekomster av *friendly name* normaliserades till *visningsnamn*.
 Åttonde läspasset av `views-settings`: 100 ytterligare strängar. Tre
 rättningar behövdes: två åtgärder återställer lösenord, och poängtermen i
 felsökningen är nu konsekvent.
+
+## Batch 023
+
+Nionde läspasset av `views-settings`: sträng 801–900 av 1 434. Åtta rättningar
+behövdes: den lagrade systemrollen `viewer` bevaras exakt, formuleringarna för
+rollens kameror och omstart är idiomatiska, och tekniska uttryck för säker
+webbkontext, API-nyckel och inläsningsfel är korrigerade.
