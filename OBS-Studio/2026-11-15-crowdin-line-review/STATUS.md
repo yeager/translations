@@ -207,6 +207,8 @@ The archive now contains 342 prepared corrections across all reviewed OBS compon
 
 2026-11-16: reviewed page 18 of the live `App/Core` component line by line in Crowdin (900 of 1,428 strings). Dialog prompts, preview status and reconnection wording are already covered by `frontend-phrasing.delta.json`, `frontend-output-remux-scene.delta.json` and `frontend-properties-transform-menu.delta.json`. No duplicate delta was created and none has been saved upstream.
 
+2026-11-16: reviewed page 19 of the live `App/Core` component line by line in Crowdin (950 of 1,428 strings). `core-page-19.delta.json` adds four distinct corrections for transform-window labels and the established actions for starting and ending a live broadcast. None has been saved upstream.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
@@ -220,5 +222,5 @@ Crowdin currently lists 100%-translated Swedish components with widely varying a
 - svlang: the installed CLI only accepts plain text through `svlang check`; it has no INI parser. The translations were reviewed in their source/UI context instead.
 - Hunspell was intentionally not run, following the current CPU constraint.
 - Gitleaks: passed for the archive payload.
-- Final delta audit: all 369 proposed changes pass JSON parsing plus placeholder, markup and escaped-line-break parity checks; `git diff --check` and Gitleaks pass.
+- Final delta audit: all 373 proposed changes pass JSON parsing plus placeholder, markup and escaped-line-break parity checks; `git diff --check` and Gitleaks pass.
 - svlang: run on the combined delta text. Its aggregate score and 74 warnings are false positives caused by concatenated UI fragments, code/format tokens, product names and markup; each delta remains reviewed in source context. It has no INI parser.
