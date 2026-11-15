@@ -105,7 +105,7 @@
   efter typkontroll, test och terminologigranskning. Den första svenska
   TUI-batchen för fakturering är inskickad som
   [PR #156261](https://github.com/NousResearch/hermes-agent/pull/156261):
-  1 361 aktuella nycklar för fakturering, anslutningsdialoger, Journey-vyn,
+  1 445 aktuella nycklar för fakturering, anslutningsdialoger, Journey-vyn,
   statusraden, bekräftelsedialoger, kompositören, snabbhjälpen och
   gateway-meddelanden, säkerhetsdialoger, chattpanelen, startmeddelanden och
   kanoniska meddelanden för session, kö och bildhantering samt
@@ -117,9 +117,10 @@
   återställning av konversationer, kopiering, terminalinställning och
   konversationsexport, historik, fokusvy, statusrad, detaljnivåer och
   anslutningskonton samt modellväljare nyckelinställning leverantörsval modellsteg sessionsväljare husdjursväljare faktureringsdialog samt underagent- och transkripttexter samt bilage- och kompletteringstexter felsökningspaneler och kärnkommandonas hjälprader sessionstyrning sessionsinställningar röstläge abonnemangsportal påfyllningsvalidering debiteringsutfall påfyllningsfel och portalflöde samt gateway- och terminalinställningsmeddelanden och agenthubbens list-, detalj- och återspelningsvyer samt styrpanel, direktranskript, färdighetshubb, pluginhubb, `/wake`-status, sessionsanvändning, gemensamma listmeddelanden, modellväljarens plan- och sparnivåer samt driftkommandon för delegering, återspelning och omläsning, med kontrollerade platshållare och engelskt reservfall
-  för resterande UI.
-  Den statiska katalogen och återstående TUI-strängar
-  kräver fortsatt struktur- och radgranskning före inskick.
+  för samtliga TUI-vyer. Den kompletta katalogen har kontrollerade
+  platshållare, aktuell nyckelkatalog, 10 riktade runtime-tester och en
+  Gitleaks-kontroll utan träffar. PR:n väntar fortfarande på
+  uppströmsgranskning och merge.
 
 Arbete som den 3 november har importerats eller skickats via respektive API
 (bland annat RetroArch, qBittorrent, Widelands, VLC, ScummVM, pgRouting,
