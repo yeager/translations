@@ -13,6 +13,9 @@ eftersom både källa och mål avsiktligt är tomma. `is_fuzzy: false` bekräfta
 för samtliga. Arkivposten är pushad till vårt arkiv; detta är inte ett
 upstream-godkännande eller en release.
 
+En efterföljande full sökning över 74 606 svenska poster fann inte någon
+felaktig återstående “Tom”- eller “Tomt”-översättning med tom källa.
+
 Kontroller: JSON, källnycklar, kontroll av att källa och mål är tomma,
 diffkontroll och Gitleaks. l10n-lint, svlang, Hunspell och msgfmt är inte
 tillämpliga på avsiktligt tomma JSON-värden.

@@ -19,5 +19,7 @@ Den 16 november återställdes dessutom åtta enspråkiga poster med avsiktligt
 tom engelsk källa från felaktiga värden “Tom” till tom svensk text via
 Lokalise API. Värden med engelska *Empty* för behållare, nivåer och
 förbrukningsmaterial har inte ändrats, eftersom *Tom* där är korrekt i sitt
-sammanhang. Poster med engelska *Clear* granskas separat efter
-integrationskontext, inte genom en generell ersättning.
+sammanhang. Den efterföljande kontextgranskningen visade att 40
+`state::off`-värden med engelska *Clear* felaktigt hade “Tom” eller “Tomt”.
+De har uppdaterats till **Klar** via API. En ny full sökning över 74 606
+svenska poster bekräftade att bara tio korrekta *Empty → Tom*-värden återstår.
