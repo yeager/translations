@@ -35,3 +35,6 @@ språkfel.
 kan inte skapa en pull request från den äldre fork-kedjan till den återfunna
 huvudrepon. Den är alltså arkiverad och offentlig, men ännu inte inskickad
 till huvudrepot.
+
+GitHub-issues är avstängda i huvudrepot. Ett ärende med länken till forken kan
+därför inte skapas där heller.
