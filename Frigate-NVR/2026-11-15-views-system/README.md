@@ -23,3 +23,9 @@ Weblates API-import svarade `accepted: 38`, `skipped: 0`, `not_found: 0` och
 `result: true`. Komponenten rapporterar 168 av 282 översatta strängar, 0
 fuzzy och 0 fallerande kontroller. Upstreamläge för denna batch: inskickat och
 mottaget; 114 systemsträngar återstår för senare granskning.
+
+## Batch 002
+
+Batchen för kamerors nyckelrutor samt systemhälsa accepterades med 34 av 282
+nycklar. Efter importen rapporterar komponenten 202 av 282 översatta strängar,
+0 fuzzy och 0 fallerande kontroller. Återstående systemsträngar: 80.
