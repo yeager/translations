@@ -3,11 +3,12 @@
 Datum: 2026-11-15
 
 De senaste sparade batcherna är `core-sofar-grid-batch-101.json` och
-`core-sofar-thermal-input-batch-102.json`. De omfattar 30 fel- och
+`core-sofar-thermal-input-batch-102.json` och
+`core-sofar-input-inverter-batch-103.json`. De omfattar 45 fel- och
 skyddsetiketter för Sofar-växelriktarens nätövervakning, kylflänsar och
 ingångssäkringar.
 
-Lokalise API-sparningen har återlästs: samtliga 30 strängar är markerade som
+Lokalise API-sparningen har återlästs: samtliga 45 strängar är markerade som
 översatta och inte overifierade. Arbetet är arkiverat i detta repo. Det finns
 ingen verifierad upstream-granskning, merge eller publicerad Home Assistant-
 release kopplad till batchen.
