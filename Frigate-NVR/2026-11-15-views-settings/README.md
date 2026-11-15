@@ -80,6 +80,17 @@ Kontroller: `jq empty`, `l10n-lint`, `git diff --check` och Gitleaks.
 Tekniknamn som Frigate+, GenAI, Coral, FFmpeg, Apple Silicon, H.264 och H.265
 bevarades.
 
+## Batch 026
+
+Batchen omfattar körningsstatus för detektering, inspelning och transkribering,
+liveinstrumentpanelers bildförhållande, sparade layouter och live-strömmars
+bithastighet. Hosted Weblate accepterade samtliga 28 strängar. Komponenten
+står därefter på 1 361 av 1 409 översatta strängar och 0 fuzzy.
+
+Kontroller: `jq empty`, `l10n-lint`, `git diff --check` och Gitleaks.
+Platshållarna `{{value}}` och `{{kbps}}` samt tekniknamn som MQTT, Birdseye
+och GenAI bevarades.
+
 ## Batch 004
 
 Batchen omfattar formulärfält, globala inställningar, kamerainställningar och
