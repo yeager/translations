@@ -31,3 +31,5 @@
 | paper jam | pappersstopp | Skannerstatus |
 | scanner cover | skannerlock | Skannerstatus |
 | StartUp | autostart | Windows-mapp i skalet |
+| item | objekt | Shell32-fildialoger |
+| send to Trash | flytta till papperskorgen | Shell32-fildialoger |
