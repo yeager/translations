@@ -15,3 +15,14 @@ via API:t: komponenten har 0 fuzzy-strängar.
 
 Kontroller: JSON-validering, `l10n-lint`, tekniktokenjämförelse,
 `git diff --check` och Gitleaks.
+
+## Batch 002
+
+Batchen omfattar underhåll och mediesynkronisering: säker testkörning,
+rensning av överblivna filer, statusvärden och medietyper. Hosted Weblate
+accepterade samtliga 40 strängar. Komponenten står därefter på 701 av 1 409
+översatta strängar, 0 fuzzy och 14 återstående kontrollträffar som granskas
+separat i sitt tekniska sammanhang.
+
+Kontroller: `jq empty`, `l10n-lint`, tokenjämförelse mot aktuell källfil,
+`git diff --check` och Gitleaks.
