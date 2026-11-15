@@ -44,8 +44,8 @@ Control UI:s översättningsminne. Den ersätter de gemensamma etiketterna
 och Populära. Den förbättrar också formuleringar för ändringar och
 heartbeat-övervakning och gör Git-terminologin konsekvent med den befintliga
 svenska termen incheckning. Batchen omfattar nu även närvarolistan
-`Online` → Anslutna och statusen `Offline` → Frånkopplad. Etthundratjugofyra
-delade poster används på minst 144 ställen i webbgränssnittet. Där skiljs också
+`Online` → Anslutna och statusen `Offline` → Frånkopplad. Etthundratjugofem
+delade poster används på minst 145 ställen i webbgränssnittet. Där skiljs också
 inläsning av vyer och resurser från nedladdning av filer. I samma batch
 normaliseras fjorton synliga förekomster av GitHub-termen pull request till
 pull-begäran. Upstream-PR
@@ -57,6 +57,8 @@ hemligheter. `l10n-lint` stöder inte översättningsminnets JSONL-format och
 räknas därför inte som en passerad kontroll. Den senaste batchen normaliserar
 också den direkta stödlänken och statusetiketterna med Stöd, Ansluten och
 Frånkopplad, samt beskriver ändringar som gjorts utan anslutning på svenska.
+Synlig hjälptext använder också Tilläggs-ID och ägartillägg i stället för
+plugin som ett vanligt svenskt ord.
 PR:en kräver fortfarande
 skärmbildsbevis från ett byggt svenskt Control UI före merge.
 
