@@ -5,7 +5,7 @@ Datum: 2026-11-15
 Sexton lokalt granskade UI-texter för inloggning med enhetskod, inklusive
 instruktioner, fel, utgångna koder och Yandex-länken.
 
-Status: lokalt granskad och arkiverad. En saknad sträng sparades manuellt i
+Status: lokalt granskad och arkiverad. Två saknade strängar sparades manuellt i
 Lokalise 2026-11-15 och lästes tillbaka.
 
 Kontroller: JSON, källnycklar, l10n-lint, svlang, Hunspell, kontroll av tre
