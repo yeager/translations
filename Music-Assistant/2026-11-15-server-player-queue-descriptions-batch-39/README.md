@@ -8,6 +8,7 @@ Kontroller: JSON, `l10n-lint`, `svlang`, diffkontroll och Gitleaks godkända.
 Hunspell träffar endast produktnamn och korrekta sammansättningar. `msgfmt` är
 inte tillämpligt eftersom resursformatet är JSON.
 
-Status: lokalt granskad och arkiverad. Elva strängar sparades manuellt i Lokalise
-2026-11-15 och lästes tillbaka; tre strängar återstår före
-fullständigt manuellt inskick. Detaljer finns i `upstream-manual-status.json`.
+Status: färdig lokalt, arkiverad och kontrollerad mot Lokalise 2026-11-15.
+Tretton strängar sparades manuellt och lästes tillbaka. En sträng hade redan en
+annan svensk upstream-översättning och lämnades orörd. Detaljer finns i
+`upstream-manual-status.json`.
