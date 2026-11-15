@@ -1,0 +1,37 @@
+{
+  "objects": {
+    "filters_attribute": {
+      "min_ratio": {
+        "description": "Minsta förhållande mellan bredd och höjd som krävs för att avgränsningsrutan ska godkännas."
+      },
+      "max_ratio": {
+        "description": "Största tillåtna förhållande mellan bredd och höjd för att avgränsningsrutan ska godkännas."
+      },
+      "threshold": {
+        "label": "Konfidenströskel",
+        "description": "Genomsnittlig detektionskonfidens som krävs för att attributet ska betraktas som en sann positiv detektering."
+      },
+      "min_score": {
+        "label": "Minsta konfidens",
+        "description": "Minsta detektionskonfidens i en enskild bildruta som krävs för att koppla attributet till dess överordnade objekt."
+      },
+      "raw_mask": {
+        "label": "Rå mask"
+      }
+    }
+  },
+  "record": {
+    "sub": {
+      "alerts": {
+        "mode": {
+          "description": "Läge för lagring: 'all' (spara alla segment), 'motion' (spara segment med rörelse) eller 'active_objects' (spara segment med aktiva objekt)."
+        }
+      },
+      "detections": {
+        "mode": {
+          "description": "Läge för lagring: 'all' (spara alla segment), 'motion' (spara segment med rörelse) eller 'active_objects' (spara segment med aktiva objekt)."
+        }
+      }
+    }
+  }
+}

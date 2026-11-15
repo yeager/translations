@@ -262,3 +262,8 @@ använder konsekvent *liveuppspelning* och *återströmning*.
 Tredje läspasset av `config/global`: sträng 301–400. Tretton rättningar
 behövdes för omkodning, rörelselogik, interna MQTT-värden, ögonblicksbilder
 och attributfilter.
+
+## Batch 037
+
+Fjärde läspasset av `config/global`: sträng 401–500. Nio rättningar behövdes
+för attributfilter, avgränsningsrutor, konfidens och interna lagringsvärden.
