@@ -7,12 +7,12 @@ extra värden vid kontroll 2026-11-15.
 Projektet är aktivt: den senaste stabila utgåvan, `v2026.11.3`, publicerades
 2026-11-10.
 
-`openclaw-native-sv-status-labels-20261115.patch` kompletterar tjugoen
+`openclaw-native-sv-status-labels-20261115.patch` kompletterar trettiotre
 synliga etiketter som tidigare stod kvar på engelska. Ändringen omfattar
-Färdigheter, sessionssökning, sessionshistorik, webbsökning, Stöd,
-anslutningsstatus och frånkopplad Gateway i Android- och Apple-gränssnitten
-samt System (automatiskt) på macOS. Kodord, kommandon och produktnamn är
-medvetet orörda.
+Färdigheter, sessionssökning, sessionshistorik, webbsökning, Git-incheckning,
+pull-begäran, Stöd, anslutningsstatus och frånkopplad Gateway i Android- och
+Apple-gränssnitten samt System (automatiskt) på macOS. Kodord, kommandon och
+produktnamn är medvetet orörda.
 
 `openclaw-ui-sv-core-labels-20261115.md` dokumenterar en liten batch för
 Control UI:s översättningsminne. Den ersätter de gemensamma etiketterna
