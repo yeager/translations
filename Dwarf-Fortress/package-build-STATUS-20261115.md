@@ -32,3 +32,15 @@ API-återläsningen efter inskick visade:
 
 API-återläsning bekräftade att ingen sträng saknas. Transifex-granskning är
 en separat upstreamstatus och är ännu inte genomförd.
+
+## Kompletterande radgranskning
+
+Den 15 november 2026 hämtades den aktuella svenska `messages`-resursen igen
+från Transifex och samtliga 32 strängar kontrollerades mot källtexten,
+applikationens paketbyggarkontext och terminologin ovan. Ingen ändring behövdes:
+alla översättningar är kompletta och kontextkorrekta.
+
+`l10n-lint`, `svlang`, Hunspell-granskning och Gitleaks passerade. Hunspell
+rapporterar endast avsiktliga produkt- och platshållarnamn: `DF-lokalisering`,
+`DF-variant`, `DF-version`, `dfhooks`, `dfint-installer` och `num`. `msgfmt`
+är inte tillämpligt på resursens JSON-format.
