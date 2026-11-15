@@ -3,8 +3,8 @@
 Datum: 2026-11-15  
 Upstream: [PR #199526](https://github.com/openclaw/openclaw/pull/199526)
 
-Etthundratjugofem delade poster i Control UI:s svenska översättningsminne har
-granskats och uppdaterats. De gäller minst 135 synliga positioner.
+Etthundratrettiotre delade poster i Control UI:s svenska översättningsminne har
+granskats och uppdaterats. De gäller minst 167 synliga positioner.
 
 | Segment | Engelska | Svenska |
 | --- | --- | --- |
@@ -130,6 +130,11 @@ granskats och uppdaterats. De gäller minst 135 synliga positioner.
 | `connection.offlineChangesReloadBlocked` | Offline changes are waiting to reconnect… | Ändringar som gjordes utan anslutning väntar på återanslutning… |
 | `connection.offlineChangesDiscarded` | Offline changes discarded: {count} | Ändringar som gjordes utan anslutning har tagits bort: {count} |
 | `configHints.gateway…repositoryIntegration.help` | Plugin ID required… | Tilläggs-ID som krävs… |
+| `tabs.plugin` | Plugin | Tillägg |
+| `agentTools.plugin` | Plugin: {id} | Tillägg: {id} |
+| `agentTools.pluginSource` | Plugin | Tillägg |
+| `pluginTabs.unavailableTitle` | Plugin panel unavailable | Tilläggspanelen är inte tillgänglig |
+| `mcpApp.catalogTitle` | Plugin apps | Tilläggsappar |
 
 De delade segmenten omfattar bland annat appens stödlänk, inställningar för
 automatiskt läge, färdigheter i agenter, chatt och inställningar, den
@@ -143,6 +148,9 @@ incheckningar samt närvarolistan och frånkopplad-statusen. Källan och
 De synliga statusetiketterna och den direkta stödlänken använder nu också
 Ansluten, Frånkopplad och Stöd konsekvent.
 Tekniska konfigurationssökvägar som `skills.*` har lämnats orörda.
+De kvarvarande korta, synliga plugin-etiketterna använder nu också konsekvent
+Tillägg och Tilläggsappar, medan tekniska konfigurationsnycklar och kommandon
+inte har ändrats.
 
 Kontroller som passerar: JSONL-parsning, Hunspell-sv för de vanliga nya orden,
 svlang, diffkontroll och en fokuserad Gitleaks-kontroll av ändringarna.
