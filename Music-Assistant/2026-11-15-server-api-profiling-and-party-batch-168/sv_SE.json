@@ -1,0 +1,12 @@
+{
+  "provider.profiler.config_entries.cpu_profile_interval.description": "Hur ofta ett nytt CPU-profilfönster samlas in automatiskt.",
+  "provider.profiler.config_entries.cpu_profile_interval.label": "Intervall för CPU-profilering (minuter)",
+  "provider.profiler.config_entries.profiler_note.label": "Profileraren körs kontinuerligt medan den här leverantören är installerad: en färdskrivare samplar serverhälsan var tionde sekund, en övervakare av händelseslingan följer schemaläggningsfördröjningar och valfria återkommande CPU-profilfönster samlas in. Skapa den delbara rapporten med API-kommandot 'profiler/report'; den senaste rapporten skrivs också till mappen 'profiler' i serverns datakatalog. Avinstallera leverantören när felsökningen är klar.",
+  "provider.profiler.config_entries.tracemalloc_enabled.description": "Spåra Python-minnesallokeringar så att rapporten kan visa de största allokeringsplatserna och deras ökning mellan rapporter. Varning: detta ökar minnes- och CPU-belastningen för varje allokering medan det är aktiverat. Använd bara när du söker en minnesläcka.",
+  "provider.profiler.config_entries.tracemalloc_enabled.label": "Spåra minnesallokeringar (tracemalloc)",
+  "provider.profiler.manifest.description": "Registrerar CPU-, minnes- och händelseslingediagnostik för den körande servern och omvandlar dem till en delbar rapport. Installera bara den här leverantören tillfälligt för att felsöka prestandaproblem, eller när du ombeds i ett supportärende, och avinstallera den när du är klar. Den är inte avsedd för daglig användning.",
+  "common.config_entries.content_type.options.sound_effects": "Ljudeffekter",
+  "provider.party.config_entries.mode.label": "Festläge",
+  "provider.party.config_entries.mode.options.venue": "Lokal (spela upp på en riktig högtalare)",
+  "provider.rain_mood.media.sound_effect.rain.description": "Regnatmosfär i slinga från rainymood.com."
+}
