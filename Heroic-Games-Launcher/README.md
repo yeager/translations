@@ -17,4 +17,8 @@ För `globals` utfördes JSON-validering, `l10n-lint`, `git diff --check` och `g
 
 Upstreamstatus, återläst 2026-11-15: Hosted Weblate rapporterar `login-page`
 43/43, `gamepage` 270/270 och `globals` 1 096/1 096 översatta svenska
-strängar. Samtliga tre komponenter har 0 fuzzy-strängar.
+strängar. Samtliga tre komponenter har 0 fuzzy-strängar. Sex senare
+kvalitetsrättningar är inskickade som granskningsförslag och väntar på
+godkännande: fyra för `gamepage` och två för `login-page`. Ett separat försök
+att ta bort ett avslutande blanksteg i `globals` hoppades över av Weblates
+JSON-importör och är därför inte inskickat.
