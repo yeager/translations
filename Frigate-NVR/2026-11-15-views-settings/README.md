@@ -81,6 +81,19 @@ utan nya kontrollträffar.
 Kontroller: `jq empty`, `l10n-lint`, tokenjämförelse mot källfilen,
 `git diff --check` och Gitleaks.
 
+## Batch 013
+
+Batchen omfattar bevarande- och förhandsvisningsval, ONVIF-autospårning,
+detektorsidor, UI-status och Birdseye-kameraordning. Hosted Weblate accepterade
+24 aktuella strängar. Tre äldre åsidosättnings- och toastnycklar som saknas i
+den aktuella Frigate-källfilen lämnades utanför.
+
+Komponenten står därefter på 1 059 av 1 409 översatta strängar och 0 fuzzy,
+utan nya kontrollträffar.
+
+Kontroller: `jq empty`, `l10n-lint`, käll- och tokenjämförelse,
+`git diff --check` och Gitleaks.
+
 ## Batch 010
 
 Batchen omfattar FFmpeg-förinställningar, synkroniseringsloggning,
