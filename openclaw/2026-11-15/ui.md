@@ -3,8 +3,8 @@
 Datum: 2026-11-15  
 Upstream: [PR #199526](https://github.com/openclaw/openclaw/pull/199526)
 
-Femtiofem delade poster i Control UI:s svenska översättningsminne har granskats
-och uppdaterats. De gäller minst 75 synliga positioner.
+Sextiofem delade poster i Control UI:s svenska översättningsminne har granskats
+och uppdaterats. De gäller minst 85 synliga positioner.
 
 | Segment | Engelska | Svenska |
 | --- | --- | --- |
@@ -63,6 +63,13 @@ och uppdaterats. De gäller minst 75 synliga positioner.
 | `subtitles.skillWorkshop` | Skills your agent learned… | Färdigheter som din agent har lärt sig… |
 | `configHints.agents…skillsLimits` | Agent Skills Limits | Agentens gränser för färdigheter |
 | `configHints.agents…maxSkillsPromptChars` | Agent Skills Prompt Max Chars | Maximalt antal tecken i agentens prompt för färdigheter |
+| `skillsPage.searchClawHub` | Search ClawHub skills… | Sök efter färdigheter på ClawHub… |
+| `skillsPage.clawHubSubtitle` | Search and install skills… | Sök efter och installera färdigheter… |
+| `skillGroups.installed` | Installed skills | Installerade färdigheter |
+| `skillGroups.builtIn` | Built-in skills | Inbyggda färdigheter |
+| `skillGroups.workspace` | Workspace skills | Färdigheter i arbetsytan |
+| `skillGroups.extra` | Extra skills | Extra färdigheter |
+| `skillsPage.mode.offTitle` | The agent does not save or update skills… | Agenten sparar eller uppdaterar inte färdigheter… |
 
 De delade segmenten omfattar bland annat appens stödlänk, inställningar för
 automatiskt läge, färdigheter i agenter, chatt och inställningar samt den
