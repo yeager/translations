@@ -12,6 +12,9 @@ Updated: 2026-11-15.
 | codec | kodek | Also in compounds such as `NVENC-kodek`. |
 | encode | kodning | Use compounds: `10-bitarskodning`, `4:4:4-kodning`. |
 | encoder | kodare | `utmatningskodare` where the source specifies output encoder. |
+| stream (settings-tab label) | Ström | Retain the established short tab label. |
+| streaming | strömning | Use for the activity, service and adjective: `strömningstjänst`. |
+| stream (live output/session) | direktsändning | Use in explanatory prose where `ström` would be unclear to an end user. |
 | frame | bildruta | `B-bildruta`, `nyckelbildruta`. |
 | keyframe interval | nyckelbildsintervall | Include the unit if present in source. |
 | GPU utilization / usage | GPU-användning | Prefer the familiar UI abbreviation over a long compound. |
@@ -28,10 +31,15 @@ Updated: 2026-11-15.
 | every N frames | var N:e bildruta | Do not translate as “after N frames”. |
 | noise removal | brusborttagning | NVIDIA Audio Effects UI. |
 | room echo removal | rumsekoborttagning | NVIDIA Audio Effects UI. |
+| audio ducking | ljuddämpning | Windows audio setting; do not leave the English phrase exposed. |
+| Advanced Audio Properties | Avancerade ljudegenskaper | Preserve the named UI route in help text. |
+| Split by Time | dela efter tid | A duration criterion, not a clock time. |
+| codec compatibility | kodekkompatibilitet | `kodek` denotes a format; do not confuse it with `kodare`. |
 
 ## Style decisions
 
 - Use direct imperatives in UI guidance: `Försök igen`, `Flytta OBS …`; avoid `Var god`.
 - Keep code, variables, format labels, product names and example options unchanged: `%1`, `NVENC`, `I010`, `P010`, `nvEncodeAPI`, `Windows Game DVR`.
 - Use ordinary Swedish compounds when they improve readability: `JACK-server`, `JACK-ingångsklient`, `B-bildruta`.
+- Use `i stället`, not `istället`.
 - Do not introduce an em dash unless it occurs in the source.
