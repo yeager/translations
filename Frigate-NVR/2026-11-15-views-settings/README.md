@@ -38,6 +38,14 @@ Kontroller: `jq empty`, `l10n-lint`, `git diff --check` och Gitleaks.
 Tekniska namn som Frigate+, FFmpeg, VAAPI, CUDA, V4L2 M2M, DXVA2,
 VideoToolbox, Birdseye, MQTT och ONVIF bevarades enligt terminologilistan.
 
+## Batch 022
+
+Sju pluralenheter för globala och kameraspecifika åsidosättningar samt
+sparade avsnitt skickades med Weblate API:s enhetsändpunkt, eftersom i18next-
+nycklarna lagrar de två svenska pluralformerna i en enhet. `weblate-api-batch-
+022-plurals.json` är arkivkopian med enhets-ID och ordningsföljden
+singular/plural. Platshållarna `{{count}}` och `{{profile}}` bevarades.
+
 ## Batch 004
 
 Batchen omfattar formulärfält, globala inställningar, kamerainställningar och
