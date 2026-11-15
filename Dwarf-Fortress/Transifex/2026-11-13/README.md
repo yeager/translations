@@ -77,10 +77,10 @@ Detta är inte en markering som granskad i Transifex. De uppladdade raderna har 
 
 ### Uppdatering 2026-11-15
 
-- Batcherna 81–89 för `hardcoded_steam` innehåller 262 nya svenska
+- Batcherna 81–91 för `hardcoded_steam` innehåller 273 nya svenska
   deltaöversättningar. Varje batch har validerats lokalt och importerats med
   ett Transifex JSON:API-anrop.
-- Direkt API-återläsning bekräftade 262 av 262 exakta måltexter efter import.
+- Direkt API-återläsning bekräftade 273 av 273 exakta måltexter efter import.
   Statusposterna och deltafilerna finns under `../2026-11-14/` och
   `../2026-11-15/`.
 - `dfint-installer` / `application` kontrollerades på nytt via API den
