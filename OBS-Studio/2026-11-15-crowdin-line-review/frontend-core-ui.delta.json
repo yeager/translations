@@ -1,0 +1,16 @@
+{
+  "project": "OBS Studio",
+  "platform": "Crowdin",
+  "locale": "sv-SE",
+  "component": "App/Frontend",
+  "reviewed_at": "2026-11-15",
+  "reviewed_strings": 180,
+  "source_snapshot_note": "The local Swedish snapshot lacks current Crowdin keys such as OK, Mono, Stereo, Program and Region. They are outside this delta and must not be backfilled from an outdated export.",
+  "changes": [
+    {"key":"DroppedFrames","before":"Förorade bildrutor %1 (%2 %)","after":"Förlorade bildrutor %1 (%2 %)","reason":"Correct the Swedish spelling while retaining both placeholders and Swedish percentage spacing."},
+    {"key":"AlreadyRunning.Text","before":"OBS körs redan! Såvida du gjorde detta med flit, stäng ned alla befintliga instanser av OBS innan du försöker köra en ny instans. Om du har minimerat OBS till systemfältet, kontroller om det fortfarande körs där.","after":"OBS körs redan. Om det inte var avsiktligt, avsluta alla befintliga instanser av OBS innan du försöker starta en ny. Om du har minimerat OBS till systemfältet, kontrollera om det fortfarande körs där.","reason":"Correct a typo and provide natural Swedish recovery instructions."},
+    {"key":"CrashHandling.Buttons.LaunchSafe","before":"Starta i säkert läge","after":"Starta i felsäkert läge","reason":"Use the established Swedish operating-system term and match the surrounding crash dialog."},
+    {"key":"SafeMode.Restart","before":"Vill du starta om OBS i säkert läge (insticksprogram från tredje part, skript och WebSockets inaktiveras)?","after":"Vill du starta om OBS i felsäkert läge (insticksprogram från tredje part, skript och WebSockets inaktiveras)?","reason":"Use the established Swedish operating-system term consistently."},
+    {"key":"Basic.AutoConfig.StartPage.PrioritizeStreaming","before":"Optimera för strömning, inspelning sekundärt","after":"Optimera för strömning, inspelning har lägre prioritet","reason":"Restore a complete Swedish explanation of the secondary recording priority."}
+  ]
+}

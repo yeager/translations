@@ -103,6 +103,12 @@ Component: `obs-outputs`
 
 The local snapshot has 27 English keys and 25 Swedish keys. The two absent Swedish keys are newer local-source drift (`RTMPStream.BindIP` and `MP4Output.StartChapter`); they are already translated in Crowdin and therefore are not recreated from this outdated export. The 25 matching keys were reviewed. `obs-outputs.delta.json` contains ten corrections for timeout semantics, networking terms, binding instructions and Swedish compounds.
 
+## Reviewed batch 13 — pending upstream save
+
+Component: `Frontend` (core UI, keys 1–180 in local source order)
+
+The first 180 local English source keys were compared one by one with Swedish. Five corrections are recorded in `frontend-core-ui.delta.json`: one spelling error, an already-running recovery message, consistent `felsäkert läge`, and a complete automatic-configuration priority label. Keys missing only from the older local Swedish snapshot are documented but not reconstructed; Crowdin has Swedish at 100% completion.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.

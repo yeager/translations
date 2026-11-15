@@ -37,6 +37,7 @@ Updated: 2026-11-15.
 | codec compatibility | kodekkompatibilitet | `kodek` denotes a format; do not confuse it with `kodare`. |
 | bind (a network interface/address) | binda OBS till | Include the application as the subject in instructional error text. |
 | socket loop | socketslinga | Low-level RTMP option. |
+| Safe Mode | felsäkert läge | Use the established operating-system term consistently. |
 
 ## Style decisions
 
