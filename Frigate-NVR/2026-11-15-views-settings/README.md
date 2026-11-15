@@ -82,6 +82,15 @@ utan nya kontrollträffar.
 Kontroller: `jq empty`, `l10n-lint`, tokenjämförelse, `git diff --check` och
 Gitleaks.
 
+## Batch 017
+
+Batchen omfattar tidsformat, enhetssystem, loggnivåer, modellstorlekar,
+bevarandeläge och granskningsbildkälla. Hosted Weblate accepterade samtliga 20
+strängar. Komponenten står därefter på 1 137 av 1 409 översatta strängar och
+0 fuzzy, utan nya kontrollträffar.
+
+Kontroller: `jq empty`, `l10n-lint`, `git diff --check` och Gitleaks.
+
 ## Batch 014
 
 Batchen omfattar kamerans driftstatus, live-strömmar och
