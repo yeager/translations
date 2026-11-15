@@ -51,6 +51,8 @@ Updated: 2026-11-15.
 | peak meter | toppnivåmätare | Audio-meter setting. |
 | TCP pacing | TCP-taktning | Network option. |
 | audio monitoring | ljudmonitorering | OBS generic audio UI; retain `ASIO-monitorering` in the ASIO context. |
+| noise gate | brusgrind | Generic audio-processing term in Store Page copy; do not retain the English term. |
+| VST plugin | VST-insticksmodul | Use consistently for VST plug-ins in OBS user-facing text. |
 
 ## Style decisions
 

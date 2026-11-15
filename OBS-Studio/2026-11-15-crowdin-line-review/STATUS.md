@@ -161,7 +161,9 @@ The final 19 local English source keys were compared one by one with Swedish. `f
 
 All 1,459 keys in the local English frontend snapshot were compared line by line. This proves the scope of the local snapshot only: it has 1,382 Swedish keys, while Crowdin contains newer Swedish keys and remains the authoritative upstream catalog. The archived delta files must be applied to current Crowdin strings individually or by an API flow that can list and verify the target translations; the raw local snapshot must not be uploaded wholesale.
 
-The archive now contains 277 prepared corrections across all reviewed OBS components. None has been saved to Crowdin in this work session.
+The archive now contains 286 prepared corrections across all reviewed OBS components. None has been saved to Crowdin in this work session.
+
+2026-11-16: reviewed the live `Stores/Steam/Store Page` component line by line in Crowdin (23 strings). Prepared 9 context-checked corrections in `store-steam.delta.json`; none has been saved upstream.
 
 ## Scope and next batch
 
@@ -176,5 +178,5 @@ Crowdin currently lists 100%-translated Swedish components with widely varying a
 - svlang: the installed CLI only accepts plain text through `svlang check`; it has no INI parser. The translations were reviewed in their source/UI context instead.
 - Hunspell was intentionally not run, following the current CPU constraint.
 - Gitleaks: passed for the archive payload.
-- Final delta audit: all 277 proposed changes pass JSON parsing plus placeholder, markup and escaped-line-break parity checks; `git diff --check` and Gitleaks pass.
+- Final delta audit: all 286 proposed changes pass JSON parsing plus placeholder, markup and escaped-line-break parity checks; `git diff --check` and Gitleaks pass.
 - svlang: run on the combined delta text. Its aggregate score and 74 warnings are false positives caused by concatenated UI fragments, code/format tokens, product names and markup; each delta remains reviewed in source context. It has no INI parser.
