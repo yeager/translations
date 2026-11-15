@@ -1,0 +1,12 @@
+{
+  "provider.playlist_metadata.config_entries.template.options.artist_grid": "Artistrutnät",
+  "provider.playlist_metadata.config_entries.template.options.artist_mosaic": "Artistmosaik",
+  "provider.playlist_metadata.config_entries.template.options.artist_radio": "Artistradio",
+  "provider.fastmcp_server.config_entries.trust_forwarded_proto.description": "Behandla förfrågan från anslutningsguiden som HTTPS när en betrodd omvänd proxy rapporterar `X-Forwarded-Proto: https` (eller `X-Forwarded-Scheme: https`), även om förbindelsen från proxyn till MA är vanlig HTTP. Aktivera bara detta när MA ligger bakom en omvänd proxy (nginx, Nginx Proxy Manager, Traefik, Caddy, ...) som avslutar TLS och är konfigurerad att ange detta HTTP-huvud samt ta bort alla klientskickade kopior. Utan det vägrar guiden skapa autentiseringsuppgifter via proxyn eftersom den ser okrypterad HTTP från en värd som inte är en loopback-adress. Låt vara AV om MA är direkt åtkomligt, eftersom en LAN-klient annars kan förfalska HTTP-huvudet.",
+  "provider.fastmcp_server.config_entries.trust_forwarded_proto.label": "Lita på vidarebefordrat protokoll från omvänd proxy",
+  "provider.spotify.errors.refresh_token_invalid": "Din Spotify-session har löpt ut eller återkallats. Autentisera dig igen för att fortsätta använda Spotify.",
+  "common.config_entries.http_profile.option_descriptions.chunked": "Skicka ljud med chunked-överföringskodning, utan fast längd i förväg.",
+  "common.config_entries.http_profile.option_descriptions.forced_content_length": "Skicka en uppskattad Content-Length-rubrik. Vissa spelare behöver den för att kunna börja spela upp eller söka.",
+  "common.config_entries.http_profile.option_descriptions.no_content_length": "Strömma utan Content-Length-rubrik. Fungerar för de flesta spelare (standard).",
+  "provider.filesystem_local.config_entries.missing_album_artist_action.description": "Så här fylls albumartisten i för spår som saknar taggen Albumartist. Det påverkar hur dessa album grupperas i biblioteket."
+}
