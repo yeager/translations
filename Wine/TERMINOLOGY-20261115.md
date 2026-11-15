@@ -39,3 +39,6 @@
 | Local intranet | lokalt intranät | Internet Explorer-zoner |
 | Trusted/Restricted sites | betrodda/begränsade platser | Internet Explorer-zoner |
 | zone | zon | Internet Explorer-zoner |
+| Quick Edit mode | snabbredigeringsläge | Konsolvärd |
+| Insert mode | infogningsläge | Konsolvärd |
+| line number | radnummer | Anteckningar |
