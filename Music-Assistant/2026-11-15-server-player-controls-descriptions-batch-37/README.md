@@ -28,9 +28,9 @@ avstängning vid inaktivitet, volymgränser, ljudavstängning och ljudkodekar.
 
 ## Status
 
-Fyra strängar sparades manuellt och två befintliga upstream-översättningar
+Fem strängar sparades manuellt och två befintliga upstream-översättningar
 verifierades i Lokalise 2026-11-15. En tidigare snabbkontroll var inte
-tillräcklig för de återstående åtta raderna;
+tillräcklig för de återstående sju raderna;
 de är markerade för radvis omkontroll innan deras status påstås. Arkivering och
 push pågår:
 Lokalise-tokenen saknar rättigheten `Upload files`.
