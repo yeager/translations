@@ -161,7 +161,7 @@ The final 19 local English source keys were compared one by one with Swedish. `f
 
 All 1,459 keys in the local English frontend snapshot were compared line by line. This proves the scope of the local snapshot only: it has 1,382 Swedish keys, while Crowdin contains newer Swedish keys and remains the authoritative upstream catalog. The archived delta files must be applied to current Crowdin strings individually or by an API flow that can list and verify the target translations; the raw local snapshot must not be uploaded wholesale.
 
-The archive now contains 300 prepared corrections across all reviewed OBS components. None has been saved to Crowdin in this work session.
+The archive now contains 303 prepared corrections across all reviewed OBS components. None has been saved to Crowdin in this work session.
 
 2026-11-16: reviewed the live `Stores/Steam/Store Page` component line by line in Crowdin (23 strings). Prepared 9 context-checked corrections in `store-steam.delta.json`; none has been saved upstream.
 
@@ -170,6 +170,8 @@ The archive now contains 300 prepared corrections across all reviewed OBS compon
 2026-11-16: reviewed the live `Stores/Flathub/Metadata` component line by line in Crowdin (15 strings). Prepared 9 context-checked corrections in `store-flathub.delta.json`; none has been saved upstream.
 
 2026-11-16: reviewed the live `App/Plugins/Frontend/Frontend Tools` component line by line in Crowdin (48 strings). Prepared 5 context-checked corrections in `frontend-tools.delta.json`; none has been saved upstream.
+
+2026-11-16: reviewed page 1 of the live `App/Core` component line by line in Crowdin (50 of 1,428 strings). Most applicable corrections were already present in `frontend-core-ui.delta.json`, `frontend-system-messages.delta.json` and `frontend-autoconfig-status-undo.delta.json`; 3 additional corrections are in `core-page-01.delta.json`. None has been saved upstream.
 
 ## Scope and next batch
 
