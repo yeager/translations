@@ -39,6 +39,13 @@ Two strings were reviewed in their Crowdin component. No source or Swedish value
 
 The pending deltas have not been saved to Crowdin. Raw Crowdin exports remain unchanged.
 
+## Reviewed batch 4 — pending upstream save
+
+Component: `NVENC`  
+Reviewed strings: 60 (two pages in Crowdin)
+
+Fifteen changes are prepared in `nvenc.delta.json`. They correct bitrate-versus-speed terminology, technical compounds, Swedish grammar, a `Windows Game DVR` typo, the Swedish spelling `kodek`, and a misleading technical tooltip. The remaining 45 strings are contextually correct and unchanged. Markup, `%1`, product names, encoder names and example options are retained byte-for-byte where required.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.

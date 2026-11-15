@@ -1,0 +1,26 @@
+{
+  "project": "OBS Studio",
+  "platform": "Crowdin",
+  "locale": "sv-SE",
+  "component": "App/Plugins/NVENC",
+  "reviewed_at": "2026-11-15",
+  "reviewed_strings": 60,
+  "changes": [
+    {"key":"RateControl","before":"Hastighetskontroll","after":"Bithastighetskontroll","reason":"The encoder setting controls bitrate, not speed."},
+    {"key":"KeyframeIntervalSec","before":"Intervall för nyckelbildrutor (sekunder, 0 = automatiskt)","after":"Nyckelbildsintervall (sekunder, 0 = automatiskt)","reason":"Use the established compact technical term."},
+    {"key":"LookAhead.ToolTip","before":"Aktiverar look-ahead.\\n\\nOm detta aktiveras analyseras framtida bildrutor för att utse en bättre fördelning av bithastigheten för att uppnå högre bildkvalitet.\\nDock så blir det högre fördröjning och mer GPU användning.","after":"Aktiverar look-ahead.\\n\\nNär funktionen är aktiverad analyseras kommande bildrutor för att bestämma en bättre fördelning av bithastigheten. Det förbättrar bildkvaliteten men ökar GPU-användningen och fördröjningen.","reason":"Correct Swedish word order, preserve the technical feature name, and restore both source trade-offs."},
+    {"key":"AdaptiveQuantization.ToolTip","before":"Aktiverar temporal/rumslig adaptiv kvantisering, som optimerar bithastigheten för att ge ett mer tillfredsställande visuellt resultat.\\nSkillnaden blir tydligast i scener med snabba rörelser, men belastar grafikprocessorn.\\n\\nKallades tidigare \"Psykovisuell justering\".","after":"Aktiverar tidsmässig/rumslig adaptiv kvantisering, som optimerar användningen av bithastigheten för högre upplevd bildkvalitet, särskilt i scener med mycket rörelse, men ökar GPU-användningen.\\n\\nTidigare kallad \"Psycho-Visual Tuning\".","reason":"Restore the source meaning and retain the former official feature name."},
+    {"key":"Preset.p4","before":"P4: Medium (mediumkvalitet)","after":"P4: Medel (medelhög kvalitet)","reason":"Translate the remaining English UI label and use natural Swedish terminology."},
+    {"key":"BframeRefMode.Middle","before":"Endast mittersta B-bildruta","after":"Endast den mittersta B-bildrutan","reason":"Add the required Swedish determiner and inflection."},
+    {"key":"SplitEncode","before":"Dela upp kodning","after":"Delad kodning","reason":"Use a noun phrase for this encoder option label."},
+    {"key":"Opts.TT","before":"Mellanslagsavgränsad lista med alternativ att tillämpa inställningarna för hastighetskontroll och kodare\\nbaserat på deras namn i huvudet nvEncodeAPI.\\nt.ex. \"lookaheadDepth=16 aqStrength=4\"","after":"Mellanslagsavgränsad lista med alternativ som tillämpas på inställningarna för bithastighetskontroll och kodek, baserat på deras namn i nvEncodeAPI-headern.\\nt.ex. \"lookaheadDepth=16 aqStrength=4\"","reason":"Repair missing preposition, terminology and the reference to the C header."},
+    {"key":"Error","before":"Det gick inte att öppna NVENC-codec: %1","after":"Det gick inte att öppna NVENC-kodek: %1","reason":"Use the established Swedish spelling of codec."},
+    {"key":"TooManySessions","before":"NVENC-fel: För många parallella sessioner. Prova stäng ner andra inspelningsprogram som kanske använder NVENC så som NVIDIA ShadowPlay eller Windows Game VDR.","after":"NVENC-fel: För många samtidiga sessioner. Försök att stänga andra inspelningsprogram som kan använda NVENC, till exempel NVIDIA ShadowPlay eller Windows Game DVR.","reason":"Correct grammar, idiom and the DVR product name."},
+    {"key":"I010Unsupported","before":"NVENC saknar stöd för I010. Använd P010 istället.","after":"NVENC saknar stöd för I010. Använd P010 i stället.","reason":"Use standard Swedish orthography."},
+    {"key":"10bitUnsupported","before":"Kan inte utföra kodning med 10-bitar på denna kodare.","after":"Kan inte utföra 10-bitarskodning med den här kodaren.","reason":"Use the correct compound and natural technical phrasing."},
+    {"key":"16bitUnsupported","before":"Kan inte utföra kodning med 16-bitar på denna kodare.","after":"Kan inte utföra 16-bitarskodning med den här kodaren.","reason":"Use the correct compound and natural technical phrasing."},
+    {"key":"444Unsupported","before":"Kan inte utföra kodning med 4:4:4 på denna kodare.","after":"Kan inte utföra 4:4:4-kodning med den här kodaren.","reason":"Use a natural technical compound."},
+    {"key":"PsychoVisualTuning.ToolTip","before":"Aktiverar kodarinställningar som optimerar hur bithastigheten används för förbättrad visuell kvalitet,\\nspeciellt i situationer med snabba rörelser på bekostnad av ökad användning av grafikprocessorn.","after":"Aktiverar kodarinställningar som optimerar användningen av bithastigheten för högre upplevd bildkvalitet,\\nsärskilt i scener med mycket rörelse, men ökar GPU-användningen.","reason":"Make the Swedish idiomatic and retain the source trade-off."}
+  ],
+  "unchanged_count": 45
+}
