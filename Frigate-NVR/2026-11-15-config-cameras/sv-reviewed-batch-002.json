@@ -1,0 +1,122 @@
+{
+  "audio": {
+    "labelmap": {
+      "label": "Anpassning av ljudetikettmappning",
+      "description": "Överskrivningar eller ommappningsposter som ska slås samman med standardljudetikettmappningen."
+    }
+  },
+  "birdseye": {
+    "modes": {
+      "label": "Aktivitetstyper",
+      "description": "Aktivitetstyper som inkluderar kameror i Birdseye."
+    }
+  },
+  "detect": {
+    "scene": {
+      "label": "Detekteringsscen",
+      "description": "Miljön som den här kameran visar och som används för att välja vilken av de konfigurerade modellerna som körs på den. Kameror som lämnas med 'default' kör modellen som är konfigurerad med scenen 'default'."
+    }
+  },
+  "ffmpeg": {
+    "output_args": {
+      "record_sub": {
+        "label": "Utdataargument för inspelning från underström",
+        "description": "Utdataargument för strömmar med rollen record_sub. Utdataargumenten för record används när detta inte är angivet."
+      }
+    }
+  },
+  "record": {
+    "sub": {
+      "label": "Inspelning från underström",
+      "description": "Inställningar för inspelning av en andra ström med lägre kvalitet.",
+      "enabled": {
+        "label": "Aktivera inspelning från underström",
+        "description": "Aktivera inspelning av en andra ström med lägre kvalitet för adaptiv kvalitetsuppspelning och längre lagringstid."
+      },
+      "continuous": {
+        "label": "Kontinuerlig lagring från underström",
+        "description": "Antal dagar som inspelningar från underströmmen ska behållas oavsett spårade objekt eller rörelse.",
+        "days": {
+          "label": "Lagringsdagar",
+          "description": "Antal dagar som inspelningar ska behållas."
+        }
+      },
+      "motion": {
+        "label": "Rörelsebaserad lagring från underström",
+        "description": "Antal dagar som rörelseutlösta inspelningar från underströmmen ska behållas.",
+        "days": {
+          "label": "Lagringsdagar",
+          "description": "Antal dagar som inspelningar ska behållas."
+        }
+      },
+      "alerts": {
+        "label": "Lagring av varningar från underström",
+        "description": "Inställningar för lagring av inspelningar av varningar från underströmmen.",
+        "days": {
+          "label": "Lagringsdagar",
+          "description": "Antal dagar som inspelningar av detekteringshändelser ska behållas."
+        },
+        "mode": {
+          "label": "Lagringsläge",
+          "description": "Läge för lagring: all (spara alla segment), motion (spara segment med rörelse) eller active_objects (spara segment med aktiva objekt)."
+        }
+      },
+      "detections": {
+        "label": "Lagring av detektioner från underström",
+        "description": "Inställningar för lagring av inspelningar av detektioner från underströmmen.",
+        "days": {
+          "label": "Lagringsdagar",
+          "description": "Antal dagar som inspelningar av detekteringshändelser ska behållas."
+        },
+        "mode": {
+          "label": "Lagringsläge",
+          "description": "Läge för lagring: all (spara alla segment), motion (spara segment med rörelse) eller active_objects (spara segment med aktiva objekt)."
+        }
+      }
+    }
+  },
+  "review": {
+    "genai": {
+      "response_style": {
+        "label": "Svarsstil",
+        "description": "Förinställd skrivstil för genererade granskningsbeskrivningar. Förinställningarna justerar ton och detaljnivå för den användarvända titeln, sammanfattningen och scenbeskrivningen. 'default' lämnar den inbyggda prompten oförändrad."
+      },
+      "frame_mode": {
+        "label": "Bildruteläge",
+        "description": "Hur bildrutor presenteras för modellen. 'frames' skickar prompten följd av bildrutorna, vilket passar modeller som själva spårar en sekvens väl. 'annotated_frames' etiketterar varje bildruta och varvar anteckningar från objektspårningen, vilket hjälper modeller som tappar bort aktiviteter som upprepas eller vänds."
+      }
+    }
+  },
+  "live": {
+    "transcode": {
+      "label": "Transkodade strömmar",
+      "description": "Live-strömmar med lägre kvalitet som go2rtc transkodar vid behov.",
+      "enabled": {
+        "label": "Aktivera transkodade strömmar",
+        "description": "Lägg till live-strömmar med lägre kvalitet som go2rtc transkodar i realtid medan någon tittar."
+      },
+      "source": {
+        "label": "Källström",
+        "description": "go2rtc-ström att transkoda. Standard är den första live-strömmen."
+      },
+      "qualities": {
+        "label": "Kvaliteter",
+        "description": "En transkodad ström läggs till per kvalitet.",
+        "height": {
+          "label": "Höjd",
+          "description": "Utdatans höjd i bildpunkter, medan bredden följer källans bildförhållande."
+        },
+        "bitrate": {
+          "label": "Bithastighet",
+          "description": "Mål- och högsta videobithastighet i kbps."
+        }
+      }
+    }
+  },
+  "notifications": {
+    "ttl": {
+      "label": "TTL för aviseringar",
+      "description": "Så här hanterar push-tjänsten en avisering som skickas medan en varning är aktiv, om enheten inte går att nå. Immediate levererar den direkt eller släpper den. Reliable fortsätter att försöka i upp till 30 sekunder. Aviseringen som skickas när en varning upphör behålls alltid i upp till en timme."
+    }
+  }
+}
