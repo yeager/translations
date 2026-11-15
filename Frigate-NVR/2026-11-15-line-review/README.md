@@ -215,3 +215,9 @@ Fjortonde och sista läspasset av `views-settings`: sträng 1 301–1 434 av
 1 434. Sju rättningar behövdes. Bildruteannoteringar, modellresurser,
 konfigurationsvärdet `recordings`, zoninställningar och
 detekteringsmaskinvara återger nu korrekt funktion och terminologi.
+
+## Batch 029
+
+Hela `audio` har granskats rad för rad: 500 av 500 etiketter. Åtta rättningar
+behövdes för faktiska sakfel i ljudklassernas svenska benämningar, bland annat
+kattjämmer, valars läten, stråksektion, elhissar och summer.
