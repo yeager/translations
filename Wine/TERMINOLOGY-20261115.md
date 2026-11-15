@@ -27,3 +27,7 @@
 | Central Europe | Centraleuropa | Språk-/skriptgrupp |
 | Turkic | turkiska språk | Språkgrupp, inte enbart turkiska |
 | Traditional/Simplified Chinese | traditionell/förenklad kinesiska | Språk-/skriptgrupp |
+| Automatic Document Feeder | automatisk dokumentmatare | Skannerdialog; behåll ADF |
+| paper jam | pappersstopp | Skannerstatus |
+| scanner cover | skannerlock | Skannerstatus |
+| StartUp | autostart | Windows-mapp i skalet |
