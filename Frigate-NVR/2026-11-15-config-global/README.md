@@ -17,3 +17,11 @@ Weblates import svarade `accepted: 28`, `skipped: 0`, `not_found: 0` och
 `ONVIF-port`.
 
 Kontroller: `jq empty`, `l10n-lint`, `git diff --check` och Gitleaks.
+
+## Batch 002
+
+Batchen för Birdseye-layout, FFmpeg, livevy, rörelse, objekt, inspelning och
+granskningsinställningar accepterades med 20 av 775 nycklar. Komponenten står
+därefter på 599 av 775 översatta strängar och 0 fuzzy. Kontrollträffarna för
+`FFmpeg` och `ONVIF-port` är medvetna falska positiva tekniska namn och svensk
+sammansättning.

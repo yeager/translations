@@ -1,0 +1,62 @@
+{
+  "birdseye": {
+    "layout": {
+      "label": "Layout",
+      "description": "Layoutalternativ för Birdseye-kompositionen.",
+      "scaling_factor": {
+        "label": "Skalningsfaktor",
+        "description": "Skalningsfaktor som används av layoutberäknaren (intervall 1,0 till 5,0)."
+      },
+      "max_cameras": {
+        "label": "Högsta antal kameror",
+        "description": "Högsta antal kameror som visas samtidigt i Birdseye; de senaste kamerorna visas."
+      }
+    },
+    "idle_heartbeat_fps": {
+      "label": "FPS för hjärtslag vid inaktivitet",
+      "description": "Bildfrekvens för att skicka om den senast sammansatta Birdseye-bildrutan vid inaktivitet; ange 0 för att inaktivera."
+    }
+  },
+  "detect": {
+    "enabled": {
+      "description": "Aktivera eller inaktivera objektdetektering för alla kameror; kan åsidosättas per kamera."
+    }
+  },
+  "ffmpeg": {
+    "label": "FFmpeg",
+    "description": "FFmpeg-inställningar, inklusive sökväg till binärfil, argument, maskinvaruaccelerationsalternativ och utdataargument per roll."
+  },
+  "live": {
+    "description": "Inställningar för att styra upplösning och kvalitet för jsmpeg-liveströmmen. Detta påverkar inte återströmmade kameror som använder go2rtc för livevy."
+  },
+  "motion": {
+    "description": "Standardinställningar för rörelsedetektering som tillämpas på kameror om de inte åsidosätts per kamera.",
+    "enabled": {
+      "description": "Aktivera eller inaktivera rörelsedetektering för alla kameror; kan åsidosättas per kamera."
+    }
+  },
+  "objects": {
+    "track": {
+      "description": "Lista över objektetiketter att spåra för alla kameror; kan åsidosättas per kamera."
+    }
+  },
+  "record": {
+    "description": "Inställningar för inspelning och lagringstid som tillämpas på kameror om de inte åsidosätts per kamera.",
+    "enabled": {
+      "description": "Aktivera eller inaktivera inspelning för alla kameror; kan åsidosättas per kamera."
+    }
+  },
+  "review": {
+    "description": "Inställningar som styr varningar, detektioner och GenAI-granskningssammanfattningar som används av gränssnittet och lagringen.",
+    "alerts": {
+      "enabled": {
+        "description": "Aktivera eller inaktivera generering av varningar för alla kameror; kan åsidosättas per kamera."
+      }
+    },
+    "detections": {
+      "enabled": {
+        "description": "Aktivera eller inaktivera detekteringshändelser för alla kameror; kan åsidosättas per kamera."
+      }
+    }
+  }
+}
