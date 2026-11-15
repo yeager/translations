@@ -245,3 +245,8 @@ bildpublicering och TTL-lägen.
 Fjärde och sista läspasset av `config/cameras`: sträng 341–522 av 522. Nio
 rättningar behövdes för ONVIF-protokoll, Frigate-namnet, zonfilter, uppehållstid
 och interna statusfält.
+
+## Batch 034
+
+Första läspasset av `config/global`: sträng 1–100 av 775. Tre rättningar
+behövdes för sessionsförnyelse, go2rtc-återströmning och TTL-lägen.
