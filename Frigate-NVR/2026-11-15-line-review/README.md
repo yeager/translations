@@ -277,3 +277,9 @@ för GenAI-instruktionen och den svenska benämningen på transkriberingsmotorn.
 
 Sjätte läspasset av `config/global`: sträng 601–700. Åtta rättningar behövdes
 för visningsnamn, konfidens, oskärpefilter och registreringsskyltigenkänning.
+
+## Batch 040
+
+Sjunde och sista läspasset av `config/global`: sträng 701–775 av 775. Sex
+rättningar behövdes för profilers visningsnamn, MQTT-avgränsningsrutor och
+ONVIF-protokoll.
