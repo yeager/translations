@@ -27,6 +27,22 @@ separat i sitt tekniska sammanhang.
 Kontroller: `jq empty`, `l10n-lint`, tokenjämförelse mot aktuell källfil,
 `git diff --check` och Gitleaks.
 
+## Batch 004
+
+Batchen omfattar formulärfält, globala inställningar, kamerainställningar och
+statusmeddelanden. Hosted Weblate tog emot 37 aktuella källnycklar. Tre
+föråldrade Weblate-nycklar, som saknas i Frigates aktuella källfil, lämnades
+avsiktligt utanför batchen.
+
+Åtta nya kontrollträffar från avslutande punkter i toast-meddelanden rättades
+via enhets-API:t, eftersom importer inte skriver över befintliga översättningar.
+Komponenten står därefter på 800 av 1 409 översatta strängar, 0 fuzzy och 18
+kontrollträffar. De kvarvarande träffarna granskas separat; tekniska namn som
+`FFmpeg` och `Birdseye` är dokumenterade avsiktliga undantag.
+
+Kontroller: `jq empty`, `l10n-lint`, käll- och tokenjämförelse, API-läsning,
+`git diff --check` och Gitleaks.
+
 ## Batch 003
 
 Batchen omfattar sidtitlar, inställningsmenyer, sparade ändringar, Frigate+ och
