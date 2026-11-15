@@ -25,6 +25,6 @@ musikkällas bibliotek och Music Assistant.
 ## Status
 
 En tidigare snabbkontroll var inte tillräcklig för att intyga radvis
-verifiering. Samtliga elva rader är därför markerade för omkontroll i Lokalise.
+verifiering. En av elva rader är nu verifierad i Lokalise; tio återstår.
 Arkivering och push sker efter varje ändring:
 Lokalise-tokenen saknar rättigheten `Upload files`.
