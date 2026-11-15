@@ -57,6 +57,16 @@ Kontrollträffar i den här delen avser korrekta tekniska namn: `go2rtc`,
 Kontroller: `jq empty`, `l10n-lint`, käll- och tokenjämförelse,
 `git diff --check` och Gitleaks.
 
+## Batch 006
+
+Batchen omfattar profilhantering och profilåsidosättningar. Hosted Weblate
+accepterade 38 strängar. En äldre `cameraCount`-nyckel saknas i den aktuella
+källfilen och lämnades därför utanför. Komponenten står därefter på 892 av
+1 409 översatta strängar och 0 fuzzy.
+
+Kontroller: `jq empty`, `l10n-lint`, käll- och tokenjämförelse,
+`git diff --check` och Gitleaks.
+
 ## Batch 003
 
 Batchen omfattar sidtitlar, inställningsmenyer, sparade ändringar, Frigate+ och
