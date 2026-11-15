@@ -13,7 +13,11 @@ Särskilda termval: *launcher* är `startprogram`, *instance* är `instans`,
 tekniska namn.
 
 Projektets senaste release är 11.1.1, publicerad 28 september 2026.
-Den aktuella Hosted Weblate-sessionen har ingen inloggad Prism Launcher-flik
-och den tidigare kontrollerade API-token saknar åtkomst. Deltan är därför
-lokalt granskad och arkiverad, men ännu inte importerad eller återläst
-upstream.
+
+## Upstreamstatus
+
+Den 15 november 2026 importerades deltafilen med Hosted Weblates API.
+Importen accepterade samtliga 48 av 48 poster utan överhoppade eller saknade
+strängar. En efterföljande API-avläsning visar 2 581 av 2 581 översatta
+strängar och 0 fuzzy-poster. Komponenten har fortfarande 66 kontrollvarningar;
+de har inte behandlats som automatiska språkfel i denna batch.
