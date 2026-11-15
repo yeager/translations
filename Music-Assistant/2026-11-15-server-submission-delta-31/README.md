@@ -36,6 +36,7 @@ upstream-granskning eller integrering har verifierats.
 Lokalise-redigeraren: två etiketter och en beskrivning för inloggning med
 enhetskod samt två etiketter och en beskrivning för QR-kodinloggning. Varje
 sparning lästes tillbaka i redigeraren.
-Två kontrollsträngar i samma delta fanns redan upstream med matchande svensk
-text. Detta är inte en filimport; återstående deltasträngar är inte inskickade
-eller verifierade.
+En kontrollsträng i samma delta fanns redan upstream med matchande svensk text.
+Två andra kontroller hade redan svenska upstreamöversättningar med annan
+formulering och lämnades därför orörda. Detta är inte en filimport; återstående
+deltasträngar är inte inskickade eller verifierade.
