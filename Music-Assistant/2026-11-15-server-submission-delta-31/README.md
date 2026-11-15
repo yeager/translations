@@ -30,6 +30,15 @@ rättigheten `Upload files`.
 Ingen fil har därför laddats upp och inget importresultat, ingen
 upstream-granskning eller integrering har verifierats.
 
+## Senare projektkontroll
+
+2026-11-15 kontrollerades den svenska målgruppen direkt i Lokalise med filtret
+`Untranslated`. Projektet visade 0 nycklar och 0 källord för svenska. Det
+verifierar att projektet för närvarande saknar oöversatta svenska strängar.
+Vyn visar däremot inte vilken enskild import eller manuell sparning som gav
+varje värde. Därför ersätter denna kontroll inte den tidigare uppgiften om att
+en enskild JSON-import av delta 31 saknade behörighet.
+
 ## Manuell upstream-status
 
 2026-11-15 sparades sex tidigare tomma, lokalt granskade strängar manuellt i
