@@ -83,3 +83,9 @@ Radgranskad komponent: `views-exports` (87). Två rättningar behövdes:
 - Tomstatusen är nu den kompletta meningen *Inga exporter hittades*.
 - Eftersom *ärende* är ett neutrum är datumetiketten *Skapat {{value}}*, inte
   *Skapad {{value}}*.
+
+## Batch 009
+
+Radgranskad komponent: `objects` (129). Inga ändringar behövdes. Etiketterna
+följer vedertagna svenska namn för objektigenkänning; varumärken och
+transportörnamn behålls oförändrade.
