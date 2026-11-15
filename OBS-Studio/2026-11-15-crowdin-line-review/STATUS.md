@@ -115,6 +115,12 @@ Component: `Frontend` (auto-configuration, status and undo UI; keys 181–360 in
 
 The next 180 local English source keys were compared one by one with Swedish. `frontend-autoconfig-status-undo.delta.json` contains 34 repairs to source meaning, Swedish grammar, terminology, typos and punctuation. It retains all placeholders, markup and source line structure. Newer keys absent from the local Swedish snapshot are deliberately excluded.
 
+## Reviewed batch 15 — pending upstream save
+
+Component: `Frontend` (output, remux and scene UI; keys 361–540 in local source order)
+
+The next 180 local English source keys were compared one by one with Swedish. `frontend-output-remux-scene.delta.json` contains 23 corrections: output errors, remux workflow text, macOS permission text, scene-collection recovery and source controls. It also removes one unintended invisible U+2063 character after a placeholder. Placeholders, markup and source line structure are retained.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
