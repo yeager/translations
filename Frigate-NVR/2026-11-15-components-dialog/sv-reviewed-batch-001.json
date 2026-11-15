@@ -1,0 +1,31 @@
+{
+  "export": {
+    "stream": {
+      "label": "Kvalitet",
+      "auto": "Automatiskt",
+      "main": "Original",
+      "sub": "Låg",
+      "autoDesc": "Använder huvudströmmen och faller tillbaka till underströmmen med lägre kvalitet när huvudströmmen inte är tillgänglig.",
+      "mainDesc": "Exporterar endast huvudströmmen i originalkvalitet. Tidsintervall där huvudströmmen inte är tillgänglig utelämnas.",
+      "subDesc": "Exporterar endast underströmmen med lägre kvalitet. Tidsintervall där underströmmen inte är tillgänglig utelämnas."
+    },
+    "case": {
+      "nameRequired": "Ärendenamn krävs"
+    },
+    "multiCamera": {
+      "noCamerasSelected": "Välj minst en kamera",
+      "caseNameDefault": "Export från flera kameror - {{date}}"
+    }
+  },
+  "recording": {
+    "button": {
+      "generateDescription": "Generera beskrivning"
+    },
+    "genaiDescription": {
+      "toast": {
+        "success": "En GenAI-beskrivning har begärts för det här granskningsobjektet.",
+        "error": "Det gick inte att begära en beskrivning: {{error}}"
+      }
+    }
+  }
+}
