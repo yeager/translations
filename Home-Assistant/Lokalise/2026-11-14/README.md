@@ -67,6 +67,9 @@ Ytterligare Voice-strängar finns i
 [`hp-printer-consumables-batch-48.md`](hp-printer-consumables-batch-48.md).
 [`hp-printer-connectivity-batch-49.md`](hp-printer-connectivity-batch-49.md).
 [`hp-printer-refills-batch-50.md`](hp-printer-refills-batch-50.md).
+
+Efterföljande arbete finns i
+[`../2026-11-15/core-network-alarms-batch-51.md`](../2026-11-15/core-network-alarms-batch-51.md).
 Totalt omfattar dagens arkiverade arbete därmed 177 direkt sparade och
 återlästa strängar.
 
