@@ -1,0 +1,22 @@
+{
+  "project": "Wine",
+  "component": "po/sv.po",
+  "source_revision": "9f8c4ae4d35c7ff4153267aba9618c026f5f5583",
+  "date": "2026-11-15",
+  "status": "locally reviewed; not submitted upstream",
+  "strings_reviewed": 29,
+  "scope": "MSI installation messages, OLE DB dialog text and Shell debug commands",
+  "component_completion": "All previously untranslated entries in msi, oledb32 and shdoclc are now translated.",
+  "decisions": [
+    "Preserve MSI properties and formatting tokens such as [1], [2], [Time] and {{...}}.",
+    "Preserve technical API terms including ProgId, LibID, AppId and OLE DB.",
+    "Preserve debug command identifiers DisplayTree, FormatCaches and LayoutRects."
+  ],
+  "validation": {
+    "msgfmt": "passed",
+    "git_diff_check": "passed",
+    "gitleaks": "passed",
+    "svlang": "ran; existing global findings reviewed separately",
+    "l10n_lint": "ran; pre-existing catalog baseline remains"
+  }
+}
