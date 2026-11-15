@@ -26,3 +26,17 @@ separat i sitt tekniska sammanhang.
 
 Kontroller: `jq empty`, `l10n-lint`, tokenjämförelse mot aktuell källfil,
 `git diff --check` och Gitleaks.
+
+## Batch 003
+
+Batchen omfattar sidtitlar, inställningsmenyer, sparade ändringar, Frigate+ och
+grundläggande formulärtexter. Hosted Weblate accepterade samtliga 62 strängar.
+Komponenten står därefter på 763 av 1 409 översatta strängar och 0 fuzzy.
+
+Kontrollträffarna ökade från 14 till 17. De tre nya är avsiktliga och korrekta:
+de tekniska produktnamnen `FFmpeg` (två gånger) och `Birdseye` i Frigates
+navigering. De återstående 14 kontrollträffarna var befintliga och granskas
+separat.
+
+Kontroller: `jq empty`, `l10n-lint`, tokenjämförelse mot aktuell källfil,
+`git diff --check` och Gitleaks.
