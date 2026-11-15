@@ -1,0 +1,44 @@
+{
+  "cameraManagement": {
+    "streams": {
+      "details": {
+        "webuiUrlInvalid": "Måste vara en giltig URL (t.ex. https://example.com)."
+      },
+      "label": "Kamerastatus",
+      "description": "Ange driftläget för varje kamera.<br /><br /><strong>På</strong>: strömmar behandlas normalt.<br /><strong>Av</strong>: behandlingen pausas tillfälligt. Det kvarstår inte efter omstart av Frigate.<br /><strong>Inaktiverad</strong>: behandlingen stoppas och ändringen sparas i konfigurationen. Omstart krävs för att återaktivera en inaktiverad kamera.<br /><br /><em>Obs! Inaktivering påverkar inte återströmningar från go2rtc.</em><br /><br />Dra handtaget för att ändra ordningen på aktiva kameror så som de visas i gränssnittet, inklusive Live-panelen och kameraväljarna.",
+      "disabledSubheading": "Inaktiverad i konfigurationen",
+      "status": {
+        "on": "På",
+        "off": "Av",
+        "disabled": "Inaktiverad"
+      },
+      "disableSuccess": "{{cameraName}} har inaktiverats och sparats i konfigurationen."
+    },
+    "profiles": {
+      "on": "På",
+      "off": "Av"
+    }
+  },
+  "configForm": {
+    "semanticSearchModelSize": {
+      "notApplicable": "Gäller inte GenAI-leverantörer"
+    },
+    "liveStreams": {
+      "streamNameLabel": "Strömnamn",
+      "streamNamePlaceholder": "t.ex. HD-huvudström",
+      "go2rtcStreamLabel": "go2rtc-ström",
+      "go2rtcStreamPlaceholder": "Välj en go2rtc-ström",
+      "go2rtcStreamSearch": "Sök efter eller ange ett strömnamn…",
+      "noGo2rtcStreams": "Inga go2rtc-strömmar har konfigurerats",
+      "availableStreams": "Tillgängliga strömmar",
+      "useCustom": "Använd \"{{value}}\"",
+      "addStream": "Lägg till ström"
+    }
+  },
+  "configMessages": {
+    "detect": {
+      "resolutionShouldBeMultipleOfFour": "För bästa resultat bör detekteringsbredd och -höjd vara multiplar av 4. Andra jämna värden kan ge visuella artefakter eller lätt förvrängning i detekteringsströmmen.",
+      "aspectRatioMismatch": "Bredden och höjden du har angett matchar inte bildförhållandet för den aktuella detekteringsupplösningen. Det kan ge en utdragen eller förvrängd bild."
+    }
+  }
+}

@@ -57,6 +57,16 @@ Kontrollträffar i den här delen avser korrekta tekniska namn: `go2rtc`,
 Kontroller: `jq empty`, `l10n-lint`, käll- och tokenjämförelse,
 `git diff --check` och Gitleaks.
 
+## Batch 014
+
+Batchen omfattar kamerans driftstatus, live-strömmar och
+detekteringsupplösning. Hosted Weblate accepterade samtliga 22 strängar.
+Komponenten står därefter på 1 081 av 1 409 översatta strängar och 0 fuzzy,
+utan nya kontrollträffar.
+
+Kontroller: `jq empty`, `l10n-lint`, kontroll av platshållare, URL:er och
+markup, `git diff --check` och Gitleaks.
+
 ## Batch 011
 
 Batchen omfattar återstående HTTP-, RTSP- och inspelningsförinställningar,
