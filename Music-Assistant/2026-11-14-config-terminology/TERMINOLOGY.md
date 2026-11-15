@@ -8,6 +8,7 @@ Datum: 2026-11-14
 | Smart shuffle | Intelligent slumpning | Köalgoritm som varierar urvalet utifrån nyligen spelat innehåll. |
 | Smart crossfade | Intelligent övertoning | Väljer övergång utifrån spårparets analys. |
 | Flow Mode | köflödesläge | Beskriver en enda sömlös ljudström för kön. |
+| pre-announcement chime | klocksignal före meddelanden | Signal som spelas före ett uppläst meddelande. |
 | sample rate | samplingsfrekvens | Etablerad ljudteknisk term. |
 | resample | sampla om | Används i den konkreta ljudinställningskontexten. |
 | bit-perfect | bitperfekt | Oförändrad digital ljudsignal utan omprovtagning. |
