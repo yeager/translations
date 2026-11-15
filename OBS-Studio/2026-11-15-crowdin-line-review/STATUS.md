@@ -201,6 +201,8 @@ The archive now contains 342 prepared corrections across all reviewed OBS compon
 
 2026-11-16: reviewed page 15 of the live `App/Core` component line by line in Crowdin (750 of 1,428 strings). Existing work already corrects the filter-changes history label. `core-page-15.delta.json` adds six distinct corrections for paste, centering and audio-history wording. None has been saved upstream.
 
+2026-11-16: reviewed page 16 of the live `App/Core` component line by line in Crowdin (800 of 1,428 strings). Existing deltas already cover safe-mode and direct-dialog wording. `core-page-16.delta.json` adds six distinct corrections for grouping and live-broadcast actions. None has been saved upstream.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
@@ -214,5 +216,5 @@ Crowdin currently lists 100%-translated Swedish components with widely varying a
 - svlang: the installed CLI only accepts plain text through `svlang check`; it has no INI parser. The translations were reviewed in their source/UI context instead.
 - Hunspell was intentionally not run, following the current CPU constraint.
 - Gitleaks: passed for the archive payload.
-- Final delta audit: all 361 proposed changes pass JSON parsing plus placeholder, markup and escaped-line-break parity checks; `git diff --check` and Gitleaks pass.
+- Final delta audit: all 367 proposed changes pass JSON parsing plus placeholder, markup and escaped-line-break parity checks; `git diff --check` and Gitleaks pass.
 - svlang: run on the combined delta text. Its aggregate score and 74 warnings are false positives caused by concatenated UI fragments, code/format tokens, product names and markup; each delta remains reviewed in source context. It has no INI parser.
