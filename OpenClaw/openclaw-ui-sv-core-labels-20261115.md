@@ -4,7 +4,7 @@ Datum: 2026-11-15
 Upstream: [PR #199526](https://github.com/openclaw/openclaw/pull/199526)
 
 Tre delade poster i Control UI:s svenska översättningsminne har granskats och
-uppdaterats. De gäller sammanlagt 20 synliga positioner.
+uppdaterats. De gäller sammanlagt 22 synliga positioner.
 
 | Segment | Engelska | Svenska |
 | --- | --- | --- |
