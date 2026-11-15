@@ -96,3 +96,12 @@ Radgranskad komponent: `common` (273). Åtta rättningar behövdes: sex
 dataenheter bevarar byte (`B`) i stället för den felaktiga bit-omvandlingen
 (`bit`), och två texter använder nu de etablerade termerna
 *granskningsobjekt* respektive *urklipp*.
+
+## Batch 011
+
+Radgranskad komponent: `views-live` (130). Tre rättningar behövdes:
+
+- Kamerans dokumenttitel behåller källans bindestreck.
+- *Live view* använder den fastställda termen *livevy*.
+- Tomläget beskriver korrekt att inga kameror, inte en enda kamera, är
+  konfigurerade.
