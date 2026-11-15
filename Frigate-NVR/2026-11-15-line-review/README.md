@@ -105,3 +105,11 @@ Radgranskad komponent: `views-live` (130). Tre rättningar behövdes:
 - *Live view* använder den fastställda termen *livevy*.
 - Tomläget beskriver korrekt att inga kameror, inte en enda kamera, är
   konfigurerade.
+
+## Batch 012
+
+Radgranskad komponent: `views-classificationmodel` (148). Fem rättningar
+behövdes: korrekta statusformer för pågående generering, *Senaste
+klassificeringar* i stället för den felaktiga betydelsen ”nyligen tillagda”,
+korrekt resultattext vid namnbyte och en omskriven informationstext som nu
+återger källans betydelse.
