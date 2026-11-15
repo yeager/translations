@@ -3,8 +3,8 @@
 Datum: 2026-11-15  
 Upstream: [PR #199526](https://github.com/openclaw/openclaw/pull/199526)
 
-Etthundratrettiotre delade poster i Control UI:s svenska översättningsminne har
-granskats och uppdaterats. De gäller minst 167 synliga positioner.
+Etthundrafyrtioett delade poster i Control UI:s svenska översättningsminne har
+granskats och uppdaterats. De gäller minst 175 synliga positioner.
 
 | Segment | Engelska | Svenska |
 | --- | --- | --- |
@@ -151,6 +151,9 @@ Tekniska konfigurationssökvägar som `skills.*` har lämnats orörda.
 De kvarvarande korta, synliga plugin-etiketterna använder nu också konsekvent
 Tillägg och Tilläggsappar, medan tekniska konfigurationsnycklar och kommandon
 inte har ändrats.
+Navigering, sök, kategorier och kontobegränsade inställningar använder samma
+ordval: Hantera tillägg, Utforska tillägg, Sök efter tillägg,
+Tilläggskategorier och Inställningarna för tillägg.
 
 Kontroller som passerar: JSONL-parsning, Hunspell-sv för de vanliga nya orden,
 svlang, diffkontroll och en fokuserad Gitleaks-kontroll av ändringarna.
