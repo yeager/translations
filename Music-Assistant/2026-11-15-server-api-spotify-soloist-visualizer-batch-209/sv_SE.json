@@ -1,0 +1,22 @@
+{
+  "provider.spotify_connect.errors.soloist_api_key_invalid": "Det här verkar inte vara en fullständig API-nyckel. Kopiera hela nyckeln från Spotify-sidan och klistra in den igen.",
+  "provider.spotify_connect.errors.soloist_auth_required": "Spotify-inloggningen för den här Spotify Connect-enheten har gått förlorad. Kör konfigurationen igen för att ansluta den på nytt.",
+  "provider.spotify_connect.errors.soloist_build_expired": "Den aktuella versionen av Spotifys Soloist-app har gått ut och det finns ännu ingen nyare version. Försök igen senare.",
+  "provider.spotify_connect.errors.soloist_consent_required": "Spotify Soloist kan bara användas efter att du har tillåtit hämtningen. Välj Spotify Soloist igen för att granska det steget eller välj go-librespot (community) i stället.",
+  "provider.spotify_connect.errors.soloist_download_failed": "Spotify Soloist-appen kunde inte hämtas från Spotify. Kontrollera serverns internetanslutning och försök igen.",
+  "provider.spotify_connect.errors.soloist_invalid_archive": "Spotify Soloist-appen som hämtades från Spotify kunde inte användas. Försök igen senare.",
+  "provider.spotify_connect.errors.soloist_unsupported_platform": "Spotify Soloist är inte tillgänglig för det här systemet. Välj go-librespot (community) i stället.",
+  "provider.spotify_connect.setup_flow.backend.description": "Spotify Connect kan köras med två olika uppspelningsmotorer:",
+  "provider.spotify_connect.setup_flow.backend.title": "Välj en uppspelningsmotor",
+  "provider.spotify_connect.setup_flow.soloist_api_key.description": "Soloist behöver en personlig API-nyckel som skapas med ett Spotify **Premium**-konto:\n\n1. Öppna [Soloist API-nyckelsidan](https://developer.spotify.com/dashboard/soloist) och logga in med ditt Spotify-konto.\n2. Godkänn Spotifys villkor om du uppmanas till det.\n3. Välj **Generera API-nyckel**.\n4. Kopiera nyckeln och klistra in den nedan.\n\nMusic Assistant lagrar nyckeln krypterat och delar den endast med Soloist-appen. Du blir aldrig ombedd att ange användarnamn eller lösenord för Spotify.",
+  "provider.spotify_connect.setup_flow.soloist_api_key.title": "Skapa din Soloist API-nyckel",
+  "provider.spotify_connect.setup_flow.soloist_terms.description": "Spotify Soloist är Spotifys officiella uppspelningsmotor för enheter utan skärm. Music Assistant får inte distribuera den som en del av sin egen installation. Om du fortsätter hämtas den därför från Spotifys servrar för din räkning och körs åt dig.\n\nLäs detta innan du fortsätter:\n\n- Du behöver ett Spotify **Premium**-konto för att skapa den nödvändiga API-nyckeln. Det är ett kort manuellt steg på Spotifys utvecklarwebbplats som förklaras på nästa skärm.\n- Music Assistant hämtar Soloist-appen från Spotifys servrar, kör den, behåller den på disken och ersätter den automatiskt varje gång Spotify publicerar en uppdatering.\n\nMer information: [Soloist-dokumentation](https://developer.spotify.com/documentation/soloist) · [API-nyckelsida](https://developer.spotify.com/dashboard/soloist) · [Spotifys utvecklarpolicy](https://developer.spotify.com/policy)",
+  "provider.spotify_connect.setup_flow.soloist_terms.title": "Om Spotify Soloist",
+  "provider.spotify_connect.config_entries.crossfade_duration.description": "Tona mellan spår under angivet antal sekunder (0 inaktiverar övertoning). Spotify-uppspelningsmotorn tillämpar övertoningen, så exakt vilka spårövergångar som tonas bestäms av Spotify.",
+  "provider.spotify_connect.config_entries.crossfade_duration.label": "Övertoningslängd (sekunder)",
+  "provider.spotify_connect.config_entries.loudness_normalization.description": "Låt Spotify spela alla spår med liknande ljudnivå (Spotifys funktion ”Normalisera volym”). Inaktivera för att få ljudet utan Spotifys justering av ljudnivån.",
+  "provider.spotify_connect.config_entries.loudness_normalization.label": "Ljudstyrkenormalisering",
+  "provider.milkdrop_visualizer.config_entries.color_tint.description": "Färga om visualiseraren mot den dominerande färgen i det aktuella spårets omslagsbild.",
+  "provider.milkdrop_visualizer.config_entries.color_tint.label": "Färga med spårets färg",
+  "provider.spotify_connect.config_entries.audio_quality.options.high": "Hög (cirka 160 kbit/s)"
+}
