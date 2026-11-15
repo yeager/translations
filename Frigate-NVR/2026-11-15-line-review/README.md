@@ -128,3 +128,9 @@ Radgranskad komponent: `views-system` (282). Tre rättningar behövdes:
 - Två texter om nyckelrutors intervall har nu korrekt svensk satsstruktur.
 - Diagrametiketten för bildrutor och detekteringar följer källans mellanrum
   kring snedstrecket.
+
+## Batch 015
+
+Första läspasset av `views-settings`: 100 av 1 434 strängar. Två rättningar
+behövdes: *Objects* normaliseras till *Objekt* och produktnamnet *Birdseye*
+behålls oförändrat.
