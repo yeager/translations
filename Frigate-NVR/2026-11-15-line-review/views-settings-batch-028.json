@@ -1,0 +1,27 @@
+{
+  "review": {
+    "frameMode": {
+      "annotated_frames": "Annoterade bildrutor"
+    }
+  },
+  "configMessages": {
+    "review": {
+      "genaiImageSourceRecordingsRecordRuntimeDisabled": "Bildkällan är inställd på 'recordings', men inspelning är just nu avstängd för den här kameran trots att den är aktiverad i konfigurationen. Frigate använder i stället förhandsvisningsbilder."
+    },
+    "semanticSearch": {
+      "jinav2SmallModelSize": "Storleken 'small' med modellen Jina V2 har höga kostnader för RAM och inferens. Modellen 'large' med en separat GPU rekommenderas."
+    },
+    "onvif": {
+      "autotrackingNoZones": "Autospårning kräver minst en zon. Definiera en zon för den här kameran under Masker/zoner och ange sedan zonen som en obligatorisk zon nedan."
+    }
+  },
+  "detectionModels": {
+    "description": "Konfigurera objektdetekteringsmodellerna och maskinvaran som de körs på. Lägg bara till en modell för en scen när vissa kameror behöver en annorlunda tränad modell, till exempel värmekameror. Kameror väljer en modell efter scen i kamerans detekteringsinställningar.",
+    "scene": {
+      "placeholder": "thermal"
+    },
+    "hardware": {
+      "description": "Maskinvaran som den här modellen använder för detektering."
+    }
+  }
+}

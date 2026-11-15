@@ -208,3 +208,10 @@ GenAI-rollen använder den etablerade termen *inbäddning*.
 Trettonde läspasset av `views-settings`: sträng 1 201–1 300 av 1 434. Fjorton
 rättningar behövdes. Profilnamn, återställning, synkroniseringsstatus och
 återströmning är nu idiomatiska; interna konfigurationsvärden bevaras.
+
+## Batch 028
+
+Fjortonde och sista läspasset av `views-settings`: sträng 1 301–1 434 av
+1 434. Sju rättningar behövdes. Bildruteannoteringar, modellresurser,
+konfigurationsvärdet `recordings`, zoninställningar och
+detekteringsmaskinvara återger nu korrekt funktion och terminologi.
