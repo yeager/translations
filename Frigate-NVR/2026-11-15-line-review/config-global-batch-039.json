@@ -1,0 +1,28 @@
+{
+  "semantic_search": {
+    "triggers": {
+      "friendly_name": {
+        "description": "Valfritt visningsnamn som visas i gränssnittet för den här utlösaren."
+      }
+    }
+  },
+  "face_recognition": {
+    "detection_threshold": {
+      "description": "Minsta detektionskonfidens som krävs för att en ansiktsdetektering ska betraktas som giltig."
+    },
+    "blur_confidence_filter": {
+      "label": "Oskärpefilter för konfidens",
+      "description": "Justera konfidenspoäng utifrån bildoskärpa för att minska falska positiva resultat för ansikten med låg kvalitet."
+    }
+  },
+  "lpr": {
+    "label": "Registreringsskyltigenkänning",
+    "description": "Inställningar för registreringsskyltigenkänning, inklusive tröskelvärden för detektering, formatering och kända registreringsskyltar.",
+    "detection_threshold": {
+      "description": "Tröskelvärde för detektionskonfidens för att börja köra OCR på en misstänkt registreringsskylt."
+    },
+    "recognition_threshold": {
+      "description": "Konfidenströskel som krävs för att igenkänd registreringsskyltstext ska kopplas som en underetikett."
+    }
+  }
+}

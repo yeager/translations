@@ -272,3 +272,8 @@ för attributfilter, avgränsningsrutor, konfidens och interna lagringsvärden.
 
 Femte läspasset av `config/global`: sträng 501–600. Två rättningar behövdes
 för GenAI-instruktionen och den svenska benämningen på transkriberingsmotorn.
+
+## Batch 039
+
+Sjätte läspasset av `config/global`: sträng 601–700. Åtta rättningar behövdes
+för visningsnamn, konfidens, oskärpefilter och registreringsskyltigenkänning.
