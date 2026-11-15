@@ -21,3 +21,12 @@ Tre materiella rättningar:
 
 Kontroller före uppladdning: JSON-validering, `l10n-lint`, `git diff --check`
 och Gitleaks. `msgfmt` är inte tillämpligt för i18next-JSON.
+
+## Batch 002
+
+Radgranskade komponenter: `components-camera` (50), `views-replay` (46) och
+`views-search` (49). Inga ändringar behövdes i kamera- eller reprisvyn.
+
+Två funktionella rättningar i `views-search`: exemplen `cameras:`, `before:`
+och `after:` är filterkommandon som användaren ska skriva och får därför inte
+översättas. De bekräftades mot Frigates implementation av textfilter.
