@@ -3,8 +3,8 @@
 Datum: 2026-11-15  
 Upstream: [PR #199526](https://github.com/openclaw/openclaw/pull/199526)
 
-Åttioåtta delade poster i Control UI:s svenska översättningsminne har granskats
-och uppdaterats. De gäller minst 108 synliga positioner.
+Nittiosex delade poster i Control UI:s svenska översättningsminne har granskats
+och uppdaterats. De gäller minst 116 synliga positioner.
 
 | Segment | Engelska | Svenska |
 | --- | --- | --- |
@@ -93,6 +93,14 @@ och uppdaterats. De gäller minst 108 synliga positioner.
 | `configHints.plugins.entries.*.apiKey` | Plugin API Key | API-nyckel för tillägg |
 | `configHints.gateway.nodes.pluginTools.enabled` | Gateway Node Plugin Tools Enabled | Tilläggsverktyg för Gateway-noder aktiverade |
 | `configHints.plugins.entries.*.config` | Plugin Config | Tilläggskonfiguration |
+| `chat.pullRequests.checksEmpty` | No check details… | Inga kontrolldetaljer är tillgängliga för den här incheckningen. |
+| `cloudWorkersPage.snapshots.invalidProject` | …checkout with a commit | …Git-kopia med en incheckning. |
+| `chat.sessionDiff.commitsAhead` | {count} commits ahead… | {count} incheckningar före… |
+| `updates.failureReasons.dirty` | Commit or stash changes… | Gör en incheckning av ändringarna… |
+| `linkReader.checksCommit` | Checks for commit {commit} | Kontroller för incheckning {commit} |
+| `pluginsPage.detailSourceCommit` | Source commit | Källkodsincheckning |
+| `updates.page.controlUiCommit` | Web app commit | Webbappens incheckning |
+| `newSession.worktreeBranchesUnavailable` | …branch or commit | …gren eller incheckning |
 
 De delade segmenten omfattar bland annat appens stödlänk, inställningar för
 automatiskt läge, färdigheter i agenter, chatt och inställningar, den
