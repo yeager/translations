@@ -1,0 +1,41 @@
+{
+  "setting": {
+    "nvidiaprime": {"description": "Tvinga användning av NVIDIA Optimus eller AMD:s dynamiskt växlingsbara dGPU. Använd ENDAST detta för OpenGL- och Vulkan-spel."},
+    "gamepad-initial-repeat-delay": "Initial upprepningsfördröjning för handkontrollsinmatning",
+    "gamepad-repeat-frequency": "Upprepningsfrekvens för handkontrollsinmatning",
+    "allow-broken-anticheat": {"description": "Installera spel även när deras anticheat är känt för att inte fungera på det här systemet"},
+    "analytics": {"description": "Dela anonym användningsdata för att hjälpa till att förbättra Heroic"},
+    "darktrayicon": {"description": "Använd den mörka varianten av systemfältsikonen, som passar bättre på ljusa paneler"},
+    "disable-gog-presence": {"description": "Sluta dela vilket GOG-spel du spelar med dina vänner"},
+    "disableController": {"description": "Sluta låta Heroic reagera på handkontrollsinmatning"},
+    "eosOverlay": {"description": "Epics spelöverlägg, som krävs av vissa Epic-spel för vänner och prestationer"}
+  },
+  "box": {
+    "error": {
+      "remove": {"steam": {"title": "Fel vid borttagning av spel från Steam"}},
+      "steam": {
+        "running": "Steam körs. Stäng Steam och försök igen, eller starta om Steam en gång så att Heroic kan hantera genvägar medan Steam körs.",
+        "running-gamemode": "Steam måste startas om en gång innan Heroic kan hantera Steam-genvägar på den här enheten. Starta om Steam och försök igen."
+      }
+    }
+  },
+  "notify": {"finished": {"add": {"steam": {"success-no-restart": "{{game}} har lagts till i Steam."}}, "remove": {"steam": {"success-no-restart": "{{game}} har tagits bort från Steam."}}}},
+  "emptyLibrary": {
+    "description": "<0>Logga in</0> med ditt Epic-, GOG.com-, Amazon-, itch.io- eller Zoom-konto så visas dina spel här. Du kan också lägga till spel från andra källor manuellt.",
+    "title": "Ditt bibliotek är tomt."
+  },
+  "library": {"gamesCount_one": "{{count}} spel", "gamesCount_other": "{{count}} spel"},
+  "accessibility": {
+    "section": {"appearance": "Utseende", "motion": "Rörelse och interaktion"},
+    "subtitle": "Anpassa hur Heroic ser ut och fungerar"
+  },
+  "download-manager": {
+    "empty": {
+      "current": "Spel som du installerar eller uppdaterar visar sina förlopp här.",
+      "queue": {"description": "Hämtningar som du startar medan en annan körs väntar här.", "title": "Kön är tom"}
+    },
+    "label": {"unit": "MB/s"},
+    "pageSubtitle": "Det som installeras nu, det som står näst på tur och det som redan är klart"
+  },
+  "queue": {"label": {"paused": "Pausad"}}
+}
