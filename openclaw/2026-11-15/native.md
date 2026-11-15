@@ -3,7 +3,7 @@
 Datum: 2026-11-15  
 Upstream: [PR #199519](https://github.com/openclaw/openclaw/pull/199519)
 
-Trettiofyra synliga systemetiketter i den svenska katalogen för Android och Apple-
+Trettionio synliga systemetiketter i den svenska katalogen för Android och Apple-
 apparna har granskats i källkodens användningssammanhang och uppdaterats.
 
 | Segment | Engelska | Svenska |
@@ -42,6 +42,11 @@ apparna har granskats i källkodens användningssammanhang och uppdaterats.
 | `native.apple.e018ebb26dbe4fc5` | Gateway is online | Gateway är ansluten |
 | `native.apple.4b1707775e3d4ded` | Watch node is online | Klocknoden är ansluten |
 | `native.apple.b96c69383bb1ea99` | AI agent online | AI-agent ansluten |
+| `native.android.3ddf963e90bc6292` | Copy patch | Kopiera ändringen |
+| `native.android.4e004c74d37ebc21` | Large diff: some files or patches were omitted… | Omfattande ändringsjämförelse: vissa filer eller ändringar har utelämnats… |
+| `native.android.6abc80a0a79a1ccb` | This file’s patch was truncated. | Ändringen för den här filen har kortats ned. |
+| `native.android.8feaee691786066c` | No text patch available | Ingen textändring tillgänglig |
+| `native.android.c149ec0ef7adff0b` | Apply Patch | Tillämpa ändring |
 
 Ordet *online* har ersatts endast i dessa statusetiketter, där användaren
 behöver förstå anslutningsläget. Produktnamn, kodtermer och platshållare har
