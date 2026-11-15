@@ -6,7 +6,9 @@ Tjugotre lokalt granskade texter för utgångskanaler, strömstyrning,
 utgångsprotokoll och volymstyrning. Termerna är konsekventa med
 *Utgångskanalläge* och Music Assistant-spelarnas tekniska kontext.
 
-Status: lokalt granskad och arkiverad. Inte sparad i Lokalise ännu.
+Status: samtliga tjugotre strängar verifierades i Lokalise 2026-11-15. De fanns
+redan som svenska upstream-översättningar och lämnades orörda. Arkivering och
+push pågår.
 
 Kontroller: JSON, källnycklar, l10n-lint, svlang, Hunspell, kontroll av tre
 identiska tecken i översatta värden, diffkontroll och Gitleaks. `msgfmt` är inte
