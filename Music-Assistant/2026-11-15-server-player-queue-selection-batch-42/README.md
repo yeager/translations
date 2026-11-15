@@ -6,6 +6,5 @@ Tjugoen svenska UI-texter för hur en artists album och spår väljs i bibliotek
 samt om ett album eller en spellista ska fortsätta efter ett valt spår.
 
 Status: lokalt granskad och arkiverad. Tretton strängar sparades manuellt i Lokalise
-2026-11-15 och lästes tillbaka. Två befintliga svenska värden verifierades utan
-att skrivas över. Övriga nycklar måste jämföras med Lokalise före
-eventuell manuell sparning.
+2026-11-15 och lästes tillbaka. Åtta befintliga svenska värden verifierades utan
+att skrivas över. Samtliga 21 nycklar i batchen har verifierad status.
