@@ -47,3 +47,5 @@
 | type mismatch | typkonflikt | VBScript-körfel |
 | permission denied | åtkomst nekad | VBScript-körfel |
 | Standard/Daylight Time | normaltid/sommartid | Windows tidszonsnamn |
+| page setup | sidinställningar | Anteckningar |
+| printer setup | skrivarinställningar | Anteckningar |
