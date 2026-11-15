@@ -1,0 +1,61 @@
+{
+  "masksAndZones": {
+    "disabledInConfig": "Objektet är inaktiverat i konfigurationsfilen",
+    "zones": {
+      "enabled": {
+        "title": "Aktiverad",
+        "description": "Anger om zonen är aktiv och aktiverad i konfigurationsfilen. Om den är inaktiverad kan den inte aktiveras via MQTT. Inaktiverade zoner ignoreras vid körning."
+      }
+    },
+    "motionMasks": {
+      "defaultName": "Rörelsemask {{number}}",
+      "name": {
+        "title": "Namn",
+        "description": "Ett valfritt lättbegripligt namn på den här rörelsemasken.",
+        "placeholder": "Ange ett namn..."
+      }
+    },
+    "objectMasks": {
+      "name": {
+        "title": "Namn",
+        "description": "Ett valfritt lättbegripligt namn på den här objektmasken.",
+        "placeholder": "Ange ett namn..."
+      }
+    },
+    "masks": {
+      "enabled": {
+        "title": "Aktiverad",
+        "description": "Anger om masken är aktiverad i konfigurationsfilen. Om den är inaktiverad kan den inte aktiveras via MQTT. Inaktiverade masker ignoreras vid körning."
+      }
+    },
+    "form": {
+      "id": {
+        "error": {
+          "mustNotBeEmpty": "ID får inte vara tomt.",
+          "alreadyExists": "Det finns redan en mask med detta ID för den här kameran."
+        }
+      },
+      "name": {
+        "error": {
+          "mustNotBeEmpty": "Namn får inte vara tomt."
+        }
+      }
+    }
+  },
+  "menu": {
+    "mediaSync": "Mediesynkronisering",
+    "regionGrid": "Regionsrutnät"
+  },
+  "maintenance": {
+    "regionGrid": {
+      "title": "Regionsrutnät",
+      "desc": "Regionsrutnätet är en optimering som lär sig var objekt av olika storlekar vanligtvis visas i varje kameras synfält. Frigate använder dessa data för att effektivt dimensionera detekteringsregioner. Rutnätet byggs automatiskt över tid från data om spårade objekt.",
+      "clear": "Rensa regionsrutnät",
+      "clearConfirmTitle": "Rensa regionsrutnät",
+      "clearConfirmDesc": "Att rensa regionsrutnätet rekommenderas inte om du inte nyligen har ändrat storleken på detektormodellen eller kamerans fysiska position och har problem med objektspårning. Rutnätet byggs automatiskt upp igen över tid när objekt spåras. Frigate måste startas om för att ändringarna ska börja gälla.",
+      "clearSuccess": "Regionsrutnätet har rensats",
+      "clearError": "Det gick inte att rensa regionsrutnätet",
+      "restartRequired": "Omstart krävs för att ändringar av regionsrutnätet ska börja gälla"
+    }
+  }
+}

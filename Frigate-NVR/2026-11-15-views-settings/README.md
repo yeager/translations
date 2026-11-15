@@ -57,6 +57,16 @@ Kontrollträffar i den här delen avser korrekta tekniska namn: `go2rtc`,
 Kontroller: `jq empty`, `l10n-lint`, käll- och tokenjämförelse,
 `git diff --check` och Gitleaks.
 
+## Batch 008
+
+Batchen omfattar masker, zoner, MQTT-begränsningar och regionsrutnätets
+underhållsåtgärder. Hosted Weblate accepterade samtliga 25 strängar.
+Komponenten står därefter på 961 av 1 409 översatta strängar och 0 fuzzy,
+utan nya kontrollträffar.
+
+Kontroller: `jq empty`, `l10n-lint`, käll- och tokenjämförelse,
+`git diff --check` och Gitleaks.
+
 ## Batch 007
 
 Batchen omfattar go2rtc-strömmar, dess FFmpeg-kompatibilitetsalternativ och
