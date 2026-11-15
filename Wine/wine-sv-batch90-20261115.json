@@ -1,0 +1,21 @@
+{
+  "project": "Wine",
+  "component": "po/sv.po",
+  "source_revision": "9f8c4ae4d35c7ff4153267aba9618c026f5f5583",
+  "date": "2026-11-15",
+  "status": "locally reviewed; not submitted upstream",
+  "strings_reviewed": 27,
+  "scope": "Certificate and cryptographic extension labels",
+  "component_completion": "All previously untranslated crypt32 labels are now translated.",
+  "decisions": [
+    "Keep protocol and API abbreviations including PKCS, CRL, CSP, OID and IPsec unchanged.",
+    "Translate the surrounding descriptive terminology into Swedish."
+  ],
+  "validation": {
+    "msgfmt": "passed",
+    "git_diff_check": "passed",
+    "gitleaks": "passed",
+    "svlang": "ran; existing global findings reviewed separately",
+    "l10n_lint": "ran; pre-existing catalog baseline remains"
+  }
+}
