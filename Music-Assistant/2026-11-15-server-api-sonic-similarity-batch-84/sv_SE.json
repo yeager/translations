@@ -1,0 +1,22 @@
+{
+  "provider.sonic_similarity.config_entries.discover_preset.description": "Förinställd likhetsviktning som används för att rangordna kandidater till raden (endast Traits-motorn). ”discover” gynnar nya upptäckter (låg viktning av genre/era); ”balanced” viktar varje egenskap efter hur mycket den påverkar ljudmässig likhet; ”vibe” viktar stämning + klangfärg; ”party” viktar rytm + regelbundenhet; ”genre_era” ligger nära utgångsspårets genre och årtionde.",
+  "provider.sonic_similarity.config_entries.discover_preset.label": "Förval för Upptäck-raden",
+  "provider.sonic_similarity.config_entries.discover_preset.options.balanced": "Balanserad",
+  "provider.sonic_similarity.config_entries.discover_preset.options.discover": "Upptäck (fokus på nya upptäckter)",
+  "provider.sonic_similarity.config_entries.discover_preset.options.genre_era": "Genre + era (håll dig nära)",
+  "provider.sonic_similarity.config_entries.discover_preset.options.party": "Fest (rytmtung)",
+  "provider.sonic_similarity.config_entries.discover_preset.options.vibe": "Stämning (humör + klangfärg)",
+  "provider.sonic_similarity.config_entries.enable_clap_index.description": "Bygg även ett andra usearch-index över de 1024-dimensionella CLAP-ljudinbäddningar som redan lagras av sonic_analysis. Aktiverar semantisk likhet spår till spår via API:t sonic_similarity/similar_clap. Kräver inga extra nedladdningar – använder inbäddningar som redan finns på disken.",
+  "provider.sonic_similarity.config_entries.enable_clap_index.label": "Aktivera Character-index",
+  "provider.sonic_similarity.config_entries.enable_discover_row.description": "Visa en rad på upptäcktsidan som utgår från dina nyligen spelade spår. Inaktivera för att dölja raden utan att avinstallera insticksprogrammet.",
+  "provider.sonic_similarity.config_entries.enable_discover_row.label": "Visa ”Inspirerad av nyligen spelat” på upptäcktsidan",
+  "provider.sonic_similarity.config_entries.enable_text_search.description": "Aktivera fritextsökning av spår med naturligt språk (t.ex. ”superdansig disco”) via CLAP:s GPT2-textkodare, tillgänglig som sonic_similarity/text_search. Vid första användningen laddas cirka 500 MB GPT2-vikter ned till den lokala HuggingFace-cachen vid behov – modellen läses in vid den första sökningen, inte när insticksprogrammet startar. Aktiverar implicit Character-indexet ovan (text och ljud delar samma gemensamma inbäddningsutrymme med 1024 dimensioner).",
+  "provider.sonic_similarity.config_entries.enable_text_search.label": "Aktivera fritextsökning",
+  "provider.sonic_similarity.config_entries.rebuild_18dim_index.action_label": "Bygg om Traits-index",
+  "provider.sonic_similarity.config_entries.rebuild_18dim_index.label": "Bygg om Traits-index",
+  "provider.sonic_similarity.config_entries.rebuild_clap_index.action_label": "Bygg om Character-index",
+  "provider.sonic_similarity.config_entries.rebuild_clap_index.label": "Bygg om Character-index",
+  "provider.sonic_similarity.config_entries.similar_tracks_diversity.description": "0 håller resultaten närmast utgångsspåret; 10 maximerar variationen via MMR (vissa resultat kan vara mindre lika men mer skilda från varandra). Endast Traits-motorn.",
+  "provider.sonic_similarity.config_entries.similar_tracks_diversity.label": "Variation för liknande spår",
+  "provider.sonic_similarity.config_entries.similar_tracks_engine.label": "Motor för liknande spår"
+}
