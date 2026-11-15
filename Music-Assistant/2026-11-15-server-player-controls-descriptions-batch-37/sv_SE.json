@@ -1,0 +1,16 @@
+{
+  "common.config_entries.enable_icy_metadata.description": "Försök infoga metadata i strömmen (ICY) så att spårinformation visas på spelaren, även när köflödesläget är aktiverat.\n\nDetta kallas ICY-metadata och används av internetradiostationer för att visa vad som spelas.\n\nObservera att inte alla spelare stöder detta korrekt. Om du får problem med uppspelningen kan du prova att inaktivera inställningen.",
+  "common.config_entries.enable_icy_metadata.option_descriptions.basic": "Skicka endast titel och artist. Lättviktigt och brett kompatibelt.",
+  "common.config_entries.enable_icy_metadata.option_descriptions.disabled": "Infoga inga metadata; spelaren visar ingen spårinformation i köflödesläge.",
+  "common.config_entries.enable_icy_metadata.option_descriptions.full": "Skicka även albumnamn och omslagsbild. Mer information, men vissa spelare hanterar det felaktigt – använd profil 1 om du får uppspelningsproblem.",
+  "common.config_entries.expose_player_to_ha.description": "Exponera den här spelaren för Home Assistant-integrationen.\nOm den är inaktiverad importeras spelaren inte till Home Assistant.",
+  "common.config_entries.idle_power_off.description": "Stäng av spelaren när den har varit stoppad så här många minuter. Ange 0 för att aldrig stänga av den automatiskt.\n\nMusic Assistant ser endast uppspelning som den känner till, så en enhet som används på annat sätt, till exempel en tv eller receiver med en annan ingång, kan stängas av trots att den används.",
+  "common.config_entries.max_volume.description": "Enhetens högsta volym. Volymreglaget (0–100) skalas med detta som övre gräns.",
+  "common.config_entries.min_volume.description": "Enhetens lägsta volym. Volymreglaget (0–100) skalas med detta som undre gräns.",
+  "common.config_entries.mute_control.disabled_reasons.native": "Den här spelaren stöder inte inbyggd ljudavstängning.",
+  "common.config_entries.output_codec.description": "Välj den kodek som ska användas för att strömma ljud till den här spelaren.\n\nSom standard skickar Music Assistant förlustfritt ljud av hög kvalitet till alla spelare och föredrar FLAC eftersom formatet ger viss komprimering men ändå är förlustfritt.\n\nVissa spelare stöder dock inte FLAC och behöver strömmen paketerad i exempelvis MP3 med förlust, eller så vill du spara nätverksbandbredd.\n\nAtt välja en kodek med förlust sparar bandbredd på bekostnad av ljudkvalitet.",
+  "common.config_entries.output_codec.option_descriptions.aac": "Med förlust och jämförbar med MP3; välj den för spelare som föredrar AAC.",
+  "common.config_entries.output_codec.option_descriptions.flac": "Förlustfri och komprimerad – full kvalitet vid måttlig bithastighet. Standardvalet och bästa valet för de flesta spelare.",
+  "common.config_entries.output_codec.option_descriptions.mp3": "Med förlust – lägre bithastighet till priset av viss kvalitet. Använd för spelare som inte kan spela FLAC eller för att spara bandbredd.",
+  "common.config_entries.output_codec.option_descriptions.wav": "Okomprimerat PCM-ljud i en WAV-behållare – kräver mest bandbredd. Behövs bara för spelare som inte klarar FLAC."
+}
