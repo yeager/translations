@@ -29,3 +29,10 @@ mottaget; 114 systemsträngar återstår för senare granskning.
 Batchen för kamerors nyckelrutor samt systemhälsa accepterades med 34 av 282
 nycklar. Efter importen rapporterar komponenten 202 av 282 översatta strängar,
 0 fuzzy och 0 fallerande kontroller. Återstående systemsträngar: 80.
+
+## Batch 003
+
+Batchen för maskinvaru- och strömdiagnostik accepterades med 41 av 282 nycklar.
+Komponenten står därefter på 243 av 282 översatta strängar. Den enda
+kontrollträffen gäller den avsiktligt oförändrade teknikformatsträngen
+`{{camera}} / {{expected}} fps`.
