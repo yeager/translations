@@ -1,0 +1,36 @@
+{
+  "onvif": {
+    "host": {
+      "description": "Värdnamn och valfritt protokoll för kamerans ONVIF-tjänst."
+    }
+  },
+  "zones": {
+    "friendly_name": {
+      "description": "Ett visningsnamn för zonen, som visas i Frigates gränssnitt. Om inget namn anges används en formaterad version av zonnamnet."
+    },
+    "enabled_in_config": {
+      "label": "Spåra zonens ursprungliga tillstånd."
+    },
+    "filters": {
+      "max_area": {
+        "description": "Största tillåtna area för avgränsningsrutan, i pixlar eller procent, för den här objekttypen. Kan vara pixlar (heltal) eller procent (flyttal mellan 0.000001 och 0.99)."
+      },
+      "min_ratio": {
+        "description": "Minsta förhållande mellan bredd och höjd som krävs för att avgränsningsrutan ska godkännas."
+      },
+      "max_ratio": {
+        "description": "Största tillåtna förhållande mellan bredd och höjd för att avgränsningsrutan ska godkännas."
+      },
+      "mask": {
+        "description": "Polygonkoordinater som definierar var filtret gäller i bildrutan."
+      }
+    },
+    "loitering_time": {
+      "label": "Uppehållstid",
+      "description": "Antal sekunder som ett objekt måste stanna i zonen för att räknas som ett uppehåll. Ange 0 för att inaktivera detektering av uppehåll."
+    }
+  },
+  "enabled_in_config": {
+    "description": "Spårar kamerans ursprungliga tillstånd."
+  }
+}

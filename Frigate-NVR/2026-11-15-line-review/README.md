@@ -239,3 +239,9 @@ rörelsetrösklarnas faktiska beteende motsvarar nu aktuell källtext.
 Tredje läspasset av `config/cameras`: sträng 161–340 av 522. Nio rättningar
 behövdes för interna MQTT- och lagringsvärden, visningsnamn, GenAI-instruktioner,
 bildpublicering och TTL-lägen.
+
+## Batch 033
+
+Fjärde och sista läspasset av `config/cameras`: sträng 341–522 av 522. Nio
+rättningar behövdes för ONVIF-protokoll, Frigate-namnet, zonfilter, uppehållstid
+och interna statusfält.
