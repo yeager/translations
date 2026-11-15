@@ -1,0 +1,17 @@
+{
+  "strings": [
+    {"key":"common.errors.unknown_or_disabled_user","source":"Unknown or disabled user: {0}","target":"Okänd eller inaktiverad användare: {0}"},
+    {"key":"common.errors.unmount_failed","source":"The previous connection to the remote location could not be closed: {0}","target":"Den tidigare anslutningen till fjärrplatsen kunde inte stängas: {0}"},
+    {"key":"common.errors.unplayable_media","source":"This media item cannot be played.","target":"Det här medieobjektet kan inte spelas upp."},
+    {"key":"common.errors.unsupported_feature","source":"This feature is not supported.","target":"Den här funktionen stöds inte."},
+    {"key":"common.errors.unsupported_system","source":"This is not supported on this system.","target":"Detta stöds inte på det här systemet."},
+    {"key":"common.errors.unsupported_system_avx2","source":"On-device audio analysis requires a CPU with AVX2 support (Intel Haswell / AMD Zen or newer). This CPU does not support AVX2. If you are running in a virtual machine (e.g. Proxmox), changing the CPU type to 'host' may expose AVX2 to the guest.","target":"Ljudanalys på enheten kräver en processor med AVX2-stöd (Intel Haswell / AMD Zen eller senare). Den här processorn saknar stöd för AVX2. Om du kör i en virtuell dator (till exempel Proxmox) kan AVX2 bli tillgängligt för gästen om CPU-typen ändras till 'host'."},
+    {"key":"common.errors.unsupported_system_cpu_cores","source":"This system does not meet the minimal requirements for {0}: at least {1} CPU cores are required ({2} detected).","target":"Det här systemet uppfyller inte minimikraven för {0}: minst {1} processorkärnor krävs ({2} identifierades)."},
+    {"key":"common.errors.unsupported_system_memory","source":"This system does not meet the minimal requirements for {0}: at least {1}GB of RAM is required ({2}GB detected).","target":"Det här systemet uppfyller inte minimikraven för {0}: minst {1} GB RAM krävs ({2} GB identifierades)."},
+    {"key":"common.errors.unsupported_system_ml_inference_failed","source":"On-device audio analysis cannot run on this CPU: it reports AVX2 support but fails to execute the required instructions. This is common on virtual machines without host CPU passthrough -- if you are running in a VM (e.g. Proxmox or TrueNAS), set the CPU type to 'host'.","target":"Ljudanalys på enheten kan inte köras på den här processorn: den rapporterar AVX2-stöd men kan inte köra de nödvändiga instruktionerna. Det är vanligt i virtuella datorer utan vidarebefordring av värdprocessorn. Om du kör i en virtuell dator (till exempel Proxmox eller TrueNAS) anger du CPU-typen 'host'."},
+    {"key":"common.errors.user_account_disabled","source":"This user account is disabled.","target":"Det här användarkontot är inaktiverat."},
+    {"key":"common.errors.user_not_found","source":"The user {0} could not be found.","target":"Användaren {0} kunde inte hittas."},
+    {"key":"common.errors.username_taken","source":"This username is already in use.","target":"Det här användarnamnet används redan."},
+    {"key":"common.errors.username_too_short","source":"Username must be at least {0} characters.","target":"Användarnamnet måste ha minst {0} tecken."}
+  ]
+}
