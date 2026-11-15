@@ -1,0 +1,30 @@
+{
+  "project": "OBS Studio",
+  "platform": "Crowdin",
+  "locale": "sv-SE",
+  "component": "App/Frontend",
+  "reviewed_at": "2026-11-16",
+  "reviewed_strings": 180,
+  "source_snapshot_note": "Newer source keys missing only from the local Swedish snapshot are excluded from this delta.",
+  "changes": [
+    {"key":"BrowserSource.EnableHardwareAcceleration","before":"Aktiverar webbläsarkällans hårdvaruaccelerering","after":"Aktivera webbläsarkällans hårdvaruaccelerering","reason":"Use the imperative for the source action label."},
+    {"key":"About.Info","before":"OBS Studio är en fri och öppen programvara gjort för att spela in och direktsända video.","after":"OBS Studio är fri programvara med öppen källkod för videoinspelning och direktsändning.","reason":"Use established Swedish free-and-open-source wording and natural grammar."},
+    {"key":"Importer.Program","before":"Upptäckta applikationer","after":"Upptäckt program","reason":"Match the singular source label and use a natural Swedish term."},
+    {"key":"ContextBar.NoSelectedSource","before":"Inga valda källor","after":"Ingen vald källa","reason":"Match the singular source state."},
+    {"key":"YouTube.Auth.Ok","before":"Auktoriseringen slutförd.\\nDu kan nu stänga denna sida.","after":"Auktoriseringen har slutförts.\\nDu kan nu stänga den här sidan.","reason":"Use a complete Swedish status message while retaining the line break."},
+    {"key":"YouTube.Auth.NoChannels","before":"Ingen kanal(er) är tillgängliga på det valda kontot","after":"Inga kanaler är tillgängliga på det valda kontot","reason":"Remove the English-style singular/plural workaround."},
+    {"key":"YouTube.Auth.WaitingAuth.Text","before":"Vänligen slutför auktoriseringen i din externa webbläsare.<br>Om den externa webbläsaren inte öppnas, följ denna länk och slutför auktoriseringen:<br>%1","after":"Slutför auktoriseringen i din externa webbläsare.<br>Om den externa webbläsaren inte öppnas följer du länken och slutför auktoriseringen:<br>%1","reason":"Use direct Swedish instructions while preserving markup and %1."},
+    {"key":"YouTube.Actions.WindowTitle","before":"Konfiguration för Youtube-sändning - Kanal: %1","after":"Konfiguration av YouTube-sändning - kanal: %1","reason":"Correct the product capitalization and use natural Swedish title wording while retaining the source separator."},
+    {"key":"YouTube.Actions.Thumbnail","before":"Miniatyr","after":"Miniatyrbild","reason":"Use the established Swedish UI term for thumbnail."},
+    {"key":"YouTube.Actions.EnableAutoStart","before":"Aktivera auto-start","after":"Aktivera automatisk start","reason":"Translate the exposed feature name."},
+    {"key":"YouTube.Actions.EnableAutoStop","before":"Aktivera auto-stopp","after":"Aktivera automatiskt stopp","reason":"Translate the exposed feature name."},
+    {"key":"YouTube.Actions.ScheduleForLater","before":"Schemalägg till senare","after":"Schemalägg för senare","reason":"Use natural Swedish scheduling wording."},
+    {"key":"YouTube.Actions.Error.Title","before":"Fel vid skapande av livesändning","after":"Fel vid skapande av direktsändning","reason":"Use the established Swedish live-broadcast term."},
+    {"key":"YouTube.Actions.AutoStopStreamingWarning","before":"Du kommer inte att kunna återansluta.<br>Din ström kommer att stoppas och du kommer inte längre direktsända.","after":"Du kommer inte att kunna återansluta.<br>Din ström stoppas och du sänder inte längre direkt.","reason":"Use natural Swedish future/status wording while preserving the line break."},
+    {"key":"YouTube.Errors.livePermissionBlocked","before":"Direktsändning är inte tillgänglig på den valda YouTube-kanalen.<br/>Observera att det kan ta upp till 24 timmar för direktsändning att bli tillgänglig efter att ha aktiverat det i dina kanalinställningar.<br/><br/>Se <a href='https://www.youtube.com/features'>youtube.com/features</a> för detaljer.","after":"Direktsändning är inte tillgänglig på den valda YouTube-kanalen.<br/>Observera att det kan ta upp till 24 timmar innan direktsändning blir tillgänglig efter att du har aktiverat den i kanalinställningarna.<br/><br/>Se <a href='https://www.youtube.com/features'>youtube.com/features</a> för mer information.","reason":"Resolve the unclear pronoun and use idiomatic Swedish while preserving markup."},
+    {"key":"MultitrackVideo.Info","before":"%1 optimerar automatiskt dina strömningsinställningar, vilket kan inkludera kodning av flera videokvaliteter och/eller arbetsytor. Om detta alternativ väljs kommer %2-information om din dator och mjukvaruinstallation att skickas.","after":"%1 optimerar automatiskt dina strömningsinställningar, vilket kan omfatta kodning av flera videokvaliteter och/eller kanvasorienteringar. När du väljer det här alternativet skickas %2-information om din dator och programvaruinstallation.","reason":"Restore canvas orientations, use natural Swedish and retain both placeholders."},
+    {"key":"PluginManager.Restart","before":"OBS Studio måste startas om för att tillämpa ändringar för insticksprogram","after":"OBS Studio måste startas om för att tillämpa ändringar av insticksprogram","reason":"Use the natural Swedish relation for plugin changes."},
+    {"key":"PluginManager.SafeMode","before":"Alla insticksprogram har tillfälligt inaktiverats av säkert läge","after":"Alla insticksprogram har tillfälligt inaktiverats av felsäkert läge","reason":"Use the established operating-system term consistently."},
+    {"key":"PluginManager.Section.Errors.Description","before":"Dessa insticksprogram kunde inte läsas in. Se till att de är uppdaterade och kompatibla med denna version av OBS Studio.","after":"Dessa insticksprogram kunde inte läsas in. Kontrollera att de är uppdaterade och kompatibla med den här versionen av OBS Studio.","reason":"Use direct Swedish recovery wording."}
+  ]
+}

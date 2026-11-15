@@ -145,6 +145,12 @@ Component: `Frontend` (advanced settings, audio mixer and hotkeys; keys 1081–1
 
 The next 180 local English source keys were compared one by one with Swedish. `frontend-advanced-audio-hotkeys.delta.json` contains 16 corrections for advanced video/network settings, TCP pacing, audio monitorering, hotkey status and output warnings. Placeholders and line breaks are retained.
 
+## Reviewed batch 20 — pending upstream save
+
+Component: `Frontend` (about, import, YouTube and plugin manager; keys 1261–1440 in local source order)
+
+The next 180 local English source keys were compared one by one with Swedish. `frontend-youtube-plugins.delta.json` contains 19 corrections for source meaning, product capitalization, direct UI wording, YouTube broadcasts and plugin-manager messages. Placeholders and markup are retained.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
