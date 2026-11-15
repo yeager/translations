@@ -85,6 +85,12 @@ Component: `Frontend` (output and audio batch)
 
 Twelve output, encoder and audio strings were reviewed against the English source. `frontend-output-audio.delta.json` contains the resulting corrections: Swedish compounds and agreement, an actual typo, the standard `i stället`, technical encoder terminology and clearer audio-warning wording. It preserves `%1` through `%3`, HTML markup and all source line breaks. The remaining frontend catalog is outside this batch.
 
+## Reviewed batch 10 — pending upstream save
+
+Component: `Frontend` (system-message batch)
+
+Seven system and integration messages were reviewed. `frontend-system-messages.delta.json` corrects a Wine warning typo, restores the Advanced Audio Properties route, tightens the resource-leak error, fixes Swedish punctuation and retains placeholders, markup, menu names, versions and line breaks.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
