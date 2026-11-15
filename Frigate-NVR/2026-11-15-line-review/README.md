@@ -182,3 +182,10 @@ Nionde läspasset av `views-settings`: sträng 801–900 av 1 434. Åtta rättni
 behövdes: den lagrade systemrollen `viewer` bevaras exakt, formuleringarna för
 rollens kameror och omstart är idiomatiska, och tekniska uttryck för säker
 webbkontext, API-nyckel och inläsningsfel är korrigerade.
+
+## Batch 024
+
+Tionde läspasset av `views-settings`: sträng 901–1 000 av 1 434. Sex
+rättningar behövdes: utlösarnas beskrivningar har korrekt handlingsriktning,
+konsekvent imperativform och idiomatisk svenska. Mediesynkroniseringen
+beskriver nu korrekt överblivna filer utan databasreferens.
