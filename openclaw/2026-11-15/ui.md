@@ -3,8 +3,8 @@
 Datum: 2026-11-15  
 Upstream: [PR #199526](https://github.com/openclaw/openclaw/pull/199526)
 
-Åttio delade poster i Control UI:s svenska översättningsminne har granskats
-och uppdaterats. De gäller minst 100 synliga positioner.
+Åttioåtta delade poster i Control UI:s svenska översättningsminne har granskats
+och uppdaterats. De gäller minst 108 synliga positioner.
 
 | Segment | Engelska | Svenska |
 | --- | --- | --- |
@@ -85,6 +85,14 @@ och uppdaterats. De gäller minst 100 synliga positioner.
 | `pluginsPage.searchLabel` | Search plugins | Sök efter tillägg |
 | `pluginUi.inlineUnavailable` | This view is unavailable… | Den här vyn är inte tillgänglig… dess tillägg… |
 | `pluginUi.inlineLoading` | Loading plugin view… | Läser in tilläggsvyn… |
+| `configHints.plugins.entries` | Plugin Entries | Tilläggsposter |
+| `configHints.approvals.plugin.mode` | Plugin Approval Forwarding Mode | Läge för vidarebefordran av tilläggsgodkännanden |
+| `configHints.gateway.roles…accessPolicyPlugin` | Operator Role Access Policy Plugin | Tillägg för operatörsrollens åtkomstpolicy |
+| `configHints.plugins.enabled` | Enable Plugins | Aktivera tillägg |
+| `configHints.approvals.plugin.slack.plugins` | Slack Plugin Reviewer Overrides | Åsidosättningar av Slack-granskare för tilläggsgodkännanden |
+| `configHints.plugins.entries.*.apiKey` | Plugin API Key | API-nyckel för tillägg |
+| `configHints.gateway.nodes.pluginTools.enabled` | Gateway Node Plugin Tools Enabled | Tilläggsverktyg för Gateway-noder aktiverade |
+| `configHints.plugins.entries.*.config` | Plugin Config | Tilläggskonfiguration |
 
 De delade segmenten omfattar bland annat appens stödlänk, inställningar för
 automatiskt läge, färdigheter i agenter, chatt och inställningar, den
