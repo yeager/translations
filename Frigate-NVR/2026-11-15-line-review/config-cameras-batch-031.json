@@ -1,0 +1,31 @@
+{
+  "live": {
+    "label": "Liveuppspelning",
+    "streams": {
+      "description": "Mappning av konfigurerade strömnamn till namn för återströmning/go2rtc som används vid liveuppspelning."
+    },
+    "transcode": {
+      "label": "Omkodade strömmar",
+      "description": "Live-strömmar med lägre kvalitet som go2rtc omkodar vid behov.",
+      "enabled": {
+        "label": "Aktivera omkodade strömmar",
+        "description": "Lägg till live-strömmar med lägre kvalitet som go2rtc omkodar i realtid medan någon tittar."
+      }
+    }
+  },
+  "lpr": {
+    "label": "Registreringsskyltigenkänning",
+    "description": "Inställningar för registreringsskyltigenkänning, inklusive tröskelvärden för detektering, formatering och kända registreringsskyltar."
+  },
+  "motion": {
+    "enabled": {
+      "description": "Aktivera eller inaktivera rörelsedetektering för den här kameran."
+    },
+    "lightning_threshold": {
+      "description": "Tröskel för att upptäcka och ignorera kortvariga ljusförändringar (lägre värde ger högre känslighet; värden mellan 0.3 och 1.0). Detta förhindrar inte rörelsedetektering helt; det gör bara att detektorn slutar analysera fler bildrutor när tröskeln överskrids. Rörelsebaserade inspelningar skapas fortfarande under dessa händelser."
+    },
+    "skip_motion_threshold": {
+      "description": "Om ett värde mellan 0.0 och 1.0 anges och en större andel än detta av bilden ändras i en enda bildruta, returnerar detektorn inga rörelserutor och kalibreras om omedelbart. Detta kan spara CPU och minska falska positiva resultat vid blixtar, stormar osv., men kan missa verkliga händelser, till exempel när en PTZ-kamera automatiskt spårar ett objekt. Avvägningen är mellan att förlora några megabyte inspelningar och att granska ett par korta klipp. Lämna fältet tomt (None) för att inaktivera funktionen."
+    }
+  }
+}

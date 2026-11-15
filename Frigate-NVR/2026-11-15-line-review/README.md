@@ -227,3 +227,9 @@ kattjämmer, valars läten, stråksektion, elhissar och summer.
 Första läspasset av `config/cameras`: sträng 1–80 av 522. Sju rättningar
 behövdes. Produktnamnet *Birdseye* bevaras, och ljudtranskribering samt
 ansiktsdetektering återger nu källans skilda funktioner.
+
+## Batch 031
+
+Andra läspasset av `config/cameras`: sträng 81–160 av 522. Elva rättningar
+behövdes. Återströmning, omkodning, registreringsskyltigenkänning och
+rörelsetrösklarnas faktiska beteende motsvarar nu aktuell källtext.
