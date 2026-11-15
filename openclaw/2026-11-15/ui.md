@@ -3,8 +3,8 @@
 Datum: 2026-11-15  
 Upstream: [PR #199526](https://github.com/openclaw/openclaw/pull/199526)
 
-Sextiofem delade poster i Control UI:s svenska översättningsminne har granskats
-och uppdaterats. De gäller minst 85 synliga positioner.
+Åttio delade poster i Control UI:s svenska översättningsminne har granskats
+och uppdaterats. De gäller minst 100 synliga positioner.
 
 | Segment | Engelska | Svenska |
 | --- | --- | --- |
@@ -70,10 +70,26 @@ och uppdaterats. De gäller minst 85 synliga positioner.
 | `skillGroups.workspace` | Workspace skills | Färdigheter i arbetsytan |
 | `skillGroups.extra` | Extra skills | Extra färdigheter |
 | `skillWorkshop.mode.offTitle` | The agent does not save or update skills… | Agenten sparar eller uppdaterar inte färdigheter… |
+| `pluginsPage.hubTablistLabel` | Plugins sections | Avsnitt för insticksprogram |
+| `pluginUi.reload` | Reload plugin UI | Läs in gränssnittet för insticksprogram igen |
+| `pluginsPage.additionalConfigurationRequired` | This plugin requires additional configuration | Det här insticksprogrammet kräver ytterligare konfiguration |
+| `pluginsPage.managedCannotUninstall` | This plugin is managed… | Det här insticksprogrammet hanteras av sin installationskälla… |
+| `pluginsPage.modelOverrideAccessDescription` | Allows plugin actions… | Tillåter åtgärder för insticksprogram… |
+| `pluginsPage.installDestinationChanged` | Install the plugin again… | Installera insticksprogrammet igen… |
+| `pluginUi.customPluginsDisabled` | Custom plugin UI is off | Anpassat gränssnitt för insticksprogram är avstängt |
+| `pluginsPage.installedPluginsTitle` | Installed plugins | Installerade insticksprogram |
+| `pluginsPage.installBlockedByUpdate` | Try installing the plugin… | Försök installera insticksprogrammet… |
+| `pluginUi.retryView` | Retry plugin view | Försök läsa in vyn för insticksprogram igen |
+| `pluginsPage.setupRequiredDescription` | Complete the required configuration… | Slutför den nödvändiga konfigurationen innan du aktiverar det här insticksprogrammet. |
+| `pluginsPage.uninstallDescription` | Remove this plugin package… | Ta bort insticksprogrammets paket… |
+| `pluginsPage.searchLabel` | Search plugins | Sök efter insticksprogram |
+| `pluginUi.inlineUnavailable` | This view is unavailable… | Den här vyn är inte tillgänglig… dess insticksprogram… |
+| `pluginUi.inlineLoading` | Loading plugin view… | Läser in vyn för insticksprogram… |
 
 De delade segmenten omfattar bland annat appens stödlänk, inställningar för
-automatiskt läge, färdigheter i agenter, chatt och inställningar samt den
-populära kategorin i tilläggskatalogen. De omfattar också beskrivningen av
+automatiskt läge, färdigheter i agenter, chatt och inställningar, den
+populära kategorin i tilläggskatalogen samt konsekvent användning av
+`insticksprogram` i dess synliga etiketter och meddelanden. De omfattar också beskrivningen av
 ändringsverktyget, texten om heartbeat-övervakning och ordvalet för Git-
 incheckningar samt närvarolistan och frånkopplad-statusen. Källan och
 översättningen finns i `ui/src/i18n/.i18n/sv.tm.jsonl` i upstream-PR:n.
@@ -81,7 +97,7 @@ Tekniska konfigurationssökvägar som `skills.*` har lämnats orörda.
 
 Kontroller som passerar: JSONL-parsning, Hunspell-sv för de vanliga nya orden,
 svlang, diffkontroll och en fokuserad Gitleaks-kontroll av ändringarna.
-Hunspell-sv saknar det giltiga fackordet `Nodvärdens`; det har granskats i
+Hunspell-sv rapporterar bara produktnamnet `OpenClaw`; det har granskats i
 sammanhanget. `l10n-lint` stöder inte detta
 översättningsminnes JSONL-format och räknas därför inte som en passerad
 kontroll. PR:n behöver fortfarande skärmbildsbevis från ett byggt svenskt
