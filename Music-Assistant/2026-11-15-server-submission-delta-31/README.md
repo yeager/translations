@@ -20,5 +20,9 @@ Datum: 2026-11-15
 
 ## Status
 
-Arkiverad lokalt. Uppladdning, importresultat, granskning och integrering
-upstream ska verifieras separat.
+Arkiverad och pushad till `yeager/translations`.
+
+Uppladdning har förberetts men kan inte utföras från den aktuella
+Lokalise-behörigheten: projektinställningarnas importvy svarar med HTTP 403.
+Ingen fil har därför laddats upp och inget importresultat, ingen
+upstream-granskning eller integrering har verifierats.
