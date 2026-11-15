@@ -55,3 +55,14 @@ nätverksstatistikens produktnamn/format.
 
 Kontroller: `jq empty`, `l10n-lint`, plats- och tekniktokenjämförelse mot
 källfilen, `git diff --check` och Gitleaks.
+
+## Batch 006
+
+Batchen omfattar MQTT-bilder, kamerans gränssnittsinställningar och profiler.
+Hosted Weblate accepterade samtliga 29 strängar. Komponenten står därefter på
+728 av 775 översatta strängar och 0 fuzzy. De tre kvarvarande kontrollträffarna
+är fortsatt de dokumenterade tekniska undantagen `FFmpeg`, `ONVIF-port` och
+nätverksstatistikens produktnamn/format.
+
+Kontroller: `jq empty`, `l10n-lint`, plats- och tekniktokenjämförelse mot
+källfilen, `git diff --check` och Gitleaks.

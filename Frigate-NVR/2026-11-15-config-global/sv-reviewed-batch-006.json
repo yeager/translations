@@ -1,0 +1,61 @@
+{
+  "camera_mqtt": {
+    "label": "MQTT",
+    "description": "Inställningar för MQTT-publicering av bilder.",
+    "enabled": {
+      "label": "Skicka bild",
+      "description": "Aktivera publicering av ögonblicksbilder av objekt till MQTT-ämnen för den här kameran."
+    },
+    "timestamp": {
+      "label": "Lägg till tidsstämpel",
+      "description": "Lägg en tidsstämpel ovanpå bilder som publiceras till MQTT."
+    },
+    "bounding_box": {
+      "label": "Lägg till begränsningsruta",
+      "description": "Rita begränsningsrutor på bilder som publiceras via MQTT."
+    },
+    "crop": {
+      "label": "Beskär bild",
+      "description": "Beskär bilder som publiceras till MQTT till det identifierade objektets begränsningsruta."
+    },
+    "height": {
+      "label": "Bildhöjd",
+      "description": "Höjd (pixlar) som bilder publicerade till MQTT ska skalas till."
+    },
+    "required_zones": {
+      "label": "Obligatoriska zoner",
+      "description": "Zoner som ett objekt måste gå in i för att en MQTT-bild ska publiceras."
+    },
+    "quality": {
+      "label": "JPEG-kvalitet",
+      "description": "JPEG-kvalitet för bilder som publiceras till MQTT (0–100)."
+    }
+  },
+  "camera_ui": {
+    "label": "Kameragränssnitt",
+    "description": "Visningsordning och synlighet för den här kameran i gränssnittet. Ordningen påverkar standardpanelen. Använd kameragrupper för mer detaljerad kontroll.",
+    "order": {
+      "label": "Ordning i gränssnittet",
+      "description": "Numerisk ordning för att sortera kameran i gränssnittet (standardpanelen och listor). Högre värden visas senare."
+    },
+    "dashboard": {
+      "label": "Visa på Live-panelen",
+      "description": "Växla om den här kameran visas på standardpanelen Live med alla kameror. Kameran är fortfarande tillgänglig överallt annars i gränssnittet, inklusive kameragrupper och inställningar."
+    },
+    "review": {
+      "label": "Visa i granskning",
+      "description": "Växla om den här kameran visas i granskningen (granskningssidan och dess kamerafilter, rörelsegranskning och historikvyn)."
+    }
+  },
+  "profiles": {
+    "description": "Definitioner av namngivna profiler med lättbegripliga namn. Kameraprofiler måste hänvisa till namn som definieras här.",
+    "friendly_name": {
+      "label": "Lättbegripligt namn",
+      "description": "Visningsnamn för den här profilen i gränssnittet."
+    }
+  },
+  "active_profile": {
+    "label": "Aktiv profil",
+    "description": "Namnet på den aktiva profilen. Endast vid körning, sparas inte i YAML."
+  }
+}
