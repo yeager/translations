@@ -39,6 +39,8 @@ Two strings were reviewed in their Crowdin component. No source or Swedish value
 
 The pending deltas have not been saved to Crowdin. Raw Crowdin exports remain unchanged.
 
+Crowdin API check: the stored token can read project `51028` (`OBS Studio`), but `GET /api/v2/projects/51028/files` returns HTTP 403 for each available Crowdin API credential. It therefore cannot safely list or submit the target strings through the API. The browser editor remains the available upstream route.
+
 ## Reviewed batch 4 — pending upstream save
 
 Component: `NVENC`
