@@ -121,6 +121,12 @@ Component: `Frontend` (output, remux and scene UI; keys 361–540 in local sourc
 
 The next 180 local English source keys were compared one by one with Swedish. `frontend-output-remux-scene.delta.json` contains 23 corrections: output errors, remux workflow text, macOS permission text, scene-collection recovery and source controls. It also removes one unintended invisible U+2063 character after a placeholder. Placeholders, markup and source line structure are retained.
 
+## Reviewed batch 16 — pending upstream save
+
+Component: `Frontend` (properties, transforms and main menus; keys 541–720 in local source order)
+
+The next 180 local English source keys were compared one by one with Swedish. `frontend-properties-transform-menu.delta.json` records 18 corrections for properties terminology, reconnecting status text, transform modes, virtual-camera choices and menus. Placeholders and access-key markup remain present.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.

@@ -1,0 +1,29 @@
+{
+  "project": "OBS Studio",
+  "platform": "Crowdin",
+  "locale": "sv-SE",
+  "component": "App/Frontend",
+  "reviewed_at": "2026-11-15",
+  "reviewed_strings": 180,
+  "source_snapshot_note": "Newer source keys missing only from the local Swedish snapshot are excluded from this delta.",
+  "changes": [
+    {"key":"Basic.PropertiesWindow.NoProperties","before":"Inga inställningar tillgängliga","after":"Inga egenskaper tillgängliga","reason":"The source is Properties, not Settings; retain the established UI term."},
+    {"key":"Basic.PropertiesWindow.EditEditableListEntry","before":"Redigera post från \"%1\"","after":"Redigera posten i \"%1\"","reason":"Use the natural Swedish relation for an entry in a named list and retain %1."},
+    {"key":"Basic.StatusBar.Reconnecting","before":"Frånkopplad, återansluter om %2 sekund(er) (försök %1)","after":"Frånkopplad. Återansluter om %2 sekunder (försök %1)","reason":"Use natural Swedish status punctuation and remove the English-style plural workaround while retaining both placeholders."},
+    {"key":"Basic.StatusBar.AttemptingReconnect","before":"Försöker att återansluta... (försök %1)","after":"Försöker återansluta... (försök %1)","reason":"Use the idiomatic Swedish infinitive construction and retain %1."},
+    {"key":"Basic.StatusBar.ReconnectSuccessful","before":"Återanslutning lyckades","after":"Återanslutningen lyckades","reason":"Use the required definite form."},
+    {"key":"Basic.StatusBar.DelayStartingIn","before":"Fördröjning (börjar om %1 s)","after":"Fördröjning (startar om %1 s)","reason":"Use the normal Swedish status verb for an operation starting after a delay."},
+    {"key":"Basic.StatusBar.DelayStartingStoppingIn","before":"Fördröjning (stoppar efter %1 s, börjar om %2 s)","after":"Fördröjning (stoppar efter %1 s, startar om %2 s)","reason":"Use a natural Swedish status verb for the pending start operation."},
+    {"key":"Basic.Filters.AddFilter.Text","before":"Vänligen ange namnet på filtret","after":"Ange namnet på filtret","reason":"Use direct Swedish dialog text."},
+    {"key":"Basic.TransformWindow.BoundsType.MaxOnly","before":"Överskrid inte källans grundstorlek","after":"Endast maximal storlek","reason":"Translate the source option label without adding a different source-size condition."},
+    {"key":"Basic.TransformWindow.BoundsType.ScaleOuter","before":"Fyll i","after":"Fyll","reason":"Use the concise graphics-mode label for Cover."},
+    {"key":"Basic.TransformWindow.BoundsType.ScaleToWidth","before":"Fyll bredd","after":"Fyll bredden","reason":"Use the natural Swedish object form."},
+    {"key":"Basic.TransformWindow.BoundsType.ScaleToHeight","before":"Fyll höjd","after":"Fyll höjden","reason":"Use the natural Swedish object form."},
+    {"key":"Basic.Main.StartBroadcast","before":"Direktsänd","after":"Starta direktsändning","reason":"Use a clear action label for Go Live."},
+    {"key":"Basic.VCam.OutputSelection","before":"Utmatningsmarkering","after":"Utmatningsval","reason":"Selection is a choice in this virtual-camera configuration UI, not a marking."},
+    {"key":"Basic.MainMenu.Edit.Transform.StretchToScreen","before":"Anpa&ssa storlek till skärmen","after":"Sträck ut till skärmen (&S)","reason":"Restore the Stretch semantics rather than Fit semantics and retain a Swedish mnemonic."},
+    {"key":"Basic.MainMenu.Edit.Transform.HorizontalCenter","before":"Centrera horisontalt","after":"Centrera horisontellt","reason":"Correct the Swedish adverb."},
+    {"key":"Basic.MainMenu.Edit.AdvAudio","before":"&Avancerade ljudinställningar","after":"&Avancerade ljudegenskaper","reason":"Match the named Advanced Audio Properties route used elsewhere in the UI."},
+    {"key":"Basic.MainMenu.View.ListboxToolbars","before":"Verktygsfält för dockning","after":"Dockade verktygsfält","reason":"Use the source's docked-toolbar meaning rather than toolbars for docking."}
+  ]
+}
