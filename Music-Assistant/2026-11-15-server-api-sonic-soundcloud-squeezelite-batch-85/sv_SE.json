@@ -1,0 +1,22 @@
+{
+  "provider.sonic_similarity.config_entries.similar_tracks_engine.options.18dim": "Traits (standard)",
+  "provider.sonic_similarity.config_entries.similar_tracks_engine.options.clap": "Character",
+  "provider.sonic_similarity.config_entries.similar_tracks_preset.description": "Förinställd likhetsviktning som används för åtgärden Liknande spår (endast Traits-motorn). ”balanced” viktar varje egenskap efter hur mycket den påverkar ljudmässig likhet; ”vibe” viktar stämning + klangfärg; ”party” viktar rytm + regelbundenhet; ”genre_era” ligger nära utgångsspårets genre och årtionde; ”discover” gynnar nya upptäckter (låg viktning av genre/era).",
+  "provider.sonic_similarity.config_entries.similar_tracks_preset.label": "Förval för liknande spår",
+  "provider.sonic_similarity.config_entries.similar_tracks_preset.options.balanced": "Balanserad",
+  "provider.sonic_similarity.config_entries.similar_tracks_preset.options.discover": "Upptäck (fokus på nya upptäckter)",
+  "provider.sonic_similarity.config_entries.similar_tracks_preset.options.genre_era": "Genre + era (håll dig nära)",
+  "provider.sonic_similarity.config_entries.similar_tracks_preset.options.party": "Fest (rytmtung)",
+  "provider.sonic_similarity.config_entries.similar_tracks_preset.options.vibe": "Stämning (humör + klangfärg)",
+  "provider.sonic_similarity.manifest.description": "Tillhandahåller Liknande spår för hela biblioteket, radioläge och en rad på upptäcktsidan med lokala ljudsignaturer. Kräver både sonic_analysis (perceptuella skalärvärden + CLAP-inbäddning) och smart_fades (BPM + tonart) – vektorsammansättningen hoppar över spår som saknar någon av signalerna.",
+  "provider.soundcloud.config_entries.authorization.label": "Auktorisering",
+  "provider.soundcloud.config_entries.client_id.label": "Klient-ID",
+  "provider.soundcloud.manifest.description": "Strömma spår, remixar och musik uppladdad av användare från SoundCloud-gemenskapen.",
+  "provider.squeezelite.config_entries.cli_telnet_port.label": "Klassisk Squeezebox CLI-port",
+  "provider.squeezelite.config_entries.discovery.description": "Sänd upptäcktspaket för slimproto-klienter så att de automatiskt kan hitta och ansluta till den här servern.\n\nDu kanske vill inaktivera funktionen om du kör flera slimproto-servrar i nätverket och/eller inte vill att klienter automatiskt ansluter till den här servern.",
+  "provider.squeezelite.config_entries.display.description": "Aktivera/inaktivera inbyggt bildskärmsstöd på squeezebox- eller squeezelite32-hårdvara.",
+  "provider.squeezelite.config_entries.display.label": "Aktivera bildskärmsstöd",
+  "provider.squeezelite.config_entries.port.description": "TCP/UDP-porten som slimproto-socketservern körs på. Standard är 3483 och hårdvaruspelare av typen Squeezebox stöder inte en annan port. Justera bara den här porten om du vill använda andra slimproto-baserade servrar parallellt med programvaruspelare (squeezelite).",
+  "provider.squeezelite.config_entries.port.label": "Slimproto-port",
+  "provider.squeezelite.config_entries.visualization.description": "Typ av visualisering som visas på skärmen under uppspelning om enheten har stöd för detta."
+}
