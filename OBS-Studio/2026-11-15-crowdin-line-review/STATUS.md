@@ -165,6 +165,8 @@ The archive now contains 286 prepared corrections across all reviewed OBS compon
 
 2026-11-16: reviewed the live `Stores/Steam/Store Page` component line by line in Crowdin (23 strings). Prepared 9 context-checked corrections in `store-steam.delta.json`; none has been saved upstream.
 
+2026-11-16: reviewed the live `Stores/Steam/Short Description` component in its Crowdin store context (1 string, 0% approved). The current Swedish `Kostnadsfri programvara med öppen källkod för videoinspelning och direktsändning` is accurate, idiomatic and within Steam's displayed 300-character limit; no change was prepared.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
