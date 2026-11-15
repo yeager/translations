@@ -3,8 +3,8 @@
 Datum: 2026-11-15  
 Upstream: [PR #199526](https://github.com/openclaw/openclaw/pull/199526)
 
-Femton delade poster i Control UI:s svenska översättningsminne har granskats
-och uppdaterats. De gäller sammanlagt 34 synliga positioner.
+Sjutton delade poster i Control UI:s svenska översättningsminne har granskats
+och uppdaterats. De gäller sammanlagt 37 synliga positioner.
 
 | Segment | Engelska | Svenska |
 | --- | --- | --- |
@@ -23,13 +23,18 @@ och uppdaterats. De gäller sammanlagt 34 synliga positioner.
 | `configHints.gateway%2Eauth%2EtrustedProxy%2EgitCoauthor%2EemailHeader.help.v1-1j8gxp7-2h` | commits | incheckningar |
 | `profilePage.identity.linkedEmailsDescription` | commit co-authoring | medförfattarskap i incheckningar |
 | `profilePage.identity.gitCoauthorDescription` | commit history | incheckningshistoriken |
+| `presence.rosterTitle` | Online | Anslutna |
+| `presence.offline` | Offline | Frånkopplad |
 
 De delade segmenten omfattar bland annat appens stödlänk, inställningar för
 automatiskt läge, färdigheter i agenter, chatt och inställningar samt den
 populära kategorin i tilläggskatalogen. De omfattar också beskrivningen av
 ändringsverktyget, texten om heartbeat-övervakning och ordvalet för Git-
-incheckningar. Källan och
+incheckningar samt närvarolistan och frånkopplad-statusen. Källan och
 översättningen finns i `ui/src/i18n/.i18n/sv.tm.jsonl` i upstream-PR:n.
 
 Kontroller som passerar: JSONL-parsning, Hunspell-sv, svlang, diffkontroll och
-Gitleaks. `l10n-lint` passerar för hela översättningsminnet.
+en fokuserad Gitleaks-kontroll av ändringarna. `l10n-lint` stöder inte detta
+översättningsminnes JSONL-format och räknas därför inte som en passerad
+kontroll. PR:n behöver fortfarande skärmbildsbevis från ett byggt svenskt
+Control UI före merge.

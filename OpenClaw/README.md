@@ -18,13 +18,16 @@ Control UI:s översättningsminne. Den ersätter de gemensamma etiketterna
 `Support`, `Skills`, `Auto` och `Trending` med Stöd, Färdigheter, Automatiskt
 och Populära. Den förbättrar också formuleringar för ändringar och
 heartbeat-övervakning och gör Git-terminologin konsekvent med den befintliga
-svenska termen incheckning. De femton posterna används på sammanlagt 34
-ställen i webbgränssnittet. Upstream-PR
+svenska termen incheckning. Batchen omfattar nu även närvarolistan
+`Online` → Anslutna och statusen `Offline` → Frånkopplad. De sjutton
+posterna används på sammanlagt 37 ställen i webbgränssnittet. Upstream-PR
 [#199526](https://github.com/openclaw/openclaw/pull/199526) skapades
-2026-11-15 och väntar på granskning. PR:ens kontroll för sammanhang och
-underlag passerar. Även här är den övergripande statusen `openclaw/ci-gate`
-röd med en generell CI-spärr, medan gransknings- och säkerhetskontrollerna
-passerar.
+2026-11-15 och väntar på granskning. JSONL-filen parsar, de nya svenska
+orden passerar Hunspell-sv och svlang bedömer de två senaste etiketterna utan
+anmärkning. En fokuserad Gitleaks-kontroll av ändringarna hittade inga
+hemligheter. `l10n-lint` stöder inte översättningsminnets JSONL-format och
+räknas därför inte som en passerad kontroll. PR:en kräver fortfarande
+skärmbildsbevis från ett byggt svenskt Control UI före merge.
 
 Kontroller: JSON-paritet, `git diff --check`, svlang, Hunspell-sv,
 l10n-lint och Gitleaks passerar. Upstream-PR
