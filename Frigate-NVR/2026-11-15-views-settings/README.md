@@ -46,6 +46,17 @@ nycklarna lagrar de två svenska pluralformerna i en enhet. `weblate-api-batch-
 022-plurals.json` är arkivkopian med enhets-ID och ordningsföljden
 singular/plural. Platshållarna `{{count}}` och `{{profile}}` bevarades.
 
+## Batch 023
+
+Batchen omfattar PTZ-förinställningar, go2rtc-strömmar, ytterligare
+konfigurationsegenskaper, kamerans detekteringsvarningar och säkerhetskopiering
+av gränssnittsinställningar. Hosted Weblate accepterade samtliga 36 strängar.
+Komponenten står därefter på 1 262 av 1 409 översatta strängar och 0 fuzzy.
+
+Kontroller: `jq empty`, `l10n-lint`, `git diff --check` och Gitleaks.
+Platshållarna `{{profile}}`, `{{date}}` och `{{version}}` samt tekniknamn som
+go2rtc, FFmpeg, PTZ, 1080p, iOS och Frigate bevarades.
+
 ## Batch 004
 
 Batchen omfattar formulärfält, globala inställningar, kamerainställningar och

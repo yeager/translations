@@ -1,0 +1,24 @@
+{
+  "button": {
+    "overriddenInCameras": {"profilePrefix": "Profilen {{profile}}: {{fields}}"},
+    "overriddenGlobalNoDeltas": "Den här kameran åsidosätter den globala konfigurationen, men inga fältvärden skiljer sig.",
+    "overriddenBaseConfigNoDeltas": "Profilen {{profile}} åsidosätter det här avsnittet, men inga fältvärden skiljer sig från baskonfigurationen."
+  },
+  "notification": {"notificationUnavailable": {"descPwa": "På iOS är webbpushnotiser bara tillgängliga när Frigate är installerat på hemskärmen. Öppna delningsmenyn, välj Lägg till på hemskärmen och öppna sedan Frigate från den nya ikonen för att registrera den här enheten för notiser."}},
+  "configForm": {
+    "ptzPresets": {"placeholder": "Välj eller ange en förinställning...", "search": "Sök eller ange en förinställning..."},
+    "cameraInputs": {"sourceMode": {"restream": "Återströmning (go2rtc)", "manual": "Manuell inmatningssökväg", "go2rtcStreamLabel": "go2rtc-ström", "go2rtcStreamPlaceholder": "Välj en go2rtc-ström", "noGo2rtcStreams": "Inga go2rtc-strömmar har konfigurerats", "go2rtcStreamSearch": "Sök strömmar...", "availableStreams": "Tillgängliga strömmar", "noMatchingStreams": "Inga matchande strömmar"}},
+    "additionalProperties": {"providerNameLabel": "Leverantörsnamn", "providerNamePlaceholder": "t.ex. openai", "variableNameLabel": "Variabelnamn", "variableNamePlaceholder": "t.ex. MY_VARIABLE", "loggerNameLabel": "Loggnamn", "loggerNamePlaceholder": "t.ex. frigate.record", "keyPatternError": "Använd endast bokstäver, siffror, bindestreck och understreck (inga blanksteg)"}
+  },
+  "configMessages": {
+    "detect": {
+      "maxFramesSet": "Inställningen för högsta antal bildrutor åsidosätter standardbeteendet och inaktiverar spårning av stationära objekt. Detta behövs mycket sällan, så använd den med försiktighet.",
+      "squareResolution": "En kvadratisk detekteringsupplösning är ovanlig. Detekteringsbredden och -höjden bör matcha kamerans bildförhållande, till exempel 16:9, inte dimensionerna för objektdetekteringsmodellen. Ett felaktigt bildförhållande kan sträcka ut bilden och minska detekteringsnoggrannheten.",
+      "resolutionHigh": "Den här detekteringsupplösningen är högre än rekommenderat och kan öka resursanvändningen utan att förbättra detekteringsnoggrannheten. En detekteringsupplösning på högst 1080p rekommenderas för de flesta kameror.",
+      "globalResolutionMultipleCameras": "En global detekteringsupplösning är inställd samtidigt som flera kameror är konfigurerade. Om inte alla kameror har samma upplösning och bildförhållande bör detekteringsbredd och -höjd definieras per kamera för att matcha varje kameras ursprungliga bildförhållande."
+    },
+    "ffmpeg": {"hwaccelManualNotRecommended": "Manuella argument för maskinvaruacceleration rekommenderas inte. Om det inte finns ett särskilt krav väljer du den förinställning som matchar maskinvaran."},
+    "model": {"optimizedFor320": "Frigate är optimerat för en 320x320-modell, vilket är det bästa valet för de flesta konfigurationer. En 640x640-modell är långsammare och hjälper bara i vissa scenarier.", "inputDimensionsNotDetectResolution": "Modellens inmatningsbredd och -höjd är objektdetekteringsmodellens indatadimensioner, inte kamerans detekteringsupplösning. De bör matcha dimensionerna för modellen du använder, vanligtvis en kvadratisk storlek som 320x320 eller 640x640."}
+  },
+  "general": {"backupRestore": {"title": "Säkerhetskopiering och återställning", "transfer": {"label": "Inställningsfil för enheten", "desc": "Kameragruppslayouter, strömningsinställningar och gränssnittsinställningar lagras i webbläsaren. Exportera dem till en fil för att säkerhetskopiera dem eller flytta dem till en annan enhet.", "export": "Exportera inställningar", "import": "Importera inställningar"}, "importDialog": {"title": "Importera inställningar", "desc": "Välj vad som ska tillämpas från den här filen. Frigate läses in på nytt när importen är klar.", "exportedFrom": "Exporterades {{date}} från Frigate-konfiguration version {{version}}"}}}
+}
