@@ -4,6 +4,9 @@ Den aktuella native-källan i `openclaw/openclaw:main` har 4 873 unika
 översättningsnycklar. Svenska har 4 873 nycklar, utan tomma, saknade eller
 extra värden vid kontroll 2026-11-15.
 
+Projektet är aktivt: den senaste stabila utgåvan, `v2026.11.3`, publicerades
+2026-11-10.
+
 `openclaw-native-sv-status-labels-20261115.patch` kompletterar tio
 användarvända etiketter som tidigare stod kvar på engelska. Ändringen omfattar
 Färdigheter, Stöd, anslutningsstatus och frånkopplad Gateway i Android- och
