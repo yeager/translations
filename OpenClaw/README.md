@@ -7,11 +7,18 @@ extra värden vid kontroll 2026-11-15.
 Projektet är aktivt: den senaste stabila utgåvan, `v2026.11.3`, publicerades
 2026-11-10.
 
-`openclaw-native-sv-status-labels-20261115.patch` kompletterar tio
-användarvända etiketter som tidigare stod kvar på engelska. Ändringen omfattar
+`openclaw-native-sv-status-labels-20261115.patch` kompletterar tio synliga
+etiketter som tidigare stod kvar på engelska. Ändringen omfattar
 Färdigheter, Stöd, anslutningsstatus och frånkopplad Gateway i Android- och
 Apple-gränssnitten samt System (automatiskt) på macOS. Kodord, kommandon och
 produktnamn är medvetet orörda.
+
+`openclaw-ui-sv-core-labels-20261115.md` dokumenterar en liten batch för
+Control UI:s översättningsminne. Den ersätter de gemensamma etiketterna
+`Support`, `Skills` och `Auto` med Stöd, Färdigheter och Automatiskt. De tre
+posterna används på sammanlagt 20 ställen i webbgränssnittet. Upstream-PR
+[#199526](https://github.com/openclaw/openclaw/pull/199526) skapades
+2026-11-15 och väntar på granskning.
 
 Kontroller: JSON-paritet, `git diff --check`, svlang, Hunspell-sv,
 l10n-lint och Gitleaks passerar. Upstream-PR
