@@ -68,6 +68,19 @@ Den nya kontrollträffen är produktnamnet `Blue Iris`, som ska vara oförändra
 Kontroller: `jq empty`, `l10n-lint`, käll- och tokenjämförelse,
 `git diff --check` och Gitleaks.
 
+## Batch 012
+
+Batchen omfattar konfigurationsvarningar för detektering, granskning,
+ansiktsigenkänning, LPR och GenAI samt kameratyper. Hosted Weblate accepterade
+18 aktuella källsträngar. Fyra äldre åsidosättningsnycklar saknas i Frigates
+aktuella källfil och lämnades därför utanför.
+
+Komponenten står därefter på 1 035 av 1 409 översatta strängar och 0 fuzzy,
+utan nya kontrollträffar.
+
+Kontroller: `jq empty`, `l10n-lint`, tokenjämförelse mot källfilen,
+`git diff --check` och Gitleaks.
+
 ## Batch 010
 
 Batchen omfattar FFmpeg-förinställningar, synkroniseringsloggning,

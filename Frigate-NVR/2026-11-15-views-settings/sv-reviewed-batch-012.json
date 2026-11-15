@@ -1,0 +1,54 @@
+{
+  "configForm": {
+    "genaiModel": {
+      "noModels": "Inga modeller tillgängliga"
+    },
+    "knownPlates": {
+      "namePlaceholder": "t.ex. makans bil",
+      "platePlaceholder": "Registreringsnummer eller regex"
+    },
+    "genaiRoles": {
+      "options": {
+        "descriptions": "Beskrivningar",
+        "chat": "Chatt"
+      }
+    }
+  },
+  "cameraWizard": {
+    "step4": {
+      "issues": {
+        "resolutionUnknown": "Det gick inte att avsöka upplösningen för den här strömmen. Ange detekteringsupplösningen manuellt i Inställningar eller i konfigurationen."
+      }
+    }
+  },
+  "cameraManagement": {
+    "cameraType": {
+      "title": "Kameratyp",
+      "label": "Kameratyp",
+      "description": "Ange typen för varje kamera. Dedikerade LPR-kameror är kameror för ett enda ändamål med kraftig optisk zoom för att fånga registreringsskyltar på avlägsna fordon. De flesta kameror bör använda den normala kameratypen, om kameran inte är avsedd särskilt för LPR och har en snävt fokuserad vy över registreringsskyltar.",
+      "normal": "Normal",
+      "dedicatedLpr": "Dedikerad LPR",
+      "saveSuccess": "Kameratypen för {{cameraName}} har uppdaterats. Starta om Frigate för att tillämpa ändringarna."
+    }
+  },
+  "configMessages": {
+    "review": {
+      "genaiImageSourceRecordingsRecordDisabled": "Bildkällan är inställd på 'recordings', men inspelning är inaktiverad. Frigate använder i stället förhandsvisningsbilder."
+    },
+    "detect": {
+      "disabled": "Objektdetektering är inaktiverad. Ögonblicksbilder, granskningsobjekt och berikningar som ansiktsigenkänning, registreringsskyltigenkänning och generativ AI fungerar inte."
+    },
+    "objects": {
+      "genaiNoDescriptionsProvider": "Du måste konfigurera en GenAI-leverantör med rollen 'descriptions' för att beskrivningar ska kunna skapas."
+    },
+    "faceRecognition": {
+      "modelSizeLarge": "Modellen 'large' kräver GPU eller NPU för rimlig prestanda. Använd 'small' på system som endast har CPU."
+    },
+    "lpr": {
+      "modelSizeLarge": "Modellen 'large' är optimerad för registreringsskyltar med flera rader. Modellen 'small' ger bättre prestanda än 'large' och bör användas om din region inte använder skyltformat med flera rader."
+    },
+    "semanticSearch": {
+      "jinav2SmallModelSize": "Storleken 'small' med modellen Jina V2 har hög RAM- och inferenskostnad. Modellen 'large' med ett separat GPU rekommenderas."
+    }
+  }
+}
