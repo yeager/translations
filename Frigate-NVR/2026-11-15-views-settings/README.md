@@ -57,6 +57,18 @@ Kontroller: `jq empty`, `l10n-lint`, `git diff --check` och Gitleaks.
 Platshållarna `{{profile}}`, `{{date}}` och `{{version}}` samt tekniknamn som
 go2rtc, FFmpeg, PTZ, 1080p, iOS och Frigate bevarades.
 
+## Batch 024
+
+Batchen omfattar återställning av ström från go2rtc, export/import av
+gränssnittsinställningar, kameraguiden för Apple och PTZ samt kända
+registreringsskyltar och Birdseye-lägen. Hosted Weblate accepterade samtliga
+40 strängar. Komponenten står därefter på 1 302 av 1 409 översatta strängar
+och 0 fuzzy.
+
+Kontroller: `jq empty`, `l10n-lint`, `git diff --check` och Gitleaks.
+Produkt- och tekniknamn som go2rtc, ONVIF, PTZ, Apple, Safari, iPhone, iPad,
+Mac, FFmpeg, Birdseye och MQTT bevarades.
+
 ## Batch 004
 
 Batchen omfattar formulärfält, globala inställningar, kamerainställningar och

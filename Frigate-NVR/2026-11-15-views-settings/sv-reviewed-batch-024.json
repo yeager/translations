@@ -1,0 +1,16 @@
+{
+  "configMessages": {"ffmpeg": {"inputsMissingGo2rtcStream": "En inmatning nedan pekar på en go2rtc-återströmning som inte längre finns. Välj en befintlig återströmning eller ange kamerans URL manuellt, annars kan kameran inte ansluta."}},
+  "general": {
+    "backupRestore": {"importDialog": {"confirm": "Importera"}},
+    "toast": {"success": {"exportUiSettings": "Inställningarna har exporterats", "importUiSettings": "Inställningarna har importerats"}, "error": {"exportUiSettingsFailed": "Det gick inte att exportera inställningarna", "importNothingToApply": "Det gick inte att importera inställningarna: filen innehåller inga inställningar", "importInvalidJson": "Det gick inte att importera inställningarna: filen är inte giltig JSON", "importWrongType": "Det gick inte att importera inställningarna: filen är inte en export av Frigate-inställningar", "importUnsupportedVersion": "Det gick inte att importera inställningarna: filen kräver en nyare version av Frigate", "importInvalidSchema": "Det gick inte att importera inställningarna: filen är felaktigt formaterad", "importUiSettingsFailed": "Det gick inte att importera inställningarna"}}
+  },
+  "cameraWizard": {"step3": {"appleCompatibility": {"title": "Förbättra uppspelningen på Apple-enheter", "description": "Aktivera detta om du tittar på inspelningar i Safari eller på en iPhone, iPad eller Mac."}, "rolesPopover": {"record_sub": "Inspelningar med lägre kvalitet för adaptiv uppspelning och längre lagringstid, vanligtvis kamerans underström."}, "ptz": {"title": "Aktivera PTZ-kontroller", "detectedNote": "PTZ-stöd har identifierats via ONVIF. Om detta är en PTZ-kamera kan du med detta alternativ styra kamerans panorering, lutning och zoomning från gränssnittet.", "connectionDetails": "ONVIF-anslutningsinformation", "host": "ONVIF-värd", "port": "ONVIF-port", "username": "ONVIF-användarnamn", "password": "ONVIF-lösenord", "hostRequiredWarning": "En ONVIF-värd och -port krävs när PTZ-kontroller är aktiverade."}}},
+  "maintenance": {"sync": {"resultsFields": {"spaceToReclaim": "Utrymme att frigöra", "spaceReclaimed": "Frigjort utrymme"}}},
+  "configForm": {
+    "knownPlates": {"assignedTo": "Tilldelad {{name}}", "detected": "Identifierade skyltar", "noneDetected": "Inga skyltar har identifierats ännu", "search": "Sök eller ange en skylt", "useCustom": "Använd ”{{value}}”"},
+    "ffmpegArgs": {"sameAsRecord": "Samma som argument för inspelningsutdata"},
+    "birdseyeModes": {"summary": "{{count}} valda", "options": {"continuous": "Kontinuerlig", "motion": "Rörelse", "all_objects": "Alla objekt", "alerts": "Varningar", "detections": "Detekteringar"}},
+    "inputRoles": {"roleInUse": "Redan tilldelad till en annan ström", "recordSubConflict": "En ström kan inte ha både rollerna record och record_sub", "options": {"record_sub": "Spela in (underström)"}},
+    "defaultRole": {"none": "Ingen (neka åtkomst)"}
+  }
+}
