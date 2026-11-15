@@ -1,0 +1,21 @@
+{
+  "project": "OBS Studio",
+  "platform": "Crowdin",
+  "locale": "sv-SE",
+  "component": "App/Frontend",
+  "reviewed_at": "2026-11-15",
+  "reviewed_strings": 11,
+  "changes": [
+    {"key":"Basic.Settings.Output.Simple.Warn.VideoBitrate","before":"Varning: Strömmens videobithastighet kommer att ändras till %1, vilket är maxgränsen för den nuvarande strömtjänsten.","after":"Varning: Strömmens videobithastighet ställs in på %1, som är den övre gränsen för den aktuella strömningstjänsten.","reason":"Use natural Swedish and preserve the bitrate placeholder."},
+    {"key":"Basic.Settings.Output.Simple.Warn.AudioBitrate","before":"Varning: Strömmens ljudbithastighet kommer att ändras till %1, vilket är maxgränsen för den nuvarande strömtjänsten.","after":"Varning: Strömmens ljudbithastighet ställs in på %1, som är den övre gränsen för den aktuella strömningstjänsten.","reason":"Use natural Swedish and preserve the bitrate placeholder."},
+    {"key":"Basic.Settings.Output.Warn.EnforceResolutionFPS.Msg","before":"Den här strömningstjänsten stöder inte din nuvarande utdataupplösning och/eller bildfrekvens. De kommer att ändras till närmaste kompatibla värde:\\n\\n%1\\n\\nVill du fortsätta?","after":"Den här strömningstjänsten stöder inte din nuvarande utdataupplösning och/eller bildfrekvens. Värdena ändras till närmaste kompatibla värden:\\n\\n%1\\n\\nVill du fortsätta?","reason":"Resolve the ambiguous pronoun while preserving the placeholder and line breaks."},
+    {"key":"Basic.Settings.Output.Warn.ServiceCodecCompatibility.Msg2","before":"Strömningstjänsten \"%1\" har inte stöd för kodarna \"%2\" och \"%3\". Dessa kodare kommer ändras till \"%4\" och \"%5\".\\n\\nVill du fortsätta?","after":"Strömningstjänsten \"%1\" har inte stöd för kodarna \"%2\" och \"%3\". Dessa kodare ändras till \"%4\" och \"%5\".\\n\\nVill du fortsätta?","reason":"Correct the Swedish verb construction without changing any placeholders or line breaks."},
+    {"key":"Basic.Settings.Output.Adv.FFmpeg.MuxerSettings","before":"Muxerinställningar (om det finns)","after":"Muxerinställningar (om några finns)","reason":"Use plural agreement for the plural settings label."},
+    {"key":"Basic.Settings.Output.Adv.FFmpeg.FormatDescDef","before":"Ljud-/videoomkodare gissades från sökväg eller webbadress","after":"Ljud-/videoomkodare väljs utifrån filsökväg eller webbadress","reason":"Use a natural present-tense description of the automatic selection."},
+    {"key":"Basic.Settings.Output.SplitFile.TypeTime","before":"Dela efter tidpunkt","after":"Dela efter tid","reason":"Translate Split by Time as a duration criterion, not a clock time."},
+    {"key":"Basic.Settings.Output.SplitFile.Time","before":"Tidpunkt att dela vid","after":"Tidpunkt för uppdelning","reason":"Use natural Swedish label wording."},
+    {"key":"Basic.Settings.Output.SplitFile.Size","before":"Storlek att dela vid","after":"Storlek för uppdelning","reason":"Use natural Swedish label wording."},
+    {"key":"Basic.Settings.Output.Adv.Recording.UseStreamEncoder","before":"(Använd strömkodare)","after":"(Använd strömkodaren)","reason":"Use the definite form for the configured stream encoder."},
+    {"key":"Basic.Settings.Output.Adv.FFmpeg.IgnoreCodecCompat","before":"Visa alla omkodare (även de som eventuellt inte är kompatibla)","after":"Visa alla kodekar (även potentiellt inkompatibla)","reason":"Codec is a format term here, not an encoder; use the established Swedish spelling."}
+  ]
+}
