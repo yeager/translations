@@ -25,3 +25,10 @@ granskningsinställningar accepterades med 20 av 775 nycklar. Komponenten står
 därefter på 599 av 775 översatta strängar och 0 fuzzy. Kontrollträffarna för
 `FFmpeg` och `ONVIF-port` är medvetna falska positiva tekniska namn och svensk
 sammansättning.
+
+## Batch 003
+
+Batchen för ögonblicksbilder, ljudtranskribering och klassificeringsmodeller
+accepterades med 30 av 775 nycklar. Komponenten står därefter på 629 av 775
+översatta strängar och 0 fuzzy. De tre kontrollträffarna är oförändrade,
+dokumenterade tekniska undantag.

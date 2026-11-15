@@ -1,0 +1,70 @@
+{
+  "snapshots": {
+    "description": "Inställningar för API-genererade ögonblicksbilder av spårade objekt för alla kameror; kan åsidosättas per kamera.",
+    "enabled": {
+      "description": "Aktivera eller inaktivera sparande av ögonblicksbilder för alla kameror; kan åsidosättas per kamera."
+    }
+  },
+  "timestamp_style": {
+    "description": "Stilalternativ för tidsstämplar i flödet som används i felsökningsvyn och i ögonblicksbilder."
+  },
+  "audio_transcription": {
+    "enabled": {
+      "description": "Aktivera eller inaktivera automatisk ljudtranskribering för alla kameror; kan åsidosättas per kamera."
+    },
+    "language": {
+      "label": "Transkriberingsspråk",
+      "description": "Språkkod som används för transkribering eller översättning (till exempel 'en' för engelska), eller 'auto' för att låta modellen identifiera språket. Se https://whisper-api.com/docs/languages/ för språk som stöds."
+    },
+    "device": {
+      "label": "Transkriberingsenhet",
+      "description": "Enhetsnyckel (CPU/GPU) som transkriberingsmodellen ska köras på. Endast NVIDIA CUDA-GPU:er stöds för närvarande för transkribering."
+    },
+    "model_size": {
+      "label": "Modellstorlek",
+      "description": "Modellstorlek som ska användas för offlinetranskribering av ljudhändelser."
+    }
+  },
+  "classification": {
+    "label": "Objektklassificering",
+    "description": "Inställningar för klassificeringsmodeller som används för att förfina objektetiketter eller klassificera tillstånd.",
+    "bird": {
+      "label": "Konfiguration för fågelklassificering",
+      "description": "Inställningar specifika för modeller för fågelklassificering.",
+      "enabled": {
+        "label": "Fågelklassificering",
+        "description": "Aktivera eller inaktivera fågelklassificering."
+      },
+      "threshold": {
+        "label": "Lägsta poäng",
+        "description": "Lägsta klassificeringspoäng som krävs för att godkänna en fågelklassificering."
+      }
+    },
+    "custom": {
+      "label": "Anpassade klassificeringsmodeller",
+      "description": "Konfiguration för anpassade klassificeringsmodeller som används för objekt eller tillståndsdetektering.",
+      "enabled": {
+        "label": "Aktivera modell",
+        "description": "Aktivera eller inaktivera den anpassade klassificeringsmodellen."
+      },
+      "name": {
+        "label": "Modellnamn",
+        "description": "Identifierare för den anpassade klassificeringsmodell som ska användas."
+      },
+      "threshold": {
+        "label": "Poängtröskel",
+        "description": "Poängtröskel som används för att ändra klassificeringstillståndet."
+      },
+      "save_attempts": {
+        "label": "Spara försök",
+        "description": "Hur många klassificeringsförsök som ska sparas för gränssnittet för senaste klassificeringar."
+      },
+      "object_config": {
+        "objects": {
+          "label": "Klassificera objekt",
+          "description": "Lista över objekttyper som objektklassificering ska köras för."
+        }
+      }
+    }
+  }
+}
