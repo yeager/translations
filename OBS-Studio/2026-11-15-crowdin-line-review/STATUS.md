@@ -181,6 +181,8 @@ The archive now contains 315 prepared corrections across all reviewed OBS compon
 
 2026-11-16: reviewed page 5 of the live `App/Core` component line by line in Crowdin (250 of 1,428 strings). All identified wording, terminology and grammar corrections were already recorded in `frontend-general-stream-settings.delta.json`, `frontend-output-audio.delta.json`, `frontend-output-settings.delta.json` and `frontend-output-video-audio.delta.json`; no duplicate delta was created. None has been saved upstream.
 
+2026-11-16: reviewed page 6 of the live `App/Core` component line by line in Crowdin (300 of 1,428 strings). The necessary corrections already existed in `frontend-output-settings.delta.json`, `frontend-output-audio.delta.json`, `frontend-output-video-audio.delta.json`, `frontend-system-messages.delta.json` and `frontend-advanced-audio-hotkeys.delta.json`. The VST term in the existing surround-sound warning was aligned with the terminology list (`VST-insticksmoduler`); no additional delta was created. None has been saved upstream.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
