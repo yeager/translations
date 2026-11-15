@@ -34,3 +34,9 @@ Resultat och eventuella kontextberoende undantag dokumenteras efter valideringen
 - `hunspell-sv`: inga ord att rapportera efter filtrering av tekniska identifierare och källkodsliknande exempel.
 - `gitleaks`: godkänd.
 - `git diff --check`: godkänd.
+
+## Upstreamstatus
+
+Uppladdad till Cacti Weblate 2026-11-15 med läget **Lägg till som översättning** och konfliktregeln **Ändra endast oöversatta strängar**. Weblate bekräftade: 25 bearbetade, 0 hoppade över, 0 saknade och 25 uppdaterade strängar.
+
+Efter importen är 368 av 381 strängar översatta. De 13 återstående är sedan tidigare markerade som *behöver åtgärdas* och behandlas i en separat granskningsbatch, så de befintliga översättningarna inte skrivs över av misstag.
