@@ -14,4 +14,6 @@ inte projektgranskning, publicering eller release.
 
 Music Assistant Server räknades om direkt via API den 16 november. Katalogen
 omfattar 4 098 svenska poster, varav 0 är tomma eller oöversatta efter batch
-66. Övriga komponenter behåller senast verifierade status från 15 november.
+66. Music Assistant Mobile räknades också om samma dag: 615 svenska poster,
+0 tomma och 0 oöversatta efter batch 67. Frontend och desktop behåller
+senast verifierade status från 16 november.
