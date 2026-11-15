@@ -1,0 +1,70 @@
+{
+  "general": {
+    "hardwareInfo": {
+      "gpuTemperature": "GPU-temperatur",
+      "npuTemperature": "NPU-temperatur",
+      "gpuCompute": "GPU-beräkning/kodning"
+    }
+  },
+  "cameras": {
+    "connectionQuality": {
+      "title": "Anslutningskvalitet",
+      "excellent": "Utmärkt",
+      "fair": "Godtagbar",
+      "poor": "Dålig",
+      "unusable": "Oanvändbar",
+      "fps": "fps",
+      "expectedFps": "Förväntat fps",
+      "reconnectsLastHour": "Återanslutningar (senaste timmen)",
+      "stallsLastHour": "Avbrott (senaste timmen)"
+    },
+    "label": {
+      "cameraGpu": "GPU för {{camName}}"
+    }
+  },
+  "documentTitle": {
+    "logs": {
+      "websocket": "Meddelandeloggar - Frigate"
+    }
+  },
+  "logs": {
+    "websocket": {
+      "label": "Meddelanden",
+      "pause": "Pausa",
+      "resume": "Återuppta",
+      "clear": "Rensa",
+      "filter": {
+        "all": "Alla ämnen",
+        "topics": "Ämnen",
+        "events": "Händelser",
+        "reviews": "Granskningar",
+        "classification": "Klassificering",
+        "face_recognition": "Ansiktsigenkänning",
+        "lpr": "LPR",
+        "camera_activity": "Kameraaktivitet",
+        "system": "System",
+        "camera": "Kamera",
+        "all_cameras": "Alla kameror",
+        "cameras_count_one": "{{count}} kamera",
+        "cameras_count_other": "{{count}} kameror"
+      },
+      "empty": "Inga meddelanden har fångats ännu",
+      "count_one": "{{count}} meddelande",
+      "count_other": "{{count}} meddelanden",
+      "expanded": {
+        "payload": "Nyttolast"
+      }
+    }
+  },
+  "stats": {
+    "debugReplayActive": "Felsökningsuppspelning är aktiv"
+  },
+  "storage": {
+    "shm": {
+      "frameLifetime": {
+        "title": "Bildrutans livslängd",
+        "description": "Varje kamera har {{frames}} platser för bildrutor i delat minne. Vid den snabbaste kamerans bildfrekvens är varje bildruta tillgänglig i ungefär {{lifetime}} s innan den skrivs över."
+      }
+    }
+  }
+}
