@@ -1,0 +1,16 @@
+{
+  "configMessages": {
+    "detect": {"sceneWithoutModel": "Ingen detekteringsmodell är konfigurerad för den här scenen, så kameran använder i stället standardmodellen. Lägg till en modell för den här scenen så att kameran får en egen."},
+    "record": {"noRecordSubRole": "Inga strömmar har rollen record_sub definierad. Inspelning av underström fungerar inte."},
+    "birdseye": {"objectTrackingDetectDisabled": "Birdseye innehåller spårade objekt, men objektdetektering är inaktiverad för den här kameran. Kameran visas inte i Birdseye."},
+    "audioTranscription": {"genaiProviderSelected": "En GenAI-leverantör har valts, så inställningarna för enhet och modellstorlek ignoreras."}
+  },
+  "detectionModels": {
+    "title": "Detekteringsmodeller", "description": "Konfigurera objektdetekteringsmodellerna och maskinvaran som var och en körs på. Lägg bara till en modell för en scen när vissa kameror behöver en annorlunda tränad modell, till exempel värmekameror. Kameror väljer modell efter scen i kamerans detekteringsinställningar.", "addModel": "Lägg till modell",
+    "scene": {"label": "Scen", "description": "Ett namn för kamerorna som den här modellen är avsedd för. Kameror väljer en modell genom att ställa in samma scen i sina detekteringsinställningar, och standardmodellen används av kameror som inte anger någon. Använd scener för att köra olika modeller, inte för att dela upp en modell mellan maskinvara, eftersom modeller som använder samma modellfil kombineras."},
+    "hardware": {"label": "Maskinvara", "placeholder": "Välj maskinvara", "loading": "Söker efter detekteringsmaskinvara...", "none": "Ingen maskinvara har valts", "claimedBy": "används av {{scene}}", "detectorCount": "Detektorer", "unrecognized": "Den här modellen är konfigurerad för maskinvara som inte hittades på systemet: {{devices}}", "description": "Maskinvaran som den här modellen kör sin detektering på.", "detectorCountDescription": "Hur många detekteringsprocesser som ska köras på den här maskinvaran. Fler detektorer hinner med fler kameror, på bekostnad av extra enhetsminne.", "unitsDescription": "Varje enhet kör sin egen detekteringsprocess. En enhet som inte kan delas, till exempel en Coral, kan endast användas av en modell."},
+    "tabs": {"plus": "Frigate+", "custom": "Anpassad modell"}, "plusModel": {"noModelSelected": "Välj en Frigate+-modell"}
+  },
+  "review": {"frameMode": {"frames": "Bildrutor", "annotated_frames": "Kommenterade bildrutor"}},
+  "configForm": {"genaiRoles": {"options": {"transcribe": "Transkribering"}}, "audioTranscriptionModel": {"placeholder": "Välj modell…", "builtIn": "Inbyggda modeller", "genaiProviders": "GenAI-leverantörer"}, "audioTranscriptionModelSize": {"notApplicable": "Gäller inte för GenAI-leverantörer"}, "ffmpegArgs": {"presetLabels": {"preset-apple-silicon-h264": "Apple Silicon (H.264)", "preset-apple-silicon-h265": "Apple Silicon (H.265)"}}}
+}
