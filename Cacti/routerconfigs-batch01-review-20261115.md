@@ -18,4 +18,11 @@
   eftersom svenska veckodagsnamn skrivs med liten bokstav.
 - `svlang`: 10,0/10.
 - Hunspell svenska, Gitleaks och `git diff --check`: godkända.
-- Status: lokalt granskat och arkiverat. Uppladdning återstår.
+- Weblate-import: 41 uppdaterade, 0 hoppade över och 0 saknade strängar.
+  Den uppladdade deltafilen sammanfogades med läget ”Lägg till som
+  översättning” och konflikthanteringen ”Ändra endast oöversatta strängar”.
+- Direkt verifierad komponentstatus efter import: 343 av 381 strängar
+  översatta (89,5 %); 38 är fortfarande ofärdiga, varav 25 tomma och 13
+  behöver redigeras.
+- Status: lokalt granskat, arkiverat, inskickat och importerat. Projektets
+  fortsatta granskning och releasepublicering är inte verifierade.
