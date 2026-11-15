@@ -3,7 +3,7 @@
 Datum: 2026-11-15  
 Upstream: [PR #199519](https://github.com/openclaw/openclaw/pull/199519)
 
-Tjugofem synliga systemetiketter i den svenska katalogen för Android och Apple-
+Trettiofyra synliga systemetiketter i den svenska katalogen för Android och Apple-
 apparna har granskats i källkodens användningssammanhang och uppdaterats.
 
 | Segment | Engelska | Svenska |
@@ -33,6 +33,15 @@ apparna har granskats i källkodens användningssammanhang och uppdaterats.
 | `native.android.3eb1dd47a3669d49` | tabs | flikar |
 | `native.android.9127900aaed99dcc` | thread create | skapa tråd |
 | `native.android.93b0779b3b292e8d` | wake | väck |
+| `native.android.8c1c9792173e00db` | `$online/${summary.nodes.size} online` | `$online/${summary.nodes.size} anslutna` |
+| `native.android.b5022307c878a3cb` | `$onlineNodes of $nodeCount online` | `$onlineNodes av $nodeCount anslutna` |
+| `native.android.fc351549e1c62e03` | `$onlineNodes online` | `$onlineNodes anslutna` |
+| `native.apple.7ea4001cda9c17da` | offline | frånkopplad |
+| `native.apple.8af3455dfc1e92b6` | online | ansluten |
+| `native.apple.3d179a5633fd4a50` | Gateway is offline | Gateway är frånkopplad |
+| `native.apple.e018ebb26dbe4fc5` | Gateway is online | Gateway är ansluten |
+| `native.apple.4b1707775e3d4ded` | Watch node is online | Klocknoden är ansluten |
+| `native.apple.b96c69383bb1ea99` | AI agent online | AI-agent ansluten |
 
 Ordet *online* har ersatts endast i dessa statusetiketter, där användaren
 behöver förstå anslutningsläget. Produktnamn, kodtermer och platshållare har
