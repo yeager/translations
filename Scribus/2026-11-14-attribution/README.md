@@ -9,9 +9,10 @@ till projektets officiella bugghanterare på https://bugs.scribus.net och
 förklarade att teamet inte följer pull requests på GitHub.
 
 Rätt inskickskanal för denna ändring är därför Scribus bugghanterare. Vid
-kontrollen var webbläsarsessionen inte inloggad: den visade ett misslyckat
-inloggningsförsök för användaren `yeager`. Ingen rapport har därför skapats
-ännu och ändringen är inte inskickad via rätt kanal.
+kontrollen den 15 november 2026 skickades patchen som publikt ärende
+[#18096](https://bugs.scribus.net/view.php?id=18096), kategori `Translation`.
+Ärendet är nytt, inte granskat och inte mergat. Den bifogade patchen ändrar
+en rad i `TRANSLATION`.
 
 Checks passed before submission:
 
