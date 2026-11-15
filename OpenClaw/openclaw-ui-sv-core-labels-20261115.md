@@ -3,8 +3,8 @@
 Datum: 2026-11-15  
 Upstream: [PR #199526](https://github.com/openclaw/openclaw/pull/199526)
 
-Trettiosex delade poster i Control UI:s svenska översättningsminne har
-granskats och uppdaterats. De gäller sammanlagt 56 synliga positioner.
+Fyrtio delade poster i Control UI:s svenska översättningsminne har granskats
+och uppdaterats. De gäller sammanlagt 60 synliga positioner.
 
 | Segment | Engelska | Svenska |
 | --- | --- | --- |
@@ -44,6 +44,10 @@ granskats och uppdaterats. De gäller sammanlagt 56 synliga positioner.
 | `aboutPage.commit` | Commit | Incheckning |
 | `aboutPage.copiedCommit` | Commit hash copied | Hash för incheckning kopierad |
 | `aboutPage.copyCommit` | Copy full commit hash | Kopiera fullständig hash för incheckning |
+| `lazyView.staleTitle` | This view could not load | Den här vyn kunde inte läsas in |
+| `lazyView.stylesFailed` | Styles failed to load… | Stilmallarna kunde inte läsas in… |
+| `pluginUi.settingsLoadFailed` | Settings presentation could not load. | Inställningsvyn kunde inte läsas in. |
+| `agentStartup.description` | This view will load automatically. | Den här vyn läses in automatiskt. |
 
 De delade segmenten omfattar bland annat appens stödlänk, inställningar för
 automatiskt läge, färdigheter i agenter, chatt och inställningar samt den
