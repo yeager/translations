@@ -1081,3 +1081,10 @@ intentional plural-form exception, not a functional error.
 
 Two existing Swedish suggestions were independently reviewed and positively
 voted. Both were accepted by Weblate; the template marker was retained.
+
+## Checks batch 153
+
+The checks were reviewed individually. Identical Swedish plural forms remain
+intentional. Six actual issues were submitted as corrections: a double space,
+two transaction/transfer meaning errors, a mathematical term and two unmatched
+terminal periods.
