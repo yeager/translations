@@ -618,3 +618,11 @@ Twenty-three simulation, fee and tax settings strings were reviewed and
 accepted through the API. Better alternatives were submitted for the expand-all
 control and the per-pot tax-model label. The ambiguous `First earnings` label
 remains pending a separate contextual review.
+
+## Reviewed suggestions batch 84
+
+Fourteen investment, account and statistical-summary strings were reviewed and
+accepted through the API. `Behåll pottarnas målfördelning` was submitted as a
+more idiomatic target-mix control label and awaits project acceptance. A
+transient Weblate 503 during this batch was retried only for the unconfirmed
+units; all fourteen accepted targets were then read back successfully.
