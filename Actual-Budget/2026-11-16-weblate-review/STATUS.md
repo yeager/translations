@@ -868,3 +868,10 @@ API. Template markup, `QUERY`, `QUERY_COUNT`, `BUDGET_QUERY` and all formula
 identifiers were retained. Twelve targets were accepted and read back; seven
 contextual terminology and Swedish-punctuation improvements received positive
 review votes pending project acceptance.
+
+## Reviewed suggestions batch 119
+
+Six budget-template status messages and two plural template labels were
+reviewed and accepted through the API. The `$t(...)` calls, JSON argument
+structure, `{{sourceCount}}` and `{{sinkCount}}` placeholders were preserved
+and read back successfully.
