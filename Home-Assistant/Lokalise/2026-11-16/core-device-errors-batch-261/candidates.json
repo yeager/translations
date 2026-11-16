@@ -1,0 +1,236 @@
+[
+  {
+    "translation_id": 10156114950,
+    "key_name": "component::spin_ble::entity::switch::charging::name",
+    "source": "Charging",
+    "target": "Laddning"
+  },
+  {
+    "translation_id": 10156115014,
+    "key_name": "component::spin_ble::exceptions::cannot_send::message",
+    "source": "Could not send the command to the charger: {error}",
+    "target": "Det gick inte att skicka kommandot till laddaren: {error}"
+  },
+  {
+    "translation_id": 10156115078,
+    "key_name": "component::spin_ble::exceptions::command_rejected::message",
+    "source": "The charger refused the command. It will not start charging without a vehicle plugged in, or stop with no session in progress.",
+    "target": "Laddaren avvisade kommandot. Den börjar inte ladda utan ett anslutet fordon och stoppar inte när ingen laddsession pågår."
+  },
+  {
+    "translation_id": 10156115142,
+    "key_name": "component::spin_ble::exceptions::unloading::message",
+    "source": "The command was not sent because the integration is unloading.",
+    "target": "Kommandot skickades inte eftersom integrationen avaktiveras."
+  },
+  {
+    "translation_id": 10156501488,
+    "key_name": "component::wiim::entity::select::audio_output::name",
+    "source": "Audio output",
+    "target": "Ljudutgång"
+  },
+  {
+    "translation_id": 10156501552,
+    "key_name": "component::wiim::entity::select::audio_output::state::other_out",
+    "source": "Other out",
+    "target": "Annan utgång"
+  },
+  {
+    "translation_id": 10161999148,
+    "key_name": "component::thread::exceptions::invalid_dataset::message",
+    "source": "Invalid dataset",
+    "target": "Ogiltig datauppsättning"
+  },
+  {
+    "translation_id": 10161999212,
+    "key_name": "component::thread::exceptions::preferred_extended_address_required::message",
+    "source": "Must set preferred extended address with preferred border agent ID",
+    "target": "Du måste ange önskad utökad adress tillsammans med ID för önskad gränsagent"
+  },
+  {
+    "translation_id": 10162042167,
+    "key_name": "component::speedtestdotnet::exceptions::server_not_found::message",
+    "source": "Selected server is not found",
+    "target": "Den valda servern hittades inte"
+  },
+  {
+    "translation_id": 10162042231,
+    "key_name": "component::speedtestdotnet::exceptions::update_failed::message",
+    "source": "An error occurred while running the speed test",
+    "target": "Ett fel inträffade när hastighetstestet kördes"
+  },
+  {
+    "translation_id": 10162042846,
+    "key_name": "component::nws::exceptions::no_data::message",
+    "source": "No data returned.",
+    "target": "Inga data returnerades."
+  },
+  {
+    "translation_id": 10162042910,
+    "key_name": "component::nws::exceptions::observation_update_error::message",
+    "source": "An error occurred while updating the observation data",
+    "target": "Ett fel inträffade när observationsdata uppdaterades"
+  },
+  {
+    "translation_id": 10162216727,
+    "key_name": "component::tasmota::exceptions::camera_image_error::message",
+    "source": "An error occurred while getting a new camera image from {entity_id}",
+    "target": "Ett fel inträffade när en ny kamerabild hämtades från {entity_id}"
+  },
+  {
+    "translation_id": 10162216791,
+    "key_name": "component::tasmota::exceptions::camera_image_timeout::message",
+    "source": "Timeout getting camera image from {entity_id}",
+    "target": "Tidsgränsen överskreds när en kamerabild hämtades från {entity_id}"
+  },
+  {
+    "translation_id": 10162527918,
+    "key_name": "component::switchbot_cloud::exceptions::no_valid_mac_address::message",
+    "source": "No valid MAC address obtained.",
+    "target": "Ingen giltig MAC-adress hämtades."
+  },
+  {
+    "translation_id": 10162527982,
+    "key_name": "component::switchbot_cloud::exceptions::update_connection_error::message",
+    "source": "An error occurred while retrieving data from SwitchBot Cloud",
+    "target": "Ett fel inträffade när data hämtades från SwitchBot Cloud"
+  },
+  {
+    "translation_id": 10206020501,
+    "key_name": "component::roomba::config::step::reconfigure::data::host",
+    "source": "Host",
+    "target": "Värd"
+  },
+  {
+    "translation_id": 10206020565,
+    "key_name": "component::roomba::config::step::reconfigure::data_description::host",
+    "source": "The hostname or IP address of your Roomba or Braava.",
+    "target": "Värdnamnet eller IP-adressen till din Roomba eller Braava."
+  },
+  {
+    "translation_id": 10206215527,
+    "key_name": "component::switchbot::exceptions::model_not_determined_error::message",
+    "source": "Could not determine the model of Switchbot {sensor_type} with address {address} from its Bluetooth advertisements; an actively scanning Bluetooth adapter or proxy in range may be required: {reason}",
+    "target": "Det gick inte att fastställa modellen för Switchbot {sensor_type} med adressen {address} utifrån Bluetooth-annonseringar. En Bluetooth-adapter eller proxy som aktivt skannar och finns inom räckvidd kan krävas: {reason}"
+  },
+  {
+    "translation_id": 10206368221,
+    "key_name": "component::songpal::issues::deprecated_yaml_import_issue_cannot_connect::description",
+    "source": "Configuring {integration_title} using YAML is being removed, but the device could not be reached while importing your YAML configuration. Make sure the device is powered on and reachable and restart Home Assistant to try the import again, or remove the `{domain}` configuration from your `configuration.yaml` file and set up the integration from the UI.",
+    "target": "Konfiguration av {integration_title} med YAML tas bort, men det gick inte att nå enheten när din YAML-konfiguration importerades. Kontrollera att enheten är påslagen och går att nå och starta om Home Assistant för att försöka importera igen, eller ta bort konfigurationen `{domain}` från filen `configuration.yaml` och konfigurera integrationen från användargränssnittet."
+  },
+  {
+    "translation_id": 10206368285,
+    "key_name": "component::songpal::issues::deprecated_yaml_import_issue_cannot_connect::title",
+    "source": "The {integration_title} YAML configuration import failed",
+    "target": "Importen av YAML-konfigurationen för {integration_title} misslyckades"
+  },
+  {
+    "translation_id": 10210776061,
+    "key_name": "component::ouman_eh_800::entity::binary_sensor::circulation_pump::name",
+    "source": "Circulation pump",
+    "target": "Cirkulationspump"
+  },
+  {
+    "translation_id": 10210776125,
+    "key_name": "component::ouman_eh_800::entity::binary_sensor::relay::name",
+    "source": "Relay",
+    "target": "Relä"
+  },
+  {
+    "translation_id": 10262990818,
+    "key_name": "component::switcher_kis::exceptions::cannot_connect::message",
+    "source": "Unable to connect to {entity}.",
+    "target": "Det går inte att ansluta till {entity}."
+  },
+  {
+    "translation_id": 10262990883,
+    "key_name": "component::switcher_kis::exceptions::command_failed::message",
+    "source": "The command sent to {entity} was not successful.",
+    "target": "Kommandot som skickades till {entity} lyckades inte."
+  },
+  {
+    "translation_id": 10262990948,
+    "key_name": "component::switcher_kis::exceptions::device_update_timeout::message",
+    "source": "Device {device} did not send an update for {seconds} seconds",
+    "target": "Enheten {device} skickade ingen uppdatering på {seconds} sekunder"
+  },
+  {
+    "translation_id": 10262991013,
+    "key_name": "component::switcher_kis::exceptions::target_temperature_not_supported::message",
+    "source": "The current mode does not support setting the target temperature.",
+    "target": "Det aktuella läget stöder inte att ange måltemperatur."
+  },
+  {
+    "translation_id": 10266903112,
+    "key_name": "component::smlight::exceptions::firmware_version_already_installed::message",
+    "source": "Firmware version {version} is already installed on {device_name}.",
+    "target": "Firmwareversionen {version} är redan installerad på {device_name}."
+  },
+  {
+    "translation_id": 10266903177,
+    "key_name": "component::smlight::exceptions::firmware_version_not_found::message",
+    "source": "Firmware version {version} is not available for {device_name}.",
+    "target": "Firmwareversionen {version} är inte tillgänglig för {device_name}."
+  },
+  {
+    "translation_id": 10274292242,
+    "key_name": "component::powerfox::config::error::no_devices",
+    "source": "No devices were found in this Powerfox account.",
+    "target": "Inga enheter hittades i det här Powerfox-kontot."
+  },
+  {
+    "translation_id": 10274292307,
+    "key_name": "component::powerfox::exceptions::no_devices::message",
+    "source": "No devices were found in the Powerfox account.",
+    "target": "Inga enheter hittades i Powerfox-kontot."
+  },
+  {
+    "translation_id": 10279262206,
+    "key_name": "component::zoneminder::services::set_run_state::fields::id::description",
+    "source": "The host of the ZoneMinder server, as configured.",
+    "target": "Värden för ZoneMinder-servern enligt konfigurationen."
+  },
+  {
+    "translation_id": 10279262271,
+    "key_name": "component::zoneminder::services::set_run_state::fields::id::name",
+    "source": "Host",
+    "target": "Värd"
+  },
+  {
+    "translation_id": 10291217762,
+    "key_name": "component::touchline::exceptions::error_set_preset::message",
+    "source": "An error occurred while setting the preset mode.",
+    "target": "Ett fel inträffade när förinställt läge angavs."
+  },
+  {
+    "translation_id": 10291217827,
+    "key_name": "component::touchline::exceptions::error_set_temperature::message",
+    "source": "An error occurred while setting the temperature.",
+    "target": "Ett fel inträffade när temperaturen angavs."
+  },
+  {
+    "translation_id": 10291229722,
+    "key_name": "component::samsungtv::exceptions::send_command_failed::message",
+    "source": "Unable to send command to {host}.",
+    "target": "Det går inte att skicka kommandot till {host}."
+  },
+  {
+    "translation_id": 10291229787,
+    "key_name": "component::samsungtv::exceptions::upnp_not_available::message",
+    "source": "Unable to set volume level on {host}, as UPnP services are not available.",
+    "target": "Det går inte att ange volymnivån på {host} eftersom UPnP-tjänster inte är tillgängliga."
+  },
+  {
+    "translation_id": 10345878249,
+    "key_name": "component::yardian::exceptions::cannot_connect::message",
+    "source": "Failed to connect",
+    "target": "Det gick inte att ansluta"
+  },
+  {
+    "translation_id": 10345878314,
+    "key_name": "component::yardian::exceptions::invalid_auth::message",
+    "source": "Invalid authentication",
+    "target": "Ogiltig autentisering"
+  }
+]
