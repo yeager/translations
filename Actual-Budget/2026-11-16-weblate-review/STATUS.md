@@ -586,3 +586,9 @@ Eight retirement-model labels were reviewed and accepted through the API. Four
 clearer alternatives were submitted for the age label, two run-status labels
 and the Spending tab, avoiding an em dash where the source has a hyphen. They
 remain pending project acceptance.
+
+## Reviewed suggestions batch 79
+
+Twenty-one withdrawal, simulation and query-preset strings were reviewed and
+accepted through the API. `Årliga utgifter` and the two date-range labels with
+`under` were submitted as clearer alternatives and await project acceptance.
