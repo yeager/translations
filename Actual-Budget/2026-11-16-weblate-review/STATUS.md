@@ -917,3 +917,9 @@ The detailed annual-withdrawal-order explanation was reviewed as a single
 contextual unit. All fourteen markup placeholders and the established
 investment terminology were retained. The improved Swedish wording has a
 positive review vote and awaits project acceptance.
+
+## Reviewed suggestions batch 126
+
+The investment-pot access-age explanation was reviewed with its markup
+preserved. The revised Swedish phrasing has a positive review vote and awaits
+project acceptance.
