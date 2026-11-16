@@ -1,0 +1,8 @@
+[
+  {"unit":193853674,"target":"Kategorinamn (sträng). Kategorins läsbara namn.\n\nExempel: =IF(category_name=\"Livsmedel\", \"Mat\", \"Övrigt\")"},
+  {"unit":193853682,"target":"Ursprungligt importerat namn på betalningsmottagaren från bankimporten. Innehåller den råa texten före matchning.\n\nExempel: =LEFT(imported_payee, 10) för att få de första 10 tecknen"},
+  {"unit":193853683,"target":"Betalningsmottagar-ID (sträng). Betalningsmottagarens ID.\n\nExempel: =CONCATENATE(\"Betalning till \", payee)"},
+  {"unit":193853684,"target":"Betalningsmottagarens namn (sträng). Betalningsmottagarens läsbara namn.\n\nExempel: =UPPER(payee_name) eller =CONCATENATE(\"Betalning till \", payee_name)"},
+  {"unit":193853690,"target":"Transaktionsdatum i formatet YYYY-MM-DD. Används med datumfunktioner.\n\nExempel: =TEXT(date, \"MMMM\") för att få månadens namn"},
+  {"unit":193853691,"target":"Transaktionens antecknings- eller memotext. Används för strängoperationer.\n\nExempel: =UPPER(notes) för att omvandla till versaler"}
+]

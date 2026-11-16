@@ -836,3 +836,11 @@ Five formula-field descriptions and one plural budget-average label were
 reviewed and accepted through the API. Formula functions, variable names,
 comparisons and the `TRUE`/`FALSE` tokens were retained exactly; only
 human-readable output strings and prose were translated.
+
+## Reviewed suggestions batch 115
+
+Six additional formula-field descriptions for categories, payment recipients
+and transaction data were reviewed. Code-level identifiers, formula functions
+and the `YYYY-MM-DD` format token are unchanged. Three translations were
+accepted and read back with the required paragraph breaks; three revised
+alternatives received positive review votes and await project acceptance.
