@@ -661,3 +661,11 @@ accepted through the API. Two fee and tax descriptions received alternatives
 that replace em dashes with Swedish full-stop and colon constructions because
 their source strings use hyphens, not em dashes. Those alternatives await
 project acceptance; the ambiguous `First earnings` label remains deferred.
+
+## Reviewed suggestions batch 89
+
+Three Monte Carlo withdrawal summaries were reviewed and accepted through the
+API. Three alternatives for fixed costs, an unlucky run and a live balance were
+submitted without em dashes because their source strings use hyphens, not em
+dashes. The tax-bands explanation remains deferred for separate Swedish tax
+terminology review.
