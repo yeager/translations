@@ -755,3 +755,10 @@ reviewed through the API. The batch preserves `TRUE`, OpenID and query syntax,
 and uses `Fråga` consistently for Actual's formula/query feature. Two targets
 were accepted; the other eight received positive review votes and remain
 pending project acceptance.
+
+## Reviewed suggestions batch 100
+
+Fifteen investment-projection, chart, budget-analysis and location-management
+labels were reviewed through the API. The established financial terms
+`insättning`, `avkastning`, `slutsaldo` and `överspendering` are used
+consistently. All fifteen targets were accepted and read back successfully.
