@@ -15,10 +15,10 @@ Slutkontrollen returnerar 33 poster i Lokalises filter för oöversatta
 
 En senare API-kontroll med Lokalises språk-ID-filter visade 47 markerade
 Core-poster och 11 markerade frontendposter. Frontendposterna hade verklig
-källtext och är nu sparade samt återlästa. Coreposterna ska först kontrolleras
-mot aktuell engelsk källa och nyckelstatus. Det går därför inte att påstå att
-hela HA-kön är klar. Android, iOS och frontend har 0 oöversatta svenska poster
-i den nya kontrollen.
+källtext och är nu sparade samt återlästa. Coreposterna med verklig engelsk
+källtext är också sparade och återlästa. De 33 återstående Coreposterna har
+tom källtext eller tomma pluralstrukturer och ska inte översättas. Android,
+iOS och frontend har 0 oöversatta svenska poster i den nya kontrollen.
 
 Detaljer om den äldre slutgranskningen och den senare avvikelsen finns i
 [slutgranskningen](Lokalise/2026-11-16/core-empty-source-audit/README.md)
