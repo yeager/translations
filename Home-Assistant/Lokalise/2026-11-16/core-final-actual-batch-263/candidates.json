@@ -1,0 +1,140 @@
+[
+  {
+    "translation_id": 10230594704,
+    "key_name": "component::tedee::exceptions::authentication_failed_transient::message",
+    "source": "The bridge rejected the local access token, retrying",
+    "target": "Bryggan avvisade den lokala åtkomsttokenen. Försöker igen"
+  },
+  {
+    "translation_id": 10241595578,
+    "key_name": "component::mobile_app::config::abort::already_configured",
+    "source": "Device is already configured",
+    "target": "Enheten är redan konfigurerad"
+  },
+  {
+    "translation_id": 10249974357,
+    "key_name": "component::crownstone::issues::integration_removed::description",
+    "source": "The Crownstone integration has been removed from Home Assistant because the Crownstone cloud service it depended on is no longer available.\n\nTo resolve this issue, please remove the (now defunct) integration entries from your Home Assistant setup. [View your existing Crownstone integration entries]({entries}).",
+    "target": "Crownstone-integrationen har tagits bort från Home Assistant eftersom molntjänsten Crownstone som den var beroende av inte längre är tillgänglig.\n\nÅtgärda problemet genom att ta bort de nu nedlagda integrationsposterna från din Home Assistant-installation. [Visa dina befintliga Crownstone-integrationsposter]({entries})."
+  },
+  {
+    "translation_id": 10249974421,
+    "key_name": "component::crownstone::issues::integration_removed::title",
+    "source": "The Crownstone integration has been removed",
+    "target": "Crownstone-integrationen har tagits bort"
+  },
+  {
+    "translation_id": 10252311297,
+    "key_name": "component::renault::entity::sensor::inside_temperature::name",
+    "source": "Inside temperature",
+    "target": "Innertemperatur"
+  },
+  {
+    "translation_id": 10255673974,
+    "key_name": "component::sun::device::sun::name",
+    "source": "Sun",
+    "target": "Sol"
+  },
+  {
+    "translation_id": 10266078780,
+    "key_name": "component::bayesian::issues::mirrored_observation::description",
+    "source": "The Bayesian helper {name} has two complementary observations for `{entity}`. The probability is also updated when an observation does not match, so only one of them is needed. Please remove one of the two observations from the helper.",
+    "target": "Den bayesianska hjälparen {name} har två komplementära observationer för `{entity}`. Sannolikheten uppdateras även när en observation inte stämmer, så endast en av dem behövs. Ta bort en av de två observationerna från hjälparen."
+  },
+  {
+    "translation_id": 10266078845,
+    "key_name": "component::bayesian::issues::mirrored_observation::title",
+    "source": "Redundant mirrored observations in {name}",
+    "target": "Överflödiga komplementära observationer i {name}"
+  },
+  {
+    "translation_id": 10266080314,
+    "key_name": "component::indi_allsky::exceptions::config_entry_not_found::message",
+    "source": "The INDI Allsky configuration entry could not be found or is not loaded.",
+    "target": "Konfigurationsposten för INDI Allsky kunde inte hittas eller är inte inläst."
+  },
+  {
+    "translation_id": 10266080379,
+    "key_name": "component::indi_allsky::exceptions::incomplete_media_identifier::message",
+    "source": "The media identifier is invalid or incomplete.",
+    "target": "Medieidentifieraren är ogiltig eller ofullständig."
+  },
+  {
+    "translation_id": 10266822856,
+    "key_name": "component::fitbit::issues::integration_removed::description",
+    "source": "The Fitbit integration has been removed from Home Assistant.\n\nOn November 2, 2026, Google permanently shut down the legacy Fitbit Web API ([Fitbit Web API Migration Guide]({migration_guide})). Because legacy Fitbit OAuth credentials and tokens do not carry over, existing entries can no longer sync data or re-authenticate.\n\nTo resolve this issue:\n1. Set up the [Google Health integration]({google_health_docs}), which replaces the Fitbit integration using the Google Health API.\n2. Remove your defunct [Fitbit integration entries]({entries}).\n3. Optionally remove any unused Fitbit OAuth credentials in [Application credentials]({application_credentials}).\n\nOnce all Fitbit entries are removed, this issue will automatically clear.",
+    "target": "Fitbit-integrationen har tagits bort från Home Assistant.\n\nDen 2 november 2026 stängde Google permanent ner det äldre Fitbit Web API ([migreringsguide för Fitbit Web API]({migration_guide})). Eftersom äldre Fitbit OAuth-inloggningsuppgifter och token inte följer med kan befintliga poster inte längre synkronisera data eller autentisera på nytt.\n\nÅtgärda problemet så här:\n1. Konfigurera [Google Health-integrationen]({google_health_docs}), som ersätter Fitbit-integrationen med Google Health API.\n2. Ta bort dina nedlagda [Fitbit-integrationsposter]({entries}).\n3. Du kan även ta bort oanvända Fitbit OAuth-inloggningsuppgifter i [programinloggningsuppgifter]({application_credentials}).\n\nNär alla Fitbit-poster har tagits bort försvinner problemet automatiskt."
+  },
+  {
+    "translation_id": 10266822921,
+    "key_name": "component::fitbit::issues::integration_removed::title",
+    "source": "The Fitbit integration has been removed",
+    "target": "Fitbit-integrationen har tagits bort"
+  },
+  {
+    "translation_id": 10273699903,
+    "key_name": "component::chirpstack::config::error::http2_error",
+    "source": "Unable to connect using HTTP/2. Check that the server and reverse proxy support gRPC.",
+    "target": "Det går inte att ansluta med HTTP/2. Kontrollera att servern och den omvända proxyn stöder gRPC."
+  },
+  {
+    "translation_id": 10273699968,
+    "key_name": "component::chirpstack::config::error::tls_certificate_error",
+    "source": "Unable to verify the server's TLS certificate. Check that it is trusted and matches the server address.",
+    "target": "Det går inte att verifiera serverns TLS-certifikat. Kontrollera att det är betrott och stämmer överens med serveradressen."
+  },
+  {
+    "translation_id": 10273725943,
+    "key_name": "component::ifttt::services::trigger::fields::target::description",
+    "source": "The names of the configured API keys to send the event to. Sends the event to all keys if this field is omitted.",
+    "target": "Namnen på de konfigurerade API-nycklar som händelsen ska skickas till. Händelsen skickas till alla nycklar om fältet utelämnas."
+  },
+  {
+    "translation_id": 10273726008,
+    "key_name": "component::ifttt::services::trigger::fields::target::name",
+    "source": "Target",
+    "target": "Mål"
+  },
+  {
+    "translation_id": 10288792956,
+    "key_name": "component::greencell::entity::switch::charging::name",
+    "source": "Charging",
+    "target": "Laddning"
+  },
+  {
+    "translation_id": 10288793021,
+    "key_name": "component::greencell::exceptions::execute_not_allowed::message",
+    "source": "The device does not allow Home Assistant to execute commands. Enable it in the device settings.",
+    "target": "Enheten tillåter inte att Home Assistant kör kommandon. Aktivera det i enhetens inställningar."
+  },
+  {
+    "translation_id": 10291049449,
+    "key_name": "component::ptdevices::exceptions::update_failed::message",
+    "source": "Failed to update PTDevices data: {error}",
+    "target": "Det gick inte att uppdatera PTDevices-data: {error}"
+  },
+  {
+    "translation_id": 10291246967,
+    "key_name": "component::weheat::entity::binary_sensor::on_off_thermostat_state::name",
+    "source": "On/off thermostat",
+    "target": "På/av-termostat"
+  },
+  {
+    "translation_id": 10293334592,
+    "key_name": "component::acaia::options::step::init::data::idle_timeout",
+    "source": "Idle disconnect timeout",
+    "target": "Tidsgräns för frånkoppling vid inaktivitet"
+  },
+  {
+    "translation_id": 10293334657,
+    "key_name": "component::acaia::options::step::init::data_description::idle_timeout",
+    "source": "Disconnect from the scale once its weight has not changed for this long, so that it can turn itself off. Home Assistant reconnects when the scale is turned back on after being off for more than 30 seconds. Set to 0 to stay connected.",
+    "target": "Koppla från vågen när dess vikt inte har ändrats under den här tiden, så att den kan stänga av sig själv. Home Assistant ansluter igen när vågen slås på efter att ha varit avstängd i mer än 30 sekunder. Ange 0 för att förbli ansluten."
+  },
+  {
+    "translation_id": 10345532484,
+    "key_name": "component::xiaomi_miio::services::switch_set_power_price::fields::price::description",
+    "source": "Power price.",
+    "target": "Elpris."
+  }
+]
