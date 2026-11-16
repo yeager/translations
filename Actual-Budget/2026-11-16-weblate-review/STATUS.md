@@ -1016,3 +1016,10 @@ Twelve query, synchronization, server setup, onboarding and reconciliation
 strings were reviewed. Formula calls, inline markup and the three source em
 dashes were preserved. Existing matching suggestions covered three targets;
 the remaining nine await project acceptance.
+
+## Reviewed suggestions batch 143
+
+Eight onboarding, tracking-budget, investment-pot, account-attention and
+navigation strings were reviewed. The plural account alert retains both Swedish
+forms; four matching suggestions already existed and the other four await
+project acceptance.
