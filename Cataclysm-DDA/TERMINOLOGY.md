@@ -4,6 +4,7 @@
 | --- | --- | --- | --- |
 | Autodoc | Autodoc | `src/activity_actor.cpp`, medicinsk automat | Egennamn på spelobjekt, översätts inte. Böjs som `Autodocs`. |
 | bionic | bionik | Installation och borttagning i Autodoc | Sakterm i spelets medicinska gränssnitt. |
+| bionic power | bionisk energi | Resurs för bionik | Särskilj från installerad `bionik`; avser energi som förbrukas. |
 | `bionic_id` | `bionic_id` | Felmeddelande i källkod | Kodidentifierare, översätts inte. |
 | achievement | prestation | `src/achievement.cpp` | Avser spelets uppnådda prestationer. |
 | watcher | övervakare | Internt fel i prestationer | Teknisk betydelse i källans felmeddelande. |
@@ -23,3 +24,7 @@
 | reload (container) | fylla på | Vattentät behållare | Använd inte `ladda` när innehållet är vätska. |
 | reload (weapon) | ladda | Vapen och ammunition | `ladda` är korrekt i vapen- och batterikontext. |
 | field (overmap terrain) | fält | Övervärldsterräng | Inte åker eller område när termen är det synliga terrängnamnet. |
+| pulp (corpses) | krossa lik | Hindrar lik från att återuppstå | Spelmekanik, inte lånordet `pulp`. |
+| refit | anpassa passformen | Reparation av kläder och utrustning | Avser föremålets passform, inte ommontering av teknisk utrustning. |
+| vehicle part | fordonsdel | Fordonsförvaring | Vid dynamiska namn: `%3$s på %2$s`, inte en engelsk genitivkedja. |
+| source (sorting) | ursprungsplats | Automatisk föremålssortering | Platsen där föremålet hämtades. |
