@@ -709,3 +709,10 @@ reviewed through the API. The batch preserves product names, placeholders and
 the established `Fäll ut`, `Taggurval` and `Engångsuttag` controls. Acceptance
 state was read back after the API votes: the withdrawal-order explanation was
 accepted, while the other sixteen proposals remain pending project acceptance.
+
+## Reviewed suggestions batch 95
+
+Twenty-three browser-storage and tag-management labels were reviewed through
+the API. The batch preserves `OPFS`, `{{color}}` and `{{name}}`, and uses the
+existing `tagg` terminology consistently. All twenty-three received positive
+review votes and remain pending project acceptance after readback.
