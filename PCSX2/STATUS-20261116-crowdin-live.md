@@ -69,3 +69,9 @@ tekniska sammansättningar. Det fann en verklig satsavvikelse i statusen för
 Crowdin-översättning 450331. Deltafil och granskning finns i
 `pcsx2-sv-rich-presence-status-20261116.xliff` och
 `2026-11-16-qa-sample-05`.
+
+Fem grafikrelaterade strängar ersatte svengelska ord med svenska termer för
+oskärpa, återläsning, förinläsning och radsprång. De sparades och återlästes
+som Crowdin-översättningarna 450333–450341. Deltafil och kontroller finns i
+`pcsx2-sv-graphics-terminology-20261116.xliff` och
+`2026-11-16-graphics-terminology`.
