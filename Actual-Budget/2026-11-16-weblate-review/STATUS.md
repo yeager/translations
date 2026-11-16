@@ -243,3 +243,8 @@ reviewed and accepted through the API.
 The warning about revoking a named integration key was reviewed and accepted
 through the API. The `{{name}}` placeholder and data-retention consequence are
 preserved.
+
+## Reviewed suggestions batch 31
+
+The budget-storage warning was reviewed and accepted through the API. The
+`{{id}}` placeholder and the assurance that no data was deleted are preserved.
