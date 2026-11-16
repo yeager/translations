@@ -398,3 +398,10 @@ through the API. The three transfer placeholders are preserved. An unvoted
 alternative improves the widget-save failure message to `Det gick inte att
 spara`. Query terminology, currency names, schedule wording and all-time
 filter wording remain under distinct review rather than being auto-accepted.
+
+## Suggestion-vote update
+
+On 2026-11-16, nine archived reviewer proposals each had an existing positive
+vote. Following explicit authorization, each received the reviewer's positive
+vote through the API. Weblate returned `voted` for all nine; none was reported
+as accepted by that vote call, so they remain pending project acceptance.
