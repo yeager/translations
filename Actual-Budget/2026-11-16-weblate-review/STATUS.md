@@ -988,3 +988,10 @@ amount placeholders, plus inline markup, were retained. The two notification
 strings were accepted and read back. The automation suggestions await project
 acceptance; the yearly interval deliberately uses distinct Swedish plural forms
 to avoid an identical-plural false positive.
+
+## Reviewed suggestions batch 139
+
+Seven script, reconciliation, FIFO and template-migration strings were
+reviewed. The existing Swedish proposals for the reconciliation warnings use
+the more idiomatic “ur balans” and remain the preferred targets. One short UI
+label was accepted and read back; the others await project acceptance.
