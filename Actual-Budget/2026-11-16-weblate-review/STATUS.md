@@ -355,3 +355,10 @@ Twelve concise simulation-setting and result UI strings were accepted through
 the API. The `{{age}}` placeholder is preserved. The age-access, spending-rule
 and capital-preservation explanations remain pending for specific financial UI
 context review.
+
+## Reviewed suggestions batch 49
+
+Fourteen values, transaction-range, export, budget and server-sync strings were
+accepted through the API. The `<1>` markup is preserved. A more idiomatic,
+unvoted alternative, `Transaktioner genom tiderna`, was submitted for the
+all-time transaction filter.
