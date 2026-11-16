@@ -881,3 +881,10 @@ and read back successfully.
 Ten archive-import validation and recovery messages were reviewed and accepted
 through the API. Quoted `{{entryName}}`, `{{maxSizeMB}}`, URLs and references
 to Actual were preserved and read back successfully.
+
+## Reviewed suggestions batch 121
+
+Eight server-onboarding and reconciliation labels were reviewed through the
+API. Markup around the setup and guided-tour links was preserved. Four targets
+were accepted and read back; four already well-contextualized targets received
+positive review votes and await project acceptance.
