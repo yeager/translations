@@ -1,10 +1,10 @@
 # Väntande upstream-importer
 
-> **Aktuell sammanfattning, 2026-11-11.** Läs detta avsnitt före den
+> **Aktuell sammanfattning, 2026-11-16.** Läs detta avsnitt före den
 > historiska detaljloggen nedan. En post i detaljloggen beskriver det läge som
 > gällde vid datumet i posten och är inte i sig bevis för att samma fil ännu
 > väntar på uppladdning. De aktuella Crowdin-batcherna för RetroArch,
-> RetroAchievements och RPCS3 står i avsnittet direkt nedan.
+> RetroAchievements, RPCS3 och PCSX2 står i avsnittet direkt nedan.
 
 ## Inskickat, väntar på upstream-granskning eller release
 
@@ -17,12 +17,14 @@
   hanteras separat, men någon extern svensk bidragskanal är inte
   dokumenterad. Se
   [statusen](Stirling-PDF/STATUS-20261116-pr7833-mcp-auth.md).
-- **PCSX2:** en femsträngars XLIFF-integritetsbatch importerades via Crowdin
-  den 13 november 2026 och återlästes via API. Två svenska förslag skapades
-  (47 ord); tre strängar hoppades över eftersom korrekta, identiska måltexter
-  redan fanns. Inga QA-kontroller eller dolda strängar orsakade överhopp.
-  Förslagen väntar på eventuell Crowdin-granskning, godkännande och release;
-  se [integritetsstatusen](PCSX2/STATUS-20261113-xliff-integrity-repair.md).
+- **PCSX2:** Crowdin visar 5 338 av 5 338 svenska fraser översatta, men
+  0 % formellt godkända. Den 16 november sparades och återlästes två
+  riktade rättningar: `"Challenge"-läget` (översättning 450299) och
+  `NTSC-B (Brasilien)` (450301). Tre ytterligare avvikelser är verifierade
+  som felaktiga senare förslag som konkurrerar med redan befintliga korrekta
+  förslag; dubblettskyddet hindrar ett nytt inskick och ingen röst eller
+  historisk översättning ändrades. Se
+  [aktuell status](PCSX2/STATUS-20261116-crowdin-live.md).
 - **Plex TV:** den enda nya oöversatta strängen i huvudresursen `en.yml`
   skickades via Transifex API och återlästes den 13 november 2026. Resursen
   är nu **1 712/1 712** svenska strängar och filtret för oöversatta ger 0
