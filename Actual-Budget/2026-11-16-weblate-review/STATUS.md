@@ -1386,3 +1386,6 @@ functional and visual regression shards, CodeQL, lint, typecheck and the
 project's migration checks. The PR remains open rather than merge-ready:
 CodeRabbit retains a change-requested review for the documented stable
 identity/design issue. No human maintainer review or merge has occurred.
+The open automated review thread has been answered with the issue #9570 design
+reference; it remains for maintainer decision rather than being incorrectly
+resolved as a UI-only change.
