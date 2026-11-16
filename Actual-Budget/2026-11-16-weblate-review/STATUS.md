@@ -716,3 +716,12 @@ Twenty-three browser-storage and tag-management labels were reviewed through
 the API. The batch preserves `OPFS`, `{{color}}` and `{{name}}`, and uses the
 existing `tagg` terminology consistently. All twenty-three received positive
 review votes and remain pending project acceptance after readback.
+
+## Reviewed suggestions batch 96
+
+One retirement string was accepted through the API. Three browser-storage and
+goal strings received positive review votes and remain pending. Four alternatives
+were submitted for unspent income, an extra withdrawal and browser-recovery
+messages. They retain all placeholders and markup, avoid em dashes where the
+sources use hyphens, use `utgifter` for financial spending in explanatory prose,
+and await project acceptance.
