@@ -320,3 +320,11 @@ Twelve account-group, release and local-folder UI strings were accepted through
 the API. The `{{version}}` placeholder and the Actual product name are
 preserved. The account-identifier formula documentation remains for separate
 technical terminology review.
+
+## Reviewed suggestions batch 44
+
+Four onboarding strings were accepted through the API, with `{{appName}}` and
+`<1>`/`<4>` markup preserved. A complete, unvoted alternative replaces the
+English loanword in the tracking-budget explanation with `uppföljningsbudget`.
+The tour and investment-pot wording remains pending because it needs separate
+UI terminology review.
