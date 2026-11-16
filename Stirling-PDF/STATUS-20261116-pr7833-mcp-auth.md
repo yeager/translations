@@ -27,6 +27,10 @@ texten. Källtexten använder inte tankstreck där.
 En engelsk uppföljning finns i PR:en. Efter push är den ursprungliga
 CodeRabbit-tråden automatiskt markerad som inaktuell.
 
+En efterföljande GitHub-kontroll visar inga aktuella, olösta radkommentarer.
+CodeRabbit-kontrollen på den senaste committen är dock **överhoppad**, inte
+godkänd. Det är därför inte ett nytt automatiskt granskningsgodkännande.
+
 ## Upstreamstatus
 
 Ändringen är pushad till PR-grenen. PR:n är fortfarande öppen och väntar på
