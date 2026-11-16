@@ -206,3 +206,8 @@ were deferred for separate plural and terminology review.
 The encoding label and unchanged `ISO-8859-2` format name were reviewed and
 accepted through the API. The auto-detection label was deferred for UI-context
 review.
+
+## Reviewed suggestions batch 24
+
+Three savings-pot, report-widget and theme strings were reviewed and accepted
+through the API.
