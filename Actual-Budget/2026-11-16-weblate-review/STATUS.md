@@ -1372,3 +1372,8 @@ content and avoids saving anything when it is unchanged. An edited tip remains
 user-authored content. The focused test, formatter/linter, production build,
 diff check and staged-patch Gitleaks scan passed locally. The revised PR head
 is submitted and its replacement upstream CI run is pending.
+
+The stable-identity limitation is also recorded in upstream issue #9570 for
+maintainer design review. A future durable fix needs synchronized default
+metadata and a conservative migration for untouched existing dashboards; it
+must not infer default provenance from a title alone.
