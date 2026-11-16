@@ -287,3 +287,10 @@ Thirteen update, budget-average and investment UI strings were accepted through
 the API. The `{{displayMonth}}`, `{{months}}`, `{{share}}` and `{{mean}}`
 placeholders are preserved. Two financial-planning explanations remain pending
 because their terminology and punctuation need separate contextual review.
+
+## Reviewed suggestions batch 39
+
+Twelve investment, banking and export UI strings were checked in current source
+and accepted through the API. The `{{name}}`, `{{reason}}` and `<5>` markup
+are preserved. The source label `Auto` and two financial-planning strings were
+left for more specific terminology review.
