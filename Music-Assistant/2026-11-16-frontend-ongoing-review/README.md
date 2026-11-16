@@ -6,7 +6,7 @@ Gränssnittets 2 880 svenska strängar granskas rad för rad. Detta underlag
 beskriver endast det arbete som är färdigt och sparat hittills; det innebär
 inte att hela komponenten är färdiggranskad.
 
-802 strängar har rättats och återlästs via Lokalise API. Rättningarna omfattar
+815 strängar har rättats och återlästs via Lokalise API. Rättningarna omfattar
 bland annat inläsning och hämtning, svenska benämningar för tillägg, mål i
 stället för destination, en felkopplad mobilvytext, nollbreddsmellanslag och
 felaktig engelskpåverkad terminologi. Den senaste genomgången omfattar också
