@@ -406,6 +406,12 @@ vote. Following explicit authorization, each received the reviewer's positive
 vote through the API. Weblate returned `voted` for all nine; none was reported
 as accepted by that vote call, so they remain pending project acceptance.
 
+Following explicit authorization, nine competing proposals were also given a
+negative vote where an archived reviewer proposal was concretely better:
+`Fäll ut`, `Nydesignat`, `uppföljningsbudget`, `Transaktioner genom tiderna`,
+`Genomsnittliga utgifter`, `det högsta belopp` and `Det gick inte att spara`.
+Weblate returned `voted` for each negative-vote call.
+
 ## Reviewed suggestions batch 55
 
 Sixteen filter, transaction-status, infopanel and custom-theme UI strings were
