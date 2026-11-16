@@ -27,3 +27,11 @@ credential was located.
 Remaining Swedish work is substantial: 1,402 unfinished units still have
 existing suggestions and must be reviewed individually rather than bulk
 accepted.
+
+## Reviewed suggestions batch 1
+
+Ten existing proposals were reviewed against their English source, terminology
+and placeholders. Nine received a positive API vote and were accepted by
+Weblate. Readback of all nine units shows state `20` with the reviewed Swedish
+target and `has_suggestion: false`. The `All time` proposal was voted on but
+remains subject to the component's voting workflow.
