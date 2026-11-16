@@ -56,6 +56,8 @@ Updated: 2026-11-15.
 | noise gate | brusgrind | Generic audio-processing term in Store Page copy; do not retain the English term. |
 | VST plugin | VST-insticksmodul | Use consistently for VST plug-ins in OBS user-facing text. |
 | Dock | flytande fönster | Established OBS Swedish UI term; retain it in user-facing store copy as well. |
+| track matte | spårmatta | Video-compositing term in transition settings. |
+| luma wipe | lumaövertoning | Named luminance-based transition. |
 
 ## Style decisions
 
