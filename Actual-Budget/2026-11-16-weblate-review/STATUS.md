@@ -228,3 +228,7 @@ translation state.
 Three one-off withdrawal labels and explanations were reviewed and accepted
 through the API. The batch preserves requested, gross, tax and net placeholders
 and the arithmetic symbols.
+
+## Reviewed suggestions batch 28
+
+The `Add key` UI action was reviewed and accepted through the API.
