@@ -1330,3 +1330,18 @@ The fresh complete Weblate export contains 3,073 keys and parses as JSON.
 `l10n-lint` now reports only the known source-schema mismatch for
 `Automatically rename these payees in the future`: the current English source
 has one singular key while Weblate has the legacy `_one` and `_other` pair.
+
+## Reports dashboard i18n upstream PR
+
+Local browser verification established that several visible English Reports
+dashboard labels were not absent Swedish Weblate targets. They were persisted
+English defaults (`Main`, the summary-card names, spending-card names and the
+calendar-card name) and were rendered without passing through i18n.
+
+[actualbudget/actual#9571](https://github.com/actualbudget/actual/pull/9571)
+adds extractable source keys and translates the fixed built-in name set at
+each display surface: cards, headers, selectors and dashboard pickers. Names
+outside that fixed set remain unchanged. The PR includes a focused unit test;
+the extraction, test, production browser build, formatter/linter, diff check
+and a staged-patch Gitleaks scan passed locally. It is open and awaiting
+upstream CI and review; it is neither merged nor released.
