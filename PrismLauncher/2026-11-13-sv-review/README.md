@@ -18,3 +18,10 @@ fanns i de kontrollerade nyckelringsposterna. Den enda funna generella
 Weblate-token som kunde testas avvisades dessutom av Hosted Weblate med HTTP
 401 den 13 november 2026. Projektets etablerade kanal är
 https://hosted.weblate.org/projects/prismlauncher/launcher/.
+
+## Senast verifierade åtkomststatus
+
+Kontrollerad 16 november 2026: den anslutna Weblate-klienten returnerar inga
+åtkomliga projekt. Den kan därför inte användas för att läsa tillbaka eller
+skicka denna delta. Ingen upstreamändring har gjorts; de tre lokalt granskade
+strängarna ligger kvar i arkivet tills en behörig Hosted Weblate-session finns.
