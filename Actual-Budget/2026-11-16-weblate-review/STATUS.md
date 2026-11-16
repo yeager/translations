@@ -801,3 +801,8 @@ the numeric markup and month placeholders.
 ## Reviewed suggestions batch 106
 
 Five early-spending and target controls were reviewed through the API.
+
+## Reviewed suggestions batch 107
+
+Seven balance-forecast, running-total and time-range labels were reviewed and
+accepted through the API.
