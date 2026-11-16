@@ -23,6 +23,8 @@
 | data directory | datakatalog | Actual storage location. |
 | load (verb) | läs in | Read data, a report or a backup into the application. Avoid the vague UI loan translation `ladda` in this sense. |
 | loading | läser in / inläsning | Use a verb for live progress text and `inläsning` where a noun is required. |
+| spend / spending (noun) | utgift / utgifter | A cost, an expense total or a report metric. Avoid `spenderande` and `spenderat` as noun labels. |
+| spend (verb) | använda pengar / göra av med pengar | Choose the idiomatic verb form from the sentence; do not mechanically use `spendera`. |
 | server sync | serversynkronisering | Synchronization with Actual's server. |
 | end-to-end encryption | totalsträckskryptering | Established Swedish security term. |
 

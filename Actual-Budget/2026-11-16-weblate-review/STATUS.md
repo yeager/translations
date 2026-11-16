@@ -1134,6 +1134,30 @@ with `permission_denied`: this project requires two-factor authentication.
 The account must enable 2FA in its Hosted Weblate profile before it can supply
 the independent review votes required by the component.
 
+## Spending terminology batch 159
+
+Four existing targets containing *spend* or *spending* were reviewed in their
+budget and explanatory contexts. The noun labels use `utgifter`; prose uses
+`använder pengar` where a verb is needed. The envelope explanation also
+corrects `virtuella brev` to `virtuella kuvert` and replaces the non-idiomatic
+`överspenderar` with `överskrida budgeten`. Each proposal preserves the
+component's React-style markup and is submitted separately rather than
+modifying the raw export.
+
+The four proposals were created through the Hosted Weblate API on 2026-11-16.
+After 2FA was enabled on the separate reviewer account, its independent
+positive votes accepted all four. API readback confirms state `20`, no pending
+suggestion, and the exact targets recorded in
+`actual-sv-spending-terminology-batch-159.json`.
+
+## Second-reviewer API status update
+
+The separate reviewer account completed 2FA on 2026-11-16. Six previously
+reviewed proposals (`Beskär intervall`, `Srilankesisk rupie`, `Uzbekisk sum`,
+`Frågedefinitioner`, `Returnerar TRUE om värdet är ett fel.` and `Vem betalade
+du till?`) then received an independent positive API vote and were accepted.
+This supersedes the earlier temporary 2FA blocker above.
+
 ## Published-resource coverage correction
 
 The local runtime test on 2026-11-16 measured the current upstream resources
