@@ -31,6 +31,12 @@ En efterföljande GitHub-kontroll visar inga aktuella, olösta radkommentarer.
 CodeRabbit-kontrollen på den senaste committen är dock **överhoppad**, inte
 godkänd. Det är därför inte ett nytt automatiskt granskningsgodkännande.
 
+En ny uttrycklig `@coderabbitai review`-begäran den 15 november slutfördes
+utan nya kommentarer, men boten uppger att den bara gör inkrementell
+granskning och inte granskar redan behandlade commits på nytt. Den kan därför
+inte styrka en full granskning av commit `220c4cc0`; mänsklig
+upstreamgranskning är fortsatt avgörande.
+
 ## Upstreamstatus
 
 Ändringen är pushad till PR-grenen. PR:n är fortfarande öppen och väntar på
