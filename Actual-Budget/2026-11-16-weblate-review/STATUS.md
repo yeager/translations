@@ -1215,6 +1215,15 @@ pengar`. This includes the budget-tour explanation, Age of Money, report
 labels, balance guidance and withdrawal wording. All tags and placeholders
 were compared before submission.
 
+## Untranslated batch 167
+
+The final 25 untranslated units were reviewed and accepted. They cover browser
+storage migration, local-data recovery, tags, colour controls and date-based
+goals. Some matching Swedish suggestions had already been submitted; they were
+read back, independently voted and accepted rather than duplicated. Weblate
+now reports 3,012 of 3,017 translated units (99.8%); the five remaining units
+are fuzzy, not untranslated.
+
 ## Published-resource coverage correction
 
 The local runtime test on 2026-11-16 measured the current upstream resources
