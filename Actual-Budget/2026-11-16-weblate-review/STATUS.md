@@ -71,3 +71,9 @@ the API. `Returnerar TRUE om värdet är något fel.` was not endorsed; the
 more idiomatic proposal `Returnerar TRUE om värdet är ett fel.` is pending
 community review. API readback confirms state `20` and no remaining
 suggestion for every accepted unit.
+
+## Reviewed suggestions batch 7
+
+Fourteen short import, scheduling, retirement and transaction UI strings were
+reviewed line by line and accepted through the API. The accepted wording uses
+the existing `schema` terminology and retains UI punctuation and `%` markers.
