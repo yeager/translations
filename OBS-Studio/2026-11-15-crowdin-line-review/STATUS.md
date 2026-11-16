@@ -223,6 +223,8 @@ The archive now contains 342 prepared corrections across all reviewed OBS compon
 
 2026-11-16: reviewed page 26 of the live `App/Core` component line by line in Crowdin (1,300 of 1,428 strings). `core-page-26.delta.json` corrects a missing preposition in the exit-warning option and the mistranslated TCP-pacing option. None has been saved upstream.
 
+2026-11-16: reviewed page 27 of the live `App/Core` component line by line in Crowdin (1,350 of 1,428 strings). Advanced-audio, hotkey and system-tray labels, retained keyboard-key names, codec/format prompts and About dialog text are contextually correct. No duplicate delta was created and none has been saved upstream.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. Continue the remaining four pages of `App/Core` before proceeding with the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins.
