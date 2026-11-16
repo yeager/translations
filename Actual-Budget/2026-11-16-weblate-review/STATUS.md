@@ -771,3 +771,11 @@ component. Swedish replacements were submitted, but Weblate returned HTTP 403
 when a review vote was attempted because the affected, already-approved units
 are locked. The formula-query proposals received positive review votes but
 remain pending project acceptance.
+
+## Reviewed suggestions batch 102
+
+Thirteen budget-automation labels and three plural pairs were reviewed through
+the API. The review preserves markup, `{{amount}}`, `{{count}}` and the quoted
+schedule name, and applies Swedish singular/plural forms for month references.
+All thirteen singular targets and one plural pair were accepted; two plural
+pairs are pending server-side validation.
