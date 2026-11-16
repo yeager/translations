@@ -57,3 +57,9 @@ Seventeen formula-function descriptions were checked line by line and accepted
 through the API. Technical literals such as `TRUE`, `FALSE` and `e` remain
 unchanged, while the Swedish wording preserves the functions' return-value
 semantics.
+
+## Reviewed suggestions batch 5
+
+Twenty additional formula-function descriptions were reviewed and accepted via
+the API. The Swedish proposals preserve `TRUE`, `PI`, `#N/A` and the formula
+terminology while keeping each predicate's meaning intact.
