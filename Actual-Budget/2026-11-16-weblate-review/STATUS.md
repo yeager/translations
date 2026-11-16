@@ -370,3 +370,10 @@ strings were accepted through the API. The `SharedArrayBuffer` and Akahu names
 and `<2>` markup are preserved. Three unvoted alternatives were submitted:
 `Genomsnittliga utgifter` for the two spending-average labels and
 `Uppföljningsbudget` for the tracking-budget label.
+
+## Reviewed suggestions batch 51
+
+Fifteen authentication, Enable Banking and long-term goal strings were accepted
+through the API. The `.pem` format, `Enable Banking`, `{{amount}}` and `<2>`
+markup are preserved. One unvoted alternative improves the automation forecast
+wording to `det högsta belopp`.
