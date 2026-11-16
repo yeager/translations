@@ -86,9 +86,14 @@
   resurserna. De lokala översättningarna är därför inskickade och synliga,
   men ännu inte verifierat upstreamgranskade eller släppta; se
   [livekontrollen](Transifex/Eden-Emulator/STATUS-eden-emulator-20261112.md).
-- **Virtaal:** [PR #4697](https://github.com/translate/virtaal/pull/4697).
+- **Virtaal:** [PR #4697](https://github.com/translate/virtaal/pull/4697)
+  sammanfogades den 3 november 2026; se
+  [merge-statusen](Virtaal/STATUS-20261116-pr4697-merged.md).
 - **sK1:** [PR #348](https://github.com/sk1-project/sk1-wx/pull/348).
-- **Rust Coreutils:** [PR #96](https://github.com/uutils/coreutils-l10n/pull/96).
+- **Rust Coreutils:** [PR #96](https://github.com/uutils/coreutils-l10n/pull/96)
+  sammanfogades den 5 november 2026; se
+  [merge-statusen](Rust-Coreutils/STATUS-20261116-pr96-merged.md). Den
+  separata, låsta Weblate-komponenten `join` är fortfarande kvar.
 - **Termux:** [PR #5425](https://github.com/termux/termux-app/pull/5425)
   stängdes 2026-11-04 utan merge eftersom maintainer uttryckligen uppgav att
   nya översättningar inte planeras. Kandidaten är arkiverad, men är inte en
