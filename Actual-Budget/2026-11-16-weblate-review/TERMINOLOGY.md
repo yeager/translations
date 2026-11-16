@@ -21,6 +21,8 @@
 | query | fråga | Formula/query feature. Avoid the general-search sense `sökning` when the source denotes a query definition. |
 | regular expression | reguljärt uttryck | Standard technical term. |
 | data directory | datakatalog | Actual storage location. |
+| load (verb) | läs in | Read data, a report or a backup into the application. Avoid the vague UI loan translation `ladda` in this sense. |
+| loading | läser in / inläsning | Use a verb for live progress text and `inläsning` where a noun is required. |
 | server sync | serversynkronisering | Synchronization with Actual's server. |
 | end-to-end encryption | totalsträckskryptering | Established Swedish security term. |
 

@@ -1089,6 +1089,15 @@ intentional. Six actual issues were submitted as corrections: a double space,
 two transaction/transfer meaning errors, a mathematical term and two unmatched
 terminal periods.
 
+## Published-resource coverage correction
+
+The local runtime test on 2026-11-16 measured the current upstream resources
+directly: `en.json` has 3,072 keys and published `sv.json` has 1,623, or
+52.83% key coverage. The visible Reports screen confirms that substantial UI
+sections still fall back to English. Weblate's component aggregate must not be
+reported as published-file coverage; the current downloadable resource is the
+authoritative measure for the local application.
+
 ## Runtime verification and upstream status
 
 On 2026-11-16, the current `actualbudget/actual` main branch and the current
