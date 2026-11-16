@@ -1362,3 +1362,13 @@ an existing user-created English title identical to a legacy built-in title
 cannot be distinguished without adding stable default metadata and a data
 migration. It is therefore awaiting upstream design review and CI, not ready
 to claim merge readiness.
+
+## Dashboard Tips editor follow-up
+
+Review identified one additional UI consistency issue: the localized built-in
+tips were rendered in Swedish but the editor initially showed the persisted
+English source. Commit `da06510` opens the editor with the displayed localized
+content and avoids saving anything when it is unchanged. An edited tip remains
+user-authored content. The focused test, formatter/linter, production build,
+diff check and staged-patch Gitleaks scan passed locally. The revised PR head
+is submitted and its replacement upstream CI run is pending.
