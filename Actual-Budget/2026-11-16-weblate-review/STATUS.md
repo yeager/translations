@@ -1044,3 +1044,10 @@ Twenty navigation, storage-status, goal, tag and colour strings were reviewed.
 The group and colour placeholders were retained. Existing matching suggestions
 or accepted targets covered seven strings; the remaining proposals await
 project acceptance.
+
+## Reviewed suggestions batch 147
+
+Eleven browser-storage migration and persistence strings were reviewed. The
+backend-description and percentage placeholders plus IndexedDB and OPFS names
+were retained. Existing matching suggestions covered six strings; five new
+suggestions await project acceptance.
