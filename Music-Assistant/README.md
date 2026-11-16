@@ -14,10 +14,9 @@ med källtext, svensk måltext och uppgift om inskick eller återläsning.
 - **Desktop App:** De två sista dokumenterade tomma svenska strängarna är
   sparade och återlästa. Lokalises dåvarande filter visade 0 oöversatta
   svenska poster.
-- **Server:** Många enskilda strängar är sparade via API eller manuellt
-  kontrollerade i Lokalise. Arkivet innehåller däremot ingen samtida,
-  komplett nollmätning för hela serverprojektet. Därför påstår denna
-  statusfil inte att serverns svenska översättning är helt klar.
+- **Server:** De åtta återstående ARD Audiothek-strängarna har granskats,
+  sparats och återlästs via Lokalise API. En ny fullständig kontroll med
+  korrekt svenskt språk-ID returnerar 0 oöversatta svenska strängar.
 
 `msgfmt` är inte tillämpligt på Lokalises JSON-resurser. Respektive
 strängarbete har kontrollerats med l10n-lint, svlang, Hunspell-sv,
