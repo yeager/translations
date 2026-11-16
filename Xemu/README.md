@@ -33,6 +33,20 @@ innan några jobb startade med statusen `action_required`. En underhållare i
 `xemu-project/xemu` måste godkänna arbetsflödeskörning från forken innan den
 kan ge CI-resultat.
 
+2026-11-16: PR:n var öppen med två nya granskningsanmärkningar och sattes
+till utkast under rättningen. Commit `a5d7eac` isolerar XUI i gettext-domänen
+`xemu`: Meson bygger `xemu-gmo`, paketeringen installerar `xemu.mo` och
+XUI binder till samma domän. Därmed kolliderar katalogen inte med QEMU:s
+`qemu.mo` i Debian. Den C-specifika deklarationsheadern `qemu/cutils.h` har
+också tagits bort från det C++-inkluderade `common.hh`; den enda nödvändiga
+deklarationen finns lokalt i `main.cc`. Patchen är arkiverad i
+`xemu-pr-2837-dedicated-catalog-domain-20261116.patch`.
+
+Kontroller: `msgfmt --check-format --check-domain`, `bash -n build.sh`,
+`git diff --check`, Gitleaks, byggmålet `xemu-gmo` och kompilering av
+`ui_xui_main.cc.o` godkända lokalt. Ändringen är pushad till PR-grenen;
+CI och underhållargranskning är fortfarande separata, overifierade steg.
+
 NXEMU #489 granskades samtidigt. Underhållaren flyttar gränssnittet till
 RmlUi och vill därefter använda `.po`-filer med språkval; ingen ytterligare
 ändring är lämplig på den nuvarande PR:n.
