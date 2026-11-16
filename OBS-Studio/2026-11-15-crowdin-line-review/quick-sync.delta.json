@@ -1,0 +1,31 @@
+{
+  "component": "App/Plugins/Quick Sync",
+  "source": "OBS Studio current upstream INI catalog, all 23 strings",
+  "reviewed_on": "2026-11-16",
+  "changes": [
+    {
+      "key": "RateControl",
+      "before": "Hastighetskontroll",
+      "after": "Bithastighetskontroll",
+      "reason": "Rate control concerns encoded bitrate, not general speed."
+    },
+    {
+      "key": "KeyframeIntervalSec",
+      "before": "Intervall för keyframes (0=automatiskt)",
+      "after": "Nyckelbildsintervall (0 = automatiskt)",
+      "reason": "Use established OBS terminology and Swedish spacing."
+    },
+    {
+      "key": "Latency.ToolTip",
+      "before": "Man kan välja mellan latens och kvalitet.\nOm du föredrar kvalitet väljer du läget \"normal\", som ger dig en latenstid på >2s för slutpunkt till slutpunkt.\nOm du kräver en latenstid på <500 ms för slutpunkt till slutpunkt väljer du läget \"ultralåg\".",
+      "after": "Det finns en avvägning mellan fördröjning och kvalitet.\nOm du prioriterar kvalitet väljer du läget \"normal\"; då kan fördröjningen från ände till ände bli över 2 s.\nOm ditt användningsfall kräver en fördröjning från ände till ände på mindre än 500 ms väljer du läget \"ultralåg\".",
+      "reason": "Use natural Swedish technical wording while preserving line breaks and exposed option values."
+    },
+    {
+      "key": "16bitUnsupported",
+      "before": "Kan inte utföra kodning med 16-bitar på denna kodare.",
+      "after": "Kan inte utföra 16-bitarskodning med denna kodare.",
+      "reason": "Use a grammatical Swedish technical compound."
+    }
+  ]
+}
