@@ -1158,6 +1158,23 @@ reviewed proposals (`Beskär intervall`, `Srilankesisk rupie`, `Uzbekisk sum`,
 du till?`) then received an independent positive API vote and were accepted.
 This supersedes the earlier temporary 2FA blocker above.
 
+## Independent acceptance batch 161
+
+The separate 2FA-protected reviewer account was used to independently vote on
+the canonical wording of every pending Swedish proposal that had completed the
+local line review. Weblate accepted 174 suggestions through the API. This
+includes the previously pending terminology corrections for currencies,
+formulas, automation, reports, retirement planning, bank synchronization and
+the application tour.
+
+The scan found 58 superseded proposals on 54 units. They were deliberately
+not voted on: several are weaker alternatives to an accepted proposal, and
+some contain real language issues such as `spenderar` for a report metric,
+incorrect plural handling or an imprecise term. Four new `spend` terminology
+corrections and five further plural/context corrections were independently
+accepted in batches 159–160. This preserves Weblate's review history while
+making the reviewed Swedish target the accepted one.
+
 ## Published-resource coverage correction
 
 The local runtime test on 2026-11-16 measured the current upstream resources
