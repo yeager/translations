@@ -13,10 +13,10 @@ sträng lästes tillbaka efter indexering.
 Arbetet är lokalt granskat, arkiverat, pushat till detta arkiv och uppladdat
 till Transifex. Upstreamgranskning eller publicering är inte verifierad.
 
-Arbetet har därefter fortsatt till batch 78. Arkivet innehåller 855
+Arbetet har därefter fortsatt till batch 79. Arkivet innehåller 869
 kontextgranskade kandidater fördelade över dessa batcher. En direktavläsning
-från Transifex API den 16 november 2026 visar 5 748 översatta och 111 717
+från Transifex API den 16 november 2026 visar 5 762 översatta och 111 703
 oöversatta svenska strängar av totalt 117 465. Den senaste
-översättningsuppdateringen enligt API:t var `2026-11-16T13:33:38Z`.
+översättningsuppdateringen enligt API:t var `2026-11-16T13:39:19Z`.
 Arbetet fortsätter i små, API-återlästa batcher; siffran för översatta
 strängar är inte ett påstående om upstreamgranskning eller publicering.
