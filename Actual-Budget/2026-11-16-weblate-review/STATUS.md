@@ -967,3 +967,9 @@ Thirteen short UI strings for time range, currencies, formula queries, account
 selection and automation settings were checked in context. Four targets were
 already accepted; the remaining nine are positively voted suggestions awaiting
 project acceptance.
+
+## Reviewed suggestions batch 136
+
+Six investment and budgeting help texts were reviewed. Inline markup, quoted UI
+labels and financial terminology were retained; all six translations are
+positively voted suggestions awaiting project acceptance.
