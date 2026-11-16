@@ -1345,3 +1345,20 @@ outside that fixed set remain unchanged. The PR includes a focused unit test;
 the extraction, test, production browser build, formatter/linter, diff check
 and a staged-patch Gitleaks scan passed locally. It is open and awaiting
 upstream CI and review; it is neither merged nor released.
+
+## Reports dashboard PR follow-up
+
+The built-in Dashboard Tips Markdown card was also found to be hard-coded and
+is now localized by PR #9571 without altering user-authored Markdown. The
+subsequent review fixed the rename paths so merely confirming a localized
+default title does not save the translated display title as user data. The
+Spending detail view now uses the same display localization.
+
+The branch head is `9cd8ae251e9abfc3b6e77f65c73b12b52c1c37cc`; local focused
+tests, formatter/linter, production build, `git diff --check` and a new
+staged-patch Gitleaks scan passed. The GitHub Actions run for that exact head
+is in progress. The PR description records one remaining design limitation:
+an existing user-created English title identical to a legacy built-in title
+cannot be distinguished without adding stable default metadata and a data
+migration. It is therefore awaiting upstream design review and CI, not ready
+to claim merge readiness.
