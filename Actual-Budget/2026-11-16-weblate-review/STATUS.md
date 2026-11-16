@@ -118,3 +118,10 @@ Seventeen payment, spending-limit, location and theme strings were reviewed and
 accepted through the API. The accepted translations preserve the daily,
 monthly and weekly placeholders and retain the financial distinction between a
 soft and hard limit.
+
+## Reviewed suggestions batch 13
+
+Ten import, synchronization, account-linking and formula-result strings were
+reviewed and accepted through the API. The batch preserves the `{{queryName}}`
+placeholder and the established accounting terms for opening and closing
+balances.
