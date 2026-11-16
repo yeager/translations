@@ -313,3 +313,10 @@ text was checked as account-sync UI context.
 Eleven release, account-group and synchronisation UI strings were accepted
 through the API. The lengthy market-simulation explanations were deferred for
 separate financial terminology review.
+
+## Reviewed suggestions batch 43
+
+Twelve account-group, release and local-folder UI strings were accepted through
+the API. The `{{version}}` placeholder and the Actual product name are
+preserved. The account-identifier formula documentation remains for separate
+technical terminology review.
