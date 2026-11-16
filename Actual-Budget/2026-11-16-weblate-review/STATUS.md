@@ -933,3 +933,7 @@ successfully.
 ## Reviewed suggestions batch 128
 
 One investment-plan failure status was reviewed. Both placeholders are preserved; the improved target has a positive review vote and awaits project acceptance.
+
+## Reviewed suggestions batch 129
+
+One investment-simulation status label was reviewed, accepted and read back through the API.
