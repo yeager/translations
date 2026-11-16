@@ -1,0 +1,19 @@
+{
+  "component::izone::entity::number::damper_max::name": "Spjällets högsta värde",
+  "component::izone::entity::number::damper_min::name": "Spjällets lägsta värde",
+  "component::izone::entity::sensor::damper_position::name": "Spjällposition",
+  "component::izone::exceptions::invalid_airflow_step::message": "Luftflödet {value}% är inte en multipel av 5 %",
+  "component::izone::exceptions::invalid_temperature_step::message": "Temperaturen {value} °C är inte en multipel av 0,5 °C",
+  "component::izone::config::abort::cannot_connect": "Kunde inte ansluta",
+  "component::izone::exceptions::airflow_zone_only::message": "Luftflödesgränser kan bara anges för en zon, inte för styrenheten",
+  "component::izone::config::step::manual_host::data_description::host": "IP-adressen eller värdnamnet till din iZone Smart Hub.",
+  "component::izone::entity::sensor::rf_signal::name": "RF-signal",
+  "component::izone::issues::deprecated_airflow_action::description": "Åtgärden `{action}` är föråldrad och tas bort i Home Assistant 2027.6. Använd i stället nummerentiteterna **Spjällets lägsta värde** och **Spjällets högsta värde** för varje zon med åtgärden `number.set_value`, och uppdatera de automationer eller skript som använder `{action}`.",
+  "component::izone::issues::deprecated_airflow_action::title": "Åtgärden `{action}` tas bort",
+  "component::izone::exceptions::controller_offline::message": "Det går att nå iZone Smart Hub, men iZone-systemet är frånkopplat",
+  "component::izone::entity::binary_sensor::damper_fault::name": "Spjällfel",
+  "component::izone::entity::binary_sensor::sensor_fault::name": "Sensorfel",
+  "component::izone::exceptions::system_reconfigured::message": "iZone-systemet konfigurerades om",
+  "component::izone::issues::yaml_exclude_unused::description": "iZone konfigurerar nu varje styrenhet som en egen post. Alternativet `exclude` i avsnittet `izone:` i din configuration.yaml behövs därför inte längre och har ingen effekt. Styrenheter som fanns i listan visas nu som upptäckta enheter. Lägg till dem eller välj **Ignorera** för att dölja dem.\n\nTa bort `exclude` från din configuration.yaml och starta om Home Assistant för att åtgärda problemet.",
+  "component::izone::issues::yaml_exclude_unused::title": "iZone-alternativet `exclude` har inte längre någon effekt"
+}
