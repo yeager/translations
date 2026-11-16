@@ -9,11 +9,11 @@ Språk: svenska
 
 En UI-sträng för slutförd registrering har omformulerats för naturligare svenska:
 
-> Du håller på att slutföra registreringen och skapa ett Weblate-konto.
+> Du kan nu slutföra registreringen och skapa ett Weblate-konto.
 
 ## Lokal granskning
 
-Texten har granskats i registreringsflödets UI-kontext. Den undviker den stela formuleringen ”står i begrepp att” och behåller Weblate som produktnamn.
+Texten har granskats i registreringsflödets UI-kontext. Den är direkt och handlingsinriktad, undviker den stela formuleringen ”står i begrepp att” och behåller Weblate som produktnamn.
 
 ## Kontroller
 
