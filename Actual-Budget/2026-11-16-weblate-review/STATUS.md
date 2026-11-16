@@ -384,3 +384,9 @@ Eight automation-export and pool-management UI strings were accepted through
 the API. The `{{groupName}}` placeholder is preserved. Early-spending wording
 and the longer end-of-month-cleanup explanation remain pending because their
 financial feature terminology needs contextual review.
+
+## Reviewed suggestions batch 53
+
+Nineteen data-status, widget, filter, synchronisation, schedule and category UI
+strings were accepted through the API. The filter placeholders and markup are
+preserved. The CSS label retains the source em dash, as does the source.
