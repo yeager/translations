@@ -740,3 +740,10 @@ Two Swedish plural pairs for weekly budgeting and rule counts were reviewed
 through the plural-safe API path. A clearer alternative for the minimum-spending
 floor status uses the established `minimiutgifter` term and awaits project
 acceptance.
+
+## Queue snapshot
+
+After batch 98, Weblate reports 463 Swedish units that are still untranslated
+and have at least one suggestion. They are queued for contextual review; this
+count is a live snapshot, not a claim that all proposed translations are
+correct or accepted.
