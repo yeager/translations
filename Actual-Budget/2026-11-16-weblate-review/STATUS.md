@@ -1224,6 +1224,16 @@ read back, independently voted and accepted rather than duplicated. Weblate
 now reports 3,012 of 3,017 translated units (99.8%); the five remaining units
 are fuzzy, not untranslated.
 
+## Final plural-status review
+
+All 3,017 units now have Swedish target text. Five units remain in Weblate's
+fuzzy state solely because Swedish deliberately uses the same visible form in
+the relevant plural contexts, including `{{count}} användare` and
+`{{count}} betalningsmottagare`, plus the recurring-year templates. The target
+forms, markup and placeholders were read back from the API. They are documented
+as false-positive plural warnings and were not distorted merely to raise the
+dashboard percentage.
+
 ## Published-resource coverage correction
 
 The local runtime test on 2026-11-16 measured the current upstream resources
