@@ -43,3 +43,10 @@ the suggestion vote endpoint. Two weak suggestions were not endorsed:
 `Lankesisk rupie` was replaced with `Srilankesisk rupie`, and `Trimma
 intervall` with the clearer `Beskär intervall`. Both replacements are pending
 community review.
+
+## Reviewed suggestions batch 3
+
+Twelve suggestions for storage actions and formula/query descriptions were
+checked and accepted through the API. `Uzbekisk som` was not endorsed; a new
+proposal, `Uzbekisk sum`, corrects the Swedish currency name and is pending
+review.
