@@ -779,3 +779,10 @@ the API. The review preserves markup, `{{amount}}`, `{{count}}` and the quoted
 schedule name, and applies Swedish singular/plural forms for month references.
 All thirteen singular targets and one plural pair were accepted; two plural
 pairs are pending server-side validation.
+
+## Reviewed suggestions batch 103
+
+Eleven automation-template and target-setting labels were reviewed through the
+API. The batch preserves `{{weight}}`, follows Swedish numeric percent spacing,
+and uses consistent `automatisering`, `målbelopp` and category terminology. All
+eleven targets were accepted and read back successfully.
