@@ -469,3 +469,9 @@ were accepted through the API. Four better unvoted alternatives were submitted
 for a server-link sentence, guided onboarding, tagline punctuation and the
 reconciled-state label. The less accurate competing proposals received a
 negative vote as explicitly authorized.
+
+## Reviewed suggestions batch 62
+
+Thirteen Monte Carlo and simulation-plan labels were accepted through the API.
+The `{{age}}` and `{{number}}` placeholders are preserved. The age-limit label
+and rule terminology remain pending for more specific simulation context.
