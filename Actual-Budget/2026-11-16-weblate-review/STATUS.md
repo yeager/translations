@@ -461,3 +461,11 @@ accepted through the API. The `{{source}}` placeholder, HTML quote entities,
 Thirteen formula, calculator and chart UI strings were accepted through the API.
 The `{{amount}}` placeholder is preserved, along with the function and format
 terminology.
+
+## Reviewed suggestions batch 61
+
+Sixteen connection, onboarding, date-navigation and transaction-state strings
+were accepted through the API. Four better unvoted alternatives were submitted
+for a server-link sentence, guided onboarding, tagline punctuation and the
+reconciled-state label. The less accurate competing proposals received a
+negative vote as explicitly authorized.
