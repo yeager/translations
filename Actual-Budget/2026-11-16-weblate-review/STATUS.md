@@ -455,3 +455,9 @@ path.
 Seventeen automation-template, time-unit and Enable Banking setup strings were
 accepted through the API. The `{{source}}` placeholder, HTML quote entities,
 `Enable Banking` and `ID` terms are preserved.
+
+## Reviewed suggestions batch 60
+
+Thirteen formula, calculator and chart UI strings were accepted through the API.
+The `{{amount}}` placeholder is preserved, along with the function and format
+terminology.
