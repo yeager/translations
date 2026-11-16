@@ -1051,3 +1051,9 @@ Eleven browser-storage migration and persistence strings were reviewed. The
 backend-description and percentage placeholders plus IndexedDB and OPFS names
 were retained. Existing matching suggestions covered six strings; five new
 suggestions await project acceptance.
+
+## Reviewed suggestions batch 148
+
+Eight tag, goal and transaction strings were reviewed. The tag-name placeholder
+and Swedish quotation marks were retained. Three matching suggestions already
+existed; the other five await project acceptance.
