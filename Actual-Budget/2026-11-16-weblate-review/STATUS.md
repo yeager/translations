@@ -216,3 +216,9 @@ through the API.
 
 Two one-off withdrawal strings were reviewed and accepted through the API. The
 review preserves all financial placeholders, arithmetic symbols and tax terms.
+
+## Reviewed suggestions batch 26
+
+The `Transactions` proposal was reviewed and received a positive API vote. It
+remains pending the component's community voting workflow and is not accepted
+translation state.
