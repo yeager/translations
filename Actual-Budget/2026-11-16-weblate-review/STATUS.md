@@ -159,3 +159,10 @@ checked before three API proposals were submitted. They improve the Swedish
 wording for the target payee and for an account reconciliation becoming out of
 balance. All three proposals are pending community review and were not
 self-voted.
+
+## Reviewed suggestions batch 16
+
+Sixteen bank-synchronization, provider-configuration and error-recovery strings
+were reviewed and accepted through the API. The review preserved provider
+placeholders, Actual as a product name, and the distinction between normal and
+hard page reloads.
