@@ -24,4 +24,5 @@ Kontroller:
 - diffkontroll och Gitleaks för deltat: godkända
 
 Upstream: [OpenRCT2/Localisation PR #3571](https://github.com/OpenRCT2/Localisation/pull/3571),
-öppen den 13 november 2026. CI körs; PR:en är varken godkänd eller mergad.
+öppen den 13 november 2026. Den godkändes, bygget passerade och PR:en
+sammanfogades den 14 november 2026.

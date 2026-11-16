@@ -23,4 +23,4 @@ Det ursprungliga inskicket [OpenRCT2 PR #27415](https://github.com/OpenRCT2/Open
 stängdes den 13 november 2026, eftersom översättningarna förvaltas i det separata
 arkivet `OpenRCT2/Localisation`. Batchen skickades därefter, tillsammans med
 färgerna och formatmallarna, som [Localisation PR #3571](https://github.com/OpenRCT2/Localisation/pull/3571).
-Den PR:en är öppen och väntar på granskning.
+Den PR:en godkändes, byggdes utan fel och sammanfogades den 14 november 2026.
