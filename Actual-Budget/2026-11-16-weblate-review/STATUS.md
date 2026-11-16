@@ -598,3 +598,9 @@ accepted through the API. `Årliga utgifter` and the two date-range labels with
 Twenty-five contribution and financial-formula strings were reviewed and
 accepted through the API. `Namn på insättning` was submitted as the clearer
 table heading for the remaining contribution-name field and awaits acceptance.
+
+## Reviewed suggestions batch 81
+
+Six date-range, group and import strings were reviewed and accepted through
+the API. The imported-transactions plural pair was accepted through the
+plural-safe path.
