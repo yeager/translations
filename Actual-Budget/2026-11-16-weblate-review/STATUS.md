@@ -50,3 +50,10 @@ Twelve suggestions for storage actions and formula/query descriptions were
 checked and accepted through the API. `Uzbekisk som` was not endorsed; a new
 proposal, `Uzbekisk sum`, corrects the Swedish currency name and is pending
 review.
+
+## Reviewed suggestions batch 4
+
+Seventeen formula-function descriptions were checked line by line and accepted
+through the API. Technical literals such as `TRUE`, `FALSE` and `e` remain
+unchanged, while the Swedish wording preserves the functions' return-value
+semantics.
