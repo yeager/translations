@@ -417,6 +417,14 @@ the reviewer's positive vote, while the three less precise alternatives received
 a negative vote. An additional better alternative, `Maskerat skript`, was
 submitted and the competing `Dolt skript` proposal received a negative vote.
 
+Nine additional terminology proposals with existing positive votes also
+received the reviewer's positive vote. Less accurate competing terms received a
+negative vote: `All Historik`, `Genom tiderna`, `Trimma intervall`, the less
+specific currency names, `Sökningsdefinitioner`, `något fel`, `Sökningens
+namn`, `tracking-budgetering` and `förfallet schema`. This preserves the
+project's reviewed terms `Hela perioden`, `Beskär intervall`,
+`Frågedefinitioner`, `uppföljningsbudgetering` and `schema som förfaller`.
+
 ## Reviewed suggestions batch 55
 
 Sixteen filter, transaction-status, infopanel and custom-theme UI strings were
@@ -434,3 +442,10 @@ Nine infopanel, split-status, budget-analysis and money-age UI strings were
 accepted through the API. The `{{count}}` and `{{days}}` placeholders are
 preserved. `Maskerat skript` was submitted as an unvoted alternative to the
 less accurate `Dolt skript`.
+
+## Reviewed suggestions batch 58
+
+The fixed-decimal formula description was accepted through the API. Two plural
+suggestions were intentionally excluded: the suggestion-vote helper only
+supports singular targets and the plural forms require a separate safe upload
+path.
