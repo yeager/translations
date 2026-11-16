@@ -644,3 +644,12 @@ proposals received a positive review vote but remain pending project
 acceptance. The review preserves the React markup, `URL`, Actual and the
 QIF/OFX/QFX format identifiers, and uses the existing Swedish financial
 terminology consistently.
+
+## Reviewed suggestions batch 87
+
+Nine Monte Carlo investment-allocation and capital-preservation labels were
+reviewed and accepted through the API. The fee explanation retains the source
+em dash, while the financial percentages and the Swedish space-before-percent
+convention are preserved. `Ålder då potten blir tillgänglig` was submitted as a
+clearer alternative to the fragmentary accessibility-age label and awaits
+project acceptance.
