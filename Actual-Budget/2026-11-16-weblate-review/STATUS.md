@@ -1070,3 +1070,9 @@ Five tag-scope, investment-allocation and browser-storage strings were reviewed.
 Scope, allocation-total and percentage placeholders plus SQLite and WebAssembly
 product names were retained. Two matching suggestions already existed; three
 new proposals await project acceptance.
+
+## Reviewed suggestions batch 151
+
+The final two untranslated units without any suggestion were reviewed and
+submitted. Swedish has identical forms here for the counted nouns; this is an
+intentional plural-form exception, not a functional error.
