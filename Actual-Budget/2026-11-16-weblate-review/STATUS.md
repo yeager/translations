@@ -98,3 +98,10 @@ Tracking Budget documentation. API-submitted replacement proposals use
 `uppföljningsbudgetering` for the documented mode and `schema som förfaller`
 for a schedule due today. Both are pending community review; neither was
 self-voted.
+
+## Reviewed suggestions batch 10
+
+Twenty synchronization, category-management, banking and reporting strings
+were reviewed and accepted through the API. The accepted translations retain
+`{{monthYearFormatted}}`, distinguish categories from category groups, and use
+the established Swedish banking term `ingående saldo`.
