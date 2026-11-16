@@ -1,0 +1,13 @@
+{
+  "component::homematicip_cloud::entity::binary_sensor::water_alarm::name": "Vattenlarm",
+  "component::homematicip_cloud::entity::sensor::water_flow::name": "Vattenflöde",
+  "component::homematicip_cloud::entity::binary_sensor::arming_blocked::name": "Larmaktivering blockerad",
+  "component::homematicip_cloud::exceptions::alarm_activation_outdated::message": "Larminstallationen aktiverades inte eftersom fler sensorer rapporterar problem än vid föregående försök: {devices}",
+  "component::homematicip_cloud::selector::arm_anyway_mode::options::away": "Borta",
+  "component::homematicip_cloud::selector::arm_anyway_mode::options::home": "Hemma",
+  "component::homematicip_cloud::services::arm_anyway::description": "Aktiverar larminstallationen trots att sensorer rapporterar problem. De blockerande ingångarna förblir oövervakade.",
+  "component::homematicip_cloud::services::arm_anyway::fields::mode::description": "Aktivera den inre och yttre zonen (borta) eller endast den yttre (hemma).",
+  "component::homematicip_cloud::services::arm_anyway::fields::mode::name": "Läge",
+  "component::homematicip_cloud::services::arm_anyway::name": "Aktivera ändå",
+  "component::homematicip_cloud::exceptions::cloud_throttled::message": "Homematic IP Cloud begränsar den här IP-adressen. Försöker igen om {minutes} minuter."
+}
