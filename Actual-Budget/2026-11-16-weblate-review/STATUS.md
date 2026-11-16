@@ -1198,6 +1198,14 @@ Nineteen new suggestions were independently accepted; one already matching
 target was accepted directly. Weblate then reported 2,958 of 3,017 Swedish
 units translated (98.0%).
 
+## Untranslated batch 164
+
+Twenty further untranslated units were reviewed and accepted. The batch covers
+retirement contributions and income, surplus-pot behavior, formula account
+balances, historical return scenarios, migration repair text and investment
+phases. A separate reviewer vote accepted all twenty. Weblate readback reports
+2,978 of 3,017 Swedish units translated (98.7%).
+
 ## Published-resource coverage correction
 
 The local runtime test on 2026-11-16 measured the current upstream resources
