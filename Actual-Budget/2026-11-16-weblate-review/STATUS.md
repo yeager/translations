@@ -178,3 +178,9 @@ strings were reviewed and accepted through the API. The batch preserves the
 Eleven formula metadata and text-function strings were reviewed and accepted
 through the API. The batch preserves `QUERY_EXTRACT_TIMEFRAME_START()` exactly
 and uses Swedish technical terms for return types and strings.
+
+## Reviewed suggestions batch 19
+
+Eight bank-provider permissions and transaction-table strings were reviewed and
+accepted through the API. The batch preserves the `{{ columnName }}`
+placeholder and uses the accounting term `löpande saldo`.
