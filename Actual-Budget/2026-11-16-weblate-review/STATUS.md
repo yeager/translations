@@ -955,3 +955,8 @@ One investment-plan income label was reviewed, accepted and read back through th
 ## Reviewed suggestions batch 133
 
 The investment-plan inflation label was reviewed, accepted and read back through the API.
+
+## Reviewed suggestions batch 134
+
+The mean and standard-deviation inflation labels were reviewed, accepted and
+read back through the API.
