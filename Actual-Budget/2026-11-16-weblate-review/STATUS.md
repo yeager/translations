@@ -1297,3 +1297,10 @@ local browser build. The issue was reported upstream as
 [actualbudget/actual#9569](https://github.com/actualbudget/actual/issues/9569).
 It concerns resource export synchronization, not the project’s intentional
 independent-review policy.
+
+The Weblate export is valid JSON. A schema comparison with the current English
+resource found one source-shape difference: English now has the singular key
+`Automatically rename these payees in the future`, while the Weblate export
+still has the older `_one` and `_other` plural pair. This detail was added to
+the upstream issue so that the source refresh can precede any resource
+replacement.
