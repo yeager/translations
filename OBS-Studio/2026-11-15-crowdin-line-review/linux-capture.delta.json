@@ -1,0 +1,55 @@
+{
+  "component": "App/Plugins/Linux Capture",
+  "source": "OBS Studio current upstream INI catalog, all 16 strings",
+  "reviewed_on": "2026-11-16",
+  "changes": [
+    {
+      "key": "X11SharedMemoryDisplayInput",
+      "before": "Bildskärmskälla (XSHM)",
+      "after": "Bildskärmsfångst (XSHM)",
+      "reason": "Use OBS's established Swedish capture-source terminology."
+    },
+    {
+      "key": "CaptureCursor",
+      "before": "Visa muspekare",
+      "after": "Fånga muspekaren",
+      "reason": "The setting controls capture, not cursor visibility."
+    },
+    {
+      "key": "XServer",
+      "before": "X-servern",
+      "after": "X-server",
+      "reason": "The generic label does not require the definite form."
+    },
+    {
+      "key": "XCCapture",
+      "before": "Fönsterkälla (Xcomposite)",
+      "after": "Fönsterfångst (Xcomposite)",
+      "reason": "Use OBS's established Swedish capture-source terminology."
+    },
+    {
+      "key": "IncludeXBorder",
+      "before": "Inkludera X Border",
+      "after": "Inkludera X-kant",
+      "reason": "Translate the UI label and use the Swedish compound."
+    },
+    {
+      "key": "ExcludeAlpha",
+      "before": "Använd alfalöst texturformat (lösning för Mesa)",
+      "after": "Använd texturformat utan alfakanal (lösning för Mesa)",
+      "reason": "Use clear Swedish technical wording for an alpha-less texture format."
+    },
+    {
+      "key": "SelectAWindow",
+      "before": "[Välj ett fönster att visa]",
+      "after": "[Välj ett fönster att fånga]",
+      "reason": "Restore the capture action in the source instruction."
+    },
+    {
+      "key": "SelectADisplay",
+      "before": "[Välj en skärm att visa]",
+      "after": "[Välj en bildskärm att fånga]",
+      "reason": "Restore the capture action and use the established display term."
+    }
+  ]
+}
