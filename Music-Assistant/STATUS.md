@@ -12,8 +12,9 @@ Senast verifierad: 2026-11-16
 Statusen avser Lokalise API:s filter för tom svensk översättning. Den bevisar
 inte projektgranskning, publicering eller release.
 
-Music Assistant Server räknades om direkt via API den 16 november. Katalogen
-omfattar 4 098 svenska poster, varav 0 är tomma eller oöversatta efter batch
-66. Music Assistant Mobile räknades också om samma dag: 615 svenska poster,
-0 tomma och 0 oöversatta efter batch 67. Frontend och desktop behåller
-senast verifierade status från 16 november.
+Lokalises projektslutpunkt lästes om direkt den 16 november. Servern omfattar
+4 098 källnycklar, frontend 2 876, mobilen 615 och skrivbordsappen 157.
+Samtliga fyra svenska `sv_SE`-resurser visar 100 % framsteg och 0 ord kvar att
+översätta. Skrivbordsprojektet har två färre källnycklar än den tidigare
+noteringen, men svenska är fortsatt komplett. Detta är en API-verifierad
+status, inte ett påstående om projektgranskning, publicering eller release.
