@@ -219,9 +219,11 @@ The archive now contains 342 prepared corrections across all reviewed OBS compon
 
 2026-11-16: reviewed page 24 of the live `App/Core` component line by line in Crowdin (1,200 of 1,428 strings). Time-based file-splitting and the definite stream-encoder label are already corrected in `frontend-output-settings.delta.json`; the remaining output and FFmpeg labels are contextually correct. No duplicate delta was created and none has been saved upstream.
 
+2026-11-16: reviewed page 25 of the live `App/Core` component line by line in Crowdin (1,250 of 1,428 strings). The file-split-size label and the bilinear-downscaling sentence are already corrected in `frontend-output-settings.delta.json` and `frontend-output-video-audio.delta.json`. Date/time format tokens, video and audio settings, and the remaining labels are contextually correct. No duplicate delta was created and none has been saved upstream.
+
 ## Scope and next batch
 
-Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
+Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. Continue the remaining four pages of `App/Core` before proceeding with the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins.
 
 ## Checks
 
