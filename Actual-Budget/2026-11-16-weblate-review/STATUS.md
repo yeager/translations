@@ -947,3 +947,7 @@ awaits project acceptance.
 ## Reviewed suggestions batch 131
 
 The Kitces ratcheting strategy label was reviewed and accepted through the API.
+
+## Reviewed suggestions batch 132
+
+One investment-plan income label was reviewed, accepted and read back through the API.
