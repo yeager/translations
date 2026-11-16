@@ -267,3 +267,10 @@ The API-key loading error message was reviewed and accepted through the API.
 Ten API-key, retry and tag-management UI strings were checked in the current
 source and accepted through the API. The batch preserves the `{{id}}`, `{{tag}}`
 and `{{name}}` placeholders.
+
+## Reviewed suggestions batch 36
+
+Seven tag and infopanel UI strings were checked in the current source and
+accepted through the API. The `{{ dashboardName }}` and `{{minimumVersion}}`
+placeholders are preserved. A plural and two of the reviewer's own proposals
+were intentionally left for separate handling.
