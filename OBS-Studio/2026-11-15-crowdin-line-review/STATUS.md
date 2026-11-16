@@ -253,6 +253,8 @@ The archive now contains 342 prepared corrections across all reviewed OBS compon
 
 2026-11-16: reviewed all 23 strings in the live `App/Plugins/Mac AVCapture` component. `mac-avcapture.delta.json` restores the capture-card meaning, normalizes buffering/video-range terminology and corrects six active-state messages. None has been saved upstream.
 
+2026-11-16: reviewed all 39 strings in the live `App/Plugins/Mac Capture` component. `mac-capture.delta.json` consistently uses the established Swedish `fångst` terminology and corrects hidden-OBS and macOS-version messages. None has been saved upstream.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The live `App/Core`, `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters`, Steam metadata and `AJA Output UI` components are reviewed. Continue with the remaining plugin components, beginning with `AJA I/O Device Capture and Output`.
@@ -266,6 +268,6 @@ Crowdin currently lists 100%-translated Swedish components with widely varying a
 - svlang: the installed CLI only accepts plain text through `svlang check`; it has no INI parser. The translations were reviewed in their source/UI context instead.
 - Hunspell was intentionally not run, following the current CPU constraint.
 - Gitleaks: passed for the archive payload.
-- Latest delta audit: all 433 proposed changes pass JSON parsing plus placeholder and markup checks; line-break parity passes except for the source-verified DirectShow tooltip normalization below. `git diff --check` and Gitleaks pass.
+- Latest delta audit: all 442 proposed changes pass JSON parsing plus placeholder and markup checks; line-break parity passes except for the source-verified DirectShow tooltip normalization below. `git diff --check` and Gitleaks pass.
 - DirectShow's buffering tooltip intentionally replaces two surplus blank lines in the prior Swedish text with the source's two-paragraph-break structure; its corrected translation has 10 source-format line breaks.
 - svlang: run on the combined delta text. Its aggregate score and 74 warnings are false positives caused by concatenated UI fragments, code/format tokens, product names and markup; each delta remains reviewed in source context. It has no INI parser.
