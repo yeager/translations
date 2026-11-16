@@ -42,3 +42,12 @@ shadercache. De sparades och återlästes som Crowdin-översättningarna
 450303–450313. Deltafil och kontrollresultat finns i
 `pcsx2-sv-ui-terms-dodzons-hamtning-cache-20261116.xliff` respektive
 `2026-11-16-ui-terms-dodzons-hamtning-cache`.
+
+Tre ytterligare etiketter för dödzon sparades och återlästes som
+Crowdin-översättningarna 450315, 450317 och 450319. De ersätter det
+missvisande `dödläge` med den etablerade termen `dödzon`. En motsvarande
+sträng, 7733, har redan ett korrekt äldre förslag men också ett senare
+felaktigt förslag. Crowdin avvisar ett nytt identiskt inskick som dubblett;
+inga röster eller historiska översättningar ändrades. Deltafil och
+kontrollresultat finns i `pcsx2-sv-deadzone-labels-20261116.xliff` och
+`2026-11-16-deadzone-labels`.
