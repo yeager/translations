@@ -221,6 +221,8 @@ The archive now contains 342 prepared corrections across all reviewed OBS compon
 
 2026-11-16: reviewed page 25 of the live `App/Core` component line by line in Crowdin (1,250 of 1,428 strings). The file-split-size label and the bilinear-downscaling sentence are already corrected in `frontend-output-settings.delta.json` and `frontend-output-video-audio.delta.json`. Date/time format tokens, video and audio settings, and the remaining labels are contextually correct. No duplicate delta was created and none has been saved upstream.
 
+2026-11-16: reviewed page 26 of the live `App/Core` component line by line in Crowdin (1,300 of 1,428 strings). `core-page-26.delta.json` corrects a missing preposition in the exit-warning option and the mistranslated TCP-pacing option. None has been saved upstream.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. Continue the remaining four pages of `App/Core` before proceeding with the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins.
@@ -234,5 +236,5 @@ Crowdin currently lists 100%-translated Swedish components with widely varying a
 - svlang: the installed CLI only accepts plain text through `svlang check`; it has no INI parser. The translations were reviewed in their source/UI context instead.
 - Hunspell was intentionally not run, following the current CPU constraint.
 - Gitleaks: passed for the archive payload.
-- Final delta audit: all 382 proposed changes pass JSON parsing plus placeholder, markup and escaped-line-break parity checks; `git diff --check` and Gitleaks pass.
+- Latest delta audit: all 384 proposed changes pass JSON parsing plus placeholder, markup and escaped-line-break parity checks; `git diff --check` and Gitleaks pass.
 - svlang: run on the combined delta text. Its aggregate score and 74 warnings are false positives caused by concatenated UI fragments, code/format tokens, product names and markup; each delta remains reviewed in source context. It has no INI parser.
