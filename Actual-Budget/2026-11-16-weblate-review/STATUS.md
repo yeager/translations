@@ -786,3 +786,9 @@ Eleven automation-template and target-setting labels were reviewed through the
 API. The batch preserves `{{weight}}`, follows Swedish numeric percent spacing,
 and uses consistent `automatisering`, `målbelopp` and category terminology. All
 eleven targets were accepted and read back successfully.
+
+## Reviewed suggestions batch 104
+
+Five pool and early-spending controls were reviewed through the API. The
+ambiguous `scopes` plural remains deferred for contextual terminology review.
+All five targets were accepted and read back successfully.
