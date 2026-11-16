@@ -797,3 +797,7 @@ All five targets were accepted and read back successfully.
 
 Four early-spending target controls were reviewed through the API, preserving
 the numeric markup and month placeholders.
+
+## Reviewed suggestions batch 106
+
+Five early-spending and target controls were reviewed through the API.
