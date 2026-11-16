@@ -13,6 +13,12 @@ Kontroller:
   den här deltan.
 - Diffkontroll och Gitleaks: godkända.
 
+Vid den förnyade kontrollen 16 november genererade Qt `lrelease` tre färdiga
+och noll ofärdiga översättningar, och l10n-lint passerade för deltafilen.
+Hunspell-sv och svlang markerar enbart facktermen `sökvägstraversering` som
+ovanlig. Den motsvarar den engelska säkerhetstermen ”path traversal” och är
+avsiktlig i den här kontexten.
+
 Projektets etablerade kanal är
 https://hosted.weblate.org/projects/prismlauncher/launcher/.
 
