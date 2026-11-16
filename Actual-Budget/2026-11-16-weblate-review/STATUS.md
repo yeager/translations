@@ -111,3 +111,10 @@ the established Swedish banking term `ingående saldo`.
 Fifteen report, tag and account-management messages were reviewed and accepted
 through the API. The batch preserves PluggyAI and SimpleFIN as product names,
 and uses the same `kategorigrupp` terminology as the previous review.
+
+## Reviewed suggestions batch 12
+
+Seventeen payment, spending-limit, location and theme strings were reviewed and
+accepted through the API. The accepted translations preserve the daily,
+monthly and weekly placeholders and retain the financial distinction between a
+soft and hard limit.
