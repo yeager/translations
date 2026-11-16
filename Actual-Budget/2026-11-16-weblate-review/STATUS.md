@@ -626,3 +626,12 @@ accepted through the API. `Behåll pottarnas målfördelning` was submitted as a
 more idiomatic target-mix control label and awaits project acceptance. A
 transient Weblate 503 during this batch was retried only for the unconfirmed
 units; all fourteen accepted targets were then read back successfully.
+
+## Reviewed suggestions batch 85
+
+Six Monte Carlo and onboarding labels were reviewed and accepted through the
+API. Six clearer alternatives were submitted for the typical-failure status,
+guided-tour controls and investment-pot guidance. The alternatives use
+`rundtur` rather than the anglicized `tur`, preserve `{{appName}}`, and replace
+an earlier em dash with a Swedish colon because the source has no em dash; they
+await project acceptance.
