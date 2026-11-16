@@ -1097,6 +1097,14 @@ the quoted “Whatever is left” option were retained. A positive independent
 vote was submitted through the Weblate API; readback confirms state `20` and
 no remaining suggestion, so the Swedish target is accepted upstream.
 
+## Reviewed external suggestions batch 155
+
+The short target-month picker label was reviewed in the automation context.
+`Välj en målmånad` is idiomatic Swedish and retains the distinction between a
+selected target and the current month. An independent positive API vote
+accepted the proposal; API readback confirms state `20` and no remaining
+suggestion.
+
 ## Published-resource coverage correction
 
 The local runtime test on 2026-11-16 measured the current upstream resources
