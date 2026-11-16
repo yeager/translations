@@ -56,3 +56,9 @@ Etiketten `Deadzone` i helskärmsgränssnittet rättades också till `Dödzon`
 och återlästes som Crowdin-översättning 450321. Underlag och kontroller finns
 i `pcsx2-sv-deadzone-fullscreen-label-20261116.xliff` och
 `2026-11-16-deadzone-fullscreen-label`.
+
+Tre grafikinställningar där `download` syftar på intern GS-data rättades från
+missvisande `nedladdning` till `hämtning`. De sparades och återlästes som
+Crowdin-översättningarna 450323, 450325 och 450327. Deltafil och kontroller
+finns i `pcsx2-sv-gs-hamtning-20261116.xliff` och
+`2026-11-16-gs-hamtning`.
