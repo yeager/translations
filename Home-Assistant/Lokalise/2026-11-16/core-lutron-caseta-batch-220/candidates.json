@@ -1,0 +1,44 @@
+[
+  {
+    "translation_id": 10162538622,
+    "key_name": "component::lutron_caseta::exceptions::cannot_connect::message",
+    "source": "Connection failed to {host}",
+    "target": "Det gick inte att ansluta till {host}"
+  },
+  {
+    "translation_id": 10162538686,
+    "key_name": "component::lutron_caseta::exceptions::setup_timeout::message",
+    "source": "Timed out on {step} for {host}",
+    "target": "Tidsgränsen överskreds vid {step} för {host}"
+  },
+  {
+    "translation_id": 10206361390,
+    "key_name": "component::lutron_caseta::config::abort::unique_id_mismatch",
+    "source": "The bridge at this address is not the bridge that was originally set up.",
+    "target": "Bryggan på den här adressen är inte bryggan som ursprungligen konfigurerades."
+  },
+  {
+    "translation_id": 10206361454,
+    "key_name": "component::lutron_caseta::config::step::reconfigure::data::host",
+    "source": "Host",
+    "target": "Värd"
+  },
+  {
+    "translation_id": 10206361518,
+    "key_name": "component::lutron_caseta::config::step::reconfigure::data_description::host",
+    "source": "The hostname or IP address of your Lutron bridge or processor — Caséta Smart Bridge, RA2 Select, RadioRA 3, HomeWorks QSX, or Athena.",
+    "target": "Värdnamnet eller IP-adressen till din Lutron-brygga eller -processor — Caséta Smart Bridge, RA2 Select, RadioRA 3, HomeWorks QSX eller Athena."
+  },
+  {
+    "translation_id": 10207489823,
+    "key_name": "component::lutron_caseta::issues::deprecated_yaml_import_issue_cannot_connect::description",
+    "source": "Configuring {integration_title} using YAML is being removed, but Home Assistant couldn’t connect to a bridge while importing your YAML configuration. Make sure the bridge is reachable and the certificate files are valid, then restart Home Assistant to try the import again, or remove the `{domain}` configuration from your `configuration.yaml` file and set up the integration from the UI.",
+    "target": "Konfiguration av {integration_title} med YAML tas bort, men Home Assistant kunde inte ansluta till en brygga när YAML-konfigurationen importerades. Kontrollera att bryggan kan nås och att certifikatfilerna är giltiga. Starta sedan om Home Assistant för att försöka importera igen, eller ta bort konfigurationen `{domain}` från filen `configuration.yaml` och konfigurera integrationen via användargränssnittet."
+  },
+  {
+    "translation_id": 10207489887,
+    "key_name": "component::lutron_caseta::issues::deprecated_yaml_import_issue_cannot_connect::title",
+    "source": "The {integration_title} YAML configuration import failed",
+    "target": "Det gick inte att importera YAML-konfigurationen för {integration_title}"
+  }
+]
