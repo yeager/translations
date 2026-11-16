@@ -1126,6 +1126,14 @@ Swedish target retains the future meaning of “will demand” and the financial
 meaning of income. An independent positive API vote accepted the proposal;
 readback confirms state `20` and no remaining suggestion.
 
+## Second-reviewer API status
+
+On 2026-11-16, a second Hosted Weblate account token was verified as a
+distinct account. Weblate rejected its attempted votes before any state change
+with `permission_denied`: this project requires two-factor authentication.
+The account must enable 2FA in its Hosted Weblate profile before it can supply
+the independent review votes required by the component.
+
 ## Published-resource coverage correction
 
 The local runtime test on 2026-11-16 measured the current upstream resources
