@@ -280,3 +280,10 @@ were intentionally left for separate handling.
 Eight API-key and browser-storage UI strings were checked in the current source
 and accepted through the API. The `{{id}}` placeholder and the product terms
 `OpenID`, `API` and `CLI` are preserved.
+
+## Reviewed suggestions batch 38
+
+Thirteen update, budget-average and investment UI strings were accepted through
+the API. The `{{displayMonth}}`, `{{months}}`, `{{share}}` and `{{mean}}`
+placeholders are preserved. Two financial-planning explanations remain pending
+because their terminology and punctuation need separate contextual review.
