@@ -12,8 +12,11 @@ sträng lästes tillbaka efter indexering.
 
 Arbetet är lokalt granskat, arkiverat, pushat till detta arkiv och uppladdat
 till Transifex. Upstreamgranskning eller publicering är inte verifierad.
-Återstående arbete: efter nio batcher om sammanlagt 90 strängar visade en
-sidindelad API-avläsning fortfarande 1 000 oöversatta svenska strängar på var
-och en av de första 21 sidorna. Huvudkomponenten har alltså minst 21 000
-oöversatta svenska strängar; den exakta mängden kräver att hela
-sidindelningen läses färdigt. Arbetet fortsätter i separata batcher.
+
+Arbetet har därefter fortsatt till batch 77. Arkivet innehåller 847
+kontextgranskade kandidater fördelade över dessa batcher. En direktavläsning
+från Transifex API den 16 november 2026 visar 5 740 översatta och 111 725
+oöversatta svenska strängar av totalt 117 465. Den senaste
+översättningsuppdateringen enligt API:t var `2026-11-16T04:14:13Z`.
+Arbetet fortsätter i små, API-återlästa batcher; siffran för översatta
+strängar är inte ett påstående om upstreamgranskning eller publicering.
