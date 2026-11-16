@@ -566,3 +566,10 @@ was submitted through the plural-safe vote path and is verified separately.
 Eighteen import, income and transaction strings were reviewed and accepted
 through the API. Better label alternatives were submitted for an income-stream
 name and minimum spending; they remain pending project acceptance.
+
+## Reviewed suggestions batch 76
+
+Eleven update, encoding, currency and settings strings were reviewed and
+accepted through the API. The tag-count plural pair was handled through the
+plural-safe path. `Automatisk identifiering` and `Taggurval` were submitted as
+clearer alternatives for the remaining controls and await project acceptance.
