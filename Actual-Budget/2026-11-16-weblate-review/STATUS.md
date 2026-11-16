@@ -937,3 +937,9 @@ One investment-plan failure status was reviewed. Both placeholders are preserved
 ## Reviewed suggestions batch 129
 
 One investment-simulation status label was reviewed, accepted and read back through the API.
+
+## Reviewed suggestions batch 130
+
+One withdrawal-rule explanation was reviewed. The Swedish update replaces an
+em dash because the source uses a hyphen; it has a positive review vote and
+awaits project acceptance.
