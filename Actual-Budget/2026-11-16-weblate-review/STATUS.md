@@ -701,3 +701,11 @@ votes and remain pending project acceptance. Three alternatives were submitted
 for surplus-cash explanations and status: they preserve `{{surplusPotName}}`,
 `{{pot}}` and the previously omitted `{{amount}}` placeholder, and avoid em
 dashes where the sources use hyphens. They also await project acceptance.
+
+## Reviewed suggestions batch 94
+
+Seventeen settings, navigation, retirement and browser-storage strings were
+reviewed through the API. The batch preserves product names, placeholders and
+the established `Fäll ut`, `Taggurval` and `Engångsuttag` controls. Acceptance
+state was read back after the API votes: the withdrawal-order explanation was
+accepted, while the other sixteen proposals remain pending project acceptance.
