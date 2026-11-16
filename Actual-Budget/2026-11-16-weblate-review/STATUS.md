@@ -342,3 +342,9 @@ Seventeen simulation and tax UI strings were accepted through the API. The
 `{{age}}`, `{{number}}`, `{{total}}`, `{{from}}` and `{{to}}` placeholders are
 preserved. The source-specific ratcheting and progressive-tax wording remains
 pending for terminology review.
+
+## Reviewed suggestions batch 47
+
+Seven concise tax and simulation-result UI labels were accepted through the API.
+The surrounding tax-rate explanations remain pending for financial terminology
+review.
