@@ -1,0 +1,19 @@
+{
+  "component": "App/Plugins/WebRTC",
+  "source": "OBS Studio current upstream INI catalog, all 6 strings",
+  "reviewed_on": "2026-11-16",
+  "changes": [
+    {
+      "key": "Service.BearerToken",
+      "before": "Ägartoken",
+      "after": "Bearer-token",
+      "reason": "A bearer token grants access to its holder; it is not an owner token."
+    },
+    {
+      "key": "Error.NoRemoteDescription",
+      "before": "Misslyckades att konfigurera fjärrbeskrivning: %1",
+      "after": "Kunde inte ange fjärrbeskrivning: %1",
+      "reason": "Match the WebRTC operation to set the remote description and use natural Swedish error wording."
+    }
+  ]
+}
