@@ -888,3 +888,10 @@ Eight server-onboarding and reconciliation labels were reviewed through the
 API. Markup around the setup and guided-tour links was preserved. Four targets
 were accepted and read back; four already well-contextualized targets received
 positive review votes and await project acceptance.
+
+## Reviewed suggestions batch 122
+
+Ten remaining formula-builder fields and one plural template-status label were
+reviewed and accepted through the API. The `TRUE`, `FALSE` and `#N/A` formula
+tokens, as well as the plural `{{count}}` placeholder, were retained and read
+back successfully.
