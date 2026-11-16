@@ -390,3 +390,11 @@ financial feature terminology needs contextual review.
 Nineteen data-status, widget, filter, synchronisation, schedule and category UI
 strings were accepted through the API. The filter placeholders and markup are
 preserved. The CSS label retains the source em dash, as does the source.
+
+## Reviewed suggestions batch 54
+
+Five automation, currency, rule, transfer and formula-row strings were accepted
+through the API. The three transfer placeholders are preserved. An unvoted
+alternative improves the widget-save failure message to `Det gick inte att
+spara`. Query terminology, currency names, schedule wording and all-time
+filter wording remain under distinct review rather than being auto-accepted.
