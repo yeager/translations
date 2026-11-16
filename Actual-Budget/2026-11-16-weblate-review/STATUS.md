@@ -132,3 +132,10 @@ balances.
 review, including accounting, scheduling, Tracking Budget and formula-query
 terms. It is based on the reviewed component, the current source and Actual's
 Tracking Budget documentation.
+
+## Context-checked proposals batch 8
+
+The current formula catalog and rule-editor source confirmed that `query` is a
+formula-query concept rather than a general search. Six API proposals replace
+the earlier `sökning` wording with `fråga`; they are pending community review
+and were not self-voted.
