@@ -301,3 +301,9 @@ Thirteen encoding, tag, release-note and notification strings were accepted
 through the API. Format names, `{{group}}`, `{{max}}`, `{{title}}`,
 `{{changeCount}}` and `<0>` markup are preserved. Two alternatives were sent
 as unvoted proposals: `Fäll ut {{group}}` and `Nydesignat sidofält`.
+
+## Reviewed suggestions batch 41
+
+Fourteen automatic-sync and bank-connection UI strings were accepted through
+the API. The Actual and GoCardless product names are retained; the explanatory
+text was checked as account-sync UI context.
