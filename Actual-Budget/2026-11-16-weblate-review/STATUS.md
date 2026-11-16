@@ -232,3 +232,8 @@ and the arithmetic symbols.
 ## Reviewed suggestions batch 28
 
 The `Add key` UI action was reviewed and accepted through the API.
+
+## Reviewed suggestions batch 29
+
+The OpenID warning about closing sessions and revoking existing API keys was
+reviewed and accepted through the API.
