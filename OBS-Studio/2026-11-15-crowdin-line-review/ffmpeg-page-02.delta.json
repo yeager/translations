@@ -1,0 +1,55 @@
+{
+  "component": "App/Plugins/FFmpeg",
+  "source": "Crowdin live editor, page 2 of 3",
+  "reviewed_on": "2026-11-16",
+  "changes": [
+    {
+      "key": "AMF.16bitUnsupported",
+      "before": "Kan inte utföra kodning med 16-bitar på denna kodare.",
+      "after": "Det går inte att utföra 16-bitars kodning med den här kodaren.",
+      "reason": "Use correct Swedish bit-depth terminology and natural error wording."
+    },
+    {
+      "key": "NVENC.Error",
+      "before": "Det gick inte att öppna NVENC-codec: %1",
+      "after": "Det gick inte att öppna NVENC-kodek: %1",
+      "reason": "Use the established Swedish spelling of codec while retaining %1."
+    },
+    {
+      "key": "NVENC.GenericError",
+      "before": "Prova att installera den senaste drivrutinen från <a href=\"https://obsproject.com/go/nvidia-drivers\">NVIDIA</a> och stäng sedan ner alla andra programvaror för inspelning som skulle kunna använda NVENC som till exempel NVIDIA ShadowPlay eller Windows Game DVR.",
+      "after": "Försök att installera den senaste <a href=\"https://obsproject.com/go/nvidia-drivers\">NVIDIA-drivrutinen</a> och stäng sedan andra inspelningsprogram som kan använda NVENC, till exempel NVIDIA ShadowPlay eller Windows Game DVR.",
+      "reason": "Use natural Swedish technical wording while retaining the driver link and product names."
+    },
+    {
+      "key": "NVENC.UnsupportedDevice",
+      "before": "NVENC-fel: Enheten stöds inte. Kolla att ditt grafikkort <a href=\"https://obsproject.com/go/nvenc-matrix\">har stöd för NVENC</a> och prova att <a href=\"https://obsproject.com/go/nvidia-drivers\">uppdatera drivrutinen</a>.",
+      "after": "NVENC-fel: Enheten stöds inte. Kontrollera att grafikkortet <a href=\"https://obsproject.com/go/nvenc-matrix\">har stöd för NVENC</a> och försök att <a href=\"https://obsproject.com/go/nvidia-drivers\">uppdatera drivrutinen</a>.",
+      "reason": "Use consistent formal UI wording while retaining both links."
+    },
+    {
+      "key": "NVENC.TooManySessions",
+      "before": "NVENC-fel: För många parallella sessioner. Prova stäng ner andra inspelningsprogram som kanske använder NVENC så som NVIDIA ShadowPlay eller Windows Game VDR.",
+      "after": "NVENC-fel: För många samtidiga sessioner. Försök att stänga andra inspelningsprogram som kan använda NVENC, till exempel NVIDIA ShadowPlay eller Windows Game DVR.",
+      "reason": "Correct grammar, the DVR product name and the technical session wording."
+    },
+    {
+      "key": "H264.UnsupportedVideoFormat",
+      "before": "Endast videoformat som använder 8-bitarsfärg stödd.",
+      "after": "Endast videoformat som använder 8-bitarsfärg stöds.",
+      "reason": "Restore the required finite verb."
+    },
+    {
+      "key": "KeyframeIntervalSec",
+      "before": "Intervall för keyframes (0=automatiskt)",
+      "after": "Nyckelbildsintervall (0 = automatiskt)",
+      "reason": "Use the established Swedish encoding term and normal spacing around the value."
+    },
+    {
+      "key": "RestartWhenActivated",
+      "before": "Starta om uppspelning när källa blir aktiv",
+      "after": "Starta om uppspelningen när källan blir aktiv",
+      "reason": "Use the required definite forms in the Swedish UI sentence."
+    }
+  ]
+}
