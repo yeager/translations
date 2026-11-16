@@ -252,3 +252,8 @@ The budget-storage warning was reviewed and accepted through the API. The
 ## Reviewed suggestions batch 32
 
 The API-key creation error message was reviewed and accepted through the API.
+
+## Reviewed suggestions batch 33
+
+The `Done` API-key modal button was checked in the current source and accepted
+through the API as `Klar`.
