@@ -172,3 +172,9 @@ hard page reloads.
 Nine template, chart, database-compatibility, encryption, currency and sorting
 strings were reviewed and accepted through the API. The batch preserves the
 `{{fileName}}` placeholder and uses Swedish alphabetical sorting endpoints.
+
+## Reviewed suggestions batch 18
+
+Eleven formula metadata and text-function strings were reviewed and accepted
+through the API. The batch preserves `QUERY_EXTRACT_TIMEFRAME_START()` exactly
+and uses Swedish technical terms for return types and strings.
