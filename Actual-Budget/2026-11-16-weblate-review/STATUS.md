@@ -489,3 +489,11 @@ a hyphen or ordinary sentence punctuation. Better Swedish alternatives were
 submitted without an em dash, preserving every placeholder. Following explicit
 authorization, the six less suitable alternatives received a negative vote.
 The new alternatives remain pending project acceptance.
+
+## Reviewed suggestions batch 65
+
+The overspent-category plural pair was reviewed against the established term
+`Kategorier över budget`. A precise plural-safe alternative was submitted with
+both Swedish forms and the less natural adjective construction received a
+negative vote. The parallel uncategorized-transaction pair was left unchanged:
+its existing suggestion is idiomatic and technically valid.
