@@ -1009,3 +1009,10 @@ Seventeen early-spending, month-end pool, forecast and formula-mode strings
 were reviewed. The established terms pott, bokföra, transaktion and
 saldoprognos were used consistently. Eight targets were accepted immediately;
 the remaining nine are positively voted suggestions awaiting acceptance.
+
+## Reviewed suggestions batch 142
+
+Twelve query, synchronization, server setup, onboarding and reconciliation
+strings were reviewed. Formula calls, inline markup and the three source em
+dashes were preserved. Existing matching suggestions covered three targets;
+the remaining nine await project acceptance.
