@@ -23,6 +23,8 @@ iOS och frontend har 0 oöversatta svenska poster i den nya kontrollen.
 Detaljer om den äldre slutgranskningen och den senare avvikelsen finns i
 [slutgranskningen](Lokalise/2026-11-16/core-empty-source-audit/README.md)
 och [API-kontrollen](Lokalise/2026-11-16/correct-language-filter-audit/README.md).
+En senare livekontroll bekräftar att Frontend har 100 % svenska och 0
+återstående ord; se [frontendstatusen](Lokalise/2026-11-16/frontend-live-status.md).
 
 ## Kontroller
 
