@@ -611,3 +611,10 @@ Seventeen transaction-status, budget-file, synchronization, table-layout and
 investment-mix strings were reviewed and accepted through the API. Product and
 format identifiers such as Pluggy.ai, ID and the lowercase `global` value are
 preserved intentionally.
+
+## Reviewed suggestions batch 83
+
+Twenty-three simulation, fee and tax settings strings were reviewed and
+accepted through the API. Better alternatives were submitted for the expand-all
+control and the per-pot tax-model label. The ambiguous `First earnings` label
+remains pending a separate contextual review.
