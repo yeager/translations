@@ -685,3 +685,11 @@ Five boundary and guardrail status explanations were context-reviewed. Clearer
 alternatives were submitted with complete Swedish noun phrases for planned
 amounts, `skyddsregler` instead of the literal `skyddsräcken`, and no em dash
 where the source uses a hyphen. They await project acceptance.
+
+## Reviewed suggestions batch 92
+
+Three concise labels and progress text were reviewed and accepted through the
+API. Three related guardrail explanations received matching `skyddsregler`
+alternatives with complete planned-amount phrases and no em dashes where the
+source uses hyphens; they await project acceptance. Ratcheting messages remain
+deferred for terminology review.
