@@ -248,3 +248,7 @@ preserved.
 
 The budget-storage warning was reviewed and accepted through the API. The
 `{{id}}` placeholder and the assurance that no data was deleted are preserved.
+
+## Reviewed suggestions batch 32
+
+The API-key creation error message was reviewed and accepted through the API.
