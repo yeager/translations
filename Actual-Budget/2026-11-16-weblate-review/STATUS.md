@@ -1112,6 +1112,13 @@ setup context. The accepted wording retains the product name and uses the
 established Swedish software term `integration`. An independent positive API
 vote accepted the external proposal; readback confirms state `20`.
 
+## Reviewed external suggestions batch 157
+
+The adjustment range-validation error was reviewed. `Justeringen är utanför
+tillåtet intervall` accurately preserves the range constraint in idiomatic
+Swedish. An independent positive API vote accepted the external suggestion;
+readback confirms state `20`.
+
 ## Published-resource coverage correction
 
 The local runtime test on 2026-11-16 measured the current upstream resources
