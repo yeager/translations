@@ -903,3 +903,10 @@ All template markup and numeric placeholders are preserved. Two targets were
 accepted and read back; three Swedish punctuation improvements received
 positive review votes and await project acceptance. The improvements use full
 stops because the corresponding source strings use hyphens, not em dashes.
+
+## Reviewed suggestions batch 124
+
+Three investment-allocation explanations were reviewed. Markup, percentages,
+and the established `pott`, `fördelning`, `avkastning` and `volatilitet`
+terminology are retained. All three Swedish punctuation and phrasing
+improvements received positive review votes and await project acceptance.
