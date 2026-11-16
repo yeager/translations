@@ -635,3 +635,12 @@ guided-tour controls and investment-pot guidance. The alternatives use
 `rundtur` rather than the anglicized `tur`, preserve `{{appName}}`, and replace
 an earlier em dash with a Swedish colon because the source has no em dash; they
 await project acceptance.
+
+## Reviewed suggestions batch 86
+
+Nine account-introduction strings were reviewed and accepted through the API.
+Four earlier server-setup, guided-onboarding, reconciliation and slogan
+proposals received a positive review vote but remain pending project
+acceptance. The review preserves the React markup, `URL`, Actual and the
+QIF/OFX/QFX format identifiers, and uses the existing Swedish financial
+terminology consistently.
