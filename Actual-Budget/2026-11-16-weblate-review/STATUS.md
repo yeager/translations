@@ -531,3 +531,11 @@ Twenty-three forecast, goal and scheduled-transaction strings were reviewed and
 accepted through the API. The weekday selector label received the more natural
 `Varje` alternative instead of the incomplete `En gång var`; it remains pending
 project acceptance.
+
+## Reviewed suggestions batch 71
+
+Nine withdrawal strings were accepted through the API. Eleven earlier
+browser-storage proposals received a positive review vote but were not accepted
+by Weblate and remain pending. The standalone Monte Carlo table heading
+received `Engångsuttag`, matching the established nearby noun; the fragment
+`Engångs` was downvoted and the better term remains pending project acceptance.
