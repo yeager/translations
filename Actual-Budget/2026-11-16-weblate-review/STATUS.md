@@ -497,3 +497,10 @@ The overspent-category plural pair was reviewed against the established term
 both Swedish forms and the less natural adjective construction received a
 negative vote. The parallel uncategorized-transaction pair was left unchanged:
 its existing suggestion is idiomatic and technically valid.
+
+## Reviewed suggestions batch 66
+
+Thirteen import, planning, error, status and calculation strings were reviewed
+and accepted through the API. Placeholders and markup are preserved. The import
+progress label `Setting up...` remains pending because `Ställer in...` does not
+fit that operation's context.
