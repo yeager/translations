@@ -163,6 +163,8 @@ All 1,459 keys in the local English frontend snapshot were compared line by line
 
 The archive now contains 342 prepared corrections across all reviewed OBS components. None has been saved to Crowdin in this work session.
 
+2026-11-16: API access was rechecked with the current Crowdin credential from the system keychain. `GET /api/v2/projects/51028/files?limit=1` again returned HTTP `403 Forbidden`. The token is therefore insufficient to enumerate or safely update OBS strings through the API. No delta was submitted and the browser-based Crowdin editor remains the only verified upstream route for these prepared corrections.
+
 2026-11-16: reviewed the live `Stores/Steam/Store Page` component line by line in Crowdin (23 strings). Prepared 9 context-checked corrections in `store-steam.delta.json`; none has been saved upstream.
 
 2026-11-16: reviewed the live `Stores/Steam/Short Description` component in its Crowdin store context (1 string, 0% approved). The current Swedish `Kostnadsfri programvara med öppen källkod för videoinspelning och direktsändning` is accurate, idiomatic and within Steam's displayed 300-character limit; no change was prepared.
