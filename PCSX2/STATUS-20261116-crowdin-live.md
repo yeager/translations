@@ -82,3 +82,9 @@ Fem fler UI-texter rättades för naturligare svenska: texturer förinläses,
 Crowdin-översättningarna 450343–450351. Deltafil och kontroller finns i
 `pcsx2-sv-ui-clarity-batch-20261116.xliff` och
 `2026-11-16-ui-clarity`.
+
+Fyra texter för uppdatering, sparplatser och sparade tillstånd rättades för
+stavning, svenska sammansättningar och tydliga instruktioner. De sparades och
+återlästes som Crowdin-översättningarna 450353–450359. Deltafil och kontroller
+finns i `pcsx2-sv-save-state-update-20261116.xliff` och
+`2026-11-16-save-state-update`.
