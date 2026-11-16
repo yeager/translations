@@ -3,7 +3,7 @@
 Datum: 16 november 2026  
 Källa: Home Assistant Companion for Android, Lokalise API  
 Komponent: `android`  
-Status: lokalt färdiggranskad och arkiverad. Inte uppladdad till Lokalise vid arkiveringstillfället.
+Status: lokalt färdiggranskad och arkiverad. Lokalise-uppladdning blockerad av API-behörighet.
 
 `home-assistant-android-sv-20261116.delta.po` innehåller de 283 ändrade
 strängarna från en radgranskning av komponentens 1 675 svenska poster. Den
@@ -25,3 +25,10 @@ Kontroller:
 
 Den här arkivstatusen är inte ett påstående om att ändringarna är uppladdade,
 godkända eller publicerade i Lokalise eller i en programrelease.
+
+## Uppladdningsförsök
+
+Efter en färsk konfliktkontroll av alla 283 poster skickades en enda
+konfliktsäker `PUT /keys`-batch till Lokalise. API:t svarade med HTTP 403.
+Nyckeln har läsbehörighet, men saknar skrivrättighet till den här komponenten.
+Ingen Lokalise-sträng ändrades av försöket.
