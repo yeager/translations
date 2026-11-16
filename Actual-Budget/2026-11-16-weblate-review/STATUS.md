@@ -77,3 +77,9 @@ suggestion for every accepted unit.
 Fourteen short import, scheduling, retirement and transaction UI strings were
 reviewed line by line and accepted through the API. The accepted wording uses
 the existing `schema` terminology and retains UI punctuation and `%` markers.
+
+## Reviewed suggestions batch 8
+
+Nine import, data-directory and transaction messages were reviewed and accepted
+through the API. The review verified React-style tags, the
+`{{githubIssueLink}}` placeholder, quoted identifiers and the `&rarr;` entity.
