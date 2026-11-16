@@ -604,3 +604,10 @@ table heading for the remaining contribution-name field and awaits acceptance.
 Six date-range, group and import strings were reviewed and accepted through
 the API. The imported-transactions plural pair was accepted through the
 plural-safe path.
+
+## Reviewed suggestions batch 82
+
+Seventeen transaction-status, budget-file, synchronization, table-layout and
+investment-mix strings were reviewed and accepted through the API. Product and
+format identifiers such as Pluggy.ai, ID and the lowercase `global` value are
+preserved intentionally.
