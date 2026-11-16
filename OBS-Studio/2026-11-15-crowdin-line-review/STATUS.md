@@ -269,6 +269,8 @@ The archive now contains 342 prepared corrections across all reviewed OBS compon
 
 2026-11-16: reviewed all 23 strings in the current upstream `App/Plugins/Quick Sync` INI catalog. `quick-sync.delta.json` corrects bitrate and keyframe terms, latency guidance and a 16-bit encoding diagnostic. The corrections are prepared locally and have not been saved in Crowdin.
 
+2026-11-16: reviewed all 14 strings in the current upstream `App/Plugins/RTMP Services` INI catalog. Its multitrack-video notice is a shared string already corrected in `frontend-youtube-plugins.delta.json`; terminology and markup were checked without adding a duplicate delta.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The live `App/Core`, `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters`, Steam metadata and `AJA Output UI` components are reviewed. Continue with the remaining plugin components, beginning with `AJA I/O Device Capture and Output`.
