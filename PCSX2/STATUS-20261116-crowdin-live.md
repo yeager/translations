@@ -75,3 +75,10 @@ oskärpa, återläsning, förinläsning och radsprång. De sparades och återlä
 som Crowdin-översättningarna 450333–450341. Deltafil och kontroller finns i
 `pcsx2-sv-graphics-terminology-20261116.xliff` och
 `2026-11-16-graphics-terminology`.
+
+Fem fler UI-texter rättades för naturligare svenska: texturer förinläses,
+återgivning sker i separat fönster, emulatorn återupptas och supportforumet
+är en sammanhängande etikett. De sparades och återlästes som
+Crowdin-översättningarna 450343–450351. Deltafil och kontroller finns i
+`pcsx2-sv-ui-clarity-batch-20261116.xliff` och
+`2026-11-16-ui-clarity`.
