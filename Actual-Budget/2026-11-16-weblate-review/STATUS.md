@@ -1076,3 +1076,8 @@ new proposals await project acceptance.
 The final two untranslated units without any suggestion were reviewed and
 submitted. Swedish has identical forms here for the counted nouns; this is an
 intentional plural-form exception, not a functional error.
+
+## Reviewed external suggestions batch 152
+
+Two existing Swedish suggestions were independently reviewed and positively
+voted. Both were accepted by Weblate; the template marker was retained.
