@@ -13,15 +13,21 @@ Kontroller:
   den här deltan.
 - Diffkontroll och Gitleaks: godkända.
 
-Upstream-status: **inte inskickad**. Ingen åtkomlig Hosted Weblate-API-nyckel
-fanns i de kontrollerade nyckelringsposterna. Den enda funna generella
-Weblate-token som kunde testas avvisades dessutom av Hosted Weblate med HTTP
-401 den 13 november 2026. Projektets etablerade kanal är
+Projektets etablerade kanal är
 https://hosted.weblate.org/projects/prismlauncher/launcher/.
 
 ## Senast verifierade åtkomststatus
 
-Kontrollerad 16 november 2026: den anslutna Weblate-klienten returnerar inga
-åtkomliga projekt. Den kan därför inte användas för att läsa tillbaka eller
-skicka denna delta. Ingen upstreamändring har gjorts; de tre lokalt granskade
-strängarna ligger kvar i arkivet tills en behörig Hosted Weblate-session finns.
+Kontrollerad 16 november 2026: Hosted Weblate-API:t var åtkomligt och den
+arkiverade deltafilen skickades till komponenten `launcher` med
+importmetoden `translate` och konfliktläget `ignore`. API:t svarade med
+`total: 3`, `skipped: 3`, `accepted: 0` och `not_found: 0`.
+
+Det betyder att samtliga tre poster redan var översatta upstream. Efteråt
+hämtades den aktuella svenska TS-filen via API och alla tre kontexter lästes
+tillbaka. Två måltexter motsvarar deltan exakt. Den tredje har redan den
+naturligare formuleringen ”I Windows kan det krävas administratörsbehörighet
+för att skapa symboliska länkar.” och lämnades därför medvetet orörd.
+
+Inskicket är alltså verifierat, men skapade ingen ny upstreamändring eftersom
+det inte fanns något att uppdatera.
