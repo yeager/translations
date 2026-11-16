@@ -980,3 +980,11 @@ Seven retirement-planning, investment and payee-management strings were
 reviewed. Formula syntax and inline markup were retained. One target was
 accepted and read back; six are positively voted suggestions awaiting project
 acceptance.
+
+## Reviewed suggestions batch 138
+
+Nine plural-sensitive budget and automation strings were reviewed. Count and
+amount placeholders, plus inline markup, were retained. The two notification
+strings were accepted and read back. The automation suggestions await project
+acceptance; the yearly interval deliberately uses distinct Swedish plural forms
+to avoid an identical-plural false positive.
