@@ -524,3 +524,10 @@ Twenty-six forecast, transaction and account strings were reviewed and accepted
 through the API. Four clearer alternatives were submitted for the remaining UI
 labels: `Automatiskt`, `Måluppfyllelse`, a formal SimpleFIN maintenance message
 and `Ta bort kontobegränsning`. They remain pending project acceptance.
+
+## Reviewed suggestions batch 70
+
+Twenty-three forecast, goal and scheduled-transaction strings were reviewed and
+accepted through the API. The weekday selector label received the more natural
+`Varje` alternative instead of the incomplete `En gång var`; it remains pending
+project acceptance.
