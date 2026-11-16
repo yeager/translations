@@ -923,3 +923,9 @@ positive review vote and awaits project acceptance.
 The investment-pot access-age explanation was reviewed with its markup
 preserved. The revised Swedish phrasing has a positive review vote and awaits
 project acceptance.
+
+## Reviewed suggestions batch 127
+
+The planned-spending inflation explanation was reviewed and accepted through
+the API. Both markup placeholders were retained and the target was read back
+successfully.
