@@ -90,3 +90,11 @@ Eleven data-directory, browser-compatibility, file-sharing, transaction and
 retirement UI messages were reviewed and accepted through the API. Two
 domain-dependent budget-scheduling proposals were deliberately deferred until
 their feature context can be checked.
+
+## Context-checked proposals batch 7
+
+The two deferred terms were checked against the current Actual source and its
+Tracking Budget documentation. API-submitted replacement proposals use
+`uppföljningsbudgetering` for the documented mode and `schema som förfaller`
+for a schedule due today. Both are pending community review; neither was
+self-voted.
