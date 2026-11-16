@@ -9,13 +9,14 @@
 ## Inskickat, väntar på upstream-granskning eller release
 
 - **Stirling PDF:** [PR #7833](https://github.com/Stirling-Tools/Stirling-PDF/pull/7833)
-  är öppen på commit `fca7cdae20aeafa68a26f4a5488b676dd0246aec`. De
-  konkreta CodeRabbit-anmärkningarna om deltagarval, MCP-autentisering,
-  Team-villkor och krediter är kontrollerade som åtgärdade. PR:en är
-  mergebar men har granskningskrav och är inte godkänd eller mergead.
+  är öppen på commit `220c4cc0c2d6d646a26472e5710994f79396795f`. Den sista
+  konkreta CodeRabbit-anmärkningen, om att MCP-beskrivningen måste nämna både
+  OAuth och API-nyckelautentisering, är kontrollerad och rättad. PR:n har
+  granskningskrav och är inte godkänd eller mergead.
   Projektets `AGENTS.md` anger dessutom att andra locale-filer än `en-US`
   hanteras separat, men någon extern svensk bidragskanal är inte
-  dokumenterad. Se [statusen](Sterling-PDF/STATUS-20261112-pr7833.md).
+  dokumenterad. Se
+  [statusen](Stirling-PDF/STATUS-20261116-pr7833-mcp-auth.md).
 - **PCSX2:** en femsträngars XLIFF-integritetsbatch importerades via Crowdin
   den 13 november 2026 och återlästes via API. Två svenska förslag skapades
   (47 ord); tre strängar hoppades över eftersom korrekta, identiska måltexter
