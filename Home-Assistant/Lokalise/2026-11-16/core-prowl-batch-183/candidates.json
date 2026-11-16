@@ -1,0 +1,128 @@
+[
+  {
+    "translation_id": 10156475924,
+    "key_name": "component::prowl::exceptions::api_error::message",
+    "source": "Unexpected error when calling the Prowl API: {error}",
+    "target": "Oväntat fel vid anrop till Prowl API: {error}"
+  },
+  {
+    "translation_id": 10156475988,
+    "key_name": "component::prowl::exceptions::api_timeout::message",
+    "source": "Timeout accessing the Prowl API.",
+    "target": "Tidsgränsen överskreds vid åtkomst till Prowl API."
+  },
+  {
+    "translation_id": 10156476052,
+    "key_name": "component::prowl::exceptions::invalid_api_key::message",
+    "source": "Invalid API key for the Prowl service.",
+    "target": "Ogiltig API-nyckel för Prowl-tjänsten."
+  },
+  {
+    "translation_id": 10156476116,
+    "key_name": "component::prowl::exceptions::rate_limit_exceeded::message",
+    "source": "The Prowl service reported that the rate limit was exceeded.",
+    "target": "Prowl-tjänsten rapporterade att frekvensgränsen överskreds."
+  },
+  {
+    "translation_id": 10156476180,
+    "key_name": "component::prowl::issues::deprecated_notify_action::description",
+    "source": "The action `{action}` is deprecated and will be removed in a future release.\n\nIf Prowl is still set up in your `configuration.yaml` file, remove the Prowl notify configuration and restart Home Assistant. That configuration was already imported into a Prowl integration entry.\n\nThen update your automations and scripts to use the notify entities with the `{new_action_1}` or `{new_action_2}` actions instead.\n\n## Example automation using `{new_action_1}` action:\n\n{example_yaml_1}\n\n## Example automation using `{new_action_2}` action:\n\n{example_yaml_2}",
+    "target": "Åtgärden `{action}` är föråldrad och kommer att tas bort i en framtida version.\n\nOm Prowl fortfarande är konfigurerat i filen `configuration.yaml` ska du ta bort Prowls aviseringskonfiguration och starta om Home Assistant. Konfigurationen har redan importerats till en Prowl-integrationspost.\n\nUppdatera sedan dina automatiseringar och skript så att de använder aviseringsentiteterna med åtgärden `{new_action_1}` eller `{new_action_2}` i stället.\n\n## Exempel på automatisering med åtgärden `{new_action_1}`:\n\n{example_yaml_1}\n\n## Exempel på automatisering med åtgärden `{new_action_2}`:\n\n{example_yaml_2}"
+  },
+  {
+    "translation_id": 10156476244,
+    "key_name": "component::prowl::issues::deprecated_notify_action::title",
+    "source": "Detected use of deprecated action {action}",
+    "target": "Användning av föråldrad åtgärd {action} upptäcktes"
+  },
+  {
+    "translation_id": 10156476308,
+    "key_name": "component::prowl::selector::priority::options::emergency",
+    "source": "Emergency",
+    "target": "Nödläge"
+  },
+  {
+    "translation_id": 10156476372,
+    "key_name": "component::prowl::selector::priority::options::high",
+    "source": "High",
+    "target": "Hög"
+  },
+  {
+    "translation_id": 10156476436,
+    "key_name": "component::prowl::selector::priority::options::moderate",
+    "source": "Moderate",
+    "target": "Måttlig"
+  },
+  {
+    "translation_id": 10156476500,
+    "key_name": "component::prowl::selector::priority::options::normal",
+    "source": "Normal",
+    "target": "Normal"
+  },
+  {
+    "translation_id": 10156476564,
+    "key_name": "component::prowl::selector::priority::options::very_low",
+    "source": "Very low",
+    "target": "Mycket låg"
+  },
+  {
+    "translation_id": 10156476628,
+    "key_name": "component::prowl::services::send_message::description",
+    "source": "Sends a Prowl push notification.",
+    "target": "Skickar en Prowl-pushnotis."
+  },
+  {
+    "translation_id": 10156476692,
+    "key_name": "component::prowl::services::send_message::fields::message::description",
+    "source": "The message body of the notification.",
+    "target": "Meddelandetexten i aviseringen."
+  },
+  {
+    "translation_id": 10156476756,
+    "key_name": "component::prowl::services::send_message::fields::message::name",
+    "source": "Message",
+    "target": "Meddelande"
+  },
+  {
+    "translation_id": 10156476820,
+    "key_name": "component::prowl::services::send_message::fields::priority::description",
+    "source": "Priority of the notification. Emergency notifications may bypass quiet hours, depending on the settings in the Prowl app.",
+    "target": "Aviseringens prioritet. Nödaviseringar kan åsidosätta tysta timmar beroende på inställningarna i Prowl-appen."
+  },
+  {
+    "translation_id": 10156476884,
+    "key_name": "component::prowl::services::send_message::fields::priority::name",
+    "source": "Priority",
+    "target": "Prioritet"
+  },
+  {
+    "translation_id": 10156476948,
+    "key_name": "component::prowl::services::send_message::fields::title::description",
+    "source": "Title (event) of the notification.",
+    "target": "Aviseringens titel (händelse)."
+  },
+  {
+    "translation_id": 10156477012,
+    "key_name": "component::prowl::services::send_message::fields::title::name",
+    "source": "Title",
+    "target": "Titel"
+  },
+  {
+    "translation_id": 10156477076,
+    "key_name": "component::prowl::services::send_message::fields::url::description",
+    "source": "A URL that is opened when the notification is selected in the Prowl app.",
+    "target": "En URL som öppnas när aviseringen väljs i Prowl-appen."
+  },
+  {
+    "translation_id": 10156477140,
+    "key_name": "component::prowl::services::send_message::fields::url::name",
+    "source": "URL",
+    "target": "URL"
+  },
+  {
+    "translation_id": 10156477204,
+    "key_name": "component::prowl::services::send_message::name",
+    "source": "Send message",
+    "target": "Skicka meddelande"
+  }
+]

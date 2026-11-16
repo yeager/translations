@@ -1,0 +1,23 @@
+{
+  "component::prowl::exceptions::api_error::message": "Oväntat fel vid anrop till Prowl API: {error}",
+  "component::prowl::exceptions::api_timeout::message": "Tidsgränsen överskreds vid åtkomst till Prowl API.",
+  "component::prowl::exceptions::invalid_api_key::message": "Ogiltig API-nyckel för Prowl-tjänsten.",
+  "component::prowl::exceptions::rate_limit_exceeded::message": "Prowl-tjänsten rapporterade att frekvensgränsen överskreds.",
+  "component::prowl::issues::deprecated_notify_action::description": "Åtgärden `{action}` är föråldrad och kommer att tas bort i en framtida version.\n\nOm Prowl fortfarande är konfigurerat i filen `configuration.yaml` ska du ta bort Prowls aviseringskonfiguration och starta om Home Assistant. Konfigurationen har redan importerats till en Prowl-integrationspost.\n\nUppdatera sedan dina automatiseringar och skript så att de använder aviseringsentiteterna med åtgärden `{new_action_1}` eller `{new_action_2}` i stället.\n\n## Exempel på automatisering med åtgärden `{new_action_1}`:\n\n{example_yaml_1}\n\n## Exempel på automatisering med åtgärden `{new_action_2}`:\n\n{example_yaml_2}",
+  "component::prowl::issues::deprecated_notify_action::title": "Användning av föråldrad åtgärd {action} upptäcktes",
+  "component::prowl::selector::priority::options::emergency": "Nödläge",
+  "component::prowl::selector::priority::options::high": "Hög",
+  "component::prowl::selector::priority::options::moderate": "Måttlig",
+  "component::prowl::selector::priority::options::normal": "Normal",
+  "component::prowl::selector::priority::options::very_low": "Mycket låg",
+  "component::prowl::services::send_message::description": "Skickar en Prowl-pushnotis.",
+  "component::prowl::services::send_message::fields::message::description": "Meddelandetexten i aviseringen.",
+  "component::prowl::services::send_message::fields::message::name": "Meddelande",
+  "component::prowl::services::send_message::fields::priority::description": "Aviseringens prioritet. Nödaviseringar kan åsidosätta tysta timmar beroende på inställningarna i Prowl-appen.",
+  "component::prowl::services::send_message::fields::priority::name": "Prioritet",
+  "component::prowl::services::send_message::fields::title::description": "Aviseringens titel (händelse).",
+  "component::prowl::services::send_message::fields::title::name": "Titel",
+  "component::prowl::services::send_message::fields::url::description": "En URL som öppnas när aviseringen väljs i Prowl-appen.",
+  "component::prowl::services::send_message::fields::url::name": "URL",
+  "component::prowl::services::send_message::name": "Skicka meddelande"
+}
