@@ -17,8 +17,10 @@ för `sv`. Ingen översättning behövde ändras eller skickas in i denna kontro
 
 ## Core-behörighet
 
-API-tokenen listar även Home Assistant – Core
-(`130246255a974bd3b5e8a1.51616605`) men projektresursen returnerar HTTP 403.
-Det bevisar inte något nytt om Core-översättningarnas täckning och ingen
-skrivning gjordes där. Den här statuskontrollen gäller därför bara de tre
-komponenter som kunde läsas autentiserat.
+Två oberoende, sparade Lokalise-tokenen listar Home Assistant – Core
+(`130246255a974bd3b5e8a1.51616605`) men projektresursen returnerar HTTP 403
+för båda. Det är därför ett projektbehörighetsproblem, inte en fråga om vilket
+av de tillgängliga kontona som används. Det bevisar inte något nytt om
+Core-översättningarnas täckning och ingen skrivning gjordes där. Den här
+statuskontrollen gäller därför bara de tre komponenter som kunde läsas
+autentiserat.
