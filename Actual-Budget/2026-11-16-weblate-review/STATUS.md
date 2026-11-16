@@ -725,3 +725,11 @@ were submitted for unspent income, an extra withdrawal and browser-recovery
 messages. They retain all placeholders and markup, avoid em dashes where the
 sources use hyphens, use `utgifter` for financial spending in explanatory prose,
 and await project acceptance.
+
+## Reviewed suggestions batch 97
+
+Seven sidebar, currency, recovery, synchronization and browser-storage
+instructions were reviewed through the API: six were accepted and the
+browser-storage instruction remains pending. An alternative withdrawal-order
+explanation replaces the opaque `åtkomstålder` compound with a complete Swedish
+phrase and awaits project acceptance.
