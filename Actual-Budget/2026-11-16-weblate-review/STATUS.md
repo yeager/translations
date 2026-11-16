@@ -307,3 +307,9 @@ as unvoted proposals: `Fäll ut {{group}}` and `Nydesignat sidofält`.
 Fourteen automatic-sync and bank-connection UI strings were accepted through
 the API. The Actual and GoCardless product names are retained; the explanatory
 text was checked as account-sync UI context.
+
+## Reviewed suggestions batch 42
+
+Eleven release, account-group and synchronisation UI strings were accepted
+through the API. The lengthy market-simulation explanations were deferred for
+separate financial terminology review.
