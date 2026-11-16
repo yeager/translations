@@ -554,3 +554,9 @@ Seventeen account-group, investment and filtering strings were reviewed and
 accepted through the API. Better Swedish alternatives were submitted for the
 Discord community label and the two expand controls; they remain pending
 project acceptance.
+
+## Reviewed suggestions batch 74
+
+Seventeen local-storage, account-group and data-folder strings were reviewed
+and accepted through the API. The correctly inflected notifications plural pair
+was submitted through the plural-safe vote path and is verified separately.
