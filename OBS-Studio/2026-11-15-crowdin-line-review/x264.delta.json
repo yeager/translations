@@ -1,0 +1,37 @@
+{
+  "component": "App/Plugins/x264",
+  "source": "OBS Studio current upstream INI catalog, all 14 strings",
+  "reviewed_on": "2026-11-16",
+  "changes": [
+    {
+      "key": "RateControl",
+      "before": "Hastighetskontroll",
+      "after": "Bithastighetskontroll",
+      "reason": "Rate control concerns encoded bitrate, not general speed."
+    },
+    {
+      "key": "KeyframeIntervalSec",
+      "before": "Intervall för keyframes (0=automatiskt)",
+      "after": "Nyckelbildsintervall (0 = automatiskt)",
+      "reason": "Use established OBS terminology and Swedish spacing."
+    },
+    {
+      "key": "CPUPreset",
+      "before": "CPU-användning förinställning (högre = mindre CPU)",
+      "after": "CPU-användningsförinställning (högre = mindre CPU)",
+      "reason": "Use the correct Swedish compound for a CPU-usage preset."
+    },
+    {
+      "key": "None",
+      "before": "(Inga)",
+      "after": "(Ingen)",
+      "reason": "Match the singular profile/tune selection context."
+    },
+    {
+      "key": "HighPrecisionUnsupported",
+      "before": "OBS har inte stöd för användning av x264 med färg-format med högprecision.",
+      "after": "OBS har inte stöd för att använda x264 med färgformat med hög precision.",
+      "reason": "Correct malformed compounds and use natural Swedish syntax."
+    }
+  ]
+}
