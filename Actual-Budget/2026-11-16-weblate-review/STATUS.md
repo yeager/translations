@@ -1287,20 +1287,24 @@ as written. The remaining warnings are retained for a UI-level review once
 Weblate exposes their check category; they are not changed merely to reduce a
 dashboard counter.
 
-## Published-resource synchronization issue
+## Published-resource synchronization check
 
 The current Hosted Weblate API export contains 3,073 Swedish keys, whereas
-the current `actualbudget/translations` `sv.json` contains 1,623. There are
-1,450 Weblate-exported Swedish keys absent from the Git resource that Actual
-checks out at build time. This reproduces the English fallback seen in the
-local browser build. The issue was reported upstream as
-[actualbudget/actual#9569](https://github.com/actualbudget/actual/issues/9569).
-It concerns resource export synchronization, not the project’s intentional
-independent-review policy.
+the current `actualbudget/translations` `sv.json` contains 1,623. This
+reproduces the English fallback seen in the local browser build, but it is not
+currently evidence of a synchronization defect: the component is configured
+with `push_on_commit: true`, `push_on_update: true` and
+`commit_pending_age: 24`. The Swedish acceptances were made after the observed
+repository commit, so Weblate has up to 24 hours to create the next Git commit.
+
+The initial upstream report,
+[actualbudget/actual#9569](https://github.com/actualbudget/actual/issues/9569),
+was promptly corrected and closed as premature. A recheck of the generated
+`sv.json` is required after the pending-commit interval, before concluding
+that an integration defect exists.
 
 The Weblate export is valid JSON. A schema comparison with the current English
 resource found one source-shape difference: English now has the singular key
 `Automatically rename these payees in the future`, while the Weblate export
-still has the older `_one` and `_other` plural pair. This detail was added to
-the upstream issue so that the source refresh can precede any resource
-replacement.
+still has the older `_one` and `_other` plural pair. This must be accounted for
+when the eventual export is validated.
