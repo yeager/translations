@@ -25,6 +25,7 @@
 | loading | läser in / inläsning | Use a verb for live progress text and `inläsning` where a noun is required. |
 | spend / spending (noun) | utgift / utgifter | A cost, an expense total or a report metric. Avoid `spenderande` and `spenderat` as noun labels. |
 | spend (verb) | använda pengar / göra av med pengar | Choose the idiomatic verb form from the sentence; do not mechanically use `spendera`. |
+| overspending adjustment | justering för överutgifter | Budget Analysis series for negative category balances reset at a month boundary. Avoid the unnatural `överspendering`. |
 | server sync | serversynkronisering | Synchronization with Actual's server. |
 | end-to-end encryption | totalsträckskryptering | Established Swedish security term. |
 
