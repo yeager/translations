@@ -61,3 +61,9 @@ underhållargranskning.
 `main`. Den har fortfarande inga granskningar, radkommentarer eller
 check-körningar. Ingen ändring av den granskade katalogen behövs innan
 underhållaren återkommer.
+
+2026-11-16: En ny GitHub-kontroll bekräftar samma sak på commit
+`f3aee8b36f31aed68cbe46816d062c3b96334d23`: PR #348 är öppen, inte ett
+utkast och har status `CLEAN`. Den saknar fortfarande granskningar,
+kommentarer och konfigurerade kontroller. Ingen ny ändring ska göras innan
+underhållaren återkommer.
