@@ -211,3 +211,8 @@ review.
 
 Three savings-pot, report-widget and theme strings were reviewed and accepted
 through the API.
+
+## Reviewed suggestions batch 25
+
+Two one-off withdrawal strings were reviewed and accepted through the API. The
+review preserves all financial placeholders, arithmetic symbols and tax terms.
