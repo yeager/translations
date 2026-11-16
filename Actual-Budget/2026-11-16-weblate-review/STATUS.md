@@ -829,3 +829,10 @@ pair, were reviewed through the API. The batch keeps template markup and
 uses the established `uppföljningsbudget` term. Three singular targets and the
 plural pair were accepted and read back successfully; four detailed labels
 received positive review votes and await project acceptance.
+
+## Reviewed suggestions batch 114
+
+Five formula-field descriptions and one plural budget-average label were
+reviewed and accepted through the API. Formula functions, variable names,
+comparisons and the `TRUE`/`FALSE` tokens were retained exactly; only
+human-readable output strings and prose were translated.
