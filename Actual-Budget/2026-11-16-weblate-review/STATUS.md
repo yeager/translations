@@ -910,3 +910,10 @@ Three investment-allocation explanations were reviewed. Markup, percentages,
 and the established `pott`, `fördelning`, `avkastning` and `volatilitet`
 terminology are retained. All three Swedish punctuation and phrasing
 improvements received positive review votes and await project acceptance.
+
+## Reviewed suggestions batch 125
+
+The detailed annual-withdrawal-order explanation was reviewed as a single
+contextual unit. All fourteen markup placeholders and the established
+investment terminology were retained. The improved Swedish wording has a
+positive review vote and awaits project acceptance.
