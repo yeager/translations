@@ -540,3 +540,10 @@ browser-storage proposals received a positive review vote but were not accepted
 by Weblate and remain pending. The standalone Monte Carlo table heading
 received `Engångsuttag`, matching the established nearby noun; the fragment
 `Engångs` was downvoted and the better term remains pending project acceptance.
+
+## Reviewed suggestions batch 72
+
+Eighteen previously archived tag-management proposals with existing positive
+votes were reviewed again and received a positive review vote through the API.
+Weblate returned `voted` for every proposal and all eighteen units remain
+untranslated, so they are pending project acceptance rather than accepted.
