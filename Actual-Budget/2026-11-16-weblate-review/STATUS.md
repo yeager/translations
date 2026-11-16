@@ -547,3 +547,10 @@ Eighteen previously archived tag-management proposals with existing positive
 votes were reviewed again and received a positive review vote through the API.
 Weblate returned `voted` for every proposal and all eighteen units remain
 untranslated, so they are pending project acceptance rather than accepted.
+
+## Reviewed suggestions batch 73
+
+Seventeen account-group, investment and filtering strings were reviewed and
+accepted through the API. Better Swedish alternatives were submitted for the
+Discord community label and the two expand controls; they remain pending
+project acceptance.
