@@ -1057,3 +1057,9 @@ suggestions await project acceptance.
 Eight tag, goal and transaction strings were reviewed. The tag-name placeholder
 and Swedish quotation marks were retained. Three matching suggestions already
 existed; the other five await project acceptance.
+
+## Reviewed suggestions batch 149
+
+Four data-retention, recovery and dated-goal strings were reviewed. The budget
+identifier placeholder and the distinction between a local copy, a sync server
+and a backup were retained. All four await project acceptance.
