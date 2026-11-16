@@ -194,3 +194,9 @@ portfolio allocation, portfolio performance and the name of a savings pot.
 
 Four budget-navigation and help strings were reviewed and accepted through the
 API, including the month-picker guidance.
+
+## Reviewed suggestions batch 22
+
+The `Notifications` and `Offline` UI strings were reviewed and accepted through
+the API. The plural notification and the financial `Ratcheting` explanation
+were deferred for separate plural and terminology review.
