@@ -26,6 +26,13 @@ Efter ändringarna lästes batcherna tillbaka från API:t. En ny full sökning
 fann exakt de tio kontextuellt korrekta *Empty → Tom*-värdena och inga
 felaktiga värden med tom källa eller *Clear*.
 
+Kontrollen upprepades direkt mot Lokalise API senare samma dag. Den sidvisa
+hämtningen täckte åter samtliga 74 606 svenska översättningar på 150 sidor.
+Den fann tio exakta värden `Tom` och inget `Tomt`; källtext och nyckelkontext
+lästes därefter separat för samtliga tio. Resultatet var oförändrat: alla är
+konkreta tomma tillstånd, inte en svensk återgivning av en annan betydelse av
+engelskans *empty*.
+
 ## Status
 
 Ändringarna är sparade i Lokalise, Home Assistants etablerade
