@@ -1088,3 +1088,17 @@ The checks were reviewed individually. Identical Swedish plural forms remain
 intentional. Six actual issues were submitted as corrections: a double space,
 two transaction/transfer meaning errors, a mathematical term and two unmatched
 terminal periods.
+
+## Runtime verification and upstream status
+
+On 2026-11-16, the current `actualbudget/actual` main branch and the current
+`actualbudget/translations` archive were run locally in Actual's browser mode.
+The current Swedish `sv.json` was loaded successfully. The UI consequently
+shows Swedish wherever the published resource contains a target, and English
+fallback text for keys that have not yet been accepted into that resource.
+
+The maintainer closed [Actual Budget issue #9568](https://github.com/actualbudget/actual/issues/9568)
+with confirmation that the two-independent-translator requirement is
+intentional. A second independent Swedish contributor must therefore vote for
+the pending proposals before they can become published translations. This is
+an upstream workflow constraint, not an application runtime defect.
