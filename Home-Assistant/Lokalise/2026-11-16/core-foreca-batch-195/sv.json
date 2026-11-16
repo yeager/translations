@@ -1,0 +1,13 @@
+{
+  "component::foreca::entity::sensor::precipitation_probability::name": "Sannolikhet för nederbörd",
+  "component::foreca::entity::sensor::thunderstorm_probability::name": "Sannolikhet för åska",
+  "component::foreca::selector::forecast_type::options::daily": "Dagligen",
+  "component::foreca::selector::forecast_type::options::hourly": "Varje timme",
+  "component::foreca::services::get_forecasts_extra::description": "Hämtar de prognosvärden som weather.get_forecasts saknar plats för, till exempel nederbördstyp, snö, solstrålning, solsken, soluppgång och ensembleintervallet för dygnsprognosen. Värdena kommer från den prognos som redan har hämtats, så åtgärden gör inga API-anrop.",
+  "component::foreca::services::get_forecasts_extra::fields::type::description": "Prognosen som värdena ska returneras för.",
+  "component::foreca::services::get_forecasts_extra::fields::type::name": "Prognostyp",
+  "component::foreca::services::get_forecasts_extra::name": "Hämta extra prognosvärden",
+  "component::foreca::exceptions::three_hour_forecast_error::message": "Fel vid hämtning av 3-timmarsprognosen.",
+  "component::foreca::services::get_3_hour_forecast::description": "Hämtar prognosen i 3-timmarssteg för de kommande 14 dagarna, i väderentitetens enheter, med de värden som weather.get_forecasts saknar plats för. Varje anrop gör en förfrågan till Foreca Weather API och räknas mot din plans dagliga gräns.",
+  "component::foreca::services::get_3_hour_forecast::name": "Hämta 3-timmarsprognos"
+}

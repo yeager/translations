@@ -1,0 +1,68 @@
+[
+  {
+    "translation_id": 10276031282,
+    "key_name": "component::foreca::entity::sensor::precipitation_probability::name",
+    "source": "Precipitation probability",
+    "target": "Sannolikhet för nederbörd"
+  },
+  {
+    "translation_id": 10276031347,
+    "key_name": "component::foreca::entity::sensor::thunderstorm_probability::name",
+    "source": "Thunderstorm probability",
+    "target": "Sannolikhet för åska"
+  },
+  {
+    "translation_id": 10276775822,
+    "key_name": "component::foreca::selector::forecast_type::options::daily",
+    "source": "Daily",
+    "target": "Dagligen"
+  },
+  {
+    "translation_id": 10276775887,
+    "key_name": "component::foreca::selector::forecast_type::options::hourly",
+    "source": "Hourly",
+    "target": "Varje timme"
+  },
+  {
+    "translation_id": 10276775952,
+    "key_name": "component::foreca::services::get_forecasts_extra::description",
+    "source": "Retrieves the forecast values that weather.get_forecasts has no place for, such as precipitation type, snow, solar radiation, sunshine, sunrise and the ensemble range of the daily forecast. They come from the forecast already fetched, so the action makes no API requests.",
+    "target": "Hämtar de prognosvärden som weather.get_forecasts saknar plats för, till exempel nederbördstyp, snö, solstrålning, solsken, soluppgång och ensembleintervallet för dygnsprognosen. Värdena kommer från den prognos som redan har hämtats, så åtgärden gör inga API-anrop."
+  },
+  {
+    "translation_id": 10276776017,
+    "key_name": "component::foreca::services::get_forecasts_extra::fields::type::description",
+    "source": "The forecast to return the values for.",
+    "target": "Prognosen som värdena ska returneras för."
+  },
+  {
+    "translation_id": 10276776082,
+    "key_name": "component::foreca::services::get_forecasts_extra::fields::type::name",
+    "source": "Forecast type",
+    "target": "Prognostyp"
+  },
+  {
+    "translation_id": 10276776147,
+    "key_name": "component::foreca::services::get_forecasts_extra::name",
+    "source": "Get extra forecast values",
+    "target": "Hämta extra prognosvärden"
+  },
+  {
+    "translation_id": 10288790515,
+    "key_name": "component::foreca::exceptions::three_hour_forecast_error::message",
+    "source": "Error fetching the 3-hour forecast.",
+    "target": "Fel vid hämtning av 3-timmarsprognosen."
+  },
+  {
+    "translation_id": 10288790580,
+    "key_name": "component::foreca::services::get_3_hour_forecast::description",
+    "source": "Retrieves the forecast in 3-hour steps for the next 14 days, in the weather entity's units, with the values weather.get_forecasts has no place for. Every call makes a request to the Foreca Weather API and counts toward the daily limit of your plan.",
+    "target": "Hämtar prognosen i 3-timmarssteg för de kommande 14 dagarna, i väderentitetens enheter, med de värden som weather.get_forecasts saknar plats för. Varje anrop gör en förfrågan till Foreca Weather API och räknas mot din plans dagliga gräns."
+  },
+  {
+    "translation_id": 10288790645,
+    "key_name": "component::foreca::services::get_3_hour_forecast::name",
+    "source": "Get 3-hour forecast",
+    "target": "Hämta 3-timmarsprognos"
+  }
+]
