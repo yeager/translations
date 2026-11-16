@@ -1,0 +1,194 @@
+[
+  {
+    "translation_id": 10164011459,
+    "key_name": "component::exicom_spin_ble::config::abort::already_configured",
+    "source": "Device is already configured",
+    "target": "Enheten är redan konfigurerad"
+  },
+  {
+    "translation_id": 10164011523,
+    "key_name": "component::exicom_spin_ble::config::abort::no_devices_found",
+    "source": "No Spin EV charger was found over Bluetooth. Check that the charger is powered on, that no phone app is connected to it, and that Home Assistant has a Bluetooth adapter or an ESPHome Bluetooth proxy in range of the charger.",
+    "target": "Ingen Spin EV-laddare hittades via Bluetooth. Kontrollera att laddaren är påslagen, att ingen mobilapp är ansluten till den och att Home Assistant har en Bluetooth-adapter eller en ESPHome-Bluetooth-proxy inom laddarens räckvidd."
+  },
+  {
+    "translation_id": 10164011587,
+    "key_name": "component::exicom_spin_ble::config::abort::not_supported",
+    "source": "This Bluetooth device is not a Spin EV charger.",
+    "target": "Den här Bluetooth-enheten är inte en Spin EV-laddare."
+  },
+  {
+    "translation_id": 10164011651,
+    "key_name": "component::exicom_spin_ble::config::error::cannot_connect",
+    "source": "Failed to connect. Check that the charger is powered on and in Bluetooth range, and that no phone app is connected to it, since it accepts one Bluetooth client at a time.",
+    "target": "Det gick inte att ansluta. Kontrollera att laddaren är påslagen och inom Bluetooth-räckvidd samt att ingen mobilapp är ansluten till den, eftersom den bara accepterar en Bluetooth-klient åt gången."
+  },
+  {
+    "translation_id": 10164011715,
+    "key_name": "component::exicom_spin_ble::config::flow_title",
+    "source": "{name}",
+    "target": "{name}"
+  },
+  {
+    "translation_id": 10164011779,
+    "key_name": "component::exicom_spin_ble::config::step::bluetooth_confirm::description",
+    "source": "Do you want to set up {name}?",
+    "target": "Vill du konfigurera {name}?"
+  },
+  {
+    "translation_id": 10164011843,
+    "key_name": "component::exicom_spin_ble::config::step::user::data::address",
+    "source": "Device",
+    "target": "Enhet"
+  },
+  {
+    "translation_id": 10164011907,
+    "key_name": "component::exicom_spin_ble::config::step::user::data_description::address",
+    "source": "The chargers discovered over Bluetooth, listed by serial number.",
+    "target": "Laddarna som hittades via Bluetooth, listade efter serienummer."
+  },
+  {
+    "translation_id": 10164011971,
+    "key_name": "component::exicom_spin_ble::config::step::user::description",
+    "source": "Choose a device to set up",
+    "target": "Välj en enhet att konfigurera"
+  },
+  {
+    "translation_id": 10164012035,
+    "key_name": "component::exicom_spin_ble::entity::sensor::lifetime_energy::name",
+    "source": "Lifetime energy",
+    "target": "Total energi"
+  },
+  {
+    "translation_id": 10164012099,
+    "key_name": "component::exicom_spin_ble::entity::sensor::session_energy::name",
+    "source": "Session energy",
+    "target": "Sessionsenergi"
+  },
+  {
+    "translation_id": 10164012163,
+    "key_name": "component::exicom_spin_ble::entity::sensor::state::name",
+    "source": "State",
+    "target": "Status"
+  },
+  {
+    "translation_id": 10164012227,
+    "key_name": "component::exicom_spin_ble::entity::sensor::state::state::available",
+    "source": "Available",
+    "target": "Tillgänglig"
+  },
+  {
+    "translation_id": 10164012291,
+    "key_name": "component::exicom_spin_ble::entity::sensor::state::state::booting",
+    "source": "Starting up",
+    "target": "Startar upp"
+  },
+  {
+    "translation_id": 10164012355,
+    "key_name": "component::exicom_spin_ble::entity::sensor::state::state::charging",
+    "source": "Charging",
+    "target": "Laddar"
+  },
+  {
+    "translation_id": 10164012419,
+    "key_name": "component::exicom_spin_ble::entity::sensor::state::state::ev_suspended",
+    "source": "Paused by vehicle",
+    "target": "Pausad av fordonet"
+  },
+  {
+    "translation_id": 10164012483,
+    "key_name": "component::exicom_spin_ble::entity::sensor::state::state::evse_suspended",
+    "source": "Paused by charger",
+    "target": "Pausad av laddaren"
+  },
+  {
+    "translation_id": 10164012547,
+    "key_name": "component::exicom_spin_ble::entity::sensor::state::state::fault",
+    "source": "Fault",
+    "target": "Fel"
+  },
+  {
+    "translation_id": 10164012611,
+    "key_name": "component::exicom_spin_ble::entity::sensor::state::state::finishing",
+    "source": "Finishing",
+    "target": "Avslutar"
+  },
+  {
+    "translation_id": 10164012675,
+    "key_name": "component::exicom_spin_ble::entity::sensor::state::state::idle",
+    "source": "Idle",
+    "target": "Viloläge"
+  },
+  {
+    "translation_id": 10164012739,
+    "key_name": "component::exicom_spin_ble::entity::sensor::state::state::out_of_service",
+    "source": "Out of service",
+    "target": "Ur drift"
+  },
+  {
+    "translation_id": 10164012803,
+    "key_name": "component::exicom_spin_ble::entity::sensor::state::state::starting",
+    "source": "Starting",
+    "target": "Startar"
+  },
+  {
+    "translation_id": 10164012867,
+    "key_name": "component::exicom_spin_ble::entity::switch::charging::name",
+    "source": "Charging",
+    "target": "Laddar"
+  },
+  {
+    "translation_id": 10164012931,
+    "key_name": "component::exicom_spin_ble::exceptions::cannot_read::message",
+    "source": "Could not read the charger: {error}",
+    "target": "Det gick inte att läsa laddaren: {error}"
+  },
+  {
+    "translation_id": 10164012995,
+    "key_name": "component::exicom_spin_ble::exceptions::cannot_send::message",
+    "source": "Could not send the command to the charger: {error}",
+    "target": "Det gick inte att skicka kommandot till laddaren: {error}"
+  },
+  {
+    "translation_id": 10164013059,
+    "key_name": "component::exicom_spin_ble::exceptions::command_rejected::message",
+    "source": "The charger refused the command. It will not start charging without a vehicle plugged in, or stop with no session in progress.",
+    "target": "Laddaren avvisade kommandot. Den startar inte laddning utan ett anslutet fordon och stoppar inte när ingen session pågår."
+  },
+  {
+    "translation_id": 10164013123,
+    "key_name": "component::exicom_spin_ble::exceptions::device_not_found::message",
+    "source": "Could not find the charger with address {address}. {reason}",
+    "target": "Det gick inte att hitta laddaren med adressen {address}. {reason}"
+  },
+  {
+    "translation_id": 10164013187,
+    "key_name": "component::exicom_spin_ble::exceptions::unloading::message",
+    "source": "The command was not sent because the integration is unloading.",
+    "target": "Kommandot skickades inte eftersom integrationen håller på att tas bort."
+  },
+  {
+    "translation_id": 10164013251,
+    "key_name": "component::exicom_spin_ble::options::step::init::data::connection_mode",
+    "source": "Bluetooth connection",
+    "target": "Bluetooth-anslutning"
+  },
+  {
+    "translation_id": 10164013315,
+    "key_name": "component::exicom_spin_ble::options::step::init::data_description::connection_mode",
+    "source": "The charger accepts one Bluetooth client at a time. Stay connected keeps that slot claimed for Home Assistant, which makes polling faster and less likely to fail, and keeps other clients out for as long as the link holds. Reconnect each poll gives the slot up between polls, so the phone app stays usable.",
+    "target": "Laddaren accepterar en Bluetooth-klient åt gången. Behåll anslutningen reserverar platsen för Home Assistant, vilket gör avläsningen snabbare och mindre benägen att misslyckas samt håller andra klienter borta så länge anslutningen består. Återanslut vid varje avläsning frigör platsen mellan avläsningarna, så att mobilappen fortsätter att fungera."
+  },
+  {
+    "translation_id": 10164013379,
+    "key_name": "component::exicom_spin_ble::selector::connection_mode::options::per_poll",
+    "source": "Reconnect each poll",
+    "target": "Återanslut vid varje avläsning"
+  },
+  {
+    "translation_id": 10164013443,
+    "key_name": "component::exicom_spin_ble::selector::connection_mode::options::persistent",
+    "source": "Stay connected",
+    "target": "Behåll anslutningen"
+  }
+]
