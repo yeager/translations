@@ -1,19 +1,30 @@
 {
+  "project": "OBS Studio",
+  "platform": "Crowdin",
+  "locale": "sv-SE",
   "component": "App/Plugins/Jack",
-  "source": "Crowdin live editor, all 3 strings",
-  "reviewed_on": "2026-11-16",
+  "reviewed_at": "2026-11-15",
   "changes": [
     {
       "key": "StartJACKServer",
+      "source": "Start JACK Server",
       "before": "Starta JACK Server",
       "after": "Starta JACK-server",
-      "reason": "Use the normal Swedish compound form for the server name."
+      "reason": "Use the Swedish compound form for the technical role; retain JACK as the product name."
     },
     {
       "key": "JACKInput",
+      "source": "JACK Input Client",
       "before": "JACK Input klient",
-      "after": "JACK-indataklient",
-      "reason": "Use a natural Swedish compound while retaining the JACK product name."
+      "after": "JACK-ingångsklient",
+      "reason": "Translate Input and form an idiomatic Swedish technical compound."
+    }
+  ],
+  "unchanged": [
+    {
+      "key": "Channels",
+      "source": "Number of Channels",
+      "translation": "Antal kanaler"
     }
   ]
 }
