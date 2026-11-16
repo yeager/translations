@@ -88,3 +88,9 @@ stavning, svenska sammansättningar och tydliga instruktioner. De sparades och
 återlästes som Crowdin-översättningarna 450353–450359. Deltafil och kontroller
 finns i `pcsx2-sv-save-state-update-20261116.xliff` och
 `2026-11-16-save-state-update`.
+
+Fyra strängar för avflätning och återgivning ersatte engelska UI-ord och
+förtydligade en prestandavarning. De sparades och återlästes som
+Crowdin-översättningarna 450361–450367. Deltafil och kontroller finns i
+`pcsx2-sv-deinterlace-rendering-20261116.xliff` och
+`2026-11-16-deinterlace-rendering`.
