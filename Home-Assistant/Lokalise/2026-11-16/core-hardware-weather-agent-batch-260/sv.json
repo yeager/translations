@@ -1,0 +1,17 @@
+{
+  "component::libre_hardware_monitor::exceptions::connection_failed::message": "Anslutningen till Libre Hardware Monitor misslyckades. Försöker igen.",
+  "component::libre_hardware_monitor::exceptions::invalid_auth::message": "Autentisering med Libre Hardware Monitor misslyckades.",
+  "component::libre_hardware_monitor::exceptions::no_devices::message": "Inga sensordata är tillgängliga från Libre Hardware Monitor. Försöker igen.",
+  "component::google_weather::exceptions::minute_forecast_error::message": "Fel vid hämtning av minutprognosen: {error}",
+  "component::google_weather::services::get_minute_forecast::description": "Hämtar nederbördsprognosen, en nu-prognos, för upp till 6 timmar. Mängderna returneras i väderenhetens nederbördsenhet. Snömängden avser flytande vattenekvivalent, inte snödjupet. Till skillnad från cachade prognoser gör varje anrop en direkt begäran till Google Weather API och räknas mot din kvot.",
+  "component::google_weather::services::get_minute_forecast::name": "Hämta minutprognos",
+  "component::hlk_sw16::config::abort::cannot_connect": "Det gick inte att ansluta",
+  "component::hlk_sw16::issues::deprecated_yaml_import_issue_cannot_connect::description": "Konfiguration av {integration_title} med YAML tas bort, men det gick inte att nå en enhet när din YAML-konfiguration importerades. Kontrollera att enheten är ansluten och starta om Home Assistant för att försöka importera igen, eller ta bort konfigurationen `{domain}` från filen `configuration.yaml` och konfigurera integrationen från användargränssnittet.",
+  "component::hlk_sw16::issues::deprecated_yaml_import_issue_cannot_connect::title": "Importen av YAML-konfigurationen för {integration_title} misslyckades",
+  "component::agent_dvr::config::abort::cannot_connect": "Det gick inte att ansluta",
+  "component::agent_dvr::config::step::hassio_confirm::description": "Vill du konfigurera Home Assistant så att den ansluter till Agent DVR-servern som tillhandahålls av appen {addon}?",
+  "component::agent_dvr::config::step::hassio_confirm::title": "Agent DVR via Home Assistant-appen",
+  "component::fressnapf_tracker::entity::binary_sensor::seen_recently::name": "Sedd nyligen",
+  "component::fressnapf_tracker::entity::sensor::last_seen::name": "Senast sedd",
+  "component::fressnapf_tracker::entity::sensor::subscription_end::name": "Prenumerationen upphör"
+}
