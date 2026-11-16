@@ -125,3 +125,10 @@ Ten import, synchronization, account-linking and formula-result strings were
 reviewed and accepted through the API. The batch preserves the `{{queryName}}`
 placeholder and the established accounting terms for opening and closing
 balances.
+
+## Terminology
+
+`TERMINOLOGY.md` records the project-specific Swedish decisions used in this
+review, including accounting, scheduling, Tracking Budget and formula-query
+terms. It is based on the reviewed component, the current source and Actual's
+Tracking Budget documentation.
