@@ -560,3 +560,9 @@ project acceptance.
 Seventeen local-storage, account-group and data-folder strings were reviewed
 and accepted through the API. The correctly inflected notifications plural pair
 was submitted through the plural-safe vote path and is verified separately.
+
+## Reviewed suggestions batch 75
+
+Eighteen import, income and transaction strings were reviewed and accepted
+through the API. Better label alternatives were submitted for an income-stream
+name and minimum spending; they remain pending project acceptance.
