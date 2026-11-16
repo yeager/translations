@@ -1089,6 +1089,14 @@ intentional. Six actual issues were submitted as corrections: a double space,
 two transaction/transfer meaning errors, a mathematical term and two unmatched
 terminal periods.
 
+## Reviewed external suggestions batch 154
+
+The monthly-automation message was reviewed against the source and the
+automation UI terminology. Both `{{total}}` and `{{income}}` placeholders plus
+the quoted “Whatever is left” option were retained. A positive independent
+vote was submitted through the Weblate API; readback confirms state `20` and
+no remaining suggestion, so the Swedish target is accepted upstream.
+
 ## Published-resource coverage correction
 
 The local runtime test on 2026-11-16 measured the current upstream resources
