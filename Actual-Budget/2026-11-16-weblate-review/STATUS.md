@@ -481,3 +481,11 @@ and rule terminology remain pending for more specific simulation context.
 Eleven contribution, schedule, currency, tag, transfer-view, account-group and
 release-note strings were accepted through the API. Investment-range and other
 ambiguous feature labels remain pending contextual review.
+
+## Reviewed suggestions batch 64
+
+Six existing suggestions used an em dash even though their English source uses
+a hyphen or ordinary sentence punctuation. Better Swedish alternatives were
+submitted without an em dash, preserving every placeholder. Following explicit
+authorization, the six less suitable alternatives received a negative vote.
+The new alternatives remain pending project acceptance.
