@@ -1,0 +1,29 @@
+# Cataclysm-DDA, svenska: batch 41
+
+Tio aktuella oöversatta strängar ur `master-cataclysm-dda`, hämtade från
+Transifex den 16 november 2026. De hör till avancerat inventarium och dess
+områden för fordon och behållare.
+
+Källkontexten kontrollerades i `src/advanced_inv.cpp` och
+`src/advanced_inv_area.cpp`. `Unload` betyder här att tömma en behållare.
+Tangentmarkören `(U)` behålls som ett faktiskt kortkommando, medan satsen
+omformuleras till naturlig svenska. `Vehicle storage` återges som lastutrymme
+i fordonet och `destination area` som målområdet.
+
+## Kontroller före API-inskick
+
+- Platsmarkörer och kortkommandon ska stämma mellan källa och mål.
+- `l10n-lint --language sv --json-format auto` ska passera utan varningar eller fel.
+- Hunspell-SV och svlang ska granskas manuellt för sammansättningar,
+  platshållare och projektspecifika termer.
+- Ingen otillåten em dash får tillföras. `msgfmt` är inte tillämpligt eftersom
+  Transifex API tar enskilda JSON-översättningar, inte en PO-katalog.
+
+## Inskick och återläsning
+
+Den 16 november 2026 sparades samtliga tio översättningar via Transifex API.
+En ny, oberoende GET-återläsning jämförde sedan varje målsträng med denna
+batch. Alla 10 av 10 stämde exakt.
+
+svlang rapporterade inga språkvarningar. Hunspell-SV rapporterade inga
+stavningsfel; dess analysutmatning innehöll bara vanliga böjningsuppslag.
