@@ -151,3 +151,11 @@ its UI compounds use standard Swedish hyphenation.
 Five formula-mode, sorting, currency and explanatory budget strings were
 reviewed and accepted through the API. The review preserved the established
 `Pengarnas ålder` name for the budget metric.
+
+## Context-checked proposals batch 9
+
+The transaction-edit confirmation and payee-merge source components were
+checked before three API proposals were submitted. They improve the Swedish
+wording for the target payee and for an account reconciliation becoming out of
+balance. All three proposals are pending community review and were not
+self-voted.
