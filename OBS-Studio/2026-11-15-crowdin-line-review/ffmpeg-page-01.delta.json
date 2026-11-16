@@ -1,0 +1,67 @@
+{
+  "component": "App/Plugins/FFmpeg",
+  "source": "Crowdin live editor, page 1 of 3",
+  "reviewed_on": "2026-11-16",
+  "changes": [
+    {
+      "key": "RateControl",
+      "before": "Hastighetskontroll",
+      "after": "Bithastighetskontroll",
+      "reason": "In the encoder context, rate control controls bitrate rather than speed."
+    },
+    {
+      "key": "AMFOpts.ToolTip",
+      "before": "Använd för att ange anpassade AMF- eller FFmpeg-alternativ. Till exempel \"level=5.2 profile=main\". Kontrollera dokumentationen om AMF-kodare för mer information.",
+      "after": "Använd för att ange anpassade AMF- eller FFmpeg-alternativ. Till exempel \"level=5.2 profile=main\". Läs dokumentationen för AMF-kodaren för mer information.",
+      "reason": "Use the correct Swedish construction for the encoder documentation."
+    },
+    {
+      "key": "AMF.PreAnalysis.ToolTip",
+      "before": "Aktiverar förbättrad kodningskvalitet på bekostnad av prestanda genom att beräkna ytterligare mätvärden som aktivitet och spatial komplexitet.",
+      "after": "Aktiverar förbättrad kodningskvalitet på bekostnad av prestanda genom att beräkna ytterligare mätvärden som aktivitet och rumslig komplexitet.",
+      "reason": "Translate spatial in the technical explanation."
+    },
+    {
+      "key": "NVENC.LookAhead.ToolTip",
+      "before": "Aktiverar dynamiska B-frames.\n\nOm detta inaktiveras kommer kodaren alltid använda antalet B-frames som anges i inställningen \"Max B-frames\".\n\nOm detta aktiveras kommer det öka den visuella kvaliteten genom att endast använda så många B-frames som är nödvändigt, upp till det som är möjligt\npå bekostnad av ökad användning av grafikprocessorn.",
+      "after": "Aktiverar dynamiska B-frames.\n\nOm detta inaktiveras använder kodaren alltid antalet B-frames som anges i inställningen \"Max B-frames\".\n\nOm detta aktiveras ökar den visuella kvaliteten genom att endast använda så många B-frames som behövs, upp till det högsta antalet,\npå bekostnad av ökad användning av grafikprocessorn.",
+      "reason": "Restore the maximum-count meaning and use idiomatic Swedish while preserving line breaks."
+    },
+    {
+      "key": "NVENC.I010Unsupported",
+      "before": "NVENC saknar stöd för I010. Använd P010 istället.",
+      "after": "NVENC saknar stöd för I010. Använd P010 i stället.",
+      "reason": "Use standard Swedish orthography."
+    },
+    {
+      "key": "NVENC.NoAV1FallbackPossible",
+      "before": "AV1-kodning är inte tillgänglig med nuvarande inställningar. Försök att inaktivera alla omskalnings- eller grafikprocessorrelaterade inställningar som kan har ändrats. Se loggen för mer information.",
+      "after": "AV1-kodning är inte tillgänglig med de nuvarande inställningarna. Försök att inaktivera eventuell omskalning eller angivna grafikprocessorrelaterade inställningar. Se loggen för mer information.",
+      "reason": "Repair the grammatical error and restore the source meaning about set options."
+    },
+    {
+      "key": "CloseFileWhenInactive.ToolTip",
+      "before": "Stänger filen när källan inte visas i strömmen vid\ninspelning. Detta låter filen att ändras när källan inte är aktiv,\nmen en liten fördröjning kan uppstå när källan aktiveras igen.",
+      "after": "Stänger filen när källan inte visas i strömmen eller\ninspelningen. Det gör det möjligt att ändra filen när källan inte är aktiv,\nmen en liten fördröjning kan uppstå när källan aktiveras igen.",
+      "reason": "Restore the missing or relation and repair the Swedish sentence while preserving line breaks."
+    },
+    {
+      "key": "HelperProcessFailed",
+      "before": "Kan inte spela in hjälpprocessen. Kontrollera att OBS-filer inte har blockerats eller tagits bort av antivirus-/säkerhetsprogram från tredjepart.",
+      "after": "Det gick inte att starta hjälpprocessen för inspelning. Kontrollera att OBS-filer inte har blockerats eller tagits bort av antivirus- eller säkerhetsprogram från tredje part.",
+      "reason": "Restore the failed-to-start meaning and use natural Swedish terminology."
+    },
+    {
+      "key": "UnableToWritePath",
+      "before": "Kan inte skriva till %1. Se till att du använder en inspelningssökväg som ditt användarkonto har tillåtelse att skriva till och att det finns tillräckligt mycket diskutrymme.",
+      "after": "Det går inte att skriva till %1. Kontrollera att ditt användarkonto har behörighet att skriva till inspelningssökvägen och att det finns tillräckligt med diskutrymme.",
+      "reason": "Use idiomatic error wording and clarify the account permission while retaining %1."
+    },
+    {
+      "key": "Encoder.Timeout",
+      "before": "Kodare %1 tar för lång tid för att koda (timeout: %2 sekunder)",
+      "after": "Kodaren %1 tar för lång tid på sig att koda (tidsgräns: %2 sekunder)",
+      "reason": "Use a complete Swedish sentence and translate the generic timeout label while retaining placeholders."
+    }
+  ]
+}
