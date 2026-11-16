@@ -792,3 +792,8 @@ eleven targets were accepted and read back successfully.
 Five pool and early-spending controls were reviewed through the API. The
 ambiguous `scopes` plural remains deferred for contextual terminology review.
 All five targets were accepted and read back successfully.
+
+## Reviewed suggestions batch 105
+
+Four early-spending target controls were reviewed through the API, preserving
+the numeric markup and month placeholders.
