@@ -25,6 +25,11 @@ Detaljer om den äldre slutgranskningen och den senare avvikelsen finns i
 och [API-kontrollen](Lokalise/2026-11-16/correct-language-filter-audit/README.md).
 En senare livekontroll bekräftar att Frontend har 100 % svenska och 0
 återstående ord; se [frontendstatusen](Lokalise/2026-11-16/frontend-live-status.md).
+Samma dags kontroll bekräftar även 100 % och 0 ord kvar för Companion för
+Android och iOS. Core-projektet är synligt i projektlistan men returnerar
+HTTP 403 för den aktuella API-tokenen; den nya kontrollen gör därför inget
+anspråk på aktuell Core-status. Se
+[komponentstatusen](Lokalise/2026-11-16/companion-live-status.md).
 
 ## Kontroller
 
