@@ -678,3 +678,10 @@ budget summary received a positive review vote and remains pending. Alternatives
 were submitted for the two onboarding descriptions to use the established
 `uppföljningsbudgetering` terminology and for the guided-tour help text to use
 `rundtur`; those alternatives await project acceptance.
+
+## Reviewed suggestions batch 91
+
+Five boundary and guardrail status explanations were context-reviewed. Clearer
+alternatives were submitted with complete Swedish noun phrases for planned
+amounts, `skyddsregler` instead of the literal `skyddsräcken`, and no em dash
+where the source uses a hyphen. They await project acceptance.
