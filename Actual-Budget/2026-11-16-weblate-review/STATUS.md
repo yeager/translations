@@ -973,3 +973,10 @@ project acceptance.
 Six investment and budgeting help texts were reviewed. Inline markup, quoted UI
 labels and financial terminology were retained; all six translations are
 positively voted suggestions awaiting project acceptance.
+
+## Reviewed suggestions batch 137
+
+Seven retirement-planning, investment and payee-management strings were
+reviewed. Formula syntax and inline markup were retained. One target was
+accepted and read back; six are positively voted suggestions awaiting project
+acceptance.
