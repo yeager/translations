@@ -145,3 +145,9 @@ and were not self-voted.
 Seven category-control, empty-state and Sankey-report strings were reviewed and
 accepted through the API. `Sankey` remains unchanged as the chart type name;
 its UI compounds use standard Swedish hyphenation.
+
+## Reviewed suggestions batch 15
+
+Five formula-mode, sorting, currency and explanatory budget strings were
+reviewed and accepted through the API. The review preserved the established
+`Pengarnas ålder` name for the budget metric.
