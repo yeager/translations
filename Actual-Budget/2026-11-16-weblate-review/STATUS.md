@@ -960,3 +960,10 @@ The investment-plan inflation label was reviewed, accepted and read back through
 
 The mean and standard-deviation inflation labels were reviewed, accepted and
 read back through the API.
+
+## Reviewed suggestions batch 135
+
+Thirteen short UI strings for time range, currencies, formula queries, account
+selection and automation settings were checked in context. Four targets were
+already accepted; the remaining nine are positively voted suggestions awaiting
+project acceptance.
