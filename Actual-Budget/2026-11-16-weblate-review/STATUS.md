@@ -237,3 +237,9 @@ The `Add key` UI action was reviewed and accepted through the API.
 
 The OpenID warning about closing sessions and revoking existing API keys was
 reviewed and accepted through the API.
+
+## Reviewed suggestions batch 30
+
+The warning about revoking a named integration key was reviewed and accepted
+through the API. The `{{name}}` placeholder and data-retention consequence are
+preserved.
