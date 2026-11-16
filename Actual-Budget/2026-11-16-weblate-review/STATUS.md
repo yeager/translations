@@ -274,3 +274,9 @@ Seven tag and infopanel UI strings were checked in the current source and
 accepted through the API. The `{{ dashboardName }}` and `{{minimumVersion}}`
 placeholders are preserved. A plural and two of the reviewer's own proposals
 were intentionally left for separate handling.
+
+## Reviewed suggestions batch 37
+
+Eight API-key and browser-storage UI strings were checked in the current source
+and accepted through the API. The `{{id}}` placeholder and the product terms
+`OpenID`, `API` and `CLI` are preserved.
