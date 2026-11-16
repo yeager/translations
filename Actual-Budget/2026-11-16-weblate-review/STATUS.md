@@ -1023,3 +1023,10 @@ Eight onboarding, tracking-budget, investment-pot, account-attention and
 navigation strings were reviewed. The plural account alert retains both Swedish
 forms; four matching suggestions already existed and the other four await
 project acceptance.
+
+## Reviewed suggestions batch 144
+
+Thirteen reporting, guided-tour, permission, currency and error strings were
+reviewed. The application-name and error-reference placeholders remain intact.
+Two targets were accepted and read back; existing or new matching suggestions
+cover the remainder.
