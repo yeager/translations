@@ -412,6 +412,11 @@ negative vote where an archived reviewer proposal was concretely better:
 `Genomsnittliga utgifter`, `det högsta belopp` and `Det gick inte att spara`.
 Weblate returned `voted` for each negative-vote call.
 
+Three further archived reviewer proposals with existing positive votes received
+the reviewer's positive vote, while the three less precise alternatives received
+a negative vote. An additional better alternative, `Maskerat skript`, was
+submitted and the competing `Dolt skript` proposal received a negative vote.
+
 ## Reviewed suggestions batch 55
 
 Sixteen filter, transaction-status, infopanel and custom-theme UI strings were
@@ -422,3 +427,10 @@ accepted through the API. The `CSS` term is preserved.
 Twenty transaction, time-setting, currency, account and infopanel error strings
 were accepted through the API. The repeated messages were reviewed as a shared
 UI family to ensure consistent wording.
+
+## Reviewed suggestions batch 57
+
+Nine infopanel, split-status, budget-analysis and money-age UI strings were
+accepted through the API. The `{{count}}` and `{{days}}` placeholders are
+preserved. `Maskerat skript` was submitted as an unvoted alternative to the
+less accurate `Dolt skript`.
