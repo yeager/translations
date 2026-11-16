@@ -362,3 +362,11 @@ Fourteen values, transaction-range, export, budget and server-sync strings were
 accepted through the API. The `<1>` markup is preserved. A more idiomatic,
 unvoted alternative, `Transaktioner genom tiderna`, was submitted for the
 all-time transaction filter.
+
+## Reviewed suggestions batch 50
+
+Sixteen warning, Akahu banking, budget-automation and transaction-schedule
+strings were accepted through the API. The `SharedArrayBuffer` and Akahu names
+and `<2>` markup are preserved. Three unvoted alternatives were submitted:
+`Genomsnittliga utgifter` for the two spending-average labels and
+`Uppföljningsbudget` for the tracking-budget label.
