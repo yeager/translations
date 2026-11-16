@@ -51,3 +51,8 @@ felaktigt förslag. Crowdin avvisar ett nytt identiskt inskick som dubblett;
 inga röster eller historiska översättningar ändrades. Deltafil och
 kontrollresultat finns i `pcsx2-sv-deadzone-labels-20261116.xliff` och
 `2026-11-16-deadzone-labels`.
+
+Etiketten `Deadzone` i helskärmsgränssnittet rättades också till `Dödzon`
+och återlästes som Crowdin-översättning 450321. Underlag och kontroller finns
+i `pcsx2-sv-deadzone-fullscreen-label-20261116.xliff` och
+`2026-11-16-deadzone-fullscreen-label`.
