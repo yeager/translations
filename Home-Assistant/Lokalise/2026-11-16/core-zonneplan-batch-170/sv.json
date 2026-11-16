@@ -1,0 +1,18 @@
+{
+  "component::zonneplan::entity::number::backup_reserve::name": "Reserv för reservkraft",
+  "component::zonneplan::entity::number::max_charge_power::name": "Maximal laddningseffekt",
+  "component::zonneplan::entity::number::max_discharge_power::name": "Maximal urladdningseffekt",
+  "component::zonneplan::entity::number::price_spread::name": "Minsta prisskillnad",
+  "component::zonneplan::exceptions::control_mode_unavailable::message": "Kontrolläget för hembatteriet är ännu inte känt",
+  "component::zonneplan::exceptions::day_ahead_arbitrage_not_active::message": "Den minsta prisskillnaden kan bara ändras när batteriets kontrolläge är arbitrage för kommande dygn.",
+  "component::zonneplan::exceptions::home_optimization_not_active::message": "Effektgränserna kan bara ändras när batteriets kontrolläge är hemoptimering.",
+  "component::zonneplan::entity::sensor::current_quarter_hour_electricity_price::name": "Aktuellt elpris per kvart",
+  "component::zonneplan::exceptions::no_electricity_prices::message": "Zonneplan-kontot har inga elpriser",
+  "component::zonneplan::selector::interval::options::hour": "Timme",
+  "component::zonneplan::selector::interval::options::quarter": "Kvart",
+  "component::zonneplan::services::get_electricity_prices::description": "Returnerar elpriserna inklusive allt från Zonneplan.",
+  "component::zonneplan::services::get_electricity_prices::fields::config_entry::description": "Zonneplan-konfigurationsposten vars priser ska hämtas.",
+  "component::zonneplan::services::get_electricity_prices::fields::config_entry::name": "Konfigurationspost",
+  "component::zonneplan::services::get_electricity_prices::fields::interval::description": "Om ett pris per timme eller kvart ska returneras.",
+  "component::zonneplan::services::get_electricity_prices::name": "Hämta elpriser"
+}
