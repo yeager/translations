@@ -63,3 +63,11 @@ semantics.
 Twenty additional formula-function descriptions were reviewed and accepted via
 the API. The Swedish proposals preserve `TRUE`, `PI`, `#N/A` and the formula
 terminology while keeping each predicate's meaning intact.
+
+## Reviewed suggestions batch 6
+
+Fifteen further formula-function descriptions were reviewed and accepted via
+the API. `Returnerar TRUE om värdet är något fel.` was not endorsed; the
+more idiomatic proposal `Returnerar TRUE om värdet är ett fel.` is pending
+community review. API readback confirms state `20` and no remaining
+suggestion for every accepted unit.
