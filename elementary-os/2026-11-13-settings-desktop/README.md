@@ -11,7 +11,12 @@ kataloger. Deltafilen tar därför bort fuzzy-markeringen utan att ändra
 
 Kontroller: `msgfmt --check --check-format`, l10n-lint, svlang, Hunspell-SV,
 diffkontroll och Gitleaks. `svlang` och Hunspell-SV godkänner själva
-översättningen. Ingen import kunde göras eftersom Weblate-sessionen är
-utloggad och den lokalt tillgängliga nyckelringen saknar en åtkomlig token för
-`l10n.elementaryos.org`. Detta är lokal granskning och arkivering, inte ett
-upstream-inskick eller en upstream-granskning.
+översättningen.
+
+## Uppföljning 16 november 2026
+
+En autentiserad Weblate-kontroll visar att Settings Desktop nu är 100 %
+översatt (94 av 94 strängar) med 0 fuzzy-poster. Både den äldre och den nya
+källtexten för accentfärg har den återlästa måltexten `Accentfärg`. Därmed
+behövs ingen återuppladdning av den lokala enfilsdeltan. Detta bekräftar den
+aktuella sparade Weblate-statusen, inte en separat programrelease.
