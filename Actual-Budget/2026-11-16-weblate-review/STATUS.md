@@ -261,3 +261,9 @@ through the API as `Klar`.
 ## Reviewed suggestions batch 34
 
 The API-key loading error message was reviewed and accepted through the API.
+
+## Reviewed suggestions batch 35
+
+Ten API-key, retry and tag-management UI strings were checked in the current
+source and accepted through the API. The batch preserves the `{{id}}`, `{{tag}}`
+and `{{name}}` placeholders.
