@@ -1105,6 +1105,13 @@ selected target and the current month. An independent positive API vote
 accepted the proposal; API readback confirms state `20` and no remaining
 suggestion.
 
+## Reviewed external suggestions batch 156
+
+The Enable Banking integration-status message was reviewed in its service
+setup context. The accepted wording retains the product name and uses the
+established Swedish software term `integration`. An independent positive API
+vote accepted the external proposal; readback confirms state `20`.
+
 ## Published-resource coverage correction
 
 The local runtime test on 2026-11-16 measured the current upstream resources
