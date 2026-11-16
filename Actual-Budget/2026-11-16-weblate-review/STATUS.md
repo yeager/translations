@@ -762,3 +762,12 @@ Fifteen investment-projection, chart, budget-analysis and location-management
 labels were reviewed through the API. The established financial terms
 `insättning`, `avkastning`, `slutsaldo` and `överspendering` are used
 consistently. All fifteen targets were accepted and read back successfully.
+
+## Reviewed suggestions batch 101
+
+Three formula-query descriptions were reviewed using the established `Fråga`
+terminology. Seven units unexpectedly contained Dutch targets in the Swedish
+component. Swedish replacements were submitted, but Weblate returned HTTP 403
+when a review vote was attempted because the affected, already-approved units
+are locked. The formula-query proposals received positive review votes but
+remain pending project acceptance.
