@@ -6,12 +6,12 @@ Gränssnittets 2 880 svenska strängar granskas rad för rad. Detta underlag
 beskriver endast det arbete som är färdigt och sparat hittills; det innebär
 inte att hela komponenten är färdiggranskad.
 
-501 strängar har rättats och återlästs via Lokalise API. Rättningarna omfattar
+532 strängar har rättats och återlästs via Lokalise API. Rättningarna omfattar
 bland annat inläsning och hämtning, svenska benämningar för tillägg, mål i
 stället för destination, en felkopplad mobilvytext, nollbreddsmellanslag och
 felaktig engelskpåverkad terminologi. Den senaste genomgången omfattar också
 frågesport, AI-radio, DSP, faltning, spelarkonfiguration, behörigheter,
-lagring, poddar, statistik och MilkDrop.
+lagring, poddar, statistik, marknadsplatsen och MilkDrop.
 
 Den uppdaterade resursen passerar svlang. l10n-lint hittar inga fel, men 25
 befintliga katalogomfattande varningar återstår för bland annat skiljetecken
