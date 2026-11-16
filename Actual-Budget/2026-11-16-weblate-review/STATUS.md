@@ -517,3 +517,10 @@ Twenty-seven security and settings strings were reviewed and accepted through
 the API. `End-to-end-kryptering` was submitted as the established project term
 for the remaining security label; it is preferred over the inconsistent
 `Totalsträckskryptering` suggestion and remains pending project acceptance.
+
+## Reviewed suggestions batch 69
+
+Twenty-six forecast, transaction and account strings were reviewed and accepted
+through the API. Four clearer alternatives were submitted for the remaining UI
+labels: `Automatiskt`, `Måluppfyllelse`, a formal SimpleFIN maintenance message
+and `Ta bort kontobegränsning`. They remain pending project acceptance.
