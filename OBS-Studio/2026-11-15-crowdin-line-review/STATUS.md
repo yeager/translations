@@ -293,9 +293,13 @@ The archive now contains 342 prepared corrections across all reviewed OBS compon
 
 2026-11-16: reviewed all 56 strings in the current upstream `App/Plugins/Windows Capture` INI catalog. `windows-capture.delta.json` supplies four missing translations and corrects capture semantics, transparency, source names, compatibility guidance and the audio-capture tooltip. The corrections are prepared locally and have not been saved in Crowdin.
 
-## Scope and next batch
+2026-11-16: reviewed all 4 strings in the current upstream `App/Plugins/PulseAudio` INI catalog. The established audio-device wording is consistent with the adjacent OSS and WASAPI catalogs; no delta was needed.
 
-Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The live `App/Core`, `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters`, Steam metadata and `AJA Output UI` components are reviewed. Continue with the remaining plugin components, beginning with `AJA I/O Device Capture and Output`.
+## Scope and current state
+
+All 42 English OBS plug-in catalogs are accounted for in this audit: the 38 catalogs with a current Swedish file were reviewed line by line, while the three missing Swedish catalogs (ASIO Output UI, Windows ASIO and VST3) are covered by the existing upstream PR #14209. The remaining English-only macOS Virtual Camera catalog has no visible strings.
+
+Crowdin's live `App/Core`, Jack, Mac Virtualcam, NVENC, NVIDIA Filters, Steam metadata and AJA Output UI components were also reviewed directly. All later batches are based on the current OBS upstream INI catalogs, keep raw exports unchanged, and await a separate verified Crowdin submission.
 
 ## Checks
 
