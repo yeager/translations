@@ -579,3 +579,10 @@ clearer alternatives for the remaining controls and await project acceptance.
 Three troubleshooting and experimental-feature messages were reviewed and
 accepted through the API. The other-schedules plural pair was accepted through
 the plural-safe path.
+
+## Reviewed suggestions batch 78
+
+Eight retirement-model labels were reviewed and accepted through the API. Four
+clearer alternatives were submitted for the age label, two run-status labels
+and the Spending tab, avoiding an em dash where the source has a hyphen. They
+remain pending project acceptance.
