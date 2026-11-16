@@ -1206,6 +1206,15 @@ balances, historical return scenarios, migration repair text and investment
 phases. A separate reviewer vote accepted all twenty. Weblate readback reports
 2,978 of 3,017 Swedish units translated (98.7%).
 
+## Spendera terminology review batch 166
+
+Every current accepted target containing a form of `spendera` was reviewed.
+Twelve targets were replaced and independently accepted. Financial metrics and
+view labels use `utgifter`; prose where money is used now says `använda
+pengar`. This includes the budget-tour explanation, Age of Money, report
+labels, balance guidance and withdrawal wording. All tags and placeholders
+were compared before submission.
+
 ## Published-resource coverage correction
 
 The local runtime test on 2026-11-16 measured the current upstream resources
