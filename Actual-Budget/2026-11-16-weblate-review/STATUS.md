@@ -1377,3 +1377,12 @@ The stable-identity limitation is also recorded in upstream issue #9570 for
 maintainer design review. A future durable fix needs synchronized default
 metadata and a conservative migration for untouched existing dashboards; it
 must not infer default provenance from a title alone.
+
+## CI result for dashboard PR
+
+All 38 CI checks for PR #9571 head `da06510` completed successfully, including
+web, desktop, mobile, Linux, macOS and Windows builds, unit/integration tests,
+functional and visual regression shards, CodeQL, lint, typecheck and the
+project's migration checks. The PR remains open rather than merge-ready:
+CodeRabbit retains a change-requested review for the documented stable
+identity/design issue. No human maintainer review or merge has occurred.
