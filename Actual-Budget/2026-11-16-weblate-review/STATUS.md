@@ -653,3 +653,11 @@ em dash, while the financial percentages and the Swedish space-before-percent
 convention are preserved. `Ålder då potten blir tillgänglig` was submitted as a
 clearer alternative to the fragmentary accessibility-age label and awaits
 project acceptance.
+
+## Reviewed suggestions batch 88
+
+Nine Monte Carlo withdrawal-rule and simulation strings were reviewed and
+accepted through the API. Two fee and tax descriptions received alternatives
+that replace em dashes with Swedish full-stop and colon constructions because
+their source strings use hyphens, not em dashes. Those alternatives await
+project acceptance; the ambiguous `First earnings` label remains deferred.
