@@ -105,3 +105,9 @@ Twenty synchronization, category-management, banking and reporting strings
 were reviewed and accepted through the API. The accepted translations retain
 `{{monthYearFormatted}}`, distinguish categories from category groups, and use
 the established Swedish banking term `ingående saldo`.
+
+## Reviewed suggestions batch 11
+
+Fifteen report, tag and account-management messages were reviewed and accepted
+through the API. The batch preserves PluggyAI and SimpleFIN as product names,
+and uses the same `kategorigrupp` terminology as the previous review.
