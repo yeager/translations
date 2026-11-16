@@ -1273,3 +1273,16 @@ negative category balances that are reset at a month boundary. The wording
 `överspendering` was therefore replaced with the clearer report label
 `Justering för överutgifter:`. Both suggestions received an independent
 reviewer vote and API readback confirms the accepted targets.
+
+## Check-warning audit, current API snapshot
+
+After the terminology correction, the component reports 97 failing checks.
+The public REST unit representation exposes only `has_failing_check`, not the
+individual check name, so each check type cannot be mechanically dismissed.
+The current flagged set contains five documented Swedish plural-form cases and
+eight intentional source-equals-target literals: the app/server version line,
+the `yyyy` date pattern, `Trend`, `Sankey`, `Period`, `Exponent`, `Inflation`
+and `Inflation (%)`. Those strings are technically or terminologically valid
+as written. The remaining warnings are retained for a UI-level review once
+Weblate exposes their check category; they are not changed merely to reduce a
+dashboard counter.
