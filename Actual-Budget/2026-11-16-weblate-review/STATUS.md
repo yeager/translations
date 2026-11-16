@@ -504,3 +504,9 @@ Thirteen import, planning, error, status and calculation strings were reviewed
 and accepted through the API. Placeholders and markup are preserved. The import
 progress label `Setting up...` remains pending because `Ställer in...` does not
 fit that operation's context.
+
+## Reviewed suggestions batch 67
+
+Twenty formula, simulation, authentication and settings strings were reviewed
+and accepted through the API. Formula decimal points and identifiers remain
+unchanged, while Swedish UI typography is used in explanatory prose.
