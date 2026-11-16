@@ -21,4 +21,12 @@ Kontroller:
 
 Projektspecifik generering med Slang kördes inte eftersom Dart saknas i arbetsmiljön. Gitleaks över projektets fulla git-historik fann en redan befintlig träff; den påverkar inte denna deltafil och behöver projektets egen bedömning.
 
-Upstream: inskickat som [LocalSend PR #3706](https://github.com/localsend/localsend/pull/3706) den 13 november 2026. PR:en är öppen mot `main`. CodeRabbit har slutfört sin kontroll utan åtgärdskommentarer. Mänsklig upstreamgranskning och merge är ännu inte verifierade.
+Upstream: inskickat som [LocalSend PR #3706](https://github.com/localsend/localsend/pull/3706) den 13 november 2026. PR:en är öppen mot `main`. CodeRabbit har slutfört sin kontroll utan åtgärdskommentarer.
+
+## Senast verifierade GitHub-status
+
+Kontrollerad 16 november 2026: PR:en är fortfarande öppen, inte ett utkast och
+inte mergad. Den enda genomförda kontrollen, CodeRabbit, är godkänd. GitHub
+rapporterar `REVIEW_REQUIRED` och `BLOCKED`, vilket betyder att en mänsklig
+upstreamgranskning krävs innan den kan mergas. Det finns inga
+granskningskommentarer att åtgärda.
