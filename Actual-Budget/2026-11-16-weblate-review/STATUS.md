@@ -852,3 +852,11 @@ identifiers such as `QUERY_EXTRACT_CATEGORIES()` and
 `QUERY_EXTRACT_TIMEFRAME_END()` remain unchanged. Twenty labels were accepted
 and read back successfully; two labels have positive review votes pending
 project acceptance.
+
+## Reviewed suggestions batch 117
+
+Nineteen formula-builder labels for numeric, logical and query operations were
+reviewed through the API. `budgeted`, `spent`, `balance_start`, `balance_end`
+and `goal` remain code values. Fourteen targets were accepted and read back;
+five terminology improvements, including Actual's established `fråga`, have
+positive review votes pending project acceptance.
