@@ -189,3 +189,8 @@ placeholder and uses the accounting term `löpande saldo`.
 
 Three investment-planning strings were reviewed and accepted through the API:
 portfolio allocation, portfolio performance and the name of a savings pot.
+
+## Reviewed suggestions batch 21
+
+Four budget-navigation and help strings were reviewed and accepted through the
+API, including the month-picker guidance.
