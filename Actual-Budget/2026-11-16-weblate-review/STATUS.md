@@ -592,3 +592,9 @@ remain pending project acceptance.
 Twenty-one withdrawal, simulation and query-preset strings were reviewed and
 accepted through the API. `Årliga utgifter` and the two date-range labels with
 `under` were submitted as clearer alternatives and await project acceptance.
+
+## Reviewed suggestions batch 80
+
+Twenty-five contribution and financial-formula strings were reviewed and
+accepted through the API. `Namn på insättning` was submitted as the clearer
+table heading for the remaining contribution-name field and awaits acceptance.
