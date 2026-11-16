@@ -20,3 +20,7 @@ strängar finns enligt Lokalise API.
 
 En sparad och återläst översättning betyder inte att en ny version av
 gränssnittet har byggts eller publicerats.
+
+En senare [livekontroll](../2026-11-16-non-server-live-status/README.md)
+bekräftar också 100 % och 0 återstående svenska ord för Frontend, Desktop och
+Mobile.
