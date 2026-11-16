@@ -2,6 +2,11 @@
 
 Status: prepared locally; not sent.
 
+OBS maintainers confirmed on 2026-11-15 that translations are accepted through
+Crowdin, not GitHub pull requests. This plan is therefore the only upstream
+submission path for the reviewed catalogs, including ASIO Output UI, Windows
+ASIO and VST3.
+
 The archive contains 550 validated Swedish changes. They must be applied to
 the current live Crowdin strings, not uploaded as whole INI catalogs: the
 local OBS checkout can lag behind Crowdin and a full-file upload could replace

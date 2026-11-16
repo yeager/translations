@@ -32,6 +32,7 @@ respektive engelsk källkatalog.
 
 ## Upstreamstatus
 
-PR:en är öppen. Vid verifieringen hade den inga kommentarer, granskningar
-eller CI-kontroller ännu. Merge-status var `UNSTABLE`; ingen merge eller
-utgåva är verifierad.
+PR #14209 stängdes utan merge 2026-11-15. En projektmedlem bekräftade att OBS
+hanterar alla översättningar via Crowdin. Katalogerna ska därför inte skickas
+som GitHub-PR utan läggas in i Crowdin tillsammans med de övriga verifierade
+svenska ändringarna. Ingen merge eller utgåva är verifierad.
