@@ -1,0 +1,25 @@
+{
+  "component": "App/Plugins/sndio",
+  "source": "OBS Studio current upstream INI catalog, all 5 strings",
+  "reviewed_on": "2026-11-16",
+  "changes": [
+    {
+      "key": "BitsPerSample",
+      "before": "Bitar per sampling",
+      "after": "Bitar per sampel",
+      "reason": "Use the established Swedish audio term for bits per sample."
+    },
+    {
+      "key": "Rate",
+      "before": "Hastighet",
+      "after": "Samplingsfrekvens",
+      "reason": "The audio setting denotes sample rate, not general speed."
+    },
+    {
+      "key": "SndioInput",
+      "before": "Sndio-inmatningsklient",
+      "after": "sndio-ingångsklient",
+      "reason": "Use the established OBS client compound and the project's lowercase sndio spelling."
+    }
+  ]
+}
