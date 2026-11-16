@@ -328,3 +328,10 @@ Four onboarding strings were accepted through the API, with `{{appName}}` and
 English loanword in the tracking-budget explanation with `uppföljningsbudget`.
 The tour and investment-pot wording remains pending because it needs separate
 UI terminology review.
+
+## Reviewed suggestions batch 45
+
+Fifteen simulation settings and result UI strings were accepted through the API.
+The `{{age}}`, `{{number}}`, `{{total}}`, `{{from}}` and `{{to}}` placeholders
+are preserved. Ratcheting terminology, its explanatory copy and two proposals
+using an em dash contrary to the source punctuation were left pending.
