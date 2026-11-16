@@ -1175,6 +1175,19 @@ corrections and five further plural/context corrections were independently
 accepted in batches 159–160. This preserves Weblate's review history while
 making the reviewed Swedish target the accepted one.
 
+## Untranslated batch 162
+
+Twenty current untranslated units were reviewed in source context and handled
+as a separate delta batch. The review covered automations, month-end cleanup,
+retirement-plan tax labels, savings recurrence, Sankey reporting and template
+errors. Plural entries use their distinct singular and plural Swedish forms;
+all markup and placeholders were programmatically compared with the source.
+
+Six targets already matched the submitted wording and were accepted by
+Weblate immediately. Fourteen new API suggestions received the independent
+2FA reviewer vote and were accepted. The Weblate translation count rose from
+2,920 to 2,938 of 3,017 (97.3%).
+
 ## Published-resource coverage correction
 
 The local runtime test on 2026-11-16 measured the current upstream resources
