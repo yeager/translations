@@ -929,3 +929,7 @@ project acceptance.
 The planned-spending inflation explanation was reviewed and accepted through
 the API. Both markup placeholders were retained and the target was read back
 successfully.
+
+## Reviewed suggestions batch 128
+
+One investment-plan failure status was reviewed. Both placeholders are preserved; the improved target has a positive review vote and awaits project acceptance.
