@@ -844,3 +844,11 @@ and transaction data were reviewed. Code-level identifiers, formula functions
 and the `YYYY-MM-DD` format token are unchanged. Three translations were
 accepted and read back with the required paragraph breaks; three revised
 alternatives received positive review votes and await project acceptance.
+
+## Reviewed suggestions batch 116
+
+Twenty-two form-builder field labels were reviewed through the API. Formula
+identifiers such as `QUERY_EXTRACT_CATEGORIES()` and
+`QUERY_EXTRACT_TIMEFRAME_END()` remain unchanged. Twenty labels were accepted
+and read back successfully; two labels have positive review votes pending
+project acceptance.
