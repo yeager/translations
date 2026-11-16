@@ -22,6 +22,7 @@
 | regular expression | reguljärt uttryck | Standard technical term. |
 | data directory | datakatalog | Actual storage location. |
 | server sync | serversynkronisering | Synchronization with Actual's server. |
+| end-to-end encryption | totalsträckskryptering | Established Swedish security term. |
 
 Product names, API names, placeholders, formula literals, currency codes and
 visible identifiers are retained unchanged unless a separate source explicitly

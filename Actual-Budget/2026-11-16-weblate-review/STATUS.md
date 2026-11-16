@@ -514,9 +514,10 @@ unchanged, while Swedish UI typography is used in explanatory prose.
 ## Reviewed suggestions batch 68
 
 Twenty-seven security and settings strings were reviewed and accepted through
-the API. `End-to-end-kryptering` was submitted as the established project term
-for the remaining security label; it is preferred over the inconsistent
-`Totalsträckskryptering` suggestion and remains pending project acceptance.
+the API. The user confirmed `Totalsträckskryptering` as the correct Swedish
+security term. The prior negative vote was corrected to a positive vote, which
+accepted the term; Weblate removed the competing `End-to-end-kryptering`
+proposal automatically.
 
 ## Reviewed suggestions batch 69
 
