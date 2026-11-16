@@ -747,3 +747,11 @@ After batch 98, Weblate reports 463 Swedish units that are still untranslated
 and have at least one suggestion. They are queued for contextual review; this
 count is a live snapshot, not a claim that all proposed translations are
 correct or accepted.
+
+## Reviewed suggestions batch 99
+
+Ten history, interval, currency, formula, query and server-status labels were
+reviewed through the API. The batch preserves `TRUE`, OpenID and query syntax,
+and uses `Fråga` consistently for Actual's formula/query feature. Two targets
+were accepted; the other eight received positive review votes and remain
+pending project acceptance.
