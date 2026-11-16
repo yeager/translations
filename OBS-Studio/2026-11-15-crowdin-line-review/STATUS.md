@@ -237,6 +237,8 @@ The archive now contains 342 prepared corrections across all reviewed OBS compon
 
 2026-11-16: reviewed all 5 strings in the live `App/Plugins/ALSA` component. `alsa.delta.json` corrects the audio-device meaning of `Rate` to `Samplingsfrekvens`. None has been saved upstream.
 
+2026-11-16: reviewed all 4 strings in the live `App/Plugins/CoreAudio` component. `coreaudio.delta.json` normalizes the established audio term `samplingsfrekvens`. None has been saved upstream.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The live `App/Core`, `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters`, Steam metadata and `AJA Output UI` components are reviewed. Continue with the remaining plugin components, beginning with `AJA I/O Device Capture and Output`.
@@ -250,5 +252,5 @@ Crowdin currently lists 100%-translated Swedish components with widely varying a
 - svlang: the installed CLI only accepts plain text through `svlang check`; it has no INI parser. The translations were reviewed in their source/UI context instead.
 - Hunspell was intentionally not run, following the current CPU constraint.
 - Gitleaks: passed for the archive payload.
-- Latest delta audit: all 396 proposed changes pass JSON parsing plus placeholder, markup and escaped-line-break parity checks; `git diff --check` and Gitleaks pass.
+- Latest delta audit: all 397 proposed changes pass JSON parsing plus placeholder, markup and escaped-line-break parity checks; `git diff --check` and Gitleaks pass.
 - svlang: run on the combined delta text. Its aggregate score and 74 warnings are false positives caused by concatenated UI fragments, code/format tokens, product names and markup; each delta remains reviewed in source context. It has no INI parser.
