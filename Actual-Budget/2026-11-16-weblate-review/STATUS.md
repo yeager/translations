@@ -1098,6 +1098,14 @@ sections still fall back to English. Weblate's component aggregate must not be
 reported as published-file coverage; the current downloadable resource is the
 authoritative measure for the local application.
 
+The distinction was independently verified against both upstream interfaces.
+The Weblate API reports 2,762 saved Swedish targets out of 3,017 units, while
+the Weblate-generated `actualbudget/translations` commit
+`0f695a5a1d22cfe2c1381d92ffe40a0154a2d9a9` explicitly records its published
+Swedish file as “1,623 of 3,017 strings” (53.7%). Suggested targets are not
+accepted for publication until they receive the required independent votes;
+the application consumes the Git resource, not the broader Weblate aggregate.
+
 ## Runtime verification and upstream status
 
 On 2026-11-16, the current `actualbudget/actual` main branch and the current
