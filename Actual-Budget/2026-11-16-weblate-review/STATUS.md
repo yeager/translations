@@ -995,3 +995,10 @@ Seven script, reconciliation, FIFO and template-migration strings were
 reviewed. The existing Swedish proposals for the reconciliation warnings use
 the more idiomatic “ur balans” and remain the preferred targets. One short UI
 label was accepted and read back; the others await project acceptance.
+
+## Reviewed suggestions batch 140
+
+Eleven Enable Banking setup, security and error strings were reviewed. Service
+and product names, HTTPS, PSD2, the application identifier, the secret key and
+inline privacy-policy markup were retained. Four targets were accepted and read
+back; seven are positively voted suggestions awaiting project acceptance.
