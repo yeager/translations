@@ -2,9 +2,9 @@
 
 Senast uppdaterad: 2026-11-16
 
-Den aktuella svenska Lokalise-kön är genomgången rad för rad där källtext
-finns. Ändringarna är sparade via Lokalise API och varje ändring har lästs
-tillbaka från API:t efter sparningen.
+Den svenska Lokalise-kön har granskats rad för rad där källtext finns.
+Ändringarna är sparade via Lokalise API och varje ändring har lästs tillbaka
+från API:t efter sparningen.
 
 Slutkontrollen returnerar 33 poster i Lokalises filter för oöversatta
 översättningar, men ingen av dem innehåller översättningsbar källtext:
@@ -13,9 +13,15 @@ Slutkontrollen returnerar 33 poster i Lokalises filter för oöversatta
 - 9 översättningsposter saknar sin nyckel; respektive nyckel ger HTTP 404 i
   Lokalise API och kan bara städas av projektadministrationen.
 
-Alltså återstår inga svenska strängar att översätta i den aktuella kön.
-Detaljer och metod finns i
-[slutgranskningen](Lokalise/2026-11-16/core-empty-source-audit/README.md).
+En senare API-kontroll med Lokalises språk-ID-filter visar dock ytterligare
+47 markerade Core-poster och 11 markerade frontendposter. De ska först
+kontrolleras mot aktuell engelsk källa och nyckelstatus. Det går därför inte
+längre att påstå att hela HA-kön är klar. Android och iOS har däremot 0
+oöversatta svenska poster i den nya kontrollen.
+
+Detaljer om den äldre slutgranskningen och den senare avvikelsen finns i
+[slutgranskningen](Lokalise/2026-11-16/core-empty-source-audit/README.md)
+och [API-kontrollen](Lokalise/2026-11-16/correct-language-filter-audit/README.md).
 
 ## Kontroller
 
