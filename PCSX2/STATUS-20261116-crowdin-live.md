@@ -62,3 +62,10 @@ missvisande `nedladdning` till `hämtning`. De sparades och återlästes som
 Crowdin-översättningarna 450323, 450325 och 450327. Deltafil och kontroller
 finns i `pcsx2-sv-gs-hamtning-20261116.xliff` och
 `2026-11-16-gs-hamtning`.
+
+Ett senare riktat QA-urval bekräftade främst korrekta produktnamn och svenska
+tekniska sammansättningar. Det fann en verklig satsavvikelse i statusen för
+`Rich presence`; den slutliga formuleringen sparades och återlästes som
+Crowdin-översättning 450331. Deltafil och granskning finns i
+`pcsx2-sv-rich-presence-status-20261116.xliff` och
+`2026-11-16-qa-sample-05`.
