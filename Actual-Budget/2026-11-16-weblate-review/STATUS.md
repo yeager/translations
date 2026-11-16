@@ -1188,6 +1188,16 @@ Weblate immediately. Fourteen new API suggestions received the independent
 2FA reviewer vote and were accepted. The Weblate translation count rose from
 2,920 to 2,938 of 3,017 (97.3%).
 
+## Untranslated batch 163
+
+Twenty more untranslated units were reviewed in the Monte Carlo retirement
+planner context. The batch covers tax bands, investment pots, historical
+market data, floor-and-ceiling and Ratcheting withdrawal rules. All markup,
+entities and interpolation placeholders were verified before submission.
+Nineteen new suggestions were independently accepted; one already matching
+target was accepted directly. Weblate then reported 2,958 of 3,017 Swedish
+units translated (98.0%).
+
 ## Published-resource coverage correction
 
 The local runtime test on 2026-11-16 measured the current upstream resources
