@@ -200,3 +200,9 @@ API, including the month-picker guidance.
 The `Notifications` and `Offline` UI strings were reviewed and accepted through
 the API. The plural notification and the financial `Ratcheting` explanation
 were deferred for separate plural and terminology review.
+
+## Reviewed suggestions batch 23
+
+The encoding label and unchanged `ISO-8859-2` format name were reviewed and
+accepted through the API. The auto-detection label was deferred for UI-context
+review.
