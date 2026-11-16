@@ -669,3 +669,12 @@ API. Three alternatives for fixed costs, an unlucky run and a live balance were
 submitted without em dashes because their source strings use hyphens, not em
 dashes. The tax-bands explanation remains deferred for separate Swedish tax
 terminology review.
+
+## Reviewed suggestions batch 90
+
+Two budget-introduction and Monte Carlo model explanations, plus a schedule
+preview plural pair, were reviewed and accepted through the API. The tracking
+budget summary received a positive review vote and remains pending. Alternatives
+were submitted for the two onboarding descriptions to use the established
+`uppföljningsbudgetering` terminology and for the guided-tour help text to use
+`rundtur`; those alternatives await project acceptance.
