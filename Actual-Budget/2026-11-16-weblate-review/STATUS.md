@@ -35,3 +35,11 @@ and placeholders. Nine received a positive API vote and were accepted by
 Weblate. Readback of all nine units shows state `20` with the reviewed Swedish
 target and `has_suggestion: false`. The `All time` proposal was voted on but
 remains subject to the component's voting workflow.
+
+## Reviewed suggestions batch 2
+
+Nine further UI, finance and server strings were reviewed and accepted through
+the suggestion vote endpoint. Two weak suggestions were not endorsed:
+`Lankesisk rupie` was replaced with `Srilankesisk rupie`, and `Trimma
+intervall` with the clearer `Beskär intervall`. Both replacements are pending
+community review.
