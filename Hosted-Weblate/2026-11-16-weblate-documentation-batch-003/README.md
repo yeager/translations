@@ -1,0 +1,25 @@
+# Hosted Weblate – Weblate Documentation – svenska – batch 003
+
+Datum: 2026-11-16
+
+## Omfattning
+
+Fem tomma dokumentationssträngar om identitetsverifiering, validering av läckta lösenord och CSV-hantering har granskats och sparats direkt i Hosted Weblate.
+
+| Engelska | Svenska |
+| --- | --- |
+| Opening the :guilabel:`Users` page requires recent identity verification, including for users with read-only access. Weblate requests a second factor when configured, or an existing sign-in credential otherwise. Verification remains valid for ten minutes and is checked again when submitting changes. | För att öppna sidan :guilabel:`Användare` krävs nylig identitetsverifiering, även för användare med skrivskyddad åtkomst. Weblate begär en andra faktor när den har konfigurerats, annars en befintlig inloggningsuppgift. Verifieringen är giltig i tio minuter och kontrolleras på nytt när ändringar skickas in. |
+| In :guilabel:`Manage` → :guilabel:`Users`, select :guilabel:`Validate leaked passwords` to upload a CSV report containing usernames or e-mail addresses and passwords. This requires the global ``user.edit`` permission and recent identity verification. Reports and findings are shared with other administrators who have this permission. Opening the security report or an individual finding also requires recent identity verification. | I :guilabel:`Hantera` → :guilabel:`Användare` väljer du :guilabel:`Validera läckta lösenord` för att ladda upp en CSV-rapport med användarnamn eller e-postadresser och lösenord. Detta kräver den globala behörigheten ``user.edit`` och nylig identitetsverifiering. Rapporter och fynd delas med andra administratörer som har denna behörighet. Det krävs även nylig identitetsverifiering för att öppna säkerhetsrapporten eller ett enskilt fynd. |
+| The CSV upload form opens on a separate page after identity verification. If verification expires before the upload is submitted, confirm your identity again and select the file for another upload. Weblate does not retain uploads rejected because verification expired. | Formuläret för CSV-uppladdning öppnas på en separat sida efter identitetsverifiering. Om verifieringen går ut innan uppladdningen skickas in bekräftar du din identitet igen och väljer filen för en ny uppladdning. Weblate behåller inte uppladdningar som avvisas för att verifieringen har gått ut. |
+| Weblate detects common delimiters and credential column names automatically. If detection fails, configure the delimiter, whether the file has a header, and the column numbers, starting from one. Use UTF-8 files of at most 10 MiB and 50,000 data rows. The uploaded file remains available for configuration for one hour. Validation runs in the background and redirects to stored findings when complete. The summary counts unknown or ambiguous accounts, unusable passwords, malformed or duplicate entries, and matching or nonmatching passwords. | Weblate identifierar vanliga avgränsare och namn på autentiseringskolumner automatiskt. Om identifieringen misslyckas konfigurerar du avgränsaren, om filen har en rubrikrad och kolumnnumren med början på ett. Använd UTF-8-filer med högst 10 MiB och 50 000 datarader. Den uppladdade filen är tillgänglig för konfiguration i en timme. Valideringen körs i bakgrunden och leder vidare till sparade fynd när den är klar. Sammanfattningen räknar okända eller tvetydiga konton, oanvändbara lösenord, felaktiga eller dubblettförekomster samt matchande eller icke matchande lösenord. |
+| Identifiers are matched against exact usernames, primary e-mail addresses, and verified secondary e-mail addresses. E-mail matching uses the same normalization as account recovery. Inactive users and bot accounts are included. Ambiguous identifiers are not used for password resets. Only confirmed matches become findings. Passwords are never displayed or stored in findings; the uploaded credentials are temporarily encrypted and deleted after processing or expiry. | Identifierare matchas mot exakta användarnamn, primära e-postadresser och verifierade sekundära e-postadresser. E-postmatchning använder samma normalisering som kontoåterställning. Inaktiva användare och botkonton inkluderas. Tvetydiga identifierare används inte för lösenordsåterställningar. Endast bekräftade matchningar blir fynd. Lösenord visas eller lagras aldrig i fynd; de uppladdade inloggningsuppgifterna krypteras tillfälligt och tas bort efter behandling eller när de har upphört att gälla. |
+
+## Terminologi och kontroller
+
+- `identity verification` är **identitetsverifiering** och `finding` är **fynd** i säkerhetskontexten.
+- UI-namn i `:guilabel:` och kodbehörigheten ``user.edit`` har bevarats i korrekt format.
+- Direkt sparat upstream i Hosted Weblate. Detta är inte en separat upstream-granskning eller merge.
+- Diffkontroll: godkänd (ny arkivpost).
+- Gitleaks: godkänd.
+- `msgfmt`: ej tillämpligt; Hosted Weblate gav ingen lokal gettext-export för batchen.
+- `l10n-lint`, `svlang` och `hunspell-sv`: ej körda, eftersom ingen lokal översättningsfil exporterades från Hosted Weblate.
