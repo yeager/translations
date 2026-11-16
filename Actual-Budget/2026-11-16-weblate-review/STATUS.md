@@ -83,3 +83,10 @@ the existing `schema` terminology and retains UI punctuation and `%` markers.
 Nine import, data-directory and transaction messages were reviewed and accepted
 through the API. The review verified React-style tags, the
 `{{githubIssueLink}}` placeholder, quoted identifiers and the `&rarr;` entity.
+
+## Reviewed suggestions batch 9
+
+Eleven data-directory, browser-compatibility, file-sharing, transaction and
+retirement UI messages were reviewed and accepted through the API. Two
+domain-dependent budget-scheduling proposals were deliberately deferred until
+their feature context can be checked.
