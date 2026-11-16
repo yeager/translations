@@ -1308,3 +1308,25 @@ resource found one source-shape difference: English now has the singular key
 `Automatically rename these payees in the future`, while the Weblate export
 still has the older `_one` and `_other` plural pair. This must be accounted for
 when the eventual export is validated.
+
+## Check review batch 170
+
+The full current set of Weblate check warnings was reviewed by check type.
+Six formula-help entries had real formatting defects: their Swedish targets
+contained literal `\\n` sequences where the source has paragraph breaks. Each
+target was corrected to use two real line breaks, preserving the formula
+literals and examples. A local `l10n-lint` run then exposed one genuine typo,
+`Dettta konto`, which was corrected and independently accepted.
+
+The remaining punctuation warnings are intentional Swedish UI styling: two
+brief status messages and two reconnect messages use complete Swedish
+sentences although the English labels omit terminal punctuation. Uppercase
+warnings protect valid `ID` and `Konto-ID` usage. Reused-translation warnings
+cover legitimate repeated UI actions and financial labels. The five plural
+warnings remain valid Swedish forms with identical visible singular and plural
+text. No text was distorted merely to clear a generic check.
+
+The fresh complete Weblate export contains 3,073 keys and parses as JSON.
+`l10n-lint` now reports only the known source-schema mismatch for
+`Automatically rename these payees in the future`: the current English source
+has one singular key while Weblate has the legacy `_one` and `_other` pair.
