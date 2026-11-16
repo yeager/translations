@@ -257,3 +257,7 @@ The API-key creation error message was reviewed and accepted through the API.
 
 The `Done` API-key modal button was checked in the current source and accepted
 through the API as `Klar`.
+
+## Reviewed suggestions batch 34
+
+The API-key loading error message was reviewed and accepted through the API.
