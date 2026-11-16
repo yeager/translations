@@ -693,3 +693,11 @@ API. Three related guardrail explanations received matching `skyddsregler`
 alternatives with complete planned-amount phrases and no em dashes where the
 source uses hyphens; they await project acceptance. Ratcheting messages remain
 deferred for terminology review.
+
+## Reviewed suggestions batch 93
+
+Four contribution, income and spending status strings received positive review
+votes and remain pending project acceptance. Three alternatives were submitted
+for surplus-cash explanations and status: they preserve `{{surplusPotName}}`,
+`{{pot}}` and the previously omitted `{{amount}}` placeholder, and avoid em
+dashes where the sources use hyphens. They also await project acceptance.
