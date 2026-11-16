@@ -35,3 +35,10 @@ för sträng 4495 (`NTSC-B (Brazil)`). Ändringen sparades och återlästes som
 Crowdin-översättning 450301. Deltafil och inskicksbevis finns i
 `pcsx2-sv-brazil-ntsc-b-fix-20261116.xliff` respektive
 `2026-11-16-spellcheck-brazil`.
+
+En ytterligare kontextgranskning rättade sex svengelska UI-termer för
+dödzoner, maskinvarumipmapping, hårdvaruhämtning, texturförinläsning och
+shadercache. De sparades och återlästes som Crowdin-översättningarna
+450303–450313. Deltafil och kontrollresultat finns i
+`pcsx2-sv-ui-terms-dodzons-hamtning-cache-20261116.xliff` respektive
+`2026-11-16-ui-terms-dodzons-hamtning-cache`.
