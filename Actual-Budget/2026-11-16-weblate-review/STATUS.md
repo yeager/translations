@@ -943,3 +943,7 @@ One investment-simulation status label was reviewed, accepted and read back thro
 One withdrawal-rule explanation was reviewed. The Swedish update replaces an
 em dash because the source uses a hyphen; it has a positive review vote and
 awaits project acceptance.
+
+## Reviewed suggestions batch 131
+
+The Kitces ratcheting strategy label was reviewed and accepted through the API.
