@@ -166,3 +166,9 @@ Sixteen bank-synchronization, provider-configuration and error-recovery strings
 were reviewed and accepted through the API. The review preserved provider
 placeholders, Actual as a product name, and the distinction between normal and
 hard page reloads.
+
+## Reviewed suggestions batch 17
+
+Nine template, chart, database-compatibility, encryption, currency and sorting
+strings were reviewed and accepted through the API. The batch preserves the
+`{{fileName}}` placeholder and uses Swedish alphabetical sorting endpoints.
