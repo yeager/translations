@@ -875,3 +875,9 @@ Six budget-template status messages and two plural template labels were
 reviewed and accepted through the API. The `$t(...)` calls, JSON argument
 structure, `{{sourceCount}}` and `{{sinkCount}}` placeholders were preserved
 and read back successfully.
+
+## Reviewed suggestions batch 120
+
+Ten archive-import validation and recovery messages were reviewed and accepted
+through the API. Quoted `{{entryName}}`, `{{maxSizeMB}}`, URLs and references
+to Actual were preserved and read back successfully.
