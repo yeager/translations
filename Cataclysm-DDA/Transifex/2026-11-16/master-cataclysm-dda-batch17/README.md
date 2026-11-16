@@ -28,3 +28,8 @@ Projektet har fortfarande många oöversatta svenska strängar. Den fulla
 resultatsidan är fortsatt fylld med 150 poster och har en nästa sida, så den
 här batchen anges som inskickad och verifierad, inte som en komplett svensk
 katalog.
+
+Efter en kontroll mot källkoden för `activity_actor.cpp` förtydligades sex
+fordonsdelstexter. Deras `%s`-värden saknar artikel i källkoden; måltexterna
+använder därför **fordonets** och lägesfraser som är fria från genusfel. De
+sex rättningarna återlästes via API utan avvikelse.
