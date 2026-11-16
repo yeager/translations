@@ -510,3 +510,10 @@ fit that operation's context.
 Twenty formula, simulation, authentication and settings strings were reviewed
 and accepted through the API. Formula decimal points and identifiers remain
 unchanged, while Swedish UI typography is used in explanatory prose.
+
+## Reviewed suggestions batch 68
+
+Twenty-seven security and settings strings were reviewed and accepted through
+the API. `End-to-end-kryptering` was submitted as the established project term
+for the remaining security label; it is preferred over the inconsistent
+`Totalsträckskryptering` suggestion and remains pending project acceptance.
