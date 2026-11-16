@@ -1030,3 +1030,10 @@ Thirteen reporting, guided-tour, permission, currency and error strings were
 reviewed. The application-name and error-reference placeholders remain intact.
 Two targets were accepted and read back; existing or new matching suggestions
 cover the remainder.
+
+## Reviewed suggestions batch 145
+
+Eleven retirement-plan income, contribution, spending and surplus strings were
+reviewed. Variables and the established pott terminology were retained. A
+wording correction was submitted immediately for the income explanation; all
+targets await project acceptance.
