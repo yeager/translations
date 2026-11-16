@@ -22,9 +22,8 @@ granskning, godkännande eller release uppströms.
 
 - XML-tolkning och l10n-lint godkände deltafilen utan fel.
 - svlang markerade inga språkfel.
-- Hunspell kördes inte för denna enradiga, termgranskade ändring medan en
-  separat Hunspell-körning belastar processorn. Den används fortsatt med
-  avgränsad omfattning och CPU-kontroll.
+- Ett lågprioriterat Hunspell-prov med hunspell-sv godkände `Dödzon`.
+  Körningen begränsades till ordet och lämnade ingen Hunspell-process kvar.
 - Diffkontroll och Gitleaks passerade.
 - `msgfmt` gäller PO-filer och är inte tillämpligt på XLIFF; XML-tolkningen
   kontrollerar i stället filformatet.

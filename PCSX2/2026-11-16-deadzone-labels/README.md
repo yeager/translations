@@ -39,9 +39,10 @@ eller release uppströms.
 
 - XML-tolkning och l10n-lint godkände deltafilen utan fel.
 - svlang markerade inga relevanta språkfel.
-- Hunspell kördes inte för denna lilla, redan termgranskade ändring medan en
-  separat Hunspell-körning belastar processorn. Den används fortsatt med
-  avgränsad omfattning och CPU-kontroll.
+- Ett lågprioriterat Hunspell-prov med hunspell-sv godkände `dödzon` och
+  `analog`. `Whammybarens` saknas som förväntat eftersom det är ett synligt
+  produktnamn. Körningen begränsades till berörda ord och lämnade ingen
+  Hunspell-process kvar.
 - Diffkontroll och Gitleaks passerade.
 - `msgfmt` gäller PO-filer och är inte tillämpligt på XLIFF; XML-tolkningen
   kontrollerar i stället filformatet.
