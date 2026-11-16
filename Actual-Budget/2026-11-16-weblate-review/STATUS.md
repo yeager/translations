@@ -573,3 +573,9 @@ Eleven update, encoding, currency and settings strings were reviewed and
 accepted through the API. The tag-count plural pair was handled through the
 plural-safe path. `Automatisk identifiering` and `Taggurval` were submitted as
 clearer alternatives for the remaining controls and await project acceptance.
+
+## Reviewed suggestions batch 77
+
+Three troubleshooting and experimental-feature messages were reviewed and
+accepted through the API. The other-schedules plural pair was accepted through
+the plural-safe path.
