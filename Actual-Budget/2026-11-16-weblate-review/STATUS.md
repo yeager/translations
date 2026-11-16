@@ -1002,3 +1002,10 @@ Eleven Enable Banking setup, security and error strings were reviewed. Service
 and product names, HTTPS, PSD2, the application identifier, the secret key and
 inline privacy-policy markup were retained. Four targets were accepted and read
 back; seven are positively voted suggestions awaiting project acceptance.
+
+## Reviewed suggestions batch 141
+
+Seventeen early-spending, month-end pool, forecast and formula-mode strings
+were reviewed. The established terms pott, bokföra, transaktion and
+saldoprognos were used consistently. Eight targets were accepted immediately;
+the remaining nine are positively voted suggestions awaiting acceptance.
