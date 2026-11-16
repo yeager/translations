@@ -860,3 +860,11 @@ reviewed through the API. `budgeted`, `spent`, `balance_start`, `balance_end`
 and `goal` remain code values. Fourteen targets were accepted and read back;
 five terminology improvements, including Actual's established `fråga`, have
 positive review votes pending project acceptance.
+
+## Reviewed suggestions batch 118
+
+Nineteen formula, query and synchronisation labels were reviewed through the
+API. Template markup, `QUERY`, `QUERY_COUNT`, `BUDGET_QUERY` and all formula
+identifiers were retained. Twelve targets were accepted and read back; seven
+contextual terminology and Swedish-punctuation improvements received positive
+review votes pending project acceptance.
