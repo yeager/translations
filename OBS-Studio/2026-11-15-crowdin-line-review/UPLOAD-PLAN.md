@@ -1,6 +1,11 @@
 # Crowdin submission plan
 
-Status: prepared locally; not sent.
+Status: 1 correction sent and read back (`App/Plugins/VLC Video`); 549 remain pending.
+
+2026-11-16: a single XML-validated XLIFF was prepared for the 298 distinct
+`App/Core` and `App/Frontend Tools` corrections. It is not recorded as
+uploaded: Crowdin's import dialog was reached, but the browser interface could
+not attach a local file to its native file selector.
 
 OBS maintainers confirmed on 2026-11-15 that translations are accepted through
 Crowdin, not GitHub pull requests. This plan is therefore the only upstream

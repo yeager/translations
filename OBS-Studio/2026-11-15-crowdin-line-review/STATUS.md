@@ -5,6 +5,15 @@ Project: [OBS Studio on Crowdin](https://crowdin.com/project/obs-studio)
 Locale: `sv-SE`  
 Source release observed: OBS Studio 33.0.1, published 2026-10-29.
 
+## 2026-11-16 — prepared combined Crowdin import
+
+The 298 component-scoped `App/Core` and `App/Frontend Tools` corrections were
+assembled into one XLIFF import batch and validated as XML. Gitleaks reported
+no secrets. Crowdin's browser import dialog accepts XLIFF, but the available
+browser-control surface cannot attach the local file to its native file input;
+no import request was sent. The existing manual VLC correction remains the
+only verified upstream save.
+
 ## Upstream state before review
 
 Crowdin reports Swedish as **100% translated** and **31% approved** (0 untranslated words). The outstanding work is therefore a quality review of existing translations, not completion of missing strings.
@@ -261,7 +270,7 @@ The archive now contains 342 prepared corrections across all reviewed OBS compon
 
 2026-11-16: reviewed all 17 strings in the live `App/Plugins/V4L2` component. `v4l2.delta.json` corrects video-input, DV timing, buffering and timeout terminology. None has been saved upstream.
 
-2026-11-16: reviewed all 16 strings in the current upstream `App/Plugins/VLC Video` INI catalog. `vlc-video.delta.json` corrects the network-cache label. The correction is prepared locally and has not been saved in Crowdin.
+2026-11-16: reviewed all 16 strings in the current upstream `App/Plugins/VLC Video` INI catalog. `vlc-video.delta.json` corrects the network-cache label. The correction was saved in Crowdin and read back as `Nätverkscache` with no unsaved editor changes.
 
 2026-11-16: reviewed all 4 strings in the current upstream `App/Plugins/VST` INI catalog. `vst.delta.json` normalizes the VST plug-in term and repairs an incomplete active-state option. The corrections are prepared locally and have not been saved in Crowdin.
 
@@ -310,7 +319,7 @@ Crowdin's live `App/Core`, Jack, Mac Virtualcam, NVENC, NVIDIA Filters, Steam me
 - svlang: the installed CLI only accepts plain text through `svlang check`; it has no INI parser. The translations were reviewed in their source/UI context instead.
 - Hunspell was intentionally not run, following the current CPU constraint.
 - Gitleaks: passed for the archive payload.
-- Latest delta audit: all 550 proposed changes pass JSON parsing plus placeholder and markup checks; line-break parity passes except for the source-verified DirectShow tooltip normalization below. `git diff --check` and Gitleaks pass.
+- Latest delta audit: all 550 proposed changes pass JSON parsing plus placeholder and markup checks; line-break parity passes except for the source-verified DirectShow tooltip normalization below. `git diff --check` and Gitleaks pass. One correction is saved in Crowdin; 549 remain pending submission.
 - DirectShow's buffering tooltip intentionally replaces two surplus blank lines in the prior Swedish text with the source's two-paragraph-break structure; its corrected translation has 10 source-format line breaks.
 - svlang: run on the combined delta text. Its aggregate score and 74 warnings are false positives caused by concatenated UI fragments, code/format tokens, product names and markup; each delta remains reviewed in source context. It has no INI parser.
 
