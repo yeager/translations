@@ -222,3 +222,9 @@ review preserves all financial placeholders, arithmetic symbols and tax terms.
 The `Transactions` proposal was reviewed and received a positive API vote. It
 remains pending the component's community voting workflow and is not accepted
 translation state.
+
+## Reviewed suggestions batch 27
+
+Three one-off withdrawal labels and explanations were reviewed and accepted
+through the API. The batch preserves requested, gross, tax and net placeholders
+and the arithmetic symbols.
