@@ -297,3 +297,10 @@ Crowdin currently lists 100%-translated Swedish components with widely varying a
 - Latest delta audit: all 480 proposed changes pass JSON parsing plus placeholder and markup checks; line-break parity passes except for the source-verified DirectShow tooltip normalization below. `git diff --check` and Gitleaks pass.
 - DirectShow's buffering tooltip intentionally replaces two surplus blank lines in the prior Swedish text with the source's two-paragraph-break structure; its corrected translation has 10 source-format line breaks.
 - svlang: run on the combined delta text. Its aggregate score and 74 warnings are false positives caused by concatenated UI fragments, code/format tokens, product names and markup; each delta remains reviewed in source context. It has no INI parser.
+
+## Access recheck
+
+2026-11-16: Crowdin API access was rechecked with the stored `Crowdin API`
+credential. `GET /api/v2/projects/51028/files?limit=1` still returns HTTP 403.
+The reviewed OBS deltas therefore remain intentionally unsaved upstream. No raw
+export was uploaded and no translation was changed during the access check.
