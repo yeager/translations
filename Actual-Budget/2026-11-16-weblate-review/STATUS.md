@@ -1037,3 +1037,10 @@ Eleven retirement-plan income, contribution, spending and surplus strings were
 reviewed. Variables and the established pott terminology were retained. A
 wording correction was submitted immediately for the income explanation; all
 targets await project acceptance.
+
+## Reviewed suggestions batch 146
+
+Twenty navigation, storage-status, goal, tag and colour strings were reviewed.
+The group and colour placeholders were retained. Existing matching suggestions
+or accepted targets covered seven strings; the remaining proposals await
+project acceptance.
