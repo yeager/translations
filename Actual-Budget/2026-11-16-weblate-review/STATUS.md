@@ -184,3 +184,8 @@ and uses Swedish technical terms for return types and strings.
 Eight bank-provider permissions and transaction-table strings were reviewed and
 accepted through the API. The batch preserves the `{{ columnName }}`
 placeholder and uses the accounting term `löpande saldo`.
+
+## Reviewed suggestions batch 20
+
+Three investment-planning strings were reviewed and accepted through the API:
+portfolio allocation, portfolio performance and the name of a savings pot.
