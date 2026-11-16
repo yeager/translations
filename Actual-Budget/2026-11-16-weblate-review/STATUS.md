@@ -895,3 +895,11 @@ Ten remaining formula-builder fields and one plural template-status label were
 reviewed and accepted through the API. The `TRUE`, `FALSE` and `#N/A` formula
 tokens, as well as the plural `{{count}}` placeholder, were retained and read
 back successfully.
+
+## Reviewed suggestions batch 123
+
+Five investment-plan tax, spending and inflation descriptions were reviewed.
+All template markup and numeric placeholders are preserved. Two targets were
+accepted and read back; three Swedish punctuation improvements received
+positive review votes and await project acceptance. The improvements use full
+stops because the corresponding source strings use hyphens, not em dashes.
