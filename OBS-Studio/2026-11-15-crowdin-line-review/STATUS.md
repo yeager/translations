@@ -217,6 +217,8 @@ The archive now contains 342 prepared corrections across all reviewed OBS compon
 
 2026-11-16: reviewed page 23 of the live `App/Core` component line by line in Crowdin (1,150 of 1,428 strings). `core-page-23.delta.json` adds five distinct corrections for URL terminology, live-broadcast wording, a warning title and software-encoder terminology. None has been saved upstream.
 
+2026-11-16: reviewed page 24 of the live `App/Core` component line by line in Crowdin (1,200 of 1,428 strings). Time-based file-splitting and the definite stream-encoder label are already corrected in `frontend-output-settings.delta.json`; the remaining output and FFmpeg labels are contextually correct. No duplicate delta was created and none has been saved upstream.
+
 ## Scope and next batch
 
 Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The next batch is the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins before the frontend catalog.
