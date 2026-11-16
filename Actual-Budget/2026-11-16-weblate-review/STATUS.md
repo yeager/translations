@@ -348,3 +348,10 @@ pending for terminology review.
 Seven concise tax and simulation-result UI labels were accepted through the API.
 The surrounding tax-rate explanations remain pending for financial terminology
 review.
+
+## Reviewed suggestions batch 48
+
+Twelve concise simulation-setting and result UI strings were accepted through
+the API. The `{{age}}` placeholder is preserved. The age-access, spending-rule
+and capital-preservation explanations remain pending for specific financial UI
+context review.
