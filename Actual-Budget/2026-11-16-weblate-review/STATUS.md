@@ -1264,3 +1264,12 @@ with confirmation that the two-independent-translator requirement is
 intentional. A second independent Swedish contributor must therefore vote for
 the pending proposals before they can become published translations. This is
 an upstream workflow constraint, not an application runtime defect.
+
+## Overspending terminology follow-up, batch 168
+
+Two derived forms of `spendera` remained in the Budget Analysis report after
+the direct terminology scan. Source inspection shows that the series records
+negative category balances that are reset at a month boundary. The wording
+`överspendering` was therefore replaced with the clearer report label
+`Justering för överutgifter:`. Both suggestions received an independent
+reviewer vote and API readback confirms the accepted targets.
