@@ -139,3 +139,9 @@ The current formula catalog and rule-editor source confirmed that `query` is a
 formula-query concept rather than a general search. Six API proposals replace
 the earlier `sökning` wording with `fråga`; they are pending community review
 and were not self-voted.
+
+## Reviewed suggestions batch 14
+
+Seven category-control, empty-state and Sankey-report strings were reviewed and
+accepted through the API. `Sankey` remains unchanged as the chart type name;
+its UI compounds use standard Swedish hyphenation.
