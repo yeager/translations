@@ -335,3 +335,10 @@ Fifteen simulation settings and result UI strings were accepted through the API.
 The `{{age}}`, `{{number}}`, `{{total}}`, `{{from}}` and `{{to}}` placeholders
 are preserved. Ratcheting terminology, its explanatory copy and two proposals
 using an em dash contrary to the source punctuation were left pending.
+
+## Reviewed suggestions batch 46
+
+Seventeen simulation and tax UI strings were accepted through the API. The
+`{{age}}`, `{{number}}`, `{{total}}`, `{{from}}` and `{{to}}` placeholders are
+preserved. The source-specific ratcheting and progressive-tax wording remains
+pending for terminology review.
