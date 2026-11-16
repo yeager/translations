@@ -820,3 +820,12 @@ Six tags and monthly-cap labels were reviewed through the API. The weekly-cap
 explanation preserves all three template variables. Four short UI labels were
 accepted and read back successfully; the two longer suggestions received
 positive review votes and await project acceptance.
+
+## Reviewed suggestions batch 113
+
+Seven average-spending, automation and tracking-budget labels, plus one plural
+pair, were reviewed through the API. The batch keeps template markup and
+`{{rangeLabel}}` intact, uses `utgifter` for spending in the financial UI, and
+uses the established `uppföljningsbudget` term. Three singular targets and the
+plural pair were accepted and read back successfully; four detailed labels
+received positive review votes and await project acceptance.
