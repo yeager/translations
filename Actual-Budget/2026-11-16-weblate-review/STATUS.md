@@ -1286,3 +1286,14 @@ and `Inflation (%)`. Those strings are technically or terminologically valid
 as written. The remaining warnings are retained for a UI-level review once
 Weblate exposes their check category; they are not changed merely to reduce a
 dashboard counter.
+
+## Published-resource synchronization issue
+
+The current Hosted Weblate API export contains 3,073 Swedish keys, whereas
+the current `actualbudget/translations` `sv.json` contains 1,623. There are
+1,450 Weblate-exported Swedish keys absent from the Git resource that Actual
+checks out at build time. This reproduces the English fallback seen in the
+local browser build. The issue was reported upstream as
+[actualbudget/actual#9569](https://github.com/actualbudget/actual/issues/9569).
+It concerns resource export synchronization, not the project’s intentional
+independent-review policy.
