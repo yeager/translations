@@ -806,3 +806,17 @@ Five early-spending and target controls were reviewed through the API.
 
 Seven balance-forecast, running-total and time-range labels were reviewed and
 accepted through the API.
+
+## Reviewed suggestions batches 108-111
+
+Sixteen balance-cap, goal, tag-filter, chart and forecast labels were reviewed
+through the API. The batches retain established terminology including
+`slutsaldo`, `pott` and `taggar`; all sixteen targets were accepted and read
+back successfully.
+
+## Reviewed suggestions batch 112
+
+Six tags and monthly-cap labels were reviewed through the API. The weekly-cap
+explanation preserves all three template variables. Four short UI labels were
+accepted and read back successfully; the two longer suggestions received
+positive review votes and await project acceptance.
