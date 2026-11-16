@@ -29,3 +29,9 @@ integritetskonflikter där korrekta, äldre förslag redan finns men senare,
 felaktiga förslag konkurrerar med dem. Crowdins API avvisar en dubblett som
 nytt inskick. Inga röster, historiska förslag eller aktiva val ändrades utan
 en uttrycklig projektmetod.
+
+En separat stavningsgranskning fann och rättade `Brazilien` till `Brasilien`
+för sträng 4495 (`NTSC-B (Brazil)`). Ändringen sparades och återlästes som
+Crowdin-översättning 450301. Deltafil och inskicksbevis finns i
+`pcsx2-sv-brazil-ntsc-b-fix-20261116.xliff` respektive
+`2026-11-16-spellcheck-brazil`.
