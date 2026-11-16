@@ -294,3 +294,10 @@ Twelve investment, banking and export UI strings were checked in current source
 and accepted through the API. The `{{name}}`, `{{reason}}` and `<5>` markup
 are preserved. The source label `Auto` and two financial-planning strings were
 left for more specific terminology review.
+
+## Reviewed suggestions batch 40
+
+Thirteen encoding, tag, release-note and notification strings were accepted
+through the API. Format names, `{{group}}`, `{{max}}`, `{{title}}`,
+`{{changeCount}}` and `<0>` markup are preserved. Two alternatives were sent
+as unvoted proposals: `Fäll ut {{group}}` and `Nydesignat sidofält`.
