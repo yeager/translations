@@ -377,3 +377,10 @@ Fifteen authentication, Enable Banking and long-term goal strings were accepted
 through the API. The `.pem` format, `Enable Banking`, `{{amount}}` and `<2>`
 markup are preserved. One unvoted alternative improves the automation forecast
 wording to `det högsta belopp`.
+
+## Reviewed suggestions batch 52
+
+Eight automation-export and pool-management UI strings were accepted through
+the API. The `{{groupName}}` placeholder is preserved. Early-spending wording
+and the longer end-of-month-cleanup explanation remain pending because their
+financial feature terminology needs contextual review.
