@@ -1119,6 +1119,13 @@ tillåtet intervall` accurately preserves the range constraint in idiomatic
 Swedish. An independent positive API vote accepted the external suggestion;
 readback confirms state `20`.
 
+## Reviewed external suggestions batch 158
+
+The automation-income warning was reviewed as a short planning alert. The
+Swedish target retains the future meaning of “will demand” and the financial
+meaning of income. An independent positive API vote accepted the proposal;
+readback confirms state `20` and no remaining suggestion.
+
 ## Published-resource coverage correction
 
 The local runtime test on 2026-11-16 measured the current upstream resources
