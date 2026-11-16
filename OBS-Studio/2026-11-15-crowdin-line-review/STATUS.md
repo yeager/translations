@@ -229,9 +229,11 @@ The archive now contains 342 prepared corrections across all reviewed OBS compon
 
 2026-11-16: reviewed page 29 of the live `App/Core` component line by line (1,428 of 1,428 strings). `core-page-29.delta.json` corrects a definite-form status message and two remaining live-broadcast actions. The full live `App/Core` component is reviewed; none of the proposed corrections has been saved upstream.
 
+2026-11-16: reviewed all 6 strings in the live `App/Plugins/Frontend/AJA Output UI` component. The AJA product name, I/O terminology, multivy labels and program-output wording are contextually correct. No duplicate delta was created and none has been saved upstream.
+
 ## Scope and next batch
 
-Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The live `App/Core` component is fully reviewed. Continue with the 0%-approved `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters` and Steam metadata components, followed by the remaining plugins.
+Crowdin currently lists 100%-translated Swedish components with widely varying approval coverage. The live `App/Core`, `Jack`, `Mac Virtualcam`, `NVENC`, `NVIDIA Filters`, Steam metadata and `AJA Output UI` components are reviewed. Continue with the remaining plugin components, beginning with `AJA I/O Device Capture and Output`.
 
 ## Checks
 
