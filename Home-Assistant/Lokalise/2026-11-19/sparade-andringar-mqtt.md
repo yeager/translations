@@ -299,3 +299,12 @@ Sparade och återlästa i Lokalise. Länkmålet bevarades. Fältnamnet ”Topic 
 | `component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::state_off` | Den inkommande nyttolasten som representerar tillståndet "av". Använd endast när värdet som representerar tillståndet "av" i tillståndskommandot skiljer sig från det värde som ska skickas till kommandot för att stänga av enheten. | Den inkommande nyttolasten som representerar tillståndet ”av”. Används endast när värdet för ”av” i topic för tillstånd skiljer sig från värdet som ska skickas till topic för kommandon för att stänga av enheten. |
 
 Sparade och återlästa i Lokalise. Den tidigare översättningen förväxlade state topic och command topic; projektets term ”topic” används. Engelska källtexter finns i `ha-core/granskning-38315-38344.md`.
+
+## Prenumeration på tillstånd
+
+- Nyckel: `component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::state_topic`
+- Engelska: The MQTT topic subscribed to receive {platform} state values. [Learn more.]({url}#state_topic)
+- Tidigare svenska: Det MQTT-topic som prenumererar på att ta emot {platform} tillståndsvärden. [Läs mer.]({url}#state_topic)
+- Sparad svenska: Det MQTT-topic som Home Assistant prenumererar på för att ta emot tillståndsvärden för {platform}. [Läs mer.]({url}#state_topic)
+
+Sparad och återläst i Lokalise. Texten anger vem som prenumererar; platshållarna och länkmålet bevarades.
