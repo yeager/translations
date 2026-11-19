@@ -112,3 +112,14 @@ Sparade och återlästa i Lokalise 2026-11-19 efter jämförelse med tidigare gr
 | `component::sofar::entity::sensor::offgrid_active_power_output_l3::name` | Off-grid active power output L3 | Off-grid aktiv effekt utgång L3 | Aktiv effekt på utgång L3 vid ödrift |
 
 Aktiv effekt, utgång, ödrift och fas bevaras. De separata L1N- och L2N-fälten återstår.
+
+## Aktiv effekt L1N och L2N vid ödrift
+
+Sparade och återlästa i Lokalise 2026-11-19 efter jämförelse med tidigare granskningsrapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::sofar::entity::sensor::offgrid_active_power_output_l1n::name` | Off-grid active power output L1N | Off-grid aktiv effekt utgång L1N | Aktiv effekt på utgång L1N vid ödrift |
+| `component::sofar::entity::sensor::offgrid_active_power_output_l2n::name` | Off-grid active power output L2N | Off-grid aktiv effekt utgång L2N | Aktiv effekt på utgång L2N vid ödrift |
+
+L1N och L2N bevaras som skilda beteckningar från L1 och L2.
