@@ -561,3 +561,6 @@ Detta ger 456 dokumenterade ändringar i de aktuella batcherna, inklusive 35 ref
 
 
 [Hassios portkonfliktrubrik](sparade-andringar-hassio-portkonflikt.md) rättades enligt ett äldre granskningsförslag, sparades och återlästes. Core-minnet innehåller 432 unika textpar; de aktuella batcherna omfattar 467 dokumenterade ändringar inklusive 35 referenser. Övriga förslag och nycklar återstår.
+
+
+[Tre ZHA-inställningar för mmWave](sparade-andringar-zha-mmwave.md) rättades enligt äldre granskningsförslag, sparades och återlästes. Core-minnet innehåller 435 unika textpar; de aktuella batcherna omfattar 470 dokumenterade ändringar inklusive 35 referenser. Övrig granskning återstår.
