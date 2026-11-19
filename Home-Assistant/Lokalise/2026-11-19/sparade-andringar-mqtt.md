@@ -153,3 +153,15 @@ Tidigare svenska: Det MQTT-ämne att prenumerera på för att ta emot uppdaterad
 Sparad svenska: Det MQTT-topic som Home Assistant prenumererar på för att ta emot uppdaterade värden för lutningsstatus. [Läs mer.]({url}#tilt_status_topic)
 
 Källtexten jämfördes i Lokalise; ändringen sparades och återlästes med länkmålet bevarat.
+
+## Mall för lutningsstatus
+
+Nyckel: `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_tilt_settings::data_description::tilt_status_template`.
+
+Engelska: Defines a [template]({value_templating_url}) to extract the payload for the tilt status topic. Within the template the following variables are available: `entity_id`, `position_open`, `position_closed`, `tilt_min` and `tilt_max`. [Learn more.]({url}#tilt_status_template)
+
+Tidigare svenska: Definierar en [mall]({value_templating_url}) för att extrahera nyttolasten för tilt-status. Följande variabler finns också tillgängliga i mallen: `entity_id`, `position_open`, `position_closed`, `tilt_min` och `tilt_max`. [Läs mer.]({url}#tilt_status_template)
+
+Sparad svenska: Definierar en [mall]({value_templating_url}) för att hämta nyttolasten från topic för lutningsstatus. Följande variabler finns tillgängliga i mallen: `entity_id`, `position_open`, `position_closed`, `tilt_min` och `tilt_max`. [Läs mer.]({url}#tilt_status_template)
+
+Texten jämfördes med källan, sparades och återlästes i Lokalise; variabelnamn och länkmål bevarades.
