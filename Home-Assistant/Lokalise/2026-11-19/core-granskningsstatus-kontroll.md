@@ -713,3 +713,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Datamallens och Škodas feltexter](sparade-andringar-mappning-skoda.md) rättades och återlästes via Lokalise API. De aktuella batcherna omfattar 629 dokumenterade ändringar, inklusive 65 referenser; Core-minnet innehåller 564 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Två Marketplace-rubriker](sparade-andringar-marketplace-kalla.md) rättades och återlästes via Lokalise API. De aktuella batcherna omfattar 631 dokumenterade ändringar, inklusive 65 referenser; Core-minnet innehåller 566 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
