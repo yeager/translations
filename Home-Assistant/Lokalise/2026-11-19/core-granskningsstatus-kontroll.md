@@ -546,3 +546,6 @@ Detta ger 456 dokumenterade ändringar i de aktuella batcherna, inklusive 35 ref
 
 
 [Matters startorsak vid spänningsfall](sparade-andringar-matter-startorsak.md) rättades, sparades och återlästes. Core-minnet innehåller 426 unika textpar; de aktuella batcherna omfattar 461 dokumenterade ändringar inklusive 35 referenser. Övriga nycklar och förslag återstår.
+
+
+[Två Matter-startorsaker för övervakningstimer](sparade-andringar-matter-startorsak.md) rättades, sparades och återlästes. Core-minnet innehåller 428 unika textpar; de aktuella batcherna omfattar 463 dokumenterade ändringar inklusive 35 referenser. Övriga Core-nycklar och äldre förslag återstår.
