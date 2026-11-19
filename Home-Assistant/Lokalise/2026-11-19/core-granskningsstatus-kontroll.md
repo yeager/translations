@@ -137,3 +137,5 @@ En [Amazon Devices-text om engångskoder](sparade-andringar-amazon-devices.md) s
 Sex [MQTT-texter för fläkthastighet](sparade-andringar-mqtt.md) sparades och återlästes med länkar och platshållare bevarade. Totalt 124 ändringar i de senaste batcherna; övriga förslag återstår.
 
 Två [MQTT-texter om procenttillstånd och värdemall](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 126 ändringar i de senaste batcherna; övriga förslag återstår.
+
+En [Android TV-anvisning för appikoner](sparade-andringar-androidtv.md) sparades och återlästes med sökvägar bevarade. Menyvalets exakta benämning återstår att följa upp. Totalt 127 ändringar i de senaste batcherna.
