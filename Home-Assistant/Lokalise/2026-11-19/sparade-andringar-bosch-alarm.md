@@ -15,3 +15,16 @@ Källa och mål jämfördes med granskningsunderlaget och aktuell Lokalise-text 
 | `component::bosch_alarm::entity::sensor::alarms_gas::state::supervisory` | Supervisory | Övervakande | Övervakningslarm |
 
 Sparad och återläst i Lokalise den 19 november 2026. Boschs [bruksanvisning](https://cdn.commerce.boschsecurity.com/public/documents/Operation_Manual_enUS_2511430027.pdf) skiljer supervisory alarm från trouble och vanligt larm; översättningen beskriver ett larmtillstånd snarare än att systemet övervakar. Brand- och inbrottssensorernas motsvarande tillstånd hänvisar till detta mål på båda språken; referenserna behölls och kontrollerades vid återläsning.
+
+## Genomgång av larmtypernas tillstånd
+
+Kontrollerat i Lokalise den 19 november 2026. Gas-, brand- och inbrottssensorernas namn är ”Problem med gaslarm”, ”Problem med brandlarm” respektive ”Problem med inbrottslarm” och behölls. Gasnycklarna nedan innehåller gemensamma måltexter; brand- och inbrottsnycklarna refererar till motsvarande gasnyckel på både engelska och svenska.
+
+| Fullständig gasnyckel | Engelska | Svenska | Bedömning |
+|---|---|---|---|
+| `component::bosch_alarm::entity::sensor::alarms_gas::state::trouble` | Trouble | Problem | Behåll. |
+| `component::bosch_alarm::entity::sensor::alarms_gas::state::supervisory` | Supervisory | Övervakningslarm | Ändringen och underlaget redovisas ovan. |
+| `component::bosch_alarm::entity::sensor::alarms_gas::state::no_issues` | No issues | Inga problem | Behåll. |
+| `component::bosch_alarm::entity::sensor::alarms_gas::state::alarm` | Alarm | Larm | Behåll. |
+
+De åtta kontrollerade referenserna är `component::bosch_alarm::entity::sensor::alarms_fire::state::{trouble,supervisory,no_issues,alarm}` och `component::bosch_alarm::entity::sensor::alarms_burglary::state::{trouble,supervisory,no_issues,alarm}`. Klammerskrivningen här är en förkortning för fyra separata nycklar i respektive grupp. Inga ytterligare Lokalise-ändringar gjordes vid genomgången.
