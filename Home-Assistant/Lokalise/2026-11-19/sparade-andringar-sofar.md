@@ -206,3 +206,13 @@ Sparade och återlästa i Lokalise 2026-11-19 efter jämförelse med tidigare gr
 | `component::sofar::entity::sensor::offgrid_frequency::name` | Off-grid frequency | Off-grid frekvens | Frekvens vid ödrift |
 
 Benämningarna följer de tidigare sparade ödriftstermerna.
+
+## Modellidentifiering och anslutning
+
+Sparade och återlästa i Lokalise 2026-11-19 efter kontroll av aktuell källtext. Tidigare platshållare i feltexterna saknas i källan och togs bort; anslutningsbeskrivningen återger båda alternativen. `<br>` återger radbrytningar.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::sofar::exceptions::unrecognized_inverter_model::message` | Neither the serial number nor the register masks identify the Sofar inverter model. | Okänd Sofar-växelriktarmodell för {title}. | Varken serienumret eller registermaskerna identifierar Sofar-växelriktarens modell. |
+| `component::sofar::exceptions::no_component_answered::message` | No component answered. | {name}: ingen komponent svarade. | Ingen komponent svarade. |
+| `component::sofar::config::step::user::description` | A Sofar inverter can be set up in Home Assistant in two different ways.<br><br>You can reach it over the network, which covers a Modbus TCP bridge or a stick that speaks Modbus TCP, or over a serial port its RS485 terminals are wired to, which covers ports shared over the network by a serial proxy. | Anslut via Modbus TCP. Frekvensomriktarens modell och registerkarta identifieras automatiskt utifrån dess serienummer. | En Sofar-växelriktare kan konfigureras i Home Assistant på två olika sätt.<br><br>Du kan ansluta till den via nätverket, med en Modbus TCP-brygga eller en adapter som använder Modbus TCP, eller via en serieport som är ansluten till dess RS485-anslutningar. Det gäller även serieportar som delas via nätverket med en seriell proxy. |
