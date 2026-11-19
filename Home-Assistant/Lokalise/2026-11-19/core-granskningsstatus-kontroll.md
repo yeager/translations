@@ -731,3 +731,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Tre Seafile-, Raspberry Pi- och ABRP-feltexter](sparade-andringar-seafile-pi-abrp.md) rättades och återlästes via Lokalise API. De aktuella batcherna omfattar 644 dokumenterade ändringar, inklusive 66 referenser; Core-minnet innehåller 578 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Tre Discord-, SilverCrest- och Aerosmart-texter](sparade-andringar-discord-silvercrest-aerosmart.md) rättades och återlästes via Lokalise API. De aktuella batcherna omfattar 647 dokumenterade ändringar, inklusive 66 referenser; Core-minnet innehåller 581 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
