@@ -11,3 +11,7 @@ tar -xzf arkiv.tar.gz
 ```
 
 SHA-256: `7940ef65d2a3ffe2adee256675c2cb070aa2f13bf11d1a525d767e554662fb44`. Core-registret är `ha-core/README.md` och den senaste rapporten täcker nyckel 38 105–38 134 i den dokumenterade ögonblicksbildens ordning. Tidigare arkiverad granskning av oöversatta strängar finns i [projektets översikt](../../README.md).
+
+## Senare rapporter
+
+- [Nyckel 38 135–38 164](granskning-38135-38164.md)
