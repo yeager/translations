@@ -635,3 +635,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Sexton Intesis-konfigurationsfält](sparade-andringar-intesis-konfiguration.md) sparades och återlästes i Lokalise: elva texter och fem referenser. Referensmålens svenska innehåll återstår att kontrollera. De aktuella batcherna omfattar 578 dokumenterade ändringar, inklusive 57 referenser; Core-minnet innehåller 521 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[De fem Intesis-referensmålen](sparade-andringar-intesis-konfiguration.md) kontrollerades i Lokalise och har svenska texter. Ingen översättning ändrades vid kontrollen. Terminologin för baudhastighet återstår att jämföra bredare.
