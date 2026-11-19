@@ -593,3 +593,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Två Freebox-namn för portlänkar](sparade-andringar-freebox-portar.md) sparades och återlästes med `{port}` bevarad. Core-minnet innehåller 462 unika textpar; de aktuella batcherna omfattar 497 dokumenterade ändringar inklusive 35 referenser. Övriga äldre förslag återstår att kontrollera.
+
+
+[Sju Google Health-näringssensorer](sparade-andringar-google-health-naring.md) översattes, sparades och återlästes. Core-minnet innehåller 469 unika textpar; de aktuella batcherna omfattar 504 dokumenterade ändringar inklusive 35 referenser. Övriga äldre förslag återstår att kontrollera.
