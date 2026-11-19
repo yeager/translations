@@ -11,3 +11,14 @@ Sparade och återlästa i Lokalise den 19 november 2026 efter användarens instr
 | `component::miele::entity::sensor::program_id::state::swiss_roll` | Swiss roll | Schweizisk rulle | Rulltårta |
 
 Springformarnas material anges inte i källtexten. Övriga granskade förslag har inte sparats i denna batch och behöver kontrolleras mot aktuell text.
+
+## Kakor och mördeg
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::miele::entity::sensor::program_id::state::biscuits_short_crust_pastry_2_trays` | Biscuits, short crust pastry (2 trays) | Kex, smördeg (2 plåtar) | Mördegskakor (2 plåtar) |
+| `component::miele::entity::sensor::program_id::state::biscuits_short_crust_pastry_1_tray` | Biscuits, short crust pastry (1 tray) | Kex, smördeg (1 plåt) | Mördegskakor (1 plåt) |
+| `component::miele::entity::sensor::program_id::state::chocolate_hazlenut_cake_several_small` | Chocolate hazelnut cake (several small) | Chokladhasselnötskaka (flera små) | Choklad- och hasselnötskakor (flera små) |
+| `component::miele::entity::sensor::program_id::state::chocolate_hazlenut_cake_one_large` | Chocolate hazelnut cake (one large) | Chokladhasselnötskaka (en stor) | Choklad- och hasselnötskaka (en stor) |
+
+Sparade och återlästa i Lokalise. Shortcrust pastry är mördeg; den svenska sammansättningen gör båda ingredienserna tydliga. Den engelska källans stavning i nyckeln har bevarats.
