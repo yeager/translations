@@ -64,3 +64,15 @@ Beskrivningarna jämfördes med källan, sparades och återlästes i Lokalise.
 | `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_position_settings::data::position_closed` | Position "closed" value | Positionens "stängda" värde | Positionsvärde för ”stängd” |
 
 Fältnamnen jämfördes med källan och motsvarande hjälptexter; de sparades och återlästes i Lokalise.
+
+## Mall för positionsvärde
+
+Nyckel: `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_position_settings::data_description::position_template`.
+
+Engelska: Defines a [template]({value_templating_url}) to extract the payload for the position topic. Within the template the following variables are also available: `entity_id`, `position_open`, `position_closed`, `tilt_min` and `tilt_max`. [Learn more.]({url}#position_template)
+
+Tidigare svenska: Definierar en [mall]({value_templating_url}) för att extrahera nyttolasten för positionsämnet. Följande variabler finns också tillgängliga i mallen: `entity_id`, `position_open`, `position_closed`, `tilt_min` och `tilt_max`. [Läs mer.]({url}#position_template)
+
+Sparad svenska: Definierar en [mall]({value_templating_url}) för att hämta nyttolasten från topic för positionstillstånd. Följande variabler finns också tillgängliga i mallen: `entity_id`, `position_open`, `position_closed`, `tilt_min` och `tilt_max`. [Läs mer.]({url}#position_template)
+
+Källtext och tidigare översättning kontrollerades i Lokalise; texten sparades och återlästes med variabelnamn och länkmål bevarade.
