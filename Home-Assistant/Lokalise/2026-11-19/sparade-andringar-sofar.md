@@ -156,3 +156,17 @@ Sparad och återläst i Lokalise 2026-11-19 efter jämförelse med tidigare gran
 | `component::sofar::entity::sensor::offgrid_current_output::name` | Off-grid current output | Off-grid ström utgång | Ström på utgången vid ödrift |
 
 Formuleringen följer de sparade effektbenämningarna för utgången vid ödrift.
+
+## Utström vid ödrift per fas och fas–neutral
+
+Sparade och återlästa i Lokalise 2026-11-19 efter jämförelse med tidigare granskningsrapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::sofar::entity::sensor::offgrid_current_output_l1::name` | Off-grid current output L1 | Off-grid ström utgång L1 | Utström L1 vid ödrift |
+| `component::sofar::entity::sensor::offgrid_current_output_l2::name` | Off-grid current output L2 | Off-grid ström utgång L2 | Utström L2 vid ödrift |
+| `component::sofar::entity::sensor::offgrid_current_output_l3::name` | Off-grid current output L3 | Off-grid ström utgång L3 | Utström L3 vid ödrift |
+| `component::sofar::entity::sensor::offgrid_current_output_l1n::name` | Off-grid current output L1N | Off-grid ström utgång L1N | Utström L1N vid ödrift |
+| `component::sofar::entity::sensor::offgrid_current_output_l2n::name` | Off-grid current output L2N | Off-grid ström utgång L2N | Utström L2N vid ödrift |
+
+Fasbeteckningarna inklusive L1N och L2N bevaras.
