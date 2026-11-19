@@ -135,3 +135,5 @@ Två [referenser för skyddens hastighet](sparade-andringar-cover.md) återstäl
 En [Amazon Devices-text om engångskoder](sparade-andringar-amazon-devices.md) sparades och återlästes. Totalt 118 ändringar i de senaste batcherna; ytterligare förslag återstår.
 
 Sex [MQTT-texter för fläkthastighet](sparade-andringar-mqtt.md) sparades och återlästes med länkar och platshållare bevarade. Totalt 124 ändringar i de senaste batcherna; övriga förslag återstår.
+
+Två [MQTT-texter om procenttillstånd och värdemall](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 126 ändringar i de senaste batcherna; övriga förslag återstår.
