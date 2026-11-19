@@ -134,3 +134,10 @@ Källtext och tidigare översättning jämfördes i Lokalise. Ändringen sparade
 | `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_tilt_settings::data_description::tilt_opened_value` | The value that will be sent to the "tilt command topic" when the cover tilt is opened. | Det värde som skickas till ”tilt command topic” när skyddets lutning öppnas. | Värdet som skickas till topic för lutningskommandon när skyddets lutning är öppen. |
 
 Källan och tidigare svenska jämfördes med den närliggande texten för stängd lutning. Ändringen sparades och återlästes i Lokalise.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_tilt_settings::data::tilt_status_topic` | Tilt status topic | Ämne för lutningsstatus | Topic för lutningsstatus |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_tilt_settings::data::tilt_command_topic` | Tilt command topic | Ämne för lutningskommando | Topic för lutningskommandon |
+
+Källtexter och tidigare översättningar kontrollerades i Lokalise. Båda ändringarna följer ordlistan, sparades och återlästes.
