@@ -48,3 +48,31 @@ Uppdatera eventuella instrumentpaneler, mallar, automationer och skript så att 
 ```
 
 Variabler, kodmarkeringar, fetstil och styckesindelning kontrollerades. De tre andra reparationsbeskrivningarna återstår.
+
+## Återstående tid i automationer och skript
+
+Nyckel: `component::switcher_kis::issues::deprecated_remaining_time_scripts::description`. Tidigare svenska: tom. Sparad och återläst i Lokalise 2026-11-19.
+
+Engelska:
+
+```text
+The `{entity_id}` ({entity_name}) sensor is deprecated and has been replaced by the **Shutdown time** sensor, which reports when the device will turn off.
+
+It is still used in the following automations or scripts:
+{items}
+
+Update them to use the new sensor, then disable `{entity_id}` to have it removed.
+```
+
+Svenska:
+
+```text
+Sensorn `{entity_id}` ({entity_name}) är föråldrad och har ersatts av sensorn **Avstängningstid**, som visar när enheten stängs av.
+
+Den används fortfarande i följande automationer eller skript:
+{items}
+
+Uppdatera dem så att de använder den nya sensorn. Inaktivera sedan `{entity_id}` för att ta bort den.
+```
+
+Variabler, kodmarkeringar, fetstil och styckesindelning kontrollerades. De två beskrivningarna för automatisk avstängning återstår.
