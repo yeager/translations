@@ -53,3 +53,11 @@ Sparad och återläst i Lokalise 2026-11-19. Texten anger att gränsen avser eff
 | `component::fronius::exceptions::modbus_model_unavailable::message` | The inverter no longer exposes the model this setting lives in | Växelriktaren exponerar inte längre modellen där den här inställningen finns | Växelriktaren tillhandahåller inte längre modellen där den här inställningen finns |
 
 Sparad och återläst i Lokalise 2026-11-19. Tillhandahåller är tydligare i detta användarmeddelande.
+
+## Modbus-port
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::fronius::config::step::user::data::modbus_port` | Modbus port | Modbus port | Modbus-port |
+
+Sparad och återläst i Lokalise 2026-11-19. Den svenska och engelska referensen från `component::fronius::config::step::reconfigure::data::modbus_port` pekar båda på denna nyckel och behölls.
