@@ -527,3 +527,10 @@ Två [lokala terminologiförslag för Recorder](forslag-recorder-entitetsmonster
 [HomeWizard-auktoriseringen](forslag-homewizard-auktorisering.md) omfattar tre lokala textförslag och en saknad referens med kontrollerat mål. [Philips TV och IPP](forslag-philips-ipp.md) omfattar två textförslag och två saknade referenser med kontrollerade mål. Alla åtta svenska måltexterna var tomma vid kontrollen och förslagen är inte sparade i Lokalise. [Förslagsminnet](https://github.com/yeager/swedish-tm/blob/main/home-assistant/sv-home-assistant-core-proposals-20261119.tmx) innehåller totalt sju textpar, inklusive de tidigare två Recorder-förslagen; referenserna dokumenteras separat i rapporterna. Detta är en begränsad granskning av nya nycklar, inte en komplett inventering av saknade översättningar.
 
 [Monteringsrapporten](sparade-andringar-hassio-montering.md) har kompletterats med kontroll av Frontend-kod och aktuell knappöversättning ”Bekräfta”. Dialogen har inte observerats i en körande installation.
+
+
+## Sparade förslag: HomeWizard, Philips, IPP och Recorder
+
+Efter användarens instruktion att spara alla ändringar sparades och återlästes tio förslag i Lokalise: fyra [HomeWizard-nycklar](forslag-homewizard-auktorisering.md), fyra [Philips- och IPP-nycklar](forslag-philips-ipp.md) och två [Recorder-nycklar](forslag-recorder-entitetsmonster.md). Tre är referenser och sju är textpar. Recorder/inspelaren är fortsatt terminologiskt ojämnt och bör följas upp samlat.
+
+Detta ger 456 dokumenterade ändringar i de aktuella batcherna, inklusive 35 referenser. Det [verifierade minnet](https://github.com/yeager/swedish-tm/blob/main/home-assistant/sv-home-assistant-core-lokalise-verified-20261119.tmx) har 421 unika textpar; det separata förslagsminnet är nu tomt. XML, unika ID och språkpar validerades. Äldre förslag i andra rapporter och hela Core-omfattningen återstår att stämma av mot aktuell Lokalise-text; denna status innebär inte att allt tidigare granskningsarbete har skickats in.
