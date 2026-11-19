@@ -28,3 +28,19 @@ Sparade och återlästa i Lokalise 2026-11-19. Platshållaren `{circuit}` bevara
 | `component::guntamatic::entity::sensor::buffer_stage_bottom_temperature::name` | Buffer stage {tank} bottom temperature | Buffertsteg {tank} bottentemperatur | Bottentemperatur för buffertsteg {tank} |
 
 Sparade och återlästa i Lokalise 2026-11-19. Ordföljden rättades och platshållaren `{tank}` bevarades.
+
+## Buffertgivare
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::guntamatic::entity::sensor::buffer_top_2_temperature::name` | Buffer 2 top temperature | Buffert 2 topptemperatur | Topptemperatur för buffert 2 |
+| `component::guntamatic::entity::sensor::buffer_bottom_2_temperature::name` | Buffer 2 bottom temperature | Buffert 2 bottentemperatur | Bottentemperatur för buffert 2 |
+| `component::guntamatic::entity::sensor::buffer_top_1_temperature::name` | Buffer 1 top temperature | Buffert 1 topptemperatur | Topptemperatur för buffert 1 |
+| `component::guntamatic::entity::sensor::buffer_bottom_1_temperature::name` | Buffer 1 bottom temperature | Buffert 1 bottentemperatur | Bottentemperatur för buffert 1 |
+| `component::guntamatic::entity::sensor::buffer_top_0_temperature::name` | Buffer 0 top temperature | Buffert 0 topptemperatur | Topptemperatur för buffert 0 |
+| `component::guntamatic::entity::sensor::buffer_bottom_0_temperature::name` | Buffer 0 bottom temperature | Buffert 0 bottentemperatur | Bottentemperatur för buffert 0 |
+| `component::guntamatic::entity::sensor::buffer_top_temperature::name` | Buffer top temperature | Buffert temperatur i toppen | Temperatur i buffertens övre del |
+| `component::guntamatic::entity::sensor::buffer_center_temperature::name` | Buffer center temperature | Buffert temperatur i mitten | Temperatur i buffertens mitt |
+| `component::guntamatic::entity::sensor::buffer_bottom_temperature::name` | Buffer bottom temperature | Buffert temperatur i botten | Temperatur i buffertens nedre del |
+
+Sparade och återlästa i Lokalise 2026-11-19. Ordföljd och sammansättningar rättades; buffertnumren bevarades.
