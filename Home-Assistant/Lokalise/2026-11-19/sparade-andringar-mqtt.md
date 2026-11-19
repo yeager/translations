@@ -95,3 +95,11 @@ Källan och tidigare översättning kontrollerades i Lokalise. Ändringen följe
 | `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_payload_settings::data_description::state_opening` | The payload received at the state topic that represents the "opening" state. | Nyttolasten som tas emot vid tillståndsämnet som representerar "öppningstillståndet". | Nyttolasten som tas emot på tillståndstopic och representerar tillståndet ”öppnas”. |
 
 Källtexter och tidigare översättningar kontrollerades i Lokalise; båda ändringarna sparades och återlästes. Termvalet följer ordlistan och tillståndens fältnamn.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_payload_settings::data_description::state_open` | The payload received at the state topic that represents the "open" state. | Nyttolasten som tas emot vid tillståndsämnet som representerar tillståndet "öppet". | Nyttolasten som tas emot på tillståndstopic och representerar tillståndet ”öppet”. |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_payload_settings::data_description::state_closing` | The payload received at the state topic that represents the "closing" state. | Nyttolasten som mottagits vid tillståndsämnet som representerar "stängningstillståndet". | Nyttolasten som tas emot på tillståndstopic och representerar tillståndet ”stängs”. |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_payload_settings::data_description::state_closed` | The payload received at the state topic that represents the "closed" state. | Nyttolasten som tas emot vid tillståndsämnet som representerar det "stängda" tillståndet. | Nyttolasten som tas emot på tillståndstopic och representerar tillståndet ”stängt”. |
+
+Källor och tidigare texter jämfördes i Lokalise; alla tre sparades och återlästes.
