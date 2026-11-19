@@ -668,3 +668,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Tre Voice Support-texter](sparade-andringar-voice-support-komplettering.md) kompletterades mot aktuell källtext, sparades och återlästes i Lokalise. De aktuella batcherna omfattar 597 dokumenterade ändringar, inklusive 63 referenser; Core-minnet innehåller 534 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[La Marzocco-instruktionen](sparade-andringar-lamarzocco-bluetooth.md) kompletterades, sparades och återlästes i Lokalise med `{name}` bevarad. De aktuella batcherna omfattar 598 dokumenterade ändringar, inklusive 63 referenser; Core-minnet innehåller 535 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
