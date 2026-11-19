@@ -108,3 +108,12 @@ Sparade och återlästa i Lokalise 2026-11-19. Namnen beskriver funktionerna och
 |---|---|---|---|
 | `component::midea::entity::switch::self_clean::name` | Self clean | Självrengörande | Självrengöring |
 | `component::midea::entity::switch::out_silent::name` | Outdoor silent mode | Tyst läge utomhus | Tyst läge för utomhusenheten |
+
+## Förinställda fläktlägen
+
+Sparade och återlästa i Lokalise 2026-11-19. Alternativen anges som lägen snarare än uppmaningar.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::midea::entity::fan::fan::state_attributes::preset_mode::state::sleep` | Sleep | Sova | Sömn |
+| `component::midea::entity::fan::fan::state_attributes::preset_mode::state::customize` | Customize | Anpassa | Anpassat |
