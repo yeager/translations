@@ -233,3 +233,17 @@ Sparade och återlästa i Lokalise. Projektets ordlista anger ”topic”; plats
 | `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_direction_settings::data_description::direction_value_template` | Definierar en [mall]({value_templating_url}) för att extrahera värdet för fläktens riktning. Mallen ska returnera antingen `forward` eller `reverse`. Om mallen returnerar en tom sträng ignoreras riktningen. | Definierar en [mall]({value_templating_url}) för att hämta fläktens riktning. Mallen ska returnera antingen `forward` eller `reverse`. Om mallen returnerar en tom sträng ignoreras riktningen. |
 
 Ändringarna sparades och återlästes i Lokalise; länkar och kodvärden bevarades. Ordlistans ”topic” används konsekvent. Engelska källtexter och tidigare bedömning finns i den lokala rapporten `ha-core/granskning-38405-38434.md`.
+
+## Förinställda fläktlägen
+
+| Fullständig nyckel | Tidigare svenska | Sparad svenska |
+|---|---|---|
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_preset_mode_settings::data_description::payload_reset_preset_mode` | En speciell nyttolast som återställer fläktens förinställda lägesattribut till okänt när det tas emot vid topic för förinställt lägestillstånd. | En särskild nyttolast som återställer tillståndsattributet för fläktens förinställda läge till okänt när den tas emot på lägets tillstånds-topic. |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_preset_mode_settings::data::preset_modes` | Förinställningslägen | Förinställda lägen |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_preset_mode_settings::data::preset_mode_value_template` | Mall för förinställt lägesvärde | Mall för värdet för förinställt läge |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_preset_mode_settings::data::preset_mode_state_topic` | Topic för förinställt lägestillstånd | Topic för tillstånd för förinställt läge |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_preset_mode_settings::data::preset_mode_command_topic` | Topic för förinställt lägeskommando | Topic för kommandon för förinställt läge |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_preset_mode_settings::data::preset_mode_command_template` | Mall för förinställt lägeskommando | Mall för kommando för förinställt läge |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_preset_mode_settings::data::payload_reset_preset_mode` | Nyttolast "återställ förinställningsläge" | Nyttolast ”återställ förinställt läge” |
+
+Sparade och återlästa i Lokalise. Engelska källtexter och ursprungliga bedömningar finns i `ha-core/granskning-38405-38434.md`. Klimatnycklar refererar till flera av fläktnycklarna; referenserna lämnades intakta. Projektets term ”topic” behölls och tillståndsattributet specificerades enligt källtexten.
