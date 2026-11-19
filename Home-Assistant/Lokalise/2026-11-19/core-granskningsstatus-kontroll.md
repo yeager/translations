@@ -659,3 +659,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Broadlinks RF-terminologi](sparade-andringar-broadlink-timing.md) undersöktes mot integrationskoden. Dev-koden beskriver pulslängder men innehöll inte den aktuella felnyckeln, så exakt betydelse återstår att verifiera mot rätt version. Ingen Lokalise-ändring gjordes vid uppföljningen.
+
+
+[Intesis fläktläge](sparade-andringar-intesis-flaktlage.md) sparades och återlästes i Lokalise. De aktuella batcherna omfattar 592 dokumenterade ändringar, inklusive 63 referenser; Core-minnet innehåller 529 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
