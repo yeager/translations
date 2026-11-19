@@ -674,3 +674,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Sex måttenhetsfält](sparade-andringar-energy-mattenheter.md) rättades och återlästes i Lokalise: fem beskrivningar och en referens med kontrollerat mål. De aktuella batcherna omfattar 604 dokumenterade ändringar, inklusive 64 referenser; Core-minnet innehåller 540 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Två avbrutna webOS- och TTS-texter](sparade-andringar-webos-tts.md) kompletterades, sparades och återlästes i Lokalise. De aktuella batcherna omfattar 606 dokumenterade ändringar, inklusive 64 referenser; Core-minnet innehåller 542 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
