@@ -41,3 +41,5 @@ Fyra [Probe Plus-sensornamn](sparade-andringar-probe-plus.md) sparades och åter
 En [Bosch Alarm-beskrivning](sparade-andringar-bosch-alarm.md) sparades och återlästes. Totalt 21 ändringar i de senaste batcherna; övriga förslag återstår.
 
 Ett [solnedgångsfel](sparade-andringar-judisk-kalender.md) sparades och återlästes. Totalt 22 ändringar i de senaste batcherna; övriga förslag återstår.
+
+Ett [säkerhetskopieringsmeddelande](sparade-andringar-backup.md) sparades och återlästes med formatering och platshållare bevarade. Totalt 23 ändringar i de senaste batcherna; övriga förslag återstår.
