@@ -31,3 +31,11 @@ Sparade och återlästa i Lokalise 2026-11-19 efter kontroll mot diskprogrammets
 | `component::smartthings::entity::select::dishwasher_washing_course::state::daily` | Daily | Daglig | Dagligt |
 
 Programnamnen beskriver sköljning, torkning och tyst nattdrift; dagligt böjs efter program.
+
+## Diskprogrammets fältnamn
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::smartthings::entity::select::dishwasher_washing_course::name` | Cycle | Cykel | Diskprogram |
+
+Sparad och återläst i Lokalise 2026-11-19. Kontexten är val av diskmaskinens program.
