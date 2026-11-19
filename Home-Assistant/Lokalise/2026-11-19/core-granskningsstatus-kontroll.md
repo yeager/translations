@@ -71,3 +71,5 @@ Ett [MQTT-fältnamn för stopp av lutning](sparade-andringar-mqtt.md) sparades o
 En [MQTT-hjälptext för stopp av lutning](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 50 ändringar i de senaste batcherna; övriga förslag återstår.
 
 Tre [MQTT-fel om position](sparade-andringar-mqtt.md) sparades och återlästes med ordlistans term ”topic”. Totalt 53 ändringar i de senaste batcherna; övriga förslag återstår.
+
+Tre [MQTT-feltexter](sparade-andringar-mqtt.md) anpassades till ordlistans ”topic”, sparades och återlästes. Totalt 56 ändringar i de senaste batcherna; övriga förslag återstår.
