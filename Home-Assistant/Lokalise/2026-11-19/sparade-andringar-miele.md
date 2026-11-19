@@ -76,3 +76,12 @@ Sparade och återlästa i Lokalise. ”Crackling” avser knaprig svål; gratän
 | `component::miele::entity::sensor::program_id::state::goose_stuffed` | Goose stuffed | Gås fylld | Fylld gås |
 
 Sparade och återlästa i Lokalise. Ordföljden anpassades till svenska.
+
+## Pizzadeg
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::miele::entity::sensor::program_id::state::pizza_oil_cheese_dough_round_baking_tine` | Pizza, oil cheese dough (round baking tine) | Pizza, oljeostdeg (rund bakform) | Pizza med kvarg- och oljedeg (rund bakform) |
+| `component::miele::entity::sensor::program_id::state::pizza_oil_cheese_dough_baking_tray` | Pizza, oil cheese dough (baking tray) | Pizza, oljeostdeg (bakplåt) | Pizza med kvarg- och oljedeg (bakplåt) |
+
+Sparade och återlästa i Lokalise. [Mieles recept på pizzavarianter](https://www.miele.de/media/domestic_de/media/files/download/backen.pdf) beskriver en deg med kvarg och olja. Detta ger stöd för tolkningen av ”oil cheese dough”, men receptet identifierar inte uttryckligen dessa två programnycklar; kopplingen är en bedömning. Nyckelns ursprungliga stavning bevarades.
