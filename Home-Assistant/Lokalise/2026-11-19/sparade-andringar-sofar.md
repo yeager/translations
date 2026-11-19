@@ -88,3 +88,15 @@ Sparade och återlästa i Lokalise 2026-11-19 efter jämförelse med tidigare gr
 | `component::sofar::entity::sensor::offgrid_apparent_power_output_l3::name` | Off-grid apparent power output L3 | Off-grid skenbar effekt utgång L3 | Skenbar effekt på utgång L3 vid ödrift |
 
 Skenbar effekt, utgång, ödrift och fas bevaras i varje text.
+
+## Reaktiv effekt vid ödrift per fas
+
+Sparade och återlästa i Lokalise 2026-11-19 efter jämförelse med tidigare granskningsrapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::sofar::entity::sensor::offgrid_reactive_power_output_l1::name` | Off-grid reactive power output L1 | Off-grid reaktiv effekt utgång L1 | Reaktiv effekt på utgång L1 vid ödrift |
+| `component::sofar::entity::sensor::offgrid_reactive_power_output_l2::name` | Off-grid reactive power output L2 | Off-grid reaktiv effekt utgång L2 | Reaktiv effekt på utgång L2 vid ödrift |
+| `component::sofar::entity::sensor::offgrid_reactive_power_output_l3::name` | Off-grid reactive power output L3 | Off-grid reaktiv effekt utgång L3 | Reaktiv effekt på utgång L3 vid ödrift |
+
+Reaktiv effekt, utgång, ödrift och fas bevaras i varje text.
