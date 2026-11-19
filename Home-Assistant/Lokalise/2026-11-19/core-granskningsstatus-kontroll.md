@@ -767,3 +767,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [31 aerosmart-sensorer och inställningar](sparade-andringar-aerosmart-sensorer.md) sparades och återlästes via Lokalise API. Tidigare markerade osäkra termer och övriga aerosmart-förslag återstår. De aktuella batcherna omfattar 774 dokumenterade ändringar, inklusive 88 referenser; Core-minnet innehåller 686 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[17 aerosmart-fält för styrning och larm](sparade-andringar-aerosmart-styrning.md) sparades och återlästes via Lokalise API. Tre tidigare markerade osäkra termer återstår att kontrollera. De aktuella batcherna omfattar 791 dokumenterade ändringar, inklusive 88 referenser; Core-minnet innehåller 703 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
