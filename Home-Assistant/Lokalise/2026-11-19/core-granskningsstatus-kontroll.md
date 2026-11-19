@@ -695,3 +695,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Två Shelly-sensornamn](sparade-andringar-shelly-luftfuktighet.md) förtydligades och återlästes i Lokalise med `{channel_name}` bevarad. De aktuella batcherna omfattar 617 dokumenterade ändringar, inklusive 64 referenser; Core-minnet innehåller 553 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Tre knapphändelsetexter](sparade-andringar-knapphandelser.md) sparades och återlästes i Lokalise. De aktuella batcherna omfattar 620 dokumenterade ändringar, inklusive 64 referenser; Core-minnet innehåller 556 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
