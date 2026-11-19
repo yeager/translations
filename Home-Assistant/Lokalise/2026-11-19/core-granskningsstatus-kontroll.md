@@ -141,3 +141,5 @@ Två [MQTT-texter om procenttillstånd och värdemall](sparade-andringar-mqtt.md
 En [Android TV-anvisning för appikoner](sparade-andringar-androidtv.md) sparades och återlästes med sökvägar bevarade. Menyvalets exakta benämning återstår att följa upp. Totalt 127 ändringar i de senaste batcherna.
 
 Två [MQTT-beskrivningar av inkommande tillstånd](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 129 ändringar i de senaste batcherna; övriga förslag återstår.
+
+En [MQTT-beskrivning av prenumeration på tillstånd](sparade-andringar-mqtt.md) sparades och återlästes med platshållare och länk bevarade. Totalt 130 ändringar i de senaste batcherna; övriga förslag återstår.
