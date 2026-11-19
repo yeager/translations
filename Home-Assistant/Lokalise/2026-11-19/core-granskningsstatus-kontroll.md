@@ -632,3 +632,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Fem Intesis-luftflödeslägen](sparade-andringar-intesis-luftflode.md) sparades och återlästes i Lokalise. De aktuella batcherna omfattar 562 dokumenterade ändringar, inklusive 52 referenser; Core-minnet innehåller 510 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Sexton Intesis-konfigurationsfält](sparade-andringar-intesis-konfiguration.md) sparades och återlästes i Lokalise: elva texter och fem referenser. Referensmålens svenska innehåll återstår att kontrollera. De aktuella batcherna omfattar 578 dokumenterade ändringar, inklusive 57 referenser; Core-minnet innehåller 521 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
