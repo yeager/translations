@@ -129,3 +129,5 @@ Fyra [referenser för historikstatistik](sparade-andringar-history-stats.md) åt
 [Uppföljningen av typvärden](sparade-andringar-history-stats.md) visade att väljaren har översatta etiketter ”Tid”, ”Kvot” och ”Antal”; beskrivningen behölls. Inga ytterligare Lokalise-ändringar gjordes vid kontrollen.
 
 Två [referenser för skyddens hastighet](sparade-andringar-cover.md) återställdes och lästes tillbaka. Markisens referensmål kontrollerades; övriga mål och ytterligare referensavvikelser återstår. Totalt 116 ändringar i de senaste batcherna.
+
+[Fördröjningen för en Matter-närvarosensor](sparade-andringar-matter.md) sparades och återlästes. Ett av två [hastighetsreferensmål](sparade-andringar-cover.md) kontrollerades direkt; det andra återstår. Totalt 117 ändringar i de senaste batcherna.
