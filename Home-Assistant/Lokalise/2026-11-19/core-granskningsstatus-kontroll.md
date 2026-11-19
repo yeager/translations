@@ -77,3 +77,5 @@ Tre [MQTT-feltexter](sparade-andringar-mqtt.md) anpassades till ordlistans ”to
 [Mallbeskrivningen för MQTT-position](sparade-andringar-mqtt.md) sparades och återlästes med ursprungliga variabelnamn och länkmål. Totalt 57 ändringar i de senaste batcherna; övriga förslag återstår.
 
 Tre [MQTT-positionsfält](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 60 ändringar i de senaste batcherna; övriga förslag återstår.
+
+Två [beskrivningar av MQTT-positionsvärden](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 62 ändringar i de senaste batcherna; övriga förslag återstår.
