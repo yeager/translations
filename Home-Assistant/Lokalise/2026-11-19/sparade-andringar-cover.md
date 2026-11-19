@@ -10,3 +10,5 @@ Kontrollerat i Lokalise den 19 november 2026.
 De svenska texterna ersattes med samma referenser som källan och lästes tillbaka. Kontrollera måltexterna separat innan fler slutsatser om visad text dras.
 
 MQTT-väljarens referens för markis pekar på `component::cover::entity_component::awning::name`, vars aktuella engelska och svenska text är ”Awning” respektive ”Markis”. Övriga skyddstypers referensmål återstår att kontrollera. Flera andra referensavvikelser upptäcktes i listan och behöver individuell bedömning.
+
+Uppföljning: `component::cover::common::field_speed_name` har engelska ”Speed” och svenska ”Hastighet”. Direkt kontroll av `common::state::medium` återstår; en sökning gav över hundra hänvisningar och målet identifierades inte bland de visade resultaten.
