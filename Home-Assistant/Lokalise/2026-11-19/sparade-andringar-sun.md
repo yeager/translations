@@ -40,3 +40,13 @@ Sparade och återlästa i Lokalise efter kontroll mot tidigare granskningsrappor
 | `component::sun::conditions::is_blue_hour::description` | Tests if it is blue hour, optionally for a specific period. | Testar om det är blå timmen, eventuellt för en viss tidsperiod. | Kontrollerar om det är blå timmen, vid behov för en viss tid på dagen. |
 
 Perioden avser morgon, kväll eller båda enligt periodväljaren.
+
+## Gemensam periodbeskrivning
+
+Sparad och återläst i Lokalise efter kontroll mot tidigare granskningsrapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::sun::common::period_description` | The time of day to consider: the morning, the evening, or either. | Vilken tid på dagen som ska övervägas: morgonen, kvällen eller båda. | Vilken tid på dagen som ska användas: morgonen, kvällen eller båda. |
+
+Sex referenser från utlösare och villkor kontrollerades på båda språken och pekar på denna text.
