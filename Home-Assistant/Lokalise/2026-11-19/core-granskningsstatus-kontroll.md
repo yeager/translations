@@ -638,3 +638,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [De fem Intesis-referensmålen](sparade-andringar-intesis-konfiguration.md) kontrollerades i Lokalise och har svenska texter. Ingen översättning ändrades vid kontrollen. Terminologin för baudhastighet återstår att jämföra bredare.
+
+
+[Fyra Bravia-fält](sparade-andringar-bravia-omkonfigurering.md) sparades och återlästes i Lokalise: två texter och två referenser. Det gemensamma värdfältets mål återstår att kontrollera i denna uppföljning. De aktuella batcherna omfattar 582 dokumenterade ändringar, inklusive 59 referenser; Core-minnet innehåller 523 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
