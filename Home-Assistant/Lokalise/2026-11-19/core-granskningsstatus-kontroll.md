@@ -656,3 +656,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Broadlink-feltexten](sparade-andringar-broadlink-timing.md) sparades och återlästes i Lokalise; teknisk terminologikontroll av ”RF-timing” återstår. De aktuella batcherna omfattar 591 dokumenterade ändringar, inklusive 63 referenser; Core-minnet innehåller 528 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Broadlinks RF-terminologi](sparade-andringar-broadlink-timing.md) undersöktes mot integrationskoden. Dev-koden beskriver pulslängder men innehöll inte den aktuella felnyckeln, så exakt betydelse återstår att verifiera mot rätt version. Ingen Lokalise-ändring gjordes vid uppföljningen.
