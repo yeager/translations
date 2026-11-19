@@ -141,3 +141,15 @@ Källan och tidigare svenska jämfördes med den närliggande texten för stäng
 | `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_tilt_settings::data::tilt_command_topic` | Tilt command topic | Ämne för lutningskommando | Topic för lutningskommandon |
 
 Källtexter och tidigare översättningar kontrollerades i Lokalise. Båda ändringarna följer ordlistan, sparades och återlästes.
+
+## Topic för lutningsstatus
+
+Nyckel: `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_tilt_settings::data_description::tilt_status_topic`.
+
+Engelska: The MQTT topic subscribed to receive tilt status update values. [Learn more.]({url}#tilt_status_topic)
+
+Tidigare svenska: Det MQTT-ämne att prenumerera på för att ta emot uppdaterade värden för tilt-status. [Läs mer.]({url}#tilt_status_topic)
+
+Sparad svenska: Det MQTT-topic som Home Assistant prenumererar på för att ta emot uppdaterade värden för lutningsstatus. [Läs mer.]({url}#tilt_status_topic)
+
+Källtexten jämfördes i Lokalise; ändringen sparades och återlästes med länkmålet bevarat.
