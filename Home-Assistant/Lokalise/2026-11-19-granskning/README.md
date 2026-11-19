@@ -35,3 +35,5 @@ Senast granskade nyckel i denna ordning: `component::matter::entity::sensor::esa
 - [Kompletterande Matter-kontroll](matter-uppfoljning-2026-11-19.md) – tio nycklar och referensmålen kontrollerade; fortsättningen finns i rapporten för nyckel 38 565–38 569.
 
 - [Nyckel 38 565–38 569](granskning-38565-38569.md) – nästa ID i den äldre ordningen är 653058791. Två terminologifrågor kräver uppföljning.
+
+- [Nyckel 38 570–38 573](granskning-38570-38573.md) – nästa ID i äldre ordning är 653058787; kontrollera om anslutningsfelets referens är semantiskt korrekt.
