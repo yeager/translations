@@ -29,3 +29,14 @@ Sparad och återläst i Lokalise efter kontroll av alternativen Morgon och Kväl
 | `component::sun::selector::period::options::any` | Any | Något | Båda |
 
 I denna väljare motsvarar alternativet båda tiderna på dagen.
+
+## Villkor för gyllene och blå timmen
+
+Sparade och återlästa i Lokalise efter kontroll mot tidigare granskningsrapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::sun::conditions::is_golden_hour::description` | Tests if it is golden hour, optionally for a specific period. | Testar om det är gyllene timmen, eventuellt för en viss tidsperiod. | Kontrollerar om det är gyllene timmen, vid behov för en viss tid på dagen. |
+| `component::sun::conditions::is_blue_hour::description` | Tests if it is blue hour, optionally for a specific period. | Testar om det är blå timmen, eventuellt för en viss tidsperiod. | Kontrollerar om det är blå timmen, vid behov för en viss tid på dagen. |
+
+Perioden avser morgon, kväll eller båda enligt periodväljaren.
