@@ -47,3 +47,5 @@ Ett [säkerhetskopieringsmeddelande](sparade-andringar-backup.md) sparades och �
 Två [SmartThings-centrifugeringslägen](sparade-andringar-smartthings.md) sparades och återlästes. Totalt 25 ändringar i de senaste batcherna; övriga förslag återstår.
 
 Tre [SmartThings-texter för smutsgrad](sparade-andringar-smartthings.md) sparades och återlästes. Totalt 28 ändringar i de senaste batcherna; övriga förslag återstår.
+
+Två [Met Office-texter](sparade-andringar-metoffice.md) sparades och återlästes, med länkmålet bevarat. Totalt 30 ändringar i de senaste batcherna; övriga förslag återstår.
