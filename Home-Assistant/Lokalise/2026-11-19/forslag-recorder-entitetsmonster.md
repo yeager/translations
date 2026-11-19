@@ -1,5 +1,7 @@
 # Recorder: entitetsmönster och databasnamn
 
+> **Aktuell status:** Båda förslagen nedan sparades och återlästes i Lokalise 2026-11-19 efter användarens instruktion. Terminologin Recorder/inspelaren är fortfarande ojämn och bör ses över samlat. Tidigare formuleringar om osparade förslag avser läget före sparningen.
+
 Kontrollerat mot engelska och svenska i Lokalise 2026-11-19. Detta är **lokala förslag**, inte sparade ändringar i Lokalise. Kontrollera aktuella värden igen före eventuell användning.
 
 ## `component::recorder::services::purge_entities::fields::entity_globs::name`
