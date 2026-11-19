@@ -19,3 +19,13 @@ Sparade och återlästa i Lokalise efter jämförelse med tidigare granskningsra
 | `component::silla_prism::config::error::invalid_base_topic` | This is not a valid MQTT topic. Enter the plain topic prefix from the Silla app, without wildcards. | Detta är inte ett giltigt MQTT-topic. Ange det vanliga topic-prefixet från Silla-appen, utan wildcards. | Det här är inte ett giltigt MQTT-topic. Ange topicprefixet från Silla-appen utan jokertecken. |
 
 Projektordlistans topic används och wildcards översätts till jokertecken.
+
+## Fältnamn för bastopic
+
+Sparad och återläst i Lokalise efter kontroll mot tidigare granskningsrapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::silla_prism::config::step::user::data::base_topic` | Base topic | Bas-topic | Bastopic |
+
+Sammansättningen följer projektets MQTT-terminologi och den tillhörande beskrivningen. Den längre fältbeskrivningen och anvisningen kontrollerades och behölls.
