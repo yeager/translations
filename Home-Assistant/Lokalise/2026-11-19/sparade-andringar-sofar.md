@@ -229,3 +229,16 @@ Sparade och återlästa i Lokalise 2026-11-19. De gemensamma målen kontrollerad
 | `component::sofar::config::step::reconfigure_tcp::data::port` | Port | `[%key:common::config_flow::data::port%]` |
 
 Övriga avvikande Sofar-referenser för enhets-ID och beskrivning återstår att granska.
+
+## Referenser för Modbus-enhets-ID
+
+Sparade och återlästa i Lokalise 2026-11-19. Målens aktuella svenska texter kontrollerades: `tcp::data::unit_id` är ”Modbus-enhets-ID” och `tcp::data_description::unit_id` är ”Modbus-enhets-ID för växelriktaren, även kallat dess Modbus-enhetsadress.” Källornas referenser och de svenska referenserna överensstämmer efter ändringen.
+
+| Fullständig nyckel | Tidigare svenska | Sparad svensk referens |
+|---|---|---|
+| `component::sofar::config::step::serial::data_description::unit_id` | Modbus-enhets-ID för växelriktaren, även kallat dess Modbus-enhetsadress. | `[%key:component::sofar::config::step::tcp::data_description::unit_id%]` |
+| `component::sofar::config::step::serial::data::unit_id` | Modbus-enhets-ID | `[%key:component::sofar::config::step::tcp::data::unit_id%]` |
+| `component::sofar::config::step::reconfigure_tcp::data_description::unit_id` | Modbus-enhets-ID för växelriktaren, även kallat dess Modbus-enhetsadress. | `[%key:component::sofar::config::step::tcp::data_description::unit_id%]` |
+| `component::sofar::config::step::reconfigure_tcp::data::unit_id` | Modbus-enhets-ID | `[%key:component::sofar::config::step::tcp::data::unit_id%]` |
+| `component::sofar::config::step::reconfigure_serial::data_description::unit_id` | Modbus-enhets-ID för växelriktaren, även kallat dess Modbus-enhetsadress. | `[%key:component::sofar::config::step::tcp::data_description::unit_id%]` |
+| `component::sofar::config::step::reconfigure_serial::data::unit_id` | Modbus-enhets-ID | `[%key:component::sofar::config::step::tcp::data::unit_id%]` |
