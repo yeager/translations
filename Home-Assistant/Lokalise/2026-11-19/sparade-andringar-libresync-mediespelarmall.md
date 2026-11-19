@@ -1,0 +1,9 @@
+# Rättade LibreSync- och mediespelarmalltexter
+
+Sparade och återlästa via Lokalise API i Home Assistant Core 2026-11-19. Mallens tekniska tillståndsvärden återställdes till källans kodvärden.
+
+| Nyckel | Engelska | Tidigare svenska | Sparad svenska |
+| --- | --- | --- | --- |
+| `component::libresync::config::error::no_identity` | The hub answers, but its UPnP service on port 38400 does not, so it cannot identify itself. Check that nothing blocks that port, then unplug the hub from the mains, plug it back in, wait a minute, and try again. | Hubben svarar, men dess UPnP-tjänst på port 38400 gör det inte och kan därför inte identifiera sig. Kontrollera att inget blockerar porten. Koppla sedan ur hubben från elnätet, anslut den igen, vänta en minut och försök på nytt. | Hubben svarar, men dess UPnP-tjänst på port 38400 svarar inte, så hubben kan inte identifiera sig. Kontrollera att inget blockerar porten. Koppla sedan ur hubben från elnätet, anslut den igen, vänta en minut och försök på nytt. |
+| `component::template::config::step::media_player::data::volume_set` | Actions on set volume | Åtgärder vid inställd volym | Åtgärder vid inställning av volym |
+| `component::template::config::step::media_player::data_description::state` | Defines a template to get the state of the media player. Valid values are `off`, `on`, `idle`, `playing`, `paused`, and `buffering`. If not set, the state is optimistic and follows the actions. | Definierar en mall för att hämta mediaspelarens status. Giltiga värden är `av`, `på`, `vilar`, `spelar`, `pausad` och `buffrar`. Om inget värde anges är statusen optimistisk och följer åtgärderna. | Definierar en mall som anger mediespelarens tillstånd. Giltiga värden är `off`, `on`, `idle`, `playing`, `paused` och `buffering`. Om mallen inte anges är tillståndet optimistiskt och följer åtgärderna. |
