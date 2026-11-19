@@ -63,3 +63,5 @@ Senast granskade nyckel i denna ordning: `component::matter::entity::sensor::esa
 - [Nyckel 38 657–38 661](granskning-38657-38661.md) – nästa ID i äldre ordning är 651234286.
 
 - [Nyckel 38 662–38 667](granskning-38662-38667.md) – nästa ID i äldre ordning är 651234280.
+
+- [Nyckel 38 668–38 671](granskning-38668-38671.md) – nästa ID i äldre ordning är 650891767; kontrollera platshållare i Probe Plus-sensorerna.
