@@ -111,3 +111,5 @@ En [hjälptext för MQTT-lutningskommandon](sparade-andringar-mqtt.md) sparades 
 En [mallbeskrivning för lutningskommandon](sparade-andringar-mqtt.md) sparades och återlästes med variabler och länkar bevarade. Totalt 83 ändringar i de senaste batcherna; övriga förslag återstår.
 
 Två [MQTT-texter för oscillation](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 85 ändringar i de senaste batcherna; övriga förslag återstår.
+
+Fyra [MQTT-beskrivningar för oscillation](sparade-andringar-mqtt.md) sparades och återlästes med länkar och platshållare bevarade. Totalt 89 ändringar i de senaste batcherna; övriga förslag återstår.
