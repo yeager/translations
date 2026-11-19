@@ -710,3 +710,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Tre Midea-matlagningslägen](sparade-andringar-midea-spadbarn.md) sparades och återlästes via Lokalise API. Nyckelläsning och översättningsskrivning fungerade; projektmetadatans endpoint svarade 403. De aktuella batcherna omfattar 627 dokumenterade ändringar, inklusive 65 referenser; Core-minnet innehåller 562 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Datamallens och Škodas feltexter](sparade-andringar-mappning-skoda.md) rättades och återlästes via Lokalise API. De aktuella batcherna omfattar 629 dokumenterade ändringar, inklusive 65 referenser; Core-minnet innehåller 564 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
