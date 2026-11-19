@@ -93,3 +93,11 @@ Sparade och återlästa i Lokalise. [Mieles recept på pizzavarianter](https://w
 | `component::miele::entity::sensor::program_id::state::fruit_streusel_cake` | Fruit streusel cake | Fruktstreuselkaka | Fruktkaka med smultäcke |
 
 Sparad och återläst i Lokalise. [Mieles recept för det automatiska programmet](https://media.miele.com/downloads/96/51/02_C7F128286E591EEEBDB0C88893419651.pdf) beskriver frukt med ett smultäcke.
+
+## Pytt i panna
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::miele::entity::sensor::program_id::state::beef_hash` | Beef hash | Nötköttshash | Pytt i panna |
+
+Sparad och återläst i Lokalise. Benämningen valdes enligt användarens anvisning.
