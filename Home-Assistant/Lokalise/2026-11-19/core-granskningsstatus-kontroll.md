@@ -725,3 +725,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Tre texter för SilverCrest, Seafile och USB-migrering](sparade-andringar-silvercrest-seafile-usb.md) rättades och återlästes via Lokalise API. De aktuella batcherna omfattar 639 dokumenterade ändringar, inklusive 65 referenser; Core-minnet innehåller 574 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Gemensam AI-åtkomstbeskrivning och referens](sparade-andringar-ai-atkomst.md) rättades och återlästes via Lokalise API. De aktuella batcherna omfattar 641 dokumenterade ändringar, inklusive 66 referenser; Core-minnet innehåller 575 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
