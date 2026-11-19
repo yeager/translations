@@ -650,3 +650,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Daikins värmeförbrukningssensor](sparade-andringar-daikin-varme.md) rättades, sparades och återlästes i Lokalise. Två äldre Daikin-förslag var redan översatta och behölls. De aktuella batcherna omfattar 589 dokumenterade ändringar, inklusive 63 referenser; Core-minnet innehåller 526 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Acaia-feltexten](sparade-andringar-acaia-anslutning.md) sparades och återlästes i Lokalise. De aktuella batcherna omfattar 590 dokumenterade ändringar, inklusive 63 referenser; Core-minnet innehåller 527 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
