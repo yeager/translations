@@ -647,3 +647,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [NWS platsbeskrivning](sparade-andringar-nws-plats.md) rättades mot aktuell källtext, sparades och återlästes i Lokalise. Det gemensamma API-nyckelmålet kontrollerades: ”API key” / ”API-nyckel”. De aktuella batcherna omfattar 588 dokumenterade ändringar, inklusive 63 referenser; Core-minnet innehåller 525 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Daikins värmeförbrukningssensor](sparade-andringar-daikin-varme.md) rättades, sparades och återlästes i Lokalise. Två äldre Daikin-förslag var redan översatta och behölls. De aktuella batcherna omfattar 589 dokumenterade ändringar, inklusive 63 referenser; Core-minnet innehåller 526 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
