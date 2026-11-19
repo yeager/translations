@@ -596,3 +596,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Sju Google Health-näringssensorer](sparade-andringar-google-health-naring.md) översattes, sparades och återlästes. Core-minnet innehåller 469 unika textpar; de aktuella batcherna omfattar 504 dokumenterade ändringar inklusive 35 referenser. Övriga äldre förslag återstår att kontrollera.
+
+
+[Tre Wyoming-referenser](sparade-andringar-wyoming-referenser.md) sparades och återlästes i Lokalise. De aktuella batcherna omfattar 507 dokumenterade ändringar, inklusive 38 referenser; Core-minnet innehåller fortsatt 469 unika textpar. Äldre förslag och övrig granskning återstår att kontrollera.
