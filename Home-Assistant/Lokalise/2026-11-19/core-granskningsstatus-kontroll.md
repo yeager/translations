@@ -791,3 +791,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Tio VLC-, HDfury- och HomeWizard-fält](sparade-andringar-vlc-hdfury-homewizard.md) sparades och återlästes via Lokalise API: fyra texter och sex referenser med kontrollerade svenska mål. De aktuella batcherna omfattar 903 dokumenterade ändringar, inklusive 110 referenser; Core-minnet innehåller 793 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+Den fullständiga [API-kontrollen av tomma svenska fält](kontroll-tomma-svenska-falt.md) läste alla 75 007 Core-nycklar på 151 sidor. Resultat: inga engelska strängar har ett tomt svenskt fält. Detta omfattar även nyckelreferenser; respektive mål har kontrollerats i sparloggarna. Den fortsatta uppgiften är språklig granskning av redan ifyllda strängar samt kontroll av ändrade källor.
