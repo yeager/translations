@@ -773,3 +773,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [29 NAD IR-källor, ljudlägen och konfigurationstexter](sparade-andringar-nad-infrarod.md) sparades och återlästes via Lokalise API. De aktuella batcherna omfattar 820 dokumenterade ändringar, inklusive 88 referenser; Core-minnet innehåller 732 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[De tre tidigare osäkra aerosmart-termerna](sparade-andringar-aerosmart-termer.md) omformulerades efter dokumentationskontroll, sparades och återlästes via Lokalise API. De aktuella batcherna omfattar 823 dokumenterade ändringar, inklusive 88 referenser; Core-minnet innehåller 735 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
