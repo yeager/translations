@@ -752,3 +752,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Arton Music Assistant- och fem GeoSphere-strängar](sparade-andringar-music-assistant-geosphere.md) sparades och återlästes via Lokalise API efter kontroll mot tidigare förslag och aktuell källa. De aktuella batcherna omfattar 706 dokumenterade ändringar, inklusive 73 referenser; Core-minnet innehåller 633 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Elva Honeywell-texter om tillfällig temperatur](sparade-andringar-honeywell-tillfallig-temperatur.md) sparades och återlästes via Lokalise API med platshållarna bevarade. De aktuella batcherna omfattar 717 dokumenterade ändringar, inklusive 73 referenser; Core-minnet innehåller 644 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
