@@ -127,3 +127,5 @@ Två [Matter-texter för pumpens driftlägen](sparade-andringar-matter.md) spara
 Fyra [referenser för historikstatistik](sparade-andringar-history-stats.md) återställdes och lästes tillbaka; sex gemensamma mål kontrollerades. En fråga om tekniska värden i typbeskrivningen återstår. Totalt 114 ändringar i de senaste batcherna; övriga förslag återstår.
 
 [Uppföljningen av typvärden](sparade-andringar-history-stats.md) visade att väljaren har översatta etiketter ”Tid”, ”Kvot” och ”Antal”; beskrivningen behölls. Inga ytterligare Lokalise-ändringar gjordes vid kontrollen.
+
+Två [referenser för skyddens hastighet](sparade-andringar-cover.md) återställdes och lästes tillbaka. Markisens referensmål kontrollerades; övriga mål och ytterligare referensavvikelser återstår. Totalt 116 ändringar i de senaste batcherna.
