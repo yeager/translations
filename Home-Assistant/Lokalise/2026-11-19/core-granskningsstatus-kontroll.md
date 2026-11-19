@@ -653,3 +653,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Acaia-feltexten](sparade-andringar-acaia-anslutning.md) sparades och återlästes i Lokalise. De aktuella batcherna omfattar 590 dokumenterade ändringar, inklusive 63 referenser; Core-minnet innehåller 527 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Broadlink-feltexten](sparade-andringar-broadlink-timing.md) sparades och återlästes i Lokalise; teknisk terminologikontroll av ”RF-timing” återstår. De aktuella batcherna omfattar 591 dokumenterade ändringar, inklusive 63 referenser; Core-minnet innehåller 528 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
