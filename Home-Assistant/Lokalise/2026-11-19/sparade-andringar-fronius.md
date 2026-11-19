@@ -37,3 +37,11 @@ De överflödiga platshållarna togs bort och effekt skiljs från ström. De tv�
 | `component::fronius::entity::switch::battery_grid_charging::name` | Battery grid charging | Batteri nätladdning | Batteriladdning från elnätet |
 
 Sparad och återläst i Lokalise 2026-11-19. Sammansättningen och laddningens källa förtydligas.
+
+## Urladdningseffekt
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::fronius::entity::number::battery_discharge_power_limit::name` | Battery discharge power limit | Batteriets urladdningsgräns | Gräns för batteriets urladdningseffekt |
+
+Sparad och återläst i Lokalise 2026-11-19. Texten anger att gränsen avser effekt.
