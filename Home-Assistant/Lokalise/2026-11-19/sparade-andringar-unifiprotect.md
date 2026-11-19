@@ -90,3 +90,13 @@ Sparad och återläst i Lokalise den 19 november 2026 efter jämförelse med tid
 | `component::unifiprotect::entity::number::chime_duration::name` | Chime duration | Varaktighet för klocka | Ringningens varaktighet |
 
 Ljussensorns brytare har en svensk referens till `component::unifiprotect::entity::binary_sensor::light_sensor::name`, vars engelska och svenska text kontrollerades som ”Light sensor” respektive ”Ljussensor”. Referensen behölls.
+
+## Tid till automatisk låsning
+
+Sparad och återläst i Lokalise den 19 november 2026 efter jämförelse med tidigare rapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::unifiprotect::entity::number::auto_lock_timeout::name` | Auto-lock timeout | Timeout för automatisk låsning | Tid till automatisk låsning |
+
+Tidsangivelsen uttrycks på svenska.
