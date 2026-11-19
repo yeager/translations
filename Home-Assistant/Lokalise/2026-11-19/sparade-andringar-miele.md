@@ -85,3 +85,11 @@ Sparade och återlästa i Lokalise. Ordföljden anpassades till svenska.
 | `component::miele::entity::sensor::program_id::state::pizza_oil_cheese_dough_baking_tray` | Pizza, oil cheese dough (baking tray) | Pizza, oljeostdeg (bakplåt) | Pizza med kvarg- och oljedeg (bakplåt) |
 
 Sparade och återlästa i Lokalise. [Mieles recept på pizzavarianter](https://www.miele.de/media/domestic_de/media/files/download/backen.pdf) beskriver en deg med kvarg och olja. Detta ger stöd för tolkningen av ”oil cheese dough”, men receptet identifierar inte uttryckligen dessa två programnycklar; kopplingen är en bedömning. Nyckelns ursprungliga stavning bevarades.
+
+## Fruktkaka med smultäcke
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::miele::entity::sensor::program_id::state::fruit_streusel_cake` | Fruit streusel cake | Fruktstreuselkaka | Fruktkaka med smultäcke |
+
+Sparad och återläst i Lokalise. [Mieles recept för det automatiska programmet](https://media.miele.com/downloads/96/51/02_C7F128286E591EEEBDB0C88893419651.pdf) beskriver frukt med ett smultäcke.
