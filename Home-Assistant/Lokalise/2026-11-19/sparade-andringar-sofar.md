@@ -64,3 +64,15 @@ Sparade och återlästa i Lokalise 2026-11-19 efter jämförelse med tidigare gr
 | `component::sofar::entity::sensor::power_factor_output_l3::name` | Power factor output L3 | Effektfaktor utgång L3 | Effektfaktor för utgång L3 |
 
 Fasbeteckningarna bevarades och relationen till utgången tydliggjordes.
+
+## Spänning vid ödrift per fas
+
+Sparade och återlästa i Lokalise 2026-11-19 efter jämförelse med tidigare granskningsrapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::sofar::entity::sensor::offgrid_voltage_l1::name` | Off-grid voltage L1 | Off-grid spänning L1 | Spänning vid ödrift L1 |
+| `component::sofar::entity::sensor::offgrid_voltage_l2::name` | Off-grid voltage L2 | Off-grid spänning L2 | Spänning vid ödrift L2 |
+| `component::sofar::entity::sensor::offgrid_voltage_l3::name` | Off-grid voltage L3 | Off-grid spänning L3 | Spänning vid ödrift L3 |
+
+Fasbeteckningarna bevarades och termen följer den tidigare sparade ödriftsbenämningen.
