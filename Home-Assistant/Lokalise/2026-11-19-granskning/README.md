@@ -27,3 +27,7 @@ SHA-256: `7940ef65d2a3ffe2adee256675c2cb070aa2f13bf11d1a525d767e554662fb44`. Cor
 - [Nyckel 38 435–38 464](granskning-38435-38464.md)
 - [Nyckel 38 465–38 494](granskning-38465-38494.md)
 - [Nyckel 38 495–38 524](granskning-38495-38524.md)
+
+- [Nyckel 38 525–38 554](granskning-38525-38554.md)
+
+Senast granskade nyckel i denna ordning: `component::matter::entity::sensor::esa_state::state::offline` (Lokalise-ID 653106087). Två referensmål i den senaste rapporten behöver kontrolleras. Ordningen kan ha förändrats sedan ögonblicksbilden och måste verifieras vid fortsatt granskning.
