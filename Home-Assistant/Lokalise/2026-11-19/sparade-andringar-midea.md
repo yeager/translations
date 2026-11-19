@@ -41,3 +41,11 @@ Sparade och återlästa i Lokalise 2026-11-19. Platshållaren `{filter_number}` 
 | `component::midea::entity::sensor::dehydration_time::name` | Spin time | Torkningstid | Centrifugeringstid |
 
 Sparad och återläst i Lokalise 2026-11-19. Källtexten avser centrifugering, inte torkning.
+
+## Varmhållningstid
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::midea::entity::sensor::keep_warm_time::name` | Keep warm time | Håll varm-tid | Varmhållningstid |
+
+Sparad och återläst i Lokalise 2026-11-19. Den svenska sammansättningen gör sensorns funktion tydlig.
