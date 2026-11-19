@@ -19,3 +19,14 @@ Följande två tillstånd sparades och återlästes i Lokalise den 19 november 2
 | `component::matter::entity::sensor::boot_reason::state::hardware_watchdog_reset` | Hardware watchdog reset | Återställning av hårdvaruövervakning | Omstart orsakad av hårdvarans övervakningstimer |
 
 Svlang rapporterade inga skrivregelfel. Namnen innehåller inga platshållare eller referenser.
+
+
+## Programvarustyrd omstart
+
+Sparad och återläst i Lokalise den 19 november 2026.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::matter::entity::sensor::boot_reason::state::software_reset` | Software reset | Återställning av programvara | Omstart initierad av programvara |
+
+Tillståndet ingår i sensorns startorsaker. Den tidigare formuleringen kunde uppfattas som att programvaran återställs. Svlang rapporterade inga skrivregelfel. Inga platshållare eller referenser förekommer.
