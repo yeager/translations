@@ -29,3 +29,5 @@ Efter användarens instruktion att spara ändringarna har [tre översättningar 
 Ytterligare [två SwitchBot-översättningar](sparade-andringar-switchbot.md) är sparade och återlästa. Totalt fem sparade i dessa två batcher; övriga förslag återstår.
 
 Ytterligare tre SwitchBot-feltexter sparades och återlästes, dokumenterade i [ändringsloggen](sparade-andringar-switchbot.md). Totalt åtta sparade poster i de senaste batcherna; övriga förslag återstår.
+
+Fem [Miele-programnamn](sparade-andringar-miele.md) sparades och återlästes. Totalt 13 poster har sparats i de senaste batcherna. Den separata TMX-filen för osparade förslag är nu tom, men många förslag finns fortfarande i granskningsrapporterna och återstår att kontrollera och spara.
