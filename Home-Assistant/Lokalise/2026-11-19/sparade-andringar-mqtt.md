@@ -210,3 +210,14 @@ Sparad svenska: En [mall]({command_templating_url}) som anger positionen som ska
 | `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_oscillation_settings::data_description::payload_oscillation_off` | The payload that represents the oscillation "off" state. | Nyttalasten som representerar oscillationens avstängda tillstånd. | Nyttolasten som representerar oscillationens avstängda tillstånd. |
 
 Båda stavfelen rättades i Lokalise och de sparade texterna lästes tillbaka.
+
+## Oscillation: mallar och topic
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_oscillation_settings::data_description::oscillation_value_template` | Defines a [template]({value_templating_url}) to extract fan oscillation state value. | Definierar en [mall]({value_templating_url}) för att extrahera fläktens oscillationstillståndsvärde. | Definierar en [mall]({value_templating_url}) för att hämta fläktens oscillationstillstånd. |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_oscillation_settings::data_description::oscillation_state_topic` | The MQTT topic subscribed to receive fan oscillation state. [Learn more.]({url}#oscillation_state_topic) | Det MQTT-topic att prenumerera på för att få information om fläktens oscillationstillstånd. [Läs mer.]({url}#oscillation_state_topic) | Det MQTT-topic som Home Assistant prenumererar på för att ta emot fläktens oscillationstillstånd. [Läs mer.]({url}#oscillation_state_topic) |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_oscillation_settings::data_description::oscillation_command_topic` | The MQTT topic to publish commands to change the fan oscillation state. [Learn more.]({url}#oscillation_command_topic) | Det MQTT-topic att publicera kommandon till för att ändra fläktens oscillationstillstånd. [Läs mer.]({url}#oscillation_command_topic) | Det MQTT-topic som kommandon för att ändra fläktens oscillationstillstånd publiceras till. [Läs mer.]({url}#oscillation_command_topic) |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_oscillation_settings::data_description::oscillation_command_template` | A [template]({command_templating_url}) to compose the payload to be published at the oscillation command topic. | [Mall]({command_templating_url}) för att skapa nyttolasten som ska publiceras till topic för oscillationskommandon. | En [mall]({command_templating_url}) som skapar nyttolasten som ska publiceras till topic för oscillationskommandon. |
+
+Sparade och återlästa i Lokalise. Projektets ordlista anger ”topic”; platshållare och länkmål bevarades.
