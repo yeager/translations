@@ -809,3 +809,6 @@ Den fullständiga [API-kontrollen av tomma svenska fält](kontroll-tomma-svenska
 
 
 [24 Zonneplan-, Nintendo Parental Controls- och LG IR-texter](sparade-andringar-zonneplan-nintendo-lg.md) rättades och återlästes via Lokalise API. Samtliga förslag matchade fortfarande den äldre svenska texten; aktuella engelska källor lästes från Lokalise. De aktuella batcherna omfattar 940 dokumenterade ändringar, inklusive 110 referenser; Core-minnet innehåller 830 unika nycklade textpar.
+
+
+[Tre Sofar-namn för ledningsspänning](sparade-andringar-sofar-ledningsspanning.md) rättades och återlästes via Lokalise API. Övriga femton äldre förslag i samma rapport matchade inte längre den aktuella svenska texten eller källan och lämnades orörda. De aktuella batcherna omfattar 943 dokumenterade ändringar, inklusive 110 referenser; Core-minnet innehåller 833 unika nycklade textpar.
