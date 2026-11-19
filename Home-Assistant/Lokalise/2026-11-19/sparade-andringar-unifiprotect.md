@@ -150,3 +150,13 @@ Sparad och återläst i Lokalise den 19 november 2026 efter jämförelse med tid
 | `component::unifiprotect::entity::button::clear_tamper::name` | Clear tamper | Rensa sabotage | Återställ sabotagestatus |
 
 [Home Assistants kod](https://github.com/home-assistant/core/blob/dev/homeassistant/components/unifiprotect/button.py) anropar `clear_tamper`; [bibliotekets API-dokumentation](https://uiprotect.readthedocs.io/en/stable/api/) beskriver metoden som återställning av sensorns sabotagestatus.
+
+## Mörkersensor
+
+Sparad och återläst i Lokalise den 19 november 2026 efter jämförelse med tidigare rapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::unifiprotect::entity::binary_sensor::is_dark::name` | Is dark | Är mörk | Mörkt |
+
+Namnet uttrycker ljusförhållandet idiomatiskt på svenska.
