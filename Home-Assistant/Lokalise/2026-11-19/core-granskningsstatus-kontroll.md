@@ -680,3 +680,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [System Bridges URL-beskrivning](sparade-andringar-system-bridge-url.md) rättades och återlästes i Lokalise. De aktuella batcherna omfattar 607 dokumenterade ändringar, inklusive 64 referenser; Core-minnet innehåller 543 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[System Bridges aviseringsorsak](sparade-andringar-system-bridge-utgangen.md) rättades och återlästes i Lokalise. De aktuella batcherna omfattar 608 dokumenterade ändringar, inklusive 64 referenser; Core-minnet innehåller 544 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
