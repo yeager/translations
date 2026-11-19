@@ -65,3 +65,5 @@ Tre [MQTT-tillstånd](sparade-andringar-mqtt.md) sparades och återlästes. Tota
 Två [MQTT-tillstånd för öppning och stängning](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 45 ändringar i de senaste batcherna; övriga förslag återstår.
 
 Tre [MQTT-fältnamn](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 48 ändringar i de senaste batcherna; övriga förslag återstår.
+
+Ett [MQTT-fältnamn för stopp av lutning](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 49 ändringar i de senaste batcherna; övriga förslag återstår.
