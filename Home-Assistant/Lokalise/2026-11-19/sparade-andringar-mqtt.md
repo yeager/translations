@@ -201,3 +201,12 @@ Tidigare svenska: [Mall]({command_templating_url}) för att definiera den positi
 Sparad svenska: En [mall]({command_templating_url}) som anger positionen som ska skickas till topic för lutningskommandon. Följande variabler finns i mallen: `entity_id`, `tilt_position` (målpositionen för lutning i procent), `position_open`, `position_closed`, `tilt_min` och `tilt_max`. [Läs mer.]({url}#tilt_command_template)
 
 Ändringen jämfördes med källan, sparades och återlästes i Lokalise med variabelnamn och länkmål bevarade.
+
+## Oscillation: stavfel
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_oscillation_settings::data_description::payload_oscillation_on` | The payload that represents the oscillation "on" state. | Nyttalasten som representerar oscillationens påslagna tillstånd. | Nyttolasten som representerar oscillationens påslagna tillstånd. |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_oscillation_settings::data_description::payload_oscillation_off` | The payload that represents the oscillation "off" state. | Nyttalasten som representerar oscillationens avstängda tillstånd. | Nyttolasten som representerar oscillationens avstängda tillstånd. |
+
+Båda stavfelen rättades i Lokalise och de sparade texterna lästes tillbaka.
