@@ -76,3 +76,49 @@ Uppdatera dem så att de använder den nya sensorn. Inaktivera sedan `{entity_id
 ```
 
 Variabler, kodmarkeringar, fetstil och styckesindelning kontrollerades. De två beskrivningarna för automatisk avstängning återstår.
+
+## Reparation av automatisk avstängning
+
+Båda fälten var tomma och sparades samt återlästes i Lokalise 2026-11-19. Variabler, kodmarkeringar och stycken kontrollerades.
+
+### `component::switcher_kis::issues::deprecated_auto_shutdown::description`
+
+Engelska:
+
+```text
+The `{entity_id}` ({entity_name}) sensor is deprecated and has been replaced by the **Auto-off** sensor, which reports the configured auto-off as a duration.
+
+Update any dashboards, templates, automations or scripts to use the new sensor, then disable `{entity_id}` to have it removed.
+```
+
+Svenska:
+
+```text
+Sensorn `{entity_id}` ({entity_name}) är föråldrad och har ersatts av sensorn **Automatisk avstängning**, som visar den inställda tiden till automatisk avstängning.
+
+Uppdatera eventuella instrumentpaneler, mallar, automationer och skript så att de använder den nya sensorn. Inaktivera sedan `{entity_id}` för att ta bort den.
+```
+
+### `component::switcher_kis::issues::deprecated_auto_shutdown_scripts::description`
+
+Engelska:
+
+```text
+The `{entity_id}` ({entity_name}) sensor is deprecated and has been replaced by the **Auto-off** sensor, which reports the configured auto-off as a duration.
+
+It is still used in the following automations or scripts:
+{items}
+
+Update them to use the new sensor, then disable `{entity_id}` to have it removed.
+```
+
+Svenska:
+
+```text
+Sensorn `{entity_id}` ({entity_name}) är föråldrad och har ersatts av sensorn **Automatisk avstängning**, som visar den inställda tiden till automatisk avstängning.
+
+Den används fortfarande i följande automationer eller skript:
+{items}
+
+Uppdatera dem så att de använder den nya sensorn. Inaktivera sedan `{entity_id}` för att ta bort den.
+```
