@@ -74,3 +74,11 @@ Sparad och återläst i Lokalise 2026-11-19. Här avser paste en puré och inte 
 | `component::midea::entity::sensor::mode::state::five_ceeals_rice` | Five cereals rice | Fem spannmålsris | Ris med fem sädesslag |
 
 Sparad och återläst i Lokalise 2026-11-19. Programnamnet får begriplig svensk ordföljd.
+
+## Risgröt i lergryta
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::midea::entity::sensor::mode::state::earthen_pot_congee` | Earthen pot congee | Jordkruksrisgröt | Risgröt i lergryta |
+
+Sparad och återläst i Lokalise 2026-11-19. Lergryta återger kärlet och risgröt återger rätten.
