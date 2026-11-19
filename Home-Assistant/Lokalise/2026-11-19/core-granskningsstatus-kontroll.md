@@ -59,3 +59,5 @@ Två [Wallbox-texter](sparade-andringar-wallbox.md) sparades och återlästes. T
 En [Matter-text om automatisk återlåsning](sparade-andringar-matter.md) sparades och återlästes. Totalt 37 ändringar i de senaste batcherna; övriga förslag återstår.
 
 Tre [MQTT-beskrivningar](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 40 ändringar i de senaste batcherna; övriga förslag återstår.
+
+Tre [MQTT-tillstånd](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 43 ändringar i de senaste batcherna; övriga förslag återstår.
