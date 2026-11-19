@@ -231,3 +231,5 @@ Tre tidigare tomma [my-PV-fält](sparade-andringar-my-pv.md) fylldes, sparades o
 En tidigare tom [my-PV-referens för värdbeskrivning](sparade-andringar-my-pv.md) fylldes, sparades och återlästes i Lokalise efter kontroll av målet. Totalt 192 ändringar i de senaste batcherna, inklusive sexton referenser; Core-TMX innehåller fortsatt 176 språkpar. Två gemensamma referensmål återstår att kontrollera.
 
 Två tidigare tomma [my-PV-referenser till gemensamma fältnamn](sparade-andringar-my-pv.md) fylldes, sparades och återlästes i Lokalise efter direkt kontroll av båda målen. Totalt 194 ändringar i de senaste batcherna, inklusive arton referenser; Core-TMX innehåller fortsatt 176 språkpar. De sex nycklarna i my-PV:s omkonfigurationsgrupp har svenska fält.
+
+Två [Sofar-resultattexter](sparade-andringar-sofar.md) rättades, sparades och återlästes i Lokalise. Textparen lades in i [Core-TMX](https://github.com/yeager/swedish-tm/blob/main/home-assistant/sv-home-assistant-core-lokalise-verified-20261119.tmx); XML och tidigare poster kontrollerades. Totalt 196 ändringar i de senaste batcherna, inklusive arton referenser; TMX innehåller 178 språkpar.
