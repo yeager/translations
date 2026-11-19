@@ -119,3 +119,5 @@ Fem [MQTT-texter för fläktriktning](sparade-andringar-mqtt.md) sparades och å
 Sju [MQTT-texter för förinställda fläktlägen](sparade-andringar-mqtt.md) sparades och återlästes. Flera klimatnycklar hänvisar till dessa mål. Totalt 101 ändringar i de senaste batcherna; övriga förslag återstår.
 
 Fyra [MQTT-beskrivningar för förinställda fläktlägen](sparade-andringar-mqtt.md) sparades och återlästes med länkar och platshållare bevarade. Totalt 105 ändringar i de senaste batcherna; övriga förslag återstår.
+
+Tre [MQTT-texter för stöd och återställning av förinställda lägen](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 108 ändringar i de senaste batcherna; övriga förslag återstår.
