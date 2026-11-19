@@ -704,3 +704,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Google Travel Times trafikmodelltext och referens](sparade-andringar-google-trafikmodell.md) rättades och återlästes i Lokalise efter kontroll av menyvalet. De aktuella batcherna omfattar 623 dokumenterade ändringar, inklusive 65 referenser; Core-minnet innehåller 558 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Mideas maträtt](sparade-andringar-midea-pilgrimsmusslor.md) rättades och återlästes i Lokalise. De aktuella batcherna omfattar 624 dokumenterade ändringar, inklusive 65 referenser; Core-minnet innehåller 559 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
