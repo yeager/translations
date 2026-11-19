@@ -90,3 +90,12 @@ Sparad och återläst i Lokalise 2026-11-19. Lergryta återger kärlet och risgr
 | `component::midea::entity::sensor::mode::state::fragrant_dense_congee` | Fragrant dense congee | Doftande tät risgröt | Aromatisk tjock risgröt |
 
 Sparad och återläst i Lokalise 2026-11-19. Konsistensen beskrivs idiomatiskt som tjock.
+
+## Zonkurvor
+
+Sparade och återlästa i Lokalise 2026-11-19. Ordföljd och zonnummer bevaras i tydlig svenska.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::midea::entity::switch::zone2_curve::name` | Zone 2 curve | Zon 2 kurva | Kurva för zon 2 |
+| `component::midea::entity::switch::zone1_curve::name` | Zone 1 curve | Zon 1 kurva | Kurva för zon 1 |
