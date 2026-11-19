@@ -24,4 +24,16 @@ Kontrollerat i Lokalise den 19 november 2026. Inga ändringar har gjorts i Lokal
 | `component::immich::common::data_desc_api_key` | API key to connect to your Immich instance. → API-nyckel för att ansluta till din Immich-instans. | Behåll. |
 | `component::immich::common::data_desc_ssl_verify` | Whether to verify the SSL certificate when SSL encryption is used to connect to your Immich instance. → Huruvida SSL-certifikatet ska verifieras när SSL-kryptering används för att ansluta till din Immich-instans. | Föreslå: Om SSL-certifikatet ska verifieras när SSL-kryptering används vid anslutning till din Immich-instans. Enklare ordval med samma innebörd. |
 
-Historiska TMX-ögonblicksbilden återgav de tre `data_description`-texterna upplösta; aktuell Lokalise visar referenser till de gemensamma Immich-nycklarna. Referenser ska därför behållas, och ändringsförslaget gäller målnyckeln. Hunspell-sv markerade varumärkessammansättningen; svlang flaggade bisatsordföljd och passiv form i meningsfragmentet, vilket inte i sig motiverar ändring. FOSS-terminologin och översättningsminnet behöver kontrolleras specifikt för SSL-formuleringen. De sju gemensamma referensmålen ovan är ännu inte verifierade i denna kontroll.
+Historiska TMX-ögonblicksbilden återgav de tre `data_description`-texterna upplösta; aktuell Lokalise visar referenser till de gemensamma Immich-nycklarna. Referenser ska därför behållas, och ändringsförslaget gäller målnyckeln. Hunspell-sv markerade varumärkessammansättningen; svlang flaggade bisatsordföljd och passiv form i meningsfragmentet, vilket inte i sig motiverar ändring. FOSS-termbanken stöder certificate → certifikat, verify → verifiera, encryption → kryptering och connection → anslutning. Den historiska Home Assistant-TMX:ens post 650052329 har samma engelska och svenska som aktuell Lokalise; det föreslagna alternativet är lokalt och osparat. De sju gemensamma målen kontrollerades i Lokalise enligt nedan.
+
+## Gemensamma referensmål
+
+| Fullständig målnyckel | Engelska | Svenska | Bedömning |
+|---|---|---|---|
+| `common::config_flow::data::verify_ssl` | Verify SSL certificate | Verifiera SSL-certifikat | Behåll. |
+| `common::config_flow::data::url` | URL | URL | Behåll. |
+| `common::config_flow::data::api_key` | API key | API-nyckel | Behåll. |
+| `common::config_flow::error::unknown` | Unexpected error | Oväntat fel | Behåll. |
+| `common::config_flow::error::invalid_auth` | Invalid authentication | Ogiltig autentisering | Behåll. |
+| `common::config_flow::error::cannot_connect` | Failed to connect | Det gick inte att ansluta | Behåll. |
+| `common::config_flow::abort::reauth_successful` | Re-authentication was successful | Återautentisering lyckades | Behåll. |
