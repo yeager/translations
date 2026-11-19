@@ -734,3 +734,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Tre Discord-, SilverCrest- och Aerosmart-texter](sparade-andringar-discord-silvercrest-aerosmart.md) rättades och återlästes via Lokalise API. De aktuella batcherna omfattar 647 dokumenterade ändringar, inklusive 66 referenser; Core-minnet innehåller 581 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Fyra Prowl-, Bluetti- och mediespelartexter](sparade-andringar-prowl-bluetti-media.md) rättades och återlästes via Lokalise API. De aktuella batcherna omfattar 651 dokumenterade ändringar, inklusive 66 referenser; Core-minnet innehåller 585 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
