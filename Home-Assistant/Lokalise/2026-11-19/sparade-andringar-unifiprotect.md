@@ -130,3 +130,13 @@ Sparad och återläst i Lokalise den 19 november 2026 efter jämförelse med tid
 | `component::unifiprotect::entity::button::adopt_device::name` | Adopt device | Adoptera enhet | Lägg till enhet i UniFi Protect |
 
 [Ubiquitis dokumentation](https://help.ui.com/hc/en-us/articles/27878858632599-Getting-Started-with-UniFi-Protect) beskriver adoption som att lägga till kameror i UniFi Protect. [Home Assistants kod](https://github.com/home-assistant/core/blob/dev/homeassistant/components/unifiprotect/button.py) kopplar knappen till `adopt`. Den relaterade borttagningsknappen återstår att kontrollera.
+
+## Ta bort enhet
+
+Sparad och återläst i Lokalise den 19 november 2026 efter jämförelse med tidigare rapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::unifiprotect::entity::button::unadopt_device::name` | Unadopt device | Avadoptera enhet | Ta bort enhet från UniFi Protect |
+
+[Home Assistants kod](https://github.com/home-assistant/core/blob/dev/homeassistant/components/unifiprotect/button.py) kopplar knappen till `unadopt` med raderingsbehörighet. [Ubiquitis dokumentation](https://help.ui.com/hc/en-us/articles/26301104828439-Third-Party-Cameras-in-UniFi-Protect) beskriver att en kamera kan tas bort och läggas till på nytt i Protect. Formuleringen kompletterar knappnamnet för att lägga till en enhet.
