@@ -76,3 +76,15 @@ Tidigare svenska: Definierar en [mall]({value_templating_url}) för att extraher
 Sparad svenska: Definierar en [mall]({value_templating_url}) för att hämta nyttolasten från topic för positionstillstånd. Följande variabler finns också tillgängliga i mallen: `entity_id`, `position_open`, `position_closed`, `tilt_min` och `tilt_max`. [Läs mer.]({url}#position_template)
 
 Källtext och tidigare översättning kontrollerades i Lokalise; texten sparades och återlästes med variabelnamn och länkmål bevarade.
+
+## Topic för positionstillstånd
+
+Nyckel: `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_position_settings::data_description::position_topic`.
+
+Engelska: The MQTT topic subscribed to receive cover position state messages. [Learn more.]({url}#position_topic)
+
+Tidigare svenska: Det MQTT-ämne som man prenumererar på för att ta emot meddelanden om enhetens position. [Läs mer.]({url}#position_topic)
+
+Sparad svenska: Det MQTT-topic som Home Assistant prenumererar på för att ta emot meddelanden om skyddets position. [Läs mer.]({url}#position_topic)
+
+Källan och tidigare översättning kontrollerades i Lokalise. Ändringen följer ordlistans termer ”topic” och ”skydd”; den sparades och återlästes med länkmålet bevarat.
