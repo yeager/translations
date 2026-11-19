@@ -677,3 +677,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Två avbrutna webOS- och TTS-texter](sparade-andringar-webos-tts.md) kompletterades, sparades och återlästes i Lokalise. De aktuella batcherna omfattar 606 dokumenterade ändringar, inklusive 64 referenser; Core-minnet innehåller 542 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[System Bridges URL-beskrivning](sparade-andringar-system-bridge-url.md) rättades och återlästes i Lokalise. De aktuella batcherna omfattar 607 dokumenterade ändringar, inklusive 64 referenser; Core-minnet innehåller 543 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
