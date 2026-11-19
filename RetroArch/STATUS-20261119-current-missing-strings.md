@@ -1,6 +1,6 @@
 # RetroArch – status för aktuella oöversatta svenska strängar, 2026-11-19
 
-Crowdin API-inventeringen för projekt 380544 bekräftar följande aktuella restmängd. Samtliga nedanstående saknade strängar har granskats som **utkast**, validerats enligt respektive batchrapport och arkiverats i detta repository. Inget förslag har sparats eller skickats till Crowdin.
+Crowdin API-inventeringen för projekt 380544 bekräftade följande aktuella restmängd. Samtliga nedanstående saknade strängar granskades som **utkast**, validerades enligt respektive batchrapport och arkiverades i detta repository. Efter användarens uttryckliga godkännande sparades förslagen i Crowdin den 2026-11-19.
 
 | Fil | Saknade strängar enligt API | Arkiverat underlag |
 | --- | ---: | --- |
@@ -9,7 +9,7 @@ Crowdin API-inventeringen för projekt 380544 bekräftar följande aktuella rest
 | `beetle-psx-libretro.json` | 15 | GPU-tråd/etiketter, VRAM-kopia och parallell programvarurendering |
 | `rpcs3-libretro.json` | 8 | Spakars dödzon/antidödzon och avtryckartrösklar |
 | `pcee2-libretro.json` | 1 | GunCon 2-hårkors |
-| **Summa** | **130** | **130 granskade, ej inskrivna utkast** |
+| **Summa** | **130** | **130 granskade och sparade i Crowdin** |
 
 ## Kontrollomfattning
 
@@ -21,4 +21,4 @@ Crowdin API-inventeringen för projekt 380544 bekräftar följande aktuella rest
 
 ## Upstreamstatus
 
-Förslagen är lokala granskningsunderlag i `yeager/translations`, inte uppdateringar av Crowdin. En uttrycklig instruktion krävs före eventuell inskrivning eller inlämning till projektet.
+Efter uttryckligt användargodkännande sparades de 130 saknade strängarna och de arkiverade förbättringsförslagen i Crowdin. API-återläsning bekräftar nu 100 % svenska översättningar i `msg_hash_us.json`, `xemu-libretro.json`, `beetle-psx-libretro.json`, `rpcs3-libretro.json` och `pcee2-libretro.json`. Inga översättningar godkändes och inga projektinställningar ändrades.
