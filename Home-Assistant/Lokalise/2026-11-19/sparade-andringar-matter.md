@@ -16,3 +16,11 @@ Den 19 november 2026 jämfördes aktuell källtext och svensk översättning. Ä
 | `component::matter::entity::select::pump_operation_mode::name` | mode | läge | Läge |
 
 Sparade och återlästa i Lokalise. ”Maximum” används parallellt med befintliga ”Minimum”. Referensen `component::matter::entity::select::pump_operation_mode::state::normal` till `common::state::normal` behölls; målets aktuella engelska och svenska text kontrollerades till ”Normal”.
+
+## Närvarosensorns fördröjning
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::matter::entity::number::pir_occupied_to_unoccupied_delay::name` | Occupied to unoccupied delay | Fördröjning från upptagen till obesatt | Fördröjning från närvaro till frånvaro |
+
+Sparad och återläst i Lokalise. PIR-nyckelns sammanhang gäller närvarodetektering; översättningen beskriver övergången mellan närvaro och frånvaro.
