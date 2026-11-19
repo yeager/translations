@@ -69,3 +69,5 @@ Senast granskade nyckel i denna ordning: `component::matter::entity::sensor::esa
 - [Nyckel 38 672–38 677](granskning-38672-38677.md) – nästa ID i äldre ordning är 650891761; aktuell Lokalise-text innehåller `{slot}` trots att äldre export saknade den.
 
 - [Nyckel 38 678–38 686](granskning-38678-38686.md) – nästa ID i äldre ordning är 650869113; referensmål och BLE-flöde är kontrollerade; en möjlig felaktig källreferens återstår för uppströms uppföljning.
+
+- [Nyckel 38 687–38 695](granskning-38687-38695.md) – nästa ID i äldre ordning är 650869104.
