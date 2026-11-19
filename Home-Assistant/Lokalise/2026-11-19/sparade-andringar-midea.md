@@ -24,3 +24,12 @@ Sparad och återläst i Lokalise 2026-11-19. Produce avser frukt och grönsaker 
 | `component::midea::entity::sensor::mode::state::steep_rice` | Steep rice | Brant ris | Blötlägg ris |
 
 Sparad och återläst i Lokalise 2026-11-19. Här är *steep* ett verb som avser blötläggning.
+
+## Filterlivslängd
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::midea::entity::sensor::filter_life_level::name` | Filter {filter_number} life level | Filter {filter_number} livslängd | Livslängd för filter {filter_number} |
+| `component::midea::entity::sensor::filter_available_days::name` | Filter {filter_number} available days | Filter {filter_number} tillgängliga dagar | Återstående dagar för filter {filter_number} |
+
+Sparade och återlästa i Lokalise 2026-11-19. Platshållaren `{filter_number}` bevarades.
