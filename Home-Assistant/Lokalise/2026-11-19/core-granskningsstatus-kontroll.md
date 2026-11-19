@@ -722,3 +722,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Google Weathers nederbördsbeskrivning](sparade-andringar-google-weather-nederbord.md) rättades och återlästes via Lokalise API. De aktuella batcherna omfattar 636 dokumenterade ändringar, inklusive 65 referenser; Core-minnet innehåller 571 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Tre texter för SilverCrest, Seafile och USB-migrering](sparade-andringar-silvercrest-seafile-usb.md) rättades och återlästes via Lokalise API. De aktuella batcherna omfattar 639 dokumenterade ändringar, inklusive 65 referenser; Core-minnet innehåller 574 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
