@@ -2,7 +2,7 @@
 
 Projektets vy i Lokalise visade 74 946 nycklar. Urvalet är sorterat efter senast tillagd och är en ögonblicksbild; nya nycklar kan ändra ordningen. Inga ändringar har gjorts i Lokalise.
 
-Rapportlistan når till position 38 718 i en äldre sorteringsögonblicksbild, men är inte bevis för sammanhängande täckning: positionerna 38 555–38 564 saknar rapport i den lokala kopian. Kontrollera även övriga luckor, dubbleringar och aktuella nycklar före slutsatser om täckning. De första 341 svenska fälten var tomma vid insamlingen; därefter granskas även befintliga översättningar. Referenser av typen `[%key:…%]` återges oförändrade och behöver hanteras enligt projektets referenssystem.
+Rapportlistan når till position 38 718 i en äldre sorteringsögonblicksbild, men är inte bevis för sammanhängande täckning: positionerna 38 555–38 564 saknar en separat numrerad rapport. Den kompletterande Matter-rapporten innehåller tio närliggande nycklar; två har bekräftats följa direkt efter föregående rapports sista Matter-nyckel i Lokalise. Kontrollera hela ordningen innan positionsluckan anses löst. Kontrollera även övriga överlapp och aktuella nycklar före slutsatser om täckning. De första 341 svenska fälten var tomma vid insamlingen; därefter granskas även befintliga översättningar. Referenser av typen `[%key:…%]` återges oförändrade och behöver hanteras enligt projektets referenssystem.
 
 - [Nyckel 1–60](forslag-0001-0060.md)
 - [Nyckel 61–120](forslag-0061-0120.md)
