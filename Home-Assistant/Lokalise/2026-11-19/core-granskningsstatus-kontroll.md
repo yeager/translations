@@ -81,3 +81,5 @@ Tre [MQTT-positionsfält](sparade-andringar-mqtt.md) sparades och återlästes. 
 Två [beskrivningar av MQTT-positionsvärden](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 62 ändringar i de senaste batcherna; övriga förslag återstår.
 
 Två [fältnamn för MQTT-positionsvärden](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 64 ändringar i de senaste batcherna; övriga förslag återstår.
+
+En [MQTT-mallbeskrivning för positionsvärde](sparade-andringar-mqtt.md) sparades och återlästes med variabler och länkmål bevarade. Totalt 65 ändringar i de senaste batcherna; övriga förslag återstår.
