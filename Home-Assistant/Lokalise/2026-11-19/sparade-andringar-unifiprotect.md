@@ -27,3 +27,14 @@ Sparad och återläst i Lokalise efter jämförelse med tidigare granskningsrapp
 | `component::unifiprotect::config::step::reconfigure_api_key::description` | Switch to (or update) API-key-only mode. Stored local user credentials are kept, so you can switch back at any time. Features the public Integration API does not offer yet are unavailable. For more information: {api_key_documentation_url} | Växla till (eller uppdatera) API-nyckel-läge. Lagrade lokala användaruppgifter behålls, så att du kan växla tillbaka när som helst. API-nyckel-läget tillhandahåller för närvarande en begränsad uppsättning enheter: larmhanteraren, kameror (strömmar och ögonblicksbilder) och belysning. Allt annat kräver en lokal användare. För mer information: {api_key_documentation_url} | Växla till eller uppdatera läget med enbart API-nyckel. Sparade inloggningsuppgifter för den lokala användaren behålls, så att du kan växla tillbaka när som helst. Funktioner som det offentliga integrations-API:t ännu inte erbjuder är inte tillgängliga. Mer information: {api_key_documentation_url} |
 
 Den äldre uppräkningen ersätts med aktuell källtext; uppgiften om återgång och platshållaren bevaras.
+
+## Lokal användare
+
+Sparade och återlästa i Lokalise efter jämförelse med tidigare granskningsrapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::unifiprotect::exceptions::public_only_no_actions::message` | This action requires a local user; the entry is set up with an API key only. | Denna åtgärd kräver fullständig åtkomst (lokal användare); inställningen konfigureras enbart med en API-nyckel. | Den här åtgärden kräver en lokal användare. Posten är konfigurerad med enbart en API-nyckel. |
+| `component::unifiprotect::config::step::full::data_description::username` | Username for your local (not cloud) user account. | Användarnamn för ditt lokala (inte moln-) användarkonto. | Användarnamn för ditt lokala användarkonto, inte ditt molnkonto. |
+
+Kravet och tidsformen följer källtexten. Tre separata användarnamnsreferenser kontrollerades på båda språken och pekar på den ändrade texten.
