@@ -11,3 +11,11 @@ Den 19 november 2026 jämfördes källtext och tidigare svensk text i Lokalise. 
 | `component::squeezebox::exceptions::init_auth_failed::message` | Authentication failed with {host}. | Autentisering misslyckades för {host}. | Autentiseringen mot {host} misslyckades. |
 
 Den fjärde ändringen sparades och återlästes i Lokalise; `{host}` är bevarad.
+
+## Statusförfrågan
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::squeezebox::exceptions::coordinator_no_data::message` | No data from status poll. | Ingen data från statuspollning. | Ingen data från statusförfrågan. |
+
+Sparad och återläst i Lokalise den 19 november 2026. Statusförfrågan uttrycker vad som gjordes med ett begripligare ord.
