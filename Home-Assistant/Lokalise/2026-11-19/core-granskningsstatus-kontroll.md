@@ -689,3 +689,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Två System Bridge-beskrivningar](sparade-andringar-system-bridge-sokvag-knapp.md) rättades och återlästes i Lokalise. De aktuella batcherna omfattar 614 dokumenterade ändringar, inklusive 64 referenser; Core-minnet innehåller 550 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Forecas prognosbeskrivning](sparade-andringar-foreca-prognos.md) rättades och återlästes i Lokalise. De aktuella batcherna omfattar 615 dokumenterade ändringar, inklusive 64 referenser; Core-minnet innehåller 551 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
