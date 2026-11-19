@@ -25,3 +25,13 @@ Osäkert terminologival: den närliggande åtgärden heter ”Rensa entiteter fr
 ## Kontroll
 
 Svlang rapporterade inga skrivregelfel i förslagen. Hunspell markerade egennamnsformen ”Recorders”, som avser integrationsnamnet Recorder. Sökning i terminologiförrådet gav ingen verifierad globterm; terminologivalet är därför en kontextuell bedömning. Inga platshållare, pluralformer eller nyckelreferenser förekommer i dessa två texter.
+
+## Terminologiuppföljning
+
+Vid kontroll i Lokalise 2026-11-19 används ”inspelaren” i flera felrubriker:
+
+- `component::recorder::issues::database_engine_too_old::title`: ”Update {database_engine} to {min_version} or later to continue using the recorder” / ”Uppdatera {database_engine} till {min_version} eller senare för att kunna fortsätta använda inspelaren”.
+- `component::recorder::issues::database_engine_not_supported_lts::title`: ”Update {database_engine} to a supported LTS version to continue using the recorder” / ”Uppdatera {database_engine} till en LTS-version som stöds för att kunna fortsätta använda inspelaren”.
+- `component::recorder::issues::sqlite_too_old::title`: ”Update SQLite to {min_version} or later to continue using the recorder” / ”Uppdatera SQLite till {min_version} eller senare för att fortsätta använda inspelaren”.
+
+Däremot använder åtgärden `component::recorder::services::purge_entities::name` ”Recorder” och `component::recorder::services::get_statistics::name` likaså. Dessa exempel visar en befintlig skillnad mellan grupperna, men räcker inte för att slå fast en generell term för hela projektet. Förslaget ”Rensa Recorders databas” förblir osäkert; befintlig text behålls tills en bredare terminologikontroll har gjorts. En sökning efter `component::recorder::title` gav ingen träff och visar därför inget integrationsnamn. Ingen Lokalise-ändring gjordes vid uppföljningen.
