@@ -71,3 +71,5 @@ Senast granskade nyckel i denna ordning: `component::matter::entity::sensor::esa
 - [Nyckel 38 678–38 686](granskning-38678-38686.md) – nästa ID i äldre ordning är 650869113; referensmål och BLE-flöde är kontrollerade; en möjlig felaktig källreferens återstår för uppströms uppföljning.
 
 - [Nyckel 38 687–38 695](granskning-38687-38695.md) – nästa ID i äldre ordning är 650869104.
+
+- [Nyckel 38 696–38 700](granskning-38696-38700.md) – nästa ID i äldre ordning är 650869099.
