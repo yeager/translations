@@ -247,3 +247,14 @@ Sparade och återlästa i Lokalise. Projektets ordlista anger ”topic”; plats
 | `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_preset_mode_settings::data::payload_reset_preset_mode` | Nyttolast "återställ förinställningsläge" | Nyttolast ”återställ förinställt läge” |
 
 Sparade och återlästa i Lokalise. Engelska källtexter och ursprungliga bedömningar finns i `ha-core/granskning-38405-38434.md`. Klimatnycklar refererar till flera av fläktnycklarna; referenserna lämnades intakta. Projektets term ”topic” behölls och tillståndsattributet specificerades enligt källtexten.
+
+## Beskrivningar för förinställda fläktlägen
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_preset_mode_settings::data_description::preset_mode_state_topic` | The MQTT topic subscribed to receive fan preset mode. [Learn more.]({url}#preset_mode_state_topic) | Det MQTT-topic som prenumererar på att ta emot fläktens förinställda läge. [Läs mer.]({url}#preset_mode_state_topic) | Det MQTT-topic som Home Assistant prenumererar på för att ta emot fläktens förinställda läge. [Läs mer.]({url}#preset_mode_state_topic) |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_preset_mode_settings::data_description::preset_mode_command_topic` | The MQTT topic to publish commands to change the fan preset mode. [Learn more.]({url}#preset_mode_command_topic) | Det MQTT-topic att publicera kommandon till för att ändra fläktens förinställda läge. [Läs mer.]({url}#preset_mode_command_topic) | Det MQTT-topic som kommandon för att ändra fläktens förinställda läge publiceras till. [Läs mer.]({url}#preset_mode_command_topic) |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_preset_mode_settings::data_description::preset_mode_value_template` | Defines a [template]({value_templating_url}) to extract fan preset mode value. | Definierar en [mall]({value_templating_url}) för att extrahera värdet för fläktens förinställda läge. | Definierar en [mall]({value_templating_url}) för att hämta värdet för fläktens förinställda läge. |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_preset_mode_settings::data_description::preset_mode_command_template` | A [template]({command_templating_url}) to compose the payload to be published at the preset mode command topic. | [Mall]({command_templating_url}) för att skapa nyttolasten som ska publiceras till topic för kommandon för förinställt läge. | En [mall]({command_templating_url}) som skapar nyttolasten som ska publiceras till topic för kommandon för förinställt läge. |
+
+Sparade och återlästa i Lokalise. Platshållare, länkmål och referenser från klimatnycklar bevarades.
