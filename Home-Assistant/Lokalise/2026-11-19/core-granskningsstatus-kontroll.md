@@ -395,3 +395,5 @@ Tre [Sofar-texter för modellidentifiering och anslutning](sparade-andringar-sof
 Fyra [Sofar-referenser för värd och port](sparade-andringar-sofar.md) återställdes och återlästes i Lokalise efter kontroll av de gemensamma målen. Totalt 363 ändringar i de senaste batcherna, inklusive 22 referenser; TMX innehåller fortsatt 341 textpar. Övriga Sofar-referenser och andra förslag återstår.
 
 Sex [Sofar-referenser för Modbus-enhets-ID och dess beskrivning](sparade-andringar-sofar.md) återställdes och återlästes i Lokalise efter kontroll av måltexterna. Totalt 369 ändringar i de senaste batcherna, inklusive 28 referenser; TMX innehåller fortsatt 341 textpar. Övriga förslag återstår.
+
+[Sofars modellfel vid konfiguration](sparade-andringar-sofar.md) kompletterades med registermasker enligt källan, sparades och återlästes i Lokalise. Textparet lades in i [Core-TMX](https://github.com/yeager/swedish-tm/blob/main/home-assistant/sv-home-assistant-core-lokalise-verified-20261119.tmx); XML, platshållare och tidigare poster verifierades. Totalt 370 ändringar i de senaste batcherna, inklusive 28 referenser; TMX innehåller 342 språkpar. Övriga förslag återstår.
