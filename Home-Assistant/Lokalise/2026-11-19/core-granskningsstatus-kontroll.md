@@ -644,3 +644,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Fem NWS-fält](sparade-andringar-nws-omkonfigurering.md) sparades och återlästes i Lokalise: en text och fyra referenser. Det gemensamma värdfältet för Bravia kontrollerades: ”Host” / ”Värd”. NWS-referensen till API-nyckeln återstår att kontrollera separat. De aktuella batcherna omfattar 587 dokumenterade ändringar, inklusive 63 referenser; Core-minnet innehåller 524 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[NWS platsbeskrivning](sparade-andringar-nws-plats.md) rättades mot aktuell källtext, sparades och återlästes i Lokalise. Det gemensamma API-nyckelmålet kontrollerades: ”API key” / ”API-nyckel”. De aktuella batcherna omfattar 588 dokumenterade ändringar, inklusive 63 referenser; Core-minnet innehåller 525 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
