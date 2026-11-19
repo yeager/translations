@@ -82,3 +82,11 @@ Sparad och återläst i Lokalise 2026-11-19. Programnamnet får begriplig svensk
 | `component::midea::entity::sensor::mode::state::earthen_pot_congee` | Earthen pot congee | Jordkruksrisgröt | Risgröt i lergryta |
 
 Sparad och återläst i Lokalise 2026-11-19. Lergryta återger kärlet och risgröt återger rätten.
+
+## Aromatisk risgröt
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::midea::entity::sensor::mode::state::fragrant_dense_congee` | Fragrant dense congee | Doftande tät risgröt | Aromatisk tjock risgröt |
+
+Sparad och återläst i Lokalise 2026-11-19. Konsistensen beskrivs idiomatiskt som tjock.
