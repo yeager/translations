@@ -44,3 +44,13 @@ Sparade och återlästa i Lokalise 2026-11-19. Ordföljden rättades och platsh�
 | `component::guntamatic::entity::sensor::buffer_bottom_temperature::name` | Buffer bottom temperature | Buffert temperatur i botten | Temperatur i buffertens nedre del |
 
 Sparade och återlästa i Lokalise 2026-11-19. Ordföljd och sammansättningar rättades; buffertnumren bevarades.
+
+## Rumstemperaturer
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::guntamatic::entity::sensor::room_0_temperature::name` | Room 0 temperature | Rum 0 temperatur | Temperatur i rum 0 |
+| `component::guntamatic::entity::sensor::room_1_temperature::name` | Room 1 temperature | Rum 1 temperatur | Temperatur i rum 1 |
+| `component::guntamatic::entity::sensor::room_2_temperature::name` | Room 2 temperature | Rum 2 temperatur | Temperatur i rum 2 |
+
+Sparade och återlästa i Lokalise 2026-11-19. Ordföljden rättades och rumsnumren bevarades. Den onumrerade rumstemperaturen kontrollerades och behölls.
