@@ -61,3 +61,5 @@ Senast granskade nyckel i denna ordning: `component::matter::entity::sensor::esa
 - [Nyckel 38 651–38 656](granskning-38651-38656.md) – nästa ID i äldre ordning är 651429553.
 
 - [Nyckel 38 657–38 661](granskning-38657-38661.md) – nästa ID i äldre ordning är 651234286.
+
+- [Nyckel 38 662–38 667](granskning-38662-38667.md) – nästa ID i äldre ordning är 651234280.
