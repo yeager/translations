@@ -120,3 +120,13 @@ Sparad och återläst i Lokalise den 19 november 2026 efter jämförelse med tid
 | `component::unifiprotect::entity::number::infrared_custom_lux_trigger::name` | Infrared custom lux trigger | Infraröd anpassad lux-utlösare | Anpassat luxgränsvärde för infrarött ljus |
 
 [Home Assistants kod](https://github.com/home-assistant/core/blob/dev/homeassistant/components/unifiprotect/number.py) kopplar värdet till kameror med infraröd LED och inställningen `icr_lux`; ljusgränsvärde är en tolkning av källans ”lux trigger”.
+
+## Lägga till enhet
+
+Sparad och återläst i Lokalise den 19 november 2026 efter jämförelse med tidigare rapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::unifiprotect::entity::button::adopt_device::name` | Adopt device | Adoptera enhet | Lägg till enhet i UniFi Protect |
+
+[Ubiquitis dokumentation](https://help.ui.com/hc/en-us/articles/27878858632599-Getting-Started-with-UniFi-Protect) beskriver adoption som att lägga till kameror i UniFi Protect. [Home Assistants kod](https://github.com/home-assistant/core/blob/dev/homeassistant/components/unifiprotect/button.py) kopplar knappen till `adopt`. Den relaterade borttagningsknappen återstår att kontrollera.
