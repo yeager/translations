@@ -620,3 +620,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [VeSyncs feltext och Hikvisions kameranamn](sparade-andringar-vesync-hikvision.md) sparades och återlästes i Lokalise. De aktuella batcherna omfattar 539 dokumenterade ändringar, inklusive 49 referenser; Core-minnet innehåller 490 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Tio EnergyID-fält](sparade-andringar-energyid-direktiv.md) sparades och återlästes i Lokalise: sju texter och tre referenser med översatta mål. De aktuella batcherna omfattar 549 dokumenterade ändringar, inklusive 52 referenser; Core-minnet innehåller 497 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
