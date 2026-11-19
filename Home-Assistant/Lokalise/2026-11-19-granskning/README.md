@@ -25,3 +25,4 @@ SHA-256: `7940ef65d2a3ffe2adee256675c2cb070aa2f13bf11d1a525d767e554662fb44`. Cor
 - [Nyckel 38 375–38 404](granskning-38375-38404.md)
 - [Nyckel 38 405–38 434](granskning-38405-38434.md)
 - [Nyckel 38 435–38 464](granskning-38435-38464.md)
+- [Nyckel 38 465–38 494](granskning-38465-38494.md)
