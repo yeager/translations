@@ -281,3 +281,12 @@ Sparade och återlästa i Lokalise. Klimatnyckelns referens till stödfältet ha
 | `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_speed_settings::data_description::percentage_command_template` | [Mall]({command_templating_url}) för att skapa nyttolasten som ska publiceras till topic för procentkommandon. | En [mall]({command_templating_url}) som skapar nyttolasten som ska publiceras till topic för procentkommandon. |
 
 Sparade och återlästa i Lokalise. Källtexterna och tidigare bedömningar finns i `ha-core/granskning-38375-38404.md`. Projektets term ”topic” används; länkmål och platshållare bevarades.
+
+## Fläkthastighet: procenttillstånd och mall
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_speed_settings::data::percentage_state_topic` | Percentage state topic | Topic för procent-tillstånd | Topic för procenttillstånd |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_speed_settings::data_description::percentage_value_template` | Defines a [template]({value_templating_url}) to extract the speed percentage value. | Definierar en [mall]({value_templating_url}) för att extrahera hastigheten i procent. | Definierar en [mall]({value_templating_url}) för att hämta hastigheten i procent. |
+
+Sparade och återlästa i Lokalise. Länkmålet bevarades. Fältnamnet ”Topic för procentkommando” behölls efter kontroll.
