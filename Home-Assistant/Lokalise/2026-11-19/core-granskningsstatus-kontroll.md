@@ -169,3 +169,5 @@ Fyra [Miele-programnamn för kakor](sparade-andringar-miele.md) sparades och åt
 De fyra nya Miele-programnamnen har lagts till i [Core-TMX](https://github.com/yeager/swedish-tm/blob/main/home-assistant/sv-home-assistant-core-lokalise-verified-20261119.tmx), som nu innehåller 128 språkpar. XML och de tidigare 124 paren kontrollerades.
 
 Två [Miele-programnamn för matpaj](sparade-andringar-miele.md) sparades och återlästes samt lades till i [Core-TMX](https://github.com/yeager/swedish-tm/blob/main/home-assistant/sv-home-assistant-core-lokalise-verified-20261119.tmx). XML och tidigare par kontrollerades. Totalt 136 ändringar i de senaste batcherna, inklusive sex referenser; TMX innehåller 130 språkpar.
+
+Två [Miele-programnamn för fruktpaj](sparade-andringar-miele.md) sparades och återlästes samt lades till i [Core-TMX](https://github.com/yeager/swedish-tm/blob/main/home-assistant/sv-home-assistant-core-lokalise-verified-20261119.tmx). XML och tidigare par kontrollerades. Totalt 138 ändringar i de senaste batcherna, inklusive sex referenser; TMX innehåller 132 språkpar.
