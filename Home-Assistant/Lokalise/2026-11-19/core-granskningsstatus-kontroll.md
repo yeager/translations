@@ -779,3 +779,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [16 NAD-konfigurationsfält](sparade-andringar-nad-konfiguration.md) sparades och återlästes via Lokalise API: sju texter och nio referenser med kontrollerade svenska mål. De aktuella batcherna omfattar 839 dokumenterade ändringar, inklusive 97 referenser; Core-minnet innehåller 742 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Tretton DSMR-, ENGIE Belgium- och uppdateringstexter](sparade-andringar-dsmr-engie-uppdatering.md) sparades och återlästes via Lokalise API med `{ean_suffix}` bevarad. De aktuella batcherna omfattar 852 dokumenterade ändringar, inklusive 97 referenser; Core-minnet innehåller 755 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
