@@ -614,3 +614,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Fyra Tuya-felmeddelanden](sparade-andringar-tuya-kommandon.md) sparades och återlästes i Lokalise med `{code}` bevarad. De aktuella batcherna omfattar 533 dokumenterade ändringar, inklusive 49 referenser; Core-minnet innehåller 484 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Fyra VeSync-inställningar för automatiskt läge](sparade-andringar-vesync-autolage.md) sparades och återlästes i Lokalise. De aktuella batcherna omfattar 537 dokumenterade ändringar, inklusive 49 referenser; Core-minnet innehåller 488 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
