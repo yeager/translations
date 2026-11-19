@@ -555,3 +555,6 @@ Detta ger 456 dokumenterade ändringar i de aktuella batcherna, inklusive 35 ref
 
 
 [Matters routningsroll i Thread](sparade-andringar-matter-thread.md) rättades, sparades och återlästes. Core-minnet innehåller 430 unika textpar; de aktuella batcherna omfattar 465 dokumenterade ändringar inklusive 35 referenser. Övrig granskning återstår.
+
+
+[Matters Thread-slutenhet som kan bli router](sparade-andringar-matter-thread.md) rättades efter kontroll av OpenThread-dokumentationen, sparades och återlästes. Core-minnet innehåller 431 unika textpar; de aktuella batcherna omfattar 466 dokumenterade ändringar inklusive 35 referenser. Övrig granskning återstår.
