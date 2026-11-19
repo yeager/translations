@@ -109,3 +109,11 @@ Sparad och återläst i Lokalise. Benämningen valdes enligt användarens anvisn
 | `component::miele::entity::sensor::program_id::state::tart_flambe` | Tart  flambè | Syrlig  flambè | Tarte flambée |
 
 Sparad och återläst i Lokalise. Rättens namn behålls med vedertagen stavning; ”tart” har inte betydelsen syrlig i detta sammanhang.
+
+## Tårtbotten
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::miele::entity::sensor::program_id::state::sponge_base` | Sponge base | Svampbas | Tårtbotten |
+
+Sparad och återläst i Lokalise. Mieles [svenska bakningstabell](https://www.miele.se/forms2/se/sa/manuals-125.aspx?asDownload=1&mNo=06237570) använder tårtbotten för en botten av luftig sockerkaksdeg; kopplingen till just denna programnyckel är en kontextuell bedömning.
