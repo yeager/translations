@@ -12,3 +12,12 @@ Sparade och återlästa i Lokalise den 19 november 2026. Källtext och aktuell s
 | `component::tplink_omada::exceptions::api_error::message` | Failed to communicate with the Omada controller. | Misslyckades med att kommunicera med Omada-kontrollenheten. | Det gick inte att kommunicera med Omada-styrenheten. |
 
 Styrenhet används konsekvent för Omada controller; MAC-adressen beskriver klienten och platshållaren bevaras. Redigeraren lade först till ny text efter den gamla; detta rättades och samtliga sex slutliga värden lästes tillbaka.
+
+## Styrenheter som saknas
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::tplink_omada::exceptions::controller_not_found::message` | Specified TP-Link Omada controller not found | Angiven TP-Link Omada-kontroller hittades inte | Angiven TP-Link Omada-styrenhet hittades inte |
+| `component::tplink_omada::exceptions::no_controllers::message` | No active TP-Link Omada controllers found | Inga aktiva TP-Link Omada-kontroller hittades | Inga aktiva TP-Link Omada-styrenheter hittades |
+
+Sparade och återlästa i Lokalise. Benämningen följer de övriga rättade Omada-felmeddelandena.
