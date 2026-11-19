@@ -103,3 +103,15 @@ Källtexter och tidigare översättningar kontrollerades i Lokalise; båda ändr
 | `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_payload_settings::data_description::state_closed` | The payload received at the state topic that represents the "closed" state. | Nyttolasten som tas emot vid tillståndsämnet som representerar det "stängda" tillståndet. | Nyttolasten som tas emot på tillståndstopic och representerar tillståndet ”stängt”. |
 
 Källor och tidigare texter jämfördes i Lokalise; alla tre sparades och återlästes.
+
+## Topic för positionskommandon
+
+Nyckel: `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_position_settings::data_description::set_position_topic`.
+
+Engelska: The MQTT topic to publish position commands to. You need to use the set position topic as well if you want to use the position topic. Use template if position topic wants different values than within range "position closed" - "position_open". If template is not defined and position "closed" != 100 and position "open" != 0 then proper position value is calculated from percentage position. [Learn more.]({url}#set_position_topic)
+
+Tidigare svenska: Det MQTT-ämne som positionskommandon ska publiceras till. Du måste även använda ämnet för inställd position om du vill använda positionsämnet. Använd mallen om positionsämnet kräver andra värden än de som ligger inom intervallet ”stängd position” – ”öppen position”. Om mallen inte är definierad och positionen "stängd" != 100 och positionen "öppen" != 0 beräknas rätt positionsvärde utifrån procentuell position. [Läs mer.]({url}#set_position_topic)
+
+Sparad svenska: Det MQTT-topic som positionskommandon publiceras till. Du behöver också ange topic för positionskommandon om du vill använda topic för positionstillstånd. Använd en mall om topic för positionstillstånd kräver andra värden än de inom intervallet ”stängd position”–”öppen position”. Om ingen mall har angetts och positionen ”stängd” != 100 och positionen ”öppen” != 0 beräknas positionsvärdet från positionen i procent. [Läs mer.]({url}#set_position_topic)
+
+Källtexten jämfördes i Lokalise; villkor och länkmål bevarades. Ändringen sparades och återlästes.
