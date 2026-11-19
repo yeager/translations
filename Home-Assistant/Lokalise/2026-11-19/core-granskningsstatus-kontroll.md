@@ -87,3 +87,5 @@ En [MQTT-mallbeskrivning för positionsvärde](sparade-andringar-mqtt.md) sparad
 En [beskrivning av MQTT-topic för position](sparade-andringar-mqtt.md) sparades och återlästes med länkmålet bevarat. Totalt 66 ändringar i de senaste batcherna; övriga förslag återstår.
 
 Två [MQTT-hjälptexter för tillstånd](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 68 ändringar i de senaste batcherna; övriga förslag återstår.
+
+Tre [MQTT-tillståndsbeskrivningar](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 71 ändringar i de senaste batcherna; övriga förslag återstår.
