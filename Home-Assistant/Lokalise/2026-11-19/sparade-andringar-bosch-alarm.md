@@ -28,3 +28,12 @@ Kontrollerat i Lokalise den 19 november 2026. Gas-, brand- och inbrottssensorern
 | `component::bosch_alarm::entity::sensor::alarms_gas::state::alarm` | Alarm | Larm | Behåll. |
 
 De åtta kontrollerade referenserna är `component::bosch_alarm::entity::sensor::alarms_fire::state::{trouble,supervisory,no_issues,alarm}` och `component::bosch_alarm::entity::sensor::alarms_burglary::state::{trouble,supervisory,no_issues,alarm}`. Klammerskrivningen här är en förkortning för fyra separata nycklar i respektive grupp. Inga ytterligare Lokalise-ändringar gjordes vid genomgången.
+
+## Panelens ström och logg
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::bosch_alarm::entity::binary_sensor::panel_fault_ac_fail::name` | AC failure | AC-fel | Nätspänningsfel |
+| `component::bosch_alarm::entity::binary_sensor::panel_fault_log_threshold::name` | Log threshold reached | Gräns för loggning nådd | Loggens gränsvärde uppnått |
+
+Sparade och återlästa i Lokalise den 19 november 2026. Strömförsörjningens fel och loggens gränsvärde uttrycks tydligare.
