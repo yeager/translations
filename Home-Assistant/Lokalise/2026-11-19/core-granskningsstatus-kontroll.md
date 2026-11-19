@@ -53,3 +53,5 @@ Två [Met Office-texter](sparade-andringar-metoffice.md) sparades och återläst
 Tre [Squeezebox-feltexter](sparade-andringar-squeezebox.md) sparades och återlästes med platshållarna bevarade. Totalt 33 ändringar i de senaste batcherna; det fjärde Squeezebox-förslaget och övriga förslag återstår.
 
 Den fjärde [Squeezebox-feltexten](sparade-andringar-squeezebox.md) sparades och återlästes med `{host}` bevarad. Totalt 34 ändringar i de senaste batcherna; övriga förslag återstår.
+
+Två [Wallbox-texter](sparade-andringar-wallbox.md) sparades och återlästes. Totalt 36 ändringar i de senaste batcherna; övriga förslag återstår.
