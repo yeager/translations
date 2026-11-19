@@ -20,7 +20,7 @@ Motivering: ”entity” översätts konsekvent med ”entitet”; den intilligg
 
 **Förslag:** Rensa Recorders databas
 
-Motivering: den närliggande åtgärden heter ”Rensa entiteter från Recorder” och beskrivningarna använder Recorder som namn. Förslaget använder samma namn.
+Osäkert terminologival: den närliggande åtgärden heter ”Rensa entiteter från Recorder” och beskrivningarna använder Recorder som namn. Samtidigt finns [tidigare Recorder-rubriker som använder ”inspelaren”](sparade-andringar-recorder.md). Avgör först om integrationsnamnet eller den översatta benämningen ska användas genomgående; ändra inte denna enskilda sträng utan den kontrollen.
 
 ## Kontroll
 
