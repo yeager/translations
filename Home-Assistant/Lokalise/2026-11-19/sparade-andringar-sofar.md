@@ -29,3 +29,14 @@ Sparade och återlästa i Lokalise 2026-11-19 efter jämförelse med tidigare gr
 | `component::sofar::entity::sensor::software_version::name` | Software version | Mjukvaruversion | Programvaruversion |
 
 Nätstatusen förtydligas och programvara används som svensk term för software.
+
+## Total reaktiv effekt
+
+Sparade och återlästa i Lokalise 2026-11-19 efter jämförelse med tidigare granskningsrapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::sofar::entity::sensor::reactive_power_output_total::name` | Reactive power output total | Reaktiv effekt utgång totalt | Total reaktiv uteffekt |
+| `component::sofar::entity::sensor::reactive_power_offgrid_total::name` | Reactive power off-grid total | Reaktiv effekt off-grid totalt | Total reaktiv effekt vid ödrift |
+
+De svenska benämningarna skiljer utgående effekt från effekt vid ödrift. Övriga effektförslag återstår.
