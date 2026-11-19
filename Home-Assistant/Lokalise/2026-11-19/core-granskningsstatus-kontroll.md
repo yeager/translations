@@ -558,3 +558,6 @@ Detta ger 456 dokumenterade ändringar i de aktuella batcherna, inklusive 35 ref
 
 
 [Matters Thread-slutenhet som kan bli router](sparade-andringar-matter-thread.md) rättades efter kontroll av OpenThread-dokumentationen, sparades och återlästes. Core-minnet innehåller 431 unika textpar; de aktuella batcherna omfattar 466 dokumenterade ändringar inklusive 35 referenser. Övrig granskning återstår.
+
+
+[Hassios portkonfliktrubrik](sparade-andringar-hassio-portkonflikt.md) rättades enligt ett äldre granskningsförslag, sparades och återlästes. Core-minnet innehåller 432 unika textpar; de aktuella batcherna omfattar 467 dokumenterade ändringar inklusive 35 referenser. Övriga förslag och nycklar återstår.
