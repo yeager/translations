@@ -26,3 +26,25 @@ Referenserna följer den engelska källan och målen ovan har kontrollerats.
 | `component::switcher_kis::issues::deprecated_auto_shutdown_scripts::title` | Tom | `[%key:component::switcher_kis::issues::deprecated_auto_shutdown::title%]` |
 
 De fyra tillhörande beskrivningarna med platshållare återstår.
+
+## Reparation av återstående tid
+
+Nyckel: `component::switcher_kis::issues::deprecated_remaining_time::description`. Tidigare svenska: tom. Sparad och återläst i Lokalise 2026-11-19.
+
+Engelska:
+
+```text
+The `{entity_id}` ({entity_name}) sensor is deprecated and has been replaced by the **Shutdown time** sensor, which reports when the device will turn off.
+
+Update any dashboards, templates, automations or scripts to use the new sensor, then disable `{entity_id}` to have it removed.
+```
+
+Svenska:
+
+```text
+Sensorn `{entity_id}` ({entity_name}) är föråldrad och har ersatts av sensorn **Avstängningstid**, som visar när enheten stängs av.
+
+Uppdatera eventuella instrumentpaneler, mallar, automationer och skript så att de använder den nya sensorn. Inaktivera sedan `{entity_id}` för att ta bort den.
+```
+
+Variabler, kodmarkeringar, fetstil och styckesindelning kontrollerades. De tre andra reparationsbeskrivningarna återstår.
