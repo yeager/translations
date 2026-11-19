@@ -794,3 +794,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 Den fullständiga [API-kontrollen av tomma svenska fält](kontroll-tomma-svenska-falt.md) läste alla 75 007 Core-nycklar på 151 sidor. Resultat: inga engelska strängar har ett tomt svenskt fält. Detta omfattar även nyckelreferenser; respektive mål har kontrollerats i sparloggarna. Den fortsatta uppgiften är språklig granskning av redan ifyllda strängar samt kontroll av ändrade källor.
+
+
+[Zonneplans elpris och två Daikin-hänvisningar](sparade-andringar-zonneplan-daikin.md) har rättats och återlästs via Lokalise API efter kontroll av aktuell källa. De aktuella batcherna omfattar 906 dokumenterade ändringar, inklusive 110 referenser; Core-minnet innehåller 796 unika nycklade textpar. Äldre förslag och övrig språklig granskning återstår.
