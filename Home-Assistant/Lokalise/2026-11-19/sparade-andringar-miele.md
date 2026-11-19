@@ -67,3 +67,12 @@ Sparade och återlästa i Lokalise. ”Rolls” avser småbröd i sammanhanget.
 | `component::miele::entity::sensor::program_id::state::potato_cheese_gratin` | Potato cheese gratin | Potatisostgratäng | Potatisgratäng med ost |
 
 Sparade och återlästa i Lokalise. ”Crackling” avser knaprig svål; gratängens ingredienser uttrycks tydligare.
+
+## Gås
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::miele::entity::sensor::program_id::state::goose_unstuffed` | Goose unstuffed | Gås ofylld | Ofylld gås |
+| `component::miele::entity::sensor::program_id::state::goose_stuffed` | Goose stuffed | Gås fylld | Fylld gås |
+
+Sparade och återlästa i Lokalise. Ordföljden anpassades till svenska.
