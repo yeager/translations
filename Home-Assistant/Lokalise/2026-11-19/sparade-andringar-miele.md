@@ -49,3 +49,12 @@ Sparade och återlästa i Lokalise. Degtyperna och pajens innebörd följer käl
 | `component::miele::entity::sensor::program_id::state::linzer_augen_1_tray` | Linzer Augen (1 tray) | Linzer Augen (1 bricka) | Linzer Augen (1 plåt) |
 
 Sparade och återlästa i Lokalise. I ett ugnsprogram avser tray en bakplåt.
+
+## Frallor
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::miele::entity::sensor::program_id::state::rye_rolls` | Rye rolls | Rågrullar | Rågfrallor |
+| `component::miele::entity::sensor::program_id::state::multigrain_rolls` | Multigrain rolls | Multigrynsbröd | Frallor med flera sädesslag |
+
+Sparade och återlästa i Lokalise. ”Rolls” avser småbröd i sammanhanget.
