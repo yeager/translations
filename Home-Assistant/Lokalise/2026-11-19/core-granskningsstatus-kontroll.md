@@ -716,3 +716,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Två Marketplace-rubriker](sparade-andringar-marketplace-kalla.md) rättades och återlästes via Lokalise API. De aktuella batcherna omfattar 631 dokumenterade ändringar, inklusive 65 referenser; Core-minnet innehåller 566 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Fyra texter för Modbus, ljud, iZone och Plex](sparade-andringar-modbus-ljud-izone-plex.md) rättades och återlästes via Lokalise API. De aktuella batcherna omfattar 635 dokumenterade ändringar, inklusive 65 referenser; Core-minnet innehåller 570 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
