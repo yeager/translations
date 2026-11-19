@@ -517,3 +517,6 @@ Det ger 442 dokumenterade ändringar i dessa batcher, varav 32 referenser. [Core
 Med de fyra senare textändringarna blir tidigare dokumenterade 442 ändringar totalt 446, inklusive 32 referenser. [Det verifierade Core-minnet](https://github.com/yeager/swedish-tm/blob/main/home-assistant/sv-home-assistant-core-lokalise-verified-20261119.tmx) innehåller 414 unika textpar enligt XML-kontroll. Det historiska exportunderlaget är fortfarande en ögonblicksbild och visar inte full aktuell täckning.
 
 Två [lokala terminologiförslag för Recorder](forslag-recorder-entitetsmonster.md) finns i det separata [förslagsminnet](https://github.com/yeager/swedish-tm/blob/main/home-assistant/sv-home-assistant-core-proposals-20261119.tmx); de är inte sparade i Lokalise. Namnvalet ”Recorder” respektive ”inspelaren” är osäkert och måste jämföras med tidigare granskad terminologi innan förslaget används. Kvarstående äldre uppföljningar och Core-nycklar måste fortfarande identifieras och granskas.
+
+
+[Avstämning av Matter-luckan](matter-uppfoljning-2026-11-19.md) mot den historiska Core-PO-exporten hittade exakt de tio redan rapporterade nycklarna mellan rapporternas angränsande ID:n. Detta gäller exportens begränsade urval, inte en fullständig ofiltrerad Lokalise-lista; fullständig täckning är fortsatt overifierad. Ingen Lokalise-ändring gjordes vid avstämningen.
