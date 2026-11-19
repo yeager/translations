@@ -552,3 +552,6 @@ Detta ger 456 dokumenterade ändringar i de aktuella batcherna, inklusive 35 ref
 
 
 [Matters programvarustyrda omstart](sparade-andringar-matter-startorsak.md) rättades, sparades och återlästes. Core-minnet innehåller 429 unika textpar; de aktuella batcherna omfattar 464 dokumenterade ändringar inklusive 35 referenser. Övrig granskning återstår.
+
+
+[Matters routningsroll i Thread](sparade-andringar-matter-thread.md) rättades, sparades och återlästes. Core-minnet innehåller 430 unika textpar; de aktuella batcherna omfattar 465 dokumenterade ändringar inklusive 35 referenser. Övrig granskning återstår.
