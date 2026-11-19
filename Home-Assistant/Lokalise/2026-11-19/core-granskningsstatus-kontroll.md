@@ -581,3 +581,6 @@ Detta ger 456 dokumenterade ändringar i de aktuella batcherna, inklusive 35 ref
 ## Säkerhetskopia av äldre rapporter
 
 En avstämning mot katalogen på GitHub fann 368 lokala granskningsrapporter som saknades där. De kopierades till [granskningskatalogen](../2026-11-19-granskning/) i commit `39c2c77f7fdaa6c1c28c27d11a25f100aefbffbd`. Alla 368 Git-blobar jämfördes med respektive lokal fil utan avvikelse. Detta verifierar kopian, inte rapporternas aktualitet eller full täckning av Lokalise.
+
+
+Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på GitHub. De finns nu i [granskningskatalogen](../2026-11-19-granskning/) och filinnehållet jämfördes med de lokala kopiorna. Rapporterna är historiska underlag; deras förslag behöver jämföras med aktuell Lokalise-text och tidigare sparloggar innan de kan räknas som genomförda. Avstämningen täcker lokala Markdown-filnamn, inte andra filtyper eller dolda underkataloger.
