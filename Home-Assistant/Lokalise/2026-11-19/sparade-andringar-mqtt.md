@@ -115,3 +115,10 @@ Tidigare svenska: Det MQTT-ämne som positionskommandon ska publiceras till. Du 
 Sparad svenska: Det MQTT-topic som positionskommandon publiceras till. Du behöver också ange topic för positionskommandon om du vill använda topic för positionstillstånd. Använd en mall om topic för positionstillstånd kräver andra värden än de inom intervallet ”stängd position”–”öppen position”. Om ingen mall har angetts och positionen ”stängd” != 100 och positionen ”öppen” != 0 beräknas positionsvärdet från positionen i procent. [Läs mer.]({url}#set_position_topic)
 
 Källtexten jämfördes i Lokalise; villkor och länkmål bevarades. Ändringen sparades och återlästes.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_tilt_settings::data::tilt_optimistic` | Tilt optimistic | Tilt optimistisk | Optimistiskt läge för lutning |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_tilt_settings::data::tilt_opened_value` | Tilt "opened" value | Lutningsvärde "öppet" | Lutningsvärde för ”öppet” |
+
+Fälten jämfördes med källtext och närliggande beskrivningar, sparades och återlästes i Lokalise.
