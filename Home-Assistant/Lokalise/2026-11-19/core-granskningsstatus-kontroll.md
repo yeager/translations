@@ -163,3 +163,5 @@ Avstämning av de 17 ändringsloggarna i denna katalog gav 130 unika dokumentera
 Samtliga 124 engelska och svenska segment i [Core-TMX-tillägget](https://github.com/yeager/swedish-tm/blob/main/home-assistant/sv-home-assistant-core-lokalise-verified-20261119.tmx) jämfördes med de 17 sparloggarna i denna katalog. 123 par matchade tabell- eller textposter och det flerradiga säkerhetskopieringsparet matchade separat de två kodblocken, inklusive radbrytningar. Avstämningen kontrollerar dokumenterad överensstämmelse, inte om Lokalise har ändrats sedan återläsningen.
 
 Senaste [swedish-tm-releasen v1.1.8](https://github.com/yeager/swedish-tm/releases/tag/v1.1.8) ligger 664 commits bakom huvudgrenen enligt GitHubs jämförelse vid kontrollen. Skillnaden omfattar även omfattande Blender-, QGIS- och annat arbete. En release av hela huvudgrenen kräver därför kontroll av mer än HA-tillägget; någon ny release gjordes inte i denna kontroll.
+
+Fyra [Miele-programnamn för kakor](sparade-andringar-miele.md) sparades och återlästes. Totalt 134 ändringar i de senaste batcherna; de fyra nya textparen återstår att lägga in i Core-TMX.
