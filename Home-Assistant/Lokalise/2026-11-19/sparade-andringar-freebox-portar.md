@@ -12,3 +12,15 @@ Sparade och återlästa i Lokalise den 19 november 2026 efter kontroll mot [den 
 | `component::freebox::entity::sensor::port_link_speed::name` | {port} link speed | Länkhastighet för {port} |
 
 Platshållaren `{port}` bevaras i samtliga sex texter. Skillnaden mellan namngiven och numrerad port följer källan.
+
+
+## Portarnas länkstatus
+
+Sparade och återlästa i Lokalise den 19 november 2026. De svenska måltexterna var tomma.
+
+| Fullständig nyckel | Engelska | Sparad svenska |
+|---|---|---|
+| `component::freebox::entity::binary_sensor::port_link_unnamed::name` | Port {port} link | Länk för port {port} |
+| `component::freebox::entity::binary_sensor::port_link::name` | {port} link | Länk för {port} |
+
+Platshållaren `{port}` bevaras i båda texterna.
