@@ -758,3 +758,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Sju BLUETTI Modbus-fält](sparade-andringar-bluetti-modbus-konfiguration.md) sparades och återlästes via Lokalise API: två texter med bevarade platshållare och fem referenser med kontrollerade svenska mål. De aktuella batcherna omfattar 724 dokumenterade ändringar, inklusive 78 referenser; Core-minnet innehåller 646 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Tretton Tractive- och Yardian-fält](sparade-andringar-tractive-yardian.md) sparades och återlästes via Lokalise API: sju texter och sex referenser med kontrollerade svenska mål. De aktuella batcherna omfattar 737 dokumenterade ändringar, inklusive 84 referenser; Core-minnet innehåller 653 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
