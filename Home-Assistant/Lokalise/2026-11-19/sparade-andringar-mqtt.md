@@ -268,3 +268,16 @@ Sparade och återlästa i Lokalise. Platshållare, länkmål och referenser frå
 | `component::mqtt::config_subentries::device::error::fan_preset_mode_reset_in_preset_modes_list` | Payload "reset preset mode" is not a valid as a preset mode | Nyttolasten "återställ förinställningsläge" är inte giltigt som ett förinställningsläge | Nyttolasten ”återställ förinställt läge” är inte giltig som förinställt läge. |
 
 Sparade och återlästa i Lokalise. Klimatnyckelns referens till stödfältet har bevarats.
+
+## Fläkthastighet
+
+| Fullständig nyckel | Tidigare svenska | Sparad svenska |
+|---|---|---|
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_speed_settings::data_description::percentage_state_topic` | Det MQTT-ämne att prenumerera på för att få information om fläktens hastighet. Värdet ligger inom intervallet från ”minsta hastighet” till ”högsta hastighet”. [Läs mer.]({url}#percentage_state_topic) | Det MQTT-topic som Home Assistant prenumererar på för att ta emot fläktens hastighet. Värdet ligger inom intervallet från ”lägsta hastighet” till ”högsta hastighet”. [Läs mer.]({url}#percentage_state_topic) |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_speed_settings::data_description::percentage_command_topic` | Ämnet i MQTT som används för att publicera kommandon som ändrar fläkthastighetens tillstånd utifrån en procentinställning. Värdet ska ligga inom intervallet från ”speed range min” till ”speed range max”. [Läs mer.]({url}#percentage_command_topic) | Det MQTT-topic som kommandon för att ändra fläktens hastighet utifrån en procentinställning publiceras till. Värdet ska ligga inom intervallet från ”lägsta hastighet” till ”högsta hastighet”. [Läs mer.]({url}#percentage_command_topic) |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_speed_settings::data_description::payload_reset_percentage` | En speciell nyttolast som återställer fläkthastighetens procentvärde till okänt när det tas emot vid topic för procent-tillstånd. | En särskild nyttolast som återställer tillståndsattributet för fläktens hastighet i procent till okänt när den tas emot på topic för procenttillstånd. |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_speed_settings::data::speed_range_min` | Hastighetsspann minimum | Lägsta hastighet |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_speed_settings::data::speed_range_max` | Hastighetsspann maximum | Högsta hastighet |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_speed_settings::data_description::percentage_command_template` | [Mall]({command_templating_url}) för att skapa nyttolasten som ska publiceras till topic för procentkommandon. | En [mall]({command_templating_url}) som skapar nyttolasten som ska publiceras till topic för procentkommandon. |
+
+Sparade och återlästa i Lokalise. Källtexterna och tidigare bedömningar finns i `ha-core/granskning-38375-38404.md`. Projektets term ”topic” används; länkmål och platshållare bevarades.
