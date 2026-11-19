@@ -719,3 +719,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Fyra texter för Modbus, ljud, iZone och Plex](sparade-andringar-modbus-ljud-izone-plex.md) rättades och återlästes via Lokalise API. De aktuella batcherna omfattar 635 dokumenterade ändringar, inklusive 65 referenser; Core-minnet innehåller 570 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Google Weathers nederbördsbeskrivning](sparade-andringar-google-weather-nederbord.md) rättades och återlästes via Lokalise API. De aktuella batcherna omfattar 636 dokumenterade ändringar, inklusive 65 referenser; Core-minnet innehåller 571 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
