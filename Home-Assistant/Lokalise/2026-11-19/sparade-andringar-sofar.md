@@ -135,3 +135,14 @@ Sparad och återläst i Lokalise 2026-11-19 efter jämförelse med tidigare gran
 Ett tillfälligt felaktigt sparat värde med sammanfogad gammal och ny text rättades direkt. Kontrollera om det felaktiga värdet finns kvar i Lokalises översättningsminne.
 
 Uppföljning: Sökning i projektets anslutna översättningsminnen efter `Off-grid reactive power output` visade det korrigerade svenska värdet som exakt källträff. Sökningen `utgångReaktiv` gav 0 träffar. Detta är en sökkontroll, inte en fullständig export av minnet.
+
+## Skenbar och aktiv effekt på utgången vid ödrift
+
+Sparade och återlästa i Lokalise 2026-11-19 efter jämförelse med tidigare granskningsrapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::sofar::entity::sensor::offgrid_apparent_power_output::name` | Off-grid apparent power output | Off-grid skenbar effekt utgång | Skenbar effekt på utgången vid ödrift |
+| `component::sofar::entity::sensor::offgrid_active_power_output::name` | Off-grid active power output | Off-grid aktiv effekt utgång | Aktiv effekt på utgången vid ödrift |
+
+Benämningarna skiljer skenbar och aktiv effekt och följer den sparade texten för reaktiv effekt.
