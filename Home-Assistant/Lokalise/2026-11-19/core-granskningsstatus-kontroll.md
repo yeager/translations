@@ -567,3 +567,6 @@ Detta ger 456 dokumenterade ändringar i de aktuella batcherna, inklusive 35 ref
 
 
 [Ytterligare sju ZHA-namn för mmWave](sparade-andringar-zha-mmwave.md) rättades, sparades och återlästes. Core-minnet innehåller 442 unika textpar; de aktuella batcherna omfattar 477 dokumenterade ändringar inklusive 35 referenser. Övrig granskning återstår.
+
+
+[Tre ZHA-namn för lysdiod, lutning och mätläge](sparade-andringar-zha-sensorer.md) rättades, sparades och återlästes. Core-minnet innehåller 445 unika textpar; de aktuella batcherna omfattar 480 dokumenterade ändringar inklusive 35 referenser. Övrig granskning återstår.
