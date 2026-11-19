@@ -57,3 +57,10 @@ Källtext och tidigare svenska kontrollerades i Lokalise. Ändringarna sparades 
 | `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_position_settings::data_description::position_closed` | Number which represents "closed" position. | Nummer som representerar en "stängd" position. | Talet som motsvarar positionen ”stängd”. |
 
 Beskrivningarna jämfördes med källan, sparades och återlästes i Lokalise.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_position_settings::data::position_open` | Position "open" value | Positionens "öppna" värde | Positionsvärde för ”öppen” |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_position_settings::data::position_closed` | Position "closed" value | Positionens "stängda" värde | Positionsvärde för ”stängd” |
+
+Fältnamnen jämfördes med källan och motsvarande hjälptexter; de sparades och återlästes i Lokalise.
