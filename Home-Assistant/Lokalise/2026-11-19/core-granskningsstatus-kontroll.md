@@ -25,3 +25,5 @@ Den [kompletterande Matter-rapporten](matter-uppfoljning-2026-11-19.md) innehål
 ## Sparning påbörjad
 
 Efter användarens instruktion att spara ändringarna har [tre översättningar sparats och återlästs](sparade-andringar-yolink-immich.md). Tidigare uppgifter om osparade förslag avser läget före denna batch. Övriga rapporterade förslag måste jämföras med aktuell Lokalise-text och sparas efter kontroll. Den felaktiga tillfälliga YoLink-versionen kan finnas kvar i Lokalises översättningsminne och behöver följas upp.
+
+Ytterligare [två SwitchBot-översättningar](sparade-andringar-switchbot.md) är sparade och återlästa. Totalt fem sparade i dessa två batcher; övriga förslag återstår.
