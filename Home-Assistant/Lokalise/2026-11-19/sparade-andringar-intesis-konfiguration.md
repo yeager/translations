@@ -1,0 +1,23 @@
+# Sparade Intesis Modbus-konfigurationsfält
+
+Sparade och återlästa i Home Assistant Core i Lokalise 2026-11-19. De svenska fälten var tomma före ändringen. Referenserna bevarar engelska källans mål; referensmålens svenska innehåll bör följas upp separat. Platshållaren `{brand}` bevarades.
+
+| Fullständig nyckel | Engelska | Sparad svenska |
+| --- | --- | --- |
+| `component::intesis_modbus::config::step::user::description` | Set up a gateway wired to a serial port over RS-485 (8 data bits, no parity, 2 stop bits). The gateway model is detected from its device ID. | Konfigurera en gateway som är ansluten till en seriell port via RS-485 (8 databitar, ingen paritet, 2 stoppbitar). Gatewayens modell identifieras med hjälp av dess enhets-ID. |
+| `component::intesis_modbus::config::step::user::data_description::unit_id` | The gateway's Modbus slave address, set on its SW3 DIP switches. The Intesis default is 1. | Gatewayens Modbus-slavadress, som ställs in med dess SW3-DIP-omkopplare. Intesis standardvärde är 1. |
+| `component::intesis_modbus::config::step::user::data_description::device` | [%key:component::modbus::common::serial_port_description%] | [%key:component::modbus::common::serial_port_description%] |
+| `component::intesis_modbus::config::step::user::data_description::baudrate` | The speed set on the gateway's SW3/SW4 DIP switches. The Intesis default is 9600. | Hastigheten som ställts in med gatewayens SW3/SW4-DIP-omkopplare. Intesis standardvärde är 9600. |
+| `component::intesis_modbus::config::step::user::data::unit_id` | Modbus unit ID | Modbus-enhets-ID |
+| `component::intesis_modbus::config::step::user::data::device` | [%key:component::modbus::common::serial_port%] | [%key:component::modbus::common::serial_port%] |
+| `component::intesis_modbus::config::step::user::data::baudrate` | [%key:component::modbus::common::baud_rate%] | [%key:component::modbus::common::baud_rate%] |
+| `component::intesis_modbus::config::step::features::description` | Confirm what the indoor unit behind the gateway can do. | Bekräfta vilka funktioner inomhusenheten bakom gatewayen har. |
+| `component::intesis_modbus::config::step::features::data_description::has_vane` | The gateway cannot tell whether the indoor unit has a motorised vane, so this is pre-filled from what it last reported. Turn it off for a unit without one and the climate entity will not offer swing modes. | Gatewayen kan inte avgöra om inomhusenheten har ett motoriserat luftspjäll. Därför är detta förvalt utifrån vad den senast rapporterade. Stäng av alternativet om enheten saknar spjäll, så erbjuder klimatentiteten inga pendlingslägen. |
+| `component::intesis_modbus::config::step::features::data::has_vane` | Unit has a swing vane | Enheten har ett pendlande luftspjäll |
+| `component::intesis_modbus::config::error::unsupported_device` | The device at this unit ID did not identify itself as a supported Intesis gateway. Check the Modbus unit ID. | Enheten med detta enhets-ID identifierade sig inte som en Intesis-gateway som stöds. Kontrollera Modbus-enhets-ID:t. |
+| `component::intesis_modbus::config::error::gateway_starting` | The gateway is still starting up and does not report its values yet. Wait a few minutes and try again. | Gatewayen startar fortfarande och rapporterar ännu inga värden. Vänta några minuter och försök igen. |
+| `component::intesis_modbus::config::error::device_in_use` | The serial port is already in use with other link settings. This gateway always uses 8 data bits, no parity and 2 stop bits, so the other devices on this line must use the same framing and baud rate. | Den seriella porten används redan med andra anslutningsinställningar. Den här gatewayen använder alltid 8 databitar, ingen paritet och 2 stoppbitar. Därför måste de andra enheterna på linjen använda samma ramformat och överföringshastighet. |
+| `component::intesis_modbus::config::error::cannot_connect` | [%key:common::config_flow::error::cannot_connect%] | [%key:common::config_flow::error::cannot_connect%]
+ |
+| `component::intesis_modbus::config::abort::unsupported_brand` | This is a {brand} gateway. Its code and error tables are not written yet, so it cannot be set up. See the intesis-gw-modbus library for how to contribute them. | Det här är en gateway från {brand}. Dess kod- och feltabeller har ännu inte skrivits, så den kan inte konfigureras. Se biblioteket intesis-gw-modbus för information om hur du kan bidra med dem. |
+| `component::intesis_modbus::config::abort::already_configured` | [%key:common::config_flow::abort::already_configured_device%] | [%key:common::config_flow::abort::already_configured_device%] |
