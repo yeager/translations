@@ -140,3 +140,13 @@ Sparad och återläst i Lokalise den 19 november 2026 efter jämförelse med tid
 | `component::unifiprotect::entity::button::unadopt_device::name` | Unadopt device | Avadoptera enhet | Ta bort enhet från UniFi Protect |
 
 [Home Assistants kod](https://github.com/home-assistant/core/blob/dev/homeassistant/components/unifiprotect/button.py) kopplar knappen till `unadopt` med raderingsbehörighet. [Ubiquitis dokumentation](https://help.ui.com/hc/en-us/articles/26301104828439-Third-Party-Cameras-in-UniFi-Protect) beskriver att en kamera kan tas bort och läggas till på nytt i Protect. Formuleringen kompletterar knappnamnet för att lägga till en enhet.
+
+## Återställ sabotagestatus
+
+Sparad och återläst i Lokalise den 19 november 2026 efter jämförelse med tidigare rapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::unifiprotect::entity::button::clear_tamper::name` | Clear tamper | Rensa sabotage | Återställ sabotagestatus |
+
+[Home Assistants kod](https://github.com/home-assistant/core/blob/dev/homeassistant/components/unifiprotect/button.py) anropar `clear_tamper`; [bibliotekets API-dokumentation](https://uiprotect.readthedocs.io/en/stable/api/) beskriver metoden som återställning av sensorns sabotagestatus.
