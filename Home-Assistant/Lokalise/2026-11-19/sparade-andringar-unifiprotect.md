@@ -80,3 +80,13 @@ Sparade och återlästa i Lokalise den 19 november 2026 efter jämförelse med t
 | `component::unifiprotect::entity::button::play_buzzer::name` | Play buzzer | Spela upp summer | Spela upp summersignal |
 
 Benämningarna anger ljuden som spelas upp.
+
+## Ringningens varaktighet
+
+Sparad och återläst i Lokalise den 19 november 2026 efter jämförelse med tidigare rapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::unifiprotect::entity::number::chime_duration::name` | Chime duration | Varaktighet för klocka | Ringningens varaktighet |
+
+Ljussensorns brytare har en svensk referens till `component::unifiprotect::entity::binary_sensor::light_sensor::name`, vars engelska och svenska text kontrollerades som ”Light sensor” respektive ”Ljussensor”. Referensen behölls.
