@@ -671,3 +671,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [La Marzocco-instruktionen](sparade-andringar-lamarzocco-bluetooth.md) kompletterades, sparades och återlästes i Lokalise med `{name}` bevarad. De aktuella batcherna omfattar 598 dokumenterade ändringar, inklusive 63 referenser; Core-minnet innehåller 535 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Sex måttenhetsfält](sparade-andringar-energy-mattenheter.md) rättades och återlästes i Lokalise: fem beskrivningar och en referens med kontrollerat mål. De aktuella batcherna omfattar 604 dokumenterade ändringar, inklusive 64 referenser; Core-minnet innehåller 540 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
