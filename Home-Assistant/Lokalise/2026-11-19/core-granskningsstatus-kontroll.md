@@ -587,3 +587,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Fyra SwitchBot-texter för knappsatsinformation](sparade-andringar-switchbot-knappsats.md) sparades och återlästes från en äldre förslagsrapport. Core-minnet innehåller 454 unika textpar; de aktuella batcherna omfattar 489 dokumenterade ändringar inklusive 35 referenser. Övriga äldre förslag återstår att kontrollera mot aktuell text.
+
+
+[Sex Freebox-namn för porthastigheter](sparade-andringar-freebox-portar.md) sparades och återlästes med `{port}` bevarad. Core-minnet innehåller 460 unika textpar; de aktuella batcherna omfattar 495 dokumenterade ändringar inklusive 35 referenser. Övriga äldre förslag återstår att kontrollera.
