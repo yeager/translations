@@ -189,3 +189,15 @@ Tidigare svenska: Det MQTT-topic att skicka kommandon för att styra skyddets lu
 Sparad svenska: Det MQTT-topic som kommandon för att styra skyddets lutning publiceras till. [Läs mer.]({url}#tilt_command_topic)
 
 Källtext och tidigare text kontrollerades i Lokalise. Ändringen sparades och återlästes med länkmålet bevarat.
+
+## Mall för lutningskommandon
+
+Nyckel: `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_tilt_settings::data_description::tilt_command_template`.
+
+Engelska: [Template]({command_templating_url}) to define the position to be sent to the tilt command topic. Within the template the following variables are available: `entity_id`, `tilt_position` (the target tilt position percentage), `position_open`, `position_closed`, `tilt_min` and `tilt_max`. [Learn more.]({url}#tilt_command_template)
+
+Tidigare svenska: [Mall]({command_templating_url}) för att definiera den position som ska skickas till topic för tilt-kommandot. I mallen finns följande variabler tillgängliga: `entity_id`, `tilt_position` (målpositionen för tilt i procent), `position_open`, `position_closed`, `tilt_min` och `tilt_max`. [Läs mer.]({url}#tilt_command_template)
+
+Sparad svenska: En [mall]({command_templating_url}) som anger positionen som ska skickas till topic för lutningskommandon. Följande variabler finns i mallen: `entity_id`, `tilt_position` (målpositionen för lutning i procent), `position_open`, `position_closed`, `tilt_min` och `tilt_max`. [Läs mer.]({url}#tilt_command_template)
+
+Ändringen jämfördes med källan, sparades och återlästes i Lokalise med variabelnamn och länkmål bevarade.
