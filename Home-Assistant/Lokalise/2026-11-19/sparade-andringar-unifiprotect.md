@@ -110,3 +110,13 @@ Sparad och återläst i Lokalise den 19 november 2026 efter jämförelse med tid
 | `component::unifiprotect::entity::number::auto_shutoff_duration::name` | Auto-shutoff duration | Varaktighet för automatisk avstängning | Tid till automatisk avstängning |
 
 [Home Assistants kod](https://github.com/home-assistant/core/blob/dev/homeassistant/components/unifiprotect/number.py) kopplar inställningen till ljusenhetens rörelsesensor och en varaktighet i sekunder. Tidsangivelsen förtydligas som tid till avstängning.
+
+## Infrarött luxgränsvärde
+
+Sparad och återläst i Lokalise den 19 november 2026 efter jämförelse med tidigare rapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::unifiprotect::entity::number::infrared_custom_lux_trigger::name` | Infrared custom lux trigger | Infraröd anpassad lux-utlösare | Anpassat luxgränsvärde för infrarött ljus |
+
+[Home Assistants kod](https://github.com/home-assistant/core/blob/dev/homeassistant/components/unifiprotect/number.py) kopplar värdet till kameror med infraröd LED och inställningen `icr_lux`; ljusgränsvärde är en tolkning av källans ”lux trigger”.
