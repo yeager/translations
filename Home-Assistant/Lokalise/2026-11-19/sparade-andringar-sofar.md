@@ -242,3 +242,11 @@ Sparade och återlästa i Lokalise 2026-11-19. Målens aktuella svenska texter k
 | `component::sofar::config::step::reconfigure_tcp::data::unit_id` | Modbus-enhets-ID | `[%key:component::sofar::config::step::tcp::data::unit_id%]` |
 | `component::sofar::config::step::reconfigure_serial::data_description::unit_id` | Modbus-enhets-ID för växelriktaren, även kallat dess Modbus-enhetsadress. | `[%key:component::sofar::config::step::tcp::data_description::unit_id%]` |
 | `component::sofar::config::step::reconfigure_serial::data::unit_id` | Modbus-enhets-ID | `[%key:component::sofar::config::step::tcp::data::unit_id%]` |
+
+## Okänd modell vid konfiguration
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::sofar::config::error::unrecognized_inverter` | The device answered, but neither its serial number nor its register masks identify a known Sofar model. | Enheten svarade, men serienumret matchar inte en känd Sofar-modell. | Enheten svarade, men varken serienumret eller registermaskerna identifierar en känd Sofar-modell. |
+
+Sparad och återläst i Lokalise 2026-11-19. Både serienummer och registermasker återges enligt den aktuella källan.
