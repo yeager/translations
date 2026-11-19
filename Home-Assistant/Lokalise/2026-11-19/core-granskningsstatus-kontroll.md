@@ -761,3 +761,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Tretton Tractive- och Yardian-fält](sparade-andringar-tractive-yardian.md) sparades och återlästes via Lokalise API: sju texter och sex referenser med kontrollerade svenska mål. De aktuella batcherna omfattar 737 dokumenterade ändringar, inklusive 84 referenser; Core-minnet innehåller 653 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Sex Enphase Envoy-fält](sparade-andringar-enphase-utan-solceller.md) sparades och återlästes via Lokalise API: två texter och fyra referenser till de kontrollerade målen. De aktuella batcherna omfattar 743 dokumenterade ändringar, inklusive 88 referenser; Core-minnet innehåller 655 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
