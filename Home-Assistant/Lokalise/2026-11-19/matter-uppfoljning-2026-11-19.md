@@ -14,3 +14,14 @@ Kontrollerat i Lokalise den 19 november 2026. Inga ändringar gjorda i Lokalise.
 | `component::matter::entity::sensor::window_covering_target_position::name` | Target opening position | Målöppningsposition | Föreslå: Målposition för öppning. Tydligare sammansättning. |
 | `component::matter::entity::sensor::min_pin_code_length::name` | Min PIN code length | Minsta längd på PIN-kod | Behåll. |
 | `component::matter::entity::sensor::max_pin_code_length::name` | Max PIN code length | Maximal längd på PIN-kod | Föreslå: Största längd på PIN-kod. Ger ett konsekvent par med ”minsta”. |
+
+## Kompletterande ID-kontroll
+
+Den 19 november kontrollerades nyckel-ID:n i Lokalises filtrerade sökresultat. De åtta nedanstående nycklarna har sammanhängande ID:n, men tabellen ovan är inte i samma ordning:
+
+- 653073967: `component::matter::entity::sensor::window_covering_target_position::name`
+- 653073966: `component::matter::entity::sensor::min_pin_code_length::name`
+- 653073965: `component::matter::entity::sensor::max_pin_code_length::name`
+- 653073964–653073960: `component::matter::entity::select::door_lock_sound_volume::state::silent`, `state::medium`, `state::low`, `state::high` respektive `name`.
+
+ESA-nycklarna `state::fault` och `name` har ID 653106086 respektive 653106085. Detta stöder att rapporten täcker den misstänkta luckan 38 555–38 564, men filtrerade sökningar och ID-ordning bevisar inte den fullständiga ofiltrerade ordningen mellan dessa grupper. Verifiera därför intervallet mot en fullständig ögonblicksbild innan positionsluckan stängs.
