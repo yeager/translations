@@ -290,3 +290,12 @@ Sparade och återlästa i Lokalise. Källtexterna och tidigare bedömningar finn
 | `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_speed_settings::data_description::percentage_value_template` | Defines a [template]({value_templating_url}) to extract the speed percentage value. | Definierar en [mall]({value_templating_url}) för att extrahera hastigheten i procent. | Definierar en [mall]({value_templating_url}) för att hämta hastigheten i procent. |
 
 Sparade och återlästa i Lokalise. Länkmålet bevarades. Fältnamnet ”Topic för procentkommando” behölls efter kontroll.
+
+## Inkommande på- och avtillstånd
+
+| Fullständig nyckel | Tidigare svenska | Sparad svenska |
+|---|---|---|
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::state_on` | Den inkommande nyttolasten som representerar tillståndet "på". Använd endast när värdet som representerar tillståndet "på" i tillståndskommandot skiljer sig från det värde som ska skickas till kommandot för att slå på enheten. | Den inkommande nyttolasten som representerar tillståndet ”på”. Används endast när värdet för ”på” i topic för tillstånd skiljer sig från värdet som ska skickas till topic för kommandon för att slå på enheten. |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::state_off` | Den inkommande nyttolasten som representerar tillståndet "av". Använd endast när värdet som representerar tillståndet "av" i tillståndskommandot skiljer sig från det värde som ska skickas till kommandot för att stänga av enheten. | Den inkommande nyttolasten som representerar tillståndet ”av”. Används endast när värdet för ”av” i topic för tillstånd skiljer sig från värdet som ska skickas till topic för kommandon för att stänga av enheten. |
+
+Sparade och återlästa i Lokalise. Den tidigare översättningen förväxlade state topic och command topic; projektets term ”topic” används. Engelska källtexter finns i `ha-core/granskning-38315-38344.md`.
