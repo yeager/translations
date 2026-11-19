@@ -95,3 +95,5 @@ En [MQTT-hjälptext för positionskommandon](sparade-andringar-mqtt.md) sparades
 Två [MQTT-lutningsfält](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 74 ändringar i de senaste batcherna; övriga förslag återstår.
 
 En [MQTT-hjälptext för stängd lutning](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 75 ändringar i de senaste batcherna; övriga förslag återstår.
+
+En [MQTT-hjälptext för öppen lutning](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 76 ändringar i de senaste batcherna; övriga förslag återstår.
