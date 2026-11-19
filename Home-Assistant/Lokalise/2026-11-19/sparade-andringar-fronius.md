@@ -18,3 +18,14 @@ Sparad och återläst i Lokalise efter kontroll mot [aktuell källtext](https://
 | `component::fronius::entity::sensor::modbus_mppt_voltage_dc::name` | DC voltage (Modbus) | MPPT {mppt_no} Likspänning | Likspänning (Modbus) |
 
 Den överflödiga platshållaren togs bort och Modbus återges. Separata fält för likström och likströmseffekt har samma platshållaravvikelse; försök att öppna effektfältet gav ett oväntat Lokalise-fel, så de återstår.
+
+## Modbus-likström och likströmseffekt
+
+Sparade och återlästa i Lokalise efter kontroll mot [aktuell källtext](https://github.com/home-assistant/core/blob/dev/homeassistant/components/fronius/strings.json).
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::fronius::entity::sensor::modbus_mppt_current_dc::name` | DC current (Modbus) | MPPT {mppt_no} Likström | Likström (Modbus) |
+| `component::fronius::entity::sensor::modbus_mppt_power_dc::name` | DC power | MPPT {mppt_no} Likström | Likströmseffekt |
+
+De överflödiga platshållarna togs bort och effekt skiljs från ström. De två fält som tidigare inte gick att öppna är nu sparade.
