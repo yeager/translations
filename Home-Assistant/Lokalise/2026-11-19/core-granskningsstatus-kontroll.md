@@ -662,3 +662,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Intesis fläktläge](sparade-andringar-intesis-flaktlage.md) sparades och återlästes i Lokalise. De aktuella batcherna omfattar 592 dokumenterade ändringar, inklusive 63 referenser; Core-minnet innehåller 529 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Två avbrutna Voice Support-meddelanden](sparade-andringar-voice-support-avbrott.md) rättades, sparades och återlästes i Lokalise. De aktuella batcherna omfattar 594 dokumenterade ändringar, inklusive 63 referenser; Core-minnet innehåller 531 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
