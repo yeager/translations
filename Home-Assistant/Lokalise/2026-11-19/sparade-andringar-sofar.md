@@ -52,3 +52,15 @@ Sparade och återlästa i Lokalise 2026-11-19 efter jämförelse med tidigare gr
 | `component::sofar::entity::sensor::reactive_power_output_l3::name` | Reactive power output L3 | Reaktiv effekt utgång L3 | Reaktiv uteffekt L3 |
 
 Fasbeteckningarna bevarades och uttrycket följer den sparade termen för total reaktiv uteffekt.
+
+## Effektfaktor per utgång
+
+Sparade och återlästa i Lokalise 2026-11-19 efter jämförelse med tidigare granskningsrapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::sofar::entity::sensor::power_factor_output_l1::name` | Power factor output L1 | Effektfaktor utgång L1 | Effektfaktor för utgång L1 |
+| `component::sofar::entity::sensor::power_factor_output_l2::name` | Power factor output L2 | Effektfaktor utgång L2 | Effektfaktor för utgång L2 |
+| `component::sofar::entity::sensor::power_factor_output_l3::name` | Power factor output L3 | Effektfaktor utgång L3 | Effektfaktor för utgång L3 |
+
+Fasbeteckningarna bevarades och relationen till utgången tydliggjordes.
