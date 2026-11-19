@@ -58,3 +58,12 @@ Sparade och återlästa i Lokalise. I ett ugnsprogram avser tray en bakplåt.
 | `component::miele::entity::sensor::program_id::state::multigrain_rolls` | Multigrain rolls | Multigrynsbröd | Frallor med flera sädesslag |
 
 Sparade och återlästa i Lokalise. ”Rolls” avser småbröd i sammanhanget.
+
+## Fläsk och gratäng
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::miele::entity::sensor::program_id::state::pork_with_crackling` | Pork with crackling | Fläskkött med späck | Fläskkött med knaprig svål |
+| `component::miele::entity::sensor::program_id::state::potato_cheese_gratin` | Potato cheese gratin | Potatisostgratäng | Potatisgratäng med ost |
+
+Sparade och återlästa i Lokalise. ”Crackling” avser knaprig svål; gratängens ingredienser uttrycks tydligare.
