@@ -54,3 +54,12 @@ Sparade och återlästa i Lokalise 2026-11-19. Ordföljd och sammansättningar r
 | `component::guntamatic::entity::sensor::room_2_temperature::name` | Room 2 temperature | Rum 2 temperatur | Temperatur i rum 2 |
 
 Sparade och återlästa i Lokalise 2026-11-19. Ordföljden rättades och rumsnumren bevarades. Den onumrerade rumstemperaturen kontrollerades och behölls.
+
+## Temperatursänkningsläge
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::guntamatic::entity::sensor::heating_circulation_program::state::hibernate` | Setback mode | Återställningsläge | Temperatursänkningsläge |
+| `component::guntamatic::entity::sensor::program::state::hibernate` | Setback mode | Återställningsläge | Temperatursänkningsläge |
+
+Sparade och återlästa i Lokalise 2026-11-19. Setback avser sänkt temperatur i värmeprogrammet, inte återställning.
