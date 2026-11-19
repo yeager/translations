@@ -177,3 +177,15 @@ Tidigare svenska: Flagg som anger om tilt ska fungera i optimistiskt läge. Om t
 Sparad svenska: Anger om lutningen fungerar i optimistiskt läge. Om topic för lutningsstatus inte har angetts används optimistiskt läge som standard. [Läs mer.]({url}#tilt_optimistic)
 
 Källan och den tidigare texten kontrollerades i Lokalise. Ändringen sparades och återlästes med länkmålet bevarat.
+
+## Topic för lutningskommandon
+
+Nyckel: `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_tilt_settings::data_description::tilt_command_topic`.
+
+Engelska: The MQTT topic to publish commands to control the cover tilt. [Learn more.]({url}#tilt_command_topic)
+
+Tidigare svenska: Det MQTT-topic att skicka kommandon för att styra skyddets lutning. [Läs mer.]({url}#tilt_command_topic)
+
+Sparad svenska: Det MQTT-topic som kommandon för att styra skyddets lutning publiceras till. [Läs mer.]({url}#tilt_command_topic)
+
+Källtext och tidigare text kontrollerades i Lokalise. Ändringen sparades och återlästes med länkmålet bevarat.
