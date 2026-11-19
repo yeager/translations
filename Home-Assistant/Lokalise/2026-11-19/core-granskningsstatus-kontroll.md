@@ -125,3 +125,5 @@ Tre [MQTT-texter för stöd och återställning av förinställda lägen](sparad
 Två [Matter-texter för pumpens driftlägen](sparade-andringar-matter.md) sparades och återlästes; referensmålet för normalläget kontrollerades. Totalt 110 ändringar i de senaste batcherna; övriga förslag återstår.
 
 Fyra [referenser för historikstatistik](sparade-andringar-history-stats.md) återställdes och lästes tillbaka; sex gemensamma mål kontrollerades. En fråga om tekniska värden i typbeskrivningen återstår. Totalt 114 ändringar i de senaste batcherna; övriga förslag återstår.
+
+[Uppföljningen av typvärden](sparade-andringar-history-stats.md) visade att väljaren har översatta etiketter ”Tid”, ”Kvot” och ”Antal”; beskrivningen behölls. Inga ytterligare Lokalise-ändringar gjordes vid kontrollen.
