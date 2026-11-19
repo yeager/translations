@@ -40,3 +40,12 @@ Sparade och återlästa i Lokalise. ”Savoury” anger en matig paj, inte att d
 | `component::miele::entity::sensor::program_id::state::fruit_flan_puff_pastry` | Fruit flan, puff pastry | Fruktflan, smördeg | Fruktpaj med smördeg |
 
 Sparade och återlästa i Lokalise. Degtyperna och pajens innebörd följer källan.
+
+## Linzer Augen
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::miele::entity::sensor::program_id::state::linzer_augen_2_trays` | Linzer Augen (2 trays) | Linzer Augen (2 brickor) | Linzer Augen (2 plåtar) |
+| `component::miele::entity::sensor::program_id::state::linzer_augen_1_tray` | Linzer Augen (1 tray) | Linzer Augen (1 bricka) | Linzer Augen (1 plåt) |
+
+Sparade och återlästa i Lokalise. I ett ugnsprogram avser tray en bakplåt.
