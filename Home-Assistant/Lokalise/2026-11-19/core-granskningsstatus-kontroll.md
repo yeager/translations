@@ -570,3 +570,6 @@ Detta ger 456 dokumenterade ändringar i de aktuella batcherna, inklusive 35 ref
 
 
 [Tre ZHA-namn för lysdiod, lutning och mätläge](sparade-andringar-zha-sensorer.md) rättades, sparades och återlästes. Core-minnet innehåller 445 unika textpar; de aktuella batcherna omfattar 480 dokumenterade ändringar inklusive 35 referenser. Övrig granskning återstår.
+
+
+[Fyra ViCare-givarnamn för frånluft och avluft](sparade-andringar-vicare-luft.md) rättades efter kontroll av leverantörens ventilationsbeskrivning, sparades och återlästes. Core-minnet innehåller 449 unika textpar; de aktuella batcherna omfattar 484 dokumenterade ändringar inklusive 35 referenser. Övrig granskning återstår.
