@@ -1,6 +1,6 @@
 # Sparade Bravia-konfigurationsfält
 
-Sparade och återlästa i Home Assistant Core i Lokalise 2026-11-19. Svenska fält var tomma före ändringen. Det integrationsspecifika referensmålet har svensk text; det gemensamma värdfältets mål återstår att kontrollera vid denna uppföljning.
+Sparade och återlästa i Home Assistant Core i Lokalise 2026-11-19. Svenska fält var tomma före ändringen. Det integrationsspecifika referensmålet har svensk text; det gemensamma värdfältet kontrollerades i Lokalise: ”Host” / ”Värd”.
 
 | Fullständig nyckel | Engelska | Sparad svenska |
 | --- | --- | --- |
