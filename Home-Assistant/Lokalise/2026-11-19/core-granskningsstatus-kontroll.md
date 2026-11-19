@@ -785,3 +785,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [34 knapp-, IR-, anslutnings- och undantagstexter](sparade-andringar-knappar-ir-anslutning.md) sparades och återlästes via Lokalise API med platshållare bevarade. Redan översatta strängar i samma rapport skrevs inte över. De aktuella batcherna omfattar 886 dokumenterade ändringar, inklusive 97 referenser; Core-minnet innehåller 789 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Sju Sony IR- och knappreferenser](sparade-referenser-sony-knapp.md) sparades och återlästes via Lokalise API; samtliga mål kontrollerades på svenska. De aktuella batcherna omfattar 893 dokumenterade ändringar, inklusive 104 referenser; Core-minnet innehåller fortsatt 789 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
