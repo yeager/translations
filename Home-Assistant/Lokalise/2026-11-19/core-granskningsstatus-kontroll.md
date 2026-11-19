@@ -797,3 +797,6 @@ Den fullständiga [API-kontrollen av tomma svenska fält](kontroll-tomma-svenska
 
 
 [Zonneplans elpris och två Daikin-hänvisningar](sparade-andringar-zonneplan-daikin.md) har rättats och återlästs via Lokalise API efter kontroll av aktuell källa. De aktuella batcherna omfattar 906 dokumenterade ändringar, inklusive 110 referenser; Core-minnet innehåller 796 unika nycklade textpar. Äldre förslag och övrig språklig granskning återstår.
+
+
+[Fem Mitsubishi Comfort- och Sunsynk-texter](sparade-andringar-mitsubishi-sunsynk.md) rättades och återlästes via Lokalise API efter jämförelse med aktuell källa. Fem andra äldre förslag i samma rapport matchade inte längre den aktuella svenska texten och lämnades orörda. De aktuella batcherna omfattar 911 dokumenterade ändringar, inklusive 110 referenser; Core-minnet innehåller 801 unika nycklade textpar.
