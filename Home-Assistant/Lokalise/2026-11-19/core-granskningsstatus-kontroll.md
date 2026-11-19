@@ -123,3 +123,5 @@ Fyra [MQTT-beskrivningar för förinställda fläktlägen](sparade-andringar-mqt
 Tre [MQTT-texter för stöd och återställning av förinställda lägen](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 108 ändringar i de senaste batcherna; övriga förslag återstår.
 
 Två [Matter-texter för pumpens driftlägen](sparade-andringar-matter.md) sparades och återlästes; referensmålet för normalläget kontrollerades. Totalt 110 ändringar i de senaste batcherna; övriga förslag återstår.
+
+Fyra [referenser för historikstatistik](sparade-andringar-history-stats.md) återställdes och lästes tillbaka; sex gemensamma mål kontrollerades. En fråga om tekniska värden i typbeskrivningen återstår. Totalt 114 ändringar i de senaste batcherna; övriga förslag återstår.
