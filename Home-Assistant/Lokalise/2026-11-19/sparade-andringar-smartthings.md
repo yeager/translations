@@ -48,3 +48,11 @@ Sparad och återläst i Lokalise 2026-11-19. Kontexten är val av diskmaskinens 
 | `component::smartthings::entity::binary_sensor::keep_fresh_mode_active::name` | Keep fresh mode active | Håll-färskt-läge aktivt | Keep Fresh-läge aktivt |
 
 Sparade och återlästa i Lokalise den 19 november 2026. [Samsungs svenska produktsida](https://www.samsung.com/se/washers-and-dryers/airdresser/df5000cm-dryer-dual-airwash-dual-jetsteam-ai-dry-silver-df18cb8700cre1/) använder funktionsnamnet Keep Fresh. [Samsungs beskrivning](https://www.samsung.com/au/support/home-appliances/airdresser-care-recipe/) anger att funktionen håller kläderna fräscha efter programmets slut. Detta ersätter det preliminära förslaget i `granskning-smartthings-angskap-2026-11-19.md`.
+
+## CoolSelect+-temperatur
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::smartthings::entity::number::cool_select_plus_temperature::name` | CoolSelect+ temperature | CoolSelect+ temperatur | Temperatur för CoolSelect+ |
+
+Sparad och återläst i Lokalise den 19 november 2026. Ordföljden undviker särskrivning och bevarar funktionsnamnet.
