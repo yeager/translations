@@ -623,3 +623,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Tio EnergyID-fält](sparade-andringar-energyid-direktiv.md) sparades och återlästes i Lokalise: sju texter och tre referenser med översatta mål. De aktuella batcherna omfattar 549 dokumenterade ändringar, inklusive 52 referenser; Core-minnet innehåller 497 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Tre kamerafel](sparade-andringar-camera-fel.md) sparades och återlästes i Lokalise med `{entity_id}` bevarad. De aktuella batcherna omfattar 552 dokumenterade ändringar, inklusive 52 referenser; Core-minnet innehåller 500 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
