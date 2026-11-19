@@ -184,3 +184,14 @@ Sparade och återlästa i Lokalise 2026-11-19 efter jämförelse med tidigare gr
 | `component::sofar::entity::sensor::current_output_l2n::name` | Current output L2N | Ström utgång L2N | Utström L2N |
 
 Fasbeteckningarna inklusive L1N och L2N bevaras. Dessa fält är separata från de vid ödrift.
+
+## Utspänning vid ödrift
+
+Sparade och återlästa i Lokalise 2026-11-19 efter jämförelse med tidigare granskningsrapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::sofar::entity::sensor::offgrid_voltage_output_l1n::name` | Off-grid voltage output L1N | Off-grid spänning utgång L1N | Utspänning L1N vid ödrift |
+| `component::sofar::entity::sensor::offgrid_voltage_output_l2n::name` | Off-grid voltage output L2N | Off-grid spänning utgång L2N | Utspänning L2N vid ödrift |
+
+Fasbeteckningarna L1N och L2N bevaras och utspänning skiljs från övriga spänningsfält.
