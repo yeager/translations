@@ -91,3 +91,5 @@ Två [MQTT-hjälptexter för tillstånd](sparade-andringar-mqtt.md) sparades och
 Tre [MQTT-tillståndsbeskrivningar](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 71 ändringar i de senaste batcherna; övriga förslag återstår.
 
 En [MQTT-hjälptext för positionskommandon](sparade-andringar-mqtt.md) sparades och återlästes med villkor och länkmål bevarade. Totalt 72 ändringar i de senaste batcherna; övriga förslag återstår.
+
+Två [MQTT-lutningsfält](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 74 ändringar i de senaste batcherna; övriga förslag återstår.
