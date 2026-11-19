@@ -18,3 +18,16 @@ Sparade och återlästa i Lokalise den 19 november 2026. SmartThings-koden koppl
 | `component::smartthings::entity::select::soil_level::state::heavy` | Heavy | Tung | Kraftig |
 | `component::smartthings::entity::select::soil_level::state::extra_heavy` | Extra heavy | Extra tung | Extra kraftig |
 | `component::smartthings::entity::select::soil_level::name` | Soil level | Jordnivå | Smutsgrad |
+
+## Diskprogram
+
+Sparade och återlästa i Lokalise 2026-11-19 efter kontroll mot diskprogrammets övriga alternativ.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::smartthings::entity::select::dishwasher_washing_course::state::rinse_only` | Rinse only | Skölj endast | Endast sköljning |
+| `component::smartthings::entity::select::dishwasher_washing_course::state::rinse_dry` | Rinse dry | Skölj torrt | Sköljning och torkning |
+| `component::smartthings::entity::select::dishwasher_washing_course::state::night_silence` | Night silence | Natt tyst | Tyst nattprogram |
+| `component::smartthings::entity::select::dishwasher_washing_course::state::daily` | Daily | Daglig | Dagligt |
+
+Programnamnen beskriver sköljning, torkning och tyst nattdrift; dagligt böjs efter program.
