@@ -520,3 +520,10 @@ Två [lokala terminologiförslag för Recorder](forslag-recorder-entitetsmonster
 
 
 [Avstämning av Matter-luckan](matter-uppfoljning-2026-11-19.md) mot den historiska Core-PO-exporten hittade exakt de tio redan rapporterade nycklarna mellan rapporternas angränsande ID:n. Detta gäller exportens begränsade urval, inte en fullständig ofiltrerad Lokalise-lista; fullständig täckning är fortsatt overifierad. Ingen Lokalise-ändring gjordes vid avstämningen.
+
+
+## Nya ofullständiga översättningar
+
+[HomeWizard-auktoriseringen](forslag-homewizard-auktorisering.md) omfattar tre lokala textförslag och en saknad referens med kontrollerat mål. [Philips TV och IPP](forslag-philips-ipp.md) omfattar två textförslag och två saknade referenser med kontrollerade mål. Alla åtta svenska måltexterna var tomma vid kontrollen och förslagen är inte sparade i Lokalise. [Förslagsminnet](https://github.com/yeager/swedish-tm/blob/main/home-assistant/sv-home-assistant-core-proposals-20261119.tmx) innehåller totalt sju textpar, inklusive de tidigare två Recorder-förslagen; referenserna dokumenteras separat i rapporterna. Detta är en begränsad granskning av nya nycklar, inte en komplett inventering av saknade översättningar.
+
+[Monteringsrapporten](sparade-andringar-hassio-montering.md) har kompletterats med kontroll av Frontend-kod och aktuell knappöversättning ”Bekräfta”. Dialogen har inte observerats i en körande installation.
