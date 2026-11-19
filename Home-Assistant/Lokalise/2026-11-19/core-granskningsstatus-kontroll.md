@@ -145,3 +145,5 @@ Två [MQTT-beskrivningar av inkommande tillstånd](sparade-andringar-mqtt.md) sp
 En [MQTT-beskrivning av prenumeration på tillstånd](sparade-andringar-mqtt.md) sparades och återlästes med platshållare och länk bevarade. Totalt 130 ändringar i de senaste batcherna; övriga förslag återstår.
 
 [Amazon-flödets gemensamma referensmål](sparade-andringar-amazon-devices.md) kontrollerades. En möjlig felaktig källreferens för kodfältets etikett och integrationens status på utvecklingsgrenen behöver följas upp. Ingen Lokalise-ändring gjordes vid kontrollen.
+
+Ett [separat verifierat Core-TMX-tillägg](https://github.com/yeager/swedish-tm/blob/main/home-assistant/sv-home-assistant-core-lokalise-verified-20261119.tmx) publicerades med fyra tidigare sparade MQTT-översättningar. Format, nycklar, språkpar, platshållare och länkmål kontrollerades; övriga sparade ändringar återstår att föra in. Den äldre exporten är oförändrad. Ingen ny Lokalise-ändring gjordes vid denna uppdatering.
