@@ -755,3 +755,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Elva Honeywell-texter om tillfällig temperatur](sparade-andringar-honeywell-tillfallig-temperatur.md) sparades och återlästes via Lokalise API med platshållarna bevarade. De aktuella batcherna omfattar 717 dokumenterade ändringar, inklusive 73 referenser; Core-minnet innehåller 644 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Sju BLUETTI Modbus-fält](sparade-andringar-bluetti-modbus-konfiguration.md) sparades och återlästes via Lokalise API: två texter med bevarade platshållare och fem referenser med kontrollerade svenska mål. De aktuella batcherna omfattar 724 dokumenterade ändringar, inklusive 78 referenser; Core-minnet innehåller 646 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
