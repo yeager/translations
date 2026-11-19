@@ -99,3 +99,12 @@ Sparade och återlästa i Lokalise 2026-11-19. Ordföljd och zonnummer bevaras i
 |---|---|---|---|
 | `component::midea::entity::switch::zone2_curve::name` | Zone 2 curve | Zon 2 kurva | Kurva för zon 2 |
 | `component::midea::entity::switch::zone1_curve::name` | Zone 1 curve | Zon 1 kurva | Kurva för zon 1 |
+
+## Självrengöring och utomhusenhet
+
+Sparade och återlästa i Lokalise 2026-11-19. Namnen beskriver funktionerna och utomhuslägets avsedda enhet.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::midea::entity::switch::self_clean::name` | Self clean | Självrengörande | Självrengöring |
+| `component::midea::entity::switch::out_silent::name` | Outdoor silent mode | Tyst läge utomhus | Tyst läge för utomhusenheten |
