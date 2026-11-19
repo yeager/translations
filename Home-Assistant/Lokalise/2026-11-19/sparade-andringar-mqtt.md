@@ -22,3 +22,11 @@ Den 19 november 2026 jämfördes engelsk och svensk text i Lokalise. Ändringarn
 | `component::mqtt::config_subentries::device::error::cover_get_and_set_position_must_be_set_together` | The get position and set position topic options must be set together | Topic-alternativen 'get position' och 'set position' måste ställas in tillsammans | Topic för positionstillstånd och positionskommandon måste anges tillsammans |
 
 Positionsfelen avviker från det äldre förslaget ”ämne”: Lokalises svenska MQTT-ordlista rekommenderar uttryckligen ”topic”.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::mqtt::config_subentries::device::error::cover_value_template_must_be_used_with_state_topic` | The value template must be used with the state topic option | Värdemallen måste användas tillsammans med alternativet för tillståndsämne | Värdemallen måste användas tillsammans med alternativet för tillståndstopic |
+| `component::mqtt::config_subentries::device::error::cover_tilt_status_template_must_be_used_with_tilt_status_topic` | The tilt value template must be used with the tilt status topic | Lutningsvärdemallen måste användas tillsammans med lutningsstatusämnet | Mallen för lutningsvärdet måste användas tillsammans med topic för lutningsstatus |
+| `component::mqtt::config_subentries::device::error::cover_tilt_command_template_must_be_used_with_tilt_command_topic` | The tilt command template must be used with the tilt command topic | Lutningskommandomallen måste användas tillsammans med lutningskommandoämnet | Mallen för lutningskommandon måste användas tillsammans med topic för lutningskommandon |
+
+De tre texterna anpassades efter Lokalises MQTT-ordlista för konsekvens med de närliggande feltexterna. Källtext och tidigare svenska kontrollerades i Lokalise och de sparade översättningarna återlästes.
