@@ -770,3 +770,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [17 aerosmart-fält för styrning och larm](sparade-andringar-aerosmart-styrning.md) sparades och återlästes via Lokalise API. Tre tidigare markerade osäkra termer återstår att kontrollera. De aktuella batcherna omfattar 791 dokumenterade ändringar, inklusive 88 referenser; Core-minnet innehåller 703 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[29 NAD IR-källor, ljudlägen och konfigurationstexter](sparade-andringar-nad-infrarod.md) sparades och återlästes via Lokalise API. De aktuella batcherna omfattar 820 dokumenterade ändringar, inklusive 88 referenser; Core-minnet innehåller 732 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
