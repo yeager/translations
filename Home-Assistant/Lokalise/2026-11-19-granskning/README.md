@@ -37,3 +37,5 @@ Senast granskade nyckel i denna ordning: `component::matter::entity::sensor::esa
 - [Nyckel 38 565–38 569](granskning-38565-38569.md) – nästa ID i den äldre ordningen är 653058791. Två terminologifrågor kräver uppföljning.
 
 - [Nyckel 38 570–38 573](granskning-38570-38573.md) – nästa ID i äldre ordning är 653058787; kodkontrollen visar att anslutningsfelets källreferens kan vara för specifik; uppströms uppföljning återstår.
+
+- [Nyckel 38 574–38 585](granskning-38574-38585.md) – nästa ID i äldre ordning är 653058775.
