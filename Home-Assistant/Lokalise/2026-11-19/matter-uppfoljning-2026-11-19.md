@@ -31,3 +31,6 @@ ESA-nycklarna `state::fault` och `name` har ID 653106086 respektive 653106085. D
 Den 19 november jämfördes angränsande nyckel-ID:n mot [Core-PO-ögonblicksbilden från 24 oktober](https://github.com/yeager/swedish-tm/blob/main/home-assistant/sv-home-assistant-core.po). Den föregående rapporten slutar med `esa_state::state::offline` (653106087) och den följande börjar med `pir_occupied_to_unoccupied_delay::name` (653073959). Bland posterna i PO-exporten finns exakt de tio nycklar som listas ovan med ID strikt mellan dessa båda gränser. De kommer i ordningen 653106086, 653106085 och 653073967–653073960.
 
 Detta stärker stödet för att de tio dokumenterade Matter-nycklarna täcker den misstänkta positionsluckan i den historiska **icke arkiverade, tvåspråkiga PO-exporten**. Det fastställer inte att Lokalises äldre ofiltrerade lista hade samma urval eller att alla nuvarande nycklar är granskade; arkiverade, tomma och senare tillkomna poster kan saknas i exporten. Positionsluckan kan därför inte stängas för hela projektet enbart med detta underlag. Inga ändringar gjordes i Lokalise.
+
+
+**Uppdatering:** Förslagen om målposition och maximal PIN-kodslängd har sparats och återlästs; se [ändringsloggen](sparade-andringar-matter-sensorer.md). Tabellens tidigare svenska värden är historiska.
