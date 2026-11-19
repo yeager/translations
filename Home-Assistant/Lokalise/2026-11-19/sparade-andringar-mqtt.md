@@ -42,3 +42,11 @@ Tidigare svenska: [Mall]({command_templating_url}) för att definiera den positi
 Sparad svenska: En [mall]({command_templating_url}) som anger positionen som ska skickas till topic för positionskommandon. Följande variabler finns i mallen: `value` (den skalade målpositionen), `entity_id`, `position` (målpositionen i procent), `position_open`, `position_closed`, `tilt_min` och `tilt_max`. [Läs mer.]({url}#set_position_template)
 
 Källans variabelnamn återställdes och länkmål bevarades. Texten sparades och återlästes i Lokalise.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_position_settings::data::set_position_topic` | Set position topic | Ange positionsämne | Topic för positionskommandon |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_position_settings::data::set_position_template` | Set position template | Ställ in positionsmall | Mall för positionskommandon |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_position_settings::data::position_topic` | Position state topic | Ämne för positionstillstånd | Topic för positionstillstånd |
+
+Källtext och tidigare svenska kontrollerades i Lokalise. Ändringarna sparades och återlästes med projektordlistans term ”topic”.
