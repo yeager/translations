@@ -812,3 +812,6 @@ Den fullständiga [API-kontrollen av tomma svenska fält](kontroll-tomma-svenska
 
 
 [Tre Sofar-namn för ledningsspänning](sparade-andringar-sofar-ledningsspanning.md) rättades och återlästes via Lokalise API. Övriga femton äldre förslag i samma rapport matchade inte längre den aktuella svenska texten eller källan och lämnades orörda. De aktuella batcherna omfattar 943 dokumenterade ändringar, inklusive 110 referenser; Core-minnet innehåller 833 unika nycklade textpar.
+
+
+[Tretton Subaru-, Teslemetry-, Govee-, Reolink- och HortOS-texter](sparade-andringar-subaru-govee-hortos.md) rättades och återlästes via Lokalise API. Platshållarna `{probe_id}` och `{error}` bevarades. De aktuella batcherna omfattar 956 dokumenterade ändringar, inklusive 110 referenser; Core-minnet innehåller 846 unika nycklade textpar.
