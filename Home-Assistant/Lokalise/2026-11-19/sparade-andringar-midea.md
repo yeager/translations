@@ -58,3 +58,11 @@ Sparad och återläst i Lokalise 2026-11-19. Den svenska sammansättningen gör 
 | `component::midea::entity::sensor::mode::state::eight_treasures_congee` | Eight treasures congee | Åtta skatter risgröt | Risgröt med åtta skatter |
 
 Sparade och återlästa i Lokalise 2026-11-19. Rätternas namn får svensk ordföljd och skillnaden mellan ris och risgröt bevaras.
+
+## Frukt- och grönsakspuré
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::midea::entity::sensor::mode::state::fruit_vegetable_paste` | Fruit vegetable paste | Fruktgrönsakspasta | Frukt- och grönsakspuré |
+
+Sparad och återläst i Lokalise 2026-11-19. Här avser paste en puré och inte pasta.
