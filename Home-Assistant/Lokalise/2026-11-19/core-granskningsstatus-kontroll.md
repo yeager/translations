@@ -611,3 +611,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Elva EPH Ember-konfigurationsfält](sparade-andringar-ephember-konfiguration.md) sparades och återlästes i Lokalise: två hjälptexter och nio referenser. De aktuella batcherna omfattar 529 dokumenterade ändringar, inklusive 49 referenser; Core-minnet innehåller 480 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Fyra Tuya-felmeddelanden](sparade-andringar-tuya-kommandon.md) sparades och återlästes i Lokalise med `{code}` bevarad. De aktuella batcherna omfattar 533 dokumenterade ändringar, inklusive 49 referenser; Core-minnet innehåller 484 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
