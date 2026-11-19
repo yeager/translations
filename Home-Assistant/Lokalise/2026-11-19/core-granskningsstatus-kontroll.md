@@ -782,3 +782,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Tretton DSMR-, ENGIE Belgium- och uppdateringstexter](sparade-andringar-dsmr-engie-uppdatering.md) sparades och återlästes via Lokalise API med `{ean_suffix}` bevarad. De aktuella batcherna omfattar 852 dokumenterade ändringar, inklusive 97 referenser; Core-minnet innehåller 755 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[34 knapp-, IR-, anslutnings- och undantagstexter](sparade-andringar-knappar-ir-anslutning.md) sparades och återlästes via Lokalise API med platshållare bevarade. Redan översatta strängar i samma rapport skrevs inte över. De aktuella batcherna omfattar 886 dokumenterade ändringar, inklusive 97 referenser; Core-minnet innehåller 789 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
