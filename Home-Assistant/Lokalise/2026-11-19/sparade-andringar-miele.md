@@ -101,3 +101,11 @@ Sparad och återläst i Lokalise. [Mieles recept för det automatiska programmet
 | `component::miele::entity::sensor::program_id::state::beef_hash` | Beef hash | Nötköttshash | Pytt i panna |
 
 Sparad och återläst i Lokalise. Benämningen valdes enligt användarens anvisning.
+
+## Tarte flambée
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::miele::entity::sensor::program_id::state::tart_flambe` | Tart  flambè | Syrlig  flambè | Tarte flambée |
+
+Sparad och återläst i Lokalise. Rättens namn behålls med vedertagen stavning; ”tart” har inte betydelsen syrlig i detta sammanhang.
