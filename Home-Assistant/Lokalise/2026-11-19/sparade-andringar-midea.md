@@ -49,3 +49,12 @@ Sparad och återläst i Lokalise 2026-11-19. Källtexten avser centrifugering, i
 | `component::midea::entity::sensor::keep_warm_time::name` | Keep warm time | Håll varm-tid | Varmhållningstid |
 
 Sparad och återläst i Lokalise 2026-11-19. Den svenska sammansättningen gör sensorns funktion tydlig.
+
+## Åtta skatter
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::midea::entity::sensor::mode::state::eight_treasures_rice` | Eight treasures rice | Åtta skatter ris | Ris med åtta skatter |
+| `component::midea::entity::sensor::mode::state::eight_treasures_congee` | Eight treasures congee | Åtta skatter risgröt | Risgröt med åtta skatter |
+
+Sparade och återlästa i Lokalise 2026-11-19. Rätternas namn får svensk ordföljd och skillnaden mellan ris och risgröt bevaras.
