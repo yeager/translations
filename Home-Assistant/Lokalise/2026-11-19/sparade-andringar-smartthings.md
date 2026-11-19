@@ -39,3 +39,12 @@ Programnamnen beskriver sköljning, torkning och tyst nattdrift; dagligt böjs e
 | `component::smartthings::entity::select::dishwasher_washing_course::name` | Cycle | Cykel | Diskprogram |
 
 Sparad och återläst i Lokalise 2026-11-19. Kontexten är val av diskmaskinens program.
+
+## AirDresser: Keep Fresh
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::smartthings::entity::switch::keep_fresh_mode::name` | Keep fresh mode | Håll-färskt-läge | Keep Fresh-läge |
+| `component::smartthings::entity::binary_sensor::keep_fresh_mode_active::name` | Keep fresh mode active | Håll-färskt-läge aktivt | Keep Fresh-läge aktivt |
+
+Sparade och återlästa i Lokalise den 19 november 2026. [Samsungs svenska produktsida](https://www.samsung.com/se/washers-and-dryers/airdresser/df5000cm-dryer-dual-airwash-dual-jetsteam-ai-dry-silver-df18cb8700cre1/) använder funktionsnamnet Keep Fresh. [Samsungs beskrivning](https://www.samsung.com/au/support/home-appliances/airdresser-care-recipe/) anger att funktionen håller kläderna fräscha efter programmets slut. Detta ersätter det preliminära förslaget i `granskning-smartthings-angskap-2026-11-19.md`.
