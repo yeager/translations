@@ -9,3 +9,13 @@ Sparade och återlästa i Lokalise 2026-11-19 efter jämförelse med tidigare gr
 | `component::zhong_hong::exceptions::cannot_connect::message` | Failed to connect to the ZhongHong gateway at {host}. | Det gick inte att ansluta till ZhongHong-gateway på {host}. | Det gick inte att ansluta till ZhongHong-gatewayen på {host}. |
 
 Bestämd form har lagts till och platshållarna har bevarats.
+
+## Konfiguration utan rapporterade enheter
+
+Sparad och återläst i Lokalise 2026-11-19. Den separata avbrottsnyckeln hänvisar till denna text på både engelska och svenska.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::zhong_hong::config::error::no_devices_found` | Connected to the gateway, but it did not report any air conditioners. | Ansluten till gateway, men den rapporterade inga luftkonditioneringsapparater. | Ansluten till gatewayen, men den rapporterade inga luftkonditioneringsenheter. |
+
+Bestämd form och ordval följer de relaterade feltexterna.
