@@ -33,3 +33,5 @@ Ytterligare tre SwitchBot-feltexter sparades och återlästes, dokumenterade i [
 Fem [Miele-programnamn](sparade-andringar-miele.md) sparades och återlästes. Totalt 13 poster har sparats i de senaste batcherna. Den separata TMX-filen för osparade förslag är nu tom, men många förslag finns fortfarande i granskningsrapporterna och återstår att kontrollera och spara.
 
 Två [gemensamma kalenderbeskrivningar](sparade-andringar-judisk-kalender.md) sparades och återlästes. Totalt 15 ändringar har sparats i de senaste batcherna; övriga förslag återstår.
+
+En [Probe Plus-beskrivning](sparade-andringar-probe-plus.md) har sparats och återlästs. Totalt 16 ändringar i de senaste batcherna; övriga förslag återstår.
