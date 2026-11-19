@@ -30,3 +30,21 @@ Sparade och återlästa i Lokalise 2026-11-19.
 | `component::music_assistant::exceptions::offset_needs_limit::message` | An offset requires a limit greater than 0. | Tom | Offset kräver en gräns större än 0. |
 
 Favorittexten återger nu även inaktiverat och utelämnat fält. Den tidigare öppna offsetfrågan har följts upp mot fältnamnen `get_library::fields::offset::name` (”Offset”) och `get_library::fields::limit::name` (”Gräns”).
+
+## Köfält
+
+Sex tidigare tomma svenska fält sparades och återlästes i Lokalise 2026-11-19.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::music_assistant::services::get_queue::fields::username::description` | Music Assistant username used to request the queue items. The request fails when this user may not access the player. Defaults to the Music Assistant user linked to the Home Assistant user making the request. If there is no linked user, the request runs as the default account. | Tom | Music Assistant-användarnamnet som används för att begära objekten i kön. Begäran misslyckas om användaren inte har åtkomst till spelaren. Som standard används den Music Assistant-användare som är kopplad till Home Assistant-användaren som gör begäran. Om ingen användare är kopplad används standardkontot. |
+| `component::music_assistant::services::get_queue::fields::offset::description` | Number of queue items to skip. Requires a limit. | Tom | Antal objekt i kön som ska hoppas över. Kräver en gräns. |
+| `component::music_assistant::services::get_queue::fields::limit::description` | Maximum number of queue items to return. Leave at 0 to only return the queue details. | Tom | Maximalt antal objekt i kön som ska returneras. Låt värdet vara 0 för att bara returnera information om kön. |
+
+Följande tre tomma svenska fältnamn fylldes med samma referenser som i den engelska källan. Målen kontrollerades som ”Användarnamn”, ”Offset” och ”Gräns”.
+
+| Fullständig nyckel | Sparad referens |
+|---|---|
+| `component::music_assistant::services::get_queue::fields::username::name` | `[%key:component::music_assistant::services::get_library::fields::username::name%]` |
+| `component::music_assistant::services::get_queue::fields::offset::name` | `[%key:component::music_assistant::services::get_library::fields::offset::name%]` |
+| `component::music_assistant::services::get_queue::fields::limit::name` | `[%key:component::music_assistant::services::get_library::fields::limit::name%]` |
