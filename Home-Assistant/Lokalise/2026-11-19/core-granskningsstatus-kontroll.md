@@ -737,3 +737,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Fyra Prowl-, Bluetti- och mediespelartexter](sparade-andringar-prowl-bluetti-media.md) rättades och återlästes via Lokalise API. De aktuella batcherna omfattar 651 dokumenterade ändringar, inklusive 66 referenser; Core-minnet innehåller 585 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Tre LibreSync- och mediespelarmalltexter](sparade-andringar-libresync-mediespelarmall.md) rättades och återlästes via Lokalise API, inklusive mallens tekniska tillståndsvärden. De aktuella batcherna omfattar 654 dokumenterade ändringar, inklusive 66 referenser; Core-minnet innehåller 588 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
