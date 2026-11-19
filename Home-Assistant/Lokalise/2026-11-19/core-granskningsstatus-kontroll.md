@@ -21,3 +21,7 @@ Den [kompletterande Matter-rapporten](matter-uppfoljning-2026-11-19.md) innehål
 [Immichs konfiguration och tre referensmål](granskning-immich-konfiguration-2026-11-19.md) har granskats. Sju gemensamma Home Assistant-referensmål och SSL-förslagets terminologi har därefter kontrollerats; rapporten dokumenterar resultaten. Förslaget är inte sparat i Lokalise.
 
 [YoLink, homee och Eheim](granskning-yolink-homee-eheim-2026-11-19.md): tio strängar kontrollerade, två lokala YoLink-förslag tillagda i separat förslagsminne. homee-textens kontext och ofiltrerad ordning återstår att verifiera.
+
+## Sparning påbörjad
+
+Efter användarens instruktion att spara ändringarna har [tre översättningar sparats och återlästs](sparade-andringar-yolink-immich.md). Tidigare uppgifter om osparade förslag avser läget före denna batch. Övriga rapporterade förslag måste jämföras med aktuell Lokalise-text och sparas efter kontroll. Den felaktiga tillfälliga YoLink-versionen kan finnas kvar i Lokalises översättningsminne och behöver följas upp.
