@@ -740,3 +740,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Tre LibreSync- och mediespelarmalltexter](sparade-andringar-libresync-mediespelarmall.md) rättades och återlästes via Lokalise API, inklusive mallens tekniska tillståndsvärden. De aktuella batcherna omfattar 654 dokumenterade ändringar, inklusive 66 referenser; Core-minnet innehåller 588 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Fjorton Sofar-säkringsfel](sparade-andringar-sofar-sakringsavbrott.md) rättades och återlästes via Lokalise API; två redan korrekta meddelanden behölls. De aktuella batcherna omfattar 668 dokumenterade ändringar, inklusive 66 referenser; Core-minnet innehåller 602 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
