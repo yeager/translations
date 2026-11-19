@@ -728,3 +728,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Gemensam AI-åtkomstbeskrivning och referens](sparade-andringar-ai-atkomst.md) rättades och återlästes via Lokalise API. De aktuella batcherna omfattar 641 dokumenterade ändringar, inklusive 66 referenser; Core-minnet innehåller 575 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Tre Seafile-, Raspberry Pi- och ABRP-feltexter](sparade-andringar-seafile-pi-abrp.md) rättades och återlästes via Lokalise API. De aktuella batcherna omfattar 644 dokumenterade ändringar, inklusive 66 referenser; Core-minnet innehåller 578 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
