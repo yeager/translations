@@ -105,3 +105,5 @@ En [MQTT-beskrivning för lutningsstatus](sparade-andringar-mqtt.md) sparades oc
 En [mallbeskrivning för MQTT-lutningsstatus](sparade-andringar-mqtt.md) sparades och återlästes med variabler och länkar bevarade. Totalt 80 ändringar i de senaste batcherna; övriga förslag återstår.
 
 En [beskrivning av optimistiskt lutningsläge](sparade-andringar-mqtt.md) sparades och återlästes med länkmålet bevarat. Totalt 81 ändringar i de senaste batcherna; övriga förslag återstår.
+
+En [hjälptext för MQTT-lutningskommandon](sparade-andringar-mqtt.md) sparades och återlästes med länkmålet bevarat. Totalt 82 ändringar i de senaste batcherna; övriga förslag återstår.
