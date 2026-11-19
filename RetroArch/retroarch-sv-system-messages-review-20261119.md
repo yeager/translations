@@ -20,9 +20,26 @@
 - Hunspell-sv markerade VBlank-händelser och Run-Ahead som tekniska/projektspecifika termer.
 - Crowdins förhandsvalidering markerade bara VBlank-händelser som möjlig felstavning. Ingen annan QA-kategori flaggade batchen.
 
-## Två firmwaremeddelanden hålls tillbaka
+## Firmwaremeddelanden med bekräftade radbrytningar
 
-Strängarna 6234787 och 6234789 innehåller fem respektive två radbrytningar. Förhandsvalidering i Crowdin accepterar endast bokstavliga \n-sekvenser, medan l10n-lint kräver verkliga radbrytningar för att matcha källtexten. De får därför inte sparas förrän formatet har kontrollerats i Crowdin-editoren. Detta undviker att ändra meddelandenas radbrytningssemantik.
+Crowdins editor bekräftar att källsträngarna 6234787 och 6234789 använder riktiga radbrytningar. Förslagen nedan ska därför använda samma radbrytningar, inte bokstavliga \n-sekvenser.
+
+**6234787**
+
+> Om du väljer OK hämtas och installeras den firmware som är märkt med ”Den här firmware kan hämtas.”.  
+> All annan saknad firmware måste tillhandahållas enligt lokal lagstiftning.  
+>
+> Välj Avbryt för att fortsätta utan att hämta.  
+>
+> Obs! Du kan stänga av dessa meddelanden i Inställningar -> Kärna -> Meddelanden om saknad firmware.
+
+**6234789**
+
+> Välj OK för att starta utan denna firmware, eller Avbryt för att avbryta starten av kärnan.  
+>
+> Obs! Du kan stänga av dessa meddelanden i Inställningar -> Kärna -> Meddelanden om saknad firmware.
+
+l10n-lint godkänner formatet. Crowdins API-förhandsvalidering rapporterar felaktigt att måltexterna saknar radbrytningar, men accepterar felaktigt bokstavliga \n-sekvenser. Editorvyn visar att linterregeln följer den faktiska källformateringen. Förslagen är fortfarande utkast och har inte sparats i Crowdin.
 
 ## Omfattning
 
