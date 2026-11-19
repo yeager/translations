@@ -1,5 +1,7 @@
 # Philips TV och IPP: saknade Core-översättningar
 
+> **Aktuell status:** Fyra förslag nedan sparades och återlästes i Lokalise 2026-11-19 efter användarens instruktion. Tidigare formuleringar om osparade förslag avser läget före sparningen.
+
 Lokalise kontrollerades den 19 november 2026. Svenska måltexter för de fyra nycklarna nedan var tomma; förslagen är lokala och har inte sparats i Lokalise.
 
 | Fullständig nyckel | Engelsk källtext | Befintlig svenska | Lokalt förslag |
