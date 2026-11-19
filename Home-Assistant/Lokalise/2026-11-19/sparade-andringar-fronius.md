@@ -29,3 +29,11 @@ Sparade och återlästa i Lokalise efter kontroll mot [aktuell källtext](https:
 | `component::fronius::entity::sensor::modbus_mppt_power_dc::name` | DC power | MPPT {mppt_no} Likström | Likströmseffekt |
 
 De överflödiga platshållarna togs bort och effekt skiljs från ström. De två fält som tidigare inte gick att öppna är nu sparade.
+
+## Batteriladdning från elnätet
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::fronius::entity::switch::battery_grid_charging::name` | Battery grid charging | Batteri nätladdning | Batteriladdning från elnätet |
+
+Sparad och återläst i Lokalise 2026-11-19. Sammansättningen och laddningens källa förtydligas.
