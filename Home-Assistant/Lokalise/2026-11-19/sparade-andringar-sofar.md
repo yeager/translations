@@ -40,3 +40,15 @@ Sparade och återlästa i Lokalise 2026-11-19 efter jämförelse med tidigare gr
 | `component::sofar::entity::sensor::reactive_power_offgrid_total::name` | Reactive power off-grid total | Reaktiv effekt off-grid totalt | Total reaktiv effekt vid ödrift |
 
 De svenska benämningarna skiljer utgående effekt från effekt vid ödrift. Övriga effektförslag återstår.
+
+## Reaktiv uteffekt per fas
+
+Sparade och återlästa i Lokalise 2026-11-19 efter jämförelse med tidigare granskningsrapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::sofar::entity::sensor::reactive_power_output_l1::name` | Reactive power output L1 | Reaktiv effekt utgång L1 | Reaktiv uteffekt L1 |
+| `component::sofar::entity::sensor::reactive_power_output_l2::name` | Reactive power output L2 | Reaktiv effekt utgång L2 | Reaktiv uteffekt L2 |
+| `component::sofar::entity::sensor::reactive_power_output_l3::name` | Reactive power output L3 | Reaktiv effekt utgång L3 | Reaktiv uteffekt L3 |
+
+Fasbeteckningarna bevarades och uttrycket följer den sparade termen för total reaktiv uteffekt.
