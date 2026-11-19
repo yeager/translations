@@ -602,3 +602,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Tre Palazzetti-fält](sparade-andringar-palazzetti.md) sparades och återlästes i Lokalise: två referenser och en text. De aktuella batcherna omfattar 510 dokumenterade ändringar, inklusive 40 referenser; Core-minnet innehåller 470 unika textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Två VeSync-sensornamn](sparade-andringar-vesync-tillagning.md) sparades och återlästes i Lokalise med `{basket}` bevarad. De aktuella batcherna omfattar 512 dokumenterade ändringar, inklusive 40 referenser; Core-minnet innehåller 472 unika textpar. Äldre förslag och övrig granskning återstår.
