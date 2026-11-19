@@ -123,3 +123,13 @@ Sparade och återlästa i Lokalise 2026-11-19 efter jämförelse med tidigare gr
 | `component::sofar::entity::sensor::offgrid_active_power_output_l2n::name` | Off-grid active power output L2N | Off-grid aktiv effekt utgång L2N | Aktiv effekt på utgång L2N vid ödrift |
 
 L1N och L2N bevaras som skilda beteckningar från L1 och L2.
+
+## Reaktiv effekt på utgången vid ödrift
+
+Sparad och återläst i Lokalise 2026-11-19 efter jämförelse med tidigare granskningsrapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::sofar::entity::sensor::offgrid_reactive_power_output::name` | Off-grid reactive power output | Off-grid reaktiv effekt utgång | Reaktiv effekt på utgången vid ödrift |
+
+Ett tillfälligt felaktigt sparat värde med sammanfogad gammal och ny text rättades direkt. Kontrollera om det felaktiga värdet finns kvar i Lokalises översättningsminne.
