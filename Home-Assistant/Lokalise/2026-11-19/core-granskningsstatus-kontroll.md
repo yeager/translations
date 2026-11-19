@@ -788,3 +788,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Sju Sony IR- och knappreferenser](sparade-referenser-sony-knapp.md) sparades och återlästes via Lokalise API; samtliga mål kontrollerades på svenska. De aktuella batcherna omfattar 893 dokumenterade ändringar, inklusive 104 referenser; Core-minnet innehåller fortsatt 789 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Tio VLC-, HDfury- och HomeWizard-fält](sparade-andringar-vlc-hdfury-homewizard.md) sparades och återlästes via Lokalise API: fyra texter och sex referenser med kontrollerade svenska mål. De aktuella batcherna omfattar 903 dokumenterade ändringar, inklusive 110 referenser; Core-minnet innehåller 793 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
