@@ -584,3 +584,6 @@ En avstämning mot katalogen på GitHub fann 368 lokala granskningsrapporter som
 
 
 Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på GitHub. De finns nu i [granskningskatalogen](../2026-11-19-granskning/) och filinnehållet jämfördes med de lokala kopiorna. Rapporterna är historiska underlag; deras förslag behöver jämföras med aktuell Lokalise-text och tidigare sparloggar innan de kan räknas som genomförda. Avstämningen täcker lokala Markdown-filnamn, inte andra filtyper eller dolda underkataloger.
+
+
+[Fyra SwitchBot-texter för knappsatsinformation](sparade-andringar-switchbot-knappsats.md) sparades och återlästes från en äldre förslagsrapport. Core-minnet innehåller 454 unika textpar; de aktuella batcherna omfattar 489 dokumenterade ändringar inklusive 35 referenser. Övriga äldre förslag återstår att kontrollera mot aktuell text.
