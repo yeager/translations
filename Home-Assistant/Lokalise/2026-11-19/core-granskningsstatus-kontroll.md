@@ -686,3 +686,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Fyra Edifier-ingångar](sparade-andringar-edifier-ingangar.md) rättades och återlästes i Lokalise. De aktuella batcherna omfattar 612 dokumenterade ändringar, inklusive 64 referenser; Core-minnet innehåller 548 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Två System Bridge-beskrivningar](sparade-andringar-system-bridge-sokvag-knapp.md) rättades och återlästes i Lokalise. De aktuella batcherna omfattar 614 dokumenterade ändringar, inklusive 64 referenser; Core-minnet innehåller 550 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
