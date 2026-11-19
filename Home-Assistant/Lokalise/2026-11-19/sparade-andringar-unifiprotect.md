@@ -59,3 +59,13 @@ Sparade och återlästa i Lokalise 2026-11-19. Mellanslag och syftning rättades
 | `component::unifiprotect::issues::sense_setting_mirror_deprecated::title` | Read-only sensor setting entity deprecated | Skrivskyddad sensorinställningsenhet föråldrad | Skrivskyddad entitet för sensorinställning är föråldrad |
 | `component::unifiprotect::issues::sense_setting_mirror_deprecated_no_replacement::description` | The read-only entity `{entity_id}` is deprecated and will be removed in a future release. The sensor does not support this setting, so there is no replacement.<br><br>Update the following automations and scripts:<br>{items} | Den skrivskyddade entiteten `{entity_id}`är föråldrad och kommer att tas bort i en framtida version. Sensorn stöder inte den här inställningen, så det finns ingen ersättning.<br><br>Uppdatera följande automatiseringar och skript:<br>{items} | Den skrivskyddade entiteten `{entity_id}` är föråldrad och kommer att tas bort i en framtida version. Sensorn stöder inte den här inställningen, så det finns ingen ersättning.<br><br>Uppdatera följande automatiseringar och skript:<br>{items} |
 | `component::unifiprotect::issues::sense_setting_mirror_deprecated::description` | The read-only entity `{entity_id}` is deprecated and will be removed in a future release; use `{replacement}` instead, which holds the same state and can also change it.<br><br>Update the following automations and scripts:<br>{items} | Den skrivskyddade entiteten `{entity_id}`är föråldrad och kommer att tas bort i en framtida version; använd `{replacement}`istället, vilket håller samma tillstånd och även kan ändra det.<br><br>Uppdatera följande automatiseringar och skript:<br>{items} | Den skrivskyddade entiteten `{entity_id}` är föråldrad och kommer att tas bort i en framtida version. Använd `{replacement}` i stället: den har samma tillstånd och kan även ändra det.<br><br>Uppdatera följande automatiseringar och skript:<br>{items} |
+
+## Dörrklockans text
+
+Sparad och återläst i Lokalise den 19 november 2026 efter jämförelse med tidigare rapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::unifiprotect::entity::select::doorbell_text::name` | Doorbell text | Dörrklocka text | Dörrklockans text |
+
+Genitivformen rättar sammansättningen. `component::unifiprotect::entity::sensor::doorbell_text::name` hänvisar på båda språken till den ändrade nyckeln; referensen behölls.
