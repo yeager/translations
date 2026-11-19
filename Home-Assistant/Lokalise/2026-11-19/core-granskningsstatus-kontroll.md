@@ -599,3 +599,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Tre Wyoming-referenser](sparade-andringar-wyoming-referenser.md) sparades och återlästes i Lokalise. De aktuella batcherna omfattar 507 dokumenterade ändringar, inklusive 38 referenser; Core-minnet innehåller fortsatt 469 unika textpar. Äldre förslag och övrig granskning återstår att kontrollera.
+
+
+[Tre Palazzetti-fält](sparade-andringar-palazzetti.md) sparades och återlästes i Lokalise: två referenser och en text. De aktuella batcherna omfattar 510 dokumenterade ändringar, inklusive 40 referenser; Core-minnet innehåller 470 unika textpar. Äldre förslag och övrig granskning återstår.
