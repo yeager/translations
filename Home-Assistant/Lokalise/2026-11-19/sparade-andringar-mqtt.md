@@ -30,3 +30,15 @@ Positionsfelen avviker från det äldre förslaget ”ämne”: Lokalises svensk
 | `component::mqtt::config_subentries::device::error::cover_tilt_command_template_must_be_used_with_tilt_command_topic` | The tilt command template must be used with the tilt command topic | Lutningskommandomallen måste användas tillsammans med lutningskommandoämnet | Mallen för lutningskommandon måste användas tillsammans med topic för lutningskommandon |
 
 De tre texterna anpassades efter Lokalises MQTT-ordlista för konsekvens med de närliggande feltexterna. Källtext och tidigare svenska kontrollerades i Lokalise och de sparade översättningarna återlästes.
+
+## Positionsmallens variabler
+
+Nyckel: `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_position_settings::data_description::set_position_template`.
+
+Engelska: [Template]({command_templating_url}) to define the position to be sent to the set position topic. Within the template the following variables are available: `value` (the scaled target position), `entity_id`, `position` (the target position percentage), `position_open`, `position_closed`, `tilt_min` and `tilt_max`. [Learn more.]({url}#set_position_template)
+
+Tidigare svenska: [Mall]({command_templating_url}) för att definiera den position som ska skickas till ämnet för inställd position. Inom mallen finns följande variabler tillgängliga: `värde` (den skalade målpositionen), `entitets_id`, `position` (målpositionens procentandel), `öppen_position`, `stängd_position`, `lutning_min` och `lutning_max`. [Läs mer.]({url}#set_position_template)
+
+Sparad svenska: En [mall]({command_templating_url}) som anger positionen som ska skickas till topic för positionskommandon. Följande variabler finns i mallen: `value` (den skalade målpositionen), `entity_id`, `position` (målpositionen i procent), `position_open`, `position_closed`, `tilt_min` och `tilt_max`. [Läs mer.]({url}#set_position_template)
+
+Källans variabelnamn återställdes och länkmål bevarades. Texten sparades och återlästes i Lokalise.
