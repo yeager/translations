@@ -133,3 +133,5 @@ Sparad och återläst i Lokalise 2026-11-19 efter jämförelse med tidigare gran
 | `component::sofar::entity::sensor::offgrid_reactive_power_output::name` | Off-grid reactive power output | Off-grid reaktiv effekt utgång | Reaktiv effekt på utgången vid ödrift |
 
 Ett tillfälligt felaktigt sparat värde med sammanfogad gammal och ny text rättades direkt. Kontrollera om det felaktiga värdet finns kvar i Lokalises översättningsminne.
+
+Uppföljning: Sökning i projektets anslutna översättningsminnen efter `Off-grid reactive power output` visade det korrigerade svenska värdet som exakt källträff. Sökningen `utgångReaktiv` gav 0 träffar. Detta är en sökkontroll, inte en fullständig export av minnet.
