@@ -79,3 +79,5 @@ Tre [MQTT-feltexter](sparade-andringar-mqtt.md) anpassades till ordlistans ”to
 Tre [MQTT-positionsfält](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 60 ändringar i de senaste batcherna; övriga förslag återstår.
 
 Två [beskrivningar av MQTT-positionsvärden](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 62 ändringar i de senaste batcherna; övriga förslag återstår.
+
+Två [fältnamn för MQTT-positionsvärden](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 64 ändringar i de senaste batcherna; övriga förslag återstår.
