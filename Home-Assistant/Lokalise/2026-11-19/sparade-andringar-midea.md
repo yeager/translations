@@ -126,3 +126,11 @@ Sparade och återlästa i Lokalise 2026-11-19. De två mellanlägena skiljs frå
 |---|---|---|---|
 | `component::midea::entity::select::wind_lr_angle::state::right_mid` | Right middle | Höger mitten | Mellan mitten och höger |
 | `component::midea::entity::select::wind_lr_angle::state::left_mid` | Left middle | Vänster mitten | Mellan mitten och vänster |
+
+## Sömnläge i lägesväljaren
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::midea::entity::select::mode::state::sleep` | Sleep | Sova | Sömn |
+
+Sparad och återläst i Lokalise 2026-11-19. Värdet är ett driftläge och följer den tidigare rättade fläktbenämningen.
