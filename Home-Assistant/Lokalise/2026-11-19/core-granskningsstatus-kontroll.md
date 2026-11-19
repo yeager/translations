@@ -537,3 +537,6 @@ Detta ger 456 dokumenterade ändringar i de aktuella batcherna, inklusive 35 ref
 
 
 [HomeWizards återautentiseringsinstruktion](sparade-andringar-homewizard-aterautentisering.md) rättades, sparades och återlästes. Den svenska referensen följde en äldre text med omvänd ordning. Den rättade texten har lagts till i Core-minnet, som nu innehåller 422 unika textpar. Totalt 457 dokumenterade ändringar i dessa batcher, inklusive 35 referenser. Övriga förslag och nycklar återstår.
+
+
+[Två Matter-sensornamn](sparade-andringar-matter-sensorer.md) sparades och återlästes. Det verifierade minnet innehåller nu 424 unika textpar. Totalt 459 dokumenterade ändringar i dessa batcher, inklusive 35 referenser; övrig granskning återstår.
