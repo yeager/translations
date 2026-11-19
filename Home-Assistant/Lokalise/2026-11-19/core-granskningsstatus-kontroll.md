@@ -626,3 +626,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Tre kamerafel](sparade-andringar-camera-fel.md) sparades och återlästes i Lokalise med `{entity_id}` bevarad. De aktuella batcherna omfattar 552 dokumenterade ändringar, inklusive 52 referenser; Core-minnet innehåller 500 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Fem Intesis Modbus-felmeddelanden](sparade-andringar-intesis-modbus-fel.md) sparades och återlästes i Lokalise. De aktuella batcherna omfattar 557 dokumenterade ändringar, inklusive 52 referenser; Core-minnet innehåller 505 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
