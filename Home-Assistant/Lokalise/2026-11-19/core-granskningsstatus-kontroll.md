@@ -743,3 +743,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Fjorton Sofar-säkringsfel](sparade-andringar-sofar-sakringsavbrott.md) rättades och återlästes via Lokalise API; två redan korrekta meddelanden behölls. De aktuella batcherna omfattar 668 dokumenterade ändringar, inklusive 66 referenser; Core-minnet innehåller 602 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Sju Tile BLE-fält](sparade-andringar-tile-ble.md) kompletterades och återlästes via Lokalise API: fem texter och två referenser med kontrollerade svenska mål. De aktuella batcherna omfattar 675 dokumenterade ändringar, inklusive 68 referenser; Core-minnet innehåller 607 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
