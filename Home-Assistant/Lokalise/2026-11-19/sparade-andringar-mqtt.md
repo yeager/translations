@@ -88,3 +88,10 @@ Tidigare svenska: Det MQTT-ämne som man prenumererar på för att ta emot medde
 Sparad svenska: Det MQTT-topic som Home Assistant prenumererar på för att ta emot meddelanden om skyddets position. [Läs mer.]({url}#position_topic)
 
 Källan och tidigare översättning kontrollerades i Lokalise. Ändringen följer ordlistans termer ”topic” och ”skydd”; den sparades och återlästes med länkmålet bevarat.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_payload_settings::data_description::state_stopped` | The payload received at the state topic that represents the "stopped" state (for covers that do not report "open"/"closed" state). | Nyttolasten som mottagits vid det tillståndsämne som representerar tillståndet "stoppat" (för omslag som inte rapporterar tillståndet "öppet"/"stängt"). | Nyttolasten som tas emot på tillståndstopic och representerar tillståndet ”stoppat” (för skydd som inte rapporterar tillståndet ”öppet” eller ”stängt”). |
+| `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_payload_settings::data_description::state_opening` | The payload received at the state topic that represents the "opening" state. | Nyttolasten som tas emot vid tillståndsämnet som representerar "öppningstillståndet". | Nyttolasten som tas emot på tillståndstopic och representerar tillståndet ”öppnas”. |
+
+Källtexter och tidigare översättningar kontrollerades i Lokalise; båda ändringarna sparades och återlästes. Termvalet följer ordlistan och tillståndens fältnamn.
