@@ -66,3 +66,11 @@ Sparade och återlästa i Lokalise 2026-11-19. Rätternas namn får svensk ordf�
 | `component::midea::entity::sensor::mode::state::fruit_vegetable_paste` | Fruit vegetable paste | Fruktgrönsakspasta | Frukt- och grönsakspuré |
 
 Sparad och återläst i Lokalise 2026-11-19. Här avser paste en puré och inte pasta.
+
+## Ris med fem sädesslag
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::midea::entity::sensor::mode::state::five_ceeals_rice` | Five cereals rice | Fem spannmålsris | Ris med fem sädesslag |
+
+Sparad och återläst i Lokalise 2026-11-19. Programnamnet får begriplig svensk ordföljd.
