@@ -803,3 +803,6 @@ Den fullständiga [API-kontrollen av tomma svenska fält](kontroll-tomma-svenska
 
 
 [Fyra Sofar-energinamn](sparade-andringar-sofar-energitermer.md) rättades och återlästes via Lokalise API. Övriga 44 äldre förslag i samma rapport matchade inte längre den aktuella svenska texten eller källan och lämnades orörda. De aktuella batcherna omfattar 915 dokumenterade ändringar, inklusive 110 referenser; Core-minnet innehåller 805 unika nycklade textpar.
+
+
+[Voice Supports anslutningsfel](sparade-andringar-voice-support-anslutning.md) rättades och återlästes via Lokalise API. Tolv andra äldre förslag i samma rapport matchade inte längre den aktuella svenska texten eller källan och lämnades orörda. De aktuella batcherna omfattar 916 dokumenterade ändringar, inklusive 110 referenser; Core-minnet innehåller 806 unika nycklade textpar.
