@@ -38,3 +38,13 @@ Sparade och återlästa i Lokalise efter jämförelse med tidigare granskningsra
 | `component::unifiprotect::config::step::full::data_description::username` | Username for your local (not cloud) user account. | Användarnamn för ditt lokala (inte moln-) användarkonto. | Användarnamn för ditt lokala användarkonto, inte ditt molnkonto. |
 
 Kravet och tidsformen följer källtexten. Tre separata användarnamnsreferenser kontrollerades på båda språken och pekar på den ändrade texten.
+
+## Beskrivning av API-nyckelfältet
+
+Sparad och återläst i Lokalise efter jämförelse med tidigare granskningsrapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::unifiprotect::config::step::api_key::data_description::api_key` | API key from your UniFi OS Console. Only the public Integration API is used; some entities that require a local user are unavailable in this mode. | API-nyckel från din UniFi OS-konsol. Endast det offentliga integrations-API:et används; vissa funktioner som kräver en lokal användare är inte tillgängliga i det här läget. | API-nyckel från din UniFi OS-konsol. Endast det offentliga integrations-API:t används. Vissa entiteter som kräver en lokal användare är inte tillgängliga i det här läget. |
+
+Entiteter motsvarar källans entities. Tre separata API-nyckelreferenser kontrollerades på båda språken och pekar på den ändrade texten.
