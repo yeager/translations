@@ -143,3 +143,5 @@ En [Android TV-anvisning för appikoner](sparade-andringar-androidtv.md) sparade
 Två [MQTT-beskrivningar av inkommande tillstånd](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 129 ändringar i de senaste batcherna; övriga förslag återstår.
 
 En [MQTT-beskrivning av prenumeration på tillstånd](sparade-andringar-mqtt.md) sparades och återlästes med platshållare och länk bevarade. Totalt 130 ändringar i de senaste batcherna; övriga förslag återstår.
+
+[Amazon-flödets gemensamma referensmål](sparade-andringar-amazon-devices.md) kontrollerades. En möjlig felaktig källreferens för kodfältets etikett och integrationens status på utvecklingsgrenen behöver följas upp. Ingen Lokalise-ändring gjordes vid kontrollen.
