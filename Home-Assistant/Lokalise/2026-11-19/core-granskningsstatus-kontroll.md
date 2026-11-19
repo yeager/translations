@@ -617,3 +617,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Fyra VeSync-inställningar för automatiskt läge](sparade-andringar-vesync-autolage.md) sparades och återlästes i Lokalise. De aktuella batcherna omfattar 537 dokumenterade ändringar, inklusive 49 referenser; Core-minnet innehåller 488 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[VeSyncs feltext och Hikvisions kameranamn](sparade-andringar-vesync-hikvision.md) sparades och återlästes i Lokalise. De aktuella batcherna omfattar 539 dokumenterade ändringar, inklusive 49 referenser; Core-minnet innehåller 490 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
