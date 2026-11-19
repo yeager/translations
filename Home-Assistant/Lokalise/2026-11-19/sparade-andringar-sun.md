@@ -19,3 +19,13 @@ Sparade och återlästa i Lokalise efter kontroll mot tidigare granskningsrappor
 | `component::sun::triggers::blue_hour_ended::description` | Triggers when blue hour ends, in the morning, the evening, or either. | Utlöses när blå timmen slutar, på morgonen, kvällen eller endera. | Utlöses när blå timmen slutar, på morgonen, kvällen eller båda. |
 
 Båda uttrycker att utlösaren kan användas för både morgon och kväll. Periodväljaren återstår att kontrollera.
+
+## Periodväljare
+
+Sparad och återläst i Lokalise efter kontroll av alternativen Morgon och Kväll.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::sun::selector::period::options::any` | Any | Något | Båda |
+
+I denna väljare motsvarar alternativet båda tiderna på dagen.
