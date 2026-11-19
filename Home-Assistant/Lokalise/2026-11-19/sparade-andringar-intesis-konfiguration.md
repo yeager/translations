@@ -1,6 +1,6 @@
 # Sparade Intesis Modbus-konfigurationsfält
 
-Sparade och återlästa i Home Assistant Core i Lokalise 2026-11-19. De svenska fälten var tomma före ändringen. Referenserna bevarar engelska källans mål; referensmålens svenska innehåll bör följas upp separat. Platshållaren `{brand}` bevarades.
+Sparade och återlästa i Home Assistant Core i Lokalise 2026-11-19. De svenska fälten var tomma före ändringen. Referenserna bevarar engelska källans mål; referensmålens svenska innehåll har kontrollerats enligt avsnittet nedan. Platshållaren `{brand}` bevarades.
 
 | Fullständig nyckel | Engelska | Sparad svenska |
 | --- | --- | --- |
@@ -21,3 +21,17 @@ Sparade och återlästa i Home Assistant Core i Lokalise 2026-11-19. De svenska 
  |
 | `component::intesis_modbus::config::abort::unsupported_brand` | This is a {brand} gateway. Its code and error tables are not written yet, so it cannot be set up. See the intesis-gw-modbus library for how to contribute them. | Det här är en gateway från {brand}. Dess kod- och feltabeller har ännu inte skrivits, så den kan inte konfigureras. Se biblioteket intesis-gw-modbus för information om hur du kan bidra med dem. |
 | `component::intesis_modbus::config::abort::already_configured` | [%key:common::config_flow::abort::already_configured_device%] | [%key:common::config_flow::abort::already_configured_device%] |
+
+## Kontroll av referensmål
+
+Kontrollerat i Lokalise 2026-11-19. Målen har svenska texter och behölls utan ändring:
+
+| Referensmål | Engelska | Svenska |
+| --- | --- | --- |
+| `component::modbus::common::serial_port_description` | Select a local serial port or a port shared over the network by a serial proxy. | Välj en lokal seriell port eller en port som delas över nätverket via en seriell proxy. |
+| `component::modbus::common::serial_port` | Serial port | Seriell port |
+| `component::modbus::common::baud_rate` | Baud rate | Baudhastighet |
+| `common::config_flow::error::cannot_connect` | Failed to connect | Det gick inte att ansluta |
+| `common::config_flow::abort::already_configured_device` | Device is already configured | Enheten är redan konfigurerad |
+
+Termen ”baudhastighet” bör jämföras med övrig Modbus-terminologi innan en eventuell generell ändring.
