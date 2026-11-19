@@ -1,5 +1,7 @@
 # HomeWizard: auktorisering och tidsgräns
 
+> **Aktuell status:** Fyra förslag nedan sparades och återlästes i Lokalise 2026-11-19 efter användarens instruktion. Tidigare formuleringar om osparade förslag avser läget före sparningen.
+
 Kontrollerat i Home Assistant Core i Lokalise den 19 november 2026. Alla fyra svenska måltexter var tomma. Förslagen nedan är **inte sparade i Lokalise**.
 
 | Fullständig nyckel | Engelsk källtext | Befintlig svenska | Lokalt förslag |
