@@ -160,3 +160,13 @@ Sparad och återläst i Lokalise den 19 november 2026 efter jämförelse med tid
 | `component::unifiprotect::entity::binary_sensor::is_dark::name` | Is dark | Är mörk | Mörkt |
 
 Namnet uttrycker ljusförhållandet idiomatiskt på svenska.
+
+## Hög bildfrekvens
+
+Sparad och återläst i Lokalise den 19 november 2026 efter jämförelse med tidigare rapport.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::unifiprotect::entity::binary_sensor::high_fps::name` | High FPS | Hög FPS | Hög bildfrekvens |
+
+Förkortningen ersätts med en begriplig svensk term. `component::unifiprotect::entity::switch::high_fps::name` hänvisar till målet på båda språken och behölls.
