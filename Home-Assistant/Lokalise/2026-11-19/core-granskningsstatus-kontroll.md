@@ -665,3 +665,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Två avbrutna Voice Support-meddelanden](sparade-andringar-voice-support-avbrott.md) rättades, sparades och återlästes i Lokalise. De aktuella batcherna omfattar 594 dokumenterade ändringar, inklusive 63 referenser; Core-minnet innehåller 531 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Tre Voice Support-texter](sparade-andringar-voice-support-komplettering.md) kompletterades mot aktuell källtext, sparades och återlästes i Lokalise. De aktuella batcherna omfattar 597 dokumenterade ändringar, inklusive 63 referenser; Core-minnet innehåller 534 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
