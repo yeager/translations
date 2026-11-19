@@ -1,6 +1,6 @@
 # Sparade NWS-fält
 
-Sparade och återlästa i Home Assistant Core i Lokalise 2026-11-19. Svenska fält var tomma före ändringen. De tre integrationsspecifika referensmålen har svensk text: stationskod ”METAR-stationskod”, platsentitet ”Platsentitet” och dess beskrivning ”Välj en person, enhetsspårare eller zon för att dynamiskt spåra vädret för dess plats.” Det gemensamma API-nyckelmålet återstår att kontrollera vid denna uppföljning.
+Sparade och återlästa i Home Assistant Core i Lokalise 2026-11-19. Svenska fält var tomma före ändringen. De tre integrationsspecifika referensmålen har svensk text: stationskod ”METAR-stationskod”, platsentitet ”Platsentitet” och dess beskrivning ”Välj en person, enhetsspårare eller zon för att dynamiskt spåra vädret för dess plats.” Det gemensamma API-nyckelmålet kontrollerades i Lokalise: ”API key” / ”API-nyckel”.
 
 | Fullständig nyckel | Engelska | Sparad svenska |
 | --- | --- | --- |
