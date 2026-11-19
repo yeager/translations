@@ -590,3 +590,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Sex Freebox-namn för porthastigheter](sparade-andringar-freebox-portar.md) sparades och återlästes med `{port}` bevarad. Core-minnet innehåller 460 unika textpar; de aktuella batcherna omfattar 495 dokumenterade ändringar inklusive 35 referenser. Övriga äldre förslag återstår att kontrollera.
+
+
+[Två Freebox-namn för portlänkar](sparade-andringar-freebox-portar.md) sparades och återlästes med `{port}` bevarad. Core-minnet innehåller 462 unika textpar; de aktuella batcherna omfattar 497 dokumenterade ändringar inklusive 35 referenser. Övriga äldre förslag återstår att kontrollera.
