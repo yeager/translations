@@ -33,3 +33,11 @@ Sparad och återläst i Lokalise 2026-11-19. Här är *steep* ett verb som avser
 | `component::midea::entity::sensor::filter_available_days::name` | Filter {filter_number} available days | Filter {filter_number} tillgängliga dagar | Återstående dagar för filter {filter_number} |
 
 Sparade och återlästa i Lokalise 2026-11-19. Platshållaren `{filter_number}` bevarades.
+
+## Centrifugeringstid
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::midea::entity::sensor::dehydration_time::name` | Spin time | Torkningstid | Centrifugeringstid |
+
+Sparad och återläst i Lokalise 2026-11-19. Källtexten avser centrifugering, inte torkning.
