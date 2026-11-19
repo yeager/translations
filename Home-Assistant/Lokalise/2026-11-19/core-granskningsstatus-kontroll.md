@@ -698,3 +698,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Tre knapphändelsetexter](sparade-andringar-knapphandelser.md) sparades och återlästes i Lokalise. De aktuella batcherna omfattar 620 dokumenterade ändringar, inklusive 64 referenser; Core-minnet innehåller 556 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[E3/DC-feltexten](sparade-andringar-e3dc-serienummer.md) rättades och återlästes i Lokalise med `{found}` och `{expected}` bevarade. De aktuella batcherna omfattar 621 dokumenterade ändringar, inklusive 64 referenser; Core-minnet innehåller 557 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
