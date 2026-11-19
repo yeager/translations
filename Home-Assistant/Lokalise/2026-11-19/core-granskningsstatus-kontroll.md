@@ -540,3 +540,6 @@ Detta ger 456 dokumenterade ändringar i de aktuella batcherna, inklusive 35 ref
 
 
 [Två Matter-sensornamn](sparade-andringar-matter-sensorer.md) sparades och återlästes. Det verifierade minnet innehåller nu 424 unika textpar. Totalt 459 dokumenterade ändringar i dessa batcher, inklusive 35 referenser; övrig granskning återstår.
+
+
+[Matter-sensorn för antal batterier](sparade-andringar-matter-batteri.md) översattes, sparades och återlästes. Core-minnet innehåller 425 unika textpar; de aktuella batcherna omfattar 460 dokumenterade ändringar inklusive 35 referenser. Övriga Core-nycklar och äldre förslag återstår.
