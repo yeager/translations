@@ -45,3 +45,11 @@ Sparad och återläst i Lokalise 2026-11-19. Sammansättningen och laddningens k
 | `component::fronius::entity::number::battery_discharge_power_limit::name` | Battery discharge power limit | Batteriets urladdningsgräns | Gräns för batteriets urladdningseffekt |
 
 Sparad och återläst i Lokalise 2026-11-19. Texten anger att gränsen avser effekt.
+
+## Modbus-modell saknas
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::fronius::exceptions::modbus_model_unavailable::message` | The inverter no longer exposes the model this setting lives in | Växelriktaren exponerar inte längre modellen där den här inställningen finns | Växelriktaren tillhandahåller inte längre modellen där den här inställningen finns |
+
+Sparad och återläst i Lokalise 2026-11-19. Tillhandahåller är tydligare i detta användarmeddelande.
