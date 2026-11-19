@@ -165,3 +165,5 @@ Samtliga 124 engelska och svenska segment i [Core-TMX-tillägget](https://github
 Senaste [swedish-tm-releasen v1.1.8](https://github.com/yeager/swedish-tm/releases/tag/v1.1.8) ligger 664 commits bakom huvudgrenen enligt GitHubs jämförelse vid kontrollen. Skillnaden omfattar även omfattande Blender-, QGIS- och annat arbete. En release av hela huvudgrenen kräver därför kontroll av mer än HA-tillägget; någon ny release gjordes inte i denna kontroll.
 
 Fyra [Miele-programnamn för kakor](sparade-andringar-miele.md) sparades och återlästes. Totalt 134 ändringar i de senaste batcherna; de fyra nya textparen återstår att lägga in i Core-TMX.
+
+De fyra nya Miele-programnamnen har lagts till i [Core-TMX](https://github.com/yeager/swedish-tm/blob/main/home-assistant/sv-home-assistant-core-lokalise-verified-20261119.tmx), som nu innehåller 128 språkpar. XML och de tidigare 124 paren kontrollerades.
