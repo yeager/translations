@@ -133,3 +133,5 @@ Två [referenser för skyddens hastighet](sparade-andringar-cover.md) återstäl
 [Fördröjningen för en Matter-närvarosensor](sparade-andringar-matter.md) sparades och återlästes. Ett av två [hastighetsreferensmål](sparade-andringar-cover.md) kontrollerades direkt; det andra återstår. Totalt 117 ändringar i de senaste batcherna.
 
 En [Amazon Devices-text om engångskoder](sparade-andringar-amazon-devices.md) sparades och återlästes. Totalt 118 ändringar i de senaste batcherna; ytterligare förslag återstår.
+
+Sex [MQTT-texter för fläkthastighet](sparade-andringar-mqtt.md) sparades och återlästes med länkar och platshållare bevarade. Totalt 124 ändringar i de senaste batcherna; övriga förslag återstår.
