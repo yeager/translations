@@ -573,3 +573,6 @@ Detta ger 456 dokumenterade ändringar i de aktuella batcherna, inklusive 35 ref
 
 
 [Fyra ViCare-givarnamn för frånluft och avluft](sparade-andringar-vicare-luft.md) rättades efter kontroll av leverantörens ventilationsbeskrivning, sparades och återlästes. Core-minnet innehåller 449 unika textpar; de aktuella batcherna omfattar 484 dokumenterade ändringar inklusive 35 referenser. Övrig granskning återstår.
+
+
+[Harbors klocka i kamerabilden](sparade-andringar-harbor-klocka.md) rättades, sparades och återlästes. Core-minnet innehåller 450 unika textpar; de aktuella batcherna omfattar 485 dokumenterade ändringar inklusive 35 referenser. Övrig granskning återstår.
