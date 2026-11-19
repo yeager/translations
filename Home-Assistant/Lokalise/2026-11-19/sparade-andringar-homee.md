@@ -7,3 +7,7 @@ Sparat och återläst i Lokalise den 19 november 2026. Tidigare bedömning finns
 | `component::homee::entity::event::up_down_remote::name` | Up/down remote | Upp/ner fjärrkontroll | Fjärrkontroll för upp och ner |
 
 Formuleringen undviker särskrivning och behåller riktningarna i källan.
+
+## Uppföljning av släpphändelsen
+
+Kontrollerat i Lokalise den 19 november 2026: `component::homee::entity::event::up_down_remote::state_attributes::event_type::state::release` och `component::homee::entity::event::button_state_instance::state_attributes::event_type::state::released` refererar på både engelska och svenska till `component::homee::entity::event::button_state::state_attributes::event_type::state::released`. Målet är ”Released” / ”Släppt”, vilket passar knapphändelsen. Referenserna och måltexten behölls utan ändring.
