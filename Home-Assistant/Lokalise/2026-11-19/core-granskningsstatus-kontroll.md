@@ -99,3 +99,5 @@ En [MQTT-hjälptext för stängd lutning](sparade-andringar-mqtt.md) sparades oc
 En [MQTT-hjälptext för öppen lutning](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 76 ändringar i de senaste batcherna; övriga förslag återstår.
 
 Två [MQTT-topicfält för lutning](sparade-andringar-mqtt.md) sparades och återlästes. Totalt 78 ändringar i de senaste batcherna; övriga förslag återstår.
+
+En [MQTT-beskrivning för lutningsstatus](sparade-andringar-mqtt.md) sparades och återlästes med länkmålet bevarat. Totalt 79 ändringar i de senaste batcherna; övriga förslag återstår.
