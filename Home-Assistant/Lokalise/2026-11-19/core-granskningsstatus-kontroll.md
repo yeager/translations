@@ -692,3 +692,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Forecas prognosbeskrivning](sparade-andringar-foreca-prognos.md) rättades och återlästes i Lokalise. De aktuella batcherna omfattar 615 dokumenterade ändringar, inklusive 64 referenser; Core-minnet innehåller 551 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Två Shelly-sensornamn](sparade-andringar-shelly-luftfuktighet.md) förtydligades och återlästes i Lokalise med `{channel_name}` bevarad. De aktuella batcherna omfattar 617 dokumenterade ändringar, inklusive 64 referenser; Core-minnet innehåller 553 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
