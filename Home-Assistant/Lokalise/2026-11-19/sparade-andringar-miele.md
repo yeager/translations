@@ -31,3 +31,12 @@ Sparade och återlästa i Lokalise. Shortcrust pastry är mördeg; den svenska s
 | `component::miele::entity::sensor::program_id::state::savoury_flan_puff_pastry` | Savoury flan, puff pastry | Kryddig flan, smördeg | Matpaj med smördeg |
 
 Sparade och återlästa i Lokalise. ”Savoury” anger en matig paj, inte att den är kryddig; degtyperna skiljs åt.
+
+## Fruktpajer
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::miele::entity::sensor::program_id::state::fruit_flan_short_crust_pastry` | Fruit flan, short crust pastry | Fruktflan, mördegsbakelse | Fruktpaj med mördeg |
+| `component::miele::entity::sensor::program_id::state::fruit_flan_puff_pastry` | Fruit flan, puff pastry | Fruktflan, smördeg | Fruktpaj med smördeg |
+
+Sparade och återlästa i Lokalise. Degtyperna och pajens innebörd följer källan.
