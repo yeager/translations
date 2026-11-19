@@ -18,3 +18,15 @@ Sparade och återlästa i Lokalise 2026-11-19. Båda de svenska fälten var tidi
 | `component::music_assistant::exceptions::no_active_queue::message` | The player is not playing from a Music Assistant queue. | Tom | Spelaren spelar inte upp från en Music Assistant-kö. |
 
 Nyckeln `component::music_assistant::exceptions::offset_needs_limit::message` är också tom och behöver jämföras med fältnamnen för offset och limit innan den översätts.
+
+## Favoritfilter och offset
+
+Sparade och återlästa i Lokalise 2026-11-19.
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::music_assistant::services::get_library::fields::favorite::name` | Favorite state | Endast favoriter | Favoritstatus |
+| `component::music_assistant::services::get_library::fields::favorite::description` | Filter by favorite state. Enable to return only liked items, disable to return only disliked items, or leave the field out to return all items. | Filtrera objekt så att endast favoriter returneras. | Filtrera efter favoritstatus. Aktivera för att bara returnera gillade objekt, inaktivera för att bara returnera ogillade objekt eller lämna fältet tomt för att returnera alla objekt. |
+| `component::music_assistant::exceptions::offset_needs_limit::message` | An offset requires a limit greater than 0. | Tom | Offset kräver en gräns större än 0. |
+
+Favorittexten återger nu även inaktiverat och utelämnat fält. Den tidigare öppna offsetfrågan har följts upp mot fältnamnen `get_library::fields::offset::name` (”Offset”) och `get_library::fields::limit::name` (”Gräns”).
