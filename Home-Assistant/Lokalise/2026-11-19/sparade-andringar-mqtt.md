@@ -165,3 +165,15 @@ Tidigare svenska: Definierar en [mall]({value_templating_url}) för att extraher
 Sparad svenska: Definierar en [mall]({value_templating_url}) för att hämta nyttolasten från topic för lutningsstatus. Följande variabler finns tillgängliga i mallen: `entity_id`, `position_open`, `position_closed`, `tilt_min` och `tilt_max`. [Läs mer.]({url}#tilt_status_template)
 
 Texten jämfördes med källan, sparades och återlästes i Lokalise; variabelnamn och länkmål bevarades.
+
+## Optimistiskt lutningsläge
+
+Nyckel: `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::cover_tilt_settings::data_description::tilt_optimistic`.
+
+Engelska: Flag that defines if tilt works in optimistic mode. If tilt status topic is not defined, tilt works in optimistic mode by default. [Learn more.]({url}#tilt_optimistic)
+
+Tidigare svenska: Flagg som anger om tilt ska fungera i optimistiskt läge. Om topic för tilt-status inte har definierats fungerar tilt i optimistiskt läge som standard. [Läs mer.]({url}#tilt_optimistic)
+
+Sparad svenska: Anger om lutningen fungerar i optimistiskt läge. Om topic för lutningsstatus inte har angetts används optimistiskt läge som standard. [Läs mer.]({url}#tilt_optimistic)
+
+Källan och den tidigare texten kontrollerades i Lokalise. Ändringen sparades och återlästes med länkmålet bevarat.
