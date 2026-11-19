@@ -22,3 +22,12 @@ Springformarnas material anges inte i källtexten. Övriga granskade förslag ha
 | `component::miele::entity::sensor::program_id::state::chocolate_hazlenut_cake_one_large` | Chocolate hazelnut cake (one large) | Chokladhasselnötskaka (en stor) | Choklad- och hasselnötskaka (en stor) |
 
 Sparade och återlästa i Lokalise. Shortcrust pastry är mördeg; den svenska sammansättningen gör båda ingredienserna tydliga. Den engelska källans stavning i nyckeln har bevarats.
+
+## Matpajer
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::miele::entity::sensor::program_id::state::savoury_flan_short_crust_pastry` | Savoury flan, short crust pastry | Kryddig flan, mördegsbakelse | Matpaj med mördeg |
+| `component::miele::entity::sensor::program_id::state::savoury_flan_puff_pastry` | Savoury flan, puff pastry | Kryddig flan, smördeg | Matpaj med smördeg |
+
+Sparade och återlästa i Lokalise. ”Savoury” anger en matig paj, inte att den är kryddig; degtyperna skiljs åt.
