@@ -605,3 +605,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Två VeSync-sensornamn](sparade-andringar-vesync-tillagning.md) sparades och återlästes i Lokalise med `{basket}` bevarad. De aktuella batcherna omfattar 512 dokumenterade ändringar, inklusive 40 referenser; Core-minnet innehåller 472 unika textpar. Äldre förslag och övrig granskning återstår.
+
+
+[Sex EPH Ember-texter för YAML-import](sparade-andringar-ephember-yaml.md) sparades och återlästes i Lokalise med platshållare och kodformatering bevarade. De aktuella batcherna omfattar 518 dokumenterade ändringar, inklusive 40 referenser; Core-minnet innehåller 478 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
