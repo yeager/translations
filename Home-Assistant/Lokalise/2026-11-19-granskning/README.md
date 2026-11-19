@@ -32,4 +32,6 @@ SHA-256: `7940ef65d2a3ffe2adee256675c2cb070aa2f13bf11d1a525d767e554662fb44`. Cor
 
 Senast granskade nyckel i denna ordning: `component::matter::entity::sensor::esa_state::state::offline` (Lokalise-ID 653106087). De två referensmålen i den senaste rapporten har kontrollerats i Lokalise. Ordningen kan ha förändrats sedan ögonblicksbilden och måste verifieras vid fortsatt granskning.
 
-- [Kompletterande Matter-kontroll](matter-uppfoljning-2026-11-19.md) – tio nycklar och referensmålen kontrollerade; nästa nyckel i den dokumenterade ordningen är ID 653073959.
+- [Kompletterande Matter-kontroll](matter-uppfoljning-2026-11-19.md) – tio nycklar och referensmålen kontrollerade; fortsättningen finns i rapporten för nyckel 38 565–38 569.
+
+- [Nyckel 38 565–38 569](granskning-38565-38569.md) – nästa ID i den äldre ordningen är 653058791. Två terminologifrågor kräver uppföljning.
