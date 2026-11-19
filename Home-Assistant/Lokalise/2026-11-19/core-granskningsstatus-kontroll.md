@@ -764,3 +764,6 @@ Ytterligare fem lokala förslagsrapporter för positionerna 1–330 saknades på
 
 
 [Sex Enphase Envoy-fält](sparade-andringar-enphase-utan-solceller.md) sparades och återlästes via Lokalise API: två texter och fyra referenser till de kontrollerade målen. De aktuella batcherna omfattar 743 dokumenterade ändringar, inklusive 88 referenser; Core-minnet innehåller 655 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
+
+
+[31 aerosmart-sensorer och inställningar](sparade-andringar-aerosmart-sensorer.md) sparades och återlästes via Lokalise API. Tidigare markerade osäkra termer och övriga aerosmart-förslag återstår. De aktuella batcherna omfattar 774 dokumenterade ändringar, inklusive 88 referenser; Core-minnet innehåller 686 unika nycklade textpar. Äldre förslag och övrig granskning återstår.
