@@ -258,3 +258,13 @@ Sparade och återlästa i Lokalise. Engelska källtexter och ursprungliga bedöm
 | `component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::fan_preset_mode_settings::data_description::preset_mode_command_template` | A [template]({command_templating_url}) to compose the payload to be published at the preset mode command topic. | [Mall]({command_templating_url}) för att skapa nyttolasten som ska publiceras till topic för kommandon för förinställt läge. | En [mall]({command_templating_url}) som skapar nyttolasten som ska publiceras till topic för kommandon för förinställt läge. |
 
 Sparade och återlästa i Lokalise. Platshållare, länkmål och referenser från klimatnycklar bevarades.
+
+## Stöd för förinställda lägen och felmeddelande
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska |
+|---|---|---|---|
+| `component::mqtt::config_subentries::device::step::entity_platform_config::data_description::fan_feature_preset_modes` | The fan supports preset modes. | Fläkten stöder förinställningslägen. | Fläkten stöder förinställda lägen. |
+| `component::mqtt::config_subentries::device::step::entity_platform_config::data::fan_feature_preset_modes` | Preset modes support | Stöd för förinställningslägen | Stöd för förinställda lägen |
+| `component::mqtt::config_subentries::device::error::fan_preset_mode_reset_in_preset_modes_list` | Payload "reset preset mode" is not a valid as a preset mode | Nyttolasten "återställ förinställningsläge" är inte giltigt som ett förinställningsläge | Nyttolasten ”återställ förinställt läge” är inte giltig som förinställt läge. |
+
+Sparade och återlästa i Lokalise. Klimatnyckelns referens till stödfältet har bevarats.
