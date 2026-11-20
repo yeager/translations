@@ -13,7 +13,7 @@ Datum: 2026-11-20. Granskning mot Lokalise och aktuell Core-källa. Raden `total
 | `component::hotspring::entity::sensor::jet3_current::name` | Jet 3 current | Ström för jet 3 | Sparad och återläst i Lokalise (ID 984458731); parallell med föregående sensor. |
 | `component::hotspring::entity::sensor::jet1_jet2_blower_power::name` | Jets 1, 2, and blower apparent power | Skenbar effekt för jet 1, 2 och fläkt | Sparad och återläst i Lokalise (ID 984458730); konsekvent sensorbenämning. |
 | `component::hotspring::entity::sensor::jet1_jet2_blower_current::name` | Jets 1, 2, and blower current | Ström för jet 1, 2 och fläkt | Sparad och återläst i Lokalise (ID 984458729); parallell med effektvärdet. |
-| `component::hotspring::entity::sensor::heater_power::name` | Heater power | Värmarens effekt | Naturlig svensk genitivform för en enhetssensor. |
+| `component::hotspring::entity::sensor::heater_power::name` | Heater power | Värmarens effekt | Sparad och återläst i Lokalise (ID 984458728); naturlig svensk genitivform för en enhetssensor. |
 | `component::hotspring::entity::sensor::heater_current::name` | Heater current | Värmarens ström | Naturlig svensk genitivform för en enhetssensor. |
 | `component::evohome::exceptions::api_credentials_invalid::message` | The vendor's API rejected the username or password | Leverantörens API avvisade användarnamnet eller lösenordet | Tydlig feltext och etablerade svenska termer. |
 | `component::tankerkoenig::services::get_opening_times::name` | Get opening times | Hämta öppettider | Åtgärdsform för tjänstnamn. |
