@@ -49,3 +49,14 @@ Den smalare Lokalise-sökningen `component::hotspring::config` visade ytterligar
 | `component::hotspring::config::step::user::data_description::host` | Värdnamn eller IP-adress för din Hot Spring hemnätverksadapter (HNA). | Värdnamn eller IP-adress för din Hot Spring-hemnätverksadapter (HNA). | Konsekvent produktnamnssammansättning. |
 
 Övriga config-rader—inklusive `{name}`-platshållaren och referenserna till gemensamma config-flow-nycklar—är korrekta som de står. `svlang skrivregler` fann inga fel i den längre föreslagna beskrivningen och Hunspell accepterar `hemnätverksadapter`, `värdnamn` och `konfigurera`. HotSpring-källan ska ändå återkontrolleras när den finns i den publika Core-koden, före ett eventuellt sparbeslut.
+
+## Entiteter
+
+Lokalise-sökningar för varje entitetstyp täcker 2 binärsensorer, 1 lampa, 2 talvärden, 10 val och 19 sensorer. De nio tomma sensorsraderna är redan dokumenterade i den separata rapporten om nya strängar. De återstående befintliga svenska värdena bedöms som korrekta:
+
+- `component::hotspring::entity::binary_sensor::heating::name` har `Värmer`. Home Assistant-minnet innehåller flera binärsensorer med samma källtext och just denna svenska processform; den behålls i stället för det mindre kontextspecifika substantivet `Uppvärmning`.
+- `Måltemperatur`, `Saltvärde`, `Saltpatronens ålder`, `Timer för kontroll av salt efter 10 dagar`, `Aktuell temperatur` och `Styrenhetens version` är korrekta sensor- eller talvärdesetiketter.
+- `Wi-Fi-dongelversion` och `FreshWater Salt System-version` bevarar produktnamn och svensk sammansättning. `Ljuszon {zone}` och `Stråle {jet}` bevarar respektive platshållare.
+- Referensbaserade val (`Av`, `Låg`, `Hög`) och uppvärmningslägena behålls. De engelska produktlägena med `boost` är fortsatt markerade som produkttermsberoende, inte som automatiska ändringar.
+
+Detta ger inga ytterligare ändringsförslag för befintliga HotSpring-entiteter. Hunspell accepterar `uppvärmning` och `värmer`; `svlang` bedömer `Uppvärmning` som ett naturligt enordsuttryck.
