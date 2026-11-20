@@ -1,7 +1,7 @@
 # Home Assistant Core — granskning sida 468 (Roborock, Wyoming och Waze Travel Time)
 
 Datum: 2026-11-20  
-Status: dokumenterade förslag; **inte sparade i Lokalise**
+Status: sparat i Lokalise 2026-11-20
 
 Roborock-källtexten kontrollerades mot `homeassistant/components/roborock/strings.json` på Home Assistant Cores `dev`-gren.
 
