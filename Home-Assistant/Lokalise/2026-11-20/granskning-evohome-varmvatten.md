@@ -39,3 +39,7 @@ Den aktuella Core-källan innehåller även sex aktiva strängar för `set_zone_
 | `component::evohome::services::set_zone_override::description` | Åsidosätter en zons målvärde, antingen på obestämd tid eller under en angiven tidsperiod, varefter den återgår till att följa sitt schema. | Korrekt. |
 
 Lokalise visar dessutom två referenssträngar för den äldre tjänsten `clear_zone_override`. De saknas i aktuell Core-källa och pekar exakt på `set_zone_override`-fältens `entity_id`-nycklar. De behandlas som historiska och ändras inte.
+
+## Systemläge
+
+Åtta aktiva `set_system_mode`-strängar har kontrollerats mot aktuell Core-källa utan ändringsförslag. `Ställ in systemläge`, `Varaktighet` och referensen till den gemensamma `mode`-nyckeln är korrekta. De tre beskrivningarna bevarar kodvärdena `Auto`, `AutoWithEco`, `Away`, `DayOff` och `Custom` exakt och har korrekt svensk innebörd. De två äldre `entity_id`-raderna som Lokalise också visar saknas i aktuell Core-källa och behandlas som historiska, utan ändring.
