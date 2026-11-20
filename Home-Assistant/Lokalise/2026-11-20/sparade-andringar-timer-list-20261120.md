@@ -42,6 +42,7 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043127 | `component::timer_list::services::finish_timer::name` | Finish timer | Avsluta timer |
 | 984043126 | `component::timer_list::services::finish_timer::fields::timer_id::name` | Timer ID | Timer-ID |
 | 984043125 | `component::timer_list::services::finish_timer::fields::timer_id::description` | The id of the timer to finish. | ID:t för timern som ska avslutas. |
+| 984043124 | `component::timer_list::services::finish_timer::description` | Finishes a timer early, as if its remaining time had elapsed. | Avslutar en timer i förtid, som om dess återstående tid hade löpt ut. |
 
 Varje värde sparades från ett tidigare dokumenterat förslag och lästes tillbaka
 direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
