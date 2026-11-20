@@ -95,6 +95,8 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::sensor::operating_mode::state::boost` | `Boost` | `Boost` | Granskad i Lokalise (ID 511675003); etablerat lägesnamn i denna lödningskontext. |
 | `component::iron_os::entity::sensor::operating_mode::state::cjc_calibration` | `CJC calibration` | `CJC-kalibrering` | Granskad i Lokalise (ID 616289603); teknisk förkortning bevarad med korrekt svensk sammansättning. |
 | `component::iron_os::entity::sensor::operating_mode::state::debug` | `Debug` | `Debug` | Granskad i Lokalise (ID 511675004); etablerat tekniskt lägesnamn. |
+| `component::iron_os::entity::sensor::operating_mode::state::hibernating` | `Hibernating` | `Viloläge` | Granskad i Lokalise (ID 616289604); korrekt etablerad term. |
+| `component::iron_os::entity::sensor::operating_mode::state::idle` | `[%key:common::state::idle%]` | Oförändrad | Granskad i Lokalise (ID 511675005); korrekt Core-referens. |
 
 ## Pågående täckning
 
