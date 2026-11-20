@@ -52,6 +52,17 @@ Senast uppdaterad: 2026-11-20.
 
 Den tidigare autentiserade Lokalise-sessionen och dess API-hjälpare återställdes av miljön, men en läsbehörig Lokalise-yta har återetablerats. Ingen Lokalise-skrivning görs. Fortsatt arbete använder inte `/tmp`; cache, rapporter och valideringsunderlag ska ligga i arbetsytan eller i respektive GitHub-repository.
 
+### Tillfälligt åtkomsthinder efter RadioTherm-granskningen
+
+- Den 20 november blev den lokala webbläsaråtkomsten för chatten otillgänglig
+  innan Simplepush kunde läsas i Lokalise.
+- Den läsande exporthjälparen i `swedish-tm` kontrollerades också. Den kräver
+  `LOKALISE_TOKEN`, som inte är konfigurerad i den aktuella miljön.
+- Simplepush har därför **inte** markerats som granskad och inga nya
+  Lokalise- eller TMX-värden har skapats på basis av ett gammalt ögonblicksbildsunderlag.
+- Den verifierade Core-TMX:en validerades lokalt under hindret: 769 giltiga
+  enheter (572 med Lokalise-ID och 197 historiska nyckelbaserade enheter).
+
 ## Källkontroll efter sessionens återställning
 
 - Home Assistant Core kontrollerades mot uppströms-commit `3d340fb5fdf03e7db48b45aec10f9b8da3b31c12` (2026-11-20).
