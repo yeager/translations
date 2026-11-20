@@ -53,3 +53,28 @@ Lokalise-nyckel-ID:n 984043128–984043131 var tomma på svenska.
 Lokalise-nyckel-ID:n 984043118–984043127 var tomma på svenska. Nästa tjänst i granskningsordningen är `component::timer_list::services::cancel_timer`.
 
 `svlang skrivregler` fann inga fel i den längre `finish_timer`-beskrivningen och gav 10/10 i naturlighetsheuristiken för `create_timer`-beskrivningen. Hunspell accepterar `nedräkningen`, `återstående` och `varaktighet`.
+
+## Cancel timer, Add time och komponentens återstående rader
+
+| Fullständig nyckel | Engelsk källtext | Föreslagen svenska | Motivering |
+| --- | --- | --- | --- |
+| `component::timer_list::services::cancel_timer::name` | Cancel timer | Avbryt timer | Imperativ tjänstform. |
+| `component::timer_list::services::cancel_timer::fields::timer_id::name` | Timer ID | Timer-ID | Konsekvent fältetikett. |
+| `component::timer_list::services::cancel_timer::fields::timer_id::description` | The id of the timer to cancel. | ID:t för timern som ska avbrytas. | Korrekt böjning och samma term som tjänsten. |
+| `component::timer_list::services::cancel_timer::description` | Cancels a timer without finishing it. | Avbryter en timer utan att avsluta den. | Skiljer avbrott från normalt avslut. |
+| `component::timer_list::services::add_time::name` | Add time | Lägg till tid | Imperativ tjänstform. |
+| `component::timer_list::services::add_time::fields::timer_id::name` | Timer ID | Timer-ID | Konsekvent fältetikett. |
+| `component::timer_list::services::add_time::fields::timer_id::description` | The id of the timer to add time to. | ID:t för timern vars tid ska utökas. | Naturlig svensk formulering av målobjektet. |
+| `component::timer_list::services::add_time::fields::duration::name` | Duration | Varaktighet | Samma fältterm som i övriga tjänster. |
+| `component::timer_list::services::add_time::fields::duration::description` | How much time to add to the timer. | Hur mycket tid som ska läggas till på timern. | Bevarar den angivna tidsmängden. |
+| `component::timer_list::services::add_time::description` | Adds time to a timer. | Lägger till tid på en timer. | Samma verb som tjänstnamnet. |
+| `component::timer_list::selector::status::options::paused` | Paused | Pausad | Statusform. |
+| `component::timer_list::selector::status::options::finished` | Finished | Avslutad | Statusform, konsekvent med `finish_timer`. |
+| `component::timer_list::selector::status::options::cancelled` | Cancelled | Avbruten | Statusform, konsekvent med `cancel_timer`. |
+| `component::timer_list::selector::status::options::active` | Active | Aktiv | Etablerad statusetikett. |
+| `component::timer_list::exceptions::timer_not_found::message` | Unable to find timer with id: `{timer_id}` | Det gick inte att hitta en timer med ID:t `{timer_id}` | Bevarar platshållaren och korrekt ID-böjning. |
+| `component::timer_list::entity_component::_::name` | `[%key:component::timer_list::title%]` | `[%key:component::timer_list::title%]` | Referensen ska bevaras ordagrant; titelnyckeln ger den synliga svenskan. |
+
+Lokalise-nyckel-ID:n 984043102–984043117 var tomma på svenska. Den aktuella komponentfrågan omfattade **61** `timer_list`-nycklar; samtliga har nu en dokumenterad bedömning i de tre Timer list-rapporterna. Inga pluraler förekommer. Den enda platshållaren, `{timer_id}`, är identisk i käll- och förslagstext.
+
+`svlang skrivregler` fann inga fel i felmeddelandet med platshållare och naturlighetsheuristiken gav 10/10 för `Lägger till tid på en timer.`. Hunspell accepterar de kontrollerade böjningarna `utökas`, `avbrytas` och `avslutad`.
