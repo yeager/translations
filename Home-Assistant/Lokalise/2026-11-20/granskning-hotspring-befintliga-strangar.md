@@ -46,7 +46,7 @@ Den smalare Lokalise-sökningen `component::hotspring::config` visade ytterligar
 | Fullständig nyckel | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- |
 | `component::hotspring::config::step::user::description` | Konfigurera din Hot Spring hemnätverksadapter (HNA) för att integrera med Home Assistant. | Konfigurera din Hot Spring-hemnätverksadapter (HNA) för att integrera den med Home Assistant. | Bindestreck gör produktnamnssammansättningen konsekvent; *den* ger verbet ett tydligt objekt. Sparad och återläst i Lokalise (ID 910962401) efter kontroll mot den publicerade Core-källan. |
-| `component::hotspring::config::step::user::data_description::host` | Värdnamn eller IP-adress för din Hot Spring hemnätverksadapter (HNA). | Värdnamn eller IP-adress för din Hot Spring-hemnätverksadapter (HNA). | Konsekvent produktnamnssammansättning. |
+| `component::hotspring::config::step::user::data_description::host` | Värdnamn eller IP-adress för din Hot Spring hemnätverksadapter (HNA). | Värdnamn eller IP-adress för din Hot Spring-hemnätverksadapter (HNA). | Konsekvent produktnamnssammansättning. Sparad och återläst i Lokalise (ID 910962400) efter kontroll mot den publicerade Core-källan. |
 
 Övriga config-rader—inklusive `{name}`-platshållaren och referenserna till gemensamma config-flow-nycklar—är korrekta som de står. `svlang skrivregler` fann inga fel i den längre föreslagna beskrivningen och Hunspell accepterar `hemnätverksadapter`, `värdnamn` och `konfigurera`. HotSpring-källan ska ändå återkontrolleras när den finns i den publika Core-koden, före ett eventuellt sparbeslut.
 
