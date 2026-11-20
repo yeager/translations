@@ -63,3 +63,22 @@ OGG-kvalitetsetiketten. Den validerade arbetsfilen är
 - Transifex-uppladdning `184fca6e-8d6d-44e9-abe8-a5ba2300614e` avslutades
   med `succeeded`: `translations_created: 17`,
   `translations_updated: 0`.
+
+## AU4-källsträngar utan AU3-motsvarighet – batch 002
+
+Batch 002 granskar 14 unika källtexter (17 meddelanden) i meny- och
+kommandomodulerna: molnturer, mediaimport, kanalmappning, tidslinjen,
+uppspelning och ljudaktiverad inspelning. Två av strängarna är direkt
+verifierade mot den lokala, tidigare kontrollerade AU4-katalogen:
+`Select from a chosen time to the playback position` och
+`Select from the playback position to a chosen time`.
+
+- XML-kontroll godkänd. 227 oöversatta meddelanden återstår.
+- `svlang` gav endast produktdomänerna `audio.com` och Audacity som sällsynta
+  ord; de är avsedda egennamn.
+- Transifex-uppladdning `e446d428-a68f-4d9c-b753-55042c57384d` avslutades
+  med `succeeded`: `translations_created: 17`,
+  `translations_updated: 0`.
+- En sedan tidigare befintlig WavPack-rad med platshållaravvikelse upptäcktes
+  i katalogens breda kontroll. Den har inte ändrats och hålls separat från
+  denna batch för kontextgranskning.
