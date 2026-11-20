@@ -20,7 +20,7 @@ Radgranskning av Qt TS-katalogen `audacity4-sv-review-batch-002-20261120.ts`.
 | `At zero crossings` | `Vid nollgenomgångar` | `trackeditcommandsregister.cpp:476` |
 | `Split track` | `Dela spår` | `trackeditcommandsregister.cpp:804` |
 
-Alla etthundrasextioåtta var oöversatta i den aktuella Qt-katalogen. Formuleringarna följer
+Alla tvåhundratjugosju var oöversatta i den aktuella Qt-katalogen. Formuleringarna följer
 Audacitys etablerade termer `klipp`, `spår` och `spelområde` och är korta
 kommandoetiketter enligt respektive källkommentar.
 
@@ -93,12 +93,19 @@ stopp av tidsinställd inspelning har kompletterats. Enhetsförkortningarna
 följer svensk formatering (`%1 d`, `%1 h`, `%1 min`, `%1 s`), och alla
 platshållare är bevarade.
 
+## Slutkontroll av batch 002
+
+De sista 22 oöversatta posterna i denna arbetskopia har granskats: metadata,
+spårredigeringshistorik och uppdateringsdialoger. Katalogen innehåller nu inga
+`type="unfinished"`-översättningar. Platshållare, HTML-markering och svenska
+typografiska citattecken har kontrollerats i de ändrade posterna.
+
 ## Verifiering
 
 - `xmllint --noout` godkände den ändrade TS-filen.
 - Källplats, platsmarkörer och TS-struktur kontrollerades för varje post; inga
   platshållare förekommer i denna batch.
 - Aktuell arbetskopia efter batchen: SHA-256
-  `4c84c193ef90457c575447a09f9cc85452a5ade35e040f2826898ef37c02b5a0`.
+  `32d7c68f991c5c749a2ccb68f5ee6abd80ec850a108126b96b36806ca552a993`.
 - `lrelease` saknas i den här miljön, så QM-kompilering har inte påståtts vara
   genomförd.
