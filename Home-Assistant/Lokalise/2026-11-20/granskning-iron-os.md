@@ -97,6 +97,8 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::sensor::operating_mode::state::debug` | `Debug` | `Debug` | Granskad i Lokalise (ID 511675004); etablerat tekniskt lägesnamn. |
 | `component::iron_os::entity::sensor::operating_mode::state::hibernating` | `Hibernating` | `Viloläge` | Granskad i Lokalise (ID 616289604); korrekt etablerad term. |
 | `component::iron_os::entity::sensor::operating_mode::state::idle` | `[%key:common::state::idle%]` | Oförändrad | Granskad i Lokalise (ID 511675005); korrekt Core-referens. |
+| `component::iron_os::entity::sensor::operating_mode::state::initialisation_done` | `Initialisation done` | `Initialisering genomförd` | Granskad i Lokalise (ID 616289605); korrekt svensk statusfras. |
+| `component::iron_os::entity::sensor::operating_mode::state::settings` | `Settings` | `Inställningar` | Granskad i Lokalise (ID 511675006); korrekt lägesnamn. |
 
 ## Pågående täckning
 
