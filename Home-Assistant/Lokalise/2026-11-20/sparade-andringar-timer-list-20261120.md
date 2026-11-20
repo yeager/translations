@@ -15,6 +15,8 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043155 | `component::timer_list::triggers::timer_finished::description` | Triggers when a timer finishes on a timer list. | Utlöses när en timer avslutas i en timerlista. |
 | 984043154 | `component::timer_list::triggers::timer_created::name` | Timer created | Timer skapad |
 | 984043153 | `component::timer_list::triggers::timer_created::description` | Triggers when a timer is created on a timer list. | Utlöses när en timer skapas i en timerlista. |
+| 984043152 | `component::timer_list::triggers::timer_cancelled::name` | Timer cancelled | Timer avbruten |
+| 984043151 | `component::timer_list::triggers::timer_cancelled::description` | Triggers when a timer is cancelled on a timer list. | Utlöses när en timer avbryts i en timerlista. |
 
 Båda värdena sparades från de tidigare dokumenterade förslagen och lästes
 tillbaka direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
