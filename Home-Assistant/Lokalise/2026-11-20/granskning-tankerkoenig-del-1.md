@@ -7,7 +7,7 @@ Lokalise: läsning av `component::tankerkoenig`; inga skrivningar har gjorts.
 
 ## Omfattning
 
-Den första synliga delen omfattar **28 av 72** aktuella Lokalise-nycklar,
+Den första och andra synliga delen omfattar **minst 38 av 72** aktuella Lokalise-nycklar,
 inklusive tjänsten `get_opening_times`, undantag, gemensamma datafält och de
 första sensorattributen. De resterande 44 nycklarna är inte markerade som
 färdiggranskade.
@@ -30,6 +30,7 @@ radie- och kartbeskrivningarna, sensorattributen `city`, `fuel_type`,
 | `component::tankerkoenig::exceptions::invalid_api_key::message` | `Den angivna  API-nyckeln  är ogiltig. Kontrollera din API-nyckel.` | `Den angivna API-nyckeln är ogiltig. Kontrollera din API-nyckel.` | Tar bort överflödiga blanksteg. |
 | `component::tankerkoenig::common::data_description_api_key` | `Tankerkoenig API-nyckeln  som ska användas.` | `Den Tankerkoenig-API-nyckel som ska användas.` | Svensk sammansättning och fullständig bestämning. |
 | `component::tankerkoenig::options::error::invalid_auth` | `[%key:common::config_flow::error::invalid_auth%]` | `[%key:component::tankerkoenig::config::error::invalid_auth%]` | Återställer den komponentreferens som finns i den aktuella Core-källan. |
+| `component::tankerkoenig::entity::sensor::e10::name` | `Super  E10` | `Super E10` | Tar bort dubbelblanksteg i bränslebeteckningen. |
 
 ## Verktygsstatus
 

@@ -47,7 +47,7 @@ Senast uppdaterad: 2026-11-20.
 | `component::private_ble_device` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; två språkförslag är dokumenterade. | Komponenten kan återkontrolleras vid källändring; förslagen ska läsas tillbaka före eventuell TMX-synkning. |
 | `component::radiotherm` | Alla 9 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::simplepush` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; ett lokalt, osparat förslag tar bort överflödiga blanksteg i ett felmeddelande. | Förslaget ska läsas tillbaka före eventuell TMX-synkning. |
-| `component::tankerkoenig` | Del 1: 28 av 72 aktuella Lokalise-nycklar granskade. Två nya tjänststrängar, tre referenser och fyra språk-/blankstegsförslag är dokumenterade lokalt. | Granska återstående 44 nycklar före eventuell Lokalise-skrivning; förslagen ska läsas tillbaka före TMX-synkning. |
+| `component::tankerkoenig` | Del 1: minst 38 av 72 aktuella Lokalise-nycklar granskade. Två nya tjänststrängar, tre referenser och fem språk-/blankstegsförslag är dokumenterade lokalt. | Granska återstående nycklar före eventuell Lokalise-skrivning; förslagen ska läsas tillbaka före TMX-synkning. |
 | 197 historiska TMX-enheter | Strukturellt giltiga men saknar Lokalise-ID i `tuid`. | Slå upp varje fullständig `source`-nyckel via Lokalise-API:t och ersätt `tuid` först efter en unik matchning. |
 
 ## Miljöstatus
