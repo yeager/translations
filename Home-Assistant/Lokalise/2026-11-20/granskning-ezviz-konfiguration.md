@@ -1,6 +1,6 @@
 # Home Assistant Core – Ezviz: konfiguration
 
-Datum: 2026-11-20. Samtliga **36** aktuella konfigurationssträngar lästes i Lokalise och kontrollerades mot `homeassistant/components/ezviz/strings.json` i Core-commit `3d340fb5fdf03e7db48b45aec10f9b8da3b31c12`.
+Datum: 2026-11-20. Samtliga **35** aktuella konfigurationssträngar lästes i Lokalise och kontrollerades mot `homeassistant/components/ezviz/strings.json` i Core-commit `3d340fb5fdf03e7db48b45aec10f9b8da3b31c12`. Lokalise visar dessutom den historiska nyckeln `config::abort::reauth_successful`, som saknas i aktuell källa.
 
 ## Tydliga ändringsförslag: återställ referenser
 
@@ -12,7 +12,7 @@ Datum: 2026-11-20. Samtliga **36** aktuella konfigurationssträngar lästes i Lo
 
 ## Bedömning av övriga rader
 
-De återstående 33 raderna är korrekta. Samtliga gemensamma referenser för användarnamn, lösenord, URL och återautentisering är bevarade. De specifika svenska formuleringarna för MFA, konton, region-URL, RTSP-uppgifter och kameraupptäckt motsvarar källtexten. Platshållarna `{username}`, `{serial}` och `{ip_address}` är oförändrade.
+De återstående 32 aktuella raderna är korrekta. Samtliga gemensamma referenser för användarnamn, lösenord, URL och återautentisering är bevarade. De specifika svenska formuleringarna för MFA, konton, region-URL, RTSP-uppgifter och kameraupptäckt motsvarar källtexten. Platshållarna `{username}`, `{serial}` och `{ip_address}` är oförändrade.
 
 ## Validering och minneshantering
 
