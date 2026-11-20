@@ -1,7 +1,7 @@
 # Home Assistant Core — granskning sida 480 (DWD, Devolo, GeoJSON, Dynalite och Workday)
 
 Datum: 2026-11-20  
-Status: dokumenterat förslag; **inte sparat i Lokalise**
+Status: sparat i Lokalise 2026-11-20
 
 | Fullständig nyckel | Befintlig svenska | Föreslagen svenska | Motivering |
 |---|---|---|---|
