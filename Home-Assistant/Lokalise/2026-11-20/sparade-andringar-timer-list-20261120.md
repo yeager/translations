@@ -46,6 +46,7 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043123 | `component::timer_list::services::create_timer::name` | Create timer | Skapa timer |
 | 984043122 | `component::timer_list::services::create_timer::fields::name::name` | Name | Namn |
 | 984043121 | `component::timer_list::services::create_timer::fields::name::description` | Optional name for the timer. | Valfritt namn för timern. |
+| 984043120 | `component::timer_list::services::create_timer::fields::duration::name` | Duration | Varaktighet |
 
 Varje värde sparades från ett tidigare dokumenterat förslag och lästes tillbaka
 direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
