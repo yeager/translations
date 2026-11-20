@@ -121,6 +121,8 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::switch::calibrate_cjc::name` | `Calibrate CJC` | `Kalibrera CJC` | Granskad i Lokalise (ID 584023212); korrekt svensk uppmaning med bevarad teknisk förkortning. |
 | `component::iron_os::entity::switch::cooling_temp_blink::name` | `Cool down screen flashing` | `Nedkylningsskärm blinkar` | Granskad i Lokalise (ID 584023213); korrekt funktionstext för den aktiverbara indikeringen. |
 | `component::iron_os::entity::switch::display_invert::name` | `Invert screen` | `Invertera skärm` | Granskad i Lokalise (ID 584023214); korrekt teknisk UI-uppmaning. |
+| `component::iron_os::entity::switch::idle_screen_details::name` | `Detailed idle screen` | `Detaljerad viloskärm` | Granskad i Lokalise (ID 584023215); korrekt svensk UI-term. |
+| `component::iron_os::entity::switch::invert_buttons::name` | `Swap +/- buttons` | `Byt plats på knapparna + och –` | Ändrad från `Byt plats på +/- knappar` för korrekt svensk ordföljd och tydliga knappbeteckningar; sparad och återläst i Lokalise (ID 584023216). |
 
 ## Pågående täckning
 
