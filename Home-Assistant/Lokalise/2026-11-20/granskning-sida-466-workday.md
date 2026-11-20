@@ -1,7 +1,7 @@
 # Home Assistant Core — granskning sida 466 (Workday)
 
 Datum: 2026-11-20  
-Status: dokumenterade förslag; **inte sparade i Lokalise**
+Status: sparat i Lokalise 2026-11-20
 
 Aktuell källtext kontrollerad mot `homeassistant/components/workday/strings.json` på Home Assistant Cores `dev`-gren. Backticks runt den tekniska nyckeln och avgränsaren bevaras.
 
