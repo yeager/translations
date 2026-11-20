@@ -62,6 +62,9 @@ Datum: 2026-11-20. Komponenten granskas mot `origin/dev` i Home Assistant Core o
 | `component::irm_kmi::entity::sensor::pollen_oak::state::yellow` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::yellow%]` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::yellow%]` | Referens återställd och återläst i Lokalise (ID 984688804); följer Core-källan. |
 | `component::irm_kmi::common::language_override_description` | `Åsidosätt Home Assistants språk för den textbaserade väderprognosen.` | `Åsidosätt Home Assistants språk för prognostexter och varningar.` | Uppdaterad källtext omfattar även varningar; sparad och återläst i Lokalise (ID 714799464). |
 | `component::irm_kmi::config::error::out_of_benelux` | `Platsen ligger utanför Benelux. Välj en plats i Benelux.` | Oförändrad | Granskad mot aktuell källtext i Lokalise (ID 714799468); idiomatisk och fullständig. |
+| `component::irm_kmi::entity::sensor::uv_index::name` | `UV-index` | Oförändrad | Granskad i Lokalise (ID 983121751); etablerad svensk term. |
+| `component::irm_kmi::entity::sensor::wind_gust_speed::name` | `Vindbyhastighet` | Oförändrad | Granskad i Lokalise (ID 983121752); korrekt fackterm. |
+| `component::irm_kmi::exceptions::api_error::message` | `Ett fel uppstod vid kommunikationen med API:et: {error}` | Oförändrad | Granskad i Lokalise (ID 983093774); platshållaren är bevarad och `API:et` stöds av termbanken. |
 
 ## Pågående täckning
 
