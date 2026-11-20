@@ -45,6 +45,7 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043124 | `component::timer_list::services::finish_timer::description` | Finishes a timer early, as if its remaining time had elapsed. | Avslutar en timer i förtid, som om dess återstående tid hade löpt ut. |
 | 984043123 | `component::timer_list::services::create_timer::name` | Create timer | Skapa timer |
 | 984043122 | `component::timer_list::services::create_timer::fields::name::name` | Name | Namn |
+| 984043121 | `component::timer_list::services::create_timer::fields::name::description` | Optional name for the timer. | Valfritt namn för timern. |
 
 Varje värde sparades från ett tidigare dokumenterat förslag och lästes tillbaka
 direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
