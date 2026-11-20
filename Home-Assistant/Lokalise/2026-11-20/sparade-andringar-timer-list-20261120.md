@@ -22,6 +22,7 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043147 | `component::timer_list::services::unpause_timer::fields::timer_id::description` | The id of the timer to resume. | ID:t för timern som ska återupptas. |
 | 984043146 | `component::timer_list::services::unpause_timer::description` | Resumes a paused timer. | Återupptar en pausad timer. |
 | 984043145 | `component::timer_list::services::subtract_time::name` | Subtract time | Dra av tid |
+| 984043144 | `component::timer_list::services::subtract_time::fields::timer_id::name` | Timer ID | Timer-ID |
 
 Båda värdena sparades från de tidigare dokumenterade förslagen och lästes
 tillbaka direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
