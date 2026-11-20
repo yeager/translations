@@ -11,11 +11,12 @@ Senast uppdaterad: 2026-11-20.
 ## Kanoniskt Home Assistant-minne
 
 - Fil: `yeager/swedish-tm/Home-Assistant/sv-home-assistant-core-lokalise-verified-20261120-canonical.tmx`.
-- Senast verifierad nivå: **780** unika översättningsenheter, inklusive
-  Simplepush och Tankerkoenig som sparades och återlästes 2026-11-20.
+- Senast verifierad nivå: **781** unika översättningsenheter, inklusive
+  Simplepush, Tankerkoenig och Energenie Power Sockets som sparades och
+  återlästes 2026-11-20.
 - XML-kontroll: unika `tuid`-värden och fullständig `source`-proveniens för varje post.
-- Alla 780 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back`.
-- 572 senare poster använder `lokalise:<översättnings-id>` som `tuid`. De 208 historiska posterna använder i stället den fullständiga källnyckeln som `tuid`; deras Lokalise-ID behöver hämtas från API:t innan de kan migreras säkert.
+- Alla 781 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back`.
+- 572 senare poster använder `lokalise:<översättnings-id>` som `tuid`. De 209 historiska posterna använder i stället den fullständiga källnyckeln som `tuid`; deras Lokalise-ID behöver hämtas från API:t innan de kan migreras säkert.
 
 ## Pågående uppföljning
 
@@ -39,7 +40,7 @@ Senast uppdaterad: 2026-11-20.
 | `component::openexchangerates` | Alla 10 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag; en äldre Lokalise-rad är markerad som historisk. | Komponenten kan återkontrolleras vid källändring. |
 | `component::emonitor` | Alla 9 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::brunt` | Alla 10 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag; en äldre Lokalise-rad är markerad som historisk. | Komponenten kan återkontrolleras vid källändring. |
-| `component::energenie_power_sockets` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; ett ändringsförslag är dokumenterat. | Komponenten kan återkontrolleras vid källändring; förslaget ska läsas tillbaka före eventuell TMX-synkning. |
+| `component::energenie_power_sockets` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; `Socket {socket_id}` → `Uttag {socket_id}` är sparad och återläst i Lokalise. | Komponenten kan återkontrolleras vid källändring. |
 | `component::eufylife_ble` | Alla 9 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag; två äldre Lokalise-rader är markerade som historiska. | Komponenten kan återkontrolleras vid källändring. |
 | `component::igloohome` | Alla 9 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::medcom_ble` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; ett osäkert CPM-terminologiförslag är dokumenterat och en äldre Lokalise-rad är markerad som historisk. | Jämför CPM-termen med produktdokumentation före eventuell Lokalise-skrivning. |
