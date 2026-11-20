@@ -106,6 +106,7 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::sensor::operating_mode::state::startup_warnings` | `Startup warnings` | `Varningar vid uppstart` | Granskad i Lokalise (ID 616289608); korrekt och idiomatisk svensk statusfras. |
 | `component::iron_os::entity::sensor::operating_mode::state::temperature_adjust` | `Temperature adjust` | `Temperaturjustering` | Granskad i Lokalise (ID 616289609); korrekt svensk teknisk sammansättning. |
 | `component::iron_os::entity::sensor::operating_mode::state::thermal_runaway` | `Thermal runaway` | `Termisk rusning` | Granskad i Lokalise (ID 616289610); korrekt svensk teknisk säkerhetsterm. |
+| `component::iron_os::entity::sensor::operating_mode::state::usb_pd_debug` | `USB PD debug` | `USB PD-felsökning` | Granskad i Lokalise (ID 616289611); standardförkortning bevarad och korrekt svensk sammansättning. |
 
 ## Pågående täckning
 
