@@ -76,6 +76,9 @@ Datum: 2026-11-20. Komponenten granskas mot `origin/dev` i Home Assistant Core o
 | `component::irm_kmi::selector::language_override::options::en` | `Engelska` | Oförändrad | Granskad i Lokalise (ID 714799475); korrekt språkbenämning. |
 | `component::irm_kmi::selector::language_override::options::fr` | `Franska` | Oförändrad | Granskad i Lokalise (ID 714799476); korrekt språkbenämning. |
 | `component::irm_kmi::selector::language_override::options::nl` | `Holländska` | `Nederländska` | Dutch avser hela språkområdet, inte endast Holland; sparad och återläst i Lokalise (ID 714799477). |
+| `component::irm_kmi::selector::language_override::options::de` | `Tyska` | Oförändrad | Granskad i Lokalise (ID 714799474); korrekt språkbenämning. |
+| `component::irm_kmi::selector::language_override::options::none` | `Följ Home Assistant serverns språk` | `Följ språk för Home Assistant-servern` | Tydligare konstruktion och korrekt svensk sammansättningsbindning; sparad och återläst i Lokalise (ID 714799478). |
+| `component::irm_kmi::title` | `Belgiens kungliga meteorologiska institut` | Oförändrad | Granskad i Lokalise (ID 714799479); korrekt institutionstitel. |
 
 ## Pågående täckning
 
