@@ -52,6 +52,10 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::select::desc_scroll_speed::name` | `Scrolling speed` | `Skrollhastighet` | Granskad i Lokalise (ID 580407947); korrekt etablerad sammansättning, även belagd i terminologibanken. |
 | `component::iron_os::entity::select::desc_scroll_speed::state::fast` | `[%key:component::iron_os::common::fast%]` | Oförändrad | Granskad i Lokalise (ID 580407948); korrekt referens till den verifierade hastighetstermen `Snabb`. |
 | `component::iron_os::entity::select::desc_scroll_speed::state::slow` | `[%key:component::iron_os::common::slow%]` | Oförändrad | Granskad i Lokalise (ID 580407949); korrekt referens till den verifierade hastighetstermen `Långsam`. |
+| `component::iron_os::entity::select::locking_mode::name` | `Button locking mode` | `Läge för knapplåsning` | Granskad i Lokalise (ID 580407950); korrekt svensk reglageetikett. |
+| `component::iron_os::entity::select::locking_mode::state::boost_only` | `Boost only` | `Endast boost` | Granskad i Lokalise (ID 580407951); kort och tydlig valetikett i låskontext. |
+| `component::iron_os::entity::select::locking_mode::state::full_locking` | `Full locking` | `Fullständig låsning` | Ändrad från den oidiomatiska direktöversättningen `Full låsning`; sparad och återläst i Lokalise (ID 580407952). |
+| `component::iron_os::entity::select::locking_mode::state::off` | `[%key:common::state::off%]` | Oförändrad | Granskad i Lokalise (ID 580407953); korrekt Core-referens till avstängt läge. |
 
 ## Pågående täckning
 
