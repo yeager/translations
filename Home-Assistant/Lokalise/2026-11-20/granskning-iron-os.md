@@ -117,6 +117,8 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::sensor::tip_voltage::name` | `Raw tip voltage` | `Rå spetsspänning` | Granskad i Lokalise (ID 511675016); korrekt sensorbenämning. |
 | `component::iron_os::entity::sensor::voltage::name` | `DC input voltage` | `DC-ingångsspänning` | Granskad i Lokalise (ID 511675018); korrekt svensk teknisk sammansättning. |
 | `component::iron_os::entity::switch::animation_loop::name` | `Animation loop` | `Animeringsloop` | Granskad i Lokalise (ID 584023211); etablerad UI-term för upprepad animering. |
+| `component::iron_os::entity::switch::boost::name` | `Boost` | `Boost` | Granskad i Lokalise (ID 673842531); etablerat lägesnamn i lödningskontexten. |
+| `component::iron_os::entity::switch::calibrate_cjc::name` | `Calibrate CJC` | `Kalibrera CJC` | Granskad i Lokalise (ID 584023212); korrekt svensk uppmaning med bevarad teknisk förkortning. |
 
 ## Pågående täckning
 
