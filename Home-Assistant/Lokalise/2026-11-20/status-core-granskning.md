@@ -35,6 +35,7 @@ Senast uppdaterad: 2026-11-20.
 | `component::laundrify` | Alla 10 aktuella Core-strängar är granskade mot Core-källan; två ändringsförslag är dokumenterade och en äldre Lokalise-rad är markerad som historisk. | Komponenten kan återkontrolleras vid källändring; förslagen ska läsas tillbaka före eventuell TMX-synkning. |
 | `component::luftdaten` | Alla 10 aktuella Core-strängar är granskade mot Core-källan; ett språkligt ändringsförslag är dokumenterat. | Komponenten kan återkontrolleras vid källändring; förslaget ska läsas tillbaka före eventuell TMX-synkning. |
 | `component::paj_gps` | Alla 10 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
+| `component::openexchangerates` | Alla 10 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag; en äldre Lokalise-rad är markerad som historisk. | Komponenten kan återkontrolleras vid källändring. |
 | 197 historiska TMX-enheter | Strukturellt giltiga men saknar Lokalise-ID i `tuid`. | Slå upp varje fullständig `source`-nyckel via Lokalise-API:t och ersätt `tuid` först efter en unik matchning. |
 
 ## Miljöstatus
@@ -77,5 +78,6 @@ Den tidigare autentiserade Lokalise-sessionen och dess API-hjälpare återställ
 - [Laundrify](granskning-laundrify.md)
 - [Luftdaten](granskning-luftdaten.md)
 - [PAJ GPS](granskning-paj-gps.md)
+- [Open Exchange Rates](granskning-openexchangerates.md)
 - [Timer list: fortsatt granskning av tomma strängar](granskning-timer-list-fortsattning.md)
 - [Timer list: återstående granskade tjänststrängar](granskning-timer-list-tjanster.md)
