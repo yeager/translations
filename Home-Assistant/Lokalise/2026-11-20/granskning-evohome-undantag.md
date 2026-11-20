@@ -6,7 +6,7 @@ Datum: 2026-11-20. Lokalise lästes i skrivskyddat läge och jämfördes med `ho
 
 | Fullständig nyckel | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- |
-| `component::evohome::exceptions::api_rate_limited::message` | Hastighetsgränsen för leverantörens API har överskridits. Försök igen senare | Gränsen för antalet anrop till leverantörens API har överskridits. Försök igen senare. | API-*rate limit* begränsar anropsfrekvens, inte hastighet. Home Assistant-minnet stöder exempelvis *Anropsgränsen har överskridits* och *Gränsen för antalet anrop … har överskridits*. Punkt avslutar också den första satsen korrekt. |
+| `component::evohome::exceptions::api_rate_limited::message` | Hastighetsgränsen för leverantörens API har överskridits. Försök igen senare | Gränsen för antalet anrop till leverantörens API har överskridits. Försök igen senare. | Sparad och återläst i Lokalise. API-*rate limit* begränsar anropsfrekvens, inte hastighet. |
 
 ## Aktuella källnycklar utan ytterligare ändringsförslag
 
@@ -22,7 +22,8 @@ Elva aktuella undantag har kontrollerats och är korrekta: `api_connection_faile
 
 - `svlang skrivregler` gav inga träffar för förslaget.
 - `hunspell -d sv_SE -l` gav inga felstavningsträffar.
-- Ingen Lokalise-skrivning har genomförts. Varken detta förslag eller det redan dokumenterade tomma värdet får föras in i det kanoniska HA-TMX-minnet förrän de sparats och återlästs.
+- Anropsgränsvärdet är sparat, återläst och infört i det kanoniska HA-TMX-minnet.
+  Det redan dokumenterade tomma värdet förs inte in förrän det har sparats och återlästs.
 
 ## Uppdatering och avvecklingsmeddelande
 

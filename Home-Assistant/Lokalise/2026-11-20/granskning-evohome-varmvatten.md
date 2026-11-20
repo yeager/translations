@@ -6,7 +6,7 @@ Datum: 2026-11-20. Lokalise lästes i skrivskyddat läge. Källan har kontroller
 
 | Fullständig nyckel | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- |
-| `component::evohome::services::set_dhw_override::fields::duration::description` | Varmvattnet återgår till sitt normala schema efter denna tidpunkt. Om värdet är 0 gäller ändringen fram till nästa schemalagda inställningspunkt. | Varmvattnet återgår till sitt schema efter den här tiden. Om värdet är 0 gäller ändringen fram till nästa schemalagda börvärde. | `duration` är en tidslängd, inte en tidpunkt. *Setpoint* används konsekvent som *börvärde* i Home Assistant-minnet, bland annat för varmvatten. *Normala* saknar stöd i källan. |
+| `component::evohome::services::set_dhw_override::fields::duration::description` | Varmvattnet återgår till sitt normala schema efter denna tidpunkt. Om värdet är 0 gäller ändringen fram till nästa schemalagda inställningspunkt. | Varmvattnet återgår till sitt schema efter den här tiden. Om värdet är 0 gäller ändringen fram till nästa schemalagda börvärde. | Sparad och återläst i Lokalise. `duration` är en tidslängd, inte en tidpunkt; *setpoint* översätts här som *börvärde*. |
 | `component::evohome::services::set_dhw_override::description` | Åsidosätter ett varmvattenberedares tillstånd, antingen på obestämd tid eller under en viss tid, varefter det återgår till att följa sitt schema. | Åsidosätter en varmvattenberedares tillstånd, antingen på obestämd tid eller under en viss tid. Därefter återgår varmvattenberedaren till att följa sitt schema. | `Varmvattenberedare` är utrum: *en*, inte *ett*. Den explicita satsen undanröjer också den oklara syftningen hos *det*. |
 
 ## Bedömda utan ändringsförslag
@@ -23,7 +23,9 @@ Datum: 2026-11-20. Lokalise lästes i skrivskyddat läge. Källan har kontroller
 - `svlang skrivregler` gav inga träffar för båda förslagen.
 - `hunspell -d sv_SE -l` gav inga felstavningsträffar för förslagen.
 - `swedish-tm` ger etablerat stöd för *börvärde* i Home Assistant, bland annat `component::plugwise::entity::sensor::domestic_hot_water_setpoint::name` → `Börvärde för varmvatten`.
-- Ingen Lokalise-skrivning har genomförts. Förslagen är därför **inte** införda i det kanoniska HA-TMX-minnet, vars poster endast får representera sparade och återlästa värden.
+- Varaktighetsbeskrivningen är sparad, återläst och införd i det kanoniska
+  HA-TMX-minnet. Tjänstebeskrivningen är fortsatt ett lokalt förslag och förs
+  inte in förrän den har sparats och återlästs.
 
 ## Närliggande zonöverstyrning
 
