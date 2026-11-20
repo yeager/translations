@@ -11,12 +11,12 @@ Senast uppdaterad: 2026-11-20.
 ## Kanoniskt Home Assistant-minne
 
 - Fil: `yeager/swedish-tm/Home-Assistant/sv-home-assistant-core-lokalise-verified-20261120-canonical.tmx`.
-- Senast verifierad nivå: **786** unika översättningsenheter, inklusive
-  Simplepush, Tankerkoenig, Energenie Power Sockets, Laundrify, Luftdaten och Private BLE Device som
+- Senast verifierad nivå: **788** unika översättningsenheter, inklusive
+  Simplepush, Tankerkoenig, Energenie Power Sockets, Laundrify, Luftdaten, Private BLE Device och OurGroceries som
   sparades och återlästes 2026-11-20.
 - XML-kontroll: unika `tuid`-värden och fullständig `source`-proveniens för varje post.
-- Alla 786 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back`.
-- 572 senare poster använder `lokalise:<översättnings-id>` som `tuid`. De 214 historiska posterna använder i stället den fullständiga källnyckeln som `tuid`; deras Lokalise-ID behöver hämtas från API:t innan de kan migreras säkert.
+- Alla 788 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back`.
+- 572 senare poster använder `lokalise:<översättnings-id>` som `tuid`. De 216 historiska posterna använder i stället den fullständiga källnyckeln som `tuid`; deras Lokalise-ID behöver hämtas från API:t innan de kan migreras säkert.
 
 ## Pågående uppföljning
 
@@ -44,7 +44,7 @@ Senast uppdaterad: 2026-11-20.
 | `component::eufylife_ble` | Alla 9 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag; två äldre Lokalise-rader är markerade som historiska. | Komponenten kan återkontrolleras vid källändring. |
 | `component::igloohome` | Alla 9 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::medcom_ble` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; ett osäkert CPM-terminologiförslag är dokumenterat och en äldre Lokalise-rad är markerad som historisk. | Jämför CPM-termen med produktdokumentation före eventuell Lokalise-skrivning. |
-| `component::ourgroceries` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; två förslag återställer obligatoriska referenser. | Förslagen ska läsas tillbaka före eventuell TMX-synkning. |
+| `component::ourgroceries` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; två obligatoriska referenser är återställda, sparade och återlästa i Lokalise. | Komponenten kan återkontrolleras vid källändring. |
 | `component::pglab` | Alla 9 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag; en äldre Lokalise-rad är markerad som historisk. | Komponenten kan återkontrolleras vid källändring. |
 | `component::private_ble_device` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; två språkändringar är sparade och återlästa i Lokalise. | Komponenten kan återkontrolleras vid källändring. |
 | `component::radiotherm` | Alla 9 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
