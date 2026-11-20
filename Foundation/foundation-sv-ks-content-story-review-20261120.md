@@ -1,0 +1,10 @@
+# Foundation – svenska ks_content, berättelsetexter
+
+Slutgranskning av de två tidigare oöversatta berättelsetexterna i `ks_content.json`, 20 november 2026.
+
+| Källa | Tidigare svenska | Föreslagen svenska |
+|---|---|---|
+| You meet your old companion at the Tax Office, studying a map of your village surrounded by majestic, flame-breathing Dragons. The Tax Collector has wasted no time since your last discussion and has certainly not lost hope of finding the mythical treasure. However unlikely it is to find such a fortune, it would be a welcome addition to your coffers. | *(saknas)* | Du möter din gamle följeslagare på skattekontoret, där hen studerar en karta över din by omgiven av ståtliga, eldsprutande drakar. Skatteindrivaren har inte förlorat någon tid sedan ert senaste samtal och har sannerligen inte gett upp hoppet om att hitta den mytiska skatten. Hur osannolikt det än är att hitta en sådan förmögenhet vore den ett välkommet tillskott till din kassa. |
+| The Tax Collector rushes to you as the news spreads through the village. They’ve found it! Your people have uncovered the Dragon’s treasure! Well... pieces of it, at least. Ages have scattered the ancient fortune across your lands, making retrieval near impossible. Yet your villagers are eager to search it for you. One question remains: what will you do with it? | *(saknas)* | Skatteindrivaren skyndar till dig medan nyheten sprids genom byn. De har hittat den! Ditt folk har upptäckt drakens skatt! Nåja … delar av den, åtminstone. Tidens gång har spritt den uråldriga förmögenheten över dina marker, vilket gör den nästan omöjlig att återfinna. Ändå är dina bybor ivriga att söka efter den åt dig. En fråga återstår: vad ska du göra med den? |
+
+`l10n-lint --language sv` och `hunspell -d sv_SE`: inga anmärkningar. Crowdin-status: ej skickat.
