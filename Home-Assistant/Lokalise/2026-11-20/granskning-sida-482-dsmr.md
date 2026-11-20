@@ -1,7 +1,7 @@
 # Home Assistant Core — granskning sida 482 (Luftfuktare och DSMR)
 
 Datum: 2026-11-20  
-Status: dokumenterade förslag; **inte sparade i Lokalise**
+Status: sparat i Lokalise 2026-11-20
 
 DSMR-källtexten kontrollerades mot `homeassistant/components/dsmr/strings.json` på Home Assistant Cores `dev`-gren. Ingen av de berörda nycklarna finns i tidigare DSMR-rapporter i `yeager/translations`.
 
