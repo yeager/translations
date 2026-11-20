@@ -6,7 +6,7 @@ Datum: 2026-11-20. Lokalise lästes i skrivskyddat läge och alla tolv aktuella 
 
 | Fullständig nyckel | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- |
-| `component::ezviz::entity::switch::pir_motion_activated_light::name` | PIR rörelseaktiverat ljus | PIR-rörelseaktiverat ljus | Initialförkortningen är förled i en svensk sammansättning och ska därför följas av bindestreck. |
+| `component::ezviz::entity::switch::pir_motion_activated_light::name` | PIR rörelseaktiverat ljus | PIR-rörelseaktiverat ljus — **sparad och återläst i Lokalise** | Initialförkortningen är förled i en svensk sammansättning och ska därför följas av bindestreck. |
 
 ## Bedömda utan ändringsförslag
 
@@ -16,4 +16,4 @@ Datum: 2026-11-20. Lokalise lästes i skrivskyddat läge och alla tolv aktuella 
 
 - `svlang skrivregler` gav inga träffar för förslaget.
 - `hunspell -d sv_SE -l` gav inga felstavningsträffar.
-- Ingen Lokalise-skrivning har genomförts. Förslaget är därför inte infört i det kanoniska HA-TMX-minnet.
+- Ändringen sparades och återlästes i Lokalise 2026-11-20 och har förts in i det kanoniska HA-TMX-minnet.
