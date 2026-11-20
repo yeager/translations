@@ -60,6 +60,10 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::select::logo_duration::state::loop` | `Loop` | `Loop` | Granskad i Lokalise (ID 580407955); etablerad kort term för upprepad visning. |
 | `component::iron_os::entity::select::logo_duration::state::off` | `[%key:common::state::off%]` | Oförändrad | Granskad i Lokalise (ID 580407956); korrekt Core-referens till avstängt läge. |
 | `component::iron_os::entity::select::logo_duration::state::seconds_1` | `1 second` | `1 sekund` | Granskad i Lokalise (ID 580407957); korrekt singularform. |
+| `component::iron_os::entity::select::logo_duration::state::seconds_2` | `2 seconds` | `2 sekunder` | Granskad i Lokalise (ID 580407958); korrekt pluralform. |
+| `component::iron_os::entity::select::logo_duration::state::seconds_3` | `3 seconds` | `3 sekunder` | Granskad i Lokalise (ID 580407959); korrekt pluralform. |
+| `component::iron_os::entity::select::logo_duration::state::seconds_4` | `4 seconds` | `4 sekunder` | Granskad i Lokalise (ID 580407960); korrekt pluralform. |
+| `component::iron_os::entity::select::logo_duration::state::seconds_5` | `5 seconds` | `5 sekunder` | Granskad i Lokalise (ID 580407961); korrekt pluralform. |
 
 ## Pågående täckning
 
