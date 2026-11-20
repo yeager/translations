@@ -23,6 +23,7 @@ Senast uppdaterad: 2026-11-20.
 | Nya tomma HotSpring-poster och följdposter | 14 förslag dokumenterade utan Lokalise-skrivning. | Kontrollera att HotSpring-källan publicerats i Core före ett eventuellt sparbeslut. |
 | `component::hotspring` | Alla 50 aktuella nycklar är granskade genom smalare Lokalise-sökningar; fyra ändringsförslag och produkttermsberoenden är dokumenterade. | Återkontrollera mot publicerad Core-källa innan ett eventuellt sparbeslut. |
 | `component::timer_list` | Alla 61 aktuella, tomma strängar är granskade mot Core-källan och dokumenterade som förslag. | Komponenten kan återkontrolleras vid källändring; fortsätt i Lokalise med nästa oavgranskade komponent. |
+| `component::evohome` (varmvattenöverstyrning) | Fem aktuella tjänststrängar har kontrollerats mot Core-källan; två konkreta ändringsförslag är dokumenterade. | Fortsätt komponentvis med återstående Evohome-strängar; sparade värden ska alltid återläsas före eventuell TMX-synkning. |
 | 197 historiska TMX-enheter | Strukturellt giltiga men saknar Lokalise-ID i `tuid`. | Slå upp varje fullständig `source`-nyckel via Lokalise-API:t och ersätt `tuid` först efter en unik matchning. |
 
 ## Miljöstatus
@@ -48,5 +49,6 @@ Den tidigare autentiserade Lokalise-sessionen och dess API-hjälpare återställ
 - [Sida 731: granskning och kvarstående verifiering](granskning-sida-731-logbook-script.md)
 - [Nya tomma HotSpring-strängar och följdposter](granskning-nya-tomma-strangar-hotspring.md)
 - [HotSpring: befintliga svenska strängar](granskning-hotspring-befintliga-strangar.md)
+- [Evohome: varmvattenöverstyrning](granskning-evohome-varmvatten.md)
 - [Timer list: fortsatt granskning av tomma strängar](granskning-timer-list-fortsattning.md)
 - [Timer list: återstående granskade tjänststrängar](granskning-timer-list-tjanster.md)
