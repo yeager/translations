@@ -1,7 +1,7 @@
 # Home Assistant Core — granskning sida 474 (KNX, VoIP och NUT)
 
 Datum: 2026-11-20  
-Status: dokumenterade förslag; **inte sparade i Lokalise**
+Status: sparat i Lokalise 2026-11-20
 
 VoIP- och NUT-källtexten kontrollerades mot respektive `strings.json` på Home Assistant Cores `dev`-gren.
 
