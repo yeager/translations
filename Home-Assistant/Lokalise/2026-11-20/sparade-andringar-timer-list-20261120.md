@@ -30,6 +30,7 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043139 | `component::timer_list::services::remove_timer::name` | Remove timer | Ta bort timer |
 | 984043138 | `component::timer_list::services::remove_timer::fields::timer_id::name` | Timer ID | Timer-ID |
 | 984043137 | `component::timer_list::services::remove_timer::fields::timer_id::description` | The id of the timer to remove. | ID:t för timern som ska tas bort. |
+| 984043136 | `component::timer_list::services::remove_timer::description` | Removes a timer from a timer list. | Tar bort en timer från en timerlista. |
 
 Båda värdena sparades från de tidigare dokumenterade förslagen och lästes
 tillbaka direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
