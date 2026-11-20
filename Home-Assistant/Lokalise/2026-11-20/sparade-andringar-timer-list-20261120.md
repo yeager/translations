@@ -39,6 +39,7 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043130 | `component::timer_list::services::get_timers::fields::status::name` | Status | Status |
 | 984043129 | `component::timer_list::services::get_timers::fields::status::description` | Only return timers with the specified statuses. | Returnerar endast timers med angiven status. |
 | 984043128 | `component::timer_list::services::get_timers::description` | Gets the timers on a timer list. | Hämtar timers i en timerlista. |
+| 984043127 | `component::timer_list::services::finish_timer::name` | Finish timer | Avsluta timer |
 
-Båda värdena sparades från de tidigare dokumenterade förslagen och lästes
-tillbaka direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
+Varje värde sparades från ett tidigare dokumenterat förslag och lästes tillbaka
+direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
