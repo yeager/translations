@@ -9,6 +9,7 @@ Datum: 2026-11-20. Komponenten granskas mot `origin/dev` i Home Assistant Core o
 | `component::irm_kmi::entity::sensor::pollen_alder::state::none` | None | Ingen | Sparad och återläst i Lokalise (ID 984688752). Grundtillstånd för de refererande pollenraderna. |
 | `component::irm_kmi::entity::sensor::pollen_alder::state::orange` | Orange | Orange | Sparad och återläst i Lokalise (ID 984688753). Grundtillstånd för de refererande pollenraderna. |
 | `component::irm_kmi::entity::sensor::pollen_alder::state::purple` | Purple | Lila | Sparad och återläst i Lokalise (ID 984688754). Grundtillstånd för de refererande pollenraderna. |
+| `component::irm_kmi::entity::sensor::pollen_alder::state::red` | Red | Röd | Sparad och återläst i Lokalise (ID 984688755). Grundtillstånd för de refererande pollenraderna. |
 
 ## Pågående täckning
 
