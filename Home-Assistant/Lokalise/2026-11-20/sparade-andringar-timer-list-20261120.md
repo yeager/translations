@@ -63,6 +63,7 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043106 | `component::timer_list::selector::status::options::finished` | Finished | Avslutad |
 | 984043105 | `component::timer_list::selector::status::options::cancelled` | Cancelled | Avbruten |
 | 984043104 | `component::timer_list::selector::status::options::active` | Active | Aktiv |
+| 984043103 | `component::timer_list::exceptions::timer_not_found::message` | Unable to find timer with id: {timer_id} | Det gick inte att hitta en timer med ID:t {timer_id} |
 
 Varje värde sparades från ett tidigare dokumenterat förslag och lästes tillbaka
 direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
