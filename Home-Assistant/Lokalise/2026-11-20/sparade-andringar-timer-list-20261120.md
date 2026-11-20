@@ -49,6 +49,7 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043120 | `component::timer_list::services::create_timer::fields::duration::name` | Duration | Varaktighet |
 | 984043119 | `component::timer_list::services::create_timer::fields::duration::description` | How long the timer should run for. | Hur länge timern ska vara igång. |
 | 984043118 | `component::timer_list::services::create_timer::description` | Creates a new timer on a timer list and starts it counting down. | Skapar en ny timer i en timerlista och startar nedräkningen. |
+| 984043117 | `component::timer_list::services::cancel_timer::name` | Cancel timer | Avbryt timer |
 
 Varje värde sparades från ett tidigare dokumenterat förslag och lästes tillbaka
 direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
