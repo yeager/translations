@@ -11,11 +11,10 @@ Senast uppdaterad: 2026-11-20.
 ## Kanoniskt Home Assistant-minne
 
 - Fil: `yeager/swedish-tm/Home-Assistant/sv-home-assistant-core-lokalise-verified-20261120-canonical.tmx`.
-- Senast verifierad nivå: **837** unika översättningsenheter, inklusive
-  Simplepush, Tankerkoenig, Energenie Power Sockets, Laundrify, Luftdaten, Private BLE Device, OurGroceries, Fing och Evohome som
-  sparades och återlästes 2026-11-20.
+- Senast verifierad nivå: **878** unika översättningsenheter (231 historiska nyckelbaserade och 647 med Lokalise-ID), inklusive de
+  sparade och återlästa HotSpring-, Evohome- och tidigare komponentkorrigeringarna från 2026-11-20.
 - XML-kontroll: unika `tuid`-värden och fullständig `source`-proveniens för varje post.
-- Alla 837 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back`.
+- Alla 878 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back` eller, för redan korrekta och återverifierade Lokalise-värden, `verified-existing`.
 - 606 senare poster använder `lokalise:<översättnings-id>` som `tuid`. De 231 historiska posterna använder i stället den fullständiga källnyckeln som `tuid`; deras Lokalise-ID behöver hämtas från API:t innan de kan migreras säkert.
 
 ## Pågående uppföljning
