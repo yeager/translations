@@ -28,6 +28,12 @@ Senast uppdaterad: 2026-11-20.
 
 Den tidigare autentiserade Lokalise-sessionen och dess API-hjälpare återställdes av miljön. Efter återställningen görs ingen Lokalise-skrivning. Fortsatt arbete använder inte `/tmp`; cache, rapporter och valideringsunderlag ska ligga i arbetsytan eller i respektive GitHub-repository.
 
+## Verktygsaudit
+
+- `svlang`, `hunspell-sv`, `swedish-foss-terminology` och `swedish-tm` har kontrollerats från rena arbetskopior i arbetsytan.
+- Python-källorna kompilerar och `swedish-foss-terminology` kan starta sin export-CLI. Fulla pytest-sviter är inte körda eftersom den återställda miljön saknar `pytest`.
+- Hunspell markerar `klimatprofilsindex`, trots att beståndsdelarna accepteras. Termen kommer från den aktuella Home Assistant-kontexten men saknar här en oberoende generell ordbokskälla. Enligt `hunspell-sv`-policyn läggs den därför inte in som en global enskild katalogterm; träffen är en granskningssignal, inte ett automatiskt verktygsfel.
+
 ## Referenser
 
 - [Sparade ändringar på sidor 727–730](sparade-andringar-sidor-727-730.md)
