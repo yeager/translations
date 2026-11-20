@@ -61,6 +61,7 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043108 | `component::timer_list::services::add_time::description` | Adds time to a timer. | Lägger till tid på en timer. |
 | 984043107 | `component::timer_list::selector::status::options::paused` | Paused | Pausad |
 | 984043106 | `component::timer_list::selector::status::options::finished` | Finished | Avslutad |
+| 984043105 | `component::timer_list::selector::status::options::cancelled` | Cancelled | Avbruten |
 
 Varje värde sparades från ett tidigare dokumenterat förslag och lästes tillbaka
 direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
