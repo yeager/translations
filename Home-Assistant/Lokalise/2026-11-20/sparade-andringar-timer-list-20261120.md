@@ -51,6 +51,7 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043118 | `component::timer_list::services::create_timer::description` | Creates a new timer on a timer list and starts it counting down. | Skapar en ny timer i en timerlista och startar nedräkningen. |
 | 984043117 | `component::timer_list::services::cancel_timer::name` | Cancel timer | Avbryt timer |
 | 984043116 | `component::timer_list::services::cancel_timer::fields::timer_id::name` | Timer ID | Timer-ID |
+| 984043115 | `component::timer_list::services::cancel_timer::fields::timer_id::description` | The id of the timer to cancel. | ID:t för timern som ska avbrytas. |
 
 Varje värde sparades från ett tidigare dokumenterat förslag och lästes tillbaka
 direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
