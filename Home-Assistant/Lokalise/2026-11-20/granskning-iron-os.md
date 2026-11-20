@@ -49,6 +49,9 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::select::autostart_mode::state::disabled` | `[%key:common::state::disabled%]` | Oförändrad | Granskad i Lokalise (ID 580407943); korrekt Core-referens till inaktiverat läge. |
 | `component::iron_os::entity::select::autostart_mode::state::idle` | `Idle mode` | `Inaktivt läge` | Granskad i Lokalise (ID 580407944); korrekt och tydligt för ett startläge. |
 | `component::iron_os::entity::select::autostart_mode::state::soldering` | `Soldering mode` | `Lödningsläge` | Granskad i Lokalise (ID 580407946); korrekt svensk sammansättning. |
+| `component::iron_os::entity::select::desc_scroll_speed::name` | `Scrolling speed` | `Skrollhastighet` | Granskad i Lokalise (ID 580407947); korrekt etablerad sammansättning, även belagd i terminologibanken. |
+| `component::iron_os::entity::select::desc_scroll_speed::state::fast` | `[%key:component::iron_os::common::fast%]` | Oförändrad | Granskad i Lokalise (ID 580407948); korrekt referens till den verifierade hastighetstermen `Snabb`. |
+| `component::iron_os::entity::select::desc_scroll_speed::state::slow` | `[%key:component::iron_os::common::slow%]` | Oförändrad | Granskad i Lokalise (ID 580407949); korrekt referens till den verifierade hastighetstermen `Långsam`. |
 
 ## Pågående täckning
 
