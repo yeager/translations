@@ -64,6 +64,9 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::select::logo_duration::state::seconds_3` | `3 seconds` | `3 sekunder` | Granskad i Lokalise (ID 580407959); korrekt pluralform. |
 | `component::iron_os::entity::select::logo_duration::state::seconds_4` | `4 seconds` | `4 sekunder` | Granskad i Lokalise (ID 580407960); korrekt pluralform. |
 | `component::iron_os::entity::select::logo_duration::state::seconds_5` | `5 seconds` | `5 sekunder` | Granskad i Lokalise (ID 580407961); korrekt pluralform. |
+| `component::iron_os::entity::select::min_dc_voltage_cells::name` | `Power source` | `Strömkälla` | Granskad i Lokalise (ID 580407962); korrekt svensk teknisk term. |
+| `component::iron_os::entity::select::min_dc_voltage_cells::state::battery_3s` | `3S (3 cells)` | `3S (3 celler)` | Granskad i Lokalise (ID 580407963); korrekt batteribeteckning och pluralform. |
+| `component::iron_os::entity::select::min_dc_voltage_cells::state::battery_4s` | `4S (4 cells)` | `4S (4 celler)` | Granskad i Lokalise (ID 580407964); korrekt batteribeteckning och pluralform. |
 
 ## Pågående täckning
 
