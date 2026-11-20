@@ -13,6 +13,8 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043157 | `component::timer_list::triggers::timer_paused::description` | Triggers when a timer is paused on a timer list. | Utlöses när en timer pausas i en timerlista. |
 | 984043156 | `component::timer_list::triggers::timer_finished::name` | Timer finished | Timer avslutad |
 | 984043155 | `component::timer_list::triggers::timer_finished::description` | Triggers when a timer finishes on a timer list. | Utlöses när en timer avslutas i en timerlista. |
+| 984043154 | `component::timer_list::triggers::timer_created::name` | Timer created | Timer skapad |
+| 984043153 | `component::timer_list::triggers::timer_created::description` | Triggers when a timer is created on a timer list. | Utlöses när en timer skapas i en timerlista. |
 
 Båda värdena sparades från de tidigare dokumenterade förslagen och lästes
 tillbaka direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
