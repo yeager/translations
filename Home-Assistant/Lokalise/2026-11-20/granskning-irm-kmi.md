@@ -72,6 +72,10 @@ Datum: 2026-11-20. Komponenten granskas mot `origin/dev` i Home Assistant Core o
 | `component::irm_kmi::config::step::user::data_description::location` | `[%key:common::config_flow::data::location%]` | Oförändrad | Granskad i Lokalise (ID 714799470); korrekt Core-referens. |
 | `component::irm_kmi::options::step::init::data::language_override` | `[%key:common::config_flow::data::language%]` | Oförändrad | Granskad i Lokalise (ID 714799471); korrekt Core-referens. |
 | `component::irm_kmi::options::step::init::data_description::language_override` | `[%key:component::irm_kmi::common::language_override_description%]` | Oförändrad | Granskad i Lokalise (ID 714799472); korrekt komponentreferens. |
+| `component::irm_kmi::options::step::init::title` | `Alternativ` | Oförändrad | Granskad i Lokalise (ID 714799473); korrekt gränssnittsterm. |
+| `component::irm_kmi::selector::language_override::options::en` | `Engelska` | Oförändrad | Granskad i Lokalise (ID 714799475); korrekt språkbenämning. |
+| `component::irm_kmi::selector::language_override::options::fr` | `Franska` | Oförändrad | Granskad i Lokalise (ID 714799476); korrekt språkbenämning. |
+| `component::irm_kmi::selector::language_override::options::nl` | `Holländska` | `Nederländska` | Dutch avser hela språkområdet, inte endast Holland; sparad och återläst i Lokalise (ID 714799477). |
 
 ## Pågående täckning
 
