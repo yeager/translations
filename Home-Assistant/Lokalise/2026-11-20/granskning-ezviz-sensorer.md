@@ -9,7 +9,7 @@ Datum: 2026-11-20. Lokalise lästes i skrivskyddat läge och jämfördes med `ho
 | `component::ezviz::entity::sensor::seconds_last_trigger::name` | Sekunder sedan senaste trigger | Sekunder sedan senaste utlösning — **sparad och återläst i Lokalise** | Undviker oöversatt engelskt substantiv och beskriver sensorhändelsen idiomatiskt. |
 | `component::ezviz::entity::sensor::last_alarm_type_name::name` | Senaste larm typ namn | Namn på senaste larmtyp — **sparad och återläst i Lokalise** | Rättar särskrivningen *larm typ* och naturlig svensk ordföljd. |
 | `component::ezviz::entity::sensor::last_alarm_type_code::name` | Senaste larm typ kod | Kod för senaste larmtyp — **sparad och återläst i Lokalise** | Rättar särskrivningen och naturlig svensk ordföljd. |
-| `component::ezviz::entity::sensor::last_alarm_time::name` | Senaste larm tid | Tid för senaste larm | Rättar särskrivningen och gör etiketten idiomatisk. |
+| `component::ezviz::entity::sensor::last_alarm_time::name` | Senaste larm tid | Tid för senaste larm — **sparad och återläst i Lokalise** | Rättar särskrivningen och gör etiketten idiomatisk. |
 
 ## Bedömda utan ändringsförslag
 
@@ -23,4 +23,4 @@ De fem andra aktuella sensorsraderna—`WAN-IP`, `Kanaler som stöds`, `PIR-stat
 
 - `svlang skrivregler` gav inga träffar för alla fyra förslag.
 - `hunspell -d sv_SE -l` gav inga felstavningsträffar.
-- Ingen Lokalise-skrivning har genomförts; förslagen har inte förts in i HA-TMX-minnet.
+- Alla fyra förslag sparades och återlästes i Lokalise 2026-11-20 och har förts in i HA-TMX-minnet.
