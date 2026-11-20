@@ -19,6 +19,8 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::binary_sensor::tip_connected::name` | `Soldering tip` | `Lödspets` | Granskad i Lokalise (ID 575468261); korrekt fackterm. |
 | `component::iron_os::entity::button::settings_reset::name` | `Restore default settings` | `Återställ standardinställningar` | Granskad i Lokalise (ID 584039639); korrekt åtgärdsterm. |
 | `component::iron_os::entity::button::settings_save::name` | `Save settings` | `Spara inställningar` | Granskad i Lokalise (ID 584039640); korrekt åtgärdsterm. |
+| `component::iron_os::entity::number::accel_sensitivity::name` | `Motion sensitivity` | `Rörelsekänslighet` | Granskad i Lokalise (ID 572443004); korrekt reglageterm. |
+| `component::iron_os::entity::number::boost_temp::name` | `Boost temperature` | `Boosttemperatur` | Ändrad från uppmaningsform till saklig reglageetikett; sparad och återläst i Lokalise (ID 572443005). |
 
 ## Pågående täckning
 
