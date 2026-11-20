@@ -1,0 +1,13 @@
+# Foundation – help.release.json, del 12
+
+| Sträng-ID | Engelsk källa | Tidigare svenska | Sparad svensk text | Resultat |
+|---:|---|---|---|---|
+| 21562 | **Military Companies** conduct **missions** that provide valuable **resources**. | **Militärkompanier** genomför **uppdrag** som ger värdefulla **resurser**. | **Militära trupper** genomför **uppdrag** som ger värdefulla **resurser**. | Godkänd |
+| 21564 | To **create** and prepare your first Company: | Så här **skapar** och förbereder du ditt första kompani: | Så här **skapar** och förbereder du din första trupp: | Godkänd |
+| 21566 | Click the **“Add a Company”** button on your **Castle Keep** and assign villagers. Be careful: **Combatants** are **dedicated for life**. | Klicka på knappen **”Lägg till ett kompani”** på din **slottsborg** och tilldela bybor. Tänk på att **stridande** är **bundna för livet**. | Klicka på knappen **”Lägg till en trupp”** på **slottets huvudtorn** och tilldela bybor. Observera: **kämpar** är **bundna för livet**. | Godkänd efter kolonrättning |
+| 21568 | Store **weapons** to an **Armory** so your Combatants can equip themselves for combat. | Förvara **vapen** i ett **vapenförråd** så att dina stridande kan utrusta sig för strid. | Förvara **vapen** i ett **vapenförråd** så att dina kämpar kan utrusta sig för strid. | Godkänd |
+| 21570 | It is recommended to wait for your Combatants to be **fully trained** before sending them to **Missions**. | Vi rekommenderar att du väntar tills dina stridande är **fullt utbildade** innan du skickar dem på **uppdrag**. | Vi rekommenderar att du väntar tills dina kämpar är **fullt utbildade** innan du skickar dem på **uppdrag**. | Godkänd |
+| 21572 | **Assign** and **Deploy** your Company to a **Mission** using the **Army Book**. | **Tilldela** och **skicka ut** ditt kompani på ett **uppdrag** med hjälp av **arméboken**. | **Tilldela** och **skicka ut** din trupp på ett **uppdrag** med hjälp av **arméboken**. | Godkänd |
+| 21582 | **Fortification** is required by **Houses** to increase their **Density**, and by certain **Workplaces** to **function** properly. | **Befästning** krävs av **hus** för att öka deras **täthet**, och av vissa **arbetsplatser** för att **fungera** korrekt. | **Befästning** krävs av **hus** för att öka deras **boendetäthet**, och av vissa **arbetsplatser** för att **fungera** korrekt. | Godkänd |
+
+Slutvalidering: `l10n-lint --language sv` och `hunspell -d sv_SE` utan anmärkningar. Alla ändringar sparades i Crowdin med HTTP 201.
