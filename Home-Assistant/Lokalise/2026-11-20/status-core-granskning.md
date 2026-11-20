@@ -21,6 +21,7 @@ Senast uppdaterad: 2026-11-20.
 | Nyckel | Status | Nästa säkra kontroll |
 | --- | --- | --- |
 | Nya tomma HotSpring-poster och följdposter | 14 förslag dokumenterade utan Lokalise-skrivning. | Kontrollera att HotSpring-källan publicerats i Core före ett eventuellt sparbeslut. |
+| `component::hotspring` | De första 30 Lokalise-träffarna är kontrollerade; ett tydligt ändringsförslag och två produkttermsberoenden är dokumenterade. | Dela upp komponenten i smalare Lokalise-sökningar för att komma förbi resultattaket på 30. |
 | `component::timer_list` | Alla 61 aktuella, tomma strängar är granskade mot Core-källan och dokumenterade som förslag. | Komponenten kan återkontrolleras vid källändring; fortsätt i Lokalise med nästa oavgranskade komponent. |
 | 197 historiska TMX-enheter | Strukturellt giltiga men saknar Lokalise-ID i `tuid`. | Slå upp varje fullständig `source`-nyckel via Lokalise-API:t och ersätt `tuid` först efter en unik matchning. |
 
@@ -46,5 +47,6 @@ Den tidigare autentiserade Lokalise-sessionen och dess API-hjälpare återställ
 - [Sparade ändringar på sidor 727–730](sparade-andringar-sidor-727-730.md)
 - [Sida 731: granskning och kvarstående verifiering](granskning-sida-731-logbook-script.md)
 - [Nya tomma HotSpring-strängar och följdposter](granskning-nya-tomma-strangar-hotspring.md)
+- [HotSpring: befintliga svenska strängar](granskning-hotspring-befintliga-strangar.md)
 - [Timer list: fortsatt granskning av tomma strängar](granskning-timer-list-fortsattning.md)
 - [Timer list: återstående granskade tjänststrängar](granskning-timer-list-tjanster.md)
