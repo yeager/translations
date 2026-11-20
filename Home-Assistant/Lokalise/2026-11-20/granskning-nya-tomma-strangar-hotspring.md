@@ -26,6 +26,7 @@ Datum: 2026-11-20. Granskning mot den aktuella, skrivskyddade Lokalise-vyn. Samt
 - Lokalise visade nycklarna som nya, tomma svenska poster med nyckel-ID:n 984458727–984458735 (HotSpring), 984451507 (Evohome), 984279362–984279363 (Tankerkoenig) och 984043161–984043162 (Timer list).
 - Aktuell Core-källa bekräftar Tankerkoenig- och Timer list-källtexterna. HotSpring-posterna finns i Lokalise men inte i Core-commit `3d340fb5fdf03e7db48b45aec10f9b8da3b31c12`; de behandlas därför som importerade, ännu ej publicerade källsträngar och är markerade för ny källkontroll före eventuell sparning.
 - `swedish-tm` har flera tidigare, kontextuella poster som översätter *apparent power* till *skenbar effekt*. Hunspell godkänner beståndsdelarna i de svenska förslagen; inga nya generella ord behöver läggas till i ordboken.
+- `svlang` gav 10/10 i naturlighetsheuristiken för `Skenbar effekt för jet 1, 2 och fläkt.` och fann inga skrivregelsfel i felmeddelandet. Dessutom fann `check` inga problem i Tankerkoenig-beskrivningen. Resultaten är granskningsstöd, inte ett ersättningsbeslut för komponentkontexten.
 
 ## Uppföljning
 
