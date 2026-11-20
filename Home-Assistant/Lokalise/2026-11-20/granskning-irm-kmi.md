@@ -5,6 +5,7 @@ Datum: 2026-11-20. Komponenten granskas mot `origin/dev` i Home Assistant Core o
 | Fullständig nyckel | Engelsk källa | Svensk text | Status och motivering |
 | --- | --- | --- | --- |
 | `component::irm_kmi::entity::sensor::pollen_alder::name` | Alder pollen | Alpollen | Sparad och återläst i Lokalise (ID 984688749). Etablerad svensk sammansättning för pollenallergen. |
+| `component::irm_kmi::entity::sensor::pollen_alder::state::green` | Green | Grön | Sparad och återläst i Lokalise (ID 984688751). Grundtillstånd för de refererande pollenraderna. |
 
 ## Pågående täckning
 
