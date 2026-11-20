@@ -6,7 +6,7 @@ Datum: 2026-11-20. Alternativ, tjänst och återstående entiteter kontrollerade
 
 | Fullständig nyckel | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- |
-| `component::ezviz::entity::image::last_motion_image::name` | Sista rörliga bilden | Senaste rörelsebilden | *Motion image* är bilden från den senaste rörelsehändelsen, inte en animerad/rörlig bild. |
+| `component::ezviz::entity::image::last_motion_image::name` | Sista rörliga bilden | Senaste rörelsebilden — **sparad och återläst i Lokalise** | *Motion image* är bilden från den senaste rörelsehändelsen, inte en animerad/rörlig bild. |
 
 ## Bedömda utan ändringsförslag
 
@@ -18,4 +18,4 @@ Den äldre tjänsten `set_alarm_detection_sensibility` med sex följdrader sakna
 
 ## Validering och minneshantering
 
-`svlang skrivregler` och `hunspell -d sv_SE -l` accepterar `Senaste rörelsebilden`. Ingen Lokalise-skrivning har gjorts; förslaget är inte infört i HA-TMX-minnet.
+`svlang skrivregler` och `hunspell -d sv_SE -l` accepterar `Senaste rörelsebilden`. Ändringen sparades och återlästes i Lokalise 2026-11-20 och har förts in i det kanoniska HA-TMX-minnet med statusen `saved-and-read-back`.
