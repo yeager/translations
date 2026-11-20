@@ -25,6 +25,7 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043144 | `component::timer_list::services::subtract_time::fields::timer_id::name` | Timer ID | Timer-ID |
 | 984043143 | `component::timer_list::services::subtract_time::fields::timer_id::description` | The id of the timer to subtract time from. | ID:t för timern som tiden ska dras av från. |
 | 984043142 | `component::timer_list::services::subtract_time::fields::duration::name` | Duration | Varaktighet |
+| 984043141 | `component::timer_list::services::subtract_time::fields::duration::description` | How much time to subtract from the timer. | Den tid som ska dras av från timern. |
 
 Båda värdena sparades från de tidigare dokumenterade förslagen och lästes
 tillbaka direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
