@@ -14,6 +14,9 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::config::step::user::data::address` | `[%key:common::config_flow::data::device%]` | Oförändrad | Granskad i Lokalise (ID 511674994); korrekt Core-referens. |
 | `component::iron_os::config::step::user::data_description::address` | Bluetooth-anvisning | Oförändrad | Granskad i Lokalise (ID 570330581); idiomatisk och komplett. |
 | `component::iron_os::config::step::user::description` | `[%key:component::bluetooth::config::step::user::description%]` | Oförändrad | Granskad i Lokalise (ID 511674995); korrekt Core-referens. |
+| `component::iron_os::config::error::cannot_connect` | `[%key:common::config_flow::error::cannot_connect%]` | Oförändrad | Granskad i Lokalise (ID 641222256); korrekt Core-referens. |
+| `component::iron_os::config::error::unknown` | `[%key:common::config_flow::error::unknown%]` | Oförändrad | Granskad i Lokalise (ID 641222257); korrekt Core-referens. |
+| `component::iron_os::entity::binary_sensor::tip_connected::name` | `Soldering tip` | `Lödspets` | Granskad i Lokalise (ID 575468261); korrekt fackterm. |
 
 ## Pågående täckning
 
