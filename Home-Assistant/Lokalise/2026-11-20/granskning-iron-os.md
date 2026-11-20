@@ -31,6 +31,7 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::number::min_voltage_per_cell::name` | `Min. voltage per cell` | `Minsta spänning per cell` | Förkortningen expanderad till tydlig svensk reglageetikett; sparad och återläst i Lokalise (ID 572443012). |
 | `component::iron_os::entity::number::pd_timeout::name` | `Power Delivery timeout` | `Tidsgräns för Power Delivery` | Ändrad från hybridterm till konsekvent svensk reglageetikett; sparad och återläst i Lokalise (ID 572443013). |
 | `component::iron_os::entity::number::power_limit::name` | `Power limit` | `Effektgräns` | Granskad i Lokalise (ID 572443014); korrekt svensk teknisk sammansättning. |
+| `component::iron_os::entity::number::qc_max_voltage::name` | `Quick Charge voltage` | `Quick Charge-spänning` | Granskad i Lokalise (ID 572443015); produktnamnet bevaras och svensk sammansättning är korrekt. |
 
 ## Pågående täckning
 
