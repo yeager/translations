@@ -14,7 +14,7 @@ Datum: 2026-11-20. Lokalise visade samtliga rader nedan som tomma på svenska. K
 | `component::timer_list::triggers::timer_created::description` | Triggers when a timer is created on a timer list. | Utlöses när en timer skapas i en timerlista. | Samma term som rubriken. |
 | `component::timer_list::triggers::timer_cancelled::name` | Timer cancelled | Timer avbruten | Svensk händelseform för en avbruten timer. |
 | `component::timer_list::triggers::timer_cancelled::description` | Triggers when a timer is cancelled on a timer list. | Utlöses när en timer avbryts i en timerlista. | Samma term som rubriken. |
-| `component::timer_list::title` | Timer list | Timerlista | Sammanhållen komponenttitel. |
+| `component::timer_list::title` | Timer list | Timerlista — **sparad och återläst i Lokalise** | Sammanhållen komponenttitel. |
 | `component::timer_list::services::unpause_timer::name` | Resume timer | Återuppta timer | Imperativ åtgärdsform för tjänstnamn. |
 | `component::timer_list::services::unpause_timer::fields::timer_id::name` | Timer ID | Timer-ID | Standardiserad etikett med bindestreck. |
 | `component::timer_list::services::unpause_timer::fields::timer_id::description` | The id of the timer to resume. | ID:t för timern som ska återupptas. | Korrekt svensk böjning av ID. |
