@@ -68,6 +68,7 @@ Datum: 2026-11-20. Komponenten granskas mot `origin/dev` i Home Assistant Core o
 | `component::irm_kmi::config::abort::already_configured` | `Platsen är redan konfigurerad` | `[%key:common::config_flow::abort::already_configured_location%]` | Gemensam Core-referens återställd och återläst i Lokalise (ID 714799465). |
 | `component::irm_kmi::config::abort::api_error` | `Misslyckades med att ansluta` | `[%key:common::config_flow::error::cannot_connect%]` | Gemensam Core-referens återställd och återläst i Lokalise (ID 714799466). |
 | `component::irm_kmi::config::abort::unknown` | `Oväntat fel` | `[%key:common::config_flow::error::unknown%]` | Gemensam Core-referens återställd och återläst i Lokalise (ID 714799467). |
+| `component::irm_kmi::config::step::user::data::location` | `Plats` | `[%key:common::config_flow::data::location%]` | Gemensam Core-referens återställd och återläst i Lokalise (ID 714799469). |
 
 ## Pågående täckning
 
