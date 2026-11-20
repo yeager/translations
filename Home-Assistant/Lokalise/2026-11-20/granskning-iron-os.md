@@ -46,6 +46,9 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::select::animation_speed::state::off` | `[%key:common::state::off%]` | Oförändrad | Granskad i Lokalise (ID 580407940); korrekt Core-referens till avstängt läge. |
 | `component::iron_os::entity::select::animation_speed::state::slow` | `[%key:component::iron_os::common::slow%]` | Oförändrad | Granskad i Lokalise (ID 580407941); korrekt referens till den verifierade gemensamma hastighetstermen `Långsam`. |
 | `component::iron_os::entity::select::autostart_mode::state::sleeping` | `Sleeping mode` | `Viloläge` | Ändrad från det oidiomatiska `Sovläge` till etablerad Home Assistant-term; sparad och återläst i Lokalise (ID 580407945). |
+| `component::iron_os::entity::select::autostart_mode::state::disabled` | `[%key:common::state::disabled%]` | Oförändrad | Granskad i Lokalise (ID 580407943); korrekt Core-referens till inaktiverat läge. |
+| `component::iron_os::entity::select::autostart_mode::state::idle` | `Idle mode` | `Inaktivt läge` | Granskad i Lokalise (ID 580407944); korrekt och tydligt för ett startläge. |
+| `component::iron_os::entity::select::autostart_mode::state::soldering` | `Soldering mode` | `Lödningsläge` | Granskad i Lokalise (ID 580407946); korrekt svensk sammansättning. |
 
 ## Pågående täckning
 
