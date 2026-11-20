@@ -44,6 +44,7 @@ Senast uppdaterad: 2026-11-20.
 | `component::medcom_ble` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; ett osäkert CPM-terminologiförslag är dokumenterat och en äldre Lokalise-rad är markerad som historisk. | Jämför CPM-termen med produktdokumentation före eventuell Lokalise-skrivning. |
 | `component::ourgroceries` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; två förslag återställer obligatoriska referenser. | Förslagen ska läsas tillbaka före eventuell TMX-synkning. |
 | `component::pglab` | Alla 9 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag; en äldre Lokalise-rad är markerad som historisk. | Komponenten kan återkontrolleras vid källändring. |
+| `component::private_ble_device` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; två språkförslag är dokumenterade. | Komponenten kan återkontrolleras vid källändring; förslagen ska läsas tillbaka före eventuell TMX-synkning. |
 | 197 historiska TMX-enheter | Strukturellt giltiga men saknar Lokalise-ID i `tuid`. | Slå upp varje fullständig `source`-nyckel via Lokalise-API:t och ersätt `tuid` först efter en unik matchning. |
 
 ## Miljöstatus
@@ -95,5 +96,6 @@ Den tidigare autentiserade Lokalise-sessionen och dess API-hjälpare återställ
 - [Medcom BLE](granskning-medcom-ble.md)
 - [OurGroceries](granskning-ourgroceries.md)
 - [PG LAB Electronics](granskning-pglab.md)
+- [Private BLE Device](granskning-private-ble-device.md)
 - [Timer list: fortsatt granskning av tomma strängar](granskning-timer-list-fortsattning.md)
 - [Timer list: återstående granskade tjänststrängar](granskning-timer-list-tjanster.md)
