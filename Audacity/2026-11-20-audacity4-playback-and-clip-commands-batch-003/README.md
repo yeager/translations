@@ -20,7 +20,7 @@ Radgranskning av Qt TS-katalogen `audacity4-sv-review-batch-002-20261120.ts`.
 | `At zero crossings` | `Vid nollgenomgångar` | `trackeditcommandsregister.cpp:476` |
 | `Split track` | `Dela spår` | `trackeditcommandsregister.cpp:804` |
 
-Alla sjuttionio var oöversatta i den aktuella Qt-katalogen. Formuleringarna följer
+Alla etthundrasex var oöversatta i den aktuella Qt-katalogen. Formuleringarna följer
 Audacitys etablerade termer `klipp`, `spår` och `spelområde` och är korta
 kommandoetiketter enligt respektive källkommentar.
 
@@ -70,12 +70,19 @@ Effekten översätts konsekvent som `Automatisk duckning`, medan dess etablerade
 tekniska funktion förklaras med `Kontrollspår`, `Nivåsänkning` och `Hålltid`.
 Platshållaren `%1` är bibehållen exakt.
 
+## Makrohanteraren
+
+27 oöversatta strängar för att redigera, köra, flytta, exportera och ta bort
+makron har kompletterats. Alla `%1`-platshållare och typografiska citattecken
+har bevarats, och makrorelaterade meny- och tabellrubriker använder konsekvent
+`makro`, `makron` och `makrokommando`.
+
 ## Verifiering
 
 - `xmllint --noout` godkände den ändrade TS-filen.
 - Källplats, platsmarkörer och TS-struktur kontrollerades för varje post; inga
   platshållare förekommer i denna batch.
 - Aktuell arbetskopia efter batchen: SHA-256
-  `ccdfea56faa4b83e11efd7e36f33e4b15e6dd80c170783597cc040b514a343e4`.
+  `fe7460407dec558f071335f293c599e5e4ff62e4eecd9ceed2036a38eec1c240`.
 - `lrelease` saknas i den här miljön, så QM-kompilering har inte påståtts vara
   genomförd.
