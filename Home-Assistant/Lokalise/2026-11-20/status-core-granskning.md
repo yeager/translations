@@ -41,6 +41,7 @@ Senast uppdaterad: 2026-11-20.
 | `component::energenie_power_sockets` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; ett ändringsförslag är dokumenterat. | Komponenten kan återkontrolleras vid källändring; förslaget ska läsas tillbaka före eventuell TMX-synkning. |
 | `component::eufylife_ble` | Alla 9 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag; två äldre Lokalise-rader är markerade som historiska. | Komponenten kan återkontrolleras vid källändring. |
 | `component::igloohome` | Alla 9 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
+| `component::medcom_ble` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; ett osäkert CPM-terminologiförslag är dokumenterat och en äldre Lokalise-rad är markerad som historisk. | Jämför CPM-termen med produktdokumentation före eventuell Lokalise-skrivning. |
 | 197 historiska TMX-enheter | Strukturellt giltiga men saknar Lokalise-ID i `tuid`. | Slå upp varje fullständig `source`-nyckel via Lokalise-API:t och ersätt `tuid` först efter en unik matchning. |
 
 ## Miljöstatus
@@ -89,5 +90,6 @@ Den tidigare autentiserade Lokalise-sessionen och dess API-hjälpare återställ
 - [Energenie Power Sockets](granskning-energenie-power-sockets.md)
 - [EufyLife BLE](granskning-eufylife-ble.md)
 - [igloohome](granskning-igloohome.md)
+- [Medcom BLE](granskning-medcom-ble.md)
 - [Timer list: fortsatt granskning av tomma strängar](granskning-timer-list-fortsattning.md)
 - [Timer list: återstående granskade tjänststrängar](granskning-timer-list-tjanster.md)
