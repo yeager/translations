@@ -20,9 +20,32 @@ Radgranskning av Qt TS-katalogen `audacity4-sv-review-batch-002-20261120.ts`.
 | `At zero crossings` | `Vid nollgenomgångar` | `trackeditcommandsregister.cpp:476` |
 | `Split track` | `Dela spår` | `trackeditcommandsregister.cpp:804` |
 
-Alla femton var oöversatta i den aktuella Qt-katalogen. Formuleringarna följer
+Alla trettiosju var oöversatta i den aktuella Qt-katalogen. Formuleringarna följer
 Audacitys etablerade termer `klipp`, `spår` och `spelområde` och är korta
 kommandoetiketter enligt respektive källkommentar.
+
+## Fortsatt radgranskning
+
+Ytterligare 22 oöversatta kommando- och hjälptexter granskades i samma
+katalog. De omfattar linjalens och tidslinjens snabbmenyer, effektkommandon,
+inställningsgenvägar, molnprojekt, FFmpeg-export, rullning och uppspelning.
+De nya översättningarna är: `Öppna linjalens snabbmeny`, `Använd %1`,
+`Konfigurera %1`, `Om Qt`, `Be om hjälp`, `Öppna inställningarna för
+kortkommandon`, `Öppna redigeringsinställningarna`, `Öppna
+spektrograminställningarna`, `Visa/dölj makrohanteraren`, `Öppna rundturen på
+audio.com och logga in först vid behov`, `Öppna den inloggade användarens
+profilsida på audio.com`, `Hantera en audacity://-URL`, `Öppna molnprojekt`,
+`Importera mediefiler till ett nytt projekt`, `Öppna de anpassade
+exportalternativen för FFmpeg`, `Öppna anpassad kanalmappning för export`,
+`Rulla tidslinjen åt vänster en skärmbredd`, `Rulla tidslinjen åt höger en
+skärmbredd`, `Öppna tidslinjens snabbmeny`, `Spela upp de angivna spåren`,
+`Flytta spelhuvudet till angiven tid` och `Ändra spelområdet`.
+
+`%1` har kontrollerats och bibehållits. `swedish-foss-terminology` och
+`swedish-tm` ger stöd för `Konfigurera %1`; övriga val har kontrollerats mot
+Audacitys källkontext. Hunspell markerar enbart egennamn och etablerade
+produktnamn i det här tillskottet. `svlang` hittar inga nya mekaniska
+skrivregelfel; dess katalogomfattande signaler gäller äldre, ej ändrade poster.
 
 ## Verifiering
 
@@ -30,6 +53,6 @@ kommandoetiketter enligt respektive källkommentar.
 - Källplats, platsmarkörer och TS-struktur kontrollerades för varje post; inga
   platshållare förekommer i denna batch.
 - Aktuell arbetskopia efter batchen: SHA-256
-  `33bf0729c0b0e0347a03db4dd588c946717582cdbaab86caf7925b6badfd304b`.
+  `b7db93b13aeceeb6e540b915254836c7750b11d7d37ba48add0436a057798247`.
 - `lrelease` saknas i den här miljön, så QM-kompilering har inte påståtts vara
   genomförd.
