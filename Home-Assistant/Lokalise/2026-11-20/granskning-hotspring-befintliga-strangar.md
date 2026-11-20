@@ -6,7 +6,7 @@ Datum: 2026-11-20. Lokalise lästes i skrivskyddat läge. Den breda komponentfr�
 
 | Fullständig nyckel | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- |
-| `component::hotspring::exceptions::wrong_device::message` | Enheten på den angivna värden har MAC-adressen `{found}`, inte `{expected}`. | Enheten på den konfigurerade värden har MAC-adressen `{found}`, inte `{expected}`. | Källan säger *configured host*, inte *entered host*. Båda platshållarna bevaras. |
+| `component::hotspring::exceptions::wrong_device::message` | Enheten på den angivna värden har MAC-adressen `{found}`, inte `{expected}`. | Enheten på den konfigurerade värden har MAC-adressen `{found}`, inte `{expected}`. | Källan säger *configured host*, inte *entered host*. Båda platshållarna bevaras. Sparad och återläst i Lokalise (ID 980077629) efter kontroll mot den publicerade Core-källan. |
 
 ## Bedömda utan ändringsförslag
 
@@ -70,6 +70,6 @@ En separat Lokalise-sökning visade samtliga fem undantagsrader. De tre tidigare
 | `component::hotspring::exceptions::invalid_response::message` | Ogiltigt svar mottaget från Hot Spring API. | Ett ogiltigt svar mottogs från Hot Spring-API:t. | Fullständig och idiomatisk felmening; konsekvent svensk böjning av API-namnet. |
 | `component::hotspring::exceptions::cannot_connect::message` | Ett fel uppstod vid kommunikation med Hot Spring API. | — | Godtagbar feltext; ingen ändring föreslås utan publicerad källkontext för produktnamnets typografi. |
 
-`component::hotspring::exceptions::wrong_device::message` har det tidigare dokumenterade förslaget med *konfigurerade värden*. `timeout` och `spa_not_connected` behålls med den redan noterade produkttermuppföljningen.
+`component::hotspring::exceptions::wrong_device::message` är sparad och återläst med *konfigurerade värden* och oförändrade platshållare. `timeout` och `spa_not_connected` behålls med den redan noterade produkttermuppföljningen.
 
 `svlang skrivregler` fann inga fel i det nya förslaget och Hunspell accepterar `ogiltigt` och `mottogs`.
