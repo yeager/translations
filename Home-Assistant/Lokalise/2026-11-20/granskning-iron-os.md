@@ -119,6 +119,8 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::switch::animation_loop::name` | `Animation loop` | `Animeringsloop` | Granskad i Lokalise (ID 584023211); etablerad UI-term för upprepad animering. |
 | `component::iron_os::entity::switch::boost::name` | `Boost` | `Boost` | Granskad i Lokalise (ID 673842531); etablerat lägesnamn i lödningskontexten. |
 | `component::iron_os::entity::switch::calibrate_cjc::name` | `Calibrate CJC` | `Kalibrera CJC` | Granskad i Lokalise (ID 584023212); korrekt svensk uppmaning med bevarad teknisk förkortning. |
+| `component::iron_os::entity::switch::cooling_temp_blink::name` | `Cool down screen flashing` | `Nedkylningsskärm blinkar` | Granskad i Lokalise (ID 584023213); korrekt funktionstext för den aktiverbara indikeringen. |
+| `component::iron_os::entity::switch::display_invert::name` | `Invert screen` | `Invertera skärm` | Granskad i Lokalise (ID 584023214); korrekt teknisk UI-uppmaning. |
 
 ## Pågående täckning
 
