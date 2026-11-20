@@ -45,6 +45,7 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::select::animation_speed::state::medium` | `[%key:common::state::medium%]` | Oförändrad | Granskad i Lokalise (ID 580407939); korrekt Core-referens till medelhastighet. |
 | `component::iron_os::entity::select::animation_speed::state::off` | `[%key:common::state::off%]` | Oförändrad | Granskad i Lokalise (ID 580407940); korrekt Core-referens till avstängt läge. |
 | `component::iron_os::entity::select::animation_speed::state::slow` | `[%key:component::iron_os::common::slow%]` | Oförändrad | Granskad i Lokalise (ID 580407941); korrekt referens till den verifierade gemensamma hastighetstermen `Långsam`. |
+| `component::iron_os::entity::select::autostart_mode::state::sleeping` | `Sleeping mode` | `Viloläge` | Ändrad från det oidiomatiska `Sovläge` till etablerad Home Assistant-term; sparad och återläst i Lokalise (ID 580407945). |
 
 ## Pågående täckning
 
