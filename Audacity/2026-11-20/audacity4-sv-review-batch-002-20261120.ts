@@ -17753,7 +17753,7 @@ Den kommer inte att läsas in.</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SoundActivatedRecordingSection.qml" line="15"/>
         <source>Sound activated recording</source>
-        <translation type="unfinished"/>
+        <translation>Ljudaktiverad inspelning</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/SoundActivatedRecordingSection.qml" line="22"/>
@@ -17768,17 +17768,17 @@ Den kommer inte att läsas in.</translation>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/TrackDisplaySection.qml" line="33"/>
         <source>Default track visualization</source>
-        <translation type="unfinished"/>
+        <translation>Standardvisning för spår</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/TrackDisplaySection.qml" line="56"/>
         <source>Default ruler format</source>
-        <translation type="unfinished"/>
+        <translation>Standardformat för linjal</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/internal/TrackDisplaySection.qml" line="85"/>
         <source>Default audio track name</source>
-        <translation type="unfinished"/>
+        <translation>Standardnamn för ljudspår</translation>
     </message>
     <message>
         <location filename="../../src/preferences/qml/Audacity/Preferences/trackspreferencesmodel.cpp" line="65"/>
@@ -18319,25 +18319,27 @@ Du kan hantera filen från sidan med uppdaterade projekt på audio.com</translat
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="987"/>
         <source>Use default location</source>
-        <translation type="unfinished"/>
+        <translation>Använd standardplatsen</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="990"/>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1005"/>
         <source>Could not create a new project</source>
-        <translation type="unfinished"/>
+        <translation>Kunde inte skapa ett nytt projekt</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="991"/>
         <source>The temporary files location is not accessible: %1
 
 Use the default location instead? It can be changed later in Preferences.</source>
-        <translation type="unfinished"/>
+        <translation>Platsen för tillfälliga filer är inte tillgänglig: %1
+
+Använd standardplatsen i stället? Den kan ändras senare i Inställningar.</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1006"/>
         <source>Make sure the temporary files location is accessible: %1</source>
-        <translation type="unfinished"/>
+        <translation>Kontrollera att platsen för tillfälliga filer är tillgänglig: %1</translation>
     </message>
     <message>
         <location filename="../../src/project/internal/projectactionscontroller.cpp" line="1090"/>
@@ -19907,7 +19909,7 @@ Försök igen med ett annat namn.</translation>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/tracksitemsview/VerticalRulersPanel.qml" line="93"/>
         <source>Track %1: %2, vertical ruler</source>
-        <translation type="unfinished"/>
+        <translation>Spår %1: %2, vertikal linjal</translation>
     </message>
     <message>
         <location filename="../../src/projectscene/qml/Audacity/ProjectScene/trackspanel/audio/PanKnob.qml" line="29"/>
