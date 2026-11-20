@@ -57,6 +57,7 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043112 | `component::timer_list::services::add_time::fields::timer_id::name` | Timer ID | Timer-ID |
 | 984043111 | `component::timer_list::services::add_time::fields::timer_id::description` | The id of the timer to add time to. | ID:t för timern vars tid ska utökas. |
 | 984043110 | `component::timer_list::services::add_time::fields::duration::name` | Duration | Varaktighet |
+| 984043109 | `component::timer_list::services::add_time::fields::duration::description` | How much time to add to the timer. | Hur mycket tid som ska läggas till på timern. |
 
 Varje värde sparades från ett tidigare dokumenterat förslag och lästes tillbaka
 direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
