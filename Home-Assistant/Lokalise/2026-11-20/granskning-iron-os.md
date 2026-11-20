@@ -25,6 +25,7 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::number::display_brightness::name` | `Display brightness` | `Skärmens ljusstyrka` | Granskad i Lokalise (ID 572443007); korrekt och idiomatisk etikett. |
 | `component::iron_os::entity::number::hall_effect_sleep_time::name` | `Hall sensor sleep timeout` | `Tidsgräns för Hallsensorns viloläge` | Ändrad från blandad svensk–engelsk text till komplett svensk facketikett; sparad och återläst i Lokalise (ID 616289597). |
 | `component::iron_os::entity::number::hall_sensitivity::name` | `Hall effect sensitivity` | `Halleffektkänslighet` | Ändrad från särskriven text med felaktig versalisering till korrekt svensk sammansättning; sparad och återläst i Lokalise (ID 572443008). |
+| `component::iron_os::entity::number::keep_awake_pulse_delay::name` | `Keep-awake pulse delay` | `Fördröjning för vakenhållningspuls` | Ändrad från en ofullständig ord-för-ord-konstruktion till svensk reglageetikett; sparad och återläst i Lokalise (ID 572443009). |
 
 ## Pågående täckning
 
