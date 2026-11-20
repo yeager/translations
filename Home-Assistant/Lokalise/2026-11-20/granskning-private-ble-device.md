@@ -2,14 +2,14 @@
 
 Datum: 2026-11-20  
 Källa: Home Assistant Core `3d340fb5fdf03e7db48b45aec10f9b8da3b31c12`, `homeassistant/components/private_ble_device/strings.json`  
-Lokalise: läsning av `component::private_ble_device`; inga skrivningar har gjorts.
+Lokalise: de två angivna ändringarna sparades och lästes tillbaka 2026-11-20.
 
 ## Ändringsförslag
 
 | Nyckel | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- |
-| `component::private_ble_device::config::step::user::description` | `Den IRK-nyckel (Identity Resolving Key) för den BLE-enhet som du vill spåra.` | `Vad är IRK-nyckeln (Identity Resolving Key) för BLE-enheten som du vill spåra?` | Källan är en fråga. Befintlig svenska är ett ofullständigt nominalt fragment; förslaget ger en fullständig och naturlig fråga. |
-| `component::private_ble_device::config::error::irk_not_found` | `Den IRK som tillhandahålls matchar inte några BLE-enheter som Home Assistant kan se.` | `Den angivna IRK:n matchar inte någon BLE-enhet som Home Assistant kan se.` | Förslaget ersätter en onödigt passiv omskrivning med etablerad svensk böjning av förkortningen och gör mängdangivelsen idiomatisk. |
+| `component::private_ble_device::config::step::user::description` | `Den IRK-nyckel (Identity Resolving Key) för den BLE-enhet som du vill spåra.` | `Vad är IRK-nyckeln (Identity Resolving Key) för BLE-enheten som du vill spåra?` | Sparad och återläst i Lokalise. Källan är en fråga och den tidigare svenska texten var ett ofullständigt nominalt fragment. |
+| `component::private_ble_device::config::error::irk_not_found` | `Den IRK som tillhandahålls matchar inte några BLE-enheter som Home Assistant kan se.` | `Den angivna IRK:n matchar inte någon BLE-enhet som Home Assistant kan se.` | Sparad och återläst i Lokalise. Förslaget använder etablerad svensk böjning av förkortningen och idiomatisk mängdangivelse. |
 
 ## Kontroll utan förslag
 
@@ -21,5 +21,6 @@ förkortningar, engelska expansionsord och produktnamnet Home Assistant.
 
 ## TMX och Lokalise
 
-Förslagen är lokala och ännu inte sparade i Lokalise. Home Assistant-TMX:en
-ändras därför inte.
+De två sparade och återlästa värdena är införda i den kanoniska Home
+Assistant-TMX:en med fullständig nyckel, källproveniens och statusen
+`saved-and-read-back`.
