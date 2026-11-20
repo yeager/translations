@@ -54,6 +54,7 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043115 | `component::timer_list::services::cancel_timer::fields::timer_id::description` | The id of the timer to cancel. | ID:t för timern som ska avbrytas. |
 | 984043114 | `component::timer_list::services::cancel_timer::description` | Cancels a timer without finishing it. | Avbryter en timer utan att avsluta den. |
 | 984043113 | `component::timer_list::services::add_time::name` | Add time | Lägg till tid |
+| 984043112 | `component::timer_list::services::add_time::fields::timer_id::name` | Timer ID | Timer-ID |
 
 Varje värde sparades från ett tidigare dokumenterat förslag och lästes tillbaka
 direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
