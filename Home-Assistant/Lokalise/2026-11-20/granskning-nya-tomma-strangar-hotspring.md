@@ -1,12 +1,12 @@
 # Home Assistant Core – nya tomma strängar: HotSpring med följdposter
 
-Datum: 2026-11-20. Granskning mot den aktuella, skrivskyddade Lokalise-vyn. Samtliga nedanstående svenska målvärden är tomma. Detta är dokumenterade förslag och **inte** ändringar i Lokalise.
+Datum: 2026-11-20. Granskning mot Lokalise och aktuell Core-källa. Raden `total_power` sparades och återlästes 2026-11-20; återstående rader är dokumenterade förslag.
 
 ## Förslag
 
 | Fullständig nyckel | Engelsk källtext | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- |
-| `component::hotspring::entity::sensor::total_power::name` | Total apparent power | Total skenbar effekt | Befintligt Home Assistant-minne använder *skenbar effekt* för *apparent power*. |
+| `component::hotspring::entity::sensor::total_power::name` | Total apparent power | Total skenbar effekt | Sparad och återläst i Lokalise (ID 984458735); Home Assistant-minnet använder *skenbar effekt* för *apparent power*. |
 | `component::hotspring::entity::sensor::small_loads_power::name` | Small loads apparent power | Skenbar effekt för små laster | Teknisk ordföljd och facktermen *skenbar effekt*. |
 | `component::hotspring::entity::sensor::small_loads_current::name` | Small loads current | Ström för små laster | Samma termstruktur som effektvärdet. |
 | `component::hotspring::entity::sensor::jet3_power::name` | Jet 3 apparent power | Skenbar effekt för jet 3 | Behåller komponentnamnet *jet* och översätter mätvärdet. |

@@ -22,7 +22,7 @@ Senast uppdaterad: 2026-11-20.
 
 | Nyckel | Status | Nästa säkra kontroll |
 | --- | --- | --- |
-| Nya tomma HotSpring-poster och följdposter | 14 förslag dokumenterade utan Lokalise-skrivning. | Kontrollera att HotSpring-källan publicerats i Core före ett eventuellt sparbeslut. |
+| Nya tomma HotSpring-poster och följdposter | HotSpring-källan är nu publicerad i Core (`67a75a0a`); `total_power` är sparad och återläst. 13 tidigare förslag återstår. | Fortsätt med HotSpring-sensorn `small_loads_power`. |
 | `component::hotspring` | Alla 50 aktuella nycklar är granskade genom smalare Lokalise-sökningar; fyra ändringsförslag och produkttermsberoenden är dokumenterade. | Återkontrollera mot publicerad Core-källa innan ett eventuellt sparbeslut. |
 | `component::timer_list` | Alla 61 aktuella strängar är granskade mot Core-källan; komponenttiteln, dess referens, sex kompletta triggerpar, samtliga tjänster, statusval och felmeddelandet för okänt timer-ID är sparade och återlästa. | Komponenten kan återkontrolleras vid källändring. |
 | `component::evohome` | Alla **36** aktuella källsträngar har kontrollerats mot Core-källan; tre ändringar är sparade och återlästa i Lokalise, och en tom rad har ett äldre, odubblerat förslag. | Lokalise innehåller även historiska nycklar som inte motsvarar aktuell Core-källa; den tomma raden kan sparas efter separat kontroll. |
