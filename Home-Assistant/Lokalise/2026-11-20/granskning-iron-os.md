@@ -32,6 +32,8 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::number::pd_timeout::name` | `Power Delivery timeout` | `Tidsgräns för Power Delivery` | Ändrad från hybridterm till konsekvent svensk reglageetikett; sparad och återläst i Lokalise (ID 572443013). |
 | `component::iron_os::entity::number::power_limit::name` | `Power limit` | `Effektgräns` | Granskad i Lokalise (ID 572443014); korrekt svensk teknisk sammansättning. |
 | `component::iron_os::entity::number::qc_max_voltage::name` | `Quick Charge voltage` | `Quick Charge-spänning` | Granskad i Lokalise (ID 572443015); produktnamnet bevaras och svensk sammansättning är korrekt. |
+| `component::iron_os::entity::number::setpoint_temperature::name` | `Setpoint temperature` | `Börvärde för temperatur` | Granskad i Lokalise (ID 512732275); tydlig och korrekt svensk reglageetikett. |
+| `component::iron_os::entity::number::shutdown_timeout::name` | `Shutdown timeout` | `Tidsgräns för avstängning` | Ändrad från svensk–engelsk blandform till komplett svensk reglageetikett; sparad och återläst i Lokalise (ID 572443016). |
 
 ## Pågående täckning
 
