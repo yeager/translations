@@ -15602,7 +15602,7 @@ Dessutom har Mastering MuseScore en hjälpsam gemenskap bestående av musiker, m
     <message>
         <location filename="../../src/macromanager/qml/Audacity/MacroManager/macroactions.cpp" line="36"/>
         <source>The macro could not be renamed</source>
-        <translation>Makrot kunde inte byta namn</translation>
+        <translation>Det gick inte att byta namn på makrot</translation>
     </message>
     <message>
         <location filename="../../src/macromanager/qml/Audacity/MacroManager/macroactions.cpp" line="45"/>

@@ -82,3 +82,29 @@ verifierade mot den lokala, tidigare kontrollerade AU4-katalogen:
 - En sedan tidigare befintlig WavPack-rad med platshållaravvikelse upptäcktes
   i katalogens breda kontroll. Den har inte ändrats och hålls separat från
   denna batch för kontextgranskning.
+
+## Slutlig komplettering och radgranskning
+
+Den 20 november 2026 granskades även de återstående 227 AU4-meddelandena
+rad för rad utifrån TS-katalogens kontext och källreferenser. Tillsammans med batch 001 och 002 omfattar
+slutgranskningen 244 meddelanden som tidigare var oöversatta. Katalogen har
+nu 4 147 meddelanden, med 0 tomma översättningar och 0
+`type="unfinished"`-markeringar.
+
+- XML validerades med `xmllint --noout`.
+- Qt-pluralformer kontrollerades separat. De 10 pluralposterna har kompletta
+  svenska former; fyra tidsuttryck använder avsiktligt *i går/förra veckan*
+  i ental utan `%n`.
+- Platshållare (`%1`, `%L1`, `%n`) stämmer mot källan i samtliga granskade
+  meddelanden.
+- Ett tydligt språkfel rättades i `macromanager`: `The macro could not be
+  renamed` är nu `Det gick inte att byta namn på makrot`, i stället för den
+  felaktigt reflexiva formuleringen att makrot självt kunde byta namn.
+
+Slutlig arbetsfil och arkivkopia är byte-identiska efter rättelsen:
+
+`21478acdbec87eebb0546a350080d9c9bcc802c795ca1909ef00e296ef8202cb`
+
+Den korrigerade slutversionen är lokal och arkiverad. Den behöver laddas upp
+till Transifex AU4-resursen när den säkra API-sessionen är tillgänglig i den
+aktuella miljön.
