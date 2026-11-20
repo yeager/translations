@@ -89,6 +89,7 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::sensor::hall_sensor::name` | `Hall effect strength` | `Halleffektstyrka` | Granskad i Lokalise (ID 511674997); korrekt svensk sammansättning. |
 | `component::iron_os::entity::sensor::handle_temperature::name` | `Handle temperature` | `Handtagets temperatur` | Granskad i Lokalise (ID 511674998); korrekt svensk sensorbenämning. |
 | `component::iron_os::entity::sensor::live_temperature::name` | `Tip temperature` | `Spetstemperatur` | Granskad i Lokalise (ID 511674999); korrekt svensk sammansättning i lödningskontext. |
+| `component::iron_os::entity::sensor::max_tip_temp_ability::name` | `Max tip temperature` | `Maximal spetstemperatur` | Ändrad från förkortningen `Max` till komplett svensk sensorbenämning; sparad och återläst i Lokalise (ID 511675000). |
 
 ## Pågående täckning
 
