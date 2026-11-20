@@ -93,6 +93,8 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::sensor::movement_time::name` | `Last movement time` | `Tidpunkt för senaste rörelse` | Ändrad från ofullständiga `Senaste rörelse` så att tidsaspekten uttrycks; sparad och återläst i Lokalise (ID 511675001). |
 | `component::iron_os::entity::sensor::operating_mode::name` | `Operating mode` | `Driftläge` | Granskad i Lokalise (ID 511675002); etablerad svensk teknisk term. |
 | `component::iron_os::entity::sensor::operating_mode::state::boost` | `Boost` | `Boost` | Granskad i Lokalise (ID 511675003); etablerat lägesnamn i denna lödningskontext. |
+| `component::iron_os::entity::sensor::operating_mode::state::cjc_calibration` | `CJC calibration` | `CJC-kalibrering` | Granskad i Lokalise (ID 616289603); teknisk förkortning bevarad med korrekt svensk sammansättning. |
+| `component::iron_os::entity::sensor::operating_mode::state::debug` | `Debug` | `Debug` | Granskad i Lokalise (ID 511675004); etablerat tekniskt lägesnamn. |
 
 ## Pågående täckning
 
