@@ -80,6 +80,8 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::select::tip_type::name` | `Soldering tip type` | `Typ av lödspets` | Granskad i Lokalise (ID 616289598); korrekt svensk fackterm. |
 | `component::iron_os::entity::select::tip_type::state::auto` | `Auto sense` | `Automatisk avkänning` | Granskad i Lokalise (ID 616289599); korrekt funktionsterm. |
 | `component::iron_os::entity::select::tip_type::state::pine_short` | `Pinecil short tip` | `Pinecil kort lödspets` | Kompletterad med facktermen `lödspets`; sparad och återläst i Lokalise (ID 616289600). |
+| `component::iron_os::entity::select::tip_type::state::pts200` | `PTS200 short tip` | `PTS200 kort lödspets` | Kompletterad med facktermen `lödspets`; sparad och återläst i Lokalise (ID 616289601). |
+| `component::iron_os::entity::select::tip_type::state::ts100_long` | `TS100 long/Hakko T12 tip` | `TS100 lång lödspets/Hakko T12-lödspets` | Kompletterad med tydliga facktermer för båda spetsalternativen; sparad och återläst i Lokalise (ID 616289602). |
 
 ## Pågående täckning
 
