@@ -1,7 +1,7 @@
 # Home Assistant Core — granskning sida 479 (JVC Projector, ONVIF och DWD Weather Warnings)
 
 Datum: 2026-11-20  
-Status: dokumenterat förslag; **inte sparat i Lokalise**
+Status: sparat i Lokalise 2026-11-20
 
 ONVIF-källtexten kontrollerades mot `homeassistant/components/onvif/strings.json` på Home Assistant Cores `dev`-gren.
 
