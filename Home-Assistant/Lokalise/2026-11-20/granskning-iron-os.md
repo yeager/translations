@@ -108,6 +108,11 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::sensor::operating_mode::state::thermal_runaway` | `Thermal runaway` | `Termisk rusning` | Granskad i Lokalise (ID 616289610); korrekt svensk teknisk säkerhetsterm. |
 | `component::iron_os::entity::sensor::operating_mode::state::usb_pd_debug` | `USB PD debug` | `USB PD-felsökning` | Granskad i Lokalise (ID 616289611); standardförkortning bevarad och korrekt svensk sammansättning. |
 | `component::iron_os::entity::sensor::power_pwm_level::name` | `Power level` | `Effektnivå` | Granskad i Lokalise (ID 511675009); korrekt svensk teknisk term i UI-kontexten. |
+| `component::iron_os::entity::sensor::power_source::name` | `Power source` | `Strömkälla` | Granskad i Lokalise (ID 511675010); korrekt svensk teknisk term. |
+| `component::iron_os::entity::sensor::power_source::state::dc` | `DC input` | `DC-ingång` | Granskad i Lokalise (ID 511675011); korrekt sammansättning med etablerad förkortning. |
+| `component::iron_os::entity::sensor::power_source::state::pd` | `USB Power Delivery` | `USB Power Delivery` | Granskad i Lokalise (ID 511675012); standardnamnet ska behållas. |
+| `component::iron_os::entity::sensor::power_source::state::pd_vbus` | `USB PD VBUS` | `USB PD VBUS` | Granskad i Lokalise (ID 511675013); tekniskt standardnamn ska behållas. |
+| `component::iron_os::entity::sensor::power_source::state::qc` | `USB Quick Charge` | `USB Quick Charge` | Granskad i Lokalise (ID 511675014); produkt-/standardnamnet ska behållas. |
 
 ## Pågående täckning
 
