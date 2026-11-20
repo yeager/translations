@@ -1,7 +1,7 @@
 # Home Assistant Core — granskning sida 469 (PrusaLink och AccuWeather)
 
 Datum: 2026-11-20  
-Status: dokumenterade förslag; **inte sparade i Lokalise**
+Status: sparat i Lokalise 2026-11-20
 
 PrusaLink-källtexten kontrollerades mot `homeassistant/components/prusalink/strings.json` på Home Assistant Cores `dev`-gren.
 
