@@ -13,6 +13,7 @@ Datum: 2026-11-20. Komponenten granskas mot `origin/dev` i Home Assistant Core o
 | `component::irm_kmi::entity::sensor::pollen_alder::state::yellow` | Yellow | Gul | Sparad och återläst i Lokalise (ID 984688756). Grundtillstånd för de refererande pollenraderna. |
 | `component::irm_kmi::entity::sensor::pollen_alder::state::active` | `[%key:common::state::active%]` | `[%key:common::state::active%]` | Referens återställd och återläst i Lokalise (ID 984688750); undviker att duplicera den gemensamma strängen. |
 | `component::irm_kmi::entity::sensor::pollen_birch::name` | Birch pollen | Björkpollen | Sparad och återläst i Lokalise (ID 984688765). Etablerad svensk sammansättning för pollenallergen. |
+| `component::irm_kmi::entity::sensor::pollen_ash::name` | Ash pollen | Askpollen | Sparad och återläst i Lokalise (ID 984688757). Etablerad svensk sammansättning för pollenallergen. |
 
 ## Pågående täckning
 
