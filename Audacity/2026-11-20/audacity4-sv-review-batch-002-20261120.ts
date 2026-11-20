@@ -20045,7 +20045,7 @@ Anslut en inmatningsenhet och sök igen.</translation>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/SoundActivationLevelControl.qml" line="70"/>
         <source>Activation level</source>
-        <translation type="unfinished"/>
+        <translation>Aktiveringsnivå</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/SoundActivationLevelDialog.qml" line="15"/>
@@ -20068,7 +20068,7 @@ Anslut en inmatningsenhet och sök igen.</translation>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/TimedRecordingDialog.qml" line="170"/>
         <source>Date</source>
-        <translation type="unfinished"/>
+        <translation>Datum</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/TimedRecordingDialog.qml" line="187"/>
@@ -20078,33 +20078,33 @@ Anslut en inmatningsenhet och sök igen.</translation>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/TimedRecordingDialog.qml" line="318"/>
         <source>Start recording</source>
-        <translation type="unfinished"/>
+        <translation>Starta inspelning</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/TimedRecordingDialog.qml" line="325"/>
         <source>Now</source>
-        <translation type="unfinished"/>
+        <translation>Nu</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/TimedRecordingDialog.qml" line="337"/>
         <location filename="../../src/record/qml/Audacity/Record/TimedRecordingDialog.qml" line="396"/>
         <source>At a time</source>
-        <translation type="unfinished"/>
+        <translation>Vid en tidpunkt</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/TimedRecordingDialog.qml" line="377"/>
         <source>End recording</source>
-        <translation type="unfinished"/>
+        <translation>Avsluta inspelning</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/TimedRecordingDialog.qml" line="384"/>
         <source>For a duration</source>
-        <translation type="unfinished"/>
+        <translation>Efter en tidsperiod</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/TimedRecordingDialog.qml" line="474"/>
         <source>When recording is done</source>
-        <translation type="unfinished"/>
+        <translation>När inspelningen är klar</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/TimedRecordingDialog.qml" line="480"/>
@@ -20130,7 +20130,7 @@ Anslut en inmatningsenhet och sök igen.</translation>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/TimedRecordingDialog.qml" line="563"/>
         <source>Start timed recording</source>
-        <translation type="unfinished"/>
+        <translation>Starta tidsinställd inspelning</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/TimedRecordingProgressDialog.qml" line="116"/>
@@ -20141,45 +20141,45 @@ Anslut en inmatningsenhet och sök igen.</translation>
         <location filename="../../src/record/internal/timedrecordingformatter.cpp" line="30"/>
         <source>%1d</source>
         <extracomment>Abbreviated number of days in a duration, e.g. "2d"</extracomment>
-        <translation type="unfinished"/>
+        <translation>%1 d</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/timedrecordingformatter.cpp" line="34"/>
         <source>%1h</source>
         <extracomment>Abbreviated number of hours in a duration, e.g. "1h"</extracomment>
-        <translation type="unfinished"/>
+        <translation>%1 h</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/timedrecordingformatter.cpp" line="38"/>
         <source>%1m</source>
         <extracomment>Abbreviated number of minutes in a duration, e.g. "30m"</extracomment>
-        <translation type="unfinished"/>
+        <translation>%1 min</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/timedrecordingformatter.cpp" line="42"/>
         <source>%1s</source>
         <extracomment>Abbreviated number of seconds in a duration, e.g. "45s"</extracomment>
-        <translation type="unfinished"/>
+        <translation>%1 s</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/timedrecordingscenario.cpp" line="159"/>
         <source>The end time has already passed.</source>
-        <translation type="unfinished"/>
+        <translation>Sluttiden har redan passerat.</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/timedrecordingscenario.cpp" line="198"/>
         <source>Audacity was already recording.</source>
-        <translation type="unfinished"/>
+        <translation>Audacity spelade redan in.</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/timedrecordingscenario.cpp" line="208"/>
         <source>Recording couldn’t be started.</source>
-        <translation type="unfinished"/>
+        <translation>Inspelningen kunde inte startas.</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/timedrecordingscenario.cpp" line="222"/>
         <source>Timed recording couldn’t start</source>
-        <translation type="unfinished"/>
+        <translation>Den tidsinställda inspelningen kunde inte starta</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/timedrecordingscenario.cpp" line="246"/>
@@ -20189,28 +20189,28 @@ Anslut en inmatningsenhet och sök igen.</translation>
     <message>
         <location filename="../../src/record/internal/timedrecordingscenario.cpp" line="249"/>
         <source>Stop timed recording</source>
-        <translation type="unfinished"/>
+        <translation>Stoppa tidsinställd inspelning</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/timedrecordingscenario.cpp" line="250"/>
         <source>Your timed recording will be stopped.</source>
-        <translation type="unfinished"/>
+        <translation>Den tidsinställda inspelningen stoppas.</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/timedrecordingscenario.cpp" line="287"/>
         <source>Timed recording complete</source>
-        <translation type="unfinished"/>
+        <translation>Den tidsinställda inspelningen är klar</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/timedrecordingscenario.cpp" line="289"/>
         <source>Recorded for %1</source>
         <extracomment>%1 is how long the timed recording lasted, e.g. "1h 30m"</extracomment>
-        <translation type="unfinished"/>
+        <translation>Inspelat under %1</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/timedrecordingscenario.cpp" line="293"/>
         <source>Timed recording stopped</source>
-        <translation type="unfinished"/>
+        <translation>Den tidsinställda inspelningen stoppades</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/timedrecordingscenario.cpp" line="328"/>
@@ -20220,17 +20220,17 @@ Anslut en inmatningsenhet och sök igen.</translation>
     <message>
         <location filename="../../src/record/internal/timedrecordingscenario.cpp" line="330"/>
         <source>Couldn’t save the project</source>
-        <translation type="unfinished"/>
+        <translation>Projektet kunde inte sparas</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/timedrecordingscenario.cpp" line="353"/>
         <source>Couldn’t export the audio</source>
-        <translation type="unfinished"/>
+        <translation>Ljudet kunde inte exporteras</translation>
     </message>
     <message>
         <location filename="../../src/record/internal/timedrecordingscenario.cpp" line="357"/>
         <source>Audio exported</source>
-        <translation type="unfinished"/>
+        <translation>Ljudet har exporterats</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingprogressmodel.cpp" line="95"/>
