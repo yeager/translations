@@ -18,6 +18,9 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043152 | `component::timer_list::triggers::timer_cancelled::name` | Timer cancelled | Timer avbruten |
 | 984043151 | `component::timer_list::triggers::timer_cancelled::description` | Triggers when a timer is cancelled on a timer list. | Utlöses när en timer avbryts i en timerlista. |
 | 984043149 | `component::timer_list::services::unpause_timer::name` | Resume timer | Återuppta timer |
+| 984043148 | `component::timer_list::services::unpause_timer::fields::timer_id::name` | Timer ID | Timer-ID |
+| 984043147 | `component::timer_list::services::unpause_timer::fields::timer_id::description` | The id of the timer to resume. | ID:t för timern som ska återupptas. |
+| 984043146 | `component::timer_list::services::unpause_timer::description` | Resumes a paused timer. | Återupptar en pausad timer. |
 
 Båda värdena sparades från de tidigare dokumenterade förslagen och lästes
 tillbaka direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
