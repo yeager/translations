@@ -1,7 +1,7 @@
 # Home Assistant Core — granskning sida 473 (Hass.io, Anova och KNX)
 
 Datum: 2026-11-20  
-Status: dokumenterade förslag; **inte sparade i Lokalise**
+Status: sparat i Lokalise 2026-11-20
 
 Anova-källtexten kontrollerades mot `homeassistant/components/anova/strings.json` på Home Assistant Cores `dev`-gren.
 
