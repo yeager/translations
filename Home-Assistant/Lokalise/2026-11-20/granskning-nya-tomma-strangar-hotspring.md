@@ -9,7 +9,7 @@ Datum: 2026-11-20. Granskning mot Lokalise och aktuell Core-källa. Raden `total
 | `component::hotspring::entity::sensor::total_power::name` | Total apparent power | Total skenbar effekt | Sparad och återläst i Lokalise (ID 984458735); Home Assistant-minnet använder *skenbar effekt* för *apparent power*. |
 | `component::hotspring::entity::sensor::small_loads_power::name` | Small loads apparent power | Skenbar effekt för små laster | Sparad och återläst i Lokalise (ID 984458734); teknisk ordföljd och facktermen *skenbar effekt*. |
 | `component::hotspring::entity::sensor::small_loads_current::name` | Small loads current | Ström för små laster | Sparad och återläst i Lokalise (ID 984458733); samma termstruktur som effektvärdet. |
-| `component::hotspring::entity::sensor::jet3_power::name` | Jet 3 apparent power | Skenbar effekt för jet 3 | Behåller komponentnamnet *jet* och översätter mätvärdet. |
+| `component::hotspring::entity::sensor::jet3_power::name` | Jet 3 apparent power | Skenbar effekt för jet 3 | Sparad och återläst i Lokalise (ID 984458732); behåller komponentnamnet *jet* och översätter mätvärdet. |
 | `component::hotspring::entity::sensor::jet3_current::name` | Jet 3 current | Ström för jet 3 | Parallell med föregående sensor. |
 | `component::hotspring::entity::sensor::jet1_jet2_blower_power::name` | Jets 1, 2, and blower apparent power | Skenbar effekt för jet 1, 2 och fläkt | Konsekvent sensorbenämning; inga onödiga versaler. |
 | `component::hotspring::entity::sensor::jet1_jet2_blower_current::name` | Jets 1, 2, and blower current | Ström för jet 1, 2 och fläkt | Parallell med effektvärdet. |
