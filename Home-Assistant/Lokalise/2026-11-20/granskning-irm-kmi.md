@@ -67,6 +67,7 @@ Datum: 2026-11-20. Komponenten granskas mot `origin/dev` i Home Assistant Core o
 | `component::irm_kmi::exceptions::api_error::message` | `Ett fel uppstod vid kommunikationen med API:et: {error}` | Oförändrad | Granskad i Lokalise (ID 983093774); platshållaren är bevarad och `API:et` stöds av termbanken. |
 | `component::irm_kmi::config::abort::already_configured` | `Platsen är redan konfigurerad` | `[%key:common::config_flow::abort::already_configured_location%]` | Gemensam Core-referens återställd och återläst i Lokalise (ID 714799465). |
 | `component::irm_kmi::config::abort::api_error` | `Misslyckades med att ansluta` | `[%key:common::config_flow::error::cannot_connect%]` | Gemensam Core-referens återställd och återläst i Lokalise (ID 714799466). |
+| `component::irm_kmi::config::abort::unknown` | `Oväntat fel` | `[%key:common::config_flow::error::unknown%]` | Gemensam Core-referens återställd och återläst i Lokalise (ID 714799467). |
 
 ## Pågående täckning
 
