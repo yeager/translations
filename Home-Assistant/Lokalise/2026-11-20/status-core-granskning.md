@@ -21,6 +21,7 @@ Senast uppdaterad: 2026-11-20.
 | Nyckel | Status | Nästa säkra kontroll |
 | --- | --- | --- |
 | Nya tomma HotSpring-poster och följdposter | 14 förslag dokumenterade utan Lokalise-skrivning. | Kontrollera att HotSpring-källan publicerats i Core före ett eventuellt sparbeslut. |
+| `component::timer_list` | 16 ytterligare tomma strängar granskade mot aktuell Core-källa och dokumenterade som förslag. | Fortsätt från `services::subtract_time::fields::duration::name`; behåll förslagsstatus tills ett sparbeslut finns. |
 | 197 historiska TMX-enheter | Strukturellt giltiga men saknar Lokalise-ID i `tuid`. | Slå upp varje fullständig `source`-nyckel via Lokalise-API:t och ersätt `tuid` först efter en unik matchning. |
 
 ## Miljöstatus
@@ -45,3 +46,4 @@ Den tidigare autentiserade Lokalise-sessionen och dess API-hjälpare återställ
 - [Sparade ändringar på sidor 727–730](sparade-andringar-sidor-727-730.md)
 - [Sida 731: granskning och kvarstående verifiering](granskning-sida-731-logbook-script.md)
 - [Nya tomma HotSpring-strängar och följdposter](granskning-nya-tomma-strangar-hotspring.md)
+- [Timer list: fortsatt granskning av tomma strängar](granskning-timer-list-fortsattning.md)
