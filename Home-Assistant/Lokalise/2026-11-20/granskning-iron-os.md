@@ -74,6 +74,9 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::select::orientation_mode::state::auto` | `[%key:common::state::auto%]` | Oförändrad | Granskad i Lokalise (ID 580407969); korrekt Core-referens för automatiskt läge. |
 | `component::iron_os::entity::select::orientation_mode::state::left_handed` | `Left-handed` | `Vänsterhänt` | Granskad i Lokalise (ID 580407970); korrekt svensk användarinställning. |
 | `component::iron_os::entity::select::orientation_mode::state::right_handed` | `Right-handed` | `Högerhänt` | Granskad i Lokalise (ID 580407971); korrekt svensk användarinställning. |
+| `component::iron_os::entity::select::temp_unit::name` | `Temperature display unit` | `Enhet för temperaturvisning` | Granskad i Lokalise (ID 580407972); korrekt och tydlig svensk etikett. |
+| `component::iron_os::entity::select::temp_unit::state::celsius` | `Celsius (°C)` | `Celsius (°C)` | Granskad i Lokalise (ID 580407973); namn och enhet är korrekta. |
+| `component::iron_os::entity::select::temp_unit::state::fahrenheit` | `Fahrenheit (°F)` | `Fahrenheit (°F)` | Granskad i Lokalise (ID 580407974); namn och enhet är korrekta. |
 
 ## Pågående täckning
 
