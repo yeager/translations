@@ -20,7 +20,7 @@ Radgranskning av Qt TS-katalogen `audacity4-sv-review-batch-002-20261120.ts`.
 | `At zero crossings` | `Vid nollgenomgångar` | `trackeditcommandsregister.cpp:476` |
 | `Split track` | `Dela spår` | `trackeditcommandsregister.cpp:804` |
 
-Alla sextiofyra var oöversatta i den aktuella Qt-katalogen. Formuleringarna följer
+Alla sextiosju var oöversatta i den aktuella Qt-katalogen. Formuleringarna följer
 Audacitys etablerade termer `klipp`, `spår` och `spelområde` och är korta
 kommandoetiketter enligt respektive källkommentar.
 
@@ -57,12 +57,17 @@ sin respektive `trackeditcommandsregister.cpp`-kontext. Skillnaden mellan
 *klipp* och *spår* bevaras, och `given` återges konsekvent som `angivna` när
 kommandot arbetar på parametriserade objekt.
 
+Tre avslutande kommandohjälptexter i avsnittet har också översatts:
+`Använd %1 med de angivna parametrarna`, `Välj parametrarna för %1 utan att
+använda den` och `Exportera projektljudet som en MP3-fil till mappen för
+makroutdata`. Platshållaren `%1` är oförändrad.
+
 ## Verifiering
 
 - `xmllint --noout` godkände den ändrade TS-filen.
 - Källplats, platsmarkörer och TS-struktur kontrollerades för varje post; inga
   platshållare förekommer i denna batch.
 - Aktuell arbetskopia efter batchen: SHA-256
-  `749537ca28047ff2e6f486f1e0551c49a708136685305f428bd3857f8ada0150`.
+  `b1cdc94f23d371622259999d54b4eae2292ffa0af514ad49699f1e246f6a7a75`.
 - `lrelease` saknas i den här miljön, så QM-kompilering har inte påståtts vara
   genomförd.
