@@ -33,4 +33,23 @@ Datum: 2026-11-20. Lokalise lästes i skrivskyddat läge och visade samtliga ned
 | `component::timer_list::services::get_timers::fields::status::description` | Only return timers with the specified statuses. | Returnerar endast timers med angiven status. | Följer befintligt Home Assistant-minne för motsvarande statusfilter. |
 | `component::timer_list::services::get_timers::description` | Gets the timers on a timer list. | Hämtar timers i en timerlista. | Bevarar komponentkontexten utan onödig omskrivning. |
 
-Lokalise-nyckel-ID:n 984043128–984043131 var tomma på svenska. Nästa tjänst i granskningsordningen är `component::timer_list::services::finish_timer`.
+Lokalise-nyckel-ID:n 984043128–984043131 var tomma på svenska.
+
+## Finish timer och Create timer
+
+| Fullständig nyckel | Engelsk källtext | Föreslagen svenska | Motivering |
+| --- | --- | --- | --- |
+| `component::timer_list::services::finish_timer::name` | Finish timer | Avsluta timer | Imperativ tjänstform. |
+| `component::timer_list::services::finish_timer::fields::timer_id::name` | Timer ID | Timer-ID | Konsekvent fältetikett. |
+| `component::timer_list::services::finish_timer::fields::timer_id::description` | The id of the timer to finish. | ID:t för timern som ska avslutas. | Korrekt böjning och samma term som tjänsten. |
+| `component::timer_list::services::finish_timer::description` | Finishes a timer early, as if its remaining time had elapsed. | Avslutar en timer i förtid, som om dess återstående tid hade löpt ut. | Bevarar förtidsavslutet och jämförelsen. |
+| `component::timer_list::services::create_timer::name` | Create timer | Skapa timer | Imperativ tjänstform. |
+| `component::timer_list::services::create_timer::fields::name::name` | Name | Namn | Etablerad fältetikett. |
+| `component::timer_list::services::create_timer::fields::name::description` | Optional name for the timer. | Valfritt namn för timern. | Kort och idiomatisk fältbeskrivning. |
+| `component::timer_list::services::create_timer::fields::duration::name` | Duration | Varaktighet | Samma fältterm som i `subtract_time`. |
+| `component::timer_list::services::create_timer::fields::duration::description` | How long the timer should run for. | Hur länge timern ska vara igång. | Naturlig formulering för driftstid. |
+| `component::timer_list::services::create_timer::description` | Creates a new timer on a timer list and starts it counting down. | Skapar en ny timer i en timerlista och startar nedräkningen. | Bevarar både skapandet och den omedelbara nedräkningen. |
+
+Lokalise-nyckel-ID:n 984043118–984043127 var tomma på svenska. Nästa tjänst i granskningsordningen är `component::timer_list::services::cancel_timer`.
+
+`svlang skrivregler` fann inga fel i den längre `finish_timer`-beskrivningen och gav 10/10 i naturlighetsheuristiken för `create_timer`-beskrivningen. Hunspell accepterar `nedräkningen`, `återstående` och `varaktighet`.
