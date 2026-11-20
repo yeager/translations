@@ -123,6 +123,10 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::switch::display_invert::name` | `Invert screen` | `Invertera skärm` | Granskad i Lokalise (ID 584023214); korrekt teknisk UI-uppmaning. |
 | `component::iron_os::entity::switch::idle_screen_details::name` | `Detailed idle screen` | `Detaljerad viloskärm` | Granskad i Lokalise (ID 584023215); korrekt svensk UI-term. |
 | `component::iron_os::entity::switch::invert_buttons::name` | `Swap +/- buttons` | `Byt plats på knapparna + och –` | Ändrad från `Byt plats på +/- knappar` för korrekt svensk ordföljd och tydliga knappbeteckningar; sparad och återläst i Lokalise (ID 584023216). |
+| `component::iron_os::entity::switch::solder_screen_details::name` | `Detailed solder screen` | `Detaljerad lödskärm` | Granskad i Lokalise (ID 584023217); korrekt svensk UI-term. |
+| `component::iron_os::exceptions::cannot_connect::message` | `Cannot connect to device {name}` | `Kan inte ansluta till enheten {name}` | Granskad i Lokalise (ID 638860545); platshållaren är bevarad. |
+| `component::iron_os::exceptions::submit_setting_failed::message` | `Failed to submit setting to device, try again later` | `Det gick inte att skicka inställningen till enheten, försök igen senare` | Granskad i Lokalise (ID 512732276); idiomatisk svensk feltext. |
+| `component::iron_os::exceptions::update_check_failed::message` | `Failed to check for latest IronOS update` | `Misslyckades med att söka efter den senaste IronOS-uppdateringen` | Granskad i Lokalise (ID 638860546); korrekt sammansättning och produktnamn. |
 
 ## Pågående täckning
 
