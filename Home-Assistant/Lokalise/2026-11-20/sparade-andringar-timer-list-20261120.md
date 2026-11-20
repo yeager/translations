@@ -11,6 +11,7 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043159 | `component::timer_list::triggers::timer_time_changed::description` | Triggers when time is added to or subtracted from a timer on a timer list. | Utlöses när tid läggs till eller dras av från en timer i en timerlista. |
 | 984043158 | `component::timer_list::triggers::timer_paused::name` | Timer paused | Timer pausad |
 | 984043157 | `component::timer_list::triggers::timer_paused::description` | Triggers when a timer is paused on a timer list. | Utlöses när en timer pausas i en timerlista. |
+| 984043156 | `component::timer_list::triggers::timer_finished::name` | Timer finished | Timer avslutad |
 
 Båda värdena sparades från de tidigare dokumenterade förslagen och lästes
 tillbaka direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
