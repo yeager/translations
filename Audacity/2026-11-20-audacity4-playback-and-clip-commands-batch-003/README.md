@@ -20,7 +20,7 @@ Radgranskning av Qt TS-katalogen `audacity4-sv-review-batch-002-20261120.ts`.
 | `At zero crossings` | `Vid nollgenomgångar` | `trackeditcommandsregister.cpp:476` |
 | `Split track` | `Dela spår` | `trackeditcommandsregister.cpp:804` |
 
-Alla etthundrasex var oöversatta i den aktuella Qt-katalogen. Formuleringarna följer
+Alla etthundratjugo var oöversatta i den aktuella Qt-katalogen. Formuleringarna följer
 Audacitys etablerade termer `klipp`, `spår` och `spelområde` och är korta
 kommandoetiketter enligt respektive källkommentar.
 
@@ -77,12 +77,16 @@ makron har kompletterats. Alla `%1`-platshållare och typografiska citattecken
 har bevarats, och makrorelaterade meny- och tabellrubriker använder konsekvent
 `makro`, `makron` och `makrokommando`.
 
+Ytterligare 14 makrosträngar för körning på filer, status, filer och
+steghantering har kompletterats. Tre platshållare och radbrytningen i
+felmeddelandet om saknade steg är bevarade exakt.
+
 ## Verifiering
 
 - `xmllint --noout` godkände den ändrade TS-filen.
 - Källplats, platsmarkörer och TS-struktur kontrollerades för varje post; inga
   platshållare förekommer i denna batch.
 - Aktuell arbetskopia efter batchen: SHA-256
-  `fe7460407dec558f071335f293c599e5e4ff62e4eecd9ceed2036a38eec1c240`.
+  `a1a47e4835c8b728c14174c07201d8f6f53bc4f585a5dadbbd1d021c1000a466`.
 - `lrelease` saknas i den här miljön, så QM-kompilering har inte påståtts vara
   genomförd.
