@@ -36,6 +36,7 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043133 | `component::timer_list::services::pause_timer::fields::timer_id::description` | The id of the timer to pause. | ID:t för timern som ska pausas. |
 | 984043132 | `component::timer_list::services::pause_timer::description` | Pauses an active timer. | Pausar en aktiv timer. |
 | 984043131 | `component::timer_list::services::get_timers::name` | Get timers | Hämta timers |
+| 984043130 | `component::timer_list::services::get_timers::fields::status::name` | Status | Status |
 
 Båda värdena sparades från de tidigare dokumenterade förslagen och lästes
 tillbaka direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
