@@ -62,6 +62,7 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043107 | `component::timer_list::selector::status::options::paused` | Paused | Pausad |
 | 984043106 | `component::timer_list::selector::status::options::finished` | Finished | Avslutad |
 | 984043105 | `component::timer_list::selector::status::options::cancelled` | Cancelled | Avbruten |
+| 984043104 | `component::timer_list::selector::status::options::active` | Active | Aktiv |
 
 Varje värde sparades från ett tidigare dokumenterat förslag och lästes tillbaka
 direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
