@@ -1,7 +1,7 @@
 # Home Assistant Core — granskning sida 476 (Roborock, Prosegur, Elmax och ONVIF)
 
 Datum: 2026-11-20  
-Status: dokumenterat förslag; **inte sparat i Lokalise**
+Status: sparat i Lokalise 2026-11-20
 
 Elmax-källtexten kontrollerades mot `homeassistant/components/elmax/strings.json` på Home Assistant Cores `dev`-gren.
 
