@@ -20586,7 +20586,7 @@ Do you want to overwrite them?</source>
         <location filename="../../src/context/internal/appshortcutsscopes.cpp" line="32"/>
         <source>Navigation</source>
         <extracomment>Group heading in Preferences &gt; Shortcuts for shortcuts that move the keyboard focus between panels and controls</extracomment>
-        <translation type="unfinished"/>
+        <translation>Navigering</translation>
     </message>
     <message>
         <location filename="../../src/context/internal/appshortcutsscopes.cpp" line="34"/>
@@ -20610,13 +20610,13 @@ Do you want to overwrite them?</source>
         <location filename="../../src/context/internal/appshortcutsscopes.cpp" line="40"/>
         <source>Track view</source>
         <extracomment>Group heading in Preferences &gt; Shortcuts for shortcuts that work only while a track or a track item has the keyboard focus</extracomment>
-        <translation type="unfinished"/>
+        <translation>Spårvy</translation>
     </message>
     <message>
         <location filename="../../src/context/internal/appshortcutsscopes.cpp" line="44"/>
         <source>Project view</source>
         <extracomment>Group heading in Preferences &gt; Shortcuts for shortcuts that change how the project is shown</extracomment>
-        <translation type="unfinished"/>
+        <translation>Projektvy</translation>
     </message>
     <message>
         <location filename="../../src/context/internal/appshortcutsscopes.cpp" line="46"/>
@@ -20628,7 +20628,7 @@ Do you want to overwrite them?</source>
         <location filename="../../src/context/internal/appshortcutsscopes.cpp" line="48"/>
         <source>Track navigation</source>
         <extracomment>Group heading in Preferences &gt; Shortcuts for shortcuts that move the keyboard focus between tracks and track items</extracomment>
-        <translation type="unfinished"/>
+        <translation>Spårnavigering</translation>
     </message>
     <message>
         <location filename="../../src/context/internal/appshortcutsscopes.cpp" line="50"/>
@@ -20646,7 +20646,7 @@ Do you want to overwrite them?</source>
         <location filename="../../src/context/internal/appshortcutsscopes.cpp" line="55"/>
         <source>App</source>
         <extracomment>Group heading in Preferences &gt; Shortcuts for shortcuts that act on the whole application</extracomment>
-        <translation type="unfinished"/>
+        <translation>Program</translation>
     </message>
     <message>
         <location filename="../../src/context/internal/appshortcutsscopes.cpp" line="57"/>
@@ -20688,7 +20688,7 @@ Do you want to overwrite them?</source>
         <location filename="../../src/context/internal/appshortcutsscopes.cpp" line="69"/>
         <source>Extensions</source>
         <extracomment>Group heading in Preferences &gt; Shortcuts for shortcuts of extensions (add-ons that users install)</extracomment>
-        <translation type="unfinished"/>
+        <translation>Tillägg</translation>
     </message>
     <message>
         <location filename="../../src/context/internal/appshortcutsscopes.cpp" line="71"/>
@@ -20700,7 +20700,7 @@ Do you want to overwrite them?</source>
         <location filename="../../src/context/internal/appshortcutsscopes.cpp" line="73"/>
         <source>Windows</source>
         <extracomment>Group heading in Preferences &gt; Shortcuts for shortcuts that manage application windows</extracomment>
-        <translation type="unfinished"/>
+        <translation>Fönster</translation>
     </message>
     <message>
         <location filename="../../src/context/internal/appshortcutsscopes.cpp" line="75"/>
@@ -20718,7 +20718,7 @@ Do you want to overwrite them?</source>
         <location filename="../../src/context/internal/appshortcutsscopes.cpp" line="79"/>
         <source>Testflow</source>
         <extracomment>Group heading in Preferences &gt; Shortcuts for shortcuts of the automated test tool for developers; "Testflow" is a tool name, do not translate it</extracomment>
-        <translation type="unfinished"/>
+        <translation>Testflow</translation>
     </message>
 </context>
 <context>
