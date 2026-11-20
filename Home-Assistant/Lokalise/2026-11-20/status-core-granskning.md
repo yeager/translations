@@ -11,11 +11,11 @@ Senast uppdaterad: 2026-11-20.
 ## Kanoniskt Home Assistant-minne
 
 - Fil: `yeager/swedish-tm/Home-Assistant/sv-home-assistant-core-lokalise-verified-20261120-canonical.tmx`.
-- Senast verifierad nivå: **803** unika översättningsenheter, inklusive
+- Senast verifierad nivå: **805** unika översättningsenheter, inklusive
   Simplepush, Tankerkoenig, Energenie Power Sockets, Laundrify, Luftdaten, Private BLE Device, OurGroceries, Fing och Evohome som
   sparades och återlästes 2026-11-20.
 - XML-kontroll: unika `tuid`-värden och fullständig `source`-proveniens för varje post.
-- Alla 803 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back`.
+- Alla 805 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back`.
 - 572 senare poster använder `lokalise:<översättnings-id>` som `tuid`. De 231 historiska posterna använder i stället den fullständiga källnyckeln som `tuid`; deras Lokalise-ID behöver hämtas från API:t innan de kan migreras säkert.
 
 ## Pågående uppföljning
@@ -24,7 +24,7 @@ Senast uppdaterad: 2026-11-20.
 | --- | --- | --- |
 | Nya tomma HotSpring-poster och följdposter | 14 förslag dokumenterade utan Lokalise-skrivning. | Kontrollera att HotSpring-källan publicerats i Core före ett eventuellt sparbeslut. |
 | `component::hotspring` | Alla 50 aktuella nycklar är granskade genom smalare Lokalise-sökningar; fyra ändringsförslag och produkttermsberoenden är dokumenterade. | Återkontrollera mot publicerad Core-källa innan ett eventuellt sparbeslut. |
-| `component::timer_list` | Alla 61 aktuella strängar är granskade mot Core-källan; komponenttiteln och dess referens är sparade och återlästa, medan 59 förslag återstår. | Fortsätt med nästa dokumenterade förslag. |
+| `component::timer_list` | Alla 61 aktuella strängar är granskade mot Core-källan; komponenttiteln, dess referens och två `timer_unpaused`-rader är sparade och återlästa, medan 57 förslag återstår. | Fortsätt med nästa dokumenterade förslag. |
 | `component::evohome` | Alla **36** aktuella källsträngar har kontrollerats mot Core-källan; tre ändringar är sparade och återlästa i Lokalise, och en tom rad har ett äldre, odubblerat förslag. | Lokalise innehåller även historiska nycklar som inte motsvarar aktuell Core-källa; den tomma raden kan sparas efter separat kontroll. |
 | `component::ezviz` | Alla **82** aktuella Core-strängar är granskade mot Core-källan; tre obligatoriska referenser och sex språkändringar är sparade och återlästa. | Komponenten kan återkontrolleras vid källändring; 12 Lokalise-rader som saknas i aktuell Core-källa är dokumenterade som historiska. |
 | `component::fivem` | Alla 12 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
