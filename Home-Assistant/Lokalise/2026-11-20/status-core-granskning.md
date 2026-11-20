@@ -47,7 +47,7 @@ Senast uppdaterad: 2026-11-20.
 | `component::private_ble_device` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; två språkförslag är dokumenterade. | Komponenten kan återkontrolleras vid källändring; förslagen ska läsas tillbaka före eventuell TMX-synkning. |
 | `component::radiotherm` | Alla 9 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::simplepush` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; felmeddelandet om sändning sparades i Lokalise och återlästes i redigeringsfältet. | Ta med värdet vid nästa verifierade TMX-synkning. |
-| `component::tankerkoenig` | Del 1: minst 38 av 72 aktuella Lokalise-nycklar granskade. Alla tio fastställda ändringar i del 1 är sparade och återlästa i Lokalise. | Granska återstående nycklar; vid nya fynd sparas och återläses ändringen direkt. |
+| `component::tankerkoenig` | Del 1–2: konfiguration och synliga sensorattribut är lästa mot aktuell Core-källa. Alla tio fastställda ändringar är sparade och återlästa i Lokalise. | Kontrollera historiska Lokalise-rader mot API-proveniens när full export finns. |
 | 197 historiska TMX-enheter | Strukturellt giltiga men saknar Lokalise-ID i `tuid`. | Slå upp varje fullständig `source`-nyckel via Lokalise-API:t och ersätt `tuid` först efter en unik matchning. |
 
 ## Miljöstatus
@@ -114,5 +114,6 @@ Den tidigare autentiserade Lokalise-sessionen och dess API-hjälpare återställ
 - [RadioTherm](granskning-radiotherm.md)
 - [Simplepush](granskning-simplepush.md)
 - [Tankerkoenig, del 1](granskning-tankerkoenig-del-1.md)
+- [Tankerkoenig, del 2](granskning-tankerkoenig-del-2.md)
 - [Timer list: fortsatt granskning av tomma strängar](granskning-timer-list-fortsattning.md)
 - [Timer list: återstående granskade tjänststrängar](granskning-timer-list-tjanster.md)
