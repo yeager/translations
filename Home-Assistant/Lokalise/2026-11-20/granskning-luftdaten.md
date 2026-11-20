@@ -2,13 +2,14 @@
 
 Datum: 2026-11-20  
 Källa: Home Assistant Core `3d340fb5fdf03e7db48b45aec10f9b8da3b31c12`, `homeassistant/components/luftdaten/strings.json`  
-Lokalise: läsning av `component::luftdaten`; inga skrivningar har gjorts.
+Lokalise: `component::luftdaten::config::error::invalid_sensor` ändrades,
+sparades och lästes tillbaka 2026-11-20.
 
 ## Ändringsförslag
 
 | Nyckel | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- |
-| `component::luftdaten::config::error::invalid_sensor` | `Sensor är inte tillgänglig eller ogiltig` | `Sensorn är inte tillgänglig eller är ogiltig` | Den befintliga texten saknar bestämd form och andra predikatet. Förslaget är en komplett och naturlig svensk feltext. |
+| `component::luftdaten::config::error::invalid_sensor` | `Sensor är inte tillgänglig eller ogiltig` | `Sensorn är inte tillgänglig eller är ogiltig` | Sparad och återläst i Lokalise. Den tidigare texten saknade bestämd form och andra predikatet. |
 
 ## Kontroll utan förslag
 
@@ -20,5 +21,5 @@ produktnamnssammansättningsfall och inte ett ordlistedefekt.
 
 ## TMX och Lokalise
 
-Förslaget är lokalt och ännu inte sparat i Lokalise. Home Assistant-TMX:en
-ändras därför inte.
+Det sparade och återlästa värdet är infört i den kanoniska Home Assistant-TMX:en
+med fullständig nyckel, källproveniens och statusen `saved-and-read-back`.
