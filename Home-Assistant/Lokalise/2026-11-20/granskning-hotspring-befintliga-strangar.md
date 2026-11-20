@@ -33,9 +33,9 @@ Datum: 2026-11-20. Lokalise lästes i skrivskyddat läge. Den breda komponentfr�
 | `component::hotspring::entity::light::light_zone::name` | Ljuszon `{zone}` | Korrekt; platshållaren bevarad. |
 | `component::hotspring::entity::binary_sensor::spa_connected::name` | Spa anslutet | Korrekt kort sensorstatus. |
 
-## Kontrollgräns
+## Täckning
 
-Lokalise begränsade den breda komponentfrågan till 30 rader. Komponentens återstående nycklar måste därför sökas i smalare grupper innan HotSpring kan markeras som fullständigt granskat. Ingen Lokalise-skrivning är utförd.
+Lokalise begränsade den breda komponentfrågan till 30 rader. Komponenten har därför granskats genom smalare frågor: 11 config-rader, 5 undantag och 34 entitetsrader (2 binärsensorer, 1 lampa, 2 talvärden, 10 val och 19 sensorer), totalt **50** aktuella HotSpring-nycklar. Ingen Lokalise-skrivning är utförd.
 
 `svlang skrivregler` fann inga fel i det föreslagna felmeddelandet och Hunspell accepterar de kontrollerade orden `konfigurerade` och `värden`.
 
@@ -60,3 +60,16 @@ Lokalise-sökningar för varje entitetstyp täcker 2 binärsensorer, 1 lampa, 2 
 - Referensbaserade val (`Av`, `Låg`, `Hög`) och uppvärmningslägena behålls. De engelska produktlägena med `boost` är fortsatt markerade som produkttermsberoende, inte som automatiska ändringar.
 
 Detta ger inga ytterligare ändringsförslag för befintliga HotSpring-entiteter. Hunspell accepterar `uppvärmning` och `värmer`; `svlang` bedömer `Uppvärmning` som ett naturligt enordsuttryck.
+
+## Undantag utanför den första resultatomgången
+
+En separat Lokalise-sökning visade samtliga fem undantagsrader. De tre tidigare bedömda raderna står kvar; för de två ytterligare raderna gäller följande:
+
+| Fullständig nyckel | Befintlig svenska | Föreslagen svenska | Motivering |
+| --- | --- | --- | --- |
+| `component::hotspring::exceptions::invalid_response::message` | Ogiltigt svar mottaget från Hot Spring API. | Ett ogiltigt svar mottogs från Hot Spring-API:t. | Fullständig och idiomatisk felmening; konsekvent svensk böjning av API-namnet. |
+| `component::hotspring::exceptions::cannot_connect::message` | Ett fel uppstod vid kommunikation med Hot Spring API. | — | Godtagbar feltext; ingen ändring föreslås utan publicerad källkontext för produktnamnets typografi. |
+
+`component::hotspring::exceptions::wrong_device::message` har det tidigare dokumenterade förslaget med *konfigurerade värden*. `timeout` och `spa_not_connected` behålls med den redan noterade produkttermuppföljningen.
+
+`svlang skrivregler` fann inga fel i det nya förslaget och Hunspell accepterar `ogiltigt` och `mottogs`.

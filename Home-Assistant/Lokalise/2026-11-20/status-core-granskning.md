@@ -21,7 +21,7 @@ Senast uppdaterad: 2026-11-20.
 | Nyckel | Status | Nästa säkra kontroll |
 | --- | --- | --- |
 | Nya tomma HotSpring-poster och följdposter | 14 förslag dokumenterade utan Lokalise-skrivning. | Kontrollera att HotSpring-källan publicerats i Core före ett eventuellt sparbeslut. |
-| `component::hotspring` | De första 30 Lokalise-träffarna är kontrollerade; ett tydligt ändringsförslag och två produkttermsberoenden är dokumenterade. | Dela upp komponenten i smalare Lokalise-sökningar för att komma förbi resultattaket på 30. |
+| `component::hotspring` | Alla 50 aktuella nycklar är granskade genom smalare Lokalise-sökningar; fyra ändringsförslag och produkttermsberoenden är dokumenterade. | Återkontrollera mot publicerad Core-källa innan ett eventuellt sparbeslut. |
 | `component::timer_list` | Alla 61 aktuella, tomma strängar är granskade mot Core-källan och dokumenterade som förslag. | Komponenten kan återkontrolleras vid källändring; fortsätt i Lokalise med nästa oavgranskade komponent. |
 | 197 historiska TMX-enheter | Strukturellt giltiga men saknar Lokalise-ID i `tuid`. | Slå upp varje fullständig `source`-nyckel via Lokalise-API:t och ersätt `tuid` först efter en unik matchning. |
 
