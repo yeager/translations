@@ -30,6 +30,7 @@ Senast uppdaterad: 2026-11-20.
 | `component::fing` | Alla 15 aktuella Core-strängar är granskade mot Core-källan; ett produktnamns- och böjningsförslag är dokumenterat. | Komponenten kan återkontrolleras vid källändring. |
 | `component::fibaro` | Alla 16 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag; en äldre Lokalise-rad är markerad som historisk. | Komponenten kan återkontrolleras vid källändring. |
 | `component::filesize` | Alla 10 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag; en äldre Lokalise-rad är markerad som historisk. | Komponenten kan återkontrolleras vid källändring. |
+| `component::gogogate2` | Alla 10 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | 197 historiska TMX-enheter | Strukturellt giltiga men saknar Lokalise-ID i `tuid`. | Slå upp varje fullständig `source`-nyckel via Lokalise-API:t och ersätt `tuid` först efter en unik matchning. |
 
 ## Miljöstatus
@@ -67,5 +68,6 @@ Den tidigare autentiserade Lokalise-sessionen och dess API-hjälpare återställ
 - [Fing](granskning-fing.md)
 - [Fibaro](granskning-fibaro.md)
 - [Filesize](granskning-filesize.md)
+- [Gogogate2](granskning-gogogate2.md)
 - [Timer list: fortsatt granskning av tomma strängar](granskning-timer-list-fortsattning.md)
 - [Timer list: återstående granskade tjänststrängar](granskning-timer-list-tjanster.md)
