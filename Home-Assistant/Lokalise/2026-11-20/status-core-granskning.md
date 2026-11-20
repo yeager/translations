@@ -24,7 +24,7 @@ Senast uppdaterad: 2026-11-20.
 | `component::hotspring` | Alla 50 aktuella nycklar är granskade genom smalare Lokalise-sökningar; fyra ändringsförslag och produkttermsberoenden är dokumenterade. | Återkontrollera mot publicerad Core-källa innan ett eventuellt sparbeslut. |
 | `component::timer_list` | Alla 61 aktuella, tomma strängar är granskade mot Core-källan och dokumenterade som förslag. | Komponenten kan återkontrolleras vid källändring; fortsätt i Lokalise med nästa oavgranskade komponent. |
 | `component::evohome` | Alla **36** aktuella källsträngar har kontrollerats mot Core-källan; tre konkreta ändringsförslag är dokumenterade och en tom rad har ett äldre, odubblerat förslag. | Komponenten kan återkontrolleras vid källändring; Lokalise innehåller även historiska nycklar som inte motsvarar aktuell Core-källa. |
-| `component::ezviz` (brytare) | Alla 12 aktuella brytarsträngar är granskade mot Core-källan; ett bindestrecksförslag är dokumenterat. | Fortsätt komponentvis med konfiguration, sensorer och övriga entiteter. |
+| `component::ezviz` (brytare och konfiguration) | 48 aktuella strängar är granskade mot Core-källan; fyra förslag är dokumenterade, varav tre återställer obligatoriska referenser. | Fortsätt komponentvis med sensorer och övriga entiteter. |
 | 197 historiska TMX-enheter | Strukturellt giltiga men saknar Lokalise-ID i `tuid`. | Slå upp varje fullständig `source`-nyckel via Lokalise-API:t och ersätt `tuid` först efter en unik matchning. |
 
 ## Miljöstatus
@@ -53,5 +53,6 @@ Den tidigare autentiserade Lokalise-sessionen och dess API-hjälpare återställ
 - [Evohome: varmvattenöverstyrning](granskning-evohome-varmvatten.md)
 - [Evohome: undantag](granskning-evohome-undantag.md)
 - [Ezviz: brytare](granskning-ezviz-brytare.md)
+- [Ezviz: konfiguration](granskning-ezviz-konfiguration.md)
 - [Timer list: fortsatt granskning av tomma strängar](granskning-timer-list-fortsattning.md)
 - [Timer list: återstående granskade tjänststrängar](granskning-timer-list-tjanster.md)
