@@ -1,7 +1,7 @@
 # Home Assistant Core — granskning sida 465 (Workday)
 
 Datum: 2026-11-20  
-Status: dokumenterade förslag; **inte sparade i Lokalise**
+Status: sparat i Lokalise 2026-11-20
 
 | Fullständig nyckel | Befintlig svenska | Föreslagen svenska | Motivering |
 |---|---|---|---|
