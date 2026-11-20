@@ -67,7 +67,7 @@ En separat Lokalise-sökning visade samtliga fem undantagsrader. De tre tidigare
 
 | Fullständig nyckel | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- |
-| `component::hotspring::exceptions::invalid_response::message` | Ogiltigt svar mottaget från Hot Spring API. | Ett ogiltigt svar mottogs från Hot Spring-API:t. | Fullständig och idiomatisk felmening; konsekvent svensk böjning av API-namnet. |
+| `component::hotspring::exceptions::invalid_response::message` | Ogiltigt svar mottaget från Hot Spring API. | Ett ogiltigt svar mottogs från Hot Spring-API:t. | Fullständig och idiomatisk felmening; konsekvent svensk böjning av API-namnet. Sparad och återläst i Lokalise (ID 910962404) efter kontroll mot den publicerade Core-källan. |
 | `component::hotspring::exceptions::cannot_connect::message` | Ett fel uppstod vid kommunikation med Hot Spring API. | — | Godtagbar feltext; ingen ändring föreslås utan publicerad källkontext för produktnamnets typografi. |
 
 `component::hotspring::exceptions::wrong_device::message` är sparad och återläst med *konfigurerade värden* och oförändrade platshållare. `timeout` och `spa_not_connected` behålls med den redan noterade produkttermuppföljningen.
