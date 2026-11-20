@@ -13,7 +13,8 @@ Senast uppdaterad: 2026-11-20.
 - Fil: `yeager/swedish-tm/Home-Assistant/sv-home-assistant-core-lokalise-verified-20261120-canonical.tmx`.
 - Senast verifierad nivå: **763** unika översättningsenheter, t.o.m. sida 730.
 - XML-kontroll: unika `tuid`-värden och fullständig `source`-proveniens för varje post.
-- Varje enhet har Lokalise-översättnings-ID i `tuid`, full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back`.
+- Alla 763 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back`.
+- 566 senare poster använder `lokalise:<översättnings-id>` som `tuid`. De 197 historiska posterna använder i stället den fullständiga källnyckeln som `tuid`; deras Lokalise-ID behöver hämtas från API:t innan de kan migreras säkert.
 
 ## Pågående uppföljning
 
@@ -21,6 +22,7 @@ Senast uppdaterad: 2026-11-20.
 | --- | --- | --- |
 | `component::script::services::toggle::name` | Förslag dokumenterat: `[%key:common::action::toggle%] skript`. | Återläs från Lokalise, kontrollera att referensen bevarats och lägg sedan till i TMX. |
 | Sida 731, fem återlästa ändringar | Sparade och dokumenterade, men ännu inte tillagda i TMX. | Återanslut till Lokalise-API, hämta aktuell sida och synka endast de bekräftade Lokalise-ID:na. |
+| 197 historiska TMX-enheter | Strukturellt giltiga men saknar Lokalise-ID i `tuid`. | Slå upp varje fullständig `source`-nyckel via Lokalise-API:t och ersätt `tuid` först efter en unik matchning. |
 
 ## Miljöstatus
 
