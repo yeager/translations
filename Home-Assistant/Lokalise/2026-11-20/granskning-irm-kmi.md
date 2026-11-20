@@ -41,6 +41,7 @@ Datum: 2026-11-20. Komponenten granskas mot `origin/dev` i Home Assistant Core o
 | `component::irm_kmi::entity::sensor::pollen_grasses::state::yellow` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::yellow%]` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::yellow%]` | Referens återställd och återläst i Lokalise (ID 984688780); följer Core-källan. |
 | `component::irm_kmi::entity::sensor::pollen_hazel::state::active` | `[%key:common::state::active%]` | `[%key:common::state::active%]` | Referens återställd och återläst i Lokalise (ID 984688782); följer Core-källan. |
 | `component::irm_kmi::entity::sensor::pollen_hazel::state::green` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::green%]` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::green%]` | Referens återställd och återläst i Lokalise (ID 984688783); följer Core-källan. |
+| `component::irm_kmi::entity::sensor::pollen_hazel::state::none` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::none%]` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::none%]` | Referens återställd och återläst i Lokalise (ID 984688784); följer Core-källan. |
 
 ## Pågående täckning
 
