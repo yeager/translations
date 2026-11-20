@@ -25,6 +25,7 @@ Senast uppdaterad: 2026-11-20.
 | `component::timer_list` | Alla 61 aktuella, tomma strängar är granskade mot Core-källan och dokumenterade som förslag. | Komponenten kan återkontrolleras vid källändring; fortsätt i Lokalise med nästa oavgranskade komponent. |
 | `component::evohome` | Alla **36** aktuella källsträngar har kontrollerats mot Core-källan; tre konkreta ändringsförslag är dokumenterade och en tom rad har ett äldre, odubblerat förslag. | Komponenten kan återkontrolleras vid källändring; Lokalise innehåller även historiska nycklar som inte motsvarar aktuell Core-källa. |
 | `component::ezviz` | Alla **82** aktuella Core-strängar är granskade mot Core-källan; nio förslag är dokumenterade, varav tre återställer obligatoriska referenser. | Komponenten kan återkontrolleras vid källändring; 12 Lokalise-rader som saknas i aktuell Core-källa är dokumenterade som historiska. |
+| `component::fivem` | Alla 12 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | 197 historiska TMX-enheter | Strukturellt giltiga men saknar Lokalise-ID i `tuid`. | Slå upp varje fullständig `source`-nyckel via Lokalise-API:t och ersätt `tuid` först efter en unik matchning. |
 
 ## Miljöstatus
@@ -57,5 +58,6 @@ Den tidigare autentiserade Lokalise-sessionen och dess API-hjälpare återställ
 - [Ezviz: sensorer](granskning-ezviz-sensorer.md)
 - [Ezviz: val och reglage](granskning-ezviz-val-och-reglage.md)
 - [Ezviz: återstående aktiva strängar](granskning-ezviz-aterstaende.md)
+- [FiveM](granskning-fivem.md)
 - [Timer list: fortsatt granskning av tomma strängar](granskning-timer-list-fortsattning.md)
 - [Timer list: återstående granskade tjänststrängar](granskning-timer-list-tjanster.md)
