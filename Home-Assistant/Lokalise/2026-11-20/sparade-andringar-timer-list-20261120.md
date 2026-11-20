@@ -37,6 +37,7 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043132 | `component::timer_list::services::pause_timer::description` | Pauses an active timer. | Pausar en aktiv timer. |
 | 984043131 | `component::timer_list::services::get_timers::name` | Get timers | Hämta timers |
 | 984043130 | `component::timer_list::services::get_timers::fields::status::name` | Status | Status |
+| 984043129 | `component::timer_list::services::get_timers::fields::status::description` | Only return timers with the specified statuses. | Returnerar endast timers med angiven status. |
 
 Båda värdena sparades från de tidigare dokumenterade förslagen och lästes
 tillbaka direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
