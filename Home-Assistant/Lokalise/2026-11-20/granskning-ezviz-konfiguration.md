@@ -7,8 +7,8 @@ Datum: 2026-11-20. Samtliga **35** aktuella konfigurationssträngar lästes i Lo
 | Fullständig nyckel | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- |
 | `component::ezviz::config::step::reconfigure::data::url` | URL | `[%key:common::config_flow::data::url%]` | Sparad och återläst i Lokalise. Källan är en obligatorisk referens till den gemensamma nyckeln. |
-| `component::ezviz::config::step::reconfigure::data::password` | Lösenord | `[%key:common::config_flow::data::password%]` | Samma referens- och formatfel. |
-| `component::ezviz::config::error::unknown` | Oväntat fel | `[%key:common::config_flow::error::unknown%]` | Samma referens- och formatfel. |
+| `component::ezviz::config::step::reconfigure::data::password` | Lösenord | `[%key:common::config_flow::data::password%]` | Sparad och återläst i Lokalise. Återställer den obligatoriska gemensamma referensen. |
+| `component::ezviz::config::error::unknown` | Oväntat fel | `[%key:common::config_flow::error::unknown%]` | Sparad och återläst i Lokalise. Återställer den obligatoriska gemensamma referensen. |
 
 ## Bedömning av övriga rader
 
@@ -18,5 +18,5 @@ De återstående 32 aktuella raderna är korrekta. Samtliga gemensamma referense
 
 - Referensmålen jämfördes med aktuell Core-källfil; de tre förslagen återställer exakt respektive källreferens.
 - Lokalise visar uttryckligen formatavvikelse för alla tre befintliga svenska värden.
-- URL-referensen är sparad, återläst och införd i det kanoniska HA-TMX-minnet.
-  De två återstående förslagen är ännu inte sparade och finns därför inte i minnet.
+- Alla tre referenser är sparade, återlästa och införda i det kanoniska
+  HA-TMX-minnet.
