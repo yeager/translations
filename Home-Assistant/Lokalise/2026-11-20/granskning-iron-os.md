@@ -113,6 +113,9 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::sensor::power_source::state::pd` | `USB Power Delivery` | `USB Power Delivery` | Granskad i Lokalise (ID 511675012); standardnamnet ska behållas. |
 | `component::iron_os::entity::sensor::power_source::state::pd_vbus` | `USB PD VBUS` | `USB PD VBUS` | Granskad i Lokalise (ID 511675013); tekniskt standardnamn ska behållas. |
 | `component::iron_os::entity::sensor::power_source::state::qc` | `USB Quick Charge` | `USB Quick Charge` | Granskad i Lokalise (ID 511675014); produkt-/standardnamnet ska behållas. |
+| `component::iron_os::entity::sensor::tip_resistance::name` | `Tip resistance` | `Spetsmotstånd` | Granskad i Lokalise (ID 511675015); korrekt fackterm för lödspetsens resistans. |
+| `component::iron_os::entity::sensor::tip_voltage::name` | `Raw tip voltage` | `Rå spetsspänning` | Granskad i Lokalise (ID 511675016); korrekt sensorbenämning. |
+| `component::iron_os::entity::sensor::voltage::name` | `DC input voltage` | `DC-ingångsspänning` | Granskad i Lokalise (ID 511675018); korrekt svensk teknisk sammansättning. |
 
 ## Pågående täckning
 
