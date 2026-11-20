@@ -60,6 +60,7 @@ Datum: 2026-11-20. Komponenten granskas mot `origin/dev` i Home Assistant Core o
 | `component::irm_kmi::entity::sensor::pollen_oak::state::purple` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::purple%]` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::purple%]` | Referens återställd och återläst i Lokalise (ID 984688802); följer Core-källan. |
 | `component::irm_kmi::entity::sensor::pollen_oak::state::red` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::red%]` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::red%]` | Referens återställd och återläst i Lokalise (ID 984688803); följer Core-källan. |
 | `component::irm_kmi::entity::sensor::pollen_oak::state::yellow` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::yellow%]` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::yellow%]` | Referens återställd och återläst i Lokalise (ID 984688804); följer Core-källan. |
+| `component::irm_kmi::common::language_override_description` | `Åsidosätt Home Assistants språk för den textbaserade väderprognosen.` | `Åsidosätt Home Assistants språk för prognostexter och varningar.` | Uppdaterad källtext omfattar även varningar; sparad och återläst i Lokalise (ID 714799464). |
 
 ## Pågående täckning
 
