@@ -19,6 +19,7 @@ Datum: 2026-11-20. Komponenten granskas mot `origin/dev` i Home Assistant Core o
 | `component::irm_kmi::entity::sensor::pollen_mugwort::name` | Mugwort pollen | Gråbopollen | Sparad och återläst i Lokalise (ID 984688789). Etablerad svensk sammansättning för pollenallergen. |
 | `component::irm_kmi::entity::sensor::pollen_oak::name` | Oak pollen | Ekpollen | Sparad och återläst i Lokalise (ID 984688797). Etablerad svensk sammansättning för pollenallergen. |
 | `component::irm_kmi::entity::sensor::pollen_ash::state::active` | `[%key:common::state::active%]` | `[%key:common::state::active%]` | Referens återställd och återläst i Lokalise (ID 984688758); följer Core-källan. |
+| `component::irm_kmi::entity::sensor::pollen_ash::state::green` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::green%]` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::green%]` | Referens återställd och återläst i Lokalise (ID 984688759); följer Core-källan. |
 
 ## Pågående täckning
 
