@@ -1,7 +1,7 @@
 # Home Assistant Core — granskning sida 471 (AccuWeather, NextDNS och Person)
 
 Datum: 2026-11-20  
-Status: dokumenterat förslag; **inte sparat i Lokalise**
+Status: sparat i Lokalise 2026-11-20
 
 NextDNS-källtexten kontrollerades mot `homeassistant/components/nextdns/strings.json` på Home Assistant Cores `dev`-gren.
 
