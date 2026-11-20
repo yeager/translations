@@ -33,6 +33,7 @@ Den tidigare autentiserade Lokalise-sessionen och dess API-hjälpare återställ
 - `svlang`, `hunspell-sv`, `swedish-foss-terminology` och `swedish-tm` har kontrollerats från rena arbetskopior i arbetsytan.
 - Python-källorna kompilerar och `swedish-foss-terminology` kan starta sin export-CLI. Fulla pytest-sviter är inte körda eftersom den återställda miljön saknar `pytest`.
 - Hunspell markerar `klimatprofilsindex`, trots att beståndsdelarna accepteras. Termen kommer från den aktuella Home Assistant-kontexten men saknar här en oberoende generell ordbokskälla. Enligt `hunspell-sv`-policyn läggs den därför inte in som en global enskild katalogterm; träffen är en granskningssignal, inte ett automatiskt verktygsfel.
+- `swedish-tm` innehåller från commit `fac51ee` den beroendefria valideraren `scripts/validate_home_assistant_core_tmx.py`. Den validerar XML, språksegment, källproveniens och review-status samt rapporterar skillnaden mellan Lokalise-ID och historiska nyckelbaserade `tuid`-värden. Dess strikta migrationsläge är avsiktligt rött tills ID-rekonstruktionen kan verifieras via API:t.
 
 ## Referenser
 
