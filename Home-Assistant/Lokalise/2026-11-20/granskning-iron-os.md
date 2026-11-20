@@ -70,6 +70,10 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::select::min_dc_voltage_cells::state::battery_5s` | `5S (5 cells)` | `5S (5 celler)` | Granskad i Lokalise (ID 580407965); korrekt batteribeteckning och pluralform. |
 | `component::iron_os::entity::select::min_dc_voltage_cells::state::battery_6s` | `6S (6 cells)` | `6S (6 celler)` | Granskad i Lokalise (ID 580407966); korrekt batteribeteckning och pluralform. |
 | `component::iron_os::entity::select::min_dc_voltage_cells::state::no_battery` | `External power supply (DC)` | `Extern strömförsörjning (DC)` | Granskad i Lokalise (ID 580407967); korrekt svensk teknisk term och enhet. |
+| `component::iron_os::entity::select::orientation_mode::name` | `Display orientation mode` | `Läge för skärmorientering` | Granskad i Lokalise (ID 580407968); korrekt svensk reglageetikett. |
+| `component::iron_os::entity::select::orientation_mode::state::auto` | `[%key:common::state::auto%]` | Oförändrad | Granskad i Lokalise (ID 580407969); korrekt Core-referens för automatiskt läge. |
+| `component::iron_os::entity::select::orientation_mode::state::left_handed` | `Left-handed` | `Vänsterhänt` | Granskad i Lokalise (ID 580407970); korrekt svensk användarinställning. |
+| `component::iron_os::entity::select::orientation_mode::state::right_handed` | `Right-handed` | `Högerhänt` | Granskad i Lokalise (ID 580407971); korrekt svensk användarinställning. |
 
 ## Pågående täckning
 
