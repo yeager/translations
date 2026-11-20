@@ -101,6 +101,7 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::sensor::operating_mode::state::settings` | `Settings` | `Inställningar` | Granskad i Lokalise (ID 511675006); korrekt lägesnamn. |
 | `component::iron_os::entity::sensor::operating_mode::state::sleeping` | `Sleeping` | `Sover` | Granskad i Lokalise (ID 511675007); korrekt pågående statusform. |
 | `component::iron_os::entity::sensor::operating_mode::state::soldering` | `Soldering` | `Löder` | Granskad i Lokalise (ID 511675008); korrekt pågående statusform. |
+| `component::iron_os::entity::sensor::operating_mode::state::soldering_profile` | `Soldering profile` | `Lödningsprofil` | Granskad i Lokalise (ID 616289606); korrekt svensk sammansättning. |
 
 ## Pågående täckning
 
