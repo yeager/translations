@@ -3,7 +3,8 @@
 Datum: 2026-11-20  
 Källa: Home Assistant Core `3d340fb5fdf03e7db48b45aec10f9b8da3b31c12`,
 `homeassistant/components/simplepush/strings.json`  
-Lokalise: läsning av `component::simplepush`; inga skrivningar har gjorts.
+Lokalise: läsning av `component::simplepush`, med en verifierad skrivning
+2026-11-20.
 
 ## Omfattning
 
@@ -22,11 +23,11 @@ mot Core-källan. De två gemensamma referenserna är intakta.
 | `component::simplepush::exceptions::title_or_message_too_long::message` | The notification title or message is too long. | Aviseringens titel eller brödtext är för lång. | Godtagbar och korrekt; inget ändringsförslag. |
 | `component::simplepush::exceptions::send_message_failed::message` | Failed to send the Simplepush notification. | Det gick inte att skicka  Simplepush-aviseringen . | Se förslag nedan. |
 
-## Lokalt, ännu osparat förslag
+## Sparat förslag
 
 | Fullständig nyckel | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- |
-| `component::simplepush::exceptions::send_message_failed::message` | `Det gick inte att skicka  Simplepush-aviseringen .` | `Det gick inte att skicka Simplepush-aviseringen.` | Tar bort dubbla mellanrum och felaktigt blanksteg före punkt. Produktnamn och innebörd bevaras. |
+| `component::simplepush::exceptions::send_message_failed::message` | `Det gick inte att skicka  Simplepush-aviseringen .` | `Det gick inte att skicka Simplepush-aviseringen.` | Sparad i Lokalise och återläst i redigeringsfältet; tar bort dubbla mellanrum och felaktigt blanksteg före punkt. Produktnamn och innebörd bevaras. |
 
 ## Verktygsunderlag
 
@@ -39,4 +40,4 @@ mot Core-källan. De två gemensamma referenserna är intakta.
   `Encryption` → `kryptering`, `Message` → `meddelande` och
   `notification` → `avisering`.
 - Ingen Simplepush-post finns i det verifierade Home Assistant-TMX-minnet.
-  Eftersom inget har sparats i Lokalise har TMX-filen inte ändrats.
+  Värdet ska föras in först vid nästa verifierade TMX-synkning.
