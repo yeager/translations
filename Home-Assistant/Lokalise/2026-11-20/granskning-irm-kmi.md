@@ -65,6 +65,7 @@ Datum: 2026-11-20. Komponenten granskas mot `origin/dev` i Home Assistant Core o
 | `component::irm_kmi::entity::sensor::uv_index::name` | `UV-index` | Oförändrad | Granskad i Lokalise (ID 983121751); etablerad svensk term. |
 | `component::irm_kmi::entity::sensor::wind_gust_speed::name` | `Vindbyhastighet` | Oförändrad | Granskad i Lokalise (ID 983121752); korrekt fackterm. |
 | `component::irm_kmi::exceptions::api_error::message` | `Ett fel uppstod vid kommunikationen med API:et: {error}` | Oförändrad | Granskad i Lokalise (ID 983093774); platshållaren är bevarad och `API:et` stöds av termbanken. |
+| `component::irm_kmi::config::abort::already_configured` | `Platsen är redan konfigurerad` | `[%key:common::config_flow::abort::already_configured_location%]` | Gemensam Core-referens återställd och återläst i Lokalise (ID 714799465). |
 
 ## Pågående täckning
 
