@@ -28,6 +28,7 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::number::keep_awake_pulse_delay::name` | `Keep-awake pulse delay` | `Fördröjning för vakenhållningspuls` | Ändrad från en ofullständig ord-för-ord-konstruktion till svensk reglageetikett; sparad och återläst i Lokalise (ID 572443009). |
 | `component::iron_os::entity::number::keep_awake_pulse_duration::name` | `Keep-awake pulse duration` | `Varaktighet för vakenhållningspuls` | Ändrad från en ofullständig ord-för-ord-konstruktion till svensk reglageetikett; sparad och återläst i Lokalise (ID 572443010). |
 | `component::iron_os::entity::number::keep_awake_pulse_power::name` | `Keep-awake pulse intensity` | `Intensitet för vakenhållningspuls` | Ändrad från en ofullständig ord-för-ord-konstruktion till svensk reglageetikett; sparad och återläst i Lokalise (ID 572443011). |
+| `component::iron_os::entity::number::min_voltage_per_cell::name` | `Min. voltage per cell` | `Minsta spänning per cell` | Förkortningen expanderad till tydlig svensk reglageetikett; sparad och återläst i Lokalise (ID 572443012). |
 
 ## Pågående täckning
 
