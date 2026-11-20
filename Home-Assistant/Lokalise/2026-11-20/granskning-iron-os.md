@@ -85,6 +85,8 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::select::usb_pd_mode::name` | `Power Delivery 3.1 EPR` | `Power Delivery 3.1 EPR` | Granskad i Lokalise (ID 592275690); standardnamn och förkortning ska behållas. |
 | `component::iron_os::entity::select::usb_pd_mode::state::off` | `[%key:common::state::off%]` | Oförändrad | Granskad i Lokalise (ID 592275691); korrekt Core-referens. |
 | `component::iron_os::entity::select::usb_pd_mode::state::on` | `[%key:common::state::on%]` | Oförändrad | Granskad i Lokalise (ID 592275692); korrekt Core-referens. |
+| `component::iron_os::entity::sensor::estimated_power::name` | `Estimated power` | `Beräknad effekt` | Granskad i Lokalise (ID 511674996); korrekt svensk teknisk term. |
+| `component::iron_os::entity::sensor::hall_sensor::name` | `Hall effect strength` | `Halleffektstyrka` | Granskad i Lokalise (ID 511674997); korrekt svensk sammansättning. |
 
 ## Pågående täckning
 
