@@ -17,6 +17,8 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::config::error::cannot_connect` | `[%key:common::config_flow::error::cannot_connect%]` | Oförändrad | Granskad i Lokalise (ID 641222256); korrekt Core-referens. |
 | `component::iron_os::config::error::unknown` | `[%key:common::config_flow::error::unknown%]` | Oförändrad | Granskad i Lokalise (ID 641222257); korrekt Core-referens. |
 | `component::iron_os::entity::binary_sensor::tip_connected::name` | `Soldering tip` | `Lödspets` | Granskad i Lokalise (ID 575468261); korrekt fackterm. |
+| `component::iron_os::entity::button::settings_reset::name` | `Restore default settings` | `Återställ standardinställningar` | Granskad i Lokalise (ID 584039639); korrekt åtgärdsterm. |
+| `component::iron_os::entity::button::settings_save::name` | `Save settings` | `Spara inställningar` | Granskad i Lokalise (ID 584039640); korrekt åtgärdsterm. |
 
 ## Pågående täckning
 
