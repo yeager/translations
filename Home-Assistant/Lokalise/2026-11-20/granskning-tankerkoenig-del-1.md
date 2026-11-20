@@ -42,6 +42,13 @@ i Lokalise och lästs tillbaka i redigeraren: två tjänststrängar, tre
 referenser, fyra meddelanden/beskrivningar och E10-namnet. Varje rad jämfördes
 mot aktuell Core-källa före skrivning.
 
+De tio posterna samt den sparade Simplepush-posten har därefter förts in i
+`swedish-tm`-overlayen
+`sv-home-assistant-core-lokalise-verified-20261120-canonical.tmx`. Valideraren
+godkänner nu 780 poster (572 med Lokalise-ID och 208 med spårbar
+nyckelbaserad proveniens); TMX-synken publicerades i `yeager/swedish-tm` som
+commit `b4aff87`.
+
 Förslagen följer den befintliga svenska Core-terminologin för `API-nyckel`,
 `avfrågningsintervall` och `bensinstation`. De två sparade referenserna ska
 tas med vid nästa verifierade TMX-synkning; övriga rader ovan väntar fortfarande
