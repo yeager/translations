@@ -11,11 +11,11 @@ Senast uppdaterad: 2026-11-20.
 ## Kanoniskt Home Assistant-minne
 
 - Fil: `yeager/swedish-tm/Home-Assistant/sv-home-assistant-core-lokalise-verified-20261120-canonical.tmx`.
-- Senast verifierad nivå: **878** unika översättningsenheter (231 historiska nyckelbaserade och 647 med Lokalise-ID), inklusive de
+- Senast verifierad nivå: **953** unika översättningsenheter (231 historiska nyckelbaserade och 722 med Lokalise-ID), inklusive de
   sparade och återlästa HotSpring-, Evohome- och tidigare komponentkorrigeringarna från 2026-11-20.
 - XML-kontroll: unika `tuid`-värden och fullständig `source`-proveniens för varje post.
-- Alla 878 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back` eller, för redan korrekta och återverifierade Lokalise-värden, `verified-existing`.
-- 606 senare poster använder `lokalise:<översättnings-id>` som `tuid`. De 231 historiska posterna använder i stället den fullständiga källnyckeln som `tuid`; deras Lokalise-ID behöver hämtas från API:t innan de kan migreras säkert.
+- Alla 953 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back` eller, för redan korrekta och återverifierade Lokalise-värden, `verified-existing`.
+- 722 senare poster använder `lokalise:<översättnings-id>` som `tuid`. De 231 historiska posterna använder i stället den fullständiga källnyckeln som `tuid`; deras Lokalise-ID behöver hämtas från API:t innan de kan migreras säkert.
 
 ## Pågående uppföljning
 
@@ -49,6 +49,7 @@ Senast uppdaterad: 2026-11-20.
 | `component::radiotherm` | Alla 9 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::simplepush` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; felmeddelandet om sändning sparades i Lokalise och återlästes i redigeringsfältet. | Ta med värdet vid nästa verifierade TMX-synkning. |
 | `component::tankerkoenig` | Del 1–2: konfiguration och synliga sensorattribut är lästa mot aktuell Core-källa. Alla tio fastställda ändringar är sparade och återlästa i Lokalise. | Kontrollera historiska Lokalise-rader mot API-proveniens när full export finns. |
+| `component::irm_kmi` | Samtliga **75** aktuella Core-strängar är kontrollerade mot Lokalise och aktuell Core-källa. Tolv felaktiga eller föråldrade mål har sparats och återlästs; övriga är dokumenterat korrekta. | Komponenten kan återkontrolleras vid källändring. |
 | 197 historiska TMX-enheter | Strukturellt giltiga men saknar Lokalise-ID i `tuid`. | Slå upp varje fullständig `source`-nyckel via Lokalise-API:t och ersätt `tuid` först efter en unik matchning. |
 
 ## Miljöstatus
