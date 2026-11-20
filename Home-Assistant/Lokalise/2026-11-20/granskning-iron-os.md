@@ -104,6 +104,7 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::sensor::operating_mode::state::soldering_profile` | `Soldering profile` | `Lödningsprofil` | Granskad i Lokalise (ID 616289606); korrekt svensk sammansättning. |
 | `component::iron_os::entity::sensor::operating_mode::state::startup_logo` | `Booting` | `Startar` | Granskad i Lokalise (ID 616289607); korrekt pågående statusform. |
 | `component::iron_os::entity::sensor::operating_mode::state::startup_warnings` | `Startup warnings` | `Varningar vid uppstart` | Granskad i Lokalise (ID 616289608); korrekt och idiomatisk svensk statusfras. |
+| `component::iron_os::entity::sensor::operating_mode::state::temperature_adjust` | `Temperature adjust` | `Temperaturjustering` | Granskad i Lokalise (ID 616289609); korrekt svensk teknisk sammansättning. |
 
 ## Pågående täckning
 
