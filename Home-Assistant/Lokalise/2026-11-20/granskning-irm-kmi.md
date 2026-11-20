@@ -69,6 +69,9 @@ Datum: 2026-11-20. Komponenten granskas mot `origin/dev` i Home Assistant Core o
 | `component::irm_kmi::config::abort::api_error` | `Misslyckades med att ansluta` | `[%key:common::config_flow::error::cannot_connect%]` | Gemensam Core-referens återställd och återläst i Lokalise (ID 714799466). |
 | `component::irm_kmi::config::abort::unknown` | `Oväntat fel` | `[%key:common::config_flow::error::unknown%]` | Gemensam Core-referens återställd och återläst i Lokalise (ID 714799467). |
 | `component::irm_kmi::config::step::user::data::location` | `Plats` | `[%key:common::config_flow::data::location%]` | Gemensam Core-referens återställd och återläst i Lokalise (ID 714799469). |
+| `component::irm_kmi::config::step::user::data_description::location` | `[%key:common::config_flow::data::location%]` | Oförändrad | Granskad i Lokalise (ID 714799470); korrekt Core-referens. |
+| `component::irm_kmi::options::step::init::data::language_override` | `[%key:common::config_flow::data::language%]` | Oförändrad | Granskad i Lokalise (ID 714799471); korrekt Core-referens. |
+| `component::irm_kmi::options::step::init::data_description::language_override` | `[%key:component::irm_kmi::common::language_override_description%]` | Oförändrad | Granskad i Lokalise (ID 714799472); korrekt komponentreferens. |
 
 ## Pågående täckning
 
