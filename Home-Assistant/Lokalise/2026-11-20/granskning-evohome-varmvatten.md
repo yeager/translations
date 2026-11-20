@@ -24,3 +24,18 @@ Datum: 2026-11-20. Lokalise lästes i skrivskyddat läge. Källan har kontroller
 - `hunspell -d sv_SE -l` gav inga felstavningsträffar för förslagen.
 - `swedish-tm` ger etablerat stöd för *börvärde* i Home Assistant, bland annat `component::plugwise::entity::sensor::domestic_hot_water_setpoint::name` → `Börvärde för varmvatten`.
 - Ingen Lokalise-skrivning har genomförts. Förslagen är därför **inte** införda i det kanoniska HA-TMX-minnet, vars poster endast får representera sparade och återlästa värden.
+
+## Närliggande zonöverstyrning
+
+Den aktuella Core-källan innehåller även sex aktiva strängar för `set_zone_override`. Samtliga har lästs i Lokalise och kontrollerats mot samma `strings.json`; inga ändringsförslag behövs.
+
+| Fullständig nyckel | Befintlig svenska | Bedömning |
+| --- | --- | --- |
+| `component::evohome::services::set_zone_override::name` | Ställ in zonens åsidosättning | Korrekt tjänstenamn. |
+| `component::evohome::services::set_zone_override::fields::setpoint::name` | Målvärde | Etablerat inom Evohomes zonöverstyrning. |
+| `component::evohome::services::set_zone_override::fields::setpoint::description` | Temperaturen som ska användas i stället för det schemalagda målvärdet. | Korrekt och idiomatisk. |
+| `component::evohome::services::set_zone_override::fields::duration::name` | Varaktighet | Korrekt. |
+| `component::evohome::services::set_zone_override::fields::duration::description` | Zonen återgår till sitt schema efter denna tid. Om 0 gäller ändringen fram till nästa schemalagda målvärde. | Korrekt; *målvärde* är konsekvent med de intilliggande zonfälten. |
+| `component::evohome::services::set_zone_override::description` | Åsidosätter en zons målvärde, antingen på obestämd tid eller under en angiven tidsperiod, varefter den återgår till att följa sitt schema. | Korrekt. |
+
+Lokalise visar dessutom två referenssträngar för den äldre tjänsten `clear_zone_override`. De saknas i aktuell Core-källa och pekar exakt på `set_zone_override`-fältens `entity_id`-nycklar. De behandlas som historiska och ändras inte.
