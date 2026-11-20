@@ -36,6 +36,7 @@ Datum: 2026-11-20. Komponenten granskas mot `origin/dev` i Home Assistant Core o
 | `component::irm_kmi::entity::sensor::pollen_grasses::state::green` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::green%]` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::green%]` | Referens återställd och återläst i Lokalise (ID 984688775); följer Core-källan. |
 | `component::irm_kmi::entity::sensor::pollen_grasses::state::none` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::none%]` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::none%]` | Referens återställd och återläst i Lokalise (ID 984688776); följer Core-källan. |
 | `component::irm_kmi::entity::sensor::pollen_grasses::state::orange` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::orange%]` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::orange%]` | Referens återställd och återläst i Lokalise (ID 984688777); följer Core-källan. |
+| `component::irm_kmi::entity::sensor::pollen_grasses::state::purple` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::purple%]` | `[%key:component::irm_kmi::entity::sensor::pollen_alder::state::purple%]` | Referens återställd och återläst i Lokalise (ID 984688778); följer Core-källan. |
 
 ## Pågående täckning
 
