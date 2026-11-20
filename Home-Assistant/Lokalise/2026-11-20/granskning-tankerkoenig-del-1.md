@@ -35,6 +35,13 @@ radie- och kartbeskrivningarna, sensorattributen `city`, `fuel_type`,
 
 ## Verktygsstatus
 
+### Sparstatus 2026-11-20
+
+Samtliga tio Tankerkoenig-rader i tabellen ovan har efter granskningen sparats
+i Lokalise och lästs tillbaka i redigeraren: två tjänststrängar, tre
+referenser, fyra meddelanden/beskrivningar och E10-namnet. Varje rad jämfördes
+mot aktuell Core-källa före skrivning.
+
 Förslagen följer den befintliga svenska Core-terminologin för `API-nyckel`,
 `avfrågningsintervall` och `bensinstation`. De två sparade referenserna ska
 tas med vid nästa verifierade TMX-synkning; övriga rader ovan väntar fortfarande
