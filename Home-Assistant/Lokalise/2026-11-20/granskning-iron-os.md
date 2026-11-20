@@ -38,6 +38,7 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::number::sleep_timeout::name` | `Sleep timeout` | `Tidsgräns för viloläge` | Ändrad från svensk–engelsk blandform till komplett svensk reglageetikett; sparad och återläst i Lokalise (ID 572443018). |
 | `component::iron_os::entity::number::temp_increment_long::name` | `Long-press temperature step` | `Temperatursteg vid långtryckning` | Ändrad från felaktig särskrivning till korrekt svensk sammansättning; sparad och återläst i Lokalise (ID 572443019). |
 | `component::iron_os::entity::number::temp_increment_short::name` | `Short-press temperature step` | `Temperatursteg vid korttryckning` | Ändrad från felaktig särskrivning till korrekt svensk sammansättning; sparad och återläst i Lokalise (ID 572443020). |
+| `component::iron_os::entity::number::voltage_div::name` | `Voltage divider` | `Spänningsdelare` | Granskad i Lokalise (ID 572443021); korrekt svensk teknisk term. |
 
 ## Pågående täckning
 
