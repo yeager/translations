@@ -23,7 +23,7 @@ Senast uppdaterad: 2026-11-20.
 | Nya tomma HotSpring-poster och följdposter | 14 förslag dokumenterade utan Lokalise-skrivning. | Kontrollera att HotSpring-källan publicerats i Core före ett eventuellt sparbeslut. |
 | `component::hotspring` | Alla 50 aktuella nycklar är granskade genom smalare Lokalise-sökningar; fyra ändringsförslag och produkttermsberoenden är dokumenterade. | Återkontrollera mot publicerad Core-källa innan ett eventuellt sparbeslut. |
 | `component::timer_list` | Alla 61 aktuella, tomma strängar är granskade mot Core-källan och dokumenterade som förslag. | Komponenten kan återkontrolleras vid källändring; fortsätt i Lokalise med nästa oavgranskade komponent. |
-| `component::evohome` (tjänster och undantag) | 32 aktuella källsträngar har kontrollerats mot Core-källan; tre konkreta ändringsförslag är dokumenterade och en tom rad har ett äldre, odubblerat förslag. | Fortsätt med uppdateringstjänst och aktuell issue; sparade värden ska alltid återläsas före eventuell TMX-synkning. |
+| `component::evohome` | Alla **36** aktuella källsträngar har kontrollerats mot Core-källan; tre konkreta ändringsförslag är dokumenterade och en tom rad har ett äldre, odubblerat förslag. | Komponenten kan återkontrolleras vid källändring; Lokalise innehåller även historiska nycklar som inte motsvarar aktuell Core-källa. |
 | 197 historiska TMX-enheter | Strukturellt giltiga men saknar Lokalise-ID i `tuid`. | Slå upp varje fullständig `source`-nyckel via Lokalise-API:t och ersätt `tuid` först efter en unik matchning. |
 
 ## Miljöstatus

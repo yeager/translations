@@ -23,3 +23,7 @@ Elva aktuella undantag har kontrollerats och är korrekta: `api_connection_faile
 - `svlang skrivregler` gav inga träffar för förslaget.
 - `hunspell -d sv_SE -l` gav inga felstavningsträffar.
 - Ingen Lokalise-skrivning har genomförts. Varken detta förslag eller det redan dokumenterade tomma värdet får föras in i det kanoniska HA-TMX-minnet förrän de sparats och återlästs.
+
+## Uppdatering och avvecklingsmeddelande
+
+De två aktiva `refresh_system`-strängarna och de två aktuella raderna i `deprecated_refresh_system_service` är kontrollerade mot Core-källan utan ändringsförslag. `Uppdatera systemet` och dess beskrivning är korrekta. Issue-raderna bevarar `{breaks_in_ha_version}`, ``refresh_system`` och ``homeassistant.update_entity`` exakt och översätter korrekt målentiteten till *styrenhetens klimatentitet*.
