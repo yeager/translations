@@ -1,7 +1,7 @@
 # Home Assistant Core — granskning sida 467 (Workday och Wyoming)
 
 Datum: 2026-11-20  
-Status: dokumenterat förslag; **inte sparat i Lokalise**
+Status: sparat i Lokalise 2026-11-20
 
 Workday-källtexten kontrollerades mot `homeassistant/components/workday/strings.json` och Wyoming-källtexten mot `homeassistant/components/wyoming/strings.json` på Home Assistant Cores `dev`-gren.
 
