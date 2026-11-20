@@ -77,6 +77,9 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::select::temp_unit::name` | `Temperature display unit` | `Enhet för temperaturvisning` | Granskad i Lokalise (ID 580407972); korrekt och tydlig svensk etikett. |
 | `component::iron_os::entity::select::temp_unit::state::celsius` | `Celsius (°C)` | `Celsius (°C)` | Granskad i Lokalise (ID 580407973); namn och enhet är korrekta. |
 | `component::iron_os::entity::select::temp_unit::state::fahrenheit` | `Fahrenheit (°F)` | `Fahrenheit (°F)` | Granskad i Lokalise (ID 580407974); namn och enhet är korrekta. |
+| `component::iron_os::entity::select::tip_type::name` | `Soldering tip type` | `Typ av lödspets` | Granskad i Lokalise (ID 616289598); korrekt svensk fackterm. |
+| `component::iron_os::entity::select::tip_type::state::auto` | `Auto sense` | `Automatisk avkänning` | Granskad i Lokalise (ID 616289599); korrekt funktionsterm. |
+| `component::iron_os::entity::select::tip_type::state::pine_short` | `Pinecil short tip` | `Pinecil kort lödspets` | Kompletterad med facktermen `lödspets`; sparad och återläst i Lokalise (ID 616289600). |
 
 ## Pågående täckning
 
