@@ -52,6 +52,7 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043117 | `component::timer_list::services::cancel_timer::name` | Cancel timer | Avbryt timer |
 | 984043116 | `component::timer_list::services::cancel_timer::fields::timer_id::name` | Timer ID | Timer-ID |
 | 984043115 | `component::timer_list::services::cancel_timer::fields::timer_id::description` | The id of the timer to cancel. | ID:t för timern som ska avbrytas. |
+| 984043114 | `component::timer_list::services::cancel_timer::description` | Cancels a timer without finishing it. | Avbryter en timer utan att avsluta den. |
 
 Varje värde sparades från ett tidigare dokumenterat förslag och lästes tillbaka
 direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
