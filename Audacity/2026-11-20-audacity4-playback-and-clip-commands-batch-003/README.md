@@ -20,7 +20,7 @@ Radgranskning av Qt TS-katalogen `audacity4-sv-review-batch-002-20261120.ts`.
 | `At zero crossings` | `Vid nollgenomgångar` | `trackeditcommandsregister.cpp:476` |
 | `Split track` | `Dela spår` | `trackeditcommandsregister.cpp:804` |
 
-Alla sextiosju var oöversatta i den aktuella Qt-katalogen. Formuleringarna följer
+Alla sjuttionio var oöversatta i den aktuella Qt-katalogen. Formuleringarna följer
 Audacitys etablerade termer `klipp`, `spår` och `spelområde` och är korta
 kommandoetiketter enligt respektive källkommentar.
 
@@ -62,12 +62,20 @@ Tre avslutande kommandohjälptexter i avsnittet har också översatts:
 använda den` och `Exportera projektljudet som en MP3-fil till mappen för
 makroutdata`. Platshållaren `%1` är oförändrad.
 
+## Diagnostik och automatisk duckning
+
+Tolv ytterligare oöversatta poster har granskats: en diagnostiktext med `%1`
+och Auto duck-effektens två namnposter, reglage och förklarande feltext.
+Effekten översätts konsekvent som `Automatisk duckning`, medan dess etablerade
+tekniska funktion förklaras med `Kontrollspår`, `Nivåsänkning` och `Hålltid`.
+Platshållaren `%1` är bibehållen exakt.
+
 ## Verifiering
 
 - `xmllint --noout` godkände den ändrade TS-filen.
 - Källplats, platsmarkörer och TS-struktur kontrollerades för varje post; inga
   platshållare förekommer i denna batch.
 - Aktuell arbetskopia efter batchen: SHA-256
-  `b1cdc94f23d371622259999d54b4eae2292ffa0af514ad49699f1e246f6a7a75`.
+  `ccdfea56faa4b83e11efd7e36f33e4b15e6dd80c170783597cc040b514a343e4`.
 - `lrelease` saknas i den här miljön, så QM-kompilering har inte påståtts vara
   genomförd.
