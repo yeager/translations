@@ -11,10 +11,11 @@ Senast uppdaterad: 2026-11-20.
 ## Kanoniskt Home Assistant-minne
 
 - Fil: `yeager/swedish-tm/Home-Assistant/sv-home-assistant-core-lokalise-verified-20261120-canonical.tmx`.
-- Senast verifierad nivå: **769** unika översättningsenheter, t.o.m. sida 731.
+- Senast verifierad nivå: **780** unika översättningsenheter, inklusive
+  Simplepush och Tankerkoenig som sparades och återlästes 2026-11-20.
 - XML-kontroll: unika `tuid`-värden och fullständig `source`-proveniens för varje post.
-- Alla 769 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back`.
-- 572 senare poster använder `lokalise:<översättnings-id>` som `tuid`. De 197 historiska posterna använder i stället den fullständiga källnyckeln som `tuid`; deras Lokalise-ID behöver hämtas från API:t innan de kan migreras säkert.
+- Alla 780 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back`.
+- 572 senare poster använder `lokalise:<översättnings-id>` som `tuid`. De 208 historiska posterna använder i stället den fullständiga källnyckeln som `tuid`; deras Lokalise-ID behöver hämtas från API:t innan de kan migreras säkert.
 
 ## Pågående uppföljning
 
@@ -52,7 +53,8 @@ Senast uppdaterad: 2026-11-20.
 
 ## Miljöstatus
 
-Den tidigare autentiserade Lokalise-sessionen och dess API-hjälpare återställdes av miljön, men en läsbehörig Lokalise-yta har återetablerats. Ingen Lokalise-skrivning görs. Fortsatt arbete använder inte `/tmp`; cache, rapporter och valideringsunderlag ska ligga i arbetsytan eller i respektive GitHub-repository.
+En autentiserad Lokalise-yta är tillgänglig igen. Fastställda ändringar sparas
+omedelbart och läses tillbaka; fortsatt arbete använder inte `/tmp`.
 
 ### Tillfälligt åtkomsthinder efter RadioTherm-granskningen
 
