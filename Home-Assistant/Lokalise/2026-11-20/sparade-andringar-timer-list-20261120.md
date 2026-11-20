@@ -41,6 +41,7 @@ Status: sparade och återlästa i Lokalise-gränssnittet
 | 984043128 | `component::timer_list::services::get_timers::description` | Gets the timers on a timer list. | Hämtar timers i en timerlista. |
 | 984043127 | `component::timer_list::services::finish_timer::name` | Finish timer | Avsluta timer |
 | 984043126 | `component::timer_list::services::finish_timer::fields::timer_id::name` | Timer ID | Timer-ID |
+| 984043125 | `component::timer_list::services::finish_timer::fields::timer_id::description` | The id of the timer to finish. | ID:t för timern som ska avslutas. |
 
 Varje värde sparades från ett tidigare dokumenterat förslag och lästes tillbaka
 direkt i Lokalise. Inga platshållare eller pluralformer förekommer.
