@@ -56,6 +56,10 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::select::locking_mode::state::boost_only` | `Boost only` | `Endast boost` | Granskad i Lokalise (ID 580407951); kort och tydlig valetikett i låskontext. |
 | `component::iron_os::entity::select::locking_mode::state::full_locking` | `Full locking` | `Fullständig låsning` | Ändrad från den oidiomatiska direktöversättningen `Full låsning`; sparad och återläst i Lokalise (ID 580407952). |
 | `component::iron_os::entity::select::locking_mode::state::off` | `[%key:common::state::off%]` | Oförändrad | Granskad i Lokalise (ID 580407953); korrekt Core-referens till avstängt läge. |
+| `component::iron_os::entity::select::logo_duration::name` | `Boot logo duration` | `Uppstartslogotypens visningstid` | Granskad i Lokalise (ID 580407954); exakt och idiomatisk svensk inställningsetikett. |
+| `component::iron_os::entity::select::logo_duration::state::loop` | `Loop` | `Loop` | Granskad i Lokalise (ID 580407955); etablerad kort term för upprepad visning. |
+| `component::iron_os::entity::select::logo_duration::state::off` | `[%key:common::state::off%]` | Oförändrad | Granskad i Lokalise (ID 580407956); korrekt Core-referens till avstängt läge. |
+| `component::iron_os::entity::select::logo_duration::state::seconds_1` | `1 second` | `1 sekund` | Granskad i Lokalise (ID 580407957); korrekt singularform. |
 
 ## Pågående täckning
 
