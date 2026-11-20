@@ -11,12 +11,12 @@ Senast uppdaterad: 2026-11-20.
 ## Kanoniskt Home Assistant-minne
 
 - Fil: `yeager/swedish-tm/Home-Assistant/sv-home-assistant-core-lokalise-verified-20261120-canonical.tmx`.
-- Senast verifierad nivå: **788** unika översättningsenheter, inklusive
-  Simplepush, Tankerkoenig, Energenie Power Sockets, Laundrify, Luftdaten, Private BLE Device och OurGroceries som
+- Senast verifierad nivå: **789** unika översättningsenheter, inklusive
+  Simplepush, Tankerkoenig, Energenie Power Sockets, Laundrify, Luftdaten, Private BLE Device, OurGroceries och Fing som
   sparades och återlästes 2026-11-20.
 - XML-kontroll: unika `tuid`-värden och fullständig `source`-proveniens för varje post.
-- Alla 788 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back`.
-- 572 senare poster använder `lokalise:<översättnings-id>` som `tuid`. De 216 historiska posterna använder i stället den fullständiga källnyckeln som `tuid`; deras Lokalise-ID behöver hämtas från API:t innan de kan migreras säkert.
+- Alla 789 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back`.
+- 572 senare poster använder `lokalise:<översättnings-id>` som `tuid`. De 217 historiska posterna använder i stället den fullständiga källnyckeln som `tuid`; deras Lokalise-ID behöver hämtas från API:t innan de kan migreras säkert.
 
 ## Pågående uppföljning
 
@@ -29,7 +29,7 @@ Senast uppdaterad: 2026-11-20.
 | `component::ezviz` | Alla **82** aktuella Core-strängar är granskade mot Core-källan; nio förslag är dokumenterade, varav tre återställer obligatoriska referenser. | Komponenten kan återkontrolleras vid källändring; 12 Lokalise-rader som saknas i aktuell Core-källa är dokumenterade som historiska. |
 | `component::fivem` | Alla 12 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::feedreader` | Alla 7 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag; tre äldre Lokalise-rader är markerade som historiska. | Komponenten kan återkontrolleras vid källändring. |
-| `component::fing` | Alla 15 aktuella Core-strängar är granskade mot Core-källan; ett produktnamns- och böjningsförslag är dokumenterat. | Komponenten kan återkontrolleras vid källändring. |
+| `component::fing` | Alla 15 aktuella Core-strängar är granskade mot Core-källan; Fing-API-texten är sparad och återläst i Lokalise. | Komponenten kan återkontrolleras vid källändring. |
 | `component::fibaro` | Alla 16 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag; en äldre Lokalise-rad är markerad som historisk. | Komponenten kan återkontrolleras vid källändring. |
 | `component::filesize` | Alla 10 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag; en äldre Lokalise-rad är markerad som historisk. | Komponenten kan återkontrolleras vid källändring. |
 | `component::gogogate2` | Alla 10 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
