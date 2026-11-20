@@ -21,7 +21,7 @@ Senast uppdaterad: 2026-11-20.
 | Nyckel | Status | Nästa säkra kontroll |
 | --- | --- | --- |
 | Nya tomma HotSpring-poster och följdposter | 14 förslag dokumenterade utan Lokalise-skrivning. | Kontrollera att HotSpring-källan publicerats i Core före ett eventuellt sparbeslut. |
-| `component::timer_list` | 31 tomma strängar granskade mot aktuell Core-källa och dokumenterade som förslag. | Fortsätt från `services::get_timers`; behåll förslagsstatus tills ett sparbeslut finns. |
+| `component::timer_list` | 35 tomma strängar granskade mot aktuell Core-källa och dokumenterade som förslag. | Fortsätt från `services::finish_timer`; behåll förslagsstatus tills ett sparbeslut finns. |
 | 197 historiska TMX-enheter | Strukturellt giltiga men saknar Lokalise-ID i `tuid`. | Slå upp varje fullständig `source`-nyckel via Lokalise-API:t och ersätt `tuid` först efter en unik matchning. |
 
 ## Miljöstatus
