@@ -73,7 +73,7 @@ Lokalise-nyckel-ID:n 984043118–984043127 var tomma på svenska. Nästa tjänst
 | `component::timer_list::selector::status::options::cancelled` | Cancelled | Avbruten | Statusform, konsekvent med `cancel_timer`. |
 | `component::timer_list::selector::status::options::active` | Active | Aktiv | Etablerad statusetikett. |
 | `component::timer_list::exceptions::timer_not_found::message` | Unable to find timer with id: `{timer_id}` | Det gick inte att hitta en timer med ID:t `{timer_id}` | Bevarar platshållaren och korrekt ID-böjning. |
-| `component::timer_list::entity_component::_::name` | `[%key:component::timer_list::title%]` | `[%key:component::timer_list::title%]` | Referensen ska bevaras ordagrant; titelnyckeln ger den synliga svenskan. |
+| `component::timer_list::entity_component::_::name` | `[%key:component::timer_list::title%]` | `[%key:component::timer_list::title%]` — **sparad och återläst i Lokalise** | Referensen ska bevaras ordagrant; titelnyckeln ger den synliga svenskan. |
 
 Lokalise-nyckel-ID:n 984043102–984043117 var tomma på svenska. Den aktuella komponentfrågan omfattade **61** `timer_list`-nycklar; samtliga har nu en dokumenterad bedömning i de tre Timer list-rapporterna. Inga pluraler förekommer. Den enda platshållaren, `{timer_id}`, är identisk i käll- och förslagstext.
 
