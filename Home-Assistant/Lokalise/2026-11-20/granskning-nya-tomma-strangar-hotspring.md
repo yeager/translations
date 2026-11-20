@@ -16,8 +16,8 @@ Datum: 2026-11-20. Granskning mot Lokalise och aktuell Core-källa. Raden `total
 | `component::hotspring::entity::sensor::heater_power::name` | Heater power | Värmarens effekt | Sparad och återläst i Lokalise (ID 984458728); naturlig svensk genitivform för en enhetssensor. |
 | `component::hotspring::entity::sensor::heater_current::name` | Heater current | Värmarens ström | Sparad och återläst i Lokalise (ID 984458727); naturlig svensk genitivform för en enhetssensor. |
 | `component::evohome::exceptions::api_credentials_invalid::message` | The vendor's API rejected the username or password | Leverantörens API avvisade användarnamnet eller lösenordet | Sparad och återläst i Lokalise (ID 984451507); tydlig feltext och etablerade svenska termer. |
-| `component::tankerkoenig::services::get_opening_times::name` | Get opening times | Hämta öppettider | Åtgärdsform för tjänstnamn. |
-| `component::tankerkoenig::services::get_opening_times::description` | Retrieves the opening times of a gas station and their temporary changes. | Hämtar en bensinstations öppettider och tillfälliga ändringar. | Korrekt genitiv och objekt. |
+| `component::tankerkoenig::services::get_opening_times::name` | Get opening times | Hämta öppettider | Åtgärdsform för tjänstnamn. Verifierad oförändrad i Lokalise (ID 984279363). |
+| `component::tankerkoenig::services::get_opening_times::description` | Retrieves the opening times of a gas station and their temporary changes. | Hämtar en bensinstations öppettider och tillfälliga ändringar. | Korrekt genitiv och objekt. Verifierad oförändrad i Lokalise (ID 984279362). |
 | `component::timer_list::triggers::timer_unpaused::name` | Timer resumed | Timer återupptagen | Kort händelserubrik utan onödigt hjälpverb. |
 | `component::timer_list::triggers::timer_unpaused::description` | Triggers when a timer is resumed on a timer list. | Utlöses när en timer återupptas i en timerlista. | Bevarar triggerperspektivet och skiljer *timerlista* från en vanlig lista. |
 
@@ -30,4 +30,4 @@ Datum: 2026-11-20. Granskning mot Lokalise och aktuell Core-källa. Raden `total
 
 ## Uppföljning
 
-Ingen Lokalise-skrivning är utförd. Bekräfta HotSpring-källans publicering eller importerande komponent innan ett eventuellt sparbeslut; övriga förslag kan kontrolleras mot fortsatt kontext när de når den ordinarie granskningsordningen.
+HotSpring-källan har därefter publicerats i Core och dess nio sensorposter är sparade och återlästa. Evohome-raden är också sparad och återläst. Tankerkoenig-raderna var redan korrekt översatta i Lokalise och verifierades oförändrade; ingen duplicerande skrivning gjordes.
