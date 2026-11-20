@@ -28,6 +28,12 @@ Senast uppdaterad: 2026-11-20.
 
 Den tidigare autentiserade Lokalise-sessionen och dess API-hjälpare återställdes av miljön. Efter återställningen görs ingen Lokalise-skrivning. Fortsatt arbete använder inte `/tmp`; cache, rapporter och valideringsunderlag ska ligga i arbetsytan eller i respektive GitHub-repository.
 
+## Källkontroll efter sessionens återställning
+
+- Home Assistant Core kontrollerades mot uppströms-commit `3d340fb5fdf03e7db48b45aec10f9b8da3b31c12` (2026-11-20).
+- `homeassistant/components/logbook/strings.json` och `homeassistant/components/script/strings.json` innehåller fortfarande de engelska källtexter som sida 731 granskades mot, inklusive `Log activity`, `Reload scripts` och `Toggle script`.
+- Detta bekräftar att de dokumenterade sida-731-förslagen inte bygger på föråldrad engelsk källtext. Det ersätter inte Lokalise-återläsningen av de svenska målvärdena och ger därför inte underlag för TMX-synkning.
+
 ## Verktygsaudit
 
 - `svlang`, `hunspell-sv`, `swedish-foss-terminology` och `swedish-tm` har kontrollerats från rena arbetskopior i arbetsytan.
