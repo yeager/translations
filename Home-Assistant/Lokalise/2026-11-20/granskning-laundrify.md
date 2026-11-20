@@ -2,14 +2,14 @@
 
 Datum: 2026-11-20  
 Källa: Home Assistant Core `3d340fb5fdf03e7db48b45aec10f9b8da3b31c12`, `homeassistant/components/laundrify/strings.json`  
-Lokalise: läsning av `component::laundrify`; inga skrivningar har gjorts.
+Lokalise: de två angivna ändringarna sparades och lästes tillbaka 2026-11-20.
 
 ## Ändringsförslag
 
 | Nyckel | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- |
-| `component::laundrify::entity::binary_sensor::wash_cycle::name` | `Cykel` | `Tvättcykel` | Nyckeln avser tvättmaskinens programcykel. `Cykel` blir tvetydigt i svensk UI-text, medan `Tvättcykel` anger rätt kontext. |
-| `component::laundrify::config::step::init::data::code` | `Auth-kod (xxx-xxx)` | `Autentiseringskod (xxx-xxx)` | Svenska beskrivningen använder redan `autentiseringskod`. Termbanken har dessutom belägg för *Authentication Code* → *Autentiseringskod*. |
+| `component::laundrify::entity::binary_sensor::wash_cycle::name` | `Cykel` | `Tvättcykel` | Sparad och återläst i Lokalise. Nyckeln avser tvättmaskinens programcykel; `Tvättcykel` anger rätt kontext. |
+| `component::laundrify::config::step::init::data::code` | `Auth-kod (xxx-xxx)` | `Autentiseringskod (xxx-xxx)` | Sparad och återläst i Lokalise. Svenska beskrivningen använder redan `autentiseringskod`; termbanken har belägg för *Authentication Code* → *Autentiseringskod*. |
 
 ## Kontroll utan förslag
 
@@ -24,6 +24,6 @@ Lokalise men saknas i aktuell `strings.json`. Den behandlas som historisk.
 
 ## TMX och Lokalise
 
-Förslagen är lokala och ännu inte sparade i Lokalise. Home Assistant-TMX:en
-ändras därför inte; den ska endast innehålla Lokalise-verifierade sparade
-värden.
+De två sparade och återlästa värdena är införda i den kanoniska Home
+Assistant-TMX:en med fullständig nyckel, källproveniens och statusen
+`saved-and-read-back`.

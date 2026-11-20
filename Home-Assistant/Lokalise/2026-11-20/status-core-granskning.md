@@ -11,12 +11,12 @@ Senast uppdaterad: 2026-11-20.
 ## Kanoniskt Home Assistant-minne
 
 - Fil: `yeager/swedish-tm/Home-Assistant/sv-home-assistant-core-lokalise-verified-20261120-canonical.tmx`.
-- Senast verifierad nivå: **781** unika översättningsenheter, inklusive
-  Simplepush, Tankerkoenig och Energenie Power Sockets som sparades och
-  återlästes 2026-11-20.
+- Senast verifierad nivå: **783** unika översättningsenheter, inklusive
+  Simplepush, Tankerkoenig, Energenie Power Sockets och Laundrify som
+  sparades och återlästes 2026-11-20.
 - XML-kontroll: unika `tuid`-värden och fullständig `source`-proveniens för varje post.
-- Alla 781 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back`.
-- 572 senare poster använder `lokalise:<översättnings-id>` som `tuid`. De 209 historiska posterna använder i stället den fullständiga källnyckeln som `tuid`; deras Lokalise-ID behöver hämtas från API:t innan de kan migreras säkert.
+- Alla 783 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back`.
+- 572 senare poster använder `lokalise:<översättnings-id>` som `tuid`. De 211 historiska posterna använder i stället den fullständiga källnyckeln som `tuid`; deras Lokalise-ID behöver hämtas från API:t innan de kan migreras säkert.
 
 ## Pågående uppföljning
 
@@ -34,7 +34,7 @@ Senast uppdaterad: 2026-11-20.
 | `component::filesize` | Alla 10 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag; en äldre Lokalise-rad är markerad som historisk. | Komponenten kan återkontrolleras vid källändring. |
 | `component::gogogate2` | Alla 10 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::kmtronic` | Alla 10 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
-| `component::laundrify` | Alla 10 aktuella Core-strängar är granskade mot Core-källan; två ändringsförslag är dokumenterade och en äldre Lokalise-rad är markerad som historisk. | Komponenten kan återkontrolleras vid källändring; förslagen ska läsas tillbaka före eventuell TMX-synkning. |
+| `component::laundrify` | Alla 10 aktuella Core-strängar är granskade mot Core-källan; två ändringar är sparade och återlästa i Lokalise, och en äldre Lokalise-rad är markerad som historisk. | Komponenten kan återkontrolleras vid källändring. |
 | `component::luftdaten` | Alla 10 aktuella Core-strängar är granskade mot Core-källan; ett språkligt ändringsförslag är dokumenterat. | Komponenten kan återkontrolleras vid källändring; förslaget ska läsas tillbaka före eventuell TMX-synkning. |
 | `component::paj_gps` | Alla 10 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::openexchangerates` | Alla 10 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag; en äldre Lokalise-rad är markerad som historisk. | Komponenten kan återkontrolleras vid källändring. |
