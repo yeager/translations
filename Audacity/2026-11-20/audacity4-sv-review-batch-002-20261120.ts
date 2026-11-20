@@ -20238,37 +20238,37 @@ Anslut en inmatningsenhet och sök igen.</translation>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingprogressmodel.cpp" line="95"/>
         <source>Audacity will quit in %1</source>
         <extracomment>%1 is the time left until Audacity quits, e.g. "59s"</extracomment>
-        <translation type="unfinished"/>
+        <translation>Audacity avslutas om %1</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingprogressmodel.cpp" line="99"/>
         <source>Recording ends in %1</source>
         <extracomment>%1 is the time left until the timed recording ends, e.g. "59m 50s"</extracomment>
-        <translation type="unfinished"/>
+        <translation>Inspelningen avslutas om %1</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingprogressmodel.cpp" line="102"/>
         <source>Started: %1</source>
         <extracomment>%1 is a date and a time, e.g. "Sat 24 Oct 2026 at 12:23:30"</extracomment>
-        <translation type="unfinished"/>
+        <translation>Startade: %1</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingprogressmodel.cpp" line="106"/>
         <source>Recording starts in %1</source>
         <extracomment>%1 is the time left until the timed recording starts, e.g. "5m"</extracomment>
-        <translation type="unfinished"/>
+        <translation>Inspelningen startar om %1</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingprogressmodel.cpp" line="109"/>
         <source>Starts: %1</source>
         <extracomment>%1 is a date and a time, e.g. "Sat 24 Oct 2026 at 12:23:30"</extracomment>
-        <translation type="unfinished"/>
+        <translation>Startar: %1</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingprogressmodel.cpp" line="112"/>
         <source>Ends: %1</source>
         <extracomment>%1 is a date and a time, e.g. "Sat 24 Oct 2026 at 13:23:30"</extracomment>
-        <translation type="unfinished"/>
+        <translation>Avslutas: %1</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingsetupmodel.cpp" line="159"/>
@@ -20276,7 +20276,10 @@ Anslut en inmatningsenhet och sök igen.</translation>
 %1
 
 Do you want to overwrite it?</source>
-        <translation type="unfinished"/>
+        <translation>Filen finns redan:
+%1
+
+Vill du skriva över den?</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingsetupmodel.cpp" line="161"/>
@@ -20284,7 +20287,10 @@ Do you want to overwrite it?</source>
 %1
 
 Do you want to overwrite them?</source>
-        <translation type="unfinished"/>
+        <translation>Filerna finns redan:
+%1
+
+Vill du skriva över dem?</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingsetupmodel.cpp" line="166"/>
@@ -20294,72 +20300,72 @@ Do you want to overwrite them?</source>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingsetupmodel.cpp" line="182"/>
         <source>Save project as</source>
-        <translation type="unfinished"/>
+        <translation>Spara projekt som</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingviewformatter.cpp" line="46"/>
         <source>%1 at %2</source>
         <extracomment>A date and a time, e.g. "Sat 24 Oct 2026 at 12:23:30"</extracomment>
-        <translation type="unfinished"/>
+        <translation>%1 kl. %2</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingviewformatter.cpp" line="58"/>
         <source>Starts when you press Start timed recording and ends %1 (%2).</source>
         <extracomment>%1 is when the recording ends, e.g. "today at 16:28:20", and %2 its duration, e.g. "1h"</extracomment>
-        <translation type="unfinished"/>
+        <translation>Startar när du trycker på Starta tidsinställd inspelning och avslutas %1 (%2).</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingviewformatter.cpp" line="63"/>
         <source>Starts when you press Start timed recording and records for %1.</source>
         <extracomment>%1 is the duration of the recording, e.g. "1h 30m"</extracomment>
-        <translation type="unfinished"/>
+        <translation>Startar när du trycker på Starta tidsinställd inspelning och spelar in under %1.</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingviewformatter.cpp" line="67"/>
         <source>Starts %1 and records for %2.</source>
         <extracomment>%1 is when the recording starts, e.g. "today at 12:23:30" or "in 43m 30s", and %2 its duration, e.g. "1h 30m"</extracomment>
-        <translation type="unfinished"/>
+        <translation>Startar %1 och spelar in under %2.</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingviewformatter.cpp" line="73"/>
         <source>Start time has passed. Choose a time after %1.</source>
         <extracomment>%1 is the current time of day, e.g. "12:25:14"</extracomment>
-        <translation type="unfinished"/>
+        <translation>Starttiden har passerat. Välj en tid efter %1.</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingviewformatter.cpp" line="79"/>
         <source>End time has passed. Choose a time after %1.</source>
         <extracomment>%1 is the current time of day, e.g. "12:25:14"</extracomment>
-        <translation type="unfinished"/>
+        <translation>Sluttiden har passerat. Välj en tid efter %1.</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingviewformatter.cpp" line="84"/>
         <source>End time must be after the start time.</source>
-        <translation type="unfinished"/>
+        <translation>Sluttiden måste vara efter starttiden.</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingviewformatter.cpp" line="102"/>
         <source>in %1</source>
         <extracomment>%1 is how long until the recording starts, e.g. "43m 30s"</extracomment>
-        <translation type="unfinished"/>
+        <translation>om %1</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingviewformatter.cpp" line="113"/>
         <source>today at %1</source>
         <extracomment>%1 is a time of day, e.g. "16:28:20"</extracomment>
-        <translation type="unfinished"/>
+        <translation>i dag kl. %1</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingviewformatter.cpp" line="118"/>
         <source>tomorrow at %1</source>
         <extracomment>%1 is a time of day, e.g. "16:28:20"</extracomment>
-        <translation type="unfinished"/>
+        <translation>i morgon kl. %1</translation>
     </message>
     <message>
         <location filename="../../src/record/qml/Audacity/Record/timedrecordingviewformatter.cpp" line="122"/>
         <source>on %1</source>
         <extracomment>%1 is a date and a time, e.g. "Sun 25 Oct 2026 at 16:28:20"</extracomment>
-        <translation type="unfinished"/>
+        <translation>den %1</translation>
     </message>
 </context>
 <context>
