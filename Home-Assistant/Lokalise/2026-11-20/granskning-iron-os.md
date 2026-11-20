@@ -42,6 +42,7 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::select::animation_speed::name` | `Animation speed` | `Animationshastighet` | Granskad i Lokalise (ID 580407937); korrekt svensk sammansättning. |
 | `component::iron_os::entity::select::autostart_mode::name` | `Start-up behavior` | `Uppstartsbeteende` | Granskad i Lokalise (ID 580407942); korrekt svensk sammansättning. |
 | `component::iron_os::entity::select::animation_speed::state::fast` | `[%key:component::iron_os::common::fast%]` | Oförändrad | Granskad i Lokalise (ID 580407938); korrekt referens till den verifierade gemensamma hastighetstermen `Snabb`. |
+| `component::iron_os::entity::select::animation_speed::state::medium` | `[%key:common::state::medium%]` | Oförändrad | Granskad i Lokalise (ID 580407939); korrekt Core-referens till medelhastighet. |
 
 ## Pågående täckning
 
