@@ -27,6 +27,7 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::number::hall_sensitivity::name` | `Hall effect sensitivity` | `Halleffektkänslighet` | Ändrad från särskriven text med felaktig versalisering till korrekt svensk sammansättning; sparad och återläst i Lokalise (ID 572443008). |
 | `component::iron_os::entity::number::keep_awake_pulse_delay::name` | `Keep-awake pulse delay` | `Fördröjning för vakenhållningspuls` | Ändrad från en ofullständig ord-för-ord-konstruktion till svensk reglageetikett; sparad och återläst i Lokalise (ID 572443009). |
 | `component::iron_os::entity::number::keep_awake_pulse_duration::name` | `Keep-awake pulse duration` | `Varaktighet för vakenhållningspuls` | Ändrad från en ofullständig ord-för-ord-konstruktion till svensk reglageetikett; sparad och återläst i Lokalise (ID 572443010). |
+| `component::iron_os::entity::number::keep_awake_pulse_power::name` | `Keep-awake pulse intensity` | `Intensitet för vakenhållningspuls` | Ändrad från en ofullständig ord-för-ord-konstruktion till svensk reglageetikett; sparad och återläst i Lokalise (ID 572443011). |
 
 ## Pågående täckning
 
