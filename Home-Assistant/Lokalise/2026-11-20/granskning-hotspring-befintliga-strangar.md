@@ -38,3 +38,14 @@ Datum: 2026-11-20. Lokalise lästes i skrivskyddat läge. Den breda komponentfr�
 Lokalise begränsade den breda komponentfrågan till 30 rader. Komponentens återstående nycklar måste därför sökas i smalare grupper innan HotSpring kan markeras som fullständigt granskat. Ingen Lokalise-skrivning är utförd.
 
 `svlang skrivregler` fann inga fel i det föreslagna felmeddelandet och Hunspell accepterar de kontrollerade orden `konfigurerade` och `värden`.
+
+## Konfigurationsflöde
+
+Den smalare Lokalise-sökningen `component::hotspring::config` visade ytterligare 11 rader. Referensnycklarna och de redan granskade SNA/HNA-meddelandena behålls. Följande två har konkreta förslag:
+
+| Fullständig nyckel | Befintlig svenska | Föreslagen svenska | Motivering |
+| --- | --- | --- | --- |
+| `component::hotspring::config::step::user::description` | Konfigurera din Hot Spring hemnätverksadapter (HNA) för att integrera med Home Assistant. | Konfigurera din Hot Spring-hemnätverksadapter (HNA) för att integrera den med Home Assistant. | Bindestreck gör produktnamnssammansättningen konsekvent; *den* ger verbet ett tydligt objekt. |
+| `component::hotspring::config::step::user::data_description::host` | Värdnamn eller IP-adress för din Hot Spring hemnätverksadapter (HNA). | Värdnamn eller IP-adress för din Hot Spring-hemnätverksadapter (HNA). | Konsekvent produktnamnssammansättning. |
+
+Övriga config-rader—inklusive `{name}`-platshållaren och referenserna till gemensamma config-flow-nycklar—är korrekta som de står. `svlang skrivregler` fann inga fel i den längre föreslagna beskrivningen och Hunspell accepterar `hemnätverksadapter`, `värdnamn` och `konfigurera`. HotSpring-källan ska ändå återkontrolleras när den finns i den publika Core-koden, före ett eventuellt sparbeslut.
