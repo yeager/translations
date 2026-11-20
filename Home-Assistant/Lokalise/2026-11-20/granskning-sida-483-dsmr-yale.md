@@ -1,7 +1,7 @@
 # Home Assistant Core — granskning sida 483 (DSMR, ONVIF, YaleXSBLE och Roborock)
 
 Datum: 2026-11-20  
-Status: dokumenterade förslag; **inte sparade i Lokalise**
+Status: sparat i Lokalise 2026-11-20
 
 DSMR-källtexten kontrollerades mot `homeassistant/components/dsmr/strings.json` på Home Assistant Cores `dev`-gren. Förslagen följer den redan korrekta formuleringen `Spänningsökning i fas L1–L3` på samma sida.
 
