@@ -23,6 +23,7 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::number::boost_temp::name` | `Boost temperature` | `Boosttemperatur` | Ändrad från uppmaningsform till saklig reglageetikett; sparad och återläst i Lokalise (ID 572443005). |
 | `component::iron_os::entity::number::calibration_offset::name` | `Calibration offset` | `Kalibreringsförskjutning` | Ändrad från direktengelsk konstruktion till svensk fackterm; sparad och återläst i Lokalise (ID 572443006). |
 | `component::iron_os::entity::number::display_brightness::name` | `Display brightness` | `Skärmens ljusstyrka` | Granskad i Lokalise (ID 572443007); korrekt och idiomatisk etikett. |
+| `component::iron_os::entity::number::hall_effect_sleep_time::name` | `Hall sensor sleep timeout` | `Tidsgräns för Hallsensorns viloläge` | Ändrad från blandad svensk–engelsk text till komplett svensk facketikett; sparad och återläst i Lokalise (ID 616289597). |
 
 ## Pågående täckning
 
