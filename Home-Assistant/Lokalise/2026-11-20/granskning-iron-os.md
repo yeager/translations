@@ -67,6 +67,9 @@ Datum: 2026-11-20. Komponenten granskas rad för rad mot aktuell Core-källa och
 | `component::iron_os::entity::select::min_dc_voltage_cells::name` | `Power source` | `Strömkälla` | Granskad i Lokalise (ID 580407962); korrekt svensk teknisk term. |
 | `component::iron_os::entity::select::min_dc_voltage_cells::state::battery_3s` | `3S (3 cells)` | `3S (3 celler)` | Granskad i Lokalise (ID 580407963); korrekt batteribeteckning och pluralform. |
 | `component::iron_os::entity::select::min_dc_voltage_cells::state::battery_4s` | `4S (4 cells)` | `4S (4 celler)` | Granskad i Lokalise (ID 580407964); korrekt batteribeteckning och pluralform. |
+| `component::iron_os::entity::select::min_dc_voltage_cells::state::battery_5s` | `5S (5 cells)` | `5S (5 celler)` | Granskad i Lokalise (ID 580407965); korrekt batteribeteckning och pluralform. |
+| `component::iron_os::entity::select::min_dc_voltage_cells::state::battery_6s` | `6S (6 cells)` | `6S (6 celler)` | Granskad i Lokalise (ID 580407966); korrekt batteribeteckning och pluralform. |
+| `component::iron_os::entity::select::min_dc_voltage_cells::state::no_battery` | `External power supply (DC)` | `Extern strömförsörjning (DC)` | Granskad i Lokalise (ID 580407967); korrekt svensk teknisk term och enhet. |
 
 ## Pågående täckning
 
