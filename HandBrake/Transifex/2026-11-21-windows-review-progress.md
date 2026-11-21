@@ -103,3 +103,8 @@ Elva poster sparades och API-återlästes. `Source Preview:` är nu **Källförh
 ### Fortsatt kontroll – hårdvara, förhandsvisning och filinläsning
 
 Tio poster sparades och API-återlästes. Inställningarna för QuickSync, NVDec och AMFDec har nu konsekventa svenska handlingsfraser och etablerade termerna **kodare** och **avkodning**. `Video Preview` återges som **Videoförhandsvisning**, ISO-formuleringen använder **i stället**, och köpanelens kommandon beskriver den synliga mängden information. Den felaktiga betydelsevändningen i filändelsehjälpen rättades: listan är nu uttryckligen **inte skiftlägeskänslig**. Inga tekniska namn eller format ändrades.
+
+
+### Fortsatt kontroll – intervall, metadata och köstatus
+
+Sex poster sparades och API-återlästes. Köstarten fick det grammatiska **kommer att starta**, avstängningsstatusen fick en tydlig verbfras och dvd/Blu-ray-raden följer produktnamnets versalisering. Konfigurationstexten använder svenska citattecken. Metadatafelet anger nu det förväntade formatet `nyckel=värde`, och köns statusvarning använder de faktiska statusetiketterna samt bevarar källans två avslutande blanksteg före radbrytningen.
