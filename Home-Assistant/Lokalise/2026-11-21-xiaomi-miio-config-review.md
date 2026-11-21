@@ -13,3 +13,7 @@ De 9 plattformstillstånden för LED-ljusstyrka, skärmorientering och tillsatsv
 ## Tjänster, första delmängden
 
 De första 55 tjänststrängarna (fläkt, belysning och IR-fjärrkontroll) har granskats. Benämningar, `entity_id`, IR-termer, Markdown och produktnamn är korrekta. Ingen Lokalise- eller TMX-ändring behövs i denna delmängd.
+
+## Wi-Fi-LED på strömbrytare
+
+Fyra tjänststrängar normaliserades från det engelska restordet `switchens` till `strömbrytarens`. Ändringarna är API-återlästa och finns i `Home-Assistant/2026-11-21-xiaomi-miio-switch-verified.json`.
