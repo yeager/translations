@@ -11,3 +11,7 @@ Status: pågående radgranskning mot `origin/dev`.
 | `component::profiler::services::dump_log_objects::fields::type::description` | The type of objects to dump to the log. | Vilken typ av objekt som ska dumpas till loggen. | Verifierad i Lokalise (ID `349141077`). |
 | `component::profiler::services::dump_sockets::name` | Dump used sockets | Dumpa använda sockets | Verifierad i Lokalise (ID `715580159`); `sockets` behålls som etablerad teknisk term i detta utvecklargränssnitt. |
 | `component::profiler::services::dump_sockets::description` | Lets the Profiler log information about all currently used sockets. | Låter Profiler logga information om alla sockets som används för närvarande. | Verifierad i Lokalise (ID `715580158`). |
+| `component::profiler::services::log_current_tasks::name` | Log current asyncio tasks | Logga aktuella asyncio-uppgifter | Verifierad i Lokalise (ID `473725729`). |
+| `component::profiler::services::log_current_tasks::description` | Lets the Profiler log all the current asyncio tasks. | Låter Profiler logga alla aktuella asyncio-uppgifter. | Verifierad i Lokalise (ID `473725728`). |
+| `component::profiler::services::log_event_loop_scheduled::name` | Log event loop scheduled | Logga vad som är schemalagt i händelseloopen | Verifierad i Lokalise (ID `349141081`). |
+| `component::profiler::services::log_event_loop_scheduled::description` | Lets the Profiler log what is scheduled in the event loop. | Låter Profiler logga vad som är schemalagt i händelseloopen. | Verifierad i Lokalise (ID `349141080`). |
