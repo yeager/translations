@@ -4,7 +4,7 @@ Datum: 2026-11-21
 Källa: aktuell Core `2fdaa177`, `homeassistant/components/qbus/strings.json`  
 Status: samtliga 15 aktuella källsträngar är radgranskade mot Lokalise.
 
-## Osparade förslag
+## Sparade förslag
 
 | Nyckel | Källa | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- | --- |
@@ -18,4 +18,4 @@ Status: samtliga 15 aktuella källsträngar är radgranskade mot Lokalise.
 - Båda undantagstexterna är idiomatiska och bevarar respektive platshållare: `{option}` och `{options}`, respektive `{preset}` och `{options}`.
 - `QBUS` och `MQTT` behålls som produkt- och tekniknamn. Källan innehåller inte `Home Assistant` i denna komponent.
 
-Lokalise-sökningen visade exakt 15 Qbus-poster; inga historiska extrarader förekom. De två förslagen är inte sparade och ska inte tas med i det verifierade TMX-minnet förrän de har sparats och återlästs.
+Lokalise-sökningen visade exakt 15 Qbus-poster; inga historiska extrarader förekom. De två förslagen är sparade och API-återlästa 2026-11-21 med översättnings-ID `5107640383` och `6288413801` och ingår i verifierad TMX.
