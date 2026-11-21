@@ -28,5 +28,10 @@ Den tillhörande listan `handbrake-sv-terminology-20261121.md` styr bland annat:
 - 174 förekomster av det äldre `förval` rättades morfologiskt till `förinställning` i Linux UI, Mac UI och Windows UI. Exempel: `förvalet` → `förinställningen`; `förvalsfil` → `förinställningsfil`.
 - 16 förekomster av `bitfrekvens`/ `bildhastighet` rättades till `bithastighet`/ `bildfrekvens`.
 - VFR-hjälptexten i Linux UI skrevs om för korrekt och tydlig svenska.
+- Sex kontextgranskade hjälprader i Mac UI och Windows UI förbättrades: bildstorlek, anamorfisk kodning, brusreducering, avflätning och skärpning. Produktetiketter som `None`, `Custom` och `Automatic` bevarades där de är UI-värden.
 
-Formatsträngar och platshållare såsom `{0}`, `%1$d`, `%@` och `%.2f` bevarades.
+## Verifiering
+
+- API-statistiken visar 0 oöversatta strängar i samtliga fyra resurser.
+- Full kontroll av 3 186 svenska rader fann inga verkliga skillnader i platshållare eller printf-format. En träff med procenttecken i löptext identifierades som falskt positiv.
+- Formatsträngar och platshållare såsom `{0}`, `%1$d`, `%@` och `%.2f` bevarades.
