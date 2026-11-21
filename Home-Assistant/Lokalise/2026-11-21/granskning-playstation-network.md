@@ -11,6 +11,8 @@ Datum: 2026-11-21
 | `component::playstation_network::issues::group_chat_forbidden::description` | The PlayStation Network integration was unable to retrieve group chats for **{name}**. … | PlayStation Network integrationen kunde inte hämta gruppchattar för **{name}**. … | Granskad i Lokalise (ID `703788106`); platshållare, Markdown och styckeindelning är bevarade. Se sparförslag nedan för integrationsbenämningen. |
 | `component::playstation_network::config_subentries::friend::abort::no_friends` | Looks like your friend list is empty right now. Add friends on PlayStation Network first. | Det verkar som att din vänlista är tom just nu. Lägg till vänner på PlayStation Network först. | Verifierad i Lokalise (ID `693478906`). |
 | `component::playstation_network::config_subentries::friend::abort::config_entry_disabled` | Cannot add friend accounts when the main account is disabled or not loaded. | Det går inte att lägga till vänkonton när huvudkontot är inaktiverat eller inte har laddats in. | Verifierad i Lokalise (ID `746321076`). |
+| `component::playstation_network::entity::sensor::last_online::name` | Last online | Senast online | Verifierad i Lokalise (ID `673068689`). |
+| `component::playstation_network::entity::sensor::earned_trophies_platinum::unit_of_measurement` | trophies | troféer | Verifierad i Lokalise (ID `670327398`). Refereras av brons-, silver- och guldentiteterna. |
 
 ## Osparat förslag
 
