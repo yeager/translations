@@ -65,6 +65,7 @@ Senast uppdaterad: 2026-11-21.
 | `component::rhasspy` | Den enda aktuella Core-strängen är granskad mot aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::route53` | Båda aktuella Core-strängarna är granskade mot aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::roku` | Alla **23** aktuella Core-strängar är granskade. Fyra måltexter behöver korrigeras. | Spara och återläs de fyra dokumenterade förslagen; synka därefter verifierade värden till TMX. |
+| `component::romy` | Alla **26** aktuella Core-strängar är granskade mot Lokalise och aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::raspberry_pi` | Alla **5** aktuella Core-strängar är granskade mot aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::rest_command` | Alla **5** aktuella Core-strängar är granskade mot aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::rapt_ble` | Alla **6** aktuella Core-strängar är granskade mot aktuell Core-källa utan ändringsförslag; en extra Lokalise-rad är historisk. | Komponenten kan återkontrolleras vid källändring. |
@@ -166,6 +167,7 @@ omedelbart och läses tillbaka; fortsatt arbete använder inte `/tmp`.
 - [Rhasspy](../2026-11-21/granskning-rhasspy.md)
 - [Route 53](../2026-11-21/granskning-route53.md)
 - [Roku](../2026-11-21/granskning-roku.md)
+- [Romy](../2026-11-21/granskning-romy.md)
 - [Raspberry Pi](../2026-11-21/granskning-raspberry-pi.md)
 - [REST command](../2026-11-21/granskning-rest-command.md)
 - [RAPT BLE](../2026-11-21/granskning-rapt-ble.md)
