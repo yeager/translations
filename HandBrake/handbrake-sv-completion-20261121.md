@@ -48,6 +48,8 @@ Den tillhörande listan `handbrake-sv-terminology-20261121.md` styr bland annat:
 
 - Mac UI: 13 rader i dialoger och köhantering rättades, bland annat förinställningsplural, CSV-kapitelfel, titelval, åtgärd vid stopp samt kodningsslutförande. Platshållaren `%@` bevarades i de två statusmeddelandena.
 
+- Mac UI: slutblocket innehöll åtta tydliga rättelser: lagrings-/visningsmått, främmande ljudsökning, filteretiketten `Skärpa` samt grammatiskt korrekta felmeddelanden för förinställningar. Berörda API-rader lästes tillbaka efter sparning; `DRC` kontrollerades särskilt efter återställning.
+
 ## Verifiering
 
 - API-statistiken visar 0 oöversatta strängar i samtliga fyra resurser.
