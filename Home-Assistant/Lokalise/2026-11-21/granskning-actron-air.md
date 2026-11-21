@@ -3,7 +3,7 @@
 Datum: 2026-11-21  
 Källa: Core `2fdaa177`, `homeassistant/components/actron_air/strings.json`, aktuell Lokalise-export.
 
-Status: pågående radgranskning. Fyrtio aktuella strängar har kontrollerats; fyra tydliga fel har sparats och återlästs.
+Status: samtliga 39 aktuella bladsträngar är radgranskade. Fyra tydliga fel har sparats och återlästs.
 
 | Nyckel | Svenska efter granskning | Motivering |
 | --- | --- | --- |
@@ -11,3 +11,5 @@ Status: pågående radgranskning. Fyrtio aktuella strängar har kontrollerats; f
 | `component::actron_air::config::step::reauth_confirm::title` | Autentiseringen har löpt ut | Bestämd form och hjälpverb saknades. Lokalise-ID `772876453`. |
 | `component::actron_air::exceptions::update_error` | … från Actron Air-API:et: `{error}` | Produktnamnet `Actron Air` ska inte bindestreckas internt; API-sammansättningen är korrekt. Lokalise-ID `780057714`. |
 | `component::actron_air::exceptions::setup_connection_error` | Det gick inte att ansluta till Actron Air-API:et | Samma produktnamns- och API-sammansättning. Lokalise-ID `827699053`. |
+
+Övriga konfigurationsflöden, statusetiketter, klimat- och kompressortermer samt undantag har kontrollerats utan ytterligare ändringsförslag. `{error}`-platshållarna och kodblocket i auktoriseringsflödet är intakta.
