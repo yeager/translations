@@ -38,6 +38,8 @@ Den tillhörande listan `handbrake-sv-terminology-20261121.md` styr bland annat:
 
 - Mac UI: ytterligare 12 rader rättades efter radgranskning, inklusive översatta täljare/nämnare, anamorfisk hjälptext, rotationsinstruktion, ljudavstängning och köåtgärder.
 
+- Mac UI: 11 ytterligare rader rättades: pluralformen av förinställningar, titelval till kön, MP4/iPod-hjälptext, tidsstämplar med tomma bildrutor, behållarformat och metadata-genomströmning.
+
 ## Verifiering
 
 - API-statistiken visar 0 oöversatta strängar i samtliga fyra resurser.
