@@ -37,6 +37,8 @@ Datum: 2026-11-21
 | `component::playstation_network::entity::sensor::now_playing::name` | Now playing | Spelar nu | Verifierad i Lokalise (ID `688374481`). |
 | `component::playstation_network::exceptions::user_not_found::message` | Unable to retrieve data for {user}. User does not exist or has been removed. | Det går inte att hämta data för {user}. Användaren finns inte eller har tagits bort. | Verifierad i Lokalise (ID `688374482`); platshållaren är intakt. |
 | `component::playstation_network::issues::group_chat_forbidden::title` | Failed to retrieve group chats for {name} | Misslyckades med att hämta gruppchattar för {name} | Verifierad i Lokalise (ID `703788107`); platshållaren är intakt. |
+| `component::playstation_network::entity::image::avatar::name` | Avatar | Profilbild | Verifierad i Lokalise (ID `682116583`). |
+| `component::playstation_network::entity::image::share_profile::name` | Share profile | Dela profil | Verifierad i Lokalise (ID `682116584`). |
 
 ## Osparat förslag
 
