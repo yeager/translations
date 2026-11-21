@@ -104,3 +104,8 @@ Sex macOS-poster sparades och API-återlästes: två **Valbeteende…** och **L�
 ### Fortsatt kontroll – status och förhandsvisning
 
 Sex poster sparades och API-återlästes: **Öppna källfil** följer etablerad källterminologi, **Körtid** ersätter det felaktiga *Speltid* för programkörningen, samt `OK` och två ellipsmenyer normaliserades. I förhandsvisningsmallen ändrades endast svensk versalisering; `%1$f`, `%2$f` och `%3$.0f%%` bevarades exakt.
+
+
+### Fortsatt kontroll – köstatus och formatmallar
+
+Blocket radgranskades. Enda säkra ändringen var **Starttid:** i stället för den ogrammatiska statusetiketten *Startades:*, och den sparades samt API-återlästes. Formatmallarna med `%@`, `%d`, `%lu`, `%s` och `%f` kontrollerades utan ändring; platshållarordning och antal är bevarade.
