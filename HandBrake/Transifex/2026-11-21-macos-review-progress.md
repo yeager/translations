@@ -94,3 +94,8 @@ Nio macOS-menyposter sparades och API-återlästes. Åtgärden **Open Source…*
 ### Fortsatt kontroll – kö- och undertextinställningar
 
 Tio poster sparades och API-återlästes. Åtta menyåtgärder återfick källans Unicode-ellipsis (`…`). De två undertextvalen ändrades från den betydelseförskjutande singularformen till **Endast tvingade undertexter**; den förklarande texten följer nu samma pluralform och bevarar citattecken samt källspårsreferens.
+
+
+### Fortsatt kontroll – undertexter och videokodning
+
+Sex macOS-poster sparades och API-återlästes: två **Valbeteende…** och **Lägg till titlar i kö…** använder källans ellipsis, **OK** följer standardstavningen, `Passthru` är **genomströmning** och **Kodning med flera pass** ersätter det oidiomatiska *flerpass*.
