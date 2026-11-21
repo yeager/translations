@@ -78,3 +78,6 @@ Fem Linux-poster sparades och API-återlästes: en Decomb/Avflätning-hjälptext
 
 
 Korrigering: `Resume Encoding` sparades och API-återlästes som **Återuppta kodningen**. Det sista kvarvarande fallet av *omkodning* i Linux-resursen är därmed åtgärdat.
+
+
+Korrigering: **Mixdown** uppdaterades från **Nermixning** till **Nedmixning** och API-återlästes. Detta är den etablerade svenska sammansättningen.
