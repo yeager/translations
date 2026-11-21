@@ -94,3 +94,8 @@ Tio Linux-poster sparades och API-återlästes. Nio menyposter återfick korrekt
 ### Fortsatt kontroll – dimensioner och konstant kvalitet
 
 Fem Linux-poster sparades och API-återlästes. **Dimensions** är nu **Dimensioner**, två korta beskrivningar fick svensk satsstil, och två avklippta hjälprutor för konstant kvalitet återställdes till kompletta svenska texter. Den ena behåller källans tvåteckensindrag på fortsättningsrader; den andra behåller ombrutningen utan indrag.
+
+
+### Fortsatt kontroll – undertextval och ljud
+
+Fem Linux-poster sparades och API-återlästes. **Valbeteende…** följer menyns formatering, beskrivningen gäller åter flera undertextspår, och två hjälptexter hänvisar korrekt till **Valda språk** respektive standardljudspåret. **Nedmixning** ersätter den felaktiga sammansättningen *Nermixning*.
