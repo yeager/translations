@@ -84,3 +84,8 @@ Korrigering: **Mixdown** uppdaterades från **Nermixning** till **Nedmixning** o
 
 
 Korrigering: **Media Transcoder** uppdaterades från **Mediaomkodare** till **Medieomkodare** och API-återlästes. Omkodning behålls här eftersom *transcoder* specifikt avser omkodning mellan medieformat.
+
+
+### Fortsatt kontroll – menyer och köpanel
+
+Tio Linux-poster sparades och API-återlästes. Nio menyposter återfick korrekt acceleratorplacering och källans Unicode-ellipsis (`…`); särskilt den felaktiga `A_vsluta` blev **_Avsluta**. Köpanelens sammansättning rättades till **ködetaljpanelen**.
