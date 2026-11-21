@@ -78,3 +78,8 @@ Windows-posten **Mixdown** sparades och API-återlästes som **Nedmixning**. Dä
 ### Fortsatt kontroll – DVD- och Blu-ray-inläsning
 
 En materiellt felaktig Windows-hjälptext sparades och API-återlästes. Posten för minsta DVD/Blu-ray-titellängd innehöll felaktigt systemfältsinställningen; den återger nu **Minsta titellängd för dvd och Blu-ray i sekunder. Kortare titlar hoppas över:**.
+
+
+### Fortsatt kontroll – kö, kodning och acceleratorer
+
+Följande ändringar sparades direkt i Transifex och lästes tillbaka via API: `_Exit` → `_Avsluta`, `Retry All Jobs` → `Försök igen med alla jobb`, `Reset Selected Jobs` → `Återställ valda jobb`, `Multi-Pass Encoding` → `Kodning med flera pass`, `Avg Bitrate (kbps):` → `Genomsnittlig bithastighet (kbps):` och `Encoder Tune:` → `Finjustering för kodare:`. Förklarande DVD/Blu-ray-texter rättades också, inklusive plural i instruktionen om val av videor och formuleringen `i stället` för `instead`. Acceleratormarkör och platshållare bevarades.
