@@ -13,5 +13,6 @@ Referenser och platshållare är korrekta. Följande texter behöver korrigeras:
 | `component::roku::entity::binary_sensor::supports_ethernet::name` | `Stöder ethernet` | `Stöder Ethernet` |
 | `component::roku::config::step::user::description` | `Ange din Roku-information .` | `Ange din Roku-information.` |
 
-Förslagen är ännu inte sparade i Lokalise. De ska återläsas efter sparning
-och därefter införas i den verifierade HA-TMX:en med Lokalise-ID.
+De två första korrigeringarna är sparade och återlästa i Lokalise 2026-11-21.
+Ethernet- och informationsraden återstår att spara. TMX-synkning av de sparade
+värdena avvaktar en verifierbar Lokalise-översättningsidentifierare från API:t.

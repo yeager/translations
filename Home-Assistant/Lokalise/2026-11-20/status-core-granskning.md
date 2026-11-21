@@ -65,7 +65,7 @@ Senast uppdaterad: 2026-11-21.
 | `component::rhasspy` | Den enda aktuella Core-strängen är granskad mot aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::route53` | Båda aktuella Core-strängarna är granskade mot aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::rova` | Alla **16** aktuella Core-strängar är granskade. Den felaktiga platshållaren och API-formuleringen är sparade och återlästa i Lokalise. | TMX-synkning avvaktar verifierbar Lokalise-översättningsidentifierare från API:t. |
-| `component::roku` | Alla **23** aktuella Core-strängar är granskade. Fyra måltexter behöver korrigeras. | Spara och återläs de fyra dokumenterade förslagen; synka därefter verifierade värden till TMX. |
+| `component::roku` | Alla **23** aktuella Core-strängar är granskade. Två måltexter är sparade och återlästa i Lokalise; två återstår. | Spara och återläs Ethernet- och informationsraden; TMX-synkning avvaktar verifierbar Lokalise-översättningsidentifierare från API:t. |
 | `component::romy` | Alla **26** aktuella Core-strängar är granskade mot Lokalise och aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::raspberry_pi` | Alla **5** aktuella Core-strängar är granskade mot aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::rest_command` | Alla **5** aktuella Core-strängar är granskade mot aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
