@@ -15,7 +15,7 @@ Status: pågående radgranskning mot `origin/dev`.
 | `component::profiler::services::log_current_tasks::description` | Lets the Profiler log all the current asyncio tasks. | Låter Profiler logga alla aktuella asyncio-uppgifter. | Verifierad i Lokalise (ID `473725728`). |
 | `component::profiler::services::log_event_loop_scheduled::name` | Log event loop scheduled | Logga vad som är schemalagt i händelseloopen | Verifierad i Lokalise (ID `349141081`). |
 | `component::profiler::services::log_event_loop_scheduled::description` | Lets the Profiler log what is scheduled in the event loop. | Låter Profiler logga vad som är schemalagt i händelseloopen. | Verifierad i Lokalise (ID `349141080`). |
-| `component::profiler::services::log_thread_frames::name` | Log thread frames | Logga trådars stackramar → **Logga stackramar för alla trådar** | Osparat förslag (Lokalise-ID `349141083`); förslaget följer komponentens egen beskrivning och blir tydligare än genitivkedjan. |
+| `component::profiler::services::log_thread_frames::name` | Log thread frames | Logga stackramar för alla trådar | Sparad och API-återläst 2026-11-21. |
 | `component::profiler::services::log_thread_frames::description` | Lets the Profiler log the current frames for all threads. | Låter Profiler logga aktuella stackramar för alla trådar. | Verifierad i Lokalise (ID `349141082`). |
 | `component::profiler::services::lru_stats::name` | Log LRU stats | Logga LRU-statistik | Verifierad i Lokalise (ID `349141085`). |
 | `component::profiler::services::lru_stats::description` | Lets the Profiler log the stats of all LRU caches. | Låter Profiler logga statistiken för alla LRU-cacher. | Verifierad i Lokalise (ID `349141084`). |
@@ -24,11 +24,11 @@ Status: pågående radgranskning mot `origin/dev`.
 | `component::profiler::services::set_asyncio_debug::name` | Set asyncio debug | Ställ in asyncio-felsökning | Verifierad i Lokalise (ID `456993395`). |
 | `component::profiler::services::set_asyncio_debug::description` | Lets the Profiler enable or disable asyncio debug. | Låter Profiler aktivera eller inaktivera asyncio-felsökning. | Verifierad i Lokalise (ID `456993392`). |
 | `component::profiler::services::set_asyncio_debug::fields::enabled::name` | Enabled | `[%key:common::state::enabled%]` | Verifierad referens i Lokalise (ID `456993394`) till den gemensamma översättningen. |
-| `component::profiler::services::set_asyncio_debug::fields::enabled::description` | Whether to enable or disable asyncio debug. | Ifall asyncio-felsökning ska aktiveras eller inaktiveras. → **Om asyncio-felsökning ska aktiveras eller inaktiveras.** | Osparat förslag (Lokalise-ID `456993393`); kortare och idiomatiskt för valfältets betydelse. |
+| `component::profiler::services::set_asyncio_debug::fields::enabled::description` | Whether to enable or disable asyncio debug. | Om asyncio-felsökning ska aktiveras eller inaktiveras. | Sparad och API-återläst 2026-11-21. |
 | `component::profiler::services::start::name` | Create system profile | Skapa systemprofil | Verifierad i Lokalise (ID `349141093`). |
 | `component::profiler::services::start::description` | Lets the Profiler create a system profile for a specified number of seconds. | Låter Profiler skapa en systemprofil under ett angivet antal sekunder. | Verifierad i Lokalise (ID `349141090`). |
 | `component::profiler::services::start::fields::seconds::name` | Seconds | Sekunder | Verifierad i Lokalise (ID `349141092`). |
-| `component::profiler::services::start::fields::seconds::description` | The number of seconds to run the Profiler. | Antal sekunder som profileraren ska köras. → **Antal sekunder som Profiler ska köras.** | Osparat förslag (Lokalise-ID `349141091`); produktnamnet används konsekvent i närliggande strängar. |
+| `component::profiler::services::start::fields::seconds::description` | The number of seconds to run the Profiler. | Antal sekunder som Profiler ska köras. | Sparad och API-återläst 2026-11-21; samma direkta text uppdaterades även för minnesprofilen. |
 | `component::profiler::services::start_log_object_sources::name` | Start logging object sources | Börja logga objektkällor | Verifierad i Lokalise (ID `349141099`). |
 | `component::profiler::services::start_log_object_sources::description` | Starts the Profiler logging sources of new objects in memory. | Startar Profiler-loggning av källorna till nya objekt i minnet. | Verifierad i Lokalise (ID `349141094`). |
 | `component::profiler::services::start_log_object_sources::fields::max_objects::name` | Maximum objects | Maximalt antal objekt | Verifierad i Lokalise (ID `349141096`). |
@@ -46,4 +46,4 @@ Status: pågående radgranskning mot `origin/dev`.
 | `component::profiler::config::step::user::description` | `[%key:common::config_flow::description::confirm_setup%]` | `[%key:common::config_flow::description::confirm_setup%]` | Gemensam referens; ingen komponentspecifik översättning. |
 | `component::profiler::services::memory::fields::seconds::{name,description}` | Referenser till `services::start::fields::seconds` | Motsvarande referenser | Granskade mot de direkta start-fälten ovan. |
 
-Alla 42 bladnycklar i aktuell Core-källas `profiler/strings.json` är granskade. Tre osparade förbättringsförslag återstår och ingår inte i TMX-minnet.
+Alla 42 bladnycklar i aktuell Core-källas `profiler/strings.json` är granskade. De fyra motsvarande måltexterna är sparade, återlästa och införda i TMX-minnet.
