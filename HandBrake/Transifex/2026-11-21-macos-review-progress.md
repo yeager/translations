@@ -53,3 +53,8 @@ Sex synliga macOS-etiketter med engelska **Gain** sparades som **Förstärkning*
 ### Fortsatt kontroll – filter
 
 **Deband** → **Minska bandning** och **Unsharp** → **Oskarp mask** sparades och API-återlästes. Formuleringarna följer redan granskade Windows- och Linux-resurser.
+
+
+### Fortsatt kontroll – val och förinställningar
+
+Två spårvalsbeskrivningar och en förinställningshjälptext rättades och API-återlästes. **kodarinställningar** ersattes med **kodningsinställningar**, eftersom källan avser inställningar för hela kodningen och inte en specifik kodare.
