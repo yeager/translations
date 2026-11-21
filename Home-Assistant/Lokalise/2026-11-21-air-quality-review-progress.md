@@ -93,6 +93,11 @@ Källan och implementationen använder `cleared` när en binärsensor inte läng
 
 `component::air_quality::triggers::smoke_detected::name` och `component::air_quality::conditions::is_smoke_detected::name` ändrades från `Rök detekterat` till `Rök detekterad`. `Rök` är ett en-ord och kräver därför adjektivformen `detekterad`. Båda sparningarna validerades, återlästes och lades till i TM-minnet.
 
+
+## Granskad utan ändring: PM- och VOC-gruppen
+
+204 villkors- och triggerposter för PM1, PM2.5, PM4, PM10, VOC och VOC-kvot granskades mot aktuella `strings.json`. Beteckningar, måttenheter, tröskelvärdesterminologi och svenska sammansättningar är konsekventa. Inga säkra ändringar gjordes i denna grupp.
+
 ## Status
 
 Täcknings-, tomvärdes- och identitetskontroll är klar. Semantisk radgranskning av de återstående villkors- och triggertexterna fortsätter.
