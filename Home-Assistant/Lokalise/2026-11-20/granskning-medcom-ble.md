@@ -10,9 +10,12 @@ Lokalise: läsning av `component::medcom_ble`; inga skrivningar har gjorts.
 | --- | --- | --- | --- |
 | `component::medcom_ble::entity::sensor::cpm::name` | `Antal per minut` | `Räkningar per minut` | CPM avser antal registrerade räkningar per tidsenhet. Förslaget är den mer specifika svenska mätbenämningen, men bör jämföras med produktens egen svenska dokumentation före eventuell sparning. |
 
-Varken Home Assistant-minnet eller terminologiverktyget gav en direkt tidigare
-träff för *Counts per minute*. Förslaget är därför uttryckligen osäkert och
-inte underlag för en global termregel.
+Home Assistants integrationsdokumentation och Medcoms engelska handbok
+bekräftar att CPM är *counts per minute* för detekterade strålningsräkningar.
+Ingen auktoritativ svensk Medcom-källa har hittats. Befintliga `Antal per
+minut` är begripligt, men mindre fackspecifikt än förslaget. Texten lämnas
+därför oförändrad; `Räkningar per minut` är dokumenterat som ett lokalt,
+osäkert alternativ och inte som en global termregel.
 
 ## Kontroll utan förslag
 
