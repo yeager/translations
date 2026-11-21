@@ -64,6 +64,8 @@ Den tillhörande listan `handbrake-sv-terminology-20261121.md` styr bland annat:
 
 - Windows UI: ytterligare 24 rader rättades i system-, ljud- och filtervyer. Exempel är 64-bitarskravet, urklippet, automatisk genomströmning, reservkodare, avflätning, brusreducering, skärpning, DirectX-avkodning och förinställningspluraler.
 
+- Windows UI: fem ytterligare inställningsrader rättades och sparades: enskilda kodningsloggar, DVD-läsning och systemfältsterminologi.
+
 ## Verifiering
 
 - API-statistiken visar 0 oöversatta strängar i samtliga fyra resurser.
