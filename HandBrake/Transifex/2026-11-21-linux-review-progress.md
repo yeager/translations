@@ -60,3 +60,8 @@ Tre ytterligare Linux-ändringar sparades och återlästes via Transifex API: **
 ### Fortsatt kontroll – kodning
 
 Sju Linux-poster med felaktigt **omkodning** som översättning av *encode/encoding* sparades och återlästes: målfilnamn, målmapp, enskilda loggar samt statusarna klar, avbruten, misslyckad och slutförd. De använder nu genomgående **kodning**; detta följer HandBrakes terminologilista och skiljer aktiv kodning från faktisk omkodning.
+
+
+### Fortsatt kontroll – verb och direktsändning
+
+Sju Linux-poster sparades och API-återlästes. *encode* återges konsekvent som **koda**, inte *koda om*, i intervall-, kapitel-, förhandsgransknings- och ljudspårsinställningar. Hjälptexten om minimerad fördröjning rättades också grammatiskt och förenklades till **direktsändningar**, utan ändrade platshållare eller radbrytningar.
