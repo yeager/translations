@@ -119,3 +119,9 @@ Huvudresursens semantiska genomläsning omfattar därmed samtliga 1 013 rader i 
 ### Tooltip-resurs – första radpasset
 
 Tooltip-raderna 1–46 har granskats mot källan. Fem ändringar sparades och API-återlästes: avsnitten `None`, `Automatic` och `Custom` i den anamorfiska beskrivningen ligger nu i samma ordning som källan; flerpass använder konsekvent **kodning med flera pass** och **analyspass**; avslutshandlingen anger subjektet HandBrake; och förinställningshjälpen använder **kodningsinställningar**. Radbrytningar och de betydelsebärande inledande blankstegen i källans förinställningstext bevarades.
+
+### Tooltip-resurs – andra radpasset
+
+Tooltip-raderna 47–91 har granskats och sju ändringar sparades samt API-återlästes. Käll-/titelhjälpen följer nu DVD- och Blu-ray-terminologin och använder **i stället**. `Deinterlace`, `Interlace Detection` och deras parametrar fick konsekvent svensk avflätningsterminologi, medan de egentliga filternamnen Bwdif, Yadif och Decomb bevarades. `Custom Sharpen` översattes till **Anpassade parametrar för skärpning**. Avslutskodsbeskrivningarna efter `HB_*` är nu svenska utan att variabelnamn eller kodvärden ändrats. Höger-till-vänster-hjälpen använder svenska citattecken och korrekt beskrivning av gränssnittet.
+
+Tooltip-resursens semantiska genomläsning omfattar därmed alla 91 rader i den aktuella API-ögonblicksbilden. Färsk API-export och format-/språkkontroll återstår.
