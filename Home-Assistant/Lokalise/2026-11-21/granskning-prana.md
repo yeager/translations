@@ -24,11 +24,11 @@ Datum: 2026-11-21
 | `component::prana::entity::switch::bound::name` | Bound | Bunden | Verifierad i Lokalise (ID `792684396`). |
 | `component::prana::entity::switch::heater::name` | Heater | Värmare | Verifierad i Lokalise (ID `792684397`). |
 | `component::prana::entity::switch::winter::name` | Winter | Vinter | Verifierad i Lokalise (ID `792684398`). |
-| `component::prana::entity::number::display_brightness::name` | Display brightness | Display ljusstyrka → **Displayens ljusstyrka** | Osparat förslag; nuvarande text blandar engelska och svenska. Lokalise-ID `817535752`. |
+| `component::prana::entity::number::display_brightness::name` | Display brightness | Displayens ljusstyrka | Sparad och API-återläst 2026-11-21 (översättnings-ID `7958883535`). |
 
 ## Referenser
 
 - `component::prana::config::step::user::data::host` refererar till `common::config_flow::data::host`.
 - `component::prana::entity::fan::supply::state_attributes::preset_mode::state::{boost,night}` refererar till motsvarande redan granskade `extract`-nycklar.
 
-Alla direkta Prana-strängar i aktuell `strings.json` är därmed granskade. Endast förslaget för displayens ljusstyrka är osparat och är därför inte tillagt i TMX-minnet.
+Alla direkta Prana-strängar i aktuell `strings.json` är därmed granskade. Displayens ljusstyrka är API-verifierad och tillagd i TMX-minnet.
