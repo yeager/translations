@@ -108,3 +108,10 @@ Tio poster sparades och API-återlästes. Inställningarna för QuickSync, NVDec
 ### Fortsatt kontroll – intervall, metadata och köstatus
 
 Sex poster sparades och API-återlästes. Köstarten fick det grammatiska **kommer att starta**, avstängningsstatusen fick en tydlig verbfras och dvd/Blu-ray-raden följer produktnamnets versalisering. Konfigurationstexten använder svenska citattecken. Metadatafelet anger nu det förväntade formatet `nyckel=värde`, och köns statusvarning använder de faktiska statusetiketterna samt bevarar källans två avslutande blanksteg före radbrytningen.
+
+
+### Slutblock i huvudresursen
+
+De återstående 53 raderna i Windows huvudresurs (filter, ljudfilter, logg, spårval och metadataimport) radgranskades mot den hämtade källtexten. Filter- och kodnamn som `Detelecine`, `Decomb`, `Yadif`, `Bwdif`, `BM3D`, `NLMeans`, `HQDN3D`, `Lapsharp` och `Unsharp` är tekniska egna namn och lämnades avsiktligt oförändrade. Övriga svenska texter följer terminologin för kodek, kodare, avkodning, genomströmning och spår. Ingen ny ändring var motiverad i detta block.
+
+Huvudresursens semantiska genomläsning omfattar därmed samtliga 1 013 rader i den aktuella API-ögonblicksbilden. En färsk API-export och format-/språkkontroll återstår innan den kan markeras som verifierad.
