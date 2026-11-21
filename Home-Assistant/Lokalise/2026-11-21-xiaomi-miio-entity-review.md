@@ -9,3 +9,7 @@ Tio tydliga språk- och sammansättningsrättningar sparades via Lokalise API oc
 - Två DnD-etiketter: `Start för Stör ej` respektive `Slut för Stör ej`.
 
 Fullständiga nycklar och värden finns i `Home-Assistant/2026-11-21-xiaomi-miio-entities-verified.json`; TMX validerad till 2 498 poster.
+
+## Sammansättningar, tillägg
+
+`filter_hours_used`, `load_power` och `purify_volume` sparades därefter som `Filteranvändning`, `Lasteffekt` respektive `Rengöringsvolym`. De är API-återlästa och spåras i `Home-Assistant/2026-11-21-xiaomi-miio-compounds-verified.json`.
