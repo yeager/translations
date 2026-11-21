@@ -64,3 +64,8 @@ Två spårvalsbeskrivningar och en förinställningshjälptext rättades och API
 
 - Tre `Auto`-strängar är Cocoa-bindningsplatshållare (`ibShadowedIsNilPlaceholder`) och inte bekräftat synliga UI-etiketter; de lämnas därför oförändrade.
 - Två `Pop Up`-strängar är NSMenuItem-titlar utan tillräcklig användningskontext. Nuvarande **Popupp** är inte ändrad spekulativt.
+
+
+### Fortsatt kontroll – ljudterminologi
+
+Åtta macOS-poster sparades och API-återlästes: tre hjälpposter med **Gain** → **Ljudförstärkning**, två **Mixdown** → **Nedmixning** och tre DRC-beskrivningar med **Dynamisk omfångskomprimering** samt svensk decimalmarkering `2,5`.
