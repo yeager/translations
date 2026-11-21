@@ -108,6 +108,11 @@ Efter fullständig Core-export från Lokalise extraherades komponentens 570 aktu
 
 Färsk API-export avslöjade två kvarvarande användningar av `kväveoxidnivån` i N₂O-triggerns gränshjälptexter. `component::air_quality::triggers::n2o_changed::fields::above::description` och `component::air_quality::triggers::n2o_changed::fields::below::description` använder nu `dikväveoxidnivån`. Båda är validerade, sparade, återlästa och införda i TM-minnet. `svlang` flaggade endast korrekta bisatser efter `när` som falskt positiva.
 
+
+## Granskad gemensam terminologi och referensfråga
+
+De 287 posterna för koldioxid, kolmonoxid, kväveoxider, ozon, svaveldioxid och radon har granskats mot aktuell källa. Efter N₂O-korrigeringarna behövs inga fler säkra ändringar. Gemensamma fält och väljare är också kontrollerade. `component::air_quality::selector::condition_behavior::options::any` har värdet `Något`, medan motsvarande nyckel varierar mellan `Något` och `Någon` i andra komponenter. Det saknas tillräcklig UI-kontext för att säkert välja en form; nyckeln är därför markerad för referenskontroll och lämnas oförändrad.
+
 ## Status
 
 Täcknings-, tomvärdes- och identitetskontroll är klar. Semantisk radgranskning av de återstående villkors- och triggertexterna fortsätter.
