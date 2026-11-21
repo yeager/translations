@@ -17,6 +17,16 @@ Status: pågående radgranskning mot aktuell Core-källa `2fdaa177`; konfigurati
 - Texterna för URL, SSL-validering samt föråldrade användarnamn- och lösenordsfält är språkligt korrekta.
 - `Home Assistant` är oförändrat i pyLoad via Home Assistant-appen och hassio-beskrivningen.
 
+Produktnamnsregel: när källtexten innehåller `Home Assistant` ska samma ordalydelse bevaras i den svenska översättningen.
+
+## Verifierade konfigurationsfel
+
+De tre aktuella konfigurationsfelen använder korrekt samma referenser som källan och kräver ingen ändring:
+
+- `component::pyload::config::error::cannot_connect` (Lokalise-ID `496322871`): `[%key:common::config_flow::error::cannot_connect%]`.
+- `component::pyload::config::error::invalid_auth` (ID `496322872`): `[%key:common::config_flow::error::invalid_auth%]`.
+- `component::pyload::config::error::unknown` (ID `496322873`): `[%key:common::config_flow::error::unknown%]`.
+
 ## Verifierade undantag
 
 Samtliga fem aktuella undantag är kontrollerade utan ändringsförslag:
