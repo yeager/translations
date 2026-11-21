@@ -74,3 +74,8 @@ Två spårvalsbeskrivningar och en förinställningshjälptext rättades och API
 ### Fortsatt kontroll – dubbletter i ljudpanelen
 
 Fyra ytterligare macOS-poster sparades och API-återlästes: två **Mixdown** → **Nedmixning**, en Gain-hjälptext → **Ljudförstärkning** och en DRC-beskrivning → **Dynamisk omfångskomprimering** med decimalen `2,5`.
+
+
+### Fortsatt kontroll – dimensioner
+
+Fyra macOS-etiketter sparades och API-återlästes: två **Pad top** → **Fyll upptill**, **Pad bottom** → **Fyll nedtill** samt **Width (Pillarbox)** → **Bredd (pelarbox)**.
