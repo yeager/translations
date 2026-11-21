@@ -119,3 +119,10 @@ Fyra Linux-poster sparades och API-återlästes. Ett felaktigt komma efter **Han
 ### Fortsatt kontroll – flerpass och statusformat
 
 Sex Linux-poster sparades och API-återlästes: **Flera pass** ersätter *Multipass*, tre bildfrekvensrader återfick sin inledande radbrytning, **Återuppta kodningen** ersätter *Återuppta omkodning*, och överskrivningsdialogen bevarar nu källans citattecken kring `%s`.
+
+
+### Färsk API-verifiering
+
+En ny sidindelad Transifex-API-export innehåller fortfarande 801 Linux-strängar; inga nycklar har tillkommit eller försvunnit sedan ögonblicksbilden. De 38 skillnaderna mot startögonblicksbilden motsvarar de dokumenterade och API-återlästa ändringarna i denna granskningsserie.
+
+`l10n-lint --language sv --json-format nested` gav **0 fel** och tre varningar. Två `repeated-words`-varningar är felaktiga träffar på tekniska I-/P-bildruteetiketter. Den tredje träffen gäller källtexten `“%s” is is not a valid directory.`; svensk måltext har inget dubblerat ord. Hunspell-sv-träffarna består av tekniska namn, kod-/formatvärden, platshållar- och inställningssyntax samt granskade svenska sammansättningar.
