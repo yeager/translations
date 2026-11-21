@@ -93,3 +93,8 @@ Sju poster i inställnings- och statusavsnittet sparades och API-återlästes. `
 ### Fortsatt kontroll – processisolering och bildinställningar
 
 Fem poster sparades och API-återlästes. QuickSync-maskinvaran fick svensk sammansättning, den lokala HTTP-servern beskrivs som att den **lyssnar på** loopback-adressen och portintervallet är nu entydligt. Det efterföljande blanksteget i `Enter a name: ` återställdes, och `Fine Tune Picture Settings` fick den fullständiga svenska handlingstexten **Finjustera bildinställningar**.
+
+
+### Fortsatt kontroll – förhandsvisning, status och kö
+
+Elva poster sparades och API-återlästes. `Source Preview:` är nu **Källförhandsvisning:**. Fem felstatusar använder den konsekventa uppmaningen **Se loggen för detaljer.** `Max Height` och `Max Width` fick fullständiga måttetiketter, kökommandona använder **längst upp/ned**, och formuleringen för Windows-aktivitetsfältet är nu korrekt sammansatt. Inga platshållare ändrades.
