@@ -115,4 +115,4 @@ De 287 posterna för koldioxid, kolmonoxid, kväveoxider, ozon, svaveldioxid och
 
 ## Status
 
-Täcknings-, tomvärdes- och identitetskontroll är klar. Semantisk radgranskning av de återstående villkors- och triggertexterna fortsätter.
+Den aktuella komponenten är radgranskad med full nyckeltäckning: 570/570 poster (204 PM/VOC, 287 kemi/radon, 38 gemensamma väljare och 41 binärsensor-/titelposter). Alla säkra rättningar är sparade och återlästa. En referensfråga återstår: `component::air_quality::selector::condition_behavior::options::any` (`Något`/`Någon`) kräver UI-kontext innan en eventuell ändring.
