@@ -1,12 +1,5 @@
-# Home Assistant – Landis+Gyr Heat Meter: svensk radgranskning
+# Core — Landis+Gyr Heat Meter
 
-Datum: 2026-11-21  
-Komponent: `landisgyr_heat_meter`
+Datum: 2026-11-21
 
-Tre aktuella strängar kontrollerades mot källfil och Lokalise API.
-
-- Enheten är redan konfigurerad
-- Det gick inte att ansluta
-- Välj enhet
-
-De två första är korrekta delade referenser; den tredje är en korrekt UI-etikett. Inga ändringar behövde sparas i Lokalise.
+Alla 4 Landis+Gyr Heat Meter-strängar hämtades direkt från Lokalise och granskades mot källtexten. Inga ändringar behövdes. USB-enhetens sökväg, enhetsval och anslutningsfel är korrekt formulerade.
