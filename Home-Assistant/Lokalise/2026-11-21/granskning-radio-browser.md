@@ -9,9 +9,9 @@ identifierats:
 
 | Nyckel | Befintlig svensk text | Föreslagen svensk text | Motivering |
 | --- | --- | --- | --- |
-| `config::error::cannot_connect` | `Anslutningen misslyckades` | `[%key:common::config_flow::error::cannot_connect%]` | Sparad och återläst i Lokalise 2026-11-21. |
+| `config::error::cannot_connect` | `Anslutningen misslyckades` | `Det gick inte att ansluta` | Aktuell Lokalise återläst 2026-11-21; den semantiskt korrekta gemensamma måltexten används som direkt måltext. |
 | `config::step::user::description` | `Vill du lägga till Radio Browser till Home Assistant?` | `Vill du lägga till Radio Browser i Home Assistant?` | Sparad och återläst i Lokalise 2026-11-21. Idiomatisk svensk preposition för att lägga till en integration i produkten. Produktnamnet bevaras exakt som `Home Assistant`. |
 
-Ingen ytterligare korrigering behövs. Båda sparade översättningarna saknar här
-ett verifierat Lokalise-översättnings-ID och läggs därför inte till i det
-kanoniska TMX-minnet förrän ett sådant ID kan exporteras spårbart.
+Ingen ytterligare korrigering behövs. Båda måltexterna är API-verifierade med
+Lokalise-ID `9917708619` respektive `1139463530` och ingår i det kanoniska
+TMX-minnet.
