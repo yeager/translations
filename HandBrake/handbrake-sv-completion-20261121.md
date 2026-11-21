@@ -32,6 +32,8 @@ Den tillhörande listan `handbrake-sv-terminology-20261121.md` styr bland annat:
 
 - Windows-verktygstips: ytterligare 36 rader rättades och sparades direkt via API efter radgranskning. Ändringarna omfattar bland annat artefakter, brusreducering, telecine, behållarformat, bildpunktsförhållande, avflätning, skärpning, förinställningar, färgrymd samt svensk böjning och ordföljd i längre hjälptexter.
 
+- Mac UI: 25 ytterligare källkontrollerade rader rättades och sparades. Bland annat ersattes den felaktiga översättningen `sorgkant` med `kant`, förinställningsböjningar rättades och `decoder` skiljdes korrekt från `encoder` som `avkodare` respektive `kodare`.
+
 ## Verifiering
 
 - API-statistiken visar 0 oöversatta strängar i samtliga fyra resurser.
