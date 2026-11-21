@@ -13,3 +13,7 @@ Datum: 2026-11-21
 | `component::pooldose::exceptions::connect_timeout::message` | Timeout connecting to PoolDose device | Timeout vid anslutning till PoolDose-enhet | Tidsgränsen överskreds vid anslutning till PoolDose-enheten. | Sparad och återläst i Lokalise (ID `857959052`). Rättar oöversatt teknisk term samt sammansättning och bestämd form. |
 | `component::pooldose::exceptions::connect_failed::message` | Failed to connect to PoolDose device | Det gick inte att ansluta till PoolDose-enheten | Verifierad i Lokalise (ID `857959051`). |
 
+## Sparade och återlästa fortsättningskorrigeringar
+
+Följande etiketter har rättats i Lokalise och återlästs via API:t: `ORP överdosering larmtid` och `pH överdosering larmtid` till `Larmtid för ORP-överdosering` respektive `Larmtid för pH-överdosering` (båda förekomsterna); `ORP-kalibrering offset`, `ORP-kalibrering lutning`, `ORP-kalibrering typ` och `ORP-dosering typ` till korrekta sammansättningar; samt `Flödesfördröjning timer` och de tre särskrivna stopptidsetiketterna till `Flödesfördröjningstimer` respektive `Stopptid för …-dosering`. Berörda nyckel-ID:n: `701475661`, `701475662`, `701475664`–`701475666`, `701475670`, `752126899`, `752126900` och `822808369`, `822808371`–`822808373`.
+
