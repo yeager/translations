@@ -12,5 +12,5 @@ Lokalise:
 | --- | --- | --- | --- |
 | `component::random::config::step::user::title` | `Skapa en slumpvärdes-hjälpare` | `Skapa en slumpvärdeshjälpare` | Svensk sammansättning skrivs utan bindestreck. |
 
-Förslaget är granskat men ännu inte sparat i Lokalise i denna session; efter
-sparning ska värdet läsas tillbaka innan det tas in i den verifierade HA-TMX:en.
+Korrigeringen är sparad och återläst via Lokalise API 2026-11-21 och ingår i
+den verifierade HA-TMX:en med översättnings-ID `3171377314`.
