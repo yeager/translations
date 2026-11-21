@@ -24,6 +24,8 @@ Datum: 2026-11-21
 | `component::playstation_network::entity::sensor::earned_trophies_platinum::name` | Platinum trophies | Platinatroféer | Verifierad i Lokalise (ID `670327397`). |
 | `component::playstation_network::entity::sensor::trophy_level::name` | Trophy level | Trofénivå | Verifierad i Lokalise (ID `670327402`). |
 | `component::playstation_network::entity::sensor::trophy_level_progress::name` | Next level | Nästa nivå | Verifierad i Lokalise (ID `670327403`). |
+| `component::playstation_network::config::abort::unique_id_mismatch` | The provided NPSSO token corresponds to the account {wrong_account}. Please re-authenticate with the account **{name}** | Den angivna NPSSO-tokenen hör till kontot {wrong_account}. Vänligen autentisera dig på nytt med kontot **{name}** | Verifierad i Lokalise (ID `669331679`); båda platshållarna och Markdown är intakta. |
+| `component::playstation_network::config_subentries::friend::step::user::description` | Track the online status of a PlayStation Network friend. | Se om en vän på PlayStation Network är online. | Verifierad i Lokalise (ID `688374478`). |
 
 ## Osparat förslag
 
@@ -34,4 +36,5 @@ Datum: 2026-11-21
 | `component::playstation_network::config::abort::already_configured_as_subentry` | Du är redan registrerad som vän för ett annat konto. Ta bort den befintliga registreringen först. | Kontot är redan konfigurerat som vän för ett annat konto. Ta först bort den befintliga posten. | Källan handlar om ett konto, inte läsaren; ”post” är den etablerade UI-termen för config entry. Lokalise-ID `688374469`. |
 | `component::playstation_network::config_subentries::friend::abort::already_configured` | Du är redan registrerad som vän på det här eller ett annat konto. | Kontot är redan konfigurerat som vän på detta eller ett annat konto. | Källan handlar om kontot som läggs till; undviker det felaktiga tilltalet ”du”. Lokalise-ID `688374470`. |
 | `component::playstation_network::config_subentries::friend::abort::already_configured_as_entry` | Redan konfigurerat som en tjänst. Det här kontot kan inte läggas till som vän. | Kontot är redan konfigurerat som en tjänst. Det här kontot kan inte läggas till som vän. | Första meningen saknar subjekt; den kompletteras med samma konto som andra meningen avser. Lokalise-ID `688374471`. |
+| `component::playstation_network::config_subentries::friend::step::user::title` | Väns online-status | Vännens onlinestatus | Uttrycker samma betydelse med naturlig bestämd form och den sammanskrivna svenska termen. Lokalise-ID `688374479`. |
 
