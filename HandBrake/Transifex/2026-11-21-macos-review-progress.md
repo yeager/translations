@@ -119,3 +119,7 @@ Tre poster sparades och API-återlästes: **Flera pass**, **Flera pass med turbo
 ### Färsk API-verifiering
 
 En ny sidindelad Transifex-API-export innehåller 1 281 macOS-strängar. Jämförelsen med den föregående färska exporten gav **0** ändrade, saknade eller tillkomna poster. `l10n-lint --language sv --json-format nested` på den nya exporten gav **0 problem**. Detta verifierar den tidigare radgranskningen mot nuvarande API-tillstånd.
+
+## Aktuell slutstatus
+
+Den äldre inledande noteringen om återstående semantisk granskning är historisk. Samtliga 1 281 macOS-rader har radgranskats och validerats mot färsk API-export. En efterföljande Transifex-diff mot den verifierade exporten gav 0 ändrade, saknade eller nya macOS-poster.

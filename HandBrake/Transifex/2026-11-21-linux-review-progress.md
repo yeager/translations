@@ -126,3 +126,7 @@ Sex Linux-poster sparades och API-återlästes: **Flera pass** ersätter *Multip
 En ny sidindelad Transifex-API-export innehåller fortfarande 801 Linux-strängar; inga nycklar har tillkommit eller försvunnit sedan ögonblicksbilden. De 38 skillnaderna mot startögonblicksbilden motsvarar de dokumenterade och API-återlästa ändringarna i denna granskningsserie.
 
 `l10n-lint --language sv --json-format nested` gav **0 fel** och tre varningar. Två `repeated-words`-varningar är felaktiga träffar på tekniska I-/P-bildruteetiketter. Den tredje träffen gäller källtexten `“%s” is is not a valid directory.`; svensk måltext har inget dubblerat ord. Hunspell-sv-träffarna består av tekniska namn, kod-/formatvärden, platshållar- och inställningssyntax samt granskade svenska sammansättningar.
+
+## Aktuell slutstatus
+
+Den äldre inledande noteringen om pågående semantisk granskning är historisk. Samtliga 801 Linux-rader har nu radgranskats, exporterats på nytt från API och validerats. En efterföljande Transifex-diff mot den verifierade exporten gav 0 ändrade, saknade eller nya Linux-poster.
