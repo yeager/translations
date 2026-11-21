@@ -45,3 +45,8 @@ l10n-lint med språk=sv gav 0 fel för den samlade aktuella katalogen; inga nya 
 ### Fortsatt semantisk kontroll
 
 Sparade och API-återlästa: **Muxing: This may take a while…** → **Muxning: Detta kan ta en stund…** samt båda **When Done**-etiketterna → **Vid slutförande**. Denna passning inkluderar 0 l10n-lint-fel; kvarvarande varningar är dokumenterade falska positiva eller ett källfel.
+
+
+### Fortsatt kontroll – filterterminologi
+
+**Comb Detect** uppdaterades från **Kamdetektering** till **Comb-identifiering** och återlästes via Transifex API. Därmed används samma synliga HandBrake-term i Linux, macOS och Windows.
