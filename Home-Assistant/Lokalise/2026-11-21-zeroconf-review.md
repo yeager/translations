@@ -10,3 +10,7 @@ Två aktuella strängar jämfördes med Lokalise och källfilen.
 - Platshållarna `{other_ip}`, `{instance_id}` och `{other_host_url}` jämfördes mot engelskan och bevarades.
 
 Ändringarna är sparade via Lokalise API.
+
+## Återverifiering
+
+2026-11-21 lästes båda aktuella värdena åter från Lokalise. De matchar den dokumenterade svenska texten; inga ytterligare ändringar behövs.
