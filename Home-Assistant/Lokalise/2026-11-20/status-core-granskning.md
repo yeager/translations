@@ -11,10 +11,10 @@ Senast uppdaterad: 2026-11-21.
 ## Kanoniskt Home Assistant-minne
 
 - Fil: `yeager/swedish-tm/Home-Assistant/sv-home-assistant-core-lokalise-verified-20261120-canonical.tmx`.
-- Senast verifierad nivå: **1 340** unika översättningsenheter (231 historiska nyckelbaserade och 1 109 med Lokalise-ID), inklusive löpande Lokalise-granskningar från 2026-11-21.
+- Senast verifierad nivå: **1 351** unika översättningsenheter (231 historiska nyckelbaserade och 1 120 med Lokalise-ID), inklusive löpande Lokalise-granskningar från 2026-11-21.
 - XML-kontroll: unika `tuid`-värden och fullständig `source`-proveniens för varje post.
-- Alla 1 340 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back` eller, för redan korrekta och återverifierade Lokalise-värden, `verified-existing`.
-- 1 109 senare poster använder `lokalise:<översättnings-id>` som `tuid`. De 231 historiska posterna använder i stället den fullständiga källnyckeln som `tuid`; deras Lokalise-ID behöver hämtas från API:t innan de kan migreras säkert.
+- Alla 1 351 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back` eller, för redan korrekta och återverifierade Lokalise-värden, `verified-existing`.
+- 1 120 senare poster använder `lokalise:<översättnings-id>` som `tuid`. De 231 historiska posterna använder i stället den fullständiga källnyckeln som `tuid`; deras Lokalise-ID behöver hämtas från API:t innan de kan migreras säkert.
 
 ## Pågående uppföljning
 
@@ -50,6 +50,7 @@ Senast uppdaterad: 2026-11-21.
 | `component::progettihwsw` | Alla 24 aktuella Lokalise-nycklar, inklusive 16 reläetiketter och referenser, är granskade utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::proximity` | Direkta strängar och referenser är inventerade; en osparad förbättring av borttagen-entitet-texten är dokumenterad. | Spara och återläs förslaget när det har bekräftats. |
 | `component::pterodactyl` | Alla **26** aktuella bladnycklar är granskade mot Core och Lokalise; två ytterligare Lokalise-poster är historiska. Ett osparat format- och språkförslag för drifttid är dokumenterat. | Spara och återläs enbart det dokumenterade drifttidsförslaget efter uttrycklig bekräftelse; därefter kan komponenten återkontrolleras vid källändring. |
+| `component::pure_energie` | Alla **11** aktuella bladnycklar är granskade mot Core och Lokalise utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::radiotherm` | Alla 9 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::simplepush` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; felmeddelandet om sändning sparades i Lokalise och återlästes i redigeringsfältet. | Ta med värdet vid nästa verifierade TMX-synkning. |
 | `component::tankerkoenig` | Del 1–2: konfiguration och synliga sensorattribut är lästa mot aktuell Core-källa. Alla tio fastställda ändringar är sparade och återlästa i Lokalise. | Kontrollera historiska Lokalise-rader mot API-proveniens när full export finns. |
@@ -123,6 +124,7 @@ omedelbart och läses tillbaka; fortsatt arbete använder inte `/tmp`.
 - [ProgettiHWSW](../2026-11-21/granskning-progettihwsw.md)
 - [Proximity](../2026-11-21/granskning-proximity.md)
 - [Pterodactyl](../2026-11-21/granskning-pterodactyl.md)
+- [Pure Energie](../2026-11-21/granskning-pure-energie.md)
 - [RadioTherm](granskning-radiotherm.md)
 - [Simplepush](granskning-simplepush.md)
 - [Tankerkoenig, del 1](granskning-tankerkoenig-del-1.md)
