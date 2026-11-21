@@ -9,3 +9,7 @@ Entitets- och tjänststrängarna återstår för separat granskning; komponenten
 ## Plattformstillstånd
 
 De 9 plattformstillstånden för LED-ljusstyrka, skärmorientering och tillsatsvärme har därefter granskats. Samtliga svenska värden är korrekta och konsekventa; ingen Lokalise- eller TMX-ändring behövs.
+
+## Tjänster, första delmängden
+
+De första 55 tjänststrängarna (fläkt, belysning och IR-fjärrkontroll) har granskats. Benämningar, `entity_id`, IR-termer, Markdown och produktnamn är korrekta. Ingen Lokalise- eller TMX-ändring behövs i denna delmängd.
