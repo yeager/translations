@@ -1,8 +1,5 @@
-# Home Assistant – Local IP: svensk radgranskning
+# Core — Local IP
 
-Datum: 2026-11-21  
-Komponent: `local_ip`
+Datum: 2026-11-21
 
-Tre aktuella strängar kontrollerades mot källfil och Lokalise API. Både komponenttiteln och den refererade konfigurationsrubriken är **Lokal IP-adress**. Den delade installationsfrågan är korrekt upplöst som **Vill du starta installationen?**
-
-Inga ändringar behövde sparas i Lokalise.
+Alla 3 Local IP-strängar hämtades direkt från Lokalise och granskades mot källtexten. Inga ändringar behövdes. `Lokal IP-adress` och konfigurationsuppmaningen är korrekta.
