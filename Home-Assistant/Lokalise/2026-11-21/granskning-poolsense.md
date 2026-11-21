@@ -14,12 +14,14 @@ Datum: 2026-11-21
 | `component::poolsense::entity::sensor::chlorine_low::name` | Chlorine low | Låg klorhalt | Verifierad i Lokalise (ID `354342474`). |
 | `component::poolsense::entity::sensor::last_seen::name` | Last seen | Senast sedd | Verifierad i Lokalise (ID `354342475`). |
 
-## Sparade förslag inväntar API-åtkomst
+## Sparade och API-verifierade förslag
 
 | Nyckel | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- |
 | `component::poolsense::entity::sensor::ph_high::name` | Hög pH | Högt pH-värde | Korrekt svenskt måttuttryck och begriplig entitetsrubrik. |
 | `component::poolsense::entity::sensor::ph_low::name` | Låg pH | Lågt pH-värde | Korrekt svenskt måttuttryck och begriplig entitetsrubrik. |
 
-De två förslagen är kontrollerade i Lokalise (ID `354342477` respektive `354342478`) men är ännu inte sparade, eftersom det lokala API-flödet saknar `LOKALISE_TOKEN` och webbsparning kräver en separat åtgärdsbekräftelse i den aktiva browserkanalen.
+De två förslagen är sparade och återlästa via Lokalise API 2026-11-21 med
+översättnings-ID `2846175336` respektive `2846175396` och ingår i verifierad
+HA-TMX.
 
