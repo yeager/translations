@@ -2,11 +2,13 @@
 
 Datum: 2026-11-21
 
-## Delgranskning
+## Fullständig radgranskning
 
 | Nyckel | Källa | Svenska | Bedömning |
 | --- | --- | --- | --- |
 | `component::poolsense::exceptions::invalid_auth::message` | Invalid authentication | Ogiltig autentisering | Verifierad i Lokalise (ID `951170040`). |
+| `component::poolsense::config::abort::already_configured` | Device is already configured | Enheten är redan konfigurerad | Verifierad i Lokalise (ID `49659326`). |
+| `component::poolsense::config::step::user::data::{email,password}` | Email; Password | E-post; Lösenord | Verifierade i Lokalise (ID `49659330`, `49659331`). |
 | `component::poolsense::entity::binary_sensor::chlorine_status::name` | Chlorine status | Klorstatus | Verifierad i Lokalise (ID `354342470`). |
 | `component::poolsense::entity::binary_sensor::ph_status::name` | pH status | pH-status | Verifierad i Lokalise (ID `354342471`). |
 | `component::poolsense::entity::sensor::chlorine::name` | Chlorine | Klor | Verifierad i Lokalise (ID `354342472`). |
