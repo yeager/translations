@@ -13,3 +13,7 @@ Fullständiga nycklar och värden finns i `Home-Assistant/2026-11-21-xiaomi-miio
 ## Sammansättningar, tillägg
 
 `filter_hours_used`, `load_power` och `purify_volume` sparades därefter som `Filteranvändning`, `Lasteffekt` respektive `Rengöringsvolym`. De är API-återlästa och spåras i `Home-Assistant/2026-11-21-xiaomi-miio-compounds-verified.json`.
+
+## Underhållsetiketter, tillägg
+
+Nio filter-, borste- och användningstidsetiketter har normaliserats till korrekta uttryck för återstående livslängd. Fullständig spårning finns i `Home-Assistant/2026-11-21-xiaomi-miio-maintenance-verified.json`; samtliga är API-återlästa.
