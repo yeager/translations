@@ -22,6 +22,8 @@ Datum: 2026-11-21
 | `component::playstation_network::entity::sensor::earned_trophies_bronze::name` | Bronze trophies | Bronstroféer | Verifierad i Lokalise (ID `670327393`). |
 | `component::playstation_network::entity::sensor::earned_trophies_silver::name` | Silver trophies | Silvertroféer | Verifierad i Lokalise (ID `670327399`). |
 | `component::playstation_network::entity::sensor::earned_trophies_platinum::name` | Platinum trophies | Platinatroféer | Verifierad i Lokalise (ID `670327397`). |
+| `component::playstation_network::entity::sensor::trophy_level::name` | Trophy level | Trofénivå | Verifierad i Lokalise (ID `670327402`). |
+| `component::playstation_network::entity::sensor::trophy_level_progress::name` | Next level | Nästa nivå | Verifierad i Lokalise (ID `670327403`). |
 
 ## Osparat förslag
 
