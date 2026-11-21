@@ -12,3 +12,5 @@ Nederbördsmåtten använder nu `nederbörd` och tydliga tidsperioder i stället
 Fyra AQIN-värden använder nu `24-timmarsmedelvärde`; PM2,5 har svenskt decimaltecken. Lokalise-ID `801824077`, `801824079`, `801824081`, `801824083`.
 
 Ytterligare tre PM2,5-AQIN-värden har rättats till svenskt decimaltecken. Lokalise-ID `801824084`, `801824085`, `801824086`.
+
+`Event rain` är rättad från särskrivningen `Händelse regn` till `Nederbörd under händelse`. Lokalise-ID `362308817`.
