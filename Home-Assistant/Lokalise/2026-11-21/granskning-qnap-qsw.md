@@ -4,7 +4,7 @@ Datum: 2026-11-21
 Källa: aktuell Core `2fdaa177`, `homeassistant/components/qnap_qsw/strings.json`  
 Status: samtliga 19 aktuella källsträngar är radgranskade mot Lokalise.
 
-## Osparade förslag
+## Sparade förslag
 
 | Nyckel | Källa | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- | --- |
@@ -20,4 +20,4 @@ Status: samtliga 19 aktuella källsträngar är radgranskade mot Lokalise.
 - Portar, RX, TX, RX-fel och tidsstämpel för drifttid är korrekta. `Uptime` använder den etablerade svenska referensen för drifttid.
 - QNAP QSW bevaras som produktnamn.
 
-Lokalise visar dessutom två avvecklingsposter som inte ingår i dagens `strings.json`: en rubrik och ett längre reparationsmeddelande för sensorn för drifttidssekunder (ID `550678532` respektive `550678531`). Det längre meddelandet behåller `Home Assistant` exakt som i källtexten och platshållarna `{entity}` och `{info}`; båda posterna lämnas orörda som historiska. De fyra förslagen ovan är inte sparade och förs inte in i TMX före sparning och återläsning.
+Lokalise visar dessutom två avvecklingsposter som inte ingår i dagens `strings.json`: en rubrik och ett längre reparationsmeddelande för sensorn för drifttidssekunder (ID `550678532` respektive `550678531`). Det längre meddelandet behåller `Home Assistant` exakt som i källtexten och platshållarna `{entity}` och `{info}`; båda posterna lämnas orörda som historiska. De fyra förslagen är sparade och API-återlästa 2026-11-21 med översättnings-ID `2982546002`, `2982546062`, `2982546302` och `2982546422` och ingår i verifierad TMX.
