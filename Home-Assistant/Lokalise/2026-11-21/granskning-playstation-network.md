@@ -45,6 +45,11 @@ Datum: 2026-11-21
 | `component::playstation_network::config_subentries::friend::initiate_flow::user` | Add friend | Lägg till vän | Verifierad i Lokalise (ID `688374475`). |
 | `component::playstation_network::entity::sensor::online_status::name` | Online status | Onlinestatus | Verifierad i Lokalise (ID `674217217`). |
 | `component::playstation_network::config_subentries::friend::step::user::data::account_id` | Online ID | Online-ID | Verifierad i Lokalise (ID `688374476`). |
+| `component::playstation_network::exceptions::update_failed::message` | Data retrieval failed when trying to access the PlayStation Network. | Det gick inte att hämta data vid försök att ansluta till PlayStation Network. | Verifierad i Lokalise (ID `668990846`); svensk text täcker samma nätverksåtkomstfel. |
+
+## Omfattning
+
+Alla direkta strängar i aktuell `strings.json` är granskade. De återstående källnycklarna är referenser till gemensamma config-flow-texter eller till en annan PlayStation Network-nyckel och ändras inte i denna komponentrapport. Osparade förslag ovan hålls uttryckligen åtskilda från de verifierade TMX-posterna.
 
 ## Osparat förslag
 
