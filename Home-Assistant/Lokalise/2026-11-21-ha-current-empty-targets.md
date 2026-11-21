@@ -20,3 +20,5 @@ Språk: `sv`
 - Samtliga sex översättningar lästes tillbaka från Lokalise efter API-sparning.
 - Inga platshållare förekommer i de sex källsträngarna.
 - API:s återstående svenska ”oöversatta” poster är 32 strukturella plural-/objektbehållare med tomma objekt i både engelska och svenska. De är inte synliga målsträngar och lämnades oförändrade.
+- Hela aktuella HomeWizard-källfilen kontrollerades mot Lokalise: 82 av 82 nycklar finns och inga svenska mål är tomma.
+- Hela aktuella IRM KMI-källfilen kontrollerades mot Lokalise: 19 av 19 nycklar finns, inga svenska mål är tomma och inga platshållaravvikelser hittades.
