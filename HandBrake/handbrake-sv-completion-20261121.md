@@ -60,6 +60,8 @@ Den tillhörande listan `handbrake-sv-terminology-20261121.md` styr bland annat:
 
 - Linux UI: slutblocket i den manuella genomgången gav 18 korrigeringar, bland annat avflätning, ljudkodek, oskarp mask, batterimeddelande, förinställningsplural, bildpunktsförhållande, bildfrekvensstatus, tidsenheter och målfilssystemets varning.
 
+- Windows UI: radgranskning påbörjad. 29 källkontrollerade rader rättades, med fokus på förinställningars genus/plural, automatisk filnamngivning, kvalitets- och bildinställningar, felmeddelanden, WebM-undertexter och förklaringen för saknade källtitlar.
+
 ## Verifiering
 
 - API-statistiken visar 0 oöversatta strängar i samtliga fyra resurser.
