@@ -36,6 +36,8 @@ Den tillhörande listan `handbrake-sv-terminology-20261121.md` styr bland annat:
 
 - Mac UI: 28 ytterligare rader lästes i sammanhang och 28 tydliga språk- eller terminologifel rättades och sparades direkt via API. Detta omfattar bland annat `Ny förinställning`, svenska UI-värden i bildstorleksdialogen, korrekt ommixningsbeskrivning, konsekvent genomströmning och korrigerade måttbeskrivningar.
 
+- Mac UI: ytterligare 12 rader rättades efter radgranskning, inklusive översatta täljare/nämnare, anamorfisk hjälptext, rotationsinstruktion, ljudavstängning och köåtgärder.
+
 ## Verifiering
 
 - API-statistiken visar 0 oöversatta strängar i samtliga fyra resurser.
