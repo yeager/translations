@@ -69,3 +69,8 @@ Två spårvalsbeskrivningar och en förinställningshjälptext rättades och API
 ### Fortsatt kontroll – ljudterminologi
 
 Åtta macOS-poster sparades och API-återlästes: tre hjälpposter med **Gain** → **Ljudförstärkning**, två **Mixdown** → **Nedmixning** och tre DRC-beskrivningar med **Dynamisk omfångskomprimering** samt svensk decimalmarkering `2,5`.
+
+
+### Fortsatt kontroll – dubbletter i ljudpanelen
+
+Fyra ytterligare macOS-poster sparades och API-återlästes: två **Mixdown** → **Nedmixning**, en Gain-hjälptext → **Ljudförstärkning** och en DRC-beskrivning → **Dynamisk omfångskomprimering** med decimalen `2,5`.
