@@ -98,3 +98,8 @@ Fem poster sparades och API-återlästes. QuickSync-maskinvaran fick svensk samm
 ### Fortsatt kontroll – förhandsvisning, status och kö
 
 Elva poster sparades och API-återlästes. `Source Preview:` är nu **Källförhandsvisning:**. Fem felstatusar använder den konsekventa uppmaningen **Se loggen för detaljer.** `Max Height` och `Max Width` fick fullständiga måttetiketter, kökommandona använder **längst upp/ned**, och formuleringen för Windows-aktivitetsfältet är nu korrekt sammansatt. Inga platshållare ändrades.
+
+
+### Fortsatt kontroll – hårdvara, förhandsvisning och filinläsning
+
+Tio poster sparades och API-återlästes. Inställningarna för QuickSync, NVDec och AMFDec har nu konsekventa svenska handlingsfraser och etablerade termerna **kodare** och **avkodning**. `Video Preview` återges som **Videoförhandsvisning**, ISO-formuleringen använder **i stället**, och köpanelens kommandon beskriver den synliga mängden information. Den felaktiga betydelsevändningen i filändelsehjälpen rättades: listan är nu uttryckligen **inte skiftlägeskänslig**. Inga tekniska namn eller format ändrades.
