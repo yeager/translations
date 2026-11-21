@@ -78,6 +78,7 @@ omedelbart och läses tillbaka; fortsatt arbete använder inte `/tmp`.
 
 ## Källkontroll efter sessionens återställning
 
+- En separat, ren grund klon av Home Assistant Core används från och med 2026-11-21, eftersom den tidigare lokala klonen har en avvikande ympad historik och inte kan snabbspolas säkert. Den rena klonen står på uppströms-commit `2fdaa177` (`dev`). Nya komponentgranskningar ska alltid göras mot denna klon; äldre resultat behåller sin dokumenterade historiska källrevision tills de återkontrolleras.
 - Home Assistant Core kontrollerades mot uppströms-commit `3d340fb5fdf03e7db48b45aec10f9b8da3b31c12` (2026-11-20).
 - `homeassistant/components/logbook/strings.json` och `homeassistant/components/script/strings.json` innehåller fortfarande de engelska källtexter som sida 731 granskades mot, inklusive `Log activity`, `Reload scripts` och `Toggle script`.
 - Detta bekräftar att de dokumenterade sida-731-förslagen inte bygger på föråldrad engelsk källtext. Det ersätter inte Lokalise-återläsningen av de svenska målvärdena och ger därför inte underlag för TMX-synkning.
