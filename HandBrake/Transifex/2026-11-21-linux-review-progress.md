@@ -114,3 +114,8 @@ Två Linux-poster sparades och API-återlästes: **nedmixning** ersätter *ommix
 ### Fortsatt kontroll – varningar och förinställningsdialoger
 
 Fyra Linux-poster sparades och API-återlästes. Ett felaktigt komma efter **HandBrake** togs bort, menyns Unicode-ellipsis återställdes och de typografiska citattecknen kring `%s` bevaras nu i två förinställningsdialoger.
+
+
+### Fortsatt kontroll – flerpass och statusformat
+
+Sex Linux-poster sparades och API-återlästes: **Flera pass** ersätter *Multipass*, tre bildfrekvensrader återfick sin inledande radbrytning, **Återuppta kodningen** ersätter *Återuppta omkodning*, och överskrivningsdialogen bevarar nu källans citattecken kring `%s`.
