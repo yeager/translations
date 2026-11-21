@@ -13,11 +13,7 @@ Språk: `sv_SE`
 | Windows UI — Resources.resx | 1 013 | 0 |
 | Windows UI — ResourcesTooltips.resx | 91 | 0 |
 
-86 tidigare oöversatta strängar sparades via Transifex API:
-
-- Mac UI: 25
-- Windows UI: 58
-- Windows UI-verktygstips: 3
+86 tidigare oöversatta strängar sparades via Transifex API: Mac UI 25, Windows UI 58 och Windows UI-verktygstips 3.
 
 ## Tillämpad terminologi
 
@@ -29,9 +25,11 @@ Den tillhörande listan `handbrake-sv-terminology-20261121.md` styr bland annat:
 - 16 förekomster av `bitfrekvens`/ `bildhastighet` rättades till `bithastighet`/ `bildfrekvens`.
 - VFR-hjälptexten i Linux UI skrevs om för korrekt och tydlig svenska.
 - Sex kontextgranskade hjälprader i Mac UI och Windows UI förbättrades: bildstorlek, anamorfisk kodning, brusreducering, avflätning och skärpning. Produktetiketter som `None`, `Custom` och `Automatic` bevarades där de är UI-värden.
+- Linux UI: `Encoder Preset` rättades från `Kodningförinställning` till `Kodarförinställning`. TrueHD-hjälptexten rättades från felstavade `ThrueHD` och fick korrekt böjning av `automatisk genomströmning`.
 
 ## Verifiering
 
 - API-statistiken visar 0 oöversatta strängar i samtliga fyra resurser.
 - Full kontroll av 3 186 svenska rader fann inga verkliga skillnader i platshållare eller printf-format. En träff med procenttecken i löptext identifierades som falskt positiv.
+- Hunspell-scan av Linux UI granskades manuellt. De flesta träffar är acceleratorbokstäver, egennamn, codec- och filtertermer; de två faktiska felen ovan sparades.
 - Formatsträngar och platshållare såsom `{0}`, `%1$d`, `%@` och `%.2f` bevarades.
