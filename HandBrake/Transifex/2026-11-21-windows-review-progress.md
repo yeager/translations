@@ -88,3 +88,8 @@ Följande ändringar sparades direkt i Transifex och lästes tillbaka via API: `
 ### Fortsatt kontroll – återställning och status
 
 Sju poster i inställnings- och statusavsnittet sparades och API-återlästes. `portable.ini.template` anges nu exakt i återställningsinstruktionen, `Queue Recovery Possible` återges som **Köåterställning möjlig**, och texten om omedelbar åtgärd fick korrekt svensk versalisering. Två statusrader återfick källans tre punkttecken (`...`) i stället för ett annat ellipstecken. Uppdateringslänken fick idiomatisk formulering (**söka efter nya versioner**) och `Currently Paused` förkortades till den korrekta statusetiketten **Pausad**. Platshållaren `{0}` och måttenheten `GB` är bevarade.
+
+
+### Fortsatt kontroll – processisolering och bildinställningar
+
+Fem poster sparades och API-återlästes. QuickSync-maskinvaran fick svensk sammansättning, den lokala HTTP-servern beskrivs som att den **lyssnar på** loopback-adressen och portintervallet är nu entydligt. Det efterföljande blanksteget i `Enter a name: ` återställdes, och `Fine Tune Picture Settings` fick den fullständiga svenska handlingstexten **Finjustera bildinställningar**.
