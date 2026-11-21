@@ -39,6 +39,8 @@ Datum: 2026-11-21
 | `component::playstation_network::issues::group_chat_forbidden::title` | Failed to retrieve group chats for {name} | Misslyckades med att hämta gruppchattar för {name} | Verifierad i Lokalise (ID `703788107`); platshållaren är intakt. |
 | `component::playstation_network::entity::image::avatar::name` | Avatar | Profilbild | Verifierad i Lokalise (ID `682116583`). |
 | `component::playstation_network::entity::image::share_profile::name` | Share profile | Dela profil | Verifierad i Lokalise (ID `682116584`). |
+| `component::playstation_network::config::step::user::data::npsso` | NPSSO token | NPSSO-token | Verifierad i Lokalise (ID `668990842`). |
+| `component::playstation_network::config::step::reauth_confirm::title` | Re-authenticate {name} with PlayStation Network | Återautentisera {name} med PlayStation Network | Verifierad i Lokalise (ID `669331683`); platshållaren är intakt. |
 
 ## Osparat förslag
 
