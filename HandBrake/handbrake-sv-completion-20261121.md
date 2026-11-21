@@ -66,6 +66,8 @@ Den tillhörande listan `handbrake-sv-terminology-20261121.md` styr bland annat:
 
 - Windows UI: fem ytterligare inställningsrader rättades och sparades: enskilda kodningsloggar, DVD-läsning och systemfältsterminologi.
 
+- Windows UI: 18 ytterligare rader rättades i video-, kö- och undertextvyer. Bland annat snabb avkodning, tvingade och Closed Caption-undertexter, förinställningsplural, åtgärder vid slutförande, mörkt tema, batteri-/diskutrymmesnotiser och språkvalsformuleringar.
+
 ## Verifiering
 
 - API-statistiken visar 0 oöversatta strängar i samtliga fyra resurser.
