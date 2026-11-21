@@ -49,9 +49,9 @@ Datum: 2026-11-21
 
 ## Omfattning
 
-Alla direkta strängar i aktuell `strings.json` är granskade. De återstående källnycklarna är referenser till gemensamma config-flow-texter eller till en annan PlayStation Network-nyckel och ändras inte i denna komponentrapport. Osparade förslag ovan hålls uttryckligen åtskilda från de verifierade TMX-posterna.
+Alla direkta strängar i aktuell `strings.json` är granskade. De återstående källnycklarna är referenser till gemensamma config-flow-texter eller till en annan PlayStation Network-nyckel och ändras inte i denna komponentrapport.
 
-## Osparat förslag
+## Sparade och återlästa korrigeringar
 
 | Nyckel | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- |
@@ -61,4 +61,6 @@ Alla direkta strängar i aktuell `strings.json` är granskade. De återstående 
 | `component::playstation_network::config_subentries::friend::abort::already_configured` | Du är redan registrerad som vän på det här eller ett annat konto. | Kontot är redan konfigurerat som vän på detta eller ett annat konto. | Källan handlar om kontot som läggs till; undviker det felaktiga tilltalet ”du”. Lokalise-ID `688374470`. |
 | `component::playstation_network::config_subentries::friend::abort::already_configured_as_entry` | Redan konfigurerat som en tjänst. Det här kontot kan inte läggas till som vän. | Kontot är redan konfigurerat som en tjänst. Det här kontot kan inte läggas till som vän. | Första meningen saknar subjekt; den kompletteras med samma konto som andra meningen avser. Lokalise-ID `688374471`. |
 | `component::playstation_network::config_subentries::friend::step::user::title` | Väns online-status | Vännens onlinestatus | Uttrycker samma betydelse med naturlig bestämd form och den sammanskrivna svenska termen. Lokalise-ID `688374479`. |
+
+Samtliga sex korrigeringar i tabellen sparades och återlästes direkt via Lokalise-API:t 2026-11-21. Markdown, platshållare och radbrytningar i NPSSO- och gruppchattstexterna kontrollerades vid återläsningen.
 
