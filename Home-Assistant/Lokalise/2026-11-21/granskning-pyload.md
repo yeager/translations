@@ -1,9 +1,9 @@
 # Home Assistant Core – pyLoad
 
 Datum: 2026-11-21  
-Status: klar radgranskning av samtliga 55 aktuella källsträngar mot Core `2fdaa177`. Två språkliga förslag är dokumenterade men ännu inte sparade i Lokalise.
+Status: klar radgranskning av samtliga 55 aktuella källsträngar mot Core `2fdaa177`. Två språkliga förslag är sparade och API-återlästa i Lokalise.
 
-## Osparat förslag
+## Sparade förslag
 
 | Nyckel | Källa | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- | --- |
@@ -49,4 +49,4 @@ Svenskan följer källans betydelse och använder produktnamnet `pyLoad` konsekv
 
 De övriga 11 aktuella entitetsnamnen är korrekta: återanslutning, köreglage, fyra återstående knappetiketter samt fem sensoretiketter för aktiva/totala/köade nedladdningar, ledigt utrymme och hastighet. Referenser saknas i denna del och inga platshållare påverkas.
 
-Alla 55 aktuella pyLoad-strängar är nu granskade. De två förslagen ovan är inte sparade och finns inte i TMX-minnet. Verifierade befintliga poster kan föras in i Home Assistant-minnet med Lokalise-ID och källspårning i nästa TMX-synkning.
+Alla 55 aktuella pyLoad-strängar är nu granskade. De två förslagen ovan är sparade, återlästa med Lokalise-ID `8525174040` och `4144491510` och införda i TMX-minnet.
