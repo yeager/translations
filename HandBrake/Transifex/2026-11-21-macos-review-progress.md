@@ -89,3 +89,8 @@ Fyra macOS-poster sparades och API-återlästes: **Beskäring** i stället för 
 ### Fortsatt kontroll – menyer
 
 Nio macOS-menyposter sparades och API-återlästes. Åtgärden **Open Source…** använder nu den etablerade termen **Öppna källfil…**, och **HandBrake Website** är **HandBrakes webbplats**. Menyernas ellipser har samtidigt återställts till källans Unicode-tecken (`…`) i stället för tre punkttecken, utan att kortkommandon eller annan formatering ändrades.
+
+
+### Fortsatt kontroll – kö- och undertextinställningar
+
+Tio poster sparades och API-återlästes. Åtta menyåtgärder återfick källans Unicode-ellipsis (`…`). De två undertextvalen ändrades från den betydelseförskjutande singularformen till **Endast tvingade undertexter**; den förklarande texten följer nu samma pluralform och bevarar citattecken samt källspårsreferens.
