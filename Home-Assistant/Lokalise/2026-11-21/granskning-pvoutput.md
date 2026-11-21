@@ -3,12 +3,12 @@
 Datum: 2026-11-21  
 Status: samtliga 23 aktuella bladnycklar är granskade mot `origin/dev` och Lokalise.
 
-## Osparade förslag
+## Referensuppföljning
 
 | Nyckel | Källa | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- | --- |
-| `component::pvoutput::config::step::reauth_confirm::data_description::api_key` | `[%key:component::pvoutput::config::step::user::data_description::api_key%]` | `API-nyckeln för ditt PVOutput-konto.` | `[%key:component::pvoutput::config::step::user::data_description::api_key%]` | Källans komponentreferens ska bevaras. Nuvarande mål flaggas för referens-/formatmismatch i Lokalise. ID `949163250`. |
-| `component::pvoutput::config::step::reconfigure::data_description::api_key` | `[%key:component::pvoutput::config::step::user::data_description::api_key%]` | `API-nyckeln för ditt PVOutput-konto.` | `[%key:component::pvoutput::config::step::user::data_description::api_key%]` | Samma referensmismatch som återautentiseringsflödet. ID `949163251`. |
+| `component::pvoutput::config::step::reauth_confirm::data_description::api_key` | `[%key:component::pvoutput::config::step::user::data_description::api_key%]` | `API-nyckeln för ditt PVOutput-konto.` | Ingen ändring | Aktuell API-export löser referensen till korrekt svensk måltext. Referenslagringen följs upp separat. |
+| `component::pvoutput::config::step::reconfigure::data_description::api_key` | `[%key:component::pvoutput::config::step::user::data_description::api_key%]` | `API-nyckeln för ditt PVOutput-konto.` | Ingen ändring | Aktuell API-export löser referensen till korrekt svensk måltext. Referenslagringen följs upp separat. |
 
 ## Verifierade befintliga värden
 
@@ -18,4 +18,5 @@ Status: samtliga 23 aktuella bladnycklar är granskade mot `origin/dev` och Loka
 - System-ID, API-nyckelbeskrivning, senaste rapportering och de fyra felmeddelandena är korrekta.
 - Lokalise innehåller äldre poster för lyckad omkonfigurering och återautentisering som saknas i aktuell Core-källa; de är inte ändrade.
 
-De två förslagen är inte sparade och ingår inte i TMX-minnet.
+Raderna är inte språkfel i den aktuella API-exporten och förs därför inte in
+som nya TMX-poster. Referensrepresentationen följs upp separat.
