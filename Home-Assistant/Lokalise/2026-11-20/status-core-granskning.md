@@ -166,6 +166,7 @@ omedelbart och läses tillbaka; fortsatt arbete använder inte `/tmp`.
 - [RFLink](../2026-11-21/granskning-rflink.md)
 - [Ruuvi Gateway](../2026-11-21/granskning-ruuvi-gateway.md)
 - [Radio Browser](../2026-11-21/granskning-radio-browser.md)
+- [Radio Frequency](../2026-11-21/granskning-radio-frequency.md)
 - [REFOSS](../2026-11-21/granskning-refoss.md)
 - [Recollect Waste](../2026-11-21/granskning-recollect-waste.md)
 - [RabbitAir](../2026-11-21/granskning-rabbitair.md)
