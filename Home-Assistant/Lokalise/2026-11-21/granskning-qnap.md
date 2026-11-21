@@ -4,7 +4,7 @@ Datum: 2026-11-21
 Källa: aktuell Core `2fdaa177`, `homeassistant/components/qnap/strings.json`  
 Status: samtliga 43 aktuella källsträngar är radgranskade mot Lokalise.
 
-## Osparade förslag
+## Sparade förslag
 
 | Nyckel | Källa | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- | --- |
@@ -18,4 +18,4 @@ Status: samtliga 43 aktuella källsträngar är radgranskade mot Lokalise.
 - Samtliga övriga 18 aktuella sensoretiketter är korrekta, inklusive CPU, minne, nätverk, volym, status, systemtemperatur och drifttid. Platshållaren `{monitor_device}` är bevarad i samtliga relevanta etiketter.
 - `uptime` använder en etablerad svensk referens till drifttid. Det är en giltig målreferens även om den engelska källan är direkttext.
 
-Lokalise-sökningen innehåller dessutom den historiska QNAP-posten `component::qnap::config::abort::reconfigure_successful` (ID `822293473`), som saknas i aktuell källfil och därför lämnas orörd. Sökresultatet innehåller även QNAP QSW-poster på grund av namnöver­lappning; de avgränsades i separata sökningar och granskas i [QNAP QSW-rapporten](granskning-qnap-qsw.md). De två förslagen ovan är inte sparade och förs inte in i TMX före Lokalise-sparning och återläsning.
+Lokalise-sökningen innehåller dessutom den historiska QNAP-posten `component::qnap::config::abort::reconfigure_successful` (ID `822293473`), som saknas i aktuell källfil och därför lämnas orörd. Sökresultatet innehåller även QNAP QSW-poster på grund av namnöver­lappning; de avgränsades i separata sökningar och granskas i [QNAP QSW-rapporten](granskning-qnap-qsw.md). De två förslagen är sparade och API-återlästa 2026-11-21 med översättnings-ID `3487809135` och `3487809195` och ingår i verifierad TMX.
