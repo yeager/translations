@@ -83,3 +83,8 @@ En materiellt felaktig Windows-hjälptext sparades och API-återlästes. Posten 
 ### Fortsatt kontroll – kö, kodning och acceleratorer
 
 Följande ändringar sparades direkt i Transifex och lästes tillbaka via API: `_Exit` → `_Avsluta`, `Retry All Jobs` → `Försök igen med alla jobb`, `Reset Selected Jobs` → `Återställ valda jobb`, `Multi-Pass Encoding` → `Kodning med flera pass`, `Avg Bitrate (kbps):` → `Genomsnittlig bithastighet (kbps):` och `Encoder Tune:` → `Finjustering för kodare:`. Förklarande DVD/Blu-ray-texter rättades också, inklusive plural i instruktionen om val av videor och formuleringen `i stället` för `instead`. Acceleratormarkör och platshållare bevarades.
+
+
+### Fortsatt kontroll – återställning och status
+
+Sju poster i inställnings- och statusavsnittet sparades och API-återlästes. `portable.ini.template` anges nu exakt i återställningsinstruktionen, `Queue Recovery Possible` återges som **Köåterställning möjlig**, och texten om omedelbar åtgärd fick korrekt svensk versalisering. Två statusrader återfick källans tre punkttecken (`...`) i stället för ett annat ellipstecken. Uppdateringslänken fick idiomatisk formulering (**söka efter nya versioner**) och `Currently Paused` förkortades till den korrekta statusetiketten **Pausad**. Platshållaren `{0}` och måttenheten `GB` är bevarade.
