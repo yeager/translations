@@ -1,7 +1,7 @@
 # Home Assistant Core – pyLoad
 
 Datum: 2026-11-21  
-Status: pågående radgranskning mot aktuell Core-källa `2fdaa177`; konfigurationsdelens första 33 Lokalise-poster är kontrollerade.
+Status: klar radgranskning av samtliga 55 aktuella källsträngar mot Core `2fdaa177`. Två språkliga förslag är dokumenterade men ännu inte sparade i Lokalise.
 
 ## Osparat förslag
 
@@ -27,6 +27,12 @@ De tre aktuella konfigurationsfelen använder korrekt samma referenser som käll
 - `component::pyload::config::error::invalid_auth` (ID `496322872`): `[%key:common::config_flow::error::invalid_auth%]`.
 - `component::pyload::config::error::unknown` (ID `496322873`): `[%key:common::config_flow::error::unknown%]`.
 
+## Abortposter och källomfattning
+
+- `component::pyload::config::abort::already_configured` (Lokalise-ID `496322870`) är korrekt och följer exakt källreferensen `[%key:common::config_flow::abort::already_configured_device%]`.
+- `reconfigure_successful` (ID `497619377`) och `reauth_successful` (ID `497454039`) finns ännu i Lokalise, men saknas i den aktuella Core-källan. De är därför historiska poster och inte förslag till ändring.
+- Sökningen visade 75 pyLoad-poster i Lokalise. 55 motsvarar den aktuella källfilen; resterande 20 är historiska fält eller avvecklade flöden.
+
 ## Verifierade undantag
 
 Samtliga fem aktuella undantag är kontrollerade utan ändringsförslag:
@@ -43,4 +49,4 @@ Svenskan följer källans betydelse och använder produktnamnet `pyLoad` konsekv
 
 De övriga 11 aktuella entitetsnamnen är korrekta: återanslutning, köreglage, fyra återstående knappetiketter samt fem sensoretiketter för aktiva/totala/köade nedladdningar, ledigt utrymme och hastighet. Referenser saknas i denna del och inga platshållare påverkas.
 
-Den fortsatta granskningen omfattar återstående aktuella entiteter, reglage, knappar och undantag. Förslaget ovan är inte sparat och finns inte i TMX-minnet.
+Alla 55 aktuella pyLoad-strängar är nu granskade. De två förslagen ovan är inte sparade och finns inte i TMX-minnet. Verifierade befintliga poster kan föras in i Home Assistant-minnet med Lokalise-ID och källspårning i nästa TMX-synkning.
