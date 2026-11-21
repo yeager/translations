@@ -35,6 +35,8 @@ Datum: 2026-11-21
 | `component::playstation_network::exceptions::send_message_forbidden::message` | Failed to send message to {name}. You are not allowed to send messages to this group or friend. | Det gick inte att skicka meddelandet till {name}. Du har inte behörighet att skicka meddelanden till den här gruppen eller vännen. | Verifierad i Lokalise (ID `686597387`); platshållaren är intakt. |
 | `component::playstation_network::entity::sensor::online_id::name` | Online ID | Online-ID | Verifierad i Lokalise (ID `670327401`). |
 | `component::playstation_network::entity::sensor::now_playing::name` | Now playing | Spelar nu | Verifierad i Lokalise (ID `688374481`). |
+| `component::playstation_network::exceptions::user_not_found::message` | Unable to retrieve data for {user}. User does not exist or has been removed. | Det går inte att hämta data för {user}. Användaren finns inte eller har tagits bort. | Verifierad i Lokalise (ID `688374482`); platshållaren är intakt. |
+| `component::playstation_network::issues::group_chat_forbidden::title` | Failed to retrieve group chats for {name} | Misslyckades med att hämta gruppchattar för {name} | Verifierad i Lokalise (ID `703788107`); platshållaren är intakt. |
 
 ## Osparat förslag
 
