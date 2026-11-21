@@ -52,6 +52,8 @@ Den tillhörande listan `handbrake-sv-terminology-20261121.md` styr bland annat:
 
 - Linux UI: radgranskning påbörjad. 22 rader rättades, inklusive förinställningsgenus och -plural, tvingade undertexter, SRT-förskjutning, ködetaljer, DVD-vinkel, iPod Atom och metadata-genomströmning.
 
+- Linux UI: ytterligare 23 rader rättades i bild-, filter-, video- och undertextvyer. Förbättringarna omfattar bildpunktsförhållande, fyllningskanter, telecine, färgrymd/-omfång, bithastighet, Closed Captions och genomströmningsspårnamn.
+
 ## Verifiering
 
 - API-statistiken visar 0 oöversatta strängar i samtliga fyra resurser.
