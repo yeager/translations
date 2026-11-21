@@ -1,6 +1,6 @@
 # TMX-validering — 2026-11-21
 
-Validering kördes mot de kanoniska exporterna för Lokalise-sidorna 728–730.
+Validering kördes mot samtliga 62 tillgängliga kanoniska Lokalise-exporter, sidorna 669–730. Varje senare export är en ny ögonblicksbild med successivt fler poster; valideringen bekräftar därför formatet i varje sparad version, inte att hela projektets alla nycklar har granskats.
 
 | Kontroll | Resultat |
 |---|---|
