@@ -32,3 +32,13 @@ Båda sparningarna validerades med `l10n-lint`, återlästes via Lokalise API oc
 ## Status
 
 Den semantiska radgranskningen fortsätter. Denna rapport är en spårbar täckningsstatus, inte ett färdiggodkännande av komponenten.
+
+## Grovpartikelfilter – sparade och API-återlästa ändringar
+
+| Fullständig nyckel | Engelska | Tidigare svenska | Sparad svenska | Motivering |
+| --- | --- | --- | --- | --- |
+| `component::aerosmart::entity::sensor::coarse_dust_filter_maximum_conveyed_volume::name` | Coarse dust filter maximum conveyed volume | Grovdammsfiltrets maximala luftvolym | Grovpartikelfiltrets maximala luftvolym | Konsekvent med den redan verifierade termen *finpartikelfilter*. |
+| `component::aerosmart::entity::sensor::coarse_dust_filter_operating_hours::name` | Coarse dust filter operating hours | Grovdammsfiltrets drifttid | Grovpartikelfiltrets drifttid | Samma terminologi. |
+| `component::aerosmart::entity::sensor::coarse_dust_filter_service_life::name` | Coarse dust filter service life | Grovdammsfiltrets livslängd | Grovpartikelfiltrets livslängd | Samma terminologi. |
+
+Alla tre Lokalise-översättningar skickades med API och hämtades igen från sina respektive översättningsobjekt.
