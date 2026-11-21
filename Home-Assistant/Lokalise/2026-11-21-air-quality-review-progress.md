@@ -78,6 +78,11 @@ Följande 20 nycklar ändrades från `Hur värdet ska stämma överens med de en
 - `component::air_quality::triggers::smoke_cleared::fields::behavior::description`, `component::air_quality::triggers::smoke_detected::fields::behavior::description`, `component::air_quality::triggers::so2_crossed_threshold::fields::behavior::description`
 - `component::air_quality::triggers::voc_crossed_threshold::fields::behavior::description`, `component::air_quality::triggers::voc_ratio_crossed_threshold::fields::behavior::description`
 
+
+## Sparad etikettgrupp: minsta varaktighet
+
+42 Air Quality-fält med källtexten `For at least` ändrades från `I åtminstone` till `I minst`. Den gamla formuleringen var oidiomatisk; den nya är en korrekt svensk fältetikett för minsta varaktighet. `l10n-lint`, `hunspell-sv` och `svlang` godkände texten. API-sparningarna lästes tillbaka per översättnings-ID; en första batch avbröts efter 41 poster och den återstående radonnyckeln `component::air_quality::triggers::radon_crossed_threshold::fields::for::name` sparades och verifierades separat.
+
 ## Status
 
 Täcknings-, tomvärdes- och identitetskontroll är klar. Semantisk radgranskning av de återstående villkors- och triggertexterna fortsätter.
