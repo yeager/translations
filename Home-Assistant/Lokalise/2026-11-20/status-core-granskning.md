@@ -15,6 +15,7 @@ Senast uppdaterad: 2026-11-21.
 - XML-kontroll: unika `tuid`-värden och fullständig `source`-proveniens för varje post.
 - Alla 1 374 enheter har full nyckel som `source`, engelskt och svenskt segment samt statusen `saved-and-read-back` eller, för redan korrekta och återverifierade Lokalise-värden, `verified-existing`.
 - 1 143 senare poster använder `lokalise:<översättnings-id>` som `tuid`. De 231 historiska posterna använder i stället den fullständiga källnyckeln som `tuid`; deras Lokalise-ID behöver hämtas från API:t innan de kan migreras säkert.
+- Produktnamnskontroll 2026-11-21: samtliga **31** TMX-enheter vars engelska segment innehåller `Home Assistant` innehåller exakt samma produktnamn i det svenska segmentet (0 avvikelser).
 
 ## Pågående uppföljning
 
