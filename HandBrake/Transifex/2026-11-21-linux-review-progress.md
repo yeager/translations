@@ -55,3 +55,8 @@ Sparade och API-återlästa: **Aspect Ratio:** → **Bildförhållande:**, **Res
 ### Fortsatt kontroll – åtgärdsetiketter
 
 Tre ytterligare Linux-ändringar sparades och återlästes via Transifex API: **S_top Encoding** → **S_toppa kodningen**, **_Resume Encoding** → **_Återuppta kodningen** samt **Your encode is complete.** → **Kodningen är slutförd.** Snabbkommandotecknen bevarades.
+
+
+### Fortsatt kontroll – kodning
+
+Sju Linux-poster med felaktigt **omkodning** som översättning av *encode/encoding* sparades och återlästes: målfilnamn, målmapp, enskilda loggar samt statusarna klar, avbruten, misslyckad och slutförd. De använder nu genomgående **kodning**; detta följer HandBrakes terminologilista och skiljer aktiv kodning från faktisk omkodning.
