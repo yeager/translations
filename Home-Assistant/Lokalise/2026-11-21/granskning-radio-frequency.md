@@ -12,6 +12,5 @@ värdeplatshållarna `{frequency}` och `{modulation}` är kontrollerade.
 | `exceptions::no_transmitters::message` | `Inga radiosändare tillgängliga` | `Inga radiosändare är tillgängliga` | Predikatet behövs i den fullständiga svenska satsen. Sparad och återläst i Lokalise 2026-11-21. |
 
 Lokalise visar även en äldre, ej aktuell `_`-nyckel; den ingår inte i Core-källans
-nio aktuella strängar och har inte ändrats. Den sparade översättningen saknar
-här ett verifierat Lokalise-översättnings-ID och läggs därför inte till i det
-kanoniska TMX-minnet förrän ett sådant ID kan exporteras spårbart.
+nio aktuella strängar och har inte ändrats. Den sparade översättningen är
+API-verifierad med Lokalise-ID `8332067637` och ingår i det kanoniska TMX-minnet.
