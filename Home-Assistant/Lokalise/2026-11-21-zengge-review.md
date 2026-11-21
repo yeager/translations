@@ -1,8 +1,15 @@
-# Home Assistant Core: Zengge — granskning
+# Home Assistant – Zengge: svensk radgranskning
 
-Samtliga 2 strängar i `component::zengge` har granskats mot aktuell Lokalise-export. Ingen ändring behövs.
+Datum: 2026-11-21  
+Komponent: `zengge`
 
-- Avvecklingsmeddelandet är idiomatiskt och behåller `led_ble`, länken `{led_ble_url}` och Home Assistant-kontexten korrekt.
-- Titeln är korrekt.
+Integrationsborttagningsinformationen har kontrollerats mot Lokalise och källfil.
 
-Ingen TMX-uppdatering görs när Lokalise inte ändras.
+Beskrivningen sparades tidigare med följande förbättringar:
+
+- `led_ble` använder konsekvent kodformat.
+- Den dubbla användningen av ”istället” togs bort.
+- Home Assistants etablerade formulering ”För att lösa problemet tar du bort …” används.
+- `{led_ble_url}` är bevarad och jämförd mot engelskan.
+
+Titeln **Zengge-integrationen har tagits bort** behölls. Den aktuella återkontrollen gav inga ytterligare ändringar.
