@@ -38,3 +38,8 @@ Färsk Transifex-hämtning omfattade 1 281 aktuella macOS-strängar. Nio ändrin
 | Bottom/Top/Left/Right edge cropping amount in pixels (åtta punkt- och icke-punktvarianter) | Beskäring … | Beskärning … | Rätt svenskt ord; enhetlig formulering och bevarad interpunktion. |
 
 l10n-lint med språk=sv gav 0 fel i den samlade aktuella katalogen. Hunspell-sv markerade inte de sparade texterna.
+
+
+### Fortsatt semantisk kontroll
+
+Sparade och API-återlästa: **Passthru Fallback:** → **Reservkodning vid genomströmning:**; två **Forced Only** → **Endast tvingade**; två längre hjälpposter för *Track Selection Behavior* med korrekta alternativnamn, utan dubbel negation och med bevarade radbrytningar; **Muxing…** → **Muxning…**.
