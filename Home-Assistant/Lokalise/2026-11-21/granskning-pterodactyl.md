@@ -1,7 +1,7 @@
 # Home Assistant Core – Pterodactyl
 
 Datum: 2026-11-21  
-Status: pågående radgranskning mot aktuell `origin/dev`.
+Status: samtliga 26 aktuella bladnycklar är radgranskade mot `origin/dev`.
 
 | Nyckel | Källa | Svenska | Bedömning |
 | --- | --- | --- | --- |
@@ -13,4 +13,6 @@ Status: pågående radgranskning mot aktuell `origin/dev`.
 | `component::pterodactyl::entity::button::{force_stop_server,restart_server,start_server,stop_server}::name` | Force stop server; Restart server; Start server; Stop server | Forcera stopp av server; Starta om server; Starta server; Stoppa server | Verifierade i Lokalise (ID `628027670`–`628027673`). |
 | `component::pterodactyl::entity::sensor::{cpu_limit,cpu_utilization,disk_limit,disk_usage,memory_limit,memory_usage,network_inbound,network_outbound}::name` | CPU limit; CPU utilization; Disk limit; Disk usage; Memory limit; Memory usage; Network inbound; Network outbound | CPU-gräns; CPU-användning; Diskgräns; Diskanvändning; Minnesgräns; Minnesanvändning; Nätverk inkommande; Nätverk utgående | Verifierade i Lokalise (ID `627549829`–`627549836`). |
 
-Konfigurationsreferenserna är kontrollerade och bevarade. Återstående radkontroll dokumenteras löpande.
+Konfigurationsreferenserna för `already_configured`, `cannot_connect`, `invalid_auth`, `unknown`, båda API-nyckelfälten, URL-fältet och återautentiseringsrubriken är kontrollerade och bevarade. De har rätt gemensamma referens i både käll- och målspråk.
+
+Lokalise-sökningen omfattar 28 poster. Två ligger utanför aktuell Core-källa (`config::abort::reauth_successful` och den äldre separata återautentiseringsposten); de har inte räknats som aktiva bladnycklar och har inte ändrats. Enbart drifttidsförslaget ovan är osparat och därför inte upptaget i det kanoniska TMX-minnet.
