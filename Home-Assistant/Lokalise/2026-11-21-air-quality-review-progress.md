@@ -98,6 +98,11 @@ Källan och implementationen använder `cleared` när en binärsensor inte läng
 
 204 villkors- och triggerposter för PM1, PM2.5, PM4, PM10, VOC och VOC-kvot granskades mot aktuella `strings.json`. Beteckningar, måttenheter, tröskelvärdesterminologi och svenska sammansättningar är konsekventa. Inga säkra ändringar gjordes i denna grupp.
 
+
+## Färsk export- och formatkontroll
+
+Efter fullständig Core-export från Lokalise extraherades komponentens 570 aktuella poster. Kontroll: 0 tomma svenska mål, 0 identiska käll-/målpar och `msgfmt --check` passerade. Ett avgränsat `l10n-lint`-pass rapporterade 0 fel och 0 varningar. Två informationsnotiser avser enbart att svenska VOC-namn har tillägget `(VOC)`; de är avsiktliga och medför ingen format- eller platshållaravvikelse.
+
 ## Status
 
 Täcknings-, tomvärdes- och identitetskontroll är klar. Semantisk radgranskning av de återstående villkors- och triggertexterna fortsätter.
