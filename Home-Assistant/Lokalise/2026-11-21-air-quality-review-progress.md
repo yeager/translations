@@ -103,6 +103,11 @@ Källan och implementationen använder `cleared` när en binärsensor inte läng
 
 Efter fullständig Core-export från Lokalise extraherades komponentens 570 aktuella poster. Kontroll: 0 tomma svenska mål, 0 identiska käll-/målpar och `msgfmt --check` passerade. Ett avgränsat `l10n-lint`-pass rapporterade 0 fel och 0 varningar. Två informationsnotiser avser enbart att svenska VOC-namn har tillägget `(VOC)`; de är avsiktliga och medför ingen format- eller platshållaravvikelse.
 
+
+## Kompletterad N₂O-kontroll
+
+Färsk API-export avslöjade två kvarvarande användningar av `kväveoxidnivån` i N₂O-triggerns gränshjälptexter. `component::air_quality::triggers::n2o_changed::fields::above::description` och `component::air_quality::triggers::n2o_changed::fields::below::description` använder nu `dikväveoxidnivån`. Båda är validerade, sparade, återlästa och införda i TM-minnet. `svlang` flaggade endast korrekta bisatser efter `när` som falskt positiva.
+
 ## Status
 
 Täcknings-, tomvärdes- och identitetskontroll är klar. Semantisk radgranskning av de återstående villkors- och triggertexterna fortsätter.
