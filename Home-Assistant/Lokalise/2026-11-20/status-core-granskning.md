@@ -169,6 +169,7 @@ omedelbart och läses tillbaka; fortsatt arbete använder inte `/tmp`.
 - [REFOSS](../2026-11-21/granskning-refoss.md)
 - [Recollect Waste](../2026-11-21/granskning-recollect-waste.md)
 - [RabbitAir](../2026-11-21/granskning-rabbitair.md)
+- [Rachio](../2026-11-21/granskning-rachio.md)
 - [RadioTherm](granskning-radiotherm.md)
 - [Simplepush](granskning-simplepush.md)
 - [Tankerkoenig, del 1](granskning-tankerkoenig-del-1.md)
