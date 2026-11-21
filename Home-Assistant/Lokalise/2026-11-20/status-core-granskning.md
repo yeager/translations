@@ -52,6 +52,7 @@ Senast uppdaterad: 2026-11-21.
 | `component::pterodactyl` | Alla **26** aktuella bladnycklar är granskade mot Core och Lokalise; två ytterligare Lokalise-poster är historiska. Ett osparat format- och språkförslag för drifttid är dokumenterat. | Spara och återläs enbart det dokumenterade drifttidsförslaget efter uttrycklig bekräftelse; därefter kan komponenten återkontrolleras vid källändring. |
 | `component::pure_energie` | Alla **11** aktuella bladnycklar är granskade mot Core och Lokalise utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::purpleair` | Alla **43** aktuella bladnycklar är granskade. Tre osparade förslag är dokumenterade; 13 ytterligare Lokalise-poster är historiska. | Spara och återläs de tre förslagen efter uttrycklig bekräftelse; därefter synkas verifierade värden till TMX. |
+| `component::pushbullet` | Alla **19** aktuella bladnycklar är granskade. Två osparade referenskorrigeringar är dokumenterade; en extra Lokalise-rad är historisk. | Spara och återläs de två förslagen efter uttrycklig bekräftelse; därefter synkas verifierade värden till TMX. |
 | `component::radiotherm` | Alla 9 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::simplepush` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; felmeddelandet om sändning sparades i Lokalise och återlästes i redigeringsfältet. | Ta med värdet vid nästa verifierade TMX-synkning. |
 | `component::tankerkoenig` | Del 1–2: konfiguration och synliga sensorattribut är lästa mot aktuell Core-källa. Alla tio fastställda ändringar är sparade och återlästa i Lokalise. | Kontrollera historiska Lokalise-rader mot API-proveniens när full export finns. |
@@ -127,6 +128,7 @@ omedelbart och läses tillbaka; fortsatt arbete använder inte `/tmp`.
 - [Pterodactyl](../2026-11-21/granskning-pterodactyl.md)
 - [Pure Energie](../2026-11-21/granskning-pure-energie.md)
 - [PurpleAir](../2026-11-21/granskning-purpleair.md)
+- [Pushbullet](../2026-11-21/granskning-pushbullet.md)
 - [RadioTherm](granskning-radiotherm.md)
 - [Simplepush](granskning-simplepush.md)
 - [Tankerkoenig, del 1](granskning-tankerkoenig-del-1.md)
