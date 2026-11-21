@@ -65,6 +65,19 @@ Följande 20 nycklar ändrades från `Hur värdet ska stämma överens med de en
 - `component::air_quality::conditions::is_voc_ratio_value::fields::behavior::description`
 - `component::air_quality::conditions::is_voc_value::fields::behavior::description`
 
+
+## Sparad terminologigruppering: triggerbeteende
+
+20 nycklar med `The behavior of the targeted entities to trigger on.` använder nu `Det beteende hos de valda entiteterna som ska utlösa automatiseringen.` i stället för den oklara konstruktionen `Det beteende som ska trigga för valda entiteter.` Samtliga API-sparningar återlästes. Fullständiga nycklar:
+
+- `component::air_quality::common::trigger_behavior_description`
+- `component::air_quality::triggers::co2_crossed_threshold::fields::behavior::description`, `component::air_quality::triggers::co_cleared::fields::behavior::description`, `component::air_quality::triggers::co_crossed_threshold::fields::behavior::description`, `component::air_quality::triggers::co_detected::fields::behavior::description`
+- `component::air_quality::triggers::gas_cleared::fields::behavior::description`, `component::air_quality::triggers::gas_detected::fields::behavior::description`, `component::air_quality::triggers::n2o_crossed_threshold::fields::behavior::description`
+- `component::air_quality::triggers::no2_crossed_threshold::fields::behavior::description`, `component::air_quality::triggers::no_crossed_threshold::fields::behavior::description`, `component::air_quality::triggers::ozone_crossed_threshold::fields::behavior::description`
+- `component::air_quality::triggers::pm10_crossed_threshold::fields::behavior::description`, `component::air_quality::triggers::pm1_crossed_threshold::fields::behavior::description`, `component::air_quality::triggers::pm25_crossed_threshold::fields::behavior::description`, `component::air_quality::triggers::pm4_crossed_threshold::fields::behavior::description`
+- `component::air_quality::triggers::smoke_cleared::fields::behavior::description`, `component::air_quality::triggers::smoke_detected::fields::behavior::description`, `component::air_quality::triggers::so2_crossed_threshold::fields::behavior::description`
+- `component::air_quality::triggers::voc_crossed_threshold::fields::behavior::description`, `component::air_quality::triggers::voc_ratio_crossed_threshold::fields::behavior::description`
+
 ## Status
 
 Täcknings-, tomvärdes- och identitetskontroll är klar. Semantisk radgranskning av de återstående villkors- och triggertexterna fortsätter.
