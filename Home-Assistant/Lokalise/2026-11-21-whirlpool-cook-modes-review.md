@@ -1,7 +1,7 @@
-# Home Assistant Core – Whirlpool: tillagningslägen
+# Home Assistant Core – Whirlpool
 
 Datum: 2026-11-21
 
-De 15 felaktiga select-etiketterna för ugnens tillagningslägen har rättats, sparats och API-återlästs. Ändringarna gäller huvud-, övre och nedre ugn och synkroniserar `Luftfritering`, `Konvektionsbakning`, `Konvektionsgrillning`, `Konvektionsstekning` och `Varmhållning` med komponentens redan korrekta sensorvärden. Ytterligare nio select-värden har samordnats för `Grädda`, `Grilla` och `Viloläge`, och tre ugnsetiketter använder nu korrekt genitiv för nedre och övre ugn. De två avvecklingsmeddelandena och deras titlar har också rättats; Markdown, `{entity_id}`, `{entity_name}` och `{items}` är bevarade. De tre kontolåsmeddelandena använder nu korrekt `kontot` i stället för felaktigt `den`.
+Alla 210 Whirlpool-strängar har granskats mot aktuell källa och tidigare backup. 35 fel är rättade, sparade och API-återlästa.
 
-Fullständig granskning av Whirlpool fortsätter; återstående strängar och TMX-verifieringsmanifest behandlas separat.
+De 15 felaktiga select-etiketterna för ugnens tillagningslägen har rättats. Ändringarna gäller huvud-, övre och nedre ugn och synkroniserar `Luftfritering`, `Konvektionsbakning`, `Konvektionsgrillning`, `Konvektionsstekning`, `Varmhållning`, `Grädda`, `Grilla` och `Viloläge` med komponentens redan korrekta sensorvärden. Ugnsetiketterna använder korrekt genitiv för nedre och övre ugn. De två avvecklingsmeddelandena och deras titlar har också rättats; Markdown, `{entity_id}`, `{entity_name}` och `{items}` är bevarade. De tre kontolåsmeddelandena använder korrekt `kontot` i stället för felaktigt `den`.
