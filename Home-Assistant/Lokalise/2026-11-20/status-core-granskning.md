@@ -176,6 +176,7 @@ omedelbart och läses tillbaka; fortsatt arbete använder inte `/tmp`.
 - [Rain Bird](../2026-11-21/granskning-rainbird.md)
 - [RainbowMiner](../2026-11-21/granskning-rainbowminer.md)
 - [Rainforest Eagle](../2026-11-21/granskning-rainforest-eagle.md)
+- [Rainforest Raven](../2026-11-21/granskning-rainforest-raven.md)
 - [Simplepush](granskning-simplepush.md)
 - [Tankerkoenig, del 1](granskning-tankerkoenig-del-1.md)
 - [Tankerkoenig, del 2](granskning-tankerkoenig-del-2.md)
