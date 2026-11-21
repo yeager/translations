@@ -56,6 +56,7 @@ Senast uppdaterad: 2026-11-21.
 | `component::pvoutput` | Alla **23** aktuella bladnycklar är granskade. Två osparade referenskorrigeringar är dokumenterade; historiska Lokalise-poster är avgränsade. | Spara och återläs de två förslagen efter uttrycklig bekräftelse; därefter synkas verifierade värden till TMX. |
 | `component::pyload` | Alla **55** aktuella Core-strängar är granskade mot aktuell Core-källa. Två osparade språk- och markupförslag är dokumenterade; 20 ytterligare Lokalise-poster är historiska. | Spara och återläs de två förslagen efter uttrycklig bekräftelse; därefter synkas verifierade värden till TMX. |
 | `component::qbus` | Alla **15** aktuella Core-strängar är granskade mot aktuell Core-källa. Två osparade språkförslag är dokumenterade. | Spara och återläs de två förslagen efter uttrycklig bekräftelse; därefter synkas verifierade värden till TMX. |
+| `component::qingping` | Alla **8** aktuella Core-strängar är granskade mot aktuell Core-källa utan ändringsförslag; en extra Lokalise-rad är historisk. | Komponenten kan återkontrolleras vid källändring. |
 | `component::radiotherm` | Alla 9 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::simplepush` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; felmeddelandet om sändning sparades i Lokalise och återlästes i redigeringsfältet. | Ta med värdet vid nästa verifierade TMX-synkning. |
 | `component::tankerkoenig` | Del 1–2: konfiguration och synliga sensorattribut är lästa mot aktuell Core-källa. Alla tio fastställda ändringar är sparade och återlästa i Lokalise. | Kontrollera historiska Lokalise-rader mot API-proveniens när full export finns. |
@@ -136,6 +137,7 @@ omedelbart och läses tillbaka; fortsatt arbete använder inte `/tmp`.
 - [PVOutput](../2026-11-21/granskning-pvoutput.md)
 - [pyLoad](../2026-11-21/granskning-pyload.md)
 - [Qbus](../2026-11-21/granskning-qbus.md)
+- [Qingping](../2026-11-21/granskning-qingping.md)
 - [RadioTherm](granskning-radiotherm.md)
 - [Simplepush](granskning-simplepush.md)
 - [Tankerkoenig, del 1](granskning-tankerkoenig-del-1.md)
