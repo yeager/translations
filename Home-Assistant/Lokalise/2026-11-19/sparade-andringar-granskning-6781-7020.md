@@ -2,6 +2,15 @@
 
 Samtliga tio poster matchade aktuell Lokalise-källa och lästes tillbaka efter sparning.
 
+## ZinVolt, tillägg 2026-11-21
+
+Två entitetssträngar sparades och återlästes via Lokalise API:
+
+- `component::zinvolt::entity::number::standby_time::name`: `Standby-tid` → `Standbytid`.
+- `component::zinvolt::entity::select::battery_mode::state::self_use`: `Självanvändning` → `Egenanvändning`.
+
+Spårbar TMX-post finns i `Home-Assistant/2026-11-21-zinvolt-verified.json`; platshållare berördes inte.
+
 ## `component::zinvolt::exceptions::authentication_failed::message`
 
 **Engelska:** Authentication with the Zinvolt API failed. Please reauthenticate.
