@@ -16,15 +16,18 @@ Terminologin har jämförts med `handbrake-sv-terminology-20261121.md`, `swedish
 | --- | --- | --- | --- | --- |
 | `o:HandBrakeProject:p:linux-ui:r:ghbpot:s:ac76f4d9b546cda89b7b5ccee79d4c8f` | HandBrake For _Dummies | HandBrake For _Dummies | HandBrake för _nybörjare | Helt oöversatt synlig menypost. Snabbkommandotecknet bevarades. |
 | `o:HandBrakeProject:p:linux-ui:r:ghbpot:s:0d668bd70867851f4882d042b8438342` | Start | Start | Starta | Åtgärdsknappen ska använda verbform på svenska. |
+| `o:HandBrakeProject:p:linux-ui:r:ghbpot:s:b0766b49dcb033bc1a70fc9538d64c52` | Available Options: {source-path} … {height} | Två blanksteg efter `{bit-depth}` | Ett blanksteg efter `{bit-depth}` | Samtliga platshållare bevarades och oavsiktligt dubbelt blanksteg togs bort. |
+| `o:HandBrakeProject:p:linux-ui:r:ghbpot:s:25eda6ae48b35a7fad08b647148d5e0b` | Denoise filtering reduces … | Onödigt kommatecken före `kan` | Samma text utan kommatecknet | Svensk satsinterpunktion, radbrytningar bevarade. |
+| `o:HandBrakeProject:p:linux-ui:r:ghbpot:s:54fb5927b3b5e5081b440cd284675f2c` | Denoise filtering reduces … | Onödigt kommatecken före `kan` | Samma text utan kommatecknet | Svensk satsinterpunktion, indrag och radbrytningar bevarade. |
 
-Båda värdena skickades genom Transifex REST API och hämtades igen från respektive `resource_translation`-objekt.
+Samtliga fem värden skickades genom Transifex REST API och hämtades igen från respektive `resource_translation`-objekt.
 
 ## Verktyg
 
-- `l10n-lint --language sv`: inga anmärkningar för ändringsmängden.
-- `hunspell-sv`: endast produktnamnet HandBrake markeras; ingen svensk stavningsanmärkning.
-- `svlang check`: 10,0/10; produktnamnet är en förväntad frekvensträff, inte ett språkfel.
+- `l10n-lint --language sv`: inga anmärkningar för kandidaterna.
+- `hunspell-sv`: endast produktnamnet HandBrake samt etablerade teknikord markeras; ingen svensk stavningsanmärkning.
+- `svlang check`: produktnamn och teknikord är förväntade frekvensträffar, inte språkfel.
 
 ## Status
 
-Inventering, täckningskontroll och terminologisökning är klara för Linux-resursen. Den semantiska radgranskningen fortsätter; denna rapport markerar inte Linux UI eller HandBrake som färdiggranskade. macOS-, Windows- och Windows Tooltips-resurserna är ännu inte genomgångna rad för rad.
+Inventering, täckningskontroll och terminologisökning är klara för Linux-resursen. Den semantiska radgranskningen fortsätter; denna rapport markerar inte Linux UI eller HandBrake som färdiggranskade.
