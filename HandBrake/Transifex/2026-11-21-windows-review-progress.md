@@ -125,3 +125,9 @@ Tooltip-raderna 1–46 har granskats mot källan. Fem ändringar sparades och AP
 Tooltip-raderna 47–91 har granskats och sju ändringar sparades samt API-återlästes. Käll-/titelhjälpen följer nu DVD- och Blu-ray-terminologin och använder **i stället**. `Deinterlace`, `Interlace Detection` och deras parametrar fick konsekvent svensk avflätningsterminologi, medan de egentliga filternamnen Bwdif, Yadif och Decomb bevarades. `Custom Sharpen` översattes till **Anpassade parametrar för skärpning**. Avslutskodsbeskrivningarna efter `HB_*` är nu svenska utan att variabelnamn eller kodvärden ändrats. Höger-till-vänster-hjälpen använder svenska citattecken och korrekt beskrivning av gränssnittet.
 
 Tooltip-resursens semantiska genomläsning omfattar därmed alla 91 rader i den aktuella API-ögonblicksbilden. Färsk API-export och format-/språkkontroll återstår.
+
+### Färsk API-verifiering
+
+En ny sidindelad Transifex-API-export hämtades efter radpassen: 1 013 huvudsträngar och 91 tooltipsträngar. Jämförelsen mot den dokumenterade startögonblicksbilden gav 55 ändringar i huvudresursen och 12 i tooltip-resursen; var och en motsvarar en ändring från denna granskningsserie och lästes tillbaka från API:t.
+
+`l10n-lint --language sv --json-format nested` på den färska, sammanslagna exporten gav **0 problem**. `hunspell -d sv_SE` gav endast ord som kräver teknisk kontext eller egenordsbedömning, exempelvis format/codec-/filter-/produktnamn, platshållarsyntax, variabler och svenska sammansättningar. `svlang` kördes som kompletterande underlag men dess dokumentnivåpoäng är inte meningsfull för en sammanfogad katalog av korta UI-fragment, kod och malltexter; rapporterade V2-varningar kontrollerades mot respektive rad och användes inte som automatiska ändringar.
