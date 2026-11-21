@@ -55,3 +55,8 @@ Sparade och API-återlästa: **Muxing: This may take a while…** → **Muxning:
 ### Fortsatt kontroll – plats­hållarhjälp
 
 Den långa tooltipen för målfilens platshållare rättades språkligt och API-återlästes. Samtliga platshållare, kodnamn och radbrytningar bevarades; **codec** och **encoder** i klammerparenteser lämnades avsiktligt orörda.
+
+
+### Fortsatt kontroll – statusdialoger
+
+Fyra Windows-poster sparades och API-återlästes: åtgärden för misslyckade jobb, kapitelinformation för källmediet, Safe Mode-varningen och köns jobbstatus. Platshållarna `{0}`–`{3}` är bevarade.
