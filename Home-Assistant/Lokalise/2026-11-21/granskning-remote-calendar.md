@@ -15,5 +15,7 @@ innehållsavvikelser återstår i Lokalise:
 | `component::remote_calendar::config::step::user::data::url` | `URL för kalender` | `Kalender-URL` |
 | `component::remote_calendar::exceptions::unable_to_parse::message` | `Kalenderflödet från fjärrservern innehåller ogiltiga uppgifter. Se felloggen för mer information.` | `Kalenderflödet från fjärrkällan innehåller ogiltiga uppgifter. Se felloggen för mer information.` |
 
-Förslagen är ännu inte sparade i Lokalise. De ska återläsas efter sparning
-och först därefter läggas till i den verifierade HA-TMX:en med Lokalise-ID.
+De två HTTP Basic-texterna och feltexten under `config` var redan korrekta i
+den aktuella API-katalogen. De tre återstående korrigeringarna är sparade och
+återlästa via Lokalise API 2026-11-21 och ingår i verifierad HA-TMX med
+översättnings-ID `5430849129`, `5430849318` och `5430849444`.
