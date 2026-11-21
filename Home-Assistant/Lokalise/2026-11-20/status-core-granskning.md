@@ -4,8 +4,9 @@ Senast uppdaterad: 2026-11-21.
 
 ## Omfattning och kontrollpunkt
 
-- Granskning har genomförts rad för rad t.o.m. Lokalise-sida 750.
-- Sida 731 är granskad och dess sex sparade ändringar har återlästs. Sidorna 732–733 har kontrollerats utan ändringsförslag. Sida 734 innehöll två felaktigt formaterade Voice Support-platshållare som är sparade och återlästa. Sidorna 735–740 är LIFX-katalogetiketter utan ändringsförslag; sida 741 rättade den kvarlämnade theme-etiketten `Taps` till `Kranar` och återläste ändringen. Sidorna 742–745 fortsätter selector utan ändringsförslag. Sida 746 rättade fyra konsekventa Fritz-etiketter för länkens datahastighet och återläste dem via API. Sidorna 747–750 är granskade utan ändringsförslag.
+- Den aktuella Lokalise-pagineringen är genomgången rad för rad: **752 sidor,
+  75 158 aktiva nycklar** (sista sidan innehåller 58 nycklar).
+- Sida 731 är granskad och dess sex sparade ändringar har återlästs. Sidorna 732–733 har kontrollerats utan ändringsförslag. Sida 734 innehöll två felaktigt formaterade Voice Support-platshållare som är sparade och återlästa. Sidorna 735–740 är LIFX-katalogetiketter utan ändringsförslag; sida 741 rättade den kvarlämnade theme-etiketten `Taps` till `Kranar` och återläste ändringen. Sidorna 742–745 fortsätter selector utan ändringsförslag. Sida 746 rättade fyra konsekventa Fritz-etiketter för länkens datahastighet och återläste dem via API. Sidorna 747–752 är granskade utan ändringsförslag; sida 752 verifierar också de tidigare sparade Shelly-värdena.
 - Tidigare arbete fram till sida 614 finns i tidigare rapporter i denna katalog. Sidor 615–744 är fortsatt spårade genom Lokalise-ID:n och det kanoniska TMX-minnet; sidor 727–730 har kompletterande fullständig ändringsrapport.
 
 ## Kanoniskt Home Assistant-minne
