@@ -11,3 +11,4 @@ Status: pågående. Aktuella gemensamma inloggningssträngar, entiteter, undanta
 | `component::alexa_devices::exceptions::invalid_sound_value::message` | Ogiltigt ljudvärde har angetts: `{sound}` | Rättar genus- och satsfel och bevarar platshållaren. Lokalise-ID `688367126`. |
 | `component::alexa_devices::entity::notify::announce::name` | Meddela | Alexa-funktionen skickar ett meddelande; `Annonsera` har en missvisande betydelse på svenska. Lokalise-ID `662508699`. |
 | `component::alexa_devices::selector::info_skill::options::fun_fact` | Berätta ett roligt faktum | Ersätter anglicismen `fun-fact`. Lokalise-ID `800693780`. |
+| `component::alexa_devices::selector::sound::options::amzn_sfx_crowd_applause_01` | Applåder från publiken | Tar bort det ogrundade tillägget `2`. Lokalise-ID `704005496`. |
