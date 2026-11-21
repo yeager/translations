@@ -16,8 +16,12 @@ Resurser: `o:HandBrakeProject:p:WinUI:r:resourcesresx` och `o:HandBrakeProject:p
 | --- | --- | --- | --- | --- |
 | `o:HandBrakeProject:p:WinUI:r:resourcesresx:s:13b49bb76879cab3dce011f3f3c509d6` | Chroma Smooth: | Chroma Smooth: | Kromautjämning: | Synligt generiskt filternamn, konsekvent med Linux- och macOS-gränssnitten. |
 | `o:HandBrakeProject:p:WinUI:r:resourcesresx:s:4ff80499717a3c58bbd0359b971b9952` | Deblock | Deblock | Blockborttagning | Synligt generiskt filternamn, konsekvent med Linux- och macOS-gränssnitten. |
+| `o:HandBrakeProject:p:WinUI:r:resourcestooltipsresx:s:cb007bff02436aaf93c2cdce48153ba9` | Setup behaviours … | Saknade slutpunkt | Slutpunkt tillagd | Källans interpunktion bevaras. |
+| `o:HandBrakeProject:p:WinUI:r:resourcestooltipsresx:s:270afec0368625363ed8eaa1ba7275f3` | Setup behaviours … | Saknade slutpunkt | Slutpunkt tillagd | Källans interpunktion bevaras. |
+| `o:HandBrakeProject:p:WinUI:r:resourcestooltipsresx:s:d3edbbdccbc15d7a5863e33ce64d8762` | one of two modes | ett eller två lägen | ett av två lägen | Återställer källans val mellan två lägen. |
+| `o:HandBrakeProject:p:WinUI:r:resourcestooltipsresx:s:f5f3eac3e21be93ef2ae689bf2d73124` | Blu-ray and DVD sources | Blu-ray och dvd-källor | Blu-ray och DVD-källor | Produktförkortningen bevaras. |
 
-Båda ändringarna skickades genom Transifex API och lästes tillbaka från respektive resursöversättning.
+Samtliga ändringar skickades genom Transifex API och lästes tillbaka från respektive resursöversättning.
 
 ## Status
 
