@@ -11,6 +11,22 @@ Senast uppdaterad: 2026-11-21.
 
 ## Kanoniskt Home Assistant-minne
 
+### Aktuell komplett Lokalise-export
+
+- Den 2026-11-21 hämtades hela aktuella Core-katalogen på nytt via Lokalise
+  API och skrevs till
+  `swedish-tm/home-assistant/snapshots/core.jsonl`,
+  `sv-home-assistant-core.po` och `sv-home-assistant-core.tmx`.
+- Exportverktygets efterföljande validering godkändes: **75 106** enheter,
+  **75 107** segment och **42 557** unika engelsk–svenska segmentpar.
+  Skillnaden mot 75 158 aktiva API-nycklar är 52 poster utan både användbart
+  engelskt källsegment och svenskt mål; sådana poster får inte falskt införas
+  i TM-minnet.
+- Varje exporterad post innehåller Lokalise-nyckel, översättnings-ID, full
+  kontextnyckel, käll-/måltext och ögonblicksbildsdatum. Exporten är ett
+  aktuellt katalogminne; dess `live-lokalise-export`-status ersätter inte den
+  individuella språkgranskningsproveniens som beskrivs nedan.
+
 - Fil: `yeager/swedish-tm/Home-Assistant/sv-home-assistant-core-lokalise-verified-20261120-canonical.tmx`.
 - Senast verifierad nivå: **1 374** unika översättningsenheter (231 historiska nyckelbaserade och 1 143 med Lokalise-ID), inklusive löpande Lokalise-granskningar från 2026-11-21.
 - XML-kontroll: unika `tuid`-värden och fullständig `source`-proveniens för varje post.
