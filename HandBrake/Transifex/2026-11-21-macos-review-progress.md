@@ -99,3 +99,8 @@ Tio poster sparades och API-återlästes. Åtta menyåtgärder återfick källan
 ### Fortsatt kontroll – undertexter och videokodning
 
 Sex macOS-poster sparades och API-återlästes: två **Valbeteende…** och **Lägg till titlar i kö…** använder källans ellipsis, **OK** följer standardstavningen, `Passthru` är **genomströmning** och **Kodning med flera pass** ersätter det oidiomatiska *flerpass*.
+
+
+### Fortsatt kontroll – status och förhandsvisning
+
+Sex poster sparades och API-återlästes: **Öppna källfil** följer etablerad källterminologi, **Körtid** ersätter det felaktiga *Speltid* för programkörningen, samt `OK` och två ellipsmenyer normaliserades. I förhandsvisningsmallen ändrades endast svensk versalisering; `%1$f`, `%2$f` och `%3$.0f%%` bevarades exakt.
