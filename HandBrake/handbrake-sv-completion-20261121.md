@@ -70,6 +70,8 @@ Den tillhörande listan `handbrake-sv-terminology-20261121.md` styr bland annat:
 
 - Windows UI: ytterligare 21 rader rättades i förinställnings-, bild-, metadata- och aviseringsvyer. Detta inkluderar ersättning av felordet `sorgkanter`, rätt genus/plural för förinställningar, Closed Captions, genomströmning och Windows-aktivitetsfältsaviseringar.
 
+- Windows UI: slutblocket gav 16 språk- och terminologikorrigeringar, bland annat korrekt förhandsvisning för WebM, GitHub-ärendehantering, avflätning, blockborttagning, kromautjämning och genomströmning. Vid efterkontroll återställdes dessutom radbrytningar i 13 längre hjälptexter enligt källformatet.
+
 ## Verifiering
 
 - API-statistiken visar 0 oöversatta strängar i samtliga fyra resurser.
