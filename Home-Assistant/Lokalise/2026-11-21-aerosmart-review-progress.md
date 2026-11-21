@@ -19,6 +19,16 @@ Hunspell-träffarna är etablerade domäntermer, produktnamnet `aerosmart`, Modb
 
 Integrationens egen manifestfil anger namnet `aerosmart` med gemener; den formen har därför bevarats även i svenska sammansättningar. Ingen säker ändring har identifierats ännu.
 
+
+## Sparade rättningar
+
+| Nyckel | Tidigare svenska | Sparad svenska | Motivering |
+| --- | --- | --- | --- |
+| `component::aerosmart::entity::sensor::fine_dust_filter_operating_hours::name` | Finfiltrets drifttid | Finpartikelfiltrets drifttid | Samma källterm översätts redan som `finpartikelfilter` i komponentens binärsensorer. |
+| `component::aerosmart::entity::sensor::fine_dust_filter_service_life::name` | Finfiltrets livslängd | Finpartikelfiltrets livslängd | Samma term- och sammansättningsrättning. |
+
+Båda sparningarna validerades med `l10n-lint`, återlästes via Lokalise API och lades till i det verifierade TM-minnet. Hunspell saknar den produktiva sammansättningen `finpartikelfiltrets`; `svlang` bedömer den som ovanlig men naturlig. Det är en korrekt fackterm, inte en stavningsavvikelse.
+
 ## Status
 
 Den semantiska radgranskningen fortsätter. Denna rapport är en spårbar täckningsstatus, inte ett färdiggodkännande av komponenten.
