@@ -31,3 +31,17 @@ Samtliga fem värden skickades genom Transifex REST API och hämtades igen från
 ## Status
 
 Inventering, täckningskontroll och terminologisökning är klara för Linux-resursen. Den semantiska radgranskningen fortsätter; denna rapport markerar inte Linux UI eller HandBrake som färdiggranskade.
+
+## Fortsatt radgranskning – 2026-11-21
+
+Färsk Transifex-hämtning av alla 801 Linux-strängar bekräftade att källsträngarna är oförändrade sedan föregående export. Följande sex korrigeringar sparades och återlästes individuellt via API:
+
+| Engelska | Tidigare svenska | Sparad svenska | Motivering |
+| --- | --- | --- | --- |
+| Passthru Common Metadata | Genomström vanliga metadata | För över vanliga metadata | Begriplig svensk åtgärdsform. |
+| Deblocking filter … blockiness … | Beskrev en annan filterverkan | Anger att filtret kan minska blockighet | Återger källans betydelse; båda radbrytningsvarianterna rättade. |
+| Passthru Fallback: | Genomströmningsreserv: | Reservkodning vid genomströmning: | Avser den kodek som används när genomströmning inte kan användas. |
+| Foreign Audio Subtitle Track | Främmande språks undertextspår | Undertextspår för främmande språk | Korrekt och idiomatisk svensk sammansättning. |
+| SRT file does not exist … | reguljär fil; undantas | vanlig fil; ignoreras | Naturlig svensk feltext utan ändrade radbrytningar. |
+
+l10n-lint med språk=sv gav 0 fel. Fyra kvarvarande varningar är kontrollerade falska positiva: sammansättningen *källljudspår*, tekniska I-/P-bildrutor och ett dubblerat engelskt *is* i källtexten. Hunspell-sv markerade inga av de sparade orden.
