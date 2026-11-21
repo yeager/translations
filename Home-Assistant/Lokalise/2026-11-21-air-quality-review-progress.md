@@ -36,6 +36,9 @@ Den gemensamma nyckeln `common::trigger_behavior_description` var dessutom synta
 
 I väljaren `selector::number_or_entity::choices::number` ändrades `Nummer` till `Tal`. Källans val står bredvid `Entity` och avser därför ett numeriskt värde, inte ett numrerings-ID. Ändringen validerades, sparades och återlästes som Lokalise-ID `8016674725`.
 
+
+I den återanvända beteendeväljaren ändrades alternativet `Any` från `Något` till `Någon`, i linje med Home Assistants övriga motsvarande väljare och med villkorsläget (någon av de valda entiteterna). Validerad och API-återläst som Lokalise-ID `8016674789`.
+
 ## Status
 
 Täcknings-, tomvärdes- och identitetskontroll är klar. Semantisk radgranskning av de återstående villkors- och triggertexterna fortsätter.
