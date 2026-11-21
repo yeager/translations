@@ -1,9 +1,7 @@
-# Home Assistant Core – ZoneMinder
+# Home Assistant Core: ZoneMinder — granskning
 
-Datum: 2026-11-21
+Samtliga 6 strängar i `component::zoneminder` kontrollerades mot aktuell Lokalise-export och tidigare radgranskning.
 
-Alla sex ZoneMinder-strängar har granskats mot aktuell källa och lästs tillbaka från Lokalise API. Ingen ändring behövs.
+Ingen ändring behövs. Tjänstens namn, körläge, värd, strängnamn och beskrivningar är konsekventa med ZoneMinder som produktnamn. Inga platshållare eller formateringsmarkörer förekommer.
 
-- `körläge`, `strängnamn` och `värd` är korrekta tekniska termer.
-- Produktnamnet `ZoneMinder` och servicekontexten är konsekventa.
-- Inga platshållare, referensnycklar eller formatmarkeringar förekommer.
+Ingen TMX-uppdatering görs när Lokalise inte ändras.
