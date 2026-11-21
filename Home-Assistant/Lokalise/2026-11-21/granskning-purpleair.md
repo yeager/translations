@@ -3,7 +3,7 @@
 Datum: 2026-11-21  
 Status: samtliga 43 aktuella bladnycklar är kontrollerade mot `origin/dev` och Lokalise.
 
-## Osparade förslag
+## Sparade förslag
 
 | Nyckel | Källa | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- | --- |
@@ -19,4 +19,6 @@ Status: samtliga 43 aktuella bladnycklar är kontrollerade mot `origin/dev` och 
 - `Plats och sökradie`, `Platsen och radien inom vilken sensorer ska sökas.`, `Vilken av de närliggande sensorerna vill du följa?`, `Sensor att följa`, `Sökradie`, `Inga sensorer hittades nära koordinaterna inom sökradien.`, samt API-nyckel- och kartinställningssträngarna är korrekta i sin aktuella kontext.
 - Historiska Lokalise-poster för separata latitud-, longitud- och avståndsfält, samt tidigare återautentiseringsposter, saknas i aktuell Core-källa. De är inte ändrade och ingår inte i aktuella 43 källnycklar.
 
-Ingen osparad ändring har förts in i TMX-minnet. 23 verifierade befintliga värden med fullständiga Lokalise-ID:n är införda i den separata, validerade TMX-uppdateringen; referensposter följer vid nästa synkning.
+Uptime är redan API-verifierat som `Drifttid`. De tre övriga förslagen är
+sparade och API-återlästa 2026-11-21 med översättnings-ID `2007864997`,
+`2025670469` och `2025671018` och ingår i verifierad TMX.
