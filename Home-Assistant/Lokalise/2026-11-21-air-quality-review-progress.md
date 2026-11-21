@@ -83,6 +83,11 @@ Följande 20 nycklar ändrades från `Hur värdet ska stämma överens med de en
 
 42 Air Quality-fält med källtexten `For at least` ändrades från `I åtminstone` till `I minst`. Den gamla formuleringen var oidiomatisk; den nya är en korrekt svensk fältetikett för minsta varaktighet. `l10n-lint`, `hunspell-sv` och `svlang` godkände texten. API-sparningarna lästes tillbaka per översättnings-ID; en första batch avbröts efter 41 poster och den återstående radonnyckeln `component::air_quality::triggers::radon_crossed_threshold::fields::for::name` sparades och verifierades separat. Den spårbara 42-postersgruppen har lagts i det verifierade TM-minnet; den kanoniska TMX-valideringen passerade med 1 545 poster.
 
+
+## Sparad statusgrupp: `cleared`
+
+Källan och implementationen använder `cleared` när en binärsensor inte längre detekterar ämnet. Nio texter ändrades därför från `nollställd`/`nollställda` till `inte upptäckt` respektive `inte längre detekterar`. Berörda nycklar är `component::air_quality::triggers::{co,gas,smoke}_cleared::name`, `component::air_quality::conditions::is_{co,gas,smoke}_cleared::{name,description}`. `l10n-lint` och `hunspell-sv` passerade. `svlang` gav tre falskt positiva V2-varningar för de grammatiskt korrekta bisatserna efter `om`; de ändrades inte. Alla nio API-sparningar lästes tillbaka och har lagts till i det verifierade TM-minnet.
+
 ## Status
 
 Täcknings-, tomvärdes- och identitetskontroll är klar. Semantisk radgranskning av de återstående villkors- och triggertexterna fortsätter.
