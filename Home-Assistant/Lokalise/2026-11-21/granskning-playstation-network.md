@@ -13,6 +13,10 @@ Datum: 2026-11-21
 | `component::playstation_network::config_subentries::friend::abort::config_entry_disabled` | Cannot add friend accounts when the main account is disabled or not loaded. | Det går inte att lägga till vänkonton när huvudkontot är inaktiverat eller inte har laddats in. | Verifierad i Lokalise (ID `746321076`). |
 | `component::playstation_network::entity::sensor::last_online::name` | Last online | Senast online | Verifierad i Lokalise (ID `673068689`). |
 | `component::playstation_network::entity::sensor::earned_trophies_platinum::unit_of_measurement` | trophies | troféer | Verifierad i Lokalise (ID `670327398`). Refereras av brons-, silver- och guldentiteterna. |
+| `component::playstation_network::entity::binary_sensor::ps_plus_status::name` | Subscribed to PlayStation Plus | Prenumererar på PlayStation Plus | Verifierad i Lokalise (ID `675626160`). |
+| `component::playstation_network::entity::notify::direct_message::name` | Direct message: {name} | Direktmeddelande: {name} | Verifierad i Lokalise (ID `689695385`); platshållaren är intakt. |
+| `component::playstation_network::entity::notify::group_message::name` | Group: {name} | Grupp: {name} | Verifierad i Lokalise (ID `686597384`); platshållaren är intakt. |
+| `component::playstation_network::exceptions::not_ready::message` | Authentication to the PlayStation Network failed. | Autentiseringen till PlayStation Network misslyckades. | Verifierad i Lokalise (ID `668990845`). |
 
 ## Osparat förslag
 
