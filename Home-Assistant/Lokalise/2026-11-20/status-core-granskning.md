@@ -64,7 +64,7 @@ Senast uppdaterad: 2026-11-21.
 | `component::qbittorrent` | Alla **48** aktuella Core-strängar är granskade mot aktuell Core-källa. Tre osparade tjänsteformuleringar är dokumenterade. | Spara och återläs de tre förslagen efter uttrycklig bekräftelse; därefter synkas verifierade värden till TMX. |
 | `component::rhasspy` | Den enda aktuella Core-strängen är granskad mot aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::route53` | Båda aktuella Core-strängarna är granskade mot aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
-| `component::rova` | Alla **16** aktuella Core-strängar är granskade. Två fel är dokumenterade, inklusive en felaktig platshållare. | Spara och återläs `{address}` samt API-formuleringen; synka därefter verifierade värden till TMX. |
+| `component::rova` | Alla **16** aktuella Core-strängar är granskade. Den felaktiga platshållaren och API-formuleringen är sparade och återlästa i Lokalise. | TMX-synkning avvaktar verifierbar Lokalise-översättningsidentifierare från API:t. |
 | `component::roku` | Alla **23** aktuella Core-strängar är granskade. Fyra måltexter behöver korrigeras. | Spara och återläs de fyra dokumenterade förslagen; synka därefter verifierade värden till TMX. |
 | `component::romy` | Alla **26** aktuella Core-strängar är granskade mot Lokalise och aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::raspberry_pi` | Alla **5** aktuella Core-strängar är granskade mot aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
