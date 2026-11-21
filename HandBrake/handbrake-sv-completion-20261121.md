@@ -62,6 +62,8 @@ Den tillhörande listan `handbrake-sv-terminology-20261121.md` styr bland annat:
 
 - Windows UI: radgranskning påbörjad. 29 källkontrollerade rader rättades, med fokus på förinställningars genus/plural, automatisk filnamngivning, kvalitets- och bildinställningar, felmeddelanden, WebM-undertexter och förklaringen för saknade källtitlar.
 
+- Windows UI: ytterligare 24 rader rättades i system-, ljud- och filtervyer. Exempel är 64-bitarskravet, urklippet, automatisk genomströmning, reservkodare, avflätning, brusreducering, skärpning, DirectX-avkodning och förinställningspluraler.
+
 ## Verifiering
 
 - API-statistiken visar 0 oöversatta strängar i samtliga fyra resurser.
