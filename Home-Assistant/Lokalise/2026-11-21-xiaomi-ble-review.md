@@ -7,4 +7,8 @@ Aktuell genomgång omfattade konfiguration, automatiseringar och entitetssträng
 
 TMX-manifest: `Home-Assistant/2026-11-21-xiaomi-ble-verified.json`; den kanoniska TMX-filen validerades till 2 450 poster.
 
-Flera lås- och felhändelser med tvetydlig engelska lämnas för separat kontextgranskning; komponenten är alltså inte markerad som slutgranskad.
+## Låshändelser, fortsatt kontroll
+
+Fem felhändelser med ogrammatisk eller missvisande svenska har därefter sparats och API-återlästs: NFC-upplåsning, upprepad upplåsningsmiss, venavläsning, fel nyckel och ansiktsupplåsning. Den fullständiga spårningen finns i `Home-Assistant/2026-11-21-xiaomi-ble-lock-events-verified.json`; TMX är validerad till 2 455 poster.
+
+Övriga tvetydiga protokollvärden lämnas för separat kontextgranskning; komponenten är alltså inte markerad som slutgranskad.
