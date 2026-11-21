@@ -41,6 +41,9 @@ Datum: 2026-11-21
 | `component::playstation_network::entity::image::share_profile::name` | Share profile | Dela profil | Verifierad i Lokalise (ID `682116584`). |
 | `component::playstation_network::config::step::user::data::npsso` | NPSSO token | NPSSO-token | Verifierad i Lokalise (ID `668990842`). |
 | `component::playstation_network::config::step::reauth_confirm::title` | Re-authenticate {name} with PlayStation Network | Återautentisera {name} med PlayStation Network | Verifierad i Lokalise (ID `669331683`); platshållaren är intakt. |
+| `component::playstation_network::config_subentries::friend::entry_type` | Friend | Vän | Verifierad i Lokalise (ID `688374472`). |
+| `component::playstation_network::config_subentries::friend::initiate_flow::user` | Add friend | Lägg till vän | Verifierad i Lokalise (ID `688374475`). |
+| `component::playstation_network::entity::sensor::online_status::name` | Online status | Onlinestatus | Verifierad i Lokalise (ID `674217217`). |
 
 ## Osparat förslag
 
