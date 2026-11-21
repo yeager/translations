@@ -62,6 +62,7 @@ Senast uppdaterad: 2026-11-21.
 | `component::qnap` | Alla **43** aktuella Core-strängar är granskade mot aktuell Core-källa. Två osparade ordföljdsförbättringar är dokumenterade; en extra Lokalise-rad är historisk. | Spara och återläs de två förslagen efter uttrycklig bekräftelse; därefter synkas verifierade värden till TMX. |
 | `component::qbittorrent` | Alla **48** aktuella Core-strängar är granskade mot aktuell Core-källa. Tre osparade tjänsteformuleringar är dokumenterade. | Spara och återläs de tre förslagen efter uttrycklig bekräftelse; därefter synkas verifierade värden till TMX. |
 | `component::rhasspy` | Den enda aktuella Core-strängen är granskad mot aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
+| `component::route53` | Båda aktuella Core-strängarna är granskade mot aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::radiotherm` | Alla 9 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::simplepush` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; felmeddelandet om sändning sparades i Lokalise och återlästes i redigeringsfältet. | Ta med värdet vid nästa verifierade TMX-synkning. |
 | `component::tankerkoenig` | Del 1–2: konfiguration och synliga sensorattribut är lästa mot aktuell Core-källa. Alla tio fastställda ändringar är sparade och återlästa i Lokalise. | Kontrollera historiska Lokalise-rader mot API-proveniens när full export finns. |
@@ -148,6 +149,7 @@ omedelbart och läses tillbaka; fortsatt arbete använder inte `/tmp`.
 - [QNAP](../2026-11-21/granskning-qnap.md)
 - [qBittorrent](../2026-11-21/granskning-qbittorrent.md)
 - [Rhasspy](../2026-11-21/granskning-rhasspy.md)
+- [Route 53](../2026-11-21/granskning-route53.md)
 - [RadioTherm](granskning-radiotherm.md)
 - [Simplepush](granskning-simplepush.md)
 - [Tankerkoenig, del 1](granskning-tankerkoenig-del-1.md)
