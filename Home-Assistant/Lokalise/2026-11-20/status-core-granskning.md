@@ -66,6 +66,7 @@ Senast uppdaterad: 2026-11-21.
 | `component::raspberry_pi` | Alla **5** aktuella Core-strängar är granskade mot aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::rest_command` | Alla **5** aktuella Core-strängar är granskade mot aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::rapt_ble` | Alla **6** aktuella Core-strängar är granskade mot aktuell Core-källa utan ändringsförslag; en extra Lokalise-rad är historisk. | Komponenten kan återkontrolleras vid källändring. |
+| `component::rflink` | Aktuell Core-källa innehåller sex tjänststrängar; Lokalise-resultaten kunde inte läsas efter en avbruten webbläsaranslutning. Inga måltexter eller TMX-poster har antagits från äldre underlag. | Läs samtliga sex strängar i Lokalise och gör därefter radgranskningen. |
 | `component::radiotherm` | Alla 9 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::simplepush` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; felmeddelandet om sändning sparades i Lokalise och återlästes i redigeringsfältet. | Ta med värdet vid nästa verifierade TMX-synkning. |
 | `component::tankerkoenig` | Del 1–2: konfiguration och synliga sensorattribut är lästa mot aktuell Core-källa. Alla tio fastställda ändringar är sparade och återlästa i Lokalise. | Kontrollera historiska Lokalise-rader mot API-proveniens när full export finns. |
@@ -156,6 +157,7 @@ omedelbart och läses tillbaka; fortsatt arbete använder inte `/tmp`.
 - [Raspberry Pi](../2026-11-21/granskning-raspberry-pi.md)
 - [REST command](../2026-11-21/granskning-rest-command.md)
 - [RAPT BLE](../2026-11-21/granskning-rapt-ble.md)
+- [RFLink](../2026-11-21/granskning-rflink.md)
 - [RadioTherm](granskning-radiotherm.md)
 - [Simplepush](granskning-simplepush.md)
 - [Tankerkoenig, del 1](granskning-tankerkoenig-del-1.md)
