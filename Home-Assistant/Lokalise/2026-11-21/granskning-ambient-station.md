@@ -10,3 +10,5 @@ Sex vindmått har korrigerats till naturliga svenska mätbeteckningar: högsta v
 Nederbördsmåtten använder nu `nederbörd` och tydliga tidsperioder i stället för engelsknära former. Lokalise-ID `362308813`, `362308815`, `362308832`, `362308836`, `362308876`, `362308884`.
 
 Fyra AQIN-värden använder nu `24-timmarsmedelvärde`; PM2,5 har svenskt decimaltecken. Lokalise-ID `801824077`, `801824079`, `801824081`, `801824083`.
+
+Ytterligare tre PM2,5-AQIN-värden har rättats till svenskt decimaltecken. Lokalise-ID `801824084`, `801824085`, `801824086`.
