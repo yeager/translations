@@ -38,3 +38,12 @@ Status: pågående radgranskning mot `origin/dev`.
 | `component::profiler::services::start_log_objects::name` | Start logging objects | Börja logga objekt | Verifierad i Lokalise (ID `349141103`). |
 | `component::profiler::services::start_log_objects::description` | Starts the Profiler logging growth of objects in memory. | Startar Profiler-loggning av objektökningar i minnet. | Verifierad i Lokalise (ID `349141100`). |
 | `component::profiler::services::start_log_objects::fields::scan_interval::description` | The number of seconds between logging objects. | Antalet sekunder mellan loggning av objekt. | Verifierad i Lokalise (ID `349141101`). |
+| `component::profiler::services::start_log_objects::fields::scan_interval::name` | Scan interval | Skanningsintervall | Verifierad i Lokalise (ID `349141102`). |
+| `component::profiler::services::stop_log_object_sources::name` | Stop logging object sources | Sluta logga objektkällor | Verifierad i Lokalise (ID `349141105`). |
+| `component::profiler::services::stop_log_object_sources::description` | Stops the Profiler logging sources of new objects in memory. | Stoppar Profiler-loggning av källorna till nya objekt i minnet. | Verifierad i Lokalise (ID `349141104`). |
+| `component::profiler::services::stop_log_objects::name` | Stop logging objects | Sluta logga objekt | Verifierad i Lokalise (ID `349141107`). |
+| `component::profiler::services::stop_log_objects::description` | Stops the Profiler logging growth of objects in memory. | Stoppar Profiler-loggning av objektökningar i minnet. | Verifierad i Lokalise (ID `349141106`). |
+| `component::profiler::config::step::user::description` | `[%key:common::config_flow::description::confirm_setup%]` | `[%key:common::config_flow::description::confirm_setup%]` | Gemensam referens; ingen komponentspecifik översättning. |
+| `component::profiler::services::memory::fields::seconds::{name,description}` | Referenser till `services::start::fields::seconds` | Motsvarande referenser | Granskade mot de direkta start-fälten ovan. |
+
+Alla 42 bladnycklar i aktuell Core-källas `profiler/strings.json` är granskade. Tre osparade förbättringsförslag återstår och ingår inte i TMX-minnet.
