@@ -89,3 +89,8 @@ Korrigering: **Media Transcoder** uppdaterades från **Mediaomkodare** till **Me
 ### Fortsatt kontroll – menyer och köpanel
 
 Tio Linux-poster sparades och API-återlästes. Nio menyposter återfick korrekt acceleratorplacering och källans Unicode-ellipsis (`…`); särskilt den felaktiga `A_vsluta` blev **_Avsluta**. Köpanelens sammansättning rättades till **ködetaljpanelen**.
+
+
+### Fortsatt kontroll – dimensioner och konstant kvalitet
+
+Fem Linux-poster sparades och API-återlästes. **Dimensions** är nu **Dimensioner**, två korta beskrivningar fick svensk satsstil, och två avklippta hjälprutor för konstant kvalitet återställdes till kompletta svenska texter. Den ena behåller källans tvåteckensindrag på fortsättningsrader; den andra behåller ombrutningen utan indrag.
