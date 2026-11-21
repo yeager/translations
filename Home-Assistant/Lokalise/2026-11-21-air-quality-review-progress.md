@@ -26,6 +26,10 @@ Sex N₂O-nycklar hade översatt `nitrous oxide` som `kväveoxid`. Korrekt svens
 | `triggers::n2o_crossed_threshold::description` | … kväveoxidnivåer … | … dikväveoxidnivåer … |
 | `triggers::n2o_crossed_threshold::name` | Kväveoxidnivån har passerat … | Dikväveoxidnivån har passerat … |
 
+## Verktygsvalidering
+
+De tre representativa ändrade texterna validerades lokalt efter API-återläsningen: `l10n-lint --language sv --format text` rapporterade inga formatfel, `hunspell -d sv_SE` gav inga okända ord och `svlang check` gav 10,0/10 utan anmärkningar. Platshållare berörs inte av N₂O-ändringarna.
+
 ## Status
 
 Täcknings-, tomvärdes- och identitetskontroll är klar. Semantisk radgranskning av de återstående villkors- och triggertexterna fortsätter.
