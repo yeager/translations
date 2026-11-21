@@ -14,6 +14,7 @@ Gäller Linux UI, Mac UI och Windows UI i Transifex. Upprättad 2026-11-21.
 | subtitle track | undertextspår | |
 | codec | kodek | |
 | encoder | kodare | Kodningskomponenten, inte en codec. |
+| decoder | avkodare | Avkodningskomponenten, inte en codec. |
 | passthru | genomströmning | Bevara produkttermen i codec-etiketter vid behov. |
 | framerate | bildfrekvens | |
 | bitrate | bithastighet | Behåll kbps i tekniska värden. |
