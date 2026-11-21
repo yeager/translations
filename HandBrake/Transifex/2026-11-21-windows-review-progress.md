@@ -63,3 +63,8 @@ Fyra Windows-poster sparades och API-återlästes: åtgärden för misslyckade j
 
 
 Korrigering: åtgärdsetiketten för `Retry Failed` preciserades vidare till **Försök igen med misslyckade jobb** och API-återlästes.
+
+
+### Fortsatt kontroll – förhandsvisning
+
+Windows-posten `Preview {0}` sparades och API-återlästes som **Förhandsvisning {0}**. Den tidigare imperativformen ersattes med en korrekt rubrik; platshållaren `{0}` är bevarad.
