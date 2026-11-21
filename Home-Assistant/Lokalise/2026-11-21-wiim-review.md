@@ -2,10 +2,11 @@
 
 Datum: 2026-11-21
 
-Alla 28 WiiM-strängar har granskats mot aktuell källa. Ett felmeddelande är korrigerat, sparat och API-återläst.
+Alla 28 WiiM-strängar har granskats mot aktuell källa och tidigare backup. Två fel är rättade, sparade och API-återlästa.
 
-| Nyckel | Tidigare svenska | Sparad svenska |
+| Nyckel | Sparad svenska | Motivering |
 | --- | --- | --- |
-| `exceptions::direct_url_playback_unsupported::message` | `Direkt URL-uppspelning ...` | `Direktuppspelning från URL ...` |
+| `exceptions::direct_url_playback_unsupported::message` | `Direktuppspelning från URL stöds inte på den här enheten.` | Återställer en tydlig svensk återgivning av direkt uppspelning från URL. |
+| `exceptions::invalid_track_id::message` | `Ogiltigt medie-ID: {media_id}. Ett giltigt spårindex förväntas.` | Rättar den avbrutna satsen och bevarar platshållaren. |
 
-Den sparade formuleringen undviker den felaktiga sammansättningen och anger tydligt vad URL:en används till. Platshållare och övriga protokolltexter är korrekta.
+Övriga konfigurations- och API-felsträngar är korrekta.
