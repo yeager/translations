@@ -109,3 +109,8 @@ Fem Linux-etiketter sparades och API-återlästes: **Kodning med flera pass**, *
 ### Fortsatt kontroll – nedmixning och skanning
 
 Två Linux-poster sparades och API-återlästes: **nedmixning** ersätter *ommixningen*, och skanningsstatusen återger åter både `titel`, samtliga `%d`-platshållare och förhandsvisningsnumret.
+
+
+### Fortsatt kontroll – varningar och förinställningsdialoger
+
+Fyra Linux-poster sparades och API-återlästes. Ett felaktigt komma efter **HandBrake** togs bort, menyns Unicode-ellipsis återställdes och de typografiska citattecknen kring `%s` bevaras nu i två förinställningsdialoger.
