@@ -1,7 +1,7 @@
 # Home Assistant Core – Proximity
 
 Datum: 2026-11-21  
-Status: pågående radgranskning mot aktuell `origin/dev`.
+Status: samtliga aktuella bladnycklar är radgranskade mot Core `2fdaa177` och Lokalise.
 
 | Nyckel | Källa | Svenska | Bedömning |
 | --- | --- | --- | --- |
