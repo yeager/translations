@@ -30,6 +30,8 @@ Den tillhörande listan `handbrake-sv-terminology-20261121.md` styr bland annat:
 - Windows UI: ködialogen rättades från `Dubbletta jobb` till `Dubblettjobb`. GPLv2-informationen rättades mot den engelska källsträngen: bland annat `handlighet`, `fFifth Floor`, licenshänvisningen och garantifriskrivningen.
 - Fortsatt helgranskning: åtta rader lästes tillbaka efter API-sparning. Mac UI fick korrekt parameteretikett för vänster kant och omarbetad beskrivning av förinställningar. Windows UI fick pluralformen `Förinställningar`. Fem Windows-verktygstips rättades för oöversatta engelska ord, stavning (`Brönn`), plural/böjning, semantik och den felvända höger/vänster-anvisningen för kodarreglaget.
 
+- Windows-verktygstips: ytterligare 36 rader rättades och sparades direkt via API efter radgranskning. Ändringarna omfattar bland annat artefakter, brusreducering, telecine, behållarformat, bildpunktsförhållande, avflätning, skärpning, förinställningar, färgrymd samt svensk böjning och ordföljd i längre hjälptexter.
+
 ## Verifiering
 
 - API-statistiken visar 0 oöversatta strängar i samtliga fyra resurser.
