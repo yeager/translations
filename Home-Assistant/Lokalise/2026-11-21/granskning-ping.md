@@ -11,6 +11,7 @@ Datum: 2026-11-21
 | `component::ping::config::step::user::data_description::host` | The hostname or IP address of the device you want to ping. | Värdnamn eller IP-adress för den enhet som du vill pinga. | Verifierad i Lokalise (ID `413416014`). |
 | `component::ping::config::abort::invalid_ip_address` | Invalid IP address. | Ogiltig IP-adress. | Verifierad i Lokalise (ID `408083806`). |
 | `component::ping::entity::sensor::round_trip_time_mdev::name` | Round-trip time mean deviation | Medelavvikelse för tur- och returtid | Verifierad i Lokalise (ID `450694479`). Teknisk benämning är sakligt korrekt. |
+| `component::ping::options::step::init::data_description::consider_home` | Seconds to wait till marking a device tracker as not home after not being seen. | Antal sekunder att vänta innan en enhetsspårare som inte har setts markeras som inte hemma. | Sparad och återläst i Lokalise (ID `421388213`). Rättar den tidigare otydliga satsen och gör tidpunkten för statusändringen tydlig. |
 
 Återstående aktuella Ping-strängar ska granskas innan komponenten markeras som helt genomgången.
 
