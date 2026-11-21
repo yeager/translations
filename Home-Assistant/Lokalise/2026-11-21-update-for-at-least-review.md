@@ -1,10 +1,8 @@
 # Home Assistant Core – Update: duration label
 
-En senare kontroll mot den aktuella Lokalise-nyckelresursen visade att två
-tidigare angivna ID:n i den lokala exporten i själva verket tillhörde
-`temperature`, inte `update`. De två felkopplade raderna har därför tagits bort
-från TMX-manifestet och det kanoniska minnet. De återstående fyra
-automationsfälten har separat spårbarhet. 
-
-Spårbarhet finns i
-`tools/swedish-tm/Home-Assistant/2026-11-21-update-for-at-least-verified.json`.
+En efterföljande live-kontroll av samtliga sex ID:n visade att den gamla lokala
+exporten hade kopplat dem till fel nycklar (bland annat `temperature`, `todo`
+och `timer`). Hela det ursprungliga `update`-manifestet och dess sex TMX-rader
+har därför dragits tillbaka. Inga av dessa poster ska användas som
+översättningsminne för `update` förrän den verkliga live-nyckelmappningen har
+granskats på nytt.
