@@ -3,7 +3,7 @@
 Datum: 2026-11-21  
 Källa: Core `2fdaa177`, `homeassistant/components/arcam_fmj/strings.json`, tidigare rapporter och Lokalise API med direkt återläsning.
 
-Status: pågående radgranskning av 108 aktuella Lokalise-poster. Fyra korrigeringar är sparade och återlästa.
+Status: samtliga 106 aktuella bladsträngar och referensmål är radgranskade. Fyra korrigeringar är sparade och återlästa.
 
 | Nyckel | Sparad text | Motivering |
 |---|---|---|
@@ -12,4 +12,4 @@ Status: pågående radgranskning av 108 aktuella Lokalise-poster. Fyra korrigeri
 | `entity::sensor::incoming_audio_format::state::undetected` | `Inte upptäckt` | Samma status ska ha samma svenska formulering. |
 | `config::error::connection_refused` | `Värden avvisade anslutningen` | Korrekt svensk satsstruktur. |
 
-Ljudformaten Dolby, DTS, Auro, PCM, LFE och kanalnotationerna har lämnats tekniskt oförändrade. Resterande sensor- och undantagssträngar fortsätter granskas rad för rad. TMX-ledgern är uppdaterad och validerad (1 729 poster).
+Ljudformaten Dolby, DTS, Auro, PCM, LFE och kanalnotationerna har lämnats tekniskt oförändrade. Återstående sensor- och undantagstext är korrekt; två äldre Lokalise-poster förekommer inte längre i den aktuella Core-källan. TMX-ledgern är uppdaterad och validerad (1 729 poster).
