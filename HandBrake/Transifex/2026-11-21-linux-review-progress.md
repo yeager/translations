@@ -75,3 +75,6 @@ Tio Linux-poster sparades och återlästes via API: kommatecken före bisats tog
 ### Fortsatt kontroll – val och kompatibilitet
 
 Fem Linux-poster sparades och API-återlästes: en Decomb/Avflätning-hjälptext återfick **filteralternativen** och korrekt mellanrum, undertextvalet använder nu korrekt **främmande ljud**, och tre kompatibilitetsdialoger har idiomatisk svenska med bevarade kodeknamn.
+
+
+Korrigering: `Resume Encoding` sparades och API-återlästes som **Återuppta kodningen**. Det sista kvarvarande fallet av *omkodning* i Linux-resursen är därmed åtgärdat.
