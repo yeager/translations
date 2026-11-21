@@ -73,3 +73,8 @@ Windows-posten `Preview {0}` sparades och API-återlästes som **Förhandsvisnin
 ### Fortsatt kontroll – ljudterminologi
 
 Windows-posten **Mixdown** sparades och API-återlästes som **Nedmixning**. Därmed används samma etablerade term i Linux, macOS och Windows.
+
+
+### Fortsatt kontroll – DVD- och Blu-ray-inläsning
+
+En materiellt felaktig Windows-hjälptext sparades och API-återlästes. Posten för minsta DVD/Blu-ray-titellängd innehöll felaktigt systemfältsinställningen; den återger nu **Minsta titellängd för dvd och Blu-ray i sekunder. Kortare titlar hoppas över:**.
