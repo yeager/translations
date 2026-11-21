@@ -40,3 +40,8 @@ Färsk API-hämtning av 1 013 huvudsträngar och 91 tooltipsträngar användes v
 | Passthru Common Metadata | Genomström vanliga metadata | För över vanliga metadata | Samma begripliga svenska åtgärdsform som i Linux- och macOS-resurserna. |
 
 l10n-lint med språk=sv gav 0 fel för den samlade aktuella katalogen; inga nya Hunspell-sv-anmärkningar uppstod.
+
+
+### Fortsatt semantisk kontroll
+
+Sparade och API-återlästa: **Muxing: This may take a while…** → **Muxning: Detta kan ta en stund…** samt båda **When Done**-etiketterna → **Vid slutförande**. Denna passning inkluderar 0 l10n-lint-fel; kvarvarande varningar är dokumenterade falska positiva eller ett källfel.
