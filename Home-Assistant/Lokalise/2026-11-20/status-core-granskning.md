@@ -174,6 +174,7 @@ omedelbart och läses tillbaka; fortsatt arbete använder inte `/tmp`.
 - [Radarr](../2026-11-21/granskning-radarr.md)
 - [RadioTherm](granskning-radiotherm.md)
 - [Rain Bird](../2026-11-21/granskning-rainbird.md)
+- [RainbowMiner](../2026-11-21/granskning-rainbowminer.md)
 - [Simplepush](granskning-simplepush.md)
 - [Tankerkoenig, del 1](granskning-tankerkoenig-del-1.md)
 - [Tankerkoenig, del 2](granskning-tankerkoenig-del-2.md)
