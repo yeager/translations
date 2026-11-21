@@ -50,3 +50,8 @@ l10n-lint med språk=sv gav 0 fel. Fyra kvarvarande varningar är kontrollerade 
 ### Fortsatt semantisk kontroll
 
 Sparade och API-återlästa: **Aspect Ratio:** → **Bildförhållande:**, **Resume Encoding** → **Återuppta kodningen** och **Stop Encoding** → **Stoppa kodningen**. Dessa ersätter felaktiga eller otydliga UI-former.
+
+
+### Fortsatt kontroll – åtgärdsetiketter
+
+Tre ytterligare Linux-ändringar sparades och återlästes via Transifex API: **S_top Encoding** → **S_toppa kodningen**, **_Resume Encoding** → **_Återuppta kodningen** samt **Your encode is complete.** → **Kodningen är slutförd.** Snabbkommandotecknen bevarades.
