@@ -19,6 +19,9 @@ Datum: 2026-11-21
 | `component::playstation_network::exceptions::not_ready::message` | Authentication to the PlayStation Network failed. | Autentiseringen till PlayStation Network misslyckades. | Verifierad i Lokalise (ID `668990845`). |
 | `component::playstation_network::exceptions::user_profile_private::message` | Unable to retrieve data for {user}. Privacy settings restrict access to activity. | Det går inte att hämta data för {user}. Sekretessinställningarna begränsar åtkomsten till aktiviteten. | Verifierad i Lokalise (ID `688374483`); platshållaren är intakt. |
 | `component::playstation_network::entity::sensor::earned_trophies_gold::name` | Gold trophies | Guldtroféer | Verifierad i Lokalise (ID `670327395`). |
+| `component::playstation_network::entity::sensor::earned_trophies_bronze::name` | Bronze trophies | Bronstroféer | Verifierad i Lokalise (ID `670327393`). |
+| `component::playstation_network::entity::sensor::earned_trophies_silver::name` | Silver trophies | Silvertroféer | Verifierad i Lokalise (ID `670327399`). |
+| `component::playstation_network::entity::sensor::earned_trophies_platinum::name` | Platinum trophies | Platinatroféer | Verifierad i Lokalise (ID `670327397`). |
 
 ## Osparat förslag
 
