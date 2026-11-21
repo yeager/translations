@@ -14,5 +14,6 @@ Referenser och platshållare är korrekta. Följande texter behöver korrigeras:
 | `component::roku::config::step::user::description` | `Ange din Roku-information .` | `Ange din Roku-information.` |
 
 De två första korrigeringarna är sparade och återlästa i Lokalise 2026-11-21.
-Ethernet- och informationsraden återstår att spara. TMX-synkning av de sparade
-värdena avvaktar en verifierbar Lokalise-översättningsidentifierare från API:t.
+Ethernet-raden är sparad och verifierad via Lokalise API 2026-11-21 med
+översättnings-ID `2958065190`. Informationsraden var redan korrekt i den
+aktuella API-katalogen. TMX-synkning kan göras med verifierade API-ID:n.
