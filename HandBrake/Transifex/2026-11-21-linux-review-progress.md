@@ -81,3 +81,6 @@ Korrigering: `Resume Encoding` sparades och API-återlästes som **Återuppta ko
 
 
 Korrigering: **Mixdown** uppdaterades från **Nermixning** till **Nedmixning** och API-återlästes. Detta är den etablerade svenska sammansättningen.
+
+
+Korrigering: **Media Transcoder** uppdaterades från **Mediaomkodare** till **Medieomkodare** och API-återlästes. Omkodning behålls här eftersom *transcoder* specifikt avser omkodning mellan medieformat.
