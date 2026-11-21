@@ -5,7 +5,7 @@ Omfattning: hela den svenska oöversattkön i Lokalise API
 
 ## Metod
 
-API-frågan använde `filter_untranslated=1`, `filter_translation_lang_ids=754` och `include_translations=1`. Den returnerade 24 poster. Varje post hämtades därefter på nytt med både engelsk och svensk översättning för att kontrollera om den engelska källan hade verkligt innehåll.
+API-frågan använde `filter_untranslated=1`, `filter_translation_lang_ids=754` och `include_translations=1`. Sida 1 med gränsen 50 returnerade 24 poster; sida 2 returnerade 0 poster. Varje post hämtades därefter på nytt med både engelsk och svensk översättning för att kontrollera om den engelska källan hade verkligt innehåll.
 
 ## Resultat
 
