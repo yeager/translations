@@ -5,7 +5,7 @@ Status: samtliga 26 aktuella bladnycklar är radgranskade mot `origin/dev`.
 
 | Nyckel | Källa | Svenska | Bedömning |
 | --- | --- | --- | --- |
-| `component::pterodactyl::entity::sensor::uptime::name` | Uptime | `[%key:component::uptime::title%]` → **Drifttid** | Osparat förslag (Lokalise-ID `627549837`); aktuell källa är vanlig text medan målet är en referens och Lokalise flaggar formatmismatch. `component::uptime::title` är verifierad i Lokalise som `Drifttid` (ID `157847620`). |
+| `component::pterodactyl::entity::sensor::uptime::name` | Uptime | Drifttid | API-verifierad aktuell måltext (översättnings-ID `5507570315`). |
 | `component::pterodactyl::config::step::reauth_confirm::description` | Please update your account API key. | Uppdatera API-nyckeln för ditt konto. | Verifierad i Lokalise (ID `630639968`). |
 | `component::pterodactyl::config::step::user::data_description::api_key` | The account API key for accessing your Pterodactyl server. | Kontons API-nyckel för åtkomst till din Pterodactyl-server. | Verifierad i Lokalise (ID `624879581`). |
 | `component::pterodactyl::config::step::user::data_description::url` | The URL of your Pterodactyl server, including the protocol (http:// or https://) and optionally the port number. | URL:en till din Pterodactyl-server, inklusive protokollet (http:// eller https://) och eventuellt portnumret. | Verifierad i Lokalise (ID `624879582`). |
@@ -15,4 +15,4 @@ Status: samtliga 26 aktuella bladnycklar är radgranskade mot `origin/dev`.
 
 Konfigurationsreferenserna för `already_configured`, `cannot_connect`, `invalid_auth`, `unknown`, båda API-nyckelfälten, URL-fältet och återautentiseringsrubriken är kontrollerade och bevarade. De har rätt gemensamma referens i både käll- och målspråk.
 
-Lokalise-sökningen omfattar 28 poster. Två ligger utanför aktuell Core-källa (`config::abort::reauth_successful` och den äldre separata återautentiseringsposten); de har inte räknats som aktiva bladnycklar och har inte ändrats. Enbart drifttidsförslaget ovan är osparat och därför inte upptaget i det kanoniska TMX-minnet.
+Lokalise-sökningen omfattar 28 poster. Två ligger utanför aktuell Core-källa (`config::abort::reauth_successful` och den äldre separata återautentiseringsposten); de har inte räknats som aktiva bladnycklar och har inte ändrats. Drifttid är API-verifierad och upptagen i det kanoniska TMX-minnet.
