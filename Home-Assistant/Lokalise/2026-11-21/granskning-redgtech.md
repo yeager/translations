@@ -16,5 +16,7 @@ felaktiga mellanrum vid sammansättningar eller oidiomatisk API-ordföljd:
 | `component::redgtech::exceptions::connection_error::message` | `Anslutningsfel med API:et {integration_name}` | `Anslutningsfel med {integration_name}-API:et.` |
 | `component::redgtech::exceptions::switch_auth_error::message` | `Autentiseringen misslyckades vid styrning av {integration_name} -brytare` | `Autentiseringen misslyckades när {integration_name}-brytaren styrdes.` |
 
-Förslagen är ännu inte sparade i Lokalise. Varje sparat värde ska återläsas
-och därefter införas i den verifierade HA-TMX:en med Lokalise-ID.
+Raderna för e-postadress och lösenord var redan korrekta i den aktuella
+API-katalogen. De fyra återstående korrigeringarna är sparade och återlästa
+via Lokalise API 2026-11-21 och införda i den verifierade HA-TMX:en med
+Lokalise-ID.
