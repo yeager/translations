@@ -4,9 +4,9 @@ Senast uppdaterad: 2026-11-21.
 
 ## Omfattning och kontrollpunkt
 
-- Granskning har genomförts rad för rad t.o.m. Lokalise-sida 730.
-- Sida 731 är granskad och dess sex sparade ändringar har återlästs och förts in i TMX-minnet.
-- Tidigare arbete fram till sida 614 finns i tidigare rapporter i denna katalog. Sidor 615–730 är fortsatt spårade genom Lokalise-ID:n och det kanoniska TMX-minnet; sidor 727–730 har kompletterande fullständig ändringsrapport.
+- Granskning har genomförts rad för rad t.o.m. Lokalise-sida 732.
+- Sida 731 är granskad och dess sex sparade ändringar har återlästs. Sida 732 har kontrollerats mot aktuell Lokalise- och Core-källtext utan ändringsförslag.
+- Tidigare arbete fram till sida 614 finns i tidigare rapporter i denna katalog. Sidor 615–732 är fortsatt spårade genom Lokalise-ID:n och det kanoniska TMX-minnet; sidor 727–730 har kompletterande fullständig ändringsrapport.
 
 ## Kanoniskt Home Assistant-minne
 
