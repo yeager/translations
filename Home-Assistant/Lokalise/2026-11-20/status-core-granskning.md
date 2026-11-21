@@ -68,6 +68,7 @@ Senast uppdaterad: 2026-11-21.
 | `component::rest_command` | Alla **5** aktuella Core-strängar är granskade mot aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::rapt_ble` | Alla **6** aktuella Core-strängar är granskade mot aktuell Core-källa utan ändringsförslag; en extra Lokalise-rad är historisk. | Komponenten kan återkontrolleras vid källändring. |
 | `component::rflink` | Alla **6** aktuella Core-strängar är granskade mot Lokalise och aktuell Core-källa utan ändringsförslag. Två YAML-migreringsnycklar i Lokalise är historiska. | Komponenten kan återkontrolleras vid källändring. |
+| `component::ridwell` | Alla **18** aktuella Core-strängar är granskade. Två valtexter behöver korrigeras. | Spara och återläs de två dokumenterade förslagen; synka därefter verifierade värden till TMX. |
 | `component::ruuvi_gateway` | Alla **6** aktuella Core-strängar är granskade mot Lokalise och aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::radio_browser` | Alla **7** aktuella Core-strängar är granskade. En obligatorisk referens och en Home Assistant-formulering behöver korrigeras. | Spara och återläs de två dokumenterade förslagen; synka därefter verifierade värden till TMX. |
 | `component::random` | Alla **21** aktuella Core-strängar är granskade mot Lokalise och aktuell Core-källa. En sammansättningsmiss är dokumenterad. | Spara och återläs `slumpvärdeshjälpare`; synka därefter verifierat värde till TMX. |
@@ -167,6 +168,7 @@ omedelbart och läses tillbaka; fortsatt arbete använder inte `/tmp`.
 - [REST command](../2026-11-21/granskning-rest-command.md)
 - [RAPT BLE](../2026-11-21/granskning-rapt-ble.md)
 - [RFLink](../2026-11-21/granskning-rflink.md)
+- [Ridwell](../2026-11-21/granskning-ridwell.md)
 - [Ruuvi Gateway](../2026-11-21/granskning-ruuvi-gateway.md)
 - [Radio Browser](../2026-11-21/granskning-radio-browser.md)
 - [Radio Frequency](../2026-11-21/granskning-radio-frequency.md)
