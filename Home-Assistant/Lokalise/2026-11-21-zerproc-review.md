@@ -14,3 +14,7 @@ Omfattning: 1/1 aktuell källsträng
 - `l10n-lint`: inga problem.
 - Inga platshållare, pluralformer eller formateringsmarkörer förekommer.
 - Ingen ändring skickades, eftersom den sparade översättningen redan är korrekt.
+
+## Utökad export, 2026-11-21
+
+Två ytterligare konfigurationssträngar fanns i den aktuella exporten. `no_devices_found` är korrekt. `component::zerproc::config::abort::single_instance_allowed` sparades som `Redan konfigurerad. Endast en konfiguration är möjlig.` i stället för `… kan göras.` och API-återlästes. TMX-manifest: `Home-Assistant/2026-11-21-zerproc-verified.json`.
