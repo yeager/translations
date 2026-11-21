@@ -26,10 +26,11 @@ Den tillhörande listan `handbrake-sv-terminology-20261121.md` styr bland annat:
 - VFR-hjälptexten i Linux UI skrevs om för korrekt och tydlig svenska.
 - Sex kontextgranskade hjälprader i Mac UI och Windows UI förbättrades: bildstorlek, anamorfisk kodning, brusreducering, avflätning och skärpning. Produktetiketter som `None`, `Custom` och `Automatic` bevarades där de är UI-värden.
 - Linux UI: `Encoder Preset` rättades från `Kodningförinställning` till `Kodarförinställning`. TrueHD-hjälptexten rättades från felstavade `ThrueHD` och fick korrekt böjning av `automatisk genomströmning`.
+- Mac UI: tre källkontrollerade rader rättades: `Video encoder tune` → `Videokodarjustering`, plural/böjning i `Video encoder preset` och `Keep duplicate titles` → `Behåll dubblettitlar`.
 
 ## Verifiering
 
 - API-statistiken visar 0 oöversatta strängar i samtliga fyra resurser.
 - Full kontroll av 3 186 svenska rader fann inga verkliga skillnader i platshållare eller printf-format. En träff med procenttecken i löptext identifierades som falskt positiv.
-- Hunspell-scan av Linux UI granskades manuellt. De flesta träffar är acceleratorbokstäver, egennamn, codec- och filtertermer; de två faktiska felen ovan sparades.
+- Hunspell-scan av Linux UI och Mac UI granskades manuellt. De flesta träffar är acceleratorbokstäver, egennamn, codec- och filtertermer; dokumenterade sakfel sparades.
 - Formatsträngar och platshållare såsom `{0}`, `%1$d`, `%@` och `%.2f` bevarades.
