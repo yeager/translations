@@ -4,7 +4,7 @@ Datum: 2026-11-21
 Källa: aktuell Core `2fdaa177`, `homeassistant/components/qbittorrent/strings.json`  
 Status: samtliga 48 aktuella källsträngar är radgranskade mot Lokalise.
 
-## Osparade förslag
+## Sparade förslag
 
 | Nyckel | Källa | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- | --- |
@@ -20,4 +20,4 @@ Status: samtliga 48 aktuella källsträngar är radgranskade mot Lokalise.
 - Alla fyra undantagstexter är korrekta; `{device_id}` bevaras i båda relevanta meddelandena.
 - qBittorrent behåller sin officiella stavning, inklusive inledande gemen `q`.
 
-Lokalise-sökningarna omfattade exakt de aktuella konfigurations-, entitets-, tjänst- och undantagsdelarna. De tre förslagen ovan är inte sparade och förs inte in i TMX före Lokalise-sparning och återläsning.
+Lokalise-sökningarna omfattade exakt de aktuella konfigurations-, entitets-, tjänst- och undantagsdelarna. De tre förslagen är sparade och API-återlästa 2026-11-21 med översättnings-ID `3790799063`, `3790798883` och `3790799243` och ingår i verifierad TMX.
