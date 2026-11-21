@@ -39,6 +39,32 @@ I väljaren `selector::number_or_entity::choices::number` ändrades `Nummer` til
 
 I den återanvända beteendeväljaren ändrades alternativet `Any` från `Något` till `Någon`, i linje med Home Assistants övriga motsvarande väljare och med villkorsläget (någon av de valda entiteterna). Validerad och API-återläst som Lokalise-ID `8016674789`.
 
+
+## Sparad terminologigruppering: villkorsbeteende
+
+Följande 20 nycklar ändrades från `Hur värdet ska stämma överens med de enheter som avses.` till `Hur värdet ska stämma överens för de valda entiteterna.` Den tidigare texten bröt mot projektets term `entitet` och var otydlig om vilka objekt som avses. Samma svenska text validerades med verktyg och varje sparning återlästes från Lokalise.
+
+- `component::air_quality::common::condition_behavior_description`
+- `component::air_quality::conditions::is_co2_value::fields::behavior::description`
+- `component::air_quality::conditions::is_co_cleared::fields::behavior::description`
+- `component::air_quality::conditions::is_co_detected::fields::behavior::description`
+- `component::air_quality::conditions::is_co_value::fields::behavior::description`
+- `component::air_quality::conditions::is_gas_cleared::fields::behavior::description`
+- `component::air_quality::conditions::is_gas_detected::fields::behavior::description`
+- `component::air_quality::conditions::is_n2o_value::fields::behavior::description`
+- `component::air_quality::conditions::is_no2_value::fields::behavior::description`
+- `component::air_quality::conditions::is_no_value::fields::behavior::description`
+- `component::air_quality::conditions::is_ozone_value::fields::behavior::description`
+- `component::air_quality::conditions::is_pm10_value::fields::behavior::description`
+- `component::air_quality::conditions::is_pm1_value::fields::behavior::description`
+- `component::air_quality::conditions::is_pm25_value::fields::behavior::description`
+- `component::air_quality::conditions::is_pm4_value::fields::behavior::description`
+- `component::air_quality::conditions::is_smoke_cleared::fields::behavior::description`
+- `component::air_quality::conditions::is_smoke_detected::fields::behavior::description`
+- `component::air_quality::conditions::is_so2_value::fields::behavior::description`
+- `component::air_quality::conditions::is_voc_ratio_value::fields::behavior::description`
+- `component::air_quality::conditions::is_voc_value::fields::behavior::description`
+
 ## Status
 
 Täcknings-, tomvärdes- och identitetskontroll är klar. Semantisk radgranskning av de återstående villkors- och triggertexterna fortsätter.
