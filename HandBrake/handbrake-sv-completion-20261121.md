@@ -46,6 +46,8 @@ Den tillhörande listan `handbrake-sv-terminology-20261121.md` styr bland annat:
 
 - Mac UI: 18 rader rättades i videokodnings- och undertextvyerna. Åtgärderna omfattar DVD/Blu-ray, Closed Captions, flerpasskodning, datahastighet, spårval, pluraler och `%lu`-strängars svenska böjning utan att påverka platshållarna.
 
+- Mac UI: 13 rader i dialoger och köhantering rättades, bland annat förinställningsplural, CSV-kapitelfel, titelval, åtgärd vid stopp samt kodningsslutförande. Platshållaren `%@` bevarades i de två statusmeddelandena.
+
 ## Verifiering
 
 - API-statistiken visar 0 oöversatta strängar i samtliga fyra resurser.
