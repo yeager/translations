@@ -16,4 +16,16 @@ Status: pågående radgranskning mot aktuell Core-källa `2fdaa177`; konfigurati
 - Texterna för URL, SSL-validering samt föråldrade användarnamn- och lösenordsfält är språkligt korrekta.
 - `Home Assistant` är oförändrat i pyLoad via Home Assistant-appen och hassio-beskrivningen.
 
+## Verifierade undantag
+
+Samtliga fem aktuella undantag är kontrollerade utan ändringsförslag:
+
+- `service_call_exception` (Lokalise-ID `498962219`): anslutningsfel vid kommando.
+- `service_call_auth_exception` (ID `498962218`): autentiseringsfel vid kommando.
+- `setup_request_exception` (ID `497675314`): anslutning och hämtning från pyLoad API.
+- `setup_parse_exception` (ID `497675313`): tolkning av data från pyLoad API.
+- `setup_authentication_exception` (ID `497675312`): misslyckad autentisering med inloggningsuppgifter.
+
+Svenskan följer källans betydelse och använder produktnamnet `pyLoad` konsekvent.
+
 Den fortsatta granskningen omfattar återstående aktuella entiteter, reglage, knappar och undantag. Förslaget ovan är inte sparat och finns inte i TMX-minnet.
