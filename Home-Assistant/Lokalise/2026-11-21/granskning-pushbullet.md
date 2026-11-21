@@ -3,12 +3,12 @@
 Datum: 2026-11-21  
 Status: samtliga 19 aktuella bladnycklar är granskade mot `origin/dev` och Lokalise.
 
-## Osparade förslag
+## Referensuppföljning
 
 | Nyckel | Källa | Befintlig svenska | Föreslagen svenska | Motivering |
 | --- | --- | --- | --- | --- |
-| `component::pushbullet::config::step::reauth_confirm::title` | `[%key:common::config_flow::title::reauth%]` | `Autentiseringen har upphört för {name}` | `[%key:common::config_flow::title::reauth%]` | Måltexten innehåller den odefinierade platshållaren `{name}` och avviker från den obligatoriska gemensamma referensen. Lokalise-ID `952263599`. |
-| `component::pushbullet::config::step::reauth_confirm::data::api_key` | `[%key:common::config_flow::data::api_key%]` | `API-nyckel` | `[%key:common::config_flow::data::api_key%]` | Källans referens ska bevaras för konsekvens och för att undanröja Lokalises referens-/formatvarning. Lokalise-ID `952263597`. |
+| `component::pushbullet::config::step::reauth_confirm::title` | `[%key:common::config_flow::title::reauth%]` | `Autentiseringen har upphört för {name}` | Ingen ändring | Aktuell API-export löser referensen till en platshållarkorrekt text. Behåll som uppföljning tills referenslagring kan verifieras separat. |
+| `component::pushbullet::config::step::reauth_confirm::data::api_key` | `[%key:common::config_flow::data::api_key%]` | `API-nyckel` | Ingen ändring | Aktuell API-export löser referensen till dess korrekta svenska måltext. Behåll som uppföljning tills referenslagring kan verifieras separat. |
 
 ## Verifierade befintliga värden
 
@@ -17,4 +17,6 @@ Status: samtliga 19 aktuella bladnycklar är granskade mot `origin/dev` och Loka
 - Sensorerna för applikationsnamn, meddelande, aviseringens ID och tagg, paketnamn, avsändare/mottagare, avsändarens enhets-ID, rubrik och typ är korrekta (ID `347197488`–`347197497`).
 - Övriga aktiva konfigurationsreferenser är bevarade. En äldre Lokalise-rad för användarens `name` finns utanför den aktuella Core-källan och har inte ändrats.
 
-De två förslagen är inte sparade i Lokalise och ingår därför inte i TMX-minnet.
+De två raderna är inte språkfel i den aktuella API-exporten och ingår därför
+inte som nya poster i TMX-minnet. Referensrepresentationen behöver en separat
+Lokalise-kontroll.
