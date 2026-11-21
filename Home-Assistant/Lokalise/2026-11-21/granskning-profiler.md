@@ -19,3 +19,9 @@ Status: pågående radgranskning mot `origin/dev`.
 | `component::profiler::services::log_thread_frames::description` | Lets the Profiler log the current frames for all threads. | Låter Profiler logga aktuella stackramar för alla trådar. | Verifierad i Lokalise (ID `349141082`). |
 | `component::profiler::services::lru_stats::name` | Log LRU stats | Logga LRU-statistik | Verifierad i Lokalise (ID `349141085`). |
 | `component::profiler::services::lru_stats::description` | Lets the Profiler log the stats of all LRU caches. | Låter Profiler logga statistiken för alla LRU-cacher. | Verifierad i Lokalise (ID `349141084`). |
+| `component::profiler::services::memory::name` | Create memory profile | Skapa minnesprofil | Verifierad i Lokalise (ID `349141089`). |
+| `component::profiler::services::memory::description` | Lets the Profiler create a memory profile for a specified number of seconds. | Låter Profiler skapa en minnesprofil under ett angivet antal sekunder. | Verifierad i Lokalise (ID `349141086`). |
+| `component::profiler::services::set_asyncio_debug::name` | Set asyncio debug | Ställ in asyncio-felsökning | Verifierad i Lokalise (ID `456993395`). |
+| `component::profiler::services::set_asyncio_debug::description` | Lets the Profiler enable or disable asyncio debug. | Låter Profiler aktivera eller inaktivera asyncio-felsökning. | Verifierad i Lokalise (ID `456993392`). |
+| `component::profiler::services::set_asyncio_debug::fields::enabled::name` | Enabled | `[%key:common::state::enabled%]` | Verifierad referens i Lokalise (ID `456993394`) till den gemensamma översättningen. |
+| `component::profiler::services::set_asyncio_debug::fields::enabled::description` | Whether to enable or disable asyncio debug. | Ifall asyncio-felsökning ska aktiveras eller inaktiveras. → **Om asyncio-felsökning ska aktiveras eller inaktiveras.** | Osparat förslag (Lokalise-ID `456993393`); kortare och idiomatiskt för valfältets betydelse. |
