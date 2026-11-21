@@ -58,6 +58,8 @@ Den tillhörande listan `handbrake-sv-terminology-20261121.md` styr bland annat:
 
 - Linux UI: 15 nya radkorrigeringar omfattar ommixning, kapiteltermer, tvingade/inbrända undertexter, bildpunkts- och visningsförhållande, urvalsformuleringar samt korrekta filter- och bildkantsetiketter.
 
+- Linux UI: slutblocket i den manuella genomgången gav 18 korrigeringar, bland annat avflätning, ljudkodek, oskarp mask, batterimeddelande, förinställningsplural, bildpunktsförhållande, bildfrekvensstatus, tidsenheter och målfilssystemets varning.
+
 ## Verifiering
 
 - API-statistiken visar 0 oöversatta strängar i samtliga fyra resurser.
