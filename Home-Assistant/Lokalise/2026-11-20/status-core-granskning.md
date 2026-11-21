@@ -70,6 +70,7 @@ Senast uppdaterad: 2026-11-21.
 | `component::rflink` | Alla **6** aktuella Core-strängar är granskade mot Lokalise och aktuell Core-källa utan ändringsförslag. Två YAML-migreringsnycklar i Lokalise är historiska. | Komponenten kan återkontrolleras vid källändring. |
 | `component::ruuvi_gateway` | Alla **6** aktuella Core-strängar är granskade mot Lokalise och aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::radio_browser` | Alla **7** aktuella Core-strängar är granskade. En obligatorisk referens och en Home Assistant-formulering behöver korrigeras. | Spara och återläs de två dokumenterade förslagen; synka därefter verifierade värden till TMX. |
+| `component::random` | Alla **21** aktuella Core-strängar är granskade mot Lokalise och aktuell Core-källa. En sammansättningsmiss är dokumenterad. | Spara och återläs `slumpvärdeshjälpare`; synka därefter verifierat värde till TMX. |
 | `component::refoss` | Alla **7** aktuella Core-strängar är granskade. Korrigeringen av *energy returned* är sparad och återläst; tre extra Lokalise-nycklar är historiska. | Komponenten kan återkontrolleras vid källändring. |
 | `component::recollect_waste` | Alla **8** aktuella Core-strängar är granskade mot Lokalise och aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::rabbitair` | Alla **17** aktuella Core-strängar är granskade mot Lokalise och aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
@@ -167,6 +168,7 @@ omedelbart och läses tillbaka; fortsatt arbete använder inte `/tmp`.
 - [Ruuvi Gateway](../2026-11-21/granskning-ruuvi-gateway.md)
 - [Radio Browser](../2026-11-21/granskning-radio-browser.md)
 - [Radio Frequency](../2026-11-21/granskning-radio-frequency.md)
+- [Random](../2026-11-21/granskning-random.md)
 - [REFOSS](../2026-11-21/granskning-refoss.md)
 - [Recollect Waste](../2026-11-21/granskning-recollect-waste.md)
 - [RabbitAir](../2026-11-21/granskning-rabbitair.md)
