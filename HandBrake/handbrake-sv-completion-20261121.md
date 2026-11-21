@@ -50,6 +50,8 @@ Den tillhörande listan `handbrake-sv-terminology-20261121.md` styr bland annat:
 
 - Mac UI: slutblocket innehöll åtta tydliga rättelser: lagrings-/visningsmått, främmande ljudsökning, filteretiketten `Skärpa` samt grammatiskt korrekta felmeddelanden för förinställningar. Berörda API-rader lästes tillbaka efter sparning; `DRC` kontrollerades särskilt efter återställning.
 
+- Linux UI: radgranskning påbörjad. 22 rader rättades, inklusive förinställningsgenus och -plural, tvingade undertexter, SRT-förskjutning, ködetaljer, DVD-vinkel, iPod Atom och metadata-genomströmning.
+
 ## Verifiering
 
 - API-statistiken visar 0 oöversatta strängar i samtliga fyra resurser.
