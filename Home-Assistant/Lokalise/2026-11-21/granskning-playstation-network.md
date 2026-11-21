@@ -44,6 +44,7 @@ Datum: 2026-11-21
 | `component::playstation_network::config_subentries::friend::entry_type` | Friend | Vän | Verifierad i Lokalise (ID `688374472`). |
 | `component::playstation_network::config_subentries::friend::initiate_flow::user` | Add friend | Lägg till vän | Verifierad i Lokalise (ID `688374475`). |
 | `component::playstation_network::entity::sensor::online_status::name` | Online status | Onlinestatus | Verifierad i Lokalise (ID `674217217`). |
+| `component::playstation_network::config_subentries::friend::step::user::data::account_id` | Online ID | Online-ID | Verifierad i Lokalise (ID `688374476`). |
 
 ## Osparat förslag
 
