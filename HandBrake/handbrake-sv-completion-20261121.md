@@ -54,6 +54,8 @@ Den tillhörande listan `handbrake-sv-terminology-20261121.md` styr bland annat:
 
 - Linux UI: ytterligare 23 rader rättades i bild-, filter-, video- och undertextvyer. Förbättringarna omfattar bildpunktsförhållande, fyllningskanter, telecine, färgrymd/-omfång, bithastighet, Closed Captions och genomströmningsspårnamn.
 
+- Linux UI: 28 ytterligare rader rättades: konsekvent automatiskt genomströmningsval för tolv ljudformat, dubblettitlar, skiftlägesokänsliga filändelser, HandBrake-namn, förhandsgranskning, tvingade undertexter och DRC-hjälptext.
+
 ## Verifiering
 
 - API-statistiken visar 0 oöversatta strängar i samtliga fyra resurser.
