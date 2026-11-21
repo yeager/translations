@@ -33,6 +33,9 @@ De tre representativa ändrade texterna validerades lokalt efter API-återläsni
 
 Den gemensamma nyckeln `common::trigger_behavior_description` var dessutom syntaktiskt oklar: `Det beteende som ska trigga för valda entiteter.` ersattes med `Det beteende hos de valda entiteterna som ska utlösa automatiseringen.` Den validerades med samma tre verktyg och återlästes från Lokalise som översättnings-ID `8016673893`.
 
+
+I väljaren `selector::number_or_entity::choices::number` ändrades `Nummer` till `Tal`. Källans val står bredvid `Entity` och avser därför ett numeriskt värde, inte ett numrerings-ID. Ändringen validerades, sparades och återlästes som Lokalise-ID `8016674725`.
+
 ## Status
 
 Täcknings-, tomvärdes- och identitetskontroll är klar. Semantisk radgranskning av de återstående villkors- och triggertexterna fortsätter.
