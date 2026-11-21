@@ -20,6 +20,10 @@ Resurser: `o:HandBrakeProject:p:WinUI:r:resourcesresx` och `o:HandBrakeProject:p
 | `o:HandBrakeProject:p:WinUI:r:resourcestooltipsresx:s:270afec0368625363ed8eaa1ba7275f3` | Setup behaviours … | Saknade slutpunkt | Slutpunkt tillagd | Källans interpunktion bevaras. |
 | `o:HandBrakeProject:p:WinUI:r:resourcestooltipsresx:s:d3edbbdccbc15d7a5863e33ce64d8762` | one of two modes | ett eller två lägen | ett av två lägen | Återställer källans val mellan två lägen. |
 | `o:HandBrakeProject:p:WinUI:r:resourcestooltipsresx:s:f5f3eac3e21be93ef2ae689bf2d73124` | Blu-ray and DVD sources | Blu-ray och dvd-källor | Blu-ray och DVD-källor | Produktförkortningen bevaras. |
+| `o:HandBrakeProject:p:WinUI:r:resourcestooltipsresx:s:b90dd6bbc98684112c649588ff7cbf79` | Deblock reduces … | Deblock minskar … | Blockborttagning minskar … | Generiskt filternamn följer HandBrake-terminologin. |
+| `o:HandBrakeProject:p:WinUI:r:resourcestooltipsresx:s:cd56e6385abbdccfc38fe728492aa2fd` | Denoise reduces … | Denoise … | Brusreducering … | Generiskt filternamn och dess böjningar översattes konsekvent. |
+| `o:HandBrakeProject:p:WinUI:r:resourcestooltipsresx:s:6de18f3bdab540bf638c914fc80820f7` | Denoise filter preset. | Förinställning för filtret denoise. | Förinställning för brusreducering. | Generiskt filternamn översattes. |
+| `o:HandBrakeProject:p:WinUI:r:resourcestooltipsresx:s:13b49bb76879cab3dce011f3f3c509d6` | Chroma Smooth Filter | Chroma Smooth-filter | Kromautjämningsfilter | Konsekvent med Linux- och macOS-gränssnitten. |
 
 Samtliga ändringar skickades genom Transifex API och lästes tillbaka från respektive resursöversättning.
 
