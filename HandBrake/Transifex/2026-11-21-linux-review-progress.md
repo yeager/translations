@@ -99,3 +99,8 @@ Fem Linux-poster sparades och API-återlästes. **Dimensions** är nu **Dimensio
 ### Fortsatt kontroll – undertextval och ljud
 
 Fem Linux-poster sparades och API-återlästes. **Valbeteende…** följer menyns formatering, beskrivningen gäller åter flera undertextspår, och två hjälptexter hänvisar korrekt till **Valda språk** respektive standardljudspåret. **Nedmixning** ersätter den felaktiga sammansättningen *Nermixning*.
+
+
+### Fortsatt kontroll – kodning och aktivitetslogg
+
+Fem Linux-etiketter sparades och API-återlästes: **Kodning med flera pass**, **Analyspass med turbo**, **Detaljnivå för aktivitetslogg**, **Lagringstid för aktivitetslogg** och **Videoposition för förhandsgranskning**. De ersätter ordagranna eller semantiskt missvisande formuleringar.
