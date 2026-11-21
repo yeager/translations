@@ -65,3 +65,8 @@ Sju Linux-poster med felaktigt **omkodning** som översättning av *encode/encod
 ### Fortsatt kontroll – verb och direktsändning
 
 Sju Linux-poster sparades och API-återlästes. *encode* återges konsekvent som **koda**, inte *koda om*, i intervall-, kapitel-, förhandsgransknings- och ljudspårsinställningar. Hjälptexten om minimerad fördröjning rättades också grammatiskt och förenklades till **direktsändningar**, utan ändrade platshållare eller radbrytningar.
+
+
+### Fortsatt kontroll – svensk satsstil
+
+Tio Linux-poster sparades och återlästes via API: kommatecken före bisats togs bort, **skall** moderniserades till **ska**, och hjälptexter om bildfrekvens, undertextval, ljudgenomströmning, kö och dubblettmål blev mer idiomatiska. Alla radbrytningar och platshållare behölls.
