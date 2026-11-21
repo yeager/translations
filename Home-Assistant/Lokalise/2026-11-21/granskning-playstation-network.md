@@ -33,6 +33,8 @@ Datum: 2026-11-21
 | `component::playstation_network::exceptions::group_invalid::message` | Failed to send message to group {name}. The group is invalid or does not exist. | Det gick inte att skicka meddelandet till gruppen {name}. Gruppen är ogiltig eller finns inte. | Verifierad i Lokalise (ID `686597385`); platshållaren är intakt. |
 | `component::playstation_network::exceptions::send_message_failed::message` | Failed to send message to {name}. Try again later. | Det gick inte att skicka meddelandet till {name}. Försök igen senare. | Verifierad i Lokalise (ID `686597386`); platshållaren är intakt. |
 | `component::playstation_network::exceptions::send_message_forbidden::message` | Failed to send message to {name}. You are not allowed to send messages to this group or friend. | Det gick inte att skicka meddelandet till {name}. Du har inte behörighet att skicka meddelanden till den här gruppen eller vännen. | Verifierad i Lokalise (ID `686597387`); platshållaren är intakt. |
+| `component::playstation_network::entity::sensor::online_id::name` | Online ID | Online-ID | Verifierad i Lokalise (ID `670327401`). |
+| `component::playstation_network::entity::sensor::now_playing::name` | Now playing | Spelar nu | Verifierad i Lokalise (ID `688374481`). |
 
 ## Osparat förslag
 
