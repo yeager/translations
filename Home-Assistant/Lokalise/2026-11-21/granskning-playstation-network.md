@@ -26,6 +26,10 @@ Datum: 2026-11-21
 | `component::playstation_network::entity::sensor::trophy_level_progress::name` | Next level | Nästa nivå | Verifierad i Lokalise (ID `670327403`). |
 | `component::playstation_network::config::abort::unique_id_mismatch` | The provided NPSSO token corresponds to the account {wrong_account}. Please re-authenticate with the account **{name}** | Den angivna NPSSO-tokenen hör till kontot {wrong_account}. Vänligen autentisera dig på nytt med kontot **{name}** | Verifierad i Lokalise (ID `669331679`); båda platshållarna och Markdown är intakta. |
 | `component::playstation_network::config_subentries::friend::step::user::description` | Track the online status of a PlayStation Network friend. | Se om en vän på PlayStation Network är online. | Verifierad i Lokalise (ID `688374478`). |
+| `component::playstation_network::entity::sensor::online_status::state::availabletocommunicate` | Online on PS App | Online på PS-appen | Verifierad i Lokalise (ID `674217218`). |
+| `component::playstation_network::entity::sensor::online_status::state::availabletoplay` | Online | Online | Verifierad i Lokalise (ID `674217219`). |
+| `component::playstation_network::entity::sensor::online_status::state::busy` | Away | Borta | Verifierad i Lokalise (ID `674217220`). |
+| `component::playstation_network::entity::sensor::online_status::state::offline` | Offline | Offline | Verifierad i Lokalise (ID `674217221`). |
 
 ## Osparat förslag
 
