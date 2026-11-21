@@ -4,9 +4,9 @@ Senast uppdaterad: 2026-11-21.
 
 ## Omfattning och kontrollpunkt
 
-- Granskning har genomförts rad för rad t.o.m. Lokalise-sida 740.
-- Sida 731 är granskad och dess sex sparade ändringar har återlästs. Sidorna 732–733 har kontrollerats utan ändringsförslag. Sida 734 innehöll två felaktigt formaterade Voice Support-platshållare som är sparade och återlästa. Sidorna 735–740 är LIFX-katalogetiketter utan ändringsförslag.
-- Tidigare arbete fram till sida 614 finns i tidigare rapporter i denna katalog. Sidor 615–740 är fortsatt spårade genom Lokalise-ID:n och det kanoniska TMX-minnet; sidor 727–730 har kompletterande fullständig ändringsrapport.
+- Granskning har genomförts rad för rad t.o.m. Lokalise-sida 741.
+- Sida 731 är granskad och dess sex sparade ändringar har återlästs. Sidorna 732–733 har kontrollerats utan ändringsförslag. Sida 734 innehöll två felaktigt formaterade Voice Support-platshållare som är sparade och återlästa. Sidorna 735–740 är LIFX-katalogetiketter utan ändringsförslag; sida 741 rättade den kvarlämnade theme-etiketten `Taps` till `Kranar` och återläste ändringen.
+- Tidigare arbete fram till sida 614 finns i tidigare rapporter i denna katalog. Sidor 615–741 är fortsatt spårade genom Lokalise-ID:n och det kanoniska TMX-minnet; sidor 727–730 har kompletterande fullständig ändringsrapport.
 
 ## Kanoniskt Home Assistant-minne
 
