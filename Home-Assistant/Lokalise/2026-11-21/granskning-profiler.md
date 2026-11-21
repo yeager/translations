@@ -1,7 +1,7 @@
 # Home Assistant Core – Profiler
 
 Datum: 2026-11-21  
-Status: pågående radgranskning mot `origin/dev`.
+Status: samtliga 42 aktuella bladnycklar är radgranskade mot Core `2fdaa177` och Lokalise.
 
 | Nyckel | Källa | Svenska | Bedömning |
 | --- | --- | --- | --- |
