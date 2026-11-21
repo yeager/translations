@@ -79,3 +79,8 @@ Fyra ytterligare macOS-poster sparades och API-återlästes: två **Mixdown** �
 ### Fortsatt kontroll – dimensioner
 
 Fyra macOS-etiketter sparades och API-återlästes: två **Pad top** → **Fyll upptill**, **Pad bottom** → **Fyll nedtill** samt **Width (Pillarbox)** → **Bredd (pelarbox)**.
+
+
+### Fortsatt kontroll – dimensioner och kö
+
+Fyra macOS-poster sparades och API-återlästes: **Beskäring** i stället för felstavade *Beskäring*, **Fyll nedtill**, **Höjd (letterbox)** och **Flytta längst ner**.
