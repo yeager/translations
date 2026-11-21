@@ -2,7 +2,7 @@
 
 Datum: 2026-11-21
 
-## Delgranskning
+## Fullständig radgranskning
 
 | Nyckel | Källa | Svenska | Bedömning |
 | --- | --- | --- | --- |
@@ -12,5 +12,5 @@ Datum: 2026-11-21
 | `component::plaato::config::error::invalid_webhook_device` | You have selected a device that does not support sending data to a webhook. It is only available for the Airlock | Du har valt en enhet som inte stöder att skicka data till en webhook. Den är endast tillgänglig för Airlock | Verifierad i Lokalise (ID `74499918`). |
 | `component::plaato::config::error::no_api_method` | You need to add an auth token or select webhook | Du måste lägga till en autentiseringstoken eller välja webhook | Verifierad i Lokalise (ID `74499919`). |
 
-Övriga direkta Plaato-strängar återstår för fortsatt radgranskning.
+De återstående direkta strängarna är radgranskade mot aktuell Core-källa och Lokalise-exporten utan ändringsförslag: flödestitlarna och etiketterna är idiomatiska, `Home Assistant` och `Home Assistant Cloud` bevaras som produktnamn, och alla webhook-URL:er, fetstil och radbrytningar är intakta. `webhook_not_internet_accessible`, `no_options` och `scan_interval` är källreferenser eller kompatibilitetsposter där den upplösta svenska Lokalise-texten är korrekt.
 
