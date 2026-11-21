@@ -43,3 +43,8 @@ l10n-lint med språk=sv gav 0 fel i den samlade aktuella katalogen. Hunspell-sv 
 ### Fortsatt semantisk kontroll
 
 Sparade och API-återlästa: **Passthru Fallback:** → **Reservkodning vid genomströmning:**; två **Forced Only** → **Endast tvingade**; två längre hjälpposter för *Track Selection Behavior* med korrekta alternativnamn, utan dubbel negation och med bevarade radbrytningar; **Muxing…** → **Muxning…**.
+
+
+### Fortsatt kontroll – ljudförstärkning
+
+Sex synliga macOS-etiketter med engelska **Gain** sparades som **Förstärkning** och återlästes via Transifex API. Det följer etablerad svensk ljudterminologi och Linux UI:s *Ljudförstärkning* i beskrivande sammanhang.
