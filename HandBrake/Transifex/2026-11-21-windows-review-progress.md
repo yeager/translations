@@ -50,3 +50,8 @@ Sparade och API-återlästa: **Muxing: This may take a while…** → **Muxning:
 ### Fortsatt kontroll – filterterminologi
 
 **Comb Detect** uppdaterades från **Kamdetektering** till **Comb-identifiering** och återlästes via Transifex API. Därmed används samma synliga HandBrake-term i Linux, macOS och Windows.
+
+
+### Fortsatt kontroll – plats­hållarhjälp
+
+Den långa tooltipen för målfilens platshållare rättades språkligt och API-återlästes. Samtliga platshållare, kodnamn och radbrytningar bevarades; **codec** och **encoder** i klammerparenteser lämnades avsiktligt orörda.
