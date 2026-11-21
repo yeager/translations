@@ -17,3 +17,5 @@ Datum: 2026-11-21
 
 Följande etiketter har rättats i Lokalise och återlästs via API:t: `ORP överdosering larmtid` och `pH överdosering larmtid` till `Larmtid för ORP-överdosering` respektive `Larmtid för pH-överdosering` (båda förekomsterna); `ORP-kalibrering offset`, `ORP-kalibrering lutning`, `ORP-kalibrering typ` och `ORP-dosering typ` till korrekta sammansättningar; samt `Flödesfördröjning timer` och de tre särskrivna stopptidsetiketterna till `Flödesfördröjningstimer` respektive `Stopptid för …-dosering`. Berörda nyckel-ID:n: `701475661`, `701475662`, `701475664`–`701475666`, `701475670`, `752126899`, `752126900` och `822808369`, `822808371`–`822808373`.
 
+Överdoseringstermerna har dessutom enhetliggjorts och återlästs: alla sex larmgränser använder nu `… gräns för larm vid …-överdosering`, och de tre alternativa larmen har korrekta sammansättningar. Berörda nyckel-ID:n: `766455722`–`766455727` och `822808361`–`822808363`.
+
