@@ -27,3 +27,14 @@ Varje ändring skickades via Transifex REST API och lästes tillbaka från sitt 
 ## Status
 
 Inventering och de första säkra, synliga filterrättningarna är gjorda. Den semantiska radgranskningen av återstående macOS-strängar fortsätter. Rapporten innebär inte att macOS UI eller HandBrake som helhet är färdiggranskade.
+
+## Fortsatt radgranskning – 2026-11-21
+
+Färsk Transifex-hämtning omfattade 1 281 aktuella macOS-strängar. Nio ändringar sparades och återlästes via API:
+
+| Engelska | Tidigare svenska | Sparad svenska | Motivering |
+| --- | --- | --- | --- |
+| Passthru Common Metadata | Genomström vanliga metadata | För över vanliga metadata | Begriplig svensk åtgärdsform. |
+| Bottom/Top/Left/Right edge cropping amount in pixels (åtta punkt- och icke-punktvarianter) | Beskäring … | Beskärning … | Rätt svenskt ord; enhetlig formulering och bevarad interpunktion. |
+
+l10n-lint med språk=sv gav 0 fel i den samlade aktuella katalogen. Hunspell-sv markerade inte de sparade texterna.
