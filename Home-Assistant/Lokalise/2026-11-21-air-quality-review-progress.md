@@ -30,6 +30,9 @@ Sex N₂O-nycklar hade översatt `nitrous oxide` som `kväveoxid`. Korrekt svens
 
 De tre representativa ändrade texterna validerades lokalt efter API-återläsningen: `l10n-lint --language sv --format text` rapporterade inga formatfel, `hunspell -d sv_SE` gav inga okända ord och `svlang check` gav 10,0/10 utan anmärkningar. Platshållare berörs inte av N₂O-ändringarna.
 
+
+Den gemensamma nyckeln `common::trigger_behavior_description` var dessutom syntaktiskt oklar: `Det beteende som ska trigga för valda entiteter.` ersattes med `Det beteende hos de valda entiteterna som ska utlösa automatiseringen.` Den validerades med samma tre verktyg och återlästes från Lokalise som översättnings-ID `8016673893`.
+
 ## Status
 
 Täcknings-, tomvärdes- och identitetskontroll är klar. Semantisk radgranskning av de återstående villkors- och triggertexterna fortsätter.
