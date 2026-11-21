@@ -104,3 +104,8 @@ Fem Linux-poster sparades och API-återlästes. **Valbeteende…** följer menyn
 ### Fortsatt kontroll – kodning och aktivitetslogg
 
 Fem Linux-etiketter sparades och API-återlästes: **Kodning med flera pass**, **Analyspass med turbo**, **Detaljnivå för aktivitetslogg**, **Lagringstid för aktivitetslogg** och **Videoposition för förhandsgranskning**. De ersätter ordagranna eller semantiskt missvisande formuleringar.
+
+
+### Fortsatt kontroll – nedmixning och skanning
+
+Två Linux-poster sparades och API-återlästes: **nedmixning** ersätter *ommixningen*, och skanningsstatusen återger åter både `titel`, samtliga `%d`-platshållare och förhandsvisningsnumret.
