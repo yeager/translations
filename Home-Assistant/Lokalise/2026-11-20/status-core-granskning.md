@@ -71,6 +71,7 @@ Senast uppdaterad: 2026-11-21.
 | `component::ruuvi_gateway` | Alla **6** aktuella Core-strängar är granskade mot Lokalise och aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::radio_browser` | Alla **7** aktuella Core-strängar är granskade. En obligatorisk referens och en Home Assistant-formulering behöver korrigeras. | Spara och återläs de två dokumenterade förslagen; synka därefter verifierade värden till TMX. |
 | `component::refoss` | Alla **7** aktuella Core-strängar är granskade. Ett semantiskt fel för *energy returned* behöver korrigeras; tre extra Lokalise-nycklar är historiska. | Spara och återläs det dokumenterade förslaget; synka därefter verifierat värde till TMX. |
+| `component::recollect_waste` | Alla **8** aktuella Core-strängar är granskade mot Lokalise och aktuell Core-källa utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::radiotherm` | Alla 9 aktuella Core-strängar är granskade mot Core-källan utan ändringsförslag. | Komponenten kan återkontrolleras vid källändring. |
 | `component::simplepush` | Alla 9 aktuella Core-strängar är granskade mot Core-källan; felmeddelandet om sändning sparades i Lokalise och återlästes i redigeringsfältet. | Ta med värdet vid nästa verifierade TMX-synkning. |
 | `component::tankerkoenig` | Del 1–2: konfiguration och synliga sensorattribut är lästa mot aktuell Core-källa. Alla tio fastställda ändringar är sparade och återlästa i Lokalise. | Kontrollera historiska Lokalise-rader mot API-proveniens när full export finns. |
@@ -165,6 +166,7 @@ omedelbart och läses tillbaka; fortsatt arbete använder inte `/tmp`.
 - [Ruuvi Gateway](../2026-11-21/granskning-ruuvi-gateway.md)
 - [Radio Browser](../2026-11-21/granskning-radio-browser.md)
 - [REFOSS](../2026-11-21/granskning-refoss.md)
+- [Recollect Waste](../2026-11-21/granskning-recollect-waste.md)
 - [RadioTherm](granskning-radiotherm.md)
 - [Simplepush](granskning-simplepush.md)
 - [Tankerkoenig, del 1](granskning-tankerkoenig-del-1.md)
