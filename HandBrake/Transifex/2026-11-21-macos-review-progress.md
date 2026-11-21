@@ -48,3 +48,8 @@ Sparade och API-återlästa: **Passthru Fallback:** → **Reservkodning vid geno
 ### Fortsatt kontroll – ljudförstärkning
 
 Sex synliga macOS-etiketter med engelska **Gain** sparades som **Förstärkning** och återlästes via Transifex API. Det följer etablerad svensk ljudterminologi och Linux UI:s *Ljudförstärkning* i beskrivande sammanhang.
+
+
+### Fortsatt kontroll – filter
+
+**Deband** → **Minska bandning** och **Unsharp** → **Oskarp mask** sparades och API-återlästes. Formuleringarna följer redan granskade Windows- och Linux-resurser.
