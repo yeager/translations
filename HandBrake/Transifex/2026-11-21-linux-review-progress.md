@@ -70,3 +70,8 @@ Sju Linux-poster sparades och API-återlästes. *encode* återges konsekvent som
 ### Fortsatt kontroll – svensk satsstil
 
 Tio Linux-poster sparades och återlästes via API: kommatecken före bisats togs bort, **skall** moderniserades till **ska**, och hjälptexter om bildfrekvens, undertextval, ljudgenomströmning, kö och dubblettmål blev mer idiomatiska. Alla radbrytningar och platshållare behölls.
+
+
+### Fortsatt kontroll – val och kompatibilitet
+
+Fem Linux-poster sparades och API-återlästes: en Decomb/Avflätning-hjälptext återfick **filteralternativen** och korrekt mellanrum, undertextvalet använder nu korrekt **främmande ljud**, och tre kompatibilitetsdialoger har idiomatisk svenska med bevarade kodeknamn.
