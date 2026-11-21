@@ -15,3 +15,7 @@ Status: pågående radgranskning mot `origin/dev`.
 | `component::profiler::services::log_current_tasks::description` | Lets the Profiler log all the current asyncio tasks. | Låter Profiler logga alla aktuella asyncio-uppgifter. | Verifierad i Lokalise (ID `473725728`). |
 | `component::profiler::services::log_event_loop_scheduled::name` | Log event loop scheduled | Logga vad som är schemalagt i händelseloopen | Verifierad i Lokalise (ID `349141081`). |
 | `component::profiler::services::log_event_loop_scheduled::description` | Lets the Profiler log what is scheduled in the event loop. | Låter Profiler logga vad som är schemalagt i händelseloopen. | Verifierad i Lokalise (ID `349141080`). |
+| `component::profiler::services::log_thread_frames::name` | Log thread frames | Logga trådars stackramar → **Logga stackramar för alla trådar** | Osparat förslag (Lokalise-ID `349141083`); förslaget följer komponentens egen beskrivning och blir tydligare än genitivkedjan. |
+| `component::profiler::services::log_thread_frames::description` | Lets the Profiler log the current frames for all threads. | Låter Profiler logga aktuella stackramar för alla trådar. | Verifierad i Lokalise (ID `349141082`). |
+| `component::profiler::services::lru_stats::name` | Log LRU stats | Logga LRU-statistik | Verifierad i Lokalise (ID `349141085`). |
+| `component::profiler::services::lru_stats::description` | Lets the Profiler log the stats of all LRU caches. | Låter Profiler logga statistiken för alla LRU-cacher. | Verifierad i Lokalise (ID `349141084`). |
