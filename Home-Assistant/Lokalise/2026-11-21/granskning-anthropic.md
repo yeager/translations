@@ -3,7 +3,7 @@
 Datum: 2026-11-21  
 Källa: Core `2fdaa177`, `homeassistant/components/anthropic/strings.json`, tidigare delgranskningar och Lokalise API med direkt återläsning.
 
-Status: pågående fullständig radgranskning. Konfigurationsavsnittet, undantagsmeddelandena och konversationsunderpostens aktuella strängar med referensmål är kontrollerade; nio korrigeringar är sparade och återlästa.
+Status: samtliga aktuella bladsträngar och referensmål i komponenten är radgranskade. Tolv korrigeringar är sparade och återlästa.
 
 | Nyckel | Sparad text | Motivering |
 |---|---|---|
@@ -16,5 +16,8 @@ Status: pågående fullständig radgranskning. Konfigurationsavsnittet, undantag
 | `config_subentries::conversation::step::model::data::thinking_budget` | `Resonemangsbudget` | Ersätter felstavningen och gör begreppet begripligt. |
 | `config_subentries::conversation::step::model::data::user_location` | `Inkludera hemposition` | *Home location* är en platsposition, inte nödvändigtvis en postadress. |
 | `config_subentries::conversation::step::model::data_description::web_fetch` | `Verktyget för webbhämtning låter Claude hämta hela innehållet från angivna webbsidor och PDF-dokument för att utöka Claudes kontext med aktuellt webbinnehåll.` | Ersätter den oidiomatiska formuleringen “levande webbinnehåll”. |
+| `issues::model_deprecated::fix_flow::step::init::description` | `Du uppdaterar {subentry_name} ({subentry_type}) i {entry_name}. Den aktuella modellen {model} är föråldrad. Välj en aktiv modell för att fortsätta.\n\nUtfasningsdatum: {deprecation_date}\nAvvecklingsdatum: {retirement_date}` | Återställer källans saknade platshållare och datumuppgifter. |
+| `issues::model_deprecated::title` | `Modellen i {entry_name} är föråldrad` | Återställer den saknade platshållaren `{entry_name}`. |
+| `selector::prompt_caching::options::automatic` | `Fullständig` | Svensk UI-text i stället för kvarlämnad engelska. |
 
-Den återstående omfattningen består av AI-uppgiftsunderposten, problem och väljare. Tidigare rapporterade förslag och referenskedjor ska kontrolleras mot denna källversion innan de sparas. TMX-ledgern är uppdaterad och validerad (1 695 poster).
+AI-uppgiftsunderposten har två egna aktuella strängar; båda är korrekta. Övriga nycklar där är referenser till de verifierade konversationsmålen. Äldre Lokalise-poster för borttagna steg ingår inte i aktuell Core-källa. TMX-ledgern är uppdaterad och validerad (1 698 poster).
