@@ -11,4 +11,5 @@ Datum: 2026-11-21
 | `component::pooldose::config::step::user::description` | Login handling not supported by API. Device password must be deactivated, i.e., set to default value (0000). | Inloggningshantering stöds inte av API:et. Enhetens lösenord måste inaktiveras, dvs. återställas till standardvärdet (0000). | Verifierad i Lokalise (ID `701475659`). |
 | `component::pooldose::exceptions::write_rejected::message` | The device rejected the value for {entity}: {value} | Enheten avvisade värdet för {entity}: {value} | Verifierad i Lokalise (ID `779987563`); båda platshållarna är bevarade. |
 | `component::pooldose::exceptions::connect_timeout::message` | Timeout connecting to PoolDose device | Timeout vid anslutning till PoolDose-enhet | Tidsgränsen överskreds vid anslutning till PoolDose-enheten. | Sparad och återläst i Lokalise (ID `857959052`). Rättar oöversatt teknisk term samt sammansättning och bestämd form. |
+| `component::pooldose::exceptions::connect_failed::message` | Failed to connect to PoolDose device | Det gick inte att ansluta till PoolDose-enheten | Verifierad i Lokalise (ID `857959051`). |
 
