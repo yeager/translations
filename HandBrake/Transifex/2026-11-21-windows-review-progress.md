@@ -115,3 +115,7 @@ Sex poster sparades och API-återlästes. Köstarten fick det grammatiska **komm
 De återstående 53 raderna i Windows huvudresurs (filter, ljudfilter, logg, spårval och metadataimport) radgranskades mot den hämtade källtexten. Filter- och kodnamn som `Detelecine`, `Decomb`, `Yadif`, `Bwdif`, `BM3D`, `NLMeans`, `HQDN3D`, `Lapsharp` och `Unsharp` är tekniska egna namn och lämnades avsiktligt oförändrade. Övriga svenska texter följer terminologin för kodek, kodare, avkodning, genomströmning och spår. Ingen ny ändring var motiverad i detta block.
 
 Huvudresursens semantiska genomläsning omfattar därmed samtliga 1 013 rader i den aktuella API-ögonblicksbilden. En färsk API-export och format-/språkkontroll återstår innan den kan markeras som verifierad.
+
+### Tooltip-resurs – första radpasset
+
+Tooltip-raderna 1–46 har granskats mot källan. Fem ändringar sparades och API-återlästes: avsnitten `None`, `Automatic` och `Custom` i den anamorfiska beskrivningen ligger nu i samma ordning som källan; flerpass använder konsekvent **kodning med flera pass** och **analyspass**; avslutshandlingen anger subjektet HandBrake; och förinställningshjälpen använder **kodningsinställningar**. Radbrytningar och de betydelsebärande inledande blankstegen i källans förinställningstext bevarades.
