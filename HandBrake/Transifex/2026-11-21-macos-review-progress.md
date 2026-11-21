@@ -109,3 +109,8 @@ Sex poster sparades och API-återlästes: **Öppna källfil** följer etablerad 
 ### Fortsatt kontroll – köstatus och formatmallar
 
 Blocket radgranskades. Enda säkra ändringen var **Starttid:** i stället för den ogrammatiska statusetiketten *Startades:*, och den sparades samt API-återlästes. Formatmallarna med `%@`, `%d`, `%lu`, `%s` och `%f` kontrollerades utan ändring; platshållarordning och antal är bevarade.
+
+
+### Slutblock i lokal export – filterstatus
+
+Tre poster sparades och API-återlästes: **Flera pass**, **Flera pass med turbo** och **Läser in titel %1$d av %2$d, förhandsvisning %3$d…**. Den lokala macOS-översikten omfattar nu samtliga 1 281 poster radvis, men slutstatus kräver fortfarande färsk API-export och format-/språkvalidering så att ändringar efter ögonblicksbilden upptäcks.
