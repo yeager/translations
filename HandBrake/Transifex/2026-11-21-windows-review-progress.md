@@ -30,3 +30,13 @@ Samtliga ändringar skickades genom Transifex API och lästes tillbaka från res
 ## Status
 
 Inventering och kontroll av tomma värden är klar för båda Windows-resurserna. Semantisk radgranskning fortsätter; rapporten är inte ett 100-procentigt godkännande av Windows UI, Tooltips eller HandBrake som helhet.
+
+## Fortsatt radgranskning – 2026-11-21
+
+Färsk API-hämtning av 1 013 huvudsträngar och 91 tooltipsträngar användes vid kontrollen. En konsekvensrättning sparades och återlästes:
+
+| Engelska | Tidigare svenska | Sparad svenska | Motivering |
+| --- | --- | --- | --- |
+| Passthru Common Metadata | Genomström vanliga metadata | För över vanliga metadata | Samma begripliga svenska åtgärdsform som i Linux- och macOS-resurserna. |
+
+l10n-lint med språk=sv gav 0 fel för den samlade aktuella katalogen; inga nya Hunspell-sv-anmärkningar uppstod.
