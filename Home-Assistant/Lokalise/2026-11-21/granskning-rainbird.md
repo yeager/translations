@@ -13,6 +13,5 @@ ingår inte längre i aktuell Core-källa och har inte ändrats.
 | --- | --- | --- | --- |
 | `options::step::init::data_description::duration` | `Standardtiden som sprinklern kommer att köras när den slås på.` | `Standardtiden som sprinklern är igång när den slås på.` | Naturligt svenskt uttryck för hur länge sprinklern körs. Sparad och återläst i Lokalise 2026-11-21. |
 
-Den sparade översättningen saknar här ett verifierat Lokalise-översättnings-ID
-och läggs därför inte till i det kanoniska TMX-minnet förrän ett sådant ID kan
-exporteras spårbart.
+Översättningen har API-verifierats med Lokalise-ID `4878200762` och är införd
+i det kanoniska TMX-minnet med spårbar nyckel och återläsningsstatus.
