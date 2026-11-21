@@ -81,7 +81,7 @@ Följande 20 nycklar ändrades från `Hur värdet ska stämma överens med de en
 
 ## Sparad etikettgrupp: minsta varaktighet
 
-42 Air Quality-fält med källtexten `For at least` ändrades från `I åtminstone` till `I minst`. Den gamla formuleringen var oidiomatisk; den nya är en korrekt svensk fältetikett för minsta varaktighet. `l10n-lint`, `hunspell-sv` och `svlang` godkände texten. API-sparningarna lästes tillbaka per översättnings-ID; en första batch avbröts efter 41 poster och den återstående radonnyckeln `component::air_quality::triggers::radon_crossed_threshold::fields::for::name` sparades och verifierades separat.
+42 Air Quality-fält med källtexten `For at least` ändrades från `I åtminstone` till `I minst`. Den gamla formuleringen var oidiomatisk; den nya är en korrekt svensk fältetikett för minsta varaktighet. `l10n-lint`, `hunspell-sv` och `svlang` godkände texten. API-sparningarna lästes tillbaka per översättnings-ID; en första batch avbröts efter 41 poster och den återstående radonnyckeln `component::air_quality::triggers::radon_crossed_threshold::fields::for::name` sparades och verifierades separat. Den spårbara 42-postersgruppen har lagts i det verifierade TM-minnet; den kanoniska TMX-valideringen passerade med 1 545 poster.
 
 ## Status
 
