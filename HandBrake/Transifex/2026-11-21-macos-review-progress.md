@@ -58,3 +58,9 @@ Sex synliga macOS-etiketter med engelska **Gain** sparades som **Förstärkning*
 ### Fortsatt kontroll – val och förinställningar
 
 Två spårvalsbeskrivningar och en förinställningshjälptext rättades och API-återlästes. **kodarinställningar** ersattes med **kodningsinställningar**, eftersom källan avser inställningar för hela kodningen och inte en specifik kodare.
+
+
+### Referensmål för fortsatt kontroll
+
+- Tre `Auto`-strängar är Cocoa-bindningsplatshållare (`ibShadowedIsNilPlaceholder`) och inte bekräftat synliga UI-etiketter; de lämnas därför oförändrade.
+- Två `Pop Up`-strängar är NSMenuItem-titlar utan tillräcklig användningskontext. Nuvarande **Popupp** är inte ändrad spekulativt.
