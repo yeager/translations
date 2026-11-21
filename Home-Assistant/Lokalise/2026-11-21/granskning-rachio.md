@@ -12,6 +12,5 @@ platshållaren `{api_key_url}`, Rachio-namnet och interna nyckelreferenser.
 | --- | --- | --- | --- |
 | `entity::switch::rain_delay::name` | `Regn fördröjning` | `Regnfördröjning` | Svensk sammansättning skrivs ihop. Sparad och återläst i Lokalise 2026-11-21. |
 
-Den sparade översättningen saknar här ett verifierat Lokalise-översättnings-ID
-och läggs därför inte till i det kanoniska TMX-minnet förrän ett sådant ID kan
-exporteras spårbart.
+Översättningen har API-verifierats med Lokalise-ID `2966425923` och är införd
+i det kanoniska TMX-minnet med spårbar nyckel och återläsningsstatus.
