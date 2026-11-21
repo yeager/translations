@@ -84,3 +84,8 @@ Fyra macOS-etiketter sparades och API-återlästes: två **Pad top** → **Fyll 
 ### Fortsatt kontroll – dimensioner och kö
 
 Fyra macOS-poster sparades och API-återlästes: **Beskäring** i stället för felstavade *Beskäring*, **Fyll nedtill**, **Höjd (letterbox)** och **Flytta längst ner**.
+
+
+### Fortsatt kontroll – menyer
+
+Nio macOS-menyposter sparades och API-återlästes. Åtgärden **Open Source…** använder nu den etablerade termen **Öppna källfil…**, och **HandBrake Website** är **HandBrakes webbplats**. Menyernas ellipser har samtidigt återställts till källans Unicode-tecken (`…`) i stället för tre punkttecken, utan att kortkommandon eller annan formatering ändrades.
