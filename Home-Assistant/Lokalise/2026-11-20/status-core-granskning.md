@@ -105,6 +105,16 @@ Senast uppdaterad: 2026-11-21.
 
 ## Miljöstatus
 
+## Verktygsverifiering
+
+- `hunspell-sv`: `python3 -m unittest discover -s tests -v` godkändes
+  2026-11-21 (**19/19** tester). Stavningskontrollen av de fyra senast
+  sparade Fritz-etiketterna gav inga träffar.
+- Lokalise-exporten valideras separat av `home_assistant_export.py`; dess
+  aktuella antal och TM-proveniens redovisas i avsnittet *Aktuell komplett
+  Lokalise-export* ovan. Verktygsträffar används som granskningsunderlag och
+  ersätter inte den radvisa kontextbedömningen.
+
 En autentiserad Lokalise-yta är tillgänglig igen. Fastställda ändringar sparas
 omedelbart och läses tillbaka; fortsatt arbete använder inte `/tmp`.
 
