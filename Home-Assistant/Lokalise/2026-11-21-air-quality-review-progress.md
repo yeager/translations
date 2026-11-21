@@ -88,6 +88,11 @@ Följande 20 nycklar ändrades från `Hur värdet ska stämma överens med de en
 
 Källan och implementationen använder `cleared` när en binärsensor inte längre detekterar ämnet. Nio texter ändrades därför från `nollställd`/`nollställda` till `inte upptäckt` respektive `inte längre detekterar`. Berörda nycklar är `component::air_quality::triggers::{co,gas,smoke}_cleared::name`, `component::air_quality::conditions::is_{co,gas,smoke}_cleared::{name,description}`. `l10n-lint` och `hunspell-sv` passerade. `svlang` gav tre falskt positiva V2-varningar för de grammatiskt korrekta bisatserna efter `om`; de ändrades inte. Alla nio API-sparningar lästes tillbaka och har lagts till i det verifierade TM-minnet.
 
+
+## Sparad genuskorrektion: rökdetektion
+
+`component::air_quality::triggers::smoke_detected::name` och `component::air_quality::conditions::is_smoke_detected::name` ändrades från `Rök detekterat` till `Rök detekterad`. `Rök` är ett en-ord och kräver därför adjektivformen `detekterad`. Båda sparningarna validerades, återlästes och lades till i TM-minnet.
+
 ## Status
 
 Täcknings-, tomvärdes- och identitetskontroll är klar. Semantisk radgranskning av de återstående villkors- och triggertexterna fortsätter.
