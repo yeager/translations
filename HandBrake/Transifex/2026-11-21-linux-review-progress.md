@@ -45,3 +45,8 @@ Färsk Transifex-hämtning av alla 801 Linux-strängar bekräftade att källstr�
 | SRT file does not exist … | reguljär fil; undantas | vanlig fil; ignoreras | Naturlig svensk feltext utan ändrade radbrytningar. |
 
 l10n-lint med språk=sv gav 0 fel. Fyra kvarvarande varningar är kontrollerade falska positiva: sammansättningen *källljudspår*, tekniska I-/P-bildrutor och ett dubblerat engelskt *is* i källtexten. Hunspell-sv markerade inga av de sparade orden.
+
+
+### Fortsatt semantisk kontroll
+
+Sparade och API-återlästa: **Aspect Ratio:** → **Bildförhållande:**, **Resume Encoding** → **Återuppta kodningen** och **Stop Encoding** → **Stoppa kodningen**. Dessa ersätter felaktiga eller otydliga UI-former.
