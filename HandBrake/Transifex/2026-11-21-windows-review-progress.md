@@ -68,3 +68,8 @@ Korrigering: åtgärdsetiketten för `Retry Failed` preciserades vidare till **F
 ### Fortsatt kontroll – förhandsvisning
 
 Windows-posten `Preview {0}` sparades och API-återlästes som **Förhandsvisning {0}**. Den tidigare imperativformen ersattes med en korrekt rubrik; platshållaren `{0}` är bevarad.
+
+
+### Fortsatt kontroll – ljudterminologi
+
+Windows-posten **Mixdown** sparades och API-återlästes som **Nedmixning**. Därmed används samma etablerade term i Linux, macOS och Windows.
