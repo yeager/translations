@@ -114,3 +114,8 @@ Blocket radgranskades. Enda säkra ändringen var **Starttid:** i stället för 
 ### Slutblock i lokal export – filterstatus
 
 Tre poster sparades och API-återlästes: **Flera pass**, **Flera pass med turbo** och **Läser in titel %1$d av %2$d, förhandsvisning %3$d…**. Den lokala macOS-översikten omfattar nu samtliga 1 281 poster radvis, men slutstatus kräver fortfarande färsk API-export och format-/språkvalidering så att ändringar efter ögonblicksbilden upptäcks.
+
+
+### Färsk API-verifiering
+
+En ny sidindelad Transifex-API-export innehåller 1 281 macOS-strängar. Jämförelsen med den föregående färska exporten gav **0** ändrade, saknade eller tillkomna poster. `l10n-lint --language sv --json-format nested` på den nya exporten gav **0 problem**. Detta verifierar den tidigare radgranskningen mot nuvarande API-tillstånd.
