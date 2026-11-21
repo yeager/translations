@@ -60,3 +60,6 @@ Den långa tooltipen för målfilens platshållare rättades språkligt och API-
 ### Fortsatt kontroll – statusdialoger
 
 Fyra Windows-poster sparades och API-återlästes: åtgärden för misslyckade jobb, kapitelinformation för källmediet, Safe Mode-varningen och köns jobbstatus. Platshållarna `{0}`–`{3}` är bevarade.
+
+
+Korrigering: åtgärdsetiketten för `Retry Failed` preciserades vidare till **Försök igen med misslyckade jobb** och API-återlästes.
