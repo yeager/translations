@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 22:01 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 22:12 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -31,7 +31,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/toolbox~paint/sv/) | gimp-help-2-10 | 68 | 162 | 597 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/toolbox~paint/sv/) | gimp-help-3-0 | 65 | 162 | 591 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/menus~colors/sv/) | gimp-help-3-0 | 17 | 44 | 534 | Behöver arbete | Ej granskad |
-| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~colors/sv/) | master | 16 | 42 | 534 | Behöver arbete | Ej granskad |
+| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~colors/sv/) | master | 16 | 42 | 534 | Behöver arbete | Klar lokalt (2026-11-22): Alla användarvisade färgmenyposter är lokalt översatta och fuzzy-fria; endast uttryckligen icke-översättbara bildhashar återstår. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/menus~colors/gimp-help.master.menus-colors.sv.original.po), [granskad](gimp-help/master/menus~colors/gimp-help.master.menus-colors.sv.reviewed.po), [diff](gimp-help/master/menus~colors/gimp-help.master.menus-colors.sv.review.diff), [notering](gimp-help/master/menus~colors/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/menus~image/sv/) | gimp-help-2-10 | 55 | 77 | 502 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/menus~colors/sv/) | gimp-help-2-10 | 21 | 56 | 491 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters~light-and-shadow/sv/) | master | 20 | 50 | 486 | Behöver arbete | Ej granskad |
