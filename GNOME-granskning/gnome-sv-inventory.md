@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 08:18 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 08:19 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -139,7 +139,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [gnome-control-center](https://l10n.gnome.org/vertimus/gnome-control-center/main/po/sv/) | main | 2140 | 27 | 5 | Behöver arbete | Validering återstår (2026-11-22): Alla aktuella oöversatta och fuzzy-strängar är lokalt ifyllda. Två äldre acceleratorfel och elva varningar i andra poster måste åtgärdas före slutligt godkännande; ingen GNOME-inskickning har gjorts. [original](gnome-control-center/main/po/gnome-control-center.main.sv.original.po), [granskad](gnome-control-center/main/po/gnome-control-center.main.sv.reviewed.po), [diff](gnome-control-center/main/po/gnome-control-center.main.sv.review.diff), [notering](gnome-control-center/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [epiphany](https://l10n.gnome.org/vertimus/epiphany/main/po/sv/) | main | 1015 | 20 | 5 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [flatpak](https://l10n.gnome.org/vertimus/flatpak/main/po/sv/) | main | 1278 | 17 | 5 | Behöver arbete | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-calendar](https://l10n.gnome.org/vertimus/gnome-calendar/main/po/sv/) | main | 353 | 5 | 5 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-calendar](https://l10n.gnome.org/vertimus/gnome-calendar/main/po/sv/) | main | 353 | 5 | 5 | Behöver arbete | Klar lokalt (2026-11-22): Alla aktuella oöversatta och fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](gnome-calendar/main/po/gnome-calendar.main.sv.original.po), [granskad](gnome-calendar/main/po/gnome-calendar.main.sv.reviewed.po), [diff](gnome-calendar/main/po/gnome-calendar.main.sv.review.diff), [notering](gnome-calendar/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [webkitgtk-translations](https://l10n.gnome.org/module/webkitgtk-translations/) | master | 556 | 3 | 5 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-firmware](https://l10n.gnome.org/vertimus/gnome-firmware/master/po/sv/) | master | 263 | 1 | 5 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gstreamer](https://l10n.gnome.org/vertimus/gstreamer/main/po/sv/) | main | 397 | 1 | 5 | Behöver arbete | Klar lokalt (2026-11-22): Kärnkatalogens fem luckor och fuzzy-sträng är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](gstreamer/main/po/gstreamer.main.sv.original.po), [granskad](gstreamer/main/po/gstreamer.main.sv.reviewed.po), [diff](gstreamer/main/po/gstreamer.main.sv.review.diff), [notering](gstreamer/main/po/README.md) |
