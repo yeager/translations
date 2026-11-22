@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 07:19 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 07:20 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -142,7 +142,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [gnome-calendar](https://l10n.gnome.org/vertimus/gnome-calendar/main/po/sv/) | main | 353 | 5 | 5 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [webkitgtk-translations](https://l10n.gnome.org/module/webkitgtk-translations/) | master | 556 | 3 | 5 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-firmware](https://l10n.gnome.org/vertimus/gnome-firmware/master/po/sv/) | master | 263 | 1 | 5 | Behöver arbete | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gstreamer](https://l10n.gnome.org/vertimus/gstreamer/main/po/sv/) | main | 397 | 1 | 5 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gstreamer](https://l10n.gnome.org/vertimus/gstreamer/main/po/sv/) | main | 397 | 1 | 5 | Behöver arbete | Klar lokalt (2026-11-22): En teknisk lucka och en fuzzy metadataöversättning är lokalt validerade. [original](gstreamer/main/plugins-base/plugins-base.main.sv.original.po), [granskad](gstreamer/main/plugins-base/plugins-base.main.sv.reviewed.po), [diff](gstreamer/main/plugins-base/plugins-base.main.sv.review.diff), [notering](gstreamer/main/plugins-base/README.md) |
 | Gränssnitt | Default (99% translated) | [WirePlumber](https://l10n.gnome.org/vertimus/wireplumber/master/po/sv/) | master | 50 | 7 | 4 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/gimp-3-2/po/sv/) | gimp-3-2 | 6065 | 4 | 4 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [xkeyboard-config — XKeyboard-Config](https://l10n.gnome.org/vertimus/xkeyboard-config/master/po/sv/) | master | 1312 | 3 | 4 | Behöver arbete | Ej granskad |
@@ -165,7 +165,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [oo7](https://l10n.gnome.org/vertimus/oo7/main/oo7-server/sv/) | main | 14 | 2 | 1 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/master/po-libgimp/sv/) | master | 673 | 1 | 1 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-initial-setup](https://l10n.gnome.org/vertimus/gnome-initial-setup/main/po/sv/) | main | 143 | 1 | 1 | Behöver arbete | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gstreamer](https://l10n.gnome.org/vertimus/gstreamer/main/plugins-base/sv/) | main | 236 | 1 | 1 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gstreamer](https://l10n.gnome.org/vertimus/gstreamer/main/plugins-base/sv/) | main | 236 | 1 | 1 | Behöver arbete | Klar lokalt (2026-11-22): En teknisk lucka och en fuzzy metadataöversättning är lokalt validerade. [original](gstreamer/main/plugins-base/plugins-base.main.sv.original.po), [granskad](gstreamer/main/plugins-base/plugins-base.main.sv.reviewed.po), [diff](gstreamer/main/plugins-base/plugins-base.main.sv.review.diff), [notering](gstreamer/main/plugins-base/README.md) |
 | Gränssnitt | Default (99% translated) | [meld](https://l10n.gnome.org/vertimus/meld/main/po/sv/) | main | 560 | 1 | 1 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [decoder](https://l10n.gnome.org/vertimus/decoder/master/po/sv/) | master | 74 | 0 | 1 | Behöver arbete | Klar lokalt (2026-11-22): Den enda oöversatta UI-strängen är översatt och validerad lokalt; inget har skickats till GNOME. [original](decoder/master/po/decoder.master.sv.original.po), [granskad](decoder/master/po/decoder.master.sv.reviewed.po), [diff](decoder/master/po/decoder.master.sv.review.diff), [notering](decoder/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [file-roller](https://l10n.gnome.org/vertimus/file-roller/master/po/sv/) | master | 300 | 0 | 1 | Behöver arbete | Klar lokalt (2026-11-22): En oöversatt gsettings-sträng och två konkreta brister i befintlig svenska är rättade och lokalt validerade. [original](file-roller/master/po/file-roller.master.sv.original.po), [granskad](file-roller/master/po/file-roller.master.sv.reviewed.po), [diff](file-roller/master/po/file-roller.master.sv.review.diff), [notering](file-roller/master/po/README.md) |
@@ -779,9 +779,9 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [gspell](https://l10n.gnome.org/vertimus/gspell/main/po/sv/) | main | 31 | 0 | 0 | Klar | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gspell](https://l10n.gnome.org/vertimus/gspell/gspell-1-8/po/sv/) | gspell-1-8 | 16 | 0 | 0 | Klar | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gst-debugger](https://l10n.gnome.org/module/gst-debugger/) | master | 108 | 0 | 0 | Klar | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gstreamer](https://l10n.gnome.org/vertimus/gstreamer/main/plugins-bad/sv/) | main | 29 | 0 | 0 | Klar | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gstreamer](https://l10n.gnome.org/vertimus/gstreamer/main/plugins-good/sv/) | main | 104 | 0 | 0 | Klar | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gstreamer](https://l10n.gnome.org/vertimus/gstreamer/main/plugins-ugly/sv/) | main | 10 | 0 | 0 | Klar | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gstreamer](https://l10n.gnome.org/vertimus/gstreamer/main/plugins-bad/sv/) | main | 29 | 0 | 0 | Klar | Klar lokalt (2026-11-22): En teknisk lucka och en fuzzy metadataöversättning är lokalt validerade. [original](gstreamer/main/plugins-base/plugins-base.main.sv.original.po), [granskad](gstreamer/main/plugins-base/plugins-base.main.sv.reviewed.po), [diff](gstreamer/main/plugins-base/plugins-base.main.sv.review.diff), [notering](gstreamer/main/plugins-base/README.md) |
+| Gränssnitt | Default (99% translated) | [gstreamer](https://l10n.gnome.org/vertimus/gstreamer/main/plugins-good/sv/) | main | 104 | 0 | 0 | Klar | Klar lokalt (2026-11-22): En teknisk lucka och en fuzzy metadataöversättning är lokalt validerade. [original](gstreamer/main/plugins-base/plugins-base.main.sv.original.po), [granskad](gstreamer/main/plugins-base/plugins-base.main.sv.reviewed.po), [diff](gstreamer/main/plugins-base/plugins-base.main.sv.review.diff), [notering](gstreamer/main/plugins-base/README.md) |
+| Gränssnitt | Default (99% translated) | [gstreamer](https://l10n.gnome.org/vertimus/gstreamer/main/plugins-ugly/sv/) | main | 10 | 0 | 0 | Klar | Klar lokalt (2026-11-22): En teknisk lucka och en fuzzy metadataöversättning är lokalt validerade. [original](gstreamer/main/plugins-base/plugins-base.main.sv.original.po), [granskad](gstreamer/main/plugins-base/plugins-base.main.sv.reviewed.po), [diff](gstreamer/main/plugins-base/plugins-base.main.sv.review.diff), [notering](gstreamer/main/plugins-base/README.md) |
 | Gränssnitt | Default (99% translated) | [gthumb](https://l10n.gnome.org/vertimus/gthumb/gthumb-3-10/po/sv/) | gthumb-3-10 | 1216 | 0 | 0 | Klar | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gthumb](https://l10n.gnome.org/vertimus/gthumb/master/po/sv/) | master | 699 | 0 | 0 | Klar | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gthumb](https://l10n.gnome.org/vertimus/gthumb/gthumb-3-12/po/sv/) | gthumb-3-12 | 1140 | 0 | 0 | Klar | Ej granskad |
