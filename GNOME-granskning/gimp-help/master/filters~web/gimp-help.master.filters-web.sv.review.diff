@@ -1,0 +1,828 @@
+--- gimp-help.master.filters-web.sv.original.po
++++ gimp-help.master.filters-web.sv.reviewed.po
+@@ -3,7 +3,8 @@
+ "Project-Id-Version: web\n"
+ "POT-Creation-Date: 2009-04-21 13:33+0200\n"
+ "PO-Revision-Date: 2009-02-17 03:23+0100\n"
+-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
++"Language: sv\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -61,7 +62,7 @@
+ #: src/filters/web/slice.xml:27(primary) src/filters/web/slice.xml:36(quote)
+ #: src/filters/web/slice.xml:72(quote) src/filters/web/slice.xml:142(quote)
+ msgid "Slice"
+-msgstr ""
++msgstr "Dela upp"
+ 
+ #: src/filters/web/slice.xml:22(primary)
+ #: src/filters/web/semiflatten.xml:16(primary)
+@@ -87,11 +88,11 @@
+ 
+ #: src/filters/web/slice.xml:44(para)
+ msgid "Original image with guides"
+-msgstr ""
++msgstr "Originalbild med stödlinjer"
+ 
+ #: src/filters/web/slice.xml:52(para)
+ msgid "<quote>Slice</quote> applied"
+-msgstr ""
++msgstr "<quote>Dela upp</quote> tillämpat"
+ 
+ #: src/filters/web/slice.xml:56(para)
+ msgid ""
+@@ -103,27 +104,38 @@
+ "Every table cell contains one part of the image. The text file should then "
+ "be embedded in an HTML document."
+ msgstr ""
++"Det här filtret är ett enkelt och lättanvänt hjälpmedel för att skapa "
++"känsliga bilder för HTML-filer. Filtret delar upp källbilden längs dess "
++"vågräta och lodräta stödlinjer, på samma sätt som kommandot <link "
++"linkend=\"plug-in-guillotine\">Giljotin</link>, och skapar en uppsättning "
++"delbilder. Samtidigt skapar det HTML-kod för en tabell som sparas i en "
++"textfil. Varje tabellcell innehåller en del av bilden. Textfilen ska sedan "
++"bäddas in i ett HTML-dokument."
+ 
+ #: src/filters/web/slice.xml:65(para)
+ msgid ""
+ "Note that this filter is really a very simple helper. A typical HTML code "
+ "produced by the filter may be not much more than this:"
+ msgstr ""
++"Observera att filtret verkligen är ett mycket enkelt hjälpmedel. Typisk "
++"HTML-kod som filtret skapar kan vara ungefär så här enkel:"
+ 
+ #: src/filters/web/slice.xml:71(phrase)
+ msgid "Simple <placeholder-1/> filter example output"
+-msgstr ""
++msgstr "Exempelutdata från det enkla filtret <placeholder-1/>"
+ 
+ #: src/filters/web/slice.xml:110(para)
+ msgid ""
+ "Produced HTML code; the <quote>style</quote> attribute has been omitted."
+-msgstr ""
++msgstr "Skapad HTML-kod; attributet <quote>style</quote> har utelämnats."
+ 
+ #: src/filters/web/slice.xml:115(para)
+ msgid ""
+ "When there are no guides in the image, the filter will no nothing. If, "
+ "however, the guides are just hidden, the filter will work."
+ msgstr ""
++"Om bilden saknar stödlinjer gör filtret ingenting. Om stödlinjerna bara är "
++"dolda fungerar filtret däremot."
+ 
+ #: src/filters/web/slice.xml:120(para)
+ msgid ""
+@@ -131,6 +143,9 @@
+ "powerful and sophisticated tool for creating sensitive images. (But it is "
+ "also much more complex...)"
+ msgstr ""
++"Filtret <link linkend=\"plug-in-imagemap\">ImageMap</link> är ett mycket "
++"kraftfullare och mer avancerat verktyg för att skapa känsliga bilder. (Men "
++"det är också mycket mer komplicerat …)"
+ 
+ #: src/filters/web/slice.xml:129(phrase)
+ #: src/filters/web/semiflatten.xml:52(title)
+@@ -144,6 +159,9 @@
+ "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Web</"
+ "guisubmenu><guimenuitem>Slice</guimenuitem></menuchoice>."
+ msgstr ""
++"Du hittar filtret i bildfönstrets meny under <menuchoice><guimenu>Filter</"
++"guimenu><guisubmenu>Webb</guisubmenu><guimenuitem>Dela upp</guimenuitem></"
++"menuchoice>."
+ 
+ #: src/filters/web/slice.xml:138(phrase)
+ #: src/filters/web/imagemap.xml:106(phrase)
+@@ -156,11 +174,11 @@
+ 
+ #: src/filters/web/slice.xml:151(para)
+ msgid "Most options are self-explanatory, but nevertheless:"
+-msgstr ""
++msgstr "De flesta alternativ är självförklarande, men ändå:"
+ 
+ #: src/filters/web/slice.xml:156(phrase)
+ msgid "Path for HTML export"
+-msgstr ""
++msgstr "Sökväg för HTML-export"
+ 
+ #: src/filters/web/slice.xml:159(para)
+ msgid ""
+@@ -169,19 +187,22 @@
+ "button to the right opens a pull-down menu, where you can select a different "
+ "location."
+ msgstr ""
++"Här sparas HTML-filen och bildfilerna. Som standard lagras filerna i den "
++"aktuella arbetskatalogen. Knappen till höger öppnar en rullgardinsmeny där du "
++"kan välja en annan plats."
+ 
+ #: src/filters/web/slice.xml:169(phrase)
+ msgid "Filename for export"
+-msgstr ""
++msgstr "Filnamn för export"
+ 
+ #: src/filters/web/slice.xml:172(para)
+ msgid ""
+ "The name of the HTML file. You can change the filename using the textbox."
+-msgstr ""
++msgstr "HTML-filens namn. Du kan ändra filnamnet i textrutan."
+ 
+ #: src/filters/web/slice.xml:180(phrase)
+ msgid "Image name prefix"
+-msgstr ""
++msgstr "Prefix för bildnamn"
+ 
+ #: src/filters/web/slice.xml:183(para)
+ msgid ""
+@@ -194,6 +215,13 @@
+ "filename extension depending on the selected <guilabel>Image format</"
+ "guilabel>.)"
+ msgstr ""
++"Namnet på en bildfil som filtret skapar är <filename>prefix_i_k.ext</"
++"filename>, där <filename>prefix</filename> är den del av filnamnet som du "
++"fritt kan välja i textrutan till höger. Standardvärdet är <filename>slice</"
++"filename>. (<filename>i</filename> och <filename>k</filename> är radens och "
++"kolumnens nummer, som båda börjar på 0; <filename class=\"extension\">.ext</"
++"filename> är filnamnstillägget som beror på valt <guilabel>Bildformat</"
++"guilabel>.):"
+ 
+ #: src/filters/web/slice.xml:195(para)
+ msgid ""
+@@ -201,6 +229,9 @@
+ "<guilabel>Javascript for onmouseover and clicked</guilabel> and need "
+ "different sets of images."
+ msgstr ""
++"Detta alternativ är särskilt användbart när du vill skapa <guilabel>"
++"Javascript för onmouseover och clicked</guilabel> och behöver olika uppsättningar "
++"bilder."
+ 
+ #: src/filters/web/slice.xml:204(phrase)
+ msgid "Image format"
+@@ -213,10 +244,14 @@
+ "\"glossary-png\">PNG</link><link linkend=\"glossary-fileformat"
+ "\">file format</link>."
+ msgstr ""
++"Du kan välja att skapa bildfiler i <link linkend=\"glossary-gif\">GIF</"
++"link>-, <link linkend=\"glossary-jpeg\">JPG</link>- eller <link linkend="
++"\"glossary-png\">PNG</link><link linkend=\"glossary-fileformat\">filformat</"
++"link>."
+ 
+ #: src/filters/web/slice.xml:218(phrase)
+ msgid "Separate image folder; Folder for image export"
+-msgstr ""
++msgstr "Separat bildmapp; mapp för bildexport"
+ 
+ #: src/filters/web/slice.xml:223(para)
+ msgid ""
+@@ -226,18 +261,22 @@
+ "you can change it in the <guilabel>Folder for image export</guilabel> "
+ "textbox."
+ msgstr ""
++"När <guilabel>Separat bildmapp</guilabel> är aktiverad skapas en mapp där "
++"bildfilerna placeras. Målmappen heter som standard <filename class=\"directory\">"
++"images</filename>, men du kan ändra detta i textrutan <guilabel>Mapp för "
++"bildexport</guilabel>."
+ 
+ #: src/filters/web/slice.xml:232(phrase)
+ msgid "With separate image folder"
+-msgstr ""
++msgstr "Med separat bildmapp"
+ 
+ #: src/filters/web/slice.xml:239(para)
+ msgid "Result of enabled <quote>Separate image folder</quote>"
+-msgstr ""
++msgstr "Resultat med <quote>Separat bildmapp</quote> aktiverad"
+ 
+ #: src/filters/web/slice.xml:249(phrase) src/filters/web/slice.xml:260(phrase)
+ msgid "Space between table elements"
+-msgstr ""
++msgstr "Mellanrum mellan tabellelement"
+ 
+ #: src/filters/web/slice.xml:252(para)
+ msgid ""
+@@ -245,10 +284,13 @@
+ "the HTML table. The result is, that horizontal and vertical guides will be "
+ "replaced with stripes of the specified width:"
+ msgstr ""
++"Detta värde (0–15) skickas som attributet <quote>cellspacing</quote> till "
++"HTML-tabellen. Följden är att vågräta och lodräta stödlinjer ersätts med "
++"ränder med angiven bredd:"
+ 
+ #: src/filters/web/slice.xml:267(para)
+ msgid "Corresponding HTML code snippet"
+-msgstr ""
++msgstr "Motsvarande HTML-kodavsnitt"
+ 
+ #: src/filters/web/slice.xml:271(para)
+ msgid ""
+@@ -256,10 +298,13 @@
+ "Instead, the resulting HTML image will look like you have drawn the stripes "
+ "with the Eraser tool."
+ msgstr ""
++"Observera att bilden inte förstoras med dessa ränders storlek. I stället ser "
++"den färdiga HTML-bilden ut som om du hade ritat ränderna med Suddgummi-"
++"verktyget."
+ 
+ #: src/filters/web/slice.xml:280(phrase)
+ msgid "Javascript for onmouseover and clicked"
+-msgstr ""
++msgstr "Javascript för onmouseover och clicked"
+ 
+ #: src/filters/web/slice.xml:283(para)
+ msgid ""
+@@ -268,14 +313,19 @@
+ "starting point for adding some dynamic functionality. The JavaScript code "
+ "provides a function to handle events like <quote>onmouseover</quote>:"
+ msgstr ""
++"När detta alternativ är aktiverat lägger filtret också till lite JavaScript-"
++"kod. Precis som HTML-koden fungerar den inte direkt, men är en bra "
++"utgångspunkt för att lägga till dynamisk funktionalitet. JavaScript-koden "
++"tillhandahåller en funktion för att hantera händelser som <quote>onmouseover</"
++"quote>:"
+ 
+ #: src/filters/web/slice.xml:292(phrase)
+ msgid "JavaScript code snippet"
+-msgstr ""
++msgstr "JavaScript-kodavsnitt"
+ 
+ #: src/filters/web/slice.xml:322(phrase)
+ msgid "Skip animation for table caps"
+-msgstr ""
++msgstr "Hoppa över animering för tabelländar"
+ 
+ #: src/filters/web/slice.xml:325(para)
+ msgid ""
+@@ -286,14 +336,21 @@
+ "last cell in a column or row. This may be useful when you have an image with "
+ "border and you don't want to make the border sensitive."
+ msgstr ""
++"När det är inaktiverat lägger filtret till en hyperlänksplatshållare, <code "
++"language=\"HTML\">&lt;a href=\"#\"&gt; … &lt;/a&gt;</code>, i varje "
++"tabellcell. När det är aktiverat, vilket är standard, och det finns minst två "
++"vågräta eller två lodräta stödlinjer lägger filtret inte till en "
++"hyperlänksplatshållare i den första och sista cellen i en kolumn eller rad. "
++"Det kan vara användbart om du har en bild med kant och inte vill göra kanten "
++"känslig."
+ 
+ #: src/filters/web/slice.xml:336(phrase)
+ msgid "Skipped animation for table caps (simplified HTML code)"
+-msgstr ""
++msgstr "Överhoppad animering för tabelländar (förenklad HTML-kod)"
+ 
+ #: src/filters/web/slice.xml:362(para)
+ msgid "Only inner cells have (empty) hyperlinks."
+-msgstr ""
++msgstr "Endast inre celler har (tomma) hyperlänkar."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -327,7 +384,7 @@
+ #: src/filters/web/semiflatten.xml:18(tertiary)
+ #: src/filters/web/semiflatten.xml:21(primary)
+ msgid "Semi-Flatten"
+-msgstr ""
++msgstr "Halvutplattning"
+ 
+ #: src/filters/web/semiflatten.xml:26(para)
+ msgid ""
+@@ -338,6 +395,12 @@
+ "transparency, ruining anti-aliasing you applied to the logo you want to put "
+ "onto your Web page."
+ msgstr ""
++"Filtret Halvutplattning hjälper den som behöver en lösning för kantutjämning "
++"av indexerade bilder med genomskinlighet. Det indexerade GIF-formatet har "
++"stöd för fullständig genomskinlighet (alfavärde 0 eller 255), men inte "
++"halvgenomskinlighet (1–254): halvgenomskinliga bildpunkter omvandlas till "
++"ingen eller fullständig genomskinlighet, vilket förstör kantutjämningen som "
++"du tillämpat på logotypen som ska finnas på webbsidan."
+ 
+ #: src/filters/web/semiflatten.xml:35(para)
+ msgid ""
+@@ -346,6 +409,10 @@
+ "exact color which pops up as the Foreground color of the Toolbox. Invert FG/"
+ "BG colors so that BG color is the same as Web background color."
+ msgstr ""
++"Innan du tillämpar filtret måste du känna till webbsidans bakgrundsfärg. "
++"Använd färgväljaren för att fastställa den exakta färg som visas som "
++"verktygslådans förgrundsfärg. Invertera förgrunds- och bakgrundsfärgerna så "
++"att bakgrundsfärgen är samma som webbens bakgrundsfärg."
+ 
+ #: src/filters/web/semiflatten.xml:42(para)
+ msgid ""
+@@ -355,6 +422,11 @@
+ "transparent pixels will take a few color and weakly transparent will take "
+ "much color."
+ msgstr ""
++"Halvutplattningen blandar förgrundsfärgen med lagrets färg (logotypen) i "
++"förhållande till motsvarande alfavärden och återskapar korrekt "
++"kantutjämning. Helt genomskinliga bildpunkter får ingen färg. Mycket "
++"genomskinliga bildpunkter får lite färg och svagt genomskinliga får mycket "
++"färg."
+ 
+ #: src/filters/web/semiflatten.xml:53(para)
+ msgid ""
+@@ -364,6 +436,10 @@
+ "available if your image holds an Alpha channel (see <xref linkend=\"gimp-"
+ "layer-alpha-add\"/>). Otherwise, it is greyed out."
+ msgstr ""
++"Du kommer åt filtret i bildfönstrets meny via <menuchoice><guimenu>Filter</"
++"guimenu><guisubmenu>Webb</guisubmenu><guimenuitem>Halvutplattning</"
++"guimenuitem></menuchoice>. Det är tillgängligt om bilden har en alfakanal "
++"(se <xref linkend=\"gimp-layer-alpha-add\"/>). Annars är det nedtonat."
+ 
+ #: src/filters/web/semiflatten.xml:67(title)
+ msgid "Example"
+@@ -374,18 +450,20 @@
+ "In the example below, the Toolbox Background color is pink, and the image "
+ "has feathered edges on a transparent background."
+ msgstr ""
++"I exemplet nedan är verktygslådans bakgrundsfärg rosa och bilden har mjuka "
++"kanter mot en genomskinlig bakgrund."
+ 
+ #: src/filters/web/semiflatten.xml:73(title)
+ msgid "Semi-Flatten example"
+-msgstr ""
++msgstr "Exempel på halvutplattning"
+ 
+ #: src/filters/web/semiflatten.xml:79(para)
+ msgid "Active background color"
+-msgstr ""
++msgstr "Aktiv bakgrundsfärg"
+ 
+ #: src/filters/web/semiflatten.xml:88(para)
+ msgid "At 800% zoom level"
+-msgstr ""
++msgstr "Vid zoomnivån 800 %"
+ 
+ #: src/filters/web/semiflatten.xml:92(para)
+ msgid ""
+@@ -393,14 +471,17 @@
+ "according to their transparency (Alpha value). This image will well merge "
+ "into the pink background of the new page."
+ msgstr ""
++"Fullständig genomskinlighet bevaras. Halvgenomskinliga bildpunkter färgas "
++"rosa efter sin genomskinlighet (alfavärde). Bilden smälter väl in i den nya "
++"sidans rosa bakgrund."
+ 
+ #: src/filters/web/semiflatten.xml:98(title)
+ msgid "Semi-Flatten filter applied"
+-msgstr ""
++msgstr "Filtret Halvutplattning tillämpat"
+ 
+ #: src/filters/web/semiflatten.xml:105(para)
+ msgid "Result, in GIF format, after applying Semi-flatten filter."
+-msgstr ""
++msgstr "Resultat i GIF-format efter att filtret Halvutplattning tillämpats."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -463,11 +544,11 @@
+ #: src/filters/web/imagemap.xml:24(phrase)
+ #: src/filters/web/imagemap.xml:32(primary)
+ msgid "ImageMap"
+-msgstr ""
++msgstr "Bildkarta"
+ 
+ #: src/filters/web/imagemap.xml:29(tertiary)
+ msgid "Clickable image"
+-msgstr ""
++msgstr "Klickbar bild"
+ 
+ #: src/filters/web/imagemap.xml:34(para)
+ msgid ""
+@@ -478,6 +559,12 @@
+ "within an image. Web site design softwares have this as a standard function. "
+ "In <acronym>GIMP</acronym> you can do this in a similar way."
+ msgstr ""
++"På webben används ofta känsliga bilder för att ge effekter när pekaren "
++"aktiverar definierade områden. Den vanligaste effekten är naturligtvis en "
++"dynamisk länk till en annan webbsida när du klickar på ett känsligt område. "
++"Med detta <quote>filter</quote> kan du enkelt utforma känsliga områden i en "
++"bild. Program för webbdesign har detta som standardfunktion, och i "
++"<acronym>GIMP</acronym> kan du göra det på ett liknande sätt."
+ 
+ #: src/filters/web/imagemap.xml:47(para)
+ msgid ""
+@@ -486,6 +573,10 @@
+ "that must be merged into the right place in your page html code. You can "
+ "define some actions linked to these areas too."
+ msgstr ""
++"Med denna insticksmodul kan du grafiskt och enkelt utforma alla områden du "
++"vill avgränsa i den visade bilden. Du får den relevanta delen av HTML-"
++"taggarna som ska infogas på rätt plats i sidans HTML-kod. Du kan också ange "
++"åtgärder som kopplas till områdena."
+ 
+ #: src/filters/web/imagemap.xml:53(para)
+ msgid ""
+@@ -495,6 +586,11 @@
+ "a more complete descriptions in Grokking the GIMP with the link <xref "
+ "linkend=\"bibliography-online-grokking-gimp-imagemap\"/>."
+ msgstr ""
++"Detta är ett komplicerat verktyg som inte beskrivs fullständigt här; det "
++"fungerar ungefär som verktygen för webbsidebyggare som erbjuder funktionen. "
++"Här beskriver vi dock några av de vanligaste handgreppen. En mer fullständig "
++"beskrivning finns i Grokking the GIMP via länken <xref linkend=\"bibliography-"
++"online-grokking-gimp-imagemap\"/>."
+ 
+ #: src/filters/web/imagemap.xml:66(para)
+ msgid ""
+@@ -502,11 +598,14 @@
+ "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Web</"
+ "guisubmenu><guimenuitem>ImageMap</guimenuitem></menuchoice>"
+ msgstr ""
++"I ett bildfönster hittar du filtret under <menuchoice><guimenu>Filter</"
++"guimenu><guisubmenu>Webb</guisubmenu><guimenuitem>Bildkarta</guimenuitem></"
++"menuchoice>"
+ 
+ #: src/filters/web/imagemap.xml:70(para)
+ msgid ""
+ "The window is a small one, but you can magnify it. The main useful areas are:"
+-msgstr ""
++msgstr "Fönstret är litet, men du kan förstora det. De huvudsakliga delarna är:"
+ 
+ #: src/filters/web/imagemap.xml:76(para)
+ msgid ""
+@@ -515,18 +614,26 @@
+ "properties, and finally one to erase a selected zone; you can call these "
+ "functions with the Mapping menu,"
+ msgstr ""
++"längst till vänster visas ikoner lodrätt: en för pekaren, tre för verktyg "
++"som skapar områden med olika former, en för att redigera zoners egenskaper "
++"och slutligen en för att radera en markerad zon; du kan anropa funktionerna "
++"med menyn Avbildning,"
+ 
+ #: src/filters/web/imagemap.xml:84(para)
+ msgid ""
+ "just on the right is your working area where you can draw all the shapes "
+ "areas you want with the relevant tools,"
+ msgstr ""
++"strax till höger finns arbetsytan där du kan rita de formområden du vill med "
++"relevanta verktyg,"
+ 
+ #: src/filters/web/imagemap.xml:90(para)
+ msgid ""
+ "on the right is displayed an icon vertical set; its use is obvious but a "
+ "help pop-up gives you some information about each function,"
+ msgstr ""
++"till höger visas en lodrät uppsättning ikoner; användningen är självklar men "
++"en hjälpruta ger information om varje funktion,"
+ 
+ #: src/filters/web/imagemap.xml:96(para)
+ msgid ""
+@@ -534,24 +641,29 @@
+ "created areas. A click on one item of the list selects automatically the "
+ "corresponding shape in the working area,"
+ msgstr ""
++"slutligen finns längst till höger ett visningsområde med en egenskapslista "
++"över de skapade områdena. Ett klick på en post i listan markerar automatiskt "
++"motsvarande form i arbetsytan,"
+ 
+ #: src/filters/web/imagemap.xml:110(phrase)
+ msgid "Imagemap filter options"
+-msgstr ""
++msgstr "Filteralternativ för bildkarta"
+ 
+ #: src/filters/web/imagemap.xml:117(para)
+ msgid "Imagemap window"
+-msgstr ""
++msgstr "Bildkartefönster"
+ 
+ #: src/filters/web/imagemap.xml:123(phrase)
+ msgid "The Menu Bar"
+-msgstr ""
++msgstr "Menyraden"
+ 
+ #: src/filters/web/imagemap.xml:125(para)
+ msgid ""
+ "The menu bar is similar to the image window menu bar, only a few menus or "
+ "menu entries are different:"
+ msgstr ""
++"Menyraden liknar bildfönstrets menyrad; endast några få menyer eller "
++"menyalternativ skiljer sig åt:"
+ 
+ #: src/filters/web/imagemap.xml:131(term)
+ msgid "File"
+@@ -566,16 +678,20 @@
+ "Contrary to other filters, this plug-in doesn't make an image but a text "
+ "file. So you must save your work in a text format."
+ msgstr ""
++"Till skillnad från andra filter skapar denna insticksmodul inte en bild utan "
++"en textfil. Du måste alltså spara arbetet i ett textformat."
+ 
+ #: src/filters/web/imagemap.xml:143(para)
+ msgid ""
+ "With <menuchoice><guimenu>View</guimenu><guimenuitem>Source</guimenuitem></"
+ "menuchoice> you can preview this text file content."
+ msgstr ""
++"Med <menuchoice><guimenu>Visa</guimenu><guimenuitem>Källa</guimenuitem></"
++"menuchoice> kan du förhandsvisa innehållet i textfilen."
+ 
+ #: src/filters/web/imagemap.xml:152(term)
+ msgid "Open; Open recent"
+-msgstr ""
++msgstr "Öppna; Öppna senaste"
+ 
+ #: src/filters/web/imagemap.xml:154(para)
+ msgid ""
+@@ -584,6 +700,10 @@
+ "original one or not with the same size, <acronym>GIMP</acronym> will ask you "
+ "for adapting the scale."
+ msgstr ""
++"I insticksmodulen kan du öppna den sparade textfilen. Områdena som definieras "
++"i filen läses in och visas ovanpå bilden. Om den visade bilden inte är "
++"originalet eller inte har samma storlek ber <acronym>GIMP</acronym> dig "
++"anpassa skalan."
+ 
+ #: src/filters/web/imagemap.xml:168(term)
+ msgid "Edit"
+@@ -591,17 +711,20 @@
+ 
+ #: src/filters/web/imagemap.xml:172(term)
+ msgid "Edit area info"
+-msgstr ""
++msgstr "Redigera områdesinformation"
+ 
+ #: src/filters/web/imagemap.xml:176(phrase)
+ msgid "Editing an imagemap area"
+-msgstr ""
++msgstr "Redigera ett bildkarteområde"
+ 
+ #: src/filters/web/imagemap.xml:184(para)
+ msgid ""
+ "In the settings dialog you can edit the area information of a selected area. "
+ "This dialog will pop up automatically whenever you create a new area."
+ msgstr ""
++"I inställningsdialogrutan kan du redigera områdesinformationen för ett "
++"markerat område. Dialogrutan visas automatiskt varje gång du skapar ett nytt "
++"område."
+ 
+ #: src/filters/web/imagemap.xml:198(term)
+ msgid "View"
+@@ -609,15 +732,15 @@
+ 
+ #: src/filters/web/imagemap.xml:200(para)
+ msgid "This menu offers you special functions:"
+-msgstr ""
++msgstr "Denna meny erbjuder särskilda funktioner:"
+ 
+ #: src/filters/web/imagemap.xml:205(term)
+ msgid "Area list"
+-msgstr ""
++msgstr "Områdeslista"
+ 
+ #: src/filters/web/imagemap.xml:207(para)
+ msgid "Here you can hide or show the selection area."
+-msgstr ""
++msgstr "Här kan du dölja eller visa markeringsområdet."
+ 
+ #: src/filters/web/imagemap.xml:213(term)
+ msgid "Source"
+@@ -626,35 +749,39 @@
+ #: src/filters/web/imagemap.xml:215(para)
+ msgid ""
+ "Here you see the raw data as you would save it to or read it from a file."
+-msgstr ""
++msgstr "Här ser du rådata som den skulle sparas i eller läsas från en fil."
+ 
+ #: src/filters/web/imagemap.xml:222(term)
+ msgid "Color; Grayscale"
+-msgstr ""
++msgstr "Färg; Gråskala"
+ 
+ #: src/filters/web/imagemap.xml:224(para)
+ msgid "You can select the image mode here and work with a Grayscale display."
+-msgstr ""
++msgstr "Här kan du välja bildläge och arbeta med en gråskalebild."
+ 
+ #: src/filters/web/imagemap.xml:234(term)
+ msgid "Mapping"
+-msgstr ""
++msgstr "Avbildning"
+ 
+ #: src/filters/web/imagemap.xml:236(para)
+ msgid ""
+ "You will seldom use this menu, since you can more easily access selection "
+ "tools by clicking on icons on the left of the working area."
+ msgstr ""
++"Du använder sällan denna meny eftersom du enklare når markeringsverktygen "
++"genom att klicka på ikonerna till vänster om arbetsytan."
+ 
+ #: src/filters/web/imagemap.xml:243(term)
+ msgid "Arrow"
+-msgstr ""
++msgstr "Pil"
+ 
+ #: src/filters/web/imagemap.xml:245(para)
+ msgid ""
+ "The arrow here represents the Move tool. When activated tool is selected, "
+ "you can select and move an area on the image."
+ msgstr ""
++"Pilen motsvarar här verktyget Flytta. När verktyget är aktivt kan du markera "
++"och flytta ett område på bilden."
+ 
+ #: src/filters/web/imagemap.xml:250(para)
+ msgid ""
+@@ -663,24 +790,30 @@
+ "with several others, the possibility to add a new point. If you right-click "
+ "on a red point, you can remove it."
+ msgstr ""
++"Med en polygon kan du använda pilen för att flytta en av de röda punkterna. "
++"Högerklicka på ett segment mellan två röda punkter för att öppna en "
++"snabbmeny som bland annat låter dig lägga till en ny punkt. Högerklickar du "
++"på en röd punkt kan du ta bort den."
+ 
+ #: src/filters/web/imagemap.xml:260(term)
+ msgid "Rectangle; Circle; Polygon"
+-msgstr ""
++msgstr "Rektangel; Cirkel; Polygon"
+ 
+ #: src/filters/web/imagemap.xml:262(para)
+ msgid ""
+ "These tools let you create various shape areas: click on the image, move the "
+ "pointer, and click again."
+ msgstr ""
++"Med dessa verktyg kan du skapa områden med olika former: klicka på bilden, "
++"flytta pekaren och klicka igen."
+ 
+ #: src/filters/web/imagemap.xml:269(term)
+ msgid "Edit Map Info"
+-msgstr ""
++msgstr "Redigera kartinformation"
+ 
+ #: src/filters/web/imagemap.xml:273(phrase)
+ msgid "Editing the imagemap data"
+-msgstr ""
++msgstr "Redigera bildkartsdata"
+ 
+ #: src/filters/web/imagemap.xml:281(para)
+ msgid ""
+@@ -690,6 +823,11 @@
+ "(<guilabel>Image name</guilabel>, <guilabel>Title</guilabel>, "
+ "<guilabel>Default URL</guilabel>)."
+ msgstr ""
++"I denna enkla dialogruta kan du ange poster som skrivs till den färdiga "
++"utdatafilen, antingen som kommentarer (<guilabel>Författare</guilabel>, "
++"<guilabel>Beskrivning</guilabel>) eller som attributvärden för HTML-taggarna "
++"(<guilabel>Bildnamn</guilabel>, <guilabel>Titel</guilabel>, <guilabel>"
++"Standard-URL</guilabel>)."
+ 
+ #: src/filters/web/imagemap.xml:297(term)
+ msgid "Tools"
+@@ -700,24 +838,26 @@
+ "With the <quote>Tools</quote> menu you can create guides and even regularly "
+ "spaced rectangular areas."
+ msgstr ""
++"Med menyn <quote>Verktyg</quote> kan du skapa stödlinjer och till och med "
++"regelbundet placerade rektangulära områden."
+ 
+ #: src/filters/web/imagemap.xml:304(term)
+ msgid "Grid; Grid settings"
+-msgstr ""
++msgstr "Rutnät; Rutnätsinställningar"
+ 
+ #: src/filters/web/imagemap.xml:308(phrase)
+ msgid "Grid options"
+-msgstr ""
++msgstr "Rutnätsalternativ"
+ 
+ #: src/filters/web/imagemap.xml:316(para)
+ msgid ""
+ "Here you can enable and disable the image grid or configure some grid "
+ "properties."
+-msgstr ""
++msgstr "Här kan du aktivera och inaktivera bildrutnätet eller ange dess egenskaper."
+ 
+ #: src/filters/web/imagemap.xml:323(term)
+ msgid "Use GIMP guides; Create guides"
+-msgstr ""
++msgstr "Använd GIMP-stödlinjer; Skapa stödlinjer"
+ 
+ #: src/filters/web/imagemap.xml:325(para)
+ msgid ""
+@@ -726,6 +866,9 @@
+ "GIMP guide lines. By using the guides you are able to create active "
+ "rectangles in the image."
+ msgstr ""
++"Stödlinjerna skapas vid bildens kant men kan flyttas genom att klicka på de "
++"röda fyrkanterna på varje linje, på ett sätt som liknar GIMP:s stödlinjer. "
++"Med stödlinjerna kan du skapa aktiva rektanglar i bilden."
+ 
+ #: src/filters/web/imagemap.xml:335(term)
+ msgid "Create guides"
+@@ -733,11 +876,11 @@
+ 
+ #: src/filters/web/imagemap.xml:339(phrase)
+ msgid "Guide options"
+-msgstr ""
++msgstr "Stödlinjealternativ"
+ 
+ #: src/filters/web/imagemap.xml:346(para)
+ msgid "The guide options"
+-msgstr ""
++msgstr "Stödlinjealternativen"
+ 
+ #: src/filters/web/imagemap.xml:350(para)
+ msgid ""
+@@ -749,31 +892,40 @@
+ "in pixels. If you are not satisfied with the result you may adjust each "
+ "rectangle by moving the red squares as usual."
+ msgstr ""
++"I stället för att skapa geometriska former för att välja aktiva områden kan "
++"du använda en uppsättning rektanglar, där varje rektangel motsvarar ett "
++"aktivt område, genom att klicka på <quote>Skapa stödlinjer</quote>. I menyn "
++"som visas anger du rektanglarnas bredd och höjd, mellanrummet mellan dem, "
++"antalet rader och kolumner samt uppsättningens övre och vänstra startpunkt. "
++"Alla mått är i bildpunkter. Om du inte är nöjd med resultatet kan du som "
++"vanligt justera varje rektangel genom att flytta de röda fyrkanterna."
+ 
+ #: src/filters/web/imagemap.xml:371(phrase)
+ msgid "The Tool Bar"
+-msgstr ""
++msgstr "Verktygsraden"
+ 
+ #: src/filters/web/imagemap.xml:373(para)
+ msgid ""
+ "Most entries here are just shortcuts for some functions already described. "
+ "Exceptions:"
+-msgstr ""
++msgstr "De flesta poster här är bara genvägar till funktioner som redan beskrivits. Undantag:"
+ 
+ #: src/filters/web/imagemap.xml:379(term)
+ msgid "Move to Front; Send to Back"
+-msgstr ""
++msgstr "Flytta längst fram; Skicka längst bak"
+ 
+ #: src/filters/web/imagemap.xml:381(para)
+ msgid ""
+ "Here you can move an area entry to the bottom (<quote>Move to Front</quote>) "
+ "or top (<quote>Send to Back</quote>) of the area list."
+ msgstr ""
++"Här kan du flytta en områdespost till botten (<quote>Flytta längst fram</"
++"quote>) eller toppen (<quote>Skicka längst bak</quote>) av områdeslistan."
+ 
+ #: src/filters/web/imagemap.xml:392(phrase)
+ #: src/filters/web/imagemap.xml:396(phrase)
+ msgid "The Working Area"
+-msgstr ""
++msgstr "Arbetsytan"
+ 
+ #: src/filters/web/imagemap.xml:404(para)
+ msgid ""
+@@ -781,6 +933,8 @@
+ "your working area where you can draw all the shapes areas you want with the "
+ "relevant tools."
+ msgstr ""
++"I huvudområdet i bildkartefönstret, på vänster sida, finns arbetsytan där du "
++"kan rita de formområden du vill med relevanta verktyg."
+ 
+ #: src/filters/web/imagemap.xml:409(para)
+ msgid ""
+@@ -789,14 +943,18 @@
+ "edit zone properties, and finally one to erase a selected zone; you can call "
+ "these functions with the Mapping menu too."
+ msgstr ""
++"Bredvid arbetsytan visas ikoner lodrätt: en för pekaren, tre för verktyg som "
++"skapar områden med olika former, en för att redigera zoners egenskaper och "
++"slutligen en för att radera en markerad zon. Du kan också använda menyn "
++"Avbildning för dessa funktioner."
+ 
+ #: src/filters/web/imagemap.xml:416(para)
+ msgid "Note that the areas should not overlap."
+-msgstr ""
++msgstr "Observera att områdena inte bör överlappa varandra."
+ 
+ #: src/filters/web/imagemap.xml:423(phrase)
+ msgid "The selection area"
+-msgstr ""
++msgstr "Markeringsområdet"
+ 
+ #: src/filters/web/imagemap.xml:425(para)
+ msgid ""
+@@ -804,12 +962,17 @@
+ "click on one item of the list selects automatically the corresponding shape "
+ "in the working area, then you can modify it."
+ msgstr ""
++"Till höger finns ett visningsområde med en egenskapslista över de skapade "
++"områdena. Ett klick på en post i listan markerar automatiskt motsvarande form "
++"i arbetsytan, som du sedan kan ändra."
+ 
+ #: src/filters/web/imagemap.xml:430(para)
+ msgid ""
+ "Beside the display are is an icon vertical set; its use is obvious but a "
+ "help pop-up gives you some information about each function,"
+ msgstr ""
++"Bredvid visningsområdet finns en lodrät uppsättning ikoner. Användningen är "
++"självklar, men en hjälpruta ger information om varje funktion,"
+ 
+ #: src/filters/web/imagemap.xml:434(para)
+ msgid ""
+@@ -817,6 +980,9 @@
+ "work here. But of course you carefully avoided to create overlapping areas, "
+ "so you do not use these functions at all."
+ msgstr ""
++"Tyvärr fungerar inte pilsymbolerna för att flytta en listpost uppåt eller "
++"nedåt här. Men du har naturligtvis noga undvikit att skapa överlappande "
++"områden och behöver därför inte använda funktionerna alls."
+ 
+ #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+ #: src/filters/web/imagemap.xml:0(None)

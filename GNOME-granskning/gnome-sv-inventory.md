@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 23:17 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 23:26 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -97,7 +97,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Dokumentation | Default (71% translated) | [brasero](https://l10n.gnome.org/vertimus/brasero/gnome-3-4/help/sv/) | gnome-3-4 | 6 | 27 | 110 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [phosh-mobile-settings](https://l10n.gnome.org/vertimus/phosh-mobile-settings/phosh-mobile-settings-0.35.x/po/sv/) | phosh-mobile-settings-0.35.x | 0 | 0 | 99 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/filters~noise/sv/) | gimp-help-2-10 | 7 | 9 | 98 | Behöver arbete | Ej granskad |
-| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters~web/sv/) | master | 10 | 11 | 86 | Behöver arbete | Ej granskad |
+| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters~web/sv/) | master | 10 | 11 | 86 | Behöver arbete | Klar lokalt (2026-11-23): Alla användarvisade webbfilterposter är lokalt översatta och fuzzy-fria; bildhashar är uttryckligen icke-översättbara. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/filters~web/gimp-help.master.filters-web.sv.original.po), [granskad](gimp-help/master/filters~web/gimp-help.master.filters-web.sv.reviewed.po), [diff](gimp-help/master/filters~web/gimp-help.master.filters-web.sv.review.diff), [notering](gimp-help/master/filters~web/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/filters~web/sv/) | gimp-help-3-0 | 11 | 11 | 86 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [showtime](https://l10n.gnome.org/vertimus/showtime/gnome-46/po/sv/) | gnome-46 | 0 | 0 | 65 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [Crosswords](https://l10n.gnome.org/vertimus/crosswords/main/po/sv/) | main | 504 | 90 | 59 | Behöver arbete | Ej granskad |
