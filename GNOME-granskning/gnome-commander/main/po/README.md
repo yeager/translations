@@ -6,6 +6,7 @@
 - Åtgärd: Tillståndstexter för filmarkering och huvudmenyn kompletterades.
 - Ändringar: 0 ny(a) översättning(ar), 3 rättad(e) befintlig(a) sträng(ar).
 - Validering: `msgfmt --check`; skärmläsarkontext kontrollerad.
+- Dokumenterade undantag: Nio äldre lintvarningar om skiljetecken, procentmellanrum och metadata återstår utanför batchen.
 - Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
 - GNOME-inskick: inget — enligt arbetsinstruktionen.
 - Slutlig lokal status: 1882 översatta, 0 fuzzy, 0 oöversatta.
