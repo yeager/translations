@@ -1,0 +1,15 @@
+--- polkit.main.sv.original.po
++++ polkit.main.sv.reviewed.po
+@@ -154,10 +154,9 @@
+ msgstr "%s: Subjekt ej angivet\n"
+ 
+ #: src/programs/pkcheck.c:531
+-#, fuzzy, c-format
+-#| msgid "%s: Subject not specified\n"
++#, c-format
+ msgid "%s: Action ID not specified\n"
+-msgstr "%s: Subjekt ej angivet\n"
++msgstr "%s: åtgärds-ID har inte angetts\n"
+ 
+ #. Translators: message shown when trying to run a program as root. Do not
+ #. * translate the $(program) fragment - it will be expanded to the path
