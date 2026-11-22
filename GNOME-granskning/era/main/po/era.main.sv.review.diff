@@ -1,0 +1,84 @@
+--- era.main.sv.original.po
++++ era.main.sv.reviewed.po
+@@ -8,8 +8,8 @@
+ "Project-Id-Version: era main\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/TitouanReal/era/issues/\n"
+ "POT-Creation-Date: 2026-11-04 18:13+0000\n"
+-"PO-Revision-Date: 2026-10-21 20:35+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -30,11 +30,11 @@
+ 
+ #: data/org.gnome.gitlab.TitouanReal.Era.gschema.xml.in:11
+ msgid "Last shown view"
+-msgstr ""
++msgstr "Senast visade vy"
+ 
+ #: data/org.gnome.gitlab.TitouanReal.Era.gschema.xml.in:12
+ msgid "The calendar view to display when opening the application."
+-msgstr ""
++msgstr "Kalendervyn som ska visas när programmet öppnas."
+ 
+ #: data/org.gnome.gitlab.TitouanReal.Era.metainfo.xml.in.in:8
+ msgid "Manage your time"
+@@ -156,26 +156,20 @@
+ msgstr "Färg"
+ 
+ #: data/resources/ui/calendar_management_dialog/calendar_details_page.blp:32
+-#, fuzzy
+-#| msgid "Create Calendar"
+ msgid "Delete Calendar"
+-msgstr "Skapa kalender"
++msgstr "Ta bort kalender"
+ 
+ #: data/resources/ui/calendar_management_dialog/calendar_details_page.blp:46
+-#, fuzzy
+-#| msgid "Create Calendar"
+ msgid "Delete Calendar?"
+-msgstr "Skapa kalender"
++msgstr "Ta bort kalender?"
+ 
+ #: data/resources/ui/calendar_management_dialog/calendar_details_page.blp:47
+ msgid "The calendar and all events in it will be permanently deleted."
+-msgstr ""
++msgstr "Kalendern och alla dess händelser kommer att tas bort permanent."
+ 
+ #: data/resources/ui/calendar_management_dialog/calendar_details_page.blp:53
+-#, fuzzy
+-#| msgid "Delegated"
+ msgid "Delete"
+-msgstr "Delegerad"
++msgstr "Ta bort"
+ 
+ #: data/resources/ui/calendar_management_dialog/calendar_management_calendar_row.blp:50
+ msgid "Read only"
+@@ -771,14 +765,14 @@
+ #: src/widgets/views/agenda_view/agenda_view_row.rs:104
+ #: src/widgets/views/agenda_view/agenda_view_row.rs:113
+ msgid "All-day"
+-msgstr ""
++msgstr "Heldag"
+ 
+ #. TRANSLATORS: last day of a multiday event, eg Day 3/3
+ #. {day_count} is the number of days that the event span
+ #: src/widgets/views/agenda_view/agenda_view_row.rs:118
+ #, rust-format
+ msgid "Day {day_count}/{day_count}"
+-msgstr ""
++msgstr "Dag {day_count}/{day_count}"
+ 
+ #. TRANSLATORS: day of a multiday event, eg Day 2/3
+ #. {day_index} is the index of the day in the event span
+@@ -787,7 +781,7 @@
+ #: src/widgets/views/agenda_view/agenda_view_row.rs:169
+ #, rust-format
+ msgid "Day {day_index}/{day_count}"
+-msgstr ""
++msgstr "Dag {day_index}/{day_count}"
+ 
+ #: src/widgets/window.rs:559
+ msgid "%Y"
