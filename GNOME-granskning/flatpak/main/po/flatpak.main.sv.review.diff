@@ -1,0 +1,208 @@
+--- flatpak.main.sv.original.po
++++ flatpak.main.sv.reviewed.po
+@@ -11,8 +11,8 @@
+ "Project-Id-Version: flatpak main\n"
+ "Report-Msgid-Bugs-To: https://github.com/flatpak/flatpak/issues\n"
+ "POT-Creation-Date: 2026-11-17 21:45+0000\n"
+-"PO-Revision-Date: 2026-08-01 14:59+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -2092,9 +2092,8 @@
+ msgstr "Lista alla referenser (inklusive locale/debug)"
+ 
+ #: app/flatpak-builtins-list.c:54
+-#, fuzzy
+ msgid "Show sizes in bytes"
+-msgstr "Visa storlek"
++msgstr "Visa storlekar i byte"
+ 
+ #: app/flatpak-builtins-list.c:55 app/flatpak-builtins-remote-ls.c:58
+ msgid "List all applications using RUNTIME"
+@@ -2345,8 +2344,8 @@
+ #, c-format
+ msgid "%u match\n"
+ msgid_plural "%u matches\n"
+-msgstr[0] ""
+-msgstr[1] ""
++msgstr[0] "%u träff\n"
++msgstr[1] "%u träffar\n"
+ 
+ #: app/flatpak-builtins-preinstall.c:80
+ msgid "- Install flatpaks that are part of the operating system"
+@@ -3252,20 +3251,12 @@
+ msgstr "Ark att söka efter"
+ 
+ #: app/flatpak-builtins-search.c:42
+-#, fuzzy
+-#| msgid ""
+-#| "\n"
+-#| " Build applications"
+ msgid "Only look for applications"
+-msgstr ""
+-"\n"
+-" Bygg program"
++msgstr "Sök endast efter program"
+ 
+ #: app/flatpak-builtins-search.c:43
+-#, fuzzy
+-#| msgid "Show only runtimes"
+ msgid "Only look for runtimes"
+-msgstr "Visa endast exekveringsmiljöer"
++msgstr "Sök endast efter körmiljöer"
+ 
+ #: app/flatpak-builtins-search.c:53
+ msgid "Remotes"
+@@ -4730,11 +4721,11 @@
+ 
+ #: common/flatpak-dir.c:639
+ msgid "Summary has invalid or corrupted data"
+-msgstr ""
++msgstr "Sammanfattningen innehåller ogiltiga eller skadade data"
+ 
+ #: common/flatpak-dir.c:658
+ msgid "Summary index has invalid or corrupted data"
+-msgstr ""
++msgstr "Sammanfattningsindexet innehåller ogiltiga eller skadade data"
+ 
+ #: common/flatpak-dir.c:812
+ #, c-format
+@@ -4871,9 +4862,8 @@
+ msgstr "Ogiltig kontrollsumma för extra data-uri %s"
+ 
+ #: common/flatpak-dir.c:6677
+-#, fuzzy, c-format
+ msgid "Invalid extra data name '%s'"
+-msgstr "Ogiltigt tilläggsnamn %s"
++msgstr "Ogiltigt namn på extra data ”%s”"
+ 
+ #: common/flatpak-dir.c:6685
+ #, c-format
+@@ -4952,7 +4942,7 @@
+ #: common/flatpak-dir.c:8785
+ #, c-format
+ msgid "Desktop Entry '%s' neither has Type=Application nor Type=Service"
+-msgstr ""
++msgstr "Skrivbordsposten '%s' saknar både Type=Application och Type=Service"
+ 
+ #: common/flatpak-dir.c:8977
+ #, c-format
+@@ -4977,9 +4967,8 @@
+ msgstr "Ogiltig kontrollsumma för extra data"
+ 
+ #: common/flatpak-dir.c:9496
+-#, fuzzy, c-format
+ msgid "Invalid extra data filename '%s'"
+-msgstr "Under skrivning av extra data-filen ”%s”: "
++msgstr "Ogiltigt filnamn för extra data ”%s”"
+ 
+ #: common/flatpak-dir.c:9502
+ msgid "Wrong size for extra data"
+@@ -4996,19 +4985,16 @@
+ msgstr "Extra data %s saknas i frånkopplade metadata"
+ 
+ #: common/flatpak-dir.c:9549 common/flatpak-dir.c:9560
+-#, fuzzy, c-format
+ msgid "Failed to open %s: "
+-msgstr "Misslyckades med att öppna ”%s”"
++msgstr "Kunde inte öppna %s: "
+ 
+ #: common/flatpak-dir.c:9571
+-#, fuzzy, c-format
+ msgid "Failed to open %s/%s: "
+-msgstr "Misslyckades med att uppdatera %s%s%s: "
++msgstr "Kunde inte öppna %s/%s: "
+ 
+ #: common/flatpak-dir.c:9610 common/flatpak-dir.c:9616
+-#, fuzzy
+ msgid "Failed to open metadata: "
+-msgstr "Misslyckades med att öppna journal: %s"
++msgstr "Kunde inte öppna metadata: "
+ 
+ #: common/flatpak-dir.c:9707
+ #, c-format
+@@ -5126,7 +5112,7 @@
+ #: common/flatpak-dir.c:12933
+ #, c-format
+ msgid "%s is currently deployed, you need to uninstall it first"
+-msgstr ""
++msgstr "%s är för närvarande driftsatt. Du måste avinstallera den först"
+ 
+ #: common/flatpak-dir.c:13057
+ #, c-format
+@@ -5486,9 +5472,8 @@
+ msgstr "Namn kan inte börja med en punkt"
+ 
+ #: common/flatpak-ref-utils.c:150
+-#, fuzzy, c-format
+ msgid "Name can't start with \"%s\""
+-msgstr "Namn kan inte börja med %c"
++msgstr "Namnet kan inte börja med ”%s”"
+ 
+ #: common/flatpak-ref-utils.c:167
+ msgid "Name can't end with a period"
+@@ -5499,14 +5484,12 @@
+ msgstr "Endast det sista namnsegmentet kan innehålla -"
+ 
+ #: common/flatpak-ref-utils.c:179
+-#, fuzzy, c-format
+ msgid "Name segment can't start with \"%s\""
+-msgstr "Namnsegment kan inte börja med %c"
++msgstr "Namnsegmentet kan inte börja med ”%s”"
+ 
+ #: common/flatpak-ref-utils.c:194
+-#, fuzzy, c-format
+ msgid "Name can't contain \"%s\""
+-msgstr "Namn kan inte innehålla %c"
++msgstr "Namnet kan inte innehålla ”%s”"
+ 
+ #: common/flatpak-ref-utils.c:204
+ msgid "Names must contain at least 2 periods"
+@@ -5517,38 +5500,32 @@
+ msgstr "Ark kan inte vara tom"
+ 
+ #: common/flatpak-ref-utils.c:334
+-#, fuzzy, c-format
+ msgid "Arch can't contain \"%s\""
+-msgstr "Ark kan inte innehålla %c"
++msgstr "Arkitekturen kan inte innehålla ”%s”"
+ 
+ #: common/flatpak-ref-utils.c:397
+ msgid "Branch can't be empty"
+ msgstr "Gren kan inte vara tom"
+ 
+ #: common/flatpak-ref-utils.c:409
+-#, fuzzy, c-format
+ msgid "Branch can't start with \"%s\""
+-msgstr "Gren kan inte börja med %c"
++msgstr "Grenen kan inte börja med ”%s”"
+ 
+ #: common/flatpak-ref-utils.c:422
+-#, fuzzy, c-format
+ msgid "Branch can't contain \"%s\""
+-msgstr "Gren kan inte innehålla %c"
++msgstr "Grenen kan inte innehålla ”%s”"
+ 
+ #: common/flatpak-ref-utils.c:601
+-#, fuzzy
+ msgid "Remote name can't be empty"
+-msgstr "Namn kan inte vara tomt"
++msgstr "Fjärrnamnet kan inte vara tomt"
+ 
+ #: common/flatpak-ref-utils.c:612
+-#, fuzzy, c-format
+ msgid "Remote name can't start with \"%s\""
+-msgstr "Namn kan inte börja med %c"
++msgstr "Fjärrnamnet kan inte börja med ”%s”"
+ 
+ #: common/flatpak-ref-utils.c:625
+-#, fuzzy, c-format
+ msgid "Remote name can't contain \"%s\""
+-msgstr "Namn kan inte innehålla %c"
++msgstr "Fjärrnamnet kan inte innehålla ”%s”"
+ 
+ #: common/flatpak-ref-utils.c:656 common/flatpak-ref-utils.c:906
+ msgid "Ref too long"
