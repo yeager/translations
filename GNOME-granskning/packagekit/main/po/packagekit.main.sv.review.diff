@@ -1,0 +1,65 @@
+--- packagekit.main.sv.original.po
++++ packagekit.main.sv.reviewed.po
+@@ -19,8 +19,8 @@
+ "Project-Id-Version: PackageKit\n"
+ "Report-Msgid-Bugs-To: http://bugzilla.freedesktop.org/\n"
+ "POT-Creation-Date: 2026-11-20 18:35+0000\n"
+-"PO-Revision-Date: 2026-10-23 08:02+0000\n"
+-"Last-Translator: Anders Jonsson <haaninjo@users.noreply.hosted.weblate.org>\n"
++"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <https://hosted.weblate.org/projects/packagekit/"
+ "translations/sv/>\n"
+ "Language: sv\n"
+@@ -334,12 +334,13 @@
+ "Cancel all queued package management tasks of all users and make the daemon "
+ "quit as soon as the running tasks are done."
+ msgstr ""
++"Avbryt alla köade pakethanteringsuppgifter för alla användare och avsluta "
++"demonen så snart de pågående uppgifterna är klara."
+ 
+ #: client/pkgc-manage.c:1068
+-#, fuzzy, c-format
+-#| msgid "Failed to load the backend: %s"
++#, c-format
+ msgid "Failed to make the daemon yield: %s"
+-msgstr "Misslyckades med att läsa in bakänden: %s"
++msgstr "Misslyckades med att få demonen att avsluta: %s"
+ 
+ #. TRANSLATORS: Description for refresh command in pkgcli help
+ #: client/pkgc-manage.c:1088
+@@ -389,7 +390,7 @@
+ #. TRANSLATORS: Description for yield command in pkgcli help
+ #: client/pkgc-manage.c:1151
+ msgid "Stop all pending tasks and quit the daemon"
+-msgstr ""
++msgstr "Stoppa alla väntande uppgifter och avsluta demonen"
+ 
+ #: client/pkgc-monitor.c:384
+ msgid "Failed to get daemon state"
+@@ -1078,7 +1079,7 @@
+ #: client/pkgcli.c:130
+ #, c-format
+ msgid "Unknown command: %s"
+-msgstr "Okänt kommando :%s"
++msgstr "Okänt kommando: %s"
+ 
+ #: client/pkgcli.c:140
+ #, c-format
+@@ -1230,13 +1231,15 @@
+ #. the system from ever being updated.
+ #: data/policy/org.freedesktop.packagekit.policy.in:41
+ msgid "Stop all software tasks and quit"
+-msgstr ""
++msgstr "Stoppa alla programvaruuppgifter och avsluta"
+ 
+ #: data/policy/org.freedesktop.packagekit.policy.in:42
+ msgid ""
+ "Authentication is required to stop all pending package management tasks of "
+ "all users and quit the management daemon"
+ msgstr ""
++"Autentisering krävs för att stoppa alla väntande pakethanteringsuppgifter "
++"för alla användare och avsluta hanteringsdemonen"
+ 
+ #. SECURITY:
+ #. - Normal users need authentication to install signed packages
