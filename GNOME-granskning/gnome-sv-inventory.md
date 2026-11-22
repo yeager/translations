@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 07:51 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 07:53 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -133,7 +133,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [libipuz](https://l10n.gnome.org/vertimus/libipuz/main/po/sv/) | main | 31 | 0 | 8 | Behöver arbete | Klar lokalt (2026-11-22): Alla åtta aktuella oöversatta strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](libipuz/main/po/libipuz.main.sv.original.po), [granskad](libipuz/main/po/libipuz.main.sv.reviewed.po), [diff](libipuz/main/po/libipuz.main.sv.review.diff), [notering](libipuz/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [d-spy](https://l10n.gnome.org/vertimus/d-spy/main/po/sv/) | main | 68 | 4 | 7 | Behöver arbete | Klar lokalt (2026-11-22): Alla aktuella luckor och fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](d-spy/main/po/d-spy.main.sv.original.po), [granskad](d-spy/main/po/d-spy.main.sv.reviewed.po), [diff](d-spy/main/po/d-spy.main.sv.review.diff), [notering](d-spy/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [rhythmbox](https://l10n.gnome.org/vertimus/rhythmbox/master/po/sv/) | master | 971 | 5 | 6 | Behöver arbete | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-text-editor](https://l10n.gnome.org/vertimus/gnome-text-editor/main/po/sv/) | main | 282 | 4 | 6 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-text-editor](https://l10n.gnome.org/vertimus/gnome-text-editor/main/po/sv/) | main | 282 | 4 | 6 | Behöver arbete | Klar lokalt (2026-11-22): Alla aktuella oöversatta och fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](gnome-text-editor/main/po/gnome-text-editor.main.sv.original.po), [granskad](gnome-text-editor/main/po/gnome-text-editor.main.sv.reviewed.po), [diff](gnome-text-editor/main/po/gnome-text-editor.main.sv.review.diff), [notering](gnome-text-editor/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [era](https://l10n.gnome.org/vertimus/era/main/po/sv/) | main | 142 | 3 | 6 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/master/po-script-fu/sv/) | master | 322 | 2 | 6 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-control-center](https://l10n.gnome.org/vertimus/gnome-control-center/main/po/sv/) | main | 2140 | 27 | 5 | Behöver arbete | Ej granskad |
