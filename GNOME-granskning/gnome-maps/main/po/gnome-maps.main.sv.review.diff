@@ -1,0 +1,181 @@
+--- gnome-maps.main.sv.original.po
++++ gnome-maps.main.sv.reviewed.po
+@@ -12,8 +12,8 @@
+ "Project-Id-Version: gnome-maps main\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-maps/issues\n"
+ "POT-Creation-Date: 2026-11-19 20:24+0000\n"
+-"PO-Revision-Date: 2026-08-24 09:23+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -185,7 +185,7 @@
+ 
+ #: data/org.gnome.Maps.gschema.xml:100
+ msgid "Map color scheme"
+-msgstr ""
++msgstr "Kartans färgschema"
+ 
+ #: data/org.gnome.Maps.gschema.xml:101
+ msgid ""
+@@ -193,6 +193,9 @@
+ "preference, 'light' always shows the map in light colors, 'dark' always "
+ "shows the map in dark colors)."
+ msgstr ""
++"Vilket färgschema kartan ska återges med. (”system” följer systemets "
++"övergripande inställning, ”light” visar alltid kartan i ljusa färger och "
++"”dark” visar alltid kartan i mörka färger)."
+ 
+ #: data/org.gnome.Maps.metainfo.xml.in.in:7
+ msgid "Find places around the world"
+@@ -529,7 +532,7 @@
+ 
+ #: data/ui/route-view.blp:149 data/ui/place-view.blp:206
+ msgid "Retry"
+-msgstr ""
++msgstr "Försök igen"
+ 
+ #: data/ui/route-view.blp:170
+ msgid "Route search by GraphHopper"
+@@ -562,7 +565,8 @@
+ "Observera att vissa operatörer kanske inte inkluderar alla möjliga "
+ "färdsätt,\n"
+ "t.ex. visar en nationell operatör kanske inte flyglinjer, och en lokal\n"
+-"operatör saknar kanske regionala tåg.\n"
++"operatör\n"
++"saknar kanske regionala tåg.\n"
+ "Namn och varumärken som visas anses vara registrerade varumärken då "
+ "tillämpligt."
+ 
+@@ -808,24 +812,22 @@
+ 
+ #: data/ui/preferences.blp:18
+ msgid "Color Scheme"
+-msgstr ""
++msgstr "Färgschema"
+ 
+ #. Translators: This is a menu item for following the system color scheme
+ #: data/ui/preferences.blp:23
+ msgid "Follow System"
+-msgstr ""
++msgstr "Följ systeminställningen"
+ 
+ #. Translators: This is a menu item for always showing the map in light colors
+ #: data/ui/preferences.blp:25
+-#, fuzzy
+-#| msgid "Flights"
+ msgid "Light"
+-msgstr "Flyg"
++msgstr "Ljust"
+ 
+ #. Translators: This is a menu item for always showing the map in dark colors
+ #: data/ui/preferences.blp:27
+ msgid "Dark"
+-msgstr ""
++msgstr "Mörkt"
+ 
+ #: data/ui/preferences.blp:33
+ msgid "Show Scale"
+@@ -964,34 +966,32 @@
+ 
+ #: src/downloads.js:427
+ msgid "Error occurred while downloading"
+-msgstr ""
++msgstr "Ett fel uppstod vid hämtningen"
+ 
+ #. Translators: Progress bar text for estimating the download size
+ #: src/downloads.js:655
+ msgid "Estimating"
+-msgstr ""
++msgstr "Beräknar"
+ 
+ #. Translators: Progress bar text for downloading new offline areas
+ #: src/downloads.js:657
+-#, fuzzy
+-#| msgid "Download"
+ msgid "Downloading"
+-msgstr "Hämta"
++msgstr "Hämtar"
+ 
+ #. Translators: Progress bar text for updating offline areas
+ #: src/downloads.js:659
+ msgid "Updating"
+-msgstr ""
++msgstr "Uppdaterar"
+ 
+ #. Translators: Progress bar text for deleting offline areas
+ #: src/downloads.js:661
+ msgid "Deleting"
+-msgstr ""
++msgstr "Tar bort"
+ 
+ #. Translators: Progress bar text for a cleanup step
+ #: src/downloads.js:663
+ msgid "Finishing"
+-msgstr ""
++msgstr "Slutför"
+ 
+ #. Translators: This is a format string for a PNG filename for an
+ #. * exported image with coordinates. The .png extension should be kept
+@@ -1710,10 +1710,8 @@
+ 
+ # "maps:///" är schemat
+ #: src/placeEntry.js:380
+-#, fuzzy
+-#| msgid "Failed to parse Maps URI"
+ msgid "Failed to parse Plus Code"
+-msgstr "Misslyckades med att tolka maps-URI"
++msgstr "Misslyckades med att tolka Plus Code"
+ 
+ #: src/placeFormatter.js:57 src/placeView.js:267 src/placeView.js:621
+ msgid "Coordinates"
+@@ -1742,16 +1740,12 @@
+ msgstr "Avgångsinformation tillhandahållen av Transitous"
+ 
+ #: src/placeView.js:417
+-#, fuzzy
+-#| msgid "failed to load file"
+ msgid "Failed to load arrivals"
+-msgstr "misslyckades med att läsa in fil"
++msgstr "Misslyckades med att läsa in ankomster"
+ 
+ #: src/placeView.js:418
+-#, fuzzy
+-#| msgid "failed to load file"
+ msgid "Failed to load departures"
+-msgstr "misslyckades med att läsa in fil"
++msgstr "Misslyckades med att läsa in avgångar"
+ 
+ #: src/placeView.js:434
+ msgid "No arrivals found"
+@@ -1835,10 +1829,8 @@
+ msgstr "Noggrannhet: %s"
+ 
+ #: src/placeView.js:633
+-#, fuzzy
+-#| msgid "ZIP Code"
+ msgid "Plus Code"
+-msgstr "Postnummer"
++msgstr "Plus Code"
+ 
+ #. since the phone numbers are typically always rendered
+ #. * left-to-right, insert an explicit LRM char to avoid issues
+@@ -2643,14 +2635,14 @@
+ #.
+ #: src/transitStopRow.js:67
+ msgid "No entry"
+-msgstr ""
++msgstr "Ingen påstigning"
+ 
+ #. Translators: this is a label indicating no dropoff passanger is
+ #. * allowed at a public transit stop.
+ #.
+ #: src/transitStopRow.js:73
+ msgid "No exit"
+-msgstr ""
++msgstr "Ingen avstigning"
+ 
+ #: src/translations.js:55
+ msgid "Around the clock"
