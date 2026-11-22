@@ -1,0 +1,1253 @@
+# Swedish translation for Loupe.
+# Copyright © 2023-2026 Loupe's COPYRIGHT HOLDER
+# This file is distributed under the same license as the Loupe package.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2023, 2024, 2025, 2026.
+# Luna Jernberg <droidbittin@gmail.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Loupe main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/loupe/-/issues\n"
+"POT-Creation-Date: 2026-11-20 13:20+0000\n"
+"PO-Revision-Date: 2026-11-22 00:00+0100\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: data/org.gnome.Loupe.desktop.in.in:2
+#: data/org.gnome.Loupe.metainfo.xml.in.in:6 src/about.rs:32
+#: src/widgets/image_window.rs:884
+msgid "Image Viewer"
+msgstr "Bildvisare"
+
+#: data/org.gnome.Loupe.desktop.in.in:3
+#: data/org.gnome.Loupe.metainfo.xml.in.in:13
+msgid "View and edit images"
+msgstr "Visa och redigera bilder"
+
+#: data/org.gnome.Loupe.desktop.in.in:11
+msgid "Picture;Graphics;Loupe;"
+msgstr "Bild;Grafik;Loupe;"
+
+#: data/org.gnome.Loupe.gschema.xml.in:6
+msgid "Show the image properties sidebar"
+msgstr "Visa sidopanelen för bildegenskaper"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.Loupe.metainfo.xml.in.in:8
+#: data/org.gnome.Loupe.metainfo.xml.in.in:10 src/about.rs:35
+msgid "The GNOME Project"
+msgstr "GNOME-projektet"
+
+#: data/org.gnome.Loupe.metainfo.xml.in.in:15
+msgid ""
+"Explore images, view their metadata, and make quick edits by cropping, "
+"rotating, or flipping them."
+msgstr ""
+"Utforska bilder, visa deras metadata, och gör snabba redigeringar genom att "
+"beskära, rotera eller vända dem."
+
+#: data/org.gnome.Loupe.metainfo.xml.in.in:28
+msgid "Main Window"
+msgstr "Huvudfönstret"
+
+#: data/org.gnome.Loupe.metainfo.xml.in.in:32
+msgid "Crop Tool"
+msgstr "Beskärningsverktyget"
+
+#: data/org.gnome.Loupe.metainfo.xml.in.in:36
+msgid "Image Properties Panel"
+msgstr "Bildegenskapspanelen"
+
+#: data/resources/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "General Shortcuts"
+msgstr "Allmänna kortkommandon"
+
+#: data/resources/shortcuts-dialog.ui:9
+msgctxt "shortcut window"
+msgid "Copy Image or Selected Text to Clipboard"
+msgstr "Kopiera bild eller markerad text till urklipp"
+
+#: data/resources/shortcuts-dialog.ui:15
+msgctxt "shortcut window"
+msgid "Move Image to Trash"
+msgstr "Flytta bild till papperskorgen"
+
+#: data/resources/shortcuts-dialog.ui:21
+msgctxt "shortcut window"
+msgid "Permanently Delete Image"
+msgstr "Ta bort bild permanent"
+
+#: data/resources/shortcuts-dialog.ui:27
+msgctxt "shortcut window"
+msgid "Open Image with Other App"
+msgstr "Öppna bild med annat program"
+
+#: data/resources/shortcuts-dialog.ui:33
+msgctxt "shortcut window"
+msgid "Set as Background"
+msgstr "Ange som bakgrundsbild"
+
+#: data/resources/shortcuts-dialog.ui:39
+msgctxt "shortcut window"
+msgid "New Window"
+msgstr "Nytt fönster"
+
+#: data/resources/shortcuts-dialog.ui:45
+msgctxt "shortcut window"
+msgid "Open Help"
+msgstr "Öppna hjälp"
+
+#: data/resources/shortcuts-dialog.ui:51
+msgctxt "shortcut window"
+msgid "Show Keyboard Shortcuts"
+msgstr "Visa tangentbordsgenvägar"
+
+#: data/resources/shortcuts-dialog.ui:57
+msgctxt "shortcut window"
+msgid "Close Window"
+msgstr "Stäng fönster"
+
+#: data/resources/shortcuts-dialog.ui:63
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Avsluta"
+
+#: data/resources/shortcuts-dialog.ui:71
+msgctxt "shortcut window"
+msgid "Navigate Images"
+msgstr "Navigera mellan bilder"
+
+#: data/resources/shortcuts-dialog.ui:75 data/resources/shortcuts-dialog.ui:89
+msgctxt "shortcut window"
+msgid "Next Image"
+msgstr "Nästa bild"
+
+#: data/resources/shortcuts-dialog.ui:82 data/resources/shortcuts-dialog.ui:96
+msgctxt "shortcut window"
+msgid "Previous Image"
+msgstr "Föregående bild"
+
+#: data/resources/shortcuts-dialog.ui:102
+msgctxt "shortcut window"
+msgid "First Image"
+msgstr "Första bilden"
+
+#: data/resources/shortcuts-dialog.ui:108
+msgctxt "shortcut window"
+msgid "Last Image"
+msgstr "Sista bilden"
+
+#: data/resources/shortcuts-dialog.ui:116
+msgctxt "shortcut window"
+msgid "Rotate Image"
+msgstr "Rotera bild"
+
+#: data/resources/shortcuts-dialog.ui:119
+#: data/resources/shortcuts-dialog.ui:253
+msgctxt "shortcut window"
+msgid "Rotate Clockwise"
+msgstr "Rotera medurs"
+
+#: data/resources/shortcuts-dialog.ui:125
+#: data/resources/shortcuts-dialog.ui:259
+msgctxt "shortcut window"
+msgid "Rotate Counterclockwise"
+msgstr "Rotera moturs"
+
+#: data/resources/shortcuts-dialog.ui:133
+msgctxt "shortcut window"
+msgid "Zoom Image"
+msgstr "Zooma bild"
+
+#: data/resources/shortcuts-dialog.ui:136
+msgctxt "shortcut window"
+msgid "Zoom In"
+msgstr "Zooma in"
+
+#: data/resources/shortcuts-dialog.ui:142
+msgctxt "shortcut window"
+msgid "Zoom Out"
+msgstr "Zooma ut"
+
+#: data/resources/shortcuts-dialog.ui:148
+msgctxt "shortcut window"
+msgid "Best Fit"
+msgstr "Bästa anpassning"
+
+#: data/resources/shortcuts-dialog.ui:154
+msgctxt "shortcut window"
+msgid "Original Scale"
+msgstr "Ursprunglig skala"
+
+#: data/resources/shortcuts-dialog.ui:160
+msgctxt "shortcut window"
+msgid "200% Scale"
+msgstr "200% skala"
+
+#: data/resources/shortcuts-dialog.ui:168
+msgctxt "shortcut window"
+msgid "Pan View"
+msgstr "Panorera vy"
+
+#: data/resources/shortcuts-dialog.ui:171
+msgctxt "shortcut window"
+msgid "Pan Left"
+msgstr "Panorera åt vänster"
+
+#: data/resources/shortcuts-dialog.ui:177
+msgctxt "shortcut window"
+msgid "Pan Right"
+msgstr "Panorera åt höger"
+
+#: data/resources/shortcuts-dialog.ui:183
+msgctxt "shortcut window"
+msgid "Pan Up"
+msgstr "Panorera uppåt"
+
+#: data/resources/shortcuts-dialog.ui:189
+msgctxt "shortcut window"
+msgid "Pan Down"
+msgstr "Panorera nedåt"
+
+#: data/resources/shortcuts-dialog.ui:197
+msgctxt "shortcut window"
+msgid "View"
+msgstr "Visa"
+
+#: data/resources/shortcuts-dialog.ui:200
+msgctxt "shortcut window"
+msgid "Toggle Fullscreen"
+msgstr "Växla helskärmsläge"
+
+#: data/resources/shortcuts-dialog.ui:206
+msgctxt "shortcut window"
+msgid "Leave Fullscreen"
+msgstr "Lämna helskärmsläge"
+
+#: data/resources/shortcuts-dialog.ui:212
+msgctxt "shortcut window"
+msgid "Toggle Image Properties"
+msgstr "Växla bildegenskaper"
+
+#: data/resources/shortcuts-dialog.ui:218
+msgctxt "shortcut window"
+msgid "Show Main Menu"
+msgstr "Visa huvudmeny"
+
+#: data/resources/shortcuts-dialog.ui:226
+msgctxt "shortcut window"
+msgid "Editing"
+msgstr "Redigering"
+
+#: data/resources/shortcuts-dialog.ui:229
+msgctxt "shortcut window"
+msgid "Open Editing View"
+msgstr "Öppna redigeringsvy"
+
+#: data/resources/shortcuts-dialog.ui:235
+msgctxt "shortcut window"
+msgid "Replace Original"
+msgstr "Ersätt originalet"
+
+#: data/resources/shortcuts-dialog.ui:241
+msgctxt "shortcut window"
+msgid "Save As"
+msgstr "Spara som"
+
+#: data/resources/shortcuts-dialog.ui:247
+msgctxt "shortcut window"
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: data/resources/shortcuts-dialog.ui:265
+msgctxt "shortcut window"
+msgid "Mirror Horizontally"
+msgstr "Spegla horisontellt"
+
+#: data/resources/shortcuts-dialog.ui:271
+msgctxt "shortcut window"
+msgid "Mirror Vertically"
+msgstr "Spegla vertikalt"
+
+#: data/resources/shortcuts-dialog.ui:277
+msgctxt "shortcut window"
+msgid "Apply Crop"
+msgstr "Tillämpa beskärning"
+
+#. Translators: Replace "translator-credits" with your names, one name per line
+#: src/about.rs:45
+msgid "translator-credits"
+msgstr ""
+"Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Luna Jernberg <droidbittin@gmail.com>\n"
+"\n"
+"Skicka synpunkter på översättningen till\n"
+"<tp-sv@listor.tp-sv.se>."
+
+#: src/about.rs:46
+msgid "Copyright © 2020–2024 Christopher Davis et al."
+msgstr "Copyright © 2020–2024 Christopher Davis med flera"
+
+#: src/file_model.rs:213
+msgid "Could not list other files in directory."
+msgstr "Kunde inte lista andra filer i katalog."
+
+#. Translators: Color model CMYK, often not translated
+#: src/metadata.rs:168
+msgid "CMYK"
+msgstr "CMYK"
+
+#. Translators: Color model grayscale
+#: src/metadata.rs:172
+msgid "grayscale"
+msgstr "gråskala"
+
+#. Translators: Display of the f-number <https://en.wikipedia.org/wiki/F-number>. {} will be replaced with the number
+#: src/metadata.rs:290
+msgid "\\u{192}\\u{2215}{}"
+msgstr "\\u{192}\\u{2215}{}"
+
+# U+202F Narrow No-Break Space
+#. Translators: Fractional exposure time (photography) in
+#. seconds
+#: src/metadata.rs:304
+msgid "1\\u{2215}{}\\u{202F}s"
+msgstr "1\\u{2215}{}\\u{202F}s"
+
+# U+202F is Narrow No-Break Space
+#. Translators: Exposure time (photography) in seconds
+#: src/metadata.rs:312
+msgid "{}\\u{202F}s"
+msgstr "{}\\u{202F}s"
+
+# U+202F Narrow No-Break Space
+#: src/metadata.rs:326
+msgid "{}\\u{202F}mm"
+msgstr "{}\\u{202F}mm"
+
+#. Translators: short for "north" in GPS coordinate
+#: src/metadata.rs:417
+msgid "N"
+msgstr "N"
+
+#. Translators: short for "south" in GPS coordinate
+#: src/metadata.rs:421
+msgid "S"
+msgstr "S"
+
+#. Translators: short for "east" in GPS coordinate
+#: src/metadata.rs:430
+msgid "E"
+msgstr "Ö"
+
+#. Translators: short for "west" in GPS coordinate
+#: src/metadata.rs:434
+msgid "W"
+msgstr "V"
+
+#: src/metadata.rs:515 src/metadata.rs:528
+msgid "Display P3"
+msgstr "Display P3"
+
+#: src/metadata.rs:518 src/metadata.rs:530
+msgid "sRGB"
+msgstr "sRGB"
+
+#: src/metadata.rs:521 src/metadata.rs:527
+msgid "DCI P3"
+msgstr "DCI P3"
+
+#: src/metadata.rs:529
+msgid "Rec.2020"
+msgstr "Rec.2020"
+
+#: src/metadata.rs:531 src/metadata.rs:539
+msgid "Unspecified"
+msgstr "Ej angivet"
+
+#: src/metadata.rs:532 src/metadata.rs:541 src/metadata.rs:551
+#, rust-format
+msgid "Unknown ({})"
+msgstr "Okänt ({})"
+
+#: src/metadata.rs:538
+msgid "ICtCp"
+msgstr "ICtCp"
+
+#: src/metadata.rs:547
+msgid "DCI (Gamma 2.6)"
+msgstr "DCI (gamma 2,6)"
+
+#: src/metadata.rs:548
+msgid "PQ"
+msgstr "PQ"
+
+#: src/metadata.rs:549
+msgid "sRGB (Piecewise Gamma 2.4)"
+msgstr "sRGB (styckevis gamma 2,4)"
+
+#. / Returns localized date + time format
+#. Translators: This is the date and time format we use in metadata output
+#. etc. The format has to follow <https://docs.gtk.org/glib/method.DateTime.format.html>
+#. The default is already translated. Don't change if you are not sure what
+#. to use.
+#: src/util.rs:39
+msgid "%x %X"
+msgstr "%x %X"
+
+#: src/util.rs:182
+msgid "Failed to restore image from trash"
+msgstr "Misslyckades med att återställa bild från papperskorgen"
+
+#: src/widgets/drag_overlay.ui:15
+msgid "Drop Image to View"
+msgstr "Släpp bild för att visa"
+
+#: src/widgets/edit/crop.rs:363
+msgid "Failed to Edit Image"
+msgstr "Misslyckades med att redigera bild"
+
+#: src/widgets/edit/crop.ui:6
+msgid "Free"
+msgstr "Fri"
+
+#: src/widgets/edit/crop.ui:11
+msgid "Original"
+msgstr "Ursprunglig"
+
+#: src/widgets/edit/crop.ui:16
+msgid "Square"
+msgstr "Kvadrat"
+
+#: src/widgets/edit/crop.ui:21
+msgid "5:4"
+msgstr "5:4"
+
+#: src/widgets/edit/crop.ui:26
+msgid "4:3"
+msgstr "4:3"
+
+#: src/widgets/edit/crop.ui:31
+msgid "3:2"
+msgstr "3:2"
+
+#: src/widgets/edit/crop.ui:36
+msgid "16:9"
+msgstr "16:9"
+
+#: src/widgets/edit/crop.ui:77 src/widgets/edit/crop.ui:364
+msgid "Aspect Ratio"
+msgstr "Bildförhållande"
+
+#: src/widgets/edit/crop.ui:91
+msgid "_Free"
+msgstr "_Fri"
+
+#: src/widgets/edit/crop.ui:109
+msgid "_Original"
+msgstr "_Ursprunglig"
+
+#: src/widgets/edit/crop.ui:127
+msgid "_Square"
+msgstr "_Kvadrat"
+
+#: src/widgets/edit/crop.ui:145
+msgid "_5:4"
+msgstr "_5:4"
+
+#: src/widgets/edit/crop.ui:166
+msgid "_4:3"
+msgstr "_4:3"
+
+#: src/widgets/edit/crop.ui:187
+msgid "_3:2"
+msgstr "_3:2"
+
+#: src/widgets/edit/crop.ui:208
+msgid "_16:9"
+msgstr "_16:9"
+
+#: src/widgets/edit/crop.ui:231 src/widgets/edit/crop.ui:377
+msgid "Orientation Landscape"
+msgstr "Liggande orientering"
+
+#: src/widgets/edit/crop.ui:240 src/widgets/edit/crop.ui:389
+msgid "Orientation Portrait"
+msgstr "Stående orientering"
+
+#: src/widgets/edit/crop.ui:252 src/widgets/image_page.ui:15
+#: src/widgets/image_window.ui:25
+msgid "Rotate"
+msgstr "Rotera"
+
+#: src/widgets/edit/crop.ui:261 src/widgets/edit/crop.ui:407
+msgid "Rotate Counter Clockwise"
+msgstr "Rotera moturs"
+
+#: src/widgets/edit/crop.ui:268
+msgid "Rotate Clockwise"
+msgstr "Rotera medurs"
+
+#: src/widgets/edit/crop.ui:278
+msgid "Flip"
+msgstr "Vänd"
+
+#: src/widgets/edit/crop.ui:287 src/widgets/edit/crop.ui:415
+msgid "Mirror Horizontally"
+msgstr "Spegla horisontellt"
+
+#: src/widgets/edit/crop.ui:294
+msgid "Mirror Vertically"
+msgstr "Spegla vertikalt"
+
+#: src/widgets/edit/crop.ui:306 src/widgets/edit/crop.ui:438
+msgid "_Reset"
+msgstr "Åte_rställ"
+
+#: src/widgets/edit/crop.ui:307 src/widgets/edit/crop.ui:430
+msgid "Undo Changes in this View"
+msgstr "Ångra ändringar i denna vy"
+
+#: src/widgets/edit/crop_selection.ui:46
+msgid "Crop Selection"
+msgstr "Beskär markering"
+
+#. Translators: Filename suffix, {} is replaced by a
+#. number
+#: src/widgets/edit_window.rs:208
+#, rust-format
+msgid " (Edited)"
+msgid_plural " (Edited {})"
+msgstr[0] " (redigerad)"
+msgstr[1] " (redigerad {})"
+
+#: src/widgets/edit_window.rs:293
+msgid "Moving Original to Trash"
+msgstr "Flyttar originalet till papperskorgen"
+
+#: src/widgets/edit_window.rs:307 src/widgets/edit_window.rs:336
+msgid "Failed to save image."
+msgstr "Misslyckades med att spara bild."
+
+#: src/widgets/edit_window.rs:316
+msgid "Finalizing Save Operation"
+msgstr "Slutför sparningsåtgärd"
+
+#: src/widgets/edit_window.rs:368
+msgid "Editing Image"
+msgstr "Redigerar bild"
+
+#: src/widgets/edit_window.rs:385
+msgid "Failed to edit image."
+msgstr "Misslyckades med att redigera bild."
+
+#: src/widgets/edit_window.rs:392
+msgid "Saving Image"
+msgstr "Sparar bild"
+
+#: src/widgets/edit_window.rs:411
+msgid "Failed to Save Image"
+msgstr "Misslyckades med att spara bild"
+
+#: src/widgets/edit_window.rs:527
+msgid "Save Changes?"
+msgstr "Spara ändringar?"
+
+#: src/widgets/edit_window.rs:529
+msgid ""
+"There are unsaved image editing changes. Closing without saving will "
+"permanently lose these modifications."
+msgstr ""
+"Det finns osparade bildredigeringsändringar. Att stänga utan att spara "
+"kommer få dessa ändringar att gå permanent förlorade."
+
+#: src/widgets/edit_window.rs:533 src/widgets/image_window.rs:705
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/widgets/edit_window.rs:534
+msgid "Discard"
+msgstr "Förkasta"
+
+#: src/widgets/edit_window.rs:535
+msgid "Save"
+msgstr "Spara"
+
+#: src/widgets/edit_window.ui:64
+msgid "_Cancel"
+msgstr "A_vbryt"
+
+#: src/widgets/edit_window.ui:71
+msgid "_Save"
+msgstr "_Spara"
+
+#: src/widgets/edit_window.ui:92
+msgid "_Save As…"
+msgstr "_Spara som…"
+
+#: src/widgets/edit_window.ui:100
+msgid "Keep original and create a new file"
+msgstr "Behåll originalet och skapa en ny fil"
+
+#: src/widgets/edit_window.ui:120
+msgid "_Replace Original"
+msgstr "E_rsätt originalet"
+
+#: src/widgets/edit_window.ui:128
+msgid "Original image will be moved to the trash"
+msgstr "Ursprunglig bild kommer flyttas till papperskorgen"
+
+#: src/widgets/error_details.rs:80
+msgid ""
+"The following error occurred. If you think this is an issue with the "
+"program, please include this information when you report the error."
+msgstr ""
+"Följande fel inträffade. Om du tror det är ett problem med programmet, "
+"inkludera denna information när du rapporterar felet."
+
+#: src/widgets/error_details.ui:4
+msgid "Error Details"
+msgstr "Feldetaljer"
+
+#: src/widgets/error_details.ui:19
+msgid ""
+"The image loader reported the following when trying to load or edit the "
+"image. Please include this information when you report an error. If "
+"possible, please also provide the image that causes the issue."
+msgstr ""
+"Bildinläsaren rapporterade följande vid försök att läsa in eller redigera "
+"bilden. Inkludera denna information när du rapporterar ett fel. "
+"Tillhandahåll också om möjligt bilden som orsakar problemet."
+
+#: src/widgets/error_details.ui:24
+msgid "Error Message"
+msgstr "Felmeddelande"
+
+#: src/widgets/error_details.ui:28
+msgid "Copy Error Message"
+msgstr "Kopiera felmeddelande"
+
+#: src/widgets/error_details.ui:68
+msgid "Report _Issue"
+msgstr "Rapportera _problem"
+
+#: src/widgets/image_page.rs:224
+#, rust-format
+msgid ""
+"No image loaders available. Maybe the “glycin-loaders” package with "
+"compatibility version “{}” is not installed."
+msgstr ""
+"Inga bildinläsare tillgängliga. Kanske är paketet ”glycin-loaders” med "
+"kompatibilitetsversion ”{}” inte installerat."
+
+#: src/widgets/image_page.rs:242
+#, rust-format
+msgid "The image format “{} ({})” is known but not installed."
+msgstr "Bildformatet ”{} ({})” är känt men inte installerat."
+
+#: src/widgets/image_page.rs:250
+#, rust-format
+msgid "Unknown image format “{} ({}).”"
+msgstr "Okänt bildformat ”{} ({}).”"
+
+#: src/widgets/image_page.rs:258
+msgid "There is not enough free memory available to load this image."
+msgstr "Det finns för lite tillgängligt minne för att läsa in denna bild."
+
+#: src/widgets/image_page.rs:265
+#, rust-format
+msgid "Failed to load image file: {}"
+msgstr "Misslyckades med att läsa in bildfil: {}"
+
+#: src/widgets/image_page.rs:271
+msgid "Either the image file is corrupted or it contains unsupported elements."
+msgstr ""
+"Antingen är bildfilen trasig eller så innehåller den element som inte stöd."
+
+#: src/widgets/image_page.ui:6 src/widgets/image_window.ui:16
+msgid "_Open With…"
+msgstr "Ö_ppna med…"
+
+#: src/widgets/image_page.ui:10 src/widgets/image_window.ui:20
+msgid "_Print…"
+msgstr "_Skriv ut…"
+
+#: src/widgets/image_page.ui:26 src/widgets/image_window.ui:36
+msgid "_Set as Background…"
+msgstr "_Ange som bakgrund…"
+
+#: src/widgets/image_page.ui:30 src/widgets/image_window.ui:40
+msgid "_Delete"
+msgstr "_Ta bort"
+
+#: src/widgets/image_page.ui:34
+msgid "_Copy"
+msgstr "_Kopiera"
+
+#: src/widgets/image_page.ui:63
+msgid "Could not Load Image"
+msgstr "Kunde inte läsa in bild"
+
+#: src/widgets/image_page.ui:71
+msgid "More _Information"
+msgstr "Mer _information"
+
+#: src/widgets/image_page.ui:81
+msgid "_Reload"
+msgstr "_Uppdatera"
+
+#: src/widgets/image_page.ui:123 src/widgets/image_window.ui:101
+msgid "Rotate Left"
+msgstr "Rotera åt vänster"
+
+#: src/widgets/image_page.ui:133 src/widgets/image_window.ui:111
+msgid "Rotate Right"
+msgstr "Rotera åt höger"
+
+#. Translators: This is a toast notification, informing the user
+#. that an image has been set as background.
+#: src/widgets/image_view.rs:871
+msgid "Set as background."
+msgstr "Ange som bakgrund."
+
+#: src/widgets/image_view.rs:877
+msgid "Could not set background."
+msgstr "Kunde inte ställa in bakgrund."
+
+#: src/widgets/image_view.ui:26
+msgid "Previous Image"
+msgstr "Föregående bild"
+
+#: src/widgets/image_view.ui:36
+msgid "Next Image"
+msgstr "Nästa bild"
+
+#: src/widgets/image_view.ui:66
+msgid "Zoom Out"
+msgstr "Zooma ut"
+
+#: src/widgets/image_view.ui:77
+msgid "Zoom In"
+msgstr "Zooma in"
+
+#: src/widgets/image_view.ui:92
+msgid "Toggle Zoom"
+msgstr "Växla zoomnivå"
+
+#: src/widgets/image_view.ui:100
+msgid "Zoom to Specific Level"
+msgstr "Zooma till specifik nivå"
+
+#: src/widgets/image_view.ui:229
+msgid "Custom Zoom Level"
+msgstr "Anpassad zoomnivå"
+
+#: src/widgets/image_view.ui:235
+msgid "Zoom to Specified Level"
+msgstr "Zooma till angiven nivå"
+
+#: src/widgets/image_window.rs:514
+msgid "Supported image formats"
+msgstr "Bildformat som stöds"
+
+#: src/widgets/image_window.rs:520
+msgid "All files"
+msgstr "Alla filer"
+
+#: src/widgets/image_window.rs:527
+msgid "Open Image"
+msgstr "Öppna bild"
+
+#: src/widgets/image_window.rs:619
+msgid "Image copied to clipboard"
+msgstr "Bild kopierad till urklipp"
+
+#: src/widgets/image_window.rs:640
+msgid "Image moved to trash"
+msgstr "Bild flyttad till papperskorgen"
+
+#: src/widgets/image_window.rs:641
+msgid "Undo"
+msgstr "Ångra"
+
+#: src/widgets/image_window.rs:671
+msgid "Failed to move image to trash"
+msgstr "Misslyckades med att flytta bild till papperskorgen"
+
+#: src/widgets/image_window.rs:695
+msgid "Permanently Delete Image?"
+msgstr "Ta bort bild permanent?"
+
+#: src/widgets/image_window.rs:697
+#, rust-format
+msgid "After deleting the image “{}” it will be permanently lost."
+msgstr "Efter att bilden ”{}” tagits bort kommer den vara borta för alltid."
+
+#: src/widgets/image_window.rs:706
+msgid "Delete"
+msgstr "Ta bort"
+
+#: src/widgets/image_window.rs:717
+msgid "Failed to delete image"
+msgstr "Misslyckades med att ta bort bild"
+
+#: src/widgets/image_window.ui:6
+msgid "_New Window"
+msgstr "_Nytt fönster"
+
+#: src/widgets/image_window.ui:10
+msgid "_Open…"
+msgstr "Ö_ppna…"
+
+#: src/widgets/image_window.ui:46
+msgid "_Help"
+msgstr "_Hjälp"
+
+#: src/widgets/image_window.ui:50
+msgid "_Keyboard Shortcuts"
+msgstr "_Tangentbordsgenvägar"
+
+#: src/widgets/image_window.ui:54
+msgid "_About Image Viewer"
+msgstr "_Om Bildvisare"
+
+#: src/widgets/image_window.ui:87
+msgid "Toggle Fullscreen"
+msgstr "Växla helskärmsläge"
+
+#: src/widgets/image_window.ui:93
+msgid "Main Menu"
+msgstr "Huvudmeny"
+
+#: src/widgets/image_window.ui:125
+msgid "Image Properties"
+msgstr "Bildegenskaper"
+
+#: src/widgets/image_window.ui:132
+msgid "Edit Image"
+msgstr "Redigera bild"
+
+#: src/widgets/image_window.ui:220
+msgid "View and Edit Images"
+msgstr "Visa och redigera bilder"
+
+#: src/widgets/image_window.ui:221
+msgid "Drag and drop images here"
+msgstr "Dra och släpp bilder här"
+
+#: src/widgets/image_window.ui:225
+msgid "_Open Files…"
+msgstr "Ö_ppna filer…"
+
+#: src/widgets/print.rs:109
+msgid "Top"
+msgstr "Övre"
+
+#: src/widgets/print.rs:110
+msgid "Center"
+msgstr "Centrum"
+
+#: src/widgets/print.rs:111
+msgid "Bottom"
+msgstr "Nedre"
+
+#: src/widgets/print.rs:112
+msgid "Left"
+msgstr "Vänster"
+
+#: src/widgets/print.rs:113
+msgid "Right"
+msgstr "Höger"
+
+#. Translators: Shorthand for centimeter
+#: src/widgets/print.rs:149
+msgid "cm"
+msgstr "cm"
+
+#. Translators: Shorthand for inch
+#: src/widgets/print.rs:151
+msgid "in"
+msgstr "tum"
+
+#. Translators: Shorthand for pixel
+#: src/widgets/print.rs:153
+msgid "px"
+msgstr "px"
+
+#. Translators: {} is a placeholder for the filename
+#: src/widgets/print.rs:365
+#, rust-format
+msgid "Print “{}”"
+msgstr "Skriv ut ”{}”"
+
+#: src/widgets/print.rs:472
+msgid "Continue…"
+msgstr "Fortsätt…"
+
+#: src/widgets/print.rs:473
+msgid "Print Image"
+msgstr "Skriv ut bild"
+
+#: src/widgets/print.rs:784
+msgid "_Scale"
+msgstr "_Skala"
+
+#: src/widgets/print.rs:787
+msgid "_Width"
+msgstr "B_redd"
+
+#. Translators: Go back to previous page
+#: src/widgets/print.ui:29
+msgid "_Back"
+msgstr "_Bakåt"
+
+#: src/widgets/print.ui:37
+msgid "_Print"
+msgstr "Skriv _ut"
+
+#: src/widgets/print.ui:56
+msgid "Layout"
+msgstr "Layout"
+
+#: src/widgets/print.ui:59
+msgid "_Orientation"
+msgstr "_Orientering"
+
+#: src/widgets/print.ui:72
+msgid "Portrait Page Orientation"
+msgstr "Stående sidorientering"
+
+#: src/widgets/print.ui:80
+msgid "Landscape Page Orientation"
+msgstr "Liggande sidorientering"
+
+#: src/widgets/print.ui:89
+msgid "_Alignment"
+msgstr "_Justering"
+
+#: src/widgets/print.ui:108
+msgid "Margins"
+msgstr "Marginaler"
+
+#: src/widgets/print.ui:111
+msgid "Margin Units"
+msgstr "Enhet för marginal"
+
+#: src/widgets/print.ui:128
+msgid "_Horizontal"
+msgstr "_Horisontellt"
+
+#: src/widgets/print.ui:134
+msgid "_Vertical"
+msgstr "_Vertikalt"
+
+#: src/widgets/print.ui:142 src/widgets/properties_view.ui:56
+msgid "Image Size"
+msgstr "Bildstorlek"
+
+#: src/widgets/print.ui:145
+msgid "Image Size Units"
+msgstr "Enhet för bildstorlek"
+
+#: src/widgets/print.ui:163
+msgid "_Fill Space"
+msgstr "_Fyll utrymme"
+
+#: src/widgets/print.ui:174
+msgid "H_eight"
+msgstr "Hö_jd"
+
+# Formatnamn
+#: src/widgets/properties_view.rs:293
+msgid "Unknown"
+msgstr "Okänt"
+
+#. Translators: Concatenation of attributes like "transparent,
+#. grayscale"
+#: src/widgets/properties_view.rs:297
+msgid ", "
+msgstr ", "
+
+#. Translators: Addition of image being transparent to
+#. format name
+#: src/widgets/properties_view.rs:304
+msgid "transparent"
+msgstr "transparent"
+
+# TODO: ev ersätta NBSP med bindestreck
+#. Translators: Addition of bit size to format name
+#: src/widgets/properties_view.rs:316
+msgid "{}\\u{202F}bit"
+msgstr "{}\\u{202F}bit"
+
+#: src/widgets/properties_view.rs:334
+msgid "{}\\u{202F}\\u{D7}\\u{202F}{}"
+msgstr "{}\\u{202F}\\u{D7}\\u{202F}{}"
+
+#. Translators: Shorthand for centimeter
+#: src/widgets/properties_view.rs:373
+msgid " cm"
+msgstr " cm"
+
+#. Translators: Shorthand for inch
+#: src/widgets/properties_view.rs:377
+msgid "″"
+msgstr "″"
+
+#. Translators: Shorthand for meter
+#: src/widgets/properties_view.rs:381
+msgid " m"
+msgstr " m"
+
+#. Translators: Shorthand for millimeter
+#: src/widgets/properties_view.rs:385
+msgid " mm"
+msgstr " mm"
+
+#. Translators: Shorthand for pica (unit)
+#: src/widgets/properties_view.rs:389
+msgid " pc"
+msgstr " pc"
+
+#. Translators: Shorthand for pica (unit)
+#: src/widgets/properties_view.rs:393
+msgid " pt"
+msgstr " pt"
+
+#: src/widgets/properties_view.rs:405
+msgid "{}{}\\u{202F}\\u{D7}\\u{202F}{}{}"
+msgstr "{}{}\\u{202F}\\u{D7}\\u{202F}{}{}"
+
+# U+202F is Narrow No-Break Space
+#: src/widgets/properties_view.rs:422
+msgid "{}\\u{202F}DPI"
+msgstr "{}\\u{202F}DPI"
+
+#: src/widgets/properties_view.rs:426
+msgid "{}\\u{202F}DPI\\u{202F}\\u{D7}\\u{202F}{}\\u{202F}DPI"
+msgstr "{}\\u{202F}DPI\\u{202F}\\u{D7}\\u{202F}{}\\u{202F}DPI"
+
+#: src/widgets/properties_view.rs:454
+msgid "Image Coordinates Copied"
+msgstr "Bildkoordinater kopierade"
+
+#: src/widgets/properties_view.ui:20
+msgid "Folder"
+msgstr "Mapp"
+
+#: src/widgets/properties_view.ui:28
+msgid "Open Containing Folder"
+msgstr "Öppna innehållande mapp"
+
+#: src/widgets/properties_view.ui:41
+msgid "URI"
+msgstr "URI"
+
+#: src/widgets/properties_view.ui:66
+msgid "Physical Size"
+msgstr "Fysisk storlek"
+
+#: src/widgets/properties_view.ui:76
+msgid "Resolution"
+msgstr "Upplösning"
+
+#: src/widgets/properties_view.ui:86
+msgid "Image Format"
+msgstr "Bildformat"
+
+#: src/widgets/properties_view.ui:96
+msgid "File Size"
+msgstr "Filstorlek"
+
+#: src/widgets/properties_view.ui:110
+msgid "File Created"
+msgstr "Filen skapad"
+
+#: src/widgets/properties_view.ui:120
+msgid "File Modified"
+msgstr "Filen ändrad"
+
+#. Translators: This is a label for GPS coordinates
+#: src/widgets/properties_view.ui:134
+msgid "Location"
+msgstr "Plats"
+
+#: src/widgets/properties_view.ui:145
+msgid "Copy Coordinates"
+msgstr "Kopiera koordinater"
+
+#: src/widgets/properties_view.ui:156
+msgid "Open Location"
+msgstr "Öppna plats"
+
+#: src/widgets/properties_view.ui:169
+msgid "Originally Created"
+msgstr "Ursprungligen skapad"
+
+#: src/widgets/properties_view.ui:179
+msgid "Creator"
+msgstr "Skapare"
+
+#: src/widgets/properties_view.ui:189
+msgid "Copyright"
+msgstr "Upphovsrätt"
+
+#: src/widgets/properties_view.ui:199
+msgid "Comment"
+msgstr "Kommentar"
+
+#: src/widgets/properties_view.ui:209
+msgid "Aperture"
+msgstr "Bländare"
+
+#: src/widgets/properties_view.ui:219
+msgid "Exposure"
+msgstr "Exponering"
+
+#: src/widgets/properties_view.ui:229
+msgid "ISO"
+msgstr "ISO"
+
+#: src/widgets/properties_view.ui:239
+msgid "Focal Length"
+msgstr "Brännvidd"
+
+#: src/widgets/properties_view.ui:249
+msgid "Maker, Model"
+msgstr "Tillverkare, modell"
+
+#: src/widgets/properties_view.ui:259
+msgid "Lens"
+msgstr "Objektiv"
+
+#: src/widgets/properties_view.ui:269
+msgid "Software"
+msgstr "Programvara"
+
+#: src/widgets/properties_view.ui:279
+msgid "ICC Profile"
+msgstr "ICC-profil"
+
+#: src/widgets/properties_view.ui:289
+msgid "CICP"
+msgstr "CICP"
+
+#: src/widgets/window.rs:256
+msgid "Show Details"
+msgstr "Visa detaljer"
+
+#~ msgid "DCI"
+#~ msgstr "DCI"
+
+#~ msgid "Browse through your images and inspect their metadata with:"
+#~ msgstr "Bläddra genom dina bilder och inspektera deras metadata med:"
+
+#~ msgid "Fast GPU accelerated image rendering"
+#~ msgstr "Snabb GPU-accelererad bildrendering"
+
+#~ msgid "Tiled rendering for vector graphics"
+#~ msgstr "Rendering uppdelad i rutor för vektorgrafik"
+
+#~ msgid "Extendable and sandboxed image decoding"
+#~ msgstr "Utökningsbar bildavkodning i sandlåda"
+
+#~ msgid "Accessible presentation of the most important metadata."
+#~ msgstr "Åtkomlig presentation av viktigaste metadata."
+
+#~ msgctxt "shortcut window"
+#~ msgid "Gestures"
+#~ msgstr "Gester"
+
+#~ msgid "Copy to Clipboard"
+#~ msgstr "Kopiera till urklipp"
+
+#~ msgid "Move to Trash"
+#~ msgstr "Flytta till papperskorgen"
+
+#~ msgid "Copy Information"
+#~ msgstr "Kopiera information"
+
+#~ msgid "The Loupe Team"
+#~ msgstr "Loupe-gruppen"
+
+#~ msgid "Center image horizontally"
+#~ msgstr "Centrera bild horisontellt"
+
+#~ msgid "Center image vertically"
+#~ msgstr "Centrera bild vertikalt"
+
+#~ msgid "Image Scale"
+#~ msgstr "Bildskala"
+
+#~ msgid "Left Margin"
+#~ msgstr "Vänstermarginal"
+
+#~ msgid "Length Unit"
+#~ msgstr "Längdenhet"
+
+#~ msgid "_About Loupe"
+#~ msgstr "_Om Loupe"
+
+#~ msgid "Loupe"
+#~ msgstr "Loupe"
+
+#~ msgid "Failed to decode image"
+#~ msgstr "Misslyckades med att avkoda bild"
+
+#~ msgid "Unknown image format"
+#~ msgstr "Okänt bildformat"
+
+#~ msgid "Animated GIF"
+#~ msgstr "Animerad GIF"
+
+#~ msgid "Animated WebP"
+#~ msgstr "Animerad WebP"
+
+#~ msgid "Animated PNG"
+#~ msgstr "Animerad PNG"
+
+#~ msgid "Could not open image"
+#~ msgstr "Kunde inte öppna bild"
+
+#~ msgid "Could not read image"
+#~ msgstr "Kunde inte läsa bild"
+
+#~ msgid "Layout Image"
+#~ msgstr "Bildlayout"
+
+#~ msgid "The following features are not available yet"
+#~ msgstr "Följande funktionalitet är inte ännu tillgänglig"
+
+#~ msgid "Applying image color profiles"
+#~ msgstr "Tillämpar färgprofiler för bilder"
+
+#~ msgid "Christopher Davis"
+#~ msgstr "Christopher Davis"
+
+#~ msgid "File does not exist"
+#~ msgstr "Filen finns inte"
+
+#~ msgid "Failed to open new background image"
+#~ msgstr "Misslyckades med att öppna ny bakgrundsbild"
+
+#~ msgid "“{}” is not a valid image."
+#~ msgstr "”{}” är inte en giltig bild."
+
+#~ msgid "Correctly showing SVGs at every zoom-level"
+#~ msgstr "Korrekt visande av SVG-bilder på alla zoomnivåer"
+
+#~ msgid "Correct HighDPI support"
+#~ msgstr "Korrekt HighDPI-stöd"
+
+#~ msgid "Print settings to position the image on the page"
+#~ msgstr "Utskriftsinställningar för att positionera bilden på sidan"
+
+#~ msgid "File Type"
+#~ msgstr "Filtyp"

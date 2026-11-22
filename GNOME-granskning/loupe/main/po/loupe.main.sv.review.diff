@@ -1,0 +1,78 @@
+--- loupe.main.sv.original.po
++++ loupe.main.sv.reviewed.po
+@@ -9,8 +9,8 @@
+ "Project-Id-Version: Loupe main\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/loupe/-/issues\n"
+ "POT-Creation-Date: 2026-11-20 13:20+0000\n"
+-"PO-Revision-Date: 2026-08-24 16:24+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -302,14 +302,12 @@
+ #. Translators: Color model CMYK, often not translated
+ #: src/metadata.rs:168
+ msgid "CMYK"
+-msgstr ""
++msgstr "CMYK"
+ 
+ #. Translators: Color model grayscale
+ #: src/metadata.rs:172
+-#, fuzzy
+-#| msgid ", grayscale"
+ msgid "grayscale"
+-msgstr ", gråskala"
++msgstr "gråskala"
+ 
+ #. Translators: Display of the f-number <https://en.wikipedia.org/wiki/F-number>. {} will be replaced with the number
+ #: src/metadata.rs:290
+@@ -384,10 +382,8 @@
+ msgstr "ICtCp"
+ 
+ #: src/metadata.rs:547
+-#, fuzzy
+-#| msgid "Gamma 2.4"
+ msgid "DCI (Gamma 2.6)"
+-msgstr "Gamma 2.4"
++msgstr "DCI (gamma 2,6)"
+ 
+ #: src/metadata.rs:548
+ msgid "PQ"
+@@ -395,7 +391,7 @@
+ 
+ #: src/metadata.rs:549
+ msgid "sRGB (Piecewise Gamma 2.4)"
+-msgstr ""
++msgstr "sRGB (styckevis gamma 2,4)"
+ 
+ #. / Returns localized date + time format
+ #. Translators: This is the date and time format we use in metadata output
+@@ -977,23 +973,19 @@
+ #. grayscale"
+ #: src/widgets/properties_view.rs:297
+ msgid ", "
+-msgstr ""
++msgstr ", "
+ 
+ #. Translators: Addition of image being transparent to
+ #. format name
+ #: src/widgets/properties_view.rs:304
+-#, fuzzy
+-#| msgid ", transparent"
+ msgid "transparent"
+-msgstr ", transparent"
++msgstr "transparent"
+ 
+ # TODO: ev ersätta NBSP med bindestreck
+ #. Translators: Addition of bit size to format name
+ #: src/widgets/properties_view.rs:316
+-#, fuzzy
+-#| msgid ", {}\\u{202F}bit"
+ msgid "{}\\u{202F}bit"
+-msgstr ", {}\\u{202F}bit"
++msgstr "{}\\u{202F}bit"
+ 
+ #: src/widgets/properties_view.rs:334
+ msgid "{}\\u{202F}\\u{D7}\\u{202F}{}"
