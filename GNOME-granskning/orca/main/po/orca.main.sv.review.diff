@@ -1,0 +1,172 @@
+--- orca.main.sv.original.po
++++ orca.main.sv.reviewed.po
+@@ -10,8 +10,8 @@
+ "Project-Id-Version: orca\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/orca/issues\n"
+ "POT-Creation-Date: 2026-11-21 15:15+0000\n"
+-"PO-Revision-Date: 2026-08-25 17:23+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -3780,73 +3780,53 @@
+ 
+ #. Translators: this is a command for extending a text selection.
+ #: src/orca/cmdnames.py:788
+-#, fuzzy
+-#| msgid "Go to next character"
+ msgid "Select next character"
+-msgstr "Gå till nästa tecken"
++msgstr "Markera nästa tecken"
+ 
+ #. Translators: this is a command for extending a text selection.
+ #: src/orca/cmdnames.py:791
+-#, fuzzy
+-#| msgid "Go to previous character"
+ msgid "Select previous character"
+-msgstr "Gå till föregående tecken"
++msgstr "Markera föregående tecken"
+ 
+ #. Translators: this is a command for extending a text selection.
+ #: src/orca/cmdnames.py:794
+-#, fuzzy
+-#| msgid "Go to next word"
+ msgid "Select next word"
+-msgstr "Gå till nästa ord"
++msgstr "Markera nästa ord"
+ 
+ #. Translators: this is a command for extending a text selection.
+ #: src/orca/cmdnames.py:797
+-#, fuzzy
+-#| msgid "Go to previous word"
+ msgid "Select previous word"
+-msgstr "Gå till föregående ord"
++msgstr "Markera föregående ord"
+ 
+ #. Translators: this is a command for extending a text selection.
+ #: src/orca/cmdnames.py:800
+-#, fuzzy
+-#| msgid "Go to next line"
+ msgid "Select next line"
+-msgstr "Gå till nästa rad"
++msgstr "Markera nästa rad"
+ 
+ #. Translators: this is a command for extending a text selection.
+ #: src/orca/cmdnames.py:803
+-#, fuzzy
+-#| msgid "Go to previous line"
+ msgid "Select previous line"
+-msgstr "Gå till föregående rad"
++msgstr "Markera föregående rad"
+ 
+ #. Translators: this is a command for extending a text selection.
+ #: src/orca/cmdnames.py:806
+-#, fuzzy
+-#| msgid "Go to the top of the file"
+ msgid "Select to the top of the file"
+-msgstr "Gå till början av filen"
++msgstr "Markera till början av filen"
+ 
+ #. Translators: this is a command for extending a text selection.
+ #: src/orca/cmdnames.py:809
+-#, fuzzy
+-#| msgid "Go to the bottom of the file"
+ msgid "Select to the bottom of the file"
+-msgstr "Gå till slutet av filen"
++msgstr "Markera till slutet av filen"
+ 
+ #. Translators: this is a command for extending a text selection.
+ #: src/orca/cmdnames.py:812
+-#, fuzzy
+-#| msgid "Go to the beginning of the line"
+ msgid "Select to the beginning of the line"
+-msgstr "Gå till början av raden"
++msgstr "Markera till början av raden"
+ 
+ #. Translators: this is a command for extending a text selection.
+ #: src/orca/cmdnames.py:815
+-#, fuzzy
+-#| msgid "Go to the end of the line"
+ msgid "Select to the end of the line"
+-msgstr "Gå till slutet av raden"
++msgstr "Markera till slutet av raden"
+ 
+ #. Translators: this is a command related to navigating within a document.
+ #: src/orca/cmdnames.py:818
+@@ -5863,7 +5843,7 @@
+ #: src/orca/guilabels.py:73
+ msgctxt "Context"
+ msgid "Headers and footers"
+-msgstr ""
++msgstr "Sidhuvuden och sidfötter"
+ 
+ #. Translators: Some users want to hear additional information when reading
+ #. different types of content. If this switch is enabled, Orca will announce
+@@ -5871,12 +5851,9 @@
+ #. or a variable. This setting is separate from announcements of code blocks,
+ #. which occupy their own lines rather than forming part of a sentence.
+ #: src/orca/guilabels.py:80
+-#, fuzzy
+-#| msgctxt "role"
+-#| msgid "leaving code."
+ msgctxt "Context"
+ msgid "Inline code"
+-msgstr "lämnar kod."
++msgstr "Kod i löpande text"
+ 
+ #. Translators: Some users want to hear additional information when entering
+ #. different types of content. If this checkbox is checked, Orca will announce
+@@ -6517,11 +6494,9 @@
+ #. Translators: This is a label for a switch which enables Orca to extend text
+ #. selections when the user holds Shift while using caret-navigation commands.
+ #: src/orca/guilabels.py:539
+-#, fuzzy
+-#| msgid "Text unselected."
+ msgctxt "caret navigation"
+ msgid "Text selection"
+-msgstr "Text avmarkerad."
++msgstr "Textmarkering"
+ 
+ #. Translators: This string is a label for the group of Orca commands which
+ #. are related to math navigation via MathCAT.
+@@ -6543,7 +6518,7 @@
+ msgid ""
+ "If 'Text selection' is enabled, Orca will also attempt to control text "
+ "selection."
+-msgstr ""
++msgstr "Om ”Textmarkering” är aktiverat försöker Orca även styra textmarkeringen."
+ 
+ #. Translators: This string is a label for the group of Orca commands which
+ #. are related to chat applications such as instant messaging.
+@@ -9223,7 +9198,7 @@
+ #. string above: `COMMANDS = _("Commands")`
+ #: src/orca/guilabels.py:2456
+ msgid "You can assign keybindings to any configured voice set in Commands."
+-msgstr ""
++msgstr "Du kan tilldela tangentbindningar till alla konfigurerade röstuppsättningar i Kommandon."
+ 
+ #. Translators: This is the label of the Voice Types page in the Orca
+ #. Preferences dialog, where users configure voices for different contexts
+@@ -13410,18 +13385,14 @@
+ #. Translators: Orca has a command to report CPU and memory usage levels. This
+ #. message presents the amount of memory used and total amount in GB.
+ #: src/orca/messages.py:2737
+-#, fuzzy, python-format
+-#| msgid "%(index)d of %(total)d"
+ msgid "%(used).1f of %(total).1f GB used."
+-msgstr "%(index)d av %(total)d"
++msgstr "%(used).1f av %(total).1f GB används."
+ 
+ #. Translators: Orca has a command to report CPU and memory usage levels. This
+ #. message presents the amount of memory used and total amount in MB.
+ #: src/orca/messages.py:2745
+-#, fuzzy, python-format
+-#| msgid "%(index)d of %(total)d"
+ msgid "%(used).1f of %(total).1f MB used."
+-msgstr "%(index)d av %(total)d"
++msgstr "%(used).1f av %(total).1f MB används."
+ 
+ #. Translators: This message presents the number of unvisited links in a
+ #. document.
