@@ -1,0 +1,990 @@
+--- gimp-help.master.menus-colors-map.sv.original.po
++++ gimp-help.master.menus-colors-map.sv.reviewed.po
+@@ -3,7 +3,8 @@
+ "Project-Id-Version: map\n"
+ "POT-Creation-Date: 2009-04-21 13:32+0200\n"
+ "PO-Revision-Date: 2009-02-17 03:33+0100\n"
+-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
++"Language: sv\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -27,7 +28,7 @@
+ #: src/menus/colors/map/set-colormap.xml:11(title)
+ #: src/menus/colors/map/set-colormap.xml:18(primary)
+ msgid "Set Colormap"
+-msgstr ""
++msgstr "Ange färgkarta"
+ 
+ #: src/menus/colors/map/set-colormap.xml:14(primary)
+ #: src/menus/colors/map/rearrange-colormap.xml:22(primary)
+@@ -36,11 +37,11 @@
+ 
+ #: src/menus/colors/map/set-colormap.xml:15(secondary)
+ msgid "Set"
+-msgstr ""
++msgstr "Ange"
+ 
+ #: src/menus/colors/map/set-colormap.xml:22(title)
+ msgid "The <quote>Set Colormap</quote> window"
+-msgstr ""
++msgstr "Fönstret <quote>Ange färgkarta</quote>"
+ 
+ #: src/menus/colors/map/set-colormap.xml:29(para)
+ msgid ""
+@@ -49,10 +50,14 @@
+ "the name of the current palette (which is not the color map of your image "
+ "yet) to open the Palette Selector:"
+ msgstr ""
++"Detta kommando öppnar en dialogruta där du kan välja en annan palett som "
++"ersätter färgkartan för den indexerade bilden. Klicka först på knappen med "
++"namnet på den aktuella paletten, som ännu inte är bildens färgkarta, för att "
++"öppna palettväljaren:"
+ 
+ #: src/menus/colors/map/set-colormap.xml:36(title)
+ msgid "The <quote>Palette Selection</quote> dialog"
+-msgstr ""
++msgstr "Dialogrutan <quote>Palettval</quote>"
+ 
+ #: src/menus/colors/map/set-colormap.xml:43(para)
+ msgid ""
+@@ -60,6 +65,8 @@
+ "button in the <quote>Set Palette</quote> dialog to replace the image "
+ "colormap."
+ msgstr ""
++"När du har valt önskad palett klickar du på knappen <guibutton>OK</guibutton> "
++"i dialogrutan <quote>Ange palett</quote> för att ersätta bildens färgkarta."
+ 
+ #: src/menus/colors/map/set-colormap.xml:50(title)
+ msgid "Activate the command"
+@@ -71,6 +78,9 @@
+ "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+ "guisubmenu><guimenuitem>Set Colormap</guimenuitem></menuchoice>."
+ msgstr ""
++"Kommandot finns i bildfönstrets meny under <menuchoice><guimenu>Färger</"
++"guimenu><guisubmenu>Avbilda</guisubmenu><guimenuitem>Ange färgkarta</"
++"guimenuitem></menuchoice>."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -107,7 +117,7 @@
+ #: src/menus/colors/map/sample-colorize.xml:17(secondary)
+ #: src/menus/colors/map/sample-colorize.xml:20(primary)
+ msgid "Sample Colorize"
+-msgstr ""
++msgstr "Färglägg med prov"
+ 
+ #: src/menus/colors/map/sample-colorize.xml:16(primary)
+ #: src/menus/colors/map/rotate-colormap.xml:25(primary)
+@@ -128,9 +138,8 @@
+ msgstr "Översikt"
+ 
+ #: src/menus/colors/map/sample-colorize.xml:26(title)
+-#, fuzzy
+ msgid "Example for the <quote>Sample Colorize</quote> filter"
+-msgstr "Exempel för filtret <placeholder-1/>"
++msgstr "Exempel på filtret <quote>Färglägg med prov</quote>"
+ 
+ #: src/menus/colors/map/sample-colorize.xml:33(para)
+ #: src/menus/colors/map/rotate-colormap.xml:44(para)
+@@ -141,19 +150,23 @@
+ 
+ #: src/menus/colors/map/sample-colorize.xml:42(para)
+ msgid "Filter <quote>Sample Colorize</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Färglägg med prov</quote> tillämpat"
+ 
+ #: src/menus/colors/map/sample-colorize.xml:46(para)
+ msgid ""
+ "This filter allows you to colorize old black-and-white images by mapping a "
+ "color source image or a gradient against it."
+ msgstr ""
++"Med detta filter kan du färglägga gamla svartvita bilder genom att avbilda "
++"en färgkällbild eller en toning mot dem."
+ 
+ #: src/menus/colors/map/sample-colorize.xml:51(para)
+ msgid ""
+ "Your gray-tone image must be changed to RGB before using this filter (Image/"
+ "Image&gt;Mode&gt;RGB)."
+ msgstr ""
++"Gråtonsbilder måste ändras till RGB innan du använder filtret (Bild/Bild&gt;"
++"Läge&gt;RGB)."
+ 
+ #: src/menus/colors/map/sample-colorize.xml:59(title)
+ #: src/menus/colors/map/rotate-colormap.xml:63(title)
+@@ -170,6 +183,9 @@
+ "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+ "guisubmenu><guimenuitem>Sample Colorize</guimenuitem></menuchoice>."
+ msgstr ""
++"Filtret finns i bildfönstrets meny under <menuchoice><guimenu>Färger</"
++"guimenu><guisubmenu>Avbilda</guisubmenu><guimenuitem>Färglägg med prov</"
++"guimenuitem></menuchoice>."
+ 
+ #: src/menus/colors/map/sample-colorize.xml:71(title)
+ #: src/menus/colors/map/exchange.xml:72(phrase)
+@@ -179,23 +195,23 @@
+ 
+ #: src/menus/colors/map/sample-colorize.xml:73(title)
+ msgid "Options of the <quote>Sample Colorize</quote> filter"
+-msgstr ""
++msgstr "Alternativ för filtret <quote>Färglägg med prov</quote>"
+ 
+ #: src/menus/colors/map/sample-colorize.xml:81(para)
+ msgid ""
+ "The filter window is divided into two parts: Destination on the left, "
+ "Sampling on the right."
+-msgstr ""
++msgstr "Filterfönstret delas i två delar: Mål till vänster och Provtagning till höger."
+ 
+ #: src/menus/colors/map/sample-colorize.xml:87(term)
+ msgid "Destination, Sample"
+-msgstr ""
++msgstr "Mål, prov"
+ 
+ #: src/menus/colors/map/sample-colorize.xml:89(para)
+ msgid ""
+ "By default, displayed image previews reproduce the image you invoked the "
+ "filter from."
+-msgstr ""
++msgstr "De visade bildförhandsvisningarna återger som standard bilden som du anropade filtret från."
+ 
+ #: src/menus/colors/map/sample-colorize.xml:93(para)
+ msgid ""
+@@ -209,6 +225,14 @@
+ "allow you to select the gradient range that will be applied to the image or "
+ "selection."
+ msgstr ""
++"<guilabel>Provet</guilabel> kan vara hela förhandsvisningen eller ett urval "
++"av den. I listrutan kan du välja en annan provbild bland namnen på de bilder "
++"som fanns på skärmen när filtret anropades. Om du väljer <guilabel>Från "
++"toning</guilabel> eller <guilabel>Från inverterad toning</guilabel> blir den "
++"valda toningen i toningsdialogrutan, eller dess inverterade variant, provet. "
++"Den visas i toningsraden under provförhandsvisningen. Provförhandsvisningen "
++"är nedtonad och två markörer låter dig välja det toningsintervall som ska "
++"tillämpas på bilden eller markeringen."
+ 
+ #: src/menus/colors/map/sample-colorize.xml:104(para)
+ msgid ""
+@@ -218,6 +242,10 @@
+ "selection in this image, it will be gray-scaled, else the whole preview will "
+ "be gray-scaled."
+ msgstr ""
++"<guilabel>Mål</guilabel> är som standard källbilden. Listrutan visar de "
++"bilder som fanns på skärmen när filtret anropades och låter dig välja en "
++"annan målbild. Om det finns en markering i bilden görs den gråskalig, annars "
++"görs hela förhandsvisningen gråskalig."
+ 
+ #: src/menus/colors/map/sample-colorize.xml:114(term)
+ msgid "Show Selection"
+@@ -226,7 +254,7 @@
+ #: src/menus/colors/map/sample-colorize.xml:116(para)
+ msgid ""
+ "This option toggles between the whole image and the selection, if it exists."
+-msgstr ""
++msgstr "Alternativet växlar mellan hela bilden och markeringen, om den finns."
+ 
+ #: src/menus/colors/map/sample-colorize.xml:123(term)
+ msgid "Show Colors"
+@@ -234,11 +262,11 @@
+ 
+ #: src/menus/colors/map/sample-colorize.xml:125(para)
+ msgid "This option toggles between colors and gray-scale."
+-msgstr ""
++msgstr "Alternativet växlar mellan färger och gråskala."
+ 
+ #: src/menus/colors/map/sample-colorize.xml:131(term)
+ msgid "Get Sample Colors"
+-msgstr ""
++msgstr "Hämta provfärger"
+ 
+ #: src/menus/colors/map/sample-colorize.xml:133(para)
+ msgid ""
+@@ -247,6 +275,10 @@
+ "may be abrupt. Check <guilabel>Smooth Sample Colors</guilabel> option to "
+ "improve them."
+ msgstr ""
++"När du klickar på knappen visar toningsraden under provförhandsvisningen "
++"provets färger. Om provet innehåller få färger kan övergångarna bli abrupta. "
++"Markera alternativet <guilabel>Mjuka provfärger</guilabel> för att förbättra "
++"dem."
+ 
+ #: src/menus/colors/map/sample-colorize.xml:139(para)
+ msgid ""
+@@ -258,10 +290,16 @@
+ "Destination pixels having that Value. If it is unchecked, then the "
+ "dominating color will be applied."
+ msgstr ""
++"<guilabel>Använd underfärger</guilabel> är svårare att förstå. I en "
++"gråskalebild finns endast information om värde, det vill säga mer eller "
++"mindre ljus. I en RGB-bild har varje bildpunkt information om de tre "
++"färgerna och värdet. Bildpunkter med olika färg kan alltså ha samma värde. "
++"Om alternativet är markerat blandas färger och tillämpas på målbildpunkter "
++"med detta värde. Annars tillämpas den dominerande färgen."
+ 
+ #: src/menus/colors/map/sample-colorize.xml:151(term)
+ msgid "Out Levels"
+-msgstr ""
++msgstr "Utnivåer"
+ 
+ #: src/menus/colors/map/sample-colorize.xml:153(para)
+ msgid ""
+@@ -269,10 +307,13 @@
+ "which will be applied to destination image. You can choose this range "
+ "accurately. Result appears interactively in destination preview."
+ msgstr ""
++"Två inmatningsrutor och två reglage fungerar på samma sätt: de begränsar "
++"färgintervallet som ska tillämpas på målbilden. Du kan välja intervallet "
++"noggrant. Resultatet visas interaktivt i målförhandsvisningen."
+ 
+ #: src/menus/colors/map/sample-colorize.xml:162(term)
+ msgid "In Levels"
+-msgstr ""
++msgstr "Innivåer"
+ 
+ #: src/menus/colors/map/sample-colorize.xml:164(para)
+ msgid ""
+@@ -280,26 +321,33 @@
+ "mid tones and light tones. Result appears interactively in destination "
+ "preview."
+ msgstr ""
++"Tre inmatningsrutor och tre reglage låter dig ange betydelsen av mörka toner, "
++"mellantoner och ljusa toner. Resultatet visas interaktivt i "
++"målförhandsvisningen."
+ 
+ #: src/menus/colors/map/sample-colorize.xml:172(term)
+ msgid "Hold Intensity"
+-msgstr ""
++msgstr "Behåll intensitet"
+ 
+ #: src/menus/colors/map/sample-colorize.xml:174(para)
+ msgid ""
+ "If this option is checked, the average light intensity of destination image "
+ "will be the same as that of source image."
+ msgstr ""
++"Om alternativet är markerat blir målbildens genomsnittliga ljusintensitet "
++"samma som källbildens."
+ 
+ #: src/menus/colors/map/sample-colorize.xml:181(term)
+ msgid "Original Intensity"
+-msgstr ""
++msgstr "Ursprunglig intensitet"
+ 
+ #: src/menus/colors/map/sample-colorize.xml:183(para)
+ msgid ""
+ "If this option is checked, the In levels intensity settings will not be "
+ "taken in account: original intensity will be preserved."
+ msgstr ""
++"Om alternativet är markerat används inte intensitetsinställningarna för "
++"innivåer: den ursprungliga intensiteten bevaras."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -364,7 +412,7 @@
+ #: src/menus/colors/map/rotate-colormap.xml:29(primary)
+ #: src/menus/colors/map/rotate-colormap.xml:36(quote)
+ msgid "Rotate Colors"
+-msgstr ""
++msgstr "Rotera färger"
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:26(secondary)
+ msgid "Rotate"
+@@ -376,11 +424,11 @@
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:52(para)
+ msgid "Filter <quote>Rotate Colors</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Rotera färger</quote> tillämpat"
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:58(para)
+ msgid "Colormap Rotation lets you exchange one color range to another range."
+-msgstr ""
++msgstr "Färgkarterotation låter dig byta ett färgintervall mot ett annat intervall."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:64(para)
+ msgid ""
+@@ -388,20 +436,25 @@
+ "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+ "guisubmenu><guimenuitem>Rotate Colors</guimenuitem></menuchoice>."
+ msgstr ""
++"Filtret finns i bildfönstrets meny under <menuchoice><guimenu>Färger</"
++"guimenu><guisubmenu>Avbilda</guisubmenu><guimenuitem>Rotera färger</"
++"guimenuitem></menuchoice>."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:74(title)
+ msgid "Main Options"
+-msgstr ""
++msgstr "Huvudalternativ"
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:76(title)
+ msgid "Main Options of the <quote>Color Map Rotation</quote> filter"
+-msgstr ""
++msgstr "Huvudalternativ för filtret <quote>Färgkarterotation</quote>"
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:85(para)
+ msgid ""
+ "You have there two color circles, one for the <quote>From</quote> color "
+ "range and the other for the <quote>To</quote> color range:"
+ msgstr ""
++"Här finns två färgcirklar, en för färgintervallet <quote>Från</quote> och "
++"den andra för färgintervallet <quote>Till</quote>:"
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:91(term)
+ msgid "From"
+@@ -413,12 +466,18 @@
+ "The curved arrow in angle lets to recognise \"From\" axis and \"To\" axis of "
+ "range. Click-drag these axis to change range."
+ msgstr ""
++"<guilabel>Färgcirkel</guilabel>: två axlar definierar intervallet \"Från\". "
++"Den böjda pilen i vinkeln gör att du kan identifiera intervallets axlar "
++"\"Från\" och \"Till\". Klicka och "
++"dra axlarna för att ändra intervallet."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:99(para)
+ msgid ""
+ "<guilabel>Switch to Clockwise/Counterclockwise</guilabel>: Sets the "
+ "direction the range is going."
+ msgstr ""
++"<guilabel>Växla till medurs/moturs</guilabel>: anger riktningen för "
++"intervallet."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:102(para)
+ msgid ""
+@@ -426,10 +485,13 @@
+ "results in an important color change as colors in selection angle are "
+ "different."
+ msgstr ""
++"<guilabel>Ändra pilarnas ordning</guilabel>: inverterar axlarna Från och "
++"Till. Det ger en betydande färgändring eftersom färgerna i markeringsvinkeln "
++"skiljer sig åt."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:106(para)
+ msgid "<guilabel>Select All</guilabel> selects the whole color circle."
+-msgstr ""
++msgstr "<guilabel>Markera allt</guilabel> markerar hela färgcirkeln."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:109(para)
+ msgid ""
+@@ -438,6 +500,9 @@
+ "color range. You can enter these positions manually or with help of arrow-"
+ "heads."
+ msgstr ""
++"Rutorna <guilabel>Från</guilabel> och <guilabel>Till</guilabel> visar "
++"startaxelns och slutaxelns positioner (i rad/PI) som begränsar det valda "
++"färgintervallet. Du kan ange positionerna manuellt eller med pilspetsarna."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:117(term)
+ msgid "To"
+@@ -445,21 +510,23 @@
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:119(para)
+ msgid "This section options are the same as \"From\" section ones."
+-msgstr ""
++msgstr "Alternativen i detta avsnitt är samma som i avsnittet \"Från\"."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:127(title)
+ msgid "Grey Options"
+-msgstr ""
++msgstr "Gråalternativ"
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:130(phrase)
+ msgid "Base image for Grey Options"
+-msgstr ""
++msgstr "Grundbild för gråalternativ"
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:138(para)
+ msgid ""
+ "Three sectors are defined for Red, Green and Blue with different "
+ "saturations. Grey and White colors are represented (0% Sat)."
+ msgstr ""
++"Tre sektorer definieras för rött, grönt och blått med olika mättnad. Grå och "
++"vita färger representeras av 0 % mättnad."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:145(para)
+ msgid ""
+@@ -468,10 +535,13 @@
+ "can convert slightly saturated colors into grey and you can also convert "
+ "grey into color."
+ msgstr ""
++"På denna flik kan du ange hur grått ska behandlas. Som standard betraktas "
++"grått inte som en färg och påverkas inte av rotationen. Här kan du omvandla "
++"svagt mättade färger till grått och även omvandla grått till färg."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:153(term)
+ msgid "Grey Color Circle"
+-msgstr ""
++msgstr "Grå färgcirkel"
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:155(para)
+ msgid ""
+@@ -479,6 +549,9 @@
+ "represents grey. If you increase grey threshold progressively, colors with "
+ "saturation less than this threshold turn to grey."
+ msgstr ""
++"I mitten av färgcirkeln finns en liten \"definitionscirkel\". I "
++"mitten representerar den grått. Om du gradvis höjer gråtröskeln blir färger "
++"med lägre mättnad än tröskeln grå."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:161(para)
+ msgid ""
+@@ -487,17 +560,23 @@
+ "emphasis>. This color will replace all colors you have defined as grey. But "
+ "result depends on Grey Mode too."
+ msgstr ""
++"Om du sedan flyttar definitionscirkeln i färgcirkeln eller använder "
++"inmatningsrutorna definierar du <emphasis>Nyans</emphasis> och "
++"<emphasis>Mättnad</emphasis>. Färgen ersätter alla färger som du har "
++"definierat som grå, men resultatet beror också på gråläget."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:171(term)
+ #: src/menus/colors/map/rotate-colormap.xml:201(phrase)
+ msgid "Grey Mode"
+-msgstr ""
++msgstr "Gråläge"
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:173(para)
+ msgid ""
+ "The radio buttons <emphasis>Treat As This </emphasis> and <emphasis>Change "
+ "As This </emphasis> determine how your previous choices will be treated:"
+ msgstr ""
++"Radioknapparna <emphasis>Behandla som denna</emphasis> och <emphasis>Ändra "
++"till denna</emphasis> avgör hur dina tidigare val behandlas:"
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:181(para)
+ msgid ""
+@@ -505,6 +584,9 @@
+ "by the define circle directly, without any rotation, whatever its position "
+ "in the color circle."
+ msgstr ""
++"Med <emphasis>Ändra till denna</emphasis> får grått direkt den färg som "
++"definitionscirkeln anger, utan rotation, oavsett cirkelns position i "
++"färgcirkeln."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:189(para)
+ msgid ""
+@@ -513,17 +595,24 @@
+ "you made in the Main tab. With this option, you can select color only in the "
+ "\"From\" sector, even if it is not visible in Grey tab."
+ msgstr ""
++"Med <emphasis>Behandla som denna</emphasis> får grått den färg som "
++"definitionscirkeln anger efter rotation enligt valen \"Från\" och \"Till\" "
++"på huvudfliken. Med alternativet kan du endast välja färg i sektorn \"Från\", "
++"även om den inte syns på gråfliken."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:208(para)
+ msgid ""
+ "The small circle is on yellow and mode is \"Change to this\". <emphasis>Blue "
+ "has changed to yellow. Note that Grey and White did so too.</emphasis>"
+ msgstr ""
++"Den lilla cirkeln är på gult och läget är \"Ändra till denna\". "
++"<emphasis>Blått har ändrats till gult. Observera att grått och vitt också "
++"gjorde det.</emphasis>"
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:219(term)
+ #: src/menus/colors/map/rotate-colormap.xml:223(phrase)
+ msgid "Gray Threshold"
+-msgstr ""
++msgstr "Gråtröskel"
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:232(para)
+ msgid ""
+@@ -531,6 +620,9 @@
+ "Grey (Note that Grey and White, that are 0% Sat., are not concerned)</"
+ "emphasis>."
+ msgstr ""
++"<emphasis>Gråtröskeln är 0,25: den blå sektorn (mättnad 0,25) har blivit "
++"grå. Observera att grått och vitt, som har 0 % mättnad, inte berörs.</"
++"emphasis>."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:239(para)
+ msgid ""
+@@ -540,12 +632,17 @@
+ "In a black to white gradient,you can see enlarging color replacement as you "
+ "increase threshold very slowly."
+ msgstr ""
++"Här anger du hur mycket mättnad som ska betraktas som grått. När du gradvis "
++"ökar mättnaden ser du en växande cirkel i färgcirkeln och växande markerade "
++"områden i förhandsvisningen om \"Kontinuerlig uppdatering\" är "
++"markerat. I en svartvit toning kan du se färgersättningen växa när du mycket "
++"långsamt höjer tröskeln."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:253(emphasis)
+ msgid ""
+ "Black to White gradient, progressively filled with color, as threshold "
+ "increases."
+-msgstr ""
++msgstr "Svartvit toning som gradvis fylls med färg när tröskeln höjs."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:263(title)
+ msgid "Previews"
+@@ -553,7 +650,7 @@
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:266(term)
+ msgid "Original and Rotated"
+-msgstr ""
++msgstr "Original och roterad"
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:268(para)
+ msgid ""
+@@ -561,38 +658,45 @@
+ "Rotated preview displays color changes interactively, before they are "
+ "applied to the Image."
+ msgstr ""
++"Originalförhandsvisningen visar en miniatyrbild av originalbilden och den "
++"roterade förhandsvisningen visar färgändringar interaktivt innan de tillämpas "
++"på bilden."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:276(term)
+ msgid "Continuous Update"
+-msgstr ""
++msgstr "Kontinuerlig uppdatering"
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:278(para)
+ msgid ""
+ "<guilabel>Continuous Update</guilabel> displays color changes continuously "
+ "in the Rotated preview."
+ msgstr ""
++"<guilabel>Kontinuerlig uppdatering</guilabel> visar färgändringar löpande i "
++"den roterade förhandsvisningen."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:284(term)
+ msgid "Area"
+-msgstr ""
++msgstr "Område"
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:286(para)
+ msgid "In this drop down list, you can select between"
+-msgstr ""
++msgstr "I denna listruta kan du välja mellan"
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:291(para)
+ msgid ""
+ "<guilabel>Entire Layer</guilabel>: works on the whole layer (The image if "
+ "there is no selection)."
+ msgstr ""
++"<guilabel>Hela lagret</guilabel>: verkar på hela lagret, eller bilden om det "
++"inte finns någon markering."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:296(para)
+ msgid "<guilabel>Selection</guilabel>: displays selection only."
+-msgstr ""
++msgstr "<guilabel>Markering</guilabel>: visar endast markeringen."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:300(para)
+ msgid "<guilabel>Context</guilabel>: displays selection in image context."
+-msgstr ""
++msgstr "<guilabel>Sammanhang</guilabel>: visar markeringen i bildsammanhang."
+ 
+ #: src/menus/colors/map/rotate-colormap.xml:310(title)
+ msgid "Units"
+@@ -604,6 +708,10 @@
+ "Saturation circle. This choice is valid only for the current filter session: "
+ "don\"t click on Valid just after selecting unit, return to the wanted tab!"
+ msgstr ""
++"Här kan du välja den vinkelenhet som används för att lokalisera färger i "
++"cirkeln Nyans/mättnad. Valet gäller bara för den aktuella filtersessionen: "
++"klicka inte på Verkställ direkt efter att du valt enhet, utan återgå till "
++"önskad flik!"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -635,15 +743,15 @@
+ #: src/menus/colors/map/rearrange-colormap.xml:20(title)
+ #: src/menus/colors/map/rearrange-colormap.xml:26(primary)
+ msgid "Rearrange Colormap"
+-msgstr ""
++msgstr "Ordna om färgkarta"
+ 
+ #: src/menus/colors/map/rearrange-colormap.xml:23(secondary)
+ msgid "Rearrange"
+-msgstr ""
++msgstr "Ordna om"
+ 
+ #: src/menus/colors/map/rearrange-colormap.xml:29(title)
+ msgid "The <quote>Rearrange Colormap</quote> window"
+-msgstr ""
++msgstr "Fönstret <quote>Ordna om färgkarta</quote>"
+ 
+ #: src/menus/colors/map/rearrange-colormap.xml:39(para)
+ msgid ""
+@@ -652,6 +760,10 @@
+ "add or remove colors; for that, see <link linkend=\"gimp-indexed-palette-"
+ "dialog\">The Indexed Palette Dialog </link>."
+ msgstr ""
++"Kommandot låter dig ordna om färgerna i paletten för <emphasis>indexerade</"
++"emphasis> bilder. Det ändrar inte bilden. Du kan inte lägga till eller ta "
++"bort färger; se <link linkend=\"gimp-indexed-palette-dialog\">Dialogrutan "
++"Indexerad palett</link>."
+ 
+ #: src/menus/colors/map/rearrange-colormap.xml:47(title)
+ msgid "Activate Dialog"
+@@ -664,10 +776,14 @@
+ "guisubmenu><guimenuitem>Rearrange Colormap</guimenuitem></menuchoice>. If "
+ "your image is not indexed, this command is grayed out and disabled."
+ msgstr ""
++"Du kommer åt kommandot från bildens menyrad via <menuchoice><guimenu>Färger</"
++"guimenu><guisubmenu>Avbilda</guisubmenu><guimenuitem>Ordna om färgkarta</"
++"guimenuitem></menuchoice>. Om bilden inte är indexerad är kommandot nedtonat "
++"och inaktiverat."
+ 
+ #: src/menus/colors/map/rearrange-colormap.xml:59(title)
+ msgid "Using the <quote>Rearrange Colormap</quote> dialog"
+-msgstr ""
++msgstr "Använda dialogrutan <quote>Ordna om färgkarta</quote>"
+ 
+ #: src/menus/colors/map/rearrange-colormap.xml:62(para)
+ msgid ""
+@@ -675,10 +791,13 @@
+ "to rearrange the colormap. You can sort colors in various ways by using the "
+ "local pop-menu that you get by right-clicking:"
+ msgstr ""
++"Förklaringarna i dialogfönstret räcker: dra och släpp färger för att ordna om "
++"färgkartan. Du kan sortera färger på olika sätt med snabbmenyn som visas när "
++"du högerklickar:"
+ 
+ #: src/menus/colors/map/rearrange-colormap.xml:68(title)
+ msgid "The <quote>Rearrange Colormap</quote> pop-menu"
+-msgstr ""
++msgstr "Snabbmenyn <quote>Ordna om färgkarta</quote>"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -713,12 +832,12 @@
+ #: src/menus/colors/map/palettemap.xml:19(tertiary)
+ #: src/menus/colors/map/palettemap.xml:22(primary)
+ msgid "Palette Map"
+-msgstr ""
++msgstr "Palettkarta"
+ 
+ #: src/menus/colors/map/palettemap.xml:18(secondary)
+ #: src/menus/colors/map/gradientmap.xml:28(secondary)
+ msgid "Map"
+-msgstr ""
++msgstr "Avbilda"
+ 
+ #: src/menus/colors/map/palettemap.xml:26(para)
+ msgid ""
+@@ -726,6 +845,9 @@
+ "you choose in <menuchoice><guimenu>Dialogs</guimenu><guimenuitem>Palettes</"
+ "guimenuitem></menuchoice>."
+ msgstr ""
++"Insticksmodulen färglägger om bilden med färger från den aktiva palett som "
++"du väljer i <menuchoice><guimenu>Dialogrutor</guimenu><guimenuitem>Paletter</"
++"guimenuitem></menuchoice>."
+ 
+ #: src/menus/colors/map/palettemap.xml:34(para)
+ msgid ""
+@@ -735,6 +857,11 @@
+ "pixel becomes the lowest palette entry, and complete white becomes the "
+ "highest. Works on both Grayscale and RGB image with/without alpha channel."
+ msgstr ""
++"Den avbildar innehållet i det angivna ritytan, lager eller markering, med den "
++"aktiva paletten. Den beräknar ljusstyrkan för varje bildpunkt och ersätter "
++"bildpunkten med palettprovet vid motsvarande index. En helt svart bildpunkt "
++"blir den lägsta palettposten och en helt vit blir den högsta. Fungerar på "
++"både gråskale- och RGB-bilder med eller utan alfakanal."
+ 
+ #: src/menus/colors/map/palettemap.xml:45(para)
+ msgid ""
+@@ -742,6 +869,9 @@
+ "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+ "guisubmenu><guimenuitem>Palette Map</guimenuitem></menuchoice>."
+ msgstr ""
++"Du kommer åt filtret i bildfönstrets meny under <menuchoice><guimenu>Färger</"
++"guimenu><guisubmenu>Avbilda</guisubmenu><guimenuitem>Palettkarta</"
++"guimenuitem></menuchoice>."
+ 
+ #: src/menus/colors/map/palettemap.xml:55(title)
+ msgid "Example"
+@@ -749,11 +879,11 @@
+ 
+ #: src/menus/colors/map/palettemap.xml:58(phrase)
+ msgid "The active palette is applied to a gradient image"
+-msgstr ""
++msgstr "Den aktiva paletten tillämpas på en toningsbild"
+ 
+ #: src/menus/colors/map/palettemap.xml:68(para)
+ msgid "The current palette, with 18 colors"
+-msgstr ""
++msgstr "Den aktuella paletten med 18 färger"
+ 
+ #: src/menus/colors/map/palettemap.xml:79(para)
+ msgid ""
+@@ -763,6 +893,10 @@
+ "replaces the white color in the gradient. The other colors spread out in the "
+ "order of the palette."
+ msgstr ""
++"Den aktiva palettens färger tillämpas på en svartvit toning. Färgen med "
++"lägst index i paletten, orange, ersätter den svarta färgen i toningen. Färgen "
++"med högst index, röd, ersätter den vita färgen. De andra färgerna sprids ut i "
++"palettens ordning."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -778,11 +912,11 @@
+ #: src/menus/colors/map/gradientmap.xml:29(tertiary)
+ #: src/menus/colors/map/gradientmap.xml:32(primary)
+ msgid "Gradient Map"
+-msgstr ""
++msgstr "Toningskarta"
+ 
+ #: src/menus/colors/map/gradientmap.xml:40(phrase)
+ msgid "Example of gradient map"
+-msgstr ""
++msgstr "Exempel på toningskarta"
+ 
+ #: src/menus/colors/map/gradientmap.xml:47(para)
+ msgid ""
+@@ -790,6 +924,9 @@
+ "Bottom: result of applying the gradient to the original image with the "
+ "Gradient Map filter."
+ msgstr ""
++"Exempel på toningsavbildning. Överst: originalbilden. I mitten: en toning. "
++"Längst ned: resultatet av att tillämpa toningen på originalbilden med filtret "
++"Toningskarta."
+ 
+ #: src/menus/colors/map/gradientmap.xml:55(para)
+ msgid ""
+@@ -804,6 +941,15 @@
+ "lightest pixels to the right end color from the gradient. Intermediate "
+ "values are set to the corresponding intermediate colors."
+ msgstr ""
++"Filtret använder den aktuella toningen, som visas i verktygslådans område "
++"Pensel/mönster/toning, för att färglägga om det aktiva lagret eller "
++"markeringen i bilden. Välj först en toning i <link linkend=\"gimp-gradient-"
++"dialog\">Toningsdialogrutan</link>. Markera sedan den del av bilden som du "
++"vill ändra och aktivera filtret. Filtret körs automatiskt utan dialogruta och "
++"utan ytterligare inmatning. Det använder bildens färgintensiteter (0–255) och "
++"avbildar de mörkaste bildpunkterna på toningens vänstra ändfärg och de "
++"ljusaste på dess högra ändfärg. Mellanvärden får motsvarande mellanliggande "
++"färger."
+ 
+ #: src/menus/colors/map/gradientmap.xml:73(para)
+ msgid ""
+@@ -811,6 +957,9 @@
+ "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+ "guisubmenu><guimenuitem>Gradient Map</guimenuitem></menuchoice>."
+ msgstr ""
++"Du hittar filtret i bildfönstrets meny under <menuchoice><guimenu>Färger</"
++"guimenu><guisubmenu>Avbilda</guisubmenu><guimenuitem>Toningskarta</"
++"guimenuitem></menuchoice>."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -836,24 +985,24 @@
+ #: src/menus/colors/map/exchange.xml:31(primary)
+ #: src/menus/colors/map/exchange.xml:39(quote)
+ msgid "Color Exchange"
+-msgstr ""
++msgstr "Färgbyte"
+ 
+ #: src/menus/colors/map/exchange.xml:28(secondary)
+ msgid "Exchange colors"
+-msgstr ""
++msgstr "Byt färger"
+ 
+ #: src/menus/colors/map/exchange.xml:39(phrase)
+ msgid "<placeholder-1/> filter example"
+-msgstr ""
++msgstr "Exempel på filtret <placeholder-1/>"
+ 
+ #: src/menus/colors/map/exchange.xml:55(para)
+ #: src/menus/colors/map/alienmap2.xml:55(para)
+ msgid "Filter applied"
+-msgstr ""
++msgstr "Filter tillämpat"
+ 
+ #: src/menus/colors/map/exchange.xml:59(para)
+ msgid "This filter replaces a color with another one."
+-msgstr ""
++msgstr "Filtret ersätter en färg med en annan."
+ 
+ #: src/menus/colors/map/exchange.xml:65(para)
+ msgid ""
+@@ -861,19 +1010,22 @@
+ "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+ "guisubmenu><guimenuitem>Color Exchange</guimenuitem></menuchoice>."
+ msgstr ""
++"Filtret finns i bildfönstrets meny under <menuchoice><guimenu>Färger</"
++"guimenu><guisubmenu>Avbilda</guisubmenu><guimenuitem>Färgbyte</guimenuitem></"
++"menuchoice>."
+ 
+ #: src/menus/colors/map/exchange.xml:77(quote)
+ msgid "Two color exchange"
+-msgstr ""
++msgstr "Tvåfärgbyte"
+ 
+ #: src/menus/colors/map/exchange.xml:76(phrase)
+ msgid "Option of the <placeholder-1/> filter"
+-msgstr ""
++msgstr "Alternativ för filtret <placeholder-1/>"
+ 
+ #: src/menus/colors/map/exchange.xml:88(term)
+ #: src/menus/colors/map/alienmap2.xml:92(term)
+ msgid "Preview"
+-msgstr ""
++msgstr "Förhandsvisning"
+ 
+ #: src/menus/colors/map/exchange.xml:90(para)
+ msgid ""
+@@ -881,12 +1033,16 @@
+ "preview will be complete in preview. A bigger one will be cut out to be "
+ "adapted to the preview."
+ msgstr ""
++"I förhandsvisningen visas en del av bilden. En markering som är mindre än "
++"förhandsvisningen visas helt, medan en större beskärs så att den passar."
+ 
+ #: src/menus/colors/map/exchange.xml:95(para)
+ msgid ""
+ "If you middle-click inside preview , the clicked pixel color will be "
+ "selected and will appear as From Color."
+ msgstr ""
++"Om du mittenklickar i förhandsvisningen markeras den klickade bildpunktens "
++"färg och visas som Från färg."
+ 
+ #: src/menus/colors/map/exchange.xml:104(term)
+ msgid "From color"
+@@ -896,7 +1052,7 @@
+ msgid ""
+ "In this section, you can choose the color to be used to select pixels that "
+ "will be concerned by color exchange."
+-msgstr ""
++msgstr "Här kan du välja färgen som används för att välja bildpunkter för färgbytet."
+ 
+ #: src/menus/colors/map/exchange.xml:110(para)
+ msgid ""
+@@ -905,6 +1061,10 @@
+ "slider acts on color intensity. Input boxes and arrowheads work the same. "
+ "Result is interactively displayed in the From swatch box."
+ msgstr ""
++"<guilabel>Tre reglage för RGB-färger</guilabel>: om du klickat i "
++"förhandsvisningen placeras de automatiskt, men du kan ändra dem. Varje "
++"reglage påverkar färgintensiteten. Inmatningsrutor och pilspetsar fungerar på "
++"samma sätt. Resultatet visas interaktivt i färgrutan Från."
+ 
+ #: src/menus/colors/map/exchange.xml:116(para)
+ msgid ""
+@@ -912,12 +1072,17 @@
+ "higher the threshold, the more pixels will be concerned. Result is "
+ "interactively displayed in Preview."
+ msgstr ""
++"<guilabel>Tre reglage för tröskelvärden</guilabel>, ett för varje färg. Ju "
++"högre tröskelvärde, desto fler bildpunkter påverkas. Resultatet visas "
++"interaktivt i förhandsvisningen."
+ 
+ #: src/menus/colors/map/exchange.xml:120(para)
+ msgid ""
+ "<guilabel>Lock Thresholds</guilabel>: This option locks threshold sliders "
+ "which will act all the same."
+ msgstr ""
++"<guilabel>Lås tröskelvärden</guilabel>: alternativet låser "
++"tröskelvärdesreglagen så att alla fungerar likadant."
+ 
+ #: src/menus/colors/map/exchange.xml:128(term)
+ msgid "To color"
+@@ -929,6 +1094,9 @@
+ "will have. Result is displayed in swatch box and in preview. You can also "
+ "click on the color dwell to get a color selector."
+ msgstr ""
++"<guilabel>Tre markörer</guilabel> låter dig välja färgen som bildpunkterna "
++"ska få. Resultatet visas i färgrutan och i förhandsvisningen. Du kan också "
++"klicka på färgrutan för att få en färgväljare."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -953,11 +1121,11 @@
+ #: src/menus/colors/map/alienmap2.xml:30(primary)
+ #: src/menus/colors/map/alienmap2.xml:81(quote)
+ msgid "Alien Map"
+-msgstr ""
++msgstr "Alien Map"
+ 
+ #: src/menus/colors/map/alienmap2.xml:38(phrase)
+ msgid "Alien Map filter example"
+-msgstr ""
++msgstr "Exempel på filtret Alien Map"
+ 
+ #: src/menus/colors/map/alienmap2.xml:59(para)
+ msgid ""
+@@ -965,6 +1133,9 @@
+ "functions. Alien Map can work on images having <link linkend=\"glossary-"
+ "colormodel\">RGB and HSV</link> color models."
+ msgstr ""
++"Filtret återger starkt förändrade färger genom att tillämpa trigonometriska "
++"funktioner. Alien Map kan användas på bilder med färgmodellerna <link "
++"linkend=\"glossary-colormodel\">RGB och HSV</link>."
+ 
+ #: src/menus/colors/map/alienmap2.xml:69(para)
+ msgid ""
+@@ -972,14 +1143,17 @@
+ "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+ "guisubmenu><guimenuitem>Alien Map</guimenuitem></menuchoice>."
+ msgstr ""
++"Du hittar filtret i bildfönstrets meny under <menuchoice><guimenu>Färger</"
++"guimenu><guisubmenu>Avbilda</guisubmenu><guimenuitem>Alien Map</guimenuitem>"
++"</menuchoice>."
+ 
+ #: src/menus/colors/map/alienmap2.xml:80(phrase)
+ msgid "Options for the <placeholder-1/> filter"
+-msgstr ""
++msgstr "Alternativ för filtret <placeholder-1/>"
+ 
+ #: src/menus/colors/map/alienmap2.xml:94(para)
+ msgid "This preview displays results of filter application interactively."
+-msgstr ""
++msgstr "Förhandsvisningen visar resultatet av filtertillämpningen interaktivt."
+ 
+ #: src/menus/colors/map/alienmap2.xml:100(term)
+ msgid "Mode"
+@@ -990,22 +1164,29 @@
+ "Radio buttons <guilabel>RGB Color Channel</guilabel> and <guilabel>HSV Color "
+ "Channel</guilabel> let you select the color space you want to use."
+ msgstr ""
++"Radioknapparna <guilabel>RGB-färgkanal</guilabel> och <guilabel>HSV-"
++"färgkanal</guilabel> låter dig välja den färgrymd du vill använda."
+ 
+ #: src/menus/colors/map/alienmap2.xml:107(para)
+ msgid ""
+ "Check boxes <guilabel>Modify ... Channel</guilabel> let you select RGB/HSV "
+ "Channel you want to work with."
+ msgstr ""
++"Kryssrutorna <guilabel>Ändra …-kanal</guilabel> låter dig välja den RGB-/"
++"HSV-kanal du vill arbeta med."
+ 
+ #: src/menus/colors/map/alienmap2.xml:114(term)
+ msgid "Sliders"
+-msgstr ""
++msgstr "Reglage"
+ 
+ #: src/menus/colors/map/alienmap2.xml:116(para)
+ msgid ""
+ "For each channel, you can set Frequency (0-5) and Phaseshift (0-360) of sine-"
+ "cosine functions, using either sliders or input boxes and their arrowheads."
+ msgstr ""
++"För varje kanal kan du ange frekvens (0–5) och fasförskjutning (0–360) för "
++"sinus- och cosinusfunktioner med reglage eller inmatningsrutor och deras "
++"pilspetsar."
+ 
+ #: src/menus/colors/map/alienmap2.xml:121(para)
+ msgid ""
+@@ -1015,6 +1196,10 @@
+ "variation in pixel transformation, meaning that the image will get more and "
+ "more <quote>alien</quote>."
+ msgstr ""
++"<guilabel>Frekvens</guilabel> omkring 0,3–0,7 ger en kurva som liknar den "
++"linjära funktionen, originalbilden, men är mörkare eller har högre kontrast. "
++"När du höjer frekvensen ökar variationen i bildpunktsomvandlingen, vilket "
++"innebär att bilden blir alltmer <quote>utomjordisk</quote>."
+ 
+ #: src/menus/colors/map/alienmap2.xml:128(para)
+ msgid ""
+@@ -1022,6 +1207,9 @@
+ "degrees are the same as a sine function and 90 is the same as a cosine "
+ "function. 180 inverts sine and 270 inverts cosine."
+ msgstr ""
++"<guilabel>Fas</guilabel> ändrar värdeomvandlingen. 0 och 360 grader är "
++"samma som en sinusfunktion och 90 är samma som en cosinusfunktion. 180 "
++"inverterar sinus och 270 inverterar cosinus."
+ 
+ #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+ #: src/menus/colors/map/alienmap2.xml:0(None)

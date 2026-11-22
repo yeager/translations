@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 23:26 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 23:35 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -86,7 +86,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~file/sv/) | master | 38 | 35 | 172 | Behöver arbete | Klar lokalt (2026-11-23): Alla användarvisade filmenyposter är lokalt översatta och fuzzy-fria; endast uttryckligen icke-översättbara bildhashar återstår. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/menus~file/gimp-help.master.menus-file.sv.original.po), [granskad](gimp-help/master/menus~file/gimp-help.master.menus-file.sv.reviewed.po), [diff](gimp-help/master/menus~file/gimp-help.master.menus-file.sv.review.diff), [notering](gimp-help/master/menus~file/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/menus~file/sv/) | gimp-help-3-0 | 39 | 31 | 169 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/menus~colors~map/sv/) | gimp-help-3-0 | 12 | 26 | 133 | Behöver arbete | Ej granskad |
-| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~colors~map/sv/) | master | 11 | 24 | 132 | Behöver arbete | Ej granskad |
+| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~colors~map/sv/) | master | 11 | 24 | 132 | Behöver arbete | Klar lokalt (2026-11-23): Alla användarvisade färgavbildningsposter är lokalt översatta och fuzzy-fria; bildhashar är uttryckligen icke-översättbara. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/menus~colors~map/gimp-help.master.menus-colors-map.sv.original.po), [granskad](gimp-help/master/menus~colors~map/gimp-help.master.menus-colors-map.sv.reviewed.po), [diff](gimp-help/master/menus~colors~map/gimp-help.master.menus-colors-map.sv.review.diff), [notering](gimp-help/master/menus~colors~map/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/filters~generic/sv/) | gimp-help-3-0 | 171 | 13 | 120 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/filters~web/sv/) | gimp-help-2-10 | 15 | 10 | 117 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/menus~colors~components/sv/) | gimp-help-2-10 | 14 | 28 | 116 | Behöver arbete | Ej granskad |
