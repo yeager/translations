@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 09:16 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 09:22 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -191,7 +191,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [gnome-commander](https://l10n.gnome.org/vertimus/gnome-commander/main/po/sv/) | main | 1879 | 3 | 0 | Behöver arbete | Klar lokalt (2026-11-22): Alla aktuella fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](gnome-commander/main/po/gnome-commander.main.sv.original.po), [granskad](gnome-commander/main/po/gnome-commander.main.sv.reviewed.po), [diff](gnome-commander/main/po/gnome-commander.main.sv.review.diff), [notering](gnome-commander/main/po/README.md) |
 | Dokumentation | Default (71% translated) | [gnome-commander](https://l10n.gnome.org/vertimus/gnome-commander/main/help/sv/) | main | 3112 | 3 | 0 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-commander](https://l10n.gnome.org/vertimus/gnome-commander/gcmd-2-2/help/sv/) | gcmd-2-2 | 3112 | 3 | 0 | Behöver arbete | Ej granskad |
-| Gränssnitt | Default (99% translated) | [rygel](https://l10n.gnome.org/vertimus/rygel/master/po/sv/) | master | 276 | 3 | 0 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [rygel](https://l10n.gnome.org/vertimus/rygel/master/po/sv/) | master | 276 | 3 | 0 | Behöver arbete | Klar lokalt (2026-11-22): Alla aktuella fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](rygel/master/po/rygel.master.sv.original.po), [granskad](rygel/master/po/rygel.master.sv.reviewed.po), [diff](rygel/master/po/rygel.master.sv.review.diff), [notering](rygel/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-commander](https://l10n.gnome.org/vertimus/gnome-commander/gcmd-2-2/po/sv/) | gcmd-2-2 | 1880 | 2 | 0 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [goffice](https://l10n.gnome.org/vertimus/goffice/master/po/sv/) | master | 1823 | 2 | 0 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gtk-doc](https://l10n.gnome.org/vertimus/gtk-doc/master/help/sv/) | master | 560 | 2 | 0 | Behöver arbete | Ej granskad |
@@ -659,7 +659,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [gnome-network-displays](https://l10n.gnome.org/vertimus/gnome-network-displays/master/po/sv/) | master | 35 | 0 | 0 | Klar | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-news](https://l10n.gnome.org/module/gnome-news/) | master | 35 | 0 | 0 | Klar | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-nibbles](https://l10n.gnome.org/vertimus/gnome-nibbles/release-4-5/po/sv/) | release-4-5 | 396 | 0 | 0 | Klar | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-nibbles](https://l10n.gnome.org/vertimus/gnome-nibbles/master/po/sv/) | master | 506 | 0 | 0 | Klar | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-nibbles](https://l10n.gnome.org/vertimus/gnome-nibbles/master/po/sv/) | master | 501 | 0 | 0 | Klar | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-nibbles](https://l10n.gnome.org/vertimus/gnome-nibbles/release-4-1/po/sv/) | release-4-1 | 177 | 0 | 0 | Klar | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-nibbles](https://l10n.gnome.org/vertimus/gnome-nibbles/release-4-1/help/sv/) | release-4-1 | 76 | 0 | 0 | Klar | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-nibbles](https://l10n.gnome.org/vertimus/gnome-nibbles/release-4-5/help/sv/) | release-4-5 | 76 | 0 | 0 | Klar | Ej granskad |
