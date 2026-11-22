@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 23:10 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 23:17 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -63,7 +63,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/concepts/sv/) | gimp-help-3-0 | 844 | 300 | 267 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~select/sv/) | master | 12 | 22 | 255 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/toolbox~selection/sv/) | master | 21 | 57 | 252 | Behöver arbete | Ej granskad |
-| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters~blur/sv/) | master | 6 | 38 | 250 | Behöver arbete | Ej granskad |
+| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters~blur/sv/) | master | 6 | 38 | 250 | Behöver arbete | Klar lokalt (2026-11-23): Alla användarvisade oskärpefilterposter är lokalt översatta och fuzzy-fria; bildhashar är uttryckligen icke-översättbara. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/filters~blur/gimp-help.master.filters-blur.sv.original.po), [granskad](gimp-help/master/filters~blur/gimp-help.master.filters-blur.sv.reviewed.po), [diff](gimp-help/master/filters~blur/gimp-help.master.filters-blur.sv.review.diff), [notering](gimp-help/master/filters~blur/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/filters~blur/sv/) | gimp-help-3-0 | 7 | 38 | 250 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/toolbox~selection/sv/) | gimp-help-3-0 | 25 | 57 | 249 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/glossary/sv/) | master | 89 | 23 | 248 | Behöver arbete | Ej granskad |

@@ -1,0 +1,765 @@
+--- gimp-help.master.filters-blur.sv.original.po
++++ gimp-help.master.filters-blur.sv.reviewed.po
+@@ -3,7 +3,8 @@
+ "Project-Id-Version: blur\n"
+ "POT-Creation-Date: 2009-04-21 13:33+0200\n"
+ "PO-Revision-Date: 2009-02-17 03:28+0100\n"
+-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
++"Language: sv\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -45,7 +46,7 @@
+ #: src/filters/blur/tileable.xml:18(tertiary)
+ #: src/filters/blur/tileable.xml:21(primary)
+ msgid "Tileable Blur"
+-msgstr ""
++msgstr "Sömlös oskärpa"
+ 
+ #: src/filters/blur/tileable.xml:16(primary)
+ #: src/filters/blur/pixelise.xml:26(primary)
+@@ -68,7 +69,7 @@
+ #: src/filters/blur/blur.xml:28(tertiary)
+ #: src/filters/blur/blur.xml:31(primary)
+ msgid "Blur"
+-msgstr ""
++msgstr "Oskärpa"
+ 
+ #: src/filters/blur/tileable.xml:25(title)
+ #: src/filters/blur/pixelise.xml:35(phrase)
+@@ -79,20 +80,19 @@
+ msgstr "Översikt"
+ 
+ #: src/filters/blur/tileable.xml:27(title)
+-#, fuzzy
+ msgid "Example for the <quote>Tileable</quote> filter"
+-msgstr "Exempel för filtret <placeholder-1/>"
++msgstr "Exempel på filtret <quote>Sömlös</quote>"
+ 
+ #: src/filters/blur/tileable.xml:33(para)
+ #: src/filters/blur/pixelise.xml:48(para) src/filters/blur/gauss.xml:49(para)
+ #: src/filters/blur/gauss_select.xml:32(para)
+ #: src/filters/blur/blur.xml:48(para)
+ msgid "Original"
+-msgstr ""
++msgstr "Original"
+ 
+ #: src/filters/blur/tileable.xml:41(para)
+ msgid "Filter <quote>Tileable Blur</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Sömlös oskärpa</quote> tillämpat"
+ 
+ #: src/filters/blur/tileable.xml:45(para)
+ msgid ""
+@@ -100,24 +100,34 @@
+ "It does this by blending and blurring the boundary between images that will "
+ "be next to each other after tiling."
+ msgstr ""
++"Det här verktyget används för att mjuka upp skarvar mellan bildplattor i "
++"bilder som används som kaklade bakgrunder. Det gör det genom att blanda och "
++"göra gränsen mellan bilder som kommer att ligga bredvid varandra efter "
++"plattläggningen oskarp."
+ 
+ #: src/filters/blur/tileable.xml:51(para)
+ msgid ""
+ "If you want to treat only images borders, you can't apply filter to the "
+ "whole image. The solution to get the wanted effect is as follows:"
+ msgstr ""
++"Om du bara vill behandla bildens kanter kan du inte tillämpa filtret på hela "
++"bilden. Gör så här för att få önskad effekt:"
+ 
+ #: src/filters/blur/tileable.xml:58(para)
+ msgid ""
+ "Duplicate layer (<menuchoice><guimenu>Layer</guimenu><guimenuitem>Duplicate "
+ "Layer</guimenuitem></menuchoice>) and select it to work on it."
+ msgstr ""
++"Duplicera lagret (<menuchoice><guimenu>Lager</guimenu><guimenuitem>Duplicera "
++"lager</guimenuitem></menuchoice>) och markera det för att arbeta med det."
+ 
+ #: src/filters/blur/tileable.xml:68(para)
+ msgid ""
+ "Apply <quote>Tileable Blur</quote> filter with a 20 pixels radius to this "
+ "layer."
+ msgstr ""
++"Tillämpa filtret <quote>Sömlös oskärpa</quote> med radien 20 bildpunkter på "
++"detta lager."
+ 
+ #: src/filters/blur/tileable.xml:74(para)
+ msgid ""
+@@ -126,6 +136,9 @@
+ "guimenu><guimenuitem>Shrink</guimenuitem></menuchoice>) to create a border "
+ "with the wanted width."
+ msgstr ""
++"Markera allt (<keycombo><keycap>Ctrl</keycap><keycap>A</keycap></keycombo>) "
++"och krymp markeringen (<menuchoice><guimenu>Markera</guimenu><guimenuitem>"
++"Krymp</guimenuitem></menuchoice>) för att skapa en kant med önskad bredd."
+ 
+ #: src/filters/blur/tileable.xml:86(para)
+ msgid ""
+@@ -133,18 +146,24 @@
+ "<menuchoice><guimenu>Selection</guimenu><guimenuitem>Feather</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
++"Ge markeringen en mjuk kant med <menuchoice><guimenu>Markera</guimenu>"
++"<guimenuitem>Mjuka upp</guimenuitem></menuchoice>."
+ 
+ #: src/filters/blur/tileable.xml:95(para)
+ msgid ""
+ "Delete selection with <keycombo><keycap>Ctrl</keycap><keycap>K</keycap></"
+ "keycombo>."
+ msgstr ""
++"Ta bort markeringen med <keycombo><keycap>Ctrl</keycap><keycap>K</keycap></"
++"keycombo>."
+ 
+ #: src/filters/blur/tileable.xml:101(para)
+ msgid ""
+ "Merge layers with <menuchoice><guimenu>Layer</guimenu><guimenuitem>Merge "
+ "down</guimenuitem></menuchoice>."
+ msgstr ""
++"Sammanfoga lagren med <menuchoice><guimenu>Lager</guimenu><guimenuitem>"
++"Sammanfoga nedåt</guimenuitem></menuchoice>."
+ 
+ #: src/filters/blur/tileable.xml:114(title)
+ #: src/filters/blur/pixelise.xml:69(phrase)
+@@ -160,6 +179,9 @@
+ "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</"
+ "guisubmenu><guimenuitem>Tileable Blur</guimenuitem></menuchoice>."
+ msgstr ""
++"Du hittar filtret i bildmenyn under <menuchoice><guimenu>Filter</guimenu>"
++"<guisubmenu>Oskärpa</guisubmenu><guimenuitem>Sömlös oskärpa</guimenuitem></"
++"menuchoice>."
+ 
+ #: src/filters/blur/tileable.xml:126(title)
+ #: src/filters/blur/pixelise.xml:78(phrase)
+@@ -170,12 +192,12 @@
+ 
+ #: src/filters/blur/tileable.xml:128(title)
+ msgid "<quote>Tileable Blur</quote> filter options"
+-msgstr ""
++msgstr "Filteralternativ för <quote>Sömlös oskärpa</quote>"
+ 
+ #: src/filters/blur/tileable.xml:138(term) src/filters/blur/gauss.xml:98(term)
+ #: src/filters/blur/gauss_select.xml:80(term)
+ msgid "Blur Radius"
+-msgstr ""
++msgstr "Oskärperadie"
+ 
+ #: src/filters/blur/tileable.xml:140(para)
+ msgid ""
+@@ -183,39 +205,42 @@
+ "<guilabel>Horizontal</guilabel> and <guilabel>Vertical</guilabel>, you can "
+ "make the horizontal and vertical borders tileable."
+ msgstr ""
++"Ju större radie, desto tydligare blir oskärpan. Genom att välja "
++"<guilabel>Horisontellt</guilabel> och <guilabel>Vertikalt</guilabel> kan du "
++"göra de vågräta och lodräta kanterna sömlösa."
+ 
+ #: src/filters/blur/tileable.xml:148(term)
+ msgid "Blur vertically / horizontally"
+-msgstr ""
++msgstr "Gör oskarp lodrätt/vågrätt"
+ 
+ #: src/filters/blur/tileable.xml:150(para)
+ msgid "These options are self-explanatory."
+-msgstr ""
++msgstr "Dessa alternativ är självförklarande."
+ 
+ #: src/filters/blur/tileable.xml:156(term)
+ #: src/filters/blur/mblur.xml:112(term)
+ msgid "Blur Type"
+-msgstr ""
++msgstr "Typ av oskärpa"
+ 
+ #: src/filters/blur/tileable.xml:158(para)
+ msgid "Choose the algorithm to be applied:"
+-msgstr ""
++msgstr "Välj den algoritm som ska tillämpas:"
+ 
+ #: src/filters/blur/tileable.xml:161(term)
+ msgid "IIR"
+-msgstr ""
++msgstr "IIR"
+ 
+ #: src/filters/blur/tileable.xml:163(para)
+ msgid "for photographic or scanned images."
+-msgstr ""
++msgstr "för fotografiska eller skannade bilder."
+ 
+ #: src/filters/blur/tileable.xml:167(term)
+ msgid "RLE"
+-msgstr ""
++msgstr "RLE"
+ 
+ #: src/filters/blur/tileable.xml:169(para)
+ msgid "for computer-generated images."
+-msgstr ""
++msgstr "för datorgenererade bilder."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -241,13 +266,13 @@
+ #: src/filters/blur/pixelise.xml:28(tertiary)
+ #: src/filters/blur/pixelise.xml:31(primary)
+ msgid "Pixelise"
+-msgstr ""
++msgstr "Pixelisera"
+ 
+ #: src/filters/blur/pixelise.xml:40(quote)
+ #: src/filters/blur/pixelise.xml:82(quote)
+ #: src/filters/blur/introduction.xml:94(title)
+ msgid "Pixelize"
+-msgstr ""
++msgstr "Pixelisera"
+ 
+ #: src/filters/blur/pixelise.xml:39(phrase)
+ #: src/filters/blur/gauss.xml:40(phrase)
+@@ -258,7 +283,7 @@
+ #: src/filters/blur/gauss_select.xml:41(para)
+ #: src/filters/blur/blur.xml:56(para)
+ msgid "Blur applied"
+-msgstr ""
++msgstr "Oskärpa tillämpad"
+ 
+ #: src/filters/blur/pixelise.xml:60(para)
+ msgid ""
+@@ -267,6 +292,10 @@
+ "trial. It is used for the <quote>Abraham Lincoln effect</quote>: see <xref "
+ "linkend=\"bibliography-online-bach\"/>."
+ msgstr ""
++"Filtret Pixelisera återger bilden med stora färgblock. Det liknar mycket den "
++"effekt som syns i tv när en brottsling döljs under en rättegång. Det används "
++"för <quote>Abraham Lincoln-effekten</quote>; se <xref linkend=\"bibliography-"
++"online-bach\"/>."
+ 
+ #: src/filters/blur/pixelise.xml:71(para)
+ msgid ""
+@@ -274,45 +303,50 @@
+ "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</"
+ "guisubmenu><guimenuitem>Pixelise</guimenuitem></menuchoice>"
+ msgstr ""
++"Du hittar filtret i bildmenyn under <menuchoice><guimenu>Filter</guimenu>"
++"<guisubmenu>Oskärpa</guisubmenu><guimenuitem>Pixelisera</guimenuitem></"
++"menuchoice>"
+ 
+ #: src/filters/blur/pixelise.xml:82(phrase)
+ #: src/filters/blur/mblur.xml:101(phrase)
+ msgid "<placeholder-1/> filter options"
+-msgstr ""
++msgstr "Filteralternativ för <placeholder-1/>"
+ 
+ #: src/filters/blur/pixelise.xml:93(term)
+ msgid "Pixel Width"
+-msgstr ""
++msgstr "Bildpunktsbredd"
+ 
+ #: src/filters/blur/pixelise.xml:95(para)
+ msgid "Here you can set the desired width of the blocks."
+-msgstr ""
++msgstr "Här kan du ange önskad bredd för blocken."
+ 
+ #: src/filters/blur/pixelise.xml:101(term)
+ msgid "Pixel Height"
+-msgstr ""
++msgstr "Bildpunktshöjd"
+ 
+ #: src/filters/blur/pixelise.xml:103(para)
+ msgid "Here you can set the height of the blocks."
+-msgstr ""
++msgstr "Här kan du ange blockens höjd."
+ 
+ #: src/filters/blur/pixelise.xml:107(term)
+ msgid "Chain Button"
+-msgstr ""
++msgstr "Kedjeknapp"
+ 
+ #: src/filters/blur/pixelise.xml:109(para)
+ msgid ""
+ "If the chain is broken, you can set width and height separately. Otherwise, "
+ "they are linked."
+ msgstr ""
++"Om kedjan är bruten kan du ange bredd och höjd var för sig. Annars är de "
++"länkade."
+ 
+ #: src/filters/blur/pixelise.xml:116(term)
+ msgid "Unit Input Box"
+-msgstr ""
++msgstr "Inmatningsruta för enhet"
+ 
+ #: src/filters/blur/pixelise.xml:118(para)
+ msgid "Here you can select the unit of measure for height and width."
+-msgstr ""
++msgstr "Här kan du välja måttenhet för höjd och bredd."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -357,11 +391,11 @@
+ #: src/filters/blur/mblur.xml:30(primary)
+ #: src/filters/blur/mblur.xml:101(quote)
+ msgid "Motion Blur"
+-msgstr ""
++msgstr "Rörelseoskärpa"
+ 
+ #: src/filters/blur/mblur.xml:38(phrase)
+ msgid "Starting example for Motion Blur filter"
+-msgstr ""
++msgstr "Utgångsexempel för filtret Rörelseoskärpa"
+ 
+ #: src/filters/blur/mblur.xml:47(para)
+ msgid "Original image"
+@@ -369,19 +403,19 @@
+ 
+ #: src/filters/blur/mblur.xml:55(para)
+ msgid "Linear blur"
+-msgstr ""
++msgstr "Linjär oskärpa"
+ 
+ #: src/filters/blur/mblur.xml:61(phrase)
+ msgid "Using example for Motion Blur filter"
+-msgstr ""
++msgstr "Exempel på användning av filtret Rörelseoskärpa"
+ 
+ #: src/filters/blur/mblur.xml:68(para)
+ msgid "Radial blur"
+-msgstr ""
++msgstr "Radiell oskärpa"
+ 
+ #: src/filters/blur/mblur.xml:76(para)
+ msgid "Zoom blur"
+-msgstr ""
++msgstr "Zoomoskärpa"
+ 
+ #: src/filters/blur/mblur.xml:80(para)
+ msgid ""
+@@ -389,6 +423,9 @@
+ "Linear, Radial, and Zoom movements. Each of these movements can be further "
+ "adjusted, with Length, or Angle settings available."
+ msgstr ""
++"Filtret Rörelseoskärpa skapar rörelseoskärpa. Filtret kan skapa linjära, "
++"radiella och zoomande rörelser. Varje rörelse kan finjusteras med "
++"inställningarna Längd och Vinkel."
+ 
+ #: src/filters/blur/mblur.xml:90(para)
+ msgid ""
+@@ -396,6 +433,9 @@
+ "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</"
+ "guisubmenu><guimenuitem>Motion Blur</guimenuitem></menuchoice>"
+ msgstr ""
++"Du hittar filtret i bildmenyn under <menuchoice><guimenu>Filter</guimenu>"
++"<guisubmenu>Oskärpa</guisubmenu><guimenuitem>Rörelseoskärpa</guimenuitem></"
++"menuchoice>"
+ 
+ #: src/filters/blur/mblur.xml:116(term)
+ msgid "Linear"
+@@ -409,10 +449,15 @@
+ "actual angle of the movement. Thus, a setting of 90 will produce a vertical "
+ "blur, and a setting of 0 will produce a horizontal blur."
+ msgstr ""
++"Är en oskärpa som rör sig i en riktning, till exempel vågrätt. I detta fall "
++"har Längd samma betydelse som Radie i andra filter: den anger oskärpans "
++"styrka. Större längd ger mer oskärpa. Vinkel beskriver rörelsens faktiska "
++"vinkel. Inställningen 90 ger därför lodrät oskärpa, medan 0 ger vågrät "
++"oskärpa."
+ 
+ #: src/filters/blur/mblur.xml:132(term)
+ msgid "Radial"
+-msgstr ""
++msgstr "Radiell"
+ 
+ #: src/filters/blur/mblur.xml:134(para)
+ msgid ""
+@@ -422,6 +467,11 @@
+ "direction. The Radial motion blur is similar to the effect of a spinning "
+ "object. The center of the spin in this case, is the center of the image."
+ msgstr ""
++"Rörelseoskärpa som skapar en cirkelformad oskärpa. Reglaget Längd är inte "
++"viktigt för denna typ av oskärpa. Vinkel är däremot huvudinställningen som "
++"påverkar oskärpan. Större vinkel ger mer oskärpa i cirkelformad riktning. "
++"Radiell rörelseoskärpa liknar effekten hos ett snurrande objekt. "
++"Rotationens centrum är i detta fall bildens centrum."
+ 
+ #: src/filters/blur/mblur.xml:148(term)
+ msgid "Zoom"
+@@ -435,18 +485,23 @@
+ "into the image. Length is the main setting here, and affects the amount of "
+ "speed, as it were, toward the center of the image."
+ msgstr ""
++"Skapar en oskärpa som strålar ut från bildens centrum. Bildens centrum "
++"förblir relativt lugnt medan de yttre områdena blir oskarpa mot centrum. "
++"Filteralternativet ger intryck av en framåtrörelse in i bilden. Längd är "
++"huvudinställningen här och påverkar hur snabb rörelsen mot bildens centrum "
++"upplevs."
+ 
+ #: src/filters/blur/mblur.xml:165(term)
+ msgid "Blur settings"
+-msgstr ""
++msgstr "Oskärpeinställningar"
+ 
+ #: src/filters/blur/mblur.xml:169(term)
+ msgid "Length"
+-msgstr ""
++msgstr "Längd"
+ 
+ #: src/filters/blur/mblur.xml:171(para)
+ msgid "This slider controls the distance pixels are moved (1 - 256)"
+-msgstr ""
++msgstr "Detta reglage styr sträckan som bildpunkterna flyttas (1–256)."
+ 
+ #: src/filters/blur/mblur.xml:178(term)
+ msgid "Angle"
+@@ -454,11 +509,11 @@
+ 
+ #: src/filters/blur/mblur.xml:180(para)
+ msgid "As seen above, Angle slider effect depends on Blur type (0 - 360)."
+-msgstr ""
++msgstr "Som framgår ovan beror vinkelreglagets effekt på typen av oskärpa (0–360)."
+ 
+ #: src/filters/blur/mblur.xml:190(term)
+ msgid "Blur Center"
+-msgstr ""
++msgstr "Oskärpecentrum"
+ 
+ #: src/filters/blur/mblur.xml:192(para)
+ msgid ""
+@@ -467,6 +522,10 @@
+ "instance, you set rotation center. With Zoom Type, vanishing point. This "
+ "option is greyed out with Linear type."
+ msgstr ""
++"Med detta alternativ kan du ange rörelsens startpunkt. Effekten skiljer sig "
++"åt beroende på vilken typ av oskärpa du valt. Med den radiella typen anger du "
++"till exempel rotationscentrum, med zoomtypen flyktpunkten. Alternativet är "
++"nedtonat för den linjära typen."
+ 
+ #: src/filters/blur/mblur.xml:199(para)
+ msgid ""
+@@ -475,6 +534,10 @@
+ "you can see its coordinates in the lower left corner of the image window. "
+ "Only copy them out into the input boxes."
+ msgstr ""
++"Du måste ange oskärpecentrets koordinater. Tyvärr går det inte att göra det "
++"genom att klicka på bilden. Men när du flyttar muspekaren över bilden kan du "
++"se koordinaterna i bildfönstrets nedre vänstra hörn. Kopiera dem sedan till "
++"inmatningsrutorna."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -542,7 +605,7 @@
+ 
+ #: src/filters/blur/introduction.xml:18(title)
+ msgid "Original for demo"
+-msgstr ""
++msgstr "Original för demonstration"
+ 
+ #: src/filters/blur/introduction.xml:26(para)
+ msgid ""
+@@ -554,10 +617,17 @@
+ "are, of course, only examples: most of the filters have parameter settings "
+ "that allow you to vary the magnitude or type of blurring."
+ msgstr ""
++"Detta är en samling filter som gör bilder, eller delar av dem, oskarpa på "
++"olika sätt. Om det finns en markering görs bara de markerade delarna av "
++"bilden oskarpa. Färger från det skarpa området kan dock läcka in i det "
++"oskarpa området. För att hjälpa dig att välja illustrerar vi vad varje filter "
++"gör när det tillämpas på bilden till höger. Detta är naturligtvis bara "
++"exempel: de flesta filter har parameterinställningar som låter dig variera "
++"oskärpans grad eller typ."
+ 
+ #: src/filters/blur/introduction.xml:38(title)
+ msgid "Gaussian blur (radius 10)"
+-msgstr ""
++msgstr "Gaussisk oskärpa (radie 10)"
+ 
+ #: src/filters/blur/introduction.xml:46(para)
+ msgid ""
+@@ -566,10 +636,14 @@
+ "way.) It has an efficient implementation that allows it to create a very "
+ "blurry blur in a relatively short time."
+ msgstr ""
++"Det mest användbara av dessa filter är gaussisk oskärpa. (Låt inte ordet "
++"<quote>gaussisk</quote> avskräcka dig: filtret gör bilden oskarp på det mest "
++"grundläggande sättet.) Det har en effektiv implementering som kan skapa "
++"mycket kraftig oskärpa på relativt kort tid."
+ 
+ #: src/filters/blur/introduction.xml:55(title)
+ msgid "Simple blur"
+-msgstr ""
++msgstr "Enkel oskärpa"
+ 
+ #: src/filters/blur/introduction.xml:63(para)
+ msgid ""
+@@ -581,10 +655,18 @@
+ "you want a strong blurring effect, this filter is too slow to be a good "
+ "choice: use a Gaussian blur instead."
+ msgstr ""
++"Om du bara vill göra bilden lite oskarp, för att mjuka upp den, kan du "
++"använda det enkla filtret <quote>Oskärpa</quote>. Filtret körs automatiskt "
++"utan att någon dialogruta öppnas. Effekten är så diskret att du kanske inte "
++"ens märker den, men du kan få en starkare effekt genom att upprepa den. I "
++"GIMP 2.0 visar filtret en dialogruta där du kan ange ett "
++"<quote>upprepningsantal</quote>. Om du vill ha en stark oskärpeeffekt är "
++"filtret för långsamt för att vara ett bra val: använd gaussisk oskärpa i "
++"stället."
+ 
+ #: src/filters/blur/introduction.xml:74(title)
+ msgid "Selective blur"
+-msgstr ""
++msgstr "Selektiv oskärpa"
+ 
+ #: src/filters/blur/introduction.xml:82(para)
+ msgid ""
+@@ -595,6 +677,12 @@
+ "implementation is much slower than a Gaussian blur, though, so you should "
+ "not use it unless you really need the selectivity."
+ msgstr ""
++"Filtret Selektiv oskärpa låter dig ange ett tröskelvärde så att endast "
++"bildpunkter som liknar varandra görs oskarpa tillsammans. Det är ofta "
++"användbart för att minska kornighet i foton utan att göra skarpa kanter "
++"oskarpa. (Observera i exemplet att bakgrundens kornighet har minskat.) "
++"Implementeringen är dock mycket långsammare än gaussisk oskärpa, så använd "
++"den inte om du inte verkligen behöver selektiviteten."
+ 
+ #: src/filters/blur/introduction.xml:102(para)
+ msgid ""
+@@ -604,6 +692,11 @@
+ "a similar effect, but with irregular blobs instead of perfectly square "
+ "pixels.)"
+ msgstr ""
++"Filtret Pixelisera skapar den välkända <quote>Abraham Lincoln-effekten</"
++"quote> genom att omvandla bilden till stora fyrkantiga bildpunkter. (Filtret "
++"<link linkend=\"plug-in-oilify\">Oljemåla</link> i gruppen Konstnärliga "
++"filter har en liknande effekt, men med oregelbundna fläckar i stället för "
++"helt fyrkantiga bildpunkter.)"
+ 
+ #: src/filters/blur/introduction.xml:110(para)
+ msgid ""
+@@ -612,16 +705,22 @@
+ "painting <quote>Gala Contemplating the Mediterranean Sea</quote> turning to "
+ "an Abraham Lincoln's portrait when looking at it from a distance."
+ msgstr ""
++"En bra förklaring av Abraham Lincoln-effekten finns på <xref linkend=\""
++"bibliography-online-bach\"/>. Där ser du Salvador Dalís målning <quote>Gala "
++"Contemplating the Mediterranean Sea</quote> förvandlas till ett porträtt av "
++"Abraham Lincoln när du ser den på avstånd."
+ 
+ #: src/filters/blur/introduction.xml:120(title)
+ msgid "Motion blur"
+-msgstr ""
++msgstr "Rörelseoskärpa"
+ 
+ #: src/filters/blur/introduction.xml:128(para)
+ msgid ""
+ "The Motion Blur filter blurs in a specific direction at each point, which "
+ "allows you to create a sense of motion: either linear, radial, or rotational."
+ msgstr ""
++"Filtret Rörelseoskärpa gör bilden oskarp i en viss riktning vid varje punkt, "
++"vilket låter dig skapa en känsla av rörelse: linjär, radiell eller roterande."
+ 
+ #: src/filters/blur/introduction.xml:134(para)
+ msgid ""
+@@ -630,12 +729,18 @@
+ "edge effects when you create a pattern by tiling multiple copies of the "
+ "image side by side."
+ msgstr ""
++"Slutligen är filtret Sömlös oskärpa egentligen samma sak som gaussisk "
++"oskärpa, utom att det omsluter bildens kanter för att hjälpa dig minska "
++"kanteffekter när du skapar ett mönster genom att lägga flera kopior av bilden "
++"sida vid sida."
+ 
+ #: src/filters/blur/introduction.xml:141(para)
+ msgid ""
+ "Tileable Blur is actually implemented by a Script-Fu script that invokes the "
+ "Gaussian blur plug-in."
+ msgstr ""
++"Sömlös oskärpa är egentligen implementerat med ett Script-Fu-skript som "
++"anropar insticksmodulen för gaussisk oskärpa."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -659,7 +764,7 @@
+ #: src/filters/blur/gauss.xml:29(tertiary)
+ #: src/filters/blur/gauss.xml:32(primary) src/filters/blur/gauss.xml:41(quote)
+ msgid "Gaussian Blur"
+-msgstr ""
++msgstr "Gaussisk oskärpa"
+ 
+ #: src/filters/blur/gauss.xml:61(para)
+ msgid ""
+@@ -671,6 +776,13 @@
+ "GIMP supports two implementations of Gaussian Blur: IIR G.B. and RLE G.B. "
+ "They both produce the same results, but each one can be faster in some cases."
+ msgstr ""
++"Insticksmodulen IIR Gaussisk oskärpa verkar på varje bildpunkt i det aktiva "
++"lagret eller markeringen och sätter dess värde till medelvärdet av alla "
++"bildpunktsvärden inom en radie som anges i dialogrutan. Ett högre värde ger "
++"mer oskärpa. Oskärpan kan göras starkare i en riktning än i den andra genom "
++"att bryta kedjeknappen och ändra radien. GIMP har två implementeringar av "
++"gaussisk oskärpa: IIR G.B. och RLE G.B. Båda ger samma resultat, men den ena "
++"kan vara snabbare i vissa fall."
+ 
+ #: src/filters/blur/gauss.xml:76(para)
+ msgid ""
+@@ -678,14 +790,17 @@
+ "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</"
+ "guisubmenu><guimenuitem>Gaussian Blur</guimenuitem></menuchoice>"
+ msgstr ""
++"Du hittar filtret i bildmenyn under <menuchoice><guimenu>Filter</guimenu>"
++"<guisubmenu>Oskärpa</guisubmenu><guimenuitem>Gaussisk oskärpa</guimenuitem>"
++"</menuchoice>"
+ 
+ #: src/filters/blur/gauss.xml:87(quote)
+ msgid "Gaussian"
+-msgstr ""
++msgstr "Gaussisk"
+ 
+ #: src/filters/blur/gauss.xml:87(phrase)
+ msgid "<placeholder-1/> filter parameters settings"
+-msgstr ""
++msgstr "Parameterinställningar för filtret <placeholder-1/>"
+ 
+ #: src/filters/blur/gauss.xml:100(para)
+ msgid ""
+@@ -693,10 +808,13 @@
+ "vertical blur, you can give the effect of a motion blur. You can choose the "
+ "unit with the drop list."
+ msgstr ""
++"Här kan du ange oskärpans styrka. Genom att ändra förhållandet mellan "
++"vågrät och lodrät oskärpa kan du ge intryck av rörelseoskärpa. Du kan välja "
++"enhet i listrutan."
+ 
+ #: src/filters/blur/gauss.xml:108(term)
+ msgid "Blur Method"
+-msgstr ""
++msgstr "Oskärpemetod"
+ 
+ #: src/filters/blur/gauss.xml:110(para)
+ msgid ""
+@@ -704,6 +822,9 @@
+ "quote>.This blur works best for large radius values and for images which are "
+ "not computer generated."
+ msgstr ""
++"<guilabel>IIR</guilabel>: IIR står för <quote>Infinite Impulse Response</"
++"quote>. Denna oskärpa fungerar bäst för stora radievärden och för bilder som "
++"inte är datorgenererade."
+ 
+ #: src/filters/blur/gauss.xml:114(para)
+ msgid ""
+@@ -711,6 +832,9 @@
+ "Blur is best used on computer-generated images or those with large areas of "
+ "constant intensity."
+ msgstr ""
++"<guilabel>RLE</guilabel>: RLE står för run-length encoding. RLE-gaussisk "
++"oskärpa används bäst på datorgenererade bilder eller bilder med stora områden "
++"med konstant intensitet."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -735,15 +859,15 @@
+ #: src/filters/blur/gauss_select.xml:13(title)
+ #: src/filters/blur/gauss_select.xml:20(primary)
+ msgid "Selective Gaussian Blur"
+-msgstr ""
++msgstr "Selektiv gaussisk oskärpa"
+ 
+ #: src/filters/blur/gauss_select.xml:17(tertiary)
+ msgid "Selective Gaussian"
+-msgstr ""
++msgstr "Selektiv gaussisk"
+ 
+ #: src/filters/blur/gauss_select.xml:25(title)
+ msgid "The Selective Gaussian Blur filter"
+-msgstr ""
++msgstr "Filtret Selektiv gaussisk oskärpa"
+ 
+ #: src/filters/blur/gauss_select.xml:45(para)
+ msgid ""
+@@ -755,6 +879,13 @@
+ "subject will stand out better. This add a sense of depth to the image with "
+ "only a single operation."
+ msgstr ""
++"Till skillnad från andra insticksmoduler för oskärpa verkar Selektiv "
++"gaussisk oskärpa inte på alla bildpunkter: oskärpa tillämpas bara om "
++"skillnaden mellan dess värde och omgivande bildpunkters värde är mindre än "
++"ett angivet deltavärde. Kontraster bevaras alltså eftersom skillnaden är stor "
++"vid kontrastgränser. Filtret används för att göra en bakgrund oskarp så att "
++"motiv i förgrunden framträder bättre. Det ger bilden en känsla av djup med "
++"bara en åtgärd."
+ 
+ #: src/filters/blur/gauss_select.xml:57(para)
+ msgid ""
+@@ -762,18 +893,21 @@
+ "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</"
+ "guisubmenu><guimenuitem>Selective Gaussian Blur</guimenuitem></menuchoice>"
+ msgstr ""
++"Du hittar filtret i bildmenyn under <menuchoice><guimenu>Filter</guimenu>"
++"<guisubmenu>Oskärpa</guisubmenu><guimenuitem>Selektiv gaussisk oskärpa</"
++"guimenuitem></menuchoice>"
+ 
+ #: src/filters/blur/gauss_select.xml:69(title)
+ msgid "<quote>Selective Gaussian</quote> filter parameters settings"
+-msgstr ""
++msgstr "Parameterinställningar för filtret <quote>Selektiv gaussisk</quote>"
+ 
+ #: src/filters/blur/gauss_select.xml:82(para)
+ msgid "Here you can set the blur intensity, in pixels."
+-msgstr ""
++msgstr "Här kan du ange oskärpans styrka i bildpunkter."
+ 
+ #: src/filters/blur/gauss_select.xml:88(term)
+ msgid "Max. Delta"
+-msgstr ""
++msgstr "Max. delta"
+ 
+ #: src/filters/blur/gauss_select.xml:90(para)
+ msgid ""
+@@ -781,6 +915,9 @@
+ "the surrounding pixel values. Above this Delta, blur will not be applied to "
+ "that pixel."
+ msgstr ""
++"Här kan du ange den största skillnaden (0–255) mellan bildpunktens värde och "
++"omgivande bildpunkters värden. Över detta delta tillämpas ingen oskärpa på "
++"bildpunkten."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -794,7 +931,7 @@
+ 
+ #: src/filters/blur/blur.xml:39(phrase)
+ msgid "The Blur filter applied to a photograph"
+-msgstr ""
++msgstr "Filtret Oskärpa tillämpat på ett fotografi"
+ 
+ #: src/filters/blur/blur.xml:60(para)
+ msgid ""
+@@ -803,16 +940,22 @@
+ "the present pixel value and the value of adjacent pixels and sets the "
+ "present pixel to that average value."
+ msgstr ""
++"Det enkla filtret Oskärpa ger en effekt som liknar ett foto taget med en "
++"ur fokus-kamera. För att skapa oskärpan beräknar filtret medelvärdet av den "
++"aktuella bildpunktens värde och intilliggande bildpunkters värden och sätter "
++"den aktuella bildpunkten till detta medelvärde."
+ 
+ #: src/filters/blur/blur.xml:66(para)
+ msgid "Filter advantage is its calculation speed. It suits big images."
+-msgstr ""
++msgstr "Filtrets fördel är dess beräkningshastighet. Det passar stora bilder."
+ 
+ #: src/filters/blur/blur.xml:69(para)
+ msgid ""
+ "Filter disadvantage is that its action is hardly perceptible on big images, "
+ "but very strong on small images."
+ msgstr ""
++"Filtrets nackdel är att dess verkan knappt märks på stora bilder, men är "
++"mycket stark på små bilder."
+ 
+ #: src/filters/blur/blur.xml:78(para)
+ msgid ""
+@@ -820,6 +963,8 @@
+ "guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Blur</guimenuitem></"
+ "menuchoice>"
+ msgstr ""
++"Du hittar filtret under: <menuchoice><guimenu>Filter</guimenu><guisubmenu>"
++"Oskärpa</guisubmenu><guimenuitem>Oskärpa</guimenuitem></menuchoice>"
+ 
+ #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+ #: src/filters/blur/blur.xml:0(None)
