@@ -1,0 +1,9 @@
+# p11-kit — master — svenska UI
+
+- GNOME-status före granskning: 0 översatta, 1 fuzzy, 0 oöversatta.
+- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/p11-kit/master/po/sv/>
+- Granskad rad: `%u error(s) while processing` → `%u fel under bearbetning`.
+- Åtgärd: Fuzzy-markeringen togs bort och den korta tekniska formuleringen justerades till idiomatisk svenska.
+- Validering: `msgfmt --check`; c-format-platshållaren `%u` är bevarad.
+- GNOME-inskick: inget — enligt arbetsinstruktionen.
+- Slutlig lokal status: 1 översatt, 0 fuzzy, 0 oöversatta.
