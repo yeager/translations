@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 07:16 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 07:17 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -197,7 +197,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Dokumentation | Default (71% translated) | [gtk-doc](https://l10n.gnome.org/vertimus/gtk-doc/master/help/sv/) | master | 560 | 2 | 0 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gucharmap](https://l10n.gnome.org/vertimus/gucharmap/unicode-12/help/sv/) | unicode-12 | 127 | 2 | 0 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [PulseAudio](https://l10n.gnome.org/vertimus/pulseaudio/master/po/sv/) | master | 572 | 2 | 0 | Behöver arbete | Ej granskad |
-| Gränssnitt | Default (99% translated) | [showtime](https://l10n.gnome.org/vertimus/showtime/main/po/sv/) | main | 78 | 2 | 0 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [showtime](https://l10n.gnome.org/vertimus/showtime/main/po/sv/) | main | 78 | 2 | 0 | Behöver arbete | Klar lokalt (2026-11-22): Båda fuzzy-strängarna är betydelsegranskade och lokalt validerade. [original](showtime/main/po/showtime.main.sv.original.po), [granskad](showtime/main/po/showtime.main.sv.reviewed.po), [diff](showtime/main/po/showtime.main.sv.review.diff), [notering](showtime/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [geary](https://l10n.gnome.org/vertimus/geary/gnome-44/po/sv/) | gnome-44 | 662 | 1 | 0 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [geary](https://l10n.gnome.org/vertimus/geary/gnome-43/po/sv/) | gnome-43 | 661 | 1 | 0 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/gimp-3-2/po-plug-ins/sv/) | gimp-3-2 | 3662 | 1 | 0 | Behöver arbete | Ej granskad |
