@@ -1,0 +1,91 @@
+--- d-spy.main.sv.original.po
++++ d-spy.main.sv.reviewed.po
+@@ -8,8 +8,8 @@
+ "Project-Id-Version: d-spy main\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/d-spy/issues\n"
+ "POT-Creation-Date: 2026-10-13 13:41+0000\n"
+-"PO-Revision-Date: 2026-08-10 15:10+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -132,41 +132,37 @@
+ 
+ #: src/dspy-window.c:602 src/dspy-window.c:647
+ msgid "Property was set, but the service owner has changed"
+-msgstr ""
++msgstr "Egenskapen angavs, men tjänstägaren har ändrats"
+ 
+ #: src/dspy-window.c:633
+ #, c-format
+ msgid "Failed to set property: %s"
+-msgstr ""
++msgstr "Misslyckades med att ange egenskap: %s"
+ 
+ #: src/dspy-window.c:661
+ #, c-format
+ msgid "Property was set, but could not be read back: %s"
+-msgstr ""
++msgstr "Egenskapen angavs men kunde inte läsas tillbaka: %s"
+ 
+ #: src/dspy-window.c:667
+-#, fuzzy
+-#| msgid "Property"
+ msgid "Property updated"
+-msgstr "Egenskap"
++msgstr "Egenskapen uppdaterades"
+ 
+ #: src/dspy-window.c:694
+ msgid "The D-Bus connection or service owner is unavailable"
+-msgstr ""
++msgstr "D-Bus-anslutningen eller tjänstägaren är inte tillgänglig"
+ 
+ #: src/dspy-window.c:725
+ msgid "Setting property…"
+-msgstr ""
++msgstr "Anger egenskap…"
+ 
+ #: src/dspy-window.c:813 src/dspy-window.c:823 src/dspy-window.c:832
+ msgid "msec"
+ msgstr "ms"
+ 
+ #: src/dspy-window.c:984
+-#, fuzzy
+-#| msgid "write-only"
+ msgid "Write-only property"
+-msgstr "endast skrivning"
++msgstr "Egenskap som endast kan skrivas"
+ 
+ #: src/dspy-window.ui:62
+ msgid "Connections"
+@@ -251,24 +247,20 @@
+ msgstr "Värde"
+ 
+ #: src/dspy-window.ui:1089
+-#, fuzzy
+-#| msgid "Property"
+ msgid "Set Property"
+-msgstr "Egenskap"
++msgstr "Ange egenskap"
+ 
+ #: src/dspy-window.ui:1090
+ msgid "Enter a value in GVariant text format, such as 'hello', true, or 42."
+-msgstr ""
++msgstr "Ange ett värde i GVariant-textformat, såsom 'hello', true eller 42."
+ 
+ #: src/dspy-window.ui:1094
+-#, fuzzy
+-#| msgid "Value"
+ msgid "New Value"
+-msgstr "Värde"
++msgstr "Nytt värde"
+ 
+ #: src/dspy-window.ui:1112
+ msgid "Set"
+-msgstr ""
++msgstr "Ange"
+ 
+ #: src/dspy-window.ui:1248
+ msgid "Signal"
