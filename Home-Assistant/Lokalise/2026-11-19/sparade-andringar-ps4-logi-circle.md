@@ -10,3 +10,12 @@ Fyra svenska översättningar är sparade och återlästa via Lokalise API. Plat
 | `component::logi_circle::config::abort::external_error` | Språkriktat felmeddelande. |
 | `component::logi_circle::config::step::auth::description` | Tydlig och korrekt autentiseringsinstruktion. |
 | `component::logi_circle::config::step::user::description` | Tydlig formulering av val av autentiseringsleverantör. |
+
+## Tillägg 22 november 2026
+
+| Nyckel | Tidigare svenska | Sparad svenska | Motivering |
+|---|---|---|---|
+| `component::logi_circle::issues::integration_removed::title` | Logi Circle-integreringen har blivit utfasad och kommer att tas bort | Logi Circle-integrationen har blivit utfasad och kommer att tas bort | `Integration` använder genomgående formen `integration` i Home Assistant. |
+
+Ändringen sparades via Lokalise API och lästes tillbaka ordagrant. Den finns i
+det validerade HA-minnet (`swedish-tm`-commit `8370f8a`, 3 333 poster).
