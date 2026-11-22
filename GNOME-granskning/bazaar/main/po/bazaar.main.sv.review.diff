@@ -1,0 +1,294 @@
+--- bazaar.main.sv.original.po
++++ bazaar.main.sv.reviewed.po
+@@ -8,8 +8,8 @@
+ "Project-Id-Version: bazaar main\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/bazaar/-/work_items\n"
+ "POT-Creation-Date: 2026-11-15 18:16+0000\n"
+-"PO-Revision-Date: 2026-11-03 22:02+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -848,13 +848,11 @@
+ 
+ #: src/bz-application.c:4542
+ msgid "Removing remote…"
+-msgstr ""
++msgstr "Tar bort fjärrkälla…"
+ 
+ #: src/bz-application.c:4559
+-#, fuzzy
+-#| msgid "Failed to remove favorite"
+ msgid "Could not remove remote"
+-msgstr "Misslyckades med att ta bort favorit"
++msgstr "Kunde inte ta bort fjärrkällan"
+ 
+ #: src/bz-apps-page.blp:97 src/bz-full-view.c:214
+ msgid "Show All"
+@@ -1015,7 +1013,7 @@
+ #: src/bz-data-graph.vala:44
+ #, c-format
+ msgid "%s to %s, highest on %s with %s"
+-msgstr ""
++msgstr "%s till %s, högst den %s med %s"
+ 
+ #. Translators: K is the suffix for thousands
+ #: src/bz-data-graph.vala:243 src/context-tile-callbacks.c:82
+@@ -1077,18 +1075,18 @@
+ #: src/bz-distro-chart.vala:40
+ #, c-format
+ msgid "%s, %s"
+-msgstr ""
++msgstr "%s, %s"
+ 
+ #. Translators: Shown for values smaller than 1 percent
+ #: src/bz-distro-chart.vala:161
+ msgid "<1%"
+-msgstr ""
++msgstr "<1%"
+ 
+ #. Translators: A percentage, for example: 42%
+ #: src/bz-distro-chart.vala:163
+ #, c-format
+ msgid "%.0f%%"
+-msgstr ""
++msgstr "%.0f%%"
+ 
+ #. Translators: Please treat "Bazaar" as a brand name and avoid translating.
+ #: src/bz-donations-dialog.blp:8
+@@ -2424,78 +2422,62 @@
+ msgstr "_Versionshistorik"
+ 
+ #: src/bz-remotes-dialog.blp:5 src/bz-remotes-dialog.blp:24
+-#, fuzzy
+-#| msgctxt "shortcut window"
+-#| msgid "Remotes"
+ msgid "Remotes"
+-msgstr "Fjärrar"
++msgstr "Fjärrkällor"
+ 
+ #: src/bz-remotes-dialog.blp:49
+-#, fuzzy
+-#| msgid "Bundle Installation"
+ msgid "System Installation"
+-msgstr "Installation av bunt"
++msgstr "Systeminstallation"
+ 
+ #: src/bz-remotes-dialog.blp:50
+ msgid "Available to all users on this computer"
+-msgstr ""
++msgstr "Tillgänglig för alla användare på den här datorn"
+ 
+ #: src/bz-remotes-dialog.blp:55
+-#, fuzzy
+-#| msgid "Bundle Installation"
+ msgid "User Installation"
+-msgstr "Installation av bunt"
++msgstr "Användarinstallation"
+ 
+ #: src/bz-remotes-dialog.blp:56
+ msgid "Only available to you"
+-msgstr ""
++msgstr "Endast tillgänglig för dig"
+ 
+ #: src/bz-remotes-dialog.blp:65
+-#, fuzzy
+-#| msgid "Remove From Favorites"
+ msgid "Remove Remote"
+-msgstr "Ta bort från favoriter"
++msgstr "Ta bort fjärrkälla"
+ 
+ #: src/bz-remotes-dialog.vala:31
+-#, fuzzy, c-format
+-#| msgid "Remove %s?"
+ msgid "Remove %s"
+-msgstr "Ta bort %s?"
++msgstr "Ta bort %s"
+ 
+ #: src/bz-remotes-dialog.vala:42
+ msgid "Unused"
+-msgstr ""
++msgstr "Oanvänd"
+ 
+ #: src/bz-remotes-dialog.vala:42
+-#, fuzzy, c-format
+-#| msgid "%s Installed"
++#, c-format
+ msgid "%u app installed"
+ msgid_plural "%u apps installed"
+-msgstr[0] "%s installerades"
+-msgstr[1] "%s installerades"
++msgstr[0] "%u program installerades"
++msgstr[1] "%u program installerades"
+ 
+ #: src/bz-remotes-dialog.vala:174 src/bz-remotes-dialog.vala:193
+-#, fuzzy, c-format
+-#| msgid "Remove %s?"
+ msgid "Remove “%s”?"
+-msgstr "Ta bort %s?"
++msgstr "Ta bort ”%s”?"
+ 
+ #: src/bz-remotes-dialog.vala:176
+ msgid "You will no longer be able to install apps from this user remote."
+-msgstr ""
++msgstr "Du kommer inte längre kunna installera program från den här användarfjärrkällan."
+ 
+ #: src/bz-remotes-dialog.vala:177
+ msgid "You will no longer be able to install apps from this system remote."
+-msgstr ""
++msgstr "Du kommer inte längre kunna installera program från den här systemfjärrkällan."
+ 
+ #: src/bz-remotes-dialog.vala:194
+-#, fuzzy, c-format
+-#| msgid "%u App Updated"
+-#| msgid_plural "%u Apps Updated"
++#, c-format
+ msgid "%u App to Remove"
+ msgid_plural "%u Apps to Remove"
+-msgstr[0] "%u program uppdaterades"
+-msgstr[1] "%u program uppdaterades"
++msgstr[0] "%u program att ta bort"
++msgstr[1] "%u program att ta bort"
+ 
+ #: src/bz-remotes-dialog.vala:197
+ msgid ""
+@@ -2505,7 +2487,11 @@
+ "These apps were installed from this remote and will be removed from your "
+ "account along with it."
+ msgstr[0] ""
++"Programmet nedan installerades från den här fjärrkällan och tas bort från "
++"ditt konto tillsammans med den."
+ msgstr[1] ""
++"Programmen nedan installerades från den här fjärrkällan och tas bort från "
++"ditt konto tillsammans med den."
+ 
+ #: src/bz-remotes-dialog.vala:201
+ msgid ""
+@@ -2515,7 +2501,11 @@
+ "These apps were installed from this remote and will be removed for all users "
+ "along with it."
+ msgstr[0] ""
++"Programmet nedan installerades från den här fjärrkällan och tas bort för "
++"alla användare tillsammans med den."
+ msgstr[1] ""
++"Programmen nedan installerades från den här fjärrkällan och tas bort för "
++"alla användare tillsammans med den."
+ 
+ #: src/bz-rich-app-tile.blp:217
+ msgid "Uninstall"
+@@ -2868,18 +2858,16 @@
+ #. TRANSLATORS: total number of installs of an app, shown in the statistics dialog
+ #: src/bz-stats-dialog.blp:49
+ msgid "Total"
+-msgstr ""
++msgstr "Totalt"
+ 
+ #. TRANSLATORS: installs in the last 7 days, shown in the statistics dialog
+ #: src/bz-stats-dialog.blp:80
+ msgid "This Week"
+-msgstr ""
++msgstr "Den här veckan"
+ 
+ #: src/bz-stats-dialog.blp:117
+-#, fuzzy
+-#| msgid "Installed"
+ msgid "Installs per day"
+-msgstr "Installerat"
++msgstr "Installationer per dag"
+ 
+ #. TRANSLATORS: page in the statistics dialog
+ #: src/bz-stats-dialog.blp:126
+@@ -2888,7 +2876,7 @@
+ 
+ #: src/bz-stats-dialog.blp:139
+ msgid "Installs per country"
+-msgstr ""
++msgstr "Installationer per land"
+ 
+ #: src/bz-stats-dialog.blp:144
+ msgid "Since 4/15/2024"
+@@ -2896,23 +2884,21 @@
+ 
+ #: src/bz-stats-dialog.blp:157
+ msgid "Distros"
+-msgstr ""
++msgstr "Distributioner"
+ 
+ #: src/bz-stats-dialog.blp:183
+-#, fuzzy
+-#| msgid "Install %s from %s"
+ msgid "Installs per distro"
+-msgstr "Installera %s från %s"
++msgstr "Installationer per distribution"
+ 
+ #: src/bz-stats-dialog.vala:106
+ msgid "Last 30 days"
+-msgstr ""
++msgstr "Senaste 30 dagarna"
+ 
+ #. Translators: Shown below the install statistics, for example: Last 30 days, 42% of installs don't yet report a distro
+ #: src/bz-stats-dialog.vala:108
+ #, c-format
+ msgid "Last 30 days, %.0f%% of installs don't yet report a distro"
+-msgstr ""
++msgstr "Senaste 30 dagarna: %.0f%% av installationerna rapporterar ännu ingen distribution"
+ 
+ #: src/bz-subcategory-list.c:77
+ msgid "No Results Found"
+@@ -3181,11 +3167,8 @@
+ msgstr "_Hantera kvarblivna användardata"
+ 
+ #: src/bz-window.blp:293
+-#, fuzzy
+-#| msgctxt "shortcut window"
+-#| msgid "Sync Remotes"
+ msgid "Manage R_emotes"
+-msgstr "Synkronisera fjärrar"
++msgstr "_Hantera fjärrkällor"
+ 
+ #: src/bz-window.blp:300
+ msgid "_Preferences"
+@@ -3233,19 +3216,16 @@
+ msgstr "Kan inte göra det just nu!"
+ 
+ #: src/bz-world-map.vala:51
+-#, fuzzy, c-format
+-#| msgid "%s Installed"
++#, c-format
+ msgid "%s, %'u install"
+ msgid_plural "%s, %'u installs"
+-msgstr[0] "%s installerades"
+-msgstr[1] "%s installerades"
++msgstr[0] "%s, %'u installation"
++msgstr[1] "%s, %'u installationer"
+ 
+ #. Translators: accessible description of the world map, like. "Most installs from Germany, 1,200 installs, France, 800 installs"
+ #: src/bz-world-map.vala:55
+-#, fuzzy, c-format
+-#| msgid "Install %s from %s"
+ msgid "Most installs from %s"
+-msgstr "Installera %s från %s"
++msgstr "Flest installationer från %s"
+ 
+ #: src/context-tile-callbacks.c:68
+ msgid "---"
+@@ -3682,7 +3662,7 @@
+ #: src/shortcuts-dialog.blp:25
+ msgctxt "shortcut window"
+ msgid "Remotes"
+-msgstr "Fjärrar"
++msgstr "Fjärrkällor"
+ 
+ #: src/shortcuts-dialog.blp:27
+ msgctxt "shortcut window"
+@@ -3718,7 +3698,7 @@
+ #: src/stats-types.vala:63
+ msgctxt "Distribution"
+ msgid "Other"
+-msgstr ""
++msgstr "Övriga"
+ 
+ #: src/transaction-notification.c:133
+ #, c-format
