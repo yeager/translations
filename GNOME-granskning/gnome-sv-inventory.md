@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 20:57 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 22:01 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -27,7 +27,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/filters~render/sv/) | gimp-help-2-10 | 39 | 128 | 754 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [orca](https://l10n.gnome.org/vertimus/orca/main/help/sv/) | main | 21 | 490 | 723 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/appendix/sv/) | gimp-help-2-10 | 288 | 154 | 608 | Behöver arbete | Ej granskad |
-| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/toolbox~paint/sv/) | master | 61 | 163 | 605 | Behöver arbete | Ej granskad |
+| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/toolbox~paint/sv/) | master | 61 | 163 | 605 | Behöver arbete | Klar lokalt (2026-11-22): Alla användarvisade poster är lokalt översatta och fuzzy-fria; kvarvarande bildhashar är uttryckligen icke-översättbara. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/toolbox~paint/gimp-help.master.toolbox-paint.sv.original.po), [granskad](gimp-help/master/toolbox~paint/gimp-help.master.toolbox-paint.sv.reviewed.po), [diff](gimp-help/master/toolbox~paint/gimp-help.master.toolbox-paint.sv.review.diff), [notering](gimp-help/master/toolbox~paint/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/toolbox~paint/sv/) | gimp-help-2-10 | 68 | 162 | 597 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/toolbox~paint/sv/) | gimp-help-3-0 | 65 | 162 | 591 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/menus~colors/sv/) | gimp-help-3-0 | 17 | 44 | 534 | Behöver arbete | Ej granskad |
@@ -653,7 +653,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [gnome-multi-writer](https://l10n.gnome.org/vertimus/gnome-multi-writer/master/po/sv/) | master | 58 | 0 | 0 | Klar | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-music](https://l10n.gnome.org/vertimus/gnome-music/gnome-50/po/sv/) | gnome-50 | 126 | 0 | 0 | Klar | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-music](https://l10n.gnome.org/vertimus/gnome-music/gnome-51/po/sv/) | gnome-51 | 128 | 0 | 0 | Klar | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-music](https://l10n.gnome.org/vertimus/gnome-music/main/po/sv/) | main | 125 | 0 | 0 | Klar | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-music](https://l10n.gnome.org/vertimus/gnome-music/main/po/sv/) | main | 123 | 0 | 0 | Klar | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-music](https://l10n.gnome.org/vertimus/gnome-music/gnome-51/help/sv/) | gnome-51 | 72 | 0 | 0 | Klar | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-music](https://l10n.gnome.org/vertimus/gnome-music/gnome-50/help/sv/) | gnome-50 | 72 | 0 | 0 | Klar | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-music](https://l10n.gnome.org/vertimus/gnome-music/main/help/sv/) | main | 72 | 0 | 0 | Klar | Ej granskad |
