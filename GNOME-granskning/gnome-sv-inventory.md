@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 08:11 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 08:15 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -125,7 +125,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [realmd](https://l10n.gnome.org/vertimus/realmd/master/po/sv/) | master | 119 | 10 | 10 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gucharmap](https://l10n.gnome.org/vertimus/gucharmap/unicode-12/po/sv/) | unicode-12 | 454 | 9 | 10 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [shared-mime-info — Shared MIME Info](https://l10n.gnome.org/vertimus/shared-mime-info/master/po/sv/) | master | 1015 | 19 | 9 | Behöver arbete | Ej granskad |
-| Gränssnitt | Default (99% translated) | [glib](https://l10n.gnome.org/vertimus/glib/main/po/sv/) | main | 1270 | 12 | 9 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [glib](https://l10n.gnome.org/vertimus/glib/main/po/sv/) | main | 1270 | 12 | 9 | Behöver arbete | Klar lokalt (2026-11-22): Alla aktuella oöversatta och fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](glib/main/po/glib.main.sv.original.po), [granskad](glib/main/po/glib.main.sv.reviewed.po), [diff](glib/main/po/glib.main.sv.review.diff), [notering](glib/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [phodav](https://l10n.gnome.org/vertimus/phodav/master/po/sv/) | master | 18 | 5 | 9 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-flashback](https://l10n.gnome.org/vertimus/gnome-flashback/master/po/sv/) | master | 114 | 3 | 9 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [evolution](https://l10n.gnome.org/vertimus/evolution/master/po/sv/) | master | 6280 | 54 | 8 | Behöver arbete | Ej granskad |
