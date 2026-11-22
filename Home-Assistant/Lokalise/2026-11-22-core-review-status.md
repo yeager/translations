@@ -6,8 +6,8 @@ validerade Home Assistant-minnet.
 | Mått | Antal |
 | --- | ---: |
 | Poster i Core-exporten | 75 106 |
-| Poster i validerad Core-TMX | 3 419 |
-| Konservativt återstående omfång | 71 687 |
+| Poster i validerad Core-TMX | 3 422 |
+| Konservativt återstående omfång | 71 684 |
 
 Det återstående antalet är konservativt: utöver TMX-posterna finns
 livegranskade strängar utan ny TMX-post, exempelvis hela komponenter där inga
@@ -15,7 +15,7 @@ livegranskade strängar utan ny TMX-post, exempelvis hela komponenter där inga
 källa; den är inte en generell markering att en hel komponent eller Core som
 helhet är klar.
 
-Senast liveverifierade undergrupper: UpCloud, Coronavirus, Duke Energy,
+Senast liveverifierade undergrupper: Mailbox, UpCloud, Coronavirus, Duke Energy,
 Möhlenhoff Alpha2, Sky Remote, Tilt BLE, TriggerCMD,
 Template-maskinidentifierare,
 Bayesian-resultatvärden och komponenterna Launch Library, Nissan Leaf, RPi
