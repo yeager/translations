@@ -1,0 +1,102 @@
+--- pipewire.master.sv.original.po
++++ pipewire.master.sv.reviewed.po
+@@ -20,8 +20,8 @@
+ "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pipewire/pipewire/-/"
+ "issues\n"
+ "POT-Creation-Date: 2026-11-20 09:07+0000\n"
+-"PO-Revision-Date: 2026-02-22 21:48+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -125,22 +125,6 @@
+ "\n"
+ 
+ #: src/tools/pw-cat.c:1191
+-#, fuzzy, c-format
+-#| msgid ""
+-#| "  -R, --remote                          Remote daemon name\n"
+-#| "      --media-type                      Set media type (default %s)\n"
+-#| "      --media-category                  Set media category (default %s)\n"
+-#| "      --media-role                      Set media role (default %s)\n"
+-#| "      --target                          Set node target serial or name "
+-#| "(default %s)\n"
+-#| "                                          0 means don't link\n"
+-#| "      --latency                         Set node latency (default %s)\n"
+-#| "                                          Xunit (unit = s, ms, us, ns)\n"
+-#| "                                          or direct samples (256)\n"
+-#| "                                          the rate is the one of the "
+-#| "source file\n"
+-#| "  -P  --properties                      Set node properties\n"
+-#| "\n"
+ msgid ""
+ "  -R, --remote                          Remote daemon name\n"
+ "      --media-type                      Set media type (default %s)\n"
+@@ -166,6 +150,8 @@
+ "      --target                          Sätt nodmåls serienummer eller namn\n"
+ "                                          (standard %s), 0 betyder länka "
+ "inte\n"
++"  -C  --monitor                         Fånga bildskärmsportar (i "
++"inspelningsläge)\n"
+ "      --latency                         Sätt nodlatens (standard %s)\n"
+ "                                          Xenhet (enhet = s, ms, us, ns)\n"
+ "                                          eller direkta samplar (256)\n"
+@@ -174,31 +160,6 @@
+ "\n"
+ 
+ #: src/tools/pw-cat.c:1210
+-#, fuzzy, c-format
+-#| msgid ""
+-#| "      --rate                            Sample rate (default %u)\n"
+-#| "      --channels                        Number of channels (default %u)\n"
+-#| "      --channel-map                     Channel map\n"
+-#| "                                            a channel layout: \"Stereo\", "
+-#| "\"5.1\",... or\n"
+-#| "                                            comma separated list of "
+-#| "channel names: eg. \"FL,FR\"\n"
+-#| "      --list-layouts                    List supported channel layouts\n"
+-#| "      --list-channel-names              List supported channel maps\n"
+-#| "      --format                          Sample format (default %s)\n"
+-#| "      --list-formats                    List supported sample formats\n"
+-#| "      --container                       Container format\n"
+-#| "      --list-containers                 List supported containers and "
+-#| "extensions\n"
+-#| "      --volume                          Stream volume 0-1.0 (default "
+-#| "%.3f)\n"
+-#| "  -q  --quality                         Resampler quality (0 - 15) "
+-#| "(default %d)\n"
+-#| "  -a, --raw                             RAW mode\n"
+-#| "  -M, --force-midi                      Force midi format, one of "
+-#| "\"midi\" or \"ump\", (default ump)\n"
+-#| "  -n, --sample-count COUNT              Stop after COUNT samples\n"
+-#| "\n"
+ msgid ""
+ "      --rate                            Sample rate (default %u)\n"
+ "      --channels                        Number of channels (default %u)\n"
+@@ -241,8 +202,8 @@
+ "  -q  --quality                         Omsamplarkvalitet (0 - 15) (standard "
+ "%d)\n"
+ "  -a, --raw                             RAW-läge\n"
+-"  -M, --force-midi                      Tvinga midi-format, en av \"midi\" "
+-"eller \"ump\", (standard ump)\n"
++"  -M, --force-midi                      Tvinga midi-format, en av \"none\", "
++"\"midi\" eller \"ump\", (standard none)\n"
+ "  -n, --sample-count ANTAL              Stoppa efter ANTAL samplar\n"
+ "\n"
+ 
+@@ -757,11 +718,11 @@
+ 
+ #: spa/plugins/bluez5/bluez5-device.c:2295
+ msgid "Auto: Prefer Quality (A2DP)"
+-msgstr ""
++msgstr "Auto: Föredra kvalitet (A2DP)"
+ 
+ #: spa/plugins/bluez5/bluez5-device.c:2300
+ msgid "Auto: Prefer Latency (A2DP)"
+-msgstr ""
++msgstr "Auto: Föredra låg fördröjning (A2DP)"
+ 
+ #: spa/plugins/bluez5/bluez5-device.c:2380
+ #, c-format
