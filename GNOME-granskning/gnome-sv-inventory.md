@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 07:44 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 07:47 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -156,7 +156,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [niepce](https://l10n.gnome.org/module/niepce/) | main | 55 | 0 | 3 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/master/po-python/sv/) | master | 223 | 6 | 2 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-terminal](https://l10n.gnome.org/vertimus/gnome-terminal/gnome-46/po/sv/) | gnome-46 | 524 | 6 | 2 | Behöver arbete | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-calculator](https://l10n.gnome.org/vertimus/gnome-calculator/main/po/sv/) | main | 790 | 3 | 2 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-calculator](https://l10n.gnome.org/vertimus/gnome-calculator/main/po/sv/) | main | 790 | 3 | 2 | Behöver arbete | Klar lokalt (2026-11-22): Alla aktuella oöversatta och fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](gnome-calculator/main/po/gnome-calculator.main.sv.original.po), [granskad](gnome-calculator/main/po/gnome-calculator.main.sv.reviewed.po), [diff](gnome-calculator/main/po/gnome-calculator.main.sv.review.diff), [notering](gnome-calculator/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [PipeWire](https://l10n.gnome.org/vertimus/pipewire/master/po/sv/) | master | 125 | 2 | 2 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [libsoup](https://l10n.gnome.org/vertimus/libsoup/master/po/sv/) | master | 37 | 1 | 2 | Behöver arbete | Klar lokalt (2026-11-22): Två luckor och en betydelsemässigt felaktig fuzzy-sträng är lokalt validerade. [original](libsoup/master/po/libsoup.master.sv.original.po), [granskad](libsoup/master/po/libsoup.master.sv.reviewed.po), [diff](libsoup/master/po/libsoup.master.sv.review.diff), [notering](libsoup/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [Graphs](https://l10n.gnome.org/vertimus/graphs/v1.7.x/po/sv/) | v1.7.x | 371 | 0 | 2 | Behöver arbete | Ej granskad |
