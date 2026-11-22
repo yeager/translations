@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 07:09 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 07:10 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -175,7 +175,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [gnome-nibbles](https://l10n.gnome.org/vertimus/gnome-nibbles/release-4-0/po/sv/) | release-4-0 | 160 | 0 | 1 | Behöver arbete | Klar lokalt (2026-11-22): Den enda oöversatta AppStream-strängen är översatt med verifierad GNOME-terminologi och lokalt validerad. [original](gnome-nibbles/release-4-0/po/gnome-nibbles.release-4-0.sv.original.po), [granskad](gnome-nibbles/release-4-0/po/gnome-nibbles.release-4-0.sv.reviewed.po), [diff](gnome-nibbles/release-4-0/po/gnome-nibbles.release-4-0.sv.review.diff), [notering](gnome-nibbles/release-4-0/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-software](https://l10n.gnome.org/vertimus/gnome-software/main/po/sv/) | main | 1180 | 0 | 1 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [metronome](https://l10n.gnome.org/vertimus/metronome/main/po/sv/) | main | 36 | 0 | 1 | Behöver arbete | Klar lokalt (2026-11-22): Den enda oöversatta posten är ett egennamn och är avsiktligt oförändrad; lokalt validerad. [original](metronome/main/po/metronome.main.sv.original.po), [granskad](metronome/main/po/metronome.main.sv.reviewed.po), [diff](metronome/main/po/metronome.main.sv.review.diff), [notering](metronome/main/po/README.md) |
-| Gränssnitt | Default (99% translated) | [papers](https://l10n.gnome.org/vertimus/papers/gnome-48/po/sv/) | gnome-48 | 391 | 0 | 1 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [papers](https://l10n.gnome.org/vertimus/papers/gnome-48/po/sv/) | gnome-48 | 391 | 0 | 1 | Behöver arbete | Klar lokalt (2026-11-22): En oöversatt AppStream-sträng och en nordisk accelerator är rättade och lokalt validerade. [original](papers/gnome-48/po/papers.gnome-48.sv.original.po), [granskad](papers/gnome-48/po/papers.gnome-48.sv.reviewed.po), [diff](papers/gnome-48/po/papers.gnome-48.sv.review.diff), [notering](papers/gnome-48/po/README.md) |
 | Gränssnitt | Default (99% translated) | [papers](https://l10n.gnome.org/vertimus/papers/gnome-47/po/sv/) | gnome-47 | 417 | 0 | 1 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [ptyxis](https://l10n.gnome.org/vertimus/ptyxis/gnome-47/po/sv/) | gnome-47 | 403 | 0 | 1 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [ptyxis](https://l10n.gnome.org/vertimus/ptyxis/gnome-46/po/sv/) | gnome-46 | 395 | 0 | 1 | Behöver arbete | Ej granskad |
