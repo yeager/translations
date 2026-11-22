@@ -6,8 +6,8 @@ validerade Home Assistant-minnet.
 | Mått | Antal |
 | --- | ---: |
 | Poster i Core-exporten | 75 106 |
-| Poster i validerad Core-TMX | 3 318 |
-| Konservativt återstående omfång | 71 788 |
+| Poster i validerad Core-TMX | 3 321 |
+| Konservativt återstående omfång | 71 785 |
 
 Det återstående antalet är konservativt: utöver TMX-posterna finns
 livegranskade strängar utan ny TMX-post, exempelvis hela komponenter där inga
@@ -18,9 +18,11 @@ helhet är klar.
 Senast liveverifierade undergrupper: Template-maskinidentifierare,
 Bayesian-resultatvärden och komponenterna Launch Library, Nissan Leaf, RPi
 Power, Sensirion BLE, ThermoPro, ThermoBeacon, Input Button, Mold Indicator,
-Harman Luxury, Linear Garage Door, SwitchBee och NextBus. Sammanlagt 114
-strängar i dessa komponentgrupper har kontrollerats rad för rad i den aktuella
-Lokalise-versionen; sparade ändringar har lästs tillbaka via API.
+Harman Luxury, Linear Garage Door, SwitchBee, NextBus, Streamlabs Water,
+RTSPtoWebRTC, NMBS, Home+ Control, RuuviTag BLE, SensorPro, Modem Caller ID,
+Sanix, SenseME, Sunricher DALI Center, Channels och Rympro. Sparade ändringar
+har lästs tillbaka via Lokalise API och de tre senaste TMX-posterna har
+validerats i `swedish-tm`.
 
 Ingen verktygsrelease publicerades efter dagens tidigare release, enligt
 arbetsregeln om högst en release per dag.
