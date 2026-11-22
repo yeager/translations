@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 08:28 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 08:29 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -153,7 +153,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [loupe](https://l10n.gnome.org/vertimus/loupe/main/po/sv/) | main | 241 | 4 | 3 | Behöver arbete | Klar lokalt (2026-11-22): Alla aktuella oöversatta och fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](loupe/main/po/loupe.main.sv.original.po), [granskad](loupe/main/po/loupe.main.sv.reviewed.po), [diff](loupe/main/po/loupe.main.sv.review.diff), [notering](loupe/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [simple-scan](https://l10n.gnome.org/vertimus/simple-scan/master/po/sv/) | master | 220 | 1 | 3 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gtksourceview](https://l10n.gnome.org/vertimus/gtksourceview/master/po/sv/) | master | 112 | 0 | 3 | Behöver arbete | Ej granskad |
-| Gränssnitt | Default (99% translated) | [niepce](https://l10n.gnome.org/module/niepce/) | main | 55 | 0 | 3 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [niepce](https://l10n.gnome.org/module/niepce/) | main | 55 | 0 | 3 | Behöver arbete | Validering återstår (2026-11-22): Alla aktuella oöversatta strängar är lokalt ifyllda. Ett äldre nordiskt acceleratorfel återstår i en annan post; ingen GNOME-inskickning har gjorts. [original](niepce/main/po/niepce.main.sv.original.po), [granskad](niepce/main/po/niepce.main.sv.reviewed.po), [diff](niepce/main/po/niepce.main.sv.review.diff), [notering](niepce/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/master/po-python/sv/) | master | 223 | 6 | 2 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-terminal](https://l10n.gnome.org/vertimus/gnome-terminal/gnome-46/po/sv/) | gnome-46 | 524 | 6 | 2 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-calculator](https://l10n.gnome.org/vertimus/gnome-calculator/main/po/sv/) | main | 790 | 3 | 2 | Behöver arbete | Klar lokalt (2026-11-22): Alla aktuella oöversatta och fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](gnome-calculator/main/po/gnome-calculator.main.sv.original.po), [granskad](gnome-calculator/main/po/gnome-calculator.main.sv.reviewed.po), [diff](gnome-calculator/main/po/gnome-calculator.main.sv.review.diff), [notering](gnome-calculator/main/po/README.md) |
