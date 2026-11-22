@@ -4,6 +4,7 @@
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gnome-nibbles/release-4-0/po/sv/>
 - Granskad rad: `The GNOME Project` → `GNOME-projektet`.
 - Åtgärd: Den oöversatta AppStream-posten fylldes i med den etablerade GNOME-termen från GNOME-TM:n.
+- Ändringar: 1 ny(a) översättning(ar), 0 rättad(e) befintlig(a) sträng(ar).
 - Validering: `msgfmt --check`; inga platshållare, acceleratorer eller markup i ändringen.
 - Dokumenterade undantag: `number-range-dash` avser CLI-intervall och upphovsrättsår där bindestrecket måste bevaras; `same-plurals` för `%d poäng` är naturlig svensk plural; identiska upphovsrättsrader är avsiktliga.
 - Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.

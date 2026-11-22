@@ -4,6 +4,7 @@
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gnote/master/po/sv/>
 - Granskad rad: `Obsolete. Has no effect.` → `Föråldrad. Har ingen effekt.`.
 - Åtgärd: Den gamla fuzzy-markeringen och föregående msgid togs bort; svensk betydelse och skiljetecken anpassades till aktuell källa.
+- Ändringar: 0 ny(a) översättning(ar), 1 rättad(e) befintlig(a) sträng(ar).
 - Validering: `msgfmt --check`; platshållare saknas i ändringen.
 - Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
 - GNOME-inskick: inget — enligt arbetsinstruktionen.
