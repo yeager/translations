@@ -1,0 +1,52 @@
+--- simple-scan.master.sv.original.po
++++ simple-scan.master.sv.reviewed.po
+@@ -10,8 +10,8 @@
+ "Project-Id-Version: simple-scan\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/simple-scan/issues\n"
+ "POT-Creation-Date: 2026-11-16 20:49+0000\n"
+-"PO-Revision-Date: 2026-01-27 21:11+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -625,7 +625,7 @@
+ "Run a custom post-processing script after saving a document. This can be "
+ "used for Optical Character Recognition using ocrmypdf (if installed) with "
+ "the \"simple-scan-postprocessing.sh\" script, for example."
+-msgstr ""
++msgstr "Kör ett anpassat efterbehandlingsskript efter att ett dokument har sparats. Det kan till exempel användas för optisk teckenigenkänning med ocrmypdf (om det är installerat) tillsammans med skriptet \"simple-scan-postprocessing.sh\"."
+ 
+ #. Label beside postprocesing script name entry
+ #: data/ui/preferences-dialog.ui:204
+@@ -634,7 +634,7 @@
+ 
+ #: data/ui/preferences-dialog.ui:215
+ msgid "E.g.: /usr/bin/simple-scan-postprocessing.sh"
+-msgstr ""
++msgstr "T.ex.: /usr/bin/simple-scan-postprocessing.sh"
+ 
+ #. Label beside postprocesing arguments entry
+ #: data/ui/preferences-dialog.ui:224
+@@ -643,7 +643,7 @@
+ 
+ #: data/ui/preferences-dialog.ui:235
+ msgid "E.g.: --force-ocr"
+-msgstr ""
++msgstr "T.ex.: --force-ocr"
+ 
+ #. Label beside keep keep original file radio
+ #: data/ui/preferences-dialog.ui:244
+@@ -831,10 +831,8 @@
+ 
+ #. Title of error dialog when email document failed
+ #: src/app-window.vala:1226
+-#, fuzzy
+-#| msgid "Failed to save file"
+ msgid "Failed to email document"
+-msgstr "Misslyckades med att spara filen"
++msgstr "Kunde inte skicka dokumentet via e-post"
+ 
+ #: src/app-window.vala:1288
+ msgid "translator-credits"
