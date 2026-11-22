@@ -6,8 +6,8 @@ validerade Home Assistant-minnet.
 | Mått | Antal |
 | --- | ---: |
 | Poster i Core-exporten | 75 106 |
-| Poster i validerad Core-TMX | 3 375 |
-| Konservativt återstående omfång | 71 731 |
+| Poster i validerad Core-TMX | 3 419 |
+| Konservativt återstående omfång | 71 687 |
 
 Det återstående antalet är konservativt: utöver TMX-posterna finns
 livegranskade strängar utan ny TMX-post, exempelvis hela komponenter där inga
@@ -15,7 +15,9 @@ livegranskade strängar utan ny TMX-post, exempelvis hela komponenter där inga
 källa; den är inte en generell markering att en hel komponent eller Core som
 helhet är klar.
 
-Senast liveverifierade undergrupper: Template-maskinidentifierare,
+Senast liveverifierade undergrupper: UpCloud, Coronavirus, Duke Energy,
+Möhlenhoff Alpha2, Sky Remote, Tilt BLE, TriggerCMD,
+Template-maskinidentifierare,
 Bayesian-resultatvärden och komponenterna Launch Library, Nissan Leaf, RPi
 Power, Sensirion BLE, ThermoPro, ThermoBeacon, Input Button, Mold Indicator,
 Harman Luxury, Linear Garage Door, SwitchBee, NextBus, Streamlabs Water,
@@ -23,7 +25,9 @@ RTSPtoWebRTC, NMBS, Home+ Control, RuuviTag BLE, SensorPro, Modem Caller ID,
 Sanix, SenseME, Sunricher DALI Center, Channels och Rympro. Sparade ändringar
 har lästs tillbaka via Lokalise API och de senaste TMX-posterna har
 validerats i `swedish-tm`. Senast rättades Modern Forms två sensor-etiketter
-till den konsekventa termen `insomningstid`.
+till den konsekventa termen `insomningstid`. Green Planet Energys
+elprisrad förfinades senast till den naturliga sammansättningen
+`elprisintegration`.
 
 Ingen verktygsrelease publicerades efter dagens tidigare release, enligt
 arbetsregeln om högst en release per dag.
