@@ -100,7 +100,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/filters~web/sv/) | gimp-help-3-0 | 11 | 11 | 86 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters~web/sv/) | master | 10 | 11 | 86 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [showtime](https://l10n.gnome.org/vertimus/showtime/gnome-46/po/sv/) | gnome-46 | 0 | 0 | 65 | Behöver arbete | Ej granskad |
-| Gränssnitt | Default (99% translated) | [Crosswords](https://l10n.gnome.org/vertimus/crosswords/main/po/sv/) | main | 504 | 90 | 59 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [Crosswords](https://l10n.gnome.org/vertimus/crosswords/main/po/sv/) | main | 504 | 90 | 59 | Behöver arbete | Blockerad (2026-11-22): Damned Lies saknar en svensk insänd eller sammanslagen PO-katalog för `main/po`; ingen aktuell svensk källa kan därför radgranskas. |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/appendix/sv/) | gimp-help-3-0 | 508 | 15 | 59 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/appendix/sv/) | master | 507 | 15 | 59 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/master/po-plug-ins/sv/) | master | 3574 | 102 | 47 | Behöver arbete | Ej granskad |
