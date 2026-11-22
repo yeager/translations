@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 08:20 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 08:22 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -149,7 +149,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [packagekit — PackageKit](https://l10n.gnome.org/vertimus/packagekit/main/po/sv/) | main | 413 | 1 | 4 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [nautilus](https://l10n.gnome.org/vertimus/nautilus/main/po/sv/) | main | 1149 | 26 | 3 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [orca](https://l10n.gnome.org/vertimus/orca/main/po/sv/) | main | 1878 | 14 | 3 | Behöver arbete | Ej granskad |
-| Gränssnitt | Default (99% translated) | [fwupd](https://l10n.gnome.org/vertimus/fwupd/main/po/sv/) | main | 1056 | 4 | 3 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [fwupd](https://l10n.gnome.org/vertimus/fwupd/main/po/sv/) | main | 1056 | 4 | 3 | Behöver arbete | Klar lokalt (2026-11-22): Alla aktuella oöversatta och fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](fwupd/main/po/fwupd.main.sv.original.po), [granskad](fwupd/main/po/fwupd.main.sv.reviewed.po), [diff](fwupd/main/po/fwupd.main.sv.review.diff), [notering](fwupd/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [loupe](https://l10n.gnome.org/vertimus/loupe/main/po/sv/) | main | 241 | 4 | 3 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [simple-scan](https://l10n.gnome.org/vertimus/simple-scan/master/po/sv/) | master | 220 | 1 | 3 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gtksourceview](https://l10n.gnome.org/vertimus/gtksourceview/master/po/sv/) | master | 112 | 0 | 3 | Behöver arbete | Ej granskad |

@@ -1,0 +1,84 @@
+--- fwupd.main.sv.original.po
++++ fwupd.main.sv.reviewed.po
+@@ -19,8 +19,8 @@
+ "Project-Id-Version: fwupd\n"
+ "Report-Msgid-Bugs-To: https://github.com/fwupd/fwupd/issues\n"
+ "POT-Creation-Date: 2026-11-12 15:49+0000\n"
+-"PO-Revision-Date: 2026-10-09 10:47+0000\n"
+-"Last-Translator: bittin1ddc447d824349b2 <bittin@reimu.nl>\n"
++"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <https://hosted.weblate.org/projects/fwupd/fwupd/sv/"
+ ">\n"
+ "Language: sv\n"
+@@ -218,17 +218,13 @@
+ "flyttbar enhet"
+ 
+ #: policy/org.freedesktop.fwupd.policy.in:121
+-#, fuzzy
+-#| msgid "Get device report metadata"
+ msgid "Install device firmware without metadata"
+-msgstr "Hämta rapportmetadata för enhet"
++msgstr "Installera enhetens fasta programvara utan metadata"
+ 
+ #. TRANSLATORS: this is the PolicyKit modal dialog
+ #: policy/org.freedesktop.fwupd.policy.in:123
+-#, fuzzy
+-#| msgid "Authentication is required to install firmware on an emulated device"
+ msgid "Authentication is required to install firmware without metadata"
+-msgstr ""
++msgstr "Autentisering krävs för att installera fast programvara utan metadata"
+ "Autentisering krävs för att installera fast programvara på en emulerad enhet"
+ 
+ #: policy/org.freedesktop.fwupd.policy.in:132
+@@ -1843,7 +1839,7 @@
+ #: src/fu-cli-common.c:344
+ #, c-format
+ msgid "%s Expansion Card"
+-msgstr ""
++msgstr "%s expansionskort"
+ 
+ #. TRANSLATORS: this is the fallback where we don't know if the release
+ #. * is updating the system, the device, or a device class, or something else --
+@@ -2135,7 +2131,7 @@
+ #. TRANSLATORS: a raw flash chip written using an external programmer
+ #: src/fu-cli-common.c:768
+ msgid "Programmer target"
+-msgstr ""
++msgstr "Programmeringsmål"
+ 
+ #. TRANSLATORS: ask the user to do a simple task which should be translated
+ #: src/fu-cli-common.c:782
+@@ -2512,7 +2508,7 @@
+ #. TRANSLATORS: release came from a local file or directory
+ #: src/fu-cli-common.c:1449
+ msgid "Local"
+-msgstr ""
++msgstr "Lokal"
+ 
+ #. TRANSLATORS: the %s is a vendor name, e.g. Lenovo
+ #: src/fu-cli-common.c:1462
+@@ -4035,10 +4031,8 @@
+ 
+ #. TRANSLATORS: command description
+ #: src/fu-cli.c:7097
+-#, fuzzy
+-#| msgid "Install a raw firmware blob on a device"
+ msgid "Write a raw firmware blob on a device"
+-msgstr "Installera en rå fast programvaru-blob på en enhet"
++msgstr "Skriv en rå binär av den fasta programvaran på en enhet"
+ 
+ #. TRANSLATORS: command argument: uppercase, spaces->dashes
+ #: src/fu-cli.c:7102 src/fu-engine-cli.c:4454
+@@ -4700,10 +4694,8 @@
+ 
+ #. TRANSLATORS: command description
+ #: src/fu-engine-cli.c:4510
+-#, fuzzy
+-#| msgid "Save a file that allows generation of hardware IDs"
+ msgid "Load a file that allows generation of hardware IDs"
+-msgstr "Spara en fil som möjliggör generering av hårdvaru-ID:n"
++msgstr "Läs in en fil som möjliggör generering av hårdvaru-ID:n"
+ 
+ #. TRANSLATORS: command argument: uppercase, spaces->dashes
+ #: src/fu-engine-cli.c:4515
