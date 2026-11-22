@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 08:01 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 08:04 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -116,7 +116,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [bazaar](https://l10n.gnome.org/vertimus/bazaar/main/po/sv/) | main | 760 | 14 | 19 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-schedule](https://l10n.gnome.org/module/gnome-schedule/) | master | 103 | 16 | 17 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [drum-machine](https://l10n.gnome.org/vertimus/drum-machine/main/po/sv/) | main | 199 | 3 | 17 | Behöver arbete | Klar lokalt (2026-11-22): Alla aktuella oöversatta och fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](drum-machine/main/po/drum-machine.main.sv.original.po), [granskad](drum-machine/main/po/drum-machine.main.sv.reviewed.po), [diff](drum-machine/main/po/drum-machine.main.sv.review.diff), [notering](drum-machine/main/po/README.md) |
-| Gränssnitt | Default (99% translated) | [whisp](https://l10n.gnome.org/vertimus/whisp/main/po/sv/) | main | 186 | 4 | 14 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [whisp](https://l10n.gnome.org/vertimus/whisp/main/po/sv/) | main | 186 | 4 | 14 | Behöver arbete | Klar lokalt (2026-11-22): Alla aktuella oöversatta och fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](whisp/main/po/whisp.main.sv.original.po), [granskad](whisp/main/po/whisp.main.sv.reviewed.po), [diff](whisp/main/po/whisp.main.sv.review.diff), [notering](whisp/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-maps](https://l10n.gnome.org/vertimus/gnome-maps/main/po/sv/) | main | 535 | 6 | 13 | Behöver arbete | Klar lokalt (2026-11-22): Alla aktuella oöversatta och fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](gnome-maps/main/po/gnome-maps.main.sv.original.po), [granskad](gnome-maps/main/po/gnome-maps.main.sv.reviewed.po), [diff](gnome-maps/main/po/gnome-maps.main.sv.review.diff), [notering](gnome-maps/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [ptyxis](https://l10n.gnome.org/vertimus/ptyxis/main/po/sv/) | main | 461 | 0 | 12 | Behöver arbete | Klar lokalt (2026-11-22): Alla tolv aktuella oöversatta strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](ptyxis/main/po/ptyxis.main.sv.original.po), [granskad](ptyxis/main/po/ptyxis.main.sv.reviewed.po), [diff](ptyxis/main/po/ptyxis.main.sv.review.diff), [notering](ptyxis/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnumeric](https://l10n.gnome.org/vertimus/gnumeric/master/po-functions/sv/) | master | 2129 | 43 | 11 | Behöver arbete | Ej granskad |
