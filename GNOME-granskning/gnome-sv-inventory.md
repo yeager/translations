@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 06:59 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 07:00 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -172,7 +172,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [gedit](https://l10n.gnome.org/vertimus/gedit/gedit-47/po/sv/) | gedit-47 | 653 | 0 | 1 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gedit](https://l10n.gnome.org/vertimus/gedit/gedit-48/po/sv/) | gedit-48 | 657 | 0 | 1 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gfeeds](https://l10n.gnome.org/module/gfeeds/) | master | 155 | 0 | 1 | Behöver arbete | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-nibbles](https://l10n.gnome.org/vertimus/gnome-nibbles/release-4-0/po/sv/) | release-4-0 | 160 | 0 | 1 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-nibbles](https://l10n.gnome.org/vertimus/gnome-nibbles/release-4-0/po/sv/) | release-4-0 | 160 | 0 | 1 | Behöver arbete | Klar lokalt (2026-11-22): Den enda oöversatta AppStream-strängen är översatt med verifierad GNOME-terminologi och lokalt validerad. [original](gnome-nibbles/release-4-0/po/gnome-nibbles.release-4-0.sv.original.po), [granskad](gnome-nibbles/release-4-0/po/gnome-nibbles.release-4-0.sv.reviewed.po), [diff](gnome-nibbles/release-4-0/po/gnome-nibbles.release-4-0.sv.review.diff), [notering](gnome-nibbles/release-4-0/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-software](https://l10n.gnome.org/vertimus/gnome-software/main/po/sv/) | main | 1180 | 0 | 1 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [metronome](https://l10n.gnome.org/vertimus/metronome/main/po/sv/) | main | 36 | 0 | 1 | Behöver arbete | Klar lokalt (2026-11-22): Den enda oöversatta posten är ett egennamn och är avsiktligt oförändrad; lokalt validerad. [original](metronome/main/po/metronome.main.sv.original.po), [granskad](metronome/main/po/metronome.main.sv.reviewed.po), [diff](metronome/main/po/metronome.main.sv.review.diff), [notering](metronome/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [papers](https://l10n.gnome.org/vertimus/papers/gnome-48/po/sv/) | gnome-48 | 391 | 0 | 1 | Behöver arbete | Ej granskad |
