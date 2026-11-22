@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 07:20 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 07:22 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -164,7 +164,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [brasero](https://l10n.gnome.org/vertimus/brasero/gnome-3-8/po/sv/) | gnome-3-8 | 974 | 2 | 1 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [oo7](https://l10n.gnome.org/vertimus/oo7/main/oo7-server/sv/) | main | 14 | 2 | 1 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/master/po-libgimp/sv/) | master | 673 | 1 | 1 | Behöver arbete | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-initial-setup](https://l10n.gnome.org/vertimus/gnome-initial-setup/main/po/sv/) | main | 143 | 1 | 1 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-initial-setup](https://l10n.gnome.org/vertimus/gnome-initial-setup/main/po/sv/) | main | 143 | 1 | 1 | Behöver arbete | Klar lokalt (2026-11-22): En UI-lucka och en fuzzy-sträng är lokalt validerade. [original](gnome-initial-setup/main/po/gnome-initial-setup.main.sv.original.po), [granskad](gnome-initial-setup/main/po/gnome-initial-setup.main.sv.reviewed.po), [diff](gnome-initial-setup/main/po/gnome-initial-setup.main.sv.review.diff), [notering](gnome-initial-setup/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gstreamer](https://l10n.gnome.org/vertimus/gstreamer/main/plugins-base/sv/) | main | 236 | 1 | 1 | Behöver arbete | Klar lokalt (2026-11-22): En teknisk lucka och en fuzzy metadataöversättning är lokalt validerade. [original](gstreamer/main/plugins-base/plugins-base.main.sv.original.po), [granskad](gstreamer/main/plugins-base/plugins-base.main.sv.reviewed.po), [diff](gstreamer/main/plugins-base/plugins-base.main.sv.review.diff), [notering](gstreamer/main/plugins-base/README.md) |
 | Gränssnitt | Default (99% translated) | [meld](https://l10n.gnome.org/vertimus/meld/main/po/sv/) | main | 560 | 1 | 1 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [decoder](https://l10n.gnome.org/vertimus/decoder/master/po/sv/) | master | 74 | 0 | 1 | Behöver arbete | Klar lokalt (2026-11-22): Den enda oöversatta UI-strängen är översatt och validerad lokalt; inget har skickats till GNOME. [original](decoder/master/po/decoder.master.sv.original.po), [granskad](decoder/master/po/decoder.master.sv.reviewed.po), [diff](decoder/master/po/decoder.master.sv.review.diff), [notering](decoder/master/po/README.md) |
