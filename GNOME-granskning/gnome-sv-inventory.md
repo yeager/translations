@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 07:34 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 07:36 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -118,7 +118,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [drum-machine](https://l10n.gnome.org/vertimus/drum-machine/main/po/sv/) | main | 199 | 3 | 17 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [whisp](https://l10n.gnome.org/vertimus/whisp/main/po/sv/) | main | 186 | 4 | 14 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-maps](https://l10n.gnome.org/vertimus/gnome-maps/main/po/sv/) | main | 535 | 6 | 13 | Behöver arbete | Ej granskad |
-| Gränssnitt | Default (99% translated) | [ptyxis](https://l10n.gnome.org/vertimus/ptyxis/main/po/sv/) | main | 461 | 0 | 12 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [ptyxis](https://l10n.gnome.org/vertimus/ptyxis/main/po/sv/) | main | 461 | 0 | 12 | Behöver arbete | Klar lokalt (2026-11-22): Alla tolv aktuella oöversatta strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](ptyxis/main/po/ptyxis.main.sv.original.po), [granskad](ptyxis/main/po/ptyxis.main.sv.reviewed.po), [diff](ptyxis/main/po/ptyxis.main.sv.review.diff), [notering](ptyxis/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnumeric](https://l10n.gnome.org/vertimus/gnumeric/master/po-functions/sv/) | master | 2129 | 43 | 11 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnumeric](https://l10n.gnome.org/vertimus/gnumeric/master/po/sv/) | master | 3969 | 28 | 11 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [solitaire](https://l10n.gnome.org/vertimus/solitaire/gnome-50/po/sv/) | gnome-50 | 128 | 1 | 11 | Behöver arbete | Ej granskad |
