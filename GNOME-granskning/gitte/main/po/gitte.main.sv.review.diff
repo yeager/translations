@@ -1,0 +1,4770 @@
+--- a/gitte.main.sv.original.po
++++ b/gitte.main.sv.reviewed.po
+@@ -6,10 +6,10 @@
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: gitte main\n"
+-"Report-Msgid-Bugs-To: https://codeberg.org/ckruse/Gitte/issues\n"
+-"POT-Creation-Date: 2026-10-26 16:44+0000\n"
+-"PO-Revision-Date: 2026-10-01 22:47+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2026-08-29 08:13+0200\n"
++"PO-Revision-Date: 2026-11-22 11:35+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -192,7 +192,7 @@
+ "appearance."
+ msgstr ""
+ "Huruvida systemets färgschema ska användas eller ett ljust eller mörkt "
+-"utseende ska tvingas"
++"utseende ska tvingas."
+ 
+ #: data/de.wwwtech.gitte.gschema.xml:97
+ msgid "Path to the git binary"
+@@ -462,10 +462,10 @@
+ "with a \"Load anyway\" button is displayed. Matching uses git pathspec "
+ "semantics, so \"*.ext\" matches files in any subdirectory."
+ msgstr ""
+-"Kommaseparerade git-sökvägsangivelser/globmönster (t.ex. “*.tscn, *.uid”). "
++"Kommaseparerade git-sökvägsangivelser/globmönster (t.ex. ”*.tscn, *.uid”). "
+ "Filer vars sökväg matchar ett mönster visas inte som en diff, i stället "
+-"visas en platshållare, och en knapp “Läs in i alla fall” visas. Matchning "
+-"använder gits semantik för sökvägsangivelser, så ”.ext” matchar filer i alla "
++"visas en platshållare, och en knapp ”Läs in i alla fall” visas. Matchning "
++"använder gits semantik för sökvägsangivelser, så ”*.ext” matchar filer i alla "
+ "underkataloger."
+ 
+ #: data/de.wwwtech.gitte.gschema.xml:204
+@@ -557,83 +557,63 @@
+ "När aktiverad fälls de köade och oköade delarna i den delade arbetskopievyn "
+ "automatiskt då de inte innehåller några filer och expanderas då de har filer."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:252
+-msgid "Default view when opening a repository (global default)"
+-msgstr "Standardvy vid öppnande av ett arkiv (globalt standardvärde)"
++#: data/de.wwwtech.gitte.gschema.xml:249
++msgid "Workspace section expanded"
++msgstr "Arbetsytedel expanderad"
++
++#: data/de.wwwtech.gitte.gschema.xml:250
++msgid "Whether the Workspace section in the sidebar is expanded."
++msgstr "Huruvida arbetsytedelen i sidopanelen är expanderad."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:253
+-msgid ""
+-"Which workspace view is shown when a repository is opened: \"changes\", "
+-"\"current-branch\", or \"commit-graph\". Repositories can override."
+-msgstr ""
+-"Vilken arbetsytevy som visas när detta arkiv öppnas: ”changes”, ”current-"
+-"branch” eller ”commit-graph”. Arkiv kan åsidosätta detta."
+-
+-#: data/de.wwwtech.gitte.gschema.xml:257
+-msgid "Predefined commit trailers"
+-msgstr "Fördefinierade släprader för incheckning"
+-
+-#: data/de.wwwtech.gitte.gschema.xml:258
+-msgid ""
+-"Trailers offered in the commit form, as pairs of stable IDs and \"Token: "
+-"Value\" strings. \"{identity}\", \"{name}\" and \"{email}\" are replaced "
+-"with the committer identity; an empty value asks for the value when the "
+-"trailer is used."
+-msgstr ""
+-"Släprader som erbjuds i incheckningsformuläret som par av stabila ID:n och "
+-"”Token: Värde”-strängar. ”{identity}”, ”{name}” och ”{email}” ersätts med "
+-"incheckarens identitet. Ett tomt värde gör att värdet efterfrågas varje gång "
+-"släpraden används."
+-
+-#: data/de.wwwtech.gitte.gschema.xml:264
++#: data/de.wwwtech.gitte.gschema.xml:254
+ msgid "Branches section expanded"
+ msgstr "Grendel expanderad"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:265
++#: data/de.wwwtech.gitte.gschema.xml:255
+ msgid "Whether the Branches section in the sidebar is expanded."
+ msgstr "Huruvida grendelen i sidopanelen är expanderad."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:269
++#: data/de.wwwtech.gitte.gschema.xml:259
+ msgid "Tags section expanded"
+ msgstr "Taggdel expanderad"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:270
++#: data/de.wwwtech.gitte.gschema.xml:260
+ msgid "Whether the Tags section in the sidebar is expanded."
+ msgstr "Huruvida taggdelen i sidopanelen är expanderad."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:274
++#: data/de.wwwtech.gitte.gschema.xml:264
+ msgid "Remotes section expanded"
+ msgstr "Fjärrdel expanderad"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:275
++#: data/de.wwwtech.gitte.gschema.xml:265
+ msgid "Whether the Remotes section in the sidebar is expanded."
+ msgstr "Huruvida fjärrdelen i sidopanelen är expanderad."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:279
++#: data/de.wwwtech.gitte.gschema.xml:269
+ msgid "Unstaged changes section expanded"
+ msgstr "Del för oköade ändringar expanderad"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:280
++#: data/de.wwwtech.gitte.gschema.xml:270
+ msgid ""
+ "Whether the Unstaged Changes list in the split working copy view is expanded."
+ msgstr ""
+ "Huruvida listan för oköade ändringar i den delade arbetsytevyn är expanderad."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:284
++#: data/de.wwwtech.gitte.gschema.xml:274
+ msgid "Staged changes section expanded"
+ msgstr "Del för köade ändringar expanderad"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:285
++#: data/de.wwwtech.gitte.gschema.xml:275
+ msgid ""
+ "Whether the Staged Changes list in the split working copy view is expanded."
+ msgstr ""
+ "Huruvida listan för köade ändringar i den delade arbetsytevyn är expanderad."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:289
++#: data/de.wwwtech.gitte.gschema.xml:279
+ msgid "Include remote branches in commit graph"
+ msgstr "Inkludera fjärrgrenar i incheckningsgraf"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:290
++#: data/de.wwwtech.gitte.gschema.xml:280
+ msgid ""
+ "Whether the commit graph includes remote-tracking branches (git log --"
+ "remotes)."
+@@ -641,11 +621,11 @@
+ "Huruvida incheckningsgrafen inkluderar fjärrspårande grenar (git log --"
+ "remotes)."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:300
++#: data/de.wwwtech.gitte.gschema.xml:290
+ msgid "Tag sorting method"
+ msgstr "Taggsorteringsmetod"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:301
++#: data/de.wwwtech.gitte.gschema.xml:291
+ msgid ""
+ "How to sort tags: \"global-default\" uses the global setting, otherwise "
+ "\"semver\", \"alphabetical\", or \"date\""
+@@ -653,11 +633,11 @@
+ "Hur taggar ska sorteras: ”global-default” använder den globala "
+ "inställningen, annars ”semver”, ”alphabetical” eller ”date”"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:310
++#: data/de.wwwtech.gitte.gschema.xml:300
+ msgid "Tag sort direction"
+ msgstr "Taggsorteringsriktning"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:311
++#: data/de.wwwtech.gitte.gschema.xml:301
+ msgid ""
+ "Sort direction for tags: \"global-default\" uses the global setting, "
+ "otherwise \"asc\" or \"desc\""
+@@ -665,11 +645,11 @@
+ "Sorteringsriktning för taggar: ”global-default” använder den globala "
+ "inställningen, annars ”asc” eller ”desc”"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:321
++#: data/de.wwwtech.gitte.gschema.xml:311
+ msgid "Branch sorting method"
+ msgstr "Grensorteringsmetod"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:322
++#: data/de.wwwtech.gitte.gschema.xml:312
+ msgid ""
+ "How to sort branches: \"global-default\" uses the global setting, otherwise "
+ "\"alphanumeric\", \"last-checkout\", or \"last-commit\""
+@@ -677,11 +657,11 @@
+ "Hur grenar ska sorteras: ”global-default” använder den globala "
+ "inställningen, annars ”alphanumeric”, ”last-checkout” eller ”last-commit”"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:331
++#: data/de.wwwtech.gitte.gschema.xml:321
+ msgid "Branch sort direction"
+ msgstr "Grensorteringsriktning"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:332
++#: data/de.wwwtech.gitte.gschema.xml:322
+ msgid ""
+ "Sort direction for branches: \"global-default\" uses the global setting, "
+ "otherwise \"asc\" or \"desc\""
+@@ -689,27 +669,27 @@
+ "Sorteringsriktning för grenar: ”global-default” använder den globala "
+ "inställningen, annars ”asc” eller ”desc”"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:336
++#: data/de.wwwtech.gitte.gschema.xml:326
+ msgid "Collapsed branch groups"
+ msgstr "Ihopfällda grengrupper"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:337
++#: data/de.wwwtech.gitte.gschema.xml:327
+ msgid "List of branch group prefixes that are collapsed in the sidebar."
+ msgstr "Lista över grengruppsprefix som fälls ihop i sidopanelen."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:341
++#: data/de.wwwtech.gitte.gschema.xml:331
+ msgid "Expanded remote groups"
+ msgstr "Expanderade fjärrgrupper"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:342
++#: data/de.wwwtech.gitte.gschema.xml:332
+ msgid "List of remote names that are explicitly expanded in the sidebar."
+ msgstr "Lista över fjärrnamn som explicit expanderas i sidopanelen."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:353
++#: data/de.wwwtech.gitte.gschema.xml:343
+ msgid "Default merge strategy"
+ msgstr "Standardsammanslagningsstrategi"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:354
++#: data/de.wwwtech.gitte.gschema.xml:344
+ msgid ""
+ "The merge strategy preselected in the merge dialog for this repository. "
+ "Updated each time the user confirms a merge."
+@@ -717,11 +697,11 @@
+ "Sammanslagningsstrategin som är förvald i sammanslagningsdialogen för detta "
+ "arkiv. Uppdaterad varje gång användaren bekräftar en sammanslagning."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:358
++#: data/de.wwwtech.gitte.gschema.xml:348
+ msgid "Treat matching files as binary (per repository)"
+ msgstr "Behandla matchande filer som binärer (per arkiv)"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:359
++#: data/de.wwwtech.gitte.gschema.xml:349
+ msgid ""
+ "Comma-separated git pathspec/glob patterns for this repository. \"global-"
+ "default\" uses the global setting; any other value overrides it for this "
+@@ -731,23 +711,23 @@
+ "default” använder den globala inställningen; alla andra värden åsidosätter "
+ "den för detta arkiv (ett tomt värde inaktiverar filtrering här)."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:368
++#: data/de.wwwtech.gitte.gschema.xml:358
+ msgid "Auto-fetch mode"
+ msgstr "Läge för automatisk hämtning"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:369
++#: data/de.wwwtech.gitte.gschema.xml:359
+ msgid ""
+ "Auto-fetch mode for this repository: \"global-default\" uses the global "
+ "setting, \"enabled\" forces on, \"disabled\" forces off."
+ msgstr ""
+ "Läge för automatisk hämtning för detta arkiv: ”global-default” använder den "
+-"globala inställningen, \"enabled\" slår på, \"disabled\" slår av."
++"globala inställningen, ”enabled” slår på, ”disabled” slår av."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:374
++#: data/de.wwwtech.gitte.gschema.xml:364
+ msgid "Auto-fetch interval"
+ msgstr "Intervall för automatisk hämtning"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:375
++#: data/de.wwwtech.gitte.gschema.xml:365
+ msgid ""
+ "Interval in seconds between automatic fetches (used when auto-fetch-mode is "
+ "\"enabled\")."
+@@ -755,11 +735,11 @@
+ "Intervall i sekunder mellan automatiska hämtningar (används när auto-fetch-"
+ "mode är ”enabled”)."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:380
++#: data/de.wwwtech.gitte.gschema.xml:370
+ msgid "Commit subject length"
+ msgstr "Ämneslängd för incheckning"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:381
++#: data/de.wwwtech.gitte.gschema.xml:371
+ msgid ""
+ "Maximum number of characters in the commit subject (first line). When "
+ "exceeded, the subject is highlighted instead of being truncated. 0 means "
+@@ -768,11 +748,11 @@
+ "Maximalt antal tecken i incheckningsämnet (första raden). När det överskrids "
+ "färgmarkeras ämnet i stället för att trunkeras. 0 betyder obegränsat."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:386
++#: data/de.wwwtech.gitte.gschema.xml:376
+ msgid "Commit body line length"
+ msgstr "Radlängd för incheckningstext"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:387
++#: data/de.wwwtech.gitte.gschema.xml:377
+ msgid ""
+ "Maximum characters per line in the commit body/details. Overlong portions "
+ "are highlighted instead of being wrapped. 0 means unlimited."
+@@ -780,11 +760,11 @@
+ "Maximalt antal tecken per rad i incheckningens text/detaljer. Överdrivet "
+ "långa delar färgmarkeras i stället för att radbrytas. 0 betyder obegränsat."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:391
++#: data/de.wwwtech.gitte.gschema.xml:381
+ msgid "Capitalize commit subject"
+ msgstr "Versalisera incheckningsämne"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:392
++#: data/de.wwwtech.gitte.gschema.xml:382
+ msgid ""
+ "When enabled, the first character of the commit subject is automatically "
+ "capitalized as you type."
+@@ -792,47 +772,11 @@
+ "När aktiverat versaliseras automatiskt den första bokstaven i "
+ "incheckningsämnet då du skriver."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:396
+-msgid "Sign off commits by default"
+-msgstr "Sign-off på incheckningar som standard"
+-
+-#: data/de.wwwtech.gitte.gschema.xml:397
+-msgid ""
+-"Whether \"Sign Off Commit\" is enabled by default when opening this "
+-"repository."
+-msgstr ""
+-"Huruvida ”Sign-off på incheckning” är aktiverat som standard vid öppnande av "
+-"detta arkiv."
+-
+-#: data/de.wwwtech.gitte.gschema.xml:401
+-msgid "Enable commit trailers"
+-msgstr "Aktivera incheckningssläprader"
+-
+-#: data/de.wwwtech.gitte.gschema.xml:402
+-msgid ""
+-"Whether this repository shows commit trailer controls and inserts configured "
+-"default trailers."
+-msgstr ""
+-"Huruvida detta arkiv visar kontroller för släprader och infogar "
+-"konfigurerade standardsläprader."
+-
+-#: data/de.wwwtech.gitte.gschema.xml:406
+-msgid "Default commit trailers"
+-msgstr "Standardincheckningssläprader"
+-
+-#: data/de.wwwtech.gitte.gschema.xml:407
+-msgid ""
+-"Stable IDs of predefined trailers inserted into every new commit message in "
+-"this repository."
+-msgstr ""
+-"Stabila ID:n för fördefinierade släprader som infogas i varje nytt "
+-"incheckningsmeddelande i detta arkiv."
+-
+-#: data/de.wwwtech.gitte.gschema.xml:411
++#: data/de.wwwtech.gitte.gschema.xml:386
+ msgid "Mainline branch"
+ msgstr "Huvudlinjesgren"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:412
++#: data/de.wwwtech.gitte.gschema.xml:387
+ msgid ""
+ "Name of the branch acting as the mainline for this repository (used to "
+ "display ahead/behind in the commit log). Empty string means auto-detect via "
+@@ -842,22 +786,22 @@
+ "visa före/erfter i incheckningsloggen). Tom sträng betyder identifiera "
+ "automatiskt med en heuristik (origin/HEAD, sedan main/master/develop/trunk)."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:420
++#: data/de.wwwtech.gitte.gschema.xml:395
+ msgid "Mainline branch kind"
+ msgstr "Grentyp för huvudlinje"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:421
++#: data/de.wwwtech.gitte.gschema.xml:396
+ msgid ""
+ "Whether the configured mainline-branch refers to a local or a remote branch."
+ msgstr ""
+ "Huruvida den konfigurerade huvudlinjesgrenen hänvisar till en lokal gren "
+ "eller en fjärrgren."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:434
++#: data/de.wwwtech.gitte.gschema.xml:409
+ msgid "Forge type"
+ msgstr "Smedjetyp"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:435
++#: data/de.wwwtech.gitte.gschema.xml:410
+ msgid ""
+ "Which forge the origin remote points at, used to turn bare references "
+ "(#123, !123) in commit messages into links. 'auto' detects the forge from "
+@@ -870,11 +814,11 @@
+ "använder de anpassade URL-mallarna nedan; ”none” inaktiverar länkning av "
+ "nakna referenser."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:439
++#: data/de.wwwtech.gitte.gschema.xml:414
+ msgid "Custom issue/PR URL template"
+ msgstr "Anpassad URL-mall för ärende/PR"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:440
++#: data/de.wwwtech.gitte.gschema.xml:415
+ msgid ""
+ "URL template used to link #123 references in commit messages when forge-type "
+ "is \"manual\". Use {id} as a placeholder for the reference number, e.g. "
+@@ -886,11 +830,11 @@
+ "referensnumret, t.ex. ”https://tracker.example.com/issues/{id}”. Tom "
+ "inaktivera #-länkande i manuellt läge."
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:444
++#: data/de.wwwtech.gitte.gschema.xml:419
+ msgid "Custom merge-request URL template"
+ msgstr "Anpassad URL-mall för merge-förfrågan"
+ 
+-#: data/de.wwwtech.gitte.gschema.xml:445
++#: data/de.wwwtech.gitte.gschema.xml:420
+ msgid ""
+ "URL template used to link !123 references in commit messages when forge-type "
+ "is \"manual\". Use {id} as a placeholder for the reference number, e.g. "
+@@ -899,22 +843,8 @@
+ msgstr ""
+ "URL-mall att använda för att länka !123-referenser i incheckningsmeddelanden "
+ "när forge-type är ”manual”. Använd {id} som en platshållare för "
+-"referensnumret, t.ex. ”https://tracker.example.com/merge_requests/{id}”. Tom "
+-"inaktivera !-länkande i manuellt läge."
+-
+-#: data/de.wwwtech.gitte.gschema.xml:455
+-msgid "Default view when opening this repository"
+-msgstr "Standardvy när detta arkiv öppnas"
+-
+-#: data/de.wwwtech.gitte.gschema.xml:456
+-msgid ""
+-"Which workspace view is shown when this repository is opened: \"global-"
+-"default\" uses the global setting, otherwise \"changes\", \"current-"
+-"branch\", or \"commit-graph\"."
+-msgstr ""
+-"Vilken arbetsytevy som visas när detta arkiv öppnas: ”global-default” "
+-"använder den globala inställningen, annars ”changes”, ”current-branch” eller "
+-"”commit-graph”."
++"referensnumret, t.ex. ”https://tracker.example.com/merge_requests/{id}”. En "
++"tom mall inaktiverar länkning av referenser med utropstecken i manuellt läge."
+ 
+ #: data/de.wwwtech.gitte.metainfo.xml.in:10
+ msgid ""
+@@ -983,9 +913,8 @@
+ msgid "Working copy with staged and unstaged changes"
+ msgstr "Arbetskopia med köade och oköade ändringar"
+ 
+-#: data/de.wwwtech.gitte.metainfo.xml.in:46 src/commit_graph_view.rs:312
+-#: src/preferences/helpers.rs:112 src/repo_view/sidebar_view.rs:822
+-#: src/repo_view/sidebar_view.rs:1223
++#: data/de.wwwtech.gitte.metainfo.xml.in:46 src/commit_graph_view.rs:304
++#: src/repo_view/sidebar_view.rs:662 src/repo_view/sidebar_view.rs:1000
+ msgid "Commit Graph"
+ msgstr "Incheckningsgraf"
+ 
+@@ -1038,12 +967,12 @@
+ msgstr "Lägg till fjärr"
+ 
+ #: src/add_remote_dialog.rs:89 src/cherry_pick_dialog.rs:188
+-#: src/clone_dialog.rs:193 src/clone_progress_dialog.rs:104
+-#: src/commit_message_dialog.rs:208 src/confirm_dialog.rs:61
++#: src/clone_dialog.rs:163 src/clone_progress_dialog.rs:92
++#: src/commit_message_dialog.rs:212 src/confirm_dialog.rs:59
+ #: src/confirm_dirty_dialog.rs:76 src/create_branch_dialog.rs:122
+ #: src/create_tag_dialog.rs:184 src/delete_remote_branch_dialog.rs:82
+-#: src/merge_dialog.rs:271 src/pull_dialog.rs:148 src/push_dialog.rs:256
+-#: src/repo_row.rs:480 src/revert_dialog.rs:260 src/select_branch_dialog.rs:134
++#: src/merge_dialog.rs:270 src/pull_dialog.rs:148 src/push_dialog.rs:256
++#: src/repo_row.rs:479 src/revert_dialog.rs:259 src/select_branch_dialog.rs:133
+ #: src/select_remote_dialog.rs:75 src/stash_dialog.rs:91
+ #: src/submodules_dialog.rs:370 src/sync_dialog.rs:115
+ #: src/text_prompt_dialog.rs:158
+@@ -1051,7 +980,7 @@
+ msgstr "Avbryt"
+ 
+ #: src/add_remote_dialog.rs:90 src/start_screen/handlers.rs:48
+-#: src/submodules_dialog.rs:681
++#: src/submodules_dialog.rs:680
+ msgid "Add"
+ msgstr "Lägg till"
+ 
+@@ -1077,7 +1006,7 @@
+ msgid "Unstaged: %1"
+ msgstr "Oköade: %1"
+ 
+-#: src/cherry_pick_dialog.rs:84 src/revert_dialog.rs:95
++#: src/cherry_pick_dialog.rs:84 src/revert_dialog.rs:96
+ msgid "Mainline Parent"
+ msgstr "Huvudlinjesförälder"
+ 
+@@ -1086,7 +1015,7 @@
+ msgstr ""
+ "Välj vilken förälder som ska behandlas som huvudlinje för denna cherry-pick"
+ 
+-#: src/cherry_pick_dialog.rs:90 src/revert_dialog.rs:101
++#: src/cherry_pick_dialog.rs:90 src/revert_dialog.rs:102
+ msgid "Parent"
+ msgstr "Förälder"
+ 
+@@ -1102,7 +1031,8 @@
+ msgid "Append a “(cherry picked from commit …)” line to the message"
+ msgstr "Lägg till en rad ”(cherry picked from commit …)” till meddelandet"
+ 
+-#: src/cherry_pick_dialog.rs:113 src/revert_dialog.rs:176
++#: src/cherry_pick_dialog.rs:113 src/commit_message_dialog.rs:155
++#: src/revert_dialog.rs:175
+ msgid "Sign commit"
+ msgstr "Signera incheckning"
+ 
+@@ -1110,14 +1040,14 @@
+ msgid "Cryptographically sign the cherry-picked commit"
+ msgstr "Signera den ”cherry-pick”:ade incheckningen kryptografiskt"
+ 
+-#: src/cherry_pick_dialog.rs:147 src/merge_dialog.rs:289
+-#: src/revert_dialog.rs:209
++#: src/cherry_pick_dialog.rs:147 src/merge_dialog.rs:288
++#: src/revert_dialog.rs:208
+ msgid "Don't stash"
+ msgstr "Stasha inte"
+ 
+ #: src/cherry_pick_dialog.rs:148 src/create_branch_dialog.rs:102
+ #: src/repo_view/branch/switch.rs:148 src/repo_view/detached_checkout.rs:82
+-#: src/revert_dialog.rs:210 src/select_branch_dialog.rs:115
++#: src/revert_dialog.rs:209 src/select_branch_dialog.rs:115
+ msgid "Keep changes in the working copy"
+ msgstr "Behåll ändringar i arbetskopia"
+ 
+@@ -1125,11 +1055,11 @@
+ msgid "cherry-picking"
+ msgstr "gör cherry-pick"
+ 
+-#: src/cherry_pick_dialog.rs:167 src/revert_dialog.rs:232
++#: src/cherry_pick_dialog.rs:167 src/revert_dialog.rs:231
+ msgid "Choose a parent…"
+ msgstr "Välj en förälder…"
+ 
+-#: src/cherry_pick_dialog.rs:172 src/revert_dialog.rs:237
++#: src/cherry_pick_dialog.rs:172 src/revert_dialog.rs:236
+ #, rust-format
+ msgid "Parent {n}"
+ msgstr "Förälder {n}"
+@@ -1138,154 +1068,67 @@
+ msgid "Cherry-pick"
+ msgstr "Cherry-pick"
+ 
+-#: src/clone_dialog.rs:81
+-#, rust-format
+-msgid "A file or folder named “{}” already exists at this location."
+-msgstr "En fil eller mapp med namnet ”{}” finns redan på denna plats."
+-
+-#: src/clone_dialog.rs:84
+-#, rust-format
+-msgid ""
+-"The destination “{}” could not be checked. Check your access permissions."
+-msgstr "Målet ”{}” kunde inte Kontrolleras. Kontrollera åtkomsträttigheterna."
+-
+-#: src/clone_dialog.rs:142
++#: src/clone_dialog.rs:113
+ msgid "Repository URL"
+ msgstr "Arkiv-URL"
+ 
+-#: src/clone_dialog.rs:147
++#: src/clone_dialog.rs:118
+ msgid "Location"
+ msgstr "Plats"
+ 
+-#: src/clone_dialog.rs:161
++#: src/clone_dialog.rs:132
+ msgid "Directory Name"
+ msgstr "Katalognamn"
+ 
+-#: src/clone_dialog.rs:168
++#: src/clone_dialog.rs:139
+ msgid "Clone Repository"
+ msgstr "Klona arkiv"
+ 
+-#: src/clone_dialog.rs:194
++#: src/clone_dialog.rs:164
+ msgid "Clone"
+ msgstr "Klona"
+ 
+-#: src/clone_dialog.rs:253 src/clone_dialog.rs:275
++#: src/clone_dialog.rs:223 src/clone_dialog.rs:245
+ msgid "Select Clone Destination"
+ msgstr "Välj klonmål"
+ 
+-#: src/clone_dialog.rs:254
++#: src/clone_dialog.rs:224
+ msgid "Enter the absolute path of the directory to clone into."
+ msgstr "Ange den absoluta sökvägen för katalogen att klona till."
+ 
+-#: src/clone_dialog.rs:259 src/preferences/system.rs:287
++#: src/clone_dialog.rs:229 src/preferences/system.rs:287
+ msgid "Select"
+ msgstr "Välj"
+ 
+-#: src/clone_progress_dialog.rs:88
++#: src/clone_progress_dialog.rs:77
+ msgid "Cloning Repository"
+ msgstr "Klonar arkiv"
+ 
+-#: src/clone_progress_dialog.rs:131 src/submodules_dialog.rs:144
++#: src/clone_progress_dialog.rs:119 src/submodules_dialog.rs:144
+ msgid "Downloading LFS objects"
+ msgstr "Hämta LFS-objekt"
+ 
+-#: src/clone_progress_dialog.rs:145 src/submodules_dialog.rs:148
++#: src/clone_progress_dialog.rs:133 src/submodules_dialog.rs:148
+ msgid "Receiving objects"
+ msgstr "Tar emot objekt"
+ 
+-#: src/clone_progress_dialog.rs:156 src/submodules_dialog.rs:154
++#: src/clone_progress_dialog.rs:144 src/submodules_dialog.rs:154
+ msgid "Indexing deltas"
+ msgstr "Indexerar deltan"
+ 
+-#: src/commit_area.rs:157 src/commit_area.rs:158
+-#: src/commit_message_dialog.rs:114 src/commit_message_dialog.rs:115
+-#: src/merge_dialog.rs:220 src/merge_dialog.rs:221 src/revert_dialog.rs:122
+-#: src/revert_dialog.rs:123
+-msgid "Commit Subject"
+-msgstr "Ämne för incheckning"
+-
+-#: src/commit_area.rs:199 src/commit_graph_view.rs:490
+-#: src/commit_log_view.rs:409 src/commit_message_dialog.rs:162
+-#: src/merge_dialog.rs:253 src/revert_dialog.rs:163
+-msgid "Commit Details"
+-msgstr "Incheckningsdetaljer"
+-
+-#: src/commit_area.rs:207
+-msgid "Extended commit description (optional)"
+-msgstr "Utökad incheckningsbeskrivning (valfri)"
+-
+-#: src/commit_area.rs:227
+-msgid "Amend Commit"
+-msgstr "Utöka incheckning"
+-
+-#: src/commit_area.rs:239 src/commit_message_dialog.rs:190
+-msgid "Sign Commit"
+-msgstr "Signera incheckning"
+-
+-#: src/commit_area.rs:251 src/commit_message_dialog.rs:173
+-msgid "Sign Off Commit"
+-msgstr "Sign-off på incheckning"
+-
+-#: src/commit_area.rs:252 src/commit_message_dialog.rs:174
+-msgid "Add a Signed-off-by trailer with your identity"
+-msgstr "Lägg till en Signed-off-by-släprad med din identitet"
+-
+-#: src/commit_area.rs:293
+-msgid "Enter a subject to amend"
+-msgstr "Ange ett ämne att utöka"
+-
+-#: src/commit_area.rs:295
+-msgid "Stage changes and enter a subject to commit"
+-msgstr "Köa ändringar och ange ett ämne för att checka in"
+-
+-#: src/commit_area.rs:302
+-msgctxt "button"
+-msgid "Amend"
+-msgstr "Utöka"
+-
+-#: src/commit_area.rs:302
+-msgctxt "button"
+-msgid "Commit"
+-msgstr "Checka in"
+-
+-#: src/commit_area.rs:537
+-msgid "Unstage All"
+-msgstr "Ta bort alla ur kön"
+-
+-#: src/commit_area.rs:539
+-msgid "Stage All"
+-msgstr "Köa alla"
+-
+-#: src/commit_area.rs:598
+-msgid "Specify a commit message subject to commit"
+-msgstr "Ange ett ämne för incheckningsmeddelande för att checka in"
+-
+-#: src/commit_area.rs:606
+-msgid "No staged files to commit"
+-msgstr "Inga köade filer att checka in"
+-
+-#: src/commit_area.rs:615 src/commit_message_dialog.rs:447
+-#: src/commit_trailers.rs:367
+-msgid "No Git identity configured (user.name and user.email)"
+-msgstr "Ingen Git-identitet konfigurerad (user.name och user.email)"
+-
+-#: src/commit_detail.rs:241
+-msgid "Copy Commit Message"
+-msgstr "Kopiera incheckningsmeddelande"
+-
+-#: src/commit_detail.rs:443
++#: src/commit_detail.rs:411
+ msgid "Committed by"
+ msgstr "Incheckad av"
+ 
+-#: src/commit_graph_view.rs:191
++#: src/commit_graph_view.rs:184
+ msgid "Generate commit-graph index"
+ msgstr "Generera incheckningsgrafindex"
+ 
+-#: src/commit_graph_view.rs:192
++#: src/commit_graph_view.rs:185
+ msgid "Generating commit-graph index…"
+ msgstr "Genererar incheckningsgrafindex…"
+ 
+-#: src/commit_graph_view.rs:201
++#: src/commit_graph_view.rs:194
+ msgid ""
+ "Loading history is slow without a commit-graph index. Generating one makes "
+ "this and future loads nearly instant. This is a one-time step and git keeps "
+@@ -1295,66 +1138,66 @@
+ "generera ett gör denna och framtida inläsningar nästan omedelbara. Detta är "
+ "ett engångssteg och git håller det sedan uppdaterat."
+ 
+-#: src/commit_graph_view.rs:205
++#: src/commit_graph_view.rs:198
+ msgid "This can take a moment on large repositories."
+ msgstr "Detta kan ta ett tag på stora arkiv."
+ 
+-#: src/commit_graph_view.rs:214 src/commit_log_view/selection.rs:275
+-#: src/stashes_view.rs:219
++#: src/commit_graph_view.rs:207 src/commit_log_view/selection.rs:271
++#: src/stashes_view.rs:198
+ #, rust-format
+ msgid "Showing the first {max} of {n} changed files."
+ msgstr "Visar de första {max} av {n} ändrade filer."
+ 
+-#: src/commit_graph_view.rs:316
++#: src/commit_graph_view.rs:308
+ msgid "Filter Branches"
+ msgstr "Filtrera grenar"
+ 
+-#: src/commit_graph_view.rs:324 src/commit_graph_view.rs:325
+-#: src/commit_log_view.rs:319 src/commit_log_view.rs:320
+-#: src/commit_search_bar.rs:133
+-msgid "Search Commits"
+-msgstr "Sök incheckningar"
+-
+-#: src/commit_graph_view.rs:391 src/window_content.rs:151
++#: src/commit_graph_view.rs:372 src/window_content.rs:146
+ msgid "Dismiss"
+ msgstr "Avfärda"
+ 
+-#: src/commit_graph_view.rs:397
++#: src/commit_graph_view.rs:378
+ msgid "Generate"
+ msgstr "Generera"
+ 
+-#: src/commit_graph_view.rs:441 src/commit_log_view.rs:362
++#: src/commit_graph_view.rs:422 src/commit_log_view.rs:371
+ msgid "No commits"
+ msgstr "Inga incheckningar"
+ 
+-#: src/commit_graph_view.rs:442 src/commit_log_view.rs:363
++#: src/commit_graph_view.rs:423 src/commit_log_view.rs:372
+ msgid "This repository has no commits yet."
+ msgstr "Detta arkiv har inga incheckningar ännu."
+ 
+-#: src/commit_graph_view.rs:462 src/commit_log_view.rs:383
++#: src/commit_graph_view.rs:443 src/commit_log_view.rs:392
+ msgid "Loading…"
+ msgstr "Läser in…"
+ 
+-#: src/commit_graph_view.rs:491 src/commit_log_view.rs:410
++#: src/commit_graph_view.rs:471 src/commit_log_view.rs:418
++#: src/commit_message_dialog.rs:142 src/merge_dialog.rs:253
++#: src/revert_dialog.rs:162 src/working_copy_view.rs:278
++msgid "Commit Details"
++msgstr "Incheckningsdetaljer"
++
++#: src/commit_graph_view.rs:472 src/commit_log_view.rs:419
+ msgid "Select a commit to view its changes"
+ msgstr "Välj en incheckning för att visa dess ändringar"
+ 
+-#: src/commit_graph_view.rs:542 src/commit_log_view.rs:462
+-#: src/stashes_view.rs:509
++#: src/commit_graph_view.rs:523 src/commit_log_view.rs:471
++#: src/stashes_view.rs:480
+ msgid "Expand All"
+ msgstr "Expandera alla"
+ 
+-#: src/commit_graph_view.rs:544 src/commit_log_view.rs:464
+-#: src/stashes_view.rs:511
++#: src/commit_graph_view.rs:525 src/commit_log_view.rs:473
++#: src/stashes_view.rs:482
+ msgid "Collapse All"
+ msgstr "Fäll ihop alla"
+ 
+-#: src/commit_graph_view.rs:576 src/commit_log_view.rs:497
+-#: src/file_diff_row.rs:899 src/stashes_view.rs:543
++#: src/commit_graph_view.rs:557 src/commit_log_view.rs:506
++#: src/file_diff_row.rs:888 src/stashes_view.rs:514
+ msgid "Show all"
+ msgstr "Visa alla"
+ 
+-#: src/commit_graph_view/context_menu.rs:253
++#: src/commit_graph_view/context_menu.rs:251
+ #: src/commit_log_view/context_menu.rs:267
+ #, rust-format
+ msgid "Copied {n} commit hash"
+@@ -1362,141 +1205,122 @@
+ msgstr[0] "Kopierade {n} incheckningshash"
+ msgstr[1] "Kopierade {n} incheckningshashar"
+ 
+-#: src/commit_graph_view/dragging.rs:81 src/commit_log_view/dragging.rs:59
++#: src/commit_graph_view/dragging.rs:64 src/commit_log_view/dragging.rs:59
+ msgid "Cannot reorder non-consecutive commits"
+ msgstr "Kan inte ändra ordning på ej på varandra följande incheckningar"
+ 
+-#: src/commit_graph_view/item_widgets.rs:83
+-#: src/commit_graph_view/selection.rs:171
++#: src/commit_graph_view/factory.rs:243 src/commit_graph_view/selection.rs:144
+ msgid "Uncommitted changes"
+ msgstr "Ej incheckade ändringar"
+ 
+-#: src/commit_graph_view/item_widgets.rs:86 src/repo_view/sidebar_view.rs:742
++#: src/commit_graph_view/factory.rs:246 src/repo_view/sidebar_view.rs:582
+ #, rust-format
+ msgid "{n} changed file"
+ msgid_plural "{n} changed files"
+ msgstr[0] "{n} ändrad fil"
+ msgstr[1] "{n} ändrade filer"
+ 
+-#: src/commit_graph_view/item_widgets.rs:97 src/repo_view/sidebar_view.rs:694
+-#: src/repo_view/sidebar_view.rs:701 src/repo_view/sidebar_view.rs:1171
++#: src/commit_graph_view/factory.rs:257 src/repo_view/sidebar_view.rs:542
++#: src/repo_view/sidebar_view.rs:549 src/repo_view/sidebar_view.rs:948
+ #: src/stash_dialog.rs:92
+ msgid "Stash"
+ msgstr "Stasha"
+ 
+-#: src/commit_graph_view/item_widgets.rs:113 src/commit_log_view/row.rs:94
+-#: src/ui_helpers.rs:575
++#: src/commit_graph_view/factory.rs:274 src/commit_log_view.rs:1208
++#: src/ui_helpers.rs:586
+ msgid "Signed"
+ msgstr "Signerad"
+ 
+-#: src/commit_graph_view/search.rs:357
+-msgid "The match is outside the graph."
+-msgstr "Matchningen är utanför grafen."
+-
+-#: src/commit_graph_view/selection.rs:215 src/commit_log_view/selection.rs:216
+-#: src/stashes_view.rs:839
++#: src/commit_graph_view/selection.rs:188 src/commit_log_view/selection.rs:212
++#: src/stashes_view.rs:801
+ #, rust-format
+ msgid "{n} file changed"
+ msgid_plural "{n} files changed"
+ msgstr[0] "{n} fil ändrad"
+ msgstr[1] "{n} filer ändrade"
+ 
+-#: src/commit_log_view.rs:305
++#: src/commit_log_view.rs:322
+ msgid "Commits"
+ msgstr "Incheckningar"
+ 
+-#: src/commit_log_view.rs:309
++#: src/commit_log_view.rs:326
+ msgid "Filter Commits"
+ msgstr "Filtrera incheckningar"
+ 
+-#: src/commit_message_dialog.rs:107 src/revert_dialog.rs:115
++#: src/commit_message_dialog.rs:95 src/revert_dialog.rs:116
+ msgid "Subject"
+ msgstr "Ämne"
+ 
+-#: src/commit_message_dialog.rs:135 src/revert_dialog.rs:143
++#: src/commit_message_dialog.rs:102 src/commit_message_dialog.rs:103
++#: src/merge_dialog.rs:221 src/merge_dialog.rs:222 src/revert_dialog.rs:123
++#: src/revert_dialog.rs:124 src/working_copy_view.rs:239
++#: src/working_copy_view.rs:240
++msgid "Commit Subject"
++msgstr "Ämne för incheckning"
++
++#: src/commit_message_dialog.rs:124 src/revert_dialog.rs:144
+ msgid "Body"
+ msgstr "Text"
+ 
+-#: src/commit_message_dialog.rs:191
++#: src/commit_message_dialog.rs:156
+ msgid "Cryptographically sign this commit"
+ msgstr "Signera denna incheckning kryptografiskt"
+ 
+-#: src/commit_search_bar.rs:64
+-#, rust-format
+-msgid "Searching… ({count})"
+-msgstr "Söker… ({count})"
+-
+-#: src/commit_search_bar.rs:68
+-#, rust-format
+-msgid "{count} result"
+-msgid_plural "{count} results"
+-msgstr[0] "{count} resultat"
+-msgstr[1] "{count} resultat"
+-
+-#: src/commit_search_bar.rs:72
+-#, rust-format
+-msgid "{position} / {total}"
+-msgstr "{position} / {total}"
+-
+-#. Translators: keep the search keywords file:, author: and since: unchanged.
+-#: src/commit_search_bar.rs:132
+-msgid "file:path author:name since:date text"
+-msgstr "file:sökväg author:namn since:datumtext"
+-
+-#: src/commit_search_bar.rs:193 src/commit_search_bar.rs:194
+-msgid "Stop Search"
+-msgstr "Stoppa sökning"
+-
+-#: src/commit_search_bar.rs:204 src/commit_search_bar.rs:205
+-msgid "Previous Match"
+-msgstr "Föregående matchning"
++#: src/commit_search_bar.rs:90
++msgid "Search Commits"
++msgstr "Sök incheckningar"
+ 
+-#: src/commit_search_bar.rs:215 src/commit_search_bar.rs:216
+-msgid "Next Match"
+-msgstr "Nästa matchning"
++#: src/commit_search_bar.rs:99
++msgid "Search Syntax Help"
++msgstr "Hjälp för söksyntax"
+ 
+-#: src/commit_trailers.rs:100
+-msgid "Commit Trailers…"
+-msgstr "Incheckningssläprader…"
++#: src/commit_search_bar.rs:110
++msgid "Search Syntax"
++msgstr "Söksyntax"
+ 
+-#: src/commit_trailers.rs:143 src/commit_trailers.rs:162
+-#: src/commit_trailers.rs:171 src/preferences/defaults.rs:162
+-msgid "Add Trailer"
+-msgstr "Lägg till släprad"
++#: src/commit_search_bar.rs:120
++msgid "<tt>file:src/main.rs</tt>: commits that changed this file"
++msgstr "<tt>file:src/main.rs</tt>: incheckningar som ändrade denna fil"
+ 
+-#: src/commit_trailers.rs:161
+-msgid "Token: Value"
+-msgstr "Token: Värde"
++#: src/commit_search_bar.rs:128
++msgid "<tt>author:Name</tt>: commits by author (substring match)"
++msgstr ""
++"<tt>author:Name</tt>: incheckningar av författare (delsträngsmatchning)"
+ 
+-#: src/commit_trailers.rs:302
+-msgid "Manage Commit Trailers…"
+-msgstr "Hantera incheckningssläprader…"
++#: src/commit_search_bar.rs:136
++msgid "<tt>since:2024-01-15</tt>: commits after this date"
++msgstr "<tt>since:2024-01-15</tt>: incheckningar efter detta datum"
+ 
+-#: src/commit_trailers.rs:306
+-#, rust-format
+-msgid "Manage Commit Trailers… ({n} trailer)"
+-msgid_plural "Manage Commit Trailers… ({n} trailers)"
+-msgstr[0] "Hantera incheckningssläprader… ({n} släprad)"
+-msgstr[1] "Hantera incheckningssläprader… ({n} släprader)"
++#: src/commit_search_bar.rs:144
++msgid "<tt>until:2024-06-01</tt>: commits before this date"
++msgstr "<tt>until:2024-06-01</tt>: incheckningar före detta datum"
+ 
+-#: src/commit_trailers.rs:343
+-msgid "Enter a trailer as “Token: Value”"
+-msgstr "Ange en släprad som ”Token: Värde”"
++#: src/commit_search_bar.rs:152
++msgid "<tt>since:2w</tt> / <tt>3months</tt> / <tt>1year</tt>: relative dates"
++msgstr "<tt>since:2w</tt> / <tt>3months</tt> / <tt>1year</tt>: relativa datum"
+ 
+-#: src/commit_trailers.rs:354
+-msgid "Enter a value for the trailer"
+-msgstr "Ange ett värde för släpraden"
+-
+-#: src/commit_trailers/trailer_row.rs:69
++#: src/commit_search_bar.rs:162
+ msgid ""
+-"Configure your Git identity (user.name and user.email) to use this trailer"
++"Free text searches commit messages. Use <tt>author:\"First Last\"</tt> for "
++"names with spaces. Multiple <tt>file:</tt> or <tt>author:</tt> values are OR-"
++"combined; different keywords are AND-combined."
+ msgstr ""
+-"Konfigurera din Git-identitet (user.name och user.email) att använda denna "
+-"släprad"
++"Fritextsökningen söker i incheckningsmeddelanden. Använd "
++"<tt>author:\"Förnamn Efternamn\"</tt> för namn med mellanslag. Flera "
++"<tt>file:</tt>- eller <tt>author:</tt>-värden kombineras med ELLER; olika "
++"nyckelord kombineras med OCH."
+ 
+-#: src/copy_button.rs:124
+-msgid "Copied"
+-msgstr "Kopierat"
++#: src/commit_search_bar.rs:196
++msgid "Searching"
++msgstr "Söker"
++
++#: src/commit_search_bar.rs:198
++msgid "Results"
++msgstr "Resultat"
++
++#: src/commit_search_bar.rs:208
++msgid "Stop Search"
++msgstr "Stoppa sökning"
+ 
+ #: src/create_branch_dialog.rs:66
+ msgid "Create Branch"
+@@ -1520,10 +1344,12 @@
+ msgstr "Växla arbetskopian till den nya grenen"
+ 
+ #: src/create_branch_dialog.rs:101 src/repo_view/detached_checkout.rs:81
++#: src/select_branch_dialog.rs:114
+ msgid "Check out without stashing"
+ msgstr "Checka ut utan att stasha"
+ 
+ #: src/create_branch_dialog.rs:104 src/repo_view/detached_checkout.rs:84
++#: src/select_branch_dialog.rs:117
+ msgid "checking out"
+ msgstr "checkar ut"
+ 
+@@ -1603,9 +1429,9 @@
+ msgid "Remove upstream configuration"
+ msgstr "Ta bort uppströmskonfiguration"
+ 
+-#: src/delete_remote_branch_dialog.rs:83 src/repo_view/branch/lifecycle.rs:112
+-#: src/repo_view/remote.rs:152 src/repo_view/tag.rs:165
+-#: src/working_copy_view/delete.rs:68
++#: src/delete_remote_branch_dialog.rs:83 src/repo_view/branch/lifecycle.rs:111
++#: src/repo_view/remote.rs:151 src/repo_view/tag.rs:164
++#: src/working_copy_view/delete.rs:83
+ msgid "Delete"
+ msgstr "Ta bort"
+ 
+@@ -1616,115 +1442,104 @@
+ msgstr[0] "⋯ {n} oförändrad rad"
+ msgstr[1] "⋯ {n} oförändrade rader"
+ 
+-#: src/diff_view.rs:201
+-msgid ""
+-"Staging part of this file marks the entire file as resolved. Other changes "
+-"remain unstaged."
+-msgstr ""
+-"Att köa en del av denna fil markerar hela filen som löst. Andra ändringar "
+-"förblir oköade."
+-
+-#: src/diff_view.rs:215
+-msgid "File Changes"
+-msgstr "Filändringar"
++#: src/diff_view.rs:200 src/preferences/defaults.rs:118
++#: src/preferences/repo.rs:249
++msgid "Diff View"
++msgstr "Diff-vy"
+ 
+-#: src/diff_view.rs:216
++#: src/diff_view.rs:201
+ msgid "Select a file to view changes"
+ msgstr "Välj en fil för att visa ändringar"
+ 
+-#: src/diff_view.rs:233
++#: src/diff_view.rs:218
+ msgid "Binary File"
+ msgstr "Binärfil"
+ 
+-#: src/diff_view.rs:234
++#: src/diff_view.rs:219
+ msgid "Cannot display diff for binary files"
+ msgstr "Kan inte visa diff för binärfiler"
+ 
+-#: src/diff_view.rs:240 src/file_diff_row.rs:793
++#: src/diff_view.rs:225 src/file_diff_row.rs:782
+ msgid "Stored with Git LFS"
+ msgstr "Lagrad med Git LFS"
+ 
+-#: src/diff_view.rs:267
++#: src/diff_view.rs:252
+ msgid "Hidden by Filter"
+ msgstr "Dold av filter"
+ 
+-#: src/diff_view.rs:268
++#: src/diff_view.rs:253
+ msgid "This file matches your “treat as binary” pattern."
+ msgstr "Denna fil matchar ditt ”behandla som binär”-mönster."
+ 
+-#: src/diff_view.rs:273 src/file_diff_row.rs:338
++#: src/diff_view.rs:258 src/file_diff_row.rs:335
+ msgid "Load anyway"
+ msgstr "Läs in ändå"
+ 
+-#: src/diff_view.rs:281
++#: src/diff_view.rs:266
+ msgid "Diff Too Large"
+ msgstr "Diffen är för stor"
+ 
+-#: src/diff_view.rs:282 src/file_diff_row.rs:819
++#: src/diff_view.rs:267 src/file_diff_row.rs:808
+ msgid "This diff has too many changes to display efficiently."
+ msgstr "Denna diff har för många ändringar för att visas effektivt."
+ 
+-#: src/diff_view.rs:314
++#: src/diff_view.rs:299
+ msgid "Staging is disabled while whitespace changes are ignored."
+ msgstr "Kö inaktiveras medan blankstegsändringar ignoreras."
+ 
+-#: src/diff_view.rs:320
++#: src/diff_view.rs:305
+ msgid "Show Whitespace Changes"
+ msgstr "Visa blankteckenändringar"
+ 
+-#: src/diff_view.rs:331
++#: src/diff_view.rs:316
+ msgid "Unstaged"
+ msgstr "Oköade"
+ 
+-#: src/diff_view.rs:335
++#: src/diff_view.rs:320
+ msgid "Staged"
+ msgstr "Köade"
+ 
+-#: src/diff_view.rs:1055 src/file_diff_row.rs:781
+-msgid "Copy Checksum"
++#: src/diff_view.rs:997 src/file_diff_row.rs:775
++msgid "Copy checksum"
+ msgstr "Kopiera kontrollsumma"
+ 
+-#: src/diff_view.rs:1095
++#: src/diff_view.rs:1034
+ msgid "chunk"
+ msgid_plural "chunks"
+ msgstr[0] "stycke"
+ msgstr[1] "stycken"
+ 
+-#: src/diff_view/factory.rs:78
++#: src/diff_view/factory.rs:75
+ msgid "Stage Lines"
+ msgstr "Köa rader"
+ 
+-#: src/diff_view/factory.rs:79
++#: src/diff_view/factory.rs:76
+ msgid "Discard Lines"
+ msgstr "Förkasta rader"
+ 
+-#: src/diff_view/factory.rs:81
++#: src/diff_view/factory.rs:78
+ msgid "Stage Chunk"
+ msgstr "Köa stycke"
+ 
+-#: src/diff_view/factory.rs:82
++#: src/diff_view/factory.rs:79
+ msgid "Discard Chunk"
+ msgstr "Förkasta stycke"
+ 
+-#: src/diff_view/factory.rs:90
++#: src/diff_view/factory.rs:87
+ msgid "Unstage Lines"
+ msgstr "Ta bort rader från kön"
+ 
+-#: src/diff_view/factory.rs:92
++#: src/diff_view/factory.rs:89
+ msgid "Unstage Chunk"
+ msgstr "Ta bort stycke från kön"
+ 
+-#: src/diff_view/factory.rs:102
++#: src/diff_view/factory.rs:95
+ msgid "Disabled because whitespace changes are ignored"
+ msgstr "Inaktiverad för att blankstegsändringar ignoreras"
+ 
+-#: src/diff_view/factory.rs:104
+-msgid "Actions unavailable until the diff is refreshed"
+-msgstr "Åtgärder otillgängliga till diffen har uppdaterats"
+-
+ #: src/dirty_chooser.rs:82 src/repo_view/branch/switch.rs:137
+-#: src/repo_view/detached_checkout.rs:71 src/repo_view/edit_commit.rs:102
+-#: src/repo_view/reorder.rs:85
++#: src/repo_view/detached_checkout.rs:71 src/repo_view/edit_commit.rs:129
++#: src/repo_view/reorder.rs:114
+ msgid "Uncommitted Changes"
+ msgstr "Ej incheckade ändringar"
+ 
+@@ -1769,80 +1584,80 @@
+ msgid "Permanently discard tracked and untracked files before {op}"
+ msgstr "Förkasta permanent spårade och ospårade filer före {op}"
+ 
+-#: src/file_diff_row.rs:189
++#: src/file_diff_row.rs:187
+ msgid "Collapse File Diff"
+ msgstr "Fäll ihop fildiff"
+ 
+-#: src/file_diff_row.rs:191
++#: src/file_diff_row.rs:189
+ msgid "Expand File Diff"
+ msgstr "Expandera fildiff"
+ 
+-#: src/file_diff_row.rs:335
++#: src/file_diff_row.rs:332
+ msgid "Treated as binary"
+ msgstr "Behandlad som binär"
+ 
+-#: src/file_diff_row.rs:336
++#: src/file_diff_row.rs:333
+ msgid "Matches your “treat as binary” pattern"
+ msgstr "Matchar ditt ”behandla som binär”-mönster"
+ 
+-#: src/file_diff_row.rs:728
++#: src/file_diff_row.rs:725
+ msgid "Filtered"
+ msgstr "Filtrerad"
+ 
+-#: src/file_diff_row.rs:729
++#: src/file_diff_row.rs:726
+ msgid "LFS"
+ msgstr "LFS"
+ 
+-#: src/file_diff_row.rs:730
++#: src/file_diff_row.rs:727
+ msgid "Binary"
+ msgstr "Binär"
+ 
+-#: src/file_diff_row.rs:731
++#: src/file_diff_row.rs:728
+ msgid "Too large"
+ msgstr "För stor"
+ 
+-#: src/file_diff_row.rs:732
++#: src/file_diff_row.rs:729
+ msgid "Renamed"
+ msgstr "Har bytt namn"
+ 
+-#: src/file_diff_row.rs:735
++#: src/file_diff_row.rs:732
+ msgid "Empty file (added)"
+ msgstr "Tom fil (tillagd)"
+ 
+-#: src/file_diff_row.rs:736
++#: src/file_diff_row.rs:733
+ msgid "Empty file (deleted)"
+ msgstr "Tom fil (borttagen)"
+ 
+-#: src/file_diff_row.rs:737
++#: src/file_diff_row.rs:734
+ msgid "Empty file"
+ msgstr "Tom fil"
+ 
+-#: src/file_diff_row.rs:806
++#: src/file_diff_row.rs:795
+ msgid "Binary file"
+ msgstr "Binärfil"
+ 
+-#: src/file_diff_row.rs:807
++#: src/file_diff_row.rs:796
+ msgid "Cannot display a diff"
+ msgstr "Kan inte visa en diff"
+ 
+-#: src/file_diff_row.rs:818
++#: src/file_diff_row.rs:807
+ msgid "Diff too large"
+ msgstr "Diffen är för stor"
+ 
+-#: src/file_diff_row.rs:888
++#: src/file_diff_row.rs:877
+ #, rust-format
+ msgid "Showing {shown} of {total} lines."
+ msgstr "Visar {shown} av {total} rader."
+ 
+-#: src/file_diff_row.rs:975
++#: src/file_diff_row.rs:964
+ msgid "Apply This File to the Working Copy"
+ msgstr "Tillämpa denna fil på arbetskopian"
+ 
+-#: src/file_diff_row.rs:987
++#: src/file_diff_row.rs:976
+ msgid "Apply This File and Remove It from the Stash"
+ msgstr "Tillämpa denna fil och ta bort den från stashen"
+ 
+-#: src/file_diff_row.rs:1000
++#: src/file_diff_row.rs:989
+ msgid "Discard This File from the Stash Without Applying It"
+ msgstr "Förkasta denna fil från stashen utan att tillämpa den"
+ 
+@@ -1982,582 +1797,495 @@
+ "Se till att ~/.local/bin är i din PATH så kommandot ”gitte” finns "
+ "tillgängligt i din terminal."
+ 
+-#: src/macos/menubar.rs:106 src/menus.rs:140 src/menus.rs:576
+-msgid "_New Window"
+-msgstr "_Nytt fönster"
+-
+-#: src/macos/menubar.rs:107 src/menus.rs:144
+-msgid "_Add Repository…"
+-msgstr "_Lägg till arkiv…"
+-
+-#: src/macos/menubar.rs:108 src/menus.rs:145
+-msgid "_Clone Repository…"
+-msgstr "_Klona arkiv…"
+-
+-#: src/macos/menubar.rs:111
+-msgid "Open Recent"
+-msgstr "Öppna senaste"
+-
+-#: src/macos/menubar.rs:114
+-msgid "Close Repository"
+-msgstr "Stäng arkiv"
+-
+-#: src/macos/menubar.rs:115 src/shortcuts_dialog.rs:44
+-msgctxt "shortcut window"
+-msgid "Close Window"
+-msgstr "Stäng fönster"
+-
+-#: src/macos/menubar.rs:118
+-msgid "File"
+-msgstr "Arkiv"
+-
+-#: src/macos/menubar.rs:123 src/shortcuts_dialog.rs:32
+-msgctxt "shortcut window"
+-msgid "Search"
+-msgstr "Sök"
+-
+-#: src/macos/menubar.rs:127 src/shortcuts_dialog.rs:67
+-msgctxt "shortcut window"
+-msgid "Toggle Sidebar"
+-msgstr "Växla sidopanel"
+-
+-#: src/macos/menubar.rs:128 src/shortcuts_dialog.rs:107
+-msgctxt "shortcut window"
+-msgid "Switch Staged / Unstaged"
+-msgstr "Växla köade / oköade"
+-
+-#: src/macos/menubar.rs:130 src/shortcuts_dialog.rs:112
+-msgctxt "shortcut window"
+-msgid "Maximize Diff (cycle in graph)"
+-msgstr "Maximera diff (växla i graf)"
+-
+-#: src/macos/menubar.rs:136 src/ui_helpers.rs:106
+-msgid "Diff Options"
+-msgstr "Diff-alternativ"
+-
+-#: src/macos/menubar.rs:137 src/menus.rs:74
+-msgid "Show Files"
+-msgstr "Visa filer"
+-
+-#: src/macos/menubar.rs:138 src/menus.rs:83
+-msgid "Recurse into Untracked Directories"
+-msgstr "Gå rekursivt in i ospårade kataloger"
+-
+-#: src/macos/menubar.rs:140
+-msgid "View"
+-msgstr "Visa"
+-
+-#: src/macos/menubar.rs:144 src/menus.rs:562
+-msgid "_Refresh"
+-msgstr "_Uppdatera"
+-
+-#: src/macos/menubar.rs:148 src/repo_view/sidebar_view.rs:674
+-msgid "Fetch"
+-msgstr "Hämta"
+-
+-#: src/macos/menubar.rs:149 src/pull_dialog.rs:57 src/pull_dialog.rs:149
+-#: src/repo_view/sidebar_view.rs:645
+-msgid "Pull"
+-msgstr "Hämta"
+-
+-#: src/macos/menubar.rs:150 src/push_dialog.rs:229 src/push_dialog.rs:257
+-#: src/repo_view/sidebar_view.rs:615 src/select_remote_dialog.rs:76
+-msgid "Push"
+-msgstr "Sänd"
+-
+-#: src/macos/menubar.rs:154 src/shortcuts_dialog.rs:75
+-msgctxt "shortcut window"
+-msgid "Focus Commit Message"
+-msgstr "Fokusera på incheckningsmeddelande"
+-
+-#: src/macos/menubar.rs:155 src/shortcuts_dialog.rs:76
+-msgctxt "shortcut window"
+-msgid "Toggle Amend Commit"
+-msgstr "Välxa utökning av incheckning"
+-
+-#: src/macos/menubar.rs:159 src/menus.rs:252
+-msgid "_Stash…"
+-msgstr "_Stasha…"
+-
+-#: src/macos/menubar.rs:160 src/shortcuts_dialog.rs:54
+-msgctxt "shortcut window"
+-msgid "Stash Including Untracked"
+-msgstr "Stasha inklusive ospårade"
+-
+-#: src/macos/menubar.rs:161 src/menus.rs:256
+-msgid "Apply and Drop _Latest Stash"
+-msgstr "Tillämpa och kasta _senaste stash"
+-
+-#: src/macos/menubar.rs:165 src/repo_view/sidebar_view.rs:933
+-msgid "New Branch…"
+-msgstr "Ny gren…"
+-
+-#: src/macos/menubar.rs:166 src/repo_view/sidebar_view.rs:995
+-msgid "New Tag…"
+-msgstr "Ny tagg…"
+-
+-#: src/macos/menubar.rs:170 src/menus.rs:168 src/menus.rs:571
+-msgid "_Sync With Mainline…"
+-msgstr "_Synkronisera med huvudlinje…"
+-
+-#: src/macos/menubar.rs:171 src/menus.rs:572
+-msgid "Reset _Mainline (Auto-Detect)"
+-msgstr "Å_terställ huvudlinje (automatisk identifiering)"
+-
+-#: src/macos/menubar.rs:175 src/menus.rs:566
+-msgid "Open in _Terminal"
+-msgstr "Öppna i _terminal"
+-
+-#: src/macos/menubar.rs:176 src/menus.rs:191 src/menus.rs:299 src/menus.rs:321
+-#: src/menus.rs:345 src/menus.rs:376 src/menus.rs:427 src/menus.rs:567
+-msgid "Create _Archive…"
+-msgstr "_Arkivera…"
+-
+-#: src/macos/menubar.rs:180 src/menus.rs:582
+-msgid "Si_gning Status…"
+-msgstr "Si_gneringsstatus…"
+-
+-#: src/macos/menubar.rs:181 src/menus.rs:581
+-msgid "Sub_modules…"
+-msgstr "Under_moduler…"
+-
+-#: src/macos/menubar.rs:182 src/menus.rs:580
+-msgid "Git _LFS…"
+-msgstr "Git _LFS…"
+-
+-#: src/macos/menubar.rs:185 src/shortcuts_dialog.rs:48
+-msgctxt "shortcut window"
+-msgid "Repository"
+-msgstr "Arkiv"
++#: src/menus.rs:42
++msgid "_Preferences"
++msgstr "I_nställningar"
+ 
+-#: src/macos/menubar.rs:189 src/menus.rs:43
++#: src/menus.rs:43
+ msgid "_Keyboard Shortcuts"
+ msgstr "_Tangentbordsgenvägar"
+ 
+-#: src/macos/menubar.rs:190 src/menus.rs:50
+-msgid "_What's New"
+-msgstr "_Vad är nytt"
+-
+-#: src/macos/menubar.rs:194 src/menus.rs:47
++#: src/menus.rs:46
+ msgid "_Install Command Line Tool…"
+ msgstr "_Installera kommandoradsverktyg…"
+ 
+-#: src/macos/menubar.rs:197
+-msgid "Help"
+-msgstr "Hjälp"
+-
+-#: src/menus.rs:42
+-msgid "_Preferences"
+-msgstr "I_nställningar"
++#: src/menus.rs:49
++msgid "_What's New"
++msgstr "_Vad är nytt"
+ 
+-#: src/menus.rs:51
++#: src/menus.rs:50
+ msgid "_About Gitte"
+ msgstr "_Om Gitte"
+ 
+-#: src/menus.rs:59 src/preferences/repo.rs:700
++#: src/menus.rs:58 src/preferences/repo.rs:598
+ msgid "Manual"
+ msgstr "Manuell"
+ 
+-#: src/menus.rs:60 src/preferences/repo.rs:492 src/stash_dialog.rs:65
++#: src/menus.rs:59 src/preferences/repo.rs:403 src/stash_dialog.rs:65
+ msgid "Name"
+ msgstr "Namn"
+ 
+-#: src/menus.rs:61
++#: src/menus.rs:60
+ msgid "Last Opened"
+ msgstr "Senast öppnat"
+ 
+-#: src/menus.rs:71
++#: src/menus.rs:70
+ msgid "All Files"
+ msgstr "Alla filer"
+ 
+-#: src/menus.rs:72
++#: src/menus.rs:71
+ msgid "New Files Only"
+ msgstr "Endast nya filer"
+ 
+-#: src/menus.rs:73
++#: src/menus.rs:72
+ msgid "Modified Files Only"
+ msgstr "Endast ändrade filer"
+ 
+-#: src/menus.rs:87
++#: src/menus.rs:73
++msgid "Show Files"
++msgstr "Visa filer"
++
++#: src/menus.rs:82
++msgid "Recurse into Untracked Directories"
++msgstr "Gå rekursivt in i ospårade kataloger"
++
++#: src/menus.rs:86
+ msgid "Discard All Changes…"
+ msgstr "Förkasta alla ändringar…"
+ 
+-#: src/menus.rs:89
++#: src/menus.rs:88
+ msgid "Discard All Changes (Including Untracked)…"
+ msgstr "Förkasta alla ändringar (inklusive ospårade)…"
+ 
+-#: src/menus.rs:101
++#: src/menus.rs:100
+ msgid "Show All"
+ msgstr "Visa alla"
+ 
+-#: src/menus.rs:102
++#: src/menus.rs:101
+ msgid "Ignore Spacing Changes"
+ msgstr "Ignorera blankteckenändringar"
+ 
+-#: src/menus.rs:103
++#: src/menus.rs:102
+ msgid "Ignore All"
+ msgstr "Ignorera alla"
+ 
+-#: src/menus.rs:104
++#: src/menus.rs:103
+ msgid "Whitespace in Diffs"
+ msgstr "Blanktecken i diffar"
+ 
+-#: src/menus.rs:107
++#: src/menus.rs:106
+ msgid "Default (3 Lines)"
+ msgstr "Standard (3 rader)"
+ 
+-#: src/menus.rs:108
++#: src/menus.rs:107
+ msgid "Whole File"
+ msgstr "Hela filen"
+ 
+-#: src/menus.rs:109
++#: src/menus.rs:108
+ msgid "Context"
+ msgstr "Sammanhang"
+ 
+-#: src/menus.rs:118
++#: src/menus.rs:117
+ msgid "All Commits"
+ msgstr "Alla incheckningar"
+ 
+-#: src/menus.rs:119
++#: src/menus.rs:118
+ msgid "Only Commits Not on Mainline"
+ msgstr "Endast incheckningar inte på huvudlinje"
+ 
+-#: src/menus.rs:120
++#: src/menus.rs:119
+ msgid "Show Commits"
+ msgstr "Visa incheckningar"
+ 
+-#: src/menus.rs:129
++#: src/menus.rs:128
+ msgid "All Branches"
+ msgstr "Alla grenar"
+ 
+-#: src/menus.rs:130
++#: src/menus.rs:129
+ msgid "Local Branches Only"
+ msgstr "Endast lokala grenar"
+ 
+-#: src/menus.rs:131
++#: src/menus.rs:130
+ msgid "Show Branches"
+ msgstr "Visa grenar"
+ 
+-#: src/menus.rs:165
++#: src/menus.rs:139 src/menus.rs:575
++msgid "_New Window"
++msgstr "_Nytt fönster"
++
++#: src/menus.rs:143
++msgid "_Add Repository…"
++msgstr "_Lägg till arkiv…"
++
++#: src/menus.rs:144
++msgid "_Clone Repository…"
++msgstr "_Klona arkiv…"
++
++#: src/menus.rs:164
+ msgid "_Merge Into Current…"
+ msgstr "_Slå ihop med aktuell…"
+ 
+-#: src/menus.rs:171
++#: src/menus.rs:167 src/menus.rs:570
++msgid "_Sync With Mainline…"
++msgstr "_Synkronisera med huvudlinje…"
++
++#: src/menus.rs:170
+ msgid "Set as Mai_nline"
+ msgstr "Ställ in som _huvudlinje"
+ 
+-#: src/menus.rs:175
++#: src/menus.rs:174
+ msgid "_Fetch From Remote"
+ msgstr "_Hämta från fjärr"
+ 
+-#: src/menus.rs:178 src/menus.rs:295 src/menus.rs:317
++#: src/menus.rs:177 src/menus.rs:294 src/menus.rs:316
+ msgid "_Push to Remote…"
+ msgstr "_Sänd till fjärr…"
+ 
+-#: src/menus.rs:186 src/menus.rs:271 src/menus.rs:456
++#: src/menus.rs:185 src/menus.rs:270 src/menus.rs:451
+ msgid "_Rename…"
+ msgstr "_Byt namn…"
+ 
+-#: src/menus.rs:189
++#: src/menus.rs:188
+ msgid "_Copy Branch Name"
+ msgstr "_Kopiera grennamn"
+ 
+-#: src/menus.rs:190 src/menus.rs:291 src/menus.rs:313 src/menus.rs:340
+-#: src/menus.rs:371 src/menus.rs:419
++#: src/menus.rs:189 src/menus.rs:290 src/menus.rs:312 src/menus.rs:339
++#: src/menus.rs:370 src/menus.rs:414
+ msgid "Create _Branch From Here…"
+ msgstr "Skapa _gren härifrån…"
+ 
+-#: src/menus.rs:196
+-msgid "_Delete Branch…"
+-msgstr "_Ta bort gren…"
++#: src/menus.rs:190 src/menus.rs:298 src/menus.rs:320 src/menus.rs:344
++#: src/menus.rs:375 src/menus.rs:422 src/menus.rs:566
++msgid "Create _Archive…"
++msgstr "_Arkivera…"
++
++#: src/menus.rs:195 src/menus.rs:302 src/menus.rs:324
++msgid "_Delete…"
++msgstr "_Ta bort…"
+ 
+-#: src/menus.rs:198
++#: src/menus.rs:197
+ msgid "_Delete Remote Branch…"
+ msgstr "_Ta bort fjärrgren…"
+ 
+-#: src/menus.rs:209 src/menus.rs:218 src/menus.rs:405
+-msgid "S_witch to Branch…"
+-msgstr "Vä_xla till gren…"
+-
+-#: src/menus.rs:211 src/menus.rs:220
+-msgid "S_witch to Branch"
+-msgstr "Vä_xla till gren"
+-
+-#: src/menus.rs:224 src/menus.rs:286 src/menus.rs:356
+-msgid "Check _Out Detached…"
+-msgstr "Checka _ut frånkopplad…"
+-
+-#: src/menus.rs:226 src/menus.rs:288 src/menus.rs:358
+-msgid "Check _Out Detached"
+-msgstr "Checka _ut frånkopplad"
++#: src/menus.rs:208 src/menus.rs:217
++msgid "S_witch…"
++msgstr "_Växla…"
++
++#: src/menus.rs:210 src/menus.rs:219
++msgid "S_witch"
++msgstr "_Växla"
++
++#: src/menus.rs:223 src/menus.rs:285 src/menus.rs:355
++msgid "Check _Out…"
++msgstr "Checka _ut…"
++
++#: src/menus.rs:225 src/menus.rs:287 src/menus.rs:357
++msgid "Check _Out"
++msgstr "Checka _ut"
+ 
+-#: src/menus.rs:236
++#: src/menus.rs:235
+ msgid "_Fetch Remote"
+ msgstr "_Hämta fjärr"
+ 
+-#: src/menus.rs:237
++#: src/menus.rs:236
+ msgid "_Rename Remote…"
+ msgstr "_Byt namn på fjärr…"
+ 
+-#: src/menus.rs:241
++#: src/menus.rs:240
+ msgid "_Delete Remote…"
+ msgstr "_Ta bort fjärr…"
+ 
+-#: src/menus.rs:266 src/menus.rs:451
++#: src/menus.rs:251
++msgid "_Stash…"
++msgstr "_Stasha…"
++
++#: src/menus.rs:255
++msgid "Pop _Latest Stash"
++msgstr "Ta _fram senaste stash"
++
++#: src/menus.rs:265 src/menus.rs:446
+ msgid "_Apply"
+ msgstr "_Verkställ"
+ 
+-#: src/menus.rs:267 src/menus.rs:452
+-msgid "A_pply and Drop"
+-msgstr "_Tillämpa och kasta"
++#: src/menus.rs:266 src/menus.rs:447
++msgid "_Pop"
++msgstr "_Poppa"
+ 
+-#: src/menus.rs:275 src/menus.rs:460
++#: src/menus.rs:274 src/menus.rs:455
+ msgid "_Drop…"
+ msgstr "_Kasta…"
+ 
+-#: src/menus.rs:303 src/menus.rs:325
+-msgid "_Delete…"
+-msgstr "_Ta bort…"
+-
+-#: src/menus.rs:335 src/menus.rs:364 src/menus.rs:409
++#: src/menus.rs:334 src/menus.rs:363 src/menus.rs:404
+ msgid "Copy Commit _Hash"
+ msgstr "Kopiera inchecknings_hash"
+ 
+-#: src/menus.rs:336 src/menus.rs:366 src/menus.rs:411
++#: src/menus.rs:335 src/menus.rs:365 src/menus.rs:406
+ msgid "Copy _Short Hash"
+ msgstr "Kopiera _kort hash"
+ 
+-#: src/menus.rs:341 src/menus.rs:372 src/menus.rs:423
++#: src/menus.rs:340 src/menus.rs:371 src/menus.rs:418
+ msgid "Create _Tag…"
+ msgstr "Skapa _tagg…"
+ 
+-#: src/menus.rs:365 src/menus.rs:410
++#: src/menus.rs:364 src/menus.rs:405
+ msgid "Copy Commit _Hashes"
+ msgstr "Kopiera inchecknings_hashar"
+ 
+-#: src/menus.rs:367 src/menus.rs:412
++#: src/menus.rs:366 src/menus.rs:407
+ msgid "Copy _Short Hashes"
+ msgstr "Kopiera _korta hashar"
+ 
+-#: src/menus.rs:380
++#: src/menus.rs:379 src/menus.rs:426
+ msgid "Re_word Commit Message…"
+ msgstr "Omformulera _incheckningsmeddelande…"
+ 
+-#: src/menus.rs:381 src/menus.rs:432
++#: src/menus.rs:380 src/menus.rs:427
+ msgid "_Edit Commit"
+ msgstr "_Redigera incheckning"
+ 
+-#: src/menus.rs:382 src/menus.rs:433
++#: src/menus.rs:381 src/menus.rs:428
+ msgid "_Squash Commits…"
+ msgstr "_Platta till incheckningar…"
+ 
+-#: src/menus.rs:383 src/menus.rs:434
++#: src/menus.rs:382 src/menus.rs:429
+ msgid "_Fixup Commits"
+ msgstr "_Rätta till incheckningar"
+ 
+-#: src/menus.rs:384 src/menus.rs:435
++#: src/menus.rs:383 src/menus.rs:430
+ msgid "_Drop Commit…"
+ msgstr "_Kasta incheckning…"
+ 
+-#: src/menus.rs:385 src/menus.rs:436
++#: src/menus.rs:384 src/menus.rs:431
+ msgid "_Drop Commits…"
+ msgstr "_Kasta incheckningar…"
+ 
+-#: src/menus.rs:389 src/menus.rs:440
++#: src/menus.rs:388
+ msgid "Cherry-_Pick…"
+ msgstr "Cherry-_pick…"
+ 
+-#: src/menus.rs:390 src/menus.rs:441
++#: src/menus.rs:389 src/menus.rs:436
+ msgid "Re_vert…"
+ msgstr "Åter_ställ…"
+ 
+-#: src/menus.rs:402
+-msgid "Check _Out Commit Detached…"
+-msgstr "Checka _ut incheckning frånkopplad…"
++#: src/menus.rs:399
++msgid "Check _Out Commit…"
++msgstr "Checka _ut incheckning…"
++
++#: src/menus.rs:400
++msgid "Check Out _Branch…"
++msgstr "Checka ut _gren…"
+ 
+-#: src/menus.rs:431
+-msgid "_Reword Commit Message…"
+-msgstr "Omformulera _incheckningsmeddelande…"
++#: src/menus.rs:435
++msgid "Cherry-_pick…"
++msgstr "Cherry-_pick…"
+ 
+-#: src/menus.rs:470
++#: src/menus.rs:465
+ msgid "_Stage"
+ msgstr "_Köa"
+ 
+-#: src/menus.rs:471
++#: src/menus.rs:466
+ msgid "_Unstage"
+ msgstr "_Ta bort från kö"
+ 
+-#: src/menus.rs:475 src/menus.rs:503
++#: src/menus.rs:470 src/menus.rs:498
+ msgid "Copy File _Location"
+ msgstr "Kopiera filens p_lats"
+ 
+-#: src/menus.rs:476
++#: src/menus.rs:471
+ msgid "Copy _Code"
+ msgstr "Kopiera _kod"
+ 
+-#: src/menus.rs:477 src/menus.rs:504
++#: src/menus.rs:472 src/menus.rs:499
+ msgid "Open with External _Editor"
+ msgstr "Öppna med extern r_edigerare"
+ 
+-#: src/menus.rs:487 src/menus.rs:531 src/menus.rs:599
++#: src/menus.rs:482 src/menus.rs:526 src/menus.rs:597
+ msgid "Copy Path"
+ msgstr "Kopiera sökväg"
+ 
+-#: src/menus.rs:488 src/menus.rs:533
++#: src/menus.rs:483 src/menus.rs:528
+ msgid "Copy Relative Path"
+ msgstr "Kopiera relativ sökväg"
+ 
+-#: src/menus.rs:491 src/menus.rs:535 src/menus.rs:598
++#: src/menus.rs:486 src/menus.rs:530 src/menus.rs:596
+ msgid "Open in File Manager"
+ msgstr "Öppna i filhanterare"
+ 
+-#: src/menus.rs:492 src/menus.rs:536
++#: src/menus.rs:487 src/menus.rs:531
+ msgid "Open with External Editor"
+ msgstr "Öppna med extern redigerare"
+ 
+-#: src/menus.rs:510
++#: src/menus.rs:505
+ msgid "_Apply This File"
+ msgstr "_Tillämpa denna fil"
+ 
+-#: src/menus.rs:511
+-msgid "A_pply and Drop This File"
+-msgstr "_Tillämpa och kasta denna fil"
++#: src/menus.rs:506
++msgid "_Pop This File"
++msgstr "_Poppa denna fil"
+ 
+-#: src/menus.rs:515
++#: src/menus.rs:510
+ msgid "_Drop This File…"
+ msgstr "_Kasta denna fil…"
+ 
+-#: src/menus.rs:526
++#: src/menus.rs:521
+ msgid "Stage Changes"
+ msgstr "Köa ändringar"
+ 
+-#: src/menus.rs:527
++#: src/menus.rs:522
+ msgid "Unstage Changes"
+ msgstr "Ta bort ändringar från kön"
+ 
+-#: src/menus.rs:532
++#: src/menus.rs:527
+ msgid "Copy Paths"
+ msgstr "Kopiera sökvägar"
+ 
+-#: src/menus.rs:534
++#: src/menus.rs:529
+ msgid "Copy Relative Paths"
+ msgstr "Kopiera relativa sökvägar"
+ 
+-#: src/menus.rs:540
++#: src/menus.rs:535
+ msgid "Add to .gitignore…"
+ msgstr "Lägg till i .gitignore…"
+ 
+-#: src/menus.rs:541
++#: src/menus.rs:536
+ msgid "Track with Git LFS…"
+ msgstr "Spåra med Git LFS…"
+ 
+-#: src/menus.rs:542
++#: src/menus.rs:537
+ msgid "Manage Git LFS…"
+ msgstr "Hantera Git LFS…"
+ 
+-#: src/menus.rs:546 src/stash_dialog.rs:79
++#: src/menus.rs:541 src/stash_dialog.rs:79
+ msgid "Stash Changes"
+ msgstr "Stasha ändringar"
+ 
+-#: src/menus.rs:550
++#: src/menus.rs:545
+ msgid "Discard Changes…"
+ msgstr "Förkasta ändringar…"
+ 
+-#: src/menus.rs:551
++#: src/menus.rs:546
+ msgid "Delete File…"
+ msgstr "Ta bort fil…"
+ 
+-#: src/menus.rs:552
++#: src/menus.rs:547
+ msgid "Delete Files…"
+ msgstr "Ta bort filer…"
+ 
+-#: src/menus.rs:592
++#: src/menus.rs:557
++msgid "_Back to Repositories"
++msgstr "Till_baka till arkiv"
++
++#: src/menus.rs:561
++msgid "_Refresh"
++msgstr "_Uppdatera"
++
++#: src/menus.rs:565
++msgid "Open in _Terminal"
++msgstr "Öppna i _terminal"
++
++#: src/menus.rs:571
++msgid "Reset _Mainline (Auto-Detect)"
++msgstr "Å_terställ huvudlinje (automatisk identifiering)"
++
++#: src/menus.rs:579
++msgid "Git _LFS…"
++msgstr "Git _LFS…"
++
++#: src/menus.rs:580
++msgid "Sub_modules…"
++msgstr "Under_moduler…"
++
++#: src/menus.rs:581
++msgid "Si_gning Status…"
++msgstr "Si_gneringsstatus…"
++
++#: src/menus.rs:590
+ msgid "Unpin From Favorites"
+ msgstr "Ta bort från favoriter"
+ 
+-#: src/menus.rs:594 src/repo_row.rs:230
++#: src/menus.rs:592 src/repo_row.rs:230
+ msgid "Pin to Favorites"
+ msgstr "Fäst bland favoriter"
+ 
+-#: src/menus.rs:600 src/repo_row.rs:481 src/repo_view/branch/lifecycle.rs:155
+-#: src/repo_view/remote.rs:255 src/stashes_view.rs:978
++#: src/menus.rs:598 src/repo_row.rs:480 src/repo_view/branch/lifecycle.rs:154
++#: src/repo_view/remote.rs:254 src/stashes_view.rs:937
+ msgid "Rename"
+ msgstr "Byt namn"
+ 
+-#: src/menus.rs:601 src/submodule_row.rs:178 src/submodules_dialog.rs:628
++#: src/menus.rs:599 src/submodule_row.rs:178 src/submodules_dialog.rs:627
+ msgid "Remove"
+ msgstr "Ta bort"
+ 
+-#: src/merge_dialog.rs:96
++#: src/merge_dialog.rs:97
+ msgid "Fast-forward, otherwise merge commit"
+ msgstr "Snabbspolning, annars sammanslagningsincheckning"
+ 
+-#: src/merge_dialog.rs:97
++#: src/merge_dialog.rs:98
+ msgid "Linear when possible, otherwise create a merge commit"
+ msgstr "Linjär när möjligt, skapa annars en sammanslagningsincheckning"
+ 
+-#: src/merge_dialog.rs:113
++#: src/merge_dialog.rs:114
+ msgid "Merge commit"
+ msgstr "Sammanslagningsincheckning"
+ 
+-#: src/merge_dialog.rs:114
++#: src/merge_dialog.rs:115
+ msgid "Always create a merge commit (--no-ff)"
+ msgstr "Skapa alltid en sammanslagningsincheckning (--no-ff)"
+ 
+-#: src/merge_dialog.rs:131
++#: src/merge_dialog.rs:132
+ msgid "Rebase, then fast-forward"
+ msgstr "Ombasera, snabbspola sedan"
+ 
+-#: src/merge_dialog.rs:132
++#: src/merge_dialog.rs:133
+ msgid "Linear history, no merge commit"
+ msgstr "Linjär historik, ingen sammanslagningsincheckning"
+ 
+-#: src/merge_dialog.rs:149
++#: src/merge_dialog.rs:150
+ msgid "Rebase, then merge commit"
+ msgstr "Ombasering, sedan sammanslagningsincheckning"
+ 
+-#: src/merge_dialog.rs:150
++#: src/merge_dialog.rs:151
+ msgid "Rebase source, then create a merge commit"
+ msgstr "Ombasera källa, skapa sedan en sammanslagningsincheckning"
+ 
+-#: src/merge_dialog.rs:167
++#: src/merge_dialog.rs:168
+ msgid "Squash commit"
+ msgstr "Platta till incheckning"
+ 
+-#: src/merge_dialog.rs:168
++#: src/merge_dialog.rs:169
+ msgid "Combine all source commits into a single commit"
+ msgstr "Kombinera alla källincheckningar till en enda incheckning"
+ 
+-#: src/merge_dialog.rs:193
++#: src/merge_dialog.rs:194
+ msgid "Sign merge commit"
+ msgstr "Signera sammanslagningsincheckning"
+ 
+-#: src/merge_dialog.rs:194
++#: src/merge_dialog.rs:195
+ msgid "Cryptographically sign the merge commit"
+ msgstr "Signera sammanslagningsincheckningen kryptografiskt"
+ 
+-#: src/merge_dialog.rs:206
++#: src/merge_dialog.rs:207
+ msgid "Squash Commit Message"
+ msgstr "Tillplattningsincheckningsmeddelande"
+ 
+-#: src/merge_dialog.rs:212
++#: src/merge_dialog.rs:213
+ msgid "Subject and details for the squashed commit"
+ msgstr "Ämne och detaljer för den tillplattade incheckningen"
+ 
+-#: src/merge_dialog.rs:265
++#: src/merge_dialog.rs:264
+ #, rust-format
+ msgid "Merge “{source}” into “{branch}”"
+ msgstr "Slå ihop ”{source}” med ”{branch}”"
+ 
+-#: src/merge_dialog.rs:272
++#: src/merge_dialog.rs:271
+ msgid "Merge"
+ msgstr "Slå ihop"
+ 
+-#: src/merge_dialog.rs:290
++#: src/merge_dialog.rs:289
+ msgid "Keep changes in the working copy (not allowed for rebase)"
+ msgstr "Behåll ändringar i arbetskopian (inte tillåtet för ombasering)"
+ 
+-#: src/merge_dialog.rs:292
++#: src/merge_dialog.rs:291
+ msgid "merging"
+ msgstr "slår ihop"
+ 
+@@ -2661,7 +2389,7 @@
+ 
+ #: src/preferences/appearance.rs:156
+ msgid "In the commit graph, show them as rows at the top"
+-msgstr "I incheckningsgrafen, visa dem som rader högst upp."
++msgstr "I incheckningsgrafen, visa dem som rader högst upp"
+ 
+ #: src/preferences/appearance.rs:163
+ msgid "Single column or side by side in the commit log, graph and stashes"
+@@ -2709,263 +2437,167 @@
+ msgid "Staged First"
+ msgstr "Köade först"
+ 
+-#: src/preferences/default_trailer_row.rs:61
+-#: src/preferences/trailer_template_row.rs:52
+-msgid "Uses your Git identity"
+-msgstr "Använder din Git-identitet"
+-
+-#: src/preferences/default_trailer_row.rs:62
+-#, rust-format
+-msgid "Fixed value: {value}"
+-msgstr "Fast värde: {value}"
+-
+-#: src/preferences/defaults.rs:69
++#: src/preferences/defaults.rs:58
+ msgid "Defaults"
+ msgstr "Standardvärden"
+ 
+-#: src/preferences/defaults.rs:71
++#: src/preferences/defaults.rs:60
+ msgid "Defaults for new repositories. Each repository can override these."
+ msgstr "Standardvärden för nya arkiv. Varje arkiv kan åsidosätta dessa."
+ 
+-#: src/preferences/defaults.rs:74 src/preferences/defaults.rs:77
+-#: src/preferences/repo.rs:279
+-msgid "Default Repository View"
+-msgstr "Standardarkivvy"
+-
+-#: src/preferences/defaults.rs:78
+-msgid "The view a repository opens with"
+-msgstr "Vyn ett arkiv öppnas med"
+-
+-#: src/preferences/defaults.rs:86 src/preferences/repo.rs:291
++#: src/preferences/defaults.rs:63 src/preferences/repo.rs:229
+ msgid "Auto-Fetch"
+ msgstr "Automatisk hämtning"
+ 
+-#: src/preferences/defaults.rs:89
++#: src/preferences/defaults.rs:66
+ msgid "Auto-Fetch Enabled"
+ msgstr "Automatisk hämtning aktiverad"
+ 
+-#: src/preferences/defaults.rs:90
++#: src/preferences/defaults.rs:67
+ msgid "Automatically fetch from all remotes at a regular interval"
+ msgstr "Hämta automatiskt från alla fjärrar med ett regelbundet intervall"
+ 
+-#: src/preferences/defaults.rs:96 src/preferences/repo.rs:302
++#: src/preferences/defaults.rs:73 src/preferences/repo.rs:240
+ msgid "Fetch Interval (minutes)"
+ msgstr "Hämtningsintervall (minuter)"
+ 
+-#: src/preferences/defaults.rs:105 src/preferences/repo.rs:311
++#: src/preferences/defaults.rs:82 src/preferences/repo.rs:278
+ msgid "Tag Sorting"
+ msgstr "Taggsortering"
+ 
+-#: src/preferences/defaults.rs:108 src/preferences/defaults.rs:126
+-#: src/preferences/repo.rs:314 src/preferences/repo.rs:332
++#: src/preferences/defaults.rs:85 src/preferences/defaults.rs:103
++#: src/preferences/repo.rs:281 src/preferences/repo.rs:299
+ msgid "Sort Method"
+ msgstr "Sorteringsmetod"
+ 
+-#: src/preferences/defaults.rs:115 src/preferences/defaults.rs:133
+-#: src/preferences/repo.rs:321 src/preferences/repo.rs:339
++#: src/preferences/defaults.rs:92 src/preferences/defaults.rs:110
++#: src/preferences/repo.rs:288 src/preferences/repo.rs:306
+ msgid "Sort Direction"
+ msgstr "Sorteringsriktning"
+ 
+-#: src/preferences/defaults.rs:123 src/preferences/repo.rs:329
++#: src/preferences/defaults.rs:100 src/preferences/repo.rs:296
+ msgid "Branch Sorting"
+ msgstr "Grensortering"
+ 
+-#: src/preferences/defaults.rs:141 src/preferences/repo.rs:347
+-msgid "Diff View"
+-msgstr "Diff-vy"
+-
+-#: src/preferences/defaults.rs:145
++#: src/preferences/defaults.rs:122
+ msgid "Treat as Binary (glob patterns)"
+ msgstr "Behandla som binär (globmönster)"
+ 
+-#: src/preferences/defaults.rs:149
++#: src/preferences/defaults.rs:126
+ msgid ""
+ "Comma-separated list of git glob patterns (e.g. “*.tscn, *.uid”). Matching "
+ "files show a placeholder instead of a diff, with a “Load anyway” button. "
+ "Patterns match in any subdirectory."
+ msgstr ""
+-"Kommaseparerad lista över git-globmönster (t.ex. “*.tscn, *.uid”). Matchande "
+-"filer visar en platshållare i stället för en diff, med en knapp “Läs in i "
++"Kommaseparerad lista över git-globmönster (t.ex. ”*.tscn, *.uid”). Matchande "
++"filer visar en platshållare i stället för en diff, med en knapp ”Läs in i "
+ "alla fall”. Mönster matchas i alla underkataloger."
+ 
+-#: src/preferences/defaults.rs:155 src/preferences/repo.rs:402
+-msgid "Commit Trailers"
+-msgstr "Incheckningssläprader"
+-
+-#: src/preferences/defaults.rs:157
+-#, rust-format
+-msgid ""
+-"Trailers offered in the commit form. Enter “Token: Value”. Use {identity} "
+-"for your Git identity ({name} and {email} are also available), e.g. "
+-"“Reviewed-by: {identity}”. Leave the value empty to be asked for it each "
+-"time, e.g. “Fixes:”."
+-msgstr ""
+-"Släprader som erbjuds i incheckningsformuläret. Ange ”Token: Värde”. Använd "
+-"{identity} för din Git-identitet ({name} och {email} finns också "
+-"tillgängliga), t.ex. ”Reviewed-by: {identity}”. Lämna värdet tomt för att få "
+-"det efterfrågat varje gång, t.ex. ”Fixes:”."
+-
+-#: src/preferences/defaults.rs:173
+-msgid "Configured Trailers"
+-msgstr "Konfigurerade släprader"
+-
+-#: src/preferences/defaults.rs:362
+-msgid "No trailers configured."
+-msgstr "Inga släprader konfigurerade."
+-
+ #: src/preferences/dialog.rs:84
+ msgid "Preferences"
+ msgstr "Inställningar"
+ 
+-#: src/preferences/helpers.rs:62
++#: src/preferences/helpers.rs:61
+ msgid "Semantic Version"
+ msgstr "Semantisk version"
+ 
+-#: src/preferences/helpers.rs:63
++#: src/preferences/helpers.rs:62
+ msgid "Alphabetical"
+ msgstr "Alfabetisk"
+ 
+-#: src/preferences/helpers.rs:64
++#: src/preferences/helpers.rs:63
+ msgid "Date"
+ msgstr "Datum"
+ 
+-#: src/preferences/helpers.rs:70 src/preferences/helpers.rs:86
++#: src/preferences/helpers.rs:69 src/preferences/helpers.rs:85
+ msgid "Descending"
+ msgstr "Fallande"
+ 
+-#: src/preferences/helpers.rs:71 src/preferences/helpers.rs:85
++#: src/preferences/helpers.rs:70 src/preferences/helpers.rs:84
+ msgid "Ascending"
+ msgstr "Stigande"
+ 
+-#: src/preferences/helpers.rs:77
++#: src/preferences/helpers.rs:76
+ msgid "Alphanumeric"
+ msgstr "Alfanumerisk"
+ 
+-#: src/preferences/helpers.rs:78
++#: src/preferences/helpers.rs:77
+ msgid "Last Checkout"
+ msgstr "Senaste utcheckning"
+ 
+-#: src/preferences/helpers.rs:79
++#: src/preferences/helpers.rs:78
+ msgid "Last Commit"
+ msgstr "Senaste incheckning"
+ 
+-#: src/preferences/helpers.rs:110 src/repo_view/sidebar_view.rs:726
+-#: src/repo_view/sidebar_view.rs:1191 src/working_copy_view.rs:213
+-msgid "Changes"
+-msgstr "Ändringar"
+-
+-#: src/preferences/helpers.rs:111 src/repo_view/sidebar_view.rs:755
+-#: src/repo_view/sidebar_view.rs:1209
+-msgid "Current Branch"
+-msgstr "Aktuell gren"
+-
+-#: src/preferences/helpers.rs:113 src/repo_view/sidebar_view.rs:830
+-#: src/repo_view/sidebar_view.rs:1234 src/stashes_view.rs:335
+-msgid "Stashes"
+-msgstr "Stashar"
+-
+-#: src/preferences/repo.rs:51
++#: src/preferences/repo.rs:45
+ msgid "Global"
+ msgstr "Global"
+ 
+-#: src/preferences/repo.rs:52
++#: src/preferences/repo.rs:46
+ msgid "Not configured globally"
+ msgstr "Inte konfigurerat globalt"
+ 
+-#: src/preferences/repo.rs:207
++#: src/preferences/repo.rs:163
+ msgid "Signing Key (file or inline key)"
+ msgstr "Signeringsnyckel (fil eller som text)"
+ 
+-#: src/preferences/repo.rs:209
++#: src/preferences/repo.rs:165
+ msgid "Signing Key (key ID)"
+ msgstr "Signeringsnyckel (nyckel-ID)"
+ 
+-#: src/preferences/repo.rs:274
++#: src/preferences/repo.rs:225
+ msgid "Repository"
+ msgstr "Arkiv"
+ 
+-#: src/preferences/repo.rs:276
+-msgid "Preferences specific to this repository."
+-msgstr "Inställningar som är specifika för detta arkiv."
+-
+-#: src/preferences/repo.rs:282
+-msgid "Default View"
+-msgstr "Standardvy"
++#: src/preferences/repo.rs:232
++msgid "Auto-Fetch Mode"
++msgstr "Läge för automatisk hämtning"
+ 
+-#: src/preferences/repo.rs:283 src/preferences/repo.rs:295
++#: src/preferences/repo.rs:233
+ msgid "Use global default, or override per repository"
+ msgstr "Använd globalt standardvärde, eller åsidosätt per arkiv"
+ 
+-#: src/preferences/repo.rs:294
+-msgid "Auto-Fetch Mode"
+-msgstr "Läge för automatisk hämtning"
+-
+-#: src/preferences/repo.rs:350
++#: src/preferences/repo.rs:252
+ msgid "Override “Treat as Binary” Patterns"
+ msgstr "Åsidosätt ”Behandla som binär”-mönster"
+ 
+-#: src/preferences/repo.rs:351
++#: src/preferences/repo.rs:253
+ msgid "Use the global patterns, or override them for this repository"
+ msgstr "Använd de globala mönstret, eller åsidosätt dem för detta arkiv"
+ 
+-#: src/preferences/repo.rs:365
++#: src/preferences/repo.rs:267
+ msgid "Patterns (comma-separated globs)"
+ msgstr "Mönster (kommaseparerade globbar)"
+ 
+-#: src/preferences/repo.rs:376
++#: src/preferences/repo.rs:314
+ msgid "Commit Messages"
+ msgstr "Incheckningsmeddelanden"
+ 
+-#: src/preferences/repo.rs:379
++#: src/preferences/repo.rs:317
+ msgid "Subject Length"
+ msgstr "Ämneslängd"
+ 
+-#: src/preferences/repo.rs:380 src/preferences/repo.rs:387
++#: src/preferences/repo.rs:318 src/preferences/repo.rs:325
+ msgid "0 means unlimited"
+ msgstr "0 betyder obegränsad"
+ 
+-#: src/preferences/repo.rs:386
++#: src/preferences/repo.rs:324
+ msgid "Body Line Length"
+ msgstr "Radlängd för text"
+ 
+-#: src/preferences/repo.rs:393
++#: src/preferences/repo.rs:331
+ msgid "Capitalize Subject"
+ msgstr "Versalisera ämne"
+ 
+-#: src/preferences/repo.rs:394
++#: src/preferences/repo.rs:332
+ msgid "Automatically capitalize the first letter of the subject"
+ msgstr "Versalisera automatiskt ämnets första bokstav"
+ 
+-#: src/preferences/repo.rs:405
+-msgid "Sign Off Commits by Default"
+-msgstr "Sign-off på incheckningar som standard"
+-
+-#: src/preferences/repo.rs:406
+-msgid "Preselect “Sign Off Commit” when opening this repository"
+-msgstr "Förvälj ”Sign-off på incheckning” vid öppnande av detta arkiv"
+-
+-#: src/preferences/repo.rs:412
+-msgid "Use Commit Trailers"
+-msgstr "Använd incheckningssläprader"
+-
+-#: src/preferences/repo.rs:413
+-msgid "Show controls for adding trailers to commit messages"
+-msgstr ""
+-"Visa kontroller för att lägga till släprader till incheckningsmeddelanden"
+-
+-#: src/preferences/repo.rs:421
+-msgid "Default Trailers"
+-msgstr "Standardsläprader"
+-
+-#: src/preferences/repo.rs:422
+-msgid "Preselect these trailers for new commits."
+-msgstr "Förvälj dessa släprader för nya incheckningar."
+-
+-#: src/preferences/repo.rs:428
++#: src/preferences/repo.rs:339
+ msgid "Forge"
+ msgstr "Smedja"
+ 
+-#: src/preferences/repo.rs:432
++#: src/preferences/repo.rs:343
+ #, rust-format
+ msgid ""
+ "Auto-detect only recognizes well-known hosts (like github.com or "
+@@ -2978,7 +2610,7 @@
+ "för att ställa in anpassade URL-mallar. Använd {id} som en platshållare för "
+ "referensnumret, t.ex. ”https://example.com/forgejo/issues/{id}”."
+ 
+-#: src/preferences/repo.rs:436
++#: src/preferences/repo.rs:347
+ msgid ""
+ "Auto-detect only recognizes well-known hosts (like github.com or "
+ "bitbucket.org). For self-hosted instances, pick the forge type manually. "
+@@ -2988,49 +2620,49 @@
+ "bitbucket.org). Välj smedjetypen manuellt för egna instanser. Välj ”Manuell” "
+ "för att ställa in anpassade URL-mallar."
+ 
+-#: src/preferences/repo.rs:441
++#: src/preferences/repo.rs:352
+ msgid "Forge Type"
+ msgstr "Smedjetyp"
+ 
+-#: src/preferences/repo.rs:442
++#: src/preferences/repo.rs:353
+ msgid "Used to link #123 / !123 references in commit messages"
+ msgstr ""
+ "Används för att länka referenser som #123 eller !123 i "
+ "incheckningsmeddelanden"
+ 
+-#: src/preferences/repo.rs:450
++#: src/preferences/repo.rs:361
+ msgid "Issue / PR URL Template"
+ msgstr "URL-mall för ärende/PR"
+ 
+-#: src/preferences/repo.rs:461
++#: src/preferences/repo.rs:372
+ msgid "Merge Request URL Template"
+ msgstr "URL-mall för merge-förfrågan"
+ 
+-#: src/preferences/repo.rs:472
++#: src/preferences/repo.rs:383
+ msgid "Git Identity"
+ msgstr "Git-identitet"
+ 
+-#: src/preferences/repo.rs:473
++#: src/preferences/repo.rs:384
+ msgid "Override the global git user configuration for this repository"
+ msgstr "Åsidosätt den globala git-användarkonfigurationen för detta arkiv"
+ 
+-#: src/preferences/repo.rs:477
++#: src/preferences/repo.rs:388
+ msgid "Override user.name"
+ msgstr "Åsidosätt user.name"
+ 
+-#: src/preferences/repo.rs:502
++#: src/preferences/repo.rs:413
+ msgid "Override user.email"
+ msgstr "Åsidosätt user.email"
+ 
+-#: src/preferences/repo.rs:517
++#: src/preferences/repo.rs:428
+ msgid "Email"
+ msgstr "E-post"
+ 
+-#: src/preferences/repo.rs:528
++#: src/preferences/repo.rs:439
+ msgid "Signing"
+ msgstr "Signering"
+ 
+-#: src/preferences/repo.rs:530
++#: src/preferences/repo.rs:441
+ msgid ""
+ "Override the global git signing configuration for this repository. Empty "
+ "fields inherit the global value."
+@@ -3038,82 +2670,81 @@
+ "Åsidosätt den globala git-signeringskonfigurationen för detta arkiv. Tomma "
+ "fält ärver det globala värdet."
+ 
+-#: src/preferences/repo.rs:536
++#: src/preferences/repo.rs:447
+ msgid "Sign Commits"
+ msgstr "Signera incheckningar"
+ 
+-#: src/preferences/repo.rs:537
++#: src/preferences/repo.rs:448
+ msgid "Cryptographically sign commits made in this repository"
+ msgstr "Signera kryptografiskt incheckningar som gjorts i detta arkiv"
+ 
+-#: src/preferences/repo.rs:550
++#: src/preferences/repo.rs:461
+ msgid "Sign Tags"
+ msgstr "Signera taggar"
+ 
+-#: src/preferences/repo.rs:551
++#: src/preferences/repo.rs:462
+ msgid "Cryptographically sign annotated tags created in this repository"
+ msgstr "Signera kryptografiskt annoterade taggar som skapas i detta arkiv"
+ 
+-#: src/preferences/repo.rs:564
++#: src/preferences/repo.rs:475
+ msgid "Signature Format"
+ msgstr "Signaturformat"
+ 
+-#: src/preferences/repo.rs:582 src/preferences/repo.rs:829
++#: src/preferences/repo.rs:493 src/preferences/repo.rs:697
+ msgid "Select Key File"
+ msgstr "Välj nyckelfil"
+ 
+-#: src/preferences/repo.rs:592
++#: src/preferences/repo.rs:503
+ msgid "Allowed Signers File"
+ msgstr "Fil med tillåtna signerare"
+ 
+-#: src/preferences/repo.rs:603 src/preferences/repo.rs:836
++#: src/preferences/repo.rs:514 src/preferences/repo.rs:704
+ msgid "Select Allowed Signers File"
+ msgstr "Välj fil med tillåtna signerare"
+ 
+-#: src/preferences/repo.rs:619 src/preferences/repo.rs:638
+-#: src/preferences/repo.rs:651 src/preferences/repo.rs:658
+-#: src/preferences/repo.rs:670 src/preferences/repo.rs:682
+-#: src/preferences/repo.rs:728
++#: src/preferences/repo.rs:530 src/preferences/repo.rs:549
++#: src/preferences/repo.rs:556 src/preferences/repo.rs:568
++#: src/preferences/repo.rs:580 src/preferences/repo.rs:626
+ msgid "Global Default"
+ msgstr "Globalt standardvärde"
+ 
+-#: src/preferences/repo.rs:619
++#: src/preferences/repo.rs:530
+ msgid "Enabled"
+ msgstr "Aktiverad"
+ 
+-#: src/preferences/repo.rs:619
++#: src/preferences/repo.rs:530
+ msgid "Disabled"
+ msgstr "Inaktiverad"
+ 
+-#: src/preferences/repo.rs:695
++#: src/preferences/repo.rs:593
+ msgid "Auto-detect"
+ msgstr "Upptäck automatiskt"
+ 
+-#: src/preferences/repo.rs:696
++#: src/preferences/repo.rs:594
+ msgid "GitHub"
+ msgstr "GitHub"
+ 
+-#: src/preferences/repo.rs:697
++#: src/preferences/repo.rs:595
+ msgid "GitLab"
+ msgstr "GitLab"
+ 
+-#: src/preferences/repo.rs:698
++#: src/preferences/repo.rs:596
+ msgid "Forgejo / Gitea"
+ msgstr "Forgejo / Gitea"
+ 
+-#: src/preferences/repo.rs:699
++#: src/preferences/repo.rs:597
+ msgid "Bitbucket"
+ msgstr "Bitbucket"
+ 
+-#: src/preferences/repo.rs:701
++#: src/preferences/repo.rs:599
+ msgid "None"
+ msgstr "Ingen"
+ 
+-#: src/preferences/repo.rs:843
++#: src/preferences/repo.rs:711
+ msgid "SSH Keys"
+ msgstr "SSH-nycklar"
+ 
+-#: src/preferences/repo.rs:844
++#: src/preferences/repo.rs:712
+ msgid "Configure which SSH private key to use for each remote"
+ msgstr "Konfigurera vilka privata SSH-nycklar som ska användas för varje fjärr"
+ 
+@@ -3184,7 +2815,7 @@
+ "”flatpak override --user --talk-name=org.freedesktop.Flatpak "
+ "de.wwwtech.gitte”."
+ 
+-#: src/preferences/system.rs:117 src/start_screen.rs:300
++#: src/preferences/system.rs:117 src/start_screen.rs:298
+ msgid "Repositories"
+ msgstr "Arkiv"
+ 
+@@ -3305,21 +2936,10 @@
+ msgid "Select Default Repository Location"
+ msgstr "Välj standardarkivplats"
+ 
+-#: src/preferences/trailer_template_row.rs:51
+-msgid "Inserted as is"
+-msgstr "Infogas som det är"
+-
+-#: src/preferences/trailer_template_row.rs:53
+-msgid "Asks for a value"
+-msgstr "Frågar efter ett värde"
+-
+-#: src/preferences/trailer_template_row.rs:69
+-msgid "Trailer"
+-msgstr "Släprad"
+-
+-#: src/preferences/trailer_template_row.rs:80
+-msgid "Remove Trailer"
+-msgstr "Ta bort släprad"
++#: src/pull_dialog.rs:57 src/pull_dialog.rs:149
++#: src/repo_view/sidebar_view.rs:507
++msgid "Pull"
++msgstr "Hämta"
+ 
+ #: src/pull_dialog.rs:58
+ msgid ""
+@@ -3419,6 +3039,11 @@
+ msgid "Push tags"
+ msgstr "Sänd taggar"
+ 
++#: src/push_dialog.rs:229 src/push_dialog.rs:257
++#: src/repo_view/sidebar_view.rs:484 src/select_remote_dialog.rs:76
++msgid "Push"
++msgstr "Sänd"
++
+ #: src/push_dialog.rs:230
+ msgid "Send local commits to the remote repository"
+ msgstr "Sänd lokala incheckningar till fjärrarkivet"
+@@ -3510,15 +3135,15 @@
+ msgid "More Options"
+ msgstr "Fler alternativ"
+ 
+-#: src/repo_row.rs:468
++#: src/repo_row.rs:467
+ msgid "Rename Repository"
+ msgstr "Byt namn på arkiv"
+ 
+-#: src/repo_row.rs:472
++#: src/repo_row.rs:471
+ msgid "Repository Name"
+ msgstr "Arkivnamn"
+ 
+-#: src/repo_view.rs:560
++#: src/repo_view.rs:455
+ #, rust-format
+ msgid "Copied “{}”"
+ msgstr "Kopierade ”{}”"
+@@ -3527,11 +3152,11 @@
+ msgid "Create Archive"
+ msgstr "Arkivera"
+ 
+-#: src/repo_view/archive.rs:96
++#: src/repo_view/archive.rs:97
+ msgid "Archive created successfully"
+ msgstr "Lyckades arkivera"
+ 
+-#: src/repo_view/archive.rs:97
++#: src/repo_view/archive.rs:98
+ msgid "Show in File Manager"
+ msgstr "Visa i filhanterare"
+ 
+@@ -3549,37 +3174,37 @@
+ msgid "Delete Branch?"
+ msgstr "Ta bort gren?"
+ 
+-#: src/repo_view/branch/lifecycle.rs:137
++#: src/repo_view/branch/lifecycle.rs:136
+ msgid "Branch deleted"
+ msgstr "Gren borttagen"
+ 
+-#: src/repo_view/branch/lifecycle.rs:149
++#: src/repo_view/branch/lifecycle.rs:148
+ msgid "Rename Branch"
+ msgstr "Byt namn på gren"
+ 
+-#: src/repo_view/branch/lifecycle.rs:150 src/repo_view/remote.rs:250
++#: src/repo_view/branch/lifecycle.rs:149 src/repo_view/remote.rs:249
+ #, rust-format
+ msgid "Enter a new name for “{}”."
+-msgstr "Ange ett nytt namn för ”{}”"
++msgstr "Ange ett nytt namn för ”{}”."
+ 
+-#: src/repo_view/branch/lifecycle.rs:152
++#: src/repo_view/branch/lifecycle.rs:151
+ msgid "New branch name"
+ msgstr "Nytt grennamn"
+ 
+-#: src/repo_view/branch/lifecycle.rs:186
++#: src/repo_view/branch/lifecycle.rs:185
+ msgid "Branch renamed"
+ msgstr "Bytte namn på gren"
+ 
+-#: src/repo_view/branch/lifecycle.rs:243
++#: src/repo_view/branch/lifecycle.rs:242
+ #, rust-format
+ msgid "Created and checked out branch “{}”"
+ msgstr "Skapade och checkade ut grenen ”{}”"
+ 
+-#: src/repo_view/branch/lifecycle.rs:245
++#: src/repo_view/branch/lifecycle.rs:244
+ msgid "Branch created"
+ msgstr "Gren skapad"
+ 
+-#: src/repo_view/branch/lifecycle.rs:266
++#: src/repo_view/branch/lifecycle.rs:265
+ #, rust-format
+ msgid "Your changes were stashed, but the branch could not be created: {}"
+ msgstr "Dina ändringar har stashats, men grenen kunde inte skapas: {}"
+@@ -3609,6 +3234,11 @@
+ msgid "Cannot merge: HEAD is detached"
+ msgstr "Kan inte slå samman: HEAD är frånkopplat"
+ 
++#: src/repo_view/branch/merge.rs:96
++#, rust-format
++msgid "Squash merge branch '{}'"
++msgstr "Platta till sammanslagningsgrenen ”{}”"
++
+ #: src/repo_view/branch/remote.rs:151 src/repo_view/fetch.rs:62
+ msgid "Fetch complete"
+ msgstr "Hämtning slutförd"
+@@ -3622,11 +3252,11 @@
+ msgid "This is the configured mainline branch."
+ msgstr "Det här är den konfigurerade huvudlinjesgrenen."
+ 
+-#: src/repo_view/branch/remote.rs:282
++#: src/repo_view/branch/remote.rs:283
+ msgid "Details"
+ msgstr "Detaljer"
+ 
+-#: src/repo_view/branch/remote.rs:347
++#: src/repo_view/branch/remote.rs:348
+ #, rust-format
+ msgid ""
+ "Remote branch “{remote}/{branch}” deleted, but {n} upstream could not be "
+@@ -3641,12 +3271,12 @@
+ "Fjärrgrenen ”{remote}/{branch}” togs bort, men {n} uppströmmar kunde inte "
+ "tas bort"
+ 
+-#: src/repo_view/branch/remote.rs:358
++#: src/repo_view/branch/remote.rs:359
+ #, rust-format
+ msgid "Remote branch “{remote}/{branch}” deleted"
+ msgstr "Fjärrgrenen ”{remote}/{branch}” togs bort"
+ 
+-#: src/repo_view/branch/remote.rs:364
++#: src/repo_view/branch/remote.rs:365
+ #, rust-format
+ msgid ""
+ "Remote branch “{remote}/{branch}” deleted and upstream removed from {n} "
+@@ -3669,15 +3299,15 @@
+ "Du har ändringar som inte checkats in. Hur vill du fortsätta med växlingen "
+ "till ”{}”?"
+ 
+-#: src/repo_view/branch/switch.rs:142 src/select_branch_dialog.rs:135
++#: src/repo_view/branch/switch.rs:142
+ msgid "Switch"
+ msgstr "Växla"
+ 
+-#: src/repo_view/branch/switch.rs:147 src/select_branch_dialog.rs:114
++#: src/repo_view/branch/switch.rs:147
+ msgid "Switch without stashing"
+ msgstr "Växla utan att stasha"
+ 
+-#: src/repo_view/branch/switch.rs:150 src/select_branch_dialog.rs:118
++#: src/repo_view/branch/switch.rs:150
+ msgid "switching"
+ msgstr "växlar"
+ 
+@@ -3720,7 +3350,7 @@
+ 
+ #: src/repo_view/cherry_pick.rs:245 src/repo_view/cherry_pick.rs:400
+ #: src/repo_view/revert.rs:249 src/repo_view/revert.rs:299
+-#: src/repo_view/rewrite_helpers.rs:82
++#: src/repo_view/rewrite_helpers.rs:63
+ msgid "your changes are stashed, pop them via the Stashes view"
+ msgstr "dina ändringar har stashats, poppa dem genom stashvyn"
+ 
+@@ -3804,7 +3434,7 @@
+ "Du har ändringar som inte checkats in. Hur vill du fortsätta med "
+ "utcheckningen av ”{}”?"
+ 
+-#: src/repo_view/detached_checkout.rs:76
++#: src/repo_view/detached_checkout.rs:76 src/select_branch_dialog.rs:134
+ msgid "Check Out"
+ msgstr "Checka ut"
+ 
+@@ -3812,35 +3442,35 @@
+ msgid "Checked out (detached HEAD)"
+ msgstr "Checkade ut (frånkopplat HEAD)"
+ 
+-#: src/repo_view/drop.rs:147
++#: src/repo_view/drop.rs:182
+ #, rust-format
+ msgid "Commit dropped"
+ msgid_plural "{} commits dropped"
+ msgstr[0] "Incheckning kastad"
+ msgstr[1] "{} incheckningar kastade"
+ 
+-#: src/repo_view/drop.rs:150
++#: src/repo_view/drop.rs:185
+ #, rust-format
+ msgid "Commit dropped, stashed changes preserved"
+ msgid_plural "{} commits dropped, stashed changes preserved"
+ msgstr[0] "Incheckning kastad, stashade ändringar bevaras"
+ msgstr[1] "{} incheckningar kastade, stashade ändringar bevaras"
+ 
+-#: src/repo_view/drop.rs:155 src/repo_view/drop.rs:157
+-#: src/repo_view/reorder.rs:148 src/repo_view/reorder.rs:150
+-#: src/repo_view/reword.rs:139 src/repo_view/reword.rs:141
+-#: src/repo_view/squash.rs:200 src/repo_view/squash.rs:202
+-msgid "Rebase paused unexpectedly, click Continue to proceed"
+-msgstr "Ombasering pausades oväntat, klicka på Fortsätt för att fortsätta"
++#: src/repo_view/drop.rs:190 src/repo_view/drop.rs:192
++#: src/repo_view/reorder.rs:176 src/repo_view/reorder.rs:178
++#: src/repo_view/reword.rs:167 src/repo_view/reword.rs:169
++#: src/repo_view/squash.rs:228 src/repo_view/squash.rs:230
++msgid "Rebase paused unexpectedly, click Continue Rebase to proceed"
++msgstr "Ombaseringen pausades oväntat. Klicka på Fortsätt ombasering för att fortsätta"
+ 
+-#: src/repo_view/drop.rs:188
++#: src/repo_view/drop.rs:223
+ #, rust-format
+ msgid "Drop commit?"
+ msgid_plural "Drop {} commits?"
+ msgstr[0] "Kasta incheckning?"
+ msgstr[1] "Kasta {} incheckningar?"
+ 
+-#: src/repo_view/drop.rs:191
++#: src/repo_view/drop.rs:226
+ msgid ""
+ "The selected commit will be removed from history. Subsequent commits will be "
+ "replayed."
+@@ -3854,19 +3484,19 @@
+ "De valda incheckningarna kommer tas bort från historiken. Efterföljande "
+ "incheckningar kommer spelas om."
+ 
+-#: src/repo_view/drop.rs:198
++#: src/repo_view/drop.rs:233
+ msgid "Uncommitted changes will be stashed and restored automatically."
+ msgstr "Ej incheckade ändringar kommer stashas och återställas automatiskt."
+ 
+-#: src/repo_view/drop.rs:211
++#: src/repo_view/drop.rs:246
+ msgid "dropping"
+ msgstr "kastar"
+ 
+-#: src/repo_view/drop.rs:222 src/stashes_view.rs:900 src/stashes_view.rs:1026
++#: src/repo_view/drop.rs:257 src/stashes_view.rs:859 src/stashes_view.rs:984
+ msgid "Drop"
+ msgstr "Kasta"
+ 
+-#: src/repo_view/edit_commit.rs:104
++#: src/repo_view/edit_commit.rs:131
+ msgid ""
+ "You have uncommitted changes. They must be stashed before the commit can be "
+ "edited."
+@@ -3874,30 +3504,30 @@
+ "Du har ej incheckade ändringar. De måste stashas innan incheckningen kan "
+ "redigeras."
+ 
+-#: src/repo_view/edit_commit.rs:106
++#: src/repo_view/edit_commit.rs:133
+ msgid "Edit Commit"
+ msgstr "Redigera incheckning"
+ 
+-#: src/repo_view/edit_commit.rs:107
++#: src/repo_view/edit_commit.rs:134
+ msgid "editing"
+ msgstr "redigerar"
+ 
+-#: src/repo_view/edit_commit.rs:185 src/repo_view/rebase.rs:67
++#: src/repo_view/edit_commit.rs:212 src/repo_view/rebase.rs:72
+ msgid "Rebase completed"
+ msgstr "Ombasering slutförd"
+ 
+-#: src/repo_view/edit_commit.rs:186
++#: src/repo_view/edit_commit.rs:213
+ msgid "Rebase completed, stashed changes preserved"
+ msgstr "Ombasering slutförd, stashade ändringar bevaras"
+ 
+-#: src/repo_view/edit_commit.rs:188
++#: src/repo_view/edit_commit.rs:215
+ msgid "Commit opened for editing — recompose it, commit, then Continue"
+ msgstr ""
+ "Incheckning öppnad för redigering — ändra den, checka in, klicka sedan "
+ "Fortsätt"
+ 
+ # TODO: Is there a "Continue Rebase"?
+-#: src/repo_view/edit_commit.rs:191
++#: src/repo_view/edit_commit.rs:218
+ msgid ""
+ "Commit opened for editing — recompose it, commit, then Continue. Stashed "
+ "changes preserved."
+@@ -3983,33 +3613,33 @@
+ msgid "Open Pull Request"
+ msgstr "Öppna pull-förfrågan"
+ 
+-#: src/repo_view/rebase.rs:61
++#: src/repo_view/rebase.rs:66
+ msgid "Rebase completed, %1 commit applied"
+ msgid_plural "Rebase completed, %1 commits applied"
+ msgstr[0] "Ombasering slutförd, %1 incheckning tillämpad"
+ msgstr[1] "Ombasering slutförd, %1 incheckningar tillämpade"
+ 
+-#: src/repo_view/rebase.rs:75
++#: src/repo_view/rebase.rs:80
+ msgid "New conflicts encountered, resolve and continue"
+ msgstr "Nya konflikter stöttes på, lös dem och fortsätt"
+ 
+-#: src/repo_view/rebase.rs:82
+-msgid "Rebase paused, amend the commit, then click Continue"
+-msgstr "Ombasering pausad, utöka inchechningen, klicka sedan på Fortsätt"
++#: src/repo_view/rebase.rs:87
++msgid "Rebase paused, amend the commit, then click Continue Rebase"
++msgstr "Ombaseringen pausades. Ändra incheckningen och klicka sedan på Fortsätt ombasering"
+ 
+-#: src/repo_view/rebase.rs:99
++#: src/repo_view/rebase.rs:105
+ msgid "Conflicts encountered, resolve and continue"
+ msgstr "Konflikter stöttes på, lös dem och fortsätt"
+ 
+-#: src/repo_view/rebase.rs:104
++#: src/repo_view/rebase.rs:110
+ msgid "Merge paused, resolve and continue"
+ msgstr "Sammanslagning pausad, lös och fortsätt"
+ 
+-#: src/repo_view/rebase.rs:148
++#: src/repo_view/rebase.rs:154
+ msgid "Merge aborted"
+ msgstr "Sammanslagning avbruten"
+ 
+-#: src/repo_view/rebase.rs:150
++#: src/repo_view/rebase.rs:156
+ msgid "Rebase aborted"
+ msgstr "Ombasering avbruten"
+ 
+@@ -4031,34 +3661,34 @@
+ msgid "Delete Remote?"
+ msgstr "Ta bort fjärr?"
+ 
+-#: src/repo_view/remote.rs:196
++#: src/repo_view/remote.rs:195
+ msgid "Remote deleted"
+ msgstr "Fjärr borttagen"
+ 
+-#: src/repo_view/remote.rs:230
++#: src/repo_view/remote.rs:229
+ #, rust-format
+ msgid "Remote “{}” fetched"
+ msgstr "Fjärren ”{}” hämtades"
+ 
+-#: src/repo_view/remote.rs:249
++#: src/repo_view/remote.rs:248
+ msgid "Rename Remote"
+ msgstr "Byt namn på fjärr"
+ 
+-#: src/repo_view/remote.rs:252
++#: src/repo_view/remote.rs:251
+ msgid "New remote name"
+ msgstr "Nytt fjärrnamn"
+ 
+-#: src/repo_view/remote.rs:315
++#: src/repo_view/remote.rs:314
+ msgid "Remote renamed"
+ msgstr "Bytte namn på fjärr"
+ 
+-#: src/repo_view/remote.rs:317
++#: src/repo_view/remote.rs:316
+ msgid "Remote renamed, but non-default fetch refspecs must be updated manually"
+ msgstr ""
+ "Fjärren har bytt namn, men hämtningsreferensspecifikationer annat än "
+ "standard måste uppdateras manuellt"
+ 
+-#: src/repo_view/reorder.rs:87
++#: src/repo_view/reorder.rs:116
+ msgid ""
+ "You have uncommitted changes. They must be stashed before the commits can be "
+ "reordered."
+@@ -4066,19 +3696,19 @@
+ "Du har ej incheckade ändringar. De måste stashas innan ordningen på "
+ "incheckningarna kan ändras."
+ 
+-#: src/repo_view/reorder.rs:90
++#: src/repo_view/reorder.rs:119
+ msgid "Reorder"
+ msgstr "Ändra ordning"
+ 
+-#: src/repo_view/reorder.rs:91
++#: src/repo_view/reorder.rs:120
+ msgid "reordering"
+ msgstr "ändrar ordning"
+ 
+-#: src/repo_view/reorder.rs:146
++#: src/repo_view/reorder.rs:174
+ msgid "Commits reordered"
+ msgstr "Ordning på incheckningar ändrad"
+ 
+-#: src/repo_view/reorder.rs:147
++#: src/repo_view/reorder.rs:175
+ msgid "Commits reordered, stashed changes preserved"
+ msgstr "Ordning på incheckningar ändrad, stashade ändringar bevarade"
+ 
+@@ -4131,63 +3761,63 @@
+ "En ny incheckning kommer skapas som gör ändringarna i den valda "
+ "incheckningen ogjorda."
+ 
+-#: src/repo_view/reword.rs:90
++#: src/repo_view/reword.rs:118
+ msgid "rewording"
+ msgstr "omformulering"
+ 
+-#: src/repo_view/reword.rs:137
++#: src/repo_view/reword.rs:165
+ msgid "Commit message updated"
+ msgstr "Incheckningsmeddelande uppdaterat"
+ 
+-#: src/repo_view/reword.rs:138
++#: src/repo_view/reword.rs:166
+ msgid "Commit message updated, stashed changes preserved"
+ msgstr "Incheckningsmeddelande uppdaterat, stashade ändringar bevaras"
+ 
+-#: src/repo_view/reword.rs:179
++#: src/repo_view/reword.rs:206
+ msgid "Reword commit"
+ msgstr "Omformulera incheckning"
+ 
+-#: src/repo_view/reword.rs:180
++#: src/repo_view/reword.rs:207
+ msgid "Edit the commit message"
+ msgstr "Redigera incheckningsmeddelandet"
+ 
+-#: src/repo_view/reword.rs:181
++#: src/repo_view/reword.rs:208
+ msgid "Reword"
+ msgstr "Omformulera"
+ 
+-#: src/repo_view/rewrite_helpers.rs:68
++#: src/repo_view/rewrite_helpers.rs:49
+ msgid "Conflicts encountered, resolve and continue the rebase"
+ msgstr "Konflikter stöttes på, lös dem och fortsätt med ombaseringen"
+ 
+-#: src/repo_view/sidebar_view.rs:331
++#: src/repo_view/sidebar_view.rs:288
+ #, rust-format
+ msgid "Push {local} to {remote}/{branch}…"
+ msgstr "Sänd {local} till {remote}/{branch}…"
+ 
+-#: src/repo_view/sidebar_view.rs:336
++#: src/repo_view/sidebar_view.rs:293
+ #, rust-format
+ msgid "Push {local}…"
+ msgstr "Sänd {local}…"
+ 
+-#: src/repo_view/sidebar_view.rs:338
++#: src/repo_view/sidebar_view.rs:295
+ msgid "Push to Remote…"
+ msgstr "Sänd till fjärr…"
+ 
+-#: src/repo_view/sidebar_view.rs:344
++#: src/repo_view/sidebar_view.rs:301
+ #, rust-format
+ msgid "Pull from {remote}/{branch} into {local}…"
+ msgstr "Hämta från {remote}/{branch} till {local}…"
+ 
+-#: src/repo_view/sidebar_view.rs:349
++#: src/repo_view/sidebar_view.rs:306
+ #, rust-format
+ msgid "Pull into {local}…"
+ msgstr "Hämta till {local}…"
+ 
+-#: src/repo_view/sidebar_view.rs:351
++#: src/repo_view/sidebar_view.rs:308
+ msgid "Pull from Remote…"
+ msgstr "Hämta från fjärr…"
+ 
+-#: src/repo_view/sidebar_view.rs:500
++#: src/repo_view/sidebar_view.rs:371
+ msgid ""
+ "Auto-refresh is partial, some changes may not be detected automatically. Use "
+ "the Refresh action in the main menu to force a reload."
+@@ -4196,7 +3826,7 @@
+ "identifieras automatiskt. Använd åtgärden Uppdatera i huvudmenyn för att "
+ "tvinga en ny inläsning."
+ 
+-#: src/repo_view/sidebar_view.rs:505
++#: src/repo_view/sidebar_view.rs:376
+ msgid ""
+ "Auto-refresh is disabled, use the Refresh action in the main menu to reload "
+ "manually."
+@@ -4204,149 +3834,165 @@
+ "Automatisk uppdatering är inaktiverad, använd åtgärden Uppdatera i "
+ "huvudmenyn för att manuellt läsa in på nytt."
+ 
+-#: src/repo_view/sidebar_view.rs:537 src/repo_view/sidebar_view.rs:1101
++#: src/repo_view/sidebar_view.rs:408 src/repo_view/sidebar_view.rs:888
+ msgid "Back to Repositories"
+ msgstr "Tillbaka till arkiv"
+ 
+-#: src/repo_view/sidebar_view.rs:546
++#: src/repo_view/sidebar_view.rs:417
+ msgid "Collapse Sidebar"
+ msgstr "Fäll ihop sidopanel"
+ 
+-#. TODO: remove comment when the global menu bar is enabled again (https://gitlab.gnome.org/GNOME/gtk/-/work_items/8435)
+-#. set_visible: !cfg!(target_os = "macos"),
+-#: src/repo_view/sidebar_view.rs:556 src/repo_view/sidebar_view.rs:1268
+-#: src/start_screen.rs:217
++#: src/repo_view/sidebar_view.rs:425 src/repo_view/sidebar_view.rs:1029
++#: src/start_screen.rs:215
+ msgid "Main Menu"
+ msgstr "Huvudmeny"
+ 
+-#: src/repo_view/sidebar_view.rs:665 src/repo_view/sidebar_view.rs:1160
++#: src/repo_view/sidebar_view.rs:520 src/repo_view/sidebar_view.rs:937
+ msgid "Fetch from Remote"
+ msgstr "Hämta från fjärr"
+ 
+-#: src/repo_view/sidebar_view.rs:756 src/repo_view/sidebar_view.rs:1210
++#: src/repo_view/sidebar_view.rs:529
++msgid "Fetch"
++msgstr "Hämta"
++
++#: src/repo_view/sidebar_view.rs:566 src/repo_view/sidebar_view.rs:968
++#: src/working_copy_view.rs:197
++msgid "Changes"
++msgstr "Ändringar"
++
++#: src/repo_view/sidebar_view.rs:595 src/repo_view/sidebar_view.rs:986
++msgid "Current Branch"
++msgstr "Aktuell gren"
++
++#: src/repo_view/sidebar_view.rs:596 src/repo_view/sidebar_view.rs:987
+ msgid "Current Tag"
+ msgstr "Aktuell tagg"
+ 
+-#: src/repo_view/sidebar_view.rs:757 src/repo_view/sidebar_view.rs:1211
++#: src/repo_view/sidebar_view.rs:597 src/repo_view/sidebar_view.rs:988
+ msgid "Detached HEAD"
+ msgstr "Frånkopplat HEAD"
+ 
+-#: src/repo_view/sidebar_view.rs:793
++#: src/repo_view/sidebar_view.rs:633
+ #, rust-format
+ msgid "{n} commit behind upstream"
+ msgid_plural "{n} commits behind upstream"
+ msgstr[0] "{n} incheckning efter uppström"
+ msgstr[1] "{n} incheckningar efter uppström"
+ 
+-#: src/repo_view/sidebar_view.rs:811
++#: src/repo_view/sidebar_view.rs:651
+ #, rust-format
+ msgid "{n} commit ahead of upstream"
+ msgid_plural "{n} commits ahead of upstream"
+ msgstr[0] "{n} incheckning före uppström"
+ msgstr[1] "{n} incheckningar före uppström"
+ 
+-#: src/repo_view/sidebar_view.rs:846
++#: src/repo_view/sidebar_view.rs:670 src/repo_view/sidebar_view.rs:1011
++#: src/stashes_view.rs:306
++msgid "Stashes"
++msgstr "Stashar"
++
++#: src/repo_view/sidebar_view.rs:686
+ #, rust-format
+ msgid "{n} stash"
+ msgid_plural "{n} stashes"
+ msgstr[0] "{n} stash"
+ msgstr[1] "{n} stashar"
+ 
+-#: src/repo_view/sidebar_view.rs:864 src/repo_view/sidebar_view.rs:865
+-msgid "Filter references"
+-msgstr "Filtrera referenser"
+-
+-#: src/repo_view/sidebar_view.rs:880
+-msgid "No matching references"
+-msgstr "Inga matchande referenser"
+-
+-#: src/repo_view/sidebar_view.rs:902
++#: src/repo_view/sidebar_view.rs:704
+ msgid "Collapse Branches"
+ msgstr "Fäll ihop grenar"
+ 
+-#: src/repo_view/sidebar_view.rs:904
++#: src/repo_view/sidebar_view.rs:706
+ msgid "Expand Branches"
+ msgstr "Expandera grenar"
+ 
+-#: src/repo_view/sidebar_view.rs:921
++#: src/repo_view/sidebar_view.rs:723
+ msgid "Branches"
+ msgstr "Grenar"
+ 
+-#: src/repo_view/sidebar_view.rs:964
++#: src/repo_view/sidebar_view.rs:735
++msgid "New Branch…"
++msgstr "Ny gren…"
++
++#: src/repo_view/sidebar_view.rs:759
+ msgid "Collapse Tags"
+ msgstr "Fäll ihop taggar"
+ 
+-#: src/repo_view/sidebar_view.rs:966
++#: src/repo_view/sidebar_view.rs:761
+ msgid "Expand Tags"
+ msgstr "Expandera taggar"
+ 
+-#: src/repo_view/sidebar_view.rs:983
++#: src/repo_view/sidebar_view.rs:778
+ msgid "Tags"
+ msgstr "Taggar"
+ 
+-#: src/repo_view/sidebar_view.rs:1026
++#: src/repo_view/sidebar_view.rs:790
++msgid "New Tag…"
++msgstr "Ny tagg…"
++
++#: src/repo_view/sidebar_view.rs:814
+ msgid "Collapse Remotes"
+ msgstr "Fäll ihop fjärrar"
+ 
+-#: src/repo_view/sidebar_view.rs:1028
++#: src/repo_view/sidebar_view.rs:816
+ msgid "Expand Remotes"
+ msgstr "Expandera fjärrar"
+ 
+-#: src/repo_view/sidebar_view.rs:1045
++#: src/repo_view/sidebar_view.rs:833
+ msgid "Remotes"
+ msgstr "Fjärrar"
+ 
+-#: src/repo_view/sidebar_view.rs:1057
++#: src/repo_view/sidebar_view.rs:845
+ msgid "Add Remote…"
+ msgstr "Lägg till fjärr…"
+ 
+-#: src/repo_view/sidebar_view.rs:1277
++#: src/repo_view/sidebar_view.rs:1038
+ msgid "Expand Sidebar"
+ msgstr "Expandera sidopanel"
+ 
+-#: src/repo_view/sidebar_view.rs:1308
++#: src/repo_view/sidebar_view.rs:1068
+ msgid "No branches"
+ msgstr "Inga grenar"
+ 
+-#: src/repo_view/sidebar_view.rs:1322
++#: src/repo_view/sidebar_view.rs:1082
+ msgid "No remotes"
+ msgstr "Inga fjärrar"
+ 
+-#: src/repo_view/squash.rs:99
++#: src/repo_view/squash.rs:128
+ msgid "squashing"
+ msgstr "plattar till"
+ 
+-#: src/repo_view/squash.rs:198
++#: src/repo_view/squash.rs:226
+ msgid "Commits squashed"
+ msgstr "Incheckningar plattades till"
+ 
+-#: src/repo_view/squash.rs:199
++#: src/repo_view/squash.rs:227
+ msgid "Commits squashed, stashed changes preserved"
+ msgstr "Incheckningar plattades till, stashade ändringar bevaras"
+ 
+-#: src/repo_view/squash.rs:258
++#: src/repo_view/squash.rs:307
+ #, rust-format
+ msgid "Squash {} commit"
+ msgid_plural "Squash {} commits"
+ msgstr[0] "Platta till {} incheckning"
+ msgstr[1] "Platta till {} incheckningar"
+ 
+-#: src/repo_view/squash.rs:260
++#: src/repo_view/squash.rs:309
+ msgid "Edit the combined commit message"
+ msgstr "Redigera det kombinerade incheckningsmeddelandet"
+ 
+-#: src/repo_view/squash.rs:261
++#: src/repo_view/squash.rs:310
+ msgid "Squash"
+ msgstr "Platta till"
+ 
+-#: src/repo_view/squash.rs:311
++#: src/repo_view/squash.rs:360
+ #, rust-format
+ msgid "Fixup {} commit?"
+ msgid_plural "Fixup {} commits?"
+ msgstr[0] "Rätta till {} incheckning?"
+ msgstr[1] "Rätta till {} incheckningar?"
+ 
+-#: src/repo_view/squash.rs:313
++#: src/repo_view/squash.rs:362
+ msgid ""
+ "All selected commits will be folded into the oldest of them. Their messages "
+ "will be discarded."
+@@ -4354,7 +4000,7 @@
+ "Alla valda incheckningar kommer fällas ihop till det äldsta av dem. Deras "
+ "meddelanden kommer att förkastas."
+ 
+-#: src/repo_view/squash.rs:316
++#: src/repo_view/squash.rs:365
+ msgid "Fixup"
+ msgstr "Rätta till"
+ 
+@@ -4362,7 +4008,7 @@
+ msgid "Changes stashed"
+ msgstr "Ändringar stashade"
+ 
+-#: src/repo_view/stash.rs:123 src/stashes_view.rs:953
++#: src/repo_view/stash.rs:123 src/stashes_view.rs:912
+ msgid "Stash popped"
+ msgstr "Stash poppad"
+ 
+@@ -4379,38 +4025,38 @@
+ msgid "The tag “{}” will be deleted."
+ msgstr "Taggen ”{}” kommer tas bort."
+ 
+-#: src/repo_view/tag.rs:184
++#: src/repo_view/tag.rs:183
+ msgid "Tag deleted"
+ msgstr "Tagg borttagen"
+ 
+-#: src/repo_view/tag.rs:199
++#: src/repo_view/tag.rs:198
+ msgid "No remotes configured"
+ msgstr "Inga fjärrar konfigurerade"
+ 
+-#: src/repo_view/tag.rs:251
++#: src/repo_view/tag.rs:250
+ msgid "Tag pushed"
+ msgstr "Tagg sändes"
+ 
+-#: src/revert_dialog.rs:96
++#: src/revert_dialog.rs:97
+ msgid "Choose which parent to treat as the mainline for this revert"
+ msgstr ""
+ "Välj vilken förälder som ska behandlas som huvudlinje för denna återställning"
+ 
+-#: src/revert_dialog.rs:177
++#: src/revert_dialog.rs:176
+ msgid "Cryptographically sign the revert commit"
+ msgstr "Signera återställningsincheckningen kryptografiskt"
+ 
+-#: src/revert_dialog.rs:212
++#: src/revert_dialog.rs:211
+ msgid "reverting"
+ msgstr "återställer"
+ 
+-#: src/revert_dialog.rs:261
++#: src/revert_dialog.rs:260
+ msgid "Revert"
+ msgstr "Återställ"
+ 
+ #: src/select_branch_dialog.rs:64
+-msgid "Switch to Branch"
+-msgstr "Växla till gren"
++msgid "Check Out Branch"
++msgstr "Checka ut gren"
+ 
+ #: src/select_branch_dialog.rs:75
+ msgid "Branch"
+@@ -4418,12 +4064,12 @@
+ 
+ #: src/select_branch_dialog.rs:98
+ #, rust-format
+-msgid "Switch to branch “{}”?"
+-msgstr "Växla till grenen ”{}”?"
++msgid "Check out branch “{}”?"
++msgstr "Checka ut grenen ”{}”?"
+ 
+ #: src/select_branch_dialog.rs:99
+-msgid "Select a branch to switch to."
+-msgstr "Välj en gren att växla till."
++msgid "Select a branch to check out."
++msgstr "Välj en gren att checka ut."
+ 
+ #: src/select_branch_dialog.rs:104
+ msgid "You have uncommitted changes."
+@@ -4448,6 +4094,11 @@
+ msgid "New Window"
+ msgstr "Nytt fönster"
+ 
++#: src/shortcuts_dialog.rs:32
++msgctxt "shortcut window"
++msgid "Search"
++msgstr "Sök"
++
+ #: src/shortcuts_dialog.rs:34
+ msgctxt "shortcut window"
+ msgid "Add Repository"
+@@ -4463,11 +4114,21 @@
+ msgid "Keyboard Shortcuts"
+ msgstr "Tangentbordsgenvägar"
+ 
++#: src/shortcuts_dialog.rs:44
++msgctxt "shortcut window"
++msgid "Close Window"
++msgstr "Stäng fönster"
++
+ #: src/shortcuts_dialog.rs:45
+ msgctxt "shortcut window"
+ msgid "Quit"
+ msgstr "Avsluta"
+ 
++#: src/shortcuts_dialog.rs:48
++msgctxt "shortcut window"
++msgid "Repository"
++msgstr "Arkiv"
++
+ #: src/shortcuts_dialog.rs:49
+ msgctxt "shortcut window"
+ msgid "Fetch"
+@@ -4488,132 +4149,142 @@
+ msgid "Stash"
+ msgstr "Stasha"
+ 
+-#: src/shortcuts_dialog.rs:59
++#: src/shortcuts_dialog.rs:54
+ msgctxt "shortcut window"
+-msgid "Apply and Drop Latest Stash"
+-msgstr "Tillämpa och kasta senaste stash"
++msgid "Stash Including Untracked"
++msgstr "Stasha inklusive ospårade"
+ 
+-#: src/shortcuts_dialog.rs:63
++#: src/shortcuts_dialog.rs:58
++msgctxt "shortcut window"
++msgid "Pop Latest Stash"
++msgstr "Ta fram senaste stash"
++
++#: src/shortcuts_dialog.rs:59
+ msgctxt "shortcut window"
+ msgid "Create Tag"
+ msgstr "Skapa tagg"
+ 
+-#: src/shortcuts_dialog.rs:64
++#: src/shortcuts_dialog.rs:60
+ msgctxt "shortcut window"
+ msgid "Create Branch"
+ msgstr "Skapa gren"
+ 
+-#: src/shortcuts_dialog.rs:65
++#: src/shortcuts_dialog.rs:61
+ msgctxt "shortcut window"
+ msgid "Sync with Mainline"
+ msgstr "Synkronisera med huvudlinje"
+ 
+-#: src/shortcuts_dialog.rs:66
++#: src/shortcuts_dialog.rs:62
+ msgctxt "shortcut window"
+ msgid "Open in Terminal"
+ msgstr "Öppna i terminal"
+ 
+-#: src/shortcuts_dialog.rs:68
++#: src/shortcuts_dialog.rs:63
+ msgctxt "shortcut window"
+-msgid "Search Sidebar"
+-msgstr "Sök sidopanel"
++msgid "Toggle Sidebar"
++msgstr "Växla sidopanel"
+ 
+-#: src/shortcuts_dialog.rs:69
++#: src/shortcuts_dialog.rs:64
+ msgctxt "shortcut window"
+ msgid "Refresh"
+ msgstr "Uppdatera"
+ 
+-#: src/shortcuts_dialog.rs:70
+-msgctxt "shortcut window"
+-msgid "Next Search Match"
+-msgstr "Nästa sökträff"
+-
+-#: src/shortcuts_dialog.rs:71
+-msgctxt "shortcut window"
+-msgid "Previous Search Match"
+-msgstr "Föregående sökträff"
+-
+-#: src/shortcuts_dialog.rs:74 src/shortcuts_dialog.rs:77
++#: src/shortcuts_dialog.rs:67 src/shortcuts_dialog.rs:69
+ msgctxt "shortcut window"
+ msgid "Commit"
+ msgstr "Checka in"
+ 
+-#: src/shortcuts_dialog.rs:80
++#: src/shortcuts_dialog.rs:68
++msgctxt "shortcut window"
++msgid "Focus Commit Message"
++msgstr "Fokusera på incheckningsmeddelande"
++
++#: src/shortcuts_dialog.rs:72
+ msgctxt "shortcut window"
+ msgid "Changes List"
+ msgstr "Ändringslista"
+ 
+-#: src/shortcuts_dialog.rs:81
++#: src/shortcuts_dialog.rs:73
+ msgctxt "shortcut window"
+ msgid "Stage / Unstage"
+ msgstr "Köa / Ta bort från kön"
+ 
+-#: src/shortcuts_dialog.rs:82
++#: src/shortcuts_dialog.rs:74
+ msgctxt "shortcut window"
+ msgid "Discard Changes"
+ msgstr "Förkasta ändringar"
+ 
+-#: src/shortcuts_dialog.rs:84
++#: src/shortcuts_dialog.rs:76
+ msgctxt "shortcut window"
+ msgid "Cycle File Filter (All / New / Modified)"
+ msgstr "Växla filfilter (Alla / Nya / Modifierade)"
+ 
+-#: src/shortcuts_dialog.rs:89
++#: src/shortcuts_dialog.rs:81
+ msgctxt "shortcut window"
+ msgid "Recurse Untracked Directories"
+ msgstr "Gå rekursivt in i ospårade kataloger"
+ 
+-#: src/shortcuts_dialog.rs:95
++#: src/shortcuts_dialog.rs:87
+ msgctxt "shortcut window"
+ msgid "Diff"
+ msgstr "Diff"
+ 
+-#: src/shortcuts_dialog.rs:97
++#: src/shortcuts_dialog.rs:89
+ msgctxt "shortcut window"
+ msgid "Toggle Ignore Whitespace"
+ msgstr "Växla ignorera blanktecken"
+ 
+-#: src/shortcuts_dialog.rs:102
++#: src/shortcuts_dialog.rs:94
+ msgctxt "shortcut window"
+ msgid "Toggle Whole File"
+ msgstr "Växla hel fil"
+ 
+-#: src/signing_dialog.rs:95 src/signing_dialog.rs:127
++#: src/shortcuts_dialog.rs:99
++msgctxt "shortcut window"
++msgid "Switch Staged / Unstaged"
++msgstr "Växla köade / oköade"
++
++#: src/shortcuts_dialog.rs:104
++msgctxt "shortcut window"
++msgid "Maximize Diff (cycle in graph)"
++msgstr "Maximera diff (växla i graf)"
++
++#: src/signing_dialog.rs:94 src/signing_dialog.rs:126
+ #, rust-format
+ msgid "{path} (file not found)"
+ msgstr "{path} (filen hittades inte)"
+ 
+-#: src/signing_dialog.rs:97
++#: src/signing_dialog.rs:96
+ #, rust-format
+ msgid "{key} (not a valid {format} key)"
+ msgstr "{key} (inte en giltig {format}-nyckel)"
+ 
+-#: src/signing_dialog.rs:105
++#: src/signing_dialog.rs:104
+ msgid "not set (user.signingkey)"
+ msgstr "inte inställd (user.signingkey)"
+ 
+-#: src/signing_dialog.rs:113
++#: src/signing_dialog.rs:112
+ #, rust-format
+ msgid "{program} (not available on host)"
+ msgstr "{program} (inte tillgängligt på värd)"
+ 
+-#: src/signing_dialog.rs:149
++#: src/signing_dialog.rs:148
+ msgid "Format"
+ msgstr "Format"
+ 
+-#: src/signing_dialog.rs:164
++#: src/signing_dialog.rs:163
+ msgid "Key"
+ msgstr "Nyckel"
+ 
+-#: src/signing_dialog.rs:179
++#: src/signing_dialog.rs:178
+ msgid "Signer program"
+ msgstr "Signerarprogram"
+ 
+-#: src/signing_dialog.rs:194
++#: src/signing_dialog.rs:193
+ msgid "Allowed signers"
+ msgstr "Tillåtna signerare"
+ 
+-#: src/signing_dialog.rs:283
++#: src/signing_dialog.rs:282
+ msgid ""
+ "Gitte calls the host signer through `flatpak-spawn --host`. Until the host "
+ "tool is reachable, commits and tags are written unsigned."
+@@ -4621,7 +4292,7 @@
+ "Gitte anropar värdsigneraren genom `flatpak-spawn --host`. Till "
+ "värdverktyget är tillgängligt skrivs incheckningar och taggar osignerade."
+ 
+-#: src/signing_dialog.rs:288
++#: src/signing_dialog.rs:287
+ msgid ""
+ "Signing is enabled in this repository, but the signer is not properly "
+ "configured. Until that's fixed, attempts to commit or tag will fail."
+@@ -4630,7 +4301,7 @@
+ "konfigurerad. Till detta fixats kommer försök att checka in eller tagga att "
+ "misslyckas."
+ 
+-#: src/signing_dialog.rs:295
++#: src/signing_dialog.rs:294
+ msgid ""
+ "Commit and tag signing are not enabled for this repository. Commits and tags "
+ "will be written unsigned."
+@@ -4638,7 +4309,7 @@
+ "Inchecknings- och taggsignering är inte aktiverad för detta arkiv. "
+ "Incheckningar och taggar kommer skrivas osignerade."
+ 
+-#: src/signing_dialog.rs:384
++#: src/signing_dialog.rs:382
+ msgid ""
+ "Set `user.signingkey` in your git config (e.g. `git config --global "
+ "user.signingkey <KEY>`)."
+@@ -4646,12 +4317,12 @@
+ "Ställ in `user.signingkey` i din git-konfiguration (t.ex. `git config --"
+ "global user.signingkey <NYCKEL>`)."
+ 
+-#: src/signing_dialog.rs:389
++#: src/signing_dialog.rs:387
+ #, rust-format
+ msgid "The SSH key file `{path}` does not exist."
+ msgstr "SSH-nyckelfilen `{path}` finns inte."
+ 
+-#: src/signing_dialog.rs:393
++#: src/signing_dialog.rs:391
+ #, rust-format
+ msgid ""
+ "`user.signingkey` looks like a key file, but the {format} format expects a "
+@@ -4660,13 +4331,13 @@
+ "`user.signingkey` ser ut som en nyckelfil formatet {format} förväntar sig "
+ "ett nyckel-ID eller fingeravtryck."
+ 
+-#: src/signing_dialog.rs:404
++#: src/signing_dialog.rs:402
+ #, rust-format
+ msgid "Make sure `{program}` is installed on this system (Format: {format})."
+ msgstr ""
+ "Säkerställ att `{program}` är installerat på detta system (Format: {format})."
+ 
+-#: src/signing_dialog.rs:416
++#: src/signing_dialog.rs:414
+ #, rust-format
+ msgid ""
+ "The allowed signers file `{path}` is missing. Gitte can't verify your own "
+@@ -4675,35 +4346,35 @@
+ "Filen `{path}` med tillåtna signerare saknas. Gitte kan inte verifiera dina "
+ "egna signaturer förrän den finns."
+ 
+-#: src/signing_dialog.rs:447 src/signing_dialog.rs:455
++#: src/signing_dialog.rs:445 src/signing_dialog.rs:453
+ msgid "Signing Status"
+ msgstr "Signeringsstatus"
+ 
+-#: src/signing_dialog.rs:459
++#: src/signing_dialog.rs:457
+ msgid "Re-check Signing Configuration"
+ msgstr "Kontrollera signeringskonfiguration igen"
+ 
+-#: src/signing_dialog.rs:468
++#: src/signing_dialog.rs:466
+ msgid "Signing Settings…"
+ msgstr "Signeringsinställningar…"
+ 
+-#: src/signing_dialog.rs:487
++#: src/signing_dialog.rs:485
+ msgid "Signing Not Enabled"
+ msgstr "Signering inte aktiverad"
+ 
+-#: src/signing_dialog.rs:493
++#: src/signing_dialog.rs:491
+ msgid "Configure Signing…"
+ msgstr "Konfigurera signering…"
+ 
+-#: src/signing_dialog.rs:509
++#: src/signing_dialog.rs:507
+ msgid "How to fix"
+ msgstr "Hur du fixar"
+ 
+-#: src/signing_dialog.rs:517
++#: src/signing_dialog.rs:515
+ msgid "Flatpak permission"
+ msgstr "Flatpak-rättigheter"
+ 
+-#: src/signing_dialog.rs:519
++#: src/signing_dialog.rs:517
+ msgid ""
+ "Gitte reaches host tools via flatpak-spawn --host. That requires the "
+ "following permission. After running the command, restart Gitte for the "
+@@ -4713,11 +4384,11 @@
+ "följande rättighet. Starta om Gitte efter att kommandot körts för att "
+ "ändringen ska börja gälla."
+ 
+-#: src/signing_dialog.rs:525
++#: src/signing_dialog.rs:523
+ msgid "Run this command on your host"
+ msgstr "Kör detta kommando på din värd"
+ 
+-#: src/signing_dialog.rs:533
++#: src/signing_dialog.rs:531
+ msgid ""
+ "This permission allows Gitte to escape the sandbox by spawning host "
+ "processes. Only enable it if you understand the implications."
+@@ -4725,15 +4396,15 @@
+ "Denna rättighet låter Gitte komma ut ur sandlådan genom att starta "
+ "värdprocesser. Aktivera det endast om du förstår vad det medför."
+ 
+-#: src/signing_dialog.rs:555
++#: src/signing_dialog.rs:553
+ msgid "Commit signing"
+ msgstr "Incheckningssignering"
+ 
+-#: src/signing_dialog.rs:556
++#: src/signing_dialog.rs:554
+ msgid "Tag signing"
+ msgstr "Taggsignering"
+ 
+-#: src/signing_dialog.rs:578
++#: src/signing_dialog.rs:584
+ msgid "Copy to Clipboard"
+ msgstr "Kopiera till urklipp"
+ 
+@@ -4741,51 +4412,51 @@
+ msgid "Commit signing is not available. Click for details"
+ msgstr "Incheckningssignering är inte tillgänglig. Klicka för detaljer"
+ 
+-#: src/start_screen.rs:229
++#: src/start_screen.rs:227
+ msgid "Welcome to Gitte"
+ msgstr "Välkommen till Gitte"
+ 
+-#: src/start_screen.rs:230
++#: src/start_screen.rs:228
+ msgid "Ook? Add or initialize a Git repository to get started."
+ msgstr "Ook? Lägg till eller initiera ett Git-arkiv för att komma igång."
+ 
+-#: src/start_screen.rs:239 src/start_screen.rs:367
++#: src/start_screen.rs:237 src/start_screen.rs:365
+ msgid "Add Repository…"
+ msgstr "Lägg till arkiv…"
+ 
+-#: src/start_screen.rs:246 src/start_screen.rs:376
++#: src/start_screen.rs:244 src/start_screen.rs:374
+ msgid "Init Repository…"
+ msgstr "Initiera arkiv…"
+ 
+-#: src/start_screen.rs:252 src/start_screen.rs:385
++#: src/start_screen.rs:250 src/start_screen.rs:383
+ msgid "Clone Repository…"
+ msgstr "Klona arkiv…"
+ 
+-#: src/start_screen.rs:264 src/start_screen.rs:265
++#: src/start_screen.rs:262 src/start_screen.rs:263
+ msgid "Search repositories"
+ msgstr "Sök arkiv"
+ 
+-#: src/start_screen.rs:308
++#: src/start_screen.rs:306
+ msgid "Sort"
+ msgstr "Sortera"
+ 
+-#: src/start_screen.rs:316
++#: src/start_screen.rs:314
+ msgid "Favorites"
+ msgstr "Favoriter"
+ 
+-#: src/start_screen.rs:334
++#: src/start_screen.rs:332
+ msgid "All Repositories"
+ msgstr "Alla arkiv"
+ 
+-#: src/start_screen.rs:352
++#: src/start_screen.rs:350
+ msgid "Ook? No repositories match your search."
+ msgstr "Hmm? Inga arkiv matchar din sökning."
+ 
+-#: src/start_screen.rs:562 src/start_screen.rs:576
++#: src/start_screen.rs:563 src/start_screen.rs:577
+ msgid "Clone Failed"
+ msgstr "Kloning misslyckades"
+ 
+-#: src/start_screen.rs:604 src/start_screen/handlers.rs:234
++#: src/start_screen.rs:605 src/start_screen/handlers.rs:234
+ msgid "Git Initialization Failed"
+ msgstr "Git-initiering misslyckades"
+ 
+@@ -4831,7 +4502,7 @@
+ "Ange den absoluta sökvägen där Git-arkivet ska initieras. Katalogen får "
+ "existera, men den får inte redan vara ett Git-arkiv."
+ 
+-#: src/start_screen/handlers.rs:185 src/start_screen/handlers.rs:271
++#: src/start_screen/handlers.rs:185 src/start_screen/handlers.rs:270
+ #: src/submodule_row.rs:78
+ msgid "Initialize"
+ msgstr "Initiera"
+@@ -4866,72 +4537,72 @@
+ msgid "Include untracked files"
+ msgstr "Inkludera ospårade filer"
+ 
+-#: src/stashes_view.rs:360
++#: src/stashes_view.rs:331
+ msgid "No stashes"
+ msgstr "Inga stashar"
+ 
+-#: src/stashes_view.rs:361
++#: src/stashes_view.rs:332
+ msgid "You haven't stashed any changes yet"
+ msgstr "Du har inte stashat några ändringar ännu"
+ 
+-#: src/stashes_view.rs:386
++#: src/stashes_view.rs:357
+ msgid "Stash Details"
+ msgstr "Stashdetaljer"
+ 
+-#: src/stashes_view.rs:387
++#: src/stashes_view.rs:358
+ msgid "Select a stash to view its contents"
+ msgstr "Välj en stash för att se dess innehåll"
+ 
+-#: src/stashes_view.rs:866
++#: src/stashes_view.rs:828
+ msgid "File applied from stash"
+ msgstr "Fil tillämpad från stash"
+ 
+-#: src/stashes_view.rs:880
++#: src/stashes_view.rs:842
+ msgid "File popped from stash"
+ msgstr "Fil poppad från stash"
+ 
+-#: src/stashes_view.rs:894
++#: src/stashes_view.rs:856
+ msgid "Drop File from Stash?"
+ msgstr "Kasta fil från stash?"
+ 
+-#: src/stashes_view.rs:896
++#: src/stashes_view.rs:857
+ #, rust-format
+ msgid "The stashed changes to “{}” will be permanently discarded."
+ msgstr "De stashade ändringarna till ”{}” kommer kastas permanent."
+ 
+-#: src/stashes_view.rs:920
++#: src/stashes_view.rs:879
+ msgid "File dropped from stash"
+ msgstr "Fil kastad från stash"
+ 
+-#: src/stashes_view.rs:943
++#: src/stashes_view.rs:902
+ msgid "Stash applied"
+ msgstr "Stash tillämpad"
+ 
+-#: src/stashes_view.rs:972
++#: src/stashes_view.rs:931
+ msgid "Rename Stash"
+ msgstr "Byt namn på stash"
+ 
+-#: src/stashes_view.rs:975
++#: src/stashes_view.rs:934
+ msgid "Stash name"
+ msgstr "Stashnamn"
+ 
+-#: src/stashes_view.rs:983
++#: src/stashes_view.rs:942
+ msgid "Renaming moves this stash to the top of the list."
+ msgstr "Att byta namn flyttar denna stash överst i listan."
+ 
+-#: src/stashes_view.rs:1010
++#: src/stashes_view.rs:969
+ msgid "Stash renamed"
+ msgstr "Bytte namn på stash"
+ 
+-#: src/stashes_view.rs:1023
++#: src/stashes_view.rs:982
+ msgid "Drop Stash?"
+ msgstr "Kasta stash?"
+ 
+-#: src/stashes_view.rs:1024
++#: src/stashes_view.rs:983
+ msgid "This stash will be permanently deleted."
+ msgstr "Denna stash kommer tas bort permanent."
+ 
+-#: src/stashes_view.rs:1044
++#: src/stashes_view.rs:1002
+ msgid "Stash dropped"
+ msgstr "Stash kastades"
+ 
+@@ -5013,7 +4684,7 @@
+ msgid "Reload"
+ msgstr "Läs in på nytt"
+ 
+-#: src/submodules_dialog.rs:340 src/submodules_dialog.rs:675
++#: src/submodules_dialog.rs:340 src/submodules_dialog.rs:674
+ msgid "Add Submodule"
+ msgstr "Lägg till undermodul"
+ 
+@@ -5073,7 +4744,7 @@
+ msgid "Enter the new remote URL for this submodule."
+ msgstr "Ange den nya fjärr-URL:en för denna undermodul."
+ 
+-#: src/submodules_dialog.rs:575 src/submodules_dialog.rs:678
++#: src/submodules_dialog.rs:575 src/submodules_dialog.rs:677
+ msgid "https://example.com/repo.git"
+ msgstr "https://example.com/repo.git"
+ 
+@@ -5101,11 +4772,11 @@
+ msgid "The change is staged, not committed."
+ msgstr "Ändringen är köad, inte incheckad."
+ 
+-#: src/submodules_dialog.rs:647
++#: src/submodules_dialog.rs:646
+ msgid "Submodule removed"
+ msgstr "Undermodul borttagen"
+ 
+-#: src/submodules_dialog.rs:676
++#: src/submodules_dialog.rs:675
+ msgid "Enter the URL of the repository to add as a submodule."
+ msgstr "Ange den URL:en till arkivet att lägga till som en undermodul."
+ 
+@@ -5141,71 +4812,79 @@
+ msgid "syncing"
+ msgstr "synkroniserar"
+ 
+-#: src/tag_list_view.rs:101
++#: src/tag_list_view.rs:93
+ msgid "No tags"
+ msgstr "Inga taggar"
+ 
+-#: src/tree_list_view.rs:752
++#: src/tree_list_view.rs:642
+ msgid "Mainline Branch"
+ msgstr "Huvudlinjesgren"
+ 
+-#: src/ui_helpers.rs:115
++#: src/ui_helpers.rs:85
++msgid "Diff Options"
++msgstr "Diff-alternativ"
++
++#: src/ui_helpers.rs:94
+ msgid "View Options"
+ msgstr "Visningsalternativ"
+ 
+-#: src/ui_helpers.rs:254
++#: src/ui_helpers.rs:233
+ msgid "No terminal emulator found. Set a terminal command in Preferences."
+ msgstr ""
+ "Ingen terminalemulator hittades. Ställ in ett terminalkommando i "
+ "Inställningar."
+ 
+-#: src/ui_helpers.rs:262
++#: src/ui_helpers.rs:241
+ msgid "Invalid terminal command. Check the terminal command in Preferences."
+ msgstr ""
+ "Ogiltigt terminalkommando. Kontrollera terminalkommandot i Inställningar."
+ 
+-#: src/ui_helpers.rs:272
++#: src/ui_helpers.rs:251
+ #, rust-format
+ msgid "Failed to open a terminal: {}"
+ msgstr "Misslyckades med att öppna en terminal: {}"
+ 
+-#: src/ui_helpers.rs:306
++#: src/ui_helpers.rs:285
+ msgid "OK"
+ msgstr "OK"
+ 
+-#: src/ui_helpers.rs:321
++#: src/ui_helpers.rs:294
+ msgid "Copy"
+ msgstr "Kopiera"
+ 
+-#: src/ui_helpers.rs:544
++#: src/ui_helpers.rs:329
++msgid "Copied"
++msgstr "Kopierat"
++
++#: src/ui_helpers.rs:555
+ msgid "Good signature"
+ msgstr "Bra signatur"
+ 
+-#: src/ui_helpers.rs:545
++#: src/ui_helpers.rs:556
+ msgid "Good signature (untrusted key)"
+ msgstr "Bra signatur (ej betrodd nyckel)"
+ 
+-#: src/ui_helpers.rs:546
++#: src/ui_helpers.rs:557
+ msgid "Bad signature"
+ msgstr "Dålig signatur"
+ 
+-#: src/ui_helpers.rs:547
++#: src/ui_helpers.rs:558
+ msgid "Signature key not available"
+ msgstr "Signaturnyckeln är inte tillgänglig"
+ 
+-#: src/ui_helpers.rs:550
++#: src/ui_helpers.rs:561
+ msgid "Signature unverified"
+ msgstr "Signaturen är overifierad"
+ 
+-#: src/ui_helpers.rs:575
++#: src/ui_helpers.rs:586
+ msgid "verifying…"
+ msgstr "verifierar…"
+ 
+-#: src/ui_helpers.rs:581
++#: src/ui_helpers.rs:592
+ msgid "Signature"
+ msgstr "Signatur"
+ 
+-#: src/window.rs:439
++#: src/window.rs:411
+ msgid "translator-credits"
+ msgstr ""
+ "Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+@@ -5213,86 +4892,108 @@
+ "Skicka synpunkter på översättningen till\n"
+ "<tp-sv@listor.tp-sv.se>."
+ 
+-#: src/window.rs:448
++#: src/window.rs:420
+ msgid "Icons"
+ msgstr "Ikoner"
+ 
+-#: src/window_content.rs:357
++#: src/window_content.rs:338
+ msgid "A new version of Gitte is available:"
+ msgstr "En ny version av Gitte är tillgänglig:"
+ 
+-#: src/window_content.rs:440
++#: src/window_content.rs:415
+ msgid "Repository refreshed"
+ msgstr "Arkiv uppdaterat"
+ 
+-#: src/working_copy_view.rs:260 src/working_copy_view.rs:261
++#: src/working_copy_view.rs:286
++msgid "Extended commit description (optional)"
++msgstr "Utökad incheckningsbeskrivning (valfri)"
++
++#: src/working_copy_view.rs:303
++msgid "Amend Commit"
++msgstr "Utöka incheckning"
++
++#: src/working_copy_view.rs:315
++msgid "Sign Commit"
++msgstr "Signera incheckning"
++
++#: src/working_copy_view.rs:334
++msgid "Unstage All"
++msgstr "Ta bort alla ur kön"
++
++#: src/working_copy_view.rs:336
++msgid "Stage All"
++msgstr "Köa alla"
++
++#: src/working_copy_view.rs:347
++msgctxt "button"
++msgid "Amend"
++msgstr "Utöka"
++
++#: src/working_copy_view.rs:349
++msgctxt "button"
++msgid "Commit"
++msgstr "Checka in"
++
++#: src/working_copy_view.rs:373 src/working_copy_view.rs:374
+ msgid "Filter changed files"
+ msgstr "Filtrera ändrade filer"
+ 
+-#: src/working_copy_view.rs:312 src/working_copy_view/refresh.rs:289
++#: src/working_copy_view.rs:425 src/working_copy_view/refresh.rs:298
+ msgid "Show All Files"
+ msgstr "Visa alla filer"
+ 
+-#: src/working_copy_view.rs:331
+-msgid "No Changes"
++#: src/working_copy_view.rs:444
++msgid "No changes"
+ msgstr "Inga ändringar"
+ 
+-#: src/working_copy_view.rs:332
+-msgid "Your working tree is clean"
+-msgstr "Din arbetskatalog är ren"
++#: src/working_copy_view.rs:445
++msgid "Your working tree is clean."
++msgstr "Din arbetskatalog är ren."
+ 
+-#: src/working_copy_view.rs:337
++#: src/working_copy_view.rs:450
+ msgid "No matching changes"
+ msgstr "Inga matchande ändringar"
+ 
+-#: src/working_copy_view.rs:372
++#: src/working_copy_view.rs:485
+ msgid "Collapse Unstaged Changes"
+ msgstr "Fäll ihop oköade ändringar"
+ 
+-#: src/working_copy_view.rs:374
++#: src/working_copy_view.rs:487
+ msgid "Expand Unstaged Changes"
+ msgstr "Expandera oköade ändringar"
+ 
+-#: src/working_copy_view.rs:425
++#: src/working_copy_view.rs:538
+ msgid "No matching unstaged changes"
+ msgstr "Inga matchande oköade ändringar"
+ 
+-#: src/working_copy_view.rs:427
++#: src/working_copy_view.rs:540
+ msgid "No unstaged changes"
+ msgstr "Inga oköade ändringar"
+ 
+-#: src/working_copy_view.rs:460
++#: src/working_copy_view.rs:573
+ msgid "Collapse Staged Changes"
+ msgstr "Fäll ihop köade ändringar"
+ 
+-#: src/working_copy_view.rs:462
++#: src/working_copy_view.rs:575
+ msgid "Expand Staged Changes"
+ msgstr "Expandera köade ändringar"
+ 
+-#: src/working_copy_view.rs:481
++#: src/working_copy_view.rs:594
+ msgid "Staged Changes"
+ msgstr "Köade ändringar"
+ 
+-#: src/working_copy_view.rs:512
++#: src/working_copy_view.rs:625
+ msgid "No matching staged changes"
+ msgstr "Inga matchande köade ändringar"
+ 
+-#: src/working_copy_view.rs:514
++#: src/working_copy_view.rs:627
+ msgid "No staged changes"
+ msgstr "Inga köade ändringar"
+ 
+-#: src/working_copy_view.rs:523 src/working_copy_view/refresh.rs:287
++#: src/working_copy_view.rs:636 src/working_copy_view/refresh.rs:296
+ msgid "Clear Search"
+ msgstr "Töm sökning"
+ 
+-#: src/working_copy_view.rs:754
+-msgid "Commit amended"
+-msgstr "Incheckning utökad"
+-
+-#: src/working_copy_view.rs:756
+-msgid "Commit created"
+-msgstr "Incheckning skapad"
+-
+ #: src/working_copy_view/cherry_pick.rs:54
+ msgid "Abort Cherry-pick?"
+ msgstr "Avbryt cherry-pick?"
+@@ -5305,69 +5006,78 @@
+ "Pågående cherry-pick kommer förkastas och arbetskatalogen kommer återställas "
+ "till sitt föregående tillstånd."
+ 
+-#: src/working_copy_view/cherry_pick.rs:60
++#: src/working_copy_view/cherry_pick.rs:59
+ msgid "Abort Cherry-pick"
+ msgstr "Avbryt cherry-pick"
+ 
+-#: src/working_copy_view/delete.rs:57
++#: src/working_copy_view/commit.rs:81
++msgid "Specify a commit message subject to commit"
++msgstr "Ange ett ämne för incheckningsmeddelande för att checka in"
++
++#: src/working_copy_view/commit.rs:89
++msgid "No staged files to commit"
++msgstr "Inga köade filer att checka in"
++
++#: src/working_copy_view/commit.rs:164
++msgid "Commit amended"
++msgstr "Incheckning utökad"
++
++#: src/working_copy_view/commit.rs:166
++msgid "Commit created"
++msgstr "Incheckning skapad"
++
++#: src/working_copy_view/delete.rs:65
++#| msgid "Delete File?"
++#| msgid_plural "Delete Files?"
+ msgid "Delete File?"
+-msgid_plural "Delete Files?"
+-msgstr[0] "Ta bort fil?"
+-msgstr[1] "Ta bort filer?"
+-
+-#: src/working_copy_view/delete.rs:113
+-#, rust-format
+-msgid "“{}” will be removed from disk."
+-msgid_plural "{} files will be removed from disk."
+-msgstr[0] "”{}” kommer tas bort från disk."
+-msgstr[1] "{} filer kommer tas bort från disk."
++msgstr "Ta bort fil?"
+ 
+-#: src/working_copy_view/delete.rs:120
++#: src/working_copy_view/delete.rs:66
+ #, rust-format
++#| msgid "“{}” will be removed from disk and the deletion staged."
++#| msgid_plural "{} files will be removed from disk and their deletion staged."
+ msgid "“{}” will be removed from disk and the deletion staged."
+-msgid_plural "{} files will be removed from disk and their deletion staged."
+-msgstr[0] "”{}” kommer tas bort från disk och borttagningen kommer köas."
+-msgstr[1] ""
+-"{} filer kommer tas bort från disk och deras borttagning kommer köas."
++msgstr "”{}” kommer att tas bort från disken och borttagningen köas."
++
++#: src/working_copy_view/delete.rs:70
++msgid "Delete Files?"
++msgstr "Ta bort filer?"
+ 
+-#: src/working_copy_view/delete.rs:127
++#: src/working_copy_view/delete.rs:71
+ #, rust-format
+-msgid ""
+-"{} files will be removed from disk. Deletions of tracked files will be "
+-"staged."
+-msgstr ""
+-"{} filer kommer tas bort från disk. Borttagning av spårade filer kommer köas."
++msgid "{} files will be removed from disk and their deletion staged."
++msgstr "{} filer kommer att tas bort från disken och borttagningen köas."
+ 
+-#: src/working_copy_view/discard.rs:61 src/working_copy_view/discard.rs:67
++#: src/working_copy_view/discard.rs:71 src/working_copy_view/discard.rs:76
+ msgid "Discard Changes?"
+ msgstr "Förkasta ändringar?"
+ 
+-#: src/working_copy_view/discard.rs:62
++#: src/working_copy_view/discard.rs:72
+ #, rust-format
+ msgid "Changes to “{}” will be permanently lost."
+ msgstr "Ändringar till ”{}” kommer gå förlorade för alltid."
+ 
+-#: src/working_copy_view/discard.rs:68
++#: src/working_copy_view/discard.rs:77
+ #, rust-format
+ msgid "Changes to {} files will be permanently lost."
+ msgstr "Ändringar till {} filer kommer gå förlorade för alltid."
+ 
+-#: src/working_copy_view/discard.rs:81 src/working_copy_view/discard.rs:131
++#: src/working_copy_view/discard.rs:89 src/working_copy_view/discard.rs:142
+ msgid "Discard"
+ msgstr "Förkasta"
+ 
+-#: src/working_copy_view/discard.rs:128
++#: src/working_copy_view/discard.rs:140
+ msgid "Discard all changes?"
+ msgstr "Förkasta alla ändringar?"
+ 
+-#: src/working_copy_view/discard.rs:169
++#: src/working_copy_view/discard.rs:183
+ #, rust-format
+ msgid "Changes to {n} file will be permanently lost."
+ msgid_plural "Changes to {n} files will be permanently lost."
+ msgstr[0] "Ändringar till {n} fil kommer gå förlorade för alltid."
+ msgstr[1] "Ändringar till {n} filer kommer gå förlorade för alltid."
+ 
+-#: src/working_copy_view/discard.rs:179
++#: src/working_copy_view/discard.rs:193
+ msgid ""
+ "Untracked content will be removed where possible. Ignored files and nested "
+ "repositories will be kept."
+@@ -5411,24 +5121,24 @@
+ "Alla ombaserade incheckningar kommer förkastas och grenen kommer återställas "
+ "till sitt föregående tillstånd."
+ 
+-#: src/working_copy_view/rebase.rs:60
++#: src/working_copy_view/rebase.rs:59
+ msgid "Abort Rebase"
+ msgstr "Avbryt ombasering"
+ 
+-#: src/working_copy_view/refresh.rs:273
++#: src/working_copy_view/refresh.rs:282
+ #, rust-format
+ msgid "No changes match “{query}”."
+ msgstr "Inga ändringar matchar ”{query}”."
+ 
+-#: src/working_copy_view/refresh.rs:274
++#: src/working_copy_view/refresh.rs:283
+ msgid "None of your changes are new files."
+ msgstr "Inga av dina ändringar är nya filer."
+ 
+-#: src/working_copy_view/refresh.rs:275
++#: src/working_copy_view/refresh.rs:284
+ msgid "None of your changes are modified files."
+ msgstr "Inga av dina ändringar är ändrade filer."
+ 
+-#: src/working_copy_view/refresh.rs:278
++#: src/working_copy_view/refresh.rs:287
+ #, rust-format
+ msgid "No changes match “{query}” with the current filter."
+ msgstr "Inga ändringar matchar ”{query}” med aktuellt filter."
+@@ -5445,58 +5155,54 @@
+ "Den pågående återställningen kommer förkastas och arbetskatalogen kommer "
+ "återställas till sitt föregående tillstånd."
+ 
+-#: src/working_copy_view/revert.rs:55
++#: src/working_copy_view/revert.rs:54
+ msgid "Abort Revert"
+ msgstr "Avbryt återställning"
+ 
+-#: src/working_copy_view/state_banner.rs:114
+-#: src/working_copy_view/state_banner.rs:144
++#: src/working_copy_view/state_banner.rs:108
++#: src/working_copy_view/state_banner.rs:138
+ msgid "Continue"
+ msgstr "Fortsätt"
+ 
+-#: src/working_copy_view/state_banner.rs:124
+-#: src/working_copy_view/state_banner.rs:134
+-#: src/working_copy_view/state_banner.rs:154
++#: src/working_copy_view/state_banner.rs:118
++#: src/working_copy_view/state_banner.rs:128
++#: src/working_copy_view/state_banner.rs:148
+ msgid "Abort"
+ msgstr "Avbryt"
+ 
+-#: src/working_copy_view/state_banner.rs:210
++#: src/working_copy_view/state_banner.rs:187
+ msgid "Merge in progress"
+ msgstr "Sammanslagning pågår"
+ 
+-#: src/working_copy_view/state_banner.rs:211
++#: src/working_copy_view/state_banner.rs:188
+ msgid "Cherry-pick in progress"
+ msgstr "Cherry-pick pågår"
+ 
+-#: src/working_copy_view/state_banner.rs:212
++#: src/working_copy_view/state_banner.rs:189
+ msgid "Revert in progress"
+ msgstr "Återställning pågår"
+ 
+-#: src/working_copy_view/state_banner.rs:214
++#: src/working_copy_view/state_banner.rs:191
+ msgid "Rebase in progress"
+ msgstr "Ombasering pågår"
+ 
+-#: src/working_copy_view/state_banner.rs:217
++#: src/working_copy_view/state_banner.rs:192
+ msgid "Rebase paused"
+ msgstr "Ombasering pausad"
+ 
+-#: src/working_copy_view/state_banner.rs:224
++#: src/working_copy_view/state_banner.rs:199
+ msgid "Resolve conflicts and commit"
+ msgstr "Lös konflikter och checka in"
+ 
+-#: src/working_copy_view/state_banner.rs:228
++#: src/working_copy_view/state_banner.rs:203
+ msgid "Resolve conflicts, stage files, then continue"
+ msgstr "Lös konflikter, köa filer, fortsätt sedan"
+ 
+-#: src/working_copy_view/state_banner.rs:232
++#: src/working_copy_view/state_banner.rs:204
+ msgid "Recompose the commit and commit your changes, then click Continue"
+ msgstr ""
+ "Redigera incheckningen, checka in dina ändringar, klicka sedan på Fortsätt"
+ 
+-#: src/working_copy_view/state_banner.rs:236
+-msgid "Rebase paused, click Continue to proceed"
+-msgstr "Ombasering pausades, klicka på Fortsätt för att fortsätta"
+-
+ #: src/working_copy_view/types.rs:108
+ msgid "Unstaged Changes"
+ msgstr "Oköade ändringar"
+@@ -5529,39 +5235,352 @@
+ msgid "Showing modified files only"
+ msgstr "Visar endast ändrade filer"
+ 
+-#~ msgid "Workspace section expanded"
+-#~ msgstr "Arbetsytedel expanderad"
++#~ msgid "Default view when opening a repository (global default)"
++#~ msgstr "Standardvy vid öppnande av ett arkiv (globalt standardvärde)"
++
++#~ msgid ""
++#~ "Which workspace view is shown when a repository is opened: \"changes\", "
++#~ "\"current-branch\", or \"commit-graph\". Repositories can override."
++#~ msgstr ""
++#~ "Vilken arbetsytevy som visas när detta arkiv öppnas: ”changes”, ”current-"
++#~ "branch” eller ”commit-graph”. Arkiv kan åsidosätta detta."
++
++#~ msgid "Predefined commit trailers"
++#~ msgstr "Fördefinierade släprader för incheckning"
++
++#~ msgid ""
++#~ "Trailers offered in the commit form, as pairs of stable IDs and \"Token: "
++#~ "Value\" strings. \"{identity}\", \"{name}\" and \"{email}\" are replaced "
++#~ "with the committer identity; an empty value asks for the value when the "
++#~ "trailer is used."
++#~ msgstr ""
++#~ "Släprader som erbjuds i incheckningsformuläret som par av stabila ID:n "
++#~ "och ”Token: Värde”-strängar. ”{identity}”, ”{name}” och ”{email}” ersätts "
++#~ "med incheckarens identitet. Ett tomt värde gör att värdet efterfrågas "
++#~ "varje gång släpraden används."
++
++#~ msgid "Sign off commits by default"
++#~ msgstr "Sign-off på incheckningar som standard"
++
++#~ msgid ""
++#~ "Whether \"Sign Off Commit\" is enabled by default when opening this "
++#~ "repository."
++#~ msgstr ""
++#~ "Huruvida ”Sign-off på incheckning” är aktiverat som standard vid öppnande "
++#~ "av detta arkiv."
++
++#~ msgid "Enable commit trailers"
++#~ msgstr "Aktivera incheckningssläprader"
++
++#~ msgid ""
++#~ "Whether this repository shows commit trailer controls and inserts "
++#~ "configured default trailers."
++#~ msgstr ""
++#~ "Huruvida detta arkiv visar kontroller för släprader och infogar "
++#~ "konfigurerade standardsläprader."
++
++#~ msgid "Default commit trailers"
++#~ msgstr "Standardincheckningssläprader"
++
++#~ msgid ""
++#~ "Stable IDs of predefined trailers inserted into every new commit message "
++#~ "in this repository."
++#~ msgstr ""
++#~ "Stabila ID:n för fördefinierade släprader som infogas i varje nytt "
++#~ "incheckningsmeddelande i detta arkiv."
++
++#~ msgid "Default view when opening this repository"
++#~ msgstr "Standardvy när detta arkiv öppnas"
+ 
+-#~ msgid "Whether the Workspace section in the sidebar is expanded."
+-#~ msgstr "Huruvida arbetsytedelen i sidopanelen är expanderad."
++#~ msgid ""
++#~ "Which workspace view is shown when this repository is opened: \"global-"
++#~ "default\" uses the global setting, otherwise \"changes\", \"current-"
++#~ "branch\", or \"commit-graph\"."
++#~ msgstr ""
++#~ "Vilken arbetsytevy som visas när detta arkiv öppnas: ”global-default” "
++#~ "använder den globala inställningen, annars ”changes”, ”current-branch” "
++#~ "eller ”commit-graph”."
++
++#, rust-format
++#~ msgid "A file or folder named “{}” already exists at this location."
++#~ msgstr "En fil eller mapp med namnet ”{}” finns redan på denna plats."
+ 
+ #, rust-format
+-#~ msgid "Squash merge branch '{}'"
+-#~ msgstr "Platta till sammanslagningsgrenen ”{}”"
++#~ msgid ""
++#~ "The destination “{}” could not be checked. Check your access permissions."
++#~ msgstr ""
++#~ "Målet ”{}” kunde inte Kontrolleras. Kontrollera åtkomsträttigheterna."
++
++#~ msgid "Sign Off Commit"
++#~ msgstr "Sign-off på incheckning"
++
++#~ msgid "Add a Signed-off-by trailer with your identity"
++#~ msgstr "Lägg till en Signed-off-by-släprad med din identitet"
++
++#~ msgid "Enter a subject to amend"
++#~ msgstr "Ange ett ämne att utöka"
++
++#~ msgid "Stage changes and enter a subject to commit"
++#~ msgstr "Köa ändringar och ange ett ämne för att checka in"
++
++#~ msgid "No Git identity configured (user.name and user.email)"
++#~ msgstr "Ingen Git-identitet konfigurerad (user.name och user.email)"
++
++#~ msgid "Copy Commit Message"
++#~ msgstr "Kopiera incheckningsmeddelande"
++
++#~ msgid "The match is outside the graph."
++#~ msgstr "Matchningen är utanför grafen."
++
++#, rust-format
++#~ msgid "Searching… ({count})"
++#~ msgstr "Söker… ({count})"
++
++#, rust-format
++#~ msgid "{count} result"
++#~ msgid_plural "{count} results"
++#~ msgstr[0] "{count} resultat"
++#~ msgstr[1] "{count} resultat"
++
++#, rust-format
++#~ msgid "{position} / {total}"
++#~ msgstr "{position} / {total}"
++
++#~ msgid "file:path author:name since:date text"
++#~ msgstr "file:sökväg author:namn since:datumtext"
++
++#~ msgid "Previous Match"
++#~ msgstr "Föregående matchning"
+ 
+-#~ msgid "Search Syntax Help"
+-#~ msgstr "Hjälp för söksyntax"
++#~ msgid "Next Match"
++#~ msgstr "Nästa matchning"
+ 
+-#~ msgid "Search Syntax"
+-#~ msgstr "Söksyntax"
++#~ msgid "Commit Trailers…"
++#~ msgstr "Incheckningssläprader…"
+ 
+-#~ msgid "<tt>file:src/main.rs</tt>: commits that changed this file"
+-#~ msgstr "<tt>file:src/main.rs</tt>: incheckningar som ändrade denna fil"
++#~ msgid "Add Trailer"
++#~ msgstr "Lägg till släprad"
+ 
+-#~ msgid "<tt>author:Name</tt>: commits by author (substring match)"
++#~ msgid "Token: Value"
++#~ msgstr "Token: Värde"
++
++#~ msgid "Manage Commit Trailers…"
++#~ msgstr "Hantera incheckningssläprader…"
++
++#, rust-format
++#~ msgid "Manage Commit Trailers… ({n} trailer)"
++#~ msgid_plural "Manage Commit Trailers… ({n} trailers)"
++#~ msgstr[0] "Hantera incheckningssläprader… ({n} släprad)"
++#~ msgstr[1] "Hantera incheckningssläprader… ({n} släprader)"
++
++#~ msgid "Enter a trailer as “Token: Value”"
++#~ msgstr "Ange en släprad som ”Token: Värde”"
++
++#~ msgid "Enter a value for the trailer"
++#~ msgstr "Ange ett värde för släpraden"
++
++#~ msgid ""
++#~ "Configure your Git identity (user.name and user.email) to use this trailer"
+ #~ msgstr ""
+-#~ "<tt>author:Name</tt>: incheckningar av författare (delsträngsmatchning)"
++#~ "Konfigurera din Git-identitet (user.name och user.email) att använda "
++#~ "denna släprad"
++
++#~ msgid ""
++#~ "Staging part of this file marks the entire file as resolved. Other "
++#~ "changes remain unstaged."
++#~ msgstr ""
++#~ "Att köa en del av denna fil markerar hela filen som löst. Andra ändringar "
++#~ "förblir oköade."
++
++#~ msgid "File Changes"
++#~ msgstr "Filändringar"
++
++#~ msgid "Copy Checksum"
++#~ msgstr "Kopiera kontrollsumma"
++
++#~ msgid "Actions unavailable until the diff is refreshed"
++#~ msgstr "Åtgärder otillgängliga till diffen har uppdaterats"
++
++#~ msgid "Open Recent"
++#~ msgstr "Öppna senaste"
++
++#~ msgid "Close Repository"
++#~ msgstr "Stäng arkiv"
++
++#~ msgid "File"
++#~ msgstr "Arkiv"
++
++#~ msgid "View"
++#~ msgstr "Visa"
++
++#~ msgctxt "shortcut window"
++#~ msgid "Toggle Amend Commit"
++#~ msgstr "Välxa utökning av incheckning"
++
++#~ msgid "Apply and Drop _Latest Stash"
++#~ msgstr "Tillämpa och kasta _senaste stash"
++
++#~ msgid "Help"
++#~ msgstr "Hjälp"
++
++#~ msgid "_Delete Branch…"
++#~ msgstr "_Ta bort gren…"
+ 
+-#~ msgid "<tt>since:2024-01-15</tt>: commits after this date"
+-#~ msgstr "<tt>since:2024-01-15</tt>: incheckningar efter detta datum"
++#~ msgid "S_witch to Branch…"
++#~ msgstr "Vä_xla till gren…"
+ 
+-#~ msgid "<tt>until:2024-06-01</tt>: commits before this date"
+-#~ msgstr "<tt>until:2024-06-01</tt>: incheckningar före detta datum"
++#~ msgid "S_witch to Branch"
++#~ msgstr "Vä_xla till gren"
+ 
++#~ msgid "Check _Out Detached…"
++#~ msgstr "Checka _ut frånkopplad…"
++
++#~ msgid "Check _Out Detached"
++#~ msgstr "Checka _ut frånkopplad"
++
++#~ msgid "A_pply and Drop"
++#~ msgstr "_Tillämpa och kasta"
++
++#~ msgid "Check _Out Commit Detached…"
++#~ msgstr "Checka _ut incheckning frånkopplad…"
++
++#~ msgid "_Reword Commit Message…"
++#~ msgstr "Omformulera _incheckningsmeddelande…"
++
++#~ msgid "A_pply and Drop This File"
++#~ msgstr "_Tillämpa och kasta denna fil"
++
++#~ msgid "Uses your Git identity"
++#~ msgstr "Använder din Git-identitet"
++
++#, rust-format
++#~ msgid "Fixed value: {value}"
++#~ msgstr "Fast värde: {value}"
++
++#~ msgid "Default Repository View"
++#~ msgstr "Standardarkivvy"
++
++#~ msgid "The view a repository opens with"
++#~ msgstr "Vyn ett arkiv öppnas med"
++
++#~ msgid "Commit Trailers"
++#~ msgstr "Incheckningssläprader"
++
++#, rust-format
+ #~ msgid ""
+-#~ "<tt>since:2w</tt> / <tt>3months</tt> / <tt>1year</tt>: relative dates"
++#~ "Trailers offered in the commit form. Enter “Token: Value”. Use {identity} "
++#~ "for your Git identity ({name} and {email} are also available), e.g. "
++#~ "“Reviewed-by: {identity}”. Leave the value empty to be asked for it each "
++#~ "time, e.g. “Fixes:”."
+ #~ msgstr ""
+-#~ "<tt>since:2w</tt> / <tt>3months</tt> / <tt>1year</tt>: relativa datum"
++#~ "Släprader som erbjuds i incheckningsformuläret. Ange ”Token: Värde”. "
++#~ "Använd {identity} för din Git-identitet ({name} och {email} finns också "
++#~ "tillgängliga), t.ex. ”Reviewed-by: {identity}”. Lämna värdet tomt för att "
++#~ "få det efterfrågat varje gång, t.ex. ”Fixes:”."
++
++#~ msgid "Configured Trailers"
++#~ msgstr "Konfigurerade släprader"
++
++#~ msgid "No trailers configured."
++#~ msgstr "Inga släprader konfigurerade."
++
++#~ msgid "Preferences specific to this repository."
++#~ msgstr "Inställningar som är specifika för detta arkiv."
++
++#~ msgid "Default View"
++#~ msgstr "Standardvy"
++
++#~ msgid "Sign Off Commits by Default"
++#~ msgstr "Sign-off på incheckningar som standard"
++
++#~ msgid "Preselect “Sign Off Commit” when opening this repository"
++#~ msgstr "Förvälj ”Sign-off på incheckning” vid öppnande av detta arkiv"
++
++#~ msgid "Use Commit Trailers"
++#~ msgstr "Använd incheckningssläprader"
++
++#~ msgid "Show controls for adding trailers to commit messages"
++#~ msgstr ""
++#~ "Visa kontroller för att lägga till släprader till incheckningsmeddelanden"
++
++#~ msgid "Default Trailers"
++#~ msgstr "Standardsläprader"
++
++#~ msgid "Preselect these trailers for new commits."
++#~ msgstr "Förvälj dessa släprader för nya incheckningar."
++
++#~ msgid "Inserted as is"
++#~ msgstr "Infogas som det är"
++
++#~ msgid "Asks for a value"
++#~ msgstr "Frågar efter ett värde"
++
++#~ msgid "Trailer"
++#~ msgstr "Släprad"
++
++#~ msgid "Remove Trailer"
++#~ msgstr "Ta bort släprad"
++
++#~ msgid "Rebase paused unexpectedly, click Continue to proceed"
++#~ msgstr "Ombasering pausades oväntat, klicka på Fortsätt för att fortsätta"
++
++#~ msgid "Rebase paused, amend the commit, then click Continue"
++#~ msgstr "Ombasering pausad, utöka inchechningen, klicka sedan på Fortsätt"
++
++#~ msgid "Filter references"
++#~ msgstr "Filtrera referenser"
++
++#~ msgid "No matching references"
++#~ msgstr "Inga matchande referenser"
++
++#~ msgid "Switch to Branch"
++#~ msgstr "Växla till gren"
++
++#, rust-format
++#~ msgid "Switch to branch “{}”?"
++#~ msgstr "Växla till grenen ”{}”?"
++
++#~ msgid "Select a branch to switch to."
++#~ msgstr "Välj en gren att växla till."
++
++#~ msgctxt "shortcut window"
++#~ msgid "Apply and Drop Latest Stash"
++#~ msgstr "Tillämpa och kasta senaste stash"
++
++#~ msgctxt "shortcut window"
++#~ msgid "Search Sidebar"
++#~ msgstr "Sök sidopanel"
++
++#~ msgctxt "shortcut window"
++#~ msgid "Next Search Match"
++#~ msgstr "Nästa sökträff"
++
++#~ msgctxt "shortcut window"
++#~ msgid "Previous Search Match"
++#~ msgstr "Föregående sökträff"
++
++#~ msgid "No Changes"
++#~ msgstr "Inga ändringar"
++
++#~ msgid "Your working tree is clean"
++#~ msgstr "Din arbetskatalog är ren"
++
++#, rust-format
++#~ msgid "“{}” will be removed from disk."
++#~ msgid_plural "{} files will be removed from disk."
++#~ msgstr[0] "”{}” kommer tas bort från disk."
++#~ msgstr[1] "{} filer kommer tas bort från disk."
++
++#, rust-format
++#~ msgid ""
++#~ "{} files will be removed from disk. Deletions of tracked files will be "
++#~ "staged."
++#~ msgstr ""
++#~ "{} filer kommer tas bort från disk. Borttagning av spårade filer kommer "
++#~ "köas."
++
++#~ msgid "Rebase paused, click Continue to proceed"
++#~ msgstr "Ombasering pausades, klicka på Fortsätt för att fortsätta"
+ 
+ #~ msgid ""
+ #~ "<tt>commit:abc1234</tt> / <tt>id:abc1234</tt>: commits with this ID "
+@@ -5583,46 +5602,9 @@
+ #~ "värden av <tt>file:</tt>, <tt>author:</tt> eller <tt>commit:</tt> (alias "
+ #~ "<tt>id:</tt>) kombineras med OR; olika nyckelord kombineras med AND."
+ 
+-#~ msgid "Searching"
+-#~ msgstr "Söker"
+-
+-#~ msgid "Results"
+-#~ msgstr "Resultat"
+-
+ #~ msgid "Repository View"
+ #~ msgstr "Arkivvy"
+ 
+-#~ msgid "S_witch…"
+-#~ msgstr "_Växla…"
+-
+-#~ msgid "S_witch"
+-#~ msgstr "_Växla"
+-
+-#~ msgid "Check _Out…"
+-#~ msgstr "Checka _ut…"
+-
+-#~ msgid "Check _Out"
+-#~ msgstr "Checka _ut"
+-
+-#~ msgid "_Pop"
+-#~ msgstr "_Poppa"
+-
+-#~ msgid "Cherry-_pick…"
+-#~ msgstr "Cherry-_pick…"
+-
+-#~ msgid "_Pop This File"
+-#~ msgstr "_Poppa denna fil"
+-
+-#, rust-format
+-#~ msgid "Check out branch “{}”?"
+-#~ msgstr "Checka ut grenen ”{}”?"
+-
+-#~ msgid "Delete Files?"
+-#~ msgstr "Ta bort filer?"
+-
+-#~ msgid "_Back to Repositories"
+-#~ msgstr "Till_baka till arkiv"
+-
+ #, rust-format
+ #~ msgid "{m} untracked file will be deleted."
+ #~ msgid_plural "{m} untracked files will be deleted."
