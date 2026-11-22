@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 08:29 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 08:30 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -180,7 +180,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [ptyxis](https://l10n.gnome.org/vertimus/ptyxis/gnome-47/po/sv/) | gnome-47 | 403 | 0 | 1 | Behöver arbete | Klar lokalt (2026-11-22): En oöversatt egennamnspost och två konkreta citatteckensfel i befintlig svenska är rättade och lokalt validerade. [original](ptyxis/gnome-47/po/ptyxis.gnome-47.sv.original.po), [granskad](ptyxis/gnome-47/po/ptyxis.gnome-47.sv.reviewed.po), [diff](ptyxis/gnome-47/po/ptyxis.gnome-47.sv.review.diff), [notering](ptyxis/gnome-47/po/README.md) |
 | Gränssnitt | Default (99% translated) | [ptyxis](https://l10n.gnome.org/vertimus/ptyxis/gnome-46/po/sv/) | gnome-46 | 395 | 0 | 1 | Behöver arbete | Klar lokalt (2026-11-22): En oöversatt egennamnspost och två konkreta citatteckensfel i befintlig svenska är rättade och lokalt validerade. [original](ptyxis/gnome-46/po/ptyxis.gnome-46.sv.original.po), [granskad](ptyxis/gnome-46/po/ptyxis.gnome-46.sv.reviewed.po), [diff](ptyxis/gnome-46/po/ptyxis.gnome-46.sv.review.diff), [notering](ptyxis/gnome-46/po/README.md) |
 | Gränssnitt | Default (99% translated) | [sushi](https://l10n.gnome.org/vertimus/sushi/main/po/sv/) | main | 23 | 0 | 1 | Behöver arbete | Klar lokalt (2026-11-22): Den enda oöversatta strängen är översatt och validerad lokalt; inget har skickats till GNOME. [original](sushi/main/po/sushi.main.sv.original.po), [granskad](sushi/main/po/sushi.main.sv.reviewed.po), [diff](sushi/main/po/sushi.main.sv.review.diff), [notering](sushi/main/po/README.md) |
-| Gränssnitt | Default (99% translated) | [fractal](https://l10n.gnome.org/vertimus/fractal/main/po/sv/) | main | 1037 | 8 | 0 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [fractal](https://l10n.gnome.org/vertimus/fractal/main/po/sv/) | main | 1037 | 8 | 0 | Behöver arbete | Klar lokalt (2026-11-22): Alla aktuella fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](fractal/main/po/fractal.main.sv.original.po), [granskad](fractal/main/po/fractal.main.sv.reviewed.po), [diff](fractal/main/po/fractal.main.sv.review.diff), [notering](fractal/main/po/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/gimp-keys/sv/) | master | 255 | 7 | 0 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-terminal](https://l10n.gnome.org/vertimus/gnome-terminal/gnome-46/help/sv/) | gnome-46 | 490 | 6 | 0 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [fractal](https://l10n.gnome.org/vertimus/fractal/fractal-13/po/sv/) | fractal-13 | 1019 | 5 | 0 | Behöver arbete | Ej granskad |
