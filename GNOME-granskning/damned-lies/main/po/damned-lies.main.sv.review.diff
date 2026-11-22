@@ -1,0 +1,302 @@
+--- damned-lies.main.sv.original.po
++++ damned-lies.main.sv.reviewed.po
+@@ -11,8 +11,8 @@
+ "Project-Id-Version: damned-lies\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2026-11-18 09:26+0000\n"
+-"PO-Revision-Date: 2026-10-02 22:29+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -2184,10 +2184,8 @@
+ msgstr "Datum"
+ 
+ #: languages/templates/languages/language_release_stats.html:83
+-#, fuzzy, python-format
+-#| msgid "%(categname)s (%(percentage)s%% translated)"
+ msgid "%(category_name)s (%(percentage)s%% translated)"
+-msgstr "%(categname)s (%(percentage)s%% översatt)"
++msgstr "%(category_name)s (%(percentage)s%% översatt)"
+ 
+ #. Translators: flag to indicate that the category is priority
+ #: languages/templates/languages/language_release_stats.html:87
+@@ -3199,10 +3197,8 @@
+ msgstr "Länkkontroll"
+ 
+ #: stats/admin.py:113
+-#, fuzzy
+-#| msgid "Profile"
+ msgid "DOAP file"
+-msgstr "Profil"
++msgstr "DOAP-fil"
+ 
+ #: stats/admin.py:170
+ msgid "Branches without release"
+@@ -3249,7 +3245,7 @@
+ 
+ #: stats/apps.py:9
+ msgid "Application catalog"
+-msgstr ""
++msgstr "Programkatalog"
+ 
+ #. Translators: this is a property of a branch. It means the branch cannot accept translations.
+ #: stats/forms.py:74 stats/models/modules.py:476
+@@ -3289,15 +3285,9 @@
+ msgstr "Fel vid tillägg av grenen ”%(branch_name)s”: %(error)s"
+ 
+ #: stats/forms.py:353
+-#, fuzzy
+-#| msgid ""
+-#| "Opening a merge or pull request is only supported on GitLab and GitHub. "
+-#| "Set the forge, or switch the push action to direct push."
+ msgid ""
+ "Opening a merge or pull request is not supported for the selected forge."
+-msgstr ""
+-"Att öppna en merge- eller pull-förfrågan stöds endast på GitLab och GitHub. "
+-"Ställ in smedjan, eller växla sändåtgärden till direkt ”push”."
++msgstr "Det går inte att öppna en merge- eller pull-begäran för den valda smedjan."
+ 
+ #: stats/forms.py:381
+ #, python-format
+@@ -3306,7 +3296,7 @@
+ 
+ #: stats/forms.py:397
+ msgid "Content of the DOAP file of your module."
+-msgstr ""
++msgstr "Innehållet i DOAP-filen för din modul."
+ 
+ #. Translators: this is the name of a forge hosting a module's repository.
+ #: stats/models/modules.py:85
+@@ -3509,30 +3499,24 @@
+ msgstr "Resultat av senaste länkkontroll, som ett JSON-objekt."
+ 
+ #: stats/models/modules.py:228
+-#, fuzzy
+-#| msgid "Link check date"
+ msgid "DOAP check date"
+-msgstr "Datum för länkkontroll"
++msgstr "Datum för DOAP-kontroll"
+ 
+ #: stats/models/modules.py:232
+-#, fuzzy
+-#| msgid "The date and time when the module’s links were last checked."
+ msgid "The date and time when the module’s .doap file was last loaded."
+-msgstr "Datum och tid när modulens länkar senast kontrollerades."
++msgstr "Datum och tid då modulens .doap-fil senast lästes in."
+ 
+ #: stats/models/modules.py:235
+-#, fuzzy
+-#| msgid "Link check result"
+ msgid "DOAP check result"
+-msgstr "Resultat av länkkontroll"
++msgstr "Resultat av DOAP-kontroll"
+ 
+ #: stats/models/modules.py:239
+ msgid "The problems found the last time the module’s .doap file was loaded."
+-msgstr ""
++msgstr "Problemen som hittades när modulens .doap-fil senast lästes in."
+ 
+ #: stats/models/modules.py:252
+ msgid "This name generates a slug that is already in use."
+-msgstr ""
++msgstr "Det här namnet ger en slug som redan används."
+ 
+ #: stats/models/modules.py:256
+ msgid ""
+@@ -3915,20 +3899,18 @@
+ msgstr "Kunde inte skapa GitLab-ärende."
+ 
+ #: stats/services/modules/doap.py:57
+-#, fuzzy
+-#| msgid "This domain is not a documentation domain."
+ msgid "The .doap file is not a valid XML document."
+-msgstr "Denna domän är inte en dokumentationsdomän."
++msgstr ".doap-filen är inte ett giltigt XML-dokument."
+ 
+ #: stats/services/modules/doap.py:58
+ msgid "The .doap file does not list any maintainer."
+-msgstr ""
++msgstr ".doap-filen listar ingen underhållare."
+ 
+ #. Translators: keep “foaf:name” as is, it is the name of an element in the .doap file.
+ #: stats/services/modules/doap.py:61
+ msgid ""
+ "A maintainer has no name (foaf:name), so they were not added to the module."
+-msgstr ""
++msgstr "En underhållare saknar namn (foaf:name) och lades därför inte till i modulen."
+ 
+ #. Translators: keep “foaf:mbox” as is, it is the name of an element in the .doap file.
+ #. %(name)s is the name of the maintainer.
+@@ -3937,7 +3919,7 @@
+ msgid ""
+ "The maintainer %(name)s has no email (foaf:mbox), so they were not added to "
+ "the module."
+-msgstr ""
++msgstr "Underhållaren %(name)s saknar e-postadress (foaf:mbox) och lades därför inte till i modulen."
+ 
+ #: stats/services/refresh/pot_file.py:52
+ msgid ""
+@@ -4201,19 +4183,13 @@
+ 
+ #: stats/services/statistics/po_file_statistics.py:80
+ msgid "No PO file was provided to update statistics."
+-msgstr ""
++msgstr "Ingen PO-fil angavs för att uppdatera statistiken."
+ 
+ #: stats/services/statistics/po_file_statistics.py:101
+-#, fuzzy, python-format
+-#| msgid ""
+-#| "Error while updating statistics using “%(file_path)”. The file may not "
+-#| "exist on disk or is unreadable."
+ msgid ""
+ "Error while updating statistics using “%(file_path)s”. The file may not "
+ "exist on disk or is unreadable."
+-msgstr ""
+-"Fel vid uppdatering av statistik med ”%(file_path)”. Filen kanske inte finns "
+-"på disk eller är oläsbar."
++msgstr "Fel vid uppdatering av statistik med ”%(file_path)s”. Filen kanske inte finns på disken eller är oläsbar."
+ 
+ #: stats/templates/_includes/module_archive_warning_message.html:3
+ msgid ""
+@@ -4251,7 +4227,7 @@
+ msgid ""
+ "Some information in the .doap file of this module could not be used, so the "
+ "module details on this page may be incomplete."
+-msgstr ""
++msgstr "Viss information i modulens .doap-fil kunde inte användas, så moduluppgifterna på denna sida kan vara ofullständiga."
+ 
+ #: stats/templates/_includes/module_doap_problems_warning_message.html:23
+ #, python-format
+@@ -4259,12 +4235,12 @@
+ "Module maintainers can fix this by updating the .doap file in the module’s "
+ "repository. They can <a href=\"%(doap_check_url)s\">check the new file</a> "
+ "before pushing it."
+-msgstr ""
++msgstr "Modulunderhållare kan rätta till detta genom att uppdatera .doap-filen i modulens källförråd. De kan <a href=\\\"%(doap_check_url)s\\\">kontrollera den nya filen</a> före uppladdning."
+ 
+ #: stats/templates/_includes/module_doap_problems_warning_message.html:29
+ #, python-format
+ msgid "Last check of the .doap file: %(check_date)s"
+-msgstr ""
++msgstr "Senaste kontroll av .doap-filen: %(check_date)s"
+ 
+ #: stats/templates/_includes/module_maintainer_suggestions.html:4
+ msgid "Modules I maintain"
+@@ -4306,11 +4282,11 @@
+ 
+ #: stats/templates/doap_check.html:4
+ msgid "Check your DOAP"
+-msgstr ""
++msgstr "Kontrollera din DOAP"
+ 
+ #: stats/templates/doap_check.html:7
+ msgid "Check and Validate a <code>.doap</code> File"
+-msgstr ""
++msgstr "Kontrollera och validera en <code>.doap</code>-fil"
+ 
+ #: stats/templates/doap_check.html:9
+ #, python-format
+@@ -4321,51 +4297,47 @@
+ "and what it cannot use. Nothing is saved. Read the documentation about the "
+ "<a href=\"%(url)s\">DOAP file Formatting</a> in case you need more "
+ "information."
+-msgstr ""
++msgstr "Damned Lies läser underhållare, webbplats och felrapporteringssystem för en modul från <code>.doap</code>-filen i källförrådets rot. Klistra in filens innehåll nedan för att se vad Damned Lies skulle läsa från den och vad som inte kan användas. Ingenting sparas. Läs dokumentationen om <a href=\\\"%(url)s\\\">formatering av DOAP-filer</a> om du behöver mer information."
+ 
+ #: stats/templates/doap_check.html:21
+ msgid "Some information in this DOAP cannot be used:"
+-msgstr ""
++msgstr "Viss information i denna DOAP kan inte användas:"
+ 
+ #: stats/templates/doap_check.html:32
+ msgid "No problem found in this DOAP."
+-msgstr ""
++msgstr "Inga problem hittades i denna DOAP."
+ 
+ #: stats/templates/doap_check.html:39
+ msgid "Validate and check DOAP"
+-msgstr ""
++msgstr "Validera och kontrollera DOAP"
+ 
+ #: stats/templates/doap_check.html:45
+ msgid "Information Extracted from the DOAP File"
+-msgstr ""
++msgstr "Information extraherad från DOAP-filen"
+ 
+ #. Translators: module maintainers found in the DOAP file
+ #: stats/templates/doap_check.html:48
+-#, fuzzy
+-#| msgid "Module maintenance"
+ msgid "Responsible for Maintenance"
+-msgstr "Modulunderhåll"
++msgstr "Ansvarig för underhåll"
+ 
+ #: stats/templates/doap_check.html:60
+ msgctxt "DOAP maintainer"
+ msgid "None"
+-msgstr ""
++msgstr "Ingen"
+ 
+ #: stats/templates/doap_check.html:68
+ msgctxt "DOAP homepage"
+ msgid "None"
+-msgstr ""
++msgstr "Ingen"
+ 
+ #: stats/templates/doap_check.html:71
+-#, fuzzy
+-#| msgid "Bug Tracker"
+ msgid "Bug tracker"
+-msgstr "Bugg-uppföljningssystem"
++msgstr "Felrapporteringssystem"
+ 
+ #: stats/templates/doap_check.html:76
+ msgctxt "DOAP bug tracker"
+ msgid "None"
+-msgstr ""
++msgstr "Ingen"
+ 
+ #: stats/templates/freeze-notification.txt:8
+ #, python-format
+@@ -4581,7 +4553,7 @@
+ 
+ #: stats/templates/module_list.html:80
+ msgid "Check and Validate a <code>.doap</code> File."
+-msgstr ""
++msgstr "Kontrollera och validera en <code>.doap</code>-fil."
+ 
+ #: stats/templates/module_list.html:84
+ msgid "Archived modules"
+@@ -5822,10 +5794,8 @@
+ msgstr "Logga ut"
+ 
+ #: translation/services/documentation.py:51
+-#, fuzzy, python-format
+-#| msgid "Unable to find a makefile for module %s"
+ msgid "Unable to find a documentation directory for module %s"
+-msgstr "Kunde inte hitta en makefil för modulen %s"
++msgstr "Kunde inte hitta någon dokumentationskatalog för modulen %s"
+ 
+ #: translation/services/documentation.py:89
+ msgid "Unable to find doc source files for this module."
+@@ -5876,7 +5846,7 @@
+ #: translation/services/generation.py:223
+ #, python-format
+ msgid "The command used to generate a POT file time out after %d seconds"
+-msgstr ""
++msgstr "Kommandot som används för att generera en POT-fil fick tidsgränsen överskriden efter %d sekunder"
+ 
+ #: translation/services/generation.py:227
+ #, python-format
+@@ -6084,7 +6054,7 @@
+ 
+ #: vertimus/listeners.py:93
+ msgid "Reservation cancelled: this person left the team."
+-msgstr ""
++msgstr "Reservationen avbröts: personen lämnade laget."
+ 
+ #: vertimus/models.py:94
+ msgid "URL of the Merge Request"
