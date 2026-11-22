@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 08:19 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 08:20 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -162,7 +162,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [Graphs](https://l10n.gnome.org/vertimus/graphs/v1.7.x/po/sv/) | v1.7.x | 371 | 0 | 2 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-calculator](https://l10n.gnome.org/vertimus/gnome-calculator/main/help/sv/) | main | 398 | 4 | 1 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [brasero](https://l10n.gnome.org/vertimus/brasero/gnome-3-8/po/sv/) | gnome-3-8 | 974 | 2 | 1 | Behöver arbete | Ej granskad |
-| Gränssnitt | Default (99% translated) | [oo7](https://l10n.gnome.org/vertimus/oo7/main/oo7-server/sv/) | main | 14 | 2 | 1 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [oo7](https://l10n.gnome.org/vertimus/oo7/main/oo7-server/sv/) | main | 14 | 2 | 1 | Behöver arbete | Klar lokalt (2026-11-22): Alla aktuella oöversatta och fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](oo7/main/oo7-server/oo7.main.oo7-server.sv.original.po), [granskad](oo7/main/oo7-server/oo7.main.oo7-server.sv.reviewed.po), [diff](oo7/main/oo7-server/oo7.main.oo7-server.sv.review.diff), [notering](oo7/main/oo7-server/README.md) |
 | Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/master/po-libgimp/sv/) | master | 673 | 1 | 1 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-initial-setup](https://l10n.gnome.org/vertimus/gnome-initial-setup/main/po/sv/) | main | 143 | 1 | 1 | Behöver arbete | Klar lokalt (2026-11-22): En UI-lucka och en fuzzy-sträng är lokalt validerade. [original](gnome-initial-setup/main/po/gnome-initial-setup.main.sv.original.po), [granskad](gnome-initial-setup/main/po/gnome-initial-setup.main.sv.reviewed.po), [diff](gnome-initial-setup/main/po/gnome-initial-setup.main.sv.review.diff), [notering](gnome-initial-setup/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gstreamer](https://l10n.gnome.org/vertimus/gstreamer/main/plugins-base/sv/) | main | 236 | 1 | 1 | Behöver arbete | Klar lokalt (2026-11-22): Kärnkatalogens fem luckor och fuzzy-sträng är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](gstreamer/main/po/gstreamer.main.sv.original.po), [granskad](gstreamer/main/po/gstreamer.main.sv.reviewed.po), [diff](gstreamer/main/po/gstreamer.main.sv.review.diff), [notering](gstreamer/main/po/README.md) |
