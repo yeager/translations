@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 06:56 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 06:59 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -208,7 +208,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [gnome-terminal](https://l10n.gnome.org/vertimus/gnome-terminal/gnome-50/po/sv/) | gnome-50 | 532 | 1 | 0 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-text-editor](https://l10n.gnome.org/vertimus/gnome-text-editor/main/help/sv/) | main | 64 | 1 | 0 | Behöver arbete | Klar lokalt (2026-11-22): Den enda fuzzy posten var en icke-visad Mallard-mediehash; den är synkroniserad och lokalt validerad. [original](gnome-text-editor/main/help/gnome-text-editor-help.main.sv.original.po), [granskad](gnome-text-editor/main/help/gnome-text-editor-help.main.sv.reviewed.po), [diff](gnome-text-editor/main/help/gnome-text-editor-help.main.sv.review.diff), [notering](gnome-text-editor/main/help/README.md) |
 | Gränssnitt | Default (99% translated) | [gnote](https://l10n.gnome.org/vertimus/gnote/master/po/sv/) | master | 556 | 1 | 0 | Behöver arbete | Validering återstår (2026-11-22): Lokal ändring arkiverad; ett befintligt acceleratorfel och fyra lintvarningar återstår. [original](gnote/master/po/gnote.master.sv.original.po), [granskad](gnote/master/po/gnote.master.sv.reviewed.po), [diff](gnote/master/po/gnote.master.sv.review.diff), [notering](gnote/master/po/README.md) |
-| Dokumentation | Default (71% translated) | [gucharmap](https://l10n.gnome.org/vertimus/gucharmap/unicode-11/help/sv/) | unicode-11 | 128 | 1 | 0 | Behöver arbete | Ej granskad |
+| Dokumentation | Default (71% translated) | [gucharmap](https://l10n.gnome.org/vertimus/gucharmap/unicode-11/help/sv/) | unicode-11 | 128 | 1 | 0 | Behöver arbete | Klar lokalt (2026-11-22): Den enda fuzzy posten var en icke-visad DocBook-bildhash; den är synkroniserad och lokalt validerad. [original](gucharmap/unicode-11/help/gucharmap-help.unicode-11.sv.original.po), [granskad](gucharmap/unicode-11/help/gucharmap-help.unicode-11.sv.reviewed.po), [diff](gucharmap/unicode-11/help/gucharmap-help.unicode-11.sv.review.diff), [notering](gucharmap/unicode-11/help/README.md) |
 | Gränssnitt | Default (99% translated) | [libgda](https://l10n.gnome.org/vertimus/libgda/LIBGDA_5.2/po/sv/) | LIBGDA_5.2 | 2088 | 1 | 0 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [p11-kit](https://l10n.gnome.org/vertimus/p11-kit/master/po/sv/) | master | 0 | 1 | 0 | Behöver arbete | Klar lokalt (2026-11-22): Fuzzy-strängen är granskad och validerad lokalt; inget har skickats till GNOME. [original](p11-kit/master/po/p11-kit.master.sv.original.po), [granskad](p11-kit/master/po/p11-kit.master.sv.reviewed.po), [diff](p11-kit/master/po/p11-kit.master.sv.review.diff), [notering](p11-kit/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [pika-backup](https://l10n.gnome.org/vertimus/pika-backup/v0.6.x/po/sv/) | v0.6.x | 457 | 1 | 0 | Behöver arbete | Ej granskad |
