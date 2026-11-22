@@ -1,0 +1,306 @@
+--- gtk.main.sv.original.po
++++ gtk.main.sv.reviewed.po
+@@ -12,8 +12,8 @@
+ "Project-Id-Version: gtk\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gtk/-/issues/\n"
+ "POT-Creation-Date: 2026-11-22 04:57+0000\n"
+-"PO-Revision-Date: 2026-08-24 14:37+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -7974,15 +7974,15 @@
+ 
+ #: tools/gtk-image-tool-compare.c:46
+ msgid "Don't talk"
+-msgstr ""
++msgstr "Var tyst"
+ 
+ #: tools/gtk-image-tool-compare.c:47
+ msgid "Tolerance to allow in comparisons"
+-msgstr ""
++msgstr "Tolerans för jämförelser"
+ 
+ #: tools/gtk-image-tool-compare.c:47
+ msgid "NUMBER"
+-msgstr ""
++msgstr "TAL"
+ 
+ #: tools/gtk-image-tool-compare.c:60
+ msgid "Compare two images"
+@@ -8007,10 +8007,8 @@
+ 
+ # TODO: written
+ #: tools/gtk-image-tool-compare.c:102 tools/filters/compare.c:135
+-#, fuzzy, c-format
+-#| msgid "Differences witten to %s.\n"
+ msgid "Differences written to %s.\n"
+-msgstr "Skillnader skrivna till %s.\n"
++msgstr "Skillnader skrevs till %s.\n"
+ 
+ #: tools/gtk-image-tool-compare.c:104 tools/filters/compare.c:137
+ #, c-format
+@@ -8514,10 +8512,8 @@
+ msgstr "Förhandsgranskning av bana"
+ 
+ #: tools/gtk-path-tool-show.c:131
+-#, fuzzy
+-#| msgid "Line join (miter, miter-clip, round, bevel)"
+ msgid "Line join (miter, round, bevel)"
+-msgstr "Linjeövergång (gering, gering-klipp, rund, fasning)"
++msgstr "Linjeövergång (gering, rund, fasning)"
+ 
+ #: tools/gtk-path-tool-show.c:155
+ msgid "Display the path."
+@@ -8563,11 +8559,11 @@
+ 
+ #: tools/gtk-rendernode-tool.c:102
+ msgid "list all filters and exit"
+-msgstr ""
++msgstr "lista alla filter och avsluta"
+ 
+ #: tools/gtk-rendernode-tool.c:123
+ msgid "Filter a node file and print the result."
+-msgstr ""
++msgstr "Filtrera en nodfil och skriv ut resultatet."
+ 
+ #. translators: invalid UTF8 in filename
+ #: tools/gtk-tool-utils.c:47
+@@ -8708,7 +8704,7 @@
+ 
+ #: tools/filters/background-blur.c:52
+ msgid "Show where background blur would take effect"
+-msgstr ""
++msgstr "Visa var bakgrundsoskärpan skulle få effekt"
+ 
+ #: tools/filters/benchmark.c:111
+ msgid "Add renderer to benchmark"
+@@ -8737,7 +8733,7 @@
+ 
+ #: tools/filters/copypaste.c:44
+ msgid "Replace copy/paste nodes with copies of nodes"
+-msgstr ""
++msgstr "Ersätt kopiera/klistra in-noder med kopior av noder"
+ 
+ #: tools/filters/compare.c:71 tools/filters/render.c:278
+ msgid "Renderer to use"
+@@ -8748,16 +8744,12 @@
+ msgstr "FIL1 FIL2"
+ 
+ #: tools/filters/compare.c:87
+-#, fuzzy
+-#| msgid "Compare .node or .png files."
+ msgid "Compare rendering to .node or .png files."
+-msgstr "Jämför .node- eller .png-filer."
++msgstr "Jämför rendering med .node- eller .png-filer."
+ 
+ #: tools/filters/compare.c:100
+-#, fuzzy
+-#| msgid "Must specify two files\n"
+ msgid "Must specify a filename\n"
+-msgstr "Måste ange två filer\n"
++msgstr "Måste ange ett filnamn\n"
+ 
+ #: tools/filters/compare.c:107 tools/filters/render.c:183
+ #, c-format
+@@ -8771,13 +8763,11 @@
+ 
+ #: tools/filters/cut.c:86
+ msgid "Cut out a part of the node"
+-msgstr ""
++msgstr "Skär ut en del av noden"
+ 
+ #: tools/filters/diff.c:53
+-#, fuzzy
+-#| msgid "Show the render node."
+ msgid "Show where two nodes differ"
+-msgstr "Visa renderingsnoden."
++msgstr "Visa var två noder skiljer sig åt"
+ 
+ #: tools/filters/extract.c:77
+ #, c-format
+@@ -8785,10 +8775,8 @@
+ msgstr "Misslyckades med att skriva %s\n"
+ 
+ #: tools/filters/extract.c:153
+-#, fuzzy, c-format
+-#| msgid "Failed to write %s\n"
+ msgid "Failed to write %s: %s\n"
+-msgstr "Misslyckades med att skriva %s\n"
++msgstr "Misslyckades med att skriva %s: %s\n"
+ 
+ #: tools/filters/extract.c:206
+ msgid "Directory to use"
+@@ -8800,7 +8788,7 @@
+ 
+ #: tools/filters/extract.c:207
+ msgid "Basename for extracted files"
+-msgstr ""
++msgstr "Basnamn för extraherade filer"
+ 
+ #: tools/filters/extract.c:207
+ msgid "NAME"
+@@ -8808,7 +8796,7 @@
+ 
+ #: tools/filters/extract.c:215
+ msgid "Extract textures and glyphs"
+-msgstr ""
++msgstr "Extrahera texturer och glyfer"
+ 
+ #: tools/filters/info.c:124 tools/filters/info.c:128 tools/filters/info.c:130
+ msgid "Number of nodes:"
+@@ -8859,10 +8847,8 @@
+ msgstr "Felfärg"
+ 
+ #: tools/filters/load-icon.c:104
+-#, fuzzy
+-#| msgid "Success color"
+ msgid "Accent color"
+-msgstr "Färg om det lyckas"
++msgstr "Accentfärg"
+ 
+ #: tools/filters/load-icon.c:105 tools/filters/load-icon.c:106
+ msgid "Resize"
+@@ -8870,77 +8856,67 @@
+ 
+ #: tools/filters/load-icon.c:106 tools/filters/load-icon.c:107
+ msgid "NUM"
+-msgstr ""
++msgstr "ANTAL"
+ 
+ #: tools/filters/load-icon.c:117
+ msgid "Load icons from filenames"
+-msgstr ""
++msgstr "Läs in ikoner från filnamn"
+ 
+ #: tools/filters/load-icon.c:198 tools/filters/render.c:304
+-#, fuzzy
+-#| msgid "No .ui file specified\n"
+ msgid "No filename specified\n"
+-msgstr "Ingen .ui-fil angiven\n"
++msgstr "Inget filnamn angivet\n"
+ 
+ #: tools/filters/match.c:262
+-#, fuzzy
+-#| msgid "Failed to parse '%s' as path.\n"
+ msgid "Failed to parse node pattern\n"
+-msgstr "Misslyckades med att tolka ”%s” som bana.\n"
++msgstr "Misslyckades med att tolka nodmönstret\n"
+ 
+ #: tools/filters/match.c:287
+ msgid "Count the matches instead"
+-msgstr ""
++msgstr "Räkna i stället träffarna"
+ 
+ #: tools/filters/match.c:288
+ msgid "Keep existing nodes in stack"
+-msgstr ""
++msgstr "Behåll befintliga noder i stacken"
+ 
+ #: tools/filters/match.c:289
+ msgid "PATTERN"
+-msgstr ""
++msgstr "MÖNSTER"
+ 
+ #: tools/filters/match.c:298
+-#, fuzzy
+-#| msgid "Extract data urls from the render node."
+ msgid "Match patterns in the render node."
+-msgstr "Extrahera data-URL:er från renderingsnoden."
++msgstr "Matcha mönster i renderingsnoden."
+ 
+ #: tools/filters/match.c:311
+-#, fuzzy
+-#| msgid "Can only accept two image files\n"
+ msgid "Can only accept a pattern\n"
+-msgstr "Kan endast acceptera två bildfiler\n"
++msgstr "Kan endast acceptera ett mönster\n"
+ 
+ #: tools/filters/merge.c:181
+ msgid "Use float bounds, not integers"
+-msgstr ""
++msgstr "Använd flyttalsgränser, inte heltal"
+ 
+ #: tools/filters/merge.c:182
+ msgid "Merge nodes using a flow layout"
+-msgstr ""
++msgstr "Slå ihop noder med flödeslayout"
+ 
+ #: tools/filters/merge.c:183
+ msgid "Merge nodes horizontally"
+-msgstr ""
++msgstr "Slå ihop noder horisontellt"
+ 
+ #: tools/filters/merge.c:184
+ msgid "Keep nodes in stack"
+-msgstr ""
++msgstr "Behåll noder i stacken"
+ 
+ #: tools/filters/merge.c:185
+ msgid "Merge nodes vertically"
+-msgstr ""
++msgstr "Slå ihop noder vertikalt"
+ 
+ #: tools/filters/merge.c:194
+ msgid "Merge the stack of nodes into one"
+-msgstr ""
++msgstr "Slå ihop nodstacken till en nod"
+ 
+ #: tools/filters/opaque.c:49
+-#, fuzzy
+-#| msgid "Opaque part:"
+ msgid "Show the opaque part"
+-msgstr "Ogenomskinlig del:"
++msgstr "Visa den ogenomskinliga delen"
+ 
+ #: tools/filters/render.c:155 tools/filters/render.c:168
+ #, c-format
+@@ -8960,10 +8936,8 @@
+ msgstr "X,Y,B,H"
+ 
+ #: tools/filters/render.c:291
+-#, fuzzy
+-#| msgid "Render a .ui file to an image."
+ msgid "Render to an image."
+-msgstr "Rendera en .ui-fil till en bild."
++msgstr "Rendera till en bild."
+ 
+ #: tools/filters/render.c:312
+ msgid "Invalid rectangle given for bounds\n"
+@@ -8972,7 +8946,7 @@
+ #: tools/filters/render.c:321
+ #, c-format
+ msgid "%u filenames given but only %zu nodes available\n"
+-msgstr ""
++msgstr "%u filnamn angavs men endast %zu noder är tillgängliga\n"
+ 
+ #: tools/filters/show.c:109
+ msgid "Put node into offload container"
+@@ -8987,22 +8961,16 @@
+ msgstr "Visa renderingsnoden."
+ 
+ #: tools/filters/simplify.c:215
+-#, fuzzy
+-#| msgid "Simplify the file."
+ msgid "Simplify node tree"
+-msgstr "Förenkla filen."
++msgstr "Förenkla nodträdet"
+ 
+ #: tools/filters/strip.c:58
+-#, fuzzy
+-#| msgid "Add debug nodes"
+ msgid "Strip debug nodes"
+-msgstr "Lägg till felsökningsnoder"
++msgstr "Ta bort felsökningsnoder"
+ 
+ #: tools/filters/texture.c:108
+-#, fuzzy
+-#| msgid "Font Features"
+ msgid "Convert textures"
+-msgstr "Typsnittsfunktioner"
++msgstr "Konvertera texturer"
+ 
+ #, c-format
+ #~ msgid ""

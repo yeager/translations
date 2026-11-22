@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 08:04 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 08:08 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -112,7 +112,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [chronojump](https://l10n.gnome.org/vertimus/chronojump/master/po/sv/) | master | 2563 | 35 | 25 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [highscore](https://l10n.gnome.org/vertimus/highscore/main/po/sv/) | main | 655 | 56 | 24 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [damned-lies — Damned Lies](https://l10n.gnome.org/vertimus/damned-lies/main/po/sv/) | main | 1198 | 11 | 24 | Behöver arbete | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gtk](https://l10n.gnome.org/vertimus/gtk/main/po/sv/) | main | 1792 | 16 | 22 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gtk](https://l10n.gnome.org/vertimus/gtk/main/po/sv/) | main | 1792 | 16 | 22 | Behöver arbete | Validering återstår (2026-11-22): Alla aktuella oöversatta och fuzzy-strängar är lokalt ifyllda; fem äldre lintfel och två varningar i andra poster måste åtgärdas före modulens slutliga godkännande. Ingen GNOME-inskickning har gjorts. [original](gtk/main/po/gtk.main.sv.original.po), [granskad](gtk/main/po/gtk.main.sv.reviewed.po), [diff](gtk/main/po/gtk.main.sv.review.diff), [notering](gtk/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [bazaar](https://l10n.gnome.org/vertimus/bazaar/main/po/sv/) | main | 760 | 14 | 19 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-schedule](https://l10n.gnome.org/module/gnome-schedule/) | master | 103 | 16 | 17 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [drum-machine](https://l10n.gnome.org/vertimus/drum-machine/main/po/sv/) | main | 199 | 3 | 17 | Behöver arbete | Klar lokalt (2026-11-22): Alla aktuella oöversatta och fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](drum-machine/main/po/drum-machine.main.sv.original.po), [granskad](drum-machine/main/po/drum-machine.main.sv.reviewed.po), [diff](drum-machine/main/po/drum-machine.main.sv.review.diff), [notering](drum-machine/main/po/README.md) |
