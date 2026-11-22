@@ -8,5 +8,5 @@
 - Validering: `msgfmt --check`; `%s` och tekniska identifierare kontrollerade.
 - Dokumenterade undantag: Termen `demon` används som etablerad svensk Unix-terminologi.
 - Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
+- Inskick: Weblate-API-uppladdning har utförts med den säkra sammanslagningsmetoden, men Weblates arbetskopia saknar ännu alla fem aktuella källsträngar (416 mot GNOME-källans 418). Uppladdningen accepterade därför 0 strängar. Ett API-försök att uppdatera den externa arbetskopian nekades med behörighetsfel.
 - Slutlig lokal status: 418 översatta, 0 fuzzy, 0 oöversatta.
