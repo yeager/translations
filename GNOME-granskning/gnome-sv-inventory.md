@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 08:24 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 08:25 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -147,7 +147,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/gimp-3-2/po/sv/) | gimp-3-2 | 6065 | 4 | 4 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [xkeyboard-config — XKeyboard-Config](https://l10n.gnome.org/vertimus/xkeyboard-config/master/po/sv/) | master | 1312 | 3 | 4 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [packagekit — PackageKit](https://l10n.gnome.org/vertimus/packagekit/main/po/sv/) | main | 413 | 1 | 4 | Behöver arbete | Ej granskad |
-| Gränssnitt | Default (99% translated) | [nautilus](https://l10n.gnome.org/vertimus/nautilus/main/po/sv/) | main | 1149 | 26 | 3 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [nautilus](https://l10n.gnome.org/vertimus/nautilus/main/po/sv/) | main | 1149 | 26 | 3 | Behöver arbete | Validering återstår (2026-11-22): Alla aktuella oöversatta och fuzzy-strängar är lokalt ifyllda. Äldre acceleratorfel måste åtgärdas före slutligt godkännande; ingen GNOME-inskickning har gjorts. [original](nautilus/main/po/nautilus.main.sv.original.po), [granskad](nautilus/main/po/nautilus.main.sv.reviewed.po), [diff](nautilus/main/po/nautilus.main.sv.review.diff), [notering](nautilus/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [orca](https://l10n.gnome.org/vertimus/orca/main/po/sv/) | main | 1878 | 14 | 3 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [fwupd](https://l10n.gnome.org/vertimus/fwupd/main/po/sv/) | main | 1056 | 4 | 3 | Behöver arbete | Klar lokalt (2026-11-22): Alla aktuella oöversatta och fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](fwupd/main/po/fwupd.main.sv.original.po), [granskad](fwupd/main/po/fwupd.main.sv.reviewed.po), [diff](fwupd/main/po/fwupd.main.sv.review.diff), [notering](fwupd/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [loupe](https://l10n.gnome.org/vertimus/loupe/main/po/sv/) | main | 241 | 4 | 3 | Behöver arbete | Klar lokalt (2026-11-22): Alla aktuella oöversatta och fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](loupe/main/po/loupe.main.sv.original.po), [granskad](loupe/main/po/loupe.main.sv.reviewed.po), [diff](loupe/main/po/loupe.main.sv.review.diff), [notering](loupe/main/po/README.md) |

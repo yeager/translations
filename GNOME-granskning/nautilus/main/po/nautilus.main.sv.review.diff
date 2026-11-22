@@ -1,0 +1,304 @@
+--- nautilus.main.sv.original.po
++++ nautilus.main.sv.reviewed.po
+@@ -15,8 +15,8 @@
+ "Project-Id-Version: nautilus\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/nautilus/issues\n"
+ "POT-Creation-Date: 2026-11-20 08:19+0000\n"
+-"PO-Revision-Date: 2026-08-23 23:31+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -221,7 +221,7 @@
+ 
+ #: data/org.gnome.nautilus.gschema.xml:151
+ msgid "The default sort-order for viewed items."
+-msgstr ""
++msgstr "Standardsorteringsordningen för visade objekt."
+ 
+ #: data/org.gnome.nautilus.gschema.xml:155
+ msgid "Reverse sort order in new windows"
+@@ -245,12 +245,8 @@
+ msgstr "Standardmappsvisare"
+ 
+ #: data/org.gnome.nautilus.gschema.xml:164
+-#, fuzzy
+-#| msgid ""
+-#| "When a folder is visited this viewer is used. Possible values are “list-"
+-#| "view”, and “icon-view”."
+ msgid "When a folder is visited this viewer is used."
+-msgstr ""
++msgstr "När en mapp besöks används denna visare."
+ "När en mapp besöks används denna visare. Möjliga värden är ”list-view” "
+ "(listvy) och ”icon-view” (ikonvy)."
+ 
+@@ -560,10 +556,8 @@
+ msgstr "Hoppsan! Något gick fel."
+ 
+ #: extensions/audio-video-properties/audio-video-properties-model.c:327
+-#, fuzzy
+-#| msgid "Failed to load image information"
+ msgid "Failed to load media information"
+-msgstr "Misslyckades med att läsa in bildinformation"
++msgstr "Misslyckades med att läsa in mediainformation"
+ 
+ #: extensions/audio-video-properties/audio-video-properties-model.c:338
+ msgid "Audio and Video Properties"
+@@ -731,8 +725,6 @@
+ msgstr "Öppna objekt"
+ 
+ #: src/nautilus-app-chooser.c:256
+-#, fuzzy
+-#| msgid "Open Folder"
+ msgctxt "dialog title"
+ msgid "Open Folder"
+ msgstr "Öppna mapp"
+@@ -1782,10 +1774,8 @@
+ msgstr "Misslyckades med att ta bort alla underordnade filer"
+ 
+ #: src/nautilus-file-operations.c:1370 src/nautilus-file-operations.c:2420
+-#, fuzzy
+-#| msgid "Failed to delete all child files"
+ msgid "Failed to Delete Files"
+-msgstr "Misslyckades med att ta bort alla underordnade filer"
++msgstr "Misslyckades med att ta bort filer"
+ 
+ #: src/nautilus-file-operations.c:1377
+ #, c-format
+@@ -1827,14 +1817,10 @@
+ msgstr "Tar bort filer"
+ 
+ #: src/nautilus-file-operations.c:1934
+-#, fuzzy, c-format
+-#| msgid "Unable to eject “%s”"
+ msgid "Unable to Eject “%s”"
+ msgstr "Kunde inte mata ut ”%s”"
+ 
+ #: src/nautilus-file-operations.c:1939
+-#, fuzzy, c-format
+-#| msgid "Unable to unmount “%s”"
+ msgid "Unable to Unmount “%s”"
+ msgstr "Kunde inte avmontera ”%s”"
+ 
+@@ -1899,29 +1885,21 @@
+ #: src/nautilus-file-operations.c:2410 src/nautilus-file-operations.c:3864
+ #: src/nautilus-file-operations.c:4037 src/nautilus-file-operations.c:4111
+ #: src/nautilus-file-operations.c:4374
+-#, fuzzy
+-#| msgid "Failed to save image"
+ msgid "Failed to Copy Files"
+-msgstr "Misslyckades med att spara bild"
++msgstr "Misslyckades med att kopiera filer"
+ 
+ #: src/nautilus-file-operations.c:2415 src/nautilus-file-operations.c:4033
+ #: src/nautilus-file-operations.c:4107 src/nautilus-file-operations.c:4373
+-#, fuzzy
+-#| msgid "Failed to save image"
+ msgid "Failed to Move Files"
+-msgstr "Misslyckades med att spara bild"
++msgstr "Misslyckades med att flytta filer"
+ 
+ #: src/nautilus-file-operations.c:2425
+-#, fuzzy
+-#| msgid "Moving files to trash"
+ msgid "Failed to Move Files to Trash"
+-msgstr "Flyttar filer till papperskorgen"
++msgstr "Misslyckades med att flytta filer till papperskorgen"
+ 
+ #: src/nautilus-file-operations.c:2430 src/nautilus-file-operations.c:7953
+-#, fuzzy
+-#| msgid "Compressing Files"
+ msgid "Failed to Compress Files"
+-msgstr "Komprimerar filer"
++msgstr "Misslyckades med att komprimera filer"
+ 
+ #: src/nautilus-file-operations.c:2517
+ #, c-format
+@@ -1969,10 +1947,8 @@
+ 
+ #: src/nautilus-file-operations.c:2803 src/nautilus-file-operations.c:2860
+ #: src/nautilus-file-operations.c:2906 src/nautilus-file-operations.c:2967
+-#, fuzzy, c-format
+-#| msgid "Unable to stop “%s”"
+ msgid "Failed to Copy Files to “%s”"
+-msgstr "Kunde inte stoppa ”%s”"
++msgstr "Misslyckades med att kopiera filer till ”%s”"
+ 
+ #: src/nautilus-file-operations.c:2809
+ msgid "You do not have permissions to access the destination folder."
+@@ -2231,26 +2207,20 @@
+ 
+ #: src/nautilus-file-operations.c:4187 src/nautilus-file-operations.c:4739
+ #: src/nautilus-file-operations.c:5373
+-#, fuzzy, c-format
+-#| msgid "Unable to remove “%s”"
+ msgid "Failed to Move “%s”"
+-msgstr "Kunde inte ta bort ”%s”"
++msgstr "Misslyckades med att flytta ”%s”"
+ 
+ #: src/nautilus-file-operations.c:4188
+ msgid "Could not remove the source folder."
+ msgstr "Kunde inte ta bort källmappen."
+ 
+ #: src/nautilus-file-operations.c:4466 src/nautilus-file-operations.c:5179
+-#, fuzzy
+-#| msgid "You cannot move a folder into itself."
+ msgid "Folder Cannot Be Moved Into Itself"
+-msgstr "Du kan inte flytta en mapp in i sig själv."
++msgstr "Mappen kan inte flyttas in i sig själv"
+ 
+ #: src/nautilus-file-operations.c:4467 src/nautilus-file-operations.c:5180
+-#, fuzzy
+-#| msgid "You cannot move a folder into itself."
+ msgid "Folder Cannot Be Copied Into Itself"
+-msgstr "Du kan inte flytta en mapp in i sig själv."
++msgstr "Mappen kan inte kopieras in i sig själv"
+ 
+ #: src/nautilus-file-operations.c:4468 src/nautilus-file-operations.c:5181
+ msgid "The destination folder is inside the source folder."
+@@ -2258,23 +2228,19 @@
+ 
+ #: src/nautilus-file-operations.c:4490 src/nautilus-file-operations.c:5203
+ msgid "File Cannot Be Moved Over Itself"
+-msgstr ""
++msgstr "Filen kan inte flyttas till sig själv"
+ 
+ #: src/nautilus-file-operations.c:4491 src/nautilus-file-operations.c:5204
+-#, fuzzy
+-#| msgid "You cannot move a file over itself."
+ msgid "File Cannot Be Copied Over Itself"
+-msgstr "Du kan inte flytta en fil till sig själv."
++msgstr "Filen kan inte kopieras till sig själv"
+ 
+ #: src/nautilus-file-operations.c:4492 src/nautilus-file-operations.c:5205
+ msgid "The source file would be overwritten by the destination."
+ msgstr "Källfilen skulle bli överskriven av målfilen."
+ 
+ #: src/nautilus-file-operations.c:4743 src/nautilus-file-operations.c:4802
+-#, fuzzy, c-format
+-#| msgid "Unable to stop “%s”"
+ msgid "Failed to Copy “%s”"
+-msgstr "Kunde inte stoppa ”%s”"
++msgstr "Misslyckades med att kopiera ”%s”"
+ 
+ #: src/nautilus-file-operations.c:4746
+ #, c-format
+@@ -2332,10 +2298,8 @@
+ msgstr[1] "Skapar länkar till %'d filer"
+ 
+ #: src/nautilus-file-operations.c:5842
+-#, fuzzy, c-format
+-#| msgid "_Redo Create Link"
+ msgid "Failed to Create Link to %s"
+-msgstr "_Gör om Skapa länk"
++msgstr "Misslyckades med att skapa länk till %s"
+ 
+ #: src/nautilus-file-operations.c:5849
+ msgid "Symbolic links only supported for local files"
+@@ -2365,16 +2329,12 @@
+ msgstr "Namnlöst dokument"
+ 
+ #: src/nautilus-file-operations.c:6622
+-#, fuzzy, c-format
+-#| msgid "Error while creating directory “%s”."
+ msgid "Failed to Create Directory “%s”"
+-msgstr "Fel vid skapande av katalogen ”%s”."
++msgstr "Misslyckades med att skapa katalogen ”%s”"
+ 
+ #: src/nautilus-file-operations.c:6627
+-#, fuzzy, c-format
+-#| msgid "Unable to remove “%s”"
+ msgid "Failed to Create File “%s”"
+-msgstr "Kunde inte ta bort ”%s”"
++msgstr "Misslyckades med att skapa filen ”%s”"
+ 
+ #: src/nautilus-file-operations.c:6631
+ #, c-format
+@@ -2432,16 +2392,12 @@
+ msgstr "Fel vid extrahering av ”%s”"
+ 
+ #: src/nautilus-file-operations.c:7417
+-#, fuzzy, c-format
+-#| msgid "Extract “%s”"
+ msgid "Failed to Extract “%s”"
+-msgstr "Extrahera ”%s”"
++msgstr "Misslyckades med att extrahera ”%s”"
+ 
+ #: src/nautilus-file-operations.c:7492
+-#, fuzzy, c-format
+-#| msgid "Not enough free space to extract “%s”"
+ msgid "Not Enough Free Space to Extract “%s”"
+-msgstr "För lite ledigt utrymme för att extrahera ”%s”"
++msgstr "Inte tillräckligt med ledigt utrymme för att extrahera ”%s”"
+ 
+ #: src/nautilus-file-operations.c:7529
+ #, c-format
+@@ -3284,10 +3240,8 @@
+ msgstr "Fel vid sändning av e-post."
+ 
+ #: src/nautilus-files-view.c:6242
+-#, fuzzy
+-#| msgid "Set as Background…"
+ msgid "Could Not Set Background"
+-msgstr "Ange som bakgrund…"
++msgstr "Kunde inte ange bakgrund"
+ 
+ #. Translators: %s is a file name formatted for display
+ #: src/nautilus-files-view.c:6318 src/nautilus-sidebar.c:1772
+@@ -4096,10 +4050,8 @@
+ msgstr "Välj anpassad ikon"
+ 
+ #: src/nautilus-properties.c:3983
+-#, fuzzy
+-#| msgid "_Images"
+ msgid "Images"
+-msgstr "_Bilder"
++msgstr "Bilder"
+ 
+ #: src/nautilus-query-editor.c:147
+ msgid "Search may be slow and will not include subfolders or file contents"
+@@ -4425,8 +4377,6 @@
+ msgstr "_Gör om"
+ 
+ #: src/nautilus-window.c:940
+-#, fuzzy
+-#| msgid "Open Folder"
+ msgctxt "toast button"
+ msgid "Open Folder"
+ msgstr "Öppna mapp"
+@@ -4679,10 +4629,8 @@
+ msgstr "_Ta bort permanent…"
+ 
+ #: src/resources/menu/nautilus-files-view-context-menus.ui:241
+-#, fuzzy
+-#| msgid "_Restore From Trash"
+ msgid "Restore From Tras_h"
+-msgstr "Återställ från _papperskorgen"
++msgstr "Återställ från papperskorge_n"
+ 
+ #: src/resources/menu/nautilus-files-view-context-menus.ui:246
+ msgid "_Remove From Recent"
+@@ -5608,11 +5556,9 @@
+ msgstr "Öppna i nytt fönster"
+ 
+ #: src/resources/ui/shortcuts-dialog.blp:24
+-#, fuzzy
+-#| msgid "_Open Item Location"
+ msgctxt "shortcuts dialog"
+ msgid "Open Item Location"
+-msgstr "Öppna _plats"
++msgstr "Öppna objektets plats"
+ 
+ #: src/resources/ui/shortcuts-dialog.blp:29
+ msgctxt "shortcuts dialog"
+@@ -5774,7 +5720,7 @@
+ #: src/resources/ui/shortcuts-dialog.blp:218
+ msgctxt "shortcuts dialog"
+ msgid "Toggle Selection of Focused Item"
+-msgstr ""
++msgstr "Växla markering av fokuserat objekt"
+ 
+ #: src/resources/ui/shortcuts-dialog.blp:224
+ msgctxt "shortcuts dialog"
