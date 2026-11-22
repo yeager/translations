@@ -1,0 +1,139 @@
+--- gstreamer.main.sv.original.po
++++ gstreamer.main.sv.reviewed.po
+@@ -11,8 +11,8 @@
+ "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/gstreamer/gstreamer/"
+ "issues\n"
+ "POT-Creation-Date: 2026-11-21 16:40+0000\n"
+-"PO-Revision-Date: 2026-02-22 17:11+0800\n"
+-"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>\n"
++"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -333,12 +333,12 @@
+ #: gst/gstregistry.c:1663
+ #, c-format
+ msgid "%s is not accessible"
+-msgstr ""
++msgstr "Det går inte att komma åt %s"
+ 
+ #: gst/gstregistry.c:1668
+ #, c-format
+ msgid "%s is not a path"
+-msgstr ""
++msgstr "%s är ingen sökväg"
+ 
+ #: gst/gstregistry.c:1724 gst/gstregistry.c:2245
+ #, c-format
+@@ -1141,6 +1141,8 @@
+ msgid ""
+ "property \"%s\" in element \"%s\" is not allowed when parsing untrusted input"
+ msgstr ""
++"Egenskapen ”%s” i elementet ”%s” är inte tillåten vid tolkning av "
++"opålitliga indata"
+ 
+ #. ******************************************************************************************
+ #. *** helpers for pipeline-setup
+@@ -1187,10 +1189,9 @@
+ msgstr "inget ”%s”-element"
+ 
+ #: gst/parse/grammar.y.in:801
+-#, fuzzy, c-format
+-#| msgid "Element \"%s\" is not a GstPreset"
++#, c-format
+ msgid "element \"%s\" is not allowed when parsing untrusted input"
+-msgstr "Elementet ”%s” är inte en GstPreset"
++msgstr "Elementet ”%s” är inte tillåtet vid tolkning av opålitliga indata"
+ 
+ #: gst/parse/grammar.y.in:928
+ #, c-format
+@@ -1216,7 +1217,7 @@
+ #: gst/parse/grammar.y.in:1374
+ #, c-format
+ msgid "could not link %s to %s with caps %s"
+-msgstr "kunde inte länka %s med %s med förmågor %s"
++msgstr "kunde inte länka %s till %s med förmågorna %s"
+ 
+ #: gst/parse/grammar.y.in:1380
+ #, c-format
+@@ -1272,6 +1273,8 @@
+ "property \"%s\" cannot be set on a child that does not exist yet when "
+ "parsing untrusted input"
+ msgstr ""
++"Egenskapen ”%s” kan inte ställas in för ett underordnat objekt som ännu "
++"inte finns vid tolkning av opålitliga indata"
+ 
+ #: libs/gst/base/gstbasesink.c:1320
+ msgid "Pipeline construction is invalid, please add queues."
+@@ -1450,7 +1453,7 @@
+ 
+ #: tools/gst-inspect.c:581
+ msgid "sensitive when set from an untrusted pipeline description"
+-msgstr ""
++msgstr "känslig när den ställs in från en opålitlig rörledningsbeskrivning"
+ 
+ #: tools/gst-inspect.c:587
+ msgid "can be set only at object construction time"
+@@ -1521,11 +1524,9 @@
+ "automatic plugin installation mechanisms"
+ msgstr ""
+ "Skriv ut en maskintolkningsbar lista över funktioner som den angivna "
+-"insticksmodulen\n"
+-"                                       eller alla insticksmoduler "
+-"tillhandahåller. Användbart\n"
+-"                                       tillsammans med externa mekanismer "
+-"för automatisk installation av insticksmoduler"
++"insticksmodulen eller alla insticksmoduler tillhandahåller.\n"
++"                                       Användbart tillsammans med externa "
++"mekanismer för automatisk installation av insticksmoduler"
+ 
+ #: tools/gst-inspect.c:2312
+ msgid "List the plugin contents"
+@@ -1637,17 +1638,17 @@
+ #: tools/gst-launch.c:667
+ #, c-format
+ msgid "FOUND TAG      : found by element \"%s\".\n"
+-msgstr "HITTADE TAGG   : hittat av elementet ”%s”.\n"
++msgstr "HITTADE TAGG: hittat av elementet ”%s”.\n"
+ 
+ #: tools/gst-launch.c:670
+ #, c-format
+ msgid "FOUND TAG      : found by pad \"%s:%s\".\n"
+-msgstr "HITTADE TAGG   : hittat av kontakten ”%s:%s”.\n"
++msgstr "HITTADE TAGG: hittat av kontakten ”%s:%s”.\n"
+ 
+ #: tools/gst-launch.c:673
+ #, c-format
+ msgid "FOUND TAG      : found by object \"%s\".\n"
+-msgstr "HITTADE TAGG   : hittat av objektet ”%s”.\n"
++msgstr "HITTADE TAGG: hittat av objektet ”%s”.\n"
+ 
+ #: tools/gst-launch.c:676
+ msgid "FOUND TAG\n"
+@@ -1656,12 +1657,12 @@
+ #: tools/gst-launch.c:691
+ #, c-format
+ msgid "FOUND TOC      : found by element \"%s\".\n"
+-msgstr "HITTADE INNEHÅLL : hittat av elementet ”%s”.\n"
++msgstr "HITTADE INNEHÅLL: hittat av elementet ”%s”.\n"
+ 
+ #: tools/gst-launch.c:694
+ #, c-format
+ msgid "FOUND TOC      : found by object \"%s\".\n"
+-msgstr "HITTADE INNEHÅLL : hittat av objektet ”%s”.\n"
++msgstr "HITTADE INNEHÅLL: hittat av objektet ”%s”.\n"
+ 
+ #: tools/gst-launch.c:697
+ msgid "FOUND TOC\n"
+@@ -1856,9 +1857,7 @@
+ 
+ #: tools/gst-launch.c:1308
+ msgid "Failed to set pipeline to PAUSED.\n"
+-msgstr ""
+-"Misslyckades med att sätta rörledningen till PAUSED.\n"
+-"\n"
++msgstr "Misslyckades med att sätta rörledningen till PAUSED.\n"
+ 
+ #: tools/gst-launch.c:1312
+ msgid "Pipeline is live and does not need PREROLL ...\n"
