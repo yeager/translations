@@ -1,6 +1,8 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 06:53 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-22 06:55 UTC.
+
+Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
 - Kataloger: 1086
 - Behöver arbete enligt GNOME: 204
