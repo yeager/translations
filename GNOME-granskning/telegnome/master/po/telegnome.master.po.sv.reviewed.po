@@ -1,0 +1,352 @@
+# Swedish messages for telegnome.
+# Copyright © 2000, 2001, 2009, 2015, 2016 Free Software Foundation, Inc.
+# Andreas Hyden <a.hyden@cyberpoint.se>, 2000.
+# Christian Rose <menthos@menthos.com>, 2001.
+# Daniel Nylander <po@danielnylander.se>, 2009.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015.
+# Josef Andersson <josef.andersson@fripost.org>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: telegnome\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/telegnome/issues\n"
+"POT-Creation-Date: 2026-11-07 21:34+0000\n"
+"PO-Revision-Date: 2026-11-24 12:00+0100\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: data/org.gnome.telegnome.gschema.xml:5
+msgid "Legacy migration complete"
+msgstr "Migrering av föråldrad data slutförd"
+
+#: data/org.gnome.telegnome.gschema.xml:6
+msgid ""
+"Set internally to true to indicate that TeleGNOME has checked for legacy "
+"gnome-config settings and migrated any that existed."
+msgstr ""
+"Ange internt till true (sant) för att indikera att TeleGNOME har "
+"kontrollerat efter föråldrade gnome-config-inställningar och migrerat dessa "
+"om de existerade."
+
+#: data/org.gnome.telegnome.gschema.xml:10
+msgid "Channel children"
+msgstr "Kanalbarn"
+
+#: data/org.gnome.telegnome.gschema.xml:11
+msgid ""
+"List of channel IDs. Each channel folder uses the "
+"org.gnome.telegnome.channel schema."
+msgstr ""
+"Lista över kanal-ID:n. Varje kanalmapp använder schemat "
+"org.gnome.telegnome.channel."
+
+#: data/org.gnome.telegnome.gschema.xml:15
+msgid "Current channel"
+msgstr "Aktuell kanal"
+
+#: data/org.gnome.telegnome.gschema.xml:16
+msgid "ID of current channel."
+msgstr "Aktuell kanals ID."
+
+#: data/org.gnome.telegnome.gschema.xml:20
+msgid "Zoom factor"
+msgstr "Zoomfaktor"
+
+#: data/org.gnome.telegnome.gschema.xml:21
+msgid "Page zoom factor. Larger numbers produce larger text."
+msgstr "Sidzoomfaktor. Större tal ger större text."
+
+#: data/org.gnome.telegnome.gschema.xml:25
+msgid "Automatically switch page at periodic intervals"
+msgstr "Byt automatiskt sida vid periodiska intervall"
+
+#: data/org.gnome.telegnome.gschema.xml:26
+msgid "The frequency of paging is controlled by the \"paging-interval\" key."
+msgstr "Frekvensen för sidbyte kontrolleras av nyckeln \"paging-interval\"."
+
+#: data/org.gnome.telegnome.gschema.xml:30 src/prefs.ui:164
+msgid "Paging interval"
+msgstr "Sidbytesintervall"
+
+#: data/org.gnome.telegnome.gschema.xml:31 src/prefs.ui:165
+msgid "Specifies the interval for the auto-pager, in milliseconds."
+msgstr "Anger intervallet för automatisk sidväxling, i millisekunder."
+
+#: data/org.gnome.telegnome.gschema.xml:35
+msgid "Current page number"
+msgstr "Aktuellt sidnummer"
+
+#: data/org.gnome.telegnome.gschema.xml:39
+msgid "Current subpage number"
+msgstr "Aktuellt sidnummer för undersida"
+
+#: data/org.gnome.telegnome.gschema.xml:45
+msgid "Channel name"
+msgstr "Kanalnamn"
+
+#: data/org.gnome.telegnome.gschema.xml:49
+msgid "Channel description"
+msgstr "Kanalbeskrivning"
+
+#: data/org.gnome.telegnome.gschema.xml:53 src/prefs.ui:264
+msgid "Page URL"
+msgstr "Sid-URL"
+
+#: data/org.gnome.telegnome.gschema.xml:54
+msgid ""
+"URL pattern for pages. Must contain one C format string substitution "
+"accepting an int (e.g. %d), for the page number."
+msgstr ""
+"URL-mönster för sidor. Måste innehålla en strängersättning i C-format som "
+"accepterar ett heltal (t.ex. %d) för sidnumret."
+
+#: data/org.gnome.telegnome.gschema.xml:58 src/prefs.ui:282
+msgid "Subpage URL"
+msgstr "Underside-URL"
+
+#: data/org.gnome.telegnome.gschema.xml:59
+msgid ""
+"URL pattern for subpages. Must contain two C format string substitution "
+"accepting ints (e.g. %d), for the page and subpage numbers respectively."
+msgstr ""
+"URL-mönster för undersidor. Måste innehålla två strängersättningar i C-"
+"format som accepterar heltal (t.ex. %d) för sidan och undersidans nummer."
+
+#: data/org.gnome.telegnome.gschema.xml:63
+msgid "Country code"
+msgstr "Landskod"
+
+#: src/gui.vala:172
+#, c-format
+msgid "TeleGNOME: %s (%s)"
+msgstr "TeleGNOME: %s (%s)"
+
+#: src/gui.vala:380
+msgid "Web server error: Wrong page number?"
+msgstr "Webbserverfel: Fel sidnummer?"
+
+#: src/gui.vala:393
+msgid "Error making HTTP connection"
+msgstr "Fel vid HTTP-anslutning"
+
+#: src/gui.vala:396
+msgid "Internal error in HTTP query code"
+msgstr "Internt fel i HTTP-frågekoden"
+
+#: src/gui.vala:515
+msgid "Error in page entry"
+msgstr "Fel i sidpost"
+
+#: src/menus.ui:24
+msgid "_File"
+msgstr "_Arkiv"
+
+#: src/menus.ui:26
+msgid "_Quit"
+msgstr "Av_sluta"
+
+#: src/menus.ui:32
+msgid "_Settings"
+msgstr "_Inställningar"
+
+#: src/menus.ui:34
+msgid "_Preferences"
+msgstr "_Egenskaper"
+
+#: src/menus.ui:39
+msgid "_Channels"
+msgstr "_Kanaler"
+
+#: src/menus.ui:42
+msgid "_Help"
+msgstr "_Hjälp"
+
+#: src/menus.ui:44
+msgid "_Contents"
+msgstr "I_nnehåll"
+
+#: src/menus.ui:49
+msgid "_About"
+msgstr "O_m"
+
+#: src/prefs.ui:40
+msgid "TeleGNOME: Preferences"
+msgstr "TeleGNOME: Egenskaper"
+
+#: src/prefs.ui:61 src/prefs.ui:300
+msgid "Country"
+msgstr "Land"
+
+#: src/prefs.ui:72 src/prefs.ui:228
+msgid "Name"
+msgstr "Namn"
+
+#: src/prefs.ui:100
+msgid "Move up"
+msgstr "Gå upp"
+
+#: src/prefs.ui:109
+msgid "Move down"
+msgstr "Gå ned"
+
+#: src/prefs.ui:118
+msgid "Add..."
+msgstr "Lägg till…"
+
+#: src/prefs.ui:127
+msgid "Delete"
+msgstr "Ta bort"
+
+#: src/prefs.ui:136
+msgid "Edit"
+msgstr "Redigera"
+
+#: src/prefs.ui:154
+msgid "Channels"
+msgstr "Kanaler"
+
+#: src/prefs.ui:186
+msgid "Miscellaneous"
+msgstr "Diverse"
+
+#: src/prefs.ui:195 src/prefs.ui:324
+msgid "_Cancel"
+msgstr "_Avbryt"
+
+#: src/prefs.ui:201 src/prefs.ui:330
+msgid "_OK"
+msgstr "_OK"
+
+#: src/prefs.ui:212
+msgid "New/Edit Channel"
+msgstr "Ny/Redigera kanal"
+
+#: src/prefs.ui:220
+msgid "Channel Information"
+msgstr "Kanalinformation"
+
+#: src/prefs.ui:246
+msgid "Description"
+msgstr "Beskrivning"
+
+#: src/telegnome.ui:23
+msgid "TeleGNOME: Teletext for GNOME"
+msgstr "TeleGNOME: Texttv för GNOME"
+
+#: src/telegnome.ui:35
+msgid "Page:"
+msgstr "Sida:"
+
+#: src/telegnome.ui:47
+msgid "Page number"
+msgstr "Sidnummer"
+
+#: src/telegnome.ui:61
+msgid "_Jump to"
+msgstr "_Hoppa till"
+
+#: src/telegnome.ui:63
+msgid "Go To Page"
+msgstr "Gå till sida"
+
+#: src/telegnome.ui:68
+msgid "_Back"
+msgstr "_Bakåt"
+
+#: src/telegnome.ui:70
+msgid "Get Previous Page"
+msgstr "Hämta föregående sida"
+
+#: src/telegnome.ui:75
+msgid "_Forward"
+msgstr "_Framåt"
+
+#: src/telegnome.ui:77
+msgid "Get Next Page"
+msgstr "Hämta nästa sida"
+
+#: src/telegnome.ui:82
+msgid "_Home"
+msgstr "H_em"
+
+#: src/telegnome.ui:84
+msgid "Go to the home page"
+msgstr "Gå till hemsidan"
+
+#: src/telegnome.ui:89
+msgid "_Play"
+msgstr "_Spela"
+
+#: src/telegnome.ui:91
+msgid "Toggles auto-paging"
+msgstr "Växlar automatiskt sidbyte"
+
+#: src/telegnome.ui:145 telegnome.appdata.xml.in:27 telegnome.desktop.in:2
+msgid "TeleGNOME"
+msgstr "TeleGNOME"
+
+#: src/telegnome.ui:147
+msgid "Teletext for GNOME"
+msgstr "Text-tv för GNOME"
+
+#: src/telegnome.ui:148
+msgid "GNU General Public License, version 2 or later"
+msgstr "GNU General Public License, version 2 eller senare"
+
+#: src/telegnome.ui:154
+msgid "translator-credits"
+msgstr ""
+"Daniel Nylander\n"
+"Christian Rose\n"
+"Andreas Hyden\n"
+"\n"
+"Skicka synpunkter på översättningen till\n"
+"<tp-sv@listor.tp-sv.se>"
+
+#: telegnome.appdata.xml.in:28 telegnome.desktop.in:3
+msgid "Viewer for Teletext pages"
+msgstr "Visare för text-tv-sidor"
+
+#: telegnome.appdata.xml.in:31
+msgid ""
+"TeleGNOME is a program to display teletext pages over the internet, based on "
+"image feeds from a variety of broadcasters."
+msgstr ""
+"TeleGNOME är ett program för att visa texttvsidor över Internet, baserat på "
+"bildströmmar från en mängd utsändare."
+
+#~ msgid "Proxy server"
+#~ msgstr "Proxyserver"
+
+#~ msgid "Misc"
+#~ msgstr "Diverse"
+
+#~ msgid ""
+#~ "Teletext for GNOME\n"
+#~ "Released under the terms of the GPL"
+#~ msgstr ""
+#~ "Texttv för GNOME\n"
+#~ "Släppt under villkoren i GPL"
+
+#~ msgid "Dirk-Jan C. Binnema <djcb@dds.nl>"
+#~ msgstr "Dirk-Jan C. Binnema <djcb@dds.nl>"
+
+#~ msgid "Arjan Scherpenisse <acscherp@wins.uva.nl>"
+#~ msgstr "Arjan Scherpenisse <acscherp@wins.uva.nl>"
+
+#~ msgid "(c) 1999, 2000 Dirk-Jan C. Binnema, Arjan Scherpenisse"
+#~ msgstr "© 1999, 2000 Dirk-Jan C. Binnema, Arjan Scherpenisse"
+
+#~ msgid "No connection"
+#~ msgstr "Ingen anslutning"
+
+#~ msgid "Error using temporary file"
+#~ msgstr "Fel vid användning av temporär fil"
+
+#~ msgid "Error setting permissions on temporary file"
+#~ msgstr "Fel vid inställning av rättigheter på temporär fil"

@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 23:45 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 23:47 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -598,7 +598,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [tali](https://l10n.gnome.org/vertimus/tali/master/po/sv/) | master | 100 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [tali](https://l10n.gnome.org/vertimus/tali/master/help/sv/) | master | 86 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [tau](https://l10n.gnome.org/vertimus/tau/master/po/sv/) | master | 186 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [telegnome](https://l10n.gnome.org/vertimus/telegnome/master/po/sv/) | master | 68 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [telegnome](https://l10n.gnome.org/vertimus/telegnome/master/po/sv/) | master | 68 | 0 | 0 | Klar | X | 2 | Klar lokalt (2026-11-24): Hela 68-strängarskatalogen är radgranskad mot senaste POT. Två befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](telegnome/master/po/telegnome.master.po.sv.original.po), [granskad](telegnome/master/po/telegnome.master.po.sv.reviewed.po), [diff](telegnome/master/po/telegnome.master.po.sv.review.diff), [notering](telegnome/master/po/README.md) |
 | Dokumentation | Default (71% translated) | [telegnome](https://l10n.gnome.org/vertimus/telegnome/master/help/sv/) | master | 31 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [TinySPARQL](https://l10n.gnome.org/vertimus/tinysparql/main/po/sv/) | main | 104 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [totem](https://l10n.gnome.org/vertimus/totem/master/po/sv/) | master | 381 | 0 | 0 | Klar |  | — | Ej granskad |
