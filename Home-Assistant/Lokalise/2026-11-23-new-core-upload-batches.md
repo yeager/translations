@@ -256,6 +256,13 @@ Två Gatus-beskrivningar använde de felaktiga formerna `bas URL:en` och
 `bas-URL:en för din Gatus-statussidesinstans`, sparades och lästes tillbaka
 via Lokalise API. TMX-valideringen godkände därefter 4 084 poster.
 
+## iZone-kontrollens felmeddelanden
+
+Två iZone-felmeddelanden delade felaktigt produktnamnet till `i Zon` och den
+ena saknade korrekt verbform. De normaliserades till `iZone-kontrollen` med
+svenska satser, medan `{host}` bevarades. Värdena sparades och lästes tillbaka
+via Lokalise API; TMX-valideringen godkände 4 086 poster.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
