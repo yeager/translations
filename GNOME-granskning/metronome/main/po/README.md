@@ -1,11 +1,9 @@
-# metronome — main — svenska UI
+# Metronome — main/po
 
-- GNOME-status före granskning: 36 översatta, 0 fuzzy, 1 oöversatt.
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/metronome/main/po/sv/>
-- Granskad rad: `Adrien Plazas` → `Adrien Plazas` (egennamn).
-- Åtgärd: Utvecklarens egennamn fylldes i oförändrat, vilket är avsiktligt för AppStream-metadata.
-- Ändringar: 1 ny(a) översättning(ar), 0 rättad(e) befintlig(a) sträng(ar).
-- Validering: `msgfmt --check`; inga platshållare, acceleratorer eller markup i ändringen.
-- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
-- Slutlig lokal status: 37 översatta, 0 fuzzy, 0 oöversatta.
+- Aktuell POT: 37 aktiva poster. Den hämtade svenska katalogen hade en oöversatt post och inga fuzzy-poster; den granskade filen har 0 oöversatta och 0 fuzzy.
+- Granskning: hela katalogen är radgranskad. Det saknade upphovspersonsnamnet är ifyllt och "Tap" är konsekvent översatt med "Knacka" i både kortkommando och knappetikett.
+- Acceleratorer: inga `_ä`, `_å` eller `_ö` förekommer.
+- Validering: `msgfmt --check` och `l10n-lint --language sv` utan anmärkningar. Den granskade katalogen och aktuell POT har samma 37 aktiva nycklar.
+- Hunspell: inga nya domänspecifika undantag.
+- GNOME-inskick: inget.
