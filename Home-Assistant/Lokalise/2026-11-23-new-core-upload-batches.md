@@ -283,6 +283,12 @@ ingen tidigare Core-post gav en etablerad form. Det översattes till `Text för
 strömavbrott`, sparades och lästes tillbaka via Lokalise API. TMX-valideringen
 godkände 4 094 poster.
 
+## MQTT: kelvingränser
+
+MQTT:s fält `Min Kelvin` och `Max Kelvin` var oöversatta. De normaliserades
+till `Minsta kelvin` respektive `Högsta kelvin`, sparades och lästes tillbaka
+via Lokalise API. TMX-valideringen godkände 4 096 poster.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
