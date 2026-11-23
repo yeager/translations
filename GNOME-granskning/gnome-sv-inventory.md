@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 21:27 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 21:28 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -363,7 +363,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [gnome-contacts](https://l10n.gnome.org/vertimus/gnome-contacts/gnome-50/po/sv/) | gnome-50 | 215 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-contacts](https://l10n.gnome.org/vertimus/gnome-contacts/main/po/sv/) | main | 215 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-control-center](https://l10n.gnome.org/vertimus/gnome-control-center/gnome-50/po/sv/) | gnome-50 | 2149 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-desktop](https://l10n.gnome.org/vertimus/gnome-desktop/master/po/sv/) | master | 31 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-desktop](https://l10n.gnome.org/vertimus/gnome-desktop/master/po/sv/) | master | 31 | 0 | 0 | Klar | X | 1 | Klar lokalt (2026-11-23): Aktuell 31-strängarskatalog är radgranskad mot senaste POT. En befintlig kvalitetsbrist är rättad; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](gnome-desktop/master/po/gnome-desktop.master.sv.original.po), [granskad](gnome-desktop/master/po/gnome-desktop.master.sv.reviewed.po), [diff](gnome-desktop/master/po/gnome-desktop.master.sv.review.diff), [notering](gnome-desktop/master/po/README.md) |
 | Dokumentation | Default (71% translated) | [gnome-desktop](https://l10n.gnome.org/vertimus/gnome-desktop/master/desktop-fdl/sv/) | master | 72 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-desktop](https://l10n.gnome.org/vertimus/gnome-desktop/master/desktop-gpl/sv/) | master | 69 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-desktop](https://l10n.gnome.org/vertimus/gnome-desktop/master/desktop-lgpl/sv/) | master | 98 | 0 | 0 | Klar |  | — | Ej granskad |
