@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 20:32 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 20:34 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -70,7 +70,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [vte](https://l10n.gnome.org/vertimus/vte/master/po/sv/) | master | 9 | 0 | 0 | Klar | X | 1 | Klar och inskickad (2026-11-23): Aktuell niosträngarskatalog är radgranskad mot senaste POT. Säkerhetsvarningen om okrypterad skrivning är språkrättad; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel. Skickad till Damned Lies 2026-11-23 med kommentaren ”Granskad och klar”. [original](vte/master/po/vte.master.sv.original.po), [granskad](vte/master/po/vte.master.sv.reviewed.po), [diff](vte/master/po/vte.master.sv.review.diff), [notering](vte/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [yelp](https://l10n.gnome.org/vertimus/yelp/master/po/sv/) | master | 83 | 0 | 0 | Klar | X | 4 | Klar och inskickad (2026-11-23): Hela 83-posterskatalogen är radgranskad: 4 befintliga översättningar har korrigerats och 0 oöversatta eller fuzzy återstår. msgfmt, msgcmp, l10n-lint samt platshållar- och acceleratorgranskning saknar fel. Skickad till Damned Lies 2026-11-23 med kommentaren ”Granskad och klar”. [original](yelp/master/po/yelp.master.sv.original.po), [granskad](yelp/master/po/yelp.master.sv.reviewed.po), [diff](yelp/master/po/yelp.master.sv.review.diff), [notering](yelp/master/po/README.md) |
 
-## Helt klara men utan ändringar (11)
+## Helt klara men utan ändringar (12)
 
 | Typ | Kategori | Modul | Gren | Översatta | Fuzzy | Oöversatta | GNOME-status (uppströms) | Klar lokalt | Ändringar | Lokal granskning |
 |---|---|---|---|---:|---:|---:|---|:---:|---:|---|
@@ -83,10 +83,11 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [libpeas](https://l10n.gnome.org/vertimus/libpeas/main/po/sv/) | main | 4 | 0 | 0 | Klar | X | 0 | Klar utan ändringar (2026-11-23): Hela fyrasträngarskatalogen är radgranskad mot aktuell POT: 0 oöversatta, 0 fuzzy och ingen textändring var motiverad. msgfmt, msgcmp och l10n-lint saknar fel. Skickad till Damned Lies 2026-11-23 med kommentaren ”Granskad och allt ser bra ut”. [original](libpeas/main/po/libpeas.main.sv.original.po), [granskad](libpeas/main/po/libpeas.main.sv.reviewed.po), [diff](libpeas/main/po/libpeas.main.sv.review.diff), [notering](libpeas/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [libsecret](https://l10n.gnome.org/vertimus/libsecret/main/po/sv/) | main | 10 | 0 | 0 | Klar | X | 0 | Klar utan ändringar (2026-11-23): Hela tiosträngarskatalogen är radgranskad mot aktuell POT: 0 oöversatta, 0 fuzzy och ingen textändring var motiverad. msgfmt, msgcmp och l10n-lint saknar fel. Skickad till Damned Lies 2026-11-23 med kommentaren ”Granskad och allt ser bra ut”. [original](libsecret/main/po/libsecret.main.sv.original.po), [granskad](libsecret/main/po/libsecret.main.sv.reviewed.po), [diff](libsecret/main/po/libsecret.main.sv.review.diff), [notering](libsecret/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [libspelling](https://l10n.gnome.org/vertimus/libspelling/main/po/sv/) | main | 4 | 0 | 0 | Klar | X | 0 | Klar utan ändringar (2026-11-23): Hela fyrasträngarskatalogen är radgranskad mot aktuell POT: 0 oöversatta, 0 fuzzy och ingen textändring var motiverad. msgfmt, msgcmp och l10n-lint saknar fel. Skickad till Damned Lies 2026-11-23 med kommentaren ”Granskad och allt ser bra ut”. [original](libspelling/main/po/libspelling.main.sv.original.po), [granskad](libspelling/main/po/libspelling.main.sv.reviewed.po), [diff](libspelling/main/po/libspelling.main.sv.review.diff), [notering](libspelling/main/po/README.md) |
+| Gränssnitt | Default (99% translated) | [lorem](https://l10n.gnome.org/vertimus/lorem/master/po/sv/) | master | 25 | 0 | 0 | Klar | X | 0 | Klar utan ändringar (2026-11-23): Aktuell 25-strängarskatalog är radgranskad mot senaste POT; 0 oöversatta och 0 fuzzy återstår. Inga översättningsändringar behövdes. msgfmt, msgcmp och l10n-lint saknar fel. Skickad till Damned Lies 2026-11-23 med kommentaren ”Granskad och allt ser bra ut”. [original](lorem/master/po/lorem.master.sv.original.po), [granskad](lorem/master/po/lorem.master.sv.reviewed.po), [diff](lorem/master/po/lorem.master.sv.review.diff), [notering](lorem/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [xdg-user-dirs](https://l10n.gnome.org/vertimus/xdg-user-dirs/master/po/sv/) | master | 28 | 0 | 0 | Klar | X | 0 | Klar utan ändringar (2026-11-23): Hela 28-posterskatalogen är radgranskad mot aktuell POT: 0 oöversatta, 0 fuzzy och ingen textändring var motiverad. msgfmt, msgcmp och l10n-lint saknar fel. Skickad till Damned Lies 2026-11-23 med kommentaren ”Granskad och allt ser bra ut”. [original](xdg-user-dirs/master/po/xdg-user-dirs.master.sv.original.po), [granskad](xdg-user-dirs/master/po/xdg-user-dirs.master.sv.reviewed.po), [diff](xdg-user-dirs/master/po/xdg-user-dirs.master.sv.review.diff), [notering](xdg-user-dirs/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [yelp-xsl](https://l10n.gnome.org/vertimus/yelp-xsl/master/po/sv/) | master | 64 | 0 | 0 | Klar | X | 0 | Klar utan ändringar (2026-11-23): Hela 64-posterskatalogen är radgranskad mot aktuell POT: 0 oöversatta, 0 fuzzy och ingen textändring var motiverad. msgfmt, msgcmp, l10n-lint och XML-platshållarjämförelse saknar fel. Skickad till Damned Lies 2026-11-23 med kommentaren ”Granskad och allt ser bra ut”. [original](yelp-xsl/master/po/yelp-xsl.master.sv.original.po), [granskad](yelp-xsl/master/po/yelp-xsl.master.sv.reviewed.po), [diff](yelp-xsl/master/po/yelp-xsl.master.sv.review.diff), [notering](yelp-xsl/master/po/README.md) |
 
-## Ej granskade (532)
+## Ej granskade (531)
 
 | Typ | Kategori | Modul | Gren | Översatta | Fuzzy | Oöversatta | GNOME-status (uppströms) | Klar lokalt | Ändringar | Lokal granskning |
 |---|---|---|---|---:|---:|---:|---|:---:|---:|---|
@@ -504,7 +505,6 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [lightsoff](https://l10n.gnome.org/vertimus/lightsoff/main/po/sv/) | main | 27 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [lightsoff](https://l10n.gnome.org/vertimus/lightsoff/main/help/sv/) | main | 92 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [LocalSearch](https://l10n.gnome.org/vertimus/localsearch/main/po/sv/) | main | 185 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [lorem](https://l10n.gnome.org/vertimus/lorem/master/po/sv/) | master | 25 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [loupe](https://l10n.gnome.org/vertimus/loupe/gnome-50/po/sv/) | gnome-50 | 210 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [loupe](https://l10n.gnome.org/vertimus/loupe/gnome-50/help/sv/) | gnome-50 | 78 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [loupe](https://l10n.gnome.org/vertimus/loupe/main/help/sv/) | main | 78 | 0 | 0 | Klar |  | — | Ej granskad |
