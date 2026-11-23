@@ -234,6 +234,14 @@ värdena sparades och lästes tillbaka via Lokalise API. Fyra befintliga
 TMX-poster ersattes med verifierade livevärden; TMX-valideringen godkände
 fortsatt 4 081 poster.
 
+## Exportens färskhet
+
+Kontroll av den levande Lokalise-API:n visade att det paginerade listanropet
+kunde cachea äldre översättningar direkt efter en enskild API-uppdatering,
+medan nyckeluppslag gav korrekt värde. Exportverktyget i `swedish-tm` använder
+nu cache-busting per sida, så framtida Core-snapshotar inte kan återinföra
+föråldrade TM-värden.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
