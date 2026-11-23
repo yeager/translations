@@ -1,0 +1,282 @@
+--- gnumeric.master.po.sv.original.po
++++ gnumeric.master.po.sv.reviewed.po
+@@ -37,8 +37,8 @@
+ "Project-Id-Version: gnumeric\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnumeric/issues\n"
+ "POT-Creation-Date: 2026-08-04 00:57+0000\n"
+-"PO-Revision-Date: 2026-08-12 01:52+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-23 12:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -1667,13 +1667,12 @@
+ "Unknown interpolation type encountered: '%s', using Bezier cubic spline "
+ "instead."
+ msgstr ""
+-"Okänd interpolationstyp ”%s” påträffades, använder Bezier kubisk spline "
+-"istället."
++"Okänd interpolationstyp: ”%s”; Bezierkubisk spline används i stället."
+ 
+ #: ../plugins/openoffice/openoffice-read.c:7491
+ #, c-format
+ msgid "Unknown interpolation type encountered: %s"
+-msgstr "Okänd interpolationstyp ”%s” påträffades"
++msgstr "Okänd interpolationstyp: ”%s”"
+ 
+ #: ../plugins/openoffice/openoffice-read.c:8050
+ #, c-format
+@@ -6746,7 +6745,7 @@
+ #: ../src/dialogs/dialog-random-generator.c:103
+ #: ../src/dialogs/dialog-random-generator.c:105
+ msgid "_Upper Bound:"
+-msgstr "_Övre gräns:"
++msgstr "Ö_vre gräns:"
+ 
+ #: ../src/dialogs/dialog-random-generator.c:105
+ msgid "Uniform Integer"
+@@ -8084,7 +8083,7 @@
+ 
+ #: ../src/dialogs/autoformat.ui.h:12 ../src/dialogs/cell-format.ui.h:29
+ msgid "_Top"
+-msgstr "_Överkant"
++msgstr "Ö_verkant"
+ 
+ #: ../src/dialogs/autoformat.ui.h:13 ../src/dialogs/cell-format.ui.h:31
+ msgid "_Bottom"
+@@ -8369,7 +8368,7 @@
+ 
+ #: ../src/dialogs/cell-format.ui.h:56
+ msgid "C_olor:"
+-msgstr "F_ärg:"
++msgstr "Fä_rg:"
+ 
+ #: ../src/dialogs/cell-format.ui.h:58
+ msgid "<b>Background</b>"
+@@ -8527,7 +8526,7 @@
+ 
+ #: ../src/dialogs/cell-format.ui.h:102
+ msgid "Ac_tion:"
+-msgstr "_Åtgärd:"
++msgstr "Åt_gärd:"
+ 
+ #: ../src/dialogs/cell-format.ui.h:103
+ msgid "Titl_e:"
+@@ -8710,7 +8709,7 @@
+ 
+ #: ../src/dialogs/consolidate.ui.h:7
+ msgid "Labels in _top row"
+-msgstr "Rubriker i _översta raden"
++msgstr "Rubriker i över_sta raden"
+ 
+ #: ../src/dialogs/consolidate.ui.h:8
+ msgid ""
+@@ -9183,7 +9182,7 @@
+ 
+ #: ../src/dialogs/dialog-stf.ui.h:20
+ msgid "_Separated"
+-msgstr "_Åtskilda"
++msgstr "Åts_kilda"
+ 
+ #: ../src/dialogs/dialog-stf.ui.h:21
+ msgid ""
+@@ -9213,7 +9212,7 @@
+ 
+ #: ../src/dialogs/dialog-stf.ui.h:26
+ msgid "Fr_om line:"
+-msgstr "Fr_ån rad:"
++msgstr "Frå_n rad:"
+ 
+ #: ../src/dialogs/dialog-stf.ui.h:27
+ msgid "_To line: "
+@@ -9712,7 +9711,7 @@
+ 
+ #: ../src/dialogs/fill-series.ui.h:17
+ msgid "_Year"
+-msgstr "_År"
++msgstr "Å_r"
+ 
+ #: ../src/dialogs/formula-guru.ui.h:1
+ msgid "Formula Guru"
+@@ -9940,7 +9939,7 @@
+ 
+ #: ../src/dialogs/histogram.ui.h:11
+ msgid "C_alculated cutoffs"
+-msgstr "Ber_äknade slut"
++msgstr "Berä_knade slut"
+ 
+ #: ../src/dialogs/histogram.ui.h:12
+ msgid "_Number of cutoffs:"
+@@ -10032,7 +10031,7 @@
+ 
+ #: ../src/dialogs/hyperlink.ui.h:5
+ msgid "_Subject:"
+-msgstr "_Ämne:"
++msgstr "Ä_mne:"
+ 
+ #: ../src/dialogs/hyperlink.ui.h:6
+ msgid "_Web Address:"
+@@ -10831,7 +10830,7 @@
+ 
+ #: ../src/dialogs/rank.ui.h:13
+ msgid "_Top rank"
+-msgstr "_Översta rang"
++msgstr "Ö_versta rang"
+ 
+ #: ../src/dialogs/recent.ui.h:1
+ msgid "Recently Used Documents"
+@@ -11112,7 +11111,7 @@
+ 
+ #: ../src/dialogs/search-replace.ui.h:32 ../src/dialogs/search.ui.h:21
+ msgid "_Other values"
+-msgstr "_Övriga värden"
++msgstr "Öv_riga värden"
+ 
+ #: ../src/dialogs/search-replace.ui.h:33
+ msgid "Perform changes within non-string values"
+@@ -11760,7 +11759,7 @@
+ 
+ #: ../src/dialogs/solver.ui.h:25
+ msgid "Re_place"
+-msgstr "Ers_ätt"
++msgstr "Ersä_tt"
+ 
+ #. ----------------------------------------
+ #: ../src/dialogs/solver.ui.h:26 ../src/tools/gnm-solver.c:1754
+@@ -12400,8 +12399,7 @@
+ "Do you want to save only current sheet?"
+ msgstr ""
+ "Det valda filformatet stöder inte sparning av flera blad i samma fil.\n"
+-"Om du vill spara alla blad bör du spara dem i separata filer eller välja\n"
+-"ett annat filformat.\n"
++"Om du vill spara alla blad bör du spara dem i separata filer eller välja ett annat filformat.\n"
+ "Vill du spara endast det aktuella bladet?"
+ 
+ #: ../src/gui-file.c:603
+@@ -12502,7 +12500,7 @@
+ #: ../src/gui-util.h:151
+ msgctxt "Stock label"
+ msgid "_Open"
+-msgstr "_Öppna"
++msgstr "Ö_ppna"
+ 
+ #: ../src/gui-util.h:154
+ msgctxt "Stock label"
+@@ -12613,7 +12611,7 @@
+ 
+ #: ../src/item-cursor.c:851
+ msgid "Shift Righ_t and Move"
+-msgstr "Skifta celler åt h_öger och flytta"
++msgstr "Skifta celler åt hö_ger och flytta"
+ 
+ #: ../src/item-cursor.c:856
+ msgid "C_ancel"
+@@ -13109,7 +13107,7 @@
+ #. start sub menu
+ #: ../src/sheet-control-gui.c:2354
+ msgid "Hei_ght..."
+-msgstr "H_öjd…"
++msgstr "Hö_jd…"
+ 
+ #: ../src/sheet-control-gui.c:2355 ../src/wbc-gtk-actions.c:2860
+ msgid "_Auto Fit Height"
+@@ -13263,7 +13261,7 @@
+ 
+ #: ../src/sheet-object.c:305
+ msgid "Pul_l to Front"
+-msgstr "Flytta _överst"
++msgstr "Flytta ö_verst"
+ 
+ #: ../src/sheet-object.c:306
+ msgid "Pull _Forward"
+@@ -14542,10 +14540,10 @@
+ "observed t-statistic, assuming the null\n"
+ "hypothesis is in fact true."
+ msgstr ""
+-"Sannolikhet av att observera en t-statistika\n"
++"Sannolikhet för att observera en t-statistik\n"
+ "vars absoluta värde är minst lika stort\n"
+-"som absoluta värdet för den aktuella\n"
+-"observerade t-statistikan, förutsatt att noll-\n"
++"som det absoluta värdet för den faktiskt\n"
++"observerade t-statistiken, förutsatt att noll-\n"
+ "hypotesen är sann."
+ 
+ #: ../src/tools/analysis-regression.c:445
+@@ -15019,7 +15017,9 @@
+ msgid ""
+ "Final\n"
+ "Value"
+-msgstr "Slutligt värde"
++msgstr ""
++"Slutligt\n"
++"värde"
+ 
+ #: ../src/tools/gnm-solver.c:1855
+ msgid ""
+@@ -15049,7 +15049,9 @@
+ msgid ""
+ "Shadow\n"
+ "Price"
+-msgstr "Skuggpris"
++msgstr ""
++"Skugg-\n"
++"pris"
+ 
+ #: ../src/tools/gnm-solver.c:1890
+ msgid ""
+@@ -15691,7 +15693,7 @@
+ 
+ #: ../src/wbc-gtk-actions.c:2076
+ msgid "_Modify"
+-msgstr "_Ändra"
++msgstr "Ä_ndra"
+ 
+ #: ../src/wbc-gtk-actions.c:2079
+ msgid "S_heet"
+@@ -15787,7 +15789,7 @@
+ 
+ #: ../src/wbc-gtk-actions.c:2167
+ msgid "F_orecast"
+-msgstr "F_örutsägelse"
++msgstr "Fö_rutsägelse"
+ 
+ #: ../src/wbc-gtk-actions.c:2170
+ msgid "_One Sample Tests"
+@@ -16261,7 +16263,7 @@
+ 
+ #: ../src/wbc-gtk-actions.c:2614
+ msgid "S_earch..."
+-msgstr "S_ök…"
++msgstr "Sö_k…"
+ 
+ #: ../src/wbc-gtk-actions.c:2616
+ msgid "Search for something"
+@@ -16493,7 +16495,7 @@
+ 
+ #: ../src/wbc-gtk-actions.c:2854
+ msgid "H_eight..."
+-msgstr "H_öjd…"
++msgstr "Hö_jd…"
+ 
+ #: ../src/wbc-gtk-actions.c:2855
+ msgid "Change height of the selected rows"
+@@ -17403,7 +17405,7 @@
+ 
+ #: ../src/wbc-gtk-actions.c:3622
+ msgid "Align _Top"
+-msgstr "Justera _överkant"
++msgstr "Justera ö_verkant"
+ 
+ #: ../src/wbc-gtk-actions.c:3623
+ msgid "Align Top"
+@@ -17750,7 +17752,7 @@
+ 
+ #: ../src/wbc-gtk.c:1797
+ msgid "_Undo"
+-msgstr "_Ångra"
++msgstr "Å_ngra"
+ 
+ #: ../src/wbc-gtk.c:1827
+ #, c-format
