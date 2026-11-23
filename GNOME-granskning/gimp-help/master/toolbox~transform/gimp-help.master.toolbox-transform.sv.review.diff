@@ -1,0 +1,2074 @@
+--- gimp-help.master.toolbox-transform.sv.original.po
++++ gimp-help.master.toolbox-transform.sv.reviewed.po
+@@ -1,14 +1,12 @@
+-# , fuzzy
+-#
+-#
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: gimp doc 2.6\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2010-02-20 13:13+0100\n"
+-"PO-Revision-Date: 2009-02-17 02:54+0100\n"
+-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
++"PO-Revision-Date: 2026-11-23 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <sv@li.org>\n"
++"Language: sv\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+@@ -16,42 +14,42 @@
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/shear.xml:28(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/toolbox-shear.png'; "
+ "md5=a8f3ca7281233be4963f695935eba94c"
+ msgstr ""
+-"@@image: 'images/toolbox/toolbox-shear.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/toolbox-shear.png'; "
++"md5=a8f3ca7281233be4963f695935eba94c"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/shear.xml:49(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/shear-example.png'; "
+ "md5=69956626c86d7238b4bbaca1823b8261"
+ msgstr ""
+-"@@image: 'images/toolbox/shear-example.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/shear-example.png'; "
++"md5=69956626c86d7238b4bbaca1823b8261"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/shear.xml:103(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/tool-options-shear.png'; "
+ "md5=79c8e80e745c17fd0bf67e73714b0fd9"
+ msgstr ""
+-"@@image: 'images/toolbox/tool-options-shear.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/tool-options-shear.png'; "
++"md5=79c8e80e745c17fd0bf67e73714b0fd9"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/shear.xml:129(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/tool-dialog-shear.png'; "
+ "md5=a825069ad0bc15ca4e4ab134b93c68d3"
+ msgstr ""
+-"@@image: 'images/toolbox/tool-dialog-shear.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/tool-dialog-shear.png'; "
++"md5=a825069ad0bc15ca4e4ab134b93c68d3"
+ 
+ #: src/toolbox/transform/shear.xml:15(title)
+ #: src/toolbox/transform/shear.xml:18(secondary)
+@@ -73,7 +71,7 @@
+ 
+ #: src/toolbox/transform/shear.xml:25(title)
+ msgid "The Shear tool in Toolbox"
+-msgstr ""
++msgstr "Skevningsverktyget i verktygslådan"
+ 
+ #: src/toolbox/transform/shear.xml:32(para)
+ msgid ""
+@@ -87,17 +85,17 @@
+ "image you distort the image, horizontally or vertically according to the "
+ "direction given to the pointer. When you are satisfied, click on the "
+ "<guilabel>Shear</guilabel> button in the info dialog to validate."
+-msgstr ""
++msgstr "Skevningsverktyget används för att förskjuta en del av en bild, ett lager, en markering eller en bana åt ett håll och den andra delen åt motsatt håll. En vågrät skevning förskjuter exempelvis den övre delen åt höger och den nedre åt vänster. En rektangel blir en romb. Detta är inte en rotation: bilden förvrängs. När du har valt verktyget klickar du på bilden eller markeringen: ett rutnät kan läggas över och dialogrutan Skevningsinformation öppnas. När du drar muspekaren över bilden förvrängs bilden vågrätt eller lodrätt beroende på pekarens riktning. När du är nöjd klickar du på knappen <guilabel>Skevning</guilabel> i informationsdialogrutan för att bekräfta."
+ 
+ #: src/toolbox/transform/shear.xml:46(title)
+ msgid "Shear example"
+-msgstr ""
++msgstr "Exempel på skevning"
+ 
+ #: src/toolbox/transform/shear.xml:55(para)
+ msgid ""
+ "You can't shear both ways at the same time, you have to use the shear tool "
+ "twice on end."
+-msgstr ""
++msgstr "Du kan inte skeva åt båda hållen samtidigt; du måste använda skevningsverktyget två gånger i följd."
+ 
+ #: src/toolbox/transform/shear.xml:61(title)
+ #: src/toolbox/transform/scale.xml:60(title)
+@@ -112,26 +110,26 @@
+ 
+ #: src/toolbox/transform/shear.xml:62(para)
+ msgid "You can access the Shear Tool in different ways:"
+-msgstr ""
++msgstr "Du kan komma åt skevningsverktyget på olika sätt:"
+ 
+ #: src/toolbox/transform/shear.xml:67(para)
+ msgid ""
+ "from the image menu bar <menuchoice><guimenu>Tools</"
+ "guimenu><guisubmenu>Transform Tools</guisubmenu><guimenuitem>Shear</"
+ "guimenuitem></menuchoice>,"
+-msgstr ""
++msgstr "från bildmenyraden via <menuchoice><guimenu>Verktyg</guimenu><guisubmenu>Transformeringsverktyg</guisubmenu><guimenuitem>Skevning</guimenuitem></menuchoice>,"
+ 
+ #: src/toolbox/transform/shear.xml:77(para)
+ msgid ""
+ "by clicking on the tool icon: <guiicon><inlinegraphic fileref=\"images/"
+ "toolbox/stock-tool-shear-22.png\"/></guiicon> in Toolbox,"
+-msgstr ""
++msgstr "genom att klicka på verktygsikonen: <guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-shear-22.png\"/></guiicon> i verktygslådan,"
+ 
+ #: src/toolbox/transform/shear.xml:87(para)
+ msgid ""
+ "by using the <keycombo><keycap>Shift</keycap><keycap>S</keycap></keycombo> "
+ "key combination."
+-msgstr ""
++msgstr "med tangentkombinationen <keycombo><keycap>Skift</keycap><keycap>S</keycap></keycombo>."
+ 
+ #: src/toolbox/transform/shear.xml:97(title)
+ #: src/toolbox/transform/rotate.xml:100(title)
+@@ -143,11 +141,11 @@
+ 
+ #: src/toolbox/transform/shear.xml:99(title)
+ msgid "Shear tool options"
+-msgstr ""
++msgstr "Alternativ för skevningsverktyget"
+ 
+ #: src/toolbox/transform/shear.xml:112(term)
+ msgid "Transform Direction; Interpolation; Clippping; Preview"
+-msgstr ""
++msgstr "Transformeringsriktning; interpolering; klippning; förhandsgranskning"
+ 
+ #: src/toolbox/transform/shear.xml:123(title)
+ msgid "Shearing Information"
+@@ -155,56 +153,56 @@
+ 
+ #: src/toolbox/transform/shear.xml:125(title)
+ msgid "Shearing Information window"
+-msgstr ""
++msgstr "Fönstret Skevningsinformation"
+ 
+ #: src/toolbox/transform/shear.xml:135(term)
+ msgid "Shear magnitude X"
+-msgstr ""
++msgstr "Skevningsomfång X"
+ 
+ #: src/toolbox/transform/shear.xml:137(para)
+ msgid ""
+ "Here, you can set the horizontal shearing amplitude. A positive value "
+ "produces a clock-wise tilt. A negative value gives a counter-clock-wise "
+ "tilt. The unit used by shearing are half-pixels."
+-msgstr ""
++msgstr "Här kan du ange amplituden för vågrät skevning. Ett positivt värde ger en lutning medurs. Ett negativt värde ger en lutning moturs. Enheten som används för skevning är halva bildpunkter."
+ 
+ #: src/toolbox/transform/shear.xml:146(term)
+ msgid "Shear magnitude Y"
+-msgstr ""
++msgstr "Skevningsomfång Y"
+ 
+ #: src/toolbox/transform/shear.xml:148(para)
+ msgid "As above, in the vertical direction."
+-msgstr ""
++msgstr "Som ovan, men i lodrät riktning."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/scale.xml:37(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/toolbox-scale.png'; "
+ "md5=e48f6fef708916bd2ca13eae6ba60d61"
+ msgstr ""
+-"@@image: 'images/toolbox/toolbox-scale.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/toolbox-scale.png'; "
++"md5=e48f6fef708916bd2ca13eae6ba60d61"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/scale.xml:118(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/tool-options-scale.png'; "
+ "md5=2761852e50a7557f0efb4d4b28b0837a"
+ msgstr ""
+-"@@image: 'images/toolbox/tool-options-scale.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/tool-options-scale.png'; "
++"md5=2761852e50a7557f0efb4d4b28b0837a"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/scale.xml:163(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/tool-dialog-scale.png'; "
+ "md5=a27e33dd73400ad93c532a90d9a4e3cb"
+ msgstr ""
+-"@@image: 'images/toolbox/tool-dialog-scale.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/tool-dialog-scale.png'; "
++"md5=a27e33dd73400ad93c532a90d9a4e3cb"
+ 
+ #: src/toolbox/transform/scale.xml:15(title)
+ #: src/toolbox/transform/scale.xml:18(secondary)
+@@ -230,11 +228,11 @@
+ 
+ #: src/toolbox/transform/scale.xml:30(primary)
+ msgid "Scale Layer, selection contour or path"
+-msgstr ""
++msgstr "Skala lager, markeringskontur eller bana"
+ 
+ #: src/toolbox/transform/scale.xml:34(title)
+ msgid "The Scale tool in Toolbox"
+-msgstr ""
++msgstr "Skalningsverktyget i verktygslådan"
+ 
+ #: src/toolbox/transform/scale.xml:43(title)
+ #: src/toolbox/transform/rotate.xml:36(title)
+@@ -244,7 +242,7 @@
+ #: src/toolbox/transform/scale.xml:44(para)
+ msgid ""
+ "The Scale Tool is used to scale layers, selections or paths (the Object)."
+-msgstr ""
++msgstr "Skalningsverktyget används för att skala lager, markeringar eller banor (objektet)."
+ 
+ #: src/toolbox/transform/scale.xml:48(para)
+ msgid ""
+@@ -254,30 +252,30 @@
+ "grid or an outline) is superimposed on the object and handles appear on "
+ "corners and borders that you can click and drag to change dimensions. A "
+ "small circle appears at center of the Preview allowing to move this preview."
+-msgstr ""
++msgstr "När du klickar på bilden med verktyget öppnas dialogrutan Skalningsinformation, där du kan ändra <guilabel>Bredd</guilabel> och <guilabel>Höjd</guilabel> var för sig. Samtidigt läggs en förhandsgranskning (eventuellt med rutnät eller kontur) över objektet och handtag visas i hörn och längs kanter; du kan klicka och dra i dem för att ändra dimensionerna. En liten cirkel visas mitt i förhandsgranskningen och låter dig flytta den."
+ 
+ #: src/toolbox/transform/scale.xml:61(para)
+ msgid "You can access the Scale Tool in different ways:"
+-msgstr ""
++msgstr "Du kan komma åt skalningsverktyget på olika sätt:"
+ 
+ #: src/toolbox/transform/scale.xml:66(para)
+ msgid ""
+ "from the image menu bar <menuchoice><guimenu>Tools</"
+ "guimenu><guisubmenu>Transform Tools</guisubmenu><guimenuitem>Scale</"
+ "guimenuitem></menuchoice>,"
+-msgstr ""
++msgstr "från bildmenyraden via <menuchoice><guimenu>Verktyg</guimenu><guisubmenu>Transformeringsverktyg</guisubmenu><guimenuitem>Skala</guimenuitem></menuchoice>,"
+ 
+ #: src/toolbox/transform/scale.xml:76(para)
+ msgid ""
+ "by clicking the tool icon: <guiicon><inlinegraphic fileref=\"images/toolbox/"
+ "stock-tool-scale-22.png\"/></guiicon> in the Toolbox,"
+-msgstr ""
++msgstr "genom att klicka på verktygsikonen: <guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-scale-22.png\"/></guiicon> i verktygslådan,"
+ 
+ #: src/toolbox/transform/scale.xml:85(para)
+ msgid ""
+ "by using the <keycombo><keycap>Shift</keycap><keycap>T</keycap></keycombo> "
+ "key combination."
+-msgstr ""
++msgstr "med tangentkombinationen <keycombo><keycap>Skift</keycap><keycap>T</keycap></keycombo>."
+ 
+ #: src/toolbox/transform/scale.xml:95(title)
+ #: src/toolbox/transform/rotate.xml:83(title)
+@@ -297,7 +295,7 @@
+ msgid ""
+ "Holding the <keycap>Ctrl</keycap> key down will toggle the <guilabel>Keep "
+ "Aspect</guilabel> option."
+-msgstr ""
++msgstr "Om du håller ned <keycap>Ctrl</keycap> växlas alternativet <guilabel>Behåll bildförhållande</guilabel>."
+ 
+ #: src/toolbox/transform/scale.xml:112(title)
+ #: src/toolbox/transform/crop.xml:146(title)
+@@ -308,22 +306,22 @@
+ 
+ #: src/toolbox/transform/scale.xml:114(title)
+ msgid "Tool options for the Scale tool"
+-msgstr ""
++msgstr "Verktygsalternativ för skalningsverktyget"
+ 
+ #: src/toolbox/transform/scale.xml:127(term)
+ #: src/toolbox/transform/perspective.xml:102(term)
+ msgid "Transform; Interpolation; Direction; Clipping; Preview"
+-msgstr ""
++msgstr "Transformering; interpolering; riktning; klippning; förhandsgranskning"
+ 
+ #: src/toolbox/transform/scale.xml:132(para)
+ msgid ""
+ "The Transform mode works on the active layer only. To work on all layers of "
+ "the image, use <link linkend=\"gimp-image-scale\">Scale Image</link>."
+-msgstr ""
++msgstr "Transformeringsläget arbetar endast på det aktiva lagret. Använd <link linkend=\"gimp-image-scale\">Skala bild</link> för att arbeta på bildens alla lager."
+ 
+ #: src/toolbox/transform/scale.xml:142(term)
+ msgid "Keep Aspect (Ctrl)"
+-msgstr ""
++msgstr "Behåll bildförhållande (Ctrl)"
+ 
+ #: src/toolbox/transform/scale.xml:144(para)
+ msgid ""
+@@ -331,12 +329,12 @@
+ "frame, this option will constrain the scale such as the Height/Width ratio "
+ "of the layer will remain constant. Note that this doesn't work with border "
+ "handles. Note also that it toggles the linking chain in the dialog."
+-msgstr ""
++msgstr "<guilabel>Behåll bildförhållande</guilabel>: När du flyttar ett hörn på markeringsramen begränsar alternativet skalningen så att lagrets förhållande mellan höjd och bredd förblir konstant. Observera att det inte fungerar med kanthandtag. Observera också att det växlar länkkedjan i dialogrutan."
+ 
+ #: src/toolbox/transform/scale.xml:157(title)
+ #: src/toolbox/transform/scale.xml:159(title)
+ msgid "The Scaling Information dialog window"
+-msgstr ""
++msgstr "Dialogfönstret Skalningsinformation"
+ 
+ #: src/toolbox/transform/scale.xml:169(term)
+ msgid "Width/Height"
+@@ -349,38 +347,37 @@
+ "down list. These values are also automatically changed when you drag handles "
+ "in the image. If the associated linking chain is broken, you can change "
+ "Width and Height separately."
+-msgstr ""
++msgstr "Här kan du ange den bredd och höjd som objektet ska få. Standardmåttenheten är bildpunkt. Du kan ändra den med listrutan. Värdena ändras också automatiskt när du drar handtag i bilden. Om den tillhörande länkkedjan är bruten kan du ändra bredd och höjd var för sig."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/rotate.xml:30(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/toolbox-rotate.png'; "
+ "md5=9558c52b326355953e8ab28f86becc70"
+ msgstr ""
+-"@@image: 'images/toolbox/toolbox-rotate.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/toolbox-rotate.png'; "
++"md5=9558c52b326355953e8ab28f86becc70"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/rotate.xml:106(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/tool-options-rotate.png'; "
+ "md5=5fe6ef5249980691608d0bf916c96220"
+ msgstr ""
+-"@@image: 'images/toolbox/tool-options-rotate.png'; md5=THIS FILE DOESN'T "
+-"EXIST"
++"@@image: 'images/toolbox/tool-options-rotate.png'; "
++"md5=5fe6ef5249980691608d0bf916c96220"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/rotate.xml:161(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/tool-dialog-rotate.png'; "
+ "md5=aa4959e639f07e0709d8d97f7481c176"
+ msgstr ""
+-"@@image: 'images/toolbox/tool-dialog-rotate.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/tool-dialog-rotate.png'; "
++"md5=aa4959e639f07e0709d8d97f7481c176"
+ 
+ #: src/toolbox/transform/rotate.xml:17(title)
+ #: src/toolbox/transform/rotate.xml:20(secondary)
+@@ -390,7 +387,7 @@
+ 
+ #: src/toolbox/transform/rotate.xml:27(title)
+ msgid "The Rotate tool in Toolbox"
+-msgstr ""
++msgstr "Rotationsverktyget i verktygslådan"
+ 
+ #: src/toolbox/transform/rotate.xml:37(para)
+ msgid ""
+@@ -399,44 +396,44 @@
+ "Information</emphasis> dialog is opened. There, you can set the rotation "
+ "axis, marked with a point, and the rotation angle. You can do the same by "
+ "dragging the mouse pointer on the image or the rotation point."
+-msgstr ""
++msgstr "Verktyget används för att rotera det aktiva lagret, en markering eller en bana. När du klickar på bilden eller markeringen med verktyget öppnas dialogrutan <emphasis>Rotationsinformation</emphasis>. Där kan du ange rotationsaxeln, som markeras med en punkt, och rotationsvinkeln. Du kan göra samma sak genom att dra muspekaren över bilden eller rotationspunkten."
+ 
+ #: src/toolbox/transform/rotate.xml:49(para)
+ msgid "You can access the Selection Tool in different ways:"
+-msgstr ""
++msgstr "Du kan komma åt rotationsverktyget på olika sätt:"
+ 
+ #: src/toolbox/transform/rotate.xml:54(para)
+ msgid ""
+ "from the image menu bar <menuchoice><guimenu>Tools</"
+ "guimenu><guisubmenu>Transform Tools</guisubmenu><guimenuitem>Rotate</"
+ "guimenuitem></menuchoice>,"
+-msgstr ""
++msgstr "från bildmenyraden via <menuchoice><guimenu>Verktyg</guimenu><guisubmenu>Transformeringsverktyg</guisubmenu><guimenuitem>Rotera</guimenuitem></menuchoice>,"
+ 
+ #: src/toolbox/transform/rotate.xml:64(para)
+ msgid ""
+ "by clicking the tool icon: <guiicon><inlinegraphic fileref=\"images/toolbox/"
+ "stock-tool-rotate-22.png\"/></guiicon> in the Toolbox,"
+-msgstr ""
++msgstr "genom att klicka på verktygsikonen: <guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-rotate-22.png\"/></guiicon> i verktygslådan,"
+ 
+ #: src/toolbox/transform/rotate.xml:73(para)
+ msgid ""
+ "by using the <keycombo><keycap>Shift</keycap><keycap>R</keycap></keycombo> "
+ "key combination."
+-msgstr ""
++msgstr "med tangentkombinationen <keycombo><keycap>Skift</keycap><keycap>R</keycap></keycombo>."
+ 
+ #: src/toolbox/transform/rotate.xml:90(para)
+ msgid ""
+ "Holding <keycap>Ctrl</keycap> will constrain the rotation angle to 15 "
+ "degrees increments."
+-msgstr ""
++msgstr "Om du håller ned <keycap>Ctrl</keycap> begränsas rotationsvinkeln till steg om 15 grader."
+ 
+ #: src/toolbox/transform/rotate.xml:102(title)
+ msgid "Rotation tool options"
+-msgstr ""
++msgstr "Alternativ för rotationsverktyget"
+ 
+ #: src/toolbox/transform/rotate.xml:115(term)
+ msgid "Transform; Direction, Interpolation; Clipping; Preview"
+-msgstr ""
++msgstr "Transformering; riktning; interpolering; klippning; förhandsgranskning"
+ 
+ #: src/toolbox/transform/rotate.xml:123(term)
+ msgid "Transform Direction"
+@@ -448,7 +445,7 @@
+ "Normal mode will rotate the layer as one might expect. If a layer is rotated "
+ "10 degrees to the right, then the layer will be rendered as such. This "
+ "behaviour is contrary to Corrective rotation."
+-msgstr ""
++msgstr "Transformeringsriktning anger åt vilket håll ett lager roteras. Normalt läge roterar lagret som förväntat. Om ett lager roteras 10 grader åt höger återges lagret på det sättet. Detta beteende är motsatsen till korrigerande rotation."
+ 
+ #: src/toolbox/transform/rotate.xml:132(para)
+ msgid ""
+@@ -458,7 +455,7 @@
+ "up the layer with the image. Because the transformation is reversed, or "
+ "performed backwards, the image will be rotated with sufficient angle to "
+ "correct the error."
+-msgstr ""
++msgstr "Korrigerande rotation används främst för att räta upp digitala bilder. Om bilden lutar 13 grader behöver du inte försöka rotera med just den vinkeln. Med korrigerande rotation kan du rotera visuellt och rikta in lagret mot bilden. Eftersom transformeringen är omvänd, eller utförs baklänges, roteras bilden med tillräcklig vinkel för att rätta felet."
+ 
+ #: src/toolbox/transform/rotate.xml:144(term)
+ msgid "Constraints"
+@@ -468,15 +465,15 @@
+ msgid ""
+ "<guilabel>15 Degrees (Ctrl)</guilabel> will constrain the rotation to angles "
+ "divisible by 15 degrees."
+-msgstr ""
++msgstr "<guilabel>15 grader (Ctrl)</guilabel> begränsar rotationen till vinklar som är delbara med 15 grader."
+ 
+ #: src/toolbox/transform/rotate.xml:155(title)
+ msgid "The Rotation Information window"
+-msgstr ""
++msgstr "Fönstret Rotationsinformation"
+ 
+ #: src/toolbox/transform/rotate.xml:157(title)
+ msgid "The Rotation Information dialog window"
+-msgstr ""
++msgstr "Dialogfönstret Rotationsinformation"
+ 
+ #: src/toolbox/transform/rotate.xml:167(term)
+ msgid "Angle"
+@@ -484,11 +481,11 @@
+ 
+ #: src/toolbox/transform/rotate.xml:169(para)
+ msgid "Here you can set the rotation angle, from -180° to +180°, i.e. 360°."
+-msgstr ""
++msgstr "Här kan du ange rotationsvinkeln från −180° till +180°, alltså 360°."
+ 
+ #: src/toolbox/transform/rotate.xml:176(term)
+ msgid "Center X/Y"
+-msgstr ""
++msgstr "Centrum X/Y"
+ 
+ #: src/toolbox/transform/rotate.xml:178(para)
+ msgid ""
+@@ -496,47 +493,44 @@
+ "represented by a large point in the image. A click-and-drag on this point "
+ "also allows you to move this center. Default unit of measurement is pixel, "
+ "but you can change it by using the drop-down list."
+-msgstr ""
++msgstr "Alternativet låter dig ange rotationscentrumets position, som representeras av en stor punkt i bilden. Du kan också flytta centrumet genom att klicka och dra i punkten. Standardmåttenheten är bildpunkt, men du kan ändra den med listrutan."
+ 
+ #: src/toolbox/transform/rotate.xml:189(para)
+ msgid ""
+ "You can also rotate layers with <menuchoice><guimenu>Layer</"
+ "guimenu><guisubmenu>Transform</guisubmenu><guimenuitem>Arbitrary Rotation..."
+ "</guimenuitem></menuchoice>"
+-msgstr ""
++msgstr "Du kan också rotera lager via <menuchoice><guimenu>Lager</guimenu><guisubmenu>Transformera</guisubmenu><guimenuitem>Godtycklig rotation …</guimenuitem></menuchoice>"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/perspective.xml:29(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/toolbox-perspective.png'; "
+ "md5=75cb3d8c889e5b20ccd392491e992546"
+ msgstr ""
+-"@@image: 'images/toolbox/toolbox-perspective.png'; md5=THIS FILE DOESN'T "
+-"EXIST"
++"@@image: 'images/toolbox/toolbox-perspective.png'; "
++"md5=75cb3d8c889e5b20ccd392491e992546"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/perspective.xml:93(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/tool-options-perspective.png'; "
+ "md5=6be91d209195a14e5ce4b598a196c680"
+ msgstr ""
+-"@@image: 'images/toolbox/tool-options-perspective.png'; md5=THIS FILE "
+-"DOESN'T EXIST"
++"@@image: 'images/toolbox/tool-options-perspective.png'; "
++"md5=6be91d209195a14e5ce4b598a196c680"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/perspective.xml:123(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/tool-dialog-perspective.png'; "
+ "md5=4ab905f70a270153227aac296d2a40ab"
+ msgstr ""
+-"@@image: 'images/toolbox/tool-dialog-perspective.png'; md5=THIS FILE DOESN'T "
+-"EXIST"
++"@@image: 'images/toolbox/tool-dialog-perspective.png'; "
++"md5=4ab905f70a270153227aac296d2a40ab"
+ 
+ #: src/toolbox/transform/perspective.xml:15(title)
+ #: src/toolbox/transform/perspective.xml:18(secondary)
+@@ -546,7 +540,7 @@
+ 
+ #: src/toolbox/transform/perspective.xml:25(title)
+ msgid "Perspective tool"
+-msgstr ""
++msgstr "Perspektivverktyget"
+ 
+ #: src/toolbox/transform/perspective.xml:33(para)
+ msgid ""
+@@ -559,49 +553,48 @@
+ "time, a <quote>Transformation information</quote> pops up, which lets you "
+ "valid the transformation. At the center of the element, a circle lets you "
+ "move the element by click-and-drag."
+-msgstr ""
++msgstr "Perspektivverktyget används för att ändra <quote>perspektivet</quote> för innehållet i det aktiva lagret, innehållet i en markering eller en bana. När du klickar på bilden visas, beroende på vald förhandsgranskningstyp, en rektangulär ram eller ett rutnät runt markeringen (eller runt hela lagret om ingen markering finns), med ett handtag i vart och ett av de fyra hörnen. Genom att dra i handtagen kan du ändra perspektivet. Samtidigt visas <quote>Transformeringsinformation</quote>, där du kan bekräfta transformeringen. En cirkel i objektets mitt låter dig flytta objektet genom att dra."
+ 
+ #: src/toolbox/transform/perspective.xml:47(para)
+ msgid ""
+ "This tool is not actually a perspective tool, as it doesn't impose "
+ "perspective rules. It is better described as a distort tool."
+-msgstr ""
++msgstr "Detta är egentligen inte ett perspektivverktyg, eftersom det inte tillämpar perspektivregler. Det beskrivs bättre som ett förvrängningsverktyg."
+ 
+ #: src/toolbox/transform/perspective.xml:55(para)
+ msgid "You can access the Perspective tool in different ways:"
+-msgstr ""
++msgstr "Du kan komma åt perspektivverktyget på olika sätt:"
+ 
+ #: src/toolbox/transform/perspective.xml:60(para)
+ msgid ""
+ "From the image menu bar <guimenuitem>Tools</guimenuitem>/ "
+ "<guimenuitem>Transform Tools</guimenuitem><guimenuitem>Perspective</"
+ "guimenuitem>,"
+-msgstr ""
++msgstr "Från bildmenyraden <guimenuitem>Verktyg</guimenuitem>/ <guimenuitem>Transformeringsverktyg</guimenuitem><guimenuitem>Perspektiv</guimenuitem>,"
+ 
+ #: src/toolbox/transform/perspective.xml:68(para)
+ msgid ""
+ "By clicking the tool icon: <guiicon><inlinegraphic fileref=\"images/toolbox/"
+ "stock-tool-perspective-22.png\"/></guiicon> in Toolbox,"
+-msgstr ""
++msgstr "Genom att klicka på verktygsikonen: <guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-perspective-22.png\"/></guiicon> i verktygslådan,"
+ 
+ #: src/toolbox/transform/perspective.xml:77(para)
+ msgid ""
+ "By using the <keycombo><keycap>Shift</keycap><keycap>P</keycap></keycombo> "
+ "key combination."
+-msgstr ""
++msgstr "Med tangentkombinationen <keycombo><keycap>Skift</keycap><keycap>P</keycap></keycombo>."
+ 
+ #: src/toolbox/transform/perspective.xml:89(title)
+ msgid "<quote>Perspective</quote> tool options"
+-msgstr ""
++msgstr "Alternativ för verktyget <quote>Perspektiv</quote>"
+ 
+ #: src/toolbox/transform/perspective.xml:113(title)
+ msgid "The Information window for perspective transformation"
+-msgstr ""
++msgstr "Informationsfönstret för perspektivtransformering"
+ 
+ #: src/toolbox/transform/perspective.xml:117(title)
+-#, fuzzy
+ msgid "The dialog window of the <quote>Perspective</quote> tool"
+-msgstr "Verktyget <placeholder-1/> i verktygslådan"
++msgstr "Dialogfönstret för verktyget <quote>Perspektiv</quote>"
+ 
+ #: src/toolbox/transform/perspective.xml:129(term)
+ msgid "Matrix"
+@@ -611,27 +604,27 @@
+ msgid ""
+ "You can get a small knowledge about matrices in the <xref linkend=\"plug-in-"
+ "convmatrix\"/>."
+-msgstr ""
++msgstr "Du kan läsa en kort introduktion till matriser i <xref linkend=\"plug-in-convmatrix\"/>."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/move.xml:31(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/toolbox-move.png'; "
+ "md5=fd27bec04d19968de59cdb7ef6bb28b5"
+ msgstr ""
+-"@@image: 'images/toolbox/toolbox-move.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/toolbox-move.png'; "
++"md5=fd27bec04d19968de59cdb7ef6bb28b5"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/move.xml:105(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/tool-options-move.png'; "
+ "md5=d9041645433b217faed5b999b2276c92"
+ msgstr ""
+-"@@image: 'images/toolbox/tool-options-move.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/tool-options-move.png'; "
++"md5=d9041645433b217faed5b999b2276c92"
+ 
+ #: src/toolbox/transform/move.xml:18(title)
+ #: src/toolbox/transform/move.xml:21(secondary)
+@@ -646,42 +639,42 @@
+ 
+ #: src/toolbox/transform/move.xml:28(title)
+ msgid "The Move tool in Toolbox"
+-msgstr ""
++msgstr "Flyttverktyget i verktygslådan"
+ 
+ #: src/toolbox/transform/move.xml:35(para)
+ msgid ""
+ "The Move Tool is used to move layers, selections, paths or guides. It works "
+ "also on texts."
+-msgstr ""
++msgstr "Flyttverktyget används för att flytta lager, markeringar, banor eller hjälplinjer. Det fungerar även på text."
+ 
+ #: src/toolbox/transform/move.xml:42(para)
+ msgid "You can access the Move Tool in different ways:"
+-msgstr ""
++msgstr "Du kan komma åt flyttverktyget på olika sätt:"
+ 
+ #: src/toolbox/transform/move.xml:47(para)
+ msgid ""
+ "From the image menu bar <menuchoice><guimenu>Tools</"
+ "guimenu><guisubmenu>Transform Tools</guisubmenu><guimenuitem>Move</"
+ "guimenuitem></menuchoice>,"
+-msgstr ""
++msgstr "Från bildmenyraden via <menuchoice><guimenu>Verktyg</guimenu><guisubmenu>Transformeringsverktyg</guisubmenu><guimenuitem>Flytta</guimenuitem></menuchoice>,"
+ 
+ #: src/toolbox/transform/move.xml:57(para)
+ msgid ""
+ "By clicking the tool icon: <guiicon><inlinegraphic fileref=\"images/toolbox/"
+ "stock-tool-move-22.png\"/></guiicon>."
+-msgstr ""
++msgstr "Genom att klicka på verktygsikonen: <guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-move-22.png\"/></guiicon>."
+ 
+ #: src/toolbox/transform/move.xml:66(para)
+ msgid "By using the keyboard shortcut <keycap>M</keycap>."
+-msgstr ""
++msgstr "Med tangentgenvägen <keycap>M</keycap>."
+ 
+ #: src/toolbox/transform/move.xml:71(para)
+ msgid "The Move tool is automatically activated when you create a guide."
+-msgstr ""
++msgstr "Flyttverktyget aktiveras automatiskt när du skapar en hjälplinje."
+ 
+ #: src/toolbox/transform/move.xml:77(primary)
+ msgid "Space bar"
+-msgstr ""
++msgstr "Blanksteg"
+ 
+ #: src/toolbox/transform/move.xml:79(para)
+ msgid ""
+@@ -692,26 +685,26 @@
+ "is enabled in <menuchoice><guimenu>Edit</guimenu><guisubmenu>Preferences</"
+ "guisubmenu><guisubmenu>Image Windows</guisubmenu><guimenuitem>Space Bar</"
+ "guimenuitem></menuchoice>."
+-msgstr ""
++msgstr "Om du håller ned <keycap>blanksteg</keycap> ändras det aktiva verktyget tillfälligt till Flytta. Flyttverktyget förblir aktivt så länge blanksteg hålls ned. Det ursprungliga verktyget aktiveras igen när du släpper blanksteg. Beteendet finns endast om alternativet <guilabel>Växla till flyttverktyget</guilabel> är aktiverat i <menuchoice><guimenu>Redigera</guimenu><guisubmenu>Inställningar</guisubmenu><guisubmenu>Bildfönster</guisubmenu><guimenuitem>Blanksteg</guimenuitem></menuchoice>."
+ 
+ #: src/toolbox/transform/move.xml:101(title)
+ msgid "Move Tool options"
+-msgstr ""
++msgstr "Alternativ för flyttverktyget"
+ 
+ #: src/toolbox/transform/move.xml:117(para)
+ msgid "Keep in mind that your Move choice persists after quitting the tool."
+-msgstr ""
++msgstr "Tänk på att ditt val för Flytta behålls när du avslutar verktyget."
+ 
+ #: src/toolbox/transform/move.xml:124(term)
+ msgid "Tool toggle (Shift)"
+-msgstr ""
++msgstr "Verktygsväxling (Skift)"
+ 
+ #. Using a <phrase> prevents the <guiicon> from being included
+ #.                 in the "msgid" of the po file. So remove the <phrase> tags
+ #.                 only if necessary for translating.
+ #: src/toolbox/transform/move.xml:133(phrase)
+ msgid "If Move is on <quote>Layer</quote>"
+-msgstr ""
++msgstr "Om Flytta är inställt på <quote>Lager</quote>"
+ 
+ #: src/toolbox/transform/move.xml:139(term)
+ msgid "Pick a layer or guide"
+@@ -724,13 +717,13 @@
+ "and-drag it. If the mouse pointer has a small hand shape (showing that you "
+ "do <emphasis>not</emphasis> pick an element of the active layer), you will "
+ "move a non-active layer instead (it becomes the active layer while moving)."
+-msgstr ""
++msgstr "I en bild med flera lager ändras muspekaren till ett hårkors när den passerar över ett objekt som tillhör det aktuella lagret. Då kan du klicka och dra i det. Om muspekaren har formen av en liten hand (vilket visar att du <emphasis>inte</emphasis> väljer ett objekt i det aktiva lagret) flyttar du i stället ett icke-aktivt lager, som blir aktivt medan det flyttas."
+ 
+ #: src/toolbox/transform/move.xml:150(para)
+ msgid ""
+ "If a guide exists on your image, it will turn to red when the mouse pointer "
+ "goes over. Then it is activated and you can move it."
+-msgstr ""
++msgstr "Om det finns en hjälplinje i bilden blir den röd när muspekaren passerar över den. Då aktiveras den och du kan flytta den."
+ 
+ #: src/toolbox/transform/move.xml:158(term)
+ msgid "Move the active layer"
+@@ -740,23 +733,23 @@
+ msgid ""
+ "Only the current layer will be moved. This may be useful if you want to move "
+ "a layer with transparent areas, where you can easily pick the wrong layer."
+-msgstr ""
++msgstr "Endast det aktuella lagret flyttas. Det kan vara användbart om du vill flytta ett lager med genomskinliga områden, där det är lätt att välja fel lager."
+ 
+ #. see above
+ #: src/toolbox/transform/move.xml:171(phrase)
+ msgid "If Move is on <quote>Selection</quote>"
+-msgstr ""
++msgstr "Om Flytta är inställt på <quote>Markering</quote>"
+ 
+ #: src/toolbox/transform/move.xml:176(para)
+ msgid ""
+ "The selection's outline will be moved (see <xref linkend=\"gimp-using-"
+ "selections-moving\"/>)."
+-msgstr ""
++msgstr "Markeringens kontur flyttas (se <xref linkend=\"gimp-using-selections-moving\"/>)."
+ 
+ #. see above
+ #: src/toolbox/transform/move.xml:188(phrase)
+ msgid "If Move is on <quote>Path</quote>"
+-msgstr ""
++msgstr "Om Flytta är inställt på <quote>Bana</quote>"
+ 
+ #: src/toolbox/transform/move.xml:194(term)
+ msgid "Pick a path"
+@@ -768,7 +761,7 @@
+ "goes over a <link linkend=\"gimp-path-dialog-using\">visible path</link>. "
+ "Then you can move this path by click-and-dragging it (it will be the active "
+ "path while moving)."
+-msgstr ""
++msgstr "Detta är standardalternativet. Muspekaren ändras till en liten hand när den passerar över en <link linkend=\"gimp-path-dialog-using\">synlig bana</link>. Därefter kan du flytta banan genom att klicka och dra i den (den blir den aktiva banan medan den flyttas)."
+ 
+ #: src/toolbox/transform/move.xml:206(term)
+ msgid "Move the active path"
+@@ -778,22 +771,22 @@
+ msgid ""
+ "Only the current path will be moved. You can change the current path in the "
+ "<link linkend=\"gimp-path-dialog\">Path Dialog</link>."
+-msgstr ""
++msgstr "Endast den aktuella banan flyttas. Du kan ändra aktuell bana i <link linkend=\"gimp-path-dialog\">Bandialogrutan</link>."
+ 
+ #: src/toolbox/transform/move.xml:222(title)
+ msgid "Summary of Move tool actions"
+-msgstr ""
++msgstr "Sammanfattning av flyttverktygets funktioner"
+ 
+ #: src/toolbox/transform/move.xml:225(term)
+ msgid "Moving a selection"
+-msgstr ""
++msgstr "Flytta en markering"
+ 
+ #: src/toolbox/transform/move.xml:227(para)
+ msgid ""
+ "The Move tool allows to move the selection outline only. If the Move Mode is "
+ "<quote>Layer</quote>, you must hold down <keycombo><keycap>Ctrl</"
+ "keycap><keycap>Alt</keycap></keycombo> keys."
+-msgstr ""
++msgstr "Med flyttverktyget kan du endast flytta markeringskonturen. Om flyttläget är <quote>Lager</quote> måste du hålla ned tangenterna <keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap></keycombo>."
+ 
+ #: src/toolbox/transform/move.xml:232(para)
+ msgid ""
+@@ -801,7 +794,7 @@
+ "move the selection outline. You can also use the arrow keys to move "
+ "selections precisely. Then, holding down the <keycap> Shift</keycap> key "
+ "moves then by increments of 25 pixels."
+-msgstr ""
++msgstr "Om flyttläget är Markering kan du klicka och dra i en valfri punkt på arbetsytan för att flytta markeringskonturen. Du kan också använda piltangenterna för att flytta markeringar exakt. Om du håller ned <keycap>Skift</keycap> flyttas de i steg om 25 bildpunkter."
+ 
+ #: src/toolbox/transform/move.xml:238(para)
+ msgid ""
+@@ -810,13 +803,13 @@
+ "guides or grid if the <menuchoice><guimenu>View</guimenu><guimenuitem>Snap "
+ "to Guides (or Grid)</guimenuitem></menuchoice> option is checked: this makes "
+ "aligning selections easier."
+-msgstr ""
++msgstr "När du flyttar en markering med flyttverktyget markeras markeringens mitt med ett litet kors. Korset och markeringens gränser fäster mot hjälplinjer eller rutnät om alternativet <menuchoice><guimenu>Visa</guimenu><guimenuitem>Fäst mot hjälplinjer (eller rutnät)</guimenuitem></menuchoice> är markerat: detta gör det lättare att justera markeringar."
+ 
+ #: src/toolbox/transform/move.xml:248(para)
+ msgid ""
+ "See <link linkend=\"gimp-using-selections-moving\">Moving selections</link> "
+ "for other possibilities."
+-msgstr ""
++msgstr "Se <link linkend=\"gimp-using-selections-moving\">Flytta markeringar</link> för andra möjligheter."
+ 
+ #: src/toolbox/transform/move.xml:255(term)
+ msgid "Moving a layer"
+@@ -827,7 +820,7 @@
+ "The Move Mode must be <quote>Layer</quote>. Then you can choose between "
+ "<guilabel>Move the Active Layer</guilabel> and, if you have one or more "
+ "layers, <guilabel>Point to Layer (or Guide)</guilabel>."
+-msgstr ""
++msgstr "Flyttläget måste vara <quote>Lager</quote>. Du kan då välja mellan <guilabel>Flytta det aktiva lagret</guilabel> och, om du har ett eller flera lager, <guilabel>Peka på lager (eller hjälplinje)</guilabel>."
+ 
+ #: src/toolbox/transform/move.xml:270(term)
+ msgid "Moving Grouped Layers"
+@@ -837,7 +830,7 @@
+ msgid ""
+ "If layers are grouped (with the little chain symbol) they will all move, "
+ "regardless of which layer is currently active."
+-msgstr ""
++msgstr "Om lager är grupperade (med den lilla kedjesymbolen) flyttas alla, oavsett vilket lager som är aktivt."
+ 
+ #: src/toolbox/transform/move.xml:279(term)
+ msgid "Moving a guide"
+@@ -853,7 +846,7 @@
+ "activated. That's not the case after using another tool, and you have to "
+ "activate it by yourself. When the mouse pointer goes over a guide, this "
+ "guide turns to red and you can click-and-drag to move it."
+-msgstr ""
++msgstr "När du drar ut en hjälplinje från en linjal aktiveras flyttverktyget automatiskt. Det sker inte efter att du har använt ett annat verktyg, då måste du aktivera det själv. När muspekaren passerar över en hjälplinje blir den röd och du kan klicka och dra för att flytta den."
+ 
+ #: src/toolbox/transform/move.xml:295(term)
+ msgid "Moving a path"
+@@ -866,7 +859,7 @@
+ "to <quote>Path</quote>. Note that the path becomes invisible; make it "
+ "visible in the Path Dialog. You can choose the path to be moved or move the "
+ "active path."
+-msgstr ""
++msgstr "Bandialogrutan har en egen flyttfunktion: se <xref linkend=\"gimp-tool-path\"/>. Du kan dock också använda flyttverktyget. Flyttläget måste vara <quote>Bana</quote>. Observera att banan blir osynlig; gör den synlig i bandialogrutan. Du kan välja den bana som ska flyttas eller flytta den aktiva banan."
+ 
+ #: src/toolbox/transform/move.xml:311(term)
+ msgid "Moving a text"
+@@ -880,27 +873,27 @@
+ msgid ""
+ "Every text has its own layer and can be moved as layers. See <xref linkend="
+ "\"gimp-tool-text\"/>."
+-msgstr ""
++msgstr "Varje text har ett eget lager och kan flyttas som lager. Se <xref linkend=\"gimp-tool-text\"/>."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/flip.xml:28(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/toolbox-flip.png'; "
+ "md5=39fe1a9b0b3ce081905cb2f0a48c9c55"
+ msgstr ""
+-"@@image: 'images/toolbox/toolbox-flip.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/toolbox-flip.png'; "
++"md5=39fe1a9b0b3ce081905cb2f0a48c9c55"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/flip.xml:94(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/tool-options-flip.png'; "
+ "md5=ffedfacaaaa3ccc65eb260129a72491f"
+ msgstr ""
+-"@@image: 'images/toolbox/tool-options-flip.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/tool-options-flip.png'; "
++"md5=ffedfacaaaa3ccc65eb260129a72491f"
+ 
+ #: src/toolbox/transform/flip.xml:15(title)
+ #: src/toolbox/transform/flip.xml:18(secondary)
+@@ -910,136 +903,140 @@
+ 
+ #: src/toolbox/transform/flip.xml:25(title)
+ msgid "Flip tool"
+-msgstr ""
++msgstr "Vändverktyget"
+ 
+ #: src/toolbox/transform/flip.xml:32(para)
+ msgid ""
+ "The Flip tool provides the ability to flip layers or selections either "
+ "horizontally or vertically. When a selection is flipped, a new layer with a "
+ "Floating Selection is created. You can use this tool to create reflections."
+-msgstr ""
++msgstr "Vändverktyget gör det möjligt att vända lager eller markeringar vågrätt eller lodrätt. När en markering vänds skapas ett nytt lager med en flytande markering. Du kan använda verktyget för att skapa speglingar."
+ 
+ #: src/toolbox/transform/flip.xml:41(para)
+ msgid "You can access the Flip Tool in different ways:"
+-msgstr ""
++msgstr "Du kan komma åt vändverktyget på olika sätt:"
+ 
+ #: src/toolbox/transform/flip.xml:46(para)
+ msgid ""
+ "From the image menu bar <guimenuitem>Tools</guimenuitem>/ "
+ "<guimenuitem>Transform Tools</guimenuitem><guimenuitem>Flip</guimenuitem>,"
+-msgstr ""
++msgstr "Från bildmenyraden <guimenuitem>Verktyg</guimenuitem>/ <guimenuitem>Transformeringsverktyg</guimenuitem><guimenuitem>Vänd</guimenuitem>,"
+ 
+ #: src/toolbox/transform/flip.xml:54(para)
+ msgid ""
+ "By clicking the tool icon: <guiicon><inlinegraphic fileref=\"images/toolbox/"
+ "stock-tool-flip-22.png\"/></guiicon> in Toolbox,"
+-msgstr ""
++msgstr "Genom att klicka på verktygsikonen: <guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-flip-22.png\"/></guiicon> i verktygslådan,"
+ 
+ #: src/toolbox/transform/flip.xml:63(para)
+ msgid ""
+ "by using the <keycombo><keycap>Shift</keycap><keycap>F</keycap></keycombo> "
+ "key combination."
+-msgstr ""
++msgstr "med tangentkombinationen <keycombo><keycap>Skift</keycap><keycap>F</keycap></keycombo>."
+ 
+ #: src/toolbox/transform/flip.xml:80(para)
+ msgid ""
+ "<keycap>Ctrl</keycap> lets you change the modes between horizontal and "
+ "vertical flipping."
+-msgstr ""
++msgstr "<keycap>Ctrl</keycap> låter dig växla mellan vågrät och lodrät vändning."
+ 
+ #: src/toolbox/transform/flip.xml:91(title)
+ msgid "<quote>Flip Tool</quote> Options"
+-msgstr ""
++msgstr "Alternativ för <quote>vändverktyget</quote>"
+ 
+ #: src/toolbox/transform/flip.xml:103(term)
+ msgid "Affect"
+-msgstr ""
++msgstr "Påverka"
+ 
+ #: src/toolbox/transform/flip.xml:109(term)
+ msgid "Flip Type"
+-msgstr ""
++msgstr "Vändtyp"
+ 
+ #: src/toolbox/transform/flip.xml:111(para)
+ msgid ""
+ "The Tool Toggle settings control flipping in either a Horizontal or Vertical "
+ "direction. This toggle can also be switched using a key modifier."
+-msgstr ""
++msgstr "Inställningarna för verktygsväxlingen styr om vändningen sker vågrätt eller lodrätt. Växlingen kan också ändras med en väljartangent."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/crop.xml:37(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/toolbox-crop.png'; "
+ "md5=a50a55b5795847e16cd009dd133c2bb3"
+ msgstr ""
+-"@@image: 'images/toolbox/toolbox-crop.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/toolbox-crop.png'; "
++"md5=a50a55b5795847e16cd009dd133c2bb3"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/crop.xml:81(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/display_ratio.png'; "
+ "md5=e7c90f8b218b788b22bac7d122d063d2"
+-msgstr "@@image: 'images/toolbox/select-area.png'; md5=THIS FILE DOESN'T EXIST"
++msgstr ""
++"@@image: 'images/toolbox/display_ratio.png'; "
++"md5=e7c90f8b218b788b22bac7d122d063d2"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/crop.xml:151(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/tool-options-crop.png'; "
+ "md5=a0c9fd69d1d2c42b5dc9ca7092fc717a"
+ msgstr ""
+-"@@image: 'images/toolbox/tool-options-crop.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/tool-options-crop.png'; "
++"md5=a0c9fd69d1d2c42b5dc9ca7092fc717a"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/crop.xml:180(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/crop-grow-1.png'; "
+ "md5=df47129bff928265282eb300965de09b"
+-msgstr "@@image: 'images/toolbox/crop-grow-1.png'; md5=THIS FILE DOESN'T EXIST"
++msgstr ""
++"@@image: 'images/toolbox/crop-grow-1.png'; "
++"md5=df47129bff928265282eb300965de09b"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/crop.xml:188(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/crop-grow-2.png'; "
+ "md5=a5d6b55738e8c6713a737be5f55f78e3"
+-msgstr "@@image: 'images/toolbox/crop-grow-2.png'; md5=THIS FILE DOESN'T EXIST"
++msgstr ""
++"@@image: 'images/toolbox/crop-grow-2.png'; "
++"md5=a5d6b55738e8c6713a737be5f55f78e3"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/crop.xml:199(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/crop-grow-3.png'; "
+ "md5=1ffddbeb791fb3cb37bba68496196285"
+-msgstr "@@image: 'images/toolbox/crop-grow-1.png'; md5=THIS FILE DOESN'T EXIST"
++msgstr ""
++"@@image: 'images/toolbox/crop-grow-3.png'; "
++"md5=1ffddbeb791fb3cb37bba68496196285"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/crop.xml:316(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/auto-shrink1.png'; "
+ "md5=2db43832fff86a24194dc3deab1afb3a"
+ msgstr ""
+-"@@image: 'images/toolbox/auto-shrink1.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/auto-shrink1.png'; "
++"md5=2db43832fff86a24194dc3deab1afb3a"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/crop.xml:327(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/auto-shrink2.png'; "
+ "md5=f3cf71c73847af377b515806a98ece07"
+ msgstr ""
+-"@@image: 'images/toolbox/auto-shrink2.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/auto-shrink2.png'; "
++"md5=f3cf71c73847af377b515806a98ece07"
+ 
+ #: src/toolbox/transform/crop.xml:18(title)
+ #: src/toolbox/transform/crop.xml:21(primary)
+@@ -1068,7 +1065,7 @@
+ "borders, or to eliminate unwanted areas to provide you with a more focused "
+ "working area. It is also useful if you need a specific image size that does "
+ "not match the original dimensions of your image."
+-msgstr ""
++msgstr "Beskärningsverktyget används för att beskära eller klippa en bild. Det fungerar på bildens alla lager, både synliga och osynliga. Verktyget används ofta för att ta bort kanter eller oönskade områden för att ge dig ett mer fokuserat arbetsområde. Det är också användbart om du behöver en viss bildstorlek som inte motsvarar bildens ursprungliga dimensioner."
+ 
+ #: src/toolbox/transform/crop.xml:48(para)
+ msgid ""
+@@ -1081,115 +1078,114 @@
+ "outside area can be darkened with a nice passepartout effect to better get "
+ "the idea of how the final crop will look like. To validate cropping, click "
+ "inside the crop rectangle or press the <keycap>Enter</keycap> key."
+-msgstr ""
++msgstr "Precis som markeringsverktygen förbättrades det nya beskärningsverktyget i version 2,4. Storlekshandtagen ändrar faktiskt beskärningsrektangelns storlek i stället för att erbjuda både storleksändring och flytt. Verktyget beter sig mer naturligt och konsekvent med andra GIMP-verktyg. Flytta rektangeln genom att dra inuti området. Du kan ändra storleken längs en eller två axlar samtidigt genom att dra i handtagsfälten på sidorna och i hörnen. Området utanför kan mörkas med en passepartout-effekt så att du bättre ser hur den färdiga beskärningen kommer att se ut. Bekräfta beskärningen genom att klicka inuti beskärningsrektangeln eller trycka på <keycap>Retur</keycap>."
+ 
+ #: src/toolbox/transform/crop.xml:60(para)
+ msgid ""
+ "When the mouse becomes the moving cross-hair, you can use the keyboard arrow "
+ "keys to move the crop rectangle. Holding the <keycap>Shift</keycap> key down "
+ "allows to move by increments of 25 pixels."
+-msgstr ""
++msgstr "När muspekaren blir ett flyttande hårkors kan du använda tangentbordets piltangenter för att flytta beskärningsrektangeln. Om du håller ned <keycap>Skift</keycap> flyttas den i steg om 25 bildpunkter."
+ 
+ #: src/toolbox/transform/crop.xml:65(para)
+ msgid ""
+ "You can use Guides to position the crop area. Make sure that the "
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Snap to Guides</"
+ "guimenuitem></menuchoice> option is checked."
+-msgstr ""
++msgstr "Du kan använda hjälplinjer för att placera beskärningsområdet. Se till att alternativet <menuchoice><guimenu>Visa</guimenu><guimenuitem>Fäst mot hjälplinjer</guimenuitem></menuchoice> är markerat."
+ 
+ #: src/toolbox/transform/crop.xml:74(para)
+ msgid "You can see the aspect ratio in the status bar: <placeholder-1/>"
+-msgstr ""
++msgstr "Du kan se bildförhållandet i statusraden: <placeholder-1/>"
+ 
+ #: src/toolbox/transform/crop.xml:90(para)
+ msgid "You can activate this tool in different ways:"
+-msgstr ""
++msgstr "Du kan aktivera verktyget på olika sätt:"
+ 
+ #: src/toolbox/transform/crop.xml:95(para)
+ msgid ""
+ "From the image menu bar <menuchoice><guimenu>Tools</"
+ "guimenu><guisubmenu>Transform tools</guisubmenu><guimenuitem>Crop</"
+ "guimenuitem></menuchoice>,"
+-msgstr ""
++msgstr "Från bildmenyraden via <menuchoice><guimenu>Verktyg</guimenu><guisubmenu>Transformeringsverktyg</guisubmenu><guimenuitem>Beskär</guimenuitem></menuchoice>,"
+ 
+ #: src/toolbox/transform/crop.xml:105(para)
+ msgid ""
+ "by clicking the tool icon: <guiicon><inlinegraphic fileref=\"images/toolbox/"
+ "stock-tool-crop-22.png\"/></guiicon>in the ToolBox,"
+-msgstr ""
++msgstr "genom att klicka på verktygsikonen: <guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-crop-22.png\"/></guiicon> i verktygslådan,"
+ 
+ #: src/toolbox/transform/crop.xml:114(para)
+ msgid ""
+ "by using the keyboard shortcut <keycombo><keycap>Shift</keycap><keycap>C</"
+ "keycap></keycombo>."
+-msgstr ""
++msgstr "med tangentgenvägen <keycombo><keycap>Skift</keycap><keycap>C</keycap></keycombo>."
+ 
+ #: src/toolbox/transform/crop.xml:124(para)
+ msgid "When you maintain click on the crop rectangle, handles disappear and"
+-msgstr ""
++msgstr "När du håller ned musklicket på beskärningsrektangeln försvinner handtagen och"
+ 
+ #: src/toolbox/transform/crop.xml:130(para)
+ msgid ""
+ "holding down the <keycap>Ctrl</keycap> key toggles to the <guilabel>Extend "
+ "from Center</guilabel> option,"
+-msgstr ""
++msgstr "om du håller ned <keycap>Ctrl</keycap> växlas alternativet <guilabel>Utöka från mitten</guilabel>,"
+ 
+ #: src/toolbox/transform/crop.xml:136(para)
+ msgid ""
+ "holding down the <keycap>Shift</keycap> key toggles to the <guilabel>Fixed</"
+ "guilabel> option, which makes some dimensions fixed."
+-msgstr ""
++msgstr "om du håller ned <keycap>Skift</keycap> växlas alternativet <guilabel>Fast</guilabel>, som låser vissa dimensioner."
+ 
+ #: src/toolbox/transform/crop.xml:148(title)
+ msgid "Tool Options for the <quote>Crop</quote> tool"
+-msgstr ""
++msgstr "Verktygsalternativ för <quote>Beskär</quote>"
+ 
+ #: src/toolbox/transform/crop.xml:160(term)
+ msgid "Current Layer Only"
+-msgstr ""
++msgstr "Endast aktuellt lager"
+ 
+ #: src/toolbox/transform/crop.xml:162(para)
+ msgid "This option will make crop affect only the active layer."
+-msgstr ""
++msgstr "Alternativet gör att beskärning endast påverkar det aktiva lagret."
+ 
+ #: src/toolbox/transform/crop.xml:168(term)
+ msgid "Allow Growing"
+-msgstr ""
++msgstr "Tillåt utökning"
+ 
+ #: src/toolbox/transform/crop.xml:170(para)
+ msgid ""
+ "This option allows the crop or resize to take place outside the image (or "
+ "layer), and even the canvas. So, you can give the size you want to the "
+ "resulting image. Transparency will be used if there is no material to crop."
+-msgstr ""
++msgstr "Alternativet låter beskärning eller storleksändring ske utanför bilden (eller lagret), och till och med utanför arbetsytan. Du kan alltså ge den resulterande bilden önskad storlek. Genomskinlighet används om det inte finns något material att beskära."
+ 
+ #: src/toolbox/transform/crop.xml:177(title)
+ msgid "Example for <quote>Allow Growing</quote>"
+-msgstr ""
++msgstr "Exempel på <quote>Tillåt utökning</quote>"
+ 
+ #: src/toolbox/transform/crop.xml:183(para)
+ msgid "An image on a big canvas"
+-msgstr ""
++msgstr "En bild på en stor arbetsyta"
+ 
+ #: src/toolbox/transform/crop.xml:191(para)
+ msgid "The option is checked. The crop rectangle extends outside the canvas."
+-msgstr ""
++msgstr "Alternativet är markerat. Beskärningsrektangeln sträcker sig utanför arbetsytan."
+ 
+ #: src/toolbox/transform/crop.xml:202(para)
+-#, fuzzy
+ msgid "The resulting image."
+-msgstr "Resultatet"
++msgstr "Den resulterande bilden."
+ 
+ #: src/toolbox/transform/crop.xml:209(term)
+ msgid "Expand from Center"
+-msgstr ""
++msgstr "Utöka från mitten"
+ 
+ #: src/toolbox/transform/crop.xml:211(para)
+ msgid ""
+ "When this option is checked, the crop rectangle expands from the first pixel "
+ "you clicked taken for center. You can toggle this option with <keycap>Ctrl</"
+ "keycap> while drawing the crop rectangle."
+-msgstr ""
++msgstr "När alternativet är markerat utökas beskärningsrektangeln från den första bildpunkten som du klickade på och som används som centrum. Du kan växla alternativet med <keycap>Ctrl</keycap> medan du ritar beskärningsrektangeln."
+ 
+ #: src/toolbox/transform/crop.xml:220(term)
+ msgid "Fixed"
+@@ -1200,21 +1196,21 @@
+ "You can also access this option by holding down the <keycap>Ctrl</keycap> "
+ "key while drawing the crop rectangle. This option offers you several to make "
+ "drawing the crop rectangle respect fixed dimensions, or their ratio:"
+-msgstr ""
++msgstr "Du kan också komma åt alternativet genom att hålla ned <keycap>Ctrl</keycap> medan du ritar beskärningsrektangeln. Alternativet erbjuder flera sätt att låta beskärningsrektangeln följa fasta dimensioner eller deras förhållande:"
+ 
+ #: src/toolbox/transform/crop.xml:230(para)
+ msgid ""
+ "<guilabel>Aspect ratio</guilabel>: That's the default possibility. Width and "
+ "Height keep the same ratio they have in the original image, when drawing the "
+ "crop rectangle."
+-msgstr ""
++msgstr "<guilabel>Bildförhållande</guilabel>: Detta är standardalternativet. Bredd och höjd behåller samma förhållande som i den ursprungliga bilden när du ritar beskärningsrektangeln."
+ 
+ #: src/toolbox/transform/crop.xml:237(para)
+ msgid ""
+ "<guilabel>Width / Height</guilabel>: Only Width or Height will remain fixed. "
+ "The value of this dimension can be set in the text box below; it defaults to "
+ "100 pixels."
+-msgstr ""
++msgstr "<guilabel>Bredd / höjd</guilabel>: Endast bredd eller höjd förblir fast. Värdet för denna dimension kan anges i textrutan nedan; standardvärdet är 100 bildpunkter."
+ 
+ #: src/toolbox/transform/crop.xml:244(para)
+ msgid ""
+@@ -1224,7 +1220,7 @@
+ "image. On the right, two buttons let you choose a <guibutton>Landscape</"
+ "guibutton> (widthwise) or <guibutton>Portrait</guibutton> (upright) format "
+ "for the crop rectangle."
+-msgstr ""
++msgstr "<guilabel>Storlek</guilabel>: Både bredd och höjd är fasta. Värdena kan anges i textrutan nedan, exempelvis i formen <quote>150x100</quote>. Beskärningsrektangeln får dessa värden så snart du klickar på bilden. Till höger kan du med två knappar välja <guibutton>Liggande</guibutton> eller <guibutton>Stående</guibutton> format för beskärningsrektangeln."
+ 
+ #: src/toolbox/transform/crop.xml:259(term)
+ msgid "Position"
+@@ -1238,7 +1234,7 @@
+ "the unit thanks to the drop-down list of the <guibutton>px</guibutton> "
+ "button. The coordinate origin is the upper left corner of the canvas (not of "
+ "the image)."
+-msgstr ""
++msgstr "De två textrutorna visar beskärningsrektangelns övre vänstra hörns position i realtid (vågrätt till vänster, lodrätt till höger), och du kan också ändra den manuellt. Den anges i bildpunkter, men du kan ändra enhet i listrutan för knappen <guibutton>px</guibutton>. Koordinaternas origo är arbetsytans övre vänstra hörn (inte bildens)."
+ 
+ #: src/toolbox/transform/crop.xml:273(term)
+ msgid "Size"
+@@ -1250,7 +1246,7 @@
+ "right) of the crop-rectangle in real time and you can change it manually "
+ "too. It is stated in pixels, but you can change the unit thanks to the drop-"
+ "down list of the <guibutton>px</guibutton> button."
+-msgstr ""
++msgstr "De två textrutorna visar beskärningsrektangelns storlek i realtid (vågrätt till vänster, lodrätt till höger), och du kan också ändra den manuellt. Den anges i bildpunkter, men du kan ändra enhet i listrutan för knappen <guibutton>px</guibutton>."
+ 
+ #: src/toolbox/transform/crop.xml:285(term)
+ msgid "Highlight"
+@@ -1260,7 +1256,7 @@
+ msgid ""
+ "This option toggles the dark outside area intended for highlighting the crop "
+ "rectangle."
+-msgstr ""
++msgstr "Alternativet växlar det mörka området utanför beskärningsrektangeln, som används för att framhäva den."
+ 
+ #: src/toolbox/transform/crop.xml:294(term)
+ msgid "Guides"
+@@ -1270,119 +1266,119 @@
+ msgid ""
+ "All kinds of guides are described in <xref linkend=\"gimp-tool-rect-select\"/"
+ ">"
+-msgstr ""
++msgstr "Alla typer av hjälplinjer beskrivs i <xref linkend=\"gimp-tool-rect-select\"/>"
+ 
+ #: src/toolbox/transform/crop.xml:303(term)
+ msgid "Autoshrink"
+-msgstr ""
++msgstr "Beskär automatiskt"
+ 
+ #: src/toolbox/transform/crop.xml:305(para)
+ msgid ""
+ "The Auto Shrink button will attempt to locate a border, in the active layer, "
+ "from which to draw dimensions from. This option only works well with "
+ "isolated objects contrasting sharply with background."
+-msgstr ""
++msgstr "Knappen Beskär automatiskt försöker hitta en kant i det aktiva lagret att bestämma dimensionerna utifrån. Alternativet fungerar bara väl med isolerade objekt som tydligt kontrasterar mot bakgrunden."
+ 
+ #: src/toolbox/transform/crop.xml:312(title)
+ msgid "Example for <quote>Autoshrink</quote>"
+-msgstr ""
++msgstr "Exempel på <quote>Beskär automatiskt</quote>"
+ 
+ #: src/toolbox/transform/crop.xml:319(para)
+ msgid "An image with a sharp limit in it and a crop rectangle."
+-msgstr ""
++msgstr "En bild med en skarp gräns och en beskärningsrektangel."
+ 
+ #: src/toolbox/transform/crop.xml:330(para)
+ msgid ""
+ "After clicking the Autoshrink button, the crop rectangle has been shrunk to "
+ "fit the sharp limits."
+-msgstr ""
++msgstr "Efter att du har klickat på knappen Beskär automatiskt har beskärningsrektangeln förminskats för att passa de skarpa gränserna."
+ 
+ #: src/toolbox/transform/crop.xml:340(term)
+ msgid "Shrink Merged"
+-msgstr ""
++msgstr "Beskär sammanfogade"
+ 
+ #: src/toolbox/transform/crop.xml:342(para)
+ msgid ""
+ "This option works the same, with Auto Shrink or not. It uses the pixel "
+ "information from all <emphasis>visible</emphasis> layers, rather than just "
+ "from the active layer."
+-msgstr ""
++msgstr "Alternativet fungerar på samma sätt, med eller utan Beskär automatiskt. Det använder bildpunktsinformationen från alla <emphasis>synliga</emphasis> lager i stället för endast från det aktiva lagret."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/common-features.xml:29(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/transform-tools.png'; "
+ "md5=f97f1d932a0ff3ea54b91a9a1621f091"
+ msgstr ""
+-"@@image: 'images/toolbox/transform-tools.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/transform-tools.png'; "
++"md5=f97f1d932a0ff3ea54b91a9a1621f091"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/common-features.xml:47(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/transform-tools-common-options.png'; "
+ "md5=1467c5e803f4579a0a12b8d04562f131"
+ msgstr ""
+-"@@image: 'images/toolbox/transform-tools-common-options.png'; md5=THIS FILE "
+-"DOESN'T EXIST"
++"@@image: 'images/toolbox/transform-tools-common-options.png'; "
++"md5=1467c5e803f4579a0a12b8d04562f131"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/common-features.xml:204(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/clip-orig.png'; md5=ef09aaa423cff23b980b429aaad9562e"
+-msgstr "@@image: 'images/toolbox/clip-orig.png'; md5=THIS FILE DOESN'T EXIST"
++msgstr ""
++"@@image: 'images/toolbox/clip-orig.png'; md5=ef09aaa423cff23b980b429aaad9562e"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/common-features.xml:213(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/clip-adjust.png'; "
+ "md5=9f70766d154cc07b1296525d35099cfe"
+-msgstr "@@image: 'images/toolbox/clip-adjust.png'; md5=THIS FILE DOESN'T EXIST"
++msgstr ""
++"@@image: 'images/toolbox/clip-adjust.png'; "
++"md5=9f70766d154cc07b1296525d35099cfe"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/common-features.xml:224(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/clip-adjust2.png'; "
+ "md5=1e04e08939cb4b701c346032d9593f46"
+ msgstr ""
+-"@@image: 'images/toolbox/clip-adjust2.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/clip-adjust2.png'; "
++"md5=1e04e08939cb4b701c346032d9593f46"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/common-features.xml:254(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/clip-crop.png'; md5=ee9fcae39870d376770ba61342038732"
+-msgstr "@@image: 'images/toolbox/clip-crop.png'; md5=THIS FILE DOESN'T EXIST"
++msgstr ""
++"@@image: 'images/toolbox/clip-crop.png'; md5=ee9fcae39870d376770ba61342038732"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/common-features.xml:274(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/clip-3.png'; md5=212abb30228beac3fa4de8140c723ee3"
+-msgstr "@@image: 'images/toolbox/clip-3.png'; md5=THIS FILE DOESN'T EXIST"
++msgstr ""
++"@@image: 'images/toolbox/clip-3.png'; md5=212abb30228beac3fa4de8140c723ee3"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/common-features.xml:283(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/clip-3b.png'; md5=9aecf7723e320a6e5f96786445e8a1e6"
+-msgstr "@@image: 'images/toolbox/clip-3.png'; md5=THIS FILE DOESN'T EXIST"
++msgstr ""
++"@@image: 'images/toolbox/clip-3b.png'; md5=9aecf7723e320a6e5f96786445e8a1e6"
+ 
+ #: src/toolbox/transform/common-features.xml:18(title)
+ msgid "Common Features"
+-msgstr ""
++msgstr "Gemensamma funktioner"
+ 
+ #: src/toolbox/transform/common-features.xml:22(secondary)
+ msgid "Transform Tools"
+@@ -1390,7 +1386,7 @@
+ 
+ #: src/toolbox/transform/common-features.xml:26(title)
+ msgid "An overview of the transform tools"
+-msgstr ""
++msgstr "Översikt över transformeringsverktygen"
+ 
+ #: src/toolbox/transform/common-features.xml:33(para)
+ msgid ""
+@@ -1398,17 +1394,17 @@
+ "the presentation of the image or the presentation of an element of the "
+ "image, selection, layer or path. Each transform tool has an Option dialog "
+ "and an Information dialog to set parameters."
+-msgstr ""
++msgstr "I dialogrutan för transformeringsverktyg finns åtta verktyg för att ändra bildens utseende eller utseendet för ett bildelement, en markering, ett lager eller en bana. Varje transformeringsverktyg har en alternativdialogruta och en informationsdialogruta där parametrar kan ställas in."
+ 
+ #: src/toolbox/transform/common-features.xml:43(title)
+ msgid "Common options of transform tools"
+-msgstr ""
++msgstr "Gemensamma alternativ för transformeringsverktyg"
+ 
+ #: src/toolbox/transform/common-features.xml:51(para)
+ msgid ""
+ "Some options are shared by several transform tools. We will describe them "
+ "here. More specific options will be described with their tool."
+-msgstr ""
++msgstr "Vissa alternativ delas av flera transformeringsverktyg. De beskrivs här. Mer specifika alternativ beskrivs tillsammans med respektive verktyg."
+ 
+ #: src/toolbox/transform/common-features.xml:57(term)
+ msgid "Transform"
+@@ -1418,11 +1414,11 @@
+ msgid ""
+ "<acronym>GIMP</acronym> offers you three buttons which let you select which "
+ "image element the transform tool will work on."
+-msgstr ""
++msgstr "<acronym>GIMP</acronym> har tre knappar som låter dig välja vilket bildelement transformeringsverktyget ska arbeta på."
+ 
+ #: src/toolbox/transform/common-features.xml:64(para)
+ msgid "Remember that the Transform option persists when you quit the tool."
+-msgstr ""
++msgstr "Kom ihåg att alternativet Transformera behålls när du avslutar verktyget."
+ 
+ #: src/toolbox/transform/common-features.xml:71(para)
+ msgid ""
+@@ -1430,21 +1426,21 @@
+ "tool-options/rotate-affect-layer.png\"/></guiicon> the tool works on the "
+ "active layer. If no selection exists in this layer, the whole layer will be "
+ "transformed."
+-msgstr ""
++msgstr "När du aktiverar den första knappen <guiicon><inlinegraphic fileref=\"images/tool-options/rotate-affect-layer.png\"/></guiicon> arbetar verktyget på det aktiva lagret. Om det inte finns någon markering i lagret transformeras hela lagret."
+ 
+ #: src/toolbox/transform/common-features.xml:82(para)
+ msgid ""
+ "When you activate the second button <guiicon><inlinegraphic fileref=\"images/"
+ "tool-options/rotate-affect-selection.png\"/></guiicon> the tool works on the "
+ "selection contour only (the whole layer contour if no selection)."
+-msgstr ""
++msgstr "När du aktiverar den andra knappen <guiicon><inlinegraphic fileref=\"images/tool-options/rotate-affect-selection.png\"/></guiicon> arbetar verktyget endast på markeringskonturen (hela lagerkonturen om ingen markering finns)."
+ 
+ #: src/toolbox/transform/common-features.xml:93(para)
+ msgid ""
+ "When you activate the third button, <guiicon><inlinegraphic fileref=\"images/"
+ "tool-options/rotate-affect-path.png\"/></guiicon> the tool works on the path "
+ "only."
+-msgstr ""
++msgstr "När du aktiverar den tredje knappen, <guiicon><inlinegraphic fileref=\"images/tool-options/rotate-affect-path.png\"/></guiicon>, arbetar verktyget endast på banan."
+ 
+ #: src/toolbox/transform/common-features.xml:106(term)
+ msgid "Direction"
+@@ -1454,7 +1450,7 @@
+ msgid ""
+ "<guilabel>Direction</guilabel> sets which way or direction a layer is "
+ "transformed:"
+-msgstr ""
++msgstr "<guilabel>Riktning</guilabel> anger åt vilket håll ett lager transformeras:"
+ 
+ #: src/toolbox/transform/common-features.xml:112(para)
+ msgid ""
+@@ -1462,7 +1458,7 @@
+ "as one might expect. You just use the handles to perform the transformation "
+ "you want. If you use a grid (see below), the image or layer is transformed "
+ "according to the shape and position you put the grid into."
+-msgstr ""
++msgstr "Läget <quote>Normal (framåt)</quote> transformerar bilden eller lagret som förväntat. Du använder handtagen för att utföra önskad transformering. Om du använder ett rutnät (se nedan) transformeras bilden eller lagret efter den form och position som du ger rutnätet."
+ 
+ #: src/toolbox/transform/common-features.xml:119(para)
+ msgid ""
+@@ -1470,7 +1466,7 @@
+ "with the Rotation tool to repair digital images that have some geometric "
+ "errors (a horizon not horizontal, a wall not vertical...). See <xref linkend="
+ "\"gimp-tool-rotate\"/>."
+-msgstr ""
++msgstr "<quote>Korrigerande (bakåt)</quote> vänder riktningen. Det används främst med rotationsverktyget för att rätta digitala bilder med geometriska fel (en horisont som inte är vågrät, en vägg som inte är lodrät …). Se <xref linkend=\"gimp-tool-rotate\"/>."
+ 
+ #: src/toolbox/transform/common-features.xml:128(term)
+ msgid "Interpolation"
+@@ -1480,7 +1476,7 @@
+ msgid ""
+ "This drop-down list lets you choose the method and thus the quality of the "
+ "transformation:"
+-msgstr ""
++msgstr "Med listrutan kan du välja metod och därmed transformeringens kvalitet:"
+ 
+ #: src/toolbox/transform/common-features.xml:136(term)
+ msgid "None"
+@@ -1492,7 +1488,7 @@
+ "original image. This often results in aliasing (the <quote>stair-step</"
+ "quote> effect) and a coarse image, but it is the fastest method. Sometimes "
+ "this method is called <quote>Nearest Neighbor</quote>."
+-msgstr ""
++msgstr "Färgen för varje bildpunkt kopieras från den närmaste bildpunkten i ursprungsbilden. Detta ger ofta aliasing (en <quote>trappeffekt</quote>) och en grov bild, men är den snabbaste metoden. Metoden kallas ibland <quote>Närmaste granne</quote>."
+ 
+ #: src/toolbox/transform/common-features.xml:148(term)
+ msgid "Linear"
+@@ -1504,7 +1500,7 @@
+ "pixels in the original image. This gives a satisfactory result for most "
+ "images and is a good compromise between speed and quality. Sometimes this "
+ "method is called <quote>Bilinear</quote>."
+-msgstr ""
++msgstr "Färgen för varje bildpunkt beräknas som medelfärgen för de fyra närmaste bildpunkterna i ursprungsbilden. Det ger ett tillfredsställande resultat för de flesta bilder och är en bra kompromiss mellan hastighet och kvalitet. Metoden kallas ibland <quote>Bilinjär</quote>."
+ 
+ #: src/toolbox/transform/common-features.xml:160(term)
+ msgid "Cubic"
+@@ -1516,10 +1512,9 @@
+ "closest pixels in the original image. This usually gives the best result, "
+ "but it naturally takes more time. Sometimes this method is called "
+ "<quote>Bicubic</quote>."
+-msgstr ""
++msgstr "Färgen för varje bildpunkt beräknas som medelfärgen för de åtta närmaste bildpunkterna i ursprungsbilden. Detta ger vanligen bäst resultat, men tar naturligtvis längre tid. Metoden kallas ibland <quote>Bikubisk</quote>."
+ 
+ #: src/toolbox/transform/common-features.xml:171(term)
+-#, fuzzy
+ msgid "Sinc (Lanczos3)"
+ msgstr "Sinc (Lanczos3)"
+ 
+@@ -1527,27 +1522,27 @@
+ msgid ""
+ "The Lanczos3 method uses the Sinc mathematical function and performs a high "
+ "quality interpolation."
+-msgstr ""
++msgstr "Metoden Lanczos3 använder den matematiska funktionen Sinc och utför högkvalitativ interpolering."
+ 
+ #: src/toolbox/transform/common-features.xml:180(para)
+ msgid ""
+ "You can set the default interpolation method in the <link linkend=\"gimp-"
+ "prefs-tool-options\">Tools Options Preferences</link> dialog."
+-msgstr ""
++msgstr "Du kan ange standardmetod för interpolering i dialogrutan <link linkend=\"gimp-prefs-tool-options\">Inställningar för verktygsalternativ</link>."
+ 
+ #: src/toolbox/transform/common-features.xml:188(term)
+ msgid "Clipping"
+-msgstr ""
++msgstr "Klippning"
+ 
+ #: src/toolbox/transform/common-features.xml:190(para)
+ msgid ""
+ "After transformation, the image can be bigger. This option will clip the "
+ "transformed image to the original image size."
+-msgstr ""
++msgstr "Efter transformeringen kan bilden vara större. Alternativet klipper den transformerade bilden till den ursprungliga bildstorleken."
+ 
+ #: src/toolbox/transform/common-features.xml:194(para)
+ msgid "You can choose between several ways to clip:"
+-msgstr ""
++msgstr "Du kan välja mellan flera sätt att klippa:"
+ 
+ #: src/toolbox/transform/common-features.xml:197(term)
+ msgid "Adjust"
+@@ -1555,7 +1550,7 @@
+ 
+ #: src/toolbox/transform/common-features.xml:200(title)
+ msgid "Original image for examples"
+-msgstr ""
++msgstr "Ursprunglig bild för exempel"
+ 
+ #: src/toolbox/transform/common-features.xml:207(para)
+ msgid "Original image"
+@@ -1563,12 +1558,12 @@
+ 
+ #: src/toolbox/transform/common-features.xml:216(para)
+ msgid "Rotation applied with <quote>Adjust</quote>"
+-msgstr ""
++msgstr "Rotation med <quote>Anpassa</quote>"
+ 
+ #: src/toolbox/transform/common-features.xml:227(para)
+ msgid ""
+ "Rotation applied with <quote>Adjust</quote> and canvas enlarged to layer size"
+-msgstr ""
++msgstr "Rotation med <quote>Anpassa</quote> och arbetsytan utökad till lagerstorlek"
+ 
+ #: src/toolbox/transform/common-features.xml:234(para)
+ msgid ""
+@@ -1576,47 +1571,47 @@
+ "layer border is visible; the whole layer becomes visible by using the "
+ "<menuchoice><guimenu>Image</guimenu><guimenuitem>Fit Canvas to Layers</"
+ "guimenuitem></menuchoice> command."
+-msgstr ""
++msgstr "Med Anpassa: lagret utökas så att hela det roterade lagret ryms. Den nya lagerkanten syns; hela lagret blir synligt med kommandot <menuchoice><guimenu>Bild</guimenu><guimenuitem>Anpassa arbetsyta till lager</guimenuitem></menuchoice>."
+ 
+ #: src/toolbox/transform/common-features.xml:247(term)
+ #: src/toolbox/transform/common-features.xml:257(para)
+ msgid "Clip"
+-msgstr ""
++msgstr "Klipp"
+ 
+ #: src/toolbox/transform/common-features.xml:250(title)
+ msgid "Example for Clip"
+-msgstr ""
++msgstr "Exempel på Klipp"
+ 
+ #: src/toolbox/transform/common-features.xml:261(para)
+ msgid "With Clip: all what exceeds image limits is deleted."
+-msgstr ""
++msgstr "Med Klipp: allt som överskrider bildens gränser tas bort."
+ 
+ #: src/toolbox/transform/common-features.xml:267(term)
+ msgid "Crop to result"
+-msgstr ""
++msgstr "Beskär till resultat"
+ 
+ #: src/toolbox/transform/common-features.xml:270(title)
+ msgid "Example for Crop to result"
+-msgstr ""
++msgstr "Exempel på Beskär till resultat"
+ 
+ #: src/toolbox/transform/common-features.xml:277(para)
+ msgid "Rotation 45° with Crop to result"
+-msgstr ""
++msgstr "Rotation 45° med Beskär till resultat"
+ 
+ #: src/toolbox/transform/common-features.xml:286(para)
+ msgid "The crop limit is marked with red. No transparent area is included."
+-msgstr ""
++msgstr "Beskärningsgränsen är rödmarkerad. Inget genomskinligt område inkluderas."
+ 
+ #: src/toolbox/transform/common-features.xml:293(para)
+ msgid ""
+ "If this option is selected, the image is cropped so that the transparent "
+ "area, created by the transform operation in corners, will not be included in "
+ "the resulting image."
+-msgstr ""
++msgstr "Om alternativet väljs beskärs bilden så att det genomskinliga område som transformeringen skapar i hörnen inte inkluderas i den resulterande bilden."
+ 
+ #: src/toolbox/transform/common-features.xml:301(term)
+ msgid "Crop with aspect"
+-msgstr ""
++msgstr "Beskär med bildförhållande"
+ 
+ #. <figure>
+ #.                   <title>Example for Crop with aspect</title>
+@@ -1634,7 +1629,7 @@
+ msgid ""
+ "This option works like the one described before, but makes sure, that the "
+ "aspect ratio is maintained."
+-msgstr ""
++msgstr "Alternativet fungerar som det föregående, men ser till att bildförhållandet bevaras."
+ 
+ #: src/toolbox/transform/common-features.xml:325(term)
+ #: src/toolbox/transform/common-features.xml:328(primary)
+@@ -1642,18 +1637,17 @@
+ msgstr "Förhandsgranska"
+ 
+ #: src/toolbox/transform/common-features.xml:329(secondary)
+-#, fuzzy
+ msgid "Transformation tools"
+ msgstr "Transformeringsverktyg"
+ 
+ #: src/toolbox/transform/common-features.xml:332(para)
+ msgid ""
+ "<acronym>GIMP</acronym> lets you select among four Preview possibilities:"
+-msgstr ""
++msgstr "<acronym>GIMP</acronym> låter dig välja mellan fyra förhandsgranskningsalternativ:"
+ 
+ #: src/toolbox/transform/common-features.xml:337(term)
+ msgid "Outline"
+-msgstr ""
++msgstr "Kontur"
+ 
+ #: src/toolbox/transform/common-features.xml:339(para)
+ msgid ""
+@@ -1661,7 +1655,7 @@
+ "Movements will affect this frame only on the Preview, but the result of the "
+ "transformation will concern either the content or the boundaries of the "
+ "selection according to the selected Affect mode."
+-msgstr ""
++msgstr "Lägger en ram som markerar bildens kontur, med ett handtag i varje hörn. Rörelser påverkar endast ramen i förhandsgranskningen, men resultatet av transformeringen gäller antingen innehållet eller markeringens gränser enligt valt Påverka-läge."
+ 
+ #: src/toolbox/transform/common-features.xml:349(term)
+ msgid "Grid"
+@@ -1673,21 +1667,21 @@
+ "only on the Preview, but the result of the transformation will concern "
+ "either the content or the boundaries of the selection according to the "
+ "selected Transform mode."
+-msgstr ""
++msgstr "Lägger ett rutnät över bilden med fyra handtag. Rörelser påverkar endast rutnätet i förhandsgranskningen, men resultatet av transformeringen gäller antingen innehållet eller markeringens gränser enligt valt Transformeringsläge."
+ 
+ #: src/toolbox/transform/common-features.xml:363(para)
+ msgid ""
+ "Here, the preview is a copy of the image superimposed on the image, with an "
+ "outline. Movements affect this copy and the underlying image appears."
+-msgstr ""
++msgstr "Här är förhandsgranskningen en kopia av bilden som lagts över bilden med en kontur. Rörelser påverkar kopian och den underliggande bilden visas."
+ 
+ #: src/toolbox/transform/common-features.xml:371(term)
+ msgid "Grid+Image"
+-msgstr ""
++msgstr "Rutnät + bild"
+ 
+ #: src/toolbox/transform/common-features.xml:373(para)
+ msgid "Both turn at the same time."
+-msgstr ""
++msgstr "Båda vrids samtidigt."
+ 
+ #: src/toolbox/transform/common-features.xml:377(para)
+ msgid ""
+@@ -1696,7 +1690,7 @@
+ "grid lines. Use the slider to set the number of grid lines. <guilabel>Grid "
+ "Line Spacing</guilabel> allows control over the distance between the grid "
+ "lines. Use the slider to set the distance."
+-msgstr ""
++msgstr "Alternativ med rutnät aktiverar en listruta med två val: <guilabel>Antal rutnätslinjer</guilabel> styr det totala antalet visade rutnätslinjer. Använd reglaget för att ange antalet rutnätslinjer. <guilabel>Avstånd mellan rutnätslinjer</guilabel> styr avståndet mellan rutnätslinjerna. Använd reglaget för att ange avståndet."
+ 
+ #: src/toolbox/transform/common-features.xml:389(term)
+ msgid "Opacity"
+@@ -1704,82 +1698,84 @@
+ 
+ #: src/toolbox/transform/common-features.xml:391(para)
+ msgid "This slider lets you set the preview opacity."
+-msgstr ""
++msgstr "Med reglaget kan du ange förhandsgranskningens opacitet."
+ 
+ #: src/toolbox/transform/common-features.xml:398(para)
+ msgid ""
+ "When rotating a path, Preview options are not valid: only Outline is active."
+-msgstr ""
++msgstr "När en bana roteras är förhandsgranskningsalternativen inte tillgängliga: endast Kontur är aktivt."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/align.xml:27(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/toolbox-align.png'; "
+ "md5=730a48d4bd2fdbfdee4574117e8a6f59"
+ msgstr ""
+-"@@image: 'images/toolbox/toolbox-align.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/toolbox-align.png'; "
++"md5=730a48d4bd2fdbfdee4574117e8a6f59"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/align.xml:112(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/tool-options-align.png'; "
+ "md5=68a5889a09432d2235310b56517d1d20"
+ msgstr ""
+-"@@image: 'images/toolbox/tool-options-align.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/toolbox/tool-options-align.png'; "
++"md5=68a5889a09432d2235310b56517d1d20"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/align.xml:257(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/align-ex1.png'; md5=a1d5db72b20038616258a2ee7dc2ca05"
+-msgstr "@@image: 'images/toolbox/align-ex1.png'; md5=THIS FILE DOESN'T EXIST"
++msgstr ""
++"@@image: 'images/toolbox/align-ex1.png'; md5=a1d5db72b20038616258a2ee7dc2ca05"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/align.xml:271(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/align-ex2.png'; md5=b8ea27b5dfbbd1c41dfb9bbfd714433a"
+-msgstr "@@image: 'images/toolbox/align-ex2.png'; md5=THIS FILE DOESN'T EXIST"
++msgstr ""
++"@@image: 'images/toolbox/align-ex2.png'; md5=b8ea27b5dfbbd1c41dfb9bbfd714433a"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/align.xml:285(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/align-ex3.png'; md5=753b3a7fe237107f5863b35792d77029"
+-msgstr "@@image: 'images/toolbox/align-ex3.png'; md5=THIS FILE DOESN'T EXIST"
++msgstr ""
++"@@image: 'images/toolbox/align-ex3.png'; md5=753b3a7fe237107f5863b35792d77029"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/align.xml:303(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/align-ex4.png'; md5=3c5b724542d855c2167b73e75f4540ab"
+-msgstr "@@image: 'images/toolbox/align-ex4.png'; md5=THIS FILE DOESN'T EXIST"
++msgstr ""
++"@@image: 'images/toolbox/align-ex4.png'; md5=3c5b724542d855c2167b73e75f4540ab"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/align.xml:322(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/align-ex5a.png'; "
+ "md5=f61596d6b10476ead6f0b7176a99bc72"
+-msgstr "@@image: 'images/toolbox/align-ex5a.png'; md5=THIS FILE DOESN'T EXIST"
++msgstr ""
++"@@image: 'images/toolbox/align-ex5a.png'; "
++"md5=f61596d6b10476ead6f0b7176a99bc72"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/toolbox/transform/align.xml:334(None)
+-#, fuzzy
+ msgid ""
+ "@@image: 'images/toolbox/align-ex5b.png'; "
+ "md5=9426f047dd15389bcb61f16ab6a32ad2"
+-msgstr "@@image: 'images/toolbox/align-ex5b.png'; md5=THIS FILE DOESN'T EXIST"
++msgstr ""
++"@@image: 'images/toolbox/align-ex5b.png'; "
++"md5=9426f047dd15389bcb61f16ab6a32ad2"
+ 
+ #: src/toolbox/transform/align.xml:14(title)
+ #: src/toolbox/transform/align.xml:16(primary)
+@@ -1790,7 +1786,7 @@
+ 
+ #: src/toolbox/transform/align.xml:24(title)
+ msgid "The Align tool in the toolbox"
+-msgstr ""
++msgstr "Justeringsverktyget i verktygslådan"
+ 
+ #: src/toolbox/transform/align.xml:31(para)
+ msgid ""
+@@ -1803,28 +1799,28 @@
+ "will be moved. And you can select the image object (other layer, selection, "
+ "path...) the selected layer will be aligned on. This object is called "
+ "<emphasis>target</emphasis>."
+-msgstr ""
++msgstr "Justeringsverktyget används för att justera bildlager mot olika bildobjekt. När verktyget är valt ändras muspekaren till en liten hand. Genom att klicka på ett element i ett lager i bilden väljer du det lager som ska flyttas (med <keycap>Skift</keycap> + klick kan du välja flera lager som ska justeras); det fokuserade lagret får små kvadrater i hörnen. Med olika knappar i dialogrutan väljer du hur lagret ska flyttas. Du kan också välja vilket bildobjekt (ett annat lager, en markering, en bana …) det valda lagret ska justeras mot. Detta objekt kallas <emphasis>mål</emphasis>."
+ 
+ #: src/toolbox/transform/align.xml:46(para)
+ msgid "You can activate the Align tool in several ways :"
+-msgstr ""
++msgstr "Du kan aktivera justeringsverktyget på flera sätt:"
+ 
+ #: src/toolbox/transform/align.xml:49(para)
+ msgid ""
+ "From the image-menu, through: <menuchoice><guimenu>Tools</"
+ "guimenu><guisubmenu>Transform Tools</guisubmenu><guimenuitem>Align</"
+ "guimenuitem></menuchoice>,"
+-msgstr ""
++msgstr "Från bildmenyn via: <menuchoice><guimenu>Verktyg</guimenu><guisubmenu>Transformeringsverktyg</guisubmenu><guimenuitem>Justera</guimenuitem></menuchoice>,"
+ 
+ #: src/toolbox/transform/align.xml:59(para)
+ msgid ""
+ "by clicking on the tool icon: <guiicon><inlinegraphic fileref=\"images/"
+ "toolbox/stock-tool-align-22.png\"/></guiicon> in the toolbox,"
+-msgstr ""
++msgstr "genom att klicka på verktygsikonen: <guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-align-22.png\"/></guiicon> i verktygslådan,"
+ 
+ #: src/toolbox/transform/align.xml:69(para)
+ msgid "by using the <keycap>Q</keycap> keyboard shortcut."
+-msgstr ""
++msgstr "med tangentgenvägen <keycap>Q</keycap>."
+ 
+ #: src/toolbox/transform/align.xml:80(keycap)
+ msgid "Shift"
+@@ -1834,7 +1830,7 @@
+ msgid ""
+ "You can select several layers by holding <keycap>Shift</keycap> when "
+ "clicking the layers."
+-msgstr ""
++msgstr "Du kan välja flera lager genom att hålla ned <keycap>Skift</keycap> när du klickar på lagren."
+ 
+ #: src/toolbox/transform/align.xml:87(para)
+ msgid ""
+@@ -1843,17 +1839,17 @@
+ "want to choose. Then drag out that region by moving the pointer, and release "
+ "the mouse button. Now every layer, which is completely inside the dragged "
+ "rectangle, is selected."
+-msgstr ""
++msgstr "Ibland är det lättare att välja flera lager med en markeringsruta: klicka någonstans utanför ett tänkt rektangulärt område som täcker de lager du vill välja. Dra sedan ut området genom att flytta pekaren och släpp musknappen. Nu är varje lager som helt ligger inom den utdragna rektangeln valt."
+ 
+ #: src/toolbox/transform/align.xml:95(para)
+ msgid ""
+ "Note that now there is no target <quote>first item</quote> the selected "
+ "layers can be aligned on."
+-msgstr ""
++msgstr "Observera att det nu inte finns något mål i form av <quote>första objektet</quote> som de valda lagren kan justeras mot."
+ 
+ #: src/toolbox/transform/align.xml:108(title)
+ msgid "Tool Options for the Align tool"
+-msgstr ""
++msgstr "Verktygsalternativ för justeringsverktyget"
+ 
+ #: src/toolbox/transform/align.xml:125(term)
+ msgid "Relative to:"
+@@ -1862,43 +1858,43 @@
+ #: src/toolbox/transform/align.xml:127(para)
+ msgid ""
+ "This is the target - the image object the selected layer will be aligned on."
+-msgstr ""
++msgstr "Detta är målet – bildobjektet som det valda lagret ska justeras mot."
+ 
+ #: src/toolbox/transform/align.xml:133(para)
+ msgid ""
+ "<guilabel>First item</guilabel>: the first selected item when selecting "
+ "multiple layers holding the Shift key. Note that there is no <quote>first "
+ "item</quote> when you select multiple layers using rubber-banding."
+-msgstr ""
++msgstr "<guilabel>Första objektet</guilabel>: det första valda objektet när flera lager väljs med Skift nedtryckt. Observera att det inte finns något <quote>första objekt</quote> när du väljer flera lager med en markeringsruta."
+ 
+ #: src/toolbox/transform/align.xml:140(para)
+ msgid "<guilabel>Image</guilabel>: the image is used as a target."
+-msgstr ""
++msgstr "<guilabel>Bild</guilabel>: bilden används som mål."
+ 
+ #: src/toolbox/transform/align.xml:145(para)
+ msgid ""
+ "<guilabel>Selection</guilabel>: the minimal rectangular region covering the "
+ "active selection."
+-msgstr ""
++msgstr "<guilabel>Markering</guilabel>: det minsta rektangulära området som täcker den aktiva markeringen."
+ 
+ #: src/toolbox/transform/align.xml:150(para)
+ msgid "<guilabel>Active layer</guilabel>:"
+-msgstr ""
++msgstr "<guilabel>Aktivt lager</guilabel>:"
+ 
+ #: src/toolbox/transform/align.xml:154(para)
+ msgid "<guilabel>Active Channel</guilabel>:"
+-msgstr ""
++msgstr "<guilabel>Aktiv kanal</guilabel>:"
+ 
+ #: src/toolbox/transform/align.xml:158(para)
+ msgid "<guilabel>Active Path</guilabel>:"
+-msgstr ""
++msgstr "<guilabel>Aktiv bana</guilabel>:"
+ 
+ #: src/toolbox/transform/align.xml:186(para)
+ msgid ""
+ "These buttons become active when a layer is selected. When you click on one "
+ "of these buttons, you align the selected layer with left edge, horizontal "
+ "middle, right edge, top edge, vertical middle, or bottom of the target."
+-msgstr ""
++msgstr "Knapparna blir aktiva när ett lager är valt. När du klickar på någon av dem justerar du det valda lagret mot målets vänsterkant, vågräta mitt, högerkant, överkant, lodräta mitt eller underkant."
+ 
+ #: src/toolbox/transform/align.xml:198(term)
+ msgid "Distribute"
+@@ -1912,7 +1908,7 @@
+ "performed. It can be positive or negative and is expressed in pixel. "
+ "Distribute add this offset to the left edges, horizontal centers, right "
+ "edges, top edges, vertical centers, or bottoms of targets."
+-msgstr ""
++msgstr "Alternativen verkar endast skilja sig från alternativen <quote>I förhållande till</quote> genom möjligheten att ange en förskjutning. Förskjutningen är avståndet som skiljer de valda lagren från målet efter justeringen. Den kan vara positiv eller negativ och anges i bildpunkter. Fördelning lägger till förskjutningen vid målens vänsterkanter, vågräta mittpunkter, högerkanter, överkanter, lodräta mittpunkter eller underkanter."
+ 
+ #: src/toolbox/transform/align.xml:236(term)
+ msgid "Offset"
+@@ -1923,34 +1919,34 @@
+ "This entry controls the amount of displacement that could be given to the "
+ "desired alignment effect (in pixel) regarding the target. The default value "
+ "is 0; it can be positive or negative."
+-msgstr ""
++msgstr "Posten styr den förskjutning i bildpunkter som ska ges för önskad justering i förhållande till målet. Standardvärdet är 0; det kan vara positivt eller negativt."
+ 
+ #: src/toolbox/transform/align.xml:252(title)
+ msgid "Example for the <quote>Align</quote> command"
+-msgstr ""
++msgstr "Exempel på kommandot <quote>Justera</quote>"
+ 
+ #: src/toolbox/transform/align.xml:254(title)
+ msgid "Base image"
+-msgstr ""
++msgstr "Grundbild"
+ 
+ #: src/toolbox/transform/align.xml:260(para)
+ msgid ""
+ "This image has three layers with different sizes and a rectangular "
+ "selection. The yellow layer is active."
+-msgstr ""
++msgstr "Bilden har tre lager med olika storlek och en rektangulär markering. Det gula lagret är aktivt."
+ 
+ #: src/toolbox/transform/align.xml:268(title)
+ msgid "Red layer selected"
+-msgstr ""
++msgstr "Rött lager valt"
+ 
+ #: src/toolbox/transform/align.xml:274(para)
+ msgid ""
+ "Click on red: the red layer is selected, with a small square in every corner."
+-msgstr ""
++msgstr "Klicka på rött: det röda lagret väljs och får en liten kvadrat i varje hörn."
+ 
+ #: src/toolbox/transform/align.xml:282(title)
+ msgid "Red layer aligned"
+-msgstr ""
++msgstr "Rött lager justerat"
+ 
+ #: src/toolbox/transform/align.xml:288(para)
+ msgid ""
+@@ -1958,11 +1954,11 @@
+ "<guiicon><inlinegraphic fileref=\"images/tool-options/stock-gravity-east-24."
+ "png\"/></guiicon> button (Related to). The red layer alignes with the right "
+ "side of the selection."
+-msgstr ""
++msgstr "Vi valde <quote>Markering</quote> som mål och klickade på knappen <guiicon><inlinegraphic fileref=\"images/tool-options/stock-gravity-east-24.png\"/></guiicon> (I förhållande till). Det röda lagret justeras mot markeringens högra sida."
+ 
+ #: src/toolbox/transform/align.xml:300(title)
+ msgid "Distribute with offset"
+-msgstr ""
++msgstr "Fördelning med förskjutning"
+ 
+ #: src/toolbox/transform/align.xml:306(para)
+ msgid ""
+@@ -1970,18 +1966,18 @@
+ "clicked on the <guiicon><inlinegraphic fileref=\"images/tool-options/stock-"
+ "gravity-east-24.png\"/></guiicon> button (Distribution). The layer is "
+ "aligned 5 pixels before the right side of the yellow active layer."
+-msgstr ""
++msgstr "Vi satte Förskjutning till −5, valde <quote>Aktivt lager</quote> som mål och klickade på knappen <guiicon><inlinegraphic fileref=\"images/tool-options/stock-gravity-east-24.png\"/></guiicon> (Fördelning). Lagret justeras 5 bildpunkter före det gula aktiva lagrets högra sida."
+ 
+ #: src/toolbox/transform/align.xml:319(title)
+ msgid "Align using rubber-band box"
+-msgstr ""
++msgstr "Justera med markeringsruta"
+ 
+ #: src/toolbox/transform/align.xml:325(para)
+ msgid ""
+ "We clicked left from and above the red layer, and dragged out a region "
+ "covering the red and the yellow layer by moving the pointer towards the "
+ "bottom right corner."
+-msgstr ""
++msgstr "Vi klickade till vänster om och ovanför det röda lagret och drog ut ett område som täckte det röda och det gula lagret genom att flytta pekaren mot nedre högra hörnet."
+ 
+ #: src/toolbox/transform/align.xml:337(para)
+ msgid ""
+@@ -1989,13 +1985,13 @@
+ "<guiicon><inlinegraphic fileref=\"images/tool-options/stock-gravity-west-24."
+ "png\"/></guiicon> button, both layers aligne with the left side of the "
+ "selection."
+-msgstr ""
++msgstr "Återigen är <guilabel>Markering</guilabel> målet. Efter ett klick på knappen <guiicon><inlinegraphic fileref=\"images/tool-options/stock-gravity-west-24.png\"/></guiicon> justeras båda lagren mot markeringens vänstra sida."
+ 
+ #: src/toolbox/transform/about-common-transform-options.xml:9(para)
+ msgid ""
+ "These options are described in <link linkend=\"gimp-tool-transform"
+ "\">Transform tools common options</link>."
+-msgstr ""
++msgstr "Dessa alternativ beskrivs i <link linkend=\"gimp-tool-transform\">Gemensamma alternativ för transformeringsverktyg</link>."
+ 
+ #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+ #: src/toolbox/transform/about-common-transform-options.xml:0(None)

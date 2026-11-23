@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 01:18 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 01:34 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -41,7 +41,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~layer/sv/) | master | 39 | 76 | 470 | Behöver arbete | Klar lokalt (2026-11-23): Samtliga 431 poster i lagermenyn är lokalt översatta och fuzzy-fria. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/menus~layer/gimp-help.master.menus-layer.sv.original.po), [granskad](gimp-help/master/menus~layer/gimp-help.master.menus-layer.sv.reviewed.po), [diff](gimp-help/master/menus~layer/gimp-help.master.menus-layer.sv.review.diff), [notering](gimp-help/master/menus~layer/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/menus~layer/sv/) | gimp-help-3-0 | 41 | 74 | 466 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/filters~light-and-shadow/sv/) | gimp-help-2-10 | 22 | 46 | 443 | Behöver arbete | Ej granskad |
-| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/toolbox~transform/sv/) | master | 44 | 112 | 440 | Behöver arbete | Ej granskad |
+| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/toolbox~transform/sv/) | master | 44 | 112 | 440 | Behöver arbete | Klar lokalt (2026-11-23): Samtliga 323 poster i transformeringsverktygskatalogen är lokalt översatta och fuzzy-fria. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/toolbox~transform/gimp-help.master.toolbox-transform.sv.original.po), [granskad](gimp-help/master/toolbox~transform/gimp-help.master.toolbox-transform.sv.reviewed.po), [diff](gimp-help/master/toolbox~transform/gimp-help.master.toolbox-transform.sv.review.diff), [notering](gimp-help/master/toolbox~transform/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/toolbox~transform/sv/) | gimp-help-3-0 | 47 | 112 | 438 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/filters~distort/sv/) | gimp-help-2-10 | 34 | 87 | 438 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/toolbox~transform/sv/) | gimp-help-2-10 | 55 | 125 | 437 | Behöver arbete | Ej granskad |
