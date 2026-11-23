@@ -296,6 +296,13 @@ Foreca, AEMET och SmartyPlants hade fem kvarvarande fält med engelska
 `API-nyckel` och `Verifiera SSL-certifikat`, sparades och lästes tillbaka via
 Lokalise API. TMX-posterna ersattes med verifierade livevärden.
 
+## MQTT: QoS för upptäckt
+
+MQTT-alternativet `Discovery QoS` saknade svensk term. Core använder redan
+`MQTT-upptäckt` i närliggande texter; fältet översattes därför till `QoS för
+upptäckt`, sparades och lästes tillbaka via Lokalise API. TMX-valideringen
+godkände 4 097 poster.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
