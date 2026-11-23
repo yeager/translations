@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 23:47 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 23:49 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -499,7 +499,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [libgda](https://l10n.gnome.org/vertimus/libgda/master/browser-help/sv/) | master | 330 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [libgdata](https://l10n.gnome.org/module/libgdata/) | main | 70 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [libgedit-gfls — Gedit Technology - File loading and saving](https://l10n.gnome.org/vertimus/libgedit-gfls/main/po/sv/) | main | 36 | 0 | 0 | Klar | X | 3 | Klar lokalt (2026-11-24): Hela 36-strängarskatalogen är radgranskad mot senaste POT. Tre befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](libgedit-gfls/main/po/libgedit-gfls.main.sv.original.po), [granskad](libgedit-gfls/main/po/libgedit-gfls.main.sv.reviewed.po), [diff](libgedit-gfls/main/po/libgedit-gfls.main.sv.review.diff), [notering](libgedit-gfls/main/po/README.md) |
-| Gränssnitt | Default (99% translated) | [libgedit-gtksourceview — Gedit Technology - Source code editing widget](https://l10n.gnome.org/vertimus/libgedit-gtksourceview/main/po/sv/) | main | 69 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [libgedit-gtksourceview — Gedit Technology - Source code editing widget](https://l10n.gnome.org/vertimus/libgedit-gtksourceview/main/po/sv/) | main | 69 | 0 | 0 | Klar | X | 3 | Klar lokalt (2026-11-24): Hela 69-strängarskatalogen är radgranskad mot senaste POT. Tre befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](libgedit-gtksourceview/main/po/libgedit-gtksourceview.main.sv.original.po), [granskad](libgedit-gtksourceview/main/po/libgedit-gtksourceview.main.sv.reviewed.po), [diff](libgedit-gtksourceview/main/po/libgedit-gtksourceview.main.sv.review.diff), [notering](libgedit-gtksourceview/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [libgedit-tepl — Gedit Technology - Text editor product line](https://l10n.gnome.org/vertimus/libgedit-tepl/main/po/sv/) | main | 118 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [libgnomekbd](https://l10n.gnome.org/module/libgnomekbd/) | master | 39 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [libgsf](https://l10n.gnome.org/vertimus/libgsf/master/po/sv/) | master | 152 | 0 | 0 | Klar |  | — | Ej granskad |
