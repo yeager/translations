@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 00:00 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 00:20 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -38,7 +38,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/filters~light-and-shadow/sv/) | gimp-help-3-0 | 21 | 50 | 486 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters~map/sv/) | master | 14 | 65 | 483 | Behöver arbete | Klar lokalt (2026-11-22): Alla användarvisade kartfilterposter är lokalt översatta och fuzzy-fria. Bildhashar och den historiska revisionsmarkören är icke-användarvisade undantag. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/filters~map/gimp-help.master.filters-map.sv.original.po), [granskad](gimp-help/master/filters~map/gimp-help.master.filters-map.sv.reviewed.po), [diff](gimp-help/master/filters~map/gimp-help.master.filters-map.sv.review.diff), [notering](gimp-help/master/filters~map/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/filters~map/sv/) | gimp-help-3-0 | 15 | 65 | 481 | Behöver arbete | Ej granskad |
-| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~layer/sv/) | master | 39 | 76 | 470 | Behöver arbete | Ej granskad |
+| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~layer/sv/) | master | 39 | 76 | 470 | Behöver arbete | Klar lokalt (2026-11-23): Samtliga 431 poster i lagermenyn är lokalt översatta och fuzzy-fria. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/menus~layer/gimp-help.master.menus-layer.sv.original.po), [granskad](gimp-help/master/menus~layer/gimp-help.master.menus-layer.sv.reviewed.po), [diff](gimp-help/master/menus~layer/gimp-help.master.menus-layer.sv.review.diff), [notering](gimp-help/master/menus~layer/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/menus~layer/sv/) | gimp-help-3-0 | 41 | 74 | 466 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/filters~light-and-shadow/sv/) | gimp-help-2-10 | 22 | 46 | 443 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/toolbox~transform/sv/) | master | 44 | 112 | 440 | Behöver arbete | Ej granskad |
