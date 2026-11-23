@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 20:54 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 20:56 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -210,7 +210,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [calls](https://l10n.gnome.org/vertimus/calls/main/po/sv/) | main | 122 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [caribou](https://l10n.gnome.org/module/caribou/) | master | 56 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [chatty](https://l10n.gnome.org/vertimus/chatty/main/po/sv/) | main | 429 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [chess-clock](https://l10n.gnome.org/vertimus/chess-clock/main/po/sv/) | main | 46 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [chess-clock](https://l10n.gnome.org/vertimus/chess-clock/main/po/sv/) | main | 46 | 0 | 0 | Klar | X | 6 | Klar och inskickad (2026-11-23): Aktuell 46-strängarskatalog är radgranskad mot senaste POT. Schackbeskrivning och tidtagarterminologi är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt och msgcmp saknar fel. Skickad till Damned Lies 2026-11-23 med kommentaren ”Granskad och klar”. [original](chess-clock/main/po/chess-clock.main.sv.original.po), [granskad](chess-clock/main/po/chess-clock.main.sv.reviewed.po), [diff](chess-clock/main/po/chess-clock.main.sv.review.diff), [notering](chess-clock/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [citations](https://l10n.gnome.org/vertimus/citations/master/po/sv/) | master | 161 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [colord](https://l10n.gnome.org/vertimus/colord/main/po/sv/) | main | 251 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [console](https://l10n.gnome.org/vertimus/console/main/po/sv/) | main | 138 | 0 | 0 | Klar |  | — | Ej granskad |
