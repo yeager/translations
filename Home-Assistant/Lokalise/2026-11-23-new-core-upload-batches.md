@@ -316,6 +316,13 @@ uppmaningar. De normaliserades enligt svensk skrivpolicy, med bevarade
 platshållare och radbrytningar, sparades och lästes tillbaka via Lokalise API.
 TMX-valideringen godkände 4 099 poster.
 
+## DTE Energy Bridge: domänplattformssensorer
+
+DTE Energy Bridge-texten satte platshållaren `{domain}` direkt mot
+`plattformssensorer`. Den avgränsades enligt svensk sammansättningspraxis till
+`` `{domain}`-plattformssensorer ``, med bevarad platshållare och radbrytning.
+Värdet sparades och lästes tillbaka via Lokalise API.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
