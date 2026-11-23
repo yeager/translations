@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:53 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:55 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -251,7 +251,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [evolution-activesync](https://l10n.gnome.org/vertimus/evolution-activesync/master/po/sv/) | master | 60 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [evolution-data-server](https://l10n.gnome.org/vertimus/evolution-data-server/gnome-50/po/sv/) | gnome-50 | 88 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [evolution-data-server](https://l10n.gnome.org/vertimus/evolution-data-server/master/po/sv/) | master | 88 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [evolution-etesync](https://l10n.gnome.org/vertimus/evolution-etesync/master/po/sv/) | master | 21 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [evolution-etesync](https://l10n.gnome.org/vertimus/evolution-etesync/master/po/sv/) | master | 21 | 0 | 0 | Klar | X | 5 | Klar lokalt (2026-11-24): Hela 21-strängarskatalogen är radgranskad mot senaste POT. Fem befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](evolution-etesync/master/po/evolution-etesync.master.po.sv.original.po), [granskad](evolution-etesync/master/po/evolution-etesync.master.po.sv.reviewed.po), [diff](evolution-etesync/master/po/evolution-etesync.master.po.sv.review.diff), [notering](evolution-etesync/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [evolution-ews](https://l10n.gnome.org/vertimus/evolution-ews/master/po/sv/) | master | 412 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [evolution-ews](https://l10n.gnome.org/vertimus/evolution-ews/gnome-50/po/sv/) | gnome-50 | 412 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [evolution-mapi](https://l10n.gnome.org/module/evolution-mapi/) | master | 226 | 0 | 0 | Klar |  | — | Ej granskad |
