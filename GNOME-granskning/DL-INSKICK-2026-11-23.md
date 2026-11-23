@@ -41,6 +41,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | gnome-text-editor | main | po | 58 |
 | meld | main | po | 3 |
 | orca | main | po | 17 |
+| rygel | master | po | 3 |
 
 ## DL-blockerare
 
