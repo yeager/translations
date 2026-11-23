@@ -1,38 +1,32 @@
 --- gnote.master.sv.original.po
 +++ gnote.master.sv.reviewed.po
-@@ -11,8 +11,8 @@
- "Project-Id-Version: gnote\n"
- "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnote/issues/\n"
- "POT-Creation-Date: 2026-09-08 18:37+0000\n"
--"PO-Revision-Date: 2026-09-13 12:23+0200\n"
--"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-23 12:00+0100\n"
-+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
- "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
- "Language: sv\n"
- "MIME-Version: 1.0\n"
-@@ -1261,7 +1261,7 @@
+@@ -357,8 +357,9 @@
+ "byter namn, i stället för att fråga användaren. Värdena mappas till en "
+ "intern numrering. 0 indikerar att användaren önskar att bli tillfrågad när "
+ "en anteckning byter namn som kan påverka länkar som finns i andra "
+-"anteckningar så att det nya anteckningsnamnet fortsätter att länka till "
+-"anteckningen med nytt namn."
++"anteckningar. 1 indikerar att länkar ska tas bort automatiskt. 2 indikerar "
++"att länktexten ska uppdateras till det nya anteckningsnamnet så att den "
++"fortsätter länka till den omdöpta anteckningen."
+ 
+ #: data/org.gnome.gnote.gschema.xml:131 data/org.gnome.gnote.gschema.xml:141
+ #: data/org.gnome.gnote.gschema.xml:146
+@@ -1261,7 +1262,7 @@
  
  #: src/plugins/noteoftheday/noteofthedaypreferences.cpp:34
  msgid "_Open Today: Template"
--msgstr "_Öppna I dag: Mall"
-+msgstr "Ö_ppna dagens mall"
+-msgstr "Ö_ppna dagens mall"
++msgstr "Ö_ppna dagens mall:"
  
  #: src/plugins/noteoftheday/noteofthedaypreferences.cpp:35
  msgid ""
-@@ -2469,13 +2469,13 @@
- #: src/synchronization/gnotesyncclient.cpp:157
- #, c-format
- msgid "Unparsable last-sync-date element in %s"
--msgstr "last-sync-date-element som ej går att tolka i %s"
-+msgstr "Kunde inte tolka elementet last-sync-date i %s"
+@@ -1523,7 +1524,7 @@
+ #.
+ #: src/gnote.cpp:295
+ msgid "https://gitlab.gnome.org/GNOME/gnote/-/wikis/home"
+-msgstr "https://gitlab.gnome.org/GNOME/gnote/-/wikis/sv/home"
++msgstr "https://gitlab.gnome.org/GNOME/gnote/-/wikis/home"
  
- #. TRANSLATORS: %s is file
- #: src/synchronization/gnotesyncclient.cpp:167
- #, c-format
- msgid "Unparsable last-sync-rev element in %s"
--msgstr "last-sync-rev-element som ej går att tolka i %s"
-+msgstr "Kunde inte tolka elementet last-sync-rev i %s"
- 
- #: src/synchronization/gvfssyncservice.cpp:97
- msgid "Failure writing test file"
+ #: src/gnote.cpp:296
+ msgid "Homepage"
