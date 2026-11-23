@@ -77,6 +77,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 |---|---|---|---|
 | libgtop | master | po | `Granskad och allt ser bra ut` |
 | libgedit-amtk | main | po | `Granskad och allt ser bra ut` |
+| gtk-vnc | master | po | `Granskad och allt ser bra ut` |
 | libgedit-amtk | main | po | `Granskad och allt ser bra ut` |
 | xdg-user-dirs | master | po | `Granskad och allt ser bra ut` |
 | yelp-xsl | master | po | `Granskad och allt ser bra ut` |
