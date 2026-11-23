@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 09:21 UTC. Endast `main`, `master` och GNOME-versioner 48 eller nyare ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 09:23 UTC. Endast `main`, `master` och GNOME-versioner 48 eller nyare ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
