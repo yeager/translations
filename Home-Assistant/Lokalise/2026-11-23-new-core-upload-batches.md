@@ -269,6 +269,13 @@ Omadas sensor `Port {port_name} PoE power` hade särskrivningen `PoE effekt`.
 Den rättades till `Port {port_name}: PoE-effekt`; platshållaren bevarades,
 värdet lästes tillbaka från Lokalise och TMX-valideringen godkände 4 087 poster.
 
+## Growatt: start för period
+
+Sex Growatt-fält för laddnings- och urladdningsscheman var kvar på engelska
+som `Period 1/2/3 start`. De översattes konsekvent till `Start för period
+1/2/3`, sparades och lästes tillbaka via Lokalise API. TMX-valideringen
+godkände därefter 4 093 poster.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
