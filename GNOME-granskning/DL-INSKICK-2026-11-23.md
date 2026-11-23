@@ -35,6 +35,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | gnome-directory-thumbnailer | master | po | 2 |
 | office-runner | main | po | 7 |
 | ModemManager | main | po | 6 |
+| alacarte | master | po | 1 |
 | plymouth | main | po | 1 |
 | totem-pl-parser | master | po | 1 |
 | template-glib | main | po | 3 |
