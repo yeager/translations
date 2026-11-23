@@ -1,0 +1,2678 @@
+--- gimp-help.master.filters-distort.sv.original.po
++++ gimp-help.master.filters-distort.sv.reviewed.po
+@@ -5,7 +5,8 @@
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2009-04-21 13:33+0200\n"
+ "PO-Revision-Date: 2009-02-17 03:27+0100\n"
+-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
++"Language: sv\n"
+ "Language-Team: Swedish <sv@li.org>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -146,7 +147,7 @@
+ #: src/filters/distort/vpropagate.xml:21(phrase)
+ #: src/filters/distort/vpropagate.xml:24(primary)
+ msgid "Value Propagate"
+-msgstr ""
++msgstr "Sprid värde"
+ 
+ #: src/filters/distort/vpropagate.xml:28(phrase)
+ #: src/filters/distort/wind.xml:23(phrase)
+@@ -171,7 +172,7 @@
+ 
+ #: src/filters/distort/vpropagate.xml:32(phrase)
+ msgid "Example for the Value Propagate filter"
+-msgstr ""
++msgstr "Exempel på filtret Sprid värde"
+ 
+ #: src/filters/distort/vpropagate.xml:39(para)
+ #: src/filters/distort/wind.xml:35(para)
+@@ -197,13 +198,15 @@
+ 
+ #: src/filters/distort/vpropagate.xml:47(para)
+ msgid "Filter <quote>Value Propagate</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Sprid värde</quote> tillämpat"
+ 
+ #: src/filters/distort/vpropagate.xml:51(para)
+ msgid ""
+ "This filter works on color borders. It spreads pixels that differ in a "
+ "specified way from their neighbouring pixels."
+ msgstr ""
++"Filtret arbetar på färgkanter. Det sprider bildpunkter som skiljer sig på "
++"ett angivet sätt från sina angränsande bildpunkter."
+ 
+ #: src/filters/distort/vpropagate.xml:58(phrase)
+ #: src/filters/distort/wind.xml:59(phrase)
+@@ -226,6 +229,9 @@
+ "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Distorts</"
+ "guisubmenu><guimenuitem>Value Propagate</guimenuitem></menuchoice>."
+ msgstr ""
++"Filtret finns i bildfönstrets meny under <menuchoice><guimenu>Filter</guimenu>"
++"<guisubmenu>Förvrängningar</guisubmenu><guimenuitem>Sprid värde</guimenuitem>"
++"</menuchoice>."
+ 
+ #: src/filters/distort/vpropagate.xml:67(phrase)
+ #: src/filters/distort/wind.xml:68(phrase)
+@@ -253,7 +259,7 @@
+ 
+ #: src/filters/distort/vpropagate.xml:71(quote)
+ msgid "Value propagate"
+-msgstr ""
++msgstr "Sprid värde"
+ 
+ #: src/filters/distort/vpropagate.xml:71(phrase)
+ #: src/filters/distort/wind.xml:72(phrase)
+@@ -268,7 +274,7 @@
+ #: src/filters/distort/emboss.xml:81(phrase)
+ #: src/filters/distort/blinds.xml:76(phrase)
+ msgid "<placeholder-1/> filter options"
+-msgstr ""
++msgstr "Filteralternativ för <placeholder-1/>"
+ 
+ #: src/filters/distort/vpropagate.xml:82(term)
+ #: src/filters/distort/wind.xml:108(term)
+@@ -287,7 +293,7 @@
+ #: src/filters/distort/curve_bend.xml:77(term)
+ #: src/filters/distort/blinds.xml:86(term)
+ msgid "Preview"
+-msgstr ""
++msgstr "Förhandsvisning"
+ 
+ #: src/filters/distort/vpropagate.xml:84(para)
+ #: src/filters/distort/shift.xml:78(para)
+@@ -299,6 +305,8 @@
+ "The result of your settings will appear in the Preview without affecting the "
+ "image until you click on <guibutton>OK</guibutton>."
+ msgstr ""
++"Resultatet av dina inställningar visas i förhandsvisningen utan att påverka "
++"bilden förrän du klickar på <guibutton>OK</guibutton>."
+ 
+ #: src/filters/distort/vpropagate.xml:91(term)
+ msgid "Mode"
+@@ -306,83 +314,94 @@
+ 
+ #: src/filters/distort/vpropagate.xml:94(para)
+ msgid "The examples will be about the following image (zoom x8):"
+-msgstr ""
++msgstr "Exemplen utgår från följande bild (förstoring ×8):"
+ 
+ #: src/filters/distort/vpropagate.xml:104(phrase)
+ msgid "More white (larger value)"
+-msgstr ""
++msgstr "Mer vitt (högre värde)"
+ 
+ #: src/filters/distort/vpropagate.xml:107(para)
+ msgid ""
+ "Pixels will be propagated from upper value pixels towards lower value "
+ "pixels. So bright areas will enlarge."
+ msgstr ""
++"Bildpunkter sprids från bildpunkter med högre värde mot bildpunkter med "
++"lägre värde. Ljusa områden blir alltså större."
+ 
+ #: src/filters/distort/vpropagate.xml:113(phrase)
+ msgid "More white"
+-msgstr ""
++msgstr "Mer vitt"
+ 
+ #: src/filters/distort/vpropagate.xml:120(para)
+ msgid ""
+ "Bright pixels have been propagated to dark pixels in the four directions : "
+ "top, bottom, right and left. Filter applied several times to increase effect."
+ msgstr ""
++"Ljusa bildpunkter har spridits till mörka bildpunkter i de fyra riktningarna: "
++"uppåt, nedåt, höger och vänster. Filtret har tillämpats flera gånger för att "
++"öka effekten."
+ 
+ #: src/filters/distort/vpropagate.xml:132(phrase)
+ msgid "More black (smaller value)"
+-msgstr ""
++msgstr "Mer svart (lägre värde)"
+ 
+ #: src/filters/distort/vpropagate.xml:135(para)
+ msgid ""
+ "Pixels will be propagated from lower value pixels towards upper value "
+ "pixels. So dark areas will enlarge."
+ msgstr ""
++"Bildpunkter sprids från bildpunkter med lägre värde mot bildpunkter med "
++"högre värde. Mörka områden blir alltså större."
+ 
+ #: src/filters/distort/vpropagate.xml:141(phrase)
+ msgid "More black"
+-msgstr ""
++msgstr "Mer svart"
+ 
+ #: src/filters/distort/vpropagate.xml:151(phrase)
+ msgid "To bottom only"
+-msgstr ""
++msgstr "Endast nedåt"
+ 
+ #: src/filters/distort/vpropagate.xml:158(para)
+ msgid ""
+ "The same as above with <guilabel>To bottom</guilabel> direction only checked."
+-msgstr ""
++msgstr "Samma som ovan, men enbart riktningen <guilabel>Nedåt</guilabel> är markerad."
+ 
+ #: src/filters/distort/vpropagate.xml:169(phrase)
+ #: src/filters/distort/vpropagate.xml:178(phrase)
+ msgid "Middle value to peaks"
+-msgstr ""
++msgstr "Mellanvärde till toppar"
+ 
+ #: src/filters/distort/vpropagate.xml:172(para)
+ msgid ""
+ "On a border between the selected thresholds, the average of both values is "
+ "propagated."
+-msgstr ""
++msgstr "Vid en kant mellan de valda tröskelvärdena sprids medelvärdet av båda värdena."
+ 
+ #: src/filters/distort/vpropagate.xml:185(para)
+ msgid ""
+ "A thin border with a transitional color has been added to objects. It is not "
+ "visible around objects with smoothed borders."
+ msgstr ""
++"En tunn kant med en övergångsfärg har lagts till kring objekt. Den syns inte "
++"runt objekt med utjämnade kanter."
+ 
+ #: src/filters/distort/vpropagate.xml:197(para)
+ msgid ""
+ "Green area zoomed x800. A thin border (one pixel wide) has been added. Its "
+ "value is the average between grey (90%) and green (78%) : (90 + 78) / 2 = 84."
+ msgstr ""
++"Grönt område förstorat ×800. En tunn kant (en bildpunkt bred) har lagts till. "
++"Dess värde är medelvärdet mellan grått (90 %) och grönt (78 %): (90 + 78) / 2 = 84."
+ 
+ #: src/filters/distort/vpropagate.xml:209(phrase)
+ #: src/filters/distort/vpropagate.xml:218(phrase)
+ msgid "Foreground to peaks"
+-msgstr ""
++msgstr "Förgrund till toppar"
+ 
+ #: src/filters/distort/vpropagate.xml:212(para)
+ msgid ""
+ "The propagated areas will be filled with the foreground color of the toolbox."
+-msgstr ""
++msgstr "De spridda områdena fylls med verktygslådans förgrundsfärg."
+ 
+ #: src/filters/distort/vpropagate.xml:225(para)
+ msgid ""
+@@ -392,15 +411,20 @@
+ "inside. This is an artifact due to the small size of the object which makes "
+ "the smoothing area of opposite sides to overlap."
+ msgstr ""
++"I detta exempel är verktygslådans förgrundsfärg röd. En tunn, en bildpunkt "
++"bred röd kant läggs till runt objekten. För utjämnade objekt ligger denna "
++"kant längst ut i utjämningen. Här uppstår en annan kant på insidan. Det är "
++"en artefakt på grund av objektets lilla storlek, som får utjämningsområdena "
++"på motsatta sidor att överlappa."
+ 
+ #: src/filters/distort/vpropagate.xml:241(phrase)
+ #: src/filters/distort/vpropagate.xml:249(phrase)
+ msgid "Only foreground"
+-msgstr ""
++msgstr "Endast förgrund"
+ 
+ #: src/filters/distort/vpropagate.xml:244(para)
+ msgid "Only areas with the Toolbox Foreground color will propagate."
+-msgstr ""
++msgstr "Endast områden med verktygslådans förgrundsfärg sprids."
+ 
+ #: src/filters/distort/vpropagate.xml:256(para)
+ msgid ""
+@@ -408,18 +432,21 @@
+ "object. After applying filter several times, the green area is clearly "
+ "enlarged."
+ msgstr ""
++"I detta exempel har verktygslådans förgrundsfärg samma färg som det gröna "
++"objektet. Efter att filtret tillämpats flera gånger är det gröna området "
++"tydligt större."
+ 
+ #: src/filters/distort/vpropagate.xml:268(phrase)
+ msgid "Only background"
+-msgstr ""
++msgstr "Endast bakgrund"
+ 
+ #: src/filters/distort/vpropagate.xml:271(para)
+ msgid "Only areas with the Background color will propagate."
+-msgstr ""
++msgstr "Endast områden med bakgrundsfärgen sprids."
+ 
+ #: src/filters/distort/vpropagate.xml:278(phrase)
+ msgid "More opaque / transparent"
+-msgstr ""
++msgstr "Mer ogenomskinlig/genomskinlig"
+ 
+ #: src/filters/distort/vpropagate.xml:281(para)
+ msgid ""
+@@ -427,26 +454,29 @@
+ "areas will be propagated over less opaque (transparent) areas. These "
+ "commands need an image with an Alpha channel."
+ msgstr ""
++"Dessa kommandon fungerar som Mer vitt och Mer svart. Ogenomskinliga "
++"(genomskinliga) områden sprids över mindre ogenomskinliga (genomskinliga) "
++"områden. Kommandona kräver en bild med en alfakanal."
+ 
+ #: src/filters/distort/vpropagate.xml:289(phrase)
+ msgid "More opaque"
+-msgstr ""
++msgstr "Mer ogenomskinlig"
+ 
+ #: src/filters/distort/vpropagate.xml:296(para)
+ msgid "Original layer, with a transparent background."
+-msgstr ""
++msgstr "Ursprungligt lager med genomskinlig bakgrund."
+ 
+ #: src/filters/distort/vpropagate.xml:306(para)
+ msgid "Filter applied several times: the green, opaque, area got increased."
+-msgstr ""
++msgstr "Filtret har tillämpats flera gånger: det gröna, ogenomskinliga området har utökats."
+ 
+ #: src/filters/distort/vpropagate.xml:319(term)
+ msgid "Propagate"
+-msgstr ""
++msgstr "Sprid"
+ 
+ #: src/filters/distort/vpropagate.xml:323(term)
+ msgid "Lower / Upper threshold"
+-msgstr ""
++msgstr "Nedre/övre tröskelvärde"
+ 
+ #: src/filters/distort/vpropagate.xml:325(para)
+ msgid ""
+@@ -454,28 +484,30 @@
+ "pixel and its neighbour is no smaller than the lower threshold and no larger "
+ "than the upper threshold."
+ msgstr ""
++"En bildpunkt sprids om värdeskillnaden mellan bildpunkten och dess granne "
++"inte är mindre än den nedre tröskeln och inte större än den övre tröskeln."
+ 
+ #: src/filters/distort/vpropagate.xml:333(term)
+ msgid "Propagating rate"
+-msgstr ""
++msgstr "Spridningsgrad"
+ 
+ #: src/filters/distort/vpropagate.xml:335(para)
+ msgid ""
+ "That's the propagating amount. The higher it will be the more colored the "
+ "propagation will be."
+-msgstr ""
++msgstr "Detta är spridningsmängden. Ju högre den är, desto mer färgad blir spridningen."
+ 
+ #: src/filters/distort/vpropagate.xml:342(term)
+ msgid "Propagating direction"
+-msgstr ""
++msgstr "Spridningsriktning"
+ 
+ #: src/filters/distort/vpropagate.xml:344(para)
+ msgid "You can select one or more directions."
+-msgstr ""
++msgstr "Du kan välja en eller flera riktningar."
+ 
+ #: src/filters/distort/vpropagate.xml:351(phrase)
+ msgid "Propagating alpha channel"
+-msgstr ""
++msgstr "Sprid alfakanal"
+ 
+ #: src/filters/distort/vpropagate.xml:354(para)
+ msgid ""
+@@ -483,10 +515,13 @@
+ "will get the alpha of the neighbouring pixels. This checkbox is only visible "
+ "when the active layer has an alpha channel."
+ msgstr ""
++"Om alternativet är markerat sprids bildpunktens alfavärde, annars får "
++"bildpunkten alfavärdet från angränsande bildpunkter. Kryssrutan visas bara "
++"när det aktiva lagret har en alfakanal."
+ 
+ #: src/filters/distort/vpropagate.xml:364(phrase)
+ msgid "Propagating value channel"
+-msgstr ""
++msgstr "Sprid värdekanal"
+ 
+ #: src/filters/distort/vpropagate.xml:367(para)
+ msgid ""
+@@ -494,6 +529,9 @@
+ "will be propagated. The option is checked by default, of course. This "
+ "checkbox too is only visible when the active layer has an alpha channel."
+ msgstr ""
++"Om alternativet är markerat sprids bildpunktens färgkanaler (gråkanalen i "
++"gråskalebilder). Alternativet är naturligtvis markerat som standard. Även "
++"denna kryssruta visas bara när det aktiva lagret har en alfakanal."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -561,7 +599,7 @@
+ #: src/filters/distort/wind.xml:27(quote)
+ #: src/filters/distort/wind.xml:72(quote)
+ msgid "Wind"
+-msgstr ""
++msgstr "Vind"
+ 
+ #: src/filters/distort/wind.xml:14(primary)
+ #: src/filters/distort/video.xml:14(primary)
+@@ -601,16 +639,16 @@
+ #: src/filters/distort/curve_bend.xml:15(secondary)
+ #: src/filters/distort/blinds.xml:25(secondary)
+ msgid "Distorts"
+-msgstr ""
++msgstr "Förvrängningar"
+ 
+ #: src/filters/distort/wind.xml:27(phrase)
+ #: src/filters/distort/ripple.xml:27(phrase)
+ msgid "<placeholder-1/> filter example"
+-msgstr ""
++msgstr "Exempel på filtret <placeholder-1/>"
+ 
+ #: src/filters/distort/wind.xml:43(para)
+ msgid "Filter <quote>Wind</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Vind</quote> tillämpat"
+ 
+ #: src/filters/distort/wind.xml:47(para)
+ msgid ""
+@@ -621,6 +659,12 @@
+ "why you can create the illusion of motion, because the edges are what will "
+ "be blurred in a photograph of a moving object."
+ msgstr ""
++"Filtret Vind kan användas för att skapa rörelseoskärpa, men också som ett "
++"allmänt förvrängningsfilter. Det som kännetecknar filtret är att det ritar "
++"tunna svarta eller vita linjer. Vind upptäcker bildens kanter och drar ut "
++"tunna vita eller svarta linjer från kanten. Därför kan du skapa en illusion "
++"av rörelse, eftersom kanterna är det som blir oskarpt på ett foto av ett "
++"objekt i rörelse."
+ 
+ #: src/filters/distort/wind.xml:61(para)
+ msgid ""
+@@ -628,6 +672,8 @@
+ "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Wind</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
++"Du hittar filtret via <menuchoice><guimenu>Filter</guimenu><guisubmenu>"
++"Förvrängningar</guisubmenu><guimenuitem>Vind</guimenuitem></menuchoice>."
+ 
+ #: src/filters/distort/wind.xml:81(para)
+ msgid ""
+@@ -639,6 +685,12 @@
+ "the <parameter>Style</parameter> to Blast, which will produce thicker lines "
+ "than Wind."
+ msgstr ""
++"Gränssnittet är ganska enkelt. Du kan ställa in vindens <parameter>Styrka</"
++"parameter> och ett <parameter>Tröskelvärde</parameter>. <parameter>"
++"Tröskelvärde</parameter> begränsar effekten till färre områden i bilden. "
++"<parameter>Styrka</parameter> styr vindmängden, så ett högt värde ger en "
++"storm. Du kan också öka effekten genom att sätta <parameter>Stil</parameter> "
++"till Explosion, som ger tjockare linjer än Vind."
+ 
+ #: src/filters/distort/wind.xml:91(para)
+ msgid ""
+@@ -647,10 +699,14 @@
+ "Trailing or Both. Because Trailing will produce a black wind, it creates a "
+ "less convincing motion blur than Leading, which will produce white wind."
+ msgstr ""
++"Du kan bara ställa in vinden i två riktningar, vänster eller höger. Du kan "
++"dock styra från vilken kant vinden kommer med värdena Framkant, Bakkant eller "
++"Båda. Eftersom Bakkant ger svart vind skapas en mindre övertygande "
++"rörelseoskärpa än med Framkant, som ger vit vind."
+ 
+ #: src/filters/distort/wind.xml:98(para)
+ msgid "The following illustrations are based on this image:"
+-msgstr ""
++msgstr "Följande illustrationer bygger på denna bild:"
+ 
+ #: src/filters/distort/wind.xml:110(para)
+ msgid ""
+@@ -658,6 +714,9 @@
+ "image until you click on <guilabel>OK</guilabel>. It reproduces a part of "
+ "the image only, centred on the first modified area it encounters."
+ msgstr ""
++"Alla ändringar av dina inställningar visas i förhandsvisningen utan att "
++"påverka bilden förrän du klickar på <guilabel>OK</guilabel>. Endast en del av "
++"bilden visas, centrerad kring det första ändrade område som påträffas."
+ 
+ #: src/filters/distort/wind.xml:119(term)
+ msgid "Style"
+@@ -668,12 +727,16 @@
+ "<guilabel>Wind</guilabel>: This option is the most suggestive of a moving "
+ "effect. Trails are thin."
+ msgstr ""
++"<guilabel>Vind</guilabel>: Detta alternativ antyder mest en rörelseeffekt. "
++"Spåren är tunna."
+ 
+ #: src/filters/distort/wind.xml:128(para)
+ msgid ""
+ "<guilabel>Blast</guilabel>: This option tries to suggest a blast due to an "
+ "explosion. Trails are thick."
+ msgstr ""
++"<guilabel>Explosion</guilabel>: Detta alternativ försöker antyda en explosion. "
++"Spåren är tjocka."
+ 
+ #: src/filters/distort/wind.xml:141(term)
+ msgid "Direction"
+@@ -684,10 +747,12 @@
+ "You can select the direction, <emphasis>Left</emphasis> or <emphasis>Right</"
+ "emphasis>, from which the wind comes."
+ msgstr ""
++"Du kan välja riktningen, <emphasis>Vänster</emphasis> eller <emphasis>Höger</"
++"emphasis>, som vinden kommer från."
+ 
+ #: src/filters/distort/wind.xml:150(term)
+ msgid "Edge Affected"
+-msgstr ""
++msgstr "Påverkad kant"
+ 
+ #: src/filters/distort/wind.xml:154(para)
+ msgid ""
+@@ -695,26 +760,30 @@
+ "falling on the object itself. It suggests that a violent wind is pulling "
+ "color out."
+ msgstr ""
++"<guilabel>Framkant</guilabel>: Spåren startar från framkanten och faller över "
++"själva objektet. Det antyder att en kraftig vind drar ut färg."
+ 
+ #: src/filters/distort/wind.xml:165(para)
+ msgid ""
+ "<guilabel>Trailing</guilabel>: Trails start from the back border of the "
+ "object."
+-msgstr ""
++msgstr "<guilabel>Bakkant</guilabel>: Spåren startar från objektets bakkant."
+ 
+ #: src/filters/distort/wind.xml:175(para)
+ msgid "<guilabel>Both</guilabel>: Combines both effects."
+-msgstr ""
++msgstr "<guilabel>Båda</guilabel>: Kombinerar båda effekterna."
+ 
+ #: src/filters/distort/wind.xml:187(term)
+ msgid "Threshold"
+-msgstr ""
++msgstr "Tröskelvärde"
+ 
+ #: src/filters/distort/wind.xml:189(para)
+ msgid ""
+ "<guilabel>Threshold</guilabel>: The threshold to detect borders. The higher "
+ "it is, the fewer borders will be detected."
+ msgstr ""
++"<guilabel>Tröskelvärde</guilabel>: Tröskelvärdet för att upptäcka kanter. Ju "
++"högre det är, desto färre kanter upptäcks."
+ 
+ #: src/filters/distort/wind.xml:196(term)
+ msgid "Strength"
+@@ -724,7 +793,7 @@
+ msgid ""
+ "<guilabel>Strength</guilabel>: Higher values increase the strength of the "
+ "effect."
+-msgstr ""
++msgstr "<guilabel>Styrka</guilabel>: Högre värden ökar effektens styrka."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -757,15 +826,15 @@
+ #: src/filters/distort/video.xml:27(phrase)
+ #: src/filters/distort/mosaic.xml:27(phrase)
+ msgid "Applying example for the <placeholder-1/> filter"
+-msgstr ""
++msgstr "Tillämpningsexempel för filtret <placeholder-1/>"
+ 
+ #: src/filters/distort/video.xml:44(para)
+ msgid "Filter <quote>Video</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Video</quote> tillämpat"
+ 
+ #: src/filters/distort/video.xml:48(para)
+ msgid "Apply low dot-pitch RGB simulation to the specified drawable."
+-msgstr ""
++msgstr "Tillämpa RGB-simulering med låg punktdelning på den angivna ritytan."
+ 
+ #: src/filters/distort/video.xml:56(para)
+ msgid ""
+@@ -773,38 +842,44 @@
+ "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Video</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
++"Du hittar filtret via <menuchoice><guimenu>Filter</guimenu><guisubmenu>"
++"Förvrängningar</guisubmenu><guimenuitem>Video</guimenuitem></menuchoice>."
+ 
+ #: src/filters/distort/video.xml:80(para)
+ msgid ""
+ "This preview is unusual: Changes appear always on the same image which is "
+ "not yours."
+ msgstr ""
++"Denna förhandsvisning är ovanlig: ändringar visas alltid i samma bild, som "
++"inte är din."
+ 
+ #: src/filters/distort/video.xml:87(term)
+ msgid "RGB Pattern Type"
+-msgstr ""
++msgstr "Typ av RGB-mönster"
+ 
+ #: src/filters/distort/video.xml:89(para)
+ msgid ""
+ "It would be rather difficult to describe what each pattern will render. It's "
+ "best to see what they render in the Preview."
+ msgstr ""
++"Det är ganska svårt att beskriva vad varje mönster ritar. Det är bäst att se "
++"vad de ritar i förhandsvisningen."
+ 
+ #: src/filters/distort/video.xml:96(term)
+ msgid "Additive"
+-msgstr ""
++msgstr "Additiv"
+ 
+ #: src/filters/distort/video.xml:98(para)
+ msgid "Set whether the function adds the result to the original image."
+-msgstr ""
++msgstr "Ange om funktionen ska lägga resultatet ovanpå ursprungsbilden."
+ 
+ #: src/filters/distort/video.xml:104(term)
+ msgid "Rotated"
+-msgstr ""
++msgstr "Roterad"
+ 
+ #: src/filters/distort/video.xml:106(para)
+ msgid "Rotate the result by 90°."
+-msgstr ""
++msgstr "Rotera resultatet 90°."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -861,25 +936,27 @@
+ #: src/filters/distort/whirlpinch.xml:18(primary)
+ #: src/filters/distort/whirlpinch.xml:110(quote)
+ msgid "Whirl and Pinch"
+-msgstr ""
++msgstr "Virvel och nyp"
+ 
+ #: src/filters/distort/whirlpinch.xml:26(phrase)
+ msgid "Example for the Whirl and Pinch filter"
+-msgstr ""
++msgstr "Exempel på filtret Virvel och nyp"
+ 
+ #: src/filters/distort/whirlpinch.xml:41(para)
+ msgid "Filter applied"
+-msgstr ""
++msgstr "Filtret tillämpat"
+ 
+ #: src/filters/distort/whirlpinch.xml:45(para)
+ msgid "<quote>Whirl and Pinch</quote> distorts your image in a concentric way."
+-msgstr ""
++msgstr "<quote>Virvel och nyp</quote> förvränger bilden koncentriskt."
+ 
+ #: src/filters/distort/whirlpinch.xml:47(para)
+ msgid ""
+ "<quote>Whirl and Pinch</quote> distorts the image much like the little "
+ "whirlpool that appears when you empty your bath."
+ msgstr ""
++"<quote>Virvel och nyp</quote> förvränger bilden ungefär som den lilla "
++"virvel som uppstår när du tömmer badkaret."
+ 
+ #: src/filters/distort/whirlpinch.xml:50(para)
+ msgid ""
+@@ -890,6 +967,11 @@
+ "to a positive value, it looks like someone is dragging or sucking on the "
+ "surface from behind, and away from you."
+ msgstr ""
++"<quote>Nyp</quote> kan liknas vid att lägga bilden på en mjuk gummiyta och "
++"klämma ihop kanterna eller hörnen. Om skjutreglaget för nypmängd sätts till "
++"ett negativt värde ser det ut som om någon försöker trycka ett runt objekt "
++"mot dig bakifrån genom gummihuden. Om nypmängden sätts till ett positivt "
++"värde ser det ut som om någon drar eller suger i ytan bakifrån, bort från dig."
+ 
+ #: src/filters/distort/whirlpinch.xml:59(para)
+ msgid ""
+@@ -897,22 +979,25 @@
+ "image distortion produced by telephoto or fish-eye lenses (<quote>barrel "
+ "distortion</quote>)."
+ msgstr ""
++"Effekten <quote>nyp</quote> kan ibland användas för att kompensera för "
++"bildförvrängning som skapas av tele- eller fiskögeobjektiv (<quote>"
++"tunnformig förvrängning</quote>)."
+ 
+ #: src/filters/distort/whirlpinch.xml:67(phrase)
+ msgid "Illustration"
+-msgstr ""
++msgstr "Illustration"
+ 
+ #: src/filters/distort/whirlpinch.xml:74(para)
+ msgid "Original"
+-msgstr ""
++msgstr "Original"
+ 
+ #: src/filters/distort/whirlpinch.xml:82(para)
+ msgid "Whirled"
+-msgstr ""
++msgstr "Virvlad"
+ 
+ #: src/filters/distort/whirlpinch.xml:90(para)
+ msgid "Pinched"
+-msgstr ""
++msgstr "Nypt"
+ 
+ #: src/filters/distort/whirlpinch.xml:99(para)
+ msgid ""
+@@ -920,10 +1005,12 @@
+ "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Whirl and Pinch</"
+ "guimenuitem></menuchoice>"
+ msgstr ""
++"Du hittar filtret via <menuchoice><guimenu>Filter</guimenu><guisubmenu>"
++"Förvrängningar</guisubmenu><guimenuitem>Virvel och nyp</guimenuitem></menuchoice>"
+ 
+ #: src/filters/distort/whirlpinch.xml:106(phrase)
+ msgid "Parameter Settings"
+-msgstr ""
++msgstr "Parameterinställningar"
+ 
+ #: src/filters/distort/whirlpinch.xml:123(para)
+ msgid ""
+@@ -931,26 +1018,33 @@
+ "emphasis>. The whirlpool is focused around the center of the current layer "
+ "or selection."
+ msgstr ""
++"Ändringar av parametrarna visas omedelbart i <emphasis>förhandsvisningen</"
++"emphasis>. Virveln är centrerad kring mitten av det aktuella lagret eller "
++"markeringen."
+ 
+ #: src/filters/distort/whirlpinch.xml:131(term)
+ msgid "Whirl Angle"
+-msgstr ""
++msgstr "Virvelvinkel"
+ 
+ #: src/filters/distort/whirlpinch.xml:133(para)
+ msgid ""
+ "<guilabel>Whirl Angle</guilabel>: Clockwise or counter clockwise (-360 to "
+ "+360). Controls how many degrees the affected part of the image is rotated."
+ msgstr ""
++"<guilabel>Virvelvinkel</guilabel>: Medurs eller moturs (−360 till +360). "
++"Styr hur många grader den berörda delen av bilden roteras."
+ 
+ #: src/filters/distort/whirlpinch.xml:140(term)
+ msgid "Pinch Amount"
+-msgstr ""
++msgstr "Nypmängd"
+ 
+ #: src/filters/distort/whirlpinch.xml:142(para)
+ msgid ""
+ "<guilabel>Pinch Amount</guilabel>: Whirlpool depth(-1 to +1). Determines how "
+ "strongly the affected part of the image is pinched."
+ msgstr ""
++"<guilabel>Nypmängd</guilabel>: Virveldjup (−1 till +1). Avgör hur kraftigt "
++"den berörda delen av bilden nyps."
+ 
+ #: src/filters/distort/whirlpinch.xml:149(term)
+ msgid "Radius"
+@@ -965,6 +1059,11 @@
+ "<parameter>Radius</parameter> is set to 0, nothing will be affected (think "
+ "of it as the radius in a circle with 0 in the center and 1 halfway out)."
+ msgstr ""
++"<guilabel>Radie</guilabel>: Virvelns bredd (0,0–2,0). Avgör hur stor del av "
++"bilden som påverkas av förvrängningen. Om du sätter <parameter>Radie</parameter> "
++"till 2 påverkas hela bilden. Om du sätter <parameter>Radie</parameter> till 1 "
++"påverkas halva bilden. Om <parameter>Radie</parameter> sätts till 0 påverkas "
++"ingenting (tänk på den som radien i en cirkel med 0 i mitten och 1 halvvägs ut)."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -990,21 +1089,23 @@
+ #: src/filters/distort/waves.xml:13(primary)
+ #: src/filters/distort/waves.xml:60(quote)
+ msgid "Waves"
+-msgstr ""
++msgstr "Vågor"
+ 
+ #: src/filters/distort/waves.xml:21(phrase)
+ msgid "Example for the Waves filter"
+-msgstr ""
++msgstr "Exempel på filtret Vågor"
+ 
+ #: src/filters/distort/waves.xml:36(para)
+ msgid "Filter <quote>Waves</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Vågor</quote> tillämpat"
+ 
+ #: src/filters/distort/waves.xml:40(para)
+ msgid ""
+ "With this filter you get the same effect as a stone thrown in a quiet pond, "
+ "giving concentric waves."
+ msgstr ""
++"Med detta filter får du samma effekt som av en sten som kastas i en stilla "
++"damm och ger koncentriska vågor."
+ 
+ #: src/filters/distort/waves.xml:49(para)
+ msgid ""
+@@ -1012,6 +1113,8 @@
+ "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Waves</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
++"Du hittar filtret via <menuchoice><guimenu>Filter</guimenu><guisubmenu>"
++"Förvrängningar</guisubmenu><guimenuitem>Vågor</guimenuitem></menuchoice>."
+ 
+ #: src/filters/distort/waves.xml:73(para)
+ #: src/filters/distort/emboss.xml:94(para)
+@@ -1020,6 +1123,9 @@
+ "image until you click on <guilabel>OK</guilabel>. Don't keep <emphasis>Do "
+ "Preview</emphasis> checked if your computer is too much slow."
+ msgstr ""
++"Alla ändringar av dina inställningar visas i förhandsvisningen utan att "
++"påverka bilden förrän du klickar på <guilabel>OK</guilabel>. Låt inte "
++"<emphasis>Förhandsvisa</emphasis> vara markerat om datorn är för långsam."
+ 
+ #: src/filters/distort/waves.xml:82(term)
+ msgid "Modes"
+@@ -1030,48 +1136,52 @@
+ "<guilabel>Smear</guilabel>: Because of the waves, areas are rendered empty "
+ "on sides. The adjacent pixels will spread to fill them."
+ msgstr ""
++"<guilabel>Smeta ut</guilabel>: På grund av vågorna ritas tomma områden vid "
++"sidorna. Angränsande bildpunkter sprids för att fylla dem."
+ 
+ #: src/filters/distort/waves.xml:92(para)
+ msgid ""
+ "<guilabel>Blacken</guilabel>: The empty areas will be filled by black color."
+-msgstr ""
++msgstr "<guilabel>Svärta</guilabel>: De tomma områdena fylls med svart färg."
+ 
+ #: src/filters/distort/waves.xml:100(term)
+ msgid "Reflective"
+-msgstr ""
++msgstr "Reflekterande"
+ 
+ #: src/filters/distort/waves.xml:102(para)
+ msgid ""
+ "<guilabel>Reflective</guilabel>: Waves bounce on sides and interfere with "
+ "the arriving ones."
+ msgstr ""
++"<guilabel>Reflekterande</guilabel>: Vågor studsar mot sidorna och stör de "
++"inkommande vågorna."
+ 
+ #: src/filters/distort/waves.xml:108(term)
+ #: src/filters/distort/ripple.xml:178(term)
+ msgid "Amplitude"
+-msgstr ""
++msgstr "Amplitud"
+ 
+ #: src/filters/distort/waves.xml:110(para)
+ msgid "<guilabel>Amplitude</guilabel>: Varies the height of waves."
+-msgstr ""
++msgstr "<guilabel>Amplitud</guilabel>: Varierar vågornas höjd."
+ 
+ #: src/filters/distort/waves.xml:115(term)
+ msgid "Phase"
+-msgstr ""
++msgstr "Fas"
+ 
+ #: src/filters/distort/waves.xml:117(para)
+ msgid "<guilabel>Phase</guilabel>: This command shifts the top of waves."
+-msgstr ""
++msgstr "<guilabel>Fas</guilabel>: Detta kommando förskjuter vågornas toppar."
+ 
+ #: src/filters/distort/waves.xml:123(term)
+ msgid "Wavelength"
+-msgstr ""
++msgstr "Våglängd"
+ 
+ #: src/filters/distort/waves.xml:125(para)
+ msgid ""
+ "<guilabel>Wavelength</guilabel>: Varies the distance between the top of "
+ "waves."
+-msgstr ""
++msgstr "<guilabel>Våglängd</guilabel>: Varierar avståndet mellan vågornas toppar."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1102,17 +1212,19 @@
+ 
+ #: src/filters/distort/shift.xml:27(phrase)
+ msgid "Example for the Shift filter"
+-msgstr ""
++msgstr "Exempel på filtret Skift"
+ 
+ #: src/filters/distort/shift.xml:42(para)
+ msgid "Filter <quote>Shift</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Skift</quote> tillämpat"
+ 
+ #: src/filters/distort/shift.xml:46(para)
+ msgid ""
+ "It shifts all pixel rows, horizontally or vertically, in the current layer "
+ "or selection, on a random distance and within determined limits."
+ msgstr ""
++"Det förskjuter alla bildpunktsrader vågrätt eller lodrätt i det aktuella "
++"lagret eller markeringen, ett slumpmässigt avstånd inom angivna gränser."
+ 
+ #: src/filters/distort/shift.xml:55(para)
+ msgid ""
+@@ -1120,32 +1232,36 @@
+ "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Sift</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
++"Du hittar filtret via <menuchoice><guimenu>Filter</guimenu><guisubmenu>"
++"Förvrängningar</guisubmenu><guimenuitem>Skift</guimenuitem></menuchoice>."
+ 
+ #: src/filters/distort/shift.xml:85(term)
+ msgid "These options are self-explanatory:"
+-msgstr ""
++msgstr "Dessa alternativ är självförklarande:"
+ 
+ #: src/filters/distort/shift.xml:88(guilabel)
+ msgid "Shift Horizontally"
+-msgstr ""
++msgstr "Skifta vågrätt"
+ 
+ #: src/filters/distort/shift.xml:91(guilabel)
+ msgid "Shift vertically"
+-msgstr ""
++msgstr "Skifta lodrätt"
+ 
+ #: src/filters/distort/shift.xml:94(guilabel)
+ msgid "Shift Amount"
+-msgstr ""
++msgstr "Skiftmängd"
+ 
+ #: src/filters/distort/shift.xml:99(term)
+ msgid "Shift amount"
+-msgstr ""
++msgstr "Skiftmängd"
+ 
+ #: src/filters/distort/shift.xml:101(para)
+ msgid ""
+ "With this option, you can set the maximum shift, betwwen 1 and 200 pixels, "
+ "or in another unit of measurement."
+ msgstr ""
++"Med detta alternativ kan du ange maximal förskjutning, mellan 1 och 200 "
++"bildpunkter, eller i en annan måttenhet."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1172,21 +1288,23 @@
+ #: src/filters/distort/ripple.xml:27(quote)
+ #: src/filters/distort/ripple.xml:67(quote)
+ msgid "Ripple"
+-msgstr ""
++msgstr "Krusning"
+ 
+ #: src/filters/distort/ripple.xml:19(primary)
+ msgid "Ripple filter"
+-msgstr ""
++msgstr "Filtret Krusning"
+ 
+ #: src/filters/distort/ripple.xml:43(para)
+ msgid "Filter <quote>Ripple</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Krusning</quote> tillämpat"
+ 
+ #: src/filters/distort/ripple.xml:47(para)
+ msgid ""
+ "It displaces the pixels of the active layer or selection to waves or ripples "
+ "reminding a reflection on disturbed water."
+ msgstr ""
++"Det förskjuter bildpunkterna i det aktiva lagret eller markeringen till "
++"vågor eller krusningar som påminner om en reflektion i upprört vatten."
+ 
+ #: src/filters/distort/ripple.xml:56(para)
+ msgid ""
+@@ -1194,6 +1312,8 @@
+ "guimenu><guisubmenu>Distotrts</guisubmenu><guimenuitem>Ripple</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
++"Du hittar filtret via <menuchoice><guimenu>Filter</guimenu><guisubmenu>"
++"Förvrängningar</guisubmenu><guimenuitem>Krusning</guimenuitem></menuchoice>."
+ 
+ #: src/filters/distort/ripple.xml:91(term)
+ #: src/filters/distort/newsprint.xml:228(term)
+@@ -1206,16 +1326,20 @@
+ "<guilabel>Antialiasing</guilabel>: This improves the scaled look the image "
+ "borders may have."
+ msgstr ""
++"<guilabel>Kantutjämning</guilabel>: Detta förbättrar det skalade utseende "
++"som bildkanterna kan få."
+ 
+ #: src/filters/distort/ripple.xml:99(term)
+ msgid "Retain Tileability"
+-msgstr ""
++msgstr "Behåll sömlöshet"
+ 
+ #: src/filters/distort/ripple.xml:101(para)
+ msgid ""
+ "<guilabel>Retain Tileability</guilabel>: This preserves the seamless "
+ "properties if your image is a tile pattern."
+ msgstr ""
++"<guilabel>Behåll sömlöshet</guilabel>: Detta bevarar de sömlösa egenskaperna "
++"om bilden är ett kakelmönster."
+ 
+ #: src/filters/distort/ripple.xml:110(term)
+ #: src/filters/distort/blinds.xml:95(term)
+@@ -1227,63 +1351,71 @@
+ "That's the <guilabel>Horizontal</guilabel> or <guilabel>Vertical</guilabel> "
+ "direction of waves."
+ msgstr ""
++"Detta är vågornas <guilabel>vågräta</guilabel> eller <guilabel>lodräta</"
++"guilabel> riktning."
+ 
+ #: src/filters/distort/ripple.xml:119(term)
+ msgid "Edges"
+-msgstr ""
++msgstr "Kanter"
+ 
+ #: src/filters/distort/ripple.xml:121(para)
+ msgid ""
+ "Because ripples cause pixel displacement, some pixels may be missing on the "
+ "image sides:"
+-msgstr ""
++msgstr "Eftersom krusningar förskjuter bildpunkter kan vissa saknas vid bildens sidor:"
+ 
+ #: src/filters/distort/ripple.xml:127(para)
+ msgid ""
+ "With <guilabel>Wrap</guilabel>, pixels going out one side will come back on "
+ "the other side, replacing so the missing pixels."
+ msgstr ""
++"Med <guilabel>Radbryt</guilabel> kommer bildpunkter som går ut på ena sidan "
++"tillbaka på den andra sidan och ersätter därmed de saknade bildpunkterna."
+ 
+ #: src/filters/distort/ripple.xml:134(para)
+ msgid ""
+ "With <guilabel>Smear</guilabel>, the adjacent pixels will spread out to "
+ "replace the mixing pixels."
+ msgstr ""
++"Med <guilabel>Smeta ut</guilabel> sprids angränsande bildpunkter för att "
++"ersätta de saknade bildpunkterna."
+ 
+ #: src/filters/distort/ripple.xml:140(para)
+ msgid ""
+ "With <guilabel>Black</guilabel>, the missing pixels will be replaced by "
+ "black pixels."
+ msgstr ""
++"Med <guilabel>Svart</guilabel> ersätts de saknade bildpunkterna med svarta "
++"bildpunkter."
+ 
+ #: src/filters/distort/ripple.xml:149(term)
+ msgid "Wave Type"
+-msgstr ""
++msgstr "Vågtyp"
+ 
+ #: src/filters/distort/ripple.xml:151(para)
+ msgid "These options are self-explanatory"
+-msgstr ""
++msgstr "Dessa alternativ är självförklarande"
+ 
+ #: src/filters/distort/ripple.xml:157(guilabel)
+ msgid "Sawtooth"
+-msgstr ""
++msgstr "Sågtand"
+ 
+ #: src/filters/distort/ripple.xml:162(guilabel)
+ msgid "Sine"
+-msgstr ""
++msgstr "Sinus"
+ 
+ #: src/filters/distort/ripple.xml:169(term)
+ msgid "Period"
+-msgstr ""
++msgstr "Period"
+ 
+ #: src/filters/distort/ripple.xml:171(para)
+ msgid "The <guilabel>Period</guilabel> is related to wavelength (0-200 pixels)"
+-msgstr ""
++msgstr "<guilabel>Period</guilabel> är relaterad till våglängden (0–200 bildpunkter)"
+ 
+ #: src/filters/distort/ripple.xml:180(para)
+ msgid ""
+ "The <guilabel>Amplitude</guilabel> is related to wave height (0-200 pixels)."
+-msgstr ""
++msgstr "<guilabel>Amplitud</guilabel> är relaterad till våghöjden (0–200 bildpunkter)."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1330,21 +1462,23 @@
+ #: src/filters/distort/polarcoords.xml:18(primary)
+ #: src/filters/distort/polarcoords.xml:65(quote)
+ msgid "Polar Coords"
+-msgstr ""
++msgstr "Polära koordinater"
+ 
+ #: src/filters/distort/polarcoords.xml:26(phrase)
+ msgid "Example for Polar Coords filter"
+-msgstr ""
++msgstr "Exempel på filtret Polära koordinater"
+ 
+ #: src/filters/distort/polarcoords.xml:41(para)
+ msgid "<quote>Polar Coords</quote> filter applied"
+-msgstr ""
++msgstr "Filtret <quote>Polära koordinater</quote> tillämpat"
+ 
+ #: src/filters/distort/polarcoords.xml:45(para)
+ msgid ""
+ "It gives a circular or a rectangular representation of your image with all "
+ "the possible intermediates between both."
+ msgstr ""
++"Det ger en cirkulär eller rektangulär representation av bilden med alla "
++"möjliga mellanlägen mellan de båda."
+ 
+ #: src/filters/distort/polarcoords.xml:54(para)
+ msgid ""
+@@ -1352,56 +1486,67 @@
+ "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Polar Coords</"
+ "guimenuitem></menuchoice>."
+ msgstr ""
++"Du hittar filtret via <menuchoice><guimenu>Filter</guimenu><guisubmenu>"
++"Förvrängningar</guisubmenu><guimenuitem>Polära koordinater</guimenuitem>"
++"</menuchoice>."
+ 
+ #: src/filters/distort/polarcoords.xml:84(term)
+ msgid "Circle Depth in Percent"
+-msgstr ""
++msgstr "Cirkeldjup i procent"
+ 
+ #: src/filters/distort/polarcoords.xml:86(para)
+ msgid ""
+ "Slider and input box allow you to set the \"circularity\" of the "
+ "transformation, from rectangle (0%) to circle (100%)."
+ msgstr ""
++"Skjutreglaget och inmatningsrutan låter dig ange omvandlingens ”cirkularitet”, "
++"från rektangel (0 %) till cirkel (100 %)."
+ 
+ #: src/filters/distort/polarcoords.xml:93(term)
+ msgid "Offset Angle"
+-msgstr ""
++msgstr "Förskjutningsvinkel"
+ 
+ #: src/filters/distort/polarcoords.xml:95(para)
+ msgid ""
+ "This option controls the angle the drawing will start from (0 - 359°), and "
+ "so turns it around the circle center."
+ msgstr ""
++"Detta alternativ styr vinkeln där ritningen börjar (0–359°) och roterar den "
++"därmed kring cirkelns centrum."
+ 
+ #: src/filters/distort/polarcoords.xml:102(term)
+ msgid "Map Backwards"
+-msgstr ""
++msgstr "Avbilda baklänges"
+ 
+ #: src/filters/distort/polarcoords.xml:104(para)
+ msgid ""
+ "When this option is checked, the drawing will start from the right instead "
+ "of the left."
+-msgstr ""
++msgstr "När alternativet är markerat börjar ritningen från höger i stället för vänster."
+ 
+ #: src/filters/distort/polarcoords.xml:111(term)
+ msgid "Map from Top"
+-msgstr ""
++msgstr "Avbilda från överkanten"
+ 
+ #: src/filters/distort/polarcoords.xml:113(para)
+ msgid ""
+ "If unchecked, the mapping will put the bottom row in the middle and the top "
+ "row on the outside. If checked, it will be the opposite."
+ msgstr ""
++"Om alternativet inte är markerat placerar avbildningen den nedre raden i "
++"mitten och den övre raden utanför. Om det är markerat blir det tvärtom."
+ 
+ #: src/filters/distort/polarcoords.xml:121(term)
+ msgid "To Polar"
+-msgstr ""
++msgstr "Till polärt"
+ 
+ #: src/filters/distort/polarcoords.xml:123(para)
+ msgid ""
+ "If unchecked, the image will be circularly mapped into a rectangle (odd "
+ "effect). If checked, the image will be mapped into a circle."
+ msgstr ""
++"Om alternativet inte är markerat avbildas bilden cirkulärt till en rektangel "
++"(udda effekt). Om det är markerat avbildas bilden till en cirkel."
+ 
+ #: src/filters/distort/polarcoords.xml:133(phrase)
+ msgid "Examples"
+@@ -1409,17 +1554,17 @@
+ 
+ #: src/filters/distort/polarcoords.xml:137(phrase)
+ msgid "With text"
+-msgstr ""
++msgstr "Med text"
+ 
+ #: src/filters/distort/polarcoords.xml:144(para)
+ msgid ""
+ "If you have just written the text, you must Flatten the image before using "
+ "the filter."
+-msgstr ""
++msgstr "Om du nyss har skrivit texten måste du platta till bilden innan filtret används."
+ 
+ #: src/filters/distort/polarcoords.xml:153(phrase)
+ msgid "With two horizontal bars"
+-msgstr ""
++msgstr "Med två vågräta staplar"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1445,15 +1590,15 @@
+ #: src/filters/distort/pagecurl.xml:24(tertiary)
+ #: src/filters/distort/pagecurl.xml:27(primary)
+ msgid "Page Curl"
+-msgstr ""
++msgstr "Vik upp sida"
+ 
+ #: src/filters/distort/pagecurl.xml:35(phrase)
+ msgid "Example for the Page Curl filter"
+-msgstr ""
++msgstr "Exempel på filtret Vik upp sida"
+ 
+ #: src/filters/distort/pagecurl.xml:50(para)
+ msgid "Filter <quote>Page Curl</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Vik upp sida</quote> tillämpat"
+ 
+ #: src/filters/distort/pagecurl.xml:54(para)
+ msgid ""
+@@ -1462,6 +1607,10 @@
+ "\" and a new Alpha channel are created. The part of the initial layer "
+ "corresponding to this cleared area is also transparent."
+ msgstr ""
++"Detta filter viker upp ett hörn av det aktuella lagret eller markeringen till "
++"en slags strut och visar det underliggande lagret i det frilagda området. Ett "
++"nytt ”uppvikningslager” och en ny alfakanal skapas. Den del av ursprungslagret "
++"som motsvarar det frilagda området blir också genomskinlig."
+ 
+ #: src/filters/distort/pagecurl.xml:65(para)
+ msgid ""
+@@ -1469,52 +1618,61 @@
+ "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Distorts</"
+ "guisubmenu><guimenuitem>Page Curl</guimenuitem></menuchoice>."
+ msgstr ""
++"Filtret finns i bildfönstrets meny under <menuchoice><guimenu>Filter</guimenu>"
++"<guisubmenu>Förvrängningar</guisubmenu><guimenuitem>Vik upp sida</guimenuitem>"
++"</menuchoice>."
+ 
+ #: src/filters/distort/pagecurl.xml:86(term)
+ msgid "Curl Location"
+-msgstr ""
++msgstr "Uppvikningsplats"
+ 
+ #: src/filters/distort/pagecurl.xml:88(para)
+ msgid ""
+ "You have there four radio buttons to select the corner you want raise. The "
+ "Preview is redundant and doesn't respond to other options."
+ msgstr ""
++"Där finns fyra alternativknappar för att välja det hörn du vill vika upp. "
++"Förhandsvisningen är överflödig och reagerar inte på andra alternativ."
+ 
+ #: src/filters/distort/pagecurl.xml:96(term)
+ msgid "Curl Orientation"
+-msgstr ""
++msgstr "Uppvikningsriktning"
+ 
+ #: src/filters/distort/pagecurl.xml:98(para)
+ msgid ""
+ "<emphasis>Horizontal</emphasis> and <emphasis>Vertical</emphasis> refer to "
+ "the border you want raise."
+ msgstr ""
++"<emphasis>Vågrät</emphasis> och <emphasis>Lodrät</emphasis> syftar på den "
++"kant du vill vika upp."
+ 
+ #: src/filters/distort/pagecurl.xml:104(term)
+ msgid "Shadow under curl"
+-msgstr ""
++msgstr "Skugga under uppvikning"
+ 
+ #: src/filters/distort/pagecurl.xml:106(para)
+ msgid "This is the shadow inside the cornet."
+-msgstr ""
++msgstr "Detta är skuggan inne i struten."
+ 
+ #: src/filters/distort/pagecurl.xml:112(term)
+ msgid "Use current gradient instead of FG/FB-color"
+-msgstr ""
++msgstr "Använd aktuell toning i stället för förgrunds-/bakgrundsfärg"
+ 
+ #: src/filters/distort/pagecurl.xml:114(para)
+ msgid "This color refers to the outer face of the cornet."
+-msgstr ""
++msgstr "Färgen avser strutens utsida."
+ 
+ #: src/filters/distort/pagecurl.xml:120(term)
+ msgid "Curl Opacity"
+-msgstr ""
++msgstr "Uppvikningens opacitet"
+ 
+ #: src/filters/distort/pagecurl.xml:122(para)
+ msgid ""
+ "Refers to the visibility of the layer part underlying the cornet. It may be "
+ "set also in the Layer Dialog."
+ msgstr ""
++"Avser synligheten för den lagerdel som ligger under struten. Den kan också "
++"ställas in i lagerdialogrutan."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1549,15 +1707,15 @@
+ #: src/filters/distort/newsprint.xml:19(primary)
+ #: src/filters/distort/newsprint.xml:99(quote)
+ msgid "Newsprint"
+-msgstr ""
++msgstr "Tidningstryck"
+ 
+ #: src/filters/distort/newsprint.xml:27(phrase)
+ msgid "Applying example for the Newsprint filter"
+-msgstr ""
++msgstr "Tillämpningsexempel för filtret Tidningstryck"
+ 
+ #: src/filters/distort/newsprint.xml:44(para)
+ msgid "Filter <quote>Newsprint</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Tidningstryck</quote> tillämpat"
+ 
+ #: src/filters/distort/newsprint.xml:48(para)
+ msgid ""
+@@ -1566,12 +1724,18 @@
+ "e. a continuous tone image) on a device with fewer tones; often a bi-level "
+ "device such as a printer or typesetter."
+ msgstr ""
++"Filtret rasteriserar bilden med punktraster. Rasterisering är processen att "
++"återge en bild med flera nivåer av grått eller färg (det vill säga en bild "
++"med kontinuerliga toner) på en enhet med färre toner, ofta en enhet med två "
++"nivåer såsom en skrivare eller sättmaskin."
+ 
+ #: src/filters/distort/newsprint.xml:54(para)
+ msgid ""
+ "The basic premise is to trade off resolution for greater apparent tone depth "
+ "(this is known as spatial dithering)."
+ msgstr ""
++"Grundprincipen är att byta upplösning mot större upplevt tondjup (så kallad "
++"rumslig rastrering)."
+ 
+ #: src/filters/distort/newsprint.xml:58(para)
+ msgid ""
+@@ -1580,6 +1744,10 @@
+ "does. Unfortunately, the results don't look too good. However, no spatial "
+ "resolution is lost."
+ msgstr ""
++"Det finns många sätt att göra detta. Det enklaste är att kasta bort de minst "
++"betydelsefulla bitarna av toninformationen; det är vad filtret Posterisera "
++"gör. Tyvärr ser resultatet inte särskilt bra ut. Ingen rumslig upplösning "
++"går dock förlorad."
+ 
+ #: src/filters/distort/newsprint.xml:64(para)
+ msgid ""
+@@ -1587,6 +1755,9 @@
+ "resolution of the image by converting cells into spots which grow or shrink "
+ "according to the intensity that cell needs to represent."
+ msgstr ""
++"Filtret använder ett ordnat punktraster, som minskar bildens upplösning genom "
++"att omvandla celler till punkter som växer eller krymper enligt den intensitet "
++"som cellen ska representera."
+ 
+ #: src/filters/distort/newsprint.xml:69(para)
+ msgid ""
+@@ -1595,6 +1766,10 @@
+ "up of multiple output pixels in order to approximate the darkness of the "
+ "original image in that cell."
+ msgstr ""
++"Tänk dig ett rutnät lagt ovanpå ursprungsbilden. Bilden delas in i celler av "
++"rutnätet – varje cell kommer till slut att innehålla en enda punkt bestående "
++"av flera utgående bildpunkter för att approximera mörkret i ursprungsbilden "
++"i cellen."
+ 
+ #: src/filters/distort/newsprint.xml:75(para)
+ msgid ""
+@@ -1604,6 +1779,11 @@
+ "guilabel>. By using different spot functions, the evolution in the shape of "
+ "the spots as the cell goes from fully black to fully white may be controlled."
+ msgstr ""
++"En stor cellstorlek medför förstås en kraftig förlust av upplösning. Punkterna "
++"i cellerna börjar vanligen som cirklar och växer till diamantform. Denna "
++"formändring styrs av en <guilabel>punktfunktion</guilabel>. Genom att använda "
++"olika punktfunktioner kan utvecklingen av punkternas form styras när cellen "
++"går från helt svart till helt vit."
+ 
+ #: src/filters/distort/newsprint.xml:86(phrase)
+ #: src/filters/distort/mosaic.xml:56(phrase)
+@@ -1612,7 +1792,7 @@
+ #: src/filters/distort/curve_bend.xml:53(title)
+ #: src/filters/distort/blinds.xml:63(phrase)
+ msgid "Starting filter"
+-msgstr ""
++msgstr "Starta filtret"
+ 
+ #: src/filters/distort/newsprint.xml:88(para)
+ msgid ""
+@@ -1620,6 +1800,8 @@
+ "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Newsprint</"
+ "guimenuitem></menuchoice>."
+ msgstr ""
++"Du hittar filtret via <menuchoice><guimenu>Filter</guimenu><guisubmenu>"
++"Förvrängningar</guisubmenu><guimenuitem>Tidningstryck</guimenuitem></menuchoice>."
+ 
+ #: src/filters/distort/newsprint.xml:112(para)
+ #: src/filters/distort/mosaic.xml:81(para)
+@@ -1630,6 +1812,11 @@
+ "Don't keep <emphasis>Do Preview</emphasis> checked if your computer is too "
+ "much slow."
+ msgstr ""
++"Alla ändringar av dina inställningar visas i förhandsvisningen utan att "
++"påverka bilden förrän du klickar på <guilabel>OK</guilabel>. Observera att "
++"förhandsvisningen visar hela bilden, även om slutresultatet gäller en "
++"markering. Låt inte <emphasis>Förhandsvisa</emphasis> vara markerat om "
++"datorn är för långsam."
+ 
+ #: src/filters/distort/newsprint.xml:123(term)
+ msgid "Resolution"
+@@ -1640,10 +1827,12 @@
+ "This group controls the cell size, either by setting the input and output "
+ "resolutions, or directly."
+ msgstr ""
++"Denna grupp styr cellstorleken, antingen genom att ange in- och "
++"utdataupplösningarna eller direkt."
+ 
+ #: src/filters/distort/newsprint.xml:131(term)
+ msgid "Input SPI"
+-msgstr ""
++msgstr "Inmatnings-SPI"
+ 
+ #: src/filters/distort/newsprint.xml:133(para)
+ msgid ""
+@@ -1651,16 +1840,19 @@
+ "Samples Per Inch (SPI). This is automatically initialised to the input "
+ "image's resolution."
+ msgstr ""
++"<guilabel>Inmatnings-SPI</guilabel>: Ursprunglig inmatningsbilds upplösning "
++"i prov per tum (SPI). Den initieras automatiskt till inmatningsbildens "
++"upplösning."
+ 
+ #: src/filters/distort/newsprint.xml:141(term)
+ msgid "Output LPI"
+-msgstr ""
++msgstr "Utmatnings-LPI"
+ 
+ #: src/filters/distort/newsprint.xml:143(para)
+ msgid ""
+ "<guilabel>Output LPI</guilabel>: Desired output resolution, in Lines Per "
+ "Inch (LPI)."
+-msgstr ""
++msgstr "<guilabel>Utmatnings-LPI</guilabel>: Önskad utdataupplösning i linjer per tum (LPI)."
+ 
+ #: src/filters/distort/newsprint.xml:149(term)
+ msgid "Cell Size"
+@@ -1670,7 +1862,7 @@
+ msgid ""
+ "<guilabel>Cell Size</guilabel>: Resulting cell size, in pixels. Most often "
+ "you will want to set this directly."
+-msgstr ""
++msgstr "<guilabel>Cellstorlek</guilabel>: Resulterande cellstorlek i bildpunkter. Oftast vill du ange detta direkt."
+ 
+ #: src/filters/distort/newsprint.xml:160(term)
+ msgid "Screen"
+@@ -1678,7 +1870,7 @@
+ 
+ #: src/filters/distort/newsprint.xml:164(term)
+ msgid "Separate To RGB, CMYK, Intensity"
+-msgstr ""
++msgstr "Separera till RGB, CMYK, intensitet"
+ 
+ #: src/filters/distort/newsprint.xml:166(para)
+ msgid ""
+@@ -1693,36 +1885,45 @@
+ "experimentation to achieve best results. Hint: try CMYK if you don't know "
+ "which to go for initially."
+ msgstr ""
++"<guilabel>Separera till RGB, CMYK, intensitet</guilabel>: Välj den färgrymd "
++"du vill arbeta i. I läget <emphasis>RGB</emphasis> utförs ingen "
++"färgrymdsomvandling. I <emphasis>CMYK</emphasis> omvandlas bilden först "
++"internt till CMYK, sedan rasteriseras varje färgkanal separat innan de till "
++"slut kombineras till en RGB-bild igen. I läget <emphasis>Intensitet</emphasis> "
++"omvandlas bilden internt till gråskala, rasteriseras och resultatet används "
++"som alfakanal för inmatningsbilden. Detta passar specialeffekter men kräver "
++"lite experimenterande för bästa resultat. Tips: prova CMYK om du inte vet "
++"vad du ska välja från början."
+ 
+ #: src/filters/distort/newsprint.xml:185(term)
+ msgid "Black Pullout (%)"
+-msgstr ""
++msgstr "Svartutdrag (%)"
+ 
+ #: src/filters/distort/newsprint.xml:187(para)
+ msgid ""
+ "<guilabel>Black Pullout (%)</guilabel> When doing RGB-&gt;CMYK conversion, "
+ "how much K (black) should be used?"
+-msgstr ""
++msgstr "<guilabel>Svartutdrag (%)</guilabel>: Hur mycket K (svart) ska användas vid RGB-&gt;CMYK-omvandling?"
+ 
+ #: src/filters/distort/newsprint.xml:193(term)
+ msgid "Lock Channels"
+-msgstr ""
++msgstr "Lås kanaler"
+ 
+ #: src/filters/distort/newsprint.xml:195(para)
+ msgid ""
+ "<guilabel>Lock Channels</guilabel>: Make channel modifications apply to all "
+ "channels."
+-msgstr ""
++msgstr "<guilabel>Lås kanaler</guilabel>: Låt kanaländringar gälla alla kanaler."
+ 
+ #: src/filters/distort/newsprint.xml:201(term)
+ msgid "Factory Defaults"
+-msgstr ""
++msgstr "Fabriksinställningar"
+ 
+ #: src/filters/distort/newsprint.xml:203(para)
+ msgid ""
+ "<guilabel>Factory Defaults</guilabel>: Restore the default settings which "
+ "should give pleasing results."
+-msgstr ""
++msgstr "<guilabel>Fabriksinställningar</guilabel>: Återställ standardinställningarna, som bör ge tilltalande resultat."
+ 
+ #: src/filters/distort/newsprint.xml:209(term)
+ msgid "Angle"
+@@ -1730,17 +1931,17 @@
+ 
+ #: src/filters/distort/newsprint.xml:211(para)
+ msgid "<guilabel>Angle</guilabel>: Cell grid angle for this channel."
+-msgstr ""
++msgstr "<guilabel>Vinkel</guilabel>: Cellrutnätets vinkel för denna kanal."
+ 
+ #: src/filters/distort/newsprint.xml:217(term)
+ msgid "Spot Function"
+-msgstr ""
++msgstr "Punktfunktion"
+ 
+ #: src/filters/distort/newsprint.xml:219(para)
+ msgid ""
+ "<guilabel>Spot Function</guilabel>: Spot function to be used for this "
+ "channel (see preview in blue cell-boxes)."
+-msgstr ""
++msgstr "<guilabel>Punktfunktion</guilabel>: Funktionen som ska användas för denna kanal (se förhandsvisningen i blå cellrutor)."
+ 
+ #: src/filters/distort/newsprint.xml:230(para)
+ msgid ""
+@@ -1751,10 +1952,16 @@
+ "ink smearing on paper. If you do want to print the resulting image then set "
+ "the antialising to 1 (ie, off)."
+ msgstr ""
++"Korrekt rasterisering behöver ingen kantutjämning: målet är ju att minska "
++"färgdjupet. Eftersom denna insticksmodul främst används för specialeffekter "
++"visas resultaten på skärmen i stället för av en svartvit skrivare. Därför är "
++"det ofta användbart med lite kantutjämning för att simulera utsmetat bläck på "
++"papper. Om du vill skriva ut den resulterande bilden sätter du "
++"kantutjämningen till 1 (det vill säga av)."
+ 
+ #: src/filters/distort/newsprint.xml:241(term)
+ msgid "Oversample"
+-msgstr ""
++msgstr "Översampla"
+ 
+ #: src/filters/distort/newsprint.xml:243(para)
+ msgid ""
+@@ -1762,6 +1969,9 @@
+ "each output pixel. Set to 1 to disable this feature. Warning: large numbers "
+ "here will lead to very long filter runtimes!"
+ msgstr ""
++"<guilabel>Översampla</guilabel>: Antal delbildpunkter som samplas för att "
++"skapa varje utgående bildpunkt. Sätt till 1 för att inaktivera funktionen. "
++"Varning: stora tal här ger mycket långa körtider för filtret!"
+ 
+ #: src/filters/distort/newsprint.xml:257(phrase)
+ msgid "Example"
+@@ -1769,11 +1979,11 @@
+ 
+ #: src/filters/distort/newsprint.xml:261(phrase)
+ msgid "Example for Newsprint"
+-msgstr ""
++msgstr "Exempel på Tidningstryck"
+ 
+ #: src/filters/distort/newsprint.xml:268(para)
+ msgid "An example from plug-in author"
+-msgstr ""
++msgstr "Ett exempel från insticksmodulens upphovsperson"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1801,17 +2011,20 @@
+ #: src/filters/distort/mosaic.xml:28(quote)
+ #: src/filters/distort/mosaic.xml:69(quote)
+ msgid "Mosaic"
+-msgstr ""
++msgstr "Mosaik"
+ 
+ #: src/filters/distort/mosaic.xml:44(para)
+ msgid "Filter <quote>Mosaic</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Mosaik</quote> tillämpat"
+ 
+ #: src/filters/distort/mosaic.xml:48(para)
+ msgid ""
+ "It cuts the active layer or selection into many squares or polygons which "
+ "are slightly raised and separated by joins, giving so an aspect of mosaic."
+ msgstr ""
++"Det delar upp det aktiva lagret eller markeringen i många kvadrater eller "
++"polygoner som är lätt upphöjda och åtskilda av fogar, vilket ger ett "
++"mosaikliknande utseende."
+ 
+ #: src/filters/distort/mosaic.xml:58(para)
+ msgid ""
+@@ -1819,14 +2032,16 @@
+ "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Mosaic</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
++"Du hittar filtret via <menuchoice><guimenu>Filter</guimenu><guisubmenu>"
++"Förvrängningar</guisubmenu><guimenuitem>Mosaik</guimenuitem></menuchoice>."
+ 
+ #: src/filters/distort/mosaic.xml:98(para)
+ msgid "This option reduces the stepped aspect that may have borders."
+-msgstr ""
++msgstr "Detta alternativ minskar det trappstegsliknande utseende som kanter kan få."
+ 
+ #: src/filters/distort/mosaic.xml:105(term)
+ msgid "Color Averaging"
+-msgstr ""
++msgstr "Färgmedelvärdesbildning"
+ 
+ #: src/filters/distort/mosaic.xml:107(para)
+ msgid ""
+@@ -1834,28 +2049,33 @@
+ "tiles. When checked, the colors inside tiles are averaged into a single "
+ "color."
+ msgstr ""
++"När alternativet inte är markerat kan motivet i bilden kännas igen inne i "
++"plattorna. När det är markerat beräknas medelvärdet för färgerna i plattorna "
++"till en enda färg."
+ 
+ #: src/filters/distort/mosaic.xml:115(term)
+ msgid "Allows Tile Splitting"
+-msgstr ""
++msgstr "Tillåt delning av plattor"
+ 
+ #: src/filters/distort/mosaic.xml:117(para)
+ msgid ""
+ "This option splits tiles in areas with many colors, and so allows a better "
+ "color gradation and more details in these areas."
+ msgstr ""
++"Alternativet delar upp plattor i områden med många färger och möjliggör "
++"därmed bättre färggradering och fler detaljer i dessa områden."
+ 
+ #: src/filters/distort/mosaic.xml:125(term)
+ msgid "Pitted Surfaces"
+-msgstr ""
++msgstr "Gropiga ytor"
+ 
+ #: src/filters/distort/mosaic.xml:127(para)
+ msgid "With this option tile surface looks pitted."
+-msgstr ""
++msgstr "Med detta alternativ ser plattans yta gropig ut."
+ 
+ #: src/filters/distort/mosaic.xml:133(term)
+ msgid "FG/BG Lighting"
+-msgstr ""
++msgstr "FG/BG-belysning"
+ 
+ #: src/filters/distort/mosaic.xml:135(para)
+ msgid ""
+@@ -1863,59 +2083,66 @@
+ "toolbox, and shadow is colored by the background color. Joins have the "
+ "background color."
+ msgstr ""
++"När alternativet är markerat belyses plattor av verktygslådans "
++"förgrundsfärg och skuggan färgas med bakgrundsfärgen. Fogarna har "
++"bakgrundsfärgen."
+ 
+ #: src/filters/distort/mosaic.xml:146(term)
+ msgid "Parameter setting"
+-msgstr ""
++msgstr "Parameterinställning"
+ 
+ #: src/filters/distort/mosaic.xml:150(term)
+ msgid "Tile Size"
+-msgstr ""
++msgstr "Plattstorlek"
+ 
+ #: src/filters/distort/mosaic.xml:152(para)
+ msgid "Slider and input box allow you to set the size of tile surface."
+-msgstr ""
++msgstr "Skjutreglaget och inmatningsrutan låter dig ange plattans yta."
+ 
+ #: src/filters/distort/mosaic.xml:159(term)
+ msgid "Tile Height"
+-msgstr ""
++msgstr "Platthöjd"
+ 
+ #: src/filters/distort/mosaic.xml:161(para)
+ msgid ""
+ "That's ledge, relief of tiles. Value is width of the lit border in pixels."
+-msgstr ""
++msgstr "Detta är plattornas avsats eller relief. Värdet är bredden på den belysta kanten i bildpunkter."
+ 
+ #: src/filters/distort/mosaic.xml:168(term)
+ msgid "Tile Spacing"
+-msgstr ""
++msgstr "Plattavstånd"
+ 
+ #: src/filters/distort/mosaic.xml:170(para)
+ msgid "That's width of the join between tiles."
+-msgstr ""
++msgstr "Detta är bredden på fogen mellan plattor."
+ 
+ #: src/filters/distort/mosaic.xml:176(term)
+ msgid "Tile Neatness"
+-msgstr ""
++msgstr "Plattjämnhet"
+ 
+ #: src/filters/distort/mosaic.xml:178(para)
+ msgid ""
+ "When set to 1, most of tiles have the same size. With 0 value, size is "
+ "determined at random and this may lead to shape variation."
+ msgstr ""
++"När värdet är 1 har de flesta plattor samma storlek. Med värdet 0 avgörs "
++"storleken slumpmässigt, vilket kan leda till varierande former."
+ 
+ #: src/filters/distort/mosaic.xml:186(term)
+ msgid "Light Direction"
+-msgstr ""
++msgstr "Ljusriktning"
+ 
+ #: src/filters/distort/mosaic.xml:188(para)
+ msgid ""
+ "By default light comes from the upper left corner (135°). You can change "
+ "this direction from 0 to 360 (counter clockwise)."
+ msgstr ""
++"Som standard kommer ljuset från det övre vänstra hörnet (135°). Du kan ändra "
++"riktningen från 0 till 360 (moturs)."
+ 
+ #: src/filters/distort/mosaic.xml:196(term)
+ msgid "Color Variation"
+-msgstr ""
++msgstr "Färgvariation"
+ 
+ #: src/filters/distort/mosaic.xml:198(para)
+ msgid ""
+@@ -1923,30 +2150,33 @@
+ "number of colors is reduced, compared to the original image. Here, you can "
+ "increase the number of colors, a little."
+ msgstr ""
++"<guilabel>Färgvariation</guilabel>: Varje platta har bara en färg. Antalet "
++"färger minskar alltså jämfört med ursprungsbilden. Här kan du öka antalet "
++"färger något."
+ 
+ #: src/filters/distort/mosaic.xml:209(term)
+ msgid "Tile Primitives"
+-msgstr ""
++msgstr "Grundformer för plattor"
+ 
+ #: src/filters/distort/mosaic.xml:211(para)
+ msgid "This options are self-understanding:"
+-msgstr ""
++msgstr "Dessa alternativ är självförklarande:"
+ 
+ #: src/filters/distort/mosaic.xml:217(guilabel)
+ msgid "Squares"
+-msgstr ""
++msgstr "Kvadrater"
+ 
+ #: src/filters/distort/mosaic.xml:221(para)
+ msgid "<guilabel>Hexagons</guilabel>: (hexa = 6)"
+-msgstr ""
++msgstr "<guilabel>Hexagoner</guilabel>: (hexa = 6)"
+ 
+ #: src/filters/distort/mosaic.xml:225(para)
+ msgid "<guilabel>Octagons and Squares</guilabel>: (octa = 8)"
+-msgstr ""
++msgstr "<guilabel>Oktagoner och kvadrater</guilabel>: (okta = 8)"
+ 
+ #: src/filters/distort/mosaic.xml:229(para)
+ msgid "<guilabel>Triangles</guilabel>: (tri = 3)"
+-msgstr ""
++msgstr "<guilabel>Trianglar</guilabel>: (tri = 3)"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -2098,13 +2328,15 @@
+ 
+ #: src/filters/distort/lens-distortion.xml:54(para)
+ msgid "<quote>Lens Distortion</quote> applied"
+-msgstr ""
++msgstr "<quote>Linsdistorsion</quote> tillämpat"
+ 
+ #: src/filters/distort/lens-distortion.xml:58(para)
+ msgid ""
+ "This filter lets you simulate but also correct the typical distortion effect "
+ "introduced in photo images by the glasses contained in the camera lenses."
+ msgstr ""
++"Med filtret kan du simulera men också korrigera den typiska "
++"distorsionseffekt som uppstår i foton genom glaset i kameraobjektiv."
+ 
+ #: src/filters/distort/lens-distortion.xml:68(para)
+ msgid ""
+@@ -2112,6 +2344,9 @@
+ "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Distorts</"
+ "guisubmenu><guimenuitem>Lens Distortion</guimenuitem></menuchoice>."
+ msgstr ""
++"Filtret finns i bildfönstrets meny under <menuchoice><guimenu>Filter</guimenu>"
++"<guisubmenu>Förvrängningar</guisubmenu><guimenuitem>Linsdistorsion</guimenuitem>"
++"</menuchoice>."
+ 
+ #: src/filters/distort/lens-distortion.xml:79(phrase)
+ #: src/filters/distort/erase_rows.xml:76(phrase)
+@@ -2121,11 +2356,11 @@
+ 
+ #: src/filters/distort/lens-distortion.xml:87(para)
+ msgid "The allowed range of all options is from -100.0 to 100.0."
+-msgstr ""
++msgstr "Det tillåtna intervallet för alla alternativ är från −100,0 till 100,0."
+ 
+ #: src/filters/distort/lens-distortion.xml:101(term)
+ msgid "Main"
+-msgstr ""
++msgstr "Huvud"
+ 
+ #: src/filters/distort/lens-distortion.xml:103(para)
+ msgid ""
+@@ -2133,10 +2368,13 @@
+ "image convex while negative ones make it concave. The whole effect is "
+ "similar to wrapping the image inside or outside a sphere."
+ msgstr ""
++"Mängden sfärisk korrigering som ska tillföras. Positiva värden gör bilden "
++"konvex, medan negativa värden gör den konkav. Hela effekten liknar att "
++"svepa bilden på insidan eller utsidan av en sfär."
+ 
+ #: src/filters/distort/lens-distortion.xml:111(phrase)
+ msgid "Example result of Main option"
+-msgstr ""
++msgstr "Exempelresultat för alternativet Huvud"
+ 
+ #: src/filters/distort/lens-distortion.xml:118(para)
+ #: src/filters/distort/lens-distortion.xml:196(para)
+@@ -2164,11 +2402,11 @@
+ 
+ #: src/filters/distort/lens-distortion.xml:143(para)
+ msgid "Specifies the amount of additional spherical correction at image edges."
+-msgstr ""
++msgstr "Anger mängden ytterligare sfärisk korrigering vid bildkanterna."
+ 
+ #: src/filters/distort/lens-distortion.xml:149(phrase)
+ msgid "Example result of Edge option (Main set to 50.0)"
+-msgstr ""
++msgstr "Exempelresultat för alternativet Kant (Huvud är satt till 50,0)"
+ 
+ #: src/filters/distort/lens-distortion.xml:158(para)
+ msgid "-60.0"
+@@ -2187,14 +2425,16 @@
+ "Specifies the amount of the image enlargement or reduction caused by the "
+ "hypothetical lens."
+ msgstr ""
++"Anger mängden bildförstoring eller bildförminskning som orsakas av det "
++"hypotetiska objektivet."
+ 
+ #: src/filters/distort/lens-distortion.xml:189(phrase)
+ msgid "Example result of Zoom option"
+-msgstr ""
++msgstr "Exempelresultat för alternativet Zooma"
+ 
+ #: src/filters/distort/lens-distortion.xml:219(term)
+ msgid "Brighten"
+-msgstr ""
++msgstr "Gör ljusare"
+ 
+ #: src/filters/distort/lens-distortion.xml:221(para)
+ msgid ""
+@@ -2202,16 +2442,20 @@
+ "increase due to the lens curvature that produces a different light "
+ "absorption."
+ msgstr ""
++"Mängden <quote>vinjettering</quote>: den minskning eller ökning av ljusstyrkan "
++"som beror på objektivets krökning och ger ett annorlunda ljusupptag."
+ 
+ #: src/filters/distort/lens-distortion.xml:226(para)
+ msgid ""
+ "The <guilabel>Main</guilabel> or <guilabel>Edge</guilabel> options must be "
+ "non zero for this option to produce noticeable results."
+ msgstr ""
++"Alternativet <guilabel>Huvud</guilabel> eller <guilabel>Kant</guilabel> måste "
++"vara skilt från noll för att detta alternativ ska ge synliga resultat."
+ 
+ #: src/filters/distort/lens-distortion.xml:232(phrase)
+ msgid "Example result of Brigthen option (Main set to 75.0)"
+-msgstr ""
++msgstr "Exempelresultat för alternativet Gör ljusare (Huvud är satt till 75,0)"
+ 
+ #: src/filters/distort/lens-distortion.xml:241(para)
+ msgid "-25.0"
+@@ -2223,23 +2467,27 @@
+ 
+ #: src/filters/distort/lens-distortion.xml:264(term)
+ msgid "X shift; Y shift"
+-msgstr ""
++msgstr "X-förskjutning; Y-förskjutning"
+ 
+ #: src/filters/distort/lens-distortion.xml:266(para)
+ msgid ""
+ "These two options specify the shift of the image produced by not perfectly "
+ "centered pairs of lenses."
+ msgstr ""
++"Dessa två alternativ anger bildförskjutningen som uppstår genom objektivpar "
++"som inte är perfekt centrerade."
+ 
+ #: src/filters/distort/lens-distortion.xml:270(para)
+ msgid ""
+ "As above this option produces visible results only if the <guilabel>Main</"
+ "guilabel> or <guilabel>Edge</guilabel> options are non zero."
+ msgstr ""
++"Som ovan ger alternativet synliga resultat endast om <guilabel>Huvud</guilabel> "
++"eller <guilabel>Kant</guilabel> inte är noll."
+ 
+ #: src/filters/distort/lens-distortion.xml:277(phrase)
+ msgid "Example result of X shift option (Main set to 70.0)"
+-msgstr ""
++msgstr "Exempelresultat för alternativet X-förskjutning (Huvud är satt till 70,0)"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -2275,15 +2523,15 @@
+ #: src/filters/distort/IWarp.xml:91(quote)
+ #: src/filters/distort/IWarp.xml:208(quote)
+ msgid "IWarp"
+-msgstr ""
++msgstr "IWarp"
+ 
+ #: src/filters/distort/IWarp.xml:37(phrase)
+ msgid "Applying example for the IWarp filter"
+-msgstr ""
++msgstr "Tillämpningsexempel för filtret IWarp"
+ 
+ #: src/filters/distort/IWarp.xml:52(para)
+ msgid "Filter <quote>IWarp</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>IWarp</quote> tillämpat"
+ 
+ #: src/filters/distort/IWarp.xml:56(para)
+ msgid ""
+@@ -2292,12 +2540,18 @@
+ "animation between the original image and the deformed one, that you can play "
+ "and use in a Web page."
+ msgstr ""
++"Med filtret kan du interaktivt förvränga delar av bilden och, tack vare "
++"alternativet Animera, skapa delar av en tona in-/tona ut-animering mellan "
++"ursprungsbilden och den förvrängda bilden, som du kan spela upp och använda "
++"på en webbsida."
+ 
+ #: src/filters/distort/IWarp.xml:62(para)
+ msgid ""
+ "To use it, first select a deform type then click on the Preview and drag the "
+ "mouse pointer."
+ msgstr ""
++"För att använda filtret väljer du först en förvrängningstyp, klickar sedan i "
++"förhandsvisningen och drar muspekaren."
+ 
+ #: src/filters/distort/IWarp.xml:71(para)
+ msgid ""
+@@ -2305,20 +2559,24 @@
+ "guimenu><guisubmenu>Distort</guisubmenu><guimenuitem>Iwarp</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
++"Du hittar filtret via <menuchoice><guimenu>Filter</guimenu><guisubmenu>"
++"Förvräng</guisubmenu><guimenuitem>IWarp</guimenuitem></menuchoice>."
+ 
+ #: src/filters/distort/IWarp.xml:80(para)
+ msgid ""
+ "The options of this filter are so numerous that they come in two tabs. The "
+ "first tab contains general options. The second tab holds animation options."
+ msgstr ""
++"Filtrets alternativ är så många att de delas upp i två flikar. Den första "
++"fliken innehåller allmänna alternativ. Den andra innehåller animeringsalternativ."
+ 
+ #: src/filters/distort/IWarp.xml:87(term)
+ msgid "Settings"
+-msgstr ""
++msgstr "Inställningar"
+ 
+ #: src/filters/distort/IWarp.xml:91(phrase)
+ msgid "<placeholder-1/> filter options (Settings tab)"
+-msgstr ""
++msgstr "Filteralternativ för <placeholder-1/> (fliken Inställningar)"
+ 
+ #: src/filters/distort/IWarp.xml:100(para)
+ msgid ""
+@@ -2326,6 +2584,9 @@
+ "you are working on. So, you can apply different deform modes to different "
+ "parts of the preview."
+ msgstr ""
++"Fliken Inställningar låter dig ange parametrar som påverkar den "
++"förhandsvisning du arbetar med. Du kan alltså använda olika förvrängningslägen "
++"på olika delar av förhandsvisningen."
+ 
+ #: src/filters/distort/IWarp.xml:109(para)
+ msgid ""
+@@ -2334,16 +2595,19 @@
+ "the settings you have chosen. If your work is not convenient, press the "
+ "<emphasis>Reset</emphasis> button."
+ msgstr ""
++"Här är förhandsvisningen din arbetsyta: du klickar i den och drar muspekaren. "
++"Den underliggande bilddelen förvrängs enligt inställningarna du har valt. Om "
++"arbetet inte blir bra trycker du på knappen <emphasis>Återställ</emphasis>."
+ 
+ #: src/filters/distort/IWarp.xml:119(term)
+ msgid "Deform Mode"
+-msgstr ""
++msgstr "Förvrängningsläge"
+ 
+ #: src/filters/distort/IWarp.xml:123(para)
+ msgid ""
+ "<guilabel>Move</guilabel>: Allows you to <emphasis>stretch</emphasis> parts "
+ "of the image."
+-msgstr ""
++msgstr "<guilabel>Flytta</guilabel>: Låter dig <emphasis>sträcka ut</emphasis> delar av bilden."
+ 
+ #: src/filters/distort/IWarp.xml:128(para)
+ msgid ""
+@@ -2352,63 +2616,67 @@
+ "Reset button, working on the whole image. Be careful when working on an "
+ "animation: this option will affect one frame only."
+ msgstr ""
++"<guilabel>Ta bort</guilabel>: Tar bort förvrängningen där du drar muspekaren, "
++"delvis eller helt. På så vis slipper du trycka på Återställ och arbeta om "
++"hela bilden. Var försiktig vid arbete med en animering: alternativet påverkar "
++"bara en bildruta."
+ 
+ #: src/filters/distort/IWarp.xml:137(para)
+ msgid "<guilabel>Grow</guilabel>: This option inflates the pointed pattern."
+-msgstr ""
++msgstr "<guilabel>Utöka</guilabel>: Detta alternativ blåser upp det utpekade mönstret."
+ 
+ #: src/filters/distort/IWarp.xml:142(para)
+ msgid "<guilabel>Shrink</guilabel>: Self explanatory."
+-msgstr ""
++msgstr "<guilabel>Förminska</guilabel>: Självförklarande."
+ 
+ #: src/filters/distort/IWarp.xml:146(para)
+ msgid "<guilabel>Swirl CCW </guilabel>: Create a vortex counter clockwise."
+-msgstr ""
++msgstr "<guilabel>Virvel moturs </guilabel>: Skapar en virvel moturs."
+ 
+ #: src/filters/distort/IWarp.xml:151(para)
+ msgid "<guilabel>Swirl CW </guilabel>: Create a vortex clockwise."
+-msgstr ""
++msgstr "<guilabel>Virvel medurs </guilabel>: Skapar en virvel medurs."
+ 
+ #: src/filters/distort/IWarp.xml:158(term)
+ msgid "Deform Radius"
+-msgstr ""
++msgstr "Förvrängningsradie"
+ 
+ #: src/filters/distort/IWarp.xml:160(para)
+ msgid ""
+ "Defines the radius, in pixels (5-100), of the filter action circle around "
+ "the pixel pointed by the mouse."
+-msgstr ""
++msgstr "Anger radien i bildpunkter (5–100) för filtrets verkningscirkel runt den bildpunkt som musen pekar på."
+ 
+ #: src/filters/distort/IWarp.xml:167(term)
+ msgid "Deform Amount"
+-msgstr ""
++msgstr "Förvrängningsmängd"
+ 
+ #: src/filters/distort/IWarp.xml:169(para)
+ msgid "Sets how much out of shape your image will be put (0.0-1.0)."
+-msgstr ""
++msgstr "Anger hur mycket bilden ska förvrängas (0,0–1,0)."
+ 
+ #: src/filters/distort/IWarp.xml:175(term)
+ msgid "Bilinear"
+-msgstr ""
++msgstr "Bilinjär"
+ 
+ #: src/filters/distort/IWarp.xml:177(para)
+ msgid "This option smooths the IWarp effect."
+-msgstr ""
++msgstr "Detta alternativ jämnar ut IWarp-effekten."
+ 
+ #: src/filters/distort/IWarp.xml:184(phrase)
+ msgid "Adaptive Supersample"
+-msgstr ""
++msgstr "Adaptiv översampling"
+ 
+ #: src/filters/distort/IWarp.xml:187(para)
+ msgid ""
+ "This option renders a better image at the cost of increased calculation."
+-msgstr ""
++msgstr "Detta alternativ ger en bättre bild på bekostnad av ökad beräkningstid."
+ 
+ #: src/filters/distort/IWarp.xml:191(para)
+ msgid ""
+ "<guilabel>Max Depth</guilabel>: this value limits the maximum sampling "
+ "iterations performed on each pixel."
+-msgstr ""
++msgstr "<guilabel>Maxdjup</guilabel>: detta värde begränsar det maximala antalet samplingsiterationer som utförs på varje bildpunkt."
+ 
+ #: src/filters/distort/IWarp.xml:194(para)
+ msgid ""
+@@ -2416,14 +2684,17 @@
+ "and the adjacent ones exceeds this threshold a new sampling iteration is "
+ "performed on the pixel."
+ msgstr ""
++"<guilabel>Tröskelvärde</guilabel>: när värdeskillnaden mellan en bildpunkt "
++"och angränsande bildpunkter överstiger detta tröskelvärde utförs en ny "
++"samplingsiteration på bildpunkten."
+ 
+ #: src/filters/distort/IWarp.xml:204(term)
+ msgid "Animate"
+-msgstr ""
++msgstr "Animera"
+ 
+ #: src/filters/distort/IWarp.xml:208(phrase)
+ msgid "<placeholder-1/> filter options (Animation tab)"
+-msgstr ""
++msgstr "Filteralternativ för <placeholder-1/> (fliken Animering)"
+ 
+ #: src/filters/distort/IWarp.xml:217(para)
+ msgid ""
+@@ -2431,32 +2702,37 @@
+ "image and the final deformation of this image. You can play this animation "
+ "thanks to the <link linkend=\"plug-in-playback\">Playback</link> plug-in."
+ msgstr ""
++"Med denna flik kan du skapa flera mellanbilder mellan ursprungsbilden och "
++"den slutliga förvrängningen av bilden. Du kan spela upp animeringen med "
++"insticksmodulen <link linkend=\"plug-in-playback\">Uppspelning</link>."
+ 
+ #: src/filters/distort/IWarp.xml:225(term)
+ msgid "Number of Frames"
+-msgstr ""
++msgstr "Antal bildrutor"
+ 
+ #: src/filters/distort/IWarp.xml:227(para)
+ msgid ""
+ "That's the number of images in your animation (2-100). These frames are "
+ "stored as layers attached to your image. Use the XCF format when saving it."
+ msgstr ""
++"Detta är antalet bilder i animeringen (2–100). Bildrutorna lagras som lager "
++"i bilden. Använd XCF-formatet när du sparar den."
+ 
+ #: src/filters/distort/IWarp.xml:235(term)
+ msgid "Reverse"
+-msgstr ""
++msgstr "Baklänges"
+ 
+ #: src/filters/distort/IWarp.xml:237(para)
+ msgid "This option plays the animation backwards."
+-msgstr ""
++msgstr "Detta alternativ spelar upp animeringen baklänges."
+ 
+ #: src/filters/distort/IWarp.xml:243(term)
+ msgid "Ping-Pong"
+-msgstr ""
++msgstr "Pingpong"
+ 
+ #: src/filters/distort/IWarp.xml:245(para)
+ msgid "When the animation ends one way, it goes backwards."
+-msgstr ""
++msgstr "När animeringen når slutet åt ena hållet går den baklänges."
+ 
+ #: src/filters/distort/introduction.xml:10(phrase)
+ #: src/filters/distort/introduction.xml:15(tertiary)
+@@ -2465,7 +2741,7 @@
+ 
+ #: src/filters/distort/introduction.xml:17(para)
+ msgid "The distort filters transform your image in many different ways."
+-msgstr ""
++msgstr "Förvrängningsfiltren omvandlar bilden på många olika sätt."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -2488,26 +2764,28 @@
+ #: src/filters/distort/erase_rows.xml:19(phrase)
+ #: src/filters/distort/erase_rows.xml:24(tertiary)
+ msgid "Erase Every Other Row"
+-msgstr ""
++msgstr "Radera varannan rad"
+ 
+ #: src/filters/distort/erase_rows.xml:27(primary)
+ msgid "Erase Every Other Row or Column"
+-msgstr ""
++msgstr "Radera varannan rad eller kolumn"
+ 
+ #: src/filters/distort/erase_rows.xml:36(quote)
+ #: src/filters/distort/erase_rows.xml:76(quote)
+ msgid "Erase Every Other row"
+-msgstr ""
++msgstr "Radera varannan rad"
+ 
+ #: src/filters/distort/erase_rows.xml:52(para)
+ msgid "<quote>Erase Every Other row</quote> applied"
+-msgstr ""
++msgstr "<quote>Radera varannan rad</quote> tillämpat"
+ 
+ #: src/filters/distort/erase_rows.xml:56(para)
+ msgid ""
+ "This filter not only can erase each other row or column of the active layer "
+ "but also can change them to the background color."
+ msgstr ""
++"Filtret kan inte bara radera varannan rad eller kolumn i det aktiva lagret, "
++"utan också ändra dem till bakgrundsfärgen."
+ 
+ #: src/filters/distort/erase_rows.xml:65(para)
+ msgid ""
+@@ -2515,6 +2793,9 @@
+ "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Distorts</"
+ "guisubmenu><guimenuitem>Erase Every Other Row</guimenuitem></menuchoice>."
+ msgstr ""
++"Filtret finns i bildfönstrets meny under <menuchoice><guimenu>Filter</guimenu>"
++"<guisubmenu>Förvrängningar</guisubmenu><guimenuitem>Radera varannan rad</guimenuitem>"
++"</menuchoice>."
+ 
+ #: src/filters/distort/erase_rows.xml:84(para)
+ msgid ""
+@@ -2524,6 +2805,10 @@
+ "bold letters in the Layer Dialog), the Background color of the toolbox will "
+ "be used."
+ msgstr ""
++"Dessa alternativ är självförklarande. En anmärkning: om det aktiva lagret "
++"är bakgrundslagret och har en alfakanal blir raderna eller kolumnerna som "
++"raderas genomskinliga. Om det saknar alfakanal (då skrivs namnet med fetstil "
++"i lagerdialogrutan) används verktygslådans bakgrundsfärg."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -2581,11 +2866,11 @@
+ #: src/filters/distort/engrave.xml:37(quote)
+ #: src/filters/distort/engrave.xml:87(quote)
+ msgid "Engrave"
+-msgstr ""
++msgstr "Gravyr"
+ 
+ #: src/filters/distort/engrave.xml:53(para)
+ msgid "<quote>Engrave</quote> applied"
+-msgstr ""
++msgstr "<quote>Gravyr</quote> tillämpat"
+ 
+ #: src/filters/distort/engrave.xml:57(para)
+ msgid ""
+@@ -2594,6 +2879,10 @@
+ "value of underlying pixels. The resulting effect reminds of engravings found "
+ "in coins and old book illustrations."
+ msgstr ""
++"Filtret skapar en gravyr-effekt: bilden görs svartvit och vågräta linjer med "
++"varierande höjd ritas beroende på värdet på de underliggande bildpunkterna. "
++"Den resulterande effekten påminner om gravyrer på mynt och i gamla "
++"bokillustrationer."
+ 
+ #: src/filters/distort/engrave.xml:64(para)
+ msgid ""
+@@ -2601,6 +2890,9 @@
+ "layers with an alpha channel. If the active layer does not have an alpha "
+ "channel please <link linkend=\"gimp-layer-alpha-add\">add it</link> first."
+ msgstr ""
++"Filtret <quote>Gravyr</quote> fungerar endast på flytande markeringar och "
++"lager med en alfakanal. Om det aktiva lagret saknar alfakanal måste du först "
++"<link linkend=\"gimp-layer-alpha-add\">lägga till den</link>."
+ 
+ #: src/filters/distort/engrave.xml:76(para)
+ msgid ""
+@@ -2608,6 +2900,9 @@
+ "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Distorts</"
+ "guisubmenu><guimenuitem>Engrave</guimenuitem></menuchoice>."
+ msgstr ""
++"Filtret finns i bildfönstrets meny under <menuchoice><guimenu>Filter</guimenu>"
++"<guisubmenu>Förvrängningar</guisubmenu><guimenuitem>Gravyr</guimenuitem>"
++"</menuchoice>."
+ 
+ #: src/filters/distort/engrave.xml:106(term)
+ msgid "Height"
+@@ -2617,29 +2912,31 @@
+ msgid ""
+ "This option specifies the height of the engraving lines. The value goes from "
+ "2 to 16."
+-msgstr ""
++msgstr "Detta alternativ anger höjden på gravyrens linjer. Värdet går från 2 till 16."
+ 
+ #: src/filters/distort/engrave.xml:115(term)
+ msgid "Limit line width"
+-msgstr ""
++msgstr "Begränsa linjebredd"
+ 
+ #: src/filters/distort/engrave.xml:117(para)
+ msgid ""
+ "If this option is enabled thin lines are not drawn on contiguous color "
+ "areas. See the figure below for an example of this option result."
+ msgstr ""
++"Om alternativet är aktiverat ritas inga tunna linjer på sammanhängande "
++"färgområden. Se bilden nedan för ett exempel på resultatet."
+ 
+ #: src/filters/distort/engrave.xml:124(phrase)
+ msgid "Example result of Limit line width option"
+-msgstr ""
++msgstr "Exempelresultat för alternativet Begränsa linjebredd"
+ 
+ #: src/filters/distort/engrave.xml:141(para)
+ msgid "Limit line width option enabled"
+-msgstr ""
++msgstr "Alternativet Begränsa linjebredd är aktiverat"
+ 
+ #: src/filters/distort/engrave.xml:149(para)
+ msgid "Limit line width option disabled"
+-msgstr ""
++msgstr "Alternativet Begränsa linjebredd är inaktiverat"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -2664,21 +2961,21 @@
+ #: src/filters/distort/emboss.xml:29(primary)
+ #: src/filters/distort/emboss.xml:81(quote)
+ msgid "Emboss"
+-msgstr ""
++msgstr "Relief"
+ 
+ #: src/filters/distort/emboss.xml:37(phrase)
+ msgid "Applying example for the Emboss filter"
+-msgstr ""
++msgstr "Tillämpningsexempel för filtret Relief"
+ 
+ #: src/filters/distort/emboss.xml:52(para)
+ msgid "Filter <quote>Emboss</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Relief</quote> tillämpat"
+ 
+ #: src/filters/distort/emboss.xml:56(para)
+ msgid ""
+ "You can use it only with RGB images. If your image is grayscale, it will be "
+ "grayed out in the menu."
+-msgstr ""
++msgstr "Du kan bara använda filtret med RGB-bilder. Om bilden är i gråskala är det nedtonat i menyn."
+ 
+ #: src/filters/distort/emboss.xml:60(para)
+ msgid ""
+@@ -2686,6 +2983,9 @@
+ "bumps and hollows. Bright areas are raised and dark ones are carved. You can "
+ "vary the lighting."
+ msgstr ""
++"Det stämplar och graverar det aktiva lagret eller markeringen och ger den en "
++"relief med upphöjningar och fördjupningar. Ljusa områden höjs upp och mörka "
++"graveras. Du kan variera belysningen."
+ 
+ #: src/filters/distort/emboss.xml:70(para)
+ msgid ""
+@@ -2693,25 +2993,29 @@
+ "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Emboss</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
++"Du hittar filtret via <menuchoice><guimenu>Filter</guimenu><guisubmenu>"
++"Förvrängningar</guisubmenu><guimenuitem>Relief</guimenuitem></menuchoice>."
+ 
+ #: src/filters/distort/emboss.xml:103(term)
+ msgid "Function"
+-msgstr ""
++msgstr "Funktion"
+ 
+ #: src/filters/distort/emboss.xml:105(para)
+ msgid ""
+ "<guilabel>Bumpmap</guilabel>: Relief is smooth and colors are preserved."
+-msgstr ""
++msgstr "<guilabel>Bumpmap</guilabel>: Reliefen är jämn och färgerna bevaras."
+ 
+ #: src/filters/distort/emboss.xml:108(para)
+ msgid ""
+ "<guilabel>Emboss</guilabel>: It turns your image to grayscale and relief is "
+ "more marked, looking like metal."
+ msgstr ""
++"<guilabel>Relief</guilabel>: Bilden görs till gråskala och reliefen blir "
++"tydligare, med metalliknande utseende."
+ 
+ #: src/filters/distort/emboss.xml:114(term)
+ msgid "Azimuth"
+-msgstr ""
++msgstr "Azimut"
+ 
+ #: src/filters/distort/emboss.xml:116(para)
+ msgid ""
+@@ -2719,16 +3023,21 @@
+ "of the compass (0 - 360). If you suppose South is at the top of your image, "
+ "then East (0°) is on the left. Increasing value goes counter-clockwise."
+ msgstr ""
++"<guilabel>Azimut</guilabel>: Detta gäller belysning enligt väderstrecken "
++"(0–360). Om du antar att söder är högst upp i bilden ligger öster (0°) till "
++"vänster. Ökande värden går moturs."
+ 
+ #: src/filters/distort/emboss.xml:124(term)
+ msgid "Elevation"
+-msgstr ""
++msgstr "Höjdvinkel"
+ 
+ #: src/filters/distort/emboss.xml:126(para)
+ msgid ""
+ "<guilabel>Elevation</guilabel>: That's height from horizon (0°), in "
+ "principle up to zenith (90°), but here up to the opposite horizon (180°)."
+ msgstr ""
++"<guilabel>Höjdvinkel</guilabel>: Detta är höjden från horisonten (0°), i "
++"princip upp till zenit (90°), men här ända till den motsatta horisonten (180°)."
+ 
+ #: src/filters/distort/emboss.xml:133(term)
+ msgid "Depth"
+@@ -2739,6 +3048,8 @@
+ "<guilabel>Depth</guilabel> Seems to be the distance of the light source. "
+ "Light decreases when value increases."
+ msgstr ""
++"<guilabel>Djup</guilabel> verkar vara ljuskällans avstånd. Ljuset minskar när "
++"värdet ökar."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -2764,15 +3075,15 @@
+ #: src/filters/distort/curve_bend.xml:16(tertiary)
+ #: src/filters/distort/curve_bend.xml:19(primary)
+ msgid "Curve Bend"
+-msgstr ""
++msgstr "Kurvböjning"
+ 
+ #: src/filters/distort/curve_bend.xml:25(title)
+ msgid "Applying example for the Curve Bend filter"
+-msgstr ""
++msgstr "Tillämpningsexempel för filtret Kurvböjning"
+ 
+ #: src/filters/distort/curve_bend.xml:41(para)
+ msgid "Filter <quote>Curve Bend</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Kurvböjning</quote> tillämpat"
+ 
+ #: src/filters/distort/curve_bend.xml:45(para)
+ msgid ""
+@@ -2780,6 +3091,9 @@
+ "active layer or selection. The distortion is applied gradually from an image "
+ "or selection border to the other."
+ msgstr ""
++"Med filtret kan du skapa en kurva som används för att förvränga det aktiva "
++"lagret eller markeringen. Förvrängningen tillämpas gradvis från en bild- eller "
++"markeringskant till den andra."
+ 
+ #: src/filters/distort/curve_bend.xml:54(para)
+ msgid ""
+@@ -2787,28 +3101,32 @@
+ "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Curve Bend</"
+ "guimenuitem></menuchoice>."
+ msgstr ""
++"Du hittar filtret via <menuchoice><guimenu>Filter</guimenu><guisubmenu>"
++"Förvrängningar</guisubmenu><guimenuitem>Kurvböjning</guimenuitem></menuchoice>."
+ 
+ #: src/filters/distort/curve_bend.xml:67(title)
+ msgid "<quote>Curve bend</quote> filter options"
+-msgstr ""
++msgstr "Filteralternativ för <quote>Kurvböjning</quote>"
+ 
+ #: src/filters/distort/curve_bend.xml:79(para)
+ msgid ""
+ "The preview displays changes to image or selection without modifying the "
+ "image until you press <emphasis>OK</emphasis>."
+ msgstr ""
++"Förhandsvisningen visar ändringar i bilden eller markeringen utan att ändra "
++"bilden förrän du trycker på <emphasis>OK</emphasis>."
+ 
+ #: src/filters/distort/curve_bend.xml:85(term)
+ msgid "Preview Once"
+-msgstr ""
++msgstr "Förhandsvisa en gång"
+ 
+ #: src/filters/distort/curve_bend.xml:87(para)
+ msgid "This button allows you to update the preview each time you need it."
+-msgstr ""
++msgstr "Med denna knapp kan du uppdatera förhandsvisningen när du behöver det."
+ 
+ #: src/filters/distort/curve_bend.xml:94(term)
+ msgid "Automatic Preview"
+-msgstr ""
++msgstr "Automatisk förhandsvisning"
+ 
+ #: src/filters/distort/curve_bend.xml:96(para)
+ msgid ""
+@@ -2816,6 +3134,9 @@
+ "calculation and may lengthen work. It is particularly evident when using "
+ "\"Rotation\"."
+ msgstr ""
++"Med detta alternativ ändras förhandsvisningen i realtid. Det kräver mycket "
++"beräkning och kan göra arbetet långsammare. Det märks särskilt när "
++"”Rotation” används."
+ 
+ #: src/filters/distort/curve_bend.xml:111(term)
+ msgid "Rotate"
+@@ -2828,20 +3149,23 @@
+ "border and/or from the lower. Set to 90, it will be applied from left border "
+ "and/or from the right one."
+ msgstr ""
++"Här kan du ange filtrets tillämpningsvinkel (0–360 moturs). 0 är "
++"standardinställningen: kurvan tillämpas från den övre och/eller nedre kanten. "
++"Vid 90 tillämpas den från den vänstra och/eller högra kanten."
+ 
+ #: src/filters/distort/curve_bend.xml:123(term)
+ msgid "Smoothing and Antialiasing"
+-msgstr ""
++msgstr "Utjämning och kantutjämning"
+ 
+ #: src/filters/distort/curve_bend.xml:125(para)
+ msgid ""
+ "The distort process may create hard and stepped borders. These two options "
+ "improve this aspect."
+-msgstr ""
++msgstr "Förvrängningsprocessen kan skapa hårda och trappstegsliknande kanter. Dessa två alternativ förbättrar detta."
+ 
+ #: src/filters/distort/curve_bend.xml:132(term)
+ msgid "Work on Copy"
+-msgstr ""
++msgstr "Arbeta på kopia"
+ 
+ #: src/filters/distort/curve_bend.xml:134(para)
+ msgid ""
+@@ -2850,10 +3174,13 @@
+ "image in normal size without modifying the original image until you press "
+ "the <guibutton>OK</guibutton> button."
+ msgstr ""
++"Detta alternativ skapar ett nytt lager med namnet <quote>Curve_bend_dummy_layer_b</"
++"quote>, som blir det aktiva lagret. Då kan du se ändringar i bilden i normal "
++"storlek utan att ändra ursprungsbilden förrän du trycker på <guibutton>OK</guibutton>."
+ 
+ #: src/filters/distort/curve_bend.xml:147(term)
+ msgid "Modify Curve"
+-msgstr ""
++msgstr "Ändra kurva"
+ 
+ #: src/filters/distort/curve_bend.xml:149(para)
+ msgid ""
+@@ -2862,6 +3189,10 @@
+ "curve, a new node appears, that you can drag to modify the curve as you "
+ "want. You can create several nodes on the curve."
+ msgstr ""
++"I rutnätet finns en markerad vågrät linje, med en nod i varje ände, som "
++"standard representerar bildens övre kant. Om du klickar på kurvan visas en "
++"ny nod som du kan dra för att ändra kurvan som du vill. Du kan skapa flera "
++"noder på kurvan."
+ 
+ #: src/filters/distort/curve_bend.xml:156(para)
+ msgid ""
+@@ -2870,16 +3201,21 @@
+ "of them by checking the <emphasis>Upper</emphasis> or <emphasis>Lower</"
+ "emphasis> radio button."
+ msgstr ""
++"Du kan endast ha två kurvor i rutnätet, en för den så kallade ”övre” kanten "
++"och en för den så kallade ”nedre” kanten. Du kan aktivera en av dem genom att "
++"markera alternativknappen <emphasis>Övre</emphasis> eller <emphasis>Nedre</emphasis>."
+ 
+ #: src/filters/distort/curve_bend.xml:163(para)
+ msgid ""
+ "If you use the <emphasis>Curve Type Free</emphasis> option, the curve you "
+ "draw will replace the active curve."
+ msgstr ""
++"Om du använder alternativet <emphasis>Kurvtyp fri</emphasis> ersätter kurvan "
++"du ritar den aktiva kurvan."
+ 
+ #: src/filters/distort/curve_bend.xml:170(term)
+ msgid "Curve for Border"
+-msgstr ""
++msgstr "Kurva för kant"
+ 
+ #: src/filters/distort/curve_bend.xml:172(para)
+ msgid ""
+@@ -2887,6 +3223,9 @@
+ "<emphasis>Superior (or left)</emphasis> or the <emphasis>Inferior (or right)"
+ "</emphasis> border, according to the rotation."
+ msgstr ""
++"Där kan du välja om den aktiva kurvan ska tillämpas på den <emphasis>övre "
++"(eller vänstra)</emphasis> eller <emphasis>nedre (eller högra)</emphasis> "
++"kanten, beroende på rotationen."
+ 
+ #: src/filters/distort/curve_bend.xml:179(para)
+ msgid ""
+@@ -2894,22 +3233,28 @@
+ "<emphasis>Rotate</emphasis> = 90° the upper curve will actually be applied "
+ "to the left border."
+ msgstr ""
++"Kom ihåg att kurvkanten beror på rotationen. Med <emphasis>Rotera</emphasis> = "
++"90° tillämpas till exempel den övre kurvan på den vänstra kanten."
+ 
+ #: src/filters/distort/curve_bend.xml:188(term)
+ msgid "Curve Type"
+-msgstr ""
++msgstr "Kurvtyp"
+ 
+ #: src/filters/distort/curve_bend.xml:190(para)
+ msgid ""
+ "With the <emphasis>Smooth</emphasis>, you get automatically a well rounded "
+ "curve when you drag a node."
+ msgstr ""
++"Med <emphasis>Jämn</emphasis> får du automatiskt en väl avrundad kurva när "
++"du drar en nod."
+ 
+ #: src/filters/distort/curve_bend.xml:194(para)
+ msgid ""
+ "The <emphasis>Free</emphasis> option allows you to draw a curve freely. It "
+ "will replace the active curve."
+ msgstr ""
++"Alternativet <emphasis>Fri</emphasis> låter dig rita en kurva fritt. Den "
++"ersätter den aktiva kurvan."
+ 
+ #: src/filters/distort/curve_bend.xml:201(term)
+ msgid "Buttons"
+@@ -2921,31 +3266,31 @@
+ 
+ #: src/filters/distort/curve_bend.xml:207(para)
+ msgid "Copy the active curve to the other border."
+-msgstr ""
++msgstr "Kopiera den aktiva kurvan till den andra kanten."
+ 
+ #: src/filters/distort/curve_bend.xml:213(term)
+ msgid "Mirror"
+-msgstr ""
++msgstr "Spegla"
+ 
+ #: src/filters/distort/curve_bend.xml:215(para)
+ msgid "Mirror the active curve to the other border."
+-msgstr ""
++msgstr "Spegla den aktiva kurvan till den andra kanten."
+ 
+ #: src/filters/distort/curve_bend.xml:221(term)
+ msgid "Swap"
+-msgstr ""
++msgstr "Växla"
+ 
+ #: src/filters/distort/curve_bend.xml:223(para)
+ msgid "Swap the <quote>superior</quote> and <quote>inferior</quote> curves."
+-msgstr ""
++msgstr "Växla de <quote>övre</quote> och <quote>nedre</quote> kurvorna."
+ 
+ #: src/filters/distort/curve_bend.xml:230(term)
+ msgid "Reset"
+-msgstr ""
++msgstr "Återställ"
+ 
+ #: src/filters/distort/curve_bend.xml:232(para)
+ msgid "Reset the active curve."
+-msgstr ""
++msgstr "Återställ den aktiva kurvan."
+ 
+ #: src/filters/distort/curve_bend.xml:238(term)
+ msgid "Open"
+@@ -2953,7 +3298,7 @@
+ 
+ #: src/filters/distort/curve_bend.xml:240(para)
+ msgid "Load the curve from a file."
+-msgstr ""
++msgstr "Läs in kurvan från en fil."
+ 
+ #: src/filters/distort/curve_bend.xml:246(term)
+ msgid "Save"
+@@ -2961,7 +3306,7 @@
+ 
+ #: src/filters/distort/curve_bend.xml:248(para)
+ msgid "Save the curve to a file."
+-msgstr ""
++msgstr "Spara kurvan till en fil."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -2988,21 +3333,23 @@
+ #: src/filters/distort/blinds.xml:29(primary)
+ #: src/filters/distort/blinds.xml:76(quote)
+ msgid "Blinds"
+-msgstr ""
++msgstr "Persienner"
+ 
+ #: src/filters/distort/blinds.xml:37(phrase)
+ msgid "Applying example for the Blinds filter"
+-msgstr ""
++msgstr "Tillämpningsexempel för filtret Persienner"
+ 
+ #: src/filters/distort/blinds.xml:52(para)
+ msgid "Filter <quote>Blinds</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Persienner</quote> tillämpat"
+ 
+ #: src/filters/distort/blinds.xml:56(para)
+ msgid ""
+ "It generates a blind effect with horizontal or vertical battens. You can "
+ "lift or close these battens, but not lift the whole blind up."
+ msgstr ""
++"Det skapar en persienneffekt med vågräta eller lodräta spjälor. Du kan öppna "
++"eller stänga spjälorna, men inte hissa upp hela persiennen."
+ 
+ #: src/filters/distort/blinds.xml:65(para)
+ msgid ""
+@@ -3010,16 +3357,20 @@
+ "guimenu><guisubmenu>Distort</guisubmenu><guimenuitem>Blinds</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
++"Du hittar filtret via <menuchoice><guimenu>Filter</guimenu><guisubmenu>"
++"Förvräng</guisubmenu><guimenuitem>Persienner</guimenuitem></menuchoice>."
+ 
+ #: src/filters/distort/blinds.xml:88(para)
+ msgid ""
+ "All your setting changes will appear in the Preview without affecting the "
+ "image until you click on <guilabel>OK</guilabel>."
+ msgstr ""
++"Alla ändringar av dina inställningar visas i förhandsvisningen utan att "
++"påverka bilden förrän du klickar på <guilabel>OK</guilabel>."
+ 
+ #: src/filters/distort/blinds.xml:97(para)
+ msgid "Allows you to decide whether battens will be horizontal or vertical."
+-msgstr ""
++msgstr "Låter dig avgöra om spjälorna ska vara vågräta eller lodräta."
+ 
+ #: src/filters/distort/blinds.xml:104(term)
+ msgid "Background"
+@@ -3031,16 +3382,20 @@
+ "<emphasis>Transparent</emphasis> option, your image must have an Alpha "
+ "channel."
+ msgstr ""
++"Spjälornas färg är verktygslådans bakgrundsfärg. För att kunna använda "
++"alternativet <emphasis>Genomskinlig</emphasis> måste bilden ha en alfakanal."
+ 
+ #: src/filters/distort/blinds.xml:114(term)
+ msgid "Displacement"
+-msgstr ""
++msgstr "Förskjutning"
+ 
+ #: src/filters/distort/blinds.xml:116(para)
+ msgid ""
+ "Slider and input box allow to wide battens giving the impression they are "
+ "closing, or to narrow them, giving the impression they are opening."
+ msgstr ""
++"Skjutreglaget och inmatningsrutan låter dig göra spjälorna bredare, så att "
++"de ser ut att stängas, eller smalare, så att de ser ut att öppnas."
+ 
+ #: src/filters/distort/blinds.xml:124(term)
+ msgid "Number of segments"
+@@ -3048,7 +3403,7 @@
+ 
+ #: src/filters/distort/blinds.xml:126(para)
+ msgid "It's the number of battens."
+-msgstr ""
++msgstr "Detta är antalet spjälor."
+ 
+ #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+ #: src/filters/distort/blinds.xml:0(None)
