@@ -61,6 +61,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | gnome-music | main | help | 4 |
 | gimp | master | po-tips | 2 |
 | gimp | master | po-windows-installer | 8 |
+| yelp | master | po | 4 |
 
 ## Kompletta granskningar utan ändrade översättningssträngar
 
