@@ -1,12 +1,12 @@
---- file-roller.master.sv.original.po
-+++ file-roller.master.sv.reviewed.po
+--- translations/GNOME-granskning/file-roller/master/po/file-roller.master.sv.original.po	2026-11-23 17:36:33.246165829 +0100
++++ translations/GNOME-granskning/file-roller/master/po/file-roller.master.sv.reviewed.po	2026-11-23 17:36:33.255165822 +0100
 @@ -11,8 +11,8 @@
  "Project-Id-Version: file-roller\n"
  "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/file-roller/issues/\n"
  "POT-Creation-Date: 2026-11-19 08:26+0000\n"
 -"PO-Revision-Date: 2026-02-22 13:01+0100\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"PO-Revision-Date: 2026-11-23 00:00+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
  "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
  "Language: sv\n"
@@ -15,20 +15,197 @@
  "The default size for volumes. DEPRECATED: This key is deprecated and "
  "ignored. Use split-volume-size instead."
  msgstr ""
-+"Standardstorlek för volymer. FÖRÅLDRAD: Denna nyckel är föråldrad och "
++"Standardstorleken för volymer. FÖRÅLDRAD: Denna nyckel är föråldrad och "
 +"ignoreras. Använd split-volume-size i stället."
  
  #: data/org.gnome.FileRoller.gschema.xml:205
  msgid "The default size for volumes."
+@@ -333,7 +335,7 @@
+ #: src/fr-window.c:5924 src/fr-window.c:5929 src/fr-window.c:6051
+ #: src/fr-window.c:6069 src/fr-window.c:6074
+ msgid "Extraction not performed"
+-msgstr "Uppackning inte utförd"
++msgstr "Extraheringen utfördes inte"
+ 
+ #: src/dlg-extract.c:140 src/fr-window.c:6046
+ #, c-format
+@@ -402,7 +404,7 @@
+ 
+ #: src/dlg-prop.c:119 src/fr-window.c:1478 src/fr-window.c:1506
+ msgid "%d %B %Y, %H:%M"
+-msgstr "%B %d %Y, %H:%M"
++msgstr "%d %B %Y, %H:%M"
+ 
+ #: src/dlg-update.c:169
+ #, c-format
+@@ -499,7 +501,7 @@
+ 
+ #: src/fr-application.c:84
+ msgid "Use the notification system to notify the operation completion"
+-msgstr "Använd aviseringssystemet för att meddela om åtgärdens slutförande"
++msgstr "Använd aviseringssystemet för att meddela när åtgärden är klar"
+ 
+ #: src/fr-application.c:87
+ msgid "Start as a service"
+@@ -515,7 +517,7 @@
+ 
+ #: src/fr-archive.c:1882
+ msgid "You don’t have the right permissions."
+-msgstr "Du har inte rätt rättigheter."
++msgstr "Du saknar nödvändiga behörigheter."
+ 
+ #: src/fr-archive.c:1882
+ msgid "This archive type cannot be modified"
+@@ -523,7 +525,7 @@
+ 
+ #: src/fr-archive.c:1896 src/fr-new-archive-dialog.c:885
+ msgid "You can’t add an archive to itself."
+-msgstr "Du kan inte lägga till ett arkiv till sig självt."
++msgstr "Du kan inte lägga till ett arkiv i sig självt."
+ 
+ #. Translators: %s is a filename.
+ #: src/fr-command-7z.c:299 src/fr-command-rar.c:542 src/fr-command-tar.c:327
+@@ -554,11 +556,11 @@
+ 
+ #: src/fr-command-tar.c:508
+ msgid "Recompressing archive"
+-msgstr "Återkomprimerar arkiv"
++msgstr "Återkomprimerar arkivet"
+ 
+ #: src/fr-command-tar.c:847
+ msgid "Decompressing archive"
+-msgstr "Dekomprimerar arkiv"
++msgstr "Dekomprimerar arkivet"
+ 
+ #: src/fr-command.c:605
+ #, c-format
+@@ -588,11 +590,11 @@
+ 
+ #: src/fr-location-bar.c:210
+ msgid "Previous visited location"
+-msgstr "Föregående besökta plats"
++msgstr "Föregående plats"
+ 
+ #: src/fr-location-bar.c:218
+ msgid "Next visited location"
+-msgstr "Nästa besökta plats"
++msgstr "Nästa plats"
+ 
+ #: src/fr-location-bar.c:226
+ msgid "Parent location"
+@@ -624,12 +626,12 @@
+ 
+ #: src/fr-new-archive-dialog.c:843
+ msgid "You don’t have permission to create an archive in this folder"
+-msgstr "Du har inte rättigheter att skapa ett arkiv i denna mapp"
++msgstr "Du saknar behörighet att skapa ett arkiv i den här mappen"
+ 
+ #. Translators: the name references to a filename.  This message can appear when renaming a file.
+ #: src/fr-new-archive-dialog.c:862 src/glib-utils.c:980
+ msgid "New name is the same as old one, please type other name."
+-msgstr "Nya namnet är det samma som det gamla. Ange ett annat namn."
++msgstr "Det nya namnet är detsamma som det gamla. Ange ett annat namn."
+ 
+ #: src/fr-new-archive-dialog.c:911
+ #, c-format
+@@ -668,7 +670,7 @@
+ 
+ #: src/fr-window.c:1107
+ msgid "Operation completed"
+-msgstr "Åtgärden slutförd"
++msgstr "Åtgärden är slutförd"
+ 
+ #: src/fr-window.c:1486
+ msgid "Folder"
+@@ -716,13 +718,13 @@
+ #: src/fr-window.c:2071
+ #, c-format
+ msgid "Copying the files to add to “%s”"
+-msgstr "Kopierar filerna som kommer att läggas till ”%s”"
++msgstr "Kopierar filerna som ska läggas till i ”%s”"
+ 
+ #. Translators: %s is a filename
+ #: src/fr-window.c:2075
+ #, c-format
+ msgid "Adding the files to “%s”"
+-msgstr "Lägger till filerna till ”%s”"
++msgstr "Lägger till filerna i ”%s”"
+ 
+ #. Translators: %s is a filename
+ #: src/fr-window.c:2079
+@@ -765,7 +767,7 @@
+ 
+ #: src/fr-window.c:2511
+ msgid "Extraction completed successfully"
+-msgstr "Uppackningen lyckades"
++msgstr "Extraheringen slutfördes utan fel"
+ 
+ #: src/fr-window.c:2514
+ msgid "_Show the Files"
 @@ -779,7 +781,7 @@
  
  #: src/fr-window.c:2539
  msgid "_Open the Archive"
 -msgstr "_Öppna arkivet"
-+msgstr "Öppna a_rkivet"
++msgstr "Ö_ppna arkivet"
  
  #: src/fr-window.c:2629 src/fr-window.c:2803
  msgid "Command exited abnormally."
+@@ -787,7 +789,7 @@
+ 
+ #: src/fr-window.c:2751
+ msgid "An error occurred while extracting files."
+-msgstr "Ett fel inträffade under uppackning av filer."
++msgstr "Ett fel inträffade vid extrahering av filer."
+ 
+ #: src/fr-window.c:2757 src/gtk-utils.c:717
+ #, c-format
+@@ -804,15 +806,15 @@
+ 
+ #: src/fr-window.c:2772
+ msgid "An error occurred while adding files to the archive."
+-msgstr "Ett fel inträffade vid tilläggning av filer till arkivet."
++msgstr "Ett fel inträffade när filer lades till i arkivet."
+ 
+ #: src/fr-window.c:2776
+ msgid "An error occurred while testing archive."
+-msgstr "Ett fel inträffade vid testande av arkivet."
++msgstr "Ett fel inträffade vid testning av arkivet."
+ 
+ #: src/fr-window.c:2781
+ msgid "An error occurred while saving the archive."
+-msgstr "Ett fel inträffade vid sparning av arkivet."
++msgstr "Ett fel inträffade när arkivet sparades."
+ 
+ #: src/fr-window.c:2785
+ msgid "An error occurred while renaming the files."
+@@ -843,7 +845,7 @@
+ "Do you want to add this file to the current archive or open it as a new "
+ "archive?"
+ msgstr ""
+-"Vill du lägga till den här filen till det aktuella arkivet eller öppna den "
++"Vill du lägga till den här filen i det aktuella arkivet eller öppna den "
+ "som ett nytt arkiv?"
+ 
+ #: src/fr-window.c:3797
+@@ -885,7 +887,7 @@
+ 
+ #: src/fr-window.c:4866
+ msgid "No Archive Opened"
+-msgstr "Inget arkiv öppnat"
++msgstr "Inget arkiv är öppet"
+ 
+ #: src/fr-window.c:4867
+ msgid "Open an archive or create a new one."
+@@ -947,7 +949,7 @@
+ 
+ #: src/fr-window.c:5841
+ msgid "Replace _Nothing"
+-msgstr "Ersätt i_ngenting"
++msgstr "Ersätt _inget"
+ 
+ #: src/fr-window.c:5842
+ msgid "_Skip"
 @@ -1018,7 +1020,7 @@
  
  #: src/fr-window.c:8000
@@ -38,3 +215,62 @@
  
  #. Translators: %s are archive filenames
  #: src/fr-window.c:8049
+@@ -1065,7 +1067,7 @@
+ 
+ #: src/gtk-utils.c:366
+ msgid "Change password visibility"
+-msgstr "Ändra synlighet för lösenord"
++msgstr "Ändra lösenordets synlighet"
+ 
+ #: src/gtk-utils.h:29
+ msgid "_Add"
+@@ -1113,11 +1115,11 @@
+ 
+ #: src/ui/add-dialog-options.ui:50
+ msgid "E_xclude files:"
+-msgstr "_Utelämna filer:"
++msgstr "_Uteslut filer:"
+ 
+ #: src/ui/add-dialog-options.ui:62
+ msgid "_Exclude folders:"
+-msgstr "Ut_elämna mappar:"
++msgstr "Ut_eslut mappar:"
+ 
+ #: src/ui/add-dialog-options.ui:110
+ msgid "Add only if _newer"
+@@ -1259,7 +1261,7 @@
+ #: src/ui/help-overlay.ui:63
+ msgctxt "shortcut window"
+ msgid "Add files to the archive"
+-msgstr "Lägg till filer till arkivet"
++msgstr "Lägg till filer i arkivet"
+ 
+ #: src/ui/help-overlay.ui:69
+ msgctxt "shortcut window"
+@@ -1304,7 +1306,7 @@
+ #: src/ui/help-overlay.ui:116
+ msgctxt "shortcut window"
+ msgid "Focus the location"
+-msgstr "Ge fokus till platsen"
++msgstr "Fokusera platsfältet"
+ 
+ #: src/ui/help-overlay.ui:123
+ msgctxt "shortcut window"
+@@ -1390,7 +1392,7 @@
+ 
+ #: src/ui/new-archive-dialog.ui:88
+ msgid "Ask the password to see the file list"
+-msgstr "Fråga efter lösenordet för att se fillistan"
++msgstr "Fråga efter lösenord för att visa fillistan"
+ 
+ #: src/ui/new-archive-dialog.ui:108
+ msgid "Split in Volumes"
+@@ -1432,7 +1434,7 @@
+ 
+ #: src/ui/properties.ui:214
+ msgid "Compression Ratio"
+-msgstr "Komprimeringsnivå"
++msgstr "Komprimeringsgrad"
+ 
+ #: src/ui/properties.ui:242
+ msgctxt "properties dialog"
