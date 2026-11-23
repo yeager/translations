@@ -84,6 +84,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | Modul | Gren | Domän | Kommentar |
 |---|---|---|---|
 | libgtop | master | po | `Granskad och allt ser bra ut` |
+| nostalgia | main | po | `Granskad och allt ser bra ut` |
 | libgedit-amtk | main | po | `Granskad och allt ser bra ut` |
 | gtk-vnc | master | po | `Granskad och allt ser bra ut` |
 | libgedit-amtk | main | po | `Granskad och allt ser bra ut` |
