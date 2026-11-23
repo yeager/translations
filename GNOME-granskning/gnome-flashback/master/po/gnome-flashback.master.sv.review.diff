@@ -1,22 +1,111 @@
 --- gnome-flashback.master.sv.original.po
 +++ gnome-flashback.master.sv.reviewed.po
-@@ -10,8 +10,8 @@
- "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-flashback/"
- "issues/\n"
- "POT-Creation-Date: 2024-03-23 10:19+0000\n"
--"PO-Revision-Date: 2024-04-27 14:53+0200\n"
--"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-23 12:00+0100\n"
-+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
- "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
- "Language: sv\n"
- "MIME-Version: 1.0\n"
-@@ -618,7 +618,7 @@
+@@ -162,7 +162,7 @@
+ "removable media."
+ msgstr ""
+ "Om satt till true (sant) kommer GNOME Flashback att användas för att "
+-"automontera flyttbar media."
++"automatiskt montera flyttbara medier."
+ 
+ #: data/schemas/org.gnome.gnome-flashback.gschema.xml:22
+ msgid "Desktop"
+@@ -178,7 +178,7 @@
+ "end session dialog."
+ msgstr ""
+ "Om satt till true (sant) kommer programmet GNOME Flashback att användas för "
+-"att avsluta sessionsdialogen."
++"att visa dialogen för att avsluta sessionen."
+ 
+ #: data/schemas/org.gnome.gnome-flashback.gschema.xml:33
+ msgid "Input settings"
+@@ -186,7 +186,7 @@
+ 
+ #: data/schemas/org.gnome.gnome-flashback.gschema.xml:38
+ msgid "Keyboard layouts and input methods"
+-msgstr "Tangentbordslayout och inmatningsmetoder"
++msgstr "Tangentbordslayouter och inmatningsmetoder"
+ 
+ #: data/schemas/org.gnome.gnome-flashback.gschema.xml:39
+ msgid ""
+@@ -426,57 +426,57 @@
+ 
+ #: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:47
+ msgid "Screen brightness up"
+-msgstr ""
++msgstr "Öka skärmens ljusstyrka"
+ 
+ #: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:48
+-#, fuzzy
++#
+ #| msgid "Binding to take a screenshot."
+ msgid "Binding to increase the screen brightness."
+-msgstr "Bindning för att ta en skärmbild."
++msgstr "Bindning för att öka skärmens ljusstyrka."
+ 
+ #: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:53
+ msgid "Screen brightness up on current monitor"
+-msgstr ""
++msgstr "Öka ljusstyrkan på den aktuella bildskärmen"
+ 
+ #: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:54
+ msgid "Binding to increase the brightness of the monitor under the pointer."
+-msgstr ""
++msgstr "Bindning för att öka ljusstyrkan på bildskärmen under pekaren."
+ 
+ #: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:59
+ msgid "Screen brightness down"
+-msgstr ""
++msgstr "Minska skärmens ljusstyrka"
+ 
+ #: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:60
+-#, fuzzy
++#
+ #| msgid "Binding to take a screenshot."
+ msgid "Binding to decrease the screen brightness."
+-msgstr "Bindning för att ta en skärmbild."
++msgstr "Bindning för att minska skärmens ljusstyrka."
+ 
+ #: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:65
+ msgid "Screen brightness down on current monitor"
+-msgstr ""
++msgstr "Minska ljusstyrkan på den aktuella bildskärmen"
+ 
+ #: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:66
+ msgid "Binding to decrease the brightness of the monitor under the pointer."
+-msgstr ""
++msgstr "Bindning för att minska ljusstyrkan på bildskärmen under pekaren."
+ 
+ #: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:71
+ msgid "Screen brightness cycle"
+-msgstr ""
++msgstr "Växla skärmens ljusstyrka"
+ 
+ #: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:72
+-#, fuzzy
++#
+ #| msgid "Binding to take a screenshot."
+ msgid "Binding to cycle the screen brightness."
+-msgstr "Bindning för att ta en skärmbild."
++msgstr "Bindning för att växla skärmens ljusstyrka."
+ 
+ #: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:77
+ msgid "Screen brightness cycle on current monitor"
+-msgstr ""
++msgstr "Växla ljusstyrkan på den aktuella bildskärmen"
+ 
+ #: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:78
+ msgid "Binding to cycle the brightness of the monitor under the pointer."
+-msgstr ""
++msgstr "Bindning för att växla ljusstyrkan på bildskärmen under pekaren."
+ 
+ #: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:83
+ msgid "Maximum length of screen recordings"
+@@ -524,7 +524,7 @@
  
  #: data/ui/gf-confirm-display-change-dialog.ui:103
  msgid "_Revert Settings"
 -msgstr "_Återställ inställningar"
-+msgstr "Å_terställ inställningar"
++msgstr "Återställ _inställningar"
  
  #: data/ui/gf-confirm-display-change-dialog.ui:118
  msgid "_Keep Changes"

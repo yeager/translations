@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gnome-flashback master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-flashback/"
 "issues/\n"
-"POT-Creation-Date: 2024-03-23 10:19+0000\n"
+"POT-Creation-Date: 2026-11-01 16:16+0000\n"
 "PO-Revision-Date: 2024-04-27 14:53+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -20,120 +20,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.4.2\n"
 
-#: backends/gf-monitor.c:135
-msgid "Built-in display"
-msgstr "Inbyggd skärm"
-
-#: backends/gf-monitor.c:169
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:433
-msgid "Unknown"
-msgstr "Okänd"
-
-#: backends/gf-monitor.c:171
-msgid "Unknown Display"
-msgstr "Okänd skärm"
-
-#: backends/gf-monitor.c:180
-#, c-format
-msgctxt ""
-"This is a monitor vendor name, followed by a size in inches, like 'Dell 15\"'"
-msgid "%s %s"
-msgstr "%s %s"
-
-#: backends/gf-monitor.c:194
-#, c-format
-msgctxt ""
-"This is a monitor vendor name followed by product/model name where size in "
-"inches could not be calculated, e.g. Dell U2414H"
-msgid "%s %s"
-msgstr "%s %s"
-
-#. Translators: this is a filename used for screencast
-#. * recording, where "%d" and "%t" date and time, e.g.
-#. * "Screencast from 07-17-2013 10:00:46 PM.webm"
-#: daemons/media-keys/gsd-media-keys-manager.c:551
-#, no-c-format
-msgid "Screencast from %d %t.webm"
-msgstr "Skärminspelning från %d %t.webm"
-
-#. translators: this is the name of the file that gets made up
-#. * with the screenshot
-#: daemons/media-keys/gsd-screenshot-utils.c:240
-#, c-format
-msgid "Screenshot from %s"
-msgstr "Skärmbild från %s"
-
-#: daemons/polkit/flashback-authenticator.c:100
-#, c-format
-msgid "_Password for %s:"
-msgstr "_Lösenord för %s:"
-
-#: daemons/polkit/flashback-authenticator.c:104
-#: daemons/polkit/flashback-polkit-dialog.ui:99
-#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:366
-msgid "_Password:"
-msgstr "_Lösenord:"
-
-#: daemons/polkit/flashback-authenticator.c:259
-msgid "Your authentication attempt was unsuccessful. Please try again."
-msgstr "Ditt autentiseringsförsök misslyckades. Prova igen."
-
-#: daemons/polkit/flashback-listener.c:139
-msgid "Authentication dialog was dismissed by the user"
-msgstr "Autentiseringsdialogen avfärdades av användaren"
-
-#: daemons/polkit/flashback-polkit-dialog.c:202
-msgid ""
-"An application is attempting to perform an action that requires privileges. "
-"Authentication as one of the users below is required to perform this action."
-msgstr ""
-"Ett program försöker att utföra en åtgärd som kräver privilegier. För att "
-"utföra denna åtgärd krävs autentisering som en av användarna nedan."
-
-#: daemons/polkit/flashback-polkit-dialog.c:212
-#: daemons/polkit/flashback-polkit-dialog.ui:68
-msgid ""
-"An application is attempting to perform an action that requires privileges. "
-"Authentication is required to perform this action."
-msgstr ""
-"Ett program försöker att utföra en åtgärd som kräver privilegier. För att "
-"utföra denna åtgärd krävs autentisering."
-
-#: daemons/polkit/flashback-polkit-dialog.c:217
-msgid ""
-"An application is attempting to perform an action that requires privileges. "
-"Authentication as the super user is required to perform this action."
-msgstr ""
-"Ett program försöker att utföra en åtgärd som kräver privilegier. För att "
-"utföra denna åtgärd krävs autentisering som superanvändaren."
-
-#: daemons/polkit/flashback-polkit-dialog.c:386
-msgid "Select user..."
-msgstr "Välj användare…"
-
-#: daemons/polkit/flashback-polkit-dialog.c:425
-#, c-format
-msgid "%s (%s)"
-msgstr "%s (%s)"
-
-#: daemons/polkit/flashback-polkit-dialog.c:600
-msgid "Action:"
-msgstr "Åtgärd:"
-
-#: daemons/polkit/flashback-polkit-dialog.c:603
-#, c-format
-msgid "Click to edit %s"
-msgstr "Klicka för att redigera %s"
-
-#: daemons/polkit/flashback-polkit-dialog.c:611
-msgid "Vendor:"
-msgstr "Tillverkare:"
-
-#: daemons/polkit/flashback-polkit-dialog.c:614
-#, c-format
-msgid "Click to open %s"
-msgstr "Klicka för att öppna %s"
-
 #: daemons/polkit/flashback-polkit-dialog.ui:8
 msgid "Authenticate"
 msgstr "Autentisera"
@@ -142,12 +28,23 @@ msgstr "Autentisera"
 msgid "<big><b>Title</b></big>"
 msgstr "<big><b>Titel</b></big>"
 
+#: daemons/polkit/flashback-polkit-dialog.ui:68
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication is required to perform this action."
+msgstr ""
+"Ett program försöker att utföra en åtgärd som kräver privilegier. För att "
+"utföra denna åtgärd krävs autentisering."
+
+#: daemons/polkit/flashback-polkit-dialog.ui:99
+msgid "_Password:"
+msgstr "_Lösenord:"
+
 #: daemons/polkit/flashback-polkit-dialog.ui:192
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Detaljer</b></small>"
 
 #: daemons/polkit/flashback-polkit-dialog.ui:213
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:785
 msgid "_Cancel"
 msgstr "A_vbryt"
 
@@ -155,72 +52,56 @@ msgstr "A_vbryt"
 msgid "_Authenticate"
 msgstr "_Autentisera"
 
-#: data/applications/gnome-flashback.desktop.in:4
+#: data/applications/gnome-flashback.desktop.in:3
 msgid "GNOME Flashback"
 msgstr "GNOME Flashback"
 
-#: data/autostart/gnome-flashback-clipboard.desktop.in.in:4
-msgid "Clipboard (GNOME Flashback)"
-msgstr "Urklipp (GNOME Flashback)"
-
-#: data/autostart/gnome-flashback-geoclue-demo-agent.desktop.in.in:3
+#: data/autostart/gnome-flashback-geoclue-demo-agent.desktop.in.in:2
 msgid "Geoclue Demo agent (GNOME Flashback)"
 msgstr "Geoclue-demonstrationsagent (GNOME Flashback)"
 
-#: data/autostart/gnome-flashback-geoclue-demo-agent.desktop.in.in:4
+#: data/autostart/gnome-flashback-geoclue-demo-agent.desktop.in.in:3
 msgid "Demo geoclue agent"
 msgstr "Geoclue-demonstrationsagent"
 
-#: data/autostart/gnome-flashback-geoclue-demo-agent.desktop.in.in:5
+#: data/autostart/gnome-flashback-geoclue-demo-agent.desktop.in.in:4
 msgid "geolocation;"
 msgstr "geolokalisering;platsdata;"
 
-#: data/autostart/gnome-flashback-idle-monitor.desktop.in.in:4
-msgid "Idle Monitor (GNOME Flashback)"
-msgstr "Inaktivitetsövervakare (GNOME Flashback)"
-
-#: data/autostart/gnome-flashback-media-keys.desktop.in.in:4
-msgid "MediaKeys (GNOME Flashback)"
-msgstr "Mediatangenter (GNOME Flashback)"
-
-#: data/autostart/gnome-flashback-nm-applet.desktop.in:3
+#: data/autostart/gnome-flashback-nm-applet.desktop.in:2
 msgid "Network (GNOME Flashback)"
 msgstr "Nätverk (GNOME Flashback)"
 
-#: data/autostart/gnome-flashback-nm-applet.desktop.in:4
+#: data/autostart/gnome-flashback-nm-applet.desktop.in:3
 msgid "Manage your network connections"
 msgstr "Hantera dina nätverksanslutningar"
 
-#: data/autostart/gnome-flashback-polkit.desktop.in.in:4
-msgid "Polkit (GNOME Flashback)"
-msgstr "Polkit (GNOME Flashback)"
-
-#: data/directories/X-GNOME-Flashback-Science.directory.desktop.in:4
+#: data/directories/X-GNOME-Flashback-Science.directory.desktop.in:3
 msgid "Science"
 msgstr "Vetenskap"
 
-#: data/directories/X-GNOME-Flashback-Science.directory.desktop.in:5
+#: data/directories/X-GNOME-Flashback-Science.directory.desktop.in:4
 msgid "Scientific applications"
 msgstr "Vetenskapliga program"
 
-#: data/directories/X-GNOME-Flashback-Settings.directory.desktop.in:4
+#: data/directories/X-GNOME-Flashback-Settings.directory.desktop.in:3
 msgid "Preferences"
 msgstr "Inställningar"
 
-#: data/directories/X-GNOME-Flashback-Settings.directory.desktop.in:5
+#: data/directories/X-GNOME-Flashback-Settings.directory.desktop.in:4
 msgid "Personal preferences"
 msgstr "Personliga inställningar"
 
-#: data/directories/X-GNOME-Flashback-Settings-System.directory.desktop.in:4
+#: data/directories/X-GNOME-Flashback-Settings-System.directory.desktop.in:3
 msgid "Administration"
 msgstr "Administration"
 
-#: data/directories/X-GNOME-Flashback-Settings-System.directory.desktop.in:5
+#: data/directories/X-GNOME-Flashback-Settings-System.directory.desktop.in:4
 msgid "Change system-wide settings (affects all users)"
 msgstr "Ändra systeminställningar (påverkar alla användare)"
 
 #: data/keybindings/50-gnome-flashback-screenshots.xml:6
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:84
+#: data/schemas/org.gnome.gnome-flashback.gschema.xml:67
 msgid "Screenshots"
 msgstr "Skärmbilder"
 
@@ -284,19 +165,14 @@ msgstr ""
 "automontera flyttbar media."
 
 #: data/schemas/org.gnome.gnome-flashback.gschema.xml:22
-msgid "Clipboard"
-msgstr "Urklipp"
-
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:27
-#: gnome-flashback/libdesktop/gf-desktop-window.c:824
 msgid "Desktop"
 msgstr "Skrivbord"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:32
+#: data/schemas/org.gnome.gnome-flashback.gschema.xml:27
 msgid "End session dialog"
 msgstr "Dialog för att avsluta session"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:33
+#: data/schemas/org.gnome.gnome-flashback.gschema.xml:28
 msgid ""
 "If set to true, then GNOME Flashback application will be used to show the "
 "end session dialog."
@@ -304,27 +180,15 @@ msgstr ""
 "Om satt till true (sant) kommer programmet GNOME Flashback att användas för "
 "att avsluta sessionsdialogen."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:38
-msgid "Idle monitor"
-msgstr "Inaktivitetsövervakare"
-
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:39
-msgid ""
-"If set to true, then GNOME Flashback application will be used for user "
-"activity monitoring."
-msgstr ""
-"Om satt till true (sant) kommer programmet GNOME Flashback att användas för "
-"övervakning av användaraktivitet."
-
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:44
+#: data/schemas/org.gnome.gnome-flashback.gschema.xml:33
 msgid "Input settings"
 msgstr "Inmatningsinställningar"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:49
+#: data/schemas/org.gnome.gnome-flashback.gschema.xml:38
 msgid "Keyboard layouts and input methods"
 msgstr "Tangentbordslayout och inmatningsmetoder"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:50
+#: data/schemas/org.gnome.gnome-flashback.gschema.xml:39
 msgid ""
 "If set to true, then GNOME Flashback application will be used to manage "
 "keyboard layouts and input methods."
@@ -332,11 +196,11 @@ msgstr ""
 "Om satt till true (sant) kommer programmet GNOME Flashback att användas för "
 "att hantera tangentbordslayouter och inmatningsmetoder."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:55
+#: data/schemas/org.gnome.gnome-flashback.gschema.xml:44
 msgid "Notification daemon"
 msgstr "Aviseringsdemon"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:56
+#: data/schemas/org.gnome.gnome-flashback.gschema.xml:45
 msgid ""
 "If set to true, then GNOME Flashback application will be used to manage "
 "notifications."
@@ -344,25 +208,15 @@ msgstr ""
 "Om satt till true (sant) kommer programmet GNOME Flashback att användas för "
 "att hantera aviseringar."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:61
-msgid "Authentication agent for polkit"
-msgstr "Auktoriseringsagent för polkit"
-
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:62
-msgid ""
-"This is the same authentication agent that was provided by PolicyKit-gnome."
-msgstr ""
-"Det här är samma auktoriseringsagent som tillhandahölls av PolicyKit-gnome."
-
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:67
+#: data/schemas/org.gnome.gnome-flashback.gschema.xml:50
 msgid "Root background"
 msgstr "Root-bakgrund"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:72
+#: data/schemas/org.gnome.gnome-flashback.gschema.xml:55
 msgid "Screencasts"
 msgstr "Skärmsändningar"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:73
+#: data/schemas/org.gnome.gnome-flashback.gschema.xml:56
 msgid ""
 "If set to true, then GNOME Flashback application will be used to record the "
 "screen."
@@ -370,11 +224,11 @@ msgstr ""
 "Om satt till true (sant) kommer programmet GNOME Flashback att användas för "
 "att spela in skärmen."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:78
+#: data/schemas/org.gnome.gnome-flashback.gschema.xml:61
 msgid "Screensaver"
 msgstr "Skärmsläckare"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:79
+#: data/schemas/org.gnome.gnome-flashback.gschema.xml:62
 msgid ""
 "If set to true, then GNOME Flashback application will be used as a "
 "screensaver."
@@ -382,7 +236,7 @@ msgstr ""
 "Om satt till true (sant) kommer programmet GNOME Flashback att användas som "
 "en skärmsläckare."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:85
+#: data/schemas/org.gnome.gnome-flashback.gschema.xml:68
 msgid ""
 "If set to true, then GNOME Flashback application will be used to take "
 "screenshots."
@@ -390,22 +244,22 @@ msgstr ""
 "Om satt till true (sant) kommer programmet GNOME Flashback att användas för "
 "att ta skärmbilder."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:90
+#: data/schemas/org.gnome.gnome-flashback.gschema.xml:73
 msgid "Shell"
 msgstr "Skal"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:91
+#: data/schemas/org.gnome.gnome-flashback.gschema.xml:74
 msgid ""
 "If set to true, then GNOME Flashback application will be used as a shell."
 msgstr ""
 "Om satt till true (sant) kommer programmet GNOME Flashback att användas som "
 "ett skal."
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:96
+#: data/schemas/org.gnome.gnome-flashback.gschema.xml:79
 msgid "Status Notifier Watcher"
 msgstr "Bevakare för statusaviserare"
 
-#: data/schemas/org.gnome.gnome-flashback.gschema.xml:97
+#: data/schemas/org.gnome.gnome-flashback.gschema.xml:80
 msgid ""
 "If set to true, then GNOME Flashback application will be used as Status "
 "Notifier Watcher."
@@ -455,7 +309,6 @@ msgid "The size of desktop icons."
 msgstr "Storleken för skrivbordsikoner."
 
 #: data/schemas/org.gnome.gnome-flashback.desktop.icons.gschema.xml:11
-#: gnome-flashback/libdesktop/gf-icon-view.c:1332
 msgid "Placement"
 msgstr "Placering"
 
@@ -468,7 +321,6 @@ msgstr ""
 "styr hur ikoner placeras på skrivbordet."
 
 #: data/schemas/org.gnome.gnome-flashback.desktop.icons.gschema.xml:17
-#: gnome-flashback/libdesktop/gf-icon-view.c:1338
 msgid "Sort by"
 msgstr "Sortera efter"
 
@@ -573,10 +425,64 @@ msgid "Binding to record a short video of the screen"
 msgstr "Bindning för att spela in en kort film av skärmen"
 
 #: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:47
+msgid "Screen brightness up"
+msgstr ""
+
+#: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:48
+#, fuzzy
+#| msgid "Binding to take a screenshot."
+msgid "Binding to increase the screen brightness."
+msgstr "Bindning för att ta en skärmbild."
+
+#: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:53
+msgid "Screen brightness up on current monitor"
+msgstr ""
+
+#: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:54
+msgid "Binding to increase the brightness of the monitor under the pointer."
+msgstr ""
+
+#: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:59
+msgid "Screen brightness down"
+msgstr ""
+
+#: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:60
+#, fuzzy
+#| msgid "Binding to take a screenshot."
+msgid "Binding to decrease the screen brightness."
+msgstr "Bindning för att ta en skärmbild."
+
+#: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:65
+msgid "Screen brightness down on current monitor"
+msgstr ""
+
+#: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:66
+msgid "Binding to decrease the brightness of the monitor under the pointer."
+msgstr ""
+
+#: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:71
+msgid "Screen brightness cycle"
+msgstr ""
+
+#: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:72
+#, fuzzy
+#| msgid "Binding to take a screenshot."
+msgid "Binding to cycle the screen brightness."
+msgstr "Bindning för att ta en skärmbild."
+
+#: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:77
+msgid "Screen brightness cycle on current monitor"
+msgstr ""
+
+#: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:78
+msgid "Binding to cycle the brightness of the monitor under the pointer."
+msgstr ""
+
+#: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:83
 msgid "Maximum length of screen recordings"
 msgstr "Maximal längd på skärminspelningar"
 
-#: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:48
+#: data/schemas/org.gnome.gnome-flashback.keybindings.gschema.xml:84
 msgid ""
 "The maximum length of single screen cast recordings in seconds or 0 for "
 "unlimited"
@@ -628,19 +534,19 @@ msgstr "_Behåll ändringar"
 msgid "Confirm Changes"
 msgstr "Bekräfta ändringar"
 
-#: data/xsessions/gnome-flashback-compiz.desktop.in.in:3
+#: data/xsessions/gnome-flashback-compiz.desktop.in.in:2
 msgid "GNOME Flashback (Compiz)"
 msgstr "GNOME Flashback (Compiz)"
 
-#: data/xsessions/gnome-flashback-compiz.desktop.in.in:4
+#: data/xsessions/gnome-flashback-compiz.desktop.in.in:3
 msgid "This session logs you into GNOME Flashback with Compiz"
 msgstr "Denna session loggar in dig i GNOME Flashback med Compiz"
 
-#: data/xsessions/gnome-flashback-metacity.desktop.in.in:3
+#: data/xsessions/gnome-flashback-metacity.desktop.in.in:2
 msgid "GNOME Flashback (Metacity)"
 msgstr "GNOME Flashback (Metacity)"
 
-#: data/xsessions/gnome-flashback-metacity.desktop.in.in:4
+#: data/xsessions/gnome-flashback-metacity.desktop.in.in:3
 msgid "This session logs you into GNOME Flashback with Metacity"
 msgstr "Denna session loggar in dig i GNOME Flashback med Metacity"
 
@@ -651,393 +557,12 @@ msgid_plural "Settings changes will revert in %d seconds!"
 msgstr[0] "Inställningsändringar kommer att återställas om %d sekund!"
 msgstr[1] "Inställningsändringar kommer att återställas om %d sekunder!"
 
-#: gnome-flashback/gf-main.c:43
-msgid "Replace a currently running application"
-msgstr "Ersätt ett för närvarande körande program"
-
-#: gnome-flashback/gf-main.c:49
-msgid "Print version and exit"
-msgstr "Skriv ut version och avsluta"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:295
-msgid "Slow Keys Turned On"
-msgstr "Tröga tangenter aktiverade"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:296
-msgid "Slow Keys Turned Off"
-msgstr "Tröga tangenter inaktiverade"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:298
-msgid ""
-"You just held down the Shift key for 8 seconds. This is the shortcut for the "
-"Slow Keys feature, which affects the way your keyboard works."
-msgstr ""
-"Du höll precis ned skifttangenten under 8 sekunder. Detta är genvägen för "
-"funktionen tröga tangenter, som påverkar hur ditt tangentbord fungerar."
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:303
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:390
-#: system-indicators/si-bluetooth.c:116
-msgid "Turn Off"
-msgstr "Slå av"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:303
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:390
-#: system-indicators/si-bluetooth.c:130
-msgid "Turn On"
-msgstr "Slå på"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:305
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:392
-msgid "Leave On"
-msgstr "Lämna påslagen"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:305
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:392
-msgid "Leave Off"
-msgstr "Lämna avstängd"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:313
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:400
-msgid "Universal Access"
-msgstr "Hjälpmedel"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:379
-msgid "Sticky Keys Turned On"
-msgstr "Klistriga tangenter aktiverade"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:380
-msgid "Sticky Keys Turned Off"
-msgstr "Klistriga tangenter inaktiverade"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:383
-msgid ""
-"You just pressed the Shift key 5 times in a row.  This is the shortcut for "
-"the Sticky Keys feature, which affects the way your keyboard works."
-msgstr ""
-"Du tryckte precis ned skifttangenten 5 gånger i följd. Detta är genvägen för "
-"funktionen klistriga tangenter, som påverkar hur ditt tangentbord fungerar."
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:385
-msgid ""
-"You just pressed two keys at once, or pressed the Shift key 5 times in a "
-"row. This turns off the Sticky Keys feature, which affects the way your "
-"keyboard works."
-msgstr ""
-"Du tryckte precis ned två tangenter samtidigt, eller tryckte ned "
-"skifttangenten 5 gånger i följd. Detta stänger av funktionen klistriga "
-"tangenter, som påverkar hur ditt tangentbord fungerar."
-
-#: gnome-flashback/libaudio-device-selection/gf-audio-device-selection-dialog.c:109
-msgid "Headphones"
-msgstr "Hörlurar"
-
-#: gnome-flashback/libaudio-device-selection/gf-audio-device-selection-dialog.c:112
-msgid "Headset"
-msgstr "Mikrofonlurar"
-
-#: gnome-flashback/libaudio-device-selection/gf-audio-device-selection-dialog.c:115
-msgid "Microphone"
-msgstr "Mikrofon"
-
-#: gnome-flashback/libaudio-device-selection/gf-audio-device-selection-dialog.c:178
-#, c-format
-msgid "Failed to start Sound Preferences: %s"
-msgstr "Misslyckades med att starta ljudinställningar: %s"
-
-#: gnome-flashback/libaudio-device-selection/gf-audio-device-selection-dialog.c:248
-msgid "What kind of device did you plug in?"
-msgstr "Vad för sorts enhet kopplade du in?"
-
-#: gnome-flashback/libaudio-device-selection/gf-audio-device-selection-dialog.c:262
-#: system-indicators/si-bluetooth.c:307 system-indicators/si-volume.c:446
-msgid "Sound Settings"
-msgstr "Ljudinställningar"
-
-#: gnome-flashback/libaudio-device-selection/gf-audio-device-selection-dialog.c:269
-#: gnome-flashback/libdesktop/gf-create-folder-dialog.c:104
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.ui:111
-msgid "Cancel"
-msgstr "Avbryt"
-
-#: gnome-flashback/libaudio-device-selection/gf-audio-device-selection-dialog.c:285
-msgid "Unknown Audio Device"
-msgstr "Okänd ljudenhet"
-
-#: gnome-flashback/libautomount-manager/gsd-automount-manager.c:175
-#, c-format
-msgid "Unable to mount %s"
-msgstr "Kan inte montera %s"
-
-#: gnome-flashback/libautomount-manager/gsd-automount-manager.c:292
-#, c-format
-msgid "Unable to open a folder for %s"
-msgstr "Kan inte öppna en mapp för %s"
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:339
-msgid "Ask what to do"
-msgstr "Fråga vad som ska göras"
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:345
-msgid "Do Nothing"
-msgstr "Gör ingenting"
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:351
-msgid "Open Folder"
-msgstr "Öppna mapp"
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:498
-#, c-format
-msgid "Unable to eject %p"
-msgstr "Kan inte mata ut %p"
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:500
-#, c-format
-msgid "Unable to unmount %p"
-msgstr "Kan inte avmontera %p"
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:709
-msgid "You have just inserted an Audio CD."
-msgstr "Du har just matat in en ljud-cd."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:711
-msgid "You have just inserted an Audio DVD."
-msgstr "Du har just matat in en ljud-dvd."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:713
-msgid "You have just inserted a Video DVD."
-msgstr "Du har just matat in en video-dvd."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:715
-msgid "You have just inserted a Video CD."
-msgstr "Du har just matat in en video-cd."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:717
-msgid "You have just inserted a Super Video CD."
-msgstr "Du har just matat in en Super Video-cd."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:719
-msgid "You have just inserted a blank CD."
-msgstr "Du har just matat in en blank cd."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:721
-msgid "You have just inserted a blank DVD."
-msgstr "Du har just matat in en blank dvd."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:723
-msgid "You have just inserted a blank Blu-Ray disc."
-msgstr "Du har just matat in en blank Blu-Ray-skiva."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:725
-msgid "You have just inserted a blank HD DVD."
-msgstr "Du har just matat in en blank hd-dvd."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:727
-msgid "You have just inserted a Photo CD."
-msgstr "Du har just matat in en Photo CD."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:729
-msgid "You have just inserted a Picture CD."
-msgstr "Du har just matat in en Picture CD."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:731
-msgid "You have just inserted a medium with digital photos."
-msgstr "Du har just matat in ett media med digitalfoton."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:733
-msgid "You have just inserted a digital audio player."
-msgstr "Du har just matat in en digital ljudspelare."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:735
-msgid ""
-"You have just inserted a medium with software intended to be automatically "
-"started."
-msgstr ""
-"Du har just matat in ett media med programvara som är tänkt att startas "
-"automatiskt."
-
-#. fallback to generic greeting
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:738
-msgid "You have just inserted a medium."
-msgstr "Du har just matat in ett media."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:740
-msgid "Choose what application to launch."
-msgstr "Välj vilket program som ska startas."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:749
-#, c-format
-msgid ""
-"Select how to open \"%s\" and whether to perform this action in the future "
-"for other media of type \"%s\"."
-msgstr ""
-"Välj hur ”%s” ska öppnas och huruvida denna åtgärd ska utföras i framtiden "
-"för andra media av typen ”%s”."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:776
-msgid "_Always perform this action"
-msgstr "Genomför _alltid den här åtgärden"
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:786
-msgid "_OK"
-msgstr "_OK"
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:792
-msgid "_Eject"
-msgstr "Mata _ut"
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:797
-msgid "_Unmount"
-msgstr "Av_montera"
-
-#: gnome-flashback/libdesktop/gf-create-folder-dialog.c:102
-#: gnome-flashback/libdesktop/gf-icon-view.c:1320
-msgid "New Folder"
-msgstr "Ny mapp"
-
-#: gnome-flashback/libdesktop/gf-create-folder-dialog.c:112
-msgid "Create"
-msgstr "Skapa"
-
-#: gnome-flashback/libdesktop/gf-create-folder-dialog.c:140
-#: gnome-flashback/libdesktop/gf-rename-popover.c:117
-msgid "Folder name"
-msgstr "Mappnamn"
-
-#: gnome-flashback/libdesktop/gf-home-icon.c:45
-msgid "Home"
-msgstr "Hem"
-
-#: gnome-flashback/libdesktop/gf-icon.c:508
-msgid "Open"
-msgstr "Öppna"
-
-#: gnome-flashback/libdesktop/gf-icon.c:544
-msgid "Move to Trash"
-msgstr "Flytta till papperskorgen"
-
-#: gnome-flashback/libdesktop/gf-icon.c:564
-msgid "Rename..."
-msgstr "Byt namn…"
-
-#: gnome-flashback/libdesktop/gf-icon.c:587
-msgid "Empty Trash"
-msgstr "Töm papperskorgen"
-
-#: gnome-flashback/libdesktop/gf-icon.c:601
-msgid "Properties"
-msgstr "Egenskaper"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:1096
-msgid "Auto arrange icons"
-msgstr "Ordna ikoner automatiskt"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:1100
-msgid "Align icons to grid"
-msgstr "Justera ikoner till rutnät"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:1104
-msgctxt "Free placement of icons"
-msgid "Free"
-msgstr "Fri"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:1224
-msgid "Name"
-msgstr "Namn"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:1228
-msgid "Date modified"
-msgstr "Ändringsdatum"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:1232
-msgid "Size"
-msgstr "Storlek"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:1348
-msgid "Change Background"
-msgstr "Ändra bakgrund"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:1356
-msgid "Display Settings"
-msgstr "Skärminställningar"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:1368
-msgid "Open Terminal"
-msgstr "Öppna terminal"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3215
-msgid "Folder names cannot contain “/”."
-msgstr "Mappnamn kan inte innehålla ”/”."
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3217
-msgid "File names cannot contain “/”."
-msgstr "Filnamn kan inte innehålla ”/”."
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3224
-msgid "A folder cannot be called “.”."
-msgstr "En mapp kan inte kallas ”.”."
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3226
-msgid "A file cannot be called “.”."
-msgstr "En fil kan inte kallas ”.”."
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3233
-msgid "A folder cannot be called “..”."
-msgstr "En mapp kan inte kallas ”..”."
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3235
-msgid "A file cannot be called “..”."
-msgstr "En fil kan inte kallas ”..”."
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3251
-msgid "A folder with that name already exists."
-msgstr "Det finns redan en mapp med det namnet."
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3253
-msgid "A file with that name already exists."
-msgstr "Det finns redan en fil med det namnet."
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3264
-msgid "Folders with “.” at the beginning of their name are hidden."
-msgstr "Mappar med ”.” i början på sitt namn är dolda."
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3266
-msgid "Files with “.” at the beginning of their name are hidden."
-msgstr "Filer med ”.” i början på sitt namn är dolda."
-
-#: gnome-flashback/libdesktop/gf-rename-popover.c:117
-msgid "File name"
-msgstr "Filnamn"
-
-#: gnome-flashback/libdesktop/gf-rename-popover.c:254
-msgid "Rename"
-msgstr "Byt namn"
-
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:514
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:750
-msgid "Log Out"
-msgstr "Logga ut"
-
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:518
-msgid "Click Log Out to quit these applications and log out of the system."
-msgstr ""
-"Klicka Logga ut för att avsluta dessa program och logga ut ur systemet."
-
 #: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:526
 #, c-format
 msgid "%s will be logged out automatically in %d second."
 msgid_plural "%s will be logged out automatically in %d seconds."
 msgstr[0] "%s kommer loggas ut automatiskt om %d sekund."
 msgstr[1] "%s kommer loggas ut automatiskt om %d sekunder."
-
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:537
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:754
-msgid "Power Off"
-msgstr "Stäng av"
-
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:540
-msgid "Click Power Off to quit these applications and power off the system."
-msgstr "Klicka Stäng av för att avsluta dessa program och stänga av systemet."
 
 #: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:542
 #, c-format
@@ -1046,26 +571,12 @@ msgid_plural "The system will power off automatically in %d seconds."
 msgstr[0] "Systemet kommer att stängas av automatiskt om %d sekund."
 msgstr[1] "Systemet kommer att stängas av automatiskt om %d sekunder."
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:549
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:758
-msgid "Restart"
-msgstr "Starta om"
-
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:552
-msgid "Click Restart to quit these applications and restart the system."
-msgstr "Klicka Starta om för att avsluta dessa program och starta om systemet."
-
 #: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:554
 #, c-format
 msgid "The system will restart automatically in %d second."
 msgid_plural "The system will restart automatically in %d seconds."
 msgstr[0] "Systemet kommer att starta om automatiskt om %d sekund."
 msgstr[1] "Systemet kommer att starta om automatiskt om %d sekunder."
-
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:561
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:762
-msgid "Hibernate"
-msgstr "Viloläge"
 
 #: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:562
 #, c-format
@@ -1075,11 +586,6 @@ msgstr[0] "Systemet kommer automatiskt att försättas i viloläge om %d sekund.
 msgstr[1] ""
 "Systemet kommer automatiskt att försättas i viloläge om %d sekunder."
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:569
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:766
-msgid "Suspend"
-msgstr "Vänteläge"
-
 #: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:570
 #, c-format
 msgid "The system will suspend automatically in %d second."
@@ -1087,11 +593,6 @@ msgid_plural "The system will suspend automatically in %d seconds."
 msgstr[0] "Systemet kommer automatiskt att försättas i vänteläge om %d sekund."
 msgstr[1] ""
 "Systemet kommer automatiskt att försättas i vänteläge om %d sekunder."
-
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:577
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:770
-msgid "Hybrid Sleep"
-msgstr "Hybridvila"
 
 #: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:578
 #, c-format
@@ -1114,88 +615,17 @@ msgstr ""
 "Väntar på att dessa program ska bli klara. Att avbryta dem kan leda till "
 "dataförlust."
 
+#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.ui:111
+msgid "Cancel"
+msgstr "Avbryt"
+
 #: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.ui:125
 msgid "Lock Screen"
 msgstr "Lås skärm"
 
-#: gnome-flashback/libnotifications/gf-bubble.c:549
-#: gnome-flashback/libnotifications/gf-bubble.c:553
-#: gnome-flashback/libnotifications/nd-notification-box.c:320
-#: gnome-flashback/libnotifications/nd-notification-box.c:322
-msgid "Closes the notification."
-msgstr "Stänger avisering."
-
-#: gnome-flashback/libnotifications/gf-bubble.c:573
-#: gnome-flashback/libnotifications/gf-bubble.c:604
-#: gnome-flashback/libnotifications/nd-notification-box.c:338
-msgid "Notification summary text."
-msgstr "Sammanfattning av aviseringstext."
-
-#: gnome-flashback/libnotifications/gf-bubble.c:623
-msgid "Notification"
-msgstr "Avisering"
-
-#: gnome-flashback/libnotifications/nd-daemon.c:98
-msgid "Invalid notification identifier"
-msgstr "Ogiltig aviseringsidentifierare"
-
-#: gnome-flashback/libnotifications/nd-notification-box.c:358
-msgid "Notification body text."
-msgstr "Huvudtext för avisering."
-
-#: gnome-flashback/libnotifications/nd-queue.c:428
-msgid "Clear all notifications"
-msgstr "Rensa alla aviseringar"
-
-#: gnome-flashback/libnotifications/nd-queue.c:846
-msgid "Notifications"
-msgstr "Aviseringar"
-
-#: gnome-flashback/libscreensaver/gf-auth.c:432
-msgid "Your account was given a time limit that has now passed."
-msgstr "Ditt konto gavs en tidsgräns som nu har passerats."
-
-#: gnome-flashback/libscreensaver/gf-auth.c:436
-msgid "Sorry, that didn’t work. Please try again."
-msgstr "Tyvärr, det fungerade inte. Försök igen."
-
-#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:177
-msgid "Failed to switch to greeter!"
-msgstr "Misslyckades med att växla till hälsare!"
-
-#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:251
-msgid "Time has expired."
-msgstr "Tiden har gått ut."
-
-#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:467
-msgid "Checking…"
-msgstr "Kontrollerar…"
-
-#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:492
-msgid "S_witch User…"
-msgstr "_Växla användare…"
-
-#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:501
-msgid "_Unlock"
-msgstr "Lås _upp"
-
-#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:712
-msgid "You have the Caps Lock key on."
-msgstr "Du har tangenten Caps Lock på."
-
-#: gnome-flashback/libscreenshot/gf-screenshot.c:279
-msgid "Screenshot taken"
-msgstr "Skärmbild tagen"
-
-#. translators:
-#. * The device has been disabled
-#: gvc/gvc/gvc-mixer-control.c:1908
-msgid "Disabled"
-msgstr "Inaktiverad"
-
 #. translators:
 #. * The number of sound outputs on a particular device
-#: gvc/gvc/gvc-mixer-control.c:1915
+#: gvc/gvc/gvc-mixer-control.c:1917
 #, c-format
 msgid "%u Output"
 msgid_plural "%u Outputs"
@@ -1204,40 +634,12 @@ msgstr[1] "%u utgångar"
 
 #. translators:
 #. * The number of sound inputs on a particular device
-#: gvc/gvc/gvc-mixer-control.c:1925
+#: gvc/gvc/gvc-mixer-control.c:1927
 #, c-format
 msgid "%u Input"
 msgid_plural "%u Inputs"
 msgstr[0] "%u ingång"
 msgstr[1] "%u ingångar"
-
-#: gvc/gvc/gvc-mixer-control.c:2882
-msgid "System Sounds"
-msgstr "Systemljud"
-
-#: system-indicators/si-bluetooth.c:122
-msgid "Send Files"
-msgstr "Skicka filer"
-
-#: system-indicators/si-bluetooth.c:260
-msgid "Disconnect"
-msgstr "Koppla från"
-
-#: system-indicators/si-bluetooth.c:273
-msgid "Connect"
-msgstr "Anslut"
-
-#: system-indicators/si-bluetooth.c:288
-msgid "Keyboard Settings"
-msgstr "Tangentbordsinställningar"
-
-#: system-indicators/si-bluetooth.c:296
-msgid "Mouse & Touchpad Settings"
-msgstr "Inställningar för mus & styrplatta"
-
-#: system-indicators/si-bluetooth.c:344
-msgid "Bluetooth Settings"
-msgstr "Bluetooth-inställningar"
 
 #: system-indicators/si-bluetooth.c:438
 #, c-format
@@ -1246,95 +648,554 @@ msgid_plural "%d Connected Devices"
 msgstr[0] "%d ansluten enhet"
 msgstr[1] "%d anslutna enheter"
 
-#: system-indicators/si-bluetooth.c:445
-msgid "Not Connected"
-msgstr "Ej ansluten"
+#~ msgid "Built-in display"
+#~ msgstr "Inbyggd skärm"
 
-#: system-indicators/si-desktop-menu-item.c:80
+#~ msgid "Unknown"
+#~ msgstr "Okänd"
+
+#~ msgid "Unknown Display"
+#~ msgstr "Okänd skärm"
+
 #, c-format
-msgid "Desktop file “%s” is missing!"
-msgstr "Skrivbordsfilen ”%s” saknas!"
+#~ msgctxt ""
+#~ "This is a monitor vendor name, followed by a size in inches, like 'Dell "
+#~ "15\"'"
+#~ msgid "%s %s"
+#~ msgstr "%s %s"
 
-#: system-indicators/si-desktop-menu-item.c:95
 #, c-format
-msgid "Failed to start “%s”: %s"
-msgstr "Misslyckades med att starta ”%s”: %s"
+#~ msgctxt ""
+#~ "This is a monitor vendor name followed by product/model name where size "
+#~ "in inches could not be calculated, e.g. Dell U2414H"
+#~ msgid "%s %s"
+#~ msgstr "%s %s"
 
-#: system-indicators/si-input-sources.c:859
-msgid "Show Keyboard Layout"
-msgstr "Visa tangentbordslayout"
+#, no-c-format
+#~ msgid "Screencast from %d %t.webm"
+#~ msgstr "Skärminspelning från %d %t.webm"
 
-#: system-indicators/si-input-sources.c:890
-msgid "Region & Language Settings"
-msgstr "Re­gion- & språkinställningar"
-
-#: system-indicators/si-module.c:33
-msgid "System Indicators"
-msgstr "Systemindikatorer"
-
-#: system-indicators/si-module.c:34
-msgid "This applet contains system indicators"
-msgstr "Detta miniprogram innehåller systemindikatorer"
-
-#: system-indicators/si-power.c:63
-msgid "UPS"
-msgstr "UPS"
-
-#: system-indicators/si-power.c:65
-msgid "Battery"
-msgstr "Batteri"
-
-#: system-indicators/si-power.c:81
-msgid "Fully Charged"
-msgstr "Fulladdat"
-
-#: system-indicators/si-power.c:83
-msgid "Empty"
-msgstr "Tomt"
-
-#: system-indicators/si-power.c:89
-msgid "Not Charging"
-msgstr "Laddar inte"
-
-#: system-indicators/si-power.c:91 system-indicators/si-power.c:96
-msgid "Estimating..."
-msgstr "Uppskattar…"
-
-#. Translators: this is <hours>:<minutes> Remaining (<percentage>)
-#: system-indicators/si-power.c:105
 #, c-format
-msgid "%.0f:%02.0f Remaining (%.0f%%)"
-msgstr "%.0f:%02.0f återstår (%.0f%%)"
+#~ msgid "Screenshot from %s"
+#~ msgstr "Skärmbild från %s"
 
-#. Translators: this is <hours>:<minutes> Until Full (<percentage>)
-#: system-indicators/si-power.c:112
 #, c-format
-msgid "%.0f:%02.0f Until Full (%.0f%%)"
-msgstr "%.0f:%02.0f tills fullt (%.0f%%)"
+#~ msgid "_Password for %s:"
+#~ msgstr "_Lösenord för %s:"
 
-#: system-indicators/si-power.c:146
-msgid "Power Settings"
-msgstr "Ströminställningar"
+#~ msgid "Your authentication attempt was unsuccessful. Please try again."
+#~ msgstr "Ditt autentiseringsförsök misslyckades. Prova igen."
 
-#: system-indicators/si-volume.c:245
-msgid "Volume changed"
-msgstr "Volymen ändrades"
+#~ msgid "Authentication dialog was dismissed by the user"
+#~ msgstr "Autentiseringsdialogen avfärdades av användaren"
 
-#: system-indicators/si-volume.c:266
-msgid "Mute"
-msgstr "Tysta"
+#~ msgid ""
+#~ "An application is attempting to perform an action that requires "
+#~ "privileges. Authentication as one of the users below is required to "
+#~ "perform this action."
+#~ msgstr ""
+#~ "Ett program försöker att utföra en åtgärd som kräver privilegier. För att "
+#~ "utföra denna åtgärd krävs autentisering som en av användarna nedan."
 
-#: system-indicators/si-volume.c:523
-msgid "Input"
-msgstr "Inmatning"
+#~ msgid ""
+#~ "An application is attempting to perform an action that requires "
+#~ "privileges. Authentication as the super user is required to perform this "
+#~ "action."
+#~ msgstr ""
+#~ "Ett program försöker att utföra en åtgärd som kräver privilegier. För att "
+#~ "utföra denna åtgärd krävs autentisering som superanvändaren."
 
-#: system-indicators/si-volume.c:523
-msgid "Output"
-msgstr "Utmatning"
+#~ msgid "Select user..."
+#~ msgstr "Välj användare…"
 
-#: system-indicators/si-volume.c:534
-msgid "Muted"
-msgstr "Tystad"
+#, c-format
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "Action:"
+#~ msgstr "Åtgärd:"
+
+#, c-format
+#~ msgid "Click to edit %s"
+#~ msgstr "Klicka för att redigera %s"
+
+#~ msgid "Vendor:"
+#~ msgstr "Tillverkare:"
+
+#, c-format
+#~ msgid "Click to open %s"
+#~ msgstr "Klicka för att öppna %s"
+
+#~ msgid "Clipboard (GNOME Flashback)"
+#~ msgstr "Urklipp (GNOME Flashback)"
+
+#~ msgid "Idle Monitor (GNOME Flashback)"
+#~ msgstr "Inaktivitetsövervakare (GNOME Flashback)"
+
+#~ msgid "MediaKeys (GNOME Flashback)"
+#~ msgstr "Mediatangenter (GNOME Flashback)"
+
+#~ msgid "Polkit (GNOME Flashback)"
+#~ msgstr "Polkit (GNOME Flashback)"
+
+#~ msgid "Clipboard"
+#~ msgstr "Urklipp"
+
+#~ msgid "Idle monitor"
+#~ msgstr "Inaktivitetsövervakare"
+
+#~ msgid ""
+#~ "If set to true, then GNOME Flashback application will be used for user "
+#~ "activity monitoring."
+#~ msgstr ""
+#~ "Om satt till true (sant) kommer programmet GNOME Flashback att användas "
+#~ "för övervakning av användaraktivitet."
+
+#~ msgid "Authentication agent for polkit"
+#~ msgstr "Auktoriseringsagent för polkit"
+
+#~ msgid ""
+#~ "This is the same authentication agent that was provided by PolicyKit-"
+#~ "gnome."
+#~ msgstr ""
+#~ "Det här är samma auktoriseringsagent som tillhandahölls av PolicyKit-"
+#~ "gnome."
+
+#~ msgid "Replace a currently running application"
+#~ msgstr "Ersätt ett för närvarande körande program"
+
+#~ msgid "Print version and exit"
+#~ msgstr "Skriv ut version och avsluta"
+
+#~ msgid "Slow Keys Turned On"
+#~ msgstr "Tröga tangenter aktiverade"
+
+#~ msgid "Slow Keys Turned Off"
+#~ msgstr "Tröga tangenter inaktiverade"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds. This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Du höll precis ned skifttangenten under 8 sekunder. Detta är genvägen för "
+#~ "funktionen tröga tangenter, som påverkar hur ditt tangentbord fungerar."
+
+#~ msgid "Turn Off"
+#~ msgstr "Slå av"
+
+#~ msgid "Turn On"
+#~ msgstr "Slå på"
+
+#~ msgid "Leave On"
+#~ msgstr "Lämna påslagen"
+
+#~ msgid "Leave Off"
+#~ msgstr "Lämna avstängd"
+
+#~ msgid "Universal Access"
+#~ msgstr "Hjälpmedel"
+
+#~ msgid "Sticky Keys Turned On"
+#~ msgstr "Klistriga tangenter aktiverade"
+
+#~ msgid "Sticky Keys Turned Off"
+#~ msgstr "Klistriga tangenter inaktiverade"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Du tryckte precis ned skifttangenten 5 gånger i följd. Detta är genvägen "
+#~ "för funktionen klistriga tangenter, som påverkar hur ditt tangentbord "
+#~ "fungerar."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row. This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "Du tryckte precis ned två tangenter samtidigt, eller tryckte ned "
+#~ "skifttangenten 5 gånger i följd. Detta stänger av funktionen klistriga "
+#~ "tangenter, som påverkar hur ditt tangentbord fungerar."
+
+#~ msgid "Headphones"
+#~ msgstr "Hörlurar"
+
+#~ msgid "Headset"
+#~ msgstr "Mikrofonlurar"
+
+#~ msgid "Microphone"
+#~ msgstr "Mikrofon"
+
+#, c-format
+#~ msgid "Failed to start Sound Preferences: %s"
+#~ msgstr "Misslyckades med att starta ljudinställningar: %s"
+
+#~ msgid "What kind of device did you plug in?"
+#~ msgstr "Vad för sorts enhet kopplade du in?"
+
+#~ msgid "Sound Settings"
+#~ msgstr "Ljudinställningar"
+
+#~ msgid "Unknown Audio Device"
+#~ msgstr "Okänd ljudenhet"
+
+#, c-format
+#~ msgid "Unable to mount %s"
+#~ msgstr "Kan inte montera %s"
+
+#, c-format
+#~ msgid "Unable to open a folder for %s"
+#~ msgstr "Kan inte öppna en mapp för %s"
+
+#~ msgid "Ask what to do"
+#~ msgstr "Fråga vad som ska göras"
+
+#~ msgid "Do Nothing"
+#~ msgstr "Gör ingenting"
+
+#~ msgid "Open Folder"
+#~ msgstr "Öppna mapp"
+
+#, c-format
+#~ msgid "Unable to eject %p"
+#~ msgstr "Kan inte mata ut %p"
+
+#, c-format
+#~ msgid "Unable to unmount %p"
+#~ msgstr "Kan inte avmontera %p"
+
+#~ msgid "You have just inserted an Audio CD."
+#~ msgstr "Du har just matat in en ljud-cd."
+
+#~ msgid "You have just inserted an Audio DVD."
+#~ msgstr "Du har just matat in en ljud-dvd."
+
+#~ msgid "You have just inserted a Video DVD."
+#~ msgstr "Du har just matat in en video-dvd."
+
+#~ msgid "You have just inserted a Video CD."
+#~ msgstr "Du har just matat in en video-cd."
+
+#~ msgid "You have just inserted a Super Video CD."
+#~ msgstr "Du har just matat in en Super Video-cd."
+
+#~ msgid "You have just inserted a blank CD."
+#~ msgstr "Du har just matat in en blank cd."
+
+#~ msgid "You have just inserted a blank DVD."
+#~ msgstr "Du har just matat in en blank dvd."
+
+#~ msgid "You have just inserted a blank Blu-Ray disc."
+#~ msgstr "Du har just matat in en blank Blu-Ray-skiva."
+
+#~ msgid "You have just inserted a blank HD DVD."
+#~ msgstr "Du har just matat in en blank hd-dvd."
+
+#~ msgid "You have just inserted a Photo CD."
+#~ msgstr "Du har just matat in en Photo CD."
+
+#~ msgid "You have just inserted a Picture CD."
+#~ msgstr "Du har just matat in en Picture CD."
+
+#~ msgid "You have just inserted a medium with digital photos."
+#~ msgstr "Du har just matat in ett media med digitalfoton."
+
+#~ msgid "You have just inserted a digital audio player."
+#~ msgstr "Du har just matat in en digital ljudspelare."
+
+#~ msgid ""
+#~ "You have just inserted a medium with software intended to be "
+#~ "automatically started."
+#~ msgstr ""
+#~ "Du har just matat in ett media med programvara som är tänkt att startas "
+#~ "automatiskt."
+
+#~ msgid "You have just inserted a medium."
+#~ msgstr "Du har just matat in ett media."
+
+#~ msgid "Choose what application to launch."
+#~ msgstr "Välj vilket program som ska startas."
+
+#, c-format
+#~ msgid ""
+#~ "Select how to open \"%s\" and whether to perform this action in the "
+#~ "future for other media of type \"%s\"."
+#~ msgstr ""
+#~ "Välj hur ”%s” ska öppnas och huruvida denna åtgärd ska utföras i "
+#~ "framtiden för andra media av typen ”%s”."
+
+#~ msgid "_Always perform this action"
+#~ msgstr "Genomför _alltid den här åtgärden"
+
+#~ msgid "_OK"
+#~ msgstr "_OK"
+
+#~ msgid "_Eject"
+#~ msgstr "Mata _ut"
+
+#~ msgid "_Unmount"
+#~ msgstr "Av_montera"
+
+#~ msgid "New Folder"
+#~ msgstr "Ny mapp"
+
+#~ msgid "Create"
+#~ msgstr "Skapa"
+
+#~ msgid "Folder name"
+#~ msgstr "Mappnamn"
+
+#~ msgid "Home"
+#~ msgstr "Hem"
+
+#~ msgid "Open"
+#~ msgstr "Öppna"
+
+#~ msgid "Move to Trash"
+#~ msgstr "Flytta till papperskorgen"
+
+#~ msgid "Rename..."
+#~ msgstr "Byt namn…"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Töm papperskorgen"
+
+#~ msgid "Properties"
+#~ msgstr "Egenskaper"
+
+#~ msgid "Auto arrange icons"
+#~ msgstr "Ordna ikoner automatiskt"
+
+#~ msgid "Align icons to grid"
+#~ msgstr "Justera ikoner till rutnät"
+
+#~ msgctxt "Free placement of icons"
+#~ msgid "Free"
+#~ msgstr "Fri"
+
+#~ msgid "Name"
+#~ msgstr "Namn"
+
+#~ msgid "Date modified"
+#~ msgstr "Ändringsdatum"
+
+#~ msgid "Size"
+#~ msgstr "Storlek"
+
+#~ msgid "Change Background"
+#~ msgstr "Ändra bakgrund"
+
+#~ msgid "Display Settings"
+#~ msgstr "Skärminställningar"
+
+#~ msgid "Open Terminal"
+#~ msgstr "Öppna terminal"
+
+#~ msgid "Folder names cannot contain “/”."
+#~ msgstr "Mappnamn kan inte innehålla ”/”."
+
+#~ msgid "File names cannot contain “/”."
+#~ msgstr "Filnamn kan inte innehålla ”/”."
+
+#~ msgid "A folder cannot be called “.”."
+#~ msgstr "En mapp kan inte kallas ”.”."
+
+#~ msgid "A file cannot be called “.”."
+#~ msgstr "En fil kan inte kallas ”.”."
+
+#~ msgid "A folder cannot be called “..”."
+#~ msgstr "En mapp kan inte kallas ”..”."
+
+#~ msgid "A file cannot be called “..”."
+#~ msgstr "En fil kan inte kallas ”..”."
+
+#~ msgid "A folder with that name already exists."
+#~ msgstr "Det finns redan en mapp med det namnet."
+
+#~ msgid "A file with that name already exists."
+#~ msgstr "Det finns redan en fil med det namnet."
+
+#~ msgid "Folders with “.” at the beginning of their name are hidden."
+#~ msgstr "Mappar med ”.” i början på sitt namn är dolda."
+
+#~ msgid "Files with “.” at the beginning of their name are hidden."
+#~ msgstr "Filer med ”.” i början på sitt namn är dolda."
+
+#~ msgid "File name"
+#~ msgstr "Filnamn"
+
+#~ msgid "Rename"
+#~ msgstr "Byt namn"
+
+#~ msgid "Log Out"
+#~ msgstr "Logga ut"
+
+#~ msgid "Click Log Out to quit these applications and log out of the system."
+#~ msgstr ""
+#~ "Klicka Logga ut för att avsluta dessa program och logga ut ur systemet."
+
+#~ msgid "Power Off"
+#~ msgstr "Stäng av"
+
+#~ msgid "Click Power Off to quit these applications and power off the system."
+#~ msgstr ""
+#~ "Klicka Stäng av för att avsluta dessa program och stänga av systemet."
+
+#~ msgid "Restart"
+#~ msgstr "Starta om"
+
+#~ msgid "Click Restart to quit these applications and restart the system."
+#~ msgstr ""
+#~ "Klicka Starta om för att avsluta dessa program och starta om systemet."
+
+#~ msgid "Hibernate"
+#~ msgstr "Viloläge"
+
+#~ msgid "Suspend"
+#~ msgstr "Vänteläge"
+
+#~ msgid "Hybrid Sleep"
+#~ msgstr "Hybridvila"
+
+#~ msgid "Closes the notification."
+#~ msgstr "Stänger avisering."
+
+#~ msgid "Notification summary text."
+#~ msgstr "Sammanfattning av aviseringstext."
+
+#~ msgid "Notification"
+#~ msgstr "Avisering"
+
+#~ msgid "Invalid notification identifier"
+#~ msgstr "Ogiltig aviseringsidentifierare"
+
+#~ msgid "Notification body text."
+#~ msgstr "Huvudtext för avisering."
+
+#~ msgid "Clear all notifications"
+#~ msgstr "Rensa alla aviseringar"
+
+#~ msgid "Notifications"
+#~ msgstr "Aviseringar"
+
+#~ msgid "Your account was given a time limit that has now passed."
+#~ msgstr "Ditt konto gavs en tidsgräns som nu har passerats."
+
+#~ msgid "Sorry, that didn’t work. Please try again."
+#~ msgstr "Tyvärr, det fungerade inte. Försök igen."
+
+#~ msgid "Failed to switch to greeter!"
+#~ msgstr "Misslyckades med att växla till hälsare!"
+
+#~ msgid "Time has expired."
+#~ msgstr "Tiden har gått ut."
+
+#~ msgid "Checking…"
+#~ msgstr "Kontrollerar…"
+
+#~ msgid "S_witch User…"
+#~ msgstr "_Växla användare…"
+
+#~ msgid "_Unlock"
+#~ msgstr "Lås _upp"
+
+#~ msgid "You have the Caps Lock key on."
+#~ msgstr "Du har tangenten Caps Lock på."
+
+#~ msgid "Screenshot taken"
+#~ msgstr "Skärmbild tagen"
+
+#~ msgid "Disabled"
+#~ msgstr "Inaktiverad"
+
+#~ msgid "System Sounds"
+#~ msgstr "Systemljud"
+
+#~ msgid "Send Files"
+#~ msgstr "Skicka filer"
+
+#~ msgid "Disconnect"
+#~ msgstr "Koppla från"
+
+#~ msgid "Connect"
+#~ msgstr "Anslut"
+
+#~ msgid "Keyboard Settings"
+#~ msgstr "Tangentbordsinställningar"
+
+#~ msgid "Mouse & Touchpad Settings"
+#~ msgstr "Inställningar för mus & styrplatta"
+
+#~ msgid "Bluetooth Settings"
+#~ msgstr "Bluetooth-inställningar"
+
+#~ msgid "Not Connected"
+#~ msgstr "Ej ansluten"
+
+#, c-format
+#~ msgid "Desktop file “%s” is missing!"
+#~ msgstr "Skrivbordsfilen ”%s” saknas!"
+
+#, c-format
+#~ msgid "Failed to start “%s”: %s"
+#~ msgstr "Misslyckades med att starta ”%s”: %s"
+
+#~ msgid "Show Keyboard Layout"
+#~ msgstr "Visa tangentbordslayout"
+
+#~ msgid "Region & Language Settings"
+#~ msgstr "Re­gion- & språkinställningar"
+
+#~ msgid "System Indicators"
+#~ msgstr "Systemindikatorer"
+
+#~ msgid "This applet contains system indicators"
+#~ msgstr "Detta miniprogram innehåller systemindikatorer"
+
+#~ msgid "UPS"
+#~ msgstr "UPS"
+
+#~ msgid "Battery"
+#~ msgstr "Batteri"
+
+#~ msgid "Fully Charged"
+#~ msgstr "Fulladdat"
+
+#~ msgid "Empty"
+#~ msgstr "Tomt"
+
+#~ msgid "Not Charging"
+#~ msgstr "Laddar inte"
+
+#~ msgid "Estimating..."
+#~ msgstr "Uppskattar…"
+
+#, c-format
+#~ msgid "%.0f:%02.0f Remaining (%.0f%%)"
+#~ msgstr "%.0f:%02.0f återstår (%.0f%%)"
+
+#, c-format
+#~ msgid "%.0f:%02.0f Until Full (%.0f%%)"
+#~ msgstr "%.0f:%02.0f tills fullt (%.0f%%)"
+
+#~ msgid "Power Settings"
+#~ msgstr "Ströminställningar"
+
+#~ msgid "Volume changed"
+#~ msgstr "Volymen ändrades"
+
+#~ msgid "Mute"
+#~ msgstr "Tysta"
+
+#~ msgid "Input"
+#~ msgstr "Inmatning"
+
+#~ msgid "Output"
+#~ msgstr "Utmatning"
+
+#~ msgid "Muted"
+#~ msgstr "Tystad"
 
 #~ msgid "Exceeded maximum number of notifications"
 #~ msgstr "Överskred högsta antal aviseringar"
