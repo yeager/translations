@@ -8,5 +8,5 @@
 - Validering: `msgfmt --check`; Rust-escape och sammankopplingsskiljetecken kontrollerade.
 - Dokumenterade undantag: CMYK, sRGB och DCI är standardiserade färgrymdsbeteckningar.
 - Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
+- GNOME-inskick: inskickad 2026-11-23 via Damned Lies API med kommentaren `Granskad och klar`; uppladdningen och den sammanslagna filen är bekräftade i aktivitetsvyn (248/0/0).
 - Slutlig lokal status: 248 översatta, 0 fuzzy, 0 oöversatta.

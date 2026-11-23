@@ -5,4 +5,4 @@
 - Granskning: samtliga pluralsträngar är radgranskade. Svenska preteritumformer och måttenheten `byte` är korrekta; `%d` och `%lu` är bevarade exakt.
 - Ändringar: endast granskaruppgifterna i PO-huvudet har uppdaterats.
 - Validering: `msgfmt --check` och `l10n-lint --check --language sv` utan fel. `hunspell -d sv_SE` rapporterar `lu`, som är formatangivelsen i den bevarade platshållaren `%lu`.
-- GNOME-inskick: inget.
+- GNOME-inskick: inskickad 2026-11-23 via Damned Lies API med kommentaren `Granskad och allt ser bra ut`; API:t returnerade `{"result":"OK"}`. Ingen översättningssträng ändrades.

@@ -45,6 +45,16 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | sysprof | master | po | 9 |
 | glib | main | po | 22 |
 | gstreamer | main | po | 14 |
+| webkit | main | po | 1 |
+| loupe | main | po | 7 |
+
+## Kompletta granskningar utan ändrade översättningssträngar
+
+| Modul | Gren | Domän | Kommentar |
+|---|---|---|---|
+| libgtop | master | po | `Granskad och allt ser bra ut` |
+
+`gtk-vnc/master/po` är också komplett men har bara ändrad PO-metadata. Den skickades innan kommentarrutinen för sådana fall klargjordes och ingår därför inte i tabellen över ändrade översättningsposter.
 
 ## DL-blockerare
 
