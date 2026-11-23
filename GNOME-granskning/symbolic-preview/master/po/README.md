@@ -1,0 +1,19 @@
+# Symbolic Preview — master/po — svensk granskning
+
+- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/symbolic-preview/master/po/sv/>
+- Granskad: 2026-11-23
+- Aktuell POT: 63 aktiva strängar
+- Nya översättningar: 0
+- Korrigerade befintliga översättningar: 6
+
+## Ändringar och validering
+
+Granskningen förtydligar enstaka ikontexter, fönsterinställningar och
+sparplatser samt uppdaterar PO-rubriken med Daniel Nylander som senaste
+översättare.
+
+`msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` är godkända utan fel
+eller varningar. Informationsnotiserna gäller giltiga acceleratortangenter.
+
+Den granskade filen är komplett och fuzzy-fri. Ingen inskickning till GNOME
+har gjorts i detta steg.
