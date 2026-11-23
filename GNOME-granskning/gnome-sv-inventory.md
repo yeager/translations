@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 23:29 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 23:32 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -544,7 +544,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [papers](https://l10n.gnome.org/vertimus/papers/main/help/sv/) | main | 486 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [phosh](https://l10n.gnome.org/vertimus/phosh/main/po/sv/) | main | 331 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [phosh-mobile-settings](https://l10n.gnome.org/vertimus/phosh-mobile-settings/main/po/sv/) | main | 359 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [phosh-tour](https://l10n.gnome.org/vertimus/phosh-tour/main/po/sv/) | main | 48 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [phosh-tour](https://l10n.gnome.org/vertimus/phosh-tour/main/po/sv/) | main | 48 | 0 | 0 | Klar | X | 13 | Klar lokalt (2026-11-24): Hela 48-strängarskatalogen är radgranskad mot senaste POT. Tretton befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](phosh-tour/main/po/phosh-tour.main.sv.original.po), [granskad](phosh-tour/main/po/phosh-tour.main.sv.reviewed.po), [diff](phosh-tour/main/po/phosh-tour.main.sv.review.diff), [notering](phosh-tour/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [pika-backup](https://l10n.gnome.org/vertimus/pika-backup/main/po/sv/) | main | 595 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [pika-backup](https://l10n.gnome.org/vertimus/pika-backup/main/help/sv/) | main | 107 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [pitivi](https://l10n.gnome.org/vertimus/pitivi/master/po/sv/) | master | 547 | 0 | 0 | Klar |  | — | Ej granskad |
