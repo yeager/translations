@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:02 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:04 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -257,7 +257,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [evolution-mapi](https://l10n.gnome.org/module/evolution-mapi/) | master | 226 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [evolution-rss](https://l10n.gnome.org/module/evolution-rss/) | master | 225 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [extensions-web — GNOME Shell Extensions Repository](https://l10n.gnome.org/vertimus/extensions-web/master/po/sv/) | master | 143 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [eyedropper](https://l10n.gnome.org/vertimus/eyedropper/main/po/sv/) | main | 66 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [eyedropper](https://l10n.gnome.org/vertimus/eyedropper/main/po/sv/) | main | 66 | 0 | 0 | Klar | X | 5 | Klar lokalt (2026-11-23): Hela 66-strängarskatalogen är radgranskad mot senaste POT. Fem befintliga kvalitetsbrister är rättade, inklusive färgformatet HSV; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp, l10n-lint och hunspell-sv saknar fel eller anmärkningar. Ingen GNOME-inskickning har gjorts. [original](eyedropper/main/po/eyedropper.main.sv.original.po), [granskad](eyedropper/main/po/eyedropper.main.sv.reviewed.po), [diff](eyedropper/main/po/eyedropper.main.sv.review.diff), [notering](eyedropper/main/po/README.md) |
 | Dokumentation | Default (71% translated) | [file-roller](https://l10n.gnome.org/vertimus/file-roller/master/help/sv/) | master | 182 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [five-or-more](https://l10n.gnome.org/vertimus/five-or-more/main/po/sv/) | main | 72 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [five-or-more](https://l10n.gnome.org/vertimus/five-or-more/main/help/sv/) | main | 143 | 0 | 0 | Klar |  | — | Ej granskad |
