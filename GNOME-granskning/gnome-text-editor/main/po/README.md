@@ -6,4 +6,4 @@
 - Acceleratorer: inga `_ä`, `_å` eller `_ö`; acceleratorerna använder ASCII-bokstäver.
 - Validering: `msgfmt --check` och `l10n-lint --check --language sv` utan fel. Aktuell POT och granskad katalog har samma uppsättning aktiva nycklar; pluralformen för `%u` har kontrollerats separat.
 - Hunspell: tekniska identifierare och avsiktliga förkortningar är manuellt kontrollerade undantag, bland annat `GtkSourceView`, `NSURL`, `NULL`, `ILCreateFromPath`, `LF`, `CR`, `UTF-8`, `editorconfig` och kommandoflaggan `--ignore-session`. Fragment som uppstår när Hunspell delar acceleratorsträngar ignoreras.
-- GNOME-inskick: inget.
+- GNOME-inskick: uppladdad till Damned Lies 2026-11-23 efter reservation, med kommentaren `Granskad och klar` (`{"result":"OK"}).
