@@ -132,3 +132,11 @@ Den aktuella arkivbilden innehåller 75 556 nycklar och validerar konsekvent
 mot både genererad PO och TMX (75 557 segment). Därmed används inte längre den
 äldre ögonblicksbilden som gav historiska falska träffar i
 konsekvensanalysen.
+
+## OctoPrint: applikationssökväg
+
+OctoPrints identiska fält `Application path` hade skilda ordval i
+konfigurations- och omkonfigurationsflödet. Omkonfigurationsposten
+normaliserades från `Programsökväg` till `Applikationssökväg`, sparades och
+lästes tillbaka via Lokalise API. TMX-valideringen godkände därefter 4 062
+poster.
