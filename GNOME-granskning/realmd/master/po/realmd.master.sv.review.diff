@@ -1,0 +1,82 @@
+--- realmd.master.sv.original.po
++++ realmd.master.sv.reviewed.po
+@@ -11,8 +11,8 @@
+ "Project-Id-Version: realmd\n"
+ "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/realmd/realmd/-/issues\n"
+ "POT-Creation-Date: 2022-09-28 10:46+0200\n"
+-"PO-Revision-Date: 2017-09-23 19:12+0000\n"
+-"Last-Translator: Josef Andersson <josef.andersson@fripost.org>\n"
++"PO-Revision-Date: 2026-11-23 12:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish (http://www.transifex.com/freedesktop/realmd/language/"
+ "sv/)\n"
+ "Language: sv\n"
+@@ -94,7 +94,7 @@
+ 
+ #: service/realm-disco-mscldap.c:354 service/realm-disco-rootdse.c:480
+ msgid "Failed to setup LDAP connection"
+-msgstr ""
++msgstr "Misslyckades med att konfigurera LDAP-anslutning"
+ 
+ #: service/realm-example.c:82 service/realm-samba.c:293
+ #: service/realm-sssd-ad.c:362 service/realm-sssd-ipa.c:304
+@@ -297,10 +297,11 @@
+ msgstr "Argumentet computer-ou stöds ej vid anslutning till en IPA-domän."
+ 
+ #: service/realm-sssd-ipa.c:298
+-#, fuzzy
+ msgid ""
+ "The do-not-touch-config option is not supported when joining an IPA domain."
+-msgstr "Argumentet computer-ou stöds ej vid anslutning till en IPA-domän."
++msgstr ""
++"Alternativet do-not-touch-config stöds inte vid anslutning till en "
++"IPA-domän."
+ 
+ #: service/realm-sssd-ipa.c:466
+ msgid "Not currently joined to this realm"
+@@ -478,7 +479,7 @@
+ 
+ #: tools/realm-discover.c:188 tools/realm-join.c:318 tools/realm-leave.c:276
+ msgid "Use ldaps to connect to LDAP"
+-msgstr ""
++msgstr "Använd LDAPS för att ansluta till LDAP"
+ 
+ #: tools/realm-discover.c:277
+ msgid "Show all realms"
+@@ -501,9 +502,8 @@
+ msgstr "Stäng av automatisk id-mappning"
+ 
+ #: tools/realm-join.c:298
+-#, fuzzy
+ msgid "Use specific computer name instead of hostname"
+-msgstr "Använd specifik klientprogramvara"
++msgstr "Använd ett specifikt datornamn i stället för värdnamn"
+ 
+ #: tools/realm-join.c:300
+ msgid "Computer OU DN to join"
+@@ -518,14 +518,12 @@
+ msgstr "Anslut med ett förinställt engångslösenord"
+ 
+ #: tools/realm-join.c:308
+-#, fuzzy
+ msgid "Use specific operation system name"
+-msgstr "Använd specifik klientprogramvara"
++msgstr "Använd ett specifikt operativsystemsnamn"
+ 
+ #: tools/realm-join.c:310
+-#, fuzzy
+ msgid "Use specific operation system version"
+-msgstr "Använd specifik serverprogramvara"
++msgstr "Använd en specifik operativsystemsversion"
+ 
+ #: tools/realm-join.c:314
+ msgid "User name to use for enrollment"
+@@ -537,7 +535,7 @@
+ 
+ #: tools/realm-join.c:320
+ msgid "Do not change client configuration"
+-msgstr ""
++msgstr "Ändra inte klientkonfigurationen"
+ 
+ #: tools/realm-join.c:340
+ msgid "Specify one realm to join"
