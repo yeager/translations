@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 10:40 UTC. Endast `main` och `master` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 10:43 UTC. Endast `main` och `master` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -11,7 +11,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
 Varje rad visar GNOME:s aktuella externa status. **Klar** visar `X` för lokalt färdiggranskade kataloger. **Ändringar** är antalet ändrade aktiva PO-poster i den arkiverade granskningen; externa siffror ändras inte förrän en eventuell framtida GNOME-inskickning.
 
-## Granskade kataloger (39)
+## Granskade kataloger (40)
 
 | Typ | Kategori | Modul | Gren | Översatta | Fuzzy | Oöversatta | GNOME-status | Klar | Ändringar | Lokal granskning |
 |---|---|---|---|---:|---:|---:|---|:---:|---:|---|
@@ -52,10 +52,11 @@ Varje rad visar GNOME:s aktuella externa status. **Klar** visar `X` för lokalt 
 | Gränssnitt | Default (99% translated) | [PipeWire](https://l10n.gnome.org/vertimus/pipewire/master/po/sv/) | master | 125 | 2 | 2 | Behöver arbete | X | 2 | Klar lokalt (2026-11-23): 127 aktiva strängar är radgranskade lokalt; 0 oöversatta och 0 fuzzy. En kvarlämnad kommandoradstext är översatt; msgfmt och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](pipewire/master/po/pipewire.master.sv.original.po), [granskad](pipewire/master/po/pipewire.master.sv.reviewed.po), [diff](pipewire/master/po/pipewire.master.sv.review.diff), [notering](pipewire/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [goffice](https://l10n.gnome.org/vertimus/goffice/master/po/sv/) | master | 1823 | 2 | 0 | Behöver arbete | X | 13 | Klar lokalt (2026-11-23): Aktuell Git-katalog har 2 126 aktiva strängar, 0 oöversatta och 0 fuzzy. Två nordiska acceleratorer är rättade; msgfmt och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](goffice/master/po/goffice.master.sv.original.po), [granskad](goffice/master/po/goffice.master.sv.reviewed.po), [diff](goffice/master/po/goffice.master.sv.review.diff), [notering](goffice/master/po/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/gimp/sv/) | master | 382 | 1 | 0 | Behöver arbete | X | 1 | Klar lokalt (2026-11-23): 383 aktiva strängar, 0 oöversatta och 0 fuzzy. GIMP-akronymens svenska förklaring har rättad markup; validerad utan lint-fel. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/gimp/gimp-help.master.gimp.sv.original.po), [granskad](gimp-help/master/gimp/gimp-help.master.gimp.sv.reviewed.po), [diff](gimp-help/master/gimp/gimp-help.master.gimp.sv.review.diff), [notering](gimp-help/master/gimp/README.md) |
+| Dokumentation | Default (71% translated) | [evolution](https://l10n.gnome.org/vertimus/evolution/master/help/sv/) | master | 2068 | 0 | 0 | Klar |  | 1 | Validering återstår (2026-11-23): En blockerande DocBook-taggrisk i 2 068 aktiva strängar är rättad; katalogen är komplett men hela den befintliga dokumentationen återstår att radgranska. msgfmt och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](evolution/master/help/evolution.master.help.sv.original.po), [granskad](evolution/master/help/evolution.master.help.sv.reviewed.po), [diff](evolution/master/help/evolution.master.help.sv.review.diff), [notering](evolution/master/help/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/concepts/sv/) | master | 1431 | 0 | 0 | Klar | X | 51 | Klar lokalt (2026-11-23): 1 431 aktiva poster, 0 oöversatta och 0 fuzzy. 52 svenska procenttal är typografiskt rättade; `msgfmt` och l10n-lint har inga fel. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/concepts/gimp-help.master.concepts.sv.original.po), [granskad](gimp-help/master/concepts/gimp-help.master.concepts.sv.reviewed.po), [diff](gimp-help/master/concepts/gimp-help.master.concepts.sv.review.diff), [notering](gimp-help/master/concepts/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/tutorial/sv/) | master | 136 | 0 | 0 | Klar | X | 1 | Klar lokalt (2026-11-23): 176 aktiva strängar, 0 oöversatta och 0 fuzzy. RGB-intervallet är rättat till 0–255; validerad utan lint-fel. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/tutorial/gimp-help.master.tutorial.sv.original.po), [granskad](gimp-help/master/tutorial/gimp-help.master.tutorial.sv.reviewed.po), [diff](gimp-help/master/tutorial/gimp-help.master.tutorial.sv.review.diff), [notering](gimp-help/master/tutorial/README.md) |
 
-## Ogranskade kataloger (496)
+## Ogranskade kataloger (495)
 
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/concepts/sv/) | master | 1431 | 0 | 0 | Klar | X | 51 | Klar lokalt (2026-11-23): 1 431 aktiva poster, 0 oöversatta och 0 fuzzy. 52 svenska procenttal är typografiskt rättade; `msgfmt` och l10n-lint har inga fel. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/concepts/gimp-help.master.concepts.sv.original.po), [granskad](gimp-help/master/concepts/gimp-help.master.concepts.sv.reviewed.po), [diff](gimp-help/master/concepts/gimp-help.master.concepts.sv.review.diff), [notering](gimp-help/master/concepts/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/tutorial/sv/) | master | 136 | 0 | 0 | Klar | X | 1 | Klar lokalt (2026-11-23): 176 aktiva strängar, 0 oöversatta och 0 fuzzy. RGB-intervallet är rättat till 0–255; validerad utan lint-fel. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/tutorial/gimp-help.master.tutorial.sv.original.po), [granskad](gimp-help/master/tutorial/gimp-help.master.tutorial.sv.reviewed.po), [diff](gimp-help/master/tutorial/gimp-help.master.tutorial.sv.review.diff), [notering](gimp-help/master/tutorial/README.md) |
@@ -202,7 +203,6 @@ Varje rad visar GNOME:s aktuella externa status. **Klar** visar `X` för lokalt 
 | Dokumentation | Default (71% translated) | [epiphany](https://l10n.gnome.org/vertimus/epiphany/main/help/sv/) | main | 177 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [evince](https://l10n.gnome.org/vertimus/evince/main/po/sv/) | main | 453 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [evince](https://l10n.gnome.org/vertimus/evince/main/help/sv/) | main | 563 | 0 | 0 | Klar |  | — | Ej granskad |
-| Dokumentation | Default (71% translated) | [evolution](https://l10n.gnome.org/vertimus/evolution/master/help/sv/) | master | 2068 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [evolution-activesync](https://l10n.gnome.org/vertimus/evolution-activesync/master/po/sv/) | master | 60 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [evolution-data-server](https://l10n.gnome.org/vertimus/evolution-data-server/master/po/sv/) | master | 88 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [evolution-etesync](https://l10n.gnome.org/vertimus/evolution-etesync/master/po/sv/) | master | 21 | 0 | 0 | Klar |  | — | Ej granskad |
