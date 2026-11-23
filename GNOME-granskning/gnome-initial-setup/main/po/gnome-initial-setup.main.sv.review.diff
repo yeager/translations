@@ -6,7 +6,7 @@
  "POT-Creation-Date: 2026-11-09 14:25+0000\n"
 -"PO-Revision-Date: 2026-07-30 08:50+0200\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"PO-Revision-Date: 2026-11-23 00:00+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
  "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
  "Language: sv\n"
@@ -16,25 +16,176 @@
  #: gnome-initial-setup/gis-assistant.c:394
  msgid "_Skip"
 -msgstr "Hoppa _över"
-+msgstr "H_oppa över"
++msgstr "_Hoppa över"
  
  #: gnome-initial-setup/gis-assistant.c:395
  msgid "_Previous"
-@@ -107,7 +107,7 @@
+@@ -46,15 +46,15 @@
+ 
+ #: gnome-initial-setup/gnome-initial-setup.c:280
+ msgid "Force existing user mode"
+-msgstr "Tvinga existerande användarläge"
++msgstr "Tvinga läget för befintliga användare"
+ 
+ #: gnome-initial-setup/gnome-initial-setup.c:294
+ msgid "— GNOME initial setup"
+-msgstr "— GNOME initial konfiguration"
++msgstr "— GNOME:s initiala konfiguration"
+ 
+ #: gnome-initial-setup/pages/account/gis-account-page-enterprise.c:182
+ msgid "Failed to cache account"
+-msgstr "Misslyckades med att cacha konto"
++msgstr "Misslyckades med att cachelagra kontot"
+ 
+ #: gnome-initial-setup/pages/account/gis-account-page-enterprise.c:234
+ msgid "Failed to register account"
+@@ -62,11 +62,11 @@
+ 
+ #: gnome-initial-setup/pages/account/gis-account-page-enterprise.c:423
+ msgid "No supported way to authenticate with this domain"
+-msgstr "Inga stödda sätt att autentisera mot denna domän"
++msgstr "Det finns inget sätt som stöds för att autentisera mot denna domän"
+ 
+ #: gnome-initial-setup/pages/account/gis-account-page-enterprise.c:462
+ msgid "Failed to join domain"
+-msgstr "Misslyckades med att ansluta till domän"
++msgstr "Misslyckades med att ansluta till en domän"
+ 
+ #: gnome-initial-setup/pages/account/gis-account-page-enterprise.c:529
+ msgid "Failed to log into domain"
+@@ -103,11 +103,11 @@
+ 
+ #: gnome-initial-setup/pages/account/gis-account-page-enterprise.blp:109
+ msgid "Enterprise domain or realm name"
+-msgstr "Namn på företagsdomän eller rike"
++msgstr "Namn på företagsdomän eller realm"
  
  #: gnome-initial-setup/pages/account/gis-account-page-enterprise.blp:126
  msgid "_Grant administrative privileges to first user"
 -msgstr ""
-+msgstr "_Ge administratörsbehörighet till den första användaren"
++msgstr "_Ge den första användaren administratörsbehörighet"
  
  #: gnome-initial-setup/pages/account/gis-account-page-enterprise.blp:142
  msgid "Domain Administrator Login"
-@@ -680,8 +680,6 @@
- msgstr "Konfiguration klar"
+@@ -202,7 +202,7 @@
+ #: gnome-initial-setup/pages/account/um-realm-manager.c:374
+ #, c-format
+ msgid "No such domain or realm found"
+-msgstr "Ingen sådan domän eller rike hittades"
++msgstr "Ingen sådan domän eller realm hittades"
+ 
+ #: gnome-initial-setup/pages/account/um-realm-manager.c:788
+ #: gnome-initial-setup/pages/account/um-realm-manager.c:802
+@@ -291,7 +291,7 @@
+ 
+ #: gnome-initial-setup/pages/language/gis-language-page.blp:38
+ msgid "Select a language from the list, or search for a specific language."
+-msgstr "Välj ett språk från listan, eller sök ett specifikt språk."
++msgstr "Välj ett språk från listan eller sök efter ett specifikt språk."
+ 
+ #. Translators: This is meant to be a warm, engaging welcome message,
+ #. * like greeting somebody at the door. If the exclamation mark is not
+@@ -341,7 +341,7 @@
+ 
+ #: gnome-initial-setup/pages/network/gis-network-page.blp:55
+ msgid "No wireless available"
+-msgstr "Inga trådlösa nätverk tillgängliga"
++msgstr "Inga trådlösa nätverk är tillgängliga"
+ 
+ #: gnome-initial-setup/pages/network/gis-network-page.blp:68
+ msgid "Turn On"
+@@ -366,7 +366,7 @@
+ #: gnome-initial-setup/pages/password/gis-password-page.c:98
+ #, c-format
+ msgid "Set a Password for %s"
+-msgstr "Sätt ett lösenord för %s"
++msgstr "Ange ett lösenord för %s"
+ 
+ #: gnome-initial-setup/pages/password/gis-password-page.c:100
+ msgid "Be careful not to lose your password."
+@@ -374,13 +374,13 @@
+ 
+ #: gnome-initial-setup/pages/password/gis-password-page.c:105
+ msgid "Set a Parent Password"
+-msgstr "Sätt ett föräldralösenord"
++msgstr "Ange ett föräldralösenord"
+ 
+ #. Translators: The placeholder is the full name of the child user on the system.
+ #: gnome-initial-setup/pages/password/gis-password-page.c:107
+ #, c-format
+ msgid "This password will control access to the parental controls for %s."
+-msgstr "Detta lösenord kommer ge åtkomst till föräldrakontrollerna för %s."
++msgstr "Detta lösenord ger åtkomst till föräldrakontrollerna för %s."
+ 
+ #: gnome-initial-setup/pages/password/gis-password-page.c:301
+ #, c-format
+@@ -406,7 +406,7 @@
+ 
+ #: gnome-initial-setup/pages/password/gis-password-page.blp:96
+ msgid "Password hint will be shown in case you forget your password."
+-msgstr "Ett lösenordstips kommer visas om du glömmer ditt lösenord."
++msgstr "Ett lösenordstips visas om du glömmer ditt lösenord."
+ 
+ #: gnome-initial-setup/pages/password/pw-utils.c:81
+ msgctxt "Password hint"
+@@ -648,7 +648,7 @@
+ 
+ #: gnome-initial-setup/pages/summary/gis-summary-page.c:213
+ msgid "Setup Failed"
+-msgstr "Konfiguration misslyckades"
++msgstr "Konfigurationen misslyckades"
+ 
+ #: gnome-initial-setup/pages/summary/gis-summary-page.c:217
+ #, c-format
+@@ -673,14 +673,13 @@
+ #: gnome-initial-setup/pages/summary/gis-summary-page.c:256
+ #, c-format
+ msgid "%s is ready to be used."
+-msgstr "%s är klart att användas."
++msgstr "%s är redo att användas."
+ 
+ #: gnome-initial-setup/pages/summary/gis-summary-page.c:280
+ msgid "Setup Complete"
+-msgstr "Konfiguration klar"
++msgstr "Konfigurationen är klar"
  
  #: gnome-initial-setup/pages/summary/gis-summary-page.blp:8
 -#, fuzzy
--#| msgid "All done!"
+ #| msgid "All done!"
  msgid "All Done!"
  msgstr "Allt klart!"
+@@ -746,8 +745,8 @@
+ "The time zone will be set automatically if your location can be found. You "
+ "can also search for a city to set it yourself."
+ msgstr ""
+-"Tidszonen kommer ställas in automatiskt om din plats kan hittas. Du kan "
+-"också söka efter en stad för att ställa in den manuellt."
++"Tidszonen ställs in automatiskt om din plats kan hittas. Du kan också söka "
++"efter en stad för att ställa in den själv."
  
+ #: gnome-initial-setup/pages/timezone/gis-timezone-page.blp:48
+ msgid "Please search for a nearby city"
+@@ -775,8 +774,8 @@
+ "Setup will guide you through making an account and enabling some features. "
+ "We’ll have you up and running in no time."
+ msgstr ""
+-"Konfigurationen kommer guida dig genom att skapa ett konto och aktivera "
+-"några funktioner. Vi kommer ha dig redo på nolltid."
++"Konfigurationen kommer att guida dig genom att skapa ett konto och aktivera "
++"några funktioner. Du kommer i gång på nolltid."
+ 
+ #: gnome-initial-setup/pages/welcome/gis-welcome-page.blp:35
+ msgid "_Start Setup"
+@@ -804,10 +803,10 @@
+ "        Alternatively, choose install to launch the installer."
+ msgstr ""
+ "Du kan testa en temporär version av ${NAME} utan att göra några ändringar "
+-"till datorn. Om du sedan bestämmer dig för att installera kan du starta "
++"på datorn. Om du sedan bestämmer dig för att installera kan du starta "
+ "installeraren från vyn Aktiviteter.\n"
+ "\n"
+-"        Alternativt kan du välja installera för att köra installeraren."
++"        Alternativt kan du välja att installera för att köra installeraren."
+ 
+ #: po/EXTRA_STRINGS.sh:7
+ msgid "Install to Disk…"
