@@ -1,14 +1,13 @@
-# Nostalgia — main/po (sv)
+# Nostalgia — main/po — svensk granskning
 
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/nostalgia/main/po/sv/>
-- Granskad och inskickad: 2026-11-23
-- Aktuell POT: 7 aktiva meddelanden, 0 oöversatta och 0 fuzzy.
+- Granskad: 2026-11-24
+- Aktuell POT: 7 aktiva strängar
+- Nya översättningar: 0
+- Korrigerade befintliga översättningar: 0
 
-## Granskning och validering
+Hela katalogen är radgranskad mot aktuell POT. Samtliga sju svenska
+översättningar är korrekta; 0 oöversatta och 0 fuzzy återstår.
 
-Alla strängar är radgranskade mot aktuell POT. Ingen faktisk översättningsändring
-behövdes. `msgfmt --check` och `msgcmp --use-fuzzy` är felfria och `l10n-lint`
-rapporterar 0 fel och 0 varningar. Hunspell-träffen är produktnamnet Nostalgia.
-
-Filen laddades upp via Damned Lies API med kommentaren
-`Granskad och allt ser bra ut`; API:t svarade `{"result":"OK"}`.
+`msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` är godkända utan fel
+eller varningar. Ingen inskickning till GNOME har gjorts i detta steg.
