@@ -1,0 +1,145 @@
+diff --git a/.work-gnome-review/network-manager-sstp-master-po/original.po b/.work-gnome-review/network-manager-sstp-master-po/sv.po
+index 28ed52e..feccfe8 100644
+--- a/.work-gnome-review/network-manager-sstp-master-po/original.po
++++ b/.work-gnome-review/network-manager-sstp-master-po/sv.po
+@@ -12,8 +12,8 @@ msgstr ""
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/network-manager-sstp/"
+ "issues\n"
+ "POT-Creation-Date: 2026-11-10 18:03+0000\n"
+-"PO-Revision-Date: 2022-05-13 14:41+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 12:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -60,11 +60,11 @@ msgstr "Alla tillgängliga (standard)"
+ 
+ #: ../properties/advanced-dialog.c:253
+ msgid "128-bit (most secure)"
+-msgstr "128-bitar (säkrast)"
++msgstr "128 bitar (säkrast)"
+ 
+ #: ../properties/advanced-dialog.c:262
+ msgid "40-bit (less secure)"
+-msgstr "40-bitar (mindre säkert)"
++msgstr "40 bitar (mindre säkert)"
+ 
+ #: ../properties/advanced-dialog.c:381
+ msgid "PAP"
+@@ -88,11 +88,11 @@ msgstr "EAP"
+ 
+ #: ../properties/advanced-dialog.c:496
+ msgid "Don't verify certificate identification"
+-msgstr "Verifiera inte certifikatidentifikation"
++msgstr "Verifiera inte certifikatidentifieringen"
+ 
+ #: ../properties/advanced-dialog.c:504
+ msgid "Verify subject exactly"
+-msgstr "Verifiera ämnet exakt"
++msgstr "Verifiera ämnesnamnet exakt"
+ 
+ #: ../properties/advanced-dialog.c:512
+ msgid "Verify name exactly"
+@@ -100,7 +100,7 @@ msgstr "Verifiera namnet exakt"
+ 
+ #: ../properties/advanced-dialog.c:520
+ msgid "Verify name by suffix"
+-msgstr "Verifiera namnet efter suffix"
++msgstr "Verifiera namnet med suffix"
+ 
+ #: ../properties/advanced-dialog.c:570
+ msgid "TLS 1.2 (Default)"
+@@ -116,7 +116,7 @@ msgstr "Secure Socket Tunneling Protocol (SSTP)"
+ 
+ #: ../properties/nm-sstp-editor-plugin.c:32
+ msgid "Compatible with Microsoft and other SSTP VPN servers."
+-msgstr "Kompatibel med Microsoft och andra SSTP VPN-servrar."
++msgstr "Kompatibel med Microsoft och andra SSTP-VPN-servrar."
+ 
+ #: ../properties/nm-sstp-editor.c:313 ../properties/nm-sstp-editor.c:341
+ #, c-format
+@@ -178,7 +178,7 @@ msgstr ""
+ #: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+ #, c-format
+ msgid "unable to get editor plugin name: %s"
+-msgstr "kan inte erhålla namn för redigerarinstick: %s"
++msgstr "kan inte hämta namnet på redigerarinsticksmodulen: %s"
+ 
+ #: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+ #, c-format
+@@ -261,7 +261,7 @@ msgstr "ogiltigt avgränsningstecken ”%c”"
+ #: ../shared/utils.c:314
+ #, c-format
+ msgid "invalid non-utf-8 character"
+-msgstr "ogiltigt tecken som inte är utf-8"
++msgstr "ogiltigt tecken som inte är UTF-8"
+ 
+ #: ../shared/utils.c:343
+ #, c-format
+@@ -305,7 +305,7 @@ msgstr "Inga VPN-konfigurationsalternativ."
+ #: ../src/nm-sstp-service.c:318
+ #, c-format
+ msgid "Missing required option “%s”."
+-msgstr "Saknar nödvändiga flaggan ”%s”."
++msgstr "Det nödvändiga alternativet ”%s” saknas."
+ 
+ #: ../src/nm-sstp-service.c:488
+ msgid "Could not find sstp client binary."
+@@ -313,7 +313,7 @@ msgstr "Kunde inte hitta binärfilen för sstp-klienten."
+ 
+ #: ../src/nm-sstp-service.c:498
+ msgid "Missing VPN gateway."
+-msgstr "Saknar VPN-gateway."
++msgstr "VPN-gateway saknas."
+ 
+ #: ../src/nm-sstp-service.c:941
+ msgid "Could not find the pppd binary."
+@@ -321,11 +321,11 @@ msgstr "Kunde inte hitta binärfilen pppd."
+ 
+ #: ../src/nm-sstp-service.c:1007 ../src/nm-sstp-service.c:1040
+ msgid "Missing VPN username."
+-msgstr "Saknar VPN-användarnamn."
++msgstr "VPN-användarnamn saknas."
+ 
+ #: ../src/nm-sstp-service.c:1015 ../src/nm-sstp-service.c:1051
+ msgid "Missing or invalid VPN password."
+-msgstr "Saknat eller ogiltigt VPN-lösenord."
++msgstr "VPN-lösenord saknas eller är ogiltigt."
+ 
+ #: ../src/nm-sstp-service.c:1062
+ msgid "Invalid private key file"
+@@ -340,7 +340,7 @@ msgid ""
+ "Could not process the request because the VPN connection settings were "
+ "invalid."
+ msgstr ""
+-"Kunde inte bearbeta begäran för att VPN-anslutningsinställningarna var "
++"Kunde inte bearbeta begäran eftersom VPN-anslutningsinställningarna var "
+ "ogiltiga."
+ 
+ #: ../src/nm-sstp-service.c:1296
+@@ -349,11 +349,11 @@ msgstr "Ogiltig anslutningstyp."
+ 
+ #: ../src/nm-sstp-service.c:1490
+ msgid "Don't quit when VPN connection terminates"
+-msgstr "Avsluta inte när VPN-anslutningen terminerar"
++msgstr "Avsluta inte när VPN-anslutningen avslutas"
+ 
+ #: ../src/nm-sstp-service.c:1491
+ msgid "Enable verbose debug logging (may expose passwords)"
+-msgstr "Aktivera informativ felsökningsloggning (kan exponera lösenord)"
++msgstr "Aktivera utförlig felsökningsloggning (kan exponera lösenord)"
+ 
+ #: ../src/nm-sstp-service.c:1492
+ msgid "D-Bus name to use for this instance"
+@@ -364,8 +364,8 @@ msgid ""
+ "nm-sstp-service provides integrated SSTP VPN capability (compatible with "
+ "Microsoft and other implementations) to NetworkManager."
+ msgstr ""
+-"nm-sstp-service tillhandahåller integrerade SSTP VPN-förmågor (kompatibla "
+-"med Microsoft och andra implementationer) till Nätverkshanterare."
++"nm-sstp-service ger NetworkManager integrerat SSTP-VPN-stöd (kompatibelt "
++"med Microsoft och andra implementeringar)."
+ 
+ #~ msgid "SSTP VPN client"
+ #~ msgstr "SSTP VPN-klient"

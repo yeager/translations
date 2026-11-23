@@ -1,0 +1,700 @@
+# Swedish messages for NetworkManager SSTP.
+# Copyright © 2004-2022 Free Software Foundation, Inc.
+# Christian Rose <menthos@menthos.com>, 2004, 2005, 2006.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2011, 2012.
+# Josef Andersson <josef.andersson@fripost.org>, 2014, 2017.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2021, 2022.
+# Luna Jernberg <droidbittin@gmail.com>, 2021, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager-sstp\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/network-manager-sstp/"
+"issues\n"
+"POT-Creation-Date: 2026-11-10 18:03+0000\n"
+"PO-Revision-Date: 2022-05-13 14:41+0200\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: ../auth-dialog/main.c:276
+msgid "Authenticate VPN"
+msgstr "Autentisera VPN"
+
+#: ../auth-dialog/main.c:285 ../auth-dialog/main.c:382
+msgid "Certificate password:"
+msgstr "Certifikatlösenord:"
+
+#: ../auth-dialog/main.c:291
+msgid "_HTTP proxy password:"
+msgstr "_HTTP-proxylösenord:"
+
+#: ../auth-dialog/main.c:368
+#, c-format
+msgid "Authenticate VPN %s"
+msgstr "Autentisera VPN %s"
+
+#: ../auth-dialog/main.c:375
+msgid "Password:"
+msgstr "Lösenord:"
+
+#: ../auth-dialog/main.c:389
+msgid "HTTP proxy password:"
+msgstr "HTTP-proxylösenord:"
+
+#: ../auth-dialog/main.c:504
+#, c-format
+msgid "You need to authenticate to access the Virtual Private Network “%s”."
+msgstr ""
+"Du måste autentisera dig för att komma åt det virtuella privata nätverket "
+"”%s”."
+
+#: ../properties/advanced-dialog.c:249
+msgid "All Available (Default)"
+msgstr "Alla tillgängliga (standard)"
+
+#: ../properties/advanced-dialog.c:253
+msgid "128-bit (most secure)"
+msgstr "128-bitar (säkrast)"
+
+#: ../properties/advanced-dialog.c:262
+msgid "40-bit (less secure)"
+msgstr "40-bitar (mindre säkert)"
+
+#: ../properties/advanced-dialog.c:381
+msgid "PAP"
+msgstr "PAP"
+
+#: ../properties/advanced-dialog.c:394
+msgid "CHAP"
+msgstr "CHAP"
+
+#: ../properties/advanced-dialog.c:406
+msgid "MSCHAP"
+msgstr "MSCHAP"
+
+#: ../properties/advanced-dialog.c:418
+msgid "MSCHAPv2"
+msgstr "MSCHAPv2"
+
+#: ../properties/advanced-dialog.c:430
+msgid "EAP"
+msgstr "EAP"
+
+#: ../properties/advanced-dialog.c:496
+msgid "Don't verify certificate identification"
+msgstr "Verifiera inte certifikatidentifikation"
+
+#: ../properties/advanced-dialog.c:504
+msgid "Verify subject exactly"
+msgstr "Verifiera ämnet exakt"
+
+#: ../properties/advanced-dialog.c:512
+msgid "Verify name exactly"
+msgstr "Verifiera namnet exakt"
+
+#: ../properties/advanced-dialog.c:520
+msgid "Verify name by suffix"
+msgstr "Verifiera namnet efter suffix"
+
+#: ../properties/advanced-dialog.c:570
+msgid "TLS 1.2 (Default)"
+msgstr "TLS 1.2 (Standard)"
+
+#: ../properties/advanced-dialog.c:578
+msgid "TLS 1.3"
+msgstr "TLS 1.3"
+
+#: ../properties/nm-sstp-editor-plugin.c:31
+msgid "Secure Socket Tunneling Protocol (SSTP)"
+msgstr "Secure Socket Tunneling Protocol (SSTP)"
+
+#: ../properties/nm-sstp-editor-plugin.c:32
+msgid "Compatible with Microsoft and other SSTP VPN servers."
+msgstr "Kompatibel med Microsoft och andra SSTP VPN-servrar."
+
+#: ../properties/nm-sstp-editor.c:313 ../properties/nm-sstp-editor.c:341
+#, c-format
+msgid "file is not a certificate"
+msgstr "filen är inte ett certifikat"
+
+#: ../properties/nm-sstp-editor.c:364
+#, c-format
+msgid "file is not a private key"
+msgstr "filen är inte en privat nyckel"
+
+#: ../properties/nm-sstp-editor.c:589
+msgid "Certificates (TLS)"
+msgstr "Certifikat (TLS)"
+
+#: ../properties/nm-sstp-editor.c:599
+msgid "Password"
+msgstr "Lösenord"
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr "objektklassen ”%s” har ingen egenskap med namnet ”%s”"
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr "egenskapen ”%s” för objektklassen ”%s” är inte skrivbar"
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+"konstruktionsegenskap ”%s” för objektet ”%s” kan inte ställas in efter att "
+"det skapats"
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+"”%s::%s” är inte ett giltigt egenskapsnamn; ”%s” är inte en undertyp till "
+"GObject"
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr "kan inte sätta egenskapen ”%s” av typen ”%s” från värde av typen ”%s”"
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+"värdet ”%s” av typ ”%s” är ogiltigt eller utanför intervallet för egenskapen "
+"”%s” av typ ”%s”"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr "kan inte erhålla namn för redigerarinstick: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr "saknar insticksmodulfilen ”%s”"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr "kan inte öppna redigerarinsticket: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr "kan inte öppna fabriken %s från insticksmodulen: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr "okänt fel vid skapande av redigeringsinstans"
+
+#: ../shared/utils.c:58
+msgid "Failed to initialize the crypto engine"
+msgstr "Misslyckades med att initiera krypteringsmotorn"
+
+#: ../shared/utils.c:85
+#, c-format
+msgid "Failed to get subject name"
+msgstr "Misslyckades med att få ämnesnamn"
+
+#: ../shared/utils.c:121 ../shared/utils.c:135
+#, c-format
+msgid "Failed to load certificate"
+msgstr "Misslyckades med att läsa in certifikat"
+
+#: ../shared/utils.c:128
+#, c-format
+msgid "Failed to initialize certificate"
+msgstr "Misslyckades med att initiera certifikat"
+
+#: ../shared/utils.c:185
+#, c-format
+msgid "Failed to parse pkcs12 file"
+msgstr "Misslyckades med att tolka pkcs12-fil"
+
+#: ../shared/utils.c:191
+#, c-format
+msgid "Failed to import pkcs12 file"
+msgstr "Misslyckades med att importera pkcs12-fil"
+
+#: ../shared/utils.c:198
+#, c-format
+msgid "Failed to initialize pkcs12 structure"
+msgstr "Misslyckades med att initiera pkcs12-struktur"
+
+#: ../shared/utils.c:205
+#, c-format
+msgid "Failed to read file"
+msgstr "Misslyckades med att läsa fil"
+
+#: ../shared/utils.c:239
+#, c-format
+msgid "Failed to decrypt private key"
+msgstr "Misslyckades med att dekryptera privat nyckel"
+
+#: ../shared/utils.c:249
+#, c-format
+msgid "Failed to initialize private key"
+msgstr "Misslyckades med att initiera privat nyckel"
+
+#: ../shared/utils.c:257
+#, c-format
+msgid "Failed read file"
+msgstr "Misslyckades med att läsa fil"
+
+#: ../shared/utils.c:307
+#, c-format
+msgid "invalid delimiter character '%c'"
+msgstr "ogiltigt avgränsningstecken ”%c”"
+
+#: ../shared/utils.c:314
+#, c-format
+msgid "invalid non-utf-8 character"
+msgstr "ogiltigt tecken som inte är utf-8"
+
+#: ../shared/utils.c:343
+#, c-format
+msgid "empty host"
+msgstr "tom värd"
+
+#: ../shared/utils.c:355
+#, c-format
+msgid "invalid port"
+msgstr "ogiltig port"
+
+#: ../src/nm-sstp-service.c:238
+#, c-format
+msgid "invalid gateway “%s”"
+msgstr "ogiltig gateway ”%s”"
+
+#: ../src/nm-sstp-service.c:252
+#, c-format
+msgid "invalid integer property “%s”"
+msgstr "ogiltig heltalsegenskap ”%s”"
+
+#: ../src/nm-sstp-service.c:262
+#, c-format
+msgid "invalid boolean property “%s” (not yes or no)"
+msgstr "ogiltig boolesk egenskap ”%s” (inte yes eller no)"
+
+#: ../src/nm-sstp-service.c:269
+#, c-format
+msgid "unhandled property “%s” type %s"
+msgstr "ohanterad egenskap ”%s” typ %s"
+
+#: ../src/nm-sstp-service.c:280
+#, c-format
+msgid "property “%s” invalid or not supported"
+msgstr "egenskapen ”%s” är ogiltig eller stöds inte"
+
+#: ../src/nm-sstp-service.c:298
+msgid "No VPN configuration options."
+msgstr "Inga VPN-konfigurationsalternativ."
+
+#: ../src/nm-sstp-service.c:318
+#, c-format
+msgid "Missing required option “%s”."
+msgstr "Saknar nödvändiga flaggan ”%s”."
+
+#: ../src/nm-sstp-service.c:488
+msgid "Could not find sstp client binary."
+msgstr "Kunde inte hitta binärfilen för sstp-klienten."
+
+#: ../src/nm-sstp-service.c:498
+msgid "Missing VPN gateway."
+msgstr "Saknar VPN-gateway."
+
+#: ../src/nm-sstp-service.c:941
+msgid "Could not find the pppd binary."
+msgstr "Kunde inte hitta binärfilen pppd."
+
+#: ../src/nm-sstp-service.c:1007 ../src/nm-sstp-service.c:1040
+msgid "Missing VPN username."
+msgstr "Saknar VPN-användarnamn."
+
+#: ../src/nm-sstp-service.c:1015 ../src/nm-sstp-service.c:1051
+msgid "Missing or invalid VPN password."
+msgstr "Saknat eller ogiltigt VPN-lösenord."
+
+#: ../src/nm-sstp-service.c:1062
+msgid "Invalid private key file"
+msgstr "Ogiltig privat nyckelfil"
+
+#: ../src/nm-sstp-service.c:1200
+msgid "Invalid or missing SSTP gateway."
+msgstr "Ogiltig eller saknad SSTP-gateway."
+
+#: ../src/nm-sstp-service.c:1261
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+"Kunde inte bearbeta begäran för att VPN-anslutningsinställningarna var "
+"ogiltiga."
+
+#: ../src/nm-sstp-service.c:1296
+msgid "Invalid connection type."
+msgstr "Ogiltig anslutningstyp."
+
+#: ../src/nm-sstp-service.c:1490
+msgid "Don't quit when VPN connection terminates"
+msgstr "Avsluta inte när VPN-anslutningen terminerar"
+
+#: ../src/nm-sstp-service.c:1491
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr "Aktivera informativ felsökningsloggning (kan exponera lösenord)"
+
+#: ../src/nm-sstp-service.c:1492
+msgid "D-Bus name to use for this instance"
+msgstr "D-Bus-namn att använda för denna instans"
+
+#: ../src/nm-sstp-service.c:1513
+msgid ""
+"nm-sstp-service provides integrated SSTP VPN capability (compatible with "
+"Microsoft and other implementations) to NetworkManager."
+msgstr ""
+"nm-sstp-service tillhandahåller integrerade SSTP VPN-förmågor (kompatibla "
+"med Microsoft och andra implementationer) till Nätverkshanterare."
+
+#~ msgid "SSTP VPN client"
+#~ msgstr "SSTP VPN-klient"
+
+#~ msgid "Client for SSTP virtual private networks"
+#~ msgstr "Klient för SSTP virtuella privata nätverk"
+
+#~ msgid "Support for configuring SSTP virtual private network connections."
+#~ msgstr ""
+#~ "Stöd för att konfigurera SSTP virtuella privata nätverksanslutningar."
+
+#~ msgid ""
+#~ "Compatible with servers following the SSTP specification including the "
+#~ "Microsoft servers."
+#~ msgstr ""
+#~ "Kompatibel med servrar som följer SSTP-specifikationen inklusive "
+#~ "Microsoft-servrarna."
+
+#~ msgid "The NetworkManager Developers"
+#~ msgstr "Utvecklarna av Nätverkshanteraren"
+
+#~ msgid "Default"
+#~ msgstr "Standard"
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Allmänt</b>"
+
+#~ msgid ""
+#~ "SSTP server IP or name.\n"
+#~ "config: the first parameter of sstp"
+#~ msgstr ""
+#~ "IP eller namn på SSTP-server.\n"
+#~ "konfig: första parametern för sstp"
+
+#~ msgid "_Gateway:"
+#~ msgstr "_Gateway:"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Autentisering</b>"
+
+#~ msgid "CA"
+#~ msgstr "CA"
+
+#~ msgid "User"
+#~ msgstr "Användare"
+
+#~ msgid "Username:"
+#~ msgstr "Användarnamn:"
+
+#~ msgid ""
+#~ "Set the name used for authenticating the local system to the peer to "
+#~ "<name>.\n"
+#~ "            config: user <name>"
+#~ msgstr ""
+#~ "Ange namnet att använda för autentisering av det lokala systemet till "
+#~ "motpart till <namn>.\n"
+#~ "            konfig: user <namn>"
+
+#~ msgid "Password passed to SSTP when prompted for it."
+#~ msgstr "Lösenord att skicka till SSTP när det efterfrågas."
+
+#~ msgid "Show password"
+#~ msgstr "Visa lösenordet"
+
+#~ msgid "NT Domain:"
+#~ msgstr "NT-domän:"
+
+#~ msgid ""
+#~ "Append the domain name <domain> to the local host name for authentication "
+#~ "purposes.\n"
+#~ "            config: domain <domain>"
+#~ msgstr ""
+#~ "Lägg till domännamnet <domän> till det lokala värdnamnet för "
+#~ "autentiseringssyften.\n"
+#~ "            konfig: domain <domän>"
+
+#~ msgid "Type:"
+#~ msgstr "Typ:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "Välj ett autentiseringsläge."
+
+#~ msgid "Ad_vanced..."
+#~ msgstr "Av_ancerat…"
+
+#~ msgid "SSTP Advanced Options"
+#~ msgstr "Avancerade SSTP-alternativ"
+
+#~ msgid "<b>SSL Tunnel</b>"
+#~ msgstr "<b>SSL-tunnel</b>"
+
+#~ msgid "_Verify certificate type and extended key usage"
+#~ msgstr "_Verifiera certifikattyp och utökad nyckelanvändning"
+
+#~ msgid ""
+#~ "Require that the peer certificate used for outer SSL tunnel was signed "
+#~ "with a certificate that has a trusted certificate chain, key usage, and "
+#~ "extended key usage based on RFC3280 TLS rules."
+#~ msgstr ""
+#~ "Begär att motpartscertifikatet som användes för yttre SSL-tunnel "
+#~ "signerades med ett certifikat som har en betrodd certifikatkedja, "
+#~ "nyckelanvändning och utökad nyckelanvändning baserad på regler för "
+#~ "RFC3280 TLS."
+
+#~ msgid "_Use TLS hostname extensions"
+#~ msgstr "_Använd TLS-värdnamnstillägg"
+
+#~ msgid ""
+#~ "Use the gateway name as specified for this connection in the hostname "
+#~ "extensions in the SSL tunnel"
+#~ msgstr ""
+#~ "Använd gatewaynamnet som det angivits för denna anslutning i "
+#~ "värdnamnstilläggen i SSL-tunneln"
+
+#~ msgid "<b>Certificate Revocation</b>"
+#~ msgstr "<b>Certifikatåterkallning</b>"
+
+#~ msgid "CRL"
+#~ msgstr "CRL"
+
+#~ msgid "Connection"
+#~ msgstr "Anslutning"
+
+#~ msgid "Allow the following authentication methods:"
+#~ msgstr "Tillåt följande autentiseringsmetoder:"
+
+#~ msgid ""
+#~ "Allow/disable authentication methods.\n"
+#~ "config: refuse-pap, refuse-chap, refuse-mschap, refuse-mschap-v2, refuse-"
+#~ "eap"
+#~ msgstr ""
+#~ "Tillåt/inaktivera autentiseringsmetoder.\n"
+#~ "konfig: refuse-pap, refuse-chap, refuse-mschap, refuse-mschap-v2, refuse-"
+#~ "eap"
+
+#~ msgid "<b>Security and Compression</b>"
+#~ msgstr "<b>Säkerhet och komprimering</b>"
+
+#~ msgid "Use _Point-to-Point encryption (MPPE)"
+#~ msgstr "Använd _Point-to-Point-kryptering (MPPE)"
+
+#~ msgid ""
+#~ "Note: MPPE encryption is only available with MSCHAP authentication "
+#~ "methods. To enable this checkbox, select one or more of the MSCHAP "
+#~ "authentication methods: MSCHAP or MSCHAPv2."
+#~ msgstr ""
+#~ "Observera: MPPE-kryptering är endast tillgängligt med MSCHAP-"
+#~ "autentiseringsmetoder. För att aktivera denna kryssruta så välj en eller "
+#~ "flera av MSCHAP-autentiseringsmetoderna: MSCHAP eller MSCHAPv2."
+
+#~ msgid "_Security:"
+#~ msgstr "_Säkerhet:"
+
+#~ msgid ""
+#~ "Require the use of MPPE, with 40/128-bit encryption or all.\n"
+#~ "config: require-mppe, require-mppe-128 or require-mppe-40"
+#~ msgstr ""
+#~ "Kräv användning av MPPE, med 40/128-bitars kryptering eller alla.\n"
+#~ "konfig: require-mppe, require-mppe-128 eller require-mppe-40"
+
+#~ msgid "Allow st_ateful encryption"
+#~ msgstr "Tillåt t_illståndsbaserad kryptering"
+
+#~ msgid ""
+#~ "Allow MPPE to use stateful mode. Stateless mode is still attempted "
+#~ "first.\n"
+#~ "config: mppe-stateful (when checked)"
+#~ msgstr ""
+#~ "Tillåt MPPE att använda tillståndsbaserat läge. Tillståndslöst läge "
+#~ "provas fortfarande först.\n"
+#~ "konfig: mppe-stateful (när ikryssad)"
+
+#~ msgid "Allow _BSD data compression"
+#~ msgstr "Tillåt _BSD-datakomprimering"
+
+#~ msgid ""
+#~ "Allow/disable BSD-Compress compression.\n"
+#~ "config: nobsdcomp (when unchecked)"
+#~ msgstr ""
+#~ "Tillåt/inaktivera BSD-Compress-komprimering.\n"
+#~ "konfig: nobsdcomp (när ej ikryssad)"
+
+#~ msgid "Allow _Deflate data compression"
+#~ msgstr "Tillåt _Deflate-datakomprimering"
+
+#~ msgid ""
+#~ "Allow/disable Deflate compression.\n"
+#~ "config: nodeflate (when unchecked)"
+#~ msgstr ""
+#~ "Tillåt/inaktivera Deflate-komprimering.\n"
+#~ "konfig: nodeflate (när ej ikryssad)"
+
+#~ msgid "Use TCP _header compression"
+#~ msgstr "Använd komprimering av TCP-_huvud"
+
+#~ msgid ""
+#~ "Allow/disable Van Jacobson style TCP/IP header compression in both the "
+#~ "transmit and the receive directions.\n"
+#~ "config: novj (when unchecked)"
+#~ msgstr ""
+#~ "Tillåt/inaktivera Van Jacobson-stil TCP/IP-huvudkompression i både "
+#~ "sändar- och mottagarriktningarna.\n"
+#~ "konfig: novj (när ej ikryssad)"
+
+#~ msgid "<b>Echo</b>"
+#~ msgstr "<b>Eko</b>"
+
+#~ msgid "Send PPP _echo packets"
+#~ msgstr "Skicka PPP-_ekopaket"
+
+#~ msgid ""
+#~ "Send LCP echo-requests to find out whether peer is alive.\n"
+#~ "config: lcp-echo-failure and lcp-echo-interval"
+#~ msgstr ""
+#~ "Skicka LCP ekobegäran för att ta reda på huruvida motpart lever.\n"
+#~ "konfig: lcp-echo-failure och lcp-echo-interval"
+
+#~ msgid "<b>Misc</b>"
+#~ msgstr "<b>Övrigt</b>"
+
+#~ msgid "Use custom _unit number:"
+#~ msgstr "Använd anpassat _enhetsnummer:"
+
+#~ msgid ""
+#~ "Enable custom index for ppp<n> device name.\n"
+#~ "config: unit <n>"
+#~ msgstr ""
+#~ "Aktivera anpassat index för ppp<n>-enhetsnamn.\n"
+#~ "konfig: unit <n>"
+
+#~ msgid "Point-to-Point"
+#~ msgstr "Punkt-till-punkt"
+
+#~ msgid "<b>Identity</b>"
+#~ msgstr "<b>Identitet</b>"
+
+#~ msgid ""
+#~ "Use this to override the value specified by the certificate\n"
+#~ "\n"
+#~ "By default, this will be populated, when correct password for certificate "
+#~ "is supplied, with the Microsoft OID for username; or the Subject name of "
+#~ "the certificate when this is not available. "
+#~ msgstr ""
+#~ "Använd detta för att åsidosätta värdet som anges av certifikatet\n"
+#~ "\n"
+#~ "Som standard kommer detta fyllas i med Microsoft-OID för användarnamnet "
+#~ "när rätt lösenord för certifikatet anges; eller ämnesnamnet för "
+#~ "certifikatet när detta inte är tillgängligt. "
+
+#~ msgid "<b>Certificate Validation</b>"
+#~ msgstr "<b>Certifikatvalidering</b>"
+
+#~ msgid "_Subject Match"
+#~ msgstr "_Matcha följande"
+
+#~ msgid ""
+#~ "Subject or Common Name to verify server certificate information against. "
+#~ msgstr ""
+#~ "Ämne eller vanligt namn att verifiera servercertifiksatinformationen mot. "
+
+#~ msgid "_Verify Method"
+#~ msgstr "_Verifieringsmetod"
+
+#~ msgid ""
+#~ "Verify server certificate identification.\n"
+#~ "\n"
+#~ "When enabled, connection will only succeed if the server certificate "
+#~ "matches some expected properties.\n"
+#~ "Matching can either apply to the whole certificate subject (all the "
+#~ "fields),\n"
+#~ "or just the Common Name (CN field).\n"
+#~ "                                    "
+#~ msgstr ""
+#~ "Verifiera servercertifikatsidentifikation.\n"
+#~ "\n"
+#~ "När aktiverad kommer anslutningen endast att lyckas om servercertifikatet "
+#~ "matchar några förväntade egenskaper.\n"
+#~ "Matchning kan antingen tillämpas på hela certifikatet (alla fält),\n"
+#~ "eller bara namnet (CN-fältet).\n"
+#~ "                                    "
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules."
+#~ msgstr ""
+#~ "Begär att motpartscertifikatet signerades med en explicit "
+#~ "nyckelanvändning och utökad nyckelanvändning baserad på baserad på regler "
+#~ "för RFC3280 TLS."
+
+#~ msgid "<b>Compatibility</b>"
+#~ msgstr "<b>Kompatibilitet</b>"
+
+#~ msgid "_Max TLS Version"
+#~ msgstr "_Maximal TLS-version"
+
+#~ msgid ""
+#~ "Use this to control the maximum supported EAP-TLS version. Default is TLS "
+#~ "1.2, and use of TLS 1.3 is considered experimental at this point."
+#~ msgstr ""
+#~ "Använd detta för att styra den största EAP-TLS-versionen som stöds. "
+#~ "Standard är TLS 1.2 och användning av TLS 1.3 anses för tillfället vara "
+#~ "experimentell."
+
+#~ msgid "TLS Authentication"
+#~ msgstr "TLS-autentisering"
+
+#~ msgid "Address:"
+#~ msgstr "Adress:"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Show Password"
+#~ msgstr "Visa lösenord"
+
+#~ msgid "Proxy"
+#~ msgstr "Proxy"
+
+#~ msgid "Advanced Properties"
+#~ msgstr "Avancerade alternativ"
+
+#~ msgid "_Cancel"
+#~ msgstr "A_vbryt"
+
+#~ msgid "_Apply"
+#~ msgstr "V_erkställ"
+
+#~ msgid "Authentication"
+#~ msgstr "Autentisering"
