@@ -1,13 +1,13 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 07:31 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 07:44 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
 - Kataloger: 1088
-- Behöver arbete enligt GNOME: 205
-- Oöversatta strängar: 41,662
-- Fuzzy-strängar: 8,135
+- Behöver arbete enligt GNOME: 206
+- Oöversatta strängar: 41,664
+- Fuzzy-strängar: 8,137
 
 Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** innehåller en uttrycklig notering först när modulen har granskats lokalt; externa siffror ändras inte förrän en eventuell framtida GNOME-inskickning.
 
@@ -157,6 +157,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/master/po-python/sv/) | master | 223 | 6 | 2 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-terminal](https://l10n.gnome.org/vertimus/gnome-terminal/gnome-46/po/sv/) | gnome-46 | 524 | 6 | 2 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-calculator](https://l10n.gnome.org/vertimus/gnome-calculator/main/po/sv/) | main | 790 | 3 | 2 | Behöver arbete | Klar lokalt (2026-11-22): Alla aktuella oöversatta och fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](gnome-calculator/main/po/gnome-calculator.main.sv.original.po), [granskad](gnome-calculator/main/po/gnome-calculator.main.sv.reviewed.po), [diff](gnome-calculator/main/po/gnome-calculator.main.sv.review.diff), [notering](gnome-calculator/main/po/README.md) |
+| Dokumentation | Default (71% translated) | [gnome-music](https://l10n.gnome.org/vertimus/gnome-music/main/help/sv/) | main | 69 | 2 | 2 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [PipeWire](https://l10n.gnome.org/vertimus/pipewire/master/po/sv/) | master | 125 | 2 | 2 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [libsoup](https://l10n.gnome.org/vertimus/libsoup/master/po/sv/) | master | 37 | 1 | 2 | Behöver arbete | Klar lokalt (2026-11-22): Två luckor och en betydelsemässigt felaktig fuzzy-sträng är lokalt validerade. [original](libsoup/master/po/libsoup.master.sv.original.po), [granskad](libsoup/master/po/libsoup.master.sv.reviewed.po), [diff](libsoup/master/po/libsoup.master.sv.review.diff), [notering](libsoup/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [Graphs](https://l10n.gnome.org/vertimus/graphs/v1.7.x/po/sv/) | v1.7.x | 371 | 0 | 2 | Behöver arbete | Ej granskad |
@@ -464,7 +465,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~colors~info/sv/) | master | 64 | 0 | 0 | Klar | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~colors~tone-mapping/sv/) | master | 113 | 0 | 0 | Klar | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters~combine/sv/) | master | 108 | 0 | 0 | Klar | Ej granskad |
-| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/concepts/sv/) | master | 1431 | 0 | 0 | Klar | Ej granskad |
+| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/concepts/sv/) | master | 1431 | 0 | 0 | Klar | Klar lokalt (2026-11-23): 1 431 aktiva poster, 0 oöversatta och 0 fuzzy. 52 svenska procenttal är typografiskt rättade; `msgfmt` och l10n-lint har inga fel. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/concepts/gimp-help.master.concepts.sv.original.po), [granskad](gimp-help/master/concepts/gimp-help.master.concepts.sv.reviewed.po), [diff](gimp-help/master/concepts/gimp-help.master.concepts.sv.review.diff), [notering](gimp-help/master/concepts/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters~decor/sv/) | master | 289 | 0 | 0 | Klar | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters~edge-detect/sv/) | master | 121 | 0 | 0 | Klar | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~edit/sv/) | master | 274 | 0 | 0 | Klar | Ej granskad |
@@ -656,7 +657,6 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [gnome-music](https://l10n.gnome.org/vertimus/gnome-music/main/po/sv/) | main | 123 | 0 | 0 | Klar | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-music](https://l10n.gnome.org/vertimus/gnome-music/gnome-51/help/sv/) | gnome-51 | 72 | 0 | 0 | Klar | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-music](https://l10n.gnome.org/vertimus/gnome-music/gnome-50/help/sv/) | gnome-50 | 72 | 0 | 0 | Klar | Ej granskad |
-| Dokumentation | Default (71% translated) | [gnome-music](https://l10n.gnome.org/vertimus/gnome-music/main/help/sv/) | main | 72 | 0 | 0 | Klar | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-nettool](https://l10n.gnome.org/module/gnome-nettool/) | master | 225 | 0 | 0 | Klar | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-nettool](https://l10n.gnome.org/module/gnome-nettool/) | master | 23 | 0 | 0 | Klar | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-network-displays](https://l10n.gnome.org/vertimus/gnome-network-displays/master/po/sv/) | master | 35 | 0 | 0 | Klar | Ej granskad |
