@@ -1,15 +1,19 @@
 --- gimp-help.master.filters-map.sv.original.po
 +++ gimp-help.master.filters-map.sv.reviewed.po
-@@ -3,7 +3,7 @@
+@@ -2,9 +2,10 @@
+ msgstr ""
  "Project-Id-Version: map\n"
  "POT-Creation-Date: 2009-04-21 13:33+0200\n"
- "PO-Revision-Date: 2009-02-17 03:25+0100\n"
+-"PO-Revision-Date: 2009-02-17 03:25+0100\n"
 -"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
++"PO-Revision-Date: 2026-11-23 00:00+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
  "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"Language: sv\n"
  "MIME-Version: 1.0\n"
  "Content-Type: text/plain; charset=UTF-8\n"
-@@ -100,7 +100,7 @@
+ "Content-Transfer-Encoding: 8bit\n"
+@@ -100,7 +101,7 @@
  #: src/filters/map/warp.xml:24(phrase) src/filters/map/warp.xml:29(tertiary)
  #: src/filters/map/warp.xml:32(primary)
  msgid "Warp"
@@ -18,7 +22,7 @@
  
  #: src/filters/map/warp.xml:27(primary) src/filters/map/tile.xml:14(primary)
  #: src/filters/map/smalltiles.xml:22(primary)
-@@ -127,7 +127,7 @@
+@@ -127,7 +128,7 @@
  #: src/filters/map/displace.xml:21(secondary)
  #: src/filters/map/bumpmap.xml:29(secondary)
  msgid "Map"
@@ -27,7 +31,7 @@
  
  #: src/filters/map/warp.xml:36(phrase) src/filters/map/tile.xml:23(phrase)
  #: src/filters/map/smalltiles.xml:31(phrase)
-@@ -149,10 +149,15 @@
+@@ -149,10 +150,15 @@
  "corresponding to solid areas are not displaced; the higher the slope, the "
  "higher the displacement."
  msgstr ""
@@ -44,7 +48,7 @@
  
  #: src/filters/map/warp.xml:56(para)
  msgid ""
-@@ -161,30 +166,36 @@
+@@ -161,30 +167,36 @@
  "displacement. Displacement direction is perpendicular to gradient direction "
  "(angle = 90°)."
  msgstr ""
@@ -85,7 +89,7 @@
  
  #: src/filters/map/warp.xml:102(phrase) src/filters/map/tile.xml:55(phrase)
  #: src/filters/map/smalltiles.xml:61(phrase)
-@@ -204,6 +215,9 @@
+@@ -204,6 +216,9 @@
  "guisubmenu><guimenuitem>Warp</guimenuitem></menuchoice>. This filter has no "
  "Preview."
  msgstr ""
@@ -95,7 +99,7 @@
  
  #: src/filters/map/warp.xml:112(phrase) src/filters/map/tile.xml:64(phrase)
  #: src/filters/map/smalltiles.xml:70(phrase)
-@@ -217,15 +231,15 @@
+@@ -217,15 +232,15 @@
  
  #: src/filters/map/warp.xml:116(phrase)
  msgid "Warp filter options"
@@ -114,7 +118,7 @@
  
  #: src/filters/map/warp.xml:131(para)
  msgid ""
-@@ -233,20 +247,23 @@
+@@ -233,20 +248,23 @@
  "10 value is necessary to get a one pixel displacement. This value can be "
  "negative to invert displacement direction."
  msgstr ""
@@ -141,7 +145,7 @@
  
  #: src/filters/map/warp.xml:149(para)
  msgid ""
-@@ -254,33 +271,36 @@
+@@ -254,33 +272,36 @@
  "layer or selection, and, on the opposite side, pixels places are emptying. "
  "Four following options allow you to fix this issue:"
  msgstr ""
@@ -183,7 +187,7 @@
  
  #: src/filters/map/warp.xml:185(para)
  msgid ""
-@@ -288,28 +308,31 @@
+@@ -288,28 +309,31 @@
  "scaled image, must be <emphasis>present on your screen when you call filter "
  "and must have the same size as the original image</emphasis>."
  msgstr ""
@@ -220,7 +224,7 @@
  
  #: src/filters/map/warp.xml:221(para)
  msgid ""
-@@ -319,10 +342,14 @@
+@@ -319,10 +343,14 @@
  "went out of the image borders. Here is an example with a 10° angle and 6 "
  "iterations:"
  msgstr ""
@@ -236,7 +240,7 @@
  
  #: src/filters/map/warp.xml:237(para)
  msgid ""
-@@ -330,10 +357,13 @@
+@@ -330,10 +358,13 @@
  "out the lower border on every iteration are going into through the upper "
  "border (Wrap option checked), giving a dotted line."
  msgstr ""
@@ -251,7 +255,7 @@
  
  #: src/filters/map/warp.xml:251(para)
  msgid ""
-@@ -348,10 +378,18 @@
+@@ -348,10 +379,18 @@
  "corresponding areas of the image. <guilabel>Use magnitude map</guilabel> "
  "must be checked for that."
  msgstr ""
@@ -271,7 +275,7 @@
  
  #: src/filters/map/warp.xml:274(para)
  msgid ""
-@@ -359,26 +397,29 @@
+@@ -359,26 +398,29 @@
  "applying <quote>Warp</quote> filter. You can see that the black areas of "
  "magnitude map prevent filter to take action."
  msgstr ""
@@ -305,7 +309,7 @@
  
  #: src/filters/map/warp.xml:303(para)
  msgid ""
-@@ -389,10 +430,15 @@
+@@ -389,10 +431,15 @@
  "iteration, the filter works of the whole image, not only on the red object: "
  "this explains burredness."
  msgstr ""
@@ -322,7 +326,7 @@
  
  #: src/filters/map/warp.xml:320(para)
  msgid ""
-@@ -402,14 +448,19 @@
+@@ -402,14 +449,19 @@
  "gradient is moved obliquely, 90° rotated (Rotation Angle 90° in Advanced "
  "options)."
  msgstr ""
@@ -344,7 +348,7 @@
  
  #: src/filters/map/warp.xml:345(para)
  msgid ""
-@@ -419,6 +470,11 @@
+@@ -419,6 +471,11 @@
  "left corner. The image is blurred because every iteration works on the whole "
  "image, and not only on the red bar."
  msgstr ""
@@ -356,7 +360,7 @@
  
  #: src/filters/map/warp.xml:356(para)
  msgid ""
-@@ -427,6 +483,10 @@
+@@ -427,6 +484,10 @@
  "clockwise. The <guilabel>Vector Magnitude </guilabel> determines by how many "
  "pixels the image will move on every iteration."
  msgstr ""
@@ -367,7 +371,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -467,7 +527,7 @@
+@@ -467,7 +528,7 @@
  
  #: src/filters/map/tile.xml:27(phrase)
  msgid "The same image, before and after applying Tile filter"
@@ -376,7 +380,7 @@
  
  #: src/filters/map/tile.xml:36(para) src/filters/map/smalltiles.xml:44(para)
  #: src/filters/map/papertile.xml:44(para)
-@@ -479,13 +539,15 @@
+@@ -479,13 +540,15 @@
  
  #: src/filters/map/tile.xml:44(para)
  msgid "(We have reduced image size intentionally)"
@@ -393,7 +397,7 @@
  
  #: src/filters/map/tile.xml:57(para)
  msgid ""
-@@ -493,6 +555,9 @@
+@@ -493,6 +556,9 @@
  "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Tile</guimenuitem></"
  "menuchoice>."
  msgstr ""
@@ -403,7 +407,7 @@
  
  #: src/filters/map/tile.xml:68(phrase)
  #: src/filters/map/smalltiles.xml:74(phrase)
-@@ -501,15 +566,15 @@
+@@ -501,15 +567,15 @@
  #: src/filters/map/fractal-trace.xml:76(phrase)
  #: src/filters/map/bumpmap.xml:83(phrase)
  msgid "<placeholder-1/> filter options"
@@ -422,7 +426,7 @@
  
  #: src/filters/map/tile.xml:85(para)
  msgid ""
-@@ -518,6 +583,10 @@
+@@ -518,6 +584,10 @@
  ">. You can make them independent by breaking this chain. You can choose a "
  "unit else than pixel by clicking on the drop-down list button."
  msgstr ""
@@ -433,7 +437,7 @@
  
  #: src/filters/map/tile.xml:94(para)
  msgid ""
-@@ -525,6 +594,9 @@
+@@ -525,6 +595,9 @@
  "Else, you will get an image sample only. Choose sizes which are multiple of "
  "original sizes if you don't want to have truncated tiles."
  msgstr ""
@@ -443,7 +447,7 @@
  
  #: src/filters/map/tile.xml:105(phrase)
  msgid "Create New image"
-@@ -535,6 +607,8 @@
+@@ -535,6 +608,8 @@
  "It's in your interest to keep this option checked to avoid modifying your "
  "original image."
  msgstr ""
@@ -452,6 +456,17 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
+@@ -568,9 +643,8 @@
+ "EXIST"
+ 
+ #: src/filters/map/smalltiles.xml:12(revnumber)
+-#, fuzzy
+ msgid "$Revision$"
+-msgstr "$Revision: 2728 $"
++msgstr "$Revision$"
+ 
+ #: src/filters/map/smalltiles.xml:13(date)
+ msgid "2005-11-15"
 @@ -586,7 +660,7 @@
  #: src/filters/map/smalltiles.xml:36(quote)
  #: src/filters/map/smalltiles.xml:74(quote)
