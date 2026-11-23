@@ -6,4 +6,4 @@
 - Ändringar: 744 exakta svenska träffar från Bazaar Git har kontrollerats och 49 nya strängar har översatts, inklusive pluraler, installationer, fjärrkällor, behörigheter och statistik.
 - Källavvikelse: Git `main` innehåller en äldre komplett 763-strängarsfil; arkivets original är den nyare 793-strängarsfilen från Damned Lies.
 - Validering: `msgfmt --check` godkänd; `l10n-lint` rapporterar 0 fel och sex rimliga informationsnotiser.
-- Ingen ändring har skickats till GNOME.
+- Uppladdad till Damned Lies 2026-11-23 efter reservation, med kommentaren `Granskad och klar` (`{"result":"OK"}`).
