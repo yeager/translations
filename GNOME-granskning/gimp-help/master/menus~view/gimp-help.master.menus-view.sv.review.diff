@@ -1,0 +1,1425 @@
+--- gimp-help.master.menus-view.sv.original.po
++++ gimp-help.master.menus-view.sv.reviewed.po
+@@ -3,7 +3,8 @@
+ "Project-Id-Version: view\n"
+ "POT-Creation-Date: 2009-04-21 13:33+0200\n"
+ "PO-Revision-Date: 2009-02-17 03:08+0100\n"
+-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
++"Language: sv\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -21,7 +22,7 @@
+ 
+ #: src/menus/view/zoom.xml:18(title)
+ msgid "The <quote>Zoom</quote> submenu of the <quote>View</quote> menu"
+-msgstr ""
++msgstr "Undermenyn <quote>Zoom</quote> på menyn <quote>Visa</quote>"
+ 
+ #: src/menus/view/zoom.xml:27(para)
+ msgid ""
+@@ -34,6 +35,13 @@
+ "affect the entire image. Please note that zooming is not undoable, since it "
+ "does not affect the image data, only the way it is displayed."
+ msgstr ""
++"Undermenyn <guimenuitem>Zoom</guimenuitem> innehåller olika kommandon som "
++"påverkar bildens förstoring i bildfönstret. Att förstora en bild är "
++"användbart när du behöver arbeta med hög precision, göra ändringar av "
++"bildpunkter eller skapa exakta markeringar. Att förminska en bild är "
++"däremot praktiskt för att få ett helhetsintryck av bilden och se resultatet "
++"av ändringar som påverkar hela bilden. Observera att zoomning inte kan "
++"ångras, eftersom den inte påverkar bilddata utan bara hur bilden visas."
+ 
+ #: src/menus/view/zoom.xml:39(para)
+ msgid ""
+@@ -42,6 +50,9 @@
+ "statusbar\">status bar</link> is displayed), where several preset zoom "
+ "levels are available."
+ msgstr ""
++"Förutom posterna på denna undermeny finns även en rullgardinsmeny för zoom "
++"vid bildfönstrets nederkant (om <link linkend=\"gimp-view-show-statusbar\">"
++"statusraden</link> visas), där flera förinställda zoomnivåer finns."
+ 
+ #: src/menus/view/zoom.xml:45(para)
+ msgid ""
+@@ -50,6 +61,10 @@
+ "linkend=\"gimp-tool-zoom\">Magnify</link> tool which lets you zoom a "
+ "particular area of the image."
+ msgstr ""
++"Du kan också göra inställningar för zoomning i <link linkend=\"gimp-"
++"navigation-dialog\">navigeringsdialogen</link>. Du kan även använda "
++"verktyget <link linkend=\"gimp-tool-zoom\">Förstora</link>, som låter dig "
++"zooma ett visst område av bilden."
+ 
+ #: src/menus/view/zoom.xml:54(title)
+ msgid "Activate the Submenu"
+@@ -63,21 +78,27 @@
+ "quote> menu shows the current zoom factor, for example, <guilabel>Zoom (100%)"
+ "</guilabel>."
+ msgstr ""
++"Du når denna undermeny från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guisubmenu>Zoom</guisubmenu></"
++"menuchoice>. Observera att etiketten <quote>Zoom</quote> på menyn "
++"<quote>Visa</quote> visar den aktuella zoomfaktorn, till exempel "
++"<guilabel>Zoom (100 %)</guilabel>."
+ 
+ #: src/menus/view/zoom.xml:72(title)
+-#, fuzzy
+ msgid "Contents of the <quote>Zoom</quote> submenu"
+-msgstr "Innehållet i Visa-menyn"
++msgstr "Innehållet på undermenyn <quote>Zoom</quote>"
+ 
+ #: src/menus/view/zoom.xml:73(para)
+ msgid ""
+ "The various <quote>Zoom</quote> submenu commands are described below, along "
+ "with their default keyboard shortcuts, if any."
+ msgstr ""
++"De olika kommandona på undermenyn <quote>Zoom</quote> beskrivs nedan, "
++"tillsammans med deras eventuella standardtangentbordsgenvägar."
+ 
+ #: src/menus/view/zoom.xml:79(term)
+ msgid "Revert Zoom"
+-msgstr ""
++msgstr "Återställ zoom"
+ 
+ #: src/menus/view/zoom.xml:82(para)
+ msgid ""
+@@ -87,6 +108,11 @@
+ "you never changed the zoom factor of the active image, this entry is "
+ "insensitive and grayed out."
+ msgstr ""
++"(Genväg: <keycap>`</keycap> [grav accent, <quote>backtick</quote>]) Det här "
++"kommandot återställer zoomfaktorn till det föregående värdet, som också "
++"visas i etiketten, till exempel <guilabel>Återställ zoom (100 %)</guilabel>. "
++"Om du aldrig har ändrat zoomfaktorn för den aktiva bilden är posten inaktiv "
++"och nedtonad."
+ 
+ #: src/menus/view/zoom.xml:93(term)
+ msgid "Zoom Out"
+@@ -98,6 +124,8 @@
+ "the zoom factor is decreased by about 30%. There is a minimum zoom level of "
+ "0.39%."
+ msgstr ""
++"(Genväg: <keycap>-</keycap>) Varje gång <quote>Zooma ut</quote> används "
++"minskas zoomfaktorn med ungefär 30 %. Den lägsta zoomnivån är 0,39 %."
+ 
+ #: src/menus/view/zoom.xml:104(term)
+ msgid "Zoom In"
+@@ -109,6 +137,8 @@
+ "zoom factor is increased by about 30%. The maximum possible zoom level is "
+ "25600%."
+ msgstr ""
++"(Genväg: <keycap>+</keycap>) Varje gång <quote>Zooma in</quote> används "
++"ökas zoomfaktorn med ungefär 30 %. Högsta möjliga zoomnivå är 25 600 %."
+ 
+ #: src/menus/view/zoom.xml:114(para)
+ msgid ""
+@@ -120,10 +150,17 @@
+ "the help section for <link linkend=\"gimp-prefs-interface\">User Interface "
+ "Preferences</link> for instructions."
+ msgstr ""
++"Tangentbordsgenvägen för <quote>Zooma in</quote> har varit något "
++"omdiskuterad eftersom detta är en mycket vanlig åtgärd och du på engelska "
++"tangentbord måste trycka ned <keycap>Skift</keycap> för att använda den. "
++"(Detta gäller inte för europeiska tangentbord.) Om du vill ha en annan "
++"tangentbordsgenväg kan du skapa en dynamisk genväg; se hjälpavsnittet för "
++"<link linkend=\"gimp-prefs-interface\">Inställningar för användargränssnittet</link> "
++"för instruktioner."
+ 
+ #: src/menus/view/zoom.xml:128(term)
+ msgid "Fit Image in Window"
+-msgstr ""
++msgstr "Anpassa bild i fönster"
+ 
+ #: src/menus/view/zoom.xml:131(para)
+ msgid ""
+@@ -132,10 +169,14 @@
+ "possible, while still keeping it completely within the window. There will "
+ "usually be padding on two sides of the image, but not on all four sides."
+ msgstr ""
++"(Genväg: <keycombo><keycap>Skift</keycap><keycap>Ctrl</keycap><keycap>E</"
++"keycap></keycombo>). Det här kommandot zoomar bilden så stor som möjligt, "
++"men ser samtidigt till att hela bilden ryms i fönstret. Vanligtvis blir det "
++"marginaler på två av bildens sidor, men inte på alla fyra."
+ 
+ #: src/menus/view/zoom.xml:142(term)
+ msgid "Fit Image to Window"
+-msgstr ""
++msgstr "Anpassa bild till fönster"
+ 
+ #: src/menus/view/zoom.xml:145(para)
+ msgid ""
+@@ -144,10 +185,14 @@
+ "one dimension, but usually extends beyond the window borders in the other "
+ "dimension."
+ msgstr ""
++"Det här kommandot zoomar bilden så stor som möjligt utan att några "
++"marginaler behöver visas. Det innebär att bilden passar fönstret exakt i "
++"en dimension, men vanligtvis sträcker sig utanför fönsterkanterna i den "
++"andra dimensionen."
+ 
+ #: src/menus/view/zoom.xml:154(term)
+ msgid "A:B (X%)"
+-msgstr ""
++msgstr "A:B (X %)"
+ 
+ #: src/menus/view/zoom.xml:157(para)
+ msgid ""
+@@ -155,16 +200,21 @@
+ "the menu labels gives a ratio, as well as a percentage value. The 100% zoom "
+ "level has a simple keyboard shortcut: <keycap>1</keycap>."
+ msgstr ""
++"Med dessa kommandon kan du välja en av de förinställda zoomnivåerna. Varje "
++"menyetikett anger både ett förhållande och ett procentvärde. Zoomnivån 100 % "
++"har en enkel tangentbordsgenväg: <keycap>1</keycap>."
+ 
+ #: src/menus/view/zoom.xml:166(term)
+ msgid "Other"
+-msgstr ""
++msgstr "Annan"
+ 
+ #: src/menus/view/zoom.xml:169(para)
+ msgid ""
+ "This command brings up a dialog which allows you to choose any zoom level "
+ "you would like, within the range of 1:256 (0.39%) to 256:1 (25600%)."
+ msgstr ""
++"Det här kommandot öppnar en dialogruta där du kan välja önskad zoomnivå i "
++"intervallet 1:256 (0,39 %) till 256:1 (25 600 %)."
+ 
+ #: src/menus/view/zoom.xml:178(para)
+ msgid ""
+@@ -172,10 +222,13 @@
+ "\"gimp-view-new\">New view</link> command. This allows you to see what is "
+ "happening to the image at its normal size at the same time."
+ msgstr ""
++"När du arbetar på bildpunktsnivå kan du använda kommandot <link linkend="
++"\"gimp-view-new\">Ny vy</link>. Då kan du samtidigt se vad som händer med "
++"bilden i dess normala storlek."
+ 
+ #: src/menus/view/snap-to-path.xml:10(title)
+ msgid "Snap to Active Path"
+-msgstr ""
++msgstr "Fäst mot aktiv slinga"
+ 
+ #: src/menus/view/snap-to-path.xml:14(primary)
+ msgid "Path"
+@@ -183,9 +236,8 @@
+ 
+ #: src/menus/view/snap-to-path.xml:15(secondary)
+ #: src/menus/view/snap-to-path.xml:18(primary)
+-#, fuzzy
+ msgid "Snap to active path"
+-msgstr "Fäst mot hjälplinjer"
++msgstr "Fäst mot aktiv slinga"
+ 
+ #: src/menus/view/snap-to-path.xml:20(para)
+ msgid ""
+@@ -193,6 +245,9 @@
+ "to pull on the next anchor point of the active path when it approaches. This "
+ "is useful for accurate placement of image elements."
+ msgstr ""
++"Om alternativet är aktiverat verkar en markering eller ett lager dras mot "
++"nästa ankarpunkt på den aktiva slingan när det kommer nära den. Detta är "
++"användbart för exakt placering av bildelement."
+ 
+ #: src/menus/view/snap-to-path.xml:27(title)
+ #: src/menus/view/snap-to-guides.xml:38(phrase)
+@@ -221,6 +276,9 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Snap to Path</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
++"Du når kommandot från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Fäst mot slinga</"
++"guimenuitem></menuchoice>."
+ 
+ #: src/menus/view/snap-to-guides.xml:19(phrase)
+ #: src/menus/view/snap-to-guides.xml:23(secondary)
+@@ -242,6 +300,13 @@
+ "it when it approaches. This is enormously useful for accurate placement of "
+ "image elements."
+ msgstr ""
++"Kommandot <guimenuitem>Fäst mot hjälplinjer</guimenuitem> aktiverar och "
++"inaktiverar fästning mot hjälplinjer. När fästning mot hjälplinjer är "
++"aktiverad verkar de hjälplinjer du har ställt in (se <link linkend="
++"\"gimp-view-show-guides\">Visa hjälplinjer</link>) nästan magnetiska; när "
++"du flyttar ett lager eller en markering verkar hjälplinjerna dra den till "
++"sig när den kommer nära. Detta är mycket användbart för exakt placering av "
++"bildelement."
+ 
+ #: src/menus/view/snap-to-guides.xml:42(para)
+ msgid ""
+@@ -249,6 +314,9 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Snap to Guides</"
+ "guimenuitem></menuchoice>."
+ msgstr ""
++"Du når kommandot från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Fäst mot hjälplinjer</"
++"guimenuitem></menuchoice>."
+ 
+ #: src/menus/view/snap-to-grid.xml:19(phrase)
+ #: src/menus/view/snap-to-grid.xml:23(secondary)
+@@ -270,6 +338,12 @@
+ "when it approaches. This is enormously useful for accurate placement of "
+ "image elements."
+ msgstr ""
++"Kommandot <guimenuitem>Fäst mot rutnät</guimenuitem> aktiverar och "
++"inaktiverar fästning mot rutnät. När fästning mot rutnät är aktiverad verkar "
++"det rutnät du har ställt in (se <link linkend=\"gimp-view-show-grid\">Visa "
++"rutnät</link>) nästan magnetiskt; när du flyttar ett lager eller en "
++"markering verkar rutnätets punkter dra den till sig när den kommer nära. "
++"Detta är mycket användbart för exakt placering av bildelement."
+ 
+ #: src/menus/view/snap-to-grid.xml:42(para)
+ msgid ""
+@@ -277,21 +351,23 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Snap to Grid</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
++"Du når kommandot från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Fäst mot rutnät</"
++"guimenuitem></menuchoice>."
+ 
+ #: src/menus/view/snap-to-canvas.xml:10(title)
+ msgid "Snap to Canvas"
+-msgstr ""
++msgstr "Fäst mot arbetsyta"
+ 
+ #: src/menus/view/snap-to-canvas.xml:14(primary)
+ #: src/menus/view/padding-color.xml:17(primary)
+ msgid "Canvas"
+-msgstr ""
++msgstr "Arbetsyta"
+ 
+ #: src/menus/view/snap-to-canvas.xml:15(secondary)
+ #: src/menus/view/snap-to-canvas.xml:18(primary)
+-#, fuzzy
+ msgid "Snap to canvas"
+-msgstr "Fäst mot hjälplinjer"
++msgstr "Fäst mot arbetsyta"
+ 
+ #: src/menus/view/snap-to-canvas.xml:21(para)
+ msgid ""
+@@ -299,6 +375,9 @@
+ "to pull on the canvas edges when it approaches. This is useful for accurate "
+ "placement of image elements."
+ msgstr ""
++"Om alternativet är aktiverat verkar en markering eller ett lager dras mot "
++"arbetsytans kanter när det kommer nära dem. Detta är användbart för exakt "
++"placering av bildelement."
+ 
+ #: src/menus/view/snap-to-canvas.xml:27(para)
+ msgid ""
+@@ -307,6 +386,10 @@
+ "<menuchoice><guimenu>Image</guimenu><guimenuitem>Canvas Size</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
++"Arbetsytans kanter sammanfaller vanligtvis med bildens kanter: arbetsytan "
++"har då samma storlek som bilden. Du kan dock ändra arbetsytans storlek via "
++"<menuchoice><guimenu>Bild</guimenu><guimenuitem>Arbetsytans storlek</"
++"guimenuitem></menuchoice>."
+ 
+ #: src/menus/view/snap-to-canvas.xml:41(para)
+ msgid ""
+@@ -314,11 +397,14 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Snap to Canvas</"
+ "guimenuitem></menuchoice>."
+ msgstr ""
++"Du når kommandot från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Fäst mot arbetsyta</"
++"guimenuitem></menuchoice>."
+ 
+ #: src/menus/view/shrink-wrap.xml:19(phrase)
+ #: src/menus/view/shrink-wrap.xml:22(primary)
+ msgid "Shrink Wrap"
+-msgstr ""
++msgstr "Anpassa fönster till bild"
+ 
+ #: src/menus/view/shrink-wrap.xml:24(para)
+ msgid ""
+@@ -331,6 +417,14 @@
+ "change</quote> options in the <link linkend=\"gimp-prefs-image-window"
+ "\">Image Window</link> page of the Preferences dialog."
+ msgstr ""
++"Kommandot <guimenuitem>Anpassa fönster till bild</guimenuitem> ändrar "
++"fönstrets storlek så att den exakt motsvarar bildens storlek vid den "
++"aktuella zoomfaktorn. Om bilden inte ryms helt på skärmen förstoras "
++"bildfönstret så att största möjliga del av bilden visas. Observera att "
++"<acronym>GIMP</acronym> gör detta automatiskt om du anger alternativen "
++"<quote>Ändra fönsterstorlek vid zoomning</quote> och <quote>Ändra "
++"fönsterstorlek vid ändring av bildstorlek</quote> på sidan <link linkend="
++"\"gimp-prefs-image-window\">Bildfönster</link> i inställningsdialogrutan."
+ 
+ #: src/menus/view/shrink-wrap.xml:36(para)
+ msgid ""
+@@ -340,6 +434,10 @@
+ "functionality described may be different on your computer, or in the worst "
+ "case, might not be available at all."
+ msgstr ""
++"Observera också att beteendet som beskrivs här inte utförs av "
++"<acronym>GIMP</acronym> självt, utan av <quote>fönsterhanteraren</quote>, "
++"som är en del av datorns operativsystem. Därför kan funktionen fungera "
++"annorlunda på din dator eller i värsta fall inte vara tillgänglig alls."
+ 
+ #: src/menus/view/shrink-wrap.xml:50(para)
+ msgid ""
+@@ -347,12 +445,17 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Shrink Wrap</guimenuitem></"
+ "menuchoice>,"
+ msgstr ""
++"Du når kommandot från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Anpassa fönster till bild</"
++"guimenuitem></menuchoice>,"
+ 
+ #: src/menus/view/shrink-wrap.xml:59(para)
+ msgid ""
+ "or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>E</"
+ "keycap></keycombo>."
+ msgstr ""
++"eller med tangentbordsgenvägen <keycombo><keycap>Ctrl</keycap><keycap>E</"
++"keycap></keycombo>."
+ 
+ #: src/menus/view/show-statusbar.xml:19(phrase)
+ #: src/menus/view/show-statusbar.xml:26(primary)
+@@ -373,12 +476,17 @@
+ "displaying the status bar. It may be useful to disable it when you are "
+ "working in <link linkend=\"gimp-view-fullscreen\">full-screen mode</link>."
+ msgstr ""
++"Kommandot <guimenuitem>Visa statusrad</guimenuitem> aktiverar och "
++"inaktiverar visningen av statusraden. Det kan vara praktiskt att inaktivera "
++"den när du arbetar i <link linkend=\"gimp-view-fullscreen\">helskärmsläge</link>."
+ 
+ #: src/menus/view/show-statusbar.xml:34(para)
+ msgid ""
+ "You can set the default for the status bar in the <link linkend=\"gimp-prefs-"
+ "image-window\">Image Window Appearance</link> dialog."
+ msgstr ""
++"Du kan ange standardinställningen för statusraden i dialogrutan <link linkend="
++"\"gimp-prefs-image-window\">Bildfönstrets utseende</link>."
+ 
+ #: src/menus/view/show-statusbar.xml:45(para)
+ msgid ""
+@@ -386,6 +494,9 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Statusbar</"
+ "guimenuitem></menuchoice>."
+ msgstr ""
++"Du når kommandot från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Visa statusrad</"
++"guimenuitem></menuchoice>."
+ 
+ #: src/menus/view/show-selection.xml:19(phrase)
+ #: src/menus/view/show-selection.xml:27(primary)
+@@ -398,11 +509,11 @@
+ 
+ #: src/menus/view/show-selection.xml:23(secondary)
+ msgid "Selection boundary"
+-msgstr ""
++msgstr "Markeringskant"
+ 
+ #: src/menus/view/show-selection.xml:24(tertiary)
+ msgid "Show/Mask selection boundary"
+-msgstr ""
++msgstr "Visa/dölj markeringskant"
+ 
+ #: src/menus/view/show-selection.xml:29(para)
+ msgid ""
+@@ -411,12 +522,18 @@
+ "Please note that the selection still exists, even if displaying this line is "
+ "disabled."
+ msgstr ""
++"Kommandot <guimenuitem>Visa markering</guimenuitem> aktiverar och "
++"inaktiverar visningen av den streckade linje som omger markeringen i "
++"bildfönstret. Observera att markeringen fortfarande finns även om visningen "
++"av denna linje är inaktiverad."
+ 
+ #: src/menus/view/show-selection.xml:35(para)
+ msgid ""
+ "You can set the default for displaying the selection in the <link linkend="
+ "\"gimp-prefs-image-window\">Image Window Appearance</link> dialog."
+ msgstr ""
++"Du kan ange standardinställningen för visning av markeringen i dialogrutan "
++"<link linkend=\"gimp-prefs-image-window\">Bildfönstrets utseende</link>."
+ 
+ #: src/menus/view/show-selection.xml:46(para)
+ msgid ""
+@@ -424,12 +541,17 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Selection</"
+ "guimenuitem></menuchoice>,"
+ msgstr ""
++"Du når kommandot från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Visa markering</"
++"guimenuitem></menuchoice>,"
+ 
+ #: src/menus/view/show-selection.xml:55(para)
+ msgid ""
+ "or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>T</"
+ "keycap></keycombo>."
+ msgstr ""
++"eller med tangentbordsgenvägen <keycombo><keycap>Ctrl</keycap><keycap>T</"
++"keycap></keycombo>."
+ 
+ #: src/menus/view/show-scrollbars.xml:19(phrase)
+ #: src/menus/view/show-scrollbars.xml:26(primary)
+@@ -442,7 +564,7 @@
+ 
+ #: src/menus/view/show-scrollbars.xml:23(secondary)
+ msgid "Show/Mask scrollbars"
+-msgstr ""
++msgstr "Visa/dölj rullningslister"
+ 
+ #: src/menus/view/show-scrollbars.xml:28(para)
+ msgid ""
+@@ -450,12 +572,18 @@
+ "displaying the scrollbars. It may be useful to disable them if you are "
+ "working in <link linkend=\"gimp-view-fullscreen\">full-screen mode</link>."
+ msgstr ""
++"Kommandot <guimenuitem>Visa rullningslister</guimenuitem> aktiverar och "
++"inaktiverar visningen av rullningslisterna. Det kan vara praktiskt att "
++"inaktivera dem när du arbetar i <link linkend=\"gimp-view-fullscreen\">"
++"helskärmsläge</link>."
+ 
+ #: src/menus/view/show-scrollbars.xml:34(para)
+ msgid ""
+ "You can set the default for the scrollbars in the <link linkend=\"gimp-prefs-"
+ "image-window\">Image Window Appearance</link> dialog."
+ msgstr ""
++"Du kan ange standardinställningen för rullningslisterna i dialogrutan "
++"<link linkend=\"gimp-prefs-image-window\">Bildfönstrets utseende</link>."
+ 
+ #: src/menus/view/show-scrollbars.xml:45(para)
+ msgid ""
+@@ -463,6 +591,9 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Scrollbars</"
+ "guimenuitem></menuchoice>."
+ msgstr ""
++"Du når kommandot från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Visa rullningslister</"
++"guimenuitem></menuchoice>."
+ 
+ #: src/menus/view/show-sample-points.xml:20(phrase)
+ msgid "Show Sample Points"
+@@ -479,6 +610,10 @@
+ "pixels in the <link linkend=\"gimp-sample-point-dialog\">sample points "
+ "dialog</link>."
+ msgstr ""
++"Det här kommandot aktiverar och inaktiverar visning av samplingspunkterna i "
++"bildfönstret. Samplingspunkter används för att visa färginformation för upp "
++"till fyra bildpunkter i <link linkend=\"gimp-sample-point-dialog\">"
++"samplingspunktsdialogen</link>."
+ 
+ #: src/menus/view/show-sample-points.xml:37(para)
+ msgid ""
+@@ -486,6 +621,9 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Sample Points</"
+ "guimenuitem></menuchoice>."
+ msgstr ""
++"Du når kommandot från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Visa samplingspunkter</"
++"guimenuitem></menuchoice>."
+ 
+ #: src/menus/view/show-rulers.xml:19(phrase)
+ #: src/menus/view/show-rulers.xml:26(primary)
+@@ -498,7 +636,7 @@
+ 
+ #: src/menus/view/show-rulers.xml:23(secondary)
+ msgid "Show/Mask rulers"
+-msgstr ""
++msgstr "Visa/dölj linjaler"
+ 
+ #: src/menus/view/show-rulers.xml:28(para)
+ msgid ""
+@@ -506,12 +644,17 @@
+ "displaying the rulers. It may be useful to disable them if you are working "
+ "in <link linkend=\"gimp-view-fullscreen\">full-screen mode</link>."
+ msgstr ""
++"Kommandot <guimenuitem>Visa linjaler</guimenuitem> aktiverar och "
++"inaktiverar visningen av linjalerna. Det kan vara praktiskt att inaktivera "
++"dem när du arbetar i <link linkend=\"gimp-view-fullscreen\">helskärmsläge</link>."
+ 
+ #: src/menus/view/show-rulers.xml:33(para)
+ msgid ""
+ "You can set the default for the rulers in the <link linkend=\"gimp-prefs-"
+ "image-window\">Image Window Appearance</link> dialog."
+ msgstr ""
++"Du kan ange standardinställningen för linjalerna i dialogrutan <link linkend="
++"\"gimp-prefs-image-window\">Bildfönstrets utseende</link>."
+ 
+ #: src/menus/view/show-rulers.xml:44(para)
+ msgid ""
+@@ -519,12 +662,17 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Rulers</guimenuitem></"
+ "menuchoice>,"
+ msgstr ""
++"Du når kommandot från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Visa linjaler</"
++"guimenuitem></menuchoice>,"
+ 
+ #: src/menus/view/show-rulers.xml:53(para)
+ msgid ""
+ "or by using the keyboard shortcut <keycombo><keycap>Shift</"
+ "keycap><keycap>Ctrl</keycap><keycap>R</keycap></keycombo>."
+ msgstr ""
++"eller med tangentbordsgenvägen <keycombo><keycap>Skift</"
++"keycap><keycap>Ctrl</keycap><keycap>R</keycap></keycombo>."
+ 
+ #: src/menus/view/show-menubar.xml:19(phrase)
+ #: src/menus/view/show-menubar.xml:26(primary)
+@@ -537,7 +685,7 @@
+ 
+ #: src/menus/view/show-menubar.xml:23(secondary)
+ msgid "Show/Mask menu bar"
+-msgstr ""
++msgstr "Visa/dölj menyrad"
+ 
+ #: src/menus/view/show-menubar.xml:28(para)
+ msgid ""
+@@ -547,12 +695,19 @@
+ "menubar is not displayed, you can right-click on the image to access the "
+ "menubar entries."
+ msgstr ""
++"Kommandot <guimenuitem>Visa menyrad</guimenuitem> aktiverar och inaktiverar "
++"visningen av menyraden. Det kan vara praktiskt att inaktivera den när du "
++"arbetar i <link linkend=\"gimp-view-fullscreen\">helskärmsläge</link>. Om "
++"menyraden inte visas kan du högerklicka på bilden för att nå menyradens "
++"poster."
+ 
+ #: src/menus/view/show-menubar.xml:35(para)
+ msgid ""
+ "You can set the default for the menubar in the <link linkend=\"gimp-prefs-"
+ "image-window\">Image Window Appearance</link> dialog."
+ msgstr ""
++"Du kan ange standardinställningen för menyraden i dialogrutan <link linkend="
++"\"gimp-prefs-image-window\">Bildfönstrets utseende</link>."
+ 
+ #: src/menus/view/show-menubar.xml:46(para)
+ msgid ""
+@@ -560,19 +715,22 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Menubar</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
++"Du når kommandot från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Visa menyrad</"
++"guimenuitem></menuchoice>."
+ 
+ #: src/menus/view/show-layer-boundary.xml:19(phrase)
+ #: src/menus/view/show-layer-boundary.xml:26(primary)
+ msgid "Show Layer Boundary"
+-msgstr ""
++msgstr "Visa lagerkant"
+ 
+ #: src/menus/view/show-layer-boundary.xml:22(primary)
+ msgid "Layer boundary"
+-msgstr ""
++msgstr "Lagerkant"
+ 
+ #: src/menus/view/show-layer-boundary.xml:23(secondary)
+ msgid "Show/mask layer boundary"
+-msgstr ""
++msgstr "Visa/dölj lagerkant"
+ 
+ #: src/menus/view/show-layer-boundary.xml:28(para)
+ msgid ""
+@@ -582,12 +740,19 @@
+ "smaller than the image window. When the layer is the same size as the image "
+ "window, the layer boundary is obscured by the image border."
+ msgstr ""
++"Kommandot <guimenuitem>Visa lagerkant</guimenuitem> aktiverar och "
++"inaktiverar visningen av den gula streckade linje som omger ett lager i "
++"bildfönstret. Den streckade linjen syns i praktiken bara när lagret är "
++"mindre än bildfönstret. När lagret har samma storlek som bildfönstret döljs "
++"lagerkanten av bildens kant."
+ 
+ #: src/menus/view/show-layer-boundary.xml:35(para)
+ msgid ""
+ "You can set the default for the layer boundary in the <link linkend=\"gimp-"
+ "prefs-image-window\">Image Window Appearance</link> dialog."
+ msgstr ""
++"Du kan ange standardinställningen för lagerkanten i dialogrutan <link linkend="
++"\"gimp-prefs-image-window\">Bildfönstrets utseende</link>."
+ 
+ #: src/menus/view/show-layer-boundary.xml:46(para)
+ msgid ""
+@@ -595,6 +760,9 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Layer Boundary</"
+ "guimenuitem></menuchoice>."
+ msgstr ""
++"Du når kommandot från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Visa lagerkant</"
++"guimenuitem></menuchoice>."
+ 
+ #: src/menus/view/show-guides.xml:19(phrase)
+ #: src/menus/view/show-guides.xml:26(primary)
+@@ -603,7 +771,7 @@
+ 
+ #: src/menus/view/show-guides.xml:23(secondary)
+ msgid "Show/Mask Guides"
+-msgstr ""
++msgstr "Visa/dölj hjälplinjer"
+ 
+ #: src/menus/view/show-guides.xml:28(para)
+ msgid ""
+@@ -611,12 +779,17 @@
+ "displaying of <link linkend=\"glossary-guides\">Guides</link> in the image "
+ "window."
+ msgstr ""
++"Kommandot <guimenuitem>Visa hjälplinjer</guimenuitem> aktiverar och "
++"inaktiverar visningen av <link linkend=\"glossary-guides\">hjälplinjer</"
++"link> i bildfönstret."
+ 
+ #: src/menus/view/show-guides.xml:33(para)
+ msgid ""
+ "You can set the default for the guides in the <link linkend=\"gimp-prefs-"
+ "image-window\">Image Window Appearance</link> dialog."
+ msgstr ""
++"Du kan ange standardinställningen för hjälplinjerna i dialogrutan <link "
++"linkend=\"gimp-prefs-image-window\">Bildfönstrets utseende</link>."
+ 
+ #: src/menus/view/show-guides.xml:44(para)
+ msgid ""
+@@ -624,12 +797,17 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Guides</guimenuitem></"
+ "menuchoice>,"
+ msgstr ""
++"Du når kommandot från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Visa hjälplinjer</"
++"guimenuitem></menuchoice>,"
+ 
+ #: src/menus/view/show-guides.xml:53(para)
+ msgid ""
+ "or by using the keyboard shortcut <keycombo><keycap>Shift</"
+ "keycap><keycap>Ctrl</keycap><keycap>T</keycap></keycombo>."
+ msgstr ""
++"eller med tangentbordsgenvägen <keycombo><keycap>Skift</"
++"keycap><keycap>Ctrl</keycap><keycap>T</keycap></keycombo>."
+ 
+ #: src/menus/view/show-grid.xml:19(phrase)
+ #: src/menus/view/show-grid.xml:26(primary)
+@@ -638,7 +816,7 @@
+ 
+ #: src/menus/view/show-grid.xml:23(secondary)
+ msgid "Show/Mask Grid"
+-msgstr ""
++msgstr "Visa/dölj rutnät"
+ 
+ #: src/menus/view/show-grid.xml:28(para)
+ msgid ""
+@@ -646,12 +824,17 @@
+ "and disable displaying the grid. When you enable it, the grid overlays the "
+ "image and makes it easier for you to line up selected image elements."
+ msgstr ""
++"Med kommandot <guimenuitem>Visa rutnät</guimenuitem> kan du aktivera och "
++"inaktivera visningen av rutnätet. När du aktiverar det läggs rutnätet över "
++"bilden och gör det lättare att rikta in valda bildelement."
+ 
+ #: src/menus/view/show-grid.xml:34(para)
+ msgid ""
+ "You can set the default for the grid in the <link linkend=\"gimp-prefs-image-"
+ "window\">Image Window Appearance</link> dialog."
+ msgstr ""
++"Du kan ange standardinställningen för rutnätet i dialogrutan <link linkend="
++"\"gimp-prefs-image-window\">Bildfönstrets utseende</link>."
+ 
+ #: src/menus/view/show-grid.xml:40(para)
+ msgid ""
+@@ -659,6 +842,9 @@
+ "link> command and the <link linkend=\"gimp-view-snap-to-grid\">Snap to Grid</"
+ "link> command."
+ msgstr ""
++"Se även kommandot <link linkend=\"gimp-image-configure-grid\">Konfigurera "
++"rutnät</link> och kommandot <link linkend=\"gimp-view-snap-to-grid\">Fäst "
++"mot rutnät</link>."
+ 
+ #: src/menus/view/show-grid.xml:53(para)
+ msgid ""
+@@ -666,6 +852,9 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Grid</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
++"Du når kommandot från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Visa rutnät</"
++"guimenuitem></menuchoice>."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -677,7 +866,7 @@
+ 
+ #: src/menus/view/padding-color.xml:10(title)
+ msgid "Padding Color"
+-msgstr ""
++msgstr "Arbetsytans färg"
+ 
+ #: src/menus/view/padding-color.xml:13(primary)
+ #: src/menus/view/introduction.xml:20(quote)
+@@ -688,12 +877,12 @@
+ #: src/menus/view/padding-color.xml:14(secondary)
+ #: src/menus/view/padding-color.xml:25(secondary)
+ msgid "Padding color of canvas"
+-msgstr ""
++msgstr "Arbetsytans färg"
+ 
+ #: src/menus/view/padding-color.xml:18(secondary)
+ #: src/menus/view/padding-color.xml:21(primary)
+ msgid "Padding color"
+-msgstr ""
++msgstr "Arbetsytans färg"
+ 
+ #: src/menus/view/padding-color.xml:24(primary)
+ #: src/menus/view/display-filters.xml:24(primary)
+@@ -703,7 +892,7 @@
+ 
+ #: src/menus/view/padding-color.xml:29(title)
+ msgid "Contents of the <quote>Padding Color</quote> submenu"
+-msgstr ""
++msgstr "Innehållet på undermenyn <quote>Arbetsytans färg</quote>"
+ 
+ #: src/menus/view/padding-color.xml:36(para)
+ msgid ""
+@@ -714,10 +903,16 @@
+ "padding color does not have any effect on the image itself. Please note that "
+ "this color is not the same as the color used by the Fill tool."
+ msgstr ""
++"Du kan ändra färgen på den arbetsyta som omger bilden med kommandot "
++"<guimenuitem>Arbetsytans färg</guimenuitem>. Arbetsytan är den yta som "
++"bilden ligger på. Den ser ut som en ram runt bilden i bildfönstret. Det är "
++"bara en fråga om personlig smak, eftersom arbetsytans färg inte påverkar "
++"själva bilden. Observera att denna färg inte är samma som den färg som "
++"används av fyllverktyget."
+ 
+ #: src/menus/view/padding-color.xml:47(title)
+ msgid "Activating the submenu"
+-msgstr ""
++msgstr "Aktivera undermenyn"
+ 
+ #: src/menus/view/padding-color.xml:50(para)
+ msgid ""
+@@ -725,48 +920,57 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Padding Color</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
++"Du når denna undermeny från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Arbetsytans färg</"
++"guimenuitem></menuchoice>."
+ 
+ #: src/menus/view/padding-color.xml:61(title)
+ msgid "<quote>Padding Color</quote> Options"
+-msgstr ""
++msgstr "Alternativ för <quote>Arbetsytans färg</quote>"
+ 
+ #: src/menus/view/padding-color.xml:64(term)
+ msgid "From Theme"
+-msgstr ""
++msgstr "Från tema"
+ 
+ #: src/menus/view/padding-color.xml:66(para)
+ msgid ""
+ "The color of the theme defined in <link linkend=\"gimp-prefs-theme"
+ "\">Preferences Theme</link> is used."
+ msgstr ""
++"Färgen från det tema som angetts i <link linkend=\"gimp-prefs-theme\">"
++"Inställningarnas tema</link> används."
+ 
+ #: src/menus/view/padding-color.xml:73(term)
+ msgid "Light/Dark Check Color"
+-msgstr ""
++msgstr "Ljus/mörk schackrutig färg"
+ 
+ #: src/menus/view/padding-color.xml:75(para)
+ msgid ""
+ "The check representing transparency, which is defined in <link linkend="
+ "\"gimp-prefs-display\">Preferences Display</link> is used."
+ msgstr ""
++"Det schackmönster som representerar genomskinlighet och angetts i <link "
++"linkend=\"gimp-prefs-display\">Inställningarnas visning</link> används."
+ 
+ #: src/menus/view/padding-color.xml:83(term)
+ msgid "Select Custom Color"
+-msgstr ""
++msgstr "Välj anpassad färg"
+ 
+ #: src/menus/view/padding-color.xml:85(para)
+ msgid "Opens the Color Selector window to let you choose a color to use."
+-msgstr ""
++msgstr "Öppnar färgväljarfönstret där du kan välja en färg att använda."
+ 
+ #: src/menus/view/padding-color.xml:91(term)
+ msgid "As in Preferences"
+-msgstr ""
++msgstr "Som i inställningarna"
+ 
+ #: src/menus/view/padding-color.xml:93(para)
+ msgid ""
+ "The color selected in the <link linkend=\"gimp-prefs-image-window-appearance"
+ "\">Image Window Appearance</link> is used."
+ msgstr ""
++"Färgen som valts i <link linkend=\"gimp-prefs-image-window-appearance\">"
++"Bildfönstrets utseende</link> används."
+ 
+ #: src/menus/view/new.xml:19(phrase) src/menus/view/new.xml:22(primary)
+ msgid "New View"
+@@ -785,6 +989,15 @@
+ "working on individual pixels at a high zoom factor. You could then see the "
+ "effects your changes would have on the image at a normal size."
+ msgstr ""
++"Kommandot <guimenuitem>Ny vy</guimenuitem> skapar ett nytt bildfönster för "
++"den aktuella bilden, som du kan ställa in annorlunda än den befintliga "
++"vyn. Du kan skapa flera vyer av en bild, numrerade .1, .2 och så vidare, "
++"men endast zoomfaktorn och andra visningsalternativ kan skilja sig åt. Alla "
++"ändringar du gör i ett fönster, utom visningsändringar, visas också i de "
++"andra vyerna som visar samma bild. De nya vyerna är inte separata bildfiler "
++"utan bara olika sätt att se samma bild. Du kan till exempel använda flera "
++"vyer när du arbetar med enskilda bildpunkter vid hög zoomfaktor. Då kan du "
++"samtidigt se vilken effekt ändringarna får på bilden i normal storlek."
+ 
+ #: src/menus/view/new.xml:50(para)
+ msgid ""
+@@ -792,6 +1005,9 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>New View</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
++"Du når kommandot från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Ny vy</guimenuitem></"
++"menuchoice>."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -811,7 +1027,7 @@
+ 
+ #: src/menus/view/navigwindow.xml:23(secondary)
+ msgid "View Navigation window"
+-msgstr ""
++msgstr "Visa navigeringsfönster"
+ 
+ #: src/menus/view/navigwindow.xml:25(para)
+ msgid ""
+@@ -822,6 +1038,11 @@
+ "the <link linkend=\"gimp-navigation-dialog\">Navigation dialog</link> "
+ "chapter."
+ msgstr ""
++"Kommandot <guimenuitem>Navigeringsfönster</guimenuitem> öppnar <link "
++"linkend=\"gimp-navigation-dialog\">navigeringsfönstret</link>. Där kan du "
++"enkelt navigera i bilden, ställa in zoomnivåer och flytta bildens synliga "
++"delar. Mer information om hur du använder det finns i kapitlet <link linkend="
++"\"gimp-navigation-dialog\">Navigeringsdialog</link>."
+ 
+ #: src/menus/view/navigwindow.xml:38(para)
+ msgid ""
+@@ -829,12 +1050,17 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Navigation Window</"
+ "guimenuitem></menuchoice>,"
+ msgstr ""
++"Du når kommandot från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Navigeringsfönster</"
++"guimenuitem></menuchoice>,"
+ 
+ #: src/menus/view/navigwindow.xml:47(para)
+ msgid ""
+ "You can also access it more rapidly by clicking on the <placeholder-1/> icon "
+ "in the lower right corner of the image window."
+ msgstr ""
++"Du når det även snabbare genom att klicka på ikonen <placeholder-1/> i "
++"bildfönstrets nedre högra hörn."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -885,6 +1111,13 @@
+ "can set the default appearance for full-screen mode in the <link linkend="
+ "\"gimp-prefs-image-window-appearance\">Preferences</link> menu."
+ msgstr ""
++"Kommandot <guimenuitem>Helskärm</guimenuitem> aktiverar och inaktiverar "
++"visning av bildfönstret över hela skärmen. När det är aktiverat upptar "
++"bildfönstret hela skärmen, men bilden behåller samma storlek. När du "
++"aktiverar helskärmsläge kanske menyraden inte visas, men då kan du "
++"högerklicka på bilden för att nå bildmenyn. Du kan ange standardutseendet "
++"för helskärmsläge i menyn <link linkend=\"gimp-prefs-image-window-appearance\">"
++"Inställningar</link>."
+ 
+ #: src/menus/view/fullscreen.xml:40(para)
+ msgid ""
+@@ -893,6 +1126,11 @@
+ "Instead, you can maximize the image window by clicking on the "
+ "<emphasis>Green Button</emphasis>, so the image occupies most of the screen."
+ msgstr ""
++"Om du använder <acronym>GIMP</acronym> på en Apple-dator kanske "
++"helskärmsläget inte fungerar, eftersom Apple inte tillhandahåller den "
++"nödvändiga funktionen. I stället kan du maximera bildfönstret genom att "
++"klicka på <emphasis>den gröna knappen</emphasis>, så att bilden upptar "
++"större delen av skärmen."
+ 
+ #: src/menus/view/fullscreen.xml:54(para)
+ msgid ""
+@@ -900,10 +1138,13 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Full Screen</guimenuitem></"
+ "menuchoice>,"
+ msgstr ""
++"Du når kommandot från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Helskärm</guimenuitem></"
++"menuchoice>,"
+ 
+ #: src/menus/view/fullscreen.xml:62(para)
+ msgid "or by using the keyboard shortcut <keycap>F11</keycap>."
+-msgstr ""
++msgstr "eller med tangentbordsgenvägen <keycap>F11</keycap>."
+ 
+ #: src/menus/view/dot-for-dot.xml:10(title)
+ #: src/menus/view/dot-for-dot.xml:14(secondary)
+@@ -919,36 +1160,45 @@
+ "screen. If it is disabled, the image is displayed at its <quote>real</quote> "
+ "size, the size it will have when it is printed."
+ msgstr ""
++"Kommandot <guimenuitem>Punkt för punkt</guimenuitem> aktiverar och "
++"inaktiverar läget <quote>Punkt för punkt</quote>. Om det är aktiverat "
++"(markerat) och zoomfaktorn är 100 % visas varje bildpunkt i bilden som en "
++"bildpunkt på skärmen. Om det är inaktiverat visas bilden i sin <quote>verkliga</"
++"quote> storlek, alltså den storlek den får vid utskrift."
+ 
+ #: src/menus/view/dot-for-dot.xml:27(para)
+ msgid ""
+ "The example below will illustrate this. Imagine the following image "
+ "properties:"
+-msgstr ""
++msgstr "Exemplet nedan illustrerar detta. Föreställ dig följande bildegenskaper:"
+ 
+ #: src/menus/view/dot-for-dot.xml:33(para)
+ msgid "Image size: 100x100 pixels"
+-msgstr ""
++msgstr "Bildstorlek: 100 × 100 bildpunkter"
+ 
+ #: src/menus/view/dot-for-dot.xml:36(para)
+ msgid "Image resolution: 300dpi (dots per inch)"
+-msgstr ""
++msgstr "Bildupplösning: 300 dpi (punkter per tum)"
+ 
+ #: src/menus/view/dot-for-dot.xml:39(para)
+ msgid ""
+ "Image displayed with Zoom=100%, <quote>Dot for Dot</quote><emphasis>enabled</"
+ "emphasis>: 100x100 pixels"
+ msgstr ""
++"Bild visas med Zoom=100 %, <quote>Punkt för punkt</quote><emphasis>aktiverat</"
++"emphasis>: 100 × 100 bildpunkter"
+ 
+ #: src/menus/view/dot-for-dot.xml:45(para)
+ msgid ""
+ "Image displayed with Zoom=100%, <quote>Dot for Dot</"
+ "quote><emphasis>disabled</emphasis>:"
+ msgstr ""
++"Bild visas med Zoom=100 %, <quote>Punkt för punkt</quote><emphasis>inaktiverat</"
++"emphasis>:"
+ 
+ #: src/menus/view/dot-for-dot.xml:50(alt)
+ msgid "$100pixels \\div 300dpi = \\frac{1}{3} inch \\approx 0.85cm$"
+-msgstr ""
++msgstr "$100pixels \\div 300dpi = \\frac{1}{3} inch \\approx 0.85cm$"
+ 
+ #: src/menus/view/dot-for-dot.xml:57(para)
+ msgid ""
+@@ -956,6 +1206,9 @@
+ "the same as the screen resolution in the <link linkend=\"gimp-prefs-display"
+ "\">Preferences menu</link>."
+ msgstr ""
++"För att läget Punkt för punkt ska fungera korrekt måste bildupplösningen "
++"vara samma som skärmupplösningen i <link linkend=\"gimp-prefs-display\">"
++"menyn Inställningar</link>."
+ 
+ #: src/menus/view/dot-for-dot.xml:62(para)
+ msgid ""
+@@ -963,6 +1216,9 @@
+ "graphics. If you are working on images intended to be printed, you should "
+ "disable Dot-for-Dot mode."
+ msgstr ""
++"Det rekommenderas att du aktiverar detta läge när du arbetar med ikoner och "
++"webbgrafik. Om du arbetar med bilder som ska skrivas ut bör du inaktivera "
++"läget Punkt för punkt."
+ 
+ #: src/menus/view/dot-for-dot.xml:72(para)
+ msgid ""
+@@ -970,6 +1226,9 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Dot for Dot</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
++"Du når kommandot från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Punkt för punkt</"
++"guimenuitem></menuchoice>."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1105,6 +1364,13 @@
+ "prints, controlling the color management but also simulation of color "
+ "deficient vision."
+ msgstr ""
++"När kommandot körs visas en dialogruta. I denna ruta kan du hantera "
++"visningsfiltren och deras alternativ. Visningsfilter ska inte förväxlas med "
++"filtren på <guimenu>filter</guimenu>-menyn. Visningsfilter ändrar inte "
++"bilddata utan bara en visning av den. Du kan tänka på visningsfilter som "
++"stora rutor framför skärmen: de förändrar hur du uppfattar bilden. Detta kan "
++"vara användbart för exempelvis skärmkorrektur av utskrifter, kontroll av "
++"färghantering och simulering av nedsatt färgseende."
+ 
+ #: src/menus/view/display-filters.xml:43(para)
+ msgid ""
+@@ -1112,6 +1378,9 @@
+ "<menuchoice><guimenu>View</guimenu><guimenuitem>Display Filters…</"
+ "guimenuitem></menuchoice>."
+ msgstr ""
++"Du når kommandot från bildens menyrad via "
++"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Visningsfilter…</"
++"guimenuitem></menuchoice>."
+ 
+ #: src/menus/view/display-filters.xml:55(phrase)
+ msgid "Description of the <placeholder-1/> Dialog"
+@@ -1119,7 +1388,7 @@
+ 
+ #: src/menus/view/display-filters.xml:62(quote)
+ msgid "Configure Color Display Filters"
+-msgstr ""
++msgstr "Konfigurera färgvisningsfilter"
+ 
+ #: src/menus/view/display-filters.xml:61(phrase)
+ #: src/menus/view/display-filters.xml:282(phrase)
+@@ -1142,31 +1411,44 @@
+ "the two selectboxes, in the <guilabel>Configure Selected Filter</guilabel> "
+ "area."
+ msgstr ""
++"Dialogrutan har två små listrutor. Den vänstra visar <guilabel>Tillgängliga "
++"filter</guilabel>. Du kan flytta ett filter till den högra listrutan genom "
++"att välja det och klicka på knappen <guibutton>högerpil</guibutton>. Rutan "
++"<guilabel>Aktiva filter</guilabel> till höger visar de filter du har valt "
++"och som används om den intilliggande rutan är markerad. Du kan flytta filter "
++"från höger till vänster listruta med knappen <guibutton>vänsterpil</"
++"guibutton>. När du väljer ett filter genom att klicka på dess namn visas "
++"dess alternativ under listrutorna, i området <guilabel>Konfigurera valt "
++"filter</guilabel>."
+ 
+ #: src/menus/view/display-filters.xml:86(para)
+ msgid ""
+ "<phrase>Simulation of deficient vision</phrase> (<xref linkend=\"gimp-"
+ "deficient-vision\"/>; <xref linkend=\"gimp-gamma-dialog\"/>)"
+ msgstr ""
++"<phrase>Simulering av nedsatt färgseende</phrase> (<xref linkend=\"gimp-"
++"deficient-vision\"/>; <xref linkend=\"gimp-gamma-dialog\"/>)"
+ 
+ #: src/menus/view/display-filters.xml:92(para)
+ msgid ""
+ "<phrase>Color Management</phrase> (<xref linkend=\"gimp-display-filter-color-"
+ "management\"/>; <xref linkend=\"gimp-color-proof\"/>)"
+ msgstr ""
++"<phrase>Färghantering</phrase> (<xref linkend=\"gimp-display-filter-color-"
++"management\"/>; <xref linkend=\"gimp-color-proof\"/>)"
+ 
+ #: src/menus/view/display-filters.xml:98(para)
+ msgid "<phrase>Others</phrase> (<xref linkend=\"gimp-contrast-dialog\"/>)"
+-msgstr ""
++msgstr "<phrase>Övriga</phrase> (<xref linkend=\"gimp-contrast-dialog\"/>)"
+ 
+ #: src/menus/view/display-filters.xml:106(phrase)
+ #: src/menus/view/display-filters.xml:122(quote)
+ msgid "Color Deficient Vision"
+-msgstr ""
++msgstr "Nedsatt färgseende"
+ 
+ #: src/menus/view/display-filters.xml:110(secondary)
+ msgid "Deficient vision"
+-msgstr ""
++msgstr "Nedsatt färgseende"
+ 
+ #: src/menus/view/display-filters.xml:112(para)
+ msgid ""
+@@ -1176,6 +1458,10 @@
+ "with different settings from yours. Some information might not even be "
+ "visible."
+ msgstr ""
++"Bilderna du skapar kommer förhoppningsvis att ses av många människor på "
++"många olika system. Bilden som ser fantastisk ut på din skärm kan se något "
++"annorlunda ut för personer med nedsatt syn eller på en skärm med andra "
++"inställningar än dina. Viss information kanske inte ens syns."
+ 
+ #: src/menus/view/display-filters.xml:121(phrase)
+ msgid "Description of the <placeholder-1/> dialog"
+@@ -1189,11 +1475,11 @@
+ 
+ #: src/menus/view/display-filters.xml:136(term)
+ msgid "Color Deficiency Type"
+-msgstr ""
++msgstr "Typ av färgseendenedsättning"
+ 
+ #: src/menus/view/display-filters.xml:138(para)
+ msgid "In this drop-down menu you can select from among:"
+-msgstr ""
++msgstr "I denna rullgardinsmeny kan du välja mellan:"
+ 
+ #: src/menus/view/display-filters.xml:145(para)
+ msgid ""
+@@ -1201,16 +1487,22 @@
+ "linkend=\"glossary-colormodel\">RGB Color System</link>): <foreignphrase>an</"
+ "foreignphrase>: negation; <foreignphrase>op</foreignphrase>: eye, vision."
+ msgstr ""
++"Grekiska: <foreignphrase>proto</foreignphrase>: första (färg i <link "
++"linkend=\"glossary-colormodel\">RGB-färgsystemet</link>); "
++"<foreignphrase>an</foreignphrase>: negation; <foreignphrase>op</"
++"foreignphrase>: öga, syn."
+ 
+ #: src/menus/view/display-filters.xml:143(term)
+ msgid "Protanopia<placeholder-1/> (insensitivity to red)"
+-msgstr ""
++msgstr "Protanopi<placeholder-1/> (nedsatt känslighet för rött)"
+ 
+ #: src/menus/view/display-filters.xml:156(para)
+ msgid ""
+ "Protanopia is a visual deficiency of the color red. It's the well-known "
+ "daltonism (red-green color blindness)."
+ msgstr ""
++"Protanopi är en nedsättning av färgseendet för rött. Det är den välkända "
++"daltonismen (röd-grön färgblindhet)."
+ 
+ #: src/menus/view/display-filters.xml:160(para)
+ msgid ""
+@@ -1219,10 +1511,14 @@
+ "blue. In addition, he has a loss of luminance perception and the hues shift "
+ "toward the short wavelengths."
+ msgstr ""
++"Protanopi är i själva verket mer komplicerat än så: en person med detta "
++"problem kan varken se rött eller grönt, men är fortfarande känslig för gult "
++"och blått. Dessutom försämras ljusstyrkeuppfattningen och nyanserna förskjuts "
++"mot korta våglängder."
+ 
+ #: src/menus/view/display-filters.xml:170(term)
+ msgid "Deuteranopia (insensivity to green)"
+-msgstr ""
++msgstr "Deuteranopi (nedsatt känslighet för grönt)"
+ 
+ #: src/menus/view/display-filters.xml:172(para)
+ msgid ""
+@@ -1230,10 +1526,13 @@
+ "is actually like protanopia, because the person has a loss of red and green "
+ "perception, but he has no luminance loss or hue shift."
+ msgstr ""
++"Vid deuteranopi har personen nedsatt seende för grönt. Deuteranopi liknar "
++"i själva verket protanopi, eftersom personen har nedsatt uppfattning av rött "
++"och grönt, men utan försämrad ljusstyrkeuppfattning eller nyansförskjutning."
+ 
+ #: src/menus/view/display-filters.xml:181(term)
+ msgid "Tritanopia (insensitivity to blue)"
+-msgstr ""
++msgstr "Tritanopi (nedsatt känslighet för blått)"
+ 
+ #: src/menus/view/display-filters.xml:183(para)
+ msgid ""
+@@ -1241,6 +1540,9 @@
+ "although he is still sensitive to red and green. He lacks some perception of "
+ "luminance, and the hues shift toward the long wavelengths."
+ msgstr ""
++"Vid tritanopi har personen nedsatt uppfattning av blått och gult, men är "
++"fortfarande känslig för rött och grönt. En del av ljusstyrkeuppfattningen "
++"saknas och nyanserna förskjuts mot långa våglängder."
+ 
+ #: src/menus/view/display-filters.xml:199(phrase)
+ msgid "Examples"
+@@ -1248,7 +1550,7 @@
+ 
+ #: src/menus/view/display-filters.xml:203(phrase)
+ msgid "Example of protanopia with some text"
+-msgstr ""
++msgstr "Exempel på protanopi med text"
+ 
+ #: src/menus/view/display-filters.xml:210(para)
+ msgid "Original image"
+@@ -1260,27 +1562,30 @@
+ "black (0,0,0) background. You have to change the text color. Daltonism "
+ "occurs fairly frequently in the population."
+ msgstr ""
++"Som du ser kan en rödblind person inte se den röda texten (255,0,0) på en "
++"svart bakgrund (0,0,0). Du måste ändra textfärgen. Daltonism förekommer "
++"ganska ofta i befolkningen."
+ 
+ #: src/menus/view/display-filters.xml:228(phrase)
+ msgid "Examples of the three types of vision deficiencies in one image"
+-msgstr ""
++msgstr "Exempel på de tre typerna av färgseendenedsättning i en bild"
+ 
+ #: src/menus/view/display-filters.xml:237(para)
+ msgid "normal vision;"
+-msgstr ""
++msgstr "normalt färgseende;"
+ 
+ #: src/menus/view/display-filters.xml:245(para)
+ msgid "Protanopia;"
+-msgstr ""
++msgstr "Protanopi;"
+ 
+ #: src/menus/view/display-filters.xml:253(para)
+ msgid "deuteranopia; In deuteranopia, yellow is shifted toward red."
+-msgstr ""
++msgstr "deuteranopi; Vid deuteranopi förskjuts gult mot rött."
+ 
+ #: src/menus/view/display-filters.xml:263(para)
+ msgid ""
+ "tritanopia; In tritanopia, green is slightly represented in the blue range."
+-msgstr ""
++msgstr "tritanopi; Vid tritanopi representeras grönt svagt i det blå området."
+ 
+ #: src/menus/view/display-filters.xml:274(phrase)
+ #: src/menus/view/display-filters.xml:277(primary)
+@@ -1298,6 +1603,13 @@
+ "The <quote>Gamma</quote> Display Filter allows you to get an idea of the "
+ "appearance of your image under these conditions."
+ msgstr ""
++"Sambandet mellan elektrisk intensitet och färgljusstyrka är inte exakt och "
++"beror på enheten (kameran, bildläsaren, bildskärmen och så vidare). "
++"<quote>Gamma</quote> är en koefficient som används för att korrigera detta "
++"samband. Bilden måste vara synlig i både mörka och ljusa områden, även om "
++"den visas på en bildskärm med för hög eller för låg ljusstyrka. "
++"Visningsfiltret <quote>Gamma</quote> ger en uppfattning om hur bilden ser ut "
++"under dessa förhållanden."
+ 
+ #: src/menus/view/display-filters.xml:302(para)
+ msgid ""
+@@ -1305,6 +1617,8 @@
+ "the change the gamma within the image itself, you can find a description in "
+ "<xref linkend=\"gimp-tool-levels\"/>."
+ msgstr ""
++"Om du inte bara vill ändra gamma för den aktuella visningen utan även ändra "
++"gamma i själva bilden finns en beskrivning i <xref linkend=\"gimp-tool-levels\"/>."
+ 
+ #: src/menus/view/display-filters.xml:311(phrase)
+ #: src/menus/view/display-filters.xml:314(primary)
+@@ -1322,16 +1636,24 @@
+ "deficiency in sensitivity to contrast: for example, they would have "
+ "difficulties distinguishing spots on a dress."
+ msgstr ""
++"Här är vi tillbaka inom medicinen. <quote>Kontrastkänslighet</quote> är "
++"synsystemets förmåga att skilja små kontrastskillnader åt. Vissa personer "
++"med grå starr (där linsen har ogenomskinliga kristaller som sprider ljuset "
++"över näthinnan) eller näthinnesjukdom (till exempel på grund av diabetes, "
++"som förstör stavar och tappar) har nedsatt kontrastkänslighet: de kan till "
++"exempel ha svårt att skilja fläckar på en klänning åt."
+ 
+ #: src/menus/view/display-filters.xml:338(para)
+ msgid ""
+ "If you are interested in this subject, you can browse the Web for "
+ "<quote>contrast sensitivity</quote>."
+ msgstr ""
++"Om du är intresserad av ämnet kan du söka på webben efter <quote>contrast "
++"sensitivity</quote>."
+ 
+ #: src/menus/view/display-filters.xml:348(term)
+ msgid "Contrast Cycles"
+-msgstr ""
++msgstr "Kontrastcykler"
+ 
+ #: src/menus/view/display-filters.xml:350(para)
+ msgid ""
+@@ -1343,6 +1665,11 @@
+ "if you increase the luminosity value above 255, the complementary color "
+ "appears."
+ msgstr ""
++"Med filtret <quote>Kontrast</quote> kan du se bilden som om du hade grå "
++"starr. Du kan behöva öka bildens kontrast så att din mormor ser den bra. I "
++"de flesta fall är bara mycket låga värden för parametern <guilabel>Kontrastcykler</"
++"guilabel> intressanta. Högre värden skapar en bieffekt som inte är intressant "
++"här: om du ökar ljusstyrkevärdet över 255 visas den komplementära färgen."
+ 
+ #: src/menus/view/display-filters.xml:367(phrase)
+ msgid "Color Management"
+@@ -1357,7 +1684,7 @@
+ #: src/menus/view/display-filters.xml:424(quote)
+ #: src/menus/view/display-filters.xml:434(quote)
+ msgid "Color Proof"
+-msgstr ""
++msgstr "Färgkorrektur"
+ 
+ #: src/menus/view/display-filters.xml:382(para)
+ msgid ""
+@@ -1365,6 +1692,9 @@
+ "window. To learn more about the color management in GIMP, please read <xref "
+ "linkend=\"gimp-concepts-color-management\"/>."
+ msgstr ""
++"Detta filter gör det möjligt att aktivera GIMP:s färghantering för varje "
++"bildfönster. Läs <xref linkend=\"gimp-concepts-color-management\"/> om du "
++"vill veta mer om färghanteringen i GIMP."
+ 
+ #: src/menus/view/display-filters.xml:391(para)
+ msgid ""
+@@ -1372,14 +1702,16 @@
+ "GIMP preferences. You can find detailed information about this in <xref "
+ "linkend=\"gimp-prefs-color-management\"/>."
+ msgstr ""
++"All anpassning av färghanteringen i GIMP måste göras i GIMP:s inställningar. "
++"Detaljerad information finns i <xref linkend=\"gimp-prefs-color-management\"/>."
+ 
+ #: src/menus/view/display-filters.xml:403(primary)
+ msgid "Color proof"
+-msgstr ""
++msgstr "Färgkorrektur"
+ 
+ #: src/menus/view/display-filters.xml:406(primary)
+ msgid "Soft proof"
+-msgstr ""
++msgstr "Skärmkorrektur"
+ 
+ #: src/menus/view/display-filters.xml:408(para)
+ msgid ""
+@@ -1389,6 +1721,10 @@
+ "<quote>gamut</quote> is the color range of a system. <emphasis>Color "
+ "Profiles</emphasis> allow you to compensate for these differences."
+ msgstr ""
++"De olika systemen för färgåtergivning kan inte återge alla tillgängliga "
++"färger. Även om systemen och naturen har många färger gemensamma blir vissa "
++"färger inte desamma. <quote>Färgomfång</quote> är ett systems färgintervall. "
++"<emphasis>Färgprofiler</emphasis> låter dig kompensera för dessa skillnader."
+ 
+ #: src/menus/view/display-filters.xml:416(para)
+ msgid ""
+@@ -1397,10 +1733,13 @@
+ "filter shows you how your image will look after a color profile has been "
+ "applied."
+ msgstr ""
++"Innan du skriver ut en bild kan det vara användbart att se om du får önskat "
++"resultat när du använder en profil. Filtret <quote>Färgkorrektur</quote> visar "
++"hur bilden kommer att se ut efter att en färgprofil har använts."
+ 
+ #: src/menus/view/display-filters.xml:434(phrase)
+ msgid "The <placeholder-1/> options"
+-msgstr ""
++msgstr "Alternativen för <placeholder-1/>"
+ 
+ #: src/menus/view/display-filters.xml:438(term)
+ msgid "Profile"
+@@ -1413,10 +1752,14 @@
+ "list you might want to add it by selecting a file. This can be done by "
+ "selecting the last entry of the list."
+ msgstr ""
++"Med detta alternativ kan du välja en färgprofil som används för att simulera "
++"skrivarens färgåtergivning. Om den önskade profilen inte visas i listan kan "
++"du lägga till den genom att välja en fil. Det gör du genom att välja listans "
++"sista post."
+ 
+ #: src/menus/view/display-filters.xml:450(term)
+ msgid "Intent"
+-msgstr ""
++msgstr "Återgivningsmetod"
+ 
+ #: src/menus/view/display-filters.xml:452(para)
+ msgid ""
+@@ -1426,16 +1769,22 @@
+ "intents are described in detail in the glossary <xref linkend=\"glossary-"
+ "rendering-intent\"/>."
+ msgstr ""
++"Med detta alternativ kan du välja återgivningsmetod, alltså den metod som "
++"avgör hur färger som inte kan återges av en enhet (<quote>ligger utanför "
++"färgomfånget</quote>) ska hanteras. De olika återgivningsmetoderna beskrivs "
++"utförligt i ordlistan <xref linkend=\"glossary-rendering-intent\"/>."
+ 
+ #: src/menus/view/display-filters.xml:462(term)
+ msgid "Black Point Compensation"
+-msgstr ""
++msgstr "Svartpunktskompensering"
+ 
+ #: src/menus/view/display-filters.xml:464(para)
+ msgid ""
+ "Black point compensation allows a better representaion of dark colors of "
+ "your image when printing."
+ msgstr ""
++"Svartpunktskompensering ger bättre återgivning av mörka färger i bilden vid "
++"utskrift."
+ 
+ #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+ #: src/menus/view/display-filters.xml:0(None)

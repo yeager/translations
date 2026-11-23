@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 00:20 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 00:38 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -58,7 +58,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [FieldMonitor](https://l10n.gnome.org/vertimus/fieldmonitor/main/po/sv/) | main | 0 | 0 | 329 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/toolbox/sv/) | gimp-help-2-10 | 36 | 47 | 320 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/menus~view/sv/) | gimp-help-3-0 | 41 | 30 | 296 | Behöver arbete | Ej granskad |
-| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~view/sv/) | master | 40 | 31 | 295 | Behöver arbete | Ej granskad |
+| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~view/sv/) | master | 40 | 31 | 295 | Behöver arbete | Klar lokalt (2026-11-23): Samtliga 229 poster i visningsmenyn är lokalt översatta och fuzzy-fria. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/menus~view/gimp-help.master.menus-view.sv.original.po), [granskad](gimp-help/master/menus~view/gimp-help.master.menus-view.sv.reviewed.po), [diff](gimp-help/master/menus~view/gimp-help.master.menus-view.sv.review.diff), [notering](gimp-help/master/menus~view/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/toolbox~selection/sv/) | gimp-help-2-10 | 27 | 49 | 274 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/concepts/sv/) | gimp-help-3-0 | 844 | 300 | 267 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~select/sv/) | master | 12 | 22 | 255 | Behöver arbete | Klar lokalt (2026-11-23): Samtliga 203 poster i markeringsmenyn är lokalt översatta och fuzzy-fria. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/menus~select/gimp-help.master.menus-select.sv.original.po), [granskad](gimp-help/master/menus~select/gimp-help.master.menus-select.sv.reviewed.po), [diff](gimp-help/master/menus~select/gimp-help.master.menus-select.sv.review.diff), [notering](gimp-help/master/menus~select/README.md) |
