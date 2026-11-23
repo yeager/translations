@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 14:43 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 14:49 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -11,7 +11,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
 Varje rad visar GNOME:s aktuella externa status. **Klar** visar `X` endast när katalogen både är lokalt färdiggranskad och har 0 fuzzy samt 0 oöversatta strängar enligt den senast hämtade GNOME/POT-statusen. **Ändringar** är antalet ändrade aktiva PO-poster i den arkiverade granskningen; externa siffror ändras inte förrän en eventuell framtida GNOME-inskickning.
 
-## Granskade kataloger (56)
+## Granskade kataloger (57)
 
 | Typ | Kategori | Modul | Gren | Översatta | Fuzzy | Oöversatta | GNOME-status | Klar | Ändringar | Lokal granskning |
 |---|---|---|---|---:|---:|---:|---|:---:|---:|---|
@@ -70,9 +70,10 @@ Varje rad visar GNOME:s aktuella externa status. **Klar** visar `X` endast när 
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/concepts/sv/) | master | 1431 | 0 | 0 | Klar | X | 51 | Klar lokalt (2026-11-23): 1 431 aktiva poster, 0 oöversatta och 0 fuzzy. 52 svenska procenttal är typografiskt rättade; `msgfmt` och l10n-lint har inga fel. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/concepts/gimp-help.master.concepts.sv.original.po), [granskad](gimp-help/master/concepts/gimp-help.master.concepts.sv.reviewed.po), [diff](gimp-help/master/concepts/gimp-help.master.concepts.sv.review.diff), [notering](gimp-help/master/concepts/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/tutorial/sv/) | master | 136 | 0 | 0 | Klar | X | 1 | Klar lokalt (2026-11-23): 176 aktiva strängar, 0 oöversatta och 0 fuzzy. RGB-intervallet är rättat till 0–255; validerad utan lint-fel. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/tutorial/gimp-help.master.tutorial.sv.original.po), [granskad](gimp-help/master/tutorial/gimp-help.master.tutorial.sv.reviewed.po), [diff](gimp-help/master/tutorial/gimp-help.master.tutorial.sv.review.diff), [notering](gimp-help/master/tutorial/README.md) |
 | Gränssnitt | Default (99% translated) | [gtk-vnc](https://l10n.gnome.org/vertimus/gtk-vnc/master/po/sv/) | master | 3 | 0 | 0 | Klar | X | 0 | Klar lokalt (2026-11-23): Aktuell tresträngarskatalog är radgranskad lokalt: 0 oöversatta och 0 fuzzy. msgfmt och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](gtk-vnc/master/po/gtk-vnc.master.sv.original.po), [granskad](gtk-vnc/master/po/gtk-vnc.master.sv.reviewed.po), [diff](gtk-vnc/master/po/gtk-vnc.master.sv.review.diff), [notering](gtk-vnc/master/po/README.md) |
+| Gränssnitt | Default (99% translated) | [libgedit-amtk — Gedit Technology - Actions, Menus and Toolbars Kit](https://l10n.gnome.org/vertimus/libgedit-amtk/main/po/sv/) | main | 3 | 0 | 0 | Klar | X | 0 | Klar lokalt (2026-11-23): Aktuell tresträngarskatalog är radgranskad lokalt: 0 oöversatta och 0 fuzzy. ASCII-accelerator och platshållare är kontrollerade; msgfmt, l10n-lint och hunspell saknar anmärkningar. Ingen GNOME-inskickning har gjorts. [original](libgedit-amtk/main/po/libgedit-amtk.main.sv.original.po), [granskad](libgedit-amtk/main/po/libgedit-amtk.main.sv.reviewed.po), [diff](libgedit-amtk/main/po/libgedit-amtk.main.sv.review.diff), [notering](libgedit-amtk/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [tecla](https://l10n.gnome.org/vertimus/tecla/gnome-50/po/sv/) | gnome-50 | 8 | 0 | 0 | Klar | X | 1 | Klar lokalt (2026-11-23): Aktuell 8-strängarskatalog är radgranskad lokalt: tangentterminologi rättad, 0 oöversatta och 0 fuzzy. msgfmt och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](tecla/gnome-50/po/tecla.gnome-50.sv.original.po), [granskad](tecla/gnome-50/po/tecla.gnome-50.sv.reviewed.po), [diff](tecla/gnome-50/po/tecla.gnome-50.sv.review.diff), [notering](tecla/gnome-50/po/README.md) |
 
-## Ogranskade kataloger (541)
+## Ogranskade kataloger (540)
 
 | Typ | Kategori | Modul | Gren | Översatta | Fuzzy | Oöversatta | GNOME-status | Klar | Ändringar | Lokal granskning |
 |---|---|---|---|---:|---:|---:|---|:---:|---:|---|
@@ -466,7 +467,6 @@ Varje rad visar GNOME:s aktuella externa status. **Klar** visar `X` endast när 
 | Gränssnitt | Default (99% translated) | [libgda](https://l10n.gnome.org/vertimus/libgda/master/po/sv/) | master | 2134 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [libgda](https://l10n.gnome.org/vertimus/libgda/master/browser-help/sv/) | master | 330 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [libgdata](https://l10n.gnome.org/module/libgdata/) | main | 70 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [libgedit-amtk — Gedit Technology - Actions, Menus and Toolbars Kit](https://l10n.gnome.org/vertimus/libgedit-amtk/main/po/sv/) | main | 3 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [libgedit-gfls — Gedit Technology - File loading and saving](https://l10n.gnome.org/vertimus/libgedit-gfls/main/po/sv/) | main | 36 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [libgedit-gtksourceview — Gedit Technology - Source code editing widget](https://l10n.gnome.org/vertimus/libgedit-gtksourceview/main/po/sv/) | main | 69 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [libgedit-tepl — Gedit Technology - Text editor product line](https://l10n.gnome.org/vertimus/libgedit-tepl/main/po/sv/) | main | 118 | 0 | 0 | Klar |  | — | Ej granskad |
