@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 19:49 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 19:50 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -11,7 +11,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
 **GNOME-status (uppströms)** visar den aktuella externa Damned Lies-statusen och kan därför vara **Behöver arbete** tills en framtida inskickning har godkänts. **Klar lokalt** visar `X` endast när den arkiverade, mot senaste POT kontrollerade filen är helt översatt och fuzzy-fri. **Ändringar** är antalet ändrade aktiva PO-poster i den arkiverade granskningen; externa siffror ändras inte förrän en eventuell framtida GNOME-inskickning.
 
-## Helt klara och inskickade (45)
+## Helt klara och inskickade (46)
 
 | Typ | Kategori | Modul | Gren | Översatta | Fuzzy | Oöversatta | GNOME-status (uppströms) | Klar lokalt | Ändringar | Lokal granskning |
 |---|---|---|---|---:|---:|---:|---|:---:|---:|---|
@@ -59,6 +59,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [tecla](https://l10n.gnome.org/vertimus/tecla/main/po/sv/) | main | 8 | 0 | 0 | Klar | X | 1 | Klar och inskickad (2026-11-23): Hela åttasträngarskatalogen är radgranskad: Tangentbeskrivning ersätter den felaktiga nyckelterminologin och 0 oöversatta eller fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel. Skickad till Damned Lies 2026-11-23 med kommentaren ”Granskad och klar”. [original](tecla/main/po/tecla.main.sv.original.po), [granskad](tecla/main/po/tecla.main.sv.reviewed.po), [diff](tecla/main/po/tecla.main.sv.review.diff), [notering](tecla/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [tecla](https://l10n.gnome.org/vertimus/tecla/gnome-50/po/sv/) | gnome-50 | 8 | 0 | 0 | Klar | X | 1 | Klar och inskickad (2026-11-23): Aktuell åttasträngarskatalog är radgranskad: tangentterminologi rättad, 0 oöversatta och 0 fuzzy. msgfmt, msgcmp och l10n-lint saknar fel. Skickad till Damned Lies 2026-11-23 med kommentaren ”Granskad och klar”. [original](tecla/gnome-50/po/tecla.gnome-50.sv.original.po), [granskad](tecla/gnome-50/po/tecla.gnome-50.sv.reviewed.po), [diff](tecla/gnome-50/po/tecla.gnome-50.sv.review.diff), [notering](tecla/gnome-50/po/README.md) |
 | Gränssnitt | Default (99% translated) | [template-glib](https://l10n.gnome.org/vertimus/template-glib/main/po/sv/) | main | 4 | 0 | 0 | Klar | X | 3 | Klar lokalt (2026-11-23): Aktuell fyrsträngarskatalog är radgranskad lokalt: 0 oöversatta och 0 fuzzy. Tre ordagranna felmeddelanden är rättade till idiomatisk svenska; msgfmt, l10n-lint och hunspell saknar anmärkningar. Ingen GNOME-inskickning har gjorts. [original](template-glib/main/po/template-glib.main.sv.original.po), [granskad](template-glib/main/po/template-glib.main.sv.reviewed.po), [diff](template-glib/main/po/template-glib.main.sv.review.diff), [notering](template-glib/main/po/README.md) |
+| Gränssnitt | Default (99% translated) | [totem-pl-parser](https://l10n.gnome.org/vertimus/totem-pl-parser/master/po/sv/) | master | 8 | 0 | 0 | Klar | X | 1 | Klar och inskickad (2026-11-23): Hela åttasträngarskatalogen är radgranskad: Inget medium ersätter den grammatiskt felaktiga medietexten och 0 oöversatta eller fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel. Skickad till Damned Lies 2026-11-23 med kommentaren ”Granskad och klar”. [original](totem-pl-parser/master/po/totem-pl-parser.master.sv.original.po), [granskad](totem-pl-parser/master/po/totem-pl-parser.master.sv.reviewed.po), [diff](totem-pl-parser/master/po/totem-pl-parser.master.sv.review.diff), [notering](totem-pl-parser/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [yelp](https://l10n.gnome.org/vertimus/yelp/master/po/sv/) | master | 83 | 0 | 0 | Klar | X | 4 | Klar och inskickad (2026-11-23): Hela 83-posterskatalogen är radgranskad: 4 befintliga översättningar har korrigerats och 0 oöversatta eller fuzzy återstår. msgfmt, msgcmp, l10n-lint samt platshållar- och acceleratorgranskning saknar fel. Skickad till Damned Lies 2026-11-23 med kommentaren ”Granskad och klar”. [original](yelp/master/po/yelp.master.sv.original.po), [granskad](yelp/master/po/yelp.master.sv.reviewed.po), [diff](yelp/master/po/yelp.master.sv.review.diff), [notering](yelp/master/po/README.md) |
 
 ## Helt klara men utan ändringar (10)
@@ -76,7 +77,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [xdg-user-dirs](https://l10n.gnome.org/vertimus/xdg-user-dirs/master/po/sv/) | master | 28 | 0 | 0 | Klar | X | 0 | Klar utan ändringar (2026-11-23): Hela 28-posterskatalogen är radgranskad mot aktuell POT: 0 oöversatta, 0 fuzzy och ingen textändring var motiverad. msgfmt, msgcmp och l10n-lint saknar fel. Skickad till Damned Lies 2026-11-23 med kommentaren ”Granskad och allt ser bra ut”. [original](xdg-user-dirs/master/po/xdg-user-dirs.master.sv.original.po), [granskad](xdg-user-dirs/master/po/xdg-user-dirs.master.sv.reviewed.po), [diff](xdg-user-dirs/master/po/xdg-user-dirs.master.sv.review.diff), [notering](xdg-user-dirs/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [yelp-xsl](https://l10n.gnome.org/vertimus/yelp-xsl/master/po/sv/) | master | 64 | 0 | 0 | Klar | X | 0 | Klar utan ändringar (2026-11-23): Hela 64-posterskatalogen är radgranskad mot aktuell POT: 0 oöversatta, 0 fuzzy och ingen textändring var motiverad. msgfmt, msgcmp, l10n-lint och XML-platshållarjämförelse saknar fel. Skickad till Damned Lies 2026-11-23 med kommentaren ”Granskad och allt ser bra ut”. [original](yelp-xsl/master/po/yelp-xsl.master.sv.original.po), [granskad](yelp-xsl/master/po/yelp-xsl.master.sv.reviewed.po), [diff](yelp-xsl/master/po/yelp-xsl.master.sv.review.diff), [notering](yelp-xsl/master/po/README.md) |
 
-## Ej granskade (542)
+## Ej granskade (541)
 
 | Typ | Kategori | Modul | Gren | Översatta | Fuzzy | Oöversatta | GNOME-status (uppströms) | Klar lokalt | Ändringar | Lokal granskning |
 |---|---|---|---|---:|---:|---:|---|:---:|---:|---|
@@ -600,7 +601,6 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [TinySPARQL](https://l10n.gnome.org/vertimus/tinysparql/main/po/sv/) | main | 104 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [totem](https://l10n.gnome.org/vertimus/totem/master/po/sv/) | master | 381 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [totem](https://l10n.gnome.org/vertimus/totem/master/help/sv/) | master | 156 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [totem-pl-parser](https://l10n.gnome.org/vertimus/totem-pl-parser/master/po/sv/) | master | 8 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [tracker](https://l10n.gnome.org/module/tracker/) | main | 105 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [tracker-miner-chatlog](https://l10n.gnome.org/module/tracker-miner-chatlog/) | master | 2 | 0 | 0 | Klar | X | 1 | Klar lokalt (2026-11-23): Aktuell tvåsträngarskatalog är radgranskad lokalt: 0 oöversatta och 0 fuzzy. ”miner” är rättad till den semantiskt korrekta termen ”indexerare”; msgfmt och l10n-lint saknar fel. Hunspell-undantaget är den kontrollerade tekniska sammansättningen Chattloggsindexerare. Ingen GNOME-inskickning har gjorts. [original](tracker-miner-chatlog/master/po/tracker-miner-chatlog.master.sv.original.po), [granskad](tracker-miner-chatlog/master/po/tracker-miner-chatlog.master.sv.reviewed.po), [diff](tracker-miner-chatlog/master/po/tracker-miner-chatlog.master.sv.review.diff), [notering](tracker-miner-chatlog/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [tracker-miners](https://l10n.gnome.org/module/tracker-miners/) | main | 290 | 0 | 0 | Klar |  | — | Ej granskad |
