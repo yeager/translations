@@ -1,0 +1,124 @@
+diff --git a/.work-gnome-review/wildcard-main-po/original.po b/.work-gnome-review/wildcard-main-po/sv.po
+index ea40710..1cd1334 100644
+--- a/.work-gnome-review/wildcard-main-po/original.po
++++ b/.work-gnome-review/wildcard-main-po/sv.po
+@@ -8,8 +8,8 @@ msgstr ""
+ "Project-Id-Version: Wildcard main\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Wildcard/-/issues\n"
+ "POT-Creation-Date: 2026-11-06 22:15+0000\n"
+-"PO-Revision-Date: 2026-06-08 16:26+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-23 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -60,11 +60,11 @@ msgstr "Använd skiftlägesokänslighetsflaggan"
+ 
+ #: data/net.ffkkinos.Wildcard.gschema.xml.in:37
+ msgid "Use the ignore whitespace flag"
+-msgstr "Använd ignorera blanktecken-flaggan"
++msgstr "Använd flaggan Ignorera blanktecken"
+ 
+ #: data/net.ffkkinos.Wildcard.gschema.xml.in:42
+ msgid "Use the dot matches newline flag"
+-msgstr "Använd punkt matchar nyrad-flaggan"
++msgstr "Använd flaggan Punkt matchar nyrad"
+ 
+ #: data/net.ffkkinos.Wildcard.gschema.xml.in:47
+ msgid "Use the unicode flag"
+@@ -72,7 +72,7 @@ msgstr "Använd unicode-flaggan"
+ 
+ #: data/net.ffkkinos.Wildcard.gschema.xml.in:52
+ msgid "Use the greed flag"
+-msgstr "Använd giriga flaggan"
++msgstr "Använd girighetsflaggan"
+ 
+ #: data/net.ffkkinos.Wildcard.metainfo.xml.in.in:19
+ msgid ""
+@@ -87,14 +87,16 @@ msgid ""
+ "Wildcard in light mode showing a text being matched against a regular "
+ "expression"
+ msgstr ""
+-"Wildcard i ljust läge som visar en text matchas mot ett reguljärt uttryck"
++"Wildcard i ljust läge som visar hur en text matchas mot ett reguljärt "
++"uttryck"
+ 
+ #: data/net.ffkkinos.Wildcard.metainfo.xml.in.in:35
+ msgid ""
+ "Wildcard in dark mode showing a text being matched against a regular "
+ "expression"
+ msgstr ""
+-"Wildcard i mörkt läge som visar en text matchas mot ett reguljärt uttryck"
++"Wildcard i mörkt läge som visar hur en text matchas mot ett reguljärt "
++"uttryck"
+ 
+ #: data/net.ffkkinos.Wildcard.metainfo.xml.in.in:41
+ msgid "Wildcard in light mode showing the expression flags dialog"
+@@ -102,7 +104,7 @@ msgstr "Wildcard i ljust läge som visar dialogrutan för uttrycksflaggor"
+ 
+ #: data/net.ffkkinos.Wildcard.metainfo.xml.in.in:47
+ msgid "Wildcard in light mode showing the quick reference dialog"
+-msgstr "Wildcard i ljust läge som visar dialogrutan för snabbinställning"
++msgstr "Wildcard i ljust läge som visar snabbreferensdialogrutan"
+ 
+ #: data/resources/ui/flags_dialog.blp:5 data/resources/ui/flags_dialog.blp:15
+ #: data/resources/ui/window.blp:184
+@@ -143,8 +145,8 @@ msgid ""
+ "Wildcard syntax is similar to Perl-style regular expressions, but lacks a "
+ "few features like look around and backreferences."
+ msgstr ""
+-"Wildcards syntax liknar reguljära uttryck av Perl-stil, men saknar några "
+-"funktioner som att se omgivningen och bakåtreferenser."
++"Wildcards syntax liknar reguljära uttryck i Perl-stil, men saknar vissa "
++"funktioner som lookaround-konstruktioner och bakåtreferenser."
+ 
+ #: data/resources/ui/quick_reference_dialog.blp:5
+ #: data/resources/ui/quick_reference_dialog.blp:15
+@@ -157,7 +159,7 @@ msgstr "Vanliga"
+ 
+ #: data/resources/ui/quick_reference_dialog.blp:19
+ msgid "Expressions that you will use all the time."
+-msgstr "Uttryck som du kommer använda hela tiden."
++msgstr "Uttryck som du kommer att använda hela tiden."
+ 
+ #: data/resources/ui/quick_reference_dialog.blp:23
+ msgid "Anchors"
+@@ -165,7 +167,7 @@ msgstr "Ankare"
+ 
+ #: data/resources/ui/quick_reference_dialog.blp:24
+ msgid "Matching expressions on string or group positions."
+-msgstr "Matchar uttryck enligt sträng- eller gruppositioner."
++msgstr "Uttryck som matchar positioner i strängar eller grupper."
+ 
+ #: data/resources/ui/quick_reference_dialog.blp:28
+ msgid "Quantifiers"
+@@ -173,7 +175,7 @@ msgstr "Kvantifierare"
+ 
+ #: data/resources/ui/quick_reference_dialog.blp:29
+ msgid "Matching an expression zero, one, or more times."
+-msgstr "Matchar ett uttryck noll, en, eller flera gånger."
++msgstr "Matchar ett uttryck noll, en eller flera gånger."
+ 
+ #: data/resources/ui/shortcuts-dialog.blp:6
+ msgctxt "shortcuts-window"
+@@ -227,8 +229,8 @@ msgid ""
+ "There’s an error in the regex pattern string, try again with a different "
+ "pattern"
+ msgstr ""
+-"Det finns ett fel i reguljära uttrycksmönstersträngen, försök igen med ett "
+-"annat mönster"
++"Det finns ett fel i mönstersträngen för det reguljära uttrycket, försök igen "
++"med ett annat mönster"
+ 
+ #: data/resources/ui/window.blp:260
+ msgid "_Keyboard Shortcuts"
+@@ -279,7 +281,7 @@ msgstr "Matchar alla tecken från a till z"
+ 
+ #: src/quick_reference_dialog.rs:101
+ msgid "Matches both an a or a b"
+-msgstr "Matchar både ett a eller a b"
++msgstr "Matchar antingen a eller ab"
+ 
+ #: src/quick_reference_dialog.rs:106
+ msgid "Matches every word character, equivalent to [a-zA-Z0-9_]"
