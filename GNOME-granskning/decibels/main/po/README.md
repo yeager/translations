@@ -1,16 +1,13 @@
-# Decibels — main/po — svensk granskning
+# Decibels — main/po
 
-- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/Decibels/main/po/sv/>
-- Granskad: 2026-11-23
-- Aktuell POT: 60 aktiva strängar
+- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/decibels/main/po/sv/>
+- Granskad: 2026-11-24
+- Aktuell POT: 60 aktiva strängar; 60 översatta, 0 fuzzy och 0 oöversatta efter granskning.
 - Nya översättningar: 0
-- Korrigerade befintliga översättningar: 9
+- Rättade befintliga översättningar: 6
 
-Hela katalogen är radgranskad mot senaste POT. Funktionsbeskrivningar,
-snabbkommandon och felåterkoppling är rättade till idiomatisk svenska;
-formuleringen för dragna filer och tidsgräns är nu tydlig.
+## Validering
 
-`msgfmt --check` och `msgcmp --use-fuzzy` är godkända. `l10n-lint` har inga
-fel eller varningar; den enda informationsnotisen gäller den avsiktligt
-flyttade, giltiga ASCII-acceleratorn i `_Open…` → `Ö_ppna…`. Hunspell-sv-
-undantagen är tekniska termer. Ingen inskickning till GNOME har gjorts.
+`msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` har körts utan fel eller varningar. Informationsnotisen gäller den avsiktligt svenska acceleratorn i Öppna. Platshållarkontrollen är ren.
+
+Ingen GNOME-inskickning har gjorts.
