@@ -374,6 +374,14 @@ Reolinks feltext skrev antalplatshållaren direkt mot `port(ar)` som
 Markdown-länk bevarades, och värdet sparades samt lästes tillbaka via
 Lokalise API.
 
+## Home Assistant-hårdvara: possessiv platshållare
+
+Åtta texter för Yellow, Sky Connect, ZBT-2 och generell Silabs-maskinvara
+använde det engelska suffixet `{hardware_name}s`. De normaliserades till
+`radion i {hardware_name}` i informations- och avinstallationstexterna.
+Samtliga platshållare och radbrytningar bevarades, sparades och lästes tillbaka
+via Lokalise API. TMX-valideringen godkände 4 111 poster.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
