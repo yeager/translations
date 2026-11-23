@@ -1,0 +1,87 @@
+diff --git a/.work-gnome-review/networkmanager-vpnc-main-po/original.po b/.work-gnome-review/networkmanager-vpnc-main-po/sv.po
+index 99bfa76..c2f4452 100644
+--- a/.work-gnome-review/networkmanager-vpnc-main-po/original.po
++++ b/.work-gnome-review/networkmanager-vpnc-main-po/sv.po
+@@ -11,8 +11,8 @@ msgstr ""
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/NetworkManager-vpnc/"
+ "issues\n"
+ "POT-Creation-Date: 2026-11-10 18:09+0000\n"
+-"PO-Revision-Date: 2024-12-03 01:25+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 12:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -53,8 +53,8 @@ msgid ""
+ "Compatible with various Cisco, Juniper, Netscreen, and Sonicwall IPsec-based "
+ "VPN gateways."
+ msgstr ""
+-"Kompatibel med olika Cisco, Juniper, Netscreen och Sonicwall IPsec-baserade "
+-"VPN-gateway."
++"Kompatibel med olika IPsec-baserade VPN-gatewayar från Cisco, Juniper, "
++"Netscreen och SonicWall."
+ 
+ #: ../properties/nm-vpnc-editor-plugin.c:488
+ #, c-format
+@@ -163,7 +163,7 @@ msgstr "egenskapen ”%s” är ogiltig eller stöds inte"
+ #: ../src/nm-vpnc-service.c:219
+ #, c-format
+ msgid "property “%s” contains a newline character"
+-msgstr "egenskapen ”%s” innehåller ett nyradstecken"
++msgstr "egenskapen ”%s” innehåller ett radbrytningstecken"
+ 
+ #: ../src/nm-vpnc-service.c:231
+ #, c-format
+@@ -209,7 +209,7 @@ msgstr "Konfigurationsalternativet ”%s” är inte ett heltal."
+ 
+ #: ../src/nm-vpnc-service.c:990
+ msgid "vpnc does not support interactive requests"
+-msgstr "vpnc stödjer inte interaktiva begäranden"
++msgstr "vpnc har inte stöd för interaktiva begäranden"
+ 
+ #: ../src/nm-vpnc-service.c:1014
+ msgid "Could not use new secrets as interactive mode is disabled."
+@@ -221,7 +221,7 @@ msgid ""
+ "Could not process the request because the VPN connection settings were "
+ "invalid."
+ msgstr ""
+-"Kunde inte behandla begäran eftersom VPN-konfigurationsalternativen var "
++"Kunde inte behandla begäran eftersom VPN-anslutningsinställningarna var "
+ "ogiltiga."
+ 
+ #: ../src/nm-vpnc-service.c:1031
+@@ -241,11 +241,11 @@ msgstr ""
+ 
+ #: ../src/nm-vpnc-service.c:1240
+ msgid "Don’t quit when VPN connection terminates"
+-msgstr "Avsluta inte när VPN-anslutningen termineras"
++msgstr "Avsluta inte när VPN-anslutningen avslutas"
+ 
+ #: ../src/nm-vpnc-service.c:1241
+ msgid "Enable verbose debug logging (may expose passwords)"
+-msgstr "Aktivera informativ felsökningsloggning (kan exponera lösenord)"
++msgstr "Aktivera utförlig felsökningsloggning (kan exponera lösenord)"
+ 
+ #: ../src/nm-vpnc-service.c:1242
+ msgid "D-Bus name to use for this instance"
+@@ -256,8 +256,8 @@ msgid ""
+ "nm-vpnc-service provides integrated Cisco Legacy IPsec VPN capability to "
+ "NetworkManager."
+ msgstr ""
+-"nm-vpnc-service tillhandahåller integrerade Cisco Legacy IPsec VPN-förmågor "
+-"till Nätverkshanterare."
++"nm-vpnc-service ger NetworkManager integrerat stöd för äldre Cisco "
++"IPsec-VPN."
+ 
+ #: ../shared/nm-utils/nm-shared-utils.c:264
+ #, c-format
+@@ -301,7 +301,7 @@ msgstr ""
+ #: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+ #, c-format
+ msgid "unable to get editor plugin name: %s"
+-msgstr "kan inte erhålla namn för redigerarinstick: %s"
++msgstr "kan inte hämta namnet på redigerarinsticksmodulen: %s"
+ 
+ #: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+ #, c-format
