@@ -47,6 +47,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | gstreamer | main | po | 14 |
 | webkit | main | po | 1 |
 | loupe | main | po | 7 |
+| gnome-commander | main | po | 3 |
 
 ## Kompletta granskningar utan ändrade översättningssträngar
 
