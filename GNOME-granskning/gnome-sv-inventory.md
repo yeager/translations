@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 21:31 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 21:32 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -368,7 +368,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [gnome-desktop](https://l10n.gnome.org/vertimus/gnome-desktop/master/desktop-gpl/sv/) | master | 69 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-desktop](https://l10n.gnome.org/vertimus/gnome-desktop/master/desktop-lgpl/sv/) | master | 98 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-disk-utility](https://l10n.gnome.org/vertimus/gnome-disk-utility/main/po/sv/) | main | 672 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-extensions-app](https://l10n.gnome.org/vertimus/gnome-extensions-app/main/po/sv/) | main | 49 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-extensions-app](https://l10n.gnome.org/vertimus/gnome-extensions-app/main/po/sv/) | main | 49 | 0 | 0 | Klar | X | 2 | Klar lokalt (2026-11-23): Aktuell 49-strängarskatalog är radgranskad mot senaste POT. Två befintliga kvalitetsbrister är rättade, inklusive en felaktig pluralform; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](gnome-extensions-app/main/po/gnome-extensions-app.main.sv.original.po), [granskad](gnome-extensions-app/main/po/gnome-extensions-app.main.sv.reviewed.po), [diff](gnome-extensions-app/main/po/gnome-extensions-app.main.sv.review.diff), [notering](gnome-extensions-app/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-firmware](https://l10n.gnome.org/vertimus/gnome-firmware/gnome-50/po/sv/) | gnome-50 | 263 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-font-viewer](https://l10n.gnome.org/vertimus/gnome-font-viewer/main/po/sv/) | main | 209 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-font-viewer](https://l10n.gnome.org/vertimus/gnome-font-viewer/gnome-50/po/sv/) | gnome-50 | 206 | 0 | 0 | Klar |  | — | Ej granskad |
