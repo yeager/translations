@@ -42,11 +42,12 @@ De är källprojektets tomma metadata, inte saknade svenska översättningar.
 ## Semantiska rättningar efter kökontrollen
 
 En separat jämförelse av återkommande korta källsträngar identifierade och
-verifierade 28 svenska inkonsekvenser. De berörde knapptriggers
+verifierade 34 svenska inkonsekvenser. De berörde knapptriggers
 (långtryck, tryck, släpp samt dubbel- till femklick), `AI tools`,
 `Add conversation agent`, `Account name`, autentiseringsutgång och en
 avvikande slutpunkt i `Account is already configured`, samt
-`Actions on turn off`. Varje ändring sparades via
+`Actions on turn off`, larmklocka, upplevd temperatur och
+applikationsuppgifter. Varje ändring sparades via
 Lokalise API, lästes tillbaka och fördes in i den kanoniska TMX:en.
 
 Arbetet fortsätter med återstående liveposter; detta dokument gör inget
