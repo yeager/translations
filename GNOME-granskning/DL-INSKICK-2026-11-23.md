@@ -40,6 +40,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | gnome-initial-setup | main | po | 21 |
 | gnome-text-editor | main | po | 58 |
 | meld | main | po | 3 |
+| orca | main | po | 17 |
 
 ## DL-blockerare
 
