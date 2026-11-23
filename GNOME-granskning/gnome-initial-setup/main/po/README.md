@@ -6,4 +6,4 @@
 - Acceleratorer: inga `_ä`, `_å` eller `_ö`; den tidigare nordiska acceleratorn i ”Hoppa över” är ändrad till `_Hoppa över`.
 - Validering: `msgfmt --check` och `l10n-lint --language sv` utan fel. Aktuell POT och granskad katalog har samma 145 aktiva nycklar.
 - Hunspell: tekniska och domänspecifika termer, exempelvis `GNOME`, `Wi-Fi`, `OEM`, `realm`, `UTC` och platshållaren `${NAME}`, kontrolleras manuellt.
-- GNOME-inskick: inget.
+- GNOME-inskick: uppladdad till Damned Lies 2026-11-23 efter reservation, med kommentaren `Granskad och klar` (`{"result":"OK"}).
