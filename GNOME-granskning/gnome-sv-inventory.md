@@ -1,17 +1,17 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 14:37 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 14:40 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
-- Kataloger: 603
+- Kataloger: 597
 - Behöver arbete enligt GNOME: 114
 - Oöversatta strängar: 20,210
 - Fuzzy-strängar: 3,619
 
 Varje rad visar GNOME:s aktuella externa status. **Klar** visar `X` endast när katalogen både är lokalt färdiggranskad och har 0 fuzzy samt 0 oöversatta strängar enligt den senast hämtade GNOME/POT-statusen. **Ändringar** är antalet ändrade aktiva PO-poster i den arkiverade granskningen; externa siffror ändras inte förrän en eventuell framtida GNOME-inskickning.
 
-## Granskade kataloger (54)
+## Granskade kataloger (55)
 
 | Typ | Kategori | Modul | Gren | Översatta | Fuzzy | Oöversatta | GNOME-status | Klar | Ändringar | Lokal granskning |
 |---|---|---|---|---:|---:|---:|---|:---:|---:|---|
@@ -69,11 +69,12 @@ Varje rad visar GNOME:s aktuella externa status. **Klar** visar `X` endast när 
 | Dokumentation | Default (71% translated) | [evolution](https://l10n.gnome.org/vertimus/evolution/master/help/sv/) | master | 2068 | 0 | 0 | Klar |  | 31 | Validering återstår (2026-11-23): En blockerande DocBook-taggrisk i 2 068 aktiva strängar är rättad; katalogen är komplett men hela den befintliga dokumentationen återstår att radgranska. msgfmt och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](evolution/master/help/evolution.master.help.sv.original.po), [granskad](evolution/master/help/evolution.master.help.sv.reviewed.po), [diff](evolution/master/help/evolution.master.help.sv.review.diff), [notering](evolution/master/help/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/concepts/sv/) | master | 1431 | 0 | 0 | Klar | X | 51 | Klar lokalt (2026-11-23): 1 431 aktiva poster, 0 oöversatta och 0 fuzzy. 52 svenska procenttal är typografiskt rättade; `msgfmt` och l10n-lint har inga fel. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/concepts/gimp-help.master.concepts.sv.original.po), [granskad](gimp-help/master/concepts/gimp-help.master.concepts.sv.reviewed.po), [diff](gimp-help/master/concepts/gimp-help.master.concepts.sv.review.diff), [notering](gimp-help/master/concepts/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/tutorial/sv/) | master | 136 | 0 | 0 | Klar | X | 1 | Klar lokalt (2026-11-23): 176 aktiva strängar, 0 oöversatta och 0 fuzzy. RGB-intervallet är rättat till 0–255; validerad utan lint-fel. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/tutorial/gimp-help.master.tutorial.sv.original.po), [granskad](gimp-help/master/tutorial/gimp-help.master.tutorial.sv.reviewed.po), [diff](gimp-help/master/tutorial/gimp-help.master.tutorial.sv.review.diff), [notering](gimp-help/master/tutorial/README.md) |
+| Gränssnitt | Default (99% translated) | [tecla](https://l10n.gnome.org/vertimus/tecla/gnome-50/po/sv/) | gnome-50 | 8 | 0 | 0 | Klar | X | 1 | Klar lokalt (2026-11-23): Aktuell 8-strängarskatalog är radgranskad lokalt: tangentterminologi rättad, 0 oöversatta och 0 fuzzy. msgfmt och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](tecla/gnome-50/po/tecla.gnome-50.sv.original.po), [granskad](tecla/gnome-50/po/tecla.gnome-50.sv.reviewed.po), [diff](tecla/gnome-50/po/tecla.gnome-50.sv.review.diff), [notering](tecla/gnome-50/po/README.md) |
 
-## Ogranskade kataloger (549)
+## Ogranskade kataloger (542)
 
-| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/concepts/sv/) | master | 1431 | 0 | 0 | Klar | X | 51 | Klar lokalt (2026-11-23): 1 431 aktiva poster, 0 oöversatta och 0 fuzzy. 52 svenska procenttal är typografiskt rättade; `msgfmt` och l10n-lint har inga fel. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/concepts/gimp-help.master.concepts.sv.original.po), [granskad](gimp-help/master/concepts/gimp-help.master.concepts.sv.reviewed.po), [diff](gimp-help/master/concepts/gimp-help.master.concepts.sv.review.diff), [notering](gimp-help/master/concepts/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/tutorial/sv/) | master | 136 | 0 | 0 | Klar | X | 1 | Klar lokalt (2026-11-23): 176 aktiva strängar, 0 oöversatta och 0 fuzzy. RGB-intervallet är rättat till 0–255; validerad utan lint-fel. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/tutorial/gimp-help.master.tutorial.sv.original.po), [granskad](gimp-help/master/tutorial/gimp-help.master.tutorial.sv.reviewed.po), [diff](gimp-help/master/tutorial/gimp-help.master.tutorial.sv.review.diff), [notering](gimp-help/master/tutorial/README.md) |
+| Gränssnitt | Default (99% translated) | [tecla](https://l10n.gnome.org/vertimus/tecla/gnome-50/po/sv/) | gnome-50 | 8 | 0 | 0 | Klar | X | 1 | Klar lokalt (2026-11-23): Aktuell 8-strängarskatalog är radgranskad lokalt: tangentterminologi rättad, 0 oöversatta och 0 fuzzy. msgfmt och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](tecla/gnome-50/po/tecla.gnome-50.sv.original.po), [granskad](tecla/gnome-50/po/tecla.gnome-50.sv.reviewed.po), [diff](tecla/gnome-50/po/tecla.gnome-50.sv.review.diff), [notering](tecla/gnome-50/po/README.md) |
 | Dokumentation | Default (71% translated) | [gnumeric](https://l10n.gnome.org/vertimus/gnumeric/master/help/sv/) | master | 3963 | 97 | 4895 | Behöver arbete |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gtkmm-documentation](https://l10n.gnome.org/vertimus/gtkmm-documentation/master/tutorial/sv/) | master | 0 | 0 | 2303 | Behöver arbete |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [orca](https://l10n.gnome.org/vertimus/orca/main/help/sv/) | main | 21 | 490 | 723 | Behöver arbete |  | — | Ej granskad |
@@ -284,11 +285,6 @@ Varje rad visar GNOME:s aktuella externa status. **Klar** visar `X` endast när 
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/using/sv/) | master | 1105 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gitg](https://l10n.gnome.org/vertimus/gitg/gnome-50/po/sv/) | gnome-50 | 551 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [glib-networking](https://l10n.gnome.org/vertimus/glib-networking/master/po/sv/) | master | 68 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [glom](https://l10n.gnome.org/module/glom/) | master | 329 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [glom](https://l10n.gnome.org/module/glom/) | master | 83 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [glom](https://l10n.gnome.org/module/glom/) | master | 44 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [glom](https://l10n.gnome.org/module/glom/) | master | 75 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [glom](https://l10n.gnome.org/module/glom/) | master | 113 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [glom](https://l10n.gnome.org/module/glom/) | master | 867 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [glom](https://l10n.gnome.org/module/glom/) | master | 223 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-2048](https://l10n.gnome.org/vertimus/gnome-2048/master/po/sv/) | master | 91 | 0 | 0 | Klar |  | — | Ej granskad |
@@ -553,7 +549,6 @@ Varje rad visar GNOME:s aktuella externa status. **Klar** visar `X` endast när 
 | Gränssnitt | Default (99% translated) | [quadrapassel](https://l10n.gnome.org/vertimus/quadrapassel/main/po/sv/) | main | 86 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [raider](https://l10n.gnome.org/vertimus/raider/main/po/sv/) | main | 38 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [read-it-later](https://l10n.gnome.org/vertimus/read-it-later/master/po/sv/) | master | 70 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [recipes](https://l10n.gnome.org/module/recipes/) | master | 688 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [recipes](https://l10n.gnome.org/module/recipes/) | master | 1101 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [recipes](https://l10n.gnome.org/module/recipes/) | master | 218 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [refine — Tweak various aspects of GNOME](https://l10n.gnome.org/vertimus/refine/main/po/sv/) | main | 85 | 0 | 0 | Klar |  | — | Ej granskad |
@@ -591,7 +586,6 @@ Varje rad visar GNOME:s aktuella externa status. **Klar** visar `X` endast när 
 | Dokumentation | Default (71% translated) | [tali](https://l10n.gnome.org/vertimus/tali/master/help/sv/) | master | 86 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [tau](https://l10n.gnome.org/vertimus/tau/master/po/sv/) | master | 186 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [tecla](https://l10n.gnome.org/vertimus/tecla/main/po/sv/) | main | 8 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [tecla](https://l10n.gnome.org/vertimus/tecla/gnome-50/po/sv/) | gnome-50 | 8 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [telegnome](https://l10n.gnome.org/vertimus/telegnome/master/po/sv/) | master | 68 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [telegnome](https://l10n.gnome.org/vertimus/telegnome/master/help/sv/) | master | 31 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [template-glib](https://l10n.gnome.org/vertimus/template-glib/main/po/sv/) | main | 4 | 0 | 0 | Klar |  | — | Ej granskad |
