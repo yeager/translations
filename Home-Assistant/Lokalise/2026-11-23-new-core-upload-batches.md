@@ -110,3 +110,10 @@ ett i konfigurationsflödet och ett i alternativflödet. Texten i
 alternativflödet normaliserades från `Åtgärder vid avstängning av ljudet` till
 `Åtgärder vid ljudavstängning`, sparades och lästes tillbaka via Lokalise API.
 TMX-valideringen godkände därefter 4 059 poster.
+
+## Torrentsensorer
+
+Två identiska sensorset för `Active torrents` använde pluralformerna
+`Aktiva torrenter` och `Aktiva torrents`. Transmission-posten normaliserades
+till `Aktiva torrenter`, sparades och lästes tillbaka via Lokalise API. Den
+kanoniska TMX:en validerade sedan 4 060 poster.
