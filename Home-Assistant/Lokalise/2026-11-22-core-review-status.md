@@ -6,8 +6,8 @@ validerade Home Assistant-minnet.
 | Mått | Antal |
 | --- | ---: |
 | Poster i Core-exporten | 75 106 |
-| Poster i validerad Core-TMX | 3 496 |
-| Konservativt återstående omfång | 71 610 |
+| Poster i validerad Core-TMX | 3 499 |
+| Konservativt återstående omfång | 71 607 |
 
 Det återstående antalet är konservativt: utöver TMX-posterna finns
 livegranskade strängar utan ny TMX-post, exempelvis hela komponenter där inga
@@ -46,6 +46,11 @@ Aranet har återgranskats mot den aktuella livekatalogen (13 strängar). En
 direktivtext har rättats från `Vänligen uppdatera` till `Uppdatera` och fått
 sin saknade slutpunkt; samtliga poster är nu sparade i det validerade
 TMX-minnet med en spårbar Lokalise-manifestfil.
+
+EmonCMS tre avvecklings- och migreringsmeddelanden har rättats live: otydlig
+`Konfigurering`, indirekta direktiv, felaktiga mellanslag och missvisande
+formulering om identifieraren är ersatta. Alla platshållare och länkar är
+bevarade i den validerade TMX-manifestfilen.
 
 Ingen verktygsrelease publicerades efter dagens tidigare release, enligt
 arbetsregeln om högst en release per dag.
