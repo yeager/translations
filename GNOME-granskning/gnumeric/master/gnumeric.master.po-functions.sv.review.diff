@@ -3,3278 +3,610 @@
 @@ -30,8 +30,8 @@
  "Project-Id-Version: gnumeric\n"
  "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnumeric/issues\n"
- "POT-Creation-Date: 2026-06-17 21:10+0000\n"
+ "POT-Creation-Date: 2026-11-22 12:32+0000\n"
 -"PO-Revision-Date: 2026-06-17 23:43+0200\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-23 12:00+0100\n"
++"PO-Revision-Date: 2026-11-23 14:15+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
  "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
  "Language: sv\n"
  "MIME-Version: 1.0\n"
-@@ -624,7 +624,7 @@
- "@{database} is a range in which rows of related information are records and columns of data are fields. "
- "The first row of a database contains labels for each column."
- msgstr ""
--"@{databas} är ett intervall i vilket rader av relaterad information är poster och datakolumner är fält. "
-+"@{database} är ett intervall i vilket rader av relaterad information är poster och datakolumner är fält. "
- "Den första raden i en databas innehåller etiketter för varje kolumn."
- 
- #: ../plugins/fn-database/functions.c:56
-@@ -633,8 +633,8 @@
- "the nth column will be used. If @{field} is a string, then the column with the matching label will be "
- "used."
- msgstr ""
--"@{fält} är en sträng eller ett heltal som anger vilket fält som ska användas. Om @{fält} är ett heltal "
--"n så kommer den n:e kolumnen att användas. Om @{fält} är en sträng kommer kolumnen med matchande "
-+"@{field} är en sträng eller ett heltal som anger vilket fält som ska användas. Om @{field} är ett heltal "
-+"n så kommer den n:e kolumnen att användas. Om @{field} är en sträng kommer kolumnen med matchande "
- "etikett att användas."
- 
- #: ../plugins/fn-database/functions.c:61
-@@ -645,11 +645,11 @@
- "specifying a value, e. g. \"3\" or \"Jody\". For a record to be considered it must satisfy all "
- "conditions in at least one of the rows of @{criteria}."
- msgstr ""
--"@{kriterier} är ett intervall som innehåller villkor. Den första raden för @{kriterier} ska innehålla "
-+"@{criteria} är ett intervall som innehåller villkor. Den första raden för @{criteria} ska innehålla "
- "etiketter. Varje etikett anger för vilka fält som villkoren som anges i den kolumnen gäller. Varje cell "
- "under etiketten anger ett villkor som \">3\" eller \"<9\". Ett likhetsvillkor kan anges genom att helt "
- "enkelt ange ett värde, t.ex. \"3\" eller \"Jody\". För att en post ska användas måste den uppfylla alla "
--"villkor i minst en av raderna av @{kriterier}."
-+"villkor i minst en av raderna av @{criteria}."
- 
- #: ../plugins/fn-database/functions.c:72
+@@ -529,10 +529,9 @@
+
+ # TODO: Missing @{z}?
+ #: ../plugins/fn-complex/functions.c:844
+-#, fuzzy
+ #| msgid "IMARCCOS:the complex arccosine of the complex number"
+ msgid "IMARCCOS:the complex arccosine of the complex number @{z}"
+-msgstr "IMARCCOS:komplex arcus cosinus för det komplexa talet"
++msgstr "IMARCCOS:den komplexa arcuscosinus för det komplexa talet @{z}"
+
+ #: ../plugins/fn-complex/functions.c:846
  msgid ""
-@@ -686,7 +686,7 @@
- #: ../plugins/fn-database/functions.c:395
+@@ -544,10 +543,9 @@
+
+ # TODO: Missing @{z}?
+ #: ../plugins/fn-complex/functions.c:872
+-#, fuzzy
+ #| msgid "IMARCTAN:the complex arctangent of the complex number"
+ msgid "IMARCTAN:the complex arctangent of the complex number @{z}"
+-msgstr "IMARCTAN:komplex arcus tangens för det komplexa talet"
++msgstr "IMARCTAN:den komplexa arcustangens för det komplexa talet @{z}"
+
+ #: ../plugins/fn-complex/functions.c:874
  msgid ""
- "DAVERAGE:average of the values in @{field} in @{database} belonging to records that match @{criteria}"
--msgstr "DAVERAGE:medelvärde av värdena i @{fält} i @{databas} som tillhör poster som matchar @{kriterier}"
-+msgstr "DAVERAGE:medelvärde av värdena i @{field} i @{database} som tillhör poster som matchar @{criteria}"
- 
- #: ../plugins/fn-database/functions.c:404
- msgid "DAVERAGE(A1:C7, \"Salary\", A9:A11) equals 42296.3333."
-@@ -706,7 +706,7 @@
- 
- #: ../plugins/fn-database/functions.c:431
- msgid "DCOUNT:count of numbers in @{field} in @{database} belonging to records that match @{criteria}"
--msgstr "DCOUNT:antal tal i @{fält} i @{databas} som tillhör poster som matchar @{kriterier}"
-+msgstr "DCOUNT:antal tal i @{field} i @{database} som tillhör poster som matchar @{criteria}"
- 
- #: ../plugins/fn-database/functions.c:440
- msgid "DCOUNT(A1:C7, \"Salary\", A9:A11) equals 3."
-@@ -723,7 +723,7 @@
- #: ../plugins/fn-database/functions.c:475
+@@ -2859,38 +2857,37 @@
+
+ #: ../plugins/fn-eng/functions.c:586 ../plugins/fn-eng/functions.c:610
+ #: ../plugins/fn-eng/functions.c:634 ../plugins/fn-eng/functions.c:658
+-#, fuzzy
+ #| msgid "α:order (any non-negative number)"
+ msgid "α:order (any number)"
+-msgstr "α:ordning (ett icke-negativt tal)"
++msgstr "α:ordning (valfritt tal)"
+
+ #: ../plugins/fn-eng/functions.c:587 ../plugins/fn-eng/functions.c:611
+ #: ../plugins/fn-eng/functions.c:635 ../plugins/fn-eng/functions.c:659
+-#, fuzzy
+ #| msgid ""
+ #| "If @{x} or @{α} are not numeric, #VALUE! is returned. If @{α} < 0, #NUM! "
+ #| "is returned."
+ msgid "If @{x} or @{α} are not numeric, #VALUE! is returned."
+ msgstr ""
+-"Om @{x} eller @{α} inte är numeriska returneras #VÄRDE!. Om @{α} < 0, "
+-"returneras #NUM!."
++"Om @{x} eller @{α} inte är numeriska returneras #VÄRDE!."
+
+ #: ../plugins/fn-eng/functions.c:588
  msgid ""
- "DCOUNTA:count of cells with data in @{field} in @{database} belonging to records that match @{criteria}"
--msgstr "DCOUNTA:antal celler med data i @{fält} i @{databas} som tillhör poster som matchar @{kriterier}"
-+msgstr "DCOUNTA:antal celler med data i @{field} i @{database} som tillhör poster som matchar @{criteria}"
- 
- #: ../plugins/fn-database/functions.c:484
- msgid "DCOUNTA(A1:C7, \"Salary\", A9:A11) equals 3."
-@@ -739,7 +739,7 @@
- 
- #: ../plugins/fn-database/functions.c:508
- msgid "DGET:a value from @{field} in @{database} belonging to records that match @{criteria}"
--msgstr "DGET:ett värde från @{fält} i @{databas} som tillhör poster som matchar @{kriterier}"
-+msgstr "DGET:ett värde från @{field} i @{database} som tillhör poster som matchar @{criteria}"
- 
- #: ../plugins/fn-database/functions.c:517
- msgid "If none of the records match the conditions, DGET returns #VALUE!"
-@@ -759,7 +759,7 @@
- 
- #: ../plugins/fn-database/functions.c:550
- msgid "DMAX:largest number in @{field} in @{database} belonging to a record that match @{criteria}"
--msgstr "DMAX:största tal i @{fält} i @{databas} som tillhör en post som matchar @{kriterier}"
-+msgstr "DMAX:största tal i @{field} i @{database} som tillhör en post som matchar @{criteria}"
- 
- #: ../plugins/fn-database/functions.c:559
- msgid "DMAX(A1:C7, \"Salary\", A9:A11) equals 47242."
-@@ -775,7 +775,7 @@
- 
- #: ../plugins/fn-database/functions.c:586
- msgid "DMIN:smallest number in @{field} in @{database} belonging to a record that match @{criteria}"
--msgstr "DMIN:minsta tal i @{fält} i @{databas} som tillhör en post som matchar @{kriterier}"
-+msgstr "DMIN:minsta tal i @{field} i @{database} som tillhör en post som matchar @{criteria}"
- 
- #: ../plugins/fn-database/functions.c:595
- msgid "DMIN(A1:C7, \"Salary\", A9:B11) equals 34323."
-@@ -789,7 +789,7 @@
+ "Negative orders are evaluated using the standard identity I(-v) = I(v) + 2 "
+ "sin(pi*v) K(v) / pi."
+ msgstr ""
++"Negativa ordningar beräknas med standardidentiteten I(-v) = I(v) + 2 "
++"sin(pi*v) K(v) / pi."
+
+ #: ../plugins/fn-eng/functions.c:590 ../plugins/fn-eng/functions.c:613
+ #: ../plugins/fn-eng/functions.c:638 ../plugins/fn-eng/functions.c:662
+-#, fuzzy
+ #| msgid ""
+ #| "This function is Excel compatible if only integer orders @{α} are used."
  msgid ""
- "DPRODUCT:product of all values in @{field} in @{database} belonging to records that match @{criteria}"
+ "This function is Excel compatible if only non-negative integer orders @{α} "
+ "are used."
  msgstr ""
--"DPRODUCT:produkt av alla värden i @{fält} i @{databas} som tillhör poster som matchar @{kriterier}"
-+"DPRODUCT:produkt av alla värden i @{field} i @{database} som tillhör poster som matchar @{criteria}"
- 
- #: ../plugins/fn-database/functions.c:628
- msgid "DPRODUCT(A1:C7, \"Age\", A9:B11) equals 1247."
-@@ -800,8 +800,8 @@
- "DSTDEV:sample standard deviation of the values in @{field} in @{database} belonging to records that "
- "match @{criteria}"
+-"Denna funktion är Excel-kompatibel om endast heltalsordningar @{α} används."
++"Denna funktion är Excel-kompatibel om endast icke-negativa heltalsordningar "
++"@{α} används."
+
+ # Väljer den engelska sidan då den är mer matnyttig. Även om en svensk sida existerar består den mest av formler.
+ #: ../plugins/fn-eng/functions.c:593 ../plugins/fn-eng/functions.c:616
+@@ -2906,7 +2903,7 @@
+
+ #: ../plugins/fn-eng/functions.c:612
+ msgid "BESSELK is even in its order: K(-v) = K(v)."
+-msgstr ""
++msgstr "BESSELK är jämn i sin ordning: K(-v) = K(v)."
+
+ #: ../plugins/fn-eng/functions.c:632
+ msgid "BESSELJ:Bessel function of the first kind of order @{α} at @{x}"
+@@ -2917,6 +2914,8 @@
+ "Negative orders are evaluated using the standard identity J(-v) = cos(pi*v) "
+ "J(v) - sin(pi*v) Y(v)."
  msgstr ""
--"DSTDEV:stickprovsstandardavvikelse av värdena i @{fält} i @{databas} som tillhör poster som matchar "
--"@{kriterier}"
-+"DSTDEV:stickprovsstandardavvikelse av värdena i @{field} i @{database} som tillhör poster som matchar "
-+"@{criteria}"
- 
- #: ../plugins/fn-database/functions.c:661
- msgid "DSTDEV(A1:C7, \"Age\", A9:B11) equals 9.89949."
-@@ -816,8 +816,8 @@
- "DSTDEVP:standard deviation of the population of values in @{field} in @{database} belonging to records "
- "that match @{criteria}"
++"Negativa ordningar beräknas med standardidentiteten J(-v) = cos(pi*v) "
++"J(v) - sin(pi*v) Y(v)."
+
+ #: ../plugins/fn-eng/functions.c:656
+ msgid "BESSELY:Bessel function of the second kind of order @{α} at @{x}"
+@@ -2927,6 +2926,8 @@
+ "Negative orders are evaluated using the standard identity Y(-v) = sin(pi*v) "
+ "J(v) + cos(pi*v) Y(v)."
  msgstr ""
--"DSTDEVP:standardavvikelse för populationen av värden i @{fält} i @{databas} som tillhör poster som "
--"matchar @{kriterier}"
-+"DSTDEVP:standardavvikelse för populationen av värden i @{field} i @{database} som tillhör poster som "
-+"matchar @{criteria}"
- 
- #: ../plugins/fn-database/functions.c:695
- msgid "DSTDEVP(A1:C7, \"Age\", A9:B11) equals 7."
-@@ -829,7 +829,7 @@
- 
- #: ../plugins/fn-database/functions.c:719
- msgid "DSUM:sum of the values in @{field} in @{database} belonging to records that match @{criteria}"
--msgstr "DSUM:summan av värdena i @{fält} i @{databas} som tillhör poster som matchar @{kriterier}"
-+msgstr "DSUM:summan av värdena i @{field} i @{database} som tillhör poster som matchar @{criteria}"
- 
- #: ../plugins/fn-database/functions.c:728
- msgid "DSUM(A1:C7, \"Age\", A9:B11) equals 72."
-@@ -844,7 +844,7 @@
- "DVAR:sample variance of the values in @{field} in @{database} belonging to records that match "
- "@{criteria}"
- msgstr ""
--"DVAR:stickprovsvarians för värdena i @{fält} i @{databas} som tillhör poster som matchar @{kriterier}"
-+"DVAR:stickprovsvarians för värdena i @{field} i @{database} som tillhör poster som matchar @{criteria}"
- 
- #: ../plugins/fn-database/functions.c:762
- msgid "DVAR(A1:C7, \"Age\", A9:B11) equals 98."
-@@ -859,8 +859,8 @@
- "DVARP:variance of the population of values in @{field} in @{database} belonging to records that match "
- "@{criteria}"
- msgstr ""
--"DVARP:varians för populationen av värden i @{fält} i @{databas} som tillhör poster som matchar "
--"@{kriterier}"
-+"DVARP:varians för populationen av värden i @{field} i @{database} som tillhör poster som matchar "
-+"@{criteria}"
- 
- #: ../plugins/fn-database/functions.c:796
- msgid "DVARP(A1:C7, \"Age\", A9:B11) equals 49."
-@@ -915,7 +915,7 @@
- #: ../plugins/fn-date/functions.c:77
- msgid "If @{month} or @{day} is less than 1 or too big, then the year and/or month will be adjusted."
- msgstr ""
--"Om @{månad} eller @{dag} är mindre än 1 eller för stort kommer året och/eller månaden att justeras."
-+"Om @{month} eller @{day} är mindre än 1 eller för stort kommer året och/eller månaden att justeras."
- 
- #: ../plugins/fn-date/functions.c:78
- msgid "For spreadsheets created with the Mac version of Excel, serial 1 is 1-Jan-1904."
-@@ -959,7 +959,7 @@
- 
- #: ../plugins/fn-date/functions.c:265 ../plugins/fn-date/functions.c:553
- msgid "serial:date and time serial value"
--msgstr "serienummer:serienummer för datum och tid"
-+msgstr "serienummer:värde för datum och tid"
- 
- #: ../plugins/fn-date/functions.c:266
- msgid "DATEVALUE returns the date serial value part of a date and time serial value."
-@@ -1004,14 +1004,14 @@
- "If @{interval} is \"y\", \"m\", or \"d\" then the distance is measured in whole years, months, or days "
- "respectively."
- msgstr ""
--"Om @{intervall} är \"y\", \"m\" eller \"d\" så mäts avståndet i hela år, månader respektive dagar."
-+"Om @{interval} är \"y\", \"m\" eller \"d\" så mäts avståndet i hela år, månader respektive dagar."
- 
- #: ../plugins/fn-date/functions.c:288
- msgid ""
- "If @{interval} is \"ym\" or \"yd\" then the distance is measured in whole months or days, respectively, "
- "but excluding any difference covered by whole years."
- msgstr ""
--"Om @{intervall} är \"ym\" eller \"yd\" så mäts avståndet i hela månader respektive dagar, men utelämnar "
-+"Om @{interval} är \"ym\" eller \"yd\" så mäts avståndet i hela månader respektive dagar, men utelämnar "
- "eventuella skillnader som täcks av hela år."
- 
- #: ../plugins/fn-date/functions.c:289
-@@ -1019,7 +1019,7 @@
- "If @{interval} is \"md\" then the distance is measured in days but excluding any difference covered by "
- "whole months."
- msgstr ""
--"Om @{intervall} är \"md\" så mäts avståndet i dagar, men utelämnar eventuella skillnader som täcks av "
-+"Om @{interval} är \"md\" så mäts avståndet i dagar, men utelämnar eventuella skillnader som täcks av "
- "hela månader."
- 
- #: ../plugins/fn-date/functions.c:418
-@@ -1041,7 +1041,7 @@
- 
- #: ../plugins/fn-date/functions.c:421
- msgid "EDATE returns @{date} moved forward or backward the number of months specified by @{months}."
--msgstr "EDATE returnerar @{datum} flyttat framåt eller bakåt det antal månader som anges av @{månader}."
-+msgstr "EDATE returnerar @{date} flyttat framåt eller bakåt det antal månader som anges av @{months}."
- 
- #: ../plugins/fn-date/functions.c:455
- msgid "TODAY:the date serial value of today"
-@@ -1088,8 +1088,8 @@
- "The TIME function computes the fractional day after midnight at the time given by @{hour}, @{minute}, "
- "and @{second}."
- msgstr ""
--"TIME-funktionen beräknar decimaltidsdagen efter midnatt på tiden som anges av @{timme}, @{minut} och "
--"@{sekund}."
-+"TIME-funktionen beräknar decimaltidsdagen efter midnatt på tiden som anges av @{hour}, @{minute} och "
-+"@{second}."
- 
- #: ../plugins/fn-date/functions.c:497
- msgid ""
-@@ -1124,7 +1124,7 @@
- "The ODF.TIME function computes the time given by @{hour}, @{minute}, and @{second} as a fraction of a "
- "day."
- msgstr ""
--"ODF.TIME-funktionen beräknar tiden angiven av @{timme}, @{minut} och @{sekund} som en bråkdel av en dag."
-+"ODF.TIME-funktionen beräknar tiden angiven av @{hour}, @{minute} och @{second} som en bråkdel av en dag."
- 
- #: ../plugins/fn-date/functions.c:529
- msgid ""
-@@ -1169,7 +1169,7 @@
- 
- #: ../plugins/fn-date/functions.c:573
- msgid "The HOUR function computes the hour part of the fractional day given by @{time}."
--msgstr "HOUR-funktionen beräknar timdelen av decimaltidsdagen given av @{tid}."
-+msgstr "HOUR-funktionen beräknar timdelen av decimaltidsdagen given av @{time}."
- 
- #: ../plugins/fn-date/functions.c:594
- msgid "MINUTE:compute minute part of fractional day"
-@@ -1177,7 +1177,7 @@
- 
- #: ../plugins/fn-date/functions.c:596
- msgid "The MINUTE function computes the minute part of the fractional day given by @{time}."
--msgstr "MINUTE-funktionen beräknar minutdelen av decimaltidsdagen given av @{tid}."
-+msgstr "MINUTE-funktionen beräknar minutdelen av decimaltidsdagen given av @{time}."
- 
- #: ../plugins/fn-date/functions.c:617
- msgid "SECOND:compute seconds part of fractional day"
-@@ -1185,7 +1185,7 @@
- 
- #: ../plugins/fn-date/functions.c:619
- msgid "The SECOND function computes the seconds part of the fractional day given by @{time}."
--msgstr "SECOND-funktionen beräknar sekunddelen av decimaltidsdag given av @{tid}."
-+msgstr "SECOND-funktionen beräknar sekunddelen av decimaltidsdag given av @{time}."
- 
- #: ../plugins/fn-date/functions.c:640
- msgid "YEAR:the year part of a date serial value"
-@@ -1193,7 +1193,7 @@
- 
- #: ../plugins/fn-date/functions.c:642
- msgid "The YEAR function returns the year part of @{date}."
--msgstr "YEAR-funktionen returnerar årsdelen av @{datum}."
-+msgstr "YEAR-funktionen returnerar årsdelen av @{date}."
- 
- #: ../plugins/fn-date/functions.c:664
- msgid "MONTH:the month part of a date serial value"
-@@ -1201,7 +1201,7 @@
- 
- #: ../plugins/fn-date/functions.c:666
- msgid "The MONTH function returns the month part of @{date}."
--msgstr "MONTH-funktionen returnerar månadsdelen av @{datum}."
-+msgstr "MONTH-funktionen returnerar månadsdelen av @{date}."
- 
- #: ../plugins/fn-date/functions.c:688
- msgid "DAY:the day-of-month part of a date serial value"
-@@ -1209,7 +1209,7 @@
- 
- #: ../plugins/fn-date/functions.c:690
- msgid "The DAY function returns the day-of-month part of @{date}."
--msgstr "DAY-funktionen returnerar dag-i-månadsdelen av @{datum}."
-+msgstr "DAY-funktionen returnerar dag-i-månadsdelen av @{date}."
- 
- #: ../plugins/fn-date/functions.c:712
- msgid "WEEKDAY:day-of-week"
-@@ -1224,48 +1224,48 @@
- "The WEEKDAY function returns the day-of-week of @{date}.  The value of @{method} determines how days "
- "are numbered; it defaults to 1."
- msgstr ""
--"Funktionen WEEKDAY returnerar dag-i-veckan för @{datum}. Värdet på @{metod} avgör hur dagar numreras, "
-+"Funktionen WEEKDAY returnerar dag-i-veckan för @{date}. Värdet på @{method} avgör hur dagar numreras, "
- "standard är 1."
- 
- #: ../plugins/fn-date/functions.c:716
- msgid "If @{method} is 1, then Sunday is 1, Monday is 2, etc."
--msgstr "Om @{metod} är 1 så är söndag 1, måndag är 2 och så vidare."
-+msgstr "Om @{method} är 1 så är söndag 1, måndag är 2 och så vidare."
- 
- #: ../plugins/fn-date/functions.c:717
- msgid "If @{method} is 2, then Monday is 1, Tuesday is 2, etc."
--msgstr "Om @{metod} är 2 så är måndag 1, tisdag är 2 och så vidare."
-+msgstr "Om @{method} är 2 så är måndag 1, tisdag är 2 och så vidare."
- 
- #: ../plugins/fn-date/functions.c:718
- msgid "If @{method} is 3, then Monday is 0, Tuesday is 1, etc."
--msgstr "Om @{metod} är 3 så är måndag 0, tisdag är 1 och så vidare."
-+msgstr "Om @{method} är 3 så är måndag 0, tisdag är 1 och så vidare."
- 
- #: ../plugins/fn-date/functions.c:719
- msgid "If @{method} is 11, then Monday is 1, Tuesday is 2, etc."
--msgstr "Om @{metod} är 11 så är måndag 1, tisdag är 2 och så vidare."
-+msgstr "Om @{method} är 11 så är måndag 1, tisdag är 2 och så vidare."
- 
- #: ../plugins/fn-date/functions.c:720
- msgid "If @{method} is 12, then Tuesday is 1, Wednesday is 2, etc."
--msgstr "Om @{metod} är 12 så är tisdag 1, onsdag är 2 och så vidare."
-+msgstr "Om @{method} är 12 så är tisdag 1, onsdag är 2 och så vidare."
- 
- #: ../plugins/fn-date/functions.c:721
- msgid "If @{method} is 13, then Wednesday is 1, Thursday is 2, etc."
--msgstr "Om @{metod} är 13 så är onsdag 1, torsdag är 2 och så vidare."
-+msgstr "Om @{method} är 13 så är onsdag 1, torsdag är 2 och så vidare."
- 
- #: ../plugins/fn-date/functions.c:722
- msgid "If @{method} is 14, then Thursday is 1, Friday is 2, etc."
--msgstr "Om @{metod} är 14 så är torsdag 1, fredag är 2 och så vidare."
-+msgstr "Om @{method} är 14 så är torsdag 1, fredag är 2 och så vidare."
- 
- #: ../plugins/fn-date/functions.c:723
- msgid "If @{method} is 15, then Friday is 1, Saturday is 2, etc."
--msgstr "Om @{metod} är 15 så är fredag 1, lördag är 2 och så vidare."
-+msgstr "Om @{method} är 15 så är fredag 1, lördag är 2 och så vidare."
- 
- #: ../plugins/fn-date/functions.c:724
- msgid "If @{method} is 16, then Saturday is 1, Sunday is 2, etc."
--msgstr "Om @{metod} är 16 så är lördag 1, söndag är 2 och så vidare."
-+msgstr "Om @{method} är 16 så är lördag 1, söndag är 2 och så vidare."
- 
- #: ../plugins/fn-date/functions.c:725
- msgid "If @{method} is 17, then Sunday is 1, Monday is 2, etc."
--msgstr "Om @{metod} är 17 så är söndag 1, måndag är 2 och så vidare."
-+msgstr "Om @{method} är 17 så är söndag 1, måndag är 2 och så vidare."
- 
- #: ../plugins/fn-date/functions.c:782
- msgid "DAYS360:days between dates"
-@@ -1277,7 +1277,7 @@
- 
- #: ../plugins/fn-date/functions.c:786
- msgid "DAYS360 returns the number of days from @{start_date} to @{end_date}."
--msgstr "DAYS360 returnerar antalet dagar från @{startdatum} till @{slutdatum}."
-+msgstr "DAYS360 returnerar antalet dagar från @{start_date} till @{end_date}."
- 
- #: ../plugins/fn-date/functions.c:787
- msgid ""
-@@ -1285,16 +1285,16 @@
- "complicated industry standard method where the last day of February is considered to be the 30th day of "
- "the month, but only for @{start_date}."
- msgstr ""
--"Om @{metod} är 0, standardvärdet, används USA-metoden för MS Excel (tm). Detta är en något komplicerad "
-+"Om @{method} är 0, standardvärdet, används USA-metoden för MS Excel (tm). Detta är en något komplicerad "
- "industristandard där den sista dagen i februari anses vara månadens 30:e dag, men endast för "
--"@{startdatum}."
-+"@{start_date}."
- 
- #: ../plugins/fn-date/functions.c:788
- msgid ""
- "If @{method} is 1, the European method will be used.  In this case, if the day of the month is 31 it "
- "will be considered as 30"
- msgstr ""
--"Om @{metod} är 1 används den europeiska metoden. I detta fall kommer dag 31 i månaden att anses vara "
-+"Om @{method} är 1 används den europeiska metoden. I detta fall kommer dag 31 i månaden att anses vara "
- "dag 30"
- 
- #: ../plugins/fn-date/functions.c:789
-@@ -1302,7 +1302,7 @@
- "If @{method} is 2, a saner version of the US method is used in which both dates get the same February "
- "treatment."
- msgstr ""
--"Om @{metod} är 2 används en vettigare version av USA-metoden, där båda datumen får samma behandling för "
-+"Om @{method} är 2 används en vettigare version av USA-metoden, där båda datumen får samma behandling för "
- "februari."
- 
- #: ../plugins/fn-date/functions.c:824
-@@ -1314,8 +1314,8 @@
- "EOMONTH returns the date serial value of the end of the month specified by @{date} adjusted forward or "
- "backward the number of months specified by @{months}."
- msgstr ""
--"EOMONTH returnerar serienumret för datumet i slutet på månaden angivet av @{datum} justerat framåt "
--"eller bakåt antalet månader som anges av @{månader}."
-+"EOMONTH returnerar serienumret för datumet i slutet på månaden angivet av @{date} justerat framåt "
-+"eller bakåt antalet månader som anges av @{months}."
- 
- #: ../plugins/fn-date/functions.c:864
- msgid "WORKDAY:add working days"
-@@ -1340,15 +1340,15 @@
- 
- #: ../plugins/fn-date/functions.c:870
- msgid "WORKDAY adjusts @{date} by @{days} skipping over weekends and @{holidays} in the process."
--msgstr "WORKDAY justerar @{datum} med @{dagar} efter att veckoslut och @{röda_dagar} hoppats över."
-+msgstr "WORKDAY justerar @{date} med @{days} efter att veckoslut och @{holidays} hoppats över."
- 
- #: ../plugins/fn-date/functions.c:871
- msgid "@{days} may be negative."
--msgstr "@{dagar} kan vara negativt."
-+msgstr "@{days} kan vara negativt."
- 
- #: ../plugins/fn-date/functions.c:872 ../plugins/fn-date/functions.c:1107
- msgid "If an entry of @{weekend} is non-zero, the corresponding weekday is not a work day."
--msgstr "Om en post i @{veckoslut} inte är 0 så är motsvarande veckodag inte en arbetsdag."
-+msgstr "Om en post i @{weekend} inte är 0 så är motsvarande veckodag inte en arbetsdag."
- 
- #: ../plugins/fn-date/functions.c:873 ../plugins/fn-date/functions.c:1108
- msgid "This function is Excel compatible if the last argument is omitted."
-@@ -1360,11 +1360,11 @@
- 
- #: ../plugins/fn-date/functions.c:1051 ../plugins/fn-date/functions.c:1285
- msgid "weekend:predefined weekend pattern (1-17) or 7-character string, defaults to 1"
--msgstr "veckoslut:fördefinierade veckomönster (1-17) eller 7-teckensträng, standardvärdet är 1"
-+msgstr "veckoslut:fördefinierade veckomönster (1–17) eller 7-teckensträng, standardvärdet är 1"
- 
- #: ../plugins/fn-date/functions.c:1053
- msgid "WORKDAY.INTL adjusts @{date} by @{days} skipping over weekends and @{holidays} in the process."
--msgstr "WORKDAY.INTL justerar @{datum} med @{dagar}, efter att veckoslut och @{röda_dagar} hoppats över."
-+msgstr "WORKDAY.INTL justerar @{date} med @{days}, efter att veckoslut och @{holidays} hoppats över."
- 
- #: ../plugins/fn-date/functions.c:1099
- msgid "NETWORKDAYS:number of workdays in range"
-@@ -1375,8 +1375,8 @@
- "NETWORKDAYS calculates the number of days from @{start_date} to @{end_date} skipping weekends and "
- "@{holidays} in the process."
- msgstr ""
--"NETWORKDAYS beräknar antalet dagar från @{startdatum} till @{slutdatum} efter att veckoslut och "
--"@{röda_dagar} hoppats över."
-+"NETWORKDAYS beräknar antalet dagar från @{start_date} till @{end_date} efter att veckoslut och "
-+"@{holidays} hoppats över."
- 
- #: ../plugins/fn-date/functions.c:1282
- msgid "NETWORKDAYS.INTL:number of workdays in range"
-@@ -1387,8 +1387,8 @@
- "NETWORKDAYS.INTL calculates the number of days from @{start_date} to @{end_date} skipping weekends and "
- "@{holidays} in the process."
- msgstr ""
--"NETWORKDAYS.INTL beräknar antalet dagar från @{startdatum} till @{slutdatum} efter att veckoslut och "
--"@{röda_dagar} hoppats över."
-+"NETWORKDAYS.INTL beräknar antalet dagar från @{start_date} till @{end_date} efter att veckoslut och "
-+"@{holidays} hoppats över."
- 
- #: ../plugins/fn-date/functions.c:1310
- msgid "ISOWEEKNUM:ISO week number"
-@@ -1424,47 +1424,47 @@
- 
- #: ../plugins/fn-date/functions.c:1373
- msgid "WEEKNUM calculates the week number according to @{method} which defaults to 1."
--msgstr "WEEKNUM beräknar veckonumret enligt @{metod} vilket har standardvärdet 1."
-+msgstr "WEEKNUM beräknar veckonumret enligt @{method} vilket har standardvärdet 1."
- 
- #: ../plugins/fn-date/functions.c:1374
- msgid "If @{method} is 1, then weeks start on Sundays and January 1 is in week 1."
--msgstr "Om @{metod} är 1 startar veckor på söndagar och 1 januari hör till vecka 1."
-+msgstr "Om @{method} är 1 startar veckor på söndagar och 1 januari hör till vecka 1."
- 
- #: ../plugins/fn-date/functions.c:1375
- msgid "If @{method} is 2, then weeks start on Mondays and January 1 is in week 1."
--msgstr "Om @{metod} är 2 startar veckor på måndagar och 1 januari hör till vecka 1."
-+msgstr "Om @{method} är 2 startar veckor på måndagar och 1 januari hör till vecka 1."
- 
- #: ../plugins/fn-date/functions.c:1376
- msgid "If @{method} is 11, then weeks start on Mondays and January 1 is in week 1."
--msgstr "Om @{metod} är 11 startar veckor på måndagar och 1 januari hör till vecka 1."
-+msgstr "Om @{method} är 11 startar veckor på måndagar och 1 januari hör till vecka 1."
- 
- #: ../plugins/fn-date/functions.c:1377
- msgid "If @{method} is 12, then weeks start on Tuesdays and January 1 is in week 1."
--msgstr "Om @{metod} är 12 startar veckor på tisdagar och 1 januari hör till vecka 1."
-+msgstr "Om @{method} är 12 startar veckor på tisdagar och 1 januari hör till vecka 1."
- 
- #: ../plugins/fn-date/functions.c:1378
- msgid "If @{method} is 13, then weeks start on Wednesdays and January 1 is in week 1."
--msgstr "Om @{metod} är 13 startar veckor på onsdagar och 1 januari hör till vecka 1."
-+msgstr "Om @{method} är 13 startar veckor på onsdagar och 1 januari hör till vecka 1."
- 
- #: ../plugins/fn-date/functions.c:1379
- msgid "If @{method} is 14, then weeks start on Thursdays and January 1 is in week 1."
--msgstr "Om @{metod} är 14 startar veckor på torsdagar och 1 januari hör till vecka 1."
-+msgstr "Om @{method} är 14 startar veckor på torsdagar och 1 januari hör till vecka 1."
- 
- #: ../plugins/fn-date/functions.c:1380
- msgid "If @{method} is 15, then weeks start on Fridays and January 1 is in week 1."
--msgstr "Om @{metod} är 15 startar veckor på fredagar och 1 januari hör till vecka 1."
-+msgstr "Om @{method} är 15 startar veckor på fredagar och 1 januari hör till vecka 1."
- 
- #: ../plugins/fn-date/functions.c:1381
- msgid "If @{method} is 16, then weeks start on Saturdays and January 1 is in week 1."
--msgstr "Om @{metod} är 16 startar veckor på lördagar och 1 januari hör till vecka 1."
-+msgstr "Om @{method} är 16 startar veckor på lördagar och 1 januari hör till vecka 1."
- 
- #: ../plugins/fn-date/functions.c:1382
- msgid "If @{method} is 17, then weeks start on Sundays and January 1 is in week 1."
--msgstr "Om @{metod} är 17 startar veckor på söndagar och 1 januari hör till vecka 1."
-+msgstr "Om @{method} är 17 startar veckor på söndagar och 1 januari hör till vecka 1."
- 
- #: ../plugins/fn-date/functions.c:1383
- msgid "If @{method} is 21 or 150, then the ISO 8601 numbering is used."
--msgstr "Om @{metod} är 21 eller 150 används ISO 8601-numrering."
-+msgstr "Om @{method} är 21 eller 150 används ISO 8601-numrering."
- 
- #: ../plugins/fn-date/functions.c:1440
- msgid "YEARFRAC:fractional number of years between dates"
-@@ -1491,8 +1491,8 @@
- "YEARFRAC calculates the number of days from @{start_date} to @{end_date} according to the calendar "
- "specified by @{basis}, which defaults to 0, and expresses the result as a fractional number of years."
- msgstr ""
--"YEARFRAC beräknar antalet dagar från @{startdatum} till @{slutdatum} enligt kalendern angiven av "
--"@{bas}, vilken har standardvärde 0, och uttrycker resultatet som ett bråktal av år."
-+"YEARFRAC beräknar antalet dagar från @{start_date} till @{end_date} enligt kalendern angiven av "
-+"@{basis}, vilken har standardvärde 0, och uttrycker resultatet som ett bråktal av år."
- 
- #: ../plugins/fn-date/functions.c:1469
- msgid "DAYS:difference between dates in days"
-@@ -1500,7 +1500,7 @@
- 
- #: ../plugins/fn-date/functions.c:1472
- msgid "DAYS returns the positive or negative number of days from @{start_date} to @{end_date}."
--msgstr "DAYS returnerar det positiva eller negativa antalet dagar från @{startdatum} till @{slutdatum}."
-+msgstr "DAYS returnerar det positiva eller negativa antalet dagar från @{start_date} till @{end_date}."
- 
- #. Some common decriptors
- #: ../plugins/fn-derivatives/options.c:44
-@@ -1681,7 +1681,7 @@
- #: ../plugins/fn-derivatives/options.c:457
- #, no-c-format
- msgid "Vega is expressed as the rate of change of option value, per 100% volatility."
--msgstr "Vega uttrycks som ändringshastigheten för optionsvärdet, per 100% volatilitet."
-+msgstr "Vega uttrycks som ändringshastigheten för optionsvärdet, per 100 % volatilitet."
- 
- #: ../plugins/fn-derivatives/options.c:508
- msgid "OPT_BS_RHO:rho of a European option"
-@@ -1700,7 +1700,7 @@
- #: ../plugins/fn-derivatives/options.c:522
- #, no-c-format
- msgid "Rho is expressed as the rate of change of the option value, per 100% change in @{rate}."
--msgstr "Rho uttrycks som ändringshastigheten för optionsvärdet, per 100% ändring i @{ränta}."
-+msgstr "Rho uttrycks som ändringshastigheten för optionsvärdet, per 100 % ändring i @{rate}."
- 
- #: ../plugins/fn-derivatives/options.c:564
- msgid "OPT_BS_CARRYCOST:elasticity of a European option"
-@@ -1719,7 +1719,7 @@
- #: ../plugins/fn-derivatives/options.c:578
- #, no-c-format
- msgid "Elasticity is expressed as the rate of change of the option value, per 100% volatility."
--msgstr "Elasticitet uttrycks som ändringshastigheten för optionsvärdet, per 100% volatilitet."
-+msgstr "Elasticitet uttrycks som ändringshastigheten för optionsvärdet, per 100 % volatilitet."
- 
- #: ../plugins/fn-derivatives/options.c:622
- msgid "OPT_GARMAN_KOHLHAGEN:theoretical price of a European currency option"
-@@ -1878,7 +1878,7 @@
- 
- #: ../plugins/fn-derivatives/options.c:1241
- msgid "alpha:fraction setting the strike price at the future date @{time_start}"
--msgstr "alfa:andelen som sätter lösenpriset till det framtida datumet @{starttid}"
-+msgstr "alfa:andelen som sätter lösenpriset till det framtida datumet @{time_start}"
- 
- #: ../plugins/fn-derivatives/options.c:1242
- msgid "time_start:time until the option starts in days"
-@@ -1988,7 +1988,7 @@
- 
- #: ../plugins/fn-derivatives/options.c:1493
- msgid "@{time2} ≥ @{time1}"
--msgstr "@{tid2} ≥ @{tid1}"
-+msgstr "@{time2} ≥ @{time1}"
- 
- #: ../plugins/fn-derivatives/options.c:1559
- msgid "OPT_EXTENDIBLE_WRITER:theoretical price of extendible writer options"
-@@ -2000,7 +2000,7 @@
- 
- #: ../plugins/fn-derivatives/options.c:1563
- msgid "strike2:strike price at which the option is re-struck if out of the money at @{time1}"
--msgstr "strike2:lösenpriset som sätts på nytt för optionen om den är ”out of the money” vid @{tid1}"
-+msgstr "strike2:lösenpriset som sätts på nytt för optionen om den är ”out of the money” vid @{time1}"
- 
- #: ../plugins/fn-derivatives/options.c:1564
- msgid "time1:initial maturity of the option in years"
-@@ -2016,12 +2016,12 @@
- "have their maturity extended to @{time2} if the option is out of the money at @{time1}."
- msgstr ""
- "OPT_EXTENDIBLE_WRITER modellerar det teoretiska priset på utökningsbara utgivaroptioner. Detta är "
--"optioner som kan utöka inlösentiden till @{tid2} om optionen är ”out of the money” vid @{tid1}."
-+"optioner som kan utöka inlösentiden till @{time2} om optionen är ”out of the money” vid @{time1}."
- 
- #: ../plugins/fn-derivatives/options.c:1611
- msgid "OPT_2_ASSET_CORRELATION:theoretical price of options on 2 assets with correlation @{rho}"
- msgstr ""
--"OPT_2_ASSET_CORRELATION:det teoretiska priset på optioner med två tillgångar med korrelation {@rho}"
-+"OPT_2_ASSET_CORRELATION:det teoretiska priset på optioner med två tillgångar med korrelation @{rho}"
- 
- #: ../plugins/fn-derivatives/options.c:1613
- msgid "spot1:spot price of the underlying asset of the first option"
-@@ -2131,7 +2131,7 @@
- "@{qty2} and spot price @{spot2} for another with quantity @{qty1} and spot price @{spot1}."
- msgstr ""
- "OPT_EURO_EXCHANGE modellerar det teoretiska priset på en europeisk option för att växla en tillgång med "
--"kvantitet @{kvnt2} och @{spot2} för en annan, med kvantitet @{kvnt1} och spotpris @{spot1}."
-+"kvantitet @{qty2} och @{spot2} för en annan, med kvantitet @{qty1} och spotpris @{spot1}."
- 
- #: ../plugins/fn-derivatives/options.c:1705
- msgid "OPT_AMER_EXCHANGE:theoretical price of an American option to exchange assets"
-@@ -2143,7 +2143,7 @@
- "quantity @{qty2} and spot price @{spot2} for another with quantity @{qty1} and spot price @{spot1}."
- msgstr ""
- "OPT_AMER_EXCHANGE modellerar det teoretiska priset på en amerikansk option för att växla en tillgång "
--"med kvantitet @{kvnt2} och spotpris @{spot2} för en annan med kvantitet @{kvnt1} och spotpris @{spot1}."
-+"med kvantitet @{qty2} och spotpris @{spot2} för en annan med kvantitet @{qty1} och spotpris @{spot1}."
- 
- #: ../plugins/fn-derivatives/options.c:1749
- msgid ""
-@@ -2226,7 +2226,7 @@
- 
- #: ../plugins/fn-derivatives/options.c:1962
- msgid "A larger @{num_time_steps} yields greater accuracy but  OPT_BINOMIAL is slower to calculate."
--msgstr "Ett större @{antal_tidssteg} ger större noggrannhet men OPT_BINOMIAL tar längre tid att beräkna."
-+msgstr "Ett större @{num_time_steps} ger större noggrannhet men OPT_BINOMIAL tar längre tid att beräkna."
- 
- #: ../plugins/fn-eng/functions.c:214
- msgid "BASE:string of digits representing the number @{n} in base @{b}"
-@@ -2251,7 +2251,7 @@
- "minimum length given by @{length}."
- msgstr ""
- "BASE konverterar @{n} till dess strängrepresentation i basen @{b}. Inledande nollor kommer läggas till "
--"för att nå den minsta längden som anges av @{längd}."
-+"för att nå den minsta längden som anges av @{length}."
- 
- #: ../plugins/fn-eng/functions.c:244
- msgid "BIN2DEC:decimal representation of the binary number @{x}"
-@@ -2276,7 +2276,7 @@
- "If @{places} is given, BIN2OCT pads the result with zeros to achieve exactly @{places} digits. If this "
- "is not possible, BIN2OCT returns #NUM!"
- msgstr ""
--"Om @{utrymme} anges fyller BIN2OCT ut resultatet med nollor för att få precis @{utrymme} siffror. Om "
-+"Om @{places} anges fyller BIN2OCT ut resultatet med nollor för att få precis @{places} siffror. Om "
- "detta inte är möjligt returnerar BIN2OCT #NUM!"
- 
- #: ../plugins/fn-eng/functions.c:290
-@@ -2288,7 +2288,7 @@
- "If @{places} is given, BIN2HEX pads the result with zeros to achieve exactly @{places} digits. If this "
- "is not possible, BIN2HEX returns #NUM!"
- msgstr ""
--"Om @{utrymme} anges fyller BIN2HEX ut resultatet med nollor för att få precis @{utrymme} siffror. Om "
-+"Om @{places} anges fyller BIN2HEX ut resultatet med nollor för att få precis @{places} siffror. Om "
- "detta inte är möjligt returnerar BIN2HEX #NUM!"
- 
- #: ../plugins/fn-eng/functions.c:315
-@@ -2304,12 +2304,12 @@
- "If @{places} is given and @{x} is non-negative, DEC2BIN pads the result with zeros to achieve exactly "
- "@{places} digits. If this is not possible, DEC2BIN returns #NUM!"
- msgstr ""
--"Om @{utrymme} anges och @{x} är icke-negativ fyller DEC2BIN ut resultatet med nollor för att få precis "
--"@{utrymme} siffror. Om detta inte är möjligt returnerar DEC2BIN #NUM!"
-+"Om @{places} anges och @{x} är icke-negativ fyller DEC2BIN ut resultatet med nollor för att få precis "
-+"@{places} siffror. Om detta inte är möjligt returnerar DEC2BIN #NUM!"
- 
- #: ../plugins/fn-eng/functions.c:322
- msgid "If @{places} is given and @{x} is negative, @{places} is ignored."
--msgstr "Om @{utrymme} anges och @{x} är negativ ignoreras @{utrymme}."
-+msgstr "Om @{places} anges och @{x} är negativ ignoreras @{places}."
- 
- #: ../plugins/fn-eng/functions.c:323
- msgid "If @{x} < − 512 or @{x} > 511, DEC2BIN returns #NUM!"
-@@ -2328,7 +2328,7 @@
- "If @{places} is given, DEC2OCT pads the result with zeros to achieve exactly @{places} digits. If this "
- "is not possible, DEC2OCT returns #NUM!"
- msgstr ""
--"Om @{utrymme} anges fyller DEC2OCT ut resultatet med nollor för att få precis @{utrymme} siffror. Om "
-+"Om @{places} anges fyller DEC2OCT ut resultatet med nollor för att få precis @{places} siffror. Om "
- "detta inte är möjligt returnerar DEC2OCT #NUM!"
- 
- #: ../plugins/fn-eng/functions.c:368
-@@ -2340,7 +2340,7 @@
- "If @{places} is given, DEC2HEX pads the result with zeros to achieve exactly @{places} digits. If this "
- "is not possible, DEC2HEX returns #NUM!"
- msgstr ""
--"Om @{utrymme} anges fyller DEC2HEX ut resultatet med nollor för att få precis @{utrymme} siffror. Om "
-+"Om @{places} anges fyller DEC2HEX ut resultatet med nollor för att få precis @{places} siffror. Om "
- "detta inte är möjligt returnerar DEC2HEX #NUM!"
- 
- #: ../plugins/fn-eng/functions.c:391
-@@ -2349,11 +2349,11 @@
- 
- #: ../plugins/fn-eng/functions.c:392
- msgid "x:number in base @{base}"
--msgstr "x:tal i basen @{bas}"
-+msgstr "x:tal i basen @{base}"
- 
- #: ../plugins/fn-eng/functions.c:393
- msgid "base:base of @{x}, (2 ≤ @{base} ≤ 36)"
--msgstr "bas:basen för @{x}, (2 ≤ @{bas} ≤ 36)"
-+msgstr "bas:basen för @{x}, (2 ≤ @{base} ≤ 36)"
- 
- #: ../plugins/fn-eng/functions.c:422
- msgid "OCT2DEC:decimal representation of the octal number @{x}"
-@@ -2372,7 +2372,7 @@
- "If @{places} is given, OCT2BIN pads the result with zeros to achieve exactly @{places} digits. If this "
- "is not possible, OCT2BIN returns #NUM!"
- msgstr ""
--"Om @{utrymme} anges fyller OCT2BIN ut resultatet med nollor för att få precis @{utrymme} siffror. Om "
-+"Om @{places} anges fyller OCT2BIN ut resultatet med nollor för att få precis @{places} siffror. Om "
- "detta inte är möjligt returnerar OCT2BIN #NUM!"
- 
- #: ../plugins/fn-eng/functions.c:469
-@@ -2384,7 +2384,7 @@
- "If @{places} is given, OCT2HEX pads the result with zeros to achieve exactly @{places} digits. If this "
- "is not possible, OCT2HEX returns #NUM!"
- msgstr ""
--"Om @{utrymme} anges fyller OCT2HEX ut resultatet med nollor för att få precis @{utrymme} siffror. Om "
-+"Om @{places} anges fyller OCT2HEX ut resultatet med nollor för att få precis @{places} siffror. Om "
- "detta inte är möjligt returnerar OCT2HEX #NUM!"
- 
- #: ../plugins/fn-eng/functions.c:492
-@@ -2400,7 +2400,7 @@
- "If @{places} is given, HEX2BIN pads the result with zeros to achieve exactly @{places} digits. If this "
- "is not possible, HEX2BIN returns #NUM!"
- msgstr ""
--"Om @{utrymme} anges fyller HEX2BIN ut resultatet med nollor för att få precis @{utrymme} siffror. Om "
-+"Om @{places} anges fyller HEX2BIN ut resultatet med nollor för att få precis @{places} siffror. Om "
- "detta inte är möjligt returnerar HEX2BIN #NUM!"
- 
- #: ../plugins/fn-eng/functions.c:515
-@@ -2412,7 +2412,7 @@
- "If @{places} is given, HEX2OCT pads the result with zeros to achieve exactly @{places} digits. If this "
- "is not possible, HEX2OCT returns #NUM!"
- msgstr ""
--"Om @{utrymme} anges fyller HEX2OCT ut resultatet med nollor för att få precis @{utrymme} siffror. Om "
-+"Om @{places} anges fyller HEX2OCT ut resultatet med nollor för att få precis @{places} siffror. Om "
- "detta inte är möjligt returnerar HEX2OCT #NUM!"
- 
- #: ../plugins/fn-eng/functions.c:538
-@@ -2512,12 +2512,12 @@
- "CONVERT returns a conversion from one measurement system to another. @{x} is a value in @{from} units "
- "that is to be converted into @{to} units."
- msgstr ""
--"CONVERT returnerar en konvertering från ett mätsystem till ett annat. @{x} är ett värde i @{från}-"
--"enheter som ska konverteras till @{till}-enheter."
-+"CONVERT returnerar en konvertering från ett mätsystem till ett annat. @{x} är ett värde i @{from}-"
-+"enheter som ska konverteras till @{to}-enheter."
- 
- #: ../plugins/fn-eng/functions.c:658
- msgid "If @{from} and @{to} are different types, CONVERT returns #N/A!"
--msgstr "Om @{från} och @{till} är av olika typ returnerar CONVERT #-!"
-+msgstr "Om @{from} och @{to} är av olika typ returnerar CONVERT #-!"
- 
- #: ../plugins/fn-eng/functions.c:659
- msgid ""
-@@ -2719,34 +2719,34 @@
- "\t'Mi'  \tmebi \t\t2^20\n"
- "\t'ki'  \tkibi \t\t\t2^10"
- msgstr ""
--"@{från} och @{till} kan vara någon av följande:\n"
-+"@{from} och @{to} kan vara någon av följande:\n"
- "\n"
- "Vikt och massa\n"
- "\t\"brton\"\t\tImperial ton\n"
- "\t\"cwt\"\t\t\tU.S. (short) hundredweight\n"
--"\t\"g\"    \t\tGram\n"
-+"\t\"g\"  \t\t\tGram\n"
- "\t\"grain\"\t\tGrain\n"
- "\t\"hweight\"\t\tImperial (long) hundredweight\n"
- "\t\"LTON\"\t\tImperial ton\n"
--"\t\"sg\"   \t\tSlug\n"
-+"\t\"sg\" \t\t\tSlug\n"
- "\t\"shweight\"\tU.S. (short) hundredweight\n"
--"\t\"lbm\"  \t\tPund\n"
-+"\t\"lbm\"\t\tPund\n"
- "\t\"lcwt\"\t\tImperial  (long) hundredweight\n"
--"\t\"u\"    \t\tU (atommassa)\n"
-+"\t\"u\"  \t\t\tU (atommassa)\n"
- "\t\"uk_cwt\"\t\tImperial  (long) hundredweight\n"
- "\t\"uk_ton\"\t\tImperial ton\n"
--"\t\"ozm\"  \t\tOunce\n"
-+"\t\"ozm\"\t\tOunce\n"
- "\t\"stone\"\t\tStone\n"
- "\t\"ton\"\t\t\tTon\n"
- "\n"
- "Avstånd:\n"
--"\t\"m\"    \t\tMeter\n"
--"\t\"mi\"   \t\tStatute mile\n"
-+"\t\"m\"   \t\tMeter\n"
-+"\t\"mi\"  \t\tStatute mile\n"
- "\t\"survey_mi\" \tU.S. survey mile\n"
--"\t\"Nmi\"  \t\tSjömil\n"
--"\t\"in\"   \t\tTum\n"
--"\t\"ft\"   \t\tFot\n"
--"\t\"yd\"   \t\tYard\n"
-+"\t\"Nmi\" \t\tSjömil\n"
-+"\t\"in\"  \t\t\tTum\n"
-+"\t\"ft\"  \t\t\tFot\n"
-+"\t\"yd\"  \t\tYard\n"
- "\t\"ell\" \t\t\tEnglish Ell\n"
- "\t\"ang\" \t\tÅngström\n"
- "\t\"ly\" \t\t\tLjusår\n"
-@@ -2758,41 +2758,41 @@
- "\t\"pica\"\t\tPica\n"
- "\n"
- "Tid:\n"
--"\t\"yr\"   \t\tÅr\n"
--"\t\"day\"  \t\tDag\n"
--"\t\"hr\"   \t\tTimme\n"
--"\t\"mn\"   \t\tMinut\n"
--"\t\"sec\"  \t\tSekund\n"
-+"\t\"yr\"  \t\t\tÅr\n"
-+"\t\"day\" \t\tDag\n"
-+"\t\"hr\"  \t\t\tTimme\n"
-+"\t\"mn\"  \t\tMinut\n"
-+"\t\"sec\" \t\tSekund\n"
- "\n"
- "Tryck:\n"
--"\t\"Pa\"   \t\tPascal\n"
-+"\t\"Pa\"  \t\t\tPascal\n"
- "\t\"psi\" \t\t\tPSI\n"
--"\t\"atm\"  \t\tAtmosfär\n"
-+"\t\"atm\" \t\tAtmosfär\n"
- "\t\"Pa\"  \t\t\tPascal\n"
--"\t\"mmHg\" \tmm kvicksilver\n"
-+"\t\"mmHg\"\t\tmm kvicksilver\n"
- "\t\"Torr\"\t\t\tTorr\n"
- "\n"
- "Kraft:\n"
--"\t\"N\"    \t\tNewton\n"
--"\t\"dyn\"  \t\tDyn\n"
-+"\t\"N\"   \t\t\tNewton\n"
-+"\t\"dyn\" \t\tDyn\n"
- "\t\"pond\" \t\tPond\n"
--"\t\"lbf\"  \t\tPound force\n"
-+"\t\"lbf\" \t\t\tPound force\n"
- "\n"
- "Energi:\n"
--"\t\"J\"    \t\tJoule\n"
-+"\t\"J\"    \t\t\tJoule\n"
- "\t\"e\"    \t\tErg\n"
- "\t\"c\"    \t\tTermodynamiska kalorier\n"
- "\t\"cal\"  \t\tIT-kalorier\n"
--"\t\"eV\"   \tElektronvolt\n"
--"\t\"HPh\"  \tHästkraft-timme\n"
--"\t\"Wh\"   \tWatt-timme\n"
-+"\t\"eV\"   \t\tElektronvolt\n"
-+"\t\"HPh\"  \t\tHästkraft-timme\n"
-+"\t\"Wh\"   \t\tWatt-timme\n"
- "\t\"flb\"  \t\tFot-pund\n"
--"\t\"BTU\"  \tBTU\n"
-+"\t\"BTU\"  \t\tBTU\n"
- "\n"
- "Effekt:\n"
--"\t\"HP\"   \tHästkraft\n"
--"\t\"PS\"   \tPferdestärke\n"
--"\t\"W\"    \tWatt\n"
-+"\t\"HP\"   \t\tHästkraft\n"
-+"\t\"PS\"   \t\tPferdestärke\n"
-+"\t\"W\"    \t\tWatt\n"
- "\n"
- "Magnetism:\n"
- "\t\"T\"    \t\tTesla\n"
-@@ -2807,11 +2807,10 @@
- "\n"
- "Volym (flytande):\n"
- "\t\"tsp\"  \t\tTesked\n"
--"\n"
- "\t\"tspm\"  \t\tTesked (modern, metrisk)\n"
- "\t\"tbs\"  \t\tMatsked\n"
- "\t\"oz\"   \t\tFluid ounce\n"
--"\t\"cup\"  \tKopp\n"
-+"\t\"cup\"  \t\tKopp\n"
- "\t\"pt\"   \t\tPint\n"
- "\t\"us_pt\"\t\tU.S. pint\n"
- "\t\"uk_pt\"\t\tImperial pint (U.K.)\n"
-@@ -2822,7 +2821,7 @@
- "\t\"GRT\"  \t\tRegistered ton\n"
- "\t\"regton\" \t\tRegistered ton\n"
- "\t\"MTON\" \t\tMeasurement ton (freight ton)\n"
--"\t\"l\"    \t\tLiter\n"
-+"\t\"l\"    \t\t\tLiter\n"
- "\t\"L\"    \t\tLiter\n"
- "\t\"lt\"   \t\t\tLiter\n"
- "\t\"ang3\" \t\tKubik-Ångström\n"
-@@ -2847,6 +2846,7 @@
- "\t\"Picapt^3\" \tKubik-Pica\n"
- "\t\"Pica3\" \t\tKubik-Pica\n"
- "\t\"Pica^3\" \t\tKubik-Pica\n"
-+"\n"
- "Area:\n"
- "\t\"uk_acre\" \t\tInternationell acre\n"
- "\t\"us_acre\" \t\tU.S. survey/statute acre\n"
-@@ -2876,7 +2876,6 @@
- "\t\"bit\" \t\t\tBit\n"
- "\t\"byte\" \t\tByte\n"
- "\n"
--"\n"
- "Hastighet:\n"
- "\t\"admkn\" \t\tAdmiralty knot\n"
- "\t\"kn\" \t\t\tknop\n"
-@@ -2887,26 +2886,26 @@
- "\t\"mph\" \t\tMiles i timmen\n"
- "\n"
- "För enheter i det metriska systemet kan följande prefix användas:\n"
--"\t\"Y\"  yotta  \t1E+24\n"
--"\t\"Z\"  zetta  \t1E+21\n"
--"\t\"E\"  exa    \t1E+18\n"
--"\t\"P\"  peta   \t1E+15\n"
--"\t\"T\"  tera   \t\t1E+12\n"
--"\t\"G\"  giga   \t1E+09\n"
--"\t\"M\"  mega   \t1E+06\n"
--"\t\"k\"  kilo   \t\t1E+03\n"
--"\t\"h\"  hekto  \t1E+02\n"
--"\t\"e\"  deka  \t1E+01\n"
--"\t\"d\"  deci   \t1E-01\n"
--"\t\"c\"  centi  \t\t1E-02\n"
--"\t\"m\"  milli  \t\t1E-03\n"
--"\t\"u\"  mikro  \t1E-06\n"
--"\t\"n\"  nano   \t1E-09\n"
--"\t\"p\"  piko   \t1E-12\n"
--"\t\"f\"  femto  \t1E-15\n"
--"\t\"a\"  atto   \t\t1E-18\n"
--"\t\"z\"  zepto  \t\t1E-21\n"
--"\t\"y\"  yokto  \t\t1E-24\n"
-+"\t\"Y\"  \tyotta  \t\t1E+24\n"
-+"\t\"Z\"  \tzetta  \t\t1E+21\n"
-+"\t\"E\"  \texa    \t\t1E+18\n"
-+"\t\"P\"  \tpeta   \t\t1E+15\n"
-+"\t\"T\"  \ttera   \t\t1E+12\n"
-+"\t\"G\"  \tgiga   \t\t1E+09\n"
-+"\t\"M\"  \tmega   \t\t1E+06\n"
-+"\t\"k\"  \tkilo   \t\t\t1E+03\n"
-+"\t\"h\"  \thekto  \t\t1E+02\n"
-+"\t\"e\"  \tdeka  \t1E+01\n"
-+"\t\"d\"  \tdeci   \t\t1E-01\n"
-+"\t\"c\"  \tcenti  \t\t1E-02\n"
-+"\t\"m\"  \tmilli  \t\t\t1E-03\n"
-+"\t\"u\"  \tmikro  \t\t1E-06\n"
-+"\t\"n\"  \tnano   \t\t1E-09\n"
-+"\t\"p\"  \tpiko   \t\t1E-12\n"
-+"\t\"f\"  \tfemto  \t\t1E-15\n"
-+"\t\"a\"  \tatto   \t\t1E-18\n"
-+"\t\"z\"  \tzepto  \t\t1E-21\n"
-+"\t\"y\"  \tyokto  \t\t1E-24\n"
- "\n"
- "För bitar och byte kan också följande prefix användas:\n"
- "\t\"Yi\"  \tyobi \t\t2^80\n"
-@@ -2918,6 +2917,7 @@
- "\t\"Mi\"  \tmebi \t\t2^20\n"
- "\t\"ki\"  \tkibi \t\t\t2^10"
- 
-+
- #: ../plugins/fn-eng/functions.c:841
- msgid "This function is Excel compatible (except \"picapt\")."
- msgstr "Denna funktion är Excel-kompatibel (förutom ”picapt”)."
-@@ -2936,7 +2936,7 @@
- 
- #: ../plugins/fn-eng/functions.c:1429
- msgid "ERF returns 2/sqrt(π)* integral from @{lower} to @{upper} of exp(-t*t) dt"
--msgstr "ERF returnerar 2/sqrt(π)* integral från @{nedre} till @{övre} av exp(-t*t) dt"
-+msgstr "ERF returnerar 2/sqrt(π)* integral från @{lower} till @{upper} av exp(-t*t) dt"
- 
- #: ../plugins/fn-eng/functions.c:1435 ../plugins/fn-eng/functions.c:1463
- msgid "wiki:en:Error_function"
-@@ -3037,7 +3037,7 @@
- #: ../plugins/fn-erlang/functions.c:106
- msgid "PROBBLOCK returns probability of blocking when @{traffic} calls load into @{circuits} circuits."
- msgstr ""
--"PROBBLOCK returnerar sannolikheten för blockering då @{trafik} samtal läses in i @{kretsar} kretsar."
-+"PROBBLOCK returnerar sannolikheten för blockering då @{traffic} samtal läses in i @{circuits} kretsar."
- 
- #: ../plugins/fn-erlang/functions.c:127
- msgid "OFFTRAF:predicted number of offered calls"
-@@ -3052,12 +3052,12 @@
- "OFFTRAF returns the predicted number of offered calls given @{traffic} carried calls (taken from "
- "measurements) on @{circuits} circuits."
- msgstr ""
--"OFFTRAF returnerar det förväntade antalet erbjudna samtal givet @{trafik} passerande samtal (taget från "
--"mätningar) på @{kretsar} kretsar."
-+"OFFTRAF returnerar det förväntade antalet erbjudna samtal givet @{traffic} passerande samtal (taget från "
-+"mätningar) på @{circuits} kretsar."
- 
- #: ../plugins/fn-erlang/functions.c:131
- msgid "@{traffic} cannot exceed @{circuits}."
--msgstr "@{trafik} kan inte överstiga @{kretsar}."
-+msgstr "@{traffic} kan inte överstiga @{circuits}."
- 
- #: ../plugins/fn-erlang/functions.c:189
++"Negativa ordningar beräknas med standardidentiteten Y(-v) = sin(pi*v) "
++"J(v) + cos(pi*v) Y(v)."
+
+ #: ../plugins/fn-eng/functions.c:680
+ msgid "CONVERT:a converted measurement"
+@@ -3496,7 +3497,7 @@
+
+ #: ../plugins/fn-erlang/functions.c:191
+ msgid "@{traffic} must be less than @{circuits}, rounded down to an integer."
+-msgstr ""
++msgstr "@{trafik} måste vara mindre än @{kretsar}, avrundat nedåt till ett heltal."
+
+ #: ../plugins/fn-erlang/functions.c:272
  msgid "DIMCIRC:number of circuits required"
-@@ -3070,7 +3070,7 @@
- #: ../plugins/fn-erlang/functions.c:192
+@@ -3665,12 +3666,11 @@
+ "inte resultatet."
+
+ #: ../plugins/fn-financial/functions.c:394
+-#, fuzzy
+ #| msgid "@{issue} must precede both @{first_interest} and @{settlement}."
  msgid ""
- "DIMCIRC returns the number of circuits required given @{traffic} calls with grade of service @{gos}."
--msgstr "DIMCIRC anger ett antal kretsar som behövs för @{trafik} samtal med servicekvalitet @{sk}."
-+msgstr "DIMCIRC anger ett antal kretsar som behövs för @{traffic} samtal med servicekvalitet @{gos}."
- 
- #: ../plugins/fn-erlang/functions.c:227
- msgid "OFFCAP:traffic capacity"
-@@ -3078,19 +3078,19 @@
- 
- #: ../plugins/fn-erlang/functions.c:230
- msgid "OFFCAP returns the traffic capacity given @{circuits} circuits with grade of service @{gos}."
--msgstr "OFFCAP anger trafikkapaciteten given av antalet @{kretsar} med servicekvalitet @{sk}."
-+msgstr "OFFCAP anger trafikkapaciteten given av antalet @{circuits} med servicekvalitet @{gos}."
- 
- #. *************************************************************************
- #: ../plugins/fn-financial/functions.c:51
- msgid "@{frequency} may be 1 (annual), 2 (semi-annual), or 4 (quarterly)."
--msgstr "@{frekvens} kan vara 1 (årsvis), 2 (halvårsvis) eller 4 (kvartalsvis)."
-+msgstr "@{frequency} kan vara 1 (årsvis), 2 (halvårsvis) eller 4 (kvartalsvis)."
- 
- #: ../plugins/fn-financial/functions.c:54
- msgid ""
- "If @{type} is 0, the default, payment is at the end of each period.  If @{type} is 1, payment is at the "
- "beginning of each period."
- msgstr ""
--"Om {typ} är 0, standardvärdet, sker betalning i slutet på varje period. Om {typ} är 1 sker betalning i "
-+"Om @{type} är 0, standardvärdet, sker betalning i slutet på varje period. Om @{type} är 1 sker betalning i "
- "början på varje period."
- 
- #: ../plugins/fn-financial/functions.c:360
-@@ -3160,32 +3160,32 @@
- "If @{first_interest} < @{settlement} and @{calc_method} is TRUE, then ACCRINT returns the sum of the "
- "interest accrued in all coupon periods from @{issue}  date until @{settlement} date."
- msgstr ""
--"Om @{första_ränta} < @{avräkning} och @{beräknmetod} är SANT, returnerar ACCRINT summan för den "
--"upplupna räntan i alla kupongperioder från datumet för @{start} till datumet för @{avräkning}."
-+"Om @{first_interest} < @{settlement} och @{calc_method} är SANT, returnerar ACCRINT summan för den "
-+"upplupna räntan i alla kupongperioder från datumet för @{issue} till datumet för @{settlement}."
- 
- #: ../plugins/fn-financial/functions.c:375
- msgid ""
- "If @{first_interest} < @{settlement} and @{calc_method} is FALSE, then ACCRINT returns the sum of the "
- "interest accrued in all coupon periods from @{first_interest}  date until @{settlement} date."
- msgstr ""
--"Om @{första_ränta} < @{avräkning} och @{beräknmetod} är FALSKT, returnerar ACCRINT summan för den "
--"upplupna räntan i alla kupongperioder från datumet för @{första_ränta} till datumet för @{avräkning}."
-+"Om @{first_interest} < @{settlement} och @{calc_method} är FALSKT, returnerar ACCRINT summan för den "
-+"upplupna räntan i alla kupongperioder från datumet för @{first_interest} till datumet för @{settlement}."
- 
- #: ../plugins/fn-financial/functions.c:380
- msgid ""
- "Otherwise ACCRINT returns the sum of the interest accrued in all coupon periods from @{issue}  date "
- "until @{settlement} date."
- msgstr ""
--"Annars returnerar ACCRINT summan av den upplupna räntan i alla kupongperioder från datumet för @{start} "
--"till datumet för @{avräkning}."
-+"Annars returnerar ACCRINT summan av den upplupna räntan i alla kupongperioder från datumet för @{issue} "
-+"till datumet för @{settlement}."
- 
- #: ../plugins/fn-financial/functions.c:383
- msgid "@{frequency} must be one of 1, 2 or 4, but the exact value does not affect the result."
--msgstr "@{frekvens} måste vara en av 1, 2 eller 4, men det exakta värdet påverkar inte resultatet."
-+msgstr "@{frequency} måste vara en av 1, 2 eller 4, men det exakta värdet påverkar inte resultatet."
- 
- #: ../plugins/fn-financial/functions.c:385
- msgid "@{issue} must precede both @{first_interest} and @{settlement}."
+ "@{issue} must be earlier than @{settlement} and no later than "
+ "@{first_interest}."
 -msgstr "@{start} måste komma före både @{första_ränta} och @{avräkning}."
-+msgstr "@{issue} måste komma före både @{first_interest} och @{settlement}."
- 
- #: ../plugins/fn-financial/functions.c:446
++msgstr "@{start} måste komma före @{avräkning} och senast på @{första_ränta}."
+
+ #: ../plugins/fn-financial/functions.c:456
  msgid "ACCRINTM:accrued interest"
-@@ -3213,7 +3213,7 @@
- 
- #: ../plugins/fn-financial/functions.c:452
- msgid "ACCRINTM calculates the accrued interest from @{issue} to @{maturity}."
--msgstr "ACCRINTM beräknar den upplupna räntan för en säkerhet från @{start} till @{förfallodatum}."
-+msgstr "ACCRINTM beräknar den upplupna räntan för en säkerhet från @{issue} till @{maturity}."
- 
- #: ../plugins/fn-financial/functions.c:453
- msgid "@{par} defaults to $1000."
-@@ -3290,7 +3290,7 @@
- 
- #: ../plugins/fn-financial/functions.c:627
- msgid "@{redemption} is the redemption value per $100 face value."
--msgstr "@{inlösen} är inlösningsvärdet vid värde $100."
-+msgstr "@{redemption} är inlösningsvärdet vid värde $100."
- 
- #: ../plugins/fn-financial/functions.c:653
- msgid "EFFECT:effective interest rate"
-@@ -3302,7 +3302,7 @@
- 
- #: ../plugins/fn-financial/functions.c:656
- msgid "EFFECT calculates the effective interest rate using the formula (1+@{rate}/@{nper})^@{nper}-1."
--msgstr "EFFECT beräknar den effektiva räntesatsen med formeln (1+@{ränta}/@{nper})^@{nper}-1."
-+msgstr "EFFECT beräknar den effektiva räntesatsen med formeln (1+@{rate}/@{nper})^@{nper}-1."
- 
- #: ../plugins/fn-financial/functions.c:678
- msgid "NOMINAL:nominal interest rate"
-@@ -3544,7 +3544,7 @@
+@@ -4779,10 +4779,9 @@
+ "Funktionen FLT.RADIX returnerar basen för flyttalssystemet som används."
+
+ #: ../plugins/fn-flt/functions.c:52
+-#, fuzzy
+ #| msgid "FLT.MIN:return the smallest positive floating point number"
+ msgid "FLT.MIN:return the smallest positive normal floating point number"
+-msgstr "FLT.MIN:returnera det minsta positiva flyttalsnumret"
++msgstr "FLT.MIN:returnerar det minsta positiva normaliserade flyttalstalet"
+
+ #: ../plugins/fn-flt/functions.c:53
  msgid ""
- "The optional @{guess} is needed because there can be more than one valid result.  It defaults to 10%."
+@@ -4885,6 +4884,9 @@
+ "is 1, Elul 6, Tishri 7, Shebat 11, and Adar 12.  In leap years, Adar I is 12 "
+ "and Adar II is 13."
  msgstr ""
--"Frivillig @{gissning} behövs eftersom det kan finnas mer än ett giltigt resultat. Standardvärdet är 10%."
-+"Frivillig @{guess} behövs eftersom det kan finnas mer än ett giltigt resultat. Standardvärdet är 10 %."
- 
- #: ../plugins/fn-financial/functions.c:1244
- msgid "RRI:equivalent interest rate for an investment increasing in value"
-@@ -3578,7 +3578,7 @@
- "IRR calculates the internal rate of return of a cash flow with periodic payments.  @{values} lists the "
- "payments (negative values) and receipts (positive values) for each period."
++"Månaderna numreras i traditionell ordning med början i Nisan: Nisan är 1, "
++"Elul 6, Tishri 7, Shebat 11 och Adar 12. Under skottår är Adar I 12 och "
++"Adar II 13."
+
+ #: ../plugins/fn-hebrew-date/functions.c:297
+ msgid "HDATE_DAY:Hebrew day of Gregorian date"
+@@ -5531,6 +5533,9 @@
+ "except for relative coordinates in R1C1 form which are offsets and may be "
+ "zero or negative."
  msgstr ""
--"IRR beräknar den interna återbetalningsräntan för ett kassaflöde med periodisk avbetalning. @{värden} "
-+"IRR beräknar den interna återbetalningsräntan för ett kassaflöde med periodisk avbetalning. @{values} "
- "listar betalningar (negativa värden) och mottagna summor (positiva värden) för varje period."
- 
- #: ../plugins/fn-financial/functions.c:1395
-@@ -3596,7 +3596,7 @@
- "payment of @{pmt} and an interest rate of @{rate} per period."
- msgstr ""
- "PV beräknar aktuellt värde för @{fv} vilka är @{nper} perioder in i framtiden antagande periodisk "
--"betalning för @{bet} och en räntesats på @{ränta} per period."
-+"betalning för @{pmt} och en räntesats på @{rate} per period."
- 
- #: ../plugins/fn-financial/functions.c:1435
- msgid "NPV:net present value"
-@@ -3637,8 +3637,8 @@
- "entry in @{dates}."
- msgstr ""
- "XIRR beräknar den årliga interna återbetalningsräntan för ett kassaflöde vid godtyckliga tidpunkter. "
--"@{värden} listar betalningar (negativa värden) och mottagna summor (positiva värden) för varje post i "
--"@{datum}."
-+"@{values} listar betalningar (negativa värden) och mottagna summor (positiva värden) för varje post i "
-+"@{dates}."
- 
- #: ../plugins/fn-financial/functions.c:1631
- msgid "FV:future value"
-@@ -3650,7 +3650,7 @@
- "payment of @{pmt} and an interest rate of @{rate} per period."
- msgstr ""
- "FV beräknar det framtida värdet av @{pv} flyttad @{nper} perioder till framtiden, antagande en "
--"periodisk betalning av @{bet} och en räntesats @{ränta} per period."
-+"periodisk betalning av @{pmt} och en räntesats @{rate} per period."
- 
- #: ../plugins/fn-financial/functions.c:1667
- msgid "PMT:payment for annuity"
-@@ -3668,7 +3668,7 @@
- msgid "IPMT calculates the interest part of an annuity's payment for period number @{per}."
- msgstr ""
- "IPMT (interest payment for period) beräknar räntesatsdelen för en annuitetsbetalning för period nummer "
--"@{per}"
-+"@{per}."
- 
- #: ../plugins/fn-financial/functions.c:1737
- msgid "PPMT:interest payment for period"
-@@ -3733,7 +3733,7 @@
- "FVSCHEDULE calculates the future value of @{principal} after applying a range of interest rates with "
- "compounding."
- msgstr ""
--"FVSCHEDULE beräknar det framtida värdet för @{kapital} efter att ha tillämpat ett ränteintervall för "
-+"FVSCHEDULE beräknar det framtida värdet för @{principal} efter att ha tillämpat ett ränteintervall för "
- "sammanräkning."
- 
- #: ../plugins/fn-financial/functions.c:1938
-@@ -3758,7 +3758,7 @@
- "ESP (Spain), EUR (Euro), FIM (Finland), FRF (France), GRD (Greece), IEP (Ireland), ITL (Italy), LUF "
- "(Luxembourg), MTL (Malta), NLG (The Netherlands), PTE (Portugal), SIT (Slovenia), or SKK (Slovakia)."
- msgstr ""
--"@{valuta} måste vara en av ATS (Österrike), BEF (Belgien), CYP (Cypern), DEM (Tyskland), EEK (Estland), "
-+"@{currency} måste vara en av ATS (Österrike), BEF (Belgien), CYP (Cypern), DEM (Tyskland), EEK (Estland), "
- "ESP (Spanien), EUR (Euro), FIM (Finland), FRF (Frankrike), GRD (Grekland), IEP (Irland), ITL (Italien), "
- "LUF (Luxemburg), MTL (Malta), NLG (Nederländerna), PTE (Portugal), SIT (Slovenien) eller SKK "
- "(Slovakien)."
-@@ -3800,7 +3800,7 @@
- "EUROCONVERT converts @{n} units of currency @{source} to currency @{target}.  The rates used are the "
- "official ones used on the introduction of the Euro."
- msgstr ""
--"EUROCONVERT konverterar @{n} enheter av valutan @{källa} till valutan @{mål}. Kurserna som används är "
-+"EUROCONVERT konverterar @{n} enheter av valutan @{source} till valutan @{target}. Kurserna som används är "
- "de officiella som användes vid introduktion av Euron."
- 
- #: ../plugins/fn-financial/functions.c:2142
-@@ -3808,12 +3808,12 @@
- "If @{full_precision} is true, the result is not rounded; if it false the result is rounded to 0 or 2 "
- "decimals depending on the target currency; defaults to false."
- msgstr ""
--"Om @{hel_precision} är sant, kommer resultatet inte att avrundas; om falskt avrundas det till 0 eller 2 "
-+"Om @{full_precision} är sant, kommer resultatet inte att avrundas; om falskt avrundas det till 0 eller 2 "
- "decimaler beroende på målvaluta, standardvärde är falskt."
- 
- #: ../plugins/fn-financial/functions.c:2143
- msgid "@{source} and @{target} must be one of the currencies listed for the EURO function."
--msgstr "@{källa} och @{mål} måste vara en av valutorna som listas för EURO-funktionen."
-+msgstr "@{source} och @{target} måste vara en av valutorna som listas för EURO-funktionen."
- 
- #: ../plugins/fn-financial/functions.c:2187
- msgid "PRICE:price of a security"
-@@ -3913,7 +3913,7 @@
- 
- #: ../plugins/fn-financial/functions.c:2826 ../plugins/fn-financial/functions.c:2878
- msgid "purchase_date:date of purchase"
--msgstr "köpdatum:köpdatum"
-+msgstr "köpdatum:datum då köpet gjordes"
- 
- #: ../plugins/fn-financial/functions.c:2827 ../plugins/fn-financial/functions.c:2879
- msgid "first_period:end of first period"
-@@ -3953,7 +3953,7 @@
- "depreciation exceeding the difference of @{cost} - @{salvage}."
- msgstr ""
- "Speciella avskrivningsregler tillämpas för de sista två perioderna resulterande i en möjlig total "
--"avskrivning överskridande skillnaden mellan @{kostnad} - @{salvage}."
-+"avskrivning överskridande skillnaden mellan @{cost} - @{salvage}."
- 
- #: ../plugins/fn-financial/functions.c:2844
- msgid "Named for AMORtissement DEGRessif Comptabilite."
-@@ -4054,7 +4054,7 @@
- 
- #: ../plugins/fn-financial/functions.c:3073
- msgid "CUMIPMT calculates the cumulative interest paid on a loan from @{start_period} to @{end_period}."
--msgstr "CUMIPMT beräknar den kumulativa räntan betalad på ett lån från @{startperiod} till @{slutperiod}."
-+msgstr "CUMIPMT beräknar den kumulativa räntan betalad på ett lån från @{start_period} till @{end_period}."
- 
- #: ../plugins/fn-financial/functions.c:3107
- msgid "CUMPRINC:cumulative principal"
-@@ -4063,7 +4063,7 @@
- #: ../plugins/fn-financial/functions.c:3114
- msgid "CUMPRINC calculates the cumulative principal paid on a loan from @{start_period} to @{end_period}."
- msgstr ""
--"CUMPRINC returnerar det kumulativa kapitalet betalat på ett lån från @{startperiod} till @{slutperiod}."
-+"CUMPRINC returnerar det kumulativa kapitalet betalat på ett lån från @{start_period} till @{end_period}."
- 
- #: ../plugins/fn-financial/functions.c:3148
- msgid "MDURATION:the modified (Macaulay) duration of a security"
-@@ -4094,7 +4094,7 @@
- "If @{no_switch} is FALSE, the calculation switches to straight-line depreciation when depreciation is "
- "greater than the declining balance calculation."
- msgstr ""
--"Om @{växla_ej} är FALSKT växlar beräkningen till linjär avskrivning när avskrivningen är större än den "
-+"Om @{no_switch} är FALSKT växlar beräkningen till linjär avskrivning när avskrivningen är större än den "
- "degressiva avskrivningsmetoden."
- 
- #: ../plugins/fn-flt/functions.c:36
-@@ -4203,7 +4203,7 @@
- 
- #: ../plugins/fn-info/functions.c:64
- msgid "CELL:information of @{type} about @{cell}"
--msgstr "CELL:information av @{typ} om @{cell}"
-+msgstr "CELL:information av @{type} om @{cell}"
- 
- #: ../plugins/fn-info/functions.c:65
- msgid "type:string specifying the type of information requested"
-@@ -4242,7 +4242,7 @@
- "  value          \t\tReturns the contents of the cell in @{cell}.\n"
- "  width          \t\tReturns the column width."
- msgstr ""
--"@{typ} anger informationstypen du vill ha:\n"
-+"@{type} anger informationstypen du vill ha:\n"
- "  address        \t\tReturnerar given cellreferens som text.\n"
- "  col            \t\tReturnerar kolumnens nummer i @{cell}.\n"
- "  color          \t\tReturnerar 0.\n"
-@@ -4314,7 +4314,7 @@
- 
- #: ../plugins/fn-info/functions.c:473
- msgid "COUNTBLANK:the number of blank cells in @{range}"
--msgstr "COUNTBLANK:antalet blanka celler i @{intervall}"
-+msgstr "COUNTBLANK:antalet blanka celler i @{range}"
- 
- #: ../plugins/fn-info/functions.c:474
- msgid "range:a cell range"
-@@ -4326,7 +4326,7 @@
- 
- #: ../plugins/fn-info/functions.c:528
- msgid "INFO:information about the current operating environment according to @{type}"
--msgstr "INFO:information om den aktuella operativsystemsmiljön enligt @{typ}"
-+msgstr "INFO:information om den aktuella operativsystemsmiljön enligt @{type}"
- 
- #: ../plugins/fn-info/functions.c:530
- msgid "type:string giving the type of information requested"
-@@ -4344,8 +4344,8 @@
- "  system       \t\tReturns the name of the environment.\n"
- "  totmem       \t\tReturns the amount of total memory available."
- msgstr ""
--"INFO returnerar information om den aktuella operativsystemsmiljön enligt @{typ}:\n"
--"  memavail        \tReturnerar mängden tillgängligt minne (byte).\n"
-+"INFO returnerar information om den aktuella operativsystemsmiljön enligt @{type}:\n"
-+"  memavail        \t\tReturnerar mängden tillgängligt minne (byte).\n"
- "  memused         \tReturnerar mängden använt minne (byte).\n"
- "  numfile         \t\tReturnerar antalet aktiva arbetsblad.\n"
- "  osversion       \t\tReturnerar operativsystemsversionen.\n"
-@@ -4356,7 +4356,7 @@
- 
- #: ../plugins/fn-info/functions.c:627
- msgid "ISERROR:TRUE if @{value} is any error value"
--msgstr "ISERROR:SANT om @{värde} är ett felvärde"
-+msgstr "ISERROR:SANT om @{value} är ett felvärde"
- 
- #: ../plugins/fn-info/functions.c:628 ../plugins/fn-info/functions.c:646
- #: ../plugins/fn-info/functions.c:668 ../plugins/fn-info/functions.c:763
-@@ -4368,15 +4368,15 @@
- 
- #: ../plugins/fn-info/functions.c:645
- msgid "ISNA:TRUE if @{value} is the #N/A error value"
--msgstr "ISNA:SANT om @{värde} är felvärdet #-"
-+msgstr "ISNA:SANT om @{value} är felvärdet #-"
- 
- #: ../plugins/fn-info/functions.c:667
- msgid "ISERR:TRUE if @{value} is any error value except #N/A"
--msgstr "ISERR:SANT om @{värde} är ett felvärde skilt från #-"
-+msgstr "ISERR:SANT om @{value} är ett felvärde skilt från #-"
- 
- #: ../plugins/fn-info/functions.c:686
- msgid "ERROR.TYPE:the type of @{error}"
--msgstr "ERROR.TYPE:typen av @{fel}"
-+msgstr "ERROR.TYPE:typen av @{error}"
- 
- #: ../plugins/fn-info/functions.c:687
- msgid "error:an error"
-@@ -4400,12 +4400,12 @@
- "ERROR.TYPE returnerar ett felnummer som motsvarar det angivna felvärdet. Felnumren för felvärden är:\n"
- "\n"
- "\t#NULL!     \t1\n"
--"\t#DIV/0!    \t\t2\n"
--"\t#VÄRDE!    \t\t3\n"
--"\t#REF!      \t\t4\n"
-+"\t#DIV/0!    \t2\n"
-+"\t#VÄRDE!    \t3\n"
-+"\t#REF!      \t4\n"
- "\t#NAMN?     \t5\n"
--"\t#NUM!      \t\t6\n"
--"\t#-         \t\t7\n"
-+"\t#NUM!      \t6\n"
-+"\t#-         \t7\n"
- "\t#HÄMTAR_DATA\t8\n"
- "\t#SPILL!    \t9"
- 
-@@ -4415,7 +4415,7 @@
- 
- #: ../plugins/fn-info/functions.c:745
- msgid "ERROR:the error with the given @{name}"
--msgstr "ERROR:felet med angivet @{namn}"
-+msgstr "ERROR:felet med angivet @{name}"
- 
- #: ../plugins/fn-info/functions.c:746
- msgid "name:string"
-@@ -4423,7 +4423,7 @@
- 
- #: ../plugins/fn-info/functions.c:762
- msgid "ISBLANK:TRUE if @{value} is blank"
--msgstr "ISBLANK:SANT om @{värde} är blankt"
-+msgstr "ISBLANK:SANT om @{value} är blankt"
- 
- #: ../plugins/fn-info/functions.c:764
- msgid "This function checks if a value is blank.  Empty cells are blank, but empty strings are not."
-@@ -4442,7 +4442,7 @@
- 
- #: ../plugins/fn-info/functions.c:800
- msgid "ISLOGICAL:TRUE if @{value} is a logical value"
--msgstr "ISLOGICAL:SANT om @{värde} är ett logiskt värde"
-+msgstr "ISLOGICAL:SANT om @{value} är ett logiskt värde"
- 
- #: ../plugins/fn-info/functions.c:802
- msgid "This function checks if a value is either TRUE or FALSE."
-@@ -4450,11 +4450,11 @@
- 
- #: ../plugins/fn-info/functions.c:818
- msgid "ISNONTEXT:TRUE if @{value} is not text"
--msgstr "ISNONTEXT:SANT om @{värde} inte är text"
-+msgstr "ISNONTEXT:SANT om @{value} inte är text"
- 
- #: ../plugins/fn-info/functions.c:835
- msgid "ISNUMBER:TRUE if @{value} is a number"
--msgstr "ISNUMBER:SANT om @{värde} är ett tal"
-+msgstr "ISNUMBER:SANT om @{value} är ett tal"
- 
- #: ../plugins/fn-info/functions.c:837
- msgid "This function checks if a value is a number.  Neither TRUE nor FALSE are numbers for this purpose."
-@@ -4468,7 +4468,7 @@
- 
- #: ../plugins/fn-info/functions.c:874
- msgid "ISREF:TRUE if @{value} is a reference"
--msgstr "ISREF:SANT om @{värde} är en referens"
-+msgstr "ISREF:SANT om @{value} är en referens"
- 
- #: ../plugins/fn-info/functions.c:876
- msgid "This function checks if a value is a cell reference."
-@@ -4476,7 +4476,7 @@
- 
- #: ../plugins/fn-info/functions.c:904
- msgid "ISTEXT:TRUE if @{value} is text"
--msgstr "ISTEXT:SANT om @{värde} är text"
-+msgstr "ISTEXT:SANT om @{value} är text"
- 
- #: ../plugins/fn-info/functions.c:922
- msgid "N:@{text} converted to a number"
-@@ -4503,7 +4503,7 @@
- 
- #: ../plugins/fn-info/functions.c:954
- msgid "TYPE:a number indicating the data type of @{value}"
--msgstr "TYPE:ett tal som indikerar datatypen för @{värde}"
-+msgstr "TYPE:ett tal som indikerar datatypen för @{value}"
- 
- #: ../plugins/fn-info/functions.c:956
- msgid ""
-@@ -4514,7 +4514,7 @@
- "16 \t= error\n"
- "64 \t= array"
- msgstr ""
--"TYPE returnerar ett tal som indikerar datatypen för @{värde}:\n"
-+"TYPE returnerar ett tal som indikerar datatypen för @{value}:\n"
- "1  \t= tal\n"
- "2  \t= text\n"
- "4  \t= boolesk\n"
-@@ -4523,7 +4523,7 @@
- 
- #: ../plugins/fn-info/functions.c:995
- msgid "GETENV:the value of execution environment variable @{name}"
--msgstr "GETENV:värdet för exekveringsmiljöns miljövariabel @{namn}"
-+msgstr "GETENV:värdet för exekveringsmiljöns miljövariabel @{name}"
- 
- #: ../plugins/fn-info/functions.c:996
- msgid "name:the name of the environment variable"
-@@ -4531,7 +4531,7 @@
- 
- #: ../plugins/fn-info/functions.c:997
- msgid "If a variable called @{name} does not exist, #N/A will be returned."
--msgstr "Om ingen variabel med namnet @{namn} finns så returneras #-."
-+msgstr "Om ingen variabel med namnet @{name} finns så returneras #-."
- 
- #: ../plugins/fn-info/functions.c:998
- msgid "Variable names are case sensitive."
-@@ -4585,7 +4585,7 @@
- #: ../plugins/fn-logical/functions.c:174
- msgid "This function is strict: if any argument is an error, the result will be the first such error."
- msgstr ""
--"Denna funktion är strikt, om något argument är ett fel kommer resultatet att vara det första sådana "
-+"Denna funktion är strikt: om något argument är ett fel kommer resultatet att vara det första sådana "
- "felet."
- 
- #: ../plugins/fn-logical/functions.c:55
-@@ -4679,7 +4679,7 @@
- 
- #: ../plugins/fn-logical/functions.c:258
- msgid "value1:value if @{condition1} is true"
--msgstr "värde1:värde om @{villkor1} är sant"
-+msgstr "värde1:värde om @{condition1} är sant"
- 
- # TODO: 'condition2' in later string.
- #: ../plugins/fn-logical/functions.c:259
-@@ -4688,7 +4688,7 @@
- 
- #: ../plugins/fn-logical/functions.c:260
- msgid "value2:value if @{condition2} is true"
--msgstr "värde2:värde om @{villkor2} är sant"
-+msgstr "värde2:värde om @{condition2} är sant"
- 
- #: ../plugins/fn-logical/functions.c:261
- msgid ""
-@@ -4700,7 +4700,7 @@
- #: ../plugins/fn-logical/functions.c:263
- msgid "Each @{condition} must be a boolean value. Any other type will result in a #VALUE! error."
- msgstr ""
--"Varje @{villkor} måste vara ett booleskt värde. Alla andra typer kommer resultera i ett #VÄRDE!-fel."
-+"Varje @{condition} måste vara ett booleskt värde. Alla andra typer kommer resultera i ett #VÄRDE!-fel."
- 
- #: ../plugins/fn-logical/functions.c:300
- msgid "SWITCH:multi-branch selector"
-@@ -4731,7 +4731,7 @@
- "SWITCH compares @{ref} against @{choice1}, @{choice2}, etc. and returns the corresponding @{value} for "
- "the first match. A final optional argument may be provided as a default value."
- msgstr ""
--"SWITCH jämför @{ref} mot @{val1}, @{val2}, o.s.v. och returnerar motsvarande @{värde} med första "
-+"SWITCH jämför @{ref} mot @{choice1}, @{choice2}, o.s.v. och returnerar motsvarande @{value} med första "
- "träffen. Ett sista valfritt argument kan tillhandahållas som standardvärde."
- 
- #: ../plugins/fn-logical/functions.c:308
-@@ -4790,15 +4790,15 @@
- 
- #: ../plugins/fn-lookup/functions.c:961
- msgid "If @{row_num} or @{col_num} is less than one, ADDRESS returns #VALUE!"
--msgstr "Om @{radnum} eller @{kolnum} är mindre än ett, returnerar ADDRESS #VÄRDE!"
-+msgstr "Om @{row_num} eller @{col_num} är mindre än ett, returnerar ADDRESS #VÄRDE!"
- 
- #: ../plugins/fn-lookup/functions.c:963
++"Om @{radnum} eller @{kolnum} är mindre än ett returnerar ADDRESS #VÄRDE!, "
++"utom för relativa koordinater i R1C1-form, som är förskjutningar och kan vara "
++"noll eller negativa."
+
+ #: ../plugins/fn-lookup/functions.c:967
  msgid "If @{abs_num} is greater than 4 ADDRESS returns #VALUE!"
--msgstr "Om @{absnum} är större än 4 returnerar ADDRESS #VÄRDE!"
-+msgstr "Om @{abs_num} är större än 4 returnerar ADDRESS #VÄRDE!"
- 
- #: ../plugins/fn-lookup/functions.c:1050
- msgid "AREAS:number of areas in @{reference}"
--msgstr "AREAS:antal areor i @{referens}"
-+msgstr "AREAS:antal areor i @{reference}"
- 
- #: ../plugins/fn-lookup/functions.c:1051
- msgid "reference:range"
-@@ -4834,7 +4834,7 @@
- 
- #: ../plugins/fn-lookup/functions.c:1165
- msgid "VLOOKUP:search the first column of @{range} for @{value}"
--msgstr "VLOOKUP:sök efter @{värde} i den första kolumnen av @{intervall}"
-+msgstr "VLOOKUP:sök efter @{range} i den första kolumnen av @{value}"
- 
- #: ../plugins/fn-lookup/functions.c:1166 ../plugins/fn-lookup/functions.c:1234
- msgid "value:search value"
-@@ -4850,7 +4850,7 @@
- 
- #: ../plugins/fn-lookup/functions.c:1169 ../plugins/fn-lookup/functions.c:1237
- msgid "approximate:if false, an exact match of @{value} must be found; defaults to TRUE"
--msgstr "approximativ:om falskt så måste en precis matchning av @{värde} hittas; standard är SANT"
-+msgstr "approximativ:om falskt så måste en precis matchning av @{value} hittas; standard är SANT"
- 
- #: ../plugins/fn-lookup/functions.c:1171
- msgid "as_index:if true, the 0-based row offset is returned; defaults to FALSE"
-@@ -4863,22 +4863,22 @@
- "the last row with first value less than or equal to @{value}. If @{as_index} is true the 0-based row "
- "offset is returned."
- msgstr ""
--"Funktionen VLOOKUP söker den rad i @{intervall} som har en första cell liknande den i @{värde}. Om "
--"@{approximativ} inte är sant söker den raden med en exakt likhet. Om @{approximativ} är sant hittar den "
--"den sista raden vars första värde är mindre än eller lika med @{värde}. om @{as_index} är sant "
-+"Funktionen VLOOKUP söker den rad i @{range} vars första cellvärde liknar @{value}. Om "
-+"@{approximate} inte är sant söker den en rad med en exakt likhet. Om @{approximate} är sant söks den "
-+"sista raden vars första värde är mindre än eller lika med @{value}. Om @{as_index} är sant "
- "returneras den 0-baserade radförskjutningen."
- 
- #: ../plugins/fn-lookup/functions.c:1180 ../plugins/fn-lookup/functions.c:1248
- msgid "If @{approximate} is true, then the values must be sorted in order of ascending value."
--msgstr "Om @{approximativ} är sant så måste värdena sorteras i stigande ordning."
-+msgstr "Om @{approximate} är sant så måste värdena sorteras i stigande ordning."
- 
- #: ../plugins/fn-lookup/functions.c:1182
- msgid "VLOOKUP returns #REF! if @{column} falls outside @{range}."
--msgstr "VLOOKUP returnerar #REF! om @{kolumn} faller utanför @{intervall}."
-+msgstr "VLOOKUP returnerar #REF! om @{column} faller utanför @{range}."
- 
- #: ../plugins/fn-lookup/functions.c:1233
- msgid "HLOOKUP:search the first row of @{range} for @{value}"
--msgstr "HLOOKUP:sök efter @{värde} i den första raden av @{intervall}"
-+msgstr "HLOOKUP:sök efter @{range} i den första raden av @{value}"
- 
- #: ../plugins/fn-lookup/functions.c:1236
- msgid "row:1-based row offset indicating the return values "
-@@ -4895,18 +4895,18 @@
- "finds the last column with first value less than or equal to @{value}. If @{as_index} is true the 0-"
- "based column offset is returned."
- msgstr ""
--"Funktionen HLOOKUP söker den kolumn i @{intervall} som har en första rad liknande den i @{värde}. Om "
--"@{approximativ} inte är sant söker den kolumnen med en exakt likhet. Om @{approximativ} är sant hittar "
--"den den sista kolumnen vars första värde är mindre än eller lika med @{värde}. Om @{as_index} är sant "
-+"Funktionen HLOOKUP söker den kolumn i @{range} vars första radvärde liknar @{value}. Om "
-+"@{approximate} inte är sant söker den en kolumn med en exakt likhet. Om @{approximate} är sant söks "
-+"den sista kolumnen vars första värde är mindre än eller lika med @{value}. Om @{as_index} är sant "
- "returneras den 0-baserade kolumnförskjutningen."
- 
- #: ../plugins/fn-lookup/functions.c:1250
- msgid "HLOOKUP returns #REF! if @{row} falls outside @{range}."
--msgstr "HLOOKUP returnerar #REF! om @{rad} faller utanför @{intervall}."
-+msgstr "HLOOKUP returnerar #REF! om @{row} faller utanför @{range}."
- 
- #: ../plugins/fn-lookup/functions.c:1301
- msgid "LOOKUP:contents of @{vector2} at the corresponding location to @{value} in @{vector1}"
--msgstr "LOOKUP:innehåll i @{vektor2} på platsen motsvarande @{värde} i @{vektor1}"
-+msgstr "LOOKUP:innehåll i @{vector2} på platsen motsvarande @{value} i @{vector1}"
- 
- #: ../plugins/fn-lookup/functions.c:1303
- msgid "value:value to look up"
-@@ -4926,12 +4926,12 @@
- "first column. If @{vector2} is omitted the return value is taken from the last row or column of "
- "@{vector1}."
- msgstr ""
--"Om @{vektor1} har fler rader än kolumner söker LOOKUP den första raden i @{vektor1} annars den första "
--"kolumnen. Om @{vektor2} utelämnas tas returvärdet från den sista raden eller kolumnen i @{vektor1}."
-+"Om @{vector1} har fler rader än kolumner söker LOOKUP den första raden i @{vector1} annars den första "
-+"kolumnen. Om @{vector2} utelämnas tas returvärdet från den sista raden eller kolumnen i @{vector1}."
- 
- #: ../plugins/fn-lookup/functions.c:1310
- msgid "If LOOKUP can't find @{value} it uses the largest value less than @{value}."
--msgstr "Om LOOKUP inte kan hitta @{värde} använder den det största värdet mindre än @{värde}."
-+msgstr "Om LOOKUP inte kan hitta @{value} använder den det största värdet mindre än @{value}."
- 
- #: ../plugins/fn-lookup/functions.c:1312
- msgid "The data must be sorted."
-@@ -4939,15 +4939,15 @@
- 
- #: ../plugins/fn-lookup/functions.c:1313
- msgid "If @{value} is smaller than the first value it returns #N/A."
--msgstr "Om @{värde} är mindre än det första värdet returnerar det #-."
-+msgstr "Om @{value} är mindre än det första värdet returnerar det #-."
- 
- #: ../plugins/fn-lookup/functions.c:1314
- msgid "If the corresponding location does not exist in @{vector2}, it returns #N/A."
--msgstr "Om motsvarande plats inte existerar i @{vektor2} returnerar den #-."
-+msgstr "Om motsvarande plats inte existerar i @{vector2} returnerar den #-."
- 
- #: ../plugins/fn-lookup/functions.c:1401
- msgid "MATCH:the index of @{seek} in @{vector}"
--msgstr "MATCH:index för @{sök} i @{vektor}"
-+msgstr "MATCH:index för @{seek} i @{vector}"
- 
- #: ../plugins/fn-lookup/functions.c:1402
- msgid "seek:value to find"
-@@ -4962,36 +4962,36 @@
- "type:+1 (the default) to find the largest value ≤ @{seek}, 0 to find the first value = @{seek}, or -1 "
- "to find the smallest value ≥ @{seek}"
- msgstr ""
--"typ:+1 (standard) för att hitta det största värdet ≤ @{sök}, 0 för att hitta första värdet = @{sök}, "
--"eller -1 för att hitta det minsta värdet ≥ @{sök}"
-+"typ:+1 (standard) för att hitta det största värdet ≤ @{seek}, 0 för att hitta första värdet = @{seek}, "
-+"eller -1 för att hitta det minsta värdet ≥ @{seek}"
- 
- #: ../plugins/fn-lookup/functions.c:1407
- msgid "MATCH searches @{vector} for @{seek} and returns the 1-based index."
--msgstr "MATCH söker @{vektor} efter @{sök} och returnerar det 1-baserade indexet."
-+msgstr "MATCH söker @{vector} efter @{seek} och returnerar det 1-baserade indexet."
- 
- #: ../plugins/fn-lookup/functions.c:1408
+@@ -6085,45 +6090,45 @@
+ msgstr "v:värde"
+
+ #: ../plugins/fn-lookup/functions.c:2223
+-#, fuzzy
+ #| msgid "SORT:sorted list of numbers as vertical array"
+ msgid "SORT:sorted rows or columns of an area"
+-msgstr "SORT:sorterad tallista som vertikal vektor"
++msgstr "SORT:sorterade rader eller kolumner i ett område"
+
+ #: ../plugins/fn-lookup/functions.c:2224
+-#, fuzzy
+ #| msgid "data:range or array"
+ msgid "array:range or array to sort"
+-msgstr "data:intervall eller vektor"
++msgstr "matris:intervall eller matris att sortera"
+
+ #: ../plugins/fn-lookup/functions.c:2225
  msgid ""
- "For @{type} = -1 the data must be sorted in descending order; for @{type} = +1 the data must be sorted "
- "in ascending order."
+ "sort_index:index of the row (if by_col is TRUE) or column (if by_col is "
+ "FALSE) to sort by; defaults to 1"
  msgstr ""
--"För @{typ} = -1 måste data vara sorterat i fallande ordning, för @{typ} = +1 måste data sorteras i "
-+"För @{type} = -1 måste data vara sorterat i fallande ordning, för @{type} = +1 måste data sorteras i "
- "stigande ordning."
- 
- #: ../plugins/fn-lookup/functions.c:1410
- msgid "If @{seek} could not be found, #N/A is returned."
--msgstr "Om @{sök} inte kunde hittas returneras #-."
-+msgstr "Om @{seek} inte kunde hittas returneras #-."
- 
- #: ../plugins/fn-lookup/functions.c:1411
- msgid "If @{vector} is neither n by 1 nor 1 by n, #N/A is returned."
--msgstr "Om @{vektor} är varken n×1 eller 1×n returneras #-."
-+msgstr "Om @{vector} är varken n×1 eller 1×n returneras #-."
- 
- #: ../plugins/fn-lookup/functions.c:1455
++"sorteringsindex:index för raden (om efter_kol är SANT) eller kolumnen (om "
++"efter_kol är FALSKT) att sortera efter; standardvärdet är 1"
+
+ #: ../plugins/fn-lookup/functions.c:2226
+-#, fuzzy
+ #| msgid "order:0 (descending order) or 1 (ascending order); defaults to 0"
+ msgid "sort_order:1 (ascending, the default) or -1 (descending)"
+ msgstr ""
+-"ordning:0 (fallande ordning) eller 1 (stigande ordning); standardvärde 0"
++"sorteringsordning:1 (stigande, standardvärdet) eller -1 (fallande)"
+
+ #: ../plugins/fn-lookup/functions.c:2227
  msgid ""
- "XLOOKUP:search @{lookup_array} for @{lookup_value} and return the corresponding item from "
- "@{return_array}"
+ "by_col:when TRUE (the default), columns are sorted based on the sort_index "
+ "row; when FALSE, rows are sorted based on the sort_index column"
  msgstr ""
--"XLOOKUP:sök @{uppslagsvektor} efter @{uppslagsvärde} och returnera motsvarande objekt från "
--"@{returvektor}"
-+"XLOOKUP:sök @{lookup_array} efter @{lookup_value} och returnera motsvarande objekt från "
-+"@{return_array}"
- 
- #: ../plugins/fn-lookup/functions.c:1456 ../plugins/fn-lookup/functions.c:1535
- msgid "lookup_value:value to look up"
-@@ -5031,20 +5031,20 @@
- "XLOOKUP function finds the item in @{lookup_array} that matches @{lookup_value} and returns the "
- "corresponding item from @{return_array}."
- msgstr ""
--"Funktionen XLOOKUP söker objektet i @{uppslagsvektor} som matchar @{uppslagsvärde} och returnerar "
--"motsvarande objekt från @{returvektor}."
-+"Funktionen XLOOKUP söker objektet i @{lookup_array} som matchar @{lookup_value} och returnerar "
-+"motsvarande objekt från @{return_array}."
- 
- #: ../plugins/fn-lookup/functions.c:1534
- msgid "XMATCH:the index of @{lookup_value} in @{lookup_array}"
--msgstr "XMATCH:index för @{uppslagsvärde} i @{uppslagsvektor}"
-+msgstr "XMATCH:index för @{lookup_value} i @{lookup_array}"
- 
- #: ../plugins/fn-lookup/functions.c:1539
- msgid "XMATCH searches @{lookup_array} for @{lookup_value} and returns the 1-based index."
--msgstr "XMATCH söker @{uppslagsvektor} efter @{uppslagsvärde} och returnerar det 1-baserade indexet."
-+msgstr "XMATCH söker @{lookup_array} efter @{lookup_value} och returnerar det 1-baserade indexet."
- 
- #: ../plugins/fn-lookup/functions.c:1574
- msgid "INDIRECT:contents of the cell pointed to by the @{ref_text} string"
--msgstr "INDIRECT:innehållet för cellen pekad på av strängen @{reftext}"
-+msgstr "INDIRECT:innehållet för cellen pekad på av strängen @{ref_text}"
- 
- #: ../plugins/fn-lookup/functions.c:1575
- msgid "ref_text:textual reference"
-@@ -5053,16 +5053,16 @@
- #: ../plugins/fn-lookup/functions.c:1576
- msgid ""
- "format:if true, @{ref_text} is given in A1-style, otherwise it is given in R1C1 style; defaults to true"
--msgstr "format:om sant ges @{reftext} i A1-stil annars ges det i R1C1-stil; standardvärde är sant"
-+msgstr "format:om sant ges @{ref_text} i A1-stil annars ges det i R1C1-stil; standardvärde är sant"
- 
- #: ../plugins/fn-lookup/functions.c:1578
- msgid ""
- "If @{ref_text} is not a valid reference in the style determined by @{format}, INDIRECT returns #REF!"
--msgstr "Om @{reftext} inte är en giltig referens i stilen bestämd av @{format}, returnerar INDIRECT #REF!"
-+msgstr "Om @{ref_text} inte är en giltig referens i stilen bestämd av @{format}, returnerar INDIRECT #REF!"
- 
- #: ../plugins/fn-lookup/functions.c:1612
- msgid "INDEX:reference to a cell in the given @{array}"
--msgstr "INDEX:refererar till en cell i given @{vektor}"
-+msgstr "INDEX:refererar till en cell i given @{array}"
- 
- #: ../plugins/fn-lookup/functions.c:1613
- msgid "array:cell or inline array"
-@@ -5085,12 +5085,12 @@
- "INDEX gives a reference to a cell in the given @{array}. The cell is selected by @{row} and @{col}, "
- "which count the rows and columns in the array."
- msgstr ""
--"INDEX ger en referens till en cell i given @{vektor}. Cellen markeras av @{rad} och @{kol}, vilka "
-+"INDEX ger en referens till en cell i given @{array}. Cellen markeras av @{row} och @{col}, vilka "
- "räknar raderna och kolumnerna i vektorn."
- 
- #: ../plugins/fn-lookup/functions.c:1622
- msgid "If the reference falls outside the range of @{array}, INDEX returns #REF!"
--msgstr "Om referensen hamnar utanför intervallet för @{vektor} returnerar INDEX #REF!"
-+msgstr "Om referensen hamnar utanför intervallet för @{array} returnerar INDEX #REF!"
- 
- #: ../plugins/fn-lookup/functions.c:1624
- msgid ""
-@@ -5126,7 +5126,7 @@
- 
- #: ../plugins/fn-lookup/functions.c:1780
- msgid "COLUMNNUMBER:column number for the given column called @{name}"
--msgstr "COLUMNNUMBER:kolumnnummer för den givna kolumnen kallad @{namn}"
-+msgstr "COLUMNNUMBER:kolumnnummer för den givna kolumnen kallad @{name}"
- 
- #: ../plugins/fn-lookup/functions.c:1781
- msgid "name:column name such as \"IV\""
-@@ -5134,11 +5134,11 @@
- 
- #: ../plugins/fn-lookup/functions.c:1782
- msgid "If @{name} is invalid, COLUMNNUMBER returns #VALUE!"
--msgstr "Om @{namn} är ogiltigt returnerar COLUMNNUMBER #VÄRDE!"
-+msgstr "Om @{name} är ogiltigt returnerar COLUMNNUMBER #VÄRDE!"
- 
- #: ../plugins/fn-lookup/functions.c:1807
- msgid "COLUMNS:number of columns in @{reference}"
--msgstr "COLUMNS:antalet kolumner i @{referens}"
-+msgstr "COLUMNS:antalet kolumner i @{reference}"
- 
- #: ../plugins/fn-lookup/functions.c:1808
- msgid "reference:array or area"
-@@ -5147,7 +5147,7 @@
- #: ../plugins/fn-lookup/functions.c:1809
- msgid "If @{reference} is neither an array nor a reference nor a range, COLUMNS returns #VALUE!"
- msgstr ""
--"Om @{referens} varken är en vektor eller en referens eller ett intervall returnerar COLUMNS #VÄRDE!"
-+"Om @{reference} varken är en vektor eller en referens eller ett intervall returnerar COLUMNS #VÄRDE!"
- 
- #: ../plugins/fn-lookup/functions.c:1825
- msgid "OFFSET:an offset cell range"
-@@ -5159,31 +5159,31 @@
- 
- #: ../plugins/fn-lookup/functions.c:1827
- msgid "row:number of rows to offset @{range}"
--msgstr "rad:antal rader att förskjuta @{intervall}"
-+msgstr "rad:antal rader att förskjuta @{range}"
- 
- #: ../plugins/fn-lookup/functions.c:1828
- msgid "col:number of columns to offset @{range}"
--msgstr "kol:antal kolumner att förskjuta @{intervall}"
-+msgstr "kol:antal kolumner att förskjuta @{range}"
- 
- #: ../plugins/fn-lookup/functions.c:1829
- msgid "height:height of the offset range, defaults to height of @{range}"
--msgstr "höjd:höjd på förskjutningsintervall, standard är höjd av @{intervall}"
-+msgstr "höjd:höjd på förskjutningsintervall, standard är höjd av @{range}"
- 
- #: ../plugins/fn-lookup/functions.c:1830
- msgid "width:width of the offset range, defaults to width of @{range}"
--msgstr "bredd:bredd på förskjutningsintervall, standard är bredd av @{intervall}"
-+msgstr "bredd:bredd på förskjutningsintervall, standard är bredd av @{range}"
- 
- #: ../plugins/fn-lookup/functions.c:1831
- msgid ""
- "OFFSET returns the cell range starting at offset (@{row},@{col}) from @{range} of height @{height} and "
- "width @{width}."
- msgstr ""
--"OFFSET returnerar cellintervallet med början på förskjutningen (@{rad},@{kol}) från @{intervall} med "
--"höjd @{höjd} och bredd @{bredd}."
-+"OFFSET returnerar cellintervallet med början på förskjutningen (@{row},@{col}) från @{range} med "
-+"höjd @{height} och bredd @{width}."
- 
- #: ../plugins/fn-lookup/functions.c:1834
- msgid "If @{range} is neither a reference nor a range, OFFSET returns #VALUE!"
--msgstr "Om @{intervall} varken är en referens eller ett intervall returnerar OFFSET #VÄRDE!"
-+msgstr "Om @{range} varken är en referens eller ett intervall returnerar OFFSET #VÄRDE!"
- 
- #: ../plugins/fn-lookup/functions.c:1883
- msgid "ROW:vector of row numbers"
-@@ -5199,7 +5199,7 @@
- 
- #: ../plugins/fn-lookup/functions.c:1931
- msgid "ROWS:number of rows in @{reference}"
--msgstr "ROWS:antal rader i @{referens}"
-+msgstr "ROWS:antal rader i @{reference}"
- 
- #: ../plugins/fn-lookup/functions.c:1932
- msgid "reference:array, reference, or range"
-@@ -5207,11 +5207,11 @@
- 
- #: ../plugins/fn-lookup/functions.c:1933
- msgid "If @{reference} is neither an array nor a reference nor a range, ROWS returns #VALUE!"
--msgstr "Om @{referens} varken är en vektor eller en referens eller ett intervall returnerar ROWS #VÄRDE!"
-+msgstr "Om @{reference} varken är en vektor eller en referens eller ett intervall returnerar ROWS #VÄRDE!"
- 
- #: ../plugins/fn-lookup/functions.c:1949
- msgid "SHEETS:number of sheets in @{reference}"
--msgstr "SHEETS:antal blad i @{referens}"
-+msgstr "SHEETS:antal blad i @{reference}"
- 
- #: ../plugins/fn-lookup/functions.c:1951
- msgid "reference:array, reference, or range, defaults to the maximum range"
-@@ -5220,11 +5220,11 @@
- #: ../plugins/fn-lookup/functions.c:1952
- msgid "If @{reference} is neither an array nor a reference nor a range, SHEETS returns #VALUE!"
- msgstr ""
--"Om @{referens} varken är en vektor eller en referens eller ett intervall returnerar SHEETS #VÄRDE!"
-+"Om @{reference} varken är en vektor eller en referens eller ett intervall returnerar SHEETS #VÄRDE!"
- 
- #: ../plugins/fn-lookup/functions.c:1988
- msgid "SHEET:sheet number of @{reference}"
--msgstr "SHEET:bladnummer för @{referens}"
-+msgstr "SHEET:bladnummer för @{reference}"
- 
- #: ../plugins/fn-lookup/functions.c:1990
- msgid "reference:reference or literal sheet name, defaults to the current sheet"
-@@ -5232,7 +5232,7 @@
- 
- #: ../plugins/fn-lookup/functions.c:1991
- msgid "If @{reference} is neither a reference nor a literal sheet name, SHEET returns #VALUE!"
--msgstr "Om @{referens} varken är en referens eller ett faktiskt bladnamn returnerar SHEET #VÄRDE!"
-+msgstr "Om @{reference} varken är en referens eller ett faktiskt bladnamn returnerar SHEET #VÄRDE!"
- 
- #: ../plugins/fn-lookup/functions.c:2037
- msgid "HYPERLINK:second or first arguments"
-@@ -5254,7 +5254,7 @@
- 
- #: ../plugins/fn-lookup/functions.c:2059
- msgid "TRANSPOSE:the transpose of @{matrix}"
--msgstr "TRANSPOSE:transponatet av @{matris}"
-+msgstr "TRANSPOSE:transponatet av @{matrix}"
- 
- #: ../plugins/fn-lookup/functions.c:2060 ../plugins/fn-lookup/functions.c:2097
- msgid "matrix:range"
-@@ -5262,11 +5262,11 @@
- 
- #: ../plugins/fn-lookup/functions.c:2096
- msgid "FLIP:@{matrix} flipped"
--msgstr "FLIP:@{matris} speglad"
-+msgstr "FLIP:@{matrix} speglad"
- 
- #: ../plugins/fn-lookup/functions.c:2098
- msgid "vertical:if true, @{matrix} is flipped vertically, otherwise horizontally; defaults to TRUE"
--msgstr "vertikal:om sant speglas @{matris} vertikalt, annars horisontellt; standardvärde SANT"
-+msgstr "vertikal:om sant speglas @{matrix} vertikalt, annars horisontellt; standardvärde SANT"
- 
- #: ../plugins/fn-lookup/functions.c:2141
- msgid "ARRAY:vertical array of the arguments"
-@@ -5537,7 +5537,7 @@
- 
- #: ../plugins/fn-math/functions.c:639
- msgid "COUNTIF:count of the cells meeting the given @{criteria}"
--msgstr "COUNTIF:antal celler som uppfyller angivna @{kriterier}"
-+msgstr "COUNTIF:antal celler som uppfyller angivna @{criteria}"
- 
- #: ../plugins/fn-math/functions.c:640 ../plugins/fn-math/functions.c:664
- #: ../plugins/fn-math/functions.c:683 ../plugins/fn-math/functions.c:729
-@@ -5550,15 +5550,15 @@
- 
- #: ../plugins/fn-math/functions.c:663
- msgid "COUNTIFS:count of the cells meeting the given @{criteria}"
--msgstr "COUNTIFS:antal celler som uppfyller angivna @{kriterier}"
-+msgstr "COUNTIFS:antal celler som uppfyller angivna @{criteria}"
- 
- #: ../plugins/fn-math/functions.c:682
- msgid ""
- "SUMIF:sum of the cells in @{actual_range} for which the corresponding cells in the range meet the given "
- "@{criteria}"
- msgstr ""
--"SUMIF:summan av celler i @{verkligt_område} för vilka motsvarande celler i området uppfyller givna "
--"@{kriterier}"
-+"SUMIF:summan av celler i @{actual_range} för vilka motsvarande celler i området uppfyller givna "
-+"@{criteria}"
- 
- #: ../plugins/fn-math/functions.c:684
- msgid "criteria:condition for a cell to be summed"
-@@ -5566,22 +5566,22 @@
- 
- #: ../plugins/fn-math/functions.c:685 ../plugins/fn-math/functions.c:731
- msgid "actual_range:cell area, defaults to @{range}"
--msgstr "verkligt_område:cellområde, standard är @{intervall}"
-+msgstr "verkligt_område:cellområde, standard är @{range}"
- 
- #: ../plugins/fn-math/functions.c:686
- msgid ""
- "If the @{actual_range} has a size that differs from the size of @{range}, @{actual_range} is resized "
- "(retaining the top-left corner) to match the size of @{range}."
- msgstr ""
--"Om storlek för @{verkligt_område} skiljer sig från storleken för @{område}, ändrar @{verkligt_område} "
--"storlek (behåller det övre vänstra hörnet) för att matcha storleken hos @{område}."
-+"Om storlek för @{actual_range} skiljer sig från storleken för @{range}, ändrar @{actual_range} "
-+"storlek (behåller det övre vänstra hörnet) för att matcha storleken hos @{range}."
- 
- #: ../plugins/fn-math/functions.c:708
- msgid ""
- "SUMIFS:sum of the cells in @{actual_range} for which the corresponding cells in the range meet the "
- "given criteria"
- msgstr ""
--"SUMIFS:summan av de celler i @{verkligt_område} för vilka motsvarande celler i området uppfyller givna "
-+"SUMIFS:summan av de celler i @{actual_range} för vilka motsvarande celler i området uppfyller givna "
- "kriterier"
- 
- #: ../plugins/fn-math/functions.c:709 ../plugins/fn-math/functions.c:750
-@@ -5604,8 +5604,8 @@
- "AVERAGEIF:average of the cells in @{actual_range} for which the corresponding cells in the range meet "
- "the given @{criteria}"
- msgstr ""
--"AVERAGEIF:medel för cellerna i @{verkligt_område} för vilka motsvarande celler i området uppfyller "
--"givna @{kriterier}"
-+"AVERAGEIF:medel för cellerna i @{actual_range} för vilka motsvarande celler i området uppfyller "
-+"givna @{criteria}"
- 
- #: ../plugins/fn-math/functions.c:730
- msgid "criteria:condition for a cell to be included"
-@@ -5616,7 +5616,7 @@
- "AVERAGEIFS:average of the cells in @{actual_range} for which the corresponding cells in the range meet "
- "the given criteria"
- msgstr ""
--"AVERAGEIFS:medel för cellerna i @{verkligt_område} för vilka motsvarande celler i området uppfyller "
-+"AVERAGEIFS:medel för cellerna i @{actual_range} för vilka motsvarande celler i området uppfyller "
- "givna kriterier"
- 
- #: ../plugins/fn-math/functions.c:769
-@@ -5624,7 +5624,7 @@
- "MINIFS:minimum of the cells in @{actual_range} for which the corresponding cells in the range meet the "
- "given criteria"
- msgstr ""
--"MINIFS:minimum för cellerna i @{verkligt_område} för vilka de motsvarande cellerna i området uppfyller "
-+"MINIFS:minimum för cellerna i @{actual_range} för vilka de motsvarande cellerna i området uppfyller "
- "givna kriterier"
- 
- #: ../plugins/fn-math/functions.c:789
-@@ -5632,12 +5632,12 @@
- "MAXIFS:maximum of the cells in @{actual_range} for which the corresponding cells in the range meet the "
- "given criteria"
- msgstr ""
--"MAXIFS:maximum för cellerna i @{verkligt_område} för vilka de motsvarande cellerna i området uppfyller "
-+"MAXIFS:maximum för cellerna i @{actual_range} för vilka de motsvarande cellerna i området uppfyller "
- "givna kriterier"
- 
- #: ../plugins/fn-math/functions.c:809
- msgid "CEILING:nearest multiple of @{significance} whose absolute value is at least ABS(@{x})"
--msgstr "CEILING:närmsta multipel för @{signifikans} vars absolutbelopp är minst ABS(@{x})"
-+msgstr "CEILING:närmsta multipel för @{significance} vars absolutbelopp är minst ABS(@{x})"
- 
- #: ../plugins/fn-math/functions.c:811 ../plugins/fn-math/functions.c:1234
- msgid "significance:base multiple (defaults to 1 for @{x} > 0 and -1 for @{x} < 0)"
-@@ -5648,24 +5648,24 @@
- "CEILING(@{x},@{significance}) is the nearest multiple of @{significance} whose absolute value is at "
- "least ABS(@{x})."
- msgstr ""
--"CEILING(@{x},@{signifikans}) är närmsta multipel för @{signifikans} vars absolutbelopp är minst "
--"ABS(@{x})"
-+"CEILING(@{x},@{significance}) är närmsta multipel för @{significance} vars absolutbelopp är minst "
-+"ABS(@{x})."
- 
- #: ../plugins/fn-math/functions.c:813
- msgid "If @{x} or @{significance} is non-numeric, CEILING returns a #VALUE! error."
--msgstr "Om @{x} eller @{signifikans} är ickenumeriska, returnerar CEILING ett #VÄRDE!-fel."
-+msgstr "Om @{x} eller @{significance} är ickenumeriska, returnerar CEILING ett #VÄRDE!-fel."
- 
- #: ../plugins/fn-math/functions.c:814
- msgid "If @{x} is positive and @{significance} is negative, CEILING returns a #NUM! error."
--msgstr "Om @{x} är positiv och @{signifikans} är negativ returnerar CEILING ett #NUM!-fel."
-+msgstr "Om @{x} är positiv och @{significance} är negativ returnerar CEILING ett #NUM!-fel."
- 
- #: ../plugins/fn-math/functions.c:816
- msgid ""
- "CEILING(@{x}) is exported to ODF as CEILING(@{x},SIGN(@{x}),1). CEILING(@{x},@{significance}) is the "
- "OpenFormula function CEILING(@{x},@{significance},1)."
- msgstr ""
--"CEILING(@{x}) exporteras till ODF som CEILING(@{x},SIGN(@{x}),1). CEILING(@{x},@{signifikans}) är "
--"OpenFormula-funktionen CEILING(@{x},@{signifikans},1)."
-+"CEILING(@{x}) exporteras till ODF som CEILING(@{x},SIGN(@{x}),1). CEILING(@{x},@{significance}) är "
-+"OpenFormula-funktionen CEILING(@{x},@{significance},1)."
- 
- #: ../plugins/fn-math/functions.c:842
- msgid "COS:the cosine of @{x}"
-@@ -5842,7 +5842,7 @@
- "COMBIN returns the binomial coefficient \"@{n} choose @{k}\", the number of @{k}-combinations of an "
- "@{n}-element set without repetition."
- msgstr ""
--"COMBIN returnerar binomialkoefficienten ”@{n} välj @{k}”, antal @{k}-kombinationer för en {n}-"
-+"COMBIN returnerar binomialkoefficienten ”@{n} välj @{k}”, antal @{k}-kombinationer för en @{n}-"
- "elementmängd utan repetition."
- 
- #: ../plugins/fn-math/functions.c:1179
-@@ -5863,27 +5863,27 @@
- 
- #: ../plugins/fn-math/functions.c:1232
- msgid "FLOOR:nearest multiple of @{significance} whose absolute value is at most ABS(@{x})"
--msgstr "FLOOR:närmsta multipel för @{signifikans} vars absolutbelopp är högst ABS(@{x})"
-+msgstr "FLOOR:närmsta multipel för @{significance} vars absolutbelopp är högst ABS(@{x})"
- 
- #: ../plugins/fn-math/functions.c:1236
- msgid ""
- "FLOOR(@{x},@{significance}) is the nearest multiple of @{significance} whose absolute value is at most "
- "ABS(@{x})"
- msgstr ""
--"FLOOR(@{x},@{signifikans}) är närmsta multipel för @{signifikans} vars absolutbelopp är som mest "
-+"FLOOR(@{x},@{significance}) är närmsta multipel för @{significance} vars absolutbelopp är som mest "
- "ABS(@{x})"
- 
- #: ../plugins/fn-math/functions.c:1237
- msgid "If @{x} is positive and @{significance} is negative, FLOOR returns a #NUM! error."
--msgstr "Om @{x} är positiv och @{signifikans} är negativ returnerar FLOOR ett #NUM!-fel."
-+msgstr "Om @{x} är positiv och @{significance} är negativ returnerar FLOOR ett #NUM!-fel."
- 
- #: ../plugins/fn-math/functions.c:1239
- msgid ""
- "FLOOR(@{x}) is exported to ODF as FLOOR(@{x},SIGN(@{x}),1). FLOOR(@{x},@{significance}) is the "
- "OpenFormula function FLOOR(@{x},@{significance},1)."
- msgstr ""
--"FLOOR(@{x}) exporteras till ODF som FLOOR(@{x},SIGN(@{x}),1). FLOOR(@{x},@{signifikans}) är OpenFormula-"
--"funktionen FLOOR(@{x},@{signifikans},1)."
-+"FLOOR(@{x}) exporteras till ODF som FLOOR(@{x},SIGN(@{x}),1). FLOOR(@{x},@{significance}) är OpenFormula-"
-+"funktionen FLOOR(@{x},@{significance},1)."
- 
- #: ../plugins/fn-math/functions.c:1269
- msgid "INT:largest integer not larger than @{x}"
-@@ -5915,7 +5915,7 @@
- 
- #: ../plugins/fn-math/functions.c:1315
- msgid "LOG:logarithm of @{x} with base @{base}"
--msgstr "LOG:logaritm av @{x} med basen @{bas}"
-+msgstr "LOG:logaritm av @{x} med basen @{base}"
- 
- #: ../plugins/fn-math/functions.c:1316 ../plugins/fn-math/functions.c:1344
- #: ../plugins/fn-math/functions.c:1375 ../plugins/fn-math/functions.c:1410
-@@ -5929,7 +5929,7 @@
- 
- #: ../plugins/fn-math/functions.c:1318 ../plugins/fn-math/functions.c:1346
- msgid "@{base} must be positive and not equal to 1."
--msgstr "@{bas} måste vara positiv och inte lika med 1."
-+msgstr "@{base} måste vara positiv och inte lika med 1."
- 
- #: ../plugins/fn-math/functions.c:1319 ../plugins/fn-math/functions.c:1347
- msgid "If @{x} ≤ 0, LOG returns #NUM! error."
-@@ -5937,7 +5937,7 @@
- 
- #: ../plugins/fn-math/functions.c:1343
- msgid "ILOG:integer logarithm of @{x} with base @{base}"
--msgstr "ILOG:heltalslogaritm av @{x} med basen @{bas}"
-+msgstr "ILOG:heltalslogaritm av @{x} med basen @{base}"
- 
- #: ../plugins/fn-math/functions.c:1348
- msgid ""
-@@ -5945,8 +5945,8 @@
- "FLOOR(LOG(@{x},@{base})), this function is not subject error of representation of the intermediate "
- "result."
- msgstr ""
--"Denna funktion returnerar logaritmen av @{x} med @{bas}, avrundad nedåt till närmaste heltal. Till "
--"skillnad från FLOOR(LOG(@{x},@{bas})) så drabbas denna funktion inte av representationsfel för "
-+"Denna funktion returnerar logaritmen av @{x} med @{base}, avrundad nedåt till närmaste heltal. Till "
-+"skillnad från FLOOR(LOG(@{x},@{base})) så drabbas denna funktion inte av representationsfel för "
- "mellanliggande resultat."
- 
- #: ../plugins/fn-math/functions.c:1349
-@@ -6241,11 +6241,11 @@
- 
- #: ../plugins/fn-math/functions.c:1995
- msgid "PERCENTOF returns the sum of @{subset} divided by the sum of @{data_all}."
--msgstr "PERCENTOF returnerar summan av @{delmängd} dividerat med summan av @{alla_data}."
-+msgstr "PERCENTOF returnerar summan av @{subset} dividerat med summan av @{data_all}."
- 
- #: ../plugins/fn-math/functions.c:1996
- msgid "If the sum of @{data_all} is zero, PERCENTOF returns #DIV/0!"
--msgstr "Om summan av @{alla_data} är 0 returnerar PERCENTOF #DIV/0!"
-+msgstr "Om summan av @{data_all} är 0 returnerar PERCENTOF #DIV/0!"
- 
- #: ../plugins/fn-math/functions.c:2037
- msgid "TRUNC:@{x} truncated to @{d} digits"
-@@ -6308,7 +6308,7 @@
- 
- #: ../plugins/fn-math/functions.c:2318
- msgid "If @{n} is not an integer, it is truncated. If it is negative or zero FIB returns #NUM!"
--msgstr "Om @{x} inte är ett heltal trunkeras det. Om det är negativt eller noll returnerar FIB #NUM!"
-+msgstr "Om @{n} inte är ett heltal trunkeras det. Om det är negativt eller noll returnerar FIB #NUM!"
- 
- #: ../plugins/fn-math/functions.c:2356
- msgid "QUOTIENT:integer portion of a division"
-@@ -6327,8 +6327,8 @@
- "QUOTIENT yields the integer portion of the division @{numerator}/@{denominator}.\n"
- "QUOTIENT (@{numerator},@{denominator})⨉@{denominator}+MOD(@{numerator},@{denominator})=@{numerator}"
- msgstr ""
--"QUOTIENT ger heltalsdelen av divisionen @{täljare}/@{nämnare}.\n"
--"QUOTIENT (@{täljare},@{nämnare})⨉@{nämnare}+MOD(@{täljare},@{nämnare})=@{täljare}"
-+"QUOTIENT ger heltalsdelen av divisionen @{numerator}/@{denominator}.\n"
-+"QUOTIENT (@{numerator},@{denominator})⨉@{denominator}+MOD(@{numerator},@{denominator})=@{numerator}"
- 
- #: ../plugins/fn-math/functions.c:2383
- msgid "SIGN:sign of @{x}"
-@@ -6398,7 +6398,7 @@
- 
- #: ../plugins/fn-math/functions.c:2567
- msgid "ARABIC:the Roman numeral @{roman} as number"
--msgstr "ARABIC:den romerska siffran @{romersk} som ett tal"
-+msgstr "ARABIC:den romerska siffran @{roman} som ett tal"
- 
- #: ../plugins/fn-math/functions.c:2568
- msgid "roman:Roman numeral"
-@@ -6428,7 +6428,7 @@
- "concise than type 2. Type 4 is a simplified type."
- msgstr ""
- "ROMAN returnerar @{n} som en romersk numerisk text.\n"
--"Om @{typ} är 0 eller utelämnas returnerar ROMAN klassiska romerska siffror.\n"
-+"Om @{type} är 0 eller utelämnas returnerar ROMAN klassiska romerska siffror.\n"
- "Typ 1 är mer koncis än klassiska typen, typ 2 är mer koncis än typ 1 och typ 3 är mer koncis än typ 2. "
- "Typ 4 är en förenklad typ."
- 
-@@ -6484,7 +6484,7 @@
- "If @{array0} and @{array1} have different number of data points, SUMX2PY2 returns #N/A.\n"
- "Strings and empty cells are simply ignored."
- msgstr ""
--"Om @{vektor0} och @{vektor1} har olika antal datapunkter returnerar SUMX2PY2 #-.\n"
-+"Om @{array0} och @{array1} har olika antal datapunkter returnerar SUMX2PY2 #-.\n"
- "Strängar och tomma celler ignoreras helt."
- 
- #: ../plugins/fn-math/functions.c:2946
-@@ -6508,7 +6508,7 @@
- "If @{array0} and @{array1} have different number of data points, SUMXMY2 returns #N/A.\n"
- "Strings and empty cells are simply ignored."
- msgstr ""
--"Om @{vektor0} och @{vektor1} har olika antal datapunkter returnerar SUMXMY2 #-.\n"
-+"Om @{array0} och @{array1} har olika antal datapunkter returnerar SUMXMY2 #-.\n"
- "Strängar och tomma celler ignoreras helt."
- 
- #: ../plugins/fn-math/functions.c:2989
-@@ -6545,7 +6545,7 @@
- 
- #: ../plugins/fn-math/functions.c:3083
- msgid "MINVERSE:the inverse matrix of @{matrix}"
--msgstr "MINVERSE:matrisinversen av @{matris}"
-+msgstr "MINVERSE:matrisinversen av @{matrix}"
- 
- #: ../plugins/fn-math/functions.c:3084 ../plugins/fn-math/functions.c:3372
- msgid "matrix:a square matrix"
-@@ -6553,15 +6553,15 @@
- 
- #: ../plugins/fn-math/functions.c:3085
- msgid "If @{matrix} is not invertible, MINVERSE returns #NUM!"
--msgstr "Om @{matris} inte är inverterbar returnerar MINVERSE #NUM!"
-+msgstr "Om @{matrix} inte är inverterbar returnerar MINVERSE #NUM!"
- 
- #: ../plugins/fn-math/functions.c:3086
- msgid "If @{matrix} does not contain an equal number of columns and rows, MINVERSE returns #VALUE!"
--msgstr "Om @{matris} inte innehåller lika många kolumner som rader returnerar MINVERSE #VÄRDE!"
-+msgstr "Om @{matrix} inte innehåller lika många kolumner som rader returnerar MINVERSE #VÄRDE!"
- 
- #: ../plugins/fn-math/functions.c:3120
- msgid "MPSEUDOINVERSE:the pseudo-inverse matrix of @{matrix}"
--msgstr "MPSEUDOINVERSE:den pseudoinversa matrisen för @{matris}"
-+msgstr "MPSEUDOINVERSE:den pseudoinversa matrisen för @{matrix}"
- 
- #: ../plugins/fn-math/functions.c:3121
- msgid "matrix:a matrix"
-@@ -6573,7 +6573,7 @@
- 
- #: ../plugins/fn-math/functions.c:3157
- msgid "CHOLESKY:the Cholesky decomposition of the symmetric positive-definite @{matrix}"
--msgstr "CHOLESKY:Cholesky-dekompositionen för en symmetrisk positivt definit @{matris}"
-+msgstr "CHOLESKY:Cholesky-dekompositionen för en symmetrisk positivt definit @{matrix}"
- 
- #: ../plugins/fn-math/functions.c:3158
- msgid "matrix:a symmetric positive definite matrix"
-@@ -6581,11 +6581,11 @@
- 
- #: ../plugins/fn-math/functions.c:3159
- msgid "If the Cholesky-Banachiewicz algorithm applied to @{matrix} fails, Cholesky returns #NUM!"
--msgstr "Om Cholesky-Banachiewicz-algoritmen tillämpad på @{matris} misslyckas returnerar Cholesky #NUM!"
-+msgstr "Om Cholesky-Banachiewicz-algoritmen tillämpad på @{matrix} misslyckas returnerar Cholesky #NUM!"
- 
- #: ../plugins/fn-math/functions.c:3160
- msgid "If @{matrix} does not contain an equal number of columns and rows, CHOLESKY returns #VALUE!"
--msgstr "Om @{matris} inte innehåller lika många kolumner som rader returnerar CHOLESKY #VÄRDE!"
-+msgstr "Om @{matrix} inte innehåller lika många kolumner som rader returnerar CHOLESKY #VÄRDE!"
- 
- #: ../plugins/fn-math/functions.c:3235
- msgid "MUNIT:the @{n} by @{n} identity matrix"
-@@ -6639,7 +6639,7 @@
- 
- #: ../plugins/fn-math/functions.c:3371
++"efter_kol:när SANT (standardvärdet) sorteras kolumner baserat på "
++"sorteringsindexraden; när FALSKT sorteras rader baserat på sorteringsindexkolumnen"
+
+ #: ../plugins/fn-lookup/functions.c:2228
+ msgid "Numbers and text are compared in the normal order."
+-msgstr ""
++msgstr "Tal och text jämförs i den vanliga ordningen."
+
+ #: ../plugins/fn-lookup/functions.c:2229
+-#, fuzzy
+ #| msgid "SORT({4,3,5}) evaluates to {5,4,3}"
+ msgid "SORT({4,3,5}) evaluates to {3,4,5}"
+-msgstr "SORT({4,3,5}) evalueras till {5,4,3}"
++msgstr "SORT({4,3,5}) beräknas till {3,4,5}"
+
+ #: ../plugins/fn-lookup/functions.c:2327
+ msgid "UNIQUE:unique values in a range or array"
+@@ -7597,10 +7602,9 @@
+ msgstr "Löser ekvationen @{A}*X=@{B} och returnerar X."
+
+ #: ../plugins/fn-math/functions.c:3360
+-#, fuzzy
+ #| msgid "If the matrix @{A} is singular, #VALUE! is returned."
+ msgid "If the matrix @{A} is singular, #NUM! is returned."
+-msgstr "Om matris @{A} är singulär returneras #VÄRDE!."
++msgstr "Om matrisen @{A} är singulär returneras #NUM!."
+
+ #: ../plugins/fn-math/functions.c:3410
  msgid "MDETERM:the determinant of the matrix @{matrix}"
--msgstr "MDETERM:determinanten av matrisen @{matris}"
-+msgstr "MDETERM:determinanten av matrisen @{matrix}"
- 
- #: ../plugins/fn-math/functions.c:3373
+@@ -7726,7 +7730,6 @@
+ msgstr "NT_MU:Möbius mu-funktion"
+
+ #: ../plugins/fn-numtheory/numtheory.c:446
+-#, fuzzy
+ #| msgid ""
+ #| "NT_MU function (Möbius mu function) returns 0  if @{n} is divisible by "
+ #| "the square of a prime. Otherwise, if @{n} has an odd  number of different "
+@@ -7927,10 +7930,9 @@
+ "av positiva heltal."
+
+ #: ../plugins/fn-numtheory/numtheory.c:893
+-#, fuzzy
+ #| msgid "wiki:en:Multinomial_theorem"
+ msgid "wiki:en:Partition_(number_theory)"
+-msgstr "wiki:en:Multinomial_theorem"
++msgstr "wiki:sv:Partition_(talteori)"
+
+ #: ../plugins/fn-r/functions.c:19
+ msgid "R.DBETA:probability density function of the beta distribution"
+@@ -8405,14 +8407,12 @@
+
+ #: ../plugins/fn-r/functions.c:638 ../plugins/fn-r/functions.c:663
+ #: ../plugins/fn-r/functions.c:690
+-#, fuzzy
+ #| msgid "location:the location parameter of the distribution"
+ msgid "mu:the location parameter of the distribution"
+ msgstr "läge:lägesparametern för fördelningen"
+
+ #: ../plugins/fn-r/functions.c:639 ../plugins/fn-r/functions.c:664
+ #: ../plugins/fn-r/functions.c:691
+-#, fuzzy
+ #| msgid "scale:the scale parameter of the distribution"
+ msgid "beta:the scale parameter of the distribution"
+ msgstr "skala:fördelningens skalparameter"
+@@ -8979,6 +8979,10 @@
+ "logical values, and empty cells in either range cause that pair to be "
+ "skipped."
+ msgstr ""
++"Om @{sann_intervall} anges används ett värde i @{var_intervall} och "
++"sannolikheten på samma position i @{sann_intervall} bara om båda är tal. "
++"Text, logiska värden och tomma celler i något av intervallen gör att paret "
++"hoppas över."
+
+ #: ../plugins/fn-random/functions.c:96
  msgid ""
-@@ -6699,7 +6699,7 @@
- 
- #: ../plugins/fn-math/functions.c:3570
- msgid "EIGEN:eigenvalues and eigenvectors of the symmetric @{matrix}"
--msgstr "EIGEN:eigenvärden och eigenvektorer för en symmetrisk @{matris}"
-+msgstr "EIGEN:eigenvärden och eigenvektorer för en symmetrisk @{matrix}"
- 
- #: ../plugins/fn-math/functions.c:3571
- msgid "matrix:a symmetric matrix"
-@@ -6710,12 +6710,12 @@
- "If @{matrix} is not symmetric, matching off-diagonal cells will be averaged on the assumption that the "
- "non-symmetry is caused by unimportant rounding errors."
- msgstr ""
--"Om @{matris} inte är symmetrisk, kommer matchande celler utanför diagonalen att medelviktas med "
-+"Om @{matrix} inte är symmetrisk, kommer matchande celler utanför diagonalen att medelviktas med "
- "antagandet att icke-symmetrin orsakats av avrundningsfel."
- 
- #: ../plugins/fn-math/functions.c:3573
- msgid "If @{matrix} does not contain an equal number of columns and rows, EIGEN returns #VALUE!"
--msgstr "Om @{matris} inte innehåller lika många kolumner som rader returnerar EIGEN #VÄRDE!"
-+msgstr "Om @{matrix} inte innehåller lika många kolumner som rader returnerar EIGEN #VÄRDE!"
- 
- #: ../plugins/fn-numtheory/numtheory.c:336
- msgid "NT_OMEGA:Number of distinct prime factors"
-@@ -7108,8 +7108,8 @@
- "A two argument invocation R.DCHISQ(@{x},@{df}) is exported to OpenFormula as "
- "CHISQDIST(@{x},@{df},FALSE())."
- msgstr ""
--"Ett anrop med två argument R.DCHISQ(@{x};@{fri}) exporteras till OpenFormula som "
--"CHISQDIST(@{x},@{fri},FALSE())."
-+"Ett anrop med två argument R.DCHISQ(@{x};@{df}) exporteras till OpenFormula som "
-+"CHISQDIST(@{x},@{df},FALSE())."
- 
- #: ../plugins/fn-r/functions.c:280
- msgid "R.PCHISQ:cumulative distribution function of the chi-square distribution"
-@@ -7123,7 +7123,7 @@
+@@ -8996,10 +9000,9 @@
+ msgstr "b:parameter för exponentialfördelningen"
+
+ #: ../plugins/fn-random/functions.c:179
+-#, fuzzy
+ #| msgid "If @{σ} < 0, RANDNORM returns #NUM!"
+ msgid "If @{b} < 0, RANDEXP returns #NUM!"
+-msgstr "Om @{σ} < 0 returnerar RANDNORM #NUM!"
++msgstr "Om @{b} < 0 returnerar RANDEXP #NUM!"
+
+ #: ../plugins/fn-random/functions.c:197
+ msgid "RANDPOISSON:random variate from a Poisson distribution"
+@@ -9055,12 +9058,13 @@
+ msgstr "Om @{minsta} > @{högsta} returnerar RANDBETWEEN #NUM!"
+
+ #: ../plugins/fn-random/functions.c:252
+-#, fuzzy
+ #| msgid "If @{bottom} > @{top}, RANDBETWEEN returns #NUM!"
  msgid ""
- "A two argument invocation R.PCHISQ(@{x},@{df}) is exported to OpenFormula as CHISQDIST(@{x},@{df})."
- msgstr ""
--"Ett anrop med två argument R.PCHISQ(@{x};@{fri}) exporteras till OpenFormula som CHISQDIST(@{x},@{fri})."
-+"Ett anrop med två argument R.PCHISQ(@{x};@{df}) exporteras till OpenFormula som CHISQDIST(@{x},@{df})."
- 
- #: ../plugins/fn-r/functions.c:306
- msgid "R.QCHISQ:probability quantile function of the chi-square distribution"
-@@ -7140,7 +7140,7 @@
- #: ../plugins/fn-r/functions.c:312
- msgid "A two argument invocation R.QCHISQ(@{p},@{df}) is exported to OpenFormula as CHISQINV(@{p},@{df})."
- msgstr ""
--"Ett anrop med två argument R.QCHISQ(@{p};@{fri}) exporteras till OpenFormula som CHISQINV(@{p},@{fri})."
-+"Ett anrop med två argument R.QCHISQ(@{p};@{df}) exporteras till OpenFormula som CHISQINV(@{p},@{df})."
- 
- #: ../plugins/fn-r/functions.c:332
- msgid "R.DEXP:probability density function of the exponential distribution"
-@@ -7694,27 +7694,27 @@
- msgid ""
- "prob_range:probabilities of the corresponding values in @{val_range}, defaults to equal probabilities"
- msgstr ""
--"sann_intervall:sannolikheter för motsvarande värden i @{var_intervall}, standard är lika sannolikheter"
-+"sann_intervall:sannolikheter för motsvarande värden i @{val_range}, standard är lika sannolikheter"
- 
- #: ../plugins/fn-random/functions.c:91
- msgid ""
- "RANDDISCRETE returns one of the values in the @{val_range}. The probabilities for each value are given "
- "in the @{prob_range}."
- msgstr ""
--"RANDDISCRETE returnerar ett av värdena i @{var_intervall}. Sannolikheterna för varje värde ges i "
--"@{sann_intervall}."
-+"RANDDISCRETE returnerar ett av värdena i @{val_range}. Sannolikheterna för varje värde ges i "
-+"@{prob_range}."
- 
- #: ../plugins/fn-random/functions.c:93
- msgid "If the sum of all values in @{prob_range} is not one, RANDDISCRETE returns #NUM!"
--msgstr "Om summan av alla värden i @{sann_intervall} inte är ett, returnerar RANDDISCRETE #NUM!"
-+msgstr "Om summan av alla värden i @{prob_range} inte är ett, returnerar RANDDISCRETE #NUM!"
- 
- #: ../plugins/fn-random/functions.c:94
- msgid "If @{val_range} and @{prob_range} are not the same size, RANDDISCRETE returns #NUM!"
--msgstr "Om @{var_intervall} och @{sann_intervall} inte är samma storlek returnerar RANDDISCRETE #NUM!"
-+msgstr "Om @{val_range} och @{prob_range} inte är samma storlek returnerar RANDDISCRETE #NUM!"
- 
- #: ../plugins/fn-random/functions.c:95
- msgid "If @{val_range} or @{prob_range} is not a range, RANDDISCRETE returns #VALUE!"
--msgstr "Om @{var_intervall} eller @{sann_intervall} inte är ett intervall returnerar RANDDISCRETE #VÄRDE!"
-+msgstr "Om @{val_range} eller @{prob_range} inte är ett intervall returnerar RANDDISCRETE #VÄRDE!"
- 
- #: ../plugins/fn-random/functions.c:173
- msgid "RANDEXP:random variate from an exponential distribution"
-@@ -7759,7 +7759,7 @@
- 
- #: ../plugins/fn-random/functions.c:242
- msgid "RANDBETWEEN:a random integer number between and including @{bottom} and @{top}"
--msgstr "RANDBETWEEN:ett slumpmässigt heltal mellan och inkluderande @{minsta} och @{högsta}"
-+msgstr "RANDBETWEEN:ett slumpmässigt heltal mellan och inkluderande @{bottom} och @{top}"
- 
- #: ../plugins/fn-random/functions.c:244
- msgid "bottom:lower limit"
-@@ -7771,7 +7771,7 @@
- 
- #: ../plugins/fn-random/functions.c:246
- msgid "If @{bottom} > @{top}, RANDBETWEEN returns #NUM!"
+ "If there is no integer between @{bottom} and @{top} (e.g., for 1.2 and 1.8), "
+ "RANDBETWEEN returns #NUM!"
 -msgstr "Om @{minsta} > @{högsta} returnerar RANDBETWEEN #NUM!"
-+msgstr "Om @{bottom} > @{top} returnerar RANDBETWEEN #NUM!"
- 
- #: ../plugins/fn-random/functions.c:275
++msgstr ""
++"Om det inte finns något heltal mellan @{minsta} och @{högsta} (till exempel "
++"1,2 och 1,8) returnerar RANDBETWEEN #NUM!"
+
+ #: ../plugins/fn-random/functions.c:283
  msgid "RANDNEGBINOM:random variate from a negative binomial distribution"
-@@ -8007,7 +8007,7 @@
- 
- #: ../plugins/fn-random/functions.c:694
+@@ -9071,10 +9075,9 @@
+ msgstr "n:antalet misslyckanden"
+
+ #: ../plugins/fn-random/functions.c:286
+-#, fuzzy
+ #| msgid "If @{p} < 0 or @{p} > 1 RANDNEGBINOM returns #NUM!"
+ msgid "If @{p} ≤ 0 or @{p} > 1, RANDNEGBINOM returns #NUM!"
+-msgstr "Om @{p} < 0 eller @{p} > 1 returnerar RANDNEGBINOM #NUM!"
++msgstr "Om @{p} ≤ 0 eller @{p} > 1 returnerar RANDNEGBINOM #NUM!"
+
+ #: ../plugins/fn-random/functions.c:287
+ msgid "If @{n} < 1 RANDNEGBINOM returns #NUM!"
+@@ -9145,10 +9148,9 @@
+ msgstr "b:formparametern för Weibull-fördelningen"
+
+ #: ../plugins/fn-random/functions.c:405
+-#, fuzzy
+ #| msgid "If @{p} < 0 or @{p} > 1 RANDBERNOULLI returns #NUM!"
+ msgid "If @{a} < 0 or @{b} ≤ 0, RANDWEIBULL returns #NUM!"
+-msgstr "Om @{p} < 0 eller @{p} > 1 returnerar RANDBERNOULLI #NUM!"
++msgstr "Om @{a} < 0 eller @{b} ≤ 0 returnerar RANDWEIBULL #NUM!"
+
+ #: ../plugins/fn-random/functions.c:424
+ msgid "RANDLAPLACE:random variate from a Laplace distribution"
+@@ -9159,10 +9161,9 @@
+ msgstr "a:parameter för Laplace-fördelningen"
+
+ #: ../plugins/fn-random/functions.c:426
+-#, fuzzy
+ #| msgid "If @{a} < 0 RANDCAUCHY returns #NUM!"
+ msgid "If @{a} < 0, RANDLAPLACE returns #NUM!"
+-msgstr "Om @{a} < 0 returnerar RANDCAUCHY #NUM!"
++msgstr "Om @{a} < 0 returnerar RANDLAPLACE #NUM!"
+
+ #: ../plugins/fn-random/functions.c:444
+ msgid "RANDRAYLEIGH:random variate from a Rayleigh distribution"
+@@ -9173,10 +9174,9 @@
+ msgstr "σ:skalparameter för Rayleigh-fördelningen"
+
+ #: ../plugins/fn-random/functions.c:446
+-#, fuzzy
+ #| msgid "If @{σ} < 0, RANDNORM returns #NUM!"
+ msgid "If @{σ} < 0, RANDRAYLEIGH returns #NUM!"
+-msgstr "Om @{σ} < 0 returnerar RANDNORM #NUM!"
++msgstr "Om @{σ} < 0 returnerar RANDRAYLEIGH #NUM!"
+
+ #: ../plugins/fn-random/functions.c:464
+ msgid ""
+@@ -9188,10 +9188,9 @@
+ msgstr "a:nedre gränsen för svansen"
+
+ #: ../plugins/fn-random/functions.c:467
+-#, fuzzy
+ #| msgid "If @{σ} < 0, RANDNORM returns #NUM!"
+ msgid "If @{σ} < 0, RANDRAYLEIGHTAIL returns #NUM!"
+-msgstr "Om @{σ} < 0 returnerar RANDNORM #NUM!"
++msgstr "Om @{σ} < 0 returnerar RANDRAYLEIGHTAIL #NUM!"
+
+ #: ../plugins/fn-random/functions.c:486
+ msgid "RANDGAMMA:random variate from a Gamma distribution"
+@@ -9206,10 +9205,9 @@
+ msgstr "b:skalparameter för Gammafördelningen"
+
+ #: ../plugins/fn-random/functions.c:489
+-#, fuzzy
+ #| msgid "If @{a} ≤ 0, RANDGAMMA returns #NUM!"
+ msgid "If @{a} ≤ 0 or @{b} < 0, RANDGAMMA returns #NUM!"
+-msgstr "Om @{a} ≤ 0, returnerar RANDGAMMA #NUM!"
++msgstr "Om @{a} ≤ 0 eller @{b} < 0 returnerar RANDGAMMA #NUM!"
+
+ #: ../plugins/fn-random/functions.c:511
+ msgid "RANDPARETO:random variate from a Pareto distribution"
+@@ -9224,10 +9222,9 @@
+ msgstr "b:parameter för Pareto-fördelningen"
+
+ #: ../plugins/fn-random/functions.c:514
+-#, fuzzy
+ #| msgid "If @{α} ≤ 0 or @{α} > 2, RANDLEVY returns #NUM!"
+ msgid "If @{a} ≤ 0 or @{b} < 0, RANDPARETO returns #NUM!"
+-msgstr "Om @{α} ≤ 0 eller @{α} > 2, returnerar RANDLEVY #NUM!"
++msgstr "Om @{a} ≤ 0 eller @{b} < 0 returnerar RANDPARETO #NUM!"
+
+ #: ../plugins/fn-random/functions.c:533
+ msgid "RANDFDIST:random variate from an F distribution"
+@@ -9242,10 +9239,9 @@
+ msgstr "fri2:antal frihetsgrader för nämnare"
+
+ #: ../plugins/fn-random/functions.c:536
+-#, fuzzy
+ #| msgid "If @{α} ≤ 0 or @{α} > 2, RANDLEVY returns #NUM!"
+ msgid "If @{df1} ≤ 0 or @{df2} ≤ 0, RANDFDIST returns #NUM!"
+-msgstr "Om @{α} ≤ 0 eller @{α} > 2, returnerar RANDLEVY #NUM!"
++msgstr "Om @{df1} ≤ 0 eller @{df2} ≤ 0 returnerar RANDFDIST #NUM!"
+
+ #: ../plugins/fn-random/functions.c:555
+ msgid "RANDBETA:random variate from a Beta distribution"
+@@ -9260,10 +9256,9 @@
+ msgstr "b:parameter för Betafördelningen"
+
+ #: ../plugins/fn-random/functions.c:558
+-#, fuzzy
+ #| msgid "If @{α} ≤ 0 or @{α} > 2, RANDLEVY returns #NUM!"
+ msgid "If @{a} ≤ 0 or @{b} ≤ 0, RANDBETA returns #NUM!"
+-msgstr "Om @{α} ≤ 0 eller @{α} > 2, returnerar RANDLEVY #NUM!"
++msgstr "Om @{a} ≤ 0 eller @{b} ≤ 0 returnerar RANDBETA #NUM!"
+
+ #: ../plugins/fn-random/functions.c:577
+ msgid "RANDLOGISTIC:random variate from a logistic distribution"
+@@ -9274,20 +9269,18 @@
+ msgstr "a:parameter för den logistiska fördelningen"
+
+ #: ../plugins/fn-random/functions.c:579
+-#, fuzzy
+ #| msgid "If @{σ} < 0, RANDLOGNORM returns #NUM!"
+ msgid "If @{a} < 0, RANDLOGISTIC returns #NUM!"
+-msgstr "Om @{σ} < 0 returnerar RANDLOGNORM #NUM!"
++msgstr "Om @{a} < 0 returnerar RANDLOGISTIC #NUM!"
+
+ #: ../plugins/fn-random/functions.c:597
+ msgid "RANDGEOM:random variate from a geometric distribution"
+ msgstr "RANDGEOM:slumpvariabel från en geometrisk fördelning"
+
+ #: ../plugins/fn-random/functions.c:599
+-#, fuzzy
+ #| msgid "If @{p} < 0 or @{p} > 1 RANDGEOM returns #NUM!"
+ msgid "If @{p} ≤ 0 or @{p} > 1, RANDGEOM returns #NUM!"
+-msgstr "Om @{p} < 0 eller @{p} > 1 returnerar RANDGEOM #NUM!"
++msgstr "Om @{p} ≤ 0 eller @{p} > 1 returnerar RANDGEOM #NUM!"
+
+ #: ../plugins/fn-random/functions.c:620
+ msgid "RANDHYPERG:random variate from a hypergeometric distribution"
+@@ -9306,12 +9299,13 @@
+ msgstr "t:totalt antal valda objekt"
+
+ #: ../plugins/fn-random/functions.c:624
+-#, fuzzy
+ #| msgid "If @{p} < 0 or @{p} > 1 RANDLOG returns #NUM!"
+ msgid ""
+ "If @{n1} < 0, @{n2} < 0, @{t} < 0 or @{t} > @{n1} + @{n2}, RANDHYPERG "
+ "returns #NUM!"
+-msgstr "Om @{p} < 0 eller @{p} > 1 returnerar RANDLOG #NUM!"
++msgstr ""
++"Om @{n1} < 0, @{n2} < 0, @{t} < 0 eller @{t} > @{n1} + @{n2} returnerar "
++"RANDHYPERG #NUM!"
+
+ #: ../plugins/fn-random/functions.c:646
+ msgid "RANDLOG:random variate from a logarithmic distribution"
+@@ -9325,10 +9319,9 @@
+ msgstr "p:sannolikhet"
+
+ #: ../plugins/fn-random/functions.c:648
+-#, fuzzy
+ #| msgid "If @{p} < 0 or @{p} > 1 RANDLOG returns #NUM!"
+ msgid "If @{p} ≤ 0 or @{p} ≥ 1, RANDLOG returns #NUM!"
+-msgstr "Om @{p} < 0 eller @{p} > 1 returnerar RANDLOG #NUM!"
++msgstr "Om @{p} ≤ 0 eller @{p} ≥ 1 returnerar RANDLOG #NUM!"
+
+ #: ../plugins/fn-random/functions.c:669
+ msgid "RANDCHISQ:random variate from a Chi-square distribution"
+@@ -9340,20 +9333,18 @@
+ msgstr "fri:frihetsgrader"
+
+ #: ../plugins/fn-random/functions.c:671
+-#, fuzzy
+ #| msgid "If @{a} < 0 RANDCAUCHY returns #NUM!"
+ msgid "If @{df} < 0, RANDCHISQ returns #NUM!"
+-msgstr "Om @{a} < 0 returnerar RANDCAUCHY #NUM!"
++msgstr "Om @{fri} < 0 returnerar RANDCHISQ #NUM!"
+
+ #: ../plugins/fn-random/functions.c:689
+ msgid "RANDTDIST:random variate from a Student t distribution"
+ msgstr "RANDTDIST:slumpvariabel från en Students t-fördelning"
+
+ #: ../plugins/fn-random/functions.c:691
+-#, fuzzy
+ #| msgid "If @{a} ≤ 0, RANDGAMMA returns #NUM!"
+ msgid "If @{df} ≤ 0, RANDTDIST returns #NUM!"
+-msgstr "Om @{a} ≤ 0, returnerar RANDGAMMA #NUM!"
++msgstr "Om @{fri} ≤ 0 returnerar RANDTDIST #NUM!"
+
+ #: ../plugins/fn-random/functions.c:709
+ msgid "RANDGUMBEL:random variate from a Gumbel distribution"
+@@ -9372,10 +9363,9 @@
+ msgstr "type:typ av Gumbel-fördelningen, standard är 1"
+
+ #: ../plugins/fn-random/functions.c:713
+-#, fuzzy
+ #| msgid "If @{p} < 0 or @{p} > 1 RANDGEOM returns #NUM!"
+ msgid "If @{a} = 0 or @{b} ≤ 0, RANDGUMBEL returns #NUM!"
+-msgstr "Om @{p} < 0 eller @{p} > 1 returnerar RANDGEOM #NUM!"
++msgstr "Om @{a} = 0 eller @{b} ≤ 0 returnerar RANDGUMBEL #NUM!"
+
+ #: ../plugins/fn-random/functions.c:714
  msgid "If @{type} is neither 1 nor 2, RANDGUMBEL returns #NUM!"
--msgstr "Om @{typ} är varken 1 eller 2, returnerar RANDGUMBEL #NUM!"
-+msgstr "Om @{type} är varken 1 eller 2, returnerar RANDGUMBEL #NUM!"
- 
- #: ../plugins/fn-random/functions.c:719
- msgid "RANDLEVY:random variate from a Lévy distribution"
-@@ -8080,7 +8080,7 @@
- "The method is based on Marsaglia's famous rectangle-wedge-tail algorithm (Ann Math Stat 32, 894-899 "
- "(1961)), with this aspect explained in Knuth, v2, 3rd ed, p139, 586 (exercise 11)."
- msgstr ""
--"Metoden är baserad på Marsaglias berömda rectangle-wedge-tail-algoritm (Ann Math Stat 32, 894-899 "
-+"Metoden är baserad på Marsaglias berömda rectangle-wedge-tail-algoritm (Ann Math Stat 32, 894–899 "
- "(1961)), med denna aspekt förklarad i Knuth, v2, 3rd ed, p139, 586 (exercise 11)."
- 
- #: ../plugins/fn-random/functions.c:816
-@@ -8349,7 +8349,7 @@
- "0.2): the 4 largest and the 4 smallest. To avoid a bias, the number of points to be excluded is always "
- "rounded down to the nearest even number."
- msgstr ""
--"Om @{bråkdel}=0,2 och datamängden innehåller 40 tal, trimmas 8 tal från datamängden (40 x 0,2): de 4 "
-+"Om @{fraction}=0,2 och datamängden innehåller 40 tal, trimmas 8 tal från datamängden (40 x 0,2): de 4 "
- "största och de fyra minsta. För att undvika bias är antalet punkter att utesluta alltid avrundade ner "
- "till närmsta jämna tal."
- 
-@@ -8556,11 +8556,11 @@
- 
- #: ../plugins/fn-stat/functions.c:550
- msgid "If @{stddev} = 0 LOGNORMDIST returns a #DIV/0! error."
--msgstr "Om @{stdavv} = 0 returnerar LOGNORMDIST ett #DIV/0!-fel."
-+msgstr "Om @{stddev} = 0 returnerar LOGNORMDIST ett #DIV/0!-fel."
- 
- #: ../plugins/fn-stat/functions.c:551
- msgid "If @{x} <= 0, @{mean} < 0 or @{stddev} <= 0 this function returns a #NUM! error."
--msgstr "Om @{x} <= 0, @{medel} < 0 eller @{stdavv} <= 0 returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{x} <= 0, @{mean} < 0 eller @{stddev} <= 0 returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:555 ../plugins/fn-stat/functions.c:584
- msgid "wiki:en:Log-normal_distribution"
-@@ -8576,7 +8576,7 @@
- 
- #: ../plugins/fn-stat/functions.c:580
- msgid "If @{p} < 0 or @{p} > 1 or @{stddev} <= 0 this function returns #NUM! error."
--msgstr "Om @{p} < 0 eller @{p} > 1 eller @{stdavv} <= 0 returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{p} < 0 eller @{p} > 1 eller @{stddev} <= 0 returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:605
- msgid "FISHERINV:inverse of the Fisher transformation"
-@@ -8751,7 +8751,7 @@
- "If @{cumulative} is false it will return:\t@{y} * exp (-@{y}*@{x}), otherwise it will return\t1 - exp (-"
- "@{y}*@{x})."
- msgstr ""
--"Om @{kumulativ} är falskt returneras:\t@{y} * exp (-@{y}*@{x}), annars returneras\t1 - exp (-@{y}*@{x})."
-+"Om @{cumulative} är falskt returneras:\t@{y} * exp (-@{y}*@{x}), annars returneras\t1 - exp (-@{y}*@{x})."
- 
- #: ../plugins/fn-stat/functions.c:1020
- msgid "If @{x} < 0 or @{y} <= 0 this will return an error."
-@@ -8793,7 +8793,7 @@
- #: ../plugins/fn-stat/functions.c:1088 ../plugins/fn-stat/functions.c:1292
- #: ../plugins/fn-stat/functions.c:1329 ../plugins/fn-stat/functions.c:1367
- msgid "If @{alpha} <= 0 or @{beta} <= 0, this function returns a #NUM! error."
--msgstr "Om @{alfa} <= 0 eller @{beta} <= 0, returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{alpha} <= 0 eller @{beta} <= 0, returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:1115
- msgid "GAMMAINV:inverse of the cumulative gamma distribution"
-@@ -8801,7 +8801,7 @@
- 
- #: ../plugins/fn-stat/functions.c:1120 ../plugins/fn-stat/functions.c:2027
- msgid "If @{alpha} <= 0 or @{beta} <= 0 this function returns a #NUM! error."
--msgstr "Om @{alfa} <= 0 eller @{beta} <= 0, returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{alpha} <= 0 eller @{beta} <= 0, returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:1143
- msgid "CHIDIST:survival function of the chi-squared distribution"
-@@ -8820,15 +8820,15 @@
- 
- #: ../plugins/fn-stat/functions.c:1147
- msgid "If @{dof} is non-integer it is truncated."
--msgstr "Om @{fri} är ett icke-heltal trunkeras det."
-+msgstr "Om @{dof} är ett icke-heltal trunkeras det."
- 
- #: ../plugins/fn-stat/functions.c:1148 ../plugins/fn-stat/functions.c:1398
- msgid "If @{dof} < 1 this function returns a #NUM! error."
--msgstr "Om {fri} < 1 returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{dof} < 1 returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:1150
- msgid "CHIDIST(@{x},@{dof}) is the OpenFormula function LEGACY.CHIDIST(@{x},@{dof})."
--msgstr "CHIDIST(@{x};@{fri}) är OpenFormula-funktionen LEGACY.CHIDIST(@{x},@{fri})."
-+msgstr "CHIDIST(@{x};@{dof}) är OpenFormula-funktionen LEGACY.CHIDIST(@{x},@{dof})."
- 
- #: ../plugins/fn-stat/functions.c:1171
- msgid "CHIINV:inverse of the survival function of the chi-squared distribution"
-@@ -8836,11 +8836,11 @@
- 
- #: ../plugins/fn-stat/functions.c:1175 ../plugins/fn-stat/functions.c:1451
- msgid "If @{p} < 0 or @{p} > 1 or @{dof} < 1 this function returns a #NUM! error."
--msgstr "Om @{p} < 0 eller @{p} > 1 eller @{fri} < 1 returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{p} < 0 eller @{p} > 1 eller @{dof} < 1 returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:1177
- msgid "CHIINV(@{p},@{dof}) is the OpenFormula function LEGACY.CHIDIST(@{p},@{dof})."
--msgstr "CHIINV(@{p};@{fri}) är OpenFormula-funktionen LEGACY.CHIDIST(@{p},@{fri})."
-+msgstr "CHIINV(@{p};@{dof}) är OpenFormula-funktionen LEGACY.CHIDIST(@{p},@{dof})."
- 
- #: ../plugins/fn-stat/functions.c:1198
- msgid "CHITEST:p value of the Goodness of Fit Test"
-@@ -8860,7 +8860,7 @@
- "times (m-1) as degrees of freedom. This is useful if the expected values were calculated from the "
- "observed value in a test of independence or test of homogeneity."
- msgstr ""
--"Om det aktuella området inte är ett n×1- eller 1×n-intervall, utan ett n×m-intervall, så använder "
-+"Om det faktiska området inte är ett n×1- eller 1×n-intervall, utan ett n×m-intervall, så använder "
- "CHITEST (n-1) gånger (m-1) som antalet frihetsgrader. Detta är användbart om de förväntade värdena "
- "beräknades från det observerade värdet i ett oberoendetest eller ett homogenitetstest."
- 
-@@ -8909,7 +8909,7 @@
- 
- #: ../plugins/fn-stat/functions.c:1399
- msgid "If @{tails} is neither 1 or 2 this function returns a #NUM! error."
--msgstr "Om @{svans} är varken 1 eller 2 returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{tails} är varken 1 eller 2 returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:1400
+@@ -9421,10 +9411,9 @@
+ msgstr "Om @{β} < -1 eller @{β} > 1, returnerar RANDLEVY #NUM!"
+
+ #: ../plugins/fn-random/functions.c:749
+-#, fuzzy
+ #| msgid "If @{a} ≤ 0, RANDGAMMA returns #NUM!"
+ msgid "If @{c} ≤ 0, RANDLEVY returns #NUM!"
+-msgstr "Om @{a} ≤ 0, returnerar RANDGAMMA #NUM!"
++msgstr "Om @{c} ≤ 0 returnerar RANDLEVY #NUM!"
+
+ # https://en.wikipedia.org/wiki/Generalized_normal_distribution , version 1. Okänt om ett vedertaget svenskt namn existerar.
+ #: ../plugins/fn-random/functions.c:772
+@@ -9456,10 +9445,9 @@
+ "med σ = a/sqrt(2)"
+
+ #: ../plugins/fn-random/functions.c:779
+-#, fuzzy
+ #| msgid "If @{p} < 0 or @{p} > 1 RANDGEOM returns #NUM!"
+ msgid "If @{a} < 0 or @{b} ≤ 0, RANDEXPPOW returns #NUM!"
+-msgstr "Om @{p} < 0 eller @{p} > 1 returnerar RANDGEOM #NUM!"
++msgstr "Om @{a} < 0 eller @{b} ≤ 0 returnerar RANDEXPPOW #NUM!"
+
+ #: ../plugins/fn-random/functions.c:798
+ msgid "RANDLANDAU:random variate from the Landau distribution"
+@@ -9478,10 +9466,9 @@
+ msgstr "σ:standardavvikelsen för normalfördelningen"
+
+ #: ../plugins/fn-random/functions.c:817
+-#, fuzzy
+ #| msgid "If @{σ} < 0, RANDNORM returns #NUM!"
+ msgid "If @{σ} ≤ 0, RANDNORMTAIL returns #NUM!"
+-msgstr "Om @{σ} < 0 returnerar RANDNORM #NUM!"
++msgstr "Om @{σ} ≤ 0 returnerar RANDNORMTAIL #NUM!"
+
+ #: ../plugins/fn-random/functions.c:818
  msgid ""
-@@ -8936,7 +8936,7 @@
- "This function returns the non-negative value x such that the area under the Student t density with "
- "@{dof} degrees of freedom to the right of x is @{p}/2."
- msgstr ""
--"Denna funktion returnerar det icke-negativa värdet x så att området under Students t-täthet med @{fri} "
-+"Denna funktion returnerar det icke-negativa värdet x så att området under Students t-täthet med @{dof} "
- "frihetsgrader till höger om x är @{p}/2."
- 
- #: ../plugins/fn-stat/functions.c:1453
-@@ -8961,7 +8961,7 @@
- 
- #: ../plugins/fn-stat/functions.c:1488
- msgid "If @{dof_of_num} < 1 or @{dof_of_denom} < 1, this function returns a #NUM! error."
--msgstr "Om @{fri_för_täl} < 1 eller @{fri_för_näm} < 1 returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{dof_of_num} < 1 eller @{dof_of_denom} < 1 returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:1490
- msgid "FDIST is the OpenFormula function LEGACY.FDIST."
-@@ -8977,7 +8977,7 @@
- 
- #: ../plugins/fn-stat/functions.c:1693
- msgid "If @{dof_of_num} < 1 or @{dof_of_denom} < 1 this function returns a #NUM! error."
--msgstr "Om @{fri_för_täl} < 1 eller @{fri_för_näm} < 1 returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{dof_of_num} < 1 eller @{dof_of_denom} < 1 returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:1695
- msgid "FINV is the OpenFormula function LEGACY.FINV."
-@@ -9009,15 +9009,15 @@
- 
- #: ../plugins/fn-stat/functions.c:1722
- msgid "If @{n} or @{trials} are non-integer they are truncated."
--msgstr "Om @{n} eller @{försök} är icke-heltal trunkeras de."
-+msgstr "Om @{n} eller @{trials} är icke-heltal trunkeras de."
- 
- #: ../plugins/fn-stat/functions.c:1723
- msgid "If @{n} < 0 or @{trials} < 0 this function returns a #NUM! error."
--msgstr "Om @{n} < 0 eller @{försök} < 0 returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{n} < 0 eller @{trials} < 0 returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:1724
- msgid "If @{n} > @{trials} this function returns a #NUM! error."
--msgstr "Om @{n} > @{försök} returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{n} > @{trials} returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:1752
- msgid "BINOM.DIST.RANGE:probability of the binomial distribution over an interval"
-@@ -9033,15 +9033,15 @@
- 
- #: ../plugins/fn-stat/functions.c:1757
- msgid "If @{start}, @{end} or @{trials} are non-integer they are truncated."
--msgstr "Om @{start}, @{slut} eller @{försök} är icke-heltal trunkeras de."
-+msgstr "Om @{start}, @{end} eller @{trials} är icke-heltal trunkeras de."
- 
- #: ../plugins/fn-stat/functions.c:1758 ../plugins/fn-stat/functions.c:1820
- msgid "If @{trials} < 0 this function returns a #NUM! error."
--msgstr "Om @{försök} < 0 returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{trials} < 0 returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:1760
- msgid "If @{start} > @{end} this function returns 0."
--msgstr "Om @{start} > @{slut} returnerar denna funktion 0."
-+msgstr "Om @{start} > @{end} returnerar denna funktion 0."
- 
- #: ../plugins/fn-stat/functions.c:1784
+@@ -9611,10 +9598,9 @@
+ msgstr "𝛼:formparameter för skev-t-fördelningen, standard är 0"
+
+ #: ../plugins/fn-random/functions.c:968
+-#, fuzzy
+ #| msgid "If @{a} ≤ 0, RANDGAMMA returns #NUM!"
+ msgid "If @{df} ≤ 0, RANDSTDIST returns #NUM!"
+-msgstr "Om @{a} ≤ 0, returnerar RANDGAMMA #NUM!"
++msgstr "Om @{fri} ≤ 0 returnerar RANDSTDIST #NUM!"
+
+ #: ../plugins/fn-random/functions.c:969
+ msgid "The mean of a skew-t distribution is not 0."
+@@ -9918,10 +9904,9 @@
+ msgstr "Om @{f} eller @{t} är ett icke-heltal trunkeras det."
+
+ #: ../plugins/fn-stat/functions.c:411
+-#, fuzzy
+ #| msgid "If @{p} < 0 or @{p} > 1 this function returns a #NUM! error."
+ msgid "If @{f} < 0 or @{t} < 1 this function returns a #NUM! error."
+-msgstr "Om @{p} < 0 eller @{p} > 1 returnerar denna funktion ett #NUM!-fel."
++msgstr "Om @{f} < 0 eller @{t} < 1 returnerar denna funktion ett #NUM!-fel."
+
+ #: ../plugins/fn-stat/functions.c:412 ../plugins/fn-stat/functions.c:1051
+ #: ../plugins/fn-stat/functions.c:1120 ../plugins/fn-stat/functions.c:1368
+@@ -10253,10 +10238,9 @@
+ "exponentialfördelningen"
+
+ #: ../plugins/fn-stat/functions.c:1016
+-#, fuzzy
+ #| msgid "y:scale parameter"
+ msgid "y:rate parameter"
+-msgstr "y:skalparameter"
++msgstr "y:hastighetsparameter"
+
+ #: ../plugins/fn-stat/functions.c:1017 ../plugins/fn-stat/functions.c:1087
+ #: ../plugins/fn-stat/functions.c:1326 ../plugins/fn-stat/functions.c:1790
+@@ -10675,10 +10659,9 @@
+ msgstr "k:antal element för varje permutation"
+
+ #: ../plugins/fn-stat/functions.c:1869
+-#, fuzzy
+ #| msgid "If @{x} < 0 this function returns a #NUM! error."
+ msgid "If @{n} < 0 this function returns a #NUM! error."
+-msgstr "Om @{x} < 0 returnerar denna funktion ett #NUM!-fel."
++msgstr "Om @{n} < 0 returnerar denna funktion ett #NUM!-fel."
+
+ #: ../plugins/fn-stat/functions.c:1870
+ msgid "If @{n} < @{k} this function returns a #NUM! error."
+@@ -10718,13 +10701,13 @@
+ "Om @{x},@{n},@{M} eller @{N} < 0 returnerar denna funktion ett #NUM!-fel."
+
+ #: ../plugins/fn-stat/functions.c:1900
+-#, fuzzy
+ #| msgid "If @{x} > @{M} or @{n} > @{N} this function returns a #NUM! error."
  msgid ""
-@@ -9062,7 +9062,7 @@
- 
- #: ../plugins/fn-stat/functions.c:1790 ../plugins/fn-stat/functions.c:4853
- msgid "If @{cumulative} is neither TRUE nor FALSE this function returns a #VALUE! error."
--msgstr "Om @{kumulativ} är varken SANT eller FALSKT returnerar denna funktion ett #VÄRDE!-fel."
-+msgstr "Om @{cumulative} är varken SANT eller FALSKT returnerar denna funktion ett #VÄRDE!-fel."
- 
- #: ../plugins/fn-stat/functions.c:1815
- msgid "CRITBINOM:right-tailed critical value of the binomial distribution"
-@@ -9074,11 +9074,11 @@
- 
- #: ../plugins/fn-stat/functions.c:1819
- msgid "If @{trials} is a non-integer it is truncated."
--msgstr "Om @{försök} är icke-heltal trunkeras det."
-+msgstr "Om @{trials} är icke-heltal trunkeras det."
- 
- #: ../plugins/fn-stat/functions.c:1822
- msgid "If @{alpha} < 0 or @{alpha} > 1 this function returns a #NUM! error."
--msgstr "Om @{alfa} < 0 eller @{alfa} > 1 returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{alpha} < 0 eller @{alpha} > 1 returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:1845
- msgid "PHI:standard normal distribution density"
-@@ -9165,15 +9165,15 @@
- 
- #: ../plugins/fn-stat/functions.c:1931 ../plugins/fn-stat/functions.c:1964
- msgid "If @{size} is non-integer it is truncated."
--msgstr "Om @{storlek} är ett icke-heltal trunkeras det."
-+msgstr "Om @{size} är ett icke-heltal trunkeras det."
- 
- #: ../plugins/fn-stat/functions.c:1932
- msgid "If @{size} < 0 this function returns a #NUM! error."
--msgstr "Om @{storlek} < 0 returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{size} < 0 returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:1933
- msgid "If @{size} is 0 this function returns a #DIV/0! error."
--msgstr "Om @{storlek} är 0 returnerar denna funktion ett #DIV/0!-fel."
-+msgstr "Om @{size} är 0 returnerar denna funktion ett #DIV/0!-fel."
- 
- #: ../plugins/fn-stat/functions.c:1958
- msgid ""
-@@ -9188,15 +9188,15 @@
- 
- #: ../plugins/fn-stat/functions.c:1963
- msgid "If @{stddev} < 0 or = 0 this function returns a #NUM! error."
--msgstr "Om @{stdavv} < 0 eller = 0 returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{stddev} < 0 eller = 0 returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:1965
- msgid "If @{size} < 1 this function returns a #NUM! error."
--msgstr "Om @{storlek} < 1 returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{size} < 1 returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:1966
- msgid "If @{size} is 1 this function returns a #DIV/0! error."
--msgstr "Om @{storlek} är 1 returnerar denna funktion ett #DIV/0!-fel."
-+msgstr "Om @{size} är 1 returnerar denna funktion ett #DIV/0!-fel."
- 
- #: ../plugins/fn-stat/functions.c:1991
- msgid "STANDARDIZE:z-score of a value"
-@@ -9212,7 +9212,7 @@
- 
- #: ../plugins/fn-stat/functions.c:1995 ../plugins/fn-stat/functions.c:2059
- msgid "If @{stddev} is 0 this function returns a #DIV/0! error."
--msgstr "Om @{stdavv} är 0 returnerar denna funktion ett #DIV/0!-fel."
-+msgstr "Om @{stddev} är 0 returnerar denna funktion ett #DIV/0!-fel."
- 
- #: ../plugins/fn-stat/functions.c:2018
- msgid "WEIBULL:probability density or cumulative distribution function of the Weibull distribution"
-@@ -9223,8 +9223,8 @@
- "If the @{cumulative} boolean is true it will return: 1 - exp (-(@{x}/@{beta})^@{alpha}), otherwise it "
- "will return (@{alpha}/@{beta}^@{alpha}) * @{x}^(@{alpha}-1) * exp(-(@{x}/@{beta}^@{alpha}))."
- msgstr ""
--"Om det booleska värdet @{kumulativ} är sant returnerar den: 1 - exp (-(@{x}/@{beta})^@{alfa}), annars "
--"returnerar den (@{alfa}/@{beta}^@{alfa}) * @{x}^(@{alfa}-1) * exp(-(@{x}/@{beta}^@{alfa}))."
-+"Om det booleska värdet @{cumulative} är sant returnerar den: 1 - exp (-(@{x}/@{beta})^@{alpha}), annars "
-+"returnerar den (@{alpha}/@{beta}^@{alpha}) * @{x}^(@{alpha}-1) * exp(-(@{x}/@{beta}^@{alpha}))."
- 
- #: ../plugins/fn-stat/functions.c:2054
- msgid "NORMDIST:probability density or cumulative distribution function of a normal distribution"
-@@ -9245,7 +9245,7 @@
- 
- #: ../plugins/fn-stat/functions.c:2091
- msgid "If @{p} < 0 or @{p} > 1 or @{stddev} <= 0 this function returns a #NUM! error."
--msgstr "Om @{p} < 0 eller @{p} > 1 eller @{stdavv} <= 0 returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{p} < 0 eller @{p} > 1 eller @{stddev} <= 0 returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:2115
- msgid "KURT:unbiased estimate of the kurtosis of a data set"
-@@ -9308,7 +9308,7 @@
- 
- #: ../plugins/fn-stat/functions.c:2254
- msgid "If @{mean} <= 0 POISSON returns the #NUM! error."
--msgstr "Om @{medel} <=0 returnerar POISSON ett #NUM!-fel."
-+msgstr "Om @{mean} <=0 returnerar POISSON ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:2280
- msgid "PEARSON:Pearson correlation coefficient of the paired set of data"
-@@ -9367,11 +9367,11 @@
- "CF = the number of data points below the median interval\n"
- "F = the number of data points in the median interval"
- msgstr ""
--"Data antas vara grupperad i intervall av bredd @{intervall}. Varje datapunkt i @{vektor} är mittpunkten "
-+"Data antas vara grupperad i intervall av bredd @{interval}. Varje datapunkt i @{array} är mittpunkten "
- "för intervallet innehållande det sanna värdet. Median beräknas genom interpolation inom "
- "medianintervallet (intervallet innehållande medianvärdet) antagande att de sanna värdena inom det "
- "intervallet fördelas uniformt:\n"
--"median = L + @{intervall}*(N/2 - CF)/F\n"
-+"median = L + @{interval}*(N/2 - CF)/F\n"
- "där:\n"
- "L = den lägre gränsen för medianintervallet\n"
- "N = totala antalet datapunkter\n"
-@@ -9382,15 +9382,15 @@
- #: ../plugins/fn-stat/functions.c:3199 ../plugins/fn-stat/functions.c:3244
- #: ../plugins/fn-stat/functions.c:3287
- msgid "If @{array} is empty, this function returns a #NUM! error."
--msgstr "Om @{vektor} är tom returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{array} är tom returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:2371
- msgid ""
- "If @{interval} <= 0, this function returns a #NUM! error. SSMEDIAN does not check whether the data "
- "points are at least @{interval} apart."
- msgstr ""
--"Om @{intervall} <= 0, returnerar denna funktion ett #NUM!-fel. SSMEDIAN kontrollerar inte huruvida "
--"datapunkterna är minst @{intervall} isär."
-+"Om @{interval} <= 0, returnerar denna funktion ett #NUM!-fel. SSMEDIAN kontrollerar inte huruvida "
-+"datapunkterna är minst @{interval} isär."
- 
- #: ../plugins/fn-stat/functions.c:2458
- msgid "LARGE:@{k}-th largest value in a data set"
-@@ -9444,25 +9444,25 @@
- 
- #: ../plugins/fn-stat/functions.c:2563
- msgid "upper_limit:upper interval limit, defaults to @{lower_limit}"
--msgstr "övre_gräns:övre intervallgräns, standard är @{nedre_gräns}"
-+msgstr "övre_gräns:övre intervallgräns, standard är @{lower_limit}"
- 
- #: ../plugins/fn-stat/functions.c:2564
- msgid ""
- "If the sum of the probabilities in @{prob_range} is not equal to 1 this function returns a #NUM! error."
- msgstr ""
--"Om summan av sannolikheterna i @{sann_intervall} inte är lika med 1 returnerar denna funktion ett #NUM!-"
-+"Om summan av sannolikheterna i @{prob_range} inte är lika med 1 returnerar denna funktion ett #NUM!-"
- "fel."
- 
- #: ../plugins/fn-stat/functions.c:2566
- msgid "If any value in @{prob_range} is <=0 or > 1, this function returns a #NUM! error."
--msgstr "Om något värde i @{sann_intervall} är <=0 eller > 1 returnerar denna funktion #NUM!-fel."
-+msgstr "Om något värde i @{prob_range} är <=0 eller > 1 returnerar denna funktion #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:2568
- msgid ""
- "If @{x_range} and @{prob_range} contain a different number of data entries, this function returns a #N/"
- "A error."
- msgstr ""
--"Om @{x_intervall} och @{sann_intervall} innehåller olika antal dataposter returnerar denna funktion "
-+"Om @{x_range} och @{prob_range} innehåller olika antal dataposter returnerar denna funktion "
- "felet #-."
- 
- #: ../plugins/fn-stat/functions.c:2643
-@@ -9487,7 +9487,7 @@
- "If @{known_ys} and @{known_xs} are empty or have a different number of arguments then this function "
- "returns a #N/A error."
- msgstr ""
--"Om @{kända_y} och @{kända_x} är tomma eller har olika antal argument så returnerar denna funktion felet "
-+"Om @{known_ys} och @{known_xs} är tomma eller har olika antal argument så returnerar denna funktion felet "
- "#-."
- 
- #: ../plugins/fn-stat/functions.c:2652
-@@ -9521,7 +9521,7 @@
- msgstr ""
- "ZTEST beräknar sannolikheten för att observera ett stickprovsmedel så stort som eller större än "
- "medelvärdet för det givna stickprovet för stickprov dragna från en normalfördelning med medelvärdet "
--"@{x} och standardavvikelsen @{stdavv}."
-+"@{x} och standardavvikelsen @{stddev}."
- 
- #: ../plugins/fn-stat/functions.c:2704
- msgid "If @{ref} contains less than two data items ZTEST returns #DIV/0! error."
-@@ -9597,18 +9597,18 @@
- 
- #: ../plugins/fn-stat/functions.c:2953 ../plugins/fn-stat/functions.c:3057
- msgid "If @{array} contains no data points, this function returns a #NUM! error."
--msgstr "Om @{vektor} inte innehåller datapunkter returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{array} inte innehåller datapunkter returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:2955 ../plugins/fn-stat/functions.c:3059
- msgid "If @{significance} is less than one, this function returns a #NUM! error."
--msgstr "Om @{signifikans} är mindre än ett returnerar denna funktion ett #NUM-fel."
-+msgstr "Om @{significance} är mindre än ett returnerar denna funktion ett #NUM-fel."
- 
- #: ../plugins/fn-stat/functions.c:2957 ../plugins/fn-stat/functions.c:3061
- msgid ""
- "If @{x} exceeds the largest value or is less than the smallest value in @{array}, this function returns "
- "an #N/A error."
- msgstr ""
--"Om @{x} överstiger det största värdet eller är mindre än det minsta värdet i @{vektor} returnerar denna "
-+"Om @{x} överstiger det största värdet eller är mindre än det minsta värdet i @{array} returnerar denna "
- "funktion felet #-."
- 
- #: ../plugins/fn-stat/functions.c:2959 ../plugins/fn-stat/functions.c:3063
-@@ -9616,7 +9616,7 @@
- "If @{x} does not match any of the values in @{array} or @{x} matches more than once, this function "
- "interpolates the returned value."
- msgstr ""
--"Om @{x} inte stämmer med något av värdena i @{vektor} eller @{x} matchar mer än en gång, interpolerar "
-+"Om @{x} inte stämmer med något av värdena i @{array} eller @{x} matchar mer än en gång, interpolerar "
- "denna funktion det returnerade värdet."
- 
- #: ../plugins/fn-stat/functions.c:3053
-@@ -9659,7 +9659,7 @@
- 
- #: ../plugins/fn-stat/functions.c:3241
- msgid "QUARTILE:the @{quart}-th quartile of the data points (Hyndman-Fan method 7: N-1 basis)"
--msgstr "QUARTILE:@{kvart}:e kvartilen för datapunkterna (Hyndman-Fan-metod 7: N-1 bas)"
-+msgstr "QUARTILE:@{quart}:e kvartilen för datapunkterna (Hyndman-Fan-metod 7: N-1 bas)"
- 
- #: ../plugins/fn-stat/functions.c:3243
- msgid "quart:a number from 0 to 4, indicating which quartile to calculate"
-@@ -9670,12 +9670,12 @@
- "If @{quart} < 0 or @{quart} > 4, this function returns a #NUM! error. If @{quart} = 0, the smallest "
- "value of @{array} to be returned."
- msgstr ""
--"Om @{kvart} < 0 eller @{kvart} > 4 returnerar denna funktion ett #NUM!-fel. Om @{kvart} = 0 returneras "
--"det minsta värdet i @{vektor}."
-+"Om @{quart} < 0 eller @{quart} > 4 returnerar denna funktion ett #NUM!-fel. Om @{quart} = 0 returneras "
-+"det minsta värdet i @{array}."
- 
- #: ../plugins/fn-stat/functions.c:3246 ../plugins/fn-stat/functions.c:3289
- msgid "If @{quart} is not an integer, it is truncated."
--msgstr "Om @{kvart} inte är ett heltal trunkeras det."
-+msgstr "Om @{quart} inte är ett heltal trunkeras det."
- 
- #: ../plugins/fn-stat/functions.c:3249
- msgid "Then QUARTILE(A1:A5,1) equals 17.3."
-@@ -9683,7 +9683,7 @@
- 
- #: ../plugins/fn-stat/functions.c:3284
- msgid "QUARTILE.EXC:the @{quart}-th quartile of the data points (Hyndman-Fan method 6: N+1 basis)"
--msgstr "QUARTILE.EXC: @{kvart}:e kvartilen för datapunkterna (Hyndman-Fan-metod 6: N+1 bas)"
-+msgstr "QUARTILE.EXC: @{quart}:e kvartilen för datapunkterna (Hyndman-Fan-metod 6: N+1 bas)"
- 
- #: ../plugins/fn-stat/functions.c:3286
- msgid "quart:a number from 1 to 3, indicating which quartile to calculate"
-@@ -9734,20 +9734,20 @@
- "If the data sets contain a different number of data points and the test is paired (@{type} one), TTEST "
- "returns the #N/A error."
- msgstr ""
--"Om datamängderna innehåller olika antal datapunkter och testet är parat (@{typ} ett), returnerar TTEST "
-+"Om datamängderna innehåller olika antal datapunkter och testet är parat (@{type} ett), returnerar TTEST "
- "felet #-."
- 
- #: ../plugins/fn-stat/functions.c:3397
- msgid "@{tails} and @{type} are truncated to integers."
--msgstr "@{svansar} och @{typ} trunkeras till heltal."
-+msgstr "@{tails} och @{type} trunkeras till heltal."
- 
- #: ../plugins/fn-stat/functions.c:3398
- msgid "If @{tails} is not one or two, this function returns a #NUM! error."
--msgstr "Om @{svansar} inte är ett eller två returneras ett #NUM!-fel."
-+msgstr "Om @{tails} inte är ett eller två returneras ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:3399
- msgid "If @{type} is any other than one, two, or three, this function returns a #NUM! error."
--msgstr "Om @{typ} är annat än ett, två eller tre returnerar denna funktion ett #NUM!-fel."
-+msgstr "Om @{type} är annat än ett, två eller tre returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:3404
- msgid ""
-@@ -9775,7 +9775,7 @@
- 
- #: ../plugins/fn-stat/functions.c:3566
- msgid "If the @{bins_array} is empty, this function returns the number of data points in @{data_array}."
--msgstr "Om @{intervallvektor} är tom returnerar denna funktion antalet datapunkter i @{datavektor}."
-+msgstr "Om @{bins_array} är tom returnerar denna funktion antalet datapunkter i @{data_array}."
- 
- #: ../plugins/fn-stat/functions.c:3629
- msgid "LEVERAGE:calculate regression leverage"
-@@ -9817,7 +9817,7 @@
- "independent variables x_m, x_(m-1),…,x_2, x_1 followed by the y-intercept if @{affine} is true."
- msgstr ""
- "Denna funktion returnerar en vektor med den första raden givande regressionskoefficienterna för de "
--"oberoende variablerna x_m, x_(m-1),…,x_2, x_1 följt av y-intercept om @{affin} är sant."
-+"oberoende variablerna x_m, x_(m-1),…,x_2, x_1 följt av y-intercept om @{affine} är sant."
- 
- #: ../plugins/fn-stat/functions.c:3844
- msgid ""
-@@ -9826,7 +9826,7 @@
- "predicted value. The fourth row contains the observed F value and its degrees of freedom. Finally, the "
- "fifth row contains the regression sum of squares and the residual sum of squares."
- msgstr ""
--"Om @{statistik} är sant innehåller den andra raden de motsvarande standardfelen för "
-+"Om @{stats} är sant innehåller den andra raden de motsvarande standardfelen för "
- "regressionskoefficienterna. I detta fall innehåller tredje raden R^2-värdet och standardfelet för det "
- "förutsedda värdet. Fjärde raden innehåller det observerade F-värdet och dess frihetsgrader. Slutligen "
- "innehåller den femte raden regressionskvadratsumman och residualkvadratsumman."
-@@ -9836,7 +9836,7 @@
- "If @{affine} is false, R^2 is the uncentered version of the coefficient of determination; that is the "
- "proportion of the sum of squares explained by the model."
- msgstr ""
--"Om @{affin} är falskt är R^2 den ocentrerade versionen av determinationskoefficienten; det vill säga "
-+"Om @{affine} är falskt är R^2 den ocentrerade versionen av determinationskoefficienten; det vill säga "
- "proportionen på kvadratsumman förklarad av modellen."
- 
- #: ../plugins/fn-stat/functions.c:3854 ../plugins/fn-stat/functions.c:4154
-@@ -9844,7 +9844,7 @@
- "If the length of @{known_ys} does not match the corresponding length of @{known_xs}, this function "
+ "If @{x} > @{n}, @{x} > @{M}, @{n} > @{N}, or @{M} > @{N} this function "
  "returns a #NUM! error."
  msgstr ""
--"Om längden för @{kända_y} inte matchar motsvarande längd för @{kända_x} returnerar denna funktion ett "
-+"Om längden för @{known_ys} inte matchar motsvarande längd för @{known_xs} returnerar denna funktion ett "
- "#NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:3940
-@@ -9890,7 +9890,7 @@
+-"Om @{x} > @{M} eller @{n} > @{N} returnerar denna funktion ett #NUM!-fel."
++"Om @{x} > @{n}, @{x} > @{M}, @{n} > @{N} eller @{M} > @{N} returnerar "
++"denna funktion ett #NUM!-fel."
+
+ #: ../plugins/fn-stat/functions.c:1929
  msgid ""
- "If @{known_ys} and @{known_xs} have unequal number of data points, this function returns a #NUM! error."
+@@ -10752,11 +10735,10 @@
+ "populationen."
+
+ #: ../plugins/fn-stat/functions.c:1934 ../plugins/fn-stat/functions.c:1969
+-#, fuzzy
+ #| msgid "If @{alpha} < 0 or @{alpha} > 1 this function returns a #NUM! error."
+ msgid "If @{alpha} <= 0 or @{alpha} >= 1 this function returns a #NUM! error."
  msgstr ""
--"Om @{kända_y} och @{kända_x} har ett ojämnt antal datapunkter returnerar denna funktion ett #NUM!-fel."
-+"Om @{known_ys} och @{known_xs} har ett ojämnt antal datapunkter returnerar denna funktion ett #NUM!-fel."
- 
- #: ../plugins/fn-stat/functions.c:4054
- msgid "LOGFIT:logarithmic least square fit (using a trial and error method)"
-@@ -9936,7 +9936,7 @@
- "the next smaller (10^integer), times 0.000001. There might be cases in which the returned fit is not "
- "the best possible."
- msgstr ""
--"Detta är en icke linjär anpassning genom återupprepade försök. Noggrannheten för ”c” är bredden på x-"
-+"Detta är en icke linjär anpassning genom återupprepade försök. Noggrannheten för ”c” beräknas som: bredden på x-"
- "intervallet -> avrundad till nästa mindre tiopotens gånger 0,000001. Det kan finnas fall där "
- "anpassningen inte är den bästa möjliga."
- 
-@@ -9947,7 +9947,7 @@
- #: ../plugins/fn-stat/functions.c:4152
- msgid "new_xs:array of x-values for which to estimate the y-values; defaults to @{known_xs}"
- msgstr ""
--"nya_x:vektor för x-värden för vilka beräkning av y-värden ska estimera; standardvärdet är @{kända_x}"
-+"nya_x:vektor för x-värden för vilka beräkning av y-värden ska estimera; standardvärdet är @{known_xs}"
- 
- #: ../plugins/fn-stat/functions.c:4156
- msgid ""
-@@ -10001,7 +10001,7 @@
- 
- #: ../plugins/fn-stat/functions.c:4395
- msgid "new_xs:x-values for which to estimate the y-values; defaults to @{known_xs}"
--msgstr "nya_x:x-värden för vilka y-estimat ska ske; standardvärdet är @{kända_x}"
-+msgstr "nya_x:x-värden för vilka y-estimat ska ske; standardvärdet är @{known_xs}"
- 
- #: ../plugins/fn-stat/functions.c:4397
- msgid ""
-@@ -10013,7 +10013,7 @@
- 
- #: ../plugins/fn-stat/functions.c:4402
- msgid "GROWTH returns an array having one column and a row for each data point in @{new_xs}."
--msgstr "GROWTH returnerar en vektor bestående av en kolumn och rad för varje datapunkt i @{nya_x}."
-+msgstr "GROWTH returnerar en vektor bestående av en kolumn och rad för varje datapunkt i @{new_xs}."
- 
- #: ../plugins/fn-stat/functions.c:4494
- msgid "FORECAST:estimates a future value according to existing values using simple linear regression"
-@@ -10037,12 +10037,12 @@
- "If @{known_xs} or @{known_ys} contains no data entries or different number of data entries, this "
- "function returns a #N/A error."
- msgstr ""
--"Om @{kända_x} eller @{kända_y} inte innehåller dataposter eller annorlunda antal dataposter returnerar "
-+"Om @{known_xs} eller @{known_ys} inte innehåller dataposter eller annorlunda antal dataposter returnerar "
- "denna funktion felet #-."
- 
- #: ../plugins/fn-stat/functions.c:4503
- msgid "If the variance of the @{known_xs} is zero, this function returns a #DIV/0 error."
--msgstr "Om variansen för @{kända_x} är 0 returnerar denna funktion ett #DIV/0-fel."
-+msgstr "Om variansen för @{known_xs} är 0 returnerar denna funktion ett #DIV/0-fel."
- 
- #: ../plugins/fn-stat/functions.c:4509
- msgid "Then FORECAST(7,A1:A5,B1:B5) equals -10.859397661."
-@@ -10054,7 +10054,7 @@
- 
- #: ../plugins/fn-stat/functions.c:4560 ../plugins/fn-stat/functions.c:4613
- msgid "If the variance of the @{known_xs} is zero, this function returns #DIV/0 error."
--msgstr "Om variansen för @{kända_x} är noll returnerar denna funktion ett #DIV/0-fel."
-+msgstr "Om variansen för @{known_xs} är noll returnerar denna funktion ett #DIV/0-fel."
- 
- #: ../plugins/fn-stat/functions.c:4566
- msgid "Then INTERCEPT(A1:A5,B1:B5) equals -20.785117212."
-@@ -10359,7 +10359,7 @@
- 
- #: ../plugins/fn-string/functions.c:160
- msgid "CODE:the CP1252 (Windows-1252) code point for the character @{c}"
--msgstr "CODE:kodpunkt i CP1252 (Windows-1252) för tecknet @{t}"
-+msgstr "CODE:kodpunkt i CP1252 (Windows-1252) för tecknet @{c}"
- 
- #: ../plugins/fn-string/functions.c:161 ../plugins/fn-string/functions.c:206
- msgid "c:character"
-@@ -10367,23 +10367,23 @@
- 
- #: ../plugins/fn-string/functions.c:162
- msgid "@{c} must be a valid CP1252 (Windows-1252) character."
--msgstr "@{t} måste vara ett giltigt CP1252 (Windows-1252)-tecken."
-+msgstr "@{c} måste vara ett giltigt CP1252 (Windows-1252)-tecken."
- 
- #: ../plugins/fn-string/functions.c:164
- msgid ""
- "CP1252 (Windows-1252) is based on an early draft of ISO-8859-1, and contains all of its printable "
- "characters (but partially at different positions.)"
- msgstr ""
--"CP1252 (Windows-1252) baseras på ett tidigt utkast av ISO-8859-1 och innehåller att dess utskrivbara "
--"tecken (men delvis på andra positioner)."
-+"CP1252 (Windows-1252) baseras på ett tidigt utkast av ISO-8859-1 och innehåller alla dess utskrivbara "
-+"tecken (men delvis på andra positioner)"
- 
- #: ../plugins/fn-string/functions.c:205
- msgid "UNICODE:the Unicode code point for the character @{c}"
--msgstr "UNICODE:Unicode-kodpunkt för tecknet @{t}"
-+msgstr "UNICODE:kodpunkt för tecknet @{c}"
- 
- #: ../plugins/fn-string/functions.c:276
- msgid "EXACT:TRUE if @{string1} is exactly equal to @{string2}"
--msgstr "EXACT:SANT om @{sträng1} är lika med @{sträng2}"
-+msgstr "EXACT:SANT om @{string1} är lika med @{string2}"
- 
- #: ../plugins/fn-string/functions.c:277
- msgid "string1:first string"
-@@ -10418,7 +10418,7 @@
- 
- #: ../plugins/fn-string/functions.c:348
- msgid "LEFT:the first @{num_chars} characters of the string @{s}"
--msgstr "LEFT:de första @{ant_teck} tecknen i strängen @{s}"
-+msgstr "LEFT:de första @{num_chars} tecknen i strängen @{s}"
- 
- #: ../plugins/fn-string/functions.c:350 ../plugins/fn-string/functions.c:564
- msgid "num_chars:the number of characters to return (defaults to 1)"
-@@ -10434,7 +10434,7 @@
- 
- #: ../plugins/fn-string/functions.c:383
- msgid "LEFTB:the first characters of the string @{s} comprising at most @{num_bytes} bytes"
--msgstr "LEFTB:de första tecknen för strängen @{s} bestående av som mest @{ant_byte} byte"
-+msgstr "LEFTB:de första tecknen för strängen @{s} bestående av som mest @{num_bytes} byte"
- 
- #: ../plugins/fn-string/functions.c:385 ../plugins/fn-string/functions.c:478
- #: ../plugins/fn-string/functions.c:600
-@@ -10482,7 +10482,7 @@
- #: ../plugins/fn-string/functions.c:435
- msgid ""
- "MID:the substring of the string @{s} starting at position @{position} consisting of @{length} characters"
--msgstr "MID:delsträngen för strängen @{s} med början på position @{position} bestående av @{längd} tecken"
-+msgstr "MID:delsträngen för strängen @{s} med början på position @{position} bestående av @{length} tecken"
- 
- #: ../plugins/fn-string/functions.c:437
- msgid "position:the starting position"
-@@ -10494,7 +10494,7 @@
- 
- #: ../plugins/fn-string/functions.c:475
- msgid "MIDB:the characters following the first @{start_pos} bytes comprising at most @{num_bytes} bytes"
--msgstr "MIDB:tecknen följande första @{startpos} byte, omfattande som mest @{ant_byte} byte"
-+msgstr "MIDB:tecknen följande första @{start_pos} byte, omfattande som mest @{num_bytes} byte"
- 
- #: ../plugins/fn-string/functions.c:477
- msgid "start_pos:the number of the byte with which to start (defaults to 1)"
-@@ -10502,7 +10502,7 @@
- 
- #: ../plugins/fn-string/functions.c:519
- msgid "FINDB:first byte position of @{string1} in @{string2} following byte position @{start}"
--msgstr "FINDB:första byteposition av @{sträng1} i @{sträng2} följande byteposition @{start}"
-+msgstr "FINDB:första byteposition av @{string1} i @{string2} följande byteposition @{start}"
- 
- #: ../plugins/fn-string/functions.c:520 ../plugins/fn-string/functions.c:876
- msgid "string1:search string"
-@@ -10522,7 +10522,7 @@
- 
- #: ../plugins/fn-string/functions.c:562
- msgid "RIGHT:the last @{num_chars} characters of the string @{s}"
--msgstr "RIGHT:de sista @{ant_teck} tecknen i sträng @{s}"
-+msgstr "RIGHT:de sista @{num_chars} tecknen i sträng @{s}"
- 
- #: ../plugins/fn-string/functions.c:565 ../plugins/fn-string/functions.c:602
- msgid ""
-@@ -10534,7 +10534,7 @@
- 
- #: ../plugins/fn-string/functions.c:598
- msgid "RIGHTB:the last characters of the string @{s} comprising at most @{num_bytes} bytes"
--msgstr "RIGHTB:de sista tecknen för strängen @{s}, omfattande som mest @{ant_byte} byte"
-+msgstr "RIGHTB:de sista tecknen för strängen @{s}, omfattande som mest @{num_bytes} byte"
- 
- #: ../plugins/fn-string/functions.c:633
- msgid "UPPER:an upper-case version of the string @{text}"
-@@ -10564,7 +10564,7 @@
- 
- #: ../plugins/fn-string/functions.c:692
- msgid "TEXTJOIN:the concatenation of the strings @{s1}, @{s2},… delimited by @{del}"
--msgstr "TEXTJOIN:konkateneringen av strängarna @{s1}, @{s2},… avgränsad av @{avg}"
-+msgstr "TEXTJOIN:konkateneringen av strängarna @{s1}, @{s2},… avgränsad av @{del}"
- 
- #: ../plugins/fn-string/functions.c:693
- msgid "del:delimiter"
-@@ -10576,7 +10576,7 @@
- 
- #: ../plugins/fn-string/functions.c:777
- msgid "REPT:@{num} repetitions of string @{text}"
--msgstr "REPT::@{ant} strängupprepningar av @{text}"
-+msgstr "REPT::@{num} strängupprepningar av @{text}"
- 
- #: ../plugins/fn-string/functions.c:779
- msgid "num:non-negative integer"
-@@ -10596,7 +10596,7 @@
- 
- #: ../plugins/fn-string/functions.c:875
- msgid "FIND:first position of @{string1} in @{string2} following position @{start}"
--msgstr "FIND:första positionen för @{sträng1} i @{sträng2} efter position @{start}"
-+msgstr "FIND:första positionen för @{string1} i @{string2} efter position @{start}"
- 
- #: ../plugins/fn-string/functions.c:878 ../plugins/fn-string/functions.c:2070
- msgid "start:starting position, defaults to 1"
-@@ -10604,7 +10604,7 @@
- 
- #: ../plugins/fn-string/functions.c:913
- msgid "FIXED:formatted string representation of @{num}"
--msgstr "FIXED:formaterad strängrepresentation av @{ant}"
-+msgstr "FIXED:formaterad strängrepresentation av @{num}"
- 
- #: ../plugins/fn-string/functions.c:914 ../plugins/fn-string/functions.c:1995
- msgid "num:number"
-@@ -10647,10 +10647,10 @@
- "If @{return_mode} is 1, it returns all matches as a vertical array.\n"
- "If @{return_mode} is 2, it returns capturing groups from the first match as a horizontal array."
- msgstr ""
--"REGEXEXTRACT returnerar delsträngar från @{text} baserat på @{mönster}.\n"
--"Om @{returläge} är 0 returnerar det första träffen.\n"
--"Om @{returläge} är 1 returnerar det alla träffar som en vertikal vektor.\n"
--"Om @{returläge} är 2 returnerar det fångstgrupper från den första träffen som en horisontell vektor."
-+"REGEXEXTRACT returnerar delsträngar från @{text} baserat på @{pattern}.\n"
-+"Om @{return_mode} är 0 returnerar det första träffen.\n"
-+"Om @{return_mode} är 1 returnerar det alla träffar som en vertikal vektor.\n"
-+"Om @{return_mode} är 2 returnerar det fångstgrupper från den första träffen som en horisontell vektor."
- 
- #: ../plugins/fn-string/functions.c:1143
- msgid "REGEXREPLACE:replace text matching a regular expression"
-@@ -10669,8 +10669,8 @@
- "REGEXREPLACE replaces occurrences of @{pattern} in @{text} with @{replacement}.\n"
- "The @{replacement} string can include backreferences like \\1, \\2 or $1, $2."
- msgstr ""
--"REGEXREPLACE erssätter förekomster av @{mönster} i @{text} med @{ersättning}.\n"
--"Strängen @{ersättning} kan inkludera bakåtreferenser som \\1, \\2 eller $1, $2."
-+"REGEXREPLACE erssätter förekomster av @{pattern} i @{text} med @{replacement}.\n"
-+"Strängen @{replacement} kan inkludera bakåtreferenser som \\1, \\2 eller $1, $2."
- 
- #: ../plugins/fn-string/functions.c:1253
- msgid "REGEXTEST:test if @{text} matches a regular expression"
-@@ -10678,11 +10678,11 @@
- 
- #: ../plugins/fn-string/functions.c:1257
- msgid "REGEXTEST checks if @{text} matches the regular expression @{pattern}."
--msgstr "REGEXTEST kontrollerar om @{text} matchar det reguljära uttrycket @{mönster}."
-+msgstr "REGEXTEST kontrollerar om @{text} matchar det reguljära uttrycket @{pattern}."
- 
- #: ../plugins/fn-string/functions.c:1292
- msgid "REPLACE:string @{old} with @{num} characters starting at @{start} replaced by @{new}"
--msgstr "REPLACE:strängen @{gammal} med @{ant} tecken vid början @{start} ersatt av @{ny}"
-+msgstr "REPLACE:strängen @{old} med @{num} tecken vid början @{start} ersatt av @{new}"
- 
- #: ../plugins/fn-string/functions.c:1294 ../plugins/fn-string/functions.c:1345
- msgid "old:original text"
-@@ -10694,7 +10694,7 @@
- 
- #: ../plugins/fn-string/functions.c:1296
- msgid "num:number of characters to be replaced"
--msgstr "antal:antal tecken att ersätta"
-+msgstr "antal:tecken som ska ersättas"
- 
- #: ../plugins/fn-string/functions.c:1297 ../plugins/fn-string/functions.c:1348
- #: ../plugins/fn-string/functions.c:1634
-@@ -10703,7 +10703,7 @@
- 
- #: ../plugins/fn-string/functions.c:1343
- msgid "REPLACEB:string @{old} with up to @{num} bytes starting at @{start} replaced by @{new}"
--msgstr "REPLACEB:sträng @{gammal} med upp till @{ant} byte med början vid @{start} ersatt av @{ny}"
-+msgstr "REPLACEB:sträng @{old} med upp till @{num} byte med början vid @{start} ersatt av @{new}"
- 
- #: ../plugins/fn-string/functions.c:1346
- msgid "start:starting byte position"
-@@ -10711,7 +10711,7 @@
- 
- #: ../plugins/fn-string/functions.c:1347
- msgid "num:number of bytes to be replaced"
--msgstr "antal:antal byte att ersätta"
-+msgstr "antal:byte som ska ersättas"
- 
- #: ../plugins/fn-string/functions.c:1349
- msgid ""
-@@ -10719,11 +10719,11 @@
- "@{start}+@{num}-1 with the string @{new}."
- msgstr ""
- "REPLACEB ersätter strängen av giltiga unicode-tecken med början vid byte @{start} och med slut vid "
--"@{start}+@{ant}-1 med strängen @{ny}."
-+"@{start}+@{num}-1 med strängen @{new}."
- 
- #: ../plugins/fn-string/functions.c:1406
- msgid "T:@{value} if and only if @{value} is text, otherwise empty"
--msgstr "T:@{värde} om och endast om @{värde} är text, annars tom"
-+msgstr "T:@{value} om och endast om @{value} är text, annars tom"
- 
- #: ../plugins/fn-string/functions.c:1407
- msgid "value:original value"
-@@ -10731,7 +10731,7 @@
- 
- #: ../plugins/fn-string/functions.c:1429
- msgid "TEXT:@{value} as a string formatted as @{format}"
--msgstr "TEXT:@{värde} som en sträng formaterad @{format}"
-+msgstr "TEXT:@{value} som en sträng formaterad @{format}"
- 
- #: ../plugins/fn-string/functions.c:1430
- msgid "value:value to be formatted"
-@@ -10759,7 +10759,7 @@
- 
- #: ../plugins/fn-string/functions.c:1560
- msgid "group_separator:group separator"
--msgstr "gruppseparator:gruppseparator"
-+msgstr "gruppseparator:tecken mellan grupper"
- 
- #: ../plugins/fn-string/functions.c:1561
- msgid ""
-@@ -10771,7 +10771,7 @@
- 
- #: ../plugins/fn-string/functions.c:1631
- msgid "SUBSTITUTE:@{text} with all occurrences of @{old} replaced by @{new}"
--msgstr "SUBSTITUTE:@{text} med alla förekomster av @{gammal} ersatt av @{ny}"
-+msgstr "SUBSTITUTE:@{text} med alla förekomster av @{old} ersatt av @{new}"
- 
- #: ../plugins/fn-string/functions.c:1632 ../plugins/fn-string/functions.c:2414
- msgid "text:original text"
-@@ -10783,11 +10783,11 @@
- 
- #: ../plugins/fn-string/functions.c:1635
- msgid "num:if @{num} is specified and a number only the @{num}th occurrence of @{old} is replaced"
--msgstr "ant:om @{ant} är specificerat och är en siffra ersätts endast @{ant}:e förekomsten av @{gammal}"
-+msgstr "ant:om @{num} är specificerat och är en siffra ersätts endast @{num}:e förekomsten av @{old}"
- 
- #: ../plugins/fn-string/functions.c:1705
- msgid "TEXTBEFORE:text before @{delimiter}"
--msgstr "TEXTBEFORE:text före @{avgränsare}"
-+msgstr "TEXTBEFORE:text före @{delimiter}"
- 
- #: ../plugins/fn-string/functions.c:1707 ../plugins/fn-string/functions.c:1841
- msgid "delimiter:delimiter string or array of strings"
-@@ -10808,15 +10808,15 @@
- 
- #: ../plugins/fn-string/functions.c:1712
- msgid "TEXTBEFORE returns the text that occurs before the given @{delimiter}."
--msgstr "TEXTBEFORE returnerar texten före angiven @{avgränsare}."
-+msgstr "TEXTBEFORE returnerar texten före angiven @{delimiter}."
- 
- #: ../plugins/fn-string/functions.c:1839
- msgid "TEXTAFTER:text after @{delimiter}"
--msgstr "TEXTAFTER:text efter @{avgränsare}"
-+msgstr "TEXTAFTER:text efter @{delimiter}"
- 
- #: ../plugins/fn-string/functions.c:1846
- msgid "TEXTAFTER returns the text that occurs after the given @{delimiter}."
--msgstr "TEXTAFTER returnerar texten efter angiven @{avgränsare}."
-+msgstr "TEXTAFTER returnerar texten efter angiven @{delimiter}."
- 
- #: ../plugins/fn-string/functions.c:1905
- msgid "TEXTSPLIT:split @{text} into an array using delimiters"
-@@ -10844,7 +10844,7 @@
- 
- #: ../plugins/fn-string/functions.c:1994
- msgid "DOLLAR:@{num} formatted as currency"
--msgstr "DOLLAR:@{ant} formaterad som valuta"
-+msgstr "DOLLAR:@{num} formaterad som valuta"
- 
- #: ../plugins/fn-string/functions.c:1996
- msgid "decimals:decimals"
-@@ -10852,7 +10852,7 @@
- 
- #: ../plugins/fn-string/functions.c:2066
- msgid "SEARCH:the location of the @{search} string within @{text} after position @{start}"
--msgstr "SEARCH:platsen för strängen @{sök} i @{text} efter positionen @{start}"
-+msgstr "SEARCH:platsen för strängen @{search} i @{text} efter positionen @{start}"
- 
- #: ../plugins/fn-string/functions.c:2068 ../plugins/fn-string/functions.c:2111
- msgid "search:search string"
-@@ -10868,9 +10868,9 @@
- "single character, and a wildcard matches any string including the empty string. To search for * or ?, "
- "precede the symbol with ~."
- msgstr ""
--"@{sök} kan innehålla jokertecken (*) och frågetecken (?). Ett frågetecken matchar varje enskilt tecken "
--"och ett jokertecken matchar varje sträng inklusive den tomma strängen. För att söka efter * och ?, "
--"föregå symbolen med ~."
-+"@{search} kan innehålla jokertecken (*) och frågetecken (?). Ett frågetecken matchar varje enskilt tecken "
-+"och ett jokertecken matchar varje sträng inklusive den tomma strängen. För att söka efter de bokstavliga "
-+"symbolerna använder du ~ före symbolen."
- 
- #: ../plugins/fn-string/functions.c:2076 ../plugins/fn-string/functions.c:2119
- msgid "This search is not case sensitive."
-@@ -10878,7 +10878,7 @@
- 
- #: ../plugins/fn-string/functions.c:2077
- msgid "If @{search} is not found, SEARCH returns #VALUE!"
--msgstr "Om @{sök} inte hittas returnerar SEARCH #VÄRDE!"
-+msgstr "Om @{search} inte hittas returnerar SEARCH #VÄRDE!"
- 
- #: ../plugins/fn-string/functions.c:2078
- msgid "If @{start} is less than one or it is greater than the length of @{text}, SEARCH returns #VALUE!"
-@@ -10886,11 +10886,11 @@
- 
- #: ../plugins/fn-string/functions.c:2109
- msgid "SEARCHB:the location of the @{search} string within @{text} after byte position @{start}"
--msgstr "SEARCHB:platsen för strängen @{sök} inom @{text} efter bytepositionen @{start}"
-+msgstr "SEARCHB:platsen för strängen @{search} inom @{text} efter bytepositionen @{start}"
- 
- #: ../plugins/fn-string/functions.c:2120
- msgid "If @{search} is not found, SEARCHB returns #VALUE!"
--msgstr "Om @{sök} inte hittas returnerar SEARCHB #VÄRDE!"
-+msgstr "Om @{search} inte hittas returnerar SEARCHB #VÄRDE!"
- 
- #: ../plugins/fn-string/functions.c:2121
- msgid ""
-@@ -10995,12 +10995,12 @@
- "The @{abscissae} should be given in increasing order. If the @{abscissae} is not in increasing order "
- "the INTERPOLATION function is significantly slower."
- msgstr ""
--"@{abskissor} borde vara given i ökande ordning. Om @{abskissor} inte är i stigande ordning är "
-+"@{abscissae} borde vara given i ökande ordning. Om @{abscissae} inte är i stigande ordning är "
- "funktionen INTERPOLATION signifikant långsammare."
- 
- #: ../plugins/fn-tsa/functions.c:374
- msgid "If any two @{abscissae} values are equal an error is returned."
--msgstr "Om två @{abskissor}-värden är lika returneras ett fel."
-+msgstr "Om två @{abscissae}-värden är lika returneras ett fel."
- 
- #: ../plugins/fn-tsa/functions.c:375
- msgid ""
-@@ -11016,7 +11016,7 @@
- 
- #: ../plugins/fn-tsa/functions.c:382 ../plugins/fn-tsa/functions.c:564
- msgid "Strings and empty cells in @{abscissae} and @{ordinates} are ignored."
--msgstr "Strängar och tomma celler i @{abskissor} och @{ordinator} ignoreras."
-+msgstr "Strängar och tomma celler i @{abscissae} och @{ordinates} ignoreras."
- 
- #: ../plugins/fn-tsa/functions.c:383 ../plugins/fn-tsa/functions.c:565
- msgid "If several target data are provided they must be in the same column in consecutive cells."
-@@ -11044,7 +11044,7 @@
- 
- #: ../plugins/fn-tsa/functions.c:555
- msgid "number:number of interpolated data points"
--msgstr "antal:antal interpolerade datapunkter"
-+msgstr "antal:interpolerade datapunkter"
- 
- #: ../plugins/fn-tsa/functions.c:556
- msgid ""
-@@ -11095,20 +11095,20 @@
- "The output consists of one column of complex numbers if @{Separate} is false and of two columns of real "
- "numbers if @{Separate} is true."
- msgstr ""
--"Utdata består av en kolumn av komplexa tal om @{Separat} är falskt och av två kolumner av reella tal om "
--"@{Separat} är sant."
-+"Utdata består av en kolumn av komplexa tal om @{Separate} är falskt och av två kolumner av reella tal om "
-+"@{Separate} är sant."
- 
- #: ../plugins/fn-tsa/functions.c:814
- msgid ""
- "If @{Separate} is true the first output column contains the real parts and the second column the "
- "imaginary parts."
- msgstr ""
--"Om @{Separat} är sant kommer den första utdatakolumnen innehålla den reella delen och den andra delen "
-+"Om @{Separate} är sant kommer den första utdatakolumnen innehålla den reella delen och den andra delen "
- "de imaginära delarna."
- 
- #: ../plugins/fn-tsa/functions.c:815 ../plugins/fn-tsa/functions.c:909
- msgid "If @{Sequence} is neither an n by 1 nor 1 by n array, this function returns #VALUE!"
--msgstr "Om @{Sekvens} varken är en n×1- eller 1×n-vektor returnerar denna funktion #VÄRDE!"
-+msgstr "Om @{Sequence} varken är en n×1- eller 1×n-vektor returnerar denna funktion #VÄRDE!"
- 
- #: ../plugins/fn-tsa/functions.c:904
- msgid "HPFILTER:Hodrick Prescott Filter"
-@@ -11136,7 +11136,7 @@
- 
- #: ../plugins/fn-tsa/functions.c:910
- msgid "If @{Sequence} contains less than 6 numerical values, this function returns #VALUE!"
--msgstr "Om @{Sekvens} innehåller mindre än 6 numeriska värden returnerar denna funktion #VÄRDE!"
-+msgstr "Om @{Sequence} innehåller mindre än 6 numeriska värden returnerar denna funktion #VÄRDE!"
- 
- #: ../plugins/gda/plugin-gda.c:372
- msgid "EXECSQL:result of executing @{sql} in the libgda data source @{dsn}"
-@@ -11148,11 +11148,11 @@
- 
- #: ../plugins/gda/plugin-gda.c:375 ../plugins/gda/plugin-gda.c:451
- msgid "username:user name to access @{dsn}"
--msgstr "användarnamn:användarnamn för att komma åt @{dsn}"
-+msgstr "användarnamn:namn för åtkomst till @{dsn}"
- 
- #: ../plugins/gda/plugin-gda.c:376 ../plugins/gda/plugin-gda.c:452
- msgid "password:password to access @{dsn} as @{username}"
--msgstr "lösenord:lösenord för att komma åt @{dsn} som @{användarnamn}"
-+msgstr "lösenord:lösenord för att komma åt @{dsn} som @{username}"
- 
- #: ../plugins/gda/plugin-gda.c:377
- msgid "sql:SQL command"
-@@ -11164,7 +11164,7 @@
- 
- #: ../plugins/gda/plugin-gda.c:449
- msgid "READDBTABLE:all rows of the table @{table} in @{dsn}"
--msgstr "READDBTABLE:alla rader för tabellen @{tabell} i @{dsn}"
-+msgstr "READDBTABLE:alla rader för tabellen @{table} i @{dsn}"
- 
- #: ../plugins/gda/plugin-gda.c:453
- msgid "table:SQL table to retrieve"
+-"Om @{alfa} < 0 eller @{alfa} > 1 returnerar denna funktion ett #NUM!-fel."
++"Om @{alfa} <= 0 eller @{alfa} >= 1 returnerar denna funktion ett #NUM!-fel."
+
+ #: ../plugins/fn-stat/functions.c:1935 ../plugins/fn-stat/functions.c:1971
+ msgid "If @{size} is non-integer it is truncated."
