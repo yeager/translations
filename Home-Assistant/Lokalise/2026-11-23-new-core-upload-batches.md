@@ -224,3 +224,12 @@ engelska, trots 604 svenska motsvarigheter för samma fel. Det översattes till
 `Oväntat fel`, sparades och lästes tillbaka via Lokalise API.
 TMX-posten ersattes med den verifierade liveöversättningen; valideringen
 fortsatte att godkänna 4 081 poster.
+
+## Autentisering har upphört att gälla
+
+Ephember, Livisi, Foreca och PAJ GPS hade samma oöversatta rubrik
+`Authentication expired for {name}`. Samtliga normaliserades till
+`Autentiseringen för {name} har upphört att gälla`; platshållaren bevarades,
+värdena sparades och lästes tillbaka via Lokalise API. Fyra befintliga
+TMX-poster ersattes med verifierade livevärden; TMX-valideringen godkände
+fortsatt 4 081 poster.
