@@ -8,6 +8,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | showtime | main | po | 3 |
 | polkit | main | po | 1 |
 | libgovirt | master | po | 1 |
+| libpanel | main | po | `Granskad och allt ser bra ut` |
 | decoder | master | po | 1 |
 | PipeWire | master | po | 4 |
 | realmd | master | po | 28 |
