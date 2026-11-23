@@ -55,6 +55,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | gnumeric | master | po | 56 |
 | gnumeric | master | po-functions | 51 |
 | whisp | main | po | 19 |
+| gitg | master | po | 62 |
 
 ## Kompletta granskningar utan ändrade översättningssträngar
 
