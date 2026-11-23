@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:17 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:19 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -187,7 +187,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [aisleriot](https://l10n.gnome.org/vertimus/aisleriot/master/po/sv/) | master | 670 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [aisleriot](https://l10n.gnome.org/vertimus/aisleriot/master/help/sv/) | master | 930 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [almanah](https://l10n.gnome.org/vertimus/almanah/master/po/sv/) | master | 141 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [amberol](https://l10n.gnome.org/vertimus/amberol/main/po/sv/) | main | 105 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [amberol](https://l10n.gnome.org/vertimus/amberol/main/po/sv/) | main | 105 | 0 | 0 | Klar | X | 5 | Klar lokalt (2026-11-23): Hela 105-strängarskatalogen är radgranskad mot senaste POT. Fem befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt och msgcmp är felfria; l10n-lint saknar fel och varningar. Ingen GNOME-inskickning har gjorts. [original](amberol/main/po/amberol.main.sv.original.po), [granskad](amberol/main/po/amberol.main.sv.reviewed.po), [diff](amberol/main/po/amberol.main.sv.review.diff), [notering](amberol/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [apostrophe](https://l10n.gnome.org/vertimus/apostrophe/main/po/sv/) | main | 245 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [apps.for.gnome — Apps for GNOME](https://l10n.gnome.org/vertimus/apps-for-gnome/main/po/sv/) | main | 69 | 0 | 0 | Klar |  | — | Blockerad (2026-11-23): Damned Lies visar 69 översatta strängar men dess annonserade svenska PO-fil /POT/apps.for.gnome.main/apps.for.gnome.main.sv.po returnerar HTTP 404. Ingen aktuell svensk fil kan därför hämtas, jämföras mot POT eller radgranskas. |
 | Gränssnitt | Default (99% translated) | [appstream](https://l10n.gnome.org/vertimus/appstream/main/po/sv/) | main | 893 | 0 | 0 | Klar |  | — | Ej granskad |
