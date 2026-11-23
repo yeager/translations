@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 23:10 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 23:13 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -478,7 +478,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [help.gnome.org — GNOME Help](https://l10n.gnome.org/vertimus/help-gnome-org/master/po/sv/) | master | 32 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [hieroglyphic — Find LaTeX symbols](https://l10n.gnome.org/vertimus/hieroglyphic/main/po/sv/) | main | 28 | 0 | 0 | Klar | X | 2 | Klar lokalt (2026-11-23): Hela 28-strängarskatalogen är radgranskad mot senaste POT. Två befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](hieroglyphic/main/po/hieroglyphic.main.sv.original.po), [granskad](hieroglyphic/main/po/hieroglyphic.main.sv.reviewed.po), [diff](hieroglyphic/main/po/hieroglyphic.main.sv.review.diff), [notering](hieroglyphic/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [hitori](https://l10n.gnome.org/vertimus/hitori/main/po/sv/) | main | 61 | 0 | 0 | Klar |  | — | Ej granskad |
-| Dokumentation | Default (71% translated) | [hitori](https://l10n.gnome.org/vertimus/hitori/main/help/sv/) | main | 43 | 0 | 0 | Klar |  | — | Ej granskad |
+| Dokumentation | Default (71% translated) | [hitori](https://l10n.gnome.org/vertimus/hitori/main/help/sv/) | main | 43 | 0 | 0 | Klar | X | 3 | Klar lokalt (2026-11-24): Hela 43-strängarskatalogen är radgranskad mot senaste POT. Tre befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt och msgcmp är godkända. l10n-lint saknar fel och varningar; markupnotiserna är information. Ingen GNOME-inskickning har gjorts. [original](hitori/main/help/hitori.main.help.sv.original.po), [granskad](hitori/main/help/hitori.main.help.sv.reviewed.po), [diff](hitori/main/help/hitori.main.help.sv.review.diff), [notering](hitori/main/help/README.md) |
 | Gränssnitt | Default (99% translated) | [iagno](https://l10n.gnome.org/vertimus/iagno/main/po/sv/) | main | 138 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [iagno](https://l10n.gnome.org/vertimus/iagno/main/help/sv/) | main | 226 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [icon-library](https://l10n.gnome.org/vertimus/icon-library/master/po/sv/) | master | 59 | 0 | 0 | Klar |  | — | Ej granskad |
