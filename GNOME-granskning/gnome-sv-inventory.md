@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 05:18 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 05:50 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -71,7 +71,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/filters~blur/sv/) | gimp-help-2-10 | 8 | 33 | 244 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/glossary/sv/) | gimp-help-3-0 | 90 | 22 | 237 | Behöver arbete | Klar lokalt (2026-11-23): Glossary är lokalt komplett och fuzzy-fri; ingen GNOME-inskickning har gjorts. [original](gimp-help/gimp-help-3-0/gimp-help.gimp-help-3-0.glossary.sv.original.po), [granskad](gimp-help/gimp-help-3-0/gimp-help.gimp-help-3-0.glossary.sv.reviewed.po), [diff](gimp-help/gimp-help-3-0/gimp-help.gimp-help-3-0.glossary.sv.review.diff), [notering](gimp-help/gimp-help-3-0/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/menus~select/sv/) | gimp-help-3-0 | 13 | 23 | 235 | Behöver arbete | Ej granskad |
-| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/glossary/sv/) | gimp-help-2-10 | 93 | 19 | 233 | Behöver arbete | Ej granskad |
+| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/glossary/sv/) | gimp-help-2-10 | 93 | 19 | 233 | Behöver arbete | Klar lokalt (2026-11-23): Glossary är lokalt komplett och fuzzy-fri; ingen GNOME-inskickning har gjorts. [original](gimp-help/gimp-help-2-10/gimp-help.gimp-help-2-10.glossary.sv.original.po), [granskad](gimp-help/gimp-help-2-10/gimp-help.gimp-help-2-10.glossary.sv.reviewed.po), [diff](gimp-help/gimp-help-2-10/gimp-help.gimp-help-2-10.glossary.sv.review.diff), [notering](gimp-help/gimp-help-2-10/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/menus~select/sv/) | gimp-help-2-10 | 15 | 20 | 220 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/filters~decor/sv/) | gimp-help-2-10 | 15 | 60 | 217 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/filters~decor/sv/) | gimp-help-3-0 | 14 | 60 | 216 | Behöver arbete | Ej granskad |
