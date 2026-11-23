@@ -33,6 +33,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | vte | master | po | 1 |
 | AudioSharing | main | po | 2 |
 | gnome-directory-thumbnailer | master | po | 2 |
+| office-runner | main | po | 7 |
 | plymouth | main | po | 1 |
 | totem-pl-parser | master | po | 1 |
 | template-glib | main | po | 3 |
