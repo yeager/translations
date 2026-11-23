@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 18:54 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 18:58 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -615,7 +615,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [xdg-desktop-portal](https://l10n.gnome.org/vertimus/xdg-desktop-portal/main/po/sv/) | main | 50 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [xdg-desktop-portal-gnome](https://l10n.gnome.org/vertimus/xdg-desktop-portal-gnome/main/po/sv/) | main | 74 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [xdg-desktop-portal-gnome](https://l10n.gnome.org/vertimus/xdg-desktop-portal-gnome/gnome-50/po/sv/) | gnome-50 | 74 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [xdg-desktop-portal-gtk](https://l10n.gnome.org/vertimus/xdg-desktop-portal-gtk/main/po/sv/) | main | 34 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [xdg-desktop-portal-gtk](https://l10n.gnome.org/vertimus/xdg-desktop-portal-gtk/main/po/sv/) | main | 34 | 0 | 0 | Klar | X | 6 | Klar lokalt (2026-11-23): Aktuell 34-strängarskatalog: sex befintliga kvalitetsbrister är rättade, inklusive personuppgiftsterminologi och en nordisk accelerator. msgfmt, msgcmp och l10n-lint är felfria. Inskickad till DL 2026-11-23 med kommentaren ”Granskad och klar”. [original](xdg-desktop-portal-gtk/main/po/xdg-desktop-portal-gtk.main.sv.original.po), [granskad](xdg-desktop-portal-gtk/main/po/xdg-desktop-portal-gtk.main.sv.reviewed.po), [diff](xdg-desktop-portal-gtk/main/po/xdg-desktop-portal-gtk.main.sv.review.diff), [notering](xdg-desktop-portal-gtk/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [xdg-user-dirs](https://l10n.gnome.org/vertimus/xdg-user-dirs/master/po/sv/) | master | 28 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [xdg-user-dirs-gtk](https://l10n.gnome.org/vertimus/xdg-user-dirs-gtk/master/po/sv/) | master | 11 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [yelp](https://l10n.gnome.org/vertimus/yelp/master/po/sv/) | master | 83 | 0 | 0 | Klar |  | — | Ej granskad |
