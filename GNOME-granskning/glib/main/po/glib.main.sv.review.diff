@@ -6,83 +6,85 @@
  "POT-Creation-Date: 2026-11-20 14:32+0000\n"
 -"PO-Revision-Date: 2026-08-23 15:09+0200\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"PO-Revision-Date: 2026-11-23 13:00+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
  "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
  "Language: sv\n"
  "MIME-Version: 1.0\n"
-@@ -615,6 +615,8 @@
+@@ -614,7 +614,7 @@
+ msgid ""
  "Cannot use the directory “%s” (remove it, or set "
  "G_DBUS_COOKIE_SHA1_KEYRING_DIR_IGNORE_PERMISSION to use it anyway): "
- msgstr ""
-+"Kan inte använda katalogen ”%s” (ta bort den eller sätt "
-+"G_DBUS_COOKIE_SHA1_KEYRING_DIR_IGNORE_PERMISSION för att ändå använda den): "
+-msgstr ""
++msgstr "Kan inte använda katalogen ”%s” (ta bort den eller ange G_DBUS_COOKIE_SHA1_KEYRING_DIR_IGNORE_PERMISSION för att använda den ändå): "
  
  #: gio/gdbusauthmechanismsha1.c:421
  #, c-format
-@@ -1372,12 +1374,8 @@
+@@ -1372,14 +1372,11 @@
  msgstr "Programmet ”%s” hittades inte i $PATH"
  
  #: gio/gdesktopappinfo.c:4568
 -#, fuzzy
--#| msgid ""
--#| "Error accessing D-Bus keyring: keyring-based authentication is not "
--#| "supported when running as setuid"
+ #| msgid ""
+ #| "Error accessing D-Bus keyring: keyring-based authentication is not "
+ #| "supported when running as setuid"
  msgid "Saving application information is not supported when running as setuid"
 -msgstr ""
-+msgstr "Spara programinformation stöds inte vid körning som setuid"
- "Fel vid åtkomst av D-Bus-nyckelring: nyckelringsbaserad autentisering stöds "
- "inte vid körning som setuid"
+-"Fel vid åtkomst av D-Bus-nyckelring: nyckelringsbaserad autentisering stöds "
+-"inte vid körning som setuid"
++msgstr "Det går inte att spara programinformation vid körning som setuid"
  
-@@ -1396,10 +1394,8 @@
+ #: gio/gdesktopappinfo.c:4601
+ #, c-format
+@@ -1396,10 +1393,9 @@
  msgstr "MIME-programinformation är för lång"
  
  #: gio/gdesktopappinfo.c:5025
 -#, fuzzy
--#| msgid "MIME apps information is too long"
+ #| msgid "MIME apps information is too long"
  msgid "Intent apps information is too long"
 -msgstr "MIME-programinformation är för lång"
-+msgstr "Intent-programinformationen är för lång"
++msgstr "Informationen om Intent-program är för lång"
  
  #: gio/gdesktopappinfo.c:5322
  #, c-format
-@@ -2261,10 +2257,8 @@
+@@ -2261,10 +2257,9 @@
  msgstr "Använd en anonym användare vid autentisering"
  
  #: gio/gio-tool-mount.c:74
 -#, fuzzy
--#| msgid "Mount as mountable"
+ #| msgid "Mount as mountable"
  msgid "Mount read-only"
 -msgstr "Montera som monteringsbar"
-+msgstr "Montera skrivskyddad"
++msgstr "Montera skrivskyddat"
  
  #. Translator: List here is a verb as in 'List all mounts'
  #: gio/gio-tool-mount.c:76
-@@ -2536,9 +2530,8 @@
+@@ -2536,9 +2531,8 @@
  "Note: for --restore switch, if the original location of the trashed file \n"
  "already exists, it will not be overwritten unless --force is set."
  msgstr ""
 -"Observera: för flaggan --restore kommer den ursprungliga platsen för filen\n"
 -"i papperskorgen inte skrivas över om den redan existerar, om inte --force\n"
 -"ställs in."
-+"Observera: för flaggan --restore: om filens ursprungliga plats i papperskorgen \n"
-+"redan finns skrivs den inte över, om inte --force anges."
++"Observera: för växeln --restore skrivs filens ursprungliga plats\n"
++"i papperskorgen inte över om den redan finns, såvida inte --force anges."
  
  #: gio/gio-tool-trash.c:340
  msgid "Location given doesn't start with trash:///"
-@@ -4273,10 +4266,8 @@
+@@ -4273,10 +4267,9 @@
  msgstr "Tillagt uttag är stängt"
  
  #: gio/gsocks4aproxy.c:118 gio/gsocks5proxy.c:302
 -#, fuzzy, c-format
--#| msgid "Invalid IPv6 address ‘%.*s’ in URI"
+ #| msgid "Invalid IPv6 address ‘%.*s’ in URI"
  msgid "Invalid IP address “%s”"
 -msgstr "Ogiltig IPv6-adress ”%.*s” i URI"
 +msgstr "Ogiltig IP-adress ”%s”"
  
  #: gio/gsocks4aproxy.c:127
  #, c-format
-@@ -4601,36 +4592,28 @@
+@@ -4601,88 +4594,81 @@
  #: gio/gwin32security.c:74
  #, c-format
  msgid "%s failed: %s"
@@ -91,21 +93,21 @@
  
  #: gio/gwin32security.c:96 gio/gwin32security.c:353
 -#, fuzzy, c-format
--#| msgid "The URI “%s” is invalid"
+ #| msgid "The URI “%s” is invalid"
  msgid "The name “%s” is not valid"
 -msgstr "URI:n ”%s” är ogiltig"
 +msgstr "Namnet ”%s” är inte giltigt"
  
  #: gio/gwin32security.c:123
 -#, fuzzy, c-format
--#| msgid "“%s” is not a valid name"
+ #| msgid "“%s” is not a valid name"
  msgid "“%s” is not a plain directory"
 -msgstr "”%s” är inte ett giltigt namn"
 +msgstr "”%s” är inte en vanlig katalog"
  
  #: gio/gwin32security.c:123
 -#, fuzzy, c-format
--#| msgid "“%s” is not a valid name"
+ #| msgid "“%s” is not a valid name"
  msgid "“%s” is not a plain file"
 -msgstr "”%s” är inte ett giltigt namn"
 +msgstr "”%s” är inte en vanlig fil"
@@ -118,25 +120,24 @@
  
  #: gio/gwin32security.c:171
 -#, fuzzy, c-format
--#| msgid "The string “%s” is not a valid D-Bus GUID"
+ #| msgid "The string “%s” is not a valid D-Bus GUID"
  msgid "The access rights of “%s” are not valid"
 -msgstr "Strängen ”%s” är inte ett giltigt D-Bus GUID"
 +msgstr "Åtkomsträttigheterna för ”%s” är inte giltiga"
  
  #: gio/gwin32security.c:196
  #, c-format
-@@ -4638,21 +4621,23 @@
+ msgid ""
  "The access rights of “%s” have an entry of the type %d, which is not "
  "supported"
- msgstr ""
-+"Åtkomsträttigheterna för ”%s” innehåller en post av typen %d, som inte "
-+"stöds"
+-msgstr ""
++msgstr "Åtkomsträttigheterna för ”%s” har en post av typen %d, som inte stöds"
  
  #: gio/gwin32security.c:206
  #, c-format
  msgid "The access rights of “%s” have an entry that is not valid"
 -msgstr ""
-+msgstr "Åtkomsträttigheterna för ”%s” innehåller en post som inte är giltig"
++msgstr "Åtkomsträttigheterna för ”%s” har en post som inte är giltig"
  
  #: gio/gwin32security.c:227
  #, c-format
@@ -152,12 +153,11 @@
  
  #: gio/gwin32security.c:262
  #, c-format
-@@ -4660,29 +4645,25 @@
+ msgid ""
  "The volume of “%s” cannot be shown to keep access rights, so nothing on it "
  "is private"
- msgstr ""
-+"Volymen ”%s” kan inte visas för att bevara åtkomsträttigheterna, så inget "
-+"på den är privat"
+-msgstr ""
++msgstr "Volymen ”%s” kan inte visas och samtidigt behålla åtkomsträttigheterna, så inget på den är privat"
  
  #: gio/gwin32security.c:287
  #, c-format
@@ -167,33 +167,33 @@
  
  #: gio/gwin32security.c:374
 -#, fuzzy, c-format
--#| msgid "File “%s” is too large"
+ #| msgid "File “%s” is too large"
  msgid "“%s” exists already"
 -msgstr "Filen ”%s” är för stor"
 +msgstr "”%s” finns redan"
  
  #: gio/gwin32security.c:530
 -#, fuzzy, c-format
--#| msgid "Cannot parse integer value “%s” for %s"
+ #| msgid "Cannot parse integer value “%s” for %s"
  msgid "Cannot use the file “%s”"
 -msgstr "Kan inte tolka heltalsvärdet ”%s” för %s"
 +msgstr "Kan inte använda filen ”%s”"
  
  #: gio/gwin32security.c:602
 -#, fuzzy, c-format
--#| msgid "Error writing nonce file at “%s”: %s"
+ #| msgid "Error writing nonce file at “%s”: %s"
  msgid "Error writing to file “%s”: %s"
 -msgstr "Fel vid skrivning av nonce-fil i ”%s”: %s"
 +msgstr "Fel vid skrivning till filen ”%s”: %s"
  
  #: gio/gzlibcompressor.c:502 gio/gzlibdecompressor.c:341
  msgid "Not enough memory"
-@@ -5630,10 +5611,8 @@
+@@ -5630,10 +5616,9 @@
  msgstr "Värdet ”%s” kan inte tolkas som ett booleskt värde."
  
  #: glib/gkeyfile.c:5141
 -#, fuzzy
--#| msgid "Key file contains escape character at end of line"
+ #| msgid "Key file contains escape character at end of line"
  msgid "Key file contents are too long"
 -msgstr "Nyckelfilen innehåller kontrolltecken i slutet på en rad"
 +msgstr "Nyckelfilens innehåll är för långt"
