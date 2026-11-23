@@ -149,6 +149,14 @@ normaliserades till den etablerade, kortare UI-termen `Grundinställningar`,
 sparades och lästes tillbaka via Lokalise API. TMX-valideringen godkände
 därefter 4 069 poster.
 
+## Batterireserv
+
+Powerwall-, Tesla Fleet-, Teslemetry- och Tessie-entiteterna hade den
+engelskinfluerade formen `Backup reserv` för `Backup reserve`. De
+normaliserades till `Reserv för reservkraft` i linje med SolarEdge-posten,
+sparades och lästes tillbaka via Lokalise API. TMX-valideringen godkände
+därefter 4 073 poster.
+
 ## Ljudhändelse: bebisgråt
 
 Sleep as Androids ljudhändelse `Baby crying` använde `Bäbis ledsen`, medan
