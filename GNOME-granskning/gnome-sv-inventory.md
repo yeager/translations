@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 18:52 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 18:54 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -144,7 +144,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [PulseAudio](https://l10n.gnome.org/vertimus/pulseaudio/master/po/sv/) | master | 572 | 2 | 0 | Behöver arbete |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/gimp/sv/) | master | 382 | 1 | 0 | Behöver arbete | X | 1 | Klar lokalt (2026-11-23): 383 aktiva strängar, 0 oöversatta och 0 fuzzy. GIMP-akronymens svenska förklaring har rättad markup; validerad utan lint-fel. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/gimp/gimp-help.master.gimp.sv.original.po), [granskad](gimp-help/master/gimp/gimp-help.master.gimp.sv.reviewed.po), [diff](gimp-help/master/gimp/gimp-help.master.gimp.sv.review.diff), [notering](gimp-help/master/gimp/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-terminal](https://l10n.gnome.org/vertimus/gnome-terminal/gnome-50/po/sv/) | gnome-50 | 532 | 1 | 0 | Behöver arbete |  | — | Ej granskad |
-| Dokumentation | Default (71% translated) | [gnome-text-editor](https://l10n.gnome.org/vertimus/gnome-text-editor/main/help/sv/) | main | 64 | 1 | 0 | Behöver arbete |  | — | Ej granskad |
+| Dokumentation | Default (71% translated) | [gnome-text-editor](https://l10n.gnome.org/vertimus/gnome-text-editor/main/help/sv/) | main | 64 | 1 | 0 | Behöver arbete | X | 1 | Klar lokalt (2026-11-23): Aktuell 65-strängarskatalog: en källidentisk MD5-bildmetadata är synkroniserad; ingen användarvisad svensk text ändrades. msgfmt, msgcmp och l10n-lint är felfria. Skickas in till DL med kommentaren ”Granskad och allt ser bra ut”. [original](gnome-text-editor/main/help/gnome-text-editor.main.help.sv.original.po), [granskad](gnome-text-editor/main/help/gnome-text-editor.main.help.sv.reviewed.po), [diff](gnome-text-editor/main/help/gnome-text-editor.main.help.sv.review.diff), [notering](gnome-text-editor/main/help/README.md) |
 | Gränssnitt | Default (99% translated) | [webkit — WebKitGTK](https://l10n.gnome.org/vertimus/webkit/main/po/sv/) | main | 516 | 1 | 0 | Behöver arbete |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [accerciser](https://l10n.gnome.org/vertimus/accerciser/master/po/sv/) | master | 255 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [accerciser](https://l10n.gnome.org/vertimus/accerciser/master/help/sv/) | master | 207 | 0 | 0 | Klar |  | — | Ej granskad |
