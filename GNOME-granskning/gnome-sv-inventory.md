@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 00:58 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 01:13 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -51,7 +51,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/filters~artistic/sv/) | gimp-help-2-10 | 31 | 83 | 414 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/toolbox/sv/) | master | 28 | 42 | 408 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/filters~map/sv/) | gimp-help-2-10 | 16 | 47 | 395 | Behöver arbete | Ej granskad |
-| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters~artistic/sv/) | master | 26 | 69 | 376 | Behöver arbete | Ej granskad |
+| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters~artistic/sv/) | master | 26 | 69 | 376 | Behöver arbete | Klar lokalt (2026-11-23): Samtliga 367 poster i de konstnärliga filtren är lokalt översatta och fuzzy-fria. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/filters~artistic/gimp-help.master.filters-artistic.sv.original.po), [granskad](gimp-help/master/filters~artistic/gimp-help.master.filters-artistic.sv.reviewed.po), [diff](gimp-help/master/filters~artistic/gimp-help.master.filters-artistic.sv.review.diff), [notering](gimp-help/master/filters~artistic/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/filters~artistic/sv/) | gimp-help-3-0 | 27 | 69 | 376 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/toolbox/sv/) | gimp-help-3-0 | 33 | 41 | 374 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [libgda](https://l10n.gnome.org/vertimus/libgda/LIBGDA_5.2/browser-help/sv/) | LIBGDA_5.2 | 0 | 0 | 330 | Behöver arbete | Ej granskad |

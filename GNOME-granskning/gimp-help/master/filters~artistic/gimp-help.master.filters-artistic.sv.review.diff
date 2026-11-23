@@ -1,0 +1,1925 @@
+--- gimp-help.master.filters-artistic.sv.original.po
++++ gimp-help.master.filters-artistic.sv.reviewed.po
+@@ -2,9 +2,10 @@
+ msgstr ""
+ "Project-Id-Version: artistic\n"
+ "POT-Creation-Date: 2009-04-21 13:33+0200\n"
+-"PO-Revision-Date: 2009-02-17 03:29+0100\n"
+-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
++"PO-Revision-Date: 2026-11-23 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"Language: sv\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+@@ -151,7 +152,7 @@
+ #: src/filters/artistic/cartoon.xml:24(secondary)
+ #: src/filters/artistic/applycanvas.xml:17(secondary)
+ msgid "Artistic"
+-msgstr ""
++msgstr "Konstnärligt"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:20(tertiary)
+ msgid "Van Gogh"
+@@ -173,7 +174,7 @@
+ 
+ #: src/filters/artistic/vangogh-lic.xml:31(phrase)
+ msgid "From left to right: original image, map, resulting image"
+-msgstr ""
++msgstr "Från vänster till höger: ursprunglig bild, karta, resulterande bild"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:40(para)
+ msgid ""
+@@ -181,7 +182,7 @@
+ "white area. One can see, on the resulting image, that image zones "
+ "corresponding to solid areas of the map, are not blurred. Only the image "
+ "zone corresponding to the gradient area of the map is blurred."
+-msgstr ""
++msgstr "Kartan har tre ränder: ett helsvart område, ett område med lodrät toning och ett helvitt område. I den resulterande bilden syns att de bildområden som motsvarar kartans helfärgade områden inte är oskarpa. Endast bildområdet som motsvarar kartans tonade område är oskarpt."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:50(para)
+ msgid ""
+@@ -190,7 +191,7 @@
+ "This filter is used to apply a directional blur to an image, or to create "
+ "textures. It could be called <quote>Astigmatism</quote> as it blurs certain "
+ "directions in the image."
+-msgstr ""
++msgstr "<quote>LIC</quote> står för Line Integral Convolution, en matematisk metod. Insticksmodulens upphovsperson använder matematiska termer för att namnge alternativen … Filtret används för att tillämpa riktad oskärpa på en bild eller för att skapa texturer. Det skulle kunna kallas <quote>Astigmatism</quote>, eftersom det gör vissa riktningar i bilden oskarpa."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:57(para)
+ msgid ""
+@@ -198,7 +199,7 @@
+ "of this blur map. <emphasis>Filter takes in account only gradient direction"
+ "(s)</emphasis>. Image pixels corresponding to solid areas of the map are "
+ "ignored."
+-msgstr ""
++msgstr "Det använder en oskärpekarta. Till skillnad från andra kartor använder detta filter inte oskärpekartans gråskalor. <emphasis>Filtret tar endast hänsyn till toningsriktning(ar)</emphasis>. Bildpixlar som motsvarar kartans helfärgade områden ignoreras."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:66(phrase)
+ #: src/filters/artistic/predator.xml:73(phrase)
+@@ -215,7 +216,7 @@
+ "You can find this filter through <menuchoice><guimenu>Filters</"
+ "guimenu><guisubmenu>Artistic</guisubmenu><guimenuitem>Van Gogh (LIC)</"
+ "guimenuitem></menuchoice>."
+-msgstr ""
++msgstr "Du hittar filtret via <menuchoice><guimenu>Filter</guimenu><guisubmenu>Konstnärligt</guisubmenu><guimenuitem>Van Gogh (LIC)</guimenuitem></menuchoice>."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:75(phrase)
+ #: src/filters/artistic/softglow.xml:64(phrase)
+@@ -235,45 +236,45 @@
+ #: src/filters/artistic/cubism.xml:85(phrase)
+ #: src/filters/artistic/cartoon.xml:79(phrase)
+ msgid "<placeholder-1/> filter options"
+-msgstr ""
++msgstr "Filteralternativ för <placeholder-1/>"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:91(para)
+ msgid ""
+ "To create a blur, check <guilabel>With Source Image</guilabel>. Only Filter "
+ "Length slider and perhaps Integration Steps slider, are useful."
+-msgstr ""
++msgstr "Markera <guilabel>Med källbild</guilabel> för att skapa oskärpa. Endast reglagen Filterlängd och eventuellt Integreringssteg är användbara."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:98(para)
+ msgid ""
+ "To create a texture, check <guilabel>With White Noise</guilabel>. All "
+ "sliders can be useful."
+-msgstr ""
++msgstr "Markera <guilabel>Med vitt brus</guilabel> för att skapa en textur. Alla reglage kan vara användbara."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:108(phrase)
+ msgid "Convolution"
+-msgstr ""
++msgstr "Konvolution"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:111(para)
+ msgid ""
+ "You can use two types of convolution. That's the first parameter you have to "
+ "set:"
+-msgstr ""
++msgstr "Du kan använda två typer av konvolution. Det är den första parametern du ska ställa in:"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:117(para)
+ msgid ""
+ "<guilabel>With White Noise</guilabel>: White Noise is an acoustics name. "
+ "It's a noise where all frequencies have the same amplitude. Here, this "
+ "option is used to create patterns."
+-msgstr ""
++msgstr "<guilabel>Med vitt brus</guilabel>: Vitt brus är en akustisk term. Det är ett brus där alla frekvenser har samma amplitud. Här används alternativet för att skapa mönster."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:124(para)
+ msgid ""
+ "<guilabel>With Source Image</guilabel>: The source image will be blurred."
+-msgstr ""
++msgstr "<guilabel>Med källbild</guilabel>: Källbilden blir oskarp."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:133(phrase)
+ msgid "Effect Image"
+-msgstr ""
++msgstr "Effektbild"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:136(para)
+ msgid ""
+@@ -281,19 +282,19 @@
+ "dimensions as the original image. It must be preferably a grayscale image. "
+ "It must be present on your screen when you call filter so that you can "
+ "choose it in the drop-list."
+-msgstr ""
++msgstr "Detta är kartan för oskärpe- eller mönsterriktningen. Kartan måste ha samma dimensioner som den ursprungliga bilden. Den bör helst vara en gråskalebild. Den måste visas på skärmen när du anropar filtret, så att du kan välja den i listrutan."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:144(phrase)
+ msgid "Blurring with vertical gradient map"
+-msgstr ""
++msgstr "Oskärpa med lodrät toningskarta"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:151(para)
+ msgid "With a vertical gradient map, vertical lines are blurred."
+-msgstr ""
++msgstr "Med en lodrät toningskarta blir lodräta linjer oskarpa."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:159(phrase)
+ msgid "Blurring with a square gradient map"
+-msgstr ""
++msgstr "Oskärpa med kvadratisk toningskarta"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:166(para)
+ msgid ""
+@@ -301,135 +302,135 @@
+ "its own gradient direction. In every area of the image corresponding to "
+ "gradient triangles, only lines with the same direction as gradient are "
+ "blurred."
+-msgstr ""
++msgstr "Toningskartan är indelad i fyra toningstrianglar, var och en med sin egen toningsriktning. I varje bildområde som motsvarar en toningstriangel blir endast linjer i samma riktning som toningen oskarpa."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:177(phrase)
+ msgid "Texture example"
+-msgstr ""
++msgstr "Exempel på textur"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:184(para)
+ msgid ""
+ "The <quote>With white noise</quote> option is checked. Others are default. "
+ "With a vertical gradient map, texture <quote>fibres</quote> are going "
+ "horizontally."
+-msgstr ""
++msgstr "Alternativet <quote>Med vitt brus</quote> är markerat. Övriga alternativ har standardvärden. Med en lodrät toningskarta löper texturens <quote>fibrer</quote> vågrätt."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:197(phrase)
+ msgid "Effect Channel"
+-msgstr ""
++msgstr "Effektkanal"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:200(para)
+ msgid ""
+ "By selecting <guilabel>Hue</guilabel>, <guilabel>Saturation </guilabel> or "
+ "<guilabel>Brightness (=Value)</guilabel>, filter will use this channel to "
+ "treat image."
+-msgstr ""
++msgstr "Genom att välja <guilabel>Nyans</guilabel>, <guilabel>Mättnad</guilabel> eller <guilabel>Ljusstyrka (= värde)</guilabel> använder filtret den kanalen för att bearbeta bilden."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:209(phrase)
+ msgid "Effect Operator"
+-msgstr ""
++msgstr "Effektoperator"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:212(para)
+ msgid ""
+ "The <quote>Derivative</quote> option reverses <quote>Gradient </quote> "
+ "direction:"
+-msgstr ""
++msgstr "Alternativet <quote>Derivata</quote> vänder riktningen för <quote>Toning</quote>:"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:218(phrase)
+ msgid "Derivative option example"
+-msgstr ""
++msgstr "Exempel på alternativet Derivata"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:225(para)
+ msgid ""
+ "Using a square gradient map, Effect operator is on <quote>Gradient</quote> "
+ "on the left, on <quote>Derivative</quote> on the right: what was sharp is "
+ "blurred and conversely."
+-msgstr ""
++msgstr "Med en kvadratisk toningskarta är effektoperatorn <quote>Toning</quote> till vänster och <quote>Derivata</quote> till höger: det som var skarpt blir oskarpt och tvärtom."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:238(phrase)
+ msgid "Filter Length"
+-msgstr ""
++msgstr "Filterlängd"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:241(para)
+ msgid ""
+ "When applying blur, this option controls how important blur is. When "
+ "creating a texture, it controls how rough texture is: low values result in "
+ "smooth surface; high values in rough surface."
+-msgstr ""
++msgstr "När oskärpa tillämpas styr alternativet hur kraftig oskärpan är. När en textur skapas styr det hur grov texturen är: låga värden ger en slät yta och höga värden en grov yta."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:248(phrase)
+ msgid "Action example of Filter Length on blur"
+-msgstr ""
++msgstr "Exempel på Filterlängds påverkan på oskärpa"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:257(para)
+ msgid ""
+ "On the left: a vertical line, one pixel wide (zoom 800%). On the right: the "
+ "same line, after applying a vertical blur with a Filter Length to 3. You can "
+ "see that blur width is 6 pixels, 3 pixels on both sides."
+-msgstr ""
++msgstr "Till vänster: en lodrät linje som är en bildpunkt bred (zoomning 800 %). Till höger: samma linje efter att lodrät oskärpa med Filterlängd 3 har tillämpats. Oskärpan är 6 bildpunkter bred, 3 bildpunkter på varje sida."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:268(phrase)
+ msgid "Filter Length example on texture"
+-msgstr ""
++msgstr "Exempel på Filterlängd för textur"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:275(para)
+ msgid ""
+ "On the left: a texture with Filter Length=3. On the right, the same texture "
+ "with Filter Length=24."
+-msgstr ""
++msgstr "Till vänster: en textur med Filterlängd = 3. Till höger samma textur med Filterlängd = 24."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:286(phrase)
+ msgid "Noise Magnitude"
+-msgstr ""
++msgstr "Brusstyrka"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:289(para)
+ msgid ""
+ "This options controls the amount and size of White Noise. Low values produce "
+ "finely grained surfaces. High values produce coarse-grained textures."
+-msgstr ""
++msgstr "Alternativet styr mängden och storleken på vitt brus. Låga värden ger finkorniga ytor. Höga värden ger grovkorniga texturer."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:296(phrase)
+ msgid "Action example of Noise Magnitude on texture"
+-msgstr ""
++msgstr "Exempel på Brusstyrkas påverkan på textur"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:305(para)
+ msgid "Noise magnitude = 4"
+-msgstr ""
++msgstr "Brusstyrka = 4"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:313(phrase)
+ msgid "Integration Steps"
+-msgstr ""
++msgstr "Integreringssteg"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:316(para)
+ msgid "This options controls the influence of gradient map on texture."
+-msgstr ""
++msgstr "Alternativet styr toningskartans inverkan på texturen."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:321(phrase)
+ msgid "Action example of Integration Steps on texture"
+-msgstr ""
++msgstr "Exempel på Integreringsstegs påverkan på textur"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:330(para)
+ msgid ""
+ "On the left: Integration Steps = 2. On the right: Integration Steps = 4."
+-msgstr ""
++msgstr "Till vänster: Integreringssteg = 2. Till höger: Integreringssteg = 4."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:341(phrase)
+ msgid "Minimum/Maximum values"
+-msgstr ""
++msgstr "Minimi-/maximivärden"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:344(para)
+ msgid ""
+ "Both values determine a range controlling texture contrast: shrunk range "
+ "results in high contrast and enlarged range results in low contrast."
+-msgstr ""
++msgstr "Båda värdena bestämmer ett intervall som styr texturens kontrast: ett förminskat intervall ger hög kontrast och ett utökat intervall ger låg kontrast."
+ 
+ #: src/filters/artistic/vangogh-lic.xml:351(phrase)
+ msgid "Action example of Min/max values on texture"
+-msgstr ""
++msgstr "Exempel på minimi-/maximivärdens påverkan på textur"
+ 
+ #: src/filters/artistic/vangogh-lic.xml:360(para)
+ msgid "Minimum value = -4.0. Maximum value = 5.0."
+-msgstr ""
++msgstr "Minimivärde = −4,0. Maximivärde = 5,0."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -471,11 +472,11 @@
+ #: src/filters/artistic/softglow.xml:19(primary)
+ #: src/filters/artistic/softglow.xml:68(quote)
+ msgid "Soft Glow"
+-msgstr ""
++msgstr "Mjuk glöd"
+ 
+ #: src/filters/artistic/softglow.xml:28(quote)
+ msgid "SoftGlow filter"
+-msgstr ""
++msgstr "Filtret Mjuk glöd"
+ 
+ #: src/filters/artistic/softglow.xml:27(phrase)
+ #: src/filters/artistic/predator.xml:36(phrase)
+@@ -499,25 +500,25 @@
+ 
+ #: src/filters/artistic/softglow.xml:44(para)
+ msgid "Filter <quote>SoftGlow</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Mjuk glöd</quote> har tillämpats"
+ 
+ #: src/filters/artistic/softglow.xml:48(para)
+ msgid ""
+ "This filter lights the image with a soft glow. Soft Glow produces this "
+ "effect by making bright areas of the image brighter."
+-msgstr ""
++msgstr "Detta filter lyser upp bilden med en mjuk glöd. Mjuk glöd åstadkommer effekten genom att göra bildens ljusa områden ljusare."
+ 
+ #: src/filters/artistic/softglow.xml:55(phrase)
+ #: src/filters/artistic/photocopy.xml:68(phrase)
+ msgid "Starting filter"
+-msgstr ""
++msgstr "Starta filtret"
+ 
+ #: src/filters/artistic/softglow.xml:57(para)
+ msgid ""
+ "You can find this file in the Image menu through: "
+ "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Atistic</"
+ "guisubmenu><guimenuitem>Soft Glow</guimenuitem></menuchoice>."
+-msgstr ""
++msgstr "Du hittar filtret i Bild-menyn via: <menuchoice><guimenu>Filter</guimenu><guisubmenu>Konstnärligt</guisubmenu><guimenuitem>Mjuk glöd</guimenuitem></menuchoice>."
+ 
+ #: src/filters/artistic/softglow.xml:79(term)
+ #: src/filters/artistic/photocopy.xml:92(term)
+@@ -527,7 +528,7 @@
+ #: src/filters/artistic/cubism.xml:96(term)
+ #: src/filters/artistic/applycanvas.xml:82(term)
+ msgid "Preview"
+-msgstr ""
++msgstr "Förhandsgranskning"
+ 
+ #: src/filters/artistic/softglow.xml:81(para)
+ #: src/filters/artistic/photocopy.xml:94(para)
+@@ -536,38 +537,38 @@
+ msgid ""
+ "Your changes are displayed in this preview before being applied to your "
+ "image."
+-msgstr ""
++msgstr "Dina ändringar visas i denna förhandsgranskning innan de tillämpas på bilden."
+ 
+ #: src/filters/artistic/softglow.xml:88(term)
+ msgid "Glow radius"
+-msgstr ""
++msgstr "Glödradie"
+ 
+ #: src/filters/artistic/softglow.xml:90(para)
+ msgid ""
+ "The glow radius parameter controls the sharpness of the effect, giving a "
+ "\"vaseline-on-the-lens\" effect."
+-msgstr ""
++msgstr "Parametern Glödradie styr effektens skärpa och ger en ”vaselin-på-linsen”-effekt."
+ 
+ #: src/filters/artistic/softglow.xml:97(term)
+ msgid "Brightness"
+-msgstr ""
++msgstr "Ljusstyrka"
+ 
+ #: src/filters/artistic/softglow.xml:99(para)
+ msgid ""
+ "The brightness parameter controls the degree of intensification applied to "
+ "image highlights."
+-msgstr ""
++msgstr "Parametern Ljusstyrka styr hur mycket bildens högdagrar förstärks."
+ 
+ #: src/filters/artistic/softglow.xml:106(term)
+ #: src/filters/artistic/photocopy.xml:114(term)
+ msgid "Sharpness"
+-msgstr ""
++msgstr "Skärpa"
+ 
+ #: src/filters/artistic/softglow.xml:108(para)
+ msgid ""
+ "The sharpness parameter controls how defined or alternatively diffuse the "
+ "glow effect should be."
+-msgstr ""
++msgstr "Parametern Skärpa styr hur tydligt avgränsad eller diffus glödeffekten ska vara."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -705,11 +706,11 @@
+ #: src/filters/artistic/predator.xml:37(quote)
+ #: src/filters/artistic/predator.xml:86(quote)
+ msgid "Predator"
+-msgstr ""
++msgstr "Predator"
+ 
+ #: src/filters/artistic/predator.xml:53(para)
+ msgid "<quote>Predator</quote> applied"
+-msgstr ""
++msgstr "<quote>Predator</quote> har tillämpats"
+ 
+ #: src/filters/artistic/predator.xml:57(para)
+ msgid ""
+@@ -717,21 +718,21 @@
+ "effect makes the image/selection look something like the view the predator "
+ "has in movies (kind of a thermogram and that type of thing). This will "
+ "reduce the image to edges in a few basic colors on a dark background."
+-msgstr ""
++msgstr "Filtret lägger till en <quote>Predator</quote>-effekt i bilden. Predator-effekten får bilden eller markeringen att likna det som rovdjuret ser i filmer (ungefär ett termogram). Bilden reduceras till kanter i några grundfärger mot en mörk bakgrund."
+ 
+ #: src/filters/artistic/predator.xml:64(para)
+ msgid ""
+ "If there is an active selection, the filter effect will be applied to the "
+ "selected region, otherwise to the alpha channel (the filter will add an "
+ "alpha channel, if necessary). The filter works best on colorful RGB images."
+-msgstr ""
++msgstr "Om det finns en aktiv markering tillämpas filtreffekten på det markerade området, annars på alfakanalen (filtret lägger vid behov till en alfakanal). Filtret fungerar bäst på färgrika RGB-bilder."
+ 
+ #: src/filters/artistic/predator.xml:75(para)
+ msgid ""
+ "This filter is found in the image window menu under "
+ "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Artistic</"
+ "guisubmenu><guimenuitem>Predator</guimenuitem></menuchoice>."
+-msgstr ""
++msgstr "Filtret finns i bildfönstrets meny under <menuchoice><guimenu>Filter</guimenu><guisubmenu>Konstnärligt</guisubmenu><guimenuitem>Predator</guimenuitem></menuchoice>."
+ 
+ #: src/filters/artistic/predator.xml:86(phrase)
+ msgid "<placeholder-1/> options"
+@@ -740,7 +741,7 @@
+ #: src/filters/artistic/predator.xml:96(term)
+ #: src/filters/artistic/predator.xml:106(quote)
+ msgid "Edge amount"
+-msgstr ""
++msgstr "Kantmängd"
+ 
+ #: src/filters/artistic/predator.xml:98(para)
+ msgid ""
+@@ -748,12 +749,12 @@
+ "linkend=\"plug-in-edge\">edge detector</link>. The specified <quote>Edge "
+ "amount</quote> will be passed to the Sobel filter. A high value will result "
+ "in detecting more edges."
+-msgstr ""
++msgstr "Filtret <quote>Predator</quote> upptäcker kanter med Sobels <link linkend=\"plug-in-edge\">kantdetektor</link>. Den angivna <quote>Kantmängd</quote> skickas till Sobel-filtret. Ett högt värde medför att fler kanter upptäcks."
+ 
+ #: src/filters/artistic/predator.xml:106(phrase)
+ #: src/filters/artistic/predator.xml:160(phrase)
+ msgid "<placeholder-1/> examples"
+-msgstr ""
++msgstr "Exempel på <placeholder-1/>"
+ 
+ #: src/filters/artistic/predator.xml:113(para)
+ #: src/filters/artistic/predator.xml:175(para)
+@@ -763,7 +764,7 @@
+ #: src/filters/artistic/predator.xml:121(para)
+ #: src/filters/artistic/predator.xml:183(para)
+ msgid "8"
+-msgstr ""
++msgstr "8"
+ 
+ #: src/filters/artistic/predator.xml:129(para)
+ #: src/filters/artistic/predator.xml:191(para)
+@@ -774,7 +775,7 @@
+ #: src/filters/artistic/predator.xml:160(quote)
+ #: src/filters/artistic/predator.xml:245(para)
+ msgid "Pixelize"
+-msgstr ""
++msgstr "Pixelisera"
+ 
+ #: src/filters/artistic/predator.xml:138(para)
+ msgid ""
+@@ -783,11 +784,11 @@
+ "the real predator effect will be applied. You can select the size of these "
+ "squares with the option <guilabel>Pixel amount</guilabel>, which will "
+ "heavily affect the result (see examples below)."
+-msgstr ""
++msgstr "Om alternativet är markerat förenklar filtret bilden till helfärgade kvadrater med filtret <link linkend=\"plug-in-pixelize\">Pixelisera</link> innan den egentliga Predator-effekten tillämpas. Du kan välja kvadraternas storlek med alternativet <guilabel>Pixelmängd</guilabel>, vilket påverkar resultatet starkt (se exemplen nedan)."
+ 
+ #: src/filters/artistic/predator.xml:149(term)
+ msgid "Pixel amount"
+-msgstr ""
++msgstr "Pixelmängd"
+ 
+ #: src/filters/artistic/predator.xml:151(para)
+ msgid ""
+@@ -796,25 +797,25 @@
+ "are decreasing the resolution with this option. In the examples below, you "
+ "can see directly how increasing the pixel block size leads to something like "
+ "<quote>macro pixels</quote>:"
+-msgstr ""
++msgstr "<quote>Pixelmängd</quote> är storleken på de färgblock som bilden förenklas till om <guilabel>Pixelisera</guilabel> är markerat. Alternativet minskar i praktiken upplösningen. I exemplen nedan ser du direkt hur större pixelblock leder till något som liknar <quote>makropixlar</quote>:"
+ 
+ #: src/filters/artistic/predator.xml:167(para)
+ msgid "Disabled"
+-msgstr ""
++msgstr "Inaktiverad"
+ 
+ #: src/filters/artistic/predator.xml:198(term)
+ msgid "Keep selection"
+-msgstr ""
++msgstr "Behåll markering"
+ 
+ #: src/filters/artistic/predator.xml:200(para)
+ msgid ""
+ "If checked, the filter will be applied to the active selection. Else, it "
+ "will be applied to the active layer."
+-msgstr ""
++msgstr "Om alternativet är markerat tillämpas filtret på den aktiva markeringen. Annars tillämpas det på det aktiva lagret."
+ 
+ #: src/filters/artistic/predator.xml:207(term)
+ msgid "Separate layer"
+-msgstr ""
++msgstr "Separat lager"
+ 
+ #: src/filters/artistic/predator.xml:209(para)
+ msgid ""
+@@ -822,62 +823,62 @@
+ "above the active layer and the filter will be applied to this copy, leaving "
+ "the original layer untouched. If not checked, the filter will be applied to "
+ "the active layer."
+-msgstr ""
++msgstr "När alternativet är markerat skapas en kopia av det aktiva lagret ovanför det aktiva lagret och filtret tillämpas på kopian, medan ursprungslagret lämnas orört. Om alternativet inte är markerat tillämpas filtret på det aktiva lagret."
+ 
+ #: src/filters/artistic/predator.xml:221(phrase)
+ msgid "Filter algorithm"
+-msgstr ""
++msgstr "Filteralgoritm"
+ 
+ #: src/filters/artistic/predator.xml:223(para)
+ msgid ""
+ "Since this filter delegates the essential parts to two or three other "
+ "filters the algorithm is very simple:"
+-msgstr ""
++msgstr "Eftersom filtret överlåter de väsentliga delarna till två eller tre andra filter är algoritmen mycket enkel:"
+ 
+ #: src/filters/artistic/predator.xml:230(quote)
+ msgid "predator"
+-msgstr ""
++msgstr "predator"
+ 
+ #: src/filters/artistic/predator.xml:230(phrase)
+ msgid "Making the <placeholder-1/> effect"
+-msgstr ""
++msgstr "Skapa <placeholder-1/>-effekten"
+ 
+ #: src/filters/artistic/predator.xml:237(para)
+ msgid "Original"
+-msgstr ""
++msgstr "Ursprunglig"
+ 
+ #: src/filters/artistic/predator.xml:253(para)
+ msgid "Min RGB"
+-msgstr ""
++msgstr "Minsta RGB"
+ 
+ #: src/filters/artistic/predator.xml:261(para)
+ msgid "Edge detection"
+-msgstr ""
++msgstr "Kantdetektering"
+ 
+ #: src/filters/artistic/predator.xml:266(para)
+ msgid "The original image."
+-msgstr ""
++msgstr "Den ursprungliga bilden."
+ 
+ #: src/filters/artistic/predator.xml:269(para)
+ msgid ""
+ "Optionally, the filter <link linkend=\"plug-in-pixelize\">pixelizes</link> "
+ "the image: it renders the image by using color blocks instead of pixels, "
+ "thus reducing the image resolution."
+-msgstr ""
++msgstr "Filtret kan valfritt <link linkend=\"plug-in-pixelize\">pixelisera</link> bilden: det återger bilden med färgblock i stället för bildpunkter och minskar därmed bildens upplösning."
+ 
+ #: src/filters/artistic/predator.xml:277(para)
+ msgid ""
+ "The colors will be reduced to pure red, green, blue (and possibly gray "
+ "colors), using the <link linkend=\"plug-in-max-rgb\">minimal RGB</link> "
+ "channel for every pixel."
+-msgstr ""
++msgstr "Färgerna reduceras till rent rött, grönt och blått (och möjligen gråtoner) med <link linkend=\"plug-in-max-rgb\">minsta RGB</link>-kanalen för varje bildpunkt."
+ 
+ #: src/filters/artistic/predator.xml:284(para)
+ msgid ""
+ "Applying the <link linkend=\"plug-in-edge\">Sobel edge detecting</link> "
+ "filter, the image will be reduced further on to edges, usually on a black "
+ "background, with very few colors."
+-msgstr ""
++msgstr "När filtret <link linkend=\"plug-in-edge\">Sobels kantdetektering</link> tillämpas reduceras bilden ytterligare till kanter, vanligen mot en svart bakgrund och med mycket få färger."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -905,11 +906,11 @@
+ #: src/filters/artistic/photocopy.xml:29(quote)
+ #: src/filters/artistic/photocopy.xml:81(quote)
+ msgid "Photocopy"
+-msgstr ""
++msgstr "Fotokopia"
+ 
+ #: src/filters/artistic/photocopy.xml:45(para)
+ msgid "Filter <quote>Photocopy</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Fotokopia</quote> har tillämpats"
+ 
+ #: src/filters/artistic/photocopy.xml:49(para)
+ msgid ""
+@@ -918,7 +919,7 @@
+ "relative darkness of a particular region. This is achieved by darkening "
+ "areas of the image which are measured to be darker than a neighborhood "
+ "average, and setting other pixels to white."
+-msgstr ""
++msgstr "Filtret Fotokopia ändrar det aktiva lagret eller markeringen så att den liknar en svartvit fotokopia, som om överförd toner baserades på den relativa mörkheten i ett visst område. Detta uppnås genom att göra områden i bilden som bedöms vara mörkare än genomsnittet i sin omgivning mörkare och sätta andra bildpunkter till vita."
+ 
+ #: src/filters/artistic/photocopy.xml:57(para)
+ msgid ""
+@@ -926,19 +927,19 @@
+ "layer and use the filter on the copy. Set the <link linkend=\"gimp-concepts-"
+ "layer-modes\">Layer Mode</link> to <guilabel>Multiply</guilabel> and adjust "
+ "the opacity slider to get the best result."
+-msgstr ""
++msgstr "Du kan använda filtret för att skärpa bilden. Skapa en kopia av det aktiva lagret och använd filtret på kopian. Sätt <link linkend=\"gimp-concepts-layer-modes\">Lagerläge</link> till <guilabel>Multiplicera</guilabel> och justera opacitetsreglaget för bästa resultat."
+ 
+ #: src/filters/artistic/photocopy.xml:70(para)
+ msgid ""
+ "You can find this filter from the image menu through "
+ "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Artistic</"
+ "guisubmenu><guimenuitem>Photocopy</guimenuitem></menuchoice>."
+-msgstr ""
++msgstr "Du hittar filtret i bildmenyn via <menuchoice><guimenu>Filter</guimenu><guisubmenu>Konstnärligt</guisubmenu><guimenuitem>Fotokopia</guimenuitem></menuchoice>."
+ 
+ #: src/filters/artistic/photocopy.xml:101(term)
+ #: src/filters/artistic/cartoon.xml:90(term)
+ msgid "Mask radius"
+-msgstr ""
++msgstr "Maskradie"
+ 
+ #: src/filters/artistic/photocopy.xml:103(para)
+ msgid ""
+@@ -948,16 +949,16 @@
+ "very thick black areas bordering the regions of white and much less detail "
+ "for black areas. Small values result in less toner overall and more details "
+ "everywhere."
+-msgstr ""
++msgstr "Parametern styr storleken på den bildpunktsomgivning vars genomsnittliga intensitet beräknas och sedan jämförs med varje bildpunkt i omgivningen för att avgöra om den ska göras mörkare. Stora värden ger mycket tjocka svarta områden som gränsar till vita områden och betydligt mindre detaljrikedom i svarta områden. Små värden ger mindre toner totalt och fler detaljer överallt."
+ 
+ #: src/filters/artistic/photocopy.xml:116(para)
+ msgid "With this option, you can set photocopy sharpness, from 0.0 to 1.0."
+-msgstr ""
++msgstr "Med alternativet kan du ställa in fotokopians skärpa från 0,0 till 1,0."
+ 
+ #: src/filters/artistic/photocopy.xml:123(term)
+ #: src/filters/artistic/cartoon.xml:101(term)
+ msgid "Percent black"
+-msgstr ""
++msgstr "Procent svart"
+ 
+ #: src/filters/artistic/photocopy.xml:125(para)
+ msgid ""
+@@ -967,15 +968,15 @@
+ "lines thicker, darker and sharper. The maximum value makes the lines "
+ "aliased. The best, most natural results are usually achieved with an "
+ "intermediate value. Values vary from 0.0 to 1.0."
+-msgstr ""
++msgstr "Parametern styr mängden svart färg som läggs till i bilden. Små värden gör övergången från färgområden till svärtade områden mjukare och de mörka linjerna tunnare och mindre framträdande. Större värden gör linjerna tjockare, mörkare och skarpare. Maximivärdet gör linjerna kantiga. Bäst och mest naturligt resultat uppnås vanligen med ett mellanliggande värde. Värdena varierar från 0,0 till 1,0."
+ 
+ #: src/filters/artistic/photocopy.xml:137(term)
+ msgid "Percent White"
+-msgstr ""
++msgstr "Procent vitt"
+ 
+ #: src/filters/artistic/photocopy.xml:139(para)
+ msgid "This parameter increases white pixels percentage."
+-msgstr ""
++msgstr "Parametern ökar andelen vita bildpunkter."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1003,51 +1004,51 @@
+ #: src/filters/artistic/oilify.xml:29(quote)
+ #: src/filters/artistic/oilify.xml:77(quote)
+ msgid "Oilify"
+-msgstr ""
++msgstr "Oljemåla"
+ 
+ #: src/filters/artistic/oilify.xml:45(para)
+ msgid "Filter <quote>Oilify</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Oljemåla</quote> har tillämpats"
+ 
+ #: src/filters/artistic/oilify.xml:49(para)
+ msgid ""
+ "This filter makes the image look like an oil painting. The <parameter>Mask "
+ "Size</parameter> controls the outcome: a high value gives the image less "
+ "detail, as if you had used a larger brush."
+-msgstr ""
++msgstr "Filtret får bilden att likna en oljemålning. <parameter>Maskstorlek</parameter> styr resultatet: ett högt värde ger bilden mindre detaljrikedom, som om du hade använt en större pensel."
+ 
+ #: src/filters/artistic/oilify.xml:56(para)
+ msgid ""
+ "The GIMPressionist filter can produce similar effects, but allows a much "
+ "wider variety of options."
+-msgstr ""
++msgstr "Filtret GIMPressionist kan ge liknande effekter, men erbjuder ett mycket större urval av alternativ."
+ 
+ #: src/filters/artistic/oilify.xml:66(para)
+ msgid ""
+ "This filter is found in the image menu through <menuchoice><guimenu>Filters</"
+ "guimenu><guisubmenu>Artistic</guisubmenu><guimenuitem>Oilify...</"
+ "guimenuitem></menuchoice>"
+-msgstr ""
++msgstr "Du hittar filtret i bildmenyn via <menuchoice><guimenu>Filter</guimenu><guisubmenu>Konstnärligt</guisubmenu><guimenuitem>Oljemåla …</guimenuitem></menuchoice>"
+ 
+ #: src/filters/artistic/oilify.xml:88(term)
+ msgid "Mask Size"
+-msgstr ""
++msgstr "Maskstorlek"
+ 
+ #: src/filters/artistic/oilify.xml:90(para)
+ msgid ""
+ "Mask Size selects the size of the brush mask used to paint the oily render. "
+ "Larger values here produce an oilier render."
+-msgstr ""
++msgstr "Maskstorlek väljer storleken på penselmasken som används för att måla den oljiga återgivningen. Större värden ger en mer oljig återgivning."
+ 
+ #: src/filters/artistic/oilify.xml:97(term)
+ msgid "Use Intensity Algorithm"
+-msgstr ""
++msgstr "Använd intensitetsalgoritm"
+ 
+ #: src/filters/artistic/oilify.xml:99(para)
+ msgid ""
+ "Use Intensity Algorithm changes the mode of operation to help preserve "
+ "detail and coloring."
+-msgstr ""
++msgstr "Använd intensitetsalgoritm ändrar arbetssättet för att bevara detaljer och färgläggning bättre."
+ 
+ #: src/filters/artistic/introduction.xml:10(phrase)
+ #: src/filters/artistic/introduction.xml:15(tertiary)
+@@ -1057,7 +1058,7 @@
+ #: src/filters/artistic/introduction.xml:17(para)
+ msgid ""
+ "Artistic filters create artistic effects like cubism, oil painting, canvas..."
+-msgstr ""
++msgstr "Konstnärliga filter skapar konstnärliga effekter som kubism, oljemålning, canvas …"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1158,11 +1159,11 @@
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:19(tertiary)
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:22(primary)
+ msgid "GIMPressionist"
+-msgstr ""
++msgstr "GIMPressionist"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:54(para)
+ msgid "Filter <quote>GIMPressionist</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>GIMPressionist</quote> har tillämpats"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:58(para)
+ msgid ""
+@@ -1170,20 +1171,20 @@
+ "and much more. It gives your image the look of a painting. All is going as "
+ "if your image was painted again on a paper and with a brush you'd have "
+ "chosen. It works on the active layer or selection."
+-msgstr ""
++msgstr "Det är kungen bland konstnärliga filter. Det kan göra det som Kubism och Tillämpa canvas gör, och mycket mer. Det ger bilden utseendet av en målning. Allt sker som om bilden målades på nytt på papper med en pensel du har valt. Det arbetar på det aktiva lagret eller markeringen."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:69(para)
+ msgid ""
+ "You can find this filter via the image menu through "
+ "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Artistic</"
+ "guisubmenu><guimenuitem>GIMPressionist</guimenuitem></menuchoice>"
+-msgstr ""
++msgstr "Du hittar filtret i bildmenyn via <menuchoice><guimenu>Filter</guimenu><guisubmenu>Konstnärligt</guisubmenu><guimenuitem>GIMPressionist</guimenuitem></menuchoice>"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:76(phrase)
+ #: src/filters/artistic/GIMPressionist-sizemap.xml:37(phrase)
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:37(title)
+ msgid "Parameter Settings"
+-msgstr ""
++msgstr "Parameterinställningar"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:82(para)
+ msgid ""
+@@ -1192,12 +1193,12 @@
+ "guibutton> button refreshes the preview window (it is not automatic, "
+ "Gimpressionist has so much work to do!), and the <guibutton>Reset</"
+ "guibutton> button reverts to the original image."
+-msgstr ""
++msgstr "Alla ändringar av inställningar visas i förhandsgranskningen utan att påverka bilden förrän du klickar på <guibutton>OK</guibutton>. Knappen <guibutton>Uppdatera</guibutton> uppdaterar förhandsgranskningsfönstret (det sker inte automatiskt eftersom GIMPressionist har mycket att göra), och knappen <guibutton>Återställ</guibutton> återgår till den ursprungliga bilden."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:93(term)
+ #: src/filters/artistic/GIMPressionist.xml:97(quote)
+ msgid "Presets"
+-msgstr ""
++msgstr "Förinställningar"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:97(phrase)
+ #: src/filters/artistic/GIMPressionist.xml:143(phrase)
+@@ -1208,7 +1209,7 @@
+ #: src/filters/artistic/GIMPressionist.xml:544(phrase)
+ #: src/filters/artistic/GIMPressionist.xml:595(phrase)
+ msgid "<placeholder-1/> tab options"
+-msgstr ""
++msgstr "Alternativ på fliken <placeholder-1/>"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:106(para)
+ msgid ""
+@@ -1217,38 +1218,38 @@
+ "interesting preset has been found, to save it and also to send it to the "
+ "plugin author if exceptional. Per contra, the intricacy of all these "
+ "parameters makes difficult understanding and foreseeing how each one works."
+-msgstr ""
++msgstr "GIMPressionist har många parametrar. I kombination ger de ett astronomiskt antal möjligheter. När du hittar en intressant förinställning är det därför viktigt att spara den och, om den är särskilt bra, skicka den till insticksmodulens upphovsperson. Samtidigt gör alla parametrers komplexitet det svårt att förstå och förutse hur var och en fungerar."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:116(para)
+ msgid ""
+ "<guilabel>Save Current</guilabel>: Save current parameters. You can give a "
+ "name in the input box on the left and a short description in the dialog that "
+ "appear."
+-msgstr ""
++msgstr "<guilabel>Spara aktuella</guilabel>: Sparar de aktuella parametrarna. Du kan ange ett namn i inmatningsrutan till vänster och en kort beskrivning i dialogrutan som visas."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:122(para)
+ msgid ""
+ "<guilabel>Apply</guilabel>: Load the parameters of the selected preset in "
+ "the list."
+-msgstr ""
++msgstr "<guilabel>Tillämpa</guilabel>: Läser in parametrarna för den valda förinställningen i listan."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:127(para)
+ msgid ""
+ "<guilabel>Delete</guilabel>: Delete the selected preset. You can delete only "
+ "the presets you have created."
+-msgstr ""
++msgstr "<guilabel>Ta bort</guilabel>: Tar bort den valda förinställningen. Du kan endast ta bort förinställningar som du själv har skapat."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:132(para)
+ msgid "<guilabel>Refresh</guilabel>: Update the preset list."
+-msgstr ""
++msgstr "<guilabel>Uppdatera</guilabel>: Uppdaterar listan med förinställningar."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:139(term)
+ msgid "Paper tab"
+-msgstr ""
++msgstr "Fliken Papper"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:143(quote)
+ msgid "Paper"
+-msgstr ""
++msgstr "Papper"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:152(para)
+ msgid ""
+@@ -1256,7 +1257,7 @@
+ "You have a list of textures and a <guilabel>Preview</guilabel> for the "
+ "selected texture. A description is displayed on the right for every texture "
+ "when selected."
+-msgstr ""
++msgstr "Fliken gäller texturen på den canvas som bilden ska målas på. Du har en lista över texturer och en <guilabel>Förhandsgranskning</guilabel> av den valda texturen. Till höger visas en beskrivning för varje textur när den väljs."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:161(term)
+ msgid "Invert"
+@@ -1265,7 +1266,7 @@
+ #: src/filters/artistic/GIMPressionist.xml:163(para)
+ msgid ""
+ "Inverts the paper texture: what was a hollow turns to a bump and vice-versa."
+-msgstr ""
++msgstr "Inverterar papperstexturen: det som var en fördjupning blir en upphöjning och tvärtom."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:170(term)
+ msgid "Overlay"
+@@ -1275,7 +1276,7 @@
+ msgid ""
+ "Apply the paper as it, without embossing it. It looks like if a transparent "
+ "paper has been overlayed on the image."
+-msgstr ""
++msgstr "Tillämpar papperet som det är, utan att prägla det. Det ser ut som om ett genomskinligt papper har lagts över bilden."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:179(term)
+ msgid "Scale"
+@@ -1285,16 +1286,16 @@
+ msgid ""
+ "Specifies the scale of the texture (in % of the original file): controls the "
+ "graininess of the texture."
+-msgstr ""
++msgstr "Anger texturens skala (i procent av originalfilen): styr texturens kornighet."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:188(term)
+ #: src/filters/artistic/GIMPressionist.xml:258(term)
+ msgid "Relief"
+-msgstr ""
++msgstr "Relief"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:190(para)
+ msgid "Specifies the amount of embossing to apply (3-150)."
+-msgstr ""
++msgstr "Anger mängden prägling som ska tillämpas (3–150)."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:199(term)
+ msgid "Brush tab"
+@@ -1309,7 +1310,7 @@
+ "\"Brush\" is a general term for any material used to paint. A list of "
+ "brushes is available with a <guilabel>Preview</guilabel> for the selected "
+ "one."
+-msgstr ""
++msgstr "”Pensel” är ett allmänt begrepp för material som används för att måla. En lista över penslar finns tillgänglig med en <guilabel>Förhandsgranskning</guilabel> av den valda."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:219(term)
+ msgid "Gamma"
+@@ -1319,7 +1320,7 @@
+ msgid ""
+ "Changes the gamma (luminosity) of the selected brush. The gamma correction "
+ "brightens or darkens midtones."
+-msgstr ""
++msgstr "Ändrar gamma (ljusstyrkan) för den valda penseln. Gammakorrigeringen gör mellantoner ljusare eller mörkare."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:228(term)
+ msgid "Select"
+@@ -1331,38 +1332,38 @@
+ "(arrow button on the Select line). This image must be on your screen before "
+ "you launch the filter to be taken in account. Of course, don't use big "
+ "images."
+-msgstr ""
++msgstr "Du kan också använda ett penselmönster som du har skapat genom att välja dess bild (pilknappen på raden Välj). Bilden måste visas på skärmen innan du startar filtret för att tas med. Använd förstås inte stora bilder."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:236(para)
+ msgid ""
+ "If your image has several layers, they also will be displayed in the Select "
+ "list and can be used as a brush. When selected, the layer appears in the "
+ "brush preview and the normal brush is deselected."
+-msgstr ""
++msgstr "Om bilden har flera lager visas de också i listan Välj och kan användas som pensel. När ett lager väljs visas det i penselförhandsgranskningen och den vanliga penseln avmarkeras."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:242(para)
+ msgid ""
+ "The <guibutton>Save as</guibutton> button allows you to save the selected "
+ "brush."
+-msgstr ""
++msgstr "Knappen <guibutton>Spara som</guibutton> låter dig spara den valda penseln."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:249(term)
+ msgid "Aspect ratio"
+-msgstr ""
++msgstr "Bildförhållande"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:251(para)
+ msgid "Specifies the brush proportions, height (0 -1) and width (0 +1)."
+-msgstr ""
++msgstr "Anger penselns proportioner, höjd (0–1) och bredd (0–1)."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:260(para)
+ msgid ""
+ "Specifies the amount of paint used for each stroke. This may evoke painting "
+ "with a palette knife."
+-msgstr ""
++msgstr "Anger mängden färg som används för varje penseldrag. Det kan påminna om målning med palettkniv."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:270(term)
+ msgid "Orientation tab"
+-msgstr ""
++msgstr "Fliken Orientering"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:274(quote)
+ #: src/filters/artistic/GIMPressionist.xml:318(term)
+@@ -1374,7 +1375,7 @@
+ "This tab allows to set the orientation of the brush strokes. A painter is "
+ "not obliged to go over with the same paintbrush angle. To perform some "
+ "effects, he can vary their orientation."
+-msgstr ""
++msgstr "På fliken kan du ange penseldragens orientering. En målare behöver inte arbeta med samma penselvinkel överallt. För att uppnå vissa effekter kan orienteringen varieras."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:290(term)
+ msgid "Directions"
+@@ -1385,78 +1386,78 @@
+ "With this option, you can set how many times the brush will pass through a "
+ "same place, with each time a different direction, resulting in a more and "
+ "more thick paint."
+-msgstr ""
++msgstr "Med alternativet kan du ange hur många gånger penseln ska passera samma plats, varje gång i en annan riktning, vilket ger allt tjockare färg."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:300(term)
+ msgid "Start Angle"
+-msgstr ""
++msgstr "Startvinkel"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:302(para)
+ msgid ""
+ "Specifies the general direction of the strokes, the angle that the angle "
+ "range will start from. Directions are often chosen to give some movement to "
+ "the image."
+-msgstr ""
++msgstr "Anger penseldragens allmänna riktning, den vinkel som vinkelintervallet börjar vid. Riktningar väljs ofta för att ge bilden en känsla av rörelse."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:310(term)
+ msgid "Angle Span"
+-msgstr ""
++msgstr "Vinkelomfång"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:312(para)
+ msgid "Specifies the angle, the sector, of the stroke \"fan\"."
+-msgstr ""
++msgstr "Anger vinkeln, sektorn, för penseldragens ”solfjäder”."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:320(para)
+ msgid "Specifies the direction of the brush strokes."
+-msgstr ""
++msgstr "Anger riktningen för penseldragen."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:325(para)
+ msgid ""
+ "<guilabel>Value</guilabel> : Let the Value (luminosity) of the region "
+ "determine the direction of the stroke."
+-msgstr ""
++msgstr "<guilabel>Värde</guilabel>: Låt områdets värde (ljusstyrka) bestämma penseldragets riktning."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:331(para)
+ msgid ""
+ "<guilabel>Radius</guilabel> : The distance from the center of the image "
+ "determines the direction of the stroke."
+-msgstr ""
++msgstr "<guilabel>Radie</guilabel>: Avståndet från bildens mitt bestämmer penseldragets riktning."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:337(para)
+ msgid ""
+ "<guilabel>Random</guilabel> : Select a random direction for each stroke."
+-msgstr ""
++msgstr "<guilabel>Slumpmässig</guilabel>: Välj en slumpmässig riktning för varje penseldrag."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:342(para)
+ msgid ""
+ "<guilabel>Radial</guilabel> : Let the direction from the center determine "
+ "the direction of the stroke."
+-msgstr ""
++msgstr "<guilabel>Radiell</guilabel>: Låt riktningen från mitten bestämma penseldragets riktning."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:348(para)
+ msgid ""
+ "<guilabel>Flowing</guilabel> : Not a direction question here: the strokes "
+ "follow a \"flowing\" pattern."
+-msgstr ""
++msgstr "<guilabel>Flytande</guilabel>: Här handlar det inte om riktning; penseldragen följer ett ”flytande” mönster."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:354(para)
+ msgid ""
+ "<guilabel>Hue</guilabel> : Let the hue of the region determine the direction "
+ "of the stroke."
+-msgstr ""
++msgstr "<guilabel>Nyans</guilabel>: Låt områdets nyans bestämma penseldragets riktning."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:360(para)
+ msgid ""
+ "<guilabel>Adaptive</guilabel> : The brush direction that matches the "
+ "original image the closest is selected."
+-msgstr ""
++msgstr "<guilabel>Adaptiv</guilabel>: Den penselriktning som bäst motsvarar den ursprungliga bilden väljs."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:366(para)
+ msgid ""
+ "<guilabel>Manual</guilabel> : The <guilabel>Edit</guilabel> button opens the "
+ "<link linkend=\"gimpressionist-orient-map-editor\"> Edit orientation Map "
+ "dialog </link> that allows you to set the directions manually."
+-msgstr ""
++msgstr "<guilabel>Manuell</guilabel>: Knappen <guilabel>Redigera</guilabel> öppnar dialogrutan <link linkend=\"gimpressionist-orient-map-editor\">Redigera orienteringskarta</link>, där du kan ange riktningarna manuellt."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:381(term)
+ msgid "Size tab"
+@@ -1472,26 +1473,26 @@
+ "This tab allows you to set the number of brush sizes that will be used to "
+ "paint, the limits of variation of these sizes and the criterion used to "
+ "determine them."
+-msgstr ""
++msgstr "På fliken kan du ange hur många penselstorlekar som ska användas vid målning, gränserna för deras variation och vilket kriterium som bestämmer dem."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:401(term)
+ msgid "Three Sliders"
+-msgstr ""
++msgstr "Tre reglage"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:403(para)
+ msgid "You can specify how many brush sizes are to be used and their sizes."
+-msgstr ""
++msgstr "Du kan ange hur många penselstorlekar som ska användas och vilka storlekar de har."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:409(para)
+ msgid "<guilabel>Sizes</guilabel>: The number of brush sizes to use."
+-msgstr ""
++msgstr "<guilabel>Storlekar</guilabel>: Antalet penselstorlekar som ska användas."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:414(para)
+ msgid ""
+ "<guilabel>Minimum Size</guilabel> and <guilabel>Maximum Size </guilabel>: "
+ "The brush sizes are between these two values. Greater the size, greater the "
+ "length and width of strokes."
+-msgstr ""
++msgstr "<guilabel>Minsta storlek</guilabel> och <guilabel>Största storlek</guilabel>: Penselstorlekarna ligger mellan dessa två värden. Ju större storlek, desto längre och bredare penseldrag."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:424(term)
+ msgid "Sizes"
+@@ -1500,103 +1501,103 @@
+ #: src/filters/artistic/GIMPressionist.xml:426(para)
+ msgid ""
+ "You have there options to specify how the size of strokes will be determined."
+-msgstr ""
++msgstr "Här finns alternativ för att ange hur penseldragens storlek ska bestämmas."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:432(para)
+ msgid ""
+ "<guilabel>Value</guilabel>: Let the Value (luminosity) of the region "
+ "determine the size of the stroke."
+-msgstr ""
++msgstr "<guilabel>Värde</guilabel>: Låt områdets värde (ljusstyrka) bestämma penseldragets storlek."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:437(para)
+ msgid ""
+ "<guilabel>Radius</guilabel> : The distance from the center of the image "
+ "determines the size of the stroke."
+-msgstr ""
++msgstr "<guilabel>Radie</guilabel>: Avståndet från bildens mitt bestämmer penseldragets storlek."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:442(para)
+ msgid "<guilabel>Random</guilabel> : Select a random size for each stroke."
+-msgstr ""
++msgstr "<guilabel>Slumpmässig</guilabel>: Välj en slumpmässig storlek för varje penseldrag."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:447(para)
+ msgid ""
+ "<guilabel>Radial</guilabel> : Let the direction from the center determine "
+ "the size of the stroke."
+-msgstr ""
++msgstr "<guilabel>Radiell</guilabel>: Låt riktningen från mitten bestämma penseldragets storlek."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:452(para)
+ msgid ""
+ "<guilabel>Flowing</guilabel> : Not a length question here: the strokes "
+ "follow a \"flowing\" pattern."
+-msgstr ""
++msgstr "<guilabel>Flytande</guilabel>: Här handlar det inte om längd; penseldragen följer ett ”flytande” mönster."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:457(para)
+ msgid ""
+ "<guilabel>Hue</guilabel> : Let the hue of the region determine the size of "
+ "the stroke."
+-msgstr ""
++msgstr "<guilabel>Nyans</guilabel>: Låt områdets nyans bestämma penseldragets storlek."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:462(para)
+ msgid ""
+ "<guilabel>Adaptive</guilabel> : The brush size that matches the original "
+ "image the closest is selected."
+-msgstr ""
++msgstr "<guilabel>Adaptiv</guilabel>: Den penselstorlek som bäst motsvarar den ursprungliga bilden väljs."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:467(para)
+ msgid ""
+ "<guilabel>Manual</guilabel> : The <guilabel>Edit</guilabel> button opens the "
+ "<link linkend=\"gimpressionist-size-map-editor\">Size Map Editor</link>. "
+ "That allows you to specify the size of strokes by yourself."
+-msgstr ""
++msgstr "<guilabel>Manuell</guilabel>: Knappen <guilabel>Redigera</guilabel> öppnar <link linkend=\"gimpressionist-size-map-editor\">Redigerare för storlekskarta</link>. Där kan du själv ange storleken på penseldragen."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:481(term)
+ msgid "Placement tab"
+-msgstr ""
++msgstr "Fliken Placering"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:485(quote)
+ #: src/filters/artistic/GIMPressionist.xml:499(term)
+ msgid "Placement"
+-msgstr ""
++msgstr "Placering"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:494(para)
+ msgid "In this tab you can set how strokes will be distributed."
+-msgstr ""
++msgstr "På fliken kan du ange hur penseldragen ska fördelas."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:501(para)
+ msgid ""
+ "In the preview of the Orientation Map Editor, all small arrows look like a "
+ "flow around objects. Inside this flow, strokes may be placed in two "
+ "different ways:"
+-msgstr ""
++msgstr "I förhandsgranskningen av redigeraren för orienteringskarta ser alla små pilar ut som ett flöde runt objekt. Inom detta flöde kan penseldragen placeras på två olika sätt:"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:508(para)
+ msgid ""
+ "<guilabel>Randomly</guilabel>: Places strokes randomly. This produces a more "
+ "realistic paint."
+-msgstr ""
++msgstr "<guilabel>Slumpmässigt</guilabel>: Placerar penseldrag slumpmässigt. Det ger en mer realistisk målning."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:513(para)
+ msgid ""
+ "<guilabel>Evenly</guilabel>: Strokes are evenly distributed across the image."
+-msgstr ""
++msgstr "<guilabel>Jämnt</guilabel>: Penseldragen fördelas jämnt över bilden."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:521(term)
+ msgid "Stroke Density"
+-msgstr ""
++msgstr "Penseldragstäthet"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:523(para)
+ msgid ""
+ "The greater the density the closer the strokes. With a low density, the "
+ "paper or background may be visible in unstroke areas."
+-msgstr ""
++msgstr "Ju högre täthet, desto närmare ligger penseldragen. Vid låg täthet kan papperet eller bakgrunden synas i områden utan penseldrag."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:531(term)
+ msgid "Centerize"
+-msgstr ""
++msgstr "Centrera"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:533(para)
+ msgid "Focus brush strokes around center."
+-msgstr ""
++msgstr "Koncentrera penseldragen kring mitten."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:540(term)
+ msgid "Color tab"
+@@ -1609,33 +1610,33 @@
+ 
+ #: src/filters/artistic/GIMPressionist.xml:553(para)
+ msgid "In this tab, you can set what the stroke color will be."
+-msgstr ""
++msgstr "På fliken kan du ange vilken färg penseldragen ska ha."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:560(para)
+ msgid "You can set the stroke color in two ways:"
+-msgstr ""
++msgstr "Du kan ange penseldragens färg på två sätt:"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:565(para)
+ msgid ""
+ "<guilabel>Average under brush</guilabel>: Stroke color is computed from the "
+ "average of all pixels under the brush."
+-msgstr ""
++msgstr "<guilabel>Genomsnitt under pensel</guilabel>: Penseldragets färg beräknas utifrån genomsnittet av alla bildpunkter under penseln."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:571(para)
+ msgid ""
+ "<guilabel>Center of brush</guilabel>: Samples the color from the pixel in "
+ "the center of the brush."
+-msgstr ""
++msgstr "<guilabel>Penselns mitt</guilabel>: Hämtar färgen från bildpunkten i penselns mitt."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:579(term)
+ msgid "Color Noise"
+-msgstr ""
++msgstr "Färgbrus"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:581(para)
+ msgid ""
+ "This slider, and its input box, allow you to introduce noise in the stroke "
+ "color, that will look less homogeneous."
+-msgstr ""
++msgstr "Med reglaget och dess inmatningsruta kan du lägga till brus i penseldragets färg så att den ser mindre enhetlig ut."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:591(term)
+ msgid "General tab"
+@@ -1649,7 +1650,7 @@
+ msgid ""
+ "In this tab you can set what will be the background and the relief of brush "
+ "strokes."
+-msgstr ""
++msgstr "På fliken kan du ange bakgrund och relief för penseldragen."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:610(term)
+ msgid "Background"
+@@ -1659,97 +1660,97 @@
+ msgid ""
+ "<guilabel>Keep Original</guilabel>: The original image will be used as a "
+ "background."
+-msgstr ""
++msgstr "<guilabel>Behåll ursprunglig</guilabel>: Den ursprungliga bilden används som bakgrund."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:619(para)
+ msgid ""
+ "<guilabel>From Paper</guilabel>: Copy the texture of the selected paper as a "
+ "background."
+-msgstr ""
++msgstr "<guilabel>Från papper</guilabel>: Kopierar det valda papperets textur som bakgrund."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:624(para)
+ msgid ""
+ "<guilabel>Solid</guilabel>: By clicking on the color dwell you can select a "
+ "solid colored background."
+-msgstr ""
++msgstr "<guilabel>Enfärgad</guilabel>: Genom att klicka på färgrutan kan du välja en helfärgad bakgrund."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:629(para)
+ msgid ""
+ "<guilabel>Transparent</guilabel>: Use a transparent background. Only the "
+ "painted strokes will be visible. This option is available only if your image "
+ "has an Alpha channel."
+-msgstr ""
++msgstr "<guilabel>Genomskinlig</guilabel>: Använder en genomskinlig bakgrund. Endast de målade penseldragen syns. Alternativet är endast tillgängligt om bilden har en alfakanal."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:639(term)
+ msgid "Paint Edges"
+-msgstr ""
++msgstr "Måla kanter"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:641(para)
+ msgid ""
+ "If it is disabled, a thin border will not be painted around the outside "
+ "border of the image."
+-msgstr ""
++msgstr "Om alternativet är inaktiverat målas ingen tunn kant runt bildens ytterkant."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:648(term)
+ msgid "Tileable"
+-msgstr ""
++msgstr "Plattbar"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:650(para)
+ msgid ""
+ "If checked, the resulting image will be seamlessly tileable. The right side "
+ "will match the left side and the top will match the bottom. This is "
+ "interesting if your image will be repeatedly used in a Web background."
+-msgstr ""
++msgstr "Om alternativet är markerat kan den resulterande bilden plattas sömlöst. Höger sida passar ihop med vänster sida och ovansidan med undersidan. Det är användbart om bilden ska användas upprepade gånger som webbakgrund."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:659(term)
+ msgid "Drop Shadow"
+-msgstr ""
++msgstr "Slagskugga"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:661(para)
+ msgid "Add a shadow effect to each brush stroke."
+-msgstr ""
++msgstr "Lägg till en skuggeffekt för varje penseldrag."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:667(term)
+ msgid "Edge Darken"
+-msgstr ""
++msgstr "Mörka kanter"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:669(para)
+ msgid ""
+ "How much to darken the edges of each brush stroke. This increases paint "
+ "relief or thickness."
+-msgstr ""
++msgstr "Anger hur mycket kanterna på varje penseldrag ska mörkas. Det ökar färgens relief eller tjocklek."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:676(term)
+ msgid "Shadow Darken"
+-msgstr ""
++msgstr "Mörka skugga"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:678(para)
+ msgid "How much to darken the brush shadow."
+-msgstr ""
++msgstr "Anger hur mycket penselskuggan ska mörkas."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:682(term)
+ msgid "Shadow Depth"
+-msgstr ""
++msgstr "Skuggdjup"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:684(para)
+ msgid "How far apart from the object the drop shadow should be."
+-msgstr ""
++msgstr "Anger hur långt från objektet slagskuggan ska ligga."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:690(term)
+ msgid "Shadow Blur"
+-msgstr ""
++msgstr "Oskärpa för skugga"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:692(para)
+ msgid "How much to blur the drop shadow."
+-msgstr ""
++msgstr "Anger hur mycket slagskuggan ska göras oskarp."
+ 
+ #: src/filters/artistic/GIMPressionist.xml:696(term)
+ msgid "Deviation Threshold"
+-msgstr ""
++msgstr "Avvikelsegräns"
+ 
+ #: src/filters/artistic/GIMPressionist.xml:698(para)
+ msgid "A bail-out value for adaptive selections of brush size."
+-msgstr ""
++msgstr "Ett avbrottsvärde för adaptiva val av penselstorlek."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1763,7 +1764,7 @@
+ 
+ #: src/filters/artistic/GIMPressionist-sizemap.xml:13(phrase)
+ msgid "GIMPressionist - Size Map Editor"
+-msgstr ""
++msgstr "GIMPressionist – redigerare för storlekskarta"
+ 
+ #: src/filters/artistic/GIMPressionist-sizemap.xml:27(para)
+ msgid ""
+@@ -1771,21 +1772,21 @@
+ "gimpressionist\">GIMPressionist</link> filter. You can get to it by clicking "
+ "on the <guibutton>Edit</guibutton> button in the \"Size\" tab. With this "
+ "editor, you can set the size that brush strokes given by filter will have."
+-msgstr ""
++msgstr "Redigeraren för storlekskarta är ett tillägg till filtret <link linkend=\"plug-in-gimpressionist\">GIMPressionist</link>. Du öppnar den genom att klicka på knappen <guibutton>Redigera</guibutton> på fliken ”Storlek”. Med redigeraren kan du ange storleken på filtrets penseldrag."
+ 
+ #: src/filters/artistic/GIMPressionist-sizemap.xml:42(quote)
+ msgid "Size-map editor options"
+-msgstr ""
++msgstr "Alternativ för redigeraren för storlekskarta"
+ 
+ #: src/filters/artistic/GIMPressionist-sizemap.xml:52(para)
+ msgid ""
+ "You can place one or several vectors. You can set their strength. They will "
+ "act on the corresponding area of the image."
+-msgstr ""
++msgstr "Du kan placera ut en eller flera vektorer. Du kan ange deras styrka. De verkar på motsvarande område i bilden."
+ 
+ #: src/filters/artistic/GIMPressionist-sizemap.xml:57(term)
+ msgid "Smvectors"
+-msgstr ""
++msgstr "Smvektorer"
+ 
+ #: src/filters/artistic/GIMPressionist-sizemap.xml:59(para)
+ msgid ""
+@@ -1794,32 +1795,32 @@
+ "window, whereas clicking with the mouse <emphasis>Middle Button</emphasis> "
+ "puts it where you click. Vectors are red when selected, and gray when they "
+ "are not, with a white point at tip."
+-msgstr ""
++msgstr "I fönstret kan du placera ut vektorer. När du klickar på knappen <guibutton>Lägg till</guibutton> lägger du till en vektor i fönstrets mitt, medan ett klick med musens <emphasis>mittenknapp</emphasis> placerar den där du klickar. Vektorer är röda när de är valda och grå när de inte är det, med en vit punkt i spetsen."
+ 
+ #: src/filters/artistic/GIMPressionist-sizemap.xml:67(para)
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:72(para)
+ msgid ""
+ "Clicking with the mouse <emphasis>Left Button</emphasis> displaces the "
+ "selected vector to the clicked point."
+-msgstr ""
++msgstr "Ett klick med musens <emphasis>vänsterknapp</emphasis> flyttar den valda vektorn till den punkt du klickade på."
+ 
+ #: src/filters/artistic/GIMPressionist-sizemap.xml:71(para)
+ msgid ""
+ "Clicking on the mouse <emphasis>Right Button</emphasis>, has no evident "
+ "action."
+-msgstr ""
++msgstr "Ett klick med musens <emphasis>högerknapp</emphasis> har ingen uppenbar verkan."
+ 
+ #: src/filters/artistic/GIMPressionist-sizemap.xml:75(para)
+ msgid ""
+ "Clicking on <guibutton>&lt;&lt;</guibutton> et <guibutton>&gt;&gt;</"
+ "guibutton> buttons displaces focus from a vector to another."
+-msgstr ""
++msgstr "När du klickar på knapparna <guibutton>&lt;&lt;</guibutton> och <guibutton>&gt;&gt;</guibutton> flyttas fokus från en vektor till en annan."
+ 
+ #: src/filters/artistic/GIMPressionist-sizemap.xml:80(para)
+ msgid ""
+ "The <guibutton>Kill</guibutton> button allows you to delete the selected "
+ "vector."
+-msgstr ""
++msgstr "Knappen <guibutton>Döda</guibutton> låter dig ta bort den valda vektorn."
+ 
+ #: src/filters/artistic/GIMPressionist-sizemap.xml:85(para)
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:99(para)
+@@ -1827,17 +1828,17 @@
+ "With the scroll bar on the right of the Vectors panel, you can set the image "
+ "brightness. This can be very useful if the image is very dark/bright and you "
+ "can't see vectors well."
+-msgstr ""
++msgstr "Med rullningslisten till höger om panelen Vektorer kan du ställa in bildens ljusstyrka. Detta kan vara mycket användbart om bilden är mycket mörk eller ljus och du inte ser vektorerna tydligt."
+ 
+ #: src/filters/artistic/GIMPressionist-sizemap.xml:96(para)
+ msgid ""
+ "This Preview gives you an idea of the action of the different vectors. The "
+ "size of squares represent the size of the brushes and their strength."
+-msgstr ""
++msgstr "Förhandsgranskningen ger dig en uppfattning om hur de olika vektorerna verkar. Kvadraternas storlek representerar penslarnas storlek och styrka."
+ 
+ #: src/filters/artistic/GIMPressionist-sizemap.xml:106(para)
+ msgid "Change the size of the brush strokes in the selected vector domain."
+-msgstr ""
++msgstr "Ändra storleken på penseldragen i den valda vektorns område."
+ 
+ #: src/filters/artistic/GIMPressionist-sizemap.xml:113(term)
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:169(term)
+@@ -1848,28 +1849,28 @@
+ msgid ""
+ "This slider acts on the influence domain of the selected vector. This "
+ "influence lowers with distance."
+-msgstr ""
++msgstr "Reglaget påverkar inflytelseområdet för den valda vektorn. Inflytandet minskar med avståndet."
+ 
+ #: src/filters/artistic/GIMPressionist-sizemap.xml:122(term)
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:179(term)
+ msgid "Strength Exp."
+-msgstr ""
++msgstr "Styrkeexponent."
+ 
+ #: src/filters/artistic/GIMPressionist-sizemap.xml:124(para)
+ msgid "Change the exponent of the stroke."
+-msgstr ""
++msgstr "Ändra exponenten för penseldraget."
+ 
+ #: src/filters/artistic/GIMPressionist-sizemap.xml:128(term)
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:128(term)
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:131(primary)
+ msgid "Voronoi"
+-msgstr ""
++msgstr "Voronoi"
+ 
+ #: src/filters/artistic/GIMPressionist-sizemap.xml:130(para)
+ msgid ""
+ "See <link linkend=\"gimpressionist-orient-map-editor\"> Orientation Map "
+ "Editor</link> for an explanation."
+-msgstr ""
++msgstr "Se <link linkend=\"gimpressionist-orient-map-editor\">Redigerare för orienteringskarta</link> för en förklaring."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1891,7 +1892,7 @@
+ 
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:14(title)
+ msgid "GIMPressionist - Orientation Map Editor"
+-msgstr ""
++msgstr "GIMPressionist – redigerare för orienteringskarta"
+ 
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:27(para)
+ msgid ""
+@@ -1900,59 +1901,59 @@
+ "on the <guibutton>Edit</guibutton> button in the <quote>Orientation</quote> "
+ "tab. With this editor, you can set the direction that brush strokes given by "
+ "filter will have."
+-msgstr ""
++msgstr "Redigeraren för orienteringskarta är ett tillägg till filtret <link linkend=\"plug-in-gimpressionist\">GIMPressionist</link>. Du öppnar den genom att klicka på knappen <guibutton>Redigera</guibutton> på fliken <quote>Orientering</quote>. Med redigeraren kan du ange riktningen på filtrets penseldrag."
+ 
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:39(title)
+ msgid "Options of the <quote>Orientation-map Editor</quote> dialog"
+-msgstr ""
++msgstr "Alternativ i dialogrutan <quote>Redigerare för orienteringskarta</quote>"
+ 
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:50(para)
+ msgid ""
+ "You can place one or several vectors. You can set their direction and their "
+ "strength. They will act on the corresponding area of the image."
+-msgstr ""
++msgstr "Du kan placera ut en eller flera vektorer. Du kan ange deras riktning och styrka. De verkar på motsvarande område i bilden."
+ 
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:55(term)
+ msgid "Vectors"
+-msgstr ""
++msgstr "Vektorer"
+ 
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:57(para)
+ msgid ""
+ "In the left windows (Vectors) you can manage your vectors. By default, a "
+ "vector is at center. Vectors are red when they are active, and grey when "
+ "they are not with a white point at tip."
+-msgstr ""
++msgstr "I det vänstra fönstret (Vektorer) kan du hantera vektorerna. Som standard finns en vektor i mitten. Vektorer är röda när de är aktiva och grå när de inte är det, med en vit punkt i spetsen."
+ 
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:64(para)
+ msgid ""
+ "By clicking on the <guibutton>Add</guibutton> button, you add a vector at "
+ "center of the window, whereas clicking with the mouse <emphasis>Middle "
+ "Button</emphasis> puts it where you click."
+-msgstr ""
++msgstr "När du klickar på knappen <guibutton>Lägg till</guibutton> lägger du till en vektor i fönstrets mitt, medan ett klick med musens <emphasis>mittenknapp</emphasis> placerar den där du klickar."
+ 
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:78(para)
+ msgid ""
+ "When clicking with the mouse <emphasis>Right Button</emphasis>, the selected "
+ "vector points to where you have clicked."
+-msgstr ""
++msgstr "När du klickar med musens <emphasis>högerknapp</emphasis> pekar den valda vektorn mot den plats där du klickade."
+ 
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:85(para)
+ msgid ""
+ "Clicking on <guibutton>&lt;&lt;</guibutton> and <guibutton>&gt;&gt;</"
+ "guibutton> buttons displaces focus from a vector to another."
+-msgstr ""
++msgstr "När du klickar på knapparna <guibutton>&lt;&lt;</guibutton> och <guibutton>&gt;&gt;</guibutton> flyttas fokus från en vektor till en annan."
+ 
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:92(para)
+ msgid ""
+ "The <guilabel>Delete</guilabel> button allows you to delete the selected "
+ "vector."
+-msgstr ""
++msgstr "Knappen <guilabel>Ta bort</guilabel> låter dig ta bort den valda vektorn."
+ 
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:110(para)
+ msgid ""
+ "This Preview gives you an idea of the action of the various vectors. The "
+ "slider on the right border lets you change the luminosity of this preview."
+-msgstr ""
++msgstr "Förhandsgranskningen ger dig en uppfattning om hur de olika vektorerna verkar. Med reglaget i högerkanten kan du ändra ljusstyrkan i förhandsgranskningen."
+ 
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:118(term)
+ msgid "Type"
+@@ -1963,7 +1964,7 @@
+ "You have there some types to arrange the brush strokes within the selected "
+ "vector domain. Describing them is difficult, but you can see the result in "
+ "the Preview."
+-msgstr ""
++msgstr "Här finns några typer för att ordna penseldragen inom den valda vektorns område. De är svåra att beskriva, men resultatet syns i förhandsgranskningen."
+ 
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:133(para)
+ msgid ""
+@@ -1974,7 +1975,7 @@
+ "Here is an example of a Voronoi's diagram: <placeholder-1/> Here, when this "
+ "option is checked, only the vector closest to a given point of the image "
+ "influences this point."
+-msgstr ""
++msgstr "Ett Voronoi-diagram delar upp ett plan med n huvudpunkter i n polygoner, där varje polygon endast har en av huvudpunkterna och varje annan punkt i polygonen ligger närmare huvudpunkten än någon annan. Varje polygonkant ligger alltså mitt emellan två huvudpunkter. Här är ett exempel på ett Voronoi-diagram: <placeholder-1/> När alternativet är markerat påverkar endast den vektor som ligger närmast en given punkt i bilden den punkten."
+ 
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:153(term)
+ msgid "Angle"
+@@ -1984,27 +1985,27 @@
+ msgid ""
+ "<guilabel>Angle</guilabel>: Direction of the selected vector. This slider "
+ "has the same action as right-clicking (see above)."
+-msgstr ""
++msgstr "<guilabel>Vinkel</guilabel>: Den valda vektorns riktning. Reglaget har samma funktion som ett högerklick (se ovan)."
+ 
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:161(term)
+ msgid "Angle Offset"
+-msgstr ""
++msgstr "Vinkelförskjutning"
+ 
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:163(para)
+ msgid "This slider allows you to change the angle of ALL vectors."
+-msgstr ""
++msgstr "Reglaget låter dig ändra vinkeln för ALLA vektorer."
+ 
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:171(para)
+ msgid ""
+ "This slider acts on the influence domain of the selected vector. This "
+ "influence lowers with distance. Strength is showed with the vector length."
+-msgstr ""
++msgstr "Reglaget påverkar inflytelseområdet för den valda vektorn. Inflytandet minskar med avståndet. Styrkan visas av vektorns längd."
+ 
+ #: src/filters/artistic/GIMPressionist-orientmap.xml:181(para)
+ msgid ""
+ "This slider acts on the length of ALL vectors, and so changes the strength "
+ "of all brush strokes."
+-msgstr ""
++msgstr "Reglaget påverkar längden på ALLA vektorer och ändrar därmed styrkan hos alla penseldrag."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -2050,39 +2051,39 @@
+ #: src/filters/artistic/cubism.xml:38(quote)
+ #: src/filters/artistic/cubism.xml:85(quote)
+ msgid "Cubism"
+-msgstr ""
++msgstr "Kubism"
+ 
+ #: src/filters/artistic/cubism.xml:37(phrase)
+ msgid "Example for the <placeholder-1/>"
+-msgstr ""
++msgstr "Exempel på <placeholder-1/>"
+ 
+ #: src/filters/artistic/cubism.xml:54(para)
+ msgid "Filter <quote>Cubism</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Kubism</quote> har tillämpats"
+ 
+ #: src/filters/artistic/cubism.xml:58(para)
+ msgid ""
+ "The Cubism plug-in modifies the image so that it appears to be constructed "
+ "of small squares of semitransparent tissue paper."
+-msgstr ""
++msgstr "Insticksmodulen Kubism ändrar bilden så att den verkar vara uppbyggd av små kvadrater av halvgenomskinligt silkespapper."
+ 
+ #: src/filters/artistic/cubism.xml:63(para)
+ msgid ""
+ "If setting possibilities of this filter are not enough for you, see <link "
+ "linkend=\"plug-in-gimpressionist\">GIMPressionist</link> filter which offers "
+ "more options."
+-msgstr ""
++msgstr "Om filtrets inställningsmöjligheter inte räcker för dig, se filtret <link linkend=\"plug-in-gimpressionist\">GIMPressionist</link>, som erbjuder fler alternativ."
+ 
+ #: src/filters/artistic/cubism.xml:74(para)
+ msgid ""
+ "You can find this filter through <menuchoice><guimenu>Filters</"
+ "guimenu><guisubmenu>Artistic</guisubmenu><guimenuitem>Cubism</guimenuitem></"
+ "menuchoice>"
+-msgstr ""
++msgstr "Du hittar filtret via <menuchoice><guimenu>Filter</guimenu><guisubmenu>Konstnärligt</guisubmenu><guimenuitem>Kubism</guimenuitem></menuchoice>"
+ 
+ #: src/filters/artistic/cubism.xml:105(term)
+ msgid "Tile Size"
+-msgstr ""
++msgstr "Rutstorlek"
+ 
+ #: src/filters/artistic/cubism.xml:107(para)
+ msgid ""
+@@ -2090,11 +2091,11 @@
+ "This is, in effect, the size of the little squares of tissue paper used in "
+ "generating the new image. The slider can be used, the exact pixel size can "
+ "be entered into the text box, or the arrow buttons can be used."
+-msgstr ""
++msgstr "Variabeln bestämmer storleken, i bildpunkter, på de kvadrater som ska användas. Det är i praktiken storleken på de små silkespapperskvadrater som används för att skapa den nya bilden. Du kan använda reglaget, ange den exakta bildpunktsstorleken i textrutan eller använda pilknapparna."
+ 
+ #: src/filters/artistic/cubism.xml:117(term)
+ msgid "Tile Saturation"
+-msgstr ""
++msgstr "Rutornas mättnad"
+ 
+ #: src/filters/artistic/cubism.xml:119(para)
+ msgid ""
+@@ -2106,11 +2107,11 @@
+ "Background Color is not checked, the entire layer will be rendered black. If "
+ "it is checked and the value here is zero, the background color will fill the "
+ "entire layer."
+-msgstr ""
++msgstr "Variabeln anger hur intensiv färgen i kvadraterna ska vara. Detta påverkar kvadraternas opacitet. Ett högt värde återger kvadraterna mycket intensivt och låter inte underliggande kvadrater synas igenom. Ett lägre värde gör att de underliggande kvadraterna syns bättre genom de övre och ger mer blandning av färgerna. Om värdet är 0 och Använd bakgrundsfärg inte är markerat återges hela lagret svart. Om alternativet är markerat och värdet är noll fyller bakgrundsfärgen hela lagret."
+ 
+ #: src/filters/artistic/cubism.xml:133(term)
+ msgid "Use Background color"
+-msgstr ""
++msgstr "Använd bakgrundsfärg"
+ 
+ #: src/filters/artistic/cubism.xml:135(para)
+ msgid ""
+@@ -2120,7 +2121,7 @@
+ "is black as you can see by setting Tile Saturation to 0. When this option is "
+ "checked, the background color of the Toolbox is used. If your image has an "
+ "Alpha channel, this color scale will also be transparent."
+-msgstr ""
++msgstr "Filtret skapar sina rutor från alla färger i bilden och målar dem med en färgskala som beror på Rutornas mättnad. Med låg rutmättnad låter färgskalan bakgrundsfärgen synas: standardvärdet är svart, vilket du ser genom att sätta Rutornas mättnad till 0. När alternativet är markerat används verktygslådans bakgrundsfärg. Om bilden har en alfakanal blir färgskalan också genomskinlig."
+ 
+ #: src/filters/artistic/cubism.xml:148(quote)
+ msgid "Use BackGround color"
+@@ -2128,31 +2129,31 @@
+ 
+ #: src/filters/artistic/cubism.xml:146(phrase)
+ msgid "Example illustrating the action of the <placeholder-1/> option"
+-msgstr ""
++msgstr "Exempel som visar hur alternativet <placeholder-1/> fungerar"
+ 
+ #: src/filters/artistic/cubism.xml:156(para)
+ msgid "The original image and the color area of Toolbox. BG color is blue."
+-msgstr ""
++msgstr "Den ursprungliga bilden och verktygslådans färgområde. Bakgrundsfärgen är blå."
+ 
+ #: src/filters/artistic/cubism.xml:165(phrase)
+ msgid "The option is not checked"
+-msgstr ""
++msgstr "Alternativet är inte markerat"
+ 
+ #: src/filters/artistic/cubism.xml:172(para)
+ msgid ""
+ "The option is not checked. On the left is no Alpha: background is black. On "
+ "the right is Alpha: background is transparent black."
+-msgstr ""
++msgstr "Alternativet är inte markerat. Till vänster finns ingen alfa: bakgrunden är svart. Till höger finns alfa: bakgrunden är genomskinligt svart."
+ 
+ #: src/filters/artistic/cubism.xml:182(phrase)
+ msgid "The option is checked"
+-msgstr ""
++msgstr "Alternativet är markerat"
+ 
+ #: src/filters/artistic/cubism.xml:189(para)
+ msgid ""
+ "The option is checked. On the left, no Alpha: background is blue. On the "
+ "right, with an Alpha channel, background is transparent blue."
+-msgstr ""
++msgstr "Alternativet är markerat. Till vänster, utan alfa: bakgrunden är blå. Till höger, med en alfakanal: bakgrunden är genomskinligt blå."
+ 
+ #: src/filters/artistic/cubism.xml:201(para)
+ msgid ""
+@@ -2161,7 +2162,7 @@
+ "Then apply the Cubism filter with the desired settings. As a last step, try "
+ "Filters/Map/Make Seamless to adjust the image so it will tile seamlessly in "
+ "your background."
+-msgstr ""
++msgstr "Om du använder detta för att skapa bakgrundsbilder för webbsidor och liknande bör du arbeta med ett litet urval av färger som målats slumpmässigt på en liten kvadrat. Tillämpa sedan filtret Kubism med önskade inställningar. Som sista steg kan du prova Filter/Karta/Gör sömlös för att justera bilden så att den kan upprepas sömlöst i bakgrunden."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -2189,11 +2190,11 @@
+ #: src/filters/artistic/cartoon.xml:37(quote)
+ #: src/filters/artistic/cartoon.xml:79(quote)
+ msgid "Cartoon"
+-msgstr ""
++msgstr "Serieteckning"
+ 
+ #: src/filters/artistic/cartoon.xml:53(para)
+ msgid "Filter <quote>Cartoon</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Serieteckning</quote> har tillämpats"
+ 
+ #: src/filters/artistic/cartoon.xml:57(para)
+ msgid ""
+@@ -2201,14 +2202,14 @@
+ "like a cartoon drawing. Its result is similar to a black felt pen drawing "
+ "subsequently shaded with color. This is achieved by darkening areas that are "
+ "already distinctly darker than their neighborhood."
+-msgstr ""
++msgstr "Filtret Serieteckning ändrar det aktiva lagret eller markeringen så att det liknar en serieteckning. Resultatet liknar en teckning med svart tuschpenna som sedan har skuggats med färg. Detta uppnås genom att göra områden som redan är tydligt mörkare än omgivningen mörkare."
+ 
+ #: src/filters/artistic/cartoon.xml:68(para)
+ msgid ""
+ "You can find this filter in <menuchoice><guimenu>Filters</"
+ "guimenu><guisubmenu>Artistic</guisubmenu><guimenuitem>Cartoon</guimenuitem></"
+ "menuchoice>"
+-msgstr ""
++msgstr "Du hittar filtret i <menuchoice><guimenu>Filter</guimenu><guisubmenu>Konstnärligt</guisubmenu><guimenuitem>Serieteckning</guimenuitem></menuchoice>"
+ 
+ #: src/filters/artistic/cartoon.xml:92(para)
+ msgid ""
+@@ -2216,7 +2217,7 @@
+ "values result in very thick black areas and much less detail in the "
+ "resulting image. Small values result in more subtle pen strokes and more "
+ "details preserved."
+-msgstr ""
++msgstr "Parametern styr storleken på de områden som filtret arbetar med. Stora värden ger mycket tjocka svarta områden och betydligt mindre detaljrikedom i den resulterande bilden. Små värden ger mer subtila pennstreck och bevarar fler detaljer."
+ 
+ #: src/filters/artistic/cartoon.xml:103(para)
+ msgid ""
+@@ -2226,7 +2227,7 @@
+ "lines thicker, darker and sharper. The maximum value makes the lines "
+ "aliased. The best, most natural results are usually achieved with an "
+ "intermediate value."
+-msgstr ""
++msgstr "Parametern styr mängden svart färg som läggs till i bilden. Små värden gör övergången från färgområden till svärtade områden mjukare och själva de mörka linjerna tunnare och mindre framträdande. Större värden gör linjerna tjockare, mörkare och skarpare. Maximivärdet gör linjerna kantiga. Bäst och mest naturligt resultat uppnås vanligen med ett mellanliggande värde."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -2250,50 +2251,48 @@
+ 
+ #: src/filters/artistic/applycanvas.xml:13(title)
+ msgid "Apply Canvas"
+-msgstr ""
++msgstr "Tillämpa canvas"
+ 
+ #: src/filters/artistic/applycanvas.xml:18(tertiary)
+ msgid "Canvas effect"
+-msgstr ""
++msgstr "Canvaseffekt"
+ 
+ #: src/filters/artistic/applycanvas.xml:21(primary)
+ msgid "Canvas"
+-msgstr ""
++msgstr "Canvas"
+ 
+ #: src/filters/artistic/applycanvas.xml:22(secondary)
+-#, fuzzy
+ msgid "effect"
+-msgstr "Välj"
++msgstr "effekt"
+ 
+ #: src/filters/artistic/applycanvas.xml:25(primary)
+ msgid "Canvas effekt"
+-msgstr ""
++msgstr "Canvaseffekt"
+ 
+ #: src/filters/artistic/applycanvas.xml:31(title)
+-#, fuzzy
+ msgid "Example for the <quote>Apply Canvas</quote> filter"
+-msgstr "Exempel för filtret <placeholder-1/>"
++msgstr "Exempel på filtret <quote>Tillämpa canvas</quote>"
+ 
+ #: src/filters/artistic/applycanvas.xml:47(para)
+ msgid "Filter <quote>Apply Canvas</quote> applied"
+-msgstr ""
++msgstr "Filtret <quote>Tillämpa canvas</quote> har tillämpats"
+ 
+ #: src/filters/artistic/applycanvas.xml:51(para)
+ msgid ""
+ "This filter applies a canvas-like effect to the current layer or selection. "
+ "It textures the image as if it were an artist's canvas."
+-msgstr ""
++msgstr "Filtret tillämpar en canvasliknande effekt på det aktuella lagret eller markeringen. Det ger bilden en textur som om den vore målad på en konstnärsduk."
+ 
+ #: src/filters/artistic/applycanvas.xml:59(para)
+ msgid ""
+ "You can find this filter through <menuchoice><guimenu>Filters</"
+ "guimenu><guisubmenu>Artistic</guisubmenu><guimenuitem>Apply Canvas...</"
+ "guimenuitem></menuchoice>."
+-msgstr ""
++msgstr "Du hittar filtret via <menuchoice><guimenu>Filter</guimenu><guisubmenu>Konstnärligt</guisubmenu><guimenuitem>Tillämpa canvas …</guimenuitem></menuchoice>."
+ 
+ #: src/filters/artistic/applycanvas.xml:72(title)
+ msgid "<quote>Apply Canvas</quote> options"
+-msgstr ""
++msgstr "Alternativ för <quote>Tillämpa canvas</quote>"
+ 
+ #: src/filters/artistic/applycanvas.xml:91(term)
+ msgid "Direction"
+@@ -2304,7 +2303,7 @@
+ "Direction sets the starting direction of the canvas render. You can also "
+ "consider that this option gives you the position of the light source which "
+ "lightens the canvas."
+-msgstr ""
++msgstr "Riktning anger startriktningen för canvasåtergivningen. Du kan också betrakta alternativet som placeringen av ljuskällan som belyser canvasen."
+ 
+ #: src/filters/artistic/applycanvas.xml:101(term)
+ msgid "Depth"
+@@ -2314,7 +2313,7 @@
+ msgid ""
+ "The Depth slider controls the apparent depth of the rendered canvas effect "
+ "from 1 (very flat) to 50 (very deep)."
+-msgstr ""
++msgstr "Reglaget Djup styr det upplevda djupet hos den återgivna canvaseffekten från 1 (mycket platt) till 50 (mycket djupt)."
+ 
+ #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+ #: src/filters/artistic/applycanvas.xml:0(None)
