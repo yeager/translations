@@ -276,6 +276,13 @@ som `Period 1/2/3 start`. De översattes konsekvent till `Start för period
 1/2/3`, sparades och lästes tillbaka via Lokalise API. TMX-valideringen
 godkände därefter 4 093 poster.
 
+## Stiebel Eltron: text för strömavbrott
+
+Stiebel Eltrons sensornamn `Blackout text` saknade svensk översättning och
+ingen tidigare Core-post gav en etablerad form. Det översattes till `Text för
+strömavbrott`, sparades och lästes tillbaka via Lokalise API. TMX-valideringen
+godkände 4 094 poster.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
