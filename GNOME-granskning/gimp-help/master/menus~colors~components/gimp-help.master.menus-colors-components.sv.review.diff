@@ -1,0 +1,730 @@
+--- gimp-help.master.menus-colors-components.sv.original.po
++++ gimp-help.master.menus-colors-components.sv.reviewed.po
+@@ -3,7 +3,8 @@
+ "Project-Id-Version: components\n"
+ "POT-Creation-Date: 2009-04-21 13:32+0200\n"
+ "PO-Revision-Date: 2009-02-17 03:33+0100\n"
+-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
++"Language: sv\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -32,7 +33,7 @@
+ #: src/menus/colors/components/recompose.xml:53(primary)
+ #: src/menus/colors/components/recompose.xml:62(quote)
+ msgid "Recompose"
+-msgstr ""
++msgstr "Återuppbygg"
+ 
+ #: src/menus/colors/components/recompose.xml:33(primary)
+ #: src/menus/colors/components/decompose.xml:36(primary)
+@@ -84,7 +85,7 @@
+ 
+ #: src/menus/colors/components/recompose.xml:50(tertiary)
+ msgid "Recompose image from its components"
+-msgstr ""
++msgstr "Återuppbygg bild från dess komponenter"
+ 
+ #: src/menus/colors/components/recompose.xml:57(phrase)
+ #: src/menus/colors/components/decompose.xml:69(phrase)
+@@ -96,15 +97,15 @@
+ #: src/menus/colors/components/recompose.xml:61(phrase)
+ #: src/menus/colors/components/compose.xml:64(phrase)
+ msgid "Example for the <placeholder-1/> command"
+-msgstr ""
++msgstr "Exempel på kommandot <placeholder-1/>"
+ 
+ #: src/menus/colors/components/recompose.xml:70(para)
+ msgid "Original image (decomposed to RGB)"
+-msgstr ""
++msgstr "Originalbild (uppdelad i RGB)"
+ 
+ #: src/menus/colors/components/recompose.xml:78(para)
+ msgid "Command <quote>Recompose</quote> applied"
+-msgstr ""
++msgstr "Kommandot <quote>Återuppbygg</quote> tillämpat"
+ 
+ #: src/menus/colors/components/recompose.xml:82(para)
+ msgid ""
+@@ -112,6 +113,9 @@
+ "unlike the <link linkend=\"plug-in-compose\">Compose</link> command which "
+ "uses a dialog."
+ msgstr ""
++"Det här kommandot bygger direkt upp en bild från dess RGB-, HSV- och andra "
++"komponenter, till skillnad från kommandot <link linkend=\"plug-in-compose\">"
++"Komponera</link> som använder en dialogruta."
+ 
+ #: src/menus/colors/components/recompose.xml:90(phrase)
+ #: src/menus/colors/components/decompose.xml:126(phrase)
+@@ -127,6 +131,10 @@
+ "guisubmenu><guimenuitem>Recompose</guimenuitem></menuchoice>: This command "
+ "is active after using Decompose."
+ msgstr ""
++"Det här kommandot finns på bildfönstrets meny under "
++"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Komponenter</"
++"guisubmenu><guimenuitem>Återuppbygg</guimenuitem></menuchoice>: kommandot "
++"är aktivt efter att Uppdela har använts."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -162,7 +170,7 @@
+ #: src/menus/colors/components/decompose.xml:56(primary)
+ #: src/menus/colors/components/decompose.xml:143(quote)
+ msgid "Decompose"
+-msgstr ""
++msgstr "Uppdela"
+ 
+ #: src/menus/colors/components/decompose.xml:59(primary)
+ #: src/menus/colors/components/compose.xml:33(phrase)
+@@ -171,7 +179,7 @@
+ #: src/menus/colors/components/compose.xml:65(quote)
+ #: src/menus/colors/components/compose.xml:111(quote)
+ msgid "Compose"
+-msgstr ""
++msgstr "Komponera"
+ 
+ #: src/menus/colors/components/decompose.xml:62(primary)
+ msgid "Channel"
+@@ -183,7 +191,7 @@
+ 
+ #: src/menus/colors/components/decompose.xml:73(phrase)
+ msgid "Decomposition to images (RGB)"
+-msgstr ""
++msgstr "Uppdelning till bilder (RGB)"
+ 
+ #: src/menus/colors/components/decompose.xml:80(para)
+ #: src/menus/colors/components/decompose.xml:104(para)
+@@ -197,22 +205,28 @@
+ "Command <quote>Decompose</quote> applied (RGB decomposition) with "
+ "<guilabel>Decompose to layers</guilabel> unchecked."
+ msgstr ""
++"Kommandot <quote>Uppdela</quote> tillämpat (RGB-uppdelning) med "
++"<guilabel>Uppdela till lager</guilabel> avmarkerat."
+ 
+ #: src/menus/colors/components/decompose.xml:97(phrase)
+ msgid "Decomposition to layers (RVB)"
+-msgstr ""
++msgstr "Uppdelning till lager (RVB)"
+ 
+ #: src/menus/colors/components/decompose.xml:112(para)
+ msgid ""
+ "Command <quote>Decompose</quote> applied (RGB decomposition) with "
+ "<guilabel>Decompose to layers</guilabel> checked."
+ msgstr ""
++"Kommandot <quote>Uppdela</quote> tillämpat (RGB-uppdelning) med "
++"<guilabel>Uppdela till lager</guilabel> markerat."
+ 
+ #: src/menus/colors/components/decompose.xml:119(para)
+ msgid ""
+ "This command separates the channels (RGB, HSV, CMYK...) of an image into "
+ "separated images or layers."
+ msgstr ""
++"Det här kommandot delar upp en bilds kanaler (RGB, HSV, CMYK och så vidare) "
++"i separata bilder eller lager."
+ 
+ #: src/menus/colors/components/decompose.xml:130(para)
+ msgid ""
+@@ -220,6 +234,9 @@
+ "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Components</"
+ "guisubmenu><guimenuitem>Decompose…</guimenuitem></menuchoice>."
+ msgstr ""
++"Du hittar kommandot på bildfönstrets meny under "
++"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Komponenter</"
++"guisubmenu><guimenuitem>Uppdela…</guimenuitem></menuchoice>."
+ 
+ #: src/menus/colors/components/decompose.xml:139(phrase)
+ #: src/menus/colors/components/compose.xml:107(phrase)
+@@ -231,17 +248,19 @@
+ #: src/menus/colors/components/compose.xml:111(phrase)
+ #: src/menus/colors/components/channel-mixer.xml:89(phrase)
+ msgid "<placeholder-1/> command options"
+-msgstr ""
++msgstr "Alternativ för kommandot <placeholder-1/>"
+ 
+ #: src/menus/colors/components/decompose.xml:154(phrase)
+ msgid "Extract Channels"
+-msgstr ""
++msgstr "Extrahera kanaler"
+ 
+ #: src/menus/colors/components/decompose.xml:156(para)
+ msgid ""
+ "Following options are described with <link linkend=\"plug-in-decompose-to-"
+ "layers\">Decompose to layers</link> checked."
+ msgstr ""
++"Följande alternativ beskrivs med <link linkend=\"plug-in-decompose-to-"
++"layers\">Uppdela till lager</link> markerat."
+ 
+ #: src/menus/colors/components/decompose.xml:163(phrase)
+ msgid "Color model"
+@@ -252,6 +271,8 @@
+ "If the RGB radio button is clicked, a grey level image is created with three "
+ "layers (Red, Green and Blue), and two channels (Grey and Alpha)."
+ msgstr ""
++"Om RGB-radioknappen klickas skapas en gråskalebild med tre lager (rött, "
++"grönt och blått) och två kanaler (grå och alfa)."
+ 
+ #: src/menus/colors/components/decompose.xml:175(para)
+ msgid ""
+@@ -260,6 +281,10 @@
+ "channel. You can use an extracted grayscale as a selection or mask by saving "
+ "it in a channel (right-click&gt;Select&gt;Save to a channel)."
+ msgstr ""
++"Denna funktion är intressant när du använder tröskelverktyget. Du kan också "
++"utföra åtgärder som att klippa ut, klistra in eller flytta markeringar i en "
++"enskild RGB-kanal. Du kan använda en extraherad gråskala som markering eller "
++"mask genom att spara den i en kanal (högerklicka&gt;Markera&gt;Spara till en kanal)."
+ 
+ #: src/menus/colors/components/decompose.xml:185(term)
+ msgid "RGBA"
+@@ -272,12 +297,17 @@
+ "values of the source image. Full transparent pixels are black and the full "
+ "opaque pixels are white."
+ msgstr ""
++"Om RGBA-radioknappen klickas skapas en bild som liknar RGB-uppdelningen med "
++"ett extra alfalager fyllt med genomskinlighetsvärdena från källbilden. Helt "
++"genomskinliga bildpunkter är svarta och helt ogenomskinliga bildpunkter är vita."
+ 
+ #: src/menus/colors/components/decompose.xml:199(para)
+ msgid ""
+ "This option decomposes image into three greyscaled layers, one for Hue, one "
+ "for Saturation and another for Value."
+ msgstr ""
++"Detta alternativ delar upp bilden i tre gråskalelager: ett för nyans, ett "
++"för mättnad och ett för värde."
+ 
+ #: src/menus/colors/components/decompose.xml:203(para)
+ msgid ""
+@@ -287,6 +317,11 @@
+ "levels are corresponding to intermediate hues on circle: dark grey to "
+ "orange, mid grey to green and light grey to magenta."
+ msgstr ""
++"Även om <guilabel>Nyans</guilabel> är en gråskala representerar den nyanser. "
++"I färgcirkeln är vitt och svart start- och slutpunkter som är överlagrade. "
++"De representerar rött överst i cirkeln. Grå mellanliggande nivåer motsvarar "
++"mellanliggande nyanser i cirkeln: mörkgrått motsvarar orange, mellangrått "
++"grönt och ljusgrått magenta."
+ 
+ #: src/menus/colors/components/decompose.xml:212(para)
+ msgid ""
+@@ -294,10 +329,13 @@
+ "maximum Saturation (pure color) and maximum Value (very bright). Black is "
+ "minimum Saturation (white) and minimum Value (black)."
+ msgstr ""
++"<guilabel>Mättnad</guilabel> och <guilabel>Värde</guilabel>: Vitt är maximal "
++"mättnad (ren färg) och maximalt värde (mycket ljust). Svart är minimal "
++"mättnad (vitt) och minimalt värde (svart)."
+ 
+ #: src/menus/colors/components/decompose.xml:220(term)
+ msgid "HSL"
+-msgstr ""
++msgstr "HSL"
+ 
+ #: src/menus/colors/components/decompose.xml:222(para)
+ msgid ""
+@@ -305,6 +343,9 @@
+ "<emphasis>V</emphasis>alue, the third layer contains the image's "
+ "<emphasis>L</emphasis> component."
+ msgstr ""
++"Detta alternativ liknar <guilabel>HSV</guilabel>. I stället för "
++"<emphasis>V</emphasis>ärde innehåller det tredje lagret bildens "
++"<emphasis>L</emphasis>-komponent."
+ 
+ #: src/menus/colors/components/decompose.xml:230(term)
+ msgid "CMY"
+@@ -315,24 +356,32 @@
+ "This option decomposes image into three greyscaled layers, one for Yellow, "
+ "one for Magenta and another for Cyan."
+ msgstr ""
++"Detta alternativ delar upp bilden i tre gråskalelager: ett för gult, ett "
++"för magenta och ett för cyan."
+ 
+ #: src/menus/colors/components/decompose.xml:236(para)
+ msgid ""
+ "This option might be useful to transfer image into printing softwares with "
+ "CMY capabilities."
+ msgstr ""
++"Detta alternativ kan vara användbart för att överföra bilden till "
++"utskriftsprogram med CMY-stöd."
+ 
+ #: src/menus/colors/components/decompose.xml:245(para)
+ msgid ""
+ "This option is similar at the <guilabel>CMY Decomposing </guilabel> with an "
+ "additional layer for Black."
+ msgstr ""
++"Detta alternativ liknar <guilabel>CMY-uppdelning</guilabel> men har ett "
++"ytterligare lager för svart."
+ 
+ #: src/menus/colors/components/decompose.xml:249(para)
+ msgid ""
+ "This option might be useful to transfer image into printing softwares with "
+ "CMYK capabilities."
+ msgstr ""
++"Detta alternativ kan vara användbart för att överföra bilden till "
++"utskriftsprogram med CMYK-stöd."
+ 
+ #: src/menus/colors/components/decompose.xml:256(term)
+ msgid "Alpha"
+@@ -346,6 +395,11 @@
+ "white. The graytones are smooth transitions of the transparency in the "
+ "source image."
+ msgstr ""
++"Detta alternativ extraherar bildens genomskinlighet, som lagras i "
++"alfakanalen i <link linkend=\"gimp-channel-dialog\">kanaldialogen</link>, "
++"till en separat bild. Helt genomskinliga bildpunkter är svarta och helt "
++"ogenomskinliga bildpunkter är vita. Gråtonerna är mjuka övergångar av "
++"genomskinligheten i källbilden."
+ 
+ #: src/menus/colors/components/decompose.xml:268(term)
+ msgid "LAB"
+@@ -357,6 +411,9 @@
+ "quote> for Luminance, layer <quote>A</quote> for colors between green and "
+ "red, layer <quote>B</quote> for colors between blue and yellow."
+ msgstr ""
++"Detta alternativ delar upp bilden i tre gråskalelager: lager <quote>L</"
++"quote> för luminans, lager <quote>A</quote> för färger mellan grönt och rött "
++"samt lager <quote>B</quote> för färger mellan blått och gult."
+ 
+ #: src/menus/colors/components/decompose.xml:276(para)
+ msgid ""
+@@ -364,6 +421,9 @@
+ "channel is used for the Luminosity while two other channels are used for the "
+ "Colors. The LAB color model is used by Photoshop."
+ msgstr ""
++"LAB-uppdelningen är en färgmodell ur familjen luminans-färg. En kanal "
++"används för ljusstyrkan medan två andra kanaler används för färgerna. "
++"Färgmodellen LAB används av Photoshop."
+ 
+ #: src/menus/colors/components/decompose.xml:287(para)
+ msgid ""
+@@ -371,6 +431,9 @@
+ "values. Each option decomposes image in three greyscaled layers, a layer for "
+ "Luminance and two other for blueness and redness."
+ msgstr ""
++"I <acronym>GIMP</acronym> finns fyra YCbCr-uppdelningar med olika värden. "
++"Varje alternativ delar upp bilden i tre gråskalelager: ett lager för luminans "
++"och två andra för blåhet och rödhet."
+ 
+ #: src/menus/colors/components/decompose.xml:293(para)
+ msgid ""
+@@ -381,10 +444,15 @@
+ "recommended by ITU (International Telecommunication Union) applied to the "
+ "matrix ."
+ msgstr ""
++"Färgmodellen YCbCr, även kallad YUV, används nu för digital video (ursprungligen "
++"för analog PAL-video). Den bygger på idén att människans öga är känsligast för "
++"ljusstyrka och därefter för färger. YCbCr-uppdelningen använder en "
++"transformationsmatris och de olika alternativen är olika värden som ITU "
++"(Internationella teleunionen) rekommenderar för matrisen."
+ 
+ #: src/menus/colors/components/decompose.xml:310(term)
+ msgid "Decompose to Layers"
+-msgstr ""
++msgstr "Uppdela till lager"
+ 
+ #: src/menus/colors/components/decompose.xml:312(para)
+ msgid ""
+@@ -393,10 +461,14 @@
+ "is not checked, every channel is represented with a specific image "
+ "automatically and clearly named in the name bar."
+ msgstr ""
++"Om alternativet är markerat skapas en ny gråskalebild, där varje lager "
++"representerar en av kanalerna i det valda läget. Om alternativet inte är "
++"markerat representeras varje kanal av en särskild bild som automatiskt får "
++"ett tydligt namn i namnlisten."
+ 
+ #: src/menus/colors/components/decompose.xml:323(phrase)
+ msgid "Foreground as registration color"
+-msgstr ""
++msgstr "Förgrund som passfärg"
+ 
+ #: src/menus/colors/components/decompose.xml:326(para)
+ msgid ""
+@@ -407,6 +479,12 @@
+ "thin cross printed in registration black can also be used to check whether "
+ "the printing plates are lined up."
+ msgstr ""
++"Detta alternativ är för specialister. Det är kopplat till CMYK-utskrift. När "
++"det är markerat blir varje bildpunkt med aktuell förgrundsfärg svart i varje "
++"komponent i de uppdelade bilderna eller lagren. Det gör att du kan synliggöra "
++"skärmärken i alla kanaler och ger en användbar referens för inriktning. Ett "
++"tunt kryss som skrivs ut i passvart kan också användas för att kontrollera om "
++"tryckplåtarna är rätt inriktade."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -470,11 +548,11 @@
+ 
+ #: src/menus/colors/components/compose.xml:73(para)
+ msgid "Decomposed image (RGB decomposition)"
+-msgstr ""
++msgstr "Uppdelad bild (RGB-uppdelning)"
+ 
+ #: src/menus/colors/components/compose.xml:81(para)
+ msgid "<quote>Compose</quote> applied"
+-msgstr ""
++msgstr "<quote>Komponera</quote> tillämpat"
+ 
+ #: src/menus/colors/components/compose.xml:85(para)
+ msgid ""
+@@ -482,6 +560,10 @@
+ "for instance from extracted RGB, HSV... components. You can also build an "
+ "image from grayscale images or layers created independently."
+ msgstr ""
++"Detta kommando bygger upp en bild från flera gråskalebilder eller lager, "
++"till exempel från extraherade RGB-, HSV- eller andra komponenter. Du kan "
++"också bygga en bild från gråskalebilder eller lager som skapats oberoende av "
++"varandra."
+ 
+ #: src/menus/colors/components/compose.xml:97(para)
+ msgid ""
+@@ -490,10 +572,14 @@
+ "guisubmenu><guimenuitem>Compose…</guimenuitem></menuchoice>. It is enabled "
+ "if your image is grayscale."
+ msgstr ""
++"Du hittar kommandot på bildfönstrets meny under "
++"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Komponenter</"
++"guisubmenu><guimenuitem>Komponera…</guimenuitem></menuchoice>. Det är "
++"aktiverat om bilden är i gråskala."
+ 
+ #: src/menus/colors/components/compose.xml:121(term)
+ msgid "Compose Channels"
+-msgstr ""
++msgstr "Komponera kanaler"
+ 
+ #: src/menus/colors/components/compose.xml:123(para)
+ msgid ""
+@@ -501,32 +587,37 @@
+ "described in the following <link linkend=\"plug-in-decompose-registered"
+ "\">Decompose</link> command."
+ msgstr ""
++"Där kan du välja vilken färgrymd som ska användas: RGB, HSV och så vidare. "
++"Alternativen beskrivs i det följande kommandot <link linkend=\"plug-in-"
++"decompose-registered\">Uppdela</link>."
+ 
+ #: src/menus/colors/components/compose.xml:132(term)
+ msgid "Channel Representation"
+-msgstr ""
++msgstr "Kanalrepresentation"
+ 
+ #: src/menus/colors/components/compose.xml:134(para)
+ msgid ""
+ "Allows you to select which channel will be affected to each image channel. "
+ "You may use this option, for example, to exchange color channels:"
+ msgstr ""
++"Låter dig välja vilken kanal som ska påverka varje bildkanal. Du kan till "
++"exempel använda detta alternativ för att byta färgkanaler:"
+ 
+ #: src/menus/colors/components/compose.xml:141(phrase)
+ msgid "Channel Representation example: exchange two channels"
+-msgstr ""
++msgstr "Exempel på kanalrepresentation: byt två kanaler"
+ 
+ #: src/menus/colors/components/compose.xml:158(para)
+ msgid "Decomposed to layers"
+-msgstr ""
++msgstr "Uppdelad till lager"
+ 
+ #: src/menus/colors/components/compose.xml:166(para)
+ msgid "Applied Channel Representation"
+-msgstr ""
++msgstr "Tillämpad kanalrepresentation"
+ 
+ #: src/menus/colors/components/compose.xml:174(para)
+ msgid "Composed image"
+-msgstr ""
++msgstr "Komponerad bild"
+ 
+ #: src/menus/colors/components/compose.xml:178(para)
+ msgid ""
+@@ -534,6 +625,9 @@
+ "build the channel, you can give the channel a value from 0 to 255. But note "
+ "that at least one channel must be formed from a layer or image."
+ msgstr ""
++"<guilabel>Maskvärde</guilabel>: I stället för att välja ett lager eller en "
++"bild för att bygga kanalen kan du ge kanalen ett värde från 0 till 255. Men "
++"observera att minst en kanal måste skapas från ett lager eller en bild."
+ 
+ #: src/menus/colors/components/compose.xml:187(para)
+ msgid ""
+@@ -542,6 +636,10 @@
+ "<link linkend=\"glossary-lab\">LAB</link>, you will get interesting color "
+ "effects. Test it!"
+ msgstr ""
++"Om alternativen för Komponera skiljer sig från de för Uppdela, till exempel "
++"om en bild delas upp i <link linkend=\"glossary-rgb\">RGB</link> och sedan "
++"komponeras till <link linkend=\"glossary-lab\">LAB</link>, får du intressanta "
++"färgeffekter. Prova!"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -600,11 +698,11 @@
+ #: src/menus/colors/components/channel-mixer.xml:49(quote)
+ #: src/menus/colors/components/channel-mixer.xml:89(quote)
+ msgid "Channel Mixer"
+-msgstr ""
++msgstr "Kanalblandare"
+ 
+ #: src/menus/colors/components/channel-mixer.xml:37(tertiary)
+ msgid "Channel mixer"
+-msgstr ""
++msgstr "Kanalblandare"
+ 
+ #: src/menus/colors/components/channel-mixer.xml:48(phrase)
+ msgid "Example for the <placeholder-1/> filter"
+@@ -612,13 +710,15 @@
+ 
+ #: src/menus/colors/components/channel-mixer.xml:65(para)
+ msgid "<quote>Channel Mixer</quote> applied"
+-msgstr ""
++msgstr "<quote>Kanalblandare</quote> tillämpad"
+ 
+ #: src/menus/colors/components/channel-mixer.xml:69(para)
+ msgid ""
+ "This command combines values of the RGB channels. It works with images with "
+ "or without an alpha channel. It has monochrome mode and a preview."
+ msgstr ""
++"Detta kommando kombinerar värden för RGB-kanalerna. Det fungerar med bilder "
++"med eller utan alfakanal. Det har monokromt läge och förhandsvisning."
+ 
+ #: src/menus/colors/components/channel-mixer.xml:78(para)
+ msgid ""
+@@ -626,10 +726,13 @@
+ "guimenu><guisubmenu>Components</guisubmenu><guimenuitem>Channel Mixer</"
+ "guimenuitem></menuchoice>."
+ msgstr ""
++"Du hittar kommandot via <menuchoice><guimenu>Färger</"
++"guimenu><guisubmenu>Komponenter</guisubmenu><guimenuitem>Kanalblandare</"
++"guimenuitem></menuchoice>."
+ 
+ #: src/menus/colors/components/channel-mixer.xml:100(term)
+ msgid "Output Channel"
+-msgstr ""
++msgstr "Utdatakanal"
+ 
+ #: src/menus/colors/components/channel-mixer.xml:102(para)
+ msgid ""
+@@ -637,6 +740,9 @@
+ "Blue. It is insensitive when <guilabel>Monochrome</guilabel> option is "
+ "checked."
+ msgstr ""
++"På denna meny väljer du vilken kanal som ska blandas till. Alternativen är "
++"rött, grönt och blått. Den är inaktiv när alternativet <guilabel>Monokrom</"
++"guilabel> är markerat."
+ 
+ #: src/menus/colors/components/channel-mixer.xml:110(term)
+ msgid "Red, Green, Blue"
+@@ -650,10 +756,14 @@
+ "100% corresponds to the value of the channel of the studied pixel in the "
+ "image."
+ msgstr ""
++"Dessa tre reglage anger hur mycket den röda, gröna respektive blå kanalen "
++"bidrar till utdata. Bidraget kan vara negativt. Reglagen går från -200 till "
++"200 och anger den procentandel som tilldelas utdatakanalen. 100 % motsvarar "
++"värdet för den aktuella bildpunktens kanal i bilden."
+ 
+ #: src/menus/colors/components/channel-mixer.xml:122(term)
+ msgid "Monochrome"
+-msgstr ""
++msgstr "Monokrom"
+ 
+ #: src/menus/colors/components/channel-mixer.xml:124(para)
+ msgid ""
+@@ -663,16 +773,22 @@
+ "\">Grayscale</link> in Glossary). Makes the <guilabel>Output Channel</"
+ "guilabel> menu insensitive."
+ msgstr ""
++"Detta alternativ omvandlar RGB-bilden till en RGB-bild i gråskala. Kommandot "
++"Kanalblandare används ofta för detta, eftersom det ofta ger bättre resultat "
++"än andra metoder (se <link linkend=\"glossary-graylevel\">Gråskala</link> i "
++"ordlistan). Menyn <guilabel>Utdatakanal</guilabel> blir inaktiv."
+ 
+ #: src/menus/colors/components/channel-mixer.xml:133(para)
+ msgid ""
+ "The 21%, 72%, 7% settings give you the same gray luminosity (Value) as the "
+ "Grayscale command in Image/Mode. (They were 30%, 59%, 11% in v2.2)."
+ msgstr ""
++"Inställningarna 21 %, 72 %, 7 % ger samma grå ljusstyrka (värde) som "
++"kommandot Gråskala i Bild/Läge. (De var 30 %, 59 %, 11 % i version 2,2)."
+ 
+ #: src/menus/colors/components/channel-mixer.xml:143(term)
+ msgid "Preserve Luminosity"
+-msgstr ""
++msgstr "Bevara ljusstyrka"
+ 
+ #: src/menus/colors/components/channel-mixer.xml:145(para)
+ msgid ""
+@@ -681,6 +797,10 @@
+ "visual ratio between them. So, you can change the relative weight of the "
+ "colors without changing the overall luminosity."
+ msgstr ""
++"Beräkningar kan ge för höga värden och en alltför ljus bild. Detta alternativ "
++"minskar färgkanalernas ljusstyrka samtidigt som ett bra visuellt förhållande "
++"mellan dem bevaras. Därmed kan du ändra färgernas relativa vikt utan att "
++"ändra den sammanlagda ljusstyrkan."
+ 
+ #: src/menus/colors/components/channel-mixer.xml:158(phrase)
+ msgid "Buttons"
+@@ -704,19 +824,19 @@
+ 
+ #: src/menus/colors/components/channel-mixer.xml:174(term)
+ msgid "Reset"
+-msgstr ""
++msgstr "Återställ"
+ 
+ #: src/menus/colors/components/channel-mixer.xml:176(para)
+ msgid "Set default settings."
+-msgstr ""
++msgstr "Ange standardinställningar."
+ 
+ #: src/menus/colors/components/channel-mixer.xml:183(phrase)
+ msgid "How does Channel Mixer work?"
+-msgstr ""
++msgstr "Hur fungerar Kanalblandare?"
+ 
+ #: src/menus/colors/components/channel-mixer.xml:187(term)
+ msgid "In RGB mode"
+-msgstr ""
++msgstr "I RGB-läge"
+ 
+ #: src/menus/colors/components/channel-mixer.xml:189(para)
+ msgid ""
+@@ -726,6 +846,10 @@
+ "original image. It can be increased or decreased. That's why slider ends are "
+ "-200 and 200."
+ msgstr ""
++"I detta läge måste du välja en <guilabel>Utdatakanal</guilabel>. Det är den "
++"kanal som ändras. I dialogrutan är standardvärdet 100 %, vilket motsvarar "
++"kanalens värde i originalbilden. Det kan ökas eller minskas. Därför går "
++"reglagets ändvärden från -200 till 200."
+ 
+ #: src/menus/colors/components/channel-mixer.xml:196(para)
+ msgid ""
+@@ -733,10 +857,13 @@
+ "pixel in the image, the sum of the calculated values for every channel from "
+ "these percentages will be given to the Output Channel. Here is an example:"
+ msgstr ""
++"Tre RGB-reglage låter dig ange en procentandel för varje kanal. För varje "
++"bildpunkt i bilden tilldelas summan av de beräknade kanalvärdena, utifrån "
++"dessa procentandelar, till utdatakanalen. Här är ett exempel:"
+ 
+ #: src/menus/colors/components/channel-mixer.xml:204(phrase)
+ msgid "The original image and its channels"
+-msgstr ""
++msgstr "Originalbilden och dess kanaler"
+ 
+ #: src/menus/colors/components/channel-mixer.xml:211(para)
+ msgid ""
+@@ -745,10 +872,14 @@
+ "the command (0 multiplied by any percentage always gives 0). The result "
+ "can't exceed 255 nor be negative."
+ msgstr ""
++"RGB-värdena för bildpunkterna i röda, gröna, blå och grå rutor visas. Den "
++"svarta rektangeln är särskild, eftersom svart (0;0;0) inte påverkas av "
++"kommandot (0 multiplicerat med vilken procentandel som helst blir alltid 0). "
++"Resultatet kan varken överstiga 255 eller vara negativt."
+ 
+ #: src/menus/colors/components/channel-mixer.xml:223(phrase)
+ msgid "Output channel is red. Green Channel +50"
+-msgstr ""
++msgstr "Utdatakanalen är röd. Grön kanal +50"
+ 
+ #: src/menus/colors/components/channel-mixer.xml:232(para)
+ msgid ""
+@@ -756,28 +887,37 @@
+ "1;0.5;0. The calculation result is 230*1 + 10*0,5 + 10*0 =235. The same "
+ "reasoning is valid for the green and the blue squares."
+ msgstr ""
++"I den röda rutan är bildpunktsvärdena 230;10;10. Relativa värden är 1;0,5;0. "
++"Beräkningen blir 230*1 + 10*0,5 + 10*0 =235. Samma resonemang gäller för de "
++"gröna och blå rutorna."
+ 
+ #: src/menus/colors/components/channel-mixer.xml:239(para)
+ msgid ""
+ "In the gray square, which contains red color, the calculation result is "
+ "above 255. It is reduced to 255. A negative value would be reduced to 0."
+ msgstr ""
++"I den grå rutan, som innehåller röd färg, är beräkningsresultatet över 255. "
++"Det minskas till 255. Ett negativt värde skulle minskas till 0."
+ 
+ #: src/menus/colors/components/channel-mixer.xml:249(phrase)
+ msgid ""
+ "Output channel is red. Green Channel +50%. The Preserve Luminosity option is "
+ "checked."
+ msgstr ""
++"Utdatakanalen är röd. Grön kanal +50 %. Alternativet Bevara ljusstyrka är "
++"markerat."
+ 
+ #: src/menus/colors/components/channel-mixer.xml:259(para)
+ msgid ""
+ "The values attributed to the Red Output channel are lower, preventing a too "
+ "much clear image."
+ msgstr ""
++"Värdena som tilldelas den röda utdatakanalen är lägre, vilket förhindrar en "
++"alltför ljus bild."
+ 
+ #: src/menus/colors/components/channel-mixer.xml:269(term)
+ msgid "In Monochrome mode"
+-msgstr ""
++msgstr "I monokromt läge"
+ 
+ #: src/menus/colors/components/channel-mixer.xml:271(para)
+ msgid ""
+@@ -785,12 +925,16 @@
+ "image is still a RGB image with three channels, until the command action is "
+ "validated."
+ msgstr ""
++"När alternativet är markerat blir bildens förhandsvisning gråskalig, men "
++"bilden är fortfarande en RGB-bild med tre kanaler tills kommandot bekräftas."
+ 
+ #: src/menus/colors/components/channel-mixer.xml:278(phrase)
+ msgid ""
+ "Monochrome option checked. Red: 100% Green: 50% Blue: 0%. Preserve "
+ "Luminosity unchecked."
+ msgstr ""
++"Alternativet Monokrom är markerat. Röd: 100 %, grön: 50 %, blå: 0 %. "
++"Bevara ljusstyrka är avmarkerat."
+ 
+ #: src/menus/colors/components/channel-mixer.xml:288(para)
+ msgid ""
+@@ -798,6 +942,9 @@
+ "value of the Red channel in the original image (The background has been "
+ "painted with pink afterwards to make all squares visible)."
+ msgstr ""
++"I varje ruta har bildpunkterna omvandlats till en grånivå som motsvarar "
++"värdet för den röda kanalen i originalbilden (bakgrunden målades rosa efteråt "
++"för att alla rutor skulle synas)."
+ 
+ #: src/menus/colors/components/channel-mixer.xml:297(para)
+ msgid ""
+@@ -814,6 +961,18 @@
+ "adds up to 100%. Of course, strange things happen when any of the sliders "
+ "have large negative values </quote> (from the plug-in author himself)."
+ msgstr ""
++"Så här fungerar <guilabel>Bevara ljusstyrka</guilabel> i monokromt läge: "
++"<quote>Anta till exempel att reglagen är röd: 75 %, grön: 75 %, blå: 0 %. "
++"När <guilabel>Monokrom</guilabel> är aktivt och alternativet <guilabel>Bevara "
++"ljusstyrka</guilabel> är inaktivt blir den resulterande bilden "
++"75 % + 75 % + 0 % = 150 %, alltså mycket ljus. En bildpunkt med värdet "
++"R,G,B=127,100,80 blir 127*0,75+100*0,75+80*0=170 för varje kanal. När "
++"Bevara ljusstyrka är aktivt skalas reglagen så att summan alltid blir 100 %. "
++"I detta exempel är skalfaktorn 1/(75 %+75 %+0 %), eller 0,667. "
++"Bildpunktsvärdena blir då ungefär 113. Alternativet Bevara ljusstyrka "
++"säkerställer bara att reglagens skalvärden alltid summerar till 100 %. "
++"Naturligtvis händer märkliga saker om något av reglagen har stora negativa "
++"värden</quote> (från insticksmodulens upphovsperson)."
+ 
+ #: src/menus/colors/components/channel-mixer.xml:318(para)
+ msgid ""
+@@ -823,6 +982,11 @@
+ "noise, grain changes. You can use the <link linkend=\"plug-in-decompose-"
+ "registered\">Decompose</link> command."
+ msgstr ""
++"<emphasis>Vilken kanal ska du ändra?</emphasis> Det beror på vad du vill "
++"göra. I princip passar den röda kanalen bra för kontraständringar. Den gröna "
++"kanalen lämpar sig väl för detaljändringar och den blå kanalen för ändringar "
++"av brus och kornighet. Du kan använda kommandot <link linkend=\"plug-in-"
++"decompose-registered\">Uppdela</link>."
+ 
+ #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+ #: src/menus/colors/components/channel-mixer.xml:0(None)

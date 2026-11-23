@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 00:38 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 00:48 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -90,7 +90,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/filters~generic/sv/) | gimp-help-3-0 | 171 | 13 | 120 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/filters~web/sv/) | gimp-help-2-10 | 15 | 10 | 117 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/menus~colors~components/sv/) | gimp-help-2-10 | 14 | 28 | 116 | Behöver arbete | Ej granskad |
-| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~colors~components/sv/) | master | 12 | 35 | 115 | Behöver arbete | Ej granskad |
+| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~colors~components/sv/) | master | 12 | 35 | 115 | Behöver arbete | Klar lokalt (2026-11-23): Samtliga 130 poster i färgmenyns komponentkommandon är lokalt översatta och fuzzy-fria. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/menus~colors~components/gimp-help.master.menus-colors-components.sv.original.po), [granskad](gimp-help/master/menus~colors~components/gimp-help.master.menus-colors-components.sv.reviewed.po), [diff](gimp-help/master/menus~colors~components/gimp-help.master.menus-colors-components.sv.review.diff), [notering](gimp-help/master/menus~colors~components/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/menus~colors~components/sv/) | gimp-help-3-0 | 13 | 35 | 115 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-2-10/menus~colors~map/sv/) | gimp-help-2-10 | 16 | 27 | 115 | Behöver arbete | Ej granskad |
 | Dokumentation | Default (71% translated) | [brasero](https://l10n.gnome.org/vertimus/brasero/gnome-3-8/help/sv/) | gnome-3-8 | 6 | 27 | 111 | Behöver arbete | Ej granskad |
