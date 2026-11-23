@@ -77,3 +77,13 @@ tillbaka via Lokalise API. De är införda i den kanoniska TMX:en, som därefter
 validerade 4 056 poster (3 825 med stabilt Lokalise-id). En direkt kontroll av
 den aktuella sista sidan gav därefter noll oöversatta svenska strängar med
 källtext.
+
+## Tomma Lokalise-nycklar
+
+En livegranskning av samtliga 152 Core-sidor, inklusive arkiverade poster,
+bekräftade åtta — inte 34 — nycklar där både engelsk och svensk text är tom.
+Alla åtta är aktiva. De har felrapporterats som
+[home-assistant/core#193961](https://github.com/home-assistant/core/issues/193961).
+Det är ett separat fel från #193667, som gäller nycklar som helt saknas i
+Lokalise. Revisionsdata och det återanvändbara API-verktyget sparas i
+`yeager/swedish-tm`, grenen `ha-tmx-validator`.
