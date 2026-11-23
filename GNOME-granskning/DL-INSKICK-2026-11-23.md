@@ -39,6 +39,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | gcab | master | po | 6 |
 | obfuscate | master | po | 2 |
 | typography | master | po | 4 |
+| palette | master | po | 3 |
 | plymouth | main | po | 1 |
 | totem-pl-parser | master | po | 1 |
 | template-glib | main | po | 3 |
