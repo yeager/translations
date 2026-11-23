@@ -2,81 +2,265 @@
 +++ realmd.master.sv.reviewed.po
 @@ -11,8 +11,8 @@
  "Project-Id-Version: realmd\n"
- "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/realmd/realmd/-/issues\n"
- "POT-Creation-Date: 2022-09-28 10:46+0200\n"
+ "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/realmd/realmd/issues\n"
+ "POT-Creation-Date: 2026-04-29 17:09+0000\n"
 -"PO-Revision-Date: 2017-09-23 19:12+0000\n"
 -"Last-Translator: Josef Andersson <josef.andersson@fripost.org>\n"
-+"PO-Revision-Date: 2026-11-23 12:00+0100\n"
++"PO-Revision-Date: 2026-11-23 00:00+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
  "Language-Team: Swedish (http://www.transifex.com/freedesktop/realmd/language/"
  "sv/)\n"
  "Language: sv\n"
-@@ -94,7 +94,7 @@
+@@ -44,12 +44,12 @@
+ #: ../service/realm-command.c:588
+ #, c-format
+ msgid "Configured command invalid: %s"
+-msgstr "Konfigurerat kommando ogiltigt: %s"
++msgstr "Konfigurerat kommando är ogiltigt: %s"
  
- #: service/realm-disco-mscldap.c:354 service/realm-disco-rootdse.c:480
+ #: ../service/realm-disco-mscldap.c:198
+ #, c-format
+ msgid "Received invalid or unsupported Netlogon data from server"
+-msgstr "Tog emot ogiltigt eller Netlogon-data som inte stöds från server"
++msgstr "Tog emot ogiltiga Netlogon-data eller Netlogon-data som inte stöds från servern"
+ 
+ #: ../service/realm-disco-mscldap.c:346
+ msgid "LDAP on this system does not support UDP connections"
+@@ -57,7 +57,7 @@
+ 
+ #: ../service/realm-disco-mscldap.c:354 ../service/realm-disco-rootdse.c:538
  msgid "Failed to setup LDAP connection"
 -msgstr ""
-+msgstr "Misslyckades med att konfigurera LDAP-anslutning"
++msgstr "Kunde inte konfigurera LDAP-anslutningen"
  
- #: service/realm-example.c:82 service/realm-samba.c:293
- #: service/realm-sssd-ad.c:362 service/realm-sssd-ipa.c:304
-@@ -297,10 +297,11 @@
+ #: ../service/realm-example.c:82 ../service/realm-samba.c:292
+ #: ../service/realm-sssd-ad.c:365 ../service/realm-sssd-ipa.c:327
+@@ -67,7 +67,7 @@
+ 
+ #: ../service/realm-example.c:170 ../service/realm-samba.c:333
+ msgid "Already joined to a domain"
+-msgstr "Redan anslutit till en domän"
++msgstr "Redan ansluten till en domän"
+ 
+ #: ../service/realm-example.c:178 ../service/realm-example.c:271
+ msgid "Admin name or password is not valid"
+@@ -152,7 +152,7 @@
+ #: ../service/realm-kerberos.c:381
+ #, c-format
+ msgid "Already joined to another domain: %s"
+-msgstr "Redan anslutit till en domän: %s"
++msgstr "Redan ansluten till en annan domän: %s"
+ 
+ #: ../service/realm-kerberos.c:506
+ msgid "Failed to change permitted logins. See diagnostics."
+@@ -246,7 +246,7 @@
+ #: ../service/realm-sssd-ad.c:468 ../service/realm-sssd-ipa.c:331
+ #: ../tools/realm-join.c:242
+ msgid "Already joined to this domain"
+-msgstr "Redan anslutit till denna domän"
++msgstr "Redan ansluten till denna domän"
+ 
+ #: ../service/realm-sssd-ad.c:474 ../service/realm-sssd-ipa.c:335
+ msgid "A domain with this name is already configured"
+@@ -267,10 +267,10 @@
  msgstr "Argumentet computer-ou stöds ej vid anslutning till en IPA-domän."
  
- #: service/realm-sssd-ipa.c:298
+ #: ../service/realm-sssd-ipa.c:321
 -#, fuzzy
++#
  msgid ""
  "The do-not-touch-config option is not supported when joining an IPA domain."
 -msgstr "Argumentet computer-ou stöds ej vid anslutning till en IPA-domän."
-+msgstr ""
-+"Alternativet do-not-touch-config stöds inte vid anslutning till en "
-+"IPA-domän."
++msgstr "Alternativet do-not-touch-config stöds inte vid anslutning till en IPA-domän."
  
- #: service/realm-sssd-ipa.c:466
+ #: ../service/realm-sssd-ipa.c:489
  msgid "Not currently joined to this realm"
-@@ -478,7 +479,7 @@
+@@ -289,10 +289,10 @@
+ msgstr "Avregistrera denna maskin från en sfär"
  
- #: tools/realm-discover.c:188 tools/realm-join.c:318 tools/realm-leave.c:276
+ #: ../tools/realm.c:43
+-#, fuzzy
++#
+ #| msgid "Enroll this machine in a realm"
+ msgid "Renew credentials for this machine in a realm"
+-msgstr "Registrera denna maskin i en sfär"
++msgstr "Förnya autentiseringsuppgifter för denna maskin i en sfär"
+ 
+ #: ../tools/realm.c:44
+ msgid "List known realms"
+@@ -425,11 +425,11 @@
+ 
+ #: ../tools/realm-discover.c:136
+ msgid "Couldn't discover realms"
+-msgstr "Kunde inte upptäcka sfär"
++msgstr "Kunde inte upptäcka sfärer"
+ 
+ #: ../tools/realm-discover.c:156
+ msgid "No default realm discovered"
+-msgstr "Ingen standardsfär upptäckt"
++msgstr "Ingen standardsfär hittades"
+ 
+ #: ../tools/realm-discover.c:158
+ #, c-format
+@@ -462,7 +462,7 @@
+ #: ../tools/realm-discover.c:188 ../tools/realm-join.c:420
+ #: ../tools/realm-leave.c:276 ../tools/realm-renew.c:157
  msgid "Use ldaps to connect to LDAP"
 -msgstr ""
 +msgstr "Använd LDAPS för att ansluta till LDAP"
  
- #: tools/realm-discover.c:277
+ #: ../tools/realm-discover.c:277
  msgid "Show all realms"
-@@ -501,9 +502,8 @@
+@@ -481,25 +481,25 @@
+ msgstr "Ingen sådan sfär hittades"
+ 
+ #: ../tools/realm-join.c:298
+-#, fuzzy
++#
+ #| msgid "Couldn't discover realms"
+ msgid "Failed to discover realm"
+ msgstr "Kunde inte upptäcka sfär"
+ 
+ #: ../tools/realm-join.c:303
+-#, fuzzy
++#
+ #| msgid "No such realm found"
+ msgid "No realm found"
+-msgstr "Ingen sådan sfär hittades"
++msgstr "Ingen sfär hittades"
+ 
+ #: ../tools/realm-join.c:396
+ msgid "Turn off automatic id mapping"
  msgstr "Stäng av automatisk id-mappning"
  
- #: tools/realm-join.c:298
+ #: ../tools/realm-join.c:400
 -#, fuzzy
++#
  msgid "Use specific computer name instead of hostname"
 -msgstr "Använd specifik klientprogramvara"
-+msgstr "Använd ett specifikt datornamn i stället för värdnamn"
++msgstr "Använd ett angivet datornamn i stället för värdnamnet"
  
- #: tools/realm-join.c:300
+ #: ../tools/realm-join.c:402
  msgid "Computer OU DN to join"
-@@ -518,14 +518,12 @@
+@@ -514,14 +514,14 @@
  msgstr "Anslut med ett förinställt engångslösenord"
  
- #: tools/realm-join.c:308
+ #: ../tools/realm-join.c:410
 -#, fuzzy
++#
  msgid "Use specific operation system name"
 -msgstr "Använd specifik klientprogramvara"
-+msgstr "Använd ett specifikt operativsystemsnamn"
++msgstr "Använd ett angivet operativsystemsnamn"
  
- #: tools/realm-join.c:310
+ #: ../tools/realm-join.c:412
 -#, fuzzy
++#
  msgid "Use specific operation system version"
 -msgstr "Använd specifik serverprogramvara"
-+msgstr "Använd en specifik operativsystemsversion"
++msgstr "Använd en angiven operativsystemsversion"
  
- #: tools/realm-join.c:314
+ #: ../tools/realm-join.c:416
  msgid "User name to use for enrollment"
-@@ -537,7 +535,7 @@
+@@ -533,7 +533,7 @@
  
- #: tools/realm-join.c:320
+ #: ../tools/realm-join.c:422
  msgid "Do not change client configuration"
 -msgstr ""
 +msgstr "Ändra inte klientkonfigurationen"
  
- #: tools/realm-join.c:340
+ #: ../tools/realm-join.c:442
  msgid "Specify one realm to join"
+@@ -543,8 +543,8 @@
+ msgid ""
+ "The --no-password argument cannot be used with --one-time-password or --user"
+ msgstr ""
+-"Argumentet--no-password argument kan inte användas med --one-time-password "
+-"eller --user"
++"Argumentet --no-password kan inte användas med --one-time-password eller "
++"--user"
+ 
+ #: ../tools/realm-join.c:452
+ msgid "The --one-time-password argument cannot be used with --user"
+@@ -552,7 +552,7 @@
+ 
+ #: ../tools/realm-join.c:464
+ msgid "Cannot determine if fully-qualified name are used or not"
+-msgstr ""
++msgstr "Kan inte avgöra om fullständiga namn används eller inte"
+ 
+ #: ../tools/realm-join.c:468
+ #, c-format
+@@ -563,6 +563,12 @@
+ "fully-qualified names are recommended, this behaviour can be changed\n"
+ "in sssd.conf file with the 'use_fully_qualified_names = False' option.\n"
+ msgstr ""
++"Observera att du som standard måste använda fullständiga namn\n"
++"vid sökning efter och inloggning av AD-användare, i stället för endast korta namn\n"
++"till exempel 'användarnamn@domän' i stället för endast 'användarnamn'. Även om\n"
++"fullständiga namn rekommenderas kan beteendet ändras\n"
++"i filen sssd.conf med alternativet "
++"'use_fully_qualified_names = False'.\n"
+ 
+ #: ../tools/realm-join.c:475
+ #, c-format
+@@ -573,6 +579,11 @@
+ "fully-qualified names, this behaviour can be changed\n"
+ "in sssd.conf file with the 'use_fully_qualified_names = True' option.\n"
+ msgstr ""
++"Observera att du som standard kan använda korta namn vid sökning efter och\n"
++"inloggning av AD-användare, i stället för fullständiga namn\n"
++"till exempel 'användarnamn' i stället för 'användarnamn@domän'. Om du föredrar\n"
++"fullständiga namn kan beteendet ändras\n"
++"i filen sssd.conf med alternativet 'use_fully_qualified_names = True'.\n"
+ 
+ #: ../tools/realm-leave.c:181 ../tools/realm-leave.c:210
+ msgid "Couldn't leave realm"
+@@ -643,38 +654,38 @@
+ msgstr "Att ange deny utan --all är föråldrat. Använd realm permit --withdraw"
+ 
+ #: ../tools/realm-renew.c:109
+-#, fuzzy
++#
+ #| msgid "Need credentials for leaving this domain"
+ msgid "Cannot renew credentials for this realm"
+-msgstr "Behöver autentiseringsuppgifter för att lämna denna domän"
++msgstr "Kan inte förnya autentiseringsuppgifter för denna sfär"
+ 
+ #: ../tools/realm-renew.c:133
+-#, fuzzy
++#
+ #| msgid "Couldn't read kerberos credentials"
+ msgid "Couldn't renew realm credentials"
+-msgstr "Kunde inte läsa autentiseringsuppgifter för kerberos"
++msgstr "Kunde inte förnya autentiseringsuppgifter för sfären"
+ 
+ #: ../tools/realm-renew.c:159
+ msgid "Path to the keytab"
+-msgstr ""
++msgstr "Sökväg till keytab-filen"
+ 
+ #: ../tools/realm-renew.c:161
+ msgid "Fully-qualified name of the host"
+-msgstr ""
++msgstr "Värdens fullständiga namn"
+ 
+ #: ../tools/realm-renew.c:163
+ msgid "lifetime of the host accounts password in days"
+-msgstr ""
++msgstr "Livslängd för värdkontots lösenord i dagar"
+ 
+ #: ../tools/realm-renew.c:165
+ msgid "Try to update Samba's internal machine account password as well"
+-msgstr ""
++msgstr "Försök även uppdatera Sambas interna lösenord för maskinkontot"
+ 
+ #: ../tools/realm-renew.c:185
+-#, fuzzy
++#
+ #| msgid "Specify one realm to join"
+ msgid "Specify one realm to renew credentials"
+-msgstr "Ange en sfär att ansluta till"
++msgstr "Ange en sfär där autentiseringsuppgifter ska förnyas"
+ 
+ #~ msgid "Discover realm"
+ #~ msgstr "Upptäck sfär"
