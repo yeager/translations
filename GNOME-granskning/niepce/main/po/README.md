@@ -1,12 +1,11 @@
 # niepce — main — svenska UI
 
-- GNOME-status före granskning: 55 översatta, 0 fuzzy, 3 oöversatta.
+- GNOME-status före granskning: 46 aktiva strängar, 0 fuzzy, 0 oöversatta.
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/niepce/main/po/sv/>
-- Granskad rad: `Python editor` → `Python-redigerare`.
-- Åtgärd: Etiketter för Python-redigeraren kompletterades.
-- Ändringar: 3 ny(a) översättning(ar), 0 rättad(e) befintlig(a) sträng(ar).
-- Validering: `msgfmt --check`; ellips kontrollerad.
+- Åtgärd: Rättade nordisk accelerator i kataloginställningarna.
+- Ändringar: 0 nya översättningar, 1 rättad befintlig sträng.
+- Validering: `msgfmt --check` och `l10n-lint` utan fel.
 - Dokumenterade undantag: Python bevaras som produktnamn.
-- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
+- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-23 12:00+0100.
 - GNOME-inskick: inget — enligt arbetsinstruktionen.
-- Slutlig lokal status: 58 översatta, 0 fuzzy, 0 oöversatta.
+- Slutlig lokal status: 46 översatta, 0 fuzzy, 0 oöversatta.

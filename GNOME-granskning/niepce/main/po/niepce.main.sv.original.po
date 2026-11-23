@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: niepce\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/niepce/issues\n"
-"POT-Creation-Date: 2026-10-25 05:06+0000\n"
+"POT-Creation-Date: 2025-02-16 04:44+0000\n"
 "PO-Revision-Date: 2025-03-09 14:43+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -20,24 +20,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.5\n"
 
-#: crates/npc-python/src/editor.blp:8
-msgid "Python editor"
-msgstr ""
-
-#: crates/npc-python/src/editor.blp:18
-msgid "Run"
-msgstr ""
-
-#: data/net.figuiere.Niepce.desktop.in.in:2
+#: data/net.figuiere.Niepce.desktop.in.in:3
 msgid "Niepce Digital"
 msgstr "Niepce Digital"
 
-#: data/net.figuiere.Niepce.desktop.in.in:3
+#: data/net.figuiere.Niepce.desktop.in.in:4
 msgid "Manage and edit your photos"
 msgstr "Hantera och redigera dina foton"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/net.figuiere.Niepce.desktop.in.in:5
+#: data/net.figuiere.Niepce.desktop.in.in:6
 msgid "photo;"
 msgstr "foto;"
 
@@ -69,7 +61,7 @@ msgstr "Förlustfri bildredigering"
 msgid "RAW processing"
 msgstr "RAW-bearbetning"
 
-#: data/net.figuiere.Niepce.metainfo.xml.in.in:21
+#: data/net.figuiere.Niepce.metainfo.xml.in.in:24
 msgid "Hubert Figuière"
 msgstr "Hubert Figuière"
 
@@ -77,33 +69,33 @@ msgstr "Hubert Figuière"
 msgid "Niepce catalog file"
 msgstr "Niepce-katalogfil"
 
-#: niepce-main/src/niepce/ui/dialogs/edit_labels.blp:5
-msgid "Edit Labels"
-msgstr "Redigera etiketter"
-
-#: niepce-main/src/niepce/ui/dialogs/edit_labels.blp:23
+#: niepce-main/src/niepce/ui/dialogs/editlabels.ui:27
 msgid "Label _6"
 msgstr "Etikett _6"
 
-#: niepce-main/src/niepce/ui/dialogs/edit_labels.blp:35
+#: niepce-main/src/niepce/ui/dialogs/editlabels.ui:39
 msgid "Label _7"
 msgstr "Etikett _7"
 
-#: niepce-main/src/niepce/ui/dialogs/edit_labels.blp:47
+#: niepce-main/src/niepce/ui/dialogs/editlabels.ui:51
 msgid "Label _8"
 msgstr "Etikett _8"
 
-#: niepce-main/src/niepce/ui/dialogs/edit_labels.blp:59
+#: niepce-main/src/niepce/ui/dialogs/editlabels.ui:63
 msgid "Label _9"
 msgstr "Etikett _9"
 
-#: niepce-main/src/niepce/ui/dialogs/edit_labels.blp:112
+#: niepce-main/src/niepce/ui/dialogs/editlabels.ui:116
 msgid "Label _10"
 msgstr "Etikett _10"
 
-#: niepce-main/src/niepce/ui/dialogs/edit_labels.blp:192
+#: niepce-main/src/niepce/ui/dialogs/editlabels.ui:196
 msgid "<b>Labels</b>"
 msgstr "<b>Etiketter</b>"
+
+#: niepce-main/src/niepce/ui/dialogs/editlabels.ui:208
+msgid "Edit Labels"
+msgstr "Redigera etiketter"
 
 #: niepce-main/src/niepce/ui/dialogs/import/camera_importer_ui.blp:17
 msgid "Available cameras:"
@@ -113,19 +105,19 @@ msgstr "Tillgängliga kameror:"
 msgid "Select"
 msgstr "Välj"
 
-#: niepce-main/src/niepce/ui/dialogs/import/directory_importer_ui.blp:10
+#: niepce-main/src/niepce/ui/dialogs/import/directory_importer_ui.blp:13
 msgid "_Directory:"
 msgstr "_Mapp:"
 
-#: niepce-main/src/niepce/ui/dialogs/import/directory_importer_ui.blp:25
+#: niepce-main/src/niepce/ui/dialogs/import/directory_importer_ui.blp:22
 msgid "Choose Directory"
 msgstr "Välj mapp"
 
-#: niepce-main/src/niepce/ui/dialogs/import/directory_importer_ui.blp:34
+#: niepce-main/src/niepce/ui/dialogs/import/directory_importer_ui.blp:28
 msgid "Copy files"
 msgstr "Kopiera filer"
 
-#: niepce-main/src/niepce/ui/dialogs/import/directory_importer_ui.blp:42
+#: niepce-main/src/niepce/ui/dialogs/import/directory_importer_ui.blp:32
 msgid "Recursive"
 msgstr "Rekursivt"
 
@@ -137,39 +129,43 @@ msgstr "Importera bilder"
 msgid "_Import"
 msgstr "_Importera"
 
-#: niepce-main/src/niepce/ui/dialogs/import.blp:39
+#: niepce-main/src/niepce/ui/dialogs/import.blp:38
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: niepce-main/src/niepce/ui/dialogs/import.blp:100
+#: niepce-main/src/niepce/ui/dialogs/import.blp:64
+msgid "_Images to import"
+msgstr "_Bilder att importera"
+
+#: niepce-main/src/niepce/ui/dialogs/import.blp:87
 msgid "Destination _Folder:"
 msgstr "Mål_mapp:"
 
-#: niepce-main/src/niepce/ui/dialogs/import.blp:144
+#: niepce-main/src/niepce/ui/dialogs/import.blp:117
 msgid "_Date Sorting:"
 msgstr "_Datumsortering:"
 
-#: niepce-main/src/niepce/ui/dialogs/import.blp:156
+#: niepce-main/src/niepce/ui/dialogs/import.blp:129
 msgid "_Options"
 msgstr "A_lternativ"
 
-#: niepce-main/src/niepce/ui/dialogs/import.blp:186
+#: niepce-main/src/niepce/ui/dialogs/import.blp:159
 msgid "Presets:"
 msgstr "Förval:"
 
-#: niepce-main/src/niepce/ui/dialogs/import.blp:205
+#: niepce-main/src/niepce/ui/dialogs/import.blp:178
 msgid "You can still change this after importing the pictures."
 msgstr "Du kan fortfarande ändra detta efter bilderna importerats."
 
-#: niepce-main/src/niepce/ui/dialogs/import.blp:223
+#: niepce-main/src/niepce/ui/dialogs/import.blp:195
 msgid "Date:"
 msgstr "Datum:"
 
-#: niepce-main/src/niepce/ui/dialogs/import.blp:246
+#: niepce-main/src/niepce/ui/dialogs/import.blp:218
 msgid "Attributes:"
 msgstr "Attribut:"
 
-#: niepce-main/src/niepce/ui/dialogs/import.blp:255
+#: niepce-main/src/niepce/ui/dialogs/import.blp:227
 msgid "Metadata"
 msgstr "Metadata"
 
@@ -209,53 +205,6 @@ msgstr "Använd mörkt gränssnitt"
 msgid "Preferences"
 msgstr "Inställningar"
 
-#: niepce-main/src/niepce/ui/niepce_window.blp:20
-msgid "New Catalog..."
-msgstr "Ny katalog…"
-
-#: niepce-main/src/niepce/ui/niepce_window.blp:21
-msgid "Open Catalog..."
-msgstr "Öppna katalog…"
-
-#: niepce-main/src/niepce/ui/niepce_window.blp:24
-msgid "Hide tools"
-msgstr "Dölj verktyg"
-
-#: niepce-main/src/niepce/ui/niepce_window.blp:25
-msgid "Edit Labels..."
-msgstr "Redigera etiketter…"
-
-#: niepce-main/src/niepce/ui/niepce_window.blp:26
-msgid "Python editor..."
-msgstr ""
-
-#: niepce-main/src/niepce/ui/niepce_window.blp:27
-msgid "Preferences..."
-msgstr "Inställningar…"
-
-#: niepce-main/src/niepce/ui/niepce_window.blp:30
-msgid "Help"
-msgstr "Hjälp"
-
-#: niepce-main/src/niepce/ui/niepce_window.blp:31
-msgid "About"
-msgstr "Om"
-
-#: niepce-main/src/niepce/ui/niepce_window.blp:47
-msgid "Undo"
-msgstr "Ångra"
-
-#: niepce-main/src/niepce/ui/niepce_window.blp:53
-msgid "Redo"
-msgstr "Gör om"
-
-#: niepce-main/src/niepce/ui/niepce_window.blp:60
-msgid "Import..."
-msgstr "Importera…"
-
-#~ msgid "_Images to import"
-#~ msgstr "_Bilder att importera"
-
 #~ msgid "..."
 #~ msgstr "…"
 
@@ -288,6 +237,9 @@ msgstr "Importera…"
 
 #~ msgid "Refresh"
 #~ msgstr "Uppdatera"
+
+#~ msgid "Hide tools"
+#~ msgstr "Dölj verktyg"
 
 #~ msgid "Develop"
 #~ msgstr "Framkalla"
@@ -554,8 +506,32 @@ msgstr "Importera…"
 #~ msgid "Map"
 #~ msgstr "Karta"
 
+#~ msgid "Undo"
+#~ msgstr "Ångra"
+
+#~ msgid "Import..."
+#~ msgstr "Importera…"
+
 #~ msgid "Ready"
 #~ msgstr "Redo"
+
+#~ msgid "New Catalog..."
+#~ msgstr "Ny katalog…"
+
+#~ msgid "Open Catalog..."
+#~ msgstr "Öppna katalog…"
+
+#~ msgid "Edit Labels..."
+#~ msgstr "Redigera etiketter…"
+
+#~ msgid "Preferences..."
+#~ msgstr "Inställningar…"
+
+#~ msgid "Help"
+#~ msgstr "Hjälp"
+
+#~ msgid "About"
+#~ msgstr "Om"
 
 #~ msgid "Label 1"
 #~ msgstr "Etikett 1"
@@ -613,6 +589,9 @@ msgstr "Importera…"
 
 #~ msgid "Quit"
 #~ msgstr "Avsluta"
+
+#~ msgid "Redo"
+#~ msgstr "Gör om"
 
 #~ msgid "Delete"
 #~ msgstr "Ta bort"
