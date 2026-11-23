@@ -1,0 +1,130 @@
+--- translations/GNOME-granskning/solitaire/gnome-50/po/solitaire.gnome-50.sv.original.po	2026-11-23 17:41:31.952921455 +0100
++++ translations/GNOME-granskning/solitaire/gnome-50/po/solitaire.gnome-50.sv.reviewed.po	2026-11-23 17:41:31.961921448 +0100
+@@ -8,8 +8,8 @@
+ "Project-Id-Version: solitaire main\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/wwarner/Solitaire/-/issues\n"
+ "POT-Creation-Date: 2026-07-15 16:06+0000\n"
+-"PO-Revision-Date: 2026-04-05 23:59+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-23 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -47,8 +47,8 @@
+ "Solitaire can figure out if the game you're playing can be won, and will let "
+ "you undo the move that made the game unwinnable."
+ msgstr ""
+-"Soitaire kan räkna ut om spelet du spelar kan vinnas, och kommer låta dig "
+-"ångra draget som gjorde spelet ospelbart."
++"Solitaire kan avgöra om spelet du spelar går att vinna och låter dig ångra "
++"draget som gjorde spelet omöjligt att vinna."
+ 
+ #: data/org.gnome.gitlab.wwarner.Solitaire.metainfo.xml.in.in:18
+ msgid ""
+@@ -108,31 +108,31 @@
+ 
+ #: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:30
+ msgid "Whether to use the custom seed"
+-msgstr ""
++msgstr "Huruvida ett eget startvärde ska användas"
+ 
+ #: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:31
+ msgid "Whether to use the custom seed."
+-msgstr ""
++msgstr "Huruvida ett eget startvärde ska användas."
+ 
+ #: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:35
+ msgid "The seed used for dealing"
+-msgstr ""
++msgstr "Startvärdet som används för givningen"
+ 
+ #: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:36
+ msgid "Used to determine which cards are given in a game."
+-msgstr ""
++msgstr "Används för att bestämma vilka kort som delas ut i ett spel."
+ 
+ #: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:40
+ msgid "Width of the window in pixels"
+-msgstr ""
++msgstr "Fönstrets bredd i bildpunkter"
+ 
+ #: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:44
+ msgid "Height of the window in pixels"
+-msgstr ""
++msgstr "Fönstrets höjd i bildpunkter"
+ 
+ #: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:48
+ msgid "If the window is maximized"
+-msgstr ""
++msgstr "Huruvida fönstret är maximerat"
+ 
+ #. Translators: Replace "translator-credits" with your name/username, and optionally an email or URL.
+ #: src/application.rs:140
+@@ -401,7 +401,7 @@
+ 
+ #: src/games.rs:151
+ msgid "Build Foundations using Free Cells"
+-msgstr "Bygg grundhögar med hjälp av tomma högar"
++msgstr "Bygg grundhögar med hjälp av fria celler"
+ 
+ #: src/games.rs:152
+ msgid "Clear Three Peaks of Cards"
+@@ -426,7 +426,7 @@
+ #: src/preferences-dialog.blp:10
+ msgid "Some preferences will not take effect until the app has been quit"
+ msgstr ""
+-"Några inställningar kommer inte börja gälla förrän programmet har avslutats"
++"Vissa inställningar börjar inte gälla förrän programmet har avslutats"
+ 
+ #: src/preferences-dialog.blp:11
+ msgid "_Quit"
+@@ -466,15 +466,15 @@
+ 
+ #: src/preferences-dialog.blp:45
+ msgid "Use a _Custom Seed for Dealing"
+-msgstr ""
++msgstr "Använd _eget startvärde för givningen"
+ 
+ #: src/preferences-dialog.blp:46
+ msgid "The Seed is a Number used to Determine how Cards are Dealt"
+-msgstr ""
++msgstr "Startvärdet är ett tal som bestämmer hur korten delas ut"
+ 
+ #: src/preferences-dialog.blp:51
+ msgid "Game _Seed"
+-msgstr ""
++msgstr "Spel_startvärde"
+ 
+ #: src/shortcuts-dialog.blp:6
+ msgctxt "shortcut window"
+@@ -518,7 +518,7 @@
+ 
+ #: src/window.rs:518
+ msgid "Unfinished Game"
+-msgstr ""
++msgstr "Oavslutat spel"
+ 
+ #: src/window.rs:618
+ msgid "Do you want to start a new game?"
+@@ -534,10 +534,8 @@
+ msgstr "Starta nytt spel"
+ 
+ #: src/window.rs:626
+-#, fuzzy
+-#| msgid "New Game"
+ msgid "Redeal Game"
+-msgstr "Nytt spel"
++msgstr "Ge om"
+ 
+ #: src/window.rs:627
+ msgid "Keep Current Game"
+@@ -545,7 +543,7 @@
+ 
+ #: src/window.rs:670
+ msgid "Game is no longer winnable"
+-msgstr "Spelet går inte längre vinna"
++msgstr "Spelet går inte längre att vinna"
+ 
+ #: src/window.rs:671
+ msgid "A recent move has made the game impossible to win"
