@@ -1,11 +1,9 @@
-# niepce — main — svenska UI
+# Niepce — main/po
 
-- GNOME-status före granskning: 46 aktiva strängar, 0 fuzzy, 0 oöversatta.
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/niepce/main/po/sv/>
-- Åtgärd: Rättade nordisk accelerator i kataloginställningarna.
-- Ändringar: 0 nya översättningar, 1 rättad befintlig sträng.
-- Validering: `msgfmt --check` och `l10n-lint` utan fel.
-- Dokumenterade undantag: Python bevaras som produktnamn.
-- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-23 12:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
-- Slutlig lokal status: 46 översatta, 0 fuzzy, 0 oöversatta.
+- Aktuell POT: 58 aktiva poster. Den hämtade svenska katalogen hade 3 oöversatta och inga fuzzy-poster; den granskade filen har 0 oöversatta och 0 fuzzy.
+- Granskning: hela katalogen är radgranskad. Python-redigeraren och köråtgärden är ifyllda; importdialogens formuleringar är förtydligade och den nordiska acceleratorn i katalogåteröppning är ersatt med ASCII-accelerator.
+- Acceleratorer: inga `_ä`, `_å` eller `_ö` förekommer.
+- Validering: `msgfmt --check` utan fel. `l10n-lint --language sv` har 0 fel och 0 varningar; en informationsnotis gäller endast att acceleratorn ligger senare i en svensk etikett.
+- Hunspell: Python, RAW och XMP är avsiktliga tekniska termer.
+- GNOME-inskick: inget.
