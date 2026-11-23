@@ -1,0 +1,403 @@
+# Swedish translation of video-trimmer.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2024, 2025, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Video Trimmer\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/YaLTeR/video-trimmer/-/"
+"issues\n"
+"POT-Creation-Date: 2026-07-27 10:34+0000\n"
+"PO-Revision-Date: 2026-11-23 00:00+0100\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
+#. Translators: shown in --help usage line as: video-trimmer [OPTION…] [VIDEO]
+#: src/application.rs:40
+msgid "[VIDEO]"
+msgstr "[VIDEO]"
+
+#. Can't extract filenames from a VariantDict yet.
+#. Translators: --output commandline option description.
+#: src/application.rs:48
+msgid "Output file path"
+msgstr "Utdatafilens sökväg"
+
+#. Translators: --output commandline option arg description.
+#: src/application.rs:50
+msgid "PATH"
+msgstr "SÖKVÄG"
+
+#. Translators: --start commandline option description.
+#: src/application.rs:59
+msgid "Start timestamp"
+msgstr "Starttidsstämpel"
+
+#. Translators: --start commandline option arg description.
+#: src/application.rs:61 src/application.rs:71
+msgid "TIMESTAMP"
+msgstr "TIDSSTÄMPEL"
+
+#. Translators: --end commandline option description.
+#: src/application.rs:70
+msgid "End timestamp"
+msgstr "Sluttidsstämpel"
+
+#. Translators: --precise commandline option description.
+#: src/application.rs:80
+msgid "Precise trim (re-encode)"
+msgstr "Precis trimning (omkodning)"
+
+#. Translators: --remove-audio commandline option description.
+#: src/application.rs:90
+msgid "Remove audio"
+msgstr "Ta bort ljud"
+
+#: src/main.rs:40 src/window.blp:45
+#: data/org.gnome.gitlab.YaLTeR.VideoTrimmer.desktop.in.in:2
+#: data/org.gnome.gitlab.YaLTeR.VideoTrimmer.metainfo.xml.in.in:5
+msgid "Video Trimmer"
+msgstr "Video Trimmer"
+
+#: src/shortcuts.blp:6
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Allmänt"
+
+#: src/shortcuts.blp:9
+msgctxt "shortcut window"
+msgid "Trim"
+msgstr "Trimma"
+
+#: src/shortcuts.blp:14
+msgctxt "shortcut window"
+msgid "Set Start at current postion"
+msgstr "Ställ in startpunkten vid aktuell position"
+
+#: src/shortcuts.blp:19
+msgctxt "shortcut window"
+msgid "Set End at current position"
+msgstr "Ställ in slut till aktuell position"
+
+#: src/shortcuts.blp:26
+msgctxt "shortcut window"
+msgid "New window"
+msgstr "Nytt fönster"
+
+#: src/shortcuts.blp:31
+msgctxt "shortcut window"
+msgid "Close window"
+msgstr "Stäng fönster"
+
+#: src/shortcuts.blp:36
+msgctxt "shortcut window"
+msgid "Keyboard shortcuts"
+msgstr "Tangentbordsgenvägar"
+
+#: src/shortcuts.blp:41
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Avsluta"
+
+#: src/shortcuts.blp:47
+msgctxt "shortcut window"
+msgid "Playback"
+msgstr "Uppspelning"
+
+#: src/shortcuts.blp:50
+msgctxt "shortcut window"
+msgid "Play / Pause"
+msgstr "Spela / Pausa"
+
+#: src/shortcuts.blp:55
+msgctxt "shortcut window"
+msgid "Step forward"
+msgstr "Stega framåt"
+
+#: src/shortcuts.blp:60
+msgctxt "shortcut window"
+msgid "Step back"
+msgstr "Stega bakåt"
+
+#. Translators: Title that is shown if we couldn't load the video track for the opened file (but possibly loaded audio).
+#: src/video_preview.blp:17
+msgid "Could Not Load Video Track"
+msgstr "Kunde inte läsa in videospår"
+
+#. Translators: Description that is shown if we couldn't load the video track for the opened file (but possibly loaded audio).
+#: src/video_preview.blp:20
+msgid ""
+"Maybe the file only has an audio track, or maybe the necessary video codec "
+"is missing."
+msgstr ""
+"Kanske har filen bara ett ljudspår, eller så saknas en nödvändig video-kodek."
+
+#. Translators: file chooser file filter name.
+#: src/window.rs:253
+msgid "Video files"
+msgstr "Videofiler"
+
+#. Translators: file chooser dialog title.
+#: src/window.rs:260
+msgid "Open video"
+msgstr "Öppna video"
+
+#. Translators: error dialog title.
+#: src/window.rs:271 src/window.rs:434 src/window.rs:694
+msgid "Error"
+msgstr "Fel"
+
+#. Translators: error dialog text.
+#: src/window.rs:274 src/window.rs:437 src/window.rs:697
+msgid ""
+"Video Trimmer can only operate on local files. Please choose another file."
+msgstr "Video Trimmer kan bara hantera lokala filer. Välj en annan fil."
+
+#. Translators: error dialog button.
+#: src/window.rs:279 src/window.rs:442 src/window.rs:636 src/window.rs:658
+#: src/window.rs:702
+msgid "_OK"
+msgstr "_OK"
+
+#: src/window.rs:398
+#, rust-format
+msgid " ({} - {})"
+msgstr " ({} - {})"
+
+#. Translators: message dialog text.
+#: src/window.rs:546
+msgid "Trimming…"
+msgstr "Klipper…"
+
+#. Translators: trimming dialog button.
+#: src/window.rs:549
+msgid "_Cancel"
+msgstr "A_vbryt"
+
+#. Translators: text on the toast after trimming was done.
+#. The placeholder is the video filename.
+#: src/window.rs:569
+#, rust-format
+msgid "{} has been saved"
+msgstr "{} har sparats"
+
+#. Translators: text on the button of the toast after
+#. trimming was done to show the output file in the file
+#. manager.
+#: src/window.rs:576
+msgid "Show in Files"
+msgstr "Visa i Filer"
+
+#. Translators: error dialog heading.
+#: src/window.rs:608
+msgid "Error trimming video"
+msgstr "Ett fel inträffade vid videoklippning"
+
+#. Translators: error dialog text before the FFmpeg
+#. error output.
+#: src/window.rs:612
+msgid "Please attach the following information when reporting an issue."
+msgstr "Bifoga följande information då du rapporterar ett problem."
+
+#: src/window.rs:623
+msgid "Could not communicate with the ffmpeg subprocess"
+msgstr "Kunde inte kommunicera med ffmpeg-underprocess"
+
+#. Translators: error dialog text.
+#: src/window.rs:654
+msgid "Could not create the ffmpeg subprocess"
+msgstr "Kunde inte skapa ffmpeg-underprocess"
+
+#. Translators: shown in the About dialog, put your name here.
+#: src/window.rs:919
+msgid "translator-credits"
+msgstr ""
+"Åke Engelbrektson <eson@svenskasprakfiler.se>\n"
+"Oliver Propst <oliver.propst@fripost.org>\n"
+"Luna Jernberg <droidbittin@gmail.com>\n"
+"Anders Jonsson <anders.jonsson@norsjovallen.se>"
+
+#. Translators: link title in the About dialog.
+#: src/window.rs:922
+msgid "Contribute Translations"
+msgstr "Bidra med översättningar"
+
+#. Translators: name of https://gitlab.gnome.org/YaLTeR/identity
+#: src/window.rs:928
+msgid "Identity"
+msgstr "Identity"
+
+#. Translators: summary of https://gitlab.gnome.org/YaLTeR/identity
+#: src/window.rs:930
+msgid "Compare images and videos"
+msgstr "Jämför bilder och videor"
+
+#: src/window.rs:937
+msgid ""
+"This release improves the default output file naming and adds command-line "
+"options."
+msgstr ""
+"Denna utgåva förbättrar standardutdatafilens namn och lägger till "
+"kommandoradsflaggor."
+
+#: src/window.rs:938
+msgid "The default output filename now includes start and end timestamps."
+msgstr ""
+"Standardfilnamnet för utdatafilen innehåller nu start- och "
+"sluttidsstämplar."
+
+#: src/window.rs:939
+msgid ""
+"Added command-line flags for start and end timestamps, precise trimming, and "
+"removing audio."
+msgstr ""
+"Lade till kommandoradsflaggor för start- och sluttidsstämplar, precis trimning "
+"och borttagning av ljud."
+
+#: src/window.rs:940
+msgid "Increased the default window size to make the video 960×540."
+msgstr "Ökade standardfönstrets storlek för att göra videon 960×540."
+
+#: src/window.rs:941
+msgid "Updated to the GNOME 50 platform."
+msgstr "Uppdaterad för GNOME 50-plattformen."
+
+#: src/window.rs:942
+msgid "Updated translations."
+msgstr "Uppdaterade översättningar."
+
+#. Translators: Primary menu entry that opens a new window.
+#: src/window.blp:8
+msgid "_New Window"
+msgstr "_Nytt fönster"
+
+#. Translators: Primary menu entry that opens the Keyboard Shortcuts dialog.
+#: src/window.blp:14
+msgid "_Keyboard Shortcuts"
+msgstr "_Tangentbordsgenvägar"
+
+#. Translators: Primary menu entry that opens the About dialog.
+#: src/window.blp:20
+msgid "_About Video Trimmer"
+msgstr "_Om Video Trimmer"
+
+#. Translators: Options menu entry title that enables accurate trimming with re-encoding.
+#: src/window.blp:32
+msgid "Precise Trim"
+msgstr "Precis trimning"
+
+#. Translators: Options menu entry subtitle that enables accurate trimming with re-encoding.
+#: src/window.blp:34
+msgid "Slower and may lose quality due to re-encoding"
+msgstr "Långsammare och kan minska kvaliteten på grund av omkodning"
+
+#. Translators: Options menu entry that strips audio from the video file.
+#: src/window.blp:39
+msgid "Remove Audio"
+msgstr "Ta bort ljud"
+
+#. Translators: Main menu button tooltip.
+#: src/window.blp:68 src/window.blp:124
+msgid "Main Menu"
+msgstr "Huvudmeny"
+
+#. Translators: Title text on the window when no files are open.
+#: src/window.blp:77
+msgid "Trim Videos"
+msgstr "Klipp videor"
+
+#. Translators: Description text on the window when no files are open.
+#: src/window.blp:80
+msgid "Drag and drop a video here"
+msgstr "Dra och släpp en video här"
+
+#. Translators: Open button label when no files are open.
+#: src/window.blp:84
+msgid "Open Video…"
+msgstr "Öppna video…"
+
+#. Translators: Open button tooltip.
+#: src/window.blp:86
+msgid "Select a Video"
+msgstr "Välj en video"
+
+#. Translators: Trim button.
+#: src/window.blp:110
+msgid "Trim"
+msgstr "Klipp"
+
+#. Translators: Trim button tooltip.
+#: src/window.blp:113
+msgid "Trim Video"
+msgstr "Klipp video"
+
+#. Translators: Title that is shown upon video preview loading error.
+#: src/window.blp:152
+msgid "Video Preview Failed to Load"
+msgstr "Videoförhandsgranskning kunde inte läsas in"
+
+#. Translators: Description that is shown upon video preview loading error.
+#: src/window.blp:155
+msgid ""
+"Please enter the start and end timestamps manually.\n"
+"\n"
+"If you're running Video Trimmer under Flatpak, note that opening files by "
+"drag-and-drop may not work."
+msgstr ""
+"Ange start- och sluttidsstämplarna manuellt.\n"
+"\n"
+"Om du kör Video Trimmer under Flatpak kanske det inte fungerar att öppna "
+"filer med dra-och-släpp."
+
+#. Translators: Label for the entry for the start timestamp.
+#: src/window.blp:175
+msgid "Start"
+msgstr "Start"
+
+#. Translators: Label for the entry for the end timestamp.
+#: src/window.blp:192
+msgid "End"
+msgstr "Slut"
+
+#: data/org.gnome.gitlab.YaLTeR.VideoTrimmer.desktop.in.in:3
+#: data/org.gnome.gitlab.YaLTeR.VideoTrimmer.metainfo.xml.in.in:6
+msgid "Trim videos quickly"
+msgstr "Klipp snabbt i videor"
+
+#. Translators: search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.gitlab.YaLTeR.VideoTrimmer.desktop.in.in:5
+msgid "Cut;Movie;Film;Clip;"
+msgstr "Klipp ur;Film;Filmklipp;Klipp;"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.gitlab.YaLTeR.VideoTrimmer.metainfo.xml.in.in:13
+#: data/org.gnome.gitlab.YaLTeR.VideoTrimmer.metainfo.xml.in.in:15
+msgid "Ivan Molodetskikh"
+msgstr "Ivan Molodetskikh"
+
+#: data/org.gnome.gitlab.YaLTeR.VideoTrimmer.metainfo.xml.in.in:23
+msgid ""
+"Video Trimmer cuts out a fragment of a video given the start and end "
+"timestamps. The video is never re-encoded, so the process is very fast and "
+"does not reduce the video quality."
+msgstr ""
+"Video Trimmer klipper ut en bit av en video med hjälp av start- och "
+"sluttider. Videon kodas aldrig om, så processen är mycket snabb och "
+"försämrar inte videokvaliteten."
+
+#: data/org.gnome.gitlab.YaLTeR.VideoTrimmer.metainfo.xml.in.in:30
+msgid "Main Window"
+msgstr "Huvudfönster"
+
+#~ msgid " (trimmed)"
+#~ msgstr " (trimmad)"
+
+#~ msgid "Open"
+#~ msgstr "Öppna"
+
+#~ msgid "Press the Open button to open a video file."
+#~ msgstr "Tryck på Öppna för att öppna en videofil."
