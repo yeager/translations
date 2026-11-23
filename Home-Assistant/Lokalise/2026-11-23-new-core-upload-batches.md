@@ -117,3 +117,10 @@ Två identiska sensorset för `Active torrents` använde pluralformerna
 `Aktiva torrenter` och `Aktiva torrents`. Transmission-posten normaliserades
 till `Aktiva torrenter`, sparades och lästes tillbaka via Lokalise API. Den
 kanoniska TMX:en validerade sedan 4 060 poster.
+
+## Mediekö
+
+Den generella mediespelarens alternativ `Add to queue` hade det grammatiskt
+ofullständiga `Lägg till i kö`. Det rättades till `Lägg till i kön` i linje med
+Music Assistant-varianten, sparades och lästes tillbaka via Lokalise API.
+TMX-valideringen godkände därefter 4 061 poster.
