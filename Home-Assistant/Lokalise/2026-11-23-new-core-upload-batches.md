@@ -95,3 +95,10 @@ avvikande svenska texten `Godkänn`, medan samma flöde och övriga
 auktoriseringssteg använder `Auktorisera`. Den uppdaterades via Lokalise API,
 lästes tillbaka och lades in i den kanoniska TMX:en. TMX-valideringen efter
 rättelsen godkände 4 057 poster.
+
+## Music Assistant: albumnamn
+
+I två parallella Music Assistant-fältnamn var `Album name` översatt både som
+`Albumets namn` och `Albumnamn`. Båda är korta fältetiketter; den avvikande
+första varianten normaliserades till `Albumnamn`, sparades och lästes tillbaka
+via Lokalise API. Den kanoniska TMX:en validerade sedan 4 058 poster.
