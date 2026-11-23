@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:42 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:44 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -530,7 +530,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [NetworkManager-libreswan](https://l10n.gnome.org/vertimus/networkmanager-libreswan/main/po/sv/) | main | 119 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [NetworkManager-openconnect](https://l10n.gnome.org/vertimus/networkmanager-openconnect/main/po/sv/) | main | 1665 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [NetworkManager-openvpn](https://l10n.gnome.org/vertimus/networkmanager-openvpn/main/po/sv/) | main | 169 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [NetworkManager-pptp](https://l10n.gnome.org/vertimus/networkmanager-pptp/main/po/sv/) | main | 45 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [NetworkManager-pptp](https://l10n.gnome.org/vertimus/networkmanager-pptp/main/po/sv/) | main | 45 | 0 | 0 | Klar | X | 8 | Klar lokalt (2026-11-24): Hela 45-strängarskatalogen är radgranskad mot senaste POT. Åtta befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](networkmanager-pptp/main/po/networkmanager-pptp.main.po.sv.original.po), [granskad](networkmanager-pptp/main/po/networkmanager-pptp.main.po.sv.reviewed.po), [diff](networkmanager-pptp/main/po/networkmanager-pptp.main.po.sv.review.diff), [notering](networkmanager-pptp/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [NetworkManager-vpnc](https://l10n.gnome.org/vertimus/networkmanager-vpnc/main/po/sv/) | main | 60 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [nostalgia — Set historic GNOME wallpapers](https://l10n.gnome.org/vertimus/nostalgia/main/po/sv/) | main | 7 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [ocrfeeder](https://l10n.gnome.org/vertimus/ocrfeeder/master/po/sv/) | master | 321 | 0 | 0 | Klar |  | — | Ej granskad |
