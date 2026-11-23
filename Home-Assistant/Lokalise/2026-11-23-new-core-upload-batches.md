@@ -140,3 +140,10 @@ konfigurations- och omkonfigurationsflödet. Omkonfigurationsposten
 normaliserades från `Programsökväg` till `Applikationssökväg`, sparades och
 lästes tillbaka via Lokalise API. TMX-valideringen godkände därefter 4 062
 poster.
+
+## ZHA: inflygningsavstånd
+
+Två ZHA-fält med källtexten `Approach distance` hade formerna
+`Inflygningsavstånd` respektive `Närmande avstånd`. Det numeriska fältet
+normaliserades till `Inflygningsavstånd`, sparades och lästes tillbaka via
+Lokalise API. TMX-valideringen godkände därefter 4 063 poster.
