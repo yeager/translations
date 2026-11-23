@@ -1,0 +1,167 @@
+diff --git a/.work-gnome-review/grilo-plugins-master-po/original.po b/.work-gnome-review/grilo-plugins-master-po/sv.po
+index c360c1a..6aac306 100644
+--- a/.work-gnome-review/grilo-plugins-master-po/original.po
++++ b/.work-gnome-review/grilo-plugins-master-po/sv.po
+@@ -10,7 +10,7 @@ msgstr ""
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/grilo-plugins/issues/\n"
+ "POT-Creation-Date: 2025-06-19 22:22+0000\n"
+ "PO-Revision-Date: 2020-08-24 17:36+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -29,7 +29,7 @@ msgstr "En källa för att organisera bokmärken för media"
+ 
+ #: src/bookmarks/grl-bookmarks.c:427
+ msgid "Failed to get bookmark metadata"
+-msgstr "Misslyckades med att hämta bokmärkes-metadata"
++msgstr "Misslyckades med att hämta bokmärkesmetadata"
+ 
+ #: src/bookmarks/grl-bookmarks.c:457 src/bookmarks/grl-bookmarks.c:474
+ #, c-format
+@@ -58,37 +58,37 @@ msgstr "Ingen databasanslutning"
+ 
+ #: src/chromaprint/grl-chromaprint.c:41
+ msgid "A plugin to get metadata using gstreamer framework"
+-msgstr "En insticksmodul för att hämta metadata med gstreamer-ramverket"
++msgstr "En insticksmodul för att hämta metadata med GStreamer-ramverket"
+ 
+ #: src/dleyna/grl-dleyna-source.c:34
+ #, c-format
+ msgid "A source for browsing the DLNA server “%s”"
+-msgstr "En källa för att bläddra på DLNA-servern ”%s”"
++msgstr "En källa för att bläddra i DLNA-servern ”%s”"
+ 
+ #: src/dleyna/grl-dleyna-source.c:279
+ msgid "Upload failed, target source destroyed"
+-msgstr "Sändning misslyckades, målkällan förstörd"
++msgstr "Uppladdningen misslyckades, målkällan förstördes"
+ 
+ #: src/dleyna/grl-dleyna-source.c:382
+ #, c-format
+ msgid "Upload failed, “%s”, transferred %lu of %lu bytes"
+-msgstr "Sändning misslyckades, ”%s”, överförde %lu av %lu byte"
++msgstr "Uppladdningen misslyckades, ”%s”, %lu av %lu byte överfördes"
+ 
+ #: src/dleyna/grl-dleyna-source.c:933
+ #, c-format
+ msgid "Failed to retrieve item properties (BrowseObjects error %d: %s)"
+ msgstr ""
+-"Misslyckades med att anskaffa objektegenskaper (BrowseObjects-fel %d: %s)"
++"Misslyckades med att hämta objektegenskaper (BrowseObjects-fel %d: %s)"
+ 
+ #: src/dleyna/grl-dleyna-source.c:1572
+ #, c-format
+ msgid "Upload failed, URL missing on the media object to be transferred"
+-msgstr "Sändning misslyckades, URL saknas på mediaobjektet som ska överföras"
++msgstr "Uppladdningen misslyckades, URL saknas på mediaobjektet som ska överföras"
+ 
+ #: src/dmap/grl-daap.c:51
+ #, c-format
+ msgid "A source for browsing the DAAP server “%s”"
+-msgstr "En källa för att bläddra på DAAP-servern ”%s”"
++msgstr "En källa för att bläddra i DAAP-servern ”%s”"
+ 
+ #: src/dmap/grl-daap-db.c:66 src/magnatune/grl-magnatune.c:122
+ msgid "Albums"
+@@ -106,7 +106,7 @@ msgstr "Ogiltig behållaridentifierare %s"
+ #: src/dmap/grl-dpap.c:51
+ #, c-format
+ msgid "A source for browsing the DPAP server “%s”"
+-msgstr "En källa för att bläddra på DPAP-servern ”%s”"
++msgstr "En källa för att bläddra i DPAP-servern ”%s”"
+ 
+ #: src/dmap/grl-dpap-db.c:40
+ msgid "Photos"
+@@ -160,7 +160,7 @@ msgstr "Freebox Radio"
+ 
+ #: src/freebox/grl-freebox.c:53
+ msgid "A source for browsing Freebox radio channels"
+-msgstr "En källa för att bläddra bland Freebox radio-kanaler"
++msgstr "En källa för att bläddra bland Freebox-radiokanaler"
+ 
+ #: src/gravatar/grl-gravatar.c:46
+ msgid "Avatar provider from Gravatar"
+@@ -207,22 +207,22 @@ msgstr "En källa för att bläddra bland musik"
+ #: src/magnatune/grl-magnatune.c:421
+ #, c-format
+ msgid "Failed to get database from magnatune: %s"
+-msgstr "Misslyckades med att hämta databas från magnatune: %s"
++msgstr "Misslyckades med att hämta databas från Magnatune: %s"
+ 
+ #: src/magnatune/grl-magnatune.c:451
+ #, c-format
+ msgid "Failed to save database from magnatune: “%s”"
+-msgstr "Misslyckades med att spara databas från magnatune: ”%s”"
++msgstr "Misslyckades med att spara databas från Magnatune: ”%s”"
+ 
+ #: src/magnatune/grl-magnatune.c:722
+ #, c-format
+ msgid "Failed to get table from magnatune db: %s"
+-msgstr "Misslyckades med att hämta tabell från magnatunedatabasen: %s"
++msgstr "Misslyckades med att hämta tabell från Magnatune-databasen: %s"
+ 
+ #: src/magnatune/grl-magnatune.c:738
+ #, c-format
+ msgid "Fail before returning media to user: %s"
+-msgstr "Misslyckas innan media överlämnas till användare: %s"
++msgstr "Fel innan media returneras till användaren: %s"
+ 
+ #: src/metadata-store/grl-metadata-store.c:40
+ msgid "Metadata Store"
+@@ -230,7 +230,7 @@ msgstr "Metadata-lager"
+ 
+ #: src/metadata-store/grl-metadata-store.c:41
+ msgid "A plugin for storing extra metadata information"
+-msgstr "En insticksmodul för att lagra extra metadata-information"
++msgstr "En insticksmodul för att lagra ytterligare metadatainformation"
+ 
+ #: src/metadata-store/grl-metadata-store.c:598
+ #: src/metadata-store/grl-metadata-store.c:617
+@@ -267,11 +267,11 @@ msgstr "Sökning misslyckades: %s"
+ 
+ #: src/optical-media/grl-optical-media.c:44
+ msgid "Optical Media"
+-msgstr "Optiskt media"
++msgstr "Optiska medier"
+ 
+ #: src/optical-media/grl-optical-media.c:45
+ msgid "A source for browsing optical media"
+-msgstr "En källa för att bläddra på optiskt media"
++msgstr "En källa för att bläddra bland optiska medier"
+ 
+ #: src/podcasts/grl-podcasts.c:148
+ msgid "A source for browsing podcasts"
+@@ -302,11 +302,11 @@ msgstr "Misslyckades med att hämta information för poddsändning"
+ #: src/podcasts/grl-podcasts.c:1499 src/podcasts/grl-podcasts.c:1519
+ #, c-format
+ msgid "Failed to get podcasts list: %s"
+-msgstr "Misslyckades med att hämta poddsändnings-förteckning: %s"
++msgstr "Misslyckades med att hämta poddsändningsförteckning: %s"
+ 
+ #: src/podcasts/grl-podcasts.c:1572 src/podcasts/grl-podcasts.c:1587
+ msgid "Failed to get podcast stream metadata"
+-msgstr "Misslyckades med att hämta metadata-ström för poddsändning"
++msgstr "Misslyckades med att hämta metadata för poddsändningsström"
+ 
+ #: src/podcasts/grl-podcasts.c:1625
+ msgid "Failed to get podcast metadata"
+@@ -367,7 +367,7 @@ msgstr "Sökfråga misslyckades: %s"
+ #: src/tracker/grl-tracker-source-api.c:585
+ #, c-format
+ msgid "Failed to get media from uri: %s"
+-msgstr "Misslyckades med att hämta media från uri: %s"
++msgstr "Misslyckades med att hämta media från URI: %s"
+ 
+ #: src/tracker3/grl-tracker-source-api.c:605
+ #: src/tracker/grl-tracker-source-api.c:816
+@@ -399,7 +399,7 @@ msgstr "Kategorier"
+ 
+ #: src/youtube/grl-youtube.c:64
+ msgid "Top Rated"
+-msgstr "Högst betyg"
++msgstr "Högst betygsatta"
+ 
+ #: src/youtube/grl-youtube.c:83
+ msgid "A source for browsing and searching YouTube videos"
