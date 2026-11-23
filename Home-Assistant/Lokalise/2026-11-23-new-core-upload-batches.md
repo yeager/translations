@@ -242,6 +242,13 @@ medan nyckeluppslag gav korrekt värde. Exportverktyget i `swedish-tm` använder
 nu cache-busting per sida, så framtida Core-snapshotar inte kan återinföra
 föråldrade TM-värden.
 
+## Theben Conexa: gatewayadress
+
+Theben Conexas svenska instruktion innehöll fortfarande den engelska texten
+`IP of your gateway` i ett kodformaterat IPv6-URL-exempel. Den kompletterades
+till `IP-adressen för din gateway` utan att ändra URL-syntaxen, sparades och
+lästes tillbaka via Lokalise API. TMX-valideringen godkände 4 082 poster.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
