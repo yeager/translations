@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: simple-scan\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/simple-scan/issues\n"
 "POT-Creation-Date: 2026-11-16 20:49+0000\n"
-"PO-Revision-Date: 2026-11-22 00:00+0100\n"
-"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"PO-Revision-Date: 2026-01-27 21:11+0100\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -339,7 +339,7 @@ msgstr "_Skanna"
 
 #: data/ui/app-window.ui:208
 msgid "Scan Options"
-msgstr "Bildläsningsalternativ"
+msgstr "Skanningsalternativ"
 
 #: data/ui/app-window.ui:217
 msgid "Main Menu"
@@ -458,7 +458,7 @@ msgstr "Stoppa pågående skanning"
 #: data/ui/shortcuts-dialog.ui:70
 msgctxt "shortcut window"
 msgid "Document Modification"
-msgstr "Dokumentändring"
+msgstr "Dokumentredigering"
 
 #: data/ui/shortcuts-dialog.ui:74
 msgctxt "shortcut window"
@@ -523,7 +523,7 @@ msgstr "Skanning"
 #. Label beside scan side combo box
 #: data/ui/preferences-dialog.ui:33
 msgid "Scan _Sides"
-msgstr "_Inläsningssida"
+msgstr "Skanna _sidor"
 
 #. Preferences Dialog: Toggle button to select scanning on front side of a page
 #: data/ui/preferences-dialog.ui:42
@@ -543,7 +543,7 @@ msgstr "_Båda"
 #. Label beside page size combo box
 #: data/ui/preferences-dialog.ui:66
 msgid "_Page Size"
-msgstr "Si_dstorlek"
+msgstr "S_idstorlek"
 
 #. Label beside page delay scale
 #: data/ui/preferences-dialog.ui:72
@@ -625,7 +625,10 @@ msgid ""
 "Run a custom post-processing script after saving a document. This can be "
 "used for Optical Character Recognition using ocrmypdf (if installed) with "
 "the \"simple-scan-postprocessing.sh\" script, for example."
-msgstr "Kör ett anpassat efterbehandlingsskript efter att ett dokument har sparats. Det kan till exempel användas för optisk teckenigenkänning med ocrmypdf (om det är installerat) tillsammans med skriptet \"simple-scan-postprocessing.sh\"."
+msgstr ""
+"Kör ett eget skript för efterbehandling när ett dokument har sparats. Det "
+"kan till exempel användas för optisk teckenigenkänning med ocrmypdf (om det "
+"är installerat) och skriptet \"simple-scan-postprocessing.sh\"."
 
 #. Label beside postprocesing script name entry
 #: data/ui/preferences-dialog.ui:204
@@ -832,7 +835,7 @@ msgstr "Kunde inte spara bild för förhandsvisning"
 #. Title of error dialog when email document failed
 #: src/app-window.vala:1226
 msgid "Failed to email document"
-msgstr "Kunde inte skicka dokumentet via e-post"
+msgstr "Misslyckades med att skicka dokumentet med e-post"
 
 #: src/app-window.vala:1288
 msgid "translator-credits"
@@ -1021,7 +1024,7 @@ msgstr "Misslyckades med att installera drivrutiner."
 
 #: src/drivers-dialog.vala:161
 msgid "Once installed you will need to restart this app."
-msgstr "Efter installation kommer du behöva starta om detta program."
+msgstr "Efter installationen kommer du att behöva starta om programmet."
 
 #. Label shown to prompt user to install packages (when PackageKit not available)
 #: src/drivers-dialog.vala:176
@@ -1117,12 +1120,12 @@ msgstr ""
 #. Error display when unable to start scan
 #: src/scanner.vala:1410
 msgid "Unable to start scan"
-msgstr "Kunde inte starta bildläsare"
+msgstr "Kunde inte starta skanningen"
 
 #. Error displayed when communication with scanner broken
 #: src/scanner.vala:1423 src/scanner.vala:1533
 msgid "Error communicating with scanner"
-msgstr "Fel i kommunikation med bildläsare"
+msgstr "Fel vid kommunikation med bildläsaren"
 
 #. Help string for command line --version flag
 #: src/simple-scan.vala:21
@@ -1146,7 +1149,7 @@ msgstr "Misslyckades med att skanna"
 #. Attempt to inhibit the screensaver when scanning
 #: src/simple-scan.vala:1798
 msgid "Scan in progress"
-msgstr "Inläsning pågår"
+msgstr "Skanning pågår"
 
 #. Arguments and description for --help text
 #: src/simple-scan.vala:1982
