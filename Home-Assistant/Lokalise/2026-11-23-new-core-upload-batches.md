@@ -141,6 +141,14 @@ normaliserades från `Programsökväg` till `Applikationssökväg`, sparades och
 lästes tillbaka via Lokalise API. TMX-valideringen godkände därefter 4 062
 poster.
 
+## Anthropic: grundinställningar
+
+Anthropics parallella initieringsrubriker för `Basic settings` hade formerna
+`Grundinställningar` och `Grundläggande inställningar`. AI-task-flödet
+normaliserades till den etablerade, kortare UI-termen `Grundinställningar`,
+sparades och lästes tillbaka via Lokalise API. TMX-valideringen godkände
+därefter 4 069 poster.
+
 ## Ljudhändelse: bebisgråt
 
 Sleep as Androids ljudhändelse `Baby crying` använde `Bäbis ledsen`, medan
