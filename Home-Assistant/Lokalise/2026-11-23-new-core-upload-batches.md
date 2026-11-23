@@ -39,5 +39,13 @@ engelsk källtext och kan därför inte översättas i Lokalise:
 
 De är källprojektets tomma metadata, inte saknade svenska översättningar.
 
+## Semantiska rättningar efter kökontrollen
+
+En separat jämförelse av återkommande korta källsträngar identifierade och
+verifierade 17 svenska inkonsekvenser. De berörde knapptriggers
+(långtryck, tryck, släpp samt dubbel- till femklick), `AI tools`,
+`Add conversation agent` och `Account name`. Varje ändring sparades via
+Lokalise API, lästes tillbaka och fördes in i den kanoniska TMX:en.
+
 Arbetet fortsätter med återstående liveposter; detta dokument gör inget
 anspråk på att Core är helt färdiggranskat.
