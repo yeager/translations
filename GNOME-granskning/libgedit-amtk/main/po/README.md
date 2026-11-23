@@ -5,4 +5,4 @@
 - Granskning: samtliga rader är radgranskade. Formuleringarna är idiomatiska och `%s` är bevarad. Acceleratorn i ”Öppna _senaste” använder ASCII-bokstaven `s`.
 - Ändringar: endast granskaruppgifterna i PO-huvudet har uppdaterats.
 - Validering: `msgfmt --check`, `l10n-lint --check --language sv` och `hunspell -d sv_SE` utan anmärkningar.
-- GNOME-inskick: inget.
+- GNOME-inskick: inskickad 2026-11-23 via Damned Lies API med kommentaren `Granskad och allt ser bra ut`; API:t returnerade `{"result":"OK"}`. Ingen översättningssträng ändrades.
