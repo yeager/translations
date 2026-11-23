@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:55 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:57 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -524,7 +524,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [nautilus](https://l10n.gnome.org/vertimus/nautilus/gnome-50/po/sv/) | gnome-50 | 1167 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [nautilus-ideviceinfo](https://l10n.gnome.org/module/nautilus-ideviceinfo/) | master | 31 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [network-manager-applet](https://l10n.gnome.org/vertimus/network-manager-applet/main/po/sv/) | main | 870 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [network-manager-iodine](https://l10n.gnome.org/vertimus/network-manager-iodine/master/po/sv/) | master | 25 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [network-manager-iodine](https://l10n.gnome.org/vertimus/network-manager-iodine/master/po/sv/) | master | 25 | 0 | 0 | Klar | X | 5 | Klar lokalt (2026-11-24): Hela 25-strängarskatalogen är radgranskad mot senaste POT. Fem befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](network-manager-iodine/master/po/network-manager-iodine.master.po.sv.original.po), [granskad](network-manager-iodine/master/po/network-manager-iodine.master.po.sv.reviewed.po), [diff](network-manager-iodine/master/po/network-manager-iodine.master.po.sv.review.diff), [notering](network-manager-iodine/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [network-manager-sstp](https://l10n.gnome.org/vertimus/network-manager-sstp/master/po/sv/) | master | 73 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [NetworkManager-fortisslvpn](https://l10n.gnome.org/vertimus/networkmanager-fortisslvpn/main/po/sv/) | main | 33 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [NetworkManager-libreswan](https://l10n.gnome.org/vertimus/networkmanager-libreswan/main/po/sv/) | main | 119 | 0 | 0 | Klar |  | — | Ej granskad |
