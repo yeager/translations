@@ -1,0 +1,138 @@
+--- WirePlumber.master.sv.original.po
++++ WirePlumber.master.sv.reviewed.po
+@@ -20,8 +20,8 @@
+ "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pipewire/wireplumber/-/"
+ "issues\n"
+ "POT-Creation-Date: 2026-11-20 12:42+0000\n"
+-"PO-Revision-Date: 2026-02-24 01:32+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-23 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -173,13 +173,15 @@
+ "How long to wait, in milliseconds, before restoring the previous profile "
+ "when recording stops"
+ msgstr ""
++"Hur länge man ska vänta, i millisekunder, innan den föregående profilen "
++"återställs när inspelningen avslutas"
+ 
+ #. /wireplumber.settings.schema/bluetooth.autoswitch-restore-timeout/name
+ #: wireplumber.conf
+-#, fuzzy
++#
+ #| msgid "Auto-switch to headset profile"
+ msgid "Auto-switch restore timeout"
+-msgstr "Växla automatiskt till headset-profil"
++msgstr "Tidsgräns för återställning vid automatisk växling"
+ 
+ #. /wireplumber.settings.schema/bluetooth.autoswitch-switch-timeout/description
+ #: wireplumber.conf
+@@ -187,13 +189,15 @@
+ "How long to wait, in milliseconds, before switching to headset mode when "
+ "recording starts"
+ msgstr ""
++"Hur länge man ska vänta, i millisekunder, innan växling till headsetläge "
++"sker när inspelningen påbörjas"
+ 
+ #. /wireplumber.settings.schema/bluetooth.autoswitch-switch-timeout/name
+ #: wireplumber.conf
+-#, fuzzy
++#
+ #| msgid "Auto-switch to headset profile"
+ msgid "Auto-switch timeout"
+-msgstr "Växla automatiskt till headset-profil"
++msgstr "Tidsgräns för automatisk växling"
+ 
+ #. /wireplumber.settings.schema/bluetooth.autoswitch-to-headset-profile/description
+ #: wireplumber.conf
+@@ -215,11 +219,13 @@
+ "Prefer better quality or better latency when auto-selecting profiles (only "
+ "'quality' or 'latency' values are accepted)"
+ msgstr ""
++"Föredra bättre kvalitet eller lägre latens vid automatiskt profilval "
++"(endast värdena ”quality” och ”latency” godtas)"
+ 
+ #. /wireplumber.settings.schema/bluetooth.profile-preference/name
+ #: wireplumber.conf
+ msgid "Bluetooth profile preference"
+-msgstr ""
++msgstr "Bluetooth-profilinställning"
+ 
+ #. /wireplumber.settings.schema/bluetooth.use-persistent-storage/description
+ #: wireplumber.conf
+@@ -371,10 +377,10 @@
+ 
+ #. /wireplumber.settings.schema/stream.default-capture-volume/description
+ #: wireplumber.conf
+-#, fuzzy
++#
+ #| msgid "The default volume for capture nodes"
+ msgid "The default volume for capture streams"
+-msgstr "Standardvolymen för inspelningsnoder"
++msgstr "Standardvolymen för inspelningsströmmar"
+ 
+ #. /wireplumber.settings.schema/stream.default-capture-volume/name
+ #: wireplumber.conf
+@@ -384,7 +390,7 @@
+ #. /wireplumber.settings.schema/stream.default-media-role/description
+ #: wireplumber.conf
+ msgid "Default media.role to assign on streams that do not specify it"
+-msgstr "media.role att tilldela som standard på strömmar som inte anger den"
++msgstr "Standardvärdet för media.role som ska tilldelas strömmar som inte anger det"
+ 
+ #. /wireplumber.settings.schema/stream.default-media-role/name
+ #: wireplumber.conf
+@@ -393,10 +399,10 @@
+ 
+ #. /wireplumber.settings.schema/stream.default-playback-volume/description
+ #: wireplumber.conf
+-#, fuzzy
++#
+ #| msgid "The default volume for playback nodes"
+ msgid "The default volume for playback streams"
+-msgstr "Standardvolymen för uppspelningsnoder"
++msgstr "Standardvolymen för uppspelningsströmmar"
+ 
+ #. /wireplumber.settings.schema/stream.default-playback-volume/name
+ #: wireplumber.conf
+@@ -405,10 +411,10 @@
+ 
+ #. /wireplumber.settings.schema/stream.features.audio.control-port/description
+ #: wireplumber.conf
+-#, fuzzy
++#
+ #| msgid "Enable control ports on audio nodes"
+ msgid "Enable control ports on audio streams"
+-msgstr "Aktivera styrportar på ljudnoder"
++msgstr "Aktivera styrportar på ljudströmmar"
+ 
+ #. /wireplumber.settings.schema/stream.features.audio.control-port/name
+ #: wireplumber.conf
+@@ -417,10 +423,10 @@
+ 
+ #. /wireplumber.settings.schema/stream.features.audio.monitor-ports/description
+ #: wireplumber.conf
+-#, fuzzy
++#
+ #| msgid "Enable monitor ports on audio nodes"
+ msgid "Enable monitor ports on audio streams"
+-msgstr "Aktivera övervakningsportar på ljudnoder"
++msgstr "Aktivera övervakningsportar på ljudströmmar"
+ 
+ #. /wireplumber.settings.schema/stream.features.audio.monitor-ports/name
+ #: wireplumber.conf
+@@ -429,10 +435,10 @@
+ 
+ #. /wireplumber.settings.schema/stream.features.audio.mono/description
+ #: wireplumber.conf
+-#, fuzzy
++#
+ #| msgid "Configure all audio device sink nodes in MONO"
+ msgid "Configure all audio device sink streams in MONO"
+-msgstr "Konfigurera alla ljudenheters utgångsnoder i MONO"
++msgstr "Konfigurera alla ljudenheters utgångsströmmar som MONO"
+ 
+ #. /wireplumber.settings.schema/stream.features.audio.mono/name
+ #: wireplumber.conf
