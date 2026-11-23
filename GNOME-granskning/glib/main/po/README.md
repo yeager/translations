@@ -8,5 +8,5 @@
 - Validering: `msgfmt --check` godkänd. `l10n-lint` rapporterar 0 fel och 6 äldre varningar; C-formatsträngar och tekniska identifierare kontrollerade.
 - Dokumenterade undantag: `D-Bus`, `URI`, `GUID`, `setuid`, `SYSTEM` och miljövariabeln bevaras som tekniska termer. Kvarvarande lintvarningar gäller äldre dubblettord, skiljetecken och versalisering.
 - Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-23 13:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
+- GNOME-inskick: uppladdad till Damned Lies 2026-11-23 efter reservation, med kommentaren `Granskad och klar` (`{"result":"OK"}).
 - Slutlig lokal status: 1291 översatta, 0 fuzzy, 0 oöversatta.

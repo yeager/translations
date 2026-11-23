@@ -43,6 +43,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | orca | main | po | 17 |
 | rygel | master | po | 3 |
 | sysprof | master | po | 9 |
+| glib | main | po | 22 |
 
 ## DL-blockerare
 
