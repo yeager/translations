@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 23:43 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 23:45 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -561,7 +561,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [quadrapassel](https://l10n.gnome.org/vertimus/quadrapassel/gnome-50/po/sv/) | gnome-50 | 103 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [quadrapassel](https://l10n.gnome.org/vertimus/quadrapassel/main/po/sv/) | main | 86 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [raider](https://l10n.gnome.org/vertimus/raider/main/po/sv/) | main | 38 | 0 | 0 | Klar | X | 4 | Klar lokalt (2026-11-24): Hela 38-strängarskatalogen är radgranskad mot senaste POT. Fyra befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](raider/main/po/raider.main.po.sv.original.po), [granskad](raider/main/po/raider.main.po.sv.reviewed.po), [diff](raider/main/po/raider.main.po.sv.review.diff), [notering](raider/main/po/README.md) |
-| Gränssnitt | Default (99% translated) | [read-it-later](https://l10n.gnome.org/vertimus/read-it-later/master/po/sv/) | master | 70 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [read-it-later](https://l10n.gnome.org/vertimus/read-it-later/master/po/sv/) | master | 70 | 0 | 0 | Klar | X | 3 | Klar lokalt (2026-11-24): Hela 70-strängarskatalogen är radgranskad mot senaste POT. Tre befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](read-it-later/master/po/read-it-later.master.po.sv.original.po), [granskad](read-it-later/master/po/read-it-later.master.po.sv.reviewed.po), [diff](read-it-later/master/po/read-it-later.master.po.sv.review.diff), [notering](read-it-later/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [recipes](https://l10n.gnome.org/module/recipes/) | master | 1101 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [recipes](https://l10n.gnome.org/module/recipes/) | master | 218 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [refine — Tweak various aspects of GNOME](https://l10n.gnome.org/vertimus/refine/main/po/sv/) | main | 85 | 0 | 0 | Klar |  | — | Ej granskad |
