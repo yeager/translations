@@ -382,6 +382,13 @@ använde det engelska suffixet `{hardware_name}s`. De normaliserades till
 Samtliga platshållare och radbrytningar bevarades, sparades och lästes tillbaka
 via Lokalise API. TMX-valideringen godkände 4 111 poster.
 
+## Sensorer: entitetsnamn utan engelskt possessivsuffix
+
+Två sensortriggers använde `{entity_name}s` trots att källan inte är en
+possessivkonstruktion. De normaliserades till `Saldo för {entity_name}` och
+`Instrålningen för {entity_name}`, sparades och lästes tillbaka via Lokalise
+API. TMX-valideringen godkände 4 113 poster.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
