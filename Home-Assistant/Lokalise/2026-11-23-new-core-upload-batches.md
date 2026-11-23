@@ -141,6 +141,13 @@ normaliserades från `Programsökväg` till `Applikationssökväg`, sparades och
 lästes tillbaka via Lokalise API. TMX-valideringen godkände därefter 4 062
 poster.
 
+## Climate-trigger: temperaturbörvärde
+
+Stavningskontrollen på den aktuella liveexporten hittade `temperaturenbörvärdet`
+i en Climate-triggerbeskrivning. Det rättades till `temperaturbörvärdet`,
+sparades och lästes tillbaka via Lokalise API. Den kanoniska TMX:en validerade
+sedan 4 065 poster.
+
 ## ZHA: inflygningsavstånd
 
 Två ZHA-fält med källtexten `Approach distance` hade formerna
