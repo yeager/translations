@@ -201,3 +201,10 @@ temaentitet, medan temat i selector och det grammatiskt motsvarande neutra
 uttrycket är `Häxigt`. Entiteten rättades till `Arkiv > Häxigt`, sparades och
 lästes tillbaka via Lokalise API. TMX-valideringen godkände därefter 4 064
 poster.
+
+## Batteriräckvidd
+
+Teslemetrys fordonsfält `Battery range` avvek med `Batteriets räckvidd`,
+medan motsvarande Tesla Fleet- och Tessie-fält använder `Batteriräckvidd`.
+Teslemetry normaliserades till `Batteriräckvidd`, sparades och lästes tillbaka
+via Lokalise API. TMX-valideringen godkände därefter 4 080 poster.
