@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:11 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:14 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -586,7 +586,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [sound-juicer](https://l10n.gnome.org/vertimus/sound-juicer/master/po/sv/) | master | 224 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [sound-juicer](https://l10n.gnome.org/vertimus/sound-juicer/master/help/sv/) | master | 102 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [squeekboard](https://l10n.gnome.org/vertimus/squeekboard/main/po/sv/) | main | 6 | 0 | 0 | Klar |  | 0 | Externt blockerad (2026-11-23): Hela sexsträngarskatalogen är lokalt komplett: 0 oöversatta, 0 fuzzy och ingen textändring var motiverad. msgfmt, msgcmp och l10n-lint saknar fel. Damned Lies API svarar state None och reservation nekas med HTTP 403, så inskickning är externt blockerad. [original](squeekboard/main/po/squeekboard.main.sv.original.po), [granskad](squeekboard/main/po/squeekboard.main.sv.reviewed.po), [diff](squeekboard/main/po/squeekboard.main.sv.review.diff), [notering](squeekboard/main/po/README.md) |
-| Gränssnitt | Default (99% translated) | [stevia](https://l10n.gnome.org/vertimus/stevia/main/po/sv/) | main | 14 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [stevia](https://l10n.gnome.org/vertimus/stevia/main/po/sv/) | main | 14 | 0 | 0 | Klar | X | 4 | Klar lokalt (2026-11-23): Hela 14-strängarskatalogen är radgranskad mot senaste POT. Fyra befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](stevia/main/po/stevia.main.sv.original.po), [granskad](stevia/main/po/stevia.main.sv.reviewed.po), [diff](stevia/main/po/stevia.main.sv.review.diff), [notering](stevia/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [sushi](https://l10n.gnome.org/vertimus/sushi/gnome-50/po/sv/) | gnome-50 | 19 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [swell-foop](https://l10n.gnome.org/vertimus/swell-foop/gnome-50/po/sv/) | gnome-50 | 76 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [swell-foop](https://l10n.gnome.org/vertimus/swell-foop/main/po/sv/) | main | 76 | 0 | 0 | Klar |  | — | Ej granskad |
