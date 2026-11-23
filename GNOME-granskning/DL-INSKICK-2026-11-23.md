@@ -37,6 +37,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | ModemManager | main | po | 6 |
 | alacarte | master | po | 1 |
 | gcab | master | po | 6 |
+| obfuscate | master | po | 2 |
 | plymouth | main | po | 1 |
 | totem-pl-parser | master | po | 1 |
 | template-glib | main | po | 3 |
