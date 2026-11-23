@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:33 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:35 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -266,7 +266,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [foundry — Developer tools](https://l10n.gnome.org/vertimus/foundry/main/po/sv/) | main | 451 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [four-in-a-row](https://l10n.gnome.org/vertimus/four-in-a-row/master/po/sv/) | master | 136 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [four-in-a-row](https://l10n.gnome.org/vertimus/four-in-a-row/master/help/sv/) | master | 60 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [fprintd](https://l10n.gnome.org/vertimus/fprintd/master/po/sv/) | master | 67 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [fprintd](https://l10n.gnome.org/vertimus/fprintd/master/po/sv/) | master | 67 | 0 | 0 | Klar | X | 5 | Klar lokalt (2026-11-24): Hela 67-strängarskatalogen är radgranskad mot senaste POT. Fem befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp, l10n-lint, Hunspell och formatsträngskontrollen saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](fprintd/master/po/fprintd.master.po.sv.original.po), [granskad](fprintd/master/po/fprintd.master.po.sv.reviewed.po), [diff](fprintd/master/po/fprintd.master.po.sv.review.diff), [notering](fprintd/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [fragments](https://l10n.gnome.org/vertimus/fragments/main/po/sv/) | main | 242 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [Fretboard — Look up guitar chords](https://l10n.gnome.org/vertimus/fretboard/main/po/sv/) | main | 47 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [frogr](https://l10n.gnome.org/vertimus/frogr/master/po/sv/) | master | 189 | 0 | 0 | Klar |  | — | Ej granskad |
