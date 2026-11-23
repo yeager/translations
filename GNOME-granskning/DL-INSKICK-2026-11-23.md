@@ -63,6 +63,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | gimp | master | po-windows-installer | 8 |
 | yelp | master | po | 4 |
 | era | main | po | 9 |
+| app-icon-preview | master | po | 1 |
 
 ## Kompletta granskningar utan ändrade översättningssträngar
 
