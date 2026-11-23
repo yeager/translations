@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 23:07 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 23:08 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -581,7 +581,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [simple-scan](https://l10n.gnome.org/vertimus/simple-scan/master/help/sv/) | master | 111 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [snapshot](https://l10n.gnome.org/vertimus/snapshot/main/po/sv/) | main | 97 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [social](https://l10n.gnome.org/module/social/) | main | 45 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [solanum](https://l10n.gnome.org/vertimus/solanum/main/po/sv/) | main | 44 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [solanum](https://l10n.gnome.org/vertimus/solanum/main/po/sv/) | main | 44 | 0 | 0 | Klar | X | 2 | Klar lokalt (2026-11-24): Hela 44-strängarskatalogen är radgranskad mot senaste POT. Två befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](solanum/main/po/solanum.main.po.sv.original.po), [granskad](solanum/main/po/solanum.main.po.sv.reviewed.po), [diff](solanum/main/po/solanum.main.po.sv.review.diff), [notering](solanum/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [solitaire](https://l10n.gnome.org/vertimus/solitaire/main/po/sv/) | main | 144 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [sound-juicer](https://l10n.gnome.org/vertimus/sound-juicer/master/po/sv/) | master | 224 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [sound-juicer](https://l10n.gnome.org/vertimus/sound-juicer/master/help/sv/) | master | 102 | 0 | 0 | Klar |  | — | Ej granskad |
