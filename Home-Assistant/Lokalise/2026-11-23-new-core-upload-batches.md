@@ -141,6 +141,14 @@ normaliserades från `Programsökväg` till `Applikationssökväg`, sparades och
 lästes tillbaka via Lokalise API. TMX-valideringen godkände därefter 4 062
 poster.
 
+## Ljudhändelse: bebisgråt
+
+Sleep as Androids ljudhändelse `Baby crying` använde `Bäbis ledsen`, medan
+samma detekteringshändelse konsekvent använder `Bebisgråt` i andra
+integrationer. Händelsevärdet normaliserades till `Bebisgråt`, sparades och
+lästes tillbaka via Lokalise API. TMX-valideringen godkände därefter 4 068
+poster.
+
 ## Climate-trigger: temperaturbörvärde
 
 Stavningskontrollen på den aktuella liveexporten hittade `temperaturenbörvärdet`
