@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnote\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnote/issues/\n"
-"POT-Creation-Date: 2026-11-07 20:37+0000\n"
+"POT-Creation-Date: 2026-09-08 18:37+0000\n"
 "PO-Revision-Date: 2026-09-13 12:23+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -546,10 +546,12 @@ msgid "Accept SSL Certificates"
 msgstr "Acceptera SSL-certifikat"
 
 #: data/org.gnome.gnote.gschema.xml:226
-#, fuzzy
-#| msgid "Deprecated, has no effect."
-msgid "Obsolete. Has no effect."
-msgstr "Föråldrad, har ingen effekt."
+msgid ""
+"Use wdfs option \"-ac\" to accept SSL certificates without prompting the "
+"user."
+msgstr ""
+"Använd wdfs-flaggan ”-ac” för att acceptera SSL-certifikat utan att "
+"tillfråga användaren."
 
 #: data/org.gnome.gnote.gschema.xml:230
 msgid "Share URL"
@@ -786,7 +788,7 @@ msgstr "_Ny anteckning"
 msgid "New _Window"
 msgstr "Nytt _fönster"
 
-#: src/actionmanager.cpp:133 src/preferencesdialog.cpp:585
+#: src/actionmanager.cpp:133 src/preferencesdialog.cpp:601
 msgid "_Preferences"
 msgstr "_Inställningar"
 
@@ -811,42 +813,42 @@ msgstr "Misslyckades med att läsa in information om insticksmodul!"
 msgid "Incompatible plug-in %s: expected %s, got %s"
 msgstr "Inkompatibel insticksmodul %s: förväntade %s men fick %s"
 
-#: src/addinmanager.cpp:102
+#: src/addinmanager.cpp:134
 #, c-format
 msgid "Note plugin info %s already present"
 msgstr "Anteckningsinsticksinfon %s redan tillgänglig"
 
-#: src/addinmanager.cpp:109
+#: src/addinmanager.cpp:141
 #, c-format
 msgid "%s does not implement %s"
 msgstr "%s implementerar inte %s"
 
-#: src/addinmanager.cpp:124
+#: src/addinmanager.cpp:156
 #, c-format
 msgid "Note plugin %s already present"
 msgstr "Anteckningsinsticket %s redan tillgängligt"
 
-#: src/addinmanager.cpp:143
+#: src/addinmanager.cpp:175
 #, c-format
 msgid "Note plugin info %s is absent"
 msgstr "Anteckningsinsticksinfon %s saknas"
 
-#: src/addinmanager.cpp:156
+#: src/addinmanager.cpp:188
 #, c-format
 msgid "Note plugin %s is absent"
 msgstr "Anteckningsinsticket %s saknas"
 
-#: src/addinmanager.cpp:188
+#: src/addinmanager.cpp:220
 #, c-format
 msgid "Failed to find module %s for addin %s"
 msgstr "Misslyckades med att hitta modulen %s för tillägget %s"
 
-#: src/addinmanager.cpp:192
+#: src/addinmanager.cpp:224
 #, c-format
 msgid "Failed to load addin info for %s: %s"
 msgstr "Misslyckades med att läsa in tilläggsinfo för %s: %s"
 
-#: src/addinmanager.cpp:357
+#: src/addinmanager.cpp:351
 msgid "Trying to load addins when they are already loaded"
 msgstr "Försöker läsa in tillägg då de redan är inlästa"
 
@@ -1033,7 +1035,7 @@ msgstr "Inkludera alla andra länkade anteckningar"
 #. TODO: Tabbing should go directly from sync prefs widget to here
 #. TODO: Consider connecting to "Enter" pressed in sync prefs widget
 #: src/plugins/exporttohtml/exporttohtmldialog.cpp:46
-#: src/preferencesdialog.cpp:515
+#: src/preferencesdialog.cpp:530
 msgid "_Save"
 msgstr "_Spara"
 
@@ -1151,7 +1153,7 @@ msgid "Online Folder"
 msgstr "Nätmapp"
 
 #: src/plugins/inserttimestamp/inserttimestamp.desktop.in.in:3
-#: src/plugins/inserttimestamp/inserttimestampnoteaddin.cpp:77
+#: src/plugins/inserttimestamp/inserttimestampnoteaddin.cpp:76
 msgid "Insert Timestamp"
 msgstr "Infoga tidsstämpel"
 
@@ -1160,16 +1162,16 @@ msgid "Inserts current date and time at the cursor position."
 msgstr "Infogar aktuellt datum och tid vid markörens position."
 
 #. Label
-#: src/plugins/inserttimestamp/inserttimestamppreferences.cpp:93
+#: src/plugins/inserttimestamp/inserttimestamppreferences.cpp:91
 msgid "Choose one of the predefined formats or use your own."
 msgstr "Välj ett av de fördefinierade formaten eller använd ditt egna format."
 
 #. Use Selected Format
-#: src/plugins/inserttimestamp/inserttimestamppreferences.cpp:99
+#: src/plugins/inserttimestamp/inserttimestamppreferences.cpp:97
 msgid "Use _Selected Format"
 msgstr "Använd _valt format"
 
-#: src/plugins/inserttimestamp/inserttimestamppreferences.cpp:124
+#: src/plugins/inserttimestamp/inserttimestamppreferences.cpp:122
 msgid "_Use Custom Format"
 msgstr "Använd _anpassat format"
 
@@ -1758,7 +1760,7 @@ msgstr "Att ställa in textinnehåll för stängda anteckningar stöds inte"
 
 #. New Note Template
 #. TRANSLATORS: This is 'New Note' Template, not New 'Note Template'
-#: src/notemanagerbase.cpp:112 src/preferencesdialog.cpp:332
+#: src/notemanagerbase.cpp:112 src/preferencesdialog.cpp:339
 msgid "New Note Template"
 msgstr "Ny anteckningsmall"
 
@@ -1976,64 +1978,64 @@ msgstr "Spara _titel"
 msgid "Cannot create note"
 msgstr "Kan inte skapa anteckning"
 
-#: src/notewindow.cpp:998
+#: src/notewindow.cpp:990
 msgid "_Highlight"
 msgstr "_Färgmarkera"
 
-#: src/notewindow.cpp:1002
+#: src/notewindow.cpp:994
 msgid "_Normal"
 msgstr "_Normal"
 
-#: src/notewindow.cpp:1003
+#: src/notewindow.cpp:995
 msgid "S_mall"
 msgstr "_Liten"
 
-#: src/notewindow.cpp:1004
+#: src/notewindow.cpp:996
 msgid "_Large"
 msgstr "_Stor"
 
-#: src/notewindow.cpp:1005
+#: src/notewindow.cpp:997
 msgid "Hu_ge"
 msgstr "_Enorm"
 
-#: src/preferencesdialog.cpp:161
+#: src/preferencesdialog.cpp:164
 msgid "Gnote Preferences"
 msgstr "Inställningar för Gnote"
 
-#: src/preferencesdialog.cpp:168
+#: src/preferencesdialog.cpp:171
 msgid "General"
 msgstr "Allmänt"
 
-#: src/preferencesdialog.cpp:169
+#: src/preferencesdialog.cpp:172
 msgid "Links"
 msgstr "Länkar"
 
 #. TRANSLATORS: Addin category.
-#: src/preferencesdialog.cpp:170 src/sharp/pluginsmodel.cpp:256
+#: src/preferencesdialog.cpp:173 src/sharp/pluginsmodel.cpp:205
 msgid "Synchronization"
 msgstr "Synkronisering"
 
-#: src/preferencesdialog.cpp:171
+#: src/preferencesdialog.cpp:174
 msgid "Plugins"
 msgstr "Insticksmoduler"
 
 #. Button to close dialog.
-#: src/preferencesdialog.cpp:175 src/preferencesdialog.cpp:741
-#: src/preferencesdialog.cpp:971 src/preferencesdialog.cpp:1181
+#: src/preferencesdialog.cpp:178 src/preferencesdialog.cpp:766
+#: src/preferencesdialog.cpp:1003 src/preferencesdialog.cpp:1213
 #: src/synchronization/syncdialog.cpp:343 src/utils.cpp:355
 msgid "_Close"
 msgstr "S_täng"
 
-#: src/preferencesdialog.cpp:217
+#: src/preferencesdialog.cpp:216
 #, c-format
 msgid "Plugin %s is absent"
 msgstr "Insticksmodulen %s saknas"
 
-#: src/preferencesdialog.cpp:266
+#: src/preferencesdialog.cpp:268
 msgid "_Spell check while typing"
 msgstr "_Stavningskontroll när text skrivs in"
 
-#: src/preferencesdialog.cpp:267
+#: src/preferencesdialog.cpp:269
 msgid ""
 "Misspellings will be underlined in red, with correct spelling suggestions "
 "shown in the context menu."
@@ -2042,57 +2044,57 @@ msgstr ""
 "visas i sammanhangsmenyn."
 
 #. Auto bulleted list
-#: src/preferencesdialog.cpp:277
+#: src/preferencesdialog.cpp:279
 msgid "Enable auto-_bulleted lists"
 msgstr "Aktivera a_utomatiska punktlistor"
 
-#: src/preferencesdialog.cpp:278
+#: src/preferencesdialog.cpp:280
 msgid "Start new bulleted list by starting new line with character \"-\"."
 msgstr "Starta en ny punktlista genom att inleda en ny rad med tecknet ”-”."
 
 #. Custom font...
-#: src/preferencesdialog.cpp:282
+#: src/preferencesdialog.cpp:286
 msgid "Use custom _font"
 msgstr "Använd anpassat _typsnitt"
 
 #. Note renaming behavior
-#: src/preferencesdialog.cpp:293
+#: src/preferencesdialog.cpp:300
 msgid "When renaming a linked note: "
 msgstr "När en länkad anteckning byter namn: "
 
-#: src/preferencesdialog.cpp:297
+#: src/preferencesdialog.cpp:304
 msgid "Ask me what to do"
 msgstr "Fråga mig vad som ska göras"
 
-#: src/preferencesdialog.cpp:298
+#: src/preferencesdialog.cpp:305
 msgid "Never rename links"
 msgstr "Byt aldrig namn på länkar"
 
-#: src/preferencesdialog.cpp:299
+#: src/preferencesdialog.cpp:306
 msgid "Always rename links"
 msgstr "Byt alltid namn på länkar"
 
 #. Color scheme
-#: src/preferencesdialog.cpp:312
+#: src/preferencesdialog.cpp:319
 msgid "Color Scheme: "
 msgstr "Färgschema: "
 
 #. TRANSLATORS: Option to follow the system color scheme setting
-#: src/preferencesdialog.cpp:316
+#: src/preferencesdialog.cpp:323
 msgid "Follow the System"
 msgstr "Följ systemet"
 
 #. TRANSLATORS: Option to use dark variant of the theme
-#: src/preferencesdialog.cpp:318
+#: src/preferencesdialog.cpp:325
 msgid "Dark"
 msgstr "Mörkt"
 
 #. TRANSLATORS: Option to use light variant of the theme
-#: src/preferencesdialog.cpp:320
+#: src/preferencesdialog.cpp:327
 msgid "Light"
 msgstr "Ljust"
 
-#: src/preferencesdialog.cpp:333
+#: src/preferencesdialog.cpp:340
 msgid ""
 "Use the new note template to specify the text that should be used when "
 "creating a new note."
@@ -2100,27 +2102,27 @@ msgstr ""
 "Använd den nya anteckningsmallen för att ange texten som ska användas när en "
 "ny anteckning skapas."
 
-#: src/preferencesdialog.cpp:338
+#: src/preferencesdialog.cpp:345
 msgid "Open New Note Template"
 msgstr "Öppna ny anteckningsmall"
 
 #. internal links
-#: src/preferencesdialog.cpp:382
+#: src/preferencesdialog.cpp:390
 msgid "_Automatically link to notes"
 msgstr "Länka _automatiskt till anteckningar"
 
-#: src/preferencesdialog.cpp:383
+#: src/preferencesdialog.cpp:391
 msgid "Enable this option to create a link when text matches note title."
 msgstr ""
 "Aktivera detta alternativ för att skapa en länk när text matchar titeln på "
 "en anteckning."
 
 #. URLs
-#: src/preferencesdialog.cpp:387
+#: src/preferencesdialog.cpp:397
 msgid "Create links for _URLs"
 msgstr "Skapa länkar för _URL:er"
 
-#: src/preferencesdialog.cpp:388
+#: src/preferencesdialog.cpp:398
 msgid ""
 "Enable this option to create links for URLs. Clicking will open URL with "
 "appropriate program."
@@ -2129,11 +2131,11 @@ msgstr ""
 "kommer öppnas med lämpligt program."
 
 #. WikiWords...
-#: src/preferencesdialog.cpp:392
+#: src/preferencesdialog.cpp:405
 msgid "Highlight _WikiWords"
 msgstr "Färgmarkera _WikiOrd"
 
-#: src/preferencesdialog.cpp:393
+#: src/preferencesdialog.cpp:406
 msgid ""
 "Enable this option to highlight words <b>ThatLookLikeThis</b>. Clicking the "
 "word will create a note with that name."
@@ -2141,62 +2143,62 @@ msgstr ""
 "Aktivera detta alternativ för att färgmarkera ord <b>SomSerUtSomDetta</b>. "
 "Att klicka på ett sådant kommer att skapa en anteckning med dess namn."
 
-#: src/preferencesdialog.cpp:412
+#: src/preferencesdialog.cpp:427
 msgid "Ser_vice:"
 msgstr "T_jänst:"
 
-#: src/preferencesdialog.cpp:477
+#: src/preferencesdialog.cpp:492
 msgid "Automatic background s_ync interval (minutes)"
 msgstr "Intervall för automatisk bakgrundssynkronisering (minuter)"
 
 #. "Advanced..." button to bring up extra sync config dialog
-#: src/preferencesdialog.cpp:499
+#: src/preferencesdialog.cpp:514
 msgid "_Advanced..."
 msgstr "_Avancerat…"
 
-#: src/preferencesdialog.cpp:504
+#: src/preferencesdialog.cpp:519
 msgid "Clear"
 msgstr "Töm"
 
-#: src/preferencesdialog.cpp:532 src/preferencesdialog.cpp:992
+#: src/preferencesdialog.cpp:547 src/preferencesdialog.cpp:1024
 msgid "Not configurable"
 msgstr "Inte konfigurerbar"
 
-#: src/preferencesdialog.cpp:552
+#: src/preferencesdialog.cpp:567
 msgid "The following plugins are installed:"
 msgstr "Följande insticksmoduler är installerade:"
 
-#: src/preferencesdialog.cpp:575
+#: src/preferencesdialog.cpp:591
 msgid "_Enable"
 msgstr "_Aktivera"
 
-#: src/preferencesdialog.cpp:580
+#: src/preferencesdialog.cpp:596
 msgid "_Disable"
 msgstr "_Inaktivera"
 
-#: src/preferencesdialog.cpp:590
+#: src/preferencesdialog.cpp:606
 msgid "In_formation"
 msgstr "In_formation"
 
-#: src/preferencesdialog.cpp:721
+#: src/preferencesdialog.cpp:746
 msgid "Not Implemented"
 msgstr "Inte implementerad"
 
 #. TRANSLATORS: %1 is the placeholder for the addin name.
-#: src/preferencesdialog.cpp:738
+#: src/preferencesdialog.cpp:763
 msgid "%1 Preferences"
 msgstr "Inställningar för %1"
 
-#: src/preferencesdialog.cpp:827
+#: src/preferencesdialog.cpp:859
 msgid "Choose Note Font"
 msgstr "Välj anteckningstypsnitt"
 
 #. Create dialog
-#: src/preferencesdialog.cpp:920
+#: src/preferencesdialog.cpp:952
 msgid "Other Synchronization Options"
 msgstr "Andra synkroniseringsalternativ"
 
-#: src/preferencesdialog.cpp:923
+#: src/preferencesdialog.cpp:955
 msgid ""
 "When a conflict is detected between a local note and a note on the "
 "configured synchronization server:"
@@ -2204,23 +2206,23 @@ msgstr ""
 "När en konflikt upptäcks mellan en lokal anteckning och en anteckning på den "
 "konfigurerade synkroniseringsservern:"
 
-#: src/preferencesdialog.cpp:927
+#: src/preferencesdialog.cpp:959
 msgid "Always ask me what to do"
 msgstr "Fråga mig vad som ska göras"
 
-#: src/preferencesdialog.cpp:928
+#: src/preferencesdialog.cpp:960
 msgid "Rename my local note"
 msgstr "Byt namn på min lokala anteckning"
 
-#: src/preferencesdialog.cpp:930
+#: src/preferencesdialog.cpp:962
 msgid "Replace my local note with the server's update"
 msgstr "Ersätt min lokala anteckning med serverns uppdatering"
 
-#: src/preferencesdialog.cpp:1051
+#: src/preferencesdialog.cpp:1083
 msgid "Are you sure?"
 msgstr "Är du säker?"
 
-#: src/preferencesdialog.cpp:1052
+#: src/preferencesdialog.cpp:1084
 msgid ""
 "Clearing your synchronization settings is not recommended.  You may be "
 "forced to synchronize all of your notes again when you save new settings."
@@ -2229,11 +2231,11 @@ msgstr ""
 "tvingas att synkronisera alla dina anteckningar igen när du sparar nya "
 "inställningar."
 
-#: src/preferencesdialog.cpp:1063
+#: src/preferencesdialog.cpp:1095
 msgid "Resetting Synchronization Settings"
 msgstr "Återställer synkroniseringsinställningar"
 
-#: src/preferencesdialog.cpp:1064
+#: src/preferencesdialog.cpp:1096
 msgid ""
 "You have disabled the configured synchronization service.  Your "
 "synchronization settings will now be cleared.  You may be forced to "
@@ -2243,11 +2245,11 @@ msgstr ""
 "synkroniseringsinställningar kommer nu att tas bort.  Du kan tvingas att "
 "synkronisera alla dina anteckningar igen när du sparar nya inställningar."
 
-#: src/preferencesdialog.cpp:1126
+#: src/preferencesdialog.cpp:1158
 msgid "Connection successful"
 msgstr "Anslutningen lyckades"
 
-#: src/preferencesdialog.cpp:1127
+#: src/preferencesdialog.cpp:1159
 msgid ""
 "Gnote is ready to synchronize your notes. Would you like to synchronize them "
 "now?"
@@ -2256,7 +2258,7 @@ msgstr ""
 "nu?"
 
 #. TRANSLATORS: %1 is the placeholder for the log file path.
-#: src/preferencesdialog.cpp:1153
+#: src/preferencesdialog.cpp:1185
 msgid ""
 "Please check your information and try again.  The log file %1 may contain "
 "more information about the error."
@@ -2264,19 +2266,19 @@ msgstr ""
 "Kontrollera din information och försök igen.  Loggfilen %1 kan innehålla mer "
 "information om felet."
 
-#: src/preferencesdialog.cpp:1158
+#: src/preferencesdialog.cpp:1190
 msgid "Error connecting"
 msgstr "Fel vid anslutning"
 
-#: src/preferencesdialog.cpp:1223
+#: src/preferencesdialog.cpp:1255
 msgid "Version:"
 msgstr "Version:"
 
-#: src/preferencesdialog.cpp:1226
+#: src/preferencesdialog.cpp:1258
 msgid "Author:"
 msgstr "Upphovsman:"
 
-#: src/preferencesdialog.cpp:1230
+#: src/preferencesdialog.cpp:1262
 msgid "Copyright:"
 msgstr "Copyright:"
 
@@ -2383,35 +2385,35 @@ msgstr "Fel vid inläsning av %s"
 msgid "Error getting symbol dynamic_module_instanciate: %s"
 msgstr "Fel vid hämtning av symbolen dynamic_module_instanciate: %s"
 
-#: src/sharp/pluginsmodel.cpp:227
+#: src/sharp/pluginsmodel.cpp:176
 msgid "Name"
 msgstr "Namn"
 
-#: src/sharp/pluginsmodel.cpp:230
+#: src/sharp/pluginsmodel.cpp:179
 msgid "Version"
 msgstr "Version"
 
-#: src/sharp/pluginsmodel.cpp:232
+#: src/sharp/pluginsmodel.cpp:181
 msgid "Category"
 msgstr "Kategori"
 
 #. TRANSLATORS: Addin category.
-#: src/sharp/pluginsmodel.cpp:247
+#: src/sharp/pluginsmodel.cpp:196
 msgid "Formatting"
 msgstr "Formatering"
 
 #. TRANSLATORS: Addin category.
-#: src/sharp/pluginsmodel.cpp:250
+#: src/sharp/pluginsmodel.cpp:199
 msgid "Desktop integration"
 msgstr "Skrivbordsintegration"
 
 #. TRANSLATORS: Addin category.
-#: src/sharp/pluginsmodel.cpp:253
+#: src/sharp/pluginsmodel.cpp:202
 msgid "Tools"
 msgstr "Verktyg"
 
 #. TRANSLATORS: Addin category is unknown.
-#: src/sharp/pluginsmodel.cpp:260
+#: src/sharp/pluginsmodel.cpp:209
 msgid "Unknown"
 msgstr "Okänd"
 
@@ -2836,13 +2838,6 @@ msgstr "Anteckningstiteln är upptagen"
 #: src/watchers.cpp:306
 msgid "Check spelling"
 msgstr "Kontrollera stavning"
-
-#~ msgid ""
-#~ "Use wdfs option \"-ac\" to accept SSL certificates without prompting the "
-#~ "user."
-#~ msgstr ""
-#~ "Använd wdfs-flaggan ”-ac” för att acceptera SSL-certifikat utan att "
-#~ "tillfråga användaren."
 
 #~ msgid "Run Gnote as GNOME Shell search provider."
 #~ msgstr "Kör Gnote som söktjänst för GNOME Shell."

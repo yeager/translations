@@ -1,11 +1,10 @@
 # gnote — master — svenska UI
 
-- GNOME-status före granskning: 255 översatta, 1 fuzzy, 0 oöversatta.
+- GNOME-status före granskning: 557 aktiva strängar, 0 fuzzy, 0 oöversatta (GNOME Git `2bf5852`, 2026-11-07).
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gnote/master/po/sv/>
-- Granskad rad: `Obsolete. Has no effect.` → `Föråldrad. Har ingen effekt.`.
-- Åtgärd: Den gamla fuzzy-markeringen och föregående msgid togs bort; svensk betydelse och skiljetecken anpassades till aktuell källa.
-- Ändringar: 0 ny(a) översättning(ar), 1 rättad(e) befintlig(a) sträng(ar).
-- Validering: `msgfmt --check`; platshållare saknas i ändringen.
-- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
+- Åtgärd: Rättade nordisk accelerator för ”Öppna dagens mall” och två feltexter för synkmetadata.
+- Ändringar: 0 nya översättningar, 3 rättade befintliga strängar.
+- Validering: `msgfmt --check` godkänd; `l10n-lint` utan fel. Tre dokumenterade varningar återstår: lokaliserad wiki-URL och upphovsrättsintervall.
+- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-23 12:00+0100.
 - GNOME-inskick: inget — enligt arbetsinstruktionen.
-- Slutlig lokal status: 256 översatta, 0 fuzzy, 0 oöversatta.
+- Slutlig lokal status: 557 översatta, 0 fuzzy, 0 oöversatta.
