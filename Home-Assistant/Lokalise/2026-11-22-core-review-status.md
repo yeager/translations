@@ -6,8 +6,8 @@ validerade Home Assistant-minnet.
 | Mått | Antal |
 | --- | ---: |
 | Poster i Core-exporten | 75 106 |
-| Poster i validerad Core-TMX | 3 433 |
-| Konservativt återstående omfång | 71 673 |
+| Poster i validerad Core-TMX | 3 455 |
+| Konservativt återstående omfång | 71 651 |
 
 Det återstående antalet är konservativt: utöver TMX-posterna finns
 livegranskade strängar utan ny TMX-post, exempelvis hela komponenter där inga
@@ -28,6 +28,10 @@ validerats i `swedish-tm`. Senast rättades Modern Forms två sensor-etiketter
 till den konsekventa termen `insomningstid`. Green Planet Energys
 elprisrad förfinades senast till den naturliga sammansättningen
 `elprisintegration`.
+
+Keymitt BLE har nu granskats rad för rad (22 liveåterlästa strängar). Samtliga
+var korrekta; de är tillagda i det validerade TMX-minnet med spårbar
+Lokalise-manifestfil.
 
 Ingen verktygsrelease publicerades efter dagens tidigare release, enligt
 arbetsregeln om högst en release per dag.
