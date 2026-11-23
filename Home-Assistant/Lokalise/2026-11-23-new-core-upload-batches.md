@@ -102,3 +102,11 @@ I två parallella Music Assistant-fältnamn var `Album name` översatt både som
 `Albumets namn` och `Albumnamn`. Båda är korta fältetiketter; den avvikande
 första varianten normaliserades till `Albumnamn`, sparades och lästes tillbaka
 via Lokalise API. Den kanoniska TMX:en validerade sedan 4 058 poster.
+
+## Template: åtgärder vid ljudavstängning
+
+Template-integrationen hade två annars identiska fält för `Actions on mute`:
+ett i konfigurationsflödet och ett i alternativflödet. Texten i
+alternativflödet normaliserades från `Åtgärder vid avstängning av ljudet` till
+`Åtgärder vid ljudavstängning`, sparades och lästes tillbaka via Lokalise API.
+TMX-valideringen godkände därefter 4 059 poster.
