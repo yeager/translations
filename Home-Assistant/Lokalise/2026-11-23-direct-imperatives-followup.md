@@ -29,10 +29,14 @@ spårbara TM-manifest:
 - `2026-11-23-lcn-mealie-habitica-velbus-velux-live-verified.json`
 - `2026-11-23-motionmount-linear-homeconnect-googleai-smartthings-live-verified.json`
 - `2026-11-23-smartthings-mqtt-reolink-homeconnect-ntfy-live-verified.json`
+- `2026-11-23-shelly-zwave-ntfy-live-verified.json`
+- `2026-11-23-deconz-homematicip-totp-live-verified.json`
+- `2026-11-23-mqtt-mailgun-live-verified.json`
+- `2026-11-23-twilio-dialogflow-live-verified.json`
 
 Det kanoniska minnet `sv-home-assistant-core-lokalise-verified-20261120-canonical.tmx`
 validerades efter varje batch; senast validerade tillstånd är 3 543 poster,
-varav 3 312 med återläst Lokalise-översättnings-ID. Den aktuella
+varav 3 321 med återläst Lokalise-översättnings-ID. Den aktuella
 Core-snapshoten innehåller 75 106 svenska målposter och inga tomma måltexter.
 Denna täckningssiffra är inte ett påstående om avslutad radgranskning; fortsatt
 semantisk, terminologisk och formatmässig granskning krävs.
