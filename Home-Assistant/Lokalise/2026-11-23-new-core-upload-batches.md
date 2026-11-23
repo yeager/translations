@@ -353,6 +353,13 @@ och `{integration_title}integrationen`. De normaliserades till
 `{integration_title}-integrationen`; platshållare och radbrytningar
 bevarades. Värdet sparades och lästes tillbaka via Lokalise API.
 
+## Indevot: SI-mellanrum
+
+Indevots effektfel skrev måttenheter direkt efter platshållarna som
+`{power}W` och `{max_power}W`. De normaliserades till `({power} W)` och
+`({max_power} W)` enligt svensk SI-skrivning; platshållarna bevarades,
+värdet sparades och lästes tillbaka via Lokalise API.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
