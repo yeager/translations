@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 08:27 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 08:30 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -109,7 +109,7 @@ Varje rad visar GNOME:s aktuella externa status. **Klar** visar `X` för lokalt 
 | Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/master/po/sv/) | master | 6021 | 89 | 32 | Behöver arbete | X | 1 | Klar lokalt (2026-11-22): Formatsträngen för sparfel är rättad; licensens avsiktliga styckebrytningar är dokumenterade. [original](gimp/master/po/gimp.master.sv.original.po), [granskad](gimp/master/po/gimp.master.sv.reviewed.po), [diff](gimp/master/po/gimp.master.sv.review.diff), [notering](gimp/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [NetworkManager](https://l10n.gnome.org/vertimus/networkmanager/main/po/sv/) | main | 2520 | 15 | 31 | Behöver arbete |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [Graphs](https://l10n.gnome.org/vertimus/graphs/main/po/sv/) | main | 473 | 24 | 26 | Behöver arbete |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [chronojump](https://l10n.gnome.org/vertimus/chronojump/master/po/sv/) | master | 2563 | 35 | 25 | Behöver arbete |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [chronojump](https://l10n.gnome.org/vertimus/chronojump/master/po/sv/) | master | 2563 | 35 | 25 | Behöver arbete | X | 6 | Klar lokalt (2026-11-23): Aktuell Git-katalog har 2 572 aktiva strängar, 0 oöversatta och 0 fuzzy. Radbrytningar, procentformat och etikettformatering är rättade; msgfmt och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](chronojump/master/po/chronojump.master.sv.original.po), [granskad](chronojump/master/po/chronojump.master.sv.reviewed.po), [diff](chronojump/master/po/chronojump.master.sv.review.diff), [notering](chronojump/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [highscore](https://l10n.gnome.org/vertimus/highscore/main/po/sv/) | main | 655 | 56 | 24 | Behöver arbete |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [damned-lies — Damned Lies](https://l10n.gnome.org/vertimus/damned-lies/main/po/sv/) | main | 1198 | 11 | 24 | Behöver arbete |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gtk](https://l10n.gnome.org/vertimus/gtk/main/po/sv/) | main | 1792 | 16 | 22 | Behöver arbete |  | 38 | Validering återstår (2026-11-22): Alla aktuella oöversatta och fuzzy-strängar är lokalt ifyllda; fem äldre lintfel och två varningar i andra poster måste åtgärdas före modulens slutliga godkännande. Ingen GNOME-inskickning har gjorts. [original](gtk/main/po/gtk.main.sv.original.po), [granskad](gtk/main/po/gtk.main.sv.reviewed.po), [diff](gtk/main/po/gtk.main.sv.review.diff), [notering](gtk/main/po/README.md) |
