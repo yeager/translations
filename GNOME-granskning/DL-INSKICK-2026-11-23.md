@@ -31,6 +31,6 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 
 - `gfeeds/master/po` och `solitaire/gnome-50/po`: DL gav status `None` utan några tillgängliga åtgärder.
 - `tracker-miner-chatlog/master/po` och `niepce/main/po`: DL gav status `None` utan reservation eller uppladdning.
-- `goffice/master/po`: den granskade filen är komplett och formatkontrollerad, men skiljer sig på 17 rader från aktuell svensk uppströmsfil. GOffice versionerar ingen POT; därför skickades den inte in utan en verifierbar aktuell källkatalog.
+- `goffice/master/po`: Damned Lies aktuella POT innehåller två källmeddelanden som den lokalt granskade filen saknar och filen har äldre meddelanden som inte längre används. Den är därför inte längre verifierbart komplett och skickades inte in.
 
 Ingen fil har skickats utan en tillgänglig DL-uppladdningsåtgärd.
