@@ -1,0 +1,200 @@
+# Swedish translation for libgedit-gfls.
+# Copyright © 2024-2026 libgedit-gfls's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libgedit-gfls package.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>,  2024, 2025, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgedit-gfls main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/gedit/libgedit-gfls/-/"
+"issues\n"
+"POT-Creation-Date: 2026-10-06 23:05+0000\n"
+"PO-Revision-Date: 2026-11-24 12:00+0100\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#. UTF-8 first, so that it's the first encoding returned by
+#. * gfls_encoding_get_all().
+#.
+#: gfls/gfls-encoding.c:96 gfls/gfls-encoding.c:113 gfls/gfls-encoding.c:114
+#: gfls/gfls-encoding.c:115 gfls/gfls-encoding.c:116 gfls/gfls-encoding.c:117
+#: gfls/gfls-encoding.c:118 gfls/gfls-encoding.c:119
+msgid "Unicode"
+msgstr "Unicode"
+
+#. FIXME GEOSTD8 ?
+#: gfls/gfls-encoding.c:98 gfls/gfls-encoding.c:110 gfls/gfls-encoding.c:138
+#: gfls/gfls-encoding.c:161
+msgid "Western"
+msgstr "Västerländsk"
+
+#: gfls/gfls-encoding.c:99 gfls/gfls-encoding.c:139 gfls/gfls-encoding.c:159
+msgid "Central European"
+msgstr "Centraleuropeisk"
+
+#: gfls/gfls-encoding.c:100
+msgid "South European"
+msgstr "Sydeuropeisk"
+
+#: gfls/gfls-encoding.c:101 gfls/gfls-encoding.c:108 gfls/gfls-encoding.c:166
+msgid "Baltic"
+msgstr "Baltisk"
+
+#: gfls/gfls-encoding.c:102 gfls/gfls-encoding.c:140 gfls/gfls-encoding.c:147
+#: gfls/gfls-encoding.c:149 gfls/gfls-encoding.c:150 gfls/gfls-encoding.c:160
+msgid "Cyrillic"
+msgstr "Kyrillisk"
+
+#: gfls/gfls-encoding.c:103 gfls/gfls-encoding.c:143 gfls/gfls-encoding.c:165
+msgid "Arabic"
+msgstr "Arabisk"
+
+#: gfls/gfls-encoding.c:104 gfls/gfls-encoding.c:162
+msgid "Greek"
+msgstr "Grekisk"
+
+#: gfls/gfls-encoding.c:105
+msgid "Hebrew Visual"
+msgstr "Visuell hebreisk"
+
+#: gfls/gfls-encoding.c:106 gfls/gfls-encoding.c:141 gfls/gfls-encoding.c:163
+msgid "Turkish"
+msgstr "Turkisk"
+
+#: gfls/gfls-encoding.c:107
+msgid "Nordic"
+msgstr "Nordisk"
+
+#: gfls/gfls-encoding.c:109
+msgid "Celtic"
+msgstr "Keltisk"
+
+#: gfls/gfls-encoding.c:111
+msgid "Romanian"
+msgstr "Rumänsk"
+
+#: gfls/gfls-encoding.c:121
+msgid "Armenian"
+msgstr "Armenisk"
+
+#: gfls/gfls-encoding.c:122 gfls/gfls-encoding.c:123 gfls/gfls-encoding.c:131
+msgid "Chinese Traditional"
+msgstr "Traditionell kinesisk"
+
+#: gfls/gfls-encoding.c:124
+msgid "Cyrillic/Russian"
+msgstr "Kyrillisk/rysk"
+
+#: gfls/gfls-encoding.c:126 gfls/gfls-encoding.c:127 gfls/gfls-encoding.c:128
+#: gfls/gfls-encoding.c:145 gfls/gfls-encoding.c:153
+msgid "Japanese"
+msgstr "Japansk"
+
+#: gfls/gfls-encoding.c:130 gfls/gfls-encoding.c:146 gfls/gfls-encoding.c:148
+#: gfls/gfls-encoding.c:156
+msgid "Korean"
+msgstr "Koreansk"
+
+#: gfls/gfls-encoding.c:133 gfls/gfls-encoding.c:134 gfls/gfls-encoding.c:135
+msgid "Chinese Simplified"
+msgstr "Förenklad kinesisk"
+
+#: gfls/gfls-encoding.c:136
+msgid "Georgian"
+msgstr "Georgisk"
+
+#: gfls/gfls-encoding.c:142 gfls/gfls-encoding.c:164
+msgid "Hebrew"
+msgstr "Hebreisk"
+
+#: gfls/gfls-encoding.c:151
+msgid "Cyrillic/Ukrainian"
+msgstr "Kyrillisk/ukrainsk"
+
+#: gfls/gfls-encoding.c:154 gfls/gfls-encoding.c:157 gfls/gfls-encoding.c:167
+msgid "Vietnamese"
+msgstr "Vietnamesisk"
+
+#: gfls/gfls-encoding.c:155
+msgid "Thai"
+msgstr "Thailändsk"
+
+#: gfls/gfls-encoding.c:434
+msgid "Unknown"
+msgstr "Okänd"
+
+#. Translators: This is the sorted list of encodings used by
+#. * libgedit-gfls for automatic detection of the file encoding. You may
+#. * want to customize it adding encodings that are common in your
+#. * country, for instance the GB18030 encoding for the Chinese
+#. * translation. You may also want to remove the ISO-8859-15 encoding
+#. * (covering English and most Western European languages) if you think
+#. * people in your country will rarely use it. 'CURRENT' is a magic value
+#. * used by libgedit-gfls and it represents the encoding for the current
+#. * locale, so please don't translate the 'CURRENT' term. Keep the same
+#. * format: square brackets, single quotes, commas.
+#.
+#: gfls/gfls-encoding.c:793
+msgid "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+msgstr "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+
+#: gfls/gfls-encoding-converter.c:308
+msgid "An invalid byte has been encountered during character set conversion."
+msgstr ""
+"En ogiltig byte har påträffats under konvertering av teckenuppsättning."
+
+#: gfls/gfls-error.c:27
+msgid "The size of the file is too big."
+msgstr "Filen är för stor."
+
+#: gfls/gfls-error.c:35
+msgid "Limit on the number of bytes to read reached."
+msgstr "Gränsen för antalet byte att läsa har nåtts."
+
+#: gfls/gfls-error.c:43
+msgid "The content is not encoded in UTF-8."
+msgstr "Innehållet är inte kodat i UTF-8."
+
+#: gfls/gfls-error.c:51
+msgid "The content contains a very long line."
+msgstr "Innehållet innehåller en väldigt lång rad."
+
+#: gfls/gfls-iconv.c:141
+#, c-format
+msgid "Conversion from character set “%s” to “%s” is not supported."
+msgstr "Konvertering från teckenuppsättningen ”%s” till ”%s” stöds inte."
+
+#: gfls/gfls-iconv.c:150
+#, c-format
+msgid "Failed to open a character set converter from “%s” to “%s”: %s"
+msgstr ""
+"Misslyckades med att öppna en teckenuppsättningskonverterare från ”%s” till "
+"”%s”: %s"
+
+#: gfls/gfls-iconv.c:220
+#, c-format
+msgid "Error during character set conversion: %s"
+msgstr "Fel under konvertering av teckenuppsättning: %s"
+
+#: gfls/gfls-iconv.c:312
+#, c-format
+msgid "Failed to close the character set converter: %s"
+msgstr "Misslyckades med att stänga teckenuppsättningskonverteraren: %s"
+
+#: gfls/gfls-unsaved-document-titles.c:61
+#, c-format
+msgid "Unsaved Document %d"
+msgstr "Ej sparat dokument %d"
+
+#, c-format
+#~ msgid "A number of nonreversible conversions have been performed."
+#~ msgstr "Ett antal irreversibla konverteringar har utförts."
+
+#~ msgid "No memory available."
+#~ msgstr "Inget minne tillgängligt."
