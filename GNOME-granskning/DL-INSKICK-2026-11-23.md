@@ -26,6 +26,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | gnome-terminal | master | po | 5 |
 | gnote | master | po | 2 |
 | d-spy | main | po | 12 |
+| chronojump | master | po | 79 |
 
 ## DL-blockerare
 
