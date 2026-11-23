@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 23:49 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 23:52 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -321,7 +321,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/tutorial/sv/) | master | 136 | 0 | 0 | Klar | X | 1 | Klar lokalt (2026-11-23): 176 aktiva strängar, 0 oöversatta och 0 fuzzy. RGB-intervallet är rättat till 0–255; validerad utan lint-fel. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/tutorial/gimp-help.master.tutorial.sv.original.po), [granskad](gimp-help/master/tutorial/gimp-help.master.tutorial.sv.reviewed.po), [diff](gimp-help/master/tutorial/gimp-help.master.tutorial.sv.review.diff), [notering](gimp-help/master/tutorial/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/using/sv/) | master | 1105 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gitg](https://l10n.gnome.org/vertimus/gitg/gnome-50/po/sv/) | gnome-50 | 551 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [glib-networking](https://l10n.gnome.org/vertimus/glib-networking/master/po/sv/) | master | 68 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [glib-networking](https://l10n.gnome.org/vertimus/glib-networking/master/po/sv/) | master | 68 | 0 | 0 | Klar | X | 3 | Klar lokalt (2026-11-24): Hela 68-strängarskatalogen är radgranskad mot senaste POT. Tre befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](glib-networking/master/po/glib-networking.master.po.sv.original.po), [granskad](glib-networking/master/po/glib-networking.master.po.sv.reviewed.po), [diff](glib-networking/master/po/glib-networking.master.po.sv.review.diff), [notering](glib-networking/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [glom](https://l10n.gnome.org/module/glom/) | master | 867 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [glom](https://l10n.gnome.org/module/glom/) | master | 223 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-2048](https://l10n.gnome.org/vertimus/gnome-2048/master/po/sv/) | master | 91 | 0 | 0 | Klar |  | — | Ej granskad |

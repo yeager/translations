@@ -1,0 +1,44 @@
+diff --git a/.work-gnome-review/glib-networking-master-po/original.po b/.work-gnome-review/glib-networking-master-po/sv.po
+index c61de91..060f033 100644
+--- a/.work-gnome-review/glib-networking-master-po/original.po
++++ b/.work-gnome-review/glib-networking-master-po/sv.po
+@@ -11,7 +11,7 @@ msgstr ""
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/glib-networking/issues\n"
+ "POT-Creation-Date: 2026-11-04 06:54+0000\n"
+ "PO-Revision-Date: 2026-08-23 13:12+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -160,8 +160,8 @@ msgstr "Protokollversionsnedgraderingsattack upptäcktes"
+ #, c-format
+ msgid "Message is too large for DTLS connection; maximum is %u byte"
+ msgid_plural "Message is too large for DTLS connection; maximum is %u bytes"
+-msgstr[0] "Meddelandet är för stort för DTLS-anslutning, max är %u byte"
+-msgstr[1] "Meddelandet är för stort för DTLS-anslutning, max är %u byte"
++msgstr[0] "Meddelandet är för stort för DTLS-anslutningen; högsta tillåtna storlek är %u byte"
++msgstr[1] "Meddelandet är för stort för DTLS-anslutningen; högsta tillåtna storlek är %u byte"
+ 
+ #: tls/gnutls/gtlsconnection-gnutls.c:516
+ msgid "The operation timed out"
+@@ -212,15 +212,15 @@ msgstr "Fel vid skrivning av data till TLS-uttag"
+ #, c-format
+ msgid "Message of size %lu byte is too large for DTLS connection"
+ msgid_plural "Message of size %lu bytes is too large for DTLS connection"
+-msgstr[0] "Meddelande med storleken %lu byte är för stort för DTLS-anslutning"
+-msgstr[1] "Meddelande med storleken %lu byte är för stort för DTLS-anslutning"
++msgstr[0] "Ett meddelande på %lu byte är för stort för DTLS-anslutningen"
++msgstr[1] "Ett meddelande på %lu byte är för stort för DTLS-anslutningen"
+ 
+ #: tls/gnutls/gtlsconnection-gnutls.c:1342
+ #, c-format
+ msgid "(maximum is %u byte)"
+ msgid_plural "(maximum is %u bytes)"
+-msgstr[0] "(maximum är %u byte)"
+-msgstr[1] "(maximum är %u byte)"
++msgstr[0] "(högsta tillåtna storlek är %u byte)"
++msgstr[1] "(högsta tillåtna storlek är %u byte)"
+ 
+ #: tls/gnutls/gtlsconnection-gnutls.c:1389
+ #, c-format
