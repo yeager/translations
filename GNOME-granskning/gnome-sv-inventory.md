@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 08:41 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 08:43 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -195,7 +195,7 @@ Varje rad visar GNOME:s aktuella externa status. **Klar** visar `X` för lokalt 
 | Dokumentation | Default (71% translated) | [gnome-commander](https://l10n.gnome.org/vertimus/gnome-commander/gcmd-2-2/help/sv/) | gcmd-2-2 | 3112 | 3 | 0 | Behöver arbete |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [rygel](https://l10n.gnome.org/vertimus/rygel/master/po/sv/) | master | 276 | 3 | 0 | Behöver arbete | X | 3 | Klar lokalt (2026-11-22): Alla aktuella fuzzy-strängar är lokalt validerade; ingen GNOME-inskickning har gjorts. [original](rygel/master/po/rygel.master.sv.original.po), [granskad](rygel/master/po/rygel.master.sv.reviewed.po), [diff](rygel/master/po/rygel.master.sv.review.diff), [notering](rygel/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-commander](https://l10n.gnome.org/vertimus/gnome-commander/gcmd-2-2/po/sv/) | gcmd-2-2 | 1880 | 2 | 0 | Behöver arbete |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [goffice](https://l10n.gnome.org/vertimus/goffice/master/po/sv/) | master | 1823 | 2 | 0 | Behöver arbete |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [goffice](https://l10n.gnome.org/vertimus/goffice/master/po/sv/) | master | 1823 | 2 | 0 | Behöver arbete | X | 2 | Klar lokalt (2026-11-23): Aktuell Git-katalog har 2 126 aktiva strängar, 0 oöversatta och 0 fuzzy. Två nordiska acceleratorer är rättade; msgfmt och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](goffice/master/po/goffice.master.sv.original.po), [granskad](goffice/master/po/goffice.master.sv.reviewed.po), [diff](goffice/master/po/goffice.master.sv.review.diff), [notering](goffice/master/po/README.md) |
 | Dokumentation | Default (71% translated) | [gtk-doc](https://l10n.gnome.org/vertimus/gtk-doc/master/help/sv/) | master | 560 | 2 | 0 | Behöver arbete |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gucharmap](https://l10n.gnome.org/vertimus/gucharmap/unicode-12/help/sv/) | unicode-12 | 127 | 2 | 0 | Behöver arbete |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [PulseAudio](https://l10n.gnome.org/vertimus/pulseaudio/master/po/sv/) | master | 572 | 2 | 0 | Behöver arbete |  | — | Ej granskad |
