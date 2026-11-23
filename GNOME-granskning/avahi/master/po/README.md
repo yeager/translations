@@ -1,12 +1,14 @@
-# Avahi — master/po (sv)
+# Avahi — master/po — svensk granskning
 
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/avahi/master/po/sv/>
-- Granskad och inskickad: 2026-11-23
-- Aktuell POT: 16 aktiva meddelanden, 0 oöversatta och 0 fuzzy efter granskningen.
+- Granskad: 2026-11-24
+- Aktuell POT: 16 aktiva strängar
+- Nya översättningar: 0
+- Korrigerade befintliga översättningar: 3
 
-## Ändringar och validering
+Hela katalogen är radgranskad mot aktuell POT. Tre oidiomatiska
+bläddringsformuleringar är rättade. Alla 16 strängar är översatta; 0
+oöversatta och 0 fuzzy återstår.
 
-Fyra nätverkstjänsttexter är rättade till idiomatisk svenska och `TXT-data`.
-`msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` är felfria. Filen
-laddades upp med kommentaren `Granskad och klar`; API:t svarade
-`{"result":"OK"}`.
+`msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` är godkända utan fel
+eller varningar. Ingen inskickning till GNOME har gjorts i detta steg.
