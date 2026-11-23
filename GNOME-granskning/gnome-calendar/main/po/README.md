@@ -1,11 +1,9 @@
-# gnome-calendar — main — svenska UI
+# GNOME Kalender — main/po
 
-- GNOME-status före granskning: 353 översatta, 5 fuzzy, 5 oöversatta.
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gnome-calendar/main/po/sv/>
-- Granskad rad: `Add Remote Calendar…` → `Lägg till fjärrkalender…`; `Zoom In` → `Zooma in`.
-- Åtgärd: Månadsvy, datumval, kalenderhantering och zoomkommandon kompletterades.
-- Ändringar: 5 ny(a) översättning(ar), 5 rättad(e) befintlig(a) sträng(ar).
-- Validering: `msgfmt --check`; accelerator och ellipser kontrollerade.
-- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
-- Slutlig lokal status: 363 översatta, 0 fuzzy, 0 oöversatta.
+- Granskad: 2026-11-23
+- Lokal statistik: 363 aktiva strängar, 0 oöversatta och 0 fuzzy.
+- Ändringar: 334 exakta träffar från Kalenderns svenska Git-katalog har kontrollerats. 29 nya strängar för kalenderhantering, påminnelser, deltagarstatus, sökning och zoom är översatta, inklusive plural- och formatformer.
+- Källavvikelse: Git `main` innehåller en äldre komplett 356-strängarsfil; arkivets original är den nyare 363-strängarsfilen från Damned Lies.
+- Validering: `msgfmt --check` godkänd; `l10n-lint` rapporterar 0 fel. 13 informationsnotiser gäller acceleratortecken, datumformat och formatsträngen `%OB %Y`.
+- Ingen ändring har skickats till GNOME.
