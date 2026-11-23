@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 18:49 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 18:52 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -54,15 +54,16 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [tecla](https://l10n.gnome.org/vertimus/tecla/gnome-50/po/sv/) | gnome-50 | 8 | 0 | 0 | Klar | X | 1 | Klar lokalt (2026-11-23): Aktuell 8-strängarskatalog är radgranskad lokalt: tangentterminologi rättad, 0 oöversatta och 0 fuzzy. msgfmt och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](tecla/gnome-50/po/tecla.gnome-50.sv.original.po), [granskad](tecla/gnome-50/po/tecla.gnome-50.sv.reviewed.po), [diff](tecla/gnome-50/po/tecla.gnome-50.sv.review.diff), [notering](tecla/gnome-50/po/README.md) |
 | Gränssnitt | Default (99% translated) | [template-glib](https://l10n.gnome.org/vertimus/template-glib/main/po/sv/) | main | 4 | 0 | 0 | Klar | X | 3 | Klar lokalt (2026-11-23): Aktuell fyrsträngarskatalog är radgranskad lokalt: 0 oöversatta och 0 fuzzy. Tre ordagranna felmeddelanden är rättade till idiomatisk svenska; msgfmt, l10n-lint och hunspell saknar anmärkningar. Ingen GNOME-inskickning har gjorts. [original](template-glib/main/po/template-glib.main.sv.original.po), [granskad](template-glib/main/po/template-glib.main.sv.reviewed.po), [diff](template-glib/main/po/template-glib.main.sv.review.diff), [notering](template-glib/main/po/README.md) |
 
-## Helt klara men utan ändringar (3)
+## Helt klara men utan ändringar (4)
 
 | Typ | Kategori | Modul | Gren | Översatta | Fuzzy | Oöversatta | GNOME-status (uppströms) | Klar lokalt | Ändringar | Lokal granskning |
 |---|---|---|---|---:|---:|---:|---|:---:|---:|---|
+| Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/master/po-tags/sv/) | master | 2 | 0 | 0 | Klar | X | 0 | Klar lokalt (2026-11-23): Aktuell tvåsträngarskatalog: båda befintliga översättningarna är radgranskade och korrekta. msgfmt, msgcmp och l10n-lint är felfria. Inskickad till DL 2026-11-23 med kommentaren ”Granskad och allt ser bra ut”. [original](gimp/master/po-tags/gimp.master.po-tags.sv.original.po), [granskad](gimp/master/po-tags/gimp.master.po-tags.sv.reviewed.po), [diff](gimp/master/po-tags/gimp.master.po-tags.sv.review.diff), [notering](gimp/master/po-tags/README.md) |
 | Gränssnitt | Default (99% translated) | [gtk-vnc](https://l10n.gnome.org/vertimus/gtk-vnc/master/po/sv/) | master | 3 | 0 | 0 | Klar | X | 0 | Klar lokalt (2026-11-23): Aktuell tresträngarskatalog är radgranskad lokalt: 0 oöversatta och 0 fuzzy. msgfmt och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](gtk-vnc/master/po/gtk-vnc.master.sv.original.po), [granskad](gtk-vnc/master/po/gtk-vnc.master.sv.reviewed.po), [diff](gtk-vnc/master/po/gtk-vnc.master.sv.review.diff), [notering](gtk-vnc/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [libgedit-amtk — Gedit Technology - Actions, Menus and Toolbars Kit](https://l10n.gnome.org/vertimus/libgedit-amtk/main/po/sv/) | main | 3 | 0 | 0 | Klar | X | 0 | Klar lokalt (2026-11-23): Aktuell tresträngarskatalog är radgranskad lokalt: 0 oöversatta och 0 fuzzy. ASCII-accelerator och platshållare är kontrollerade; msgfmt, l10n-lint och hunspell saknar anmärkningar. Ingen GNOME-inskickning har gjorts. [original](libgedit-amtk/main/po/libgedit-amtk.main.sv.original.po), [granskad](libgedit-amtk/main/po/libgedit-amtk.main.sv.reviewed.po), [diff](libgedit-amtk/main/po/libgedit-amtk.main.sv.review.diff), [notering](libgedit-amtk/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [libgtop](https://l10n.gnome.org/vertimus/libgtop/master/po/sv/) | master | 3 | 0 | 0 | Klar | X | 0 | Klar lokalt (2026-11-23): Aktuell tresträngarskatalog är radgranskad lokalt: 0 oöversatta och 0 fuzzy. Pluralformer och platshållare är kontrollerade; msgfmt och l10n-lint saknar fel. Hunspell-undantaget `lu` kommer från den bevarade platshållaren `%lu`. Ingen GNOME-inskickning har gjorts. [original](libgtop/master/po/libgtop.master.sv.original.po), [granskad](libgtop/master/po/libgtop.master.sv.reviewed.po), [diff](libgtop/master/po/libgtop.master.sv.review.diff), [notering](libgtop/master/po/README.md) |
 
-## Ej granskade (556)
+## Ej granskade (555)
 
 | Typ | Kategori | Modul | Gren | Översatta | Fuzzy | Oöversatta | GNOME-status (uppströms) | Klar lokalt | Ändringar | Lokal granskning |
 |---|---|---|---|---:|---:|---:|---|:---:|---:|---|
@@ -268,7 +269,6 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [giara](https://l10n.gnome.org/module/giara/) | master | 89 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [giggle](https://l10n.gnome.org/module/giggle/) | master | 176 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [giggle](https://l10n.gnome.org/module/giggle/) | master | 74 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/master/po-tags/sv/) | master | 2 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gimp-gap](https://l10n.gnome.org/module/gimp-gap/) | master | 2564 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/po-windows-installer/sv/) | master | 5 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters~animation/sv/) | master | 135 | 0 | 0 | Klar |  | — | Ej granskad |
