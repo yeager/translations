@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:08 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:11 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -384,7 +384,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [gnome-mahjongg](https://l10n.gnome.org/vertimus/gnome-mahjongg/main/po/sv/) | main | 100 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-maps](https://l10n.gnome.org/vertimus/gnome-maps/gnome-50/po/sv/) | gnome-50 | 488 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-menus](https://l10n.gnome.org/vertimus/gnome-menus/master/po/sv/) | master | 27 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-mines](https://l10n.gnome.org/vertimus/gnome-mines/main/po/sv/) | main | 75 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-mines](https://l10n.gnome.org/vertimus/gnome-mines/main/po/sv/) | main | 75 | 0 | 0 | Klar | X | 4 | Klar lokalt (2026-11-23): Hela 75-strängarskatalogen är radgranskad mot senaste POT. Fyra befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt och msgcmp är felfria; l10n-lint saknar fel och varningar. Ingen GNOME-inskickning har gjorts. [original](gnome-mines/main/po/gnome-mines.main.sv.original.po), [granskad](gnome-mines/main/po/gnome-mines.main.sv.reviewed.po), [diff](gnome-mines/main/po/gnome-mines.main.sv.review.diff), [notering](gnome-mines/main/po/README.md) |
 | Dokumentation | Default (71% translated) | [gnome-mines](https://l10n.gnome.org/vertimus/gnome-mines/main/help/sv/) | main | 90 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-multi-writer](https://l10n.gnome.org/vertimus/gnome-multi-writer/master/po/sv/) | master | 58 | 0 | 0 | Klar | X | 4 | Klar lokalt (2026-11-23): Aktuell 58-strängarskatalog är radgranskad mot senaste POT. Fyra befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](gnome-multi-writer/master/po/gnome-multi-writer.master.sv.original.po), [granskad](gnome-multi-writer/master/po/gnome-multi-writer.master.sv.reviewed.po), [diff](gnome-multi-writer/master/po/gnome-multi-writer.master.sv.review.diff), [notering](gnome-multi-writer/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-music](https://l10n.gnome.org/vertimus/gnome-music/gnome-50/po/sv/) | gnome-50 | 126 | 0 | 0 | Klar |  | — | Ej granskad |
