@@ -249,6 +249,13 @@ Theben Conexas svenska instruktion innehöll fortfarande den engelska texten
 till `IP-adressen för din gateway` utan att ändra URL-syntaxen, sparades och
 lästes tillbaka via Lokalise API. TMX-valideringen godkände 4 082 poster.
 
+## Gatus: bas-URL
+
+Två Gatus-beskrivningar använde de felaktiga formerna `bas URL:en` och
+`status sidans instans`. De normaliserades till
+`bas-URL:en för din Gatus-statussidesinstans`, sparades och lästes tillbaka
+via Lokalise API. TMX-valideringen godkände därefter 4 084 poster.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
