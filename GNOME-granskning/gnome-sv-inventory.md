@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:14 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:17 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -183,7 +183,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [webkit — WebKitGTK](https://l10n.gnome.org/vertimus/webkit/main/po/sv/) | main | 516 | 1 | 0 | Behöver arbete |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [accerciser](https://l10n.gnome.org/vertimus/accerciser/master/po/sv/) | master | 255 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [accerciser](https://l10n.gnome.org/vertimus/accerciser/master/help/sv/) | master | 207 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [addwater](https://l10n.gnome.org/vertimus/addwater/main/po/sv/) | main | 101 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [addwater](https://l10n.gnome.org/vertimus/addwater/main/po/sv/) | main | 101 | 0 | 0 | Klar | X | 13 | Klar lokalt (2026-11-23): Hela 101-strängarskatalogen är radgranskad mot senaste POT. Tretton befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](addwater/main/po/addwater.main.sv.original.po), [granskad](addwater/main/po/addwater.main.sv.reviewed.po), [diff](addwater/main/po/addwater.main.sv.review.diff), [notering](addwater/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [aisleriot](https://l10n.gnome.org/vertimus/aisleriot/master/po/sv/) | master | 670 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [aisleriot](https://l10n.gnome.org/vertimus/aisleriot/master/help/sv/) | master | 930 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [almanah](https://l10n.gnome.org/vertimus/almanah/master/po/sv/) | master | 141 | 0 | 0 | Klar |  | — | Ej granskad |
