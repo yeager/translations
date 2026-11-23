@@ -1,21 +1,23 @@
 # Swedish translation for phodav.
-# Copyright (C) 2026 phodav's COPYRIGHT HOLDER
+# Copyright © 2015-2026 phodav's COPYRIGHT HOLDER
 # This file is distributed under the same license as the phodav package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2021, 2022, 2026.
+# Josef Andersson <l10nl18nsweja@gmail.com>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: phodav master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/phodav/-/issues/\n"
 "POT-Creation-Date: 2026-10-22 10:25+0000\n"
-"PO-Revision-Date: 2026-10-22 10:25+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Swedish <Swedish>\n"
+"PO-Revision-Date: 2026-09-17 20:29+0200\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
 
 #: bin/chezdav.c:142
 msgid "--tls-cert contains no private key, pass it with --tls-key\n"
@@ -23,43 +25,45 @@ msgstr ""
 
 #: bin/chezdav.c:179
 msgid "Print program version"
-msgstr ""
+msgstr "Skriv ut version på programmet"
 
 #: bin/chezdav.c:180
 msgid "Be verbose"
-msgstr ""
+msgstr "Var informativ"
 
 #: bin/chezdav.c:181
+#, fuzzy
+#| msgid "Port to listen to"
 msgid "Unix socket to listen on"
-msgstr ""
+msgstr "Port att lyssna på"
 
 #: bin/chezdav.c:182
 msgid "Port to listen to"
-msgstr ""
+msgstr "Port att lyssna på"
 
 #: bin/chezdav.c:183
 msgid "Listen on loopback only"
-msgstr ""
+msgstr "Lyssna endast på loopback"
 
 #: bin/chezdav.c:184
 msgid "Listen on all interfaces"
-msgstr ""
+msgstr "Lyssna på alla gränssnitt"
 
 #: bin/chezdav.c:185
 msgid "Path to export"
-msgstr ""
+msgstr "Sökväg att exportera"
 
 #: bin/chezdav.c:186
 msgid "Path to htdigest file"
-msgstr ""
+msgstr "Sökväg till htdigest-fil"
 
 #: bin/chezdav.c:187
 msgid "DIGEST realm"
-msgstr ""
+msgstr "DIGEST-rike"
 
 #: bin/chezdav.c:188
 msgid "Read-only access"
-msgstr ""
+msgstr "Skrivskyddad åtkomst"
 
 #: bin/chezdav.c:189
 msgid "Refuse uploads over SIZE bytes (0 for no limit)"
@@ -89,42 +93,48 @@ msgstr ""
 
 #: bin/chezdav.c:193
 msgid "Skip mDNS service announcement"
-msgstr ""
+msgstr "Hoppa över mDNS-tjänstmeddelande"
 
 #: bin/chezdav.c:205
 msgid "- simple WebDAV server"
-msgstr ""
+msgstr "- enkel WebDAV-server"
 
 #: bin/chezdav.c:206
 #, c-format
 msgid "Report bugs to <%s>"
-msgstr ""
+msgstr "Rapportera fel till <%s>"
 
 #: bin/chezdav.c:212
 #, c-format
 msgid "Option parsing failed: %s\n"
-msgstr ""
+msgstr "Tolkande av flaggor misslyckades: %s\n"
 
 #: bin/chezdav.c:219
 #, c-format
 msgid "Unsupported extra arguments: %s ...\n"
-msgstr ""
+msgstr "Extra argument som ej stöds: %s …\n"
 
 #: bin/chezdav.c:228
+#, fuzzy
+#| msgid "--local and --public are mutually exclusive\n"
 msgid "--socket and --local are mutually exclusive\n"
-msgstr ""
+msgstr "--local och --public är ömsesidigt uteslutande\n"
 
 #: bin/chezdav.c:230
+#, fuzzy
+#| msgid "--local and --public are mutually exclusive\n"
 msgid "--socket and --public are mutually exclusive\n"
-msgstr ""
+msgstr "--local och --public är ömsesidigt uteslutande\n"
 
 #: bin/chezdav.c:232
+#, fuzzy
+#| msgid "--local and --public are mutually exclusive\n"
 msgid "--socket and --port are mutually exclusive\n"
-msgstr ""
+msgstr "--local och --public är ömsesidigt uteslutande\n"
 
 #: bin/chezdav.c:234
 msgid "--local and --public are mutually exclusive\n"
-msgstr ""
+msgstr "--local och --public är ömsesidigt uteslutande\n"
 
 #: bin/chezdav.c:237
 msgid "--max-upload must not be negative\n"
@@ -135,21 +145,25 @@ msgid "--tls-key requires --tls-cert\n"
 msgstr ""
 
 #: bin/chezdav.c:280
-#, c-format
+#, fuzzy, c-format
+#| msgid "Failed to open htdigest: %s\n"
 msgid "Failed to load the certificate: %s\n"
-msgstr ""
+msgstr "Misslyckades med att öppna htdigest: %s\n"
 
 #: bin/chezdav.c:308
 #, c-format
 msgid "Failed to open htdigest: %s\n"
-msgstr ""
+msgstr "Misslyckades med att öppna htdigest: %s\n"
 
 #: bin/chezdav.c:322
 #, c-format
 msgid "mDNS failed: %s\n"
-msgstr ""
+msgstr "mDNS misslyckades: %s\n"
 
 #: bin/chezdav.c:345
 #, c-format
 msgid "Listen failed: %s\n"
-msgstr ""
+msgstr "Misslyckades med att lyssna: %s\n"
+
+#~ msgid "Internal error, should not happen\n"
+#~ msgstr "Internt fel, bör inte inträffa\n"
