@@ -14,12 +14,30 @@ Varje PUT följdes av en API-läsning av samma översättnings-id. Efter den
 ursprungliga noteringen har batch 5–17 också granskats: Victron GX,
 Libre-hubbar, sensorer, KNX IP Secure, väder, A Better Routeplanner, WebDAV,
 BLUETTI, Jellyfin, Seafile och radar. Totalt omfattar de dokumenterade
-livebatcherna 312 poster.
+livebatcherna 383 poster.
 
 De är införda i den kanoniska HA Core-TMX:en i
 `github.com/yeager/swedish-tm`, grenen `ha-tmx-validator`, med manifest
 och stabila Lokalise-id:n. TMX-valideringen efter batch 17 godkände 3 914
-poster (3 683 med Lokalise-id).
+poster (3 744 med Lokalise-id).
+
+## Full livekontroll efter batch 22
+
+En sekventiell API-kontroll av samtliga 152 Core-sidor med
+`include_translations=1` hittade inga svenska tomma poster med engelsk
+källtext. Åtta svenska tomma poster återstår, men samtliga har helt tom
+engelsk källtext och kan därför inte översättas i Lokalise:
+
+- `component::sensor::issues::units_changed::description`
+- `component::sensor::issues::unsupported_state_class::description`
+- `component::sensor::issues::state_class_removed::description`
+- `component::roborock::services::set_vacuum_goto_position::fields::x_coord::description`
+- `component::roborock::services::set_vacuum_goto_position::fields::y_coord::description`
+- `component::sensor::issues::mean_type_changed::description`
+- `component::vacuum::issues::segments_changed::description`
+- `component::vacuum::issues::segments_mapping_not_configured::description`
+
+De är källprojektets tomma metadata, inte saknade svenska översättningar.
 
 Arbetet fortsätter med återstående liveposter; detta dokument gör inget
 anspråk på att Core är helt färdiggranskat.
