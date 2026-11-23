@@ -76,6 +76,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | accountsservice | main | po | `Granskad och allt ser bra ut` |
 | libpeas | main | po | `Granskad och allt ser bra ut` |
 | libsecret | main | po | `Granskad och allt ser bra ut` |
+| libspelling | main | po | `Granskad och allt ser bra ut` |
 
 `gtk-vnc/master/po` är också komplett men har bara ändrad PO-metadata. Den skickades innan kommentarrutinen för sådana fall klargjordes och ingår därför inte i tabellen över ändrade översättningsposter.
 
