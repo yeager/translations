@@ -67,3 +67,13 @@ kanoniska TMX:en ligger i rotkatalogen. Äldre importer och snapshots ligger i
 granskningskopiorna ligger i `review-archive/`. Inga granskningsposter
 raderades. Efter flytten validerades den kanoniska TMX:en med 4 036 poster,
 varav 3 805 har stabilt Lokalise-id.
+
+## Senare Core-uppladdning: SmartThings och Evohome
+
+Ytterligare 20 strängar tillkom på Core-projektets sista API-sida. De omfattar
+SmartThings API-planer, personliga åtkomsttoken och återanslutning samt sex
+Evohome-felmeddelanden. Samtliga granskades i kontext, sparades och lästes
+tillbaka via Lokalise API. De är införda i den kanoniska TMX:en, som därefter
+validerade 4 056 poster (3 825 med stabilt Lokalise-id). En direkt kontroll av
+den aktuella sista sidan gav därefter noll oöversatta svenska strängar med
+källtext.
