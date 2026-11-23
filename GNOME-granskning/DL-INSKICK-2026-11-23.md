@@ -48,6 +48,8 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | webkit | main | po | 1 |
 | loupe | main | po | 7 |
 | gnome-commander | main | po | 3 |
+| fwupd | main | po | 7 |
+| ptyxis | main | po | 97 |
 
 ## Kompletta granskningar utan ändrade översättningssträngar
 
