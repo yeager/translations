@@ -345,6 +345,14 @@ uppdaterades från live-data. A. O. Smiths fält `Password` innehöll däremot e
 gammal längre text och synkroniserades till `Lösenord`. Efter liveåterläsning
 visar den kanoniska TMX:ens platshållarjämförelse **0 avvikelser**.
 
+## Satel Integra: platshållare och sammansättningar
+
+Satel Integra-texten hade `YAML konfigurationen`, `configuration.yaml fil`
+och `{integration_title}integrationen`. De normaliserades till
+`YAML-konfigurationen`, `configuration.yaml-filen` och
+`{integration_title}-integrationen`; platshållare och radbrytningar
+bevarades. Värdet sparades och lästes tillbaka via Lokalise API.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
