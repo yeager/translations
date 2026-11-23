@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:21 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:23 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -463,7 +463,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [gst-debugger](https://l10n.gnome.org/module/gst-debugger/) | master | 108 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gstreamer](https://l10n.gnome.org/vertimus/gstreamer/main/plugins-bad/sv/) | main | 29 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gstreamer](https://l10n.gnome.org/vertimus/gstreamer/main/plugins-good/sv/) | main | 104 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gstreamer](https://l10n.gnome.org/vertimus/gstreamer/main/plugins-ugly/sv/) | main | 10 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gstreamer](https://l10n.gnome.org/vertimus/gstreamer/main/plugins-ugly/sv/) | main | 10 | 0 | 0 | Klar | X | 1 | Klar lokalt (2026-11-23): Hela 10-strängarskatalogen är radgranskad mot senaste POT. En befintlig kvalitetsbrist är rättad; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](gstreamer/main/plugins-ugly/gstreamer.main.plugins-ugly.sv.original.po), [granskad](gstreamer/main/plugins-ugly/gstreamer.main.plugins-ugly.sv.reviewed.po), [diff](gstreamer/main/plugins-ugly/gstreamer.main.plugins-ugly.sv.review.diff), [notering](gstreamer/main/plugins-ugly/README.md) |
 | Gränssnitt | Default (99% translated) | [gthumb](https://l10n.gnome.org/vertimus/gthumb/master/po/sv/) | master | 699 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gtk-mac-integration](https://l10n.gnome.org/vertimus/gtk-mac-integration/master/po/sv/) | master | 9 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gtranslator](https://l10n.gnome.org/vertimus/gtranslator/master/po/sv/) | master | 301 | 0 | 0 | Klar |  | — | Ej granskad |
