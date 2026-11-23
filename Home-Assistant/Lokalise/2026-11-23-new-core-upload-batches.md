@@ -309,6 +309,13 @@ Sonos-tjänsten `Play queue` hade den ofullständiga formen `Spela upp kö`.
 Den rättades till `Spela upp kön`, sparades och lästes tillbaka via Lokalise
 API. TMX-posten ersattes med det verifierade livevärdet.
 
+## ZhongHong: kommatecken före och
+
+Två ZhongHong-feltexter hade ett onödigt kommatecken före `och` i enkla
+uppmaningar. De normaliserades enligt svensk skrivpolicy, med bevarade
+platshållare och radbrytningar, sparades och lästes tillbaka via Lokalise API.
+TMX-valideringen godkände 4 099 poster.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
