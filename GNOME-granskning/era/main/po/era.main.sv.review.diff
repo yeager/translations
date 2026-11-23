@@ -1,6 +1,8 @@
---- era.main.sv.original.po
-+++ era.main.sv.reviewed.po
-@@ -30,11 +30,11 @@
+diff --git a/.work-gnome-review/era-main-po/original.po b/.work-gnome-review/era-main-po/sv.po
+index 272af5e..562e419 100644
+--- a/.work-gnome-review/era-main-po/original.po
++++ b/.work-gnome-review/era-main-po/sv.po
+@@ -30,11 +30,11 @@ msgstr "kalender;planerare;schema;agenda;möte;möten;organisatör;sammanträde;
  
  #: data/org.gnome.gitlab.TitouanReal.Era.gschema.xml.in:11
  msgid "Last shown view"
@@ -14,30 +16,11 @@
  
  #: data/org.gnome.gitlab.TitouanReal.Era.metainfo.xml.in.in:8
  msgid "Manage your time"
-@@ -48,7 +48,7 @@
- "planning. Your events can sync with most online providers, and Era keeps "
- "working without interruptions when you’re offline."
- msgstr ""
--"Era är en kalender som växer med dina behov - enkel och lugn för "
-+"Era är en kalender som växer med dina behov – enkel och lugn för "
- "vardagsanvändning medan den visar kraftfulla verktyg då du behöver dem. "
- "Använd ett litet fönster sida vid sida med andra program för att arbeta med "
- "flera saker samtidigt, eller gå i helskärmsläge för komplex planering. Dina "
-@@ -93,7 +93,7 @@
- 
- #: data/org.gnome.gitlab.TitouanReal.Era.metainfo.xml.in.in:28
- msgid "alarms"
--msgstr "alarm"
-+msgstr "larm"
- 
- #: data/org.gnome.gitlab.TitouanReal.Era.metainfo.xml.in.in:35
- msgid "Google Calendar"
-@@ -156,26 +156,26 @@
+@@ -156,26 +156,23 @@ msgid "Color"
  msgstr "Färg"
  
  #: data/resources/ui/calendar_management_dialog/calendar_details_page.blp:32
 -#, fuzzy
-+#
  #| msgid "Create Calendar"
  msgid "Delete Calendar"
 -msgstr "Skapa kalender"
@@ -45,7 +28,6 @@
  
  #: data/resources/ui/calendar_management_dialog/calendar_details_page.blp:46
 -#, fuzzy
-+#
  #| msgid "Create Calendar"
  msgid "Delete Calendar?"
 -msgstr "Skapa kalender"
@@ -58,7 +40,6 @@
  
  #: data/resources/ui/calendar_management_dialog/calendar_details_page.blp:53
 -#, fuzzy
-+#
  #| msgid "Delegated"
  msgid "Delete"
 -msgstr "Delegerad"
@@ -66,30 +47,12 @@
  
  #: data/resources/ui/calendar_management_dialog/calendar_management_calendar_row.blp:50
  msgid "Read only"
-@@ -277,7 +277,7 @@
- 
- #: data/resources/ui/components/timeframe_picker/timeframe_picker.blp:44
- msgid "Debug - timeframe:"
--msgstr "Felsökning - tidsram:"
-+msgstr "Felsökning – tidsram:"
- 
- #: data/resources/ui/event_creation_dialog.blp:6
- #: data/resources/ui/window.blp:93 data/resources/ui/window.blp:152
-@@ -291,7 +291,7 @@
- 
- #: data/resources/ui/event_creation_dialog.blp:28
- msgid "There is no calendar to add an event to."
--msgstr "Det finns ingen kalender att lägga till en händelse till."
-+msgstr "Det finns ingen kalender som händelsen kan läggas till i."
- 
- #: data/resources/ui/event_creation_dialog.blp:70
- #: data/resources/ui/event_details_dialog/event_details_dialog.blp:71
-@@ -771,14 +771,14 @@
+@@ -771,14 +768,14 @@ msgstr ""
  #: src/widgets/views/agenda_view/agenda_view_row.rs:104
  #: src/widgets/views/agenda_view/agenda_view_row.rs:113
  msgid "All-day"
 -msgstr ""
-+msgstr "Hela dagen"
++msgstr "Heldag"
  
  #. TRANSLATORS: last day of a multiday event, eg Day 3/3
  #. {day_count} is the number of days that the event span
@@ -101,7 +64,7 @@
  
  #. TRANSLATORS: day of a multiday event, eg Day 2/3
  #. {day_index} is the index of the day in the event span
-@@ -787,7 +787,7 @@
+@@ -787,7 +784,7 @@ msgstr ""
  #: src/widgets/views/agenda_view/agenda_view_row.rs:169
  #, rust-format
  msgid "Day {day_index}/{day_count}"

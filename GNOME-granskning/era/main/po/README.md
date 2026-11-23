@@ -1,9 +1,29 @@
-# Era — main/po
+# Era — main/po (sv)
 
-- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/era/main/po/sv/>
-- Aktuell POT: 151 aktiva poster. Den hämtade svenska katalogen hade 6 oöversatta och 3 fuzzy-poster; den granskade filen har 0 oöversatta och 0 fuzzy.
-- Granskning: hela katalogen är radgranskad. Kalenderborttagning, vyinställning, heldagsetikett och dagsräkning är kompletterade; svenska metadatatexter och kalenderformuleringar är förbättrade.
-- Acceleratorer: inga `_ä`, `_å` eller `_ö` förekommer.
-- Validering: `msgfmt --check` utan fel. `l10n-lint --language sv` har 0 fel och 0 varningar; tre informationsnotiser gäller acceleratorplacering och oförändrat datumformat. Alla Rust-platshållare är kontrollerade.
-- Hunspell: A2DP, CalDAV, Era, Google Calendar och QR är avsiktliga tekniska termer och produktnamn.
-- GNOME-inskick: inget.
+- GNOME-sida: <https://l10n.gnome.org/vertimus/era/main/po/sv/>
+- POT-källa: `era.main.pot`
+- Granskad: 2026-11-23
+
+## Resultat
+
+| Mått | Före | Efter |
+| --- | ---: | ---: |
+| Aktiva strängar | 151 | 151 |
+| Oöversatta | 6 | 0 |
+| Fuzzy | 3 | 0 |
+| Ändrade befintliga översättningar | – | 9 |
+
+De nya och korrigerade kalendersträngarna omfattar bland annat borttagning av
+kalender, heldag samt dagräknare. Rust-platshållarna `{day_index}` och
+`{day_count}` är oförändrade.
+
+## Validering
+
+- `msgfmt --check`: godkänd
+- `msgcmp --use-fuzzy` mot aktuell POT: godkänd
+- `l10n-lint`: 0 fel, 0 varningar
+- Rust-platshållare: jämförda utan avvikelser
+- `hunspell-sv`: rimliga undantag är produktnamnet `Calendar`, `caldav`,
+  de tekniska variablerna och sammansättningen `Kalendervyn`
+
+Filen skickades till Damned Lies med kommentaren **Granskad och klar**.
