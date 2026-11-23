@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 23:01 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 23:03 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -359,7 +359,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [gnome-connections](https://l10n.gnome.org/vertimus/gnome-connections/gnome-50/po/sv/) | gnome-50 | 104 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-connections](https://l10n.gnome.org/vertimus/gnome-connections/master/po/sv/) | master | 108 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-connections](https://l10n.gnome.org/vertimus/gnome-connections/gnome-50/help/sv/) | gnome-50 | 26 | 0 | 0 | Klar |  | — | Ej granskad |
-| Dokumentation | Default (71% translated) | [gnome-connections](https://l10n.gnome.org/vertimus/gnome-connections/master/help/sv/) | master | 26 | 0 | 0 | Klar |  | — | Ej granskad |
+| Dokumentation | Default (71% translated) | [gnome-connections](https://l10n.gnome.org/vertimus/gnome-connections/master/help/sv/) | master | 26 | 0 | 0 | Klar | X | 2 | Klar lokalt (2026-11-24): Hela 26-strängarskatalogen är radgranskad mot senaste POT. Två befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](gnome-connections/master/help/gnome-connections.master.help.sv.original.po), [granskad](gnome-connections/master/help/gnome-connections.master.help.sv.reviewed.po), [diff](gnome-connections/master/help/gnome-connections.master.help.sv.review.diff), [notering](gnome-connections/master/help/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-contacts](https://l10n.gnome.org/vertimus/gnome-contacts/gnome-50/po/sv/) | gnome-50 | 215 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-contacts](https://l10n.gnome.org/vertimus/gnome-contacts/main/po/sv/) | main | 215 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-control-center](https://l10n.gnome.org/vertimus/gnome-control-center/gnome-50/po/sv/) | gnome-50 | 2149 | 0 | 0 | Klar |  | — | Ej granskad |
