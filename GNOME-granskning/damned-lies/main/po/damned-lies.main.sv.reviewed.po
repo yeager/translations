@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: damned-lies\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-02 14:51+0000\n"
-"PO-Revision-Date: 2026-11-23 12:00+0100\n"
+"POT-Creation-Date: 2026-11-23 13:26+0000\n"
+"PO-Revision-Date: 2026-11-23 19:23+0100\n"
 "Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 3.9\n"
 
-#: api/views.py:1041
+#: api/views.py:1222
 msgid ""
 "You are not allowed to trigger a refresh on this branch. You do not have the "
 "required permissions. You need to be a site admin, a team coordinator, or a "
@@ -31,35 +31,35 @@ msgstr ""
 "som krävs. Du behöver vara en webbplatsadministratör, gruppkoordinator eller "
 "en av de ansvariga för modulen."
 
-#: api/views.py:1050
+#: api/views.py:1231
 msgid "A refresh is already in progress."
 msgstr "En uppdatering pågår redan."
 
-#: api/views.py:1060
+#: api/views.py:1241
 msgid "Refresh started."
 msgstr "Uppdatering startad."
 
-#: common/vcs/checkout.py:224 common/vcs/checkout.py:465
+#: common/vcs/checkout.py:224 common/vcs/checkout.py:468
 #, python-format
 msgid "Git repository %s is not valid. Calling ‘git-status’ failed."
 msgstr "Git-arkivet %s är inte giltigt. Anrop av ”git-status” misslyckades."
 
-#: common/vcs/checkout.py:251 common/vcs/checkout.py:521
+#: common/vcs/checkout.py:251 common/vcs/checkout.py:524
 #, python-format
 msgid "Git repository at %(name)s could not be cloned. %(command_error)s"
 msgstr "Git-arkivet på %(name)s kunde inte klonas. %(command_error)s"
 
-#: common/vcs/checkout.py:271 common/vcs/checkout.py:566
+#: common/vcs/checkout.py:271 common/vcs/checkout.py:569
 #, python-format
 msgid "Git repository %(name)s could not be fetched: %(command_error)s"
 msgstr "Git-arkivet %(name)s kunde inte hämtas: %(command_error)s"
 
-#: common/vcs/checkout.py:296 common/vcs/checkout.py:647
+#: common/vcs/checkout.py:299 common/vcs/checkout.py:656
 #, python-format
 msgid "Git repository %(name)s could not be updated: %(command_error)s"
 msgstr "Git-arkivet %(name)s kunde inte uppdateras: %(command_error)s"
 
-#: common/vcs/checkout.py:311
+#: common/vcs/checkout.py:314
 #, python-format
 msgid ""
 "Git repository %(name)s could not checkout to feature branch: "
@@ -68,20 +68,20 @@ msgstr ""
 "Git-arkivet %(name)s kunde inte checka ut till funktionsgren: "
 "%(command_error)s"
 
-#: common/vcs/checkout.py:327 common/vcs/checkout.py:688
+#: common/vcs/checkout.py:330 common/vcs/checkout.py:697
 #, python-format
 msgid ""
 "Git repository %(name)s could not create feature branch: %(command_error)s"
 msgstr "Git-arkivet %(name)s kunde inte skapa funktionsgren: %(command_error)s"
 
-#: common/vcs/checkout.py:354 common/vcs/checkout.py:719
+#: common/vcs/checkout.py:357 common/vcs/checkout.py:728
 #, python-format
 msgid ""
 "Git branch ‘%(name)s’ could not be renamed in repository: %(command_error)s"
 msgstr ""
 "Kunde inte byta namn på git-grenen ”%(name)s” i arkivet: %(command_error)s"
 
-#: common/vcs/checkout.py:369 common/vcs/checkout.py:784
+#: common/vcs/checkout.py:372 common/vcs/checkout.py:793
 msgid ""
 "Git repository could not be removed due to insufficient rights on the "
 "filesystem."
@@ -89,14 +89,14 @@ msgstr ""
 "Git-arkiv kunde inte tas bort på grund av otillräckliga rättigheter på "
 "filsystemet."
 
-#: common/vcs/checkout.py:396 common/vcs/checkout.py:870
+#: common/vcs/checkout.py:399 common/vcs/checkout.py:879
 #, python-format
 msgid ""
 "Git branch ‘%(name)s’ could not be removed from repository: %(command_error)s"
 msgstr ""
 "Kunde inte ta bort git-grenen ”%(name)s” från arkivet: %(command_error)s"
 
-#: common/vcs/checkout.py:588
+#: common/vcs/checkout.py:591
 #, python-format
 msgid ""
 "Git repository %(name)s could not create a worktree for branch ‘%(branch)s’: "
@@ -119,7 +119,7 @@ msgstr ""
 "Git-arkivet %(name)s kunde inte köra ”cherry-pick” på incheckningen "
 "”%(hash)s”: %(command_error)s"
 
-#: common/vcs/git_helpers.py:59
+#: common/vcs/git_helpers.py:68
 #, python-format
 msgid "Git remote branches could not be listed for %(url)s: %(command_error)s"
 msgstr "Git-fjärrgrenar kunde inte listas för %(url)s: %(command_error)s"
@@ -892,7 +892,7 @@ msgstr "Uzbekiska (latin)"
 msgid "AppStream"
 msgstr "AppStream"
 
-#: database-content.py:318 database-content.py:334 languages/views.py:18
+#: database-content.py:318 database-content.py:334 languages/views.py:22
 msgid "UI Translations"
 msgstr "Gränssnittsöversättningar"
 
@@ -1107,7 +1107,7 @@ msgstr "dialogrutor"
 
 #: database-content.py:374 database-content.py:397 database-content.py:399
 #: database-content.py:433
-#: languages/templates/languages/language_release.html:20 languages/views.py:20
+#: languages/templates/languages/language_release.html:20 languages/views.py:24
 #: vertimus/templates/vertimus/vertimus_detail.html:62
 msgid "User Guide"
 msgstr "Användarguide"
@@ -1210,7 +1210,7 @@ msgstr "Hjälp för GNOME-biblioteket"
 
 #: database-content.py:401
 #: languages/templates/languages/_includes/language_release_summary.html:18
-#: stats/templates/branch_detail.html:21 stats/templates/release_detail.html:29
+#: stats/templates/branch_detail.html:17 stats/templates/release_detail.html:29
 #: templates/_includes/footer.html:51
 msgid "Documentation"
 msgstr "Dokumentation"
@@ -1978,52 +1978,54 @@ msgstr "%(site)s — Arbetsflödes-åtgärder för språket %(lang)s"
 msgid "Latest actions of the GNOME Translation Project for the %s language"
 msgstr "Senaste åtgärder för GNOME-översättningsprojektet för språket %s"
 
-#: languages/models.py:27
+#: languages/models.py:15
 msgid "Invalid plural form syntax."
 msgstr "Ogiltig pluralformsyntax."
 
-#: languages/models.py:37 stats/models.py:94 stats/models.py:407
-#: stats/models.py:837 stats/models.py:1342 stats/models.py:1435
-#: teams/models.py:64 vertimus/models.py:168 vertimus/models.py:637
+#: languages/models.py:25 stats/migrations/0049_module_slug.py:36
+#: stats/models/modules.py:112 stats/models/modules.py:456
+#: stats/models/modules.py:720 stats/models/modules.py:1240
+#: stats/models/modules.py:1313 teams/models.py:64 vertimus/models.py:170
+#: vertimus/models.py:642
 msgid "Name"
 msgstr "Namn"
 
-#: languages/models.py:37
+#: languages/models.py:25
 msgid "Natural name of the language, such as French, English…"
 msgstr "Naturligt namn på språket, såsom franska, engelska…"
 
-#: languages/models.py:40
+#: languages/models.py:28
 msgid "Locale"
 msgstr "Lokal"
 
-#: languages/models.py:40
+#: languages/models.py:28
 msgid "Locale code (ISO-639), such as fr, en_GB…"
 msgstr "Lokalkod (ISO-639), såsom fr, en_GB…"
 
-#: languages/models.py:48
+#: languages/models.py:36
 msgid "The team that manages the translations in this language."
 msgstr "Gruppen som hanterar översättningarna till detta språk."
 
-#: languages/models.py:51
+#: languages/models.py:39
 msgid "Plural form"
 msgstr "Pluralform"
 
-#: languages/models.py:54
+#: languages/models.py:42
 msgid "The plural form of the language, such as ‘nplurals=2; plural=(n != 1);’"
 msgstr "Språkets pluralform, exempelvis ”nplurals=2; plural=(n != 1);”"
 
-#: languages/models.py:94
+#. Translators: this concerns an unknown plural form
+#: languages/models.py:86
+msgid "Unknown"
+msgstr "Okänt"
+
+#: languages/services.py:54
 #, python-format
 msgid "No corresponding Language was found for this IANA BCP47 code (%s)."
 msgstr "Inget motsvarande språk hittades för denna IANA BCP47-kod (%s)."
 
-#. Translators: this concerns an unknown plural form
-#: languages/models.py:134
-msgid "Unknown"
-msgstr "Okänt"
-
 #: languages/templates/languages/_includes/language_release_summary.html:12
-#: stats/models.py:1446 stats/templates/module_edit.html:61
+#: stats/models/modules.py:1324 stats/templates/module_edit.html:61
 msgid "Release"
 msgstr "Utgåva"
 
@@ -2038,7 +2040,7 @@ msgstr "Användargränssnitt"
 #: languages/templates/languages/language_release_stats.html:63
 #: people/templates/people/_includes/person_contribution_activity.html:37
 #: stats/templates/release_detail.html:21
-#: stats/templates/release_detail.html:30 stats/templates/stats_show.html:91
+#: stats/templates/release_detail.html:30 stats/templates/stats_show.html:84
 msgid "Graph"
 msgstr "Diagram"
 
@@ -2051,7 +2053,7 @@ msgstr "Användargränssnitt (minskade)"
 #: languages/templates/languages/_includes/language_release_summary.html:32
 #: languages/templates/languages/_includes/language_release_summary.html:37
 #: languages/templates/languages/language_release_stats.html:33
-#: languages/templates/languages/language_release_stats.html:127
+#: languages/templates/languages/language_release_stats.html:123
 #: vertimus/templates/vertimus/_includes/po_file_stats.html:11
 msgid "Translated/Fuzzy/Untranslated"
 msgstr "Översatta/Luddiga/Ej översatta"
@@ -2131,7 +2133,7 @@ msgstr ""
 "webbsidan för varje modul för att se var översättningarna ska skickas."
 
 #: languages/templates/languages/language_release.html:30
-#: stats/templates/stats_show.html:36
+#: stats/templates/stats_show.html:29
 msgid "Download all po files"
 msgstr "Hämta alla po-filer"
 
@@ -2153,14 +2155,15 @@ msgstr "%(total_trans_perc)s%%"
 #: languages/templates/languages/language_release_stats.html:59
 #: people/admin.py:116
 #: people/templates/people/_includes/person_contribution_activity.html:35
-#: stats/models.py:834 vertimus/templates/vertimus/activity_summary.html:36
+#: stats/models/modules.py:717
+#: vertimus/templates/vertimus/activity_summary.html:36
 msgid "Module"
 msgstr "Modul"
 
 #: languages/templates/languages/language_release_stats.html:60
-#: stats/models.py:1447 stats/models.py:1645
+#: stats/models/modules.py:1325 stats/models/statistics.py:203
 #: stats/templates/module_edit.html:60 vertimus/admin.py:33
-#: vertimus/models.py:156 vertimus/templates/vertimus/activity_summary.html:37
+#: vertimus/models.py:158 vertimus/templates/vertimus/activity_summary.html:37
 msgid "Branch"
 msgstr "Gren"
 
@@ -2170,7 +2173,7 @@ msgid "Statistics"
 msgstr "Statistik"
 
 #: languages/templates/languages/language_release_stats.html:64
-#: stats/models.py:1361
+#: stats/models/modules.py:1259
 msgid "Status"
 msgstr "Status"
 
@@ -2182,42 +2185,33 @@ msgstr "Datum"
 
 #: languages/templates/languages/language_release_stats.html:83
 #, python-format
-msgid "%(categname)s (%(percentage)s%% translated)"
-msgstr "%(categname)s (%(percentage)s%% översatt)"
+msgid "%(category_name)s (%(percentage)s%% translated)"
+msgstr "%(category_name)s (%(percentage)s%% översatt)"
 
 #. Translators: flag to indicate that the category is priority
 #: languages/templates/languages/language_release_stats.html:87
-#: stats/models.py:1436
+#: stats/models/modules.py:1314
 msgctxt "refers to a category"
 msgid "Priority"
 msgstr "Prioritet"
 
-#: languages/templates/languages/language_release_stats.html:104
+#: languages/templates/languages/language_release_stats.html:106
 msgid "View module translation activity"
 msgstr "Visa översättningsaktivitet för modul"
 
-#: languages/templates/languages/language_release_stats.html:109
+#: languages/templates/languages/language_release_stats.html:111
 msgid "View module details"
 msgstr "Visa moduldetaljer"
 
-#: languages/templates/languages/language_release_stats.html:122
-#: stats/templates/stats_show.html:15
-msgid "This document is written in Mallard documentation format"
-msgstr "Detta dokument skrivs i dokumentationsformatet Mallard"
-
-#: languages/templates/languages/language_release_stats.html:123
-msgid "Mallard documentation format"
-msgstr "Dokumentationsformatet Mallard"
-
-#: languages/templates/languages/language_release_stats.html:164
+#: languages/templates/languages/language_release_stats.html:162
 msgid "Error summary"
 msgstr "Sammandrag av fel"
 
-#: languages/views.py:19
+#: languages/views.py:23
 msgid "UI Translations (reduced)"
 msgstr "Gränssnittsöversättningar (minskade)"
 
-#: languages/views.py:80
+#: languages/views.py:84
 msgid "Original strings"
 msgstr "Ursprungliga strängar"
 
@@ -2274,7 +2268,7 @@ msgstr "Viktiga datum"
 msgid "Personal Information"
 msgstr "Personlig information"
 
-#: people/admin.py:173 stats/admin.py:82 stats/admin.py:251
+#: people/admin.py:173 stats/admin.py:82 stats/admin.py:264
 #: stats/templates/module_edit.html:26
 msgid "Metadata"
 msgstr "Metadata"
@@ -2373,8 +2367,8 @@ msgstr "Webbsida"
 msgid "URL to your personal web page."
 msgstr "URL till din personliga webbsida."
 
-#: people/models.py:162 people/tests/test_models.py:17
-#: people/tests/test_models.py:25 people/tests/test_models.py:30
+#: people/models.py:162 people/tests/test_models.py:18
+#: people/tests/test_models.py:26 people/tests/test_models.py:31
 msgid "Matrix Account"
 msgstr "Matrix-konto"
 
@@ -2463,7 +2457,7 @@ msgid "Current activity"
 msgstr "Nuvarande aktivitet"
 
 #: people/templates/people/_includes/person_contribution_activity.html:38
-#: vertimus/admin.py:94 vertimus/models.py:626
+#: vertimus/admin.py:94 vertimus/models.py:631
 #: vertimus/templates/vertimus/activity_summary.html:39
 msgid "State"
 msgstr "Tillstånd"
@@ -2603,9 +2597,9 @@ msgstr ""
 "<p>%(username)s,</p>\n"
 "\n"
 "<p>Detta är ett automatiskt e-postmeddelande från <a "
-"href=\"%(site_domain)s\">Förbannade lögner</a> för att informera dig om "
-"att din profil saknar ditt användarnamn på <a "
-"href=\"%(forge_url)s\">GNOMEs GitLab</a>. Eftersom du koordinerar minst\n"
+"href=\"%(site_domain)s\">Förbannade lögner</a> för att informera dig om att "
+"din profil saknar ditt användarnamn på <a href=\"%(forge_url)s\">GNOMEs "
+"GitLab</a>. Eftersom du koordinerar minst\n"
 "en grupp ombeds du att registrera dig på denna plattform och uppdatera din "
 "Förbannade lögner-profil\n"
 "med ditt GitLab-konto.</p>\n"
@@ -2631,9 +2625,8 @@ msgstr ""
 "Detta är ett automatiskt e-postmeddelande från Förbannade lögner "
 "(%(site_domain)s) för att informera dig\n"
 "om att din profil saknar ditt användarnamn på GNOMEs GitLab (%(forge_url)s). "
-"Eftersom du koordinerar minst "
-"en grupp ombeds du att registrera dig på denna plattform och uppdatera "
-"din\n"
+"Eftersom du koordinerar minst en grupp ombeds du att registrera dig på denna "
+"plattform och uppdatera din\n"
 "Förbannade lögner-profil med ditt GitLab-konto.\n"
 "\n"
 "Administratörsgruppen för Förbannade lögner"
@@ -3189,7 +3182,8 @@ msgstr ""
 msgid "Advanced"
 msgstr "Avancerat"
 
-#: stats/admin.py:94 stats/models.py:126 stats/templates/module_edit.html:35
+#: stats/admin.py:94 stats/models/modules.py:145
+#: stats/templates/module_edit.html:35
 msgid "Forge"
 msgstr "Smedja"
 
@@ -3202,67 +3196,76 @@ msgstr "Arkiv"
 msgid "Link check"
 msgstr "Länkkontroll"
 
-#: stats/admin.py:157
+#: stats/admin.py:113
+msgid "DOAP file"
+msgstr "DOAP-fil"
+
+#: stats/admin.py:170
 msgid "Branches without release"
 msgstr "Grenar utan någon utgåva"
 
-#: stats/admin.py:257
+#: stats/admin.py:270
 msgid "POT Generation Parameters"
 msgstr "POT-genereringsparametrar"
 
-#: stats/admin.py:270
+#: stats/admin.py:283
 msgid "Domain restriction over branches"
 msgstr "Domänbegränsning över grenar"
 
-#: stats/admin.py:328
+#: stats/admin.py:341
 msgid "Please copy only one release at a time"
 msgstr "Kopiera bara en utgåva åt gången"
 
-#: stats/admin.py:351
+#: stats/admin.py:364
 #, python-format
 msgid "New release %(name)s created"
 msgstr "Ny utgåva %(name)s skapad"
 
-#: stats/admin.py:354
+#: stats/admin.py:367
 msgid "Copy release (and associated branches)"
 msgstr "Kopiera utgåva (och tillhörande grenar)"
 
-#: stats/admin.py:377
+#: stats/admin.py:390
 #, python-format
 msgid "Successfully deleted the release."
 msgid_plural "Successfully deleted %(number_of_releases)s releases."
 msgstr[0] "Tog bort utgåvan."
 msgstr[1] "Tog bort %(number_of_releases)s utgåvor."
 
-#: stats/admin.py:383
+#: stats/admin.py:396
 #, python-format
 msgid "Furthermore, the branch was deleted."
 msgid_plural "Furthermore, %(number_of_branches)s branches were deleted."
 msgstr[0] "Dessutom togs grenen bort."
 msgstr[1] "Dessutom togs %(number_of_branches)s grenar bort."
 
-#: stats/admin.py:400
+#: stats/admin.py:413
 msgid "Delete release (and associated branches)"
 msgstr "Ta bort utgåva (och tillhörande grenar)"
 
+#: stats/apps.py:9
+msgid "Application catalog"
+msgstr "Programkatalog"
+
 #. Translators: this is a property of a branch. It means the branch cannot accept translations.
-#: stats/forms.py:64 stats/models.py:427 stats/templates/module_edit.html:63
+#: stats/forms.py:74 stats/models/modules.py:476
+#: stats/templates/module_edit.html:63
 msgid "Locked"
 msgstr "Låst"
 
-#: stats/forms.py:127
+#: stats/forms.py:137
 msgid "You have to provide a category when a version is specified."
 msgstr "Du måste tillhandahålla en kategori när en version anges."
 
-#: stats/forms.py:141 stats/forms.py:173
+#: stats/forms.py:151 stats/forms.py:183
 msgid "This branch already has this release assigned."
 msgstr "Denna gren har redan denna utgåva tilldelad."
 
-#: stats/forms.py:149
+#: stats/forms.py:159
 msgid "This field is required."
 msgstr "Detta fält är obligatoriskt."
 
-#: stats/forms.py:161
+#: stats/forms.py:171
 #, python-format
 msgid ""
 "There is already an entry for branch %(branch)s. Edit that one if you want "
@@ -3271,73 +3274,85 @@ msgstr ""
 "Det finns redan en post för grenen %(branch)s. Redigera den om du vill ta "
 "bort utgåvelänken."
 
-#: stats/forms.py:249
+#: stats/forms.py:259
 #, python-format
 msgid "The new branch %s has been added"
 msgstr "Den nya grenen %s har lagts till"
 
-#: stats/forms.py:255
+#: stats/forms.py:265
 #, python-format
 msgid "Error adding the branch '%(branch_name)s': %(error)s"
 msgstr "Fel vid tillägg av grenen ”%(branch_name)s”: %(error)s"
 
-#: stats/forms.py:359
+#: stats/forms.py:353
+msgid ""
+"Opening a merge or pull request is not supported for the selected forge."
+msgstr ""
+"Det går inte att öppna en merge- eller pull-begäran för den valda smedjan."
+
+#: stats/forms.py:381
 #, python-format
 msgid "Cannot clone repository for module: %s"
 msgstr "Kan inte klona arkiv för modul: %s"
 
+#: stats/forms.py:397
+msgid "Content of the DOAP file of your module."
+msgstr "Innehållet i modulens DOAP-fil."
+
 #. Translators: this is the name of a forge hosting a module's repository.
-#: stats/models.py:67
+#: stats/models/modules.py:85
 msgid "GitLab"
 msgstr "GitLab"
 
 #. Translators: this is the name of a forge hosting a module's repository.
-#: stats/models.py:69 templates/login/authentication_providers.html:9
+#: stats/models/modules.py:87 templates/login/authentication_providers.html:9
 msgid "GitHub"
 msgstr "GitHub"
 
 #. Translators: this is used when the forge hosting a module's repository is not recognized.
-#: stats/models.py:71
+#: stats/models/modules.py:89
 msgid "Other / unknown forge"
 msgstr "Annan / okänd smedja"
 
 #. Translators: this is a description of a way to push changes for a module.
-#: stats/models.py:76
+#: stats/models/modules.py:94
 msgid "Directly pushed to the repository"
 msgstr "Direkt skickad till arkivet"
 
 #. Translators: this is a description of a way to push changes for a module
-#: stats/models.py:78
+#: stats/models/modules.py:96
 msgid "Through a merge/pull request"
 msgstr "Genom en merge/pull-förfrågan"
 
 #. Translators: this is a description of a type of checkout for a module.
-#: stats/models.py:83
+#: stats/models/modules.py:101
 msgid "Single checkout shared by all branches"
 msgstr "Ensam utcheckning delad av alla grenar"
 
 #. Translators: this is a description of a type of checkout for a module
-#: stats/models.py:85
+#: stats/models/modules.py:103
 msgid "One worktree per branch"
 msgstr "Ett arbetsträd per gren"
 
-#: stats/models.py:96 stats/models.py:386
+#: stats/models/modules.py:115 stats/models/modules.py:435
+#: stats/templates/doap_check.html:63
 msgid "Homepage"
 msgstr "Webbsida"
 
-#: stats/models.py:98
+#: stats/models/modules.py:117
 msgid ""
 "The homepage URL is automatically updated if the module contains a .doap "
 "file."
 msgstr ""
 "Webbside-URL:en uppdateras automatiskt om modulen innehåller en .doap-fil."
 
-#: stats/models.py:101 stats/models.py:840 stats/models.py:1351
-#: teams/models.py:70 vertimus/templates/vertimus/activity_summary.html:38
+#: stats/models/modules.py:120 stats/models/modules.py:723
+#: stats/models/modules.py:1249 teams/models.py:70
+#: vertimus/templates/vertimus/activity_summary.html:38
 msgid "Description"
 msgstr "Beskrivning"
 
-#: stats/models.py:104
+#: stats/models/modules.py:123
 msgid ""
 "A short description of the module. It will be displayed on the module page, "
 "close to the module name."
@@ -3345,12 +3360,12 @@ msgstr ""
 "En kort beskrivning av modulen. Den kommer visas på modulsidan, nära "
 "modulnamnet."
 
-#: stats/models.py:108
+#: stats/models/modules.py:127
 msgid "Comment & more"
 msgstr "Kommentar med mera"
 
 # TODO: put external links -> to put external links?
-#: stats/models.py:111
+#: stats/models/modules.py:130
 msgid ""
 "A comment about the module. It is used to display additional information on "
 "the module page such as context, explanation or put external links."
@@ -3358,11 +3373,11 @@ msgstr ""
 "En kommentar om modulen. Den används för att visa ytterligare information på "
 "modulsidan såsom kontext, förklaring eller för att lägga in externa länkar."
 
-#: stats/models.py:116
+#: stats/models/modules.py:135
 msgid "Commit message template"
 msgstr "Incheckningsmeddelandemall"
 
-#: stats/models.py:119
+#: stats/models/modules.py:138
 msgid ""
 "A Django template used to render the title line of translation commits, "
 "overriding the default “Add/Update {{ language }} translation” message. "
@@ -3378,15 +3393,15 @@ msgstr ""
 "(true när en befintlig översättning uppdateras, false när en ny läggs till). "
 "Lämna tom för att använda standardmeddelandet."
 
-#: stats/models.py:129
+#: stats/models/modules.py:148
 msgid "The forge hosting this module’s repository."
 msgstr "Smedjan som står värd för denna moduls arkiv."
 
-#: stats/models.py:132
+#: stats/models/modules.py:151
 msgid "Push action"
 msgstr "Sändåtgärd"
 
-#: stats/models.py:136
+#: stats/models/modules.py:155
 msgid ""
 "How changes are published to this module. Direct push is the default; "
 "opening a merge or pull request is only supported on GitLab and GitHub."
@@ -3394,11 +3409,11 @@ msgstr ""
 "Hur ändringar publiceras till denna modul. Direkt ”push” är standard, stöd "
 "finns för merge- eller pull-förfrågningar för GitLab och GitHub."
 
-#: stats/models.py:141
+#: stats/models/modules.py:160
 msgid "Checkout type"
 msgstr "Utcheckningstyp"
 
-#: stats/models.py:145
+#: stats/models/modules.py:164
 msgid ""
 "How the module’s branches are checked out on disk. A single shared checkout "
 "is the default; one worktree per branch allows concurrent checkouts of the "
@@ -3410,19 +3425,19 @@ msgstr ""
 "modulens grenar. Växla till arbetsträdsläge om arkivet har många objekt och "
 "att checka ut från en gren till en annan tar väldigt lång tid."
 
-#: stats/models.py:154
+#: stats/models/modules.py:173
 msgid "Issue tracker URL"
 msgstr "URL till ärendehanteringssystem"
 
-#: stats/models.py:154
+#: stats/models/modules.py:173
 msgid "The URL to the module’s bug tracker."
 msgstr "URL:en till modulens felhanteringssystem."
 
-#: stats/models.py:159 stats/models.py:387
+#: stats/models/modules.py:178 stats/models/modules.py:436
 msgid "Version Control System URL (SSH)"
 msgstr "URL för versionshanteringssystem (SSH)"
 
-#: stats/models.py:162
+#: stats/models/modules.py:181
 msgid ""
 "The URL to the module’s version control system. In order to commit changes, "
 "it has to be a SSH URL."
@@ -3430,19 +3445,19 @@ msgstr ""
 "URL:en till modulens versionshanteringssystem. För att checka in ändringar "
 "behöver det vara en SSH-URL."
 
-#: stats/models.py:166 stats/models.py:385
+#: stats/models/modules.py:185 stats/models/modules.py:434
 msgid "Version Control System URL (Web)"
 msgstr "URL för versionshanteringssystem (webb)"
 
-#: stats/models.py:167
+#: stats/models/modules.py:186
 msgid "The URL to the module’s version control system web interface."
 msgstr "URL:en till webbgränssnittet för modulens versionshanteringssystem."
 
-#: stats/models.py:170
+#: stats/models/modules.py:189
 msgid "External platform"
 msgstr "Extern platform"
 
-#: stats/models.py:173
+#: stats/models/modules.py:192
 msgid ""
 "URL to external translation platform, if any. It has to be an unsupported "
 "platform, without Git access, the only supported protocol."
@@ -3451,16 +3466,16 @@ msgstr ""
 "plattform som inte stöds, utan Git-åtkomst, det enda protokoll som stöds."
 
 #. Translators: this refers to a module
-#: stats/models.py:179
+#: stats/models/modules.py:198
 msgid "Archived"
 msgstr "Arkiverad"
 
-#: stats/models.py:181
+#: stats/models/modules.py:200
 msgid ""
 "If checked, the module is considered as archived and will not be updated."
 msgstr "Om ikryssad anses modulen vara arkiverad och kommer inte uppdateras."
 
-#: stats/models.py:190
+#: stats/models/modules.py:209
 msgid ""
 "The list of maintainers is automatically updated if the module contains "
 "a .doap file."
@@ -3468,23 +3483,43 @@ msgstr ""
 "Listan över ansvariga uppdateras automatiskt om modulen innehåller en .doap-"
 "fil."
 
-#: stats/models.py:195
+#: stats/models/modules.py:214
 msgid "Link check date"
 msgstr "Datum för länkkontroll"
 
-#: stats/models.py:199
+#: stats/models/modules.py:218
 msgid "The date and time when the module’s links were last checked."
 msgstr "Datum och tid när modulens länkar senast kontrollerades."
 
-#: stats/models.py:202
+#: stats/models/modules.py:221
 msgid "Link check result"
 msgstr "Resultat av länkkontroll"
 
-#: stats/models.py:206
+#: stats/models/modules.py:225
 msgid "The result of the last link check, as a JSON object."
 msgstr "Resultat av senaste länkkontroll, som ett JSON-objekt."
 
-#: stats/models.py:220
+#: stats/models/modules.py:228
+msgid "DOAP check date"
+msgstr "Datum för DOAP-kontroll"
+
+#: stats/models/modules.py:232
+msgid "The date and time when the module’s .doap file was last loaded."
+msgstr "Datum och tid när modulens .doap-fil senast lästes in."
+
+#: stats/models/modules.py:235
+msgid "DOAP check result"
+msgstr "Resultat av DOAP-kontroll"
+
+#: stats/models/modules.py:239
+msgid "The problems found the last time the module’s .doap file was loaded."
+msgstr "Problem som upptäcktes när modulens .doap-fil senast lästes in."
+
+#: stats/models/modules.py:252
+msgid "This name generates a slug that is already in use."
+msgstr "Det här namnet skapar en slug som redan används."
+
+#: stats/models/modules.py:256
 msgid ""
 "Opening a merge or pull request is only supported on GitLab and GitHub. Set "
 "the forge, or switch the push action to direct push."
@@ -3492,12 +3527,12 @@ msgstr ""
 "Att öppna en merge- eller pull-förfrågan stöds endast på GitLab och GitHub. "
 "Ställ in smedjan, eller växla sändåtgärden till direkt ”push”."
 
-#: stats/models.py:229
+#: stats/models/modules.py:265
 #, python-format
 msgid "Invalid template syntax: %(error)s"
 msgstr "Ogiltig mallsyntax: %(error)s"
 
-#: stats/models.py:287
+#: stats/models/modules.py:324
 #, python-format
 msgid ""
 "Translations for this module are externally hosted. Please go to the <a "
@@ -3508,15 +3543,15 @@ msgstr ""
 "href=\"%(link)s\">externa plattformen</a> för att se hur du kan skicka in "
 "din översättning."
 
-#: stats/models.py:409
+#: stats/models/modules.py:458
 msgid "The name of the branch, such as “master” or “gnome-3-10”."
 msgstr "Namnet på grenen, såsom ”master” eller ”gnome-3-10”."
 
-#: stats/models.py:412
+#: stats/models/modules.py:461
 msgid "VCS sub path"
 msgstr "Undersökväg för versionshanteringssystem"
 
-#: stats/models.py:413
+#: stats/models/modules.py:462
 msgid ""
 "Version Control System subpath. Where the .git is located for a Git managed "
 "project."
@@ -3524,20 +3559,20 @@ msgstr ""
 "Undersökväg för versionshanteringssystem. Där .git finns för ett projekt "
 "hanterat med Git."
 
-#: stats/models.py:419 stats/models.py:1367
+#: stats/models/modules.py:468 stats/models/modules.py:1265
 msgid "Weight"
 msgstr "Vikt"
 
-#: stats/models.py:421
+#: stats/models/modules.py:470
 msgid ""
 "Weight is used to order branches. The smaller weights are displayed first."
 msgstr "Vikt används för att sortera grenar. De mindre vikterna visas först."
 
-#: stats/models.py:424
+#: stats/models/modules.py:473
 msgid "File Hashes"
 msgstr "Filhashar"
 
-#: stats/models.py:429
+#: stats/models/modules.py:478
 msgid ""
 "Indicates whether the branch is locked. Locked branches cannot receive "
 "translations."
@@ -3545,28 +3580,11 @@ msgstr ""
 "Indikerar huruvida grenen är låst. Låsta grenar kan inte ta emot nya "
 "översättningar."
 
-#: stats/models.py:530
+#: stats/models/modules.py:579 stats/tests/tests.py:374
 msgid "This branch is not linked from any release."
 msgstr "Denna gren är inte länkad från någon utgåva."
 
-#: stats/models.py:745
-msgid "There is no documentation statistics for this branch."
-msgstr "Det finns ingen dokumentationsstatistik för denna gren."
-
-#: stats/models.py:752
-msgid "There is no documentation statistics for this branch in this language."
-msgstr "Det finns ingen dokumentationsstatistik för denna gren på detta språk."
-
-#: stats/models.py:761
-msgid "There is no user interface statistics for this branch."
-msgstr "Det finns ingen användargränssnittsstatistik för denna gren."
-
-#: stats/models.py:768
-msgid "There is no user interface statistics for this branch in this language."
-msgstr ""
-"Det finns ingen användargränssnittsstatistik för denna gren på detta språk."
-
-#: stats/models.py:800
+#: stats/models/modules.py:695
 #, python-format
 msgid ""
 "This branch name is ‘%(branch_name)s’ while there already exists a branch "
@@ -3575,7 +3593,7 @@ msgstr ""
 "Denna grens namn är ”%(branch_name)s” medan det redan finns en gren som "
 "pekar på HEAD (med namnet %(branch_head_names)s)."
 
-#: stats/models.py:808
+#: stats/models/modules.py:703
 msgid ""
 "There are too many main branches for this module. Please report this issue "
 "to the coordination team, some cleanup is needed."
@@ -3584,11 +3602,11 @@ msgstr ""
 "till koordineringsgruppen, rensning behövs."
 
 # TODO: eg
-#: stats/models.py:837
+#: stats/models/modules.py:720
 msgid "The name of the domain (ie. “po”, “help”…)"
 msgstr "Namnet på domänen (t.ex. ”po”, ”help”…)"
 
-#: stats/models.py:843
+#: stats/models/modules.py:726
 #, python-format
 msgid ""
 "A description of the domain. “%(ui)s” and “%(doc)s” are common descriptions "
@@ -3597,11 +3615,11 @@ msgstr ""
 "En beskrivning av domänen. ”%(ui)s” och ”%(doc)s” är vanliga beskrivningar "
 "för moduler."
 
-#: stats/models.py:849
+#: stats/models/modules.py:732
 msgid "Domain type"
 msgstr "Domäntyp"
 
-#: stats/models.py:853
+#: stats/models/modules.py:736
 #, python-format
 msgid ""
 "Whether the Domain is for a user interface (%(ui)s) or a documentation "
@@ -3610,11 +3628,11 @@ msgstr ""
 "Huruvida domänen är för ett användargränssnitt (%(ui)s) eller dokumentation "
 "(%(doc)s)."
 
-#: stats/models.py:860
+#: stats/models/modules.py:743
 msgid "PO files layout"
 msgstr "PO-fillayout"
 
-#: stats/models.py:863
+#: stats/models/modules.py:746
 #, python-format
 msgid ""
 "The standard for the user interface is “%(po_layout_for_ui)s”. For the "
@@ -3623,19 +3641,19 @@ msgstr ""
 "Standard för användargränssnittet är ”%(po_layout_for_ui)s”. För "
 "dokumentationen är det ”%(po_layout_for_help)s”."
 
-#: stats/models.py:869
+#: stats/models/modules.py:752
 msgid "POT generation method"
 msgstr "POT-genereringsmetod"
 
-#: stats/models.py:873
+#: stats/models/modules.py:756
 msgid "The method to generate the POT file."
 msgstr "Metoden för att generera POT-filen."
 
-#: stats/models.py:876
+#: stats/models/modules.py:759
 msgid "POT generation parameters"
 msgstr "POT-genereringsparametrar"
 
-#: stats/models.py:880
+#: stats/models/modules.py:763
 msgid ""
 "pot_method='url': URL, pot_method='shell': shell command, "
 "pot_method='gettext': optional params"
@@ -3643,11 +3661,11 @@ msgstr ""
 "pot_method='url': URL, pot_method='shell': skalkommando, "
 "pot_method='gettext': valfria parametrar"
 
-#: stats/models.py:885
+#: stats/models/modules.py:768
 msgid "Extra ITS directories"
 msgstr "Extra ITS-kataloger"
 
-#: stats/models.py:888
+#: stats/models/modules.py:771
 msgid ""
 "Colon-separated directories containing extra .its/.loc files for gettext and "
 "shell methods"
@@ -3655,11 +3673,11 @@ msgstr ""
 "Kolonseparerade kataloger som innehåller extra .its/.loc-filer för gettext "
 "och skalmetoder"
 
-#: stats/models.py:892
+#: stats/models/modules.py:775
 msgid "LINGUAS file location"
 msgstr "Plats för LINGUAS-fil"
 
-#: stats/models.py:898
+#: stats/models/modules.py:781
 #, python-format
 msgid ""
 "Use “%s” for no LINGUAS check, or path/to/file#variable for a non-standard "
@@ -3677,12 +3695,12 @@ msgstr ""
 "kontrollera om ett språk listas korrekt i LINGUAS-filen. I många situationer "
 "ska LINGUAS-filen innehålla alla språken som det finns en översättning för."
 
-#: stats/models.py:908
+#: stats/models/modules.py:791
 msgid "Reduced string filter"
 msgstr "Filter för reducerade strängar"
 
 #. Translators: the placeholder is a filter name
-#: stats/models.py:913
+#: stats/models/modules.py:796
 #, python-format
 msgid ""
 "A “%s” filter to strip po file from unprioritized strings (format: location|"
@@ -3691,33 +3709,33 @@ msgstr ""
 "Ett ”%s”-filter för att ta bort lågprioritetssträngar från po-filer (format: "
 "plats|sträng, ”-” för inget filter)"
 
-#: stats/models.py:925
+#: stats/models/modules.py:808
 msgid "Valid from branch"
 msgstr "Giltig från gren"
 
-#: stats/models.py:926
+#: stats/models/modules.py:809
 msgid "The domain is valid from the branch given, for all branches otherwise."
 msgstr "Domänen är giltig från den angivna grenen, annars för alla grenar."
 
-#: stats/models.py:934
+#: stats/models/modules.py:817
 msgid "Valid to branch"
 msgstr "Giltig till gren"
 
-#: stats/models.py:935
+#: stats/models/modules.py:818
 msgid ""
 "If empty, the domain is valid for all branches or until the branch given."
 msgstr "Om tom är domänen giltig för alla grenar eller till grenen anges."
 
-#: stats/models.py:1048
+#: stats/models/modules.py:927
 #, python-format
 msgid "Unable to determine the PO path for this domain in language “%(lang)s”"
 msgstr "Kunde inte avgöra PO-sökvägen för denna domän i språket ”%(lang)s”"
 
-#: stats/models.py:1062
+#: stats/models/modules.py:941
 msgid "This domain is not a documentation domain."
 msgstr "Denna domän är inte en dokumentationsdomän."
 
-#: stats/models.py:1110
+#: stats/models/modules.py:995
 #, python-format
 msgid ""
 "No check of the LINGUAS file. The “%(linguas_location)s” value is set to "
@@ -3726,7 +3744,7 @@ msgstr ""
 "Ingen kontroll av LINGUAS-filen. Värdet ”%(linguas_location)s” är satt till "
 "”%(value)s”."
 
-#: stats/models.py:1128
+#: stats/models/modules.py:1013
 #, python-format
 msgid ""
 "The LINGUAS file is stored at “%(linguas_location)s” but does not exist on "
@@ -3737,7 +3755,7 @@ msgstr ""
 "%(diagnostic)sUppdatera inställningarna så att LINGUAS-filen kan hittas och "
 "uppdateras."
 
-#: stats/models.py:1150
+#: stats/models/modules.py:1035
 #, python-format
 msgid ""
 "A “%(makefile)s” file was found and lists languages in a variable instead of "
@@ -3748,7 +3766,7 @@ msgstr ""
 "en separat LINGUAS-fil. Förbannade lögner stöder inte redigering av den "
 "variabeln ännu. "
 
-#: stats/models.py:1215
+#: stats/models/modules.py:1106
 #, python-format
 msgid ""
 "Entry for this language is not present in %(var)s variable in %(file)s file."
@@ -3756,12 +3774,12 @@ msgstr ""
 "Post för det här språket finns inte i variabeln %(var)s i filen %(file)s."
 
 #. Translators: do not translate dtype, it’s a technical term.
-#: stats/models.py:1228
+#: stats/models/modules.py:1119
 #, python-format
 msgid "Domain dtype should be “%(dtype_ui)s” or “%(dtype_doc)s”."
 msgstr "Domänens dtype ska vara ”%(dtype_ui)s” eller ”%(dtype_doc)s”."
 
-#: stats/models.py:1346
+#: stats/models/modules.py:1244
 msgid ""
 "The name of the release. You should use a slug, a unique identifier for this "
 "release, such as “gnome-40”. This information is used in URLs."
@@ -3769,236 +3787,149 @@ msgstr ""
 "Namnet på utgåvan. Du bör använda en ”slug”, en unik identifierare för denna "
 "utgåva, som ”gnome-40”. Denna information används i URL:er."
 
-#: stats/models.py:1353
+#: stats/models/modules.py:1251
 msgid "The real name of the release, such as “GIMP 2.8” or “GNOME 40”"
 msgstr "Det riktiga namnet på utgåvan, som ”GIMP 2.8” eller ”GNOME 40”"
 
-#: stats/models.py:1356
+#: stats/models/modules.py:1254
 msgid "String frozen"
 msgstr "Strängfryst"
 
-#: stats/models.py:1358
+#: stats/models/modules.py:1256
 msgid "Whether the strings are frozen for this release."
 msgstr "Huruvida strängarna är frysta för denna utgåva."
 
-#: stats/models.py:1364
+#: stats/models/modules.py:1262
 msgid "The status of the release: whether it is official or not."
 msgstr "Statusen för utgåvan: huruvida den är officiell eller inte."
 
-#: stats/models.py:1369
+#: stats/models/modules.py:1267
 msgid ""
 "The weight is used to sort releases, higher on top, below 0 in archives."
 msgstr ""
 "Vikten används för att sortera utgåvor, högre högst upp, under 0 i arkiv."
 
-#: stats/models.py:1373 stats/templates/module_edit.html:56
+#: stats/models/modules.py:1271 stats/templates/module_edit.html:56
 msgid "Branches"
 msgstr "Grenar"
 
-#: stats/models.py:1448
+#: stats/models/modules.py:1326
 msgid "Category name"
 msgstr "Kategorinamn"
 
-#: stats/models.py:1646 vertimus/admin.py:42 vertimus/models.py:157
+#: stats/models/statistics.py:204 vertimus/admin.py:42 vertimus/models.py:159
 msgid "Domain"
 msgstr "Domän"
 
-#: stats/models.py:1647 stats/templates/release_detail.html:19
-#: stats/templates/stats_show.html:86 vertimus/admin.py:52
-#: vertimus/models.py:158
+#: stats/models/statistics.py:205 stats/templates/release_detail.html:19
+#: stats/templates/stats_show.html:79 vertimus/admin.py:52
+#: vertimus/models.py:160
 msgid "Language"
 msgstr "Språk"
 
-#: stats/models.py:1650
+#: stats/models/statistics.py:208
 msgid "Full PO file"
 msgstr "Fullständig PO-fil"
 
-#: stats/models.py:1657
+#: stats/models/statistics.py:215
 msgid "Partial PO file"
 msgstr "Partiell PO-fil"
 
-#: stats/models.py:1764 stats/models.py:2376
+#: stats/models/statistics.py:336 stats/models/statistics.py:583
 #, python-format
 msgid "%(lang_name)s (%(lang_locale)s)"
 msgstr "%(lang_name)s (%(lang_locale)s)"
 
-#: stats/models.py:1826
+#: stats/models/statistics.py:398
 #, python-format
 msgid "%(count)s message"
 msgid_plural "%(count)s messages"
 msgstr[0] "%(count)s meddelande"
 msgstr[1] "%(count)s meddelanden"
 
-#: stats/models.py:1827
+#: stats/models/statistics.py:399
 #, python-format
 msgid "%(count)s word"
 msgid_plural "%(count)s words"
 msgstr[0] "%(count)s ord"
 msgstr[1] "%(count)s ord"
 
-#: stats/models.py:1829
+#: stats/models/statistics.py:401
 #, python-format
 msgid "%(count)s figure"
 msgid_plural "%(count)s figures"
 msgstr[0] "%(count)s bild"
 msgstr[1] "%(count)s bilder"
 
-#: stats/models.py:1830
+#: stats/models/statistics.py:402
 #, python-format
 msgid "(%(messages)s — %(words)s, %(figures)s)"
 msgstr "(%(messages)s — %(words)s, %(figures)s)"
 
-#: stats/models.py:1836
+#: stats/models/statistics.py:408
 #, python-format
 msgid "(%(messages)s — %(words)s)"
 msgstr "(%(messages)s — %(words)s)"
 
-#: stats/models.py:1841
+#: stats/models/statistics.py:413
 msgid "Unable to summarize the POT statistics, the file is missing."
 msgstr "Kunde inte sammanfatta POT-statistiken, filen saknas."
 
-#: stats/models.py:2000
-msgid ""
-"Error while updating statistics using “%(file_path)”. The file may not exist "
-"on disk or is unreadable."
-msgstr ""
-"Fel vid uppdatering av statistik med ”%(file_path)”. Filen kanske inte finns "
-"på disk eller är oläsbar."
-
-#: stats/notifications.py:23
+#: stats/notifications.py:37
 #, python-format
 msgid "Broken links detected for module ‘%(module_name)s’"
 msgstr "Trasiga länkar upptäckta för modulen ”%(module_name)s”"
 
-#: stats/notifications.py:51
+#: stats/notifications.py:65
 #, python-format
 msgid "Module ‘%(module_name)s’ was automatically archived"
 msgstr "Modulen ”%(module_name)s” arkiverades automatiskt"
 
-#: stats/notifications.py:78
+#: stats/notifications.py:92
 msgid "New branches automatically added to database"
 msgstr "Nya grenar automatiskt tillagda till databas"
 
-#: stats/services/pot/documentation.py:52
-#, python-format
-msgid "Unable to find a makefile for module %s"
-msgstr "Kunde inte hitta en makefil för modulen %s"
-
-#: stats/services/pot/documentation.py:86
-msgid "Unable to find doc source files for this module."
-msgstr "Kunde inte hitta dokumentationskällfiler för denna modul."
-
-# TODO: POT file ?
-#: stats/services/pot/potdiff.py:198
-#, python-format
-msgid "The path given to initialize the POTFile does not exist: %(path)s."
-msgstr "Sökvägen angiven för att initiera POT-filen finns inte: %(path)s."
-
-#: stats/services/pot/service.py:53
-msgid "Invalid URL format. Cannot parse the provided URL."
-msgstr "Ogiltigt URL-format. Kan inte tolka tillhandahållen URL."
-
-#: stats/services/pot/service.py:59
-msgid "Invalid URL scheme. Only HTTP and HTTPS schemes are allowed."
-msgstr "Ogiltigt URL-schema. Endast HTTP- och HTTPS-scheman tillåts."
-
-#: stats/services/pot/service.py:81
-msgid "URL resolves to a private/internal IP address. This is not allowed."
-msgstr "URL slås upp till en privat/intern IP-adress. Detta är inte tillåtet."
-
-#: stats/services/pot/service.py:102
-msgid "Error retrieving POT file from URL."
-msgstr "Fel vid hämtning av POT-fil från URL."
-
-#: stats/services/pot/service.py:106
-#, python-format
-msgid "POT file from URL larger than the accepted default (file is > %dMB)."
+#: stats/notifications.py:169 stats/notifications.py:188
+msgid ""
+"Unable to initialize the GitLab client because the authentication failed."
 msgstr ""
-"POT-fil från URL större än det accepterade standardvärdet (filen är > %d MB)."
+"Kunde inte initiera GitLab-klienten för att autentiseringen misslyckades."
 
-#: stats/services/pot/service.py:144
-#, python-format
-msgid "POT file path traversal attempt detected: %(path)s"
-msgstr "Försök att traversera sökväg till POT-fil upptäcktes: %(path)s"
+#: stats/notifications.py:192
+msgid "Unable to create GitLab issue."
+msgstr "Kunde inte skapa GitLab-ärende."
 
-#: stats/services/pot/service.py:162
+#: stats/services/modules/doap.py:57
+msgid "The .doap file is not a valid XML document."
+msgstr "Filen .doap är inte ett giltigt XML-dokument."
+
+#: stats/services/modules/doap.py:58
+msgid "The .doap file does not list any maintainer."
+msgstr "Filen .doap innehåller ingen ansvarig."
+
+#. Translators: keep “foaf:name” as is, it is the name of an element in the .doap file.
+#: stats/services/modules/doap.py:61
+msgid ""
+"A maintainer has no name (foaf:name), so they were not added to the module."
+msgstr "En ansvarig saknar namn (foaf:name) och lades därför inte till för modulen."
+
+#. Translators: keep “foaf:mbox” as is, it is the name of an element in the .doap file.
+#. %(name)s is the name of the maintainer.
+#: stats/services/modules/doap.py:66
 #, python-format
 msgid ""
-"POT file not found in repository, while the configuration indicates it "
-"should be located at “%(pot_file_path)s”. We also tried using the "
-"“%(param)s” with the path “%(path)s” but the file does not exist."
-msgstr ""
-"POT-filen hittades inte i arkivet, medan konfigurationen indikerar att den "
-"skulle finnas på ”%(pot_file_path)s”. Vi försökte också använda ”%(param)s” "
-"med sökvägen ”%(path)s” men filen finns inte."
+"The maintainer %(name)s has no email (foaf:mbox), so they were not added to "
+"the module."
+msgstr "Den ansvariga %(name)s saknar e-postadress (foaf:mbox) och lades därför "
+"inte till för modulen."
 
-#: stats/services/pot/service.py:184
-msgid "No subtitle files found."
-msgstr "Inga undertextfiler hittades."
-
-#: stats/services/pot/service.py:204
-#, python-format
-msgid ""
-"Error regenerating template file (POT) for %(file)s:\n"
-"<pre>%(cmd)s\n"
-"%(output)s</pre>"
-msgstr ""
-"Fel vid återgenerering av mallfil (POT) för %(file)s:\n"
-"<pre>%(cmd)s\n"
-"%(output)s</pre>"
-
-#: stats/services/pot/service.py:233
-#, python-format
-msgid ""
-"Unable to generate an extraction command with xgettext for the file “%s”."
-msgstr ""
-"Kunde inte generera ett extraheringskommando med xgettext för filen ”%s”."
-
-#: stats/services/pot/service.py:260
-msgid "Command injection detected: semicolon in pot_params not allowed."
-msgstr "Kommandoinjektion identifierad: semikolon i pot_params tillåts inte."
-
-#: stats/services/pot/service.py:264
-msgid "Command injection detected: command substitution not allowed."
-msgstr "Kommandoinjektion identifierad: kommandosubstitution tillåts inte."
-
-#: stats/services/pot/service.py:297
-#, python-format
-msgid ""
-"Error regenerating POT file for document %(file)s:\n"
-"<pre>%(cmd)s\n"
-"%(output)s</pre>"
-msgstr ""
-"Fel vid återgenerering av POT-fil för dokumentet %(file)s:\n"
-"<pre>%(cmd)s\n"
-"%(output)s</pre>"
-
-#: stats/services/pot/service.py:307
-msgid "Unable to generate template file (POT). The output file does not exist."
-msgstr "Kunde inte generera mallfil (POT). Utdatafilen finns inte."
-
-#: stats/services/pot/service.py:321
-msgid ""
-"While refreshing the POT file for Damned Lies, an error happened with the "
-"“update-trans” command."
-msgstr ""
-"Under uppdatering av POT-filen för Förbannade lögner inträffade ett fel med "
-"kommandot ”update-trans”."
-
-#: stats/services/pot/service.py:364
+#: stats/services/refresh/pot_file.py:52
 msgid ""
 "Unable to generate template file (POT). The POT generation process itself "
 "did not fail, but the POT file does not exist on disk."
 msgstr ""
 "Kunde inte generera mallfil (POT). POT-genereringsprocessen i sig "
 "misslyckades inte, men POT-filen finns inte på disk."
-
-#: stats/services/pot/service.py:582
-#, python-format
-msgid ""
-"'xgettext' command cannot be built, the following error occurred: %(error)s"
-msgstr ""
-"”xgettext”-kommandot kan inte byggas, följande fel inträffade: %(error)s"
 
 #: stats/services/refresh/service.py:54 stats/services/refresh/service.py:104
 msgid "The refresh process has not started yet."
@@ -4016,21 +3947,21 @@ msgstr "Uppdateringsprocessen avbröts."
 msgid "The refresh process failed."
 msgstr "Uppdateringsprocessen misslyckades."
 
-#: stats/services/refresh/service.py:107
+#: stats/services/refresh/service.py:108
 #, python-format
 msgid "Processing domain “%(domain)s”: %(step)s"
 msgstr "Bearbetar domänen ”%(domain)s”: %(step)s"
 
-#: stats/services/refresh/service.py:113
+#: stats/services/refresh/service.py:114
 msgid "The refresh process completed successfully."
 msgstr "Uppdateringsprocessen slutfördes."
 
-#: stats/services/refresh/service.py:278
-#: stats/services/refresh/tests/test_service.py:282
+#: stats/services/refresh/service.py:281
+#: stats/services/refresh/tests/test_service.py:302
 msgid "The task failed without a specific error message."
 msgstr "Uppgiften misslyckades utan något specifikt felmeddelande."
 
-#: stats/services/refresh/service.py:320
+#: stats/services/refresh/service.py:323
 msgid ""
 "An error occurred while starting the refresh process. Please try again later "
 "or if the problem persists, contact the site administration."
@@ -4038,7 +3969,7 @@ msgstr ""
 "Ett fel inträffade då uppdateringsprocessen startades. Försök igen senare, "
 "eller kontakta webbplatsadministrationen om problemet kvarstår."
 
-#: stats/services/refresh/service.py:330
+#: stats/services/refresh/service.py:333
 msgid ""
 "The refresh service is currently unavailable. Please try again later or if "
 "the problem persists, contact the site administration."
@@ -4046,28 +3977,28 @@ msgstr ""
 "Uppdateringstjänsten för närvarande otillgänglig. Försök igen senare, eller "
 "kontakta webbplatsadministrationen om problemet kvarstår."
 
-#: stats/services/refresh/steps.py:55
+#: stats/services/refresh/steps.py:59
 msgid "Checking domain presence…"
 msgstr "Kontrollerar att domänen finns…"
 
-#: stats/services/refresh/steps.py:68
+#: stats/services/refresh/steps.py:72
 msgid "Checking out the branch…"
 msgstr "Checkar ut grenen…"
 
-#: stats/services/refresh/steps.py:83
+#: stats/services/refresh/steps.py:87
 msgid "Checking POT files…"
 msgstr "Kontrollerar POT-filer…"
 
-#: stats/services/refresh/steps.py:99
+#: stats/services/refresh/steps.py:102
 msgid "Errors while running “intltool-update -m” check."
 msgstr "Fel vid körning av ”intltool-update -m”."
 
-#: stats/services/refresh/steps.py:106
+#: stats/services/refresh/steps.py:107
 #, python-format
 msgid "There are some missing files from POTFILES.in: %s"
 msgstr "Det saknas filer i POTFILES.in: %s"
 
-#: stats/services/refresh/steps.py:116
+#: stats/services/refresh/steps.py:115
 #, python-format
 msgid ""
 "Following files are referenced in either POTFILES.in or POTFILES.skip, yet "
@@ -4076,27 +4007,27 @@ msgstr ""
 "Följande filer refereras till i antingen POTFILES.in eller POTFILES.skip, "
 "men de finns inte: %s"
 
-#: stats/services/refresh/steps.py:125
+#: stats/services/refresh/steps.py:124
 msgid "Generating the POT file…"
 msgstr "Genererar POT-filen…"
 
-#: stats/services/refresh/steps.py:142
+#: stats/services/refresh/steps.py:141
 msgid "Reading the LINGUAS file…"
 msgstr "Läser LINGUAS-filen…"
 
-#: stats/services/refresh/steps.py:156
+#: stats/services/refresh/steps.py:155
 msgid "Refreshing the POT file…"
 msgstr "Uppdaterar POT-filen…"
 
-#: stats/services/refresh/steps.py:174
+#: stats/services/refresh/steps.py:173
 msgid "Can’t generate template file (POT), using old one."
 msgstr "Kan inte generera mallfil (POT), använder den gamla."
 
-#: stats/services/refresh/steps.py:176
+#: stats/services/refresh/steps.py:175
 msgid "Can’t generate template file (POT), statistics aborted."
 msgstr "Kan inte generera mallfil (POT), statistiken avbruten."
 
-#: stats/services/refresh/steps.py:204
+#: stats/services/refresh/steps.py:203
 #, python-format
 msgid ""
 "Unable to send notification to GitLab, hence, no notification was sent to "
@@ -4107,24 +4038,24 @@ msgstr ""
 "GitLab. Administratörsgruppen kommer meddelas om detta problem. Felet var: "
 "%(error)s."
 
-#: stats/services/refresh/steps.py:227
+#: stats/services/refresh/steps.py:226
 msgid "Replacing the old POT file with the new one…"
 msgstr "Ersätter den gamla POT-filen med den nya…"
 
-#: stats/services/refresh/steps.py:234
+#: stats/services/refresh/steps.py:233
 msgid "Can’t copy new template file (POT) to public location."
 msgstr "Kan inte kopiera ny mallfil (POT) till publik plats."
 
-#: stats/services/refresh/steps.py:249
+#: stats/services/refresh/steps.py:248
 #, python-format
 msgid "Updating PO files in languages: “%(locale)s”…"
 msgstr "Uppdaterar PO-filer i språk: ”%(locale)s”…"
 
-#: stats/services/refresh/steps.py:250
+#: stats/services/refresh/steps.py:249
 msgid "Updating PO files in languages…"
 msgstr "Uppdaterar PO-filer i språk…"
 
-#: stats/services/refresh/steps.py:302
+#: stats/services/refresh/steps.py:301
 #, python-format
 msgid ""
 "Unable to update the PO file in “%(locale)s” using the newly created POT for "
@@ -4133,7 +4064,7 @@ msgstr ""
 "Kunde inte uppdatera PO-filen i ”%(locale)s” med den nyskapade POT-filen för "
 "%(module)s/%(branch)s"
 
-#: stats/services/refresh/steps.py:339
+#: stats/services/refresh/steps.py:338
 #, python-format
 msgid ""
 "The language “%(language)s” is not listed in the LINGUAS file for the domain "
@@ -4142,29 +4073,29 @@ msgstr ""
 "Språket ”%(language)s” är inte listat i filen LINGUAS för domänen "
 "”%(domain)s”."
 
-#: stats/services/refresh/steps.py:354 stats/services/refresh/steps.py:365
+#: stats/services/refresh/steps.py:349 stats/services/refresh/steps.py:360
 #, python-format
 msgid "PO file “%s” is not UTF-8 encoded."
 msgstr "PO-filen ”%s” är inte UTF-8-kodad."
 
-#: stats/services/refresh/steps.py:358
+#: stats/services/refresh/steps.py:353
 msgid "This PO file has an executable bit set."
 msgstr "Den här PO-filen har fått den körbara biten inställd."
 
-#: stats/services/refresh/steps.py:369
+#: stats/services/refresh/steps.py:364
 #, python-format
 msgid "PO file “%s” does not pass “msgfmt -vc” checks."
 msgstr "PO-filen ”%s” klarade inte ”msgfmt -vc”-kontrollerna."
 
-#: stats/services/refresh/steps.py:373
+#: stats/services/refresh/steps.py:368
 msgid "PO File is not found on the system."
 msgstr "PO-filen hittades inte på systemet."
 
-#: stats/services/refresh/steps.py:380
+#: stats/services/refresh/steps.py:375
 msgid "Cleaning up obsolete statistics…"
 msgstr "Rensar gammal statistik…"
 
-#: stats/services/refresh/steps.py:403
+#: stats/services/refresh/steps.py:398
 msgid "Updating module information with DOAP file…"
 msgstr "Uppdaterar modulinformation med DOAP-fil…"
 
@@ -4252,6 +4183,19 @@ msgid "The PO file path could not be determined. No commit will be emitted."
 msgstr ""
 "PO-filens sökväg kunde inte avgöras. Ingen incheckning kommer sändas ut."
 
+#: stats/services/statistics/po_file_statistics.py:80
+msgid "No PO file was provided to update statistics."
+msgstr "Ingen PO-fil angavs för att uppdatera statistiken."
+
+#: stats/services/statistics/po_file_statistics.py:101
+#, python-format
+msgid ""
+"Error while updating statistics using “%(file_path)s”. The file may not "
+"exist on disk or is unreadable."
+msgstr ""
+"Fel vid uppdatering av statistik med ”%(file_path)s”. Filen kanske inte finns "
+"på disk eller är oläsbar."
+
 #: stats/templates/_includes/module_archive_warning_message.html:3
 msgid ""
 "This module has been archived. It is only kept for statistical purposes. "
@@ -4284,6 +4228,28 @@ msgstr ""
 "Fråga gruppen för modulunderhåll eller plattformskoordinering om att "
 "uppdatera länkarna."
 
+#: stats/templates/_includes/module_doap_problems_warning_message.html:11
+msgid ""
+"Some information in the .doap file of this module could not be used, so the "
+"module details on this page may be incomplete."
+msgstr "Viss information i modulens .doap-fil kunde inte användas, så "
+"moduluppgifterna på sidan kan vara ofullständiga."
+
+#: stats/templates/_includes/module_doap_problems_warning_message.html:23
+#, python-format
+msgid ""
+"Module maintainers can fix this by updating the .doap file in the module’s "
+"repository. They can <a href=\"%(doap_check_url)s\">check the new file</a> "
+"before pushing it."
+msgstr "Modulens ansvariga kan åtgärda detta genom att uppdatera .doap-filen i "
+"modulens arkiv. De kan <a href=\"%(doap_check_url)s\">kontrollera den nya "
+"filen</a> innan den skickas upp."
+
+#: stats/templates/_includes/module_doap_problems_warning_message.html:29
+#, python-format
+msgid "Last check of the .doap file: %(check_date)s"
+msgstr "Senaste kontroll av .doap-filen: %(check_date)s"
+
 #: stats/templates/_includes/module_maintainer_suggestions.html:4
 msgid "Modules I maintain"
 msgstr "Moduler jag underhåller"
@@ -4297,20 +4263,20 @@ msgstr ""
 "med ett klick."
 
 #: stats/templates/_includes/module_maintainer_suggestions.html:11
-#: stats/templates/module_list.html:89
+#: stats/templates/module_list.html:114
 msgid "This module is archived and read-only."
 msgstr "Denna modul är arkiverad och skrivskyddad."
 
 #: stats/templates/_includes/module_maintainer_suggestions.html:15
 msgid "You maintain this module."
-msgstr "Du är ansvarig för denna modul"
+msgstr "Du är ansvarig för denna modul."
 
 #: stats/templates/_includes/module_maintainer_suggestions.html:15
 msgctxt "refers to a module"
 msgid "Maintained"
 msgstr "Underhålls"
 
-#: stats/templates/branch_detail.html:4
+#: stats/templates/branch_detail.html:2
 msgid ""
 "This branch has been locked. Please don't translate it anymore and report "
 "your efforts on other branches."
@@ -4318,9 +4284,72 @@ msgstr ""
 "Denna gren är låst. Översätt den inte mera och rapportera dina "
 "ansträngningar på andra grenar."
 
-#: stats/templates/branch_detail.html:12
+#: stats/templates/branch_detail.html:9
 msgid "Translation"
 msgstr "Översättning"
+
+#: stats/templates/doap_check.html:4
+msgid "Check your DOAP"
+msgstr "Kontrollera din DOAP"
+
+#: stats/templates/doap_check.html:7
+msgid "Check and Validate a <code>.doap</code> File"
+msgstr "Kontrollera och validera en <code>.doap</code>-fil"
+
+#: stats/templates/doap_check.html:9
+#, python-format
+msgid ""
+"Damned Lies reads the maintainers, the homepage and the bug tracker of a "
+"module from the <code>.doap</code> file at the root of its repository. Paste "
+"the content of the file below to see what Damned Lies would read from it, "
+"and what it cannot use. Nothing is saved. Read the documentation about the "
+"<a href=\"%(url)s\">DOAP file Formatting</a> in case you need more "
+"information."
+msgstr "Damned Lies läser in de ansvariga, webbplatsen och felhanteringssystemet "
+"för en modul från filen <code>.doap</code> i arkivets rot. Klistra in filens "
+"innehåll nedan för att se vad Damned Lies skulle läsa in från den och vad som "
+"inte kan användas. Ingenting sparas. Läs dokumentationen om <a href=\"%(url)s\">"
+"formatering av DOAP-filer</a> om du behöver mer information."
+
+#: stats/templates/doap_check.html:21
+msgid "Some information in this DOAP cannot be used:"
+msgstr "Viss information i den här DOAP-filen kan inte användas:"
+
+#: stats/templates/doap_check.html:32
+msgid "No problem found in this DOAP."
+msgstr "Inga problem hittades i den här DOAP-filen."
+
+#: stats/templates/doap_check.html:39
+msgid "Validate and check DOAP"
+msgstr "Validera och kontrollera DOAP"
+
+#: stats/templates/doap_check.html:45
+msgid "Information Extracted from the DOAP File"
+msgstr "Information som lästs ut från DOAP-filen"
+
+#. Translators: module maintainers found in the DOAP file
+#: stats/templates/doap_check.html:48
+msgid "Responsible for Maintenance"
+msgstr "Ansvarig för underhåll"
+
+#: stats/templates/doap_check.html:60
+msgctxt "DOAP maintainer"
+msgid "None"
+msgstr "Ingen"
+
+#: stats/templates/doap_check.html:68
+msgctxt "DOAP homepage"
+msgid "None"
+msgstr "Ingen"
+
+#: stats/templates/doap_check.html:71
+msgid "Bug tracker"
+msgstr "Felhanteringssystem"
+
+#: stats/templates/doap_check.html:76
+msgctxt "DOAP bug tracker"
+msgid "None"
+msgstr "Ingen"
 
 #: stats/templates/freeze-notification.txt:8
 #, python-format
@@ -4350,40 +4379,40 @@ msgstr "Projektwebbsida"
 msgid "Update Module"
 msgstr "Uppdatera modul"
 
-#: stats/templates/module_detail.html:117
+#: stats/templates/module_detail.html:118
 msgid "Maintenance"
 msgstr "Underhåll"
 
-#: stats/templates/module_detail.html:128
+#: stats/templates/module_detail.html:129
 msgid "Bug reporting"
 msgstr "Felrapportering"
 
-#: stats/templates/module_detail.html:131
+#: stats/templates/module_detail.html:132
 msgid "Sorry, no known locations to report bugs for this module."
 msgstr ""
 "Känner tyvärr inte till några platser för att rapportera fel för denna modul."
 
-#: stats/templates/module_detail.html:134
+#: stats/templates/module_detail.html:135
 msgid "Show existing i18n and l10n bugs"
 msgstr "Visa befintliga felrapporter (i18n och l10n)"
 
-#: stats/templates/module_detail.html:137
+#: stats/templates/module_detail.html:138
 msgid "Report a bug"
 msgstr "Rapportera ett fel"
 
-#: stats/templates/module_detail.html:157
+#: stats/templates/module_detail.html:158
 msgid "Branches:"
 msgstr "Grenar:"
 
-#: stats/templates/module_detail.html:173
+#: stats/templates/module_detail.html:174
 msgid "Expand or collapse statistics for this branch"
 msgstr "Expandera eller fäll ihop statistik för denna gren"
 
-#: stats/templates/module_detail.html:187
+#: stats/templates/module_detail.html:188
 msgid "Browse Repository"
 msgstr "Bläddra i arkiv"
 
-#: stats/templates/module_detail.html:192
+#: stats/templates/module_detail.html:193
 msgid "Refresh branch statistics"
 msgstr "Uppdatera grenstatistik"
 
@@ -4457,16 +4486,35 @@ msgstr "Inte översatt"
 msgid "Empty icon"
 msgstr "Tom ikon"
 
-#: stats/templates/module_list.html:3 stats/templates/module_list.html:14
+#: stats/templates/module_list.html:3 stats/templates/module_list.html:31
 msgid "GNOME Modules"
 msgstr "GNOME-moduler"
 
 #: stats/templates/module_list.html:9
-#, python-format
-msgid "Translation state in %(user_language)s (%(language_code)s)"
-msgstr "Översättningstillstånd för %(user_language)s (%(language_code)s)"
+msgid "Translation state in"
+msgstr "Översättningsstatus på"
 
-#: stats/templates/module_list.html:17
+#: stats/templates/module_list.html:10
+msgid "Select language for module statistics."
+msgstr "Välj språk för modulstatistiken."
+
+#: stats/templates/module_list.html:12
+msgid "Choose a language"
+msgstr "Välj ett språk"
+
+#: stats/templates/module_list.html:15
+msgid "Languages of your Teams"
+msgstr "Språk i dina grupper"
+
+#: stats/templates/module_list.html:21
+msgid "Other Languages"
+msgstr "Andra språk"
+
+#: stats/templates/module_list.html:28
+msgid "Show"
+msgstr "Visa"
+
+#: stats/templates/module_list.html:34
 #, python-format
 msgid ""
 "Select a module below to see some damned lies about it. The translation "
@@ -4498,47 +4546,51 @@ msgstr ""
 "för användargränssnitt eller dokumentation, så kommer genomsnittet av all "
 "statistik att visas."
 
-#: stats/templates/module_list.html:42
+#: stats/templates/module_list.html:60
 msgid "Translation percentage of the User Interface on the main branch."
 msgstr "Översättningsprocent för användargränssnittet på huvudgrenen."
 
-#: stats/templates/module_list.html:44
+#: stats/templates/module_list.html:62
 #, python-format
 msgid "UI %(translated_ui_percentage)s%%"
 msgstr "UI %(translated_ui_percentage)s%%"
 
-#: stats/templates/module_list.html:51
+#: stats/templates/module_list.html:69
 msgid ""
 "Translation percentage of the User Interface on the main branch is missing."
 msgstr "Översättningsprocent för användargränssnittet på huvudgrenen saknas."
 
-#: stats/templates/module_list.html:52
+#: stats/templates/module_list.html:70
 msgid "UI missing"
 msgstr "UI saknas"
 
-#: stats/templates/module_list.html:58
+#: stats/templates/module_list.html:76
 msgid "Translation percentage of the Documentation on the main branch."
 msgstr "Översättningsprocent för dokumentationen på huvudgrenen."
 
-#: stats/templates/module_list.html:60
+#: stats/templates/module_list.html:78
 #, python-format
 msgid "Doc. %(translated_doc_percentage)s%%"
 msgstr "Dok. %(translated_doc_percentage)s%%"
 
-#: stats/templates/module_list.html:66
+#: stats/templates/module_list.html:84
 msgid ""
 "Translation percentage of the Documentation on the main branch is missing."
 msgstr "Översättningsprocent för dokumentationen på huvudgrenen saknas."
 
-#: stats/templates/module_list.html:68
+#: stats/templates/module_list.html:86
 msgid "Doc. missing"
 msgstr "Dok. saknas"
 
-#: stats/templates/module_list.html:78
+#: stats/templates/module_list.html:99
+msgid "Check and Validate a <code>.doap</code> File."
+msgstr "Kontrollera och validera en <code>.doap</code>-fil."
+
+#: stats/templates/module_list.html:103
 msgid "Archived modules"
 msgstr "Arkiverade moduler"
 
-#: stats/templates/module_list.html:80
+#: stats/templates/module_list.html:105
 msgid ""
 "These modules are archived and read-only. They are no longer maintained and "
 "translation percentages are not displayed for them."
@@ -4547,7 +4599,7 @@ msgstr ""
 "översättningsprocent visas inte för dem."
 
 #: stats/templates/release_compare.html:4
-#: stats/templates/release_compare.html:16 stats/tests/tests.py:1219
+#: stats/templates/release_compare.html:16 stats/tests/tests.py:959
 msgid "Releases Comparison"
 msgstr "Jämförelse av utgåvor"
 
@@ -4729,80 +4781,45 @@ msgstr ""
 "för att informera dig om att nya grenar har upptäckts i fjärrarkiv och "
 "automatiskt har lagts till i databasen."
 
-#: stats/templates/stats_show.html:21
+#: stats/templates/stats_show.html:14
 #: vertimus/templates/vertimus/vertimus_detail.html:156
 msgid "Download template file (POT)"
 msgstr "Hämta mallfil (POT)"
 
-#: stats/templates/stats_show.html:23
+#: stats/templates/stats_show.html:16
 #: vertimus/templates/vertimus/vertimus_detail.html:158
 msgid "Template file (POT)"
 msgstr "Mallfil (POT)"
 
-#: stats/templates/stats_show.html:34
+#: stats/templates/stats_show.html:27
 msgid "Download an archive with all the translated po files for this domain."
 msgstr "Hämta ett arkiv med alla översatta po-filer för denna domän."
 
-#: stats/templates/stats_show.html:59
+#: stats/templates/stats_show.html:52
 msgid "Notices"
 msgstr "Anteckningar"
 
-#: stats/templates/stats_show.html:68
+#: stats/templates/stats_show.html:61
 msgid "Search for similar bugs before reporting it"
 msgstr "Sök efter liknande fel innan rapportering"
 
-#: stats/templates/stats_show.html:71
+#: stats/templates/stats_show.html:64
 msgid "Report this bug"
 msgstr "Rapportera detta fel"
 
-#: stats/templates/stats_show.html:87 vertimus/models.py:385
+#: stats/templates/stats_show.html:80 vertimus/models.py:390
 msgid "Translated"
 msgstr "Översatt"
 
-#: stats/templates/stats_show.html:120
+#: stats/templates/stats_show.html:113
 msgid "Display document figures"
 msgstr "Visa dokumentationsbilder"
 
-#: stats/templatetags/stats_extras.py:201
+#: stats/templatetags/stats_extras.py:210
 msgid "Error"
 msgstr "Fel"
 
-#: stats/utils.py:145
-#, python-format
-msgid "When compiling the PO file, the error was “%(exception)s”."
-msgstr "Vid kompilering av PO-filen var felet ”%(exception)s”."
-
-#: stats/utils.py:158
-#, python-format
-msgid "The file “%s” does not exist"
-msgstr "Filen ”%s” finns inte"
-
-#: stats/utils.py:171
-#, python-format
-msgid "Error running pofilter: %s"
-msgstr "Fel vid körning av pofilter: %s"
-
-#: stats/utils.py:183
-#, python-format
-msgid "PO file “%s” does not exist or cannot be read."
-msgstr "PO-filen ”%s” finns inte eller kan inte läsas."
-
-#: stats/utils.py:187
-#, python-format
-msgid "Can’t get statistics for POT file “%s”."
-msgstr "Kan inte få tag på statistik för POT-filen ”%s”."
-
-#: stats/utils.py:371 stats/utils.py:386
-msgid ""
-"Unable to initialize the GitLab client because the authentication failed."
-msgstr ""
-"Kunde inte initiera GitLab-klienten för att autentiseringen misslyckades."
-
-#: stats/utils.py:390
-msgid "Unable to create GitLab issue."
-msgstr "Kunde inte skapa GitLab-ärende."
-
-#: stats/views.py:98
+#: stats/views/modules.py:145
 msgid ""
 "You do not have the rights to edit this module. Module edition is restricted "
 "to people responsible for module maintenance."
@@ -4810,7 +4827,7 @@ msgstr ""
 "Du har inte rättigheterna för att redigera denna modul. Modulredigering är "
 "begränsad till ansvariga för modulunderhåll."
 
-#: stats/views.py:118
+#: stats/views/modules.py:165
 msgid ""
 "Module properties have been updated. If you modified branches, domain or "
 "repository for instance, you will have to trigger statistics refresh "
@@ -4914,7 +4931,7 @@ msgid "Coordinator"
 msgstr "Koordinator"
 
 #: teams/models.py:193 vertimus/admin.py:61 vertimus/admin.py:103
-#: vertimus/models.py:164 vertimus/models.py:633
+#: vertimus/models.py:166 vertimus/models.py:638
 msgid "Person"
 msgstr "Person"
 
@@ -5807,11 +5824,154 @@ msgstr "Administrativa inställningar"
 msgid "Log out"
 msgstr "Logga ut"
 
-#: vertimus/documentation.py:55
+#: translation/services/documentation.py:51
+#, python-format
+msgid "Unable to find a documentation directory for module %s"
+msgstr "Kunde inte hitta en dokumentationskatalog för modulen %s"
+
+#: translation/services/documentation.py:89
+msgid "Unable to find doc source files for this module."
+msgstr "Kunde inte hitta dokumentationskällfiler för denna modul."
+
+#: translation/services/generation.py:74
+msgid "Invalid URL format. Cannot parse the provided URL."
+msgstr "Ogiltigt URL-format. Kan inte tolka tillhandahållen URL."
+
+#: translation/services/generation.py:80
+msgid "Invalid URL scheme. Only HTTP and HTTPS schemes are allowed."
+msgstr "Ogiltigt URL-schema. Endast HTTP- och HTTPS-scheman tillåts."
+
+#: translation/services/generation.py:102
+msgid "URL resolves to a private/internal IP address. This is not allowed."
+msgstr "URL slås upp till en privat/intern IP-adress. Detta är inte tillåtet."
+
+#: translation/services/generation.py:122
+msgid "Error retrieving POT file from URL."
+msgstr "Fel vid hämtning av POT-fil från URL."
+
+#: translation/services/generation.py:126
+#, python-format
+msgid "POT file from URL larger than the accepted default (file is > %dMB)."
+msgstr ""
+"POT-fil från URL större än det accepterade standardvärdet (filen är > %d MB)."
+
+#: translation/services/generation.py:164
+#, python-format
+msgid "POT file path traversal attempt detected: %(path)s"
+msgstr "Försök att traversera sökväg till POT-fil upptäcktes: %(path)s"
+
+#: translation/services/generation.py:181
+#, python-format
+msgid ""
+"POT file not found in repository, while the configuration indicates it "
+"should be located at “%(pot_file_path)s”. We also tried using the "
+"“%(param)s” with the path “%(path)s” but the file does not exist."
+msgstr ""
+"POT-filen hittades inte i arkivet, medan konfigurationen indikerar att den "
+"skulle finnas på ”%(pot_file_path)s”. Vi försökte också använda ”%(param)s” "
+"med sökvägen ”%(path)s” men filen finns inte."
+
+#: translation/services/generation.py:203
+msgid "No subtitle files found."
+msgstr "Inga undertextfiler hittades."
+
+#: translation/services/generation.py:223
+#, python-format
+msgid "The command used to generate a POT file time out after %d seconds"
+msgstr "Kommandot som används för att skapa en POT-fil gjorde tidsgränsöverskridande efter %d sekunder"
+
+#: translation/services/generation.py:227
+#, python-format
+msgid ""
+"Error regenerating template file (POT) for %(file)s:\n"
+"<pre>%(cmd)s\n"
+"%(output)s</pre>"
+msgstr ""
+"Fel vid återgenerering av mallfil (POT) för %(file)s:\n"
+"<pre>%(cmd)s\n"
+"%(output)s</pre>"
+
+#: translation/services/generation.py:255
+#, python-format
+msgid ""
+"Unable to generate an extraction command with xgettext for the file “%s”."
+msgstr ""
+"Kunde inte generera ett extraheringskommando med xgettext för filen ”%s”."
+
+#: translation/services/generation.py:280
+msgid "Command injection detected: semicolon in pot_params not allowed."
+msgstr "Kommandoinjektion identifierad: semikolon i pot_params tillåts inte."
+
+#: translation/services/generation.py:284
+msgid "Command injection detected: command substitution not allowed."
+msgstr "Kommandoinjektion identifierad: kommandosubstitution tillåts inte."
+
+#: translation/services/generation.py:318
+#, python-format
+msgid ""
+"Error regenerating POT file for document %(file)s:\n"
+"<pre>%(cmd)s\n"
+"%(output)s</pre>"
+msgstr ""
+"Fel vid återgenerering av POT-fil för dokumentet %(file)s:\n"
+"<pre>%(cmd)s\n"
+"%(output)s</pre>"
+
+#: translation/services/generation.py:328
+msgid "Unable to generate template file (POT). The output file does not exist."
+msgstr "Kunde inte generera mallfil (POT). Utdatafilen finns inte."
+
+#: translation/services/generation.py:346
+msgid ""
+"While refreshing the POT file for Damned Lies, an error happened with the "
+"“update-trans” command."
+msgstr ""
+"Under uppdatering av POT-filen för Förbannade lögner inträffade ett fel med "
+"kommandot ”update-trans”."
+
+#: translation/services/generation.py:490
+#, python-format
+msgid ""
+"'xgettext' command cannot be built, the following error occurred: %(error)s"
+msgstr ""
+"”xgettext”-kommandot kan inte byggas, följande fel inträffade: %(error)s"
+
+# TODO: POT file ?
+#: translation/services/potdiff.py:198
+#, python-format
+msgid "The path given to initialize the POTFile does not exist: %(path)s."
+msgstr "Sökvägen angiven för att initiera POT-filen finns inte: %(path)s."
+
+#: translation/services/services.py:47
+#, python-format
+msgid "PO file “%s” does not exist or cannot be read."
+msgstr "PO-filen ”%s” finns inte eller kan inte läsas."
+
+#: translation/services/services.py:51
+#, python-format
+msgid "Can’t get statistics for POT file “%s”."
+msgstr "Kan inte få tag på statistik för POT-filen ”%s”."
+
+#: translation/services/services.py:126
+#, python-format
+msgid "When compiling the PO file, the error was “%(exception)s”."
+msgstr "Vid kompilering av PO-filen var felet ”%(exception)s”."
+
+#: translation/services/services.py:139
+#, python-format
+msgid "The file “%s” does not exist"
+msgstr "Filen ”%s” finns inte"
+
+#: translation/services/services.py:152
+#, python-format
+msgid "Error running pofilter: %s"
+msgstr "Fel vid körning av pofilter: %s"
+
+#: vertimus/documentation.py:56
 msgid "Building documentation failed."
 msgstr "Bygge av dokumentation misslyckades."
 
-#: vertimus/documentation.py:80
+#: vertimus/documentation.py:81
 #, python-format
 msgid "Building documentation with %(program)s failed."
 msgstr "Bygge av dokumentation med %(program)s misslyckades."
@@ -5830,7 +5990,7 @@ msgstr "%(name)s (e-post saknas)"
 msgid "Action"
 msgstr "Åtgärd"
 
-#: vertimus/forms.py:54 vertimus/models.py:639
+#: vertimus/forms.py:54 vertimus/models.py:644
 msgid "Comment"
 msgstr "Kommentera"
 
@@ -5924,18 +6084,22 @@ msgstr "En fil behövs för denna åtgärd."
 msgid "Please, don’t send a file with a “Reserve” action."
 msgstr "Skicka inte en fil med en ”Reservera”-åtgärd."
 
-#: vertimus/models.py:92
+#: vertimus/listeners.py:93
+msgid "Reservation cancelled: this person left the team."
+msgstr "Reserveringen avbröts: personen lämnade gruppen."
+
+#: vertimus/models.py:94
 msgid "URL of the Merge Request"
 msgstr "URL till merge-förfrågan"
 
 #. Translators: this refers to a merge request
-#: vertimus/models.py:97 vertimus/templates/vertimus/vertimus_detail.html:141
+#: vertimus/models.py:99 vertimus/templates/vertimus/vertimus_detail.html:141
 #: vertimus/templates/vertimus/vertimus_detail.html:397
 msgctxt "merge_request_status"
 msgid "Merged"
 msgstr "Sammanslagen"
 
-#: vertimus/models.py:98
+#: vertimus/models.py:100
 msgid ""
 "Whether the merge request has been merged. None means the state has not been "
 "checked yet."
@@ -5943,227 +6107,227 @@ msgstr ""
 "Huruvida merge-förfrågan har slagits samman. Ingen betyder att tillståndet "
 "inte har kontrollerats ännu."
 
-#: vertimus/models.py:165
+#: vertimus/models.py:167
 msgid "The person who made the last action."
 msgstr "Personen som gjorde den sista åtgärden."
 
-#: vertimus/models.py:167
+#: vertimus/models.py:169
 msgid "Updated at"
 msgstr "Uppdaterad"
 
-#: vertimus/models.py:175
+#: vertimus/models.py:177
 msgid "Merge Request"
 msgstr "Merge-förfrågan"
 
-#: vertimus/models.py:351
+#: vertimus/models.py:356
 msgid "Inactive"
 msgstr "Inaktiv"
 
-#: vertimus/models.py:369
+#: vertimus/models.py:374
 msgid "Translating"
 msgstr "Översätter"
 
-#: vertimus/models.py:411
+#: vertimus/models.py:416
 msgid "Proofreading"
 msgstr "Korrekturläsning"
 
 #. Translators: This is a status, not a verb
-#: vertimus/models.py:434
+#: vertimus/models.py:439
 msgid "Proofread"
 msgstr "Korrekturläst"
 
-#: vertimus/models.py:458
+#: vertimus/models.py:463
 msgid "To Review"
 msgstr "För granskning"
 
-#: vertimus/models.py:476
+#: vertimus/models.py:481
 msgid "To Commit"
 msgstr "För insändning"
 
-#: vertimus/models.py:494
+#: vertimus/models.py:499
 msgid "Committing"
 msgstr "Insändning"
 
-#: vertimus/models.py:517
+#: vertimus/models.py:522
 msgid "Committed"
 msgstr "Insänd"
 
-#: vertimus/models.py:528
+#: vertimus/models.py:533
 msgid "Waiting for merge request approval"
 msgstr "Väntar på godkännande av merge-förfrågan"
 
-#: vertimus/models.py:539
+#: vertimus/models.py:544
 msgid "Write a comment"
 msgstr "Skriv en kommentar"
 
-#: vertimus/models.py:540
+#: vertimus/models.py:545
 msgid "Reserve for translation"
 msgstr "Reservera för översättning"
 
-#: vertimus/models.py:541
+#: vertimus/models.py:546
 msgid "Upload the new translation"
 msgstr "Skicka upp ny översättning"
 
-#: vertimus/models.py:542
+#: vertimus/models.py:547
 msgid "Reserve for proofreading"
 msgstr "Reservera för korrekturläsning"
 
-#: vertimus/models.py:543
+#: vertimus/models.py:548
 msgid "Upload the proofread translation"
 msgstr "Skicka upp granskad översättning"
 
-#: vertimus/models.py:544
+#: vertimus/models.py:549
 msgid "Mark as ready for submission"
 msgstr "Markera som färdig för insändning"
 
-#: vertimus/models.py:545
+#: vertimus/models.py:550
 msgid "Submit to repository"
 msgstr "Skicka in till arkivet"
 
-#: vertimus/models.py:546
+#: vertimus/models.py:551
 msgid "Reserve to submit"
 msgstr "Reservera för insändning"
 
 #. Translators: description of an action to perform in a vertimus flow
-#: vertimus/models.py:548
+#: vertimus/models.py:553
 msgid "Inform of submission"
 msgstr "Informera om insändning"
 
-#: vertimus/models.py:549
+#: vertimus/models.py:554
 msgid "Request rework"
 msgstr "Begär omarbetning"
 
-#: vertimus/models.py:550
+#: vertimus/models.py:555
 msgid "Archive the actions"
 msgstr "Arkivera åtgärderna"
 
-#: vertimus/models.py:551
+#: vertimus/models.py:556
 msgid "Undo the last state change"
 msgstr "Ångra senaste tillståndsändring"
 
 #. Translators: description of a past action in a vertimus flow
-#: vertimus/models.py:558
+#: vertimus/models.py:563
 msgid "Wrote a comment"
 msgstr "Skrev en kommentar"
 
 #. Translators: description of a past action in a vertimus flow
-#: vertimus/models.py:560
+#: vertimus/models.py:565
 msgid "Reserved for translation"
 msgstr "Reserverade för översättning"
 
 #. Translators: description of a past action in a vertimus flow
-#: vertimus/models.py:562
+#: vertimus/models.py:567
 msgid "Uploaded a new translation"
 msgstr "Skickade upp en ny översättning"
 
 #. Translators: description of a past action in a vertimus flow
-#: vertimus/models.py:564
+#: vertimus/models.py:569
 msgid "Reserved for proofreading"
 msgstr "Reserverade för korrekturläsning"
 
 #. Translators: description of a past action in a vertimus flow
-#: vertimus/models.py:566
+#: vertimus/models.py:571
 msgid "Uploaded the proofread translation"
 msgstr "Skickade upp granskad översättning"
 
 #. Translators: description of a past action in a vertimus flow
-#: vertimus/models.py:568
+#: vertimus/models.py:573
 msgid "Marked as ready for submission"
 msgstr "Markerade som färdig för insändning"
 
 #. Translators: description of a past action in a vertimus flow
-#: vertimus/models.py:570
+#: vertimus/models.py:575
 msgid "Submitted to repository"
 msgstr "Skickade in till arkivet"
 
 #. Translators: description of a past action in a vertimus flow
-#: vertimus/models.py:572
+#: vertimus/models.py:577
 msgid "Reserved to submit"
 msgstr "Reserverade för insändning"
 
 #. Translators: description of a past action in a vertimus flow
-#: vertimus/models.py:574
+#: vertimus/models.py:579
 msgid "Informed of submission"
 msgstr "Informerade om insändning"
 
 #. Translators: description of a past action in a vertimus flow
-#: vertimus/models.py:576
+#: vertimus/models.py:581
 msgid "Requested rework"
 msgstr "Begärde omarbetning"
 
 #. Translators: description of a past action in a vertimus flow
-#: vertimus/models.py:578
+#: vertimus/models.py:583
 msgid "Archived the actions"
 msgstr "Arkiverade åtgärderna"
 
 #. Translators: description of a past action in a vertimus flow
-#: vertimus/models.py:580
+#: vertimus/models.py:585
 msgid "Undid the last state change"
 msgstr "Ångrade senaste tillståndsändring"
 
-#: vertimus/models.py:627
+#: vertimus/models.py:632
 msgid "The state of the module. This may not be changed manually."
 msgstr "Tillståndet på modulen. Detta får inte ändras manuellt."
 
-#: vertimus/models.py:634
+#: vertimus/models.py:639
 msgid "The person who made the action."
 msgstr "Personen som utförde åtgärden."
 
-#: vertimus/models.py:638
+#: vertimus/models.py:643
 msgid "Created at"
 msgstr "Skapad"
 
 #. Translators: ML means mailing list
-#: vertimus/models.py:642
+#: vertimus/models.py:647
 msgid "Notification to ML"
 msgstr "Avisering till sändlista"
 
-#: vertimus/models.py:644
+#: vertimus/models.py:649
 msgid ""
 "Whether a notification to the mailing list of the language team has been "
 "sent."
 msgstr "Huruvida en avisering har skickats till språkgruppens sändlista."
 
-#: vertimus/models.py:647 vertimus/views.py:292 vertimus/views.py:336
-#: vertimus/views.py:342
+#: vertimus/models.py:652 vertimus/views.py:307 vertimus/views.py:351
+#: vertimus/views.py:357
 msgid "Uploaded file"
 msgstr "Uppskickad fil"
 
-#: vertimus/models.py:651
+#: vertimus/models.py:656
 msgid "The file uploaded by the user."
 msgstr "Filen som skickats upp av användaren."
 
-#: vertimus/models.py:658
+#: vertimus/models.py:663
 msgid "Merged file"
 msgstr "Sammanslagen fil"
 
-#: vertimus/models.py:659
+#: vertimus/models.py:664
 msgid "The file merged with the new POT after the upload."
 msgstr "Filen som slagits samman med den nya POT-filen efter att den skickats."
 
-#: vertimus/models.py:662
+#: vertimus/models.py:667
 msgid "Has HTML build"
 msgstr "Har HTML-bygge"
 
-#: vertimus/models.py:665
+#: vertimus/models.py:670
 msgid "Whether an HTML documentation build exists for this action."
 msgstr "Huruvida ett HTML-dokumentationsbygge finns för denna åtgärd."
 
-#: vertimus/models.py:693 vertimus/templates/vertimus/vertimus_detail.html:303
+#: vertimus/models.py:698 vertimus/templates/vertimus/vertimus_detail.html:303
 msgid "deleted account"
 msgstr "borttaget konto"
 
 # File är ett substantiv
-#: vertimus/models.py:746
+#: vertimus/models.py:751
 msgid "File in repository"
 msgstr "Fil i arkiv"
 
-#: vertimus/models.py:758
+#: vertimus/models.py:763
 #, python-format
 msgid "Uploaded file by %(name)s on %(date)s"
 msgstr "Uppskickad fil av %(name)s den %(date)s"
 
-#: vertimus/models.py:857
+#: vertimus/models.py:862
 #, python-format
 msgid ""
 "It is not possible to apply this action (%(action)s) on the current state: "
@@ -6172,7 +6336,7 @@ msgstr ""
 "Det är inte möjligt att verkställa denna åtgärd (%(action)s) på aktuellt "
 "tillstånd: %(state)s."
 
-#: vertimus/models.py:1077
+#: vertimus/models.py:1082
 msgid ""
 "The commit has been created with success, but an error occurred while "
 "refreshing the branch statistics. If you have enough rights, you can try to "
@@ -6182,7 +6346,7 @@ msgstr ""
 "grenstatistiken. Om du har tillräckliga rättigheter kan du försöka uppdatera "
 "statistiken manuellt, eller öppna en felrapport."
 
-#: vertimus/models.py:1092
+#: vertimus/models.py:1097
 msgid ""
 "There is no action in this workflow with a PO file. It is impossible to "
 "submit anything, please upload a PO file first."
@@ -6190,12 +6354,12 @@ msgstr ""
 "Det finns ingen åtgärd i detta tillstånd med en PO-fil. Inget kan checkas "
 "in, skicka upp en PO-fil först."
 
-#: vertimus/models.py:1175
+#: vertimus/models.py:1180
 #, python-format
 msgid "Creating commits is impossible: %(error)s"
 msgstr "Skapande av incheckningar är omöjligt: %(error)s"
 
-#: vertimus/models.py:1199
+#: vertimus/models.py:1204
 #, python-format
 msgid ""
 "An error occurred while trying to synchronize branch “%(main_branch)s” with "
@@ -6207,7 +6371,7 @@ msgstr ""
 "med aktuell gren ”%(current_branch)s”. Den ursprungliga PO-filen har "
 "checkats in ändå. Skicka upp samma PO-fil till målgrenen (%(main_branch)s)."
 
-#: vertimus/models.py:1213
+#: vertimus/models.py:1218
 #, python-format
 msgid ""
 "It is impossible to cherry-pick the commit “%(commit_hash)s” from "
@@ -6560,16 +6724,16 @@ msgstr "← Tillbaka till åtgärder"
 msgid "Note: both files are merged with latest POT file."
 msgstr "Observera: båda filerna är sammanfogade med senaste POT-fil."
 
-#: vertimus/views.py:122
+#: vertimus/views.py:125
 msgid ""
 "The file has been successfully uploaded and committed to the repository."
 msgstr "Filen har skickats och checkats in i arkivet."
 
-#: vertimus/views.py:124
+#: vertimus/views.py:127
 msgid "Additionally, the file has been synchronized with the main branch."
 msgstr "Utöver detta har filen synkroniseringats mot huvudgrenen."
 
-#: vertimus/views.py:153
+#: vertimus/views.py:156
 #, python-format
 msgid ""
 "You’ve just uploaded a new translation but did not fill your real name in "
@@ -6582,7 +6746,7 @@ msgstr ""
 "namn så behöver du fylla i det. %(user_link)s, gå till din profil "
 "%(user_link)s för att uppdatera din identitet."
 
-#: vertimus/views.py:289
+#: vertimus/views.py:304
 msgid ""
 "No file was found as the first operand of the comparison. It does not exist "
 "on disk."
@@ -6590,47 +6754,47 @@ msgstr ""
 "Ingen fil hittades som första operand för jämförelsen. Den finns inte på "
 "disk."
 
-#: vertimus/views.py:297
+#: vertimus/views.py:312
 msgid ""
 "No file was found as the second operand of the comparison. It does not exist "
 "on disk."
 msgstr ""
 "Ingen fil hittades som andra operand för jämförelsen. Den finns inte på disk."
 
-#: vertimus/views.py:317
+#: vertimus/views.py:332
 #, python-format
 msgid "<a href=\"%(url)s\">%(label)s</a> by %(name)s on %(date)s"
 msgstr "<a href=\"%(url)s\">%(label)s</a> av %(name)s den %(date)s"
 
-#: vertimus/views.py:348
+#: vertimus/views.py:363
 #, python-format
 msgid "<a href=\"%(url)s\">Latest committed file</a> for %(lang)s"
 msgstr "<a href=\"%(url)s\">Senaste insända fil</a> för %(lang)s"
 
-#: vertimus/views.py:355
+#: vertimus/views.py:370
 #, python-format
 msgid "<a href=\"%(url)s\">%(text)s</a>"
 msgstr "<a href=\"%(url)s\">%(text)s</a>"
 
-#: vertimus/views.py:357
+#: vertimus/views.py:372
 msgid "Latest POT file"
 msgstr "Senaste POT-fil"
 
-#: vertimus/views.py:463
+#: vertimus/views.py:478
 msgid "No po file to check"
 msgstr "Ingen po-fil att kontrollera"
 
-#: vertimus/views.py:470
+#: vertimus/views.py:485
 #, python-format
 msgid ""
 "Sorry, the server was not able to run the quality checks on this file (%s)"
 msgstr "Servern kunde tyvärr inte köra kvalitetskontrollerna på denna fil (%s)"
 
-#: vertimus/views.py:480
+#: vertimus/views.py:495
 msgid "The po file looks good!"
 msgstr "Po-filen ser bra ut!"
 
-#: vertimus/views.py:507
+#: vertimus/views.py:522
 msgid ""
 "WARNING: This file is <b>NOT</b> suitable as a base for completing this "
 "translation. It contains HTML markup to highlight differential parts of "
@@ -6640,17 +6804,44 @@ msgstr ""
 "denna översättning. Den innehåller HTML-markup för att färgmarkera delar som "
 "skiljer sig för ändrade strängar."
 
-#: vertimus/views.py:604
+#: vertimus/views.py:619
 msgid "No target po file for this action"
 msgstr "Ingen po-fil är mål för denna åtgärd"
 
-#: vertimus/views.py:614
+#: vertimus/views.py:629
 msgid ""
 "You are not allowed to build the documentation. Only team members can "
 "perform this operation."
 msgstr ""
 "Du får inte bygga dokumentationen. Endast gruppmedlemmar kan utföra denna "
 "åtgärd."
+
+#~ msgid "This document is written in Mallard documentation format"
+#~ msgstr "Detta dokument skrivs i dokumentationsformatet Mallard"
+
+#~ msgid "Mallard documentation format"
+#~ msgstr "Dokumentationsformatet Mallard"
+
+#~ msgid "There is no documentation statistics for this branch."
+#~ msgstr "Det finns ingen dokumentationsstatistik för denna gren."
+
+#~ msgid ""
+#~ "There is no documentation statistics for this branch in this language."
+#~ msgstr ""
+#~ "Det finns ingen dokumentationsstatistik för denna gren på detta språk."
+
+#~ msgid "There is no user interface statistics for this branch."
+#~ msgstr "Det finns ingen användargränssnittsstatistik för denna gren."
+
+#~ msgid ""
+#~ "There is no user interface statistics for this branch in this language."
+#~ msgstr ""
+#~ "Det finns ingen användargränssnittsstatistik för denna gren på detta "
+#~ "språk."
+
+#, python-format
+#~ msgid "Translation state in %(user_language)s (%(language_code)s)"
+#~ msgstr "Översättningstillstånd för %(user_language)s (%(language_code)s)"
 
 #~ msgid "GNOME 51 (development)"
 #~ msgstr "GNOME 51 (utveckling)"
@@ -7092,9 +7283,6 @@ msgstr ""
 #~ "github.com/hughsie/appstream-glib/pulls\">Skapa en ”pull”-förfrågan</a> "
 #~ "för att skicka in din översättning."
 
-#~ msgid "Choose a username:"
-#~ msgstr "Välj ett användarnamn:"
-
 #~ msgid "May contain only letters, numbers, and @/./+/-/_ characters."
 #~ msgstr "Får endast innehålla bokstäver, siffror och tecknen @/./+/-/_."
 
@@ -7474,9 +7662,6 @@ msgstr ""
 
 #~ msgid "IRC Channels"
 #~ msgstr "IRC-kanaler"
-
-#~ msgid "Bug Tracker"
-#~ msgstr "Bugg-uppföljningssystem"
 
 #~ msgid "Development Code"
 #~ msgstr "Utvecklingskod"
