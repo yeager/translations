@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 18:58 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 19:01 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -612,7 +612,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [welcome.gnome.org — Welcome to GNOME](https://l10n.gnome.org/vertimus/welcome-gnome-org/main/ui/sv/) | main | 291 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [Wildcard](https://l10n.gnome.org/vertimus/wildcard/main/po/sv/) | main | 64 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [www-gnome-org — GNOME Website](https://l10n.gnome.org/vertimus/www-gnome-org/main/po/sv/) | main | 123 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [xdg-desktop-portal](https://l10n.gnome.org/vertimus/xdg-desktop-portal/main/po/sv/) | main | 50 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [xdg-desktop-portal](https://l10n.gnome.org/vertimus/xdg-desktop-portal/main/po/sv/) | main | 50 | 0 | 0 | Klar | X | 5 | Klar lokalt (2026-11-23): Aktuell 50-strängarskatalog: fem befintliga kvalitetsbrister är rättade. msgfmt, msgcmp och l10n-lint är felfria. Inskickad till DL 2026-11-23 med kommentaren ”Granskad och klar”. [original](xdg-desktop-portal/main/po/xdg-desktop-portal.main.sv.original.po), [granskad](xdg-desktop-portal/main/po/xdg-desktop-portal.main.sv.reviewed.po), [diff](xdg-desktop-portal/main/po/xdg-desktop-portal.main.sv.review.diff), [notering](xdg-desktop-portal/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [xdg-desktop-portal-gnome](https://l10n.gnome.org/vertimus/xdg-desktop-portal-gnome/main/po/sv/) | main | 74 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [xdg-desktop-portal-gnome](https://l10n.gnome.org/vertimus/xdg-desktop-portal-gnome/gnome-50/po/sv/) | gnome-50 | 74 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [xdg-desktop-portal-gtk](https://l10n.gnome.org/vertimus/xdg-desktop-portal-gtk/main/po/sv/) | main | 34 | 0 | 0 | Klar | X | 6 | Klar lokalt (2026-11-23): Aktuell 34-strängarskatalog: sex befintliga kvalitetsbrister är rättade, inklusive personuppgiftsterminologi och en nordisk accelerator. msgfmt, msgcmp och l10n-lint är felfria. Inskickad till DL 2026-11-23 med kommentaren ”Granskad och klar”. [original](xdg-desktop-portal-gtk/main/po/xdg-desktop-portal-gtk.main.sv.original.po), [granskad](xdg-desktop-portal-gtk/main/po/xdg-desktop-portal-gtk.main.sv.reviewed.po), [diff](xdg-desktop-portal-gtk/main/po/xdg-desktop-portal-gtk.main.sv.review.diff), [notering](xdg-desktop-portal-gtk/main/po/README.md) |
