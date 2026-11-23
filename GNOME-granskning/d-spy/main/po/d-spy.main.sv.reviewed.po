@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: d-spy main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/d-spy/issues\n"
 "POT-Creation-Date: 2026-10-13 13:41+0000\n"
-"PO-Revision-Date: 2026-11-22 00:00+0100\n"
+"PO-Revision-Date: 2026-11-23 12:30+0100\n"
 "Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -132,19 +132,20 @@ msgstr "Kopierad till urklipp"
 
 #: src/dspy-window.c:602 src/dspy-window.c:647
 msgid "Property was set, but the service owner has changed"
-msgstr "Egenskapen angavs, men tjänstägaren har ändrats"
+msgstr "Egenskapen har angetts, men tjänstägaren har ändrats"
 
 #: src/dspy-window.c:633
 #, c-format
 msgid "Failed to set property: %s"
-msgstr "Misslyckades med att ange egenskap: %s"
+msgstr "Det gick inte att ange egenskapen: %s"
 
 #: src/dspy-window.c:661
 #, c-format
 msgid "Property was set, but could not be read back: %s"
-msgstr "Egenskapen angavs men kunde inte läsas tillbaka: %s"
+msgstr "Egenskapen angavs, men kunde inte läsas tillbaka: %s"
 
 #: src/dspy-window.c:667
+#| msgid "Property"
 msgid "Property updated"
 msgstr "Egenskapen uppdaterades"
 
@@ -161,8 +162,9 @@ msgid "msec"
 msgstr "ms"
 
 #: src/dspy-window.c:984
+#| msgid "write-only"
 msgid "Write-only property"
-msgstr "Egenskap som endast kan skrivas"
+msgstr "Endast skrivbar egenskap"
 
 #: src/dspy-window.ui:62
 msgid "Connections"
@@ -247,14 +249,16 @@ msgid "Value"
 msgstr "Värde"
 
 #: src/dspy-window.ui:1089
+#| msgid "Property"
 msgid "Set Property"
 msgstr "Ange egenskap"
 
 #: src/dspy-window.ui:1090
 msgid "Enter a value in GVariant text format, such as 'hello', true, or 42."
-msgstr "Ange ett värde i GVariant-textformat, såsom 'hello', true eller 42."
+msgstr "Ange ett värde i GVariant-textformat, till exempel ”hello”, true eller 42."
 
 #: src/dspy-window.ui:1094
+#| msgid "Value"
 msgid "New Value"
 msgstr "Nytt värde"
 

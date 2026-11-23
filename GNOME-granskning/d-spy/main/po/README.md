@@ -1,12 +1,9 @@
-# d-spy — main — svenska UI
+# D-Spy — main/po
 
-- GNOME-status före granskning: 68 översatta, 4 fuzzy, 7 oöversatta.
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/d-spy/main/po/sv/>
-- Granskad rad: `property` → `egenskap`; `service owner` → `tjänstägare`.
-- Åtgärd: Egenskapsredigerarens statusmeddelanden, inmatningshjälp och fyra fuzzy-strängar översattes.
-- Ändringar: 7 ny(a) översättning(ar), 4 rättad(e) befintlig(a) sträng(ar).
-- Validering: `msgfmt --check`; `%s`, D-Bus och GVariant-exemplen kontrollerade.
-- Dokumenterade undantag: D-Bus, GVariant och de syntaktiska värdena `'hello'`, `true` och `42` är avsiktligt oförändrade.
-- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
-- Slutlig lokal status: 79 översatta, 0 fuzzy, 0 oöversatta.
+- Granskad: 2026-11-23
+- Lokal statistik: 79 aktiva strängar, 0 oöversatta och 0 fuzzy.
+- Ändringar: Elva nya poster för att ange och läsa D-Bus-egenskaper har översatts. Fyra fuzzy-poster har rättats, bland annat egenskapsstatus, skrivskydd och dialogetiketter.
+- Validering: `msgfmt --check` och `l10n-lint` är godkända utan fel eller varningar.
+- Källskillnad: Damned Lies aktuella PO har 79 poster medan Git-huvudgrenen vid hämtning hade 68 ifyllda poster. Arkivets original är den aktuella Damned Lies-filen.
+- Ingen ändring har skickats till GNOME.
