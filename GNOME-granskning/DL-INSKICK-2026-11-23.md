@@ -28,6 +28,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | template-glib | main | po | 3 |
 | oo7 | main | oo7-server | 3 |
 | tecla | gnome-50 | po | 1 |
+| pan | master | po | 2 |
 | plymouth | main | po | 1 |
 | totem-pl-parser | master | po | 1 |
 | template-glib | main | po | 3 |
