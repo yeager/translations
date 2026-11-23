@@ -52,6 +52,8 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | ptyxis | main | po | 97 |
 | gnome-flashback | master | po | 16 |
 | Errands | main | po | 173 |
+| gnumeric | master | po | 56 |
+| gnumeric | master | po-functions | 51 |
 
 ## Kompletta granskningar utan ändrade översättningssträngar
 

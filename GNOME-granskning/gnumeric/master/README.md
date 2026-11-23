@@ -1,7 +1,7 @@
 # Gnumeric — master — svenska kataloger
 
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gnumeric/master/po/sv/> och <https://l10n.gnome.org/vertimus/gnumeric/master/po-functions/sv/>.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
+- GNOME-inskick: `po` och `po-functions` skickades 2026-11-23 via Damned Lies API med kommentaren `Granskad och klar`; båda uppladdningarna returnerade `{"result":"OK"}`.
 - Översättarmetadata i ändrade kataloger: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-23.
 
 ## `po`
