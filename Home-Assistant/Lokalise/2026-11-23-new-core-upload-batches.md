@@ -338,6 +338,13 @@ bekräftade att svenska texter, radbrytningar och platshållare redan är
 korrekta. De fem TMX-posterna ersattes med verifierad live-data; ingen
 Lokalise-text ändrades.
 
+## Slutlig platshållargranskning
+
+WSDOT och Withings bekräftades korrekta i Lokalise och deras TMX-poster
+uppdaterades från live-data. A. O. Smiths fält `Password` innehöll däremot en
+gammal längre text och synkroniserades till `Lösenord`. Efter liveåterläsning
+visar den kanoniska TMX:ens platshållarjämförelse **0 avvikelser**.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
