@@ -1,12 +1,9 @@
-# libsoup — master — svenska UI
+# libsoup — master/po
 
-- GNOME-status före granskning: 37 översatta, 1 fuzzy, 2 oöversatta.
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/libsoup/master/po/sv/>
-- Granskad rad: `Too large chunk`, `Invalid chunk size` och WebSocket-felsträng.
-- Åtgärd: Två felsträngar fylldes i och en fuzzy översättning uppdaterades från felaktigt värdnamn till HTTP-segmentstorlek.
-- Ändringar: 2 ny(a) översättning(ar), 1 rättad(e) befintlig(a) sträng(ar).
-- Validering: `msgfmt --check`; inga platshållare, acceleratorer eller markup i ändringen.
-- Dokumenterade undantag: `hunspell-sv` listar `WebSocket-meddelandet`; det är en avsiktlig teknisk sammansättning med protokollnamnet WebSocket.
-- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
-- Slutlig lokal status: 40 översatta, 0 fuzzy, 0 oöversatta.
+- Aktuell POT: 40 aktiva poster. Den hämtade svenska katalogen hade 2 oöversatta och en fuzzy-post; den granskade filen har 0 oöversatta och 0 fuzzy.
+- Granskning: hela katalogen är radgranskad. Den felaktigt återanvända värdnamnstexten är rättad till HTTP-chunkstorlek och två WebSocket-feltexter är ifyllda.
+- Acceleratorer: inga `_ä`, `_å` eller `_ö` förekommer.
+- Validering: `msgfmt --check` utan fel. `l10n-lint --language sv` har 0 fel och 0 varningar; två informationsnotiser gäller enbart svensk typografi runt citerade tekniska namn.
+- Hunspell: HTTP, TLS, URI och WebSocket är avsiktliga tekniska termer.
+- GNOME-inskick: inget.
