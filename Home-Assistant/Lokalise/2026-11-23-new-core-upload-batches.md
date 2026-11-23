@@ -148,6 +148,14 @@ i en Climate-triggerbeskrivning. Det rättades till `temperaturbörvärdet`,
 sparades och lästes tillbaka via Lokalise API. Den kanoniska TMX:en validerade
 sedan 4 065 poster.
 
+## KNX: stamnätsnyckel
+
+KNX använde både `Huvudnyckel` och `Stamnätsnyckel` för samma parameter
+`Backbone key` i flöden för säker routning. De två manuella konfigurations-
+och alternativflödena normaliserades till `Stamnätsnyckel`, sparades och
+lästes tillbaka via Lokalise API. TMX-valideringen godkände därefter 4 067
+poster.
+
 ## ZHA: inflygningsavstånd
 
 Två ZHA-fält med källtexten `Approach distance` hade formerna
