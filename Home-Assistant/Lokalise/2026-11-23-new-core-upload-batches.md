@@ -367,6 +367,13 @@ Den normaliserades till `Konfigurera grundläggande inställningar för
 {platform_label}-entiteten{entity_name_label}`. Namnetikettens platshållare
 bevarades exakt; värdet sparades och lästes tillbaka via Lokalise API.
 
+## Reolink: portmellanrum
+
+Reolinks feltext skrev antalplatshållaren direkt mot `port(ar)` som
+`{ports}port(ar)`. Den rättades till `{ports} port(ar)`; platshållare och
+Markdown-länk bevarades, och värdet sparades samt lästes tillbaka via
+Lokalise API.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
