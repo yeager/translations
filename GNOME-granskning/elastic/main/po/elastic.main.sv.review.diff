@@ -1,0 +1,144 @@
+diff --git a/.work-gnome-review/elastic-main-po/original.po b/.work-gnome-review/elastic-main-po/sv.po
+index ace6ac4..22044a5 100644
+--- a/.work-gnome-review/elastic-main-po/original.po
++++ b/.work-gnome-review/elastic-main-po/sv.po
+@@ -9,8 +9,8 @@ msgstr ""
+ "Project-Id-Version: Elastic main\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/elastic/-/issues\n"
+ "POT-Creation-Date: 2026-09-26 00:46+0000\n"
+-"PO-Revision-Date: 2026-08-10 14:58+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-23 22:25+0000\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -43,11 +43,11 @@ msgstr "Huruvida dämpning ska användas i stället för dämpningsförhållande
+ 
+ #: data/app.drey.Elastic.gschema.xml:19
+ msgid "Last Language"
+-msgstr "Senaste språk"
++msgstr "Senast använda språk"
+ 
+ #: data/app.drey.Elastic.gschema.xml:20
+ msgid "Last selected language."
+-msgstr "Senast valda språk."
++msgstr "Senast använda språk."
+ 
+ #: data/app.drey.Elastic.metainfo.xml.in:8
+ msgid "Alice Mikhaylenko"
+@@ -58,8 +58,8 @@ msgid ""
+ "Elastic allows to design and export spring physics-based animations to use "
+ "with libadwaita."
+ msgstr ""
+-"Elastic tillåter design och export av fjäderfysikbaserade animeringar för "
+-"användning med libadwaita."
++"Elastic gör det möjligt att utforma och exportera fjäderfysikbaserade "
++"animeringar som kan användas med libadwaita."
+ 
+ #: data/app.drey.Elastic.metainfo.xml.in:19
+ msgid "Features:"
+@@ -67,8 +67,7 @@ msgstr "Funktioner:"
+ 
+ #: data/app.drey.Elastic.metainfo.xml.in:21
+ msgid "Preview translation, rotation and scaling transformations."
+-msgstr ""
+-"Förhandsgranska translaterande, roterande och skalande transformeringar."
++msgstr "Förhandsgranska förflyttning, rotation och skalning."
+ 
+ #: data/app.drey.Elastic.metainfo.xml.in:22
+ msgid "See the animation curve and duration on a graph."
+@@ -76,11 +75,11 @@ msgstr "Se animeringskurvan och varaktigheten i en graf."
+ 
+ #: data/app.drey.Elastic.metainfo.xml.in:23
+ msgid "Drag a handle to see it return back with the spring physics."
+-msgstr "Dra ett handtag för att se det återvända med fjäderfysiken."
++msgstr "Dra i ett handtag för att se det återvända med fjäderfysiken."
+ 
+ #: data/app.drey.Elastic.metainfo.xml.in:24
+ msgid "Export C, JavaScript, Python, Vala or Rust code."
+-msgstr "Exportera C-, Javascript-, Python-, Vala- eller Rust-kod."
++msgstr "Exportera C-, JavaScript-, Python-, Vala- eller Rust-kod."
+ 
+ #: data/app.drey.Elastic.metainfo.xml.in:32
+ #: data/app.drey.Elastic.metainfo.xml.in:36
+@@ -112,11 +111,11 @@ msgstr ""
+ 
+ #: src/basic-view.blp:70
+ msgid "Initial Velocity"
+-msgstr "Initial hastighet"
++msgstr "Starthastighet"
+ 
+ #: src/basic-view.blp:71
+ msgid "Information About Initial Velocity"
+-msgstr "Information om initial hastighet"
++msgstr "Information om starthastighet"
+ 
+ #: src/basic-view.blp:73
+ msgid ""
+@@ -124,13 +123,13 @@ msgid ""
+ "changing duration. This is useful when finishing gestures with an animation, "
+ "or to make it bounce more in either direction."
+ msgstr ""
+-"Initial hastighet påverkar början av animeringskurvan utan att ändra "
+-"varaktigheten. Detta är användbart när gester avslutas med en animering, "
+-"eller för att få den att studsa mer i någon riktning."
++"Starthastigheten påverkar början på animeringskurvan utan att ändra "
++"varaktigheten. Detta är användbart när en gest avslutas med en animering "
++"eller när du vill att den ska studsa mer åt något håll."
+ 
+ #: src/basic-view.blp:92 src/shortcuts-dialog.blp:57
+ msgid "Toggle Graph"
+-msgstr "Aktivera/inaktivera graf"
++msgstr "Visa/dölj graf"
+ 
+ #: src/basic-view.blp:104 src/shortcuts-dialog.blp:52
+ msgid "Run Animation"
+@@ -162,8 +161,8 @@ msgid ""
+ "can switch to damping instead."
+ msgstr ""
+ "Dämpning avgör hur mycket fjädern svänger. Dämpningsförhållande är en mer "
+-"praktisk parameter som är justerad att bete sig på samma sätt oavsett massa "
+-"och styvhet, och för det mesta är den lättare att arbeta med.\n"
++"praktisk parameter som är utformad för att bete sig på samma sätt oavsett "
++"massa och styvhet, och är oftast lättare att arbeta med.\n"
+ "\n"
+ "Om du behöver importera värden från ett annat ramverk som använder dämpning "
+ "så kan du växla till dämpning i stället."
+@@ -186,9 +185,9 @@ msgid ""
+ "spring to rest as soon as possible with no oscillation, lower values to "
+ "create oscillation, higher values to slow the spring down."
+ msgstr ""
+-"Hur mycket fjädern svänger. Ställ in det till det markerade värdet för att "
+-"få fjädern i vila så snart som möjligt utan någon svängning, lägre värden "
+-"för att skapa svängning, högre värden för att sakta ner fjädern."
++"Hur mycket fjädern svänger. Ange det markerade värdet för att få fjädern "
++"att vila så snart som möjligt utan svängning. Ange lägre värden för att "
++"skapa svängning och högre värden för att bromsa fjädern."
+ 
+ #: src/properties-view.blp:101
+ msgid "Damping Ratio"
+@@ -204,9 +203,9 @@ msgid ""
+ "soon as possible with no oscillation, lower values to create oscillation, "
+ "higher values to slow the spring down."
+ msgstr ""
+-"Hur mycket fjädern svänger. Ställ in det till 1 för att få fjädern i vila så "
+-"snart som möjligt utan någon svängning, lägre värden för att skapa "
+-"svängning, högre värden för att sakta ner fjädern."
++"Hur mycket fjädern svänger. Ange värdet 1 för att få fjädern att vila så "
++"snart som möjligt utan svängning. Ange lägre värden för att skapa svängning "
++"och högre värden för att bromsa fjädern."
+ 
+ #: src/properties-view.blp:119
+ msgid "Mass"
+@@ -221,8 +220,8 @@ msgid ""
+ "The mass of the attached object. The higher the mass is, the longer the "
+ "spring takes to stop."
+ msgstr ""
+-"Massan för det bifogade objektet. Ju högre massa, desto längre tid tar det "
+-"för fjädern att stoppa."
++"Massan hos det anslutna objektet. Ju högre massan är, desto längre tar det "
++"för fjädern att stanna."
+ 
+ #: src/properties-view.blp:132
+ msgid "Stiffness"

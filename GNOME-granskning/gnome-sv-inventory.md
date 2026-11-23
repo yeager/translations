@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 21:58 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:02 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -231,7 +231,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [eartag](https://l10n.gnome.org/vertimus/eartag/main/po/sv/) | main | 211 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [easytag](https://l10n.gnome.org/vertimus/easytag/master/po/sv/) | master | 995 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [easytag](https://l10n.gnome.org/vertimus/easytag/master/help/sv/) | master | 163 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [elastic](https://l10n.gnome.org/vertimus/elastic/main/po/sv/) | main | 64 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [elastic](https://l10n.gnome.org/vertimus/elastic/main/po/sv/) | main | 64 | 0 | 0 | Klar | X | 14 | Klar lokalt (2026-11-23): Hela 64-strängarskatalogen är radgranskad mot senaste POT. Fjorton befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt och msgcmp är felfria; l10n-lint saknar fel och varningar. Ingen GNOME-inskickning har gjorts. [original](elastic/main/po/elastic.main.sv.original.po), [granskad](elastic/main/po/elastic.main.sv.reviewed.po), [diff](elastic/main/po/elastic.main.sv.review.diff), [notering](elastic/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [emblem](https://l10n.gnome.org/vertimus/emblem/master/po/sv/) | master | 39 | 0 | 0 | Klar | X | 3 | Klar lokalt (2026-11-23): Aktuell 39-strängarskatalog är radgranskad mot senaste POT. Tre befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt och msgcmp är felfria; l10n-lint saknar fel och varningar. Ingen GNOME-inskickning har gjorts. [original](emblem/master/po/emblem.master.sv.original.po), [granskad](emblem/master/po/emblem.master.sv.reviewed.po), [diff](emblem/master/po/emblem.master.sv.review.diff), [notering](emblem/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [Endeavour](https://l10n.gnome.org/vertimus/endeavour/main/po/sv/) | main | 83 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [Endeavour](https://l10n.gnome.org/vertimus/endeavour/main/help/sv/) | main | 86 | 0 | 0 | Klar |  | — | Ej granskad |
