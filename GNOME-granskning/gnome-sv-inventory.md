@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 21:25 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 21:27 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -438,7 +438,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [gnome-tetravex](https://l10n.gnome.org/vertimus/gnome-tetravex/master/help/sv/) | master | 64 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-text-editor](https://l10n.gnome.org/vertimus/gnome-text-editor/gnome-50/po/sv/) | gnome-50 | 288 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-text-editor](https://l10n.gnome.org/vertimus/gnome-text-editor/gnome-50/help/sv/) | gnome-50 | 65 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-tour](https://l10n.gnome.org/vertimus/gnome-tour/main/po/sv/) | main | 23 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-tour](https://l10n.gnome.org/vertimus/gnome-tour/main/po/sv/) | main | 23 | 0 | 0 | Klar | X | 4 | Klar lokalt (2026-11-23): Aktuell 23-strängarskatalog är radgranskad mot senaste POT. Fyra befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](gnome-tour/main/po/gnome-tour.main.sv.original.po), [granskad](gnome-tour/main/po/gnome-tour.main.sv.reviewed.po), [diff](gnome-tour/main/po/gnome-tour.main.sv.review.diff), [notering](gnome-tour/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-tweaks](https://l10n.gnome.org/vertimus/gnome-tweaks/master/po/sv/) | master | 126 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-usage](https://l10n.gnome.org/vertimus/gnome-usage/main/po/sv/) | main | 70 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-user-docs — GNOME User Documentation](https://l10n.gnome.org/vertimus/gnome-user-docs/master/system-admin-guide/sv/) | master | 660 | 0 | 0 | Klar |  | — | Ej granskad |
