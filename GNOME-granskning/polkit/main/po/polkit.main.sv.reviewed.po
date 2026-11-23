@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: polkit master\n"
 "Report-Msgid-Bugs-To: https://github.com/polkit-org/polkit/issues\n"
-"POT-Creation-Date: 2026-07-10 09:29+0000\n"
-"PO-Revision-Date: 2026-11-22 00:00+0100\n"
+"POT-Creation-Date: 2026-11-23 09:59+0000\n"
+"PO-Revision-Date: 2026-11-23 00:00+0100\n"
 "Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -156,13 +156,13 @@ msgstr "%s: Subjekt ej angivet\n"
 #: src/programs/pkcheck.c:531
 #, c-format
 msgid "%s: Action ID not specified\n"
-msgstr "%s: åtgärds-ID har inte angetts\n"
+msgstr "%s: Åtgärds-ID ej angivet\n"
 
 #. Translators: message shown when trying to run a program as root. Do not
 #. * translate the $(program) fragment - it will be expanded to the path
 #. * of the program e.g.  /bin/bash.
 #.
-#: src/programs/pkexec.c:886
+#: src/programs/pkexec.c:926
 msgid "Authentication is needed to run `$(cmdline_short)' as the super user"
 msgstr ""
 "Autentisering krävs för att köra ”$(cmdline_short)” som superanvändaren"
@@ -172,7 +172,7 @@ msgstr ""
 #. * be expanded to the path of the program e.g. "/bin/bash" and the latter
 #. * to the user e.g. "John Doe (johndoe)" or "johndoe".
 #.
-#: src/programs/pkexec.c:896
+#: src/programs/pkexec.c:936
 msgid ""
 "Authentication is needed to run `$(cmdline_short)' as user $(user.display)"
 msgstr ""
