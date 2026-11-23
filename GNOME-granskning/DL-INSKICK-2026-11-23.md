@@ -32,6 +32,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | FieldMonitor | main | po | 329 |
 | bazaar | main | po | 49 |
 | fractal | main | po | 8 |
+| gnome-calculator | main | po | 87 |
 
 ## DL-blockerare
 
