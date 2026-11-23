@@ -67,6 +67,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | libcall-ui | main | po | 1 |
 | libshumate | main | po | 1 |
 | tecla | main | po | 1 |
+| tecla | gnome-50 | po | 1 |
 
 ## Kompletta granskningar utan ändrade översättningssträngar
 
