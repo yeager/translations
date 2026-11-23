@@ -15,6 +15,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | libipuz | main | po | 8 |
 | metronome | main | po | 3 |
 | oo7 | main | oo7-server | 3 |
+| sushi | main | po | 4 |
 | simple-scan | master | po | 22 |
 | sushi | main | po | 4 |
 | packagekit | main | po | 1 |
