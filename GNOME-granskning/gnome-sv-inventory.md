@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 21:54 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 21:56 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -349,7 +349,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [gnome-calculator](https://l10n.gnome.org/vertimus/gnome-calculator/gnome-50/po/sv/) | gnome-50 | 786 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-calculator](https://l10n.gnome.org/vertimus/gnome-calculator/gnome-50/help/sv/) | gnome-50 | 399 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-calendar](https://l10n.gnome.org/vertimus/gnome-calendar/gnome-50/po/sv/) | gnome-50 | 356 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-characters](https://l10n.gnome.org/vertimus/gnome-characters/main/po/sv/) | main | 56 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-characters](https://l10n.gnome.org/vertimus/gnome-characters/main/po/sv/) | main | 56 | 0 | 0 | Klar | X | 8 | Klar lokalt (2026-11-23): Hela 56-strängarskatalogen är radgranskad mot senaste POT. Åtta befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](gnome-characters/main/po/gnome-characters.main.sv.original.po), [granskad](gnome-characters/main/po/gnome-characters.main.sv.reviewed.po), [diff](gnome-characters/main/po/gnome-characters.main.sv.review.diff), [notering](gnome-characters/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-chess](https://l10n.gnome.org/vertimus/gnome-chess/main/po/sv/) | main | 244 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-chess](https://l10n.gnome.org/vertimus/gnome-chess/main/help/sv/) | main | 94 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-clocks](https://l10n.gnome.org/vertimus/gnome-clocks/master/po/sv/) | master | 187 | 0 | 0 | Klar |  | — | Ej granskad |
