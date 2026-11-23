@@ -1,12 +1,9 @@
-# gnome-calculator — main — svenska UI
+# Kalkylator — main/po
 
-- GNOME-status före granskning: 790 översatta, 3 fuzzy, 2 oöversatta.
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gnome-calculator/main/po/sv/>
-- Granskad rad: `Polar Complex` → `Polärt komplext tal`; `Memory and Constants` → `Minne och konstanter`.
-- Åtgärd: Två valutaetiketter och tre nya funktionsetiketter översattes.
-- Ändringar: 2 ny(a) översättning(ar), 3 rättad(e) befintlig(a) sträng(ar).
-- Validering: `msgfmt --check`; inga platshållare eller markup i ändringen.
-- Dokumenterade undantag: Valutanamnen `manat`, `som` och `sum` är etablerade och lämnas i gemener. `T&T` behåller sitt bokstavliga ampersand i varumärkesnamnet; samma svenskform för singular och plural av `argument` är grammatisk korrekt.
-- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
-- Slutlig lokal status: 795 översatta, 0 fuzzy, 0 oöversatta.
+- Aktuell POT: 795 aktiva poster. Den hämtade svenska katalogen hade 2 oöversatta och 3 fuzzy-poster; den granskade filen har 0 oöversatta och 0 fuzzy.
+- Granskning: hela katalogen är radgranskad. Två nya översättningar har tillkommit och 85 befintliga poster har rättats för matematisk och finansiell terminologi, valuta- och enhetsnamn, grammatik samt idiomatik.
+- Acceleratorer: inga `_ä`, `_å` eller `_ö`; acceleratorerna använder ASCII-bokstäver.
+- Validering: `msgfmt --check` utan fel; aktuell POT och granskad katalog har samma 795 aktiva nycklar, utan platshållaravvikelser. `l10n-lint` har inga fel; de två dokumenterade varningarna är `T&T Dollar`, där `&` är del av egennamnet men har översatts till ”och”, och svenskans identiska singular/plural för ”argument”.
+- Hunspell: tekniska identifierare, enhetsalias, valuta- och egennamn är manuellt kontrollerade undantag, bland annat `MPFR`, `UTF-8`, `UTF-16`, `CFA`, `NAND`, `XNOR`, `XOR`, SI- och IEC-prefix samt kommandoflaggor. Fragment som uppstår när Hunspell delar acceleratorsträngar ignoreras.
+- GNOME-inskick: inget.
