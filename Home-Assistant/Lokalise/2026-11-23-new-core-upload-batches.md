@@ -57,3 +57,13 @@ Lokalise API, lästes tillbaka och fördes in i den kanoniska TMX:en.
 
 Arbetet fortsätter med återstående liveposter; detta dokument gör inget
 anspråk på att Core är helt färdiggranskat.
+
+## Struktur för granskningsunderlag
+
+Den 23 november samlades allt Home Assistant-material i `swedish-tm` under
+en enda katalog: `Home-Assistant/`. Den aktiva Lokalise-ledgern och den
+kanoniska TMX:en ligger i rotkatalogen. Äldre importer och snapshots ligger i
+`source-archive/home-assistant/`, medan de tidigare generella
+granskningskopiorna ligger i `review-archive/`. Inga granskningsposter
+raderades. Efter flytten validerades den kanoniska TMX:en med 4 036 poster,
+varav 3 805 har stabilt Lokalise-id.
