@@ -1,360 +1,67 @@
 --- gnome-control-center.main.sv.original.po
 +++ gnome-control-center.main.sv.reviewed.po
-@@ -18,8 +18,8 @@
- "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
- "issues\n"
- "POT-Creation-Date: 2026-11-19 09:40+0000\n"
+@@ -17,8 +17,8 @@
+ "Project-Id-Version: gnome-control-center\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/issues\n"
+ "POT-Creation-Date: 2026-08-18 13:26+0000\n"
 -"PO-Revision-Date: 2026-08-24 23:22+0200\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"PO-Revision-Date: 2026-11-23 12:00+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
  "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
  "Language: sv\n"
  "MIME-Version: 1.0\n"
-@@ -544,6 +544,8 @@
- "%s is not used to open any types of files and links. Resetting will "
- "associate all recommended types with it"
- msgstr ""
-+"%s används inte för att öppna några fil- eller länktyper. Vid återställning "
-+"kopplas alla rekommenderade typer till det"
+@@ -133,7 +133,7 @@
  
- #: panels/applications/cc-applications-panel.c:1251
- #, c-format
-@@ -3232,8 +3234,6 @@
- "internetanslutning genom en annan källa än Wi-Fi."
+ #: panels/applications/cc-applications-panel.blp:167
+ msgid "_Open"
+-msgstr "_Öppna"
++msgstr "Ö_ppna"
  
- #: panels/network/cc-wifi-hotspot-dialog.blp:39
--#, fuzzy
--#| msgid "Hotspot details"
- msgid "Hotspot Details"
- msgstr "Surfzonsdetaljer"
+ #: panels/applications/cc-applications-panel.blp:179
+ msgid "App _Details"
+@@ -305,7 +305,7 @@
  
-@@ -3243,11 +3243,7 @@
+ #: panels/applications/cc-applications-panel.blp:390
+ msgid "_Reset"
+-msgstr "_Återställ"
++msgstr "Å_terställ"
  
- #. TRANSLATORS: ‘%s’ is a Wi-Fi Network (SSID) name
- #: panels/network/cc-wifi-hotspot-dialog.c:112
--#, fuzzy, c-format
--#| msgid ""
--#| "Wi-Fi hotspot allows others to share your internet connection, by "
--#| "creating a Wi-Fi network that they can connect to. To do this, you must "
--#| "have an internet connection through a source other than Wi-Fi."
-+#, c-format
- msgid ""
- "Wi-Fi hotspot allows others to share your internet connection, by creating a "
- "Wi-Fi network that they can connect to. To do this, you must have an "
-@@ -3256,9 +3252,12 @@
- "Turning on the hotspot will disconnect from %s, and it will not be possible "
- "to access the internet through Wi-Fi."
- msgstr ""
--"Trådlös surfzon låter andra dela din internetanslutning, genom att skapa ett "
-+"Trådlös surfzon låter andra dela din internetanslutning genom att skapa ett "
- "Wi-Fi-nätverk som de kan ansluta till. För att göra detta behöver du ha en "
--"internetanslutning genom en annan källa än Wi-Fi."
-+"internetanslutning genom en annan källa än Wi-Fi.\n"
-+"\n"
-+"Om du slår på surfzonen kopplas du från %s och det går inte att komma åt "
-+"internet via Wi-Fi."
+ #: panels/applications/cc-applications-panel.blp:406
+ msgid "Storage"
+@@ -6140,7 +6140,7 @@
  
- #: panels/network/cc-wifi-hotspot-dialog.c:216
- msgid "Network name cannot be empty"
-@@ -3270,19 +3269,15 @@
- msgstr "Nätverksnamnet är för långt"
+ #: panels/sharing/cc-sharing-panel.blp:85
+ msgid "_Open Public Folder"
+-msgstr "Öppna publik mapp"
++msgstr "Ö_ppna offentlig mapp"
  
- #: panels/network/cc-wifi-hotspot-dialog.c:235
--#, fuzzy
--#| msgid "Must have a minimum of 8 characters"
- msgid "Password must have a minimum of 8 characters"
--msgstr "Måste bestå av minst 8 tecken"
-+msgstr "Lösenordet måste bestå av minst 8 tecken"
+ #: panels/sharing/cc-sharing-panel.blp:96
+ msgid "_Require Password"
+@@ -6368,7 +6368,7 @@
+ #: panels/sound/cc-volume-slider.c:138
+ msgctxt "volume"
+ msgid "100%"
+-msgstr "100%"
++msgstr "100 %"
  
- #: panels/network/cc-wifi-hotspot-dialog.c:241
--#, fuzzy, c-format
--#| msgid "Must have a maximum of %d character"
--#| msgid_plural "Must have a maximum of %d characters"
-+#, c-format
- msgid "Password must have a maximum of %d character"
- msgid_plural "Password must have a maximum of %d characters"
--msgstr[0] "Måste bestå av högst %d tecken"
--msgstr[1] "Måste bestå av högst %d tecken"
-+msgstr[0] "Lösenordet får vara högst %d tecken"
-+msgstr[1] "Lösenordet får vara högst %d tecken"
+ #: panels/sound/cc-volume-slider.c:269
+ msgid "Input Volume"
+@@ -7741,7 +7741,7 @@
  
- #: panels/network/cc-wifi-panel.blp:30
- msgid "Airplane Mode"
-@@ -3442,10 +3437,8 @@
- msgstr "Profil %d"
+ #: panels/universal-access/cc-ua-hearing-page.blp:16
+ msgid "Allow volume to exceed 100%, with reduced sound quality"
+-msgstr "Tillåt volymen att överskrida 100% med reducerad ljudkvalitet"
++msgstr "Tillåt volymen att överskrida 100 % med reducerad ljudkvalitet"
  
- #: panels/network/connection-editor/ce-page.c:391
--#, fuzzy
--#| msgid "IPv4 Address"
- msgid "Invalid Mac Address"
--msgstr "IPv4-adress"
-+msgstr "Ogiltig MAC-adress"
+ #: panels/universal-access/cc-ua-hearing-page.blp:34
+ msgid "Visual Alerts"
+@@ -9206,7 +9206,7 @@
  
- #: panels/network/connection-editor/ce-page-details.blp:5
- msgid "Details"
-@@ -3704,27 +3697,23 @@
+ #: panels/wwan/cc-wwan-device-page.c:270
+ msgid "PIN code should be a 4-8 digit number"
+-msgstr "PIN-koden ska vara ett tal med 4-8 siffror"
++msgstr "PIN-koden ska vara ett tal med 4–8 siffror"
  
- #: panels/network/connection-editor/ce-page-ethernet.blp:55
- msgid "Maximum Transmission Unit"
--msgstr ""
-+msgstr "Maximal överföringsenhet"
- 
- #: panels/network/connection-editor/ce-page-ethernet.blp:58
--#, fuzzy
--#| msgid "_Automatic Suspend"
- msgid "_Automatic Sizing"
--msgstr "_Automatiskt vänteläge"
-+msgstr "_Automatisk storlek"
- 
- #: panels/network/connection-editor/ce-page-ethernet.blp:65
- msgid "_Size in Bytes"
--msgstr ""
-+msgstr "_Storlek i byte"
- 
- #: panels/network/connection-editor/ce-page-ip4.blp:5
- msgid "IPv4"
- msgstr "IPv4"
- 
- #: panels/network/connection-editor/ce-page-ip4.blp:9
--#, fuzzy
--#| msgid "IPv_4 Method"
- msgid "IPv4 Method"
--msgstr "IPv_4-metod"
-+msgstr "IPv4-metod"
- 
- #: panels/network/connection-editor/ce-page-ip4.blp:12
- msgid "Automatic (DHCP)"
-@@ -3828,20 +3817,16 @@
- 
- #: panels/network/connection-editor/ce-page-ip4.c:560
- #: panels/network/connection-editor/ce-page-ip6.c:530
--#, fuzzy
--#| msgid "IPv4 Address"
- msgid "Invalid DNS Address"
--msgstr "IPv4-adress"
-+msgstr "Ogiltig DNS-adress"
- 
- #: panels/network/connection-editor/ce-page-ip6.blp:5
- msgid "IPv6"
- msgstr "IPv6"
- 
- #: panels/network/connection-editor/ce-page-ip6.blp:9
--#, fuzzy
--#| msgid "IPv_6 Method"
- msgid "IPv6 Method"
--msgstr "IPv_6-metod"
-+msgstr "IPv6-metod"
- 
- #: panels/network/connection-editor/ce-page-ip6.blp:24
- msgid "Automatic, DHCP only"
-@@ -4531,10 +4516,8 @@
- msgstr "Kabeln är frånkopplad"
- 
- #: panels/network/ui-helpers.c:36
--#, fuzzy
--#| msgid "Netmask value not valid"
- msgid "Entry value is invalid"
--msgstr "Nätmaskvärdet är ogiltigt"
-+msgstr "Postvärdet är ogiltigt"
- 
- #. Translators: This is the per app switch for message tray usage.
- #: panels/notifications/cc-app-notifications-page.blp:15
-@@ -7875,13 +7858,15 @@
- 
- #: panels/system/users/cc-cannot-add-user-dialog.blp:13
- msgid "Cannot Add New Users"
--msgstr ""
-+msgstr "Det går inte att lägga till nya användare"
- 
- #: panels/system/users/cc-cannot-add-user-dialog.blp:15
- msgid ""
- "Settings cannot create new users at this time due to the encryption scheme "
- "of the disk. Support for multiple encrypted users is coming in the future."
- msgstr ""
-+"Inställningar kan inte skapa nya användare just nu på grund av diskens "
-+"krypteringsmetod. Stöd för flera krypterade användare kommer i framtiden."
- 
- #: panels/system/users/cc-enterprise-login-dialog.blp:13
- #: panels/system/users/cc-enterprise-login-dialog.blp:28
-@@ -8683,10 +8668,8 @@
- msgstr "D_ubbelklicksfördröjning"
- 
- #: panels/universal-access/cc-ua-mouse-page.blp:41
--#, fuzzy
--#| msgid "_Double-Click Delay"
- msgid "Double-Click Delay"
--msgstr "D_ubbelklicksfördröjning"
-+msgstr "Dubbelklicksfördröjning"
- 
- #. Translators: This is a mark in the Crosshair Length scale
- #: panels/universal-access/cc-ua-mouse-page.blp:45
-@@ -8729,10 +8712,8 @@
- msgstr "Acceptansfördröjning"
- 
- #: panels/universal-access/cc-ua-mouse-page.blp:76
--#, fuzzy
--#| msgid "_Simulated Secondary Click"
- msgid "Simulated Secondary Click Acceptance Delay"
--msgstr "_Simulerat sekundärklick"
-+msgstr "Acceptansfördröjning för simulerat sekundärklick"
- 
- #: panels/universal-access/cc-ua-mouse-page.blp:96
- msgid "_Hover Click"
-@@ -8748,20 +8729,16 @@
- msgstr "Fördröjning"
- 
- #: panels/universal-access/cc-ua-mouse-page.blp:107
--#, fuzzy
--#| msgid "_Hover Click"
- msgid "Hover Click Delay"
--msgstr "_Uppehållsklick"
-+msgstr "Fördröjning för hovringsklick"
- 
- #: panels/universal-access/cc-ua-mouse-page.blp:127
- msgid "Motion Threshold"
- msgstr "Tröskelvärde för rörelse"
- 
- #: panels/universal-access/cc-ua-mouse-page.blp:132
--#, fuzzy
--#| msgid "Motion Threshold"
- msgid "Hover Click Motion Threshold"
--msgstr "Tröskelvärde för rörelse"
-+msgstr "Rörelsetröskel för hovringsklick"
- 
- #: panels/universal-access/cc-ua-mouse-page.blp:136
- msgid "Small"
-@@ -9040,10 +9017,8 @@
- msgstr "Ignorera snabba duplicerade tangenttryckningar"
- 
- #: panels/universal-access/cc-ua-typing-page.blp:229
--#, fuzzy
--#| msgid "Acceptance Delay"
- msgid "Bounce Keys Acceptance Delay"
--msgstr "Acceptansfördröjning"
-+msgstr "Acceptansfördröjning för studsande tangenter"
- 
- #: panels/universal-access/cc-ua-zoom-page.blp:5
- msgid "Zoom"
-@@ -9152,10 +9127,8 @@
- msgstr "_Tjocklek"
- 
- #: panels/universal-access/cc-ua-zoom-page.blp:120
--#, fuzzy
--#| msgid "_Crosshair Lines"
- msgid "Crosshair Thickness"
--msgstr "_Hårkorslinjer"
-+msgstr "Hårkorsets tjocklek"
- 
- #. Translators: This is a mark in the Thickness scale
- #: panels/universal-access/cc-ua-zoom-page.blp:125
-@@ -9172,10 +9145,8 @@
- msgstr "Län_gd"
- 
- #: panels/universal-access/cc-ua-zoom-page.blp:149
--#, fuzzy
--#| msgid "_Crosshair Lines"
- msgid "Crosshair Length"
--msgstr "_Hårkorslinjer"
-+msgstr "Hårkorsets längd"
- 
- #: panels/universal-access/cc-ua-zoom-page.blp:169
- msgid "Colo_r"
-@@ -9198,10 +9169,8 @@
- msgstr "_Ljusstyrka"
- 
- #: panels/universal-access/cc-ua-zoom-page.blp:199
--#, fuzzy
--#| msgid "_Brightness"
- msgid "Brightness"
--msgstr "_Ljusstyrka"
-+msgstr "Ljusstyrka"
- 
- #. Translators: This is a mark in the Brightness scale
- #. Translators: This is a mark in the Contrast scale
-@@ -9222,20 +9191,16 @@
- msgstr "Ko_ntrast"
- 
- #: panels/universal-access/cc-ua-zoom-page.blp:227
--#, fuzzy
--#| msgid "Co_ntrast"
- msgid "Contrast"
--msgstr "Ko_ntrast"
-+msgstr "Kontrast"
- 
- #: panels/universal-access/cc-ua-zoom-page.blp:249
- msgid "Co_lor"
- msgstr "Fär_g"
- 
- #: panels/universal-access/cc-ua-zoom-page.blp:255
--#, fuzzy
--#| msgid "_Grayscale"
- msgid "Grayscale"
--msgstr "_Gråskala"
-+msgstr "Gråskala"
- 
- #. Translators: This is a mark in the Grayscale scale
- #: panels/universal-access/cc-ua-zoom-page.blp:262
-@@ -9411,10 +9376,8 @@
- msgstr "Koppling för knapp %d"
- 
- #: panels/wacom/cc-wacom-stylus-page.blp:17
--#, fuzzy
--#| msgid "Tip _Pressure Feel"
- msgid "Tip Pressure"
--msgstr "_Tryckkänsla för spets"
-+msgstr "Spetstryck"
- 
- #: panels/wacom/cc-wacom-stylus-page.blp:20
- msgid "Tip _Pressure Feel"
-@@ -9435,44 +9398,32 @@
- msgstr "Fast"
- 
- #: panels/wacom/cc-wacom-stylus-page.blp:44
--#, fuzzy
--#| msgid "Tip _Pressure Feel"
- msgid "Tip Pressure _Floor"
--msgstr "_Tryckkänsla för spets"
-+msgstr "Spetstryckets _lägsta värde"
- 
- #: panels/wacom/cc-wacom-stylus-page.blp:57
--#, fuzzy
--#| msgid "Tip _Pressure Feel"
- msgid "Tip Pressure _Ceiling"
--msgstr "_Tryckkänsla för spets"
-+msgstr "Spetstryckets _högsta värde"
- 
- #: panels/wacom/cc-wacom-stylus-page.blp:71
--#, fuzzy
--#| msgid "Eraser pressure"
- msgid "Eraser Pressure"
--msgstr "Tryck för raderare"
-+msgstr "Raderartryck"
- 
- #: panels/wacom/cc-wacom-stylus-page.blp:74
- msgid "_Eraser Pressure Feel"
- msgstr "Tryckkänsla för rad_erare"
- 
- #: panels/wacom/cc-wacom-stylus-page.blp:98
--#, fuzzy
--#| msgid "_Eraser Pressure Feel"
- msgid "Eraser Pressure _Floor"
--msgstr "Tryckkänsla för rad_erare"
-+msgstr "Raderartryckets _lägsta värde"
- 
- #: panels/wacom/cc-wacom-stylus-page.blp:111
--#, fuzzy
--#| msgid "_Eraser Pressure Feel"
- msgid "Eraser Pressure _Ceiling"
--msgstr "Tryckkänsla för rad_erare"
-+msgstr "Raderartryckets _högsta värde"
- 
- #: panels/wacom/cc-wacom-stylus-page.blp:125
--#, fuzzy
--#| msgid "Map Buttons"
- msgid "Pen Buttons"
--msgstr "Koppla knappar"
-+msgstr "Pennknappar"
- 
- #: panels/wacom/cc-wacom-stylus-page.blp:128
- msgid "Button _1"
+ #: panels/wwan/cc-wwan-device-page.c:287
+ msgid "Unlocking…"
