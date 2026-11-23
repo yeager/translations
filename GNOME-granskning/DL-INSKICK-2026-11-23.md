@@ -65,6 +65,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | era | main | po | 9 |
 | app-icon-preview | master | po | 1 |
 | libcall-ui | main | po | 1 |
+| libshumate | main | po | 1 |
 
 ## Kompletta granskningar utan ändrade översättningssträngar
 
