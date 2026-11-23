@@ -8,5 +8,5 @@
 - Validering: `msgfmt --check`; inga platshållare, acceleratorer eller markup i ändringen.
 - Dokumenterade undantag: `number-range-dash` avser CLI-argumentet `0-3`; bindestrecket är en del av det tekniska argumentet och ska bevaras.
 - Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
+- GNOME-inskick: uppladdad till Damned Lies 2026-11-23 efter reservation, med kommentaren `Granskad och klar` (`{"result":"OK"}).
 - Slutlig lokal status: 562 översatta, 0 fuzzy, 0 oöversatta.

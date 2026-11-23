@@ -39,6 +39,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | nautilus | main | po | 29 |
 | gnome-initial-setup | main | po | 21 |
 | gnome-text-editor | main | po | 58 |
+| meld | main | po | 3 |
 
 ## DL-blockerare
 
