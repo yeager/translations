@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 19:32 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 19:33 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -136,7 +136,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/master/po-libgimp/sv/) | master | 673 | 1 | 1 | Behöver arbete |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gstreamer](https://l10n.gnome.org/vertimus/gstreamer/main/plugins-base/sv/) | main | 236 | 1 | 1 | Behöver arbete |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [meld](https://l10n.gnome.org/vertimus/meld/main/po/sv/) | main | 560 | 1 | 1 | Behöver arbete |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gfeeds](https://l10n.gnome.org/module/gfeeds/) | master | 155 | 0 | 1 | Behöver arbete | X | 6 | Klar lokalt (2026-11-23): Hela 156-posterskatalogen är radgranskad lokalt: egennamnet Gabriele Musco är ifyllt och fem befintliga språk- eller termbrister är rättade. 0 oöversatta eller fuzzy återstår; msgcmp, msgfmt och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](gfeeds/master/po/gfeeds.master.sv.original.po), [granskad](gfeeds/master/po/gfeeds.master.sv.reviewed.po), [diff](gfeeds/master/po/gfeeds.master.sv.review.diff), [notering](gfeeds/master/po/README.md) |
+| Gränssnitt | Default (99% translated) | [gfeeds](https://l10n.gnome.org/module/gfeeds/) | master | 155 | 0 | 1 | Behöver arbete | X | 1 | Klar lokalt (2026-11-23): Hela 156-posterskatalogen är radgranskad lokalt: egennamnet Gabriele Musco är ifyllt och fem befintliga språk- eller termbrister är rättade. 0 oöversatta eller fuzzy återstår; msgcmp, msgfmt och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](gfeeds/master/po/gfeeds.master.sv.original.po), [granskad](gfeeds/master/po/gfeeds.master.sv.reviewed.po), [diff](gfeeds/master/po/gfeeds.master.sv.review.diff), [notering](gfeeds/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-software](https://l10n.gnome.org/vertimus/gnome-software/main/po/sv/) | main | 1180 | 0 | 1 | Behöver arbete |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [podcasts](https://l10n.gnome.org/vertimus/podcasts/main/po/sv/) | main | 201 | 0 | 1 | Behöver arbete |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [fractal](https://l10n.gnome.org/vertimus/fractal/main/po/sv/) | main | 1037 | 8 | 0 | Behöver arbete |  | — | Ej granskad |

@@ -1,17 +1,8 @@
---- translations/GNOME-granskning/gfeeds/master/po/gfeeds.master.sv.original.po	2026-11-23 17:44:57.373753400 +0100
-+++ translations/GNOME-granskning/gfeeds/master/po/gfeeds.master.sv.reviewed.po	2026-11-23 17:44:57.381753393 +0100
-@@ -9,8 +9,8 @@
- "Project-Id-Version: gfeeds master\n"
- "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/gfeeds/issues\n"
- "POT-Creation-Date: 2023-05-26 05:11+0000\n"
--"PO-Revision-Date: 2025-07-31 23:31+0200\n"
--"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-23 00:00+0100\n"
-+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
- "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
- "Language: sv\n"
- "MIME-Version: 1.0\n"
-@@ -25,7 +25,7 @@
+diff --git a/.work-gnome-review/gfeeds-master-po/original.po b/.work-gnome-review/gfeeds-master-po/sv.po
+index e6e109f..ec54e65 100644
+--- a/.work-gnome-review/gfeeds-master-po/original.po
++++ b/.work-gnome-review/gfeeds-master-po/sv.po
+@@ -25,7 +25,7 @@ msgstr "Feeds"
  
  #: data/org.gabmus.gfeeds.appdata.xml.in:5
  msgid "Gabriele Musco"
@@ -20,52 +11,3 @@
  
  #: data/org.gabmus.gfeeds.appdata.xml.in:6 data/org.gabmus.gfeeds.desktop.in:6
  msgid "News reader for GNOME"
-@@ -53,9 +53,9 @@
- "faster and less intrusive user experience. There's also a reader mode "
- "included, built from the one GNOME Web/Epiphany uses."
- msgstr ""
--"Artiklar visas i en webbvy som standard, med javascript aktiverat för en "
--"snabbare och mindre inkräktande användarupplevelse. Det finns också ett "
--"läsläge inkluderat, byggt på detsamma som GNOME Webb/Epiphany använder."
-+"Artiklar visas som standard i en webbvy med JavaScript avstängt för en "
-+"snabbare och mindre påträngande användarupplevelse. Det finns också ett "
-+"läsläge, baserat på det som GNOME Webb/Epiphany använder."
- 
- #: data/org.gabmus.gfeeds.appdata.xml.in:18
- msgid "Feeds can be imported and exported via OPML."
-@@ -305,7 +305,7 @@
- #: gfeeds/feed_item.py:62
- #, python-brace-format
- msgid "Error: unable to parse datetime {0} for feeditem {1}"
--msgstr "Fel: Kan inte tolka datumtid {0} för flödesobjekt {1}"
-+msgstr "Fel: Kan inte tolka datum och tid {0} för flödesobjekt {1}"
- 
- #: gfeeds/feed_parser.py:61
- #, python-brace-format
-@@ -406,7 +406,7 @@
- 
- #: gfeeds/opml_file_chooser.py:26
- msgid "Choose where to save the exported OPML file"
--msgstr "Välj var den exporterade OPML-filen skall sparas"
-+msgstr "Välj var den exporterade OPML-filen ska sparas"
- 
- #: gfeeds/opml_file_chooser.py:30
- msgid "Save"
-@@ -474,7 +474,7 @@
- 
- #: gfeeds/preferences_window.py:82
- msgid "Clear caches"
--msgstr "Rensa cache-lagrat"
-+msgstr "Töm cacheminnet"
- 
- #: gfeeds/preferences_window.py:83
- msgid "Clear"
-@@ -542,7 +542,7 @@
- 
- #: gfeeds/preferences_window.py:161
- msgid "Custom monospace font"
--msgstr "Anpassat typsnitt med fast breddslag"
-+msgstr "Anpassat fastbreddstypsnitt"
- 
- #: gfeeds/preferences_window.py:173
- msgid "Privacy"
