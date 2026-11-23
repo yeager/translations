@@ -36,6 +36,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | gnome-calendar | main | po | 29 |
 | gnome-maps | main | po | 20 |
 | gnome-software | main | po | 3 |
+| nautilus | main | po | 29 |
 
 ## DL-blockerare
 
