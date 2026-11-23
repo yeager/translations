@@ -124,3 +124,11 @@ Den generella mediespelarens alternativ `Add to queue` hade det grammatiskt
 ofullständiga `Lägg till i kö`. Det rättades till `Lägg till i kön` i linje med
 Music Assistant-varianten, sparades och lästes tillbaka via Lokalise API.
 TMX-valideringen godkände därefter 4 061 poster.
+
+## Uppdaterad livebild för fortsatt granskning
+
+Core-exporten hämtades på nytt från Lokalise efter de senaste rättelserna.
+Den aktuella arkivbilden innehåller 75 556 nycklar och validerar konsekvent
+mot både genererad PO och TMX (75 557 segment). Därmed används inte längre den
+äldre ögonblicksbilden som gav historiska falska träffar i
+konsekvensanalysen.
