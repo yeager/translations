@@ -6,8 +6,8 @@ validerade Home Assistant-minnet.
 | Mått | Antal |
 | --- | ---: |
 | Poster i Core-exporten | 75 106 |
-| Poster i validerad Core-TMX | 3 476 |
-| Konservativt återstående omfång | 71 630 |
+| Poster i validerad Core-TMX | 3 483 |
+| Konservativt återstående omfång | 71 623 |
 
 Det återstående antalet är konservativt: utöver TMX-posterna finns
 livegranskade strängar utan ny TMX-post, exempelvis hela komponenter där inga
@@ -36,6 +36,10 @@ Lokalise-manifestfil.
 IAMMETER har nu granskats rad för rad (21 liveåterlästa strängar). Tre etiketter
 har rättats från den felaktiga uppdelningen `Import Energi A–C` till
 `Importerad energi A–C`; den validerade TMX-posten är sparad med en spårbar
+Lokalise-manifestfil.
+
+Dune HD har nu granskats rad för rad (sju liveåterlästa strängar). Samtliga
+var korrekta och har lagts till i det validerade TMX-minnet med en spårbar
 Lokalise-manifestfil.
 
 Ingen verktygsrelease publicerades efter dagens tidigare release, enligt
