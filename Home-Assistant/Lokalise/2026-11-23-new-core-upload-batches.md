@@ -87,3 +87,11 @@ Alla åtta är aktiva. De har felrapporterats som
 Det är ett separat fel från #193667, som gäller nycklar som helt saknas i
 Lokalise. Revisionsdata och det återanvändbara API-verktyget sparas i
 `yeager/swedish-tm`, grenen `ha-tmx-validator`.
+
+## Terminologikontroll: auktorisering
+
+HomeWizards titel för det tidsgränsöverskridna auktoriseringssteget hade den
+avvikande svenska texten `Godkänn`, medan samma flöde och övriga
+auktoriseringssteg använder `Auktorisera`. Den uppdaterades via Lokalise API,
+lästes tillbaka och lades in i den kanoniska TMX:en. TMX-valideringen efter
+rättelsen godkände 4 057 poster.
