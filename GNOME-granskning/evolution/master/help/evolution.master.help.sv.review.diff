@@ -69,6 +69,50 @@
  "används som avgränsare, inte som matchningsregel"
  
  #. (itstool) path: td/p
+@@ -12597,37 +12597,37 @@
+ #. Translators: This is translated in a 'ffe' context
+ #: C/mail-searching.page:80
+ msgid "<code>Answered</code> - the message is marked as replied"
+-msgstr "<code>Besvarat</code> - meddelandet är markerat som besvarat"
++msgstr "<code>Answered</code> - meddelandet är markerat som besvarat"
+ 
+ #. (itstool) path: td/p
+ #. Translators: This is translated in a 'ffe' context
+ #: C/mail-searching.page:81
+ msgid "<code>Deleted</code> - the message is marked as deleted"
+-msgstr "<code>Borttaget</code> - meddelandet är markerat som borttaget"
++msgstr "<code>Deleted</code> - meddelandet är markerat som borttaget"
+ 
+ #. (itstool) path: td/p
+ #. Translators: This is translated in a 'ffe' context
+ #: C/mail-searching.page:82
+ msgid "<code>Draft</code> - the message is marked as draft"
+-msgstr "<code>Utkast</code> - meddelandet är markerat som utkast"
++msgstr "<code>Draft</code> - meddelandet är markerat som utkast"
+ 
+ #. (itstool) path: td/p
+ #. Translators: This is translated in a 'ffe' context
+ #: C/mail-searching.page:83
+ msgid "<code>Flagged</code> - the message is marked as important"
+-msgstr "<code>Flaggat</code> - meddelandet är markerat som viktigt"
++msgstr "<code>Flagged</code> - meddelandet är markerat som viktigt"
+ 
+ #. (itstool) path: td/p
+ #. Translators: This is translated in a 'ffe' context
+ #: C/mail-searching.page:84
+ msgid "<code>Seen</code> - the message is marked as seen (not unread)"
+-msgstr "<code>Läst</code> - meddelandet är markerat som läst (inte oläst)"
++msgstr "<code>Seen</code> - meddelandet är markerat som läst (inte oläst)"
+ 
+ #. (itstool) path: td/p
+ #. Translators: This is translated in a 'ffe' context
+ #: C/mail-searching.page:85
+ msgid "<code>Attachment</code> - the message has an attachment"
+-msgstr "<code>Bilaga</code> - meddelandet har en bilaga"
++msgstr "<code>Attachment</code> - meddelandet har en bilaga"
+ 
+ #. (itstool) path: td/p
+ #: C/mail-searching.page:86
 @@ -12700,9 +12700,9 @@
  "message has (if the value is not any of <code>no</code>, <code>false</code>, "
  "<code>0</code>) an attachment. Similar to <code>flag:attachment</code> tag."
@@ -82,6 +126,131 @@
  
  #. (itstool) path: td/p
  #: C/mail-searching.page:95
+@@ -12712,7 +12712,7 @@
+ "code>"
+ msgstr ""
+ "Kontrollerar meddelandeplats. Platsvärdet (URL) kan hittas i mappens "
+-"<gui>Egenskaper</gui>. Exempel: <code>location:\"På denna dator/Inkorg\"</"
++"<gui>Egenskaper</gui>. Exempel: <code>location:\"On This Computer/Inbox\"</"
+ "code>"
+ 
+ #. (itstool) path: td/p
+@@ -12791,7 +12791,7 @@
+ "X dagarna</code>), medan negativa går in i framtiden. För att exempelvis få "
+ "meddelanden mottagna under de senaste 10 dagarna, använd: <code>recv:10</"
+ "code>. Ett exakt datum kan också användas, formatet kan vara antingen "
+-"<code>ÅÅÅÅ-MM-DD</code> (det föredragna), sedan ISO 8601-format eller ett "
++"<code>YYYY-MM-DD</code> (det föredragna), sedan ISO 8601-format eller ett "
+ "lokalspecifikt format för datum/datum och tid. Om tolkningen av datum/tid "
+ "misslyckas kommer villkoret att hoppas över. Datumjämförelsen kan också ha "
+ "extra alternativ, detta är <code>&lt;</code>, <code>=</code> eller <code>&gt;"
+@@ -12847,7 +12847,7 @@
+ #. (itstool) path: td/p
+ #: C/mail-searching.page:126
+ msgid "<code>s-has-words:\"green blue\"</code>"
+-msgstr "<code>s-has-words:\"grön blå\"</code>"
++msgstr "<code>s-has-words:\"green blue\"</code>"
+ 
+ #. (itstool) path: td/p
+ #: C/mail-searching.page:126
+@@ -12855,7 +12855,7 @@
+ "Messages, which contain both <code>green</code> and <code>blue</code> words "
+ "in the Subject"
+ msgstr ""
+-"Meddelanden som innehåller både orden <code>grön</code> och <code>blå</code> "
++"Meddelanden som innehåller både orden <code>green</code> och <code>blue</code> "
+ "i Subject"
+ 
+ #. (itstool) path: td/p
+@@ -12882,22 +12882,22 @@
+ #. (itstool) path: td/p
+ #: C/mail-searching.page:129
+ msgid "<code>e:X-Secret-Header</code>"
+-msgstr "<code>e:X-Hemlig-Rubrik</code>"
++msgstr "<code>e:X-Secret-Header</code>"
+ 
+ #. (itstool) path: td/p
+ #: C/mail-searching.page:129
+ msgid "An <code>X-Secret-Header</code> exists in the message"
+-msgstr "Rubriken <code>X-Hemlig-Rubrik</code> finns i meddelandet"
++msgstr "Rubriken <code>X-Secret-Header</code> finns i meddelandet"
+ 
+ #. (itstool) path: td/p
+ #: C/mail-searching.page:130
+ msgid "<code>l:work</code>"
+-msgstr "<code>l:jobb</code>"
++msgstr "<code>l:work</code>"
+ 
+ #. (itstool) path: td/p
+ #: C/mail-searching.page:130
+ msgid "Label <code>work</code> is set on the message"
+-msgstr "Etiketten <code>jobb</code> är inställd på meddelandet"
++msgstr "Etiketten <code>work</code> är inställd på meddelandet"
+ 
+ #. (itstool) path: td/p
+ #: C/mail-searching.page:131
+@@ -12922,12 +12922,12 @@
+ #. (itstool) path: td/p
+ #: C/mail-searching.page:133
+ msgid "<code>b:important</code>"
+-msgstr "<code>b:viktigt</code>"
++msgstr "<code>b:important</code>"
+ 
+ #. (itstool) path: td/p
+ #: C/mail-searching.page:133
+ msgid "The body contains a word <code>important</code>"
+-msgstr "Meddelandetexten innehåller ordet <code>viktigt</code>"
++msgstr "Meddelandetexten innehåller ordet <code>important</code>"
+ 
+ #. (itstool) path: td/p
+ #: C/mail-searching.page:134
+@@ -12998,7 +12998,7 @@
+ msgid ""
+ "<code>not:(flag:Seen) f:Bob rcv-&gt;:2020-01-01 rcv-&lt;:2020-12-31</code>"
+ msgstr ""
+-"<code>not:(flag:Läst) f:Bob rcv-&gt;:2020-01-01 rcv-&lt;:2020-12-31</code>"
++"<code>not:(flag:Seen) f:Bob rcv-&gt;:2020-01-01 rcv-&lt;:2020-12-31</code>"
+ 
+ #. (itstool) path: td/p
+ #: C/mail-searching.page:140
+@@ -13008,7 +13008,7 @@
+ #. (itstool) path: td/p
+ #: C/mail-searching.page:141
+ msgid "<code>flag:Seen a:1 sz-&gt;:1024 f:Bob rcv:31</code>"
+-msgstr "<code>flag:Läst a:1 sz-&gt;:1024 f:Bob rcv:31</code>"
++msgstr "<code>flag:Seen a:1 sz-&gt;:1024 f:Bob rcv:31</code>"
+ 
+ #. (itstool) path: td/p
+ #: C/mail-searching.page:141
+@@ -13022,24 +13022,24 @@
+ #. (itstool) path: td/p
+ #: C/mail-searching.page:142
+ msgid "<code>m:\"On This Computer/Inbox\"</code>"
+-msgstr "<code>m:\"På denna dator/Inkorg\"</code>"
++msgstr "<code>m:\"On This Computer/Inbox\"</code>"
+ 
+ #. (itstool) path: td/p
+ #: C/mail-searching.page:142
+ msgid "Messages stored in the <code>On This Computer/Inbox</code> folder"
+-msgstr "Meddelanden lagrade i mappen <code>På denna dator/Inkorg</code>"
++msgstr "Meddelanden lagrade i mappen <code>On This Computer/Inbox</code>"
+ 
+ #. (itstool) path: td/p
+ #: C/mail-searching.page:143
+ msgid "<code>location-no:\"On This Computer/Inbox\"</code>"
+-msgstr "<code>location-no:\"På denna dator/Inkorg\"</code>"
++msgstr "<code>location-no:\"On This Computer/Inbox\"</code>"
+ 
+ #. (itstool) path: td/p
+ #: C/mail-searching.page:143
+ msgid ""
+ "Messages stored in all but the <code>On This Computer/Inbox</code> folder"
+ msgstr ""
+-"Meddelanden lagrade i alla mappar utom <code>På denna dator/Inkorg</code>"
++"Meddelanden lagrade i alla mappar utom <code>On This Computer/Inbox</code>"
+ 
+ #. (itstool) path: info/desc
+ #: C/mail-send-and-receive-automatically.page:5
 @@ -15538,7 +15538,7 @@
  "times, use a regular expression."
  msgstr ""
