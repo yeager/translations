@@ -216,3 +216,11 @@ AirGradient- och APCUPSD-sensorerna med exakt samma källtext använder den
 etablerade facktermen `Batterispänning`. WeatherFlow normaliserades till
 `Batterispänning`, sparades och lästes tillbaka via Lokalise API.
 TMX-valideringen godkände därefter 4 081 poster.
+
+## Xiaomi Miio: oväntat fel
+
+Xiaomi Miios konfigurationsfel `Unexpected error` var fortfarande helt på
+engelska, trots 604 svenska motsvarigheter för samma fel. Det översattes till
+`Oväntat fel`, sparades och lästes tillbaka via Lokalise API.
+TMX-posten ersattes med den verifierade liveöversättningen; valideringen
+fortsatte att godkänna 4 081 poster.
