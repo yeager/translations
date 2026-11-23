@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: solitaire main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/wwarner/Solitaire/-/issues\n"
 "POT-Creation-Date: 2026-07-15 16:06+0000\n"
-"PO-Revision-Date: 2026-11-23 00:00+0100\n"
-"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"PO-Revision-Date: 2026-04-05 23:59+0200\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
@@ -47,8 +47,8 @@ msgid ""
 "Solitaire can figure out if the game you're playing can be won, and will let "
 "you undo the move that made the game unwinnable."
 msgstr ""
-"Solitaire kan avgöra om spelet du spelar går att vinna och låter dig ångra "
-"draget som gjorde spelet omöjligt att vinna."
+"Soitaire kan räkna ut om spelet du spelar kan vinnas, och kommer låta dig "
+"ångra draget som gjorde spelet ospelbart."
 
 #: data/org.gnome.gitlab.wwarner.Solitaire.metainfo.xml.in.in:18
 msgid ""
@@ -108,27 +108,27 @@ msgstr "Metoden som ska användas för att poängsätta alla spel."
 
 #: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:30
 msgid "Whether to use the custom seed"
-msgstr "Huruvida ett eget startvärde ska användas"
+msgstr "Huruvida det anpassade fröet ska användas"
 
 #: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:31
 msgid "Whether to use the custom seed."
-msgstr "Huruvida ett eget startvärde ska användas."
+msgstr "Huruvida det anpassade fröet ska användas."
 
 #: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:35
 msgid "The seed used for dealing"
-msgstr "Startvärdet som används för givningen"
+msgstr "Fröet som används för giv"
 
 #: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:36
 msgid "Used to determine which cards are given in a game."
-msgstr "Används för att bestämma vilka kort som delas ut i ett spel."
+msgstr "Används för att bestämma vilka kort som delas i ett spel."
 
 #: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:40
 msgid "Width of the window in pixels"
-msgstr "Fönstrets bredd i bildpunkter"
+msgstr "Bredden på fönstret i bildpunkter"
 
 #: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:44
 msgid "Height of the window in pixels"
-msgstr "Fönstrets höjd i bildpunkter"
+msgstr "Höjden på fönstret i bildpunkter"
 
 #: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:48
 msgid "If the window is maximized"
@@ -401,7 +401,7 @@ msgstr "Klassisk patiens"
 
 #: src/games.rs:151
 msgid "Build Foundations using Free Cells"
-msgstr "Bygg grundhögar med hjälp av fria celler"
+msgstr "Bygg grundhögar med hjälp av tomma högar"
 
 #: src/games.rs:152
 msgid "Clear Three Peaks of Cards"
@@ -426,7 +426,7 @@ msgstr "Allmänt"
 #: src/preferences-dialog.blp:10
 msgid "Some preferences will not take effect until the app has been quit"
 msgstr ""
-"Vissa inställningar börjar inte gälla förrän programmet har avslutats"
+"Några inställningar kommer inte börja gälla förrän programmet har avslutats"
 
 #: src/preferences-dialog.blp:11
 msgid "_Quit"
@@ -466,15 +466,15 @@ msgstr "Spel"
 
 #: src/preferences-dialog.blp:45
 msgid "Use a _Custom Seed for Dealing"
-msgstr "Använd _eget startvärde för givningen"
+msgstr "Använd ett _anpassat frö för giv"
 
 #: src/preferences-dialog.blp:46
 msgid "The Seed is a Number used to Determine how Cards are Dealt"
-msgstr "Startvärdet är ett tal som bestämmer hur korten delas ut"
+msgstr "Fröet är ett tal som används för att bestämma hur korten delas ut"
 
 #: src/preferences-dialog.blp:51
 msgid "Game _Seed"
-msgstr "Spel_startvärde"
+msgstr "S_pelfrö"
 
 #: src/shortcuts-dialog.blp:6
 msgctxt "shortcut window"
@@ -534,6 +534,7 @@ msgid "Start New Game"
 msgstr "Starta nytt spel"
 
 #: src/window.rs:626
+#| msgid "New Game"
 msgid "Redeal Game"
 msgstr "Ge om"
 
@@ -543,7 +544,7 @@ msgstr "Behåll aktuellt spel"
 
 #: src/window.rs:670
 msgid "Game is no longer winnable"
-msgstr "Spelet går inte längre att vinna"
+msgstr "Spelet går inte längre vinna"
 
 #: src/window.rs:671
 msgid "A recent move has made the game impossible to win"
