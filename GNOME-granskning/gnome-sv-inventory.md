@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:46 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 22:49 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -379,7 +379,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [gnome-keysign](https://l10n.gnome.org/vertimus/gnome-keysign/master/locale/sv/) | master | 80 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-klotski](https://l10n.gnome.org/vertimus/gnome-klotski/master/po/sv/) | master | 85 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-klotski](https://l10n.gnome.org/vertimus/gnome-klotski/master/help/sv/) | master | 53 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-logs](https://l10n.gnome.org/vertimus/gnome-logs/master/po/sv/) | master | 128 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-logs](https://l10n.gnome.org/vertimus/gnome-logs/master/po/sv/) | master | 128 | 0 | 0 | Klar | X | 7 | Klar lokalt (2026-11-24): Hela 128-strängarskatalogen är radgranskad mot senaste POT. Sju befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt och msgcmp är godkända. l10n-lints varningar för AM/PM är dokumenterade svenska locale-undantag. Ingen GNOME-inskickning har gjorts. [original](gnome-logs/master/po/gnome-logs.master.po.sv.original.po), [granskad](gnome-logs/master/po/gnome-logs.master.po.sv.reviewed.po), [diff](gnome-logs/master/po/gnome-logs.master.po.sv.review.diff), [notering](gnome-logs/master/po/README.md) |
 | Dokumentation | Default (71% translated) | [gnome-logs](https://l10n.gnome.org/vertimus/gnome-logs/master/help/sv/) | master | 23 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-mahjongg](https://l10n.gnome.org/vertimus/gnome-mahjongg/main/po/sv/) | main | 100 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-maps](https://l10n.gnome.org/vertimus/gnome-maps/gnome-50/po/sv/) | gnome-50 | 488 | 0 | 0 | Klar |  | — | Ej granskad |
