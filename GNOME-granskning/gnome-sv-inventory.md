@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 21:45 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 21:48 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -217,7 +217,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [console](https://l10n.gnome.org/vertimus/console/main/po/sv/) | main | 138 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [console](https://l10n.gnome.org/vertimus/console/gnome-50/po/sv/) | gnome-50 | 137 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [Constrict — Compress videos to target sizes](https://l10n.gnome.org/vertimus/constrict/main/po/sv/) | main | 138 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [cups-pk-helper](https://l10n.gnome.org/vertimus/cups-pk-helper/master/po/sv/) | master | 22 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [cups-pk-helper](https://l10n.gnome.org/vertimus/cups-pk-helper/master/po/sv/) | master | 22 | 0 | 0 | Klar | X | 19 | Klar lokalt (2026-11-23): Hela 22-strängarskatalogen är radgranskad mot senaste POT. 19 befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp, l10n-lint och hunspell-sv saknar fel eller anmärkningar. Ingen GNOME-inskickning har gjorts. [original](cups-pk-helper/master/po/cups-pk-helper.master.sv.original.po), [granskad](cups-pk-helper/master/po/cups-pk-helper.master.sv.reviewed.po), [diff](cups-pk-helper/master/po/cups-pk-helper.master.sv.review.diff), [notering](cups-pk-helper/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [Curtail](https://l10n.gnome.org/vertimus/curtail/main/po/sv/) | main | 102 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [d-spy](https://l10n.gnome.org/vertimus/d-spy/gnome-50/po/sv/) | gnome-50 | 68 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [dasher](https://l10n.gnome.org/vertimus/dasher/master/po/sv/) | master | 90 | 0 | 0 | Klar |  | — | Ej granskad |
