@@ -6,30 +6,153 @@
  "POT-Creation-Date: 2026-11-18 19:08+0000\n"
 -"PO-Revision-Date: 2026-01-21 20:40+0100\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"PO-Revision-Date: 2026-11-23 00:00+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
  "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
  "Language: sv\n"
  "MIME-Version: 1.0\n"
+@@ -135,7 +135,7 @@
+ 
+ #: data/org.gnome.TextEditor.gschema.xml:63
+ msgid "Whether a margin line should be displayed on the right of the editor."
+-msgstr "Huruvida en marginalrad ska visas i höger sida av redigeraren."
++msgstr "Huruvida en marginalrad ska visas till höger i redigeraren."
+ 
+ #: data/org.gnome.TextEditor.gschema.xml:68
+ msgid "Right Margin Position"
 @@ -152,7 +152,7 @@
  
  #: data/org.gnome.TextEditor.gschema.xml:74
  msgid "Whether to show an overview map of the document."
 -msgstr ""
-+msgstr "Huruvida en översiktskarta över dokumentet ska visas."
++msgstr "Huruvida en översiktskarta för dokumentet ska visas."
  
  #: data/org.gnome.TextEditor.gschema.xml:78
  msgid "Show Background Grid"
-@@ -378,7 +378,7 @@
+@@ -161,7 +161,7 @@
+ #: data/org.gnome.TextEditor.gschema.xml:79
+ msgid "If enabled, a blueprint style grid is printed on the editor background."
+ msgstr ""
+-"Om aktiverad kommer ett rutnät som på en teknisk ritning att visas på "
++"Om detta är aktiverat visas ett rutnät som på en teknisk ritning på "
+ "redigerarens bakgrund."
+ 
+ #: data/org.gnome.TextEditor.gschema.xml:83
+@@ -170,7 +170,7 @@
+ 
+ #: data/org.gnome.TextEditor.gschema.xml:84
+ msgid "If enabled, the current line will be highlighted."
+-msgstr "Om aktiverad kommer aktuell rad att färgmarkeras."
++msgstr "Om detta är aktiverat färgmarkeras den aktuella raden."
+ 
+ #: data/org.gnome.TextEditor.gschema.xml:88
+ msgid "Text Wrapping"
+@@ -205,8 +205,8 @@
+ "The style scheme to use by the editor. It may translate this into a dark "
+ "format when available."
+ msgstr ""
+-"Stilschemat som redigeraren ska använda. Den kan ändra detta till ett mörkt "
+-"format när tillgängligt."
++"Stilschemat som redigeraren ska använda. Det kan översättas till en mörk "
++"variant när en sådan är tillgänglig."
+ 
+ #: data/org.gnome.TextEditor.gschema.xml:108
+ msgid "Discover File Settings"
+@@ -217,8 +217,8 @@
+ "If enabled, then Text Editor will try to discover file settings from "
+ "modelines, editorconfig, or per-language defaults."
+ msgstr ""
+-"Om aktiverad kommer Textredigerare försöka identifiera filinställningar från "
+-"lägesrader, editorconfig eller standardvärden per språk."
++"Om detta är aktiverat kommer Textredigerare att försöka identifiera "
++"filinställningar från lägesrader, editorconfig eller standardvärden per språk."
+ 
+ #: data/org.gnome.TextEditor.gschema.xml:113
+ msgid "Automatically check spelling"
+@@ -227,7 +227,8 @@
+ #: data/org.gnome.TextEditor.gschema.xml:114
+ msgid "If enabled, then Text Editor will check spelling as you type."
+ msgstr ""
+-"Om aktiverad kommer Textredigerare kontrollera stavning medan du skriver."
++"Om detta är aktiverat kommer Textredigerare att kontrollera stavningen medan "
++"du skriver."
+ 
+ #: data/org.gnome.TextEditor.gschema.xml:118
+ msgid "Restore session"
+@@ -239,7 +240,7 @@
+ 
+ #: data/org.gnome.TextEditor.gschema.xml:123
+ msgid "Recolor Window"
+-msgstr "Byt färg på fönster"
++msgstr "Byt färg på fönstret"
+ 
+ #: data/org.gnome.TextEditor.gschema.xml:124
+ msgid "Use the style-scheme to recolor the application window."
+@@ -251,7 +252,7 @@
+ 
+ #: data/org.gnome.TextEditor.gschema.xml:133
+ msgid "The keybindings to use within Text Editor."
+-msgstr "Tangentbindningarna att använda i Textredigerare."
++msgstr "Tangentbindningarna som ska användas i Textredigerare."
+ 
+ #: data/org.gnome.TextEditor.gschema.xml:137
+ msgid "Last Save Directory"
+@@ -279,7 +280,7 @@
+ "editor."
+ msgstr ""
+ "Aktivera användning av textsnuttar som registrerats med GtkSourceView "
+-"inifrån redigeraren."
++"i redigeraren."
+ 
+ #: data/org.gnome.TextEditor.gschema.xml:153
+ msgid "Line Height"
+@@ -337,11 +338,11 @@
+ 
+ #: src/editor-application.c:531
+ msgid "Standard input was requested multiple times. Ignoring request."
+-msgstr "Standard in begärdes flera gånger. Ignorerar begäran."
++msgstr "Standardinmatning begärdes flera gånger. Begäran ignoreras."
+ 
+ #: src/editor-application.c:535
+ msgid "Standard input is not supported on this platform. Ignoring request."
+-msgstr "Standard in stöds inte på denna plattform. Ignorerar begäran."
++msgstr "Standardinmatning stöds inte på denna plattform. Begäran ignoreras."
+ 
+ #: src/editor-application.c:638
+ msgid "Bugs may be reported at:"
+@@ -349,7 +350,7 @@
+ 
+ #: src/editor-application.c:640
+ msgid "[FILES…]"
+-msgstr "[FILER…]"
++msgstr "[FILES…]"
+ 
+ #: src/editor-application.c:764
+ msgid "Do not restore session at startup"
+@@ -378,7 +379,7 @@
  
  #: src/editor-encoding-dialog.c:232
  msgid "Reload with a Different Encoding?"
 -msgstr ""
-+msgstr "Läs in igen med en annan teckenkodning?"
++msgstr "Läs in med en annan teckenkodning?"
  
  #: src/editor-encoding-dialog.c:233 src/editor-window-actions.c:213
  msgid "Unsaved changes will be permanently lost."
-@@ -431,7 +431,7 @@
+@@ -406,11 +407,11 @@
+ 
+ #: src/editor-file-manager.c:99
+ msgid "File path is NULL"
+-msgstr "Filsökväg är NULL"
++msgstr "Sökvägen till filen är NULL"
+ 
+ #: src/editor-file-manager.c:108 src/editor-file-manager.c:119
+ msgid "Error converting UTF-8 filename to wide char"
+-msgstr "Fel vid konvertering av UTF-8-filnamn till breda tecken"
++msgstr "Fel vid konvertering av UTF-8-filnamn till bredtecken"
+ 
+ #: src/editor-file-manager.c:127
+ msgid "ILCreateFromPath() failed"
+@@ -431,7 +432,7 @@
  
  #: src/editor-info-bar.c:90
  msgid "Some Characters Could Not Be Read"
@@ -38,7 +161,12 @@
  
  #: src/editor-info-bar.c:91
  msgid "Change _Encoding…"
-@@ -443,17 +443,15 @@
+@@ -439,29 +440,28 @@
+ 
+ #: src/editor-info-bar.c:96 src/editor-info-bar.c:244
+ msgid "Could Not Open File"
+-msgstr "Kunde inte öppna fil"
++msgstr "Kunde inte öppna filen"
  
  #: src/editor-info-bar.c:97 src/editor-info-bar.c:118
  msgid "_Review…"
@@ -47,23 +175,34 @@
  
  #: src/editor-info-bar.c:102
  msgid "File Has Changed on Disk"
- msgstr "Filen har ändrats på disk"
+-msgstr "Filen har ändrats på disk"
++msgstr "Filen har ändrats på disken"
  
  #: src/editor-info-bar.c:103
 -#, fuzzy
--#| msgid "_Discard Changes and Reload"
+ #| msgid "_Discard Changes and Reload"
  msgid "_Discard and Reload"
 -msgstr "_Förkasta ändringar och läs in på nytt"
-+msgstr "_Förkasta och läs in igen"
++msgstr "_Förkasta och läs in på nytt"
  
  #: src/editor-info-bar.c:110
  msgid "Document Restored"
-@@ -476,23 +474,20 @@
+-msgstr "Dokument återställt"
++msgstr "Dokumentet har återställts"
+ 
+ #: src/editor-info-bar.c:115
+ msgid "Draft Changes Restored"
+-msgstr "Utkastsändringar återställda"
++msgstr "Utkastsändringarna har återställts"
+ 
+ #: src/editor-info-bar.c:246 src/editor-page.c:1476 src/editor-window.ui:586
+ msgid "_Close"
+@@ -476,23 +476,21 @@
  msgstr "Öppna som _administratör"
  
  #: src/editor-info-bar.c:267
 -#, fuzzy
--#| msgid "Unsaved document has been restored."
+ #| msgid "Unsaved document has been restored."
  msgid "An unsaved document has been restored. You can save it or keep editing."
 -msgstr "Ett osparat dokument har återställts."
 +msgstr "Ett osparat dokument har återställts. Du kan spara det eller fortsätta redigera."
@@ -72,33 +211,109 @@
  msgid ""
  "Unsaved changes have been restored. You can save or discard them, or keep "
  "editing."
- msgstr ""
-+"Osparade ändringar har återställts. Du kan spara eller förkasta dem, eller "
-+"fortsätta redigera."
+-msgstr ""
++msgstr "Osparade ändringar har återställts. Du kan spara eller förkasta dem, eller fortsätta redigera."
  
  #: src/editor-info-bar.c:269
 -#, fuzzy
--#| msgctxt "shortcut window"
--#| msgid "Editing"
+ #| msgctxt "shortcut window"
+ #| msgid "Editing"
  msgid "_Keep Editing"
 -msgstr "Redigering"
 +msgstr "_Fortsätt redigera"
  
  #: src/editor-info-bar.c:271 src/editor-window.ui:505
  msgid "Save _As…"
-@@ -976,10 +971,8 @@
- msgstr "Senast använda dokument"
+@@ -542,11 +540,11 @@
+ 
+ #: src/editor-open-view.ui:49
+ msgid "No Recent Documents"
+-msgstr "Inga senaste dokument"
++msgstr "Inga nyligen använda dokument"
+ 
+ #: src/editor-open-view.ui:139 src/editor-open-view.ui:180
+ msgid "Open New Document"
+-msgstr "Öppna nytt dokument"
++msgstr "Öppna ett nytt dokument"
+ 
+ #: src/editor-page.c:1407 src/editor-properties.c:617
+ #: src/editor-sidebar-item.c:101
+@@ -561,7 +559,7 @@
+ 
+ #: src/editor-page.c:1475
+ msgid "Failed to save document"
+-msgstr "Misslyckades med att spara dokument"
++msgstr "Misslyckades med att spara dokumentet"
+ 
+ #: src/editor-page.c:1740
+ #, c-format
+@@ -665,7 +663,7 @@
+ #: src/editor-preferences-dialog.ui:209
+ msgid "Apply settings using modelines, editorconfig, or sensible defaults"
+ msgstr ""
+-"Tillämpa inställningar med lägesrader, editorconfig eller rimliga "
++"Tillämpa inställningar med hjälp av lägesrader, editorconfig eller rimliga "
+ "standardvärden"
+ 
+ #: src/editor-preferences-dialog.ui:215
+@@ -707,7 +705,7 @@
+ 
+ #: src/editor-properties-panel.ui:27
+ msgid "Open in File Manager"
+-msgstr "Öppna i filhanterare"
++msgstr "Öppna i filhanteraren"
+ 
+ #: src/editor-properties-panel.ui:53
+ msgid "_Document Type"
+@@ -832,7 +830,7 @@
+ 
+ #: src/editor-search-entry.ui:33
+ msgid "Clear Entry"
+-msgstr "Töm sökruta"
++msgstr "Töm sökfält"
+ 
+ #: src/editor-sidebar-row.ui:82
+ msgid "Remove"
+@@ -887,19 +885,19 @@
+ 
+ #: src/editor-window-actions.c:109
+ msgid "Saving changes will replace the previously saved version."
+-msgstr "Att spara ändringar kommer ersätta den tidigare sparade versionen."
++msgstr "Att spara ändringarna kommer att ersätta den tidigare sparade versionen."
+ 
+ #. translators: %s is replaced with the document title
+ #: src/editor-window-actions.c:112
+ #, c-format
+ msgid "Save Changes to “%s”?"
+-msgstr "Spara ändringar till ”%s”?"
++msgstr "Spara ändringar i ”%s”?"
+ 
+ #. translators: %s is replaced with the document title
+ #: src/editor-window-actions.c:216
+ #, c-format
+ msgid "Discard Changes to “%s”?"
+-msgstr "Förkasta ändringar till ”%s”?"
++msgstr "Förkasta ändringar i ”%s”?"
+ 
+ #: src/editor-window-actions.c:379
+ msgid "All Files"
+@@ -973,13 +971,12 @@
+ 
+ #: src/editor-window.ui:242 src/editor-window.ui:410
+ msgid "Recently Used Documents"
+-msgstr "Senast använda dokument"
++msgstr "Nyligen använda dokument"
  
  #: src/editor-window.ui:423 src/editor-window.ui:426
 -#, fuzzy
--#| msgid "Show Overview Map"
+ #| msgid "Show Overview Map"
  msgid "Overview Map"
 -msgstr "Visa översiktskarta"
 +msgstr "Översiktskarta"
  
  #: src/editor-window.ui:482
  msgid "_New Window"
-@@ -987,7 +980,7 @@
+@@ -987,7 +984,7 @@
  
  #: src/editor-window.ui:490
  msgid "Show Open Tabs"
@@ -107,3 +322,146 @@
  
  #: src/editor-window.ui:511
  msgid "_Discard Changes…"
+@@ -1065,19 +1062,19 @@
+ #: src/shortcuts-dialog.ui:36
+ msgctxt "shortcut window"
+ msgid "Reorder after next tab"
+-msgstr "Flytta till efter nästa flik"
++msgstr "Flytta efter nästa flik"
+ 
+ # https://gitlab.gnome.org/GNOME/gnome-text-
+ # editor/-/issues/140
+ #: src/shortcuts-dialog.ui:42
+ msgctxt "shortcut window"
+ msgid "Reorder before previous tab"
+-msgstr "Flytta till före föregående flik"
++msgstr "Flytta före föregående flik"
+ 
+ #: src/shortcuts-dialog.ui:48
+ msgctxt "shortcut window"
+ msgid "Restore previously closed tab"
+-msgstr "Återställ senast stängd flik"
++msgstr "Återställ den senast stängda fliken"
+ 
+ #: src/shortcuts-dialog.ui:55
+ msgctxt "shortcut window"
+@@ -1112,7 +1109,7 @@
+ #: src/shortcuts-dialog.ui:87
+ msgctxt "shortcut window"
+ msgid "Browse to open document"
+-msgstr "Bläddra för att öppna dokument"
++msgstr "Bläddra efter ett dokument att öppna"
+ 
+ #: src/shortcuts-dialog.ui:93
+ msgctxt "shortcut window"
+@@ -1137,12 +1134,12 @@
+ #: src/shortcuts-dialog.ui:117
+ msgctxt "shortcut window"
+ msgid "Close document"
+-msgstr "Stäng dokument"
++msgstr "Stäng dokumentet"
+ 
+ #: src/shortcuts-dialog.ui:123
+ msgctxt "shortcut window"
+ msgid "Open document properties"
+-msgstr "Öppna dokumentegenskaper"
++msgstr "Öppna dokumentegenskaperna"
+ 
+ #: src/shortcuts-dialog.ui:131
+ msgctxt "shortcut window"
+@@ -1212,12 +1209,12 @@
+ #: src/shortcuts-dialog.ui:205
+ msgctxt "shortcut window"
+ msgid "Increment number at cursor"
+-msgstr "Öka nummer vid markör"
++msgstr "Öka talet vid markören"
+ 
+ #: src/shortcuts-dialog.ui:211
+ msgctxt "shortcut window"
+ msgid "Decrement number at cursor"
+-msgstr "Minska nummer vid markör"
++msgstr "Minska talet vid markören"
+ 
+ #: src/shortcuts-dialog.ui:217
+ msgctxt "shortcut window"
+@@ -1227,12 +1224,12 @@
+ #: src/shortcuts-dialog.ui:223
+ msgctxt "shortcut window"
+ msgid "Toggle visibility of insertion caret"
+-msgstr "Växla synligheten för insättningsmarkör"
++msgstr "Växla synligheten för insättningsmarkören"
+ 
+ #: src/shortcuts-dialog.ui:230
+ msgctxt "shortcut window"
+ msgid "Selections"
+-msgstr "Markering"
++msgstr "Markeringar"
+ 
+ #: src/shortcuts-dialog.ui:234
+ msgctxt "shortcut window"
+@@ -1252,27 +1249,27 @@
+ #: src/shortcuts-dialog.ui:253
+ msgctxt "shortcut window"
+ msgid "Movements"
+-msgstr "Förflyttning"
++msgstr "Förflyttningar"
+ 
+ #: src/shortcuts-dialog.ui:257
+ msgctxt "shortcut window"
+ msgid "Move to beginning of document"
+-msgstr "Gå till början på dokumentet"
++msgstr "Gå till början av dokumentet"
+ 
+ #: src/shortcuts-dialog.ui:263
+ msgctxt "shortcut window"
+ msgid "Move to end of document"
+-msgstr "Gå till slutet på dokumentet"
++msgstr "Gå till slutet av dokumentet"
+ 
+ #: src/shortcuts-dialog.ui:269
+ msgctxt "shortcut window"
+ msgid "Move to start of previous paragraph"
+-msgstr "Gå till början på föregående stycke"
++msgstr "Gå till början av föregående stycke"
+ 
+ #: src/shortcuts-dialog.ui:275
+ msgctxt "shortcut window"
+ msgid "Move to end of next paragraph"
+-msgstr "Gå till slutet på nästa stycke"
++msgstr "Gå till slutet av nästa stycke"
+ 
+ #: src/shortcuts-dialog.ui:281
+ msgctxt "shortcut window"
+@@ -1297,27 +1294,27 @@
+ #: src/shortcuts-dialog.ui:304
+ msgctxt "shortcut window"
+ msgid "Delete from cursor to word start"
+-msgstr "Ta bort mellan markören och början på ordet"
++msgstr "Ta bort mellan markören och ordets början"
+ 
+ #: src/shortcuts-dialog.ui:310
+ msgctxt "shortcut window"
+ msgid "Delete from cursor to word end"
+-msgstr "Ta bort mellan markören och slutet på ordet"
++msgstr "Ta bort mellan markören och ordets slut"
+ 
+ #: src/shortcuts-dialog.ui:316
+ msgctxt "shortcut window"
+ msgid "Delete from cursor to paragraph start"
+-msgstr "Ta bort mellan markören och början på stycket"
++msgstr "Ta bort mellan markören och styckets början"
+ 
+ #: src/shortcuts-dialog.ui:322
+ msgctxt "shortcut window"
+ msgid "Delete from cursor to paragraph end"
+-msgstr "Ta bort mellan markören och slutet på stycket"
++msgstr "Ta bort mellan markören och styckets slut"
+ 
+ #: src/shortcuts-dialog.ui:328
+ msgctxt "shortcut window"
+ msgid "Delete the current line"
+-msgstr "Ta bort aktuell rad"
++msgstr "Ta bort den aktuella raden"
+ 
+ #: src/shortcuts-dialog.ui:335
+ msgctxt "shortcut window"

@@ -1,12 +1,9 @@
-# gnome-text-editor — main — svenska UI
+# Textredigerare — main/po
 
-- GNOME-status före granskning: 282 översatta, 4 fuzzy, 6 oöversatta.
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gnome-text-editor/main/po/sv/>
-- Granskad rad: `Overview Map` → `Översiktskarta`; `Discard` → `Förkasta`.
-- Åtgärd: Återställningsmeddelanden, teckenkodningsdialog, översiktskarta och fliköversikt översattes.
-- Ändringar: 6 ny(a) översättning(ar), 4 rättad(e) befintlig(a) sträng(ar).
-- Validering: `msgfmt --check`; acceleratorer och ellips kontrollerade.
-- Dokumenterade undantag: Svenskans singular och plural av `år` är avsiktligt identiska.
-- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
-- Slutlig lokal status: 292 översatta, 0 fuzzy, 0 oöversatta.
+- Aktuell POT: 292 aktiva poster. Den hämtade svenska katalogen hade 6 oöversatta och 4 fuzzy-poster; den granskade filen har 0 oöversatta och 0 fuzzy.
+- Granskning: hela katalogen är radgranskad. Sex nya översättningar har tillkommit och 52 befintliga poster har rättats för idiomatik, grammatik, teknisk betydelse och konsekvent GNOME-terminologi.
+- Acceleratorer: inga `_ä`, `_å` eller `_ö`; acceleratorerna använder ASCII-bokstäver.
+- Validering: `msgfmt --check` och `l10n-lint --check --language sv` utan fel. Aktuell POT och granskad katalog har samma uppsättning aktiva nycklar; pluralformen för `%u` har kontrollerats separat.
+- Hunspell: tekniska identifierare och avsiktliga förkortningar är manuellt kontrollerade undantag, bland annat `GtkSourceView`, `NSURL`, `NULL`, `ILCreateFromPath`, `LF`, `CR`, `UTF-8`, `editorconfig` och kommandoflaggan `--ignore-session`. Fragment som uppstår när Hunspell delar acceleratorsträngar ignoreras.
+- GNOME-inskick: inget.
