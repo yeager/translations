@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 08:15 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 08:18 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -105,7 +105,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/gimp-help-3-0/appendix/sv/) | gimp-help-3-0 | 508 | 15 | 59 | Behöver arbete | Klar lokalt (2026-11-23): Appendix är lokalt komplett och fuzzy-fri; ingen GNOME-inskickning har gjorts. [original](gimp-help/gimp-help-3-0/gimp-help.gimp-help-3-0.appendix.sv.original.po), [granskad](gimp-help/gimp-help-3-0/gimp-help.gimp-help-3-0.appendix.sv.reviewed.po), [diff](gimp-help/gimp-help-3-0/gimp-help.gimp-help-3-0.appendix.sv.review.diff), [notering](gimp-help/gimp-help-3-0/README.md) |
 | Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/master/po-plug-ins/sv/) | master | 3574 | 102 | 47 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gitg](https://l10n.gnome.org/vertimus/gitg/master/po/sv/) | master | 551 | 13 | 45 | Behöver arbete | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-terminal](https://l10n.gnome.org/vertimus/gnome-terminal/master/po/sv/) | master | 381 | 91 | 34 | Behöver arbete | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-terminal](https://l10n.gnome.org/vertimus/gnome-terminal/master/po/sv/) | master | 381 | 91 | 34 | Behöver arbete | Klar lokalt (2026-11-23): Aktuell Git-katalog har 521 aktiva strängar, 0 oöversatta och 0 fuzzy. Fem nordiska acceleratorer är rättade; msgfmt och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](gnome-terminal/master/po/gnome-terminal.master.sv.original.po), [granskad](gnome-terminal/master/po/gnome-terminal.master.sv.reviewed.po), [diff](gnome-terminal/master/po/gnome-terminal.master.sv.review.diff), [notering](gnome-terminal/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/master/po/sv/) | master | 6021 | 89 | 32 | Behöver arbete | Klar lokalt (2026-11-22): Formatsträngen för sparfel är rättad; licensens avsiktliga styckebrytningar är dokumenterade. [original](gimp/master/po/gimp.master.sv.original.po), [granskad](gimp/master/po/gimp.master.sv.reviewed.po), [diff](gimp/master/po/gimp.master.sv.review.diff), [notering](gimp/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [NetworkManager](https://l10n.gnome.org/vertimus/networkmanager/main/po/sv/) | main | 2520 | 15 | 31 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [Graphs](https://l10n.gnome.org/vertimus/graphs/main/po/sv/) | main | 473 | 24 | 26 | Behöver arbete | Ej granskad |
