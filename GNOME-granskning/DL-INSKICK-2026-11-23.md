@@ -42,6 +42,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | palette | master | po | 3 |
 | msitools | master | po | 2 |
 | lightsoff | main | po | 1 |
+| atomix | main | po | 1 |
 | plymouth | main | po | 1 |
 | totem-pl-parser | master | po | 1 |
 | template-glib | main | po | 3 |
