@@ -39,6 +39,11 @@ engelsk källtext och kan därför inte översättas i Lokalise:
 
 De är källprojektets tomma metadata, inte saknade svenska översättningar.
 
+En efterföljande fullkontroll upptäckte 24 senare uppladdade Workday-poster
+med källtext på den sista API-sidan. De granskades, sparades och lästes tillbaka
+via API. Sista sidan verifierades därefter med noll oöversatta svenska poster
+med källtext.
+
 ## Semantiska rättningar efter kökontrollen
 
 En separat jämförelse av återkommande korta källsträngar identifierade och
