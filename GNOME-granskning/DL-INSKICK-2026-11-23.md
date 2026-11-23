@@ -7,6 +7,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | file-roller | master | po | 32 |
 | showtime | main | po | 3 |
 | polkit | main | po | 1 |
+| libgovirt | master | po | 1 |
 | decoder | master | po | 1 |
 | PipeWire | master | po | 4 |
 | realmd | master | po | 28 |
