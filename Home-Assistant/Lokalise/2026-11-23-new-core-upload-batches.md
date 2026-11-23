@@ -389,6 +389,13 @@ possessivkonstruktion. De normaliserades till `Saldo för {entity_name}` och
 `Instrålningen för {entity_name}`, sparades och lästes tillbaka via Lokalise
 API. TMX-valideringen godkände 4 113 poster.
 
+## YAML-konfigurationer
+
+Åtta Nederlandse Spoorwegen- och London Underground-texter hade
+`YAML konfiguration` och `YAML sensorplattform`. De normaliserades till
+`YAML-konfiguration` och `YAML-sensorplattform`, med bevarade integrationsnamn
+och radbrytningar. Värdena sparades och lästes tillbaka via Lokalise API.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
