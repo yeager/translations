@@ -360,6 +360,13 @@ Indevots effektfel skrev måttenheter direkt efter platshållarna som
 `({max_power} W)` enligt svensk SI-skrivning; platshållarna bevarades,
 värdet sparades och lästes tillbaka via Lokalise API.
 
+## MQTT: platshållarentitet
+
+MQTT-mallen hade den osammanfogade formen `{platform_label}entitet`.
+Den normaliserades till `Konfigurera grundläggande inställningar för
+{platform_label}-entiteten{entity_name_label}`. Namnetikettens platshållare
+bevarades exakt; värdet sparades och lästes tillbaka via Lokalise API.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
