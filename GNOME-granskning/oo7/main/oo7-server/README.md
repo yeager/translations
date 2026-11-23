@@ -1,12 +1,9 @@
-# oo7 — main — svenska UI
+# oo7 — main/oo7-server
 
-- GNOME-status före granskning: 14 översatta, 2 fuzzy, 1 oöversatt.
-- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/oo7/main/po/sv/>
-- Granskad rad: `Enter the old password` → `Ange det gamla lösenordet`.
-- Åtgärd: Dialogtexter för byte av nyckelringslösenord kompletterades.
-- Ändringar: 1 ny(a) översättning(ar), 2 rättad(e) befintlig(a) sträng(ar).
-- Validering: `msgfmt --check`; Rust-platshållaren `{}` kontrollerad.
-- Dokumenterade undantag: `keyring` översätts konsekvent till `nyckelring`.
-- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
-- Slutlig lokal status: 17 översatta, 0 fuzzy, 0 oöversatta.
+- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/oo7/main/oo7-server/sv/>
+- Aktuell POT: 17 aktiva poster. Den hämtade svenska katalogen hade en oöversatt och två fuzzy-poster; den granskade filen har 0 oöversatta och 0 fuzzy.
+- Granskning: hela katalogen är radgranskad. De tre berörda lösenordsdialogerna är korrigerade från ”nytt lösenord” till ”gammalt lösenord”.
+- Acceleratorer: inga `_ä`, `_å` eller `_ö` förekommer.
+- Validering: `msgfmt --check` utan fel. `l10n-lint --language sv` har 0 fel och 0 varningar; två informationsnotiser beror på att svensk typografi avslutar nyckelringsnamn med citattecken efter Rust-platshållaren `{}`.
+- Hunspell: inga anmärkningar.
+- GNOME-inskick: inget.
