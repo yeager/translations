@@ -323,6 +323,13 @@ DTE Energy Bridge-texten satte platshållaren `{domain}` direkt mot
 `` `{domain}`-plattformssensorer ``, med bevarad platshållare och radbrytning.
 Värdet sparades och lästes tillbaka via Lokalise API.
 
+## Automation: reparation av TMX-källposter
+
+Platshållarkontrollen fann tre gamla Automation-segment i den kanoniska
+TMX:en. Direkt Lokalise-API visade att de aktuella svenska texterna och alla
+platshållare redan var korrekta; endast TMX:ens föråldrade källposter ersattes
+med liveverifierade data. Ingen Lokalise-text ändrades.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
