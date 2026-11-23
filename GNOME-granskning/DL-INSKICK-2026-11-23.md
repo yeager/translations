@@ -58,6 +58,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | gitg | master | po | 62 |
 | gitte | main | po | 9 |
 | damned-lies | main | po | 42 |
+| gnome-music | main | help | 4 |
 
 ## Kompletta granskningar utan ändrade översättningssträngar
 
