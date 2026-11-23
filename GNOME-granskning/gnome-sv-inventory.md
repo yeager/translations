@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 21:15 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 21:18 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -609,7 +609,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [udisks](https://l10n.gnome.org/vertimus/udisks/master/po/sv/) | master | 94 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [upscaler — Upscale and enhance images](https://l10n.gnome.org/vertimus/upscaler/main/po/sv/) | main | 76 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [video-trimmer](https://l10n.gnome.org/vertimus/video-trimmer/main/po/sv/) | main | 69 | 0 | 0 | Klar | X | 7 | Klar lokalt (2026-11-23): Aktuell 69-strängarskatalog är radgranskad mot senaste POT. Sju befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](video-trimmer/main/po/video-trimmer.main.sv.original.po), [granskad](video-trimmer/main/po/video-trimmer.main.sv.reviewed.po), [diff](video-trimmer/main/po/video-trimmer.main.sv.review.diff), [notering](video-trimmer/main/po/README.md) |
-| Gränssnitt | Default (99% translated) | [vocalis](https://l10n.gnome.org/vertimus/vocalis/main/po/sv/) | main | 73 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [vocalis](https://l10n.gnome.org/vertimus/vocalis/main/po/sv/) | main | 73 | 0 | 0 | Klar | X | 10 | Klar lokalt (2026-11-23): Aktuell 73-strängarskatalog är radgranskad mot senaste POT. Tio befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](vocalis/main/po/vocalis.main.sv.original.po), [granskad](vocalis/main/po/vocalis.main.sv.reviewed.po), [diff](vocalis/main/po/vocalis.main.sv.review.diff), [notering](vocalis/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [warp](https://l10n.gnome.org/vertimus/warp/main/po/sv/) | main | 194 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [warp](https://l10n.gnome.org/vertimus/warp/main/help/sv/) | main | 55 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [welcome.gnome.org — Welcome to GNOME](https://l10n.gnome.org/vertimus/welcome-gnome-org/main/ui/sv/) | main | 291 | 0 | 0 | Klar |  | — | Ej granskad |
