@@ -6,4 +6,4 @@
 - Ändringar: 202 exakta träffar från projektets svenska Git-katalog har kontrollerats. 20 nya rader har behandlats: UI-texter är översatta, medan instrument- och mönsternamn bevaras som produktinnehåll.
 - Källavvikelse: Git `main` innehåller en äldre komplett 202-strängarsfil; arkivets original är den nyare 219-strängarsfilen från Damned Lies.
 - Validering: `msgfmt --check` godkänd; `l10n-lint` rapporterar 0 fel.
-- Ingen ändring har skickats till GNOME.
+- Uppladdad till Damned Lies 2026-11-23 efter reservation, med kommentaren `Granskad och klar` (`{"result":"OK"}`).
