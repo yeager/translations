@@ -289,6 +289,13 @@ MQTT:s fält `Min Kelvin` och `Max Kelvin` var oöversatta. De normaliserades
 till `Minsta kelvin` respektive `Högsta kelvin`, sparades och lästes tillbaka
 via Lokalise API. TMX-valideringen godkände 4 096 poster.
 
+## API-nyckel och SSL-certifikat
+
+Foreca, AEMET och SmartyPlants hade fem kvarvarande fält med engelska
+`API key`; Glances hade `Verify SSL certificate`. De normaliserades till
+`API-nyckel` och `Verifiera SSL-certifikat`, sparades och lästes tillbaka via
+Lokalise API. TMX-posterna ersattes med verifierade livevärden.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
