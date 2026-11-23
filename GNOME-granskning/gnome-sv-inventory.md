@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 21:52 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 21:54 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -411,7 +411,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [gnome-schedule](https://l10n.gnome.org/module/gnome-schedule/) | master | 244 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-screenshot](https://l10n.gnome.org/module/gnome-screenshot/) | master | 62 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-session](https://l10n.gnome.org/vertimus/gnome-session/gnome-50/po/sv/) | gnome-50 | 43 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-session](https://l10n.gnome.org/vertimus/gnome-session/main/po/sv/) | main | 43 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-session](https://l10n.gnome.org/vertimus/gnome-session/main/po/sv/) | main | 43 | 0 | 0 | Klar | X | 10 | Klar lokalt (2026-11-23): Hela 43-strängarskatalogen är radgranskad mot senaste POT. Tio befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](gnome-session/main/po/gnome-session.main.sv.original.po), [granskad](gnome-session/main/po/gnome-session.main.sv.reviewed.po), [diff](gnome-session/main/po/gnome-session.main.sv.review.diff), [notering](gnome-session/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-settings-daemon](https://l10n.gnome.org/vertimus/gnome-settings-daemon/main/po/sv/) | main | 536 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-settings-daemon](https://l10n.gnome.org/vertimus/gnome-settings-daemon/gnome-50/po/sv/) | gnome-50 | 538 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-shell](https://l10n.gnome.org/vertimus/gnome-shell/gnome-50/po/sv/) | gnome-50 | 749 | 0 | 0 | Klar |  | — | Ej granskad |
