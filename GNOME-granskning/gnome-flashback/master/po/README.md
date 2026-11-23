@@ -6,4 +6,4 @@
 - Acceleratorer: inga `_ä`, `_å` eller `_ö` förekommer.
 - Validering: `msgfmt --check` utan fel. `l10n-lint --language sv` har 0 fel och 0 varningar; två informationsnotiser gäller acceleratorplacering.
 - Hunspell: Compiz, Geoclue, IBus och Metacity är avsiktliga produktnamn.
-- GNOME-inskick: inget.
+- GNOME-inskick: inskickad 2026-11-23 via Damned Lies API med kommentaren `Granskad och klar`; API:t returnerade `{"result":"OK"}`.

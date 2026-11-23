@@ -50,6 +50,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | gnome-commander | main | po | 3 |
 | fwupd | main | po | 7 |
 | ptyxis | main | po | 97 |
+| gnome-flashback | master | po | 16 |
 
 ## Kompletta granskningar utan ändrade översättningssträngar
 
