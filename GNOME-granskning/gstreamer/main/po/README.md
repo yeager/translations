@@ -8,5 +8,5 @@
 - Validering: `msgfmt --check`; alla `%s` och citattecken kontrollerade.
 - Dokumenterade undantag: `GstPreset` och den tekniska termen `rörledningsbeskrivning` bevaras enligt GStreamer-kontexten.
 - Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
+- GNOME-inskick: uppladdad till Damned Lies 2026-11-23 efter reservation, med kommentaren `Granskad och klar` (`{"result":"OK"}).
 - Slutlig lokal status: 403 översatta, 0 fuzzy, 0 oöversatta.

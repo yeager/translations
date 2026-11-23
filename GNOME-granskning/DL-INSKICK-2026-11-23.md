@@ -44,6 +44,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | rygel | master | po | 3 |
 | sysprof | master | po | 9 |
 | glib | main | po | 22 |
+| gstreamer | main | po | 14 |
 
 ## DL-blockerare
 
