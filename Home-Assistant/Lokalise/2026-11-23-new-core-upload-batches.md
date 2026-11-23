@@ -157,6 +157,13 @@ normaliserades till `Reserv för reservkraft` i linje med SolarEdge-posten,
 sparades och lästes tillbaka via Lokalise API. TMX-valideringen godkände
 därefter 4 073 poster.
 
+## Batterieffekt
+
+Sex effektsensorer med källtexten `Battery power` använde den otydliga formen
+`Batterikraft`. Imeon, Tesla Fleet, Teslemetry, Tessie, V2C och ViCare
+normaliserades till den tekniska termen `Batterieffekt`, sparades och lästes
+tillbaka via Lokalise API. TMX-valideringen godkände därefter 4 079 poster.
+
 ## Ljudhändelse: bebisgråt
 
 Sleep as Androids ljudhändelse `Baby crying` använde `Bäbis ledsen`, medan
