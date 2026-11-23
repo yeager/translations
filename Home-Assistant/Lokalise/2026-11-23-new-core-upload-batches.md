@@ -233,3 +233,13 @@ Ephember, Livisi, Foreca och PAJ GPS hade samma oöversatta rubrik
 värdena sparades och lästes tillbaka via Lokalise API. Fyra befintliga
 TMX-poster ersattes med verifierade livevärden; TMX-valideringen godkände
 fortsatt 4 081 poster.
+
+## Nya omkonfigurationsfält
+
+21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
+Infrared, Indi Allsky, Aprilaire, Xiaomi Miio, Glances, Twinkly, Flux LED och
+PAJ GPS låg helt på engelska. De översattes med etablerade Core-termer, bland
+annat `Lösenord`, `Värd`, `IP-adress`, `API-token`, `Användarnamn`,
+`Verifiera SSL-certifikat` och `Webhook-hemlighet`. Samtliga sparades och
+lästes tillbaka via Lokalise API. TMX-minnet uppdaterades med de verifierade
+livevärdena och validerades utan fel (4 081 poster).
