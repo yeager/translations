@@ -25,6 +25,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | tecla | gnome-50 | po | 1 |
 | plymouth | main | po | 1 |
 | totem-pl-parser | master | po | 1 |
+| template-glib | main | po | 3 |
 | gnome-terminal | master | po | 5 |
 | gnote | master | po | 2 |
 | d-spy | main | po | 12 |
