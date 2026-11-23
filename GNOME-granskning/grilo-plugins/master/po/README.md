@@ -4,7 +4,7 @@
 - Granskad: 2026-11-24
 - Aktuell POT: 84 aktiva strängar
 - Nya översättningar: 0
-- Korrigerade befintliga översättningar: 22
+- Korrigerade befintliga översättningar: 21
 
 Hela katalogen är radgranskad mot POT-filen från 2025-06-19. Tydliga fel i
 produktnamn, sammansättningar, uppladdningsmeddelanden och svenska formuleringar
