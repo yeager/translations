@@ -147,3 +147,11 @@ Två ZHA-fält med källtexten `Approach distance` hade formerna
 `Inflygningsavstånd` respektive `Närmande avstånd`. Det numeriska fältet
 normaliserades till `Inflygningsavstånd`, sparades och lästes tillbaka via
 Lokalise API. TMX-valideringen godkände därefter 4 063 poster.
+
+## LIFX-tema: Häxigt
+
+LIFX-temats arkivval `Witchy` hade den felaktiga formen `Häxig` i en
+temaentitet, medan temat i selector och det grammatiskt motsvarande neutra
+uttrycket är `Häxigt`. Entiteten rättades till `Arkiv > Häxigt`, sparades och
+lästes tillbaka via Lokalise API. TMX-valideringen godkände därefter 4 064
+poster.
