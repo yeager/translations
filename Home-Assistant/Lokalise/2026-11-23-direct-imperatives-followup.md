@@ -15,3 +15,24 @@ med samma översättnings-ID och fördes in i det kanoniska TMX-minnet.
 
 TM-manifest: `2026-11-23-asuswrt-overkiz-aosmith-webmin-live-verified.json` och
 `2026-11-23-peco-cloud-systembridge-live-verified.json` i `yeager/swedish-tm`.
+
+## Fortsatt status
+
+Efter den här loggen har ytterligare 24 direkta UI- och migreringssträngar
+granskats, sparats och återlästs. De finns, med fullständig nyckel, engelsk
+källtext, svensk måltext, Lokalise-ID och verifieringsmetod, i följande
+spårbara TM-manifest:
+
+- `2026-11-23-downloader-systembridge-googleai-live-verified.json`
+- `2026-11-23-auth-mealie-live-verified.json`
+- `2026-11-23-deako-withings-mealie-myuplink-ohme-live-verified.json`
+- `2026-11-23-lcn-mealie-habitica-velbus-velux-live-verified.json`
+- `2026-11-23-motionmount-linear-homeconnect-googleai-smartthings-live-verified.json`
+- `2026-11-23-smartthings-mqtt-reolink-homeconnect-ntfy-live-verified.json`
+
+Det kanoniska minnet `sv-home-assistant-core-lokalise-verified-20261120-canonical.tmx`
+validerades efter varje batch; senast validerade tillstånd är 3 543 poster,
+varav 3 312 med återläst Lokalise-översättnings-ID. Den aktuella
+Core-snapshoten innehåller 75 106 svenska målposter och inga tomma måltexter.
+Denna täckningssiffra är inte ett påstående om avslutad radgranskning; fortsatt
+semantisk, terminologisk och formatmässig granskning krävs.
