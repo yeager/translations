@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 07:56 UTC.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 07:58 UTC.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -204,7 +204,7 @@ Varje rad visar GNOME:s aktuella externa status. Kolumnen **Lokal granskning** i
 | Gränssnitt | Default (99% translated) | [geary](https://l10n.gnome.org/vertimus/geary/gnome-43/po/sv/) | gnome-43 | 661 | 1 | 0 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/gimp-3-0/po/sv/) | gimp-3-0 | 5972 | 1 | 0 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/gimp-3-2/po-plug-ins/sv/) | gimp-3-2 | 3662 | 1 | 0 | Behöver arbete | Ej granskad |
-| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/gimp/sv/) | master | 382 | 1 | 0 | Behöver arbete | Ej granskad |
+| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/gimp/sv/) | master | 382 | 1 | 0 | Behöver arbete | Klar lokalt (2026-11-23): 383 aktiva strängar, 0 oöversatta och 0 fuzzy. GIMP-akronymens svenska förklaring har rättad markup; validerad utan lint-fel. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/gimp/gimp-help.master.gimp.sv.original.po), [granskad](gimp-help/master/gimp/gimp-help.master.gimp.sv.reviewed.po), [diff](gimp-help/master/gimp/gimp-help.master.gimp.sv.review.diff), [notering](gimp-help/master/gimp/README.md) |
 | Dokumentation | Default (71% translated) | [gnome-commander](https://l10n.gnome.org/vertimus/gnome-commander/gcmd-1-18/help/sv/) | gcmd-1-18 | 3235 | 1 | 0 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-terminal](https://l10n.gnome.org/vertimus/gnome-terminal/gtk3/po/sv/) | gtk3 | 533 | 1 | 0 | Behöver arbete | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-terminal](https://l10n.gnome.org/vertimus/gnome-terminal/gnome-50/po/sv/) | gnome-50 | 532 | 1 | 0 | Behöver arbete | Ej granskad |
