@@ -1,32 +1,34 @@
 # Swedish translation for era.
-# Copyright © 2026 era's COPYRIGHT HOLDER
+# Copyright (C) 2026 era's COPYRIGHT HOLDER
 # This file is distributed under the same license as the era package.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2026.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: era main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/TitouanReal/era/issues/\n"
 "POT-Creation-Date: 2026-11-04 18:13+0000\n"
-"PO-Revision-Date: 2026-11-22 00:00+0100\n"
+"PO-Revision-Date: 2026-11-23 00:00+0100\n"
 "Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language-Team: Swedish <Swedish>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.10\n"
 
 #: data/org.gnome.gitlab.TitouanReal.Era.desktop.in.in:2
 #: data/org.gnome.gitlab.TitouanReal.Era.metainfo.xml.in.in:7
 msgid "@app-name@"
 msgstr "@app-name@"
 
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.gitlab.TitouanReal.Era.desktop.in.in:10
-msgid "calendar;planner;schedule;agenda;appointment;appointments;organizer;meeting;meetings;event;events;reminder;reminders;caldav;"
-msgstr "kalender;planerare;schema;agenda;möte;möten;organisatör;sammanträde;sammanträden;evenemang;händelser;påminnelse;påminnelser;caldav;"
+msgid ""
+"calendar;planner;schedule;agenda;appointment;appointments;organizer;meeting;meetings;event;events;reminder;reminders;caldav;"
+msgstr ""
+"kalender;planerare;schema;agenda;möte;möten;organisatör;sammanträde;sammanträden;evenemang;händelser;påminnelse;påminnelser;caldav;"
 
 #: data/org.gnome.gitlab.TitouanReal.Era.gschema.xml.in:11
 msgid "Last shown view"
@@ -161,11 +163,11 @@ msgstr "Ta bort kalender"
 
 #: data/resources/ui/calendar_management_dialog/calendar_details_page.blp:46
 msgid "Delete Calendar?"
-msgstr "Ta bort kalender?"
+msgstr "Ta bort kalendern?"
 
 #: data/resources/ui/calendar_management_dialog/calendar_details_page.blp:47
 msgid "The calendar and all events in it will be permanently deleted."
-msgstr "Kalendern och alla dess händelser kommer att tas bort permanent."
+msgstr "Kalendern och alla händelser i den kommer att tas bort permanent."
 
 #: data/resources/ui/calendar_management_dialog/calendar_details_page.blp:53
 msgid "Delete"
@@ -370,8 +372,8 @@ msgstr "Resurser"
 
 #: data/resources/ui/event_details_dialog/event_details_dialog.blp:172
 msgid ""
-"This event has recurrence properties. Such events are currently not editable "
-"in this app."
+"This event has recurrence properties. Such events are currently not editable"
+" in this app."
 msgstr ""
 "Denna händelse har återkommande egenskaper. Sådana händelser går för "
 "närvarande inte att redigera i detta program."
@@ -404,7 +406,8 @@ msgstr "Titel"
 msgid "Share Event"
 msgstr "Dela händelse"
 
-#: data/resources/ui/import_dialog.blp:5 data/resources/ui/import_dialog.blp:25
+#: data/resources/ui/import_dialog.blp:5
+#: data/resources/ui/import_dialog.blp:25
 msgid "Import"
 msgstr "Importera"
 
@@ -589,7 +592,8 @@ msgstr "_Tangentbordsgenvägar"
 msgid "_About Era"
 msgstr "_Om Era"
 
-#. Translators: Replace "translator-credits" with your name/username, and optionally an
+#. Translators: Replace "translator-credits" with your name/username, and
+#. optionally an
 #. email or URL.
 #: src/application.rs:146
 msgid "translator-credits"
@@ -610,14 +614,16 @@ msgid "Tomorrow"
 msgstr "I morgon"
 
 #. TRANSLATORS: date of a single all-day event, of the current year.
-#. {month} is the month name (e.g. "June"), {day} is the day number (e.g. "12").
+#. {month} is the month name (e.g. "June"), {day} is the day number (e.g.
+#. "12").
 #: src/utils/timeframe_label.rs:94
 #, rust-format
 msgid "{month} {day}"
 msgstr "{day} {month}"
 
 #. TRANSLATORS: date of a single all-day event.
-#. {month} is the month name (e.g. "June"), {day} is the day number (e.g. "12"),
+#. {month} is the month name (e.g. "June"), {day} is the day number (e.g.
+#. "12"),
 #. {year} is the year (e.g. "2025").
 #: src/utils/timeframe_label.rs:102
 #, rust-format
@@ -633,7 +639,8 @@ msgid "{month} {day_start} – {day_end}"
 msgstr "{day_start} – {day_end} {month}"
 
 #. e.g. "June 12 – 15, 2025"
-#. TRANSLATORS: all-day event range within the same month of a past or future year.
+#. TRANSLATORS: all-day event range within the same month of a past or future
+#. year.
 #. {month} month name, {day_start} and {day_end} day numbers, {year} year.
 #: src/utils/timeframe_label.rs:124
 #, rust-format
@@ -641,16 +648,20 @@ msgid "{month} {day_start} – {day_end}, {year}"
 msgstr "{day_start} – {day_end} {month}, {year}"
 
 #. e.g. "June 12 – July 3"
-#. TRANSLATORS: all-day event range spanning different months in the current year.
-#. {month_start} and {month_end} month names, {day_start} and {day_end} day numbers.
+#. TRANSLATORS: all-day event range spanning different months in the current
+#. year.
+#. {month_start} and {month_end} month names, {day_start} and {day_end} day
+#. numbers.
 #: src/utils/timeframe_label.rs:138
 #, rust-format
 msgid "{month_start} {day_start} – {month_end} {day_end}"
 msgstr "{day_start} {month_start} – {day_end} {month_end}"
 
 #. e.g. "June 12 – July 3, 2025"
-#. TRANSLATORS: all-day event range spanning different months in a past or future year.
-#. {month_start} and {month_end} month names, {day_start} and {day_end} day numbers,
+#. TRANSLATORS: all-day event range spanning different months in a past or
+#. future year.
+#. {month_start} and {month_end} month names, {day_start} and {day_end} day
+#. numbers,
 #. {year} the shared year.
 #: src/utils/timeframe_label.rs:153
 #, rust-format
@@ -659,7 +670,8 @@ msgstr "{day_start} {month_start} – {day_end} {month_end}, {year}"
 
 #. e.g. "June 12, 2024 – January 3, 2025"
 #. TRANSLATORS: all-day event range spanning different years.
-#. {month_start} and {month_end} month names, {day_start} and {day_end} day numbers,
+#. {month_start} and {month_end} month names, {day_start} and {day_end} day
+#. numbers,
 #. {year_start} and {year_end} years.
 #: src/utils/timeframe_label.rs:165
 #, rust-format
@@ -670,14 +682,16 @@ msgstr ""
 
 #. e.g. "June 12, 14:00 – 15:30"
 #. TRANSLATORS: timed event on a single day, system timezone (not shown).
-#. {month} month name, {day} day number, {time_start} and {time_end} clock times.
+#. {month} month name, {day} day number, {time_start} and {time_end} clock
+#. times.
 #: src/utils/timeframe_label.rs:267
 #, rust-format
 msgid "{month} {day}, {time_start} – {time_end}"
 msgstr "{day} {month}, {time_start} – {time_end}"
 
 #. e.g. "June 12, 14:00 (America/New_York) – 15:30 (Europe/Paris)"
-#. TRANSLATORS: timed event on a single day, each time in a different non-system
+#. TRANSLATORS: timed event on a single day, each time in a different non-
+#. system
 #. timezone. {month}, {day}, {time_start}, {time_end} as above;
 #. {tz_start} and {tz_end} the respective IANA timezones.
 #: src/utils/timeframe_label.rs:278
@@ -686,7 +700,8 @@ msgid "{month} {day}, {time_start} ({tz_start}) – {time_end} ({tz_end})"
 msgstr "{day} {month}, {time_start} ({tz_start}) – {time_end} ({tz_end})"
 
 #. e.g. "June 12, 14:00 – July 3, 15:30"
-#. TRANSLATORS: timed event spanning months within the current year, system timezone.
+#. TRANSLATORS: timed event spanning months within the current year, system
+#. timezone.
 #. {month_start}, {day_start}, {time_start} start date/time;
 #. {month_end}, {day_end}, {time_end} end date/time.
 #: src/utils/timeframe_label.rs:296
@@ -697,7 +712,8 @@ msgstr ""
 "{day_start} {month_start}, {time_start} – {day_end} {month_end}, {time_end}"
 
 #. e.g. "June 12, 14:00 (America/New_York) – July 3, 15:30 (Europe/Paris)"
-#. TRANSLATORS: cross-month current-year range; each time in a different non-system
+#. TRANSLATORS: cross-month current-year range; each time in a different non-
+#. system
 #. timezone. {month_start}, {day_start}, {time_start}, {month_end}, {day_end},
 #. {time_end} as above; {tz_start} and {tz_end} respective IANA timezones.
 #: src/utils/timeframe_label.rs:314
@@ -710,22 +726,26 @@ msgstr ""
 "{month_end}, {time_end} ({tz_end})"
 
 #. e.g. "June 12, 14:00 – July 3, 15:30, 2025"
-#. TRANSLATORS: timed event spanning months within a past or future year, system
+#. TRANSLATORS: timed event spanning months within a past or future year,
+#. system
 #. timezone. {month_start}, {day_start}, {time_start}, {month_end}, {day_end},
 #. {time_end} as above; {year} the shared year.
 #: src/utils/timeframe_label.rs:334
 #, rust-format
 msgid ""
-"{month_start} {day_start}, {time_start} – {month_end} {day_end}, {time_end}, "
-"{year}"
+"{month_start} {day_start}, {time_start} – {month_end} {day_end}, {time_end},"
+" {year}"
 msgstr ""
-"{day_start} {month_start}, {time_start} – {day_end} {month_end}, {time_end}, "
-"{year}"
+"{day_start} {month_start}, {time_start} – {day_end} {month_end}, {time_end},"
+" {year}"
 
-#. e.g. "June 12, 14:00 (America/New_York) – July 3, 15:30 (Europe/Paris), 2025"
-#. TRANSLATORS: cross-month past/future-year range; each time in a different non-system
+#. e.g. "June 12, 14:00 (America/New_York) – July 3, 15:30 (Europe/Paris),
+#. 2025"
+#. TRANSLATORS: cross-month past/future-year range; each time in a different
+#. non-system
 #. timezone. {month_start}, {day_start}, {time_start}, {month_end}, {day_end},
-#. {time_end}, {year} as above; {tz_start} and {tz_end} respective IANA timezones.
+#. {time_end}, {year} as above; {tz_start} and {tz_end} respective IANA
+#. timezones.
 #: src/utils/timeframe_label.rs:353
 #, rust-format
 msgid ""
@@ -765,7 +785,7 @@ msgstr ""
 #: src/widgets/views/agenda_view/agenda_view_row.rs:104
 #: src/widgets/views/agenda_view/agenda_view_row.rs:113
 msgid "All-day"
-msgstr "Heldag"
+msgstr "Hela dagen"
 
 #. TRANSLATORS: last day of a multiday event, eg Day 3/3
 #. {day_count} is the number of days that the event span
@@ -790,6 +810,3 @@ msgstr "%Y"
 #: src/widgets/window.rs:568 src/widgets/window.rs:577
 msgid "%0B %Y"
 msgstr "%0B %Y"
-
-#~ msgid "Remove Calendar"
-#~ msgstr "Ta bort kalender"

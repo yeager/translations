@@ -1,11 +1,9 @@
-# era — main — svenska UI
+# Era — main/po
 
-- GNOME-status före granskning: 142 översatta, 3 fuzzy, 6 oöversatta.
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/era/main/po/sv/>
-- Granskad rad: `All-day` → `Heldag`; `Delete Calendar` → `Ta bort kalender`.
-- Åtgärd: Kalenderinställningar, heldagsetiketter och borttagningsflödet översattes.
-- Ändringar: 6 ny(a) översättning(ar), 3 rättad(e) befintlig(a) sträng(ar).
-- Validering: `msgfmt --check`; Rust-platshållarna kontrollerade.
-- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
-- Slutlig lokal status: 151 översatta, 0 fuzzy, 0 oöversatta.
+- Granskad: 2026-11-23
+- Lokal statistik: 151 aktiva strängar, 0 oöversatta och 0 fuzzy.
+- Ändringar: Den Damned-Lies-genererade katalogen saknade svensk text. 142 exakta träffar från Eras aktuella svenska Git-katalog har återanvänts och kontrollerats; nio nya strängar för kalenderborttagning, heldagshändelser och kalenderstartsida är översatta manuellt.
+- Källavvikelse: Git `main` innehåller en äldre 143-strängars svensk fil som redan är komplett. Arkivets original är den nyare 151-strängarsfilen från Damned Lies.
+- Validering: `msgfmt --check` godkänd; `l10n-lint` rapporterar 0 fel. Tre informationsnotiser gäller acceleratortecken, formatsträngen `%0B %Y` och tekniska identifierare. Hunspell-undantag: `caldav`, `Calendar` och formatvariabler.
+- Ingen ändring har skickats till GNOME.
