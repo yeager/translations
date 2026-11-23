@@ -43,6 +43,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | msitools | master | po | 2 |
 | lightsoff | main | po | 1 |
 | atomix | main | po | 1 |
+| desktop-icons | master | po | 3 |
 | plymouth | main | po | 1 |
 | totem-pl-parser | master | po | 1 |
 | template-glib | main | po | 3 |
