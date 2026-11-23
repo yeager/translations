@@ -243,3 +243,12 @@ annat `Lösenord`, `Värd`, `IP-adress`, `API-token`, `Användarnamn`,
 `Verifiera SSL-certifikat` och `Webhook-hemlighet`. Samtliga sparades och
 lästes tillbaka via Lokalise API. TMX-minnet uppdaterades med de verifierade
 livevärdena och validerades utan fel (4 081 poster).
+
+## Nya omkonfigurationsbeskrivningar
+
+12 nya beskrivningar och rubriker för Foreca, SmartyPlants, Croma Infrared,
+Xiaomi Miio, Glances, Twinkly och PAJ GPS var helt oöversatta. De sparades
+med svenska tekniska termer och bevarade produktnamn. Xiaomi Miios
+`{retrieving_token_url}` bevarades oförändrad. Samtliga värden lästes tillbaka
+via Lokalise API och ersatte sina spårbara TMX-poster; valideringen godkände
+fortsatt 4 081 poster.
