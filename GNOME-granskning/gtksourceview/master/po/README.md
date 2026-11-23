@@ -1,12 +1,9 @@
-# gtksourceview — master — svenska UI
+# GtkSourceView — master/po
 
-- GNOME-status före granskning: 112 översatta, 0 fuzzy, 3 oöversatta.
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gtksourceview/master/po/sv/>
-- Granskad rad: `File has too many lines.` → `Filen har för många rader.`.
-- Åtgärd: Kodningsnamnet och två gränsvärdesfel från filinläsaren kompletterades.
-- Ändringar: 3 ny(a) översättning(ar), 0 rättad(e) befintlig(a) sträng(ar).
-- Validering: `msgfmt --check`; ASCII behålls som standardiserat kodningsnamn.
-- Dokumenterade undantag: ASCII är ett avsiktligt oförändrat standardnamn.
-- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
-- Slutlig lokal status: 115 översatta, 0 fuzzy, 0 oöversatta.
+- Aktuell POT: 115 aktiva poster. Den hämtade svenska katalogen hade 3 oöversatta och inga fuzzy-poster; den granskade filen har 0 oöversatta och 0 fuzzy.
+- Granskning: hela katalogen är radgranskad. Kodnings- och filfel är ifyllda, och syntaxmarkerings- samt färgschematexter är språkligt rättade.
+- Acceleratorer: inga `_ä`, `_å` eller `_ö` förekommer.
+- Validering: `msgfmt --check` utan fel. `l10n-lint --language sv` har 0 fel och 0 varningar; informationsnotiser gäller oförändrade tekniska namn, formatsträngar och en acceleratorplacering.
+- Hunspell: ASCII, CG, OpenGL, RPM, UTF-8 och regex är avsiktliga tekniska termer.
+- GNOME-inskick: inget.
