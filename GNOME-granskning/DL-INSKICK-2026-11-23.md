@@ -30,6 +30,7 @@ Filerna nedan var lokalt radgranskade, kompletta, fuzzy-fria och hade minst en f
 | tecla | gnome-50 | po | 1 |
 | pan | master | po | 2 |
 | cantarell-fonts | master | appstream | 2 |
+| vte | master | po | 1 |
 | plymouth | main | po | 1 |
 | totem-pl-parser | master | po | 1 |
 | template-glib | main | po | 3 |
