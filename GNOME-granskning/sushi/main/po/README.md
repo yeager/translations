@@ -1,11 +1,9 @@
-# sushi — main — svenska UI
+# Sushi — main/po
 
-- GNOME-status före granskning: 23 översatta, 0 fuzzy, 1 oöversatt.
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/sushi/main/po/sv/>
-- Granskad rad: `The GNOME Project` → `GNOME-projektet`.
-- Åtgärd: Den oöversatta metadataposten fylldes i med etablerad GNOME-terminologi.
-- Ändringar: 1 ny(a) översättning(ar), 0 rättad(e) befintlig(a) sträng(ar).
-- Validering: `msgfmt --check`; inga platshållare, acceleratorer eller markup i ändringen.
-- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
-- Slutlig lokal status: 24 översatta, 0 fuzzy, 0 oöversatta.
+- Aktuell POT: 24 aktiva poster. Den hämtade svenska katalogen hade en oöversatt post och inga fuzzy-poster; den granskade filen har 0 oöversatta och 0 fuzzy.
+- Granskning: hela katalogen är radgranskad. En ny översättning och tre tydliga språkförbättringar har gjorts, bland annat för metadatatext och felmeddelande.
+- Acceleratorer: inga `_ä`, `_å` eller `_ö` förekommer.
+- Validering: `msgfmt --check` och `l10n-lint --language sv` utan anmärkningar. Aktuell POT och den granskade katalogen har samma 24 aktiva nycklar.
+- Hunspell: endast `nautilus` saknar ordlistepost; det är ett tekniskt identifierarnamn och lämnas oförändrat. Övriga ord är godkända.
+- GNOME-inskick: inget.
