@@ -1,244 +1,60 @@
 --- epiphany.main.sv.original.po
 +++ epiphany.main.sv.reviewed.po
-@@ -13,8 +13,8 @@
- "Project-Id-Version: epiphany\n"
- "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/epiphany/issues/\n"
- "POT-Creation-Date: 2026-11-22 01:54+0000\n"
--"PO-Revision-Date: 2026-08-23 19:27+0200\n"
--"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-22 00:00+0100\n"
-+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
- "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
- "Language: sv\n"
- "MIME-Version: 1.0\n"
-@@ -881,40 +881,28 @@
- "annars FALSE (falskt)."
+@@ -1183,7 +1183,7 @@
+ #: embed/ephy-client-certificate-manager.c:313
+ #, c-format
+ msgid "Please enter PIN for %s, to authenticate at %s:%d."
+-msgstr "Ange PIN-kod för %s för att autentisera på %s:%d."
++msgstr "Ange PIN-kod för %s för att autentisera mot %s:%d."
  
- #: data/org.gnome.epiphany.gschema.xml:469
--#, fuzzy
--#| msgid "Enable history sync"
- msgid "Enable extension storage sync"
--msgstr "Aktivera synkronisering av historik"
-+msgstr "Aktivera synkronisering av tilläggslagring"
- 
- #: data/org.gnome.epiphany.gschema.xml:470
--#, fuzzy
--#| msgid "TRUE if history collection should be synced, FALSE otherwise."
- msgid "TRUE if extension storage collection should be synced, FALSE otherwise."
--msgstr ""
-+msgstr "TRUE (sant) om tilläggslagringen ska synkroniseras, annars FALSE (falskt)."
- "TRUE (sant) om historiksamling ska synkroniseras, annars FALSE (falskt)."
- 
- #: data/org.gnome.epiphany.gschema.xml:474
--#, fuzzy
--#| msgid "History sync timestamp"
- msgid "Extension storage sync timestamp"
--msgstr "Tidsstämpel för historiksynkronisering"
-+msgstr "Tidsstämpel för synkronisering av tilläggslagring"
- 
- #: data/org.gnome.epiphany.gschema.xml:475
--#, fuzzy
--#| msgid "The timestamp at which last history sync was made."
- msgid "The timestamp at which last extension storage sync was made."
--msgstr "Tidsstämpeln för när senaste synkroniseringen av historik gjordes."
-+msgstr "Tidsstämpeln för när tilläggslagringen senast synkroniserades."
- 
- #: data/org.gnome.epiphany.gschema.xml:480
--#, fuzzy
--#| msgid ""
--#| "TRUE if history collection needs to be synced for the first time, FALSE "
--#| "otherwise."
- msgid ""
- "TRUE if extension storage collection needs to be synced for the first time, "
- "FALSE otherwise."
+ #: embed/ephy-client-certificate-manager.c:321
+ #: embed/ephy-client-certificate-manager.c:445 embed/ephy-download.c:765
+@@ -2173,8 +2173,8 @@
+ "Got empty JSON response or non-array root node or smaller than 2 elements "
+ "array root node"
  msgstr ""
--"TRUE (sant) om historiksamling behöver synkroniseras för första gången, "
-+"TRUE (sant) om tilläggslagringen behöver synkroniseras för första gången, "
- "annars FALSE (falskt)."
+-"Erhöll tomt JSON-svar eller rotnod som inte är array eller rotnod som är "
+-"mindre än tvåelementsarray"
++"Erhöll ett tomt JSON-svar, en rotnod som inte är en vektor eller en rotnod "
++"i en vektor med färre än två element"
  
- #: data/org.gnome.epiphany.gschema.xml:484
-@@ -937,13 +925,15 @@
+ #. TRANSLATORS: The first %s is the URL for the search suggestions and the second one is raw JSON content.
+ #: lib/ephy-search-engine.c:525 lib/ephy-search-engine.c:540
+@@ -2448,7 +2448,7 @@
+ #: src/bookmarks/ephy-bookmarks-dialog.c:851 src/ephy-window.c:1014
+ #: src/preferences/prefs-features-page.c:277
+ msgid "_Undo"
+-msgstr "_Ångra"
++msgstr "Å_ngra"
  
- #: data/org.gnome.epiphany.gschema.xml:494
- msgid "Enable sync change logging to disk"
--msgstr ""
-+msgstr "Aktivera loggning av synkroniseringsändringar till disk"
+ #: src/bookmarks/ephy-bookmarks-import.c:128
+ #, c-format
+@@ -2654,8 +2654,8 @@
+ #, c-format
+ msgid "%u min"
+ msgid_plural "%u mins"
+-msgstr[0] "%u min"
+-msgstr[1] "%u min"
++msgstr[0] "%u minut"
++msgstr[1] "%u minuter"
  
- #: data/org.gnome.epiphany.gschema.xml:495
- msgid ""
- "Whether to log detailed sync record changes to sync-changes.log in the "
- "profile directory for debugging."
- msgstr ""
-+"Huruvida detaljerade ändringar i synkroniseringsposter ska loggas till "
-+"sync-changes.log i profilkatalogen för felsökning."
+ #: src/ephy-header-bar.c:200
+ msgid "Exit Fullscreen"
+@@ -3064,7 +3064,7 @@
  
- #: data/org.gnome.epiphany.gschema.xml:506
- msgid "Decision to apply when microphone permission is requested for this host"
-@@ -2204,14 +2194,12 @@
- msgstr "Kunde inte hämta sökmotorbeskrivningsfil för %s: "
+ #: src/ephy-window.c:1071
+ msgid "_Page Source"
+-msgstr "Sidk_älla"
++msgstr "Sid_källa"
  
- #: lib/ephy-opensearch-engine.c:533
--#, fuzzy, c-format
--#| msgid "Couldn't download search engine description file for %s: "
- msgid "Couldn't download search engine description file for %s: file is empty"
--msgstr "Kunde inte hämta sökmotorbeskrivningsfil för %s: "
-+msgstr "Kunde inte hämta sökmotorbeskrivningsfilen för %s: filen är tom"
+ #: src/ephy-window.c:1451
+ #, c-format
+@@ -3524,7 +3524,7 @@
  
- #: lib/ephy-opensearch-engine.c:586
- msgid "Invalid OpenSearch URL"
--msgstr ""
-+msgstr "Ogiltig OpenSearch-URL"
+ #: src/preferences/prefs-search-engine-page.c:216
+ msgid "Search shortcuts should start with a symbol such as !, # or @."
+-msgstr "Sökgenvägar ska börja med en symbol såsom !, # eller @."
++msgstr "Sökgenvägar ska börja med en symbol, exempelvis !, # eller @."
  
- #. TRANSLATORS: The %s is the URL for the search suggestions.
- #: lib/ephy-search-engine.c:492
-@@ -2240,10 +2228,8 @@
- msgstr "Kunde inte tolka JSON-förslag från %s med JSON %s: "
- 
- #: lib/ephy-search-engine.c:617
--#, fuzzy, c-format
--#| msgid "Enable search suggestions in the URL entry"
- msgid "Invalid search suggestions URL: %s"
--msgstr "Aktivera sökförslag i URL-fältet"
-+msgstr "Ogiltig URL för sökförslag: %s"
- 
- #. Translators: First %s is the name of the user currently logged in on the
- #. * machine. The second %s is the machine's name. You can use the variables
-@@ -2683,7 +2669,7 @@
- 
- #: src/ephy-firefox-sync-dialog.c:931
- msgid "Firefox Sync client ID is not configured."
--msgstr ""
-+msgstr "Klient-ID för Firefox Sync är inte konfigurerat."
- 
- #. Translators: this is a number of minutes
- #: src/ephy-firefox-sync-dialog.c:1066
-@@ -2930,16 +2916,12 @@
- msgstr "_Avinstallera"
- 
- #: src/ephy-shell.c:570
--#, fuzzy
--#| msgid "Sign _Out"
- msgid "Sign In"
--msgstr "Logga _ut"
-+msgstr "Logga in"
- 
- #: src/ephy-shell.c:1748 src/webextension/ephy-web-extension-manager.c:213
--#, fuzzy, c-format
--#| msgid "Failed to parse manifest.json: %s"
- msgid "Failed to load extension %s: %s"
--msgstr "Misslyckades med att tolka manifest.json: %s"
-+msgstr "Misslyckades med att läsa in tillägget %s: %s"
- 
- #: src/ephy-site-menu-button.c:276 src/resources/gtk/site-menu-button.blp:40
- msgid "Edit _Bookmark…"
-@@ -3317,11 +3299,8 @@
- msgstr "Hämtning startad"
- 
- #: src/ephy-window.c:4206
--#, fuzzy
--#| msgctxt "shortcuts dialog"
--#| msgid "Open File"
- msgid "_Open Folder"
--msgstr "Öppna fil"
-+msgstr "Öppna _mapp"
- 
- #: src/ephy-window.c:4280
- msgid "Save Password?"
-@@ -3470,10 +3449,8 @@
- msgstr "Mörk"
- 
- #: src/preferences/prefs-extensions-page.c:94
--#, fuzzy, c-format
--#| msgid "Failed to parse manifest.json: %s"
- msgid "Failed to load extension: %s"
--msgstr "Misslyckades med att tolka manifest.json: %s"
-+msgstr "Misslyckades med att läsa in tillägget: %s"
- 
- #: src/preferences/prefs-extensions-page.c:128
- msgid "Install WebExtension?"
-@@ -3847,8 +3824,6 @@
- msgstr "_Rensa data"
- 
- #: src/resources/gtk/clear-data-view.blp:78
--#, fuzzy
--#| msgid "Remove selected website data"
- msgid "Remove Selected Website Data"
- msgstr "Ta bort valda webbplatsdata"
- 
-@@ -3966,8 +3941,6 @@
- msgstr "Frekvens"
- 
- #: src/resources/gtk/firefox-sync-dialog.blp:102
--#, fuzzy
--#| msgid "Device name"
- msgid "Device Name"
- msgstr "Enhetsnamn"
- 
-@@ -4269,13 +4242,11 @@
- 
- #: src/resources/gtk/prefs-general-page.blp:115
- msgid "Ask _Where to Save Files Before Downloading"
--msgstr ""
-+msgstr "Fråga _var filer ska sparas före hämtning"
- 
- #: src/resources/gtk/prefs-general-page.blp:121
--#, fuzzy
--#| msgid "_Download Folder"
- msgid "Default Download _Folder"
--msgstr "_Hämtningsmapp"
-+msgstr "Standard_hämtningsmapp"
- 
- #: src/resources/gtk/prefs-general-page.blp:161
- msgid "Search Engine"
-@@ -4306,10 +4277,8 @@
- msgstr "Mus_gester"
- 
- #: src/resources/gtk/prefs-general-page.blp:196
--#, fuzzy
--#| msgid "S_witch Immediately to New Tabs"
- msgid "Switch Immediately to New _Tabs"
--msgstr "Vä_xla omedelbart till nya flikar"
-+msgstr "Växla omedelbart till nya _flikar"
- 
- #: src/resources/gtk/prefs-general-page.blp:201
- msgid "Touch _Navigation Gestures"
-@@ -4936,34 +4905,24 @@
- msgstr "Misslyckades med att avgöra initierande URI"
- 
- #: src/webextension/ephy-web-extension-manager.c:592
--#, fuzzy, c-format
--#| msgid "Could not display help: %s"
- msgid "Could not open archive: %s"
--msgstr "Kunde inte visa hjälp: %s"
-+msgstr "Kunde inte öppna arkivet: %s"
- 
- #: src/webextension/ephy-web-extension-manager.c:612
--#, fuzzy, c-format
--#| msgid "Error removing file %s: %s"
- msgid "Error extracting archive: %s"
--msgstr "Fel vid borttagning av filen %s: %s"
-+msgstr "Fel vid extrahering av arkiv: %s"
- 
- #: src/webextension/ephy-web-extension-manager.c:627
--#, fuzzy, c-format
--#| msgid "Could not display help: %s"
- msgid "Could not copy archive data: %s"
--msgstr "Kunde inte visa hjälp: %s"
-+msgstr "Kunde inte kopiera arkivdata: %s"
- 
- #: src/webextension/ephy-web-extension-manager.c:637
--#, fuzzy, c-format
--#| msgid "Could not display help: %s"
- msgid "Could not finish archive: %s"
--msgstr "Kunde inte visa hjälp: %s"
-+msgstr "Kunde inte slutföra arkivet: %s"
- 
- #: src/webextension/ephy-web-extension-manager.c:699
--#, fuzzy
--#| msgid "No Extensions Installed"
- msgid "WebExtensions are disabled"
--msgstr "Inga tillägg installerade"
-+msgstr "WebExtensions är inaktiverade"
- 
- #: src/window-commands.c:132
- msgid "HTML File"
+ #: src/preferences/prefs-search-engine-page.c:226
+ msgid "Shortcut (for example !ddg)"
