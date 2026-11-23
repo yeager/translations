@@ -263,6 +263,12 @@ ena saknade korrekt verbform. De normaliserades till `iZone-kontrollen` med
 svenska satser, medan `{host}` bevarades. Värdena sparades och lästes tillbaka
 via Lokalise API; TMX-valideringen godkände 4 086 poster.
 
+## TP-Link Omada: PoE-effekt
+
+Omadas sensor `Port {port_name} PoE power` hade särskrivningen `PoE effekt`.
+Den rättades till `Port {port_name}: PoE-effekt`; platshållaren bevarades,
+värdet lästes tillbaka från Lokalise och TMX-valideringen godkände 4 087 poster.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
