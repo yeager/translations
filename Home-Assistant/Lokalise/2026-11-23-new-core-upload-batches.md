@@ -208,3 +208,11 @@ Teslemetrys fordonsfält `Battery range` avvek med `Batteriets räckvidd`,
 medan motsvarande Tesla Fleet- och Tessie-fält använder `Batteriräckvidd`.
 Teslemetry normaliserades till `Batteriräckvidd`, sparades och lästes tillbaka
 via Lokalise API. TMX-valideringen godkände därefter 4 080 poster.
+
+## Batterispänning
+
+WeatherFlows sensor `Battery voltage` avvek med `Batteriets spänning`, medan
+AirGradient- och APCUPSD-sensorerna med exakt samma källtext använder den
+etablerade facktermen `Batterispänning`. WeatherFlow normaliserades till
+`Batterispänning`, sparades och lästes tillbaka via Lokalise API.
+TMX-valideringen godkände därefter 4 081 poster.
