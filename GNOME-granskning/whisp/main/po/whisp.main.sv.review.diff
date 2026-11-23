@@ -2,11 +2,11 @@
 +++ whisp.main.sv.reviewed.po
 @@ -8,8 +8,8 @@
  "Project-Id-Version: whisp main\n"
- "Report-Msgid-Bugs-To: https://github.com/tanaybhomia/Whisp/issues\n"
- "POT-Creation-Date: 2026-11-13 12:21+0000\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2026-10-13 13:41+0530\n"
 -"PO-Revision-Date: 2026-09-13 14:46+0200\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-22 00:00+0100\n"
++"PO-Revision-Date: 2026-11-23 00:00+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
  "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
  "Language: sv\n"
@@ -25,21 +25,30 @@
  #: src/whisp/dialogs/about.py:178
  msgid "Deep Dive"
 -msgstr ""
-+msgstr "Djupdykning"
++msgstr "Fördjupning"
  
  #: src/whisp/dialogs/about.py:179
  msgid "Stay focused with strict limits"
 -msgstr ""
-+msgstr "Behåll fokus med strikta gränser"
++msgstr "Håll fokus med strikta begränsningar"
  
  #: src/whisp/dialogs/about.py:182
  msgid "Manual"
-@@ -391,53 +391,53 @@
+@@ -120,7 +120,7 @@
+ 
+ #: src/whisp/dialogs/preferences.py:149
+ msgid "Apply Live Formatting globally to all notes, or remember it per note."
+-msgstr ""
++msgstr "Uppdateringar sedan ditt senaste besök"
+ "Tillämpa direkt formatering globalt på alla anteckningar, eller kom ihåg det "
+ "per anteckning."
+ 
+@@ -391,49 +391,47 @@
  #: src/whisp/dialogs/whats_new.py:51
  #, python-brace-format
  msgid "Released {date}"
 -msgstr ""
-+msgstr "Släpptes {date}"
++msgstr "Utgiven {date}"
  
  #: src/whisp/dialogs/whats_new.py:53
  msgid "Updates since your last visit"
@@ -62,7 +71,7 @@
  "<span size='small' foreground='gray'>Thanks for reading, and have a great "
  "day!</span>"
 -msgstr ""
-+msgstr "<span size='small' foreground='gray'>Tack för att du läser, och ha en fin dag!</span>"
++msgstr "<span size='small' foreground='gray'>Tack för att du läser, och ha en bra dag!</span>"
  
  #: src/whisp/dialogs/whats_new.py:178
  msgid "Full Release Notes ↗"
@@ -72,15 +81,14 @@
  #: src/whisp/dialogs/whats_new.py:202
  msgid "This release was made possible by users like you!"
 -msgstr ""
-+msgstr "Den här utgåvan blev möjlig tack vare användare som du!"
++msgstr "Den här utgåvan möjliggjordes av användare som du!"
  
  #: src/whisp/dialogs/whats_new.py:211
  msgid ""
  "I love making Whisp, but I cannot do it alone. Help support further "
  "development by donating."
- msgstr ""
-+"Jag älskar att utveckla Whisp, men jag kan inte göra det ensam. Stöd den "
-+"fortsatta utvecklingen genom att donera."
+-msgstr ""
++msgstr "Jag älskar att utveckla Whisp, men kan inte göra det ensam. Stöd den fortsatta utvecklingen genom att donera."
  
  #: src/whisp/dialogs/whats_new.py:219
 -#, fuzzy
@@ -88,47 +96,21 @@
 -msgstr "Stöd Whisp ❤️"
 +msgstr "❤ Stöd Whisp"
  
- #: src/whisp/editor.py:359
- msgid "Toggle AutoPaste clipboard collector"
--msgstr ""
-+msgstr "Växla AutoPaste-urklippsinsamlaren"
- 
- #: src/whisp/editor.py:360
+ #: src/whisp/editor.py:356
  msgid "Insert word count of current note"
 -msgstr ""
-+msgstr "Infoga antalet ord i den aktuella anteckningen"
++msgstr "Infoga antal ord i aktuell anteckning"
  
- #: src/whisp/editor.py:361 src/whisp/editor.py:365
+ #: src/whisp/editor.py:357 src/whisp/editor.py:361
  msgid "Current date"
-@@ -769,17 +769,15 @@
- 
- #: src/whisp/editor_helpers/editor_paste.py:199
- msgid "AutoPaste disabled"
--msgstr ""
-+msgstr "AutoPaste är inaktiverad"
- 
- #: src/whisp/editor_helpers/editor_paste.py:211
--#, fuzzy
--#| msgid "Restore last active note"
- msgid "AutoPaste active"
--msgstr "Återställ senast aktiva anteckning"
-+msgstr "AutoPaste är aktiv"
- 
- #: src/whisp/editor_helpers/editor_paste.py:213
- msgid "Stop"
--msgstr ""
-+msgstr "Stoppa"
- 
- #: src/whisp/editor_helpers/editor_paste.py:425
- msgid "Extracting text from image…"
-@@ -806,9 +804,8 @@
+@@ -788,9 +786,8 @@
  msgstr "Donera till Whisp"
  
- #: src/whisp/window.py:490
+ #: src/whisp/window.py:489
 -#, fuzzy
  msgid "Note pinned"
 -msgstr "Anteckning lösgjord"
 +msgstr "Anteckning fäst"
  
- #: src/whisp/window.py:521
+ #: src/whisp/window.py:520
  msgid "Note Unpinned"
