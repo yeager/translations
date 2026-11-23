@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 21:23 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 21:25 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -451,7 +451,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [gnote](https://l10n.gnome.org/vertimus/gnote/master/help/sv/) | master | 355 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [goobox](https://l10n.gnome.org/module/goobox/) | master | 149 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [goobox](https://l10n.gnome.org/module/goobox/) | master | 63 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gparted](https://l10n.gnome.org/vertimus/gparted/master/po/sv/) | master | 18 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gparted](https://l10n.gnome.org/vertimus/gparted/master/po/sv/) | master | 18 | 0 | 0 | Klar | X | 1 | Klar lokalt (2026-11-23): Aktuell 18-strängarskatalog är radgranskad mot senaste POT. En befintlig kvalitetsbrist är rättad; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](gparted/master/po/gparted.master.sv.original.po), [granskad](gparted/master/po/gparted.master.sv.reviewed.po), [diff](gparted/master/po/gparted.master.sv.review.diff), [notering](gparted/master/po/README.md) |
 | Dokumentation | Default (71% translated) | [gparted](https://l10n.gnome.org/vertimus/gparted/master/help/sv/) | master | 471 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [Graphs](https://l10n.gnome.org/vertimus/graphs/main/help/sv/) | main | 350 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [grilo](https://l10n.gnome.org/vertimus/grilo/master/po/sv/) | master | 36 | 0 | 0 | Klar |  | — | Ej granskad |

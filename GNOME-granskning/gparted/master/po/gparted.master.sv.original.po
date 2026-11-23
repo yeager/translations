@@ -1,0 +1,1956 @@
+# Swedish messages for gparted.
+# Copyright © 2004-2026 Free Software Foundation, Inc.
+# Christian Rose <menthos@menthos.com>, 2004.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2017, 2018, 2019, 2021, 2023, 2024, 2025, 2026.
+# Josef Andersson <josef.andersson@fripost.org>, 2014, 2015, 2017.
+# Luna Jernberg <droidbittin@gmail.com>, 2022.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gparted\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gparted/issues\n"
+"POT-Creation-Date: 2026-11-18 16:48+0000\n"
+"PO-Revision-Date: 2026-09-22 20:45+0200\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: gparted.appdata.xml.in:7
+msgid "GParted Partition Editor"
+msgstr "GParted partitionsredigerare"
+
+#: gparted.appdata.xml.in:8 gparted.desktop.in.in:5
+msgid "Create, reorganize, and delete partitions"
+msgstr "Skapa, organisera om och ta bort partitioner"
+
+#: gparted.appdata.xml.in:10
+msgid ""
+"GParted is a free partition editor for graphically managing your disk "
+"partitions."
+msgstr ""
+"GParted är en fri partitionsredigerare för att grafiskt hantera dina "
+"diskpartitioner."
+
+#: gparted.appdata.xml.in:14
+msgid ""
+"With GParted you can resize, copy, label, and move partitions without data "
+"loss. These actions enable you to grow or shrink your C: drive, create space "
+"for new operating systems, or attempt data rescue from lost partitions."
+msgstr ""
+"Med GParted kan du ändra storlek, kopiera, namnge och flytta partitioner "
+"utan att förlora data. Åtgärderna möjliggör att du kan utöka eller krympa "
+"din C:-disk, skapa utrymme för nya operativsystem, eller försöka att rädda "
+"data från förlorade partitioner."
+
+#: gparted.appdata.xml.in:20
+msgid ""
+"GParted works with many file systems including: bcachefs, btrfs, exfat, "
+"ext2, ext3, ext4, fat16, fat32, hfs, hfs+, linux-swap, lvm2 pv, minix, "
+"nilfs2, ntfs, reiserfs, reiser4, udf, ufs, and xfs."
+msgstr ""
+"GParted fungerar med många filsystem: bcachefs, btrfs, exfat, ext2, ext3, "
+"ext4, fat16, fat32, hfs, hfs+, linux-swap, lvm2 pv, minix, nilfs2, ntfs, "
+"reiserfs, reiser4, udf, ufs och xfs."
+
+#: gparted.appdata.xml.in:37
+msgid "The GParted Project"
+msgstr "GParted-projektet"
+
+#: gparted.desktop.in.in:2
+msgid "GParted"
+msgstr "GParted"
+
+#: gparted.desktop.in.in:3
+msgid "Partition Editor"
+msgstr "Partitionsredigerare"
+
+#: gparted.desktop.in.in:11
+msgid "Partition;"
+msgstr "Partition;"
+
+#: org.gnome.gparted.policy.in.in:11
+msgid "Run GParted as root"
+msgstr "Kör GParted som root"
+
+#: org.gnome.gparted.policy.in.in:12
+msgid "Authentication is required to run the GParted Partition Editor as root"
+msgstr "Autentisering krävs för att köra GParted partitionsredigerare som root"
+
+#: src/Dialog_Progress.cc:285
+msgid "%1 warning"
+msgid_plural "%1 warnings"
+msgstr[0] "%1 varning"
+msgstr[1] "%1 varningar"
+
+#: src/Win_GParted.cc:1093
+msgid "%1 operation pending"
+msgid_plural "%1 operations pending"
+msgstr[0] "%1 åtgärd väntar"
+msgstr[1] "%1 åtgärder väntar"
+
+#: src/Win_GParted.cc:1207
+msgid "%1 operation is currently pending."
+msgid_plural "%1 operations are currently pending."
+msgstr[0] "%1 åtgärd väntar för närvarande."
+msgstr[1] "%1 åtgärder väntar för närvarande."
+
+#: src/Win_GParted.cc:2159
+msgid "It is not possible to create more than %1 primary partition"
+msgid_plural "It is not possible to create more than %1 primary partitions"
+msgstr[0] "Det är inte möjligt att skapa fler än %1 primär partition"
+msgstr[1] "Det är inte möjligt att skapa fler än %1 primära partitioner"
+
+#. TO TRANSLATORS: Singular case looks like   1 operation is currently pending for partition /dev/sdb1
+#: src/Win_GParted.cc:3065
+msgid "%1 operation is currently pending for partition %2"
+msgid_plural "%1 operations are currently pending for partition %2"
+msgstr[0] "%1 åtgärd väntar för närvarande på partition %2"
+msgstr[1] "%1 åtgärder väntar för närvarande på partition %2"
+
+#. TO TRANSLATORS: Singular case looks like  1 partition is currently active on device /dev/sda
+#: src/Win_GParted.cc:3288
+msgid "%1 partition is currently active on device %2"
+msgid_plural "%1 partitions are currently active on device %2"
+msgstr[0] "%1 partition är för närvarande aktiv på enheten %2"
+msgstr[1] "%1 partitioner är för närvarande aktiva på enheten %2"
+
+#: src/Win_GParted.cc:3319
+msgid "%1 operation is currently pending"
+msgid_plural "%1 operations are currently pending"
+msgstr[0] "%1 åtgärd väntar för närvarande"
+msgstr[1] "%1 åtgärder väntar för närvarande"
+
+#~ msgid "(New UUID - will be randomly generated)"
+#~ msgstr "(Nytt UUID - kommer att genereras slumpmässigt)"
+
+#~ msgid "(Half new UUID - will be randomly generated)"
+#~ msgstr "(Halvt nytt UUID - kommer att genereras slumpmässigt)"
+
+#~ msgid "%1 of %2 copied"
+#~ msgstr "%1 av %2 kopierade"
+
+#~ msgid "Error opening %1"
+#~ msgstr "Fel vid öppning av %1"
+
+#~ msgid "Operation Canceled"
+#~ msgstr "Åtgärden avbröts"
+
+#~ msgid "Error while writing block at sector %1"
+#~ msgstr "Fel vid skrivning av block på sektor %1"
+
+#~ msgid "Error while reading block at sector %1"
+#~ msgstr "Fel vid läsning av block på sektor %1"
+
+#~ msgid "LUKS Passphrase %1"
+#~ msgstr "LUKS-lösenfras för %1"
+
+#~ msgid "Passphrase:"
+#~ msgstr "Lösenfras:"
+
+#~ msgid "Unlock"
+#~ msgstr "Lås upp"
+
+#~ msgid "Free space preceding (MiB):"
+#~ msgstr "Ledigt utrymme före (MiB):"
+
+#~ msgid "New size (MiB):"
+#~ msgstr "Ny storlek (MiB):"
+
+#~ msgid "Free space following (MiB):"
+#~ msgstr "Ledigt utrymme efter (MiB):"
+
+#~ msgid "Align to:"
+#~ msgstr "Justera till:"
+
+#~ msgid "Cylinder"
+#~ msgstr "Cylinder"
+
+#~ msgid "MiB"
+#~ msgstr "MiB"
+
+#~ msgid "None"
+#~ msgstr "Ingen"
+
+#~ msgid "Resize"
+#~ msgstr "Ändra storlek"
+
+#~ msgid "Resize/Move"
+#~ msgstr "Ändra storlek/Flytta"
+
+#~ msgid "Minimum size: %1 MiB"
+#~ msgstr "Minimal storlek: %1 MiB"
+
+#~ msgid "Maximum size: %1 MiB"
+#~ msgstr "Maximal storlek: %1 MiB"
+
+#~ msgid "Create partition table on %1"
+#~ msgstr "Skapa partitionstabell på %1"
+
+#~ msgid "WARNING:  This will ERASE ALL DATA on the ENTIRE DISK %1"
+#~ msgstr "VARNING:  Det här kommer att RADERA ALLT DATA på HELA DISKEN %1"
+
+#~ msgid "Select new partition table type:"
+#~ msgstr "Välj ny typ av partitionstabell:"
+
+#~ msgid "Set file system label on %1"
+#~ msgstr "Ange filsystemsetikett på %1"
+
+#~ msgid "Label:"
+#~ msgstr "Etikett:"
+
+#~ msgid "Paste %1"
+#~ msgstr "Klistra in %1"
+
+#~ msgid "Information about %1"
+#~ msgstr "Information om %1"
+
+#~ msgid "Warning:"
+#~ msgstr "Varning:"
+
+#~ msgid "File System"
+#~ msgstr "Filsystem"
+
+#~ msgid "File system:"
+#~ msgstr "Filsystem:"
+
+#~ msgid "UUID:"
+#~ msgstr "UUID:"
+
+#~ msgid "Open"
+#~ msgstr "Öppen"
+
+#~ msgid "Closed"
+#~ msgstr "Stängd"
+
+#~ msgid "Status:"
+#~ msgstr "Status:"
+
+#~ msgid "Not accessible (Encrypted)"
+#~ msgstr "Ej åtkomlig (krypterad)"
+
+#~ msgid "Busy (At least one logical partition is mounted)"
+#~ msgstr "Upptagen (åtminstone en logisk partition är monterad)"
+
+#~ msgid "Active"
+#~ msgstr "Aktiv"
+
+#~ msgid "Mounted on %1"
+#~ msgstr "Monterad på %1"
+
+#~ msgid "Not busy (There are no mounted logical partitions)"
+#~ msgstr "Inte upptagen (det finns inga monterade logiska partitioner)"
+
+#~ msgid "Not active"
+#~ msgstr "Inaktiv"
+
+#~ msgid "Not active (Not a member of any volume group)"
+#~ msgstr "Inaktiv (tillhör inte någon volymgrupp)"
+
+#~ msgid "Not active and exported"
+#~ msgstr "Inaktiv och exporterad"
+
+#~ msgid "Not mounted"
+#~ msgstr "Inte monterad"
+
+#~ msgid "Volume Group:"
+#~ msgstr "Volymgrupp:"
+
+#~ msgid "Members:"
+#~ msgstr "Medlemmar:"
+
+#~ msgid "Logical Volumes:"
+#~ msgstr "Logiska volymer:"
+
+#~ msgid "Used:"
+#~ msgstr "Använt:"
+
+#~ msgid "Unused:"
+#~ msgstr "Oanvänt:"
+
+#~ msgid "Unallocated:"
+#~ msgstr "Oallokerat:"
+
+#~ msgid "Size:"
+#~ msgstr "Storlek:"
+
+#~ msgid "Encryption"
+#~ msgstr "Kryptering"
+
+#~ msgid "Encryption:"
+#~ msgstr "Kryptering:"
+
+#~ msgid "Path:"
+#~ msgstr "Sökväg:"
+
+#~ msgid "Logical Volume"
+#~ msgstr "Logiska volymer"
+
+#~ msgid "Partition"
+#~ msgstr "Partition"
+
+#~ msgid "Name:"
+#~ msgstr "Namn:"
+
+#~ msgid "Flags:"
+#~ msgstr "Flaggor:"
+
+#~ msgid "First sector:"
+#~ msgstr "Första sektorn:"
+
+#~ msgid "Last sector:"
+#~ msgstr "Sista sektorn:"
+
+#~ msgid "Total sectors:"
+#~ msgstr "Totalt antal sektorer:"
+
+# Logisk omfattning, men verkar inte finnas vedertagen svensk översättning på förkortningen.
+#~ msgid "LE size:"
+#~ msgstr "LE-storlek:"
+
+#~ msgid "Total LE:"
+#~ msgstr "Total LE:"
+
+#~ msgid "Set partition name on %1"
+#~ msgstr "Ange partitionsnamn på %1"
+
+#~ msgid "Create new Partition"
+#~ msgstr "Skapa ny partition"
+
+#~ msgid "Create as:"
+#~ msgstr "Skapa som:"
+
+#~ msgid "Primary Partition"
+#~ msgstr "Primär partition"
+
+#~ msgid "Logical Partition"
+#~ msgstr "Logisk partition"
+
+#~ msgid "Extended Partition"
+#~ msgstr "Utökad partition"
+
+#~ msgid "Partition name:"
+#~ msgstr "Partitionsnamn:"
+
+#~ msgid "New Partition #%1"
+#~ msgstr "Ny partition nr %1"
+
+#~ msgid "Resize/Move %1"
+#~ msgstr "Ändra storlek/Flytta %1"
+
+#~ msgid "Resize %1"
+#~ msgstr "Ändra storlek på %1"
+
+#~ msgid "Applying pending operations"
+#~ msgstr "Verkställer väntande ändringar"
+
+#~ msgid ""
+#~ "Depending on the number and type of operations this might take a long "
+#~ "time."
+#~ msgstr ""
+#~ "Beroende på antalet och typen av åtgärder kan detta ta olika lång tid."
+
+#~ msgid "Completed Operations:"
+#~ msgstr "Färdiga åtgärder:"
+
+#~ msgid "Details"
+#~ msgstr "Detaljer"
+
+#~ msgid "%1 of %2 operations completed"
+#~ msgstr "%1 av %2 åtgärder färdiga"
+
+#~ msgid "_Save Details"
+#~ msgstr "_Spara detaljer"
+
+#~ msgid "Operation cancelled"
+#~ msgstr "Åtgärden avbröts"
+
+#~ msgid "All operations successfully completed"
+#~ msgstr "Alla åtgärder är färdiga"
+
+#~ msgid "An error occurred while applying the operations"
+#~ msgstr "Ett fel inträffade vid verkställandet av åtgärderna"
+
+#~ msgid "See the details for more information."
+#~ msgstr "Se detaljerna för mer information."
+
+#~ msgid "IMPORTANT"
+#~ msgstr "VIKTIGT"
+
+#~ msgid "If you want support, you need to provide the saved details!"
+#~ msgstr ""
+#~ "Om du vill ha support måste du tillhandahålla de sparade detaljerna!"
+
+#~ msgid "See %1 for more information."
+#~ msgstr "Se %1 för mer information."
+
+#~ msgid "Force Cancel (%1)"
+#~ msgstr "Tvinga avbryt (%1)"
+
+#~ msgid "Force Cancel"
+#~ msgstr "Tvinga avbryt"
+
+#~ msgid "Are you sure you want to cancel the current operation?"
+#~ msgstr "Är du säker på att du vill avbryta aktuell åtgärd?"
+
+#~ msgid "Canceling an operation might cause SEVERE file system damage."
+#~ msgstr "Avbryta en åtgärd kan orsaka ALLVARLIGA skador på filsystemet."
+
+#~ msgid "Continue Operation"
+#~ msgstr "Fortsätt åtgärd"
+
+#~ msgid "Cancel Operation"
+#~ msgstr "Avbryt åtgärd"
+
+#~ msgid "Save Details"
+#~ msgstr "Spara detaljer"
+
+#~ msgid "GParted Details"
+#~ msgstr "GParted-detaljer"
+
+#~ msgid "Device:"
+#~ msgstr "Enhet:"
+
+#~ msgid "Model:"
+#~ msgstr "Modell:"
+
+#~ msgid "Serial:"
+#~ msgstr "Serienr:"
+
+#~ msgid "Sector size:"
+#~ msgstr "Sektorstorlek:"
+
+#~ msgid "Heads:"
+#~ msgstr "Huvuden:"
+
+#~ msgid "Sectors/track:"
+#~ msgstr "Sektorer/spår:"
+
+#~ msgid "Cylinders:"
+#~ msgstr "Cylindrar:"
+
+#~ msgid "Partition table:"
+#~ msgstr "Partitionstabell:"
+
+#~ msgid "Type"
+#~ msgstr "Typ"
+
+#~ msgid "Start"
+#~ msgstr "Start"
+
+#~ msgid "End"
+#~ msgstr "Slut"
+
+#~ msgid "Flags"
+#~ msgstr "Flaggor"
+
+#~ msgid "Partition Name"
+#~ msgstr "Partitionsnamn"
+
+#~ msgid "Label"
+#~ msgstr "Etikett"
+
+#~ msgid "Mount Point"
+#~ msgstr "Monteringspunkt"
+
+#~ msgid "EXECUTING"
+#~ msgstr "KÖR"
+
+#~ msgid "SUCCESS"
+#~ msgstr "LYCKADES"
+
+#~ msgid "ERROR"
+#~ msgstr "FEL"
+
+#~ msgid "INFO"
+#~ msgstr "INFO"
+
+#~ msgid "WARNING"
+#~ msgstr "VARNING"
+
+#~ msgid "File System Support"
+#~ msgstr "Filsystemsstöd"
+
+#~ msgid "Create"
+#~ msgstr "Skapa"
+
+#~ msgid "Grow"
+#~ msgstr "Förstora"
+
+#~ msgid "Shrink"
+#~ msgstr "Förminska"
+
+#~ msgid "Move"
+#~ msgstr "Flytta"
+
+#~ msgid "Copy"
+#~ msgstr "Kopiera"
+
+#~ msgid "Check"
+#~ msgstr "Kontrollera"
+
+#~ msgid "UUID"
+#~ msgstr "UUID"
+
+#~ msgid "Required Software"
+#~ msgstr "Nödvändig programvara"
+
+#~ msgid "This chart shows the actions supported on file systems."
+#~ msgstr "Detta diagram visar åtgärderna som stöds på filsystem."
+
+#~ msgid ""
+#~ "Not all actions are available on all file systems, in part due to the "
+#~ "nature of file systems and limitations in the required software."
+#~ msgstr ""
+#~ "Inte alla åtgärder finns tillgängliga på alla filsystem. Detta på grund "
+#~ "av filsystemens design samt begränsningar i den nödvändiga programvaran."
+
+#~ msgid "Available offline and online"
+#~ msgstr "Tillgänglig avmonterad och monterad"
+
+#~ msgid "Available online only"
+#~ msgstr "Endast tillgänglig monterad"
+
+#~ msgid "Available offline only"
+#~ msgstr "Endast tillgänglig avmonterad"
+
+#~ msgid "Not Available"
+#~ msgstr "Inte tillgänglig"
+
+#~ msgid "Legend"
+#~ msgstr "Förklaring"
+
+#~ msgid "Rescan For Supported Actions"
+#~ msgstr "Sök åter efter åtgärder som stöds"
+
+#~ msgid "Manage flags on %1"
+#~ msgstr "Hantera flaggor på %1"
+
+#~ msgid "create missing %1 entries"
+#~ msgstr "skapa saknade %1-poster"
+
+#~ msgid "delete affected %1 entries"
+#~ msgstr "ta bort påverkade %1-poster"
+
+#~ msgid "delete %1 entry"
+#~ msgstr "ta bort %1-post"
+
+#~ msgid "update %1 entry"
+#~ msgstr "uppdatera %1-post"
+
+#~ msgid "Created directory %1"
+#~ msgstr "Skapade katalogen %1"
+
+#~ msgid "_Mount"
+#~ msgstr "_Montera"
+
+#~ msgid "_Unmount"
+#~ msgstr "_Avmontera"
+
+#~ msgid "Removed directory %1"
+#~ msgstr "Tog bort katalogen %1"
+
+#~ msgid "GParted Bug"
+#~ msgstr "GParted-fel"
+
+#~ msgid "Scanning %1"
+#~ msgstr "Söker av %1"
+
+#~ msgid "Confirming %1"
+#~ msgstr "Bekräftar %1"
+
+#~ msgid "Scanning LVM"
+#~ msgstr "Söker av LVM"
+
+#~ msgid "Searching %1 partitions"
+#~ msgstr "Söker av partitioner på %1"
+
+#~ msgid "Searching %1 logical volumes"
+#~ msgstr "Söker av %1 logiska volymer"
+
+#~ msgid "A partition cannot start (%1) before the start of the device"
+#~ msgstr "En partition kan inte påbörjas (%1) innan enhetens början"
+
+#~ msgid "A partition cannot end (%1) after the end of the device (%2)"
+#~ msgstr "En partition kan inte ta slut (%1) efter enhetens slut (%2)"
+
+#~ msgid "A partition cannot have a length of %1 sectors"
+#~ msgstr "En partition kan inte ha en längd på %1 sektorer"
+
+#~ msgid ""
+#~ "A partition with used sectors (%1) greater than its length (%2) is not "
+#~ "valid"
+#~ msgstr ""
+#~ "En partition med använda sektorer (%1) som är större än dess längd (%2) "
+#~ "är inte giltig"
+
+#~ msgid "unrecognized"
+#~ msgstr "okänt"
+
+#~ msgid "Unable to detect file system! Possible reasons are:"
+#~ msgstr "Kunde inte identifiera filsystemet! Möjliga anledningar är:"
+
+#~ msgid "The file system is damaged"
+#~ msgstr "Filsystemet är skadat"
+
+#~ msgid "The file system is unknown to GParted"
+#~ msgstr "Filsystemet är okänt för GParted"
+
+#~ msgid "There is no file system available (unformatted)"
+#~ msgstr "Det finns inget filsystem tillgängligt (oformaterat)"
+
+#~ msgid "The device entry %1 is missing"
+#~ msgstr "Enhetsposten %1 saknas"
+
+#~ msgid ""
+#~ "UEFI firmware does not support booting from a logical EFI System "
+#~ "Partition (ESP)"
+#~ msgstr ""
+#~ "Fast UEFI-programvara stöder inte uppstart från en logisk EFI-"
+#~ "systempartition (ESP)"
+
+#~ msgid "Unable to find mount point"
+#~ msgstr "Kunde inte hitta monteringspunkt"
+
+#~ msgid "Unable to read the contents of this file system!"
+#~ msgstr "Kunde inte läsa innehållet på detta filsystem!"
+
+#~ msgid "Because of this some operations may be unavailable."
+#~ msgstr "På grund av detta kan vissa åtgärder inte vara tillgängliga."
+
+#~ msgid "The cause might be a missing software package."
+#~ msgstr "Orsaken kan vara saknade programpaket."
+
+#~ msgid ""
+#~ "The following list of software packages is required for %1 file system "
+#~ "support:  %2."
+#~ msgstr ""
+#~ "Följande lista över programpaket krävs för stöd för %1-filsystemet:  %2."
+
+#~ msgid "%1 of unallocated space within the partition."
+#~ msgstr "%1 av oanvänt utrymme i partitionen."
+
+#~ msgid ""
+#~ "To grow the file system to fill the partition, select the partition and "
+#~ "choose the menu item:"
+#~ msgstr ""
+#~ "För att utöka filsystemet till att fylla partitionen, markera partitionen "
+#~ "och välj menyobjektet:"
+
+#~ msgid "Partition --> Check."
+#~ msgstr "Partition--> kontrollera."
+
+#~ msgid "create empty partition"
+#~ msgstr "skapa tom partition"
+
+#~ msgid "path: %1 (%2)"
+#~ msgstr "sökväg: %1 (%2)"
+
+#~ msgid "partition"
+#~ msgstr "partition"
+
+#~ msgid "start: %1"
+#~ msgstr "start: %1"
+
+#~ msgid "end: %1"
+#~ msgstr "slut: %1"
+
+#~ msgid "size: %1 (%2)"
+#~ msgstr "storlek: %1 (%2)"
+
+#~ msgid ""
+#~ "partition contains open LUKS encryption for a create file system only step"
+#~ msgstr ""
+#~ "partitionen innehåller öppen LUKS-kryptering för steget endast skapa "
+#~ "filsystem"
+
+#~ msgid "create new %1 file system"
+#~ msgstr "skapa nytt %1-filsystem"
+
+#~ msgid ""
+#~ "partition contains open LUKS encryption for a format file system only step"
+#~ msgstr ""
+#~ "partitionen innehåller öppen LUKS-kryptering för steget endast formatera "
+#~ "filsystem"
+
+#~ msgid "delete partition"
+#~ msgstr "ta bort partition"
+
+#~ msgid ""
+#~ "partition contains open LUKS encryption for a delete file system only step"
+#~ msgstr ""
+#~ "partitionen innehåller öppen LUKS-kryptering för steget endast ta bort "
+#~ "filsystem"
+
+#~ msgid "delete %1 file system"
+#~ msgstr "ta bort %1-filsystem"
+
+#~ msgid ""
+#~ "partition contains open LUKS encryption for a label file system only step"
+#~ msgstr ""
+#~ "partitionen innehåller öppen LUKS-kryptering för steget endast sätta "
+#~ "etikett på filsystem"
+
+#~ msgid "Clear file system label on %1"
+#~ msgstr "Rensa filsystemsetikett på %1"
+
+#~ msgid "Set file system label to \"%1\" on %2"
+#~ msgstr "Sätt filsystemsetiketten till ”%1” på %2"
+
+#~ msgid "Clear partition name on %1"
+#~ msgstr "Rensa partitionsnamnet på %1"
+
+#~ msgid "Set partition name to \"%1\" on %2"
+#~ msgstr "Sätt partitionsnamnet till ”%1” på %2"
+
+#~ msgid ""
+#~ "partition contains open LUKS encryption for a change file system UUID "
+#~ "only step"
+#~ msgstr ""
+#~ "partitionen innehåller öppen LUKS-kryptering för steget endast ändra "
+#~ "filsystems-UUID"
+
+#~ msgid "Set half of the UUID on %1 to a new, random value"
+#~ msgstr "Sätt halva UUID på %1 till en nytt slumpmässigt värde"
+
+#~ msgid "Set UUID on %1 to a new, random value"
+#~ msgstr "Sätt UUID på %1 till ett nytt slumpmässigt värde"
+
+#~ msgid "size of the partition is changing for a move only step"
+#~ msgstr "storleken på partitionen ändras i steget för att flytta"
+
+#~ msgid "rollback last change to the partition"
+#~ msgstr "rulla tillbaka senaste ändring för partitionen"
+
+#~ msgid "move file system to the left"
+#~ msgstr "flytta filsystemet åt vänster"
+
+#~ msgid "move file system to the right"
+#~ msgstr "flytta filsystemet åt höger"
+
+#~ msgid "move file system"
+#~ msgstr "flytta filsystem"
+
+#~ msgid ""
+#~ "new and old file system have the same position.  Hence skipping this "
+#~ "operation"
+#~ msgstr ""
+#~ "nytt och gammalt filsystem har samma position.  Hoppar över denna åtgärd"
+
+#~ msgid "using libparted"
+#~ msgstr "använder libparted"
+
+#~ msgid "start of the partition is changing for a resize only step"
+#~ msgstr "början på partitionen ändras i steget för att ändra storlek"
+
+#~ msgid ""
+#~ "partition does not contain LUKS encryption for a resize encryption only "
+#~ "step"
+#~ msgstr ""
+#~ "partitionen innehåller ej en LUKS-kryptering för steget endast ändra "
+#~ "storlek på kryptering"
+
+#~ msgid "impossible to shrink a closed LUKS encryption volume"
+#~ msgstr "omöjligt att krympa en stängd LUKS-krypteringsvolym"
+
+#~ msgid ""
+#~ "partition contains open LUKS encryption for a resize file system only step"
+#~ msgstr ""
+#~ "partitionen innehåller öppen LUKS-kryptering för steget endast ändra "
+#~ "storlek på filsystem"
+
+#~ msgid "resize/move partition"
+#~ msgstr "ändra storlek/flytta på partition"
+
+#~ msgid "move partition to the right"
+#~ msgstr "flytta partitionen åt höger"
+
+#~ msgid "move partition to the left"
+#~ msgstr "flytta partitionen åt vänster"
+
+#~ msgid "grow partition from %1 to %2"
+#~ msgstr "förstora partitionen från %1 till %2"
+
+#~ msgid "shrink partition from %1 to %2"
+#~ msgstr "förminska partitionen från %1 till %2"
+
+#~ msgid "move partition to the right and grow it from %1 to %2"
+#~ msgstr "flytta partitionen till höger och förstora den från %1 till %2"
+
+#~ msgid "move partition to the right and shrink it from %1 to %2"
+#~ msgstr "flytta partitionen till höger och förminska den från %1 till %2"
+
+#~ msgid "move partition to the left and grow it from %1 to %2"
+#~ msgstr "flytta partitionen till vänster och förstora den från %1 till %2"
+
+#~ msgid "move partition to the left and shrink it from %1 to %2"
+#~ msgstr "flytta partitionen till vänster och förminska den från %1 till %2"
+
+#~ msgid ""
+#~ "new and old partition have the same size and position.  Hence skipping "
+#~ "this operation"
+#~ msgstr ""
+#~ "ny och gammal partition har samma storlek och position. Hoppar över denna "
+#~ "åtgärd"
+
+#~ msgid "old start: %1"
+#~ msgstr "gammal start: %1"
+
+#~ msgid "old end: %1"
+#~ msgstr "gammalt slut: %1"
+
+#~ msgid "old size: %1 (%2)"
+#~ msgstr "gammal storlek: %1 (%2)"
+
+#~ msgid "new start: %1"
+#~ msgstr "ny start: %1"
+
+#~ msgid "new end: %1"
+#~ msgstr "nytt slut: %1"
+
+#~ msgid "new size: %1 (%2)"
+#~ msgstr "ny storlek: %1 (%2)"
+
+#~ msgid "requested start: %1"
+#~ msgstr "begärd start: %1"
+
+#~ msgid "requested end: %1"
+#~ msgstr "begärt slut: %1"
+
+#~ msgid "requested size: %1 (%2)"
+#~ msgstr "begärd storlek: %1 (%2)"
+
+#~ msgid "attempt to rollback failed change to the partition"
+#~ msgstr "försök att rulla tillbaka misslyckad ändring för partitionen"
+
+#~ msgid "original start: %1"
+#~ msgstr "ursprunglig start: %1"
+
+#~ msgid "original end: %1"
+#~ msgstr "ursprungligt slut: %1"
+
+#~ msgid "original size: %1 (%2)"
+#~ msgstr "ursprunglig storlek: %1 (%2)"
+
+#~ msgid ""
+#~ "partition does not contain open LUKS encryption for a shrink encryption "
+#~ "only step"
+#~ msgstr ""
+#~ "partitionen innehåller ej en öppen LUKS-kryptering för steget endast "
+#~ "minska kryptering"
+
+#~ msgid "shrink encryption volume"
+#~ msgstr "minska krypteringsvolym"
+
+#~ msgid ""
+#~ "partition does not contain LUKS encryption for a maximize encryption only "
+#~ "step"
+#~ msgstr ""
+#~ "partitionen innehåller ej en LUKS-kryptering för steget endast maximera "
+#~ "kryptering"
+
+#~ msgid "grow encryption volume to fill the partition"
+#~ msgstr "förstora krypteringsvolymen för att fylla upp partitionen"
+
+#~ msgid "growing is not available for this encryption volume"
+#~ msgstr "att växa är inte tillgängligt för denna krypteringsvolym"
+
+#~ msgid ""
+#~ "partition contains open LUKS encryption for a shrink file system only step"
+#~ msgstr ""
+#~ "partitionen innehåller öppen LUKS-kryptering för steget endast minska "
+#~ "filsystem"
+
+#~ msgid "the new partition size is larger or the same for a shrink only step"
+#~ msgstr ""
+#~ "den nya partitionsstorleken är större eller samma i steget för att "
+#~ "förminska"
+
+#~ msgid "shrink file system"
+#~ msgstr "förminska filsystem"
+
+#~ msgid ""
+#~ "partition contains open LUKS encryption for a maximize file system only "
+#~ "step"
+#~ msgstr ""
+#~ "partitionen innehåller öppen LUKS-kryptering för steget endast maximera "
+#~ "filsystem"
+
+#~ msgid "grow file system to fill the partition"
+#~ msgstr "förstora filsystemet för att fylla upp partitionen"
+
+#~ msgid "growing is not available for this file system"
+#~ msgstr "storleksförändring är inte tillgängligt för detta filsystem"
+
+#~ msgid "growing the file system is currently disallowed"
+#~ msgstr "att utöka filsystemet är för närvarande inte tillåtet"
+
+#~ msgid "not a %1 file system for a recreate %1 only step"
+#~ msgstr "inte ett %1-filsystem för steget återskapa endast %1"
+
+#~ msgid "recreate %1 file system"
+#~ msgstr "återskapa %1-filsystem"
+
+#~ msgid "the destination is smaller than the source partition"
+#~ msgstr "destinationen är mindre än källpartitionen"
+
+#~ msgid ""
+#~ "source partition contains open LUKS encryption for a file system copy "
+#~ "only step"
+#~ msgstr ""
+#~ "källpartitionen innehåller öppen LUKS-kryptering för steget kopiera "
+#~ "endast filsystem"
+
+#~ msgid ""
+#~ "destination partition contains open LUKS encryption for a file system "
+#~ "copy only step"
+#~ msgstr ""
+#~ "destinationspartitionen innehåller öppen LUKS-kryptering för steget "
+#~ "endast kopiera filsystem"
+
+#~ msgid "copy file system from %1 to %2"
+#~ msgstr "kopiera filsystemet på %1 till %2"
+
+#~ msgid "using internal algorithm"
+#~ msgstr "använder intern algoritm"
+
+#~ msgid "copy %1"
+#~ msgstr "kopiera %1"
+
+#~ msgid "finding optimal block size"
+#~ msgstr "letar efter optimal blockstorlek"
+
+#~ msgid "copy %1 using a block size of %2"
+#~ msgstr "kopiera %1 med en blockstorlek på %2"
+
+#~ msgid "%1 seconds"
+#~ msgstr "%1 sekunder"
+
+#~ msgid "optimal block size is %1"
+#~ msgstr "optimal blockstorlek är %1"
+
+#~ msgid "%1 (%2 B) copied"
+#~ msgstr "%1 (%2 B) kopierat"
+
+#~ msgid "rollback failed file system move"
+#~ msgstr "rulla tillbaka misslyckad förflyttning av filsystem"
+
+#~ msgid ""
+#~ "partition contains open LUKS encryption for a check file system only step"
+#~ msgstr ""
+#~ "partitionen innehåller öppen LUKS-kryptering för steget endast "
+#~ "kontrollera filsystem"
+
+#~ msgid "check file system on %1 for errors and (if possible) fix them"
+#~ msgstr ""
+#~ "kontrollera filsystemet på %1 efter fel och korrigera dem (om möjligt)"
+
+#~ msgid "checking is not available for this file system"
+#~ msgstr "kontroll är inte tillgänglig för detta filsystem"
+
+#~ msgid "set partition type on %1"
+#~ msgstr "ställ in partitionstyp på %1"
+
+#~ msgid "new partition flag: %1"
+#~ msgstr "ny partitionsflagga: %1"
+
+#~ msgid "new partition type: %1"
+#~ msgstr "ny partitionstyp: %1"
+
+#~ msgid "calibrate %1"
+#~ msgstr "kalibrera %1"
+
+#~ msgid "logical volume"
+#~ msgstr "logisk volym"
+
+#~ msgid "encryption path: %1"
+#~ msgstr "krypteringssökväg: %1"
+
+#~ msgid "device"
+#~ msgstr "enhet"
+
+#~ msgid "calculate new size and position of %1"
+#~ msgstr "beräkna ny storlek och position för %1"
+
+#~ msgid ""
+#~ "partition contains open LUKS encryption for an erase file system "
+#~ "signatures only step"
+#~ msgstr ""
+#~ "partitionen innehåller öppen LUKS-kryptering för steget endast ta bort "
+#~ "systemsignaturer"
+
+#~ msgid "clear old file system signatures in %1"
+#~ msgstr "rensa gamla filsystemsignaturer i %1"
+
+#~ msgid "flush operating system cache of %1"
+#~ msgstr "töm operativsystemscachen på %1"
+
+#~ msgid "update boot sector of %1 file system on %2"
+#~ msgstr "uppdatera uppstartssektor på %1-filsystemet på %2"
+
+#~ msgid ""
+#~ "Partition start (%1) is beyond sector 4294967295 (2^32-1).\n"
+#~ "Windows will not be able to boot from this file system."
+#~ msgstr ""
+#~ "Partitionsstart (%1) är bortom sektor 4294967295 (2^32-1).\n"
+#~ "Windows kommer inte kunna starta från detta filsystem."
+
+#~ msgid "Error trying to open %1"
+#~ msgstr "Fel vid försök att öppna %1"
+
+#~ msgid "Error trying to seek to position 0x1c in %1"
+#~ msgstr "Fel vid försök att söka position 0x1c på %1"
+
+#~ msgid "Error trying to write to boot sector in %1"
+#~ msgstr "Fel vid försök att skriva till uppstartssektor på %1"
+
+#~ msgid "libparted messages"
+#~ msgstr "libparted-meddelande"
+
+#~ msgid "Libparted Information"
+#~ msgstr "Libparted-information"
+
+#~ msgid "Libparted Warning"
+#~ msgstr "Libparted-varning"
+
+#~ msgid "Libparted Error"
+#~ msgstr "Libparted-fel"
+
+#~ msgid "Libparted Fatal"
+#~ msgstr "Libparted ödesdiger"
+
+#~ msgid "Libparted Bug"
+#~ msgstr "Libparted bugg"
+
+#~ msgid "Libparted Unsupported Feature"
+#~ msgstr "Libparted-egenskap som inte stöds"
+
+#~ msgid "Libparted unknown exception"
+#~ msgstr "Libparted okänt undantag"
+
+#~ msgid "Fix"
+#~ msgstr "Korrigera"
+
+#~ msgid "Yes"
+#~ msgstr "Ja"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "Retry"
+#~ msgstr "Försök igen"
+
+#~ msgid "No"
+#~ msgstr "Nej"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignorera"
+
+#~ msgid "_Undo Last Operation"
+#~ msgstr "Å_ngra den senaste åtgärden"
+
+#~ msgid "_Clear All Operations"
+#~ msgstr "_Töm alla åtgärder"
+
+#~ msgid "_Apply All Operations"
+#~ msgstr "_Verkställ alla åtgärder"
+
+#~ msgid ""
+#~ "One or more Physical Volumes belonging to the Volume Group is missing."
+#~ msgstr "En eller flera fysiska volymer tillhörande volymgruppen saknas."
+
+#~ msgid "An error occurred reading LVM2 configuration!"
+#~ msgstr "Ett fel inträffade vid läsning av LVM2-konfigurationen!"
+
+#~ msgid "Some or all of the details might be missing or incorrect."
+#~ msgstr "Några eller alla detaljer kan saknas eller vara inkorrekta."
+
+#~ msgid "You should NOT modify any LVM2 PV partitions."
+#~ msgstr "Du borde INTE modifiera några LVM2 PV-partitioner."
+
+#~ msgid "Set half the UUID to a new random value on %1 file system on %2"
+#~ msgstr ""
+#~ "Sätt halva UUID till ett nytt slumpmässigt värde på %1-filsystemet på %2"
+
+#~ msgid "Set a new random UUID on %1 file system on %2"
+#~ msgstr "Sätt ett nytt slumpmässigt UUID på %1-filsystemet på %2"
+
+#~ msgid "Copy %1 to %2 (start at %3)"
+#~ msgstr "Kopiera %1 till %2 (börja vid %3)"
+
+#~ msgid "Copy %1 to %2"
+#~ msgstr "Kopiera %1 till %2"
+
+#~ msgid "Check and repair file system (%1) on %2"
+#~ msgstr "Kontrollera och reparera filsystemet (%1) på %2"
+
+#~ msgid "Create %1 #%2 (%3, %4) on %5"
+#~ msgstr "Skapa %1 nr %2 (%3, %4) på %5"
+
+#~ msgid "Delete %1 (%2, %3) from %4"
+#~ msgstr "Ta bort %1 (%2, %3) från %4"
+
+#~ msgid "Format %1 as %2"
+#~ msgstr "Formatera %1 som %2"
+
+#~ msgid "Set file system label \"%1\" on %2"
+#~ msgstr "Sätt partitionsetiketten ”%1” på %2"
+
+#~ msgid "Set partition name \"%1\" on %2"
+#~ msgstr "Sätt partitionsetiketten ”%1” på %2"
+
+#~ msgid "resize/move %1"
+#~ msgstr "ändra storlek/flytta %1"
+
+#~ msgid ""
+#~ "new and old partition have the same size and position.  Hence continuing "
+#~ "anyway"
+#~ msgstr ""
+#~ "ny och gammal partition har samma storlek och position. Fortsätter ändå"
+
+#~ msgid "Move %1 to the right"
+#~ msgstr "Flytta %1 till höger"
+
+#~ msgid "Move %1 to the left"
+#~ msgstr "Flytta %1 till vänster"
+
+#~ msgid "Grow %1 from %2 to %3"
+#~ msgstr "Förstora %1 från %2 till %3"
+
+#~ msgid "Shrink %1 from %2 to %3"
+#~ msgstr "Förminska %1 från %2 till %3"
+
+#~ msgid "Move %1 to the right and grow it from %2 to %3"
+#~ msgstr "Flytta %1 till höger och förstora den från %2 till %3"
+
+#~ msgid "Move %1 to the right and shrink it from %2 to %3"
+#~ msgstr "Flytta %1 till höger och förminska den från %2 till %3"
+
+#~ msgid "Move %1 to the left and grow it from %2 to %3"
+#~ msgstr "Flytta %1 till vänster och förstora den från %2 till %3"
+
+#~ msgid "Move %1 to the left and shrink it from %2 to %3"
+#~ msgstr "Flytta %1 till vänster och förminska den från %2 till %3"
+
+#~ msgid "Primary"
+#~ msgstr "Primär"
+
+#~ msgid "Logical"
+#~ msgstr "Logisk"
+
+#~ msgid "Extended"
+#~ msgstr "Utökad"
+
+#~ msgid "Unallocated"
+#~ msgstr "Oallokerat"
+
+#~ msgid "Unpartitioned"
+#~ msgstr "Opartitionerad"
+
+#~ msgid "%1 of %2 copied (%3 remaining)"
+#~ msgstr "%1 av %2 kopierade (%3 återstår)"
+
+#~ msgid "(%1 remaining)"
+#~ msgstr "(%1 återstår)"
+
+#~ msgid "Name"
+#~ msgstr "Namn"
+
+#~ msgid "Size"
+#~ msgstr "Storlek"
+
+#~ msgid "Used"
+#~ msgstr "Använt"
+
+#~ msgid "Unused"
+#~ msgstr "Oanvänt"
+
+#~ msgid "unallocated"
+#~ msgstr "oallokerat"
+
+#~ msgid "Inactive"
+#~ msgstr "Inaktiv"
+
+#~ msgid "unknown"
+#~ msgstr "okänt"
+
+#~ msgid "unformatted"
+#~ msgstr "oformaterat"
+
+#~ msgid "other"
+#~ msgstr "andra"
+
+#~ msgid "cleared"
+#~ msgstr "rensade"
+
+#~ msgid "used"
+#~ msgstr "använt"
+
+#~ msgid "unused"
+#~ msgstr "oanvänt"
+
+#~ msgid "Encrypted"
+#~ msgstr "Krypterad"
+
+#~ msgid "%1 B"
+#~ msgstr "%1 B"
+
+#~ msgid "%1 KiB"
+#~ msgstr "%1 KiB"
+
+#~ msgid "%1 MiB"
+#~ msgstr "%1 MiB"
+
+#~ msgid "%1 GiB"
+#~ msgstr "%1 GiB"
+
+#~ msgid "%1 TiB"
+#~ msgstr "%1 TiB"
+
+#~ msgid "_Refresh Devices"
+#~ msgstr "Uppdate_ra enheter"
+
+#~ msgid "_Devices"
+#~ msgstr "_Enheter"
+
+#~ msgid "_GParted"
+#~ msgstr "_GParted"
+
+#~ msgid "_Edit"
+#~ msgstr "_Redigera"
+
+#~ msgid "Device _Information"
+#~ msgstr "Enhets_information"
+
+#~ msgid "Pending _Operations"
+#~ msgstr "Väntande å_tgärder"
+
+#~ msgid "_View"
+#~ msgstr "_Visa"
+
+#~ msgid "_File System Support"
+#~ msgstr "_Filsystemsstöd"
+
+#~ msgid "_Create Partition Table"
+#~ msgstr "_Skapa partitionstabell"
+
+#~ msgid "_Device"
+#~ msgstr "_Enhet"
+
+#~ msgid "_Partition"
+#~ msgstr "_Partition"
+
+#~ msgid "_Contents"
+#~ msgstr "_Innehåll"
+
+#~ msgid "_Help"
+#~ msgstr "_Hjälp"
+
+#~ msgid "New"
+#~ msgstr "Ny"
+
+#~ msgid "Create a new partition in the selected unallocated space"
+#~ msgstr "Skapa en ny partition i det markerade oallokerade utrymmet"
+
+#~ msgid "Delete the selected partition"
+#~ msgstr "Ta bort den markerade partitionen"
+
+#~ msgid "Resize/Move the selected partition"
+#~ msgstr "Ändra storlek/Flytta den markerade partitionen"
+
+#~ msgid "Copy the selected partition to the clipboard"
+#~ msgstr "Kopiera den markerade partitionen till urklipp"
+
+#~ msgid "Paste the partition from the clipboard"
+#~ msgstr "Klistra in partitionen från urklipp"
+
+#~ msgid "Undo Last Operation"
+#~ msgstr "Ångra den senaste åtgärden"
+
+#~ msgid "Apply All Operations"
+#~ msgstr "Verkställ alla åtgärder"
+
+#~ msgid "_New"
+#~ msgstr "_Ny"
+
+#~ msgid "_Resize/Move"
+#~ msgstr "Änd_ra storlek/Flytta"
+
+#~ msgid "_Format to"
+#~ msgstr "_Formatera till"
+
+#~ msgid "_Mount on"
+#~ msgstr "_Montera på"
+
+#~ msgid "_Name Partition"
+#~ msgstr "_Namnge partition"
+
+#~ msgid "M_anage Flags"
+#~ msgstr "H_antera flaggor"
+
+#~ msgid "C_heck"
+#~ msgstr "K_ontrollera"
+
+#~ msgid "_Label File System"
+#~ msgstr "_Sätt etikett på filsystem"
+
+#~ msgid "New UU_ID"
+#~ msgstr "Nytt UU_ID"
+
+#~ msgid "_Volume Group"
+#~ msgstr "_Volymgrupp"
+
+#~ msgid "_Logical Volume"
+#~ msgstr "_Logiska volymer"
+
+#~ msgid "Volume Group _Information"
+#~ msgstr "Volymgrupps_information"
+
+#~ msgid "Device Information"
+#~ msgstr "Enhetsinformation"
+
+#~ msgid "Volume Group Information"
+#~ msgstr "Volymgruppsinformation:"
+
+# Physical extent - Fysisk omfattning, men verkar inte finnas vedertagen svensk översättning på förkortningen.
+#~ msgid "PE size:"
+#~ msgstr "PE-storlek:"
+
+#~ msgid "Total PE:"
+#~ msgstr "Total PE:"
+
+#~ msgid "Allocated PE:"
+#~ msgstr "Oallokerad PE:"
+
+#~ msgid "Free PE:"
+#~ msgstr "Fri PE:"
+
+#~ msgid "LV count:"
+#~ msgstr "LV-antal:"
+
+#~ msgid "Could not add this operation to the list"
+#~ msgstr "Kunde inte lägga till denna åtgärd till listan"
+
+#~ msgid "Quit GParted?"
+#~ msgstr "Avsluta GParted?"
+
+#~ msgid "%1 - GParted"
+#~ msgstr "%1 - GParted"
+
+#~ msgid "Scanning all devices..."
+#~ msgstr "Söker av alla enheter…"
+
+#~ msgid "No devices detected"
+#~ msgstr "Inga enheter identifierade"
+
+#~ msgid "No partition table found on device %1"
+#~ msgstr "Ingen partitionstabell hittades på enheten %1"
+
+#~ msgid "A partition table is required before partitions can be added."
+#~ msgstr "En partitionstabell krävs innan partitioner kan läggas till."
+
+#~ msgid "To create a new partition table choose the menu item:"
+#~ msgstr "För att skapa en ny partitionstabell välj menyobjektet:"
+
+#~ msgid "Device --> Create Partition Table."
+#~ msgstr "Enhet --> Skapa partitionstabell."
+
+#~ msgid "Unable to resize read-only file system %1"
+#~ msgstr "Kunde inte ändra storlek på det skrivskyddade filsystemet %1"
+
+#~ msgid "The file system can not be resized while it is mounted read-only."
+#~ msgstr ""
+#~ "Storleken på filsystemet kan inte ändras medan det är monterat som "
+#~ "skrivskyddat."
+
+#~ msgid "Either unmount the file system or remount it read-write."
+#~ msgstr ""
+#~ "Avmontera antingen filsystemet eller montera om det för läsning och "
+#~ "skrivning."
+
+#~ msgid "Unable to open GParted Manual help file"
+#~ msgstr "Kunde inte öppna hjälpfilen för GParted"
+
+#~ msgid "Command yelp not found."
+#~ msgstr "Kommandot yelp hittades inte."
+
+#~ msgid "Install yelp and try again."
+#~ msgstr "Installera yelp och försök igen."
+
+#~ msgid "Failed to open GParted Manual help file"
+#~ msgstr "Misslyckades med att öppna hjälpfilen för GParted"
+
+#~ msgid "Documentation is not available"
+#~ msgstr "Dokumentationen finns inte tillgänglig"
+
+#~ msgid "This build of gparted is configured without documentation."
+#~ msgstr "Detta bygge av gparted är konfigurerat utan dokumentation."
+
+#~ msgid "Documentation is available at the project web site."
+#~ msgstr "Dokumentationen finns tillgänglig på projektets webbplats."
+
+#~ msgid "GParted Manual"
+#~ msgstr "Handbok för GParted"
+
+#~ msgid "GNOME Partition Editor"
+#~ msgstr "Partitionsredigerare för GNOME"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Josef Andersson\n"
+#~ "Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+#~ "Daniel Nylander <po@danielnylander.se>\n"
+#~ "Christian Rose\n"
+#~ "Luna Jernberg <droidbittin@gmail.com>\n"
+#~ "\n"
+#~ "Skicka synpunkter på översättningen till\n"
+#~ "<tp-sv@listor.tp-sv.se>."
+
+#~ msgid ""
+#~ "If you want more partitions you should first create an extended "
+#~ "partition. Such a partition can contain other partitions. Because an "
+#~ "extended partition is also a primary partition it might be necessary to "
+#~ "remove a primary partition first."
+#~ msgstr ""
+#~ "Om du vill ha fler partitioner bör du först skapa en utökad partition. "
+#~ "Sådana partitioner kan innehålla andra partitioner. På grund av att en "
+#~ "utökad partition också är en primär partition kan det vara nödvändigt att "
+#~ "ta bort en primär partition först."
+
+#~ msgid "Moving a partition might cause your operating system to fail to boot"
+#~ msgstr ""
+#~ "Att flytta en partition kan medföra att ditt operativsystem inte kan "
+#~ "startas upp"
+
+#~ msgid ""
+#~ "You have queued an operation to move the start sector of partition %1."
+#~ msgstr "Du har kölagt en åtgärd att flytta startsektorn för partition %1."
+
+#~ msgid ""
+#~ "  Failure to boot is most likely to occur if you move the GNU/Linux "
+#~ "partition containing /boot, or if you move the Windows system partition "
+#~ "C:."
+#~ msgstr ""
+#~ "  En misslyckad uppstart är trolig om du flyttar GNU/Linux-partitionen "
+#~ "innehållandes /boot, eller om du flyttar Windows-systempartitionen C:."
+
+#~ msgid ""
+#~ "You can learn how to repair the boot configuration in the GParted FAQ."
+#~ msgstr ""
+#~ "Du kan läsa mer om hur man reparerar uppstartskonfigurationen i GParted "
+#~ "FAQ."
+
+#~ msgid "Moving a partition might take a very long time to apply."
+#~ msgstr "Att flytta en partition kan ta mycket lång tid."
+
+#~ msgid "Enter LUKS passphrase to resize %1"
+#~ msgstr "Ange LUKS-lösenfras för att ändra storlek på %1"
+
+#~ msgid "LUKS encryption passphrase check failed"
+#~ msgstr "Kontroll av krypteringslösenfras för LUKS misslyckades"
+
+#~ msgid "Copy of %1"
+#~ msgstr "Kopia av %1"
+
+#~ msgid "You have pasted into an existing partition"
+#~ msgstr "Du har klistrat in i en befintlig partition"
+
+#~ msgid "The data in %1 will be lost if you apply this operation."
+#~ msgstr "Data på %1 kommer att gå förlorad om du verkställer denna åtgärd."
+
+#~ msgid "Unable to delete %1!"
+#~ msgstr "Kunde inte ta bort %1!"
+
+#~ msgid "Please unmount any logical partitions having a number higher than %1"
+#~ msgstr ""
+#~ "Vänligen avmontera alla logiska partitioner som har en siffra högre än %1"
+
+#~ msgid "Are you sure you want to delete %1?"
+#~ msgstr "Är du säker på att du vill ta bort %1?"
+
+#~ msgid "After deletion this partition is no longer available for copying."
+#~ msgstr ""
+#~ "Efter borttagning är denna partition inte längre tillgänglig för "
+#~ "kopiering."
+
+#~ msgid "Delete %1 (%2, %3)"
+#~ msgstr "Ta bort %1 (%2, %3)"
+
+#~ msgid "Cannot format this file system to %1"
+#~ msgstr "Kan inte formatera detta filsystem till %1"
+
+#~ msgid "A %1 file system requires a partition of at least %2."
+#~ msgstr "Ett %1-filsystem kräver en partition på åtminstone %2."
+
+#~ msgid "A partition with a %1 file system has a maximum size of %2."
+#~ msgstr "En partition med ett %1-filsystem har en maximal storlek på %2."
+
+#~ msgid "Opening encryption on %1"
+#~ msgstr "Öppnar kryptering på %1"
+
+#~ msgid "Failed to open LUKS encryption"
+#~ msgstr "Misslyckades med att öppna LUKS-kryptering"
+
+#~ msgid ""
+#~ "The close encryption action cannot be performed when there are operations "
+#~ "pending for the partition."
+#~ msgstr ""
+#~ "Åtgärden stäng kryptering kan inte genomföras om åtgärder väntar på "
+#~ "partitionen."
+
+#~ msgid "Closing encryption on %1"
+#~ msgstr "Stänger kryptering på %1"
+
+#~ msgid "Could not close encryption"
+#~ msgstr "Kunde inte stänga kryptering"
+
+#~ msgid ""
+#~ "The open encryption action cannot be performed when there are operations "
+#~ "pending for the partition."
+#~ msgstr ""
+#~ "Åtgärden öppna kryptering kan inte genomföras om åtgärder väntar på "
+#~ "partitionen."
+
+#~ msgid "Enter LUKS passphrase to open %1"
+#~ msgstr "Ange LUKS-lösenfras för att öppna %1"
+
+#~ msgid ""
+#~ "The partition could not be unmounted from the following mount points:"
+#~ msgstr "Partitionen kunde inte avmonteras från följande monteringspunkter:"
+
+#~ msgid ""
+#~ "This is because other partitions are also mounted on these mount points.  "
+#~ "You are advised to unmount them manually."
+#~ msgstr ""
+#~ "Det är eftersom andra partitioner också är monterade på dessa "
+#~ "monteringspunkter. Det rekommenderas att du avmonterar dem manuellt."
+
+#~ msgid "Use the Edit menu to undo, clear or apply pending operations."
+#~ msgstr ""
+#~ "Använd Redigera-menyn för att ångra, tömma eller verkställa väntande "
+#~ "åtgärder."
+
+#~ msgid ""
+#~ "The swapoff action cannot be performed when there are operations pending "
+#~ "for the partition."
+#~ msgstr ""
+#~ "Åtgärden inaktivera växling kan inte genomföras om åtgärder väntar på "
+#~ "partitionen."
+
+#~ msgid "Deactivating swap on %1"
+#~ msgstr "Inaktiverar växlingsutrymme på %1"
+
+#~ msgid "Could not deactivate swap"
+#~ msgstr "Kunde inte inaktivera växlingsutrymme"
+
+#~ msgid ""
+#~ "The swapon action cannot be performed when there are operations pending "
+#~ "for the partition."
+#~ msgstr ""
+#~ "Åtgärden aktivera växling kan inte genomföras om åtgärder väntar på "
+#~ "partitionen."
+
+#~ msgid "Activating swap on %1"
+#~ msgstr "Aktiverar växlingsutrymme på %1"
+
+#~ msgid "Could not activate swap"
+#~ msgstr "Kunde inte aktivera växlingsutrymme"
+
+#~ msgid ""
+#~ "The deactivate Volume Group action cannot be performed when there are "
+#~ "operations pending for the partition."
+#~ msgstr ""
+#~ "Åtgärden inaktivera volymgrupp kan inte genomföras om åtgärder väntar på "
+#~ "partitionen."
+
+#~ msgid "Deactivating Volume Group %1"
+#~ msgstr "Inaktiverar volymgrupp %1"
+
+#~ msgid "Could not deactivate Volume Group"
+#~ msgstr "Kunde inte inaktivera volymgrupp"
+
+#~ msgid ""
+#~ "The activate Volume Group action cannot be performed when there are "
+#~ "operations pending for the partition."
+#~ msgstr ""
+#~ "Åtgärden aktivera volymgrupp kan inte genomföras om åtgärder väntar på "
+#~ "partitionen."
+
+#~ msgid "Activating Volume Group %1"
+#~ msgstr "Aktiverar volymgrupp på %1"
+
+#~ msgid "Could not activate Volume Group"
+#~ msgstr "Kunde inte aktivera volymgrupp"
+
+#~ msgid ""
+#~ "The unmount action cannot be performed when there are operations pending "
+#~ "for the partition."
+#~ msgstr ""
+#~ "Avmonteringsåtgärden kan inte genomföras om åtgärder väntar på "
+#~ "partitionen."
+
+#~ msgid "Unmounting %1"
+#~ msgstr "Avmonterar %1"
+
+#~ msgid "Could not unmount %1"
+#~ msgstr "Kunde inte avmontera %1"
+
+#~ msgid ""
+#~ "The mount action cannot be performed when an operation is pending for the "
+#~ "partition."
+#~ msgstr ""
+#~ "Monteringsåtgärden kan inte genomföras om en åtgärd väntar på partitionen."
+
+#~ msgid "mounting %1 on %2"
+#~ msgstr "monterar %1 på %2"
+
+#~ msgid "Could not mount %1 on %2"
+#~ msgstr "Kunde inte montera %1 på %2"
+
+#~ msgid ""
+#~ "A new partition table cannot be created when there are active partitions."
+#~ msgstr ""
+#~ "En ny partitionstabell kan inte skapas när det finns aktiva partitioner."
+
+#~ msgid ""
+#~ "Active partitions are those that are in use, such as a mounted file "
+#~ "system, or enabled swap space."
+#~ msgstr ""
+#~ "Aktiva partitioner är de som används, såsom ett monterat filsystem, eller "
+#~ "aktiverat växlingsutrymme."
+
+#~ msgid ""
+#~ "Use Partition menu options, such as unmount or swapoff, to deactivate all "
+#~ "partitions on this device before creating a new partition table."
+#~ msgstr ""
+#~ "Använd alternativen i Partition-menyn, såsom avmontera eller inaktivera "
+#~ "växling, för att inaktivera alla partitioner på denna enhet innan en ny "
+#~ "partitionstabell kan skapas."
+
+#~ msgid ""
+#~ "A new partition table cannot be created when there are pending operations."
+#~ msgstr ""
+#~ "En ny partitionstabell kan inte skapas när det finns väntande åtgärder."
+
+#~ msgid ""
+#~ "Use the Edit menu to either clear or apply all operations before creating "
+#~ "a new partition table."
+#~ msgstr ""
+#~ "Använd Redigera-menyn för att antingen tömma eller verkställa alla "
+#~ "åtgärder innan en ny partitionstabell skapas."
+
+#~ msgid "Error while creating partition table"
+#~ msgstr "Fel vid skapandet av partitionstabell"
+
+#~ msgid "Are you sure you want to apply the pending operations?"
+#~ msgstr "Är du säker på att du vill verkställa de väntande åtgärderna?"
+
+#~ msgid "Editing partitions has the potential to cause LOSS of DATA."
+#~ msgstr "Redigering av partitioner kan innebära att DATA går FÖRLORAT."
+
+#~ msgid "You are advised to backup your data before proceeding."
+#~ msgstr ""
+#~ "Det rekommenderas att du säkerhetskopierar dina data innan du fortsätter."
+
+#~ msgid "Apply operations to device"
+#~ msgstr "Verkställ åtgärder till enheten"
+
+#~ msgid "You are deleting non-empty LVM2 Physical Volume %1"
+#~ msgstr "Du tar bort icke-tomma LVM2 fysiska volymen %1"
+
+#~ msgid "You are formatting over non-empty LVM2 Physical Volume %1"
+#~ msgstr "Du formaterar över icke-tom LVM2 fysisk volym %1"
+
+#~ msgid "You are pasting over non-empty LVM2 Physical Volume %1"
+#~ msgstr "Du kopierar över icke-tom LVM2 fysisk volym %1"
+
+#~ msgid ""
+#~ "Deleting or overwriting the Physical Volume is irrecoverable and will "
+#~ "destroy or damage the  Volume Group."
+#~ msgstr ""
+#~ "Att ta bort eller skriva över den fysiska volymen är oåterkalleligt och "
+#~ "kommer att förstöra volymgruppen."
+
+#~ msgid ""
+#~ "To avoid destroying or damaging the Volume Group, you are advised to "
+#~ "cancel and use external LVM commands to free the Physical Volume before "
+#~ "attempting this operation."
+#~ msgstr ""
+#~ "För att undvika att förstöra eller skada volymgruppen så rekommenderas du "
+#~ "att avbryta och använda externa LVM-kommandon för att frigöra den fysiska "
+#~ "volymen innan du provar denna åtgärd."
+
+#~ msgid "Do you want to continue to forcibly delete the Physical Volume?"
+#~ msgstr "Vill du fortsätta att med tvång ta bort den fysiska volymen?"
+
+#~ msgid "set file system label"
+#~ msgstr "ange filsystemsetikett"
+
+#~ msgid "Failed to find devid for path %1"
+#~ msgstr "Lyckades inte hitta devid för sökvägen %1"
+
+#~ msgid "No directory mount point found in %1"
+#~ msgstr "Ingen katalogmonteringspunkt hittades i %1"
+
+#~ msgid ""
+#~ "Failed to determine whether the ext4 file system has the 64bit feature "
+#~ "enabled"
+#~ msgstr ""
+#~ "Misslyckades med att avgöra om ext4-filsystemet har 64bit-funktionen "
+#~ "aktiverad"
+
+#~ msgid "File system needs log replay"
+#~ msgstr "Filsystem behöver logguppspelning"
+
+#~ msgid ""
+#~ "Changing the UUID might invalidate the Windows Product Activation (WPA) "
+#~ "key"
+#~ msgstr ""
+#~ "Att ändra UUID kan göra Windows-produktaktiveringsnyckeln (WPA) ogiltig"
+
+#~ msgid ""
+#~ "On FAT and NTFS file systems, the Volume Serial Number is used as the "
+#~ "UUID. Changing the Volume Serial Number on the Windows system partition, "
+#~ "normally C:, might invalidate the WPA key. An invalid WPA key will "
+#~ "prevent login until you reactivate Windows."
+#~ msgstr ""
+#~ "På FAT- och NTFS-filsystem används volymserienumret som UUID. Att ändra "
+#~ "volymserienumret på Windows systempartition, normalt C:, kan göra WPA-"
+#~ "nyckeln ogiltig. En ogiltig WPA-nyckel förhindrar inloggning tills du har "
+#~ "återaktiverat Windows."
+
+#~ msgid ""
+#~ "Changing the UUID on external storage media and non-system partitions is "
+#~ "usually safe, but guarantees cannot be given."
+#~ msgstr ""
+#~ "Att ändra UUID på externa lagringsmedia och icke-systempartitioner är "
+#~ "vanligtvis säkert, men inga garantier kan ges."
+
+# Vad är detta? Kommandot?
+#~ msgid "_Swapon"
+#~ msgstr "_Aktivera växling"
+
+# Vad är detta? Kommandot?
+#~ msgid "_Swapoff"
+#~ msgstr "_Inaktivera växling"
+
+#~ msgid ""
+#~ "Partition move action skipped because %1 file system does not contain data"
+#~ msgstr ""
+#~ "Åtgärden för att flytta partition hoppades över därför att %1-filsystemet "
+#~ "inte innehåller data"
+
+#~ msgid ""
+#~ "Partition copy action skipped because %1 file system does not contain data"
+#~ msgstr ""
+#~ "Åtgärden för att kopiera partition hoppades över därför att %1-"
+#~ "filsystemet inte innehåller data"
+
+#~ msgid "Ac_tivate"
+#~ msgstr "Ak_tivera"
+
+#~ msgid "Deac_tivate"
+#~ msgstr "Inaktiv_era"
+
+#~ msgid ""
+#~ "The LVM2 Physical Volume can not currently be resized because it is a "
+#~ "member of an exported Volume Group."
+#~ msgstr ""
+#~ "LVM2 fysiska volymens storlek kan för närvarande inte ändras eftersom den "
+#~ "är en medlem av en exporterad volymgrupp."
+
+#~ msgid "Open Encryption"
+#~ msgstr "Öppna kryptering"
+
+#~ msgid "Close Encryption"
+#~ msgstr "Stäng kryptering"
+
+#~ msgid ""
+#~ "Maximize closed LUKS encryption skipped because it will automatically "
+#~ "fill the partition when opened"
+#~ msgstr ""
+#~ "Hoppade över att maximera stängd LUKS-kryptering eftersom partitionen "
+#~ "automatiskt kommer att fyllas vid öppning"
+
+#~ msgid "Root privileges are required for running GParted"
+#~ msgstr "För att köra GParted krävs root-privilegier"
+
+#~ msgid ""
+#~ "Since GParted is a powerful tool capable of destroying partition tables "
+#~ "and vast amounts of data, only root may run it."
+#~ msgstr ""
+#~ "Eftersom GParted är ett kraftfullt verktyg som kan förstöra "
+#~ "partitionstabeller och stora mängder data så får endast root köra det."
+
+#~ msgid ""
+#~ "In an attempt to avoid invalidating the WPA key, on NTFS file systems "
+#~ "only half of the UUID is set to a new random value."
+#~ msgstr ""
+#~ "I ett försök att undvika att göra WPA-nyckeln ogiltig på NTFS-system så "
+#~ "sätts bara halva UUID till ett nytt slumpmässigt värde."
+
+#~ msgid "run simulation"
+#~ msgstr "kör simulering"
+
+#~ msgid "real resize"
+#~ msgstr "riktig storleksändring"
+
+#~ msgid "Partition is too large, maximum size is %1"
+#~ msgstr "Partition är för stor, maximal storlek är %1"
+
+#~ msgid "Partition is too small, minimum size is %1"
+#~ msgstr "Partition är för liten, minimal storlek är %1"
+
+#~ msgid ""
+#~ "mkudffs prior to version 1.1 does not support non-ASCII characters in the "
+#~ "label."
+#~ msgstr ""
+#~ "mkudffs före version 1.1 stöder inte tecken som inte är ASCII i etiketten."
+
+#~ msgid ""
+#~ "Adding more information to the results of this step after it has been "
+#~ "marked as completed"
+#~ msgstr ""
+#~ "Lägger till mer information till resultatet för detta steg efter att det "
+#~ "markerats som slutfört"
+
+#~ msgid "Search disk for file systems"
+#~ msgstr "Sök igenom disk efter filsystem"
+
+#~ msgid "Data found"
+#~ msgstr "Data hittades"
+
+#~ msgid "Data found with inconsistencies"
+#~ msgstr "Data med inkonsistens hittades"
+
+#~ msgid "WARNING!: The file systems marked with (!) are inconsistent."
+#~ msgstr "VARNING!: Filsystemen markerade med (!) är inkonsistenta."
+
+#~ msgid "You might encounter errors trying to view these file systems."
+#~ msgstr "Du kan uppleva felaktigheter vid försök att visa dessa filsystem."
+
+#~ msgid "The 'View' buttons create read-only views of each file system."
+#~ msgstr "Knapparna ”Visa” skapar skrivskyddade vyer av varje filsystem."
+
+#~ msgid "All mounted views will be unmounted when you close this dialog."
+#~ msgstr ""
+#~ "Alla monterade vyer kommer att avmonteras när du stänger denna dialogruta."
+
+#~ msgid "File systems"
+#~ msgstr "Filsystem"
+
+#~ msgid "#%1: %2 (%3 MiB)"
+#~ msgstr "#%1: %2 (%3 MiB)"
+
+#~ msgid "View"
+#~ msgstr "Visa"
+
+#~ msgid ""
+#~ "An error occurred while creating a temporary directory for use as a mount "
+#~ "point."
+#~ msgstr ""
+#~ "Ett fel inträffade vid skapandet av temporärkatalog för användning som en "
+#~ "monteringspunkt."
+
+#~ msgid "Error"
+#~ msgstr "Fel"
+
+#~ msgid "Failed creating temporary directory"
+#~ msgstr "Misslyckades med att skapa temporärkatalog"
+
+#~ msgid "An error occurred while creating the read-only view."
+#~ msgstr "Ett fel inträffade vid skapandet av skrivskyddad vy."
+
+#~ msgid ""
+#~ "Either the file system can not be mounted (like swap), or there are "
+#~ "inconsistencies or errors in the file system."
+#~ msgstr ""
+#~ "Antingen kan inte filsystemet monteras (såsom växlingsutrymme) eller så "
+#~ "är filsystemet inkonsistent eller felaktigt."
+
+#~ msgid "Failed creating read-only view"
+#~ msgstr "Misslyckades med att skapa skrivskyddad vy"
+
+#~ msgid "Error:"
+#~ msgstr "Fel:"
+
+#~ msgid "The file system is mounted on:"
+#~ msgstr "Filsystemet är monterat på:"
+
+#~ msgid "Unable to open the default file manager"
+#~ msgstr "Kunde inte öppna standardfilhanteraren"
+
+#~ msgid ""
+#~ "Warning: The detected file system area overlaps with at least one "
+#~ "existing partition"
+#~ msgstr ""
+#~ "Varning: Det upptäckta filsystemsområdet överlappar med minst en "
+#~ "befintlig partition"
+
+#~ msgid ""
+#~ "It is recommended that you do not use any overlapping file systems to "
+#~ "avoid disturbing existing data."
+#~ msgstr ""
+#~ "Det rekommenderas att du inte använder överlappande filsystem för att "
+#~ "förhindra att störa befintligt data."
+
+#~ msgid "Do you want to try to deactivate the following mount points?"
+#~ msgstr "Vill du försöka att inaktivera följande monteringspunkter?"
+
+#~ msgid "_Attempt Data Rescue"
+#~ msgstr "_Försök att rädda data"
+
+#~ msgid "Command gpart was not found"
+#~ msgstr "Kommandot gpart hittades inte"
+
+#~ msgid "This feature uses gpart. Please install gpart and try again."
+#~ msgstr "Denna funktion använder gpart. Installera gpart och försök igen."
+
+#~ msgid "A full disk scan is needed to find file systems."
+#~ msgstr "En fullständig avsökning krävs för att hitta filsystem."
+
+#~ msgid "The scan might take a very long time."
+#~ msgstr "Avsökningen kan ta mycket lång tid."
+
+#~ msgid ""
+#~ "After the scan you can mount any discovered file systems and copy the "
+#~ "data to other media."
+#~ msgstr ""
+#~ "Efter avsökningen kan du montera de filsystem som upptäckts och kopiera "
+#~ "deras data till andra media."
+
+#~ msgid "Do you want to continue?"
+#~ msgstr "Vill du fortsätta?"
+
+#~ msgid "Search for file systems on %1"
+#~ msgstr "Sök efter filsystem på %1"
+
+#~ msgid "Searching for file systems on %1"
+#~ msgstr "Söker efter filsystem på %1"
+
+#~ msgid "No file systems found on %1"
+#~ msgstr "Inga filsystem hittades på %1"
+
+#~ msgid ""
+#~ "The disk scan by gpart did not find any recognizable file systems on this "
+#~ "disk."
+#~ msgstr ""
+#~ "Diskavsökningen av gpart hittade inte några kända filsystem på denna disk."
+
+#~ msgid ""
+#~ "Failed to set the number of hidden sectors to %1 in the NTFS boot record."
+#~ msgstr ""
+#~ "Misslyckades med att ange antalet dolda sektorer till %1 i NTFS-"
+#~ "uppstartspost."
+
+#~ msgid "You might try the following command to correct the problem:"
+#~ msgstr "Du kan prova följande kommando för att rätta till problemet:"
