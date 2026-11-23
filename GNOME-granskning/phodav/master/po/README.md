@@ -1,12 +1,9 @@
-# phodav — master — svenska UI
+# Phodav — master/po
 
-- GNOME-status före granskning: 18 översatta, 5 fuzzy, 9 oöversatta.
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/phodav/master/po/sv/>
-- Granskad rad: `Unix socket to listen on` → `Unix-uttag att lyssna på`.
-- Åtgärd: TLS-, Unix-uttag- och uppladdningsalternativ för CLI kompletterades.
-- Ändringar: 9 ny(a) översättning(ar), 5 rättad(e) befintlig(a) sträng(ar).
-- Validering: `msgfmt --check`; CLI-flaggor, versalparametrar, `%s` och radbrytningar kontrollerade.
-- Dokumenterade undantag: TLS, HTTPS, Unix, CERT, KEY och SIZE behålls som tekniska identifierare.
-- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-22 00:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
-- Slutlig lokal status: 32 översatta, 0 fuzzy, 0 oöversatta.
+- Granskad: 2026-11-23
+- Lokal statistik: 32 aktiva strängar, 0 oöversatta och 0 fuzzy.
+- Ändringar: Den Damned-Lies-genererade svenska katalogen var helt oöversatt; 32 kommandorads- och diagnostiksträngar har översatts.
+- Källavvikelse: aktuell Git `master` innehåller en äldre svensk fil med 19 översatta strängar (POT 2022-06-29), medan Damned Lies erbjuder den nyare 32-strängarsmallen (POT 2026-10-22). Arkivets original är därför exakt den aktuella Damned-Lies-filen, inte den äldre Git-filen.
+- Validering: `msgfmt --check` godkänd; `l10n-lint` rapporterar 0 fel. Informationsnotisen gäller ett avsiktligt svenskt tankstreck i programmets kortbeskrivning. Hunspell-undantag: kommandoradsflaggor, `DIGEST`, `TLS`, `WebDAV`, `htdigest`, `mDNS` och `loopback`.
+- Ingen ändring har skickats till GNOME.
