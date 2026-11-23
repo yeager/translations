@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 21:36 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 21:37 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -446,7 +446,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [gnome-user-docs — GNOME User Documentation](https://l10n.gnome.org/vertimus/gnome-user-docs/gnome-50/gnome-help/sv/) | gnome-50 | 3558 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-video-arcade](https://l10n.gnome.org/module/gnome-video-arcade/) | master | 224 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-video-arcade](https://l10n.gnome.org/module/gnome-video-arcade/) | master | 129 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-weather](https://l10n.gnome.org/vertimus/gnome-weather/main/po/sv/) | main | 50 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-weather](https://l10n.gnome.org/vertimus/gnome-weather/main/po/sv/) | main | 50 | 0 | 0 | Klar | X | 4 | Klar lokalt (2026-11-23): Aktuell 50-strängarskatalog är radgranskad mot senaste POT. Fyra befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](gnome-weather/main/po/gnome-weather.main.sv.original.po), [granskad](gnome-weather/main/po/gnome-weather.main.sv.reviewed.po), [diff](gnome-weather/main/po/gnome-weather.main.sv.review.diff), [notering](gnome-weather/main/po/README.md) |
 | Dokumentation | Default (71% translated) | [gnomemm-website](https://l10n.gnome.org/vertimus/gnomemm-website/master/site/sv/) | master | 365 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnote](https://l10n.gnome.org/vertimus/gnote/master/help/sv/) | master | 355 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [goobox](https://l10n.gnome.org/module/goobox/) | master | 149 | 0 | 0 | Klar |  | — | Ej granskad |
