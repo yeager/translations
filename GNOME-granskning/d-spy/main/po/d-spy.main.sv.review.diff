@@ -6,23 +6,23 @@
  "POT-Creation-Date: 2026-10-13 13:41+0000\n"
 -"PO-Revision-Date: 2026-08-10 15:10+0200\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-23 12:30+0100\n"
++"PO-Revision-Date: 2026-11-23 00:00+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
  "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
  "Language: sv\n"
  "MIME-Version: 1.0\n"
-@@ -132,41 +132,39 @@
+@@ -132,41 +132,41 @@
  
  #: src/dspy-window.c:602 src/dspy-window.c:647
  msgid "Property was set, but the service owner has changed"
 -msgstr ""
-+msgstr "Egenskapen har angetts, men tjänstägaren har ändrats"
++msgstr "Egenskapen angavs, men tjänstägaren har ändrats"
  
  #: src/dspy-window.c:633
  #, c-format
  msgid "Failed to set property: %s"
 -msgstr ""
-+msgstr "Det gick inte att ange egenskapen: %s"
++msgstr "Kunde inte ange egenskap: %s"
  
  #: src/dspy-window.c:661
  #, c-format
@@ -32,6 +32,7 @@
  
  #: src/dspy-window.c:667
 -#, fuzzy
++#
  #| msgid "Property"
  msgid "Property updated"
 -msgstr "Egenskap"
@@ -53,18 +54,20 @@
  
  #: src/dspy-window.c:984
 -#, fuzzy
++#
  #| msgid "write-only"
  msgid "Write-only property"
 -msgstr "endast skrivning"
-+msgstr "Endast skrivbar egenskap"
++msgstr "Egenskap som bara kan skrivas"
  
  #: src/dspy-window.ui:62
  msgid "Connections"
-@@ -251,24 +249,22 @@
+@@ -251,24 +251,24 @@
  msgstr "Värde"
  
  #: src/dspy-window.ui:1089
 -#, fuzzy
++#
  #| msgid "Property"
  msgid "Set Property"
 -msgstr "Egenskap"
@@ -73,10 +76,11 @@
  #: src/dspy-window.ui:1090
  msgid "Enter a value in GVariant text format, such as 'hello', true, or 42."
 -msgstr ""
-+msgstr "Ange ett värde i GVariant-textformat, till exempel ”hello”, true eller 42."
++msgstr "Ange ett värde i GVariants textformat, till exempel 'hello', true eller 42."
  
  #: src/dspy-window.ui:1094
 -#, fuzzy
++#
  #| msgid "Value"
  msgid "New Value"
 -msgstr "Värde"
@@ -89,3 +93,12 @@
  
  #: src/dspy-window.ui:1248
  msgid "Signal"
+@@ -292,7 +292,7 @@
+ 
+ #: src/dspy-window.ui:1475
+ msgid "Call Method"
+-msgstr "Anropsmetod"
++msgstr "Anropa metod"
+ 
+ #: src/dspy-window.ui:1491
+ msgid "Cancel"
