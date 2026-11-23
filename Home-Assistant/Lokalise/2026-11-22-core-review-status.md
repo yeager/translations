@@ -6,8 +6,8 @@ validerade Home Assistant-minnet.
 | Mått | Antal |
 | --- | ---: |
 | Poster i Core-exporten | 75 106 |
-| Poster i validerad Core-TMX | 3 432 |
-| Konservativt återstående omfång | 71 674 |
+| Poster i validerad Core-TMX | 3 433 |
+| Konservativt återstående omfång | 71 673 |
 
 Det återstående antalet är konservativt: utöver TMX-posterna finns
 livegranskade strängar utan ny TMX-post, exempelvis hela komponenter där inga
