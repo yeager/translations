@@ -303,6 +303,12 @@ MQTT-alternativet `Discovery QoS` saknade svensk term. Core använder redan
 upptäckt`, sparades och lästes tillbaka via Lokalise API. TMX-valideringen
 godkände 4 097 poster.
 
+## Sonos: spela upp kön
+
+Sonos-tjänsten `Play queue` hade den ofullständiga formen `Spela upp kö`.
+Den rättades till `Spela upp kön`, sparades och lästes tillbaka via Lokalise
+API. TMX-posten ersattes med det verifierade livevärdet.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
