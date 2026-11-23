@@ -330,6 +330,14 @@ TMX:en. Direkt Lokalise-API visade att de aktuella svenska texterna och alla
 platshållare redan var korrekta; endast TMX:ens föråldrade källposter ersattes
 med liveverifierade data. Ingen Lokalise-text ändrades.
 
+## WaterFurnace och Whirlpool: reparation av TMX-källposter
+
+Fem ytterligare platshållaravvikelser visade sig vara föråldrade
+WaterFurnace- och Whirlpool-poster i det kanoniska TMX-minnet. Live-Lokalise
+bekräftade att svenska texter, radbrytningar och platshållare redan är
+korrekta. De fem TMX-posterna ersattes med verifierad live-data; ingen
+Lokalise-text ändrades.
+
 ## Nya omkonfigurationsfält
 
 21 nytillkomna omkonfigurationsfält i Livisi, AEMET, SmartyPlants, Croma
