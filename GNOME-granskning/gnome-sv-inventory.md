@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:52 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:54 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -517,7 +517,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [malcontent](https://l10n.gnome.org/vertimus/malcontent/main/help/sv/) | main | 49 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [Manuals](https://l10n.gnome.org/vertimus/manuals/main/po/sv/) | main | 51 | 0 | 0 | Klar | X | 5 | Klar lokalt (2026-11-24): Hela 51-strängarskatalogen är radgranskad mot senaste POT. Fem befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](manuals/main/po/Manuals.main.sv.original.po), [granskad](manuals/main/po/Manuals.main.sv.reviewed.po), [diff](manuals/main/po/Manuals.main.sv.review.diff), [notering](manuals/main/po/README.md) |
 | Dokumentation | Default (71% translated) | [meld](https://l10n.gnome.org/vertimus/meld/main/help/sv/) | main | 191 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [metacity](https://l10n.gnome.org/vertimus/metacity/master/po/sv/) | master | 95 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [metacity](https://l10n.gnome.org/vertimus/metacity/master/po/sv/) | master | 95 | 0 | 0 | Klar | X | 4 | Klar lokalt (2026-11-24): Hela 95-strängarskatalogen är radgranskad mot senaste POT. Fyra befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](metacity/master/po/metacity.master.sv.original.po), [granskad](metacity/master/po/metacity.master.sv.reviewed.po), [diff](metacity/master/po/metacity.master.sv.review.diff), [notering](metacity/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [moserial](https://l10n.gnome.org/vertimus/moserial/master/po/sv/) | master | 152 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [moserial](https://l10n.gnome.org/vertimus/moserial/master/help/sv/) | master | 76 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [mutter](https://l10n.gnome.org/vertimus/mutter/main/po/sv/) | main | 176 | 0 | 0 | Klar |  | — | Ej granskad |
