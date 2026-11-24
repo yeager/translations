@@ -1,7 +1,7 @@
 # HA Core: referenskontroll av Open-Meteo och Hydrawise
 
 Datum: 2026-11-24  
-Källa: Home Assistant Core `origin/dev`, checkout hämtad 2026-11-24.  
+Källa: Home Assistant Core `origin/dev`, commit `2fdaa177f3e94535b3b649fb1ffc2dbba52eb4ce`, checkout hämtad 2026-11-24.  
 Kontroll: Lokalise API, svenska och engelska värden återlästa.  
 TM: Home Assistant Core-minnet i `swedish-tm`, snapshot, PO och TMX.
 
