@@ -36,3 +36,10 @@
 - 6 källsökvägar behöver referens-/nyckelursprungsuppföljning; övriga 7 matchar direkt.
 - Core-TMX validerad: 16 447 poster; exporten har 42 620 språkpar och 32 synliga exkluderade nycklar.
 - Övergripande Core-granskning fortsätter.
+
+## 2026-11-24 – Core 23281–23400
+
+- 14 poster granskade; 10 ändringar sparade och återlästa, 4 befintliga mål verifierade.
+- 9 källsökvägar behöver kontroll av referensmål eller nyckelursprung; 5 matchar direkt.
+- Core-TMX validerad: 16 458 poster; Core-export: 42 625 språkpar, 32 exkluderade nycklar.
+- Granskningen fortsätter; inte klar.
