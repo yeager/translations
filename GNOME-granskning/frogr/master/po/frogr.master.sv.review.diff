@@ -1,0 +1,166 @@
+diff --git a/.work-gnome-review/frogr-master-po/original.po b/.work-gnome-review/frogr-master-po/sv.po
+index 55915f9..f41b23c 100644
+--- a/.work-gnome-review/frogr-master-po/original.po
++++ b/.work-gnome-review/frogr-master-po/sv.po
+@@ -4,14 +4,15 @@
+ # Daniel Nylander <po@danielnylander.se>, 2011.
+ # Josef Andersson <josef.andersson@fripost.org>, 2015, 2017.
+ # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2016, 2017, 2018, 2024.
++# Daniel Nylander <gnome@danielnylander.se>, 2026.
+ #
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: frogr\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/frogr/issues/\n"
+ "POT-Creation-Date: 2026-10-06 21:02+0000\n"
+-"PO-Revision-Date: 2024-01-01 21:18+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -41,7 +42,7 @@ msgstr "Flickr;Bild;Foto;Video;Skicka upp;"
+ 
+ #: data/org.gnome.frogr.metainfo.xml.in:8
+ msgid "A flickr uploader for GNOME"
+-msgstr "En Flickr-uppskickare för GNOME"
++msgstr "En Flickr-uppladdare för GNOME"
+ 
+ #: data/org.gnome.frogr.metainfo.xml.in:10
+ msgid ""
+@@ -148,7 +149,7 @@ msgstr "Ogiltig verifikationskod"
+ 
+ #: src/frogr-controller.c:575
+ msgid "Process cancelled"
+-msgstr "Processen avbruten"
++msgstr "Processen avbröts"
+ 
+ #: src/frogr-controller.c:580
+ msgid ""
+@@ -156,7 +157,7 @@ msgid ""
+ "Network not available"
+ msgstr ""
+ "Anslutningsfel:\n"
+-"Nätverket ej tillgängligt"
++"Nätverket är inte tillgängligt"
+ 
+ #: src/frogr-controller.c:584
+ msgid ""
+@@ -164,7 +165,7 @@ msgid ""
+ "Bad request"
+ msgstr ""
+ "Anslutningsfel:\n"
+-"Dålig begäran"
++"Felaktig begäran"
+ 
+ #: src/frogr-controller.c:588
+ msgid ""
+@@ -179,7 +180,7 @@ msgid ""
+ "Error uploading:\n"
+ "File invalid"
+ msgstr ""
+-"Fel vid sändning:\n"
++"Fel vid uppladdning:\n"
+ "Ogiltig fil"
+ 
+ #: src/frogr-controller.c:596
+@@ -187,7 +188,7 @@ msgid ""
+ "Error uploading picture:\n"
+ "Quota exceeded"
+ msgstr ""
+-"Fel vid sändning av bild:\n"
++"Fel vid uppladdning av bild:\n"
+ "Gräns överstigen"
+ 
+ #: src/frogr-controller.c:601
+@@ -203,7 +204,7 @@ msgid ""
+ "You can't upload more videos with this account"
+ msgstr ""
+ "Fel då video skickades upp:\n"
+-"Du kan inte skicka upp mer videor med detta konto"
++"Du kan inte skicka upp fler videor med detta konto"
+ 
+ #: src/frogr-controller.c:610
+ msgid ""
+@@ -235,7 +236,7 @@ msgid ""
+ "Photo already in the maximum number of groups possible"
+ msgstr ""
+ "Fel:\n"
+-"Fotot finns redan i högsta antalet möjliga grupper"
++"Fotot finns redan i maximalt antal grupper"
+ 
+ #: src/frogr-controller.c:626
+ msgid ""
+@@ -243,7 +244,7 @@ msgid ""
+ "Group limit already reached"
+ msgstr ""
+ "Fel:\n"
+-"Gruppgränsen redan nådd"
++"Gruppgränsen har redan nåtts"
+ 
+ #: src/frogr-controller.c:630
+ msgid ""
+@@ -266,7 +267,7 @@ msgid ""
+ "Error:\n"
+ "Content not allowed for this group"
+ msgstr ""
+-"Fel\n"
++"Fel:\n"
+ "Innehåll inte tillåtet för denna grupp"
+ 
+ #: src/frogr-controller.c:642
+@@ -287,7 +288,7 @@ msgid ""
+ msgstr ""
+ "Fel\n"
+ "%s har inte rätt behörighet för att skicka upp filer till Flickr.\n"
+-"Ompröva behörighet"
++"Auktorisera om den"
+ 
+ #: src/frogr-controller.c:653
+ #, c-format
+@@ -609,7 +610,7 @@ msgid ""
+ "Can't load file %s:\n"
+ "Size of file is bigger than the maximum allowed for this account (%s)"
+ msgstr ""
+-"Kan inte läsa in fil %s\n"
++"Kan inte läsa in fil %s:\n"
+ "Filens storlek är större än största storleken tillåten för detta konto (%s)"
+ 
+ #: src/frogr-global-defs.h:26
+@@ -668,7 +669,7 @@ msgstr "Välj fil"
+ 
+ #: src/frogr-main-view.c:1487 src/frogr-main-view.c:1612
+ msgid "_Open"
+-msgstr "_Öppna"
++msgstr "Ö_ppna"
+ 
+ #: src/frogr-main-view.c:1496
+ msgid "Frogr Project Files"
+@@ -835,7 +836,7 @@ msgstr "_Behåll filändelser i titlar vid inläsning"
+ 
+ #: src/frogr-settings-dialog.c:507
+ msgid "_Misc"
+-msgstr "_Övrigt"
++msgstr "Ö_vrigt"
+ 
+ #: src/frogr-settings-dialog.c:1009
+ msgid "Preferences"
+@@ -875,7 +876,7 @@ msgstr "_Skapa ny fotosamling…"
+ #: data/gtkbuilder/frogr-menu-bar.ui:103
+ #: data/gtkbuilder/frogr-menu-button.ui:93
+ msgid "_Open in External Viewer"
+-msgstr "_Öppna i extern visare"
++msgstr "Ö_ppna i extern visare"
+ 
+ #: data/gtkbuilder/frogr-context-menu.ui:45
+ msgid "_Remove Elements"
+@@ -911,7 +912,7 @@ msgstr "_Arkiv"
+ 
+ #: data/gtkbuilder/frogr-menu-bar.ui:14
+ msgid "_Open…"
+-msgstr "_Öppna…"
++msgstr "Ö_ppna…"
+ 
+ #: data/gtkbuilder/frogr-menu-bar.ui:24 data/gtkbuilder/frogr-menu-button.ui:17
+ msgid "Save _As…"
