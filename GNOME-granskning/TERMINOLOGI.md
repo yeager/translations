@@ -70,6 +70,9 @@ listan är stöd, inte en ursäkt för mekanisk ersättning.
 | hardware | maskinvara | |
 | firmware | fast programvara | Använd *firmware* när det är projektets etablerade tekniska term. |
 | sample (pixbuf) | värde | Kanalsampel för en bildpunkt; här avses värdet, inte själva samplingsprocessen. |
+| preview | förhandsvisning / förhandsvisa | Substantiv respektive verb; välj efter sammanhang. |
+| previewer | förhandsvisare | Komponenten som visar en filförhandsvisning. |
+| fullscreen | helskärmsläge | I åtgärder: *Växla helskärmsläge*. |
 | rowstride | radsteg | Antal byte mellan motsvarande lägen på efterföljande pixelrader. |
 | chunk (bildformat) | block | En avgränsad del av en bildfil, exempelvis PNG-textblock. |
 | pixbuf | pixbuf | GTK/GdkPixbuf-API-typ; behåll identifieraren och böj vid behov: *pixbufen*. |
