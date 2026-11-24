@@ -16,3 +16,9 @@ utvecklarkommentar medvetet ska behålla de engelska artiklarna för sortering.
 Informationsnotisen gäller avsiktligt skilda citattecken. Den svenska
 Hunspell-ordlistan saknas lokalt. Ingen GNOME-inskickning har gjorts enligt
 arbetsmålet.
+
+## Korrigering av kommandoradsmetavariabler (2026-11-24)
+
+- 1 befintlig sträng korrigerad: beskrivande kommandoradsargument översatta till svenska.
+- Validering: `msgfmt --check`; `l10n-lint`-regeln `metavariable-translation` ger inga kvarvarande träffar i de 295 granskade huvudgrenarnas kataloger.
+- Ändringen är lokal och har inte skickats till GNOME.

@@ -9,3 +9,9 @@
 - Översättarmetadata: befintliga metadata är bevarade eftersom endast den lokala granskningskopian ändrats.
 - GNOME-inskick: inget — enligt arbetsinstruktionen.
 - Slutlig lokal status: 1 023 översatta, 0 fuzzy, 0 oöversatta.
+
+## Korrigering av kommandoradsmetavariabler (2026-11-24)
+
+- 1 befintlig sträng korrigerad: beskrivande kommandoradsargument översatta till svenska.
+- Validering: `msgfmt --check`; `l10n-lint`-regeln `metavariable-translation` ger inga kvarvarande träffar i de 295 granskade huvudgrenarnas kataloger.
+- Ändringen är lokal och har inte skickats till GNOME.

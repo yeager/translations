@@ -7,3 +7,9 @@
 - Validering: `msgfmt --check` och `l10n-lint --language sv` utan anmärkningar. Den granskade katalogen och aktuell POT har samma 32 aktiva nycklar.
 - Hunspell: `DIGEST`, `SIZE`, `TLS`, `WebDAV`, `htdigest`, `mDNS`, `loopback` och CLI-identifierare är avsiktliga tekniska termer.
 - GNOME-inskick: inget.
+
+## Korrigering av kommandoradsmetavariabler (2026-11-24)
+
+- 3 befintliga strängar korrigerade: beskrivande kommandoradsargument översatta till svenska.
+- Validering: `msgfmt --check`; `l10n-lint`-regeln `metavariable-translation` ger inga kvarvarande träffar i de 295 granskade huvudgrenarnas kataloger.
+- Ändringen är lokal och har inte skickats till GNOME.

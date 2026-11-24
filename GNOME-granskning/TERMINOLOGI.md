@@ -60,7 +60,7 @@ listan är stöd, inte en ursäkt för mekanisk ersättning.
 | permission | behörighet | |
 | authentication | autentisering | |
 | authorization (polkit) | behörighet | För användarvänd text om att få utföra en åtgärd. |
-| action ID (polkit) | åtgärds-ID | I kommandoradssyntax bevaras metavariabeln ACTION exakt. |
+| action ID (polkit) | åtgärds-ID | I polkits kommandoradssyntax översätts metavariabeln ACTION till ÅTGÄRD. |
 | subject (polkit) | subjekt | Polkit-objekt som identifierar användare eller process. |
 | process specifier | processangivelse | Används om värdet för --process. |
 | account | konto | |
@@ -81,6 +81,34 @@ listan är stöd, inte en ursäkt för mekanisk ersättning.
 | chunk (bildformat) | block | En avgränsad del av en bildfil, exempelvis PNG-textblock. |
 | pixbuf | pixbuf | GTK/GdkPixbuf-API-typ; behåll identifieraren och böj vid behov: *pixbufen*. |
 | colorspace | färgrymd | Färgrymd som pixelvärdena tolkas i. |
+
+## Kommandoradsmetavariabler
+
+Översätt beskrivande metavariabler i användningsrader och hjälptexter. Behåll
+flaggor som `--action-id`, faktiska miljövariabler som `$PATH`, formatmarkörer,
+API-/protokollnamn och kodidentifierare oförändrade. Välj term efter vad
+argumentet betyder i just det programmet.
+
+| Engelsk metavariabel | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| ACTION | ÅTGÄRD | Polkit-åtgärd. |
+| ARGUMENTS | ARGUMENT | Svensk plural är också *argument*. |
+| BUS_NAME | BUSSNAMN | D-Bus-ägarnamn. |
+| CERT | CERTIFIKAT | Certifikatfil/-värde enligt sammanhang. |
+| COMMAND | KOMMANDO | |
+| DIR | KATALOG | I teknisk kommandoradssyntax; vanlig UI-text kan använda *mapp*. |
+| FILE | FIL | |
+| FILES | FILER | |
+| FILENAME | FILNAMN | |
+| INPUT_FILE / INPUT_FILE1 / INPUT_FILE2 | INDATAFIL / INDATAFIL1 / INDATAFIL2 | Bevara indexsiffrorna. |
+| MSI_FILE | MSI-FIL | Argumentnamn för en MSI-fil. |
+| KEY | NYCKEL | |
+| OPTION | FLAGGA | Själva metavariabeln; literal flagga lämnas oförändrad. |
+| PATH | SÖKVÄG | Behåll `$PATH`; välj *bana* när det avser en geometrisk bana. |
+| PRIVKEY | PRIVATNYCKEL | |
+| START_TIME | STARTTID | |
+| TIMEOUT | TIDSGRÄNS | |
+| VALUE | VÄRDE | |
 
 ## Form och skydd
 

@@ -1,5 +1,5 @@
---- translations/GNOME-granskning/polkit/main/po/polkit.main.sv.original.po	2026-11-24 09:22:01.524050120 +0100
-+++ translations/GNOME-granskning/polkit/main/po/polkit.main.sv.reviewed.po	2026-11-24 09:22:01.533050110 +0100
+--- polkit.main.sv.original.po
++++ polkit.main.sv.reviewed.po
 @@ -8,8 +8,8 @@
  "Project-Id-Version: polkit master\n"
  "Report-Msgid-Bugs-To: https://github.com/polkit-org/polkit/issues\n"
@@ -11,7 +11,7 @@
  "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
  "Language: sv\n"
  "MIME-Version: 1.0\n"
-@@ -36,17 +36,17 @@
+@@ -36,9 +36,9 @@
  "(user=$(user), user.gecos=$(user.gecos), user.display=$(user.display), "
  "program=$(program), command_line=$(command_line))"
  msgstr ""
@@ -24,25 +24,6 @@
  
  #: src/programs/pkaction.c:97
  msgid "Only output information about ACTION"
--msgstr "Visa endast information om ÅTGÄRD"
-+msgstr "Visa endast information om ACTION"
- 
- #: src/programs/pkaction.c:97
- msgid "ACTION"
--msgstr "ÅTGÄRD"
-+msgstr "ACTION"
- 
- #: src/programs/pkaction.c:101
- msgid "Output detailed action information"
-@@ -58,7 +58,7 @@
- 
- #: src/programs/pkaction.c:128
- msgid "[--action-id ACTION]"
--msgstr "[--action-id ÅTGÄRD]"
-+msgstr "[--action-id ACTION]"
- 
- #: src/programs/pkaction.c:129 src/programs/pkttyagent.c:127
- #, c-format
 @@ -67,7 +67,7 @@
  "%s home page: <%s>"
  msgstr ""
@@ -81,13 +62,10 @@
  msgstr ""
  "Användning:\n"
 -"  pkcheck [FLAGGA…]\n"
-+"  pkcheck [OPTION...]\n"
- "\n"
+-"\n"
 -"Hjälpflaggor:\n"
 -"  -h, --help                         Visa hjälpflaggor\n"
-+"Hjälpalternativ:\n"
-+"  -h, --help                         Visa hjälpalternativ\n"
- "\n"
+-"\n"
 -"Programflaggor:\n"
 -"  -a, --action-id=ÅTGÄRD             Kontrollera auktorisering för att "
 -"utföra ÅTGÄRD\n"
@@ -105,15 +83,20 @@
 -"auktoriseringar för aktuell session\n"
 -"  -s, --system-bus-name=BUSSNAMN     Kontrollera auktorisering för ägare av "
 -"BUSSNAMN\n"
++"  pkcheck [FLAGGA...]\n"
++"\n"
++"Hjälpalternativ:\n"
++"  -h, --help                         Visa hjälpalternativ\n"
++"\n"
 +"Programalternativ:\n"
-+"  -a, --action-id=ACTION             Kontrollera behörighet att utföra ACTION\n"
++"  -a, --action-id=ÅTGÄRD             Kontrollera behörighet att utföra ÅTGÄRD\n"
 +"  -u, --allow-user-interaction       Interagera med användaren om det behövs\n"
-+"  -d, --details=KEY VALUE            Lägg till (KEY, VALUE) i åtgärdsinformationen\n"
++"  -d, --details=NYCKEL VÄRDE          Lägg till (NYCKEL, VÄRDE) i åtgärdsinformationen\n"
 +"  --enable-internal-agent            Använd en intern autentiseringsagent om det behövs\n"
 +"  --list-temp                        Lista tillfälliga auktoriseringar för aktuell session\n"
-+"  -p, --process=PID[,START_TIME,UID] Kontrollera behörighet för den angivna processen\n"
++"  -p, --process=PID[,STARTTID,UID]    Kontrollera behörighet för den angivna processen\n"
 +"  --revoke-temp                      Återkalla alla tillfälliga auktoriseringar för aktuell session\n"
-+"  -s, --system-bus-name=BUS_NAME     Kontrollera behörighet för ägaren av BUS_NAME\n"
++"  -s, --system-bus-name=BUSSNAMN     Kontrollera behörighet för ägaren av BUSSNAMN\n"
  "  --version                          Visa version\n"
  "\n"
  "Rapportera fel till: %s\n"
@@ -165,25 +148,6 @@
  
  #: src/programs/pkttyagent.c:91
  msgid "FD"
-@@ -198,15 +182,15 @@
- 
- #: src/programs/pkttyagent.c:96
- msgid "PID[,START_TIME]"
--msgstr "PID[,STARTTID]"
-+msgstr "PID[,START_TIME]"
- 
- #: src/programs/pkttyagent.c:100
- msgid "Register the agent for the owner of BUS_NAME"
--msgstr "Registrera agenten för ägaren av BUSSNAMN"
-+msgstr "Registrera agenten för ägaren av BUS_NAME"
- 
- #: src/programs/pkttyagent.c:100
- msgid "BUS_NAME"
--msgstr "BUSSNAMN"
-+msgstr "BUS_NAME"
- 
- #: src/programs/pkttyagent.c:155
- #, c-format
 @@ -217,4 +201,4 @@
  #: src/programs/pkttyagent.c:179
  #, c-format

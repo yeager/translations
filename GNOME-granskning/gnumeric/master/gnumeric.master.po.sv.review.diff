@@ -6,50 +6,50 @@
  "POT-Creation-Date: 2026-11-22 12:32+0000\n"
 -"PO-Revision-Date: 2026-08-12 01:52+0200\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-23 14:30+0100\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
  "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
  "Language: sv\n"
  "MIME-Version: 1.0\n"
 @@ -156,10 +156,9 @@
  msgstr "Värdetypen %s på rad %d är okänd. Ignorerar."
-
+ 
  #: ../plugins/dif/dif.c:213 ../plugins/dif/dif.c:236
 -#, fuzzy, c-format
  #| msgid "Syntax error at line %d. Ignoring."
  msgid "Data before first row marker at line %d. Ignoring."
 -msgstr "Syntaxfel på rad %d. Ignorerar."
 +msgstr "Data före första radmarkören på rad %d. Ignoreras."
-
+ 
  #: ../plugins/dif/dif.c:273
  #, c-format
 @@ -499,10 +498,9 @@
  msgstr "Avvisar objekt med ofullständigt ankare %2x"
-
+ 
  #: ../plugins/excel/xlsx-read-drawing.c:3349
 -#, fuzzy
  #| msgid "Dropping object with incomplete anchor %2x"
  msgid "Dropping object with anchor outside the sheet"
 -msgstr "Avvisar objekt med ofullständigt ankare %2x"
 +msgstr "Släpper objekt med ankare utanför kalkylbladet"
-
+ 
  # TODO: Doubled space
  #: ../plugins/excel/xlsx-read-pivot.c:970
 @@ -608,10 +606,9 @@
  msgstr "Odefinierad partiell stilpost ”%d”"
-
+ 
  #: ../plugins/excel/xlsx-read.c:1375
 -#, fuzzy, c-format
  #| msgid "Invalid number '%s' for node %s"
  msgid "Invalid number '%s'"
 -msgstr "Ogiltigt antal ”%s” för nod %s"
 +msgstr "Ogiltigt tal ”%s”"
-
+ 
  #: ../plugins/excel/xlsx-read.c:1393
  #, c-format
 @@ -1270,11 +1267,10 @@
  msgstr "Programnamn"
-
+ 
  #: ../plugins/mps/mps.c:214
 -#, fuzzy
  #| msgid "Duplicate %d Object"
@@ -57,44 +57,44 @@
  msgid "Duplicate ROWS section"
 -msgstr "Duplicera %d objekt"
 +msgstr "Dubblett av ROWS-avsnitt"
-
+ 
  #: ../plugins/mps/mps.c:230
  msgid "Invalid line in ROWS section"
 @@ -1303,10 +1299,9 @@
  msgstr "Ogiltig markör"
-
+ 
  #: ../plugins/mps/mps.c:325
 -#, fuzzy
  #| msgid "Too many arguments for %s"
  msgid "Too many variables for a sheet"
 -msgstr "För många argument för %s"
 +msgstr "För många variabler för ett kalkylblad"
-
+ 
  #: ../plugins/mps/mps.c:363
  #, c-format
 @@ -1329,10 +1324,9 @@
  msgstr "Ogiltigt radnamn, %s, i rhs-/intervallavsnittet"
-
+ 
  #: ../plugins/mps/mps.c:656
 -#, fuzzy
  #| msgid "Too many arguments for %s"
  msgid "Too many constraints for a sheet"
 -msgstr "För många argument för %s"
 +msgstr "För många begränsningar för ett kalkylblad"
-
+ 
  #. ----------------------------------------
  #: ../plugins/mps/mps.c:663 ../src/tools/gnm-solver.c:2135
 @@ -1404,7 +1398,7 @@
-
+ 
  #: ../plugins/oleo/oleo.c:319
  msgid "Unable to convert from ISO-8859-1."
 -msgstr ""
 +msgstr "Det gick inte att konvertera från ISO-8859-1."
-
+ 
  #: ../plugins/oleo/plugin.xml.in.h:1
  msgid "GNU Oleo"
 @@ -1537,10 +1531,9 @@
-
+ 
  #. The first pass saw fewer tables than we do now.
  #: ../plugins/openoffice/openoffice-read.c:2598
 -#, fuzzy
@@ -102,7 +102,7 @@
  msgid "Unexpected extra table ignored."
 -msgstr "Ej namngiven datastil ignorerad."
 +msgstr "Oväntad extra tabell ignorerad."
-
+ 
  #: ../plugins/openoffice/openoffice-read.c:2951
  #, c-format
 @@ -1741,12 +1734,13 @@
@@ -111,40 +111,40 @@
  msgstr ""
 +"Gnumeric stöder endast ett villkor, eller två enkla villkor förenade med "
 +"”och” eller ”eller”, per autofilterfält. Övriga ignoreras."
-
+ 
  #: ../plugins/openoffice/openoffice-read.c:8556
 -#, fuzzy
  #| msgid "Gnumeric does not support 'or'-ed autofilter conditions."
  msgid "Gnumeric does not support nested autofilter conditions."
 -msgstr "Gnumeric stödjer inte ”or”-ade villkor för automatiska filter."
 +msgstr "Gnumeric stöder inte nästlade autofiltervillkor."
-
+ 
  #: ../plugins/openoffice/openoffice-read.c:8679
  #, c-format
 @@ -1944,10 +1938,9 @@
  msgstr "sökväg"
-
+ 
  #: ../plugins/openoffice/openoffice-write.c:9310
 -#, fuzzy
  #| msgid "Unable to create Autofilter"
  msgid "Unable to create the ODF zip container."
 -msgstr "Det går inte att skapa autofilter"
 +msgstr "Det gick inte att skapa ODF-zipbehållaren."
-
+ 
  #: ../plugins/openoffice/openoffice-write.c:9383
  msgid "Writing Sheets..."
 @@ -1984,11 +1977,11 @@
-
+ 
  #: ../plugins/paradox/paradox.c:106
  msgid "The Paradox file has too many fields."
 -msgstr ""
 +msgstr "Paradox-filen har för många fält."
-
+ 
  #: ../plugins/paradox/paradox.c:120
  msgid "The Paradox file has an invalid field length."
 -msgstr ""
 +msgstr "Paradox-filen har en ogiltig fältlängd."
-
+ 
  #: ../plugins/paradox/paradox.c:139
  #: ../templates/autoformat/autoformat.General.table.xml.in.h:1
 @@ -2004,6 +1997,8 @@
@@ -153,71 +153,71 @@
  msgstr ""
 +"Paradox-filen har fler poster än vad som ryms i ett kalkylblad; återstående "
 +"poster importerades inte."
-
+ 
  #: ../plugins/paradox/paradox.c:304
  #, c-format
 @@ -2037,10 +2032,9 @@
  msgstr "Fältspecifikation saknar kolumnstorlek."
-
+ 
  #: ../plugins/paradox/paradox.c:481
 -#, fuzzy, c-format
  #| msgid "The number is out of range"
  msgid "The size of the %d. field is out of range."
 -msgstr "Talet är utanför intervallet"
 +msgstr "Storleken på det %d:e fältet ligger utanför intervallet."
-
+ 
  #. There is also precision which we do not care about.
  #: ../plugins/paradox/paradox.c:488
 @@ -2103,16 +2097,14 @@
  msgstr "Kunde inte skriva postnummer %d."
-
+ 
  #: ../plugins/paradox/paradox.c:700
 -#, fuzzy
  #| msgid "Could not create output file."
  msgid "Could not write output file."
 -msgstr "Kunde inte skapa utdatafil."
 +msgstr "Kunde inte skriva utdatafilen."
-
+ 
  #: ../plugins/paradox/paradox.c:707
 -#, fuzzy, c-format
  #| msgid "Cannot create file %s\n"
  msgid "Cannot open %s"
 -msgstr "Kan inte skapa filen %s\n"
 +msgstr "Kan inte öppna %s"
-
+ 
  #: ../plugins/paradox/plugin.xml.in.h:1
  msgid "Paradox"
 @@ -2172,7 +2164,7 @@
-
+ 
  #: ../plugins/plan-perfect/pln.c:565
  msgid "PLN : File is truncated"
 -msgstr ""
 +msgstr "PLN: Filen är trunkerad"
-
+ 
  #: ../plugins/plan-perfect/pln.c:567
  msgid "PLN : Spreadsheet is password encrypted"
 @@ -2212,10 +2204,9 @@
  msgstr "Fel vid tolkning av Psion-fil."
-
+ 
  #: ../plugins/psiconv/psiconv-read.c:751
 -#, fuzzy
  #| msgid "This Psion file is not a Sheet file."
  msgid "This Psion file contains no worksheets."
 -msgstr "Den här Psion-filen är inte en Sheet-fil."
 +msgstr "Den här Psion-filen innehåller inga kalkylblad."
-
+ 
  #: ../plugins/psiconv/psiconv-read.c:754
  msgid "This Psion file is not a Sheet file."
 @@ -2395,10 +2386,9 @@
  "Quattro Pro-fil?"
-
+ 
  #: ../plugins/qpro/qpro-read.c:975
 -#, fuzzy
  #| msgid "Error while reading lotus workbook."
  msgid "Error while reading Quattro Pro workbook."
 -msgstr "Fel vid läsning av lotus-arbetsbok."
 +msgstr "Fel vid läsning av Quattro Pro-arbetsbok."
-
+ 
  #: ../plugins/sample_datasource/plugin.xml.in.h:1
  msgid "Sample DataSource"
 @@ -2486,7 +2476,7 @@
@@ -226,7 +226,7 @@
  msgid "Cell position is outside the supported sheet size"
 -msgstr ""
 +msgstr "Cellpositionen ligger utanför den kalkylbladsstorlek som stöds"
-
+ 
  #: ../plugins/sylk/sylk.c:840
  msgid "Missing closing 'E'"
 @@ -2522,12 +2512,16 @@
@@ -235,7 +235,7 @@
  msgstr ""
 +"xbase-filen har fler fält än vad som ryms i ett kalkylblad; återstående fält "
 +"importerades inte."
-
+ 
  #: ../plugins/xbase/boot.c:259
  msgid ""
  "The xbase file has more records than fit in a sheet; the remaining records "
@@ -243,48 +243,48 @@
  msgstr ""
 +"xbase-filen har fler poster än vad som ryms i ett kalkylblad; återstående "
 +"poster importerades inte."
-
+ 
  #: ../plugins/xbase/plugin.xml.in.h:1
  msgid "XBase"
 @@ -4029,10 +4023,9 @@
  msgstr "Byter format på %s"
-
+ 
  #: ../src/commands.c:2047
 -#, fuzzy
  #| msgid "Setting Font Style of %s"
  msgid "Setting Font Style"
 -msgstr "Sättande typsnittsstilen för %s"
 +msgstr "Ställer in typsnittsstil"
-
+ 
  #: ../src/commands.c:2076
  #, c-format
 @@ -4278,10 +4271,9 @@
  msgstr "Autoformatering av %s"
-
+ 
  #: ../src/commands.c:4128
 -#, fuzzy
  #| msgid "Unmerge"
  msgid "Unmerge Cells"
 -msgstr "Ångra sammanfogning"
 +msgstr "Dela upp celler"
-
+ 
  #: ../src/commands.c:4189
  #, c-format
 @@ -4289,10 +4281,9 @@
  msgstr "Splittring av %s"
-
+ 
  #: ../src/commands.c:4290 ../src/commands.c:4303
 -#, fuzzy
  #| msgid "Merge Field"
  msgid "Merge Cells"
 -msgstr "Sammanfoga fält"
 +msgstr "Sammanfoga celler"
-
+ 
  #: ../src/commands.c:4382
  #, c-format
 @@ -4311,12 +4302,12 @@
  msgstr "Sök och ersätt"
-
+ 
  #: ../src/commands.c:4829
 -#, fuzzy
  #| msgid "%s is locked. Unprotect the sheet to enable editing."
@@ -294,7 +294,7 @@
 -msgstr "%s är låst. Ta bort skyddet på bladet för att tillåta redigering."
 +msgstr "Vissa matchande celler är låsta och ändrades inte. Ta bort skyddet från "
 +"kalkylbladet för att kunna redigera."
-
+ 
  #: ../src/commands.c:4931
  #, c-format
 @@ -6897,7 +6888,7 @@
@@ -303,100 +303,100 @@
  msgid "_Upper Bound:"
 -msgstr "_Övre gräns:"
 +msgstr "Ö_vre gräns:"
-
+ 
  #: ../src/dialogs/dialog-random-generator.c:105
  msgid "Uniform Integer"
 @@ -7638,10 +7629,9 @@
  msgstr "Kunde inte skapa simuleringsdialogen."
-
+ 
  #: ../src/dialogs/dialog-so-list.c:104
 -#, fuzzy
  #| msgid "Invalid expression"
  msgid "Invalid reference or expression."
 -msgstr "Ogiltigt uttryck"
 +msgstr "Ogiltig referens eller uttryck."
-
+ 
  #: ../src/dialogs/dialog-so-list.c:181
  msgid "Could not create the List Property dialog."
 @@ -8237,7 +8227,7 @@
-
+ 
  #: ../src/dialogs/autoformat.ui.h:12 ../src/dialogs/cell-format.ui.h:29
  msgid "_Top"
 -msgstr "_Överkant"
 +msgstr "Ö_verkant"
-
+ 
  #: ../src/dialogs/autoformat.ui.h:13 ../src/dialogs/cell-format.ui.h:31
  msgid "_Bottom"
 @@ -8680,7 +8670,7 @@
-
+ 
  #: ../src/dialogs/cell-format.ui.h:102
  msgid "Ac_tion:"
 -msgstr "_Åtgärd:"
 +msgstr "Å_tgärd:"
-
+ 
  #: ../src/dialogs/cell-format.ui.h:103
  msgid "Titl_e:"
 @@ -8863,7 +8853,7 @@
-
+ 
  #: ../src/dialogs/consolidate.ui.h:7
  msgid "Labels in _top row"
 -msgstr "Rubriker i _översta raden"
 +msgstr "Rubriker i ö_versta raden"
-
+ 
  #: ../src/dialogs/consolidate.ui.h:8
  msgid ""
 @@ -9336,7 +9326,7 @@
-
+ 
  #: ../src/dialogs/dialog-stf.ui.h:20
  msgid "_Separated"
 -msgstr "_Åtskilda"
 +msgstr "Åts_kilda"
-
+ 
  #: ../src/dialogs/dialog-stf.ui.h:21
  msgid ""
 @@ -9865,7 +9855,7 @@
-
+ 
  #: ../src/dialogs/fill-series.ui.h:17
  msgid "_Year"
 -msgstr "_År"
 +msgstr "Å_r"
-
+ 
  #: ../src/dialogs/formula-guru.ui.h:1
  msgid "Formula Guru"
 @@ -10185,7 +10175,7 @@
-
+ 
  #: ../src/dialogs/hyperlink.ui.h:5
  msgid "_Subject:"
 -msgstr "_Ämne:"
 +msgstr "Ä_mne:"
-
+ 
  #: ../src/dialogs/hyperlink.ui.h:6
  msgid "_Web Address:"
 @@ -10984,7 +10974,7 @@
-
+ 
  #: ../src/dialogs/rank.ui.h:13
  msgid "_Top rank"
 -msgstr "_Översta rang"
 +msgstr "Ö_versta rang"
-
+ 
  #: ../src/dialogs/recent.ui.h:1
  msgid "Recently Used Documents"
 @@ -11265,7 +11255,7 @@
-
+ 
  #: ../src/dialogs/search-replace.ui.h:32 ../src/dialogs/search.ui.h:21
  msgid "_Other values"
 -msgstr "_Övriga värden"
 +msgstr "Ö_vriga värden"
-
+ 
  #: ../src/dialogs/search-replace.ui.h:33
  msgid "Perform changes within non-string values"
 @@ -12408,7 +12398,7 @@
-
+ 
  #: ../src/gnm-graph-window.c:249
  msgid "Chart Viewer"
 -msgstr ""
 +msgstr "Diagramvisare"
-
+ 
  #: ../src/gnm-pane.c:2099
  #, c-format
 @@ -12557,7 +12547,7 @@
@@ -407,27 +407,36 @@
 +"Om du vill spara alla blad bör du spara dem i separata filer eller välja "
  "ett annat filformat.\n"
  "Vill du spara endast det aktuella bladet?"
-
+ 
 @@ -12659,7 +12649,7 @@
  #: ../src/gui-util.h:151
  msgctxt "Stock label"
  msgid "_Open"
 -msgstr "_Öppna"
 +msgstr "Ö_ppna"
-
+ 
  #: ../src/gui-util.h:154
  msgctxt "Stock label"
+@@ -12794,7 +12784,7 @@
+ 
+ #: ../src/libgnumeric.c:90 ../src/libgnumeric.c:96
+ msgid "DIR"
+-msgstr "KAT"
++msgstr "KATALOG"
+ 
+ #: ../src/libgnumeric.c:95
+ msgid "Adjust the root data directory"
 @@ -13420,7 +13410,7 @@
-
+ 
  #: ../src/sheet-object.c:329
  msgid "Pul_l to Front"
 -msgstr "Flytta _överst"
 +msgstr "Flytta ö_verst"
-
+ 
  #: ../src/sheet-object.c:330
  msgid "Pull _Forward"
 @@ -13753,10 +13743,10 @@
-
+ 
  #. Loaded without error but with no sheets
  #: ../src/ssconvert.c:491
 -#, fuzzy, c-format
@@ -436,12 +445,12 @@
  msgid "Loading %s failed"
 -msgstr "Misslyckades med inläsning av %s\n"
 +msgstr "Inläsning av %s misslyckades"
-
+ 
  #: ../src/ssconvert.c:569
  #, c-format
 @@ -13847,10 +13837,10 @@
  msgstr "Misslyckades med inläsning av %s\n"
-
+ 
  #: ../src/ssconvert.c:1465
 -#, fuzzy, c-format
 +#, c-format
@@ -449,12 +458,12 @@
  msgid "--goal-seek only works on the current sheet\n"
 -msgstr "Skapa en kopia av aktuellt blad"
 +msgstr "--goal-seek fungerar endast på det aktuella kalkylbladet\n"
-
+ 
  #: ../src/ssconvert.c:1495
  #, c-format
 @@ -13863,10 +13853,10 @@
  msgstr "Storleksändring på blad %s misslyckades\n"
-
+ 
  #: ../src/ssconvert.c:1514
 -#, fuzzy, c-format
 +#, c-format
@@ -462,35 +471,35 @@
  msgid "Invalid resize specification \"%s\"\n"
 -msgstr "Ogiltig absolut filspecifikation ”%s” påträffades."
 +msgstr "Ogiltig specifikation för storleksändring ”%s”\n"
-
+ 
  #: ../src/ssconvert.c:1672 ../src/ssconvert.c:1751
  msgid "INFILE [OUTFILE]"
 @@ -13935,16 +13925,14 @@
  msgstr "Bladattributet %s ändrades.\n"
-
+ 
  #: ../src/ssdiff.c:204
 -#, fuzzy
  #| msgid "Column %s changed.\n"
  msgid "Default column properties changed.\n"
 -msgstr "Kolumn %s ändrades.\n"
 +msgstr "Standardegenskaperna för kolumner har ändrats.\n"
-
+ 
  #: ../src/ssdiff.c:205
 -#, fuzzy
  #| msgid "Sheet order changed.\n"
  msgid "Default row properties changed.\n"
 -msgstr "Bladordningen ändrad.\n"
 +msgstr "Standardegenskaperna för rader har ändrats.\n"
-
+ 
  #: ../src/ssdiff.c:207
  #, c-format
 @@ -15099,7 +15087,7 @@
-
+ 
  #: ../src/tools/data-shuffling.c:350
  msgid "There is not enough empty space on the sheet to use while shuffling."
 -msgstr ""
 +msgstr "Det finns inte tillräckligt med tomt utrymme i kalkylbladet för att kunna blanda om."
-
+ 
  #: ../src/tools/fill-series.c:435
  #, c-format
 @@ -15206,7 +15194,8 @@
@@ -500,7 +509,7 @@
 -msgstr "Slutligt värde"
 +msgstr "Slutligt\n"
 +"värde"
-
+ 
  #: ../src/tools/gnm-solver.c:2102
  msgid ""
 @@ -15236,7 +15225,8 @@
@@ -510,81 +519,81 @@
 -msgstr "Skuggpris"
 +msgstr "Skugg\n"
 +"pris"
-
+ 
  #: ../src/tools/gnm-solver.c:2137
  msgid ""
 @@ -15590,10 +15580,9 @@
  msgstr "#SPILL!"
-
+ 
  #: ../src/wbc-gtk-actions.c:137
 -#, fuzzy
  #| msgid "Unable to create Autofilter"
  msgid "Unable to create a temporary directory."
 -msgstr "Det går inte att skapa autofilter"
 +msgstr "Det gick inte att skapa en temporär katalog."
-
+ 
  #: ../src/wbc-gtk-actions.c:186 ../src/workbook-view.c:1359
  msgid "Default file saver is not available."
 @@ -15678,10 +15667,9 @@
  "%s"
-
+ 
  #: ../src/wbc-gtk-actions.c:1171
 -#, fuzzy
  #| msgid "Unable to load the file '%s'."
  msgid "Unable to read the image file."
 -msgstr "Det går inte att öppna filen ”%s”."
 +msgstr "Det gick inte att läsa bildfilen."
-
+ 
  #: ../src/wbc-gtk-actions.c:1252
  msgid "Sort"
 @@ -15720,10 +15708,9 @@
  msgstr "Formatera som procent"
-
+ 
  #: ../src/wbc-gtk-actions.c:1709
 -#, fuzzy
  #| msgid "Format as Time"
  msgid "Format as Scientific"
 -msgstr "Formatera som tid"
 +msgstr "Formatera som vetenskapligt"
-
+ 
  #: ../src/wbc-gtk-actions.c:1717
  msgid "Format as Time"
 @@ -15897,7 +15884,7 @@
-
+ 
  #: ../src/wbc-gtk-actions.c:2081
  msgid "_Modify"
 -msgstr "_Ändra"
 +msgstr "Ä_ndra"
-
+ 
  #: ../src/wbc-gtk-actions.c:2084
  msgid "S_heet"
 @@ -17609,7 +17596,7 @@
-
+ 
  #: ../src/wbc-gtk-actions.c:3627
  msgid "Align _Top"
 -msgstr "Justera _överkant"
 +msgstr "Justera ö_verkant"
-
+ 
  #: ../src/wbc-gtk-actions.c:3628
  msgid "Align Top"
 @@ -17956,7 +17943,7 @@
-
+ 
  #: ../src/wbc-gtk.c:1799
  msgid "_Undo"
 -msgstr "_Ångra"
 +msgstr "Å_ngra"
-
+ 
  #: ../src/wbc-gtk.c:1829
  #, c-format
 @@ -18383,10 +18370,9 @@
  msgstr "Filformatet stöds inte för filen ”%s”"
-
+ 
  #: ../src/workbook-view.c:1505
 -#, fuzzy
  #| msgid "Unsupported file format for file \"%s\""
  msgid "Unsupported file format"
 -msgstr "Filformatet stöds inte för filen ”%s”"
 +msgstr "Filformatet stöds inte"
-
+ 
  #: ../src/workbook-view.c:1559
  #, c-format
