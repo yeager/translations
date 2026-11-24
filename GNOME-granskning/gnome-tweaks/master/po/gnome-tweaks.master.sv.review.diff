@@ -1,0 +1,157 @@
+diff --git a/.work-gnome-review/gnome-tweaks-master-po/original.po b/.work-gnome-review/gnome-tweaks-master-po/sv.po
+index a0ad393..76f3a38 100644
+--- a/.work-gnome-review/gnome-tweaks-master-po/original.po
++++ b/.work-gnome-review/gnome-tweaks-master-po/sv.po
+@@ -5,14 +5,15 @@
+ # Sebastian Rasmussen <sebras@gmail.com>, 2014, 2018.
+ # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017, 2018, 2023, 2024.
+ # Luna Jernberg <droidbittin@gmail.com>, 2020, 2022.
++# Daniel Nylander <gnome@danielnylander.se>, 2026.
+ #
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-tweaks\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tweaks/issues\n"
+ "POT-Creation-Date: 2026-10-08 11:19+0000\n"
+-"PO-Revision-Date: 2024-02-25 14:49+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -44,11 +45,11 @@ msgstr "GNOME-projektet"
+ #: data/org.gnome.tweaks.metainfo.xml.in:13 gtweak/app.py:52
+ #: gtweak/utils.py:331 gtweak/utils.py:348
+ msgid "GNOME Tweaks"
+-msgstr "GNOME Justering"
++msgstr "GNOME Justeringar"
+ 
+ #: data/org.gnome.tweaks.metainfo.xml.in:16
+ msgid "GNOME Tweaks allows adjusting advanced GNOME options."
+-msgstr "GNOME Justering erbjuder justering av avancerade GNOME-alternativ."
++msgstr "GNOME Justeringar gör det möjligt att justera avancerade GNOME-alternativ."
+ 
+ #: data/org.gnome.tweaks.metainfo.xml.in:19
+ msgid ""
+@@ -60,7 +61,7 @@ msgstr ""
+ 
+ #: data/shell.ui:6
+ msgid "_Reset to Defaults"
+-msgstr "_Återställ till standard"
++msgstr "Åters_täll till standard"
+ 
+ #: data/shell.ui:12
+ msgid "_About Tweaks"
+@@ -80,7 +81,7 @@ msgstr "Ljud"
+ 
+ #: data/tweaks.ui:145 gtweak/tweaks/tweak_group_mouse.py:113
+ msgid "Mouse & Touchpad"
+-msgstr "Mus och styr­platt­a"
++msgstr "Mus och styrplatta"
+ 
+ #: data/tweaks.ui:174 gtweak/tweaks/tweak_group_keyboard.py:258
+ msgid "Keyboard"
+@@ -124,7 +125,7 @@ msgstr "Återställ till standard"
+ 
+ #: gtweak/app.py:91
+ msgid "Reset all tweaks settings to the original default state?"
+-msgstr "Återställ alla justeringsinställningar till deras standardläge?"
++msgstr "Återställ alla justeringsinställningar till sina ursprungliga standardvärden?"
+ 
+ #: gtweak/app.py:100 gtweak/app.py:103
+ msgid "GNOME Shell"
+@@ -137,7 +138,7 @@ msgstr "(%s-läge)"
+ 
+ #: gtweak/app.py:106
+ msgid "GNOME Shell is not running"
+-msgstr "GNOME-skalet kör inte"
++msgstr "GNOME-skalet körs inte"
+ 
+ #: gtweak/app.py:108
+ msgid "GTK"
+@@ -205,12 +206,12 @@ msgstr "Välj ett tema"
+ #: gtweak/tweaks/tweak_group_appearance.py:219
+ #, python-format
+ msgid "%s theme updated successfully"
+-msgstr "%s tema uppdaterades"
++msgstr "%s-temat uppdaterades"
+ 
+ #: gtweak/tweaks/tweak_group_appearance.py:221
+ #, python-format
+ msgid "%s theme installed successfully"
+-msgstr "%s tema installerades"
++msgstr "%s-temat installerades"
+ 
+ #: gtweak/tweaks/tweak_group_appearance.py:223
+ msgid "Error installing theme"
+@@ -288,7 +289,7 @@ msgstr "Dokumenttext"
+ 
+ #: gtweak/tweaks/tweak_group_font.py:42
+ msgid "Monospace Text"
+-msgstr "Text med fast breddsteg"
++msgstr "Text med fast teckenbredd"
+ 
+ #: gtweak/tweaks/tweak_group_font.py:45
+ msgid "Rendering"
+@@ -360,7 +361,8 @@ msgid ""
+ "Disables secondary clicks on touchpads which do not have a physical "
+ "secondary button"
+ msgstr ""
+-"Inaktivera sekundärklick på styrplattor som inte har en fysisk andra knapp"
++"Inaktiverar sekundärklick på styrplattor som saknar en fysisk "
++"sekundärknapp"
+ 
+ #: gtweak/tweaks/tweak_group_mouse.py:76
+ msgid "Mouse"
+@@ -463,7 +465,7 @@ msgstr "Klicka för fokus"
+ 
+ #: gtweak/tweaks/tweak_group_windows.py:20
+ msgid "Windows are focused when they are clicked."
+-msgstr "Fönster fokuseras då de klickas."
++msgstr "Fönster fokuseras när du klickar på dem."
+ 
+ #: gtweak/tweaks/tweak_group_windows.py:23
+ msgid "Focus on Hover"
+@@ -474,8 +476,8 @@ msgid ""
+ "Window is focused when hovered with the pointer. Windows remain focused when "
+ "the desktop is hovered."
+ msgstr ""
+-"Fönster fokuseras då de hovras över med pekaren. Fönster förblir fokuserade "
+-"vid hovring över skrivbordet."
++"Fönstret fokuseras när pekaren hålls över det. Fönster förblir fokuserade "
++"när pekaren hålls över skrivbordet."
+ 
+ #: gtweak/tweaks/tweak_group_windows.py:28
+ msgid "Focus Follows Mouse"
+@@ -486,8 +488,8 @@ msgid ""
+ "Window is focused when hovered with the pointer. Hovering the desktop "
+ "removes focus from the previous window."
+ msgstr ""
+-"Fönster fokuseras då de hovras över med pekaren. Att hovra över skrivbordet "
+-"tar bort fokus från föregående fönster."
++"Fönstret fokuseras när pekaren hålls över det. Att hålla pekaren över "
++"skrivbordet tar bort fokus från föregående fönster."
+ 
+ #: gtweak/tweaks/tweak_group_windows.py:81
+ msgid "Placement"
+@@ -546,8 +548,8 @@ msgid ""
+ "When on, modal dialog windows are attached to their parent windows, and "
+ "cannot be moved."
+ msgstr ""
+-"När aktiverat kommer modala dialogrutor att fästas vid deras föräldrafönster "
+-"och kan inte flyttas."
++"När det är aktiverat fästs modala dialogrutor vid sina föräldrafönster och "
++"kan inte flyttas."
+ 
+ #: gtweak/tweaks/tweak_group_windows.py:149
+ msgid "Center New Windows"
+@@ -585,7 +587,7 @@ msgstr "Konfigurationsändringar kräver omstart"
+ 
+ #: gtweak/utils.py:351
+ msgid "Your session needs to be restarted for settings to take effect"
+-msgstr "Din session måste startas om för att inställningar ska få effekt"
++msgstr "Din session måste startas om för att inställningarna ska börja gälla"
+ 
+ #: gtweak/utils.py:355
+ msgid "Restart Session"
