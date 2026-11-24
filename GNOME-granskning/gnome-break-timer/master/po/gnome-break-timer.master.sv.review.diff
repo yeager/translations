@@ -1,0 +1,102 @@
+diff --git a/.work-gnome-review/gnome-break-timer-master-po/original.po b/.work-gnome-review/gnome-break-timer-master-po/sv.po
+index c60cacb..34f6f47 100644
+--- a/.work-gnome-review/gnome-break-timer-master-po/original.po
++++ b/.work-gnome-review/gnome-break-timer-master-po/sv.po
+@@ -11,8 +11,8 @@ msgstr ""
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-break-timer/"
+ "issues\n"
+ "POT-Creation-Date: 2025-01-11 09:01+0000\n"
+-"PO-Revision-Date: 2024-09-15 19:55+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 12:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -67,7 +67,7 @@ msgstr "Tid att avsluta tyst läge."
+ 
+ #: data/gschema/org.gnome.BreakTimer.gschema.xml.in.in:26
+ msgid "The time to automatically disable quiet mode, in unix time."
+-msgstr "Tid till att automatiskt inaktivera tyst läge, i UNIX-tid."
++msgstr "Tidpunkten då tyst läge automatiskt inaktiveras, i Unix-tid."
+ 
+ #: data/gschema/org.gnome.BreakTimer.gschema.xml.in.in:36
+ #: data/gschema/org.gnome.BreakTimer.gschema.xml.in.in:56
+@@ -121,16 +121,16 @@ msgid ""
+ "for you and it will carry on working in the background."
+ msgstr ""
+ "Break Timer är lätt att ställa in så du kan välja ett rastschema som "
+-"fungerar för dig - programmet kommer att fortsätta arbeta i bakgrunden."
++"fungerar för dig – programmet kommer att fortsätta arbeta i bakgrunden."
+ 
+ #: data/metainfo/org.gnome.BreakTimer.metainfo.xml.in.in:16
+ #: data/metainfo/org.gnome.BreakTimer.metainfo.xml.in.in:18
+ msgid "Dylan McCall, et al."
+-msgstr "Dylan McCall med flera"
++msgstr "Dylan McCall med flera."
+ 
+ #: data/metainfo/org.gnome.BreakTimer.metainfo.xml.in.in:35
+ msgid "Easily turn on break timers"
+-msgstr "Slå enkelt på rastklockor"
++msgstr "Aktivera enkelt rasttimrar"
+ 
+ #: data/metainfo/org.gnome.BreakTimer.metainfo.xml.in.in:39
+ msgid "Check on their status at any time"
+@@ -175,7 +175,7 @@ msgstr "Dags för paus"
+ 
+ #: src/daemon/microbreak/MicroBreakView.vala:74
+ msgid "Take a break from typing and look away from the screen"
+-msgstr "Ta en paus från skrivandet och kolla bort från skärmen"
++msgstr "Ta en paus från skrivandet och titta bort från skärmen"
+ 
+ #: src/daemon/microbreak/MicroBreakView.vala:76
+ msgid "It’s time for a micro break"
+@@ -186,8 +186,8 @@ msgstr "Det är dags för en paus"
+ #, c-format
+ msgid "You were due to take a micro break %s ago"
+ msgid_plural "You were due to take a micro break %s ago"
+-msgstr[0] "Du skulle tagit en paus för %s sedan"
+-msgstr[1] "Du skulle tagit en paus för %s sedan"
++msgstr[0] "Du skulle ha tagit en paus för %s sedan"
++msgstr[1] "Du skulle ha tagit en paus för %s sedan"
+ 
+ #: src/daemon/microbreak/MicroBreakView.vala:98
+ msgid "Overdue micro break"
+@@ -353,8 +353,8 @@ msgstr "Rast"
+ #, c-format
+ msgid "Your break has %s remaining. I’ll remind you when it’s over."
+ msgid_plural "Your break has %s remaining. I’ll remind you when it’s over."
+-msgstr[0] "Det är %s kvar av din rast. Du blir påmind när den är slut."
+-msgstr[1] "Det är %s kvar av din rast. Du blir påmind när den är slut."
++msgstr[0] "Det är %s kvar av din rast. Jag påminner dig när den är slut."
++msgstr[1] "Det är %s kvar av din rast. Jag påminner dig när den är slut."
+ 
+ #: src/settings/restbreak/RestBreakInfoWidget.vala:57
+ msgid "It’s break time"
+@@ -370,7 +370,7 @@ msgstr "Lång rast"
+ 
+ #: src/settings/restbreak/RestBreakSettingsWidget.vala:30
+ msgid "And take some longer breaks to stretch your legs"
+-msgstr "och ta en bensträckare"
++msgstr "Och ta en bensträckare"
+ 
+ #: src/settings/restbreak/RestBreakSettingsWidget.vala:34
+ msgid "Lock the screen during breaks"
+@@ -403,7 +403,7 @@ msgstr "Välkommen till Break Timer!"
+ 
+ #: data/ui/settings-panels.blp:27
+ msgid "Breaks are good for you. We'll help you to take them."
+-msgstr "Raster är bra för dig. Vi hjälper dig ta dem."
++msgstr "Raster är bra för dig. Vi hjälper dig att ta dem."
+ 
+ #: data/ui/settings-panels.blp:34
+ msgid "Just switch me on to get started"
+@@ -428,7 +428,7 @@ msgstr "Långa raster är tillfällen att komma bort från datorn och röra på
+ 
+ #: data/ui/settings-panels.blp:94
+ msgid "You can change the types of breaks and their timings from the settings"
+-msgstr "Du kan ändra raster och deras längd bland inställningar"
++msgstr "Du kan ändra rasternas typ och längd i Inställningar"
+ 
+ #: data/ui/settings-panels.blp:104
+ msgid "OK, got it!"

@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:21 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:24 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -345,7 +345,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [gnome-boxes](https://l10n.gnome.org/vertimus/gnome-boxes/gnome-50/po/sv/) | gnome-50 | 252 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-boxes](https://l10n.gnome.org/vertimus/gnome-boxes/main/help/sv/) | main | 233 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-boxes](https://l10n.gnome.org/vertimus/gnome-boxes/gnome-50/help/sv/) | gnome-50 | 233 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-break-timer](https://l10n.gnome.org/vertimus/gnome-break-timer/master/po/sv/) | master | 90 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-break-timer](https://l10n.gnome.org/vertimus/gnome-break-timer/master/po/sv/) | master | 90 | 0 | 0 | Klar | X | 10 | Klar lokalt (2026-11-24): Hela 90-strängarskatalogen är radgranskad mot senaste POT. Tio befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt och msgcmp är godkända. l10n-lint har en korrekt svensk pluralvarning för en opersonlig konstruktion. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](gnome-break-timer/master/po/gnome-break-timer.master.sv.original.po), [granskad](gnome-break-timer/master/po/gnome-break-timer.master.sv.reviewed.po), [diff](gnome-break-timer/master/po/gnome-break-timer.master.sv.review.diff), [notering](gnome-break-timer/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-browser-extension](https://l10n.gnome.org/vertimus/gnome-browser-extension/master/po/sv/) | master | 39 | 0 | 0 | Klar | X | 4 | Klar lokalt (2026-11-24): Hela 39-strängarskatalogen är radgranskad mot senaste POT. Fyra befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](gnome-browser-extension/master/po/gnome-browser-extension.master.po.sv.original.po), [granskad](gnome-browser-extension/master/po/gnome-browser-extension.master.po.sv.reviewed.po), [diff](gnome-browser-extension/master/po/gnome-browser-extension.master.po.sv.review.diff), [notering](gnome-browser-extension/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-builder](https://l10n.gnome.org/vertimus/gnome-builder/main/po/sv/) | main | 1546 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-calculator](https://l10n.gnome.org/vertimus/gnome-calculator/gnome-50/po/sv/) | gnome-50 | 786 | 0 | 0 | Klar |  | — | Ej granskad |
