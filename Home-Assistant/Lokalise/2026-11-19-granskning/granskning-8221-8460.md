@@ -1,6 +1,6 @@
 # Home Assistant Core – granskning 8221–8460
 
-Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Referenser vars mål inte finns i underlaget markeras för senare kontroll.
+Sortering: ”Last added” i rapportögonblicksbilden. Den 24 november jämfördes samtliga 240 poster på nytt med live-Lokalise och aktuell Core-källa. Åtta referensavvikelser rättades och sparades; se livegranskningen nedan. Alla referensmål i spannet kontrollerades.
 
 ## 8221. `component::pvoutput::config::step::reauth_confirm::data_description::api_key`
 
@@ -10,6 +10,10 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8222. `component::bosch_shc::entity::button::reset_tamper::name`
 
 **Engelska:** Reset tamper
@@ -17,6 +21,10 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Återställ manipulationsskydd
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8223. `component::unifiprotect::exceptions::chime_ringtone_not_set::message`
 
@@ -26,6 +34,10 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8224. `component::unifiprotect::entity::sensor::signal_quality::name`
 
 **Engelska:** Signal quality
@@ -33,6 +45,10 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Signalkvalitet
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8225. `component::stream::exceptions::path_not_allowed::message`
 
@@ -42,6 +58,10 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8226. `component::stream::exceptions::already_recording::message`
 
 **Engelska:** The stream is already recording to {filename}.
@@ -49,6 +69,10 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Strömmen spelas redan in till {filename}.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8227. `component::lamarzocco::entity::binary_sensor::bluetooth_connected::name`
 
@@ -58,6 +82,10 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8228. `component::telegram_bot::exceptions::invalid_api_key::message`
 
 **Engelska:** The Telegram bot API token is invalid.
@@ -65,6 +93,10 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Telegram-botens API-token är ogiltig.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8229. `component::wled::exceptions::firmware_upgrade_failed::message`
 
@@ -74,6 +106,10 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8230. `component::unifiprotect::issues::hdr_switch_removed::title`
 
 **Engelska:** HDR mode switch removed
@@ -81,6 +117,10 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** HDR-lägesomkopplare borttagen
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8231. `component::unifiprotect::issues::hdr_switch_removed::description`
 
@@ -96,6 +136,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8232. `component::camera::exceptions::write_read_only::message`
 
 **Engelska:** Cannot write image to {filename}: the file system is read-only.
@@ -104,13 +148,21 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8233. `component::camera::exceptions::write_permission_denied::message`
 
 **Engelska:** Cannot write image to {filename}: permission denied.
 
-**Befintlig svenska:** Det går inte att skriva bilden till {filename}: behörighet nekas.
+**Befintlig svenska:** Det går inte att skriva bilden till {filename}: behörighet saknas.
 
-**Förslag:** Det går inte att skriva bilden till {filename}: behörighet saknas.
+**Bedömning:** Förslaget är redan sparat i Lokalise; ingen ny skrivning behövs.
+
+
+
+
 
 ## 8234. `component::camera::exceptions::write_no_space::message`
 
@@ -120,6 +172,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8235. `component::camera::exceptions::write_failed::message`
 
 **Engelska:** Cannot write image to {filename}.
@@ -127,6 +183,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Det går inte att skriva bilden till {filename}.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8236. `component::camera::exceptions::snapshot_timeout::message`
 
@@ -136,6 +196,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8237. `component::camera::exceptions::record_not_supported::message`
 
 **Engelska:** Camera {entity_id} does not support recording.
@@ -143,6 +207,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Kameran {entity_id} har inte stöd för inspelning.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8238. `component::camera::exceptions::path_not_allowed::message`
 
@@ -152,6 +220,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8239. `component::image::exceptions::write_read_only::message`
 
 **Engelska:** Cannot write image to {filename}: the file system is read-only.
@@ -160,13 +232,21 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8240. `component::image::exceptions::write_permission_denied::message`
 
 **Engelska:** Cannot write image to {filename}: permission denied.
 
-**Befintlig svenska:** Det går inte att skriva bilden till {filename}: behörighet nekas.
+**Befintlig svenska:** Det går inte att skriva bilden till {filename}: behörighet saknas.
 
-**Förslag:** Det går inte att skriva bilden till {filename}: behörighet saknas.
+**Bedömning:** Förslaget är redan sparat i Lokalise; ingen ny skrivning behövs.
+
+
+
+
 
 ## 8241. `component::image::exceptions::write_no_space::message`
 
@@ -176,6 +256,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8242. `component::image::exceptions::write_failed::message`
 
 **Engelska:** Cannot write image to {filename}.
@@ -183,6 +267,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Det går inte att skriva bilden till {filename}.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8243. `component::image::exceptions::path_not_allowed::message`
 
@@ -192,6 +280,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8244. `component::input_select::exceptions::invalid_option::message`
 
 **Engelska:** Option {option} is not valid for {entity_id}. Valid options are: {options}.
@@ -199,6 +291,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Alternativet {option} är inte giltigt för {entity_id}. Giltiga alternativ är: {options}.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8245. `component::input_select::exceptions::duplicate_options::message`
 
@@ -208,6 +304,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8246. `component::weather::exceptions::unsupported_forecast_type::message`
 
 **Engelska:** Weather entity {entity_id} does not support the {forecast_type} forecast type.
@@ -215,6 +315,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Väderentiteten {entity_id} har inte stöd för prognostypen {forecast_type}.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8247. `component::hr_energy_qube::exceptions::no_data::message`
 
@@ -224,6 +328,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8248. `component::hr_energy_qube::exceptions::communication_error::message`
 
 **Engelska:** Error communicating with the Qube heat pump: {error}
@@ -231,6 +339,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Fel vid kommunikation med Qube-värmepumpen: {error}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8249. `component::hr_energy_qube::exceptions::cannot_connect::message`
 
@@ -240,21 +352,33 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8250. `component::bosch_shc::entity::select::vibration_sensitivity::state::very_low`
 
 **Engelska:** [%key:common::state::very_low%]
 
-**Befintlig svenska:** Mycket låg
+**Befintlig svenska:** Väldigt låg
 
 **Kontextkontroll:** Kontrollera referensmålet `common::state::very_low`; det ingår ännu inte i det insamlade underlaget.
+
+
+
+
 
 ## 8251. `component::bosch_shc::entity::select::vibration_sensitivity::state::very_high`
 
 **Engelska:** [%key:common::state::very_high%]
 
-**Befintlig svenska:** Mycket hög
+**Befintlig svenska:** Väldigt hög
 
 **Kontextkontroll:** Kontrollera referensmålet `common::state::very_high`; det ingår ännu inte i det insamlade underlaget.
+
+
+
+
 
 ## 8252. `component::bosch_shc::entity::select::vibration_sensitivity::state::medium`
 
@@ -264,6 +388,10 @@ Uppdatera följande automationer och skript:
 
 **Kontextkontroll:** Kontrollera referensmålet `common::state::medium`; det ingår ännu inte i det insamlade underlaget.
 
+
+
+
+
 ## 8253. `component::bosch_shc::entity::select::vibration_sensitivity::state::low`
 
 **Engelska:** [%key:common::state::low%]
@@ -271,6 +399,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Låg
 
 **Kontextkontroll:** Kontrollera referensmålet `common::state::low`; det ingår ännu inte i det insamlade underlaget.
+
+
+
+
 
 ## 8254. `component::bosch_shc::entity::select::vibration_sensitivity::state::high`
 
@@ -280,6 +412,10 @@ Uppdatera följande automationer och skript:
 
 **Kontextkontroll:** Kontrollera referensmålet `common::state::high`; det ingår ännu inte i det insamlade underlaget.
 
+
+
+
+
 ## 8255. `component::bosch_shc::entity::select::vibration_sensitivity::name`
 
 **Engelska:** Vibration sensitivity
@@ -287,6 +423,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Vibrationskänslighet
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8256. `component::teslemetry::config_subentries::vehicle::error::key_load_failed`
 
@@ -296,6 +436,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8257. `component::teslemetry::config_subentries::vehicle::abort::all_vehicles_added`
 
 **Engelska:** Every accessible vehicle in your Teslemetry account has already been added as a local vehicle.
@@ -303,6 +447,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Alla tillgängliga fordon på ditt Teslemetry-konto har redan lagts till som lokala fordon.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8258. `component::timer::exceptions::timer_not_running::message`
 
@@ -312,6 +460,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8259. `component::timer::exceptions::change_negative_remaining::message`
 
 **Engelska:** Cannot change timer {entity_id} to a negative remaining time.
@@ -319,6 +471,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Det går inte att ändra timern {entity_id} till en negativ återstående tid.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8260. `component::timer::exceptions::change_beyond_duration::message`
 
@@ -328,6 +484,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8261. `component::rehlko::entity::sensor::next_maintenance::name`
 
 **Engelska:** Next maintenance
@@ -335,6 +495,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Nästa underhåll
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8262. `component::rehlko::entity::sensor::last_maintenance::name`
 
@@ -344,6 +508,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8263. `component::wled::config::error::invalid_response`
 
 **Engelska:** The device didn't respond like a WLED device.
@@ -351,6 +519,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Enheten svarade inte som en WLED-enhet.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8264. `component::wled::config::abort::invalid_response`
 
@@ -360,6 +532,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8265. `component::plaato::options::abort::no_options`
 
 **Engelska:** This device has no configurable options.
@@ -367,6 +543,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Den här enheten har inga konfigurerbara alternativ.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8266. `component::plaato::config::abort::no_options`
 
@@ -376,6 +556,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8267. `component::bosch_shc::entity::button::smoke_test::name`
 
 **Engelska:** Start self-test
@@ -383,6 +567,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Starta självtest
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8268. `component::pvoutput::exceptions::authentication_failed::message`
 
@@ -392,6 +580,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8269. `component::midea::entity::switch::running::name`
 
 **Engelska:** Running
@@ -399,6 +591,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** I drift
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8270. `component::midea::entity::switch::power::name`
 
@@ -408,6 +604,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8271. `component::lyngdorf::exceptions::unsupported_command::message`
 
 **Engelska:** The current source does not support this command
@@ -415,6 +615,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Den aktuella källan har inte stöd för det här kommandot.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8272. `component::lyngdorf::exceptions::invalid_option::message`
 
@@ -424,6 +628,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8273. `component::lyngdorf::exceptions::command_failed::message`
 
 **Engelska:** The device did not accept the command
@@ -432,69 +640,105 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8274. `component::anglian_water::config::step::reauth_mfa::description`
 
 **Engelska:** [%key:component::anglian_water::config::step::mfa::description%]
 
-**Befintlig svenska:** [%key:component::anglian_water::config::step::mfa::description%]
+**Befintlig svenska:** Tvåfaktorsautentisering är aktiverad på ditt konto. Kontrollera din e-post för att hitta säkerhetskoden. Den skickas från `no-reply@anglianwater.co.uk`.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8275. `component::anglian_water::config::step::reauth_mfa::data_description::code`
 
 **Engelska:** [%key:component::anglian_water::config::step::mfa::data_description::code%]
 
-**Befintlig svenska:** [%key:component::anglian_water::config::step::mfa::data_description::code%]
+**Befintlig svenska:** Säkerhetskoden som skickades till din e-postadress.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8276. `component::anglian_water::config::step::reauth_mfa::data::code`
 
 **Engelska:** [%key:component::anglian_water::config::step::mfa::data::code%]
 
-**Befintlig svenska:** [%key:component::anglian_water::config::step::mfa::data::code%]
+**Befintlig svenska:** Säkerhetskod
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8277. `component::anglian_water::config::step::reauth_confirm::description`
 
 **Engelska:** [%key:component::anglian_water::config::step::user::description%]
 
-**Befintlig svenska:** [%key:component::anglian_water::config::step::user::description%]
+**Befintlig svenska:** Ange dina inloggningsuppgifter för Anglian Water-kontot för att ansluta till Home Assistant.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8278. `component::anglian_water::config::step::reauth_confirm::data_description::username`
 
 **Engelska:** [%key:component::anglian_water::config::step::user::data_description::username%]
 
-**Befintlig svenska:** [%key:component::anglian_water::config::step::user::data_description::username%]
+**Befintlig svenska:** Användarnamn eller e-postadress som används för att logga in på Anglian Waters webbplats.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8279. `component::anglian_water::config::step::reauth_confirm::data_description::password`
 
 **Engelska:** [%key:component::anglian_water::config::step::user::data_description::password%]
 
-**Befintlig svenska:** [%key:component::anglian_water::config::step::user::data_description::password%]
+**Befintlig svenska:** Ditt lösenord
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8280. `component::anglian_water::config::step::reauth_confirm::data::username`
 
 **Engelska:** [%key:common::config_flow::data::username%]
 
-**Befintlig svenska:** [%key:common::config_flow::data::username%]
+**Befintlig svenska:** Användarnamn
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8281. `component::anglian_water::config::step::reauth_confirm::data::password`
 
 **Engelska:** [%key:common::config_flow::data::password%]
 
-**Befintlig svenska:** [%key:common::config_flow::data::password%]
+**Befintlig svenska:** Lösenord
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8282. `component::anglian_water::config::error::account_not_found`
 
@@ -504,6 +748,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8283. `component::scorpiontrack::config::step::reconfigure::title`
 
 **Engelska:** Update a ScorpionTrack share
@@ -511,6 +759,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Uppdatera en ScorpionTrack-delning
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8284. `component::scorpiontrack::config::step::reconfigure::description`
 
@@ -520,21 +772,33 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8285. `component::scorpiontrack::config::step::reconfigure::data_description::share_token`
 
 **Engelska:** [%key:component::scorpiontrack::config::step::user::data_description::share_token%]
 
-**Befintlig svenska:** Klistra in den fullständiga ScorpionTrack-URL:en för den delade platsen eller bara själva token.
+**Befintlig svenska:** Klistra in hela ScorpionTrack-URL:en för den delade platsen eller bara själva token.
 
 **Kontextkontroll:** Kontrollera referensmålet `component::scorpiontrack::config::step::user::data_description::share_token`; det ingår ännu inte i det insamlade underlaget.
+
+
+
+
 
 ## 8286. `component::scorpiontrack::config::step::reconfigure::data::share_token`
 
 **Engelska:** [%key:component::scorpiontrack::config::step::user::data::share_token%]
 
-**Befintlig svenska:** Delnings-URL eller token
+**Befintlig svenska:** Dela URL eller token
 
 **Kontextkontroll:** Kontrollera referensmålet `component::scorpiontrack::config::step::user::data::share_token`; det ingår ännu inte i det insamlade underlaget.
+
+
+
+
 
 ## 8287. `component::scorpiontrack::config::abort::wrong_share`
 
@@ -544,6 +808,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8288. `component::flow_it::entity::binary_sensor::worries::name`
 
 **Engelska:** General issue
@@ -551,6 +819,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Allmänt problem
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8289. `component::flow_it::entity::binary_sensor::warmup::name`
 
@@ -560,6 +832,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8290. `component::flow_it::entity::binary_sensor::update_reboot::name`
 
 **Engelska:** Reboot pending
@@ -568,13 +844,21 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8291. `component::flow_it::entity::binary_sensor::service::name`
 
 **Engelska:** Service required
 
-**Befintlig svenska:** Service krävs
+**Befintlig svenska:** Underhåll krävs
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8292. `component::flow_it::entity::binary_sensor::ice::name`
 
@@ -584,6 +868,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8293. `component::flow_it::entity::binary_sensor::condensation::name`
 
 **Engelska:** Condensation alert
@@ -591,6 +879,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Kondensvarning
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8294. `component::flow_it::entity::binary_sensor::bypass_on::name`
 
@@ -600,6 +892,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8295. `component::devolo_home_control::exceptions::set_failed::message`
 
 **Engelska:** The devolo Home Control central unit did not accept the command.
@@ -607,6 +903,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Devolo Home Control-centralenheten accepterade inte kommandot.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8296. `component::hydroquebec_peak::exceptions::update_failed::message`
 
@@ -616,6 +916,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8297. `component::hydroquebec_peak::entity::sensor::event_end::name`
 
 **Engelska:** Peak event ends
@@ -623,6 +927,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Effekttopphändelsen slutar
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8298. `component::hydroquebec_peak::entity::sensor::event_begin::name`
 
@@ -632,6 +940,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8299. `component::hydroquebec_peak::config::step::user::data_description::offer`
 
 **Engelska:** The Hydro-Québec peak savings offer you are enrolled in. The list comes from Hydro-Québec's open data for the current season.
@@ -639,6 +951,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Det Hydro-Québec-erbjudande för besparingar vid effekttoppar som du deltar i. Listan kommer från Hydro-Québecs öppna data för den aktuella säsongen.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8300. `component::hydroquebec_peak::config::step::user::data::offer`
 
@@ -648,13 +964,21 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8301. `component::hydroquebec_peak::config::abort::cannot_connect`
 
 **Engelska:** [%key:common::config_flow::error::cannot_connect%]
 
-**Befintlig svenska:** Anslutningen misslyckades
+**Befintlig svenska:** Det gick inte att ansluta
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::cannot_connect`; det ingår ännu inte i det insamlade underlaget.
+
+
+
+
 
 ## 8302. `component::hydroquebec_peak::config::abort::already_configured`
 
@@ -664,21 +988,33 @@ Uppdatera följande automationer och skript:
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::abort::already_configured_service`; det ingår ännu inte i det insamlade underlaget.
 
+
+
+
+
 ## 8303. `component::music_assistant::exceptions::dashboard_unknown_type::message`
 
 **Engelska:** The dashboard {dashboard} is unknown, expected one of: {valid_ids}.
 
-**Befintlig svenska:** Instrumentpanelen {dashboard} är okänd, förväntade en av: {valid_ids}.
+**Befintlig svenska:** Instrumentpanelen {dashboard} är okänd. Giltiga alternativ är: {valid_ids}.
 
-**Förslag:** Instrumentpanelen {dashboard} är okänd. Giltiga alternativ är: {valid_ids}.
+**Bedömning:** Förslaget är redan sparat i Lokalise; ingen ny skrivning behövs.
+
+
+
+
 
 ## 8304. `component::music_assistant::exceptions::dashboard_type_not_supported::message`
 
 **Engelska:** The display {display} does not support the dashboard {dashboard}, expected one of: {valid_ids}.
 
-**Befintlig svenska:** Skärmen {display} har inte stöd för instrumentpanelen {dashboard}, förväntade en av: {valid_ids}.
+**Befintlig svenska:** Skärmen {display} har inte stöd för instrumentpanelen {dashboard}. Giltiga alternativ är: {valid_ids}.
 
-**Förslag:** Skärmen {display} har inte stöd för instrumentpanelen {dashboard}. Giltiga alternativ är: {valid_ids}.
+**Bedömning:** Förslaget är redan sparat i Lokalise; ingen ny skrivning behövs.
+
+
+
+
 
 ## 8305. `component::music_assistant::exceptions::dashboard_player_not_available::message`
 
@@ -688,13 +1024,21 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8306. `component::music_assistant::exceptions::dashboard_now_playing_requires_player::message`
 
 **Engelska:** The dashboard {dashboard} requires a player, expected {expected}.
 
-**Befintlig svenska:** Instrumentpanelen {dashboard} kräver en spelare, förväntade {expected}.
+**Befintlig svenska:** Instrumentpanelen {dashboard} kräver en spelare. Förväntat värde: {expected}.
 
-**Förslag:** Instrumentpanelen {dashboard} kräver en spelare. Förväntat värde: {expected}.
+**Bedömning:** Förslaget är redan sparat i Lokalise; ingen ny skrivning behövs.
+
+
+
+
 
 ## 8307. `component::music_assistant::exceptions::dashboard_media_not_found::message`
 
@@ -704,6 +1048,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8308. `component::music_assistant::exceptions::dashboard_invalid_media_type::message`
 
 **Engelska:** Dashboard displays only accept the media content type {expected}, got {media_type}.
@@ -711,6 +1059,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Instrumentpanelsskärmar accepterar bara medieinnehållstypen {expected}, men fick {media_type}.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8309. `component::music_assistant::exceptions::dashboard_display_not_available::message`
 
@@ -720,6 +1072,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8310. `component::lunatone::exceptions::cannot_turn_on_light::message`
 
 **Engelska:** Unable to connect to the device and turn on {entity}
@@ -727,6 +1083,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Kunde inte ansluta till enheten och slå på {entity}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8311. `component::lunatone::exceptions::cannot_turn_off_light::message`
 
@@ -736,6 +1096,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8312. `component::devolo_home_control::exceptions::switch_protected::message`
 
 **Engelska:** Remote switching is disabled for this device. Please use the physical button.
@@ -743,6 +1107,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Fjärrstyrning är inaktiverad för den här enheten. Använd den fysiska knappen.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8313. `component::devolo_home_control::exceptions::set::message`
 
@@ -752,6 +1120,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8314. `component::teslemetry::config_subentries::vehicle::error::weak_signal`
 
 **Engelska:** The vehicle's Bluetooth signal is too weak to connect. Move the vehicle closer to a Bluetooth adapter, or add a Bluetooth proxy near it, then try again.
@@ -759,6 +1131,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Fordonets Bluetooth-signal är för svag för att ansluta. Flytta fordonet närmare en Bluetooth-adapter eller lägg till en Bluetooth-proxy nära det och försök sedan igen.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8315. `component::teslemetry::config_subentries::vehicle::error::vehicle_busy`
 
@@ -768,6 +1144,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8316. `component::teslemetry::config_subentries::vehicle::error::no_connection_slot`
 
 **Engelska:** Every Bluetooth adapter or proxy that can reach the vehicle has no free connection slot. Free a connection slot on a Bluetooth proxy, or add another proxy near the vehicle, then try again.
@@ -775,6 +1155,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Alla Bluetooth-adaptrar eller proxyservrar som kan nå fordonet saknar lediga anslutningsplatser. Frigör en anslutningsplats på en Bluetooth-proxy eller lägg till en proxy nära fordonet och försök sedan igen.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8317. `component::axle_energy::config::step::reconfigure::description`
 
@@ -784,6 +1168,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8318. `component::axle_energy::config::step::reconfigure::data_description::api_key`
 
 **Engelska:** [%key:component::axle_energy::config::step::user::data_description::api_key%]
@@ -791,6 +1179,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Home Assistant-token för ditt Axle-konto.
 
 **Kontextkontroll:** Kontrollera referensmålet `component::axle_energy::config::step::user::data_description::api_key`; det ingår ännu inte i det insamlade underlaget.
+
+
+
+
 
 ## 8319. `component::axle_energy::config::step::reconfigure::data::api_key`
 
@@ -800,6 +1192,10 @@ Uppdatera följande automationer och skript:
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::api_key`; det ingår ännu inte i det insamlade underlaget.
 
+
+
+
+
 ## 8320. `component::verisure::config::step::user::data_description::password`
 
 **Engelska:** Verisure may not accept passwords longer than 30 characters.
@@ -807,6 +1203,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Verisure kanske inte accepterar lösenord med fler än 30 tecken.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8321. `component::verisure::config::step::reauth_confirm::data_description::password`
 
@@ -816,6 +1216,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8322. `component::verisure::config::error::invalid_auth_password_too_long`
 
 **Engelska:** Invalid authentication. Verisure may not accept passwords longer than 30 characters. Try changing yours to 30 characters or fewer.
@@ -823,6 +1227,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Ogiltig autentisering. Verisure kanske inte accepterar lösenord med fler än 30 tecken. Försök att ändra ditt till högst 30 tecken.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8323. `component::tuya::entity::number::speed::name`
 
@@ -832,6 +1240,10 @@ Uppdatera följande automationer och skript:
 
 **Kontextkontroll:** Kontrollera referensmålet `component::sensor::entity_component::speed::name`; det ingår ännu inte i det insamlade underlaget.
 
+
+
+
+
 ## 8324. `component::tuya::entity::select::pump_mode::name`
 
 **Engelska:** Mode
@@ -840,37 +1252,57 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8325. `component::my_pv::exceptions::unsupported_device::message`
 
 **Engelska:** This my-PV device is not supported.
 
-**Befintlig svenska:** Denna my-PV enhet stöds inte.
+**Befintlig svenska:** Den här my-PV-enheten stöds inte.
 
-**Förslag:** Den här my-PV-enheten stöds inte.
+**Bedömning:** Förslaget är redan sparat i Lokalise; ingen ny skrivning behövs.
+
+
+
+
 
 ## 8326. `component::my_pv::config::abort::unsupported_device`
 
 **Engelska:** This my-PV device is not supported.
 
-**Befintlig svenska:** Denna my-PV enhet stöds inte.
+**Befintlig svenska:** Den här my-PV-enheten stöds inte.
 
-**Förslag:** Den här my-PV-enheten stöds inte.
+**Bedömning:** Förslaget är redan sparat i Lokalise; ingen ny skrivning behövs.
+
+
+
+
 
 ## 8327. `component::sofar::config::step::user::menu_options::tcp`
 
 **Engelska:** [%key:component::modbus::common::modbus_tcp%]
 
-**Befintlig svenska:** [%key:component::modbus::common::modbus_tcp%]
+**Befintlig svenska:** Modbus TCP
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8328. `component::sofar::config::step::user::menu_options::serial`
 
 **Engelska:** [%key:component::modbus::common::serial_rtu%]
 
-**Befintlig svenska:** [%key:component::modbus::common::serial_rtu%]
+**Befintlig svenska:** Seriell port (Modbus RTU)
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8329. `component::sofar::config::step::tcp::description`
 
@@ -880,6 +1312,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8330. `component::sofar::config::step::tcp::data_description::unit_id`
 
 **Engelska:** The inverter's Modbus unit ID, also called its Modbus device address.
@@ -888,21 +1324,33 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8331. `component::sofar::config::step::tcp::data_description::port`
 
 **Engelska:** [%key:component::modbus::common::tcp_port_description%]
 
-**Befintlig svenska:** [%key:component::modbus::common::tcp_port_description%]
+**Befintlig svenska:** Modbus TCP-porten som anslutningen ska använda.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8332. `component::sofar::config::step::tcp::data_description::host`
 
 **Engelska:** [%key:component::modbus::common::tcp_host_description%]
 
-**Befintlig svenska:** [%key:component::modbus::common::tcp_host_description%]
+**Befintlig svenska:** Värdnamnet eller IP-adressen för enheten eller dess Modbus TCP-gateway.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8333. `component::sofar::config::step::tcp::data::unit_id`
 
@@ -912,6 +1360,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8334. `component::sofar::config::step::tcp::data::port`
 
 **Engelska:** [%key:common::config_flow::data::port%]
@@ -919,6 +1371,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Port
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::port`; det ingår ännu inte i det insamlade underlaget.
+
+
+
+
 
 ## 8335. `component::sofar::config::step::tcp::data::host`
 
@@ -928,6 +1384,10 @@ Uppdatera följande automationer och skript:
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::host`; det ingår ännu inte i det insamlade underlaget.
 
+
+
+
+
 ## 8336. `component::sofar::config::step::serial::description`
 
 **Engelska:** Set up an inverter wired to a serial port over RS485. The inverter model and register map are detected automatically from its serial number.
@@ -935,6 +1395,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Konfigurera en växelriktare som är ansluten via RS485 till en serieport. Växelriktarmodellen och registerkartan identifieras automatiskt från serienumret.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8337. `component::sofar::config::step::serial::data_description::unit_id`
 
@@ -944,13 +1408,21 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8338. `component::sofar::config::step::serial::data_description::device`
 
 **Engelska:** [%key:component::modbus::common::serial_port_description%]
 
-**Befintlig svenska:** [%key:component::modbus::common::serial_port_description%]
+**Befintlig svenska:** Välj en lokal seriell port eller en port som delas över nätverket via en seriell proxy.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8339. `component::sofar::config::step::serial::data_description::baudrate`
 
@@ -960,6 +1432,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8340. `component::sofar::config::step::serial::data::unit_id`
 
 **Engelska:** [%key:component::sofar::config::step::tcp::data::unit_id%]
@@ -968,21 +1444,33 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8341. `component::sofar::config::step::serial::data::device`
 
 **Engelska:** [%key:component::modbus::common::serial_port%]
 
-**Befintlig svenska:** [%key:component::modbus::common::serial_port%]
+**Befintlig svenska:** Seriell port
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8342. `component::sofar::config::step::serial::data::baudrate`
 
 **Engelska:** [%key:component::modbus::common::baud_rate%]
 
-**Befintlig svenska:** [%key:component::modbus::common::baud_rate%]
+**Befintlig svenska:** Baudhastighet
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8343. `component::sofar::config::step::reconfigure_tcp::description`
 
@@ -992,6 +1480,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8344. `component::sofar::config::step::reconfigure_tcp::data_description::unit_id`
 
 **Engelska:** [%key:component::sofar::config::step::tcp::data_description::unit_id%]
@@ -1000,21 +1492,33 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8345. `component::sofar::config::step::reconfigure_tcp::data_description::port`
 
 **Engelska:** [%key:component::modbus::common::tcp_port_description%]
 
-**Befintlig svenska:** [%key:component::modbus::common::tcp_port_description%]
+**Befintlig svenska:** Modbus TCP-porten som anslutningen ska använda.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8346. `component::sofar::config::step::reconfigure_tcp::data_description::host`
 
 **Engelska:** [%key:component::modbus::common::tcp_host_description%]
 
-**Befintlig svenska:** [%key:component::modbus::common::tcp_host_description%]
+**Befintlig svenska:** Värdnamnet eller IP-adressen för enheten eller dess Modbus TCP-gateway.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8347. `component::sofar::config::step::reconfigure_tcp::data::unit_id`
 
@@ -1024,6 +1528,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8348. `component::sofar::config::step::reconfigure_tcp::data::port`
 
 **Engelska:** [%key:common::config_flow::data::port%]
@@ -1031,6 +1539,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Port
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::port`; det ingår ännu inte i det insamlade underlaget.
+
+
+
+
 
 ## 8349. `component::sofar::config::step::reconfigure_tcp::data::host`
 
@@ -1040,6 +1552,10 @@ Uppdatera följande automationer och skript:
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::host`; det ingår ännu inte i det insamlade underlaget.
 
+
+
+
+
 ## 8350. `component::sofar::config::step::reconfigure_serial::description`
 
 **Engelska:** Reach this inverter over a serial port wired to its RS485 terminals.
@@ -1047,6 +1563,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Anslut till växelriktaren via en serieport som är ansluten till dess RS485-anslutningar.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8351. `component::sofar::config::step::reconfigure_serial::data_description::unit_id`
 
@@ -1056,13 +1576,21 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8352. `component::sofar::config::step::reconfigure_serial::data_description::device`
 
 **Engelska:** [%key:component::modbus::common::serial_port_description%]
 
-**Befintlig svenska:** [%key:component::modbus::common::serial_port_description%]
+**Befintlig svenska:** Välj en lokal seriell port eller en port som delas över nätverket via en seriell proxy.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8353. `component::sofar::config::step::reconfigure_serial::data_description::baudrate`
 
@@ -1072,6 +1600,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8354. `component::sofar::config::step::reconfigure_serial::data::unit_id`
 
 **Engelska:** [%key:component::sofar::config::step::tcp::data::unit_id%]
@@ -1080,37 +1612,57 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8355. `component::sofar::config::step::reconfigure_serial::data::device`
 
 **Engelska:** [%key:component::modbus::common::serial_port%]
 
-**Befintlig svenska:** [%key:component::modbus::common::serial_port%]
+**Befintlig svenska:** Seriell port
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8356. `component::sofar::config::step::reconfigure_serial::data::baudrate`
 
 **Engelska:** [%key:component::modbus::common::baud_rate%]
 
-**Befintlig svenska:** [%key:component::modbus::common::baud_rate%]
+**Befintlig svenska:** Baudhastighet
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8357. `component::hydrawise::exceptions::invalid_auth::message`
 
 **Engelska:** Authentication with the Hydrawise API failed
 
-**Befintlig svenska:** Autentisering med Hydrawise API misslyckades
+**Befintlig svenska:** Autentisering med Hydrawise-API:t misslyckades
 
-**Förslag:** Autentisering med Hydrawise-API:t misslyckades
+**Bedömning:** Förslaget är redan sparat i Lokalise; ingen ny skrivning behövs.
+
+
+
+
 
 ## 8358. `component::hydrawise::exceptions::api_error::message`
 
 **Engelska:** Error communicating with the Hydrawise API
 
-**Befintlig svenska:** Fel vid kommunikation med Hydrawise API
+**Befintlig svenska:** Fel vid kommunikation med Hydrawise-API:t
 
-**Förslag:** Fel vid kommunikation med Hydrawise-API:t
+**Bedömning:** Förslaget är redan sparat i Lokalise; ingen ny skrivning behövs.
+
+
+
+
 
 ## 8359. `component::radio_browser::exceptions::cannot_connect::message`
 
@@ -1120,6 +1672,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8360. `component::teslemetry::config_subentries::vehicle::error::tap_timeout`
 
 **Engelska:** The key card was not tapped in time. Select Submit and tap a key card within 30 seconds.
@@ -1127,6 +1683,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Nyckelkortet hölls inte fram i tid. Välj Skicka och håll fram ett nyckelkort inom 30 sekunder.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8361. `component::teslemetry::config_subentries::vehicle::error::pair_denied`
 
@@ -1136,6 +1696,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8362. `component::teslemetry::config_subentries::vehicle::error::key_unverified`
 
 **Engelska:** The key was added, but the vehicle's reply could not be verified. Select Submit to try again.
@@ -1143,6 +1707,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Nyckeln lades till, men fordonets svar kunde inte verifieras. Välj Skicka för att försöka igen.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8363. `component::teslemetry::config_subentries::vehicle::error::confirm_timeout`
 
@@ -1152,6 +1720,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8364. `component::teslemetry::config_subentries::vehicle::error::auth_not_started`
 
 **Engelska:** The vehicle could not start the key card request. Wake the vehicle, then select Submit to try again.
@@ -1159,6 +1731,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Fordonet kunde inte starta begäran om nyckelkort. Väck fordonet och välj sedan Skicka för att försöka igen.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8365. `component::portainer::entity::update::server_update::name`
 
@@ -1168,6 +1744,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8366. `component::lifx::issues::invalid_serial::title`
 
 **Engelska:** LIFX entry {title} cannot be migrated
@@ -1176,6 +1756,10 @@ Uppdatera följande automationer och skript:
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8367. `component::lifx::issues::invalid_serial::fix_flow::step::confirm::title`
 
 **Engelska:** [%key:component::lifx::issues::invalid_serial::title%]
@@ -1183,6 +1767,10 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** LIFX-posten {title} kan inte migreras
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8368. `component::lifx::issues::invalid_serial::fix_flow::step::confirm::description`
 
@@ -1196,6 +1784,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8369. `component::bosch_shc::entity::switch::camera_notification::name`
 
 **Engelska:** Notifications
@@ -1203,6 +1795,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 **Befintlig svenska:** Aviseringar
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8370. `component::bosch_shc::entity::select::motion_sensitivity::state::middle`
 
@@ -1212,6 +1808,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Kontextkontroll:** Kontrollera referensmålet `common::state::medium`; det ingår ännu inte i det insamlade underlaget.
 
+
+
+
+
 ## 8371. `component::bosch_shc::entity::select::motion_sensitivity::state::low`
 
 **Engelska:** [%key:common::state::low%]
@@ -1219,6 +1819,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 **Befintlig svenska:** Låg
 
 **Kontextkontroll:** Kontrollera referensmålet `common::state::low`; det ingår ännu inte i det insamlade underlaget.
+
+
+
+
 
 ## 8372. `component::bosch_shc::entity::select::motion_sensitivity::state::high`
 
@@ -1228,6 +1832,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Kontextkontroll:** Kontrollera referensmålet `common::state::high`; det ingår ännu inte i det insamlade underlaget.
 
+
+
+
+
 ## 8373. `component::bosch_shc::entity::select::motion_sensitivity::name`
 
 **Engelska:** Motion sensitivity
@@ -1235,6 +1843,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 **Befintlig svenska:** Rörelsekänslighet
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8374. `component::fumis::triggers::fuel_became_low::name`
 
@@ -1244,6 +1856,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8375. `component::fumis::triggers::fuel_became_low::fields::device_id::name`
 
 **Engelska:** Stoves
@@ -1251,6 +1867,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 **Befintlig svenska:** Kaminer
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8376. `component::fumis::triggers::fuel_became_low::fields::device_id::description`
 
@@ -1260,6 +1880,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8377. `component::fumis::triggers::fuel_became_low::description`
 
 **Engelska:** Triggers when one or more stoves report that their fuel became low.
@@ -1267,6 +1891,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 **Befintlig svenska:** Utlöses när en eller flera kaminer rapporterar låg bränslenivå.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8378. `component::teslemetry::config_subentries::energy_site::error::powerwall_unreachable`
 
@@ -1276,6 +1904,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8379. `component::teslemetry::config_subentries::energy_site::abort::powerwall_unreachable`
 
 **Engelska:** There is a problem communicating with your Powerwall. Ensure it has a reliable network connection and try again later.
@@ -1284,21 +1916,33 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8380. `component::lametric::config::step::reconfigure::data_description::host`
 
 **Engelska:** [%key:component::lametric::config::step::manual_entry::data_description::host%]
 
-**Befintlig svenska:** IP-adressen eller värdnamnet för din LaMetric TIME i nätverket.
+**Befintlig svenska:** IP-adressen eller värdnamnet för din LaMetric TIME på ditt nätverk.
 
 **Kontextkontroll:** Kontrollera referensmålet `component::lametric::config::step::manual_entry::data_description::host`; det ingår ännu inte i det insamlade underlaget.
+
+
+
+
 
 ## 8381. `component::lametric::config::step::reconfigure::data_description::api_key`
 
 **Engelska:** [%key:component::lametric::config::step::manual_entry::data_description::api_key%]
 
-**Befintlig svenska:** Du hittar API-nyckeln på [enhetssidan i ditt LaMetric-utvecklarkonto]({devices_url}).
+**Befintlig svenska:** Du hittar denna API-nyckel på [enhetssidan i ditt LaMetric-utvecklarkonto]({devices_url}).
 
 **Kontextkontroll:** Kontrollera referensmålet `component::lametric::config::step::manual_entry::data_description::api_key`; det ingår ännu inte i det insamlade underlaget.
+
+
+
+
 
 ## 8382. `component::lametric::config::step::reconfigure::data::host`
 
@@ -1308,6 +1952,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::host`; det ingår ännu inte i det insamlade underlaget.
 
+
+
+
+
 ## 8383. `component::lametric::config::step::reconfigure::data::api_key`
 
 **Engelska:** [%key:common::config_flow::data::api_key%]
@@ -1315,6 +1963,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 **Befintlig svenska:** API-nyckel
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::api_key`; det ingår ännu inte i det insamlade underlaget.
+
+
+
+
 
 ## 8384. `component::lametric::config::error::invalid_auth`
 
@@ -1324,6 +1976,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::invalid_auth`; det ingår ännu inte i det insamlade underlaget.
 
+
+
+
+
 ## 8385. `component::lametric::config::abort::unique_id_mismatch`
 
 **Engelska:** The device at this address is a different LaMetric device than the one set up.
@@ -1331,6 +1987,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 **Befintlig svenska:** Enheten på den här adressen är en annan LaMetric-enhet än den som är konfigurerad.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8386. `component::litellm::config_subentries::stt::step::init::description`
 
@@ -1340,6 +2000,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8387. `component::litellm::config_subentries::stt::step::init::data_description::prompt`
 
 **Engelska:** Optional context or instructions for the transcription. Supports Home Assistant templates. The prompt must match the language of the audio and be supported by the selected model.
@@ -1347,6 +2011,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 **Befintlig svenska:** Valfritt sammanhang eller instruktioner för transkriberingen. Stöder Home Assistant-mallar. Prompten måste vara på samma språk som ljudet och stödjas av den valda modellen.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8388. `component::litellm::config_subentries::stt::step::init::data_description::model`
 
@@ -1356,6 +2024,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8389. `component::litellm::config_subentries::stt::step::init::data_description::keywords`
 
 **Engelska:** Comma-separated words or phrases to help the model recognize names and other terms. Supports Home Assistant templates. OpenAI models may support this together with a prompt; other models may not.
@@ -1363,6 +2035,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 **Befintlig svenska:** Kommaseparerade ord eller fraser som hjälper modellen att känna igen namn och andra termer. Stöder Home Assistant-mallar. OpenAI-modeller kan stödja detta tillsammans med en prompt, men andra modeller kanske inte gör det.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8390. `component::litellm::config_subentries::stt::step::init::data_description::custom_prompt_keywords`
 
@@ -1372,6 +2048,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8391. `component::litellm::config_subentries::stt::step::init::data::prompt`
 
 **Engelska:** Prompt
@@ -1379,6 +2059,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 **Befintlig svenska:** Prompt
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8392. `component::litellm::config_subentries::stt::step::init::data::model`
 
@@ -1388,6 +2072,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Kontextkontroll:** Kontrollera referensmålet `common::generic::model`; det ingår ännu inte i det insamlade underlaget.
 
+
+
+
+
 ## 8393. `component::litellm::config_subentries::stt::step::init::data::keywords`
 
 **Engelska:** Keywords
@@ -1395,6 +2083,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 **Befintlig svenska:** Nyckelord
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8394. `component::litellm::config_subentries::stt::step::init::data::custom_prompt_keywords`
 
@@ -1404,13 +2096,21 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8395. `component::litellm::config_subentries::stt::initiate_flow::user`
 
 **Engelska:** Add speech-to-text service
 
-**Befintlig svenska:** Lägg till tjänst för tal till text
+**Befintlig svenska:** Lägg till tjänst för tal-till-text
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8396. `component::litellm::config_subentries::stt::initiate_flow::reconfigure`
 
@@ -1420,13 +2120,21 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8397. `component::litellm::config_subentries::stt::entry_type`
 
 **Engelska:** Speech-to-text
 
-**Befintlig svenska:** Tal till text
+**Befintlig svenska:** Tal-till-text
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8398. `component::litellm::config_subentries::stt::abort::unknown`
 
@@ -1436,6 +2144,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::unknown`; det ingår ännu inte i det insamlade underlaget.
 
+
+
+
+
 ## 8399. `component::litellm::config_subentries::stt::abort::invalid_auth`
 
 **Engelska:** [%key:common::config_flow::error::invalid_auth%]
@@ -1444,21 +2156,33 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::invalid_auth`; det ingår ännu inte i det insamlade underlaget.
 
+
+
+
+
 ## 8400. `component::litellm::config_subentries::stt::abort::entry_not_loaded`
 
 **Engelska:** The main integration entry is not loaded. Please ensure the integration is loaded before reconfiguring.
 
-**Befintlig svenska:** Huvudposten för integreringen är inte inläst. Kontrollera att integreringen är inläst innan du konfigurerar om den.
+**Befintlig svenska:** Huvudposten för integrationen är inte inläst. Kontrollera att integrationen är inläst innan du konfigurerar om den.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8401. `component::litellm::config_subentries::stt::abort::cannot_connect`
 
 **Engelska:** [%key:common::config_flow::error::cannot_connect%]
 
-**Befintlig svenska:** Anslutningen misslyckades
+**Befintlig svenska:** Det gick inte att ansluta
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::cannot_connect`; det ingår ännu inte i det insamlade underlaget.
+
+
+
+
 
 ## 8402. `component::starlink::entity::switch::starlink_positioning_exclusive::name`
 
@@ -1468,6 +2192,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8403. `component::lametric::exceptions::update_failed::message`
 
 **Engelska:** Could not fetch the state of the LaMetric device: {error}
@@ -1475,6 +2203,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 **Befintlig svenska:** Kunde inte hämta LaMetric-enhetens tillstånd: {error}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8404. `component::lametric::exceptions::unknown_sound::message`
 
@@ -1484,13 +2216,21 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8405. `component::lametric::exceptions::notification_failed::message`
 
 **Engelska:** Could not send the notification to the LaMetric device: {error}
 
-**Befintlig svenska:** Kunde inte skicka notifieringen till LaMetric-enheten: {error}
+**Befintlig svenska:** Kunde inte skicka aviseringen till LaMetric-enheten: {error}
 
-**Förslag:** Kunde inte skicka aviseringen till LaMetric-enheten: {error}
+**Bedömning:** Förslaget är redan sparat i Lokalise; ingen ny skrivning behövs.
+
+
+
+
 
 ## 8406. `component::lametric::entity::time::screensaver_start_time::name`
 
@@ -1500,6 +2240,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8407. `component::lametric::entity::time::screensaver_end_time::name`
 
 **Engelska:** Screensaver end time
@@ -1507,6 +2251,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 **Befintlig svenska:** Skärmsläckarens sluttid
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8408. `component::ambient_network::config::step::user::data::location`
 
@@ -1516,6 +2264,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::location`; det ingår ännu inte i det insamlade underlaget.
 
+
+
+
+
 ## 8409. `component::engie_be::selector::mfa_method::options::sms`
 
 **Engelska:** SMS
@@ -1523,6 +2275,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 **Befintlig svenska:** SMS
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8410. `component::engie_be::selector::mfa_method::options::email`
 
@@ -1532,6 +2288,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8411. `component::engie_be::entity::sensor::gas_price_offtake_with_ean::name`
 
 **Engelska:** Gas offtake price ({ean_suffix})
@@ -1540,13 +2300,21 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8412. `component::engie_be::entity::sensor::gas_price_offtake_superoffpeak_with_ean::name`
 
 **Engelska:** Gas super off-peak offtake price ({ean_suffix})
 
 **Befintlig svenska:** Pris för uttagen gas under extra lågtrafik ({ean_suffix})
 
-**Förslag:** Pris för uttagen gas under extra låglasttid ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8413. `component::engie_be::entity::sensor::gas_price_offtake_superoffpeak_excl_vat_with_ean::name`
 
@@ -1554,7 +2322,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen gas under extra lågtrafik exkl. moms ({ean_suffix})
 
-**Förslag:** Pris för uttagen gas under extra låglasttid exkl. moms ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8414. `component::engie_be::entity::sensor::gas_price_offtake_superoffpeak_excl_vat::name`
 
@@ -1562,7 +2334,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen gas under extra lågtrafik exkl. moms
 
-**Förslag:** Pris för uttagen gas under extra låglasttid exkl. moms
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8415. `component::engie_be::entity::sensor::gas_price_offtake_superoffpeak::name`
 
@@ -1570,7 +2346,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen gas under extra lågtrafik
 
-**Förslag:** Pris för uttagen gas under extra låglasttid
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8416. `component::engie_be::entity::sensor::gas_price_offtake_slot_with_ean::name`
 
@@ -1580,6 +2360,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8417. `component::engie_be::entity::sensor::gas_price_offtake_slot_excl_vat_with_ean::name`
 
 **Engelska:** Gas offtake price excl. VAT ({slot_code}) ({ean_suffix})
@@ -1587,6 +2371,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 **Befintlig svenska:** Pris för uttagen gas exkl. moms ({slot_code}) ({ean_suffix})
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8418. `component::engie_be::entity::sensor::gas_price_offtake_slot_excl_vat::name`
 
@@ -1596,6 +2384,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8419. `component::engie_be::entity::sensor::gas_price_offtake_slot::name`
 
 **Engelska:** Gas offtake price ({slot_code})
@@ -1604,13 +2396,21 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8420. `component::engie_be::entity::sensor::gas_price_offtake_peak_with_ean::name`
 
 **Engelska:** Gas peak offtake price ({ean_suffix})
 
 **Befintlig svenska:** Pris för uttagen gas under högtrafik ({ean_suffix})
 
-**Förslag:** Pris för uttagen gas under höglasttid ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8421. `component::engie_be::entity::sensor::gas_price_offtake_peak_excl_vat_with_ean::name`
 
@@ -1618,7 +2418,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen gas under högtrafik exkl. moms ({ean_suffix})
 
-**Förslag:** Pris för uttagen gas under höglasttid exkl. moms ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8422. `component::engie_be::entity::sensor::gas_price_offtake_peak_excl_vat::name`
 
@@ -1626,7 +2430,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen gas under högtrafik exkl. moms
 
-**Förslag:** Pris för uttagen gas under höglasttid exkl. moms
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8423. `component::engie_be::entity::sensor::gas_price_offtake_peak::name`
 
@@ -1634,7 +2442,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen gas under högtrafik
 
-**Förslag:** Pris för uttagen gas under höglasttid
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8424. `component::engie_be::entity::sensor::gas_price_offtake_offpeak_with_ean::name`
 
@@ -1642,7 +2454,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen gas under lågtrafik ({ean_suffix})
 
-**Förslag:** Pris för uttagen gas under låglasttid ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8425. `component::engie_be::entity::sensor::gas_price_offtake_offpeak_excl_vat_with_ean::name`
 
@@ -1650,7 +2466,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen gas under lågtrafik exkl. moms ({ean_suffix})
 
-**Förslag:** Pris för uttagen gas under låglasttid exkl. moms ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8426. `component::engie_be::entity::sensor::gas_price_offtake_offpeak_excl_vat::name`
 
@@ -1658,7 +2478,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen gas under lågtrafik exkl. moms
 
-**Förslag:** Pris för uttagen gas under låglasttid exkl. moms
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8427. `component::engie_be::entity::sensor::gas_price_offtake_offpeak::name`
 
@@ -1666,7 +2490,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen gas under lågtrafik
 
-**Förslag:** Pris för uttagen gas under låglasttid
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8428. `component::engie_be::entity::sensor::gas_price_offtake_excl_vat_with_ean::name`
 
@@ -1676,6 +2504,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8429. `component::engie_be::entity::sensor::gas_price_offtake_excl_vat::name`
 
 **Engelska:** Gas offtake price excl. VAT
@@ -1683,6 +2515,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 **Befintlig svenska:** Pris för uttagen gas exkl. moms
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8430. `component::engie_be::entity::sensor::gas_price_offtake::name`
 
@@ -1692,6 +2528,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8431. `component::engie_be::entity::sensor::energy_price_offtake_with_ean::name`
 
 **Engelska:** Offtake price ({ean_suffix})
@@ -1700,13 +2540,21 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8432. `component::engie_be::entity::sensor::energy_price_offtake_superoffpeak_with_ean::name`
 
 **Engelska:** Super off-peak offtake price ({ean_suffix})
 
 **Befintlig svenska:** Pris för uttagen energi under extra lågtrafik ({ean_suffix})
 
-**Förslag:** Pris för uttagen energi under extra låglasttid ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8433. `component::engie_be::entity::sensor::energy_price_offtake_superoffpeak_excl_vat_with_ean::name`
 
@@ -1714,7 +2562,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen energi under extra lågtrafik exkl. moms ({ean_suffix})
 
-**Förslag:** Pris för uttagen energi under extra låglasttid exkl. moms ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8434. `component::engie_be::entity::sensor::energy_price_offtake_superoffpeak_excl_vat::name`
 
@@ -1722,7 +2574,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen energi under extra lågtrafik exkl. moms
 
-**Förslag:** Pris för uttagen energi under extra låglasttid exkl. moms
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8435. `component::engie_be::entity::sensor::energy_price_offtake_superoffpeak::name`
 
@@ -1730,7 +2586,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen energi under extra lågtrafik
 
-**Förslag:** Pris för uttagen energi under extra låglasttid
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8436. `component::engie_be::entity::sensor::energy_price_offtake_slot_with_ean::name`
 
@@ -1740,6 +2600,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8437. `component::engie_be::entity::sensor::energy_price_offtake_slot_excl_vat_with_ean::name`
 
 **Engelska:** Offtake price excl. VAT ({slot_code}) ({ean_suffix})
@@ -1747,6 +2611,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 **Befintlig svenska:** Pris för uttagen energi exkl. moms ({slot_code}) ({ean_suffix})
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8438. `component::engie_be::entity::sensor::energy_price_offtake_slot_excl_vat::name`
 
@@ -1756,6 +2624,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8439. `component::engie_be::entity::sensor::energy_price_offtake_slot::name`
 
 **Engelska:** Offtake price ({slot_code})
@@ -1764,13 +2636,21 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8440. `component::engie_be::entity::sensor::energy_price_offtake_peak_with_ean::name`
 
 **Engelska:** Peak offtake price ({ean_suffix})
 
 **Befintlig svenska:** Pris för uttagen energi under högtrafik ({ean_suffix})
 
-**Förslag:** Pris för uttagen energi under höglasttid ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8441. `component::engie_be::entity::sensor::energy_price_offtake_peak_excl_vat_with_ean::name`
 
@@ -1778,7 +2658,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen energi under högtrafik exkl. moms ({ean_suffix})
 
-**Förslag:** Pris för uttagen energi under höglasttid exkl. moms ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8442. `component::engie_be::entity::sensor::energy_price_offtake_peak_excl_vat::name`
 
@@ -1786,7 +2670,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen energi under högtrafik exkl. moms
 
-**Förslag:** Pris för uttagen energi under höglasttid exkl. moms
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8443. `component::engie_be::entity::sensor::energy_price_offtake_peak::name`
 
@@ -1794,7 +2682,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen energi under högtrafik
 
-**Förslag:** Pris för uttagen energi under höglasttid
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8444. `component::engie_be::entity::sensor::energy_price_offtake_offpeak_with_ean::name`
 
@@ -1802,7 +2694,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen energi under lågtrafik ({ean_suffix})
 
-**Förslag:** Pris för uttagen energi under låglasttid ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8445. `component::engie_be::entity::sensor::energy_price_offtake_offpeak_excl_vat_with_ean::name`
 
@@ -1810,7 +2706,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen energi under lågtrafik exkl. moms ({ean_suffix})
 
-**Förslag:** Pris för uttagen energi under låglasttid exkl. moms ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8446. `component::engie_be::entity::sensor::energy_price_offtake_offpeak_excl_vat::name`
 
@@ -1818,7 +2718,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen energi under lågtrafik exkl. moms
 
-**Förslag:** Pris för uttagen energi under låglasttid exkl. moms
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8447. `component::engie_be::entity::sensor::energy_price_offtake_offpeak::name`
 
@@ -1826,7 +2730,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för uttagen energi under lågtrafik
 
-**Förslag:** Pris för uttagen energi under låglasttid
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8448. `component::engie_be::entity::sensor::energy_price_offtake_excl_vat_with_ean::name`
 
@@ -1836,6 +2744,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8449. `component::engie_be::entity::sensor::energy_price_offtake_excl_vat::name`
 
 **Engelska:** Offtake price excl. VAT
@@ -1843,6 +2755,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 **Befintlig svenska:** Pris för uttagen energi exkl. moms
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8450. `component::engie_be::entity::sensor::energy_price_offtake::name`
 
@@ -1852,6 +2768,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8451. `component::engie_be::entity::sensor::energy_price_injection_with_ean::name`
 
 **Engelska:** Injection price ({ean_suffix})
@@ -1860,13 +2780,21 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8452. `component::engie_be::entity::sensor::energy_price_injection_superoffpeak_with_ean::name`
 
 **Engelska:** Super off-peak injection price ({ean_suffix})
 
 **Befintlig svenska:** Pris för inmatad energi under extra lågtrafik ({ean_suffix})
 
-**Förslag:** Pris för inmatad energi under extra låglasttid ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8453. `component::engie_be::entity::sensor::energy_price_injection_superoffpeak_excl_vat_with_ean::name`
 
@@ -1874,7 +2802,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för inmatad energi under extra lågtrafik exkl. moms ({ean_suffix})
 
-**Förslag:** Pris för inmatad energi under extra låglasttid exkl. moms ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8454. `component::engie_be::entity::sensor::energy_price_injection_superoffpeak_excl_vat::name`
 
@@ -1882,7 +2814,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för inmatad energi under extra lågtrafik exkl. moms
 
-**Förslag:** Pris för inmatad energi under extra låglasttid exkl. moms
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8455. `component::engie_be::entity::sensor::energy_price_injection_superoffpeak::name`
 
@@ -1890,7 +2826,11 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Befintlig svenska:** Pris för inmatad energi under extra lågtrafik
 
-**Förslag:** Pris för inmatad energi under extra låglasttid
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
 
 ## 8456. `component::engie_be::entity::sensor::energy_price_injection_slot_with_ean::name`
 
@@ -1900,6 +2840,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8457. `component::engie_be::entity::sensor::energy_price_injection_slot_excl_vat_with_ean::name`
 
 **Engelska:** Injection price excl. VAT ({slot_code}) ({ean_suffix})
@@ -1907,6 +2851,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 **Befintlig svenska:** Pris för inmatad energi exkl. moms ({slot_code}) ({ean_suffix})
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+
+
 
 ## 8458. `component::engie_be::entity::sensor::energy_price_injection_slot_excl_vat::name`
 
@@ -1916,6 +2864,10 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8459. `component::engie_be::entity::sensor::energy_price_injection_slot::name`
 
 **Engelska:** Injection price ({slot_code})
@@ -1924,10 +2876,48 @@ Välj **Skicka** för att ta bort posten och vänta sedan på att den automatisk
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
+
+
 ## 8460. `component::engie_be::entity::sensor::energy_price_injection_peak_with_ean::name`
 
 **Engelska:** Peak injection price ({ean_suffix})
 
 **Befintlig svenska:** Pris för inmatad energi under högtrafik ({ean_suffix})
 
-**Förslag:** Pris för inmatad energi under höglasttid ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Granskad HA-terminologi använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; befintlig översättning behålls.
+
+
+
+
+## Livegranskning 2026-11-24
+
+Alla 240 nycklar jämfördes med aktuell Core-källa och livevärden i Lokalise. Källtexterna var uppdaterade sedan äldre rapport för 61 poster; fullständig text eller referensmål kontrollerades. Platshållare kontrollerades för hela batchen.
+
+61 referensanvändningar med 43 unika mål kontrollerades. 8 avvikande konsumenter synkades med måltexten och lästes tillbaka.
+
+### Ändringar sparade i Lokalise
+
+| Fullständig nyckel | Live-text före | Sparad text | Motivering |
+| --- | --- | --- | --- |
+| `component::bosch_shc::entity::select::vibration_sensitivity::state::very_low` | Mycket låg | Väldigt låg | Synkades mot `common::state::very_low`. |
+| `component::bosch_shc::entity::select::vibration_sensitivity::state::very_high` | Mycket hög | Väldigt hög | Synkades mot `common::state::very_high`. |
+| `component::scorpiontrack::config::step::reconfigure::data_description::share_token` | Klistra in den fullständiga ScorpionTrack-URL:en för den delade platsen eller bara själva token. | Klistra in hela ScorpionTrack-URL:en för den delade platsen eller bara själva token. | Synkades mot `component::scorpiontrack::config::step::user::data_description::share_token`. |
+| `component::scorpiontrack::config::step::reconfigure::data::share_token` | Delnings-URL eller token | Dela URL eller token | Synkades mot `component::scorpiontrack::config::step::user::data::share_token`. |
+| `component::hydroquebec_peak::config::abort::cannot_connect` | Anslutningen misslyckades | Det gick inte att ansluta | Synkades mot `common::config_flow::error::cannot_connect`. |
+| `component::lametric::config::step::reconfigure::data_description::host` | IP-adressen eller värdnamnet för din LaMetric TIME i nätverket. | IP-adressen eller värdnamnet för din LaMetric TIME på ditt nätverk. | Synkades mot `component::lametric::config::step::manual_entry::data_description::host`. |
+| `component::lametric::config::step::reconfigure::data_description::api_key` | Du hittar API-nyckeln på [enhetssidan i ditt LaMetric-utvecklarkonto]({devices_url}). | Du hittar denna API-nyckel på [enhetssidan i ditt LaMetric-utvecklarkonto]({devices_url}). | Synkades mot `component::lametric::config::step::manual_entry::data_description::api_key`. |
+| `component::litellm::config_subentries::stt::abort::cannot_connect` | Anslutningen misslyckades | Det gick inte att ansluta | Synkades mot `common::config_flow::error::cannot_connect`. |
+
+Ändringarnas käll- och Lokalise-ID:n med verifieringsproveniens finns i [TM-importmanifestet](../2026-11-24-reviewed-core-8221-8460.jsonl).
+
+### Verifiering
+
+- Batchen omfattar 240/240 poster; ingen saknad/tom engelsk eller svensk text.
+- Samtliga platsinnehavare matchar mellan källa och svenska. Pluralposter: 0.
+- Referensmål: 43/43 hittade; efter synkning mismatch 0/61.
+- Äldre ENGIE BE-förslag med `låglasttid`/`höglasttid` avfördes efter granskning mot etablerade termer `lågtrafik`/`högtrafik`. Live-texterna behölls.
+- svlang natural för åtta sparade texter: lägsta poäng 8,8/10 (ScorpionTrack); övriga 10/10.
+- `hunspell-sv` flaggade `ScorpionTrack-URL:en`, `LaMetric`, `TIME` och `LaMetric-utvecklarkonto`; dessa är produkt-/protokollnamn eller korrekt svensk suffix-/sammansättningsform. Övriga kontrollerade ord godkändes. `lågtrafik`/`högtrafik` kontrollerades mot etablerade HA-termer och historiskt Plugwise-underlag.
+- Nästa batch börjar vid 8461.
