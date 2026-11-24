@@ -1,6 +1,6 @@
 # Home Assistant Core – granskning 9181–9420
 
-Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Referenser vars mål inte finns i underlaget markeras för senare kontroll.
+Sortering: ”Last added” vid insamlingen. Den här rapporten är en tidigare granskning; aktuell kontroll och liveändringar redovisas i tillägget längst ned.
 
 ## 9181. `component::neopool::exceptions::device_time_write_failed::message`
 
@@ -30,7 +30,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Failed to set node identification.
 
-**Befintlig svenska:** Det gick inte att ange nodidentifiering.
+**Befintlig svenska:** Det gick inte att ange nodidentifieringen.
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -62,7 +62,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** The inverter drops the AC power limit and the battery charge and discharge limits an hour after it last received them, and returns to its own settings. Home Assistant sends active limits again every 15 minutes, so this only takes effect once it stops sending - because Home Assistant is down, or because the integration was removed. The battery minimum reserve and grid charging are not affected.
 
-**Befintlig svenska:** Växelriktaren tar bort AC-effektgränsen en timme efter att den senast tog emot den och återgår till sina egna inställningar. Home Assistant skickar gränsen igen var femtonde minut, så detta får bara effekt när systemet slutar skicka den eftersom Home Assistant är nere eller integreringen tagits bort. Batteriernas börvärden påverkas inte. Växelriktaren har ingen tidsgräns för dem.
+**Befintlig svenska:** Växelriktaren tar bort gränsen för växelströmseffekt och gränserna för batteriets laddning och urladdning en timme efter att den senast tog emot dem och återgår till sina egna inställningar. Home Assistant skickar aktiva gränser igen var femtonde minut, så detta sker först när Home Assistant slutar skicka dem, till exempel när Home Assistant är nere eller integrationen har tagits bort. Batteriets lägsta reservnivå och laddning från elnätet påverkas inte.
 
 **Förslag:** Växelriktaren tar bort gränsen för växelströmseffekt och gränserna för batteriets laddning och urladdning en timme efter att den senast tog emot dem och återgår till sina egna inställningar. Home Assistant skickar aktiva gränser igen var femtonde minut, så detta sker först när Home Assistant slutar skicka dem, till exempel när Home Assistant är nere eller integreringen har tagits bort. Batteriets lägsta reservnivå och laddning från elnätet påverkas inte.
 
@@ -70,7 +70,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Revert the power and battery limits if Home Assistant stops
 
-**Befintlig svenska:** Återställ gränsen för AC-effekt om Home Assistant stoppas
+**Befintlig svenska:** Återställ effekt- och batterigränserna om Home Assistant stannar
 
 **Förslag:** Återställ effekt- och batterigränserna om Home Assistant stannar
 
@@ -78,7 +78,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:component::fronius::config::step::user::data_description::auto_revert_power_limit%]
 
-**Befintlig svenska:** Växelriktaren tar bort AC-effektgränsen en timme efter att den senast tog emot den och återgår till sina egna inställningar. Home Assistant skickar gränsen igen var femtonde minut, så detta får bara effekt när systemet slutar skicka den eftersom Home Assistant är nere eller integreringen tagits bort. Batteriernas börvärden påverkas inte. Växelriktaren har ingen tidsgräns för dem.
+**Befintlig svenska:** Växelriktaren tar bort AC-effektgränsen en timme efter att den senast tog emot den och återgår till sina egna inställningar. Home Assistant skickar gränsen igen var femtonde minut, så detta får bara effekt när systemet slutar skicka den eftersom Home Assistant är nere eller integrationen tagits bort. Batteriernas börvärden påverkas inte. Växelriktaren har ingen tidsgräns för dem.
 
 **Kontextkontroll:** Den engelska texten hänvisar till en källnyckel med ett ändringsförslag ovan. Kontrollera att denna svenska text följer det uppdaterade referensmålet.
 
@@ -302,7 +302,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Enter your updated OpenAI API key.
 
-**Befintlig svenska:** Ange din uppdaterade OpenAI API-nyckel.
+**Befintlig svenska:** Ange din uppdaterade OpenAI-API-nyckel.
 
 **Förslag:** Ange din uppdaterade OpenAI-API-nyckel.
 
@@ -546,7 +546,7 @@ Välj **Skicka** för att få en QR-kod som kan skannas med appen.
 
 **Engelska:** The twelve-character serial number printed on your LIFX device. On its own, it is resolved by broadcasting to your network.
 
-**Befintlig svenska:** Det tolvsiffriga serienumret som är tryckt på LIFX-enheten. Serienumret identifieras automatiskt via utsändning i nätverket.
+**Befintlig svenska:** Serienumret med tolv tecken som är tryckt på LIFX-enheten. Om endast serienumret anges hittas enheten genom en utsändning i nätverket.
 
 **Förslag:** Serienumret med tolv tecken som är tryckt på LIFX-enheten. Om endast serienumret anges hittas enheten genom en utsändning i nätverket.
 
@@ -610,7 +610,7 @@ Välj **Skicka** för att få en QR-kod som kan skannas med appen.
 
 **Engelska:** [%key:common::config_flow::abort::reconfigure_successful%]
 
-**Befintlig svenska:** [%key:common::config_flow::abort::reconfigure_successful%]
+**Befintlig svenska:** Omkonfigureringen lyckades
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1418,7 +1418,7 @@ Välj **Skicka** för att få en QR-kod som kan skannas med appen.
 
 **Engelska:** [%key:common::config_flow::data::password%]
 
-**Befintlig svenska:** [%key:common::config_flow::data::password%]
+**Befintlig svenska:** Lösenord
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1426,7 +1426,7 @@ Välj **Skicka** för att få en QR-kod som kan skannas med appen.
 
 **Engelska:** [%key:component::monarch_money::config::step::user::data::mfa_code%]
 
-**Befintlig svenska:** [%key:component::monarch_money::config::step::user::data::mfa_code%]
+**Befintlig svenska:** Ange din MFA-kod
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1434,7 +1434,7 @@ Välj **Skicka** för att få en QR-kod som kan skannas med appen.
 
 **Engelska:** [%key:common::config_flow::data::email%]
 
-**Befintlig svenska:** [%key:common::config_flow::data::email%]
+**Befintlig svenska:** E-post
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1442,7 +1442,7 @@ Välj **Skicka** för att få en QR-kod som kan skannas med appen.
 
 **Engelska:** [%key:common::config_flow::error::cannot_connect%]
 
-**Befintlig svenska:** [%key:common::config_flow::error::cannot_connect%]
+**Befintlig svenska:** Det gick inte att ansluta
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1458,7 +1458,7 @@ Välj **Skicka** för att få en QR-kod som kan skannas med appen.
 
 **Engelska:** [%key:common::config_flow::abort::reauth_successful%]
 
-**Befintlig svenska:** [%key:common::config_flow::abort::reauth_successful%]
+**Befintlig svenska:** Återautentisering lyckades
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1482,7 +1482,7 @@ Välj **Skicka** för att få en QR-kod som kan skannas med appen.
 
 **Engelska:** As a prerequisite you must be able to log in to your smartmeter gateway from a web browser via `https://[IP of your gateway]`.
 
-**Befintlig svenska:** Du måste kunna logga in på smartmätargatewayen i en webbläsare via `https://[IP of your gateway]`.
+**Befintlig svenska:** Du måste kunna logga in på smartmätargatewayen i en webbläsare via `https://[IP-adressen för din gateway]`.
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1498,7 +1498,7 @@ Välj **Skicka** för att få en QR-kod som kan skannas med appen.
 
 **Engelska:** The password provided by your power grid operator
 
-**Befintlig svenska:** Lösenordet från nätägaren
+**Befintlig svenska:** Lösenordet från din elnätsoperatör.
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1514,7 +1514,7 @@ Välj **Skicka** för att få en QR-kod som kan skannas med appen.
 
 **Engelska:** [%key:common::config_flow::data::username%]
 
-**Befintlig svenska:** [%key:common::config_flow::data::username%]
+**Befintlig svenska:** Användarnamn
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1522,7 +1522,7 @@ Välj **Skicka** för att få en QR-kod som kan skannas med appen.
 
 **Engelska:** [%key:common::config_flow::data::password%]
 
-**Befintlig svenska:** [%key:common::config_flow::data::password%]
+**Befintlig svenska:** Lösenord
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1530,7 +1530,7 @@ Välj **Skicka** för att få en QR-kod som kan skannas med appen.
 
 **Engelska:** [%key:common::config_flow::data::host%]
 
-**Befintlig svenska:** [%key:common::config_flow::data::host%]
+**Befintlig svenska:** Värd
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1538,7 +1538,7 @@ Välj **Skicka** för att få en QR-kod som kan skannas med appen.
 
 **Engelska:** [%key:common::config_flow::error::unknown%]
 
-**Befintlig svenska:** [%key:common::config_flow::error::unknown%]
+**Befintlig svenska:** Oväntat fel
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1546,7 +1546,7 @@ Välj **Skicka** för att få en QR-kod som kan skannas med appen.
 
 **Engelska:** [%key:common::config_flow::error::invalid_auth%]
 
-**Befintlig svenska:** [%key:common::config_flow::error::invalid_auth%]
+**Befintlig svenska:** Ogiltig autentisering
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1562,7 +1562,7 @@ Välj **Skicka** för att få en QR-kod som kan skannas med appen.
 
 **Engelska:** [%key:common::config_flow::abort::already_configured_device%]
 
-**Befintlig svenska:** [%key:common::config_flow::abort::already_configured_device%]
+**Befintlig svenska:** Enheten är redan konfigurerad
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1610,7 +1610,7 @@ Välj **Skicka** för att få en QR-kod som kan skannas med appen.
 
 **Engelska:** The 8-character Threema ID of the recipient.
 
-**Befintlig svenska:** Mottagarens åttateckens-Threema-ID.
+**Befintlig svenska:** Mottagarens Threema-ID med åtta tecken.
 
 **Förslag:** Mottagarens Threema-ID med åtta tecken.
 
@@ -1716,7 +1716,7 @@ When registering at gateway.threema.ch, paste the public key as shown above. Sto
 Offentlig nyckel: `{public_key}`
 Privat nyckel: `{private_key}`
 
-När du registrerar på gateway.threema.ch klistrar du in den offentliga nyckeln enligt ovan. Förvara den privata nyckeln säkert. Den går inte att återställa.
+När du registrerar dig på gateway.threema.ch klistrar du in den offentliga nyckeln enligt ovan. Förvara den privata nyckeln säkert. Den går inte att återställa.
 
 **Förslag:** Nycklarna har genererats. Spara dem innan du fortsätter!
 
@@ -1809,7 +1809,7 @@ När du registrerar dig på gateway.threema.ch klistrar du in den offentliga nyc
 
 **Engelska:** [%key:common::config_flow::error::unknown%]
 
-**Befintlig svenska:** [%key:common::config_flow::error::unknown%]
+**Befintlig svenska:** Oväntat fel
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1944,3 +1944,17 @@ Uppdatera de automatiseringar och skript som använder entiteten och tryck sedan
 **Befintlig svenska:** Nederbördstyp
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+## Livegranskning 2026-11-24
+
+Alla 240 poster återlästes från Lokalise och jämfördes med Core-källträdet vid commit `2fdaa177f3e94535b3b649fb1ffc2dbba52eb4ce`. Samtliga 240 nycklar och direktkällor matchade. Tjugotvå engelska nyckelreferenser återstår i aktuell källtext; ytterligare sex källor har nu direkttext efter källändringar. Totalt kontrollerades 28 referensanvändningar mot 20 unika mål; alla mål finns och konsumenternas svenska följer målen.
+
+### Bedömning och uppföljning
+
+- 23 av de aktuella svenska livevärdena skiljer sig från den äldre rapportögonblicksbilden. Ändringarna är redan sparade i Lokalise och befanns korrekta; rapportens befintlig-text har synkats med livevärdena utan nya API-skrivningar.
+- Fronius måltext (9188–9191) är nu synkroniserad mellan konfigurering och omkonfigurering. Långtexten täcker AC-effekt, batteriladdning/urladdning, 15-minuters återutsändning, lägsta reserv och nätladdning.
+- LIFX-serienumret (9248) säger nu korrekt tolv tecken och nätverksutsändning. OpenAI API-nyckeln, Threema-nyckelhantering, Monarch Money-återautentisering och Theben Conexa-inloggning följer sina fullständiga källtexter.
+- Referensmålen lästes separat via API: 28/28 användningar matchar, inga saknade mål. Referenserna är korrekt återgivna i Lokalise; där översättningen är gemensam behålls referensen.
+- Alla platshållare matchar på 240 poster; inga pluralposter. Ingen ny lokal översättningsändring behövdes efter live-readback. Svlang naturalness-poäng på utvalda meningar var 8,8–10/10; verktygsvarningar för V2, MFA och sammansatta egennamn bedömdes manuellt och godkändes i sammanhanget. Hunspell-flaggor på tekniska egennamn och `MFA-kod` är inte stavfel. Terminologistödet bekräftade API-nyckel, återautentisering och Home Assistant-termer.
+- Nästa batch börjar vid 9421; Core-granskningen fortsätter.
