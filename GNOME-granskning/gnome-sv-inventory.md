@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 01:35 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 01:37 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -424,7 +424,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [gnome-software](https://l10n.gnome.org/vertimus/gnome-software/gnome-50/help/sv/) | gnome-50 | 157 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-software](https://l10n.gnome.org/vertimus/gnome-software/main/help/sv/) | main | 157 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-subtitles](https://l10n.gnome.org/vertimus/gnome-subtitles/master/po/sv/) | master | 377 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-sudoku](https://l10n.gnome.org/vertimus/gnome-sudoku/main/po/sv/) | main | 140 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-sudoku](https://l10n.gnome.org/vertimus/gnome-sudoku/main/po/sv/) | main | 140 | 0 | 0 | Klar | X | 3 | Klar lokalt (2026-11-24): Hela 140-strängarskatalogen är radgranskad mot senaste POT. Tre befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](gnome-sudoku/main/po/gnome-sudoku.main.sv.original.po), [granskad](gnome-sudoku/main/po/gnome-sudoku.main.sv.reviewed.po), [diff](gnome-sudoku/main/po/gnome-sudoku.main.sv.review.diff), [notering](gnome-sudoku/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-sudoku](https://l10n.gnome.org/vertimus/gnome-sudoku/gnome-50/po/sv/) | gnome-50 | 144 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-sudoku](https://l10n.gnome.org/vertimus/gnome-sudoku/main/help/sv/) | main | 118 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-sudoku](https://l10n.gnome.org/vertimus/gnome-sudoku/gnome-50/help/sv/) | gnome-50 | 118 | 0 | 0 | Klar |  | — | Ej granskad |
