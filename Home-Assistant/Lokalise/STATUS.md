@@ -78,3 +78,10 @@
 - Platshållare matchar; två JVC-nycklar kräver kontroll av implementationskälla.
 - Core-TMX validerad: 16 502 poster; exporten har 42 628 språkpar och 32 exkluderade nycklar.
 - Granskningen fortsätter.
+
+## 2026-11-24 – Core 24001–24120
+
+- 16 ändringar sparade och återlästa i Lokalise.
+- Alla 16 Core-sökvägar verifierade; jalusi och shade termer granskade mot device class.
+- Core-TMX validerad: 16 518 poster; exporten har 42 629 språkpar och 32 exkluderade nycklar.
+- Övergripande Core-granskning fortsätter.
