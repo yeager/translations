@@ -1,0 +1,2402 @@
+[
+  {
+    "key": "component::tplink_omada::services::set_client_name::fields::device_id::description",
+    "key_id": "932019295",
+    "translation_id": "9700377644",
+    "en": "The device whose client name will be set.",
+    "sv": "Den enhet vars klientnamn ska ställas in.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tplink_omada::services::set_client_name::fields::config_entry_id::name",
+    "key_id": "932019294",
+    "translation_id": "9700377580",
+    "en": "Omada controller",
+    "sv": "Omada-styrenhet",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::tplink_omada::services::set_client_name::fields::config_entry_id::description",
+    "key_id": "932019293",
+    "translation_id": "9700377516",
+    "en": "The instance of the Omada integration to which the client is connected.",
+    "sv": "Den instans av Omada-integrationen som klienten är ansluten till.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tplink_omada::services::set_client_name::description",
+    "key_id": "932019292",
+    "translation_id": "9700377452",
+    "en": "Sets the name of a client on the Omada network.",
+    "sv": "Ställer in namnet på en klient i Omada-nätverket.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tplink_omada::exceptions::set_client_name_failed::message",
+    "key_id": "932019291",
+    "translation_id": "9700377388",
+    "en": "Failed to set client name for device with MAC {mac}",
+    "sv": "Det gick inte att ange klientnamn för enheten med MAC-adressen {mac}",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tplink_omada::exceptions::client_query_failed::message",
+    "key_id": "932019290",
+    "translation_id": "9700377324",
+    "en": "Failed to query client with MAC {mac} from the Omada controller.",
+    "sv": "Det gick inte att hämta information om klienten med MAC-adressen {mac} från Omada-styrenheten.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tplink_omada::exceptions::client_mac_ambiguous::message",
+    "key_id": "932019289",
+    "translation_id": "9700377260",
+    "en": "The selected device has multiple network addresses on the Omada controller. Select a different device.",
+    "sv": "Den valda enheten har flera nätverksadresser på Omada-styrenheten. Välj en annan enhet.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::tplink_omada::exceptions::client_device_not_tracked::message",
+    "key_id": "932019288",
+    "translation_id": "9700377196",
+    "en": "The selected device is not a network client of the Omada controller.",
+    "sv": "Den valda enheten är inte en nätverksklient för Omada-styrenheten.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tplink_omada::exceptions::client_device_not_found::message",
+    "key_id": "932019287",
+    "translation_id": "9700377132",
+    "en": "The selected device was not found.",
+    "sv": "Den valda enheten hittades inte.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tplink_omada::exceptions::client_device_no_mac::message",
+    "key_id": "932019286",
+    "translation_id": "9700377068",
+    "en": "The selected device has no network MAC address associated with it.",
+    "sv": "Den valda enheten har ingen nätverks-MAC-adress kopplad till sig.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::energyzero::entity::sensor::all_in_next_price::name",
+    "key_id": "932014426",
+    "translation_id": "9700352184",
+    "en": "Next all-in price",
+    "sv": "Nästa totalpris",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::energyzero::entity::sensor::all_in_min_price::name",
+    "key_id": "932014425",
+    "translation_id": "9700352120",
+    "en": "Minimum all-in price",
+    "sv": "Lägsta totalpris",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::energyzero::entity::sensor::all_in_max_price::name",
+    "key_id": "932014424",
+    "translation_id": "9700352056",
+    "en": "Maximum all-in price",
+    "sv": "Högsta totalpris",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::energyzero::entity::sensor::all_in_current_price::name",
+    "key_id": "932014423",
+    "translation_id": "9700351992",
+    "en": "Current all-in price",
+    "sv": "Aktuellt totalpris",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::energyzero::entity::sensor::all_in_average_price::name",
+    "key_id": "932014422",
+    "translation_id": "9700351928",
+    "en": "Average all-in price",
+    "sv": "Genomsnittligt totalpris",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::nexblue::entity::switch::charging::name",
+    "key_id": "931990962",
+    "translation_id": "9700241458",
+    "en": "Charging",
+    "sv": "Laddar",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jellyfin::config::step::reconfigure::data::username",
+    "key_id": "931981386",
+    "translation_id": "9700208200",
+    "en": "Username",
+    "sv": "Användarnamn",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jellyfin::config::step::reconfigure::data::url",
+    "key_id": "931981385",
+    "translation_id": "9700208136",
+    "en": "URL",
+    "sv": "URL",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jellyfin::config::step::reconfigure::data::password",
+    "key_id": "931981384",
+    "translation_id": "9700208072",
+    "en": "Password",
+    "sv": "Lösenord",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jellyfin::config::abort::unique_id_mismatch",
+    "key_id": "931981383",
+    "translation_id": "9700208008",
+    "en": "The Jellyfin credentials do not match the configured account",
+    "sv": "Jellyfin-inloggningsuppgifterna matchar inte det konfigurerade kontot",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::willow::config::step::pick_implementation::title",
+    "key_id": "931975934",
+    "translation_id": "9700185577",
+    "en": "Pick authentication method",
+    "sv": "Välj autentiseringsmetod",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::willow::config::create_entry::default",
+    "key_id": "931975933",
+    "translation_id": "9700185513",
+    "en": "Successfully authenticated",
+    "sv": "Autentisering lyckades",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::willow::config::abort::user_rejected_authorize",
+    "key_id": "931975932",
+    "translation_id": "9700185449",
+    "en": "Account linking rejected: {error}",
+    "sv": "Kontolänkning avvisades: {error}",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::willow::config::abort::unknown",
+    "key_id": "931975931",
+    "translation_id": "9700185385",
+    "en": "Unexpected error",
+    "sv": "Oväntat fel",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::willow::config::abort::oauth_unauthorized",
+    "key_id": "931975930",
+    "translation_id": "9700185321",
+    "en": "OAuth authorization error while obtaining access token.",
+    "sv": "OAuth-auktoriseringsfel vid hämtning av åtkomsttoken.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::willow::config::abort::oauth_timeout",
+    "key_id": "931975929",
+    "translation_id": "9700185257",
+    "en": "Timeout while resolving the OAuth token.",
+    "sv": "Tidsgränsen överskreds när OAuth-token hämtades.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::willow::config::abort::oauth_implementation_unavailable",
+    "key_id": "931975928",
+    "translation_id": "9700185193",
+    "en": "No OAuth2 implementations are currently available.",
+    "sv": "Inga OAuth2-implementeringar finns tillgängliga för närvarande.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::willow::config::abort::oauth_failed",
+    "key_id": "931975927",
+    "translation_id": "9700185129",
+    "en": "Error while obtaining access token.",
+    "sv": "Fel vid hämtning av åtkomsttoken.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::willow::config::abort::oauth_error",
+    "key_id": "931975926",
+    "translation_id": "9700185065",
+    "en": "Received invalid token data.",
+    "sv": "Ogiltiga tokendata mottogs.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::willow::config::abort::no_url_available",
+    "key_id": "931975925",
+    "translation_id": "9700185001",
+    "en": "No URL available. For information about this error, [check the help section]({docs_url})",
+    "sv": "Ingen webbadress är tillgänglig. [Se hjälpavsnittet]({docs_url}) för information om det här felet.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::willow::config::abort::missing_configuration",
+    "key_id": "931975924",
+    "translation_id": "9700184937",
+    "en": "The component is not configured. Please follow the documentation.",
+    "sv": "Komponenten har inte konfigurerats. Följ dokumentationen.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::willow::config::abort::invalid_auth",
+    "key_id": "931975923",
+    "translation_id": "9700184873",
+    "en": "Invalid authentication",
+    "sv": "Ogiltig autentisering",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::willow::config::abort::authorize_url_timeout",
+    "key_id": "931975922",
+    "translation_id": "9700184809",
+    "en": "Timeout while generating an authorization URL.",
+    "sv": "Tidsgränsen överskreds när en auktoriserings-URL skapades.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::willow::config::abort::already_in_progress",
+    "key_id": "931975921",
+    "translation_id": "9700184745",
+    "en": "This is already being configured. Finish the existing configuration before starting again.",
+    "sv": "Det här konfigureras redan. Slutför den befintliga konfigurationen innan du börjar igen.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::willow::config::abort::already_configured",
+    "key_id": "931975920",
+    "translation_id": "9700184681",
+    "en": "Account is already configured",
+    "sv": "Kontot är redan konfigurerat",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::openhome::exceptions::volume_up::message",
+    "key_id": "931967583",
+    "translation_id": "9700100443",
+    "en": "Failed to turn up the volume",
+    "sv": "Det gick inte att höja volymen",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::openhome::exceptions::volume_set::message",
+    "key_id": "931967582",
+    "translation_id": "9700100379",
+    "en": "Failed to set the volume",
+    "sv": "Det gick inte att ställa in volymen",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::openhome::exceptions::volume_mute::message",
+    "key_id": "931967581",
+    "translation_id": "9700100315",
+    "en": "Failed to set the mute state",
+    "sv": "Det gick inte att ställa in ljudavstängning",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::openhome::exceptions::volume_down::message",
+    "key_id": "931967580",
+    "translation_id": "9700100251",
+    "en": "Failed to turn down the volume",
+    "sv": "Det gick inte att sänka volymen",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::openhome::exceptions::turn_on::message",
+    "key_id": "931967579",
+    "translation_id": "9700100187",
+    "en": "Failed to turn on",
+    "sv": "Det gick inte att slå på",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::openhome::exceptions::turn_off::message",
+    "key_id": "931967578",
+    "translation_id": "9700100123",
+    "en": "Failed to turn off",
+    "sv": "Det gick inte att stänga av",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::openhome::exceptions::select_source::message",
+    "key_id": "931967577",
+    "translation_id": "9700100059",
+    "en": "Failed to select the source",
+    "sv": "Det gick inte att välja källa",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::openhome::exceptions::play_media::message",
+    "key_id": "931967576",
+    "translation_id": "9700099995",
+    "en": "Failed to play media",
+    "sv": "Det gick inte att spela upp media",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::openhome::exceptions::pins_not_supported::message",
+    "key_id": "931967575",
+    "translation_id": "9700099931",
+    "en": "This device does not support pins",
+    "sv": "Den här enheten stöder inte pins",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::openhome::exceptions::media_stop::message",
+    "key_id": "931967574",
+    "translation_id": "9700099867",
+    "en": "Failed to stop",
+    "sv": "Det gick inte att stoppa",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::openhome::exceptions::media_previous_track::message",
+    "key_id": "931967573",
+    "translation_id": "9700099803",
+    "en": "Failed to move to the previous track",
+    "sv": "Det gick inte att hoppa till föregående spår",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::openhome::exceptions::media_play::message",
+    "key_id": "931967572",
+    "translation_id": "9700099739",
+    "en": "Failed to play",
+    "sv": "Det gick inte att spela upp",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::openhome::exceptions::media_pause::message",
+    "key_id": "931967571",
+    "translation_id": "9700099675",
+    "en": "Failed to pause",
+    "sv": "Det gick inte att pausa",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::openhome::exceptions::media_next_track::message",
+    "key_id": "931967570",
+    "translation_id": "9700099611",
+    "en": "Failed to move to the next track",
+    "sv": "Det gick inte att hoppa till nästa spår",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::openhome::exceptions::invoke_pin::message",
+    "key_id": "931967569",
+    "translation_id": "9700099547",
+    "en": "Failed to invoke the pin",
+    "sv": "Det gick inte att spela upp det förvalda innehållet.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::collection_image::services::select_previous::name",
+    "key_id": "931963299",
+    "translation_id": "9700070151",
+    "en": "Select previous",
+    "sv": "Välj föregående",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::collection_image::services::select_previous::fields::wrap::name",
+    "key_id": "931963298",
+    "translation_id": "9700070087",
+    "en": "Wrap",
+    "sv": "Loop",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::collection_image::services::select_previous::fields::wrap::description",
+    "key_id": "931963297",
+    "translation_id": "9700070023",
+    "en": "Advances to the last image after reaching the beginning of the list.",
+    "sv": "Går vidare till den sista bilden efter att ha nått början av listan.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::collection_image::services::select_previous::description",
+    "key_id": "931963296",
+    "translation_id": "9700069959",
+    "en": "Updates the image entity to the previous image in the configured media.",
+    "sv": "Uppdaterar bildentiteten till föregående bild i det konfigurerade mediet.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::collection_image::services::select_next::name",
+    "key_id": "931963295",
+    "translation_id": "9700069895",
+    "en": "Select next",
+    "sv": "Välj nästa",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::collection_image::services::select_next::fields::wrap::name",
+    "key_id": "931963294",
+    "translation_id": "9700069831",
+    "en": "Wrap",
+    "sv": "Loop",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::collection_image::services::select_next::fields::wrap::description",
+    "key_id": "931963293",
+    "translation_id": "9700069767",
+    "en": "Advances to the first image after reaching the end of the list.",
+    "sv": "Går vidare till den första bilden efter att listan har nått slutet.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::collection_image::services::select_next::description",
+    "key_id": "931963292",
+    "translation_id": "9700069703",
+    "en": "Updates the image entity to the next image in the configured media.",
+    "sv": "Uppdaterar bildentiteten till nästa bild i det konfigurerade mediet.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::collection_image::services::select_last::name",
+    "key_id": "931963291",
+    "translation_id": "9700069639",
+    "en": "Select last",
+    "sv": "Välj sista",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::collection_image::services::select_last::description",
+    "key_id": "931963290",
+    "translation_id": "9700069575",
+    "en": "Updates the image entity to the last image in the configured media.",
+    "sv": "Uppdaterar bildentiteten till den sista bilden i det konfigurerade mediet.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::collection_image::services::select_first::name",
+    "key_id": "931963289",
+    "translation_id": "9700069511",
+    "en": "Select first",
+    "sv": "Välj första",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::collection_image::services::select_first::description",
+    "key_id": "931963288",
+    "translation_id": "9700069447",
+    "en": "Updates the image entity to the first image in the configured media.",
+    "sv": "Uppdaterar bildentiteten till den första bilden i det konfigurerade mediet.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::homevolt::entity::number::setpoint::name",
+    "key_id": "931933918",
+    "translation_id": "9699793153",
+    "en": "Power setpoint",
+    "sv": "Effektbörvärde",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::homevolt::entity::number::grid_import_limit::name",
+    "key_id": "931933917",
+    "translation_id": "9699793089",
+    "en": "Grid import limit",
+    "sv": "Gräns för import från nätet",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::homevolt::entity::number::grid_export_limit::name",
+    "key_id": "931933916",
+    "translation_id": "9699793025",
+    "en": "Grid export limit",
+    "sv": "Gräns för export till nätet",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::duco::entity::binary_sensor::diagnostic_ventilation_cooling::name",
+    "key_id": "931906803",
+    "translation_id": "9699604485",
+    "en": "Ventilation cooling",
+    "sv": "Ventilationskylning",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::duco::entity::binary_sensor::diagnostic_ventilation::name",
+    "key_id": "931906802",
+    "translation_id": "9699604421",
+    "en": "Ventilation",
+    "sv": "Ventilation",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::duco::entity::binary_sensor::diagnostic_sun_control::name",
+    "key_id": "931906801",
+    "translation_id": "9699604357",
+    "en": "Sun control",
+    "sv": "Solkontroll",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::duco::entity::binary_sensor::diagnostic_filter::name",
+    "key_id": "931906800",
+    "translation_id": "9699604293",
+    "en": "Filter",
+    "sv": "Filter",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifiprotect::entity::sensor::fob_status::state::recently_seen",
+    "key_id": "931883382",
+    "translation_id": "9699520518",
+    "en": "Recently seen",
+    "sv": "Nyligen sedd",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifiprotect::entity::sensor::fob_status::state::online",
+    "key_id": "931883381",
+    "translation_id": "9699520454",
+    "en": "Online",
+    "sv": "Online",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifiprotect::entity::sensor::fob_status::state::no_recent_heartbeat",
+    "key_id": "931883380",
+    "translation_id": "9699520390",
+    "en": "No recent heartbeat",
+    "sv": "Inga hjärtslag nyligen",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifiprotect::entity::sensor::fob_status::state::device_lost",
+    "key_id": "931883379",
+    "translation_id": "9699520326",
+    "en": "Device lost",
+    "sv": "Enhet förlorad",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifiprotect::entity::sensor::fob_status::name",
+    "key_id": "931883378",
+    "translation_id": "9699520262",
+    "en": "Status",
+    "sv": "Status",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifiprotect::entity::event::keyfob::state_attributes::event_type::state::right",
+    "key_id": "931883377",
+    "translation_id": "9699520198",
+    "en": "Right",
+    "sv": "Höger",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifiprotect::entity::event::keyfob::state_attributes::event_type::state::panic",
+    "key_id": "931883376",
+    "translation_id": "9699520134",
+    "en": "Panic",
+    "sv": "Panik",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifiprotect::entity::event::keyfob::state_attributes::event_type::state::night",
+    "key_id": "931883375",
+    "translation_id": "9699520070",
+    "en": "Night",
+    "sv": "Natt",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifiprotect::entity::event::keyfob::state_attributes::event_type::state::main",
+    "key_id": "931883374",
+    "translation_id": "9699520006",
+    "en": "Main",
+    "sv": "Huvudknapp",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifiprotect::entity::event::keyfob::state_attributes::event_type::state::left",
+    "key_id": "931883373",
+    "translation_id": "9699519936",
+    "en": "Left",
+    "sv": "Vänster",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifiprotect::entity::event::keyfob::state_attributes::event_type::state::input2",
+    "key_id": "931883372",
+    "translation_id": "9699519872",
+    "en": "Input 2",
+    "sv": "Ingång 2",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifiprotect::entity::event::keyfob::state_attributes::event_type::state::input1",
+    "key_id": "931883371",
+    "translation_id": "9699519808",
+    "en": "Input 1",
+    "sv": "Ingång 1",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifiprotect::entity::event::keyfob::state_attributes::event_type::state::function",
+    "key_id": "931883370",
+    "translation_id": "9699519744",
+    "en": "Function",
+    "sv": "Funktion",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifiprotect::entity::event::keyfob::state_attributes::event_type::state::disarm",
+    "key_id": "931883369",
+    "translation_id": "9699519680",
+    "en": "Disarm",
+    "sv": "Larma av",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifiprotect::entity::event::keyfob::state_attributes::event_type::state::arm",
+    "key_id": "931883368",
+    "translation_id": "9699519616",
+    "en": "Arm",
+    "sv": "Larma på",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifiprotect::entity::event::keyfob::state_attributes::event_type::state::alarm_hub_button",
+    "key_id": "931883367",
+    "translation_id": "9699519552",
+    "en": "Alarm hub button",
+    "sv": "Larmhubbknapp",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifiprotect::entity::event::keyfob::name",
+    "key_id": "931883366",
+    "translation_id": "9699519488",
+    "en": "Button",
+    "sv": "Knapp",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smtp::options::step::init::data_description::reply_to_name",
+    "key_id": "931883332",
+    "translation_id": "9699519313",
+    "en": "Display name shown as the Reply-To name.",
+    "sv": "Visningsnamn för svarsadressen.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::smtp::options::step::init::data_description::reply_to",
+    "key_id": "931883331",
+    "translation_id": "9699519249",
+    "en": "Email address to use for recipient replies. If not specified, the sender's email address is used.",
+    "sv": "E-postadress som ska användas för mottagarens svar. Om inget anges används avsändarens e-postadress.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smtp::options::step::init::data::reply_to_name",
+    "key_id": "931883330",
+    "translation_id": "9699519185",
+    "en": "Reply-To name",
+    "sv": "Svara-till-namn",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smtp::options::step::init::data::reply_to",
+    "key_id": "931883329",
+    "translation_id": "9699519121",
+    "en": "Reply-To email address",
+    "sv": "Svara-till-e-postadress",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smtp::config::step::user::sections::options::data_description::reply_to_name",
+    "key_id": "931883328",
+    "translation_id": "9699519057",
+    "en": "Display name shown as the Reply-To name.",
+    "sv": "Det visningsnamn som används som ”Svara till”-namn.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smtp::config::step::user::sections::options::data_description::reply_to",
+    "key_id": "931883327",
+    "translation_id": "9699518993",
+    "en": "Email address to use for recipient replies. If not specified, the sender's email address is used.",
+    "sv": "E-postadress som ska användas för mottagarens svar. Om inget anges används avsändarens e-postadress.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smtp::config::step::user::sections::options::data::reply_to_name",
+    "key_id": "931883326",
+    "translation_id": "9699518929",
+    "en": "Reply-To name",
+    "sv": "Svara-till-namn",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smtp::config::step::user::sections::options::data::reply_to",
+    "key_id": "931883325",
+    "translation_id": "9699518865",
+    "en": "Reply-To email address",
+    "sv": "Svara-till-e-postadress",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::exceptions::unknown_error::message",
+    "key_id": "931883315",
+    "translation_id": "9699517936",
+    "en": "The device could not complete the requested action.",
+    "sv": "Enheten kunde inte utföra den begärda åtgärden.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::exceptions::fetch_failed::message",
+    "key_id": "931883314",
+    "translation_id": "9699517872",
+    "en": "Failed to fetch data.",
+    "sv": "Det gick inte att hämta data.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::exceptions::device_unavailable::message",
+    "key_id": "931883313",
+    "translation_id": "9699517808",
+    "en": "Device on {uri} is unavailable",
+    "sv": "Enheten på {uri} är inte tillgänglig",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::exceptions::cannot_connect::message",
+    "key_id": "931883312",
+    "translation_id": "9699517744",
+    "en": "Failed to connect",
+    "sv": "Det gick inte att ansluta",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::exceptions::auth_error::message",
+    "key_id": "931883311",
+    "translation_id": "9699517680",
+    "en": "Authentication failed, please reauthenticate.",
+    "sv": "Autentiseringen misslyckades. Autentisera på nytt.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::my_pv::config::step::user::title",
+    "key_id": "931883310",
+    "translation_id": "9699517616",
+    "en": "my-PV Device",
+    "sv": "my-PV-enhet",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::config::step::user::data_description::host",
+    "key_id": "931883309",
+    "translation_id": "9699517552",
+    "en": "The IP address or hostname of your my-PV device.",
+    "sv": "IP-adressen eller värdnamnet för din my-PV-enhet.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::config::step::user::data::host",
+    "key_id": "931883308",
+    "translation_id": "9699517488",
+    "en": "Host",
+    "sv": "Värd",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::config::step::discovery_confirm::title",
+    "key_id": "931883307",
+    "translation_id": "9699517424",
+    "en": "{name}",
+    "sv": "{name}",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::config::step::discovery_confirm::description",
+    "key_id": "931883306",
+    "translation_id": "9699517360",
+    "en": "Do you want to set up {name}?",
+    "sv": "Vill du konfigurera {name}?",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::config::step::discovery_auth::title",
+    "key_id": "931883305",
+    "translation_id": "9699517296",
+    "en": "{name}",
+    "sv": "{name}",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::config::step::discovery_auth::description",
+    "key_id": "931883304",
+    "translation_id": "9699517232",
+    "en": "Do you want to set up {name}?",
+    "sv": "Vill du konfigurera {name}?",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::config::step::discovery_auth::data_description::password",
+    "key_id": "931883303",
+    "translation_id": "9699517168",
+    "en": "The password of your my-PV device. If no custom password is set you have to use the **devicekey** which can be found under the ⓘ info menu of your my-PV device. For the HEA•THOR IoT you can find the **devicekey** on the device label.",
+    "sv": "Lösenordet för din my-PV-enhet. Om inget anpassat lösenord är inställt måste du använda **devicekey** som finns under ⓘ info-menyn på din my-PV-enhet. För HEA•THOR IoT hittar du **devicekey** på enhetens etikett.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::config::step::discovery_auth::data::password",
+    "key_id": "931883302",
+    "translation_id": "9699517104",
+    "en": "Password",
+    "sv": "Lösenord",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::config::step::auth::title",
+    "key_id": "931883301",
+    "translation_id": "9699517040",
+    "en": "{name} password",
+    "sv": "Lösenord för {name}",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::my_pv::config::step::auth::data_description::password",
+    "key_id": "931883300",
+    "translation_id": "9699516976",
+    "en": "The password of your my-PV device. If no custom password is set you have to use the **devicekey** which can be found under the ⓘ info menu of your my-PV device. For the HEA•THOR IoT you can find the **devicekey** on the device label.",
+    "sv": "Lösenordet för din my-PV-enhet. Om inget anpassat lösenord är inställt måste du använda **devicekey** som finns under ⓘ info-menyn på din my-PV-enhet. För HEA•THOR IoT hittar du **devicekey** på enhetens etikett.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::config::step::auth::data::password",
+    "key_id": "931883299",
+    "translation_id": "9699516912",
+    "en": "Password",
+    "sv": "Lösenord",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::config::error::invalid_password",
+    "key_id": "931883298",
+    "translation_id": "9699516848",
+    "en": "Invalid password",
+    "sv": "Ogiltigt lösenord",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::config::error::cannot_connect",
+    "key_id": "931883297",
+    "translation_id": "9699516784",
+    "en": "Failed to connect",
+    "sv": "Det gick inte att ansluta",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::config::abort::cannot_connect",
+    "key_id": "931883296",
+    "translation_id": "9699516720",
+    "en": "Failed to connect",
+    "sv": "Det gick inte att ansluta",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::config::abort::already_configured",
+    "key_id": "931883295",
+    "translation_id": "9699516656",
+    "en": "Device is already configured",
+    "sv": "Enheten är redan konfigurerad",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::common::password_description",
+    "key_id": "931883294",
+    "translation_id": "9699516592",
+    "en": "The password of your my-PV device. If no custom password is set you have to use the **devicekey** which can be found under the ⓘ info menu of your my-PV device. For the HEA•THOR IoT you can find the **devicekey** on the device label.",
+    "sv": "Lösenordet för din my-PV-enhet. Om inget anpassat lösenord är inställt måste du använda **devicekey** som finns under ⓘ info-menyn på din my-PV-enhet. För HEA•THOR IoT hittar du **devicekey** på enhetens etikett.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::my_pv::common::discovery_description",
+    "key_id": "931883293",
+    "translation_id": "9699516528",
+    "en": "Do you want to set up {name}?",
+    "sv": "Vill du konfigurera {name}?",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tuya::entity::sensor::session_energy::name",
+    "key_id": "931788142",
+    "translation_id": "9698951641",
+    "en": "Session energy",
+    "sv": "Energiförbrukning under sessionen",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::tuya::entity::sensor::charger_status::state::charger_wait",
+    "key_id": "931788141",
+    "translation_id": "9698951577",
+    "en": "Waiting",
+    "sv": "Väntar",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tuya::entity::sensor::charger_status::state::charger_pause",
+    "key_id": "931788140",
+    "translation_id": "9698951513",
+    "en": "Paused",
+    "sv": "Pausad",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tuya::entity::sensor::charger_status::state::charger_insert",
+    "key_id": "931788139",
+    "translation_id": "9698951449",
+    "en": "Plugged in",
+    "sv": "Inkopplad",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tuya::entity::sensor::charger_status::state::charger_free_fault",
+    "key_id": "931788138",
+    "translation_id": "9698951385",
+    "en": "Fault while idle",
+    "sv": "Fel när laddaren är inaktiv",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::tuya::entity::sensor::charger_status::state::charger_free",
+    "key_id": "931788137",
+    "translation_id": "9698951321",
+    "en": "Idle",
+    "sv": "Inaktiv",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tuya::entity::sensor::charger_status::state::charger_fault",
+    "key_id": "931788136",
+    "translation_id": "9698951257",
+    "en": "Fault",
+    "sv": "Fel",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tuya::entity::sensor::charger_status::state::charger_end",
+    "key_id": "931788135",
+    "translation_id": "9698951193",
+    "en": "Finished",
+    "sv": "Färdig",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tuya::entity::sensor::charger_status::state::charger_charging",
+    "key_id": "931788134",
+    "translation_id": "9698951129",
+    "en": "Charging",
+    "sv": "Laddar",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tuya::entity::sensor::charger_status::name",
+    "key_id": "931788133",
+    "translation_id": "9698951065",
+    "en": "Status",
+    "sv": "Status",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tuya::entity::select::charger_work_mode::state::charge_schedule",
+    "key_id": "931719211",
+    "translation_id": "9697674096",
+    "en": "Scheduled",
+    "sv": "Schemalagd",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tuya::entity::select::charger_work_mode::state::charge_pct",
+    "key_id": "931719210",
+    "translation_id": "9697674032",
+    "en": "Charge to percentage",
+    "sv": "Laddning till procent",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tuya::entity::select::charger_work_mode::state::charge_now",
+    "key_id": "931719209",
+    "translation_id": "9697673968",
+    "en": "Charge now",
+    "sv": "Ladda nu",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tuya::entity::select::charger_work_mode::state::charge_energy",
+    "key_id": "931719208",
+    "translation_id": "9697673904",
+    "en": "Charge by energy",
+    "sv": "Laddning med energi",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tuya::entity::select::charger_work_mode::name",
+    "key_id": "931719207",
+    "translation_id": "9697673840",
+    "en": "Charging mode",
+    "sv": "Laddningsläge",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tuya::entity::number::charging_current::name",
+    "key_id": "931719186",
+    "translation_id": "9697673547",
+    "en": "Charging current",
+    "sv": "Laddningsström",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::config::error::too_many_logged_in_devices",
+    "key_id": "931616193",
+    "translation_id": "9696633678",
+    "en": "The Midea cloud account has too many active sign-ins. Sign out of the Midea app on other devices and try again. (err {error_code})",
+    "sv": "Det finns för många aktiva inloggningar på Midea-molnkontot. Logga ut från Midea-appen på andra enheter och försök igen. (err {error_code})",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::config::error::invalid_cloud_server",
+    "key_id": "931616192",
+    "translation_id": "9696633614",
+    "en": "This account is not registered on the selected cloud server. Choose the server where the account was created. (err {error_code})",
+    "sv": "Det här kontot är inte registrerat på den valda molnservern. Välj den server där kontot skapades. (err {error_code})",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::config::error::invalid_auth",
+    "key_id": "931616191",
+    "translation_id": "9696633550",
+    "en": "Invalid authentication (err {error_code})",
+    "sv": "Ogiltig autentisering (err {error_code})",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::config::error::device_not_registered",
+    "key_id": "931616190",
+    "translation_id": "9696633486",
+    "en": "This Midea cloud account is not authorized for this device. The device is registered to a different account. (err {error_code})",
+    "sv": "Detta Midea-molnkonto är inte auktoriserat för den här enheten. Enheten är registrerad på ett annat konto. (err {error_code})",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::config::error::cloud_session_expired",
+    "key_id": "931616189",
+    "translation_id": "9696633422",
+    "en": "The Midea cloud sign-in session is no longer valid. Try again. (err {error_code})",
+    "sv": "Inloggningssessionen för Midea Cloud är inte längre giltig. Försök igen. (err {error_code})",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::config::error::cloud_error",
+    "key_id": "931616188",
+    "translation_id": "9696633358",
+    "en": "The Midea cloud returned an error. Check the logs for details and try again. (err {error_code})",
+    "sv": "Midea-molnet returnerade ett fel. Kontrollera loggarna för mer information och försök igen. (err {error_code})",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::config::error::account_locked",
+    "key_id": "931616187",
+    "translation_id": "9696633294",
+    "en": "Too many failed sign-in attempts. Wait about five minutes before trying again. (err {error_code})",
+    "sv": "För många misslyckade inloggningsförsök. Vänta cirka fem minuter innan du försöker igen. (err {error_code})",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::scorpiontrack::entity::sensor::heading::name",
+    "key_id": "931080479",
+    "translation_id": "9692020920",
+    "en": "Heading",
+    "sv": "Riktning",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::pi_hole::exceptions::enable_failed::message",
+    "key_id": "931044174",
+    "translation_id": "9691320671",
+    "en": "Failed to enable Pi-hole: {error}",
+    "sv": "Det gick inte att aktivera Pi-hole: {error}",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::pi_hole::exceptions::disable_failed::message",
+    "key_id": "931044173",
+    "translation_id": "9691320607",
+    "en": "Failed to disable Pi-hole: {error}",
+    "sv": "Det gick inte att inaktivera Pi-hole: {error}",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifiprotect::entity::event::smart_detection::state_attributes::event_source::name",
+    "key_id": "931043479",
+    "translation_id": "9691318975",
+    "en": "Event source",
+    "sv": "Händelsekälla",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifiprotect::entity::event::package::state_attributes::event_source::name",
+    "key_id": "931043478",
+    "translation_id": "9691318911",
+    "en": "Event source",
+    "sv": "Händelsekälla",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::litterrobot::entity::light::night_light::name",
+    "key_id": "931043434",
+    "translation_id": "9691318388",
+    "en": "Night light",
+    "sv": "Nattlampa",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::litterrobot::entity::sensor::hopper_status::state::ready",
+    "key_id": "930911302",
+    "translation_id": "9689265363",
+    "en": "Ready",
+    "sv": "Redo",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::litterrobot::entity::sensor::hopper_status::state::offline",
+    "key_id": "930911301",
+    "translation_id": "9689265299",
+    "en": "Offline",
+    "sv": "Offline",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::litterrobot::entity::sensor::hopper_status::state::litter_low",
+    "key_id": "930911300",
+    "translation_id": "9689265235",
+    "en": "Litter low",
+    "sv": "Låg nivå av kattsand",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::litterrobot::entity::sensor::hopper_status::state::jammed",
+    "key_id": "930911299",
+    "translation_id": "9689265171",
+    "en": "Jammed",
+    "sv": "Fastnat",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::energyzero::selector::electricity_price_interval::options::quarter_hourly",
+    "key_id": "930911285",
+    "translation_id": "9689264946",
+    "en": "Quarter-hourly",
+    "sv": "Varje kvart",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::energyzero::selector::electricity_price_interval::options::hourly",
+    "key_id": "930911284",
+    "translation_id": "9689264882",
+    "en": "Hourly",
+    "sv": "Varje timme",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::energyzero::options::step::init::data::electricity_price_interval",
+    "key_id": "930911283",
+    "translation_id": "9689264818",
+    "en": "Electricity price interval",
+    "sv": "Elprisintervall",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::value_updated::name",
+    "key_id": "930901403",
+    "translation_id": "9688867681",
+    "en": "Z-Wave JS value updated",
+    "sv": "Z-Wave JS-värde uppdaterat",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::value_updated::fields::to::name",
+    "key_id": "930901402",
+    "translation_id": "9688867617",
+    "en": "To",
+    "sv": "Till",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::value_updated::fields::to::description",
+    "key_id": "930901401",
+    "translation_id": "9688867553",
+    "en": "Only trigger when the value changes to this value, or to any value in this list.",
+    "sv": "Utlös endast när värdet ändras till detta värde eller till något värde i den här listan.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::value_updated::fields::property_key::name",
+    "key_id": "930901400",
+    "translation_id": "9688867489",
+    "en": "Property key",
+    "sv": "Egenskapsnyckel",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::value_updated::fields::property_key::description",
+    "key_id": "930901399",
+    "translation_id": "9688867425",
+    "en": "Property key of the value.",
+    "sv": "Egenskapsnyckel för värdet.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::value_updated::fields::property::name",
+    "key_id": "930901398",
+    "translation_id": "9688867361",
+    "en": "Property",
+    "sv": "Egenskap",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::value_updated::fields::property::description",
+    "key_id": "930901397",
+    "translation_id": "9688867297",
+    "en": "Property of the value.",
+    "sv": "Värdets egenskap.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::value_updated::fields::from::name",
+    "key_id": "930901396",
+    "translation_id": "9688867233",
+    "en": "From",
+    "sv": "Från",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::value_updated::fields::from::description",
+    "key_id": "930901395",
+    "translation_id": "9688867169",
+    "en": "Only trigger when the value changes from this value, or from any value in this list.",
+    "sv": "Utlös endast när värdet ändras från detta värde eller från något värde i den här listan.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::value_updated::fields::entity_id::name",
+    "key_id": "930901394",
+    "translation_id": "9688867105",
+    "en": "Entities",
+    "sv": "Entiteter",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::value_updated::fields::entity_id::description",
+    "key_id": "930901393",
+    "translation_id": "9688867041",
+    "en": "Entities whose values to watch. At least one device or entity is required.",
+    "sv": "Entiteter vars värden ska bevakas. Minst en enhet eller entitet krävs.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::value_updated::fields::endpoint::name",
+    "key_id": "930901392",
+    "translation_id": "9688866977",
+    "en": "Endpoint",
+    "sv": "Slutpunkt",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::value_updated::fields::endpoint::description",
+    "key_id": "930901391",
+    "translation_id": "9688866913",
+    "en": "Endpoint of the value.",
+    "sv": "Slutpunkt för värdet.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::value_updated::fields::device_id::name",
+    "key_id": "930901390",
+    "translation_id": "9688866849",
+    "en": "Devices",
+    "sv": "Enheter",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::value_updated::fields::device_id::description",
+    "key_id": "930901389",
+    "translation_id": "9688866785",
+    "en": "Devices whose values to watch. At least one device or entity is required.",
+    "sv": "Enheter vars värden ska bevakas. Minst en enhet eller entitet krävs.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::value_updated::fields::command_class::name",
+    "key_id": "930901388",
+    "translation_id": "9688866721",
+    "en": "Command class",
+    "sv": "Kommandoklass",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::value_updated::fields::command_class::description",
+    "key_id": "930901387",
+    "translation_id": "9688866657",
+    "en": "Command class of the value.",
+    "sv": "Kommandoklass för värdet.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::value_updated::description",
+    "key_id": "930901386",
+    "translation_id": "9688866593",
+    "en": "Triggers when a Z-Wave value on one or more nodes changes.",
+    "sv": "Utlöses när ett Z-Wave-värde på en eller flera noder ändras.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::event::name",
+    "key_id": "930901385",
+    "translation_id": "9688866529",
+    "en": "Z-Wave JS event received",
+    "sv": "Z-Wave JS-händelse mottagen",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::event::fields::partial_dict_match::name",
+    "key_id": "930901384",
+    "translation_id": "9688866465",
+    "en": "Partial dictionary match",
+    "sv": "Delvis matchning av ordbok",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::event::fields::partial_dict_match::description",
+    "key_id": "930901383",
+    "translation_id": "9688866401",
+    "en": "Match nested dictionaries in the event data on the given keys only, instead of requiring an exact match.",
+    "sv": "Matcha kapslade ordböcker i händelsedatan endast mot de angivna nycklarna i stället för att kräva en exakt matchning.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::event::fields::event_source::name",
+    "key_id": "930901382",
+    "translation_id": "9688866337",
+    "en": "Event source",
+    "sv": "Händelsekälla",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::event::fields::event_source::description",
+    "key_id": "930901381",
+    "translation_id": "9688866273",
+    "en": "Whether the event is emitted by the controller, the driver, or a node.",
+    "sv": "Om händelsen avges av styrenheten, drivrutinen eller en nod.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::event::fields::event_data::name",
+    "key_id": "930901380",
+    "translation_id": "9688866209",
+    "en": "Event data",
+    "sv": "Händelsedata",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::event::fields::event_data::description",
+    "key_id": "930901379",
+    "translation_id": "9688866145",
+    "en": "Key-value pairs the event data must contain for the trigger to fire.",
+    "sv": "Nyckelvärdepar som händelsedatan måste innehålla för att utlösaren ska aktiveras.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::event::fields::event::name",
+    "key_id": "930901378",
+    "translation_id": "9688866081",
+    "en": "Event",
+    "sv": "Händelse",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::event::fields::event::description",
+    "key_id": "930901377",
+    "translation_id": "9688866017",
+    "en": "Name of the Z-Wave JS event, for example `value notification`.",
+    "sv": "Namnet på Z-Wave JS-händelsen, till exempel `value notification`.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::event::fields::entity_id::name",
+    "key_id": "930901376",
+    "translation_id": "9688865953",
+    "en": "Entities",
+    "sv": "Entiteter",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::event::fields::entity_id::description",
+    "key_id": "930901375",
+    "translation_id": "9688865889",
+    "en": "Entities whose node events to listen to. Node events need at least one device or entity, and controller or driver events must not have any.",
+    "sv": "Entiteter vars nodhändelser ska bevakas. Nodhändelser kräver minst en enhet eller entitet. Ange inga för styrenhets- eller drivrutinshändelser.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::triggers::event::fields::device_id::name",
+    "key_id": "930901374",
+    "translation_id": "9688865825",
+    "en": "Devices",
+    "sv": "Enheter",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::event::fields::device_id::description",
+    "key_id": "930901373",
+    "translation_id": "9688865761",
+    "en": "Devices whose node events to listen to. Node events need at least one device or entity, and controller or driver events must not have any.",
+    "sv": "Enheter vars nodhändelser ska bevakas. Nodhändelser kräver minst en enhet eller entitet. Ange inga för styrenhets- eller drivrutinshändelser.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::triggers::event::fields::config_entry_id::name",
+    "key_id": "930901372",
+    "translation_id": "9688865697",
+    "en": "Config entry",
+    "sv": "Konfigurationspost",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::event::fields::config_entry_id::description",
+    "key_id": "930901371",
+    "translation_id": "9688865633",
+    "en": "The Z-Wave JS config entry to listen to. Required for controller and driver events.",
+    "sv": "Z-Wave JS-konfigurationsposten att lyssna på. Krävs för styrenhets- och drivrutinshändelser.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::triggers::event::description",
+    "key_id": "930901370",
+    "translation_id": "9688865569",
+    "en": "Triggers when a Z-Wave JS controller, driver, or node emits an event.",
+    "sv": "Utlöses när en Z-Wave JS-styrenhet, drivrutin eller nod avger en händelse.",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::event_source::options::node",
+    "key_id": "930901369",
+    "translation_id": "9688865505",
+    "en": "Node",
+    "sv": "Nod",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::event_source::options::driver",
+    "key_id": "930901368",
+    "translation_id": "9688865441",
+    "en": "Driver",
+    "sv": "Drivrutin",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::event_source::options::controller",
+    "key_id": "930901367",
+    "translation_id": "9688865377",
+    "en": "Controller",
+    "sv": "Styrenhet",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::99",
+    "key_id": "930901366",
+    "translation_id": "9688865313",
+    "en": "User Code (99)",
+    "sv": "Användarkod (99)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::98",
+    "key_id": "930901365",
+    "translation_id": "9688865249",
+    "en": "Door Lock (98)",
+    "sv": "Dörrlås (98)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::97",
+    "key_id": "930901364",
+    "translation_id": "9688865185",
+    "en": "Z/IP Portal (97)",
+    "sv": "Z/IP-portal (97)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::96",
+    "key_id": "930901363",
+    "translation_id": "9688865121",
+    "en": "Multi Channel (96)",
+    "sv": "Flerkanalig (96)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::95",
+    "key_id": "930901362",
+    "translation_id": "9688865057",
+    "en": "Z/IP Gateway (95)",
+    "sv": "Z/IP-gateway (95)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::94",
+    "key_id": "930901361",
+    "translation_id": "9688864993",
+    "en": "Z-Wave Plus Info (94)",
+    "sv": "Information om Z-Wave Plus (94)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::93",
+    "key_id": "930901360",
+    "translation_id": "9688864929",
+    "en": "Anti-Theft (93)",
+    "sv": "Stöldskydd (93)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::92",
+    "key_id": "930901359",
+    "translation_id": "9688864865",
+    "en": "IP Association (92)",
+    "sv": "IP-associering (92)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::91",
+    "key_id": "930901358",
+    "translation_id": "9688864801",
+    "en": "Central Scene (91)",
+    "sv": "Central scen (91)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::90",
+    "key_id": "930901357",
+    "translation_id": "9688864737",
+    "en": "Device Reset Locally (90)",
+    "sv": "Återställ enheten lokalt (90)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::89",
+    "key_id": "930901356",
+    "translation_id": "9688864673",
+    "en": "Association Group Information (89)",
+    "sv": "Information om associeringsgrupp (89)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::88",
+    "key_id": "930901355",
+    "translation_id": "9688864609",
+    "en": "Z/IP ND (88)",
+    "sv": "Z/IP ND (88)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::87",
+    "key_id": "930901354",
+    "translation_id": "9688864545",
+    "en": "Application Capability (87)",
+    "sv": "Programfunktion (87)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::86",
+    "key_id": "930901353",
+    "translation_id": "9688864481",
+    "en": "CRC-16 Encapsulation (86)",
+    "sv": "CRC-16-inkapsling (86)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::85",
+    "key_id": "930901352",
+    "translation_id": "9688864417",
+    "en": "Transport Service (85)",
+    "sv": "Transporttjänst (85)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::84",
+    "key_id": "930901351",
+    "translation_id": "9688864353",
+    "en": "Network Management Primary (84)",
+    "sv": "Primär nätverkshantering (84)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::83",
+    "key_id": "930901350",
+    "translation_id": "9688864289",
+    "en": "Schedule (83)",
+    "sv": "Schema (83)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::82",
+    "key_id": "930901349",
+    "translation_id": "9688864225",
+    "en": "Network Management Proxy (82)",
+    "sv": "Proxy för nätverkshantering (82)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::81",
+    "key_id": "930901348",
+    "translation_id": "9688864161",
+    "en": "Move To Position Window Covering (81)",
+    "sv": "Flytta fönsterskydd till position (81)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::80",
+    "key_id": "930901347",
+    "translation_id": "9688864097",
+    "en": "Basic Window Covering (80)",
+    "sv": "Grundläggande styrning av fönsterskydd (80)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::79",
+    "key_id": "930901346",
+    "translation_id": "9688864033",
+    "en": "Z/IP 6LoWPAN (79)",
+    "sv": "Z/IP 6LoWPAN (79)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::78",
+    "key_id": "930901345",
+    "translation_id": "9688863969",
+    "en": "Schedule Entry Lock (78)",
+    "sv": "Låsning av schemapost (78)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::77",
+    "key_id": "930901344",
+    "translation_id": "9688863905",
+    "en": "Network Management Basic Node (77)",
+    "sv": "Grundnod för nätverkshantering (77)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::76",
+    "key_id": "930901343",
+    "translation_id": "9688863841",
+    "en": "Door Lock Logging (76)",
+    "sv": "Loggning av dörrlås (76)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::75",
+    "key_id": "930901342",
+    "translation_id": "9688863777",
+    "en": "Tariff Table Monitor (75)",
+    "sv": "Övervakning av tarifftabell (75)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::74",
+    "key_id": "930901341",
+    "translation_id": "9688863713",
+    "en": "Tariff Table Configuration (74)",
+    "sv": "Konfiguration av tarifftabell (74)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::73",
+    "key_id": "930901340",
+    "translation_id": "9688863649",
+    "en": "Rate Table Monitor (73)",
+    "sv": "Övervakning av pristabell (73)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::72",
+    "key_id": "930901339",
+    "translation_id": "9688863585",
+    "en": "Rate Table Configuration (72)",
+    "sv": "Konfiguration av pristabell (72)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::71",
+    "key_id": "930901338",
+    "translation_id": "9688863521",
+    "en": "Thermostat Setback (71)",
+    "sv": "Termostatens temperatursänkning (71)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::70",
+    "key_id": "930901337",
+    "translation_id": "9688863457",
+    "en": "Climate Control Schedule (70)",
+    "sv": "Schema för klimatstyrning (70)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::69",
+    "key_id": "930901336",
+    "translation_id": "9688863393",
+    "en": "Thermostat Fan State (69)",
+    "sv": "Termostatens fläktstatus (69)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::68",
+    "key_id": "930901335",
+    "translation_id": "9688863329",
+    "en": "Thermostat Fan Mode (68)",
+    "sv": "Termostatens fläktläge (68)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::67",
+    "key_id": "930901334",
+    "translation_id": "9688863265",
+    "en": "Thermostat Setpoint (67)",
+    "sv": "Termostatens börvärde (67)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::66",
+    "key_id": "930901333",
+    "translation_id": "9688863201",
+    "en": "Thermostat Operating State (66)",
+    "sv": "Termostatens driftstatus (66)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::65",
+    "key_id": "930901332",
+    "translation_id": "9688863137",
+    "en": "Prepayment Encapsulation (65)",
+    "sv": "Inkapsling av förskottsbetalning (65)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::64",
+    "key_id": "930901331",
+    "translation_id": "9688863073",
+    "en": "Thermostat Mode (64)",
+    "sv": "Termostatläge (64)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::63",
+    "key_id": "930901330",
+    "translation_id": "9688863009",
+    "en": "Prepayment (63)",
+    "sv": "Förskottsbetalning (63)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::62",
+    "key_id": "930901329",
+    "translation_id": "9688862945",
+    "en": "Meter Table Push Configuration (62)",
+    "sv": "Pushkonfiguration för mätartabell (62)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::61",
+    "key_id": "930901328",
+    "translation_id": "9688862881",
+    "en": "Meter Table Monitor (61)",
+    "sv": "Övervakning av mätartabell (61)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::60",
+    "key_id": "930901327",
+    "translation_id": "9688862817",
+    "en": "Meter Table Configuration (60)",
+    "sv": "Konfiguration av mätartabell (60)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::59",
+    "key_id": "930901326",
+    "translation_id": "9688862753",
+    "en": "Demand Control Plan Monitor (59)",
+    "sv": "Övervakning av behovsstyrningsplan (59)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::58",
+    "key_id": "930901325",
+    "translation_id": "9688862689",
+    "en": "Demand Control Plan Configuration (58)",
+    "sv": "Konfiguration av behovsstyrningsplan (58)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::57",
+    "key_id": "930901324",
+    "translation_id": "9688862625",
+    "en": "HRV Control (57)",
+    "sv": "HRV-styrning (57)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::55",
+    "key_id": "930901323",
+    "translation_id": "9688862561",
+    "en": "HRV Status (55)",
+    "sv": "HRV-status (55)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::54",
+    "key_id": "930901322",
+    "translation_id": "9688862497",
+    "en": "Basic Tariff Information (54)",
+    "sv": "Grundläggande tariffinformation (54)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::53",
+    "key_id": "930901321",
+    "translation_id": "9688862433",
+    "en": "Pulse Meter (53)",
+    "sv": "Pulsmätare (53)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::52",
+    "key_id": "930901320",
+    "translation_id": "9688862369",
+    "en": "Network Management Inclusion (52)",
+    "sv": "Inkludering för nätverkshantering (52)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::51",
+    "key_id": "930901319",
+    "translation_id": "9688862305",
+    "en": "Color Switch (51)",
+    "sv": "Färgbrytare (51)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::50",
+    "key_id": "930901318",
+    "translation_id": "9688862241",
+    "en": "Meter (50)",
+    "sv": "Mätare (50)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::selector::command_class::options:::49",
+    "key_id": "930901317",
+    "translation_id": "9688862177",
+    "en": "Multilevel Sensor (49)",
+    "sv": "Flernivåsensor (49)",
+    "verification_method": "Lokalise API live readback after full-row review against HA Core source/references",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  }
+]
