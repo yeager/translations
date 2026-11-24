@@ -654,9 +654,9 @@ Sortering: ”Last added” vid insamlingen. Livegranskningen gjordes 2026-11-24
 
 **Engelska:** Keep the current profile
 
-**Befintlig svenska:** Behåll den aktuella profilen och ignorera reparationen
+**Befintlig svenska:** Behåll den aktuella profilen
 
-**Sparat i Lokalise:** Behåll den aktuella profilen och ignorera reparationen
+**Livekontroll:** Behåll den aktuella profilen
 
 ## 7103. `component::http::issues::ssl_profile_outdated::fix_flow::step::init::menu_options::confirm_modern_v6`
 
@@ -670,9 +670,9 @@ Sortering: ”Last added” vid insamlingen. Livegranskningen gjordes 2026-11-24
 
 **Engelska:** Upgrade to Intermediate v6 (recommended)
 
-**Befintlig svenska:** Uppgradera till Intermediate v6, som behåller TLS 1.2 (rekommenderas)
+**Befintlig svenska:** Uppgradera till Intermediate v6 (rekommenderas)
 
-**Sparat i Lokalise:** Uppgradera till Intermediate v6, som behåller TLS 1.2 (rekommenderas)
+**Livekontroll:** Uppgradera till Intermediate v6 (rekommenderas)
 
 ## 7105. `component::http::issues::ssl_profile_outdated::fix_flow::step::init::description`
 
@@ -2005,7 +2005,7 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 ## Livegranskning 2026-11-24
 
 
-Alla 240 nycklar radgranskades mot aktuell källtext och livevärden. 64 användningar av 33 unika referensmål kontrollerades; de 11 avvikande målenhetstexterna synkades. Resterande referensanvändningar matchar. 14 textändringar sparades i Lokalise. Alla 15 API-skrivningar återlästes; en skrivning visade att värdet redan var identiskt. Fyra källposter hade utökats; fullständiga källor och befintliga översättningar synkades till TM. Övriga 225 nycklar behölls efter kontroll.
+Alla 240 nycklar radgranskades mot aktuell källtext och livevärden. 64 användningar av 33 unika referensmål kontrollerades; de 11 avvikande målenhetstexterna synkades. Resterande referensanvändningar matchar. 12 textändringar sparades i Lokalise. Alla 17 API-skrivningar återlästes; två tillfälliga avsteg återställdes och en skrivning visade att värdet redan var identiskt. Fyra källposter hade utökats; fullständiga källor och befintliga översättningar synkades till TM. Övriga 225 nycklar behölls efter kontroll.
 
 
 ### Ändringar sparade i Lokalise
@@ -2024,19 +2024,18 @@ Alla 240 nycklar radgranskades mot aktuell källtext och livevärden. 64 använd
 | `component::nexia::config::step::reauth_confirm::title` | `Autentiseringen har upphört för {name}` | `Autentiseringen har upphört att gälla för {name}` | Matchar den kontrollerade referenstexten. |
 | `component::kodi::config::step::reauth_confirm::title` | `Autentiseringen har upphört för {name}` | `Autentiseringen har upphört att gälla för {name}` | Matchar den kontrollerade referenstexten. |
 | `component::bond::config::step::reauth_confirm::title` | `Autentiseringen har upphört för {name}` | `Autentiseringen har upphört att gälla för {name}` | Matchar den kontrollerade referenstexten. |
-| `component::http::issues::ssl_profile_outdated::fix_flow::step::init::menu_options::ignore` | `Behåll den aktuella profilen` | `Behåll den aktuella profilen och ignorera reparationen` | Bevarar båda handlingarna i alternativet. |
-| `component::http::issues::ssl_profile_outdated::fix_flow::step::init::menu_options::confirm_intermediate_v6` | `Uppgradera till Intermediate v6 (rekommenderas)` | `Uppgradera till Intermediate v6, som behåller TLS 1.2 (rekommenderas)` | Bevarar att Intermediate v6 stöder TLS 1.2. |
 | `component::downloader::exceptions::not_loaded::message` | `Nedladdaren har inte lästs in.` | `Downloader-integreringen har inte lästs in.` | Gör klart att Downloader-integreringen inte är inläst. |
 
 ### Verifiering och öppna punkter
 
 
+- Den äldre sparrapporten `sparade-andringar-granskning-7021-7260.md` dokumenterar nio korrigeringar. Dessa granskades mot livevärden; befintliga förbättringar behölls och hänsyn togs till deras ursprungliga motivering.
 - Fullständig källtext kontrollerades för HTTPS/TLS-beskrivningen, Modern v6- och Intermediate v6-bekräftelserna samt Mastodon-exemplet. Aktuella svenska mål är kompletta; YAML-exemplet och tabellstrukturen bevaras.
 
 - Placeholder-set för samtliga källor och mål jämfördes: mismatch saknas.
 
 - Rapporterade referensmål saknas inte. API-feltext, veckodagsfält och common states uppslagades live; efter uppdatering är referensvärdena konsekventa.
 
-- Exportens granskningsstatus: `reviewed-saved` för 14 ändrade nycklar, `reviewed-existing` för övriga 226, `verified-reference-target` för externa mål.
+- Exportens granskningsstatus: `reviewed-saved` för 12 ändrade nycklar, `reviewed-existing` för övriga 228, `verified-reference-target` för externa mål.
 
 - Core TM-export valideras efter snapshotuppdateringen. Nästa batch börjar vid 7261.
