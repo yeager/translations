@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 02:47 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 02:49 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -214,7 +214,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [calls](https://l10n.gnome.org/vertimus/calls/main/po/sv/) | main | 122 | 0 | 0 | Klar | X | 3 | Klar lokalt (2026-11-24): Hela 122-strängarskatalogen är radgranskad mot senaste POT. Tre befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](calls/main/po/calls.main.sv.original.po), [granskad](calls/main/po/calls.main.sv.reviewed.po), [diff](calls/main/po/calls.main.sv.review.diff), [notering](calls/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [caribou](https://l10n.gnome.org/module/caribou/) | master | 56 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [chatty](https://l10n.gnome.org/vertimus/chatty/main/po/sv/) | main | 429 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [citations](https://l10n.gnome.org/vertimus/citations/master/po/sv/) | master | 161 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [citations](https://l10n.gnome.org/vertimus/citations/master/po/sv/) | master | 161 | 0 | 0 | Klar | X | 9 | Klar lokalt (2026-11-24): Hela 161-strängarskatalogen är radgranskad mot senaste POT. Nio befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt och msgcmp är godkända. l10n-lint saknar fel; Redaktör är en dokumenterad bibliografisk term. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](citations/master/po/citations.master.sv.original.po), [granskad](citations/master/po/citations.master.sv.reviewed.po), [diff](citations/master/po/citations.master.sv.review.diff), [notering](citations/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [colord](https://l10n.gnome.org/vertimus/colord/main/po/sv/) | main | 251 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [console](https://l10n.gnome.org/vertimus/console/main/po/sv/) | main | 138 | 0 | 0 | Klar | X | 14 | Klar lokalt (2026-11-24): Hela 138-strängarskatalogen är radgranskad mot senaste POT. Tretton befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](console/main/po/console.main.sv.original.po), [granskad](console/main/po/console.main.sv.reviewed.po), [diff](console/main/po/console.main.sv.review.diff), [notering](console/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [console](https://l10n.gnome.org/vertimus/console/gnome-50/po/sv/) | gnome-50 | 137 | 0 | 0 | Klar |  | — | Ej granskad |
