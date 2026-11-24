@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 01:08 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 01:10 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -211,7 +211,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [brasero](https://l10n.gnome.org/vertimus/brasero/master/help/sv/) | master | 143 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [buoh](https://l10n.gnome.org/module/buoh/) | master | 82 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [bustle](https://l10n.gnome.org/vertimus/bustle/main/po/sv/) | main | 140 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [calls](https://l10n.gnome.org/vertimus/calls/main/po/sv/) | main | 122 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [calls](https://l10n.gnome.org/vertimus/calls/main/po/sv/) | main | 122 | 0 | 0 | Klar | X | 3 | Klar lokalt (2026-11-24): Hela 122-strängarskatalogen är radgranskad mot senaste POT. Tre befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](calls/main/po/calls.main.sv.original.po), [granskad](calls/main/po/calls.main.sv.reviewed.po), [diff](calls/main/po/calls.main.sv.review.diff), [notering](calls/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [caribou](https://l10n.gnome.org/module/caribou/) | master | 56 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [chatty](https://l10n.gnome.org/vertimus/chatty/main/po/sv/) | main | 429 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [citations](https://l10n.gnome.org/vertimus/citations/master/po/sv/) | master | 161 | 0 | 0 | Klar |  | — | Ej granskad |
