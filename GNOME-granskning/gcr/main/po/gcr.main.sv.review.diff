@@ -1,0 +1,115 @@
+diff --git a/.work-gnome-review/gcr-main-po/original.po b/.work-gnome-review/gcr-main-po/sv.po
+index f938ad7..c514e11 100644
+--- a/.work-gnome-review/gcr-main-po/original.po
++++ b/.work-gnome-review/gcr-main-po/sv.po
+@@ -5,14 +5,15 @@
+ # Sebastian Rasmussen <sebras@gmail.com>, 2015.
+ # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2016, 2018, 2020, 2021, 2022, 2023, 2025.
+ # Luna Jernberg <droidbittin@gmail.com>, 2022.
++# Daniel Nylander <gnome@danielnylander.se>, 2026.
+ #
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: gcr\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gcr/issues/\n"
+ "POT-Creation-Date: 2026-09-01 14:04+0000\n"
+-"PO-Revision-Date: 2025-03-11 20:05+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -55,11 +56,11 @@ msgstr "Bostadsland"
+ 
+ #: egg/egg-oid.c:64
+ msgid "Common Name"
+-msgstr "Common Name"
++msgstr "Allmänt namn"
+ 
+ #: egg/egg-oid.c:66
+ msgid "Surname"
+-msgstr "Förnamn"
++msgstr "Efternamn"
+ 
+ #: egg/egg-oid.c:68 gcr/gcr-certificate.c:1387
+ msgid "Serial Number"
+@@ -75,7 +76,7 @@ msgstr "Lokalitet"
+ 
+ #: egg/egg-oid.c:74
+ msgid "State"
+-msgstr "Län"
++msgstr "Delstat/provins"
+ 
+ #: egg/egg-oid.c:76
+ msgid "Street"
+@@ -273,7 +274,7 @@ msgstr "Nyckelidentifierare för ämne"
+ 
+ #: egg/egg-oid.c:150
+ msgid "Key usage"
+-msgstr "Nyckelanvändning"
++msgstr "Nyckelöverenskommelse"
+ 
+ #: egg/egg-oid.c:151
+ msgid "Private key usage period"
+@@ -504,7 +505,7 @@ msgstr "Publik nyckel"
+ 
+ #: gcr/gcr-certificate.c:994
+ msgid "Basic Constraints"
+-msgstr "Användningsområde"
++msgstr "Grundläggande begränsningar"
+ 
+ #: gcr/gcr-certificate.c:996
+ msgid "Certificate Authority"
+@@ -620,7 +621,7 @@ msgstr "Verifierat av"
+ 
+ #: gcr/gcr-certificate.c:1353
+ msgid "Expires"
+-msgstr "Går ut"
++msgstr "Upphör att gälla"
+ 
+ #. The subject
+ #: gcr/gcr-certificate.c:1361
+@@ -693,12 +694,12 @@ msgstr "GnuPG-nyckelring: %s"
+ #: gcr/gcr-gnupg-process.c:867
+ #, c-format
+ msgid "Gnupg process exited with code: %d"
+-msgstr "Gnupg-processen avslutades med kod: %d"
++msgstr "GnuPG-processen avslutades med kod: %d"
+ 
+ #: gcr/gcr-gnupg-process.c:874
+ #, c-format
+ msgid "Gnupg process was terminated with signal: %d"
+-msgstr "Gnupg-processen terminerades med signal: %d"
++msgstr "GnuPG-processen terminerades med signal: %d"
+ 
+ #: gcr/gcr-gnupg-process.c:928 gcr/gcr-parser.c:1790 gcr/gcr-parser.c:2386
+ #: gcr/gcr-system-prompt.c:918
+@@ -719,11 +720,11 @@ msgstr "Certifikatbegäran"
+ 
+ #: gcr/gcr-parser.c:1793
+ msgid "Unrecognized or unsupported data."
+-msgstr "Data är okänt eller stöds inte."
++msgstr "Datan är okänd eller stöds inte."
+ 
+ #: gcr/gcr-parser.c:1796
+ msgid "Could not parse invalid or corrupted data."
+-msgstr "Kunde inte tolka ogiltigt eller skadat data."
++msgstr "Kunde inte tolka ogiltiga eller skadade data."
+ 
+ #: gcr/gcr-parser.c:1799
+ msgid "The data is locked"
+@@ -794,11 +795,11 @@ msgstr "En annan inmatning pågår redan"
+ #: gcr/gcr-trust.c:307
+ #, c-format
+ msgid "Couldn’t find a place to store the pinned certificate"
+-msgstr "Kunde inte hitta en plats att lagra de nålade certifikaten i"
++msgstr "Kunde inte hitta en plats att lagra det fästa certifikatet på"
+ 
+ #: tools/viewer/viewer.c:23
+ msgid "GCR Certificate Viewer"
+-msgstr "GCR Certifikatvisare"
++msgstr "GCR-certifikatvisare"
+ 
+ #: tools/viewer/viewer.c:30
+ msgid "Show the application's version"
