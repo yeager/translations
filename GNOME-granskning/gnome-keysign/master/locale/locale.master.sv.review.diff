@@ -1,0 +1,105 @@
+diff --git a/.work-gnome-review/gnome-keysign-master-locale/original.po b/.work-gnome-review/gnome-keysign-master-locale/sv.po
+index 20b75c7..d27d984 100644
+--- a/.work-gnome-review/gnome-keysign-master-locale/original.po
++++ b/.work-gnome-review/gnome-keysign-master-locale/sv.po
+@@ -8,8 +8,8 @@ msgstr ""
+ "Project-Id-Version: gnome-keysign master\n"
+ "Report-Msgid-Bugs-To: tobiasmue@gnome.org\n"
+ "POT-Creation-Date: 2025-05-10 16:12+0000\n"
+-"PO-Revision-Date: 2024-08-12 17:37+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 12:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -42,9 +42,8 @@ msgid ""
+ "    "
+ msgstr ""
+ "\n"
+-"      Det kan läsa av en annan nyckels streckkod och överföra nyckeln\n"
+-"      säkert, vilket möjliggör enkla signeringssessioner mellan två\n"
+-"      parter.\n"
++"      Det kan läsa av en annan nyckels streckkod och överföra nyckeln säkert,\n"
++"      vilket möjliggör enkla signeringssessioner mellan två parter.\n"
+ "      Det följer god praxis genom att skicka de krypterade signaturerna\n"
+ "      till en nyckels UID:n med e-postklienten som användaren\n"
+ "      konfigurerat för användning.\n"
+@@ -112,7 +111,7 @@ msgstr "Port: {}"
+ 
+ #: keysign/bluetoothoffer.py:132
+ msgid "Bluetooth not available"
+-msgstr "Bluetooth ej tillgängligt"
++msgstr "Bluetooth är inte tillgängligt"
+ 
+ #: keysign/bluetoothoffer.py:137
+ msgid "Press Enter to cancel"
+@@ -140,7 +139,7 @@ msgstr "Tryck på Retur för att avsluta"
+ 
+ #: keysign/bluetoothreceive.py:135
+ msgid "Trying to download the key, please wait"
+-msgstr "Försöker att hämta nyckeln, vänta"
++msgstr "Försöker hämta nyckeln, vänta"
+ 
+ #: keysign/dialog_avahi.ui:8
+ msgid "Unable to Start Avahi"
+@@ -235,11 +234,9 @@ msgstr ""
+ "            Ge rapporten en kort beskrivande titel.\n"
+ "            Något i stil med\n"
+ "            \"{funktionalitet-som-felar}: {vad-gick-fel}\"\n"
+-"            för titeln om du kan. Se till att åtminstone\n"
+-"            titeln, men gärna hela rapporten, är på\n"
+-"            engelska om du kan.\n"
+-"            Ersätt sedan denna text med en längre\n"
+-"            beskrivning av felet.\n"
++"            för titeln om du kan. Se till att åtminstone titeln,\n"
++"            men gärna hela rapporten, är på engelska om du kan.\n"
++"            Ersätt sedan denna text med en längre beskrivning av felet.\n"
+ "            Skärmbilder och videoklipp är också bra!\n"
+ "\n"
+ "            #### Steps to reproduce\n"
+@@ -263,7 +260,7 @@ msgstr "Signera nyckel"
+ 
+ #: keysign/receive.py:253
+ msgid "Select file for saving"
+-msgstr "Välj fil för sparning"
++msgstr "Välj en fil att spara"
+ 
+ #: keysign/receive.ui:56
+ msgid ""
+@@ -388,7 +385,7 @@ msgstr ""
+ 
+ #: keysign/send.py:298
+ msgid "There isn't an Internet connection!"
+-msgstr "Det finns ingen internetanslutning!"
++msgstr "Ingen internetanslutning!"
+ 
+ #: keysign/send.py:413
+ #, python-format
+@@ -413,7 +410,7 @@ msgstr ""
+ 
+ #: keysign/send.ui:135
+ msgid "Very slow or no Internet connection!"
+-msgstr "Ingen eller väldigt långsam internetanslutning!"
++msgstr "Ingen eller mycket långsam internetanslutning!"
+ 
+ #: keysign/send.ui:204 keysign/send.ui:829
+ msgid "The signature has been successfully imported!"
+@@ -437,7 +434,7 @@ msgstr "Ett fel uppstod vid försök att importera signaturen."
+ 
+ #: keysign/send.ui:386
+ msgid "Not imported this certification because it is already known."
+-msgstr "Importerade inte denna certifiering eftersom den redan är känd."
++msgstr "Certifieringen importerades inte eftersom den redan är känd."
+ 
+ #. This refers to the key being certified by someone rather than the key used for
+ #. certifying someone
+@@ -480,7 +477,7 @@ msgid ""
+ "your connection."
+ msgstr ""
+ "Det gick inte att etablera en säker anslutning.\n"
+-"Antingen har din partner angivit en felaktig kod eller så försökte någon "
++"Antingen har din partner angett en felaktig kod eller så försökte någon "
+ "snappa upp din anslutning."
+ 
+ #: keysign/send.ui:993
