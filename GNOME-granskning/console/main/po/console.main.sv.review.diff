@@ -1,0 +1,159 @@
+diff --git a/.work-gnome-review/console-main-po/original.po b/.work-gnome-review/console-main-po/sv.po
+index 502e213..da58c8e 100644
+--- a/.work-gnome-review/console-main-po/original.po
++++ b/.work-gnome-review/console-main-po/sv.po
+@@ -3,14 +3,15 @@
+ # This file is distributed under the same license as the console package.
+ # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
+ # Luna Jernberg <droidbittin@gmail.com>, 2021, 2022.
++# Daniel Nylander <gnome@danielnylander.se>, 2026.
+ #
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: console main\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/console/-/issues/\n"
+ "POT-Creation-Date: 2026-10-24 01:31+0000\n"
+-"PO-Revision-Date: 2026-08-23 12:48+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -104,7 +105,7 @@ msgstr "Ställ in arbetskatalogen"
+ #. Translators: Placeholder of for a given directory
+ #: src/kgx-application.c:520
+ msgid "DIRNAME"
+-msgstr "KATNAMN"
++msgstr "KATALNAMN"
+ 
+ #: src/kgx-application.c:528
+ msgid "Wait until the child exits (TODO)"
+@@ -156,8 +157,8 @@ msgid_plural ""
+ "Some commands are still running, closing this window will kill them and may "
+ "lead to unexpected outcomes"
+ msgstr[0] ""
+-"Ett kommando körs ännu, att stänga detta fönster kommer att döda det och kan "
+-"leda till oväntade resultat"
++"Ett kommando kör fortfarande. Om du stänger fönstret avslutas det, vilket "
++"kan ge oväntade resultat"
+ msgstr[1] ""
+ "Några kommandon körs ännu, att stänga detta fönster kommer att döda dem och "
+ "kan leda till oväntade resultat"
+@@ -174,8 +175,8 @@ msgid_plural ""
+ "Some commands are still running, closing this tab will kill them and may "
+ "lead to unexpected outcomes"
+ msgstr[0] ""
+-"Ett kommando körs ännu, att stänga denna flik kommer att döda det och kan "
+-"leda till oväntade resultat"
++"Ett kommando kör fortfarande. Om du stänger fliken avslutas det, vilket kan "
++"ge oväntade resultat"
+ msgstr[1] ""
+ "Några kommandon körs ännu, att stänga denna flik kommer att döda dem och kan "
+ "leda till oväntade resultat"
+@@ -198,14 +199,14 @@ msgstr "S_täng"
+ 
+ #: src/kgx-colour-utils.c:58
+ msgid "Color string is wrong length"
+-msgstr "Färgsträng har fel längd"
++msgstr "Färgsträngen har fel längd"
+ 
+ #: src/kgx-drop-target.c:198 src/kgx-drop-target.c:250
+ #: src/kgx-drop-target.c:334 src/kgx-drop-target.c:368
+ #: src/kgx-drop-target.c:509
+ msgctxt "toast-message"
+ msgid "Drop Failed"
+-msgstr "Släpp misslyckaded"
++msgstr "Släppning misslyckades"
+ 
+ #: src/kgx-drop-target.c:201 src/kgx-drop-target.c:253
+ msgctxt "spad-message"
+@@ -213,8 +214,8 @@ msgid ""
+ "An unexpected error occurred whilst receiving a URI list drop. Please "
+ "include the following information if you report the error."
+ msgstr ""
+-"Ett oväntat fel inträffade under erhållande av ett URI-listsläpp. Inkludera "
+-"följande information om du rapporterar felet."
++"Ett oväntat fel inträffade vid mottagning av en URI-lista som släpptes. "
++"Inkludera följande information om du rapporterar felet."
+ 
+ #: src/kgx-drop-target.c:337
+ msgctxt "spad-message"
+@@ -222,8 +223,8 @@ msgid ""
+ "An unexpected error occurred whilst receiving a file list drop. Please "
+ "include the following information if you report the error."
+ msgstr ""
+-"Ett oväntat fel inträffade under erhållande av fillistsläpp. Inkludera "
+-"följande information om du rapporterar felet."
++"Ett oväntat fel inträffade vid mottagning av en fillista som släpptes. "
++"Inkludera följande information om du rapporterar felet."
+ 
+ #: src/kgx-drop-target.c:371
+ msgctxt "spad-message"
+@@ -231,8 +232,8 @@ msgid ""
+ "An unexpected error occurred whilst receiving a text drop. Please include "
+ "the following information if you report the error."
+ msgstr ""
+-"Ett oväntat fel inträffade under erhållande av textsläpp. Inkludera följande "
+-"information om du rapporterar felet."
++"Ett oväntat fel inträffade vid mottagning av text som släpptes. Inkludera "
++"följande information om du rapporterar felet."
+ 
+ #: src/kgx-drop-target.c:512
+ msgctxt "spad-message"
+@@ -312,7 +313,7 @@ msgstr "<b>Misslyckades med att starta</b> — %s"
+ 
+ #: src/kgx-spad.c:194
+ msgid "Unable To Open"
+-msgstr "Kunde inte öppna"
++msgstr "Kan inte öppna"
+ 
+ #: src/kgx-spad.c:197
+ #, c-format
+@@ -320,7 +321,7 @@ msgid ""
+ "Opening ‘<a href=\"%s\">%s</a>’ failed:\n"
+ "%s"
+ msgstr ""
+-"Öppnande av ”<a href=\"%s\">%s</a>” misslyckades:\n"
++"Det gick inte att öppna ”<a href=\"%s\">%s</a>”:\n"
+ "%s"
+ 
+ #: src/kgx-spad.c:339 src/kgx-spad.ui:4
+@@ -395,7 +396,7 @@ msgid ""
+ "An unexpected error occurred whilst opening the link “<a href=\"%s\">%s</"
+ "a>”. Please include the following information if you report the error."
+ msgstr ""
+-"Ett oväntat fel inträffade under öppnande av länken ”<a href=\"%s\">%s</a>”. "
++"Ett oväntat fel inträffade när länken ”<a href=\"%s\">%s</a>” öppnades. "
+ "Inkludera följande information om du rapporterar felet."
+ 
+ #: src/kgx-terminal.c:423
+@@ -442,8 +443,8 @@ msgid ""
+ "An unexpected error occurred whilst showing the file. Please include the "
+ "following information if you report the error."
+ msgstr ""
+-"Ett oväntat fel inträffade under visande av filen. Inkludera följande "
+-"information om du rapporterar felet."
++"Ett oväntat fel inträffade när filen visades. Inkludera följande information "
++"om du rapporterar felet."
+ 
+ #: src/kgx-terminal.c:601
+ msgctxt "toast-message"
+@@ -456,7 +457,7 @@ msgid ""
+ "An unexpected error occurred whilst opening the folder. Please include the "
+ "following information if you report the error."
+ msgstr ""
+-"Ett oväntat fel inträffade under öppnande av mappen. Inkludera följande "
++"Ett oväntat fel inträffade när mappen öppnades. Inkludera följande "
+ "information om du rapporterar felet."
+ 
+ #: src/kgx-terminal.c:698
+@@ -479,7 +480,7 @@ msgid ""
+ "An unexpected error occurred whilst processing the clipboard. Please include "
+ "the following information if you report the error."
+ msgstr ""
+-"Ett oväntat fel inträffade under bearbetning av urklipp. Inkludera följande "
++"Ett oväntat fel inträffade vid bearbetning av urklippet. Inkludera följande "
+ "information om du rapporterar felet."
+ 
+ #: src/kgx-terminal.ui:7

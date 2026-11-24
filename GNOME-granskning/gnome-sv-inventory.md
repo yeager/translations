@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 01:30 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 01:35 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -216,7 +216,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [chatty](https://l10n.gnome.org/vertimus/chatty/main/po/sv/) | main | 429 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [citations](https://l10n.gnome.org/vertimus/citations/master/po/sv/) | master | 161 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [colord](https://l10n.gnome.org/vertimus/colord/main/po/sv/) | main | 251 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [console](https://l10n.gnome.org/vertimus/console/main/po/sv/) | main | 138 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [console](https://l10n.gnome.org/vertimus/console/main/po/sv/) | main | 138 | 0 | 0 | Klar | X | 14 | Klar lokalt (2026-11-24): Hela 138-strängarskatalogen är radgranskad mot senaste POT. Tretton befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](console/main/po/console.main.sv.original.po), [granskad](console/main/po/console.main.sv.reviewed.po), [diff](console/main/po/console.main.sv.review.diff), [notering](console/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [console](https://l10n.gnome.org/vertimus/console/gnome-50/po/sv/) | gnome-50 | 137 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [Constrict — Compress videos to target sizes](https://l10n.gnome.org/vertimus/constrict/main/po/sv/) | main | 138 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [cups-pk-helper](https://l10n.gnome.org/vertimus/cups-pk-helper/master/po/sv/) | master | 22 | 0 | 0 | Klar | X | 19 | Klar lokalt (2026-11-23): Hela 22-strängarskatalogen är radgranskad mot senaste POT. 19 befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp, l10n-lint och hunspell-sv saknar fel eller anmärkningar. Ingen GNOME-inskickning har gjorts. [original](cups-pk-helper/master/po/cups-pk-helper.master.sv.original.po), [granskad](cups-pk-helper/master/po/cups-pk-helper.master.sv.reviewed.po), [diff](cups-pk-helper/master/po/cups-pk-helper.master.sv.review.diff), [notering](cups-pk-helper/master/po/README.md) |
