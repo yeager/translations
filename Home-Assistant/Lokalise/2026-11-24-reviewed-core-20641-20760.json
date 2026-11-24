@@ -1,0 +1,1202 @@
+[
+  {
+    "key": "component::duco::config::abort::already_configured",
+    "key_id": "831103677",
+    "translation_id": "8166989764",
+    "en": "Device is already configured",
+    "sv": "Enheten är redan konfigurerad",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::title",
+    "key_id": "831100906",
+    "translation_id": "8166972950",
+    "en": "Expose",
+    "sv": "Exponera",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::description",
+    "key_id": "831100905",
+    "translation_id": "8166972886",
+    "en": "Expose Home Assistant entity states to the KNX bus",
+    "sv": "Exponera tillstånd för entiteter i Home Assistant på KNX-bussen",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::create::value_template::label",
+    "key_id": "831100904",
+    "translation_id": "8166972822",
+    "en": "Value template",
+    "sv": "Värdemall",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::create::value_template::description",
+    "key_id": "831100903",
+    "translation_id": "8166972758",
+    "en": "Optionally transform the entity state or attribute value before sending it to KNX using a template. The template receives the entity state or attribute value as `value` variable.",
+    "sv": "Du kan använda en mall för att omvandla entitetens tillstånd eller attributvärde innan det skickas till KNX. Mallen tar emot tillståndet eller attributvärdet som variabeln `value`.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::create::title",
+    "key_id": "831100902",
+    "translation_id": "8166972694",
+    "en": "Add exposure",
+    "sv": "Lägg till exponering",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::create::show_raw_values",
+    "key_id": "831100901",
+    "translation_id": "8166972630",
+    "en": "Show raw values",
+    "sv": "Visa råvärden",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::create::section_advanced_options::title",
+    "key_id": "831100900",
+    "translation_id": "8166972566",
+    "en": "Additional settings",
+    "sv": "Ytterligare inställningar",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::create::respond_to_read::label",
+    "key_id": "831100899",
+    "translation_id": "8166972502",
+    "en": "Respond to read",
+    "sv": "Svara på läsning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::create::respond_to_read::description",
+    "key_id": "831100898",
+    "translation_id": "8166972438",
+    "en": "Respond to GroupValueRead telegrams received to the configured send address.",
+    "sv": "Svara på GroupValueRead-telegram som mottagits till den konfigurerade sändningsadressen.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::create::periodic_send::label",
+    "key_id": "831100897",
+    "translation_id": "8166972374",
+    "en": "Periodic send interval",
+    "sv": "Intervall för regelbunden sändning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::create::periodic_send::description",
+    "key_id": "831100896",
+    "translation_id": "8166972310",
+    "en": "Time interval to automatically resend the current value to the KNX bus, even if it hasn’t changed.",
+    "sv": "Tidsintervall för automatisk återutsändning av det aktuella värdet till KNX-bussen, även om det inte har ändrats.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::create::ga::label",
+    "key_id": "831100895",
+    "translation_id": "8166972246",
+    "en": "Group address",
+    "sv": "Gruppadress",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::create::entity::label",
+    "key_id": "831100894",
+    "translation_id": "8166972182",
+    "en": "Entity",
+    "sv": "Entitet",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::create::entity::description",
+    "key_id": "831100893",
+    "translation_id": "8166972118",
+    "en": "Home Assistant entity to expose state changes to the KNX bus.",
+    "sv": "Home Assistant-entitet för att exponera tillståndsändringar på KNX-bussen.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::create::default::label",
+    "key_id": "831100892",
+    "translation_id": "8166972054",
+    "en": "Default value",
+    "sv": "Standardvärde",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::create::default::description",
+    "key_id": "831100891",
+    "translation_id": "8166971990",
+    "en": "The value to send if the entity state is `unavailable` or `unknown`, or if the attribute is not set. If `default` is omitted, nothing is sent in these cases, but the last known value remains available for read requests.",
+    "sv": "Det värde som ska skickas om entitetens status är `unavailable` eller `unknown`, eller om attributet inte är angivet. Om `default` utelämnas skickas inget i dessa fall, men det senast kända värdet förblir tillgängligt för läsförfrågningar.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::create::cooldown::label",
+    "key_id": "831100890",
+    "translation_id": "8166971926",
+    "en": "Cooldown",
+    "sv": "Minsta sändningsintervall",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::create::cooldown::description",
+    "key_id": "831100889",
+    "translation_id": "8166971862",
+    "en": "Minimum time between consecutive sends. This can be used to prevent high traffic on the KNX bus when values change very frequently. Only the most recent value during the cooldown period is sent.",
+    "sv": "Minsta tid mellan på varandra följande sändningar. Detta kan förhindra hög trafik på KNX-bussen när värden ändras mycket ofta. Endast det senaste värdet under väntetiden skickas.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::create::attribute::description",
+    "key_id": "831100888",
+    "translation_id": "8166971798",
+    "en": "Expose changes of a specific attribute of the entity instead of the state. Optional. If the attribute is not set, the entity state is exposed.",
+    "sv": "Exponera ändringar av ett visst attribut hos entiteten i stället för dess tillstånd. Valfritt. Om attributet inte anges exponeras entitetens tillstånd.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::expose::create::add_expose",
+    "key_id": "831100887",
+    "translation_id": "8166971734",
+    "en": "Add expose",
+    "sv": "Lägg till exponering",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::russound_rio::entity::select::party_mode::state::on",
+    "key_id": "831100871",
+    "translation_id": "8166971576",
+    "en": "On",
+    "sv": "På",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::russound_rio::entity::select::party_mode::state::off",
+    "key_id": "831100870",
+    "translation_id": "8166971512",
+    "en": "Off",
+    "sv": "Av",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::russound_rio::entity::select::party_mode::state::master",
+    "key_id": "831100869",
+    "translation_id": "8166971448",
+    "en": "Leader",
+    "sv": "Ledare",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::russound_rio::entity::select::party_mode::name",
+    "key_id": "831100868",
+    "translation_id": "8166971384",
+    "en": "Party mode",
+    "sv": "Partyläge",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::opendisplay::entity::event::button::state_attributes::event_type::state::button_up",
+    "key_id": "831100864",
+    "translation_id": "8166971269",
+    "en": "Button up",
+    "sv": "Knapp upp",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::opendisplay::entity::event::button::state_attributes::event_type::state::button_down",
+    "key_id": "831100863",
+    "translation_id": "8166971205",
+    "en": "Button down",
+    "sv": "Knapp ned",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::opendisplay::entity::event::button::name",
+    "key_id": "831100862",
+    "translation_id": "8166971141",
+    "en": "Button {number}",
+    "sv": "Knapp {number}",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::picnic::selector::two_fa_channel::options::sms",
+    "key_id": "831096190",
+    "translation_id": "8166920316",
+    "en": "Text message (SMS)",
+    "sv": "Textmeddelande (SMS)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::picnic::selector::two_fa_channel::options::email",
+    "key_id": "831096189",
+    "translation_id": "8166920252",
+    "en": "Email",
+    "sv": "E-post",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::picnic::config::step::2fa_channel::title",
+    "key_id": "831096188",
+    "translation_id": "8166920188",
+    "en": "Two-factor authentication",
+    "sv": "Tvåfaktorsautentisering",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::picnic::config::step::2fa_channel::description",
+    "key_id": "831096187",
+    "translation_id": "8166920124",
+    "en": "A second factor is required to complete the login. Select the channel through which you want to receive your second factor.",
+    "sv": "En andra faktor krävs för att slutföra inloggningen. Välj den kanal genom vilken du vill ta emot din andra faktor.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::picnic::config::step::2fa_channel::data::two_fa_channel",
+    "key_id": "831096186",
+    "translation_id": "8166920060",
+    "en": "Channel",
+    "sv": "Kanal",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::picnic::config::step::2fa::title",
+    "key_id": "831096185",
+    "translation_id": "8166919996",
+    "en": "Two-factor authentication",
+    "sv": "Tvåfaktorsautentisering",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::picnic::config::step::2fa::description",
+    "key_id": "831096184",
+    "translation_id": "8166919932",
+    "en": "A verification code has been sent to you via your selected channel.",
+    "sv": "En verifieringskod har skickats till dig via din valda kanal.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::picnic::config::step::2fa::data::two_fa_code",
+    "key_id": "831096183",
+    "translation_id": "8166919868",
+    "en": "Verification code",
+    "sv": "Verifieringskod",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::picnic::config::error::invalid_2fa_code",
+    "key_id": "831096182",
+    "translation_id": "8166919804",
+    "en": "The verification code is incorrect or has expired.",
+    "sv": "Verifieringskoden är felaktig eller har gått ut.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::vebus_inverter_mode::state::on",
+    "key_id": "831092511",
+    "translation_id": "8166870806",
+    "en": "On",
+    "sv": "På",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::vebus_inverter_mode::state::off",
+    "key_id": "831092510",
+    "translation_id": "8166870742",
+    "en": "Off",
+    "sv": "Av",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::vebus_inverter_mode::state::inverter_only",
+    "key_id": "831092509",
+    "translation_id": "8166870678",
+    "en": "Inverter only",
+    "sv": "Endast växelriktare",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::vebus_inverter_mode::state::charger_only",
+    "key_id": "831092508",
+    "translation_id": "8166870614",
+    "en": "Charger only",
+    "sv": "Endast laddare",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_settings_dess_mode::state::sell",
+    "key_id": "831092507",
+    "translation_id": "8166870550",
+    "en": "Sell",
+    "sv": "Sälj",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_settings_dess_mode::state::off",
+    "key_id": "831092506",
+    "translation_id": "8166870486",
+    "en": "Off",
+    "sv": "Av",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_settings_dess_mode::state::node_red",
+    "key_id": "831092505",
+    "translation_id": "8166870422",
+    "en": "Node-RED",
+    "sv": "Node-RED",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_settings_dess_mode::state::buy",
+    "key_id": "831092504",
+    "translation_id": "8166870358",
+    "en": "Buy",
+    "sv": "Köp",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_settings_dess_mode::state::auto_vrm",
+    "key_id": "831092503",
+    "translation_id": "8166870294",
+    "en": "Auto / VRM",
+    "sv": "Auto / VRM",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_settings_dess_mode::name",
+    "key_id": "831092502",
+    "translation_id": "8166870230",
+    "en": "DESS mode",
+    "sv": "DESS-läge",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::weekends",
+    "key_id": "831092501",
+    "translation_id": "8166870166",
+    "en": "Weekends",
+    "sv": "Helger",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::weekdays",
+    "key_id": "831092500",
+    "translation_id": "8166870102",
+    "en": "Weekdays",
+    "sv": "Veckodagar",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::wednesday",
+    "key_id": "831092499",
+    "translation_id": "8166870038",
+    "en": "Wednesday",
+    "sv": "Onsdag",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::tuesday",
+    "key_id": "831092498",
+    "translation_id": "8166869974",
+    "en": "Tuesday",
+    "sv": "Tisdag",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::thursday",
+    "key_id": "831092497",
+    "translation_id": "8166869910",
+    "en": "Thursday",
+    "sv": "Torsdag",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::sunday",
+    "key_id": "831092496",
+    "translation_id": "8166869846",
+    "en": "Sunday",
+    "sv": "Söndag",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::saturday",
+    "key_id": "831092495",
+    "translation_id": "8166869782",
+    "en": "Saturday",
+    "sv": "Lördag",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::monday",
+    "key_id": "831092494",
+    "translation_id": "8166869718",
+    "en": "Monday",
+    "sv": "Måndag",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::friday",
+    "key_id": "831092493",
+    "translation_id": "8166869654",
+    "en": "Friday",
+    "sv": "Fredag",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::every_day",
+    "key_id": "831092492",
+    "translation_id": "8166869590",
+    "en": "Every day",
+    "sv": "Varje dag",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::disabled_weekend",
+    "key_id": "831092491",
+    "translation_id": "8166869526",
+    "en": "Disabled (Weekends)",
+    "sv": "Inaktiverad (helger)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::disabled_weekdays",
+    "key_id": "831092490",
+    "translation_id": "8166869462",
+    "en": "Disabled (Weekdays)",
+    "sv": "Inaktiverad (veckodagar)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::disabled_wednesday",
+    "key_id": "831092489",
+    "translation_id": "8166869398",
+    "en": "Disabled (Wednesday)",
+    "sv": "Inaktiverad (onsdag)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::disabled_tuesday",
+    "key_id": "831092488",
+    "translation_id": "8166869334",
+    "en": "Disabled (Tuesday)",
+    "sv": "Inaktiverad (tisdag)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::disabled_thursday",
+    "key_id": "831092487",
+    "translation_id": "8166869270",
+    "en": "Disabled (Thursday)",
+    "sv": "Inaktiverad (torsdag)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::disabled_sunday",
+    "key_id": "831092486",
+    "translation_id": "8166869206",
+    "en": "Disabled (Sunday)",
+    "sv": "Inaktiverad (söndag)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::disabled_saturday",
+    "key_id": "831092485",
+    "translation_id": "8166869142",
+    "en": "Disabled (Saturday)",
+    "sv": "Inaktiverad (lördag)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::disabled_monday",
+    "key_id": "831092484",
+    "translation_id": "8166869078",
+    "en": "Disabled (Monday)",
+    "sv": "Inaktiverad (måndag)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::disabled_friday",
+    "key_id": "831092483",
+    "translation_id": "8166869014",
+    "en": "Disabled (Friday)",
+    "sv": "Inaktiverad (fredag)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::state::disabled_every_day",
+    "key_id": "831092482",
+    "translation_id": "8166868950",
+    "en": "Disabled (Every day)",
+    "sv": "Inaktiverad (varje dag)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_schedule_charge_slot_days::name",
+    "key_id": "831092481",
+    "translation_id": "8166868886",
+    "en": "ESS BatteryLife schedule charge {slot} days",
+    "sv": "ESS BatteryLife schemalagd laddning {slot} dagar",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_mode::state::phase_compensation_enabled",
+    "key_id": "831092480",
+    "translation_id": "8166868822",
+    "en": "Optimized mode or 'keep batteries charged' and phase compensation enabled",
+    "sv": "Optimerat läge eller ”håll batterierna laddade” och faskompensering aktiverad",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_mode::state::phase_compensation_disabled",
+    "key_id": "831092479",
+    "translation_id": "8166868758",
+    "en": "Optimized mode or 'keep batteries charged' and phase compensation disabled",
+    "sv": "Optimerat läge eller ”håll batterierna laddade” och faskompensering inaktiverad",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_mode::state::external_control",
+    "key_id": "831092478",
+    "translation_id": "8166868694",
+    "en": "External control",
+    "sv": "Extern styrning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_mode::name",
+    "key_id": "831092477",
+    "translation_id": "8166868630",
+    "en": "ESS mode (Hub4)",
+    "sv": "ESS-läge (Hub4)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_batterylife_state::state::with_battery_life",
+    "key_id": "831092476",
+    "translation_id": "8166868566",
+    "en": "Optimized mode with BatteryLife",
+    "sv": "Optimerat läge med BatteryLife",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_batterylife_state::state::sustain",
+    "key_id": "831092475",
+    "translation_id": "8166868502",
+    "en": "Multi/Quattro is in sustain",
+    "sv": "Multi/Quattro är i sustain-läge",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_batterylife_state::state::soc_below_soc_limit_24_hours",
+    "key_id": "831092474",
+    "translation_id": "8166868438",
+    "en": "SoC has been below SoC limit for more than 24 hours. Charging battery with 5 amps",
+    "sv": "SoC har legat under SoC-gränsen i mer än 24 timmar. Batteriet laddas med 5 ampere.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_batterylife_state::state::soc_below_battery_life_dynamic_soc_limit",
+    "key_id": "831092473",
+    "translation_id": "8166868374",
+    "en": "SoC below BatteryLife dynamic SoC limit",
+    "sv": "SoC ligger under BatteryLife:s dynamiska SoC-gräns",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_batterylife_state::state::self_consumption_soc_exceeds_85",
+    "key_id": "831092472",
+    "translation_id": "8166868310",
+    "en": "Self-consumption, SoC exceeds 85%",
+    "sv": "Egenförbrukning, SoC överstiger 85 %",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_batterylife_state::state::self_consumption_soc_below_min",
+    "key_id": "831092471",
+    "translation_id": "8166868246",
+    "en": "Self-consumption, SoC is below minimum SoC",
+    "sv": "Egenförbrukning, SoC under minsta SoC",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_batterylife_state::state::self_consumption_soc_at_100",
+    "key_id": "831092470",
+    "translation_id": "8166868182",
+    "en": "Self-consumption, SoC at 100%",
+    "sv": "Egenförbrukning, SoC på 100 %",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_batterylife_state::state::self_consumption_soc_above_min",
+    "key_id": "831092469",
+    "translation_id": "8166868118",
+    "en": "Self-consumption, SoC at or above minimum SoC",
+    "sv": "Egenförbrukning, SoC på eller över minsta SoC",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_batterylife_state::state::self_consumption",
+    "key_id": "831092468",
+    "translation_id": "8166868054",
+    "en": "Self-consumption",
+    "sv": "Egenförbrukning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_batterylife_state::state::recharge_no_battery_life",
+    "key_id": "831092467",
+    "translation_id": "8166867990",
+    "en": "Recharge, SoC dropped 5% or more below minimum SoC (No BatteryLife)",
+    "sv": "Laddning, SoC sjönk 5 % eller mer under minsta SoC (utan BetteryLife)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_batterylife_state::state::recharge",
+    "key_id": "831092466",
+    "translation_id": "8166867926",
+    "en": "Recharge, SoC dropped 5% or more below minimum SoC",
+    "sv": "Laddning, SoC sjönk 5 % eller mer under minsta SoC",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_batterylife_state::state::keep_batteries_charged",
+    "key_id": "831092465",
+    "translation_id": "8166867862",
+    "en": "Keep batteries charged",
+    "sv": "Håll batterierna laddade",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::system_ess_batterylife_state::name",
+    "key_id": "831092464",
+    "translation_id": "8166867798",
+    "en": "ESS mode",
+    "sv": "ESS-läge",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::inverter_mode::state::off",
+    "key_id": "831092463",
+    "translation_id": "8166867734",
+    "en": "Off",
+    "sv": "Av",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::inverter_mode::state::inverter",
+    "key_id": "831092462",
+    "translation_id": "8166867670",
+    "en": "Inverter",
+    "sv": "Växelriktare",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::inverter_mode::state::eco",
+    "key_id": "831092461",
+    "translation_id": "8166867606",
+    "en": "Eco",
+    "sv": "Eco",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::evcharger_mode::state::scheduled_charge",
+    "key_id": "831092460",
+    "translation_id": "8166867542",
+    "en": "Scheduled charge",
+    "sv": "Schemalagd debitering",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::evcharger_mode::state::manual",
+    "key_id": "831092459",
+    "translation_id": "8166867478",
+    "en": "Manual",
+    "sv": "Manuell",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::evcharger_mode::state::auto",
+    "key_id": "831092458",
+    "translation_id": "8166867414",
+    "en": "Auto",
+    "sv": "Auto",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::evcharger_mode::name",
+    "key_id": "831092457",
+    "translation_id": "8166867350",
+    "en": "Mode",
+    "sv": "Läge",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::acsystem_mode::state::passthrough",
+    "key_id": "831092456",
+    "translation_id": "8166867286",
+    "en": "Passthrough",
+    "sv": "Genomströmning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::acsystem_mode::state::on",
+    "key_id": "831092455",
+    "translation_id": "8166867222",
+    "en": "On",
+    "sv": "På",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::acsystem_mode::state::off",
+    "key_id": "831092454",
+    "translation_id": "8166867158",
+    "en": "Off",
+    "sv": "Av",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::acsystem_mode::state::inverter_only",
+    "key_id": "831092453",
+    "translation_id": "8166867094",
+    "en": "Inverter only",
+    "sv": "Endast växelriktare",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::entity::select::acsystem_mode::state::charger_only",
+    "key_id": "831092452",
+    "translation_id": "8166867030",
+    "en": "Charger only",
+    "sv": "Endast laddare",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::music_assistant::entity::text::network_name::name",
+    "key_id": "831091245",
+    "translation_id": "8166836997",
+    "en": "Network name",
+    "sv": "Nätverksnamn",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::huum::config::step::reconfigure::data_description::username",
+    "key_id": "831090873",
+    "translation_id": "8166835334",
+    "en": "The username (email) used in the Huum mobile app.",
+    "sv": "Användarnamnet (e-postadressen) som används i Huum-mobilappen.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::huum::config::step::reconfigure::data_description::password",
+    "key_id": "831090872",
+    "translation_id": "8166835270",
+    "en": "The password used in the Huum mobile app.",
+    "sv": "Lösenordet som används i Huum-mobilappen.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::huum::config::step::reconfigure::data::username",
+    "key_id": "831090871",
+    "translation_id": "8166835206",
+    "en": "Username",
+    "sv": "Användarnamn",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::huum::config::step::reconfigure::data::password",
+    "key_id": "831090870",
+    "translation_id": "8166835142",
+    "en": "Password",
+    "sv": "Lösenord",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::huum::config::abort::reconfigure_successful",
+    "key_id": "831090869",
+    "translation_id": "8166835078",
+    "en": "Reconfiguration was successful",
+    "sv": "Omkonfigureringen lyckades",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::lunatone::config::step::discovery_confirm::description",
+    "key_id": "831003720",
+    "translation_id": "8165433457",
+    "en": "Do you want to set up the Lunatone device at {url}?",
+    "sv": "Vill du konfigurera Lunatone-enheten på {url}?",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::lunatone::config::error::already_configured",
+    "key_id": "831003719",
+    "translation_id": "8165433393",
+    "en": "Device is already configured",
+    "sv": "Enheten är redan konfigurerad",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::lunatone::config::abort::already_in_progress",
+    "key_id": "831003718",
+    "translation_id": "8165433329",
+    "en": "This is already being configured. Finish the existing configuration before starting again.",
+    "sv": "Detta konfigureras redan. Slutför den befintliga konfigurationen innan du börjar igen.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::autoskope::config::step::reauth_confirm::description",
+    "key_id": "831003693",
+    "translation_id": "8165423401",
+    "en": "Please re-enter your password for your Autoskope account.",
+    "sv": "Ange lösenordet för ditt Autoskope-konto igen.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::autoskope::config::step::reauth_confirm::data_description::password",
+    "key_id": "831003692",
+    "translation_id": "8165423337",
+    "en": "The new password for your Autoskope account.",
+    "sv": "Det nya lösenordet för ditt Autoskope-konto.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::autoskope::config::step::reauth_confirm::data::password",
+    "key_id": "831003691",
+    "translation_id": "8165423273",
+    "en": "Password",
+    "sv": "Lösenord",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::autoskope::config::abort::reauth_successful",
+    "key_id": "831003690",
+    "translation_id": "8165423209",
+    "en": "Re-authentication was successful",
+    "sv": "Återautentisering lyckades",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::event::entity_component::doorbell::state_attributes::event_type::state::ring",
+    "key_id": "830157616",
+    "translation_id": "8150040802",
+    "en": "Ring",
+    "sv": "Signal",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smlight::entity::infrared::infrared_emitter::name",
+    "key_id": "829937045",
+    "translation_id": "8147412767",
+    "en": "IR emitter",
+    "sv": "IR-sändare",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::unifi_access::config::error::protect_api_key",
+    "key_id": "829933107",
+    "translation_id": "8147345978",
+    "en": "This API key is associated with UniFi Protect, not UniFi Access. Please generate a new API key from the UniFi Access application settings.",
+    "sv": "Denna API-nyckel är kopplad till UniFi Protect, inte UniFi Access. Generera en ny API-nyckel från UniFi Access-appens inställningar.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::config::step::reauth_confirm::title",
+    "key_id": "829920985",
+    "translation_id": "8147249836",
+    "en": "Authentication expired for {name}",
+    "sv": "Autentiseringen har upphört att gälla för {name}",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::config::step::reauth_confirm::description",
+    "key_id": "829920984",
+    "translation_id": "8147249772",
+    "en": "Please re-authenticate with {host}.",
+    "sv": "Autentisera dig på nytt med {host}.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::config::step::reauth_confirm::data_description::username",
+    "key_id": "829920983",
+    "translation_id": "8147249708",
+    "en": "Username for the MQTT server, default is empty. Not needed by Victron devices. This is only needed if you route your MQTT messages through a non-Victron server and it does require a username.",
+    "sv": "Användarnamn för MQTT-servern, standardvärdet är tomt. Behövs inte för Victron-enheter. Detta behövs bara om du dirigerar dina MQTT-meddelanden via en server som inte är från Victron och som kräver ett användarnamn.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::config::step::reauth_confirm::data_description::ssl",
+    "key_id": "829920982",
+    "translation_id": "8147249644",
+    "en": "Indicates whether to use SSL to connect to the Victron device. Normally it is disabled.",
+    "sv": "Anger om SSL ska användas för att ansluta till Victron-enheten. Normalt är det inaktiverat.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::config::step::reauth_confirm::data_description::password",
+    "key_id": "829920981",
+    "translation_id": "8147249580",
+    "en": "Password for the Victron device, default is empty. This is not your VRM password.",
+    "sv": "Lösenord för Victron-enheten, standardinställningen är tom. Detta är inte ditt VRM-lösenord.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::config::step::reauth_confirm::data::username",
+    "key_id": "829920980",
+    "translation_id": "8147249516",
+    "en": "Username",
+    "sv": "Användarnamn",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::victron_gx::config::step::reauth_confirm::data::ssl",
+    "key_id": "829920979",
+    "translation_id": "8147249452",
+    "en": "Uses an SSL certificate",
+    "sv": "Använder ett SSL-certifikat",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  }
+]
