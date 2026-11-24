@@ -1921,3 +1921,97 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Start
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+### Liveavstämning mot rapportögonblicksbilden
+
+Alla 240 nycklar har en svensk Lokalise-text. Aktuell Core-källa finns för 223 poster och dessa överensstämmer med rapportens engelska källfält. De 18 De Dietrich-nycklarna 9661–9678 saknas i både den pinnade Core-checkouten `2fdaa177` och aktuell upstream `dev` (`a31a0b5ce476ab4e1b109ccf0633cb4e405d5906`). De är aktiva och inte arkiverade i Lokalise; deras engelska källfält har kontrollerats mot Lokalise API men saknar oberoende upstream-verifiering.
+
+Källträdet innehåller 27 referensanvändningar med 19 mål; API-uppslag saknar mål 0 och målskillnaderna är 0/27.
+
+| Nr | Fullständig nyckel | Tidigare rapportfält | Aktuell svenska (Lokalise) | Bedömning |
+|---:|---|---|---|---|
+| 9673 | `component::de_dietrich::config::step::user::data::port` | [%key:common::config_flow::data::port%] | Port | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9674 | `component::de_dietrich::config::step::user::data::host` | [%key:common::config_flow::data::host%] | Värd | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9676 | `component::de_dietrich::config::error::unknown` | [%key:common::config_flow::error::unknown%] | Oväntat fel | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9678 | `component::de_dietrich::config::abort::already_configured` | [%key:common::config_flow::abort::already_configured_device%] | Enheten är redan konfigurerad | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9682 | `component::openevse::entity::select::override_state::name` | Åsidosätt tillstånd | Åsidosättningens tillstånd | Rättad nu; API-readback verifierad |
+| 9683 | `component::discogs::issues::deprecated_yaml_import_issue_cannot_connect::title` | YAML-konfigurationen för ” {integration_title} ” tas bort | YAML-konfigurationen för {integration_title} tas bort | Tidigare sparad enligt kvitto; livevärde återläst, ingen dubblettskrivning |
+| 9684 | `component::discogs::issues::deprecated_yaml_import_issue_cannot_connect::description` | Konfigurering av ” {integration_title} ” via YAML är utfasad och kommer att tas bort i en framtida version. Vid importen av din YAML-konfiguration gick det inte att ansluta till Discogs API eller så var token ogiltigt. Kontrollera ditt token och starta om Home Assistant för att försöka igen, eller ta bort sensorn ” {domain} ” från din konfiguration och ställ in integrationen via användargränssnittet. | Konfiguration av {integration_title} via YAML är föråldrad och tas bort i en framtida version. Vid importen av YAML-konfigurationen gick det inte att nå Discogs-API:t eller så var token ogiltig. Kontrollera din token och starta om Home Assistant för att försöka igen, eller ta bort sensorn {domain} från konfigurationen och konfigurera integrationen via användargränssnittet. | Tidigare sparad enligt kvitto; livevärde återläst, ingen dubblettskrivning |
+| 9689 | `component::discogs::config::step::user::data::token` | [%key:common::config_flow::data::api_token%] | API-token | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9690 | `component::discogs::config::error::unknown` | [%key:common::config_flow::error::unknown%] | Oväntat fel | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9691 | `component::discogs::config::error::invalid_auth` | [%key:common::config_flow::error::invalid_auth%] | Ogiltig autentisering | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9692 | `component::discogs::config::error::cannot_connect` | [%key:common::config_flow::error::cannot_connect%] | Det gick inte att ansluta | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9693 | `component::discogs::config::abort::unknown` | [%key:common::config_flow::error::unknown%] | Oväntat fel | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9694 | `component::discogs::config::abort::invalid_auth` | [%key:common::config_flow::error::invalid_auth%] | Ogiltig autentisering | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9695 | `component::discogs::config::abort::cannot_connect` | [%key:common::config_flow::error::cannot_connect%] | Det gick inte att ansluta | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9696 | `component::discogs::config::abort::already_configured` | [%key:common::config_flow::abort::already_configured_account%] | Kontot är redan konfigurerat | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9786 | `component::jvc_projector::entity::select::motion_enhance::state::off` | [%key:common::state::off%] | Av | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9787 | `component::jvc_projector::entity::select::motion_enhance::state::low` | [%key:common::state::low%] | Låg | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9788 | `component::jvc_projector::entity::select::motion_enhance::state::high` | [%key:common::state::high%] | Hög | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9803 | `component::binary_sensor::entity_component::glass_break::state::off` | Rensa | Ingen glaskross upptäckt | Tidigare sparad enligt kvitto; livevärde återläst, ingen dubblettskrivning |
+| 9816 | `component::teslemetry::config_subentries::energy_site::abort::reconfigure_successful` | Omkonfigurationen lyckades | Omkonfigureringen lyckades | Tidigare sparad enligt kvitto; livevärde återläst, ingen dubblettskrivning |
+| 9820 | `component::tuya::entity::sensor::phase_c_reactive_power::name` | Reaktiv effekt fas C | Reaktiv effekt för fas C | Tidigare sparad enligt kvitto; livevärde återläst, ingen dubblettskrivning |
+| 9821 | `component::tuya::entity::sensor::phase_c_power_factor::name` | Effektfaktor fas C | Effektfaktor för fas C | Tidigare sparad enligt kvitto; livevärde återläst, ingen dubblettskrivning |
+| 9822 | `component::tuya::entity::sensor::phase_c_apparent_power::name` | Skeneffekt fas C | Skenbar effekt för fas C | Tidigare sparad enligt kvitto; livevärde återläst, ingen dubblettskrivning |
+| 9823 | `component::tuya::entity::sensor::phase_b_reactive_power::name` | Reaktiv effekt fas B | Reaktiv effekt för fas B | Tidigare sparad enligt kvitto; livevärde återläst, ingen dubblettskrivning |
+| 9824 | `component::tuya::entity::sensor::phase_b_power_factor::name` | Effektfaktor fas B | Effektfaktor för fas B | Tidigare sparad enligt kvitto; livevärde återläst, ingen dubblettskrivning |
+| 9825 | `component::tuya::entity::sensor::phase_b_apparent_power::name` | Skeneffekt fas B | Skenbar effekt för fas B | Tidigare sparad enligt kvitto; livevärde återläst, ingen dubblettskrivning |
+| 9826 | `component::tuya::entity::sensor::phase_a_reactive_power::name` | Reaktiv effekt fas A | Reaktiv effekt för fas A | Tidigare sparad enligt kvitto; livevärde återläst, ingen dubblettskrivning |
+| 9827 | `component::tuya::entity::sensor::phase_a_power_factor::name` | Effektfaktor fas A | Effektfaktor för fas A | Tidigare sparad enligt kvitto; livevärde återläst, ingen dubblettskrivning |
+| 9828 | `component::tuya::entity::sensor::phase_a_apparent_power::name` | Skeneffekt fas A | Skenbar effekt för fas A | Tidigare sparad enligt kvitto; livevärde återläst, ingen dubblettskrivning |
+| 9835 | `component::earn_e_p1::entity::sensor::voltage_phase::name` | Spänning fas {phase} | Spänning för fas {phase} | Tidigare sparad enligt kvitto; livevärde återläst, ingen dubblettskrivning |
+| 9836 | `component::earn_e_p1::entity::sensor::current_phase::name` | Ström fas {phase} | Ström för fas {phase} | Tidigare sparad enligt kvitto; livevärde återläst, ingen dubblettskrivning |
+| 9845 | `component::energyzero::selector::interval::options::quarter` | [%key:component::energyzero::selector::electricity_price_interval::options::quarter_hourly%] | Varje kvart | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9846 | `component::energyzero::selector::interval::options::hour` | [%key:component::energyzero::selector::electricity_price_interval::options::hourly%] | Varje timme | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9847 | `component::fritzbox::config::step::user::data_description::verify_ssl` | [%key:component::fritzbox::common::data_description_ssl_verify%] | Om SSL-certifikatet ska verifieras när SSL-kryptering används för att ansluta till din FRITZ!Box. | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9848 | `component::fritzbox::config::step::user::data_description::url` | [%key:component::fritzbox::common::data_description_url%] | URL-adressen till din FRITZ!Box. | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9849 | `component::fritzbox::config::step::user::data::verify_ssl` | [%key:common::config_flow::data::verify_ssl%] | Verifiera SSL-certifikat | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9850 | `component::fritzbox::config::step::user::data::url` | [%key:common::config_flow::data::url%] | URL | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9851 | `component::fritzbox::config::step::reconfigure::data_description::verify_ssl` | [%key:component::fritzbox::common::data_description_ssl_verify%] | Om SSL-certifikatet ska verifieras när SSL-kryptering används för att ansluta till din FRITZ!Box. | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9852 | `component::fritzbox::config::step::reconfigure::data_description::url` | [%key:component::fritzbox::common::data_description_url%] | URL-adressen till din FRITZ!Box. | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9853 | `component::fritzbox::config::step::reconfigure::data::verify_ssl` | [%key:common::config_flow::data::verify_ssl%] | Verifiera SSL-certifikat | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9854 | `component::fritzbox::config::step::reconfigure::data::url` | [%key:common::config_flow::data::url%] | URL | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9859 | `component::besen::entity::sensor::plug_state::state::disconnected` | [%key:common::state::disconnected%] | Frånkopplad | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9863 | `component::besen::entity::sensor::output_state::state::idle` | [%key:common::state::idle%] | Inaktiv | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9864 | `component::besen::entity::sensor::output_state::state::charging` | [%key:common::state::charging%] | Laddar | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9869 | `component::besen::entity::sensor::error_state::state::relay_stick_error` | Fel på relästav | Reläet har fastnat | Tidigare sparad enligt kvitto; livevärde återläst, ingen dubblettskrivning |
+| 9888 | `component::besen::entity::sensor::current_state::state::waiting_for_button` | Väntar på knapp | Väntar på knapptryckning | Tidigare sparad enligt kvitto; livevärde återläst, ingen dubblettskrivning |
+| 9891 | `component::besen::entity::sensor::current_state::state::fault` | [%key:common::state::fault%] | Fel | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+| 9897 | `component::besen::entity::sensor::current_state::state::charging` | [%key:common::state::charging%] | Laddar | Tidigare rapport visade referensmarkör; upplöst mål återläst, ingen direkt skrivning |
+
+## Livegranskning 2026-11-24
+
+Alla 240 svenska värden återlästes via Lokalise API. 223 poster jämfördes med aktuell källtext i Home Assistant Core; deras engelska källfält matchar. För de 18 aktiva men källsaknade De Dietrich-posterna användes Lokalises engelska källa och de markeras för uppföljning mot projektets källägare. De ska inte felaktigt redovisas som verifierade mot Core-kod.
+
+- 48 tidigare svenska rapportfält skiljer sig från livevärdet: 30 var referensmarkörer och deras upplösta mål verifierades; 18 var direkta värdeändringar. Kvitton har kontrollerats och tidigare arbete upprepades inte.
+- Av 18 äldre förslag var 15 redan live. Discogs 9684 har en senare sparad formulering och äldre förslag ersätts inte. Besen 9876 behåller `Lågspänning`; alternativet `Låg spänning` avförs eftersom sammansättningen stöds av Hunspell och HA-TM.
+- OpenEVSE `Override state` korrigerades till `Åsidosättningens tillstånd` och sparades i Lokalise med API-readback.
+- Platshållare matchar 240/240; pluralposter 0. svlang och Hunspell användes som granskningssignaler; tekniska namn och sammansättningar bedömdes manuellt.
+- HA Core-TM uppdaterades med hela bunten och 19 referensmål. Importmanifest finns i `2026-11-24-reviewed-core-9661-9900.jsonl`. Nästa batch börjar vid 9901.
+
+
+### Källuppföljning: aktiva De Dietrich-nycklar utan Core-fil
+
+De här 18 nycklarna är `is_archived=false` och `is_hidden=false` i Lokalise men komponentfilen saknas både vid commit `2fdaa177f3e94535b3b649fb1ffc2dbba52eb4ce` och i senaste kontrollerade upstream `dev` (`a31a0b5ce476ab4e1b109ccf0633cb4e405d5906`). Översättningarna granskades mot Lokalises engelska källtext, men behöver källägarens besked om dessa fortfarande hör till Core eller om Lokalise-katalogen är föråldrad.
+
+| Fullständig nyckel | Engelska från Lokalise |
+|---|---|
+| `component::de_dietrich::entity::sensor::hot_water_temperature::name` | Hot water temperature |
+| `component::de_dietrich::entity::sensor::fan_speed::name` | Fan speed |
+| `component::de_dietrich::entity::sensor::exhaust_temperature::name` | Flue gas temperature |
+| `component::de_dietrich::entity::sensor::circuit_b_room_temperature::name` | Circuit B room temperature |
+| `component::de_dietrich::entity::sensor::circuit_a_room_temperature::name` | Circuit A room temperature |
+| `component::de_dietrich::entity::sensor::calc_boiler_temperature::name` | Boiler temperature target |
+| `component::de_dietrich::entity::sensor::boiler_temperature::name` | Boiler temperature |
+| `component::de_dietrich::config::step::user::description` | Connect over Modbus TCP. The boiler's register layout is detected automatically. |
+| `component::de_dietrich::config::step::user::data_description::unit_id` | The boiler's Modbus unit ID. |
+| `component::de_dietrich::config::step::user::data_description::port` | The Modbus TCP port used by the bridge. |
+| `component::de_dietrich::config::step::user::data_description::host` | The hostname or IP address of the plain RS485-to-TCP bridge connected to the boiler. It must pass through raw Modbus RTU frames, not translate between Modbus variants. |
+| `component::de_dietrich::config::step::user::data::unit_id` | Modbus unit ID |
+| `component::de_dietrich::config::step::user::data::port` | Port |
+| `component::de_dietrich::config::step::user::data::host` | Host |
+| `component::de_dietrich::config::error::unsupported_device` | This device is not supported: {error} |
+| `component::de_dietrich::config::error::unknown` | Unexpected error |
+| `component::de_dietrich::config::error::cannot_connect` | Failed to connect: {error} |
+| `component::de_dietrich::config::abort::already_configured` | Device is already configured |

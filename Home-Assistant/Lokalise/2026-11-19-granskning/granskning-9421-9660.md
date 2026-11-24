@@ -2034,10 +2034,26 @@ Avsnitten ovan är ögonblicksbilden från 19 november. Aktuell svenska är åte
 
 ## Livegranskning 2026-11-24
 
-Alla 240 nycklar jämfördes med aktuell Core-källa och Lokalise API. I källträdet finns 99 referensanvändningar med 65 mål. Före avstämningen fanns 11 avvikelser; de synkades med målen. Vid kontextgranskning bevarades produktnamnet UniFi Network och varumärket MikroTik enligt tillverkarens officiella terminologi; deras delade mål och konsumenter uppdaterades gemensamt. Slutkontroll: 0/99 avvikelser.
+232 nycklar jämfördes med aktuell Core-källa och Lokalise API. De åtta De Dietrich-nycklarna 9653–9660 saknas i Core-källträdet; deras Lokalise-poster är aktiva och inte arkiverade. De granskades mot Lokalises engelska källa men behöver källägarens besked om de fortfarande hör till Core. I källträdet finns 99 referensanvändningar med 65 mål. Före avstämningen fanns 11 avvikelser; de synkades med målen. Vid kontextgranskning bevarades produktnamnet UniFi Network och varumärket MikroTik enligt tillverkarens officiella terminologi; deras delade mål och konsumenter uppdaterades gemensamt. Slutkontroll: 0/99 avvikelser.
 
 - 19 unika Lokalise-nycklar har nu granskats och sparats (11 konsumenter från den första referenssynken och åtta delade MikroTik/UniFi-mål); upprepade mellanvärdesskrivningar räknas inte som nya nycklar. Alla API-skrivningar lästes tillbaka.
 - Elva tidigare förslag i rapporten fanns redan sparade enligt kvitton och skrevs inte om i onödan. 103 äldre rapportvärden avvek från livebilden; alla visas nyckelvis i tabellen med aktuell text och status.
 - Platshållare matchar i 240/240 poster; pluralposter 0. Core-källrevision `2fdaa177f3e94535b3b649fb1ffc2dbba52eb4ce`.
 - Verktygssignaler från svlang, hunspell-sv och swedish-foss-terminology bedömdes manuellt i sammanhang. UniFi Network är produktnamn enligt [Ubiquitis officiella introduktion](https://help.ui.com/hc/en-us/articles/360012192813-Introduction-to-UniFi).
 - Home Assistant TM har uppdaterats. Fullständigt manifest: `2026-11-24-reviewed-core-9421-9660.jsonl`. Nästa batch börjar vid 9661.
+
+
+### Källuppföljning: aktiva De Dietrich-nycklar utan Core-fil
+
+Saknas både vid commit `2fdaa177f3e94535b3b649fb1ffc2dbba52eb4ce` och i senaste kontrollerade upstream `dev` (`a31a0b5ce476ab4e1b109ccf0633cb4e405d5906`). Lokalise API anger att samtliga åtta är aktiva, inte arkiverade.
+
+| Fullständig nyckel | Engelska från Lokalise |
+|---|---|
+| `component::de_dietrich::exceptions::unsupported_device::message` | This device is not supported: {error} |
+| `component::de_dietrich::exceptions::no_component_answered::message` | No component answered. |
+| `component::de_dietrich::exceptions::modbus_error::message` | Error communicating with the boiler. |
+| `component::de_dietrich::exceptions::link_settings_in_use::message` | The boiler cannot be set up with these link settings: {error} |
+| `component::de_dietrich::entity::sensor::water_pressure::name` | Water pressure |
+| `component::de_dietrich::entity::sensor::return_temperature::name` | Return temperature |
+| `component::de_dietrich::entity::sensor::outdoor_temperature::name` | Outdoor temperature |
+| `component::de_dietrich::entity::sensor::ionization_current::name` | Ionization current |
