@@ -4,9 +4,9 @@ Datum: 2026-11-24
 
 ## Lokalise-omfattning och export
 
-- Aktiva, synliga Lokalise-nycklar: **75 660**.
+- Aktiva, synliga Lokalise-nycklar i den exporterade nyckelordningen: **75 660**. Efter snapshoten tillkom 17 nya, synliga nycklar; de bekräftades via API och finns i senaste Core-källan, vilket ger **75 677** synliga nycklar i aktuell omfattning.
 - Fullständig Core-API-export: **75 628** strängar med användbara engelska och svenska värden.
-- Exporten sparar nu också nycklar som inte kan ingå i TMX i `2026-11-24-core-export-exclusions.jsonl`: **49** unika poster. Av dem är **32 synliga** nycklar utan användbart käll-/målpar (24 tomma på båda språken och 8 utan engelsk källtext, med platshållartext på svenska) och **17 dolda** nycklar med tom svensk måltext. Dessa poster räknas inte som översättningsbara Core-strängar; de finns kvar för spårbarhet.
+- Exporten sparar nu också nycklar som inte kan ingå i TMX i `2026-11-24-core-export-exclusions.jsonl`: **49** unika poster. Av dem är **32 synliga** nycklar utan användbart käll-/målpar (24 tomma på båda språken och 8 utan engelsk källtext, med platshållartext på svenska) och **17 nya synliga** nycklar med tom svensk måltext som saknades i den äldre nyckelordningssnapshoten. De är översättningsbara och ska inte undantas; de har verifierats mot aktuell Core-källa och förs in i granskningskön. Den äldre texten om att de skulle vara dolda var fel.
 - Lokalise-API:et kan uppdatera måltext men nekar statusflaggan `is_reviewed` med HTTP 403, `No permission to update translation status`. Lokalise-granskningsflaggan är därför inte satt; ändrade texter är däremot lästa tillbaka via API.
 
 ## Radgranskningsunderlag
