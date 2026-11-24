@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 06:08 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 06:11 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -68,7 +68,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [xdg-user-dirs](https://l10n.gnome.org/vertimus/xdg-user-dirs/master/po/sv/) | master | 28 | 0 | 0 | Klar | X | 0 | Klar utan ändringar (2026-11-23): Hela 28-posterskatalogen är radgranskad mot aktuell POT: 0 oöversatta, 0 fuzzy och ingen textändring var motiverad. msgfmt, msgcmp och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](xdg-user-dirs/master/po/xdg-user-dirs.master.sv.original.po), [granskad](xdg-user-dirs/master/po/xdg-user-dirs.master.sv.reviewed.po), [diff](xdg-user-dirs/master/po/xdg-user-dirs.master.sv.review.diff), [notering](xdg-user-dirs/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [yelp-xsl](https://l10n.gnome.org/vertimus/yelp-xsl/master/po/sv/) | master | 64 | 0 | 0 | Klar | X | 0 | Klar utan ändringar (2026-11-23): Hela 64-posterskatalogen är radgranskad mot aktuell POT: 0 oöversatta, 0 fuzzy och ingen textändring var motiverad. msgfmt, msgcmp, l10n-lint och XML-platshållarjämförelse saknar fel. Ingen GNOME-inskickning har gjorts. [original](yelp-xsl/master/po/yelp-xsl.master.sv.original.po), [granskad](yelp-xsl/master/po/yelp-xsl.master.sv.reviewed.po), [diff](yelp-xsl/master/po/yelp-xsl.master.sv.review.diff), [notering](yelp-xsl/master/po/README.md) |
 
-## Övriga: lokalt klara och ej granskade (550)
+## Behöver arbete eller ej inskickade (550)
 
 | Typ | Kategori | Modul | Gren | Översatta | Fuzzy | Oöversatta | GNOME-status (uppströms) | Klar lokalt | Ändringar | Lokal granskning |
 |---|---|---|---|---:|---:|---:|---|:---:|---:|---|
