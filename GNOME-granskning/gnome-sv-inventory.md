@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:18 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:19 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -418,7 +418,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [gnome-settings-daemon](https://l10n.gnome.org/vertimus/gnome-settings-daemon/gnome-50/po/sv/) | gnome-50 | 538 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-shell](https://l10n.gnome.org/vertimus/gnome-shell/gnome-50/po/sv/) | gnome-50 | 749 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-shell](https://l10n.gnome.org/vertimus/gnome-shell/main/po/sv/) | main | 725 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-shell-extensions](https://l10n.gnome.org/vertimus/gnome-shell-extensions/main/po/sv/) | main | 82 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-shell-extensions](https://l10n.gnome.org/vertimus/gnome-shell-extensions/main/po/sv/) | main | 82 | 0 | 0 | Klar | X | 4 | Klar lokalt (2026-11-24): Hela 82-strängarskatalogen är radgranskad mot senaste POT. Fyra befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](gnome-shell-extensions/main/po/gnome-shell-extensions.main.sv.original.po), [granskad](gnome-shell-extensions/main/po/gnome-shell-extensions.main.sv.reviewed.po), [diff](gnome-shell-extensions/main/po/gnome-shell-extensions.main.sv.review.diff), [notering](gnome-shell-extensions/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-shell-extensions](https://l10n.gnome.org/vertimus/gnome-shell-extensions/gnome-50/po/sv/) | gnome-50 | 82 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-software](https://l10n.gnome.org/vertimus/gnome-software/gnome-50/po/sv/) | gnome-50 | 1173 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-software](https://l10n.gnome.org/vertimus/gnome-software/gnome-50/help/sv/) | gnome-50 | 157 | 0 | 0 | Klar |  | — | Ej granskad |
