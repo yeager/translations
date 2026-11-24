@@ -4,9 +4,9 @@ Alla 1 140 rader hade redan radvisa granskningsrapporter. Granskningen uppdatera
 
 ## Resultat
 
-- 1140/1 140 tidigare radgranskade rader avstämda mot aktuell Lokalise-snapshot. 829 direkta källtexter hittades; 829 matchar exakt. 261 referensanvändningar med 117 mål verifierades.
+- 1 140/1 140 tidigare radgranskade rader avstämda mot aktuell Lokalise-snapshot. 829 direkta källtexter hittades; 829 matchar exakt. 261 referensanvändningar med 117 mål verifierades.
 - Saknade referensmål: 0; mismatchar efter uppdatering: 0; tomma värden: 0; platshållarmismatch: 0.
-- 40 poster saknar direkt eller alternativt källvärde i uppdaterat Core-träd och dokumenteras för uppföljning. 10 andra värden hittades i närliggande källsökväg.
+- 22 poster saknar direkt eller alternativt källvärde i uppdaterat Core-träd och dokumenteras för uppföljning. 28 källtexter verifierades via gemensam eller alternativ exakt källväg.
 - 146 äldre förslag jämfördes mot uppdaterad Lokalise-export. 140 är redan live. Avvikelser bedömdes manuellt; fem ändringar sparades i Lokalise (tre Silla Prism-texter, en Cloud STT-bekräftelse, en Persian Infrared-referenskonsument).
 - Alla API-skrivningar lästes tillbaka. Gemensamma referensmål och deras konsumenter är synkroniserade.
 
@@ -26,25 +26,9 @@ Alla 1 140 rader hade redan radvisa granskningsrapporter. Granskningen uppdatera
 |---:|---|---|
 | 923428298 | `component::sofar::config::step::reconfigure::data_description::port` | The Modbus TCP port to connect on. |
 | 923428297 | `component::sofar::config::step::reconfigure::data_description::host` | The hostname or IP address of the inverter, or of the Modbus TCP bridge it's connected through. |
-| 923428295 | `component::sofar::config::step::reconfigure::data::port` | Port |
-| 923428294 | `component::sofar::config::step::reconfigure::data::host` | Host |
-| 923428292 | `component::sofar::config::abort::reconfigure_successful` | Reconfiguration was successful |
 | 923427010 | `component::pushover::exceptions::attachment_open_failed::message` | Failed to open attachment {attachment}. |
-| 923419103 | `component::sunsynk::entity::sensor::voltage::name` | Voltage |
-| 923419102 | `component::sunsynk::entity::sensor::temperature::name` | Temperature |
-| 923419097 | `component::sunsynk::entity::sensor::power::name` | Power |
-| 923419085 | `component::sunsynk::entity::sensor::current::name` | Current |
-| 923343434 | `component::centriconnect::config::abort::reconfigure_successful` | Reconfiguration was successful |
-| 923343433 | `component::centriconnect::config::abort::reauth_successful` | Re-authentication was successful |
-| 923334536 | `component::imou::config::abort::already_in_progress` | This is already being configured. Finish the existing configuration before starting again. |
 | 923310145 | `component::solaredge_modbus::entity::sensor::vendor_status::name` | Vendor status |
-| 923310123 | `component::solaredge_modbus::config::step::user::data::port` | Port |
-| 923310122 | `component::solaredge_modbus::config::step::user::data::host` | Host |
-| 923310108 | `component::solaredge_modbus::config::abort::reconfigure_successful` | Reconfiguration was successful |
-| 922028719 | `component::neopool::config::abort::reconfigure_successful` | Reconfiguration was successful |
-| 921275291 | `component::gatus::config::abort::reauth_successful` | Re-authentication was successful |
 | 921245498 | `component::sofar::entity::sensor::waiting_ends::name` | Waiting ends |
-| 921209147 | `component::remember_the_milk::config_subentries::list::abort::reconfigure_successful` | Reconfiguration was successful |
 | 921119378 | `component::sun::triggers::polar_night_started::fields::offset_type::name` | Offset type |
 | 921119377 | `component::sun::triggers::polar_night_started::fields::offset_type::description` | Whether to trigger before or after the solar event. |
 | 921119372 | `component::sun::triggers::polar_night_ended::fields::offset_type::name` | Offset type |
@@ -61,8 +45,6 @@ Alla 1 140 rader hade redan radvisa granskningsrapporter. Granskningen uppdatera
 | 921119335 | `component::sun::triggers::blue_hour_started::fields::offset_type::description` | Whether to trigger before or after the solar event. |
 | 921119328 | `component::sun::triggers::blue_hour_ended::fields::offset_type::name` | Offset type |
 | 921119327 | `component::sun::triggers::blue_hour_ended::fields::offset_type::description` | Whether to trigger before or after the solar event. |
-| 921086579 | `component::specialized_turbo::config::abort::reconfigure_successful` | Reconfiguration was successful |
-| 921086578 | `component::specialized_turbo::config::abort::reauth_successful` | Re-authentication was successful |
 | 921058715 | `component::fronius::entity::switch::power_limit_enabled::name` | Power limiting |
 
 ## Fullständig radinventering
@@ -132,10 +114,10 @@ Alla 1 140 rader hade redan radvisa granskningsrapporter. Granskningen uppdatera
 | 10921 | 923428298 | `component::sofar::config::step::reconfigure::data_description::port` | The Modbus TCP port to connect on. | Modbus TCP-porten att ansluta till. | Source-owner follow-up open |
 | 10922 | 923428297 | `component::sofar::config::step::reconfigure::data_description::host` | The hostname or IP address of the inverter, or of the Modbus TCP bridge it's connected through. | Värdnamnet eller IP-adressen för växelriktaren, eller för Modbus TCP-bryggan den är ansluten via. | Source-owner follow-up open |
 | 10923 | 923428296 | `component::sofar::config::step::reconfigure::data::unit_id` | Modbus unit ID | Modbus-enhets-ID | Source found in adjacent Core path |
-| 10924 | 923428295 | `component::sofar::config::step::reconfigure::data::port` | Port | Port | Source-owner follow-up open |
-| 10925 | 923428294 | `component::sofar::config::step::reconfigure::data::host` | Host | Värd | Source-owner follow-up open |
+| 10924 | 923428295 | `component::sofar::config::step::reconfigure::data::port` | Port | Port | Source found in adjacent Core path |
+| 10925 | 923428294 | `component::sofar::config::step::reconfigure::data::host` | Host | Värd | Source found in adjacent Core path |
 | 10926 | 923428293 | `component::sofar::config::abort::unique_id_mismatch` | Please reconfigure the same inverter you originally set up. | Konfigurera om samma växelriktare som du ursprungligen konfigurerade. | Core-literal match |
-| 10927 | 923428292 | `component::sofar::config::abort::reconfigure_successful` | Reconfiguration was successful | Omkonfigureringen lyckades | Source-owner follow-up open |
+| 10927 | 923428292 | `component::sofar::config::abort::reconfigure_successful` | Reconfiguration was successful | Omkonfigureringen lyckades | Source found in adjacent Core path |
 | 10928 | 923427182 | `component::elgato::exceptions::firmware_unknown_error::message` | An unknown error occurred while downloading the firmware from Elgato. | Ett okänt fel uppstod när den inbyggda programvaran hämtades från Elgato. | Core-literal match |
 | 10929 | 923427181 | `component::elgato::exceptions::firmware_install_error::message` | The Elgato device did not accept the firmware: {error} | Elgato-enheten accepterade inte den inbyggda programvaran: {error} | Core-literal match |
 | 10930 | 923427180 | `component::elgato::exceptions::firmware_communication_error::message` | An error occurred while downloading the firmware from Elgato. | Ett fel uppstod när den inbyggda programvaran hämtades från Elgato. | Core-literal match |
@@ -230,13 +212,13 @@ Alla 1 140 rader hade redan radvisa granskningsrapporter. Granskningen uppdatera
 | 11019 | 923419239 | `component::vistapool::entity::select::light_mode::state::off` | Off | Av | Core-literal match |
 | 11020 | 923419238 | `component::vistapool::entity::select::light_mode::state::auto` | Auto | Auto | Core-literal match |
 | 11021 | 923419237 | `component::vistapool::entity::select::light_mode::name` | Light mode | Ljusläge | Core-literal match |
-| 11022 | 923419103 | `component::sunsynk::entity::sensor::voltage::name` | Voltage | Spänning | Source-owner follow-up open |
-| 11023 | 923419102 | `component::sunsynk::entity::sensor::temperature::name` | Temperature | Temperatur | Source-owner follow-up open |
+| 11022 | 923419103 | `component::sunsynk::entity::sensor::voltage::name` | Voltage | Spänning | Source found in adjacent Core path |
+| 11023 | 923419102 | `component::sunsynk::entity::sensor::temperature::name` | Temperature | Temperatur | Source found in adjacent Core path |
 | 11024 | 923419101 | `component::sunsynk::entity::sensor::state_of_charge::name` | State of charge | Laddningsnivå | Core-literal match |
 | 11025 | 923419100 | `component::sunsynk::entity::sensor::solar_power::name` | Solar power | Soleffekt | Core-literal match |
 | 11026 | 923419099 | `component::sunsynk::entity::sensor::solar_energy_total::name` | Solar energy total | Solenergi totalt | Core-literal match |
 | 11027 | 923419098 | `component::sunsynk::entity::sensor::solar_energy_today::name` | Solar energy today | Solenergi i dag | Core-literal match |
-| 11028 | 923419097 | `component::sunsynk::entity::sensor::power::name` | Power | Effekt | Source-owner follow-up open |
+| 11028 | 923419097 | `component::sunsynk::entity::sensor::power::name` | Power | Effekt | Source found in adjacent Core path |
 | 11029 | 923419096 | `component::sunsynk::entity::sensor::load_power::name` | Load power | Förbrukningseffekt | Core-literal match |
 | 11030 | 923419095 | `component::sunsynk::entity::sensor::load_energy_total::name` | Load energy total | Förbrukningsenergi totalt | Core-literal match |
 | 11031 | 923419094 | `component::sunsynk::entity::sensor::load_energy_today::name` | Load energy today | Förbrukningsenergi i dag | Core-literal match |
@@ -248,7 +230,7 @@ Alla 1 140 rader hade redan radvisa granskningsrapporter. Granskningen uppdatera
 | 11037 | 923419088 | `component::sunsynk::entity::sensor::grid_export_today::name` | Grid export today | Export till nätet i dag | Core-literal match |
 | 11038 | 923419087 | `component::sunsynk::entity::sensor::discharge_total::name` | Discharge total | Urladdning totalt | Core-literal match |
 | 11039 | 923419086 | `component::sunsynk::entity::sensor::discharge_today::name` | Discharge today | Urladdning i dag | Core-literal match |
-| 11040 | 923419085 | `component::sunsynk::entity::sensor::current::name` | Current | Ström | Source-owner follow-up open |
+| 11040 | 923419085 | `component::sunsynk::entity::sensor::current::name` | Current | Ström | Source found in adjacent Core path |
 | 11041 | 923419084 | `component::sunsynk::entity::sensor::charge_total::name` | Charge total | Laddning totalt | Core-literal match |
 | 11042 | 923419083 | `component::sunsynk::entity::sensor::charge_today::name` | Charge today | Laddning i dag | Core-literal match |
 | 11043 | 923419082 | `component::sunsynk::config::step::user::description` | Connect to your Sunsynk Connect account to get data from your inverters. | Anslut till ditt Sunsynk Connect-konto för att hämta data från växelriktarna. | Core-literal match |
@@ -321,8 +303,8 @@ Alla 1 140 rader hade redan radvisa granskningsrapporter. Granskningen uppdatera
 | 11110 | 923343437 | `component::centriconnect::config::step::reauth_confirm::data::username` | User ID | Användar-ID | Shared reference checked |
 | 11111 | 923343436 | `component::centriconnect::config::step::reauth_confirm::data::password` | Device Authentication Code | Enhetsautentiseringskod | Shared reference checked |
 | 11112 | 923343435 | `component::centriconnect::config::abort::wrong_device` | This CentriConnect/MyPropane device does not match the existing device ID. Please make sure you entered the credentials correctly. | Den här CentriConnect/MyPropane-enheten matchar inte det befintliga enhets-ID:t. Kontrollera att du har angett korrekta inloggningsuppgifter. | Core-literal match |
-| 11113 | 923343434 | `component::centriconnect::config::abort::reconfigure_successful` | Reconfiguration was successful | Omkonfigureringen lyckades | Source-owner follow-up open |
-| 11114 | 923343433 | `component::centriconnect::config::abort::reauth_successful` | Re-authentication was successful | Återautentisering lyckades | Source-owner follow-up open |
+| 11113 | 923343434 | `component::centriconnect::config::abort::reconfigure_successful` | Reconfiguration was successful | Omkonfigureringen lyckades | Source found in adjacent Core path |
+| 11114 | 923343433 | `component::centriconnect::config::abort::reauth_successful` | Re-authentication was successful | Återautentisering lyckades | Source found in adjacent Core path |
 | 11115 | 923343346 | `component::solaredge_modbus::entity::sensor::temperature_max::name` | Maximum temperature | Högsta temperatur | Core-literal match |
 | 11116 | 923343345 | `component::solaredge_modbus::entity::sensor::state_of_health::name` | State of health | Hälsostatus | Core-literal match |
 | 11117 | 923343344 | `component::solaredge_modbus::entity::sensor::state_of_energy::name` | State of energy | Energistatus | Core-literal match |
@@ -390,7 +372,7 @@ Alla 1 140 rader hade redan radvisa granskningsrapporter. Granskningen uppdatera
 | 11179 | 923334588 | `component::smtp::selector::priority::options::low` | Low | Låg | Core-literal match |
 | 11180 | 923334587 | `component::smtp::selector::priority::options::highest` | Highest | Högsta | Core-literal match |
 | 11181 | 923334586 | `component::smtp::selector::priority::options::high` | High | Hög | Core-literal match |
-| 11182 | 923334536 | `component::imou::config::abort::already_in_progress` | This is already being configured. Finish the existing configuration before starting again. | Detta konfigureras redan. Slutför den befintliga konfigurationen innan du börjar igen. | Source-owner follow-up open |
+| 11182 | 923334536 | `component::imou::config::abort::already_in_progress` | This is already being configured. Finish the existing configuration before starting again. | Detta konfigureras redan. Slutför den befintliga konfigurationen innan du börjar igen. | Source found in adjacent Core path |
 | 11183 | 923333293 | `component::solaredge_modbus::config::step::user::menu_options::tcp` | Modbus TCP | Modbus TCP | Shared reference checked |
 | 11184 | 923333292 | `component::solaredge_modbus::config::step::user::menu_options::serial` | Serial port (Modbus RTU) | Seriell port (Modbus RTU) | Shared reference checked |
 | 11185 | 923333291 | `component::solaredge_modbus::config::step::tcp::sections::more_options::name` | More options | Fler alternativ | Core-literal match |
@@ -521,8 +503,8 @@ Alla 1 140 rader hade redan radvisa granskningsrapporter. Granskningen uppdatera
 | 11310 | 923310126 | `component::solaredge_modbus::config::step::user::description` | Connect to your SolarEdge inverter over Modbus to monitor your solar energy production locally. | Anslut till din SolarEdge-växelriktare via Modbus för att övervaka din solenergiproduktion lokalt. | Core-literal match |
 | 11311 | 923310125 | `component::solaredge_modbus::config::step::user::data_description::port` | The TCP port the inverter listens on for Modbus requests. The SolarEdge default is 1502. | TCP-porten som växelriktaren lyssnar på efter Modbus-förfrågningar. SolarEdges standardinställning är 1502. | Source found in adjacent Core path |
 | 11312 | 923310124 | `component::solaredge_modbus::config::step::user::data_description::host` | The hostname or IP address of your SolarEdge inverter. Modbus TCP has to be enabled on the inverter first, in the installer settings. | Värdnamnet eller IP-adressen för din SolarEdge-växelriktare. Modbus TCP måste först aktiveras på växelriktaren i installationsinställningarna. | Source found in adjacent Core path |
-| 11313 | 923310123 | `component::solaredge_modbus::config::step::user::data::port` | Port | Port | Source-owner follow-up open |
-| 11314 | 923310122 | `component::solaredge_modbus::config::step::user::data::host` | Host | Värd | Source-owner follow-up open |
+| 11313 | 923310123 | `component::solaredge_modbus::config::step::user::data::port` | Port | Port | Source found in adjacent Core path |
+| 11314 | 923310122 | `component::solaredge_modbus::config::step::user::data::host` | Host | Värd | Source found in adjacent Core path |
 | 11315 | 923310121 | `component::solaredge_modbus::config::step::reconfigure::sections::more_options::name` | More options | Fler alternativ | Shared reference checked |
 | 11316 | 923310120 | `component::solaredge_modbus::config::step::reconfigure::sections::more_options::data_description::unit_id` | The Modbus device ID of the inverter, as configured on the inverter itself. The SolarEdge default is 1. | Modbus-enhets-ID för växelriktaren, så som det är konfigurerat på själva växelriktaren. SolarEdge-standardinställningen är 1. | Shared reference checked |
 | 11317 | 923310119 | `component::solaredge_modbus::config::step::reconfigure::sections::more_options::data::unit_id` | Device ID | Enhets-ID | Shared reference checked |
@@ -536,7 +518,7 @@ Alla 1 140 rader hade redan radvisa granskningsrapporter. Granskningen uppdatera
 | 11325 | 923310111 | `component::solaredge_modbus::config::error::ev_charger` | That device is a SolarEdge EV charger. It answers as an inverter, but serves no measurements over Modbus. | Den enheten är en SolarEdge-elbilsladdare. Den svarar som en växelriktare, men tillhandahåller inga mätvärden via Modbus. | Core-literal match |
 | 11326 | 923310110 | `component::solaredge_modbus::config::error::cannot_connect` | Failed to connect | Det gick inte att ansluta | Shared reference checked |
 | 11327 | 923310109 | `component::solaredge_modbus::config::abort::wrong_device` | The inverter answering on that connection and device ID is a different one than this entry is set up for. | Växelriktaren som svarar på anslutningen och enhets-ID:t är inte den som posten är konfigurerad för. | Core-literal match |
-| 11328 | 923310108 | `component::solaredge_modbus::config::abort::reconfigure_successful` | Reconfiguration was successful | Omkonfigureringen lyckades | Source-owner follow-up open |
+| 11328 | 923310108 | `component::solaredge_modbus::config::abort::reconfigure_successful` | Reconfiguration was successful | Omkonfigureringen lyckades | Source found in adjacent Core path |
 | 11329 | 923310107 | `component::solaredge_modbus::config::abort::already_configured` | Device is already configured | Enheten är redan konfigurerad | Shared reference checked |
 | 11330 | 923292992 | `component::abode::config::abort::wrong_account` | You must authenticate with the same Abode account that was originally configured. | Du måste autentisera med samma Abode-konto som ursprungligen konfigurerades. | Core-literal match |
 | 11331 | 923292821 | `component::lichess::config::step::user::description` | Create a personal API token on the [Lichess API token page]({token_url}). Make sure the **Read preferences** permission is allowed. | Skapa en personlig API-token på [sidan för Lichess API-token]({token_url}). Se till att behörigheten **Läsinställningar** är aktiverad. | Core-literal match |
@@ -611,7 +593,7 @@ Alla 1 140 rader hade redan radvisa granskningsrapporter. Granskningen uppdatera
 | 11400 | 922028722 | `component::neopool::config::step::reconfigure::data::modbus_framer` | Modbus framer | Modbus-inramning | Shared reference checked |
 | 11401 | 922028721 | `component::neopool::config::step::reconfigure::data::host` | Host | Värd | Shared reference checked |
 | 11402 | 922028720 | `component::neopool::config::abort::serial_mismatch` | The device at this address has a different serial number than the one originally configured. | Enheten på den här adressen har ett annat serienummer än den enhet som ursprungligen konfigurerades. | Core-literal match |
-| 11403 | 922028719 | `component::neopool::config::abort::reconfigure_successful` | Reconfiguration was successful | Omkonfigureringen lyckades | Source-owner follow-up open |
+| 11403 | 922028719 | `component::neopool::config::abort::reconfigure_successful` | Reconfiguration was successful | Omkonfigureringen lyckades | Source found in adjacent Core path |
 | 11404 | 921985557 | `component::sofar::entity::button::rtc_sync::name` | RTC sync | RTC-synk | Core-literal match |
 | 11405 | 921985556 | `component::sofar::entity::button::iv_curve_scan::name` | IV curve scan | IV-kurvskanning | Core-literal match |
 | 11406 | 921717902 | `component::midea::entity::climate::climate::state_attributes::fan_mode::state::silent` | Silent | Tyst | Core-literal match |
@@ -652,7 +634,7 @@ Alla 1 140 rader hade redan radvisa granskningsrapporter. Granskningen uppdatera
 | 11441 | 921275294 | `component::gatus::config::step::reauth_confirm::data::token` | API key | API-nyckel | Shared reference checked |
 | 11442 | 921275293 | `component::gatus::config::step::reauth_confirm::data::password` | Password | Lösenord | Shared reference checked |
 | 11443 | 921275292 | `component::gatus::config::error::invalid_auth` | Invalid authentication | Ogiltig autentisering | Shared reference checked |
-| 11444 | 921275291 | `component::gatus::config::abort::reauth_successful` | Re-authentication was successful | Återautentisering lyckades | Source-owner follow-up open |
+| 11444 | 921275291 | `component::gatus::config::abort::reauth_successful` | Re-authentication was successful | Återautentisering lyckades | Source found in adjacent Core path |
 | 11445 | 921275219 | `component::homematicip_cloud::entity::sensor::today_rain::name` | Today rain | Nederbörd i dag | Core-literal match |
 | 11446 | 921275218 | `component::homematicip_cloud::entity::sensor::tilt_angle::name` | Tilt angle | Lutningsvinkel | Core-literal match |
 | 11447 | 921275217 | `component::homematicip_cloud::entity::sensor::heating::name` | Heating | Värmer | Core-literal match |
@@ -869,7 +851,7 @@ Alla 1 140 rader hade redan radvisa granskningsrapporter. Granskningen uppdatera
 | 11658 | 921209150 | `component::remember_the_milk::config_subentries::list::error::unknown` | Unexpected error | Oväntat fel | Shared reference checked |
 | 11659 | 921209149 | `component::remember_the_milk::config_subentries::list::error::cannot_connect` | Failed to connect | Det gick inte att ansluta | Shared reference checked |
 | 11660 | 921209148 | `component::remember_the_milk::config_subentries::list::entry_type` | List | Lista | Core-literal match |
-| 11661 | 921209147 | `component::remember_the_milk::config_subentries::list::abort::reconfigure_successful` | Reconfiguration was successful | Omkonfigureringen lyckades | Source-owner follow-up open |
+| 11661 | 921209147 | `component::remember_the_milk::config_subentries::list::abort::reconfigure_successful` | Reconfiguration was successful | Omkonfigureringen lyckades | Source found in adjacent Core path |
 | 11662 | 921209146 | `component::remember_the_milk::config_subentries::list::abort::entry_not_loaded` | The Remember The Milk account must be loaded before adding or renaming a list. | Remember The Milk-kontot måste läsas in innan du lägger till eller byter namn på en lista. | Core-literal match |
 | 11663 | 921209145 | `component::remember_the_milk::config_subentries::list::abort::cannot_connect` | Failed to connect | Det gick inte att ansluta | Shared reference checked |
 | 11664 | 921209144 | `component::neopool::options::step::init::data_description::use_cover_sensor` | Enables the hydrolysis cover reduction switch. | Aktiverar omkopplaren för reducering av hydrolysskydd. | Core-literal match |
@@ -1197,8 +1179,8 @@ Alla 1 140 rader hade redan radvisa granskningsrapporter. Granskningen uppdatera
 | 11986 | 921086582 | `component::specialized_turbo::config::error::invalid_wrapped_key` | The wrapped key is invalid. | Den krypterade nyckeln är ogiltig. | Core-literal match |
 | 11987 | 921086581 | `component::specialized_turbo::config::error::invalid_auth` | Invalid authentication | Ogiltig autentisering | Shared reference checked |
 | 11988 | 921086580 | `component::specialized_turbo::config::error::cannot_connect` | Failed to connect | Det gick inte att ansluta | Shared reference checked |
-| 11989 | 921086579 | `component::specialized_turbo::config::abort::reconfigure_successful` | Reconfiguration was successful | Omkonfigureringen lyckades | Source-owner follow-up open |
-| 11990 | 921086578 | `component::specialized_turbo::config::abort::reauth_successful` | Re-authentication was successful | Återautentisering lyckades | Source-owner follow-up open |
+| 11989 | 921086579 | `component::specialized_turbo::config::abort::reconfigure_successful` | Reconfiguration was successful | Omkonfigureringen lyckades | Source found in adjacent Core path |
+| 11990 | 921086578 | `component::specialized_turbo::config::abort::reauth_successful` | Re-authentication was successful | Återautentisering lyckades | Source found in adjacent Core path |
 | 11991 | 921086577 | `component::specialized_turbo::config::abort::not_encrypted` | This bike has no stored encryption key to reconfigure. | Denna cykel har ingen lagrad krypteringsnyckel som behöver konfigureras om. | Core-literal match |
 | 11992 | 921086576 | `component::specialized_turbo::config::abort::no_devices_found` | No devices found on the network | Inga enheter hittades i nätverket | Shared reference checked |
 | 11993 | 921086575 | `component::specialized_turbo::config::abort::already_configured` | Device is already configured | Enheten är redan konfigurerad | Shared reference checked |

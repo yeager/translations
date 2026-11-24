@@ -1,0 +1,1202 @@
+[
+  {
+    "key": "component::vizio::config::step::reauth_confirm::title",
+    "key_id": "921052600",
+    "translation_id": "9558594873",
+    "en": "Authentication expired for {name}",
+    "sv": "Autentiseringen har upphört att gälla för {name}",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::vizio::config::step::reauth_confirm::description",
+    "key_id": "921052599",
+    "translation_id": "9558594809",
+    "en": "The stored access token is no longer valid, so the device needs to be paired again. Make sure the TV is powered on and connected to the network, then continue to display a pairing code on the TV screen.",
+    "sv": "Den sparade åtkomsttokenen är inte längre giltig, så enheten måste parkopplas igen. Kontrollera att TV:n är påslagen och ansluten till nätverket och fortsätt därefter för att visa en parkopplingskod på TV-skärmen.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::vizio::config::abort::unique_id_mismatch",
+    "key_id": "921052598",
+    "translation_id": "9558594745",
+    "en": "Please ensure you reconfigure against the same device.",
+    "sv": "Kontrollera att du konfigurerar om samma enhet.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::vizio::config::abort::reconfigure_successful",
+    "key_id": "921052597",
+    "translation_id": "9558594681",
+    "en": "Reconfiguration was successful",
+    "sv": "Omkonfigureringen lyckades",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::vizio::config::abort::reauth_successful",
+    "key_id": "921052596",
+    "translation_id": "9558594617",
+    "en": "Re-authentication was successful",
+    "sv": "Återautentisering lyckades",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::forecast_solar::services::get_forecast::name",
+    "key_id": "921018296",
+    "translation_id": "9558320260",
+    "en": "Get forecast",
+    "sv": "Hämta prognos",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::forecast_solar::services::get_forecast::fields::start::name",
+    "key_id": "921018295",
+    "translation_id": "9558320196",
+    "en": "Start",
+    "sv": "Start",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::forecast_solar::services::get_forecast::fields::start::description",
+    "key_id": "921018294",
+    "translation_id": "9558320132",
+    "en": "Earliest period start to return (inclusive). If omitted, the response begins at the start of the cached forecast.",
+    "sv": "Tidigaste starttid för perioder som ska ingå i resultatet, inklusive den angivna tiden. Om den utelämnas börjar svaret vid början av den cachelagrade prognosen.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::forecast_solar::services::get_forecast::fields::resolution::name",
+    "key_id": "921018293",
+    "translation_id": "9558320068",
+    "en": "Resolution",
+    "sv": "Upplösning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::forecast_solar::services::get_forecast::fields::resolution::description",
+    "key_id": "921018292",
+    "translation_id": "9558320004",
+    "en": "Resolution of the returned series. 'Native' uses the upstream Forecast.Solar resolution (15-minute on paid accounts, hourly on the free tier). 'Hourly' aggregates to whole-hour buckets.",
+    "sv": "Upplösning för den returnerade serien. ”Native” använder upplösningen från Forecast.Solar: 15 minuter för betalkonton och en timme för gratiskonton. ”Hourly” sammanställer värdena per hel timme.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::forecast_solar::services::get_forecast::fields::end::name",
+    "key_id": "921018291",
+    "translation_id": "9558319940",
+    "en": "End",
+    "sv": "Slut",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::forecast_solar::services::get_forecast::fields::end::description",
+    "key_id": "921018290",
+    "translation_id": "9558319876",
+    "en": "Latest period start to return (exclusive). If omitted, the response includes the full cached forecast.",
+    "sv": "Övre gräns för periodernas starttid. Perioder som börjar vid eller efter denna tid ingår inte. Om den utelämnas innehåller svaret hela den cachelagrade prognosen.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::forecast_solar::services::get_forecast::fields::config_entry::name",
+    "key_id": "921018289",
+    "translation_id": "9558319812",
+    "en": "Forecast.Solar entry",
+    "sv": "Forecast.Solar-konfigurationspost",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::forecast_solar::services::get_forecast::fields::config_entry::description",
+    "key_id": "921018288",
+    "translation_id": "9558319748",
+    "en": "The Forecast.Solar configuration entry to query.",
+    "sv": "Forecast.Solar-konfigurationen som prognosen ska hämtas för.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::forecast_solar::services::get_forecast::description",
+    "key_id": "921018287",
+    "translation_id": "9558319684",
+    "en": "Returns the solar production forecast time series for a configured Forecast.Solar entry.",
+    "sv": "Returnerar tidsserien för prognosen av solenergiproduktionen för en konfigurerad Forecast.Solar-post.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::forecast_solar::selector::forecast_resolution::options::raw",
+    "key_id": "921018286",
+    "translation_id": "9558319620",
+    "en": "Native (15-minute or hourly, depending on account)",
+    "sv": "Automatisk (var 15:e minut eller varje timme, beroende på konto)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::forecast_solar::selector::forecast_resolution::options::hourly",
+    "key_id": "921018285",
+    "translation_id": "9558319556",
+    "en": "Aggregated to whole hours",
+    "sv": "Aggregerat till hela timmar",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::forecast_solar::exceptions::end_before_start::message",
+    "key_id": "921018284",
+    "translation_id": "9558319492",
+    "en": "The end time must be after the start time.",
+    "sv": "Sluttiden måste vara efter starttiden.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::homeassistant::config::abort::cloud_not_connected",
+    "key_id": "921018129",
+    "translation_id": "9558318807",
+    "en": "Not connected to Home Assistant Cloud.",
+    "sv": "Ej ansluten till Home Assistant Cloud.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::time::timing_regeneration::name",
+    "key_id": "921007162",
+    "translation_id": "9558255349",
+    "en": "Regeneration time",
+    "sv": "Regenereringstid",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::water_temperature::name",
+    "key_id": "921004817",
+    "translation_id": "9558220674",
+    "en": "Water temperature",
+    "sv": "Vattentemperatur",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::water_consumption_big::name",
+    "key_id": "921004816",
+    "translation_id": "9558220610",
+    "en": "Water consumption aggregated",
+    "sv": "Sammanlagd vattenförbrukning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::water_consumption_average::name",
+    "key_id": "921004815",
+    "translation_id": "9558220546",
+    "en": "Water consumption average",
+    "sv": "Genomsnittlig vattenförbrukning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::water_consumption::name",
+    "key_id": "921004814",
+    "translation_id": "9558220482",
+    "en": "Water consumption",
+    "sv": "Vattenförbrukning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::wash_time::name",
+    "key_id": "921004813",
+    "translation_id": "9558220418",
+    "en": "Wash time",
+    "sv": "Tvättid",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::variable_mode::state::zero_fresh",
+    "key_id": "921004812",
+    "translation_id": "9558220354",
+    "en": "Zero fresh",
+    "sv": "Noll färskhet",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::variable_mode::state::soft_freezing",
+    "key_id": "921004811",
+    "translation_id": "9558220290",
+    "en": "Soft freezing",
+    "sv": "Mjuk frysning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::variable_mode::state::partial_freezing",
+    "key_id": "921004810",
+    "translation_id": "9558220226",
+    "en": "Partial freezing",
+    "sv": "Delvis frysning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::variable_mode::state::none",
+    "key_id": "921004809",
+    "translation_id": "9558220162",
+    "en": "None",
+    "sv": "Ingen",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::variable_mode::state::fresh_product",
+    "key_id": "921004808",
+    "translation_id": "9558220098",
+    "en": "Fresh produce",
+    "sv": "Färsk frukt och grönt",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::variable_mode::state::freeze_warm",
+    "key_id": "921004807",
+    "translation_id": "9558220034",
+    "en": "Freeze / warm",
+    "sv": "Frysning / uppvärmning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::variable_mode::state::dry_zone",
+    "key_id": "921004806",
+    "translation_id": "9558219970",
+    "en": "Dry zone",
+    "sv": "Torr zon",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::variable_mode::state::cold_drink",
+    "key_id": "921004805",
+    "translation_id": "9558219906",
+    "en": "Cold drink",
+    "sv": "Kall dryck",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::variable_mode::name",
+    "key_id": "921004804",
+    "translation_id": "9558219842",
+    "en": "Variable mode",
+    "sv": "Variabelt läge",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::use_days::name",
+    "key_id": "921004803",
+    "translation_id": "9558219778",
+    "en": "Days of use",
+    "sv": "Användningsdagar",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::tvoc::name",
+    "key_id": "921004802",
+    "translation_id": "9558219714",
+    "en": "TVOC",
+    "sv": "TVOC",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::total_produced_energy::name",
+    "key_id": "921004801",
+    "translation_id": "9558219650",
+    "en": "Total produced energy",
+    "sv": "Total producerad energi",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::total_energy_consumption::name",
+    "key_id": "921004800",
+    "translation_id": "9558219586",
+    "en": "Total energy consumption",
+    "sv": "Total energiförbrukning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::top_temperature::name",
+    "key_id": "921004799",
+    "translation_id": "9558219522",
+    "en": "Top temperature",
+    "sv": "Topptemperatur",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::top_compartment_temperature::name",
+    "key_id": "921004798",
+    "translation_id": "9558219458",
+    "en": "Top compartment temperature",
+    "sv": "Övre fackets temperatur",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::temperature_raw::name",
+    "key_id": "921004797",
+    "translation_id": "9558219394",
+    "en": "Raw temperature",
+    "sv": "Rå temperatur",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::temperature_compensate::name",
+    "key_id": "921004796",
+    "translation_id": "9558219330",
+    "en": "Temperature compensation",
+    "sv": "Temperaturkompensation",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::temp_tw_out::name",
+    "key_id": "921004795",
+    "translation_id": "9558219266",
+    "en": "Water outlet temperature",
+    "sv": "Vattenutloppstemperatur",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::temp_tw_in::name",
+    "key_id": "921004794",
+    "translation_id": "9558219202",
+    "en": "Water inlet temperature",
+    "sv": "Vatteninloppstemperatur",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::target_temperature::name",
+    "key_id": "921004793",
+    "translation_id": "9558219138",
+    "en": "Target temperature",
+    "sv": "Måltemperatur",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::target_indoor_fan_speed::name",
+    "key_id": "921004792",
+    "translation_id": "9558219074",
+    "en": "Target indoor fan speed",
+    "sv": "Målhastighet för inomhusfläkt",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::target_compressor_frequency::name",
+    "key_id": "921004791",
+    "translation_id": "9558219010",
+    "en": "Target compressor frequency",
+    "sv": "Målfrekvens för kompressor",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::tank_level::name",
+    "key_id": "921004790",
+    "translation_id": "9558218946",
+    "en": "Tank level",
+    "sv": "Tanknivå",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::tank_actual_temperature::name",
+    "key_id": "921004789",
+    "translation_id": "9558218882",
+    "en": "Tank temperature",
+    "sv": "Tanktemperatur",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::softwater_available::name",
+    "key_id": "921004788",
+    "translation_id": "9558218818",
+    "en": "Soft water available",
+    "sv": "Mjukt vatten tillgängligt",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::soak_time::name",
+    "key_id": "921004787",
+    "translation_id": "9558218754",
+    "en": "Soak time",
+    "sv": "Blötläggningstid",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::seat_temperature::name",
+    "key_id": "921004786",
+    "translation_id": "9558218690",
+    "en": "Seat temperature",
+    "sv": "Sätestemperatur",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::salt_available::name",
+    "key_id": "921004785",
+    "translation_id": "9558218626",
+    "en": "Salt available",
+    "sv": "Salt tillgängligt",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::right_flex_zone_setting_temp::name",
+    "key_id": "921004784",
+    "translation_id": "9558218562",
+    "en": "Right flex zone setting temperature",
+    "sv": "Högra flexzonens inställda temperatur",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::right_flex_zone_actual_temp::name",
+    "key_id": "921004783",
+    "translation_id": "9558218498",
+    "en": "Right flex zone actual temperature",
+    "sv": "Högra flexzonens faktiska temperatur",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::remaining_days::name",
+    "key_id": "921004782",
+    "translation_id": "9558218434",
+    "en": "Remaining days",
+    "sv": "Återstående dagar",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::refrigerator_setting_temp::name",
+    "key_id": "921004781",
+    "translation_id": "9558218370",
+    "en": "Refrigerator setting temperature",
+    "sv": "Kylskåpets inställda temperatur",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::refrigerator_actual_temp::name",
+    "key_id": "921004780",
+    "translation_id": "9558218306",
+    "en": "Refrigerator actual temperature",
+    "sv": "Kylskåpets faktiska temperatur",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::realtime_power::name",
+    "key_id": "921004779",
+    "translation_id": "9558218242",
+    "en": "Real-time power",
+    "sv": "Effekt i realtid",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::pmv::name",
+    "key_id": "921004778",
+    "translation_id": "9558218178",
+    "en": "Predicted mean vote",
+    "sv": "Förväntat medelvärde (pmv)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::outdoor_temperature::name",
+    "key_id": "921004777",
+    "translation_id": "9558218114",
+    "en": "Outdoor temperature",
+    "sv": "Utomhustemperatur",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::out_tds::name",
+    "key_id": "921004776",
+    "translation_id": "9558218050",
+    "en": "Out TDS",
+    "sv": "Ut TDS",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::yoghourt",
+    "key_id": "921004775",
+    "translation_id": "9558217986",
+    "en": "Yoghourt",
+    "sv": "Yoghurt",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::yellow_wheat_rice",
+    "key_id": "921004774",
+    "translation_id": "9558217922",
+    "en": "Yellow wheat rice",
+    "sv": "Gult veteris",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::warm_milk",
+    "key_id": "921004773",
+    "translation_id": "9558217858",
+    "en": "Warm milk",
+    "sv": "Varm mjölk",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::vegetable_rice",
+    "key_id": "921004772",
+    "translation_id": "9558217794",
+    "en": "Vegetable rice",
+    "sv": "Grönsaksris",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::vegetable_porridge",
+    "key_id": "921004771",
+    "translation_id": "9558217730",
+    "en": "Vegetable porridge",
+    "sv": "Grönsaksgröt",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::uncap_boil",
+    "key_id": "921004770",
+    "translation_id": "9558217666",
+    "en": "Uncap boil",
+    "sv": "Ta av locket och låt koka",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::trichromatic_coarse_grain",
+    "key_id": "921004769",
+    "translation_id": "9558217602",
+    "en": "Trichromatic coarse grain",
+    "sv": "Trikromatisk grovkornig",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::sushi_rice",
+    "key_id": "921004768",
+    "translation_id": "9558217538",
+    "en": "Sushi rice",
+    "sv": "Sushiris",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::stone_bowl_rice",
+    "key_id": "921004767",
+    "translation_id": "9558217474",
+    "en": "Stone bowl rice",
+    "sv": "Stenskålsris",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::stewing",
+    "key_id": "921004766",
+    "translation_id": "9558217410",
+    "en": "Stewing",
+    "sv": "Gryta",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::stew_soup",
+    "key_id": "921004765",
+    "translation_id": "9558217346",
+    "en": "Stew soup",
+    "sv": "Grytsoppa",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::steep_rice",
+    "key_id": "921004764",
+    "translation_id": "9558217282",
+    "en": "Steep rice",
+    "sv": "Blötlägg ris",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::steame_fish",
+    "key_id": "921004763",
+    "translation_id": "9558217218",
+    "en": "Steamed fish",
+    "sv": "Ångkokt fisk",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::steam_ribs",
+    "key_id": "921004762",
+    "translation_id": "9558217154",
+    "en": "Steam ribs",
+    "sv": "Ångkokta ribs",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::steam_red_potato",
+    "key_id": "921004761",
+    "translation_id": "9558217090",
+    "en": "Steam red potato",
+    "sv": "Ångad röd potatis",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::steam_egg",
+    "key_id": "921004760",
+    "translation_id": "9558217026",
+    "en": "Steam egg",
+    "sv": "Ångkokt ägg",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::steam_corn",
+    "key_id": "921004759",
+    "translation_id": "9558216962",
+    "en": "Steam corn",
+    "sv": "Ångmajs",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::standard_cook_rice",
+    "key_id": "921004758",
+    "translation_id": "9558216898",
+    "en": "Standard cook rice",
+    "sv": "Standardkokt ris",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::sprout_rice",
+    "key_id": "921004757",
+    "translation_id": "9558216834",
+    "en": "Sprout rice",
+    "sv": "Risgroddar",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::soup_rice",
+    "key_id": "921004756",
+    "translation_id": "9558216770",
+    "en": "Soup rice",
+    "sv": "Soppris",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::smart",
+    "key_id": "921004755",
+    "translation_id": "9558216706",
+    "en": "Smart",
+    "sv": "Smart",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::shelled_rice",
+    "key_id": "921004754",
+    "translation_id": "9558216642",
+    "en": "Shelled rice",
+    "sv": "Skalat ris",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::service",
+    "key_id": "921004753",
+    "translation_id": "9558216578",
+    "en": "Service",
+    "sv": "Service",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::roughage_rice",
+    "key_id": "921004752",
+    "translation_id": "9558216514",
+    "en": "Roughage rice",
+    "sv": "Grovfoderris",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::rice_wine",
+    "key_id": "921004751",
+    "translation_id": "9558216450",
+    "en": "Rice wine",
+    "sv": "Risvin",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::rice_soup",
+    "key_id": "921004750",
+    "translation_id": "9558216386",
+    "en": "Rice soup",
+    "sv": "Rissoppa",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::rice_paste",
+    "key_id": "921004749",
+    "translation_id": "9558216322",
+    "en": "Rice paste",
+    "sv": "Rispasta",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::resveratrol_rice",
+    "key_id": "921004748",
+    "translation_id": "9558216258",
+    "en": "Resveratrol rice",
+    "sv": "Resveratrolris",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::reserve",
+    "key_id": "921004747",
+    "translation_id": "9558216194",
+    "en": "Reserve",
+    "sv": "Reserv",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::regimen_soup",
+    "key_id": "921004746",
+    "translation_id": "9558216130",
+    "en": "Regimen soup",
+    "sv": "Regimen-soppa",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::regimen_congee",
+    "key_id": "921004745",
+    "translation_id": "9558216066",
+    "en": "Regimen congee",
+    "sv": "Regimen-risgröt",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::red_potato",
+    "key_id": "921004744",
+    "translation_id": "9558216002",
+    "en": "Red potato",
+    "sv": "Röd potatis",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::quick_freeze_bun",
+    "key_id": "921004743",
+    "translation_id": "9558215938",
+    "en": "Quick freeze bun",
+    "sv": "Snabbfryst bulle",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::pottery_jar_soup",
+    "key_id": "921004742",
+    "translation_id": "9558215874",
+    "en": "Pottery jar soup",
+    "sv": "Keramikburksoppa",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::pork_porridge",
+    "key_id": "921004741",
+    "translation_id": "9558215810",
+    "en": "Pork porridge",
+    "sv": "Fläskgröt",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::original_steame",
+    "key_id": "921004740",
+    "translation_id": "9558215746",
+    "en": "Original steam",
+    "sv": "Original ånga",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::online_celebrity_rice",
+    "key_id": "921004739",
+    "translation_id": "9558215682",
+    "en": "Online celebrity rice",
+    "sv": "Online celebrity-ris",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::one_two_cook",
+    "key_id": "921004738",
+    "translation_id": "9558215618",
+    "en": "One two cook",
+    "sv": "Ett två laga mat",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::olla_pan_rice",
+    "key_id": "921004737",
+    "translation_id": "9558215554",
+    "en": "Olla pan rice",
+    "sv": "Olla pan-ris",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::older_rice",
+    "key_id": "921004736",
+    "translation_id": "9558215490",
+    "en": "Older rice",
+    "sv": "Äldre ris",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::nutrition_stew",
+    "key_id": "921004735",
+    "translation_id": "9558215426",
+    "en": "Nutrition stew",
+    "sv": "Näringsgryta",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::northeast_stew",
+    "key_id": "921004734",
+    "translation_id": "9558215362",
+    "en": "Northeast stew",
+    "sv": "Nordöstlig gryta",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::normal_continus",
+    "key_id": "921004733",
+    "translation_id": "9558215298",
+    "en": "Normal continuous",
+    "sv": "Normal kontinuerlig",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::normal",
+    "key_id": "921004732",
+    "translation_id": "9558215234",
+    "en": "Normal",
+    "sv": "Normal",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::no_water_treat",
+    "key_id": "921004731",
+    "translation_id": "9558215170",
+    "en": "No water treat",
+    "sv": "Ingen vattenbehandling",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::millet_mixed_rice",
+    "key_id": "921004730",
+    "translation_id": "9558215106",
+    "en": "Millet mixed rice",
+    "sv": "Risblandning med hirs",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::millet_congee",
+    "key_id": "921004729",
+    "translation_id": "9558215042",
+    "en": "Millet congee",
+    "sv": "Hirsrisgröt",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::make_cake",
+    "key_id": "921004728",
+    "translation_id": "9558214978",
+    "en": "Make cake",
+    "sv": "Baka tårta",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::luscious_rice",
+    "key_id": "921004727",
+    "translation_id": "9558214914",
+    "en": "Luscious rice",
+    "sv": "Läckert ris",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::luscious_boiled",
+    "key_id": "921004726",
+    "translation_id": "9558214850",
+    "en": "Luscious boiled",
+    "sv": "Läckert kokt",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::low_sugar_rice",
+    "key_id": "921004725",
+    "translation_id": "9558214786",
+    "en": "Low sugar rice",
+    "sv": "Lågsockerris",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::keep_warm",
+    "key_id": "921004724",
+    "translation_id": "9558214722",
+    "en": "Keep warm",
+    "sv": "Håll varmt",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::keep_fresh",
+    "key_id": "921004723",
+    "translation_id": "9558214658",
+    "en": "Keep fresh",
+    "sv": "Håll färskt",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::iron_pan_rice",
+    "key_id": "921004722",
+    "translation_id": "9558214594",
+    "en": "Iron pan rice",
+    "sv": "Järnpannris",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::infant_congee",
+    "key_id": "921004721",
+    "translation_id": "9558214530",
+    "en": "Infant congee",
+    "sv": "Spädbarnsrisgröt",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::hot_spring_egg",
+    "key_id": "921004720",
+    "translation_id": "9558214466",
+    "en": "Hot spring egg",
+    "sv": "Onsenägg",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::hot_fast_rice",
+    "key_id": "921004719",
+    "translation_id": "9558214402",
+    "en": "Hot fast rice",
+    "sv": "Varmt snabbris",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::midea::entity::sensor::mode::state::heat_rice",
+    "key_id": "921004718",
+    "translation_id": "9558214338",
+    "en": "Heat rice",
+    "sv": "Värm ris",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  }
+]
