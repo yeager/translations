@@ -50,3 +50,10 @@
 - Två PM2.5-fält får källuppföljning; övriga 7 sökvägar matchar aktuell Core-källa.
 - Core-TMX validerad: 16 465 poster; exporten har 42 624 språkpar och 32 exkluderade nycklar.
 - Core-granskningen fortsätter.
+
+## 2026-11-24 – Core 23521–23640
+
+- 10 översättningar korrigerade, sparade och återlästa.
+- Två tröskelfält kräver källuppföljning; åtta nycklar matchar direkt.
+- Core-TMX validerad: 16 471 poster; Core-export: 42 624 språkpar och 32 exkluderade nycklar.
+- Granskningen fortsätter.
