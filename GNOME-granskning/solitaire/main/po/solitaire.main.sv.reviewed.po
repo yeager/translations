@@ -1,0 +1,695 @@
+# Swedish translation for solitaire.
+# Copyright © 2026 solitaire's COPYRIGHT HOLDER
+# This file is distributed under the same license as the solitaire package.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2026.
+# Daniel Nylander <gnome@danielnylander.se>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: solitaire main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/wwarner/Solitaire/-/issues\n"
+"POT-Creation-Date: 2026-10-12 23:01+0000\n"
+"PO-Revision-Date: 2026-11-24 00:00+0100\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.desktop.in.in:2
+#: data/org.gnome.gitlab.wwarner.Solitaire.metainfo.xml.in.in:7
+#: src/window.blp:55 src/window.blp:59
+msgid "Solitaire"
+msgstr "Solitaire"
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.desktop.in.in:8
+msgid ""
+"patience;cards;card game;klondike;freecell;tri peaks;spider;pyramid;yukon"
+msgstr ""
+"patiens;kort;kortspel;klondike;klondyke;freecell;Napoleon på S:t Helena;tri "
+"peaks;triple peaks;spindeln;pyramiden;yukon"
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.metainfo.xml.in.in:8
+msgid "Play patience games"
+msgstr "Spela patienser"
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.metainfo.xml.in.in:10
+msgid ""
+"Solitaire features simple interface to play a variety of patience games, "
+"also known as solitaire games."
+msgstr ""
+"Solitaire har ett enkelt gränssnitt för att spela en rad olika patienser."
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.metainfo.xml.in.in:14
+msgid ""
+"Solitaire can figure out if the game you're playing can be won, and will let "
+"you undo the move that made the game unwinnable."
+msgstr ""
+"Solitaire kan räkna ut om spelet du spelar kan vinnas och låter dig ångra "
+"draget som gjorde spelet omöjligt att vinna."
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.metainfo.xml.in.in:18
+msgid ""
+"If you need a hint, Solitaire will give you one that is guaranteed to lead "
+"to a win."
+msgstr ""
+"Om du behöver ett tips ger Solitaire dig ett som är garanterat att leda till "
+"vinst."
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.metainfo.xml.in.in:34
+msgid "Playing a game of Klondike (solitaire)"
+msgstr "Spelar en omgång Klondyke (solitaire)"
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:6
+msgid "The theme of the playing cards"
+msgstr "Temat för kortleken"
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:7
+msgid ""
+"The theme that will be used when rendering cards. This should be the name of "
+"one of the SVGs that are bundled as a gresource under card_themes."
+msgstr ""
+"Temat som kommer användas vid rendering av kort. Detta ska vara namnet på en "
+"av SVG-filerna som skickas med som en gresource under card_themes."
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:11
+msgid "Enable the game solver"
+msgstr "Aktivera spellösaren"
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:12
+msgid ""
+"Used to determine if the solver should be run (to see if the game is "
+"winnable or to get hints)."
+msgstr ""
+"Används för att bestämma om lösaren ska köras (för att se om spelet går att "
+"vinna eller för att få tips)."
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:16
+msgid "Enable the 'Impossible to Win Game' warning"
+msgstr "Aktivera ”Omöjligt att vinna spelet”-varningen"
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:17
+msgid ""
+"Enable the 'Impossible to Win Game' warning, the solver must be enabled for "
+"this to work."
+msgstr ""
+"Aktivera ”Omöjligt att vinna spelet”-varningen, lösaren måste vara aktiverad "
+"för att detta ska fungera."
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:25
+msgid "The method of scoring games"
+msgstr "Metoden för att poängsätta spel"
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:26
+msgid "The method of scoring that should be used for all games."
+msgstr "Metoden som ska användas för att poängsätta alla spel."
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:30
+msgid "Whether to use the custom seed"
+msgstr "Huruvida det anpassade fröet ska användas"
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:31
+msgid "Whether to use the custom seed."
+msgstr "Huruvida det anpassade fröet ska användas."
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:35
+msgid "The seed used for dealing"
+msgstr "Fröet som används för giv"
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:36
+msgid "Used to determine which cards are given in a game."
+msgstr "Används för att bestämma vilka kort som delas i ett spel."
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:40
+msgid "Width of the window in pixels"
+msgstr "Bredden på fönstret i bildpunkter"
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:44
+msgid "Height of the window in pixels"
+msgstr "Höjden på fönstret i bildpunkter"
+
+#: data/org.gnome.gitlab.wwarner.Solitaire.gschema.xml:48
+msgid "If the window is maximized"
+msgstr "Huruvida fönstret är maximerat"
+
+#. Translators: Replace "translator-credits" with your name/username, and optionally an email or URL.
+#: src/application.rs:140
+msgid "translator-credits"
+msgstr ""
+"Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"\n"
+"Skicka synpunkter på översättningen till\n"
+"<tp-sv@listor.tp-sv.se>."
+
+#: src/card.rs:111
+msgid "Ace of Clubs"
+msgstr "Klöver ess"
+
+#: src/card.rs:112
+msgid "Two of Clubs"
+msgstr "Klöver två"
+
+#: src/card.rs:113
+msgid "Three of Clubs"
+msgstr "Klöver tre"
+
+#: src/card.rs:114
+msgid "Four of Clubs"
+msgstr "Klöver fyra"
+
+#: src/card.rs:115
+msgid "Five of Clubs"
+msgstr "Klöver fem"
+
+#: src/card.rs:116
+msgid "Six of Clubs"
+msgstr "Klöver sex"
+
+#: src/card.rs:117
+msgid "Seven of Clubs"
+msgstr "Klöver sju"
+
+#: src/card.rs:118
+msgid "Eight of Clubs"
+msgstr "Klöver åtta"
+
+#: src/card.rs:119
+msgid "Nine of Clubs"
+msgstr "Klöver nio"
+
+#: src/card.rs:120
+msgid "Ten of Clubs"
+msgstr "Klöver tio"
+
+#: src/card.rs:121
+msgid "Jack of Clubs"
+msgstr "Klöver knekt"
+
+#: src/card.rs:122
+msgid "Queen of Clubs"
+msgstr "Klöver dam"
+
+#: src/card.rs:123
+msgid "King of Clubs"
+msgstr "Klöver kung"
+
+#: src/card.rs:124
+msgid "Ace of Diamonds"
+msgstr "Ruter ess"
+
+#: src/card.rs:125
+msgid "Two of Diamonds"
+msgstr "Ruter två"
+
+#: src/card.rs:126
+msgid "Three of Diamonds"
+msgstr "Ruter tre"
+
+#: src/card.rs:127
+msgid "Four of Diamonds"
+msgstr "Ruter fyra"
+
+#: src/card.rs:128
+msgid "Five of Diamonds"
+msgstr "Ruter fem"
+
+#: src/card.rs:129
+msgid "Six of Diamonds"
+msgstr "Ruter sex"
+
+#: src/card.rs:130
+msgid "Seven of Diamonds"
+msgstr "Ruter sju"
+
+#: src/card.rs:131
+msgid "Eight of Diamonds"
+msgstr "Ruter åtta"
+
+#: src/card.rs:132
+msgid "Nine of Diamonds"
+msgstr "Ruter nio"
+
+#: src/card.rs:133
+msgid "Ten of Diamonds"
+msgstr "Ruter tio"
+
+#: src/card.rs:134
+msgid "Jack of Diamonds"
+msgstr "Ruter knekt"
+
+#: src/card.rs:135
+msgid "Queen of Diamonds"
+msgstr "Ruter dam"
+
+#: src/card.rs:136
+msgid "King of Diamonds"
+msgstr "Ruter kung"
+
+#: src/card.rs:137
+msgid "Ace of Hearts"
+msgstr "Hjärter ess"
+
+#: src/card.rs:138
+msgid "Two of Hearts"
+msgstr "Hjärter två"
+
+#: src/card.rs:139
+msgid "Three of Hearts"
+msgstr "Hjärter tre"
+
+#: src/card.rs:140
+msgid "Four of Hearts"
+msgstr "Hjärter fyra"
+
+#: src/card.rs:141
+msgid "Five of Hearts"
+msgstr "Hjärter fem"
+
+#: src/card.rs:142
+msgid "Six of Hearts"
+msgstr "Hjärter sex"
+
+#: src/card.rs:143
+msgid "Seven of Hearts"
+msgstr "Hjärter sju"
+
+#: src/card.rs:144
+msgid "Eight of Hearts"
+msgstr "Hjärter åtta"
+
+#: src/card.rs:145
+msgid "Nine of Hearts"
+msgstr "Hjärter nio"
+
+#: src/card.rs:146
+msgid "Ten of Hearts"
+msgstr "Hjärter tio"
+
+#: src/card.rs:147
+msgid "Jack of Hearts"
+msgstr "Hjärter knekt"
+
+#: src/card.rs:148
+msgid "Queen of Hearts"
+msgstr "Hjärter dam"
+
+#: src/card.rs:149
+msgid "King of Hearts"
+msgstr "Hjärter kung"
+
+#: src/card.rs:150
+msgid "Ace of Spades"
+msgstr "Spader ess"
+
+#: src/card.rs:151
+msgid "Two of Spades"
+msgstr "Spader två"
+
+#: src/card.rs:152
+msgid "Three of Spades"
+msgstr "Spader tre"
+
+#: src/card.rs:153
+msgid "Four of Spades"
+msgstr "Spader fyra"
+
+#: src/card.rs:154
+msgid "Five of Spades"
+msgstr "Spader fem"
+
+#: src/card.rs:155
+msgid "Six of Spades"
+msgstr "Spader sex"
+
+#: src/card.rs:156
+msgid "Seven of Spades"
+msgstr "Spader sju"
+
+#: src/card.rs:157
+msgid "Eight of Spades"
+msgstr "Spader åtta"
+
+#: src/card.rs:158
+msgid "Nine of Spades"
+msgstr "Spader nio"
+
+#: src/card.rs:159
+msgid "Ten of Spades"
+msgstr "Spader tio"
+
+#: src/card.rs:160
+msgid "Jack of Spades"
+msgstr "Spader knekt"
+
+#: src/card.rs:161
+msgid "Queen of Spades"
+msgstr "Spader dam"
+
+#: src/card.rs:162
+msgid "King of Spades"
+msgstr "Spader kung"
+
+#: src/card.rs:163
+msgid "Red Joker"
+msgstr "Röd joker"
+
+#: src/card.rs:164
+msgid "Black Joker"
+msgstr "Svart joker"
+
+#: src/card.rs:356
+msgid "Card Back"
+msgstr "Baksida på kort"
+
+#: src/card_stack.rs:201
+msgid "Stock stack"
+msgstr "Handhög"
+
+#: src/card_stack.rs:202
+msgid "Waste stack"
+msgstr "Kasthög"
+
+#: src/card_stack.rs:203
+msgid "Tableau stack"
+msgstr "Bordshög"
+
+#: src/card_stack.rs:204
+msgid "Foundation stack"
+msgstr "Grundhög"
+
+#: src/card_stack.rs:205
+msgid "Cell stack"
+msgstr "Stapelhög"
+
+#: src/card_stack.rs:206
+msgid "Pyramid stack"
+msgstr "Pyramidhög"
+
+#: src/games.rs:135
+msgid "Test"
+msgstr "Test"
+
+#: src/games.rs:136
+msgid "Klondike"
+msgstr "Klondyke"
+
+#: src/games.rs:137
+msgid "FreeCell"
+msgstr "Napoleon på S:t Helena"
+
+#: src/games.rs:138
+msgid "Tri-Peaks"
+msgstr "Tri-Peaks"
+
+#: src/games.rs:139
+msgid "Spider"
+msgstr "Spindeln"
+
+#: src/games.rs:140
+msgid "Pyramid"
+msgstr "Pyramiden"
+
+#: src/games.rs:141
+msgid "Yukon"
+msgstr "Yukon"
+
+#: src/games.rs:157
+msgid "Test Game"
+msgstr "Testspel"
+
+#: src/games.rs:158
+msgid "Classic Solitaire"
+msgstr "Klassisk patiens"
+
+#: src/games.rs:159
+msgid "Build Foundations using Free Cells"
+msgstr "Bygg grundhögar med hjälp av tomma högar"
+
+#: src/games.rs:160
+msgid "Clear Three Peaks of Cards"
+msgstr "Töm tre toppar med kort"
+
+#: src/games.rs:161
+msgid "Use eight foundations to clear the board"
+msgstr "Använd åtta grundhögar för att tömma brädet"
+
+#: src/games.rs:162
+msgid "Match cards that add up to thirteen"
+msgstr "Matcha kort vars summa är tretton"
+
+#: src/games.rs:163
+msgid "Klondike without stock or waste piles"
+msgstr "Klondyke utan hand- eller kasthögar"
+
+#. Translators: {game_name} is the of the game that will be deleted, it should remain untranslated
+#: src/game_row.rs:114
+#, rust-format
+msgid "Delete ‘{game_name}’"
+msgstr "Ta bort ”{game_name}”"
+
+#. Translators: {game_name} is the of the game that was deleted, it should remain untranslated
+#: src/game_row.rs:137
+#, rust-format
+msgid "‘{game_name}’ deleted"
+msgstr "”{game_name}” borttaget"
+
+#: src/preferences-dialog.blp:10 src/preferences-dialog.blp:13
+msgid "General"
+msgstr "Allmänt"
+
+#: src/preferences-dialog.blp:16
+msgid "Enable the _Solver"
+msgstr "Aktivera _lösaren"
+
+#: src/preferences-dialog.blp:17
+msgid "The Solver is Used for Hints and the Winnability Warning"
+msgstr "Lösaren används för tips och vinnbarhetsvarningen"
+
+#: src/preferences-dialog.blp:22
+msgid "Display the _Winnability Warning"
+msgstr "Visa _vinnbarhetsvarningen"
+
+#: src/preferences-dialog.blp:23
+msgid "The Winnability Warning will Not be Displayed Without the Solver"
+msgstr "Vinnbarhetsvarningen kommer inte att visas utan lösaren"
+
+#: src/preferences-dialog.blp:29
+msgid "Game"
+msgstr "Spel"
+
+#: src/preferences-dialog.blp:32
+msgid "Use a _Custom Seed for Dealing"
+msgstr "Använd ett _anpassat frö för giv"
+
+#: src/preferences-dialog.blp:33
+msgid "The Seed is a Number used to Determine how Cards are Dealt"
+msgstr "Fröet är ett tal som används för att bestämma hur korten delas"
+
+#: src/preferences-dialog.blp:38
+msgid "Game _Seed"
+msgstr "Spel_frö"
+
+#: src/shortcuts-dialog.blp:6
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Allmänt"
+
+#: src/shortcuts-dialog.blp:9
+msgctxt "shortcut window"
+msgid "Show Preferences"
+msgstr "Visa inställningar"
+
+#: src/shortcuts-dialog.blp:13
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Visa kortkommandon"
+
+#: src/shortcuts-dialog.blp:17
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Avsluta"
+
+#: src/shortcuts-dialog.blp:23
+msgctxt "shortcut window"
+msgid "Game"
+msgstr "Spel"
+
+#: src/shortcuts-dialog.blp:26
+msgctxt "shortcut window"
+msgid "Hint"
+msgstr "Tips"
+
+#: src/shortcuts-dialog.blp:30 src/window.blp:197
+msgctxt "undo move"
+msgid "Undo"
+msgstr "Ångra"
+
+#: src/shortcuts-dialog.blp:34
+msgctxt "shortcut window"
+msgid "Redo"
+msgstr "Gör om"
+
+#: src/window.rs:178 src/window.rs:189
+msgctxt "score dialog"
+msgid "Game"
+msgstr "Spel"
+
+#: src/window.rs:186 src/window.blp:31 src/window.blp:262
+msgid "Moves"
+msgstr "Drag"
+
+#: src/window.rs:453
+#, rust-format
+msgid "Played for {hours} hour"
+msgid_plural "Played for {hours} hours"
+msgstr[0] "Spelat i {hours} timme"
+msgstr[1] "Spelat i {hours} timmar"
+
+#: src/window.rs:461
+#, rust-format
+msgid "Played for {minutes} minute"
+msgid_plural "Played for {minutes} minutes"
+msgstr[0] "Spelat i {minutes} minut"
+msgstr[1] "Spelat i {minutes} minuter"
+
+#: src/window.rs:646
+msgid "Game is no longer winnable"
+msgstr "Spelet går inte längre att vinna"
+
+#: src/window.rs:647
+msgid "A recent move has made the game impossible to win"
+msgstr "Ett drag gjorde spelet omöjligt att vinna"
+
+#: src/window.rs:652
+msgid "Keep Playing"
+msgstr "Fortsätt spela"
+
+#: src/window.rs:653 src/window.blp:175
+msgid "New Game"
+msgstr "Nytt spel"
+
+#: src/window.rs:654
+msgid "Undo Move"
+msgstr "Ångra drag"
+
+#: src/window.rs:736
+msgid "Drop"
+msgstr "Släpp"
+
+#: src/window.rs:740
+msgid "Hint"
+msgstr "Tips"
+
+#. Translators: this is the label for a menu entry with the undo and redo buttons
+#: src/window.blp:7
+msgid "Undo/Redo"
+msgstr "Ångra/gör om"
+
+#: src/window.blp:19 src/window.blp:250
+msgid "_Scores"
+msgstr "_Poäng"
+
+#: src/window.blp:23 src/window.blp:254
+msgid "Scoring _Method"
+msgstr "Poäng_metod"
+
+#: src/window.blp:26 src/window.blp:257
+msgid "Time"
+msgstr "Tid"
+
+#: src/window.blp:39 src/window.blp:270
+msgid "_Preferences"
+msgstr "_Inställningar"
+
+#: src/window.blp:43 src/window.blp:274
+msgid "_Keyboard Shortcuts"
+msgstr "_Tangentbordsgenvägar"
+
+#: src/window.blp:48 src/window.blp:279
+msgid "_About Solitaire"
+msgstr "_Om Solitaire"
+
+#: src/window.blp:67
+msgid "Search"
+msgstr "Sök"
+
+#: src/window.blp:75 src/window.blp:190
+msgid "Main Menu"
+msgstr "Huvudmeny"
+
+#: src/window.blp:86
+msgid "Search Games"
+msgstr "Sök spel"
+
+#: src/window.blp:105
+msgid "Play Patience Games"
+msgstr "Spela patienser"
+
+#: src/window.blp:118
+msgid "Unfinished Games"
+msgstr "Ej slutförda spel"
+
+#: src/window.blp:139
+msgid "Game Types"
+msgstr "Speltyper"
+
+#: src/window.blp:154
+msgid "No Games Found"
+msgstr "Inga spel hittades"
+
+#. Translators: 'New Deal' starts a the same game with a new order of cards
+#: src/window.blp:182
+msgid "New Deal"
+msgstr "Ny giv"
+
+#: src/window.blp:208
+msgid "Redo"
+msgstr "Gör om"
+
+#~ msgid "Some preferences will not take effect until the app has been quit"
+#~ msgstr ""
+#~ "Några inställningar kommer inte börja gälla förrän programmet har "
+#~ "avslutats"
+
+#~ msgid "_Quit"
+#~ msgstr "A_vsluta"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Undo"
+#~ msgstr "Ångra"
+
+#, rust-format
+#~ msgid "{n_moves} Moves"
+#~ msgstr "{n_moves} drag"
+
+#~ msgid "A_ppearance"
+#~ msgstr "_Utseende"
+
+#, rust-format
+#~ msgid "{game_name}—{game_description}"
+#~ msgstr "{game_name}—{game_description}"
+
+#~ msgid "Do you want to start a new game?"
+#~ msgstr "Vill du starta ett nytt spel?"
+
+#~ msgid "If you start a new game, your current progress will be lost."
+#~ msgstr ""
+#~ "Om du startar ett nytt spel kommer dina aktuella framsteg gå förlorade."
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "Start New Game"
+#~ msgstr "Starta nytt spel"
+
+#~ msgid "Keep Current Game"
+#~ msgstr "Behåll aktuellt spel"
+
+#~ msgid "The most recently played game"
+#~ msgstr "Det senast spelade spelet"
+
+#~ msgid "The last game that was played by the user."
+#~ msgstr "Det senaste spelet som spelades av användaren."
