@@ -1,0 +1,127 @@
+diff --git a/.work-gnome-review/evolution-data-server-master-po/original.po b/.work-gnome-review/evolution-data-server-master-po/sv.po
+index adc5ebb..931029f 100644
+--- a/.work-gnome-review/evolution-data-server-master-po/original.po
++++ b/.work-gnome-review/evolution-data-server-master-po/sv.po
+@@ -10,6 +10,7 @@
+ # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
+ # Sebastian Rasmussen <sebras@gmail.com>, 2016.
+ # Luna Jernberg <droidbittin@gmail.com>, 2020, 2021, 2022, 2024, 2025.
++# Daniel Nylander <gnome@danielnylander.se>, 2026.
+ #
+ msgid ""
+ msgstr ""
+@@ -17,8 +18,8 @@ msgstr ""
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/evolution-data-server/"
+ "issues/\n"
+ "POT-Creation-Date: 2026-11-13 16:10+0000\n"
+-"PO-Revision-Date: 2026-08-23 23:45+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -76,7 +77,8 @@ msgstr "Påminnelsevärde för födelsedagar och jubileum"
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:19
+ msgid "Number of units for determining a birthday or anniversary reminder"
+ msgstr ""
+-"Antal enheter för att avgöra en påminnelse för födelsedagar eller jubileum"
++"Antal enheter för att fastställa en påminnelse för födelsedagar eller "
++"jubileum"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:23
+ msgid "Birthday and anniversary reminder units"
+@@ -150,7 +152,7 @@ msgstr "Aktivera skrivbordsaviseringar"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:63
+ msgid "When set to true, the desktop/system notifications are shown"
+-msgstr "När satt till true (sant) visas skrivbords/systemaviseringarna"
++msgstr "När värdet är true (sant) visas skrivbords-/systemaviseringarna"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:67
+ msgid "Enable audio notifications"
+@@ -161,8 +163,8 @@ msgid ""
+ "When set to true, the audio reminders will be played, otherwise audio "
+ "reminders will be silently ignored"
+ msgstr ""
+-"När inställt till true (sant), kommer ljudpåminnelser spelas, annars kommer "
+-"ljudpåminnelser tyst ignoreras"
++"När värdet är true (sant) spelas ljudpåminnelser upp, annars ignoreras de "
++"tyst"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:72
+ msgid "Show reminders in notification tray only"
+@@ -173,8 +175,8 @@ msgid ""
+ "When set to true, the reminders are shown only in the notification tray, "
+ "otherwise the reminders dialog is shown immediately"
+ msgstr ""
+-"När satt till true (sant), visas påminnelserna bara i aviseringsytan, i "
+-"annat fall visas påminnelsedialogen omedelbart"
++"När värdet är true (sant) visas påminnelserna bara i aviseringsytan, "
++"annars visas påminnelsedialogen omedelbart"
+ 
+ #: data/org.gnome.evolution-data-server.calendar.gschema.xml.in:77
+ msgid "Show reminder notification dialog always on top"
+@@ -243,7 +245,8 @@ msgid ""
+ "with a star, then it means after start, otherwise the time is relative to "
+ "the current time, aka “snooze for N minutes”"
+ msgstr ""
+-"Användardefinierade slumringstider i minuter, kodat i sträng som ett tal, "
++"Användardefinierade slumringstider i minuter, kodade som en sträng med ett "
++"tal, "
+ "där noll eller negativa tal betyder ”innan start”. När talet föregås av en "
+ "stjärna betyder det efter start, annars är tiden relativ till aktuell tid, "
+ "d.v.s. ”slumra i N minuter”"
+@@ -262,8 +265,8 @@ msgid ""
+ "is set, then it will be searched for. Change requires restart of the "
+ "application."
+ msgstr ""
+-"Ett exempel är ”/usr/bin/gpg”; om det inte fylls i eller har ett felaktigt "
+-"värde, så letas det efter. Ändring kräver omstart av programmet."
++"Ett exempel är ”/usr/bin/gpg”; om sökvägen lämnas tom eller ett felaktigt "
++"värde anges, söks den automatiskt. En ändring kräver omstart av programmet."
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:10
+ msgid "Whether to load photos of signers/encrypters"
+@@ -274,8 +277,8 @@ msgid ""
+ "When set to “true”, tries to load also photo of the signers/encrypters, if "
+ "available in the key/certificate."
+ msgstr ""
+-"När satt till ”true” (sant) kommer även foto för signerarna/krypterarna "
+-"försöka läsas in, om tillgängligt i nyckeln/certifikatet."
++"När värdet är ”true” (sant) försöker programmet även läsa in fotot för "
++"signeraren/krypteraren, om det finns i nyckeln/certifikatet."
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:15
+ msgid "Override SMTP HELO/EHLO argument"
+@@ -315,8 +318,8 @@ msgid ""
+ "the background. A special value “always-online” is used for no network "
+ "monitoring."
+ msgstr ""
+-"När satt till ett okänt värde används den GNetworkMonitor som är standard i "
+-"backgrunden. Specialvärdet ”always-online” används för ingen "
++"När ett okänt värde anges används standard-GNetworkMonitor i bakgrunden. "
++"Specialvärdet ”always-online” används för att inaktivera "
+ "nätverksövervakning."
+ 
+ #: data/org.gnome.evolution-data-server.gschema.xml.in:30
+@@ -346,7 +349,7 @@ msgid ""
+ "variables are checked before environment variables, but after the predefined "
+ "USER, REALNAME and HOST variables."
+ msgstr ""
+-"Varje post i vektorn förväntas vara på formen namn=värde. Dessa variabler "
++"Varje post i vektorn förväntas vara på formen: namn=värde. Dessa variabler "
+ "kontrolleras före miljövariabler, men efter de fördefinierade variablerna "
+ "USER, REALNAME och HOST."
+ 
+@@ -498,8 +501,8 @@ msgid ""
+ "calendars/mail accounts/... are skipped when the machine is in the Power "
+ "Saver mode."
+ msgstr ""
+-"När satt till ”true” (sant), kommer möjligen dyra åtgärder som krävs för att "
+-"uppdatera böcker/kalendrar/e-postkonton… att hoppas över när maskinen är i "
++"När värdet är ”true” (sant) hoppas eventuellt kostsamma åtgärder som krävs "
++"för att uppdatera böcker/kalendrar/e-postkonton… över när datorn är i "
+ "strömsparläge."
+ 
+ #: data/org.gnome.evolution.shell.network-config.gschema.xml.in:11
