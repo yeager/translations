@@ -1,0 +1,16 @@
+# GNOME Musik — main/po (sv)
+
+- Aktivitet: <https://l10n.gnome.org/vertimus/gnome-music/main/po/sv/>
+- Käll-POT: `gnome-music.main.pot`, hämtad 2026-11-24
+- Utgångsstatistik: 123 översatta, 0 oöversatta, 0 fuzzy
+- Slutstatistik: 123 översatta, 0 oöversatta, 0 fuzzy
+- Ändrade befintliga strängar: 4
+
+Hela katalogen är radgranskad. Snabbkommandon och navigering använder nu
+naturliga svenska formuleringar; skiljetecken i inställningstexten är också
+rättat. `Last-Translator` är uppdaterad till Daniel Nylander
+`<gnome@danielnylander.se>`.
+
+`msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` är godkända utan fel
+eller varningar. Den svenska Hunspell-ordlistan saknas lokalt. Ingen
+GNOME-inskickning har gjorts enligt arbetsmålet.
