@@ -1,6 +1,6 @@
 # Home Assistant Core – granskning 7501–7740
 
-Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Referenser vars mål inte finns i underlaget markeras för senare kontroll.
+Sortering: ”Last added” vid insamlingen. Livegranskning genomfördes 2026-11-24 mot Lokalise API och Home Assistant Core-källträdet på commit `2fdaa177f3e94535b3b649fb1ffc2dbba52eb4ce`. Alla 240 rapportnycklar återfanns; samtliga rapporterade referensmål finns.
 
 ## 7501. `component::husqvarna_automower::entity::sensor::error::state::partly_uncut_area`
 
@@ -102,17 +102,17 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Alarm system
 
-**Befintlig svenska:** Larmpanel
+**Befintlig svenska:** Larmsystem
 
-**Förslag:** Larmsystem
+**Livekontroll, redan sparat:** Larmsystem
 
 ## 7514. `component::neopool::exceptions::invalid_state::message`
 
 **Engelska:** The controller rejected this change because it is not in a valid state for it.
 
-**Befintlig svenska:** Styrenheten avvisade ändringen eftersom den inte är i ett giltigt tillstånd för den.
+**Befintlig svenska:** Styrenheten avvisade ändringen eftersom dess tillstånd inte tillåter den.
 
-**Förslag:** Styrenheten avvisade ändringen eftersom dess tillstånd inte tillåter den.
+**Livekontroll, redan sparat:** Styrenheten avvisade ändringen eftersom dess tillstånd inte tillåter den.
 
 ## 7515. `component::neopool::exceptions::filtration_speed_not_manual_mode::message`
 
@@ -910,10 +910,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Boost mode
 
-**Befintlig svenska:** Boostläge
+**Befintlig svenska (live):** Boost-läge
 
-**Bedömning:** Ingen ändring föreslås.
-
+**Sparad svenska:** Boostläge
 ## 7615. `component::zonneplan::entity::sensor::total_earned::name`
 
 **Engelska:** Total earned
@@ -1098,9 +1097,9 @@ Uppdatera följande automationer och skript:
 
 **Engelska:** An error occurred while communicating with the Open-Meteo API.
 
-**Befintlig svenska:** Ett fel inträffade vid kommunikation med Open-Meteo API.
+**Befintlig svenska:** Ett fel inträffade vid kommunikation med Open-Meteo-API:t.
 
-**Förslag:** Ett fel inträffade vid kommunikation med Open-Meteo-API:t.
+**Livekontroll, redan sparat:** Ett fel inträffade vid kommunikation med Open-Meteo-API:t.
 
 ## 7637. `component::midea::entity::sensor::water_level::state::mid`
 
@@ -1130,10 +1129,9 @@ Uppdatera följande automationer och skript:
 
 **Engelska:** [%key:common::state::auto%]
 
-**Befintlig svenska:** Automatisk
+**Befintlig svenska (live):** Automatisk
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::auto`; det ingår ännu inte i det insamlade underlaget.
-
+**Sparad svenska:** Auto
 ## 7641. `component::midea::entity::sensor::water_level::state::4`
 
 **Engelska:** 4
@@ -1242,10 +1240,9 @@ Uppdatera följande automationer och skript:
 
 **Engelska:** [%key:common::state::idle%]
 
-**Befintlig svenska:** Väntar
+**Befintlig svenska (live):** Väntar
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::idle`; det ingår ännu inte i det insamlade underlaget.
-
+**Sparad svenska:** Inaktiv
 ## 7655. `component::midea::entity::sensor::wash_progress::state::hi_speed_spin`
 
 **Engelska:** High Speed Spinning
@@ -1290,17 +1287,17 @@ Uppdatera följande automationer och skript:
 
 **Engelska:** Underwear
 
-**Befintlig svenska:** Vattenläge: underkläder
+**Befintlig svenska:** Underkläder
 
-**Förslag:** Underkläder
+**Livekontroll, redan sparat:** Underkläder
 
 ## 7661. `component::midea::entity::sensor::wash_program::state::water_steep`
 
 **Engelska:** Soak wash
 
-**Befintlig svenska:** Vattenläge: blötläggning
+**Befintlig svenska:** Blötläggningstvätt
 
-**Förslag:** Blötläggningstvätt
+**Livekontroll, redan sparat:** Blötläggningstvätt
 
 ## 7662. `component::midea::entity::sensor::wash_program::state::water_ssp`
 
@@ -1314,9 +1311,9 @@ Uppdatera följande automationer och skript:
 
 **Engelska:** Mite removal
 
-**Befintlig svenska:** Vattenläge: kvalstertvätt
+**Befintlig svenska:** Kvalstertvätt
 
-**Förslag:** Kvalstertvätt
+**Livekontroll, redan sparat:** Kvalstertvätt
 
 ## 7664. `component::midea::entity::sensor::wash_program::state::water_prevent_allergy`
 
@@ -1338,9 +1335,9 @@ Uppdatera följande automationer och skript:
 
 **Engelska:** Mixed wash
 
-**Befintlig svenska:** Vattenläge: blandad tvätt
+**Befintlig svenska:** Blandad tvätt
 
-**Förslag:** Blandad tvätt
+**Livekontroll, redan sparat:** Blandad tvätt
 
 ## 7667. `component::midea::entity::sensor::wash_program::state::water_kids`
 
@@ -1362,17 +1359,17 @@ Uppdatera följande automationer och skript:
 
 **Engelska:** Smart wash
 
-**Befintlig svenska:** Vattenläge: intelligent
+**Befintlig svenska:** Smart tvätt
 
-**Förslag:** Smart tvätt
+**Livekontroll, redan sparat:** Smart tvätt
 
 ## 7670. `component::midea::entity::sensor::wash_program::state::water_fiber`
 
 **Engelska:** Synthetics
 
-**Befintlig svenska:** Vattenläge: fiber
+**Befintlig svenska:** Syntet
 
-**Förslag:** Syntet
+**Livekontroll, redan sparat:** Syntet
 
 ## 7671. `component::midea::entity::sensor::wash_program::state::water_fast_wash_30`
 
@@ -1386,9 +1383,9 @@ Uppdatera följande automationer och skript:
 
 **Engelska:** Energy saving
 
-**Befintlig svenska:** Vattenläge: eko
+**Befintlig svenska:** Energibesparing
 
-**Förslag:** Energibesparing
+**Livekontroll, redan sparat:** Energibesparing
 
 ## 7673. `component::midea::entity::sensor::wash_program::state::water_cotton`
 
@@ -1402,17 +1399,17 @@ Uppdatera följande automationer och skript:
 
 **Engelska:** Cold wash
 
-**Befintlig svenska:** Vattenläge: kalltvätt
+**Befintlig svenska:** Kalltvätt
 
-**Förslag:** Kalltvätt
+**Livekontroll, redan sparat:** Kalltvätt
 
 ## 7675. `component::midea::entity::sensor::wash_program::state::wash_drying_60`
 
 **Engelska:** Wash and dry 60 min
 
-**Befintlig svenska:** Tvätta och torka 60
+**Befintlig svenska:** Tvätt och torkning 60 min
 
-**Förslag:** Tvätt och torkning 60 min
+**Livekontroll, redan sparat:** Tvätt och torkning 60 min
 
 ## 7676. `component::midea::entity::sensor::wash_program::state::wash_and_dry`
 
@@ -1498,9 +1495,9 @@ Uppdatera följande automationer och skript:
 
 **Engelska:** Spring autumn wash
 
-**Befintlig svenska:** Vår och höst-tvätt
+**Befintlig svenska:** Vår- och hösttvätt
 
-**Förslag:** Vår- och hösttvätt
+**Livekontroll, redan sparat:** Vår- och hösttvätt
 
 ## 7687. `component::midea::entity::sensor::wash_program::state::sport_clothes`
 
@@ -1634,9 +1631,9 @@ Uppdatera följande automationer och skript:
 
 **Engelska:** Cotton and linen
 
-**Befintlig svenska:** Bomull med nytt vatten
+**Befintlig svenska:** Bomull och linne
 
-**Förslag:** Bomull och linne
+**Livekontroll, redan sparat:** Bomull och linne
 
 ## 7704. `component::midea::entity::sensor::wash_program::state::new_clothes_wash`
 
@@ -1714,9 +1711,9 @@ Uppdatera följande automationer och skript:
 
 **Engelska:** Outdoor jackets
 
-**Befintlig svenska:** Jacka
+**Befintlig svenska:** Friluftsjackor
 
-**Förslag:** Friluftsjackor
+**Livekontroll, redan sparat:** Friluftsjackor
 
 ## 7714. `component::midea::entity::sensor::wash_program::state::intelligent`
 
@@ -1778,9 +1775,9 @@ Uppdatera följande automationer och skript:
 
 **Engelska:** Synthetics
 
-**Befintlig svenska:** Fiber
+**Befintlig svenska:** Syntet
 
-**Förslag:** Syntet
+**Livekontroll, redan sparat:** Syntet
 
 ## 7722. `component::midea::entity::sensor::wash_program::state::fast_wash_min`
 
@@ -1794,17 +1791,17 @@ Uppdatera följande automationer och skript:
 
 **Engelska:** Quick wash 60 min
 
-**Befintlig svenska:** Snabbtvätt 60
+**Befintlig svenska:** Snabbtvätt 60 min
 
-**Förslag:** Snabbtvätt 60 min
+**Livekontroll, redan sparat:** Snabbtvätt 60 min
 
 ## 7724. `component::midea::entity::sensor::wash_program::state::fast_wash_30`
 
 **Engelska:** Quick wash 30 min
 
-**Befintlig svenska:** Snabbtvätt 30
+**Befintlig svenska:** Snabbtvätt 30 min
 
-**Förslag:** Snabbtvätt 30 min
+**Livekontroll, redan sparat:** Snabbtvätt 30 min
 
 ## 7725. `component::midea::entity::sensor::wash_program::state::fast_wash`
 
@@ -1874,7 +1871,7 @@ Uppdatera följande automationer och skript:
 
 **Engelska:** DIY 2
 
-**Befintlig svenska:** Gör det själv 2
+**Befintlig svenska:** Gör-det-själv 2
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1890,17 +1887,17 @@ Uppdatera följande automationer och skript:
 
 **Engelska:** Spin min
 
-**Befintlig svenska:** Uttorkning min
+**Befintlig svenska:** Centrifugering min
 
-**Förslag:** Centrifugering min
+**Livekontroll, redan sparat:** Centrifugering min
 
 ## 7736. `component::midea::entity::sensor::wash_program::state::cotton`
 
 **Engelska:** Cotton and linen
 
-**Befintlig svenska:** Bomull
+**Befintlig svenska:** Bomull och linne
 
-**Förslag:** Bomull och linne
+**Livekontroll, redan sparat:** Bomull och linne
 
 ## 7737. `component::midea::entity::sensor::wash_program::state::cook_wash`
 
@@ -1933,3 +1930,32 @@ Uppdatera följande automationer och skript:
 **Befintlig svenska:** Barn
 
 **Bedömning:** Ingen ändring föreslås.
+## Livegranskning 2026-11-24
+
+
+Alla 240 poster radgranskades mot aktuell källtext och livevärden. 27 referensanvändningar med 17 unika mål verifierades; två avvikelser rättades, och efter skrivningarna återstår noll. Tre textvärden ändrades i Lokalise och återlästes med API. Tjugo rekommendationer i den äldre rapporten matchade redan aktuella livevärden och skrevs inte igen.
+
+
+### Nya ändringar sparade i Lokalise
+
+
+| Fullständig nyckel | Före livevärde | Sparad svenska | Skäl |
+| --- | --- | --- | --- |
+| `component::midea::entity::sensor::water_level::state::auto` | `Automatisk` | `Auto` | Matchar `common::state::auto` i samma Home Assistant-katalog. |
+| `component::midea::entity::sensor::wash_progress::state::idle` | `Väntar` | `Inaktiv` | Matchar `common::state::idle` i samma Home Assistant-katalog. |
+| `component::neopool::entity::select::cell_boost::name` | `Boost-läge` | `Boostläge` | Svensk sammansättning skrivs ihop; sammansättningskontroll delar upp `Boostläge` i `boost + läge`. |
+
+### Kontroller och kvarstående punkter
+
+
+- Källtexten för två UniFi Protect-varningar hade utökats efter rapportens ögonblicksbild. Fullständig svensk text med `{items}` verifierades; båda posterna synkades till TM.
+
+- Platshållare för alla 240 batchposter matchar mellan aktuell källa och svensk text; inga saknade eller extra fält. Ingen pluralpost finns i batchen.
+
+- 17 unika referensmål finns; efter rättning är skillnaden 0 av 27 användningar.
+
+- svlang naturlighet för ändringsurvalet: 10/10. svlang stavnings-/sammansättningskontroll delade `Boostläge` i `boost + läge`; hunspell flaggade `Auto` och `Boostläge`, manuellt bedömda som korrekta i läges-/produktkontext.
+
+- Home Assistant Core TM exporterades och validerades: 75 556 nycklar, 75 558 segment, 42 621 unika språkpar.
+
+- Osäkra fall i batchen: inga öppna. Nästa rapporterade batch börjar vid 7741.
