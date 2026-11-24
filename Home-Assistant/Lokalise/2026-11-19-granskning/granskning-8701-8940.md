@@ -10,23 +10,27 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8702. `component::youtube::config_subentries::channel::abort::access_not_configured`
 
 **Engelska:** [%key:component::youtube::config::abort::access_not_configured%]
 
-**Befintlig svenska:** Läs meddelandet nedan som vi fick från Google:
+**Befintlig svenska:** Läs meddelandet nedan från Google:
 
 {message}
 
 **Kontextkontroll:** Kontrollera referensmålet `component::youtube::config::abort::access_not_configured`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 8703. `component::zonneplan::exceptions::battery_not_found::message`
 
 **Engelska:** The Zonneplan API returned no data for the home battery
 
-**Befintlig svenska:** Zonneplan API returnerade inga data för hembatteriet.
+**Befintlig svenska:** Zonneplan-API:t returnerade inga data för hembatteriet.
 
-**Förslag:** Zonneplan-API:t returnerade inga data för hembatteriet.
+**Bedömning:** Förslaget finns redan i Lokalise; ingen ny skrivning behövdes.
 
 ## 8704. `component::zonneplan::entity::binary_sensor::home_optimization_active::name`
 
@@ -36,6 +40,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8705. `component::zonneplan::entity::binary_sensor::grid_congestion_active::name`
 
 **Engelska:** Grid congestion
@@ -43,6 +49,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Nätöverbelastning
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8706. `component::zonneplan::entity::binary_sensor::dynamic_load_balancing_overload_active::name`
 
@@ -52,6 +60,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8707. `component::zonneplan::entity::binary_sensor::backup_power_active::name`
 
 **Engelska:** Backup power active
@@ -59,6 +69,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Reservkraft aktiv
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8708. `component::wattwaechter::entity::sensor::reactive_power_import::name`
 
@@ -68,6 +80,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8709. `component::wattwaechter::entity::sensor::reactive_power_export::name`
 
 **Engelska:** Reactive power feed-in
@@ -75,6 +89,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Inmatad reaktiv effekt
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8710. `component::wattwaechter::entity::sensor::reactive_energy_quadrant_4::name`
 
@@ -84,6 +100,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8711. `component::wattwaechter::entity::sensor::reactive_energy_quadrant_3::name`
 
 **Engelska:** Reactive energy quadrant III
@@ -91,6 +109,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Kvadrant III för reaktiv energi
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8712. `component::wattwaechter::entity::sensor::reactive_energy_quadrant_2::name`
 
@@ -100,6 +120,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8713. `component::wattwaechter::entity::sensor::reactive_energy_quadrant_1::name`
 
 **Engelska:** Reactive energy quadrant I
@@ -107,6 +129,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Kvadrant I för reaktiv energi
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8714. `component::wattwaechter::entity::sensor::reactive_energy_import::name`
 
@@ -116,6 +140,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8715. `component::wattwaechter::entity::sensor::reactive_energy_export::name`
 
 **Engelska:** Reactive energy feed-in
@@ -123,6 +149,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Inmatad reaktiv energi
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8716. `component::wattwaechter::entity::sensor::maximum_demand::name`
 
@@ -132,6 +160,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8717. `component::wattwaechter::entity::sensor::apparent_power_import::name`
 
 **Engelska:** Apparent power consumption
@@ -139,6 +169,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Förbrukning av skenbar effekt
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8718. `component::wattwaechter::entity::sensor::apparent_power_export::name`
 
@@ -148,6 +180,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8719. `component::wattwaechter::entity::sensor::active_power_import::name`
 
 **Engelska:** Power consumption
@@ -155,6 +189,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Effektförbrukning
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8720. `component::wattwaechter::entity::sensor::active_power_export::name`
 
@@ -164,6 +200,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8721. `component::wattwaechter::entity::sensor::absolute_power::name`
 
 **Engelska:** Absolute power
@@ -171,6 +209,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Absolut effekt
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8722. `component::wattwaechter::entity::sensor::absolute_energy::name`
 
@@ -180,6 +220,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8723. `component::flow_it::entity::sensor::temperature_out::name`
 
 **Engelska:** Outdoor air temperature
@@ -187,6 +229,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Utomhusluftens temperatur
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8724. `component::flow_it::entity::sensor::temperature_in::name`
 
@@ -196,6 +240,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8725. `component::flow_it::entity::sensor::pressure_out::name`
 
 **Engelska:** Outdoor air pressure
@@ -203,6 +249,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Utomhusluftens tryck
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8726. `component::flow_it::entity::sensor::pressure_in::name`
 
@@ -212,6 +260,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8727. `component::flow_it::entity::sensor::iaq::name`
 
 **Engelska:** Indoor air quality
@@ -219,6 +269,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Inomhusluftens kvalitet
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8728. `component::flow_it::entity::sensor::humidity_out::name`
 
@@ -228,6 +280,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8729. `component::flow_it::entity::sensor::humidity_in::name`
 
 **Engelska:** Indoor air humidity
@@ -235,6 +289,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Inomhusluftens fuktighet
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8730. `component::flow_it::entity::sensor::hepa_filter_status::state::dirty_75`
 
@@ -244,6 +300,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8731. `component::flow_it::entity::sensor::hepa_filter_status::state::dirty_50`
 
 **Engelska:** 50%
@@ -251,6 +309,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** 50 %
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8732. `component::flow_it::entity::sensor::hepa_filter_status::state::dirty_25`
 
@@ -260,6 +320,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8733. `component::flow_it::entity::sensor::hepa_filter_status::state::dirty_0`
 
 **Engelska:** 0%
@@ -267,6 +329,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** 0 %
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8734. `component::flow_it::entity::sensor::hepa_filter_status::state::clean`
 
@@ -276,6 +340,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8735. `component::flow_it::entity::sensor::hepa_filter_status::name`
 
 **Engelska:** HEPA filter status
@@ -283,6 +349,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Status för HEPA-filter
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8736. `component::flow_it::entity::sensor::g4_filter_status::state::dirty_75`
 
@@ -292,6 +360,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8737. `component::flow_it::entity::sensor::g4_filter_status::state::dirty_50`
 
 **Engelska:** [%key:component::flow_it::entity::sensor::hepa_filter_status::state::dirty_50%]
@@ -299,6 +369,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** 50 %
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8738. `component::flow_it::entity::sensor::g4_filter_status::state::dirty_25`
 
@@ -308,6 +380,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8739. `component::flow_it::entity::sensor::g4_filter_status::state::dirty_0`
 
 **Engelska:** [%key:component::flow_it::entity::sensor::hepa_filter_status::state::dirty_0%]
@@ -315,6 +389,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** 0 %
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8740. `component::flow_it::entity::sensor::g4_filter_status::state::clean`
 
@@ -324,6 +400,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8741. `component::flow_it::entity::sensor::g4_filter_status::name`
 
 **Engelska:** G4 filter status
@@ -331,6 +409,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Status för G4-filter
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8742. `component::imou::exceptions::alarm_arm_disarm_failed::message`
 
@@ -340,6 +420,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8743. `component::threema::config::step::reauth_confirm::title`
 
 **Engelska:** Re-authenticate Threema
@@ -347,6 +429,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Återautentisera Threema
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8744. `component::threema::config::step::reauth_confirm::description`
 
@@ -356,6 +440,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8745. `component::threema::config::step::reauth_confirm::data_description::api_secret`
 
 **Engelska:** New secret for your Threema Gateway {gateway_id}
@@ -363,6 +449,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Ny hemlighet för Threema Gateway {gateway_id}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8746. `component::threema::config::step::reauth_confirm::data::api_secret`
 
@@ -372,13 +460,17 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Kontextkontroll:** Kontrollera referensmålet `component::threema::config::step::credentials::data::api_secret`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 8747. `component::threema::config::abort::reauth_successful`
 
 **Engelska:** [%key:common::config_flow::abort::reauth_successful%]
 
-**Befintlig svenska:** Återautentiseringen lyckades
+**Befintlig svenska:** Återautentisering lyckades
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::abort::reauth_successful`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 8748. `component::nanoleaf::entity::event::touch::state_attributes::event_type::state::single_tap`
 
@@ -388,6 +480,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8749. `component::nanoleaf::entity::event::touch::state_attributes::event_type::state::double_tap`
 
 **Engelska:** Double tap
@@ -396,21 +490,27 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8750. `component::nanoleaf::device_automation::trigger_type::single_tap`
 
-**Engelska:** [%key:component::nanoleaf::entity::event::touch::state_attributes::event_type::state::single_tap%]
+**Engelska:** Single tap
 
 **Befintlig svenska:** Enkeltryck
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8751. `component::nanoleaf::device_automation::trigger_type::double_tap`
 
-**Engelska:** [%key:component::nanoleaf::entity::event::touch::state_attributes::event_type::state::double_tap%]
+**Engelska:** Double tap
 
 **Befintlig svenska:** Dubbeltryck
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8752. `component::marketplace::title`
 
@@ -420,6 +520,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8753. `component::marketplace::system_health::info::stage`
 
 **Engelska:** Stage
@@ -427,6 +529,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Fas
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8754. `component::marketplace::system_health::info::installed_version`
 
@@ -436,6 +540,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8755. `component::marketplace::system_health::info::installed_repositories`
 
 **Engelska:** Installed repositories
@@ -443,6 +549,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Installerade arkiv
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8756. `component::marketplace::system_health::info::github_web`
 
@@ -452,6 +560,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8757. `component::marketplace::system_health::info::github_content`
 
 **Engelska:** GitHub content reachable
@@ -459,6 +569,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** GitHub-innehåll kan nås
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8758. `component::marketplace::system_health::info::github_connected`
 
@@ -468,21 +580,23 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8759. `component::marketplace::system_health::info::github_api_calls_remaining`
 
 **Engelska:** GitHub API calls remaining
 
-**Befintlig svenska:** Återstående GitHub API-anrop
+**Befintlig svenska:** Återstående GitHub-API-anrop
 
-**Förslag:** Återstående GitHub-API-anrop
+**Bedömning:** Förslaget finns redan i Lokalise; ingen ny skrivning behövdes.
 
 ## 8760. `component::marketplace::system_health::info::github_api`
 
 **Engelska:** GitHub API reachable
 
-**Befintlig svenska:** GitHub API kan nås
+**Befintlig svenska:** GitHub-API:t kan nås
 
-**Förslag:** GitHub-API:t kan nås
+**Bedömning:** Förslaget finns redan i Lokalise; ingen ny skrivning behövdes.
 
 ## 8761. `component::marketplace::system_health::info::disabled`
 
@@ -492,6 +606,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8762. `component::marketplace::system_health::info::catalog_data`
 
 **Engelska:** Catalog reachable
@@ -499,6 +615,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Katalogen kan nås
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8763. `component::marketplace::system_health::info::available_repositories`
 
@@ -508,6 +626,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8764. `component::marketplace::issues::restart_required_uninstall::title`
 
 **Engelska:** Restart required for {name}
@@ -515,6 +635,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Omstart krävs för {name}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8765. `component::marketplace::issues::restart_required_uninstall::fix_flow::step::confirm_restart::title`
 
@@ -524,6 +646,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8766. `component::marketplace::issues::restart_required_uninstall::fix_flow::step::confirm_restart::description`
 
 **Engelska:** Restart Home Assistant to finish uninstalling {name}. It is not fully removed until then.
@@ -531,6 +655,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Starta om Home Assistant för att slutföra avinstallationen av {name}. Det tas inte bort helt förrän då.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8767. `component::marketplace::issues::restart_required::title`
 
@@ -540,6 +666,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8768. `component::marketplace::issues::restart_required::fix_flow::step::confirm_restart::title`
 
 **Engelska:** Restart required for {name}
@@ -547,6 +675,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Omstart krävs för {name}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8769. `component::marketplace::issues::restart_required::fix_flow::step::confirm_restart::description`
 
@@ -556,6 +686,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8770. `component::marketplace::issues::removed_without_reason::title`
 
 **Engelska:** Repository removed from the catalog
@@ -563,6 +695,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Arkiv har tagits bort från katalogen
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8771. `component::marketplace::issues::removed_without_reason::description`
 
@@ -576,6 +710,8 @@ Avinstallera det från dess [sida i Marketplace](/marketplace/repository/{reposi
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8772. `component::marketplace::issues::removed::title`
 
 **Engelska:** Repository removed from the catalog
@@ -583,6 +719,8 @@ Avinstallera det från dess [sida i Marketplace](/marketplace/repository/{reposi
 **Befintlig svenska:** Arkiv har tagits bort från katalogen
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8773. `component::marketplace::issues::removed::description`
 
@@ -600,6 +738,8 @@ Avinstallera det från dess [sida i Marketplace](/marketplace/repository/{reposi
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8774. `component::marketplace::issues::python_scripts_not_supported::title`
 
 **Engelska:** Python scripts are no longer managed by the Marketplace
@@ -608,19 +748,19 @@ Avinstallera det från dess [sida i Marketplace](/marketplace/repository/{reposi
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8775. `component::marketplace::issues::python_scripts_not_supported::description`
 
 **Engelska:** The Marketplace no longer manages Python scripts. The scripts it installed stay in place and the Python scripts integration keeps running them: {scripts}.
 
 Updates for these scripts no longer come from the Marketplace. Keep them up to date yourself, outside of the Marketplace.
 
-**Befintlig svenska:** Marketplace hanterar inte längre Python-skript. Skript som Marketplace har installerat ligger kvar och Python-skriptintegrationen fortsätter att köra dem: {scripts}.
+**Befintlig svenska:** Marketplace hanterar inte längre Python-skript. Skript som Marketplace har installerat ligger kvar och integrationen för Python-skript fortsätter att köra dem: {scripts}.
 
 Uppdateringar för dessa skript kommer inte längre från Marketplace. Håll dem uppdaterade själv utanför Marketplace.
 
-**Förslag:** Marketplace hanterar inte längre Python-skript. Skript som Marketplace har installerat ligger kvar och integreringen för Python-skript fortsätter att köra dem: {scripts}.
-
-Uppdateringar för dessa skript kommer inte längre från Marketplace. Håll dem uppdaterade själv utanför Marketplace.
+**Bedömning:** Det äldre förslaget avförs. Här avser `integration` en HA-komponent; `integrering` betyder själva processen. Befintlig liveform behålls.
 
 ## 8776. `component::marketplace::issues::legacy_dashboard_resources::title`
 
@@ -629,6 +769,8 @@ Uppdateringar för dessa skript kommer inte längre från Marketplace. Håll dem
 **Befintlig svenska:** Resurser för instrumentpanelen använder en gammal sökväg
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8777. `component::marketplace::issues::legacy_dashboard_resources::description`
 
@@ -642,6 +784,8 @@ Uppdateringar för dessa skript kommer inte längre från Marketplace. Håll dem
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8778. `component::marketplace::issues::critical_repository::title`
 
 **Engelska:** {repository} was removed because it is marked as critical
@@ -650,6 +794,8 @@ Uppdateringar för dessa skript kommer inte längre från Marketplace. Håll dem
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8779. `component::marketplace::issues::critical_repository::fix_flow::step::confirm::title`
 
 **Engelska:** {repository} was removed
@@ -657,6 +803,8 @@ Uppdateringar för dessa skript kommer inte längre från Marketplace. Håll dem
 **Befintlig svenska:** {repository} har tagits bort
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8780. `component::marketplace::issues::critical_repository::fix_flow::step::confirm::description`
 
@@ -674,6 +822,8 @@ Kontrollera om något som var beroende av {repository} behöver din uppmärksamh
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8781. `component::marketplace::issues::appdaemon_not_supported::title`
 
 **Engelska:** AppDaemon apps are no longer managed by the Marketplace
@@ -681,6 +831,8 @@ Kontrollera om något som var beroende av {repository} behöver din uppmärksamh
 **Befintlig svenska:** AppDaemon-appar hanteras inte längre av Marketplace
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8782. `component::marketplace::issues::appdaemon_not_supported::description`
 
@@ -694,6 +846,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8783. `component::marketplace::exceptions::warning_not_accepted::message`
 
 **Engelska:** Open the Marketplace and read the warning first, installing and updating work once it is accepted.
@@ -701,6 +855,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Öppna Marketplace och läs varningen först. Installation och uppdatering fungerar när du har godkänt den.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8784. `component::marketplace::exceptions::version_without_repository_manifest::message`
 
@@ -710,6 +866,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8785. `component::marketplace::exceptions::version_without_files::message`
 
 **Engelska:** Version {version} has no files.
@@ -717,6 +875,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Version {version} saknar filer.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8786. `component::marketplace::exceptions::version_unknown::message`
 
@@ -726,6 +886,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8787. `component::marketplace::exceptions::version_already_installed::message`
 
 **Engelska:** Version {version} of {repository} is already installed.
@@ -733,6 +895,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Version {version} av {repository} är redan installerad.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8788. `component::marketplace::exceptions::validation_failed::message`
 
@@ -742,6 +906,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8789. `component::marketplace::exceptions::uninstall_failed::message`
 
 **Engelska:** Could not uninstall {repository}. Check the Home Assistant logs for details.
@@ -749,6 +915,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Kunde inte avinstallera {repository}. Mer information finns i Home Assistant-loggarna.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8790. `component::marketplace::exceptions::theme_owned::message`
 
@@ -758,6 +926,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8791. `component::marketplace::exceptions::theme_invalid_yaml::message`
 
 **Engelska:** {file} is not valid YAML: {error}
@@ -765,6 +935,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** {file} innehåller inte giltig YAML: {error}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8792. `component::marketplace::exceptions::theme_invalid::message`
 
@@ -774,6 +946,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8793. `component::marketplace::exceptions::template_too_large::message`
 
 **Engelska:** {file} is larger than the {limit} bytes Home Assistant reads.
@@ -781,6 +955,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** {file} är större än de {limit} byte som Home Assistant läser.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8794. `component::marketplace::exceptions::template_owned::message`
 
@@ -790,6 +966,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8795. `component::marketplace::exceptions::template_not_utf8::message`
 
 **Engelska:** {file} is not UTF-8 encoded.
@@ -797,6 +975,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** {file} är inte UTF-8-kodad.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8796. `component::marketplace::exceptions::template_from_zip::message`
 
@@ -806,6 +986,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8797. `component::marketplace::exceptions::structure_not_compliant::message`
 
 **Engelska:** {repository} has no content the Marketplace can install in version {version}.
@@ -813,6 +995,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** {repository} saknar innehåll som Marketplace kan installera i version {version}.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8798. `component::marketplace::exceptions::setup_failed::message`
 
@@ -822,6 +1006,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8799. `component::marketplace::exceptions::restore_failed::message`
 
 **Engelska:** Could not read the stored data of the Marketplace.
@@ -829,6 +1015,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Kunde inte läsa Marketplaces sparade data.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8800. `component::marketplace::exceptions::requires_newer_home_assistant::message`
 
@@ -838,6 +1026,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8801. `component::marketplace::exceptions::repository_still_installed::message`
 
 **Engelska:** Cannot remove the service for {repository}, it is still installed.
@@ -845,6 +1035,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Kan inte ta bort tjänsten för {repository} eftersom den fortfarande är installerad.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8802. `component::marketplace::exceptions::repository_skipped::message`
 
@@ -854,6 +1046,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8803. `component::marketplace::exceptions::repository_removed::message`
 
 **Engelska:** {repository} was removed from the catalog.
@@ -861,6 +1055,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** {repository} har tagits bort från katalogen.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8804. `component::marketplace::exceptions::repository_not_installed::message`
 
@@ -870,6 +1066,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8805. `component::marketplace::exceptions::repository_not_found::message`
 
 **Engelska:** The Marketplace does not know the repository with ID {repository}.
@@ -877,6 +1075,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Marketplace känner inte till arkivet med ID:t {repository}.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8806. `component::marketplace::exceptions::repository_manifest_not_in_root::message`
 
@@ -886,6 +1086,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8807. `component::marketplace::exceptions::repository_installed::message`
 
 **Engelska:** Uninstall {repository} first.
@@ -893,6 +1095,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Avinstallera först {repository}.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8808. `component::marketplace::exceptions::repository_in_use::message`
 
@@ -902,6 +1106,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8809. `component::marketplace::exceptions::repository_exists::message`
 
 **Engelska:** {repository} is already in the Marketplace.
@@ -909,6 +1115,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** {repository} finns redan i Marketplace.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8810. `component::marketplace::exceptions::repository_busy::message`
 
@@ -918,6 +1126,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8811. `component::marketplace::exceptions::repository_archived::message`
 
 **Engelska:** {repository} is archived.
@@ -926,13 +1136,15 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8812. `component::marketplace::exceptions::replaces_built_in_not_confirmed::message`
 
 **Engelska:** {repository} replaces the built-in {domain} integration, confirm that before installing it.
 
-**Befintlig svenska:** {repository} ersätter den inbyggda integrationen {domain}. Bekräfta det innan du installerar den.
+**Befintlig svenska:** {repository} ersätter den inbyggda integrationen {domain}. Bekräfta det innan du installerar arkivet.
 
-**Förslag:** {repository} ersätter den inbyggda integreringen {domain}. Bekräfta det innan du installerar arkivet.
+**Bedömning:** Det äldre förslaget avförs. Här avser `integration` en HA-komponent; `integrering` betyder själva processen. Befintlig liveform behålls.
 
 ## 8813. `component::marketplace::exceptions::releases_failed::message`
 
@@ -942,6 +1154,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8814. `component::marketplace::exceptions::release_too_large::message`
 
 **Engelska:** The release assets of {version} are larger than the {limit} byte limit.
@@ -949,6 +1163,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Resurserna i utgåvan {version} är större än gränsen på {limit} byte.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8815. `component::marketplace::exceptions::refresh_failed::message`
 
@@ -958,6 +1174,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8816. `component::marketplace::exceptions::rate_limited::message`
 
 **Engelska:** GitHub limits how often the Marketplace can reach it. Try again later.
@@ -965,6 +1183,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** GitHub begränsar hur ofta Marketplace kan nå tjänsten. Försök igen senare.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8817. `component::marketplace::exceptions::post_install_failed::message`
 
@@ -974,6 +1194,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8818. `component::marketplace::exceptions::plugin_owned::message`
 
 **Engelska:** The {directory} directory belongs to {owner}.
@@ -981,6 +1203,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Katalogen {directory} tillhör {owner}.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8819. `component::marketplace::exceptions::persistent_directory_invalid::message`
 
@@ -990,6 +1214,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8820. `component::marketplace::exceptions::path_outside_directory::message`
 
 **Engelska:** {path} is not inside {directory}.
@@ -997,6 +1223,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** {path} ligger inte i {directory}.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8821. `component::marketplace::exceptions::not_modified::message`
 
@@ -1006,6 +1234,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8822. `component::marketplace::exceptions::not_loaded::message`
 
 **Engelska:** The Marketplace is not loaded.
@@ -1013,6 +1243,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Marketplace är inte inläst.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8823. `component::marketplace::exceptions::not_installable::message`
 
@@ -1022,6 +1254,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8824. `component::marketplace::exceptions::invalid_version::message`
 
 **Engelska:** {version} is not a version the Marketplace can install.
@@ -1029,6 +1263,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** {version} är ingen version som Marketplace kan installera.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8825. `component::marketplace::exceptions::invalid_token::message`
 
@@ -1038,6 +1274,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8826. `component::marketplace::exceptions::invalid_repository::message`
 
 **Engelska:** Could not read a GitHub repository from {repository}.
@@ -1045,6 +1283,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Kunde inte läsa ett GitHub-arkiv från {repository}.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8827. `component::marketplace::exceptions::invalid_domain::message`
 
@@ -1054,6 +1294,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8828. `component::marketplace::exceptions::invalid_category::message`
 
 **Engelska:** Repositories cannot be added to the {category} category.
@@ -1061,6 +1303,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Arkiv kan inte läggas till i kategorin {category}.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8829. `component::marketplace::exceptions::integration_owned::message`
 
@@ -1070,6 +1314,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8830. `component::marketplace::exceptions::integration_manifest_missing::message`
 
 **Engelska:** There is no manifest.json at {path}.
@@ -1077,6 +1323,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Det finns ingen manifest.json på {path}.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8831. `component::marketplace::exceptions::integration_manifest_key_missing::message`
 
@@ -1086,6 +1334,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8832. `component::marketplace::exceptions::installed_resource_missing::message`
 
 **Engelska:** The installed content has no {file}.
@@ -1094,13 +1344,15 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8833. `component::marketplace::exceptions::installed_manifest_without_version::message`
 
 **Engelska:** The manifest.json of the installed content has no valid version, Home Assistant would not load it.
 
-**Befintlig svenska:** manifest.json för det installerade innehållet saknar en giltig version. Home Assistant skulle inte läsa in den.
+**Befintlig svenska:** manifest.json för det installerade innehållet saknar en giltig version. Home Assistant skulle inte läsa in innehållet.
 
-**Förslag:** manifest.json för det installerade innehållet saknar en giltig version. Home Assistant skulle inte läsa in innehållet.
+**Bedömning:** Förslaget finns redan i Lokalise; ingen ny skrivning behövdes.
 
 ## 8834. `component::marketplace::exceptions::installed_manifest_unusable::message`
 
@@ -1110,6 +1362,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8835. `component::marketplace::exceptions::installed_manifest_other_domain::message`
 
 **Engelska:** The manifest.json of the installed content is for {found}, not {domain}.
@@ -1117,6 +1371,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** manifest.json för det installerade innehållet gäller {found}, inte {domain}.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8836. `component::marketplace::exceptions::install_version_failed::message`
 
@@ -1126,6 +1382,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8837. `component::marketplace::exceptions::install_failed::message`
 
 **Engelska:** Installing {repository} failed: {error}
@@ -1133,6 +1391,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Installationen av {repository} misslyckades: {error}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8838. `component::marketplace::exceptions::install_checks_failed::message`
 
@@ -1142,6 +1402,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8839. `component::marketplace::exceptions::github_rate_limited::message`
 
 **Engelska:** GitHub limits how often the Marketplace can reach it without a GitHub connection. Try again later, or connect GitHub in the Marketplace for a higher limit.
@@ -1149,6 +1411,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** GitHub begränsar hur ofta Marketplace kan nå tjänsten utan en GitHub-anslutning. Försök igen senare eller anslut GitHub i Marketplace för en högre gräns.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8840. `component::marketplace::exceptions::github_not_connected::message`
 
@@ -1158,6 +1422,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8841. `component::marketplace::exceptions::github_failed::message`
 
 **Engelska:** GitHub answered with an error: {error}
@@ -1165,6 +1431,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** GitHub svarade med ett fel: {error}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8842. `component::marketplace::exceptions::file_not_downloaded::message`
 
@@ -1174,6 +1442,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8843. `component::marketplace::exceptions::download_too_large::message`
 
 **Engelska:** {url} is larger than the {limit} byte limit.
@@ -1181,6 +1451,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** {url} är större än gränsen på {limit} byte.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8844. `component::marketplace::exceptions::download_incomplete::message`
 
@@ -1190,13 +1462,15 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8845. `component::marketplace::exceptions::domain_changed::message`
 
 **Engelska:** {repository} changed its domain from {old_domain} to {domain}, uninstall it and install it again.
 
-**Befintlig svenska:** {repository} har ändrat domän från {old_domain} till {domain}. Avinstallera den och installera den igen.
+**Befintlig svenska:** {repository} har ändrat domän från {old_domain} till {domain}. Avinstallera arkivet och installera det igen.
 
-**Förslag:** {repository} har ändrat domän från {old_domain} till {domain}. Avinstallera arkivet och installera det igen.
+**Bedömning:** Förslaget finns redan i Lokalise; ingen ny skrivning behövdes.
 
 ## 8846. `component::marketplace::exceptions::disabled_removed::message`
 
@@ -1206,6 +1480,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8847. `component::marketplace::exceptions::disabled_rate_limit::message`
 
 **Engelska:** GitHub limits how often the Marketplace can reach it. The Marketplace starts again once the limit resets.
@@ -1213,6 +1489,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** GitHub begränsar hur ofta Marketplace kan nå tjänsten. Marketplace startar igen när gränsen återställs.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8848. `component::marketplace::exceptions::device_without_a_repository::message`
 
@@ -1222,6 +1500,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8849. `component::marketplace::exceptions::device_of_the_marketplace::message`
 
 **Engelska:** Cannot remove the service of the Marketplace itself.
@@ -1229,6 +1509,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Kan inte ta bort Marketplaces egen tjänst.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8850. `component::marketplace::exceptions::core_repository::message`
 
@@ -1238,6 +1520,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8851. `component::marketplace::exceptions::content_write_failed::message`
 
 **Engelska:** Could not write the downloaded content: {error}
@@ -1245,6 +1529,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Kunde inte skriva det hämtade innehållet: {error}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8852. `component::marketplace::exceptions::content_too_many_files::message`
 
@@ -1254,6 +1540,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8853. `component::marketplace::exceptions::content_over_limit::message`
 
 **Engelska:** {file} was not written, the content is over the limit of {limit} bytes.
@@ -1261,6 +1549,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** {file} skrevs inte eftersom innehållet överskrider gränsen på {limit} byte.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8854. `component::marketplace::exceptions::content_location_unknown::message`
 
@@ -1270,6 +1560,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8855. `component::marketplace::exceptions::content_file_missing::message`
 
 **Engelska:** The content has no {file}.
@@ -1277,6 +1569,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Innehållet saknar {file}.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8856. `component::marketplace::exceptions::content_empty::message`
 
@@ -1286,6 +1580,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8857. `component::marketplace::exceptions::catalog_zip_release::message`
 
 **Engelska:** A ZIP release can not be installed from the catalog.
@@ -1293,6 +1589,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** En ZIP-utgåva kan inte installeras från katalogen.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8858. `component::marketplace::exceptions::catalog_without_domain::message`
 
@@ -1302,6 +1600,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8859. `component::marketplace::exceptions::catalog_version_without_manifest::message`
 
 **Engelska:** Version {version} has no readable hacs.json.
@@ -1310,13 +1610,15 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8860. `component::marketplace::exceptions::catalog_version_without_assets::message`
 
 **Engelska:** Version {version} lists no assets.
 
-**Befintlig svenska:** Version {version} listar inga tillgångar.
+**Befintlig svenska:** Version {version} listar inga resurser.
 
-**Förslag:** Version {version} listar inga resurser.
+**Bedömning:** Förslaget finns redan i Lokalise; ingen ny skrivning behövdes.
 
 ## 8861. `component::marketplace::exceptions::catalog_unreachable::message`
 
@@ -1326,6 +1628,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8862. `component::marketplace::exceptions::catalog_timeout::message`
 
 **Engelska:** The catalog did not answer within 60 seconds.
@@ -1333,6 +1637,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Katalogen svarade inte inom 60 sekunder.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8863. `component::marketplace::exceptions::catalog_nothing_valid::message`
 
@@ -1342,6 +1648,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8864. `component::marketplace::exceptions::catalog_not_an_object::message`
 
 **Engelska:** The catalog of {section} is not an object.
@@ -1349,6 +1657,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Katalogen för {section} är inget objekt.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8865. `component::marketplace::exceptions::catalog_not_a_list::message`
 
@@ -1358,6 +1668,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8866. `component::marketplace::exceptions::catalog_manifest_unusable::message`
 
 **Engelska:** There is no usable {path} in the catalog version.
@@ -1365,6 +1677,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Det finns ingen användbar {path} i katalogversionen.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8867. `component::marketplace::exceptions::catalog_invalid_json::message`
 
@@ -1374,6 +1688,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8868. `component::marketplace::exceptions::catalog_content_unresolved::message`
 
 **Engelska:** The archive of the catalog version can not be installed as is: {error}
@@ -1381,6 +1697,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Arkivet för katalogversionen kan inte installeras i befintligt skick: {error}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8869. `component::marketplace::exceptions::backup_protected::message`
 
@@ -1390,6 +1708,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8870. `component::marketplace::exceptions::backup_failed::message`
 
 **Engelska:** Could not back up {path}: {error}
@@ -1398,13 +1718,15 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8871. `component::marketplace::exceptions::backup_cleanup_failed::message`
 
 **Engelska:** Installed, but could not remove the backup of the previous version, a restart would put it back: {error}
 
-**Befintlig svenska:** Installerades, men det gick inte att ta bort säkerhetskopian av den föregående versionen. En omstart återställer den: {error}
+**Befintlig svenska:** Installerades, men det gick inte att ta bort säkerhetskopian av den tidigare versionen. Om du startar om återställs den tidigare versionen: {error}
 
-**Bedömning:** Ingen ändring föreslås.
+**Bedömning:** Förtydligar vad som återställs vid omstart: den tidigare versionen, inte säkerhetskopian.
 
 ## 8872. `component::marketplace::exceptions::archive_without_content::message`
 
@@ -1414,6 +1736,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8873. `component::marketplace::exceptions::archive_too_many_files::message`
 
 **Engelska:** The archive holds {count} files, the limit is {limit}.
@@ -1421,6 +1745,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Arkivet innehåller {count} filer, men gränsen är {limit}.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8874. `component::marketplace::exceptions::archive_too_large::message`
 
@@ -1430,6 +1756,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8875. `component::marketplace::exceptions::archive_not_zip::message`
 
 **Engelska:** The download is not a ZIP archive: {error}
@@ -1437,6 +1765,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Hämtningen är inte ett ZIP-arkiv: {error}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8876. `component::marketplace::exceptions::archive_download_failed::message`
 
@@ -1446,6 +1776,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8877. `component::marketplace::exceptions::app_repository::message`
 
 **Engelska:** {repository} holds apps, the Marketplace does not install apps.
@@ -1453,6 +1785,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** {repository} innehåller appar. Marketplace installerar inte appar.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8878. `component::marketplace::exceptions::add_failed::message`
 
@@ -1462,6 +1796,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8879. `component::marketplace::entity::switch::pre-release::state::on`
 
 **Engelska:** Pre-releases preferred
@@ -1469,6 +1805,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Föredra förhandsutgåvor
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8880. `component::marketplace::entity::switch::pre-release::state::off`
 
@@ -1478,6 +1816,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8881. `component::marketplace::entity::switch::pre-release::name`
 
 **Engelska:** Pre-release
@@ -1485,6 +1825,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Förhandsutgåva
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8882. `component::marketplace::config::step::reconfigure::title`
 
@@ -1494,6 +1836,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8883. `component::marketplace::config::step::reconfigure::submit`
 
 **Engelska:** Continue
@@ -1501,6 +1845,8 @@ Uppdateringar för dessa appar kommer inte längre från Marketplace. Håll dem 
 **Befintlig svenska:** Fortsätt
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8884. `component::marketplace::config::step::reconfigure::description`
 
@@ -1514,6 +1860,8 @@ Därefter får du en kod att ange på GitHub. Du anger aldrig ditt GitHub-lösen
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8885. `component::marketplace::config::step::reauth_confirm::title`
 
 **Engelska:** Reconnect GitHub
@@ -1521,6 +1869,8 @@ Därefter får du en kod att ange på GitHub. Du anger aldrig ditt GitHub-lösen
 **Befintlig svenska:** Återanslut GitHub
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8886. `component::marketplace::config::step::reauth_confirm::description`
 
@@ -1530,6 +1880,8 @@ Därefter får du en kod att ange på GitHub. Du anger aldrig ditt GitHub-lösen
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8887. `component::marketplace::config::step::device::title`
 
 **Engelska:** Connect GitHub
@@ -1537,6 +1889,8 @@ Därefter får du en kod att ange på GitHub. Du anger aldrig ditt GitHub-lösen
 **Befintlig svenska:** Anslut GitHub
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8888. `component::marketplace::config::progress::wait_for_device`
 
@@ -1556,6 +1910,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8889. `component::marketplace::config::abort::single_instance_allowed`
 
 **Engelska:** Only a single configuration of the Marketplace is allowed.
@@ -1563,6 +1919,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 **Befintlig svenska:** Endast en konfiguration av Marketplace är tillåten.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8890. `component::marketplace::config::abort::could_not_register`
 
@@ -1572,6 +1930,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8891. `component::marketplace::config::abort::activation_failed`
 
 **Engelska:** GitHub did not complete the connection. Try connecting again.
@@ -1579,6 +1939,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 **Befintlig svenska:** GitHub slutförde inte anslutningen. Försök att ansluta igen.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8892. `component::reolink::services::snapshot_past::name`
 
@@ -1588,6 +1950,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8893. `component::reolink::services::snapshot_past::fields::timestamp::name`
 
 **Engelska:** Timestamp
@@ -1595,6 +1959,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 **Befintlig svenska:** Tidsstämpel
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8894. `component::reolink::services::snapshot_past::fields::timestamp::description`
 
@@ -1604,6 +1970,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8895. `component::reolink::services::snapshot_past::fields::filename::name`
 
 **Engelska:** Filename
@@ -1611,6 +1979,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 **Befintlig svenska:** Filnamn
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8896. `component::reolink::services::snapshot_past::fields::filename::description`
 
@@ -1620,6 +1990,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8897. `component::reolink::services::snapshot_past::description`
 
 **Engelska:** Takes a snapshot from a past moment in time out of the recordings of a camera and stores it in a file.
@@ -1627,6 +1999,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 **Befintlig svenska:** Tar en ögonblicksbild från en tidigare tidpunkt i en kameras inspelningar och sparar den i en fil.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8898. `component::reolink::exceptions::write_image_error::message`
 
@@ -1636,13 +2010,15 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8899. `component::reolink::exceptions::no_access_to_path::message`
 
 **Engelska:** Cannot write `{filename}`, no access to path; `allowlist_external_dirs` may need to be adjusted in `configuration.yaml`
 
-**Befintlig svenska:** Kan inte skriva `{filename}`. Sökvägen är inte tillgänglig. `allowlist_external_dirs` kan behöva justeras i `configuration.yaml`.
+**Befintlig svenska:** Det går inte att skriva `{filename}` eftersom åtkomst till sökvägen saknas. `allowlist_external_dirs` kan behöva justeras i `configuration.yaml`.
 
-**Förslag:** Det går inte att skriva `{filename}` eftersom åtkomst till sökvägen saknas. `allowlist_external_dirs` kan behöva justeras i `configuration.yaml`.
+**Bedömning:** Förslaget finns redan i Lokalise; ingen ny skrivning behövdes.
 
 ## 8900. `component::besen::entity::sensor::session_start::name`
 
@@ -1652,6 +2028,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8901. `component::besen::entity::sensor::session_duration::name`
 
 **Engelska:** Session duration
@@ -1659,6 +2037,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 **Befintlig svenska:** Sessionslängd
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8902. `component::besen::entity::sensor::session_current_limit::name`
 
@@ -1668,6 +2048,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8903. `component::besen::entity::sensor::scheduled_start::name`
 
 **Engelska:** Scheduled start
@@ -1675,6 +2057,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 **Befintlig svenska:** Schemalagd start
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8904. `component::besen::entity::sensor::charging_time_limit::name`
 
@@ -1684,13 +2068,15 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8905. `component::anthropic::config::step::reconfigure::description`
 
 **Engelska:** Enter your updated Anthropic API key.
 
-**Befintlig svenska:** Ange din uppdaterade Anthropic API-nyckel.
+**Befintlig svenska:** Ange din uppdaterade Anthropic-API-nyckel.
 
-**Förslag:** Ange din uppdaterade Anthropic-API-nyckel.
+**Bedömning:** Förslaget finns redan i Lokalise; ingen ny skrivning behövdes.
 
 ## 8906. `component::anthropic::config::step::reconfigure::data_description::api_key`
 
@@ -1700,6 +2086,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Kontextkontroll:** Kontrollera referensmålet `component::anthropic::config::step::user::data_description::api_key`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 8907. `component::anthropic::config::step::reconfigure::data::api_key`
 
 **Engelska:** [%key:common::config_flow::data::api_key%]
@@ -1707,6 +2095,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 **Befintlig svenska:** API-nyckel
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::api_key`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 8908. `component::my_pv::entity::sensor::wifi_signal_strength::name`
 
@@ -1716,6 +2106,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8909. `component::my_pv::entity::sensor::wifi_signal::state:::4`
 
 **Engelska:** Strong
@@ -1723,6 +2115,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 **Befintlig svenska:** Stark
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8910. `component::my_pv::entity::sensor::wifi_signal::state:::3`
 
@@ -1732,6 +2126,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8911. `component::my_pv::entity::sensor::wifi_signal::state:::2`
 
 **Engelska:** Average
@@ -1739,6 +2135,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 **Befintlig svenska:** Medel
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8912. `component::my_pv::entity::sensor::wifi_signal::state:::1`
 
@@ -1748,6 +2146,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8913. `component::my_pv::entity::sensor::wifi_signal::state:::0`
 
 **Engelska:** Poor
@@ -1755,6 +2155,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 **Befintlig svenska:** Mycket svag
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8914. `component::my_pv::entity::sensor::wifi_signal::name`
 
@@ -1764,6 +2166,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8915. `component::my_pv::entity::sensor::volt_solar::name`
 
 **Engelska:** PV voltage
@@ -1772,29 +2176,37 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8916. `component::my_pv::entity::sensor::volt_l3::name`
 
 **Engelska:** Voltage phase L3
 
-**Befintlig svenska:** Spänning fas L3
+**Befintlig svenska:** Spänning, fas L3
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8917. `component::my_pv::entity::sensor::volt_l2::name`
 
 **Engelska:** Voltage phase L2
 
-**Befintlig svenska:** Spänning fas L2
+**Befintlig svenska:** Spänning, fas L2
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8918. `component::my_pv::entity::sensor::volt_l1::name`
 
 **Engelska:** Voltage phase L1
 
-**Befintlig svenska:** Spänning fas L1
+**Befintlig svenska:** Spänning, fas L1
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8919. `component::my_pv::entity::sensor::uptime::name`
 
@@ -1804,6 +2216,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8920. `component::my_pv::entity::sensor::temp_ps::name`
 
 **Engelska:** Device temperature
@@ -1811,6 +2225,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 **Befintlig svenska:** Enhetstemperatur
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8921. `component::my_pv::entity::sensor::temp4::name`
 
@@ -1820,6 +2236,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8922. `component::my_pv::entity::sensor::temp3::name`
 
 **Engelska:** Temperature 3
@@ -1827,6 +2245,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 **Befintlig svenska:** Temperatur 3
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8923. `component::my_pv::entity::sensor::temp2::name`
 
@@ -1836,6 +2256,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8924. `component::my_pv::entity::sensor::temp1::name`
 
 **Engelska:** Temperature 1
@@ -1843,6 +2265,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 **Befintlig svenska:** Temperatur 1
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8925. `component::my_pv::entity::sensor::screen_mode_flag::state:::6`
 
@@ -1852,6 +2276,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8926. `component::my_pv::entity::sensor::screen_mode_flag::state:::5`
 
 **Engelska:** Failure
@@ -1859,6 +2285,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 **Befintlig svenska:** Fel
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8927. `component::my_pv::entity::sensor::screen_mode_flag::state:::4`
 
@@ -1868,6 +2296,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8928. `component::my_pv::entity::sensor::screen_mode_flag::state:::3`
 
 **Engelska:** Heating finished
@@ -1875,6 +2305,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 **Befintlig svenska:** Uppvärmningen är klar
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8929. `component::my_pv::entity::sensor::screen_mode_flag::state:::2`
 
@@ -1884,6 +2316,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8930. `component::my_pv::entity::sensor::screen_mode_flag::state:::1`
 
 **Engelska:** Heat
@@ -1891,6 +2325,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 **Befintlig svenska:** Värme
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8931. `component::my_pv::entity::sensor::screen_mode_flag::state:::0`
 
@@ -1900,6 +2336,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Kontextkontroll:** Kontrollera referensmålet `common::state::standby`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 8932. `component::my_pv::entity::sensor::screen_mode_flag::name`
 
 **Engelska:** Device status
@@ -1907,6 +2345,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 **Befintlig svenska:** Enhetsstatus
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8933. `component::my_pv::entity::sensor::power_solar::name`
 
@@ -1916,6 +2356,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8934. `component::my_pv::entity::sensor::freq::name`
 
 **Engelska:** Mains frequency
@@ -1924,29 +2366,37 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8935. `component::my_pv::entity::sensor::curr_l3::name`
 
 **Engelska:** Current phase L3
 
-**Befintlig svenska:** Ström fas L3
+**Befintlig svenska:** Ström, fas L3
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8936. `component::my_pv::entity::sensor::curr_l2::name`
 
 **Engelska:** Current phase L2
 
-**Befintlig svenska:** Ström fas L2
+**Befintlig svenska:** Ström, fas L2
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8937. `component::my_pv::entity::sensor::curr_l1::name`
 
 **Engelska:** Current phase L1
 
-**Befintlig svenska:** Ström fas L1
+**Befintlig svenska:** Ström, fas L1
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8938. `component::my_pv::entity::sensor::cur_eth_mode::state:::2`
 
@@ -1956,6 +2406,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8939. `component::my_pv::entity::sensor::cur_eth_mode::state:::1`
 
 **Engelska:** WLAN
@@ -1964,6 +2416,8 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8940. `component::my_pv::entity::sensor::cur_eth_mode::state:::0`
 
 **Engelska:** LAN
@@ -1971,3 +2425,25 @@ Detta fortsätter automatiskt när GitHub bekräftar anslutningen.
 **Befintlig svenska:** LAN
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+## Livegranskning 2026-11-24
+
+Alla 240 poster kontrollerades mot live-Lokalise och aktuell Core-källa. 13 källor skiljer sig från arkivrapporten: 11 använder aktuella nyckelreferenser och två äldre källreferenser har blivit direkta etiketter. Elva referenser med lika många unika mål slogs upp i Lokalise.
+
+### Ändringar och kontroll
+
+- En YouTube-konsument (8702) avvek från sin referens; den synkades och lästes tillbaka. Efterkontroll: 0/11 referensavvikelser.
+- Femton andra måltexter skiljer sig från arkivrapportens äldre ögonblicksbild; de är redan live och lämnades oförändrade där de är korrekta. Förslag i samma rapport kontrollerades mot live: åtta finns redan sparade.
+- Två äldre förslag med `integrering` avfördes; i dessa nycklar avser texten en Home Assistant-`integration` (komponent), inte processen integrering.
+- Anthropic-konfigurationens tre nycklar kontrollerades särskilt. API-sammansättningen är `Anthropic-API-nyckel`; API-nyckelreferensen och platshållare bevaras.
+- Platshållare matchar i alla 240 poster; inga pluralposter. `svlang natural` markerade fem beskrivande texter under 8/10; de är manuellt granskade, fyra behölls som semantiskt korrekta och Marketplace-återställningstexten förtydligades. Hunspell flaggade 38 unika namn, produkttermer och tekniska identifierare; ingen vanlig svensk felstavning identifierades. Termbanken stöder `API key` → `API-nyckel` och tidigare HA-granskning styr `lågtrafik`/`högtrafik`.
+- Två rättningar sparades i Lokalise (en referenssynkning och en feltext som förtydligar återställningsbeteendet); se [TM-importmanifestet](../2026-11-24-reviewed-core-8701-8940.jsonl).
+- Nästa batch börjar vid 8941; Core-granskningen fortsätter.
+
+### Sparade korrigeringar
+
+| Fullständig nyckel | Före | Sparad text | Motivering |
+| --- | --- | --- | --- |
+| `component::youtube::config_subentries::channel::abort::access_not_configured` | Läs meddelandet nedan som vi fick från Google: {message} | Läs meddelandet nedan från Google: {message} | Synkad med referensmålet; readback verifierad. |
+| `component::marketplace::exceptions::backup_cleanup_failed::message` | Installerades, men det gick inte att ta bort säkerhetskopian av den föregående versionen. En omstart återställer den: {error} | Installerades, men det gick inte att ta bort säkerhetskopian av den tidigare versionen. Om du startar om återställs den tidigare versionen: {error} | Klargör vad omstarten återställer; `{error}` bevaras. |
