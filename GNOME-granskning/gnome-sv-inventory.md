@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 02:06 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 02:09 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -470,7 +470,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [gtranslator](https://l10n.gnome.org/vertimus/gtranslator/master/po/sv/) | master | 301 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gucharmap](https://l10n.gnome.org/vertimus/gucharmap/master/po/sv/) | master | 540 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gucharmap](https://l10n.gnome.org/vertimus/gucharmap/master/help/sv/) | master | 129 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gupnp-tools](https://l10n.gnome.org/vertimus/gupnp-tools/master/po/sv/) | master | 128 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gupnp-tools](https://l10n.gnome.org/vertimus/gupnp-tools/master/po/sv/) | master | 128 | 0 | 0 | Klar | X | 7 | Klar lokalt (2026-11-24): Hela 128-strängarskatalogen är radgranskad mot senaste POT. Sju befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](gupnp-tools/master/po/gupnp-tools.master.sv.original.po), [granskad](gupnp-tools/master/po/gupnp-tools.master.sv.reviewed.po), [diff](gupnp-tools/master/po/gupnp-tools.master.sv.review.diff), [notering](gupnp-tools/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gvfs](https://l10n.gnome.org/vertimus/gvfs/gnome-50/po/sv/) | gnome-50 | 422 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gvfs](https://l10n.gnome.org/vertimus/gvfs/master/po/sv/) | master | 419 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gweather-locations](https://l10n.gnome.org/vertimus/gweather-locations/main/locations/sv/) | main | 4927 | 0 | 0 | Klar |  | — | Ej granskad |
