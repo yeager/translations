@@ -71,3 +71,10 @@
 - Platshållare verifierade; två nycklar behöver källplatsuppföljning, övriga fem finns direkt i aktuell Core-källa.
 - Core-TMX validerad: 16 494 poster; exporten har 42 625 språkpar och 32 exkluderade nycklar.
 - Övergripande Core-granskning fortsätter.
+
+## 2026-11-24 – Core 23881–24000
+
+- 9 poster granskade; 8 översättningar ändrade och återlästa, 1 verifierad oförändrad.
+- Platshållare matchar; två JVC-nycklar kräver kontroll av implementationskälla.
+- Core-TMX validerad: 16 502 poster; exporten har 42 628 språkpar och 32 exkluderade nycklar.
+- Granskningen fortsätter.
