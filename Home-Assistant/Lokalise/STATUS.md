@@ -64,3 +64,10 @@
 - Två engelska temperaturreferensmål kontrollerade; 9 sökvägar behöver fortsatt ursprungskontroll.
 - Core-TMX validerad: 16 487 poster. Exporten har 42 624 språkpar och 32 exkluderade nycklar.
 - Granskningen fortsätter.
+
+## 2026-11-24 – Core 23761–23880
+
+- 7 ändringar sparade och återlästa i Lokalise.
+- Platshållare verifierade; två nycklar behöver källplatsuppföljning, övriga fem finns direkt i aktuell Core-källa.
+- Core-TMX validerad: 16 494 poster; exporten har 42 625 språkpar och 32 exkluderade nycklar.
+- Övergripande Core-granskning fortsätter.
