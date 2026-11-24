@@ -1,6 +1,6 @@
 # Home Assistant Core – granskning 7741–7980
 
-Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Referenser vars mål inte finns i underlaget markeras för senare kontroll.
+Sortering: ”Last added” vid insamlingen. Livegranskning gjordes 2026-11-24 mot Lokalise API och Home Assistant Core-källträdet på commit `2fdaa177f3e94535b3b649fb1ffc2dbba52eb4ce`. Alla 240 nycklar och samtliga rapporterade referensmål återfanns.
 
 ## 7741. `component::midea::entity::sensor::wash_program::state::bulky`
 
@@ -14,9 +14,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Drum clean
 
-**Befintlig svenska:** Självrengöring av behållare
+**Befintlig svenska:** Trumrengöring
 
-**Förslag:** Trumrengöring
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7743. `component::midea::entity::sensor::wash_program::state::bucket_dry`
 
@@ -128,7 +128,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pausad
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::paused`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::state::paused` verifierades live och jämfördes efter uppdatering.
 
 ## 7757. `component::midea::entity::sensor::status::state::fault`
 
@@ -136,7 +136,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Fel
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::fault`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::state::fault` verifierades live och jämfördes efter uppdatering.
 
 ## 7758. `component::midea::entity::sensor::status::state::end`
 
@@ -270,9 +270,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Dress trousers
 
-**Befintlig svenska:** Byxor
+**Befintlig svenska:** Finbyxor
 
-**Förslag:** Finbyxor
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7775. `component::midea::entity::sensor::dry_program::state::warm_clothes`
 
@@ -302,9 +302,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Quilt airing
 
-**Befintlig svenska:** Soltäcke
+**Befintlig svenska:** Vädring av täcke
 
-**Förslag:** Vädring av täcke
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7779. `component::midea::entity::sensor::dry_program::state::sterilize`
 
@@ -390,17 +390,17 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Quick dry 30 min
 
-**Befintlig svenska:** Snabbtorkning 30
+**Befintlig svenska:** Snabbtorkning 30 min
 
-**Förslag:** Snabbtorkning 30 min
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7790. `component::midea::entity::sensor::dry_program::state::quick_dry_20`
 
 **Engelska:** Quick dry 20 min
 
-**Befintlig svenska:** Snabbtorkning 20
+**Befintlig svenska:** Snabbtorkning 20 min
 
-**Förslag:** Snabbtorkning 20 min
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7791. `component::midea::entity::sensor::dry_program::state::quick_dry`
 
@@ -502,9 +502,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Bedding set
 
-**Befintlig svenska:** Fyrdelat set
+**Befintlig svenska:** Sängkläder
 
-**Förslag:** Sängkläder
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7804. `component::midea::entity::sensor::dry_program::state::fixed_time_dry`
 
@@ -518,9 +518,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Synthetics
 
-**Befintlig svenska:** Fiber
+**Befintlig svenska:** Syntet
 
-**Förslag:** Syntet
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7806. `component::midea::entity::sensor::dry_program::state::enzyme`
 
@@ -534,7 +534,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Eco dry
 
-**Befintlig svenska:** Ekotorkning
+**Befintlig svenska:** Eko-torkning
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -566,9 +566,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Cotton and linen
 
-**Befintlig svenska:** Bomull
+**Befintlig svenska:** Bomull och linne
 
-**Förslag:** Bomull och linne
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7812. `component::midea::entity::sensor::dry_program::state::cold_air_fresh_air`
 
@@ -582,9 +582,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Drum clean
 
-**Befintlig svenska:** Självrengöring av behållare
+**Befintlig svenska:** Trumrengöring
 
-**Förslag:** Trumrengöring
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7814. `component::midea::entity::sensor::dry_program::state::bracket_dry`
 
@@ -606,9 +606,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Bulky items 60 min
 
-**Befintlig svenska:** Stora plagg 60
+**Befintlig svenska:** Skrymmande plagg 60 min
 
-**Förslag:** Skrymmande plagg 60 min
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7817. `component::midea::entity::sensor::dry_program::state::big`
 
@@ -680,7 +680,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Medel
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::medium`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::state::medium` verifierades live och jämfördes efter uppdatering.
 
 ## 7826. `component::midea::entity::sensor::detergent::state::less`
 
@@ -750,9 +750,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Spin speed
 
-**Befintlig svenska:** Uttorkningshastighet
+**Befintlig svenska:** Centrifugeringshastighet
 
-**Förslag:** Centrifugeringshastighet
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7835. `component::midea::entity::sensor::dehydration_level::state::none`
 
@@ -768,7 +768,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Medel
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::medium`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::state::medium` verifierades live och jämfördes efter uppdatering.
 
 ## 7837. `component::midea::entity::sensor::dehydration_level::state::low`
 
@@ -776,7 +776,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Låg
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::low`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::state::low` verifierades live och jämfördes efter uppdatering.
 
 ## 7838. `component::midea::entity::sensor::dehydration_level::state::high`
 
@@ -784,15 +784,15 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Hög
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::high`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::state::high` verifierades live och jämfördes efter uppdatering.
 
 ## 7839. `component::midea::entity::sensor::dehydration_level::name`
 
 **Engelska:** Spin level
 
-**Befintlig svenska:** Uttorkningsnivå
+**Befintlig svenska:** Centrifugeringsnivå
 
-**Förslag:** Centrifugeringsnivå
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7840. `component::wled::entity::switch::audio_reactive::name`
 
@@ -838,9 +838,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Could not reach the Rachio API
 
-**Befintlig svenska:** Kunde inte nå Rachio API
+**Befintlig svenska:** Det gick inte att nå Rachio-API:t
 
-**Förslag:** Det gick inte att nå Rachio-API:t
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7846. `component::prosegur::exceptions::invalid_auth::message`
 
@@ -878,9 +878,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** MELCloud rate limit exceeded for {device}. Your account may be temporarily blocked.
 
-**Befintlig svenska:** MELClouds hastighetsgräns har överskridits för {device}. Ditt konto kan vara tillfälligt blockerat.
+**Befintlig svenska:** Gränsen för antalet MELCloud-anrop har överskridits för {device}. Ditt konto kan vara tillfälligt blockerat.
 
-**Förslag:** Gränsen för antalet MELCloud-anrop har överskridits för {device}. Ditt konto kan vara tillfälligt blockerat.
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7851. `component::kostal_plenticore::exceptions::cannot_connect::message`
 
@@ -918,9 +918,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Could not retrieve details from SolarEdge API
 
-**Befintlig svenska:** Kunde inte hämta information från SolarEdge API
+**Befintlig svenska:** Det gick inte att hämta information från SolarEdge-API:t
 
-**Förslag:** Det gick inte att hämta information från SolarEdge-API:t
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7856. `component::icloud::exceptions::no_device_found::message`
 
@@ -990,9 +990,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Failed to fetch the regions from the Ukraine Alarm API
 
-**Befintlig svenska:** Det gick inte att hämta regionerna från Ukraine Alarm API
+**Befintlig svenska:** Det gick inte att hämta regionerna från Ukraine Alarm-API:t
 
-**Förslag:** Det gick inte att hämta regionerna från Ukraine Alarm-API:t
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7865. `component::lamarzocco::exceptions::migration_unsupported_version::message`
 
@@ -1006,9 +1006,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Unable to connect to the Whisker API to migrate the configuration
 
-**Befintlig svenska:** Kunde inte ansluta till Whisker API för att migrera konfigurationen
+**Befintlig svenska:** Det gick inte att ansluta till Whisker-API:t för att migrera konfigurationen
 
-**Förslag:** Det gick inte att ansluta till Whisker-API:t för att migrera konfigurationen
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7867. `component::stookwijzer::exceptions::location_migration_failed::message`
 
@@ -1022,7 +1022,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Region codes have changed for the PlayStation 4 integration, remove and re-add the integration
 
-**Befintlig svenska:** Regionskoderna har ändrats för PlayStation 4-integreringen. Ta bort och lägg till integreringen igen
+**Befintlig svenska:** Regionskoderna har ändrats för PlayStation 4-integrationen. Ta bort och lägg till integrationen igen
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1134,17 +1134,17 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:component::sensibo::config::error::no_username%]
 
-**Befintlig svenska:** Kunde inte hämta användarnamnet. Kontrollera att ditt Sensibo-konto har ett korrekt användarnamn och försök igen
+**Befintlig svenska:** Användarnamnet kunde inte hämtas. Ett giltigt användarnamn krävs för ditt Sensibo-konto. Försök igen.
 
-**Kontextkontroll:** Kontrollera referensmålet `component::sensibo::config::error::no_username`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::sensibo::config::error::no_username` verifierades live och jämfördes efter uppdatering.
 
 ## 7883. `component::sensibo::exceptions::cannot_connect::message`
 
 **Engelska:** [%key:common::config_flow::error::cannot_connect%]
 
-**Befintlig svenska:** Anslutningen misslyckades
+**Befintlig svenska:** Det gick inte att ansluta
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::cannot_connect`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::error::cannot_connect` verifierades live och jämfördes efter uppdatering.
 
 ## 7884. `component::portainer::exceptions::instance_id_failed::message`
 
@@ -1174,9 +1174,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:component::air_quality::common::condition_threshold_name%]
 
-**Befintlig svenska:** Tröskeltyp
+**Befintlig svenska:** Tröskelvärdestyp
 
-**Kontextkontroll:** Kontrollera referensmålet `component::air_quality::common::condition_threshold_name`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::air_quality::common::condition_threshold_name` verifierades live och jämfördes efter uppdatering.
 
 ## 7888. `component::air_quality::conditions::is_radon_value::fields::for::name`
 
@@ -1184,7 +1184,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** I minst
 
-**Kontextkontroll:** Kontrollera referensmålet `component::air_quality::common::condition_for_name`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::air_quality::common::condition_for_name` verifierades live och jämfördes efter uppdatering.
 
 ## 7889. `component::air_quality::conditions::is_radon_value::fields::behavior::name`
 
@@ -1192,7 +1192,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Villkoret uppfylls om
 
-**Kontextkontroll:** Kontrollera referensmålet `component::air_quality::common::condition_behavior_name`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::air_quality::common::condition_behavior_name` verifierades live och jämfördes efter uppdatering.
 
 ## 7890. `component::air_quality::conditions::is_radon_value::description`
 
@@ -1246,9 +1246,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Failed to resolve the plant ID from the Growatt API
 
-**Befintlig svenska:** Det gick inte att fastställa anläggnings-ID:t från Growatt API
+**Befintlig svenska:** Det gick inte att fastställa anläggnings-ID:t från Growatt-API:t
 
-**Förslag:** Det gick inte att fastställa anläggnings-ID:t från Growatt-API:t
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7897. `component::growatt_server::exceptions::migration_no_plants::message`
 
@@ -1406,9 +1406,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** The printer does not support the SyncThru JSON API
 
-**Befintlig svenska:** Skrivaren har inte stöd för SyncThru JSON API
+**Befintlig svenska:** Skrivaren har inte stöd för SyncThru JSON-API:t
 
-**Förslag:** Skrivaren har inte stöd för SyncThru JSON-API:t
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7917. `component::remember_the_milk::issues::deprecated_action::title`
 
@@ -1438,7 +1438,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Authentication error initializing the WeatherKit integration
 
-**Befintlig svenska:** Autentiseringsfel vid initiering av WeatherKit-integreringen
+**Befintlig svenska:** Autentiseringsfel vid initiering av WeatherKit-integrationen
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1486,9 +1486,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Invalid authentication while connecting to the SwitchBot API
 
-**Befintlig svenska:** Ogiltig autentisering vid anslutning till SwitchBot API
+**Befintlig svenska:** Ogiltig autentisering vid anslutning till SwitchBot-API:t
 
-**Förslag:** Ogiltig autentisering vid anslutning till SwitchBot-API:t
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7927. `component::switch_as_x::exceptions::unknown_entity::message`
 
@@ -1550,7 +1550,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** MQTT integration is not available
 
-**Befintlig svenska:** MQTT-integreringen är inte tillgänglig
+**Befintlig svenska:** MQTT-integrationen är inte tillgänglig
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1574,7 +1574,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Unable to get CPU information, the CPU Speed integration is not compatible with your system
 
-**Befintlig svenska:** Det går inte att hämta CPU-information. Integreringen CPU Speed är inte kompatibel med ditt system
+**Befintlig svenska:** Det går inte att hämta CPU-information. CPU Speed-integrationen är inte kompatibel med ditt system
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1622,7 +1622,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** This entry has been migrated to the AirVisual Pro integration
 
-**Befintlig svenska:** Den här posten har migrerats till AirVisual Pro-integreringen
+**Befintlig svenska:** Den här posten har migrerats till AirVisual Pro-integrationen
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1710,9 +1710,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:common::config_flow::error::cannot_connect%]
 
-**Befintlig svenska:** Anslutningen misslyckades
+**Befintlig svenska:** Det gick inte att ansluta
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::cannot_connect`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::error::cannot_connect` verifierades live och jämfördes efter uppdatering.
 
 ## 7955. `component::music_assistant::config::step::start_app::title`
 
@@ -1810,9 +1810,9 @@ Om du redan kör Music Assistant i en annan app, i en egen container, direkt på
 
 **Engelska:** [%key:common::config_flow::abort::oauth2_no_url_available%]
 
-**Befintlig svenska:** Ingen URL är tillgänglig. Mer information om felet finns i [hjälpavsnittet]({docs_url})
+**Befintlig svenska:** Ingen webbadress är tillgänglig. [Se hjälpavsnittet]({docs_url}) för information om det här felet.
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::abort::oauth2_no_url_available`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::abort::oauth2_no_url_available` verifierades live och jämfördes efter uppdatering.
 
 ## 7967. `component::music_assistant::config::abort::app_start_failed`
 
@@ -1866,7 +1866,7 @@ Om du redan kör Music Assistant i en annan app, i en egen container, direkt på
 
 **Engelska:** The config entry {title} probably comes from a custom integration, please remove it if you want to use core Shelly integration
 
-**Befintlig svenska:** Konfigurationsposten {title} kommer troligen från en anpassad integrering. Ta bort den om du vill använda Shelly-integreringen i kärnan
+**Befintlig svenska:** Konfigurationsposten {title} kommer troligen från en anpassad integration. Ta bort den om du vill använda Shelly-integrationen i kärnan
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1890,9 +1890,9 @@ Om du redan kör Music Assistant i en annan app, i en egen container, direkt på
 
 **Engelska:** This config entry uses the legacy Nest API and will be removed
 
-**Befintlig svenska:** Den här konfigurationsposten använder det äldre Nest API:t och tas bort
+**Befintlig svenska:** Den här konfigurationsposten använder det äldre Nest-API:t och tas bort
 
-**Förslag:** Den här konfigurationsposten använder det äldre Nest-API:t och tas bort
+**Livekontroll:** Förslaget finns redan i Lokalise och matchar aktuellt värde.
 
 ## 7977. `component::nexia::exceptions::invalid_credentials::message`
 
@@ -1925,3 +1925,32 @@ Om du redan kör Music Assistant i en annan app, i en egen container, direkt på
 **Befintlig svenska:** Det gick inte att konfigurera enheten på {host}
 
 **Bedömning:** Ingen ändring föreslås.
+## Livegranskning 2026-11-24
+
+
+Alla 240 rader kontrollerades mot aktuell engelsk källtext och svensk Lokalise-text. 15 referensanvändningar med 13 unika mål verifierades. Fyra avvikelser rättades och efter återläsning är samtliga referenspar konsekventa. Fem distinkta strängar ändrades; alla fem verifierades med API-readback. De 20 förslagen från arkivrapporten fanns redan i livevärdena och skrevs inte igen.
+
+
+### Nya ändringar sparade i Lokalise
+
+
+| Fullständig nyckel | Befintlig live-text | Sparad text | Skäl |
+| --- | --- | --- | --- |
+| `component::sensibo::config::error::no_username` | `Användarnamnet kunde inte hämtas, kontrollera att ditt Sensibo-konto har ett korrekt användarnamn och försök igen` | `Användarnamnet kunde inte hämtas. Ett giltigt användarnamn krävs för ditt Sensibo-konto. Försök igen.` | Grammatiken rättades; instruktionen för att kontrollera kontots användarnamn och försöka igen bevaras. |
+| `component::sensibo::exceptions::no_username::message` | `Kunde inte hämta användarnamnet. Kontrollera att ditt Sensibo-konto har ett korrekt användarnamn och försök igen` | `Användarnamnet kunde inte hämtas. Ett giltigt användarnamn krävs för ditt Sensibo-konto. Försök igen.` | Samma feltext som Sensibo-konfigurationsfelet; term och formulering harmoniseras. |
+| `component::sensibo::exceptions::cannot_connect::message` | `Anslutningen misslyckades` | `Det gick inte att ansluta` | Matchar gemensamma felmeddelandet `common::config_flow::error::cannot_connect`. |
+| `component::open_meteo::config::error::cannot_connect` | `Anslutningen misslyckades` | `Det gick inte att ansluta` | Matchar gemensamma felmeddelandet `common::config_flow::error::cannot_connect`. |
+| `component::music_assistant::config::abort::no_url_available` | `Ingen URL är tillgänglig. Mer information om felet finns i [hjälpavsnittet]({docs_url})` | `Ingen webbadress är tillgänglig. [Se hjälpavsnittet]({docs_url}) för information om det här felet.` | Matchar återanvänt OAuth2-hjälpmeddelande och svensk term webbadress. |
+
+### Verifiering och uppföljning
+
+
+- Källtexten för Music Assistant Supervisor-flödet hade utökats med ett viktigt villkor: välj inte add-on-alternativet om Music Assistant redan körs i annan app, container eller direkt på värdsystemet. Den fullständiga översättningen bevarar villkoret och platshållare där sådana förekommer.
+
+- Placeholder-set för alla 240 käll-/målpar matchar. Ingen pluralpost finns i batchen.
+
+- `svlang natural` gav 10/10 för ändringsurvalet. Hunspell flaggade `Sensibo-konto` och `docs_url`; sammansättningen behölls som tydlig egennamnssammansättning och `docs_url` är en oförändrad platshållare.
+
+- Home Assistant Core TM exporterades och validerades: 75 556 nycklar, 75 558 segment, 42 619 unika språkpar.
+
+- Kvarstående osäkra fall: inga. Nästa batch börjar vid 7981.
