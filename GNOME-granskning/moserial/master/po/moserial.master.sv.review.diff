@@ -1,0 +1,104 @@
+diff --git a/.work-gnome-review/moserial-master-po/original.po b/.work-gnome-review/moserial-master-po/sv.po
+index caa63c7..232b1d9 100644
+--- a/.work-gnome-review/moserial-master-po/original.po
++++ b/.work-gnome-review/moserial-master-po/sv.po
+@@ -4,14 +4,15 @@
+ # Daniel Nylander <po@danielnylander.se>, 2009.
+ # Josef Andersson <josef.andersson@fripost.org>, 2015.
+ # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017, 2021.
++# Daniel Nylander <gnome@danielnylander.se>, 2026.
+ #
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: moserial\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/moserial/issues/\n"
+ "POT-Creation-Date: 2026-11-10 17:48+0000\n"
+-"PO-Revision-Date: 2021-02-13 13:12+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -197,7 +198,7 @@ msgstr "Typsnitt"
+ 
+ #: ../data/ui/preferences.ui.h:5
+ msgid "Use the system fixed width font"
+-msgstr "Använd systemets typsnitt med fast breddsteg"
++msgstr "Använd systemets typsnitt med fast teckenbredd"
+ 
+ #: ../data/ui/preferences.ui.h:6
+ msgid "Display Font"
+@@ -265,7 +266,7 @@ msgstr "Spela in inkommande och/eller utgående data"
+ 
+ #: ../data/ui/record_dialog.ui.h:2
+ msgid "Stream to record"
+-msgstr "Strömma till inspelning"
++msgstr "Dataström att spela in"
+ 
+ #: ../data/ui/send_chooser_dialog.ui.h:1
+ msgid "Select File to Send"
+@@ -345,7 +346,7 @@ msgstr "Seriell terminal"
+ 
+ #: ../data/moserial.desktop.in.h:3
+ msgid "A serial terminal optimized for logging and file capture"
+-msgstr "En seriell terminal optimerad för loggning och filfångst"
++msgstr "En seriell terminal optimerad för loggning och filinsamling"
+ 
+ #: ../data/moserial.appdata.xml.in.h:2
+ msgid "Serial terminal"
+@@ -402,7 +403,7 @@ msgid ""
+ "Software Foundation, either version 3 of the License, or (at your option) "
+ "any later version.\n"
+ msgstr ""
+-"moserial är fri programvara. Du kan distribuera det och/eller modifiera det "
++"moserial är fri programvara: Du kan distribuera det och/eller modifiera det "
+ "under villkoren i GNU General Public License, publicerad av Free Software "
+ "Foundation, antingen version 3 eller (om du så vill) någon senare version.\n"
+ 
+@@ -477,11 +478,11 @@ msgstr ""
+ 
+ #: ../src/MainWindow.vala:328
+ msgid "Shows and toggles the DTR output (Data Terminal Ready)"
+-msgstr "Visar och aktiverar/inaktiverar DTR-utmatningen (Data Terminal Ready)"
++msgstr "Visar och aktiverar/inaktiverar DTR-utgången (Data Terminal Ready)"
+ 
+ #: ../src/MainWindow.vala:333
+ msgid "Shows and toggles the RTS output (Request To Send)"
+-msgstr "Visar och aktiverar/inaktiverar RTS-utmatningen (Request To Send)"
++msgstr "Visar och aktiverar/inaktiverar RTS-utgången (Request To Send)"
+ 
+ #: ../src/MainWindow.vala:338
+ msgid "Clear incoming text box"
+@@ -585,7 +586,7 @@ msgstr "Inget avslut"
+ #: ../src/SerialConnection.vala:362
+ #, c-format
+ msgid "TX: %lu, RX: %lu (%lu unprintable)"
+-msgstr "TX: %lu, RX: %lu (%lu inte utskrivbara)"
++msgstr "TX: %lu, RX: %lu (%lu ej utskrivbara tecken)"
+ 
+ #: ../src/SerialConnection.vala:364
+ #, c-format
+@@ -613,11 +614,11 @@ msgstr "Kunde inte starta %s: %s"
+ 
+ #: ../src/SettingsDialog.vala:74
+ msgid "Also known as RTS/CTS handshaking"
+-msgstr "Också känt som RTS/CTS-handskakning"
++msgstr "Även känt som RTS/CTS-handskakning"
+ 
+ #: ../src/SettingsDialog.vala:77
+ msgid "Also known as XON/XOFF handshaking"
+-msgstr "Också känt som XON/XOFF-handskakning"
++msgstr "Även känt som XON/XOFF-handskakning"
+ 
+ #: ../src/SettingsDialog.vala:83
+ msgid "Normally disabled"
+@@ -651,7 +652,7 @@ msgstr "Utrymme"
+ 
+ #: ../src/Settings.vala:35
+ msgid "Read and Write"
+-msgstr "Läsa och skriva"
++msgstr "Läsning och skrivning"
+ 
+ #: ../src/Settings.vala:36
+ msgid "Read Only"
