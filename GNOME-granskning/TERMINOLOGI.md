@@ -69,6 +69,11 @@ listan är stöd, inte en ursäkt för mekanisk ersättning.
 | encoder | kodare | |
 | hardware | maskinvara | |
 | firmware | fast programvara | Använd *firmware* när det är projektets etablerade tekniska term. |
+| sample (pixbuf) | värde | Kanalsampel för en bildpunkt; här avses värdet, inte själva samplingsprocessen. |
+| rowstride | radsteg | Antal byte mellan motsvarande lägen på efterföljande pixelrader. |
+| chunk (bildformat) | block | En avgränsad del av en bildfil, exempelvis PNG-textblock. |
+| pixbuf | pixbuf | GTK/GdkPixbuf-API-typ; behåll identifieraren och böj vid behov: *pixbufen*. |
+| colorspace | färgrymd | Färgrymd som pixelvärdena tolkas i. |
 
 ## Form och skydd
 
