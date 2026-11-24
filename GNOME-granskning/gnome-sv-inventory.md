@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 01:06 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 01:08 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -278,7 +278,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [gdk-pixbuf](https://l10n.gnome.org/vertimus/gdk-pixbuf/master/po/sv/) | master | 198 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gdl](https://l10n.gnome.org/module/gdl/) | master | 96 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gdm](https://l10n.gnome.org/vertimus/gdm/gnome-50/po/sv/) | gnome-50 | 129 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gdm](https://l10n.gnome.org/vertimus/gdm/main/po/sv/) | main | 118 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gdm](https://l10n.gnome.org/vertimus/gdm/main/po/sv/) | main | 118 | 0 | 0 | Klar | X | 5 | Klar lokalt (2026-11-24): Hela 118-strängarskatalogen är radgranskad mot senaste POT. Fem befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](gdm/main/po/gdm.main.sv.original.po), [granskad](gdm/main/po/gdm.main.sv.reviewed.po), [diff](gdm/main/po/gdm.main.sv.review.diff), [notering](gdm/main/po/README.md) |
 | Dokumentation | Default (71% translated) | [gdm](https://l10n.gnome.org/vertimus/gdm/gnome-50/help/sv/) | gnome-50 | 337 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [geary](https://l10n.gnome.org/vertimus/geary/main/po/sv/) | main | 664 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [geary](https://l10n.gnome.org/vertimus/geary/main/help/sv/) | main | 165 | 0 | 0 | Klar |  | — | Ej granskad |
