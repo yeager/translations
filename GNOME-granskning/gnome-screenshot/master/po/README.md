@@ -1,0 +1,16 @@
+# GNOME Skärmbild — master/po (sv)
+
+- Aktivitet: <https://l10n.gnome.org/vertimus/gnome-screenshot/master/po/sv/>
+- Käll-POT: `gnome-screenshot.master.pot`, hämtad 2026-11-24
+- Utgångsstatistik: 62 översatta, 0 oöversatta, 0 fuzzy
+- Slutstatistik: 62 översatta, 0 oöversatta, 0 fuzzy
+- Ändrade befintliga strängar: 4
+
+Hela katalogen är radgranskad. Programbeskrivningen och instruktionen för
+PrtSc/Alt har fått tydligare svensk syntax. Två urklipps- och filspartexter
+är också rättade. `Last-Translator` är uppdaterad till Daniel Nylander
+`<gnome@danielnylander.se>`.
+
+`msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` är godkända utan fel
+eller varningar. Den svenska Hunspell-ordlistan saknas lokalt. Ingen GNOME-
+inskickning har gjorts enligt arbetsmålet.
