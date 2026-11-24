@@ -1,0 +1,88 @@
+diff --git a/.work-gnome-review/iagno-main-po/original.po b/.work-gnome-review/iagno-main-po/sv.po
+index 55b4a0a..e70724b 100644
+--- a/.work-gnome-review/iagno-main-po/original.po
++++ b/.work-gnome-review/iagno-main-po/sv.po
+@@ -6,14 +6,15 @@
+ # Christian Rose <menthos@menthos.com>, 2000, 2001, 2002, 2003, 2004, 2005.
+ # Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
+ # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2014, 2015, 2017, 2018, 2019, 2020, 2023, 2025, 2026.
++# Daniel Nylander <gnome@danielnylander.se>, 2026.
+ #
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: iagno\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/iagno/issues\n"
+ "POT-Creation-Date: 2026-10-07 09:25+0000\n"
+-"PO-Revision-Date: 2026-02-25 13:29+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -505,7 +506,7 @@ msgstr "Spela klassisk reversi"
+ #. Translators: command-line option description, see 'iagno --help'
+ #: src/iagno.vala:75
+ msgid "Reduce delay before AI moves"
+-msgstr "Minska fördröjning innan AI:n lägger"
++msgstr "Minska fördröjningen innan AI:n gör sitt drag"
+ 
+ #. Translators: command-line option description, see 'iagno --help'
+ #: src/iagno.vala:78
+@@ -594,7 +595,7 @@ msgstr "Argumenten ”--classic” och ”--reverse” är ömsesidigt uteslutan
+ #. Translators: command-line error message, displayed for an incorrect game size request; try 'iagno -s 2'
+ #: src/iagno.vala:182
+ msgid "Size must be at least 4."
+-msgstr "Storlek måste vara minst 4."
++msgstr "Storleken måste vara minst 4."
+ 
+ #. Translators: command-line error message, displayed for an incorrect game size request; try 'iagno -s 17'
+ #: src/iagno.vala:188
+@@ -605,7 +606,7 @@ msgstr "Storlek får inte vara större än 16."
+ #: src/iagno.vala:284
+ msgid "Level should be between 1 (easy) and 3 (hard). Settings unchanged."
+ msgstr ""
+-"Nivå ska vara mellan 1 (lätt) och 3 (svårt). Inställningar oförändrade."
++"Nivån ska vara mellan 1 (lätt) och 3 (svår). Inställningarna är oförändrade."
+ 
+ #. Translators: when configuring a new game, in the second menubutton's menu, label of the entry to choose an easy-level computer adversary (with a mnemonic that appears pressing Alt)
+ #: src/iagno.vala:300
+@@ -685,12 +686,12 @@ msgstr "Svårighetsgrad: Svår"
+ #. Translators: during a game, notification to display when Light has no possible moves
+ #: src/iagno.vala:821
+ msgid "Light must pass, Dark’s move"
+-msgstr "Vit måste stå över, svart drag"
++msgstr "Vit måste stå över, svarts drag"
+ 
+ #. Translators: during a game, notification to display when Dark has no possible moves
+ #: src/iagno.vala:826
+ msgid "Dark must pass, Light’s move"
+-msgstr "Svart måste stå över, vitt drag"
++msgstr "Svart måste stå över, vits drag"
+ 
+ #. Translators: during a game, notification to display when Light has won the game; the %u are replaced with the Light and Dark number of tiles
+ #: src/iagno.vala:839
+@@ -707,12 +708,12 @@ msgstr "Svart vinner! (%u-%u)"
+ #. Translators: during a game, notification to display when the game is a draw
+ #: src/iagno.vala:848
+ msgid "The game is draw."
+-msgstr "Spelet är oavgjort."
++msgstr "Spelet slutar oavgjort."
+ 
+ #. Translators: during a game, notification to display when the player tries to make an illegal move
+ #: src/iagno.vala:867
+ msgid "You can’t move there!"
+-msgstr "Du kan inte lägga där!"
++msgstr "Du kan inte lägga en bricka där!"
+ 
+ #. Translators: during the overture (at the start) of a two-players game, when Dark has played, notification displayed if Light clicks at the opposite tile relatively to Dark one
+ #: src/iagno.vala:874
+@@ -722,7 +723,7 @@ msgstr "I denna öppning kan vit bara spela på rutor intill en svart bricka."
+ #. Translators: during the overture (at the start) of a two-players game, notification displayed if the board is clicked elsewhere of the four playable tiles that are highlighted
+ #: src/iagno.vala:878
+ msgid "Click on one of the highlighted tiles to move the selected piece there."
+-msgstr "Klicka på en av de markerade rutorna för att flytta vald pjäs dit."
++msgstr "Klicka på en av de markerade rutorna för att flytta den valda brickan dit."
+ 
+ #: src/iagno.vala:955
+ msgid "About"
