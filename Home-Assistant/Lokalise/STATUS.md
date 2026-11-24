@@ -22,3 +22,10 @@
 - Alla 10 källsökvägar matchar aktuell Core-källa.
 - Core-TMX uppdaterad och validerad: 16 431 poster. Exporten har 42 616 språkpar och 32 exkluderade synliga nycklar.
 - Hela Core-granskningen fortsätter.
+
+## 2026-11-24 – Core 23041–23160
+
+- 14 poster radgranskade; 12 ändringar sparade och återlästa, 2 befintliga värden verifierade.
+- Alla 14 nyckelsökvägar verifierade i aktuell Core-källa; gemensam avstängningsknapp påverkar referenser utanför intervallet.
+- Core-TMX uppdaterad och validerad: 16 439 poster. Core-export: 42 619 språkpar, 32 exkluderade synliga nycklar.
+- Granskningen fortsätter; inte komplett.
