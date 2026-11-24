@@ -1,0 +1,121 @@
+diff --git a/.work-gnome-review/localsearch-main-po/original.po b/.work-gnome-review/localsearch-main-po/sv.po
+index 9ee6097..5e6fa07 100644
+--- a/.work-gnome-review/localsearch-main-po/original.po
++++ b/.work-gnome-review/localsearch-main-po/sv.po
+@@ -5,14 +5,15 @@
+ # Josef Andersson <josef.andersson@fripost.org>, 2015.
+ # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
+ # Luna Jernberg <droidbittin@gmail.com>, 2021.
++# Daniel Nylander <gnome@danielnylander.se>, 2026.
+ #
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: localsearch\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/localsearch/issues/\n"
+ "POT-Creation-Date: 2026-09-13 21:41+0000\n"
+-"PO-Revision-Date: 2026-08-28 00:42+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -28,7 +29,7 @@ msgstr "Maximalt antal byte att extrahera"
+ 
+ #: data/org.freedesktop.Tracker.Extract.gschema.xml:24
+ msgid "Maximum number of UTF-8 bytes to extract."
+-msgstr "Maximalt antal UTF-8 byte att extrahera."
++msgstr "Maximalt antal UTF-8-byte att extrahera."
+ 
+ #: data/org.freedesktop.Tracker.Extract.gschema.xml:30
+ msgid "Text file allowlist"
+@@ -82,7 +83,7 @@ msgstr "Ignorera siffror"
+ 
+ #: data/org.freedesktop.Tracker.Miner.Files.gschema.xml:23
+ msgid "Initial sleep"
+-msgstr "Initial sömn"
++msgstr "Inledande väntetid"
+ 
+ #: data/org.freedesktop.Tracker.Miner.Files.gschema.xml:30
+ msgid "Throttle"
+@@ -173,11 +174,11 @@ msgstr "Ignorerade filer"
+ 
+ #: data/org.freedesktop.Tracker.Miner.Files.gschema.xml:117
+ msgid "List of file patterns to avoid"
+-msgstr "Lista över filmönster att undvika"
++msgstr "Lista över filnamnsmönster att undvika"
+ 
+ #: data/org.freedesktop.Tracker.Miner.Files.gschema.xml:122
+ msgid "Ignored directories"
+-msgstr "Inkluderade kataloger"
++msgstr "Ignorerade kataloger"
+ 
+ #: data/org.freedesktop.Tracker.Miner.Files.gschema.xml:123
+ msgid "List of directories to avoid"
+@@ -302,7 +303,7 @@ msgstr "”%s” är inte en katalog"
+ #. TRANSLATORS: These are commandline options
+ #: src/cli/tracker-index.c:291
+ msgid "Either --add or --remove must be provided"
+-msgstr "Antingen --add eller --remove måste tillhandahållas"
++msgstr "Antingen --add eller --remove måste anges"
+ 
+ #. TRANSLATORS: These are commandline options
+ #: src/cli/tracker-index.c:295
+@@ -829,48 +830,43 @@ msgstr "Dataobjektet ”%s” finns inte för tillfället"
+ #: src/indexer/tracker-application.c:1310
+ #, c-format
+ msgid "Parent directory “%s” is NOT eligible to be indexed (based on filters)"
+-msgstr ""
+-"Överordnade katalogen ”%s” kvalificerar INTE till att indexeras (baserat på "
+-"filter)"
++msgstr "Den överordnade katalogen ”%s” kan INTE indexeras (baserat på filter)"
+ 
+ #: src/indexer/tracker-application.c:1315
+ #, c-format
+ msgid "Parent directory “%s” is NOT eligible to be indexed (hidden file)"
+-msgstr ""
+-"Överordnade katalogen ”%s” kvalificerar INTE till att indexeras (dold fil)"
++msgstr "Den överordnade katalogen ”%s” kan INTE indexeras (dold fil)"
+ 
+ #: src/indexer/tracker-application.c:1321
+ #, c-format
+ msgid ""
+ "Parent directory “%s” is NOT eligible to be indexed (based on content "
+ "filters)"
+-msgstr ""
+-"Överordnade katalogen ”%s” kvalificerar INTE till att indexeras (baserat på "
+-"innehållsfilter)"
++msgstr "Den överordnade katalogen ”%s” kan INTE indexeras (baserat på innehållsfilter)"
+ 
+ #: src/indexer/tracker-application.c:1336
+ msgid "Directory is NOT eligible to be indexed (based on filters)"
+-msgstr "Katalogen kvalificerar INTE till att indexeras (baserat på filter)"
++msgstr "Katalogen kan INTE indexeras (baserat på filter)"
+ 
+ #: src/indexer/tracker-application.c:1340
+ msgid "File is NOT eligible to be indexed (based on filters)"
+-msgstr "Filen kvalificerar INTE till att indexeras (baserat på filter)"
++msgstr "Filen kan INTE indexeras (baserat på filter)"
+ 
+ #: src/indexer/tracker-application.c:1342
+ msgid "File is NOT eligible to be indexed (hidden file)"
+-msgstr "Filen kvalificerar INTE till att indexeras (dold fil)"
++msgstr "Filen kan INTE indexeras (dold fil)"
+ 
+ #: src/indexer/tracker-application.c:1344
+ msgid "File is NOT eligible to be indexed (not an indexed folder)"
+-msgstr "Filen kvalificerar INTE till att indexeras (inte en indexerad mapp)"
++msgstr "Filen kan INTE indexeras (inte en indexerad mapp)"
+ 
+ #: src/indexer/tracker-application.c:1352
+ msgid "Directory is eligible to be indexed"
+-msgstr "Katalogen kvalificerar till att indexeras"
++msgstr "Katalogen kan indexeras"
+ 
+ #: src/indexer/tracker-application.c:1353
+ msgid "File is eligible to be indexed"
+-msgstr "Filen kvalificerar till att indexeras"
++msgstr "Filen kan indexeras"
+ 
+ #: src/indexer/tracker-endpoint-helper.c:36
+ msgid "Database location"

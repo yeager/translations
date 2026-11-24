@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 02:32 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 02:36 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -509,7 +509,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [library-web — GNOME Library Web site](https://l10n.gnome.org/module/library-web/) | master | 49 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [libwnck](https://l10n.gnome.org/vertimus/libwnck/master/po/sv/) | master | 231 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [lightsoff](https://l10n.gnome.org/vertimus/lightsoff/main/help/sv/) | main | 92 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [LocalSearch](https://l10n.gnome.org/vertimus/localsearch/main/po/sv/) | main | 185 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [LocalSearch](https://l10n.gnome.org/vertimus/localsearch/main/po/sv/) | main | 185 | 0 | 0 | Klar | X | 14 | Klar lokalt (2026-11-24): Hela 185-strängarskatalogen är radgranskad mot senaste POT. Femton befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt och msgcmp är godkända. l10n-lint saknar fel; formatmallen %dd och svenskans identiska singular/plural för dygn är dokumenterade undantag. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](localsearch/main/po/LocalSearch.main.sv.original.po), [granskad](localsearch/main/po/LocalSearch.main.sv.reviewed.po), [diff](localsearch/main/po/LocalSearch.main.sv.review.diff), [notering](localsearch/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [loupe](https://l10n.gnome.org/vertimus/loupe/gnome-50/po/sv/) | gnome-50 | 210 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [loupe](https://l10n.gnome.org/vertimus/loupe/gnome-50/help/sv/) | gnome-50 | 78 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [loupe](https://l10n.gnome.org/vertimus/loupe/main/help/sv/) | main | 78 | 0 | 0 | Klar |  | — | Ej granskad |
