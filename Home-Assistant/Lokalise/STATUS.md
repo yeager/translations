@@ -43,3 +43,10 @@
 - 9 källsökvägar behöver kontroll av referensmål eller nyckelursprung; 5 matchar direkt.
 - Core-TMX validerad: 16 458 poster; Core-export: 42 625 språkpar, 32 exkluderade nycklar.
 - Granskningen fortsätter; inte klar.
+
+## 2026-11-24 – Core 23401–23520
+
+- 9 poster granskade; 3 rökutlösarändringar sparade och återlästa, 6 PM2.5-texter behållna.
+- Två PM2.5-fält får källuppföljning; övriga 7 sökvägar matchar aktuell Core-källa.
+- Core-TMX validerad: 16 465 poster; exporten har 42 624 språkpar och 32 exkluderade nycklar.
+- Core-granskningen fortsätter.
