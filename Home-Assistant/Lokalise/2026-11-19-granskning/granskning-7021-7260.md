@@ -1,6 +1,6 @@
 # Home Assistant Core – granskning 7021–7260
 
-Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Referenser vars mål inte finns i underlaget markeras för senare kontroll.
+Sortering: ”Last added” vid insamlingen. Livegranskningen gjordes 2026-11-24 mot Lokalise API och Home Assistant Core-källträdet på commit `2fdaa177f3e94535b3b649fb1ffc2dbba52eb4ce`. Alla 240 nycklar återfanns. Fyra källor hade utökats sedan rapportens ögonblicksbild, och fullständiga livevärden kontrollerades.
 
 ## 7021. `component::tractive::config::step::user::data_description::email`
 
@@ -54,9 +54,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Only expose tools that are marked as not changing anything.
 
-**Befintlig svenska:** Exponera bara reglage som inte ändrar något.
+**Befintlig svenska:** Exponera bara verktyg som är markerade som att de inte ändrar något.
 
-**Förslag:** Exponera bara verktyg som är markerade som att de inte ändrar något.
+**Livekontroll:** Exponera bara verktyg som är markerade som att de inte ändrar något.
 
 ## 7028. `component::mcp_server::options::step::init::data::read_only`
 
@@ -104,13 +104,13 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Onsdag
 
-**Kontextkontroll:** Kontrollera referensmålet `common::time::wednesday`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::time::wednesday` har verifierats live och jämförts efter synk.
 
 ## 7034. `component::vicare::services::set_circulation_schedule::fields::wednesday::description`
 
 **Engelska:** [%key:component::vicare::services::set_circulation_schedule::fields::monday::description%]
 
-**Befintlig svenska:** [%key:component::vicare::services::set_circulation_schedule::fields::monday::description%]
+**Befintlig svenska:** Cirkulationsintervall för den här dagen. Varje intervall har en start- och sluttid i steg om 10 minuter (använd 00:00 eller 24:00 som sluttid vid dagens slut) och ett cirkulationsläge som stöds av enheten. Dagar som inte anges behåller sitt nuvarande schema.
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -120,13 +120,13 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Tisdag
 
-**Kontextkontroll:** Kontrollera referensmålet `common::time::tuesday`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::time::tuesday` har verifierats live och jämförts efter synk.
 
 ## 7036. `component::vicare::services::set_circulation_schedule::fields::tuesday::description`
 
 **Engelska:** [%key:component::vicare::services::set_circulation_schedule::fields::monday::description%]
 
-**Befintlig svenska:** [%key:component::vicare::services::set_circulation_schedule::fields::monday::description%]
+**Befintlig svenska:** Cirkulationsintervall för den här dagen. Varje intervall har en start- och sluttid i steg om 10 minuter (använd 00:00 eller 24:00 som sluttid vid dagens slut) och ett cirkulationsläge som stöds av enheten. Dagar som inte anges behåller sitt nuvarande schema.
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -136,13 +136,13 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Torsdag
 
-**Kontextkontroll:** Kontrollera referensmålet `common::time::thursday`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::time::thursday` har verifierats live och jämförts efter synk.
 
 ## 7038. `component::vicare::services::set_circulation_schedule::fields::thursday::description`
 
 **Engelska:** [%key:component::vicare::services::set_circulation_schedule::fields::monday::description%]
 
-**Befintlig svenska:** [%key:component::vicare::services::set_circulation_schedule::fields::monday::description%]
+**Befintlig svenska:** Cirkulationsintervall för den här dagen. Varje intervall har en start- och sluttid i steg om 10 minuter (använd 00:00 eller 24:00 som sluttid vid dagens slut) och ett cirkulationsläge som stöds av enheten. Dagar som inte anges behåller sitt nuvarande schema.
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -152,13 +152,13 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Söndag
 
-**Kontextkontroll:** Kontrollera referensmålet `common::time::sunday`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::time::sunday` har verifierats live och jämförts efter synk.
 
 ## 7040. `component::vicare::services::set_circulation_schedule::fields::sunday::description`
 
 **Engelska:** [%key:component::vicare::services::set_circulation_schedule::fields::monday::description%]
 
-**Befintlig svenska:** [%key:component::vicare::services::set_circulation_schedule::fields::monday::description%]
+**Befintlig svenska:** Cirkulationsintervall för den här dagen. Varje intervall har en start- och sluttid i steg om 10 minuter (använd 00:00 eller 24:00 som sluttid vid dagens slut) och ett cirkulationsläge som stöds av enheten. Dagar som inte anges behåller sitt nuvarande schema.
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -168,13 +168,13 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Lördag
 
-**Kontextkontroll:** Kontrollera referensmålet `common::time::saturday`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::time::saturday` har verifierats live och jämförts efter synk.
 
 ## 7042. `component::vicare::services::set_circulation_schedule::fields::saturday::description`
 
 **Engelska:** [%key:component::vicare::services::set_circulation_schedule::fields::monday::description%]
 
-**Befintlig svenska:** [%key:component::vicare::services::set_circulation_schedule::fields::monday::description%]
+**Befintlig svenska:** Cirkulationsintervall för den här dagen. Varje intervall har en start- och sluttid i steg om 10 minuter (använd 00:00 eller 24:00 som sluttid vid dagens slut) och ett cirkulationsläge som stöds av enheten. Dagar som inte anges behåller sitt nuvarande schema.
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -184,15 +184,15 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Måndag
 
-**Kontextkontroll:** Kontrollera referensmålet `common::time::monday`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::time::monday` har verifierats live och jämförts efter synk.
 
 ## 7044. `component::vicare::services::set_circulation_schedule::fields::monday::description`
 
 **Engelska:** Circulation slots for this day. Each slot has a from and to time on a 10-minute grid (use 00:00 or 24:00 as end time for the end of the day) and a circulation mode supported by the device. Days not passed keep their current schedule.
 
-**Befintlig svenska:** Cirkulationsintervall för denna dag. Varje intervall har en start- och sluttid i ett tiominutersrutnät, använd 00:00 eller 24:00 som sluttid för dagens slut och ett cirkulationsläge som stöds av enheten. Dagar som inte skickas behåller sitt nuvarande schema.
+**Befintlig svenska:** Cirkulationsintervall för den här dagen. Varje intervall har en start- och sluttid i steg om 10 minuter (använd 00:00 eller 24:00 som sluttid vid dagens slut) och ett cirkulationsläge som stöds av enheten. Dagar som inte anges behåller sitt nuvarande schema.
 
-**Förslag:** Cirkulationsintervall för den här dagen. Varje intervall har en start- och sluttid i steg om 10 minuter (använd 00:00 eller 24:00 som sluttid vid dagens slut) och ett cirkulationsläge som stöds av enheten. Dagar som inte anges behåller sitt nuvarande schema.
+**Livekontroll:** Cirkulationsintervall för den här dagen. Varje intervall har en start- och sluttid i steg om 10 minuter (använd 00:00 eller 24:00 som sluttid vid dagens slut) och ett cirkulationsläge som stöds av enheten. Dagar som inte anges behåller sitt nuvarande schema.
 
 ## 7045. `component::vicare::services::set_circulation_schedule::fields::friday::name`
 
@@ -200,13 +200,13 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Fredag
 
-**Kontextkontroll:** Kontrollera referensmålet `common::time::friday`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::time::friday` har verifierats live och jämförts efter synk.
 
 ## 7046. `component::vicare::services::set_circulation_schedule::fields::friday::description`
 
 **Engelska:** [%key:component::vicare::services::set_circulation_schedule::fields::monday::description%]
 
-**Befintlig svenska:** [%key:component::vicare::services::set_circulation_schedule::fields::monday::description%]
+**Befintlig svenska:** Cirkulationsintervall för den här dagen. Varje intervall har en start- och sluttid i steg om 10 minuter (använd 00:00 eller 24:00 som sluttid vid dagens slut) och ett cirkulationsläge som stöds av enheten. Dagar som inte anges behåller sitt nuvarande schema.
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -240,7 +240,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** På
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::on`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::state::on` har verifierats live och jämförts efter synk.
 
 ## 7051. `component::vicare::selector::circulation_mode::options::cycles_5_25`
 
@@ -282,13 +282,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
-## 7056. `component::vicare::exceptions::api_error::message`
-
-**Engelska:** Unable to communicate with the ViCare API
-
-**Befintlig svenska:** Det gick inte att kommunicera med ViCare API.
-
-**Förslag:** Det gick inte att kommunicera med ViCare-API:t.
+**Livekontroll:** Det gick inte att kommunicera med ViCare-API:t.
 
 ## 7057. `component::bosch_shc::entity::select::smoke_sensitivity::state::middle`
 
@@ -296,7 +290,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Medel
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::medium`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::state::medium` har verifierats live och jämförts efter synk.
 
 ## 7058. `component::bosch_shc::entity::select::smoke_sensitivity::state::low`
 
@@ -304,7 +298,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Låg
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::low`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::state::low` har verifierats live och jämförts efter synk.
 
 ## 7059. `component::bosch_shc::entity::select::smoke_sensitivity::state::high`
 
@@ -312,7 +306,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Hög
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::high`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::state::high` har verifierats live och jämförts efter synk.
 
 ## 7060. `component::bosch_shc::entity::select::smoke_sensitivity::name`
 
@@ -336,7 +330,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Medel
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::medium`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::state::medium` har verifierats live och jämförts efter synk.
 
 ## 7063. `component::vitesy::entity::sensor::power_level::state::low`
 
@@ -344,7 +338,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Låg
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::low`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::state::low` har verifierats live och jämförts efter synk.
 
 ## 7064. `component::vitesy::entity::sensor::power_level::state::high`
 
@@ -352,7 +346,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Hög
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::high`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::state::high` har verifierats live och jämförts efter synk.
 
 ## 7065. `component::vitesy::entity::sensor::power_level::name`
 
@@ -376,7 +370,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Medel
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::medium`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::state::medium` har verifierats live och jämförts efter synk.
 
 ## 7068. `component::vitesy::entity::sensor::fan_speed::state::low`
 
@@ -384,7 +378,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Låg
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::low`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::state::low` har verifierats live och jämförts efter synk.
 
 ## 7069. `component::vitesy::entity::sensor::fan_speed::state::high`
 
@@ -392,7 +386,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Hög
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::high`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::state::high` har verifierats live och jämförts efter synk.
 
 ## 7070. `component::vitesy::entity::sensor::fan_speed::name`
 
@@ -656,7 +650,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Behåll den aktuella profilen och ignorera reparationen
 
-**Förslag:** Behåll den aktuella profilen
+**Sparat i Lokalise:** Behåll den aktuella profilen och ignorera reparationen
 
 ## 7103. `component::http::issues::ssl_profile_outdated::fix_flow::step::init::menu_options::confirm_modern_v6`
 
@@ -670,9 +664,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Upgrade to Intermediate v6 (recommended)
 
-**Befintlig svenska:** Uppgradera till Intermediate v6, behåller TLS 1.2 (rekommenderas)
+**Befintlig svenska:** Uppgradera till Intermediate v6, som behåller TLS 1.2 (rekommenderas)
 
-**Förslag:** Uppgradera till Intermediate v6 (rekommenderas)
+**Sparat i Lokalise:** Uppgradera till Intermediate v6, som behåller TLS 1.2 (rekommenderas)
 
 ## 7105. `component::http::issues::ssl_profile_outdated::fix_flow::step::init::description`
 
@@ -693,22 +687,24 @@ Oldest supported clients:
 
 If you can no longer reach Home Assistant after the restart, it switches back to `{profile}` automatically after 5 minutes. You can close this dialog to decide later, or change the profile at any time under **Settings** > **System** > **Network** > **HTTP server** > **SSL/TLS**.
 
-**Befintlig svenska:** HTTP-servern använder SSL-profilen `{profile}`, som följer Mozillas föråldrade TLS-riktlinjer: den accepterar TLS 1.2 och senare, men tillåter fortfarande äldre krypteringar som CBC-sviter, RSA-nyckelutbyte eller DHE.
+**Befintlig svenska:** Home Assistants inställningar för HTTPS-kryptering är föråldrade. De använder `{profile}`, som bygger på Mozillas TLS-rekommendationer från 2016 (version 4) och fortfarande tillåter äldre krypteringsmetoder som inte längre anses säkra. Ditt SSL-certifikat påverkas inte och behöver inte ändras.
 
-Vi rekommenderar **Modern v6**, som endast accepterar TLS 1.3. Webbläsare, mobilappar och operativsystem har haft stöd för TLS 1.3 sedan omkring 2018 till 2019, så de flesta uppsättningar påverkas inte. Välj i stället **Intermediate v6** om enheter som slutade få uppdateringar före dess, till exempel äldre smarta TV-apparater, kameror eller hubbar, ansluter direkt till Home Assistant. Den accepterar TLS 1.2 och senare med aktuella krypteringar.
+Det här påverkar bara enheter och appar som ansluter till Home Assistant via HTTPS, till exempel webbläsare, Home Assistant-apparna, väggmonterade surfplattor, enheter som anropar webhooks och högtalare som spelar upp tal eller media från Home Assistant. Anslutningar som Home Assistant gör till dina enheter och tjänster påverkas inte.
 
-Äldsta klienter som kan ansluta:
+Vi rekommenderar att du uppgraderar till **Intermediate v6**, som bygger på de aktuella rekommendationerna (version 6). Den accepterar TLS 1.2 och TLS 1.3, men bara med aktuella krypteringsmetoder, och fungerar därför med nästan alla enheter och appar.
+
+Välj **Modern v6** bara om du vet att allt som ansluter till Home Assistant stöder TLS 1.3. Aktuella webbläsare gör det, men vissa smarta hemenheter, äldre högtalare och telefoner eller surfplattor med äldre versioner än Android 10 gör det inte.
+
+Äldsta klienter som stöds:
 
 | Profil | Chrome | Firefox | Safari | iOS | Android | Edge |
 | --- | --- | --- | --- | --- | --- | --- |
-| Modern v6 | 70 | 63 | 12.1 | 12.2 | 10 | 75 |
 | Intermediate v6 | 49 | 31 | 9 | 9 | 4.4 | 15 |
+| Modern v6 | 70 | 63 | 12.1 | 12.2 | 10 | 75 |
 
-Klienter som är beroende av de äldre krypteringarna, till exempel Windows 7 och 8.1 med Internet Explorer eller annan TLS på systemnivå och ett RSA-certifikat, kan bara fortsätta ansluta med `{profile}`.
+Om du inte längre kan nå Home Assistant efter omstarten återgår systemet automatiskt till `{profile}` efter 5 minuter. Du kan stänga dialogrutan och bestämma senare eller när som helst ändra profilen under **Inställningar** > **System** > **Nätverk** > **HTTP-server** > **SSL/TLS**.
 
-Båda uppgraderingarna tillämpas på prov och återställs automatiskt om du inte bekräftar den nya konfigurationen inom fem minuter. Du kan stänga dialogrutan och bestämma senare eller när som helst ändra profilen under **Inställningar** > **System** > **Nätverk** > **HTTP-server** > **SSL/TLS**.
-
-**Förslag:** Home Assistants inställningar för HTTPS-kryptering är föråldrade. De använder `{profile}`, som bygger på Mozillas TLS-rekommendationer från 2016 (version 4) och fortfarande tillåter äldre krypteringsmetoder som inte längre anses säkra. Ditt SSL-certifikat påverkas inte och behöver inte ändras.
+**Livekontroll:** Home Assistants inställningar för HTTPS-kryptering är föråldrade. De använder `{profile}`, som bygger på Mozillas TLS-rekommendationer från 2016 (version 4) och fortfarande tillåter äldre krypteringsmetoder som inte längre anses säkra. Ditt SSL-certifikat påverkas inte och behöver inte ändras.
 
 Det här påverkar bara enheter och appar som ansluter till Home Assistant via HTTPS, till exempel webbläsare, Home Assistant-apparna, väggmonterade surfplattor, enheter som anropar webhooks och högtalare som spelar upp tal eller media från Home Assistant. Anslutningar som Home Assistant gör till dina enheter och tjänster påverkas inte.
 
@@ -773,9 +769,13 @@ After the restart, confirm the new configuration within 5 minutes once Home Assi
 
 Afterwards, check that devices that connect to Home Assistant using HTTPS still work, for example speakers playing media from Home Assistant or devices calling webhooks. If something can no longer connect, switch back under **Settings** > **System** > **Network** > **HTTP server** > **SSL/TLS**.
 
-**Befintlig svenska:** Home Assistant startar om med profilen **Modern v6** och ber dig bekräfta den nya konfigurationen. Klienter utan stöd för TLS 1.3 kan inte längre ansluta. Om du inte bekräftar inom fem minuter återställs profilen `{profile}` automatiskt.
+**Befintlig svenska:** Home Assistant startar om och använder profilen **Modern v6**. Enheter och appar utan stöd för TLS 1.3 kan inte längre ansluta, till exempel vissa smarta hemenheter, äldre högtalare samt telefoner och surfplattor med äldre versioner än Android 10.
 
-**Förslag:** Home Assistant startar om och använder profilen **Modern v6**. Enheter och appar utan stöd för TLS 1.3 kan inte längre ansluta, till exempel vissa smarta hemenheter, äldre högtalare samt telefoner och surfplattor med äldre versioner än Android 10.
+Bekräfta den nya konfigurationen inom 5 minuter efter omstarten när Home Assistant öppnas i webbläsaren. Om du inte bekräftar, till exempel för att du inte längre kan ansluta, återställer Home Assistant automatiskt profilen `{profile}`.
+
+Kontrollera därefter att enheter som ansluter till Home Assistant via HTTPS fortfarande fungerar, till exempel högtalare som spelar upp media från Home Assistant eller enheter som anropar webhooks. Om något inte längre kan ansluta kan du byta tillbaka under **Inställningar** > **System** > **Nätverk** > **HTTP-server** > **SSL/TLS**.
+
+**Livekontroll:** Home Assistant startar om och använder profilen **Modern v6**. Enheter och appar utan stöd för TLS 1.3 kan inte längre ansluta, till exempel vissa smarta hemenheter, äldre högtalare samt telefoner och surfplattor med äldre versioner än Android 10.
 
 Bekräfta den nya konfigurationen inom 5 minuter efter omstarten när Home Assistant öppnas i webbläsaren. Om du inte bekräftar, till exempel för att du inte längre kan ansluta, återställer Home Assistant automatiskt profilen `{profile}`.
 
@@ -805,9 +805,13 @@ After the restart, confirm the new configuration within 5 minutes once Home Assi
 
 Afterwards, check that devices that connect to Home Assistant using HTTPS still work, for example speakers playing media from Home Assistant or devices calling webhooks. If something can no longer connect, switch back under **Settings** > **System** > **Network** > **HTTP server** > **SSL/TLS**.
 
-**Befintlig svenska:** Home Assistant startar om med profilen **Intermediate v6** och ber dig bekräfta den nya konfigurationen. Klienter som är beroende av de äldre krypteringarna i `{profile}`, till exempel Windows 7 och 8.1 med Internet Explorer eller annan TLS på systemnivå och ett RSA-certifikat, kan inte längre ansluta. Om du inte bekräftar inom fem minuter återställs profilen `{profile}` automatiskt.
+**Befintlig svenska:** Home Assistant startar om och använder profilen **Intermediate v6**. Klienter som är beroende av äldre krypteringsmetoder kan inte längre ansluta, till exempel Internet Explorer eller andra appar som använder den inbyggda krypteringen i Windows 7 eller 8.1 om ditt certifikat använder en RSA-nyckel.
 
-**Förslag:** Home Assistant startar om och använder profilen **Intermediate v6**. Klienter som är beroende av äldre krypteringsmetoder kan inte längre ansluta, till exempel Internet Explorer eller andra appar som använder den inbyggda krypteringen i Windows 7 eller 8.1 om ditt certifikat använder en RSA-nyckel.
+Bekräfta den nya konfigurationen inom 5 minuter efter omstarten när Home Assistant öppnas i webbläsaren. Om du inte bekräftar, till exempel för att du inte längre kan ansluta, återställer Home Assistant automatiskt profilen `{profile}`.
+
+Kontrollera därefter att enheter som ansluter till Home Assistant via HTTPS fortfarande fungerar, till exempel högtalare som spelar upp media från Home Assistant eller enheter som anropar webhooks. Om något inte längre kan ansluta kan du byta tillbaka under **Inställningar** > **System** > **Nätverk** > **HTTP-server** > **SSL/TLS**.
+
+**Livekontroll:** Home Assistant startar om och använder profilen **Intermediate v6**. Klienter som är beroende av äldre krypteringsmetoder kan inte längre ansluta, till exempel Internet Explorer eller andra appar som använder den inbyggda krypteringen i Windows 7 eller 8.1 om ditt certifikat använder en RSA-nyckel.
 
 Bekräfta den nya konfigurationen inom 5 minuter efter omstarten när Home Assistant öppnas i webbläsaren. Om du inte bekräftar, till exempel för att du inte längre kan ansluta, återställer Home Assistant automatiskt profilen `{profile}`.
 
@@ -817,9 +821,9 @@ Kontrollera därefter att enheter som ansluter till Home Assistant via HTTPS for
 
 **Engelska:** Another HTTP configuration change is waiting to be applied or confirmed. Confirm or revert it first, then try again.
 
-**Befintlig svenska:** En ny HTTP-konfiguration väntar redan på att tillämpas eller bekräftas. Bekräfta eller återställ den först.
+**Befintlig svenska:** En annan ändring av HTTP-konfigurationen väntar på att tillämpas eller bekräftas. Bekräfta eller återställ den först och försök sedan igen.
 
-**Förslag:** En annan ändring av HTTP-konfigurationen väntar på att tillämpas eller bekräftas. Bekräfta eller återställ den först och försök sedan igen.
+**Livekontroll:** En annan ändring av HTTP-konfigurationen väntar på att tillämpas eller bekräftas. Bekräfta eller återställ den först och försök sedan igen.
 
 ## 7116. `component::http::issues::ssl_profile_outdated::fix_flow::abort::issue_ignored`
 
@@ -1003,7 +1007,7 @@ Kontrollera därefter att enheter som ansluter till Home Assistant via HTTPS for
 
 **Befintlig svenska:** Ogiltig autentisering
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::invalid_auth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::error::invalid_auth` har verifierats live och jämförts efter synk.
 
 ## 7139. `component::youless::entity::sensor::month_peak_time::name`
 
@@ -1173,7 +1177,7 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 
 **Engelska:** Downloader is not loaded.
 
-**Befintlig svenska:** Hämtaren har inte lästs in.
+**Befintlig svenska:** Downloader-integreringen har inte lästs in.
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1373,17 +1377,17 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 
 **Engelska:** [%key:component::google_generative_ai_conversation::config_subentries::conversation::step::set_options::data_description::thinking_level%]
 
-**Befintlig svenska:** Resonemangsnivå för Gemini 3 och senare textmodeller, inklusive de senaste aliasen. Nivåer som inte stöds använder modellens standardvärde. Det sparade valet behålls. Gemini 2.5 använder i stället tokenbudgeten. "Minimal" garanterar inte att resonemang är avstängt.
+**Befintlig svenska:** Tankenivå för textmodeller från Gemini 3 och senare, inklusive alias för de senaste modellerna. Om nivån inte stöds används modellens standardnivå, men ditt val sparas. Gemini 2.5 använder tankebudgeten i stället. ”Lägsta” garanterar inte att tänkandet är avstängt.
 
-**Kontextkontroll:** Kontrollera referensmålet `component::google_generative_ai_conversation::config_subentries::conversation::step::set_options::data_description::thinking_level`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::google_generative_ai_conversation::config_subentries::conversation::step::set_options::data_description::thinking_level` har verifierats live och jämförts efter synk.
 
 ## 7184. `component::google_generative_ai_conversation::config_subentries::stt::step::set_options::data_description::thinking_budget`
 
 **Engelska:** [%key:component::google_generative_ai_conversation::config_subentries::conversation::step::set_options::data_description::thinking_budget%]
 
-**Befintlig svenska:** Tokenbudget för modellens resonemang, endast Gemini 2.5. Använd -1 för automatiskt eller 0 för att inaktivera, vilket inte är tillgängligt för Gemini 2.5 Pro.
+**Befintlig svenska:** Tokenbudget för modellresonemang (endast Gemini 2.5). Använd -1 för automatiskt eller 0 för att inaktivera (ej tillgängligt för Gemini 2.5 Pro).
 
-**Kontextkontroll:** Kontrollera referensmålet `component::google_generative_ai_conversation::config_subentries::conversation::step::set_options::data_description::thinking_budget`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::google_generative_ai_conversation::config_subentries::conversation::step::set_options::data_description::thinking_budget` har verifierats live och jämförts efter synk.
 
 ## 7185. `component::google_generative_ai_conversation::config_subentries::stt::step::set_options::data_description::temperature`
 
@@ -1437,17 +1441,17 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 
 **Engelska:** [%key:component::google_generative_ai_conversation::config_subentries::conversation::step::set_options::data_description::thinking_level%]
 
-**Befintlig svenska:** Resonemangsnivå för Gemini 3 och senare textmodeller, inklusive de senaste aliasen. Nivåer som inte stöds använder modellens standardvärde. Det sparade valet behålls. Gemini 2.5 använder i stället tokenbudgeten. "Minimal" garanterar inte att resonemang är avstängt.
+**Befintlig svenska:** Tankenivå för textmodeller från Gemini 3 och senare, inklusive alias för de senaste modellerna. Om nivån inte stöds används modellens standardnivå, men ditt val sparas. Gemini 2.5 använder tankebudgeten i stället. ”Lägsta” garanterar inte att tänkandet är avstängt.
 
-**Kontextkontroll:** Kontrollera referensmålet `component::google_generative_ai_conversation::config_subentries::conversation::step::set_options::data_description::thinking_level`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::google_generative_ai_conversation::config_subentries::conversation::step::set_options::data_description::thinking_level` har verifierats live och jämförts efter synk.
 
 ## 7192. `component::google_generative_ai_conversation::config_subentries::ai_task_data::step::set_options::data_description::thinking_budget`
 
 **Engelska:** [%key:component::google_generative_ai_conversation::config_subentries::conversation::step::set_options::data_description::thinking_budget%]
 
-**Befintlig svenska:** Tokenbudget för modellens resonemang, endast Gemini 2.5. Använd -1 för automatiskt eller 0 för att inaktivera, vilket inte är tillgängligt för Gemini 2.5 Pro.
+**Befintlig svenska:** Tokenbudget för modellresonemang (endast Gemini 2.5). Använd -1 för automatiskt eller 0 för att inaktivera (ej tillgängligt för Gemini 2.5 Pro).
 
-**Kontextkontroll:** Kontrollera referensmålet `component::google_generative_ai_conversation::config_subentries::conversation::step::set_options::data_description::thinking_budget`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::google_generative_ai_conversation::config_subentries::conversation::step::set_options::data_description::thinking_budget` har verifierats live och jämförts efter synk.
 
 ## 7193. `component::google_generative_ai_conversation::config_subentries::ai_task_data::step::set_options::data_description::temperature`
 
@@ -1469,9 +1473,9 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 
 **Engelska:** [%key:common::config_flow::title::reauth%]
 
-**Befintlig svenska:** Autentiseringen har upphört för {name}
+**Befintlig svenska:** Autentiseringen har upphört att gälla för {name}
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::title::reauth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::title::reauth` har verifierats live och jämförts efter synk.
 
 ## 7196. `component::slack::config::step::reauth_confirm::description`
 
@@ -1485,9 +1489,9 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 
 **Engelska:** [%key:component::slack::config::step::user::data_description::api_key%]
 
-**Befintlig svenska:** Slack API-token som används för att skicka Slack-meddelanden.
+**Befintlig svenska:** Slack API-token som ska användas för att skicka Slack-meddelanden.
 
-**Kontextkontroll:** Kontrollera referensmålet `component::slack::config::step::user::data_description::api_key`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::slack::config::step::user::data_description::api_key` har verifierats live och jämförts efter synk.
 
 ## 7198. `component::slack::config::step::reauth_confirm::data::api_key`
 
@@ -1495,7 +1499,7 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 
 **Befintlig svenska:** API-nyckel
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::api_key`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::api_key` har verifierats live och jämförts efter synk.
 
 ## 7199. `component::slack::config::abort::wrong_account`
 
@@ -1509,9 +1513,9 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 
 **Engelska:** [%key:common::config_flow::title::reauth%]
 
-**Befintlig svenska:** Autentiseringen har upphört för {name}
+**Befintlig svenska:** Autentiseringen har upphört att gälla för {name}
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::title::reauth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::title::reauth` har verifierats live och jämförts efter synk.
 
 ## 7201. `component::kostal_plenticore::config::step::reauth_confirm::description`
 
@@ -1525,9 +1529,9 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 
 **Engelska:** [%key:component::kostal_plenticore::config::step::user::data::service_code%]
 
-**Befintlig svenska:** Tjänstekod
+**Befintlig svenska:** Servicekod
 
-**Kontextkontroll:** Kontrollera referensmålet `component::kostal_plenticore::config::step::user::data::service_code`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::kostal_plenticore::config::step::user::data::service_code` har verifierats live och jämförts efter synk.
 
 ## 7203. `component::kostal_plenticore::config::step::reauth_confirm::data::password`
 
@@ -1535,15 +1539,15 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 
 **Befintlig svenska:** Lösenord
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::password`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::password` har verifierats live och jämförts efter synk.
 
 ## 7204. `component::smart_meter_texas::config::step::reauth_confirm::title`
 
 **Engelska:** [%key:common::config_flow::title::reauth%]
 
-**Befintlig svenska:** Autentiseringen har upphört för {name}
+**Befintlig svenska:** Autentiseringen har upphört att gälla för {name}
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::title::reauth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::title::reauth` har verifierats live och jämförts efter synk.
 
 ## 7205. `component::smart_meter_texas::config::step::reauth_confirm::description`
 
@@ -1559,15 +1563,15 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 
 **Befintlig svenska:** Lösenord
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::password`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::password` har verifierats live och jämförts efter synk.
 
 ## 7207. `component::rachio::config::step::reauth_confirm::title`
 
 **Engelska:** [%key:common::config_flow::title::reauth%]
 
-**Befintlig svenska:** Autentiseringen har upphört för {name}
+**Befintlig svenska:** Autentiseringen har upphört att gälla för {name}
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::title::reauth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::title::reauth` har verifierats live och jämförts efter synk.
 
 ## 7208. `component::rachio::config::step::reauth_confirm::description`
 
@@ -1583,15 +1587,15 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 
 **Befintlig svenska:** API-nyckel
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::api_key`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::api_key` har verifierats live och jämförts efter synk.
 
 ## 7210. `component::pushbullet::config::step::reauth_confirm::title`
 
 **Engelska:** [%key:common::config_flow::title::reauth%]
 
-**Befintlig svenska:** Autentiseringen har upphört för {name}
+**Befintlig svenska:** Autentiseringen har upphört att gälla för {name}
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::title::reauth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::title::reauth` har verifierats live och jämförts efter synk.
 
 ## 7211. `component::pushbullet::config::step::reauth_confirm::description`
 
@@ -1607,7 +1611,7 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 
 **Befintlig svenska:** API-nyckel
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::api_key`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::api_key` har verifierats live och jämförts efter synk.
 
 ## 7213. `component::pushbullet::config::abort::wrong_account`
 
@@ -1621,9 +1625,9 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 
 **Engelska:** [%key:common::config_flow::title::reauth%]
 
-**Befintlig svenska:** Autentiseringen har upphört för {name}
+**Befintlig svenska:** Autentiseringen har upphört att gälla för {name}
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::title::reauth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::title::reauth` har verifierats live och jämförts efter synk.
 
 ## 7215. `component::nexia::config::step::reauth_confirm::description`
 
@@ -1639,7 +1643,7 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 
 **Befintlig svenska:** Lösenord
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::password`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::password` har verifierats live och jämförts efter synk.
 
 ## 7217. `component::nexia::config::abort::wrong_account`
 
@@ -1653,9 +1657,9 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 
 **Engelska:** [%key:common::config_flow::title::reauth%]
 
-**Befintlig svenska:** Autentiseringen har upphört för {name}
+**Befintlig svenska:** Autentiseringen har upphört att gälla för {name}
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::title::reauth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::title::reauth` har verifierats live och jämförts efter synk.
 
 ## 7219. `component::kodi::config::step::reauth_confirm::description`
 
@@ -1671,7 +1675,7 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 
 **Befintlig svenska:** Användarnamn
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::username`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::username` har verifierats live och jämförts efter synk.
 
 ## 7221. `component::kodi::config::step::reauth_confirm::data::password`
 
@@ -1679,15 +1683,15 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 
 **Befintlig svenska:** Lösenord
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::password`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::password` har verifierats live och jämförts efter synk.
 
 ## 7222. `component::bond::config::step::reauth_confirm::title`
 
 **Engelska:** [%key:common::config_flow::title::reauth%]
 
-**Befintlig svenska:** Autentiseringen har upphört för {name}
+**Befintlig svenska:** Autentiseringen har upphört att gälla för {name}
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::title::reauth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::title::reauth` har verifierats live och jämförts efter synk.
 
 ## 7223. `component::bond::config::step::reauth_confirm::description`
 
@@ -1703,7 +1707,7 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 
 **Befintlig svenska:** Åtkomsttoken
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::access_token`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::access_token` har verifierats live och jämförts efter synk.
 
 ## 7225. `component::bond::config::abort::wrong_device`
 
@@ -1992,3 +1996,41 @@ Uppdatera automatiseringarna och skripten så att de använder det nya schemat m
 **Befintlig svenska:** Inte ett giltigt värde.
 
 **Bedömning:** Ingen ändring föreslås.
+## Livegranskning 2026-11-24
+
+
+Alla 240 nycklar radgranskades mot aktuell källtext och livevärden. 64 användningar av 33 unika referensmål kontrollerades; de 11 avvikande målenhetstexterna synkades. Resterande referensanvändningar matchar. 14 textändringar sparades i Lokalise. Alla 15 API-skrivningar återlästes; en skrivning visade att värdet redan var identiskt. Fyra källposter hade utökats; fullständiga källor och befintliga översättningar synkades till TM. Övriga 225 nycklar behölls efter kontroll.
+
+
+### Ändringar sparade i Lokalise
+
+
+| Fullständig nyckel | Före | Efter | Skäl |
+| --- | --- | --- | --- |
+| `component::google_generative_ai_conversation::config_subentries::stt::step::set_options::data_description::thinking_budget` | `Tokenbudget för modellens resonemang, endast Gemini 2.5. Använd -1 för automatiskt eller 0 för att inaktivera, vilket inte är tillgängligt för Gemini 2.5 Pro.` | `Tokenbudget för modellresonemang (endast Gemini 2.5). Använd -1 för automatiskt eller 0 för att inaktivera (ej tillgängligt för Gemini 2.5 Pro).` | Matchar den kontrollerade referenstexten. |
+| `component::google_generative_ai_conversation::config_subentries::ai_task_data::step::set_options::data_description::thinking_budget` | `Tokenbudget för modellens resonemang, endast Gemini 2.5. Använd -1 för automatiskt eller 0 för att inaktivera, vilket inte är tillgängligt för Gemini 2.5 Pro.` | `Tokenbudget för modellresonemang (endast Gemini 2.5). Använd -1 för automatiskt eller 0 för att inaktivera (ej tillgängligt för Gemini 2.5 Pro).` | Matchar den kontrollerade referenstexten. |
+| `component::slack::config::step::reauth_confirm::title` | `Autentiseringen har upphört för {name}` | `Autentiseringen har upphört att gälla för {name}` | Matchar den kontrollerade referenstexten. |
+| `component::slack::config::step::reauth_confirm::data_description::api_key` | `Slack API-token som används för att skicka Slack-meddelanden.` | `Slack API-token som ska användas för att skicka Slack-meddelanden.` | Matchar den kontrollerade referenstexten. |
+| `component::kostal_plenticore::config::step::reauth_confirm::title` | `Autentiseringen har upphört för {name}` | `Autentiseringen har upphört att gälla för {name}` | Matchar den kontrollerade referenstexten. |
+| `component::smart_meter_texas::config::step::reauth_confirm::title` | `Autentiseringen har upphört för {name}` | `Autentiseringen har upphört att gälla för {name}` | Matchar den kontrollerade referenstexten. |
+| `component::rachio::config::step::reauth_confirm::title` | `Autentiseringen har upphört för {name}` | `Autentiseringen har upphört att gälla för {name}` | Matchar den kontrollerade referenstexten. |
+| `component::pushbullet::config::step::reauth_confirm::title` | `Autentiseringen har upphört för {name}` | `Autentiseringen har upphört att gälla för {name}` | Matchar den kontrollerade referenstexten. |
+| `component::nexia::config::step::reauth_confirm::title` | `Autentiseringen har upphört för {name}` | `Autentiseringen har upphört att gälla för {name}` | Matchar den kontrollerade referenstexten. |
+| `component::kodi::config::step::reauth_confirm::title` | `Autentiseringen har upphört för {name}` | `Autentiseringen har upphört att gälla för {name}` | Matchar den kontrollerade referenstexten. |
+| `component::bond::config::step::reauth_confirm::title` | `Autentiseringen har upphört för {name}` | `Autentiseringen har upphört att gälla för {name}` | Matchar den kontrollerade referenstexten. |
+| `component::http::issues::ssl_profile_outdated::fix_flow::step::init::menu_options::ignore` | `Behåll den aktuella profilen` | `Behåll den aktuella profilen och ignorera reparationen` | Bevarar båda handlingarna i alternativet. |
+| `component::http::issues::ssl_profile_outdated::fix_flow::step::init::menu_options::confirm_intermediate_v6` | `Uppgradera till Intermediate v6 (rekommenderas)` | `Uppgradera till Intermediate v6, som behåller TLS 1.2 (rekommenderas)` | Bevarar att Intermediate v6 stöder TLS 1.2. |
+| `component::downloader::exceptions::not_loaded::message` | `Nedladdaren har inte lästs in.` | `Downloader-integreringen har inte lästs in.` | Gör klart att Downloader-integreringen inte är inläst. |
+
+### Verifiering och öppna punkter
+
+
+- Fullständig källtext kontrollerades för HTTPS/TLS-beskrivningen, Modern v6- och Intermediate v6-bekräftelserna samt Mastodon-exemplet. Aktuella svenska mål är kompletta; YAML-exemplet och tabellstrukturen bevaras.
+
+- Placeholder-set för samtliga källor och mål jämfördes: mismatch saknas.
+
+- Rapporterade referensmål saknas inte. API-feltext, veckodagsfält och common states uppslagades live; efter uppdatering är referensvärdena konsekventa.
+
+- Exportens granskningsstatus: `reviewed-saved` för 14 ändrade nycklar, `reviewed-existing` för övriga 226, `verified-reference-target` för externa mål.
+
+- Core TM-export valideras efter snapshotuppdateringen. Nästa batch börjar vid 7261.
