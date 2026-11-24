@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 02:18 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 02:21 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -492,7 +492,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [Keypunch — Practice your typing skills](https://l10n.gnome.org/vertimus/keypunch/main/po/sv/) | main | 84 | 0 | 0 | Klar | X | 5 | Klar lokalt (2026-11-24): Hela 84-strängarskatalogen är radgranskad mot senaste POT. Fem befintliga kvalitetsbrister och filhuvudets fuzzy-markering är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](keypunch/main/po/Keypunch.main.sv.original.po), [granskad](keypunch/main/po/Keypunch.main.sv.reviewed.po), [diff](keypunch/main/po/Keypunch.main.sv.review.diff), [notering](keypunch/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [krb5-auth-dialog](https://l10n.gnome.org/vertimus/krb5-auth-dialog/main/po/sv/) | main | 391 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [krb5-auth-dialog](https://l10n.gnome.org/vertimus/krb5-auth-dialog/main/help/sv/) | main | 61 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [libadwaita](https://l10n.gnome.org/vertimus/libadwaita/main/po/sv/) | main | 143 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [libadwaita](https://l10n.gnome.org/vertimus/libadwaita/main/po/sv/) | main | 143 | 0 | 0 | Klar | X | 9 | Klar lokalt (2026-11-24): Hela 143-strängarskatalogen är radgranskad mot senaste POT. Nio befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](libadwaita/main/po/libadwaita.main.sv.original.po), [granskad](libadwaita/main/po/libadwaita.main.sv.reviewed.po), [diff](libadwaita/main/po/libadwaita.main.sv.review.diff), [notering](libadwaita/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [libcryptui](https://l10n.gnome.org/module/libcryptui/) | master | 192 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [libepc](https://l10n.gnome.org/module/libepc/) | master | 26 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [libgda](https://l10n.gnome.org/vertimus/libgda/master/po/sv/) | master | 2134 | 0 | 0 | Klar |  | — | Ej granskad |

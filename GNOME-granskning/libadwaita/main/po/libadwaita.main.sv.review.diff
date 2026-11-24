@@ -1,0 +1,99 @@
+diff --git a/.work-gnome-review/libadwaita-main-po/original.po b/.work-gnome-review/libadwaita-main-po/sv.po
+index 1e5fc3f..c71c1d5 100644
+--- a/.work-gnome-review/libadwaita-main-po/original.po
++++ b/.work-gnome-review/libadwaita-main-po/sv.po
+@@ -3,14 +3,15 @@
+ # This file is distributed under the same license as the libadwaita package.
+ # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
+ # Luna Jernberg <droidbittin@gmail.com>, 2022.
++# Daniel Nylander <gnome@danielnylander.se>, 2026.
+ #
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: libadwaita\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libadwaita/issues\n"
+ "POT-Creation-Date: 2026-10-16 11:49+0000\n"
+-"PO-Revision-Date: 2026-08-23 13:03+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -164,7 +165,7 @@ msgstr "Version %s"
+ #: src/adw-about-dialog.c:1061 src/adw-about-window.c:1051
+ #, c-format
+ msgid "Unable to parse release notes: %s at line %d, char %d"
+-msgstr "Kunde inte tolka kommentarer till utgåva: %s på rad %d, tecken %d"
++msgstr "Kunde inte tolka versionskommentarer: %s på rad %d, tecken %d"
+ 
+ #. Translators: this is an error message, displayed when the release notes
+ #. are invalid. It will appear in the UI, instead of release notes.
+@@ -172,7 +173,7 @@ msgstr "Kunde inte tolka kommentarer till utgåva: %s på rad %d, tecken %d"
+ #. "Line: %d, character: %d" string.
+ #: src/adw-about-dialog.c:1071 src/adw-about-window.c:1061
+ msgid "Unable to parse release notes:"
+-msgstr "Kunde inte tolka kommentarer till utgåva:"
++msgstr "Kunde inte tolka versionskommentarer:"
+ 
+ #. Translators: shown after the error when release notes couldn't be parsed.
+ #. The first variable is the line number, the second one is the position
+@@ -270,7 +271,7 @@ msgstr "_Juridisk information"
+ #. (like credits but separate, e.g. for patreon backers)
+ #: src/adw-about-dialog.ui:228 src/adw-about-window.ui:231
+ msgid "_Acknowledgements"
+-msgstr "T_illkännagivanden"
++msgstr "_Tillkännagivanden"
+ 
+ #. Translators: title of the release notes page
+ #: src/adw-about-dialog.ui:264 src/adw-about-window.ui:262
+@@ -296,7 +297,7 @@ msgid ""
+ msgstr ""
+ "För att hjälpa till att lösa problem kan du se din felsökningsinformation. "
+ "Att tillhandahålla denna information till programutvecklarna kan hjälpa till "
+-"att diagnosticera problem som du stöter på när du rapporterar ett ärende."
++"att diagnostisera problem som du stöter på när du rapporterar ett ärende."
+ 
+ #. Translators: title of the row that opens the debug information page
+ #: src/adw-about-dialog.ui:407 src/adw-about-window.ui:405
+@@ -542,7 +543,7 @@ msgstr "Verkställ"
+ #: src/adw-indicator-bin.c:80
+ msgctxt "view switcher button badge"
+ msgid "Attention requested."
+-msgstr "Behöver uppmärksamhet."
++msgstr "Kräver uppmärksamhet."
+ 
+ #. Translators: used by screen reader when reading out view switcher pages
+ #. which have the unread badge (e.g. the number of updates/notifications).
+@@ -566,19 +567,19 @@ msgstr "Har ett emblem: %u."
+ #. light or dark.
+ #: src/adw-inspector-page.c:135
+ msgid "No Preference"
+-msgstr "Inget föredraget"
++msgstr "Ingen inställning"
+ 
+ #. Translators: one of the color scheme dropdown options in inspector.
+ #. The system prefers apps to be dark.
+ #: src/adw-inspector-page.c:139
+ msgid "Prefer Dark"
+-msgstr "Föredra mörkt"
++msgstr "Föredra mörkt utseende"
+ 
+ #. Translators: one of the color scheme dropdown options in inspector.
+ #. The system prefers apps to be light.
+ #: src/adw-inspector-page.c:143
+ msgid "Prefer Light"
+-msgstr "Föredra ljust"
++msgstr "Föredra ljust utseende"
+ 
+ #. Translators: one of the accent color dropdown options in inspector
+ #: src/adw-inspector-page.c:157
+@@ -641,7 +642,7 @@ msgid ""
+ "Override settings for this application. They will be reset upon closing the "
+ "inspector."
+ msgstr ""
+-"Åsidosätt inställningar för detta program. De kommer återställas då "
++"Åsidosätt inställningar för detta program. De kommer att återställas när "
+ "inspektören stängs."
+ 
+ #. Translators: title of the system-supports-color-scheme switch row.
