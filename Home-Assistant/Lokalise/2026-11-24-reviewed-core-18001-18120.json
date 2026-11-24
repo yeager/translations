@@ -1,0 +1,1202 @@
+[
+  {
+    "key": "component::zwave_js::exceptions::no_available_user_slots::message",
+    "key_id": "856458202",
+    "translation_id": "8573777808",
+    "en": "No available user slots on this device",
+    "sv": "Inga tillgängliga användarplatser på den här enheten",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::exceptions::no_available_credential_slots::message",
+    "key_id": "856458201",
+    "translation_id": "8573777744",
+    "en": "No available {credential_type} credential slots on this device",
+    "sv": "Inga tillgängliga {credential_type} autentiseringsuppgifter på den här enheten",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::exceptions::get_users_failed::message",
+    "key_id": "856458200",
+    "translation_id": "8573777680",
+    "en": "Failed to get users: {error}",
+    "sv": "Misslyckades med att hämta användare: {error}",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::exceptions::get_credential_capabilities_failed::message",
+    "key_id": "856458199",
+    "translation_id": "8573777616",
+    "en": "Failed to get credential capabilities: {error}",
+    "sv": "Misslyckades med att hämta autentiseringsuppgifter: {error}",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::exceptions::delete_user_failed::message",
+    "key_id": "856458198",
+    "translation_id": "8573777552",
+    "en": "Failed to delete user {user_id}: {error}",
+    "sv": "Misslyckades med att ta bort användaren {user_id}: {error}",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::exceptions::delete_credential_failed::message",
+    "key_id": "856458197",
+    "translation_id": "8573777488",
+    "en": "Failed to delete credential: {error}",
+    "sv": "Misslyckades med att ta bort inloggningsuppgifter: {error}",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::exceptions::delete_all_users_failed::message",
+    "key_id": "856458196",
+    "translation_id": "8573777424",
+    "en": "Failed to delete all users: {error}",
+    "sv": "Misslyckades med att ta bort alla användare: {error}",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::exceptions::delete_all_credentials_partial_failure::message",
+    "key_id": "856458195",
+    "translation_id": "8573777360",
+    "en": "Failed to delete {failed_count} credentials for user {user_id}. See logs for details.",
+    "sv": "Misslyckades med att ta bort {failed_count} -autentiseringsuppgifter för användaren {user_id}. Se loggar för detaljer.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::exceptions::delete_all_credentials_failed::message",
+    "key_id": "856458194",
+    "translation_id": "8573777296",
+    "en": "Failed to delete all credentials for user {user_id}: {error}",
+    "sv": "Misslyckades med att ta bort alla autentiseringsuppgifter för användaren {user_id}: {error}",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::exceptions::credential_type_not_supported::message",
+    "key_id": "856458193",
+    "translation_id": "8573777232",
+    "en": "Credential type {credential_type} is not supported on this device",
+    "sv": "Denna autentiseringstyp ({credential_type}) stöds inte på den här enheten",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::exceptions::credential_slot_out_of_range::message",
+    "key_id": "856458192",
+    "translation_id": "8573777168",
+    "en": "Credential slot for {credential_type} must be between 1 and {max_slot}.",
+    "sv": "Autentiseringsplats för {credential_type} måste vara mellan 1 och {max_slot}.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::exceptions::credential_rejected_wrong_uuid::message",
+    "key_id": "856458191",
+    "translation_id": "8573777104",
+    "en": "The device rejected the credential because the user unique identifier does not match.",
+    "sv": "Enheten avvisade referensen eftersom den unika identifieraren för användaren inte stämmer överens.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::exceptions::credential_rejected_unknown::message",
+    "key_id": "856458190",
+    "translation_id": "8573777040",
+    "en": "The device rejected the credential without giving a reason.",
+    "sv": "Enheten avvisade inloggningsuppgifterna utan att ange någon orsak.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::exceptions::credential_rejected_modify_empty::message",
+    "key_id": "856458189",
+    "translation_id": "8573776976",
+    "en": "Cannot modify credential: the slot is empty.",
+    "sv": "Det går inte att ändra autentiseringsuppgifterna: platsen är tom.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::exceptions::credential_rejected_manufacturer_rules::message",
+    "key_id": "856458188",
+    "translation_id": "8573776912",
+    "en": "The credential violates the device's manufacturer security rules (for example, it is too short, too long, or uses a disallowed pattern).",
+    "sv": "Autentiseringsuppgifterna strider mot enhetstillverkarens säkerhetsregler (de är till exempel för korta, för långa eller följer ett otillåtet mönster).",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::exceptions::credential_rejected_duplicate::message",
+    "key_id": "856458187",
+    "translation_id": "8573776848",
+    "en": "This credential is already registered on the device.",
+    "sv": "Denna autentiseringsuppgift är redan registrerad på enheten.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::exceptions::credential_rejected_add_occupied::message",
+    "key_id": "856458186",
+    "translation_id": "8573776784",
+    "en": "Cannot add credential: the target slot is already in use.",
+    "sv": "Det går inte att lägga till autentiseringsuppgifter: målplatsen används redan.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::exceptions::credential_data_pin_not_digits::message",
+    "key_id": "856458185",
+    "translation_id": "8573776720",
+    "en": "PIN code must contain only digits.",
+    "sv": "PIN-koden får endast innehålla siffror.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::exceptions::credential_data_invalid_length::message",
+    "key_id": "856458184",
+    "translation_id": "8573776656",
+    "en": "Credential of type {credential_type} must be between {min_length} and {max_length} characters long.",
+    "sv": "Autentiseringsuppgifter av typen {credential_type} måste vara mellan {min_length} och {max_length} tecken långa.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::zwave_js::exceptions::access_control_not_supported::message",
+    "key_id": "856458183",
+    "translation_id": "8573776592",
+    "en": "Access control is not supported on this device",
+    "sv": "Åtkomstkontroll stöds inte på den här enheten",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::cert_expiry::config::step::reconfigure::title",
+    "key_id": "856273151",
+    "translation_id": "8571634260",
+    "en": "Reconfigure the certificate to test",
+    "sv": "Konfigurera om certifikatet som ska testas",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::cert_expiry::config::step::reconfigure::data::port",
+    "key_id": "856273150",
+    "translation_id": "8571634196",
+    "en": "Port",
+    "sv": "Port",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::cert_expiry::config::step::reconfigure::data::host",
+    "key_id": "856273149",
+    "translation_id": "8571634132",
+    "en": "Host",
+    "sv": "Värd",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::cert_expiry::config::abort::reconfigure_successful",
+    "key_id": "856273148",
+    "translation_id": "8571634068",
+    "en": "Reconfiguration was successful",
+    "sv": "Omkonfigureringen lyckades",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::speedtestdotnet::options::step::init::data_description::server_name",
+    "key_id": "856232973",
+    "translation_id": "8570286831",
+    "en": "The Speedtest.net server to use for tests. Select auto detect to automatically choose a server.",
+    "sv": "Den Speedtest.net-server som ska användas för tester. Välj auto detect för att automatiskt välja en server.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smlight::services::play_rtttl::name",
+    "key_id": "856175752",
+    "translation_id": "8569206605",
+    "en": "Play RTTTL tone",
+    "sv": "Spela RTTTL-ton",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smlight::services::play_rtttl::fields::octave::name",
+    "key_id": "856175751",
+    "translation_id": "8569206541",
+    "en": "Octave",
+    "sv": "Oktav",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smlight::services::play_rtttl::fields::octave::description",
+    "key_id": "856175750",
+    "translation_id": "8569206477",
+    "en": "Default octave (4–7).",
+    "sv": "Standardoktav (4–7).",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smlight::services::play_rtttl::fields::notes::name",
+    "key_id": "856175749",
+    "translation_id": "8569206413",
+    "en": "Notes",
+    "sv": "Noter",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smlight::services::play_rtttl::fields::notes::description",
+    "key_id": "856175748",
+    "translation_id": "8569206349",
+    "en": "The note sequence in RTTTL format, e.g. 8d,8d#,8e,c6.",
+    "sv": "Notföljden i RTTTL-format, t.ex. 8d, 8d#, 8e, c6.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smlight::services::play_rtttl::fields::duration::name",
+    "key_id": "856175747",
+    "translation_id": "8569206285",
+    "en": "Duration",
+    "sv": "Varaktighet",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smlight::services::play_rtttl::fields::duration::description",
+    "key_id": "856175746",
+    "translation_id": "8569206221",
+    "en": "Default note duration (1, 2, 4, 8, 16 or 32). Omit to use the RTTTL default of 4.",
+    "sv": "Standardlängd för not (1, 2, 4, 8, 16 eller 32). Lämna fältet tomt för att använda RTTTL:s standardvärde 4.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smlight::services::play_rtttl::fields::device_id::name",
+    "key_id": "856175745",
+    "translation_id": "8569206157",
+    "en": "Device",
+    "sv": "Enhet",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smlight::services::play_rtttl::fields::device_id::description",
+    "key_id": "856175744",
+    "translation_id": "8569206093",
+    "en": "The SMLIGHT device.",
+    "sv": "SMLIGHT-enheten.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smlight::services::play_rtttl::fields::bpm::name",
+    "key_id": "856175743",
+    "translation_id": "8569206029",
+    "en": "BPM",
+    "sv": "BPM",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smlight::services::play_rtttl::fields::bpm::description",
+    "key_id": "856175742",
+    "translation_id": "8569205965",
+    "en": "Tempo in beats per minute. Omit to use the RTTTL default of 63.",
+    "sv": "Tempo i slag per minut (bpm). Utelämna detta för att använda RTTTL:s standardvärde på 63.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smlight::services::play_rtttl::description",
+    "key_id": "856175741",
+    "translation_id": "8569205901",
+    "en": "Play an RTTTL melody on the SMLIGHT device buzzer.",
+    "sv": "Spela upp en RTTTL-melodi på SMLIGHT-enhetens summer.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smlight::exceptions::play_tone_failed::message",
+    "key_id": "856175740",
+    "translation_id": "8569205837",
+    "en": "Failed to play tone on {device_name}: {error}.",
+    "sv": "Det gick inte att spela upp ljudet på {device_name}: {error}.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smlight::exceptions::not_supported_buzzer::message",
+    "key_id": "856175739",
+    "translation_id": "8569205773",
+    "en": "The selected SMLIGHT device does not support the buzzer feature. This feature is only available on Ultima models.",
+    "sv": "Den valda SMLIGHT-enheten stöder inte summerfunktionen. Denna funktion finns endast på Ultima-modellerna.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::smlight::exceptions::no_device_found::message",
+    "key_id": "856175738",
+    "translation_id": "8569205709",
+    "en": "No valid SMLIGHT device found for the given targets.",
+    "sv": "Ingen giltig SMLIGHT-enhet hittades för de angivna målen.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::freebox::entity::switch::wifi::name",
+    "key_id": "856175712",
+    "translation_id": "8569205466",
+    "en": "Wi-Fi",
+    "sv": "Wi-Fi",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::freebox::entity::sensor::rate_up::name",
+    "key_id": "856175711",
+    "translation_id": "8569205402",
+    "en": "Upload speed",
+    "sv": "Uppladdningshastighet",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::freebox::entity::sensor::rate_down::name",
+    "key_id": "856175710",
+    "translation_id": "8569205338",
+    "en": "Download speed",
+    "sv": "Nedladdningshastighet",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::freebox::entity::sensor::partition_free_space::name",
+    "key_id": "856175709",
+    "translation_id": "8569205274",
+    "en": "{partition} free space",
+    "sv": "{partition} fritt utrymme",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::freebox::entity::sensor::missed::name",
+    "key_id": "856175708",
+    "translation_id": "8569205210",
+    "en": "Missed calls",
+    "sv": "Missade samtal",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::freebox::entity::button::mark_calls_as_read::name",
+    "key_id": "856175707",
+    "translation_id": "8569205146",
+    "en": "Mark calls as read",
+    "sv": "Markera samtal som lästa",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::freebox::entity::binary_sensor::raid_degraded::name",
+    "key_id": "856175706",
+    "translation_id": "8569205082",
+    "en": "RAID array {id} degraded",
+    "sv": "RAID-matris {id} degraderad",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::freebox::entity::binary_sensor::cover::name",
+    "key_id": "856175705",
+    "translation_id": "8569205018",
+    "en": "Cover",
+    "sv": "Skydd",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::homeassistant::issues::platform_setup_not_supported::title",
+    "key_id": "856167442",
+    "translation_id": "8569105537",
+    "en": "Unused YAML configuration for the {integration_domain} integration",
+    "sv": "Oanvänd YAML-konfiguration för integrationen {integration_domain}",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::homeassistant::issues::platform_setup_not_supported::description",
+    "key_id": "856167441",
+    "translation_id": "8569105473",
+    "en": "It's not possible to configure {integration_domain} {platform_domain} by adding `{platform_key}` to the {platform_domain} configuration. Please check the documentation for more information on how to set up this integration.\n\nTo resolve this:\n\n1. Remove `{platform_key}` occurrences from the `{platform_domain}:` configuration in your YAML configuration file.\n\n2. Restart Home Assistant.",
+    "sv": "Det går inte att konfigurera {integration_domain} {platform_domain} genom att lägga till `{platform_key}` i {platform_domain} -konfigurationen. Mer information om hur du konfigurerar den här integrationen finns i dokumentationen. \n\nSå här löser du problemet: \n\n1. Ta bort förekomster av `{platform_key}` från konfigurationen `{platform_domain}:` i din YAML-konfigurationsfil. \n\n2. Starta om Home Assistant.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::homeassistant::issues::platform_config_not_supported::title",
+    "key_id": "856167440",
+    "translation_id": "8569105409",
+    "en": "Unsupported YAML configuration for the {integration_domain} integration",
+    "sv": "YAML-konfiguration som inte stöds för {integration_domain} -integrationen",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::homeassistant::issues::platform_config_not_supported::description",
+    "key_id": "856167439",
+    "translation_id": "8569105345",
+    "en": "Configuring the {integration_domain} integration by adding `{platform_key}` under the `{platform_domain}:` key is not supported. The {integration_domain} integration must be configured under its own `{integration_domain}:` key instead.\n\nTo resolve this:\n\n1. Remove the following from your YAML configuration file:\n\n{yaml_example}\n\n2. Move the configuration under the `{integration_domain}:` key instead.\n\n3. Restart Home Assistant.\n\nTo see the detailed documentation, select Learn more.",
+    "sv": "Det går inte att konfigurera {integration_domain} -integrationen genom att lägga till `{platform_key}` under nyckeln `{platform_domain}:`. Integrationen {integration_domain} måste istället konfigureras under sin egen nyckel `{integration_domain}:`. \n\nSå här löser du detta: \n\n1. Ta bort följande från din YAML-konfigurationsfil:\n\n{yaml_example}\n\n2. Flytta konfigurationen under nyckeln `{integration_domain}:` istället. \n\n3. Starta om Home Assistant. \n\nFör att se den detaljerade dokumentationen, välj Läs mer.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::rflink::issues::yaml_migration::title",
+    "key_id": "856164112",
+    "translation_id": "8569062203",
+    "en": "Your {platform} RFLink configuration needs to be migrated",
+    "sv": "Din {platform} RFLink-konfiguration måste migreras",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::rflink::issues::yaml_migration::description",
+    "key_id": "856164111",
+    "translation_id": "8569062139",
+    "en": "Your current RFLink {platform} YAML configuration needs to be migrated to the new configuration format.",
+    "sv": "Din nuvarande RFLink {platform} YAML-konfiguration måste migreras till det nya konfigurationsformatet.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::homekit::options::step::bridged_device_triggers::title",
+    "key_id": "856103836",
+    "translation_id": "8568262193",
+    "en": "Bridged device triggers",
+    "sv": "Bryggade enhetsutlösare",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::homekit::options::step::bridged_device_triggers::description",
+    "key_id": "856103835",
+    "translation_id": "8568262129",
+    "en": "Programmable switches are created for each selected device. When a device trigger fires, HomeKit can be configured to run an automation or scene.",
+    "sv": "Programmerbara brytare skapas för varje vald enhet. När en enhetsutlösare utlöses kan HomeKit konfigureras för att köra en automatisering eller scen.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::homekit::options::step::bridged_device_triggers::data::devices",
+    "key_id": "856103834",
+    "translation_id": "8568262065",
+    "en": "Devices (Triggers)",
+    "sv": "Enheter (utlösare)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::solaredge::entity::sensor::storage_flow_direction::state::discharge",
+    "key_id": "856073034",
+    "translation_id": "8567718586",
+    "en": "Discharge",
+    "sv": "Urladdning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::solaredge::entity::sensor::storage_flow_direction::state::charge",
+    "key_id": "856073033",
+    "translation_id": "8567718522",
+    "en": "Charge",
+    "sv": "Laddning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::solaredge::entity::sensor::storage_flow_direction::name",
+    "key_id": "856073032",
+    "translation_id": "8567718458",
+    "en": "Storage flow direction",
+    "sv": "Flödesriktning för lagring",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::solaredge::entity::sensor::grid_flow_direction::state::import",
+    "key_id": "856073031",
+    "translation_id": "8567718394",
+    "en": "Import",
+    "sv": "Import",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::solaredge::entity::sensor::grid_flow_direction::state::export",
+    "key_id": "856073030",
+    "translation_id": "8567718330",
+    "en": "Export",
+    "sv": "Export",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::solaredge::entity::sensor::grid_flow_direction::name",
+    "key_id": "856073029",
+    "translation_id": "8567718266",
+    "en": "Grid flow direction",
+    "sv": "Nätets flödesriktning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::selector::yearly_events::options::weekly_portion",
+    "key_id": "856072697",
+    "translation_id": "8567711667",
+    "en": "Torah portion",
+    "sv": "Torah-avsnitt",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::selector::yearly_events::options::omer_count",
+    "key_id": "856072696",
+    "translation_id": "8567711603",
+    "en": "Omer count",
+    "sv": "Omer-räkning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::selector::yearly_events::options::holiday",
+    "key_id": "856072695",
+    "translation_id": "8567711539",
+    "en": "Jewish holidays",
+    "sv": "Judiska helgdagar",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::selector::yearly_events::options::havdalah",
+    "key_id": "856072694",
+    "translation_id": "8567711475",
+    "en": "Havdalah",
+    "sv": "Havdalah",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::selector::yearly_events::options::candle_lighting",
+    "key_id": "856072693",
+    "translation_id": "8567711411",
+    "en": "Candle lighting",
+    "sv": "Tändning av ljus",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::selector::learning_schedule::options::daf_yomi",
+    "key_id": "856072692",
+    "translation_id": "8567711347",
+    "en": "Daf Yomi",
+    "sv": "Daf Yomi",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::selector::daily_events::options::tset_hakohavim_tsom",
+    "key_id": "856072691",
+    "translation_id": "8567711283",
+    "en": "T'set Hakochavim (nightfall)",
+    "sv": "T'set Hakochavim (skymning)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::selector::daily_events::options::sof_zman_tfilla_mga",
+    "key_id": "856072690",
+    "translation_id": "8567711219",
+    "en": "Sof Zman Tefilla (Mg\"A)",
+    "sv": "Sof Zman Tefilla (Mg\"A)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::selector::daily_events::options::sof_zman_tfilla_gra",
+    "key_id": "856072689",
+    "translation_id": "8567711155",
+    "en": "Sof Zman Tefilla (Gr\"A)",
+    "sv": "Sof Zman Tefilla (Gr\"A)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::selector::daily_events::options::sof_zman_shema_mga",
+    "key_id": "856072688",
+    "translation_id": "8567711091",
+    "en": "Sof Zman Shema (Mg\"A)",
+    "sv": "Sof Zman Shema (Mg\"A)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::selector::daily_events::options::sof_zman_shema_gra",
+    "key_id": "856072687",
+    "translation_id": "8567711027",
+    "en": "Sof Zman Shema (Gr\"A)",
+    "sv": "Sof Zman Shema (Gr\"A)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::selector::daily_events::options::shkia",
+    "key_id": "856072686",
+    "translation_id": "8567710963",
+    "en": "Shkia (sunset)",
+    "sv": "Shkia (solnedgång)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::selector::daily_events::options::plag_hamincha",
+    "key_id": "856072685",
+    "translation_id": "8567710899",
+    "en": "Plag Hamincha",
+    "sv": "Plag Hamincha",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::selector::daily_events::options::netz_hachama",
+    "key_id": "856072684",
+    "translation_id": "8567710835",
+    "en": "Netz Hachama (sunrise)",
+    "sv": "Netz Hachama (soluppgång)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::selector::daily_events::options::mincha_ketana",
+    "key_id": "856072683",
+    "translation_id": "8567710771",
+    "en": "Mincha Ketana",
+    "sv": "Mincha Ketana",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::selector::daily_events::options::mincha_gedola",
+    "key_id": "856072682",
+    "translation_id": "8567710707",
+    "en": "Mincha Gedola",
+    "sv": "Mincha Gedola",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::selector::daily_events::options::date",
+    "key_id": "856072681",
+    "translation_id": "8567710643",
+    "en": "Hebrew date",
+    "sv": "Hebreiskt datum",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::selector::daily_events::options::chatzot_hayom",
+    "key_id": "856072680",
+    "translation_id": "8567710579",
+    "en": "Chatzot Hayom (midday)",
+    "sv": "Chatzot Hayom (middag)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::selector::daily_events::options::alot_hashachar",
+    "key_id": "856072679",
+    "translation_id": "8567710515",
+    "en": "Alot Hashachar (dawn)",
+    "sv": "Alot Hashachar (gryning)",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::options::step::init::data_description::yearly_events",
+    "key_id": "856072678",
+    "translation_id": "8567710451",
+    "en": "Select which yearly Jewish calendar events should be displayed in the Yearly Events calendar",
+    "sv": "Välj vilka årliga händelser enligt den judiska kalendern som ska visas i kalendern för årliga händelser",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::options::step::init::data_description::learning_schedule",
+    "key_id": "856072677",
+    "translation_id": "8567710387",
+    "en": "Select which learning schedules should be displayed in the Learning Schedule calendar",
+    "sv": "Välj vilka studieplaner som ska visas i kalendern för studieplaner",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::options::step::init::data_description::daily_events",
+    "key_id": "856072676",
+    "translation_id": "8567710323",
+    "en": "Select which daily Jewish calendar events should be displayed in the Daily Events calendar",
+    "sv": "Välj vilka händelser enligt den judiska kalendern som ska visas i kalendern för dagliga händelser",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::options::step::init::data::yearly_events",
+    "key_id": "856072675",
+    "translation_id": "8567710259",
+    "en": "Yearly events to display",
+    "sv": "Årliga evenemang att visa",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::options::step::init::data::learning_schedule",
+    "key_id": "856072674",
+    "translation_id": "8567710195",
+    "en": "Learning schedule to display",
+    "sv": "Visning av studieplan",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::options::step::init::data::daily_events",
+    "key_id": "856072673",
+    "translation_id": "8567710131",
+    "en": "Daily events to display",
+    "sv": "Dagliga händelser att visa",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::entity::calendar::yearly_events::name",
+    "key_id": "856072672",
+    "translation_id": "8567710067",
+    "en": "Yearly events",
+    "sv": "Årliga händelser",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::entity::calendar::learning_schedule::name",
+    "key_id": "856072671",
+    "translation_id": "8567710003",
+    "en": "Learning schedule",
+    "sv": "Schema för inlärning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::jewish_calendar::entity::calendar::daily_events::name",
+    "key_id": "856072670",
+    "translation_id": "8567709939",
+    "en": "Daily events",
+    "sv": "Dagliga händelser",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::miele::entity::sensor::program_id::state::pre_wash",
+    "key_id": "856028744",
+    "translation_id": "8567347343",
+    "en": "Pre-wash",
+    "sv": "Förtvätt",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::miele::entity::sensor::program_id::state::pot_rests_and_filters",
+    "key_id": "856028743",
+    "translation_id": "8567347279",
+    "en": "Pot rests and filters",
+    "sv": "Kastrullunderlägg och filter",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::compit::entity::switch::force_dhw::name",
+    "key_id": "855961920",
+    "translation_id": "8566777164",
+    "en": "Force domestic hot water",
+    "sv": "Tvinga varmvatten",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::compit::entity::switch::device_on_off::name",
+    "key_id": "855961919",
+    "translation_id": "8566777100",
+    "en": "Device on/off",
+    "sv": "Enhet på/av",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::command_line::exceptions::timeout_error::message",
+    "key_id": "855959776",
+    "translation_id": "8566741454",
+    "en": "Timeout trying to execute command: {command}",
+    "sv": "Timeout vid försök att utföra kommandot: {command}",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::command_line::exceptions::command_error::message",
+    "key_id": "855959775",
+    "translation_id": "8566741390",
+    "en": "Error trying to execute command: {command}. Error: {error}",
+    "sv": "Fel vid försök att köra kommandot: {command}. Fel: {error}",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::downloader::exceptions::invalid_value::message",
+    "key_id": "855905608",
+    "translation_id": "8566140584",
+    "en": "Invalid filename derived from {url}",
+    "sv": "Ogiltigt filnamn härrörande från {url}",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::downloader::exceptions::connection_error::message",
+    "key_id": "855905607",
+    "translation_id": "8566140520",
+    "en": "Connection error occurred while downloading {url}",
+    "sv": "Anslutningsfel uppstod under nedladdningen av {url}",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::anthropic::config_subentries::conversation::step::model::data_description::web_fetch_max_uses",
+    "key_id": "855701615",
+    "translation_id": "8563335735",
+    "en": "Limit the number of web fetches performed per response",
+    "sv": "Begränsa antalet webbhämtningar som utförs per svar",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::anthropic::config_subentries::conversation::step::model::data_description::web_fetch",
+    "key_id": "855701614",
+    "translation_id": "8563335671",
+    "en": "The web fetch tool allows Claude to retrieve full content from specified web pages and PDF documents to augment Claude's context with live web content",
+    "sv": "Verktyget för webbhämtning låter Claude hämta hela innehållet från angivna webbsidor och PDF-dokument för att utöka Claudes kontext med aktuellt webbinnehåll.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::anthropic::config_subentries::conversation::step::model::data::web_fetch_max_uses",
+    "key_id": "855701613",
+    "translation_id": "8563335607",
+    "en": "Maximum web fetches",
+    "sv": "Maximalt antal webbhämtningar",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::anthropic::config_subentries::conversation::step::model::data::web_fetch",
+    "key_id": "855701612",
+    "translation_id": "8563335543",
+    "en": "Enable web fetch",
+    "sv": "Aktivera webbhämtning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::anthropic::config_subentries::ai_task_data::step::model::data_description::web_fetch_max_uses",
+    "key_id": "855701611",
+    "translation_id": "8563335479",
+    "en": "Limit the number of web fetches performed per response",
+    "sv": "Begränsa antalet webbhämtningar som utförs per svar",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::anthropic::config_subentries::ai_task_data::step::model::data_description::web_fetch",
+    "key_id": "855701610",
+    "translation_id": "8563335415",
+    "en": "The web fetch tool allows Claude to retrieve full content from specified web pages and PDF documents to augment Claude's context with live web content",
+    "sv": "Verktyget för webbhämtning låter Claude hämta hela innehållet från angivna webbsidor och PDF-dokument för att utöka Claudes kontext med aktuellt webbinnehåll.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::anthropic::config_subentries::ai_task_data::step::model::data::web_fetch_max_uses",
+    "key_id": "855701609",
+    "translation_id": "8563335351",
+    "en": "Maximum web fetches",
+    "sv": "Maximalt antal webbhämtningar",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::anthropic::config_subentries::ai_task_data::step::model::data::web_fetch",
+    "key_id": "855701608",
+    "translation_id": "8563335287",
+    "en": "Enable web fetch",
+    "sv": "Aktivera webbhämtning",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::cast::options::step::init::title",
+    "key_id": "855598252",
+    "translation_id": "8561616620",
+    "en": "Google Cast configuration",
+    "sv": "Google Cast-konfiguration",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::cast::options::step::init::sections::more_options::name",
+    "key_id": "855598251",
+    "translation_id": "8561616556",
+    "en": "More options",
+    "sv": "Fler alternativ",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::cast::options::step::init::sections::more_options::data_description::uuid",
+    "key_id": "855598250",
+    "translation_id": "8561616492",
+    "en": "A comma-separated list of UUIDs of Cast devices to add to Home Assistant. Use only if you don’t want to add all available cast devices.",
+    "sv": "En kommaseparerad lista med UUID:er för Cast-enheter som ska läggas till i Home Assistant. Använd endast om du inte vill lägga till alla tillgängliga Cast-enheter.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::cast::options::step::init::sections::more_options::data_description::ignore_cec",
+    "key_id": "855598249",
+    "translation_id": "8561616428",
+    "en": "A comma-separated list of Chromecasts that should ignore CEC data for determining the active input. This will be passed to pychromecast.IGNORE_CEC.",
+    "sv": "En kommaseparerad lista över Chromecasts som ska ignorera CEC-data för att bestämma den aktiva ingången. Detta kommer att skickas till pychromecast.IGNORE_CEC.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::cast::options::step::init::sections::more_options::data::uuid",
+    "key_id": "855598248",
+    "translation_id": "8561616364",
+    "en": "Allowed UUIDs",
+    "sv": "Tillåtna UUID:n",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::cast::options::step::init::sections::more_options::data::ignore_cec",
+    "key_id": "855598247",
+    "translation_id": "8561616300",
+    "en": "Ignore CEC",
+    "sv": "Ignorera CEC",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::cast::options::step::init::data_description::known_hosts",
+    "key_id": "855598246",
+    "translation_id": "8561616236",
+    "en": "Hostnames or IP addresses of cast devices, use if mDNS discovery is not working",
+    "sv": "Värdnamn eller IP-adresser för cast-enheter, använd om mDNS-upptäckt inte fungerar",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::cast::options::step::init::data::known_hosts",
+    "key_id": "855598245",
+    "translation_id": "8561616172",
+    "en": "Add known host",
+    "sv": "Lägg till en känd värd",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tasmota::config::step::config::data_description::discovery_prefix",
+    "key_id": "855489392",
+    "translation_id": "8559516899",
+    "en": "Only change this if you use a custom Tasmota binary that does not use the default `tasmota/discovery` discovery topic prefix",
+    "sv": "Ändra detta endast om du använder en anpassad Tasmota-binär som inte använder standardprefixet för upptäcktsämne `tasmota/discovery`",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::qbus::exceptions::invalid_option::message",
+    "key_id": "855466491",
+    "translation_id": "8559307144",
+    "en": "Option \"{option}\" is not valid. Valid options are: {options}.",
+    "sv": "Alternativet \"{option}\" är inte giltigt. Giltiga alternativ är: {options}.",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::prusalink::entity::binary_sensor::sd_ready::name",
+    "key_id": "855452083",
+    "translation_id": "8558817484",
+    "en": "SD card",
+    "sv": "SD-kort",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::prusalink::entity::binary_sensor::farm_mode::name",
+    "key_id": "855452082",
+    "translation_id": "8558817420",
+    "en": "Farm mode",
+    "sv": "Farmläge",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::elkm1::issues::deprecated_sensor_scripts::title",
+    "key_id": "855448768",
+    "translation_id": "8558788142",
+    "en": "Deprecated sensor detected",
+    "sv": "Föråldrad sensor upptäckt",
+    "verification_method": "Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets",
+    "verified_date": "2026-11-24",
+    "status": "verified-existing"
+  }
+]
