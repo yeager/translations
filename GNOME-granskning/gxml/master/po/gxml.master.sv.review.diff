@@ -1,0 +1,82 @@
+diff --git a/.work-gnome-review/gxml-master-po/original.po b/.work-gnome-review/gxml-master-po/sv.po
+index 36101aa..400c206 100644
+--- a/.work-gnome-review/gxml-master-po/original.po
++++ b/.work-gnome-review/gxml-master-po/sv.po
+@@ -4,14 +4,15 @@
+ # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2016, 2018, 2019, 2020, 2021, 2022, 2026.
+ # Josef Andersson <l10nl18nsweja@gmail.com>, 2017.
+ # Luna Jernberg <droidbittin@gmail.com>, 2021.
++# Daniel Nylander <gnome@danielnylander.se>, 2026.
+ #
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: gxml\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gxml/issues/\n"
+ "POT-Creation-Date: 2026-04-10 18:31+0000\n"
+-"PO-Revision-Date: 2026-04-11 20:24+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -48,7 +49,7 @@ msgstr "Ogiltigt försök att ange en nod med ett annat överordnat dokument"
+ msgid ""
+ "Node element not appended as child of parent. No node added to collection"
+ msgstr ""
+-"Nodelement ej tillagt som en underordnad nod. Ingen nod lades till samlingen"
++"Nodelement har inte lagts till som en underordnad nod. Ingen nod lades till i samlingen"
+ 
+ #: gxml/BaseCollection.vala:195 gxml/BaseCollection.vala:213
+ #, c-format
+@@ -170,7 +171,7 @@ msgid ""
+ "2000/xmlns/'."
+ msgstr ""
+ "Ogiltig namnrymds-URI ”%s” för ”xmlns”-prefix. Förväntat: ”http://www.w3.org/"
+-"2000/xmlns/”"
++"2000/xmlns/”."
+ 
+ #: gxml/Document.vala:204
+ msgid ""
+@@ -178,7 +179,7 @@ msgid ""
+ "xmlns/'."
+ msgstr ""
+ "Endast ”xmlns”-prefix kan användas med namnrymds-URI ”http://www.w3.org/2000/"
+-"xmlns/”"
++"xmlns/”."
+ 
+ #: gxml/Document.vala:244 gxml/XDocument.vala:276
+ msgid "Can't import a Document"
+@@ -531,12 +532,12 @@ msgstr "Det går inte att sätta värdet. Det är inte en GXmlGXml.Element-typ"
+ 
+ #: gxml/Parser.vala:104 gxml/Parser.vala:112 gxml/XDocument.vala:65
+ msgid "File doesn't exist"
+-msgstr "Fil existerar inte"
++msgstr "Filen finns inte"
+ 
+ #: gxml/Parser.vala:193
+ msgid ""
+ "Invalid attempt to parse an element node, when current found node is not"
+-msgstr "Ogiltigt försök att tolka en elementnod när aktuell nod ej är det"
++msgstr "Ogiltigt försök att tolka en elementnod när den aktuella noden inte är det"
+ 
+ #: gxml/Parser.vala:265 gxml/StreamReader.vala:263
+ #, c-format
+@@ -580,7 +581,7 @@ msgstr "Inget dokument är satt till nod"
+ 
+ #: gxml/Parser.vala:323 gxml/XParser.vala:107 gxml/XParser.vala:113
+ msgid "Invalid document string, it is empty or is not allowed"
+-msgstr "Ogiltig dokumentsträng, den är tom eller ej tillåten"
++msgstr "Ogiltig dokumentsträng, den är tom eller inte tillåten"
+ 
+ #: gxml/Property.vala:389
+ #, c-format
+@@ -711,7 +712,7 @@ msgstr "Fel vid konvertering av element till sträng: %s"
+ #: gxml/XElement.vala:348
+ #, c-format
+ msgid "invalid namespace. Code: %s"
+-msgstr "ogiltig namnrymd. Kod: %s"
++msgstr "Ogiltig namnrymd. Kod: %s"
+ 
+ #: gxml/XHashMapAttr.vala:243
+ msgid "Invalid document when adding item to collection"
