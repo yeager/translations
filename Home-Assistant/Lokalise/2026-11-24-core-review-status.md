@@ -17,8 +17,10 @@ Intervallet 22 441–22 560 hade en äldre granskningsrapport. Live-värdena jä
 
 ## Home Assistant-TM
 
-- Kanonisk TMX: **16 389** poster, validerad 2026-11-24.
-- Status i TMX: 2 722 `saved-and-read-back`, 13 643 `verified-existing` och 24 `source-path-follow-up`.
+Intervallet 22 561–22 680 har också stämts av mot livevärden och aktuell Core-källa. **9 rättningar** sparades och lästes tillbaka; 11 aktuella översättningar behölls. Se `2026-11-24-core-review-22561-22680.md` och JSONL-manifestet.
+
+- Kanonisk TMX: **16 395** poster, validerad 2026-11-24.
+- Status i TMX: 2 717 `saved-and-read-back`, 13 654 `verified-existing` och 24 `source-path-follow-up`.
 - Rättningar i intervallet omfattar att-göra-villkor, Yamaha MusicCast-lägen och SmartThings-stickdammsugarvärden. Den fullständiga nyckellistan, befintlig text, slutlig text, motivering och uppföljningar finns i `2026-11-24-core-review-22441-22560.md` och manifestet `2026-11-24-reviewed-core-22441-22560.json`.
 - Exportverktyget ändrades så att tomma och felaktiga pluralposter inte längre faller bort tyst; de sparas med orsak i en separat JSONL-inventering.
 
