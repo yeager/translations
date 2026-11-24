@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 10:13 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 10:20 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -298,7 +298,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [giggle](https://l10n.gnome.org/module/giggle/) | master | 74 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/master/po-tips/sv/) | master | 26 | 0 | 0 | Klar | X | 2 | Klar lokalt (2026-11-23): Aktuell 26-strängarskatalog: två befintliga fel är rättade, bland annat Ctrl+Tab. msgfmt, msgcmp och l10n-lint är felfria. Inskickad till DL 2026-11-23 med kommentaren ”Granskad och klar”. [original](gimp/master/po-tips/gimp.master.po-tips.sv.original.po), [granskad](gimp/master/po-tips/gimp.master.po-tips.sv.reviewed.po), [diff](gimp/master/po-tips/gimp.master.po-tips.sv.review.diff), [notering](gimp/master/po-tips/README.md) |
 | Gränssnitt | Default (99% translated) | [gimp-gap](https://l10n.gnome.org/module/gimp-gap/) | master | 2564 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/po-windows-installer/sv/) | master | 5 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/po-windows-installer/sv/) | master | 5 | 0 | 0 | Klar | X | 2 | Klar lokalt (2026-11-24): Alla 5 strängar är radgranskade mot POT från 2026-11-23. Två befintliga översättningar rättades; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp, l10n-lint och Hunspell-sv godkända. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/po-windows-installer/gimp-help.windows-installer.master.sv.original.po), [granskad](gimp-help/master/po-windows-installer/gimp-help.windows-installer.master.sv.reviewed.po), [diff](gimp-help/master/po-windows-installer/gimp-help.windows-installer.master.sv.review.diff), [notering](gimp-help/master/po-windows-installer/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters~animation/sv/) | master | 135 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~colors~auto/sv/) | master | 66 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~colors~desaturate/sv/) | master | 105 | 0 | 0 | Klar |  | — | Ej granskad |
