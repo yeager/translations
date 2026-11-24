@@ -1,0 +1,88 @@
+diff --git a/.work-gnome-review/curtail-main-po/original.po b/.work-gnome-review/curtail-main-po/sv.po
+index 1e7fbe9..e5b1e7c 100644
+--- a/.work-gnome-review/curtail-main-po/original.po
++++ b/.work-gnome-review/curtail-main-po/sv.po
+@@ -10,8 +10,8 @@ msgstr ""
+ "Project-Id-Version: curtail\n"
+ "Report-Msgid-Bugs-To: https://github.com/Huluti/Curtail/issues\n"
+ "POT-Creation-Date: 2026-10-09 12:08+0000\n"
+-"PO-Revision-Date: 2026-06-10 01:07+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 12:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -39,7 +39,7 @@ msgid ""
+ "whether keep or not metadata of images."
+ msgstr ""
+ "Det stöder både förlustfria och förstörande komprimeringslägen med möjlighet "
+-"att bevara eller skippa metadata för bilder."
++"att bevara eller ta bort metadata för bilder."
+ 
+ #: data/com.github.huluti.Curtail.desktop.in.in:2 data/ui/window.blp:29
+ #: data/ui/window.blp:53 data/ui/window.blp:78
+@@ -102,7 +102,7 @@ msgstr "Aktivera förstörande läge"
+ 
+ #: data/com.github.huluti.Curtail.gschema.xml:32
+ msgid "Use lossy mode to compress images."
+-msgstr "Använd förstörande komprimeringsläge på bilderna."
++msgstr "Använd förstörande komprimeringsläge för att komprimera bilder."
+ 
+ #: data/com.github.huluti.Curtail.gschema.xml:36
+ msgid "Suffix/Prefix to append at new file"
+@@ -256,7 +256,7 @@ msgstr "Förstörande komprimering"
+ #: data/ui/preferences.blp:73 data/ui/preferences.blp:99
+ #: data/ui/preferences.blp:119
+ msgid "Set the quality of the generated image, 100 is the best quality"
+-msgstr "Ställ in kvaliteten för den genererade bilden, 100 är bäst kvalitet"
++msgstr "Ställ in kvaliteten för den genererade bilden, 100 ger bästa kvalitet"
+ 
+ #: data/ui/preferences.blp:83 data/ui/preferences.blp:129
+ msgid "Lossless Compression"
+@@ -291,8 +291,7 @@ msgid ""
+ "Compression was skipped because compressing the file would have resulted in "
+ "a larger file size."
+ msgstr ""
+-"Komprimering hoppades över för att komprimering av filen skulle ha gett en "
+-"större filstorlek."
++"Komprimeringen hoppades över eftersom filen då skulle ha blivit större."
+ 
+ #: data/ui/shortcuts-dialog.blp:6
+ msgctxt "shortcuts dialog"
+@@ -349,7 +348,7 @@ msgstr "Ä_ndra läge"
+ 
+ #: data/ui/window.blp:72
+ msgid "Images will be overwritten, proceed carefully"
+-msgstr "Bilder kommer skrivas över, fortsätt med varsamhet"
++msgstr "Bilderna kommer att skrivas över, fortsätt varsamt"
+ 
+ #: data/ui/window.blp:79
+ msgid "Drop images here to compress them"
+@@ -430,7 +429,7 @@ msgstr "Bläddra i kataloger"
+ 
+ #: src/window.py:264 src/window.py:273
+ msgid "Are you sure you want to compress images in these directories?"
+-msgstr "Är du säker att du vill komprimera bilder i dessa kataloger?"
++msgstr "Är du säker på att du vill komprimera bilder i dessa kataloger?"
+ 
+ #: src/window.py:266
+ msgid ""
+@@ -438,7 +437,7 @@ msgid ""
+ "be compressed. The original images will not be modified."
+ msgstr ""
+ "Alla bilderna i de markerade katalogerna och deras underkataloger kommer "
+-"komprimeras. De ursprungliga bilderna kommer inte ändras."
++"att komprimeras. De ursprungliga bilderna kommer inte att ändras."
+ 
+ #: src/window.py:275
+ msgid ""
+@@ -446,7 +445,7 @@ msgid ""
+ "be compressed and overwritten!"
+ msgstr ""
+ "Alla bilderna i de markerade katalogerna och deras underkataloger kommer "
+-"komprimeras och skrivas över!"
++"att komprimeras och skrivas över!"
+ 
+ #: src/window.py:280
+ msgid "Cancel"
