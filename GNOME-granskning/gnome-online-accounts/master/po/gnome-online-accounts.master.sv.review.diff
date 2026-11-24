@@ -1,0 +1,85 @@
+diff --git a/.work-gnome-review/gnome-online-accounts-master-po/original.po b/.work-gnome-review/gnome-online-accounts-master-po/sv.po
+index 86d2955..b95ade0 100644
+--- a/.work-gnome-review/gnome-online-accounts-master-po/original.po
++++ b/.work-gnome-review/gnome-online-accounts-master-po/sv.po
+@@ -6,6 +6,7 @@
+ # Mattias Eriksson <snaggen@gmail.com>, 2014.
+ # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017, 2018, 2019, 2023, 2024, 2025, 2026.
+ # Sebastian Rasmussen <sebras@gmail.com>, 2015.
++# Daniel Nylander <gnome@danielnylander.se>, 2026.
+ #
+ msgid ""
+ msgstr ""
+@@ -13,8 +14,8 @@ msgstr ""
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-online-accounts/"
+ "issues\n"
+ "POT-Creation-Date: 2026-03-17 08:10+0000\n"
+-"PO-Revision-Date: 2026-02-03 01:39+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -444,8 +445,8 @@ msgstr "Exempel-ID: 00000000-0000-0000-0000-000000000000"
+ msgid ""
+ "Expected status 200 when requesting access token, instead got status %d (%s)"
+ msgstr ""
+-"Förväntade status 200 vid begäran av åtkomstelement, fick i stället status "
+-"%d (%s)"
++"Förväntade status 200 vid begäran av åtkomsttoken, fick i stället status %d "
++"(%s)"
+ 
+ #: src/goabackend/goaoauth2provider.c:907
+ msgid "Authorization response: "
+@@ -453,7 +454,7 @@ msgstr "Auktoriseringssvar: "
+ 
+ #: src/goabackend/goaoauth2provider.c:1047
+ msgid "Error getting an Access Token: "
+-msgstr "Fel vid hämtning av ett åtkomstelement: "
++msgstr "Fel vid hämtning av åtkomsttoken: "
+ 
+ #: src/goabackend/goaoauth2provider.c:1063
+ msgid "Error getting identity: "
+@@ -479,12 +480,12 @@ msgstr "Frågades om att logga in som %s, men loggade in som %s"
+ #: src/goabackend/goaoauth2provider.c:1980
+ #, c-format
+ msgid "Credentials do not contain access_token"
+-msgstr "Inloggningsuppgifter innehåller inget åtkomstelement (access_token)"
++msgstr "Inloggningsuppgifterna innehåller ingen åtkomsttoken (access_token)"
+ 
+ #: src/goabackend/goaoauth2provider.c:2024
+ #, c-format
+ msgid "Failed to refresh access token (%s, %d): "
+-msgstr "Misslyckades med att uppdatera åtkomstelement (%s, %d): "
++msgstr "Misslyckades med att uppdatera åtkomsttoken (%s, %d): "
+ 
+ #: src/goabackend/goaowncloudprovider.c:65
+ #: src/goabackend/goaowncloudprovider.c:849
+@@ -589,7 +590,7 @@ msgid ""
+ "If you remove this Online Account you will have to connect to it again to "
+ "use it with apps and services."
+ msgstr ""
+-"Om du tar bort detta nätkonto kommer du behöva ansluta till det igen för att "
++"Om du tar bort det här nätkontot behöver du ansluta till det igen för att "
+ "använda det med program och tjänster."
+ 
+ #: src/goabackend/goaproviderdialog.c:630
+@@ -755,7 +756,7 @@ msgstr "Kontakter (CardDAV)"
+ 
+ #: src/goaidentity/goaidentityservice.c:565
+ msgid "Initial secret key is invalid"
+-msgstr "Initial hemlig nyckel är ogiltig"
++msgstr "Den initiala hemliga nyckeln är ogiltig"
+ 
+ #. TODO: more specific
+ #: src/goaidentity/goaidentityservice.c:787
+@@ -833,7 +834,7 @@ msgstr "Kunde inte skapa inloggningsuppgiftscache för identitet"
+ #: src/goaidentity/goalinuxnotificationstream.c:58
+ #, c-format
+ msgid "Error closing file descriptor: %s"
+-msgstr "Fel vid stängning av filhandtag: %s"
++msgstr "Fel vid stängning av filbeskrivare: %s"
+ 
+ #~ msgid "Authorization failed"
+ #~ msgstr "Auktorisering misslyckades"

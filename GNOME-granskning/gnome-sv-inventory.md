@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 01:58 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 02:01 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -398,7 +398,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [gnome-news](https://l10n.gnome.org/module/gnome-news/) | master | 35 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-nibbles](https://l10n.gnome.org/vertimus/gnome-nibbles/master/po/sv/) | master | 501 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-nibbles](https://l10n.gnome.org/vertimus/gnome-nibbles/master/help/sv/) | master | 71 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-online-accounts](https://l10n.gnome.org/vertimus/gnome-online-accounts/master/po/sv/) | master | 161 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-online-accounts](https://l10n.gnome.org/vertimus/gnome-online-accounts/master/po/sv/) | master | 161 | 0 | 0 | Klar | X | 7 | Klar lokalt (2026-11-24): Hela 161-strängarskatalogen är radgranskad mot senaste POT. Sju befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt och msgcmp är godkända. l10n-lint saknar fel; UUID-exemplet har en dokumenterad teknisk bindestrecksvarning. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](gnome-online-accounts/master/po/gnome-online-accounts.master.sv.original.po), [granskad](gnome-online-accounts/master/po/gnome-online-accounts.master.sv.reviewed.po), [diff](gnome-online-accounts/master/po/gnome-online-accounts.master.sv.review.diff), [notering](gnome-online-accounts/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-packagekit](https://l10n.gnome.org/vertimus/gnome-packagekit/master/po/sv/) | master | 548 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-panel](https://l10n.gnome.org/vertimus/gnome-panel/master/po/sv/) | master | 246 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-panel](https://l10n.gnome.org/vertimus/gnome-panel/master/clock/sv/) | master | 99 | 0 | 0 | Klar |  | — | Ej granskad |

@@ -1,0 +1,1120 @@
+# Swedish translation for gnome-online-accounts.
+# Copyright © 2011-2026 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-online-accounts package.
+#
+# Daniel Nylander <po@danielnylander.se>, 2011, 2012.
+# Mattias Eriksson <snaggen@gmail.com>, 2014.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017, 2018, 2019, 2023, 2024, 2025, 2026.
+# Sebastian Rasmussen <sebras@gmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-online-accounts\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-online-accounts/"
+"issues\n"
+"POT-Creation-Date: 2026-03-17 08:10+0000\n"
+"PO-Revision-Date: 2026-02-03 01:39+0100\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+
+#: data/org.gnome.goa-daemon.desktop.in:3 src/daemon/goadaemon.c:1658
+msgid "Online Accounts"
+msgstr "Nät­kont­on"
+
+#: data/org.gnome.goa-daemon.desktop.in:4
+msgid "Notifications shown by Online Accounts daemon"
+msgstr "Aviseringar visade av Nätkonton-demon"
+
+#. TODO: more specific
+#: src/daemon/goadaemon.c:1168 src/daemon/goadaemon.c:1489
+#, c-format
+msgid "Failed to find a provider for: %s"
+msgstr "Kunde inte hitta en modul för: %s"
+
+#: src/daemon/goadaemon.c:1432
+msgid "IsLocked property is set for account"
+msgstr "Egenskapen IsLocked är satt för konto"
+
+#. TODO: more specific
+#: src/daemon/goadaemon.c:1477
+msgid "ProviderType property is not set for account"
+msgstr "Egenskapen ProviderType är inte satt för konto"
+
+#: src/daemon/goadaemon.c:1640
+#, c-format
+msgid "Failed to sign in to “%s”"
+msgstr "Misslyckades med att logga in på ”%s”"
+
+#: src/daemon/goadaemon.c:1645
+msgid "Failed to sign in to multiple accounts"
+msgstr "Misslyckades med att logga in på flera konton"
+
+#: src/daemon/goadaemon.c:1661
+msgid "Account Action Required"
+msgstr "Kontoåtgärd krävs"
+
+#: src/goabackend/goaauthflowbutton.c:148
+#: src/goabackend/goaproviderdialog.c:840
+msgid "_Sign In…"
+msgstr "_Logga in…"
+
+#: src/goabackend/goaauthflowbutton.c:162
+msgid "_Copy Link"
+msgstr "_Kopiera länk"
+
+#: src/goabackend/goaauthflowbutton.c:173
+msgid "Copy the authorization URL to continue with a specific web browser."
+msgstr ""
+"Kopiera auktoriserings-URL:en för att fortsätta med en specifik webbläsare."
+
+#: src/goabackend/goadavclient.c:778 src/goabackend/goakerberosprovider.c:318
+#: src/goabackend/goaprovider.c:1078
+#, c-format
+msgid "Unknown error"
+msgstr "Okänt fel"
+
+#. TODO: more specific
+#: src/goabackend/goadavclient.c:1310 src/goabackend/goaimapauthlogin.c:104
+#: src/goabackend/goakerberosprovider.c:290
+#: src/goabackend/goakerberosprovider.c:312 src/goabackend/goasmtpauth.c:102
+#: src/goabackend/goasmtpauth.c:473 src/goabackend/goautils.c:808
+#, c-format
+msgid "Authentication failed"
+msgstr "Autentisering misslyckades"
+
+#: src/goabackend/goadavclient.c:1317
+msgid "Cannot find WebDAV endpoint"
+msgstr "Kan inte hitta WebDAV-ändpunkt"
+
+#: src/goabackend/goadavclient.c:1430 src/goabackend/goaoauth2provider.c:888
+#: src/goabackend/goaowncloudprovider.c:622
+#: src/goabackend/goawebdavprovider.c:648
+#, c-format
+msgid "Invalid URI: %s"
+msgstr "Ogiltig URI: %s"
+
+#. TODO: more specific
+#: src/goabackend/goaewsclient.c:278
+#, c-format
+msgid "Failed to parse autodiscover response XML"
+msgstr "Misslyckades med att tolka XML-svar för autodetektering"
+
+#. TODO: more specific
+#. Translators: the parameter is an XML element name.
+#: src/goabackend/goaewsclient.c:289 src/goabackend/goaewsclient.c:304
+#: src/goabackend/goaewsclient.c:319
+#, c-format
+msgid "Failed to find “%s” element"
+msgstr "Misslyckades med att hitta elementet ”%s”"
+
+#. TODO: more specific
+#: src/goabackend/goaewsclient.c:340
+#, c-format
+msgid "Failed to find ASUrl in autodiscover response"
+msgstr "Kunde inte hitta ASUrl i svar för autodetektering"
+
+#: src/goabackend/goaexchangeprovider.c:52
+msgid "Microsoft Exchange"
+msgstr "Microsoft Exchange"
+
+#. Translators: the first %s is the username
+#. * (eg., debarshi.ray@gmail.com or rishi), and the
+#. * (%s, %d) is the error domain and code.
+#.
+#: src/goabackend/goaexchangeprovider.c:258
+#: src/goabackend/goawebdavprovider.c:304
+#, c-format
+msgid "Invalid password with username “%s” (%s, %d): "
+msgstr "Ogiltigt lösenord med användarnamn ”%s” (%s, %d): "
+
+#. provider name
+#: src/goabackend/goaexchangeprovider.c:389
+msgid ""
+"Connect to a Microsoft Exchange provider to access calendars, contacts and "
+"files"
+msgstr ""
+"Anslut till en Microsoft Exchange-leverantör för att komma åt kalendrar, "
+"kontakter och filer"
+
+#: src/goabackend/goaexchangeprovider.c:392
+#: src/goabackend/goaimapsmtpprovider.c:706
+msgid "_Email"
+msgstr "_E-post"
+
+#: src/goabackend/goaexchangeprovider.c:393
+#: src/goabackend/goafedoraprovider.c:171
+#: src/goabackend/goaimapsmtpprovider.c:707
+#: src/goabackend/goaimapsmtpprovider.c:750
+#: src/goabackend/goaimapsmtpprovider.c:794
+#: src/goabackend/goawebdavprovider.c:408
+msgid "_Password"
+msgstr "_Lösenord"
+
+#: src/goabackend/goaexchangeprovider.c:394
+msgid ""
+"Exchange account details will be auto-detected from your email address when "
+"possible"
+msgstr ""
+"Exchange-kontodetaljer kommer identifieras automatiskt från din e-postadress "
+"när möjligt"
+
+#: src/goabackend/goaexchangeprovider.c:405
+msgid "Account Details"
+msgstr "Kontodetaljer"
+
+#: src/goabackend/goaexchangeprovider.c:406
+#: src/goabackend/goafedoraprovider.c:170
+#: src/goabackend/goaimapsmtpprovider.c:749
+#: src/goabackend/goaimapsmtpprovider.c:793
+#: src/goabackend/goawebdavprovider.c:407
+msgid "User_name"
+msgstr "Användar_namn"
+
+#: src/goabackend/goaexchangeprovider.c:407
+msgid "_Domain"
+msgstr "_Domän"
+
+#: src/goabackend/goaexchangeprovider.c:408
+msgid "Example domain: example.com"
+msgstr "Exempeldomän: example.com"
+
+#: src/goabackend/goafedoraprovider.c:51
+msgid "Fedora"
+msgstr "Fedora"
+
+#: src/goabackend/goafedoraprovider.c:167
+#: src/goabackend/goakerberosprovider.c:557
+msgid "Access restricted web and network resources for your organization"
+msgstr "Kom åt begränsade webb- och nätverksresurser för din organisation"
+
+#: src/goabackend/goafedoraprovider.c:337
+#, c-format
+msgid "Failed to get principal from user name “%s”"
+msgstr "Misslyckades med att erhålla huvudman från användarnamnet ”%s”"
+
+#: src/goabackend/goagoogleprovider.c:57
+msgid "Google"
+msgstr "Google"
+
+#: src/goabackend/goagoogleprovider.c:212
+#: src/goabackend/goamsgraphprovider.c:185
+#, c-format
+msgid ""
+"Expected status 200 when requesting your identity, instead got status %d (%s)"
+msgstr ""
+"Förväntade status 200 vid begäran av din identitet, fick i stället status %d "
+"(%s)"
+
+#. TODO: more specific
+#: src/goabackend/goagoogleprovider.c:231
+#: src/goabackend/goagoogleprovider.c:242
+#: src/goabackend/goamsgraphprovider.c:204
+#: src/goabackend/goamsgraphprovider.c:215
+#: src/goabackend/goamsgraphprovider.c:246
+#: src/goabackend/goaoauth2provider.c:701
+#: src/goabackend/goaoauth2provider.c:780
+#: src/goabackend/goaoauth2provider.c:810
+#: src/goabackend/goaoauth2provider.c:821
+#: src/goabackend/goaoauth2provider.c:963
+#: src/goabackend/goaowncloudprovider.c:338
+#: src/goabackend/goaowncloudprovider.c:538
+#: src/goabackend/goaowncloudprovider.c:548
+#: src/goabackend/goaowncloudprovider.c:568 src/goabackend/goautils.c:136
+#, c-format
+msgid "Could not parse response"
+msgstr "Kunde inte tolka svar"
+
+#. TODO: more specific
+#: src/goabackend/goaimapauthlogin.c:84 src/goabackend/goaoauth2provider.c:1346
+#: src/goabackend/goasmtpauth.c:149
+#, c-format
+msgid "Service not available"
+msgstr "Tjänsten är inte tillgänglig"
+
+#: src/goabackend/goaimapauthlogin.c:157 src/goabackend/goasmtpauth.c:616
+#, c-format
+msgid "Server does not support STARTTLS"
+msgstr "Servern stöder inte STARTTLS"
+
+#: src/goabackend/goaimapsmtpprovider.c:55
+msgid "IMAP and SMTP"
+msgstr "IMAP och SMTP"
+
+#. Translators: the first %s is a field name. The
+#. * second %s is the IMAP
+#. * username (eg., rishi), and the (%s, %d)
+#. * is the error domain and code.
+#.
+#. Translators: the first %s is a field name. The
+#. * second %s is the SMTP
+#. * username (eg., rishi), and the (%s, %d)
+#. * is the error domain and code.
+#.
+#: src/goabackend/goaimapsmtpprovider.c:320
+#: src/goabackend/goaimapsmtpprovider.c:369
+#, c-format
+msgid "Invalid %s with username “%s” (%s, %d): "
+msgstr "Ogiltigt %s med användarnamn ”%s” (%s, %d): "
+
+#: src/goabackend/goaimapsmtpprovider.c:571
+#: src/goabackend/goaimapsmtpprovider.c:594
+#: src/goabackend/goaimapsmtpprovider.c:729
+#: src/goabackend/goaimapsmtpprovider.c:770
+#: src/goabackend/goaimapsmtpprovider.c:814
+msgid "Auto-detected"
+msgstr "Automatiskt identifierad"
+
+#: src/goabackend/goaimapsmtpprovider.c:623
+msgid "Unable to auto-detect IMAP and SMTP settings"
+msgstr "Kunde inte identifiera IMAP- och SMTP-inställningar automatiskt"
+
+#: src/goabackend/goaimapsmtpprovider.c:694
+msgid "STARTTLS after connecting"
+msgstr "STARTTLS efter anslutning"
+
+#. GOA_TLS_TYPE_STARTTLS
+#: src/goabackend/goaimapsmtpprovider.c:695
+msgid "SSL on a dedicated port"
+msgstr "SSL på en egen port"
+
+#: src/goabackend/goaimapsmtpprovider.c:700
+#: src/goabackend/goaimapsmtpprovider.c:1454
+msgid "Email"
+msgstr "E-post"
+
+#: src/goabackend/goaimapsmtpprovider.c:701
+msgid "Connect to an email account"
+msgstr "Anslut till ett e-postkonto"
+
+#: src/goabackend/goaimapsmtpprovider.c:705
+msgid "_Name"
+msgstr "_Namn"
+
+#: src/goabackend/goaimapsmtpprovider.c:708
+msgid ""
+"IMAP and SMTP details will be auto-detected from your service provider when "
+"possible"
+msgstr ""
+"IMAP- och SMTP-detaljer kommer identifieras automatiskt från din "
+"tjänsteleverantör när möjligt"
+
+#. IMAP
+#: src/goabackend/goaimapsmtpprovider.c:747
+msgid "IMAP Settings"
+msgstr "IMAP-inställningar"
+
+#: src/goabackend/goaimapsmtpprovider.c:748
+msgid "IMAP _Server"
+msgstr "_IMAP-Server"
+
+#: src/goabackend/goaimapsmtpprovider.c:759
+#: src/goabackend/goaimapsmtpprovider.c:803
+msgid "Encryption"
+msgstr "Kryptering"
+
+#: src/goabackend/goaimapsmtpprovider.c:784
+msgid "Example server: imap.example.com"
+msgstr "Exempelserver: imap.example.com"
+
+#. SMTP
+#: src/goabackend/goaimapsmtpprovider.c:791
+msgid "SMTP Settings"
+msgstr "SMTP-inställningar"
+
+#: src/goabackend/goaimapsmtpprovider.c:792
+msgid "SMTP _Server"
+msgstr "_SMTP-Server"
+
+#: src/goabackend/goaimapsmtpprovider.c:828
+msgid "Example server: smtp.example.com"
+msgstr "Exempelserver: smtp.example.com"
+
+#: src/goabackend/goaimapsmtpprovider.c:1445
+msgid "Name"
+msgstr "Namn"
+
+#: src/goabackend/goaimapsmtpprovider.c:1471
+msgid "IMAP"
+msgstr "IMAP"
+
+#: src/goabackend/goaimapsmtpprovider.c:1491
+msgid "SMTP"
+msgstr "SMTP"
+
+#: src/goabackend/goakerberosprovider.c:81
+msgid "Kerberos"
+msgstr "Kerberos"
+
+#: src/goabackend/goakerberosprovider.c:560
+msgid "_Principal"
+msgstr "_Huvudman"
+
+#: src/goabackend/goakerberosprovider.c:561
+msgid "Example principal: user@EXAMPLE.COM"
+msgstr "Exempelhuvudman: användare@EXAMPLE.COM"
+
+#: src/goabackend/goakerberosprovider.c:1249
+#, c-format
+msgid "Ticketing is disabled for account"
+msgstr "Biljettsystem är inaktiverat för konto"
+
+#: src/goabackend/goakerberosprovider.c:1272
+#, c-format
+msgid "Could not find saved credentials for principal “%s” in keyring"
+msgstr ""
+"Kunde inte hitta sparade inloggningsuppgifter för huvudman ”%s” i "
+"nyckelringen"
+
+#: src/goabackend/goakerberosprovider.c:1288
+#, c-format
+msgid "Did not find password for principal “%s” in credentials"
+msgstr "Hittade inte lösenord för huvudman ”%s” i inloggningsuppgifterna"
+
+#: src/goabackend/goakerberosprovider.c:1478
+#: src/goaidentity/goaidentityservice.c:1115
+msgid "Log In to Realm"
+msgstr "Logga in i rike"
+
+#: src/goabackend/goakerberosprovider.c:1479
+msgid "Please enter your password below."
+msgstr "Vänligen ange ditt lösenord nedan."
+
+#: src/goabackend/goakerberosprovider.c:1480
+msgid "Remember this password"
+msgstr "Kom ihåg detta lösenord"
+
+#: src/goabackend/goakerberosprovider.c:1490
+msgid "Operation was cancelled"
+msgstr "Åtgärden avbröts"
+
+#: src/goabackend/goakerberosprovider.c:1672
+#, c-format
+msgid "Identity service returned invalid key"
+msgstr "Identitetstjänsten returnerade en ogiltig nyckel"
+
+#: src/goabackend/goamailclient.c:853
+#, c-format
+msgid "Invalid email address “%s”"
+msgstr "Ogiltig e-postadress ”%s”"
+
+#: src/goabackend/goamsgraphprovider.c:65
+msgid "Microsoft 365"
+msgstr "Microsoft 365"
+
+#. provider name
+#: src/goabackend/goamsgraphprovider.c:488
+msgid "Connect to Microsoft 365 to access email, calendars, contacts and files"
+msgstr ""
+"Anslut till Microsoft 365 för att komma åt e-post, kalendrar, kontakter och "
+"filer"
+
+#: src/goabackend/goamsgraphprovider.c:492
+msgid "Use Organization Account"
+msgstr "Använd organisationskonto"
+
+#: src/goabackend/goamsgraphprovider.c:493
+msgid "Connect using details from an organization or developer account"
+msgstr "Anslut med detaljer från ett organisations- eller utvecklarkonto"
+
+#. Translators: See https://learn.microsoft.com/globalization/reference/microsoft-terminology
+#: src/goabackend/goamsgraphprovider.c:500
+msgid "Enter the details provided by your organization"
+msgstr "Ange detaljerna som tillhandahållits av din organisation"
+
+#: src/goabackend/goamsgraphprovider.c:502
+msgid "_Client ID (Optional)"
+msgstr "_Klient-ID (valfritt)"
+
+#. Translators: See https://learn.microsoft.com/globalization/reference/microsoft-terminology
+#: src/goabackend/goamsgraphprovider.c:504
+msgid "_Tenant ID"
+msgstr "_Tenant-ID"
+
+#: src/goabackend/goamsgraphprovider.c:505
+msgid "Example ID: 00000000-0000-0000-0000-000000000000"
+msgstr "Exempel-ID: 00000000-0000-0000-0000-000000000000"
+
+#: src/goabackend/goaoauth2provider.c:754
+#, c-format
+msgid ""
+"Expected status 200 when requesting access token, instead got status %d (%s)"
+msgstr ""
+"Förväntade status 200 vid begäran av åtkomstelement, fick i stället status "
+"%d (%s)"
+
+#: src/goabackend/goaoauth2provider.c:907
+msgid "Authorization response: "
+msgstr "Auktoriseringssvar: "
+
+#: src/goabackend/goaoauth2provider.c:1047
+msgid "Error getting an Access Token: "
+msgstr "Fel vid hämtning av ett åtkomstelement: "
+
+#: src/goabackend/goaoauth2provider.c:1063
+msgid "Error getting identity: "
+msgstr "Fel vid hämtning av identitet: "
+
+#: src/goabackend/goaoauth2provider.c:1101
+#, c-format
+msgid "Sign in to %s with your browser"
+msgstr "Logga in på %s med din webbläsare"
+
+#: src/goabackend/goaoauth2provider.c:1614
+#: src/goabackend/goaoauth2provider.c:1786
+#: src/goabackend/goaowncloudprovider.c:824
+msgid "Copied to clipboard"
+msgstr "Kopierad till urklipp"
+
+#: src/goabackend/goaoauth2provider.c:1737
+#: src/goabackend/goaowncloudprovider.c:1139
+#, c-format
+msgid "Was asked to log in as %s, but logged in as %s"
+msgstr "Frågades om att logga in som %s, men loggade in som %s"
+
+#: src/goabackend/goaoauth2provider.c:1980
+#, c-format
+msgid "Credentials do not contain access_token"
+msgstr "Inloggningsuppgifter innehåller inget åtkomstelement (access_token)"
+
+#: src/goabackend/goaoauth2provider.c:2024
+#, c-format
+msgid "Failed to refresh access token (%s, %d): "
+msgstr "Misslyckades med att uppdatera åtkomstelement (%s, %d): "
+
+#: src/goabackend/goaowncloudprovider.c:65
+#: src/goabackend/goaowncloudprovider.c:849
+msgid "Nextcloud"
+msgstr "Nextcloud"
+
+#: src/goabackend/goaowncloudprovider.c:526 src/goabackend/goautils.c:796
+msgid "Not supported"
+msgstr "Stöds inte"
+
+#: src/goabackend/goaowncloudprovider.c:850
+msgid "Add a Nextcloud account by providing your server address"
+msgstr ""
+"Lägg till ett Nextcloud-konto genom att tillhandahålla din serveradress"
+
+#: src/goabackend/goaowncloudprovider.c:853
+#: src/goabackend/goawebdavprovider.c:403
+msgid "_Server Address"
+msgstr "_Serveradress"
+
+#: src/goabackend/goaowncloudprovider.c:854
+#: src/goabackend/goawebdavprovider.c:404
+msgid "Examples: example.com, 192.168.0.82"
+msgstr "Exempel: example.com, 192.168.0.82"
+
+#: src/goabackend/goaprovider.c:117
+msgid "_Mail"
+msgstr "_E-post"
+
+#: src/goabackend/goaprovider.c:122
+msgid "Cale_ndar"
+msgstr "Kale_nder"
+
+#: src/goabackend/goaprovider.c:127
+msgid "_Contacts"
+msgstr "_Kontakter"
+
+#: src/goabackend/goaprovider.c:132
+msgid "C_hat"
+msgstr "Direkt_meddelanden"
+
+#: src/goabackend/goaprovider.c:137
+msgid "_Documents"
+msgstr "_Dokument"
+
+#: src/goabackend/goaprovider.c:142
+msgid "M_usic"
+msgstr "M_usik"
+
+#: src/goabackend/goaprovider.c:147
+msgid "_Photos"
+msgstr "_Foton"
+
+#: src/goabackend/goaprovider.c:152
+msgid "_Files"
+msgstr "_Filer"
+
+#: src/goabackend/goaprovider.c:157
+msgid "Network _Resources"
+msgstr "Nätverks_resurser"
+
+#: src/goabackend/goaprovider.c:162
+msgid "_Read Later"
+msgstr "_Läs senare"
+
+#: src/goabackend/goaprovider.c:167
+msgid "Prin_ters"
+msgstr "_Skrivare"
+
+#: src/goabackend/goaprovider.c:172
+msgid "_Maps"
+msgstr "Kar_tor"
+
+#: src/goabackend/goaprovider.c:177
+msgid "T_o Do"
+msgstr "Att _göra"
+
+#: src/goabackend/goaprovider.c:1065
+msgid "Account is disabled"
+msgstr "Kontot är inaktiverat"
+
+#: src/goabackend/goaprovider.c:1097
+#, c-format
+msgid "ensure_credentials_sync is not implemented on type %s"
+msgstr "ensure_credentials_sync har inte implementerats för typen %s"
+
+#. Translators: this is the title of the "Add Account" and "Refresh
+#. * Account" dialogs. The %s is the name of the provider. eg.,
+#. * 'Google'.
+#.
+#: src/goabackend/goaproviderdialog.c:183
+#, c-format
+msgid "%s Account"
+msgstr "%s-konto"
+
+#: src/goabackend/goaproviderdialog.c:627
+msgid "Remove this Account?"
+msgstr "Ta bort detta konto?"
+
+#: src/goabackend/goaproviderdialog.c:628
+msgid ""
+"If you remove this Online Account you will have to connect to it again to "
+"use it with apps and services."
+msgstr ""
+"Om du tar bort detta nätkonto kommer du behöva ansluta till det igen för att "
+"använda det med program och tjänster."
+
+#: src/goabackend/goaproviderdialog.c:630
+msgid "_Cancel"
+msgstr "_Avbryt"
+
+#: src/goabackend/goaproviderdialog.c:631
+msgid "_Remove"
+msgstr "_Ta bort"
+
+#: src/goabackend/goaproviderdialog.c:767
+msgid "An account with that name already exists"
+msgstr "Ett konto med det namnet finns redan"
+
+#: src/goabackend/goaproviderdialog.c:839
+msgid "Sign in to reconnect to this account"
+msgstr "Logga in för att återansluta till detta konto"
+
+#: src/goabackend/goaproviderdialog.c:868
+msgid "_Account Description"
+msgstr "_Kontobeskrivning"
+
+#: src/goabackend/goaproviderdialog.c:940
+msgid "_Remove…"
+msgstr "_Ta bort…"
+
+#: src/goabackend/goaproviderdialog.c:1036
+msgid "_Sign In"
+msgstr "_Logga in"
+
+#: src/goabackend/goaproviderdialog.c:1098
+msgid "_Try Again"
+msgstr "_Försök igen"
+
+#: src/goabackend/goaproviderdialog.c:1102
+msgid "_Ignore"
+msgstr "_Ignorera"
+
+#: src/goabackend/goaproviderdialog.c:1374
+msgid "Dialog was dismissed"
+msgstr "Dialogrutan stängdes"
+
+#. TODO: more specific
+#: src/goabackend/goasmtpauth.c:164
+#, c-format
+msgid "TLS not available"
+msgstr "TLS är inte tillgängligt"
+
+#: src/goabackend/goasmtpauth.c:481
+#, c-format
+msgid "Unknown authentication mechanism"
+msgstr "Okänd autentiseringsmekanism"
+
+#: src/goabackend/goautils.c:80
+#, c-format
+msgid "A %s account already exists for %s"
+msgstr "Ett %s-konto finns redan för %s"
+
+#. TODO: more specific
+#: src/goabackend/goautils.c:193
+msgid "Failed to delete credentials from the keyring"
+msgstr "Misslyckades med att ta bort inloggningsuppgifter från nyckelringen"
+
+#. TODO: more specific
+#: src/goabackend/goautils.c:241
+msgid "Failed to retrieve credentials from the keyring"
+msgstr "Misslyckades med att hämta inloggningsuppgifter från nyckelringen"
+
+#. TODO: more specific
+#: src/goabackend/goautils.c:251
+msgid "No credentials found in the keyring"
+msgstr "Inloggningsuppgifter hittades inte i nyckelringen"
+
+#: src/goabackend/goautils.c:264
+msgid "Error parsing result obtained from the keyring: "
+msgstr "Fel vid tolkning av resultatet som hämtades från nyckelringen: "
+
+#. Translators: The %s is the type of the provider, e.g. 'google' or 'yahoo'
+#: src/goabackend/goautils.c:305
+#, c-format
+msgid "GOA %s credentials for identity %s"
+msgstr "GOA %s-inloggningsuppgifter för identiteten %s"
+
+#. TODO: more specific
+#: src/goabackend/goautils.c:322
+msgid "Failed to store credentials in the keyring"
+msgstr "Misslyckades med att lagra inloggningsuppgifter i nyckelringen"
+
+#: src/goabackend/goautils.c:800
+msgid "Not found"
+msgstr "Hittades inte"
+
+#: src/goabackend/goautils.c:814
+#, c-format
+msgid "Code: %u — Unexpected response from server"
+msgstr "Kod: %u — Oväntat svar från server"
+
+#: src/goabackend/goautils.c:839
+msgid "The signing certificate authority is not known."
+msgstr "Signeringscertifikatets utfärdare är okänd."
+
+#: src/goabackend/goautils.c:843
+msgid ""
+"The certificate does not match the expected identity of the site that it was "
+"retrieved from."
+msgstr ""
+"Certifikatet stämmer inte överens med den förväntade identiteten för platsen "
+"som det hämtades från."
+
+#: src/goabackend/goautils.c:848
+msgid "The certificate’s activation time is still in the future."
+msgstr "Certifikatets aktiveringstid ligger i framtiden."
+
+#: src/goabackend/goautils.c:852
+msgid "The certificate has expired."
+msgstr "Certifikatet har gått ut."
+
+#: src/goabackend/goautils.c:856
+msgid "The certificate has been revoked."
+msgstr "Certifikatet har återkallats."
+
+#: src/goabackend/goautils.c:860
+msgid "The certificate’s algorithm is considered insecure."
+msgstr "Certifikatets algoritm är att betrakta som osäker."
+
+#: src/goabackend/goautils.c:866
+msgid "Invalid certificate."
+msgstr "Ogiltigt certifikat."
+
+#. TODO: more specific
+#: src/goabackend/goautils.c:901
+#, c-format
+msgid "Did not find %s with identity “%s” in credentials"
+msgstr "Hittade inte %s med identiteten ”%s” bland inloggningsuppgifterna"
+
+#: src/goabackend/goawebdavprovider.c:399
+msgid "Calendar, Contacts and Files"
+msgstr "Kalender, kontakter och filer"
+
+#: src/goabackend/goawebdavprovider.c:400
+msgid ""
+"Add a calendar, contacts and files account by entering your WebDAV server "
+"and account details"
+msgstr ""
+"Lägg till ett konto för kalender, kontakter och filer genom att ange din "
+"WebDAV-server och dina kontodetaljer"
+
+#: src/goabackend/goawebdavprovider.c:414
+msgid "Server Addresses (Optional)"
+msgstr "Serveradresser (valfritt)"
+
+#: src/goabackend/goawebdavprovider.c:415
+msgid "Files"
+msgstr "Filer"
+
+#: src/goabackend/goawebdavprovider.c:416
+msgid "Calendar (CalDAV)"
+msgstr "Kalender (CalDAV)"
+
+#: src/goabackend/goawebdavprovider.c:417
+msgid "Contacts (CardDAV)"
+msgstr "Kontakter (CardDAV)"
+
+#: src/goaidentity/goaidentityservice.c:565
+msgid "Initial secret key is invalid"
+msgstr "Initial hemlig nyckel är ogiltig"
+
+#. TODO: more specific
+#: src/goaidentity/goaidentityservice.c:787
+#, c-format
+msgid "Couldn't get GoaObject for object path %s"
+msgstr "Kunde inte erhålla GoaObject för objektsökvägen %s"
+
+#: src/goaidentity/goaidentityservice.c:1120
+#, c-format
+msgid "The network realm %s needs some information to sign you in."
+msgstr "Nätverksriket %s behöver en del information för att logga in dig."
+
+#: src/goaidentity/goakerberosidentity.c:294
+#: src/goaidentity/goakerberosidentity.c:302
+#: src/goaidentity/goakerberosidentity.c:696
+msgid "Could not find identity in credential cache: "
+msgstr "Kunde inte hitta identitet i inloggningsuppgiftscache: "
+
+#: src/goaidentity/goakerberosidentity.c:708
+msgid "Could not find identity credentials in cache: "
+msgstr "Kunde inte hitta inloggningsuppgifter i cachen: "
+
+#: src/goaidentity/goakerberosidentity.c:752
+msgid "Could not sift through identity credentials in cache: "
+msgstr "Kunde inte gå igenom inloggningsuppgifterna i cachen: "
+
+#: src/goaidentity/goakerberosidentity.c:764
+msgid "Could not finish up sifting through identity credentials in cache: "
+msgstr "Kunde inte slutföra genomgång av inloggningsuppgifter i cachen: "
+
+#: src/goaidentity/goakerberosidentity.c:1407
+#, c-format
+msgid "No associated identification found"
+msgstr "Ingen associerad identifikationsuppgift kunde hittas"
+
+#: src/goaidentity/goakerberosidentity.c:1536
+msgid "Could not create credential cache: "
+msgstr "Kunde inte skapa inloggningsuppgiftscache: "
+
+#: src/goaidentity/goakerberosidentity.c:1576
+msgid "Could not initialize credentials cache: "
+msgstr "Kunde inte initiera inloggningsuppgiftscache: "
+
+#: src/goaidentity/goakerberosidentity.c:1589
+msgid "Could not store new credentials in credentials cache: "
+msgstr "Kunde inte lagra nya inloggningsuppgifter i cachen: "
+
+#: src/goaidentity/goakerberosidentity.c:1825
+#, c-format
+msgid "Not signed in"
+msgstr "Inte inloggad"
+
+#: src/goaidentity/goakerberosidentity.c:1838
+msgid "Could not get the default principal: "
+msgstr "Kunde inte hämta standardhuvudman: "
+
+#: src/goaidentity/goakerberosidentity.c:1851
+#, c-format
+msgid "Could not get renewed credentials from the KDC for identity %s: "
+msgstr ""
+"Kunde inte hämta förnyade inloggningsuppgifter från KDC för identitet %s: "
+
+#: src/goaidentity/goakerberosidentity.c:1899
+msgid "Could not erase identity: "
+msgstr "Kunde inte radera identitet: "
+
+#: src/goaidentity/goakerberosidentitymanager.c:955
+msgid "Could not find identity"
+msgstr "Kunde inte hitta identitet"
+
+#: src/goaidentity/goakerberosidentitymanager.c:1038
+msgid "Could not create credential cache for identity"
+msgstr "Kunde inte skapa inloggningsuppgiftscache för identitet"
+
+#: src/goaidentity/goalinuxnotificationstream.c:58
+#, c-format
+msgid "Error closing file descriptor: %s"
+msgstr "Fel vid stängning av filhandtag: %s"
+
+#~ msgid "Authorization failed"
+#~ msgstr "Auktorisering misslyckades"
+
+#, c-format
+#~ msgid "Authorization response: %s"
+#~ msgstr "Auktoriseringssvar: %s"
+
+#~ msgid "Failed to authenticate"
+#~ msgstr "Misslyckades med att autentisera"
+
+#~ msgid "List of providers that are allowed to be loaded"
+#~ msgstr "Leverantörer som tillåts att läsas in"
+
+#~ msgid ""
+#~ "A list of strings representing the providers that are allowed to be "
+#~ "loaded (default: 'all'). This is only evaluated on startup. Deprecated: "
+#~ "use goa.conf in the system config directory instead, with a key "
+#~ "[providers] enable=all instead. The key is comma-separated list of the "
+#~ "provider names."
+#~ msgstr ""
+#~ "En lista av strängar som representerar vilka leverantörer som tillåts "
+#~ "läsas in (standard: ”all”). Detta utvärderas bara vid uppstart. "
+#~ "Föråldrad: använd goa.conf i systemkonfigurationskatalogen i stället, med "
+#~ "nyckeln [providers] enable=all. Nyckeln är en kommaseparerad lista över "
+#~ "leverantörsnamnen."
+
+#~ msgid "Failed to get session keyring"
+#~ msgstr "Misslyckades med att erhålla sessionens nyckelring"
+
+#~ msgid "_Account Name"
+#~ msgstr "_Kontonamn"
+
+#~ msgid "Microsoft"
+#~ msgstr "Microsoft"
+
+#~ msgid "None"
+#~ msgstr "Ingen"
+
+#~ msgid "_Sign in…"
+#~ msgstr "_Logga in…"
+
+#~ msgid "Connect to Microsoft 365 to access files stored in OneDrive"
+#~ msgstr "Anslut till Microsoft 365 för att komma åt filer lagrade i OneDrive"
+
+#~ msgid ""
+#~ "A custom Client or Tenant ID may need to be provided depending on the "
+#~ "settings for your organization"
+#~ msgstr ""
+#~ "Ett anpassat Klient- eller Tenant-ID kan behöva tillhandahållas beroende "
+#~ "på inställningarna för din organisation"
+
+#~ msgid "Common"
+#~ msgstr "Vanlig"
+
+#~ msgid "Custom"
+#~ msgstr "Anpassad"
+
+#~ msgid "Advanced"
+#~ msgstr "Avancerat"
+
+#~ msgid "_Issuer"
+#~ msgstr "_Utfärdare"
+
+#~ msgid "C_ustom Issuer"
+#~ msgstr "_Anpassad utfärdare"
+
+#~ msgid "Example provider: example.com"
+#~ msgstr "Exempelleverantör: example.com"
+
+#~ msgid "Microsoft Personal"
+#~ msgstr "Microsoft Personal"
+
+#~ msgid "Endpoint Settings"
+#~ msgstr "Ändpunktsinställningar"
+
+#~ msgid "Files Endpoint"
+#~ msgstr "Filer-ändpunkt"
+
+#~ msgid "CalDAV Endpoint"
+#~ msgstr "CalDAV-ändpunkt"
+
+#~ msgid "CardDAV Endpoint"
+#~ msgstr "CardDAV-ändpunkt"
+
+#~ msgid "Enterprise Login (Kerberos)"
+#~ msgstr "Företagslogin (Kerberos)"
+
+#~ msgid "C_onnect"
+#~ msgstr "Ansl_ut"
+
+#~ msgid "Connecting…"
+#~ msgstr "Ansluter…"
+
+#, c-format
+#~ msgid "Dialog was dismissed (%s, %d): "
+#~ msgstr "Dialogrutan stängdes (%s, %d): "
+
+#~ msgid "Error connecting to Microsoft Exchange server"
+#~ msgstr "Fel vid anslutning till Microsoft Exchange-server"
+
+#~ msgid "Error connecting to Fedora"
+#~ msgstr "Fel vid anslutning till Fedora"
+
+#~ msgid "_Forward"
+#~ msgstr "_Framåt"
+
+#~ msgid "Error connecting to IMAP server"
+#~ msgstr "Fel vid anslutning till IMAP-server"
+
+#~ msgid "Error connecting to SMTP server"
+#~ msgstr "Fel vid anslutning till SMTP-server"
+
+#~ msgid "Error connecting to enterprise identity server"
+#~ msgstr "Fel vid anslutning till företagsidentitetsserver"
+
+#~ msgid "E-Mail"
+#~ msgstr "E-post"
+
+#~ msgid "Continue"
+#~ msgstr "Fortsätt"
+
+#~ msgid "Use for"
+#~ msgstr "Använd för"
+
+#~ msgid "Error logging into the account"
+#~ msgstr "Fel vid inloggning för kontot"
+
+#~ msgid "Credentials have expired"
+#~ msgstr "Autentiseringsuppgifterna har gått ut"
+
+#~ msgid "_URL"
+#~ msgstr "_URL"
+
+#~ msgid "Error connecting to server"
+#~ msgstr "Fel vid anslutning till server"
+
+#~ msgid "Error connecting to Files endpoint"
+#~ msgstr "Fel vid anslutning till Filer-ändpunkt"
+
+#~ msgid "Error connecting to CalDAV endpoint"
+#~ msgstr "Fel vid anslutning till CalDAV-ändpunkt"
+
+#~ msgid "Error connecting to CardDAV endpoint"
+#~ msgstr "Fel vid anslutning till CardDAV-ändpunkt"
+
+#~ msgid "Error connecting to WebDAV server"
+#~ msgstr "Fel vid anslutning till WebDAV-server"
+
+#~ msgid "Last.fm"
+#~ msgstr "Last.fm"
+
+#~ msgid "Error connecting to Last.fm"
+#~ msgstr "Fel vid anslutning till Last.fm"
+
+#~ msgid "Media Server"
+#~ msgstr "Mediaserver"
+
+#~ msgid ""
+#~ "Personal content can be added to your applications through a media server "
+#~ "account."
+#~ msgstr ""
+#~ "Personligt innehåll kan läggas till i dina program genom ett "
+#~ "mediaserverkonto."
+
+#~ msgid "Available Media Servers"
+#~ msgstr "Tillgängliga mediaservrar"
+
+#~ msgid "No media servers found"
+#~ msgstr "Inga mediaservrar hittades"
+
+#~ msgid "Error connecting to Nextcloud server"
+#~ msgstr "Fel vid anslutning till Nextcloud-server"
+
+#~ msgid "Server does not support PLAIN"
+#~ msgstr "Servern stöder inte PLAIN"
+
+#, c-format
+#~ msgid "Loading “%s”…"
+#~ msgstr "Laddar ”%s”…"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Flickr"
+#~ msgstr "Flickr"
+
+#~ msgid "Your system time is invalid. Check your date and time settings."
+#~ msgstr ""
+#~ "Din systemtid är ogiltig. Kontrollera dina datum- och tidsinställningar."
+
+#~ msgid "Foursquare"
+#~ msgstr "Foursquare"
+
+#~ msgid "Missing access_token or access_token_secret headers in response"
+#~ msgstr ""
+#~ "Saknar rubriker för åtkomstelement (access_token) eller "
+#~ "åtkomstelementhemlighet (access_token_secret) i svaret"
+
+#~ msgid "Error getting a Request Token: "
+#~ msgstr "Fel vid hämtning av ett begäranselement: "
+
+#~ msgid "Missing request_token or request_token_secret headers in response"
+#~ msgstr ""
+#~ "Saknar rubriker för begäranselement (request_token) eller "
+#~ "begäranselementhemlighet i svaret"
+
+#~ msgid "Credentials do not contain access_token or access_token_secret"
+#~ msgstr ""
+#~ "Inloggningsuppgifter innehåller inte åtkomstelement (access_token) eller "
+#~ "åtkomstelementshemlighet (access_token_secret)"
+
+#~ msgid "Pocket"
+#~ msgstr "Pocket"
+
+#~ msgid "No username or access_token"
+#~ msgstr "Inget användarnamn eller åtkomstelement"
+
+#~ msgid "Cannot resolve hostname"
+#~ msgstr "Kan inte slå upp värdnamn"
+
+#~ msgid "Cannot resolve proxy hostname"
+#~ msgstr "Kan inte slå upp proxy-värdnamn"
+
+#~ msgid "Could not renew identity: Not signed in"
+#~ msgstr "Kunde inte förnya identitet: Inte inloggad"
+
+#~ msgid "Could not renew identity: "
+#~ msgstr "Kunde inte förnya identitet: "
+
+#~ msgid "Telepathy chat account not found"
+#~ msgstr "Telepathy-kontot för direktmeddelanden hittades inte"
+
+#~ msgid "Failed to create a user interface for %s"
+#~ msgstr "Misslyckades med att skapa ett användargränssnitt för %s"
+
+#~ msgid "_OK"
+#~ msgstr "_OK"
+
+#~ msgid "Cannot save the connection parameters"
+#~ msgstr "Kan inte spara anslutningsparametrarna"
+
+#~ msgid "Cannot save your personal information on the server"
+#~ msgstr "Kan inte spara din personliga information på servern"
+
+#~ msgid "_Connection Settings"
+#~ msgstr "_Anslutningsinställningar"
+
+#~ msgid "_Personal Details"
+#~ msgstr "_Personliga detaljer"
+
+#~ msgid "Todoist"
+#~ msgstr "Todoist"
+
+#~ msgid "Enterprise domain or realm name"
+#~ msgstr "Namn på företagsdomän eller rike"
+
+#~ msgid "The domain is not valid"
+#~ msgstr "Domänen är ogiltig"
+
+#~ msgid "org.gnome.OnlineAccounts.Mail is not available"
+#~ msgstr "org.gnome.OnlineAccounts.Mail är inte tillgänglig"
+
+#~ msgid "Failed to parse email address"
+#~ msgstr "Misslyckades med att tolka e-postadress"
+
+#~ msgid "Cannot do SMTP authentication without a domain"
+#~ msgstr "Kan inte genomföra SMTP-autentisering utan en domän"
+
+#~ msgid "Did not find smtp-password in credentials"
+#~ msgstr "Hittade inte smtp-lösenord bland inloggningsuppgifterna"
+
+#~ msgid "Cannot do SMTP authentication without a password"
+#~ msgstr "Kan inte genomföra SMTP-autentisering utan ett lösenord"
+
+#~ msgid "initial secret passed before secret key exchange"
+#~ msgstr "initial hemlighet skickad före utbytet av hemliga nycklar"
+
+#~ msgid "ownCloud"
+#~ msgstr "ownCloud"
+
+#~ msgid "Did not find password with identity ‘%s’ in credentials"
+#~ msgstr ""
+#~ "Hittade inte lösenord med identiteten ‘%s’ bland inloggningsuppgifterna"
