@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-23 23:58 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:01 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -261,7 +261,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [extensions-web — GNOME Shell Extensions Repository](https://l10n.gnome.org/vertimus/extensions-web/master/po/sv/) | master | 143 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [eyedropper](https://l10n.gnome.org/vertimus/eyedropper/main/po/sv/) | main | 66 | 0 | 0 | Klar | X | 5 | Klar lokalt (2026-11-23): Hela 66-strängarskatalogen är radgranskad mot senaste POT. Fem befintliga kvalitetsbrister är rättade, inklusive färgformatet HSV; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp, l10n-lint och hunspell-sv saknar fel eller anmärkningar. Ingen GNOME-inskickning har gjorts. [original](eyedropper/main/po/eyedropper.main.sv.original.po), [granskad](eyedropper/main/po/eyedropper.main.sv.reviewed.po), [diff](eyedropper/main/po/eyedropper.main.sv.review.diff), [notering](eyedropper/main/po/README.md) |
 | Dokumentation | Default (71% translated) | [file-roller](https://l10n.gnome.org/vertimus/file-roller/master/help/sv/) | master | 182 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [five-or-more](https://l10n.gnome.org/vertimus/five-or-more/main/po/sv/) | main | 72 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [five-or-more](https://l10n.gnome.org/vertimus/five-or-more/main/po/sv/) | main | 72 | 0 | 0 | Klar | X | 2 | Klar lokalt (2026-11-24): Hela 72-strängarskatalogen är radgranskad mot senaste POT. Två befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](five-or-more/main/po/five-or-more.main.sv.original.po), [granskad](five-or-more/main/po/five-or-more.main.sv.reviewed.po), [diff](five-or-more/main/po/five-or-more.main.sv.review.diff), [notering](five-or-more/main/po/README.md) |
 | Dokumentation | Default (71% translated) | [five-or-more](https://l10n.gnome.org/vertimus/five-or-more/main/help/sv/) | main | 143 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [folks](https://l10n.gnome.org/vertimus/folks/main/po/sv/) | main | 124 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [foundry — Developer tools](https://l10n.gnome.org/vertimus/foundry/main/po/sv/) | main | 451 | 0 | 0 | Klar |  | — | Ej granskad |
