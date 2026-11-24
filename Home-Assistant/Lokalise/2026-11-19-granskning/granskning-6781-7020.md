@@ -1,14 +1,14 @@
 # Home Assistant Core – granskning 6781–7020
 
-Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Referenser vars mål inte finns i underlaget markeras för senare kontroll.
+Sortering: ”Last added” vid insamlingen. Livegranskningen genomfördes 2026-11-24 mot Lokalise API och Home Assistant Core-källträdet på commit `2fdaa177f3e94535b3b649fb1ffc2dbba52eb4ce`. Alla 240 poster finns fortfarande i Lokalise; alla 72 unika referensmål är återfunna. De engelska källtexterna kontrollerades; fyra poster har fått utökad källtext sedan arkivrapporten och kontrollerades i sin helhet.
 
 ## 6781. `component::xthings_cloud::config::step::reauth_confirm::title`
 
 **Engelska:** [%key:common::config_flow::title::reauth%]
 
-**Befintlig svenska:** Autentiseringen har upphört för {name}
+**Befintlig svenska:** Autentiseringen har upphört att gälla för {name}
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::title::reauth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::title::reauth` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6782. `component::xthings_cloud::config::step::reauth_confirm::description`
 
@@ -22,9 +22,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:component::xthings_cloud::config::step::user::data_description::password%]
 
-**Befintlig svenska:** Lösenordet för ditt Xthings Cloud-konto.
+**Befintlig svenska:** Lösenordet till ditt Xthings Cloud-konto.
 
-**Kontextkontroll:** Kontrollera referensmålet `component::xthings_cloud::config::step::user::data_description::password`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::xthings_cloud::config::step::user::data_description::password` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6784. `component::xthings_cloud::config::step::reauth_confirm::data::password`
 
@@ -32,7 +32,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Lösenord
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::password`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::password` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6785. `component::xthings_cloud::config::abort::unique_id_mismatch`
 
@@ -46,9 +46,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:common::config_flow::title::reauth%]
 
-**Befintlig svenska:** Autentiseringen har upphört för {name}
+**Befintlig svenska:** Autentiseringen har upphört att gälla för {name}
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::title::reauth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::title::reauth` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6787. `component::willow::config::step::reauth_confirm::description`
 
@@ -78,9 +78,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:component::nyt_games::config::step::user::data_description::token%]
 
-**Befintlig svenska:** Värdet för NYT Games-kakan NYT-S.
+**Befintlig svenska:** Värdet för NYT Games-cookien NYT-S.
 
-**Kontextkontroll:** Kontrollera referensmålet `component::nyt_games::config::step::user::data_description::token`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::nyt_games::config::step::user::data_description::token` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6791. `component::nyt_games::config::step::reauth_confirm::data::token`
 
@@ -88,7 +88,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Token
 
-**Kontextkontroll:** Kontrollera referensmålet `component::nyt_games::config::step::user::data::token`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::nyt_games::config::step::user::data::token` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6792. `component::nyt_games::config::abort::unique_id_mismatch`
 
@@ -102,9 +102,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:component::nanoleaf::config::step::user::data_description::host%]
 
-**Befintlig svenska:** Värdnamnet eller IP-adressen för Nanoleaf-enheten.
+**Befintlig svenska:** Värdnamnet eller IP-adressen för din Nanoleaf-enhet.
 
-**Kontextkontroll:** Kontrollera referensmålet `component::nanoleaf::config::step::user::data_description::host`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::nanoleaf::config::step::user::data_description::host` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6794. `component::nanoleaf::config::step::reconfigure::data::host`
 
@@ -112,7 +112,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Värd
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::host`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::host` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6795. `component::nanoleaf::config::error::invalid_token`
 
@@ -120,7 +120,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Ogiltig åtkomsttoken
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::invalid_access_token`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::error::invalid_access_token` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6796. `component::nanoleaf::config::abort::unique_id_mismatch`
 
@@ -134,7 +134,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Authentication with the Zinvolt API failed. Please reauthenticate.
 
-**Befintlig svenska:** Autentiseringen med Zinvolt API misslyckades. Autentisera igen.
+**Befintlig svenska:** Autentiseringen med Zinvolt-API:t misslyckades. Autentisera på nytt.
 
 **Förslag:** Autentiseringen med Zinvolt-API:t misslyckades. Autentisera på nytt.
 
@@ -150,9 +150,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:component::zinvolt::config::step::user::data_description::password%]
 
-**Befintlig svenska:** Lösenordet för ditt Zinvolt-konto.
+**Befintlig svenska:** Lösenordet till ditt Zinvolt-konto.
 
-**Kontextkontroll:** Kontrollera referensmålet `component::zinvolt::config::step::user::data_description::password`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::zinvolt::config::step::user::data_description::password` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6800. `component::zinvolt::config::step::reauth_confirm::data_description::email`
 
@@ -160,7 +160,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** E-postadressen för ditt Zinvolt-konto.
 
-**Kontextkontroll:** Kontrollera referensmålet `component::zinvolt::config::step::user::data_description::email`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::zinvolt::config::step::user::data_description::email` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6801. `component::zinvolt::config::step::reauth_confirm::data::password`
 
@@ -168,7 +168,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Lösenord
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::password`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::password` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6802. `component::zinvolt::config::step::reauth_confirm::data::email`
 
@@ -176,7 +176,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** E-post
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::email`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::email` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6803. `component::zinvolt::config::abort::unique_id_mismatch`
 
@@ -190,17 +190,17 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:component::libre_hardware_monitor::config::step::user::data_description::port%]
 
-**Befintlig svenska:** Porten för Libre Hardware Monitor-webbservern. Standardvärdet är 8085.
+**Befintlig svenska:** Porten till webbservern för Libre Hardware Monitor. Som standard 8085.
 
-**Kontextkontroll:** Kontrollera referensmålet `component::libre_hardware_monitor::config::step::user::data_description::port`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::libre_hardware_monitor::config::step::user::data_description::port` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6805. `component::libre_hardware_monitor::config::step::reconfigure::data_description::host`
 
 **Engelska:** [%key:component::libre_hardware_monitor::config::step::user::data_description::host%]
 
-**Befintlig svenska:** IP-adressen eller värdnamnet för systemet som kör Libre Hardware Monitor.
+**Befintlig svenska:** IP-adressen eller värdnamnet för det system som kör Libre Hardware Monitor.
 
-**Kontextkontroll:** Kontrollera referensmålet `component::libre_hardware_monitor::config::step::user::data_description::host`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::libre_hardware_monitor::config::step::user::data_description::host` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6806. `component::libre_hardware_monitor::config::step::reconfigure::data::port`
 
@@ -208,7 +208,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Port
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::port`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::port` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6807. `component::libre_hardware_monitor::config::step::reconfigure::data::host`
 
@@ -216,7 +216,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Värd
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::host`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::host` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6808. `component::hase_iq::entity::sensor::phase::state::nominal`
 
@@ -238,9 +238,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:common::state::idle%]
 
-**Befintlig svenska:** Viloläge
+**Befintlig svenska:** Inaktiv
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::idle`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::state::idle` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6811. `component::hase_iq::entity::sensor::phase::state::heating_up`
 
@@ -296,7 +296,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Värd
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::host`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::host` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6818. `component::hase_iq::config::error::unknown`
 
@@ -304,29 +304,29 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Oväntat fel
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::unknown`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::error::unknown` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6819. `component::hase_iq::config::error::cannot_connect`
 
 **Engelska:** [%key:common::config_flow::error::cannot_connect%]
 
-**Befintlig svenska:** Det gick inte att ansluta.
+**Befintlig svenska:** Det gick inte att ansluta
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::cannot_connect`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::error::cannot_connect` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6820. `component::hase_iq::config::abort::already_configured`
 
 **Engelska:** [%key:common::config_flow::abort::already_configured_device%]
 
-**Befintlig svenska:** Enheten är redan konfigurerad.
+**Befintlig svenska:** Enheten är redan konfigurerad
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::abort::already_configured_device`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::abort::already_configured_device` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6821. `component::acmeda::exceptions::hub_reset_failed::message`
 
 **Engelska:** Could not reset the Acmeda hub while unloading
 
-**Befintlig svenska:** Det gick inte att återställa Acmeda-hubben vid avläsning.
+**Befintlig svenska:** Det gick inte att återställa Acmeda-hubben när den kopplades från.
 
 **Förslag:** Det gick inte att återställa Acmeda-hubben när den kopplades från.
 
@@ -334,7 +334,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Error while unloading the EnergyID entry.
 
-**Befintlig svenska:** Fel vid avläsning av EnergyID-posten.
+**Befintlig svenska:** Fel när EnergyID-posten kopplades från.
 
 **Förslag:** Fel när EnergyID-posten kopplades från.
 
@@ -342,15 +342,15 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:common::config_flow::title::reauth%]
 
-**Befintlig svenska:** Autentiseringen har upphört för {name}
+**Befintlig svenska:** Autentiseringen har upphört att gälla för {name}
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::title::reauth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::title::reauth` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6824. `component::rejseplanen::config::step::reauth_confirm::description`
 
 **Engelska:** The Rejseplanen API key is no longer valid. Please enter a new API key.
 
-**Befintlig svenska:** Rejseplanen API-nyckeln är inte längre giltig. Ange en ny API-nyckel.
+**Befintlig svenska:** Rejseplanen-API-nyckeln är inte längre giltig. Ange en ny API-nyckel.
 
 **Förslag:** Rejseplanen-API-nyckeln är inte längre giltig. Ange en ny API-nyckel.
 
@@ -358,9 +358,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:component::rejseplanen::config::step::user::data_description::api_key%]
 
-**Befintlig svenska:** API-nyckel från Rejseplanen.dk
+**Befintlig svenska:** API-nyckel tillhandahållen av Rejseplanen.dk
 
-**Kontextkontroll:** Kontrollera referensmålet `component::rejseplanen::config::step::user::data_description::api_key`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::rejseplanen::config::step::user::data_description::api_key` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6826. `component::rejseplanen::config::step::reauth_confirm::data::api_key`
 
@@ -368,7 +368,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** API-nyckel
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::api_key`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::api_key` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6827. `component::icloud::options::step::init::data::include_completed`
 
@@ -398,9 +398,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:common::config_flow::error::cannot_connect%]
 
-**Befintlig svenska:** Det gick inte att ansluta.
+**Befintlig svenska:** Det gick inte att ansluta
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::cannot_connect`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::error::cannot_connect` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6831. `component::midea::entity::sensor::energy_consumption_24h::name`
 
@@ -414,7 +414,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Timed out waiting for the WiZ device to respond
 
-**Befintlig svenska:** Tidsgränsen överskreds medan WiZ-enheten väntades svara.
+**Befintlig svenska:** Tidsgränsen överskreds medan systemet väntade på svar från WiZ-enheten.
 
 **Förslag:** Tidsgränsen överskreds medan systemet väntade på svar från WiZ-enheten.
 
@@ -438,9 +438,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:common::config_flow::title::reauth%]
 
-**Befintlig svenska:** Autentiseringen har upphört för {name}
+**Befintlig svenska:** Autentiseringen har upphört att gälla för {name}
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::title::reauth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::title::reauth` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6836. `component::subaru::config::step::reauth_confirm::description`
 
@@ -456,7 +456,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Lösenordet för ditt MySubaru-konto.
 
-**Kontextkontroll:** Kontrollera referensmålet `component::subaru::config::step::user::data_description::password`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::subaru::config::step::user::data_description::password` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6838. `component::subaru::config::step::reauth_confirm::data::password`
 
@@ -464,15 +464,15 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Lösenord
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::password`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::password` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6839. `component::econet::config::step::reauth_confirm::title`
 
 **Engelska:** [%key:common::config_flow::title::reauth%]
 
-**Befintlig svenska:** Autentiseringen har upphört för {name}
+**Befintlig svenska:** Autentiseringen har upphört att gälla för {name}
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::title::reauth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::title::reauth` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6840. `component::econet::config::step::reauth_confirm::description`
 
@@ -488,7 +488,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Lösenord
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::password`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::password` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6842. `component::grandstream_home::exceptions::no_status::message`
 
@@ -616,7 +616,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Värd
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::host`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::host` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6858. `component::grandstream_home::config::step::auth::title`
 
@@ -664,7 +664,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Verifiera SSL-certifikat
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::verify_ssl`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::verify_ssl` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6864. `component::grandstream_home::config::step::auth::data::port`
 
@@ -672,7 +672,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Port
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::port`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::port` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6865. `component::grandstream_home::config::step::auth::data::password`
 
@@ -680,7 +680,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Lösenord
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::password`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::password` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6866. `component::grandstream_home::config::flow_title`
 
@@ -696,7 +696,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Oväntat fel
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::unknown`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::error::unknown` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6868. `component::grandstream_home::config::error::missing_data`
 
@@ -712,13 +712,13 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Ogiltig autentisering
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::invalid_auth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::error::invalid_auth` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6870. `component::grandstream_home::config::error::ha_control_disabled`
 
 **Engelska:** Failed to add. Please enable Home Assistant control in the device web interface
 
-**Befintlig svenska:** Det gick inte att lägga till. Aktivera Home Assistant-styrning i enhetens webbgränssnitt.
+**Befintlig svenska:** Det gick inte att lägga till integreringen. Aktivera Home Assistant-styrning i enhetens webbgränssnitt.
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -726,23 +726,23 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:common::config_flow::error::cannot_connect%]
 
-**Befintlig svenska:** Det gick inte att ansluta.
+**Befintlig svenska:** Det gick inte att ansluta
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::cannot_connect`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::error::cannot_connect` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6872. `component::grandstream_home::config::abort::already_configured`
 
 **Engelska:** [%key:common::config_flow::abort::already_configured_device%]
 
-**Befintlig svenska:** Enheten är redan konfigurerad.
+**Befintlig svenska:** Enheten är redan konfigurerad
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::abort::already_configured_device`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::abort::already_configured_device` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6873. `component::smartyplants::exceptions::invalid_auth::message`
 
 **Engelska:** The SmartyPlants API key was rejected. Re-authenticate the integration with a new key.
 
-**Befintlig svenska:** SmartyPlants API-nyckeln avvisades. Autentisera om integreringen med en ny nyckel.
+**Befintlig svenska:** SmartyPlants-API-nyckeln avvisades. Autentisera integreringen på nytt med en ny nyckel.
 
 **Förslag:** SmartyPlants-API-nyckeln avvisades. Autentisera integreringen på nytt med en ny nyckel.
 
@@ -854,7 +854,7 @@ Lämna hemligheten tom för att bara använda avläsning.
 
 **Engelska:** Create this in the SmartyPlants app, under Settings. It identifies your account to Home Assistant.
 
-**Befintlig svenska:** Skapa den här i SmartyPlants-appen under Inställningar. Den identifierar ditt konto för Home Assistant.
+**Befintlig svenska:** Skapa API-nyckeln i SmartyPlants-appen under Inställningar. Den identifierar ditt konto för Home Assistant.
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -864,7 +864,7 @@ Lämna hemligheten tom för att bara använda avläsning.
 
 **Befintlig svenska:** API-nyckel
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::api_key`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::api_key` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6888. `component::smartyplants::config::error::invalid_auth`
 
@@ -872,7 +872,7 @@ Lämna hemligheten tom för att bara använda avläsning.
 
 **Befintlig svenska:** Ogiltig autentisering
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::invalid_auth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::error::invalid_auth` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6889. `component::smartyplants::config::error::forbidden`
 
@@ -886,17 +886,17 @@ Lämna hemligheten tom för att bara använda avläsning.
 
 **Engelska:** [%key:common::config_flow::error::cannot_connect%]
 
-**Befintlig svenska:** Det gick inte att ansluta.
+**Befintlig svenska:** Det gick inte att ansluta
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::cannot_connect`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::error::cannot_connect` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6891. `component::smartyplants::config::abort::already_configured`
 
 **Engelska:** [%key:common::config_flow::abort::already_configured_account%]
 
-**Befintlig svenska:** Kontot är redan konfigurerat.
+**Befintlig svenska:** Kontot är redan konfigurerat
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::abort::already_configured_account`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::abort::already_configured_account` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6892. `component::xiaomi_weather::config::step::user::title`
 
@@ -1030,7 +1030,7 @@ När du skickar in verifieras väderåtkomsten och platsen sparas.
 
 **Engelska:** An error occurred while communicating with the Tractive API: {error}
 
-**Befintlig svenska:** Ett fel uppstod vid kommunikation med Tractive API: {error}
+**Befintlig svenska:** Ett fel uppstod vid kommunikation med Tractive-API:t: {error}
 
 **Förslag:** Ett fel uppstod vid kommunikation med Tractive-API:t: {error}
 
@@ -1038,7 +1038,7 @@ När du skickar in verifieras väderåtkomsten och platsen sparas.
 
 **Engelska:** Authentication failed while communicating with the Tractive API.
 
-**Befintlig svenska:** Autentiseringen misslyckades vid kommunikation med Tractive API.
+**Befintlig svenska:** Autentiseringen misslyckades vid kommunikation med Tractive-API:t.
 
 **Förslag:** Autentiseringen misslyckades vid kommunikation med Tractive-API:t.
 
@@ -1132,7 +1132,7 @@ Uppdatera kontrollpaneler, mallar, automatiseringar och skript så att de använ
 
 **Engelska:** Failed to unload one or more platforms.
 
-**Befintlig svenska:** Det gick inte att avläsa en eller flera plattformar.
+**Befintlig svenska:** Det gick inte att koppla från en eller flera plattformar.
 
 **Förslag:** Det gick inte att koppla från en eller flera plattformar.
 
@@ -1140,9 +1140,9 @@ Uppdatera kontrollpaneler, mallar, automatiseringar och skript så att de använ
 
 **Engelska:** [%key:common::config_flow::title::reauth%]
 
-**Befintlig svenska:** Autentiseringen har upphört för {name}
+**Befintlig svenska:** Autentiseringen har upphört att gälla för {name}
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::title::reauth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::title::reauth` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6919. `component::ourgroceries::config::step::reauth_confirm::description`
 
@@ -1158,7 +1158,7 @@ Uppdatera kontrollpaneler, mallar, automatiseringar och skript så att de använ
 
 **Befintlig svenska:** Lösenord
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::password`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::password` har liveverifierats och värdena jämfördes efter synk.
 
 ## 6921. `component::shelly::entity::sensor::last_command_source_with_channel_name::state::ws_in`
 
@@ -1524,7 +1524,7 @@ Uppdatera kontrollpaneler, mallar, automatiseringar och skript så att de använ
 
 **Engelska:** {channel_name} last command source
 
-**Befintlig svenska:** {channel_name} senaste kommandokälla
+**Befintlig svenska:** Senaste kommandokälla för {channel_name}
 
 **Förslag:** Senaste kommandokälla för {channel_name}
 
@@ -1908,9 +1908,9 @@ Uppdatera kontrollpaneler, mallar, automatiseringar och skript så att de använ
 
 **Engelska:** [%key:common::config_flow::title::reauth%]
 
-**Befintlig svenska:** Autentiseringen har upphört för {name}
+**Befintlig svenska:** Autentiseringen har upphört att gälla för {name}
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::title::reauth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::title::reauth` har liveverifierats och värdena jämfördes efter synk.
 
 ## 7015. `component::switchbot_cloud::config::step::reauth_confirm::description`
 
@@ -1926,7 +1926,7 @@ Uppdatera kontrollpaneler, mallar, automatiseringar och skript så att de använ
 
 **Befintlig svenska:** API-token
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::api_token`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::api_token` har liveverifierats och värdena jämfördes efter synk.
 
 ## 7017. `component::switchbot_cloud::config::step::reauth_confirm::data::api_key`
 
@@ -1934,7 +1934,7 @@ Uppdatera kontrollpaneler, mallar, automatiseringar och skript så att de använ
 
 **Befintlig svenska:** API-nyckel
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::api_key`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::api_key` har liveverifierats och värdena jämfördes efter synk.
 
 ## 7018. `component::shelly::entity::infrared::infrared_receiver::name`
 
@@ -1959,3 +1959,49 @@ Uppdatera kontrollpaneler, mallar, automatiseringar och skript så att de använ
 **Befintlig svenska:** Lösenordet för ditt Tractive-konto.
 
 **Bedömning:** Ingen ändring föreslås.
+## Resultat av livegranskning 2026-11-24
+
+
+Alla 240 poster radgranskades mot aktuell källtext och livevärden. 72 unika referensmål och samtliga 25 referensanvändningar verifierades; efter rättning återstår 0 avvikelser. 20 värden ändrades och sparades i Lokalise. Totalt verifierades 26 API-skrivningar med direkt readback; sex av dessa motsvarade redan samma text. Ytterligare 15 svenska livevärden hade ändrats sedan den äldre rapporten och kontrollerades; fyra poster har också utökad källtext. Resterande 220 poster behölls efter kontroll.
+
+
+### Textändringar sparade i Lokalise
+
+
+| Fullständig nyckel | Före | Efter | Skäl |
+| --- | --- | --- | --- |
+| `component::xthings_cloud::config::step::reauth_confirm::data_description::password` | `Lösenordet för ditt Xthings Cloud-konto.` | `Lösenordet till ditt Xthings Cloud-konto.` | Matchar samma återanvända användarflödestext. |
+| `component::nyt_games::config::step::reauth_confirm::data_description::token` | `Värdet för NYT Games-kakan NYT-S.` | `Värdet för NYT Games-cookien NYT-S.` | Cookie är etablerad svensk term här; matchar användarflödet. |
+| `component::nanoleaf::config::step::reconfigure::data_description::host` | `Värdnamnet eller IP-adressen för Nanoleaf-enheten.` | `Värdnamnet eller IP-adressen för din Nanoleaf-enhet.` | Matchar återanvänt användarflödesmål. |
+| `component::zinvolt::config::step::reauth_confirm::data_description::password` | `Lösenordet för ditt Zinvolt-konto.` | `Lösenordet till ditt Zinvolt-konto.` | Matchar återanvänt användarflödesmål. |
+| `component::libre_hardware_monitor::config::step::reconfigure::data_description::port` | `Porten för Libre Hardware Monitor-webbservern. Standardvärdet är 8085.` | `Porten till webbservern för Libre Hardware Monitor. Som standard 8085.` | Matchar referensmålet och bevarar standardporten. |
+| `component::libre_hardware_monitor::config::step::reconfigure::data_description::host` | `IP-adressen eller värdnamnet för systemet som kör Libre Hardware Monitor.` | `IP-adressen eller värdnamnet för det system som kör Libre Hardware Monitor.` | Matchar referensmålet med naturlig relativsats. |
+| `component::hase_iq::entity::sensor::phase::state::idle` | `Viloläge` | `Inaktiv` | Matchar gemensamma tillståndsetiketten `common::state::idle`. |
+| `component::hase_iq::config::error::cannot_connect` | `Det gick inte att ansluta.` | `Det gick inte att ansluta` | Matchar gemensam feltext; tar bort överflödig punkt. |
+| `component::hase_iq::config::abort::already_configured` | `Enheten är redan konfigurerad.` | `Enheten är redan konfigurerad` | Matchar gemensam avbrottstext; tar bort överflödig punkt. |
+| `component::rejseplanen::config::step::reauth_confirm::title` | `Autentiseringen har upphört för {name}` | `Autentiseringen har upphört att gälla för {name}` | Harmoniserar gemensam reautentiseringstext; `{name}` bevaras. |
+| `component::rejseplanen::config::step::reauth_confirm::data_description::api_key` | `API-nyckel från Rejseplanen.dk` | `API-nyckel tillhandahållen av Rejseplanen.dk` | Förtydligar att Rejseplanen.dk tillhandahåller nyckeln. |
+| `component::icloud::config::error::cannot_connect` | `Det gick inte att ansluta.` | `Det gick inte att ansluta` | Matchar gemensam feltext; tar bort överflödig punkt. |
+| `component::subaru::config::step::reauth_confirm::title` | `Autentiseringen har upphört för {name}` | `Autentiseringen har upphört att gälla för {name}` | Harmoniserar gemensam reautentiseringstext; `{name}` bevaras. |
+| `component::econet::config::step::reauth_confirm::title` | `Autentiseringen har upphört för {name}` | `Autentiseringen har upphört att gälla för {name}` | Harmoniserar gemensam reautentiseringstext; `{name}` bevaras. |
+| `component::grandstream_home::config::error::cannot_connect` | `Det gick inte att ansluta.` | `Det gick inte att ansluta` | Matchar gemensam feltext; tar bort överflödig punkt. |
+| `component::grandstream_home::config::abort::already_configured` | `Enheten är redan konfigurerad.` | `Enheten är redan konfigurerad` | Matchar gemensam avbrottstext; tar bort överflödig punkt. |
+| `component::smartyplants::config::error::cannot_connect` | `Det gick inte att ansluta.` | `Det gick inte att ansluta` | Matchar gemensam feltext; tar bort överflödig punkt. |
+| `component::switchbot_cloud::config::step::reauth_confirm::title` | `Autentiseringen har upphört för {name}` | `Autentiseringen har upphört att gälla för {name}` | Språklig/terminologisk korrigering efter käll- och kontextkontroll. |
+| `component::grandstream_home::config::error::ha_control_disabled` | `Det gick inte att lägga till. Aktivera Home Assistant-styrning i enhetens webbgränssnitt.` | `Det gick inte att lägga till integreringen. Aktivera Home Assistant-styrning i enhetens webbgränssnitt.` | Klargör att funktionen måste aktiveras innan integreringen kan läggas till. |
+| `component::smartyplants::config::step::user::data_description::api_key` | `Skapa den i SmartyPlants-appen under Inställningar. Den identifierar ditt konto för Home Assistant.` | `Skapa API-nyckeln i SmartyPlants-appen under Inställningar. Den identifierar ditt konto för Home Assistant.` | Klargör att användaren ska skapa en API-nyckel. |
+
+### Uppföljning och verktyg
+
+
+- Referenser: inga rapporterade mål saknas. De 72 målnycklarna ingår i TM med status `verified-reference-target`; de räknas inte som självständigt radgranskade i batchen.
+
+- Fyra källor utökades sedan rapportens snapshot: SmartyPlants webhook, Xiaomi Weather platsbekräftelse samt de två Plugwise-avvecklingsbeskrivningarna. Fullständig livekälltext och placeholders synkades till minnet.
+
+- Placeholder-set för batchens källor och mål kontrollerades; mismatch saknas. Däribland `{name}`, `{channel_name}`, `{webhook_url}`, `{city_name}`, `{city_id}`, `{latitude}`, `{longitude}`, `{entity_id}`, `{entity_name}` och `{items}`.
+
+- Home Assistant Core TM exporterades och validerades: 75 556 nycklar, 75 558 segment och 42 639 unika käll-/målpar efter deduplicering.
+
+- svlang och hunspell-sv körbara verktyg saknades i denna körmiljö. Produktnamn, tekniska termer och svenska sammansättningar kontrollerades manuellt. API-readbacks, källtext, referenser och placeholders verifierades direkt.
+
+- Kvarstående osäkerheter i batchen: inga. Nästa rapporterade batch börjar vid 7021; Core-granskningen fortsätter.
