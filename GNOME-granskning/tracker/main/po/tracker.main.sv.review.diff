@@ -1,0 +1,106 @@
+diff --git a/.work-gnome-review/tracker-main-po/original.po b/.work-gnome-review/tracker-main-po/sv.po
+index 9c39342..c9495f5 100644
+--- a/.work-gnome-review/tracker-main-po/original.po
++++ b/.work-gnome-review/tracker-main-po/sv.po
+@@ -5,14 +5,15 @@
+ # Josef Andersson <josef.andersson@fripost.org>, 2015.
+ # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024.
+ # Luna Jernberg <droidbittin@gmail.com>, 2020.
++# Daniel Nylander <gnome@danielnylander.se>, 2026.
+ #
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: tinysparql\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/tracker/issues/\n"
+ "POT-Creation-Date: 2024-10-03 11:11+0000\n"
+-"PO-Revision-Date: 2024-09-06 22:45+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -75,7 +76,7 @@ msgstr "HTTP-port"
+ 
+ #: src/tracker/tracker-endpoint.c:78
+ msgid "Whether to only allow HTTP connections in the loopback device"
+-msgstr "Huruvida endast HTTP-anslutningar ska tillåtas i loopback-enheten"
++msgstr "Tillåt endast HTTP-anslutningar på loopback-enheten"
+ 
+ #: src/tracker/tracker-endpoint.c:82
+ msgid "Use session bus"
+@@ -101,7 +102,7 @@ msgstr "--list kan endast användas med --session eller --system"
+ #. TRANSLATORS: those are commandline arguments
+ #: src/tracker/tracker-endpoint.c:121
+ msgid "One “ontology” or “ontology-path” option should be provided"
+-msgstr "En flagga ”ontology” eller ”ontology-path” ska tillhandahållas"
++msgstr "En av flaggorna ”ontology” eller ”ontology-path” måste anges"
+ 
+ #. TRANSLATORS: those are commandline arguments
+ #: src/tracker/tracker-endpoint.c:127
+@@ -130,7 +131,7 @@ msgstr "Skapar ändpunkt på %s…"
+ 
+ #: src/tracker/tracker-endpoint.c:276
+ msgid "Could not own DBus name"
+-msgstr "Kunde inte äga DBus-namn"
++msgstr "Kunde inte ta över DBus-namnet"
+ 
+ #: src/tracker/tracker-endpoint.c:290
+ msgid "DBus name lost"
+@@ -143,7 +144,7 @@ msgstr "Öppnar databas på %s…"
+ 
+ #: src/tracker/tracker-endpoint.c:653
+ msgid "Creating in-memory database"
+-msgstr "Skapar databas i minne"
++msgstr "Skapar databas i minnet"
+ 
+ #: src/tracker/tracker-endpoint.c:680
+ msgid ""
+@@ -207,7 +208,7 @@ msgstr "Ange en flagga ”--database”, ”--dbus-service” eller ”--remote-
+ #: src/tracker/tracker-import.c:125 src/tracker/tracker-introspect.c:831
+ #: src/tracker/tracker-query.c:345
+ msgid "No error given"
+-msgstr "Inget fel gavs"
++msgstr "Inget fel angavs"
+ 
+ #: src/tracker/tracker-export.c:137 src/tracker/tracker-import.c:124
+ #: src/tracker/tracker-introspect.c:830 src/tracker/tracker-query.c:344
+@@ -275,11 +276,11 @@ msgstr "KLASS/EGENSKAP"
+ 
+ #: src/tracker/tracker-introspect.c:716
+ msgid "Could not create tree: subclass query failed"
+-msgstr "Kunde inte skapa träd: subklassfråga misslyckades"
++msgstr "Kunde inte skapa träd: frågan om underklasser misslyckades"
+ 
+ #: src/tracker/tracker-introspect.c:766
+ msgid "Could not create tree: class properties query failed"
+-msgstr "Kunde inte skapa träd: fråga för klassegenskaper misslyckades"
++msgstr "Kunde inte skapa träd: frågan om klassegenskaper misslyckades"
+ 
+ #: src/tracker/tracker-introspect.c:850
+ msgid "Could not search classes"
+@@ -337,13 +338,11 @@ msgstr "Namngivna grafer"
+ msgid ""
+ "The --list-properties argument can only be empty when used with the --tree "
+ "argument"
+-msgstr ""
+-"--list-properties-egenskapen kan endast vara tom om den används med --tree-"
+-"argumentet"
++msgstr "Argumentet --list-properties kan endast vara tomt tillsammans med argumentet --tree"
+ 
+ #: src/tracker/tracker-main.c:72
+ msgid "Get help on how to use TinySPARQL and any of these commands"
+-msgstr "Få hjälp med hur du använder TinySPARQL och dessa kommandon"
++msgstr "Visa hjälp om hur TinySPARQL och dessa kommandon används"
+ 
+ #: src/tracker/tracker-main.c:73
+ msgid "Create a SPARQL endpoint"
+@@ -414,7 +413,7 @@ msgstr "PARAMETER:TYP:VÄRDE"
+ #. * may be Music or Images, etc.
+ #: src/tracker/tracker-query.c:214 src/tracker/tracker-query.c:262
+ msgid "None"
+-msgstr "Inga"
++msgstr "Ingen"
+ 
+ #: src/tracker/tracker-query.c:282
+ #, c-format
