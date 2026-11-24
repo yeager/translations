@@ -98,6 +98,17 @@ listan är stöd, inte en ursäkt för mekanisk ersättning.
    modulens `README.md`.
 
 
+## Poddar (GNOME Podcasts)
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| podcast | podd / poddsändning | Använd *podd* i korta gränssnittstexter och *poddsändning* där den fulla termen passar bättre. |
+| podcast show / show (noun) | podd | GNOME Podcasts använder *show* om en prenumererad podd och dess avsnitt. Översätt inte med *show* eller *show(er)*. |
+| feed | flöde | I korta UI-etiketter: *flödes-URL* när det behövs. |
+| episode | avsnitt | |
+| queue | kö | |
+| played / listened | spelad / lyssnad | Anpassa böjningen till det som avsnittet avser. |
+
 ## Hjälpmedel och AT-SPI
 
 | Engelska | Rekommenderad svenska | Anmärkning |

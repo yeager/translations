@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 07:41 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 07:59 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -165,7 +165,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [gfeeds](https://l10n.gnome.org/module/gfeeds/) | master | 155 | 0 | 1 | Behöver arbete | X | 1 | Klar lokalt (2026-11-23): Hela 156-posterskatalogen är radgranskad lokalt: egennamnet Gabriele Musco är ifyllt och fem befintliga språk- eller termbrister är rättade. 0 oöversatta eller fuzzy återstår; msgcmp, msgfmt och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](gfeeds/master/po/gfeeds.master.sv.original.po), [granskad](gfeeds/master/po/gfeeds.master.sv.reviewed.po), [diff](gfeeds/master/po/gfeeds.master.sv.review.diff), [notering](gfeeds/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-software](https://l10n.gnome.org/vertimus/gnome-software/main/po/sv/) | main | 1180 | 0 | 1 | Behöver arbete |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [metronome](https://l10n.gnome.org/vertimus/metronome/main/po/sv/) | main | 36 | 0 | 1 | Behöver arbete | X | 3 | Klar lokalt (2026-11-23): Hela 37-posterskatalogen är radgranskad lokalt: 1 tidigare oöversatt post är ifylld, 3 aktiva poster har ändrats och 0 oöversatta eller fuzzy återstår. msgfmt, l10n-lint och acceleratorgranskning saknar fel. Ingen GNOME-inskickning har gjorts. [original](metronome/main/po/metronome.main.sv.original.po), [granskad](metronome/main/po/metronome.main.sv.reviewed.po), [diff](metronome/main/po/metronome.main.sv.review.diff), [notering](metronome/main/po/README.md) |
-| Gränssnitt | Default (99% translated) | [podcasts](https://l10n.gnome.org/vertimus/podcasts/main/po/sv/) | main | 201 | 0 | 1 | Behöver arbete |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [podcasts](https://l10n.gnome.org/vertimus/podcasts/main/po/sv/) | main | 201 | 0 | 1 | Behöver arbete | X | 49 | Klar lokalt (2026-11-24): Senaste POT har 202 poster. Hela katalogen är granskad; 49 poster ändrade (48 rättade, 1 ny översättning), och slutfilen är komplett och fuzzy-fri. Inget har skickats till GNOME. [original](podcasts/main/po/podcasts.main.sv.original.po), [granskad](podcasts/main/po/podcasts.main.sv.reviewed.po), [diff](podcasts/main/po/podcasts.main.sv.review.diff), [notering](podcasts/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [fractal](https://l10n.gnome.org/vertimus/fractal/main/po/sv/) | main | 1037 | 8 | 0 | Behöver arbete |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/gimp-keys/sv/) | master | 255 | 7 | 0 | Behöver arbete |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-user-docs — GNOME User Documentation](https://l10n.gnome.org/vertimus/gnome-user-docs/master/gnome-help/sv/) | master | 3555 | 5 | 0 | Behöver arbete |  | — | Ej granskad |
