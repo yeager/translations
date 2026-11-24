@@ -102,6 +102,7 @@ argumentet betyder i just det programmet.
 | FILENAME | FILNAMN | |
 | INPUT_FILE / INPUT_FILE1 / INPUT_FILE2 | INDATAFIL / INDATAFIL1 / INDATAFIL2 | Bevara indexsiffrorna. |
 | MSI_FILE | MSI-FIL | Argumentnamn för en MSI-fil. |
+| METAINFO | METADATA | Beskrivande fwupd-argument; inte filnamnet `metainfo.xml`. |
 | KEY | NYCKEL | |
 | OPTION | FLAGGA | Själva metavariabeln; literal flagga lämnas oförändrad. |
 | PATH | SÖKVÄG | Behåll `$PATH`; välj *bana* när det avser en geometrisk bana. |
@@ -109,6 +110,20 @@ argumentet betyder i just det programmet.
 | START_TIME | STARTTID | |
 | TIMEOUT | TIDSGRÄNS | |
 | VALUE | VÄRDE | |
+
+## Korsord (GNOME Crosswords)
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| acrostic | akrostikon | Korsordsvariant som bygger på ett citat. |
+| barred crossword | korsord med stoppar | Bevara denna tydliga omskrivning i hjälptexter. |
+| clue | ledtråd | |
+| cryptic clue / crossword | kryptisk ledtråd / kryptiskt korsord | |
+| enumeration | längdangivelse | Visar svarslängd, till exempel `(3,4)`. |
+| setter | konstruktör | Personen som skapar korsordet. |
+| editor (publication credit) | redaktör | Personen som redigerar korsordet inför publicering; inte en programvaruredigerare. |
+| settability | konstruktionssvårighet | Mått på hur svårt korsordet är att konstruera. |
+| pangram | pangram | Etablerad term för ett korsord som använder hela alfabetet. |
 
 ## Form och skydd
 

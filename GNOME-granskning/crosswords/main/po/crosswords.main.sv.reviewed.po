@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: crosswords\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/jrb/crosswords/issues/\n"
-"POT-Creation-Date: 2026-07-10 05:07+0000\n"
-"PO-Revision-Date: 2026-11-23 12:00+0100\n"
+"POT-Creation-Date: 2026-11-10 07:43+0000\n"
+"PO-Revision-Date: 2026-11-24 00:00+0100\n"
 "Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -20,11 +20,10 @@ msgstr ""
 "X-Generator: Poedit 3.9\n"
 
 #: data/org.gnome.Crosswords.desktop.in.in:2
-#: data/org.gnome.Crosswords.metainfo.xml.in.in:4
-#: src/edit-preview-window.blp:11 src/play-add-remove.c:256
-#: src/play-window.blp:6 src/play-window.blp:35 src/play-window.blp:74
-#: src/play-window.blp:82 src/play-window.blp:99 src/play-window.blp:124
-#: src/play-window.blp:163 src/play-window.blp:198 src/play-window.c:325
+#: data/org.gnome.Crosswords.metainfo.xml.in.in:4 src/play-window.blp:86
+#: src/play-window.blp:114 src/play-window.blp:151 src/play-window.blp:159
+#: src/play-window.blp:176 src/play-window.blp:211 src/play-window.blp:264
+#: src/play-window.c:315 src/play-xword.blp:41 src/puzzle-set-list.c:42
 msgid "Crosswords"
 msgstr "Crosswords"
 
@@ -33,14 +32,15 @@ msgstr "Crosswords"
 msgid "Solve crossword puzzles"
 msgstr "Lös korsord"
 
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.Crosswords.desktop.in.in:13
 msgid "crossword;xword;ipuz;grid;puzzle;game;"
 msgstr "crossword;korsord;xword;ipuz;rutnät;pussel;spel;"
 
 #: data/org.gnome.Crosswords.Editor.desktop.in.in:2
-#: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:4 src/edit-window.blp:33
-#: src/edit-window.blp:276
+#: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:4
+#: src/edit-window.blp:14 src/edit-window.blp:265
 msgid "Crossword Editor"
 msgstr "Korsordsredigerare"
 
@@ -49,10 +49,16 @@ msgstr "Korsordsredigerare"
 msgid "Create crossword puzzles"
 msgstr "Skapa korsord"
 
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.Crosswords.Editor.desktop.in.in:13
 msgid "crossword;crossword editor;puzzle;puzzle editor;xword;ipuz;grid;"
 msgstr "korsord;korsordsredigerare;pussel;pusselredigerare;xword;ipuz;rutnät;"
+
+#: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:6
+#: data/org.gnome.Crosswords.metainfo.xml.in.in:7
+msgid "Jonathan Blandford"
+msgstr "Jonathan Blandford"
 
 #: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:23
 msgid ""
@@ -63,88 +69,159 @@ msgstr ""
 "funktioner inkluderar:"
 
 #: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:28
-msgid "Supports multiple crossword types, including barred and cryptics"
+msgid "Creates Crosswords, Cryptics, Barred, and Acrostic puzzles"
 msgstr ""
-"Stöder flera korsordstyper, inklusive korsord med stoppar och kryptiska "
-"korsord"
+"Skapar korsord i fyra varianter: vanliga och kryptiska, med stoppar eller "
+"som akrostikon"
 
 #: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:29
 msgid "Loads and saves .ipuz file format"
 msgstr "Läser in och sparar .ipuz-filformatet"
 
 #: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:30
-msgid "Style support for individual cells"
-msgstr "Stilstöd för individuella rutor"
-
-#: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:31
 msgid "Suggests words when creating grids"
 msgstr "Föreslår ord vid skapande av rutnät"
 
-#: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:32
+#: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:31
 msgid "Autofill functionality and theme word best-fit"
-msgstr "Funktionalitet för automatisk ifyllnad och bästa inpassande av temaord"
+msgstr ""
+"Funktionalitet för automatisk ifyllnad och bästa inpassande av temaord"
 
-#: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:33
+#: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:32
 msgid "Word definitions and indicator hints for writing clues"
 msgstr "Orddefinitioner och indikatortips för att skriva ledtrådar"
 
-#: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:142
+#: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:33
+msgid "Grid overlays for spell checking, unchecked cells, and dead cells"
+msgstr "Visa stavningskontroll, omarkerade och obrukbara rutor i rutnätet"
+
+#: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:34
+msgid "Style support for individual cells"
+msgstr "Stilstöd för individuella rutor"
+
+#: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:35
+msgid "Puzzle preview and printing"
+msgstr "Förhandsgranskning och utskrift av korsord"
+
+#: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:161
 msgid "Dialog to choose the puzzle type to make"
 msgstr "Dialogruta för att välja korsordstypen att göra"
 
-#: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:146
+#: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:165
 msgid "Main editor window editing a grid"
 msgstr "Huvudredigerarfönster under redigering av ett rutnät"
 
-#: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:150
+#: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:169
 msgid "Main editor window editing clues"
 msgstr "Huvudredigerarfönster under redigering av ledtrådar"
+
+#: data/org.gnome.Crosswords.Editor.metainfo.xml.in.in:173
+msgid "Creating an acrostic from a quote"
+msgstr "Skapa ett akrostikonkorsord utifrån ett citat"
 
 #: data/org.gnome.Crosswords.metainfo.xml.in.in:25
 msgid ""
 "A simple and fun game of crosswords. Load your crossword files, or play one "
 "of the included games. Features include:"
 msgstr ""
-"Ett enkelt och roligt korsordsspel. Läs in dina korsordsfiler, eller lös ett "
-"av de inkluderade korsorden. Exempel på funktioner:"
+"Ett enkelt och roligt korsordsspel. Läs in dina korsordsfiler, eller lös ett"
+" av de inkluderade korsorden. Exempel på funktioner:"
 
 #: data/org.gnome.Crosswords.metainfo.xml.in.in:30
+msgid "Crosswords, Acrostics, Cryptics, and Barred puzzles"
+msgstr "Korsord, akrostikon, kryptiska korsord och korsord med stoppar"
+
+#: data/org.gnome.Crosswords.metainfo.xml.in.in:31
 msgid "Support for shaped and colored crosswords"
 msgstr "Stöd för formade och färgade korsord"
 
-#: data/org.gnome.Crosswords.metainfo.xml.in.in:31
+#: data/org.gnome.Crosswords.metainfo.xml.in.in:32
 msgid "Loading .ipuz, .jpuz, .xd, and .puz files"
 msgstr "Läser in .ipuz-, .jpuz-, .xd- och .puz-filer"
 
-#: data/org.gnome.Crosswords.metainfo.xml.in.in:32
+#: data/org.gnome.Crosswords.metainfo.xml.in.in:33
 msgid "Hint support, such as showing mistakes and suggesting words"
 msgstr "Tipsstöd, som att visa misstag och föreslå ord"
 
-#: data/org.gnome.Crosswords.metainfo.xml.in.in:33
-msgid "Dark mode"
-msgstr "Mörkt läge"
-
 #: data/org.gnome.Crosswords.metainfo.xml.in.in:34
-msgid ""
-"Locally installed crosswords as well as support for 3rd party downloaders"
-msgstr ""
-"Lokalt installerade korsord såväl som stöd för hämtningar från tredje part"
+msgid "Magnifier to give a zoomed view of the current cell"
+msgstr "Förstoringsglas som visar den aktuella rutan i större format"
 
-#: data/org.gnome.Crosswords.metainfo.xml.in.in:137
+#: data/org.gnome.Crosswords.metainfo.xml.in.in:35
+msgid "Printing puzzles to solve on paper"
+msgstr "Skriv ut korsord och lös dem på papper"
+
+#: data/org.gnome.Crosswords.metainfo.xml.in.in:36
+msgid "An adaptive layout, from large monitors to phone-sized screens"
+msgstr ""
+"En anpassningsbar layout för allt från stora skärmar till mobilskärmar"
+
+#: data/org.gnome.Crosswords.metainfo.xml.in.in:37
+#| msgid ""
+#| "Locally installed crosswords as well as support for 3rd party downloaders"
+msgid ""
+"Locally installed crosswords as well as support for third party downloaders"
+msgstr ""
+"Lokalt installerade korsord samt stöd för hämtningstjänster från tredje part"
+
+#: data/org.gnome.Crosswords.metainfo.xml.in.in:156
 msgid "A crossword in the shape of a dog's face"
 msgstr "Ett korsord format som ett hundhuvud"
 
-#: data/org.gnome.Crosswords.metainfo.xml.in.in:141
+#: data/org.gnome.Crosswords.metainfo.xml.in.in:160
+msgid "The welcome screen"
+msgstr "Välkomstskärmen"
+
+#: data/org.gnome.Crosswords.metainfo.xml.in.in:164
 msgid "Crosswords showing a screen for selecting puzzles"
 msgstr "Crosswords visande en skärm för att välja pussel"
 
-#: data/org.gnome.Crosswords.metainfo.xml.in.in:145
+#: data/org.gnome.Crosswords.metainfo.xml.in.in:168
 msgid "A crossword with wrong answers highlighted"
 msgstr "Ett korsord med fel svar markerade"
 
-#: data/org.gnome.Crosswords.metainfo.xml.in.in:149
-msgid "The first crossword shown in dark mode"
-msgstr "Det första korsordet visat i mörkt läge"
+#: data/org.gnome.Crosswords.metainfo.xml.in.in:172
+#| msgid "The first crossword shown in dark mode"
+msgid "A crossword shown in dark mode"
+msgstr "Ett korsord i mörkt läge"
+
+#: data/org.gnome.Crosswords.metainfo.xml.in.in:176
+msgid "The print preview of a crossword"
+msgstr "Förhandsgranskning av korsordsutskrift"
+
+#: puzzle-sets/add-puzzle-sets/puzzle.config.desktop.in:4
+#: puzzle-sets/add-puzzle-sets/puzzle.config.desktop.in:5
+#: src/play-window.blp:238
+msgid "Add Puzzle Sources"
+msgstr "Lägg till korsordskällor"
+
+#: puzzle-sets/uri/puzzle.config.desktop.in:4
+#| msgid "Custom Puzzle"
+msgid "Custom Puzzles"
+msgstr "Anpassade korsord"
+
+#: puzzle-sets/uri/puzzle.config.desktop.in:5
+msgid "Load a crossword from disk"
+msgstr "Läs in ett korsord från disk"
+
+#: puzzle-sets/uri/puzzle.config.desktop.in:11
+#| msgid "Select a puzzle to play"
+msgid "Select a Puzzle to Play"
+msgstr "Välj ett korsord att lösa"
+
+#: puzzle-sets/uri/puzzle.config.desktop.in:13
+#| msgid "All Files"
+msgid "Added Files"
+msgstr "Tillagda filer"
+
+#: puzzle-sets/uri/puzzle.config.desktop.in:17
+msgid "Add new puzzles in .puz and .ipuz format from disk"
+msgstr "Lägg till nya korsord i formaten .puz och .ipuz från disk"
+
+#: puzzle-sets/uri/puzzle.config.desktop.in:20
+#| msgid "Add Puzzle Sources"
+msgid "Add Puzzle File…"
+msgstr "Lägg till korsordsfil…"
 
 #: src/acrostic-generator-app.c:38
 msgid "The quote text"
@@ -162,34 +239,34 @@ msgstr "Källan för citatet"
 msgid "SOURCE"
 msgstr "KÄLLA"
 
-#: src/acrostic-generator-app.c:149
+#: src/acrostic-generator-app.c:124
 #, c-format
-msgid "AcrosticGenerator error: %s\n"
-msgstr "AcrosticGenerator-fel: %s\n"
+msgid "The quote and source cannot make an acrostic\n"
+msgstr "Citatet och dess källa kan inte bilda ett akrostikonkorsord\n"
 
-#: src/acrostic-generator-app.c:179
+#: src/acrostic-generator-app.c:167
 msgid "Generate acrostic puzzles"
 msgstr "Skapa akrostikonkorsord"
 
-#: src/acrostic-generator-app.c:188 src/gen-word-list-resource.c:93
+#: src/acrostic-generator-app.c:176 src/gen-word-list-resource.c:93
 #, c-format
 msgid "Error parsing commandline options: %s\n"
 msgstr "Fel vid tolkning av kommandoradsflaggor: %s\n"
 
-#: src/acrostic-generator-app.c:190 src/acrostic-generator-app.c:199
-#: src/acrostic-generator-app.c:208 src/gen-word-list-resource.c:95
+#: src/acrostic-generator-app.c:178 src/acrostic-generator-app.c:187
+#: src/acrostic-generator-app.c:196 src/gen-word-list-resource.c:95
 #: src/gen-word-list-resource.c:104 src/gen-word-list-resource.c:113
 #: src/gen-word-list-resource.c:122 src/gen-word-list-resource.c:139
 #, c-format
 msgid "Try “%s --help” for more information."
 msgstr "Testa ”%s --help” för mer information."
 
-#: src/acrostic-generator-app.c:197
+#: src/acrostic-generator-app.c:185
 #, c-format
 msgid "%s: missing quote"
 msgstr "%s: saknar citat"
 
-#: src/acrostic-generator-app.c:206
+#: src/acrostic-generator-app.c:194
 #, c-format
 msgid "%s: missing source"
 msgstr "%s: saknar källa"
@@ -227,12 +304,13 @@ msgstr "Anpassad storlek"
 msgid "Standard (12×12)"
 msgstr "Standard (12×12)"
 
-#: src/crosswords-app.c:213
+#: src/crosswords-app.c:215
 msgid "Puzzles by"
 msgstr "Korsord av"
 
-#. Translators: Put your name here so that it will be included in the about dialog
-#: src/crosswords-app.c:215 src/edit-app.c:374
+#. Translators: Put your name here so that it will be included in the about
+#. dialog
+#: src/crosswords-app.c:217 src/edit-app.c:391
 msgid "translator-credits"
 msgstr ""
 "Anders Jonsson <anders.jonsson@norsjovallen.se>, 2026\n"
@@ -240,32 +318,127 @@ msgstr ""
 "Skicka synpunkter på översättningen till\n"
 "<tp-sv@listor.tp-sv.se>"
 
+#: src/crosswords-misc.c:84
+#, c-format
+msgid "This is a %s puzzle, which isn't supported."
+msgstr "Korsord av typen %s stöds inte."
+
+#: src/edit-acrostic-answer.blp:12
+#| msgid "Save changes for this puzzle"
+msgid "Keep this answer for the puzzle"
+msgstr "Behåll det här svaret i korsordet"
+
 #: src/edit-acrostic-answers.blp:18
 msgid "Answers"
 msgstr "Svar"
 
 #: src/edit-acrostic-answers.blp:22
-msgid "Select All"
-msgstr "Markera allt"
+#| msgid "_Discard All"
+msgid "_Pin All"
+msgstr "_Fäst alla"
+
+#: src/edit-acrostic-clues-info.blp:14
+msgid "Pinned:"
+msgstr "Fästa svar:"
+
+#: src/edit-acrostic-clues-info.blp:35
+msgid "Progress:"
+msgstr "Förlopp:"
+
+#: src/edit-acrostic-clues-info.blp:56
+msgid "Remaining Letters:"
+msgstr "Återstående bokstäver:"
+
+#: src/edit-acrostic-clues-info.blp:57
+msgid "Letters in the quote that are not yet used in an answer"
+msgstr "Bokstäver i citatet som ännu inte används i något svar"
+
+#: src/edit-acrostic-clues-info.c:167
+#| msgid "Hints for writing clues"
+msgid "Ready to write clues"
+msgstr "Klar att skriva ledtrådar"
+
+#: src/edit-acrostic-clues-info.c:173
+#, c-format
+msgid "%u of %u answer"
+msgid_plural "%u of %u answers"
+msgstr[0] "%u av %u svar"
+msgstr[1] "%u av %u svar"
+
+#: src/edit-acrostic-clues-info.c:184
+#, c-format
+msgid "%u of %u letter"
+msgid_plural "%u of %u letters"
+msgstr[0] "%u av %u bokstäver"
+msgstr[1] "%u av %u bokstäver"
 
 #: src/edit-acrostic-details.blp:8
 msgid "Acrostic Details"
 msgstr "Akrostikondetaljer"
 
-#: src/edit-acrostic-details.blp:12 src/edit-greeter-acrostic.blp:26
+#: src/edit-acrostic-details.blp:12 src/edit-greeter-acrostic.blp:20
 msgid "_Quote"
 msgstr "_Citat"
 
 # TODO: Multiple accelerators??
-#: src/edit-acrostic-details.blp:20 src/edit-greeter-acrostic.blp:34
-msgid "_Author / _Work"
-msgstr "_Författare / Verk"
+#: src/edit-acrostic-details.blp:20
+#| msgid "_Author / _Work"
+msgid "_Author / _Title"
+msgstr "_Upphovsperson / _Titel"
 
-#: src/edit-app.c:163
+#: src/edit-acrostic-details.c:132
+#| msgid "The source of the quote"
+msgid "The source is too long for this quote"
+msgstr "Källtexten är för lång för citatet"
+
+#: src/edit-acrostic-details.c:134
+#| msgid "The source of the quote"
+msgid "The source uses letters not in the quote"
+msgstr "Källtexten innehåller bokstäver som saknas i citatet"
+
+#: src/edit-acrostic-info.blp:15
+msgid "Quote Length:"
+msgstr "Citatets längd:"
+
+#: src/edit-acrostic-info.blp:36
+msgid "Source Length:"
+msgstr "Källans längd:"
+
+#: src/edit-acrostic-info.blp:57 src/edit-greeter-acrostic.blp:103
+#| msgid "Average clue length: %.2f"
+msgid "Average Length:"
+msgstr "Genomsnittlig längd:"
+
+#: src/edit-acrostic-info.blp:78 src/edit-grid-info.blp:98
+#| msgid "<b>Settability:</b>"
+msgid "Settability:"
+msgstr "Konstruktionssvårighet:"
+
+#: src/edit-acrostic-info.blp:79
+#| msgid "Measure of how hard it is to fill a grid with letters"
+msgid "Measure of how hard it is to find matching clues quote and source"
+msgstr ""
+"Mått på hur svårt det är att hitta ledtrådar som passar citatet och dess "
+"källa"
+
+#. Source Length
+#: src/edit-acrostic-info.c:100 src/edit-acrostic-info.c:105
+#, c-format
+msgid "%u letters"
+msgstr "%u bokstäver"
+
+#. Average Length
+#: src/edit-acrostic-info.c:110 src/edit-greeter-acrostic.c:376
+#, c-format
+msgid "%.1f letters per clue"
+msgstr "%.1f bokstäver per ledtråd"
+
+#: src/edit-app.c:171
 msgid "Could not open the following files:"
 msgstr "Kunde inte öppna följande filer:"
 
-#: src/edit-autofill-details.blp:12
+#: src/edit-autofill-details.blp:12 src/edit-autofill-details.c:337
+#: src/edit-autofill-details.c:343
 msgid "Automatically Fill Grid"
 msgstr "Fyll i rutnät automatiskt"
 
@@ -289,83 +462,88 @@ msgstr "Variation att söka i lösningar"
 msgid "Choose current solution"
 msgstr "Välj aktuell lösning"
 
-#: src/edit-autofill-details.c:114
+#: src/edit-autofill-details.c:141
 msgid ""
 "The <i>Search Strategy</i> determines how the solver approaches each "
 "subsequent solution once an initial solution is found. It won't affect "
 "finding the initial solution."
 msgstr ""
-"<i>Sökstrategin</i> avgör hur lösaren närmar sig varje efterföljande lösning "
-"då en ursprunglig lösning hittats. Det kommer inte påverka sökandet efter "
+"<i>Sökstrategin</i> avgör hur lösaren närmar sig varje efterföljande lösning"
+" då en ursprunglig lösning hittats. Det kommer inte påverka sökandet efter "
 "den ursprungliga lösningen."
 
-#: src/edit-autofill-details.c:119
+#: src/edit-autofill-details.c:146
 msgid "FINE TUNE"
 msgstr "FINJUSTERING"
 
-#: src/edit-autofill-details.c:120
+#: src/edit-autofill-details.c:147
 msgid "Finds minor variations of the same grid solution."
 msgstr "Hittar mindre variationer på samma rutnätslösning."
 
-#: src/edit-autofill-details.c:123
+#: src/edit-autofill-details.c:150
 msgid "BALANCED"
 msgstr "BALANSERAD"
 
-#: src/edit-autofill-details.c:124
+#: src/edit-autofill-details.c:151
 msgid "Finds more variations of the same grid solution."
 msgstr "Hittar fler variationer på samma rutnätslösning."
 
-#: src/edit-autofill-details.c:127
+#: src/edit-autofill-details.c:154
 msgid "DIVERSE"
 msgstr "VARIERAD"
 
-#: src/edit-autofill-details.c:128
+#: src/edit-autofill-details.c:155
 msgid ""
-"For each solution, restarts the search from scratch with a different initial "
-"word."
+"For each solution, restarts the search from scratch with a different initial"
+" word."
 msgstr ""
 "För varje lösning startas sökningen om från början med ett annat startord."
 
-#: src/edit-autofill-details.c:131
+#: src/edit-autofill-details.c:158
 msgid "UNIQUE"
 msgstr "UNIK"
 
-#: src/edit-autofill-details.c:132
+#: src/edit-autofill-details.c:159
 msgid "Ensures every solution uses an entirely different set of words."
 msgstr "Försäkrar att varje lösning använder en helt olik uppsättning ord."
 
-#: src/edit-autofill-details.c:394
+#: src/edit-autofill-details.c:347
+#| msgid "Automatically Fill Grid"
+msgid "Automatically Find Answers"
+msgstr "Hitta svar automatiskt"
+
+#: src/edit-autofill-details.c:437
 msgid "Generate answers"
 msgstr "Generera svar"
 
-#: src/edit-autofill-details.c:396
+#: src/edit-autofill-details.c:439
 msgid "Select a region to autosolve"
 msgstr "Välj en region att lösa automatiskt"
 
-#: src/edit-autofill-details.c:407
+#: src/edit-autofill-details.c:450
 #, c-format
 msgid "%d words tried"
 msgstr "%d ord försökta"
 
-#: src/edit-autofill-details.c:410
+#: src/edit-autofill-details.c:453
 #, c-format
 msgid "%d grids tried"
 msgstr "%d rutnät testade"
 
-#: src/edit-autofill-details.c:416
+#: src/edit-autofill-details.c:459
 msgid "Searching for answers"
 msgstr "Söker efter svar"
 
-#: src/edit-autofill-details.c:418
+#: src/edit-autofill-details.c:461
 msgid "Searching for grids"
 msgstr "Söker efter rutnät"
 
-#: src/edit-autofill-details.c:424 src/edit-autofill-details.c:450
+#: src/edit-autofill-details.c:467 src/edit-autofill-details.c:494
 #, c-format
 msgid "%d possible grids"
 msgstr "%d möjliga rutnät"
 
-#: src/edit-autofill-details.c:444
+#: src/edit-autofill-details.c:488
 msgid "No grids found"
 msgstr "Inga rutnät hittades"
 
@@ -381,16 +559,16 @@ msgstr "Grundläggande information"
 msgid "C_rossword Type"
 msgstr "_Korsordstyp"
 
-#: src/edit-basics.blp:56 src/edit-greeter-crossword.blp:22
-#: src/edit-greeter-crossword.c:437
+#: src/edit-basics.blp:56 src/edit-greeter-crossword.blp:17
+#: src/edit-greeter-crossword.c:484
 msgid "Standard Crossword"
 msgstr "Standardkorsord"
 
-#: src/edit-basics.blp:57 src/edit-greeter-crossword.c:446
+#: src/edit-basics.blp:57 src/edit-greeter-crossword.c:493
 msgid "Cryptic Crossword"
 msgstr "Kryptiskt korsord"
 
-#: src/edit-basics.blp:63 src/edit-greeter-crossword.blp:32
+#: src/edit-basics.blp:63 src/edit-greeter-crossword.blp:79
 msgid "Si_ze"
 msgstr "S_torlek"
 
@@ -402,21 +580,23 @@ msgstr "Litet (8×8)"
 msgid "Large (15×15)"
 msgstr "Stort (15×15)"
 
-#: src/edit-basics.blp:80 src/edit-greeter-crossword.c:1114
+#: src/edit-basics.blp:80 src/edit-greeter-crossword.c:1214
 msgid "Templates"
 msgstr "Mallar"
 
 #: src/edit-cell-info.blp:12
-msgid "<b>Type:</b>"
-msgstr "<b>Typ:</b>"
+msgid "Type:"
+msgstr "Typ:"
 
 #: src/edit-cell-info.blp:34
-msgid "<b>Cursor Coordinate:</b>"
-msgstr "<b>Markörkoordinat:</b>"
+#| msgid "<b>Cursor Coordinate:</b>"
+msgid "Cursor Coordinate:"
+msgstr "Markörens koordinater:"
 
 #: src/edit-cell-info.blp:56
-msgid "<b>Available Letters:</b>"
-msgstr "<b>Tillgängliga bokstäver:</b>"
+#| msgid "<b>Available Letters:</b>"
+msgid "Available Letters:"
+msgstr "Tillgängliga bokstäver:"
 
 #: src/edit-cell-info.blp:59 src/edit-cell-info.blp:87
 msgid "Letters that fit in this cell based on the current word list"
@@ -427,22 +607,23 @@ msgid "No current word list word fits this cell"
 msgstr "Inget ord i aktuell ordlista passar i denna ruta"
 
 #: src/edit-cell-info.blp:107
-msgid "<b>Unfillable cell</b>"
-msgstr "<b>Ej ifyllbar ruta</b>"
+#| msgid "<b>Unfillable cell</b>"
+msgid "Unfillable cell"
+msgstr "Ruta som inte går att fylla"
 
-#: src/edit-cell-info.c:185
+#: src/edit-cell-info.c:199
 msgid "Normal (unchecked)"
 msgstr "Normal (okontrollerad)"
 
-#: src/edit-cell-info.c:187
+#: src/edit-cell-info.c:201
 msgid "Normal"
 msgstr "Normal"
 
-#: src/edit-cell-info.c:199 src/edit-cell.c:352
+#: src/edit-cell-info.c:213 src/edit-cell.c:352
 msgid "Block"
 msgstr "Block"
 
-#: src/edit-cell-info.c:204 src/edit-cell.c:358
+#: src/edit-cell-info.c:218 src/edit-cell.c:358
 msgid "Null"
 msgstr "Noll"
 
@@ -474,36 +655,36 @@ msgstr "_Initialvärde"
 msgid "Cell is prefilled with text"
 msgstr "Ruta är förifylld med text"
 
-#: src/edit-cell.c:364 src/play-add-remove.c:238
+#: src/edit-cell.c:364 src/play-add-remove.c:256
 msgid "Regular"
 msgstr "Vanlig"
 
-#: src/edit-clue-definitions.blp:25
+#: src/edit-clue-definitions.blp:21
 msgid "Testing"
 msgstr "Test"
 
-#: src/edit-clue-definitions.c:135
+#: src/edit-clue-definitions.c:172
 #, c-format
 msgid "No definition for '%s'"
 msgstr "Ingen definition för ”%s”"
 
-#: src/edit-clue-definitions.c:169
+#: src/edit-clue-definitions.c:206
 msgid "Lookup in"
 msgstr "Slå upp i"
 
-#: src/edit-clue-definitions.c:170
+#: src/edit-clue-definitions.c:207
 msgid "Wiktionary"
 msgstr "Wiktionary"
 
-#: src/edit-clue-definitions.c:171
+#: src/edit-clue-definitions.c:208
 msgid "Wikipedia"
 msgstr "Wikipedia"
 
-#: src/edit-clue-definitions.c:172
+#: src/edit-clue-definitions.c:209
 msgid "Google"
 msgstr "Google"
 
-#: src/edit-clue-details.blp:23 src/edit-window.blp:178
+#: src/edit-clue-details.blp:23 src/edit-window.blp:167
 msgid "Clue"
 msgstr "Ledtråd"
 
@@ -515,15 +696,20 @@ msgstr "_Ledtråd"
 msgid "_Enumeration"
 msgstr "_Uppräkning"
 
-#: src/edit-clue-details.blp:45
-msgid "Automatically advance to _next clue"
-msgstr "Fortsätt automatiskt till _nästa ledtråd"
+#: src/edit-clue-details.blp:43
+msgid "_Auto Advance"
+msgstr "_Gå vidare automatiskt"
 
-#: src/edit-clue-details.c:183
+#: src/edit-clue-details.blp:44
+#| msgid "Go to the next clue"
+msgid "Move to the next empty clue after editing"
+msgstr "Gå till nästa obesvarade ledtråd efter redigering"
+
+#: src/edit-clue-details.c:196
 msgid "_Enumeration — Invalid enumeration"
 msgstr "_Uppräkning — Ogiltig uppräkning"
 
-#: src/edit-clue-details.c:272
+#: src/edit-clue-details.c:303
 msgid "_Enumeration — Warning: enumeration is a different length"
 msgstr "_Uppräkning — Varning: uppräkning har en annan längd"
 
@@ -556,76 +742,76 @@ msgstr " andra definitioner"
 msgid "Context menu"
 msgstr "Snabbvalsmeny"
 
-#: src/edit-clue-info.c:614 src/edit-clue-suggestions.blp:93
-#: src/edit-indicator-hints-text.c:41 src/edit-indicator-hints.c:196
+#: src/edit-clue-info.c:613 src/edit-clue-suggestions.blp:93
+#: src/edit-indicator-hints-text.c:41 src/edit-indicator-hints.c:202
 msgid "Anagrams"
 msgstr "Anagram"
 
-#: src/edit-clue-info.c:615
+#: src/edit-clue-info.c:614
 msgid "<i>Example: <tt>\"Confused <u>admirer</u>\"</tt> → <tt>MARRIED</tt></i>"
-msgstr ""
-"<i>Exempel: <tt>\"Confused <u>admirer</u>\"</tt> → <tt>MARRIED</tt></i>"
+msgstr "<i>Exempel: <tt>\"Confused <u>admirer</u>\"</tt> → <tt>MARRIED</tt></i>"
 
-#: src/edit-clue-info.c:619
+#: src/edit-clue-info.c:618
 msgid "Cycles"
 msgstr "Cykler"
 
-#: src/edit-clue-info.c:620
+#: src/edit-clue-info.c:619
 msgid "<i>Example: <tt>\"Cycle <u>seat</u>\"</tt> → <tt>EATS</tt></i>"
 msgstr "<i>Exempel: <tt>\"Cycle <u>seat</u>\"</tt> → <tt>EATS</tt></i>"
 
-#: src/edit-clue-info.c:625
+#: src/edit-clue-info.c:624
 msgid "Odds"
 msgstr "Udda"
 
-#: src/edit-clue-info.c:626
+#: src/edit-clue-info.c:625
 msgid ""
-"<i>Example: <tt>\"Oddly <u>c</u>h<u>a</u>s<u>t</u>e\"</tt> → <tt>CAT</tt></i>"
+"<i>Example: <tt>\"Oddly <u>c</u>h<u>a</u>s<u>t</u>e\"</tt> → "
+"<tt>CAT</tt></i>"
 msgstr ""
-"<i>Exempel: <tt>\"Oddly <u>c</u>h<u>a</u>s<u>t</u>e\"</tt> → <tt>CAT</tt></i>"
+"<i>Exempel: <tt>\"Oddly <u>c</u>h<u>a</u>s<u>t</u>e\"</tt> → "
+"<tt>CAT</tt></i>"
 
-#: src/edit-clue-info.c:629
+#: src/edit-clue-info.c:628
 msgid "Evens"
 msgstr "Jämna"
 
-#: src/edit-clue-info.c:630
+#: src/edit-clue-info.c:629
 msgid ""
 "<i>Example: <tt>\"Even f<u>l</u>o<u>o</u>r<u>s</u>\"</tt> → <tt>LOS</tt></i>"
 msgstr ""
 "<i>Exempel: <tt>\"Even f<u>l</u>o<u>o</u>r<u>s</u>\"</tt> → <tt>LOS</tt></i>"
 
-#: src/edit-clue-info.c:635
+#: src/edit-clue-info.c:634
 msgid "Headless"
 msgstr "Huvudlös"
 
-#: src/edit-clue-info.c:636
+#: src/edit-clue-info.c:635
 msgid "<i>Example: <tt>\"Decapitated regent\"</tt> → <tt>(k)ING</tt></i>"
 msgstr "<i>Exempel: <tt>\"Decapitated regent\"</tt> → <tt>(k)ING</tt></i>"
 
-#: src/edit-clue-info.c:639
+#: src/edit-clue-info.c:638
 msgid "Tailless"
 msgstr "Svanslös"
 
-#: src/edit-clue-info.c:640
+#: src/edit-clue-info.c:639
 msgid "<i>Example: <tt>\"Cropped collar\"</tt> → <tt>RUF(f)</tt></i>"
 msgstr "<i>Exempel: <tt>\"Cropped collar\"</tt> → <tt>RUF(f)</tt></i>"
 
-#: src/edit-clue-info.c:643
+#: src/edit-clue-info.c:642
 msgid "Trimmed"
 msgstr "Trimmad"
 
-#: src/edit-clue-info.c:644
+#: src/edit-clue-info.c:643
 msgid "<i>Example: <tt>\"M<u>ean</u>s without ends\"</tt> → <tt>EAN</tt></i>"
 msgstr "<i>Exempel: <tt>\"M<u>ean</u>s without ends\"</tt> → <tt>EAN</tt></i>"
 
-#: src/edit-clue-info.c:649 src/edit-clue-suggestions.blp:135
+#: src/edit-clue-info.c:648 src/edit-clue-suggestions.blp:135
 msgid "Extremes"
 msgstr "Extremer"
 
-#: src/edit-clue-info.c:650
+#: src/edit-clue-info.c:649
 msgid "<i>Example: <tt>\"Extremely <u>b</u>us<u>y</u>\"</tt> → <tt>BY</tt></i>"
-msgstr ""
-"<i>Exempel: <tt>\"Extremely <u>b</u>us<u>y</u>\"</tt> → <tt>BY</tt></i>"
+msgstr "<i>Exempel: <tt>\"Extremely <u>b</u>us<u>y</u>\"</tt> → <tt>BY</tt></i>"
 
 #: src/edit-clue-suggestions.blp:20
 msgid "Edit Current Filter"
@@ -644,131 +830,179 @@ msgid "Alternations"
 msgstr "Ändringar"
 
 #: src/edit-clue-suggestions.blp:121 src/edit-indicator-hints-text.c:55
-#: src/edit-indicator-hints.c:198
+#: src/edit-indicator-hints.c:204
 msgid "Deletions"
 msgstr "Borttagningar"
 
 #: src/edit-color-row.blp:46 src/edit-date-row.blp:46
-#: src/edit-shapebg-row.blp:46 src/puzzle-picker.c:252
+#: src/edit-shapebg-row.blp:46 src/puzzle-picker.c:377
 msgid "_Clear"
 msgstr "_Rensa"
 
-#: src/edit-date-row.blp:5 src/edit-date-row.c:239 src/edit-shapebg-row.blp:5
+#: src/edit-date-row.blp:5 src/edit-shapebg-row.blp:5 src/lang-model.c:128
+#: src/lang-model.c:314
 msgid "None"
 msgstr "Ingen"
 
-#: src/edit-date-row.blp:6 src/play-window.blp:297
-#: src/puzzle-info-dialog.blp:135
+#: src/edit-date-row.blp:6 src/play-window.blp:385
+#: src/puzzle-info-dialog.blp:143
 msgid "Date"
 msgstr "Datum"
 
-#: src/edit-greeter-acrostic.blp:11
-msgid "Acrostic Crossword"
+#: src/edit-date-row.c:235
+#| msgid "Date"
+msgid "No Date"
+msgstr "Inget datum"
+
+#: src/edit-greeter-acrostic.blp:11 src/edit-window.blp:612
+#| msgid "Acrostic Puzzles"
+msgid "Acrostic Puzzle"
 msgstr "Akrostikonkorsord"
 
-#: src/edit-greeter-acrostic.blp:15 src/edit-greeter-crossword.blp:26
-#: src/edit-metadata.blp:28
-msgid "_Title"
-msgstr "_Titel"
+#: src/edit-greeter-acrostic.blp:15 src/edit-greeter-crossword.blp:73
+#| msgid "Puzzle Type"
+msgid "_Puzzle Title"
+msgstr "_Korsordstitel"
 
-#: src/edit-greeter-acrostic.blp:22
-msgid "Details"
-msgstr "Detaljer"
+# TODO: Multiple accelerators??
+#: src/edit-greeter-acrostic.blp:27
+#| msgid "_Author / _Work"
+msgid "Author / _Title"
+msgstr "Upphovsperson / _Titel"
+
+#: src/edit-greeter-acrostic.blp:41
+msgid "Preview"
+msgstr "Förhandsgranska"
+
+#: src/edit-greeter-acrostic.blp:92 src/edit-greeter-crossword.blp:46
+msgid "Fill Difficulty:"
+msgstr "Svårighet att fylla:"
+
+#: src/edit-greeter-acrostic.blp:96 src/edit-greeter-acrostic.blp:107
+msgid "N/A:"
+msgstr "Saknas:"
 
 #. translator: this is the default title of crosswords
-#: src/edit-greeter-acrostic.c:109
+#: src/edit-greeter-acrostic.c:139
 msgid "My Acrostic"
 msgstr "Mitt akrostikon"
 
-#: src/edit-greeter-acrostic.c:111
+#: src/edit-greeter-acrostic.c:141
 #, c-format
 msgid "My Acrostic-%u"
 msgstr "Mitt akrostikon-%u"
 
-#: src/edit-greeter-crossword.blp:37
-msgid "_Rows"
-msgstr "_Rader"
+#: src/edit-greeter-acrostic.c:343
+msgid "This <b>Author / Title</b> is too long for the <b>Quote</b>"
+msgstr "Fältet <b>Upphovsperson / titel</b> är för långt för <b>citatet</b>"
 
-#: src/edit-greeter-crossword.blp:50
-msgid "Co_lumns"
-msgstr "Ko_lumner"
+#: src/edit-greeter-acrostic.c:345
+msgid "This <b>Author / Title</b> uses letters not found in the <b>Quote</b>"
+msgstr ""
+"Fältet <b>Upphovsperson / titel</b> innehåller bokstäver som saknas i "
+"<b>citatet</b>"
 
-#: src/edit-greeter-crossword.blp:64 src/edit-greeter-crossword.c:1048
-msgid "Theme Words"
-msgstr "Temaord"
-
-#: src/edit-greeter-crossword.blp:70
-msgid "Chan_ge"
-msgstr "Ändr_a"
-
-#. This is a NBSP to make sure we align with the other pref group
-#: src/edit-greeter-crossword.blp:79
-msgid " "
-msgstr " "
-
-#: src/edit-greeter-crossword.blp:83
-msgid "Preview"
-msgstr "Förhandsgranska"
-
-#: src/edit-greeter-crossword.blp:112
+#: src/edit-greeter-crossword.blp:44
 msgid "Measure of how hard it is to fill a grid with letters"
 msgstr "Mått på hur svårt det är att fylla ett rutnät med bokstäver"
 
-#: src/edit-greeter-crossword.blp:114
-msgid "Fill Difficulty:"
-msgstr "Svårighet att fylla:"
+#: src/edit-greeter-crossword.blp:84
+msgid "_Rows"
+msgstr "_Rader"
 
-#: src/edit-greeter-crossword.blp:186
+#: src/edit-greeter-crossword.blp:97
+msgid "Co_lumns"
+msgstr "Ko_lumner"
+
+#: src/edit-greeter-crossword.blp:111 src/edit-greeter-crossword.c:1099
+msgid "Theme Words"
+msgstr "Temaord"
+
+#: src/edit-greeter-crossword.blp:119
+msgid "Chan_ge"
+msgstr "Ändr_a"
+
+#: src/edit-greeter-crossword.blp:180
 msgid "<i>Filtering</i>"
 msgstr "<i>Filtrering</i>"
 
-#: src/edit-greeter-crossword.blp:188
+#: src/edit-greeter-crossword.blp:182
 msgid "Filtering with the theme words for solvable templates"
 msgstr "Filtrering med temaorden för lösbara mallar"
 
+#: src/edit-greeter-crossword.blp:198
+msgid "How hard these templates are to fill"
+msgstr "Hur svåra de här mallarna är att fylla i"
+
+#: src/edit-greeter-crossword.blp:211 src/edit-greeter-crossword.c:1183
+#| msgid "Templates"
+msgid "All Templates"
+msgstr "Alla mallar"
+
+#: src/edit-greeter-crossword.blp:219 src/edit-greeter-crossword.c:1168
+msgid "Very Easy"
+msgstr "Mycket lätt"
+
+#: src/edit-greeter-crossword.blp:224 src/edit-greeter-crossword.c:1171
+msgid "Easy"
+msgstr "Lätt"
+
+#: src/edit-greeter-crossword.blp:229 src/edit-greeter-crossword.c:1174
+msgid "Medium"
+msgstr "Medel"
+
+#: src/edit-greeter-crossword.blp:234 src/edit-greeter-crossword.c:1177
+msgid "Hard"
+msgstr "Svårt"
+
+#: src/edit-greeter-crossword.blp:239 src/edit-greeter-crossword.c:1180
+msgid "Very Hard"
+msgstr "Mycket svårt"
+
 #. translator: this is the default title of crosswords
-#: src/edit-greeter-crossword.c:440
+#: src/edit-greeter-crossword.c:487
 msgid "My Crossword"
 msgstr "Mitt korsord"
 
-#: src/edit-greeter-crossword.c:442
+#: src/edit-greeter-crossword.c:489
 #, c-format
 msgid "My Crossword-%u"
 msgstr "Mitt korsord-%u"
 
 #. translator: this is the default title of cryptic crosswords
-#: src/edit-greeter-crossword.c:449
+#: src/edit-greeter-crossword.c:496
 msgid "My Cryptic Crossword"
 msgstr "Mitt kryptiska korsord"
 
-#: src/edit-greeter-crossword.c:451
+#: src/edit-greeter-crossword.c:498
 #, c-format
 msgid "My Cryptic Crossword-%u"
 msgstr "Mitt kryptiska korsord-%u"
 
-#: src/edit-greeter-crossword.c:455
+#: src/edit-greeter-crossword.c:502
 msgid "Barred Crossword"
 msgstr "Korsord med stoppar"
 
 #. translator: this is the default title of barred crosswords
-#: src/edit-greeter-crossword.c:458
+#: src/edit-greeter-crossword.c:505
 msgid "My Barred Crossword"
 msgstr "Mitt korsord med stoppar"
 
-#: src/edit-greeter-crossword.c:460
+#: src/edit-greeter-crossword.c:507
 #, c-format
 msgid "My Barred Crossword-%u"
 msgstr "Mitt korsord med stoppar-%u"
 
-#: src/edit-greeter-crossword.c:1111
+#: src/edit-greeter-crossword.c:1211
 #, c-format
 msgid "Templates (%u)"
 msgstr "Mallar (%u)"
 
-#: src/edit-greeter-size-dialog.blp:13 src/edit-greeter.c:343
+#: src/edit-greeter-size-dialog.blp:13 src/edit-greeter.c:473
 #: src/edit-skip-list.c:323 src/edit-skip-list.c:335 src/edit-skip-list.c:395
-#: src/edit-skip-list.c:407 src/edit-window.c:729 src/play-window.c:669
-#: src/puzzle-downloader-dialog.blp:13 src/puzzle-downloader.c:313
+#: src/edit-skip-list.c:407 src/edit-window.c:774 src/play-window.c:613
+#: src/play-window.c:660 src/puzzle-downloader-dialog.blp:13
+#: src/puzzle-downloader.c:314
 msgid "_Close"
 msgstr "_Stäng"
 
@@ -793,8 +1027,8 @@ msgid "Add Theme Words"
 msgstr "Lägg till temaord"
 
 #: src/edit-greeter-themes-dialog.blp:19 src/edit-save-changes-dialog.c:123
-#: src/picker-list.c:332 src/play-xword.c:1433 src/puzzle-downloader.c:236
-#: src/puzzle-picker.c:247
+#: src/picker-list.c:398 src/play-xword.c:2051 src/puzzle-downloader.c:237
+#: src/puzzle-picker.c:372
 msgid "_Cancel"
 msgstr "A_vbryt"
 
@@ -803,7 +1037,7 @@ msgid "Theme Word"
 msgstr "Temaord"
 
 #: src/edit-greeter-themes-dialog.blp:65 src/edit-skip-list.blp:38
-#: src/play-xword.c:1434
+#: src/play-xword.c:2052
 msgid "C_lear"
 msgstr "R_ensa"
 
@@ -811,138 +1045,161 @@ msgstr "R_ensa"
 msgid "New Puzzle"
 msgstr "Nytt korsord"
 
-#: src/edit-greeter.blp:33
+#: src/edit-greeter.blp:41 src/play-filter-popover.blp:37
 msgid "Puzzle Type"
 msgstr "Korsordstyp"
 
-#: src/edit-greeter.blp:175
+#: src/edit-greeter.blp:187
 msgid "Create _New Puzzle"
 msgstr "Skapa _nytt korsord"
 
-#: src/edit-greeter.blp:181
+#: src/edit-greeter.blp:194
 msgid "_Import Puzzle from Disk…"
 msgstr "_Importera korsord från disk…"
 
-#: src/edit-greeter.c:150
+#: src/edit-greeter.blp:205 src/play-preferences-dialog.blp:10
+#: src/play-window.blp:359
+msgid "_Preferences"
+msgstr "_Inställningar"
+
+#: src/edit-greeter.c:174
 msgid "_Standard"
 msgstr "_Standard"
 
-#: src/edit-greeter.c:157
+#: src/edit-greeter.c:181
 msgid "_Cryptic"
 msgstr "_Kryptiskt"
 
-#: src/edit-greeter.c:162
+#: src/edit-greeter.c:186
 msgid "_Barred"
 msgstr "Med _stoppar"
 
-#: src/edit-greeter.c:168
+#: src/edit-greeter.c:192
 msgid "_Acrostic"
 msgstr "_Akrostikon"
 
-#: src/edit-greeter.c:175
+#: src/edit-greeter.c:199
 msgid "_Arrowword"
 msgstr "_Pilord"
 
 # TODO: Spelling in English?
-#: src/edit-greeter.c:187
+#: src/edit-greeter.c:211
 msgid "_Filippine"
 msgstr "_Filippinskt"
 
-#: src/edit-greeter.c:368
+#: src/edit-greeter.c:498
 msgid "Problem downloading file"
 msgstr "Problem vid hämtning av fil"
 
 #: src/edit-grid-info.blp:15
-msgid "<b>Completion:</b>"
-msgstr "<b>Slutfört:</b>"
+#| msgid "Completion"
+msgid "Completion:"
+msgstr "Ifyllnadsgrad:"
 
 #: src/edit-grid-info.blp:36
-msgid "<b>Dimensions:</b>"
-msgstr "<b>Dimensioner:</b>"
+#| msgid "<b>Dimensions:</b>"
+msgid "Dimensions:"
+msgstr "Dimensioner:"
 
 #: src/edit-grid-info.blp:57
-msgid "<b>Grid Composition:</b>"
-msgstr "<b>Rutnätssammansättning:</b>"
-
-#: src/edit-grid-info.blp:98
-msgid "<b>Settability:</b>"
-msgstr "<b>Inställbarhet:</b>"
+#| msgid "<b>Grid Composition:</b>"
+msgid "Grid Composition:"
+msgstr "Rutnätets sammansättning:"
 
 #: src/edit-grid-info.blp:99
 msgid "Measure of how hard it is to fill an empty grid with this shape"
 msgstr "Mått på hur svårt det är att fylla ett tomt rutnät med denna form"
 
-#: src/edit-grid-info.c:139
+#: src/edit-grid-info.c:142
 #, c-format
-msgid "%d × %d (%d Total Cells)"
-msgstr "%d × %d (totalt %d rutor)"
+#| msgid "%d × %d (%d Total Cells)"
+msgid "%d × %d (%d Total Cell)"
+msgid_plural "%d × %d (%d Total Cells)"
+msgstr[0] "%d × %d (%d ruta totalt)"
+msgstr[1] "%d × %d (%d rutor totalt)"
 
-#: src/edit-grid-info.c:147
+#: src/edit-grid-info.c:153
 msgid "No Normal Cells"
 msgstr "Inga normala rutor"
 
-#: src/edit-grid-info.c:153
+#: src/edit-grid-info.c:159
 #, c-format
 msgid "%u Normal Cell"
 msgid_plural "%u Normal Cells"
 msgstr[0] "%u normal ruta"
 msgstr[1] "%u normala rutor"
 
-#: src/edit-grid-info.c:169
+#: src/edit-grid-info.c:175
 #, c-format
 msgid "%u Block Cell"
 msgid_plural "%u Block Cells"
 msgstr[0] "%u blockruta"
 msgstr[1] "%u blockrutor"
 
-#: src/edit-grid-info.c:185
+#: src/edit-grid-info.c:191
 #, c-format
 msgid "%u Null Cell"
 msgid_plural "%u Null Cells"
 msgstr[0] "%u nollruta"
 msgstr[1] "%u nollrutor"
 
-#: src/edit-grid-info.c:214
+#: src/edit-grid-info.c:220
 #, c-format
 msgid "Settability Score (%.2f)"
-msgstr "Inställbarhetspoäng (%.2f)"
+msgstr "Konstruktionssvårighet (%.2f)"
 
 #: src/edit-histogram.blp:24
 msgid ""
-"A <i>Pangram</i> is a puzzle that has all the letters in the alphabet in its "
-"solution"
+"A <i>Pangram</i> is a puzzle that has all the letters in the alphabet in its"
+" solution"
 msgstr ""
 "Ett <i>pangram</i> är ett korsord som har alla alfabetets bokstäver i sin "
 "lösning"
 
-#: src/edit-histogram.c:422
+#: src/edit-histogram.c:479
 #, c-format
 msgid "Length %u"
 msgstr "Längd %u"
 
-#: src/edit-histogram.c:474
+#: src/edit-histogram.c:535
 #, c-format
 msgid "Total number of letters used: %u⁄%u"
 msgstr "Totalt antal använda bokstäver: %u⁄%u"
 
-#: src/edit-histogram.c:499
+#: src/edit-histogram.c:540
+#, c-format
+#| msgid "Total number of letters used: %u⁄%u"
+msgid "Total number of letters used: %u"
+msgstr "Totalt antal använda bokstäver: %u"
+
+#: src/edit-histogram.c:568
 #, c-format
 msgid "Average clue length: %.2f"
 msgstr "Genomsnittlig ledtrådslängd: %.2f"
 
-#: src/edit-histogram.c:512
+#: src/edit-histogram.c:571
+#| msgid "Answers"
+msgid "No answers"
+msgstr "Inga svar"
+
+#: src/edit-histogram.c:573
+#| msgid "Clues"
+msgid "No clues"
+msgstr "Inga ledtrådar"
+
+#: src/edit-histogram.c:587
 msgid "<b>Puzzle has a pangram</b>"
 msgstr "<b>Korsordet har ett pangram</b>"
 
-#: src/edit-histogram.c:514
+#: src/edit-histogram.c:589
 msgid "<b>Puzzle has two pangrams</b>"
 msgstr "<b>Korsordet har två pangram</b>"
 
-#: src/edit-histogram.c:516
+#: src/edit-histogram.c:591
 msgid "<b>Puzzle has three pangrams!</b>"
 msgstr "<b>Korsordet har tre pangram!</b>"
 
-#: src/edit-histogram.c:518
+#: src/edit-histogram.c:593
 msgid "<b>Puzzle has four or more pangrams! <i>Amazing</i></b>"
 msgstr "<b>Korsordet har fyra eller fler pangram! <i>Otroligt</i></b>"
 
@@ -950,7 +1207,8 @@ msgstr "<b>Korsordet har fyra eller fler pangram! <i>Otroligt</i></b>"
 msgid ""
 "The letters of one word or words are rearranged into another. As an example:"
 msgstr ""
-"Bokstäverna i ett eller flera ord ordnas om till ett annat ord. Till exempel:"
+"Bokstäverna i ett eller flera ord ordnas om till ett annat ord. Till "
+"exempel:"
 
 #: src/edit-indicator-hints-text.c:43
 #, c-format
@@ -969,10 +1227,10 @@ msgid ""
 "<tt>SILENT</tt>, resulting in <tt>LISTEN</tt>."
 msgstr ""
 "Här är <b>anagramindikatorn</b> ordet <tt><span weight=\"bold\" "
-"foreground=\"%s\">AWKWARDLY</span></tt>. Det säger till lösaren att göra ett "
-"anagram av <tt>SILENT</tt>, vilket resulterar i <tt>LISTEN</tt>."
+"foreground=\"%s\">AWKWARDLY</span></tt>. Det säger till lösaren att göra ett"
+" anagram av <tt>SILENT</tt>, vilket resulterar i <tt>LISTEN</tt>."
 
-#: src/edit-indicator-hints-text.c:48 src/edit-indicator-hints.c:197
+#: src/edit-indicator-hints-text.c:48 src/edit-indicator-hints.c:203
 msgid "Containers"
 msgstr "Behållare"
 
@@ -992,16 +1250,16 @@ msgstr ""
 #: src/edit-indicator-hints-text.c:51
 #, c-format
 msgid ""
-"Here,  <tt>BOBSLEIGH</tt> is a synonym for <tt>SLED</tt> and a <tt>WORKER</"
-"tt> is an <tt>ANT</tt>. The phrase <tt><span weight=\"bold\" "
+"Here,  <tt>BOBSLEIGH</tt> is a synonym for <tt>SLED</tt> and a "
+"<tt>WORKER</tt> is an <tt>ANT</tt>. The phrase <tt><span weight=\"bold\" "
 "foreground=\"%s\">RIDING</span></tt> is the <b>Container Indicator</b>. It "
 "tells the solver to put the first word around the second, resulting in "
 "<tt>SL(ANT)ED</tt>."
 msgstr ""
-"Här är <tt>BOBSLEIGH</tt> en synonym för <tt>SLED</tt> och en <tt>WORKER</"
-"tt> är en <tt>ANT</tt>. Frasen <tt><span weight=\"bold\" "
-"foreground=\"%s\">RIDING</span></tt> är <b>behållarindikatorn</b>. Den säger "
-"till lösaren att sätta det första ordet runt det andra vilket resulterar i "
+"Här är <tt>BOBSLEIGH</tt> en synonym för <tt>SLED</tt> och en "
+"<tt>WORKER</tt> är en <tt>ANT</tt>. Frasen <tt><span weight=\"bold\" "
+"foreground=\"%s\">RIDING</span></tt> är <b>behållarindikatorn</b>. Den säger"
+" till lösaren att sätta det första ordet runt det andra vilket resulterar i "
 "<tt>SL(ANT)ED</tt>."
 
 #: src/edit-indicator-hints-text.c:56
@@ -1029,13 +1287,13 @@ msgid ""
 "<b>Deletion Indicator</b>. Deleting the first term from the second results "
 "in <tt>HAR(<s>ME</s>)D</tt>."
 msgstr ""
-"Här är en förkortning för <tt>DOCTOR</tt> <tt>ME</tt> (<b>M</b>edical <b>E</"
-"b>xaminer), och <tt>DAMAGED</tt> är en synonym för <tt>HARMED</tt>. "
+"Här är en förkortning för <tt>DOCTOR</tt> <tt>ME</tt> (<b>M</b>edical "
+"<b>E</b>xaminer), och <tt>DAMAGED</tt> är en synonym för <tt>HARMED</tt>. "
 "<tt><span weight=\"bold\" foreground=\"%s\">LEAVING</span></tt> är "
 "<b>borttagningsindikatorn</b>. Att ta bort den första termen från den andra "
 "resulterar i <tt>HAR(<s>ME</s>)D</tt>."
 
-#: src/edit-indicator-hints-text.c:62 src/edit-indicator-hints.c:199
+#: src/edit-indicator-hints-text.c:62 src/edit-indicator-hints.c:205
 msgid "Hidden Words"
 msgstr "Dolda ord"
 
@@ -1046,11 +1304,11 @@ msgstr "Ordlek där en längre fras döljer ett inre ord. Till exempel"
 #: src/edit-indicator-hints-text.c:64
 #, c-format
 msgid ""
-"<tt><span weight=\"bold\" foreground=\"%s\">CAUGHT</span> CHAD ESCAPING</tt> "
-"<b>⟶</b> <tt>HADES</tt>"
+"<tt><span weight=\"bold\" foreground=\"%s\">CAUGHT</span> CHAD ESCAPING</tt>"
+" <b>⟶</b> <tt>HADES</tt>"
 msgstr ""
-"<tt><span weight=\"bold\" foreground=\"%s\">CAUGHT</span> CHAD ESCAPING</tt> "
-"<b>⟶</b> <tt>HADES</tt>"
+"<tt><span weight=\"bold\" foreground=\"%s\">CAUGHT</span> CHAD ESCAPING</tt>"
+" <b>⟶</b> <tt>HADES</tt>"
 
 #: src/edit-indicator-hints-text.c:65
 #, c-format
@@ -1063,7 +1321,7 @@ msgstr ""
 "<b>dolt ord-indikatorn</b>. Den säger till lösaren att svaret kan hittas i "
 "<tt>C<u>HAD ES</u>CAPING</tt>."
 
-#: src/edit-indicator-hints-text.c:69 src/edit-indicator-hints.c:200
+#: src/edit-indicator-hints-text.c:69 src/edit-indicator-hints.c:206
 msgid "Homophones"
 msgstr "Homofoner"
 
@@ -1093,7 +1351,7 @@ msgstr ""
 "<b>homofonordsindikatorn</b>. Den säger till lösaren att ordet låter som "
 "<tt>PROFIT</tt> (t.ex. <tt>PROPHET</tt>)."
 
-#: src/edit-indicator-hints-text.c:76 src/edit-indicator-hints.c:201
+#: src/edit-indicator-hints-text.c:76 src/edit-indicator-hints.c:207
 msgid "Insertions"
 msgstr "Infogningar"
 
@@ -1119,17 +1377,19 @@ msgid ""
 "tells the solver to put the first word inside the second, resulting in "
 "<tt>OP(ERA)TIC</tt>."
 msgstr ""
-"Här är <tt>ERA</tt> en mängd <tt>TIME</tt> och <tt>VISION</tt> hänvisar till "
-"<tt>OPTIC</tt>. Frasen <tt><span weight=\"bold\" foreground=\"%s\">TO KEEP</"
-"span></tt> är <b>infogningsindikatorn</b>. Den säger till lösaren att sätta "
-"det första ordet i det andra ordet, vilket resulterar i <tt>OP(ERA)TIC</tt>."
+"Här är <tt>ERA</tt> en mängd <tt>TIME</tt> och <tt>VISION</tt> hänvisar till"
+" <tt>OPTIC</tt>. Frasen <tt><span weight=\"bold\" foreground=\"%s\">TO "
+"KEEP</span></tt> är <b>infogningsindikatorn</b>. Den säger till lösaren att "
+"sätta det första ordet i det andra ordet, vilket resulterar i "
+"<tt>OP(ERA)TIC</tt>."
 
-#: src/edit-indicator-hints-text.c:82 src/edit-indicator-hints.c:202
+#: src/edit-indicator-hints-text.c:82 src/edit-indicator-hints.c:208
 msgid "Reversals"
 msgstr "Omvändningar"
 
 #: src/edit-indicator-hints-text.c:83
-msgid "A word or phrase is reversed direction, revealing another. For example:"
+msgid ""
+"A word or phrase is reversed direction, revealing another. For example:"
 msgstr ""
 "Ett ord eller en fras ändrar riktning vilket avslöjar ett annat ord. Till "
 "exempel:"
@@ -1146,22 +1406,22 @@ msgstr ""
 #: src/edit-indicator-hints-text.c:85
 #, c-format
 msgid ""
-"Here, the phrase <tt><span weight=\"bold\" foreground=\"%s\">GOING EAST</"
-"span></tt> is the <b>Reversal Indicator</b> for the solver to reverse the "
-"direction of <tt>STOP</tt>, resulting in <tt>POTS</tt>. Note that this "
+"Here, the phrase <tt><span weight=\"bold\" foreground=\"%s\">GOING "
+"EAST</span></tt> is the <b>Reversal Indicator</b> for the solver to reverse "
+"the direction of <tt>STOP</tt>, resulting in <tt>POTS</tt>. Note that this "
 "phrase only works for across clues. For down clues, <tt><span "
 "weight=\"bold\" foreground=\"%s\">HEADING NORTH</span></tt> might be a "
 "better indicator."
 msgstr ""
-"Här är frasen <tt><span weight=\"bold\" foreground=\"%s\">GOING EAST</span></"
-"tt> <b>omvändningsindikatorn</b> för lösaren för att vända riktningen på "
-"<tt>STOP</tt>, vilket resulterar i <tt>POTS</tt>. Observera att denna fras "
-"endast fungerar för vågräta ledtrådar. För lodräta ledtrådar kan <tt><span "
-"weight=\"bold\" foreground=\"%s\">HEADING NORTH</span></tt> vara en bättre "
-"indikator."
+"Här är frasen <tt><span weight=\"bold\" foreground=\"%s\">GOING "
+"EAST</span></tt> <b>omvändningsindikatorn</b> för lösaren för att vända "
+"riktningen på <tt>STOP</tt>, vilket resulterar i <tt>POTS</tt>. Observera "
+"att denna fras endast fungerar för vågräta ledtrådar. För lodräta ledtrådar "
+"kan <tt><span weight=\"bold\" foreground=\"%s\">HEADING NORTH</span></tt> "
+"vara en bättre indikator."
 
-#: src/edit-indicator-hints.blp:14 src/edit-indicator-hints.blp:62
-#: src/edit-indicator-hints.blp:85
+#: src/edit-indicator-hints.blp:7 src/edit-indicator-hints.blp:14
+#: src/edit-indicator-hints.blp:62 src/edit-indicator-hints.blp:85
 msgid "Wordplay Indicators"
 msgstr "Ordleksindikatorer"
 
@@ -1176,8 +1436,8 @@ msgid ""
 "signal what kind of wordplay is being used. These words act as signposts, "
 "telling the solver how to manipulate parts of the clue to find the solution."
 msgstr ""
-"Ledtrådar i <b>kryptiska korsord</b> förlitar sig mycket på ordlekar för att "
-"leda lösaren till ett svar. Traditionellt använder ledtrådar en "
+"Ledtrådar i <b>kryptiska korsord</b> förlitar sig mycket på ordlekar för att"
+" leda lösaren till ett svar. Traditionellt använder ledtrådar en "
 "<b>ordleksindikator</b> för att signalera vilken sorts ordlek som används. "
 "Dessa ord fungerar som vägvisare som berättar för lösaren hur delar av "
 "ledtråden ska manipuleras för att hitta lösningen."
@@ -1273,7 +1533,7 @@ msgstr "_Inställningar"
 msgid "_Wordplay Indicators"
 msgstr "_Ordleksindikatorer"
 
-#: src/edit-menus.blp:49 src/play-window.blp:276 src/play-window.blp:387
+#: src/edit-menus.blp:49 src/play-window.blp:78 src/play-window.blp:364
 msgid "_Keyboard Shortcuts"
 msgstr "_Tangentbordsgenvägar"
 
@@ -1281,58 +1541,95 @@ msgstr "_Tangentbordsgenvägar"
 msgid "A_bout Crossword Editor"
 msgstr "_Om Crossword Editor"
 
-#: src/edit-metadata.blp:24 src/play-window.blp:173 src/play-window.blp:179
-msgid "Puzzle Information"
-msgstr "Korsordsinformation"
+#: src/edit-metadata.blp:22
+#| msgid "Puzzles by"
+msgid "Puzzle"
+msgstr "Korsord"
 
-#: src/edit-metadata.blp:35 src/edit-preferences-dialog.blp:24
-msgid "C_opyright"
-msgstr "Upph_ovsrätt"
+#: src/edit-metadata.blp:30
+#| msgid "Puzzle Type"
+msgid "Puzzle _Title"
+msgstr "Korsordets _titel"
 
-#: src/edit-metadata.blp:42 src/edit-preferences-dialog.blp:30
-msgid "Puzzle _URL"
-msgstr "Korsords-_URL"
+#: src/edit-metadata.blp:40
+#| msgid "Instructions"
+msgid "_Introduction"
+msgstr "_Introduktion"
 
-#: src/edit-metadata.blp:49
-msgid "_Publisher"
-msgstr "_Publicist"
+#: src/edit-metadata.blp:48 src/play-welcome.blp:62
+msgid "_Notes"
+msgstr "A_nteckningar"
 
-#: src/edit-metadata.blp:56
-msgid "Pu_blication"
-msgstr "_Tidning"
-
-#: src/edit-metadata.blp:63 src/edit-preferences-dialog.blp:19
-msgid "_Author"
-msgstr "_Författare"
-
-#: src/edit-metadata.blp:70
-msgid "_Editor"
-msgstr "_Redaktör"
-
-#: src/edit-metadata.blp:77
-msgid "_Date"
-msgstr "_Datum"
-
-#: src/edit-metadata.blp:85 src/edit-metadata.blp:105
-#: src/puzzle-info-dialog.blp:6
-msgid "Puzzle Details"
-msgstr "Korsordsdetaljer"
-
-#: src/edit-metadata.blp:89
-msgid "_Show Enumerations"
-msgstr "Visa _uppräkningar"
-
-#: src/edit-metadata.blp:93
-msgid "<i>Example: (3,4)</i>"
-msgstr "<i>Exempel: (3,4)</i>"
-
-#: src/edit-metadata.blp:109
+#: src/edit-metadata.blp:57
 msgid "Di_fficulty"
 msgstr "S_vårighetsgrad"
 
-#: src/edit-metadata.blp:117 src/play-welcome.blp:62
-msgid "_Notes"
-msgstr "A_nteckningar"
+#: src/edit-metadata.blp:67
+msgid "E_xplanation"
+msgstr "_Förklaring"
+
+#: src/edit-metadata.blp:78
+msgid "Language and Conventions"
+msgstr "Språk och konventioner"
+
+#: src/edit-metadata.blp:86
+msgid "_Show Enumerations"
+msgstr "Visa _uppräkningar"
+
+#: src/edit-metadata.blp:90
+msgid "<i>Example: (3,4)</i>"
+msgstr "<i>Exempel: (3,4)</i>"
+
+#: src/edit-metadata.blp:100
+msgid "_Country"
+msgstr "_Land"
+
+#: src/edit-metadata.blp:102
+msgid "Country associated with the puzzle"
+msgstr "Land som hör till korsordet"
+
+#: src/edit-metadata.blp:107
+#| msgid "Languages"
+msgid "_Language"
+msgstr "_Språk"
+
+#: src/edit-metadata.blp:109
+msgid "The set of valid characters that the puzzle allows."
+msgstr "De tecken som är tillåtna i korsordet."
+
+#: src/edit-metadata.blp:114
+#| msgid "Publication"
+msgid "Credits and Publication"
+msgstr "Upphov och publicering"
+
+#: src/edit-metadata.blp:122 src/edit-preferences-dialog.blp:19
+msgid "_Author"
+msgstr "_Författare"
+
+#: src/edit-metadata.blp:132
+msgid "_Editor"
+msgstr "_Redaktör"
+
+#: src/edit-metadata.blp:142 src/edit-preferences-dialog.blp:27
+msgid "C_opyright"
+msgstr "Upph_ovsrätt"
+
+#: src/edit-metadata.blp:150
+msgid "_Publisher"
+msgstr "_Publicist"
+
+#: src/edit-metadata.blp:160
+msgid "Pu_blication"
+msgstr "_Tidning"
+
+#: src/edit-metadata.blp:170
+#| msgid "Publication: "
+msgid "Publication _Date"
+msgstr "_Publiceringsdatum"
+
+#: src/edit-metadata.blp:176 src/edit-preferences-dialog.blp:33
+msgid "Puzzle _URL"
+msgstr "Korsords-_URL"
 
 #: src/edit-preferences-dialog.blp:10
 msgid "_Defaults"
@@ -1346,38 +1643,30 @@ msgstr "Standardkorsordsvärden"
 msgid "Defaults for newly created puzzles"
 msgstr "Standardvärden för nyskapade korsord"
 
-#: src/edit-preferences-dialog.blp:39
+#: src/edit-preferences-dialog.blp:42
 msgid "_Word Lists"
 msgstr "_Ordlistor"
 
-#: src/edit-preferences-dialog.blp:44
+#: src/edit-preferences-dialog.blp:47
 msgid "Word Lists"
 msgstr "Ordlistor"
 
-#: src/edit-preferences-dialog.blp:45
+#: src/edit-preferences-dialog.blp:48
 msgid "Used in completion and auto fill"
 msgstr "Används i komplettering och automatiskt ifyllnad"
 
-#: src/edit-preferences-dialog.blp:49
+#: src/edit-preferences-dialog.blp:52
 msgid "Skip Lists"
 msgstr "Överhoppningslistor"
 
-#: src/edit-preferences-dialog.blp:50
+#: src/edit-preferences-dialog.blp:53
 msgid "Words to ignore in the word list"
 msgstr "Ord att ignorera i ordlistan"
 
-#: src/edit-preferences-dialog.c:147
+#: src/edit-preferences-dialog.c:149
 #, c-format
 msgid "%u words"
 msgstr "%u ord"
-
-#: src/edit-preview-window.blp:81 src/play-xword.blp:95
-msgid "_Across"
-msgstr "_Vågrätt"
-
-#: src/edit-preview-window.blp:93 src/play-xword.blp:107
-msgid "_Down"
-msgstr "_Lodrätt"
 
 #: src/edit-save-changes-dialog.c:117
 msgid "_Discard"
@@ -1435,7 +1724,7 @@ msgstr "Problem vid inläsning av överhoppningslista"
 msgid "Load Skip List"
 msgstr "Läs in överhoppningslista"
 
-#: src/edit-skip-list.c:439 src/puzzle-downloader.c:829
+#: src/edit-skip-list.c:439 src/puzzle-downloader.c:858
 msgid "All Files"
 msgstr "Alla filer"
 
@@ -1475,133 +1764,158 @@ msgstr "Diagonal spegel"
 msgid "Up-Right Diagonal Mirror"
 msgstr "Uppåt-höger diagonal spegel"
 
-#: src/edit-window-actions.c:284 src/puzzle-downloader.c:792
+#: src/edit-window-actions.c:292 src/puzzle-downloader.c:821
 msgid "Select a crossword"
 msgstr "Välj ett korsord"
 
-#: src/edit-window-actions.c:289 src/edit-window-actions.c:366
-#: src/puzzle-downloader.c:808
+#: src/edit-window-actions.c:297 src/edit-window-actions.c:374
+#: src/puzzle-downloader.c:837
 msgid "Ipuz Puzzles (.ipuz)"
 msgstr "Ipuz-korsord (.ipuz)"
 
-#: src/edit-window-actions.c:346
+#: src/edit-window-actions.c:354
 msgid "Save Puzzle"
 msgstr "Spara korsord"
 
-#: src/edit-window-actions.c:360
+#: src/edit-window-actions.c:368
 msgid "Untitled Puzzle.ipuz"
 msgstr "Namnlöst korsord.ipuz"
 
-#: src/edit-window.blp:14
-msgid "_Misspelled Clues"
-msgstr "_Felstavade ledtrådar"
-
-#: src/edit-window.blp:18
-msgid "_Unchecked Cells"
-msgstr "_Okontrollerade rutor"
-
-#: src/edit-window.blp:22
-msgid "_Heatmap"
-msgstr "_Färgdiagram"
-
-#: src/edit-window.blp:26
-msgid "_Unfilable Clues"
-msgstr "_Ej ifyllbara ledtrådar"
-
-#: src/edit-window.blp:76 src/edit-window.blp:347 src/edit-window.blp:380
-#: src/edit-window.blp:491 src/help-overlay.blp:98
+#: src/edit-window.blp:62 src/edit-window.blp:338 src/edit-window.blp:371
+#: src/edit-window.blp:602 src/help-overlay.blp:98
 msgid "Grid"
 msgstr "Rutnät"
 
-#: src/edit-window.blp:200 src/edit-window.blp:215 src/edit-window.blp:358
+#: src/edit-window.blp:192 src/edit-window.blp:207 src/edit-window.blp:349
 msgid "Style"
 msgstr "Stil"
 
-#: src/edit-window.blp:229
+#: src/edit-window.blp:221
 msgid "Foreground color"
 msgstr "Förgrundsfärg"
 
-#: src/edit-window.blp:237
+#: src/edit-window.blp:229
 msgid "Background color"
 msgstr "Bakgrundsfärg"
 
-#: src/edit-window.blp:247
-msgid "Main Page"
-msgstr "Huvudsida"
-
-#: src/edit-window.blp:300
+#: src/edit-window.blp:289
 msgid "Toggle Sidebar  F9"
 msgstr "Växla sidopanel  F9"
 
-#: src/edit-window.blp:306
-msgid "Toggle Information Panel  Ctrl-F9"
-msgstr "Växla informationspanel  Ctrl-F9"
+#: src/edit-window.blp:295
+#| msgid "Toggle Information Panel  Ctrl-F9"
+msgid "Toggle Information Panel  Ctrl+F9"
+msgstr "Visa eller dölj informationspanelen  Ctrl+F9"
 
-#: src/edit-window.blp:321 src/play-window.blp:233
-msgid "Redo  Ctrl-Y"
-msgstr "Gör om  Ctrl-Y"
+#: src/edit-window.blp:310 src/play-xword.blp:78
+#| msgid "Redo  Ctrl-Y"
+msgid "Redo  Ctrl+Shift+Z"
+msgstr "Gör om  Ctrl+Shift+Z"
 
-#: src/edit-window.blp:328 src/play-window.blp:240
-msgid "Undo  Ctrl-Z"
-msgstr "Ångra  Ctrl-Z"
+#: src/edit-window.blp:317 src/play-xword.blp:73
+#| msgid "Undo  Ctrl-Z"
+msgid "Undo  Ctrl+Z"
+msgstr "Ångra  Ctrl+Z"
 
-#: src/edit-window.blp:352 src/help-overlay.blp:127
+#: src/edit-window.blp:343 src/edit-window.blp:622 src/help-overlay.blp:137
 msgid "Clues"
 msgstr "Ledtrådar"
 
-#: src/edit-window.blp:365 src/edit-window.blp:579 src/puzzle-info-dialog.c:287
+#: src/edit-window.blp:356 src/edit-window.blp:709
+#: src/puzzle-info-dialog.c:313
 msgid "Puzzle Info"
 msgstr "Korsordsinformation"
 
-#: src/edit-window.blp:416
+#: src/edit-window.blp:407
 msgid "Layers"
 msgstr "Lager"
 
-#: src/edit-window.blp:435
+#: src/edit-window.blp:422
+#| msgid "_Misspelled Clues"
+msgid "Misspelled _Answers"
+msgstr "_Felstavade svar"
+
+#: src/edit-window.blp:440
+msgid "_Invalid Letters"
+msgstr "_Ogiltiga bokstäver"
+
+#: src/edit-window.blp:458
+msgid "_Unchecked Cells"
+msgstr "_Okontrollerade rutor"
+
+#: src/edit-window.blp:476
+msgid "_Heatmap"
+msgstr "_Färgdiagram"
+
+#: src/edit-window.blp:494
+#| msgid "_Unfillable Clues"
+msgid "Unfillable _Clues"
+msgstr "Ledtrådar som inte går att _fylla"
+
+#: src/edit-window.blp:515
+#| msgid "<b>Available Letters:</b>"
+msgid "_Available Letters"
+msgstr "_Tillgängliga bokstäver"
+
+#: src/edit-window.blp:545 src/play-window.blp:303
 msgid "Zoom out"
 msgstr "Zooma ut"
 
-#: src/edit-window.blp:441
+#: src/edit-window.blp:551 src/play-window.blp:322
 msgid "Zoom in"
 msgstr "Zooma in"
 
-#: src/edit-window.blp:475
+#: src/edit-window.blp:585
 msgid "_Basics"
 msgstr "_Grunderna"
 
-#: src/edit-window.blp:482
+#: src/edit-window.blp:592
 msgid "Cell"
 msgstr "Ruta"
 
-#: src/edit-window.blp:504
+#: src/edit-window.blp:635
 msgid "_Statistics"
 msgstr "_Statistik"
 
-#: src/edit-window.blp:511
+#: src/edit-window.blp:641
 msgid "Letter Distribution"
 msgstr "Bokstavsfördelning"
 
-#: src/edit-window.blp:523
+#: src/edit-window.blp:653
 msgid "Clue Length Distribution"
 msgstr "Ledtrådslängdsfördelning"
 
-#: src/edit-window.blp:535
+#: src/edit-window.blp:665
 msgid "Answer Length Distribution"
 msgstr "Svarslängdsfördelning"
 
-#: src/edit-window.blp:568
+#: src/edit-window.blp:698
 msgid "[Style]"
 msgstr "[Stil]"
 
-#: src/edit-window.blp:571
+#: src/edit-window.blp:701
 msgid "[Style Info]"
 msgstr "[Stilinformation]"
 
-#: src/edit-window.c:568
+#: src/edit-window.c:609
 msgid "Untitled Puzzle"
 msgstr "Namnlöst korsord"
 
-#: src/edit-window.c:726
+#: src/edit-window.c:731
+#, c-format
+msgid ""
+"Couldn't open “%s”.\n"
+"%s"
+msgstr ""
+"Det gick inte att öppna ”%s”.\n"
+"%s"
+
+#: src/edit-window.c:734
+#, c-format
+msgid "Couldn't open “%s”."
+msgstr "Det gick inte att öppna ”%s”."
+
+#: src/edit-window.c:771
 msgid "Problem Loading File"
 msgstr "Problem vid inläsning av fil"
 
@@ -1691,7 +2005,6 @@ msgstr "%s: saknar katalog"
 #. Translators: the %s is the program name. This error message
 #. * means the user is calling gen-word-list-resource without any
 #. * arguments.
-#.
 #: src/gen-word-list-resource.c:137
 #, c-format
 msgid "%s: missing files"
@@ -1709,13 +2022,12 @@ msgstr "synlighet måste vara en av ”test”, ”editor” eller ”player”"
 
 #. Translators: the first %s is the program name, the second one
 #. * is the URI of the file, the third is the error message.
-#.
 #: src/gen-word-list-resource.c:172
 #, c-format
 msgid "%s: %s: error opening file: %s\n"
 msgstr "%s: %s: fel vid öppnande av fil: %s\n"
 
-#: src/gen-word-list.c:1040 src/gen-word-list.c:1074
+#: src/gen-word-list.c:1036 src/gen-word-list.c:1070
 #, c-format
 msgid "Error saving file %s: %s\n"
 msgstr "Fel vid sparande av filen %s: %s\n"
@@ -1812,126 +2124,138 @@ msgstr "Ange flera bokstäver i samma ruta (för rebuskorsord)"
 msgid "Clear Cell"
 msgstr "Rensa ruta"
 
-#: src/help-overlay.blp:131
+#: src/help-overlay.blp:127
+msgid "Start Autofill Search, Then Step Through Results"
+msgstr "Starta sökningen efter möjliga svar och gå sedan igenom resultaten"
+
+#: src/help-overlay.blp:132
+msgid "Step Backwards Through Autofill Results"
+msgstr "Gå bakåt bland sökresultaten"
+
+#: src/help-overlay.blp:141
 msgid "Change Clue Orientation"
 msgstr "Ändra ledtrådens riktning"
 
-#: src/picker-grid.c:171 src/picker-list.c:276 src/play-xword.c:1429
-#: src/puzzle-picker.c:241
+#: src/lang-model.c:321 src/picker-list.blp:71
+msgid "Custom"
+msgstr "Anpassat"
+
+#: src/lang-model.c:335
+msgid "Default (Latin Alphabet)"
+msgstr "Standard (latinskt alfabet)"
+
+#: src/picker-grid.c:183 src/picker-list.c:342 src/play-xword.c:2047
+#: src/puzzle-picker.c:366
 msgid "Clear Puzzle?"
 msgstr "Rensa korsord?"
 
-#: src/picker-grid.c:172
+#: src/picker-grid.c:184
 msgid ""
-"You have completed this puzzle. Do you want replay it? You will have to "
-"solve it again to make progress.\n"
+"You have completed this puzzle. Do you want replay it? You will have to solve it again to make progress.\n"
 "\n"
 "You can also view the completed puzzle."
 msgstr ""
-"Du har slutfört detta korsord. Vill du lösa det igen? Du kommer behöva lösa "
-"det helt igen för att göra framsteg.\n"
+"Du har slutfört detta korsord. Vill du lösa det igen? Du kommer behöva lösa det helt igen för att göra framsteg.\n"
 "\n"
 "Du kan också visa det slutförda korsordet."
 
-#: src/picker-list-row.c:110
+#: src/picker-list-row.c:114
 msgid "Clear Puzzle"
 msgstr "Rensa korsord"
 
-#: src/picker-list-row.c:120 src/picker-list.c:326
+#: src/picker-list-row.c:124 src/picker-list.c:392
 msgid "Remove Puzzle"
 msgstr "Ta bort korsord"
 
-#: src/picker-list-row.c:337
+#: src/picker-list-row.c:342
 msgid "<b>Puzzle won</b>"
 msgstr "<b>Korsordet vunnet</b>"
 
-#: src/picker-list-row.c:345
+#: src/picker-list-row.c:350
 #, c-format
 msgid "%d%% filled in"
 msgstr "%d%% ifyllt"
 
-#: src/picker-list.blp:62
-msgid "Custom"
-msgstr "Anpassat"
+#: src/picker-list.c:265
+#| msgid "Solved Puzzles"
+msgid "Downloaded Puzzles"
+msgstr "Hämtade korsord"
 
-#: src/picker-list.c:277 src/play-xword.c:1430
-msgid "If you clear this puzzle, all your progress will be lost."
-msgstr "Om du rensar detta korsord kommer alla dina framsteg gå förlorade."
+#: src/picker-list.c:343 src/play-xword.c:2048
+#| msgid "If you clear this puzzle, all your progress will be lost."
+msgid "If you clear this puzzle, all your progress will be lost"
+msgstr "Om du rensar det här korsordet går alla dina framsteg förlorade"
 
-#: src/picker-list.c:322
+#: src/picker-list.c:388
+#| msgid ""
+#| "If you remove this puzzle, you won't be able to play it again and all your "
+#| "progress will be lost."
 msgid ""
 "If you remove this puzzle, you won't be able to play it again and all your "
-"progress will be lost."
+"progress will be lost"
 msgstr ""
-"Om du tar bort detta korsord kommer du inte kunna lösa det igen alla dina "
-"framsteg gå förlorade."
+"Om du tar bort det här korsordet kan du inte spela det igen och alla dina "
+"framsteg går förlorade"
 
-#: src/picker-list.c:324
-msgid "If you remove this puzzle, you won't be able to play it again."
-msgstr "Om du tar bort detta korsord kommer du inte kunna lösa det igen."
+#: src/picker-list.c:390
+#| msgid ""
+#| "If you remove this puzzle, you won't be able to play it again."
+msgid "If you remove this puzzle, you won't be able to play it again"
+msgstr "Om du tar bort det här korsordet kan du inte spela det igen"
 
-#: src/picker-list.c:333
+#: src/picker-list.c:399
 msgid "_Remove"
 msgstr "_Ta bort"
 
-#: src/picker-list.c:500
+#: src/picker-list.c:563
 msgid "Downloader disabled"
 msgstr "Hämtare inaktiverad"
 
-#: src/picker-list.c:505
+#: src/picker-list.c:568
 msgid "Network access is required to download a puzzle"
 msgstr "Nätverksåtkomst krävs för att hämta ett korsord"
 
-#: src/play-add-remove.blp:9
-msgid "Languages"
-msgstr "Språk"
+#: src/play-add-remove.blp:29
+#| msgid "Add Puzzle Sources"
+msgid "No Matching Puzzle Sources"
+msgstr "Inga matchande korsordskällor"
 
-#: src/play-add-remove.blp:12
-msgid "Show Sources In All _Languages"
-msgstr "Visa källor på alla _språk"
+#: src/play-add-remove.blp:30
+msgid "Try selecting other languages or puzzle types"
+msgstr "Prova att välja andra språk eller korsordstyper"
 
-#: src/play-add-remove.blp:18
-msgid "Add Source"
-msgstr "Lägg till källa"
-
-#: src/play-add-remove.c:233
+#: src/play-add-remove.c:251
 msgid "Mini"
 msgstr "Mini"
 
-#: src/play-add-remove.c:242
+#: src/play-add-remove.c:260
 msgid "Jumbo"
 msgstr "Jumbo"
 
-#: src/play-add-remove.c:247
-msgid "Acrostic Puzzles"
-msgstr "Akrostikonkorsord"
-
-#: src/play-add-remove.c:250
-msgid "Arrowword Puzzles"
-msgstr "Korsord med pilar"
-
-#: src/play-add-remove.c:253
-msgid "Barred Puzzles"
-msgstr "Korsord med stoppar"
-
-#: src/play-add-remove.c:259
-msgid "Cryptic Crosswords"
-msgstr "Kryptiska korsord"
-
-# TODO: Spelling in English?
-#: src/play-add-remove.c:262
-msgid "Filippine"
-msgstr "Filippinskt"
-
-#: src/play-add-remove.c:266
+#: src/play-add-remove.c:273
 msgid "Automatic Downloader"
 msgstr "Automatisk hämtare"
 
 # TODO: can closing tag be left as-is?
 #. No enumerations for a blank clue — it doesn't make sense
-#: src/play-clue-row.c:397
+#: src/play-clue-row.c:421
 msgid "<i>&lt;empty></i>"
 msgstr "<i>&lt;tom></i>"
+
+#: src/play-filter-popover.blp:13
+#| msgid "Languages"
+msgid "Language"
+msgstr "Språk"
+
+#: src/play-filter-popover.blp:21
+#| msgid "Languages"
+msgid "Clear Languages"
+msgstr "Rensa språk"
+
+#: src/play-filter-popover.blp:45
+#| msgid "Clear Puzzle"
+msgid "Clear Puzzle Types"
+msgstr "Rensa korsordstyper"
 
 #: src/play-help-overlay.blp:6
 msgid "Game"
@@ -1982,155 +2306,184 @@ msgid "Clear the Current Game"
 msgstr "Rensa aktuellt spel"
 
 #: src/play-help-overlay.blp:65
-msgid "Show Incorrect Guesses"
-msgstr "Visa felaktiga gissningar"
+#| msgid "Show Incorrect Guesses"
+msgid "Show Incorrect Guesses in the Cell"
+msgstr "Visa felaktiga gissningar i rutan"
 
 #: src/play-help-overlay.blp:70
+#| msgid "Show Incorrect Guesses"
+msgid "Show Incorrect Guesses in the Clue"
+msgstr "Visa felaktiga gissningar i ledtråden"
+
+#: src/play-help-overlay.blp:75
+#| msgid "Show Incorrect Guesses"
+msgid "Show Incorrect Guesses in the Puzzle"
+msgstr "Visa felaktiga gissningar i korsordet"
+
+#: src/play-help-overlay.blp:80
 msgid "Show a Hint (Repeatable)"
 msgstr "Visa ett tips (upprepningsbart)"
 
-#: src/play-help-overlay.blp:75
+#: src/play-help-overlay.blp:85
 msgid "Appearance"
 msgstr "Utseende"
 
-#: src/play-help-overlay.blp:78
+#: src/play-help-overlay.blp:88
 msgid "Toggle Magnifier"
 msgstr "Växla förstorare"
 
-#: src/play-help-overlay.blp:83
+#: src/play-help-overlay.blp:93 src/play-window.blp:316
 msgid "Zoom In"
 msgstr "Zooma in"
 
-#: src/play-help-overlay.blp:88
+#: src/play-help-overlay.blp:98 src/play-window.blp:297
 msgid "Zoom Out"
 msgstr "Zooma ut"
 
-#: src/play-help-overlay.blp:93
+#: src/play-help-overlay.blp:103
 msgid "Reset the Zoom Level"
 msgstr "Återställ zoomnivån"
 
-#: src/play-help-overlay.blp:98
+#: src/play-help-overlay.blp:108
 msgid "Navigation"
 msgstr "Navigering"
 
-#: src/play-help-overlay.blp:101
+#: src/play-help-overlay.blp:111
 msgid "Go Back to Previous View"
 msgstr "Gå bakåt till föregående vy"
 
-#: src/play-help-overlay.blp:106
+#: src/play-help-overlay.blp:116
 msgid "Go to Home Page"
 msgstr "Gå till startsida"
 
-#: src/play-help-overlay.blp:111
+#: src/play-help-overlay.blp:121
 msgid "Open Puzzle From File"
 msgstr "Öppna korsord från fil"
 
-#: src/play-help-overlay.blp:116
+#: src/play-help-overlay.blp:126
 msgid "Quit Game"
 msgstr "Avsluta spel"
 
-#: src/play-hints-dialog.blp:50
+#: src/play-hints-dialog.blp:51
 msgid "Crossword Basics"
 msgstr "Korsordsgrunder"
 
-#: src/play-hints-dialog.blp:51
+#: src/play-hints-dialog.blp:52
+#| msgid ""
+#| "Fill the grid with answers. Press <b>Enter</b> to toggle the cursor "
+#| "direction between Across and Down."
 msgid ""
-"Fill the grid with answers. Press <b>Enter</b> to toggle the cursor "
-"direction between Across and Down."
+"Fill the grid with answers. Press <b>Return</b> key to toggle the cursor "
+"direction between Across and Down. Move around with <b>arrows</b> and "
+"<b>Tab</b> / <b>Shift+Tab</b>."
 msgstr ""
-"Fyll rutnätet med svar. Tryck <b>Retur</b> för att växla pilriktningen "
-"mellan Vågrätt och Lodrätt."
+"Fyll rutnätet med svar. Tryck på tangenten <b>Retur</b> för att växla "
+"markörens riktning mellan vågrätt och lodrätt. Flytta runt med "
+"<b>piltangenterna</b> och <b>Tab</b> / <b>Shift+Tab</b>."
 
-#: src/play-hints-dialog.blp:74
+#: src/play-hints-dialog.blp:75
 msgid "Feeling Stuck?"
 msgstr "Fastnat?"
 
-#: src/play-hints-dialog.blp:75
+#: src/play-hints-dialog.blp:76
+#| msgid ""
+#| "Use <b>Ctrl+H</b> for a hint or <b>Ctrl+S</b> to highlight errors. Your "
+#| "conscience decides how often to use them!"
 msgid ""
-"Use <b>Ctrl+H</b> for a hint or <b>Ctrl+S</b> to highlight errors. Your "
+"Use <b>Ctrl+H</b> for a hint or <b>Ctrl+E</b> to highlight errors. Your "
 "conscience decides how often to use them!"
 msgstr ""
-"Använd <b>Ctrl+H</b> för ett tips eller <b>Ctrl+S</b> för att markera fel. "
-"Ditt samvete bestämmer hur ofta du använder dem!"
+"Använd <b>Ctrl+H</b> för ett tips eller <b>Ctrl+E</b> för att markera fel. "
+"Ditt samvete avgör hur ofta du använder dem!"
 
-#: src/play-hints-dialog.blp:98
+#: src/play-hints-dialog.blp:99
 msgid "Mistakes Happen"
 msgstr "Misstag inträffar"
 
-#: src/play-hints-dialog.blp:99
+#: src/play-hints-dialog.blp:100
+#| msgid ""
+#| "Did you type the wrong letter? <b>Undo</b> or <b>Redo</b> with a click, or "
+#| "use <b>Ctrl+Z</b> and <b>Ctrl+Y</b>."
 msgid ""
 "Did you type the wrong letter? <b>Undo</b> or <b>Redo</b> with a click, or "
-"use <b>Ctrl+Z</b> and <b>Ctrl+Y</b>."
+"use <b>Ctrl+Z</b> and <b>Ctrl+Shift+Z</b>."
 msgstr ""
 "Skrev du fel bokstav? <b>Ångra</b> eller <b>Gör om</b> med ett klick, eller "
-"använd <b>Ctrl+Z</b> och <b>Ctrl+Y</b>."
+"använd <b>Ctrl+Z</b> och <b>Ctrl+Shift+Z</b>."
 
-#: src/play-hints-dialog.blp:122
+#: src/play-hints-dialog.blp:123
 msgid "Rebus Factor"
 msgstr "Rebusfaktor"
 
-#: src/play-hints-dialog.blp:123
+#: src/play-hints-dialog.blp:124
+#| msgid ""
+#| "<b><i>\"Rebus\"</i></b> puzzles are sneaky — some cells may need multiple "
+#| "letters. These puzzles do not warn you in advance, so you have to figure it "
+#| "out! Press <b>Ctrl+I</b> to enter a multi-letter answer."
 msgid ""
-"<b><i>\"Rebus\"</i></b> puzzles are sneaky — some cells may need multiple "
+"<b><i>“Rebus”</i></b> puzzles are sneaky — some cells may need multiple "
 "letters. These puzzles do not warn you in advance, so you have to figure it "
-"out! Press <b>Ctrl+I</b> to enter a multi-letter answer."
+"out! Press <b>Alt+Return</b> to enter a <b>multi-letter</b> answer."
 msgstr ""
-"<b><i>”Rebus”</i></b>-korsord är luriga — vissa rutor kan behöva flera "
-"bokstäver. Dessa pussel varnar dig inte i förväg, så du måste räkna ut det "
-"själv! Tryck <b>Ctrl+I</b> för att mata in ett svar med flera bokstäver."
+"<b><i>Rebuskorsord</i></b> är kluriga — vissa rutor kan innehålla flera "
+"bokstäver. De här korsorden talar inte om det i förväg, så du får lista ut "
+"det själv! Tryck på <b>Alt+Return</b> för att ange ett svar med <b>flera "
+"bokstäver</b>."
 
-#: src/play-hints-dialog.blp:146
+#: src/play-hints-dialog.blp:147
 msgid "Grid the Wrong Size?"
 msgstr "Har rutnätet fel storlek?"
 
-#: src/play-hints-dialog.blp:147
+#: src/play-hints-dialog.blp:148
 msgid ""
 "Use <b>Ctrl+Minus (-)</b> to zoom out, <b>Ctrl+Plus (+)</b> to zoom in. "
-"<b>Ctrl+0</b> will return to the default size. Use <b>Ctrl+M</b> (or <b>Long "
-"Press</b>) for a magnifier."
+"<b>Ctrl+0</b> will return to the default size. Use <b>Ctrl+M</b> (or <b>Long"
+" Press</b>) for a magnifier."
 msgstr ""
 "Använd <b>Ctrl+Minus (-)</b> för att zooma ut, <b>Ctrl+Plus (+)</b> för att "
-"zooma in. <b>Ctrl+0</b> återvänder till standardstorleken. Använd <b>Ctrl+M</"
-"b> (eller <b>långt tryck</b>) för en förstorare."
+"zooma in. <b>Ctrl+0</b> återvänder till standardstorleken. Använd "
+"<b>Ctrl+M</b> (eller <b>långt tryck</b>) för en förstorare."
 
-#: src/play-hints-dialog.blp:170
+#: src/play-hints-dialog.blp:171
 msgid "Pen or Pencil"
 msgstr "Penna"
 
-#: src/play-hints-dialog.blp:171
+#: src/play-hints-dialog.blp:172
+#| msgid ""
+#| "Prefer the classic feel? You can print any crossword by pressing "
+#| "<b>Ctrl+P</b> to solve it with pencil and paper."
 msgid ""
-"Prefer the classic feel? You can print any crossword by pressing <b>Ctrl+P</"
-"b> to solve it with pencil and paper."
+"Prefer the classic feel? You can <b>print</b> any crossword by pressing "
+"<b>Ctrl+P</b> to solve it with pencil and paper."
 msgstr ""
-"Föredrar du den klassiska känslan? Du kan skriva ut alla korsord genom att "
-"trycka på <b>Ctrl+P</b> för att lösa det med papper och penna."
+"Föredrar du den klassiska känslan? Du kan <b>skriva ut</b> valfritt korsord "
+"genom att trycka på <b>Ctrl+P</b> och lösa det med penna och papper."
 
-#: src/play-hints-dialog.blp:194
+#: src/play-hints-dialog.blp:195
 msgid "Standard vs. Cryptic"
 msgstr "Standard eller kryptiskt"
 
-#: src/play-hints-dialog.blp:195
+#: src/play-hints-dialog.blp:196
+#| msgid ""
+#| "Standard clues are synonyms or definitions. Cryptic clues contain both a "
+#| "definition and some <i>\"wordplay\"</i>. If a clue feels like a riddle, it’s"
+#| " likely a Cryptic!"
 msgid ""
-"Standard clues are synonyms or definitions. Cryptic clues contain both a "
-"definition and some <i>\"wordplay\"</i>. If a clue feels like a riddle, it’s "
-"likely a Cryptic!"
+"<b>Standard clues</b> are synonyms or definitions. <b>Cryptic clues</b> "
+"contain both a definition and some <i>“wordplay”</i>. If a clue feels like a"
+" riddle, it’s likely a Cryptic!"
 msgstr ""
-"Standardledtrådar är synonymer eller definitioner. Kryptiska ledtrådar "
-"innehåller både en definition och någon <i>”ordlek”</i>. Om en ledtråd känns "
-"som att den är en gåta är den mest troligt kryptisk!"
+"<b>Vanliga ledtrådar</b> är synonymer eller definitioner. <b>Kryptiska "
+"ledtrådar</b> innehåller både en definition och någon form av <i>ordlek</i>."
+" Om en ledtråd känns som en gåta är den troligen kryptisk!"
 
-#: src/play-hints-dialog.blp:209
+#: src/play-hints-dialog.blp:210
 msgid "Previous Hint"
 msgstr "Föregående tips"
 
-#: src/play-hints-dialog.blp:222
+#: src/play-hints-dialog.blp:223
 msgid "Next Hint"
 msgstr "Nästa tips"
-
-#: src/play-preferences-dialog.blp:10 src/play-window.blp:271
-#: src/play-window.blp:377
-msgid "_Preferences"
-msgstr "_Inställningar"
 
 #: src/play-preferences-dialog.blp:15
 msgid "Game Behavior"
@@ -2168,7 +2521,7 @@ msgstr "Ändra ledtrådsriktning vid användning av piltangenter"
 msgid "Solved Puzzles"
 msgstr "Lösta korsord"
 
-#: src/play-preferences-dialog.blp:47 src/play-window.blp:290
+#: src/play-preferences-dialog.blp:47 src/play-window.blp:378
 msgid "Hide Solved Puzzles"
 msgstr "Dölj lösta korsord"
 
@@ -2204,145 +2557,221 @@ msgstr "Hämta automatiskt senaste korsord vid uppstart"
 msgid "Welcome to Crosswords!"
 msgstr "Välkommen till Crosswords!"
 
-#: src/play-welcome.blp:54 src/play-window.blp:382
+#: src/play-welcome.blp:54
 msgid "_How to Play"
 msgstr "S_pelets gång"
 
-#: src/play-welcome.blp:82
+#: src/play-welcome.blp:82 src/play-welcome-notes-dialog.blp:24
+#| msgid ""
+#| "You are running crosswords without any additional puzzles. You may want to "
+#| "install more from flathub:"
 msgid ""
-"You are running crosswords without any additional puzzles. You may want to "
-"install more from flathub:"
+"You are running Crosswords without any additional puzzles. You may want to "
+"install more from Flathub:"
 msgstr ""
-"Du kör Crosswords utan några ytterligare korsord. Du kan vilja installera "
-"fler från flathub:"
+"Du kör Crosswords utan extra korsord. Du kan installera fler från Flathub:"
 
-#: src/play-window-actions.c:150
+#: src/play-welcome-notes-dialog.blp:5
+#| msgid "_Notes"
+msgid "Notes"
+msgstr "Anteckningar"
+
+#: src/play-window-actions.c:165
 msgid "Move focus between the main grid and clue grids"
 msgstr "Flytta fokus mellan huvudrutnätet och ledtrådsrutnät"
 
-#: src/play-window-actions.c:153
+#: src/play-window-actions.c:168
 msgid "Change the current clue orientation"
 msgstr "Ändra aktuell ledtråds riktning"
 
-#: src/play-window-actions.c:295
+#: src/play-window-actions.c:310
 msgid "Unable to open containing folder"
 msgstr "Kunde inte öppna innehållande mapp"
 
-#: src/play-window.blp:46
-msgid "Main Menu"
-msgstr "Huvudmeny"
+#. Translators: This is the zoom percent symbol in the main menu
+#. * popover. It should be untranslated, unless your language puts the
+#. * percent before the number.
+#: src/play-window-actions.c:454
+#, c-format
+msgid "%u%%"
+msgstr "%u%%"
 
-#: src/play-window.blp:50 src/play-window.blp:225
-msgid "Menu"
-msgstr "Meny"
+#: src/play-window.blp:13 src/play-window.blp:339
+#| msgid "Toggle _Fullscreen"
+msgid "_Fullscreen"
+msgstr "_Helskärmsläge"
 
-#: src/play-window.blp:110
-msgid "Filter "
-msgstr "Filtrera "
+#: src/play-window.blp:20 src/play-window.blp:346
+#| msgid "Toggle _Fullscreen"
+msgid "Leave _Fullscreen"
+msgstr "Lämna _helskärmsläget"
 
-#: src/play-window.blp:143
-msgid "Add Puzzle Sources"
-msgstr "Lägg till korsordskällor"
-
-#: src/play-window.blp:260 src/play-window.blp:345
-msgid "Toggle _Fullscreen"
-msgstr "Växla _helskärmsläge"
-
-#: src/play-window.blp:265
-msgid "_Open…"
-msgstr "Ö_ppna…"
-
-#: src/play-window.blp:281
-msgid "_About Crosswords"
-msgstr "_Om Crosswords"
-
-#: src/play-window.blp:295
-msgid "Sort"
-msgstr "Sortering"
-
-#: src/play-window.blp:302
-msgid "Completion"
-msgstr "Slutfört"
-
-#: src/play-window.blp:307
-msgid "A-Z"
-msgstr "A-Ö"
-
-#: src/play-window.blp:312
-msgid "Z-A"
-msgstr "Ö-A"
-
-#: src/play-window.blp:322
-msgid "Zoom"
-msgstr "Zoom"
-
-#: src/play-window.blp:325
-msgid "Zoom Out (Ctrl+-)"
-msgstr "Zooma ut (Ctrl+-)"
-
-#: src/play-window.blp:331
-msgid "Reset Zoom"
-msgstr "Återställ zoomnivå"
-
-#: src/play-window.blp:337
-msgid "Zoom In (Ctrl++)"
-msgstr "Zooma in (Ctrl++)"
-
-#: src/play-window.blp:350
+#: src/play-window.blp:27
 msgid "_Print…"
 msgstr "S_kriv ut…"
 
-#: src/play-window.blp:356
+#: src/play-window.blp:33
 msgid "Multi-Letter (_Rebus)"
 msgstr "Multibokstav (_rebus)"
 
-#: src/play-window.blp:361
-msgid "_Reveal Incorrect Guesses"
-msgstr "_Avslöja felaktiga gissningar"
+#: src/play-window.blp:38
+#| msgid "Reversals"
+msgid "Reveal _Errors"
+msgstr "Visa _fel"
 
-#: src/play-window.blp:366
-msgid "_Suggest a Word That Fits"
-msgstr "_Föreslå ett ord som passar"
+#: src/play-window.blp:41
+#| msgid "Solved Puzzles"
+msgid "Whole _Puzzle"
+msgstr "_Hela korsordet"
 
-#: src/play-window.blp:371
+#: src/play-window.blp:46
+#| msgid "Current Filter"
+msgid "Current C_lue"
+msgstr "Aktuell _ledtråd"
+
+#: src/play-window.blp:51
+#| msgid "Current Filter"
+msgid "Current _Cell"
+msgstr "Aktuell _ruta"
+
+#: src/play-window.blp:57
+#| msgid "Show a Hint (Repeatable)"
+msgid "Show a _Hint"
+msgstr "Visa ett _tips"
+
+#: src/play-window.blp:62
 msgid "_Clear Puzzle"
 msgstr "_Rensa korsord"
 
-#: src/play-window.c:666
-#, c-format
-msgid "Couldn't detect the puzzle type for \"%s\"."
-msgstr "Kunde inte avgöra korsordstypen för ”%s”."
+#: src/play-window.blp:68
+#| msgid "_Preferences"
+msgid "Prefere_nces"
+msgstr "_Inställningar"
 
-#: src/play-window.c:668
+#: src/play-window.blp:73
+#| msgid "_How to Play"
+msgid "How to Pla_y"
+msgstr "_Så spelar du"
+
+#: src/play-window.blp:125
+msgid "Main Menu"
+msgstr "Huvudmeny"
+
+#: src/play-window.blp:129 src/play-window.blp:284
+msgid "Menu"
+msgstr "Meny"
+
+#: src/play-window.blp:195
+msgid "Filter "
+msgstr "Filtrera "
+
+#: src/play-window.blp:247
+#| msgid "Filter "
+msgid "Filter"
+msgstr "Filter"
+
+#: src/play-window.blp:308
+msgid "Reset Zoom"
+msgstr "Återställ zoomnivå"
+
+#: src/play-window.blp:353
+msgid "_Open…"
+msgstr "Ö_ppna…"
+
+#: src/play-window.blp:369
+msgid "_About Crosswords"
+msgstr "_Om Crosswords"
+
+#: src/play-window.blp:383
+msgid "Sort"
+msgstr "Sortering"
+
+#: src/play-window.blp:390
+msgid "Completion"
+msgstr "Slutfört"
+
+#: src/play-window.blp:395
+msgid "A-Z"
+msgstr "A-Ö"
+
+#: src/play-window.blp:400
+msgid "Z-A"
+msgstr "Ö-A"
+
+#: src/play-window.c:612
+#| msgid "Custom Puzzle"
+msgid "Couldn't Add Puzzle"
+msgstr "Det gick inte att lägga till korsordet"
+
+#: src/play-window.c:657
+#, c-format
+#| msgid "Couldn't detect the puzzle type for \"%s\"."
+msgid "Couldn't detect the puzzle type for \"%s\""
+msgstr "Det gick inte att identifiera korsordstypen för ”%s”"
+
+#: src/play-window.c:659
 msgid "Unknown Puzzle Format"
 msgstr "Okänt korsordsformat"
 
-#: src/play-xword.c:216
-msgid "_Select Another?"
-msgstr "_Välj ett annat?"
+#: src/play-xword.blp:23
+msgid "Puzzle Information"
+msgstr "Korsordsinformation"
 
-#: src/play-xword.c:220
+#: src/play-xword.blp:102
+#| msgid "Toggle Information Panel  Ctrl-F9"
+msgid "Toggle Direction  Ctrl+T"
+msgstr "Växla riktning  Ctrl+T"
+
+#: src/play-xword.blp:270
+#| msgid "Answers"
+msgid "Answer:"
+msgstr "Svar:"
+
+#: src/play-xword.blp:278 src/play-xword.blp:333
+#| msgid "Previous Page"
+msgid "Previous Clue"
+msgstr "Föregående ledtråd"
+
+#: src/play-xword.blp:286 src/play-xword.blp:341
+#| msgid "Next Page"
+msgid "Next Clue"
+msgstr "Nästa ledtråd"
+
+#: src/play-xword.blp:317 src/play-xword.c:1486
+msgid "_Across"
+msgstr "_Vågrätt"
+
+#: src/play-xword.blp:324 src/play-xword.c:1488
+msgid "_Down"
+msgstr "_Lodrätt"
+
+#. Toasts
+#: src/play-xword.c:278
 msgid "You have filled in the puzzle incorrectly"
 msgstr "Du har fyllt i korsordet felaktigt"
 
-#: src/play-xword.c:221
+#: src/play-xword.c:279
 msgid "_Reveal mistakes?"
 msgstr "_Avslöja misstag?"
 
-#: src/play-xword.c:942 src/play-xword.c:947
-msgid "Congratulations, you solved the puzzle!"
-msgstr "Gratulerar, du löste korsordet!"
+#: src/play-xword.c:1480
+msgid "Across"
+msgstr "Vågrätt"
 
-#: src/play-xword.c:1339 src/play-xword.c:1360
+#: src/play-xword.c:1482
+msgid "Down"
+msgstr "Lodrätt"
+
+#: src/play-xword.c:1955 src/play-xword.c:1976
 msgid "No words found"
 msgstr "Inga ord hittades"
 
-#: src/play-xword.c:1344
+#: src/play-xword.c:1960
 #, c-format
 msgid "Suggestion: %s"
 msgstr "Förslag: %s"
 
-#: src/play-xword.c:1347
+#: src/play-xword.c:1963
 #, c-format
 msgid "Suggestion (%u/%u): %s"
 msgstr "Förslag (%u/%u): %s"
@@ -2381,19 +2810,19 @@ msgstr "_Spara bläck"
 msgid "_Large Print"
 msgstr "S_tort tryck"
 
-#: src/print-preview-dialog.blp:103
+#: src/print-preview-dialog.blp:102
 msgid "Previous Page"
 msgstr "Föregående sida"
 
-#: src/print-preview-dialog.blp:112
+#: src/print-preview-dialog.blp:111
 msgid "Next Page"
 msgstr "Nästa sida"
 
-#: src/print-puzzle.c:284
+#: src/print-puzzle.c:283
 msgid "Print Puzzle"
 msgstr "Skriv ut korsord"
 
-#: src/print-puzzle.c:285
+#: src/print-puzzle.c:284
 msgid "Continue…"
 msgstr "Fortsätt…"
 
@@ -2405,113 +2834,317 @@ msgstr "_Hämta"
 msgid "Enter a URL"
 msgstr "Ange en URL"
 
-#: src/puzzle-downloader.c:250
+#: src/puzzle-downloader.c:251
 msgid "Cancel downloading the puzzle"
 msgstr "Avbryt hämtning av korsordet"
 
-#: src/puzzle-downloader.c:310
+#: src/puzzle-downloader.c:311
 msgid "Problem Downloading Puzzle"
 msgstr "Problem vid hämtning av korsordet"
 
-#: src/puzzle-downloader.c:339
-msgid "Downloaded file is not a valid crossword."
-msgstr "Hämtad fil är inte ett giltigt korsord."
+#: src/puzzle-downloader.c:340
+#| msgid "Downloaded file is not a valid crossword."
+msgid "Downloaded file is not a valid crossword"
+msgstr "Den hämtade filen är inte ett giltigt korsord"
 
-#: src/puzzle-downloader.c:476
+#: src/puzzle-downloader.c:477
 #, c-format
-msgid "Unable to download a puzzle from \"%s.\""
-msgstr "Kunde inte hämta ett korsord från ”%s.”"
+#| msgid "Unable to download a puzzle from \"%s.\""
+msgid "Unable to download a puzzle from \"%s\""
+msgstr "Det gick inte att hämta ett korsord från ”%s”"
 
-#: src/puzzle-downloader.c:797
+#: src/puzzle-downloader.c:826
 msgid "All Puzzles"
 msgstr "Alla korsord"
 
-#: src/puzzle-downloader.c:813
+#: src/puzzle-downloader.c:842
 msgid "AcrossLite Puzzles (.puz)"
 msgstr "AcrossLite-korsord (.puz)"
 
-#: src/puzzle-downloader.c:818
+#: src/puzzle-downloader.c:847
 msgid "Puzzle Solver Puzzles (.jpuz)"
 msgstr "Puzzle Solver-korsord (.jpuz)"
 
-#: src/puzzle-downloader.c:824
+#: src/puzzle-downloader.c:853
 msgid "XD Puzzles (.xd)"
 msgstr "XD-korsord (.xd)"
 
-#: src/puzzle-info-dialog.blp:23
+#: src/puzzle-info-dialog.blp:6
+msgid "Puzzle Details"
+msgstr "Korsordsdetaljer"
+
+#: src/puzzle-info-dialog.blp:24
 msgid "Title"
 msgstr "Titel"
 
-#: src/puzzle-info-dialog.blp:38
+#: src/puzzle-info-dialog.blp:26 src/puzzle-info-dialog.blp:42
+#: src/puzzle-info-dialog.blp:59 src/puzzle-info-dialog.blp:76
+#: src/puzzle-info-dialog.blp:93 src/puzzle-info-dialog.blp:110
+#: src/puzzle-info-dialog.blp:128 src/puzzle-info-dialog.blp:145
+#: src/puzzle-info-dialog.blp:162
+#| msgid "Copy Grid to Clipboard"
+msgid "Copy to clipboard"
+msgstr "Kopiera till urklipp"
+
+#: src/puzzle-info-dialog.blp:40
 msgid "Difficulty"
 msgstr "Svårighetsgrad"
 
-#: src/puzzle-info-dialog.blp:54
+#: src/puzzle-info-dialog.blp:57
 msgid "Author"
 msgstr "Författare"
 
-#: src/puzzle-info-dialog.blp:70
+#: src/puzzle-info-dialog.blp:74
 msgid "Editor"
 msgstr "Redaktör"
 
-#: src/puzzle-info-dialog.blp:86
+#: src/puzzle-info-dialog.blp:91
 msgid "Publisher"
 msgstr "Publicist"
 
-#: src/puzzle-info-dialog.blp:102
+#: src/puzzle-info-dialog.blp:108
 msgid "Publication"
 msgstr "Tidning"
 
-#: src/puzzle-info-dialog.blp:119
+#: src/puzzle-info-dialog.blp:126
 msgid "Origin"
 msgstr "Ursprung"
 
-#: src/puzzle-info-dialog.blp:151
+#: src/puzzle-info-dialog.blp:160
 msgid "Copyright"
 msgstr "Upphovsrätt"
 
-#: src/puzzle-info-dialog.blp:168
+#: src/puzzle-info-dialog.blp:178
 msgid "Link"
 msgstr "Länk"
 
-#: src/puzzle-info-dialog.blp:200
+#: src/puzzle-info-dialog.blp:210
 msgid "Location"
 msgstr "Plats"
 
-#: src/puzzle-info-dialog.blp:204
+#: src/puzzle-info-dialog.blp:214
 msgid "Open in File Manager"
 msgstr "Öppna i filhanterare"
 
-#: src/puzzle-info-dialog.blp:223
+#: src/puzzle-info-dialog.blp:234
 msgid "No Puzzle Metadata"
 msgstr "Inga korsordsmetadata"
 
-#: src/puzzle-picker.c:250
+#: src/puzzle-info-dialog.c:77
+#| msgid "Copy Grid to Clipboard"
+msgid "Copied to clipboard"
+msgstr "Kopierat till urklipp"
+
+#. translator: "# " starts a heading, a blank line starts a paragraph,
+#. * and the "**bold**" / "*italic*" markers must stay in balanced
+#. * pairs.
+#: src/puzzle-info-text.h:32
+msgid ""
+"An **Acrostic** is a quote-based word puzzle.\n"
+"\n"
+"Acrostics consists of two parts: a grid containing a **Quote**, and a list of clues with answers. Each cell in the grid has a label and corresponds to one of the cells in an answer. The puzzle can be solved by a combination of guessing words in the quote and solving the clues.\n"
+"\n"
+"# Quote\n"
+"The quote is hidden in the grid and its letters are what every answer is spelled from.\n"
+"\n"
+"# Author / Title\n"
+"The first letter of each answer will typically spell out the **Author** and/or **Title** of the work the quote came from. It can only use letters that appear in the quote itself."
+msgstr ""
+"Ett **akrostikonkorsord** är ett ordpussel som bygger på ett citat.\n"
+"\n"
+"Ett akrostikonkorsord består av två delar: ett rutnät med ett **citat** och en lista med ledtrådar och svar. Varje ruta i rutnätet har en beteckning och motsvarar en ruta i ett svar. Korsordet löses genom att gissa orden i citatet och lösa ledtrådarna.\n"
+"\n"
+"# Citat\n"
+"Citatet är dolt i rutnätet och dess bokstäver bildar underlaget för alla svar.\n"
+"\n"
+"# Upphovsperson / titel\n"
+"Första bokstaven i varje svar bildar vanligtvis **upphovspersonens** namn och/eller verkets **titel**. Svaren får bara innehålla bokstäver som förekommer i själva citatet."
+
+#. translator: "# " starts a heading, a blank line starts a paragraph,
+#. * and the "**bold**" / "*italic*" markers must stay in balanced
+#. * pairs.
+#: src/puzzle-info-text.h:53
+msgid ""
+"A **Barred crossword** uses thick bars along the edges of cells to mark where words end. Every square in the grid holds a letter, and most belong to both an across and a down clue. Grids normally show quarter symmetry, though there are many variants.\n"
+"\n"
+"# Filling the Grid\n"
+"With no blocks to break up the grid, a barred crossword is more tightly constrained than other forms. Filling these puzzles often require obscure words. As a result, they are among the hardest puzzles to set — and to solve.\n"
+"\n"
+"# Clues and Preamble\n"
+"Barred puzzles usually take **Cryptic-style** clues, where each clue combines a definition with some wordplay leading to the same answer. They sometimes feature a **Preamble** setting out a rule the solver must apply, such as omitting a letter from every answer before entering it."
+msgstr ""
+"Ett **korsord med stoppar** har tjocka streck längs rutornas kanter som markerar var orden slutar. Varje ruta innehåller en bokstav, och de flesta ingår i både ett vågrätt och ett lodrätt svar. Rutnäten är vanligen kvartssymmetriska, men det finns många varianter.\n"
+"\n"
+"# Fyll i rutnätet\n"
+"Eftersom rutnätet saknar svarta rutor har korsord med stoppar fler begränsningar än andra typer. Det krävs ofta ovanliga ord för att fylla i rutorna. Därför hör de till de svåraste korsorden att konstruera — och lösa.\n"
+"\n"
+"# Ledtrådar och förtext\n"
+"I korsord med stoppar används vanligen **kryptiska** ledtrådar, där varje ledtråd kombinerar en definition och en ordlek som leder till samma svar. Ibland innehåller de en **förtext** med en regel som lösaren ska följa, till exempel att utelämna en bokstav i varje svar innan det skrivs in."
+
+#. translator: "# " starts a heading, a blank line starts a paragraph,
+#. * and the "**bold**" / "*italic*" markers must stay in balanced
+#. * pairs.
+#: src/puzzle-info-text.h:75
+msgid ""
+"This section holds text fields visible to users. Every field here is\n"
+"optional. A few clarifications:\n"
+"\n"
+"# Introduction\n"
+"This is shown above the grid. It shows a message from the setter, or\n"
+"perhaps a little bit of context. It's generally short.\n"
+"\n"
+"# Notes\n"
+"A longer free-form field. Visually it appears just below the grid. This\n"
+"is where longer instructions are spelled out for a themed or variant\n"
+"puzzle.\n"
+"\n"
+"# Difficulty\n"
+"This is advisory and free-form. Suggested values are words like\n"
+"*\"Easy\"*, *\"Medium\"*, or *\"Difficult\"*.\n"
+"\n"
+"# Explanation\n"
+"A brief message presented to the user after they solve the puzzle. It is\n"
+"intended to give context on the solution."
+msgstr ""
+"Det här avsnittet innehåller textfält som visas för användarna. Alla fält är\n"
+"valfria. Här följer några förtydliganden:\n"
+"\n"
+"# Introduktion\n"
+"Visas ovanför rutnätet. Här visas ett meddelande från konstruktören eller\n"
+"lite bakgrundsinformation. Texten är vanligtvis kort.\n"
+"\n"
+"# Anteckningar\n"
+"Ett längre fritextfält. Det visas direkt under rutnätet. Här anges\n"
+"längre instruktioner för ett temakorsord eller en variant av ett\n"
+"korsord.\n"
+"\n"
+"# Svårighetsgrad\n"
+"Detta är vägledande fritext. Exempel på värden är\n"
+"*”Lätt”*, *”Medel”* eller *”Svår”*.\n"
+"\n"
+"# Förklaring\n"
+"Ett kort meddelande som visas för användaren efter att korsordet är\n"
+"löst. Det ger bakgrund till lösningen."
+
+#. translator: "# " starts a heading, a blank line starts a paragraph,
+#. * and the "**bold**" / "*italic*" markers must stay in balanced
+#. * pairs.
+#: src/puzzle-info-text.h:99
+msgid ""
+"These settings describe the conventions a solver should expect.\n"
+"\n"
+"# Show Enumerations\n"
+"**Enumerations** are a hint about the length of the answer after the\n"
+"clue, such as *(3,4)* for a two-word answer. They are common in\n"
+"British-style and Cryptic puzzles.\n"
+"\n"
+"# Country and Language\n"
+"These fields records the **country** the puzzle is associated\n"
+"with and the **language** it is written in. Together, they determine\n"
+"the alphabet for the puzzle, and valid letters to be entered in the\n"
+"grid."
+msgstr ""
+"De här inställningarna beskriver vilka konventioner lösaren kan förvänta sig.\n"
+"\n"
+"# Visa längdangivelser\n"
+"**Längdangivelser** ger en ledtråd om svarets längd efter\n"
+"ledtråden, till exempel *(3,4)* för ett svar med två ord. De är vanliga i\n"
+"brittiska och kryptiska korsord.\n"
+"\n"
+"# Land och språk\n"
+"Dessa fält anger vilket **land** korsordet hör till\n"
+"och vilket **språk** det är skrivet på. Tillsammans avgör de\n"
+"vilket alfabet som används i korsordet och vilka bokstäver som får\n"
+"fyllas i rutnätet."
+
+#. translator: "# " starts a heading, a blank line starts a paragraph,
+#. * and the "**bold**" / "*italic*" markers must stay in balanced
+#. * pairs.
+#: src/puzzle-info-text.h:116
+msgid ""
+"This section records who made the puzzle and where it appeared.\n"
+"Every field here is optional.\n"
+"\n"
+"# Credits\n"
+"**Author** is whoever created the puzzle and **Editor** whoever\n"
+"edited it for publication. **Copyright** is a short notice, such\n"
+"as *\"© 2026 Example, Inc\"*.\n"
+"\n"
+"# Publication\n"
+"**Publisher** names who published the puzzle, while\n"
+"**Publication** is a fuller bibliographic reference to where it\n"
+"appeared. **Date** is the date of publication. **Puzzle URL**\n"
+"should be a permanent link."
+msgstr ""
+"Det här avsnittet anger vem som har skapat korsordet och var det har publicerats.\n"
+"Alla fält är valfria.\n"
+"\n"
+"# Upphovsuppgifter\n"
+"**Upphovspersonen** är den som har skapat korsordet och **redaktören** den som\n"
+"har redigerat det inför publicering. **Upphovsrättsnotisen** är en kort text,\n"
+"till exempel *”© 2026 Exempel AB”*.\n"
+"\n"
+"# Publicering\n"
+"**Utgivaren** anger vem som har publicerat korsordet, medan\n"
+"**publikationsuppgiften** är en fullständig bibliografisk referens till var\n"
+"det publicerades. **Datum** är publiceringsdatumet. **Korsordets URL**\n"
+"ska vara en permanent länk."
+
+#: src/puzzle-picker.c:375
 msgid "_View"
 msgstr "_Visa"
 
 # TODO: ngettext?
-#: src/puzzle-set-action-row.c:175 src/puzzle-set-item.c:168
+#: src/puzzle-set-item.c:170
 #, c-format
 msgid "%d Unplayed"
 msgstr "%d ospelade"
 
-#: src/puzzle-set-action-row.c:180 src/puzzle-set-item.c:173
+#: src/puzzle-set-item.c:175
 #, c-format
 msgid "Complete"
 msgstr "Slutfört"
 
+#: src/puzzle-set-list.c:39
+#| msgid "_Acrostic"
+msgid "Acrostics"
+msgstr "Akrostikoner"
+
+#: src/puzzle-set-list.c:40
+#| msgid "_Arrowword"
+msgid "Arrowwords"
+msgstr "Pilord"
+
+#: src/puzzle-set-list.c:41
+#| msgid "Barred Crossword"
+msgid "Barred Crosswords"
+msgstr "Korsord med stoppar"
+
+#: src/puzzle-set-list.c:43
+msgid "Cryptic Crosswords"
+msgstr "Kryptiska korsord"
+
+# TODO: Spelling in English?
+#: src/puzzle-set-list.c:44
+msgid "Filippine"
+msgstr "Filippinskt"
+
+#: src/puzzle-set-list.c:45
+msgid "Vocab"
+msgstr "Ordförråd"
+
 #. We should always have the "uri" puzzle-set at a minimum, and
 #. * we won't work without it. This implies a broken
 #. * installation. Erroring out.
-#: src/puzzle-set-list.c:459
+#: src/puzzle-set-list.c:576
 msgid ""
-"No puzzle sets were found. Use $PUZZLE_SET_PATH to set a directory to search."
+"No puzzle sets were found. Use $PUZZLE_SET_PATH to set a directory to "
+"search."
 msgstr ""
 "Inga korsordsuppsättningar hittades. Använd $PUZZLE_SET_PATH för att ställa "
 "in en katalog att söka."
 
-#: src/puzzle-set-list.c:460
+#: src/puzzle-set-list.c:577
 msgid ""
 "When running out of a local build, use the `run` script to set the "
 "environment correctly."
@@ -2519,7 +3152,7 @@ msgstr ""
 "Vid körning från ett lokalt bygge, använd ”run”-skriptet för att ställa in "
 "miljön korrekt."
 
-#: src/puzzle-set-model.c:594
+#: src/puzzle-set-model.c:629
 #, c-format
 msgid ""
 "Puzzle %s couldn't be loaded.\n"
@@ -2528,22 +3161,22 @@ msgstr ""
 "Korsordet %s kunde inte läsas in.\n"
 "<i>Fel: %s</i>"
 
-#: src/puzzle-set-model.c:597
+#: src/puzzle-set-model.c:632
 #, c-format
 msgid "Puzzle %s couldn't be loaded."
 msgstr "Korsordet %s kunde inte läsas in."
 
-#: src/puzzle-set-model.c:607
+#: src/puzzle-set-model.c:642
 #, c-format
 msgid "Puzzle set %s contains invalid puzzle files."
 msgstr "Korsordsuppsättningen %s innehåller ogiltiga korsordsfiler."
 
-#: src/puzzle-set-model.c:610
+#: src/puzzle-set-model.c:645
 #, c-format
 msgid "Multiple files couldn't be loaded. Cleaning them up."
 msgstr "Flera filer kunde inte läsas in. Rensar dem."
 
-#: src/puzzle-set-model.c:614
+#: src/puzzle-set-model.c:649
 #, c-format
 msgid ""
 "Puzzle set %s contains invalid puzzle files and some files couldn't be "
@@ -2551,11 +3184,6 @@ msgid ""
 msgstr ""
 "Korsordsuppsättningen %s innehåller ogiltiga korsordsfiler och vissa filer "
 "kunde inte läsas in. Rensar dem."
-
-#: src/puzzle-set.c:320
-#, c-format
-msgid "Problem loading puzzle: %s"
-msgstr "Problem vid inläsning av korsord: %s"
 
 #: src/skip-list-model.c:506
 #, c-format
@@ -2570,7 +3198,8 @@ msgstr "Filen %s är inte giltig UTF-8."
 #: src/skip-list-model.c:580
 #, c-format
 msgid "This skip list is too long. It has been limited to %'u words."
-msgstr "Denna överhoppningslista är för lång. Den har begränsats till %'u ord."
+msgstr ""
+"Denna överhoppningslista är för lång. Den har begränsats till %'u ord."
 
 #: src/xwd-admonition.c:179
 msgid "Note"
@@ -2601,17 +3230,130 @@ msgstr "Knep"
 msgid "Deprecation"
 msgstr "Föråldring"
 
-#~ msgid "_Unfillable Clues"
+#: src/xwd-info-button.blp:8
+#| msgid "Grid Information"
+msgid "More Information"
+msgstr "Mer information"
+
+#: src/xwd-rich-text-row.blp:85
+msgid "Bold"
+msgstr "Fetstil"
+
+#: src/xwd-rich-text-row.blp:93
+msgid "Italic"
+msgstr "Kursiv"
+
+#: src/xwd-rich-text-row.blp:101
+#| msgid "Inline"
+msgid "Underline"
+msgstr "Understruken"
+
+#: src/xwd-rich-text-row.blp:109
+msgid "Strikethrough"
+msgstr "Genomstrykning"
+
+#: src/xwd-rich-text-row.blp:120
+#| msgid "_Large"
+msgid "Larger"
+msgstr "Större"
+
+#: src/xwd-rich-text-row.blp:131
+#| msgid "_Small"
+msgid "Smaller"
+msgstr "Mindre"
+
+#: src/xwd-rich-text-row.blp:139
+msgid "Superscript"
+msgstr "Upphöjd"
+
+#: src/xwd-rich-text-row.blp:147
+msgid "Subscript"
+msgstr "Nedsänkt"
+
+#~ msgid "Supports multiple crossword types, including barred and cryptics"
+#~ msgstr ""
+#~ "Stöder flera korsordstyper, inklusive korsord med stoppar och kryptiska "
+#~ "korsord"
+
+#~ msgid "Dark mode"
+#~ msgstr "Mörkt läge"
+
+#, c-format
+#~ msgid "AcrosticGenerator error: %s\n"
+#~ msgstr "AcrosticGenerator-fel: %s\n"
+
+#~ msgid "Select All"
+#~ msgstr "Markera allt"
+
+#~ msgid "<b>Type:</b>"
+#~ msgstr "<b>Typ:</b>"
+
+#~ msgid "Automatically advance to _next clue"
+#~ msgstr "Fortsätt automatiskt till _nästa ledtråd"
+
+#~ msgid "Acrostic Crossword"
+#~ msgstr "Akrostikonkorsord"
+
+#~ msgid "_Title"
+#~ msgstr "_Titel"
+
+#~ msgid "Details"
+#~ msgstr "Detaljer"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>Completion:</b>"
+#~ msgstr "<b>Slutfört:</b>"
+
+#~ msgid "_Date"
+#~ msgstr "_Datum"
+
+#~ msgid "_Unfilable Clues"
 #~ msgstr "_Ej ifyllbara ledtrådar"
 
-#~ msgid "Grid Information"
-#~ msgstr "Rutnätsinformation"
+#~ msgid "Main Page"
+#~ msgstr "Huvudsida"
+
+#~ msgid "Show Sources In All _Languages"
+#~ msgstr "Visa källor på alla _språk"
+
+#~ msgid "Add Source"
+#~ msgstr "Lägg till källa"
+
+#~ msgid "Arrowword Puzzles"
+#~ msgstr "Korsord med pilar"
+
+#~ msgid "Barred Puzzles"
+#~ msgstr "Korsord med stoppar"
+
+#~ msgid "Zoom"
+#~ msgstr "Zoom"
+
+#~ msgid "Zoom Out (Ctrl+-)"
+#~ msgstr "Zooma ut (Ctrl+-)"
+
+#~ msgid "Zoom In (Ctrl++)"
+#~ msgstr "Zooma in (Ctrl++)"
+
+#~ msgid "_Reveal Incorrect Guesses"
+#~ msgstr "_Avslöja felaktiga gissningar"
+
+#~ msgid "_Suggest a Word That Fits"
+#~ msgstr "_Föreslå ett ord som passar"
+
+#~ msgid "_Select Another?"
+#~ msgstr "_Välj ett annat?"
+
+#~ msgid "Congratulations, you solved the puzzle!"
+#~ msgstr "Gratulerar, du löste korsordet!"
+
+#, c-format
+#~ msgid "Problem loading puzzle: %s"
+#~ msgstr "Problem vid inläsning av korsord: %s"
 
 #~ msgid "New window"
 #~ msgstr "Nytt fönster"
-
-#~ msgid "Go to the next clue"
-#~ msgstr "Gå till nästa ledtråd"
 
 #~ msgid "Go to the previous clue"
 #~ msgstr "Gå till föregående ledtråd"
@@ -2627,9 +3369,6 @@ msgstr "Föråldring"
 
 #~ msgid "Wordplay _Hints"
 #~ msgstr "Ordleks_tips"
-
-#~ msgid "Hints for writing clues"
-#~ msgstr "Tips för att skriva ledtrådar"
 
 #, c-format
 #~ msgid "%s • <b>Complete</b>"
@@ -2655,9 +3394,6 @@ msgstr "Föråldring"
 #~ msgid "Publisher: "
 #~ msgstr "Publicist: "
 
-#~ msgid "Publication: "
-#~ msgstr "Tidning: "
-
 #~ msgid "Date: "
 #~ msgstr "Datum: "
 
@@ -2666,12 +3402,6 @@ msgstr "Föråldring"
 
 #~ msgid "_Extra Small"
 #~ msgstr "_Extra liten"
-
-#~ msgid "_Small"
-#~ msgstr "_Liten"
-
-#~ msgid "_Large"
-#~ msgstr "_Stor"
 
 #~ msgid "E_xtra Large"
 #~ msgstr "E_xtra stor"
@@ -2738,12 +3468,6 @@ msgstr "Föråldring"
 #~ msgid "Sidebar"
 #~ msgstr "Sidopanel"
 
-#~ msgid "Across"
-#~ msgstr "Vågrätt"
-
-#~ msgid "Down"
-#~ msgstr "Lodrätt"
-
 #, c-format
 #~ msgid "Try ”%s --help” for more information."
 #~ msgstr "Testa ”%s --help” för mer information."
@@ -2753,15 +3477,6 @@ msgstr "Föråldring"
 
 #~ msgid "Add More Puzzles"
 #~ msgstr "Lägg till fler korsord"
-
-#~ msgid "Custom Puzzle"
-#~ msgstr "Anpassat korsord"
-
-#~ msgid "Load a crossword from disk"
-#~ msgstr "Läs in ett korsord från disk"
-
-#~ msgid "Select a puzzle to play"
-#~ msgstr "Välj ett korsord att lösa"
 
 #~ msgid "Previously played puzzles:"
 #~ msgstr "Tidigare lösta korsord:"

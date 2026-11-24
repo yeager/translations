@@ -13,6 +13,7 @@
 
 ## Korrigering av kommandoradsmetavariabler (2026-11-24)
 
-- 7 befintliga strängar korrigerade: beskrivande kommandoradsargument översatta till svenska.
-- Validering: `msgfmt --check`; `l10n-lint`-regeln `metavariable-translation` ger inga kvarvarande träffar i de 295 granskade huvudgrenarnas kataloger.
-- Ändringen är lokal och har inte skickats till GNOME.
+- Ytterligare 2 befintliga strängar rättade: `METAINFO` → `METADATA` i argumentlistan och i feltexten. Tillsammans med de 7 tidigare rättningarna är 9 strängar nu rättade i denna genomgång.
+- Aktuell Damned Lies-status: 1 054 översatta, 6 fuzzy och 3 oöversatta strängar; senaste POT skapades 2026-11-23. Den arkiverade granskningen är äldre än denna POT och modulen kräver därför en fullständig uppdatering innan den kan markeras klar.
+- Validering: `msgfmt --check` godkänd; den uppdaterade `metavariable-translation`-regeln ger 0 träffar på samtliga 307 arkiverade granskade kataloger (107 324 poster).
+- Lokal rättelse, inte skickad till GNOME.
