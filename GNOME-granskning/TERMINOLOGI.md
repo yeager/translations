@@ -96,3 +96,20 @@ listan är stöd, inte en ursäkt för mekanisk ersättning.
 3. Kör filformatkontroll, `l10n-lint` och `hunspell-sv`.
 4. Dokumentera ett avsiktligt identiskt egennamn eller tekniskt undantag i
    modulens `README.md`.
+
+
+## Hjälpmedel och AT-SPI
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| accessible object | tillgängligt objekt | Skriv inte bara *den tillgängliga*; avser AT-SPI-objektet. |
+| accessible role | tillgänglighetsroll | |
+| header / heading | rubrik | Använd inte *huvud* i den här betydelsen. |
+| chart | diagram | |
+| viewport | visningsområde | |
+| combo box | kombinationsruta | |
+| list item | listelement | |
+| popup menu | snabbmeny | |
+| page tab list | lista över sidflikar | |
+| document spreadsheet | kalkylarksdokument | Använd parallellt *presentationsdokument*, *textdokument*, *webbdokument* och *e-postdokument*. |
+| rating (AT-SPI role) | betyg | |
