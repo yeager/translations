@@ -282,6 +282,12 @@ Sortering: ”Last added” vid insamlingen. Livegranskningen gjordes 2026-11-24
 
 **Bedömning:** Ingen ändring föreslås.
 
+## 7056. `component::vicare::exceptions::api_error::message`
+
+**Engelska:** Unable to communicate with the ViCare API
+
+**Befintlig svenska:** Det gick inte att kommunicera med ViCare-API:t.
+
 **Livekontroll:** Det gick inte att kommunicera med ViCare-API:t.
 
 ## 7057. `component::bosch_shc::entity::select::smoke_sensitivity::state::middle`
