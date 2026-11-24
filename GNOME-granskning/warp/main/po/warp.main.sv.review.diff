@@ -1,0 +1,96 @@
+diff --git a/.work-gnome-review/warp-main-po/original.po b/.work-gnome-review/warp-main-po/sv.po
+index 3642eda..2e5d3a3 100644
+--- a/.work-gnome-review/warp-main-po/original.po
++++ b/.work-gnome-review/warp-main-po/sv.po
+@@ -2,14 +2,15 @@
+ # Copyright © 2022-2026 warp's COPYRIGHT HOLDER
+ # This file is distributed under the same license as the warp package.
+ # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2022, 2023, 2024, 2025, 2026.
++# Daniel Nylander <gnome@danielnylander.se>, 2026.
+ #
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: warp main\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/warp/issues\n"
+ "POT-Creation-Date: 2026-03-28 17:57+0000\n"
+-"PO-Revision-Date: 2026-08-16 01:30+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -74,7 +75,7 @@ msgstr "Internet"
+ 
+ #: data/app.drey.Warp.metainfo.xml.in.in:31
+ msgid "end-to-end encrypted"
+-msgstr "totalsträckskrypterat"
++msgstr "krypterad från ände till ände"
+ 
+ #: data/app.drey.Warp.metainfo.xml.in.in:32
+ msgid "e2ee"
+@@ -93,7 +94,7 @@ msgid ""
+ "The best transfer method will be determined using the “Magic Wormhole” "
+ "protocol which includes local network transfer if possible."
+ msgstr ""
+-"Den bästa överföringsmetoden kommer avgöras genom ”Magic Wormhole”-"
++"Den bästa överföringsmetoden avgörs genom ”Magic Wormhole”-"
+ "protokollet som innefattar överföring över det lokala nätverket om möjligt."
+ 
+ #: data/app.drey.Warp.metainfo.xml.in.in:69
+@@ -239,16 +240,16 @@ msgstr "{0} — {1}"
+ #. Translators: Notification when clicking on "Copy Code to Clipboard" button
+ #: src/ui/action_view.rs:255
+ msgid "Copied Code to Clipboard"
+-msgstr "Kopierade kod till urklipp"
++msgstr "Kopierade koden till urklipp"
+ 
+ #. Translators: Notification when clicking on "Copy Link to Clipboard" button
+ #: src/ui/action_view.rs:272
+ msgid "Copied Link to Clipboard"
+-msgstr "Kopierade länk till urklipp"
++msgstr "Kopierade länken till urklipp"
+ 
+ #: src/ui/action_view.rs:287
+ msgid "Copied Error to Clipboard"
+-msgstr "Kopierade fel till urklipp"
++msgstr "Kopierade felet till urklipp"
+ 
+ #: src/ui/action_view.rs:289
+ msgid "No error available"
+@@ -295,7 +296,7 @@ msgid ""
+ "You have entered a custom rendezvous server URL in preferences. Please "
+ "verify the receiver also uses the same rendezvous server."
+ msgstr ""
+-"Du har angivit en anpassad mötesserver-URL i inställningar. Säkerställ att "
++"Du har angett en anpassad mötesserver-URL i inställningarna. Kontrollera att "
+ "mottagaren också använder samma mötesserver."
+ 
+ #: src/ui/action_view.rs:524
+@@ -331,7 +332,7 @@ msgid ""
+ "your Downloads folder."
+ msgstr ""
+ "Motparten vill skicka ”{0}” till dig (Storlek: {1}).\n"
+-"Vill du hämta denna fil? Standardåtgärden kommer spara filen till din "
++"Vill du hämta denna fil? Standardåtgärden sparar filen i din "
+ "hämtningsmapp."
+ 
+ #: src/ui/action_view.rs:589
+@@ -584,7 +585,7 @@ msgstr ""
+ "Att ändra URL för mötesservern måste göras på båda sidorna av överföringen. "
+ "Ange endast en server-URL som du litar på.\n"
+ "\n"
+-"Att lämna dessa fält tomma kommer använda programmets standardvärden:\n"
++"Om fälten lämnas tomma används programmets standardvärden:\n"
+ "Mötesserver: ”{0}”\n"
+ "Transitserver: ”{1}”"
+ 
+@@ -890,7 +891,7 @@ msgid ""
+ "verify the URL is correct and the server is working."
+ msgstr ""
+ "Fel vid anslutning till mötesservern.\n"
+-"Du har angivit en anpassad mötesserver-URL i inställningar. Säkerställ att "
++"Du har angett en anpassad mötesserver-URL i inställningarna. Kontrollera att "
+ "denna URL är rätt och att servern fungerar."
+ 
+ #: src/util/error.rs:251
