@@ -85,3 +85,10 @@
 - Alla 16 Core-sökvägar verifierade; jalusi och shade termer granskade mot device class.
 - Core-TMX validerad: 16 518 poster; exporten har 42 629 språkpar och 32 exkluderade nycklar.
 - Övergripande Core-granskning fortsätter.
+
+## 2026-11-24 – Core 24121–24240
+
+- 17 ändringar sparade och återlästa.
+- Alla nyckelsökvägar och platshållare verifierade; svlang natural gav 10/10 för samtliga strängar.
+- Core-TMX validerad: 16 531 poster; exporten har 42 636 språkpar och 32 exkluderade nycklar.
+- Core-granskningen fortsätter.
