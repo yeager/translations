@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:32 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:33 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -579,7 +579,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [simple-scan](https://l10n.gnome.org/vertimus/simple-scan/gnome-50/po/sv/) | gnome-50 | 220 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [simple-scan](https://l10n.gnome.org/vertimus/simple-scan/gnome-50/help/sv/) | gnome-50 | 111 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [simple-scan](https://l10n.gnome.org/vertimus/simple-scan/master/help/sv/) | master | 111 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [snapshot](https://l10n.gnome.org/vertimus/snapshot/main/po/sv/) | main | 97 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [snapshot](https://l10n.gnome.org/vertimus/snapshot/main/po/sv/) | main | 97 | 0 | 0 | Klar | X | 7 | Klar lokalt (2026-11-24): Hela 97-strängarskatalogen är radgranskad mot senaste POT. Sju befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](snapshot/main/po/snapshot.main.sv.original.po), [granskad](snapshot/main/po/snapshot.main.sv.reviewed.po), [diff](snapshot/main/po/snapshot.main.sv.review.diff), [notering](snapshot/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [social](https://l10n.gnome.org/module/social/) | main | 45 | 0 | 0 | Klar | X | 1 | Klar lokalt (2026-11-24): Hela 45-strängarskatalogen är radgranskad mot senaste POT. En befintlig kvalitetsbrist är rättad; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](social/main/po/social.main.po.sv.original.po), [granskad](social/main/po/social.main.po.sv.reviewed.po), [diff](social/main/po/social.main.po.sv.review.diff), [notering](social/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [solanum](https://l10n.gnome.org/vertimus/solanum/main/po/sv/) | main | 44 | 0 | 0 | Klar | X | 2 | Klar lokalt (2026-11-24): Hela 44-strängarskatalogen är radgranskad mot senaste POT. Två befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](solanum/main/po/solanum.main.po.sv.original.po), [granskad](solanum/main/po/solanum.main.po.sv.reviewed.po), [diff](solanum/main/po/solanum.main.po.sv.review.diff), [notering](solanum/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [solitaire](https://l10n.gnome.org/vertimus/solitaire/main/po/sv/) | main | 144 | 0 | 0 | Klar |  | — | Ej granskad |
