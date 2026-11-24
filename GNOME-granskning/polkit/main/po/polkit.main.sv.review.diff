@@ -1,26 +1,192 @@
---- translations/GNOME-granskning/polkit/main/po/polkit.main.sv.original.po	2026-11-23 17:26:02.765456170 +0100
-+++ translations/GNOME-granskning/polkit/main/po/polkit.main.sv.reviewed.po	2026-11-23 17:26:02.773681621 +0100
+--- translations/GNOME-granskning/polkit/main/po/polkit.main.sv.original.po	2026-11-24 09:22:01.524050120 +0100
++++ translations/GNOME-granskning/polkit/main/po/polkit.main.sv.reviewed.po	2026-11-24 09:22:01.533050110 +0100
 @@ -8,8 +8,8 @@
  "Project-Id-Version: polkit master\n"
  "Report-Msgid-Bugs-To: https://github.com/polkit-org/polkit/issues\n"
  "POT-Creation-Date: 2026-11-23 09:59+0000\n"
 -"PO-Revision-Date: 2023-06-20 21:05+0200\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-23 00:00+0100\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
  "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
  "Language: sv\n"
  "MIME-Version: 1.0\n"
-@@ -154,10 +154,9 @@
+@@ -36,17 +36,17 @@
+ "(user=$(user), user.gecos=$(user.gecos), user.display=$(user.display), "
+ "program=$(program), command_line=$(command_line))"
+ msgstr ""
+-"Autentisering krävs för att köra polkit-exempelprogrammet Frobnicate (user=$"
+-"(user), user.gecos=$(user.gecos), user.display=$(user.display), program=$"
+-"(program), command_line=$(command_line))"
++"Autentisering krävs för att köra polkit-exempelprogrammet Frobnicate "
++"(user=$(user), user.gecos=$(user.gecos), user.display=$(user.display), "
++"program=$(program), command_line=$(command_line))"
+ 
+ #: src/programs/pkaction.c:97
+ msgid "Only output information about ACTION"
+-msgstr "Visa endast information om ÅTGÄRD"
++msgstr "Visa endast information om ACTION"
+ 
+ #: src/programs/pkaction.c:97
+ msgid "ACTION"
+-msgstr "ÅTGÄRD"
++msgstr "ACTION"
+ 
+ #: src/programs/pkaction.c:101
+ msgid "Output detailed action information"
+@@ -58,7 +58,7 @@
+ 
+ #: src/programs/pkaction.c:128
+ msgid "[--action-id ACTION]"
+-msgstr "[--action-id ÅTGÄRD]"
++msgstr "[--action-id ACTION]"
+ 
+ #: src/programs/pkaction.c:129 src/programs/pkttyagent.c:127
+ #, c-format
+@@ -67,7 +67,7 @@
+ "%s home page: <%s>"
+ msgstr ""
+ "Rapportera fel till: %s\n"
+-"Webbplats för %s: <%s>"
++"%s hemsida: <%s>"
+ 
+ #: src/programs/pkaction.c:143 src/programs/pkcheck.c:496
+ #: src/programs/pkttyagent.c:141
+@@ -87,50 +87,36 @@
+ "Application Options:\n"
+ "  -a, --action-id=ACTION             Check authorization to perform ACTION\n"
+ "  -u, --allow-user-interaction       Interact with the user if necessary\n"
+-"  -d, --details=KEY VALUE            Add (KEY, VALUE) to information about "
+-"the action\n"
+-"  --enable-internal-agent            Use an internal authentication agent if "
+-"necessary\n"
+-"  --list-temp                        List temporary authorizations for "
+-"current session\n"
+-"  -p, --process=PID[,START_TIME,UID] Check authorization of specified "
+-"process\n"
+-"  --revoke-temp                      Revoke all temporary authorizations for "
+-"current session\n"
+-"  -s, --system-bus-name=BUS_NAME     Check authorization of owner of "
+-"BUS_NAME\n"
++"  -d, --details=KEY VALUE            Add (KEY, VALUE) to information about the action\n"
++"  --enable-internal-agent            Use an internal authentication agent if necessary\n"
++"  --list-temp                        List temporary authorizations for current session\n"
++"  -p, --process=PID[,START_TIME,UID] Check authorization of specified process\n"
++"  --revoke-temp                      Revoke all temporary authorizations for current session\n"
++"  -s, --system-bus-name=BUS_NAME     Check authorization of owner of BUS_NAME\n"
+ "  --version                          Show version\n"
+ "\n"
+ "Report bugs to: %s\n"
+ "%s home page: <%s>\n"
+ msgstr ""
+ "Användning:\n"
+-"  pkcheck [FLAGGA…]\n"
++"  pkcheck [OPTION...]\n"
+ "\n"
+-"Hjälpflaggor:\n"
+-"  -h, --help                         Visa hjälpflaggor\n"
++"Hjälpalternativ:\n"
++"  -h, --help                         Visa hjälpalternativ\n"
+ "\n"
+-"Programflaggor:\n"
+-"  -a, --action-id=ÅTGÄRD             Kontrollera auktorisering för att "
+-"utföra ÅTGÄRD\n"
+-"  -u, --allow-user-interaction       Interagera med användaren om "
+-"nödvändigt\n"
+-"  -d, --details=NYCKEL VÄRDE           Lägg till (NYCKEL, VÄRDE) till "
+-"information om åtgärden\n"
+-"  --enable-internal-agent            Använd en intern autentiseringsagent om "
+-"nödvändigt\n"
+-"  --list-temp                        Lista tillfälliga auktoriseringar för "
+-"aktuell session\n"
+-"  -p, --process=PID[,STARTTID,UID] Kontrollera auktorisering för angiven "
+-"process\n"
+-"  --revoke-temp                      Återkalla alla tillfälliga "
+-"auktoriseringar för aktuell session\n"
+-"  -s, --system-bus-name=BUSSNAMN     Kontrollera auktorisering för ägare av "
+-"BUSSNAMN\n"
++"Programalternativ:\n"
++"  -a, --action-id=ACTION             Kontrollera behörighet att utföra ACTION\n"
++"  -u, --allow-user-interaction       Interagera med användaren om det behövs\n"
++"  -d, --details=KEY VALUE            Lägg till (KEY, VALUE) i åtgärdsinformationen\n"
++"  --enable-internal-agent            Använd en intern autentiseringsagent om det behövs\n"
++"  --list-temp                        Lista tillfälliga auktoriseringar för aktuell session\n"
++"  -p, --process=PID[,START_TIME,UID] Kontrollera behörighet för den angivna processen\n"
++"  --revoke-temp                      Återkalla alla tillfälliga auktoriseringar för aktuell session\n"
++"  -s, --system-bus-name=BUS_NAME     Kontrollera behörighet för ägaren av BUS_NAME\n"
+ "  --version                          Visa version\n"
+ "\n"
+ "Rapportera fel till: %s\n"
+-"Webbplats för %s: <%s>\n"
++"%s hemsida: <%s>\n"
+ 
+ #: src/programs/pkcheck.c:396 src/programs/pkcheck.c:429
+ #: src/programs/pkcheck.c:441
+@@ -154,15 +140,14 @@
  msgstr "%s: Subjekt ej angivet\n"
  
  #: src/programs/pkcheck.c:531
 -#, fuzzy, c-format
--#| msgid "%s: Subject not specified\n"
 +#, c-format
+ #| msgid "%s: Subject not specified\n"
  msgid "%s: Action ID not specified\n"
 -msgstr "%s: Subjekt ej angivet\n"
 +msgstr "%s: Åtgärds-ID ej angivet\n"
  
  #. Translators: message shown when trying to run a program as root. Do not
  #. * translate the $(program) fragment - it will be expanded to the path
+ #. * of the program e.g.  /bin/bash.
+-#.
+ #: src/programs/pkexec.c:926
+ msgid "Authentication is needed to run `$(cmdline_short)' as the super user"
+ msgstr ""
+@@ -172,13 +157,12 @@
+ #. * Do not translate the $(program) or $(user) fragments - the former will
+ #. * be expanded to the path of the program e.g. "/bin/bash" and the latter
+ #. * to the user e.g. "John Doe (johndoe)" or "johndoe".
+-#.
+ #: src/programs/pkexec.c:936
+ msgid ""
+ "Authentication is needed to run `$(cmdline_short)' as user $(user.display)"
+ msgstr ""
+-"Autentisering krävs för att köra ”$(cmdline_short)” som användaren $"
+-"(user.display)"
++"Autentisering krävs för att köra ”$(cmdline_short)” som användaren "
++"$(user.display)"
+ 
+ #: src/programs/pkttyagent.c:87
+ msgid "Don't replace existing agent if any"
+@@ -186,7 +170,7 @@
+ 
+ #: src/programs/pkttyagent.c:91
+ msgid "Close FD when the agent is registered"
+-msgstr "Stäng FD då agenten registrerats"
++msgstr "Stäng FD när agenten har registrerats"
+ 
+ #: src/programs/pkttyagent.c:91
+ msgid "FD"
+@@ -198,15 +182,15 @@
+ 
+ #: src/programs/pkttyagent.c:96
+ msgid "PID[,START_TIME]"
+-msgstr "PID[,STARTTID]"
++msgstr "PID[,START_TIME]"
+ 
+ #: src/programs/pkttyagent.c:100
+ msgid "Register the agent for the owner of BUS_NAME"
+-msgstr "Registrera agenten för ägaren av BUSSNAMN"
++msgstr "Registrera agenten för ägaren av BUS_NAME"
+ 
+ #: src/programs/pkttyagent.c:100
+ msgid "BUS_NAME"
+-msgstr "BUSSNAMN"
++msgstr "BUS_NAME"
+ 
+ #: src/programs/pkttyagent.c:155
+ #, c-format
+@@ -217,4 +201,4 @@
+ #: src/programs/pkttyagent.c:179
+ #, c-format
+ msgid "%s: Invalid process specifier `%s'\n"
+-msgstr "%s: Ogiltig processbeskrivare ”%s”\n"
++msgstr "%s: Ogiltig processangivelse ”%s”\n"

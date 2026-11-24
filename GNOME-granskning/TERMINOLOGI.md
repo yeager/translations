@@ -59,6 +59,10 @@ listan är stöd, inte en ursäkt för mekanisk ersättning.
 | notification | avisering | |
 | permission | behörighet | |
 | authentication | autentisering | |
+| authorization (polkit) | behörighet | För användarvänd text om att få utföra en åtgärd. |
+| action ID (polkit) | åtgärds-ID | I kommandoradssyntax bevaras metavariabeln ACTION exakt. |
+| subject (polkit) | subjekt | Polkit-objekt som identifierar användare eller process. |
+| process specifier | processangivelse | Används om värdet för --process. |
 | account | konto | |
 | password | lösenord | |
 | network | nätverk | |

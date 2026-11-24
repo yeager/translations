@@ -1,11 +1,12 @@
-# polkit — main — svenska UI
+# polkit — main — po — svenska
 
-- GNOME-status före granskning: 27 översatta, 1 fuzzy, 0 oöversatta.
-- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/polkit/main/po/sv/>
-- Omfattning: samtliga 28 aktiva poster är radgranskade mot POT-filen från 2026-11-23.
-- Granskad rad: `%s: Action ID not specified` → `%s: Åtgärds-ID ej angivet`.
-- Ändringar: 0 nya översättningar, 1 rättad befintlig post samt uppdaterad översättarmetadata.
-- Validering: `msgcmp`, `msgfmt --check`, `l10n-lint` och kontroll av platshållare, radbrytningar och acceleratorer saknar fel. Hunspell-träffarna består enbart av kommandon, variabler och produktnamn.
-- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-23 00:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
-- Slutlig lokal status: 28 översatta, 0 fuzzy, 0 oöversatta.
+- Damned Lies: https://l10n.gnome.org/vertimus/polkit/main/po/sv/
+- POT/PO-källa: https://l10n.gnome.org/POT/polkit.main/polkit.main.pot och https://l10n.gnome.org/POT/polkit.main/polkit.main.sv.po
+- Senaste mall hämtad 2026-11-24; POT: 28 strängar.
+- Upstream vid hämtning: 27 översatta, 1 fuzzy, 0 tomma.
+- Slutlig lokal fil: 28 översatta, 0 fuzzy, 0 tomma.
+- Ändrade aktiva poster: 11 rättelser, inklusive en fuzzy-sträng som hade fått fel översättning.
+- Hela katalogen radgranskades. Rättelserna bevarar kommandoradens metavariabler och justerar fullständiga meningar i pkcheck-hjälpen, inklusive ACTION, KEY, VALUE, PID[,START_TIME,UID] och BUS_NAME.
+- Validering: msgfmt --check godkänd; msgcmp --use-fuzzy matchar senaste POT; l10n-lint --language sv utan fel eller varningar. Egen kontroll av formatplatshållare, radbrytningar, acceleratormarkörer och samtliga kommandotoken godkänd.
+- hunspell-sv kördes. Rimliga undantag: kommandoradsflaggor och metavariabler (--process, START_TIME, BUS_NAME, FD, UID), kod-/formatnamn (Frobnicate, gecos) och giltiga svenska sammansättningar.
+- Original, granskad fil, POT, diff och rapport sparade. Ingenting har skickats till GNOME.
