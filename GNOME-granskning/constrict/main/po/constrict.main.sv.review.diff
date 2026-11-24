@@ -1,0 +1,94 @@
+diff --git a/.work-gnome-review/constrict-main-po/original.po b/.work-gnome-review/constrict-main-po/sv.po
+index 436980b..5830a57 100644
+--- a/.work-gnome-review/constrict-main-po/original.po
++++ b/.work-gnome-review/constrict-main-po/sv.po
+@@ -2,14 +2,15 @@
+ # Copyright © 2026 Constrict's COPYRIGHT HOLDER
+ # This file is distributed under the same license as the Constrict package.
+ # Anders Jonsson <anders.jonsson@norsjovallen.se>,  2026.
++# Daniel Nylander <gnome@danielnylander.se>, 2026.
+ #
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: Constrict main\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Constrict/-/issues\n"
+ "POT-Creation-Date: 2026-10-06 21:28+0000\n"
+-"PO-Revision-Date: 2026-05-05 23:20+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -129,7 +130,7 @@ msgid ""
+ "Limits framerates of compressed videos automatically, or to 30 FPS or 60 FPS."
+ msgstr ""
+ "Begränsar bildfrekvensen för komprimerade videor automatiskt, eller till "
+-"30 eller 60 bilder/s."
++"30 eller 60 bilder/s."
+ 
+ #: data/io.github.wartybix.Constrict.gschema.xml.in:38
+ msgid "Video Codec"
+@@ -437,7 +438,7 @@ msgstr "GPU-kodning"
+ 
+ #: src/preferences_dialog.blp:14
+ msgid "Use the GPU to speed up encoding when available"
+-msgstr "Använd grafikprocessorn för att snabba upp kodning när tillgänglig"
++msgstr "Använd grafikprocessorn för att snabba upp kodning när den är tillgänglig"
+ 
+ #: src/preferences_dialog.blp:19
+ msgid "Exported Video Suffix"
+@@ -467,7 +468,7 @@ msgid ""
+ msgstr ""
+ "Används i filnamn för exporterade videoklipp, mellan basnamnet och "
+ "filändelsen. Om det anpassade suffixet lämnas tomt kommer standardsuffixet "
+-"”{}” användas."
++"”{}” att användas."
+ 
+ #: src/preferences_dialog.py:71
+ msgid "Changes applied"
+@@ -523,7 +524,7 @@ msgstr "Mer information"
+ #: src/sources_row.py:505
+ #, python-brace-format
+ msgid "Video compressed to {size} {unit}."
+-msgstr "Video komprimerad till {size} {unit}."
++msgstr "Videon komprimerades till {size} {unit}."
+ 
+ #. TRANSLATORS: {original_size} and {target_size} represent
+ #. integers. {unit_original} and {unit_target} represent file
+@@ -618,7 +619,7 @@ msgstr "_Tolerans (%)"
+ 
+ #: src/window.blp:262
+ msgid "How far end file sizes can be below target"
+-msgstr "Hur långt slutliga filstorlekar kan vara under målet"
++msgstr "Hur långt under målet de slutliga filstorlekarna kan hamna"
+ 
+ #: src/window.blp:286
+ msgid "Toggle Settings Pane"
+@@ -626,7 +627,7 @@ msgstr "Visa/dölj inställningspanelen"
+ 
+ #: src/window.blp:296
+ msgid "Issues with video sources — fix before compressing"
+-msgstr "Problem med videokällor — fixa innan komprimering"
++msgstr "Problem med videokällor — åtgärda före komprimering"
+ 
+ #: src/window.blp:322
+ msgid "Video Sources"
+@@ -660,7 +661,7 @@ msgid ""
+ "option set."
+ msgstr ""
+ "Videoklipp som komprimerats till låga bithastigheter kan begränsas till {} "
+-"bilder/s, oavsett vad alternativet satts till."
++"bilder/s, oavsett vilket alternativ som valts."
+ 
+ #: src/window.py:243
+ msgid ""
+@@ -740,7 +741,7 @@ msgstr "Stoppa komprimering?"
+ #: src/window.py:556
+ #, python-brace-format
+ msgid "Progress made compressing “{}” will be permanently lost"
+-msgstr "Framsteg gjorda med att komprimera ”{}” kommer förloras permanent"
++msgstr "Komprimeringsförloppet för ”{}” kommer att gå permanent förlorat"
+ 
+ #: src/window.py:562
+ msgid "_Cancel"
