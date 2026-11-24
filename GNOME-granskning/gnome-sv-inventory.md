@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:10 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:12 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -564,7 +564,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [read-it-later](https://l10n.gnome.org/vertimus/read-it-later/master/po/sv/) | master | 70 | 0 | 0 | Klar | X | 3 | Klar lokalt (2026-11-24): Hela 70-strängarskatalogen är radgranskad mot senaste POT. Tre befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](read-it-later/master/po/read-it-later.master.po.sv.original.po), [granskad](read-it-later/master/po/read-it-later.master.po.sv.reviewed.po), [diff](read-it-later/master/po/read-it-later.master.po.sv.review.diff), [notering](read-it-later/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [recipes](https://l10n.gnome.org/module/recipes/) | master | 1101 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [recipes](https://l10n.gnome.org/module/recipes/) | master | 218 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [refine — Tweak various aspects of GNOME](https://l10n.gnome.org/vertimus/refine/main/po/sv/) | main | 85 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [refine — Tweak various aspects of GNOME](https://l10n.gnome.org/vertimus/refine/main/po/sv/) | main | 85 | 0 | 0 | Klar | X | 9 | Klar lokalt (2026-11-24): Hela 85-strängarskatalogen är radgranskad mot senaste POT. Nio befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](refine/main/po/refine.main.sv.original.po), [granskad](refine/main/po/refine.main.sv.reviewed.po), [diff](refine/main/po/refine.main.sv.review.diff), [notering](refine/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [resources](https://l10n.gnome.org/vertimus/resources/main/po/sv/) | main | 394 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [rhythmbox](https://l10n.gnome.org/vertimus/rhythmbox/master/help/sv/) | master | 374 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [schemes](https://l10n.gnome.org/vertimus/schemes/main/po/sv/) | main | 111 | 0 | 0 | Klar |  | — | Ej granskad |
