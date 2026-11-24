@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 01:04 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 01:06 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -432,7 +432,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [gnome-system-monitor](https://l10n.gnome.org/vertimus/gnome-system-monitor/main/po/sv/) | main | 380 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-system-monitor](https://l10n.gnome.org/vertimus/gnome-system-monitor/main/help/sv/) | main | 258 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-system-monitor](https://l10n.gnome.org/vertimus/gnome-system-monitor/gnome-50/help/sv/) | gnome-50 | 258 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-taquin](https://l10n.gnome.org/vertimus/gnome-taquin/master/po/sv/) | master | 111 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-taquin](https://l10n.gnome.org/vertimus/gnome-taquin/master/po/sv/) | master | 111 | 0 | 0 | Klar | X | 2 | Klar lokalt (2026-11-24): Hela 111-strängarskatalogen är radgranskad mot senaste POT. Två befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](gnome-taquin/master/po/gnome-taquin.master.sv.original.po), [granskad](gnome-taquin/master/po/gnome-taquin.master.sv.reviewed.po), [diff](gnome-taquin/master/po/gnome-taquin.master.sv.review.diff), [notering](gnome-taquin/master/po/README.md) |
 | Dokumentation | Default (71% translated) | [gnome-taquin](https://l10n.gnome.org/vertimus/gnome-taquin/master/help/sv/) | master | 66 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-terminal](https://l10n.gnome.org/vertimus/gnome-terminal/gnome-50/help/sv/) | gnome-50 | 496 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-terminal](https://l10n.gnome.org/vertimus/gnome-terminal/master/help/sv/) | master | 496 | 0 | 0 | Klar |  | — | Ej granskad |
