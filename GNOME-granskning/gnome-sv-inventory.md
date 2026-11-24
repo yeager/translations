@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:58 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 01:00 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -203,7 +203,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [balsa](https://l10n.gnome.org/vertimus/balsa/master/help/sv/) | master | 725 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [baobab](https://l10n.gnome.org/vertimus/baobab/main/po/sv/) | main | 78 | 0 | 0 | Klar | X | 1 | Klar lokalt (2026-11-24): Hela 78-strängarskatalogen är radgranskad mot senaste POT. En befintlig kvalitetsbrist är rättad; 0 oöversatta och 0 fuzzy återstår. msgfmt och msgcmp är godkända. l10n-lint har en korrekt svensk pluralvarning för år. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](baobab/main/po/baobab.main.sv.original.po), [granskad](baobab/main/po/baobab.main.sv.reviewed.po), [diff](baobab/main/po/baobab.main.sv.review.diff), [notering](baobab/main/po/README.md) |
 | Dokumentation | Default (71% translated) | [baobab](https://l10n.gnome.org/vertimus/baobab/main/help/sv/) | main | 70 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [bijiben](https://l10n.gnome.org/vertimus/bijiben/master/po/sv/) | master | 105 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [bijiben](https://l10n.gnome.org/vertimus/bijiben/master/po/sv/) | master | 105 | 0 | 0 | Klar | X | 3 | Klar lokalt (2026-11-24): Hela 105-strängarskatalogen är radgranskad mot senaste POT. Tre befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](bijiben/master/po/bijiben.master.sv.original.po), [granskad](bijiben/master/po/bijiben.master.sv.reviewed.po), [diff](bijiben/master/po/bijiben.master.sv.review.diff), [notering](bijiben/master/po/README.md) |
 | Dokumentation | Default (71% translated) | [bijiben](https://l10n.gnome.org/vertimus/bijiben/master/help/sv/) | master | 122 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [Blurble](https://l10n.gnome.org/vertimus/blurble/main/po/sv/) | main | 29 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [boatswain](https://l10n.gnome.org/vertimus/boatswain/main/po/sv/) | main | 157 | 0 | 0 | Klar |  | — | Ej granskad |
