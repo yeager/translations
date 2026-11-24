@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 01:54 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 01:56 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -272,7 +272,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [Fretboard — Look up guitar chords](https://l10n.gnome.org/vertimus/fretboard/main/po/sv/) | main | 47 | 0 | 0 | Klar | X | 3 | Klar lokalt (2026-11-24): Hela 47-strängarskatalogen är radgranskad mot senaste POT. Tre befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](fretboard/main/po/Fretboard.main.sv.original.po), [granskad](fretboard/main/po/Fretboard.main.sv.reviewed.po), [diff](fretboard/main/po/Fretboard.main.sv.review.diff), [notering](fretboard/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [frogr](https://l10n.gnome.org/vertimus/frogr/master/po/sv/) | master | 189 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [frogr](https://l10n.gnome.org/vertimus/frogr/master/help/sv/) | master | 114 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [g4music](https://l10n.gnome.org/vertimus/g4music/master/po/sv/) | master | 126 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [g4music](https://l10n.gnome.org/vertimus/g4music/master/po/sv/) | master | 126 | 0 | 0 | Klar | X | 6 | Klar lokalt (2026-11-24): Hela 126-strängarskatalogen är radgranskad mot senaste POT. Sex befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](g4music/master/po/g4music.master.sv.original.po), [granskad](g4music/master/po/g4music.master.sv.reviewed.po), [diff](g4music/master/po/g4music.master.sv.review.diff), [notering](g4music/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gcolor3](https://l10n.gnome.org/vertimus/gcolor3/master/po/sv/) | master | 59 | 0 | 0 | Klar | X | 7 | Klar lokalt (2026-11-23): Aktuell 59-strängarskatalog är radgranskad mot senaste POT. Sju befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](gcolor3/master/po/gcolor3.master.sv.original.po), [granskad](gcolor3/master/po/gcolor3.master.sv.reviewed.po), [diff](gcolor3/master/po/gcolor3.master.sv.review.diff), [notering](gcolor3/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gcr](https://l10n.gnome.org/vertimus/gcr/main/po/sv/) | main | 189 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gdk-pixbuf](https://l10n.gnome.org/vertimus/gdk-pixbuf/master/po/sv/) | master | 198 | 0 | 0 | Klar |  | — | Ej granskad |
