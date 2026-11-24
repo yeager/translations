@@ -1,0 +1,656 @@
+# Swedish translation for key-rack.
+# Copyright © 2024-2026 key-rack's COPYRIGHT HOLDER
+# This file is distributed under the same license as the key-rack package.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>,  2024, 2026.
+# Daniel Nylander <gnome@danielnylander.se>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: key-rack main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/sophie-h/key-rack/-/issues\n"
+"POT-Creation-Date: 2026-07-20 08:53+0000\n"
+"PO-Revision-Date: 2026-11-24 00:00+0100\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: data/app.drey.KeyRack.desktop.in:5 data/app.drey.KeyRack.metainfo.xml.in:5
+#: src/widgets/main_window.ui:8 src/widgets/pages/overview_page.ui:16
+msgid "Key Rack"
+msgstr "Key Rack"
+
+#: data/app.drey.KeyRack.desktop.in:6
+msgid "Keys"
+msgstr "Nycklar"
+
+#: data/app.drey.KeyRack.desktop.in:7
+msgid "View and edit your apps’ keys"
+msgstr "Visa och redigera dina programs nycklar"
+
+#: data/app.drey.KeyRack.desktop.in:14
+msgid "passwords;key;"
+msgstr "lösenord;nyckel;"
+
+#. General
+#: data/app.drey.KeyRack.metainfo.xml.in:10
+msgid "View and edit passwords"
+msgstr "Visa och redigera lösenord"
+
+#: data/app.drey.KeyRack.metainfo.xml.in:12
+msgid ""
+"Key Rack allows you to view, create and edit secrets, such as passwords or "
+"tokens, stored by apps. It supports both Flatpak secrets and system-wide "
+"keyrings."
+msgstr ""
+"Key Rack låter dig visa, skapa och redigera hemligheter, såsom lösenord "
+"eller token, som lagrats av program. Det stöder både Flatpak-hemligheter och "
+"systemomfattande nyckelringar."
+
+#. Branding
+#: data/app.drey.KeyRack.metainfo.xml.in:19
+#: data/app.drey.KeyRack.metainfo.xml.in:21
+msgid "Felix Häcker, Sophie Herold"
+msgstr "Felix Häcker, Sophie Herold"
+
+#: data/app.drey.KeyRack.metainfo.xml.in:53
+msgid "Overview of keyrings and Flatpak apps"
+msgstr "Översikt över nyckelringar och Flatpak-program"
+
+#: data/app.drey.KeyRack.metainfo.xml.in:57
+msgid "Details for a secret"
+msgstr "Detaljer för en hemlighet"
+
+#: data/resources/shortcuts-dialog.ui:6
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Allmänt"
+
+#: data/resources/shortcuts-dialog.ui:10
+msgctxt "shortcut window"
+msgid "Open Search"
+msgstr "Öppna sökning"
+
+#: data/resources/shortcuts-dialog.ui:15
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Visa kortkommandon"
+
+#: data/resources/shortcuts-dialog.ui:21
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Avsluta"
+
+#: data/resources/shortcuts-dialog.ui:29
+msgctxt "shortcut window"
+msgid "Keyring"
+msgstr "Nyckelring"
+
+#: data/resources/shortcuts-dialog.ui:33
+msgctxt "shortcut window"
+msgid "Create New Keyring"
+msgstr "Skapa ny nyckelring"
+
+#: data/resources/shortcuts-dialog.ui:39
+msgctxt "shortcut window"
+msgid "Add Key"
+msgstr "Lägg till nyckel"
+
+#: data/resources/shortcuts-dialog.ui:45
+msgctxt "shortcut window"
+msgid "Lock Keyring"
+msgstr "Lås nyckelring"
+
+#: data/resources/shortcuts-dialog.ui:51
+msgctxt "shortcut window"
+msgid "Unlock Keyring"
+msgstr "Lås upp nyckelring"
+
+#: data/resources/shortcuts-dialog.ui:57
+msgctxt "shortcut window"
+msgid "Change Keyring Password"
+msgstr "Ändra lösenord för nyckelring"
+
+#: data/resources/shortcuts-dialog.ui:63
+msgctxt "shortcut window"
+msgid "Delete Keyring"
+msgstr "Ta bort nyckelring"
+
+#: src/data/item.rs:67 src/data/item.rs:131
+msgid "Locked element"
+msgstr "Låst element"
+
+#: src/data/item.rs:305
+msgid "Chrome Safe Storage Password"
+msgstr "Chrome Safe Storage-lösenord"
+
+#: src/data/item.rs:306
+msgid "Chrome Dummy Schema"
+msgstr "Chrome-attrappschema"
+
+#: src/data/item.rs:307
+msgid "Saved Web Password"
+msgstr "Sparat webblösenord"
+
+#: src/data/item.rs:308
+msgid "Web Sync Password"
+msgstr "Webbsynkroniseringslösenord"
+
+#: src/data/item.rs:309
+msgid "Evolution Data Source Secret"
+msgstr "Evolution-datakällehemlighet"
+
+#: src/data/item.rs:310
+msgid "Generic Password"
+msgstr "Generiskt lösenord"
+
+#: src/data/item.rs:311
+msgid "GPG Passphrase"
+msgstr "GPG-lösenfras"
+
+#: src/data/item.rs:312
+msgid "Disk Encryption Password"
+msgstr "Diskkrypteringslösenord"
+
+#: src/data/item.rs:313
+msgid "Network Connection Password"
+msgstr "Lösenord för nätverksanslutning"
+
+#: src/data/item.rs:314
+msgid "Network Password"
+msgstr "Nätverkslösenord"
+
+#: src/data/item.rs:315
+msgid "Note"
+msgstr "Anteckning"
+
+#: src/data/item.rs:316
+msgid "Online Account Password"
+msgstr "Nätkontolösenord"
+
+#: src/data/item.rs:317
+msgid "RDP Credentials"
+msgstr "RDP-uppgifter"
+
+#: src/data/item.rs:318
+msgid "VNC Password"
+msgstr "VNC-lösenord"
+
+#: src/utils/error.rs:28
+msgid "Show Details"
+msgstr "Visa detaljer"
+
+#: src/widgets/about_dialog.rs:24
+msgid "translator-credits"
+msgstr ""
+"Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"\n"
+"Skicka synpunkter på översättningen till\n"
+"<tp-sv@listor.tp-sv.se>."
+
+#: src/widgets/collection_list.ui:34
+msgid "Add New Keyring"
+msgstr "Lägg till ny nyckelring"
+
+#: src/widgets/collection_row.rs:52
+msgid "System Login Keyring"
+msgstr "Systeminloggningsnyckelring"
+
+#: src/widgets/collection_row.rs:54
+msgid "User Keyring"
+msgstr "Användarnyckelring"
+
+#: src/widgets/collection_row.rs:57
+msgid "Temporary Session Keyring"
+msgstr "Tillfällig sessionsnyckelring"
+
+#: src/widgets/collection_row.ui:24
+msgid "Locked"
+msgstr "Låst"
+
+#: src/widgets/create_collection_dialog.ui:4
+msgid "Create New Keyring"
+msgstr "Skapa ny nyckelring"
+
+#: src/widgets/create_collection_dialog.ui:18
+msgid ""
+"A keyring can be used to securely store keys. They can be locked or unlocked "
+"independently of other keyrings using an individual password."
+msgstr ""
+"En nyckelring kan användas för att lagra nycklar säkert. De kan låsas eller "
+"låsas upp oberoende av andra nyckelringar med ett individuellt lösenord."
+
+#: src/widgets/create_collection_dialog.ui:21
+msgid "Name"
+msgstr "Namn"
+
+#: src/widgets/create_collection_dialog.ui:27
+msgid "Set Password"
+msgstr "Ställ in lösenord"
+
+#: src/widgets/create_item_dialog.rs:121
+msgid "Straight rows of keys are easy to guess"
+msgstr "Raka rader med tangenter är lätta att gissa"
+
+#: src/widgets/create_item_dialog.rs:124
+msgid "Short keyboard patterns are easy to guess"
+msgstr "Korta tangentbordsmönster är lätta att gissa"
+
+#: src/widgets/create_item_dialog.rs:127
+msgid "Repeated keys are easy to guess"
+msgstr "Upprepade tecken är lätta att gissa"
+
+#: src/widgets/create_item_dialog.rs:130
+msgid "Repeated patterns are easy to guess"
+msgstr "Upprepade mönster är lätta att gissa"
+
+#: src/widgets/create_item_dialog.rs:133
+msgid "This is one of the 10 most commonly used passwords"
+msgstr "Det här är ett av de 10 vanligaste lösenorden"
+
+#: src/widgets/create_item_dialog.rs:136
+msgid "This is one of the 100 most commonly used passwords"
+msgstr "Det här är ett av de 100 vanligaste lösenorden"
+
+#: src/widgets/create_item_dialog.rs:138
+msgid "This is a common password"
+msgstr "Det här är ett vanligt lösenord"
+
+#: src/widgets/create_item_dialog.rs:140
+msgid "This is similar to a commonly used password"
+msgstr "Det här liknar ett vanligt använt lösenord"
+
+#: src/widgets/create_item_dialog.rs:143
+msgid "This contains a easy to guess sequence"
+msgstr "Det här innehåller en lättgissad sekvens"
+
+#: src/widgets/create_item_dialog.rs:146
+msgid "Recent years are easy to guess"
+msgstr "De senaste åren är lätta att gissa"
+
+#: src/widgets/create_item_dialog.rs:149
+msgid "A word by itself is easy to guess"
+msgstr "Ett ord för sig själv är lätt att gissa"
+
+#: src/widgets/create_item_dialog.rs:152
+msgid "Dates are often easy to guess"
+msgstr "Datum är ofta lätta att gissa"
+
+#: src/widgets/create_item_dialog.rs:155
+msgid "Names and surnames by themselves are easy to guess"
+msgstr "Namn och efternamn för sig själva är lätta att gissa"
+
+#: src/widgets/create_item_dialog.rs:158
+msgid "Common names and surnames are easy to guess"
+msgstr "Vanliga namn och efternamn är lätta att gissa"
+
+#: src/widgets/create_item_dialog.rs:168
+msgid "Use a few words and avoid common phrases"
+msgstr "Använd några ord och undvik vanliga fraser"
+
+#: src/widgets/create_item_dialog.rs:171
+msgid "No need for symbols, digits or uppercase letters"
+msgstr "Symboler, siffror eller versaler behövs inte"
+
+#: src/widgets/create_item_dialog.rs:173
+msgid "Add another word or two"
+msgstr "Lägg till ett ord eller två"
+
+#: src/widgets/create_item_dialog.rs:175
+msgid "Capitalization doesn't help very much"
+msgstr "Användning av versaler hjälper inte så mycket"
+
+#: src/widgets/create_item_dialog.rs:178
+msgid "All uppercase is almost as easy to guess as all lowercase"
+msgstr "Enbart versaler är nästan lika lätt att gissa som enbart gemener"
+
+#: src/widgets/create_item_dialog.rs:181
+msgid "Reversed words aren't much harder to guess"
+msgstr "Omvända ord är inte så mycket svårare att gissa"
+
+#: src/widgets/create_item_dialog.rs:184
+msgid "Predictable substitutions don't help very much"
+msgstr "Förutsägbara ersättningar hjälper inte så mycket"
+
+#: src/widgets/create_item_dialog.rs:187
+msgid "Use a longer keyboard pattern with more turns"
+msgstr "Använd ett längre tangentbordsmönster med fler vändningar"
+
+#: src/widgets/create_item_dialog.rs:190
+msgid "Avoid repeated words and characters"
+msgstr "Undvik upprepade ord och tecken"
+
+#: src/widgets/create_item_dialog.rs:192
+msgid "Avoid using sequences"
+msgstr "Undvik att använda sekvenser"
+
+#: src/widgets/create_item_dialog.rs:193
+msgid "Avoid using recent years"
+msgstr "Undvik att använda de senaste åren"
+
+#: src/widgets/create_item_dialog.rs:195
+msgid "Avoid years that are associated with you"
+msgstr "Undvik år som är kopplade till dig"
+
+#: src/widgets/create_item_dialog.rs:198
+msgid "Avoid dates and years that are associated with you"
+msgstr "Undvik datum och år som är kopplade till dig"
+
+#: src/widgets/create_item_dialog.rs:206
+msgid "This looks like a safe password!"
+msgstr "Det här ser ut som ett säkert lösenord!"
+
+#: src/widgets/create_item_dialog.ui:4
+#: src/widgets/pages/collection_items_page.ui:28
+msgid "Add Key"
+msgstr "Lägg till nyckel"
+
+#: src/widgets/create_item_dialog.ui:21
+msgid "Description"
+msgstr "Beskrivning"
+
+#: src/widgets/create_item_dialog.ui:28
+msgid "Password"
+msgstr "Lösenord"
+
+#: src/widgets/create_item_dialog.ui:58
+msgid "Add"
+msgstr "Lägg till"
+
+#: src/widgets/item_dialog.rs:69
+msgid "Username"
+msgstr "Användarnamn"
+
+#: src/widgets/item_dialog.rs:133
+msgid "Application"
+msgstr "Program"
+
+#: src/widgets/item_dialog.rs:134
+msgid "Connection UUID"
+msgstr "UUID för anslutning"
+
+#: src/widgets/item_dialog.rs:135
+msgid "Database Path"
+msgstr "Databassökväg"
+
+#: src/widgets/item_dialog.rs:136
+msgid "Device ID"
+msgstr "Enhets-ID"
+
+#: src/widgets/item_dialog.rs:137
+msgid "Domain"
+msgstr "Domän"
+
+#: src/widgets/item_dialog.rs:138
+msgid "Explanation"
+msgstr "Förklaring"
+
+#: src/widgets/item_dialog.rs:139
+msgid "Online Account Identity"
+msgstr "Nätkontoidentitet"
+
+#: src/widgets/item_dialog.rs:140
+msgid "Homeserver"
+msgstr "Hemserver"
+
+#: src/widgets/item_dialog.rs:141
+msgid "ID"
+msgstr "ID"
+
+#: src/widgets/item_dialog.rs:142 src/widgets/pages/collection_items_page.ui:20
+msgid "Keyring"
+msgstr "Nyckelring"
+
+#: src/widgets/item_dialog.rs:143
+msgid "Profile"
+msgstr "Profil"
+
+#: src/widgets/item_dialog.rs:144
+msgid "Protocol"
+msgstr "Protokoll"
+
+#: src/widgets/item_dialog.rs:145
+msgid "Repository ID"
+msgstr "Förråds-ID"
+
+#: src/widgets/item_dialog.rs:146
+msgid "Server"
+msgstr "Server"
+
+#: src/widgets/item_dialog.rs:147
+msgid "Setting Key"
+msgstr "Inställningsnyckel"
+
+#: src/widgets/item_dialog.rs:148
+msgid "Setting Name"
+msgstr "Inställningsnamn"
+
+#: src/widgets/item_dialog.rs:149
+msgid "URI"
+msgstr "URI"
+
+#: src/widgets/item_dialog.rs:150
+msgid "UUID"
+msgstr "UUID"
+
+#: src/widgets/item_dialog.rs:151
+msgid "Version"
+msgstr "Version"
+
+#: src/widgets/item_dialog.rs:170
+msgid "Copy Property"
+msgstr "Kopiera egenskap"
+
+#: src/widgets/item_dialog.rs:287
+msgid "Delete Key?"
+msgstr "Ta bort nyckel?"
+
+#: src/widgets/item_dialog.rs:288
+msgid "This key will be permanently deleted"
+msgstr "Den här nyckeln kommer att tas bort permanent"
+
+#: src/widgets/item_dialog.rs:292 src/widgets/pages/collection_items_page.rs:88
+#: src/widgets/pages/collection_items_page.rs:145
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/widgets/item_dialog.rs:293
+#: src/widgets/pages/collection_items_page.rs:147
+msgid "Delete"
+msgstr "Ta bort"
+
+#: src/widgets/item_dialog.ui:22
+msgid "_Secret"
+msgstr "_Hemlighet"
+
+#: src/widgets/item_dialog.ui:30 src/widgets/item_dialog.ui:60
+msgid "Copy Secret"
+msgstr "Kopiera hemlighet"
+
+#: src/widgets/item_dialog.ui:42
+msgid "Secret"
+msgstr "Hemlighet"
+
+#: src/widgets/item_dialog.ui:49
+msgid "Show Secret"
+msgstr "Visa hemlighet"
+
+#: src/widgets/item_dialog.ui:74
+msgid "Details"
+msgstr "Detaljer"
+
+#: src/widgets/item_dialog.ui:77
+msgid "_Description"
+msgstr "_Beskrivning"
+
+#: src/widgets/item_dialog.ui:85
+msgid "Type"
+msgstr "Typ"
+
+#: src/widgets/item_dialog.ui:109
+msgid "D_elete Key…"
+msgstr "_Ta bort nyckel…"
+
+#: src/widgets/pages/collection_items_page.rs:83
+msgid "Change System Keyring Password"
+msgstr "Ändra lösenord för systemnyckelring"
+
+#: src/widgets/pages/collection_items_page.rs:85
+msgid ""
+"The system keyring normally uses the login password to automatically unlock "
+"the keyring on log in. Changing the keyring password to something different "
+"may stop this working."
+msgstr ""
+"Systemnyckelringen använder vanligen inloggningslösenordet för att "
+"automatiskt låsa upp nyckelringen vid inloggning. Om nyckelringslösenordet "
+"ändras till något annat så kan detta sluta fungera."
+
+#: src/widgets/pages/collection_items_page.rs:90
+msgid "Change"
+msgstr "Ändra"
+
+#: src/widgets/pages/collection_items_page.rs:139
+msgid "Delete Keyring?"
+msgstr "Ta bort nyckelring?"
+
+#: src/widgets/pages/collection_items_page.rs:220
+msgid ""
+"This keyring is bound to your user and gets automatically unlocked at login"
+msgstr ""
+"Denna nyckelring är bunden till din användare och låses upp automatiskt vid "
+"inloggning"
+
+#: src/widgets/pages/collection_items_page.rs:221
+msgid "All keys in this temporary keyring are removed again on logout"
+msgstr ""
+"Alla nycklar i denna tillfälliga nyckelring tas bort igen vid utloggning"
+
+#: src/widgets/pages/collection_items_page.ui:6
+msgid "_Change Password"
+msgstr "Ä_ndra lösenord"
+
+#: src/widgets/pages/collection_items_page.ui:10
+msgid "_Lock"
+msgstr "_Lås"
+
+#: src/widgets/pages/collection_items_page.ui:14
+msgid "_Delete"
+msgstr "_Ta bort"
+
+#: src/widgets/pages/collection_items_page.ui:37
+msgid "Keyring Menu"
+msgstr "Nyckelringsmeny"
+
+#: src/widgets/pages/collection_items_page.ui:43
+#: src/widgets/pages/flatpak_items_page.ui:13
+#: src/widgets/pages/overview_page.ui:24
+msgid "Search"
+msgstr "Sök"
+
+#: src/widgets/pages/collection_items_page.ui:62
+#: src/widgets/pages/collection_items_page.ui:71
+#: src/widgets/pages/flatpak_items_page.ui:31
+#: src/widgets/pages/flatpak_items_page.ui:40
+msgid "Search keys"
+msgstr "Sök nycklar"
+
+#: src/widgets/pages/collection_items_page.ui:80
+msgid "Keyring is locked"
+msgstr "Nyckelringen är låst"
+
+#: src/widgets/pages/collection_items_page.ui:81
+msgid "Unlock"
+msgstr "Lås upp"
+
+#: src/widgets/pages/collection_items_page.ui:93
+#: src/widgets/pages/flatpak_items_page.ui:59
+msgid "No Keys"
+msgstr "Inga nycklar"
+
+#: src/widgets/pages/collection_items_page.ui:94
+msgid "This keyring does not contain any keys"
+msgstr "Den här nyckelringen innehåller inga nycklar"
+
+#: src/widgets/pages/collection_items_page.ui:97
+msgid "Add Key…"
+msgstr "Lägg till nyckel…"
+
+#: src/widgets/pages/collection_items_page.ui:130
+#: src/widgets/pages/flatpak_items_page.ui:147
+msgid "No Keys Found"
+msgstr "Inga nycklar hittades"
+
+#: src/widgets/pages/collection_items_page.ui:131
+#: src/widgets/pages/flatpak_items_page.ui:148
+#: src/widgets/pages/overview_page.ui:80
+msgid "Try a different search"
+msgstr "Försök med en annan sökning"
+
+#: src/widgets/pages/flatpak_items_page.rs:171
+msgid "Item"
+msgstr "Objekt"
+
+#: src/widgets/pages/flatpak_items_page.rs:179
+msgid "Delete Key"
+msgstr "Ta bort nyckel"
+
+#: src/widgets/pages/flatpak_items_page.ui:4
+msgid "App Keys"
+msgstr "Programnycklar"
+
+#: src/widgets/pages/flatpak_items_page.ui:60
+msgid "This app does not contain any keys"
+msgstr "Det här programmet innehåller inga nycklar"
+
+#: src/widgets/pages/flatpak_items_page.ui:123
+msgid "Undecryptable Keys"
+msgstr "Odekrypterbara nycklar"
+
+#: src/widgets/pages/flatpak_items_page.ui:124
+msgid ""
+"These keys were created using a different login keyring. To access them, the "
+"original login credentials, used when storing the secret, have to be "
+"recovered first."
+msgstr ""
+"Dessa nycklar skapades med en annan inloggningsnyckelring. För att komma åt "
+"dem krävs att de ursprungliga inloggningsuppgifterna som använts för att "
+"lagra hemligheten återhämtats först."
+
+#: src/widgets/pages/overview_page.ui:6
+msgid "_Keyboard Shortcuts"
+msgstr "_Tangentbordsgenvägar"
+
+#: src/widgets/pages/overview_page.ui:10
+msgid "_About Key Rack"
+msgstr "_Om Key Rack"
+
+#: src/widgets/pages/overview_page.ui:33
+msgid "Main Menu"
+msgstr "Huvudmeny"
+
+#: src/widgets/pages/overview_page.ui:50 src/widgets/pages/overview_page.ui:59
+msgid "Search keyrings"
+msgstr "Sök nyckelringar"
+
+#: src/widgets/pages/overview_page.ui:79
+msgid "No Keyrings Found"
+msgstr "Inga nyckelringar hittades"
+
+#: src/widgets/pages/overview_page.ui:87
+msgid "Keyrings"
+msgstr "Nyckelringar"
+
+#: src/widgets/pages/overview_page.ui:92
+msgid "Apps"
+msgstr "Program"
+
+#: src/widgets/pages/overview_page.ui:98
+msgid "Uninstalled Apps"
+msgstr "Avinstallerade program"
+
+#~ msgid "All keys in the keyring will be permanently deleted"
+#~ msgstr "Alla nycklar i nyckelringen kommer tas bort permanent"

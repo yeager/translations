@@ -1,0 +1,95 @@
+diff --git a/.work-gnome-review/key-rack-main-po/original.po b/.work-gnome-review/key-rack-main-po/sv.po
+index bce03da..ae71ad4 100644
+--- a/.work-gnome-review/key-rack-main-po/original.po
++++ b/.work-gnome-review/key-rack-main-po/sv.po
+@@ -2,14 +2,15 @@
+ # Copyright © 2024-2026 key-rack's COPYRIGHT HOLDER
+ # This file is distributed under the same license as the key-rack package.
+ # Anders Jonsson <anders.jonsson@norsjovallen.se>,  2024, 2026.
++# Daniel Nylander <gnome@danielnylander.se>, 2026.
+ #
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: key-rack main\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/sophie-h/key-rack/-/issues\n"
+ "POT-Creation-Date: 2026-07-20 08:53+0000\n"
+-"PO-Revision-Date: 2026-05-09 22:56+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -47,7 +48,7 @@ msgid ""
+ "keyrings."
+ msgstr ""
+ "Key Rack låter dig visa, skapa och redigera hemligheter, såsom lösenord "
+-"eller token lagrade av program. Det stöder både Flatpak-hemligheter och "
++"eller token, som lagrats av program. Det stöder både Flatpak-hemligheter och "
+ "systemomfattande nyckelringar."
+ 
+ #. Branding
+@@ -241,7 +242,7 @@ msgstr "Korta tangentbordsmönster är lätta att gissa"
+ 
+ #: src/widgets/create_item_dialog.rs:127
+ msgid "Repeated keys are easy to guess"
+-msgstr "Upprepade tangenter är lätta att gissa"
++msgstr "Upprepade tecken är lätta att gissa"
+ 
+ #: src/widgets/create_item_dialog.rs:130
+ msgid "Repeated patterns are easy to guess"
+@@ -301,11 +302,11 @@ msgstr "Lägg till ett ord eller två"
+ 
+ #: src/widgets/create_item_dialog.rs:175
+ msgid "Capitalization doesn't help very much"
+-msgstr "Versalisering hjälper inte så mycket"
++msgstr "Användning av versaler hjälper inte så mycket"
+ 
+ #: src/widgets/create_item_dialog.rs:178
+ msgid "All uppercase is almost as easy to guess as all lowercase"
+-msgstr "Alla versaler är nästan lika lätt att gissa som alla gemener"
++msgstr "Enbart versaler är nästan lika lätt att gissa som enbart gemener"
+ 
+ #: src/widgets/create_item_dialog.rs:181
+ msgid "Reversed words aren't much harder to guess"
+@@ -333,11 +334,11 @@ msgstr "Undvik att använda de senaste åren"
+ 
+ #: src/widgets/create_item_dialog.rs:195
+ msgid "Avoid years that are associated with you"
+-msgstr "Undvik år som är associerade med dig"
++msgstr "Undvik år som är kopplade till dig"
+ 
+ #: src/widgets/create_item_dialog.rs:198
+ msgid "Avoid dates and years that are associated with you"
+-msgstr "Undvik datum och år som är associerade med dig"
++msgstr "Undvik datum och år som är kopplade till dig"
+ 
+ #: src/widgets/create_item_dialog.rs:206
+ msgid "This looks like a safe password!"
+@@ -450,7 +451,7 @@ msgstr "Ta bort nyckel?"
+ 
+ #: src/widgets/item_dialog.rs:288
+ msgid "This key will be permanently deleted"
+-msgstr "Den här nyckeln kommer tas bort permanent"
++msgstr "Den här nyckeln kommer att tas bort permanent"
+ 
+ #: src/widgets/item_dialog.rs:292 src/widgets/pages/collection_items_page.rs:88
+ #: src/widgets/pages/collection_items_page.rs:145
+@@ -572,7 +573,7 @@ msgstr "Inga nycklar"
+ 
+ #: src/widgets/pages/collection_items_page.ui:94
+ msgid "This keyring does not contain any keys"
+-msgstr "Denna nyckelring innehåller inte några nycklar"
++msgstr "Den här nyckelringen innehåller inga nycklar"
+ 
+ #: src/widgets/pages/collection_items_page.ui:97
+ msgid "Add Key…"
+@@ -603,7 +604,7 @@ msgstr "Programnycklar"
+ 
+ #: src/widgets/pages/flatpak_items_page.ui:60
+ msgid "This app does not contain any keys"
+-msgstr "Detta program innehåller inga nycklar"
++msgstr "Det här programmet innehåller inga nycklar"
+ 
+ #: src/widgets/pages/flatpak_items_page.ui:123
+ msgid "Undecryptable Keys"
