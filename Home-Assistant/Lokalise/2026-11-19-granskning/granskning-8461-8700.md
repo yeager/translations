@@ -8,7 +8,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för inmatad energi under högtrafik exkl. moms ({ean_suffix})
 
-**Förslag:** Pris för inmatad energi under höglasttid exkl. moms ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8462. `component::engie_be::entity::sensor::energy_price_injection_peak_excl_vat::name`
 
@@ -16,7 +16,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för inmatad energi under högtrafik exkl. moms
 
-**Förslag:** Pris för inmatad energi under höglasttid exkl. moms
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8463. `component::engie_be::entity::sensor::energy_price_injection_peak::name`
 
@@ -24,7 +24,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för inmatad energi under högtrafik
 
-**Förslag:** Pris för inmatad energi under höglasttid
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8464. `component::engie_be::entity::sensor::energy_price_injection_offpeak_with_ean::name`
 
@@ -32,7 +32,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för inmatad energi under lågtrafik ({ean_suffix})
 
-**Förslag:** Pris för inmatad energi under låglasttid ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8465. `component::engie_be::entity::sensor::energy_price_injection_offpeak_excl_vat_with_ean::name`
 
@@ -40,7 +40,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för inmatad energi under lågtrafik exkl. moms ({ean_suffix})
 
-**Förslag:** Pris för inmatad energi under låglasttid exkl. moms ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8466. `component::engie_be::entity::sensor::energy_price_injection_offpeak_excl_vat::name`
 
@@ -48,7 +48,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för inmatad energi under lågtrafik exkl. moms
 
-**Förslag:** Pris för inmatad energi under låglasttid exkl. moms
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8467. `component::engie_be::entity::sensor::energy_price_injection_offpeak::name`
 
@@ -56,7 +56,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för inmatad energi under lågtrafik
 
-**Förslag:** Pris för inmatad energi under låglasttid
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8468. `component::engie_be::entity::sensor::energy_price_injection_excl_vat_with_ean::name`
 
@@ -66,6 +66,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8469. `component::engie_be::entity::sensor::energy_price_injection_excl_vat::name`
 
 **Engelska:** Injection price excl. VAT
@@ -73,6 +75,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Pris för inmatad energi exkl. moms
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8470. `component::engie_be::entity::sensor::energy_price_injection::name`
 
@@ -82,6 +86,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8471. `component::engie_be::entity::sensor::electricity_price_offtake_with_ean::name`
 
 **Engelska:** Electricity offtake price ({ean_suffix})
@@ -90,13 +96,15 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8472. `component::engie_be::entity::sensor::electricity_price_offtake_superoffpeak_with_ean::name`
 
 **Engelska:** Electricity super off-peak offtake price ({ean_suffix})
 
 **Befintlig svenska:** Pris för uttagen el under extra lågtrafik ({ean_suffix})
 
-**Förslag:** Pris för uttagen el under extra låglasttid ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8473. `component::engie_be::entity::sensor::electricity_price_offtake_superoffpeak_excl_vat_with_ean::name`
 
@@ -104,7 +112,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för uttagen el under extra lågtrafik exkl. moms ({ean_suffix})
 
-**Förslag:** Pris för uttagen el under extra låglasttid exkl. moms ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8474. `component::engie_be::entity::sensor::electricity_price_offtake_superoffpeak_excl_vat::name`
 
@@ -112,7 +120,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för uttagen el under extra lågtrafik exkl. moms
 
-**Förslag:** Pris för uttagen el under extra låglasttid exkl. moms
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8475. `component::engie_be::entity::sensor::electricity_price_offtake_superoffpeak::name`
 
@@ -120,7 +128,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för uttagen el under extra lågtrafik
 
-**Förslag:** Pris för uttagen el under extra låglasttid
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8476. `component::engie_be::entity::sensor::electricity_price_offtake_slot_with_ean::name`
 
@@ -130,6 +138,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8477. `component::engie_be::entity::sensor::electricity_price_offtake_slot_excl_vat_with_ean::name`
 
 **Engelska:** Electricity offtake price excl. VAT ({slot_code}) ({ean_suffix})
@@ -137,6 +147,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Pris för uttagen el exkl. moms ({slot_code}) ({ean_suffix})
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8478. `component::engie_be::entity::sensor::electricity_price_offtake_slot_excl_vat::name`
 
@@ -146,6 +158,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8479. `component::engie_be::entity::sensor::electricity_price_offtake_slot::name`
 
 **Engelska:** Electricity offtake price ({slot_code})
@@ -154,13 +168,15 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8480. `component::engie_be::entity::sensor::electricity_price_offtake_peak_with_ean::name`
 
 **Engelska:** Electricity peak offtake price ({ean_suffix})
 
 **Befintlig svenska:** Pris för uttagen el under högtrafik ({ean_suffix})
 
-**Förslag:** Pris för uttagen el under höglasttid ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8481. `component::engie_be::entity::sensor::electricity_price_offtake_peak_excl_vat_with_ean::name`
 
@@ -168,7 +184,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för uttagen el under högtrafik exkl. moms ({ean_suffix})
 
-**Förslag:** Pris för uttagen el under höglasttid exkl. moms ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8482. `component::engie_be::entity::sensor::electricity_price_offtake_peak_excl_vat::name`
 
@@ -176,7 +192,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för uttagen el under högtrafik exkl. moms
 
-**Förslag:** Pris för uttagen el under höglasttid exkl. moms
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8483. `component::engie_be::entity::sensor::electricity_price_offtake_peak::name`
 
@@ -184,7 +200,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för uttagen el under högtrafik
 
-**Förslag:** Pris för uttagen el under höglasttid
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8484. `component::engie_be::entity::sensor::electricity_price_offtake_offpeak_with_ean::name`
 
@@ -192,7 +208,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för uttagen el under lågtrafik ({ean_suffix})
 
-**Förslag:** Pris för uttagen el under låglasttid ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8485. `component::engie_be::entity::sensor::electricity_price_offtake_offpeak_excl_vat_with_ean::name`
 
@@ -200,7 +216,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för uttagen el under lågtrafik exkl. moms ({ean_suffix})
 
-**Förslag:** Pris för uttagen el under låglasttid exkl. moms ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8486. `component::engie_be::entity::sensor::electricity_price_offtake_offpeak_excl_vat::name`
 
@@ -208,7 +224,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för uttagen el under lågtrafik exkl. moms
 
-**Förslag:** Pris för uttagen el under låglasttid exkl. moms
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8487. `component::engie_be::entity::sensor::electricity_price_offtake_offpeak::name`
 
@@ -216,7 +232,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för uttagen el under lågtrafik
 
-**Förslag:** Pris för uttagen el under låglasttid
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8488. `component::engie_be::entity::sensor::electricity_price_offtake_excl_vat_with_ean::name`
 
@@ -226,6 +242,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8489. `component::engie_be::entity::sensor::electricity_price_offtake_excl_vat::name`
 
 **Engelska:** Electricity offtake price excl. VAT
@@ -233,6 +251,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Pris för uttagen el exkl. moms
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8490. `component::engie_be::entity::sensor::electricity_price_offtake::name`
 
@@ -242,6 +262,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8491. `component::engie_be::entity::sensor::electricity_price_injection_with_ean::name`
 
 **Engelska:** Electricity injection price ({ean_suffix})
@@ -250,13 +272,15 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8492. `component::engie_be::entity::sensor::electricity_price_injection_superoffpeak_with_ean::name`
 
 **Engelska:** Electricity super off-peak injection price ({ean_suffix})
 
 **Befintlig svenska:** Pris för inmatad el under extra lågtrafik ({ean_suffix})
 
-**Förslag:** Pris för inmatad el under extra låglasttid ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8493. `component::engie_be::entity::sensor::electricity_price_injection_superoffpeak_excl_vat_with_ean::name`
 
@@ -264,7 +288,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för inmatad el under extra lågtrafik exkl. moms ({ean_suffix})
 
-**Förslag:** Pris för inmatad el under extra låglasttid exkl. moms ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8494. `component::engie_be::entity::sensor::electricity_price_injection_superoffpeak_excl_vat::name`
 
@@ -272,7 +296,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för inmatad el under extra lågtrafik exkl. moms
 
-**Förslag:** Pris för inmatad el under extra låglasttid exkl. moms
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8495. `component::engie_be::entity::sensor::electricity_price_injection_superoffpeak::name`
 
@@ -280,7 +304,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för inmatad el under extra lågtrafik
 
-**Förslag:** Pris för inmatad el under extra låglasttid
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8496. `component::engie_be::entity::sensor::electricity_price_injection_slot_with_ean::name`
 
@@ -290,6 +314,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8497. `component::engie_be::entity::sensor::electricity_price_injection_slot_excl_vat_with_ean::name`
 
 **Engelska:** Electricity injection price excl. VAT ({slot_code}) ({ean_suffix})
@@ -297,6 +323,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Pris för inmatad el exkl. moms ({slot_code}) ({ean_suffix})
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8498. `component::engie_be::entity::sensor::electricity_price_injection_slot_excl_vat::name`
 
@@ -306,6 +334,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8499. `component::engie_be::entity::sensor::electricity_price_injection_slot::name`
 
 **Engelska:** Electricity injection price ({slot_code})
@@ -314,13 +344,15 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8500. `component::engie_be::entity::sensor::electricity_price_injection_peak_with_ean::name`
 
 **Engelska:** Electricity peak injection price ({ean_suffix})
 
 **Befintlig svenska:** Pris för inmatad el under högtrafik ({ean_suffix})
 
-**Förslag:** Pris för inmatad el under höglasttid ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8501. `component::engie_be::entity::sensor::electricity_price_injection_peak_excl_vat_with_ean::name`
 
@@ -328,7 +360,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för inmatad el under högtrafik exkl. moms ({ean_suffix})
 
-**Förslag:** Pris för inmatad el under höglasttid exkl. moms ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8502. `component::engie_be::entity::sensor::electricity_price_injection_peak_excl_vat::name`
 
@@ -336,7 +368,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för inmatad el under högtrafik exkl. moms
 
-**Förslag:** Pris för inmatad el under höglasttid exkl. moms
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8503. `component::engie_be::entity::sensor::electricity_price_injection_peak::name`
 
@@ -344,7 +376,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för inmatad el under högtrafik
 
-**Förslag:** Pris för inmatad el under höglasttid
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8504. `component::engie_be::entity::sensor::electricity_price_injection_offpeak_with_ean::name`
 
@@ -352,7 +384,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för inmatad el under lågtrafik ({ean_suffix})
 
-**Förslag:** Pris för inmatad el under låglasttid ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8505. `component::engie_be::entity::sensor::electricity_price_injection_offpeak_excl_vat_with_ean::name`
 
@@ -360,7 +392,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för inmatad el under lågtrafik exkl. moms ({ean_suffix})
 
-**Förslag:** Pris för inmatad el under låglasttid exkl. moms ({ean_suffix})
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8506. `component::engie_be::entity::sensor::electricity_price_injection_offpeak_excl_vat::name`
 
@@ -368,7 +400,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för inmatad el under lågtrafik exkl. moms
 
-**Förslag:** Pris för inmatad el under låglasttid exkl. moms
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8507. `component::engie_be::entity::sensor::electricity_price_injection_offpeak::name`
 
@@ -376,7 +408,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Befintlig svenska:** Pris för inmatad el under lågtrafik
 
-**Förslag:** Pris för inmatad el under låglasttid
+**Bedömning:** Det äldre förslaget avförs. Tidigare svensk HA-granskning använder `lågtrafik` för *off-peak* och `högtrafik` för *peak*; liveöversättningen behålls.
 
 ## 8508. `component::engie_be::entity::sensor::electricity_price_injection_excl_vat_with_ean::name`
 
@@ -386,6 +418,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8509. `component::engie_be::entity::sensor::electricity_price_injection_excl_vat::name`
 
 **Engelska:** Electricity injection price excl. VAT
@@ -393,6 +427,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Pris för inmatad el exkl. moms
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8510. `component::engie_be::entity::sensor::electricity_price_injection::name`
 
@@ -402,6 +438,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8511. `component::engie_be::config::step::user::description`
 
 **Engelska:** Enter your ENGIE Belgium credentials and two-factor authentication method. **A dedicated ENGIE account is required**: signing into the same account from engie.be or the ENGIE Smart App appears to revoke the integration's session and force you to re-authenticate. Create a separate user via the [ENGIE user management page]({user_management_url}). New accounts have 2FA enabled by default.
@@ -409,6 +447,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Ange dina inloggningsuppgifter för ENGIE Belgium och metod för tvåfaktorsautentisering. **Ett särskilt ENGIE-konto krävs**: om du loggar in på samma konto från engie.be eller appen ENGIE Smart verkar integrationens session återkallas och du behöver återautentisera. Skapa en separat användare på [sidan för ENGIE-användarhantering]({user_management_url}). Tvåfaktorsautentisering är aktiverad som standard för nya konton.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8512. `component::engie_be::config::step::user::data_description::password`
 
@@ -418,6 +458,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8513. `component::engie_be::config::step::user::data_description::mfa_method`
 
 **Engelska:** Choose how you want to receive your verification code.
@@ -425,6 +467,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Välj hur du vill ta emot verifieringskoden.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8514. `component::engie_be::config::step::user::data_description::email`
 
@@ -434,6 +478,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8515. `component::engie_be::config::step::user::data::password`
 
 **Engelska:** [%key:common::config_flow::data::password%]
@@ -441,6 +487,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Lösenord
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::password`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 8516. `component::engie_be::config::step::user::data::mfa_method`
 
@@ -450,6 +498,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8517. `component::engie_be::config::step::user::data::email`
 
 **Engelska:** [%key:common::config_flow::data::email%]
@@ -457,6 +507,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** E-post
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::email`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 8518. `component::engie_be::config::step::mfa::description`
 
@@ -466,6 +518,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8519. `component::engie_be::config::step::mfa::data_description::code`
 
 **Engelska:** The verification code ENGIE Belgium just sent you.
@@ -473,6 +527,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Verifieringskoden som ENGIE Belgium nyss skickade till dig.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8520. `component::engie_be::config::step::mfa::data::code`
 
@@ -482,6 +538,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8521. `component::engie_be::config::error::unknown`
 
 **Engelska:** [%key:common::config_flow::error::unknown%]
@@ -489,6 +547,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Oväntat fel
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::unknown`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 8522. `component::engie_be::config::error::invalid_mfa_code`
 
@@ -498,6 +558,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8523. `component::engie_be::config::error::invalid_auth`
 
 **Engelska:** [%key:common::config_flow::error::invalid_auth%]
@@ -506,13 +568,17 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::invalid_auth`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 8524. `component::engie_be::config::error::cannot_connect`
 
 **Engelska:** [%key:common::config_flow::error::cannot_connect%]
 
-**Befintlig svenska:** Anslutningen misslyckades
+**Befintlig svenska:** Det gick inte att ansluta
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::cannot_connect`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 8525. `component::engie_be::config::abort::already_configured`
 
@@ -522,6 +588,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::abort::already_configured_account`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 8526. `component::tesla_fleet::services::navigate_to_destination::name`
 
 **Engelska:** Navigate to destination
@@ -529,6 +597,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Navigera till mål
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8527. `component::tesla_fleet::services::navigate_to_destination::fields::device_id::name`
 
@@ -538,6 +608,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8528. `component::tesla_fleet::services::navigate_to_destination::fields::device_id::description`
 
 **Engelska:** Vehicle to send the destination to.
@@ -545,6 +617,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Fordonet som målet ska skickas till.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8529. `component::tesla_fleet::services::navigate_to_destination::fields::destination::name`
 
@@ -554,6 +628,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8530. `component::tesla_fleet::services::navigate_to_destination::fields::destination::description`
 
 **Engelska:** Address, place name or map link to navigate to.
@@ -561,6 +637,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Adress, ortnamn eller kartlänk att navigera till.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8531. `component::tesla_fleet::services::navigate_to_destination::description`
 
@@ -570,6 +648,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8532. `component::tesla_fleet::services::navigate_to_coordinates::name`
 
 **Engelska:** Navigate to coordinates
@@ -577,6 +657,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Navigera till koordinater
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8533. `component::tesla_fleet::services::navigate_to_coordinates::fields::gps::name`
 
@@ -586,6 +668,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8534. `component::tesla_fleet::services::navigate_to_coordinates::fields::gps::description`
 
 **Engelska:** Location to navigate to.
@@ -593,6 +677,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Plats att navigera till.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8535. `component::tesla_fleet::services::navigate_to_coordinates::fields::device_id::name`
 
@@ -602,6 +688,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8536. `component::tesla_fleet::services::navigate_to_coordinates::fields::device_id::description`
 
 **Engelska:** Vehicle to send the destination to.
@@ -609,6 +697,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Fordonet som målet ska skickas till.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8537. `component::tesla_fleet::services::navigate_to_coordinates::description`
 
@@ -618,6 +708,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8538. `component::tesla_fleet::exceptions::no_vehicle_data_for_device::message`
 
 **Engelska:** No vehicle data for device ID: {device_id}
@@ -625,6 +717,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Inga fordonsdata för enhetens ID: {device_id}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8539. `component::axle_energy::entity::binary_sensor::event_in_progress::name`
 
@@ -634,6 +728,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8540. `component::my_pv::exceptions::rate_limiting::message`
 
 **Engelska:** Too many requests.
@@ -641,6 +737,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** För många förfrågningar.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8541. `component::mealie::selector::parser::options::openai`
 
@@ -650,6 +748,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8542. `component::mealie::selector::parser::options::nlp`
 
 **Engelska:** Natural language processing
@@ -658,6 +758,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8543. `component::mealie::selector::parser::options::brute`
 
 **Engelska:** Brute force
@@ -665,6 +767,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Bruteforce
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8544. `component::mealie::options::step::init::data_description::parser`
 
@@ -676,6 +780,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8545. `component::mealie::options::step::init::data_description::parse_todo_new`
 
 **Engelska:** When enabled, Mealie checks new to-do list items to find matches in your food items and identify quantities and units. If it finds a confident match, Mealie adds the food item, unit, and quantity separately. Otherwise, the item is added as a note.
@@ -683,6 +789,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** När funktionen är aktiverad kontrollerar Mealie nya poster i att göra-listan för att hitta matchningar bland dina livsmedel och identifiera mängder samt enheter. Om en tillförlitlig matchning hittas lägger Mealie till livsmedlet, enheten och mängden var för sig. Annars läggs posten till som en anteckning.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8546. `component::mealie::options::step::init::data_description::parse_todo_edit`
 
@@ -692,6 +800,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8547. `component::mealie::options::step::init::data::parser`
 
 **Engelska:** Recognition method
@@ -699,6 +809,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Igenkänningsmetod
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8548. `component::mealie::options::step::init::data::parse_todo_new`
 
@@ -708,6 +820,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8549. `component::mealie::options::step::init::data::parse_todo_edit`
 
 **Engelska:** Recognize food in edited items
@@ -715,6 +829,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Identifiera livsmedel i redigerade poster
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8550. `component::electric_kiwi::exceptions::set_hop_failed::message`
 
@@ -724,6 +840,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8551. `component::electric_kiwi::exceptions::auth_failed::message`
 
 **Engelska:** Authentication with Electric Kiwi failed. Please re-authenticate.
@@ -732,13 +850,17 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8552. `component::radio_browser::config::error::cannot_connect`
 
 **Engelska:** [%key:common::config_flow::error::cannot_connect%]
 
-**Befintlig svenska:** Anslutningen misslyckades
+**Befintlig svenska:** Det gick inte att ansluta
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::cannot_connect`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 8553. `component::radio_browser::exceptions::unknown_stream_type::message`
 
@@ -748,6 +870,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8554. `component::radio_browser::exceptions::station_not_found::message`
 
 **Engelska:** The radio station is no longer available
@@ -756,13 +880,15 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8555. `component::melcloud_home::exceptions::api_error::message`
 
 **Engelska:** Unexpected error from the MELCloud Home API
 
-**Befintlig svenska:** Oväntat fel från MELCloud Home API
+**Befintlig svenska:** Oväntat fel från MELCloud Home-API:t
 
-**Förslag:** Oväntat fel från MELCloud Home-API:t
+**Bedömning:** Förslaget är redan live i Lokalise; ingen ny skrivning behövdes.
 
 ## 8556. `component::nextdns::exceptions::set_setting_error::message`
 
@@ -772,6 +898,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8557. `component::portainer::services::prune_build_cache::name`
 
 **Engelska:** Prune build cache
@@ -779,6 +907,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Rensa byggcache
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8558. `component::portainer::services::prune_build_cache::fields::until::name`
 
@@ -788,13 +918,15 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Kontextkontroll:** Kontrollera referensmålet `component::portainer::services::prune_images::fields::until::name`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 8559. `component::portainer::services::prune_build_cache::fields::until::description`
 
 **Engelska:** Only prune build cache that was last used longer ago than this duration. If not provided, build cache of any age is pruned.
 
-**Befintlig svenska:** Rensa bara byggcache som användes senast för längre tid sedan än denna varaktighet. Om inget värde anges rensas byggcache oavsett ålder.
+**Befintlig svenska:** Rensa endast byggcache vars senaste användning ligger längre tillbaka än den angivna tidsperioden. Om ingen tidsperiod anges rensas byggcache oavsett ålder.
 
-**Förslag:** Rensa bara byggcache som inte har använts under den angivna tidsperioden. Om inget värde anges rensas byggcache oavsett ålder.
+**Bedömning:** Den äldre rapportrekommendationen var redan live. Den fullständiga källmeningen visar dock tydligare att senaste användningen ska ligga längre tillbaka än angiven tidsperiod; ny formulering sparades och verifierades.
 
 ## 8560. `component::portainer::services::prune_build_cache::fields::device_id::name`
 
@@ -804,6 +936,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Kontextkontroll:** Kontrollera referensmålet `component::portainer::services::prune_images::fields::device_id::name`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 8561. `component::portainer::services::prune_build_cache::fields::device_id::description`
 
 **Engelska:** The endpoint to prune the build cache on.
@@ -811,6 +945,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Slutpunkten där byggcachen ska rensas.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8562. `component::portainer::services::prune_build_cache::fields::all::name`
 
@@ -820,6 +956,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8563. `component::portainer::services::prune_build_cache::fields::all::description`
 
 **Engelska:** If true (default), prune all unused build cache. If false, only prune dangling build cache.
@@ -827,6 +965,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Om värdet är sant, vilket är standardvärdet, rensas all oanvänd byggcache. Om värdet är falskt rensas bara hängande byggcache.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8564. `component::portainer::services::prune_build_cache::description`
 
@@ -836,6 +976,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8565. `component::automation::issues::validation_failed_triggers::short_title`
 
 **Engelska:** [%key:component::automation::common::validation_failed_short_title%]
@@ -843,6 +985,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Automatiseringen kunde inte konfigureras
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8566. `component::automation::issues::validation_failed_schema::short_title`
 
@@ -852,6 +996,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8567. `component::automation::issues::validation_failed_conditions::short_title`
 
 **Engelska:** [%key:component::automation::common::validation_failed_short_title%]
@@ -859,6 +1005,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Automatiseringen kunde inte konfigureras
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8568. `component::automation::issues::validation_failed_blueprint::short_title`
 
@@ -868,6 +1016,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8569. `component::automation::issues::validation_failed_actions::short_title`
 
 **Engelska:** [%key:component::automation::common::validation_failed_short_title%]
@@ -875,6 +1025,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Automatiseringen kunde inte konfigureras
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8570. `component::automation::common::validation_failed_short_title`
 
@@ -884,6 +1036,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8571. `component::home_connect::selector::coffee_temperature::options::consumer_products_coffee_maker_enum_type_coffee_temperature_98_c`
 
 **Engelska:** 98ºC
@@ -891,6 +1045,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** 98 °C
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8572. `component::home_connect::entity::select::coffee_temperature::state::consumer_products_coffee_maker_enum_type_coffee_temperature_98_c`
 
@@ -900,6 +1056,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8573. `component::onewire::exceptions::write_failed::message`
 
 **Engelska:** Error writing to {device_file}
@@ -907,6 +1065,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Fel vid skrivning till {device_file}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8574. `component::knx::config_panel::project::version::reimport`
 
@@ -916,6 +1076,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8575. `component::knx::config_panel::project::version::minimum_required`
 
 **Engelska:** minimum version required
@@ -923,6 +1085,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Lägsta version som krävs
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8576. `component::knx::config_panel::project::version::description`
 
@@ -932,6 +1096,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8577. `component::knx::config_panel::project::upload_description`
 
 **Engelska:** To use the project viewer, please upload a KNX project first!
@@ -939,6 +1105,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Ladda först upp ett KNX-projekt för att använda projektvisaren.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8578. `component::knx::config_panel::project::group_addresses::view_telegrams`
 
@@ -948,6 +1116,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8579. `component::knx::config_panel::project::group_addresses::columns::updated`
 
 **Engelska:** Updated
@@ -955,6 +1125,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Uppdaterad
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8580. `component::knx::config_panel::project::group_addresses::columns::last_value`
 
@@ -964,6 +1136,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8581. `component::knx::config_panel::project::group_addresses::columns::dpt`
 
 **Engelska:** [%key:component::knx::config_panel::common::dpt%]
@@ -971,6 +1145,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** DPT
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8582. `component::knx::config_panel::project::group_addresses::columns::description`
 
@@ -980,6 +1156,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8583. `component::knx::config_panel::project::group_addresses::columns::address`
 
 **Engelska:** Address
@@ -987,6 +1165,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Adress
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8584. `component::knx::config_panel::project::group_addresses::add_switch`
 
@@ -996,6 +1176,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8585. `component::knx::config_panel::info::telegram_storage::retention::label`
 
 **Engelska:** Retention
@@ -1003,6 +1185,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Bevarandetid
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8586. `component::knx::config_panel::info::telegram_storage::retention::days`
 
@@ -1012,6 +1196,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8587. `component::knx::config_panel::info::telegram_storage::retention::day`
 
 **Engelska:** 1 day
@@ -1019,6 +1205,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** 1 dag
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8588. `component::knx::config_panel::info::telegram_storage::limit::label`
 
@@ -1028,6 +1216,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8589. `component::knx::config_panel::info::telegram_storage::label`
 
 **Engelska:** Telegram storage
@@ -1035,6 +1225,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Telegramlagring
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8590. `component::knx::config_panel::info::telegram_storage::backend::options::sqlite`
 
@@ -1044,6 +1236,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8591. `component::knx::config_panel::info::telegram_storage::backend::options::postgres`
 
 **Engelska:** PostgreSQL
@@ -1051,6 +1245,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** PostgreSQL
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8592. `component::knx::config_panel::info::telegram_storage::backend::options::memory`
 
@@ -1060,6 +1256,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8593. `component::knx::config_panel::info::project_file::title`
 
 **Engelska:** [%key:component::knx::config_panel::dialogs::project_upload::file_upload_label%]
@@ -1067,6 +1265,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** ETS-projektfil
 
 **Kontextkontroll:** Kontrollera referensmålet `component::knx::config_panel::dialogs::project_upload::file_upload_label`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 8594. `component::knx::config_panel::info::project_file::description`
 
@@ -1076,6 +1276,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8595. `component::knx::config_panel::info::project_data::xknxproject_version::label`
 
 **Engelska:** XKNXProject version
@@ -1083,6 +1285,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** XKNXProject-version
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8596. `component::knx::config_panel::info::project_data::tool_version::label`
 
@@ -1092,6 +1296,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8597. `component::knx::config_panel::info::project_data::title`
 
 **Engelska:** ETS project data
@@ -1099,6 +1305,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** ETS-projektdata
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8598. `component::knx::config_panel::info::project_data::name::label`
 
@@ -1108,6 +1316,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8599. `component::knx::config_panel::info::project_data::last_modified::label`
 
 **Engelska:** Last modified
@@ -1115,6 +1325,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Senast ändrad
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8600. `component::knx::config_panel::info::project_data::delete`
 
@@ -1124,21 +1336,23 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8601. `component::knx::config_panel::info::my_knx::description`
 
 **Engelska:** If you'd like to learn more about the KNX system or ETS, visit
 
-**Befintlig svenska:** Besök
+**Befintlig svenska:** Om du vill veta mer om KNX-systemet eller ETS, besök
 
-**Förslag:** Om du vill veta mer om KNX-systemet eller ETS, besök
+**Bedömning:** Förslaget är redan live i Lokalise; ingen ny skrivning behövdes.
 
 ## 8602. `component::knx::config_panel::info::issue_tracker::description`
 
 **Engelska:** If you'd like to report a bug or suggest a new feature, create an issue in our GitHub repository
 
-**Befintlig svenska:** Om du vill rapportera ett fel eller föreslå en ny funktion, skapa ett ärende i vårt GitHub-arkiv
+**Befintlig svenska:** Om du vill rapportera ett fel eller föreslå en ny funktion kan du skapa ett ärende i vårt GitHub-arkiv
 
-**Förslag:** Om du vill rapportera ett fel eller föreslå en ny funktion kan du skapa ett ärende i vårt GitHub-arkiv
+**Bedömning:** Förslaget är redan live i Lokalise; ingen ny skrivning behövdes.
 
 ## 8603. `component::knx::config_panel::info::individual_address::label`
 
@@ -1148,6 +1362,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8604. `component::knx::config_panel::info::connected_to_bus::label`
 
 **Engelska:** Connected to bus
@@ -1155,6 +1371,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Ansluten till bussen
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8605. `component::knx::config_panel::group_monitor::waiting_message`
 
@@ -1164,6 +1382,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8606. `component::knx::config_panel::group_monitor::time_range::title`
 
 **Engelska:** Time range
@@ -1171,6 +1391,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Tidsintervall
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8607. `component::knx::config_panel::group_monitor::time_range::select`
 
@@ -1180,6 +1402,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8608. `component::knx::config_panel::group_monitor::time_range::retention_clamped`
 
 **Engelska:** Adjusted to the oldest available data.
@@ -1187,6 +1411,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Justerat till äldsta tillgängliga data.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8609. `component::knx::config_panel::group_monitor::time_range::partial`
 
@@ -1196,6 +1422,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8610. `component::knx::config_panel::group_monitor::time_range::options::6_hours`
 
 **Engelska:** Last 6 hours
@@ -1203,6 +1431,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Senaste 6 timmarna
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8611. `component::knx::config_panel::group_monitor::time_range::options::5_minutes`
 
@@ -1212,6 +1442,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8612. `component::knx::config_panel::group_monitor::time_range::options::30_minutes`
 
 **Engelska:** Last 30 minutes
@@ -1219,6 +1451,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Senaste 30 minuterna
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8613. `component::knx::config_panel::group_monitor::time_range::now`
 
@@ -1228,13 +1462,15 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8614. `component::knx::config_panel::group_monitor::time_range::description`
 
 **Engelska:** Selecting a range may load additional data from the recorder.
 
-**Befintlig svenska:** Val av tidsintervall kan läsa in ytterligare data från Recorder.
+**Befintlig svenska:** När du väljer ett tidsintervall kan ytterligare data läsas in från Recorder.
 
-**Förslag:** När du väljer ett tidsintervall kan ytterligare data läsas in från Recorder.
+**Bedömning:** Förslaget är redan live i Lokalise; ingen ny skrivning behövdes.
 
 ## 8615. `component::knx::config_panel::group_monitor::time_delta::title`
 
@@ -1244,6 +1480,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8616. `component::knx::config_panel::group_monitor::time_delta::summary`
 
 **Engelska:** Within -{before} ms / +{after} ms
@@ -1251,6 +1489,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Inom −{before} ms / +{after} ms
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8617. `component::knx::config_panel::group_monitor::time_delta::disabled`
 
@@ -1260,6 +1500,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8618. `component::knx::config_panel::group_monitor::time_delta::description`
 
 **Engelska:** Also shows all telegrams within the defined time span before/after a filtered telegram – regardless of the applied filters. (0 = off)
@@ -1267,6 +1509,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Visar även alla telegram inom det angivna tidsintervallet före eller efter ett filtrerat telegram, oavsett tillämpade filter. (0 = av)
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8619. `component::knx::config_panel::group_monitor::time_delta::before::label`
 
@@ -1276,6 +1520,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8620. `component::knx::config_panel::group_monitor::time_delta::after::label`
 
 **Engelska:** + After (ms)
@@ -1283,6 +1529,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** + Efter (ms)
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8621. `component::knx::config_panel::group_monitor::search_label_singular`
 
@@ -1292,6 +1540,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8622. `component::knx::config_panel::group_monitor::search_label`
 
 **Engelska:** Search {count} telegrams
@@ -1299,6 +1549,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Sök bland {count} telegram
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8623. `component::knx::config_panel::group_monitor::resume`
 
@@ -1308,6 +1560,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8624. `component::knx::config_panel::group_monitor::reload`
 
 **Engelska:** Sync
@@ -1315,6 +1569,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Synkronisera
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8625. `component::knx::config_panel::group_monitor::project_not_loaded::title`
 
@@ -1324,6 +1580,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8626. `component::knx::config_panel::group_monitor::project_not_loaded::description`
 
 **Engelska:** Device names and telegram values can only be displayed after an ETS project has been loaded.
@@ -1331,6 +1589,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Enhetsnamn och telegramvärden kan bara visas när ett ETS-projekt har lästs in.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8627. `component::knx::config_panel::group_monitor::paused::title`
 
@@ -1340,6 +1600,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8628. `component::knx::config_panel::group_monitor::paused::description`
 
 **Engelska:** New telegrams will not be displayed until you resume monitoring.
@@ -1347,6 +1609,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Nya telegram visas inte förrän du återupptar övervakningen.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8629. `component::knx::config_panel::group_monitor::pause`
 
@@ -1356,6 +1620,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8630. `component::knx::config_panel::group_monitor::filters::source::sort::options::name`
 
 **Engelska:** [%key:component::knx::config_panel::group_monitor::columns::source_name%]
@@ -1363,6 +1629,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Källnamn
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8631. `component::knx::config_panel::group_monitor::filters::source::sort::options::address`
 
@@ -1372,6 +1640,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8632. `component::knx::config_panel::group_monitor::filters::destination::sort::options::name`
 
 **Engelska:** [%key:component::knx::config_panel::group_monitor::columns::destination_name%]
@@ -1379,6 +1649,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Målnamn
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8633. `component::knx::config_panel::group_monitor::filters::destination::sort::options::address`
 
@@ -1388,6 +1660,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8634. `component::knx::config_panel::group_monitor::direction::options::outgoing`
 
 **Engelska:** Outgoing
@@ -1395,6 +1669,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Utgående
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8635. `component::knx::config_panel::group_monitor::direction::options::incoming`
 
@@ -1404,6 +1680,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8636. `component::knx::config_panel::group_monitor::connection_error::title`
 
 **Engelska:** Connection error
@@ -1411,6 +1689,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Anslutningsfel
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8637. `component::knx::config_panel::group_monitor::connection_error::retry`
 
@@ -1420,6 +1700,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8638. `component::knx::config_panel::group_monitor::columns::value`
 
 **Engelska:** [%key:component::knx::config_panel::common::value%]
@@ -1427,6 +1709,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Värde
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8639. `component::knx::config_panel::group_monitor::columns::type`
 
@@ -1436,6 +1720,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8640. `component::knx::config_panel::group_monitor::columns::time_delta`
 
 **Engelska:** Time Δ
@@ -1443,6 +1729,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Tid Δ
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8641. `component::knx::config_panel::group_monitor::columns::time`
 
@@ -1452,6 +1740,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8642. `component::knx::config_panel::group_monitor::columns::source_name`
 
 **Engelska:** Source name
@@ -1459,6 +1749,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Källnamn
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8643. `component::knx::config_panel::group_monitor::columns::source`
 
@@ -1468,6 +1760,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8644. `component::knx::config_panel::group_monitor::columns::payload`
 
 **Engelska:** Payload
@@ -1475,6 +1769,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Nyttolast
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8645. `component::knx::config_panel::group_monitor::columns::direction`
 
@@ -1484,6 +1780,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8646. `component::knx::config_panel::group_monitor::columns::destination_name`
 
 **Engelska:** Destination name
@@ -1491,6 +1789,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Målnamn
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8647. `component::knx::config_panel::group_monitor::columns::destination`
 
@@ -1500,6 +1800,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8648. `component::knx::config_panel::group_monitor::clear_cache`
 
 **Engelska:** Clear cache
@@ -1507,6 +1809,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Töm cache
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8649. `component::knx::config_panel::expose::create::validation_error`
 
@@ -1516,6 +1820,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8650. `component::knx::config_panel::expose::create::loading`
 
 **Engelska:** Loading expose configuration.
@@ -1523,6 +1829,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Läser in konfigurationen för exponering.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8651. `component::knx::config_panel::expose::create::load_error`
 
@@ -1532,6 +1840,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8652. `component::knx::config_panel::entities::edit::title`
 
 **Engelska:** Edit entity
@@ -1539,6 +1849,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Redigera entitet
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8653. `component::knx::config_panel::dpt_reference::search_label_singular`
 
@@ -1548,6 +1860,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8654. `component::knx::config_panel::dpt_reference::search_label`
 
 **Engelska:** Search {count} items
@@ -1555,6 +1869,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Sök bland {count} objekt
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8655. `component::knx::config_panel::dialogs::telegram_info::value`
 
@@ -1564,6 +1880,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8656. `component::knx::config_panel::dialogs::telegram_info::type`
 
 **Engelska:** [%key:component::knx::config_panel::group_monitor::columns::type%]
@@ -1571,6 +1889,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Typ
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8657. `component::knx::config_panel::dialogs::telegram_info::title`
 
@@ -1580,6 +1900,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8658. `component::knx::config_panel::dialogs::telegram_info::source`
 
 **Engelska:** [%key:component::knx::config_panel::group_monitor::columns::source%]
@@ -1587,6 +1909,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Källa
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8659. `component::knx::config_panel::dialogs::telegram_info::payload`
 
@@ -1596,6 +1920,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8660. `component::knx::config_panel::dialogs::telegram_info::destination`
 
 **Engelska:** [%key:component::knx::config_panel::group_monitor::columns::destination%]
@@ -1603,6 +1929,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Mål
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8661. `component::knx::config_panel::dialogs::project_upload::current_project::title`
 
@@ -1612,6 +1940,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8662. `component::knx::config_panel::dialogs::project_upload::current_project::short_ets_version`
 
 **Engelska:** ETS {version}
@@ -1619,6 +1949,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** ETS {version}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8663. `component::knx::config_panel::dialogs::project_upload::current_project::modified`
 
@@ -1628,6 +1960,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8664. `component::knx::config_panel::dialogs::project_upload::current_project::last_modified::label`
 
 **Engelska:** [%key:component::knx::config_panel::info::project_data::last_modified::label%]
@@ -1635,6 +1969,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Senast ändrad
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8665. `component::knx::config_panel::dialogs::project_upload::current_project::imported_with::label`
 
@@ -1644,6 +1980,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8666. `component::knx::config_panel::dialogs::project_upload::current_project::ets_version::label`
 
 **Engelska:** ETS version
@@ -1651,6 +1989,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** ETS-version
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8667. `component::knx::config_panel::common::value`
 
@@ -1660,6 +2000,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8668. `component::knx::config_panel::common::title`
 
 **Engelska:** KNX
@@ -1667,6 +2009,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** KNX
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8669. `component::knx::config_panel::common::sort::title`
 
@@ -1676,6 +2020,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8670. `component::knx::config_panel::common::sort::sort_by`
 
 **Engelska:** Sort by:
@@ -1683,6 +2029,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Sortera efter:
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8671. `component::knx::config_panel::common::sort::options::value`
 
@@ -1692,6 +2040,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8672. `component::knx::config_panel::common::sort::options::total_count`
 
 **Engelska:** Total count
@@ -1699,6 +2049,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Totalt antal
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8673. `component::knx::config_panel::common::sort::options::filtered_count`
 
@@ -1708,6 +2060,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8674. `component::knx::config_panel::common::sort::options::description`
 
 **Engelska:** [%key:component::knx::config_panel::common::description%]
@@ -1715,6 +2069,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Beskrivning
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8675. `component::knx::config_panel::common::sort::options::count`
 
@@ -1724,6 +2080,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8676. `component::knx::config_panel::common::sort::options::badge`
 
 **Engelska:** Badge
@@ -1731,6 +2089,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Märke
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8677. `component::knx::config_panel::common::sort::descending_tooltip`
 
@@ -1740,6 +2100,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8678. `component::knx::config_panel::common::sort::descending`
 
 **Engelska:** Descending
@@ -1747,6 +2109,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Fallande
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8679. `component::knx::config_panel::common::sort::ascending_tooltip`
 
@@ -1756,6 +2120,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8680. `component::knx::config_panel::common::sort::ascending`
 
 **Engelska:** Ascending
@@ -1763,6 +2129,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Stigande
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8681. `component::knx::config_panel::common::filter::title`
 
@@ -1772,6 +2140,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8682. `component::knx::config_panel::common::filter::set_tooltip`
 
 **Engelska:** Filter by {value}
@@ -1779,6 +2149,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Filtrera efter {value}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8683. `component::knx::config_panel::common::filter::scroll_to_selection`
 
@@ -1788,6 +2160,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8684. `component::knx::config_panel::common::filter::remove_tooltip`
 
 **Engelska:** Remove filter for {value}
@@ -1795,6 +2169,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Ta bort filter för {value}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8685. `component::knx::config_panel::common::filter::pin_selected`
 
@@ -1804,6 +2180,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8686. `component::knx::config_panel::common::filter::no_results`
 
 **Engelska:** No results found
@@ -1811,6 +2189,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Inga resultat hittades
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8687. `component::knx::config_panel::common::filter::dpt::title`
 
@@ -1820,6 +2200,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8688. `component::knx::config_panel::common::filter::dpt::sort::options::number`
 
 **Engelska:** Number
@@ -1827,6 +2209,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Nummer
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8689. `component::knx::config_panel::common::dpt`
 
@@ -1836,6 +2220,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8690. `component::knx::config_panel::common::description`
 
 **Engelska:** Description
@@ -1843,6 +2229,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Beskrivning
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8691. `component::knx::config_panel::common::create_sensor`
 
@@ -1852,6 +2240,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8692. `component::knx::config_panel::common::create_binary_sensor`
 
 **Engelska:** Create binary sensor
@@ -1859,6 +2249,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Skapa binär sensor
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8693. `component::knx::config_panel::common::attention`
 
@@ -1868,6 +2260,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8694. `component::youtube::config_subentries::channel::step::user::description`
 
 **Engelska:** Select the channel you want to add.
@@ -1875,6 +2269,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Välj kanalen som du vill lägga till.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8695. `component::youtube::config_subentries::channel::step::user::data::channel_id`
 
@@ -1884,6 +2280,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8696. `component::youtube::config_subentries::channel::initiate_flow::user`
 
 **Engelska:** Add channel
@@ -1891,6 +2289,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Lägg till kanal
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8697. `component::youtube::config_subentries::channel::entry_type`
 
@@ -1900,6 +2300,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8698. `component::youtube::config_subentries::channel::abort::unknown_channel`
 
 **Engelska:** The selected channel is no longer available.
@@ -1907,6 +2309,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Den valda kanalen är inte längre tillgänglig.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8699. `component::youtube::config_subentries::channel::abort::unknown`
 
@@ -1916,6 +2320,8 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::unknown`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 8700. `component::youtube::config_subentries::channel::abort::no_subscriptions`
 
 **Engelska:** There are no channels available to add.
@@ -1923,3 +2329,22 @@ Om du väljer OpenAI måste du konfigurera en API-nyckel i Mealie.
 **Befintlig svenska:** Det finns inga kanaler att lägga till.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+## Livegranskning 2026-11-24
+
+Alla 240 poster kontrollerades rad för rad mot live-Lokalise och aktuell Core-källa. 31 källor använder nu nyckelreferenser; deras 21 unika mål kontrollerades. Alla 31 konsumenter matchar referensmålen, inklusive de två Portainer-målen som redan dokumenterats i den separata uppföljningen.
+
+### Ändringar och äldre förslag
+
+- En Portainer-beskrivning förtydligades och sparades. Av de sju skillnaderna mot arkivrapporten återstod sex redan live: fyra andra gamla rekommendationer och två anslutningsfel som matchar den gemensamma `cannot_connect`-texten.
+- 29 ENGIE BE-förslag om `låglasttid`/`höglasttid` avfördes. De skulle bryta mot etablerad HA-terminologi (`lågtrafik`/`högtrafik`) och livevärdena är korrekta.
+- Platshållaruppsättningarna jämfördes på alla poster mot engelsk källa: 0 avvikelser. Pluralposter: 0.
+- Fullständig TM-export hade redan hämtats i föregående batch; dessa 240 poster och referensmål förs nu in med granskningsstatus.
+- Nästa batch börjar vid 8701; Core-granskningen fortsätter.
+
+## Ny korrigering 2026-11-24
+
+| Fullständig nyckel | Tidigare live-text | Sparad text | Motivering |
+| --- | --- | --- | --- |
+| `component::portainer::services::prune_build_cache::fields::until::description` | Rensa bara byggcache som inte har använts under den angivna tidsperioden. Om inget värde anges rensas byggcache oavsett ålder. | Rensa endast byggcache vars senaste användning ligger längre tillbaka än den angivna tidsperioden. Om ingen tidsperiod anges rensas byggcache oavsett ålder. | Återger villkoret *last used longer ago than this duration* mer direkt och behåller beteendet när inget värde anges. API-readback verifierad. `svlang natural`: 8,8/10; Hunspell inga träffar. |
