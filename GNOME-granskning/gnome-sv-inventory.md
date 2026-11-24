@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:47 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:50 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -339,7 +339,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/sticky-notes/sv/) | master | 106 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/multiload/sv/) | master | 123 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/gweather/sv/) | master | 151 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-bluetooth](https://l10n.gnome.org/vertimus/gnome-bluetooth/master/po/sv/) | master | 93 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-bluetooth](https://l10n.gnome.org/vertimus/gnome-bluetooth/master/po/sv/) | master | 93 | 0 | 0 | Klar | X | 6 | Klar lokalt (2026-11-24): Hela 94-strängarskatalogen är radgranskad mot senaste POT. Sex befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](gnome-bluetooth/master/po/gnome-bluetooth.master.sv.original.po), [granskad](gnome-bluetooth/master/po/gnome-bluetooth.master.sv.reviewed.po), [diff](gnome-bluetooth/master/po/gnome-bluetooth.master.sv.review.diff), [notering](gnome-bluetooth/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [gnome-books](https://l10n.gnome.org/module/gnome-books/) | master | 141 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-boxes](https://l10n.gnome.org/vertimus/gnome-boxes/main/po/sv/) | main | 256 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-boxes](https://l10n.gnome.org/vertimus/gnome-boxes/gnome-50/po/sv/) | gnome-50 | 252 | 0 | 0 | Klar |  | — | Ej granskad |
