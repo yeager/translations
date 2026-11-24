@@ -57,3 +57,10 @@
 - Två tröskelfält kräver källuppföljning; åtta nycklar matchar direkt.
 - Core-TMX validerad: 16 471 poster; Core-export: 42 624 språkpar och 32 exkluderade nycklar.
 - Granskningen fortsätter.
+
+## 2026-11-24 – Core 23641–23760
+
+- 18 poster granskade: 6 ändringar sparade och återlästa, 12 befintliga värden verifierade.
+- Två engelska temperaturreferensmål kontrollerade; 9 sökvägar behöver fortsatt ursprungskontroll.
+- Core-TMX validerad: 16 487 poster. Exporten har 42 624 språkpar och 32 exkluderade nycklar.
+- Granskningen fortsätter.
