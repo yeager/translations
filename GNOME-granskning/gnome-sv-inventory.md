@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 01:56 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 01:58 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -210,7 +210,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [brasero](https://l10n.gnome.org/vertimus/brasero/master/po/sv/) | master | 974 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [brasero](https://l10n.gnome.org/vertimus/brasero/master/help/sv/) | master | 143 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [buoh](https://l10n.gnome.org/module/buoh/) | master | 82 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [bustle](https://l10n.gnome.org/vertimus/bustle/main/po/sv/) | main | 140 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [bustle](https://l10n.gnome.org/vertimus/bustle/main/po/sv/) | main | 140 | 0 | 0 | Klar | X | 6 | Klar lokalt (2026-11-24): Hela 140-strängarskatalogen är radgranskad mot senaste POT. Sex befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](bustle/main/po/bustle.main.sv.original.po), [granskad](bustle/main/po/bustle.main.sv.reviewed.po), [diff](bustle/main/po/bustle.main.sv.review.diff), [notering](bustle/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [calls](https://l10n.gnome.org/vertimus/calls/main/po/sv/) | main | 122 | 0 | 0 | Klar | X | 3 | Klar lokalt (2026-11-24): Hela 122-strängarskatalogen är radgranskad mot senaste POT. Tre befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](calls/main/po/calls.main.sv.original.po), [granskad](calls/main/po/calls.main.sv.reviewed.po), [diff](calls/main/po/calls.main.sv.review.diff), [notering](calls/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [caribou](https://l10n.gnome.org/module/caribou/) | master | 56 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [chatty](https://l10n.gnome.org/vertimus/chatty/main/po/sv/) | main | 429 | 0 | 0 | Klar |  | — | Ej granskad |
