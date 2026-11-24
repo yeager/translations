@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 01:43 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 01:46 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -265,7 +265,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [five-or-more](https://l10n.gnome.org/vertimus/five-or-more/main/help/sv/) | main | 143 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [folks](https://l10n.gnome.org/vertimus/folks/main/po/sv/) | main | 124 | 0 | 0 | Klar | X | 3 | Klar lokalt (2026-11-24): Hela 124-strängarskatalogen är radgranskad mot senaste POT. Tre befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](folks/main/po/folks.main.sv.original.po), [granskad](folks/main/po/folks.main.sv.reviewed.po), [diff](folks/main/po/folks.main.sv.review.diff), [notering](folks/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [foundry — Developer tools](https://l10n.gnome.org/vertimus/foundry/main/po/sv/) | main | 451 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [four-in-a-row](https://l10n.gnome.org/vertimus/four-in-a-row/master/po/sv/) | master | 136 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [four-in-a-row](https://l10n.gnome.org/vertimus/four-in-a-row/master/po/sv/) | master | 136 | 0 | 0 | Klar | X | 7 | Klar lokalt (2026-11-24): Hela 136-strängarskatalogen är radgranskad mot senaste POT. Sju befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](four-in-a-row/master/po/four-in-a-row.master.sv.original.po), [granskad](four-in-a-row/master/po/four-in-a-row.master.sv.reviewed.po), [diff](four-in-a-row/master/po/four-in-a-row.master.sv.review.diff), [notering](four-in-a-row/master/po/README.md) |
 | Dokumentation | Default (71% translated) | [four-in-a-row](https://l10n.gnome.org/vertimus/four-in-a-row/master/help/sv/) | master | 60 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [fprintd](https://l10n.gnome.org/vertimus/fprintd/master/po/sv/) | master | 67 | 0 | 0 | Klar | X | 5 | Klar lokalt (2026-11-24): Hela 67-strängarskatalogen är radgranskad mot senaste POT. Fem befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp, l10n-lint, Hunspell och formatsträngskontrollen saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](fprintd/master/po/fprintd.master.po.sv.original.po), [granskad](fprintd/master/po/fprintd.master.po.sv.reviewed.po), [diff](fprintd/master/po/fprintd.master.po.sv.review.diff), [notering](fprintd/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [fragments](https://l10n.gnome.org/vertimus/fragments/main/po/sv/) | main | 242 | 0 | 0 | Klar |  | — | Ej granskad |
