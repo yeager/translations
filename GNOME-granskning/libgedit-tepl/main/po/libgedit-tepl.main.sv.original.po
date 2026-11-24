@@ -1,0 +1,667 @@
+# Swedish translation for tepl.
+# Copyright © 2017-2025 tepl's COPYRIGHT HOLDER
+# This file is distributed under the same license as the tepl package.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017, 2018, 2020, 2021, 2024, 2025.
+# Josef Andersson <l10nl18nsweja@gmail.com>, 2017.
+# Luna Jernberg <droidbittin@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tepl main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/gedit/libgedit-tepl/-/"
+"issues\n"
+"POT-Creation-Date: 2026-04-27 14:30+0000\n"
+"PO-Revision-Date: 2025-01-17 13:41+0100\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+
+#. action, icon, label, accel, tooltip
+#. File menu
+#. Why "file" and not "document"? "Document" is not the best
+#. word because the action is not always to create a new
+#. document. For example a LaTeX document can be composed of
+#. several _files_. Or for source code we do not really create a
+#. new "document".
+#: tepl/tepl-application.c:79
+msgid "_New"
+msgstr "_Ny"
+
+#: tepl/tepl-application.c:80
+msgid "New file"
+msgstr "Ny fil"
+
+#: tepl/tepl-application.c:82
+msgid "New _Window"
+msgstr "Nytt _fönster"
+
+#: tepl/tepl-application.c:83
+msgid "Create a new window"
+msgstr "Skapa ett nytt fönster"
+
+#: tepl/tepl-application.c:85 tepl/tepl-window-actions-file.c:83
+msgid "_Open"
+msgstr "Ö_ppna"
+
+#: tepl/tepl-application.c:86
+msgid "Open a file"
+msgstr "Öppna en fil"
+
+#: tepl/tepl-application.c:88 tepl/tepl-close-confirm-dialog-single.c:137
+#: tepl/tepl-tab-saving.c:281
+msgid "_Save"
+msgstr "_Spara"
+
+#: tepl/tepl-application.c:89
+msgid "Save the current file"
+msgstr "Spara aktuell fil"
+
+#: tepl/tepl-application.c:91
+msgid "Save _As"
+msgstr "S_para som"
+
+#: tepl/tepl-application.c:92
+msgid "Save the current file to a different location"
+msgstr "Spara den aktuella filen till en annan plats"
+
+#. Edit menu
+#: tepl/tepl-application.c:96
+msgid "_Undo"
+msgstr "Å_ngra"
+
+#: tepl/tepl-application.c:97
+msgid "Undo the last action"
+msgstr "Ångra den senaste åtgärden"
+
+#: tepl/tepl-application.c:99
+msgid "_Redo"
+msgstr "_Gör om"
+
+#: tepl/tepl-application.c:100
+msgid "Redo the last undone action"
+msgstr "Gör om senaste ångrade åtgärden"
+
+#: tepl/tepl-application.c:102
+msgid "Cu_t"
+msgstr "Klipp _ut"
+
+#: tepl/tepl-application.c:103
+msgid "Cut the selection"
+msgstr "Klipp ut markering"
+
+#: tepl/tepl-application.c:105
+msgid "_Copy"
+msgstr "_Kopiera"
+
+#: tepl/tepl-application.c:106
+msgid "Copy the selection"
+msgstr "Kopiera markeringen"
+
+#: tepl/tepl-application.c:108
+msgid "_Paste"
+msgstr "K_listra in"
+
+#: tepl/tepl-application.c:109
+msgid "Paste the clipboard"
+msgstr "Klistra in urklipp"
+
+#: tepl/tepl-application.c:111
+msgid "_Delete"
+msgstr "_Ta bort"
+
+#: tepl/tepl-application.c:112
+msgid "Delete the selected text"
+msgstr "Ta bort den markerade texten"
+
+#: tepl/tepl-application.c:114
+msgid "Select _All"
+msgstr "Markera _allt"
+
+#: tepl/tepl-application.c:115
+msgid "Select all the text"
+msgstr "Markera all text"
+
+#: tepl/tepl-application.c:117
+msgid "_Indent"
+msgstr "_Indentera"
+
+#: tepl/tepl-application.c:118
+msgid "Indent the selected lines"
+msgstr "Indentera de markerade raderna"
+
+#: tepl/tepl-application.c:120
+msgid "_Unindent"
+msgstr "_Avindentera"
+
+#: tepl/tepl-application.c:121
+msgid "Unindent the selected lines"
+msgstr "Avindentera de markerade raderna"
+
+#. Search menu
+#: tepl/tepl-application.c:125
+msgid "_Go to Line…"
+msgstr "_Gå till rad…"
+
+#: tepl/tepl-application.c:126
+msgid "Go to a specific line"
+msgstr "Gå till en specifik rad"
+
+#: tepl/tepl-application-window.c:156
+msgid "Read-Only"
+msgstr "Skrivskyddad"
+
+#: tepl/tepl-close-confirm-dialog-single.c:119
+#, c-format
+msgid "Save changes to file “%s” before closing?"
+msgstr "Spara ändringar till filen ”%s” innan du stänger?"
+
+#: tepl/tepl-close-confirm-dialog-single.c:125
+msgid "Close _without Saving"
+msgstr "Stäng _utan att spara"
+
+#: tepl/tepl-close-confirm-dialog-single.c:131
+#: tepl/tepl-language-chooser-dialog.c:130 tepl/tepl-prefs-dialog.c:217
+#: tepl/tepl-progress-info-bar.c:52 tepl/tepl-tab-saving.c:280
+#: tepl/tepl-window-actions-file.c:82
+msgid "_Cancel"
+msgstr "A_vbryt"
+
+#: tepl/tepl-close-confirm-dialog-single.c:143
+msgid "_Save As…"
+msgstr "_Spara som…"
+
+#: tepl/tepl-goto-line-bar.c:234
+msgid "Go to line:"
+msgstr "Gå till rad:"
+
+#: tepl/tepl-goto-line-bar.c:242
+msgid "Close"
+msgstr "Stäng"
+
+#. Translators: the first %s is a filename and the second %s is an
+#. * application name.
+#.
+#: tepl/tepl-io-error-info-bars.c:76
+#, c-format
+msgid "This file (%s) is already open in another %s window."
+msgstr "Denna fil ”%s” är redan öppnad i ett annat %s-fönster."
+
+#: tepl/tepl-io-error-info-bars.c:89
+#, c-format
+msgid ""
+"%s opened this instance of the file in a non-editable way. Do you want to "
+"edit it anyway?"
+msgstr ""
+"%s öppnade denna instans av filen på ett ej redigerbart sätt. Vill du "
+"redigera den i alla fall?"
+
+#: tepl/tepl-io-error-info-bars.c:95
+msgid "_Edit Anyway"
+msgstr "R_edigera ändå"
+
+#: tepl/tepl-io-error-info-bars.c:99
+msgid "_Keep Read-Only"
+msgstr "_Behåll skrivskyddad"
+
+#: tepl/tepl-io-error-info-bars.c:141
+#, c-format
+msgid "Could not create a backup file while saving “%s”."
+msgstr "Kunde inte skapa en säkerhetskopia när ”%s” sparades."
+
+#: tepl/tepl-io-error-info-bars.c:146
+msgid ""
+"Could not back up the old copy of the file before saving the new one. You "
+"can ignore this warning and save the file anyway, but if an error occurs "
+"while saving, you could lose the old copy of the file. Save anyway?"
+msgstr ""
+"Kunde inte säkerhetskopiera den gamla kopian av filen före den nya sparas. "
+"Du kan ignorera denna varning och spara filen ändå, men om ett fel inträffar "
+"när den sparas så kan du förlora den gamla kopian av filen. Spara ändå?"
+
+#: tepl/tepl-io-error-info-bars.c:155
+#, c-format
+msgid "Error message: %s"
+msgstr "Felmeddelande: %s"
+
+#: tepl/tepl-io-error-info-bars.c:161 tepl/tepl-io-error-info-bars.c:264
+#: tepl/tepl-io-error-info-bars.c:314
+msgid "_Save Anyway"
+msgstr "_Spara ändå"
+
+#: tepl/tepl-io-error-info-bars.c:165 tepl/tepl-io-error-info-bars.c:268
+#: tepl/tepl-io-error-info-bars.c:318
+msgid "_Don’t Save"
+msgstr "Spara _inte"
+
+#: tepl/tepl-io-error-info-bars.c:203
+#, c-format
+msgid "The file “%s” changed on disk."
+msgstr "Filen ”%s” har ändrats på disken."
+
+#: tepl/tepl-io-error-info-bars.c:210
+msgid ""
+"This document has unsaved modifications. Do you want to drop your changes "
+"and reload the file?"
+msgstr ""
+"Detta dokument har osparade ändringar. Vill du förkasta dina ändringar och "
+"läsa in filen igen?"
+
+#: tepl/tepl-io-error-info-bars.c:215
+msgid "Do you want to reload the file?"
+msgstr "Vill du läsa in filen igen?"
+
+#: tepl/tepl-io-error-info-bars.c:220
+msgid "Drop Changes and _Reload"
+msgstr "Förkasta ändringar och _läs om"
+
+#: tepl/tepl-io-error-info-bars.c:220
+msgid "_Reload"
+msgstr "_Läs om"
+
+#: tepl/tepl-io-error-info-bars.c:226
+msgid "_Ignore"
+msgstr "_Ignorera"
+
+#: tepl/tepl-io-error-info-bars.c:256
+#, c-format
+msgid "The file “%s” has been externally modified."
+msgstr "Filen ”%s” har ändrats externt."
+
+#: tepl/tepl-io-error-info-bars.c:257
+msgid "If you save it, all the external changes could be lost. Save it anyway?"
+msgstr ""
+"Om du sparar den så kan alla externa ändringar gå förlorade. Spara den ändå?"
+
+#: tepl/tepl-io-error-info-bars.c:303
+#, c-format
+msgid "Some invalid characters have been detected while saving “%s”."
+msgstr "Några ogiltiga tecken har upptäckts under sparning av ”%s”."
+
+#: tepl/tepl-io-error-info-bars.c:309
+msgid ""
+"If you continue saving this file you can corrupt the document. Save anyway?"
+msgstr ""
+"Om du fortsätter med att spara denna fil kan du skada dokumentet. Spara ändå?"
+
+#. chooser_dialog config
+#: tepl/tepl-language-chooser-dialog.c:125
+msgid "Highlight Mode"
+msgstr "Färgmarkeringsläge"
+
+#: tepl/tepl-language-chooser-dialog.c:131
+msgid "_Select"
+msgstr "_Markera"
+
+#: tepl/tepl-language-chooser-widget.c:76
+msgid "Plain Text"
+msgstr "Vanlig text"
+
+#: tepl/tepl-language-chooser-widget.c:446
+msgid "Search highlight mode…"
+msgstr "Sök färgmarkeringsläge…"
+
+#. Translators: "Ln" is an abbreviation for "Line", Col is an
+#. * abbreviation for "Column". Please, use abbreviations if possible.
+#.
+#: tepl/tepl-line-column-indicator.c:49
+#, c-format
+msgid "Ln %d, Col %d"
+msgstr "Rad %d, Kol %d"
+
+#. Translators: do not translate <metadata>.
+#: tepl/tepl-metadata-parser.c:83
+#, c-format
+msgid "The XML file must start with a <metadata> element, not “%s”."
+msgstr "XML-filen måste starta med elementet <metadata>, inte ”%s”."
+
+#. Translators: do not translate <document>.
+#: tepl/tepl-metadata-parser.c:115
+#, c-format
+msgid "Expected a <document> element, got “%s” instead."
+msgstr "Förväntade elementet <document>, hittade ”%s” istället."
+
+#. Translators: do not translate “atime”.
+#: tepl/tepl-metadata-parser.c:141
+#, c-format
+msgid "Failed to parse the “atime” attribute value “%s”."
+msgstr "Misslyckades med att tolka attributvärdet ”%s” för ”atime”."
+
+#. Translators: do not translate <document>, “uri” and “atime”.
+#: tepl/tepl-metadata-parser.c:156
+msgid "The <document> element must contain the “uri” and “atime” attributes."
+msgstr "Elementet <document> måste innehålla attributen ”uri” och ”atime”."
+
+#. Translators: do not translate <entry>.
+#: tepl/tepl-metadata-parser.c:185
+#, c-format
+msgid "Expected an <entry> element, got “%s” instead."
+msgstr "Förväntade elementet <entry>, hittade ”%s” istället."
+
+#. Translators: do not translate <entry>, “key” and “value”.
+#: tepl/tepl-metadata-parser.c:211
+msgid "The <entry> element is missing the “key” or “value” attribute."
+msgstr "Elementet <entry> saknar attributet ”key” eller ”value”."
+
+#. Translators: "INS" is the abbreviation for "Insert", for the text
+#. * cursor mode. The translation should be short too.
+#.
+#: tepl/tepl-overwrite-indicator.c:65
+msgid "INS"
+msgstr "INF"
+
+#. Translators: "OVR" is the abbreviation for "Overwrite", for the text
+#. * cursor mode. The translation should be short too.
+#.
+#: tepl/tepl-overwrite-indicator.c:74
+msgid "OVR"
+msgstr "ÖVR"
+
+#: tepl/tepl-panel1.c:95
+msgid "Hide panel"
+msgstr "Dölj panel"
+
+#: tepl/tepl-prefs.c:69
+#, c-format
+msgid "_Use the system fixed width font (%s)"
+msgstr "_Använd systemets typsnitt med fast breddsteg (%s)"
+
+#: tepl/tepl-prefs.c:137
+msgid "Editor _font:"
+msgstr "_Typsnitt för redigerare:"
+
+#: tepl/tepl-prefs.c:169
+msgid "Font"
+msgstr "Typsnitt"
+
+#: tepl/tepl-prefs.c:188
+msgid "_Display line numbers"
+msgstr "_Visa radnummer"
+
+#: tepl/tepl-prefs.c:218
+msgid "_Tab width:"
+msgstr "_Tabulatorbredd:"
+
+#: tepl/tepl-prefs.c:264
+msgid "Insert _spaces instead of tabs"
+msgstr "Infoga _blanksteg i stället för tabulatortecken"
+
+#: tepl/tepl-prefs.c:268
+msgid "_Forget you are not using tabulations"
+msgstr "_Glöm att du inte använder tabulatorer"
+
+#: tepl/tepl-prefs.c:317
+msgid "Highlight current _line"
+msgstr "Färgmarkera _aktuell rad"
+
+#: tepl/tepl-prefs.c:321
+msgid "Highlight matching _brackets"
+msgstr "Färgmarkera matchande _parenteser"
+
+#: tepl/tepl-prefs.c:323
+msgid "Highlighting"
+msgstr "Färgmarkering"
+
+#: tepl/tepl-prefs.c:347
+msgid "_Autosave files"
+msgstr "Spara filer _automatiskt"
+
+#: tepl/tepl-prefs.c:349
+msgid "Time in _minutes between each autosave:"
+msgstr "Tid i _minuter mellan varje automatisk sparning:"
+
+#: tepl/tepl-prefs.c:415
+msgid "_Create a backup copy of files before saving"
+msgstr "S_kapa en säkerhetskopia av filer innan de sparas"
+
+#: tepl/tepl-prefs.c:421
+msgid "Files"
+msgstr "Filer"
+
+#: tepl/tepl-prefs.c:451
+msgid "Follow system style"
+msgstr "Följ systemets stil"
+
+#: tepl/tepl-prefs.c:454
+msgid "Light style"
+msgstr "Ljus stil"
+
+#: tepl/tepl-prefs.c:455
+msgid "Dark style"
+msgstr "Mörk stil"
+
+#: tepl/tepl-prefs.c:461
+msgid "Theme Variant"
+msgstr "Temavariant"
+
+#: tepl/tepl-prefs.c:494
+msgid "Display right _margin at column:"
+msgstr "Visa höger_marginal på kolumn:"
+
+#: tepl/tepl-prefs.c:544
+msgid "Display _statusbar"
+msgstr "Visa _statusrad"
+
+#: tepl/tepl-prefs-dialog.c:96
+msgid "Preferences"
+msgstr "Inställningar"
+
+#: tepl/tepl-prefs-dialog.c:214
+msgid "Do you really want to reset all preferences?"
+msgstr "Är du säker på att du vill återställa alla inställningar?"
+
+#: tepl/tepl-prefs-dialog.c:221
+msgid "_Reset All"
+msgstr "Åte_rställ alla"
+
+#: tepl/tepl-prefs-dialog.c:253
+msgid "_Reset All…"
+msgstr "Åte_rställ alla…"
+
+#: tepl/tepl-prefs-dialog.c:254
+msgid "Reset all preferences"
+msgstr "Återställ alla inställningar"
+
+#: tepl/tepl-space-drawer-prefs.c:190 tepl/tepl-space-drawer-prefs.c:192
+#: tepl/tepl-space-drawer-prefs.c:194
+msgid "Draw tabs"
+msgstr "Rita ut tabulatorer"
+
+#: tepl/tepl-space-drawer-prefs.c:191 tepl/tepl-space-drawer-prefs.c:193
+#: tepl/tepl-space-drawer-prefs.c:195
+msgid "Draw spaces"
+msgstr "Rita ut blanksteg"
+
+#: tepl/tepl-space-drawer-prefs.c:196
+msgid "Draw new lines"
+msgstr "Rita ut nya rader"
+
+#: tepl/tepl-space-drawer-prefs.c:232
+msgid "Leading Spaces"
+msgstr "Inledande blanksteg"
+
+#: tepl/tepl-space-drawer-prefs.c:236
+msgid "Spaces Inside Text"
+msgstr "Blanksteg inuti text"
+
+#: tepl/tepl-space-drawer-prefs.c:240
+msgid "Trailing Spaces"
+msgstr "Eftersläpande blanksteg"
+
+#: tepl/tepl-space-drawer-prefs.c:260
+msgid "Tab"
+msgstr "Tabulator"
+
+#: tepl/tepl-space-drawer-prefs.c:261
+msgid "Space"
+msgstr "Blanksteg"
+
+#: tepl/tepl-space-drawer-prefs.c:262
+msgid "No-Break Space"
+msgstr "Icke-brytande blanksteg"
+
+#: tepl/tepl-space-drawer-prefs.c:263
+msgid "Narrow No-Break Space"
+msgstr "Smalt icke-brytande blanksteg"
+
+#: tepl/tepl-space-drawer-prefs.c:282
+msgid "Result"
+msgstr "Resultat"
+
+#: tepl/tepl-space-drawer-prefs.c:315
+msgid "Information"
+msgstr "Information"
+
+#: tepl/tepl-space-drawer-prefs.c:317
+msgid ""
+"When white space drawing is enabled, then non-breaking spaces are always "
+"drawn at all locations, to distinguish them from normal spaces."
+msgstr ""
+"När utritning av blanksteg är aktiverad ritas icke-brytande blanksteg alltid "
+"ut på alla platser, för att skilja dem från vanliga blanksteg."
+
+#: tepl/tepl-style-scheme-chooser-full.c:90
+msgid "Color Scheme for the Dark Theme Variant"
+msgstr "Färgschema för den mörka temavarianten"
+
+#: tepl/tepl-style-scheme-chooser-full.c:94
+msgid "Color Scheme for the Light Theme Variant"
+msgstr "Färgschema för den ljusa temavarianten"
+
+#: tepl/tepl-style-scheme-row.c:67
+msgid "Unsupported for the dark theme variant"
+msgstr "Stöds ej för den mörka temavarianten"
+
+#: tepl/tepl-style-scheme-row.c:70
+msgid "Unsupported for the light theme variant"
+msgstr "Stöds ej för den ljusa temavarianten"
+
+#. Translators: location of a file.
+#: tepl/tepl-tab-label.c:249
+msgid "Location:"
+msgstr "Plats:"
+
+#: tepl/tepl-tab-label.c:318
+msgid "Close file"
+msgstr "Stäng fil"
+
+#: tepl/tepl-tab-loading.c:36
+msgid "Error when loading the file."
+msgstr "Fel vid inläsning av filen."
+
+#: tepl/tepl-tab-saving.c:49
+msgid "Error when saving the file."
+msgstr "Fel vid sparande av filen."
+
+#: tepl/tepl-tab-saving.c:277
+msgid "Save File"
+msgstr "Spara fil"
+
+#. Create a GtkFileChooserDialog, not a GtkFileChooserNative, because
+#. * with GtkFileChooserNative the GFile that we obtain (in flatpak)
+#. * doesn't have the real path to the file, so it would ruin some
+#. * features for text editors:
+#. * - showing the directory in parentheses in the window title, or in the
+#. *   tab tooltip;
+#. * - opening a recent file.
+#. * Basically everywhere where the directory is shown.
+#.
+#: tepl/tepl-window-actions-file.c:79
+msgid "Open File"
+msgstr "Öppna fil"
+
+#~ msgid "Unicode"
+#~ msgstr "Unicode"
+
+#~ msgid "Western"
+#~ msgstr "Västerländsk"
+
+#~ msgid "Central European"
+#~ msgstr "Centraleuropeisk"
+
+#~ msgid "South European"
+#~ msgstr "Sydeuropeisk"
+
+#~ msgid "Baltic"
+#~ msgstr "Baltisk"
+
+#~ msgid "Cyrillic"
+#~ msgstr "Kyrillisk"
+
+#~ msgid "Arabic"
+#~ msgstr "Arabisk"
+
+#~ msgid "Greek"
+#~ msgstr "Grekisk"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "Hebreisk visuell"
+
+#~ msgid "Turkish"
+#~ msgstr "Turkisk"
+
+#~ msgid "Nordic"
+#~ msgstr "Nordisk"
+
+#~ msgid "Celtic"
+#~ msgstr "Keltisk"
+
+#~ msgid "Romanian"
+#~ msgstr "Rumänsk"
+
+#~ msgid "Armenian"
+#~ msgstr "Armenisk"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Traditionell kinesisk"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "Kyrillisk/rysk"
+
+#~ msgid "Japanese"
+#~ msgstr "Japansk"
+
+#~ msgid "Korean"
+#~ msgstr "Koreansk"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Förenklad kinesisk"
+
+#~ msgid "Georgian"
+#~ msgstr "Georgisk"
+
+#~ msgid "Hebrew"
+#~ msgstr "Hebreisk"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "Kyrillisk/ukrainsk"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnamesisk"
+
+#~ msgid "Thai"
+#~ msgstr "Thailändsk"
+
+#, c-format
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+#~ msgstr "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+
+#~ msgid "The content must be encoded with the UTF-8 character encoding."
+#~ msgstr "Innehållet måste vara kodat med teckenkodningen UTF-8."
+
+#~ msgid "Display _grid pattern"
+#~ msgstr "Visa r_utnätsmönster"
+
+#, c-format
+#~ msgid "Untitled File %d"
+#~ msgstr "Namnlös fil %d"
+
+#~ msgid "_Don’t Edit"
+#~ msgstr "Redigera _inte"

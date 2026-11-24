@@ -1,0 +1,82 @@
+diff --git a/.work-gnome-review/libgedit-tepl-main-po/original.po b/.work-gnome-review/libgedit-tepl-main-po/sv.po
+index 88d1f18..80af4a3 100644
+--- a/.work-gnome-review/libgedit-tepl-main-po/original.po
++++ b/.work-gnome-review/libgedit-tepl-main-po/sv.po
+@@ -4,6 +4,7 @@
+ # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017, 2018, 2020, 2021, 2024, 2025.
+ # Josef Andersson <l10nl18nsweja@gmail.com>, 2017.
+ # Luna Jernberg <droidbittin@gmail.com>, 2020.
++# Daniel Nylander <gnome@danielnylander.se>, 2026.
+ #
+ msgid ""
+ msgstr ""
+@@ -11,8 +12,8 @@ msgstr ""
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/gedit/libgedit-tepl/-/"
+ "issues\n"
+ "POT-Creation-Date: 2026-04-27 14:30+0000\n"
+-"PO-Revision-Date: 2025-01-17 13:41+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -158,7 +159,7 @@ msgstr "Skrivskyddad"
+ #: tepl/tepl-close-confirm-dialog-single.c:119
+ #, c-format
+ msgid "Save changes to file “%s” before closing?"
+-msgstr "Spara ändringar till filen ”%s” innan du stänger?"
++msgstr "Spara ändringar i filen ”%s” innan du stänger?"
+ 
+ #: tepl/tepl-close-confirm-dialog-single.c:125
+ msgid "Close _without Saving"
+@@ -219,7 +220,7 @@ msgid ""
+ "can ignore this warning and save the file anyway, but if an error occurs "
+ "while saving, you could lose the old copy of the file. Save anyway?"
+ msgstr ""
+-"Kunde inte säkerhetskopiera den gamla kopian av filen före den nya sparas. "
++"Kunde inte säkerhetskopiera den gamla kopian av filen innan den nya sparas. "
+ "Du kan ignorera denna varning och spara filen ändå, men om ett fel inträffar "
+ "när den sparas så kan du förlora den gamla kopian av filen. Spara ändå?"
+ 
+@@ -323,7 +324,7 @@ msgstr "XML-filen måste starta med elementet <metadata>, inte ”%s”."
+ #: tepl/tepl-metadata-parser.c:115
+ #, c-format
+ msgid "Expected a <document> element, got “%s” instead."
+-msgstr "Förväntade elementet <document>, hittade ”%s” istället."
++msgstr "Förväntade elementet <document>, hittade ”%s” i stället."
+ 
+ #. Translators: do not translate “atime”.
+ #: tepl/tepl-metadata-parser.c:141
+@@ -340,7 +341,7 @@ msgstr "Elementet <document> måste innehålla attributen ”uri” och ”atime
+ #: tepl/tepl-metadata-parser.c:185
+ #, c-format
+ msgid "Expected an <entry> element, got “%s” instead."
+-msgstr "Förväntade elementet <entry>, hittade ”%s” istället."
++msgstr "Förväntade elementet <entry>, hittade ”%s” i stället."
+ 
+ #. Translators: do not translate <entry>, “key” and “value”.
+ #: tepl/tepl-metadata-parser.c:211
+@@ -392,7 +393,7 @@ msgstr "Infoga _blanksteg i stället för tabulatortecken"
+ 
+ #: tepl/tepl-prefs.c:268
+ msgid "_Forget you are not using tabulations"
+-msgstr "_Glöm att du inte använder tabulatorer"
++msgstr "_Glöm att tabulatorer inte används"
+ 
+ #: tepl/tepl-prefs.c:317
+ msgid "Highlight current _line"
+@@ -534,11 +535,11 @@ msgstr "Färgschema för den ljusa temavarianten"
+ 
+ #: tepl/tepl-style-scheme-row.c:67
+ msgid "Unsupported for the dark theme variant"
+-msgstr "Stöds ej för den mörka temavarianten"
++msgstr "Stöds inte för den mörka temavarianten"
+ 
+ #: tepl/tepl-style-scheme-row.c:70
+ msgid "Unsupported for the light theme variant"
+-msgstr "Stöds ej för den ljusa temavarianten"
++msgstr "Stöds inte för den ljusa temavarianten"
+ 
+ #. Translators: location of a file.
+ #: tepl/tepl-tab-label.c:249
