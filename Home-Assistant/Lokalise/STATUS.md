@@ -15,3 +15,10 @@
 - Core-TMX uppdaterad och validerad: 16 421 poster.
 - Aktuell Core-export: 75 645 enheter och 42 613 språkpar; 32 exkluderade synliga nycklar.
 - Övergripande Core-granskning fortsätter; inte komplett.
+
+## 2026-11-24 – Core 22921–23040
+
+- 10 strängar granskade; 10 ändringar sparade och återlästa i Lokalise.
+- Alla 10 källsökvägar matchar aktuell Core-källa.
+- Core-TMX uppdaterad och validerad: 16 431 poster. Exporten har 42 616 språkpar och 32 exkluderade synliga nycklar.
+- Hela Core-granskningen fortsätter.
