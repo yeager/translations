@@ -1,6 +1,6 @@
 # Home Assistant Core – granskning 7261–7500
 
-Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Referenser vars mål inte finns i underlaget markeras för senare kontroll.
+Sortering: ”Last added” vid insamlingen. Livegranskning gjordes 2026-11-24 mot Lokalise API och Home Assistant Core-källträdet på commit `2fdaa177f3e94535b3b649fb1ffc2dbba52eb4ce`. Alla 240 nycklar återfanns. Tidigare sparningsrapport för denna batch kontrollerades först för att undvika dubbelarbete.
 
 ## 7261. `component::knx::config_panel::validation_error::not_a_valid_option`
 
@@ -198,7 +198,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:component::air_quality::common::trigger_threshold_name%]
 
-**Befintlig svenska:** Tröskeltyp
+**Befintlig svenska:** Tröskelvärdestyp
 
 **Kontextkontroll:** Kontrollera referensmålet `component::air_quality::common::trigger_threshold_name`; det ingår ännu inte i det insamlade underlaget.
 
@@ -206,7 +206,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:component::air_quality::common::trigger_for_name%]
 
-**Befintlig svenska:** Under minst
+**Befintlig svenska:** I minst
 
 **Kontextkontroll:** Kontrollera referensmålet `component::air_quality::common::trigger_for_name`; det ingår ännu inte i det insamlade underlaget.
 
@@ -238,7 +238,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:component::air_quality::common::trigger_threshold_name%]
 
-**Befintlig svenska:** Tröskeltyp
+**Befintlig svenska:** Tröskelvärdestyp
 
 **Kontextkontroll:** Kontrollera referensmålet `component::air_quality::common::trigger_threshold_name`; det ingår ännu inte i det insamlade underlaget.
 
@@ -254,9 +254,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:common::config_flow::title::reauth%]
 
-**Befintlig svenska:** Autentiseringen har upphört för {name}
-
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::title::reauth`; det ingår ännu inte i det insamlade underlaget.
+**Befintlig svenska:** Autentiseringen har upphört att gälla för {name}
 
 ## 7293. `component::dexcom::config::step::reauth_confirm::description`
 
@@ -294,9 +292,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** [%key:component::lametric::config::step::manual_entry::data_description::host%]
 
-**Befintlig svenska:** IP-adressen eller värdnamnet för din LaMetric TIME i nätverket.
-
-**Kontextkontroll:** Kontrollera referensmålet `component::lametric::config::step::manual_entry::data_description::host`; det ingår ännu inte i det insamlade underlaget.
+**Befintlig svenska:** IP-adressen eller värdnamnet för din LaMetric TIME på ditt nätverk.
 
 ## 7298. `component::lametric::config::step::press_button::data::host`
 
@@ -430,9 +426,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** This device does not support the TR-064 API.
 
-**Befintlig svenska:** Enheten stöder inte TR-064 API.
+**Befintlig svenska:** Enheten stöder inte TR-064-API:t.
 
-**Förslag:** Enheten stöder inte TR-064-API:t.
+**Tidigare sparat och liveverifierat:** Enheten stöder inte TR-064-API:t.
 
 ## 7315. `component::jewish_calendar::selector::daily_events::options::tset_hakohavim`
 
@@ -786,41 +782,41 @@ Uppdatera följande automatiseringar och skript:
 
 **Engelska:** Did not receive info data from Lunatone REST API
 
-**Befintlig svenska:** Inga informationsdata togs emot från Lunatone REST API.
+**Befintlig svenska:** Inga informationsdata togs emot från Lunatones REST-API.
 
-**Förslag:** Inga informationsdata togs emot från Lunatones REST-API.
+**Tidigare sparat och liveverifierat:** Inga informationsdata togs emot från Lunatones REST-API.
 
 ## 7357. `component::lunatone::exceptions::cannot_retrieve_sensors_data::message`
 
 **Engelska:** Unable to retrieve sensors data from Lunatone REST API
 
-**Befintlig svenska:** Det gick inte att hämta sensordata från Lunatone REST API.
+**Befintlig svenska:** Det gick inte att hämta sensordata från Lunatones REST-API.
 
-**Förslag:** Det gick inte att hämta sensordata från Lunatones REST-API.
+**Tidigare sparat och liveverifierat:** Det gick inte att hämta sensordata från Lunatones REST-API.
 
 ## 7358. `component::lunatone::exceptions::cannot_retrieve_scan_data::message`
 
 **Engelska:** Unable to retrieve scan data from Lunatone REST API
 
-**Befintlig svenska:** Det gick inte att hämta skanningsdata från Lunatone REST API.
+**Befintlig svenska:** Det gick inte att hämta skanningsdata från Lunatones REST-API.
 
-**Förslag:** Det gick inte att hämta skanningsdata från Lunatones REST-API.
+**Tidigare sparat och liveverifierat:** Det gick inte att hämta skanningsdata från Lunatones REST-API.
 
 ## 7359. `component::lunatone::exceptions::cannot_retrieve_info_data::message`
 
 **Engelska:** Unable to retrieve info data from Lunatone REST API
 
-**Befintlig svenska:** Det gick inte att hämta informationsdata från Lunatone REST API.
+**Befintlig svenska:** Det gick inte att hämta informationsdata från Lunatones REST-API.
 
-**Förslag:** Det gick inte att hämta informationsdata från Lunatones REST-API.
+**Tidigare sparat och liveverifierat:** Det gick inte att hämta informationsdata från Lunatones REST-API.
 
 ## 7360. `component::lunatone::exceptions::cannot_retrieve_devices_data::message`
 
 **Engelska:** Unable to retrieve device data from Lunatone REST API
 
-**Befintlig svenska:** Det gick inte att hämta enhetsdata från Lunatone REST API.
+**Befintlig svenska:** Det gick inte att hämta enhetsdata från Lunatones REST-API.
 
-**Förslag:** Det gick inte att hämta enhetsdata från Lunatones REST-API.
+**Tidigare sparat och liveverifierat:** Det gick inte att hämta enhetsdata från Lunatones REST-API.
 
 ## 7361. `component::lunatone::device::dali_sensor::name`
 
@@ -930,9 +926,9 @@ Uppdatera följande automatiseringar och skript:
 
 **Engelska:** The TV media players to listen to. At least one device or entity is required.
 
-**Befintlig svenska:** TV-apparaternas mediaspelare att lyssna på. Minst en enhet eller entitet krävs.
+**Befintlig svenska:** Mediespelarna för TV-apparaterna som ska övervakas. Minst en enhet eller entitet krävs.
 
-**Förslag:** Mediespelarna för TV-apparaterna som ska övervakas. Minst en enhet eller entitet krävs.
+**Tidigare sparat och liveverifierat:** Mediespelarna för TV-apparaterna som ska övervakas. Minst en enhet eller entitet krävs.
 
 ## 7375. `component::webostv::triggers::turn_on::fields::device_id::name`
 
@@ -946,17 +942,17 @@ Uppdatera följande automatiseringar och skript:
 
 **Engelska:** The TVs to listen to. At least one device or entity is required.
 
-**Befintlig svenska:** TV-apparaterna att lyssna på. Minst en enhet eller entitet krävs.
+**Befintlig svenska:** TV-apparaterna som ska övervakas. Minst en enhet eller entitet krävs.
 
-**Förslag:** TV-apparaterna som ska övervakas. Minst en enhet eller entitet krävs.
+**Tidigare sparat och liveverifierat:** TV-apparaterna som ska övervakas. Minst en enhet eller entitet krävs.
 
 ## 7377. `component::webostv::triggers::turn_on::description`
 
 **Engelska:** Triggers when one or more LG webOS TVs are requested to turn on.
 
-**Befintlig svenska:** Utlöses när en eller flera LG webOS TV-apparater begärs att starta.
+**Befintlig svenska:** Utlöses när en begäran om att starta en eller flera LG webOS-TV-apparater tas emot.
 
-**Förslag:** Utlöses när en begäran om att starta en eller flera LG webOS-TV-apparater tas emot.
+**Tidigare sparat och liveverifierat:** Utlöses när en begäran om att starta en eller flera LG webOS-TV-apparater tas emot.
 
 ## 7378. `component::reolink::exceptions::account_device::message`
 
@@ -1170,17 +1166,13 @@ Uppdatera följande automatiseringar och skript:
 
 **Engelska:** [%key:component::imou::config::step::user::data_description::app_secret%]
 
-**Befintlig svenska:** Apphemligheten som hämtats från Imou-molnplattformen.
-
-**Kontextkontroll:** Kontrollera referensmålet `component::imou::config::step::user::data_description::app_secret`; det ingår ännu inte i det insamlade underlaget.
+**Befintlig svenska:** Apphemligheten som hämtats från Imous molnplattform
 
 ## 7405. `component::imou::config::step::reconfigure::data_description::api_url`
 
 **Engelska:** [%key:component::imou::config::step::user::data_description::api_url%]
 
-**Befintlig svenska:** Välj den serverregion som ligger närmast din plats.
-
-**Kontextkontroll:** Kontrollera referensmålet `component::imou::config::step::user::data_description::api_url`; det ingår ännu inte i det insamlade underlaget.
+**Befintlig svenska:** Välj den serverregion som ligger närmast din plats
 
 ## 7406. `component::imou::config::step::reconfigure::data::app_secret`
 
@@ -1218,7 +1210,7 @@ Uppdatera följande automatiseringar och skript:
 
 **Engelska:** Failed to call: {targets}.
 
-**Befintlig svenska:** Det gick inte att ringa: {targets}.
+**Befintlig svenska:** Det gick inte att ringa {targets}.
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1346,7 +1338,7 @@ Uppdatera följande automatiseringar och skript:
 
 **Engelska:** Failed to send the MessageBird message to: {targets}.
 
-**Befintlig svenska:** Det gick inte att skicka MessageBird-meddelandet till: {targets}.
+**Befintlig svenska:** Det gick inte att skicka MessageBird-meddelandet till {targets}.
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1586,9 +1578,9 @@ Uppdatera följande automatiseringar och skript:
 
 **Engelska:** Updates restrictions for a specific day of the week on the selected Nintendo Switch.
 
-**Befintlig svenska:** Uppdaterar begränsningar för en viss veckodag på den valda Nintendo Switch.
+**Befintlig svenska:** Uppdaterar begränsningar för en viss veckodag på den valda Nintendo Switch-enheten.
 
-**Förslag:** Uppdaterar begränsningar för en viss veckodag på den valda Nintendo Switch-enheten.
+**Tidigare sparat och liveverifierat:** Uppdaterar begränsningar för en viss veckodag på den valda Nintendo Switch-enheten.
 
 ## 7457. `component::nintendo_parental_controls::selector::day_of_week::options::wednesday`
 
@@ -1722,7 +1714,7 @@ Uppdatera följande automatiseringar och skript:
 
 **Engelska:** [%key:component::kaco_modbus::config::step::user::data_description::unit_id%]
 
-**Befintlig svenska:** Behåll värdet 1 om inte växelriktaren nås via en RS485 till TCP-gateway. I så fall behöver adressen konfigureras på gatewayen.
+**Befintlig svenska:** Om växelriktaren nås via en RS485-till-TCP-gateway anger du adressen som är konfigurerad på gatewayen. Annars låter du värdet vara 1.
 
 **Kontextkontroll:** Kontrollera referensmålet `component::kaco_modbus::config::step::user::data_description::unit_id`; det ingår ännu inte i det insamlade underlaget.
 
@@ -1778,7 +1770,7 @@ Uppdatera följande automatiseringar och skript:
 
 **Engelska:** Set heating schedule
 
-**Befintlig svenska:** Ange uppvärmningsschema
+**Befintlig svenska:** Ställ in uppvärmningsschemat
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1922,7 +1914,7 @@ Uppdatera följande automatiseringar och skript:
 
 **Engelska:** Failed to set heating schedule: {error}
 
-**Befintlig svenska:** Det gick inte att ange uppvärmningsschemat: {error}
+**Befintlig svenska:** Det gick inte att ställa in uppvärmningsschemat: {error}
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -1941,3 +1933,49 @@ Uppdatera följande automatiseringar och skript:
 **Befintlig svenska:** Klipparkartan har ändrats
 
 **Bedömning:** Ingen ändring föreslås.
+## Livegranskning 2026-11-24
+
+
+Alla 240 poster radgranskades och jämfördes med aktuella källor och live-Lokalise. 44 referensanvändningar med 41 mål kontrollerades. 18 referensavvikelser rättades och återlästes; efter uppdatering återstår 0. En tidigare sparningsrapport innehåller tio andra ändringar från 2026-11-19; dessa liveverifierades men ändrades inte igen.
+
+
+### Nya ändringar sparade i Lokalise
+
+
+| Fullständig nyckel | Före livevärde | Sparad svenska | Skäl |
+| --- | --- | --- | --- |
+| `component::dexcom::config::step::reauth_confirm::title` | `Autentiseringen har upphört för {name}` | `Autentiseringen har upphört att gälla för {name}` | Harmoniserar med gemensam reautentiseringstext; `{name}` bevaras. |
+| `component::lametric::config::step::press_button::data_description::host` | `IP-adressen eller värdnamnet för din LaMetric TIME i nätverket.` | `IP-adressen eller värdnamnet för din LaMetric TIME på ditt nätverk.` | Matchar användarflödets redan granskade referensmål. |
+| `component::imou::config::step::reconfigure::data_description::app_secret` | `Apphemligheten som hämtats från Imou-molnplattformen.` | `Apphemligheten som hämtats från Imous molnplattform` | Matchar användarflödets återanvända text. |
+| `component::imou::config::step::reconfigure::data_description::api_url` | `Välj den serverregion som ligger närmast din plats.` | `Välj den serverregion som ligger närmast din plats` | Matchar användarflödets återanvända text. |
+| `component::bsblan::services::set_hot_water_schedule::fields::monday_slots::name` | `Måndagstidsspann` | `Tidsintervall på måndag` | Harmoniza veckodagsfältens benämningar och återanvända beskrivningar med det granskade uppvärmningsschemat. |
+| `component::bsblan::services::set_hot_water_schedule::fields::monday_slots::description` | `Tidsperioder för måndag. Lägg till flera spann för olika uppvärmningsperioder under dagen.` | `Tidsperioder för måndag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.` | Harmoniza veckodagsfältens benämningar och återanvända beskrivningar med det granskade uppvärmningsschemat. |
+| `component::bsblan::services::set_hot_water_schedule::fields::tuesday_slots::name` | `Tisdagstidsspann` | `Tidsintervall på tisdag` | Harmoniza veckodagsfältens benämningar och återanvända beskrivningar med det granskade uppvärmningsschemat. |
+| `component::bsblan::services::set_hot_water_schedule::fields::tuesday_slots::description` | `Tidsperioder för tisdag. Lägg till flera spann för olika uppvärmningsperioder under dagen.` | `Tidsperioder för tisdag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.` | Harmoniza veckodagsfältens benämningar och återanvända beskrivningar med det granskade uppvärmningsschemat. |
+| `component::bsblan::services::set_hot_water_schedule::fields::wednesday_slots::name` | `Onsdagstidsspann` | `Tidsintervall på onsdag` | Harmoniza veckodagsfältens benämningar och återanvända beskrivningar med det granskade uppvärmningsschemat. |
+| `component::bsblan::services::set_hot_water_schedule::fields::wednesday_slots::description` | `Tidsperioder för onsdag. Lägg till flera spann för olika uppvärmningsperioder under dagen.` | `Tidsperioder för onsdag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.` | Harmoniza veckodagsfältens benämningar och återanvända beskrivningar med det granskade uppvärmningsschemat. |
+| `component::bsblan::services::set_hot_water_schedule::fields::thursday_slots::name` | `Torsdagstidsspann` | `Tidsintervall på torsdag` | Harmoniza veckodagsfältens benämningar och återanvända beskrivningar med det granskade uppvärmningsschemat. |
+| `component::bsblan::services::set_hot_water_schedule::fields::thursday_slots::description` | `Tidsperioder för torsdag. Lägg till flera spann för olika uppvärmningsperioder under dagen.` | `Tidsperioder för torsdag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.` | Harmoniza veckodagsfältens benämningar och återanvända beskrivningar med det granskade uppvärmningsschemat. |
+| `component::bsblan::services::set_hot_water_schedule::fields::friday_slots::name` | `Fredagstidsspann` | `Tidsintervall på fredag` | Harmoniza veckodagsfältens benämningar och återanvända beskrivningar med det granskade uppvärmningsschemat. |
+| `component::bsblan::services::set_hot_water_schedule::fields::friday_slots::description` | `Tidsperioder för fredag. Lägg till flera spann för olika uppvärmningsperioder under dagen.` | `Tidsperioder för fredag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.` | Harmoniza veckodagsfältens benämningar och återanvända beskrivningar med det granskade uppvärmningsschemat. |
+| `component::bsblan::services::set_hot_water_schedule::fields::saturday_slots::name` | `Lördagstidsspann` | `Tidsintervall på lördag` | Harmoniza veckodagsfältens benämningar och återanvända beskrivningar med det granskade uppvärmningsschemat. |
+| `component::bsblan::services::set_hot_water_schedule::fields::saturday_slots::description` | `Tidsperioder för lördag. Lägg till flera spann för olika uppvärmningsperioder under dagen.` | `Tidsperioder för lördag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.` | Harmoniza veckodagsfältens benämningar och återanvända beskrivningar med det granskade uppvärmningsschemat. |
+| `component::bsblan::services::set_hot_water_schedule::fields::sunday_slots::name` | `Söndagstidsspann` | `Tidsintervall på söndag` | Harmoniza veckodagsfältens benämningar och återanvända beskrivningar med det granskade uppvärmningsschemat. |
+| `component::bsblan::services::set_hot_water_schedule::fields::sunday_slots::description` | `Tidsperioder för söndag. Lägg till flera spann för olika uppvärmningsperioder under dagen.` | `Tidsperioder för söndag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.` | Harmoniza veckodagsfältens benämningar och återanvända beskrivningar med det granskade uppvärmningsschemat. |
+
+### Kontroller och kvarstående punkter
+
+
+- Tidigare sparade poster (`sparade-andringar-granskning-7261-7500.md`): 10/10 återfanns. Skrivs inte om; deras aktuella värden validerades mot källan och användningskontexten.
+
+- Källtexten har utökats för KNX-exponeringsfelet och två UniFi Protect-varningar. De fullständiga svenska livevärdena innehåller nu `{entities}`, `{items}`, `{entity_id}` och `{replacement}` där de behövs; dessa översättningar kontrollerades i sin helhet och synkades till TM.
+
+- Placeholder-set matchar för samtliga 240 poster; inget saknat eller extra fält hittades. Inga pluralposter i batchen.
+
+- 18 referensvärden är nu konsekventa; inga mål saknas.
+
+- Home Assistant Core TM exporterades och validerades efter synk: 75 556 nycklar, 75 558 segment och 42 621 unika käll-/målpar.
+
+- Ingen tillgänglig svlang-/hunspell-sv-kommandokörning fanns i miljön. Fackspråk, API-sammansättningar och KNX/BSBLAN-termer kontrollerades manuellt; referenser och placeholders kontrollerades programmatiskt.
+
+- Kvarstående osäkerheter i batchen: inga. Nästa rapporterade intervall börjar vid 7501.
