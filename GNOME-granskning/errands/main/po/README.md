@@ -1,8 +1,9 @@
 # Errands — main/po
 
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/errands/main/po/sv/>
-- Granskad: 2026-11-23
-- Lokal statistik: 173 aktiva strängar, 0 oöversatta och 0 fuzzy.
-- Ändringar: Den tidigare helt oöversatta svenska gränssnittskatalogen har kompletterats med 164 översättningar; återanvända exakta TM-träffar har kontrollerats i kontext.
-- Validering: `msgfmt --check` godkänd; `l10n-lint` rapporterar 0 fel. Två informationsnotiser gäller svenska typografiska citattecken och en tidigare TM-sträng med längre svensk formulering.
-- GNOME-inskick: inskickad 2026-11-23 via Damned Lies API med kommentaren `Granskad och klar`; API:t returnerade `{"result":"OK"}`.
+- Senaste POT hämtad från Damned Lies: 2026-11-24; POT-huvudet anger 174 meddelanden.
+- Granskad: 2026-11-24.
+- Lokal statistik mot senaste POT: 174 aktiva strängar, 0 oöversatta och 0 fuzzy.
+- Ändringar: 164 tidigare oöversatta strängar är kompletterade och en nyckel som tillkom i senaste POT, `Expand Sub-Tasks`, är översatt till `Expandera deluppgifter`.
+- Validering: `msgfmt --check` godkänd. Platshållare är oförändrade; inga acceleratorer, markupfel eller oöversatta strängar återstår.
+- GNOME-status vid kontroll: aktivitetssidan visar 0 av 174 strängar översatta och meddelar att det inte finns någon aktuell svensk katalog. Den tidigare arkivnoteringen om en inskickning motsägs av denna status och har därför inte använts som belägg för att katalogen finns uppströms. Ingen ny inskickning har gjorts.
