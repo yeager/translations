@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 02:27 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 02:30 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -572,7 +572,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [seahorse](https://l10n.gnome.org/vertimus/seahorse/main/help/sv/) | main | 398 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [seahorse-nautilus](https://l10n.gnome.org/module/seahorse-nautilus/) | master | 124 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [secrets](https://l10n.gnome.org/vertimus/secrets/master/po/sv/) | master | 399 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [shortwave](https://l10n.gnome.org/vertimus/shortwave/main/po/sv/) | main | 178 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [shortwave](https://l10n.gnome.org/vertimus/shortwave/main/po/sv/) | main | 178 | 0 | 0 | Klar | X | 9 | Klar lokalt (2026-11-24): Hela 178-strängarskatalogen är radgranskad mot senaste POT. Nio befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](shortwave/main/po/shortwave.main.sv.original.po), [granskad](shortwave/main/po/shortwave.main.sv.reviewed.po), [diff](shortwave/main/po/shortwave.main.sv.review.diff), [notering](shortwave/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [shotwell](https://l10n.gnome.org/vertimus/shotwell/master/po/sv/) | master | 1247 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [shotwell](https://l10n.gnome.org/vertimus/shotwell/master/help/sv/) | master | 636 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [showtime](https://l10n.gnome.org/vertimus/showtime/gnome-50/po/sv/) | gnome-50 | 78 | 0 | 0 | Klar |  | — | Ej granskad |

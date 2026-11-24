@@ -1,0 +1,101 @@
+diff --git a/.work-gnome-review/shortwave-main-po/original.po b/.work-gnome-review/shortwave-main-po/sv.po
+index fa3bb2e..0c26602 100644
+--- a/.work-gnome-review/shortwave-main-po/original.po
++++ b/.work-gnome-review/shortwave-main-po/sv.po
+@@ -3,14 +3,15 @@
+ # This file is distributed under the same license as the shortwave package.
+ # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
+ # Luna Jernberg <droidbittin@gmail.com>, 2021.
++# Daniel Nylander <gnome@danielnylander.se>, 2026.
+ #
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: shortwave\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Shortwave/issues\n"
+ "POT-Creation-Date: 2026-10-25 13:06+0000\n"
+-"PO-Revision-Date: 2026-09-10 22:48+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -44,7 +45,7 @@ msgid ""
+ "database with over 50,000 stations."
+ msgstr ""
+ "@NAME@ är en internetradiospelare som ger tillgång till en stationsdatabas "
+-"med över 50000 stationer."
++"med över 50 000 stationer."
+ 
+ #: data/de.haeckerfelix.Shortwave.metainfo.xml.in.in:15
+ msgid "Features:"
+@@ -70,11 +71,11 @@ msgstr ""
+ #: data/de.haeckerfelix.Shortwave.metainfo.xml.in.in:20
+ #: data/de.haeckerfelix.Shortwave.metainfo.xml.in.in:72
+ msgid "Responsive application layout, compatible for small and large screens"
+-msgstr "Kvickt reagerande programlayout, kompatibel med små och stora skärmar"
++msgstr "Responsiv programlayout som fungerar på små och stora skärmar"
+ 
+ #: data/de.haeckerfelix.Shortwave.metainfo.xml.in.in:21
+ msgid "Play audio on supported network devices (e.g. Google Chromecasts)"
+-msgstr "Spela ljud på nätverksenheter som stöds (t.ex. Google Chromecast)"
++msgstr "Spela ljud på nätverksenheter som stöds (t.ex. Google Chromecast-enheter)"
+ 
+ #: data/de.haeckerfelix.Shortwave.metainfo.xml.in.in:22
+ msgid "Seamless integration into the GNOME desktop environment"
+@@ -308,7 +309,7 @@ msgstr "Inga spår"
+ 
+ #: data/gtk/player_view.ui:280
+ msgid "Played tracks will appear here"
+-msgstr "Spelade spår kommer dyka upp här"
++msgstr "Spelade spår visas här"
+ 
+ #: data/gtk/player_view.ui:314
+ msgid "An error occurred"
+@@ -384,7 +385,7 @@ msgstr "M_inimal längd"
+ 
+ #: data/gtk/preferences_dialog.ui:121
+ msgid "Tracks shorter than the minimum duration will be ignored"
+-msgstr "Spår kortare än minimal längd kommer ignoreras"
++msgstr "Spår kortare än den minsta längden ignoreras"
+ 
+ #: data/gtk/preferences_dialog.ui:136
+ msgid "M_aximum Duration"
+@@ -392,7 +393,7 @@ msgstr "M_aximal längd"
+ 
+ #: data/gtk/preferences_dialog.ui:137
+ msgid "Recording ends when the maximum duration is reached"
+-msgstr "Inspelning avslutas när maximal längd har uppnåtts"
++msgstr "Inspelningen avslutas när den längsta längden har uppnåtts"
+ 
+ #: data/gtk/search_filter.ui:21
+ msgid "Search"
+@@ -521,7 +522,7 @@ msgid ""
+ "This station exists only in your library, and is not part of the public "
+ "database"
+ msgstr ""
+-"Denna station finns endast i ditt bibliotek och är inte del av den "
++"Denna station finns endast i ditt bibliotek och är inte en del av den "
+ "offentliga databasen"
+ 
+ #: data/gtk/station_dialog.ui:126 data/gtk/station_row.ui:69
+@@ -687,7 +688,7 @@ msgstr "Den maximala inspelningslängden har uppnåtts"
+ #: src/audio/recording_state.rs:83
+ msgid ""
+ "The track has been discarded as the duration was below the set threshold"
+-msgstr "Spåret har förkastas då längden var kortare än det satta tröskelvärdet"
++msgstr "Spåret har förkastats eftersom längden var kortare än det angivna tröskelvärdet"
+ 
+ #: src/audio/recording_state.rs:85
+ msgid "Recording has been cancelled"
+@@ -721,8 +722,8 @@ msgid ""
+ "available to everyone, you should add it to the <a href=\"{}\">public "
+ "database</a>."
+ msgstr ""
+-"Stationen kommer endast läggas till i ditt bibliotek. Om du vill att den ska "
+-"vara tillgänglig för alla så ska du lägga till den i den <a href=\"{}"
++"Stationen läggs endast till i ditt bibliotek. Om du vill att den ska vara "
++"tillgänglig för alla kan du lägga till den i den <a href=\"{}"
+ "\">offentliga databasen</a>."
+ 
+ #: src/ui/add_station_dialog.rs:105
