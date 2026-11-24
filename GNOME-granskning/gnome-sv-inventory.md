@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:24 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:26 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -483,7 +483,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [iagno](https://l10n.gnome.org/vertimus/iagno/main/po/sv/) | main | 138 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [iagno](https://l10n.gnome.org/vertimus/iagno/main/help/sv/) | main | 226 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [icon-library](https://l10n.gnome.org/vertimus/icon-library/master/po/sv/) | master | 59 | 0 | 0 | Klar | X | 1 | Klar lokalt (2026-11-24): Hela 59-strängarskatalogen är radgranskad mot senaste POT. En felaktigt översatt teknisk platshållare är rättad; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](icon-library/master/po/icon-library.master.po.sv.original.po), [granskad](icon-library/master/po/icon-library.master.po.sv.reviewed.po), [diff](icon-library/master/po/icon-library.master.po.sv.review.diff), [notering](icon-library/master/po/README.md) |
-| Gränssnitt | Default (99% translated) | [identity](https://l10n.gnome.org/vertimus/identity/main/po/sv/) | main | 90 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [identity](https://l10n.gnome.org/vertimus/identity/main/po/sv/) | main | 90 | 0 | 0 | Klar | X | 9 | Klar lokalt (2026-11-24): Hela 90-strängarskatalogen är radgranskad mot senaste POT. Tio befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](identity/main/po/identity.main.sv.original.po), [granskad](identity/main/po/identity.main.sv.reviewed.po), [diff](identity/main/po/identity.main.sv.review.diff), [notering](identity/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [iotas](https://l10n.gnome.org/vertimus/iotas/main/po/sv/) | main | 301 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [jhbuild](https://l10n.gnome.org/module/jhbuild/) | master | 374 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [jhbuild](https://l10n.gnome.org/module/jhbuild/) | master | 536 | 0 | 0 | Klar |  | — | Ej granskad |
