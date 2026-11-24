@@ -1,0 +1,102 @@
+diff --git a/.work-gnome-review/gnome-2048-master-po/original.po b/.work-gnome-review/gnome-2048-master-po/sv.po
+index 796f774..e92b3c9 100644
+--- a/.work-gnome-review/gnome-2048-master-po/original.po
++++ b/.work-gnome-review/gnome-2048-master-po/sv.po
+@@ -8,8 +8,8 @@ msgstr ""
+ "Project-Id-Version: gnome-2048 master\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-2048/issues\n"
+ "POT-Creation-Date: 2026-10-06 20:59+0000\n"
+-"PO-Revision-Date: 2026-08-02 20:08+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 12:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -27,7 +27,7 @@ msgstr "2048"
+ #: data/org.gnome.TwentyFortyEight.desktop.in:3
+ #: data/org.gnome.TwentyFortyEight.metainfo.xml.in:9
+ msgid "Obtain the 2048 tile"
+-msgstr "Erhåll 2048-brickan"
++msgstr "Få 2048-brickan"
+ 
+ #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+ #: data/org.gnome.TwentyFortyEight.desktop.in:13
+@@ -127,7 +127,7 @@ msgstr "Längd på animeringar: visa bricka, flytta bricka och skugga bricka."
+ #. Translators: summary of a settings key, see 'dconf-editor /org/gnome/2048/allow-undo'
+ #: data/org.gnome.TwentyFortyEight.gschema.xml:83
+ msgid "Allow undo"
+-msgstr "Tillåt ångra"
++msgstr "Tillåt ångring"
+ 
+ #. Translators: description of a settings key, see 'dconf-editor /org/gnome/2048/allow-undo'
+ #: data/org.gnome.TwentyFortyEight.gschema.xml:85
+@@ -161,7 +161,7 @@ msgid ""
+ "obtain the 2048 tile."
+ msgstr ""
+ "Spela det mycket beroendeframkallande spelet 2048. 2048 är en klon av det "
+-"populära pusselspelet för en person. Spelet går ut på att slå ihop nummer i "
++"populära pusselspelet för en spelare. Spelet går ut på att slå ihop nummer i "
+ "ett rutnät och erhålla 2048-brickan."
+ 
+ #: data/org.gnome.TwentyFortyEight.metainfo.xml.in:16
+@@ -171,9 +171,9 @@ msgid ""
+ "slide just one tile or one row or column. Tiles with the same value are "
+ "joined when slided one over the other."
+ msgstr ""
+-"Använd ditt tangentbords piltangenter för att glida alla brickor i den "
++"Använd piltangenterna på tangentbordet för att flytta alla brickor i den "
+ "önskade riktningen. Var försiktig: alla brickor glider så långt som möjligt, "
+-"du kan inte glida bara en rad eller en kolumn. Brickor med samma värde slås "
++"du kan inte flytta bara en bricka, rad eller kolumn. Brickor med samma värde slås "
+ "ihop då en av dem glider över den andra."
+ 
+ #: data/org.gnome.TwentyFortyEight.metainfo.xml.in:22
+@@ -212,17 +212,17 @@ msgstr "En 2048-klon för GNOME"
+ #. Translators: text crediting a maintainer, seen in the About dialog
+ #: src/about.rs:36
+ msgid "Copyright © 2014-2015 – Juan R. García Blanco"
+-msgstr "Copyright © 2014-2015 – Juan R. García Blanco"
++msgstr "Copyright © 2014–2015 – Juan R. García Blanco"
+ 
+ #. Translators: text crediting a maintainer, seen in the About dialog
+ #: src/about.rs:39
+ msgid "Copyright © 2016-2020 – Arnaud Bonatti"
+-msgstr "Copyright © 2016-2020 – Arnaud Bonatti"
++msgstr "Copyright © 2016–2020 – Arnaud Bonatti"
+ 
+ #. Translators: text crediting a maintainer, seen in the About dialog
+ #: src/about.rs:42
+ msgid "Copyright © 2025-2026 – Andrey Kutejko"
+-msgstr "Copyright © 2025-2026 – Andrey Kutejko"
++msgstr "Copyright © 2025–2026 – Andrey Kutejko"
+ 
+ #. Translators: about dialog text; this string should be replaced by a text crediting yourselves and your translation team, or should be left empty. Do not translate literally!
+ #: src/about.rs:46
+@@ -272,7 +272,7 @@ msgstr "Det går inte att tolka kommandot ”--cli”, avbryter."
+ 
+ #: src/cli.rs:125
+ msgid "Game is finished, impossible to move."
+-msgstr "Spelet är slut, omöjligt att flytta."
++msgstr "Spelet är slut; det går inte att flytta."
+ 
+ #: src/cli.rs:129
+ msgid "Impossible to move in that direction."
+@@ -440,7 +440,7 @@ msgstr "Allmänt"
+ 
+ #: src/game_window.rs:625
+ msgid "Toggle main menu"
+-msgstr "Öppna/stäng huvudmeny"
++msgstr "Visa/dölj huvudmenyn"
+ 
+ #: src/game_window.rs:627
+ msgid "Toggle fullscreen mode"
+@@ -461,7 +461,7 @@ msgstr "Avsluta"
+ #: src/grid.rs:46
+ msgid ""
+ "Grid must have no more than 9 rows and columns and have at least 3 tiles"
+-msgstr "Rutnät får inte ha fler än 9 rader och kolumner måste ha minst 3 rutor"
++msgstr "Rutnätet får ha högst 9 rader och kolumner och måste innehålla minst 3 rutor"
+ 
+ #: src/scores.rs:84
+ msgctxt "Scores category"

@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:13 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:16 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -324,7 +324,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [glib-networking](https://l10n.gnome.org/vertimus/glib-networking/master/po/sv/) | master | 68 | 0 | 0 | Klar | X | 3 | Klar lokalt (2026-11-24): Hela 68-strängarskatalogen är radgranskad mot senaste POT. Tre befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](glib-networking/master/po/glib-networking.master.po.sv.original.po), [granskad](glib-networking/master/po/glib-networking.master.po.sv.reviewed.po), [diff](glib-networking/master/po/glib-networking.master.po.sv.review.diff), [notering](glib-networking/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [glom](https://l10n.gnome.org/module/glom/) | master | 867 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [glom](https://l10n.gnome.org/module/glom/) | master | 223 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [gnome-2048](https://l10n.gnome.org/vertimus/gnome-2048/master/po/sv/) | master | 91 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [gnome-2048](https://l10n.gnome.org/vertimus/gnome-2048/master/po/sv/) | master | 91 | 0 | 0 | Klar | X | 10 | Klar lokalt (2026-11-24): Hela 91-strängarskatalogen är radgranskad mot senaste POT. Tio befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](gnome-2048/master/po/gnome-2048.master.sv.original.po), [granskad](gnome-2048/master/po/gnome-2048.master.sv.reviewed.po), [diff](gnome-2048/master/po/gnome-2048.master.sv.review.diff), [notering](gnome-2048/master/po/README.md) |
 | Dokumentation | Default (71% translated) | [gnome-2048](https://l10n.gnome.org/vertimus/gnome-2048/master/help/sv/) | master | 32 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/po/sv/) | master | 377 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/battstat/sv/) | master | 95 | 0 | 0 | Klar |  | — | Ej granskad |
