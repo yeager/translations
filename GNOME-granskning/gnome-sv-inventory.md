@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:03 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 00:04 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -589,7 +589,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [stevia](https://l10n.gnome.org/vertimus/stevia/main/po/sv/) | main | 14 | 0 | 0 | Klar | X | 4 | Klar lokalt (2026-11-23): Hela 14-strängarskatalogen är radgranskad mot senaste POT. Fyra befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](stevia/main/po/stevia.main.sv.original.po), [granskad](stevia/main/po/stevia.main.sv.reviewed.po), [diff](stevia/main/po/stevia.main.sv.review.diff), [notering](stevia/main/po/README.md) |
 | Gränssnitt | Default (99% translated) | [sushi](https://l10n.gnome.org/vertimus/sushi/gnome-50/po/sv/) | gnome-50 | 19 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [swell-foop](https://l10n.gnome.org/vertimus/swell-foop/gnome-50/po/sv/) | gnome-50 | 76 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [swell-foop](https://l10n.gnome.org/vertimus/swell-foop/main/po/sv/) | main | 76 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [swell-foop](https://l10n.gnome.org/vertimus/swell-foop/main/po/sv/) | main | 76 | 0 | 0 | Klar | X | 3 | Klar lokalt (2026-11-24): Hela 76-strängarskatalogen är radgranskad mot senaste POT. Tre befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](swell-foop/main/po/swell-foop.main.sv.original.po), [granskad](swell-foop/main/po/swell-foop.main.sv.reviewed.po), [diff](swell-foop/main/po/swell-foop.main.sv.review.diff), [notering](swell-foop/main/po/README.md) |
 | Dokumentation | Default (71% translated) | [swell-foop](https://l10n.gnome.org/vertimus/swell-foop/gnome-50/help/sv/) | gnome-50 | 72 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [swell-foop](https://l10n.gnome.org/vertimus/swell-foop/main/help/sv/) | main | 72 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [symbolic-preview](https://l10n.gnome.org/vertimus/symbolic-preview/master/po/sv/) | master | 63 | 0 | 0 | Klar | X | 6 | Klar lokalt (2026-11-23): Aktuell 63-strängarskatalog är radgranskad mot senaste POT. Sex befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](symbolic-preview/master/po/symbolic-preview.master.sv.original.po), [granskad](symbolic-preview/master/po/symbolic-preview.master.sv.reviewed.po), [diff](symbolic-preview/master/po/symbolic-preview.master.sv.review.diff), [notering](symbolic-preview/master/po/README.md) |
