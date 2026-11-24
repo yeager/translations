@@ -1,6 +1,6 @@
 # Home Assistant Core – granskning 7981–8220
 
-Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Referenser vars mål inte finns i underlaget markeras för senare kontroll.
+Sortering: ”Last added” vid insamlingen. Livegranskning utfördes 2026-11-24 mot Lokalise API och Home Assistant Core-källträdet på commit `2fdaa177f3e94535b3b649fb1ffc2dbba52eb4ce`. Alla 240 nycklar och referensmål återfanns.
 
 ## 7981. `component::rainbird::exceptions::duplicate_entry::message`
 
@@ -38,9 +38,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** The Powerwall API has changed
 
-**Befintlig svenska:** Powerwall API har ändrats
+**Befintlig svenska:** Powerwall-API:t har ändrats
 
-**Förslag:** Powerwall-API:t har ändrats
+**Livekontroll:** Förslaget finns redan i Lokalise.
 
 ## 7986. `component::poolsense::exceptions::invalid_auth::message`
 
@@ -62,9 +62,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Authentication with the Rachio API failed
 
-**Befintlig svenska:** Autentisering med Rachio API misslyckades
+**Befintlig svenska:** Autentisering med Rachio-API:t misslyckades
 
-**Förslag:** Autentisering med Rachio-API:t misslyckades
+**Livekontroll:** Förslaget finns redan i Lokalise.
 
 ## 7989. `component::omnilogic::exceptions::login_failed::message`
 
@@ -134,9 +134,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Unsupported myStrom device type: {device_type}
 
-**Befintlig svenska:** Enhetstypen myStrom stöds inte: {device_type}
+**Befintlig svenska:** Enhetstypen för myStrom stöds inte: {device_type}
 
-**Förslag:** Enhetstypen för myStrom stöds inte: {device_type}
+**Livekontroll:** Förslaget finns redan i Lokalise.
 
 ## 7998. `component::mystrom::exceptions::unsupported_bulb::message`
 
@@ -198,7 +198,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Home Assistant is not running on a Hardkernel board ({board}), the Hardkernel entry will be removed
 
-**Befintlig svenska:** Home Assistant körs inte på ett Hardkernel-kort ({board}). Hardkernel-posten tas bort
+**Befintlig svenska:** Home Assistant körs inte på ett Hardkernel-kort ({board}). Hardkernel-posten kommer att tas bort
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -206,7 +206,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Home Assistant is not running on Home Assistant OS, the Hardkernel entry will be removed
 
-**Befintlig svenska:** Home Assistant körs inte på Home Assistant OS. Hardkernel-posten tas bort
+**Befintlig svenska:** Home Assistant körs inte på Home Assistant OS. Hardkernel-posten kommer att tas bort
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -230,9 +230,9 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Could not resolve serial number to use as unique ID for router at {url}. Try setting up credentials for the router for one startup, unauthenticated mode can be enabled after that in integration settings
 
-**Befintlig svenska:** Kunde inte fastställa serienumret att använda som unikt ID för routern på {url}. Prova att konfigurera autentiseringsuppgifter för routern vid en start. Oautentiserat läge kan aktiveras efter det i integreringens inställningar
+**Befintlig svenska:** Kunde inte fastställa serienumret som unikt ID för routern på {url}. Prova att ange autentiseringsuppgifter för routern vid nästa uppstart. Därefter kan du aktivera oautentiserat läge i integreringens inställningar.
 
-**Bedömning:** Ingen ändring föreslås.
+**Sparat i Lokalise; API-readback verifierad.
 
 ## 8010. `component::huawei_lte::exceptions::serial_number_not_found::message`
 
@@ -262,7 +262,7 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Engelska:** Download path {path} does not exist
 
-**Befintlig svenska:** Hämtningssökvägen {path} finns inte
+**Befintlig svenska:** Nedladdningssökvägen {path} finns inte
 
 **Bedömning:** Ingen ändring föreslås.
 
@@ -428,7 +428,7 @@ Because these legacy trackers claim the same entity IDs, the new entities are dr
 
 Please remove these entries from `{path}` and restart Home Assistant.
 
-**Befintlig svenska:** OpenWrt (luci) skapar nu egna enheter för enhetsspårning, men följande poster från den gamla YAML-konfigurationen finns fortfarande i `{path}` för enheter som spåras av routern på `{host}`:
+**Befintlig svenska:** OpenWrt (luci) skapar nu egna entiteter för enhetsspårning, men följande poster från den gamla YAML-konfigurationen finns fortfarande i `{path}` för enheter som spåras av routern på `{host}`:
 
 {devices}
 
@@ -436,21 +436,15 @@ Eftersom dessa äldre spårare använder samma entitets-ID:n ignoreras de nya en
 
 Ta bort posterna från `{path}` och starta om Home Assistant.
 
-**Förslag:** OpenWrt (luci) skapar nu egna entiteter för enhetsspårning, men följande poster från den gamla YAML-konfigurationen finns fortfarande i `{path}` för enheter som spåras av routern på `{host}`:
-
-{devices}
-
-Eftersom dessa äldre spårare använder samma entitets-ID:n ignoreras de nya entiteterna vid start och slutar uppdateras.
-
-Ta bort posterna från `{path}` och starta om Home Assistant.
+**Livekontroll:** Förslaget finns redan i Lokalise.
 
 ## 8034. `component::peblar::entity::switch::solar_charging_custom_always_charge::name`
 
 **Engelska:** Custom solar always charge
 
-**Befintlig svenska:** Ladda alltid med anpassad solenergi
+**Befintlig svenska:** Anpassad solladdning: ladda alltid
 
-**Förslag:** Anpassad solladdning: ladda alltid
+**Livekontroll:** Förslaget finns redan i Lokalise.
 
 ## 8035. `component::peblar::entity::number::solar_charging_custom_power_threshold::name`
 
@@ -464,9 +458,9 @@ Ta bort posterna från `{path}` och starta om Home Assistant.
 
 **Engelska:** Custom solar grid target
 
-**Befintlig svenska:** Anpassat målvärde för solnät
+**Befintlig svenska:** Anpassat målvärde för elnätet vid solladdning
 
-**Förslag:** Anpassat målvärde för elnätet vid solladdning
+**Livekontroll:** Förslaget finns redan i Lokalise.
 
 ## 8037. `component::adguard::exceptions::action_failed::message`
 
@@ -498,7 +492,7 @@ Ta bort posterna från `{path}` och starta om Home Assistant.
 
 **Befintlig svenska:** Skicka ett aviseringsmeddelande
 
-**Kontextkontroll:** Kontrollera referensmålet `component::notify::services::send_message::name`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::notify::services::send_message::name` verifierades live och jämfördes efter uppdatering.
 
 ## 8041. `component::nfandroidtv::services::send_message::fields::transparency::name`
 
@@ -522,15 +516,15 @@ Ta bort posterna från `{path}` och starta om Home Assistant.
 
 **Befintlig svenska:** Rubrik
 
-**Kontextkontroll:** Kontrollera referensmålet `component::notify::services::send_message::fields::title::name`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::notify::services::send_message::fields::title::name` verifierades live och jämfördes efter uppdatering.
 
 ## 8044. `component::nfandroidtv::services::send_message::fields::title::description`
 
 **Engelska:** [%key:component::notify::services::send_message::fields::title::description%]
 
-**Befintlig svenska:** Rubrik för ditt aviseringsmeddelande.
+**Befintlig svenska:** Rubrik för din avisering.
 
-**Kontextkontroll:** Kontrollera referensmålet `component::notify::services::send_message::fields::title::description`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::notify::services::send_message::fields::title::description` verifierades live och jämfördes efter uppdatering.
 
 ## 8045. `component::nfandroidtv::services::send_message::fields::position::name`
 
@@ -554,7 +548,7 @@ Ta bort posterna från `{path}` och starta om Home Assistant.
 
 **Befintlig svenska:** Meddelande
 
-**Kontextkontroll:** Kontrollera referensmålet `component::notify::services::send_message::fields::message::name`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::notify::services::send_message::fields::message::name` verifierades live och jämfördes efter uppdatering.
 
 ## 8048. `component::nfandroidtv::services::send_message::fields::message::description`
 
@@ -562,7 +556,7 @@ Ta bort posterna från `{path}` och starta om Home Assistant.
 
 **Befintlig svenska:** Ditt aviseringsmeddelande.
 
-**Kontextkontroll:** Kontrollera referensmålet `component::notify::services::send_message::fields::message::description`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::notify::services::send_message::fields::message::description` verifierades live och jämfördes efter uppdatering.
 
 ## 8049. `component::nfandroidtv::services::send_message::fields::interactive::name`
 
@@ -722,7 +716,7 @@ Ta bort posterna från `{path}` och starta om Home Assistant.
 
 **Befintlig svenska:** Medel
 
-**Kontextkontroll:** Kontrollera referensmålet `common::state::medium`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::state::medium` verifierades live och jämfördes efter uppdatering.
 
 ## 8069. `component::nfandroidtv::selector::fontsize::options::max`
 
@@ -902,7 +896,7 @@ Uppdatera dina automationer och skript så att de använder aviseringsentitetern
 
 **Befintlig svenska:** API-token
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::api_token`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::api_token` verifierades live och jämfördes efter uppdatering.
 
 ## 8089. `component::loqed::config::step::pick_lock::data_description::lock_id`
 
@@ -924,9 +918,9 @@ Uppdatera dina automationer och skript så att de använder aviseringsentitetern
 
 **Engelska:** [%key:common::config_flow::error::cannot_connect%]
 
-**Befintlig svenska:** Anslutningen misslyckades
+**Befintlig svenska:** Det gick inte att ansluta
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::cannot_connect`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::error::cannot_connect` verifierades live och jämfördes efter uppdatering.
 
 ## 8092. `component::energy::issues::entity_gas_price_unit_mismatch::title`
 
@@ -950,7 +944,7 @@ Uppdatera dina automationer och skript så att de använder aviseringsentitetern
 
 **Befintlig svenska:** Starta om
 
-**Kontextkontroll:** Kontrollera referensmålet `common::action::restart`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::action::restart` verifierades live och jämfördes efter uppdatering.
 
 ## 8095. `component::marketplace::issues::restart_required::fix_flow::step::confirm_restart::submit`
 
@@ -958,7 +952,7 @@ Uppdatera dina automationer och skript så att de använder aviseringsentitetern
 
 **Befintlig svenska:** Starta om
 
-**Kontextkontroll:** Kontrollera referensmålet `common::action::restart`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::action::restart` verifierades live och jämfördes efter uppdatering.
 
 ## 8096. `component::shelly::config::abort::unsupported_device`
 
@@ -982,7 +976,7 @@ Uppdatera dina automationer och skript så att de använder aviseringsentitetern
 
 **Befintlig svenska:** IP-adressen eller värdnamnet för din Qube-värmepump.
 
-**Kontextkontroll:** Kontrollera referensmålet `component::hr_energy_qube::config::step::user::data_description::host`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::hr_energy_qube::config::step::user::data_description::host` verifierades live och jämfördes efter uppdatering.
 
 ## 8099. `component::hr_energy_qube::config::step::reconfigure::data::host`
 
@@ -990,7 +984,7 @@ Uppdatera dina automationer och skript så att de använder aviseringsentitetern
 
 **Befintlig svenska:** Värd
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::host`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::host` verifierades live och jämfördes efter uppdatering.
 
 ## 8100. `component::hr_energy_qube::config::abort::unique_id_mismatch`
 
@@ -1082,7 +1076,7 @@ Välj det nya kontot om du vill fortsätta använda dina befintliga enheter och 
 
 **Befintlig svenska:** Konto-ID
 
-**Kontextkontroll:** Kontrollera referensmålet `component::renault::config::step::kamereon::data::kamereon_account_id`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::renault::config::step::kamereon::data::kamereon_account_id` verifierades live och jämfördes efter uppdatering.
 
 ## 8111. `component::renault::issues::account_not_found::fix_flow::abort::reauth_required`
 
@@ -1104,9 +1098,9 @@ Välj det nya kontot om du vill fortsätta använda dina befintliga enheter och 
 
 **Engelska:** [%key:common::config_flow::error::cannot_connect%]
 
-**Befintlig svenska:** Anslutningen misslyckades
+**Befintlig svenska:** Det gick inte att ansluta
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::cannot_connect`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::error::cannot_connect` verifierades live och jämfördes efter uppdatering.
 
 ## 8114. `component::renault::exceptions::account_forbidden::message`
 
@@ -1248,9 +1242,9 @@ Välj det nya kontot om du vill fortsätta använda dina befintliga enheter och 
 
 **Engelska:** Delay before key hold emulation starts.
 
-**Befintlig svenska:** Fördröjning före emulering av nedtryckt tangent startar.
+**Befintlig svenska:** Fördröjning innan emulering av nedtryckt tangent startar.
 
-**Förslag:** Fördröjning innan emulering av nedtryckt tangent startar.
+**Livekontroll:** Förslaget finns redan i Lokalise.
 
 ## 8132. `component::keyboard_remote::options::step::init::data_description::emulate_key_hold`
 
@@ -1370,7 +1364,7 @@ Välj det nya kontot om du vill fortsätta använda dina befintliga enheter och 
 
 **Befintlig svenska:** Enheten är redan konfigurerad
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::abort::already_configured_device`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::abort::already_configured_device` verifierades live och jämfördes efter uppdatering.
 
 ## 8147. `component::keyboard_remote::config::abort::all_devices_configured`
 
@@ -1386,7 +1380,7 @@ Välj det nya kontot om du vill fortsätta använda dina befintliga enheter och 
 
 **Befintlig svenska:** Gå till {developer_registration_url} för att skapa en API-nyckel.
 
-**Kontextkontroll:** Kontrollera referensmålet `component::airly::config::step::user::data_description::api_key`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::airly::config::step::user::data_description::api_key` verifierades live och jämfördes efter uppdatering.
 
 ## 8149. `component::airly::config::step::reconfigure::data::api_key`
 
@@ -1394,15 +1388,15 @@ Välj det nya kontot om du vill fortsätta använda dina befintliga enheter och 
 
 **Befintlig svenska:** API-nyckel
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::api_key`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::api_key` verifierades live och jämfördes efter uppdatering.
 
 ## 8150. `component::rainbird::entity::sensor::program_next_run::name`
 
 **Engelska:** {program} next run
 
-**Befintlig svenska:** {program} nästa körning
+**Befintlig svenska:** Nästa körning för {program}
 
-**Förslag:** Nästa körning för {program}
+**Livekontroll:** Förslaget finns redan i Lokalise.
 
 ## 8151. `component::tuya::exceptions::send_command_failed::message`
 
@@ -1432,9 +1426,9 @@ Välj det nya kontot om du vill fortsätta använda dina befintliga enheter och 
 
 **Engelska:** MELCloud rate limit exceeded. Your account may be temporarily blocked.
 
-**Befintlig svenska:** MELClouds hastighetsgräns har överskridits. Ditt konto kan vara tillfälligt blockerat.
+**Befintlig svenska:** Gränsen för antalet MELCloud-anrop har överskridits. Ditt konto kan vara tillfälligt blockerat.
 
-**Förslag:** Gränsen för antalet MELCloud-anrop har överskridits. Ditt konto kan vara tillfälligt blockerat.
+**Livekontroll:** Förslaget finns redan i Lokalise.
 
 ## 8155. `component::melcloud::exceptions::cannot_connect::message`
 
@@ -1480,9 +1474,9 @@ Välj det nya kontot om du vill fortsätta använda dina befintliga enheter och 
 
 **Engelska:** [%key:common::config_flow::title::reauth%]
 
-**Befintlig svenska:** Autentiseringen för {name} har upphört att gälla
+**Befintlig svenska:** Autentiseringen har upphört att gälla för {name}
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::title::reauth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::title::reauth` verifierades live och jämfördes efter uppdatering.
 
 ## 8161. `component::adguard::config::step::reauth_confirm::description`
 
@@ -1514,7 +1508,7 @@ Välj det nya kontot om du vill fortsätta använda dina befintliga enheter och 
 
 **Befintlig svenska:** Användarnamn
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::username`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::username` verifierades live och jämfördes efter uppdatering.
 
 ## 8165. `component::adguard::config::step::reauth_confirm::data::password`
 
@@ -1522,7 +1516,7 @@ Välj det nya kontot om du vill fortsätta använda dina befintliga enheter och 
 
 **Befintlig svenska:** Lösenord
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::password`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::data::password` verifierades live och jämfördes efter uppdatering.
 
 ## 8166. `component::adguard::config::error::unknown`
 
@@ -1530,7 +1524,7 @@ Välj det nya kontot om du vill fortsätta använda dina befintliga enheter och 
 
 **Befintlig svenska:** Oväntat fel
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::unknown`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::error::unknown` verifierades live och jämfördes efter uppdatering.
 
 ## 8167. `component::adguard::config::error::invalid_auth`
 
@@ -1538,7 +1532,7 @@ Välj det nya kontot om du vill fortsätta använda dina befintliga enheter och 
 
 **Befintlig svenska:** Ogiltig autentisering
 
-**Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::invalid_auth`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `common::config_flow::error::invalid_auth` verifierades live och jämfördes efter uppdatering.
 
 ## 8168. `component::lifx::services::effect_sky::fields::duration::name`
 
@@ -1552,9 +1546,9 @@ Välj det nya kontot om du vill fortsätta använda dina befintliga enheter och 
 
 **Engelska:** How long the effect runs. 0 runs it until it is stopped.
 
-**Befintlig svenska:** Hur länge effekten körs. 0 kör den tills den stoppas.
+**Befintlig svenska:** Hur länge effekten körs. Med 0 körs den tills den stoppas.
 
-**Förslag:** Hur länge effekten körs. Med 0 körs den tills den stoppas.
+**Livekontroll:** Förslaget finns redan i Lokalise.
 
 ## 8170. `component::lifx::services::effect_colorsweep::name`
 
@@ -1576,9 +1570,9 @@ Välj det nya kontot om du vill fortsätta använda dina befintliga enheter och 
 
 **Engelska:** How long one sweep takes. 0 sweeps once across the duration, which then has to be set.
 
-**Befintlig svenska:** Hur lång tid ett svep tar. 0 sveper en gång under varaktigheten, som då måste anges.
+**Befintlig svenska:** Hur lång tid ett svep tar. Med 0 sker ett svep under den angivna varaktigheten, som då måste anges.
 
-**Förslag:** Hur lång tid ett svep tar. Med 0 sker ett svep under den angivna varaktigheten, som då måste anges.
+**Livekontroll:** Förslaget finns redan i Lokalise.
 
 ## 8173. `component::lifx::services::effect_colorsweep::fields::power_on::name`
 
@@ -1594,7 +1588,7 @@ Välj det nya kontot om du vill fortsätta använda dina befintliga enheter och 
 
 **Befintlig svenska:** Avstängda lampor slås på innan effekten startar.
 
-**Kontextkontroll:** Kontrollera referensmålet `component::lifx::services::effect_move::fields::power_on::description`; det ingår ännu inte i det insamlade underlaget.
+**Kontextkontroll:** Referensmålet `component::lifx::services::effect_move::fields::power_on::description` verifierades live och jämfördes efter uppdatering.
 
 ## 8175. `component::lifx::services::effect_colorsweep::fields::palette::name`
 
@@ -1624,9 +1618,9 @@ Välj det nya kontot om du vill fortsätta använda dina befintliga enheter och 
 
 **Engelska:** How long the effect runs. 0 runs it until it is stopped.
 
-**Befintlig svenska:** Hur länge effekten körs. 0 kör den tills den stoppas.
+**Befintlig svenska:** Hur länge effekten körs. Med 0 körs den tills den stoppas.
 
-**Förslag:** Hur länge effekten körs. Med 0 körs den tills den stoppas.
+**Livekontroll:** Förslaget finns redan i Lokalise.
 
 ## 8179. `component::lifx::services::effect_colorsweep::description`
 
@@ -1760,13 +1754,9 @@ Rename them as shown in your `logger` configuration and restart Home Assistant t
 
 {loggers}
 
-Byt namn på dem enligt din `logger`-konfiguration och starta om Home Assistant för att lösa problemet.
-
-**Förslag:** Home Assistant använder nu httpx2 i stället för httpx. Konfigurationen för `logger` i din `configuration.yaml` anger en nivå eller ett filter för loggare som inte längre tar emot loggmeddelanden:
-
-{loggers}
-
 Byt namn på dem enligt anvisningarna i din `logger`-konfiguration och starta om Home Assistant för att lösa problemet.
+
+**Livekontroll:** Förslaget finns redan i Lokalise.
 
 ## 8195. `component::homekit_controller::entity::switch::sleep_mode::name`
 
@@ -1975,3 +1965,36 @@ Byt namn på dem enligt anvisningarna i din `logger`-konfiguration och starta om
 **Befintlig svenska:** API-nyckeln för ditt PVOutput-konto.
 
 **Bedömning:** Ingen ändring föreslås.
+## Livegranskning 2026-11-24
+
+
+Alla 240 poster kontrollerades rad för rad mot den aktuella källan och live-Lokalise. 25 referensanvändningar med 23 mål verifierades. Fem användningar avvek från målen; alla avvikelser är rättade och återlästa. Sju distinkta strängar ändrades: referensrättningar, en gemensam LIFX-formulering och en tydligare Huawei LTE-instruktion. Tretton rekommendationer i arkivrapporten fanns redan live och skrevs inte igen.
+
+
+### Ändringar sparade i Lokalise
+
+
+| Fullständig nyckel | Befintlig live-text | Sparad svenska | Skäl |
+| --- | --- | --- | --- |
+| `component::nfandroidtv::services::send_message::fields::title::description` | `Rubrik för ditt aviseringsmeddelande.` | `Rubrik för din avisering.` | Matchar det gemensamma aviseringsmeddelandets rubrik. |
+| `component::loqed::config::abort::cannot_connect` | `Anslutningen misslyckades` | `Det gick inte att ansluta` | Matchar gemensamma feltexten `common::config_flow::error::cannot_connect`. |
+| `component::renault::issues::account_not_found::fix_flow::abort::cannot_connect` | `Anslutningen misslyckades` | `Det gick inte att ansluta` | Matchar gemensamma feltexten `common::config_flow::error::cannot_connect`. |
+| `component::adguard::config::step::reauth_confirm::title` | `Autentiseringen för {name} har upphört att gälla` | `Autentiseringen har upphört att gälla för {name}` | Matchar gemensamma reautentiseringstexten; `{name}` bevaras. |
+| `component::lifx::services::effect_move::fields::power_on::description` | `Släckta lampor kommer att tändas innan effekten startas.` | `Avstängda lampor slås på innan effekten startar.` | Enklare och mer direkt formulering; behåller innebörden. |
+| `component::lifx::services::effect_colorsweep::fields::power_on::description` | `Avstängda lampor slås på innan effekten startar.` | `Avstängda lampor slås på innan effekten startar.` | Matchar granskad motsvarande LIFX-effektbeskrivning. |
+| `component::huawei_lte::exceptions::serial_number_not_found_unauthenticated::message` | `Kunde inte fastställa serienumret att använda som unikt ID för routern på {url}. Prova att konfigurera autentiseringsuppgifter för routern vid en start. Oautentiserat läge kan aktiveras efter det i integrationens inställningar` | `Kunde inte fastställa serienumret som unikt ID för routern på {url}. Prova att ange autentiseringsuppgifter för routern vid nästa uppstart. Därefter kan du aktivera oautentiserat läge i integreringens inställningar.` | Klargör att routeruppgifterna ska finnas vid nästa uppstart; `{url}` bevaras. |
+
+### Verifiering och uppföljning
+
+
+- Fyra källor hade utökats sedan rapportögonblicksbilden: OpenWrt LuCI, Android TV, Renault och logger. Fullständig målinformation, exempel och placeholders granskades; måltexterna är kompletta och synkades i TM.
+
+- Platshållaruppsättningar matchar i samtliga batchposter. Inga pluralnycklar finns.
+
+- Referenskontroll efter uppdatering: 0 avvikelser av 25 användningar.
+
+- svlang naturlighet för ändringsurvalet: 10/10. Hunspell flaggade `name` och `oautentiserat`; `name` ingår i en oförändrad `logger`-placeholder, och `oautentiserat` är korrekt fackterm i Huawei LTE-sammanhang.
+
+- Core TM-export validerad: 75 556 nycklar, 75 558 segment, 42 618 unika språkpar.
+
+- Kvarstående osäkra fall: inga. Nästa batch börjar vid 8221.
