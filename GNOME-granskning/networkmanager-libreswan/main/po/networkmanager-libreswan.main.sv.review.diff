@@ -1,0 +1,137 @@
+diff --git a/.work-gnome-review/networkmanager-libreswan-main-po/original.po b/.work-gnome-review/networkmanager-libreswan-main-po/sv.po
+index a98dcb6..abe6310 100644
+--- a/.work-gnome-review/networkmanager-libreswan-main-po/original.po
++++ b/.work-gnome-review/networkmanager-libreswan-main-po/sv.po
+@@ -4,6 +4,7 @@
+ # Christian Rose <menthos@menthos.com>, 2004, 2005, 2006.
+ # Josef Andersson <josef.andersson@fripost.org>, 2014.
+ # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2018, 2019, 2021, 2022, 2023, 2024, 2025, 2026.
++# Daniel Nylander <gnome@danielnylander.se>, 2026.
+ # Luna Jernberg <droidbittin@gmail.com>, 2021.
+ #
+ msgid ""
+@@ -12,8 +13,8 @@ msgstr ""
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/NetworkManager-"
+ "libreswan/issues\n"
+ "POT-Creation-Date: 2026-11-10 18:07+0000\n"
+-"PO-Revision-Date: 2026-03-10 00:59+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -116,7 +117,7 @@ msgstr "D-Bus-namn att använda för denna instans"
+ msgid ""
+ "This service provides integrated IPsec VPN capability to NetworkManager."
+ msgstr ""
+-"Denna tjänst tillhandahåller integrerad VPN-kapacitet till "
++"Denna tjänst tillhandahåller integrerad IPsec VPN-kapacitet till "
+ "Nätverkshanteraren."
+ 
+ #: ../shared/utils.c:404
+@@ -127,7 +128,7 @@ msgstr "Ogiltigt tecken i ”%s”"
+ #: ../shared/utils.c:445 ../shared/utils.c:609
+ #, c-format
+ msgid "'%s' key needs to be present"
+-msgstr "nyckel för ”%s” måste finnas"
++msgstr "Nyckeln ”%s” måste finnas"
+ 
+ #: ../shared/utils.c:476 ../shared/utils.c:618 ../shared/utils.c:769
+ #, c-format
+@@ -205,7 +206,7 @@ msgstr ""
+ #: ../shared/nm-utils/nm-vpn-plugin-utils.c:50
+ #, c-format
+ msgid "unable to get editor plugin name: %s"
+-msgstr "kan inte erhålla namn för redigerarinstick: %s"
++msgstr "kan inte hämta namnet på redigeringsinsticket: %s"
+ 
+ #: ../shared/nm-utils/nm-vpn-plugin-utils.c:61
+ #, c-format
+@@ -215,12 +216,12 @@ msgstr "saknar insticksmodulfilen ”%s”"
+ #: ../shared/nm-utils/nm-vpn-plugin-utils.c:132
+ #, c-format
+ msgid "cannot load editor plugin: %s"
+-msgstr "kan inte öppna redigerarinsticket: %s"
++msgstr "kan inte läsa in redigeringsinsticket: %s"
+ 
+ #: ../shared/nm-utils/nm-vpn-plugin-utils.c:142
+ #, c-format
+ msgid "cannot load factory %s from plugin: %s"
+-msgstr "kan inte öppna fabriken %s från insticksmodulen: %s"
++msgstr "kan inte läsa in fabriken %s från insticksmodulen: %s"
+ 
+ #: ../shared/nm-utils/nm-vpn-plugin-utils.c:165
+ msgid "unknown error creating editor instance"
+@@ -405,12 +406,12 @@ msgstr ""
+ "Hur länge en viss instans av en anslutning (en uppsättning krypterings-/"
+ "autentiseringsnycklar för användarpaket) ska vara, från framgångsrik "
+ "förhandling till utgång. Värdet uttrycks som ett tal följt av ett valfritt "
+-"”s”(ekunder), ”m”(inuter), ”h”(timmar) eller ”d”(agar). \n"
++"”s”(ekunder), ”m”(inuter), ”h”(timmar) eller ”d”(agar).\n"
+ "                        konfig: salifetime <livstid>"
+ 
+ #: ../properties/nm-libreswan-dialog.ui.h:42
+ msgid "Disable rekeying"
+-msgstr "Inaktivera rekeying (omförhandling av nycklar)"
++msgstr "Inaktivera nyckelomförhandling"
+ 
+ #: ../properties/nm-libreswan-dialog.ui.h:43
+ msgid ""
+@@ -566,10 +567,10 @@ msgid ""
+ "seconds.\n"
+ "                        config: dpdtimeout <timeout>"
+ msgstr ""
+-"Tidslängden vi kommer vara inaktiva utan att höra från vår motpart. Efter "
+-"denna period har passerat utan svar eller trafik så kommer vi förklara "
+-"motparten död och ta bort SA. Sätt värdet större än dpddelay för att "
+-"aktivera. Om dpdtimeout har satts kommer dpddelay också behöva sättas. Måste "
++"Tidslängden vi kommer att vara inaktiva utan att höra från vår motpart. När "
++"denna period löpt ut utan svar eller trafik förklarar vi motparten som död "
++"och tar bort SA. Ange ett värde större än dpddelay för att aktivera. Om "
++"dpdtimeout anges behöver även dpddelay anges. Värdet måste "
+ "vara ett tal som valfritt följs av en tidsenhet: ”s” (sekunder), ”m” "
+ "(minuter), ”h” (timmar) eller ”d” (dagar); om enheten inte anges används "
+ "standardvärdet sekunder.\n"
+@@ -589,9 +590,9 @@ msgid ""
+ "                        config: dpdaction <action>"
+ msgstr ""
+ "Vilken åtgärd ska tas när en DPD-aktiverad motpart deklareras död. ”hold” "
+-"(standard) betyder att eroute kommer sättas i status %hold, medan ”clear” "
+-"betyder att både eroute och SA kommer tömmas. ”restart” betyder att ALLA SA "
+-"till den döda motparten kommer förhandlas om.\n"
++"(standard) betyder att eroute sätts i status %hold, medan ”clear” betyder "
++"att både eroute och SA töms. ”restart” betyder att ALLA SA till den döda "
++"motparten omförhandlas.\n"
+ "                        konfig: dpdaction <åtgärd>"
+ 
+ #: ../properties/nm-libreswan-dialog.ui.h:85
+@@ -617,7 +618,8 @@ msgid ""
+ "the number 1, and thus will use the interface named 'ipsec1.'\n"
+ "                        config: ipsec-interface yes|no|<num>"
+ msgstr ""
+-"Om satt, skapa eller använd ett befintligt virtuellt gränssnitt ipsecXXX för "
++"Om värdet anges, skapa eller använd ett befintligt virtuellt gränssnitt "
++"ipsecXXX för "
+ "”Ruttbaserade VPN-nätverk” (i motsats till ”Policybaserade VPN-nätverk”). "
+ "Giltiga alternativ är ”yes”, ”no” eller ett tal. När ett tal används kommer "
+ "IPsec-gränssnittet som skapats och/eller används att använda det numret som "
+@@ -640,7 +642,8 @@ msgid ""
+ "If set, specify the name of the certificate from the NSS database to "
+ "authenticate the remote"
+ msgstr ""
+-"Om satt, ange namnet på certifikatet från NSS-databasen för att autentisera "
++"Om värdet anges, ange namnet på certifikatet från NSS-databasen för att "
++"autentisera "
+ "fjärren"
+ 
+ #: ../properties/nm-libreswan-dialog.ui.h:93
+@@ -656,7 +659,7 @@ msgid ""
+ "Configure how Libreswan will send X.509 certificates to the remote host. "
+ "Valid values are: 'yes', 'always', 'no', 'never', 'sendifasked'."
+ msgstr ""
+-"Konfigurera hur Libreswan kommer skicka X.509-certifikat till fjärrvärden. "
++"Konfigurera hur Libreswan skickar X.509-certifikat till fjärrvärden. "
+ "Giltiga värden är: 'yes', 'always', 'no', 'never', 'sendifasked'."
+ 
+ #: ../properties/nm-libreswan-dialog.ui.h:96
