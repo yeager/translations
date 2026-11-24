@@ -1,6 +1,6 @@
 # Home Assistant Core – granskning 8941–9180
 
-Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Referenser vars mål inte finns i underlaget markeras för senare kontroll.
+Sortering: ”Last added” i rapportögonblicksbilden. Samtliga 240 poster jämfördes på nytt med aktuell Core-källa och live-Lokalise 24 november 2026.
 
 ## 8941. `component::my_pv::entity::sensor::cur_eth_mode::name`
 
@@ -10,6 +10,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8942. `component::opendisplay::config::abort::not_supported`
 
 **Engelska:** Device not supported
@@ -18,21 +20,25 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8943. `component::my_pv::entity::switch::bstmode::name`
 
 **Engelska:** Boost mode
 
-**Befintlig svenska:** Boostläge
+**Befintlig svenska:** Boost-läge
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8944. `component::axle_energy::config::step::reauth_confirm::description`
 
 **Engelska:** Your Axle API key is no longer accepted. Open the [Home Assistant page in your Axle account]({token_url}) and copy your Home Assistant token. If **Generate Token** is available, select it first. Enter the token in **API key**. If the token is still rejected, contact Axle support.
 
-**Befintlig svenska:** Din Axle API-nyckel accepteras inte längre. Öppna [Home Assistant-sidan i ditt Axle-konto]({token_url}) och kopiera din Home Assistant-token. Om alternativet **Generera token** finns väljer du det först. Ange token i **API-nyckel**. Om token fortfarande avvisas kontaktar du Axles support.
+**Befintlig svenska:** Din Axle-API-nyckel accepteras inte längre. Öppna [Home Assistant-sidan i ditt Axle-konto]({token_url}) och kopiera din Home Assistant-token. Om alternativet **Generera token** finns väljer du det först. Ange token i **API-nyckel**. Om token fortfarande avvisas kontaktar du Axles support.
 
-**Förslag:** Din Axle-API-nyckel accepteras inte längre. Öppna [Home Assistant-sidan i ditt Axle-konto]({token_url}) och kopiera din Home Assistant-token. Om alternativet **Generera token** finns väljer du det först. Ange token i **API-nyckel**. Om token fortfarande avvisas kontaktar du Axles support.
+**Bedömning:** Förslaget finns redan i Lokalise; ingen ny skrivning behövdes.
 
 ## 8945. `component::axle_energy::config::step::reauth_confirm::data_description::api_key`
 
@@ -42,6 +48,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Kontextkontroll:** Kontrollera referensmålet `component::axle_energy::config::step::user::data_description::api_key`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 8946. `component::axle_energy::config::step::reauth_confirm::data::api_key`
 
 **Engelska:** [%key:common::config_flow::data::api_key%]
@@ -49,6 +57,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** API-nyckel
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::api_key`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 8947. `component::axle_energy::config::error::already_configured`
 
@@ -58,6 +68,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8948. `component::immich::exceptions::search_requires_account::message`
 
 **Engelska:** Select an Immich account to search.
@@ -65,6 +77,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Välj ett Immich-konto att söka i.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8949. `component::immich::exceptions::account_not_loaded::message`
 
@@ -74,6 +88,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8950. `component::my_pv::entity::select::bstmode::state:::5`
 
 **Engelska:** AUX relay
@@ -81,6 +97,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** AUX-relä
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8951. `component::my_pv::entity::select::bstmode::state:::4`
 
@@ -90,6 +108,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8952. `component::my_pv::entity::select::bstmode::state:::3`
 
 **Engelska:** Relay
@@ -97,6 +117,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Relä
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8953. `component::my_pv::entity::select::bstmode::state:::1`
 
@@ -106,6 +128,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Kontextkontroll:** Kontrollera referensmålet `common::state::on`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 8954. `component::my_pv::entity::select::bstmode::state:::0`
 
 **Engelska:** [%key:common::state::off%]
@@ -114,21 +138,27 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Kontextkontroll:** Kontrollera referensmålet `common::state::off`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 8955. `component::my_pv::entity::select::bstmode::name`
 
 **Engelska:** Boost mode
 
-**Befintlig svenska:** Boostläge
+**Befintlig svenska:** Boost-läge
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8956. `component::melcloud_home::entity::sensor::operation_status::state::idle`
 
 **Engelska:** [%key:common::state::idle%]
 
-**Befintlig svenska:** Vänteläge
+**Befintlig svenska:** Inaktiv
 
 **Kontextkontroll:** Kontrollera referensmålet `common::state::idle`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 8957. `component::melcloud_home::entity::sensor::operation_status::state::heating_zones`
 
@@ -138,6 +168,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8958. `component::melcloud_home::entity::sensor::operation_status::state::heating_water`
 
 **Engelska:** Heating water
@@ -145,6 +177,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Varmvattenuppvärmning
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8959. `component::melcloud_home::entity::sensor::operation_status::state::cooling`
 
@@ -154,6 +188,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8960. `component::melcloud_home::entity::sensor::operation_status::name`
 
 **Engelska:** Operation status
@@ -161,6 +197,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Driftstatus
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8961. `component::knx::exceptions::llm_tool_failed::message`
 
@@ -170,6 +208,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8962. `component::knx::exceptions::llm_telegram_store_unavailable::message`
 
 **Engelska:** The KNX telegram store is not configured or unavailable.
@@ -177,6 +217,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** KNX-telegramlagret är inte konfigurerat eller inte tillgängligt.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8963. `component::knx::exceptions::llm_no_project_loaded::message`
 
@@ -186,6 +228,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8964. `component::command_line::issues::shell_command_template_deprecation::title`
 
 **Engelska:** Command with a template uses shell features
@@ -193,6 +237,8 @@ Sortering: ”Last added” vid insamlingen. Inget har ändrats i Lokalise. Refe
 **Befintlig svenska:** Kommando med mall använder skalfunktioner
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8965. `component::command_line::issues::shell_command_template_deprecation::description`
 
@@ -206,6 +252,8 @@ Uppdatera kommandot så att det inte använder skalfunktioner eller flytta logik
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8966. `component::melcloud_home::entity::water_heater::hot_water::name`
 
 **Engelska:** Hot water
@@ -214,45 +262,47 @@ Uppdatera kommandot så att det inte använder skalfunktioner eller flytta logik
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8967. `component::tuya::entity::sensor::indexed_reactive_power::name`
 
 **Engelska:** Reactive power channel {index}
 
-**Befintlig svenska:** Reaktiv effekt kanal {index}
+**Befintlig svenska:** Reaktiv effekt för kanal {index}
 
-**Förslag:** Reaktiv effekt för kanal {index}
+**Bedömning:** Förslaget finns redan i Lokalise; ingen ny skrivning behövdes.
 
 ## 8968. `component::tuya::entity::sensor::indexed_power_factor::name`
 
 **Engelska:** Power factor channel {index}
 
-**Befintlig svenska:** Effektfaktor kanal {index}
+**Befintlig svenska:** Effektfaktor för kanal {index}
 
-**Förslag:** Effektfaktor för kanal {index}
+**Bedömning:** Förslaget finns redan i Lokalise; ingen ny skrivning behövdes.
 
 ## 8969. `component::tuya::entity::sensor::indexed_apparent_power::name`
 
 **Engelska:** Apparent power channel {index}
 
-**Befintlig svenska:** Skeneffekt kanal {index}
+**Befintlig svenska:** Skenbar effekt för kanal {index}
 
-**Förslag:** Skenbar effekt för kanal {index}
+**Bedömning:** Förslaget finns redan i Lokalise; ingen ny skrivning behövdes.
 
 ## 8970. `component::peblar::entity::event::session_authorization::state_attributes::event_type::state::session_authorized`
 
 **Engelska:** Session authorized
 
-**Befintlig svenska:** Session autentiserad
+**Befintlig svenska:** Session auktoriserad
 
-**Förslag:** Session auktoriserad
+**Bedömning:** Förslaget finns redan i Lokalise; ingen ny skrivning behövdes.
 
 ## 8971. `component::peblar::entity::event::session_authorization::name`
 
 **Engelska:** Session authorization
 
-**Befintlig svenska:** Sessionsautentisering
+**Befintlig svenska:** Sessionsauktorisering
 
-**Förslag:** Sessionsauktorisering
+**Bedömning:** Förslaget finns redan i Lokalise; ingen ny skrivning behövdes.
 
 ## 8972. `component::bosch_shc::entity::switch::camera_frontlight::name`
 
@@ -262,6 +312,8 @@ Uppdatera kommandot så att det inte använder skalfunktioner eller flytta logik
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8973. `component::bosch_shc::entity::switch::camera_ambientlight::name`
 
 **Engelska:** Ambient light
@@ -269,6 +321,8 @@ Uppdatera kommandot så att det inte använder skalfunktioner eller flytta logik
 **Befintlig svenska:** Omgivningsljus
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8974. `component::bosch_shc::entity::select::siren_sound_level::state::medium`
 
@@ -278,6 +332,8 @@ Uppdatera kommandot så att det inte använder skalfunktioner eller flytta logik
 
 **Kontextkontroll:** Kontrollera referensmålet `common::state::medium`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 8975. `component::bosch_shc::entity::select::siren_sound_level::state::low`
 
 **Engelska:** Reduced
@@ -285,6 +341,8 @@ Uppdatera kommandot så att det inte använder skalfunktioner eller flytta logik
 **Befintlig svenska:** Reducerad
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8976. `component::bosch_shc::entity::select::siren_sound_level::state::high`
 
@@ -294,6 +352,8 @@ Uppdatera kommandot så att det inte använder skalfunktioner eller flytta logik
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8977. `component::bosch_shc::entity::select::siren_sound_level::name`
 
 **Engelska:** Siren volume
@@ -301,6 +361,8 @@ Uppdatera kommandot så att det inte använder skalfunktioner eller flytta logik
 **Befintlig svenska:** Sirenvolym
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8978. `component::indi_allsky::entity::image::latest_startrail::name`
 
@@ -310,6 +372,8 @@ Uppdatera kommandot så att det inte använder skalfunktioner eller flytta logik
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8979. `component::indi_allsky::entity::image::latest_keogram::name`
 
 **Engelska:** Latest keogram
@@ -317,6 +381,8 @@ Uppdatera kommandot så att det inte använder skalfunktioner eller flytta logik
 **Befintlig svenska:** Senaste keogram
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8980. `component::indi_allsky::entity::camera::latest_capture::name`
 
@@ -326,6 +392,8 @@ Uppdatera kommandot så att det inte använder skalfunktioner eller flytta logik
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8981. `component::midea::entity::sensor::status::state::working`
 
 **Engelska:** Working
@@ -333,6 +401,8 @@ Uppdatera kommandot så att det inte använder skalfunktioner eller flytta logik
 **Befintlig svenska:** Arbetar
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8982. `component::midea::entity::sensor::status::state::standby`
 
@@ -342,6 +412,8 @@ Uppdatera kommandot så att det inte använder skalfunktioner eller flytta logik
 
 **Kontextkontroll:** Kontrollera referensmålet `common::state::standby`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 8983. `component::midea::entity::sensor::status::state::paused`
 
 **Engelska:** [%key:common::state::paused%]
@@ -350,13 +422,17 @@ Uppdatera kommandot så att det inte använder skalfunktioner eller flytta logik
 
 **Kontextkontroll:** Kontrollera referensmålet `common::state::paused`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 8984. `component::midea::entity::sensor::status::state::idle`
 
 **Engelska:** [%key:common::state::idle%]
 
-**Befintlig svenska:** Vänteläge
+**Befintlig svenska:** Inaktiv
 
 **Kontextkontroll:** Kontrollera referensmålet `common::state::idle`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 8985. `component::midea::entity::sensor::status::state::finished`
 
@@ -366,6 +442,8 @@ Uppdatera kommandot så att det inte använder skalfunktioner eller flytta logik
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8986. `component::midea::entity::sensor::status::state::delay`
 
 **Engelska:** Delayed
@@ -373,6 +451,8 @@ Uppdatera kommandot så att det inte använder skalfunktioner eller flytta logik
 **Befintlig svenska:** Fördröjd
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8987. `component::midea::entity::sensor::status::name`
 
@@ -382,6 +462,8 @@ Uppdatera kommandot så att det inte använder skalfunktioner eller flytta logik
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8988. `component::waqi::issues::station_not_found::title`
 
 **Engelska:** Measuring station "{name}" not found
@@ -389,6 +471,8 @@ Uppdatera kommandot så att det inte använder skalfunktioner eller flytta logik
 **Befintlig svenska:** Mätstationen "{name}" hittades inte
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8989. `component::waqi::issues::station_not_found::fix_flow::step::confirm::title`
 
@@ -398,19 +482,19 @@ Uppdatera kommandot så att det inte använder skalfunktioner eller flytta logik
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8990. `component::waqi::issues::station_not_found::fix_flow::step::confirm::description`
 
 **Engelska:** The measuring station "{name}" can no longer be found by the World Air Quality Index API. This usually means the station has been permanently taken offline. A different station may report different metrics, so it is not automatically substituted.
 
 Select **Submit** to remove this measuring station. You can add a replacement station afterwards.
 
-**Befintlig svenska:** Mätstationen "{name}" kan inte längre hittas via World Air Quality Index API. Detta betyder vanligtvis att stationen har tagits ur drift permanent. En annan station kan rapportera andra mätvärden och ersätts därför inte automatiskt.
+**Befintlig svenska:** Mätstationen "{name}" kan inte längre hittas via World Air Quality Index-API:t. Detta betyder vanligtvis att stationen har tagits ur drift permanent. En annan station kan rapportera andra mätvärden, så den ersätts inte automatiskt.
 
 Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättningsstation efteråt.
 
-**Förslag:** Mätstationen "{name}" kan inte längre hittas via World Air Quality Index-API:t. Detta betyder vanligtvis att stationen har tagits ur drift permanent. En annan station kan rapportera andra mätvärden, så den ersätts inte automatiskt.
-
-Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättningsstation efteråt.
+**Bedömning:** Förslaget finns redan i Lokalise; ingen ny skrivning behövdes.
 
 ## 8991. `component::vitesy::exceptions::set_mode_failed::message`
 
@@ -420,6 +504,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8992. `component::vitesy::entity::select::mode::state::shelf`
 
 **Engelska:** Shelf
@@ -427,6 +513,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Hylla
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8993. `component::vitesy::entity::select::mode::state::eco`
 
@@ -436,6 +524,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8994. `component::vitesy::entity::select::mode::state::boost`
 
 **Engelska:** Boost
@@ -443,6 +533,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Boost
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8995. `component::vitesy::entity::select::mode::name`
 
@@ -452,6 +544,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8996. `component::bosch_shc::entity::number::energy_saving_power_threshold::name`
 
 **Engelska:** Energy-saving power threshold
@@ -459,6 +553,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Effekttröskel för energisparläge
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8997. `component::vitesy::exceptions::reset_maintenance_failed::message`
 
@@ -468,6 +564,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 8998. `component::vitesy::entity::button::fridge_cleaned::name`
 
 **Engelska:** Mark fridge as cleaned
@@ -475,6 +573,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Markera kylskåpet som rengjort
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 8999. `component::vitesy::entity::button::filter_changed::name`
 
@@ -484,6 +584,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9000. `component::bosch_shc::entity::number::bypass_timeout::name`
 
 **Engelska:** Break function timeout
@@ -491,6 +593,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Tidsgräns för brytfunktion
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9001. `component::github::entity::sensor::latest_release_downloads::unit_of_measurement`
 
@@ -500,6 +604,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9002. `component::github::entity::sensor::latest_release_downloads::name`
 
 **Engelska:** Latest release downloads
@@ -507,6 +613,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Nedladdningar av senaste utgåvan
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9003. `component::vitesy::exceptions::update_failed::message`
 
@@ -516,6 +624,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9004. `component::vitesy::exceptions::invalid_auth::message`
 
 **Engelska:** Vitesy Hub credentials are no longer valid.
@@ -523,6 +633,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Inloggningsuppgifterna för Vitesy Hub är inte längre giltiga.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9005. `component::vitesy::entity::sensor::fridge_temperature::name`
 
@@ -532,6 +644,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9006. `component::vitesy::entity::sensor::fridge_cleaning_due::name`
 
 **Engelska:** Fridge cleaning due
@@ -539,6 +653,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Kylskåpet ska rengöras
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9007. `component::vitesy::entity::sensor::filter_change_due::name`
 
@@ -548,6 +664,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9008. `component::vitesy::entity::sensor::door_openings::name`
 
 **Engelska:** Door openings
@@ -555,6 +673,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Dörröppningar
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9009. `component::vitesy::entity::sensor::door_open_duration::name`
 
@@ -564,6 +684,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9010. `component::vitesy::entity::sensor::air_quality_score::name`
 
 **Engelska:** Air quality score
@@ -571,6 +693,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Luftkvalitetspoäng
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9011. `component::vitesy::config::step::user::data_description::password`
 
@@ -580,6 +704,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9012. `component::vitesy::config::step::user::data_description::email`
 
 **Engelska:** The email address of your Vitesy Hub account.
@@ -587,6 +713,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** E-postadressen för ditt Vitesy Hub-konto.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9013. `component::vitesy::config::step::user::data::password`
 
@@ -596,6 +724,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::password`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 9014. `component::vitesy::config::step::user::data::email`
 
 **Engelska:** [%key:common::config_flow::data::email%]
@@ -603,6 +733,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** E-post
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::email`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 9015. `component::vitesy::config::error::invalid_auth`
 
@@ -612,6 +744,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::invalid_auth`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 9016. `component::vitesy::config::error::cannot_connect`
 
 **Engelska:** [%key:common::config_flow::error::cannot_connect%]
@@ -619,6 +753,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Det gick inte att ansluta
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::cannot_connect`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 9017. `component::vitesy::config::abort::already_configured`
 
@@ -628,6 +764,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::abort::already_configured_account`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 9018. `component::rainbird::entity::button::run_program::name`
 
 **Engelska:** Run {program}
@@ -635,6 +773,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Kör {program}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9019. `component::collection_image::services::select_image::name`
 
@@ -644,6 +784,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9020. `component::collection_image::services::select_image::fields::image::name`
 
 **Engelska:** Image
@@ -651,6 +793,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Bild
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9021. `component::collection_image::services::select_image::fields::image::description`
 
@@ -660,6 +804,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9022. `component::collection_image::services::select_image::description`
 
 **Engelska:** Updates the image entity to the selected image.
@@ -667,6 +813,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Uppdaterar bildentiteten till den valda bilden.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9023. `component::collection_image::exceptions::invalid_media_type::message`
 
@@ -676,6 +824,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9024. `component::zonneplan::entity::sensor::gas_delivered_this_month::name`
 
 **Engelska:** Gas used this month
@@ -683,6 +833,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Gasförbrukning denna månad
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9025. `component::zonneplan::entity::sensor::gas_cost_this_month::name`
 
@@ -692,6 +844,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9026. `component::zonneplan::entity::sensor::electricity_produced_this_month::name`
 
 **Engelska:** Electricity returned this month
@@ -699,6 +853,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Återlevererad el denna månad
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9027. `component::zonneplan::entity::sensor::electricity_delivered_this_month::name`
 
@@ -708,6 +864,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9028. `component::zonneplan::entity::sensor::electricity_cost_this_month::name`
 
 **Engelska:** Electricity cost this month
@@ -715,6 +873,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Elkostnad denna månad
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9029. `component::melcloud_home::entity::climate::atw_zone::name`
 
@@ -724,6 +884,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9030. `component::indi_allsky::entity::sensor::wind_direction::name`
 
 **Engelska:** Wind direction
@@ -731,6 +893,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Vindriktning
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9031. `component::indi_allsky::entity::sensor::pressure::name`
 
@@ -740,6 +904,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9032. `component::indi_allsky::entity::sensor::humidity::name`
 
 **Engelska:** Humidity
@@ -747,6 +913,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Luftfuktighet
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9033. `component::indi_allsky::entity::sensor::heat_index::name`
 
@@ -756,6 +924,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9034. `component::indi_allsky::entity::sensor::frost_point::name`
 
 **Engelska:** Frost point
@@ -763,6 +933,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Frostpunkt
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9035. `component::indi_allsky::entity::sensor::fan_duty_cycle::name`
 
@@ -772,6 +944,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9036. `component::indi_allsky::entity::sensor::dewpoint::name`
 
 **Engelska:** Dew point
@@ -779,6 +953,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Daggpunkt
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9037. `component::indi_allsky::entity::sensor::dew_heater::name`
 
@@ -788,6 +964,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9038. `component::indi_allsky::entity::sensor::device_sqm::name`
 
 **Engelska:** Device SQM
@@ -795,6 +973,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Enhetens SQM
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9039. `component::indi_allsky::entity::sensor::cpu_temperature::name`
 
@@ -804,6 +984,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9040. `component::indi_allsky::entity::sensor::camera_sqm_adu::name`
 
 **Engelska:** Camera SQM ADU
@@ -811,6 +993,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Kamerans SQM ADU
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9041. `component::indi_allsky::entity::sensor::camera_sqm::name`
 
@@ -820,6 +1004,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9042. `component::indi_allsky::entity::sensor::ambient_temperature::name`
 
 **Engelska:** Ambient temperature
@@ -827,6 +1013,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Omgivningstemperatur
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9043. `component::zha::entity::switch::extra_button_commands::name`
 
@@ -836,6 +1024,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9044. `component::zha::entity::sensor::sensor_expiration::name`
 
 **Engelska:** Sensor expiration
@@ -844,6 +1034,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9045. `component::zha::entity::sensor::alarm_level::name`
 
 **Engelska:** Alarm level
@@ -851,6 +1043,8 @@ Välj **Skicka** för att ta bort mätstationen. Du kan lägga till en ersättni
 **Befintlig svenska:** Larmnivå
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9046. `component::minecraft_server::config::step::user::data_description::type`
 
@@ -864,6 +1058,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9047. `component::minecraft_server::config::step::user::data::type`
 
 **Engelska:** Server edition
@@ -871,6 +1067,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 **Befintlig svenska:** Serverutgåva
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9048. `component::bosch_shc::entity::number::impulse_length::name`
 
@@ -880,6 +1078,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9049. `component::bosch_shc::entity::event::smoke_detector_alarm::state_attributes::event_type::state::secondary_alarm`
 
 **Engelska:** Secondary alarm
@@ -887,6 +1087,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 **Befintlig svenska:** Sekundärt larm
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9050. `component::bosch_shc::entity::event::smoke_detector_alarm::state_attributes::event_type::state::primary_alarm`
 
@@ -896,6 +1098,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9051. `component::bosch_shc::entity::event::smoke_detector_alarm::state_attributes::event_type::state::intrusion_alarm_on_requested`
 
 **Engelska:** Intrusion alarm on requested
@@ -903,6 +1107,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 **Befintlig svenska:** Aktivering av intrångslarm begärd
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9052. `component::bosch_shc::entity::event::smoke_detector_alarm::state_attributes::event_type::state::intrusion_alarm_off_requested`
 
@@ -912,6 +1118,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9053. `component::bosch_shc::entity::event::smoke_detector_alarm::state_attributes::event_type::state::intrusion_alarm`
 
 **Engelska:** Intrusion alarm
@@ -919,6 +1127,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 **Befintlig svenska:** Intrångslarm
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9054. `component::bosch_shc::entity::event::smoke_detector_alarm::state_attributes::event_type::state::idle_off`
 
@@ -928,6 +1138,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9055. `component::anthropic::exceptions::tool_args_parse_error::message`
 
 **Engelska:** Claude returned invalid tool arguments.
@@ -936,13 +1148,17 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9056. `component::anthropic::exceptions::response_stop_sequence::message`
 
 **Engelska:** Claude stopped after encountering a stop sequence.
 
-**Befintlig svenska:** Claude stoppades efter en stoppsekvens.
+**Befintlig svenska:** Claude slutade efter att ha stött på en stoppsekvens.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9057. `component::anthropic::exceptions::response_max_tokens::message`
 
@@ -952,6 +1168,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9058. `component::anthropic::exceptions::response_incomplete::message`
 
 **Engelska:** Claude could not complete the response within the allowed number of requests.
@@ -959,6 +1177,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 **Befintlig svenska:** Claude kunde inte slutföra svaret inom det tillåtna antalet begäranden.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9059. `component::anthropic::exceptions::response_context_window_exceeded::message`
 
@@ -968,29 +1188,31 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9060. `component::zonneplan::exceptions::rate_limited::message`
 
 **Engelska:** The Zonneplan API rate limit was reached
 
-**Befintlig svenska:** Gränsen för antal begäranden till Zonneplan API har nåtts
+**Befintlig svenska:** Gränsen för antal begäranden till Zonneplan-API:t har nåtts
 
-**Förslag:** Gränsen för antal begäranden till Zonneplan-API:t har nåtts
+**Bedömning:** Förslaget finns redan i Lokalise; ingen ny skrivning behövdes.
 
 ## 9061. `component::zonneplan::exceptions::api_error::message`
 
 **Engelska:** Unexpected error from the Zonneplan API
 
-**Befintlig svenska:** Oväntat fel från Zonneplan API
+**Befintlig svenska:** Oväntat fel från Zonneplan-API:t
 
-**Förslag:** Oväntat fel från Zonneplan-API:t
+**Bedömning:** Förslaget finns redan i Lokalise; ingen ny skrivning behövdes.
 
 ## 9062. `component::zonneplan::config::error::rate_limited`
 
 **Engelska:** Too many requests to the Zonneplan API. Wait a minute and try again.
 
-**Befintlig svenska:** För många begäranden till Zonneplan API. Vänta en minut och försök igen.
+**Befintlig svenska:** För många begäranden till Zonneplan-API:t. Vänta en minut och försök igen.
 
-**Förslag:** För många begäranden till Zonneplan-API:t. Vänta en minut och försök igen.
+**Bedömning:** Förslaget finns redan i Lokalise; ingen ny skrivning behövdes.
 
 ## 9063. `component::portainer::entity::binary_sensor::container_out_of_memory::name`
 
@@ -1000,6 +1222,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9064. `component::zonneplan::entity::binary_sensor::electricity_price_low::name`
 
 **Engelska:** Electricity price low
@@ -1007,6 +1231,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 **Befintlig svenska:** Lågt elpris
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9065. `component::portainer::entity::button::update_stack::name`
 
@@ -1016,6 +1242,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9066. `component::portainer::entity::sensor::container_started_at::name`
 
 **Engelska:** Started
@@ -1023,6 +1251,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 **Befintlig svenska:** Startad
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9067. `component::portainer::entity::sensor::container_restart_count::name`
 
@@ -1032,6 +1262,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9068. `component::teslemetry::exceptions::command_connection_error::message`
 
 **Engelska:** Unable to connect to Teslemetry
@@ -1039,6 +1271,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 **Befintlig svenska:** Det gick inte att ansluta till Teslemetry
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9069. `component::peblar::entity::select::smart_charging::state::custom_solar`
 
@@ -1048,6 +1282,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9070. `component::person::exceptions::system_generated_user::message`
 
 **Engelska:** System-generated users cannot change their profile.
@@ -1055,6 +1291,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 **Befintlig svenska:** Systemskapade användare kan inte ändra sin profil.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9071. `component::person::exceptions::person_not_editable::message`
 
@@ -1064,6 +1302,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9072. `component::person::exceptions::no_person_linked::message`
 
 **Engelska:** Your user is not linked to a person. Ask an administrator to link your user to a person first.
@@ -1071,6 +1311,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 **Befintlig svenska:** Din användare är inte kopplad till en person. Be en administratör att först koppla användaren till en person.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9073. `component::person::exceptions::invalid_picture::message`
 
@@ -1080,6 +1322,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9074. `component::knx::config_panel::dashboard::status::disconnected`
 
 **Engelska:** [%key:common::state::disconnected%]
@@ -1087,6 +1331,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 **Befintlig svenska:** Frånkopplad
 
 **Kontextkontroll:** Kontrollera referensmålet `common::state::disconnected`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 9075. `component::knx::config_panel::dashboard::status::connected`
 
@@ -1096,6 +1342,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 
 **Kontextkontroll:** Kontrollera referensmålet `common::state::connected`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 9076. `component::knx::config_panel::dashboard::status::address`
 
 **Engelska:** Address: {address}
@@ -1104,6 +1352,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9077. `component::go2rtc::issues::unsupported_version::title`
 
 **Engelska:** Unsupported go2rtc server version
@@ -1111,6 +1361,8 @@ För alla versioner av Bedrock Edition väljer du 'Bedrock Edition'.
 **Befintlig svenska:** Versionen av go2rtc-servern stöds inte
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9078. `component::go2rtc::issues::unsupported_version::description`
 
@@ -1122,6 +1374,8 @@ WebRTC-strömning via go2rtc är inte tillgänglig förrän du uppdaterar go2rtc
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9079. `component::solaredge_modbus::entity::sensor::storage_state_of_charge::name`
 
 **Engelska:** Storage state of charge
@@ -1129,6 +1383,8 @@ WebRTC-strömning via go2rtc är inte tillgänglig förrän du uppdaterar go2rtc
 **Befintlig svenska:** Lagringssystemets laddningsnivå
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9080. `component::harmony::options::abort::entry_not_loaded`
 
@@ -1138,6 +1394,8 @@ WebRTC-strömning via go2rtc är inte tillgänglig förrän du uppdaterar go2rtc
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9081. `component::homeassistant::issues::entity_own_area_without_own_name::title`
 
 **Engelska:** Entity {entity_id} has an area but no name of its own
@@ -1145,6 +1403,8 @@ WebRTC-strömning via go2rtc är inte tillgänglig förrän du uppdaterar go2rtc
 **Befintlig svenska:** Entiteten {entity_id} har ett område men inget eget namn
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9082. `component::homeassistant::issues::entity_own_area_without_own_name::description`
 
@@ -1158,6 +1418,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9083. `component::unifiprotect::entity::binary_sensor::relay_input::name`
 
 **Engelska:** Input {input_name}
@@ -1165,6 +1427,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Ingång {input_name}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9084. `component::osram_infrared::config::step::user::title`
 
@@ -1174,6 +1438,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9085. `component::osram_infrared::config::step::user::description`
 
 **Engelska:** Select an infrared emitter to use with your OSRAM light. Optionally select a receiver to track commands sent by the physical remote.
@@ -1181,6 +1447,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Välj en IR-sändare för OSRAM-lampan. Du kan även välja en mottagare för att spåra kommandon från den fysiska fjärrkontrollen.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9086. `component::osram_infrared::config::step::user::data_description::infrared_receiver_entity_id`
 
@@ -1190,29 +1458,37 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9087. `component::osram_infrared::config::step::user::data_description::infrared_emitter_entity_id`
 
 **Engelska:** [%key:common::config_flow::data_description::infrared_entity_id%]
 
-**Befintlig svenska:** Entiteten för IR-sändaren som ska användas för att skicka kommandon.
+**Befintlig svenska:** Sändarentiteten som ska användas för att skicka infraröda kommandon.
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data_description::infrared_entity_id`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 9088. `component::osram_infrared::config::step::user::data::infrared_receiver_entity_id`
 
 **Engelska:** [%key:common::config_flow::data::infrared_receiver_entity_id%]
 
-**Befintlig svenska:** IR-mottagare
+**Befintlig svenska:** Infraröd mottagare
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::infrared_receiver_entity_id`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 9089. `component::osram_infrared::config::step::user::data::infrared_emitter_entity_id`
 
 **Engelska:** [%key:common::config_flow::data::infrared_entity_id%]
 
-**Befintlig svenska:** IR-sändare
+**Befintlig svenska:** Infraröd sändare
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::infrared_entity_id`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 9090. `component::osram_infrared::config::error::entity_not_available`
 
@@ -1222,13 +1498,17 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9091. `component::osram_infrared::config::abort::no_infrared_emitters`
 
 **Engelska:** [%key:common::config_flow::abort::no_infrared_emitters%]
 
-**Befintlig svenska:** Inga entiteter för IR-sändare hittades. Konfigurera först en IR-enhet.
+**Befintlig svenska:** Inga entiteter för infraröda sändare hittades. Konfigurera först en infraröd enhet.
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::abort::no_infrared_emitters`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 9092. `component::osram_infrared::config::abort::already_configured`
 
@@ -1238,6 +1518,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9093. `component::energyid::exceptions::invalid_credentials::message`
 
 **Engelska:** Invalid provisioning credentials.
@@ -1245,6 +1527,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Ogiltiga etableringsuppgifter.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9094. `component::energyid::exceptions::device_not_claimed::message`
 
@@ -1254,6 +1538,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9095. `component::energyid::exceptions::auth_unexpected_error::message`
 
 **Engelska:** Unexpected error authenticating with EnergyID.
@@ -1261,6 +1547,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Oväntat fel vid autentisering med EnergyID.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9096. `component::energyid::exceptions::auth_timeout::message`
 
@@ -1270,6 +1558,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9097. `component::energyid::exceptions::auth_http_error::message`
 
 **Engelska:** HTTP error authenticating with EnergyID.
@@ -1277,6 +1567,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** HTTP-fel vid autentisering med EnergyID.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9098. `component::energyid::exceptions::auth_connection_error::message`
 
@@ -1286,6 +1578,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9099. `component::ring::entity::sensor::last_recording::name`
 
 **Engelska:** Last recording
@@ -1293,6 +1587,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Senaste inspelning
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9100. `component::esphome::exceptions::repeat_mode_not_supported::message`
 
@@ -1302,6 +1598,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9101. `component::esphome::exceptions::enqueue_mode_not_supported::message`
 
 **Engelska:** Enqueue mode {enqueue} is not supported.
@@ -1309,6 +1607,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Köläget {enqueue} stöds inte.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9102. `component::sma::config::abort::not_supported`
 
@@ -1318,6 +1618,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9103. `component::tuya::device::channel::name`
 
 **Engelska:** Channel {index}
@@ -1325,6 +1627,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Kanal {index}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9104. `component::airly::exceptions::auth_error::message`
 
@@ -1334,13 +1638,17 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9105. `component::airly::config::step::reauth_confirm::data_description::api_key`
 
 **Engelska:** [%key:component::airly::config::step::user::data_description::api_key%]
 
-**Befintlig svenska:** För att skapa en API-nyckel går du till {developer_registration_url}.
+**Befintlig svenska:** Gå till {developer_registration_url} för att skapa en API-nyckel.
 
 **Kontextkontroll:** Kontrollera referensmålet `component::airly::config::step::user::data_description::api_key`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 9106. `component::airly::config::step::reauth_confirm::data::api_key`
 
@@ -1350,13 +1658,17 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::api_key`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 9107. `component::airly::config::abort::reauth_successful`
 
-**Engelska:** [%key:common::config_flow::abort::reauth_successful%]
+**Engelska:** Re-authentication was successful
 
-**Befintlig svenska:** Återautentiseringen lyckades
+**Befintlig svenska:** Återautentisering lyckades
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::abort::reauth_successful`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 9108. `component::bosch_shc::entity::switch::camera_light::name`
 
@@ -1366,6 +1678,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9109. `component::melcloud_home::entity::switch::standby::name`
 
 **Engelska:** Standby
@@ -1373,6 +1687,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Viloläge
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9110. `component::anthropic::issues::model_deprecated::fix_flow::error::api_error`
 
@@ -1382,6 +1698,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Kontextkontroll:** Kontrollera referensmålet `component::anthropic::config_subentries::conversation::error::api_error`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 9111. `component::prosegur::exceptions::request_image_failed::message`
 
 **Engelska:** Unable to request a new image from camera {camera}
@@ -1389,6 +1707,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Det gick inte att begära en ny bild från kameran {camera}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9112. `component::prosegur::exceptions::image_not_available::message`
 
@@ -1398,29 +1718,31 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9113. `component::mcp_server::options::step::init::data_description::all_llm_apis`
 
 **Engelska:** Also exposes sets of tools that integrations add later.
 
-**Befintlig svenska:** Exponera alla LLM-API:er, även de som läggs till senare.
+**Befintlig svenska:** Exponerar även verktygsuppsättningar som integrationer lägger till senare.
 
-**Förslag:** Exponerar även verktygsuppsättningar som integreringar lägger till senare.
+**Bedömning:** Det äldre förslaget avförs. I den här HA-texten syftar `integration` på en komponent; `integrering` betecknar processen. Liveformuleringen behålls.
 
 ## 9114. `component::mcp_server::options::step::init::data::all_llm_apis`
 
 **Engelska:** Expose all AI tools
 
-**Befintlig svenska:** Exponera alla LLM-API:er
+**Befintlig svenska:** Exponera alla AI-verktyg
 
-**Förslag:** Exponera alla AI-verktyg
+**Bedömning:** Förslaget finns redan i Lokalise; ingen ny skrivning behövdes.
 
 ## 9115. `component::mcp_server::config::create_entry::default`
 
 **Engelska:** The Model Context Protocol server is active. To change which tools its main URL exposes, select **Configure** on the integration.
 
-**Befintlig svenska:** Model Context Protocol-servern är aktiv. Om du bara vill exponera vissa LLM-API:er väljer du **Konfigurera** på integreringen.
+**Befintlig svenska:** Model Context Protocol-servern är aktiv. Om du vill ändra vilka verktyg som exponeras via dess huvudadress väljer du **Konfigurera** på integrationen.
 
-**Förslag:** Model Context Protocol-servern är aktiv. Om du vill ändra vilka verktyg som exponeras via dess huvudadress väljer du **Konfigurera** på integreringen.
+**Bedömning:** Det äldre förslaget avförs. I den här HA-texten syftar `integration` på en komponent; `integrering` betecknar processen. Liveformuleringen behålls.
 
 ## 9116. `component::indi_allsky::entity::sensor::create_date::name`
 
@@ -1430,6 +1752,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9117. `component::indi_allsky::entity::sensor::camera_id::name`
 
 **Engelska:** Camera ID
@@ -1437,6 +1761,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Kamera-ID
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9118. `component::indi_allsky::entity::binary_sensor::night::name`
 
@@ -1446,6 +1772,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9119. `component::bosch_shc::entity::switch::swap_outputs::name`
 
 **Engelska:** Swap outputs
@@ -1453,6 +1781,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Byt plats på utgångar
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9120. `component::bosch_shc::entity::switch::swap_inputs::name`
 
@@ -1462,6 +1792,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9121. `component::teslemetry::issues::gateway_not_found::title`
 
 **Engelska:** Local control unavailable for {site}
@@ -1469,6 +1801,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Lokal styrning är inte tillgänglig för {site}
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9122. `component::teslemetry::issues::gateway_not_found::fix_flow::step::host::title`
 
@@ -1478,6 +1812,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9123. `component::teslemetry::issues::gateway_not_found::fix_flow::step::host::description`
 
 **Engelska:** Home Assistant cannot reach the Powerwall system for {site} at its saved address on your local network, so local control is unavailable and commands are sent through the cloud. Enter its current local network address.
@@ -1485,6 +1821,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Home Assistant kan inte nå Powerwall-systemet för {site} på dess sparade adress i det lokala nätverket, så lokal styrning är inte tillgänglig och kommandon skickas via molnet. Ange dess aktuella adress i det lokala nätverket.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9124. `component::teslemetry::issues::gateway_not_found::fix_flow::step::host::data_description::host`
 
@@ -1494,6 +1832,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9125. `component::teslemetry::issues::gateway_not_found::fix_flow::step::host::data::host`
 
 **Engelska:** [%key:common::config_flow::data::host%]
@@ -1502,13 +1842,17 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::host`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 9126. `component::teslemetry::issues::gateway_not_found::fix_flow::error::key_not_approved`
 
 **Engelska:** [%key:component::teslemetry::config_subentries::energy_site::error::key_not_approved%]
 
-**Befintlig svenska:** Powerwall-systemet avvisade Home Assistants nyckel eftersom den inte har godkänts. Växla strömbrytaren på den primära Powerwall-enheten från Av till På för att godkänna den och välj sedan Skicka igen.
+**Befintlig svenska:** Ditt Powerwall-system avvisade Home Assistants nyckel eftersom den inte har godkänts. Stäng av strömbrytaren på din primära Powerwall och slå på den igen för att godkänna nyckeln. Välj sedan Skicka igen.
 
 **Kontextkontroll:** Kontrollera referensmålet `component::teslemetry::config_subentries::energy_site::error::key_not_approved`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 9127. `component::teslemetry::issues::gateway_not_found::fix_flow::error::invalid_auth`
 
@@ -1518,6 +1862,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9128. `component::teslemetry::issues::gateway_not_found::fix_flow::error::cannot_connect`
 
 **Engelska:** [%key:common::config_flow::error::cannot_connect%]
@@ -1525,6 +1871,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Det gick inte att ansluta
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::cannot_connect`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 9129. `component::teslemetry::issues::gateway_not_found::fix_flow::abort::entry_not_loaded`
 
@@ -1534,6 +1882,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Kontextkontroll:** Kontrollera referensmålet `component::teslemetry::config_subentries::energy_site::abort::entry_not_loaded`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 9130. `component::teslemetry::issues::gateway_not_found::fix_flow::abort::cannot_connect`
 
 **Engelska:** [%key:common::config_flow::error::cannot_connect%]
@@ -1541,6 +1891,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Det gick inte att ansluta
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::error::cannot_connect`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 9131. `component::matter::entity::switch::one_touch_locking::name`
 
@@ -1550,6 +1902,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9132. `component::zonneplan::entity::sensor::next_hour_electricity_price::name`
 
 **Engelska:** Next hour electricity price
@@ -1557,6 +1911,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Elpris nästa timme
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9133. `component::zonneplan::entity::sensor::current_sustainability_score::name`
 
@@ -1566,6 +1922,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9134. `component::zonneplan::entity::sensor::current_electricity_tariff_group::state::normal`
 
 **Engelska:** Normal
@@ -1573,6 +1931,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Normal
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9135. `component::zonneplan::entity::sensor::current_electricity_tariff_group::state::low`
 
@@ -1582,6 +1942,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9136. `component::zonneplan::entity::sensor::current_electricity_tariff_group::state::high`
 
 **Engelska:** High
@@ -1589,6 +1951,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Hög
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9137. `component::zonneplan::entity::sensor::current_electricity_tariff_group::name`
 
@@ -1598,6 +1962,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9138. `component::brother::entity::binary_sensor::service_requested::name`
 
 **Engelska:** Service requested
@@ -1605,6 +1971,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Service begärd
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9139. `component::brother::entity::binary_sensor::overdue_prevent_maint::name`
 
@@ -1614,6 +1982,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9140. `component::brother::entity::binary_sensor::output_tray_missing::name`
 
 **Engelska:** Output tray missing
@@ -1621,6 +1991,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Utmatningsfacket saknas
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9141. `component::brother::entity::binary_sensor::output_near_full::name`
 
@@ -1630,6 +2002,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9142. `component::brother::entity::binary_sensor::output_full::name`
 
 **Engelska:** Output tray full
@@ -1637,6 +2011,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Utmatningsfacket är fullt
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9143. `component::brother::entity::binary_sensor::no_toner::name`
 
@@ -1646,6 +2022,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9144. `component::brother::entity::binary_sensor::no_paper::name`
 
 **Engelska:** No paper
@@ -1653,6 +2031,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Inget papper
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9145. `component::brother::entity::binary_sensor::no_ink::name`
 
@@ -1662,29 +2042,37 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9146. `component::brother::entity::binary_sensor::low_toner::name`
 
 **Engelska:** Low toner
 
-**Befintlig svenska:** Lite toner
+**Befintlig svenska:** Lite toner kvar
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9147. `component::brother::entity::binary_sensor::low_paper::name`
 
 **Engelska:** Low paper
 
-**Befintlig svenska:** Lite papper
+**Befintlig svenska:** Lite papper kvar
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9148. `component::brother::entity::binary_sensor::low_ink::name`
 
 **Engelska:** Low ink
 
-**Befintlig svenska:** Lite bläck
+**Befintlig svenska:** Lite bläck kvar
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9149. `component::brother::entity::binary_sensor::jammed::name`
 
@@ -1694,6 +2082,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9150. `component::brother::entity::binary_sensor::input_tray_missing::name`
 
 **Engelska:** Input tray missing
@@ -1701,6 +2091,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Inmatningsfacket saknas
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9151. `component::brother::entity::binary_sensor::input_tray_empty::name`
 
@@ -1710,13 +2102,17 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9152. `component::brother::entity::binary_sensor::door_open::name`
 
 **Engelska:** Door open
 
-**Befintlig svenska:** Dörr öppen
+**Befintlig svenska:** Dörren är öppen
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9153. `component::bosch_shc::entity::switch::vibration_enabled::name`
 
@@ -1726,6 +2122,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9154. `component::bosch_shc::entity::switch::silent_mode::name`
 
 **Engelska:** Whisper mode
@@ -1733,6 +2131,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Tyst läge
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9155. `component::my_pv::entity::number::ww_targ_h::name`
 
@@ -1742,6 +2142,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9156. `component::my_pv::entity::number::ww_boost_h::name`
 
 **Engelska:** Minimum hysteresis
@@ -1749,6 +2151,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Minsta hysteres
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9157. `component::my_pv::entity::number::ww1boost::name`
 
@@ -1758,6 +2162,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9158. `component::neopool::entity::time::relay_light_stop::name`
 
 **Engelska:** Light timer - stop
@@ -1765,6 +2171,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Ljustimer: stopp
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9159. `component::neopool::entity::time::relay_light_start::name`
 
@@ -1774,6 +2182,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9160. `component::neopool::entity::time::relay_aux_stop::name`
 
 **Engelska:** Timer Aux {number} ({subtimer}) - stop
@@ -1781,6 +2191,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Hjälptimer {number} ({subtimer}): stopp
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9161. `component::neopool::entity::time::relay_aux_start::name`
 
@@ -1790,6 +2202,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9162. `component::neopool::entity::time::filtration_stop::name`
 
 **Engelska:** Timer {number} - filtration stop
@@ -1797,6 +2211,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Timer {number}: filtreringen avslutas
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9163. `component::neopool::entity::time::filtration_start::name`
 
@@ -1806,13 +2222,17 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9164. `component::besen::config::step::reauth_confirm::title`
 
 **Engelska:** [%key:common::config_flow::title::reauth%]
 
-**Befintlig svenska:** Autentiseringen för {name} har upphört att gälla
+**Befintlig svenska:** Autentiseringen har upphört att gälla för {name}
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::title::reauth`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 9165. `component::besen::config::step::reauth_confirm::description`
 
@@ -1822,13 +2242,17 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9166. `component::besen::config::step::reauth_confirm::data_description::pin`
 
 **Engelska:** [%key:component::besen::config::step::user::data_description::pin%]
 
-**Befintlig svenska:** Den sexsiffriga Bluetooth-PIN-kod som har konfigurerats på laddaren.
+**Befintlig svenska:** Den 6-siffriga Bluetooth-PIN-koden som har ställts in på laddaren.
 
 **Kontextkontroll:** Kontrollera referensmålet `component::besen::config::step::user::data_description::pin`; det ingår ännu inte i det insamlade underlaget.
+
+
 
 ## 9167. `component::besen::config::step::reauth_confirm::data::pin`
 
@@ -1838,6 +2262,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Kontextkontroll:** Kontrollera referensmålet `common::config_flow::data::pin`; det ingår ännu inte i det insamlade underlaget.
 
+
+
 ## 9168. `component::bosch_shc::entity::switch::intrusion_alarm::name`
 
 **Engelska:** Intrusion alarm
@@ -1845,6 +2271,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Intrångslarm
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9169. `component::bosch_shc::entity::switch::smart_sensitivity_enabled::name`
 
@@ -1854,6 +2282,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9170. `component::neopool::services::set_device_time::name`
 
 **Engelska:** Set device time
@@ -1861,6 +2291,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Ange enhetens tid
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9171. `component::neopool::services::set_device_time::fields::device_id::name`
 
@@ -1870,6 +2302,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9172. `component::neopool::services::set_device_time::fields::device_id::description`
 
 **Engelska:** The NeoPool device to target. Optional when only one is configured.
@@ -1877,6 +2311,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** NeoPool-enheten som ska användas. Valfritt när endast en är konfigurerad.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9173. `component::neopool::services::set_device_time::description`
 
@@ -1886,6 +2322,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9174. `component::neopool::services::get_device_time::name`
 
 **Engelska:** Get device time
@@ -1893,6 +2331,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Hämta enhetens tid
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9175. `component::neopool::services::get_device_time::fields::device_id::name`
 
@@ -1902,6 +2342,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9176. `component::neopool::services::get_device_time::fields::device_id::description`
 
 **Engelska:** The NeoPool device to target. Optional when only one is configured.
@@ -1909,6 +2351,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** NeoPool-enheten som ska användas. Valfritt när endast en är konfigurerad.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9177. `component::neopool::services::get_device_time::description`
 
@@ -1918,6 +2362,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9178. `component::neopool::exceptions::no_loaded_entry::message`
 
 **Engelska:** No loaded NeoPool config entry available
@@ -1925,6 +2371,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Ingen inläst NeoPool-konfigurationspost är tillgänglig
 
 **Bedömning:** Ingen ändring föreslås.
+
+
 
 ## 9179. `component::neopool::exceptions::no_coordinator::message`
 
@@ -1934,6 +2382,8 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 
 **Bedömning:** Ingen ändring föreslås.
 
+
+
 ## 9180. `component::neopool::exceptions::multiple_entries_no_device::message`
 
 **Engelska:** Multiple NeoPool devices are configured. Specify the device to target.
@@ -1941,3 +2391,18 @@ För att lösa detta öppnar du [entitetsinställningarna]({entity_settings_url}
 **Befintlig svenska:** Flera NeoPool-enheter är konfigurerade. Ange vilken enhet som ska användas.
 
 **Bedömning:** Ingen ändring föreslås.
+
+
+## Livegranskning 2026-11-24
+
+Alla 240 poster jämfördes mot aktuell Core-källa och live-Lokalise. 34 källposter har ändrats sedan den äldre rapporten; 33 är nu nyckelreferenser och en källa är en direkt etikett. 33 referensanvändningar och 29 unika mål slogs upp via API.
+
+### Ändringar och kontroll
+
+- Sex avvikelser mellan konsument och referensmål rättades och verifierades; efterkontroll 0/33. Två `Idle`-värden använder nu `Inaktiv` enligt HA:s gemensamma tillståndsöversättning, skild från `Standby`/`Vänteläge`.
+- Övriga fyra rättningar gäller Airly-API-nyckelbeskrivning, Teslemetry-återställningsinstruktion, Besen-reauth-rubrik och Bluetooth-PIN-beskrivning.
+- 19 andra textvärden skiljer sig från den äldre rapportögonblicksbilden och stämmer med redan sparade rekommendationer eller förbättrade livevärden. Rapporterade Axle-, Tuya-, PeBlär-, WAQI-, Zonneplan- och MCP-serverändringar kontrollerades mot sparningsloggen; de skrevs inte igen.
+- MCP-förslagen med `integrering` avfördes: källan avser Home Assistant-integrationer/komponenter; liveformen `integrationer` är korrekt. Anthropic-referensen i 9110 kontrollerades och följer aktuell måltext.
+- Alla placeholders matchar på 240 poster; inga pluralposter.
+- Sex referensrättningar sparades i Lokalise och synkas till TM. [Importmanifest med käll-/Lokalise-ID:n](../2026-11-24-reviewed-core-8941-9180.jsonl).
+- Nästa batch börjar vid 9181; Core-granskningen fortsätter.
