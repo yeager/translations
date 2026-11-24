@@ -1,0 +1,11 @@
+# KNX: exponeringsflödet
+
+| Fullständig nyckel | Befintlig svenska | Sparad svenska | Motivering |
+| --- | --- | --- | --- |
+| `component::knx::config_panel::expose::create::value_template::description` | `Du kan välja att omvandla enhetens tillstånd eller attributvärdet innan det skickas till KNX med hjälp av en mall. Mallen tar emot enhetens tillstånd eller attributvärdet som variabeln `value`.` | `Du kan använda en mall för att omvandla entitetens tillstånd eller attributvärde innan det skickas till KNX. Mallen tar emot tillståndet eller attributvärdet som variabeln `value`.` | Bevarar den faktiska mallvariabeln `value`; förbättrar terminologi och flyt. |
+| `component::knx::config_panel::expose::create::periodic_send::label` | `Periodiskt sändningsintervall` | `Intervall för regelbunden sändning` | Naturligare svensk etikett. |
+| `component::knx::config_panel::expose::create::cooldown::label` | `Avkylningstid` | `Minsta sändningsintervall` | Beskriver funktionen utan en missvisande direktöversättning av cooldown. |
+| `component::knx::config_panel::expose::create::cooldown::description` | `Minsta tidsintervall mellan på varandra följande sändningar. Detta kan användas för att förhindra hög trafik på KNX-bussen när värdena ändras ofta. Endast det senaste värdet under avkylningsperioden sänds.` | `Minsta tid mellan på varandra följande sändningar. Detta kan förhindra hög trafik på KNX-bussen när värden ändras mycket ofta. Endast det senaste värdet under väntetiden skickas.` | Förtydligar att intervallet begränsar sändningar och att senaste värdet skickas efter väntetiden. |
+| `component::knx::config_panel::expose::create::attribute::description` | `Visa ändringar av ett specifikt attribut hos entiteten istället för dess tillstånd. Valfritt. Om attributet inte anges så kommer entitetens tillstånd att visas.` | `Exponera ändringar av ett visst attribut hos entiteten i stället för dess tillstånd. Valfritt. Om attributet inte anges exponeras entitetens tillstånd.` | Samordnar med KNX-funktionens term “exponera” och rättar skrivningen `i stället`. |
+
+Källtexter och funktion kontrollerades i aktuell KNX `strings.json`. Alla fem rader sparades och lästes tillbaka i Lokalise 2026-11-24 och synkades till snapshot, PO och TMX.
