@@ -1,0 +1,116 @@
+diff --git a/.work-gnome-review/authenticator-master-po/original.po b/.work-gnome-review/authenticator-master-po/sv.po
+index 05f7a38..fb80af9 100644
+--- a/.work-gnome-review/authenticator-master-po/original.po
++++ b/.work-gnome-review/authenticator-master-po/sv.po
+@@ -4,14 +4,15 @@
+ # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2016, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
+ # Sebastian Rasmussen <sebras@gmail.com>, 2019.
+ # Luna Jernberg <droidbittin@gmail.com>, 2021, 2022.
++# Daniel Nylander <gnome@danielnylander.se>, 2026.
+ #
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: authenticator\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Authenticator\n"
+ "POT-Creation-Date: 2026-02-27 21:52+0000\n"
+-"PO-Revision-Date: 2026-02-04 18:32+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-24 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -60,7 +61,7 @@ msgstr "Automatiskt lås"
+ 
+ #: data/com.belmoussaoui.Authenticator.gschema.xml.in:22
+ msgid "Whether to auto lock the application or not"
+-msgstr "Oavsett om du ska låsa programmet automatiskt eller inte"
++msgstr "Om programmet ska låsas automatiskt"
+ 
+ #: data/com.belmoussaoui.Authenticator.gschema.xml.in:26
+ msgid "Auto lock timeout"
+@@ -77,7 +78,7 @@ msgstr "Hämta adressikoner"
+ #: data/com.belmoussaoui.Authenticator.gschema.xml.in:35
+ msgid ""
+ "Whether the application should attempt to find an icon for the providers."
+-msgstr "Huruvida programmet ska försöka hitta en ikon för leverantörerna."
++msgstr "Om programmet ska försöka hitta en ikon för leverantörerna."
+ 
+ #: data/com.belmoussaoui.Authenticator.gschema.xml.in:39
+ msgid "Download Favicons over metered connections"
+@@ -87,7 +88,7 @@ msgstr "Hämta adressikoner över anslutningar med datakvot"
+ msgid ""
+ "Whether the application should download favicons over a metered connection."
+ msgstr ""
+-"Huruvida programmet ska hämta adressikoner över anslutning med datakvot."
++"Om programmet ska hämta adressikoner över en anslutning med datakvot."
+ 
+ #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:10
+ msgid "Simple application for generating Two-Factor Authentication Codes."
+@@ -320,18 +321,18 @@ msgid ""
+ msgstr ""
+ "Authenticator förlitar sig på en Secret Service-leverantör för att hantera "
+ "din känsliga sessionsinformation och ett fel inträffade när vi försökte "
+-"lagra eller erhålla din session."
++"lagra eller hämta din session."
+ 
+ #: data/resources/ui/keyring_error_dialog.ui:47
+ msgid ""
+ "Here are a few things that might help you fix issues with the Secret Service:"
+-msgstr "Här är några saker som kan hjälpa dig fixa problem med Secret Service:"
++msgstr "Här är några saker som kan hjälpa dig att lösa problem med Secret Service:"
+ 
+ #: data/resources/ui/keyring_error_dialog.ui:64
+ msgid ""
+ "Make sure you have a Secret Service Provider installed, like gnome-keyring."
+ msgstr ""
+-"Säkerställ att du har en Secret Service-leverantör installerad, som gnome-"
++"Kontrollera att du har en Secret Service-leverantör installerad, som gnome-"
+ "keyring."
+ 
+ #: data/resources/ui/keyring_error_dialog.ui:83
+@@ -368,7 +369,7 @@ msgstr "Lås programmet _automatiskt"
+ 
+ #: data/resources/ui/preferences.ui:37
+ msgid "Whether to automatically lock the application"
+-msgstr "Huruvida programmet ska låsas automatiskt eller inte"
++msgstr "Om programmet ska låsas automatiskt"
+ 
+ #: data/resources/ui/preferences.ui:43
+ msgid "Auto Lock _Timeout"
+@@ -425,7 +426,7 @@ msgstr "Upprepa lösenfras"
+ #: data/resources/ui/preferences_password_page.ui:79
+ #: data/resources/ui/provider_page.ui:73
+ msgid "_Reset"
+-msgstr "_Återställ"
++msgstr "Å_terställ"
+ 
+ #: data/resources/ui/provider_page.ui:83
+ msgid "Select a _File"
+@@ -582,7 +583,7 @@ msgstr "Lägg till ett konto eller skanna en QR-kod först."
+ 
+ #: src/application.rs:83
+ msgid "Accounts restored successfully"
+-msgstr "Konton återställdes"
++msgstr "Kontona återställdes"
+ 
+ #: src/application.rs:123
+ msgid "translator-credits"
+@@ -592,7 +593,7 @@ msgstr ""
+ 
+ #: src/application.rs:433 src/widgets/accounts/row.rs:45
+ msgid "One-Time password copied"
+-msgstr "Engångslösenord kopierat"
++msgstr "Engångslösenordet kopierades"
+ 
+ #: src/application.rs:434
+ msgid "Password was copied successfully"
+@@ -679,7 +680,7 @@ msgstr "Från en QR-kod genererad av Google Authenticator"
+ #. release
+ #: src/backup/legacy.rs:41
+ msgid "Au_thenticator (Legacy)"
+-msgstr "Au_thenticator (Gammal)"
++msgstr "Au_thenticator (äldre)"
+ 
+ #: src/backup/raivootp.rs:102
+ msgid "Raivo OTP"

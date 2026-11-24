@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 02:30 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-24 02:32 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -197,7 +197,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [at-spi2-core](https://l10n.gnome.org/vertimus/at-spi2-core/main/po/sv/) | main | 176 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [at-spi2-core](https://l10n.gnome.org/vertimus/at-spi2-core/gnome-50/po/sv/) | gnome-50 | 176 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [atk](https://l10n.gnome.org/module/atk/) | master | 169 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [authenticator](https://l10n.gnome.org/vertimus/authenticator/master/po/sv/) | master | 177 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [authenticator](https://l10n.gnome.org/vertimus/authenticator/master/po/sv/) | master | 177 | 0 | 0 | Klar | X | 11 | Klar lokalt (2026-11-24): Hela 177-strängarskatalogen är radgranskad mot senaste POT. Tio befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](authenticator/master/po/authenticator.master.sv.original.po), [granskad](authenticator/master/po/authenticator.master.sv.reviewed.po), [diff](authenticator/master/po/authenticator.master.sv.review.diff), [notering](authenticator/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [avahi — Local network service discovery via mDNS/DNS-SD](https://l10n.gnome.org/vertimus/avahi/master/po/sv/) | master | 16 | 0 | 0 | Klar | X | 3 | Klar lokalt (2026-11-24): Hela 16-strängarskatalogen är radgranskad mot senaste POT. Tre befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](avahi/master/po/avahi.master.po.sv.original.po), [granskad](avahi/master/po/avahi.master.po.sv.reviewed.po), [diff](avahi/master/po/avahi.master.po.sv.review.diff), [notering](avahi/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [balsa](https://l10n.gnome.org/vertimus/balsa/master/po/sv/) | master | 1743 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [balsa](https://l10n.gnome.org/vertimus/balsa/master/help/sv/) | master | 725 | 0 | 0 | Klar |  | — | Ej granskad |
