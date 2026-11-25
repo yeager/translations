@@ -406,3 +406,10 @@
 - 19 referensalias kontrollerade efter måländringar; samtliga matchar. Platshållare och Markdown-markörer matchar.
 - Cloudflare R2-bucket-termer samordnade med tidigare HA-TM (`lagringsbehållare`); NRGkick-feltexter, SI-enheter och tillbehörstermer rättade.
 - HA-TMX validerad: 18 529 poster. Core-granskningen fortsätter; inte klar.
+
+## 2026-11-25 – Core 27571–27690
+
+- 118 aktuella nycklar radgranskade; 54 mål korrigerade och API-återlästa, 64 befintliga mål verifierade. Två äldre rader dokumenterade separat.
+- 16 referensalias kontrollerade live; samtliga matchar. Platshållare/Markdown kontrollerade; `svlang` utan fel och Hunspell utan oväntade stavningsflaggor.
+- 28 NRGkick-rader hade äldre rapportförslag; samtliga jämfördes med aktuell källtext och livevärden. Sensorbeskrivningen `network_rssi` saknas i aktuell `strings.json` trots att Python-koden skapar sensorn; dokumenterad som upstream-lucka.
+- HA-TMX validerad: 18 647 poster. Core-granskningen fortsätter; inte klar.
