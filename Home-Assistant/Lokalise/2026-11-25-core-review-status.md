@@ -8,15 +8,15 @@ Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 
 ## Aktuellt läge
 
-- Senast fullständigt radgranskade Lokalise-position: **29 250**. Nästa position: **29 371**.
-- De granskade sammanhängande positionerna 27 211–29 370 omfattar 2 160 poster: **1 827** aktiva Core-nycklar och **333** källfrånvarande/historiska poster.
-- Av de 1 827 aktiva nycklarna ändrades **510** svenska mål och sparades/återlästes från Lokalise; **1 317** granskades och verifierades oförändrade.
-- Batchen 29 131–29 250: 120/120 nycklar aktiva och källmatchande; **17** ändringar sparade och återlästa, **103** texter oförändrade. Nästa batch 29 251–29 370: 85 aktuella Core-nycklar granskade utan ändring och 35 källfrånvarande poster uteslutna. 31 alias i de aktiva raderna verifierades mot live-mål; inga pluraler eller platshållaravvikelser.
+- Senast fullständigt radgranskade Lokalise-position: **29 610**. Nästa position: **29 611**.
+- De granskade sammanhängande positionerna 27 211–29 610 omfattar 2 400 poster: **1 976** aktiva Core-nycklar och **424** källfrånvarande/historiska poster.
+- Av de 1 881 aktiva nycklarna ändrades **513** svenska mål har ändrats och sparats/återlästs från Lokalise; **1 463** granskades och verifierades oförändrade.
+- Batchen 29 131–29 250: 120/120 nycklar aktiva och källmatchande; **17** ändringar sparade och återlästa, **103** texter oförändrade. Nästa batch 29 251–29 370: 85 aktuella Core-nycklar granskade utan ändring och 35 källfrånvarande poster uteslutna. Batchen 29 371–29 490: 54 aktiva Core-nycklar, 2 ändringar, 52 oförändrade; 66 källfrånvarande. Batchen 29 491–29 610: 95 aktiva Core-nycklar, ett OpenAI-referensalias synkat, 94 oförändrade; 25 källfrånvarande. 23 alias jämfördes mot live-mål, avvikelsen rättades. Inga pluraler eller platshållaravvikelser.
 - Liveverifiering för batchen bekräftade nyckelidentitet, engelsk källtext, svensk måltext och Lokalise-ID för 120/120 poster. Rapporten innehåller fullständiga nycklar och raderna med befintlig/föreslagen text.
 
 ## TM och verktyg
 
-- Home Assistant Core kanonisk TMX validerar med **19 921** enheter: 19 690 med Lokalise-ID och 231 historiska poster utan Lokalise-ID. Den verifierade 29131–29250-batchen finns i TM-manifestet. De 85 aktiva oförändrade posterna från 29251–29370 kontrollerades mot befintlig TM; ingen TMX-enhet behövde läggas till eller ändras.
+- Home Assistant Core kanonisk TMX validerar med **19 921** enheter: 19 690 med Lokalise-ID och 231 historiska poster utan Lokalise-ID. Verifierade manifest finns till och med batchen 29491–29610. Samtliga 95 aktiva nycklar fanns redan i TM; den felaktiga äldre OpenAI-aliastexten ersattes med live-verifierad målttext. Enhetsantalet är oförändrat.
 - Rapporter och manifest: `2026-11-25-reviewed-core-29131-29250.md` och `2026-11-25-reviewed-core-29251-29370.md`, med respektive JSON-underlag. Den äldre rapportens missade KNX-förslag för `component::knx::config_panel::dpt::options::14_004` följdes upp via fullständig nyckel och sparades som `Substansmängd`; TM-posten uppdaterades retroaktivt.
 - KNX-terminologi jämfördes mot KNX Associations System Specifications. Hunspell-sv:s båda ordböcker fick stöd för de korrekta tekniska orden `ASCII`, `Deltatid`, `Kompressibilitet` och `Magnetomotorisk`; regressionstesterna passerade **19/19**.
 - `svlang skrivregler` fann inga skrivregelavvikelser i någon av de två senaste batcherna. I 29251–29370 rapporterade svlang en falskt positiv V2-varning för bisatsen “när ... passerar”. Hunspell flaggade bara fragmenten `daily`, `hourly` och `link` inuti dokumentationsplatshållare; de är inte svensk måltext.
@@ -26,8 +26,12 @@ Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 
 - Lokalise API-tokenen saknar behörighet att sätta `is_reviewed` (tidigare HTTP 403). Textändringar kan sparas och verifieras. Ingen separat Reviewed-markering har därför kunnat sättas.
 - Inventeringen 2026-11-25 fann **203 aktuella Core-källnycklar som saknas helt i Lokalise**. Skapande/import av nycklar avslogs tidigare med HTTP 403; se `2026-11-25-full-core-missing-audit.md`.
-- Totalt **298** historiska/källfrånvarande poster i granskade intervall räknas inte som aktuell Core-täckning.
-- Granskningen är **inte klar**. Fortsätt från position 29 251; kontrollera nyttillkomna strängar, tidigare rapporter, referenser och hela källinventeringen.
+- Totalt **424** källfrånvarande poster i det sammanhängande granskade intervallet räknas inte som aktuell Core-täckning.
+- Granskningen är **inte klar**. Fortsätt från position 29 611; kontrollera nyttillkomna strängar, tidigare rapporter, referenser och hela källinventeringen.
+
+## Senaste batch: 29 491–29 610
+
+95/120 rader matchar Core-källrevision `86a2eabe7e43f526db5821ef068087ce8404ae07`; en felaktig OpenAI API-nyckelbeskrivning synkades med den live-verifierade referensnyckeln och sparades/återlästes. 94 aktiva mål verifierades oförändrade. 25 poster saknar egen aktiv källnyckel i revisionen och uteslöts ur Core-TM. Referenser: 23 alias, 22 matchade före korrigering och ett korrigerades; platshållare 95/95, inga pluralnycklar. Alla 95 aktiva poster återverifierades live. TMX validerar med 19 921 enheter. Se `2026-11-25-reviewed-core-29491-29610.md` och JSON-underlagen. Nästa position: **29 611**.
 
 ## Näst senaste batch: 29 251–29 370
 
