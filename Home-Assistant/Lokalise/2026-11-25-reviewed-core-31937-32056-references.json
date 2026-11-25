@@ -1,0 +1,182 @@
+[
+  {
+    "position": 31980,
+    "key": "component::qbittorrent::entity::sensor::connection_status::state::connected",
+    "translation_sv": "Ansluten",
+    "source_refs": [
+      "common::state::connected"
+    ],
+    "reference_targets": {
+      "common::state::connected": {
+        "key_id": "42412727",
+        "translation_id": "281231264",
+        "en": "Connected",
+        "sv": "Ansluten",
+        "key_name": "common::state::connected",
+        "en_current_source_raw": "Connected",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 31981,
+    "key": "component::qbittorrent::entity::sensor::connection_status::state::disconnected",
+    "translation_sv": "Frånkopplad",
+    "source_refs": [
+      "common::state::disconnected"
+    ],
+    "reference_targets": {
+      "common::state::disconnected": {
+        "key_id": "42412728",
+        "translation_id": "281231321",
+        "en": "Disconnected",
+        "sv": "Frånkopplad",
+        "key_name": "common::state::disconnected",
+        "en_current_source_raw": "Disconnected",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32011,
+    "key": "component::seventeentrack::selector::package_state::options::alert",
+    "translation_sv": "Varning",
+    "source_refs": [
+      "component::seventeentrack::entity::sensor::alert::name"
+    ],
+    "reference_targets": {
+      "component::seventeentrack::entity::sensor::alert::name": {
+        "key_id": "607607019",
+        "translation_id": "5268663482",
+        "en": "Alert",
+        "sv": "Varning",
+        "key_name": "component::seventeentrack::entity::sensor::alert::name",
+        "en_current_source_raw": "Alert",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32020,
+    "key": "component::synology_dsm::issues::missing_backup_setup::fix_flow::step::confirm::data::backup_path",
+    "translation_sv": "Sökväg",
+    "source_refs": [
+      "common::config_flow::data::path"
+    ],
+    "reference_targets": {
+      "common::config_flow::data::path": {
+        "key_id": "169800268",
+        "translation_id": "1290423036",
+        "en": "Path",
+        "sv": "Sökväg",
+        "key_name": "common::config_flow::data::path",
+        "en_current_source_raw": "Path",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32021,
+    "key": "component::synology_dsm::issues::missing_backup_setup::fix_flow::step::confirm::data::backup_share",
+    "translation_sv": "Delad mapp",
+    "source_refs": [
+      "component::synology_dsm::config::step::backup_share::data::backup_share"
+    ],
+    "reference_targets": {
+      "component::synology_dsm::config::step::backup_share::data::backup_share": {
+        "key_id": "598351498",
+        "translation_id": "5168026466",
+        "en": "Shared folder",
+        "sv": "Delad mapp",
+        "key_name": "component::synology_dsm::config::step::backup_share::data::backup_share",
+        "en_current_source_raw": "Shared folder",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32022,
+    "key": "component::synology_dsm::issues::missing_backup_setup::fix_flow::step::confirm::data_description::backup_path",
+    "translation_sv": "Ange sökvägen i den valda delade mappen. Den skapas automatiskt om den inte finns.",
+    "source_refs": [
+      "component::synology_dsm::config::step::backup_share::data_description::backup_path"
+    ],
+    "reference_targets": {
+      "component::synology_dsm::config::step::backup_share::data_description::backup_path": {
+        "key_id": "598351499",
+        "translation_id": "5168026529",
+        "en": "Define the path on the selected shared folder (will automatically be created, if not exist).",
+        "sv": "Ange sökvägen i den valda delade mappen. Den skapas automatiskt om den saknas.",
+        "key_name": "component::synology_dsm::config::step::backup_share::data_description::backup_path",
+        "en_current_source_raw": "Define the path on the selected shared folder (will automatically be created, if not exist).",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32023,
+    "key": "component::synology_dsm::issues::missing_backup_setup::fix_flow::step::confirm::data_description::backup_share",
+    "translation_sv": "Välj den delade mapp där Home Assistants automatiska säkerhetskopior ska lagras.",
+    "source_refs": [
+      "component::synology_dsm::config::step::backup_share::data_description::backup_share"
+    ],
+    "reference_targets": {
+      "component::synology_dsm::config::step::backup_share::data_description::backup_share": {
+        "key_id": "598351500",
+        "translation_id": "5168026592",
+        "en": "Select the shared folder where the automatic Home Assistant backup should be stored.",
+        "sv": "Välj den delade mapp där den automatiska Home Assistant-säkerhetskopian ska lagras.",
+        "key_name": "component::synology_dsm::config::step::backup_share::data_description::backup_share",
+        "en_current_source_raw": "Select the shared folder where the automatic Home Assistant backup should be stored.",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32024,
+    "key": "component::synology_dsm::issues::missing_backup_setup::fix_flow::step::confirm::title",
+    "translation_sv": "Synology DSM: Plats för säkerhetskopiering",
+    "source_refs": [
+      "component::synology_dsm::config::step::backup_share::title"
+    ],
+    "reference_targets": {
+      "component::synology_dsm::config::step::backup_share::title": {
+        "key_id": "598351501",
+        "translation_id": "5168026655",
+        "en": "Synology DSM: Backup location",
+        "sv": "Synology DSM: Plats för säkerhetskopior",
+        "key_name": "component::synology_dsm::config::step::backup_share::title",
+        "en_current_source_raw": "Synology DSM: Backup location",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32044,
+    "key": "component::aranet::entity::sensor::threshold::state::error",
+    "translation_sv": "Fel",
+    "source_refs": [
+      "common::state::error"
+    ],
+    "reference_targets": {
+      "common::state::error": {
+        "key_id": "638170311",
+        "translation_id": "5632627276",
+        "en": "Error",
+        "sv": "Fel",
+        "key_name": "common::state::error",
+        "en_current_source_raw": "Error",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  }
+]
