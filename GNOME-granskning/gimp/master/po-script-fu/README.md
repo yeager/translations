@@ -1,11 +1,11 @@
-# GIMP Script-Fu — master — svenska gränssnittet
+# GIMP Script-Fu — master
 
-- GNOME-status före granskning: 330 aktiva strängar, 0 fuzzy, 330 oöversatta i Git-katalogen. Damned Lies innehöll en senare, helt ifylld svensk arbetsfil för samma aktuella mall.
-- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gimp/master/po-script-fu/sv/>.
-- Åtgärd: Den kompletta arbetsfilen jämfördes nyckel för nyckel med aktuell katalog. Rättade verbformen i en instruktion och stavningen ”baserat”.
-- Ändringar: 330 nya översättningar mot Git-katalogen samt två korrigeringar av befintlig svensk arbetsfil.
-- Validering: `msgfmt --check` och `l10n-lint` utan fel eller varningar. Sexton informationsnotiser avser giltiga acceleratorer med andra svenska bokstäver.
-- Stavningsundantag: GIMP, Script-Fu, TinyScheme, Scheme, QEMU, RLE, IIR och kod-/menysökvägar.
-- Översättarmetadata: `Daniel Nylander <gnome@danielnylander.se>`, 2026-11-23 12:00+0100.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
-- Slutlig lokal status: 330 översatta, 0 fuzzy, 0 oöversatta.
+- Aktivitet: <https://l10n.gnome.org/vertimus/gimp/master/po-script-fu/sv/>
+- Aktuell POT: 2026-10-26 19:19+0000 (POT-filen arkiverad här).
+- Före, aktuell Git-fil: 330 aktiva, 324 översatta, 2 fuzzy, 6 oöversatta. Damned Lies-arbetsfilen innehöll redan 330 ifyllda texter för samma POT.
+- Efter, granskad Damned Lies-arbetsfil: 330 aktiva, 330 översatta, 0 fuzzy, 0 oöversatta.
+- Jämfört med Git-filen: 141 poster skiljer sig — 8 tomma/fuzzy poster ifyllda och 133 befintliga översättningar korrigerade efter radgranskning. Jämförelsen med den kompletta arbetsfilen omfattade 106 ändrade poster.
+- Validering: msgfmt --check/statistics, msgcmp, l10n-lint med GTK-kontroller och jämförelse av platshållare/markup godkända. Acceleratorerna i alla UI-poster bevarade; Hunspell-resultat manuellt genomgångna.
+- Hunspell-undantag: GIMP, Script-Fu, Scheme/TinyScheme, Xach, QEMU, RLE, IIR, Java-sökväg och tekniska sammansättningar som kromeffekt och flerlagersbild.
+- Terminologi: färg-/histogrammets “bucket” återges som “intervall”; inga förekomster översätts med “färgbucket”. “Drop shadow” återges som “skugga”.
+- GNOME-inskick: inget.

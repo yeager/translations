@@ -160,6 +160,11 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | filter | filter | GIMP-menyn och bildbehandlingsfilter. |
 | plug-in | insticksmodul | GIMP:s tillägg som laddas separat. |
 | drawable | rityta | GIMP-objekt som kan målas på, exempelvis lager eller kanal. |
+| drop shadow | skugga | Script-Fu-inställningen för en skugga bakom/under ett objekt; undvik den onaturliga sammansättningen *skuggkastning*. |
+| bevel | avfasning | Avfasad kant eller effekt; använd *avfasning* i menyer och *avfasad* som adjektiv. |
+| highlight (effect settings) | högdagerområde | Ljusa bildområden i effektinställningar; skriv hellre *högdagerområdets färg* än täta sammansättningar. |
+| stencil | mask | Gråskalemask som begränsar effekt eller karvning; i beskrivande sammanhang kan *schablon* passa. |
+| multi-layer image | bild med flera lager | Föredras framför den svårlästa sammansättningen *flerlagersbild*. |
 | marching ants | markeringskontur | Beskrivande term för den animerade streckade kanten runt markeringen. |
 
 ## Föräldrakontroller och användarkonton
