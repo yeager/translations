@@ -138,3 +138,10 @@
 - PV-termen `String` granskad i hårdvarukontext och översatt med `sträng`; områdesmappning och schematriggers omformulerade.
 - `svlang check` hittade inga skrivregelfel; frekvensvarningen gäller endast `{entity_id}`-platshållaren. `hunspell-sv` hittade inga stavningsfel. Naturlighetsheuristiken gav en falsk positiv V2-varning för etiketten “Starttid för stör ej-läge”; den är manuellt kontrollerad som nominalfras.
 - De två äldre InfluxDB-referensmålen kontrollerades mot aktuell källkod och Lokalise och matchar. Home Assistant Core-TMX uppdaterad och validerad: 16 583 poster. Granskningen fortsätter; Core är inte färdiggranskad.
+
+## 2026-11-25 – Core 24931–25050
+
+- 12 strängar radgranskade mot aktuell Lokalise-källa och HA Core; alla 12 ändringar sparade och återlästa via API.
+- Alla nyckelsökvägar, källvärden och `{status}`/`{phase_name}`-platshållare verifierade. Enphase CT-riktning kontrollerad mot HA-dokumentation och pyenphase.
+- `svlang skrivregler` hittade inga stilfel. Naturlighetsheuristikens V2-varning på två löpande servicebeskrivningar bedömdes vara falska positiva; `phase_name` är en platshållare. Hunspell-sv fick stöd för `produktions-CT` och `last-CT` enligt Språkrådets bindestrecksregel; regressionsfallen och alla 19 tester passerar. Uppdaterat verktyg pushat som `hunspell-sv` commit `db8096e`.
+- Home Assistant Core-TMX validerad: 16 595 poster. Core-granskningen fortsätter och är inte klar.
