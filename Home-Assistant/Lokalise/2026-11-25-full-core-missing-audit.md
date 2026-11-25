@@ -866,3 +866,7 @@ Positionerna 26731–26850 har jämförts med Core-revision `86a2eabe7e43f526db5
 ## Verktygsuppdatering under Core-granskning
 
 Hunspell-sv saknade det etablerade ordet `standardindata`, trots att svensk Microsoft Learn-dokumentation använder termen. Ordet lades till i båda ordböckerna och i stavningsregressionen. Hunspell-sv:s 19 tester passerar; commit `79fc566` pushades utan paketrelease.
+
+## Fortsatt radgranskning 2026-11-25 – position 27451–27570
+
+108 nycklar matchade aktuell Core-källa `86a2eabe7e43f526db5821ef068087ce8404ae07`; 34 översättningar ändrades/synkades och API-återlästes, 74 befintliga mål verifierades. 19 referensalias kontrollerades efter uppdatering och samtliga matchar. Tolv äldre sökvägar dokumenterades: sex Telegram API-slutpunktsfält mappades till två aktuella live-kontrollerade `additional_settings`-nycklar; äldre Namecheap-återautentiserings- och NRGkick-felkategorier lades inte till dubbelt i TM utan spåras mot aktuell felhantering. TM-termen `lagringsbehållare` användes konsekvent i Cloudflare R2 efter kontroll av tidigare HA-minne. TMX uppdaterad och validerad till 18 529 poster. Se `../2026-11-19-granskning/granskning-27451-27570.md` och batchmanifesten.

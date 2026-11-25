@@ -398,3 +398,11 @@
 
 - Lade till svensk fackterm `standardindata` i båda Hunspell-ordlistorna och regressionstestet. Microsoft Learn använder samma term i svensk .NET-dokumentation.
 - Hunspell-sv:s testsvit passerar: 19/19. Uppdateringen pushad i commit `79fc566` (ingen ny release behövdes).
+
+## 2026-11-25 – Core 27451–27570
+
+- 108 aktuella nycklar radgranskade; 34 mål ändrade/synkade och återlästa, 74 befintliga mål verifierade.
+- 12 äldre sökvägar crosswalkade: sex Telegram-inställningar motsvarar två kontrollerade aktuella nycklar; sex borttagna Namecheap/NRGkick-nycklar dokumenterades med närmaste nuvarande felvägar och hölls utanför TM.
+- 19 referensalias kontrollerade efter måländringar; samtliga matchar. Platshållare och Markdown-markörer matchar.
+- Cloudflare R2-bucket-termer samordnade med tidigare HA-TM (`lagringsbehållare`); NRGkick-feltexter, SI-enheter och tillbehörstermer rättade.
+- HA-TMX validerad: 18 529 poster. Core-granskningen fortsätter; inte klar.
