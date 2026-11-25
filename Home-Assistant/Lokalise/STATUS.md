@@ -92,3 +92,11 @@
 - Alla nyckelsökvägar och platshållare verifierade; svlang natural gav 10/10 för samtliga strängar.
 - Core-TMX validerad: 16 531 poster; exporten har 42 636 språkpar och 32 exkluderade nycklar.
 - Core-granskningen fortsätter.
+
+## 2026-11-25 – Core 24241–24360
+
+- 8/8 strängar granskade, ändrade, sparade och återlästa i Lokalise.
+- Tidigare Home Connect-referensuppföljning verifierad och korrigerad retroaktivt; enheten är sekunder.
+- Alla Core-sökvägar och `{error}`-platshållaren verifierade. svlang gav 10/10 på intervallets strängar.
+- Core-TMX validerad: 16 538 poster; Core-export: 42 636 språkpar, 32 exkluderade synliga nycklar.
+- Granskningen fortsätter; Core är inte färdiggranskad.
