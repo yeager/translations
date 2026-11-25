@@ -1,0 +1,802 @@
+[
+  {
+    "position": 32304,
+    "key": "component::snoo::config::abort::already_configured",
+    "translation_sv": "Enheten är redan konfigurerad",
+    "source_refs": [
+      "common::config_flow::abort::already_configured_device"
+    ],
+    "reference_targets": {
+      "common::config_flow::abort::already_configured_device": {
+        "key_id": "43422350",
+        "translation_id": "289136753",
+        "en": "Device is already configured",
+        "sv": "Enheten är redan konfigurerad",
+        "key_name": "common::config_flow::abort::already_configured_device",
+        "en_current_source_raw": "Device is already configured",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32305,
+    "key": "component::snoo::config::error::cannot_connect",
+    "translation_sv": "Det gick inte att ansluta",
+    "source_refs": [
+      "common::config_flow::error::cannot_connect"
+    ],
+    "reference_targets": {
+      "common::config_flow::error::cannot_connect": {
+        "key_id": "43876387",
+        "translation_id": "292958041",
+        "en": "Failed to connect",
+        "sv": "Det gick inte att ansluta",
+        "key_name": "common::config_flow::error::cannot_connect",
+        "en_current_source_raw": "Failed to connect",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32306,
+    "key": "component::snoo::config::error::invalid_auth",
+    "translation_sv": "Ogiltig autentisering",
+    "source_refs": [
+      "common::config_flow::error::invalid_auth"
+    ],
+    "reference_targets": {
+      "common::config_flow::error::invalid_auth": {
+        "key_id": "39798291",
+        "translation_id": "264217524",
+        "en": "Invalid authentication",
+        "sv": "Ogiltig autentisering",
+        "key_name": "common::config_flow::error::invalid_auth",
+        "en_current_source_raw": "Invalid authentication",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32307,
+    "key": "component::snoo::config::error::unknown",
+    "translation_sv": "Oväntat fel",
+    "source_refs": [
+      "common::config_flow::error::unknown"
+    ],
+    "reference_targets": {
+      "common::config_flow::error::unknown": {
+        "key_id": "39798292",
+        "translation_id": "264217579",
+        "en": "Unexpected error",
+        "sv": "Oväntat fel",
+        "key_name": "common::config_flow::error::unknown",
+        "en_current_source_raw": "Unexpected error",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32308,
+    "key": "component::snoo::config::step::user::data::password",
+    "translation_sv": "Lösenord",
+    "source_refs": [
+      "common::config_flow::data::password"
+    ],
+    "reference_targets": {
+      "common::config_flow::data::password": {
+        "key_id": "39798295",
+        "translation_id": "264217744",
+        "en": "Password",
+        "sv": "Lösenord",
+        "key_name": "common::config_flow::data::password",
+        "en_current_source_raw": "Password",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32309,
+    "key": "component::snoo::config::step::user::data::username",
+    "translation_sv": "Användarnamn",
+    "source_refs": [
+      "common::config_flow::data::username"
+    ],
+    "reference_targets": {
+      "common::config_flow::data::username": {
+        "key_id": "39798296",
+        "translation_id": "264217799",
+        "en": "Username",
+        "sv": "Användarnamn",
+        "key_name": "common::config_flow::data::username",
+        "en_current_source_raw": "Username",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32319,
+    "key": "component::snoo::entity::sensor::state::state::stop",
+    "translation_sv": "Stoppad",
+    "source_refs": [
+      "common::state::stopped"
+    ],
+    "reference_targets": {
+      "common::state::stopped": {
+        "key_id": "627125018",
+        "translation_id": "5503356574",
+        "en": "Stopped",
+        "sv": "Stoppad",
+        "key_name": "common::state::stopped",
+        "en_current_source_raw": "Stopped",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32324,
+    "key": "component::pyload::config::step::reauth_confirm::data_description::password",
+    "translation_sv": "Lösenordet för pyLoad-kontot. **Föråldrat:** Stöds inte längre i pyLoad 0.5.0b3.dev97 eller senare.",
+    "source_refs": [
+      "component::pyload::config::step::user::data_description::password"
+    ],
+    "reference_targets": {
+      "component::pyload::config::step::user::data_description::password": {
+        "key_id": "611164643",
+        "translation_id": "5319832164",
+        "en": "The password associated with the pyLoad account. **Deprecated:** No longer supported in pyLoad 0.5.0b3.dev97 or later.",
+        "sv": "Lösenordet för pyLoad-kontot. **Föråldrat:** Stöds inte längre i pyLoad 0.5.0b3.dev97 eller senare.",
+        "key_name": "component::pyload::config::step::user::data_description::password",
+        "en_current_source_raw": "The password associated with the pyLoad account. **Deprecated:** No longer supported in pyLoad 0.5.0b3.dev97 or later.",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32325,
+    "key": "component::pyload::config::step::reauth_confirm::data_description::username",
+    "translation_sv": "Användarnamnet som används för att logga in på pyLoad-instansen. **Föråldrat:** Stöds inte längre i pyLoad 0.5.0b3.dev97 eller senare.",
+    "source_refs": [
+      "component::pyload::config::step::user::data_description::username"
+    ],
+    "reference_targets": {
+      "component::pyload::config::step::user::data_description::username": {
+        "key_id": "611164645",
+        "translation_id": "5319832290",
+        "en": "The username used to access the pyLoad instance. **Deprecated:** No longer supported in pyLoad 0.5.0b3.dev97 or later.",
+        "sv": "Användarnamnet som används för att logga in på pyLoad-instansen. **Föråldrat:** Stöds inte längre i pyLoad 0.5.0b3.dev97 eller senare.",
+        "key_name": "component::pyload::config::step::user::data_description::username",
+        "en_current_source_raw": "The username used to access the pyLoad instance. **Deprecated:** No longer supported in pyLoad 0.5.0b3.dev97 or later.",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32326,
+    "key": "component::pyload::config::step::reconfigure::data_description::password",
+    "translation_sv": "Lösenordet för pyLoad-kontot. **Föråldrat:** Stöds inte längre i pyLoad 0.5.0b3.dev97 eller senare.",
+    "source_refs": [
+      "component::pyload::config::step::user::data_description::password"
+    ],
+    "reference_targets": {
+      "component::pyload::config::step::user::data_description::password": {
+        "key_id": "611164643",
+        "translation_id": "5319832164",
+        "en": "The password associated with the pyLoad account. **Deprecated:** No longer supported in pyLoad 0.5.0b3.dev97 or later.",
+        "sv": "Lösenordet för pyLoad-kontot. **Föråldrat:** Stöds inte längre i pyLoad 0.5.0b3.dev97 eller senare.",
+        "key_name": "component::pyload::config::step::user::data_description::password",
+        "en_current_source_raw": "The password associated with the pyLoad account. **Deprecated:** No longer supported in pyLoad 0.5.0b3.dev97 or later.",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32328,
+    "key": "component::pyload::config::step::reconfigure::data_description::username",
+    "translation_sv": "Användarnamnet som används för att logga in på pyLoad-instansen. **Föråldrat:** Stöds inte längre i pyLoad 0.5.0b3.dev97 eller senare.",
+    "source_refs": [
+      "component::pyload::config::step::user::data_description::username"
+    ],
+    "reference_targets": {
+      "component::pyload::config::step::user::data_description::username": {
+        "key_id": "611164645",
+        "translation_id": "5319832290",
+        "en": "The username used to access the pyLoad instance. **Deprecated:** No longer supported in pyLoad 0.5.0b3.dev97 or later.",
+        "sv": "Användarnamnet som används för att logga in på pyLoad-instansen. **Föråldrat:** Stöds inte längre i pyLoad 0.5.0b3.dev97 eller senare.",
+        "key_name": "component::pyload::config::step::user::data_description::username",
+        "en_current_source_raw": "The username used to access the pyLoad instance. **Deprecated:** No longer supported in pyLoad 0.5.0b3.dev97 or later.",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32329,
+    "key": "component::pyload::config::step::reconfigure::data_description::verify_ssl",
+    "translation_sv": "Anger om SSL-certifikatet ska valideras för att säkerställa en säker anslutning.",
+    "source_refs": [
+      "component::pyload::config::step::user::data_description::verify_ssl"
+    ],
+    "reference_targets": {
+      "component::pyload::config::step::user::data_description::verify_ssl": {
+        "key_id": "611164646",
+        "translation_id": "5319832353",
+        "en": "If checked, the SSL certificate will be validated to ensure a secure connection.",
+        "sv": "Anger om SSL-certifikatet ska valideras för att säkerställa en säker anslutning.",
+        "key_name": "component::pyload::config::step::user::data_description::verify_ssl",
+        "en_current_source_raw": "If checked, the SSL certificate will be validated to ensure a secure connection.",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32334,
+    "key": "component::webdav::config::abort::already_configured",
+    "translation_sv": "Tjänsten är redan konfigurerad",
+    "source_refs": [
+      "common::config_flow::abort::already_configured_service"
+    ],
+    "reference_targets": {
+      "common::config_flow::abort::already_configured_service": {
+        "key_id": "43876382",
+        "translation_id": "292957746",
+        "en": "Service is already configured",
+        "sv": "Tjänsten är redan konfigurerad",
+        "key_name": "common::config_flow::abort::already_configured_service",
+        "en_current_source_raw": "Service is already configured",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32335,
+    "key": "component::webdav::config::error::cannot_connect",
+    "translation_sv": "Det gick inte att ansluta",
+    "source_refs": [
+      "common::config_flow::error::cannot_connect"
+    ],
+    "reference_targets": {
+      "common::config_flow::error::cannot_connect": {
+        "key_id": "43876387",
+        "translation_id": "292958041",
+        "en": "Failed to connect",
+        "sv": "Det gick inte att ansluta",
+        "key_name": "common::config_flow::error::cannot_connect",
+        "en_current_source_raw": "Failed to connect",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32336,
+    "key": "component::webdav::config::error::invalid_auth",
+    "translation_sv": "Ogiltig autentisering",
+    "source_refs": [
+      "common::config_flow::error::invalid_auth"
+    ],
+    "reference_targets": {
+      "common::config_flow::error::invalid_auth": {
+        "key_id": "39798291",
+        "translation_id": "264217524",
+        "en": "Invalid authentication",
+        "sv": "Ogiltig autentisering",
+        "key_name": "common::config_flow::error::invalid_auth",
+        "en_current_source_raw": "Invalid authentication",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32337,
+    "key": "component::webdav::config::error::unknown",
+    "translation_sv": "Oväntat fel",
+    "source_refs": [
+      "common::config_flow::error::unknown"
+    ],
+    "reference_targets": {
+      "common::config_flow::error::unknown": {
+        "key_id": "39798292",
+        "translation_id": "264217579",
+        "en": "Unexpected error",
+        "sv": "Oväntat fel",
+        "key_name": "common::config_flow::error::unknown",
+        "en_current_source_raw": "Unexpected error",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32339,
+    "key": "component::webdav::config::step::user::data::password",
+    "translation_sv": "Lösenord",
+    "source_refs": [
+      "common::config_flow::data::password"
+    ],
+    "reference_targets": {
+      "common::config_flow::data::password": {
+        "key_id": "39798295",
+        "translation_id": "264217744",
+        "en": "Password",
+        "sv": "Lösenord",
+        "key_name": "common::config_flow::data::password",
+        "en_current_source_raw": "Password",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32340,
+    "key": "component::webdav::config::step::user::data::url",
+    "translation_sv": "URL",
+    "source_refs": [
+      "common::config_flow::data::url"
+    ],
+    "reference_targets": {
+      "common::config_flow::data::url": {
+        "key_id": "29623295",
+        "translation_id": "173227421",
+        "en": "URL",
+        "sv": "URL",
+        "key_name": "common::config_flow::data::url",
+        "en_current_source_raw": "URL",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32341,
+    "key": "component::webdav::config::step::user::data::username",
+    "translation_sv": "Användarnamn",
+    "source_refs": [
+      "common::config_flow::data::username"
+    ],
+    "reference_targets": {
+      "common::config_flow::data::username": {
+        "key_id": "39798296",
+        "translation_id": "264217799",
+        "en": "Username",
+        "sv": "Användarnamn",
+        "key_name": "common::config_flow::data::username",
+        "en_current_source_raw": "Username",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32342,
+    "key": "component::webdav::config::step::user::data::verify_ssl",
+    "translation_sv": "Verifiera SSL-certifikat",
+    "source_refs": [
+      "common::config_flow::data::verify_ssl"
+    ],
+    "reference_targets": {
+      "common::config_flow::data::verify_ssl": {
+        "key_id": "59072920",
+        "translation_id": "424398822",
+        "en": "Verify SSL certificate",
+        "sv": "Verifiera SSL-certifikat",
+        "key_name": "common::config_flow::data::verify_ssl",
+        "en_current_source_raw": "Verify SSL certificate",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32352,
+    "key": "component::azure_storage::config::abort::already_configured",
+    "translation_sv": "Kontot är redan konfigurerat",
+    "source_refs": [
+      "common::config_flow::abort::already_configured_account"
+    ],
+    "reference_targets": {
+      "common::config_flow::abort::already_configured_account": {
+        "key_id": "23115354",
+        "translation_id": "126667172",
+        "en": "Account is already configured",
+        "sv": "Kontot är redan konfigurerat",
+        "key_name": "common::config_flow::abort::already_configured_account",
+        "en_current_source_raw": "Account is already configured",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32353,
+    "key": "component::azure_storage::config::error::cannot_connect",
+    "translation_sv": "Det gick inte att ansluta",
+    "source_refs": [
+      "common::config_flow::error::cannot_connect"
+    ],
+    "reference_targets": {
+      "common::config_flow::error::cannot_connect": {
+        "key_id": "43876387",
+        "translation_id": "292958041",
+        "en": "Failed to connect",
+        "sv": "Det gick inte att ansluta",
+        "key_name": "common::config_flow::error::cannot_connect",
+        "en_current_source_raw": "Failed to connect",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32354,
+    "key": "component::azure_storage::config::error::invalid_auth",
+    "translation_sv": "Ogiltig autentisering",
+    "source_refs": [
+      "common::config_flow::error::invalid_auth"
+    ],
+    "reference_targets": {
+      "common::config_flow::error::invalid_auth": {
+        "key_id": "39798291",
+        "translation_id": "264217524",
+        "en": "Invalid authentication",
+        "sv": "Ogiltig autentisering",
+        "key_name": "common::config_flow::error::invalid_auth",
+        "en_current_source_raw": "Invalid authentication",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32355,
+    "key": "component::azure_storage::config::error::unknown",
+    "translation_sv": "Oväntat fel",
+    "source_refs": [
+      "common::config_flow::error::unknown"
+    ],
+    "reference_targets": {
+      "common::config_flow::error::unknown": {
+        "key_id": "39798292",
+        "translation_id": "264217579",
+        "en": "Unexpected error",
+        "sv": "Oväntat fel",
+        "key_name": "common::config_flow::error::unknown",
+        "en_current_source_raw": "Unexpected error",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32395,
+    "key": "component::habitica::services::update_reward::fields::alias::description",
+    "translation_sv": "Ett uppgiftsalias kan användas i stället för namnet eller uppgifts-ID:t. Endast bindestreck, understreck och alfanumeriska tecken stöds. Aliaset måste vara unikt bland alla dina uppgifter.",
+    "source_refs": [
+      "component::habitica::common::alias_description"
+    ],
+    "reference_targets": {
+      "component::habitica::common::alias_description": {
+        "key_id": "611568350",
+        "translation_id": "5326759274",
+        "en": "A task alias can be used instead of the name or task ID. Only dashes, underscores, and alphanumeric characters are supported. The task alias must be unique among all your tasks.",
+        "sv": "Ett uppgiftsalias kan användas i stället för namnet eller uppgifts-ID:t. Endast bindestreck, understreck och alfanumeriska tecken stöds. Aliaset måste vara unikt bland alla dina uppgifter.",
+        "key_name": "component::habitica::common::alias_description",
+        "en_current_source_raw": "A task alias can be used instead of the name or task ID. Only dashes, underscores, and alphanumeric characters are supported. The task alias must be unique among all your tasks.",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32396,
+    "key": "component::habitica::services::update_reward::fields::alias::name",
+    "translation_sv": "Uppgiftsalias",
+    "source_refs": [
+      "component::habitica::common::alias_name"
+    ],
+    "reference_targets": {
+      "component::habitica::common::alias_name": {
+        "key_id": "611568351",
+        "translation_id": "5326759337",
+        "en": "Task alias",
+        "sv": "Uppgiftsalias",
+        "key_name": "component::habitica::common::alias_name",
+        "en_current_source_raw": "Task alias",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32398,
+    "key": "component::habitica::services::update_reward::fields::config_entry::name",
+    "translation_sv": "Välj karaktär",
+    "source_refs": [
+      "component::habitica::common::config_entry_name"
+    ],
+    "reference_targets": {
+      "component::habitica::common::config_entry_name": {
+        "key_id": "562165084",
+        "translation_id": "4779143177",
+        "en": "Select character",
+        "sv": "Välj karaktär",
+        "key_name": "component::habitica::common::config_entry_name",
+        "en_current_source_raw": "Select character",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32400,
+    "key": "component::habitica::services::update_reward::fields::cost::name",
+    "translation_sv": "Kostnad",
+    "source_refs": [
+      "component::habitica::common::cost_name"
+    ],
+    "reference_targets": {
+      "component::habitica::common::cost_name": {
+        "key_id": "613743027",
+        "translation_id": "5351408962",
+        "en": "Cost",
+        "sv": "Kostnad",
+        "key_name": "component::habitica::common::cost_name",
+        "en_current_source_raw": "Cost",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32403,
+    "key": "component::habitica::services::update_reward::fields::remove_tag::description",
+    "translation_sv": "Ta bort taggar från Habitica-uppgiften.",
+    "source_refs": [
+      "component::habitica::common::remove_tag_description"
+    ],
+    "reference_targets": {
+      "component::habitica::common::remove_tag_description": {
+        "key_id": "611568357",
+        "translation_id": "5326759715",
+        "en": "Remove tags from the Habitica task.",
+        "sv": "Ta bort taggar från Habitica-uppgiften.",
+        "key_name": "component::habitica::common::remove_tag_description",
+        "en_current_source_raw": "Remove tags from the Habitica task.",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32404,
+    "key": "component::habitica::services::update_reward::fields::remove_tag::name",
+    "translation_sv": "Ta bort taggar",
+    "source_refs": [
+      "component::habitica::common::remove_tag_name"
+    ],
+    "reference_targets": {
+      "component::habitica::common::remove_tag_name": {
+        "key_id": "611568358",
+        "translation_id": "5326759778",
+        "en": "Remove tags",
+        "sv": "Ta bort taggar",
+        "key_name": "component::habitica::common::remove_tag_name",
+        "en_current_source_raw": "Remove tags",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32405,
+    "key": "component::habitica::services::update_reward::fields::rename::description",
+    "translation_sv": "Titeln för Habitica-uppgiften.",
+    "source_refs": [
+      "component::habitica::common::rename_description"
+    ],
+    "reference_targets": {
+      "component::habitica::common::rename_description": {
+        "key_id": "611568359",
+        "translation_id": "5326759841",
+        "en": "The title for the Habitica task.",
+        "sv": "Titeln för Habitica-uppgiften.",
+        "key_name": "component::habitica::common::rename_description",
+        "en_current_source_raw": "The title for the Habitica task.",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32406,
+    "key": "component::habitica::services::update_reward::fields::rename::name",
+    "translation_sv": "Byt namn",
+    "source_refs": [
+      "component::habitica::common::rename_name"
+    ],
+    "reference_targets": {
+      "component::habitica::common::rename_name": {
+        "key_id": "611568360",
+        "translation_id": "5326759904",
+        "en": "Rename",
+        "sv": "Byt namn",
+        "key_name": "component::habitica::common::rename_name",
+        "en_current_source_raw": "Rename",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32407,
+    "key": "component::habitica::services::update_reward::fields::tag::description",
+    "translation_sv": "Lägg till taggar på Habitica-uppgiften. Om en tagg inte redan finns skapas den.",
+    "source_refs": [
+      "component::habitica::common::tag_description"
+    ],
+    "reference_targets": {
+      "component::habitica::common::tag_description": {
+        "key_id": "611568361",
+        "translation_id": "5326759967",
+        "en": "Add tags to the Habitica task. If a tag does not already exist, a new one will be created.",
+        "sv": "Lägg till taggar på Habitica-uppgiften. Om en tagg inte redan finns skapas den.",
+        "key_name": "component::habitica::common::tag_description",
+        "en_current_source_raw": "Add tags to the Habitica task. If a tag does not already exist, a new one will be created.",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32408,
+    "key": "component::habitica::services::update_reward::fields::tag::name",
+    "translation_sv": "Lägg till taggar",
+    "source_refs": [
+      "component::habitica::common::tag_name"
+    ],
+    "reference_targets": {
+      "component::habitica::common::tag_name": {
+        "key_id": "611568362",
+        "translation_id": "5326760030",
+        "en": "Add tags",
+        "sv": "Lägg till taggar",
+        "key_name": "component::habitica::common::tag_name",
+        "en_current_source_raw": "Add tags",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32409,
+    "key": "component::habitica::services::update_reward::fields::task::description",
+    "translation_sv": "Ange namnet på uppgiften som ska uppdateras, eller dess uppgifts-ID.",
+    "source_refs": [
+      "component::habitica::common::task_description"
+    ],
+    "reference_targets": {
+      "component::habitica::common::task_description": {
+        "key_id": "611568365",
+        "translation_id": "5326760219",
+        "en": "The name (or task ID) of the task you want to update.",
+        "sv": "Ange namnet på uppgiften som ska uppdateras, eller dess uppgifts-ID.",
+        "key_name": "component::habitica::common::task_description",
+        "en_current_source_raw": "The name (or task ID) of the task you want to update.",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32410,
+    "key": "component::habitica::services::update_reward::fields::task::name",
+    "translation_sv": "Uppgiftens namn",
+    "source_refs": [
+      "component::habitica::common::task_name"
+    ],
+    "reference_targets": {
+      "component::habitica::common::task_name": {
+        "key_id": "588135857",
+        "translation_id": "5066935906",
+        "en": "Task name",
+        "sv": "Uppgiftens namn",
+        "key_name": "component::habitica::common::task_name",
+        "en_current_source_raw": "Task name",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32412,
+    "key": "component::habitica::services::update_reward::sections::developer_options::description",
+    "translation_sv": "Ytterligare funktioner tillgängliga i utvecklarläget.",
+    "source_refs": [
+      "component::habitica::common::developer_options_description"
+    ],
+    "reference_targets": {
+      "component::habitica::common::developer_options_description": {
+        "key_id": "611568355",
+        "translation_id": "5326759589",
+        "en": "Additional features available in developer mode.",
+        "sv": "Ytterligare funktioner tillgängliga i utvecklarläget.",
+        "key_name": "component::habitica::common::developer_options_description",
+        "en_current_source_raw": "Additional features available in developer mode.",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32413,
+    "key": "component::habitica::services::update_reward::sections::developer_options::name",
+    "translation_sv": "Alternativ för utvecklare",
+    "source_refs": [
+      "component::habitica::common::developer_options_name"
+    ],
+    "reference_targets": {
+      "component::habitica::common::developer_options_name": {
+        "key_id": "611568356",
+        "translation_id": "5326759652",
+        "en": "Developer options",
+        "sv": "Alternativ för utvecklare",
+        "key_name": "component::habitica::common::developer_options_name",
+        "en_current_source_raw": "Developer options",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32414,
+    "key": "component::habitica::services::update_reward::sections::tag_options::description",
+    "translation_sv": "Lägg till eller ta bort taggar på en uppgift.",
+    "source_refs": [
+      "component::habitica::common::tag_options_description"
+    ],
+    "reference_targets": {
+      "component::habitica::common::tag_options_description": {
+        "key_id": "611568363",
+        "translation_id": "5326760093",
+        "en": "Add or remove tags from a task.",
+        "sv": "Lägg till eller ta bort taggar på en uppgift.",
+        "key_name": "component::habitica::common::tag_options_description",
+        "en_current_source_raw": "Add or remove tags from a task.",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  },
+  {
+    "position": 32415,
+    "key": "component::habitica::services::update_reward::sections::tag_options::name",
+    "translation_sv": "Taggar",
+    "source_refs": [
+      "component::habitica::common::tag_options_name"
+    ],
+    "reference_targets": {
+      "component::habitica::common::tag_options_name": {
+        "key_id": "611568364",
+        "translation_id": "5326760156",
+        "en": "Tags",
+        "sv": "Taggar",
+        "key_name": "component::habitica::common::tag_options_name",
+        "en_current_source_raw": "Tags",
+        "en_source_match": true
+      }
+    },
+    "reference_status": "matches-live-target"
+  }
+]
