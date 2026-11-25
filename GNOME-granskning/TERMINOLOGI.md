@@ -116,6 +116,7 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | gradient map | toningskarta | Filter/funktion som mappar toningar till färger. |
 | bucket (histogram) | intervall | Värdeintervall som samlar färg- eller bildpunktsvärden; översätt inte med *hink* eller *färgbucket*. |
 | bucket size | intervallstorlek | Storleken på varje värdeintervall i histogram-/färgkubsanalys. |
+| color vision deficiency | färgseendebrist | GIMP-inställning för simulering av olika typer av färgseendebrist. |
 | color value range | färgvärdesintervall | Beskrivande term för ett intervall av grupperade kanalvärden. |
 | Blending Options | Blandningsalternativ | GIMP-lager-/filterinställning; översätt inte *blending* med *toning*. |
 | chroma range | krominansomfång | GIMP-färgförbättring; skilj från nyans och ljushet. |

@@ -1,0 +1,308 @@
+--- gimp.master.po-libgimp.sv.original.po
++++ gimp.master.po-libgimp.sv.reviewed.po
+@@ -12,8 +12,8 @@
+ "Project-Id-Version: libgimp\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
+ "POT-Creation-Date: 2026-11-25 11:58+0000\n"
+-"PO-Revision-Date: 2026-03-22 14:31+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-25 23:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -128,17 +128,15 @@
+ #: libgimp/gimpexportoptions.c:456
+ #, c-format
+ msgid "%s plug-in can only handle bitmap (two color) indexed images"
+-msgstr ""
+-"Insticksmodulen %s kan endast hantera bitmappindexerade (tvåfärgsindexerade) "
+-"bilder"
++msgstr "Insticksmodulen %s kan endast hantera indexerade tvåfärgsbilder."
+ 
+ #: libgimp/gimpexportoptions.c:457
+ msgid ""
+ "Convert to Indexed using bitmap default settings\n"
+ "(Do it manually to tune the result)"
+ msgstr ""
+-"Konvertera till Indexerat med bitmapp-standardinställningar\n"
+-"(Gör det manuellt om du vill finjustera)"
++"Konvertera till indexerat läge med standardinställningar för bitmapp.\n"
++"(Gör det manuellt om du vill finjustera resultatet.)"
+ 
+ #: libgimp/gimpexportoptions.c:466
+ #, c-format
+@@ -248,16 +246,15 @@
+ msgstr "(redigera)"
+ 
+ #: libgimp/gimpexportproceduredialog.c:330
+-#, fuzzy
+ #| msgctxt "fill-type"
+ #| msgid "Transparency"
+ msgid "Transparency will be lost"
+-msgstr "Transparent"
++msgstr "Genomskinligheten går förlorad"
+ 
+ #: libgimp/gimpexportproceduredialog.c:335
+ #, c-format
+ msgid "This format does not support transparency: %s"
+-msgstr ""
++msgstr "Formatet stöder inte genomskinlighet: %s"
+ 
+ #. TRANSLATORS: %s will be a format name, e.g. "PNG" or "JPEG".
+ #: libgimp/gimpexportproceduredialog.c:502
+@@ -421,8 +418,8 @@
+ #: libgimp/gimpprocedure.c:2545
+ #, c-format
+ msgid ""
+-"Procedure '%s' returned '%s' as return value '%s' (#%d, type %s). This value "
+-"is out of range."
++"Procedure '%s' returned '%s' as return value '%s' (#%d, type %s). This value"
++" is out of range."
+ msgstr ""
+ "Proceduren ”%s” returnerade ”%s” som svarsvärde ”%s” (nr. %d, typ %s). Det "
+ "här värdet är utanför intervallet."
+@@ -448,7 +445,8 @@
+ "Procedure '%s' has been called with an invalid UTF-8 string for argument "
+ "'%s'."
+ msgstr ""
+-"Proceduren ”%s” har anropats med en ogiltig UTF-8-sträng för argumentet ”%s”."
++"Proceduren ”%s” har anropats med en ogiltig UTF-8-sträng för argumentet "
++"”%s”."
+ 
+ #: libgimp/gimpproceduredialog.c:345 libgimp/gimpproceduredialog.c:651
+ #: libgimpwidgets/gimpcolorprofilechooserdialog.c:183
+@@ -667,7 +665,6 @@
+ 
+ #. TRANSLATORS: the %s is a vector format name, e.g. "SVG" or "PDF",
+ #. * followed by 2D dimensions with unit, e.g. "200 inch x 400 inch"
+-#.
+ #: libgimp/gimpvectorloadproceduredialog.c:131
+ #, c-format
+ msgid "Source %s file size: %%.%df %s × %%.%df %s"
+@@ -1066,7 +1063,8 @@
+ msgid "HSV (counter-clockwise hue)"
+ msgstr "NMI (motursnyans)"
+ 
+-#. Translators: this is an abbreviated version of "HSV (counter-clockwise hue)".
++#. Translators: this is an abbreviated version of "HSV (counter-clockwise
++#. hue)".
+ #. Keep it short.
+ #: libgimpbase/gimpbaseenums.c:618
+ msgctxt "gradient-segment-color"
+@@ -1076,7 +1074,7 @@
+ #: libgimpbase/gimpbaseenums.c:619
+ msgctxt "gradient-segment-color"
+ msgid "HSV (clockwise hue)"
+-msgstr "NMI (medursnyans)"
++msgstr "NMI (nyans medurs)"
+ 
+ #. Translators: this is an abbreviated version of "HSV (clockwise hue)".
+ #. Keep it short.
+@@ -1205,7 +1203,8 @@
+ msgid "Spiral (counter-clockwise)"
+ msgstr "Spiral (moturs)"
+ 
+-#. Translators: this is an abbreviated version of "Spiral (counter-clockwise)".
++#. Translators: this is an abbreviated version of "Spiral (counter-
++#. clockwise)".
+ #. Keep it short.
+ #: libgimpbase/gimpbaseenums.c:726
+ msgctxt "gradient-type"
+@@ -1954,8 +1953,8 @@
+ 
+ #: libgimpconfig/gimpcolorconfig.c:67
+ msgid ""
+-"The preferred grayscale working space color profile. It will be offered next "
+-"to the built-in grayscale profile when a color profile can be chosen."
++"The preferred grayscale working space color profile. It will be offered next"
++" to the built-in grayscale profile when a color profile can be chosen."
+ msgstr ""
+ "Den föredragna gråskalefärgprofilen för arbete. Den kommer att erbjudas "
+ "intill den inbyggda gråskaleprofilen när en färgprofil kan väljas."
+@@ -1967,8 +1966,8 @@
+ #: libgimpconfig/gimpcolorconfig.c:74
+ msgid ""
+ "The color profile to use for soft-proofing from your image's color space to "
+-"some other color space, including soft-proofing to a printer or other output "
+-"device profile."
++"some other color space, including soft-proofing to a printer or other output"
++" device profile."
+ msgstr ""
+ "Färgprofilen som används för korrektursimulering från din bilds färgrymd "
+ "till någon annan färgrymd, inklusive korrektursimulering till en skrivare "
+@@ -1982,8 +1981,8 @@
+ "intent really gives you relative colorimetric."
+ msgstr ""
+ "Hur färger konverteras från din bilds färgrymd till din skärmenhet. Relativ "
+-"kolorimetri är vanligtvis det bästa alternativet. Om du inte använder en LUT-"
+-"skärmprofil (de flesta skärmprofiler använder matriser) så ger valet "
++"kolorimetri är vanligtvis det bästa alternativet. Om du inte använder en "
++"LUT-skärmprofil (de flesta skärmprofiler använder matriser) så ger valet "
+ "perceptuell återgivning i verkligheten en relativ kolorimetri."
+ 
+ #: libgimpconfig/gimpcolorconfig.c:86
+@@ -1995,7 +1994,8 @@
+ 
+ #: libgimpconfig/gimpcolorconfig.c:90
+ msgid ""
+-"When disabled, image display might be of better quality at the cost of speed."
++"When disabled, image display might be of better quality at the cost of "
++"speed."
+ msgstr ""
+ "När inaktiverat kommer bildvisning att ha bättre kvalitet på bekostnad av "
+ "hastighet."
+@@ -2003,12 +2003,12 @@
+ #: libgimpconfig/gimpcolorconfig.c:94
+ msgid ""
+ "How colors are converted from your image's color space to the output "
+-"simulation device (usually your monitor). Try them all and choose what looks "
+-"the best."
++"simulation device (usually your monitor). Try them all and choose what looks"
++" the best."
+ msgstr ""
+ "Hur färger konverteras från din bilds färgrymd till den simulerade "
+-"utmatningsenheten (vanligtvis din skärm). Prova dem allihop och välj den som "
+-"ser bäst ut."
++"utmatningsenheten (vanligtvis din skärm). Prova dem allihop och välj den som"
++" ser bäst ut."
+ 
+ #: libgimpconfig/gimpcolorconfig.c:99
+ msgid ""
+@@ -2018,7 +2018,8 @@
+ 
+ #: libgimpconfig/gimpcolorconfig.c:103
+ msgid ""
+-"When disabled, soft-proofing might be of better quality at the cost of speed."
++"When disabled, soft-proofing might be of better quality at the cost of "
++"speed."
+ msgstr ""
+ "När inaktiverat kommer korrektursimulering att ha bättre kvalitet på "
+ "bekostnad av hastighet."
+@@ -2033,7 +2034,8 @@
+ 
+ #: libgimpconfig/gimpcolorconfig.c:111
+ msgid "The color to use for marking colors which are out of gamut."
+-msgstr "Färgen att använda för att markera färger som är utanför färgomfånget."
++msgstr ""
++"Färgen att använda för att markera färger som är utanför färgomfånget."
+ 
+ #: libgimpconfig/gimpcolorconfig.c:114
+ msgid ""
+@@ -2272,8 +2274,8 @@
+ 
+ #: libgimpwidgets/gimpcolorhexentry.c:125
+ msgid ""
+-"Hexadecimal color notation as used in HTML and CSS.  This entry also accepts "
+-"CSS color names."
++"Hexadecimal color notation as used in HTML and CSS.  This entry also accepts"
++" CSS color names."
+ msgstr ""
+ "Hexadecimal färgnotation som används i HTML och CSS. Den här posten "
+ "accepterar även CSS-färgnamn."
+@@ -2322,7 +2324,6 @@
+ 
+ #. TODO: in future, this could be a better thought localized
+ #. * string, but for now, I had to preserve string freeze.
+-#.
+ #: libgimpwidgets/gimpcolorscales.c:359 libgimpwidgets/gimpcolorscales.c:691
+ #: libgimpwidgets/gimpcolorselect.c:2105 modules/color-selector-water.c:206
+ #: modules/color-selector-water.c:242 modules/color-selector-wheel.c:136
+@@ -2435,7 +2436,6 @@
+ 
+ #. This string appears in an empty menu as in
+ #. * "nothing selected and nothing to select"
+-#.
+ #: libgimpwidgets/gimpintstore.c:256
+ msgid "(Empty)"
+ msgstr "(Tom)"
+@@ -2469,7 +2469,8 @@
+ msgstr "målet att öppna till"
+ 
+ #. Count label
+-#: libgimpwidgets/gimppageselector.c:275 libgimpwidgets/gimppageselector.c:1028
++#: libgimpwidgets/gimppageselector.c:275
++#: libgimpwidgets/gimppageselector.c:1028
+ msgid "Nothing selected"
+ msgstr "Ingenting markerat"
+ 
+@@ -2579,7 +2580,8 @@
+ 
+ #: libgimpwidgets/gimpwidgets.c:280
+ msgid "Seed random number generator with a generated random number"
+-msgstr "Skapa slumptalsfrö till slumptalsgeneratorn med ett genererat slumptal"
++msgstr ""
++"Skapa slumptalsfrö till slumptalsgeneratorn med ett genererat slumptal"
+ 
+ #: libgimpwidgets/gimpwidgets.c:284
+ msgid "_Randomize"
+@@ -3161,10 +3163,10 @@
+ "defined filmic look to be used before ODT (display or output space ICC "
+ "profile)"
+ msgstr ""
+-"ACES RRT (RRT = Reference Rendering Transform). Ett HDR-till-SDR-säkert "
+-"färgvisningsfilter, som använder en luminansapproximation av ACES RRT, ett "
++"ACES RRT (RRT = Reference Rendering Transform). Ett HDR-till-SDR-"
++"visningsfilter som använder en luminansapproximation av ACES RRT, ett "
+ "fördefinierat filmiskt utseende att använda före ODT (ICC-profil för skärm "
+-"eller utdatarymd)"
++"eller utdatarymd)."
+ 
+ #: modules/display-filter-aces-rrt.c:121
+ msgid "Pre-transform change in stops"
+@@ -3219,7 +3221,8 @@
+ 
+ #: modules/display-filter-clip-warning.c:207
+ msgid "Show warning for pixels with an infinite or NaN component"
+-msgstr "Visa varning för bildpunkter med en komponent som är oändlig eller NaN"
++msgstr ""
++"Visa varning för bildpunkter med en komponent som är oändlig eller NaN"
+ 
+ #: modules/display-filter-clip-warning.c:215
+ msgid "Bogus color"
+@@ -3272,7 +3275,7 @@
+ 
+ #: modules/display-filter-color-blind.c:254
+ msgid "Color vision deficiency type"
+-msgstr "Typ av färgseendebristfällighet"
++msgstr "Typ av färgseendebrist"
+ 
+ #: modules/display-filter-color-blind.c:259
+ msgid "Color Deficient Vision"
+@@ -3343,11 +3346,10 @@
+ 
+ #, c-format
+ #~ msgid ""
+-#~ "Your image should be exported before it can be saved as %s for the "
+-#~ "following reasons:"
++#~ "Your image should be exported before it can be saved as %s for the following"
++#~ " reasons:"
+ #~ msgstr ""
+-#~ "Din bild bör exporteras innan den kan sparas som %s av följande "
+-#~ "anledningar:"
++#~ "Din bild bör exporteras innan den kan sparas som %s av följande anledningar:"
+ 
+ #~ msgid "The export conversion won't modify your original image."
+ #~ msgstr "Konverteringen vid export modifierar inte originalbilden."
+@@ -3597,8 +3599,8 @@
+ #~ msgstr "Färghantering"
+ 
+ #~ msgid ""
+-#~ "This filter takes its configuration from the Color Management section in "
+-#~ "the Preferences dialog."
++#~ "This filter takes its configuration from the Color Management section in the"
++#~ " Preferences dialog."
+ #~ msgstr ""
+ #~ "Det här filtret tar sin konfiguration från sektionen Färghantering i "
+ #~ "inställningsdialogrutan."
+@@ -3698,8 +3700,8 @@
+ #~ msgstr "Ställer in hur färger mappas för din display."
+ 
+ #~ msgid ""
+-#~ "Sets how colors are converted from RGB working space to the print "
+-#~ "simulation device."
++#~ "Sets how colors are converted from RGB working space to the print simulation"
++#~ " device."
+ #~ msgstr ""
+ #~ "Ställer in hur färger konverteras från RGB-arbetsrymd till enheten för "
+ #~ "utskriftssimulering."
