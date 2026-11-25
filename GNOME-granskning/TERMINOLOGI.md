@@ -126,6 +126,8 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | hot spot (image map) | aktivt område | Klickbart område i en bildkarta. |
 | semi-transparency | halvgenomskinlighet | När ett bildformat simulerar genomskinlighet utan alfakanal. |
 | edge-detect filter | kantdetekteringsfilter | Filterkategori. |
+| Edge-Detect (menu) | Leta kanter | GIMP:s menygrupp med kantfilter; i löptext och kategorirubrik används *kantdetektering*. |
+| Gradient (edge algorithm) | Gradient | Namnet på GIMP:s kantdetekteringsalgoritm; skilj från färgövergången/toningen i övriga GIMP-gränssnittet. |
 | generic filter | allmänt filter | Använd inte *generiskt filter* i användartext. |
 | dock (GIMP panel) | docka | En panel som kan dockas; plural *dockor*. Använd *dockning* för själva placeringen. |
 | dockable dialog | dockningsbar dialogruta | Dialogruta som kan placeras i en docka. |

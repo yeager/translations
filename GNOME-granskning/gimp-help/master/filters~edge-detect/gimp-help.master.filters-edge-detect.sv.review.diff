@@ -1,0 +1,941 @@
+--- gimp-help.master.filters-edge-detect.sv.original.po
++++ gimp-help.master.filters-edge-detect.sv.reviewed.po
+@@ -8,8 +8,8 @@
+ msgstr ""
+ "Project-Id-Version: edge-detect\n"
+ "POT-Creation-Date: 2026-11-24 22:31+0000\n"
+-"PO-Revision-Date: 2026-08-26 16:11+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-25 23:30+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -17,7 +17,8 @@
+ "Content-Transfer-Encoding: 8bit\n"
+ "X-Generator: Poedit 3.9\n"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/sobel.xml:26(None)
+ #: src/filters/edge-detect/neon.xml:26(None)
+@@ -32,7 +33,8 @@
+ "@@image: 'images/filters/examples/taj_orig.jpg'; "
+ "md5=6abae556aaff78a2bc9082a46a171da8"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/sobel.xml:35(None)
+ msgid ""
+@@ -42,7 +44,8 @@
+ "@@image: 'images/filters/examples/edge-taj-sobel.jpg'; "
+ "md5=4d18dafa3f3e6d248e754068f817410e"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/sobel.xml:69(None)
+ msgid ""
+@@ -91,7 +94,7 @@
+ 
+ #: src/filters/edge-detect/sobel.xml:22(title)
+ msgid "Applying example of the Sobel filter"
+-msgstr "Tillämpar exempel för filtret Sobel"
++msgstr "Exempel på Sobel-filtret"
+ 
+ #: src/filters/edge-detect/sobel.xml:29(para)
+ #: src/filters/edge-detect/neon.xml:29(para)
+@@ -117,10 +120,10 @@
+ "filter, the result is a transparent image with black lines and some rest of "
+ "colors."
+ msgstr ""
+-"Sobels filter identifierar horisontella och vertikala kanter separat på en "
+-"skalad bild. Färgbilder omvandlas till RGB-skalade bilder. Som med Laplace-"
+-"filtret är resultatet en transparent bild med svarta linjer och lite "
+-"färgrester."
++"Sobel-filtret identifierar vågräta och lodräta kanter var för sig i en "
++"skalad bild. Färgbilder omvandlas till skalade RGB-bilder. Precis som med "
++"Laplace-filtret blir resultatet en bild med genomskinlig bakgrund, svarta "
++"linjer och vissa färger kvar."
+ 
+ #: src/filters/edge-detect/sobel.xml:51(title)
+ #: src/filters/edge-detect/neon.xml:49(title)
+@@ -133,13 +136,13 @@
+ 
+ #: src/filters/edge-detect/sobel.xml:52(para)
+ msgid ""
+-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+-"guimenu><guisubmenu>Edge-Detect</guisubmenu><guimenuitem>Sobel…</"
+-"guimenuitem></menuchoice>."
+-msgstr ""
+-"Detta filter hittas i huvudmenyn under <menuchoice><guimenu>Filter</"
+-"guimenu><guisubmenu>Leta kanter</guisubmenu><guimenuitem>Sobel…</"
+-"guimenuitem></menuchoice>."
++"This filter is found in the main menu under "
++"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Edge-"
++"Detect</guisubmenu><guimenuitem>Sobel…</guimenuitem></menuchoice>."
++msgstr ""
++"Filtret finns i huvudmenyn under "
++"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Leta "
++"kanter</guisubmenu><guimenuitem>Sobel…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/edge-detect/sobel.xml:63(title)
+ #: src/filters/edge-detect/neon.xml:61(title)
+@@ -188,7 +191,7 @@
+ #: src/filters/edge-detect/edge_detect.xml:94(term)
+ #: src/filters/edge-detect/dog.xml:91(term)
+ msgid "Blending Options"
+-msgstr "Toningsalternativ"
++msgstr "Blandningsalternativ"
+ 
+ #: src/filters/edge-detect/sobel.xml:79(term)
+ #: src/filters/edge-detect/neon.xml:77(term)
+@@ -223,7 +226,7 @@
+ 
+ #: src/filters/edge-detect/sobel.xml:89(para)
+ msgid "Renders near horizontal edges."
+-msgstr "Renderar nära horisontella kanter."
++msgstr "Framhäver kanter som nästan är vågräta."
+ 
+ #: src/filters/edge-detect/sobel.xml:93(term)
+ msgid "Vertical"
+@@ -231,7 +234,7 @@
+ 
+ #: src/filters/edge-detect/sobel.xml:95(para)
+ msgid "Renders near vertical edges."
+-msgstr "Renderar nära vertikala kanter."
++msgstr "Framhäver kanter som nästan är lodräta."
+ 
+ #: src/filters/edge-detect/sobel.xml:99(term)
+ msgid "Keep sign"
+@@ -243,11 +246,11 @@
+ "one direction for use only: a flat relief with bumps and hollows will be "
+ "created."
+ msgstr ""
+-"Detta alternativ låter dig ställa in hur filtret kommer fungera om du endast "
+-"valt en riktning för användning: en platt relief med förhöjningar och "
+-"håligheter kommer skapas."
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"Det här alternativet styr hur filtret fungerar när du bara använder en "
++"riktning: resultatet blir en plan relief med upphöjningar och fördjupningar."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/neon.xml:35(None)
+ msgid ""
+@@ -257,7 +260,8 @@
+ "@@image: 'images/filters/examples/edge-taj-neon.jpg'; "
+ "md5=d5d4503a0de0b7bf2b70d4d396274e31"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/neon.xml:67(None)
+ msgid ""
+@@ -275,25 +279,25 @@
+ 
+ #: src/filters/edge-detect/neon.xml:22(title)
+ msgid "Applying example for the Neon filter"
+-msgstr "Tillämpar exempel för filtret Neon"
++msgstr "Exempel på Neon-filtret"
+ 
+ #: src/filters/edge-detect/neon.xml:42(para)
+ msgid ""
+ "This filter detects edges in the active layer or selection and gives them a "
+ "bright neon effect."
+ msgstr ""
+-"Detta filter identifierar kanter i det aktiva lagret eller markeringen och "
+-"ger dem en ljus neoneffekt."
++"Filtret identifierar kanter i det aktiva lagret eller markeringen och ger "
++"dem en stark neoneffekt."
+ 
+ #: src/filters/edge-detect/neon.xml:50(para)
+ msgid ""
+-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+-"guimenu><guisubmenu>Edge-Detect</guisubmenu><guimenuitem>Neon…</"
+-"guimenuitem></menuchoice>."
+-msgstr ""
+-"Detta filter hittas i huvudmenyn under <menuchoice><guimenu>Filter</"
+-"guimenu><guisubmenu>Leta kanter</guisubmenu><guimenuitem>Neon…</"
+-"guimenuitem></menuchoice>."
++"This filter is found in the main menu under "
++"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Edge-"
++"Detect</guisubmenu><guimenuitem>Neon…</guimenuitem></menuchoice>."
++msgstr ""
++"Filtret finns i huvudmenyn under "
++"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Leta "
++"kanter</guisubmenu><guimenuitem>Neon…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/edge-detect/neon.xml:63(title)
+ msgid "Neon filter options"
+@@ -305,9 +309,7 @@
+ 
+ #: src/filters/edge-detect/neon.xml:87(para)
+ msgid "This option lets you determine how wide the detected edge will be."
+-msgstr ""
+-"Detta alternativ låter dig bestämma hur bred den identifierade kanten ska "
+-"vara."
++msgstr "Här ställer du in hur bred den identifierade kanten ska vara."
+ 
+ #: src/filters/edge-detect/neon.xml:93(term)
+ msgid "Intensity"
+@@ -315,9 +317,10 @@
+ 
+ #: src/filters/edge-detect/neon.xml:95(para)
+ msgid "This option lets you determine how strong the filter effect will be."
+-msgstr "Detta alternativ låter dig bestämma hur stark filtereffekten ska vara."
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++msgstr "Här ställer du in hur stark filtereffekten ska vara."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/laplace.xml:35(None)
+ msgid ""
+@@ -327,7 +330,8 @@
+ "@@image: 'images/filters/examples/edge-taj-laplace.jpg'; "
+ "md5=660967cbf403696ecf6ecf5566e3f70b"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/laplace.xml:67(None)
+ msgid ""
+@@ -347,31 +351,32 @@
+ 
+ #: src/filters/edge-detect/laplace.xml:22(title)
+ msgid "Applying example for the Laplace filter"
+-msgstr "Tillämpar exempel för filtret Laplace"
++msgstr "Exempel på Laplace-filtret"
+ 
+ #: src/filters/edge-detect/laplace.xml:42(para)
+ msgid ""
+ "This filter detects edges in the image using Laplacian method, which "
+ "produces thin, pixel wide borders."
+ msgstr ""
+-"Detta filter identifierar kanter i bilden med Laplace-metoden vilken "
+-"producerar tunna bildpunktsbreda kanter."
++"Filtret identifierar kanter med Laplace-metoden, som ger tunna kantlinjer "
++"som är en bildpunkt breda."
+ 
+ #: src/filters/edge-detect/laplace.xml:50(para)
+ msgid ""
+-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+-"guimenu><guisubmenu>Edge-Detect</guisubmenu><guimenuitem>Laplace…</"
+-"guimenuitem></menuchoice>."
+-msgstr ""
+-"Detta filter hittas i huvudmenyn under <menuchoice><guimenu>Filter</"
+-"guimenu><guisubmenu>Leta kanter</guisubmenu><guimenuitem>Laplace…</"
+-"guimenuitem></menuchoice>."
++"This filter is found in the main menu under "
++"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Edge-"
++"Detect</guisubmenu><guimenuitem>Laplace…</guimenuitem></menuchoice>."
++msgstr ""
++"Filtret finns i huvudmenyn under "
++"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Leta "
++"kanter</guisubmenu><guimenuitem>Laplace…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/edge-detect/laplace.xml:63(title)
+ msgid "Laplace filter options"
+ msgstr "Alternativ för filtret Laplace"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/introduction.xml:55(None)
+ msgid ""
+@@ -395,38 +400,38 @@
+ "Edge detect filters search for borders between different colors and so can "
+ "detect contours of objects."
+ msgstr ""
+-"Kantdetekteringsfilter söker kanter mellan olika färger och kan därmed "
+-"identifiera konturer för objekt."
++"Kantdetekteringsfilter letar efter gränser mellan olika färger och kan "
++"därmed hitta objektens konturer."
+ 
+ #: src/filters/edge-detect/introduction.xml:22(para)
+ msgid "They are used to make selections and for many artistic purposes."
+-msgstr "De används för att göra markeringar och för många konstnärliga syften."
++msgstr ""
++"De används för att skapa markeringar och för olika konstnärliga effekter."
+ 
+ #: src/filters/edge-detect/introduction.xml:26(para)
+ msgid "This category describes the following filters:"
+-msgstr "Denna kategori beskriver följande filter:"
++msgstr "I den här kategorin beskrivs följande filter:"
+ 
+ #: src/filters/edge-detect/introduction.xml:58(para)
+ msgid ""
+-"Most of them are based on gradient calculation methods and give thick border "
+-"lines. Look at fig.1 which represents color intensity variations. On the "
+-"left is a slow color gradient which is not a border. On the right is a quick "
+-"variation which is an edge. Now, let us calculate the gradient, the "
+-"variation speed, of this edge, i.e. the first derivative (fig.2). We have to "
+-"decide that a border is detected when gradient is more than a threshold "
++"Most of them are based on gradient calculation methods and give thick border"
++" lines. Look at fig.1 which represents color intensity variations. On the "
++"left is a slow color gradient which is not a border. On the right is a quick"
++" variation which is an edge. Now, let us calculate the gradient, the "
++"variation speed, of this edge, i.e. the first derivative (fig.2). We have to"
++" decide that a border is detected when gradient is more than a threshold "
+ "value (the exact border is at top of the curve, but this top varies "
+ "according to borders). In most cases, threshold is under top and border is "
+ "thick."
+ msgstr ""
+-"De flesta av dem baseras på gradientberäkningsmetoder och ger tjocka "
+-"kantlinjer. Se på figur 1 som representerar variationer i färgintensitet. "
+-"Till vänster är en långsam färggradient som inte är en kant. Till höger är "
+-"en snabb variation som är en kant. Låt oss nu beräkna gradienten, "
+-"variationshastigheten, av denna kant, d.v.s. förstaderivatan (figur 2). Vi "
+-"behöver bestämma att en kant identifieras när gradienten är mer än ett "
+-"tröskelvärde (den exakta kanten är högst upp i kurvan, men denna topp "
+-"varierar enligt kanter). I de flesta fall är tröskelvärdet under toppen och "
+-"kanten är tjock."
++"De flesta bygger på metoder som beräknar bildens gradient och ger breda "
++"kantlinjer. Figur 1 visar hur färgintensiteten varierar. Till vänster syns "
++"en långsam färgövergång, som inte är en kant. Till höger syns en snabb "
++"förändring, det vill säga en kant. Nu beräknar vi gradienten, alltså hur "
++"snabbt värdet förändras: kantens förstaderivata (figur 2). Vi avgör att en "
++"kant har hittats när gradienten överskrider ett tröskelvärde. Den exakta "
++"kanten ligger vid kurvans topp, men toppen varierar mellan olika kanter. "
++"Oftast ligger tröskelvärdet under toppen, vilket ger en bred kant."
+ 
+ #: src/filters/edge-detect/introduction.xml:69(para)
+ msgid ""
+@@ -435,20 +440,21 @@
+ "renders a thin border, only a pixel wide. But this derivative gives several "
+ "zeros corresponding to small ripples, resulting in false edges."
+ msgstr ""
+-"Laplace-kantdetektering använder andraderivatan (figur 3). Toppen på kurvan "
+-"är nu på noll och tydligt identifierad. Därför renderar Laplace-filtret en "
+-"tunn kant, bara en bildpunkt bred. Men denna derivata ger flera nollor "
+-"motsvarande små krusningar, vilket resulterar i falska kanter."
++"Laplace-kantdetektering använder andraderivatan (figur 3). Kurvans topp "
++"ligger då vid noll och blir lätt att hitta. Därför ger Laplace-filtret en "
++"kantlinje som bara är en bildpunkt bred. Derivatan kan dock ha flera "
++"nollgenomgångar vid små variationer, vilket ger falska kanter."
+ 
+ #: src/filters/edge-detect/introduction.xml:76(para)
+ msgid ""
+ "Some blurring before applying edge filters is often necessary: it flattens "
+ "small ripples in signal and so prevents false edges."
+ msgstr ""
+-"Viss oskärpa före kantfilter tillämpas är ofta nödvändig: det plattar ut små "
+-"signalkrusningar och förhindrar därför falska kanter."
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"Ofta behöver bilden göras lite oskarp innan kantfilter används: det jämnar "
++"ut små variationer i signalen och förhindrar falska kanter."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/image_gradient.xml:36(None)
+ msgid ""
+@@ -458,17 +464,19 @@
+ "@@image: 'images/filters/examples/edge-detect/image_gradient.jpg'; "
+ "md5=baa2ae64c1ee80bbc4cce7ac173ca3ec"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/image_gradient.xml:48(None)
+ msgid ""
+-"@@image: 'images/filters/examples/edge-detect/image_gradient-direction.jpg'; "
+-"md5=4b2e2d43a67cd0ee8b78d2aeb02d1a65"
+-msgstr ""
+-"@@image: 'images/filters/examples/edge-detect/image_gradient-direction.jpg'; "
+-"md5=4b2e2d43a67cd0ee8b78d2aeb02d1a65"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/edge-detect/image_gradient-direction.jpg';"
++" md5=4b2e2d43a67cd0ee8b78d2aeb02d1a65"
++msgstr ""
++"@@image: 'images/filters/examples/edge-detect/image_gradient-direction.jpg';"
++" md5=4b2e2d43a67cd0ee8b78d2aeb02d1a65"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/image_gradient.xml:79(None)
+ msgid ""
+@@ -478,7 +486,8 @@
+ "@@image: 'images/filters/edge-detect/image_gradient-dialog.png'; "
+ "md5=c6ed3c5040eca8fe2886f48d0a42e3ca"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/image_gradient.xml:109(None)
+ msgid ""
+@@ -488,7 +497,8 @@
+ "@@image: 'images/filters/examples/edge-detect/image_gradient-ex0.jpg'; "
+ "md5=54d138884a1293bdb6afc9c8444cc661"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/image_gradient.xml:118(None)
+ msgid ""
+@@ -498,7 +508,8 @@
+ "@@image: 'images/filters/examples/edge-detect/image_gradient-ex1.jpg'; "
+ "md5=6081297ab5a20fb983ef977f62f996c0"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/image_gradient.xml:129(None)
+ msgid ""
+@@ -516,30 +527,31 @@
+ 
+ #: src/filters/edge-detect/image_gradient.xml:23(title)
+ msgid "Applying example for the Image Gradient filter"
+-msgstr "Tillämpar exempel för filtret Bildgradient"
++msgstr "Exempel på filtret Bildgradient"
+ 
+ #: src/filters/edge-detect/image_gradient.xml:39(para)
+ msgid "Filter <quote>Image Gradient</quote> applied with default options."
+-msgstr "Filtret <quote>Bildgradient</quote> tillämpat med standardalternativ."
++msgstr ""
++"Filtret <quote>Bildgradient</quote> tillämpat med standardinställningarna."
+ 
+ #: src/filters/edge-detect/image_gradient.xml:51(para)
+ msgid "Filter <quote>Image Gradient</quote> applied with Direction option."
+ msgstr ""
+-"Filtret <quote>Bildgradient</quote> tillämpat med alternativet Riktning."
++"Filtret <quote>Bildgradient</quote> tillämpat med inställningen Riktning."
+ 
+ #: src/filters/edge-detect/image_gradient.xml:56(para)
+ msgid "This filter detects edges in one or two gradient directions."
+-msgstr "Detta filter identifierar kanter i en eller två gradientriktningar."
++msgstr "Filtret identifierar kanter i en eller två gradientriktningar."
+ 
+ #: src/filters/edge-detect/image_gradient.xml:62(para)
+ msgid ""
+-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+-"guimenu><guisubmenu>Edge-Detect</guisubmenu><guimenuitem>Image Gradient…</"
+-"guimenuitem></menuchoice>."
+-msgstr ""
+-"Detta filter hittas i huvudmenyn under <menuchoice><guimenu>Filter</"
+-"guimenu><guisubmenu>Leta kanter</guisubmenu><guimenuitem>Bildgradient…</"
+-"guimenuitem></menuchoice>."
++"This filter is found in the main menu under "
++"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Edge-"
++"Detect</guisubmenu><guimenuitem>Image Gradient…</guimenuitem></menuchoice>."
++msgstr ""
++"Filtret finns i huvudmenyn under "
++"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Leta "
++"kanter</guisubmenu><guimenuitem>Bildgradient…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/edge-detect/image_gradient.xml:75(title)
+ msgid "Image Gradient filter options"
+@@ -552,12 +564,12 @@
+ #: src/filters/edge-detect/image_gradient.xml:99(para)
+ msgid ""
+ "<guilabel>Magnitude</guilabel> is default: it combines both directions. "
+-"<guilabel>Direction</guilabel>: only one direction is used. <guilabel>Both</"
+-"guilabel> is like Magnitude."
+-msgstr ""
+-"<guilabel>Magnitud</guilabel> är standard: det kombinerar båda riktningar. "
+-"<guilabel>Riktning</guilabel>: endast en riktning används. <guilabel>Båda</"
+-"guilabel> är som Magnitud."
++"<guilabel>Direction</guilabel>: only one direction is used. "
++"<guilabel>Both</guilabel> is like Magnitude."
++msgstr ""
++"<guilabel>Magnitud</guilabel> är standard: det kombinerar båda riktningarna."
++" <guilabel>Riktning</guilabel> använder bara en riktning. "
++"<guilabel>Båda</guilabel> fungerar som Magnitud."
+ 
+ #: src/filters/edge-detect/image_gradient.xml:105(title)
+ msgid "Output mode examples"
+@@ -566,22 +578,23 @@
+ # TODO: Is luminosity right word?
+ #: src/filters/edge-detect/image_gradient.xml:112(para)
+ msgid "Original image, with abrupt luminosity change"
+-msgstr "Ursprunglig bild med abrupt färgändring"
++msgstr "Ursprunglig bild med en plötslig förändring i ljushet"
+ 
+ #: src/filters/edge-detect/image_gradient.xml:121(para)
+ msgid "Option Magnitude is selected"
+-msgstr "Alternativet Magnitud har valts"
++msgstr "Alternativet Magnitud är valt"
+ 
+ # TODO: no*t* edge detected?
+ #: src/filters/edge-detect/image_gradient.xml:132(para)
+ msgid ""
+-"Option Direction is selected. In result, black is no edge detected, white is "
+-"edge detected."
+-msgstr ""
+-"Alternativet Magnitud har valts. I resultatet kantdetekteras inte svart, men "
+-"vitt kantdetekteras."
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"Option Direction is selected. In result, black is no edge detected, white is"
++" edge detected."
++msgstr ""
++"Alternativet Riktning är valt. Svart visar områden där ingen kant hittats "
++"och vitt visar identifierade kanter."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/edge_detect.xml:53(None)
+ msgid ""
+@@ -591,7 +604,8 @@
+ "@@image: 'images/filters/examples/edge-taj-edge-sobel.jpg'; "
+ "md5=49c820d5146c7c0ae289e92e606f2d5d"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/edge_detect.xml:85(None)
+ msgid ""
+@@ -601,7 +615,8 @@
+ "@@image: 'images/filters/edge-detect/edge-dialog.png'; "
+ "md5=5d20a5236f7fe4aff3d7c61fcfde0963"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/edge_detect.xml:135(None)
+ msgid ""
+@@ -611,7 +626,8 @@
+ "@@image: 'images/filters/examples/edge-taj-edge-prewitt.jpg'; "
+ "md5=ed5fb42c973d66dcb8e80bfcae265f92"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/edge_detect.xml:155(None)
+ msgid ""
+@@ -621,7 +637,8 @@
+ "@@image: 'images/filters/examples/edge-taj-edge-gradient.jpg'; "
+ "md5=06b2b82013f2617d748559ba7c314276"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/edge_detect.xml:176(None)
+ msgid ""
+@@ -631,7 +648,8 @@
+ "@@image: 'images/filters/examples/edge-taj-edge-roberts.jpg'; "
+ "md5=aaadede924def8aa6183c63b26929d2b"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/edge_detect.xml:193(None)
+ msgid ""
+@@ -641,7 +659,8 @@
+ "@@image: 'images/filters/examples/edge-taj-edge-differential.jpg'; "
+ "md5=7e233288e2c0f378ba813a01d234f709"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/edge_detect.xml:212(None)
+ msgid ""
+@@ -679,25 +698,25 @@
+ 
+ #: src/filters/edge-detect/edge_detect.xml:40(title)
+ msgid "Applying example for the Edge filter"
+-msgstr "Tillämpar exempel för filtret Kant"
++msgstr "Exempel på Kant-filtret"
+ 
+ #: src/filters/edge-detect/edge_detect.xml:60(para)
+ msgid ""
+ "This filter detects edges in an image using the method selected in "
+ "<guilabel>Algorithm</guilabel>."
+ msgstr ""
+-"Detta filter identifierar kanter i bilden med metoden som valts i "
++"Filtret identifierar kanter i bilden med den metod som valts under "
+ "<guilabel>Algoritm</guilabel>."
+ 
+ #: src/filters/edge-detect/edge_detect.xml:68(para)
+ msgid ""
+-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+-"guimenu><guisubmenu>Edge-Detect</guisubmenu><guimenuitem>Edge…</"
+-"guimenuitem></menuchoice>."
+-msgstr ""
+-"Detta filter hittas i huvudmenyn under <menuchoice><guimenu>Filter</"
+-"guimenu><guisubmenu>Leta kanter</guisubmenu><guimenuitem>Kant…</"
+-"guimenuitem></menuchoice>."
++"This filter is found in the main menu under "
++"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Edge-"
++"Detect</guisubmenu><guimenuitem>Edge…</guimenuitem></menuchoice>."
++msgstr ""
++"Filtret finns i huvudmenyn under "
++"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Leta "
++"kanter</guisubmenu><guimenuitem>Kant…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/edge-detect/edge_detect.xml:81(title)
+ msgid "Edge filter options"
+@@ -709,23 +728,23 @@
+ 
+ #: src/filters/edge-detect/edge_detect.xml:106(para)
+ msgid ""
+-"The algorithm selected here, determines what method is used to detect edges. "
+-"The following methods are available:"
+-msgstr ""
+-"Algoritmen som väljs här avgör vilken metod som används för kantdetektering. "
+-"Följande metoder finns tillgängliga:"
++"The algorithm selected here, determines what method is used to detect edges."
++" The following methods are available:"
++msgstr ""
++"Algoritmen du väljer här avgör vilken metod som används för att identifiera "
++"kanter. Följande metoder finns:"
+ 
+ #: src/filters/edge-detect/edge_detect.xml:113(para)
+ msgid ""
+ "This is an alternative version of the separate <link linkend=\"gimp-filter-"
+ "edge-sobel\">Sobel</link> filter. Contrary to that filter, this one has no "
+-"additional settings that can be adjusted. This is the default; an example is "
+-"shown at the top of the page."
+-msgstr ""
+-"Detta är en alternativ version av det separata <link linkend=\"gimp-filter-"
+-"edge-sobel\">Sobel</link>-filtret. Till skillnad från det filtret har detta "
+-"inga ytterligare inställningar som kan justeras. Detta är standardvärdet, "
+-"ett exempel visas högst upp på sidan."
++"additional settings that can be adjusted. This is the default; an example is"
++" shown at the top of the page."
++msgstr ""
++"Det här är en alternativ version av det separata <link linkend=\"gimp-"
++"filter-edge-sobel\">Sobel</link>-filtret. Till skillnad från det filtret har"
++" den inga fler inställningar. Det här är standardmetoden; ett exempel visas "
++"högst upp på sidan."
+ 
+ #: src/filters/edge-detect/edge_detect.xml:125(para)
+ msgid ""
+@@ -734,58 +753,60 @@
+ "crude for high frequency variations in an image."
+ msgstr ""
+ "<ulink url=\"https://en.wikipedia.org/wiki/Prewitt_operator\">Prewitt-"
+-"operatorn</ulink> är en relativt snabb algoritm, som kan vara relativt "
+-"klumpig för högfrekvensvariationer i en bild."
++"operatorn</ulink> är en relativt snabb algoritm, men kan ge grova resultat "
++"vid högfrekventa variationer i bilden."
+ 
+ #: src/filters/edge-detect/edge_detect.xml:138(para)
+ msgid "Algorithm set to Prewitt compass"
+-msgstr "Algoritmen satt till Prewitt-kompass"
++msgstr "Algoritmen Prewitt-kompass är vald"
+ 
+ #: src/filters/edge-detect/edge_detect.xml:148(para)
+ msgid ""
+ "When using the Gradient algoritm, edges are thinner, less contrasted and "
+ "more blurred than Sobel."
+ msgstr ""
+-"När algoritmen Gradient används så är kanter tunnare, har mindre kontrast "
+-"och större oskärpa än för Sobel."
++"Med algoritmen Gradient blir kanterna tunnare, mindre kontrastrika och "
++"suddigare än med Sobel."
+ 
+ #: src/filters/edge-detect/edge_detect.xml:158(para)
+ msgid "Algorithm set to Gradient"
+-msgstr "Algoritmen satt till Gradient"
++msgstr "Algoritmen Gradient är vald"
+ 
+ #: src/filters/edge-detect/edge_detect.xml:166(para)
+ msgid ""
+-"The <ulink url=\"https://en.wikipedia.org/wiki/Roberts_cross\">Roberts</"
+-"ulink> algorithm will highlight changes in intensity in a diagonal "
+-"direction. However, it suffers greatly from sensitivity to noise."
+-msgstr ""
+-"<ulink url=\"https://en.wikipedia.org/wiki/Roberts_cross\">Roberts</ulink>-"
+-"algoritmen kommer framhäva intensitetsändringar i diagonal riktning. Den "
+-"drabbas dock hårt av sin känslighet för brus."
++"The <ulink "
++"url=\"https://en.wikipedia.org/wiki/Roberts_cross\">Roberts</ulink> "
++"algorithm will highlight changes in intensity in a diagonal direction. "
++"However, it suffers greatly from sensitivity to noise."
++msgstr ""
++"<ulink "
++"url=\"https://en.wikipedia.org/wiki/Roberts_cross\">Roberts</ulink>-algoritmen"
++" framhäver intensitetsförändringar i diagonal riktning. Den är dock mycket "
++"känslig för brus."
+ 
+ #: src/filters/edge-detect/edge_detect.xml:179(para)
+ msgid "Algorithm set to Roberts"
+-msgstr "Algoritmen satt till Roberts"
++msgstr "Algoritmen Roberts är vald"
+ 
+ #: src/filters/edge-detect/edge_detect.xml:187(para)
+ msgid "This algorithm often causes edges to be less bright."
+-msgstr "Denna algoritm får ofta kanter att vara mindre ljusa."
++msgstr "Den här algoritmen gör ofta kanterna mindre ljusa."
+ 
+ #: src/filters/edge-detect/edge_detect.xml:196(para)
+ msgid "Algorithm set to Differential"
+-msgstr "Algoritmen satt till Differentiell"
++msgstr "Algoritmen Differentiell är vald"
+ 
+ #: src/filters/edge-detect/edge_detect.xml:204(para)
+ msgid ""
+ "This is a different implementation of the <link linkend=\"gimp-filter-edge-"
+ "laplace\">Laplace</link> filter, that gives different results."
+ msgstr ""
+-"Detta är en annan implementation av <link linkend=\"gimp-filter-edge-"
+-"laplace\">Laplace</link>-filtret som ger andra resultat."
++"Det här är en annan implementering av <link linkend=\"gimp-filter-edge-"
++"laplace\">Laplace</link>-filtret och ger därför ett annat resultat."
+ 
+ #: src/filters/edge-detect/edge_detect.xml:215(para)
+ msgid "Algorithm set to Laplace"
+-msgstr "Algoritmen satt till Laplace"
++msgstr "Algoritmen Laplace är vald"
+ 
+ #: src/filters/edge-detect/edge_detect.xml:224(term)
+ msgid "Amount"
+@@ -797,9 +818,8 @@
+ "high value results in thick edges with low contrast and many colors in dark "
+ "areas."
+ msgstr ""
+-"Ett lågt värde resulterar i en svart högkontrastbild med tunna kanter. Ett "
+-"högt värde resulterar i tjocka kanter med låg kontrast och många färger i "
+-"mörka områden."
++"Ett lågt värde ger en mörk bild med hög kontrast och tunna kanter. Ett högt "
++"värde ger tjocka kanter med låg kontrast och många färger i mörka områden."
+ 
+ #: src/filters/edge-detect/edge_detect.xml:234(term)
+ msgid "Border behavior"
+@@ -809,15 +829,16 @@
+ msgid ""
+ "This determines where the edge detector will get adjoining pixels for its "
+ "calculations when it is working on the image boundaries. This setting will "
+-"only affect the boundaries of the result (if any). <guilabel>Clamp</"
+-"guilabel> is the default and the best choice in general."
+-msgstr ""
+-"Detta avgör var kantdetekteringen kommer få intilliggande bildpunkter för "
+-"sina beräkningar när den arbetar på bildkanterna. Denna inställning kommer "
+-"endast ha effekt på resultatets kanter (om några). <guilabel>Begränsa</"
+-"guilabel> är standardvärdet och allmänt det bästa valet."
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"only affect the boundaries of the result (if any). "
++"<guilabel>Clamp</guilabel> is the default and the best choice in general."
++msgstr ""
++"Inställningen avgör varifrån kantdetekteringen hämtar angränsande "
++"bildpunkter när den beräknar resultat vid bildens kanter. Den påverkar bara "
++"resultatets ytterkanter, om sådana finns. <guilabel>Begränsa</guilabel> är "
++"standard och oftast det bästa valet."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/dog.xml:38(None)
+ msgid ""
+@@ -827,7 +848,8 @@
+ "@@image: 'images/filters/examples/edge-taj-dog.jpg'; "
+ "md5=3afa2887894c8765e01d6f360f173c39"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/edge-detect/dog.xml:82(None)
+ msgid ""
+@@ -845,14 +867,14 @@
+ 
+ #: src/filters/edge-detect/dog.xml:23(title)
+ msgid "Applying example for the <quote>Difference of Gaussians</quote> filter"
+-msgstr "Tillämpar exempel för filtret <quote>Gaussisk differens</quote>"
++msgstr "Exempel på filtret <quote>Gaussisk differens</quote>"
+ 
+ #: src/filters/edge-detect/dog.xml:41(para)
+ msgid ""
+ "Filter <quote>Difference of Gaussians</quote> applied with radius 1 = 1.000 "
+ "and radius 2 = 0.100."
+ msgstr ""
+-"Filtret <quote>Gaussisk differens</quote> tillämpat med radie 1 = 1,000 and "
++"Filtret <quote>Gaussisk differens</quote> tillämpat med radie 1 = 1,000 och "
+ "radie 2 = 0,100."
+ 
+ #: src/filters/edge-detect/dog.xml:48(para)
+@@ -862,28 +884,29 @@
+ "Gaussian blurs on the image, with a different blurring radius for each, and "
+ "subtracting them to yield the result."
+ msgstr ""
+-"Detta filter utför kantdetektering med den så kallade <quote>gaussisk "
+-"differens</quote>-algoritmen (Difference of Gaussians), vilken arbetar genom "
+-"att utföra två olika gaussiska oskärpor på bilden, med olika oskärperadie "
+-"för varje, och subtraherar dem för att få resultatet."
++"Filtret identifierar kanter med algoritmen <quote>Gaussisk "
++"differens</quote>. Den gör två gaussiska oskärpningar av bilden med olika "
++"radier och subtraherar sedan den ena från den andra."
+ 
+ #: src/filters/edge-detect/dog.xml:55(para)
+ msgid ""
+ "This algorithm is very widely used in artificial vision, and is pretty fast "
+ "because there are very efficient methods for doing Gaussian blurs."
+ msgstr ""
+-"Denna algoritm används väldigt ofta i datorseende och är ganska snabb för "
+-"att det finns väldigt effektiva metoder för att utföra gaussiska oskärpor."
++"Algoritmen används ofta inom datorseende. Den är också snabb eftersom det "
++"finns effektiva metoder för gaussisk oskärpa."
+ 
+ #: src/filters/edge-detect/dog.xml:63(para)
+ msgid ""
+-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+-"guimenu><guisubmenu>Edge-Detect</guisubmenu><guimenuitem>Difference of "
++"This filter is found in the main menu under "
++"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Edge-"
++"Detect</guisubmenu><guimenuitem>Difference of "
+ "Gaussians…</guimenuitem></menuchoice>."
+ msgstr ""
+-"Detta filter hittas i huvudmenyn under <menuchoice><guimenu>Filter</"
+-"guimenu><guisubmenu>Leta kanter</guisubmenu><guimenuitem>Gaussisk differens…"
+-"</guimenuitem></menuchoice>."
++"Filtret finns i huvudmenyn under "
++"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Leta "
++"kanter</guisubmenu><guimenuitem>Gaussisk "
++"differens…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/edge-detect/dog.xml:76(title)
+ msgid "Gaussian Difference filter options"
+@@ -900,25 +923,24 @@
+ #: src/filters/edge-detect/dog.xml:103(para)
+ msgid ""
+ "<guilabel>Radius 1</guilabel> and <guilabel>Radius 2</guilabel> are the "
+-"blurring radii for the two Gaussian blurs. Increasing <quote>Radius&nbsp;1</"
+-"quote> tends to give thicker-appearing edges, and decreasing the "
+-"<quote>Radius&nbsp;2</quote> tends to increase the <quote>threshold</quote> "
+-"for recognizing something as an edge."
+-msgstr ""
+-"<guilabel>Radie 1</guilabel> och <guilabel>Radie 2</guilabel> är "
+-"oskärperadierna för de två gaussiska oskärporna. Att öka "
+-"<quote>Radie&nbsp;1</quote> tenderar att ge kanter som ser tjockare ut, och "
+-"att minska <quote>Radie&nbsp;2</quote> tenderar att öka "
+-"<quote>tröskelvärdet</quote> för att identifiera något som en kant."
++"blurring radii for the two Gaussian blurs. Increasing "
++"<quote>Radius&nbsp;1</quote> tends to give thicker-appearing edges, and "
++"decreasing the <quote>Radius&nbsp;2</quote> tends to increase the "
++"<quote>threshold</quote> for recognizing something as an edge."
++msgstr ""
++"<guilabel>Radie 1</guilabel> och <guilabel>Radie 2</guilabel> anger radien "
++"för de två gaussiska oskärpningarna. Ökar du <quote>Radie&nbsp;1</quote> "
++"blir kanterna ofta tjockare. Minskar du <quote>Radie&nbsp;2</quote> höjs "
++"vanligtvis <quote>tröskelvärdet</quote> för när något räknas som en kant."
+ 
+ #: src/filters/edge-detect/dog.xml:111(para)
+ msgid ""
+ "If you want to produce something that looks like a sketch, in most cases "
+-"setting <quote>Radius&nbsp;2</quote> smaller than <quote>Radius&nbsp;1</"
+-"quote> will give better results."
+-msgstr ""
+-"Om du vill producera något som ser ut som en teckning ger det i de flesta "
+-"fall bättre resultat om du sätter <quote>Radie&nbsp;2</quote> mindre än "
++"setting <quote>Radius&nbsp;2</quote> smaller than "
++"<quote>Radius&nbsp;1</quote> will give better results."
++msgstr ""
++"Om du vill få ett resultat som liknar en skiss blir det oftast bättre om du "
++"ställer in <quote>Radie&nbsp;2</quote> på ett lägre värde än "
+ "<quote>Radie&nbsp;1</quote>."
+ 
+ #: src/filters/edge-detect/dog.xml:116(para)
+@@ -926,8 +948,8 @@
+ "In situations where you have a light figure on the dark background, "
+ "reversing them may actually improve the result."
+ msgstr ""
+-"I situationer där du har en ljus figur på mörk bakgrund kan att vända på dem "
+-"till och med förbättra resultatet."
++"Om motivet är ljust mot en mörk bakgrund kan resultatet bli bättre om du "
++"byter plats på radierna."
+ 
+ #~ msgid "translator-credits"
+ #~ msgstr ""
+@@ -950,8 +972,8 @@
+ #~ "Here, this method has no options and so is less interesting than the "
+ #~ "specific Sobel."
+ #~ msgstr ""
+-#~ "Här har denna metod inga alternativ och är därför mindre intressant än "
+-#~ "den specifika Sobel."
++#~ "Här har denna metod inga alternativ och är därför mindre intressant än den "
++#~ "specifika Sobel."
+ 
+ #~ msgid "After applying the filter (Sobel option)"
+ #~ msgstr "Efter att ha tillämpat filtret (alternativet Sobel)"
+@@ -986,36 +1008,35 @@
+ #~ msgid ""
+ #~ "This filter does edge detection using the so-called <quote>Difference of "
+ #~ "Gaussians</quote> algorithm, which works by performing two different "
+-#~ "Gaussian blurs on the image, with a different blurring radius for each, "
+-#~ "and subtracting them to yield the result. This algorithm is very widely "
+-#~ "used in artificial vision (maybe in biological vision as well!), and is "
+-#~ "pretty fast because there are very efficient methods for doing Gaussian "
+-#~ "blurs. The most important parameters are the blurring radii for the two "
+-#~ "Gaussian blurs. It is probably easiest to set them using the preview, but "
+-#~ "it may help to know that increasing the smaller radius tends to give "
+-#~ "thicker-appearing edges, and decreasing the larger radius tends to "
+-#~ "increase the <quote>threshold</quote> for recognizing something as an "
+-#~ "edge. In most cases you will get nicer results if Radius 2 is smaller "
+-#~ "than Radius 1, but nothing prevents you from reversing them, and in "
+-#~ "situations where you have a light figure on the dark background, "
+-#~ "reversing them may actually improve the result."
++#~ "Gaussian blurs on the image, with a different blurring radius for each, and "
++#~ "subtracting them to yield the result. This algorithm is very widely used in "
++#~ "artificial vision (maybe in biological vision as well!), and is pretty fast "
++#~ "because there are very efficient methods for doing Gaussian blurs. The most "
++#~ "important parameters are the blurring radii for the two Gaussian blurs. It "
++#~ "is probably easiest to set them using the preview, but it may help to know "
++#~ "that increasing the smaller radius tends to give thicker-appearing edges, "
++#~ "and decreasing the larger radius tends to increase the "
++#~ "<quote>threshold</quote> for recognizing something as an edge. In most cases"
++#~ " you will get nicer results if Radius 2 is smaller than Radius 1, but "
++#~ "nothing prevents you from reversing them, and in situations where you have a"
++#~ " light figure on the dark background, reversing them may actually improve "
++#~ "the result."
+ #~ msgstr ""
+ #~ "Detta filter utför kantdetektering med den så kallade <quote>gaussisk "
+-#~ "differens</quote>-algoritmen (Difference of Gaussians), vilken arbetar "
+-#~ "genom att utföra två olika gaussiska oskärpor på bilden, med olika "
+-#~ "oskärperadie för varje, och subtraherar dem för att få resultatet. Denna "
+-#~ "algoritm används väldigt ofta i datorseende (kanske även i biologiskt "
+-#~ "seende!), och är ganska snabb för att det finns väldigt effektiva metoder "
+-#~ "för att utföra gaussiska oskärpor. De viktigaste parametrarna är "
+-#~ "oskärperadierna för de två gaussiska oskärporna. Det är troligen lättast "
+-#~ "att ställa in dem med förhandsvisningen, men det kan hjälpa till att veta "
+-#~ "att ökning av den mindre radien tenderar att ge kanter som ser tjockare "
+-#~ "ut, och att minska den större radien tenderar att öka "
+-#~ "<quote>tröskelvärdet</quote> för att identifiera något som en kant. I de "
+-#~ "flesta fall kommer du få finare resultat om Radie 2 är mindre än Radie 1, "
+-#~ "men inget hindrar dig från att vända på dem, och i situationer där du har "
+-#~ "en ljus figur på mörk bakgrund kan att vända på dem till och med "
+-#~ "förbättra resultatet."
++#~ "differens</quote>-algoritmen (Difference of Gaussians), vilken arbetar genom"
++#~ " att utföra två olika gaussiska oskärpor på bilden, med olika oskärperadie "
++#~ "för varje, och subtraherar dem för att få resultatet. Denna algoritm används"
++#~ " väldigt ofta i datorseende (kanske även i biologiskt seende!), och är "
++#~ "ganska snabb för att det finns väldigt effektiva metoder för att utföra "
++#~ "gaussiska oskärpor. De viktigaste parametrarna är oskärperadierna för de två"
++#~ " gaussiska oskärporna. Det är troligen lättast att ställa in dem med "
++#~ "förhandsvisningen, men det kan hjälpa till att veta att ökning av den mindre"
++#~ " radien tenderar att ge kanter som ser tjockare ut, och att minska den "
++#~ "större radien tenderar att öka <quote>tröskelvärdet</quote> för att "
++#~ "identifiera något som en kant. I de flesta fall kommer du få finare resultat"
++#~ " om Radie 2 är mindre än Radie 1, men inget hindrar dig från att vända på "
++#~ "dem, och i situationer där du har en ljus figur på mörk bakgrund kan att "
++#~ "vända på dem till och med förbättra resultatet."
+ 
+ #~ msgid ""
+ #~ "@@image: 'images/filters/edge-detect/sobel-dialog.png'; "
