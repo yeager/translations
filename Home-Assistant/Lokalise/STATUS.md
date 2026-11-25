@@ -217,3 +217,19 @@
 - 641 befintliga Lokalise-nycklar har tom svensk måltext (132 engelska källor är referenser). Samtliga nycklar och källtexter finns i rapporten.
 - Tre engelska Lokalise-källvärden har radbrytnings-/escapeavvikelser mot aktuell källa. 18 956 referenser matchade efter referensupplösning.
 - Aktivt antal nycklar som inte finns i aktuell Core-källa och rader utan svensk målstatus finns strukturerade i JSON; sådana poster är inte färdigöversatta.
+
+
+## 2026-11-25 – Core 26131–26250
+
+- 34 strängar granskade mot uppdaterade Core-källor och Lokalise; 32 ändringar sparade och återlästa, 2 befintliga totalenergitermer verifierade.
+- Indevolt batteripaket 1–5 granskade konsekvent för enheter, laddningsnivå, serienummer, ström och energi.
+- svlang skrivregler hittade inga fel; Hunspell- och termbanksträffar bedömdes manuellt utifrån Indevolts kluster- och energikontext.
+- Core-TMX uppdaterad och validerad: 16 720 poster. Core-granskningen fortsätter.
+
+
+## 2026-11-25 – Core 26251–26370
+
+- Alla 120 positioner jämförda med HA Core revision `e7821a6c38d191d5cb9797f9992529281b8ebde6` och live Lokalise: 56 korrigeringar sparade/återlästa, 49 befintliga texter verifierade, 15 äldre källsaknade nycklar dokumenterade.
+- Korrigerades bl.a. PSI-mätvärden, UniFi:s extra platshållare, MTA-ankomster, Velux-rulljalusier, Daikin-zonfel och batteri-/energiord.
+- `svlang`-skrivregler och efterföljande stavningskontroll redovisas i batchkontrollen; Home Assistant svlang-`skrivregler` utan fel. Naturlighetsheuristikens V2-varningar för tekniska nominalfraser bedömdes manuellt; Hunspell flaggade endast namn, källidentifierare och `zone`.
+- Core-TMX uppdaterad och validerad: 16 822 poster. Granskningen fortsätter.
