@@ -117,6 +117,9 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | bucket (histogram) | intervall | Värdeintervall som samlar färg- eller bildpunktsvärden; översätt inte med *hink* eller *färgbucket*. |
 | bucket size | intervallstorlek | Storleken på varje värdeintervall i histogram-/färgkubsanalys. |
 | color value range | färgvärdesintervall | Beskrivande term för ett intervall av grupperade kanalvärden. |
+| Blending Options | Blandningsalternativ | GIMP-lager-/filterinställning; översätt inte *blending* med *toning*. |
+| chroma range | krominansomfång | GIMP-färgförbättring; skilj från nyans och ljushet. |
+| HSV (GIMP UI) | NMI | GIMP:s etablerade svenska beteckning för nyans, mättnad och intensitet; behåll HSV i teknisk förklaring/kod där identifieraren avses. |
 | opacity | opacitet | Använd *ogenomskinlighet* i förklarande löptext vid behov. |
 | feather (selection) | mjuka upp kanter | Åtgärd på en markering; substantivet är *kantutjämning* endast när kontexten avser utjämning. |
 | floating selection | flytande markering | GIMP:s särskilda lager-/markeringsläge. |
