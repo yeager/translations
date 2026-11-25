@@ -12,6 +12,12 @@ Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 - 18956 engelska nyckelreferenser jämfördes efter att ha följt aktuell Core-referens. Tre verkliga skillnader mellan Core-källtext och Lokalises engelska registrerades.
 - Lokalise har dessutom 9,311 aktiva nycklar som inte finns i den aktuella Core-källsnapshoten. De kan vara historiska utgångna nycklar; de räknas inte som saknade nuvarande Core-nycklar och bör kontrolleras separat innan eventuell arkivering.
 
+## Progressuppdatering: radgranskning 2026-11-25
+
+Sedan inventeringen har den löpande radgranskningen nått Lokalise-position 27 810 (Core-källrevision 86a2eabe7e43f526db5821ef068087ce8404ae07). De fem sammanhängande intervallen 27 211–27 810 omfattar 600 Lokalise-positioner; 540 aktuella Core-nycklar är granskade, varav 154 svenska måltexter har ändrats/sparats och 386 har återverifierats utan språkändring. Sextio historiska Lokalise-poster saknar aktuell Core-källnyckel och redovisas separat. I intervallet 27 691–27 810 granskades 102 aktuella strängar, ändrades 31 och 71 verifierades oförändrade. En separat retroaktiv OpenEVSE-rättning ändrade även Current shaper från Strömformare till Laststyrning och ersatte den tidigare TMX-posten.
+
+Dessa radgranskningsresultat ändrar **inte** antalet aktuella Core-källnycklar som saknas i Lokalise: **203**. De saknade nycklarna kräver fortfarande att API-importbehörigheten löses. Samtliga noterade strängändringar har sparats i Lokalise och skrivits till Home Assistant-TM; Lokalises separata Reviewed-status avslogs av API-tokenens behörighet (HTTP 403).
+
 ## Nya Core-strängar sedan tidigare inventering
 
 Tre nycklar som tillkom efter föregående inventering fanns i Lokalise med tom svensk text. De granskades mot aktuella Shelly- och Tuya-källor, översattes och lästes tillbaka via API. De ingår därför inte längre i listan över tomma mål. Av dessa tidigare 641 tomma mål har nu 600 granskats och sparats; 41 återstår.
