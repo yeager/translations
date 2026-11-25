@@ -212,7 +212,7 @@
 
 ## 2026-11-25 – Full Lokalise-omfattning för aktuell HA Core
 
-- Källan genererades från HA Core `dev` revision `e7821a6c38d191d5cb9797f9992529281b8ebde6`: 67 210 strängnycklar. Lokalise API-listning omfattade 76 338 poster över 153 sidor.
+- Källan genererades från HA Core `dev` revision `86a2eabe7e43f526db5821ef068087ce8404ae07`: 67 213 strängnycklar. Lokalise API-listning omfattade 76 338 poster över 153 sidor.
 - 203 aktuella källnycklar saknas helt i Lokalise; lista och källtexter i `2026-11-25-full-core-missing-audit.md` samt JSON-manifestet. Skapa/importera dem med HA:s behöriga upstream-synk; Lokalise-tokenens nyckelskapande gav tidigare 403.
 - 641 befintliga Lokalise-nycklar har tom svensk måltext (132 engelska källor är referenser). Samtliga nycklar och källtexter finns i rapporten.
 - Tre engelska Lokalise-källvärden har radbrytnings-/escapeavvikelser mot aktuell källa. 18 956 referenser matchade efter referensupplösning.
@@ -244,9 +244,30 @@
 
 ## 2026-11-25 – Core 26491–26610
 
-- Alla 120 positioner jämförda med HA Core `e7821a6c38d191d5cb9797f9992529281b8ebde6` och live Lokalise: 23 ändringar sparade/återlästa, 82 befintliga värden verifierade och 15 källsaknade nycklar dokumenterade separat.
+- Alla 120 positioner jämförda med HA Core `e7821a6c38d191d5cb9797f9992529281b8ebde6` och live Lokalise: Efter retroaktiv uppföljning och referenssynk: 28 ändringar sparade/återlästa, 77 befintliga värden verifierade och 15 källsaknade nycklar dokumenterade separat.
 - Rättningar omfattar OneDrive-klientorganisation, IDrive e2-lagringsbehållare, Miele-programnamn, KNX-inställningar och Z-Wave-låskoder.
 - Core-TMX uppdaterad och validerad: 17 018 poster. Granskningen fortsätter.
+
+
+## 2026-11-25 – Retroaktiv uppföljning av Core 26491–26610
+
+- Fem kvarstående förslag från en äldre positionsrapport sparades i Lokalise och lästes tillbaka: Mieles `Downs/Duvets`, SwitchBot `Display` och tre IDrive e2-texter.
+- Berörda TM-poster ersätts med nya källverifierade värden.
+
+
+## 2026-11-25 – Core 26611–26730
+
+- 120 aktuella Lokalise-positioner hämtade; 110 källmatchande rader granskade: 24 ändringar sparade/återlästa och 86 befintliga mål verifierade. 10 poster saknar aktuell Core-källa och lämnades oförändrade.
+- Följde också upp fem kvarstående förslag från rapporten 26521–26640 retroaktivt i intervallet 26491–26610. De sparades/återlästes; samma värden ersätter TM-posterna.
+- `svlang skrivregler`: inga fel. Home Assistant-TMX uppdaterad och validerad: 17 120 poster.
+- Granskningen fortsätter; status och hela radmanifestet finns i rapporten `granskning-26611-26730.md` och JSON-manifestet.
+
+- Referensaudit 2026-11-25: 36 unika referensnycklar i 26491–26610 och 27 i 26611–26730 verifierades live; efter synkning är alla referensmål konsekventa. Två delade referensnycklar utanför intervallen uppdaterades (`google_travel_time` färdsätt och KNX åsidosättningar).
+
+## 2026-11-25 – Källuppdatering och nya mål
+
+- Core `dev` uppdaterades till `86a2eabe7e43f526db5821ef068087ce8404ae07`. Två batchers 240 rader jämfördes om; ingen engelsk källtext hade ändrats. Katalogen har 67 213 strängnycklar.
+- Live Lokalise har 76 341 nycklar. De tre nya källsträngarna från Shelly och Tuya fanns där med tom svenska; alla tre översattes och lästes tillbaka via API. De tidigare 641 tomma målposterna och 203 saknade Core-nycklarna kvarstår i inventeringen.
 
 
 ## 2026-11-25 – Tomma mål 001–120
@@ -288,3 +309,10 @@
 - 7 unika referensmål livekontrollerade, utan avvikelser; Microsofts aliasrubriker följer delade målnycklar.
 - Microsoft YAML-varningens kodformat, markdownstruktur och platshållare verifierade. `svlang skrivregler` utan fel; Hunspell-flaggor manuellt bedömda.
 - TMX uppdaterad och validerad: 17 487 poster. Totalt 360 av 641 tomma mål granskade; 281 tomma mål och 203 Core-nycklar utan Lokalise-post återstår. Granskningen fortsätter.
+
+## 2026-11-25 – Core tomma mål 361–420
+
+- 60/60 granskade strängar sparade och återlästa i Lokalise; inga referensnycklar i batchen.
+- Svlang skrivregler utan fel; Hunspell flaggade inga ord. Separat `svlang check` per sträng utan fel.
+- TMX 17 547 poster, validerad. Tre äldre, felaktiga TMX-mål ersatta med granskade språkbenämningar.
+- Totalt 420/641 tomma mål granskade; 221 tomma mål och 203 saknade Core-nycklar återstår. Fortsatt granskning behövs.
