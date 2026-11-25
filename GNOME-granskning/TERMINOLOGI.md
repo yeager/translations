@@ -225,3 +225,12 @@ argumentet betyder i just det programmet.
 | patterned block | mönstrat block | Spelets särskilda block. |
 | markers | markeringar | De gröna markeringarna som visar målytan. |
 | puzzle | pussel | En spelbrädesvariant. |
+
+## Sushi (gränssnitt)
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| previewer | förhandsvisare | Komponent/program som visar en filförhandsvisning. |
+| preview | förhandsvisning | Substantiv; verbet är *förhandsvisa*. |
+| GNOME Files | Filer | GNOME-programmets svenska namn; skriv *Filer (Nautilus)* när äldre namn behövs för identifiering. |
+| independent component | fristående komponent | Naturlig svensk formulering i programbeskrivningen. |
