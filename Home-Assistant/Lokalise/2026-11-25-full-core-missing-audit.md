@@ -14,7 +14,7 @@ Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 
 ## Nya Core-strängar sedan tidigare inventering
 
-Tre nycklar som tillkom efter föregående inventering fanns i Lokalise med tom svensk text. De granskades mot aktuella Shelly- och Tuya-källor, översattes och lästes tillbaka via API. De ingår därför inte längre i listan över tomma mål. Av dessa tidigare 641 tomma mål har nu 420 granskats och sparats; 221 återstår.
+Tre nycklar som tillkom efter föregående inventering fanns i Lokalise med tom svensk text. De granskades mot aktuella Shelly- och Tuya-källor, översattes och lästes tillbaka via API. De ingår därför inte längre i listan över tomma mål. Av dessa tidigare 641 tomma mål har nu 480 granskats och sparats; 161 återstår.
 
 | Nyckel | Engelska | Svenska |
 |---|---|---|
@@ -834,4 +834,4 @@ Skillnaderna gäller escape-/radbrytning i Lyric och Telegram Bot. De bör jämf
 
 ## Uppdatering 2026-11-25 – tidigare tomma mål
 
-420 av de ursprungligen 641 tomma svenska målen har nu granskats mot aktuell HA Core-källa och sparats/återlästs i Lokalise. 221 återstår. 52 unika referensmål kontrollerades live; sex värden synkroniserades i första delbatchen, och inga avvikelser hittades i batcherna 121–420. Batch 361–420 innehöll inga referensnycklar. TMX har uppdaterats och validerats till 17 547 poster; tre tidigare felaktiga mål i TMX ersattes med granskade former. Se batchrapporterna `../2026-11-19-granskning/granskning-empty-targets-001-120.md`, `granskning-empty-targets-121-180.md`, `granskning-empty-targets-181-240.md`, `granskning-empty-targets-241-300.md`, `granskning-empty-targets-301-360.md`, `granskning-empty-targets-361-420.md` och manifesten intill denna rapport.
+480 av de ursprungligen 641 tomma svenska målen har nu granskats mot aktuell HA Core-källa och sparats/återlästs i Lokalise. 161 återstår. 52 unika referensmål kontrollerades live; sex värden synkroniserades i första delbatchen, och inga avvikelser hittades i batcherna 121–480. Batcherna 361–480 innehöll inga referensnycklar. TMX har uppdaterats och validerats till 17 607 poster; tre tidigare felaktiga mål i TMX ersattes med granskade former. Se batchrapporterna `../2026-11-19-granskning/granskning-empty-targets-001-120.md`, `granskning-empty-targets-121-180.md`, `granskning-empty-targets-181-240.md`, `granskning-empty-targets-241-300.md`, `granskning-empty-targets-301-360.md`, `granskning-empty-targets-361-420.md`, `granskning-empty-targets-421-480.md` och manifesten intill denna rapport.

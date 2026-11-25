@@ -316,3 +316,10 @@
 - Svlang skrivregler utan fel; Hunspell flaggade inga ord. Separat `svlang check` per sträng utan fel.
 - TMX 17 547 poster, validerad. Tre äldre, felaktiga TMX-mål ersatta med granskade språkbenämningar.
 - Totalt 420/641 tomma mål granskade; 221 tomma mål och 203 saknade Core-nycklar återstår. Fortsatt granskning behövs.
+
+## 2026-11-25 – Core tomma mål 421–480
+
+- 60/60 språk- och regionetiketter granskade, sparade och återlästa i Lokalise. Inga referenser eller platshållare i batchen.
+- NE-kontrollerade språkbenämningar; `svlang` utan radfel. Hunspell-ordlista kompletterad med sex saknade etablerade språkord och 19 tester godkända.
+- Home Assistant-TMX uppdaterad och validerad till 17 607 poster.
+- Totalt 480/641 tomma mål granskade; 161 tomma mål och 203 Core-nycklar som saknas i Lokalise återstår. Granskningen fortsätter.
