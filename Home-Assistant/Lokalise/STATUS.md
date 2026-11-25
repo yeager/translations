@@ -152,3 +152,10 @@
 - Alla aktuella källsökvägar verifierade; den historiska sökvägen `advanced_settings` mappades mot den aktuella referensen `additional_settings`. Platshållare bevarades i Enphase- och Hass.io-meddelandena.
 - `svlang skrivregler` hittade inga skrivregelproblem; namn och platshållare flaggades som ovanliga, och naturlighetskontrollens V2-varning för bisats bedömdes som falsk positiv. Hunspell flaggade enbart identifierare, produktnamn och platshållare.
 - Core-TMX uppdaterad och validerad: 16 603 poster. Granskningen fortsätter; Core är inte färdiggranskad.
+
+## 2026-11-25 – Core 25171–25290
+
+- Åtta strängar radgranskade: sju ändrade och sparade/återlästa, en befintlig Zinvolt-text verifierad. `{reminder_name}` bevarad.
+- En aktiv Lokalise-nyckel för vakuum har tom engelsk och svensk text och saknar motsvarande sökväg i aktuell Core-källa. Den dokumenterades som en föräldralös post och lämnades orörd; nuvarande relaterade feltext har identifierats.
+- `svlang skrivregler` utan fel. `svlang` markerade namn, platshållare och sammansättningar som ovanliga; verktygen bedömdes manuellt. Hunspell-sv kompletterades med `timerläge` och ett källbelagt test; de 19 testerna och regelvalideringen passerar (37 regler, 237 fall).
+- Home Assistant Core-TMX uppdaterad och validerad: 16 610 poster. Granskningen fortsätter; Core är inte färdiggranskad.
