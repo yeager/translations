@@ -8,17 +8,17 @@ Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 
 ## Aktuellt läge
 
-- Senast fullständigt behandlade Lokalise-position: **30 616**. Positionerna 29 611–30 616 var redan granskade per fullständig nyckel och har nu återverifierats live; nästa ännu odokumenterade nyckel: **30 617**.
-- De granskade sammanhängande positionerna 27 211–29 610 omfattar 2 400 poster: **1 976** aktiva Core-nycklar och **424** källfrånvarande/historiska poster.
-- Av de 1 881 aktiva nycklarna ändrades **513** svenska mål har ändrats och sparats/återlästs från Lokalise; **1 463** granskades och verifierades oförändrade.
-- Batchen 29 131–29 250: 120/120 nycklar aktiva och källmatchande; **17** ändringar sparade och återlästa, **103** texter oförändrade. Nästa batch 29 251–29 370: 85 aktuella Core-nycklar granskade utan ändring och 35 källfrånvarande poster uteslutna. Batchen 29 371–29 490: 54 aktiva Core-nycklar, 2 ändringar, 52 oförändrade; 66 källfrånvarande. Batchen 29 491–29 610: 95 aktiva Core-nycklar, ett OpenAI-referensalias synkat, 94 oförändrade; 25 källfrånvarande. 23 alias jämfördes mot live-mål, avvikelsen rättades. Inga pluraler eller platshållaravvikelser.
+- Senast fullständigt behandlade Lokalise-position: **30 736**. Positionerna 29 611–30 616 var redan granskade och återverifierades live; batchen 30 617–30 736 har nu radgranskats. Nästa position att kontrollera mot tidigare fullnyckelrapporter: **30 737**.
+- De granskade sammanhängande positionerna Nygranskade, icke överlappande intervall 27 211–29 610 och 30 617–30 736 omfattar 2 520 poster: **2 080** aktiva Core-nycklar och **440** källfrånvarande/historiska poster.
+- Av de 1 881 aktiva nycklarna ändrades **549** svenska mål har ändrats och sparats/återlästs från Lokalise, varav fem retroaktiva PoolDose-synkar; **1 536** granskades och verifierades oförändrade.
+- Batchen 29 131–29 250: 120/120 nycklar aktiva och källmatchande; **17** ändringar sparade och återlästa, **103** texter oförändrade. Nästa batch 29 251–29 370: 85 aktuella Core-nycklar granskade utan ändring och 35 källfrånvarande poster uteslutna. Batchen 29 371–29 490: 54 aktiva Core-nycklar, 2 ändringar, 52 oförändrade; 66 källfrånvarande. Batchen 29 491–29 610: 95 aktiva Core-nycklar, ett OpenAI-referensalias synkat, 94 oförändrade; 25 källfrånvarande. Batchen 30 617–30 736: 104 aktiva Core-nycklar, 31 ändringar och 73 oförändrade; 16 källfrånvarande. Alla 33 alias matchar sina live-mål efter synkning. Inga pluraler eller platshållaravvikelser.
 - Liveverifiering för batchen bekräftade nyckelidentitet, engelsk källtext, svensk måltext och Lokalise-ID för 120/120 poster. Rapporten innehåller fullständiga nycklar och raderna med befintlig/föreslagen text.
 
 ## TM och verktyg
 
-- Home Assistant Core kanonisk TMX validerar med **19 921** enheter: 19 690 med Lokalise-ID och 231 historiska poster utan Lokalise-ID. Verifierade manifest finns till och med batchen 29491–29610. Samtliga 95 aktiva nycklar fanns redan i TM; den felaktiga äldre OpenAI-aliastexten ersattes med live-verifierad målttext. Enhetsantalet är oförändrat.
+- Home Assistant Core kanonisk TMX validerar med **20 027** enheter: 19 796 med Lokalise-ID och 231 historiska poster utan Lokalise-ID. Batch 30617–30736 och fem retroaktiva PoolDose-nycklar har verifierade manifest; TM uppdaterades till aktuell källtext och sparad svenska.
 - Rapporter och manifest: `2026-11-25-reviewed-core-29131-29250.md` och `2026-11-25-reviewed-core-29251-29370.md`, med respektive JSON-underlag. Den äldre rapportens missade KNX-förslag för `component::knx::config_panel::dpt::options::14_004` följdes upp via fullständig nyckel och sparades som `Substansmängd`; TM-posten uppdaterades retroaktivt.
-- KNX-terminologi jämfördes mot KNX Associations System Specifications. Hunspell-sv:s båda ordböcker fick stöd för de korrekta tekniska orden `ASCII`, `Deltatid`, `Kompressibilitet` och `Magnetomotorisk`; regressionstesterna passerade **19/19**.
+- KNX-terminologi jämfördes mot KNX Associations System Specifications. Hunspell-sv:s båda ordböcker fick stöd för `ASCII`, `Deltatid`, `Kompressibilitet`, `Magnetomotorisk` och, efter träff i KNX-raden, `deltavolym`. Svensk Philips-dokumentation belägger den senare termen. Regressionstesterna passerade **19/19**; ingen extra release gjordes.
 - `svlang skrivregler` fann inga skrivregelavvikelser i någon av de två senaste batcherna. I 29251–29370 rapporterade svlang en falskt positiv V2-varning för bisatsen “när ... passerar”. Hunspell flaggade bara fragmenten `daily`, `hourly` och `link` inuti dokumentationsplatshållare; de är inte svensk måltext.
 - Termbanken swedish-foss-terminology användes som stöd: dess befintliga svenska TM innehåller bland annat “deltatider” och “rörelsemängdsmoment”.
 
@@ -26,12 +26,12 @@ Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 
 - Lokalise API-tokenen saknar behörighet att sätta `is_reviewed` (tidigare HTTP 403). Textändringar kan sparas och verifieras. Ingen separat Reviewed-markering har därför kunnat sättas.
 - Inventeringen 2026-11-25 fann **203 aktuella Core-källnycklar som saknas helt i Lokalise**. Skapande/import av nycklar avslogs tidigare med HTTP 403; se `2026-11-25-full-core-missing-audit.md`.
-- Totalt **424** källfrånvarande poster i det sammanhängande granskade intervallet räknas inte som aktuell Core-täckning.
-- Granskningen är **inte klar**. Fortsätt från position 29 611; kontrollera nyttillkomna strängar, tidigare rapporter, referenser och hela källinventeringen.
+- Totalt **440** källfrånvarande poster i de nygranskade intervallen räknas inte som aktuell Core-täckning. Ett ytterligare överlapp 29 611–30 616 återverifierades separat: 742 aktiva mål matchar TM och 264 saknar aktiv Core-källväg.
+- Granskningen är **inte klar**. Fortsätt från position 30 737; kontrollera nyttillkomna strängar, tidigare rapporter, referenser och hela källinventeringen.
 
-## Senaste nygranskade batch: 29 491–29 610
+## Senaste batch: 30 617–30 736
 
-95/120 rader matchar Core-källrevision `86a2eabe7e43f526db5821ef068087ce8404ae07`; en felaktig OpenAI API-nyckelbeskrivning synkades med den live-verifierade referensnyckeln och sparades/återlästes. 94 aktiva mål verifierades oförändrade. 25 poster saknar egen aktiv källnyckel i revisionen och uteslöts ur Core-TM. Referenser: 23 alias, 22 matchade före korrigering och ett korrigerades; platshållare 95/95, inga pluralnycklar. Alla 95 aktiva poster återverifierades live. TMX validerar med 19 921 enheter. Se `2026-11-25-reviewed-core-29491-29610.md` och JSON-underlagen. Nästa position: **29 611**.
+104/120 nycklar matchar Core-källrevision `86a2eabe7e43f526db5821ef068087ce8404ae07`; 31 mål korrigerades, sparades och återlästes, 73 verifierades utan ändring. 16 källfrånvarande poster uteslöts ur Core-TM. 33 referensalias matchar live-målen efter synkning. Platshållare 104/104; inga pluralnycklar. Retroaktiv PoolDose-terminologi synkades på fem ytterligare nycklar. Kanonisk TMX validerar med 20 027 enheter. Se `2026-11-25-reviewed-core-30617-30736.md` och JSON-underlagen. Nästa position: **30 737**.
 
 ## Återverifierat överlapp: 29 611–30 616
 
