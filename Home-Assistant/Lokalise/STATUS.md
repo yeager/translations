@@ -149,6 +149,6 @@
 ## 2026-11-25 – Core 25051–25170
 
 - Nio tidigare förslag jämfördes med aktuella Lokalise-värden: sju ändringar sparade och återlästa, två Waze-värden verifierade oförändrade. Dessutom korrigerades en äldre History Stats-översättning som avvek från det aktuella referensmålet.
-- Current source paths checked; history_stats historical `advanced_settings` path mapped to the current `additional_settings` reference. Placeholder tokens preserved in Enphase and Hass.io messages.
+- Alla aktuella källsökvägar verifierade; den historiska sökvägen `advanced_settings` mappades mot den aktuella referensen `additional_settings`. Platshållare bevarades i Enphase- och Hass.io-meddelandena.
 - `svlang skrivregler` hittade inga skrivregelproblem; namn och platshållare flaggades som ovanliga, och naturlighetskontrollens V2-varning för bisats bedömdes som falsk positiv. Hunspell flaggade enbart identifierare, produktnamn och platshållare.
 - Core-TMX uppdaterad och validerad: 16 603 poster. Granskningen fortsätter; Core är inte färdiggranskad.
