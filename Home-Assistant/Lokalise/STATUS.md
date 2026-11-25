@@ -123,3 +123,10 @@
 - Rättade retroaktivt jalusiöversättningarnas genus i intervallet 24001–24120 och använde korrekt form i denna batch.
 - Core-TMX validerad: 16 565 poster; exporten har 42 641 språkpar och 32 exkluderade nycklar.
 - Core-granskningen fortsätter.
+
+## 2026-11-25 – Core 24691–24810
+
+- 9 poster granskade; 1 ändring sparad och återläst, 8 befintliga livevärden verifierade.
+- Chess.com Daily Chess-termen kontrollerad mot produktens dokumentation. En äldre Lokalise-källväg för partienheten är markerad för mappningsuppföljning; aktuell referensmåltext `partier` verifierades.
+- Core-TMX validerad: 16 571 poster; exporten har 42 640 språkpar och 32 exkluderade nycklar.
+- Granskningen fortsätter.
