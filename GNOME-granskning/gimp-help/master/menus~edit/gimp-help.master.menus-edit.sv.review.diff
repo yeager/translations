@@ -1,0 +1,1026 @@
+--- gimp-help.master.menus-edit.sv.original.po
++++ gimp-help.master.menus-edit.sv.reviewed.po
+@@ -7,8 +7,8 @@
+ msgstr ""
+ "Project-Id-Version: edit\n"
+ "POT-Creation-Date: 2026-11-24 22:38+0000\n"
+-"PO-Revision-Date: 2026-10-22 15:07+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-26 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -21,7 +21,8 @@
+ #: src/menus/edit/units.xml:49(None)
+ msgid ""
+ "@@image: 'images/menus/edit/units.png'; md5=1c58a2c43d6428321fff510fff3614fe"
+-msgstr "@@image: 'images/menus/edit/units.png'; md5=THIS FILE DOESN'T EXIST"
++msgstr ""
++"@@image: 'images/menus/edit/units.png'; md5=1c58a2c43d6428321fff510fff3614fe"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -30,7 +31,8 @@
+ "@@image: 'images/menus/edit/units-add-new.png'; "
+ "md5=69b47a06b483be4e360c81eb3303b9c4"
+ msgstr ""
+-"@@image: 'images/menus/edit/units-add-new.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/menus/edit/units-add-new.png';"
++" md5=69b47a06b483be4e360c81eb3303b9c4"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -71,10 +73,10 @@
+ "<acronym>GIMP</acronym>. It also allows you to create new units which can be "
+ "used by <acronym>GIMP</acronym> in a variety of situations."
+ msgstr ""
+-"Kommandot <guimenuitem>Enheter</guimenuitem> visar en dialogruta som visar "
+-"information om måttenheterna som för närvarande används av <acronym>GIMP</"
+-"acronym>. Det låter dig också skapa nya enheter som kan användas av "
+-"<acronym>GIMP</acronym> i en rad situationer."
++"Kommandot <guimenuitem>Enheter</guimenuitem> visar en dialogruta med"
++" information om de måttenheter som <acronym>GIMP</acronym> använder. Där kan"
++" du också skapa nya enheter som <acronym>GIMP</acronym> kan använda i olika"
++" sammanhang."
+ 
+ #: src/menus/edit/units.xml:32(title) src/menus/edit/undo.xml:46(title)
+ #: src/menus/edit/undo-history.xml:39(title)
+@@ -123,7 +125,8 @@
+ 
+ #: src/menus/edit/units.xml:53(para)
+ msgid "The list shows the units of measurement which are currently defined."
+-msgstr "Listan visar måttenheterna som för närvarande definierats."
++msgstr ""
++"Listan visar de måttenheter som har definierats."
+ 
+ #: src/menus/edit/units.xml:57(title)
+ msgid "Description of the list elements"
+@@ -159,18 +162,18 @@
+ "to get approximately the same accuracy as an <quote>inch</quote> input field "
+ "with two decimal digits."
+ msgstr ""
+-"<emphasis>Decimaler</emphasis>: Detta fält är ett tips för numeriska "
+-"inmatningsfält. Det anger hur många decimaltecken inmatningsfältet ska "
+-"tillhandahålla för att få ungefär samma noggrannhet som ett inmatningsfält "
+-"för <quote>tum</quote> med två decimaltecken."
++"<emphasis>Decimaler</emphasis>: Fältet är en vägledning för numeriska"
++" inmatningsfält. Det anger hur många decimaler inmatningsfältet ska visa för"
++" att ge ungefär samma noggrannhet som ett inmatningsfält för"
++" <quote>tum</quote> med två decimaler."
+ 
+ #: src/menus/edit/units.xml:90(para)
+ msgid ""
+ "<emphasis>Symbol</emphasis>: The unit's symbol if it has one (e.g. \" for "
+ "inches). The unit's abbreviation is used if doesn't have a symbol."
+ msgstr ""
+-"<emphasis>Symbol</emphasis>: Enhetens symbol om den har någon (t.ex. \" för "
+-"tum). Enhetens förkortning används om den inte har en symbol."
++"<emphasis>Symbol</emphasis>: Enhetens symbol, om den har någon (till exempel"
++" ” för tum). Om enheten saknar symbol används dess förkortning."
+ 
+ #: src/menus/edit/units.xml:97(para)
+ msgid ""
+@@ -234,16 +237,16 @@
+ "undo\">Undoing</link> for more information about <acronym>GIMP</acronym>'s "
+ "very sophisticated <quote>Undo</quote> functions."
+ msgstr ""
+-"Om du har gjort målnings- eller redigeringsändringar som du inte vill "
+-"behålla till bilden, låter kommandot <guimenu>Ångra</guimenu> dig göra den "
+-"sista ändringen ogjord och återställa bilden till sitt föregående tillstånd. "
+-"Nästan allt som du gör med en bild kan ångras på detta sätt (med undantag "
+-"för skript, vilka inaktiverar denna funktion). Vidare ångringsåtgärder kan "
+-"utföras, beroende på antalet ångringsnivåer som konfigurerats på sidan <link "
+-"linkend=\"gimp-prefs-system-resources\">Systemresurser</link> i "
+-"inställningsdialogen. Se avsnittet om <link linkend=\"gimp-concepts-"
+-"undo\">Ångra</link> för mer information om <acronym>GIMP</acronym>s väldigt "
+-"sofistikerade <quote>Ångra</quote>-funktioner."
++"Om du har målat eller gjort ändringar i bilden som du inte vill behålla kan"
++" du använda kommandot <guimenu>Ångra</guimenu> för att ångra den senaste"
++" ändringen och återställa bildens föregående tillstånd. Nästan allt du gör"
++" med en bild kan ångras på det här sättet, med undantag för skript som"
++" inaktiverar funktionen. Du kan ångra fler ändringar beroende på hur många"
++" ångringsnivåer som har angetts under <link"
++" linkend=\"gimp-prefs-system-resources\">Systemresurser</link> i"
++" inställningarna. Läs avsnittet <link"
++" linkend=\"gimp-concepts-undo\">Ångra</link> om <acronym>GIMP</acronym>s"
++" avancerade funktion för <quote>att ångra</quote> åtgärder."
+ 
+ #: src/menus/edit/undo.xml:31(para)
+ msgid ""
+@@ -252,10 +255,10 @@
+ "the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>Shift</"
+ "keycap><keycap>Z</keycap></keycombo>."
+ msgstr ""
+-"En alternativ version av Ångra är <quote>Ångra starkt</quote>, vilket hoppar "
+-"över ändringar i synlighet för lager och så vidare. Detta kommando kan köras "
+-"genom att använda tangentbordsgenvägen <keycombo><keycap>Ctrl</"
+-"keycap><keycap>Skift</keycap><keycap>Z</keycap></keycombo>."
++"En variant av Ångra är <quote>Ångra starkt</quote>, som hoppar över"
++" ändringar av lagersynlighet och liknande. Använd tangentbordsgenvägen"
++" <keycombo><keycap>Ctrl</keycap><keycap>Skift</keycap><keycap>Z</keycap></keycombo>"
++" för att köra kommandot."
+ 
+ #: src/menus/edit/undo.xml:37(para)
+ msgid ""
+@@ -264,10 +267,10 @@
+ "link> command right away. But if you perform another operation, the ability "
+ "to <quote>Redo</quote> will be irretrievably lost."
+ msgstr ""
+-"Operationen som har <quote>ångrats</quote> går inte förlorad omedelbart: du "
+-"kan få tillbaka den genom att direkt använda kommandot <link linkend=\"gimp-"
+-"edit-redo\">Gör om</link>. Men om du utför en annan operation så kommer "
+-"möjligheten att <quote>Göra om</quote> att gå oåterkalleligt förlorad."
++"En <quote>ångrad</quote> åtgärd går inte genast förlorad: du kan återställa"
++" den genom att direkt använda kommandot <link linkend=\"gimp-edit-redo\">Gör"
++" om</link>. Om du gör något annat därefter går möjligheten att <quote>göra"
++" om</quote> den förlorad."
+ 
+ #: src/menus/edit/undo.xml:49(para)
+ msgid ""
+@@ -292,8 +295,9 @@
+ "Or, you can simply click on the status you want in the <link linkend=\"gimp-"
+ "undo-dialog\">Undo History dialog</link>."
+ msgstr ""
+-"Eller så kan du helt enkelt klicka på den status du vill i <link "
+-"linkend=\"gimp-undo-dialog\">dialogen Ångringshistorik</link>."
++"Du kan också klicka på det steg som motsvarar det tillstånd du vill"
++" återställa i dialogrutan <link"
++" linkend=\"gimp-undo-dialog\">Ångringshistorik</link>."
+ 
+ #: src/menus/edit/undo-history.xml:9(title)
+ #: src/menus/edit/undo-history.xml:12(primary)
+@@ -307,11 +311,10 @@
+ "thumbnails representing the operations you have done so far on the current "
+ "image. This overview makes it easier for you to undo steps or to redo them."
+ msgstr ""
+-"Kommandot <guimenuitem>Ångringshistorik</guimenuitem> aktiverar <link "
+-"linkend=\"gimp-undo-dialog\">dialogen Ångringshistorik</link>, vilken visar "
+-"dig miniatyrbilder som representerar åtgärderna som du gjort så långt på den "
+-"aktuella bilden. Denna överblick gör den enklare för dig att ångra eller "
+-"göra om steg."
++"Kommandot <guimenuitem>Ångringshistorik</guimenuitem> öppnar dialogrutan"
++" <link linkend=\"gimp-undo-dialog\">Ångringshistorik</link>. Där visas"
++" miniatyrbilder av åtgärderna du hittills har utfört på den aktuella bilden."
++" Överblicken gör det enklare att ångra eller göra om steg."
+ 
+ #: src/menus/edit/undo-history.xml:22(para)
+ msgid ""
+@@ -322,21 +325,20 @@
+ "at once. It is much easier to click on step 10 than to press "
+ "<keycombo><keycap>Ctrl</keycap><keycap>Z</keycap></keycombo> ten times."
+ msgstr ""
+-"Använd pilarna för <link linkend=\"gimp-edit-undo\">Ångra</link> och <link "
+-"linkend=\"gimp-edit-redo\">Gör om</link>, eller klicka helt enkelt på "
+-"miniatyrbilden, för att föra tillbaka bilden till ett tidigare tillstånd. "
+-"Detta är speciellt användbart när du arbetar med en svår uppgift, där du "
+-"ofta behöver ångra flera steg samtidigt. Det är mycket enklare att klicka på "
+-"steg 10 än att trycka <keycombo><keycap>Ctrl</keycap><keycap>Z</keycap></"
+-"keycombo> tio gånger."
++"Använd pilarna för <link linkend=\"gimp-edit-undo\">Ångra</link> och <link"
++" linkend=\"gimp-edit-redo\">Gör om</link>, eller klicka på en miniatyrbild för"
++" att återställa bilden till ett tidigare tillstånd. Det är särskilt"
++" användbart vid svåra uppgifter där du ofta behöver ångra flera steg på en"
++" gång. Det är mycket enklare att klicka på steg 10 än att trycka"
++" <keycombo><keycap>Ctrl</keycap><keycap>Z</keycap></keycombo> tio gånger."
+ 
+ #: src/menus/edit/undo-history.xml:33(para)
+ msgid ""
+ "The <quote>Clear undo History</quote> command may be useful if you are "
+ "working on a complex image and you want to free some memory."
+ msgstr ""
+-"Kommandot <quote>Töm ångringshistorik</quote> kan vara användbart om du "
+-"arbetar på en komplex bild och vill frigöra lite minne."
++"Kommandot <quote>Töm ångringshistorik</quote> kan vara användbart när du"
++" arbetar med en komplex bild och vill frigöra minne."
+ 
+ #: src/menus/edit/undo-history.xml:40(para)
+ msgid ""
+@@ -385,12 +387,10 @@
+ "with a stroke. There are various options which you can use to specify how "
+ "this stroke should look."
+ msgstr ""
+-"Kommandot <guimenuitem>Stryk längs markering…</guimenuitem> stryker längs en "
+-"markering i bilden. Det finns två sätt du kan stryka längs markeringen, "
+-"antingen genom att använda ett målarverktyg eller utan att använda ett. "
+-"Detta betyder att markeringens kant, vilken framhävs i bilden med en "
+-"streckad linje, kan målas med ett streck. Det finns många olika alternativ "
+-"som du kan använda för att ange hur detta streck ska se ut."
++"Kommandot <guimenuitem>Stryk längs markering…</guimenuitem> ritar en kontur"
++" längs den aktuella markeringen. Du kan rita konturen med ett målarverktyg"
++" eller direkt utan ett sådant. Markeringens gräns visas i bilden med en"
++" streckad linje. Med alternativen kan du bestämma hur konturen ska se ut."
+ 
+ #: src/menus/edit/stroke-selection.xml:27(para)
+ msgid "This command is only active if the image has an active selection."
+@@ -425,9 +425,9 @@
+ "can find the documentation about the options in the dialog box in the <link "
+ "linkend=\"gimp-path-stroke\">Stroke Path</link> section."
+ msgstr ""
+-"Alternativen för att stryka längs markeringar och för att stryka längs banor "
+-"är desamma. Du kan hitta dokumentationen om alternativen i dialogrutan i "
+-"avsnittet <link linkend=\"gimp-path-stroke\">Stryk längs banor</link>."
++"Samma alternativ används för att stryka längs markeringar och banor."
++" Beskrivning av dialogrutans alternativ finns i avsnittet <link"
++" linkend=\"gimp-path-stroke\">Stryk längs banor</link>."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -436,7 +436,8 @@
+ "@@image: 'images/menus/edit/stroke-path.png'; "
+ "md5=ee63fcbc800d5f8d3867b9dc5d66ca9d"
+ msgstr ""
+-"@@image: 'images/menus/edit/stroke-path.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/menus/edit/stroke-path.png';"
++" md5=ee63fcbc800d5f8d3867b9dc5d66ca9d"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -445,8 +446,8 @@
+ "@@image: 'images/menus/edit/stroke-path-miter.png'; "
+ "md5=26ddd02d429a59606df66e4d3ce05928"
+ msgstr ""
+-"@@image: 'images/menus/edit/stroke-path-miter.png'; md5=THIS FILE DOESN'T "
+-"EXIST"
++"@@image: 'images/menus/edit/stroke-path-miter.png';"
++" md5=26ddd02d429a59606df66e4d3ce05928"
+ 
+ #: src/menus/edit/stroke-path.xml:9(title)
+ msgid "Stroke Paths"
+@@ -471,10 +472,10 @@
+ "tool, or without using one. There are various options which you can use to "
+ "specify how this stroke should look."
+ msgstr ""
+-"Kommandot <guimenuitem>Stryk längs banor…</guimenuitem> stryker längs en "
+-"bana i bilden. Det finns två sätt du kan stryka längs banan, antingen genom "
+-"att använda ett målarverktyg eller utan att använda ett. Det finns många "
+-"olika alternativ som du kan använda för att ange hur detta streck ska se ut."
++"Kommandot <guimenuitem>Stryk längs banor…</guimenuitem> ritar ett streck"
++" längs en bana i bilden. Du kan rita strecket med ett målarverktyg eller"
++" direkt utan ett sådant. Med alternativen kan du bestämma hur strecket ska"
++" se ut."
+ 
+ #: src/menus/edit/stroke-path.xml:26(para)
+ msgid "This command is active only if there is a path in your image."
+@@ -512,9 +513,9 @@
+ "between stroking the path with the <guibutton>Line</guibutton> options you "
+ "specify or stroking it with a <guibutton>Paint tool</guibutton>."
+ msgstr ""
+-"Dialogrutan <guilabel>Välj streckstil</guilabel> låter dig välja mellan att "
+-"stryka längs banan med de <guibutton>Linje</guibutton>-alternativ du anger "
+-"eller genom att stryka längs den med ett <guibutton>målarverktyg</guibutton>."
++"Dialogrutan <guilabel>Välj streckstil</guilabel> låter dig välja mellan att"
++" rita längs banan med angivna <guibutton>Linje</guibutton>-inställningar"
++" eller med ett <guibutton>målarverktyg</guibutton>."
+ 
+ #: src/menus/edit/stroke-path.xml:70(title)
+ msgid "Line"
+@@ -662,12 +663,11 @@
+ "dash. The gray areas indicate how the pattern will be repeated when a dashed "
+ "line is drawn."
+ msgstr ""
+-"På bildpunktsnivån ritas en streckad linje som en följd små rutor. Du kan "
+-"ändra mönstret för dessa rutor. Det svarta området med tunna vertikala "
+-"linjer representerar streckningens bildpunkter. Om du klickar på en svart "
+-"bildpunkt så tar du bort den från streckningen. Om du klickar på en vit "
+-"bildpunkt så lägger du till den i streckningen. De grå områdena indikerar "
+-"hur mönstret upprepas när en streckad linje ritas."
++"På bildpunktsnivå ritas en streckad linje som en rad små rutor. Du kan ändra"
++" rutmönstret. Det svarta området med tunna lodräta linjer visar streckets"
++" bildpunkter. Klicka på en svart bildpunkt för att ta bort den från"
++" strecket, eller på en vit bildpunkt för att lägga till den. De grå områdena"
++" visar hur mönstret upprepas när linjen ritas."
+ 
+ #: src/menus/edit/stroke-path.xml:178(term)
+ msgid "Dash preset"
+@@ -679,10 +679,9 @@
+ "down box. This pattern will then be displayed in the <guilabel>Dash pattern</"
+ "guilabel> area, so you can get an idea of how it will look."
+ msgstr ""
+-"I stället för att göra ditt eget streckningsmönster kan du välja ett från "
+-"rullgardinsrutan. Detta mönster kommer sedan visas i området "
+-"<guilabel>Streckningsmönster</guilabel> så du har ett hum om hur det kommer "
+-"se ut."
++"I stället för att skapa ett eget streckmönster kan du välja ett i listrutan."
++" Mönstret visas då i området <guilabel>Streckningsmönster</guilabel>, så att"
++" du kan se hur det kommer att se ut."
+ 
+ #: src/menus/edit/stroke-path.xml:191(title)
+ msgid "Paint Tool"
+@@ -697,9 +696,8 @@
+ "Select a paint tool to use from the drop-down box to draw the stroke. The "
+ "current options of the paint tool options are used to draw the stroke."
+ msgstr ""
+-"Välj ett målarverktyg att använda från rullgardinsrutan för att rita "
+-"strecket. De aktuella alternativen för målarverktyget används för att rita "
+-"strecket."
++"Välj ett målarverktyg i listrutan. Verktygets aktuella inställningar används"
++" när strecket ritas."
+ 
+ #: src/menus/edit/stroke-path.xml:203(term)
+ msgid "Emulate brush dynamics"
+@@ -722,11 +720,11 @@
+ "way to change shortcuts to menu commands is described in <xref "
+ "linkend=\"gimp-concepts-shortcuts\"/>."
+ msgstr ""
+-"Detta kommando öppnar <link linkend=\"gimp-help-keyboard-"
+-"shortcuts\">dialogrutan Tangentbordsgenvägar</link>. Med den dialogrutan kan "
+-"du lägga till eller ändra tangentbordsgenvägar till menykommandon, verktyg, "
+-"filter och så vidare. Ett snabbare sätta att ändra kortkommandon till "
+-"menykommandon beskrivs i <xref linkend=\"gimp-concepts-shortcuts\"/>."
++"Kommandot öppnar <link linkend=\"gimp-help-keyboard-shortcuts\">dialogrutan"
++" Tangentbordsgenvägar</link>. Där kan du lägga till eller ändra"
++" tangentbordsgenvägar för menykommandon, verktyg, filter och annat. Ett"
++" snabbare sätt att ändra genvägar för menykommandon beskrivs i <xref"
++" linkend=\"gimp-concepts-shortcuts\"/>."
+ 
+ #: src/menus/edit/shortcuts.xml:26(para)
+ msgid ""
+@@ -754,15 +752,15 @@
+ "no way to recover them. See the <link linkend=\"gimp-concepts-"
+ "undo\">Undoing</link> section for more information."
+ msgstr ""
+-"Kommandot <guimenuitem>Gör om</guimenuitem> vänder på effekten av kommandot "
+-"<guimenuitem>Ångra</guimenuitem>. Varje <quote>Gör om</quote>-åtgärd kan "
+-"vändas på med en <quote>Gör om</quote>-åtgärd. Du kan alternera mellan "
+-"<quote>Ångra</quote> och <quote>Gör om</quote> så många gånger som du vill. "
+-"Observera att du bara kan <quote>Göra om</quote> en operation om den senaste "
+-"åtgärden du gjorde var <quote>Ångra</quote>. Om du utför någon operation på "
+-"bilden efter att ha ångrat något, så kommer de tidigare Gör om-stegen gå "
+-"förlorade, och det finns inget sätt att återfå dem. Se avsnittet <link "
+-"linkend=\"gimp-concepts-undo\">Ångra</link> för mer information."
++"Kommandot <guimenuitem>Gör om</guimenuitem> återställer resultatet av"
++" kommandot <guimenuitem>Ångra</guimenuitem>. Varje åtgärd"
++" <quote>Ångra</quote> kan återställas med en enda åtgärd <quote>Gör"
++" om</quote>. Du kan växla mellan <quote>Ångra</quote> och <quote>Gör"
++" om</quote> hur många gånger du vill. Du kan bara <quote>göra om</quote> en"
++" åtgärd om den senaste åtgärden var <quote>Ångra</quote>. Om du gör något"
++" annat i bilden efter att ha ångrat en åtgärd försvinner möjligheten att"
++" göra om den. Läs avsnittet <link linkend=\"gimp-concepts-undo\">Ångra</link>"
++" för mer information."
+ 
+ #: src/menus/edit/redo.xml:30(para)
+ msgid ""
+@@ -771,18 +769,18 @@
+ "the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>Shift</"
+ "keycap><keycap>Y</keycap></keycombo>."
+ msgstr ""
+-"En alternativ version av Gör om är <quote>Gör om starkt</quote>, vilket "
+-"hoppar över ändringar i synlighet för lager och så vidare. Detta kommando "
+-"kan köras genom att använda tangentbordsgenvägen <keycombo><keycap>Ctrl</"
+-"keycap><keycap>Skift</keycap><keycap>Y</keycap></keycombo>."
++"En variant av Gör om är <quote>Gör om starkt</quote>, som hoppar över"
++" ändringar av lagersynlighet och liknande. Använd tangentbordsgenvägen"
++" <keycombo><keycap>Ctrl</keycap><keycap>Skift</keycap><keycap>Y</keycap></keycombo>"
++" för att köra kommandot."
+ 
+ #: src/menus/edit/redo.xml:36(para)
+ msgid ""
+ "To see the operations which you have done and undone, use the <link "
+ "linkend=\"gimp-undo-dialog\">Undo History</link> dialog."
+ msgstr ""
+-"För att se operationerna som du har gjort och ångrat, använd dialogen <link "
+-"linkend=\"gimp-undo-dialog\">Ångringshistorik</link>."
++"Visa åtgärderna du har gjort och ångrat i dialogrutan <link"
++" linkend=\"gimp-undo-dialog\">Ångringshistorik</link>."
+ 
+ #: src/menus/edit/redo.xml:45(para)
+ msgid ""
+@@ -816,10 +814,10 @@
+ "dialog</link>, which lets you alter a variety of settings that affect the "
+ "look, feel, and performance of <acronym>GIMP</acronym>."
+ msgstr ""
+-"Detta kommando visar <link linkend=\"gimp-prefs-"
+-"dialog\">inställningsdialogen</link>, vilken låter dig ändra en mängd olika "
+-"inställningar som påverkar utseendet, känslan och prestandan hos "
+-"<acronym>GIMP</acronym>."
++"Kommandot öppnar <link"
++" linkend=\"gimp-prefs-dialog\">inställningsdialogrutan</link>, där du kan"
++" ändra olika inställningar som påverkar <acronym>GIMP</acronym>s utseende,"
++" funktion och prestanda."
+ 
+ #: src/menus/edit/preferences.xml:20(para)
+ msgid ""
+@@ -911,9 +909,9 @@
+ "replaces the contents of the current selection with the contents of the "
+ "clipboard and turns it into a floating selection."
+ msgstr ""
+-"Kommandot <guimenuitem>Klistra in som flytande data i markering</"
+-"guimenuitem> ersätter innehållet i aktuell markering med innehållet i "
+-"urklipp och omvandlar det till en flytande markering."
++"Kommandot <guimenuitem>Klistra in som flytande data i"
++" markering</guimenuitem> ersätter innehållet i markeringen med"
++" urklippsinnehållet och gör det till en flytande markering."
+ 
+ #: src/menus/edit/paste-into-selection.xml:23(para)
+ #: src/menus/edit/paste-into-selection-in-place.xml:24(para)
+@@ -921,8 +919,8 @@
+ "The clipboard data is clipped by the selection, but the image data in it can "
+ "still be moved if it extends outside the selection."
+ msgstr ""
+-"Urklippsdata klipps av markeringen, men bilddata i den kan fortfarande "
+-"flyttas om de sträcker ut sig utanför markeringen."
++"Markeringen beskär urklippsinnehållet, men bilddata kan fortfarande flyttas"
++" om de sträcker sig utanför markeringen."
+ 
+ #: src/menus/edit/paste-into-selection.xml:27(para)
+ msgid ""
+@@ -930,9 +928,9 @@
+ "quote> command places the data from the clipboard into the center of the "
+ "canvas, as the <quote>Paste</quote> command does."
+ msgstr ""
+-"Om ingen markering finns placerar kommandot <quote>Klistra in som flytande "
+-"data i markering</quote> data från urklipp i ritytans mitt, som kommandot "
+-"<quote>Klistra in</quote> gör."
++"Om det inte finns någon markering placerar kommandot <quote>Klistra in som"
++" flytande data i markering</quote> urklippsinnehållet mitt på ritytan,"
++" precis som kommandot <quote>Klistra in</quote>."
+ 
+ #: src/menus/edit/paste-into-selection.xml:33(para)
+ #: src/menus/edit/paste-into-selection-in-place.xml:34(para)
+@@ -972,10 +970,10 @@
+ "contents of the clipboard, at the exact coordinates the contents was "
+ "originally copied from, and turns it into a floating selection."
+ msgstr ""
+-"Kommandot <guimenuitem>Klistra in som flytande data på plats i markering</"
+-"guimenuitem> ersätter innehållet i den aktuella markeringen med innehållet i "
+-"urklipp, på de exakta koordinater som innehållet ursprungligen kopierades "
+-"från, och omvandlar det till en flytande markering."
++"Kommandot <guimenuitem>Klistra in som flytande data på plats i"
++" markering</guimenuitem> ersätter innehållet i markeringen med"
++" urklippsinnehållet på samma koordinater som det kopierades från och gör det"
++" till en flytande markering."
+ 
+ #: src/menus/edit/paste-into-selection-in-place.xml:28(para)
+ msgid ""
+@@ -1003,7 +1001,8 @@
+ #: src/menus/edit/paste-in-place.xml:12(secondary)
+ #: src/menus/edit/paste-in-place.xml:15(primary)
+ msgid "Paste In Place"
+-msgstr "Klistra in i på plats"
++msgstr ""
++"Klistra in på samma plats"
+ 
+ #: src/menus/edit/paste-in-place.xml:18(para)
+ msgid ""
+@@ -1012,10 +1011,10 @@
+ "clipboard at the exact coordinates the contents was originally copied from. "
+ "This feature is available for both the regular clipboard and named buffers."
+ msgstr ""
+-"Det vanliga Klistra in-kommandot placerar innehållet i urklipp i ritytans "
+-"mitt. Med detta kommando kan du klistra in innehållet i urklipp på de exakta "
+-"koordinater som innehållet ursprungligen kopierades från. Denna funktion "
+-"finns tillgänglig både för vanligt urklipp och namngivna buffertar."
++"Det vanliga kommandot Klistra in placerar urklippsinnehållet mitt på"
++" ritytan. Med det här kommandot klistrar du i stället in innehållet på samma"
++" plats som det kopierades från. Funktionen fungerar både med det vanliga"
++" urklippet och med namngivna buffertar."
+ 
+ #: src/menus/edit/paste-in-place.xml:28(para)
+ msgid ""
+@@ -1023,9 +1022,9 @@
+ "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Paste In Place</"
+ "guimenuitem></menuchoice>."
+ msgstr ""
+-"Du kan komma åt detta kommando från huvudmenyn genom "
+-"<menuchoice><guimenu>Redigera</guimenu><guimenuitem>Klistra in i på plats</"
+-"guimenuitem></menuchoice>."
++"Du hittar kommandot i huvudmenyn under"
++" <menuchoice><guimenu>Redigera</guimenu><guimenuitem>Klistra in på samma"
++" plats</guimenuitem></menuchoice>."
+ 
+ #: src/menus/edit/paste-as.xml:12(title)
+ #: src/menus/edit/paste-as-new-image.xml:12(secondary)
+@@ -1038,8 +1037,8 @@
+ "<quote>Copy</quote> command before, so that you have something in the "
+ "clipboard."
+ msgstr ""
+-"Detta kommando klistrar in innehållet från urklipp. Du behöver förstås "
+-"använda kommandot <quote>Kopiera</quote> före så att du har något i urklipp."
++"Kommandot klistrar in urklippsinnehållet. Kopiera först med kommandot"
++" <quote>Kopiera</quote> så att det finns något i urklippet."
+ 
+ #: src/menus/edit/paste-as.xml:19(para)
+ msgid "There is no way to empty the clipboard."
+@@ -1056,8 +1055,8 @@
+ "@@image: 'images/menus/edit/paste-new-pattern.png'; "
+ "md5=2317ed3c82db838d7b19d91c979473d8"
+ msgstr ""
+-"@@image: 'images/menus/edit/paste-new-pattern.png'; md5=THIS FILE DOESN'T "
+-"EXIST"
++"@@image: 'images/menus/edit/paste-new-pattern.png';"
++" md5=2317ed3c82db838d7b19d91c979473d8"
+ 
+ #: src/menus/edit/paste-as-pattern.xml:10(title)
+ msgid "Paste as New Pattern"
+@@ -1073,9 +1072,8 @@
+ "pattern. The pattern appears in the <link linkend=\"gimp-pattern-"
+ "dialog\">Patterns dialog</link>."
+ msgstr ""
+-"Detta kommando öppnar ett dialogfönster som låter dig namnge ditt nya "
+-"mönster. Mönstret kommer visas i <link linkend=\"gimp-pattern-"
+-"dialog\">mönsterdialogen</link>."
++"Kommandot öppnar en dialogruta där du kan namnge det nya mönstret. Mönstret"
++" visas sedan i <link linkend=\"gimp-pattern-dialog\">mönsterdialogen</link>."
+ 
+ #: src/menus/edit/paste-as-pattern.xml:31(title)
+ #: src/menus/edit/paste-as-brush.xml:31(title)
+@@ -1136,8 +1134,8 @@
+ "The <guimenuitem>Paste as Single Layer</guimenuitem> command creates a new "
+ "layer in the active image and pastes the clipboard contents into it."
+ msgstr ""
+-"Kommandot <guimenuitem>Klistra in som ett lager</guimenuitem> skapar ett "
+-"nytt lager i den aktiva bilden och klistrar in urklippsinnehåll i det."
++"Kommandot <guimenuitem>Klistra in som ett lager</guimenuitem> skapar ett"
++" nytt lager i den aktiva bilden och klistrar in urklippsinnehållet i det."
+ 
+ #: src/menus/edit/paste-as-new-layer.xml:26(para)
+ #: src/menus/edit/paste-as-floating-data.xml:21(para)
+@@ -1148,10 +1146,9 @@
+ "automatically created). Of course, you have to copy your selection before "
+ "you use this command."
+ msgstr ""
+-"Om data inte är rektangulära eller kvadratiska kommer regioner som inte "
+-"sträcker sig ut till kanten på ritytan att förbli transparenta (en alfakanal "
+-"skapas automatiskt). Du kommer förstås behöva kopiera din markering innan du "
+-"använder detta kommando."
++"Om bilddata inte är rektangulära eller kvadratiska förblir de delar som inte"
++" når ritytans kant transparenta (en alfakanal skapas automatiskt). Kopiera"
++" markeringen innan du använder kommandot."
+ 
+ #: src/menus/edit/paste-as-new-layer.xml:35(para)
+ msgid ""
+@@ -1177,9 +1174,9 @@
+ "creates a new layer in the active image and pastes the clipboard contents at "
+ "the exact coordinates the contents was originally copied from."
+ msgstr ""
+-"Kommandot <guimenuitem>Klistra in på plats som ett lager</guimenuitem> "
+-"skapar ett nytt lager i den aktiva bilden och klistrar in urklippsinnehåll "
+-"på de exakta koordinater som innehållet ursprungligen kopierades från."
++"Kommandot <guimenuitem>Klistra in som ett lager på samma plats</guimenuitem>"
++" skapar ett nytt lager i den aktiva bilden och klistrar in"
++" urklippsinnehållet på samma koordinater som det kopierades från."
+ 
+ #: src/menus/edit/paste-as-new-layer-in-place.xml:27(para)
+ msgid ""
+@@ -1217,12 +1214,11 @@
+ "have to copy your selection before you use this command, so that you get an "
+ "image with the same dimensions as the selection."
+ msgstr ""
+-"Kommandot <guimenuitem>Klistra in som ny bild</guimenuitem> skapar en ny "
+-"bild och klistrar in bilddata från urklipp i den. Om data inte är "
+-"rektangulära eller kvadratiska kommer regioner utanför markeringen förbli "
+-"transparenta (en alfakanal skapas automatiskt). Du kommer förstås behöva "
+-"kopiera din markering innan du använder detta kommando, så att du får en "
+-"bild med samma dimensioner som markeringen."
++"Kommandot <guimenuitem>Klistra in som ny bild</guimenuitem> skapar en ny"
++" bild och klistrar in bilddata från urklippet. Om bilddata inte är"
++" rektangulära eller kvadratiska förblir områden utanför markeringen"
++" transparenta (en alfakanal skapas automatiskt). Kopiera markeringen innan"
++" du använder kommandot, så får den nya bilden samma mått som markeringen."
+ 
+ #: src/menus/edit/paste-as-new-image.xml:27(para)
+ msgid ""
+@@ -1298,10 +1294,10 @@
+ "contents into it at the exact coordinates the contents was originally copied "
+ "from."
+ msgstr ""
+-"Kommandot <guimenuitem>Klistra in som flytande data på plats</guimenuitem> "
+-"skapar en flytande markering i den aktiva bilden och klistrar in "
+-"urklippsinnehållet i den på de exakta koordinater som innehållet "
+-"ursprungligen kopierades från."
++"Kommandot <guimenuitem>Klistra in som flytande data på samma"
++" plats</guimenuitem> skapar en flytande markering i den aktiva bilden och"
++" klistrar in urklippsinnehållet på samma koordinater som det kopierades"
++" från."
+ 
+ #: src/menus/edit/paste-as-floating-data-in-place.xml:37(para)
+ msgid ""
+@@ -1322,7 +1318,8 @@
+ "@@image: 'images/menus/edit/paste-new-brush.png'; "
+ "md5=ba7dcfe784dd4482aacbbafebaa60c95"
+ msgstr ""
+-"@@image: 'images/menus/edit/paste-new-brush.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/menus/edit/paste-new-brush.png';"
++" md5=ba7dcfe784dd4482aacbbafebaa60c95"
+ 
+ #: src/menus/edit/paste-as-brush.xml:10(title)
+ msgid "Paste as New Brush"
+@@ -1399,8 +1396,8 @@
+ "@@image: 'images/menus/edit/module-manager-dialog.png'; "
+ "md5=323a626b58725c8c4ee4c3e50e4dacd4"
+ msgstr ""
+-"@@image: 'images/menus/edit/module-manager-dialog.png'; md5=THIS FILE "
+-"DOESN'T EXIST"
++"@@image: 'images/menus/edit/module-manager-dialog.png';"
++" md5=323a626b58725c8c4ee4c3e50e4dacd4"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1409,8 +1406,8 @@
+ "@@image: 'images/menus/edit/module-manager-ex1.png'; "
+ "md5=f52c3de87d82fe8f2afd1a7f94a0eb44"
+ msgstr ""
+-"@@image: 'images/menus/edit/module-manager-ex1.png'; md5=THIS FILE DOESN'T "
+-"EXIST"
++"@@image: 'images/menus/edit/module-manager-ex1.png';"
++" md5=f52c3de87d82fe8f2afd1a7f94a0eb44"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1419,8 +1416,8 @@
+ "@@image: 'images/menus/edit/module-manager-ex2.png'; "
+ "md5=ed48c6b1da9bb8a271a870bd78d8a7bf"
+ msgstr ""
+-"@@image: 'images/menus/edit/module-manager-ex2.png'; md5=THIS FILE DOESN'T "
+-"EXIST"
++"@@image: 'images/menus/edit/module-manager-ex2.png';"
++" md5=ed48c6b1da9bb8a271a870bd78d8a7bf"
+ 
+ #: src/menus/edit/module-manager.xml:13(title)
+ #: src/menus/edit/module-manager.xml:16(primary)
+@@ -1441,13 +1438,12 @@
+ "acronym>. These changes affect <acronym>GIMP</acronym>'s functional "
+ "capabilities, its size in memory and its start-up time."
+ msgstr ""
+-"Med kommandot <guimenuitem>Moduler</guimenuitem> kan du visa de olika "
+-"tilläggsmodulerna som är tillgängliga och styra vilka av dem som ska läsas "
+-"in. Moduler utför funktioner som att välja färger och visningfiltrering. "
+-"Alla ändringar du gör till inställningarna med kommandot Modulhanterare "
+-"kommer börja gälla nästa gång du startar <acronym>GIMP</acronym>. Dessa "
+-"ändringar påverkar <acronym>GIMP</acronym>s funktionella förmågor, dess "
+-"minnesstorlek och dess uppstartstid."
++"Med kommandot <guimenuitem>Moduler</guimenuitem> kan du visa tillgängliga"
++" tilläggsmoduler och välja vilka som ska läsas in. Moduler kan till exempel"
++" hantera färgval och filtrering av bilden. Ändringar du gör med"
++" modulhanteraren börjar gälla nästa gång du startar <acronym>GIMP</acronym>."
++" De påverkar vilka funktioner <acronym>GIMP</acronym> har, hur mycket minne"
++" programmet använder och hur lång tid det tar att starta."
+ 
+ #: src/menus/edit/module-manager.xml:35(para)
+ msgid ""
+@@ -1469,7 +1465,8 @@
+ 
+ #: src/menus/edit/module-manager.xml:55(para)
+ msgid "The window of the Module Manager shows the loadable modules."
+-msgstr "Fönstret Modulhanterare visar de inläsningsbara modulerna."
++msgstr ""
++"Modulhanteraren visar de moduler som kan läsas in."
+ 
+ #: src/menus/edit/module-manager.xml:58(para)
+ msgid ""
+@@ -1477,9 +1474,9 @@
+ "uncheck the modules. The next time you start <acronym>GIMP</acronym>, any "
+ "checked module will be loaded."
+ msgstr ""
+-"Att klicka på rutorna i den första kolumnen i modullistan kommer kryssa i "
+-"eller avmarkera modulerna. Nästa gång du startar <acronym>GIMP</acronym> "
+-"kommer alla ikryssade moduler läsas in."
++"Klicka på rutorna i den första kolumnen för att markera eller avmarkera"
++" moduler. Moduler som är markerade läses in nästa gång du startar"
++" <acronym>GIMP</acronym>."
+ 
+ #: src/menus/edit/module-manager.xml:63(para)
+ msgid ""
+@@ -1489,11 +1486,10 @@
+ "selectors are modules and will only be available when you check the "
+ "respective option in the module manager:"
+ msgstr ""
+-"Du kommer endast märka skillnaden när du försöker använda modulerna. Det "
+-"finns exempelvis flera <link linkend=\"gimp-color-dialog\">färgväljare</"
+-"link> för att välja förgrunds- eller bakgrundsfärgen. Vissa av dessa väljare "
+-"är moduler och kommer bara vara tillgängliga om du kryssat i motsvarande "
+-"alternativ i modulhanteraren:"
++"Skillnaden märks först när du använder modulerna. Det finns till exempel"
++" flera <link linkend=\"gimp-color-dialog\">färgväljare</link> för att välja"
++" förgrunds- eller bakgrundsfärg. Vissa färgväljare är moduler och blir"
++" tillgängliga när du markerar motsvarande alternativ i modulhanteraren:"
+ 
+ #: src/menus/edit/module-manager.xml:71(title)
+ msgid "Loaded modules example: Color selector modules"
+@@ -1512,8 +1508,8 @@
+ "For loaded modules, information about the selected module is displayed at "
+ "the bottom of the dialog."
+ msgstr ""
+-"För inlästa moduler kommer information om den valda modulen visas längst ner "
+-"i dialogrutan."
++"När en modul är inläst visas information om den valda modulen längst ned i"
++" dialogrutan."
+ 
+ #: src/menus/edit/module-manager.xml:95(para)
+ msgid ""
+@@ -1521,8 +1517,8 @@
+ "shown. For any module, that is not loaded, the directory path of this module "
+ "is shown."
+ msgstr ""
+-"I den andra kolumnen visas för varje inläst modul syftet för modulen. För "
+-"varje modul som inte är inläst visas katalogsökvägen för modulen."
++"Den andra kolumnen visar vad varje inläst modul används till. För moduler"
++" som inte är inlästa visas sökvägen till deras katalog."
+ 
+ #: src/menus/edit/module-manager.xml:100(para)
+ msgid ""
+@@ -1530,9 +1526,9 @@
+ "modules will be updated: modules no longer on disk will be removed, and new "
+ "modules found will be added."
+ msgstr ""
+-"När du klickar på knappen <guibutton>Uppdatera</guibutton> kommer "
+-"modullistan uppdateras: moduler som inte längre finns på disk kommer tas "
+-"bort, och nya moduler som hittas kommer läggas till."
++"När du klickar på <guibutton>Uppdatera</guibutton> uppdateras modullistan:"
++" moduler som inte längre finns på disken tas bort och nya moduler läggs"
++" till."
+ 
+ #: src/menus/edit/introduction.xml:8(title)
+ msgid "Overview"
+@@ -1591,8 +1587,8 @@
+ "@@image: 'images/menus/edit/fill-selection-outline.png'; "
+ "md5=96d797b7d70fff54dc25032abc02cc8d"
+ msgstr ""
+-"@@image: 'images/menus/edit/fill-selection-outline.png'; md5=THIS FILE "
+-"DOESN'T EXIST"
++"@@image: 'images/menus/edit/fill-selection-outline.png';"
++" md5=96d797b7d70fff54dc25032abc02cc8d"
+ 
+ # TODO: Ibland "Fyll markeringskontur"
+ #: src/menus/edit/fill-selection-outline.xml:8(title)
+@@ -1607,10 +1603,10 @@
+ "a dialog where you can choose between these options. This command is only "
+ "active when a selection exists."
+ msgstr ""
+-"Med detta kommando kan du fylla i den aktuella markeringen med aktuell "
+-"förgrunds- eller bakgrundsfärg, eller med aktuellt mönster. Det öppnar en "
+-"dialogruta där du kan välja mellan dessa alternativ. Detta kommando är "
+-"endast aktivt när det finns en markering."
++"Med kommandot fyller du den aktuella markeringen med förgrundsfärgen,"
++" bakgrundsfärgen eller det aktuella mönstret. En dialogruta öppnas där du"
++" väljer vad du vill använda. Kommandot är bara aktivt när det finns en"
++" markering."
+ 
+ #: src/menus/edit/fill-selection-outline.xml:23(para)
+ msgid ""
+@@ -1679,12 +1675,12 @@
+ "feathering the selection), they are filled in proportion to how much they "
+ "are selected."
+ msgstr ""
+-"Kommandot <guimenuitem>Fyll med mönster</guimenuitem> fyller bildens "
+-"markering med mönstret som visas i Pensel/Mönster/Gradient-området i "
+-"verktygslådan. (Mönstret visas också till vänster om menyobjektet.) Om några "
+-"delar av bilden endast är partiellt markerade (exempelvis som ett resultat "
+-"av att ludda markeringen), så fylls de i proportion till hur mycket de är "
+-"markerade."
++"Kommandot <guimenuitem>Fyll med mönster</guimenuitem> fyller markeringen med"
++" mönstret som visas i området Pensel/Mönster/Toning i verktygslådan."
++" (Mönstret visas också till vänster om menyobjektet.) Om någon del av bilden"
++" bara är delvis markerad, till exempel för att markeringens kanter har"
++" mjukats upp, fylls den i proportion till hur stor del av den som är"
++" markerad."
+ 
+ #: src/menus/edit/fill-pattern.xml:33(para)
+ msgid ""
+@@ -1728,7 +1724,8 @@
+ "@@image: 'images/menus/edit/fill-path-ex1.png'; "
+ "md5=99d3a4f81c4c758d4c7809a0e6d81e0d"
+ msgstr ""
+-"@@image: 'images/menus/edit/fill-path-ex1.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/menus/edit/fill-path-ex1.png';"
++" md5=99d3a4f81c4c758d4c7809a0e6d81e0d"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1737,7 +1734,8 @@
+ "@@image: 'images/menus/edit/fill-path-ex2.png'; "
+ "md5=6e8fbd7abe507f84ce0d23a37e30d4a4"
+ msgstr ""
+-"@@image: 'images/menus/edit/fill-path-ex2.png'; md5=THIS FILE DOESN'T EXIST"
++"@@image: 'images/menus/edit/fill-path-ex2.png';"
++" md5=6e8fbd7abe507f84ce0d23a37e30d4a4"
+ 
+ #: src/menus/edit/fill-path.xml:8(title)
+ #: src/menus/edit/fill-path.xml:11(primary)
+@@ -1800,12 +1798,12 @@
+ "as a result of feathering the selection), they are filled in proportion to "
+ "how much they are selected."
+ msgstr ""
+-"Kommandot <guimenuitem>Fyll med förgrundsfärg</guimenuitem> fyller bildens "
+-"markering med färgen som visas i förgrundsdelen av färgområdet i "
+-"verktygslådan. (Färgen visas också till vänster om menyobjektet.) Om några "
+-"delar av bilden endast är partiellt markerade (exempelvis som ett resultat "
+-"av att ludda markeringen), så fylls de i proportion till hur mycket de är "
+-"markerade."
++"Kommandot <guimenuitem>Fyll med förgrundsfärg</guimenuitem> fyller"
++" markeringen med den heldragna färgen som visas i förgrundsdelen av"
++" verktygslådans färgområde. (Färgen visas också till vänster om"
++" menyobjektet.) Om någon del av bilden bara är delvis markerad, till exempel"
++" för att markeringens kanter har mjukats upp, fylls den i proportion till"
++" hur stor del av den som är markerad."
+ 
+ #: src/menus/edit/fill-fg.xml:45(para)
+ msgid ""
+@@ -1830,8 +1828,8 @@
+ "You can also fill a selection by click-and-dragging from the Toolbox "
+ "foreground color."
+ msgstr ""
+-"Du kan också fylla en markering genom att klicka-och-dra från verktygslådans "
+-"förgrundsfärg."
++"Du kan också dra förgrundsfärgen från verktygslådan till markeringen för att"
++" fylla den."
+ 
+ #: src/menus/edit/fill-bg.xml:10(title)
+ msgid "Fill with BG Color"
+@@ -1855,12 +1853,12 @@
+ "as a result of feathering the selection), they are filled in proportion to "
+ "how much they are selected."
+ msgstr ""
+-"Kommandot <guimenuitem>Fyll med bakgrundsfärg</guimenuitem> fyller bildens "
+-"markering med färgen som visas i bakgrundsdelen av färgområdet i "
+-"verktygslådan. (Färgen visas också till vänster om menyobjektet.) Om några "
+-"delar av bilden endast är partiellt markerade (exempelvis som ett resultat "
+-"av att ludda markeringen), så fylls de i proportion till hur mycket de är "
+-"markerade."
++"Kommandot <guimenuitem>Fyll med bakgrundsfärg</guimenuitem> fyller"
++" markeringen med den heldragna färgen som visas i bakgrundsdelen av"
++" verktygslådans färgområde. (Färgen visas också till vänster om"
++" menyobjektet.) Om någon del av bilden bara är delvis markerad, till exempel"
++" för att markeringens kanter har mjukats upp, fylls den i proportion till"
++" hur stor del av den som är markerad."
+ 
+ #: src/menus/edit/fill-bg.xml:45(para)
+ msgid ""
+@@ -1885,8 +1883,8 @@
+ "You can also fill a selection by click-and-dragging from the Toolbox "
+ "background color."
+ msgstr ""
+-"Du kan också fylla en markering genom att klicka-och-dra från verktygslådans "
+-"bakgrundsfärg."
++"Du kan också dra bakgrundsfärgen från verktygslådan till markeringen för att"
++" fylla den."
+ 
+ #: src/menus/edit/cut.xml:9(title) src/menus/edit/cut.xml:21(primary)
+ msgid "Cut"
+@@ -1915,14 +1913,14 @@
+ "are cut are left transparent, if the layer has an alpha channel, or filled "
+ "with the layer's background color, otherwise."
+ msgstr ""
+-"Kommandot <guimenuitem>Klipp ut</guimenuitem> tar bort innehållet i bildens "
+-"markeringar, och sparar dem i urklipp så att de senare kan klistras in med "
+-"kommandona <link linkend=\"gimp-edit-paste\">Klistra in</link>, <link "
+-"linkend=\"gimp-edit-paste-in-place\">Klistra in i på plats</link> eller ett "
+-"av de många <link linkend=\"gimp-edit-paste-as\">Klistra in som</link>-"
+-"kommandona. Om det inte finns någon markering klipps hela det aktuella "
+-"lagret ut. Områdena vars innehåll klipps ut förblir transparenta om lagret "
+-"har en alfakanal, eller annars fyllda med lagrets bakgrundsfärg."
++"Kommandot <guimenuitem>Klipp ut</guimenuitem> tar bort innehållet i"
++" markeringen och sparar det i urklippet. Du kan senare klistra in det med"
++" kommandona <link linkend=\"gimp-edit-paste\">Klistra in</link>, <link"
++" linkend=\"gimp-edit-paste-in-place\">Klistra in på samma plats</link> eller"
++" något av kommandona <link linkend=\"gimp-edit-paste-as\">Klistra in"
++" som</link>. Om det inte finns någon markering klipps hela det aktiva lagret"
++" ut. Det urklippta området blir transparent om lagret har en alfakanal;"
++" annars fylls det med lagrets bakgrundsfärg."
+ 
+ #: src/menus/edit/cut.xml:35(para)
+ msgid ""
+@@ -1966,13 +1964,13 @@
+ "linkend=\"gimp-edit-paste-as\">Paste as</link> commands. If there is no "
+ "selection, the entire current layer is copied."
+ msgstr ""
+-"Kommandot <guimenuitem>Kopiera</guimenuitem> gör en kopia av aktuell "
+-"markering och lagrar den i urklipp. Informationen kan återkallas med "
+-"kommandona <link linkend=\"gimp-edit-paste\">Klistra in</link>, <link "
+-"linkend=\"gimp-edit-paste-in-place\">Klistra in i på plats</link> eller ett "
+-"av de många <link linkend=\"gimp-edit-paste-as\">Klistra in som</link>-"
+-"kommandona. Om det inte finns någon markering kopieras hela det aktuella "
+-"lagret."
++"Kommandot <guimenuitem>Kopiera</guimenuitem> kopierar markeringen till"
++" urklippet. Du kan sedan klistra in innehållet med kommandona <link"
++" linkend=\"gimp-edit-paste\">Klistra in</link>, <link"
++" linkend=\"gimp-edit-paste-in-place\">Klistra in på samma plats</link> eller"
++" något av kommandona <link linkend=\"gimp-edit-paste-as\">Klistra in"
++" som</link>. Om det inte finns någon markering kopieras hela det aktiva"
++" lagret."
+ 
+ #: src/menus/edit/copy.xml:31(para)
+ msgid ""
+@@ -2034,9 +2032,9 @@
+ "data is put in the clipboard. When you later paste the clipboard contents, "
+ "there is only one layer, which is the fusion of all the marked layers."
+ msgstr ""
+-"Observera att informationen om lagren förloras när bilddata stoppas i "
+-"urklipp. Då du senare klistrar in urklippsinnehållet så finns det bara ett "
+-"lager, vilket är sammanslagningen av alla de markerade lagren."
++"När bilddata kopieras till urklippet går informationen om lagren förlorad."
++" När du klistrar in innehållet senare finns bara ett lager: en"
++" sammanslagning av alla markerade lager."
+ 
+ #: src/menus/edit/copy-visible.xml:41(para)
+ msgid ""
+@@ -2071,13 +2069,11 @@
+ "the layer does not have an alpha channel, the deleted area is filled using "
+ "the current background color."
+ msgstr ""
+-"Kommandot <guimenuitem>Töm</guimenuitem> tar bort allt i den aktuella "
+-"markeringen. Om det inte finns någon aktuell markering kommer innehållet i "
+-"det aktiva lagret tas bort. Om det aktiva lagret har en alfakanal så görs "
+-"den borttagna delen transparent. Du kan återställa den ursprungliga färgen "
+-"till det transparenta området med verktyget Suddgummi genom att ställa in "
+-"det till Antisudda. Om lagret inte har någon alfakanal fylls det borttagna "
+-"området med den aktuella bakgrundsfärgen."
++"Kommandot <guimenuitem>Töm</guimenuitem> tar bort allt i markeringen. Om"
++" ingen markering finns tas innehållet i det aktiva lagret bort. Om lagret"
++" har en alfakanal blir det borttagna området transparent. Du kan återställa"
++" den ursprungliga färgen i området med suddgummiverktyget i läget Antisudda."
++" Om lagret saknar alfakanal fylls området med den aktuella bakgrundsfärgen."
+ 
+ #: src/menus/edit/clear.xml:37(para)
+ msgid ""
+@@ -2085,9 +2081,10 @@
+ "<quote>Cut</quote>, <quote>Clear</quote> does not place the deleted contents "
+ "in the Clipboard and the contents of the clipboard are unaffected."
+ msgstr ""
+-"Att tömma en markering tar inte bort själva markeringen. Till skillnad från "
+-"<quote>Klipp ut</quote> så placerar inte <quote>Töm</quote> det borttagna "
+-"innehållet i urklipp, och innehållet i urklipp påverkas inte."
++"När du tömmer en markering tas inte själva markeringen bort. Till skillnad"
++" från kommandot <quote>Klipp ut</quote> sparar <quote>Töm</quote> inte det"
++" borttagna innehållet i urklippet och påverkar inte det innehåll som redan"
++" finns där."
+ 
+ #: src/menus/edit/clear.xml:48(para)
+ msgid ""
+@@ -2121,10 +2118,10 @@
+ "You can use the <link linkend=\"gimp-buffer-dialog\">Buffers dialog</link> "
+ "to view and manage any named buffers you have created."
+ msgstr ""
+-"Kommandona i denna undermeny agerar på <emphasis>namngivna buffertar</"
+-"emphasis>. Du kan använda <link linkend=\"gimp-buffer-"
+-"dialog\">buffertdialogen</link> för att visa och hantera alla namngivna "
+-"buffertar som du har skapat."
++"Kommandona i undermenyn används för att arbeta med <emphasis>namngivna"
++" buffertar</emphasis>. I <link linkend=\"gimp-buffer-dialog\">dialogrutan"
++" Buffertar</link> kan du visa och hantera namngivna buffertar som du har"
++" skapat."
+ 
+ #: src/menus/edit/buffer.xml:27(title)
+ msgid "Activating the Submenu"
+@@ -2155,10 +2152,10 @@
+ "contents in the global clipboard, it stores it in a special buffer that you "
+ "name using a pop-up dialog."
+ msgstr ""
+-"Kommandot <guimenuitem>Klipp ut namngiven</guimenuitem> klipper ut "
+-"innehållet i markeringen från det aktiva lagret som vanligt, men i stället "
+-"för att lagra innehållet i det globala urklippet så lagras det i en speciell "
+-"buffert som du namnger med en poppuppdialog."
++"Kommandot <guimenuitem>Klipp ut namngiven</guimenuitem> klipper ut"
++" markeringens innehåll från det aktiva lagret, precis som vanligt. I stället"
++" för att spara innehållet i det globala urklippet sparar kommandot det i en"
++" särskild buffert som du namnger i dialogrutan som öppnas."
+ 
+ #: src/menus/edit/buffer.xml:54(term)
+ msgid "Copy Named…"
+@@ -2171,10 +2168,10 @@
+ "content in the global clipboard, it stores it in a special buffer that you "
+ "name using a pop-up dialog."
+ msgstr ""
+-"Kommandot <guimenuitem>Kopiera namngiven</guimenuitem> kopierar innehållet i "
+-"markeringen från det aktiva lagret som vanligt, men i stället för att lagra "
+-"innehållet i det globala urklippet så lagras det i en speciell buffert som "
+-"du namnger med en poppuppdialog."
++"Kommandot <guimenuitem>Kopiera namngiven</guimenuitem> kopierar markeringens"
++" innehåll från det aktiva lagret, precis som vanligt. I stället för att"
++" spara innehållet i det globala urklippet sparar kommandot det i en särskild"
++" buffert som du namnger i dialogrutan som öppnas."
+ 
+ #: src/menus/edit/buffer.xml:67(term)
+ msgid "Copy Visible Named…"
+@@ -2187,10 +2184,10 @@
+ "of storing the content in the global clipboard, it stores it in a special "
+ "buffer that you name using a pop-up dialog."
+ msgstr ""
+-"Kommandot <guimenuitem>Kopiera synlig namngiven</guimenuitem> kopierar "
+-"innehållet i markeringen från det alla synliga lager som vanligt, men i "
+-"stället för att lagra innehållet i det globala urklippet så lagras det i en "
+-"speciell buffert som du namnger med en poppuppdialog."
++"Kommandot <guimenuitem>Kopiera synlig namngiven</guimenuitem> kopierar"
++" markeringens innehåll från alla synliga lager, precis som vanligt. I"
++" stället för att spara innehållet i det globala urklippet sparar kommandot"
++" det i en särskild buffert som du namnger i dialogrutan som öppnas."
+ 
+ #: src/menus/edit/buffer.xml:79(term)
+ msgid "Paste Named…"
+@@ -2204,11 +2201,10 @@
+ "have several options to paste a buffer into the current image or as a new "
+ "image."
+ msgstr ""
+-"Kommandot <guimenuitem>Klistra in namngiven</guimenuitem> tar helt enkelt "
+-"fram <link linkend=\"gimp-buffer-dialog\">dialogen Buffertar</link>. Genom "
+-"att välja en av de listade buffertarna och klicka på en av knapparna längst "
+-"ned så har du flera alternativ för att klistra in en buffert i aktuell bild "
+-"eller som en ny bild."
++"Kommandot <guimenuitem>Klistra in namngiven</guimenuitem> öppnar <link"
++" linkend=\"gimp-buffer-dialog\">dialogrutan Buffertar</link>. Markera en"
++" buffert i listan och klicka på en av knapparna längst ned för att välja om"
++" den ska klistras in i den aktuella bilden eller som en ny bild."
+ 
+ #~ msgid "Activate the Command"
+ #~ msgstr "Aktivera kommandot"
