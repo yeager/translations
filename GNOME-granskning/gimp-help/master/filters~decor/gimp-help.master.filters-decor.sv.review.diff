@@ -1,0 +1,1393 @@
+--- gimp-help.master.filters-decor.sv.original.po
++++ gimp-help.master.filters-decor.sv.reviewed.po
+@@ -7,8 +7,8 @@
+ msgstr ""
+ "Project-Id-Version: decor\n"
+ "POT-Creation-Date: 2026-11-24 22:30+0000\n"
+-"PO-Revision-Date: 2026-08-26 19:58+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-26 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -96,7 +96,8 @@
+ 
+ #: src/filters/decor/stain.xml:25(title)
+ msgid "Example for the <quote>Stain</quote> filter"
+-msgstr "Exempel för filtret <quote>Fläck</quote>"
++msgstr ""
++"Exempel på filtret <quote>Fläck</quote>"
+ 
+ #: src/filters/decor/stain.xml:32(para) src/filters/decor/slide.xml:32(para)
+ #: src/filters/decor/round-corners.xml:32(para)
+@@ -113,11 +114,13 @@
+ msgid ""
+ "<quote>Stain</quote> applied with the gradient <quote>Cold Steel 2</quote>"
+ msgstr ""
+-"<quote>Fläck</quote> tillämpat med gradienten <quote>Cold Steel 2</quote>"
++"Filtret <quote>Fläck</quote> har tillämpats med toningen <quote>Cold Steel"
++" 2</quote>"
+ 
+ #: src/filters/decor/stain.xml:46(para)
+ msgid "This filter adds stains to the image."
+-msgstr "Detta filter lägger till fläckar till bilden."
++msgstr ""
++"Filtret lägger till fläckar i bilden."
+ 
+ #: src/filters/decor/stain.xml:49(para)
+ msgid ""
+@@ -127,11 +130,11 @@
+ "(e.g., move, scale, remove) the stains, or create additional stains using "
+ "the filter again."
+ msgstr ""
+-"Varje fläck skapas i ett eget lager. Fläcklagren flyttas slumpmässigt för "
+-"att få spridning på fläckarna (i slutändan kan du se gränserna för det "
+-"flyttade topplagret). Så efter att ha tillämpat filtret kan du lätt redigera "
+-"(t.ex. flytta, skala, ta bort) fläckarna, eller skapa ytterligare fläckar "
+-"med filtret igen."
++"Fläckarna skapas var och en på ett eget lager. Lagren flyttas slumpmässigt"
++" så att fläckarna sprids ut. (Efter flytten kan du se kanten på det översta"
++" lagret.) När du har använt filtret kan du enkelt redigera fläckarna, till"
++" exempel flytta, skala eller ta bort dem. Du kan också skapa fler fläckar"
++" genom att använda filtret igen."
+ 
+ #: src/filters/decor/stain.xml:57(para)
+ #: src/filters/decor/add-bevel.xml:83(para)
+@@ -160,9 +163,8 @@
+ "guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Stain…</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
+-"Detta filter hittas i huvudmenyn under <menuchoice><guimenu>Filter</"
+-"guimenu><guisubmenu>Dekor</guisubmenu><guimenuitem>Fläck…</guimenuitem></"
+-"menuchoice>."
++"Du hittar filtret i huvudmenyn under"
++" <menuchoice><guimenu>Filter</guimenu><guisubmenu>Dekor</guisubmenu><guimenuitem>Fläck…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/decor/stain.xml:77(title) src/filters/decor/slide.xml:78(title)
+ #: src/filters/decor/round-corners.xml:75(title)
+@@ -186,7 +188,8 @@
+ 
+ #: src/filters/decor/stain.xml:91(para)
+ msgid "The number of stains (1-10)."
+-msgstr "Antalet fläckar (1-10)."
++msgstr ""
++"Antalet fläckar (1–10)."
+ 
+ #: src/filters/decor/stain.xml:95(term)
+ msgid "Darken only"
+@@ -200,11 +203,11 @@
+ "set to <quote>Darken only</quote>, otherwise it is set to <quote>Normal</"
+ "quote>."
+ msgstr ""
+-"Eftersom varje fläck skapas i ett eget lager så behöver alla lager slås "
+-"samman för att få bildens utseende. Om detta alternativ är ikryssat så sätts "
+-"det relevanta <link linkend=\"gimp-concepts-layer-modes\">lagerläget</link> "
+-"till <quote>Gör endast mörkare</quote> annars sätts det till <quote>Normal</"
+-"quote>."
++"Eftersom varje fläck skapas på ett eget lager måste alla lager sammanfogas"
++" för att återge bilden. Om alternativet är markerat ställs det aktuella"
++" <link linkend=\"gimp-concepts-layer-modes\">lagerläget</link> in på"
++" <quote>Gör endast mörkare</quote>; annars används läget"
++" <quote>Normal</quote>."
+ 
+ #: src/filters/decor/stain.xml:105(para)
+ msgid ""
+@@ -222,11 +225,13 @@
+ 
+ #: src/filters/decor/stain.xml:116(term)
+ msgid "Gradient to color stains"
+-msgstr "Gradient att färga fläckar med"
++msgstr ""
++"Toning för fläckarnas färg"
+ 
+ #: src/filters/decor/stain.xml:118(para)
+ msgid "The gradient that is used for created stains."
+-msgstr "Gradienten som används för skapade fläckar."
++msgstr ""
++"Toningen som används för fläckarna."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -256,7 +261,8 @@
+ 
+ #: src/filters/decor/slide.xml:25(title)
+ msgid "Example for the <quote>Slide</quote> filter"
+-msgstr "Exempel för filtret <quote>Filmruta</quote>"
++msgstr ""
++"Exempel på filtret <quote>Filmruta</quote>"
+ 
+ #: src/filters/decor/slide.xml:41(para)
+ #: src/filters/decor/round-corners.xml:41(para)
+@@ -275,8 +281,8 @@
+ "This filter makes your image look like a slide, by adding a slide-film like "
+ "black frame, sprocket holes, and labels."
+ msgstr ""
+-"Detta filter får din bild att se ut som en filmruta genom att lägga till en "
+-"diabildsliknande svart ram, perforering och etiketter."
++"Filtret ger bilden utseendet av en filmruta genom att lägga till en svart"
++" ram med filmperforeringar och etiketter."
+ 
+ #: src/filters/decor/slide.xml:49(para)
+ msgid ""
+@@ -287,12 +293,10 @@
+ "as the font of the text appearing on the frames. The current background "
+ "color will be used for drawing the holes."
+ msgstr ""
+-"Om nödvändigt kommer bilden beskäras så den passar i ett bildförhållande på "
+-"bredd : höjd = 3:2. Om bildbredden är större än höjden kommer svarta ramar "
+-"läggas till högst upp och längst ner på bilden, annars kommer ramarna läggas "
+-"till på vänster och höger sida. Du kan välja färgen såväl som typsnittet för "
+-"texten som visas på ramarna. Den aktuella bakgrundsfärgen kommer användas "
+-"för att rita hålen."
++"Bilden beskärs vid behov till bildförhållandet 3:2. Om den är bredare än den"
++" är hög läggs svarta kanter till ovanför och under bilden; annars läggs"
++" kanterna till på vänster och höger sida. Du kan välja färg och typsnitt för"
++" texten på kanterna. Hålen ritas med den aktuella bakgrundsfärgen."
+ 
+ #: src/filters/decor/slide.xml:58(para)
+ msgid ""
+@@ -308,9 +312,8 @@
+ "guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Slide…</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
+-"Detta filter hittas i huvudmenyn under <menuchoice><guimenu>Filter</"
+-"guimenu><guisubmenu>Dekor</guisubmenu><guimenuitem>Filmruta…</guimenuitem></"
+-"menuchoice>."
++"Du hittar filtret i huvudmenyn under"
++" <menuchoice><guimenu>Filter</guimenu><guisubmenu>Dekor</guisubmenu><guimenuitem>Filmruta…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/decor/slide.xml:80(title)
+ msgid "<quote>Slide</quote> options"
+@@ -325,8 +328,8 @@
+ "A short label that will be displayed in the top (or the left) of the frame. "
+ "The text must be really short."
+ msgstr ""
+-"En kort etikett som kommer visas högst upp (eller till vänster) på ramen. "
+-"Texten måste vara mycket kort."
++"En kort etikett som visas högst upp (eller till vänster) på ramen. Texten"
++" måste vara mycket kort."
+ 
+ #: src/filters/decor/slide.xml:99(term)
+ msgid "Number"
+@@ -338,8 +341,8 @@
+ "will be displayed: this number and this number with the character <quote>A</"
+ "quote> appended."
+ msgstr ""
+-"Här kan du ange en text för att simulera stigande tal. Två tal kommer visas: "
+-"detta tal, och samma tal med tecknet <quote>A</quote> tillagt."
++"Här anger du en text för att simulera en nummerserie. Två nummer visas:"
++" värdet du angav och samma värde med bokstaven <quote>A</quote> efter."
+ 
+ #: src/filters/decor/slide.xml:109(term)
+ msgid "Font"
+@@ -350,9 +353,9 @@
+ "Clicking on this button opens the <link linkend=\"gimp-font-dialog\">Font "
+ "dialog</link>, where you can choose a font for the text on the frame."
+ msgstr ""
+-"Att klicka på denna knapp öppnar <link linkend=\"gimp-font-"
+-"dialog\">typsnittsdialogen</link> där du kan välja ett typsnitt för ramens "
+-"text."
++"När du klickar på knappen öppnas <link"
++" linkend=\"gimp-font-dialog\">typsnittsdialogen</link>, där du kan välja"
++" typsnitt för texten på ramen."
+ 
+ #: src/filters/decor/slide.xml:119(term)
+ msgid "Font color"
+@@ -363,8 +366,8 @@
+ "Clicking on this button brings up a color selection dialog that allows you "
+ "to choose the color of the text."
+ msgstr ""
+-"Att klicka på denna knapp öppnar en färgvalsdialog som låter dig välja "
+-"textens färg."
++"När du klickar på knappen öppnas en färgväljardialog där du kan välja"
++" textens färg."
+ 
+ #: src/filters/decor/slide.xml:128(term)
+ #: src/filters/decor/round-corners.xml:216(term)
+@@ -379,8 +382,8 @@
+ "If checked, the filter creates a copy of the image with the filter applied. "
+ "The original image remains unchanged."
+ msgstr ""
+-"Om ikryssad skapar filtret en ny bild som är en kopia av bilden med filtret "
+-"tillämpat. Den ursprungliga bilden förblir oförändrad."
++"Om alternativet är markerat skapas en kopia av bilden med filtret tillämpat."
++" Originalbilden ändras inte."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -477,8 +480,8 @@
+ "This filter rounds the corners of an image, optionally adding a drop-shadow "
+ "and a background layer."
+ msgstr ""
+-"Detta filter gör en bilds hörn rundare, och lägger valfritt till skugga och "
+-"ett bakgrundslager."
++"Filtret rundar bildens hörn och kan också lägga till en skugga och ett"
++" bakgrundslager."
+ 
+ #: src/filters/decor/round-corners.xml:49(para)
+ msgid ""
+@@ -486,9 +489,9 @@
+ "creates a copy of the image or can optionally work on the original. It uses "
+ "the current background color to create a background layer."
+ msgstr ""
+-"Filtret arbetar på RGB- och gråskalebilder som endast har ett lager. Det "
+-"skapar en kopia eller kan valfritt arbeta på originalet. Det använder den "
+-"aktuella bakgrundsfärgen för att skapa ett bakgrundslager."
++"Filtret fungerar på RGB- och gråskalebilder med ett enda lager. Det skapar"
++" en kopia av bilden eller kan användas direkt på originalet. Bakgrundslagret"
++" fylls med den aktuella bakgrundsfärgen."
+ 
+ #: src/filters/decor/round-corners.xml:56(para)
+ #: src/filters/decor/old-photo.xml:51(para)
+@@ -503,9 +506,9 @@
+ "guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Round Corners…</"
+ "guimenuitem></menuchoice>."
+ msgstr ""
+-"Detta filter hittas i huvudmenyn under <menuchoice><guimenu>Filter</"
+-"guimenu><guisubmenu>Dekor</guisubmenu><guimenuitem>Runda hörn…</"
+-"guimenuitem></menuchoice>."
++"Du hittar filtret i huvudmenyn under"
++" <menuchoice><guimenu>Filter</guimenu><guisubmenu>Dekor</guisubmenu><guimenuitem>Runda"
++" hörn…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/decor/round-corners.xml:77(title)
+ msgid "<quote>Round Corners</quote> options"
+@@ -521,9 +524,9 @@
+ "and removing the area not covered by this selection. The <quote>edge radius</"
+ "quote> is the radius of the constructing circle."
+ msgstr ""
+-"Rundning av hörn utförs genom att markera en fjärdedels cirkel i varje hörn "
+-"och ta bort området som inte är täckt av denna markering. <quote>Hörnradie</"
+-"quote> är radien av cirkeln som används för skapandet."
++"Rundningen görs genom att markera en kvarts cirkel vid varje hörn och ta"
++" bort området utanför markeringen. <quote>Hörnradie</quote> är radien på"
++" cirkeln som används."
+ 
+ #: src/filters/decor/round-corners.xml:95(para)
+ msgid ""
+@@ -532,10 +535,10 @@
+ "circle with diameter = 100, which exactly fits into the original image "
+ "outline. A radius greater than 50 is possible, but look what happens:"
+ msgstr ""
+-"I exemplen nedan tillämpades filtret på en bild på 100×100 bildpunkter, med "
+-"varierande hörnradie. För radie = 50 formar de fyra kvadranterna bara en "
+-"cirkel med diameter = 100, vilken exakt passar in i den ursprungliga bildens "
+-"kontur. En radie större än 50 är möjlig, men se vad som händer:"
++"I exemplen nedan har filtret tillämpats på en bild på 100 × 100 bildpunkter"
++" med olika hörnradier. När radien är 50 bildar de fyra kvartsdelarna"
++" tillsammans en cirkel med diametern 100, som precis ryms inom bildens"
++" ursprungliga kant. Det går att ange en större radie, men se vad som händer:"
+ 
+ #: src/filters/decor/round-corners.xml:103(title)
+ msgid "Edge radius examples"
+@@ -543,7 +546,8 @@
+ 
+ #: src/filters/decor/round-corners.xml:110(para)
+ msgid "A 100×100 pixels image, edge radius: 15 (default)."
+-msgstr "En bild på 100×100 bildpunkter, hörnradie: 15 (standard)."
++msgstr ""
++"En bild på 100 × 100 bildpunkter, hörnradie: 15 (standard)."
+ 
+ #: src/filters/decor/round-corners.xml:121(para)
+ msgid "Edge radius: 35."
+@@ -559,19 +563,21 @@
+ 
+ #: src/filters/decor/round-corners.xml:146(term)
+ msgid "Add drop-shadow"
+-msgstr "Lägg till kastad skugga"
++msgstr ""
++"Lägg till skugga"
+ 
+ #: src/filters/decor/round-corners.xml:148(para)
+ msgid ""
+ "When this option is checked, the filter will cast a shadow behind your image "
+ "after rounding the image corners."
+ msgstr ""
+-"När detta alternativ är ikryssat kommer filtret kasta en skugga bakom din "
+-"bild efter att ha rundat bildens hörn."
++"När alternativet är markerat lägger filtret en skugga bakom bilden efter att"
++" hörnen har rundats."
+ 
+ #: src/filters/decor/round-corners.xml:155(term)
+ msgid "Shadow X/Y offset"
+-msgstr "X/Y-avstånd för skugga"
++msgstr ""
++"Skuggans X-/Y-förskjutning"
+ 
+ #: src/filters/decor/round-corners.xml:157(para)
+ msgid ""
+@@ -579,9 +585,9 @@
+ "image. Offset is measured in pixels. High values make the shadow look like "
+ "it's far away, and low values will make it look closer to the image."
+ msgstr ""
+-"X/Y-avstånd avgör var skuggan kommer placeras i relation till bilden. "
+-"Avståndet mäts i bildpunkter. Höga värden får skuggan att se ut att vara "
+-"långt bort, och låga värden får den att se ut vara närmare bilden."
++"Förskjutningarna X och Y anger skuggans placering i förhållande till bilden."
++" De mäts i bildpunkter. Höga värden får skuggan att se ut att ligga längre"
++" bort; låga värden placerar den närmare bilden."
+ 
+ #: src/filters/decor/round-corners.xml:164(title)
+ msgid "Shadow offset examples"
+@@ -589,7 +595,8 @@
+ 
+ #: src/filters/decor/round-corners.xml:171(para)
+ msgid "Shadow X offset: 8, Y offset: 8 (default)."
+-msgstr "X-avstånd för skugga: 8, Y-avstånd: 8 (standard)."
++msgstr ""
++"Skuggans X-förskjutning: 8, Y-förskjutning: 8 (standard)."
+ 
+ #: src/filters/decor/round-corners.xml:182(para)
+ msgid "Shadow X offset: 16, Y offset: 4."
+@@ -600,8 +607,8 @@
+ "Note that the shadow offsets as well as the blur radius are limited to "
+ "background area."
+ msgstr ""
+-"Observera att skuggavstånden såväl som oskärperadien är begränsade till "
+-"bakgrundsområdet."
++"Observera att skuggans förskjutning och oskärperadie begränsas av"
++" bakgrundsytan."
+ 
+ #: src/filters/decor/round-corners.xml:193(term)
+ msgid "Blur radius"
+@@ -615,10 +622,10 @@
+ "shadow\">Drop Shadow</link> filter. The image will be enlarged in both "
+ "dimensions depending on the blur radius and the shadow offsets."
+ msgstr ""
+-"När <guilabel>Lägg till kastad skugga</guilabel> är ikryssat kan du välja en "
+-"oskärperadie som kommer användas av filtret <link linkend=\"script-fu-drop-"
+-"shadow\">Skuggkastning</link>. Bilden kommer förstoras i båda dimensionerna "
+-"enligt oskärperadien och skuggavstånden."
++"När <guilabel>Lägg till skugga</guilabel> är markerat kan du välja"
++" oskärperadie. Den används av filtret <link"
++" linkend=\"script-fu-drop-shadow\">Skugga</link>. Bilden förstoras i båda"
++" dimensionerna beroende på oskärperadien och skuggans förskjutning."
+ 
+ #: src/filters/decor/round-corners.xml:205(term)
+ msgid "Add background"
+@@ -631,10 +638,10 @@
+ "background color. The size of this new layer depends on the blur radius and "
+ "the shadow offsets."
+ msgstr ""
+-"När du kryssar i detta alternativ (det är som standard ikryssat) kommer "
+-"filtret lägga till ett bakgrundslager bakom det befintliga lagret, fyllt med "
+-"aktuell bakgrundsfärg. Storleken på detta nya lager beror på oskärperadien "
+-"och skuggavstånden."
++"När alternativet är markerat (vilket det är som standard) lägger filtret"
++" till ett bakgrundslager under det befintliga lagret och fyller det med den"
++" aktuella bakgrundsfärgen. Det nya lagrets storlek beror på oskärperadien"
++" och skuggans förskjutning."
+ 
+ # TODO: unified gimp now. No new window
+ #: src/filters/decor/round-corners.xml:218(para)
+@@ -645,8 +652,8 @@
+ "If checked, the filter creates a new window containing a copy of the image "
+ "with the filter applied. The original image remains unchanged."
+ msgstr ""
+-"Om ikryssad skapar filtret en ny bild som är en kopia av bilden med filtret "
+-"tillämpat. Den ursprungliga bilden förblir oförändrad."
++"Om alternativet är markerat öppnas ett nytt fönster med en kopia av bilden"
++" där filtret har tillämpats. Originalbilden ändras inte."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -713,8 +720,8 @@
+ "This filter makes an image look like an old photo: blurred, with a jagged "
+ "border, toned with a brown shade, and marked with spots."
+ msgstr ""
+-"Detta filter får en bild att se ut som ett gammalt fotografi, med ojämn "
+-"kant, tonat med en brun nyans, och märkt med fläckar."
++"Filtret får bilden att se ut som ett gammalt fotografi: oskarpt, med ojämn"
++" kant, bruntonat och med fläckar."
+ 
+ #: src/filters/decor/old-photo.xml:59(para)
+ msgid ""
+@@ -739,8 +746,9 @@
+ "If checked, a <link linkend=\"gimp-filter-gaussian-blur\">Gaussian blur</"
+ "link> will be applied to the image, making it less clear."
+ msgstr ""
+-"Om ikryssad kommer en <link linkend=\"gimp-filter-gaussian-blur\">gaussisk "
+-"oskärpa</link> tillämpas på bilden, och göra den mindre skarp."
++"När alternativet är markerat tillämpas en <link"
++" linkend=\"gimp-filter-gaussian-blur\">gaussisk oskärpa</link> på bilden så"
++" att den blir mindre skarp."
+ 
+ #: src/filters/decor/old-photo.xml:89(title)
+ msgid "Example for the <quote>Defocus</quote> option"
+@@ -765,9 +773,9 @@
+ "border\">Fuzzy Border</link> filter will be applied to the image, adding a "
+ "white, jagged border."
+ msgstr ""
+-"När du väljer en kantstorlek &gt; 0 kommer filtret <link linkend=\"script-fu-"
+-"fuzzy-border\">Suddig kant</link> tillämpas på bilden, vilket lägger till en "
+-"vit, ojämn kant."
++"När kantstorleken är &gt; 0 tillämpas filtret <link"
++" linkend=\"script-fu-fuzzy-border\">Suddig kant</link>, som lägger till en vit"
++" och ojämn kant."
+ 
+ #: src/filters/decor/old-photo.xml:122(term)
+ msgid "Sepia"
+@@ -789,11 +797,10 @@
+ "reduces brightness and contrast, and modifies the color balance."
+ "<placeholder-2/>"
+ msgstr ""
+-"Om ikryssad reproducerar filtret den åldrande effekten i gamla, "
+-"traditionella svartvita fotografier, tonade med sepia (nyanser av brunt)."
+-"<placeholder-1/> För att åstadkomma denna effekt avmättar filtret bilden, "
+-"reducerar ljusstyrka och kontrast, och modifierar färgbalansen."
+-"<placeholder-2/>"
++"Om alternativet är markerat återskapar filtret åldrandet hos traditionella"
++" svartvita fotografier som sepiatonats (bruna nyanser).<placeholder-1/>"
++" Filtret ger effekten genom att minska bildens färgmättnad, ljusstyrka och"
++" kontrast samt justera färgbalansen.<placeholder-2/>"
+ 
+ #: src/filters/decor/old-photo.xml:139(term)
+ msgid "Mottle"
+@@ -802,7 +809,7 @@
+ #: src/filters/decor/old-photo.xml:141(para)
+ msgid "When you check this option, the image will be marked with spots."
+ msgstr ""
+-"När du kryssar i detta alternativt kommer bilden vara märkt av fläckar."
++"När alternativet markeras läggs fläckar till i bilden."
+ 
+ #: src/filters/decor/old-photo.xml:145(title)
+ msgid "Example for the <quote>Mottle</quote> option"
+@@ -810,7 +817,8 @@
+ 
+ #: src/filters/decor/old-photo.xml:152(para)
+ msgid "A plain white image mottled (without Defocus or Sepia)"
+-msgstr "En vanlig vit bild som är fläckad (utan Avfokusera eller Sepia)"
++msgstr ""
++"En vit bild med fläckar (utan Avfokusera eller Sepia)"
+ 
+ #: src/filters/decor/introduction.xml:12(title)
+ #: src/filters/decor/introduction.xml:17(tertiary)
+@@ -822,8 +830,8 @@
+ "Decor filters create decorative borders, and some of them add some special "
+ "effects to the image."
+ msgstr ""
+-"Dekorfilter skapar dekorativa kanter, och några av dem lägger till några "
+-"specialeffekter till bilden."
++"Dekorfiltren skapar dekorativa kanter. Vissa av dem lägger dessutom till"
++" specialeffekter i bilden."
+ 
+ #: src/filters/decor/introduction.xml:27(para)
+ msgid "This category describes the following filters:"
+@@ -965,9 +973,9 @@
+ "jagged and fuzzy, and you can specify color and thickness of the fading "
+ "border. Optionally you may add a shadow to the image."
+ msgstr ""
+-"Detta filter lägger till en cool uttonande kant till en bild. Kanten kommer "
+-"se ojämn och suddig ut, och du kan ange färg och tjocklek på den uttonande "
+-"kanten. Valfritt kan du lägga till en skugga till bilden."
++"Filtret lägger till en effektfull tonad kant runt bilden. Kanten blir ojämn"
++" och suddig, och du kan ange dess färg och tjocklek. Du kan också lägga till"
++" en skugga."
+ 
+ #: src/filters/decor/fuzzyborder.xml:59(para)
+ msgid ""
+@@ -992,27 +1000,29 @@
+ "Clicking on this button brings up the color selector dialog that allows you "
+ "to choose the border color."
+ msgstr ""
+-"Att klicka på denna knapp öppnar färgvalsdialogen som låter dig välja "
+-"kantens färg."
++"När du klickar på knappen öppnas färgväljaren, där du kan välja kantens"
++" färg."
+ 
+ #: src/filters/decor/fuzzyborder.xml:93(para)
+ msgid ""
+ "Here you can set the thickness of the fuzzy border, in pixels. Maximum is "
+ "300 pixels, regardless of the image width or height."
+ msgstr ""
+-"Här kan du ställa in tjockleken på den suddiga kanten i bildpunkter. Maximum "
+-"är 300 bildpunkter, oavsett bildens bredd eller höjd."
++"Här anger du den suddiga kantens tjocklek i bildpunkter. Den kan vara högst"
++" 300 bildpunkter, oavsett bildens bredd och höjd."
+ 
+ #: src/filters/decor/fuzzyborder.xml:100(term)
+ msgid "Blur border"
+-msgstr "Oskärpa längs kant"
++msgstr ""
++"Oskärpa kanten"
+ 
+ #: src/filters/decor/fuzzyborder.xml:102(para)
+ msgid ""
+ "If checked, the border will be blurred. The example below shows the effect "
+ "of blurring:"
+ msgstr ""
+-"Om ikryssad kommer kanten göras oskarp. Exemplet nedan visar oskärpeeffekten:"
++"Om alternativet är markerat görs kanten oskarp. Exemplet nedan visar"
++" effekten:"
+ 
+ #: src/filters/decor/fuzzyborder.xml:107(title)
+ msgid "<quote>Blur border</quote> example"
+@@ -1021,28 +1031,32 @@
+ #: src/filters/decor/fuzzyborder.xml:114(para)
+ #: src/filters/decor/fuzzyborder.xml:135(para)
+ msgid "<quote>Blur border</quote> checked"
+-msgstr "<quote>Oskärpa längs kant</quote> ikryssad"
++msgstr ""
++"<quote>Oskärpa kanten</quote> markerat"
+ 
+ #: src/filters/decor/fuzzyborder.xml:123(para)
+ #: src/filters/decor/fuzzyborder.xml:144(para)
+ msgid "<quote>Blur border</quote> unchecked"
+-msgstr "<quote>Oskärpa längs kant</quote> avmarkerad"
++msgstr ""
++"<quote>Oskärpa kanten</quote> avmarkerat"
+ 
+ #: src/filters/decor/fuzzyborder.xml:128(title)
+ msgid "<quote>Blur border</quote> zoomed (1600%)"
+-msgstr "<quote>Oskärpa längs kant</quote> zoomad (1600%)"
++msgstr ""
++"<quote>Oskärpa kanten</quote>, inzoomad (1 600 %)"
+ 
+ #: src/filters/decor/fuzzyborder.xml:151(term)
+ msgid "Granularity"
+-msgstr "Granularitet"
++msgstr ""
++"Kornighet"
+ 
+ #: src/filters/decor/fuzzyborder.xml:153(para)
+ msgid ""
+ "The border's granularity is almost the size of pixel blocks spread to create "
+ "the effect of a jagged and fuzzy border."
+ msgstr ""
+-"Kantens granularitet är nästan storleken på bildpunktsblocks spridning för "
+-"att skapa effekten av en ojämn och suddig kant."
++"Kornigheten anger ungefär storleken på de bildpunktsblock som sprids ut för"
++" att skapa en ojämn och suddig kant."
+ 
+ #: src/filters/decor/fuzzyborder.xml:158(title)
+ msgid "Granularity example (without blurring)"
+@@ -1050,15 +1064,18 @@
+ 
+ #: src/filters/decor/fuzzyborder.xml:165(para)
+ msgid "Granularity 1 (min)"
+-msgstr "Granularitet 1 (min)"
++msgstr ""
++"Kornighet 1 (min)"
+ 
+ #: src/filters/decor/fuzzyborder.xml:174(para)
+ msgid "Granularity 4 (default)"
+-msgstr "Granularitet 4 (standard)"
++msgstr ""
++"Kornighet 4 (standard)"
+ 
+ #: src/filters/decor/fuzzyborder.xml:183(para)
+ msgid "Granularity 16 (max)"
+-msgstr "Granularitet 16 (max)"
++msgstr ""
++"Kornighet 16 (max)"
+ 
+ #: src/filters/decor/fuzzyborder.xml:190(term)
+ msgid "Add shadow"
+@@ -1066,7 +1083,8 @@
+ 
+ #: src/filters/decor/fuzzyborder.xml:192(para)
+ msgid "If checked, the filter will also create a shadow at the border."
+-msgstr "Om ikryssad kommer filtret också skapa en skugga vid kanten."
++msgstr ""
++"Om alternativet är markerat lägger filtret också en skugga längs kanten."
+ 
+ #: src/filters/decor/fuzzyborder.xml:196(title)
+ msgid "<quote>Add shadow</quote> example"
+@@ -1077,11 +1095,12 @@
+ "<quote>Add shadow</quote> checked, shadow weight 100% (default shadow "
+ "weight)."
+ msgstr ""
+-"<quote>Lägg till skugga</quote> ikryssad, skuggvikt 100% (standardskuggvikt)."
++"<quote>Lägg till skugga</quote> markerat, skuggopacitet 100 % (standard)."
+ 
+ #: src/filters/decor/fuzzyborder.xml:215(para)
+ msgid "<quote>Add shadow</quote> with shadow weight 10%."
+-msgstr "<quote>Lägg till skugga</quote> med skuggvikt 10%."
++msgstr ""
++"<quote>Lägg till skugga</quote> med skuggopacitet 10 %."
+ 
+ #: src/filters/decor/fuzzyborder.xml:226(para)
+ msgid "<quote>Add shadow</quote> unchecked (default)"
+@@ -1089,15 +1108,16 @@
+ 
+ #: src/filters/decor/fuzzyborder.xml:235(term)
+ msgid "Shadow weight"
+-msgstr "Skuggvikt"
++msgstr ""
++"Skuggopacitet"
+ 
+ #: src/filters/decor/fuzzyborder.xml:237(para)
+ msgid ""
+ "If <guilabel>Add shadow</guilabel> is checked, you may set the shadow "
+ "opacity here. Defaults to 100% (full opacity)."
+ msgstr ""
+-"Om <quote>Lägg till skugga</quote> är ikryssat kan du ställa in "
+-"skuggopaciteten här. Standardvärde 100% (helt ogenomskinlig)."
++"Om <guilabel>Lägg till skugga</guilabel> är markerat kan du ställa in"
++" skuggans opacitet här. Standardvärdet är 100 % (helt ogenomskinlig)."
+ 
+ #: src/filters/decor/fuzzyborder.xml:255(term)
+ msgid "Flatten image"
+@@ -1108,8 +1128,9 @@
+ "If unchecked, the filter keeps the additional layers it used to create the "
+ "border and the shadow (if demanded). Default is to merge down all layers."
+ msgstr ""
+-"Om avmarkerad behåller filtret de extra lager de använde för att skapa "
+-"kanten och skuggan (om begärda). Standard är att sammanfoga alla lager nedåt."
++"Om alternativet inte är markerat behåller filtret de extra lager som används"
++" för att skapa kanten och eventuell skugga. Som standard sammanfogas alla"
++" lager."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1146,9 +1167,9 @@
+ "fog or smoke. The clouds are created with the <link linkend=\"gimp-filter-"
+ "plasma\">Plasma</link> texture."
+ msgstr ""
+-"Detta filter lägger till ett nytt lager med några moln som ser ut som rök "
+-"eller dimma till bilden. Molnen skapas med texturen <link linkend=\"gimp-"
+-"filter-plasma\">Plasma</link>."
++"Filtret lägger till ett nytt lager med moln som liknar dimma eller rök."
++" Molnen skapas med texturen <link"
++" linkend=\"gimp-filter-plasma\">Plasma</link>."
+ 
+ #: src/filters/decor/fog.xml:58(para)
+ msgid ""
+@@ -1156,9 +1177,8 @@
+ "guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Fog…</guimenuitem></"
+ "menuchoice>."
+ msgstr ""
+-"Detta filter hittas i huvudmenyn under <menuchoice><guimenu>Filter</"
+-"guimenu><guisubmenu>Dekor</guisubmenu><guimenuitem>Dimma…</guimenuitem></"
+-"menuchoice>."
++"Du hittar filtret i huvudmenyn under"
++" <menuchoice><guimenu>Filter</guimenu><guisubmenu>Dekor</guisubmenu><guimenuitem>Dimma…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/decor/fog.xml:71(title)
+ msgid "<quote>Fog</quote> options"
+@@ -1170,9 +1190,9 @@
+ "important, because you can't change it later and have to undo and repeat the "
+ "filter if the result doesn't fit your desire."
+ msgstr ""
+-"Bland de få filteralternativen är det endast <quote>Turbulens</quote> som är "
+-"någorlunda viktigt, eftersom du inte kan ändra det senare utan måste ångra "
+-"och upprepa filtret om resultatet inte stämmer överens med vad du vill."
++"Bland filtrets få alternativ är <quote>Turbulens</quote> det viktigaste,"
++" eftersom du inte kan ändra det i efterhand. Om resultatet inte blir som du"
++" vill måste du ångra och använda filtret igen."
+ 
+ #: src/filters/decor/fog.xml:87(term)
+ msgid "Layer name"
+@@ -1183,8 +1203,8 @@
+ "The name of the layer. You can change it later in the <link linkend=\"gimp-"
+ "layer-attributes\">Layers Dialog</link>."
+ msgstr ""
+-"Namnet på lagret. Du kan ändra det senare i <link linkend=\"gimp-layer-"
+-"attributes\">dialogen Lager</link>."
++"Lagrets namn. Du kan ändra det senare i <link"
++" linkend=\"gimp-layer-attributes\">dialogen Lager</link>."
+ 
+ #: src/filters/decor/fog.xml:96(term)
+ msgid "Fog color"
+@@ -1195,9 +1215,8 @@
+ "Defaults to some kind of sandy brown (240, 180, 70). Click on the color "
+ "button to change this if you think that is not the natural color of fog."
+ msgstr ""
+-"Standardvärdet är någon sorts sandig brunfärg (240, 180, 70). Klicka på "
+-"färgknappen för att ändra detta om du inte tycker det är den naturliga "
+-"färgen för dimma."
++"Standardfärgen är sandbrun (240, 180, 70). Om du tycker att den inte ser ut"
++" som dimma kan du klicka på färgknappen och ändra den."
+ 
+ #: src/filters/decor/fog.xml:106(term)
+ msgid "Turbulence"
+@@ -1209,9 +1228,9 @@
+ "plasma\">Plasma</link> filter: it controls the complexity of the clouds, "
+ "from soft (low values) to hard (high values)."
+ msgstr ""
+-"Detta är faktiskt alternativet Turbulens i filtret <link linkend=\"gimp-"
+-"filter-plasma\">Plasma</link>: det styr molnens komplexitet, från mjuk (låga "
+-"värden) till hård (höga värden)."
++"Det här är samma turbulensinställning som i filtret <link"
++" linkend=\"gimp-filter-plasma\">Plasma</link>. Den styr hur komplexa molnen"
++" blir: från mjuka vid låga värden till hårda vid höga värden."
+ 
+ #: src/filters/decor/fog.xml:117(term)
+ msgid "Opacity"
+@@ -1320,11 +1339,13 @@
+ #: src/filters/decor/chrome-it.xml:11(tertiary)
+ #: src/filters/decor/chrome-it.xml:14(primary)
+ msgid "Stencil Chrome"
+-msgstr "Stencilerat krom"
++msgstr ""
++"Krom med mask"
+ 
+ #: src/filters/decor/chrome-it.xml:20(title)
+ msgid "Example for the <quote>Stencil Chrome</quote> filter"
+-msgstr "Exempel för filtret <quote>Stencilerat krom</quote>"
++msgstr ""
++"Exempel på filtret <quote>Krom med mask</quote>"
+ 
+ #: src/filters/decor/chrome-it.xml:40(para)
+ msgid ""
+@@ -1332,9 +1353,8 @@
+ "containing a single layer. This layer is used as mask (<quote>stencil</"
+ "quote>) for the chrome effect."
+ msgstr ""
+-"Detta lager tillhandahåller en kromeffekt. Källbilden måste vara en bild som "
+-"innehåller ett enda lager. Detta lager används som mask (<quote>stencil</"
+-"quote>) för kromeffekten."
++"Filtret ger en kromeffekt. Källbilden måste innehålla ett enda lager. Lagret"
++" används som <quote>mask</quote> för kromeffekten."
+ 
+ #: src/filters/decor/chrome-it.xml:45(para)
+ msgid ""
+@@ -1343,10 +1363,9 @@
+ "nice background is added too). If no environment map image is specified, a "
+ "copy of the source image will be used."
+ msgstr ""
+-"Filtret skapar en ny bild med kromeffekten tillämpad på källbilden, eller om "
+-"en markering finns, till markeringen på källbilden (en trevlig bakgrund "
+-"läggs också till). Om ingen miljökartbild anges kommer en kopia av "
+-"källbilden att användas."
++"Filtret skapar en ny bild med kromeffekten tillämpad på källbilden eller, om"
++" det finns en markering, på det markerade området. En bakgrund läggs också"
++" till. Om ingen miljökarta anges används en kopia av källbilden."
+ 
+ #: src/filters/decor/chrome-it.xml:55(para)
+ msgid ""
+@@ -1354,13 +1373,14 @@
+ "guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Stencil Chrome…</"
+ "guimenuitem></menuchoice>."
+ msgstr ""
+-"Detta filter hittas i huvudmenyn under <menuchoice><guimenu>Filter</"
+-"guimenu><guisubmenu>Dekor</guisubmenu><guimenuitem>Stencilerat krom…</"
+-"guimenuitem></menuchoice>."
++"Du hittar filtret i huvudmenyn under"
++" <menuchoice><guimenu>Filter</guimenu><guisubmenu>Dekor</guisubmenu><guimenuitem>Krom"
++" med mask…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/decor/chrome-it.xml:68(title)
+ msgid "<quote>Stencil Chrome</quote> options"
+-msgstr "Alternativ för <quote>Stencilerat krom</quote>"
++msgstr ""
++"Alternativ för <quote>Krom med mask</quote>"
+ 
+ #: src/filters/decor/chrome-it.xml:78(term)
+ msgid "Chrome saturation"
+@@ -1368,7 +1388,8 @@
+ 
+ #: src/filters/decor/chrome-it.xml:79(term)
+ msgid "Chrome lightness"
+-msgstr "Kromljusstyrka"
++msgstr ""
++"Kromljushet"
+ 
+ #. TRANSLATORS: <quote>d "Chrome", "Highlight" and
+ #. "Drop Shadow" are the layer names set by the script.
+@@ -1393,17 +1414,17 @@
+ "construct the <quote>Chrome</quote> and <quote>Highlight</quote> layer (and "
+ "the <quote>Drop Shadow</quote> as well)."
+ msgstr ""
+-"Denna faktor låter dig justera positioner, luddradie och penselstorlek som "
+-"används för att konstruera lagren <quote>Krom</quote> och "
+-"<quote>Färgmarkering</quote> (samt även <quote>Skuggkastning</quote>)."
++"Med den här faktorn justerar du förskjutningarna, luddradien och"
++" penselstorleken som används för att skapa lagren <quote>Krom</quote> och"
++" <quote>Högdager</quote>, samt <quote>Skugga</quote>."
+ 
+ #: src/filters/decor/chrome-it.xml:100(para)
+ msgid ""
+ "Change with caution, decreasing this value may make the chrome effect worse. "
+ "The default factor 0.75 seems to be a good choice."
+ msgstr ""
+-"Ändra med varsamhet, att minska detta värde kan göra kromeffekten sämre. "
+-"Standardfaktorn 0,75 verkar vara ett bra val."
++"Ändra försiktigt: om du sänker värdet kan kromeffekten försämras."
++" Standardvärdet 0,75 brukar fungera bra."
+ 
+ #: src/filters/decor/chrome-it.xml:107(term)
+ msgid "Environment map"
+@@ -1416,14 +1437,14 @@
+ "quote> to the source. If no image is selected here, the source image will be "
+ "used."
+ msgstr ""
+-"Miljökartan är en bild som läggs till som ett sorts <quote>brus</quote> till "
+-"källan. Om ingen bild väljs här kommer källbilden användas."
++"Miljökartan är en bild som läggs till som ett slags <quote>brus</quote> i"
++" källbilden. Om du inte väljer någon miljökarta används källbilden."
+ 
+ #: src/filters/decor/chrome-it.xml:114(para)
+ msgid ""
+ "The effect is best to see if you use a simple map with some obvious shapes:"
+ msgstr ""
+-"Effekten syns bäst om du använder en enkel karta med några uppenbara former:"
++"Effekten syns bäst med en enkel karta som innehåller tydliga former:"
+ 
+ #: src/filters/decor/chrome-it.xml:124(para)
+ msgid "Using a simple environment map"
+@@ -1434,8 +1455,7 @@
+ "The size of the environment map image doesn't matter, it is scaled to the "
+ "size of the source image."
+ msgstr ""
+-"Storleken på miljökartbilden spelar ingen roll, den skalas till storleken "
+-"för källbilden."
++"Miljökartans storlek spelar ingen roll; den skalas till källbildens storlek."
+ 
+ #: src/filters/decor/chrome-it.xml:134(term)
+ msgid "Highlight balance"
+@@ -1448,15 +1468,16 @@
+ "amount of red, green, and blue colors is increased according to the "
+ "corresponding values of the specified option."
+ msgstr ""
+-"Denna färg används för att ändra <link linkend=\"gimp-tool-color-"
+-"balance\">färgbalansen</link> för lagret <quote>Färgmarkering</quote>: "
+-"mängden röd, grön och blå färg ökas enligt motsvarande värden för angivet "
+-"alternativ."
++"Färgen används för att ändra <link"
++" linkend=\"gimp-tool-color-balance\">färgbalansen</link> i lagret"
++" <quote>Högdager</quote>: mängden rött, grönt och blått ökas enligt värdena"
++" för respektive alternativ."
+ 
+ #. cf. bug #624761
+ #: src/filters/decor/chrome-it.xml:144(para)
+ msgid "Avoid colors with red, green or blue value &gt; 230."
+-msgstr "Undvik färger med rött, grönt eller blått värde &gt; 230."
++msgstr ""
++"Undvik färger där värdet för rött, grönt eller blått är &gt; 230."
+ 
+ #: src/filters/decor/chrome-it.xml:150(term)
+ msgid "Chrome balance"
+@@ -1467,8 +1488,9 @@
+ "Same as above, but modifies the <link linkend=\"gimp-tool-color-"
+ "balance\">color balance</link> of the <quote>Chrome</quote> layer."
+ msgstr ""
+-"Samma som ovan, men ändrar <link linkend=\"gimp-tool-color-"
+-"balance\">färgbalansen</link> för lagret <quote>Krom</quote>."
++"Samma som ovan, men ändrar <link"
++" linkend=\"gimp-tool-color-balance\">färgbalansen</link> i lagret"
++" <quote>Krom</quote>."
+ 
+ #: src/filters/decor/chrome-it.xml:160(term)
+ msgid "Chrome white areas"
+@@ -1479,8 +1501,8 @@
+ "If checked (this is the default), the source image is used as mask. If "
+ "unchecked, the <emphasis>inverted</emphasis> source image is used."
+ msgstr ""
+-"Om ikryssad (detta är standard), så används källbilden som mask. Om "
+-"avmarkerad används den <emphasis>inverterade</emphasis> källbilden."
++"Om alternativet är markerat (standard) används källbilden som mask. Om det"
++" avmarkeras används den <emphasis>inverterade</emphasis> källbilden."
+ 
+ #: src/filters/decor/chrome-it.xml:173(title)
+ msgid "How to create the chrome effect"
+@@ -1491,8 +1513,8 @@
+ "The following section provides a brief and simplified description of how the "
+ "script (actually this filter is a Script-Fu) creates the chrome effect."
+ msgstr ""
+-"Följande avsnitt ger en kort och förenklad beskrivning av hur skriptet "
+-"(detta filter är egentligen ett Script-Fu) skapar kromeffekten."
++"I följande avsnitt beskrivs kortfattat och förenklat hur skriptet skapar"
++" kromeffekten. Filtret är egentligen ett Script-Fu-skript."
+ 
+ #: src/filters/decor/chrome-it.xml:179(para)
+ msgid ""
+@@ -1502,11 +1524,10 @@
+ "the <quote>Chrome</quote> layer and the <quote>Highlight</quote> layer. "
+ "These layers are created as follows:"
+ msgstr ""
+-"Om du tillämpar filtret till dina källbilder och sedan tittar på <link "
+-"linkend=\"gimp-layer-dialog\">dialogen Lager</link> för den resulterande "
+-"bilden så kommer du se att det finns två huvudsakliga lager som utgör "
+-"kromeffekten: lagret <quote>Krom</quote> och lagret <quote>Färgmarkering</"
+-"quote>. Dessa lager skapas enligt följande:"
++"När du har tillämpat filtret på källbilden och tittar på <link"
++" linkend=\"gimp-layer-dialog\">dialogen Lager</link> i resultatbilden ser du"
++" att kromeffekten består av två huvudlager: <quote>Krom</quote> och"
++" <quote>Högdager</quote>. Lagren skapas så här:"
+ 
+ #: src/filters/decor/chrome-it.xml:188(para)
+ msgid ""
+@@ -1514,15 +1535,15 @@
+ "source image (from the inverted source image if "
+ "<guilabel>Chrome&nbsp;white&nbsp;areas</guilabel> is unchecked)."
+ msgstr ""
+-"Skriptet konstruerar ett något förenklat och oskarpt lager från källbilden "
+-"(från den inverterade källbilden om "
+-"<guilabel>Krom&nbsp;på&nbsp;vita&nbsp;ytor</guilabel> är avmarkerat)."
++"Skriptet skapar ett förenklat och oskarpt lager från källbilden (eller från"
++" den inverterade källbilden om"
++" <guilabel>Chrome&nbsp;white&nbsp;areas</guilabel> är avmarkerat)."
+ 
+ #: src/filters/decor/chrome-it.xml:199(para)
+ msgid ""
+ "The <guilabel>Chrome factor</guilabel> controls the appearance of this layer."
+ msgstr ""
+-"Alternativet <guilabel>Kromfaktor</guilabel> styr utseendet för detta lager."
++"Alternativet <guilabel>Kromfaktor</guilabel> styr lagrets utseende."
+ 
+ #: src/filters/decor/chrome-it.xml:205(para)
+ msgid ""
+@@ -1530,9 +1551,9 @@
+ "50% opacity. (Do you spot the cat in the introducing <link linkend=\"script-"
+ "fu-sota-chrome-it-example\">example</link>?)"
+ msgstr ""
+-"Miljökartan (skalad) görs oskarp och sammanfogas med lagret ovan med 50% "
+-"opacitet. (Ser du katten i det inledande <link linkend=\"script-fu-sota-"
+-"chrome-it-example\">exemplet</link>?)"
++"Miljökartan skalas, görs oskarp och sammanfogas med lagret ovanför med 50 %"
++" opacitet. (Ser du katten i det inledande <link"
++" linkend=\"script-fu-sota-chrome-it-example\">exemplet</link>?)"
+ 
+ #: src/filters/decor/chrome-it.xml:216(para)
+ msgid "Merging the environment map"
+@@ -1543,12 +1564,13 @@
+ "The brightness (value) of the layer is modified according to a spline-based "
+ "intensity curve."
+ msgstr ""
+-"Ljusstyrkan (intensiteten) på lagret modifieras enligt en splinebaserad "
+-"intensitetskurva."
++"Ljusstyrkan (värdet) i lagret ändras enligt en intensitetskurva som bygger"
++" på en spline."
+ 
+ #: src/filters/decor/chrome-it.xml:231(para)
+ msgid "Modifying the intensity curve"
+-msgstr "Modifiera intensitetskurvan"
++msgstr ""
++"Ändra intensitetskurvan"
+ 
+ #: src/filters/decor/chrome-it.xml:236(para)
+ msgid ""
+@@ -1556,20 +1578,21 @@
+ "Stencil</quote>). This is the <quote>Chrome</quote> layer before the final "
+ "step."
+ msgstr ""
+-"En lagermask läggs till, initierad med källbilden (<quote>kromstencilen</"
+-"quote>). Detta är lagret <quote>Krom</quote> innan det sista steget."
++"En lagermask skapas utifrån källbilden (<quote>Krommasken</quote>). Före det"
++" sista steget ser lagret <quote>Krom</quote> ut så här."
+ 
+ #: src/filters/decor/chrome-it.xml:241(para)
+ msgid ""
+ "The <quote>Highlight</quote> layer is a copy of the <quote>Chrome</quote> "
+ "layer where the layer mask is stroked with a white brush."
+ msgstr ""
+-"Lagret <quote>Färgmarkering</quote> är en kopia av lagret <quote>Krom</"
+-"quote> där lagermasken strukits med en vit pensel."
++"Lagret <quote>Högdager</quote> är en kopia av lagret <quote>Krom</quote>."
++" Lagermasken målas med en vit pensel."
+ 
+ #: src/filters/decor/chrome-it.xml:252(para)
+ msgid "Chrome and Highlight base"
+-msgstr "Bas för Krom och Färgmarkering"
++msgstr ""
++"Baslager för Krom och Högdager"
+ 
+ # TODO: highlights->högdagrar?
+ #: src/filters/decor/chrome-it.xml:257(para)
+@@ -1579,9 +1602,9 @@
+ "<guilabel>Chrome&nbsp;balance</guilabel>), increasing the amount of red, "
+ "green, and blue, with emphasis on highlights."
+ msgstr ""
+-"För båda lagren ändras färgbalansen (enligt <guilabel>Markeringsbalans</"
+-"guilabel> och <guilabel>Krombalans</guilabel>), vilket ökar mängden rött, "
+-"grönt och blått, med tonvikt på högdagrar."
++"Färgbalansen i båda lagren ändras enligt <guilabel>Högdagerbalans</guilabel>"
++" och <guilabel>Krombalans</guilabel>. Mängden rött, grönt och blått ökas,"
++" med tonvikt på högdagrar."
+ 
+ #: src/filters/decor/chrome-it.xml:263(para)
+ msgid ""
+@@ -1589,12 +1612,14 @@
+ "are modified (controlled by <guilabel>Chrome&nbsp;saturation</guilabel> and "
+ "<guilabel>Chrome&nbsp;lightness</guilabel>)."
+ msgstr ""
+-"Dessutom ändras mättnad och ljusstyrka för lagret <quote>Krom</quote> (styrs "
+-"av <guilabel>Krommättnad</guilabel> och <guilabel>Kromljusstyrka</guilabel>)."
++"Dessutom ändras mättnaden och ljusheten i lagret <quote>Krom</quote> med"
++" inställningarna <guilabel>Krommättnad</guilabel> och"
++" <guilabel>Kromljushet</guilabel>."
+ 
+ #: src/filters/decor/chrome-it.xml:275(para)
+ msgid "Chrome and Highlight layer"
+-msgstr "Lagren Krom och Färgmarkering"
++msgstr ""
++"Lagren Krom och Högdager"
+ 
+ #: src/filters/decor/chrome-it.xml:280(para)
+ msgid ""
+@@ -1602,9 +1627,9 @@
+ "linkend=\"script-fu-sota-chrome-it-example\">Example image</link> for the "
+ "<quote>Stencil Chrome</quote> filter."
+ msgstr ""
+-"Lägg nu till skuggkastning och ett bakgrundslager så får du <link "
+-"linkend=\"script-fu-sota-chrome-it-example\">exampelbilden</link> för "
+-"filtret <quote>Stencilerat krom</quote>."
++"Lägg till en skugga och ett bakgrundslager för att skapa <link"
++" linkend=\"script-fu-sota-chrome-it-example\">exempelbilden</link> för filtret"
++" <quote>Krom med mask</quote>."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1680,11 +1705,13 @@
+ #: src/filters/decor/carve-it.xml:18(tertiary)
+ #: src/filters/decor/carve-it.xml:21(primary)
+ msgid "Stencil Carve"
+-msgstr "Stencilerad karvning"
++msgstr ""
++"Karva med mask"
+ 
+ #: src/filters/decor/carve-it.xml:27(title)
+ msgid "Example for the <quote>Stencil Carve</quote> filter"
+-msgstr "Exempel för filtret <quote>Stencilerad karvning</quote>"
++msgstr ""
++"Exempel på filtret <quote>Karva med mask</quote>"
+ 
+ #: src/filters/decor/carve-it.xml:47(para)
+ msgid ""
+@@ -1695,18 +1722,18 @@
+ "grayscale image, also with a single layer. This target image must have the "
+ "same size as the source image."
+ msgstr ""
+-"Detta filter arbetar med två bilder. källa och mål. Källbilden måste vara en "
+-"gråskalebild som innehåller ett ensamt lager och ingen alfakanal. Detta "
+-"lager används som markeringsmask och kommer fungera som stencil för "
+-"karvningseffekten. Bilden som ska karvas (målbilden) kan vara en RGB- eller "
+-"gråskalebild, också med ett ensamt lager. Denna målbild måste ha samma "
+-"storlek som källbilden."
++"Filtret använder två bilder: en källbild och en målbild. Källbilden måste"
++" vara en gråskalebild med ett enda lager och utan alfakanal. Lagret används"
++" som markeringsmask för karvningseffekten. Målbilden, det vill säga bilden"
++" som ska karvas, kan vara en RGB- eller gråskalebild med ett enda lager. Den"
++" måste ha samma storlek som källbilden."
+ 
+ #: src/filters/decor/carve-it.xml:56(para)
+ msgid ""
+ "If the image is in RGB mode or indexed mode, this menu entry is disabled."
+ msgstr ""
+-"Om bilden är i RGB-läge eller indexerat läge är detta menyobjekt inaktiverat."
++"Om bilden är i RGB-läge eller indexerat läge är det här menyobjektet"
++" inaktiverat."
+ 
+ #: src/filters/decor/carve-it.xml:65(para)
+ msgid ""
+@@ -1714,33 +1741,35 @@
+ "guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Stencil Carve…</"
+ "guimenuitem></menuchoice>."
+ msgstr ""
+-"Detta filter hittas i huvudmenyn under <menuchoice><guimenu>Filter</"
+-"guimenu><guisubmenu>Dekor</guisubmenu><guimenuitem>Stencilerad karvning…</"
+-"guimenuitem></menuchoice>."
++"Du hittar filtret i huvudmenyn under"
++" <menuchoice><guimenu>Filter</guimenu><guisubmenu>Dekor</guisubmenu><guimenuitem>Karva"
++" med mask…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/decor/carve-it.xml:74(para)
+ msgid ""
+ "If this command remains disabled although the image is grayscale, check for "
+ "an Alpha channel and delete it."
+ msgstr ""
+-"Om detta kommando förblir inaktiverat trots att bilden är gråskala, se om "
+-"det finns någon alfakanal och ta bort den."
++"Om kommandot fortfarande är inaktiverat trots att bilden är i gråskala"
++" kontrollerar du om den har en alfakanal och tar bort den."
+ 
+ #: src/filters/decor/carve-it.xml:84(title)
+ msgid "<quote>Stencil Carve</quote> options"
+-msgstr "Alternativ för <quote>Stencilerad karvning</quote>"
++msgstr ""
++"Alternativ för <quote>Karva med mask</quote>"
+ 
+ #: src/filters/decor/carve-it.xml:94(term)
+ msgid "Mask drawable"
+-msgstr "Maskrityta"
++msgstr ""
++"Rityta för masken"
+ 
+ #: src/filters/decor/carve-it.xml:96(para)
+ msgid ""
+ "Here you may select the target image and its layer or channel which the "
+ "carving effect is applied to."
+ msgstr ""
+-"Här kan du välja målbilden och dess lager eller kanal som karvningseffekten "
+-"tillämpas på."
++"Välj målbilden och det lager eller den kanal som karvningseffekten ska"
++" tillämpas på."
+ 
+ #: src/filters/decor/carve-it.xml:103(term)
+ msgid "Carve white areas"
+@@ -1752,9 +1781,9 @@
+ "above. If unchecked, the <emphasis>inverted</emphasis> source image is used "
+ "as stencil, e.g.:"
+ msgstr ""
+-"Om ikryssad (standard) så används källbilden som stencil som beskrivits "
+-"ovan. Om ikryssad används den <emphasis>inverterade</emphasis> källbilden "
+-"som stencil, t.ex.:"
++"Om alternativet är markerat (standard) används källbilden som mask, enligt"
++" beskrivningen ovan. Om det avmarkeras används den"
++" <emphasis>inverterade</emphasis> källbilden som mask, till exempel:"
+ 
+ #: src/filters/decor/carve-it.xml:111(title)
+ msgid "Engraving Masks"
+@@ -1762,7 +1791,8 @@
+ 
+ #: src/filters/decor/carve-it.xml:118(para)
+ msgid "Normal mask"
+-msgstr "Normal mask"
++msgstr ""
++"Vanlig mask"
+ 
+ #: src/filters/decor/carve-it.xml:127(para)
+ msgid "Inverted mask"
+@@ -1782,9 +1812,9 @@
+ "of the target image corresponding to white pixels in the stencil (around the "
+ "text) have been carved. The result is an embossed text."
+ msgstr ""
+-"Till vänster är <guilabel>Karva ut vita ytor</guilabel> aktiverat. "
+-"Bildpunkterna i målbilden som motsvarar vita bildpunkter i stencilen (runt "
+-"texten) har karvats ut. Resultatet är en relieftext."
++"Till vänster är <guilabel>Karva ut vita ytor</guilabel> aktiverat. De"
++" bildpunkter i målbilden som motsvarar vita bildpunkter i masken (runt"
++" texten) har karvats ut. Resultatet blir upphöjd text."
+ 
+ #: src/filters/decor/carve-it.xml:141(para)
+ msgid ""
+@@ -1792,9 +1822,9 @@
+ "of the target image corresponding to the black pixels in the stencil (the "
+ "text) have been carved. The result is a hollow text."
+ msgstr ""
+-"Till höger är <guilabel>Karva ut vita ytor</guilabel> inaktiverat. "
+-"Bildpunkterna i målbilden som motsvarar de svarta bildpunkterna i stencilen "
+-"(texten) har karvats ut. Resultatet är en nedsänkt text."
++"Till höger är <guilabel>Karva ut vita ytor</guilabel> inaktiverat. De"
++" bildpunkter i målbilden som motsvarar svarta bildpunkter i masken (texten)"
++" har karvats ut. Resultatet blir nedsänkt text."
+ 
+ #: src/filters/decor/carve-it.xml:148(title)
+ msgid "Example for <quote>Carve white areas</quote>"
+@@ -1802,15 +1832,18 @@
+ 
+ #: src/filters/decor/carve-it.xml:155(para)
+ msgid "White areas carved"
+-msgstr "Vita ytor utkarvade"
++msgstr ""
++"Vita områden har karvats ut"
+ 
+ #: src/filters/decor/carve-it.xml:164(para)
+ msgid "Stencil"
+-msgstr "Stencil"
++msgstr ""
++"Mask"
+ 
+ #: src/filters/decor/carve-it.xml:173(para)
+ msgid "Black areas carved"
+-msgstr "Svarta ytor utkarvade"
++msgstr ""
++"Svarta områden har karvats ut"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1859,14 +1892,15 @@
+ "of the border are colored in different shades, so the image area will appear "
+ "raised."
+ msgstr ""
+-"Detta filter gör precis vad dess namn säger: det lägger till en kant till "
+-"bilden. Du kan ange tjockleken på kanten såväl som färgen. De fyra sidorna "
+-"på kanten färgas i olika nyanser, så bildområdet kommer verka upphöjt."
++"Filtret gör vad namnet säger: det lägger till en kant runt bilden. Du kan"
++" ange kantens tjocklek och färg. Kantens fyra sidor får olika nyanser,"
++" vilket får bildytan att se upphöjd ut."
+ 
+ #: src/filters/decor/addborder.xml:51(para)
+ msgid ""
+ "The image will be enlarged by the border size, it won't be painted over."
+-msgstr "Bilden kommer förstoras av kantstorleken, den kommer inte målas över."
++msgstr ""
++"Bilden förstoras med kantens tjocklek; kanten målas inte ovanpå bilden."
+ 
+ #: src/filters/decor/addborder.xml:58(para)
+ msgid ""
+@@ -1874,9 +1908,9 @@
+ "guimenu><guisubmenu>Decor</guisubmenu><guimenuitem>Add Border…</"
+ "guimenuitem></menuchoice>."
+ msgstr ""
+-"Detta filter hittas i huvudmenyn under <menuchoice><guimenu>Filter</"
+-"guimenu><guisubmenu>Dekor</guisubmenu><guimenuitem>Lägg till kant…</"
+-"guimenuitem></menuchoice>."
++"Du hittar filtret i huvudmenyn under"
++" <menuchoice><guimenu>Filter</guimenu><guisubmenu>Dekor</guisubmenu><guimenuitem>Lägg"
++" till kant…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/decor/addborder.xml:71(title)
+ msgid "<quote>Add Border</quote> options"
+@@ -1896,9 +1930,9 @@
+ "(left and right) and Y size (top and bottom) may be different. Maximum is "
+ "250 pixels."
+ msgstr ""
+-"Här kan du välja tjockleken på den tillagda kanten i bildpunkter. X-storlek "
+-"(vänster och höger) och Y-storlek (topp och botten) kan vara olika. "
+-"Maxvärdet är 250 bildpunkter."
++"Här anger du kantens tjocklek i bildpunkter. X-storleken (vänster och höger)"
++" och Y-storleken (överkant och underkant) kan vara olika. Den kan vara högst"
++" 250 bildpunkter."
+ 
+ #: src/filters/decor/addborder.xml:92(term)
+ msgid "Border color"
+@@ -1910,13 +1944,13 @@
+ "to choose an <quote>average</quote> border color (see below, <guilabel>Delta "
+ "value on color</guilabel>)."
+ msgstr ""
+-"Att klicka på denna knapp tar fram färgvalsdialogen som låter dig välja en "
+-"<quote>genomsnittlig</quote> kantfärg (se nedan, <guilabel>Deltavärde på "
+-"färg</guilabel>)."
++"När du klickar på knappen öppnas färgväljaren, där du kan välja kantens"
++" <quote>medelfärg</quote> (se <guilabel>Färgdelta</guilabel> nedan)."
+ 
+ #: src/filters/decor/addborder.xml:102(term)
+ msgid "Delta value on color"
+-msgstr "Deltavärde på färg"
++msgstr ""
++"Färgdelta"
+ 
+ #: src/filters/decor/addborder.xml:109(para)
+ msgid ""
+@@ -1935,32 +1969,37 @@
+ "guilabel> as follows (resulting values less than 0 are set to 0, values "
+ "greater than 255 are set to 255):"
+ msgstr ""
+-"Detta alternativ får kantstorlekarna att färgas i olika nyanser och får "
+-"därmed bilden att se upphöjd ut. Den faktiska färgen för respektive kantsida "
+-"beräknas för varje färgkomponent röd, grön och blå<placeholder-1/> från vald "
+-"<quote>genomsnittlig</quote><guilabel>Kantfärg</guilabel> enligt följande "
+-"(resulterande värden mindre än 0 sätts till 0, värden större än 255 sätts "
+-"till 255):"
++"Alternativet ger kantens sidor olika nyanser så att bildytan ser upphöjd ut."
++" Färgen på varje sida beräknas separat för de röda, gröna och blå"
++" färgkomponenterna<placeholder-1/> utifrån den valda"
++" <quote>medelfärgen</quote> i <guilabel>Kantfärg</guilabel>. Beräkningen"
++" görs så här (värden under 0 sätts till 0 och värden över 255 sätts till"
++" 255):"
+ 
+ #: src/filters/decor/addborder.xml:119(para)
+ msgid "Top shade = Border color + Delta"
+-msgstr "Toppnyans = Kantfärg + Delta"
++msgstr ""
++"Nyans på ovansidan = Kantfärg + Färgdelta"
+ 
+ #: src/filters/decor/addborder.xml:122(para)
+ msgid "Right shade = Border color - &frac12; Delta"
+-msgstr "Högernyans = Kantfärg - &frac12; Delta"
++msgstr ""
++"Nyans på högersidan = Kantfärg - &frac12; Färgdelta"
+ 
+ #: src/filters/decor/addborder.xml:125(para)
+ msgid "Bottom shade = Border color - Delta"
+-msgstr "Bottennyans = Kantfärg - Delta"
++msgstr ""
++"Nyans på undersidan = Kantfärg - Färgdelta"
+ 
+ #: src/filters/decor/addborder.xml:128(para)
+ msgid "Left shade = Border color + &frac12; Delta"
+-msgstr "Vänsternyans = Kantfärg + &frac12; Delta"
++msgstr ""
++"Nyans på vänstersidan = Kantfärg + &frac12; Färgdelta"
+ 
+ #: src/filters/decor/addborder.xml:132(title)
+ msgid "Delta examples"
+-msgstr "Deltaexempel"
++msgstr ""
++"Exempel på färgdelta"
+ 
+ #: src/filters/decor/addborder.xml:139(para)
+ msgid ""
+@@ -1976,9 +2015,10 @@
+ "shades of the borders are: top: (38,31,207) + (25,25,25) = (63,56,232), "
+ "right: (38,31,207) + (-13,-13,-13) = (25,18,194), etc."
+ msgstr ""
+-"Exempel: standardfärgen är blå (38,31,207), standarddelta är 25. Så "
+-"nyanserna för kanterna är: topp: (38,31,207) + (25,25,25) = (63,56,232), "
+-"höger: (38,31,207) + (-13,-13,-13) = (25,18,194) och så vidare."
++"Exempel: standardfärgen är blå (38, 31, 207) och standardvärdet för"
++" färgdeltat är 25. Kantens nyanser blir då: ovansida: (38, 31, 207) + (25,"
++" 25, 25) = (63, 56, 232), högersida: (38, 31, 207) + (-13, -13, -13) = (25,"
++" 18, 194) och så vidare."
+ 
+ #: src/filters/decor/addborder.xml:156(term)
+ msgid "Allow resizing"
+@@ -1990,9 +2030,9 @@
+ "to create the border in this additional space. If your image already has the "
+ "intended final size, disable this option."
+ msgstr ""
+-"Som standard ökas bildstorleken med dubbla den angivna kantstorleken för att "
+-"skapa kanten i detta ytterligare utrymme. Om din bild redan har den tänkta "
+-"slutgiltiga storleken, inaktivera detta alternativ."
++"Som standard utökas bilden med dubbla den angivna kanttjockleken, så att"
++" kanten får plats runt bilden. Om bilden redan har önskad slutstorlek"
++" inaktiverar du alternativet."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -2084,17 +2124,20 @@
+ "filter-bump-map\">bump map</link> (see below). If there is a selection, it "
+ "is bevelled, otherwise the filter has no effect."
+ msgstr ""
+-"Detta filter lägger till en lätt avfasning till en bild med en <link "
+-"linkend=\"gimp-filter-bump-map\">bumpmap</link> (se nedan). Om det finns en "
+-"markering så avfasas den, annars har filtret ingen effekt."
++"Filtret lägger till en lätt avfasning med hjälp av en <link"
++" linkend=\"gimp-filter-bump-map\">bumpkarta</link> (se nedan). Om det finns en"
++" markering avfasas den; annars har filtret ingen effekt."
+ 
+ #: src/filters/decor/add-bevel.xml:53(title)
+ msgid "Another <quote>Add Bevel</quote> example, with bumpmap"
+-msgstr "Ett annat exempel för <quote>Lägg till avfasning</quote>, med bumpmap"
++msgstr ""
++"Ytterligare ett exempel på filtret <quote>Lägg till avfasning</quote>, med"
++" bumpkarta"
+ 
+ #: src/filters/decor/add-bevel.xml:69(para)
+ msgid "Bumpmap"
+-msgstr "Bumpmap"
++msgstr ""
++"Bumpkarta"
+ 
+ #: src/filters/decor/add-bevel.xml:92(para)
+ msgid ""
+@@ -2119,28 +2162,29 @@
+ "You can specify the thickness of the bevel, in pixels. Maximal thickness is "
+ "30 pixels."
+ msgstr ""
+-"Du kan ange avfasningens tjocklek i bildpunkter. Maximal tjocklek är 30 "
+-"bildpunkter."
++"Du kan ange avfasningens tjocklek i bildpunkter. Den kan vara högst 30"
++" bildpunkter."
+ 
+ #: src/filters/decor/add-bevel.xml:134(term)
+ msgid "Keep bump layer"
+-msgstr "Behåll bumplager"
++msgstr ""
++"Behåll bumpkartelagret"
+ 
+ #: src/filters/decor/add-bevel.xml:136(para)
+ msgid ""
+ "When checked, you will keep the generated bumpmap as a new, not visible "
+ "layer:"
+ msgstr ""
+-"När ikryssad kommer du behålla den genererade bumpmappen som ett nytt, inte "
+-"synligt lager:"
++"När alternativet är markerat behålls den genererade bumpkartan i ett nytt,"
++" dolt lager:"
+ 
+ #: src/filters/decor/add-bevel.xml:146(para)
+ msgid ""
+ "<link linkend=\"gimp-layer-dialog\">Layers Dialog</link> with <quote>Keep "
+ "bump layer</quote> enabled"
+ msgstr ""
+-"<link linkend=\"gimp-layer-dialog\">Dialogen Lager</link> med <quote>Behåll "
+-"bumplager</quote> aktiverat"
++"<link linkend=\"gimp-layer-dialog\">Dialogen Lager</link> med <quote>Behåll"
++" bumpkartelagret</quote> aktiverat"
+ 
+ #~ msgid "translator-credits"
+ #~ msgstr ""
