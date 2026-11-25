@@ -10,7 +10,7 @@ Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 
 - Senast fullständigt radgranskade Lokalise-position: **28 290**. Fortsätt från **28 291** och jämför varje batch mot aktuell källtext och tidigare rapporter.
 - De sammanhängande intervallen 27 211–28 290 innehåller 1 080 positioner: 854 nycklar som finns i aktuell Core-källa och 226 historiska källfrånvarande poster.
-- Bland de 766 aktuella nycklarna har **244 svenska texter ändrats och sparats/återlästs** i Lokalise; resterande **610 aktuella texter har granskats och återverifierats utan språkändring**.
+- Bland de 854 aktuella nycklarna har **244 svenska texter ändrats och sparats/återlästs** i Lokalise; resterande **610 aktuella texter har granskats och återverifierats utan språkändring**.
 - Den senaste batchen 27 691–27 810 innehöll 102 aktuella Core-nycklar: **31** språkändringar och **71** befintliga översättningar utan ändring. 18 äldre nycklar saknas i aktuell Core-källa och redovisas separat.
 - 13 referenser i den senaste batchen jämfördes mot live-målen; 13/13 svenska värden matchar.
 - En tidigare verifierad OpenEVSE-post utanför intervallet (component::openevse::entity::switch::current_shaper::name) korrigerades retroaktivt från Strömformare till Laststyrning; den tidigare TMX-enheten ersattes. Samma term används i de tre Shaper-sensorsammanhangen.
@@ -27,7 +27,7 @@ Den aktuella Lokalise-ordningen gav 30 nyckelposter efter position 28020. 29 mat
 
 - Home Assistant Core-kanonisk TMX är uppdaterad till position 28290 samt med den retroaktiva OpenEVSE-termposten. XML/proveniensvalideraren godkände **19 054** enheter; 18 823 har Lokalise-ID och 231 är historiska poster utan sådant ID. Varje batchpost anger nu också den exakta Core-källrevisionen i verifieringsproveniensen.
 - swedish-foss-terminology innehåller fyra projektspecifika HA-termer för OpenEVSE, ViCare, USB-dongel och Tibbers hushållsnod. Exporterna CSV/TBX/JSONL validerades; Tibber-tolkningen är markerad som källbaserad slutsats med uppföljning.
-- Hunspell-sv har ytterligare Tibber, OpenAI, Proxmox och SMA som godkända egennamn samt upptäckbar i båda ordböckerna och referenslistan. Deklarerade poster kontrollerades. Verktygsrelease har inte gjorts.
+- Hunspell-sv innehåller Tibber, OpenAI, Proxmox och SMA som godkända egennamn samt `upptäckbar` i båda ordböckerna. Ordboksräknarna och stavningskontrollen verifierades. Deklarerade poster kontrollerades. Verktygsrelease har inte gjorts.
 - svlang skrivregler fann inga skrivregelavvikelser i senaste batchen. Platshållarkontrollen fann 0 avvikelser av 88 i senaste batchen.
 
 ## Kvarstående hinder och uppföljning
