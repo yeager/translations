@@ -100,3 +100,10 @@
 - Alla Core-sökvägar och `{error}`-platshållaren verifierade. svlang gav 10/10 på intervallets strängar.
 - Core-TMX validerad: 16 538 poster; Core-export: 42 636 språkpar, 32 exkluderade synliga nycklar.
 - Granskningen fortsätter; Core är inte färdiggranskad.
+
+## 2026-11-25 – Core 24361–24450
+
+- 8 strängar granskade; 7 ändringar sparade och återlästa, 1 befintlig text verifierad.
+- En Autoskope-nyckel har avvikande historisk sökväg; aktuell källväg `additional_settings` dokumenterad och uppföljning markerad i TM.
+- Platshållare verifierade. Core-TMX validerad: 16 543 poster; exporten har 42 639 språkpar och 32 exkluderade nycklar.
+- Granskningen fortsätter.
