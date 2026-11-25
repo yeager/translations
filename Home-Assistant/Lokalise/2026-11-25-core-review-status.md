@@ -8,7 +8,7 @@ Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 
 ## Aktuellt läge
 
-- Senast fullständigt radgranskade Lokalise-position: **29 610**. Nästa position: **29 611**.
+- Senast fullständigt behandlade Lokalise-position: **30 616**. Positionerna 29 611–30 616 var redan granskade per fullständig nyckel och har nu återverifierats live; nästa ännu odokumenterade nyckel: **30 617**.
 - De granskade sammanhängande positionerna 27 211–29 610 omfattar 2 400 poster: **1 976** aktiva Core-nycklar och **424** källfrånvarande/historiska poster.
 - Av de 1 881 aktiva nycklarna ändrades **513** svenska mål har ändrats och sparats/återlästs från Lokalise; **1 463** granskades och verifierades oförändrade.
 - Batchen 29 131–29 250: 120/120 nycklar aktiva och källmatchande; **17** ändringar sparade och återlästa, **103** texter oförändrade. Nästa batch 29 251–29 370: 85 aktuella Core-nycklar granskade utan ändring och 35 källfrånvarande poster uteslutna. Batchen 29 371–29 490: 54 aktiva Core-nycklar, 2 ändringar, 52 oförändrade; 66 källfrånvarande. Batchen 29 491–29 610: 95 aktiva Core-nycklar, ett OpenAI-referensalias synkat, 94 oförändrade; 25 källfrånvarande. 23 alias jämfördes mot live-mål, avvikelsen rättades. Inga pluraler eller platshållaravvikelser.
@@ -29,9 +29,13 @@ Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 - Totalt **424** källfrånvarande poster i det sammanhängande granskade intervallet räknas inte som aktuell Core-täckning.
 - Granskningen är **inte klar**. Fortsätt från position 29 611; kontrollera nyttillkomna strängar, tidigare rapporter, referenser och hela källinventeringen.
 
-## Senaste batch: 29 491–29 610
+## Senaste nygranskade batch: 29 491–29 610
 
 95/120 rader matchar Core-källrevision `86a2eabe7e43f526db5821ef068087ce8404ae07`; en felaktig OpenAI API-nyckelbeskrivning synkades med den live-verifierade referensnyckeln och sparades/återlästes. 94 aktiva mål verifierades oförändrade. 25 poster saknar egen aktiv källnyckel i revisionen och uteslöts ur Core-TM. Referenser: 23 alias, 22 matchade före korrigering och ett korrigerades; platshållare 95/95, inga pluralnycklar. Alla 95 aktiva poster återverifierades live. TMX validerar med 19 921 enheter. Se `2026-11-25-reviewed-core-29491-29610.md` och JSON-underlagen. Nästa position: **29 611**.
+
+## Återverifierat överlapp: 29 611–30 616
+
+Livekontroll av 1 006 tidigare dokumenterade fullständiga nycklar: 742 matchar aktuell Core-källrevision och deras aktuella Lokalise-texter stämmer med sparad TM; 264 är källfrånvarande. Ingen källdrift eller textskillnad hittades. Inget nytt översättningsarbete räknas. Se `2026-11-25-revalidated-overlap-core-29611-30616.md` och JSON-underlaget. Nästa nyckel utan tidigare fullnyckelrapport: **30 617**.
 
 ## Näst senaste batch: 29 251–29 370
 
