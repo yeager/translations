@@ -159,3 +159,24 @@
 - En aktiv Lokalise-nyckel för vakuum har tom engelsk och svensk text och saknar motsvarande sökväg i aktuell Core-källa. Den dokumenterades som en föräldralös post och lämnades orörd; nuvarande relaterade feltext har identifierats.
 - `svlang skrivregler` utan fel. `svlang` markerade namn, platshållare och sammansättningar som ovanliga; verktygen bedömdes manuellt. Hunspell-sv kompletterades med `timerläge` och ett källbelagt test; de 19 testerna och regelvalideringen passerar (37 regler, 237 fall).
 - Home Assistant Core-TMX uppdaterad och validerad: 16 610 poster. Granskningen fortsätter; Core är inte färdiggranskad.
+
+
+## 2026-11-25 – Core 25291–25410
+
+- 14 föreslagna strängar granskade mot aktuell källa och Lokalise; 14 ändringar sparade och återlästa.
+- Tre befintliga `Empty`-referensvärden följdes till `common::state::empty` och verifierades. Möjligt engelskt källfel ”Exo 40/60” är dokumenterat för uppföljning.
+- HA Core-TMX uppdaterad och validerad: 16 627 poster. Granskningen fortsätter; Core är inte komplett.
+
+## 2026-11-25 – Core 25411–25530
+
+- 16 strängar radgranskade; 13 ändringar sparade och återlästa, 3 befintliga översättningar verifierade.
+- Källnycklar, engelska texter och placeholderuppsättningar verifierade. ”Energi smart grid” markerat för uppföljning av semantiken hos Compit.
+- HA Core-TMX uppdaterad och validerad: 16 634 poster. Core-granskningen fortsätter och är inte klar.
+
+
+## 2026-11-25 – Core 25531–25650
+
+- 19 strängar granskade mot exakta aktuella källsökvägar; 19 ändringar sparade och återlästa i Lokalise.
+- Proxmox `suspended` skiljs från `stopped`; MTA:s tunnelbanestationer och busshållplatser får separata svenska termer. Platshållare verifierade.
+- `svlang`-skrivregler utan fel. Hunspell-ordlistans lucka för `dongel` korrigerades med källbelagda böjningar; dess 10 tester och språkpolicykontroll passerar.
+- HA Core-TMX uppdaterad och validerad: 16 652 poster. Granskningen fortsätter; Core är inte färdiggranskad.
