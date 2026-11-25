@@ -6,12 +6,12 @@
 
 ## `po`
 
-- Aktuell källa: Damned Lies-POT och svensk PO hämtade 2026-11-23.
-- Före granskning: 4 008 aktiva poster, 11 oöversatta och 28 fuzzy.
-- Efter granskning: 4 008 aktiva poster, 0 oöversatta och 0 fuzzy.
-- Ändringar: 11 nya svenska översättningar och 28 korrigerade fuzzy-poster.
-- Validering: `msgfmt --check`; egen C-format- och pluralformskontroll; `l10n-lint --language sv` med 0 fel (123 informationsnotiser och 31 varningar); `hunspell-sv`.
-- Hunspell-undantag: 678 träffar domineras av avsiktliga kommandon, filändelser, formatkoder, funktionsnamn, protokoll, statistiska termer och personnamn. Inga stavningsfel i de nyöversatta posterna identifierades.
+- Aktuell källa: GNOME Damned Lies-aktivitet och senaste POT hämtade 2026-11-25. POT SHA-256: `0da1f1ec01e75ea5a2e84608d8e4265f436808f086095ba846e7499a036f5e45`.
+- Före granskning mot senaste POT: 3 969 översatta, 28 fuzzy, 11 oöversatta (4 008 poster).
+- Efter granskning: 4 008 översatta, 0 fuzzy, 0 oöversatta. 55 pluralposter. 86 katalogposter ändrade jämfört med arkiverat original: 11 nya översättningar, 28 fuzzy-poster färdigställda och 47 befintliga översättningar rättade.
+- Full QA: `msgfmt --check` godkänd; platshållare, pluralformer, markup och acceleratorer kontrollerade. `l10n-lint --language sv`: 0 fel, 2 varningar för gemenstavat filformat `xbase` i två källsträngar. 1-2-3-formatnamnet är bevarat. Hunspell-sv körd; tekniska identifierare och funktionsnamn är rimliga undantag.
+- Översättarmetadata i ändrad katalog: `Daniel Nylander <gnome@danielnylander.se>`.
+- GNOME-inskick: 2026-11-25 via Damned Lies API, kommentaren `Granskad och klar. Argumentnamnen i funktionssignaturerna är översatta; funktionsidentifierarna är bevarade.` Aktivitetssidan visar uppladdningen och 4 008/0/0; statistik-API:t returnerade ännu äldre cachad statistik vid efterkontrollen.
 
 ## `po-functions`
 
@@ -24,7 +24,7 @@
 
 ## Återstår
 
-Gnumerics separata hjälpkatalog (`help`) är ännu inte radgranskad. Den är därför inte markerad som klar i GNOME-inventeringen.
+Gnumerics hjälp (`help`) är också radgranskad mot senaste POT; se [hjälprapporten](help/README.md).
 
 ## Korrigering av kommandoradsmetavariabler (2026-11-24)
 

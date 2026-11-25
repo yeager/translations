@@ -368,8 +368,8 @@ msgstr "TITEL"
 #: ../plugins/excel/ms-excel-write.c:230
 #, c-format
 msgid ""
-"Some content will be lost when saving.  This format only supports %u column, "
-"and this workbook has %d"
+"Some content will be lost when saving.  This format only supports %u column,"
+" and this workbook has %d"
 msgid_plural ""
 "Some content will be lost when saving.  This format only supports %u "
 "columns, and this workbook has %d"
@@ -883,7 +883,6 @@ msgstr "Funktioner som manipulerar hebreiska datum"
 #. * for Lotus 1-2-3 release 3.x compatibility. Returns the cell
 #. * reference of the top and leftmost cell visible in the
 #. * window, based on the current scrolling position.
-#.
 #: ../plugins/fn-info/functions.c:555 ../plugins/fn-info/functions.c:571
 #: ../src/dialogs/workbook-attr.ui.h:8
 msgid "Unimplemented"
@@ -1023,8 +1022,8 @@ msgid "Functions for manipulating strings"
 msgstr "Funktioner för manipulering av strängar"
 
 #: ../plugins/fn-string/plugin.xml.in.h:3
-#: ../src/dialogs/dialog-doc-metadata.c:1816 ../src/dialogs/dialog-search.c:386
-#: ../src/func.c:1226
+#: ../src/dialogs/dialog-doc-metadata.c:1816
+#: ../src/dialogs/dialog-search.c:386 ../src/func.c:1226
 msgid "String"
 msgstr "Sträng"
 
@@ -1110,8 +1109,8 @@ msgid ""
 "The %s program was not found.  You can either install it or use another "
 "solver. For more information see %s"
 msgstr ""
-"Programmet %s hittades inte. Du kan antingen installera det eller använda en "
-"annan lösare. För mer information, se %s"
+"Programmet %s hittades inte. Du kan antingen installera det eller använda en"
+" annan lösare. För mer information, se %s"
 
 #: ../plugins/glpk/plugin.xml.in.h:1
 msgid "GLPK Linear Program Solver Interface"
@@ -1548,9 +1547,7 @@ msgstr "Odefinierad valideringsstil påträffades: %s"
 
 #: ../plugins/openoffice/openoffice-read.c:3027
 #, c-format
-msgid ""
-"Unsupported validation condition encountered: \"%s\" with base address: "
-"\"%s\""
+msgid "Unsupported validation condition encountered: \"%s\" with base address: \"%s\""
 msgstr ""
 "Valideringsvillkor som inte stöds påträffades: ”%s” med basadress: ”%s”"
 
@@ -1706,13 +1703,13 @@ msgid ""
 "Unknown interpolation type encountered: '%s', using Bezier cubic spline "
 "instead."
 msgstr ""
-"Okänd interpolationstyp ”%s” påträffades, använder Bezier kubisk spline "
-"istället."
+"En okänd interpoleringstyp påträffades: ”%s”. En kubisk Bezier-spline "
+"används i stället."
 
 #: ../plugins/openoffice/openoffice-read.c:7560
 #, c-format
 msgid "Unknown interpolation type encountered: %s"
-msgstr "Okänd interpolationstyp ”%s” påträffades"
+msgstr "Okänd interpolationstyp påträffades: %s"
 
 #: ../plugins/openoffice/openoffice-read.c:8119
 #, c-format
@@ -1734,8 +1731,8 @@ msgid ""
 "Gnumeric supports only one condition, or two plain conditions joined by "
 "'and' or by 'or', per autofilter field.  Ignoring others."
 msgstr ""
-"Gnumeric stöder endast ett villkor, eller två enkla villkor förenade med "
-"”och” eller ”eller”, per autofilterfält. Övriga ignoreras."
+"Gnumeric stöder ett villkor eller en kombination av två enkla villkor "
+"(”och”/”eller”) per autofilterfält. Övriga ignoreras."
 
 #: ../plugins/openoffice/openoffice-read.c:8556
 #| msgid "Gnumeric does not support 'or'-ed autofilter conditions."
@@ -1764,8 +1761,8 @@ msgstr "Ogiltigt attribut ”form:value”, förväntade siffra, fick ”%s”"
 #: ../plugins/openoffice/openoffice-read.c:8796
 #, c-format
 msgid ""
-"Invalid value-type '%s' advertised for 'form:value' attribute in 'form:value-"
-"range' element."
+"Invalid value-type '%s' advertised for 'form:value' attribute in "
+"'form:value-range' element."
 msgstr ""
 "Ogiltig värdetyp ”%s” utlyst för ”form:value”-attributet i element "
 "”form:value-range”."
@@ -1994,8 +1991,8 @@ msgstr "Kunde inte skapa minne för posten."
 
 #: ../plugins/paradox/paradox.c:197
 msgid ""
-"The Paradox file has more records than fit in a sheet; the remaining records "
-"were not imported."
+"The Paradox file has more records than fit in a sheet; the remaining records"
+" were not imported."
 msgstr ""
 "Paradox-filen har fler poster än vad som ryms i ett kalkylblad; återstående "
 "poster importerades inte."
@@ -2424,7 +2421,8 @@ msgstr "Generellt SC-importfel"
 msgid ""
 "The cell in row %i and column %i is beyond Gnumeric's maximum sheet size."
 msgstr ""
-"Cellen på rad %i och kolumn %i är bortom Gnumerics högsta kalkylbladsstorlek."
+"Cellen på rad %i och kolumn %i är bortom Gnumerics högsta "
+"kalkylbladsstorlek."
 
 #: ../plugins/sc/sc.c:397
 msgid "The sheet is wider than Gnumeric can handle."
@@ -2448,7 +2446,6 @@ msgstr "Det går inte att tolka kmd='%s', str='%s', kol=%d, rad=%d."
 msgid "Error parsing line"
 msgstr "Fel vid tolkning av rad"
 
-#.
 #. * http://www.thule.no/haynie/cpumods/a2620/docs/commrc.sc.txt:
 #. * format B 20 2
 #. *
@@ -2456,7 +2453,6 @@ msgstr "Fel vid tolkning av rad"
 #. * format A 15 2 0
 #. * goto C7
 #. *
-#.
 #: ../plugins/sylk/plugin.xml.in.h:1
 msgid "MultiPlan (SYLK)"
 msgstr "MultiPlan (SYLK)"
@@ -2512,8 +2508,8 @@ msgid ""
 "The xbase file has more fields than fit in a sheet; the remaining fields "
 "were not imported."
 msgstr ""
-"xbase-filen har fler fält än vad som ryms i ett kalkylblad; återstående fält "
-"importerades inte."
+"xbase-filen har fler fält än vad som ryms i ett kalkylblad; återstående fält"
+" importerades inte."
 
 #: ../plugins/xbase/boot.c:259
 msgid ""
@@ -2832,8 +2828,8 @@ msgid ""
 "this value."
 msgstr ""
 "Det här värdet sätter standardinställningen i Skrivarinställningar för om "
-"utskrift endast skall vara i svart-vitt. Använd Skrivarinställningar för att "
-"redigera detta värde."
+"utskrift endast skall vara i svart-vitt. Använd Skrivarinställningar för att"
+" redigera detta värde."
 
 #: ../schemas/org.gnome.gnumeric.dialogs.gschema.xml.in.in.h:58
 msgid "Default Title Printing"
@@ -2900,8 +2896,8 @@ msgid ""
 "this width. This value can be changed in the Page Setup dialog."
 msgstr ""
 "Det här värdet anger högst antal sidor som utgör bredden på en utskrift för "
-"aktuellt blad. Bladet kommer att förminskas till att passa inom denna bredd. "
-"Värdet kan ändras i dialogen Sidinställning."
+"aktuellt blad. Bladet kommer att förminskas till att passa inom denna bredd."
+" Värdet kan ändras i dialogen Sidinställning."
 
 #: ../schemas/org.gnome.gnumeric.dialogs.gschema.xml.in.in.h:68
 msgid "Default Scaling Height"
@@ -2909,8 +2905,8 @@ msgstr "Lodrät skalning i procent som standard"
 
 #: ../schemas/org.gnome.gnumeric.dialogs.gschema.xml.in.in.h:69
 msgid ""
-"This value determines the maximum number of pages that make up the height of "
-"a printout of the current sheet. The sheet will be reduced to fit within "
+"This value determines the maximum number of pages that make up the height of"
+" a printout of the current sheet. The sheet will be reduced to fit within "
 "this height. This value can be changed in the Page Setup dialog."
 msgstr ""
 "Det här värdet anger högst antal sidor som utgör höjden på en utskrift för "
@@ -2946,7 +2942,8 @@ msgid "Preferred Display Unit"
 msgstr "Önskad visningsenhet"
 
 #: ../schemas/org.gnome.gnumeric.dialogs.gschema.xml.in.in.h:75
-msgid "This string gives the default unit to be used in the page setup dialog."
+msgid ""
+"This string gives the default unit to be used in the page setup dialog."
 msgstr "Strängen anger standardenhet att användas i sidinställningsdialogen."
 
 #: ../schemas/org.gnome.gnumeric.dialogs.gschema.xml.in.in.h:76
@@ -2982,8 +2979,8 @@ msgid ""
 "This value gives the default number of points from the bottom of a page to "
 "the end of the footer. Please use the Print Setup dialog to edit this value."
 msgstr ""
-"Det här värdet anger standardantal punkter från sidans nederkant till slutet "
-"på foten. Använd Skrivarinställningar för att redigera detta värde."
+"Det här värdet anger standardantal punkter från sidans nederkant till slutet"
+" på foten. Använd Skrivarinställningar för att redigera detta värde."
 
 #: ../schemas/org.gnome.gnumeric.dialogs.gschema.xml.in.in.h:82
 msgid "Default Top Outside Margin"
@@ -3003,8 +3000,8 @@ msgstr "Standard vänstermarginal"
 
 #: ../schemas/org.gnome.gnumeric.dialogs.gschema.xml.in.in.h:85
 msgid ""
-"This value gives the default number of points from the left of a page to the "
-"left of the body. Please use the Print Setup dialog to edit this value."
+"This value gives the default number of points from the left of a page to the"
+" left of the body. Please use the Print Setup dialog to edit this value."
 msgstr ""
 "Det här värdet anger antal punkter från sidans vänstra del till vänster om "
 "huvuddelen. Använd Skrivarinställningar för att redigera detta värde."
@@ -3202,8 +3199,8 @@ msgstr "Sök och ersätt behåller strängar som strängar"
 
 #: ../schemas/org.gnome.gnumeric.dialogs.gschema.xml.in.in.h:128
 msgid ""
-"Search &amp; Replace keeps strings as strings even if they look like numbers "
-"as default"
+"Search &amp; Replace keeps strings as strings even if they look like numbers"
+" as default"
 msgstr ""
 "Sök och ersätt behåller strängar som strängar även om det ser ut som tal"
 
@@ -3272,8 +3269,8 @@ msgid ""
 "simple one-cell edit (size of 1). The undo list will be truncated when its "
 "total size exceeds this configurable value."
 msgstr ""
-"Det här värdet anger storleken på ångrahögen. Varje redigeringsåtgärd har en "
-"storlek associerad, för att jämföras med minneskraven för en enkel "
+"Det här värdet anger storleken på ångrahögen. Varje redigeringsåtgärd har en"
+" storlek associerad, för att jämföras med minneskraven för en enkel "
 "redigering av en cell (storlek 1). Ångralistan trunkeras om dess totala "
 "storlek blir större än detta konfigurerbara värde."
 
@@ -3285,7 +3282,8 @@ msgstr "Antal ångraobjekt"
 #: ../schemas/org.gnome.gnumeric.gschema.xml.in.in.h:8
 msgid ""
 "This value determines the maximum number of items in the undo/redo list."
-msgstr "Det här värdet avgör det största antalet objekt i ångra/gör om-listan."
+msgstr ""
+"Det här värdet avgör det största antalet objekt i ångra/gör om-listan."
 
 #: ../schemas/org.gnome.gnumeric.gschema.xml.in.in.h:9
 msgid "Length of the Undo Descriptors"
@@ -3293,8 +3291,8 @@ msgstr "Längden på ångrabeskrivningarna"
 
 #: ../schemas/org.gnome.gnumeric.gschema.xml.in.in.h:10
 msgid ""
-"This value is indicative of the maximum length of the command descriptors in "
-"the undo and redo chains."
+"This value is indicative of the maximum length of the command descriptors in"
+" the undo and redo chains."
 msgstr ""
 "Det här värdet indikerar den maximala längden av kommandobeskrivningarna i "
 "ångra/gör om-högarna."
@@ -3353,8 +3351,8 @@ msgid ""
 "The number of rows in each sheet. This setting will be used only in a new "
 "Gnumeric session."
 msgstr ""
-"Antalet rader i varje blad. Denna inställning kommer att bara att användas i "
-"en ny Gnumeric-session."
+"Antalet rader i varje blad. Denna inställning kommer att bara att användas i"
+" en ny Gnumeric-session."
 
 #: ../schemas/org.gnome.gnumeric.gschema.xml.in.in.h:23
 msgid "Default Number of columns in a sheet"
@@ -3362,8 +3360,8 @@ msgstr "Antal kolumner i ett blad som standard"
 
 #: ../schemas/org.gnome.gnumeric.gschema.xml.in.in.h:24
 msgid ""
-"The number of columns in each sheet. This setting will be used only in a new "
-"Gnumeric session."
+"The number of columns in each sheet. This setting will be used only in a new"
+" Gnumeric session."
 msgstr ""
 "Antalet kolumner i varje blad. Denna inställning kommer att bara att "
 "användas i en ny Gnumeric-session."
@@ -3473,8 +3471,8 @@ msgid ""
 "This variable determines whether cells containing spreadsheet functions are "
 "marked."
 msgstr ""
-"Den här variabeln avgör huruvida celler som innehåller kalkylbladsfunktioner "
-"är markerade."
+"Den här variabeln avgör huruvida celler som innehåller kalkylbladsfunktioner"
+" är markerade."
 
 #: ../schemas/org.gnome.gnumeric.gschema.xml.in.in.h:45
 msgid "Extension Markers"
@@ -3555,8 +3553,8 @@ msgstr ""
 "Om \"lag\" är 0 räknar Gnumeric om alla automatiska uttryck direkt efter "
 "varje förändring. Är \"lag\" inte noll väntar Gnumeric på fler ändringar "
 "innan uttrycken räknas om. Om \"lag\" är positivt så väntar Gnumeric i "
-"\"lag\" millisekunder och räknar sedan om; om fler ändringar har skett under "
-"den tidsperioden så bearbetas de också nu. Om \"lag\" är negativt så sker "
+"\"lag\" millisekunder och räknar sedan om; om fler ändringar har skett under"
+" den tidsperioden så bearbetas de också nu. Om \"lag\" är negativt så sker "
 "omräkning endast då inga ändringar har hänt i \"lag\" millisekunder."
 
 #: ../schemas/org.gnome.gnumeric.gschema.xml.in.in.h:59
@@ -3566,13 +3564,13 @@ msgstr "Övergångsnycklar"
 
 #: ../schemas/org.gnome.gnumeric.gschema.xml.in.in.h:60
 msgid ""
-"This variable determines whether transition keys are set on. Transition keys "
-"are a throwback to 1-2-3 style event handling. They turn Ctrl-arrow into "
+"This variable determines whether transition keys are set on. Transition keys"
+" are a throwback to 1-2-3 style event handling. They turn Ctrl-arrow into "
 "page movement rather than jumping to the start/end of series."
 msgstr ""
 "Variabeln avgör huruvida övergångstangenter är på. Övergångstangenter "
-"påminner om händelsehantering för 1-2-3-stil. De förvandlar Ctrl-pil till en "
-"sidrörelse istället för att hoppa till start/slut i en serie."
+"påminner om händelsehantering för 1–2–3-stil. De förvandlar Ctrl-pil till en"
+" sidrörelse istället för att hoppa till start/slut i en serie."
 
 #: ../schemas/org.gnome.gnumeric.gschema.xml.in.in.h:61
 #: ../src/dialogs/dialog-preferences.c:849
@@ -3616,13 +3614,13 @@ msgstr "Standardkompressionsnivå för Gnumeric-filer"
 
 #: ../schemas/org.gnome.gnumeric.gschema.xml.in.in.h:68
 msgid ""
-"This integer (between 0 and 9) specifies the amount of compression performed "
-"by Gnumeric when saving files in the default file format. 0 is minimal "
+"This integer (between 0 and 9) specifies the amount of compression performed"
+" by Gnumeric when saving files in the default file format. 0 is minimal "
 "compression while 9 is maximal compression."
 msgstr ""
 "Det här heltalet (mellan 0 och 9) anger mängden komprimering Gnumeric "
-"använder när den sparar i standardfilformatet. 0 är minimal komprimering och "
-"9 är maximal komprimering."
+"använder när den sparar i standardfilformatet. 0 är minimal komprimering och"
+" 9 är maximal komprimering."
 
 #: ../schemas/org.gnome.gnumeric.gschema.xml.in.in.h:69
 #: ../src/dialogs/dialog-preferences.c:982
@@ -3650,8 +3648,8 @@ msgid ""
 "warning dialog. Setting this option will make the overwrite button in that "
 "dialog the default button."
 msgstr ""
-"Innan en befintlig fil skrivs över visar Gnumeric en varningsdialogruta. Det "
-"här alternativet sätter överskrivningsknappen som standardvalet."
+"Innan en befintlig fil skrivs över visar Gnumeric en varningsdialogruta. Det"
+" här alternativet sätter överskrivningsknappen som standardvalet."
 
 #: ../schemas/org.gnome.gnumeric.gschema.xml.in.in.h:73
 msgid "List of file savers with disabled extension check."
@@ -3675,8 +3673,8 @@ msgid ""
 "case-sensitive sort and determine the initial state of the case-sensitive "
 "checkbox in the sort dialog."
 msgstr ""
-"Sätts detta val kommer sorteringsknapparna på verktygsfältet att sortera med "
-"hänsyn till gemener/VERSALER och avgör också standardinställningen för "
+"Sätts detta val kommer sorteringsknapparna på verktygsfältet att sortera med"
+" hänsyn till gemener/VERSALER och avgör också standardinställningen för "
 "kryssrutan för gemener/VERSALER i sorteringsdialogen."
 
 #: ../schemas/org.gnome.gnumeric.gschema.xml.in.in.h:77
@@ -3715,8 +3713,8 @@ msgstr "Antal automatiska satser"
 #: ../schemas/org.gnome.gnumeric.gschema.xml.in.in.h:82
 msgid ""
 "When selecting a sort region in the sort dialog, sort clauses are "
-"automatically added. This number determines the maximum number of clauses to "
-"be added automatically."
+"automatically added. This number determines the maximum number of clauses to"
+" be added automatically."
 msgstr ""
 "När ett sorteringsområde väljs i sorteringsdialogen läggs sorteringssatser "
 "till automatiskt. Detta värde bestämmer det maximala antalet satser att "
@@ -3732,8 +3730,8 @@ msgid ""
 "legacy PRIMARY selections. Set to FALSE if you have to deal with older "
 "applications, like Xterm or Emacs, which set only the PRIMARY selection."
 msgstr ""
-"När TRUE, föredrar Gnumeric den moderna CLIPBOARD-urklippet framför de gamla "
-"PRIMARY-valen. Sätt till FALSE om du måste arbeta med äldre program, som "
+"När TRUE, föredrar Gnumeric den moderna CLIPBOARD-urklippet framför de gamla"
+" PRIMARY-valen. Sätt till FALSE om du måste arbeta med äldre program, som "
 "Xterm eller Emacs, som endast sätter PRIMARY-valet."
 
 #: ../schemas/org.gnome.gnumeric.plugin.gschema.xml.in.in.h:1
@@ -3838,8 +3836,8 @@ msgid ""
 "Inserting these cells would push data off the sheet. Please enlarge the "
 "sheet first."
 msgstr ""
-"Att infoga dessa celler skulle knuffa ut data utanför kalkylbladet. Förstora "
-"kalkylbladet först."
+"Att infoga dessa celler skulle knuffa ut data utanför kalkylbladet. Förstora"
+" kalkylbladet först."
 
 #: ../src/cmd-edit.c:441
 #, c-format
@@ -3879,7 +3877,8 @@ msgstr "Skulle delat sammanfogning %s"
 #: ../src/commands.c:213
 #, c-format
 msgid "%s is locked. Unprotect the workbook to enable editing."
-msgstr "%s är låst. Ta bort skyddet på arbetsboken för att tillåta redigering."
+msgstr ""
+"%s är låst. Ta bort skyddet på arbetsboken för att tillåta redigering."
 
 #: ../src/commands.c:214
 #, c-format
@@ -3948,14 +3947,14 @@ msgstr[1] "Infogar %d kolumner före %s"
 #: ../src/commands.c:1547
 #, c-format
 msgid ""
-"Inserting %i row before row %s would push data off the sheet. Please enlarge "
-"the sheet first."
+"Inserting %i row before row %s would push data off the sheet. Please enlarge"
+" the sheet first."
 msgid_plural ""
 "Inserting %i rows before row %s would push data off the sheet. Please "
 "enlarge the sheet first."
 msgstr[0] ""
-"Att infoga %i rad före rad %s skulle knuffa ut data utanför bladet. Förstora "
-"kalkylbladet först."
+"Att infoga %i rad före rad %s skulle knuffa ut data utanför bladet. Förstora"
+" kalkylbladet först."
 msgstr[1] ""
 "Att infoga %i rader före rad %s skulle knuffa ut data utanför bladet. "
 "Förstora kalkylbladet först."
@@ -4306,7 +4305,8 @@ msgstr "Sök och ersätt"
 msgid ""
 "Some matching cells are locked and were not changed. Unprotect the sheet to "
 "enable editing."
-msgstr "Vissa matchande celler är låsta och ändrades inte. Ta bort skyddet från "
+msgstr ""
+"Vissa matchande celler är låsta och ändrades inte. Ta bort skyddet från "
 "kalkylbladet för att kunna redigera."
 
 #: ../src/commands.c:4931
@@ -4332,8 +4332,9 @@ msgstr "Ta bort objekt"
 #: ../src/dialogs/dialog-doc-metadata.c:1865
 #: ../src/dialogs/dialog-formula-guru.c:892
 #: ../src/dialogs/dialog-function-select.c:1280
-#: ../src/dialogs/dialog-scenarios.c:523 ../src/dialogs/dialog-simulation.c:211
-#: ../src/dialogs/dialog-zoom.c:195 ../src/format-template.c:209
+#: ../src/dialogs/dialog-scenarios.c:523
+#: ../src/dialogs/dialog-simulation.c:211 ../src/dialogs/dialog-zoom.c:195
+#: ../src/format-template.c:209
 msgid "Name"
 msgstr "Namn"
 
@@ -4578,16 +4579,14 @@ msgstr "Datasammanslagning"
 
 #: ../src/dialogs/dialog-about.c:40
 msgid ""
-"Gnumeric is available under the GNU General Public License, version 2 or 3 "
-"at your option.\n"
+"Gnumeric is available under the GNU General Public License, version 2 or 3 at your option.\n"
 "\n"
 "See https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\n"
 "or https://www.gnu.org/licenses/gpl-3.0.html.\n"
 "\n"
 "Gnumeric comes with absolutely no warranty."
 msgstr ""
-"Gnumeric är tillgänglig under GNU General Public License, du kan välja "
-"version 2 eller 3.\n"
+"Gnumeric är tillgänglig under GNU General Public License, du kan välja version 2 eller 3.\n"
 "\n"
 "Se https://www.gnu.org/licenses/old-licenses/gpl-2.0.html\n"
 "eller https://www.gnu.org/licenses/gpl-3.0.html.\n"
@@ -5020,7 +5019,7 @@ msgstr "Besök Gnumerics hemsida"
 
 #: ../src/dialogs/dialog-about.c:600
 msgid "Copyright © 1998-2026"
-msgstr "Copyright © 1998-2026"
+msgstr "Upphovsrätt © 1998–2026"
 
 #: ../src/dialogs/dialog-about.c:601
 msgid "Free, Fast, Accurate - Pick Any Three!"
@@ -5395,11 +5394,13 @@ msgstr "_Y-variabler:"
 msgid "_X variable:"
 msgstr "_X-variabel:"
 
-#: ../src/dialogs/dialog-analysis-tools.c:2372 ../src/dialogs/regression.ui.h:5
+#: ../src/dialogs/dialog-analysis-tools.c:2372
+#: ../src/dialogs/regression.ui.h:5
 msgid "_X variables:"
 msgstr "_X-variabler:"
 
-#: ../src/dialogs/dialog-analysis-tools.c:2374 ../src/dialogs/regression.ui.h:6
+#: ../src/dialogs/dialog-analysis-tools.c:2374
+#: ../src/dialogs/regression.ui.h:6
 msgid "_Y variable:"
 msgstr "_Y-variabel:"
 
@@ -5476,8 +5477,8 @@ msgid ""
 "The given input range should contain at least two columns of data and the "
 "labels."
 msgstr ""
-"Det angivna indataområdet bör innehålla åtminstone två kolumner med data och "
-"rubrikerna."
+"Det angivna indataområdet bör innehålla åtminstone två kolumner med data och"
+" rubrikerna."
 
 #: ../src/dialogs/dialog-analysis-tools.c:3652
 msgid "The given input range should contain at least two columns of data."
@@ -5494,7 +5495,8 @@ msgstr ""
 
 #: ../src/dialogs/dialog-analysis-tools.c:3661
 msgid "The given input range should contain at least two rows of data."
-msgstr "Det angivna indataområdet bör innehålla åtminstone två rader med data."
+msgstr ""
+"Det angivna indataområdet bör innehålla åtminstone två rader med data."
 
 #: ../src/dialogs/dialog-analysis-tools.c:3668
 msgid "The number of data rows must be a multiple of the replication number."
@@ -5568,7 +5570,8 @@ msgid "Column %s (\"%s\")"
 msgstr "Kolumn %s (”%s”)"
 
 #: ../src/dialogs/dialog-autofilter.c:395
-#: ../src/dialogs/dialog-autofilter.c:495 ../src/dialogs/dialog-cell-sort.c:135
+#: ../src/dialogs/dialog-autofilter.c:495
+#: ../src/dialogs/dialog-cell-sort.c:135
 #: ../src/dialogs/dialog-sheet-compare.c:312
 #, c-format
 msgid "Column %s"
@@ -5806,8 +5809,8 @@ msgid ""
 "You did not add the defined conditional format. Do you really want to close "
 "the conditional formatting dialog?"
 msgstr ""
-"Du lade inte till det definierade villkorsformatet. Vill du verkligen stänga "
-"dialogen för villkorlig formatering?"
+"Du lade inte till det definierade villkorsformatet. Vill du verkligen stänga"
+" dialogen för villkorlig formatering?"
 
 #: ../src/dialogs/dialog-cell-format-cond.c:236
 msgid "(defined)"
@@ -5916,11 +5919,13 @@ msgstr "Utöka villkorlig formatering"
 #: ../src/dialogs/dialog-cell-format-cond.c:859
 msgid ""
 "If the cell content is between these two values, a special style is used."
-msgstr "Om cellinnehållet är mellan dessa två värden används en speciell stil."
+msgstr ""
+"Om cellinnehållet är mellan dessa två värden används en speciell stil."
 
 #: ../src/dialogs/dialog-cell-format-cond.c:867
 msgid ""
-"If the cell content is not between these two values, a special style is used."
+"If the cell content is not between these two values, a special style is "
+"used."
 msgstr ""
 "Om cellinnehållet inte är mellan dessa två värden används en speciell stil."
 
@@ -5971,7 +5976,8 @@ msgstr "Om cellinnehållet börjar med denna sträng används en speciell stil."
 
 #: ../src/dialogs/dialog-cell-format-cond.c:955
 msgid ""
-"If the cell content does not begin with this string, a special style is used."
+"If the cell content does not begin with this string, a special style is "
+"used."
 msgstr ""
 "Om cellinnehållet inte börjar med denna sträng används en speciell stil."
 
@@ -6071,7 +6077,8 @@ msgstr "Ställ in standardbredden för kolumner"
 #: ../src/dialogs/dialog-col-width.c:226
 #, c-format
 msgid ""
-"Set column width of selection on <span style='italic' weight='bold'>%s</span>"
+"Set column width of selection on <span style='italic' "
+"weight='bold'>%s</span>"
 msgstr ""
 "Ställ in kolumnbredden av markeringen på <span style='italic' "
 "weight='bold'>%s</span>"
@@ -6143,7 +6150,8 @@ msgstr "Datatabell"
 msgid "Could not create the Data Table definition dialog."
 msgstr "Kunde inte skapa dialogen för datatabellsdefinition."
 
-#: ../src/dialogs/dialog-define-names.c:394 ../src/dialogs/sheet-compare.ui.h:2
+#: ../src/dialogs/dialog-define-names.c:394
+#: ../src/dialogs/sheet-compare.ui.h:2
 msgid "Workbook"
 msgstr "Arbetsbok"
 
@@ -6501,8 +6509,8 @@ msgstr "%i fält är inte del av sammanfogningszonen!"
 #: ../src/dialogs/dialog-merge.c:273
 #, c-format
 msgid ""
-"The data columns range in length from %i to %i. Shall we trim the lengths to "
-"%i and proceed?"
+"The data columns range in length from %i to %i. Shall we trim the lengths to"
+" %i and proceed?"
 msgstr ""
 "Datakolumnerna varierar i längd från %i till %i. Ska vi korta ner längderna "
 "till %i och fortsätta?"
@@ -6562,12 +6570,10 @@ msgstr "Fel vid aktivering av insticksmoduler"
 
 #: ../src/dialogs/dialog-plugin-manager.c:584
 msgid ""
-"The following extra plugins must be activated in order to activate this "
-"one:\n"
+"The following extra plugins must be activated in order to activate this one:\n"
 "\n"
 msgstr ""
-"Följande extra insticksmoduler måste aktiveras för att kunna aktivera "
-"denna:\n"
+"Följande extra insticksmoduler måste aktiveras för att kunna aktivera denna:\n"
 "\n"
 
 #: ../src/dialogs/dialog-plugin-manager.c:590
@@ -7108,24 +7114,20 @@ msgstr "Weibull"
 msgid "Could not create the Random Tool dialog."
 msgstr "Kunde inte skapa dialogen för slumpverktyget."
 
-#.
 #. * xgettext: This is a time format for
 #. * g_date_time_format used in locales that use a
 #. * 24 hour clock.  You probably do not need to change
 #. * this.  The default will show things like "09:50"
 #. * and "21:50".
-#.
 #: ../src/dialogs/dialog-recent.c:205
 msgid "%H:%M"
 msgstr "%H:%M"
 
-#.
 #. * xgettext: This is a time format for
 #. * g_date_time_format used in locales that use
 #. * a 12 hour clock. You probably do not need
 #. * to change this.  The default will show
 #. * things like " 9:50 am" and " 9:50 pm".
-#.
 #: ../src/dialogs/dialog-recent.c:214
 msgid "%l:%M %P"
 msgstr "%l:%M %P"
@@ -7139,8 +7141,8 @@ msgstr "Ställ in standardhöjd för rader"
 msgid ""
 "Set row height of selection on <span style='italic' weight='bold'>%s</span>"
 msgstr ""
-"Ställ in radhöjd av markeringen på <span style='italic' weight='bold'>%s</"
-"span>"
+"Ställ in radhöjd av markeringen på <span style='italic' "
+"weight='bold'>%s</span>"
 
 #: ../src/dialogs/dialog-scenarios.c:192 ../src/dialogs/dialog-scenarios.c:228
 msgid "Scenario Summary"
@@ -7383,13 +7385,15 @@ msgid "General"
 msgstr "Allmänt"
 
 #. start sub menu
-#: ../src/dialogs/dialog-sheet-compare.c:378 ../src/dialogs/cell-format.ui.h:42
-#: ../src/sheet-control-gui.c:2337 ../src/wbc-gtk-actions.c:3888
+#: ../src/dialogs/dialog-sheet-compare.c:378
+#: ../src/dialogs/cell-format.ui.h:42 ../src/sheet-control-gui.c:2337
+#: ../src/wbc-gtk-actions.c:3888
 msgid "Left"
 msgstr "Vänster"
 
-#: ../src/dialogs/dialog-sheet-compare.c:379 ../src/dialogs/cell-format.ui.h:43
-#: ../src/sheet-control-gui.c:2340 ../src/wbc-gtk-actions.c:3890
+#: ../src/dialogs/dialog-sheet-compare.c:379
+#: ../src/dialogs/cell-format.ui.h:43 ../src/sheet-control-gui.c:2340
+#: ../src/wbc-gtk-actions.c:3890
 msgid "Right"
 msgstr "Höger"
 
@@ -7427,16 +7431,18 @@ msgstr "Överkant"
 msgid "Bottom"
 msgstr "Underkant"
 
-#: ../src/dialogs/dialog-sheet-compare.c:403 ../src/dialogs/cell-format.ui.h:45
-#: ../src/widgets/gnm-text-view.c:281
+#: ../src/dialogs/dialog-sheet-compare.c:403
+#: ../src/dialogs/cell-format.ui.h:45 ../src/widgets/gnm-text-view.c:281
 msgid "None"
 msgstr "Ingen"
 
-#: ../src/dialogs/dialog-sheet-compare.c:403 ../src/widgets/gnm-text-view.c:282
+#: ../src/dialogs/dialog-sheet-compare.c:403
+#: ../src/widgets/gnm-text-view.c:282
 msgid "Single"
 msgstr "Enkel"
 
-#: ../src/dialogs/dialog-sheet-compare.c:403 ../src/widgets/gnm-text-view.c:283
+#: ../src/dialogs/dialog-sheet-compare.c:403
+#: ../src/widgets/gnm-text-view.c:283
 msgid "Double"
 msgstr "Dubbel"
 
@@ -7622,7 +7628,8 @@ msgid ""
 "First round number should be less than or equal to the number of the last "
 "round."
 msgstr ""
-"Första rundans värde skall vara mindre än eller lika med sista rundans värde."
+"Första rundans värde skall vara mindre än eller lika med sista rundans "
+"värde."
 
 #: ../src/dialogs/dialog-simulation.c:422
 msgid "Could not create the Simulation dialog."
@@ -7819,7 +7826,8 @@ msgstr "Passa in automatiskt"
 
 #: ../src/dialogs/dialog-stf-format-page.c:619
 #, c-format
-msgid "If this checkbox is selected, column %i will be imported into Gnumeric."
+msgid ""
+"If this checkbox is selected, column %i will be imported into Gnumeric."
 msgstr "Om kryssruta är vald, kommer kolumn %i att importeras till Gnumeric."
 
 #: ../src/dialogs/dialog-stf-format-page.c:627
@@ -8533,27 +8541,27 @@ msgstr "Helfylld"
 #: ../src/dialogs/cell-format.ui.h:63
 #, no-c-format
 msgid "75% Grey"
-msgstr "75% grå"
+msgstr "75 % grå"
 
 #: ../src/dialogs/cell-format.ui.h:65
 #, no-c-format
 msgid "50% Grey"
-msgstr "50% grå"
+msgstr "50 % grå"
 
 #: ../src/dialogs/cell-format.ui.h:67
 #, no-c-format
 msgid "25% Grey"
-msgstr "25% grå"
+msgstr "25 % grå"
 
 #: ../src/dialogs/cell-format.ui.h:69
 #, no-c-format
 msgid "12.5% Grey"
-msgstr "12,5% grå"
+msgstr "12,5 % grå"
 
 #: ../src/dialogs/cell-format.ui.h:71
 #, no-c-format
 msgid "6.25% Grey"
-msgstr "6,25% grå"
+msgstr "6,25 % grå"
 
 #: ../src/dialogs/cell-format.ui.h:72
 msgid "Horizontal Stripe"
@@ -8724,8 +8732,8 @@ msgstr "Sorteringsområdet har ett _huvud"
 
 #: ../src/dialogs/cell-sort.ui.h:8
 msgid ""
-"The first row or column of the range is excluded from sorting and assumed to "
-"contain column or row headers."
+"The first row or column of the range is excluded from sorting and assumed to"
+" contain column or row headers."
 msgstr ""
 "Den första raden eller kolumnen i intervallet är utesluten från sortering "
 "och antas vara kolumn- eller radrubriker."
@@ -8857,8 +8865,8 @@ msgstr "Rubriker i ö_versta raden"
 
 #: ../src/dialogs/consolidate.ui.h:8
 msgid ""
-"The top row contains labels, these will not be consolidated, but used as key "
-"for comparison"
+"The top row contains labels, these will not be consolidated, but used as key"
+" for comparison"
 msgstr ""
 "Den översta raden innehåller etiketter, dessa kommer inte att konsolideras, "
 "men användas som nycklar för jämförelse"
@@ -8869,8 +8877,8 @@ msgstr "Rubriker i _vänstra kolumnen"
 
 #: ../src/dialogs/consolidate.ui.h:10
 msgid ""
-"The left column contains labels, these will not be consolidated, but used as "
-"key for comparison"
+"The left column contains labels, these will not be consolidated, but used as"
+" key for comparison"
 msgstr ""
 "Den vänstra kolumnen innehåller etiketter, dessa kommer inte att "
 "konsolideras, men användas som nycklar för jämförelse"
@@ -9200,7 +9208,8 @@ msgstr ""
 
 #: ../src/dialogs/dialog-stf-export.ui.h:31
 msgid ""
-"Move the selected sheet to the end of the list of sheets to be exported last."
+"Move the selected sheet to the end of the list of sheets to be exported "
+"last."
 msgstr ""
 "Flytta det valda bladet till slutet av listan över blad att exportera, så "
 "det exporteras sist."
@@ -9311,8 +9320,8 @@ msgstr "_Windows (CR+LF)"
 
 #: ../src/dialogs/dialog-stf.ui.h:17
 msgid ""
-"The sequence of carriage return and line feed (ASCII codes 13 and 10) breaks "
-"lines"
+"The sequence of carriage return and line feed (ASCII codes 13 and 10) breaks"
+" lines"
 msgstr ""
 "Sekvensen vagnretur och radmatning (ASCII-koder 13 och 10) bryter rader"
 
@@ -9333,14 +9342,16 @@ msgid ""
 "Each column in the text is separated by a &apos;separation&apos; character, "
 "e.g. a semicolon."
 msgstr ""
-"Varje kolumn i texten är åtskild med ett ”skiljetecken”, t.ex. ett semikolon."
+"Varje kolumn i texten är åtskild med ett ”skiljetecken”, t.ex. ett "
+"semikolon."
 
 #: ../src/dialogs/dialog-stf.ui.h:22
 msgid ""
 "Each column in the text is separated by a 'separation' character, e.g. a "
 "semicolon."
 msgstr ""
-"Varje kolumn i texten är åtskild med ett ”skiljetecken”, t.ex. ett semikolon."
+"Varje kolumn i texten är åtskild med ett ”skiljetecken”, t.ex. ett "
+"semikolon."
 
 #: ../src/dialogs/dialog-stf.ui.h:23
 msgid "Fi_xed width"
@@ -10412,19 +10423,23 @@ msgstr "3"
 msgid "Normality Tests"
 msgstr "Normalitetstest"
 
-#: ../src/dialogs/normality-tests.ui.h:11 ../src/tools/analysis-normality.c:177
+#: ../src/dialogs/normality-tests.ui.h:11
+#: ../src/tools/analysis-normality.c:177
 msgid "Anderson-Darling Test"
 msgstr "Anderson-Darling-test"
 
-#: ../src/dialogs/normality-tests.ui.h:12 ../src/tools/analysis-normality.c:184
+#: ../src/dialogs/normality-tests.ui.h:12
+#: ../src/tools/analysis-normality.c:184
 msgid "Cramér-von Mises Test"
 msgstr "Cramér-von Mises-test"
 
-#: ../src/dialogs/normality-tests.ui.h:13 ../src/tools/analysis-normality.c:191
+#: ../src/dialogs/normality-tests.ui.h:13
+#: ../src/tools/analysis-normality.c:191
 msgid "Lilliefors (Kolmogorov-Smirnov) Test"
 msgstr "Lilliefors (Kolmogorov-Smirnov)-Test"
 
-#: ../src/dialogs/normality-tests.ui.h:14 ../src/tools/analysis-normality.c:197
+#: ../src/dialogs/normality-tests.ui.h:14
+#: ../src/tools/analysis-normality.c:197
 msgid "Shapiro-Francia Test"
 msgstr "Shapiro-Francia-test"
 
@@ -10554,8 +10569,8 @@ msgid ""
 "Flip the source horizontally during the paste so the first column becomes "
 "the last and vice versa"
 msgstr ""
-"Vänd källan horisontellt under inklistringen så att den första kolumnen blir "
-"den sista och vice versa"
+"Vänd källan horisontellt under inklistringen så att den första kolumnen blir"
+" den sista och vice versa"
 
 #: ../src/dialogs/paste-special.ui.h:28
 msgid "Fli_p Vertically"
@@ -10620,7 +10635,8 @@ msgstr "Insticksmodulkatalog:"
 
 #: ../src/dialogs/plugin-manager.ui.h:6
 msgid "Do _not activate this plugin next time I start Gnumeric"
-msgstr "Aktivera _inte den här insticksmodulen nästa gång jag startar Gnumeric"
+msgstr ""
+"Aktivera _inte den här insticksmodulen nästa gång jag startar Gnumeric"
 
 #: ../src/dialogs/plugin-manager.ui.h:7
 msgid ""
@@ -10628,8 +10644,8 @@ msgid ""
 "use the check button below, the plugin won't be activated after restarting "
 "Gnumeric (unless needed by another plugin)."
 msgstr ""
-"Insticksmodulen kan inte inaktiveras eftersom den fortfarande används. Om du "
-"markerar nedan kommer insticksmodulen inte att aktiveras när du startar om "
+"Insticksmodulen kan inte inaktiveras eftersom den fortfarande används. Om du"
+" markerar nedan kommer insticksmodulen inte att aktiveras när du startar om "
 "Gnumeric nästa gång (om ingen annan insticksmodul behöver den)."
 
 #: ../src/dialogs/plugin-manager.ui.h:8
@@ -10758,7 +10774,7 @@ msgstr "Skala för att passa _vertikalt på"
 #: ../src/dialogs/print.ui.h:29
 #, no-c-format
 msgid "% of normal size"
-msgstr "% av normalstorlek"
+msgstr "Procent av normalstorlek"
 
 #: ../src/dialogs/print.ui.h:30
 msgid "page(s)"
@@ -11191,7 +11207,7 @@ msgstr "_Ersätt med"
 
 #: ../src/dialogs/search-replace.ui.h:15 ../src/dialogs/search.ui.h:7
 msgid "_Ignore case"
-msgstr "_Ignorera skillnader på gemener/VERSALER"
+msgstr "_Ignorera skiftläge"
 
 #: ../src/dialogs/search-replace.ui.h:16 ../src/dialogs/search.ui.h:8
 msgid "When set, do not distinguish between upper and lower case letters"
@@ -12198,8 +12214,8 @@ msgstr[1] "%d rader"
 #, c-format
 msgid "%d col"
 msgid_plural "%d cols"
-msgstr[0] "%d kol"
-msgstr[1] "%d kol"
+msgstr[0] "%d kolumn"
+msgstr[1] "%d kolumner"
 
 #: ../src/format-template.c:741
 #, c-format
@@ -12308,8 +12324,8 @@ msgstr "falseval:värde att använda om villkoret är falskt"
 
 #: ../src/func-builtin.c:351
 msgid ""
-"This function first evaluates the condition.  If the result is true, it will "
-"then evaluate and return the second argument.  Otherwise, it will evaluate "
+"This function first evaluates the condition.  If the result is true, it will"
+" then evaluate and return the second argument.  Otherwise, it will evaluate "
 "and return the last argument."
 msgstr ""
 "Denna funktion evaluerar först villkoret. Om resultatet är sant kommer den "
@@ -12374,27 +12390,27 @@ msgstr "Anpassa till höjd"
 
 #: ../src/gnm-graph-window.c:196
 msgid "100%"
-msgstr "100%"
+msgstr "100 %"
 
 #: ../src/gnm-graph-window.c:197
 msgid "125%"
-msgstr "125%"
+msgstr "125 %"
 
 #: ../src/gnm-graph-window.c:198
 msgid "150%"
-msgstr "150%"
+msgstr "150 %"
 
 #: ../src/gnm-graph-window.c:199
 msgid "200%"
-msgstr "200%"
+msgstr "200 %"
 
 #: ../src/gnm-graph-window.c:200
 msgid "300%"
-msgstr "300%"
+msgstr "300 %"
 
 #: ../src/gnm-graph-window.c:201
 msgid "500%"
-msgstr "500%"
+msgstr "500 %"
 
 #: ../src/gnm-graph-window.c:249
 msgid "Chart Viewer"
@@ -12542,13 +12558,11 @@ msgstr "Öppna s_krivskyddad"
 #: ../src/gui-file.c:518
 msgid ""
 "Selected file format doesn't support saving multiple sheets in one file.\n"
-"If you want to save all sheets, save them in separate files or select "
-"different file format.\n"
+"If you want to save all sheets, save them in separate files or select different file format.\n"
 "Do you want to save only current sheet?"
 msgstr ""
 "Det valda filformatet stöder inte sparning av flera blad i samma fil.\n"
-"Om du vill spara alla blad bör du spara dem i separata filer eller välja "
-"ett annat filformat.\n"
+"Om du vill spara alla blad bör du spara dem i separata filer eller välja ett annat filformat.\n"
 "Vill du spara endast det aktuella bladet?"
 
 #: ../src/gui-file.c:603
@@ -12565,8 +12579,8 @@ msgstr "Ingen titel"
 
 #: ../src/gui-file.c:785
 msgid ""
-"The given file extension does not match the chosen file type. Do you want to "
-"use this name anyway?"
+"The given file extension does not match the chosen file type. Do you want to"
+" use this name anyway?"
 msgstr ""
 "Den givna ändelsen passar inte den valda filtypen. Vill du använda detta "
 "namn i alla fall?"
@@ -12578,16 +12592,14 @@ msgstr "%F %T"
 #: ../src/gui-file.c:864
 #, c-format
 msgid ""
-"The file you are about to save has changed on disk. If you continue, you "
-"will overwrite someone else's changes.\n"
+"The file you are about to save has changed on disk. If you continue, you will overwrite someone else's changes.\n"
 "\n"
 "File: <b>%s</b>\n"
 "Location: %s\n"
 "\n"
 "Last modified: <b>%s</b>\n"
 msgstr ""
-"Filen du är på väg att spara har ändrats på disk. Om du fortsätter kommer du "
-"att skriva över någons ändringar.\n"
+"Filen du är på väg att spara har ändrats på disk. Om du fortsätter kommer du att skriva över någons ändringar.\n"
 "\n"
 "Fil: <b>%s</b>\n"
 "Plats: %s\n"
@@ -12722,7 +12734,8 @@ msgstr "%d.00 pt"
 msgid "%d.00 pts"
 msgstr "%d.00 ptr"
 
-#. xgettext: The number of points here is always a fractional number, ie. not an integer.
+#. xgettext: The number of points here is always a fractional number, ie. not
+#. an integer.
 #: ../src/item-bar.c:886
 #, c-format
 msgid "%.2f pts"
@@ -12797,9 +12810,9 @@ msgid ""
 "datadir := '%s'\n"
 "libdir := '%s'\n"
 msgstr ""
-"gnumeric version ”%s”\n"
-"datakat := ”%s”\n"
-"bibkat := ”%s”\n"
+"gnumeric version '%s'\n"
+"datadir := '%s'\n"
+"libdir := '%s'\n"
 
 #: ../src/libgnumeric.c:133
 msgid "Gnumeric Options"
@@ -12841,8 +12854,7 @@ msgid ""
 "Run '%s --help' to see a full list of available command line options.\n"
 msgstr ""
 "%s\n"
-"Kör ”%s --help” för att få en fullständig lista över tillgängliga "
-"kommandoradsflaggor.\n"
+"Kör ”%s --help” för att få en fullständig lista över tillgängliga kommandoradsflaggor.\n"
 
 #: ../src/parser.y:353
 #, c-format
@@ -13089,7 +13101,8 @@ msgstr "Skriv ut till fil"
 
 #: ../src/search.c:165
 msgid "Searching for regular expressions and numbers are mutually exclusive."
-msgstr "Sökning efter reguljära uttryck och siffror är ömsesidigt uteslutande."
+msgstr ""
+"Sökning efter reguljära uttryck och siffror är ömsesidigt uteslutande."
 
 #: ../src/search.c:169
 msgid "The search text must be a number."
@@ -13485,7 +13498,8 @@ msgid "New graph sheet"
 msgstr "Nytt diagramblad"
 
 #: ../src/sheet-object-widget.c:278
-msgid "Because of GTK bug #705640, a sheet object widget is not being printed."
+msgid ""
+"Because of GTK bug #705640, a sheet object widget is not being printed."
 msgstr "På grund av GTK-fel #705640 skrivs inte ett blads objektkomponent ut."
 
 #: ../src/sheet-object-widget.c:460 ../src/wbc-gtk-actions.c:3331
@@ -13674,7 +13688,8 @@ msgid ""
 "Export a file for each sheet if the exporter only supports one sheet at a "
 "time"
 msgstr ""
-"Exportera en fil för varje blad om exportören bara stödjer ett blad åt gången"
+"Exportera en fil för varje blad om exportören bara stödjer ett blad åt "
+"gången"
 
 #: ../src/ssconvert.c:174
 msgid "Export graphs"
@@ -13869,9 +13884,9 @@ msgid ""
 "datadir := '%s'\n"
 "libdir := '%s'\n"
 msgstr ""
-"ssconvert version ”%s”\n"
-"datakat := ”%s”\n"
-"bibkat := ”%s”\n"
+"ssconvert version '%s'\n"
+"datadir := '%s'\n"
+"libdir := '%s'\n"
 
 #: ../src/ssconvert.c:1697
 #, c-format
@@ -13995,9 +14010,9 @@ msgid ""
 "datadir := '%s'\n"
 "libdir := '%s'\n"
 msgstr ""
-"ssdiff version ”%s”\n"
-"datakat := ”%s”\n"
-"bibkat := ”%s”\n"
+"ssdiff version '%s'\n"
+"datadir := '%s'\n"
+"libdir := '%s'\n"
 
 #: ../src/ssdiff.c:961
 #, c-format
@@ -14092,9 +14107,9 @@ msgid ""
 "datadir := '%s'\n"
 "libdir := '%s'\n"
 msgstr ""
-"version ”%s”\n"
-"datakat := ”%s”\n"
-"bibkat := ”%s”\n"
+"version '%s'\n"
+"datadir := '%s'\n"
+"libdir := '%s'\n"
 
 #: ../src/ssgrep.c:478
 #, c-format
@@ -14125,9 +14140,9 @@ msgid ""
 "datadir := '%s'\n"
 "libdir := '%s'\n"
 msgstr ""
-"ssindex version ”%s”\n"
-"datakat := ”%s”\n"
-"bibkat := ”%s”\n"
+"ssindex version '%s'\n"
+"datadir := '%s'\n"
+"libdir := '%s'\n"
 
 #: ../src/stf-export.c:741
 msgid "Error while trying to export file as text"
@@ -14148,8 +14163,8 @@ msgstr "Test (konfigurerbar)"
 
 #: ../src/stf-parse.c:1491
 msgid ""
-"There are more rows of data than there is room for in the sheet.  Extra rows "
-"will be ignored."
+"There are more rows of data than there is room for in the sheet.  Extra rows"
+" will be ignored."
 msgstr ""
 "Det finns fler rader med data än det finns plats för i bladet. Extra rader "
 "kommer att ignoreras."
@@ -14289,7 +14304,8 @@ msgstr "Otillräckligt utrymme tillgängligt för ANOVA-tabell."
 msgid "ANOVA: Two-Factor Fixed Effects With Replication"
 msgstr "ANOVA: Tvåvägs fasta effekter med upprepning"
 
-#. xgettext: this is a label for the first, second,... level of factor B in an ANOVA
+#. xgettext: this is a label for the first, second,... level of factor B in an
+#. ANOVA
 #: ../src/tools/analysis-anova.c:605
 #, c-format
 msgid "B, Level %i"
@@ -14299,7 +14315,8 @@ msgstr "B, nivå %i"
 msgid "Subtotal"
 msgstr "Delsumma"
 
-#. xgettext: this is a label for the first, second,... level of factor A in an ANOVA
+#. xgettext: this is a label for the first, second,... level of factor A in an
+#. ANOVA
 #: ../src/tools/analysis-anova.c:624
 #, c-format
 msgid "A, Level %i"
@@ -14362,7 +14379,8 @@ msgstr "/Teststatistik/Frihetsgrader/p-värde/kritiskt värde"
 msgid "Exponential Smoothing (%s)"
 msgstr "Exponentiell utjämning (%s)"
 
-# TODO: Punctuation in 0.000 can not be translated (to comma). Is shown as "0 000"
+# TODO: Punctuation in 0.000 can not be translated (to comma). Is shown as "0
+# 000"
 #: ../src/tools/analysis-exp-smoothing.c:323
 #: ../src/tools/analysis-exp-smoothing.c:497
 #: ../src/tools/analysis-exp-smoothing.c:679
@@ -14391,7 +14409,8 @@ msgstr "Rad %d"
 msgid "Standard Error"
 msgstr "Standardfel"
 
-# TODO: Punctuation in 0.000 can not be translated (to comma). Is shown as "0 000"
+# TODO: Punctuation in 0.000 can not be translated (to comma). Is shown as "0
+# 000"
 #: ../src/tools/analysis-exp-smoothing.c:683
 #: ../src/tools/analysis-exp-smoothing.c:919
 #: ../src/tools/analysis-exp-smoothing.c:1233
@@ -14409,7 +14428,8 @@ msgstr ""
 "utjämning kräver minst 2\n"
 "utdatakolumner för varje datamängd."
 
-# TODO: Punctuation in 0.000 can not be translated (to comma). Is shown as "0 000"
+# TODO: Punctuation in 0.000 can not be translated (to comma). Is shown as "0
+# 000"
 #: ../src/tools/analysis-exp-smoothing.c:923
 #: ../src/tools/analysis-exp-smoothing.c:1237
 msgid "\"δ =\" * 0.000"
@@ -14473,12 +14493,12 @@ msgstr "F-test"
 
 #: ../src/tools/analysis-ftest.c:95
 msgid ""
-"/Mean/Variance/Observations/df/F/P (F<=f) right-tail/F Critical right-tail/P "
-"(f<=F) left-tail/F Critical left-tail/P two-tail/F Critical two-tail"
+"/Mean/Variance/Observations/df/F/P (F<=f) right-tail/F Critical right-tail/P"
+" (f<=F) left-tail/F Critical left-tail/P two-tail/F Critical two-tail"
 msgstr ""
 "/Medelvärde/Varians/Observationer/df/F/P (F<=f) högersvansad/F kritiskt "
-"högersvansad/P (f<=F) vänstersvansad/F kritiskt vänstersvansad/P tvåsvansad/"
-"F kritiskt tvåsvansad"
+"högersvansad/P (f<=F) vänstersvansad/F kritiskt vänstersvansad/P "
+"tvåsvansad/F kritiskt tvåsvansad"
 
 #: ../src/tools/analysis-histogram.c:322
 #, c-format
@@ -14612,7 +14632,6 @@ msgstr ""
 #. * if the translation needs the slash; just use, say, "|" instead.
 #. *
 #. * The items are bundled like this to increase translation context.
-#.
 #: ../src/tools/analysis-normality.c:237
 msgid "/Alpha/p-Value/Statistic/N/Conclusion"
 msgstr "/Alfa/p-värde/statistik/n/lösning"
@@ -14640,8 +14659,8 @@ msgid ""
 "/Student-t Test/N/Observed Mean/Hypothesized Mean/Observed Variance/Test "
 "Statistic/df/α/P(T≤t) one-tailed/P(T≤t) two-tailed"
 msgstr ""
-"/Student-t-test/Observerat medelvärde/Hypotesmedelvärde/Observerad varians/"
-"Teststatistik/df/α/P(T≤t) ensvansad/P(T≤t) tvåsvansad"
+"/Student-t-test/Observerat medelvärde/Hypotesmedelvärde/Observerad "
+"varians/Teststatistik/df/α/P(T≤t) ensvansad/P(T≤t) tvåsvansad"
 
 #: ../src/tools/analysis-principal-components.c:63
 #, c-format
@@ -14658,8 +14677,7 @@ msgstr "Principalkomponentanalys har inte nog med utrymme."
 msgid ""
 "\"Principal Components Analysis\";[Red]\"Principal Components Analysis is "
 "invalid.\""
-msgstr ""
-"\"Principalkomponentanalys\";[Red]\"Principalkomponentanalys är ogiltig.\""
+msgstr "\"Principalkomponentanalys\";[Red]\"Principalkomponentanalys är ogiltig.\""
 
 #: ../src/tools/analysis-principal-components.c:125
 #: ../src/tools/analysis-tools.c:512
@@ -14681,12 +14699,13 @@ msgstr "Regression (%s)"
 
 #: ../src/tools/analysis-regression.c:361
 msgid ""
-"/SUMMARY OUTPUT//Regression Statistics/Multiple R/R^2/Standard Error/"
-"Adjusted R^2/Observations//ANOVA//Regression/Residual/Total///Intercept"
+"/SUMMARY OUTPUT//Regression Statistics/Multiple R/R^2/Standard "
+"Error/Adjusted "
+"R^2/Observations//ANOVA//Regression/Residual/Total///Intercept"
 msgstr ""
-"/SAMMANFATTNINGSUTDATA//Regressionsstatistik/Multipla R/R^2/Standardfel/"
-"Justerad R-kvadrat/Observationer//ANOVA//Regression/Residual/Total///"
-"Intercept"
+"/SAMMANFATTNINGSUTDATA//Regressionsstatistik/Multipla "
+"R/R^2/Standardfel/Justerad "
+"R-kvadrat/Observationer//ANOVA//Regression/Residual/Total///Intercept"
 
 #: ../src/tools/analysis-regression.c:380
 msgid "Response Variable"
@@ -14700,15 +14719,17 @@ msgstr "/df/SS/MS/F/F-signifikans"
 msgid "/Coefficients/Standard Error/t-Statistics/p-Value"
 msgstr "/Koefficienter/Standardfel/t-statistik/P-värde"
 
-#. xgettext: this is an Excel-style number format.  Use "..." quotes and do not translate the 0%
+#. xgettext: this is an Excel-style number format.  Use "..." quotes and do
+#. not translate the 0%
 #: ../src/tools/analysis-regression.c:427
 msgid "\"Lower\" 0%"
-msgstr "\"Nedre\" 0%"
+msgstr "”Undre” 0 %"
 
-#. xgettext: this is an Excel-style number format.  Use "..." quotes and do not translate the 0%
+#. xgettext: this is an Excel-style number format.  Use "..." quotes and do
+#. not translate the 0%
 #: ../src/tools/analysis-regression.c:429
 msgid "\"Upper\" 0%"
-msgstr "\"Övre\" 0%"
+msgstr "”Övre” 0 %"
 
 #: ../src/tools/analysis-regression.c:438
 msgid ""
@@ -14718,11 +14739,11 @@ msgid ""
 "observed t-statistic, assuming the null\n"
 "hypothesis is in fact true."
 msgstr ""
-"Sannolikhet av att observera en t-statistika\n"
-"vars absoluta värde är minst lika stort\n"
-"som absoluta värdet för den aktuella\n"
-"observerade t-statistikan, förutsatt att noll-\n"
-"hypotesen är sann."
+"Sannolikheten att observera en t-statistik\n"
+"vars absolutbelopp är minst lika stort\n"
+"som absolutbeloppet för den faktiskt\n"
+"observerade t-statistiken, förutsatt att\n"
+"nollhypotesen faktiskt är sann."
 
 #: ../src/tools/analysis-regression.c:445
 msgid ""
@@ -14773,19 +14794,19 @@ msgstr "Teckentest (%s)"
 
 #: ../src/tools/analysis-sign-test.c:138
 msgid ""
-"/Sign Test/Median/Predicted Median/Test Statistic/N/α/P(T≤t) one-tailed/"
-"P(T≤t) two-tailed"
+"/Sign Test/Median/Predicted Median/Test Statistic/N/α/P(T≤t) one-"
+"tailed/P(T≤t) two-tailed"
 msgstr ""
-"/Teckentest/Median/Förutsedd median/Teststatistik/N/α/P(T≤t) ensvansad/"
-"P(T≤t) tvåsvansad"
+"/Teckentest/Median/Förutsedd median/Teststatistik/N/α/P(T≤t) "
+"ensvansad/P(T≤t) tvåsvansad"
 
 #: ../src/tools/analysis-sign-test.c:371
 msgid ""
-"/Sign Test/Median/Predicted Difference/Test Statistic/N/α/P(T≤t) one-tailed/"
-"P(T≤t) two-tailed"
+"/Sign Test/Median/Predicted Difference/Test Statistic/N/α/P(T≤t) one-"
+"tailed/P(T≤t) two-tailed"
 msgstr ""
-"/Teckentest/Median/Förutsedd skillnad/Teststatistik/N/α/P(T≤t) ensvansad/"
-"P(T≤t) tvåsvansad"
+"/Teckentest/Median/Förutsedd skillnad/Teststatistik/N/α/P(T≤t) "
+"ensvansad/P(T≤t) tvåsvansad"
 
 #: ../src/tools/analysis-signed-rank-test.c:115
 #: ../src/tools/analysis-signed-rank-test.c:434
@@ -14795,11 +14816,11 @@ msgstr "Wilcoxons teckenrangtest (%s)"
 
 #: ../src/tools/analysis-signed-rank-test.c:161
 msgid ""
-"/Wilcoxon Signed Rank Test/Median/Predicted Median/N/S−/S+/Test Statistic/α/"
-"P(T≤t) one-tailed/P(T≤t) two-tailed"
+"/Wilcoxon Signed Rank Test/Median/Predicted Median/N/S−/S+/Test "
+"Statistic/α/P(T≤t) one-tailed/P(T≤t) two-tailed"
 msgstr ""
-"/Wilcoxon teckenrangtest/Median/Förutsedd median/N/S−/S+/Teststatistik/α/"
-"P(T≤t) ensvansad/P(T≤t) tvåsvansad"
+"/Wilcoxon teckenrangtest/Median/Förutsedd "
+"median/N/S−/S+/Teststatistik/α/P(T≤t) ensvansad/P(T≤t) tvåsvansad"
 
 #: ../src/tools/analysis-signed-rank-test.c:317
 #: ../src/tools/analysis-signed-rank-test.c:693
@@ -14833,20 +14854,17 @@ msgstr "Korrelationer"
 msgid "Covariance (%s)"
 msgstr "Kovarians (%s)"
 
-#.
 #. * Note to translators: in the following string and others like it,
 #. * the "/" is a separator character that can be changed to anything
 #. * if the translation needs the slash; just use, say, "|" instead.
 #. *
 #. * The items are bundled like this to increase translation context.
-#.
 #: ../src/tools/analysis-tools.c:574
 msgid ""
-"/Mean/Standard Error/Median/Mode/Standard Deviation/Sample Variance/Kurtosis/"
-"Skewness/Range/Minimum/Maximum/Sum/Count"
+"/Mean/Standard Error/Median/Mode/Standard Deviation/Sample "
+"Variance/Kurtosis/Skewness/Range/Minimum/Maximum/Sum/Count"
 msgstr ""
-"/Medelvärde/Standardfel/Median/Typvärde/Standardavvikelse/Provvarians/"
-"Kurtosis/Skevhet/Intervall/Minimum/Maximum/Summa/Antal"
+"/Medelvärde/Standardfel/Median/Typvärde/Standardavvikelse/Provvarians/Kurtosis/Skevhet/Intervall/Minimum/Maximum/Summa/Antal"
 
 #: ../src/tools/analysis-tools.c:703
 #, c-format
@@ -14977,14 +14995,14 @@ msgstr "t-test"
 
 #: ../src/tools/analysis-ttest.c:142
 msgid ""
-"/Mean/Variance/Observations/Pearson Correlation/Hypothesized Mean Difference/"
-"Observed Mean Difference/Variance of the Differences/df/t Stat/P (T<=t) one-"
-"tail/t Critical one-tail/P (T<=t) two-tail/t Critical two-tail"
+"/Mean/Variance/Observations/Pearson Correlation/Hypothesized Mean "
+"Difference/Observed Mean Difference/Variance of the Differences/df/t Stat/P "
+"(T<=t) one-tail/t Critical one-tail/P (T<=t) two-tail/t Critical two-tail"
 msgstr ""
 "/Medelvärde/Varians/Observationer/Pearson-korrelation/Hypotetiserad "
-"medelvärdesskillnad/Observerad medelvärdesskillnad/Varians av differenser/df/"
-"t-stat/P (T<=t) ensvansad/t kritiskt ensvansad/P (T<=t) tvåsvansad/t "
-"kritiskt tvåsvansad"
+"medelvärdesskillnad/Observerad medelvärdesskillnad/Varians av "
+"differenser/df/t-stat/P (T<=t) ensvansad/t kritiskt ensvansad/P (T<=t) "
+"tvåsvansad/t kritiskt tvåsvansad"
 
 #: ../src/tools/analysis-ttest.c:440 ../src/tools/analysis-ttest.c:801
 #, c-format
@@ -14993,9 +15011,9 @@ msgstr "t-test (%s)"
 
 #: ../src/tools/analysis-ttest.c:476
 msgid ""
-"/Mean/Variance/Observations/Pooled Variance/Hypothesized Mean Difference/"
-"Observed Mean Difference/df/t Stat/P (T<=t) one-tail/t Critical one-tail/P "
-"(T<=t) two-tail/t Critical two-tail"
+"/Mean/Variance/Observations/Pooled Variance/Hypothesized Mean "
+"Difference/Observed Mean Difference/df/t Stat/P (T<=t) one-tail/t Critical "
+"one-tail/P (T<=t) two-tail/t Critical two-tail"
 msgstr ""
 "/Medelvärde/Varians/Observationer/Poolad varians/Hypotetiserad "
 "medelvärdesskillnad/Observerad medelvärdesskillnad/df/t-stat/P (T<=t) "
@@ -15004,12 +15022,12 @@ msgstr ""
 #: ../src/tools/analysis-ttest.c:837
 msgid ""
 "/Mean/Variance/Observations/Hypothesized Mean Difference/Observed Mean "
-"Difference/df/t Stat/P (T<=t) one-tail/t Critical one-tail/P (T<=t) two-tail/"
-"t Critical two-tail"
+"Difference/df/t Stat/P (T<=t) one-tail/t Critical one-tail/P (T<=t) two-"
+"tail/t Critical two-tail"
 msgstr ""
-"/Medelvärde/Varians/Observationer/Hypotetiserad medelvärdesskillnad/"
-"Observerad medelvärdesskillnad/df/t-stat/P (T<=t) ensvansad/t kritiskt "
-"ensvansad/P (T<=t) tvåsvansad/t kritiskt tvåsvansad"
+"/Medelvärde/Varians/Observationer/Hypotetiserad "
+"medelvärdesskillnad/Observerad medelvärdesskillnad/df/t-stat/P (T<=t) "
+"ensvansad/t kritiskt ensvansad/P (T<=t) tvåsvansad/t kritiskt tvåsvansad"
 
 #: ../src/tools/analysis-wilcoxon-mann-whitney.c:103
 #, c-format
@@ -15057,13 +15075,13 @@ msgstr "z-Test"
 
 #: ../src/tools/analysis-ztest.c:150
 msgid ""
-"/Mean/Known Variance/Observations/Hypothesized Mean Difference/Observed Mean "
-"Difference/z/P (Z<=z) one-tail/z Critical one-tail/P (Z<=z) two-tail/z "
+"/Mean/Known Variance/Observations/Hypothesized Mean Difference/Observed Mean"
+" Difference/z/P (Z<=z) one-tail/z Critical one-tail/P (Z<=z) two-tail/z "
 "Critical two-tail"
 msgstr ""
-"/Medelvärde/Känd varians/Observationer/Hypotetiserad medelvärdesskillnad/"
-"Observerad medelvärdesskillnad/z/P (Z<=z) ensvansad/z kritiskt ensvansad/P "
-"(Z<=z) tvåsvansad/z-kritiskt tvåsvansad"
+"/Medelvärde/Känd varians/Observationer/Hypotetiserad "
+"medelvärdesskillnad/Observerad medelvärdesskillnad/z/P (Z<=z) ensvansad/z "
+"kritiskt ensvansad/P (Z<=z) tvåsvansad/z-kritiskt tvåsvansad"
 
 #: ../src/tools/dao.c:179
 msgid "New Sheet"
@@ -15087,7 +15105,9 @@ msgstr "Rapport skapad: "
 
 #: ../src/tools/data-shuffling.c:350
 msgid "There is not enough empty space on the sheet to use while shuffling."
-msgstr "Det finns inte tillräckligt med tomt utrymme i kalkylbladet för att kunna blanda om."
+msgstr ""
+"Det finns inte tillräckligt med tomt utrymme i kalkylbladet för att kunna "
+"blanda om."
 
 #: ../src/tools/fill-series.c:435
 #, c-format
@@ -15194,7 +15214,8 @@ msgstr "Inga villkor"
 msgid ""
 "Final\n"
 "Value"
-msgstr "Slutligt\n"
+msgstr ""
+"Slutligt\n"
 "värde"
 
 #: ../src/tools/gnm-solver.c:2102
@@ -15225,7 +15246,8 @@ msgstr ""
 msgid ""
 "Shadow\n"
 "Price"
-msgstr "Skugg\n"
+msgstr ""
+"Skugg\n"
 "pris"
 
 #: ../src/tools/gnm-solver.c:2137
@@ -15265,13 +15287,11 @@ msgstr "Målcellen verkar inte bero linjärt på inmatningsceller."
 #: ../src/tools/gnm-solver.c:3536
 #, c-format
 msgid ""
-"Gnumeric is unable to locate the program <i>%s</i> needed for the <i>%s</i> "
-"solver.  For more information see %s.\n"
+"Gnumeric is unable to locate the program <i>%s</i> needed for the <i>%s</i> solver.  For more information see %s.\n"
 "\n"
 "Would you like to locate it yourself?"
 msgstr ""
-"Gnumeric kan inte finna programmet <i>%s</i> som behövs för <i>%s</i>-"
-"lösaren. För mer information se %s.\n"
+"Gnumeric kan inte finna programmet <i>%s</i> som behövs för <i>%s</i>-lösaren. För mer information se %s.\n"
 "\n"
 "Vill du peka ut det själv?"
 
@@ -15351,16 +15371,16 @@ msgstr "Slumptal (%s)"
 
 #: ../src/tools/simulation.c:90
 msgid ""
-"Input variable did not yield to a numeric value. Check the model (maybe your "
-"last round # is too high)."
+"Input variable did not yield to a numeric value. Check the model (maybe your"
+" last round # is too high)."
 msgstr ""
 "Indatavariabeln ger inget numeriskt värde. Kontrollera modellen (kanske du "
 "har för många rundor)."
 
 #: ../src/tools/simulation.c:115
 msgid ""
-"Output variable did not yield to a numeric value. Check the output variables "
-"in your model (maybe your last round # is too high)."
+"Output variable did not yield to a numeric value. Check the output variables"
+" in your model (maybe your last round # is too high)."
 msgstr ""
 "Utdatavariabeln ger inget numeriskt värde. Kontrollera utdatavariablerna i "
 "din modell (kanske du har för många rundor)."
@@ -15403,15 +15423,15 @@ msgstr "Antal"
 
 #: ../src/tools/simulation.c:255
 msgid "Confidence (95%)"
-msgstr "Konfidensnivå (95%)"
+msgstr "Konfidensnivå (95 %)"
 
 #: ../src/tools/simulation.c:256
 msgid "Lower Limit (95%)"
-msgstr "Undre gräns (95%)"
+msgstr "Undre gräns (95 %)"
 
 #: ../src/tools/simulation.c:257
 msgid "Upper Limit (95%)"
-msgstr "Övre gräns (95%)"
+msgstr "Övre gräns (95 %)"
 
 #: ../src/tools/simulation.c:325
 msgid "SUMMARY OF SIMULATION ROUND #"
@@ -15628,7 +15648,6 @@ msgstr ""
 #. TODO : No need to check simplicty.  XL applies for each non-discrete
 #. * selected region, (use selection_apply).  Arrays and Merged regions
 #. * are permitted.
-#.
 #: ../src/wbc-gtk-actions.c:851
 msgid "Insert rows"
 msgstr "Infoga rader"
@@ -16273,7 +16292,8 @@ msgstr "F_ormat och länkar i filtrerade rader"
 #: ../src/wbc-gtk-actions.c:2438
 msgid "Clear the selected cells' formats and hyperlinks in the filtered rows"
 msgstr ""
-"Ta bort markerade cellers formatering och hyperlänkar i de filtrerade raderna"
+"Ta bort markerade cellers formatering och hyperlänkar i de filtrerade "
+"raderna"
 
 #: ../src/wbc-gtk-actions.c:2443
 msgid "Comme_nts in Filtered Rows"
@@ -16955,7 +16975,8 @@ msgstr "Oparade urval, _kända varianser…"
 
 #: ../src/wbc-gtk-actions.c:3076
 msgid "Comparing two population means from populations with known variances"
-msgstr "Jämför två populationsmedelvärden för populationer med kända varianser"
+msgstr ""
+"Jämför två populationsmedelvärden för populationer med kända varianser"
 
 #: ../src/wbc-gtk-actions.c:3084 ../src/wbc-gtk-actions.c:3089
 msgid "Comparing the values of two medians of paired observations"
@@ -17096,7 +17117,8 @@ msgstr "Samman_foga…"
 #: ../src/wbc-gtk-actions.c:3188
 msgid ""
 "Merges columnar data into a sheet creating duplicate sheets for each row"
-msgstr "Sammanfogar kolumndata i ett blad och skapar dubbla blad för varje rad"
+msgstr ""
+"Sammanfogar kolumndata i ett blad och skapar dubbla blad för varje rad"
 
 #: ../src/wbc-gtk-actions.c:3192
 msgid "_Tabulate Dependency..."
@@ -18015,7 +18037,6 @@ msgstr "_Acceptera"
 #. * to be moved in strings representing menu entries.
 #. * One slightly tricky point here is that in certain cases,
 #. * the same menu entry shows up in more than one menu.
-#.
 #: ../src/wbc-gtk.c:3421
 #, c-format
 msgid "In the `%s' menu, the key `%s' is used for both `%s' and `%s'."
@@ -18325,19 +18346,22 @@ msgstr "Kan inte hoppa till ett osynligt blad"
 msgid "Address"
 msgstr "Adress"
 
-#. Translators: "%dC" is a very short format to indicate the number of full columns
+#. Translators: "%dC" is a very short format to indicate the number of full
+#. columns
 #: ../src/workbook-view.c:465
 #, c-format
 msgid "%dC"
 msgstr "%dK"
 
-#. Translators: "%dR" is a very short format to indicate the number of full rows
+#. Translators: "%dR" is a very short format to indicate the number of full
+#. rows
 #: ../src/workbook-view.c:468
 #, c-format
 msgid "%dR"
 msgstr "%dR"
 
-#. Translators: "%dR x %dC" is a very short format to indicate the number of rows and columns
+#. Translators: "%dR x %dC" is a very short format to indicate the number of
+#. rows and columns
 #: ../src/workbook-view.c:471
 #, c-format
 msgid "%dR x %dC"
@@ -18402,10 +18426,8 @@ msgid_plural "Adding %d sheets"
 msgstr[0] "Lägger till blad"
 msgstr[1] "Lägger till %d blad"
 
-#.
 #. * This is most likely just a sheet inserted, but it just
 #. * might be a compound operation.  Lie.
-#.
 #: ../src/workbook.c:1969
 #, c-format
 msgid "Inserting sheet"
@@ -18421,10 +18443,8 @@ msgstr "Byter färg på flikar"
 msgid "Changing sheet properties"
 msgstr "Ändrar bladegenskaper"
 
-#.
 #. * This is most likely just a sheet delete, but it just
 #. * might be a compound operation.  Lie.
-#.
 #: ../src/workbook.c:1980
 #, c-format
 msgid "Deleting sheet"
@@ -18682,8 +18702,7 @@ msgstr "Enkel listmall"
 #~ msgstr "Ignorerar data som påstås vara på rad %u som är > största raden %u"
 
 #, c-format
-#~ msgid ""
-#~ "Ignoring data that claims to be in column %u which is > max column %u"
+#~ msgid "Ignoring data that claims to be in column %u which is > max column %u"
 #~ msgstr ""
 #~ "Ignorerar data som påstås vara i kolumn %u som är > största kolumnen %u"
 
@@ -18703,8 +18722,8 @@ msgstr "Enkel listmall"
 #~ "Overriding function %s from XLL/DLL/SO file %s with function of the same "
 #~ "name from XLL/DLL/SO file %s."
 #~ msgstr ""
-#~ "Åsidosätt funktionen %s från XLL/DLL/SO-filen %s med funktion som har "
-#~ "samma namn från XLL/DLL/SO-filen %s."
+#~ "Åsidosätt funktionen %s från XLL/DLL/SO-filen %s med funktion som har samma "
+#~ "namn från XLL/DLL/SO-filen %s."
 
 #, c-format
 #~ msgid "Failed to find function \"%s\" in XLL/DLL/SO %s .\n"
@@ -18712,10 +18731,10 @@ msgstr "Enkel listmall"
 
 #, c-format
 #~ msgid ""
-#~ "Excel plugin loader / xlfRegister: at least three XLOPER arguments must "
-#~ "be provided (DLL name[ignored],exported name[mandatory],types "
-#~ "string[mandatory]). You supplied %d in some function loaded from XLL/DLL/"
-#~ "SO file %s."
+#~ "Excel plugin loader / xlfRegister: at least three XLOPER arguments must be "
+#~ "provided (DLL name[ignored],exported name[mandatory],types "
+#~ "string[mandatory]). You supplied %d in some function loaded from XLL/DLL/SO "
+#~ "file %s."
 #~ msgstr ""
 #~ "Inläsare för insticksmoduler från Excel / xlfRegister: minst tre XLOPER-"
 #~ "argument måste tillhandahållas (DLL-namn[ignoreras], "
@@ -18727,8 +18746,8 @@ msgstr "Enkel listmall"
 #~ "strings (DLL name[ignored],exported name[mandatory],types "
 #~ "string[mandatory])."
 #~ msgstr ""
-#~ "Inläsare för insticksmoduler från Excel / xlfRegister: det andra och "
-#~ "tredje argumentet måste vara strängar (DLL-namn[ignoreras], "
+#~ "Inläsare för insticksmoduler från Excel / xlfRegister: det andra och tredje "
+#~ "argumentet måste vara strängar (DLL-namn[ignoreras], "
 #~ "exportnamn[obligatoriskt], typsträng[obligatoriskt])."
 
 #~ msgid "Dynamic module loading is not supported on this system."
@@ -18758,13 +18777,13 @@ msgstr "Enkel listmall"
 
 #~ msgid ""
 #~ "Adapter interface to load Excel plugins (also known as XLLs). Only "
-#~ "operational for worksheet functions that expect only arguments of "
-#~ "LPXLOPER type (type 'P' or 'R') and return an LPXLOPER (type 'P' or 'R')."
+#~ "operational for worksheet functions that expect only arguments of LPXLOPER "
+#~ "type (type 'P' or 'R') and return an LPXLOPER (type 'P' or 'R')."
 #~ msgstr ""
 #~ "Adaptergränssnitt för att läsa in Excel-insticksmoduler (också kända som "
-#~ "XLL:er). Fungerar endast för kalkylbladsfunktioner som endast förväntar "
-#~ "sig argument av typen LPXLOPER (typ ”P” eller ”R”) och returnerar en "
-#~ "LXLOPER (typ ”P” eller ”R”)."
+#~ "XLL:er). Fungerar endast för kalkylbladsfunktioner som endast förväntar sig "
+#~ "argument av typen LPXLOPER (typ ”P” eller ”R”) och returnerar en LXLOPER "
+#~ "(typ ”P” eller ”R”)."
 
 #~ msgid "Type Mismatch"
 #~ msgstr "Typfel"
@@ -18825,14 +18844,11 @@ msgstr "Enkel listmall"
 #~ msgstr "Filspararen tar inga flaggor\n"
 
 #~ msgid ""
-#~ "Selected exporter (%s) does not support saving multiple sheets in one "
-#~ "file.\n"
-#~ "Only the current sheet will be saved.  To get around this limitation, use "
-#~ "-S.\n"
+#~ "Selected exporter (%s) does not support saving multiple sheets in one file.\n"
+#~ "Only the current sheet will be saved.  To get around this limitation, use -S.\n"
 #~ msgstr ""
 #~ "Vald exportör (%s) stödjer inte att spara mer än ett blad i en fil.\n"
-#~ "Endast det nuvarande bladet kommer sparas. För att komma runt denna "
-#~ "begränsning, använd -S.\n"
+#~ "Endast det nuvarande bladet kommer sparas. För att komma runt denna begränsning, använd -S.\n"
 
 #~ msgid "Invalid option for stf exporter"
 #~ msgstr "Ogiltigt alternativ för stf-exportören"
