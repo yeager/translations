@@ -156,7 +156,7 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | clone tool | kloningsverktyg | |
 | healing tool | läkningsverktyg | Verktyget som korrigerar bildområden med omgivande bilddata. |
 | dodge / burn | skugga / efterbelys | GIMP:s verktygsnamn; behåll etablerade UI-etiketter. |
-| tone mapping | toningsmappning | HDR-/färgbehandling; skilj från *toningskarta*. |
+| tone mapping | tonmappning | HDR-/färgbehandling; skilj från *toningskarta*. |
 | filter | filter | GIMP-menyn och bildbehandlingsfilter. |
 | plug-in | insticksmodul | GIMP:s tillägg som laddas separat. |
 | drawable | rityta | GIMP-objekt som kan målas på, exempelvis lager eller kanal. |
@@ -322,3 +322,10 @@ argumentet betyder i just det programmet.
 | scanner | skanner | Enheten som digitaliserar bilder; använd *skanner*, inte *bildläsare*. |
 | destripe | ta bort bandning | GIMP-filter som tar bort lodräta band/ränder i bilder. |
 | scale division (tone mapping) | antal skalor | Reglage för antal iterationer/skalor i Retinex-filter. |
+| Toy Kit (Spyrogimp) | ritsats | Spirografens läge med kugghjul och hålpositioner från en rit-/spirografsats. |
+| Bumps (Spyrogimp) | utbuktningar | Formläge med halvcirkelformade utbuktningar. |
+| Epitrochoid | epitrokoid | Svensk fackterm för kurvtypen. |
+| spirograph | spirograf | Mönster/figur ritad med kugghjulsbaserad spirograf. |
+| gear tooth (Spyrogimp) | kugg | En tand på ett kugghjul. |
+| sample average (histogram) | medelvärde för sampel | Medelvärdet av pixelvärden som används vid histogram-/färgberäkning. |
+| Curve Pattern (Spyrogimp) | kurvform | Mönstrets kurvbaserade inställningssektion. |
