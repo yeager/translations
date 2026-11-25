@@ -1,0 +1,759 @@
+--- gnome-color-manager.master.po.sv.original.po
++++ gnome-color-manager.master.po.sv.reviewed.po
+@@ -9,11 +9,10 @@
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-color-manager\n"
+-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-color-manager/"
+-"issues/\n"
++"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-color-manager/issues/\n"
+ "POT-Creation-Date: 2025-07-13 23:38+0000\n"
+-"PO-Revision-Date: 2025-08-30 14:23+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-25 19:25+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -38,23 +37,23 @@
+ 
+ #: data/appdata/org.gnome.ColorProfileViewer.metainfo.xml.in:14
+ msgid ""
+-"GNOME Color Profile Viewer shows installed color profiles on your system and "
+-"allows you to calibrate displays, printers and cameras using a wizard."
++"GNOME Color Profile Viewer shows installed color profiles on your system and"
++" allows you to calibrate displays, printers and cameras using a wizard."
+ msgstr ""
+-"GNOME Färgprofilvisare visar installerade färgprofiler på ditt system och "
+-"låter dig kalibrera skärmar, skrivare och kameror via en assistent."
++"Färgprofilvisaren i GNOME visar installerade färgprofiler på systemet och "
++"låter dig kalibrera skärmar, skrivare och kameror med hjälp av en guide."
+ 
+ #: data/appdata/org.gnome.ColorProfileViewer.metainfo.xml.in:19
+ msgid ""
+ "This functionality is typically used by GNOME Control Center from the color "
+ "panel although can be used on its own."
+ msgstr ""
+-"Denna funktionalitet används normalt av GNOME-kontrollpanelen från "
+-"färginställningarna, fast den kan även användas fristående."
++"Funktionen används vanligtvis från färgpanelen i GNOME Kontrollcenter, men "
++"kan också användas fristående."
+ 
+ #: data/gcm-import.desktop.in:2
+ msgid "ICC Profile Installer"
+-msgstr "Installera ICC-profiler"
++msgstr "ICC-profilinstallerare"
+ 
+ #: data/gcm-import.desktop.in:3
+ msgid "Install ICC profiles"
+@@ -67,13 +66,14 @@
+ 
+ #: data/gcm-picker.desktop.in:3
+ msgid "Use the color sensor to sample spot colors"
+-msgstr "Använd färgsensorn för att läsa in punktfärger"
++msgstr "Använd färgsensorn för att mäta dekorfärger"
+ 
+ #: data/org.gnome.ColorProfileViewer.desktop.in:2 src/gcm-viewer.ui:1155
+ msgid "Color Profile Viewer"
+ msgstr "Färgprofilvisare"
+ 
+-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
++#. Translators: Search terms to find this application. Do NOT translate or
++#. localize the semicolons! The list MUST also end with a semicolon!
+ #: data/org.gnome.ColorProfileViewer.desktop.in:12
+ msgid "Color;ICC;"
+ msgstr "Färg;ICC;"
+@@ -113,11 +113,11 @@
+ 
+ #: src/gcm-debug.c:128
+ msgid "Debugging Options"
+-msgstr "Felsökningsflaggor"
++msgstr "Felsökningsalternativ"
+ 
+ #: src/gcm-debug.c:128
+ msgid "Show debugging options"
+-msgstr "Visa felsökningsflaggor"
++msgstr "Visa felsökningsalternativ"
+ 
+ #. TRANSLATORS: command line option: a list of catalogs to install
+ #: src/gcm-import.c:77
+@@ -127,18 +127,18 @@
+ #. TRANSLATORS: nothing was specified on the command line
+ #: src/gcm-import.c:103
+ msgid "No filename specified"
+-msgstr "Inget filnamn angivet"
++msgstr "Inget filnamn har angetts"
+ 
+ #. TRANSLATORS: could not read file
+ #: src/gcm-import.c:123 src/gcm-viewer.c:1269
+ msgid "Failed to open ICC profile"
+-msgstr "Misslyckades med att öppna ICC-profilen"
++msgstr "Det gick inte att öppna ICC-profilen"
+ 
+ #. TRANSLATORS: parsing error
+ #: src/gcm-import.c:128
+ #, c-format
+ msgid "Failed to parse file: %s"
+-msgstr "Misslyckades med att tolka filen: %s"
++msgstr "Det gick inte att tolka filen: %s"
+ 
+ #. TRANSLATORS: message text
+ #: src/gcm-import.c:143
+@@ -188,9 +188,10 @@
+ #. TRANSLATORS: could not read file
+ #: src/gcm-import.c:257 src/gcm-viewer.c:1301
+ msgid "Failed to import file"
+-msgstr "Misslyckades med att importera filen"
+-
+-#. TRANSLATORS: this is the ICC profile description stored in an atom in the XServer
++msgstr "Det gick inte att importera filen"
++
++#. TRANSLATORS: this is the ICC profile description stored in an atom in the
++#. XServer
+ #: src/gcm-inspect.c:39
+ msgid "Description:"
+ msgstr "Beskrivning:"
+@@ -213,7 +214,7 @@
+ #. TRANSLATORS: no DBus session bus
+ #: src/gcm-inspect.c:196 src/gcm-inspect.c:259
+ msgid "Failed to connect to session bus:"
+-msgstr "Misslyckades med att ansluta till sessionsbussen:"
++msgstr "Det gick inte att ansluta till sessionsbussen:"
+ 
+ #. TRANSLATORS: the DBus method failed
+ #: src/gcm-inspect.c:213 src/gcm-inspect.c:276
+@@ -223,7 +224,7 @@
+ #. TRANSLATORS: no profile has been asigned to this device
+ #: src/gcm-inspect.c:221
+ msgid "There are no ICC profiles assigned to this file"
+-msgstr "Det finns inga ICC-profiler tilldelade till denna fil"
++msgstr "Den här filen har inga ICC-profiler tilldelade"
+ 
+ #. TRANSLATORS: this is a list of profiles suitable for the device
+ #: src/gcm-inspect.c:226 src/gcm-inspect.c:292
+@@ -233,27 +234,27 @@
+ #. TRANSLATORS: no profile has been asigned to this window
+ #: src/gcm-inspect.c:287
+ msgid "There are no ICC profiles for this window"
+-msgstr "Det finns inga ICC-profiler för detta fönster"
++msgstr "Det här fönstret har inga ICC-profiler"
+ 
+ #. TRANSLATORS: command line option
+ #: src/gcm-inspect.c:312
+ msgid "Show xserver properties"
+-msgstr "Visa xserver-egenskaper"
++msgstr "Visa X-serveregenskaper"
+ 
+ #. TRANSLATORS: command line option
+ #: src/gcm-inspect.c:315
+ msgid "Get the profiles for a specific file"
+-msgstr "Hämta profilerna för en specifik fil"
++msgstr "Hämta profiler för en viss fil"
+ 
+ #. TRANSLATORS: command line option
+ #: src/gcm-inspect.c:318
+ msgid "Get the profile for a specific window"
+-msgstr "Hämta profilen för ett specifikt fönster"
++msgstr "Hämta färgprofilen för ett visst fönster"
+ 
+ #. TRANSLATORS: command line option
+ #: src/gcm-inspect.c:321
+ msgid "Dump all details about this system"
+-msgstr "Skriv ut alla detaljer om detta system"
++msgstr "Visa alla systemdetaljer"
+ 
+ #. TRANSLATORS: just dumps the EDID to disk
+ #: src/gcm-inspect.c:334
+@@ -282,7 +283,7 @@
+ #. TRANSLATORS: this is displayed the user has not got suitable hardware
+ #: src/gcm-picker.c:345
+ msgid "The attached colorimeter is not capable of reading a spot color."
+-msgstr "Den anslutna kolorimetern är inte kapabel att läsa en punktfärg."
++msgstr "Den anslutna kolorimetern kan inte mäta en dekorfärg."
+ 
+ #. TRANSLATORS: this is when there are no profiles that can be used;
+ #. * the search term is either "RGB" or "CMYK"
+@@ -294,7 +295,7 @@
+ #. TRANSLATORS: we can make this modal (stay on top of) another window
+ #: src/gcm-picker.c:681 src/gcm-viewer.c:1596
+ msgid "Set the parent window to make this modal"
+-msgstr "Ange föräldrafönstret för att skapa denna modal"
++msgstr "Ange det överordnade fönstret så att dialogrutan blir modal"
+ 
+ #. TRANSLATORS: tool that is used to pick colors
+ #: src/gcm-picker.c:696
+@@ -315,7 +316,7 @@
+ #. This refers to the amount of ambient light on the sensor
+ #: src/gcm-picker.ui:123
+ msgid "Media whitepoint"
+-msgstr "Vitpunkt för media"
++msgstr "Mediets vitpunkt"
+ 
+ #. This refers to the amount of ambient light on the sensor
+ #: src/gcm-picker.ui:138
+@@ -325,9 +326,10 @@
+ #. This refers to the amount of ambient light on the sensor
+ #: src/gcm-picker.ui:153
+ msgid "Ambient"
+-msgstr "Omgivande ljus"
+-
+-#. This is the title to a combobox that switches the RGB conversion between different colorspaces such as Adobe RGB and sRGB
++msgstr "Omgivningsljus"
++
++#. This is the title to a combobox that switches the RGB conversion between
++#. different colorspaces such as Adobe RGB and sRGB
+ #. The profile colorspace, e.g. RGB
+ #: src/gcm-picker.ui:168 src/gcm-viewer.ui:134
+ msgid "Colorspace"
+@@ -366,7 +368,8 @@
+ msgid "gray"
+ msgstr "grå"
+ 
+-#. TRANSLATORS: title, usually we can tell based on the EDID data or output name
++#. TRANSLATORS: title, usually we can tell based on the EDID data or output
++#. name
+ #: src/gcm-viewer.c:312
+ msgid "Permanently delete profile?"
+ msgstr "Ta bort profilen permanent?"
+@@ -409,7 +412,7 @@
+ #. TRANSLATORS: could not read file
+ #: src/gcm-viewer.c:410
+ msgid "Failed to copy file"
+-msgstr "Misslyckades med att kopiera filen"
++msgstr "Det gick inte att kopiera filen"
+ 
+ #. TRANSLATORS: this the ICC profile type
+ #: src/gcm-viewer.c:538
+@@ -429,7 +432,7 @@
+ #. TRANSLATORS: this the ICC profile type
+ #: src/gcm-viewer.c:550
+ msgid "Devicelink"
+-msgstr "Devicelink"
++msgstr "Enhetslänk"
+ 
+ #. TRANSLATORS: this the ICC profile type
+ #: src/gcm-viewer.c:554
+@@ -439,7 +442,7 @@
+ #. TRANSLATORS: this the ICC profile kind
+ #: src/gcm-viewer.c:558
+ msgid "Abstract"
+-msgstr "Abstract"
++msgstr "Abstrakt"
+ 
+ #. TRANSLATORS: this the ICC profile type
+ #: src/gcm-viewer.c:562
+@@ -469,7 +472,7 @@
+ #. TRANSLATORS: this the ICC colorspace type
+ #: src/gcm-viewer.c:597
+ msgid "Gray"
+-msgstr "Gray"
++msgstr "Grå"
+ 
+ #. TRANSLATORS: this the ICC colorspace type
+ #: src/gcm-viewer.c:601
+@@ -484,7 +487,7 @@
+ #. TRANSLATORS: e.g. sRGB or adbode RGB
+ #: src/gcm-viewer.c:645
+ msgid "Standard space"
+-msgstr "Standardrymd"
++msgstr "Standardfärgrymd"
+ 
+ #. TRANSLATORS: the raw EDID MD5 of the display device
+ #: src/gcm-viewer.c:647
+@@ -517,17 +520,17 @@
+ #. TRANSLATORS: the color framework, e.g. 'colord'
+ #: src/gcm-viewer.c:657
+ msgid "Framework product"
+-msgstr "Produkt för ramverk"
++msgstr "Färgramverkets produkt"
+ 
+ #. TRANSLATORS: the framework binary, e.g. gcm-viewer
+ #: src/gcm-viewer.c:659
+ msgid "Framework program"
+-msgstr "Program för ramverk"
++msgstr "Färgramverkets program"
+ 
+ #. TRANSLATORS: the framework release, e.g. '1.22'
+ #: src/gcm-viewer.c:661
+ msgid "Framework version"
+-msgstr "Version för ramverk"
++msgstr "Färgramverkets version"
+ 
+ #. TRANSLATORS: Where the profile data came from, e.g. 'test' or 'standard'
+ #: src/gcm-viewer.c:663
+@@ -542,22 +545,22 @@
+ #. TRANSLATORS: The qualifiers for the profile, e.g. 'RGB.Glossy.300dpi'
+ #: src/gcm-viewer.c:667
+ msgid "Mapping qualifier"
+-msgstr "Mappningskvalificerare"
++msgstr "Kvalificerare för mappning"
+ 
+ #. TRANSLATORS: The original device the profile was made for
+ #: src/gcm-viewer.c:669
+ msgid "Mapping device"
+-msgstr "Mappningsenhet"
++msgstr "Enhet som profilen skapades för"
+ 
+ #. TRANSLATORS: The average error when making the profile
+ #: src/gcm-viewer.c:671
+ msgid "Delta-E average"
+-msgstr "Delta-E genomsnitt"
++msgstr "Genomsnittlig Delta-E"
+ 
+ #. TRANSLATORS: the maximum error when making the profile
+ #: src/gcm-viewer.c:673
+ msgid "Delta-E maximum"
+-msgstr "Delta-E maximum"
++msgstr "Maximal Delta-E"
+ 
+ #. TRANSLATORS: the RMS error when making the profile
+ #: src/gcm-viewer.c:675
+@@ -572,7 +575,7 @@
+ #. TRANSLATORS: screen type e.g. 'glossy' or 'matte'
+ #: src/gcm-viewer.c:679
+ msgid "Screen surface finish"
+-msgstr "Skärmyta"
++msgstr "Skärmens ytfinish"
+ 
+ #. TRANSLATORS: e.g. DVI or VGA
+ #: src/gcm-viewer.c:681
+@@ -587,7 +590,7 @@
+ #. TRANSLATORS: e.g. the 3D volume of the gamut graph
+ #: src/gcm-viewer.c:685
+ msgid "Gamut volume"
+-msgstr "Färgomfång"
++msgstr "Färgomfångsvolym"
+ 
+ #. TRANSLATORS: e.g. what proportion of sRGB is covered
+ #: src/gcm-viewer.c:687
+@@ -602,12 +605,12 @@
+ #. TRANSLATORS: the profile is broken
+ #: src/gcm-viewer.c:785
+ msgid "No description has been set"
+-msgstr "Ingen beskrivning har satts"
++msgstr "Ingen beskrivning har angetts"
+ 
+ #. TRANSLATORS: the profile is broken
+ #: src/gcm-viewer.c:789
+ msgid "No copyright has been set"
+-msgstr "Ingen copyright har satts"
++msgstr "Ingen upphovsrättsinformation har angetts"
+ 
+ #. TRANSLATORS: the profile is broken
+ #: src/gcm-viewer.c:793
+@@ -617,32 +620,32 @@
+ #. TRANSLATORS: the profile is broken
+ #: src/gcm-viewer.c:797
+ msgid "A scum dot is present for media white"
+-msgstr "En skuggpunkt (scum dot) finns i mediets vita"
++msgstr "En bläckprick finns i mediets vita område"
+ 
+ #. TRANSLATORS: the profile is broken
+ #: src/gcm-viewer.c:801
+ msgid "The gray axis contains significant amounts of color"
+-msgstr "Den grå axeln består av ett betydande antal färger"
++msgstr "Gråaxeln innehåller betydande mängder färg"
+ 
+ #. TRANSLATORS: the profile is broken
+ #: src/gcm-viewer.c:805
+ msgid "The gray axis is non-monotonic"
+-msgstr "Den grå axeln är inte entonig"
++msgstr "Gråaxeln är inte monoton"
+ 
+ #. TRANSLATORS: the profile is broken
+ #: src/gcm-viewer.c:809
+ msgid "One or more of the primaries are invalid"
+-msgstr "En eller flera av grundfärgerna är ogiltiga"
++msgstr "En eller flera primärfärger är ogiltiga"
+ 
+ #. TRANSLATORS: the profile is broken
+ #: src/gcm-viewer.c:813
+ msgid "The primaries do not add to white"
+-msgstr "Grundfärgerna summeras inte till vitt"
++msgstr "Primärfärgerna ger inte vitt när de kombineras"
+ 
+ #. TRANSLATORS: the profile is broken
+ #: src/gcm-viewer.c:817
+ msgid "One or more of the primaries is unlikely"
+-msgstr "En eller flera av grundfärgerna är osannolik"
++msgstr "En eller flera primärfärger är osannolika"
+ 
+ #. TRANSLATORS: the profile is broken
+ #: src/gcm-viewer.c:821
+@@ -693,17 +696,17 @@
+ #. TRANSLATORS: show just the one profile, rather than all
+ #: src/gcm-viewer.c:1599
+ msgid "Set the specific profile to show"
+-msgstr "Ange specifik profil att visa"
++msgstr "Ange vilken profil som ska visas"
+ 
+ #. TRANSLATORS: show just the one filename, rather than all
+ #: src/gcm-viewer.c:1602
+ msgid "Set the specific file to show"
+-msgstr "Ange specifik fil att visa"
++msgstr "Ange vilken fil som ska visas"
+ 
+ #. TRANSLATORS: summary shown in the command-line help
+ #: src/gcm-viewer.c:1622
+ msgid "GNOME Color Manager - Color Profile Viewer"
+-msgstr "GNOME-färghanterare - Färgprofilvisare"
++msgstr "GNOME-färghanterare – färgprofilvisare"
+ 
+ #: src/gcm-viewer.ui:55
+ msgid "Add a profile for the device"
+@@ -791,18 +794,18 @@
+ 
+ #: src/gcm-viewer.ui:608
+ msgid "Response out"
+-msgstr "Respons ut"
++msgstr "Utgående respons"
+ 
+ #: src/gcm-viewer.ui:628 src/gcm-viewer.ui:717
+ msgid "Response in"
+-msgstr "Respons in"
++msgstr "Ingående respons"
+ 
+ #: src/gcm-viewer.ui:657
+ msgid ""
+ "A tone reproduction curve is the mapping of scene luminance to display "
+ "luminance"
+ msgstr ""
+-"En ton-reproduktionskurva är mappningen av scenens ljus till skärmens ljus"
++"En tonåtergivningskurva mappar scenens luminans till skärmens luminans"
+ 
+ #: src/gcm-viewer.ui:675
+ msgid "TRC"
+@@ -814,7 +817,7 @@
+ 
+ #: src/gcm-viewer.ui:746
+ msgid "A video card gamma table shows the curves loaded into the display"
+-msgstr "En gammatabell för grafikkort visar kurvorna som läses in i skärmen"
++msgstr "Grafikkortets gammatabell visar de kurvor som har lästs in i skärmen"
+ 
+ #: src/gcm-viewer.ui:764
+ msgid "VCGT"
+@@ -859,10 +862,11 @@
+ 
+ #: src/gcm-viewer.ui:1118
+ msgid ""
+-"Metadata is additional information stored in the profile for programs to use."
++"Metadata is additional information stored in the profile for programs to "
++"use."
+ msgstr ""
+-"Metadata är ytterligare information som lagras i profilen för att användas "
+-"av program."
++"Metadata är extra information som lagras i profilen så att program kan "
++"använda den."
+ 
+ #: src/gcm-viewer.ui:1136
+ msgid "Metadata"
+@@ -884,8 +888,8 @@
+ #~ msgstr "Hämtar standardparametrar"
+ 
+ #~ msgid ""
+-#~ "This pre-calibrates the screen by sending colored and gray patches to "
+-#~ "your screen and measuring them with the hardware device."
++#~ "This pre-calibrates the screen by sending colored and gray patches to your "
++#~ "screen and measuring them with the hardware device."
+ #~ msgstr ""
+ #~ "Denna förkalibrerar skärmen genom att skicka ut färgade och gråa mätrutor "
+ #~ "till din skärm och mäter dem med hårdvaruenheten."
+@@ -900,11 +904,11 @@
+ #~ msgstr "Ritar ut mätrutorna"
+ 
+ #~ msgid ""
+-#~ "Drawing the generated patches to the screen, which will then be measured "
+-#~ "by the hardware device."
+-#~ msgstr ""
+-#~ "Ritar ut de genererade mätrutorna till skärmen, vilka sedan kommer att "
+-#~ "mätas av hårdvaruenheten."
++#~ "Drawing the generated patches to the screen, which will then be measured by "
++#~ "the hardware device."
++#~ msgstr ""
++#~ "Ritar ut de genererade mätrutorna till skärmen, vilka sedan kommer att mätas"
++#~ " av hårdvaruenheten."
+ 
+ #~ msgid "Generating the profile"
+ #~ msgstr "Genererar profilen"
+@@ -940,9 +944,8 @@
+ #~ "Please wait a few minutes for the ink to dry. Profiling damp ink will "
+ #~ "produce a poor profile and may damage your color measuring instrument."
+ #~ msgstr ""
+-#~ "Väntar ett par minuter för att bläcket ska torka. Profilering av blött "
+-#~ "bläck kommer att ge en dålig profil och kan skada ditt "
+-#~ "färgmätningsinstrument."
++#~ "Väntar ett par minuter för att bläcket ska torka. Profilering av blött bläck"
++#~ " kommer att ge en dålig profil och kan skada ditt färgmätningsinstrument."
+ 
+ #~ msgid "Set up instrument"
+ #~ msgstr "Konfigurera instrumentet"
+@@ -970,18 +973,18 @@
+ #~ "typ av mål."
+ 
+ #~ msgid ""
+-#~ "The measuring instrument got no valid readings. Please ensure the "
+-#~ "aperture is fully open."
+-#~ msgstr ""
+-#~ "Mätinstrumentet fick inga giltiga läsningar. Försäkra dig om att "
+-#~ "bländaren är fullständigt öppen."
+-
+-#~ msgid ""
+-#~ "The measuring instrument is busy and is not starting up. Please remove "
+-#~ "the USB plug and re-insert before trying to use this device."
+-#~ msgstr ""
+-#~ "Mätinstrumentet är upptaget och startar inte upp. Koppla från USB-"
+-#~ "kontakten och anslut den igen innan du försöker att använda denna enhet."
++#~ "The measuring instrument got no valid readings. Please ensure the aperture "
++#~ "is fully open."
++#~ msgstr ""
++#~ "Mätinstrumentet fick inga giltiga läsningar. Försäkra dig om att bländaren "
++#~ "är fullständigt öppen."
++
++#~ msgid ""
++#~ "The measuring instrument is busy and is not starting up. Please remove the "
++#~ "USB plug and re-insert before trying to use this device."
++#~ msgstr ""
++#~ "Mätinstrumentet är upptaget och startar inte upp. Koppla från USB-kontakten "
++#~ "och anslut den igen innan du försöker att använda denna enhet."
+ 
+ #~ msgid "Reading target"
+ #~ msgstr "Läser målet"
+@@ -1003,11 +1006,11 @@
+ #~ msgstr "Det verkar som om du har mätt fel ruta."
+ 
+ #~ msgid ""
+-#~ "If you’ve really measured the right one, it’s okay, it could just be "
+-#~ "unusual paper."
+-#~ msgstr ""
+-#~ "Om du verkligen har mätt den rätta rutan så är det ok, det kanske bara "
+-#~ "var ett ovanligt papper."
++#~ "If you’ve really measured the right one, it’s okay, it could just be unusual"
++#~ " paper."
++#~ msgstr ""
++#~ "Om du verkligen har mätt den rätta rutan så är det ok, det kanske bara var "
++#~ "ett ovanligt papper."
+ 
+ #~ msgid "Device Error"
+ #~ msgstr "Enhetsfel"
+@@ -1020,29 +1023,29 @@
+ #~ msgstr "Redo att läsa ruta %s"
+ 
+ #~ msgid ""
+-#~ "Place the colorimeter on the area of white next to the letter and click "
+-#~ "and hold the measure switch."
+-#~ msgstr ""
+-#~ "Placera kolorimetern på det vita området bredvid bokstaven. Klicka sedan "
+-#~ "och håll kvar mätknappen. "
+-
+-#~ msgid ""
+-#~ "Slowly scan the target line from left to right and release the switch "
+-#~ "when you get to the end of the page."
+-#~ msgstr ""
+-#~ "Läs sakta av längs mållinjen från vänster till höger och släpp knappen "
+-#~ "när du kommer till slutet på sidan."
++#~ "Place the colorimeter on the area of white next to the letter and click and "
++#~ "hold the measure switch."
++#~ msgstr ""
++#~ "Placera kolorimetern på det vita området bredvid bokstaven. Klicka sedan och"
++#~ " håll kvar mätknappen. "
++
++#~ msgid ""
++#~ "Slowly scan the target line from left to right and release the switch when "
++#~ "you get to the end of the page."
++#~ msgstr ""
++#~ "Läs sakta av längs mållinjen från vänster till höger och släpp knappen när "
++#~ "du kommer till slutet på sidan."
+ 
+ #~ msgid ""
+ #~ "Ensure the center of the device is properly aligned with the row you are "
+ #~ "trying to measure."
+ #~ msgstr ""
+-#~ "Försäkra dig om att mitten på enheten är korrekt justerad mot den rad som "
+-#~ "du försöker att mäta."
+-
+-#~ msgid ""
+-#~ "If you make a mistake, just release the switch, and you’ll get a chance "
+-#~ "to try again."
++#~ "Försäkra dig om att mitten på enheten är korrekt justerad mot den rad som du"
++#~ " försöker att mäta."
++
++#~ msgid ""
++#~ "If you make a mistake, just release the switch, and you’ll get a chance to "
++#~ "try again."
+ #~ msgstr ""
+ #~ "Om du gör fel så släpp bara knappen och du får en chans att försöka igen."
+ 
+@@ -1187,21 +1190,20 @@
+ #~ msgstr "Enheten har kalibrerats."
+ 
+ #~ msgid ""
+-#~ "To view details about the new profile or to undo the calibration visit "
+-#~ "the <a href=\"control-center://color\">control center</a>."
+-#~ msgstr ""
+-#~ "För att visa detaljer om den nya profilen eller för att ångra "
+-#~ "kalibreringen, besök <a href=\"control-center://color\">kontrollpanelen</"
+-#~ "a>."
++#~ "To view details about the new profile or to undo the calibration visit the "
++#~ "<a href=\"control-center://color\">control center</a>."
++#~ msgstr ""
++#~ "För att visa detaljer om den nya profilen eller för att ångra kalibreringen,"
++#~ " besök <a href=\"control-center://color\">kontrollpanelen</a>."
+ 
+ #~ msgid ""
+ #~ "You can use the profile with <a href=\"import-linux\">Linux</a>, <a "
+-#~ "href=\"import-osx\">Apple OS X</a> and <a href=\"import-"
+-#~ "windows\">Microsoft Windows</a> systems."
++#~ "href=\"import-osx\">Apple OS X</a> and <a href=\"import-windows\">Microsoft "
++#~ "Windows</a> systems."
+ #~ msgstr ""
+ #~ "Du kan använda profilen med <a href=\"import-linux\">Linux</a>, <a "
+-#~ "href=\"import-osx\">Apple OS X</a> och <a href=\"import-"
+-#~ "windows\">Microsoft Windows</a>-system."
++#~ "href=\"import-osx\">Apple OS X</a> och <a href=\"import-windows\">Microsoft "
++#~ "Windows</a>-system."
+ 
+ #~ msgid "Summary"
+ #~ msgstr "Sammandrag"
+@@ -1219,18 +1221,18 @@
+ #~ msgstr "Kontrollista för kalibrering"
+ 
+ #~ msgid ""
+-#~ "Before calibrating the display, it is recommended to configure your "
+-#~ "display with the following settings to get optimal results."
+-#~ msgstr ""
+-#~ "Det rekommenderas att konfigurera din skärm med följande inställningar "
+-#~ "för att få optimala resultat före du kalibrerar skärmen."
++#~ "Before calibrating the display, it is recommended to configure your display "
++#~ "with the following settings to get optimal results."
++#~ msgstr ""
++#~ "Det rekommenderas att konfigurera din skärm med följande inställningar för "
++#~ "att få optimala resultat före du kalibrerar skärmen."
+ 
+ #~ msgid ""
+ #~ "You may want to consult the owner’s manual for your display on how to "
+ #~ "achieve these settings."
+ #~ msgstr ""
+-#~ "Du kanske vill referera till handboken för din skärm om hur man uppnår "
+-#~ "dessa inställningar."
++#~ "Du kanske vill referera till handboken för din skärm om hur man uppnår dessa"
++#~ " inställningar."
+ 
+ #~ msgid "Reset your display to the factory defaults."
+ #~ msgstr "Återställ din skärm till fabriksinställningarna."
+@@ -1250,8 +1252,7 @@
+ #~ "Om anpassad färg inte är tillgänglig så använd en färgtemperatur på 6500K."
+ 
+ #~ msgid ""
+-#~ "Adjust the display brightness to a comfortable level for prolonged "
+-#~ "viewing."
++#~ "Adjust the display brightness to a comfortable level for prolonged viewing."
+ #~ msgstr ""
+ #~ "Justera skärmens ljusstyrka till en komfortabel nivå för visning under "
+ #~ "längre perioder."
+@@ -1284,8 +1285,7 @@
+ #~ msgid "Common color target files are not installed on this computer."
+ #~ msgstr "Vanliga målfärgsfiler har inte installerats på denna dator."
+ 
+-#~ msgid ""
+-#~ "Color target files are needed to convert the image to a color profile."
++#~ msgid "Color target files are needed to convert the image to a color profile."
+ #~ msgstr "Målfärgsfiler behövs för att konvertera bilden till en färgprofil."
+ 
+ #~ msgid "Do you want them to be installed?"
+@@ -1341,25 +1341,25 @@
+ #~ "kalibreringsmål och spara det som en TIFF-bildfil."
+ 
+ #~ msgid ""
+-#~ "Ensure that the contrast and brightness are not changed and color "
+-#~ "correction profiles have not been applied."
++#~ "Ensure that the contrast and brightness are not changed and color correction"
++#~ " profiles have not been applied."
+ #~ msgstr ""
+ #~ "Försäkra dig om att kontrast och ljusstyrka inte har ändrats och att "
+ #~ "färgkorrigeringsprofiler inte har tillämpats."
+ 
+ #~ msgid ""
+-#~ "The device sensor should have been cleaned prior to scanning and the "
+-#~ "output file resolution should be at least 200dpi."
+-#~ msgstr ""
+-#~ "Enhetssensorn bör ha rengjorts före avläsningen och utdatafilens "
+-#~ "upplösning bör vara minst 200 dpi."
+-
+-#~ msgid ""
+-#~ "Ensure that the white-balance has not been modified by the camera and "
+-#~ "that the lens is clean."
+-#~ msgstr ""
+-#~ "Försäkra dig om att vitbalansen inte har ändrats av kameran och att "
+-#~ "linsen är rengjord."
++#~ "The device sensor should have been cleaned prior to scanning and the output "
++#~ "file resolution should be at least 200dpi."
++#~ msgstr ""
++#~ "Enhetssensorn bör ha rengjorts före avläsningen och utdatafilens upplösning "
++#~ "bör vara minst 200 dpi."
++
++#~ msgid ""
++#~ "Ensure that the white-balance has not been modified by the camera and that "
++#~ "the lens is clean."
++#~ msgstr ""
++#~ "Försäkra dig om att vitbalansen inte har ändrats av kameran och att linsen "
++#~ "är rengjord."
+ 
+ #~ msgid "Please select the calibration target type."
+ #~ msgstr "Välj måltyp för kalibreringen."
+@@ -1409,8 +1409,7 @@
+ #~ msgid ""
+ #~ "Most displays should be calibrated to a CIE D65 illuminant for general "
+ #~ "usage."
+-#~ msgstr ""
+-#~ "De flesta skärmar bör kalibreras till CIE D65 för allmän användning."
++#~ msgstr "De flesta skärmar bör kalibreras till CIE D65 för allmän användning."
+ 
+ #~ msgid "CIE D50 (Printing and publishing)"
+ #~ msgstr "CIE D50 (Utskrifter och publicering)"
+@@ -1434,8 +1433,8 @@
+ #~ msgstr "Välj profileringsläge"
+ 
+ #~ msgid ""
+-#~ "Please indicate if you want to profile a local printer, generate some "
+-#~ "test patches, or profile using existing test patches."
++#~ "Please indicate if you want to profile a local printer, generate some test "
++#~ "patches, or profile using existing test patches."
+ #~ msgstr ""
+ #~ "Välj om du vill profilera en lokal skrivare, generera några testmätrutor "
+ #~ "eller profilera med befintliga testmätrutor."
+@@ -1446,8 +1445,7 @@
+ #~ msgid "Choose calibration quality"
+ #~ msgstr "Välj kalibreringskvalitet"
+ 
+-#~ msgid ""
+-#~ "Higher quality calibration requires many color samples and more time."
++#~ msgid "Higher quality calibration requires many color samples and more time."
+ #~ msgstr ""
+ #~ "Kalibrering med högre kvalitet kräver fler färgavläsningar och mer tid."
+ 
+@@ -1455,8 +1453,8 @@
+ #~ "A higher precision profile provides higher accuracy in color matching but "
+ #~ "requires more time for reading the color patches."
+ #~ msgstr ""
+-#~ "En högre precisionsprofil tillhandahåller högre precision i "
+-#~ "färgmatchningen men kräver mer tid för att läsa färgmätningsrutorna."
++#~ "En högre precisionsprofil tillhandahåller högre precision i färgmatchningen "
++#~ "men kräver mer tid för att läsa färgmätningsrutorna."
+ 
+ #~ msgid "For a typical workflow, a normal precision profile is sufficient."
+ #~ msgstr ""
+@@ -1508,11 +1506,9 @@
+ #~ msgid "Sensor Check"
+ #~ msgstr "Sensorkontroll"
+ 
+-#~ msgid ""
+-#~ "The device could not be found. Ensure it is plugged in and turned on."
+-#~ msgstr ""
+-#~ "Enheten kunde inte hittas. Försäkra dig om att den är ansluten och "
+-#~ "påslagen."
++#~ msgid "The device could not be found. Ensure it is plugged in and turned on."
++#~ msgstr ""
++#~ "Enheten kunde inte hittas. Försäkra dig om att den är ansluten och påslagen."
+ 
+ #~ msgid "Unknown serial"
+ #~ msgstr "Okänt serienummer"

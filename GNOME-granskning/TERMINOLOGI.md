@@ -82,6 +82,20 @@ listan är stöd, inte en ursäkt för mekanisk ersättning.
 | pixbuf | pixbuf | GTK/GdkPixbuf-API-typ; behåll identifieraren och böj vid behov: *pixbufen*. |
 | colorspace | färgrymd | Färgrymd som pixelvärdena tolkas i. |
 
+## Färg och bildbehandling
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| color profile | färgprofil | ICC-profil. |
+| colorspace / color space | färgrymd | ICC- och bilddata. |
+| spot color | dekorfärg | Tryckfärg som anges separat, även vid färgmätning. |
+| color gamut | färgomfång | |
+| gamut volume | färgomfångsvolym | Volymen i en färgomfångsgraf. |
+| whitepoint / white point | vitpunkt | ICC-profiler. |
+| luminance | luminans | |
+| tone reproduction curve | tonåtergivningskurva | |
+| colorimeter | kolorimeter | |
+
 ## Kommandoradsmetavariabler
 
 Översätt beskrivande metavariabler i användningsrader och hjälptexter. Behåll
