@@ -842,3 +842,7 @@ Samtliga 641 ursprungligen tomma mål har granskats, sparats och återlästs; de
 För att lägga till de saknade posterna testades Lokalises nyckel- och filimportvägar. `POST /keys` och `POST /files/upload` svarade båda HTTP 403. Filimporten nådde inte bearbetningssteget och gjorde ingen ändring. Källunderlaget finns i `2026-11-25-core-missing-keys-source-import.json`; ingen token ingår. När rättighet finns ska de 203 posterna importeras, granskas och verifieras separat.
 
 Positionerna 26731–26850 har jämförts med Core-revision `86a2eabe7e43f526db5821ef068087ce8404ae07`: 109 nycklar matchade aktuell källa, 43 översättningar korrigerades och återlästes, 66 befintliga översättningar verifierades och 11 äldre nycklar lämnades orörda. Alla 38 referensalias i intervallet matchar sina mål live. Rapport: `../2026-11-19-granskning/granskning-26731-26850.md`.
+
+## Fortsatt radgranskning 2026-11-25 – position 26851–26970
+
+119 av 120 Lokalise-poster matchade aktuell Core-källa `86a2eabe7e43f526db5821ef068087ce8404ae07`. 27 mål korrigerades och API-återlästes, 92 befintliga mål verifierades. En äldre Hegel-nyckel saknar aktuell Core-källpost och hölls utanför TM. 31 delade mål korrigerades och 51 alias verifierades live. TMX validerades till 18 038 poster. Se `../2026-11-19-granskning/granskning-26851-26970.md` och manifesten i `swedish-tm`.

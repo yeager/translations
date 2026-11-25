@@ -351,3 +351,12 @@
 - 38 referensalias kontrollerade live; samtliga matchar. 15 gemensamma mål korrigerades med synkade alias. Slim Fry-nivåerna behöver fortsatt modellkontroll.
 - HA-TMX uppdaterad och validerad: 17 892 poster.
 - 203 aktuella källnycklar saknas fortsatt i Lokalise. POST /keys och POST /files/upload gav HTTP 403; importunderlag och detaljer finns i full-core-audit. Granskningen är inte klar.
+
+
+## 2026-11-25 – Core 26851–26970
+
+- 120 positioner jämförda mot aktuell Core-källa; 119 matchade och radgranskades, 1 äldre Hegel-nyckel saknar källa och lades inte i TM.
+- 27 aktuella mål korrigerades och API-återlästes; 92 befintliga mål verifierades. 31 delade referensmål uppdaterades och 51 alias kontrollerades live efter synk. Inga platshållarskillnader.
+- `svlang skrivregler` utan fel; kvarvarande Hunspell-signaler är produktnamn, API-termer och kod-/filnamn och bedömdes i kontext. Osäker SmartThings-etikett `time_hold_preheat` flaggad för modellkontroll.
+- HA-TMX uppdaterad och validerad: 18 038 poster.
+- 203 Core-nycklar saknas fortfarande i Lokalise; tidigare API-importförsök gav HTTP 403. Core-granskningen fortsätter och är inte klar.
