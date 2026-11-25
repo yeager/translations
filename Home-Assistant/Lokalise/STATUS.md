@@ -180,3 +180,40 @@
 - Proxmox `suspended` skiljs från `stopped`; MTA:s tunnelbanestationer och busshållplatser får separata svenska termer. Platshållare verifierade.
 - `svlang`-skrivregler utan fel. Hunspell-ordlistans lucka för `dongel` korrigerades med källbelagda böjningar; dess 10 tester och språkpolicykontroll passerar.
 - HA Core-TMX uppdaterad och validerad: 16 652 poster. Granskningen fortsätter; Core är inte färdiggranskad.
+
+
+## 2026-11-25 – Core 25651–25770
+
+- 14 strängar radgranskade mot aktuell källa och Lokalise; 12 ändringar sparade och återlästa, 2 befintliga texter verifierade.
+- ntfy:s API-åtgärdsvärden och Liebherrs `MaxIce` bevarades; WeHeat `energy_out_*` bekräftades som avgiven energi i källkoden.
+- HA Core-TMX uppdaterad och validerad: 16 662 poster. Granskningen fortsätter; Core är inte färdiggranskad.
+
+
+## 2026-11-25 – Core 25771–25890
+
+- 13 rader jämförda med live Lokalise och aktuell Core-källa: 2 ändringar sparade och återlästa, 10 befintliga värden verifierade.
+- En äldre Roborock-nyckel saknas i aktuell Core-källa; den dokumenterades för key/source-uppföljning och fördes inte in som verifierad post i TM.
+- Viessmanns liquid-gas-givare kontrollerad i tillverkarens installationsunderlag som köldmediekretssensor. Core-granskningen fortsätter.
+
+
+## 2026-11-25 – Core 25891–26010
+
+- 11 rader jämförda med live Lokalise och aktuell Core-källa: 4 ändringar sparade/återlästa, 6 befintliga värden verifierade.
+- En äldre DuckDNS-nyckel saknas i nuvarande källa och lämnades oförändrad för uppföljning. Platshållare verifierade.
+- Core-TMX uppdaterad och validerad: 16 682 poster. Granskningen fortsätter.
+
+
+## 2026-11-25 – Core 26011–26130
+
+- 10 föreslagna strängar jämförda med aktuell källa/live Lokalise: 8 ändringar sparade och återlästa, 1 verifierad befintlig text.
+- En Ness Alarm-nyckel saknas i aktuell källa. Äldre Vacuum `segments_changed::description` är tom på båda språken och saknas i aktuell källa; båda dokumenterades som uppföljningar, inte översatta.
+- Core-TMX uppdaterad och validerad: 16 690 poster. Granskningen fortsätter; Core är inte färdig.
+
+
+## 2026-11-25 – Full Lokalise-omfattning för aktuell HA Core
+
+- Källan genererades från HA Core `dev` revision `e7821a6c38d191d5cb9797f9992529281b8ebde6`: 67 210 strängnycklar. Lokalise API-listning omfattade 76 338 poster över 153 sidor.
+- 203 aktuella källnycklar saknas helt i Lokalise; lista och källtexter i `2026-11-25-full-core-missing-audit.md` samt JSON-manifestet. Skapa/importera dem med HA:s behöriga upstream-synk; Lokalise-tokenens nyckelskapande gav tidigare 403.
+- 641 befintliga Lokalise-nycklar har tom svensk måltext (132 engelska källor är referenser). Samtliga nycklar och källtexter finns i rapporten.
+- Tre engelska Lokalise-källvärden har radbrytnings-/escapeavvikelser mot aktuell källa. 18 956 referenser matchade efter referensupplösning.
+- Aktivt antal nycklar som inte finns i aktuell Core-källa och rader utan svensk målstatus finns strukturerade i JSON; sådana poster är inte färdigöversatta.
