@@ -72,6 +72,9 @@ listan är stöd, inte en ursäkt för mekanisk ersättning.
 | decoder | avkodare | Avser komponent/funktion, inte nödvändigtvis appnamnet **Decoder**. |
 | encoder | kodare | |
 | hardware | maskinvara | |
+| device programmer (GNOME Firmware) | enhetsprogrammerare | UI-komponent som skickar råa firmwarefiler till enheten. |
+| Vendor ID (hardware ID) | tillverkar-ID | Plural: *tillverkar-ID:n*. |
+| CAB archive (firmware) | CAB-arkiv | Windows Cabinet-format som används för firmwarearkiv. |
 | firmware | fast programvara | Använd *firmware* när det är projektets etablerade tekniska term. |
 | sample (pixbuf) | värde | Kanalsampel för en bildpunkt; här avses värdet, inte själva samplingsprocessen. |
 | preview | förhandsvisning / förhandsvisa | Substantiv respektive verb; välj efter sammanhang. |
