@@ -233,3 +233,10 @@
 - Korrigerades bl.a. PSI-mätvärden, UniFi:s extra platshållare, MTA-ankomster, Velux-rulljalusier, Daikin-zonfel och batteri-/energiord.
 - `svlang`-skrivregler och efterföljande stavningskontroll redovisas i batchkontrollen; Home Assistant svlang-`skrivregler` utan fel. Naturlighetsheuristikens V2-varningar för tekniska nominalfraser bedömdes manuellt; Hunspell flaggade endast namn, källidentifierare och `zone`.
 - Core-TMX uppdaterad och validerad: 16 822 poster. Granskningen fortsätter.
+
+
+## 2026-11-25 – Core 26371–26490
+
+- Alla 120 positioner jämförda med aktuell Core-källa och Lokalise: 49 ändringar sparade/återlästa, 51 befintliga texter verifierade, 20 äldre nycklar dokumenterade som källsaknade.
+- Tessies energiflöden kontrollerade mot Home Assistant- och Tesla-dokumentation; två grid-services-formuleringar förtydligades direkt i Lokalise och TM.
+- Core-TMX uppdaterad och validerad: 16 918 poster. Core-granskningen fortsätter.
