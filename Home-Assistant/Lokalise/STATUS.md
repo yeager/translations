@@ -377,3 +377,11 @@
 - `svlang skrivregler` utan fel och naturlighetskontrollen utan radflaggor. Hunspell-sv saknade den etablerade sammansättningen `nedladdningskö`; den och böjningar lades till i båda ordlistorna/regressionerna. Hunspell-sv:s 19 tester passerar.
 - HA-TMX uppdaterad och validerad: 18 236 poster.
 - 203 källnycklar saknas fortsatt i Lokalise; API-importen hindras av HTTP 403. Core-granskningen fortsätter.
+
+## 2026-11-25 – Core 27211–27330
+
+- 95 aktuella nycklar radgranskade; 17 mål ändrade och API-återlästa, 78 befintliga mål verifierade.
+- 25 äldre källvägar dokumenterade för separat crosswalk; ingen har lagts in i aktuell TM.
+- 29 referensalias jämförda med live-mål, samtliga matchar. Platshållare och kodmarkörer bevarade.
+- Korrigerade Portainer-beskrivningens semantik för skapandetid och oetiketterade avbildningar, samt JVC-projektorns status- och effektetiketter.
+- Core-TMX uppdaterad och validerad: 18 329 poster. Full Core-granskning fortsätter; inte klar.

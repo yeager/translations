@@ -854,3 +854,7 @@ Positionerna 26731–26850 har jämförts med Core-revision `86a2eabe7e43f526db5
 ## Fortsatt radgranskning 2026-11-25 – position 27091–27210
 
 97 av 120 poster matchade aktuell Core-källa; 23 mål korrigerades eller synkades och återlästes, medan 74 befintliga mål verifierades. 23 äldre sökvägar dokumenterades separat; ingen ändrades eller lades till i TM. 53 referensalias kontrollerades live, samtliga matchar efter synk. Hunspell-sv fick den belagda sammansättningen `nedladdningskö` med böjningar och regressionsfall; 19 tester passerar. TMX validerad till 18 236 poster. Rapporten innehåller alla fullständiga nycklar, befintlig text, granskat mål och uppföljningsstatus: `../2026-11-19-granskning/granskning-27091-27210.md`.
+
+## Fortsatt radgranskning 2026-11-25 – position 27211–27330
+
+95 aktuella strängar radgranskades mot revision `86a2eabe7e43f526db5821ef068087ce8404ae07`; 17 översättningar korrigerades och återlästes från Lokalise, 78 befintliga mål verifierades. 29 referensalias kontrollerades mot målen live och alla matchar. 25 äldre Lokalise-sökvägar saknar motsvarande källnyckel i den aktuella revisionen; de dokumenterades för separat crosswalk och ingår inte i TM. HA-TMX uppdaterad och validerad till 18 329 poster. Se rapporten `../2026-11-19-granskning/granskning-27211-27330.md` samt `2026-11-25-reviewed-core-27211-27330.json` och `2026-11-25-reviewed-core-27211-27330-tm.json`.
