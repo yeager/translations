@@ -96,6 +96,18 @@ listan är stöd, inte en ursäkt för mekanisk ersättning.
 | tone reproduction curve | tonåtergivningskurva | |
 | colorimeter | kolorimeter | |
 
+## Föräldrakontroller och användarkonton
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| Parental Controls | Föräldrakontroller | GNOME-appens namn. |
+| child user / child account | barnkonto | Föredras framför *barnanvändare*. |
+| non-administrator account | konto utan administratörsbehörighet | Tydligt i hjälptext. |
+| Control Center (legacy GNOME) | Kontrollcenter | Äldre appnamn; välj inte *Kontrollpanel* i GNOME-dokumentation. |
+| Application Suitability | Lämplighet för program | Etikett i föräldrakontrollernas gränssnitt. |
+| age rating / age suitability | åldersklassificering / åldersinställning | Välj efter om texten beskriver en klassificering eller användarens inställning. |
+| under supervision | under tillsyn | Skriv inte *under översikt*. |
+
 ## Kommandoradsmetavariabler
 
 Översätt beskrivande metavariabler i användningsrader och hjälptexter. Behåll
