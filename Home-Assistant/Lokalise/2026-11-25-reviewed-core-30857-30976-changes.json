@@ -1,0 +1,68 @@
+[
+  {
+    "position": 30858,
+    "key": "component::homee::entity::sensor::position::name",
+    "key_id": "596454814",
+    "translation_id": "5148075132",
+    "en": "Position",
+    "existing_sv": "Plats",
+    "proposed_sv": "Position",
+    "rationale": "Sensorn rapporterar ett mätvärde för position; ”Plats” betyder i stället plats/lokalisering.",
+    "saved_and_read_back": true
+  },
+  {
+    "position": 30873,
+    "key": "component::homee::entity::sensor::valve_position::name",
+    "key_id": "596454829",
+    "translation_id": "5148076077",
+    "en": "Valve position",
+    "existing_sv": "Ventilläge",
+    "proposed_sv": "Ventilposition",
+    "rationale": "”Ventilposition” är den precisa och etablerade beteckningen för ett ventilationsläge i Home Assistant.",
+    "saved_and_read_back": true
+  },
+  {
+    "position": 30909,
+    "key": "component::ohme::entity::time::target_time::name",
+    "key_id": "597467716",
+    "translation_id": "5159493516",
+    "en": "Target time",
+    "existing_sv": "Måltid",
+    "proposed_sv": "Önskad sluttid",
+    "rationale": "Ohme beskriver detta som tiden då laddningen ska vara klar (”ready by”); ”Måltid” blir missvisande på svenska. Se [Ohmes laddningsbeskrivning](https://ohme-ev.com/support/explore-charging/).",
+    "saved_and_read_back": true
+  },
+  {
+    "position": 30912,
+    "key": "component::network::system_health::info::announce_addresses",
+    "key_id": "597649577",
+    "translation_id": "5161050304",
+    "en": "Announce addresses",
+    "existing_sv": "Meddela adresser",
+    "proposed_sv": "Annonserade IP-adresser",
+    "rationale": "Källkoden anger att detta är IP-adresser som annonseras via zeroconf/SSDP; formuleringen gör nätverksfunktionen tydlig.",
+    "saved_and_read_back": true
+  },
+  {
+    "position": 30959,
+    "key": "component::vicare::entity::sensor::heating_rod_hours::name",
+    "key_id": "598351475",
+    "translation_id": "5168026059",
+    "en": "Heating rod hours",
+    "existing_sv": "Värmestav timmar",
+    "proposed_sv": "Drifttimmar för värmestaven",
+    "rationale": "Gör mätvärdet idiomatiskt och uttrycker att det gäller drifttimmar.",
+    "saved_and_read_back": true
+  },
+  {
+    "position": 30960,
+    "key": "component::vicare::entity::sensor::heating_rod_starts::name",
+    "key_id": "598351476",
+    "translation_id": "5168026122",
+    "en": "Heating rod starts",
+    "existing_sv": "Värmestav startar",
+    "proposed_sv": "Antal starter för värmestaven",
+    "rationale": "Gör mätvärdet idiomatiskt och tydliggör att det visar antal starter.",
+    "saved_and_read_back": true
+  }
+]
