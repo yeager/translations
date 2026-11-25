@@ -234,3 +234,22 @@ argumentet betyder i just det programmet.
 | preview | förhandsvisning | Substantiv; verbet är *förhandsvisa*. |
 | GNOME Files | Filer | GNOME-programmets svenska namn; skriv *Filer (Nautilus)* när äldre namn behövs för identifiering. |
 | independent component | fristående komponent | Naturlig svensk formulering i programbeskrivningen. |
+
+## Highscore (emulator)
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| gamepad | handkontroll | Används för externa spelkontroller. |
+| control (gamepad input) | kontroll / knapp | *Kontroll* är den övergripande inmatningen; *knapp* när en fysisk knapp avses. |
+| firmware | fast programvara | |
+| boot ROM | start-ROM | Behåll ROM och systemnamn. |
+| snapshot | ögonblicksbild | Highscore använder termen för en sparad emulatorsnapshot. |
+| save state | sparat tillstånd | Skilj från spelens vanliga sparade data. |
+| save data | sparade speldata | |
+| deinterlacing | avflätning | Video. |
+| interlacing | sammanflätning | Fält i sammanflätad video. |
+| game library | spelbibliotek | |
+| Screen Gap | mellanrum mellan skärmar | Nintendo DS-layoutens mellanrum mellan de två skärmarna. |
+| Left/Right Trigger | vänster/höger avtryckare | Gamepadens analoga avtryckare. |
+| CRT mask: dot / slot / aperture grille | punktmask / spaltmask / bländargaller | Skärmfilter. |
+| Composite signal | komposit | Videosignal; *sammansatt* är för ospecifikt här. |
