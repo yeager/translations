@@ -136,6 +136,10 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | lightness | ljushet | HSL/LAB-komponent; skilj från luminans. |
 | Value (HSV, GIMP UI) | NMI-intensitet | GIMP:s svenska UI-term för nyans, mättnad och intensitet. |
 | sepia toning | sepiatoning | Bildbehandlingseffekt med varm brun ton. |
+| Filmstrip (GIMP filter) | Filmremsa | Filter som sammanfogar bilder till en illustration av en fotografisk filmremsa. |
+| Depth Merge (GIMP filter) | Djupsammanfogning | Filter som använder djupmappningar för att avgöra vilka delar av bildlager som visas. |
+| map (Depth Merge) | mappning | Bild som används som mask för att styra sammanfogningen. |
+| gradient (GIMP tool) | toning | Färgövergång som skapas med toningsverktyget; undvik *gradient* i användartext. |
 | opacity | opacitet | Använd *ogenomskinlighet* i förklarande löptext vid behov. |
 | feather (selection) | mjuka upp kanter | Åtgärd på en markering; substantivet är *kantutjämning* endast när kontexten avser utjämning. |
 | floating selection | flytande markering | GIMP:s särskilda lager-/markeringsläge. |
