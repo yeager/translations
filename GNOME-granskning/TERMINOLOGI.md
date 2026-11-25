@@ -145,6 +145,10 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | GEGL Filter Browser | GEGL-filterbläddrare | GIMP-verktygets etablerade namn. |
 | Plug-In Browser | Bläddrare för insticksmoduler | GIMP-verktygets etablerade namn; *plug-in* översätts med *insticksmodul*. |
 | issue tracker | ärendehanteringssystem | Plats för felrapporter och önskemål om nya funktioner. |
+| Slur (GIMP filter) | Smeta ut | Filter som smetar ut bildpunkter nedåt. |
+| Dulling (GIMP noise option) | dämpning | Styr hur mycket slumpmässigt färgvärde påverkar befintlig färg. |
+| speckle noise | fläckbrus | Multiplikativt, korrelerat brus. |
+| CIE LCh | CIE LCh | Färgrymdsmodell med ljushet, krominans och nyans; behåll akronymens versaler. |
 | opacity | opacitet | Använd *ogenomskinlighet* i förklarande löptext vid behov. |
 | feather (selection) | mjuka upp kanter | Åtgärd på en markering; substantivet är *kantutjämning* endast när kontexten avser utjämning. |
 | floating selection | flytande markering | GIMP:s särskilda lager-/markeringsläge. |
