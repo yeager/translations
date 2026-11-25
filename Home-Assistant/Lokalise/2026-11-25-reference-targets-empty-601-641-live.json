@@ -1,0 +1,160 @@
+{
+  "checked_at": "2026-11-25",
+  "batch": "601-641",
+  "unique_reference_targets": [
+    "common::config_flow::data::password",
+    "common::config_flow::title::reauth",
+    "component::volkszaehler::config::step::user::data::middleware",
+    "component::volkszaehler::config::step::user::data_description::middleware",
+    "component::weatherkit::config::step::user::data::key_id",
+    "component::weatherkit::config::step::user::data::key_pem",
+    "component::workday::config::step::options::sections::country_settings::data::hindu_show_estimated",
+    "component::workday::config::step::options::sections::country_settings::data::include_sundays",
+    "component::workday::config::step::options::sections::country_settings::data::islamic_show_estimated",
+    "component::workday::config::step::options::sections::country_settings::data_description::hindu_show_estimated",
+    "component::workday::config::step::options::sections::country_settings::data_description::include_sundays",
+    "component::workday::config::step::options::sections::country_settings::data_description::islamic_show_estimated"
+  ],
+  "alias_checks": [
+    {
+      "alias_key": "component::upcloud::config::step::reauth_confirm::data::password",
+      "alias_key_id": "987216826",
+      "reference_key": "common::config_flow::data::password",
+      "reference_key_id": 39798295,
+      "sv_reference": "Lösenord",
+      "sv_alias": "Lösenord",
+      "matches": true,
+      "status": "live-read-back"
+    },
+    {
+      "alias_key": "component::upcloud::config::step::reauth_confirm::title",
+      "alias_key_id": "987216829",
+      "reference_key": "common::config_flow::title::reauth",
+      "reference_key_id": 60734128,
+      "sv_reference": "Autentiseringen har upphört att gälla för {name}",
+      "sv_alias": "Autentiseringen har upphört att gälla för {name}",
+      "matches": true,
+      "status": "live-read-back"
+    },
+    {
+      "alias_key": "component::volkszaehler::config::step::reconfigure::data::middleware",
+      "alias_key_id": "987261306",
+      "reference_key": "component::volkszaehler::config::step::user::data::middleware",
+      "reference_key_id": 987261308,
+      "sv_reference": "Använd middleware.php",
+      "sv_alias": "Använd middleware.php",
+      "matches": true,
+      "status": "live-read-back"
+    },
+    {
+      "alias_key": "component::volkszaehler::config::step::reconfigure::data_description::middleware",
+      "alias_key_id": "987261307",
+      "reference_key": "component::volkszaehler::config::step::user::data_description::middleware",
+      "reference_key_id": 987261309,
+      "sv_reference": "Aktivera om din Volkszähler-instans använder 'middleware.php' i URL:en (standardkonfiguration). Inaktivera för Docker-konfigurationer eller anpassade slutpunkter utan 'middleware.php'.",
+      "sv_alias": "Aktivera om din Volkszähler-instans använder 'middleware.php' i URL:en (standardkonfiguration). Inaktivera för Docker-konfigurationer eller anpassade slutpunkter utan 'middleware.php'.",
+      "matches": true,
+      "status": "live-read-back"
+    },
+    {
+      "alias_key": "component::weatherkit::config::step::reauth_confirm::data::key_id",
+      "alias_key_id": "987216385",
+      "reference_key": "component::weatherkit::config::step::user::data::key_id",
+      "reference_key_id": 373587868,
+      "sv_reference": "Nyckel-ID",
+      "sv_alias": "Nyckel-ID",
+      "matches": true,
+      "status": "live-read-back"
+    },
+    {
+      "alias_key": "component::weatherkit::config::step::reauth_confirm::data::key_pem",
+      "alias_key_id": "987216386",
+      "reference_key": "component::weatherkit::config::step::user::data::key_pem",
+      "reference_key_id": 373587869,
+      "sv_reference": "Privat nyckel (.p8)",
+      "sv_alias": "Privat nyckel (.p8)",
+      "matches": true,
+      "status": "live-read-back"
+    },
+    {
+      "alias_key": "component::weatherkit::config::step::reauth_confirm::title",
+      "alias_key_id": "987216390",
+      "reference_key": "common::config_flow::title::reauth",
+      "reference_key_id": 60734128,
+      "sv_reference": "Autentiseringen har upphört att gälla för {name}",
+      "sv_alias": "Autentiseringen har upphört att gälla för {name}",
+      "matches": true,
+      "status": "live-read-back"
+    },
+    {
+      "alias_key": "component::workday::options::step::init::sections::country_settings::data::hindu_show_estimated",
+      "alias_key_id": "987217221",
+      "reference_key": "component::workday::config::step::options::sections::country_settings::data::hindu_show_estimated",
+      "reference_key_id": 987217215,
+      "sv_reference": "Markera hinduiska helgdagar med uppskattat datum",
+      "sv_alias": "Markera hinduiska helgdagar med uppskattat datum",
+      "matches": true,
+      "status": "live-read-back"
+    },
+    {
+      "alias_key": "component::workday::options::step::init::sections::country_settings::data::include_sundays",
+      "alias_key_id": "987217222",
+      "reference_key": "component::workday::config::step::options::sections::country_settings::data::include_sundays",
+      "reference_key_id": 987217216,
+      "sv_reference": "Räkna söndagar som helgdagar",
+      "sv_alias": "Räkna söndagar som helgdagar",
+      "matches": true,
+      "status": "live-read-back"
+    },
+    {
+      "alias_key": "component::workday::options::step::init::sections::country_settings::data::islamic_show_estimated",
+      "alias_key_id": "987217223",
+      "reference_key": "component::workday::config::step::options::sections::country_settings::data::islamic_show_estimated",
+      "reference_key_id": 987217217,
+      "sv_reference": "Markera islamiska helgdagar med uppskattat datum",
+      "sv_alias": "Markera islamiska helgdagar med uppskattat datum",
+      "matches": true,
+      "status": "live-read-back"
+    },
+    {
+      "alias_key": "component::workday::options::step::init::sections::country_settings::data_description::hindu_show_estimated",
+      "alias_key_id": "987217224",
+      "reference_key": "component::workday::config::step::options::sections::country_settings::data_description::hindu_show_estimated",
+      "reference_key_id": 987217218,
+      "sv_reference": "Lägg till ”uppskattat” i namnet på hinduiska helgdagar med uppskattat datum",
+      "sv_alias": "Lägg till ”uppskattat” i namnet på hinduiska helgdagar med uppskattat datum",
+      "matches": true,
+      "status": "live-read-back"
+    },
+    {
+      "alias_key": "component::workday::options::step::init::sections::country_settings::data_description::include_sundays",
+      "alias_key_id": "987217225",
+      "reference_key": "component::workday::config::step::options::sections::country_settings::data_description::include_sundays",
+      "reference_key_id": 987217219,
+      "sv_reference": "Lägg till alla söndagar bland landets helgdagar",
+      "sv_alias": "Lägg till alla söndagar bland landets helgdagar",
+      "matches": true,
+      "status": "live-read-back"
+    },
+    {
+      "alias_key": "component::workday::options::step::init::sections::country_settings::data_description::islamic_show_estimated",
+      "alias_key_id": "987217226",
+      "reference_key": "component::workday::config::step::options::sections::country_settings::data_description::islamic_show_estimated",
+      "reference_key_id": 987217220,
+      "sv_reference": "Lägg till ”uppskattat” i namnet på islamiska helgdagar med uppskattat datum",
+      "sv_alias": "Lägg till ”uppskattat” i namnet på islamiska helgdagar med uppskattat datum",
+      "matches": true,
+      "status": "live-read-back"
+    }
+  ],
+  "external_targets_saved": [
+    "component::volkszaehler::config::step::user::data::middleware",
+    "component::volkszaehler::config::step::user::data_description::middleware",
+    "component::workday::config::step::options::sections::country_settings::data::hindu_show_estimated",
+    "component::workday::config::step::options::sections::country_settings::data::include_sundays",
+    "component::workday::config::step::options::sections::country_settings::data::islamic_show_estimated",
+    "component::workday::config::step::options::sections::country_settings::data_description::hindu_show_estimated",
+    "component::workday::config::step::options::sections::country_settings::data_description::include_sundays",
+    "component::workday::config::step::options::sections::country_settings::data_description::islamic_show_estimated"
+  ]
+}

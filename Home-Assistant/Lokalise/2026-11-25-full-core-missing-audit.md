@@ -8,13 +8,13 @@ Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 
 - Aktuell HA Core-källa innehåller **67,213** strängnycklar. Lokalise-listningen omfattade **76,341** poster över 153 API-sidor.
 - **203 aktuella källnycklar saknas helt i Lokalise.** Det är en upstream-synkfråga; en tidigare avgränsad `POST /keys`-kontroll gav HTTP 403 för tokenen.
-- **281 källsträngar har fortfarande tomt svenskt mål i befintliga Lokalise-nycklar.** Av dessa är **21** engelska källor referenser till andra HA-nycklar. Alla fullständiga nycklar och källor finns i tabellerna nedan och i den bifogade JSON-filen.
+- **0 aktuella tomma svenska mål återstår** av den ursprungliga kön på 641 strängar; alla har granskats och sparats/lästs tillbaka. Tabellen nedan är den ursprungliga könslistan före granskningen och behålls som spårbar historik. Livekontrollen 2026-11-25 fann 0 tomma mål bland dessa. 203 aktuella källnycklar saknas fortsatt i Lokalise.
 - 18956 engelska nyckelreferenser jämfördes efter att ha följt aktuell Core-referens. Tre verkliga skillnader mellan Core-källtext och Lokalises engelska registrerades.
 - Lokalise har dessutom 9,311 aktiva nycklar som inte finns i den aktuella Core-källsnapshoten. De kan vara historiska utgångna nycklar; de räknas inte som saknade nuvarande Core-nycklar och bör kontrolleras separat innan eventuell arkivering.
 
 ## Nya Core-strängar sedan tidigare inventering
 
-Tre nycklar som tillkom efter föregående inventering fanns i Lokalise med tom svensk text. De granskades mot aktuella Shelly- och Tuya-källor, översattes och lästes tillbaka via API. De ingår därför inte längre i listan över tomma mål. Av dessa tidigare 641 tomma mål har nu 540 granskats och sparats; 101 återstår.
+Tre nycklar som tillkom efter föregående inventering fanns i Lokalise med tom svensk text. De granskades mot aktuella Shelly- och Tuya-källor, översattes och lästes tillbaka via API. De ingår därför inte längre i listan över tomma mål. Av dessa tidigare 641 tomma mål har nu 600 granskats och sparats; 41 återstår.
 
 | Nyckel | Engelska | Svenska |
 |---|---|---|
@@ -834,4 +834,4 @@ Skillnaderna gäller escape-/radbrytning i Lyric och Telegram Bot. De bör jämf
 
 ## Uppdatering 2026-11-25 – tidigare tomma mål
 
-540 av de ursprungligen 641 tomma svenska målen har nu granskats mot aktuell HA Core-källa och sparats/återlästs i Lokalise. 101 återstår. 52 unika referensmål kontrollerades live; sex värden synkroniserades i första delbatchen, och inga avvikelser hittades i batcherna 121–540. Batcherna 361–540 innehöll inga referensnycklar. TMX har uppdaterats och validerats till 17 667 poster; tre tidigare felaktiga mål i TMX ersattes med granskade former. Se batchrapporterna `../2026-11-19-granskning/granskning-empty-targets-001-120.md`, `granskning-empty-targets-121-180.md`, `granskning-empty-targets-181-240.md`, `granskning-empty-targets-241-300.md`, `granskning-empty-targets-301-360.md`, `granskning-empty-targets-361-420.md`, `granskning-empty-targets-421-480.md`, `granskning-empty-targets-481-540.md` och manifesten intill denna rapport.
+Samtliga 641 ursprungligen tomma mål har granskats, sparats och återlästs; den uppdaterade livekontrollen visar 0 tomma mål i kön. Totalt kontrollerades 69 unika referensmål; 15 delade referensvärden synkroniserades/sparades vid genomgången och batchen 601–641 stämde med alla 13 alias. Batch 541–600 innehöll åtta alias över fem mål; tre olika reautentiseringstitlar korrigerades och Teslemetry-målet sparades i batch 601–641. Batcherna 361–540 saknade referenser, medan 541–600 hade åtta alias. TMX har uppdaterats och validerats till 17 768 poster; felaktiga äldre TM-värden ersattes. 203 aktuella Core-nycklar saknas fortsatt i Lokalise och kräver behörig nyckelsynk. Se batchrapporterna `../2026-11-19-granskning/granskning-empty-targets-001-120.md`, `granskning-empty-targets-121-180.md`, `granskning-empty-targets-181-240.md`, `granskning-empty-targets-241-300.md`, `granskning-empty-targets-301-360.md`, `granskning-empty-targets-361-420.md`, `granskning-empty-targets-421-480.md`, `granskning-empty-targets-481-540.md`, `granskning-empty-targets-541-600.md`, `granskning-empty-targets-601-641.md` och manifesten intill denna rapport.

@@ -330,3 +330,17 @@
 - Regionnamn behållna som officiella Azure-produktnamn. HA-TMX uppdaterad och validerad: 17 667 poster.
 - Hunspell uppdaterad med etablerade språk-/ortnamn och `Modbus`; dess 19 tester passerar.
 - Totalt 540/641 tomma mål granskade; 101 tomma mål och 203 aktuella Core-nycklar utan Lokalise-post återstår. Granskningen fortsätter.
+
+## 2026-11-25 – Core tomma mål 541–600
+
+- 60/60 granskade strängar sparade och återlästa i Lokalise; inga referensnycklar. Platshållare, markdown och YAML-nycklar bevarade.
+- HA-TMX uppdaterad och validerad: 17 727 poster. HA-minnet fick de verifierade lokala texterna.
+- Hunspell kompletterad med `mired`, `utgångskod`, Home Assistant-blueprint-termen och aktuella produktnamn; 19 tester passerar.
+- Totalt 600/641 tomma mål granskade; 41 tomma mål och 203 Core-nycklar utan Lokalise-post återstår. Granskningen fortsätter.
+
+
+## 2026-11-25 – Tomma mål 601–641
+
+- 41/41 tomma mål sparade och återlästa i Lokalise. 12 unika referensmål och 13 alias kontrollerades live; samtliga alias överensstämmer. Delade tomma Volkszähler- och Workday-mål fylldes och TMX tar med målnycklarna.
+- Lokalise-livekontroll efter sparandet: 0 tomma mål av ursprungskön 641. HA-TMX uppdaterad och validerad: 17 768 poster.
+- 203 aktuella Core-källnycklar saknas fortfarande i Lokalise; behörig upstream-synk krävs. Full Core-granskning är därför inte klar.

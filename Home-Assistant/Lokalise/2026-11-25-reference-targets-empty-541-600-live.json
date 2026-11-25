@@ -1,0 +1,151 @@
+{
+  "checked_at": "2026-11-25",
+  "batch": "541-600",
+  "unique_reference_targets": [
+    {
+      "key": "common::config_flow::data::password",
+      "key_id": "39798295",
+      "en": "Password",
+      "sv": "Lösenord",
+      "translation_id": "264217744"
+    },
+    {
+      "key": "common::config_flow::title::reauth",
+      "key_id": "60734128",
+      "en": "Authentication expired for {name}",
+      "sv": "Autentiseringen har upphört att gälla för {name}",
+      "translation_id": "437337533"
+    },
+    {
+      "key": "component::template::config::step::light::data::temperature_kelvin",
+      "key_id": "987356740",
+      "en": "Color temperature",
+      "sv": "Färgtemperatur",
+      "translation_id": "10451230852"
+    },
+    {
+      "key": "component::template::config::step::light::data_description::temperature_kelvin",
+      "key_id": "987356741",
+      "en": "Defines a template to get the color temperature of the light in kelvin.",
+      "sv": "Anger en mall som hämtar lampans färgtemperatur i kelvin.",
+      "translation_id": "10451230917"
+    },
+    {
+      "key": "component::teslemetry::issues::energy_site_not_paired::title",
+      "key_id": "987003131",
+      "en": "Pair Teslemetry with the Powerwall system for {site}",
+      "sv": "",
+      "translation_id": "10437523963"
+    }
+  ],
+  "alias_checks": [
+    {
+      "alias_key": "component::omnilogic::config::step::reauth_confirm::data::password",
+      "alias_key_id": "987216381",
+      "alias_translation_id": "10443220992",
+      "reference_key": "common::config_flow::data::password",
+      "reference_key_id": "39798295",
+      "en": "Password",
+      "sv_reference": "Lösenord",
+      "sv_alias_after": "Lösenord",
+      "matches": true,
+      "status": "live-checked"
+    },
+    {
+      "alias_key": "component::omnilogic::config::step::reauth_confirm::title",
+      "alias_key_id": "987216384",
+      "alias_translation_id": "10443221187",
+      "reference_key": "common::config_flow::title::reauth",
+      "reference_key_id": "60734128",
+      "en": "Authentication expired for {name}",
+      "sv_reference": "Autentiseringen har upphört att gälla för {name}",
+      "sv_alias_after": "Autentiseringen har upphört att gälla för {name}",
+      "matches": true,
+      "status": "live-checked",
+      "sv_alias_before_reference_sync": "Autentiseringen för {name} har upphört att gälla",
+      "correction": "Synkad till common::config_flow::title::reauth; ordföljden följer den delade HA-standardtexten."
+    },
+    {
+      "alias_key": "component::poolsense::config::step::reauth_confirm::data::password",
+      "alias_key_id": "987216572",
+      "alias_translation_id": "10443224193",
+      "reference_key": "common::config_flow::data::password",
+      "reference_key_id": "39798295",
+      "en": "Password",
+      "sv_reference": "Lösenord",
+      "sv_alias_after": "Lösenord",
+      "matches": true,
+      "status": "live-checked"
+    },
+    {
+      "alias_key": "component::poolsense::config::step::reauth_confirm::title",
+      "alias_key_id": "987216575",
+      "alias_translation_id": "10443224388",
+      "reference_key": "common::config_flow::title::reauth",
+      "reference_key_id": "60734128",
+      "en": "Authentication expired for {name}",
+      "sv_reference": "Autentiseringen har upphört att gälla för {name}",
+      "sv_alias_after": "Autentiseringen har upphört att gälla för {name}",
+      "matches": true,
+      "status": "live-checked",
+      "sv_alias_before_reference_sync": "Autentiseringen för {name} har upphört att gälla",
+      "correction": "Synkad till common::config_flow::title::reauth; ordföljden följer den delade HA-standardtexten."
+    },
+    {
+      "alias_key": "component::tellduslive::config::step::reauth_confirm::title",
+      "alias_key_id": "987209870",
+      "alias_translation_id": "10442660683",
+      "reference_key": "common::config_flow::title::reauth",
+      "reference_key_id": "60734128",
+      "en": "Authentication expired for {name}",
+      "sv_reference": "Autentiseringen har upphört att gälla för {name}",
+      "sv_alias_after": "Autentiseringen har upphört att gälla för {name}",
+      "matches": true,
+      "status": "live-checked",
+      "sv_alias_before_reference_sync": "Autentiseringen för {name} har upphört att gälla",
+      "correction": "Synkad till common::config_flow::title::reauth; ordföljden följer den delade HA-standardtexten."
+    },
+    {
+      "alias_key": "component::template::options::step::light::data::temperature_kelvin",
+      "alias_key_id": "987356748",
+      "alias_translation_id": "10451231372",
+      "reference_key": "component::template::config::step::light::data::temperature_kelvin",
+      "reference_key_id": "987356740",
+      "en": "Color temperature",
+      "sv_reference": "Färgtemperatur",
+      "sv_alias_after": "Färgtemperatur",
+      "matches": true,
+      "status": "live-checked"
+    },
+    {
+      "alias_key": "component::template::options::step::light::data_description::temperature_kelvin",
+      "alias_key_id": "987356749",
+      "alias_translation_id": "10451231437",
+      "reference_key": "component::template::config::step::light::data_description::temperature_kelvin",
+      "reference_key_id": "987356741",
+      "en": "Defines a template to get the color temperature of the light in kelvin.",
+      "sv_reference": "Anger en mall som hämtar lampans färgtemperatur i kelvin.",
+      "sv_alias_after": "Anger en mall som hämtar lampans färgtemperatur i kelvin.",
+      "matches": true,
+      "status": "live-checked"
+    },
+    {
+      "alias_key": "component::teslemetry::issues::energy_site_not_paired::fix_flow::step::confirm::title",
+      "alias_key_id": "987003130",
+      "alias_translation_id": "10437523898",
+      "reference_key": "component::teslemetry::issues::energy_site_not_paired::title",
+      "reference_key_id": "987003131",
+      "en": "Pair Teslemetry with the Powerwall system for {site}",
+      "sv_reference": "Parkoppla Teslemetry med Powerwall-systemet för {site}",
+      "sv_alias_after": "Parkoppla Teslemetry med Powerwall-systemet för {site}",
+      "matches": true,
+      "status": "reference-target-still-empty; next batch key 601",
+      "target_filled_in_batch": "601-641"
+    }
+  ],
+  "alias_corrections_saved_and_read_back": [
+    "component::omnilogic::config::step::reauth_confirm::title",
+    "component::poolsense::config::step::reauth_confirm::title",
+    "component::tellduslive::config::step::reauth_confirm::title"
+  ]
+}
