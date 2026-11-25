@@ -280,3 +280,11 @@
 - 8 unika referensmål kontrollerade; inga avvikelser. Supervisor-varningens kodformat, länkar och platshållare bevarade.
 - Hunspell-sv uppdaterad efter att korrekt böjning `API-tokenen` flaggats; 19 tester passerar. `svlang skrivregler` utan fel.
 - Home Assistant-TMX uppdaterad och validerad: 17 427 poster. Totalt 300 av 641 tomma mål granskade; 341 tomma mål och 203 Core-nycklar utan Lokalise-post återstår. Granskningen fortsätter.
+
+
+## 2026-11-25 – Tomma mål 301–360
+
+- Ytterligare 60 tomma mål granskade mot aktuell Core och Lokalise; alla mål sparade och återlästa.
+- 7 unika referensmål livekontrollerade, utan avvikelser; Microsofts aliasrubriker följer delade målnycklar.
+- Microsoft YAML-varningens kodformat, markdownstruktur och platshållare verifierade. `svlang skrivregler` utan fel; Hunspell-flaggor manuellt bedömda.
+- TMX uppdaterad och validerad: 17 487 poster. Totalt 360 av 641 tomma mål granskade; 281 tomma mål och 203 Core-nycklar utan Lokalise-post återstår. Granskningen fortsätter.
