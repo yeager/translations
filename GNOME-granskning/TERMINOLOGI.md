@@ -112,7 +112,7 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | channel | kanal | Bildkanal eller alfakanal enligt sammanhang. |
 | brush | pensel | Verktyg eller penselform. |
 | paintbrush tool | målarpensel | GIMP-verktyget; skilj från penselresursen. |
-| gradient | toning | GIMP:s färgövergång; använd *toningsverktyg* för verktygsnamnet. |
+| gradient (färgövergång i löptext) | toning | Använd *toning* om en färgövergång avses; GIMP:s aktuella svenska UI behåller etiketterna *Gradient* (verktyg/resurs) och *Gradienter* (dialog). |
 | gradient map | toningskarta | Filter/funktion som mappar toningar till färger. |
 | bucket (histogram) | intervall | Värdeintervall som samlar färg- eller bildpunktsvärden; översätt inte med *hink* eller *färgbucket*. |
 | bucket size | intervallstorlek | Storleken på varje värdeintervall i histogram-/färgkubsanalys. |
