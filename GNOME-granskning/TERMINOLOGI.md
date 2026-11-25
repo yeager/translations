@@ -213,3 +213,15 @@ argumentet betyder i just det programmet.
 | page tab list | lista över sidflikar | |
 | document spreadsheet | kalkylarksdokument | Använd parallellt *presentationsdokument*, *textdokument*, *webbdokument* och *e-postdokument*. |
 | rating (AT-SPI role) | betyg | |
+
+## GNOME Klotski (hjälpdokumentation)
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| move (in the puzzle) | drag | Ett drag i spelet, inte ett steg. |
+| move a block | flytta ett block | I instruktioner: *dra blocket* när musgesten beskrivs. |
+| header bar | rubrikrad | GNOME-gränssnittets header bar. |
+| titlebar | titellist | Fönstrets namnlist i dokumentation och bildtext. |
+| patterned block | mönstrat block | Spelets särskilda block. |
+| markers | markeringar | De gröna markeringarna som visar målytan. |
+| puzzle | pussel | En spelbrädesvariant. |
