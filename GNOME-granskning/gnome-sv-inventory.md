@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-25 18:10 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-25 18:15 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -242,7 +242,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [enter-tex](https://l10n.gnome.org/vertimus/enter-tex/main/help/sv/) | main | 84 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [eog — Eye of GNOME](https://l10n.gnome.org/vertimus/eog/master/po/sv/) | master | 317 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [eog — Eye of GNOME](https://l10n.gnome.org/vertimus/eog/master/help/sv/) | master | 325 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [eog-plugins](https://l10n.gnome.org/vertimus/eog-plugins/master/po/sv/) | master | 100 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [eog-plugins](https://l10n.gnome.org/vertimus/eog-plugins/master/po/sv/) | master | 100 | 0 | 0 | Klar | X | 30 | Klar lokalt (2026-11-25): Radgranskad mot senaste POT: 100/100 översatt, 0 fuzzy, 0 oöversatt; 30 befintliga poster rättade. msgfmt, msgcmp, l10n-lint och placeholder-/markup-/acceleratorjämförelser godkända; Hunspell-undantag dokumenterade. Inte inskickad till GNOME. [original](eog-plugins/master/po/eog-plugins.master.po.sv.original.po), [granskad](eog-plugins/master/po/eog-plugins.master.po.sv.reviewed.po), [diff](eog-plugins/master/po/eog-plugins.master.po.sv.review.diff), [notering](eog-plugins/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [epiphany](https://l10n.gnome.org/vertimus/epiphany/gnome-50/po/sv/) | gnome-50 | 1020 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [epiphany](https://l10n.gnome.org/vertimus/epiphany/main/help/sv/) | main | 177 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [epiphany](https://l10n.gnome.org/vertimus/epiphany/gnome-50/help/sv/) | gnome-50 | 177 | 0 | 0 | Klar |  | — | Ej granskad |
