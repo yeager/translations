@@ -323,3 +323,10 @@
 - NE-kontrollerade språkbenämningar; `svlang` utan radfel. Hunspell-ordlista kompletterad med sex saknade etablerade språkord och 19 tester godkända.
 - Home Assistant-TMX uppdaterad och validerad till 17 607 poster.
 - Totalt 480/641 tomma mål granskade; 161 tomma mål och 203 Core-nycklar som saknas i Lokalise återstår. Granskningen fortsätter.
+
+## 2026-11-25 – Core tomma mål 481–540
+
+- 60/60 strängar för Azure Speech, Azure-regioner, Modbus och myUplink granskade, sparade och återlästa i Lokalise. Tre platshållare bevarade; inga referenser i batchen.
+- Regionnamn behållna som officiella Azure-produktnamn. HA-TMX uppdaterad och validerad: 17 667 poster.
+- Hunspell uppdaterad med etablerade språk-/ortnamn och `Modbus`; dess 19 tester passerar.
+- Totalt 540/641 tomma mål granskade; 101 tomma mål och 203 aktuella Core-nycklar utan Lokalise-post återstår. Granskningen fortsätter.
