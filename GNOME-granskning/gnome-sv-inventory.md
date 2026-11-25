@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-25 19:15 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-25 19:23 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -593,7 +593,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [swell-foop](https://l10n.gnome.org/vertimus/swell-foop/gnome-50/help/sv/) | gnome-50 | 72 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [swell-foop](https://l10n.gnome.org/vertimus/swell-foop/main/help/sv/) | main | 72 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [symbolic-preview](https://l10n.gnome.org/vertimus/symbolic-preview/master/po/sv/) | master | 63 | 0 | 0 | Klar | X | 6 | Klar lokalt (2026-11-23): Aktuell 63-strängarskatalog är radgranskad mot senaste POT. Sex befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](symbolic-preview/master/po/symbolic-preview.master.sv.original.po), [granskad](symbolic-preview/master/po/symbolic-preview.master.sv.reviewed.po), [diff](symbolic-preview/master/po/symbolic-preview.master.sv.review.diff), [notering](symbolic-preview/master/po/README.md) |
-| Dokumentation | Default (71% translated) | [sysprof](https://l10n.gnome.org/vertimus/sysprof/master/help/sv/) | master | 49 | 0 | 0 | Klar |  | — | Ej granskad |
+| Dokumentation | Default (71% translated) | [sysprof](https://l10n.gnome.org/vertimus/sysprof/master/help/sv/) | master | 49 | 0 | 0 | Klar | X | 31 | Klar lokalt (2026-11-25): Hela 49-strängarskatalogen är radgranskad mot senaste POT. 31 befintliga översättningar är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel och varningar. Ingen GNOME-inskickning har gjorts. [original](sysprof/master/help/sysprof.master.help.sv.original.po), [granskad](sysprof/master/help/sysprof.master.help.sv.reviewed.po), [diff](sysprof/master/help/sysprof.master.help.sv.diff), [notering](sysprof/master/help/README.md) |
 | Gränssnitt | Default (99% translated) | [systemd](https://l10n.gnome.org/vertimus/systemd/main/po/sv/) | main | 240 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [tali](https://l10n.gnome.org/vertimus/tali/master/po/sv/) | master | 100 | 0 | 0 | Klar | X | 6 | Klar lokalt (2026-11-24): Hela 100-strängarskatalogen är radgranskad mot senaste POT. Sju befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt och msgcmp är godkända. l10n-lint har en korrekt svensk pluralvarning för poäng och informationsnotiser för etablerade yatzykategorier. Hunspell-svenska saknas lokalt. Ingen GNOME-inskickning har gjorts. [original](tali/master/po/tali.master.sv.original.po), [granskad](tali/master/po/tali.master.sv.reviewed.po), [diff](tali/master/po/tali.master.sv.review.diff), [notering](tali/master/po/README.md) |
 | Dokumentation | Default (71% translated) | [tali](https://l10n.gnome.org/vertimus/tali/master/help/sv/) | master | 86 | 0 | 0 | Klar |  | — | Ej granskad |

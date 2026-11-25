@@ -108,6 +108,19 @@ listan är stöd, inte en ursäkt för mekanisk ersättning.
 | age rating / age suitability | åldersklassificering / åldersinställning | Välj efter om texten beskriver en klassificering eller användarens inställning. |
 | under supervision | under tillsyn | Skriv inte *under översikt*. |
 
+## Profilering (Sysprof)
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| profiling | profilering | |
+| profiler | profilerare | |
+| sampling profiler | stickprovsprofilerare | Sysprof samlar in stickprov av anropsstackar. |
+| tracing profiler | spårningsprofilerare | Registrerar varje funktionsanrop. |
+| stacktrace | stackspår | Följer GNOME-TM. |
+| call graph | anropsgraf | |
+| heap | heap | Behåll det tekniska minnesbegreppet och stacketiketten `[heap]`. |
+| Context Switch | Context Switch | Bevara det exakta pseudo-ramnamnet som visas i resultat. |
+
 ## Kommandoradsmetavariabler
 
 Översätt beskrivande metavariabler i användningsrader och hjälptexter. Behåll
