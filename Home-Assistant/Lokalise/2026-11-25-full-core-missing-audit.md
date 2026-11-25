@@ -858,3 +858,11 @@ Positionerna 26731–26850 har jämförts med Core-revision `86a2eabe7e43f526db5
 ## Fortsatt radgranskning 2026-11-25 – position 27211–27330
 
 95 aktuella strängar radgranskades mot revision `86a2eabe7e43f526db5821ef068087ce8404ae07`; 17 översättningar korrigerades och återlästes från Lokalise, 78 befintliga mål verifierades. 29 referensalias kontrollerades mot målen live och alla matchar. 25 äldre Lokalise-sökvägar saknar motsvarande källnyckel i den aktuella revisionen; de dokumenterades för separat crosswalk och ingår inte i TM. HA-TMX uppdaterad och validerad till 18 329 poster. Se rapporten `../2026-11-19-granskning/granskning-27211-27330.md` samt `2026-11-25-reviewed-core-27211-27330.json` och `2026-11-25-reviewed-core-27211-27330-tm.json`.
+
+## Fortsatt radgranskning 2026-11-25 – position 27331–27450
+
+117 nycklar matchade aktuell Core-källa `86a2eabe7e43f526db5821ef068087ce8404ae07`; 18 översättningar korrigerades och återlästes, 99 befintliga mål verifierades. Tre äldre SwitchBot-nycklar dokumenterades separat och hölls utanför TM. Tjugo referensalias lästes efter alla måländringar och matchar live. Tidigare förslag på nio överlappande nycklar återanvändes efter ny käll- och Lokalise-kontroll. Hunspell-sv fick den belagda svenska IT-termen `standardindata` med regressionstest; dess 19 tester passerar. HA-TMX uppdaterad och validerad till 18 442 poster. Rapport: `../2026-11-19-granskning/granskning-27331-27450.md`.
+
+## Verktygsuppdatering under Core-granskning
+
+Hunspell-sv saknade det etablerade ordet `standardindata`, trots att svensk Microsoft Learn-dokumentation använder termen. Ordet lades till i båda ordböckerna och i stavningsregressionen. Hunspell-sv:s 19 tester passerar; commit `79fc566` pushades utan paketrelease.

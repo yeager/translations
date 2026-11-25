@@ -385,3 +385,16 @@
 - 29 referensalias jämförda med live-mål, samtliga matchar. Platshållare och kodmarkörer bevarade.
 - Korrigerade Portainer-beskrivningens semantik för skapandetid och oetiketterade avbildningar, samt JVC-projektorns status- och effektetiketter.
 - Core-TMX uppdaterad och validerad: 18 329 poster. Full Core-granskning fortsätter; inte klar.
+
+## 2026-11-25 – Core 27331–27450
+
+- 117 aktuella nycklar radgranskade; 18 mål korrigerade och API-återlästa, 99 befintliga mål verifierade. Tre äldre SwitchBot-nycklar dokumenterade för crosswalk.
+- 20 referensalias live-kontrollerade efter måländringar; samtliga matchar. Nio förslag från tidigare rapporter verifierades mot aktuell källa och Lokalise.
+- Korrigerade bland annat OpenEVSE:s ström-etikett, Compits blandningsventilslägen och Home Assistant-appens standardindata.
+- Hunspell-sv kompletterades med belagd svensk term `standardindata`; 19 tester passerar.
+- HA-TMX validerad: 18 442 poster. Core-granskningen fortsätter; inte klar.
+
+## Verktygsuppdatering 2026-11-25 – Hunspell-sv
+
+- Lade till svensk fackterm `standardindata` i båda Hunspell-ordlistorna och regressionstestet. Microsoft Learn använder samma term i svensk .NET-dokumentation.
+- Hunspell-sv:s testsvit passerar: 19/19. Uppdateringen pushad i commit `79fc566` (ingen ny release behövdes).
