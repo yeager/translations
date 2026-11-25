@@ -130,3 +130,11 @@
 - Chess.com Daily Chess-termen kontrollerad mot produktens dokumentation. En äldre Lokalise-källväg för partienheten är markerad för mappningsuppföljning; aktuell referensmåltext `partier` verifierades.
 - Core-TMX validerad: 16 571 poster; exporten har 42 640 språkpar och 32 exkluderade nycklar.
 - Granskningen fortsätter.
+
+## 2026-11-25 – Core 24811–24930
+
+- 16 poster radgranskade mot aktuella Lokalise-källor och HA Core `strings.json`; 16 korrigeringar sparade och återlästa via API.
+- Samtliga nyckelsökvägar och engelska källvärden verifierade. `{entity_id}` bevarad i vakuumfelet.
+- PV-termen `String` granskad i hårdvarukontext och översatt med `sträng`; områdesmappning och schematriggers omformulerade.
+- `svlang check` hittade inga skrivregelfel; frekvensvarningen gäller endast `{entity_id}`-platshållaren. `hunspell-sv` hittade inga stavningsfel. Naturlighetsheuristiken gav en falsk positiv V2-varning för etiketten “Starttid för stör ej-läge”; den är manuellt kontrollerad som nominalfras.
+- De två äldre InfluxDB-referensmålen kontrollerades mot aktuell källkod och Lokalise och matchar. Home Assistant Core-TMX uppdaterad och validerad: 16 583 poster. Granskningen fortsätter; Core är inte färdiggranskad.
