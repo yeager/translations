@@ -1,0 +1,974 @@
+--- gimp-help.master.filters-enhance.sv.original.po
++++ gimp-help.master.filters-enhance.sv.reviewed.po
+@@ -8,8 +8,8 @@
+ msgstr ""
+ "Project-Id-Version: enhance\n"
+ "POT-Creation-Date: 2026-11-24 22:31+0000\n"
+-"PO-Revision-Date: 2026-08-27 15:41+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-26 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -151,13 +151,13 @@
+ "layers have been removed; it represents the global contrast and colors of "
+ "the image."
+ msgstr ""
+-"Detta filter separerar det aktiva lagret eller markeringen i flera lager, "
+-"kallade <quote>skalor</quote>, där var och en av dem innehåller en viss "
+-"uppsättning detaljer. De finaste detaljerna finns i det första lagret, sedan "
+-"har varje lager under det mindre detaljer till du kommer till det sista i "
+-"botten. Det sista lagret kallas <quote>Resterande</quote> och innehåller vad "
+-"som är kvar efter att alla detaljlager har tagits bort. Det representerar "
+-"den globala kontrasten och färgerna för bilden."
++"Filtret delar upp det aktiva lagret eller markeringen i flera lager, så"
++" kallade <quote>skalor</quote>. Varje lager innehåller en viss typ av"
++" detaljer. De finaste detaljerna finns i det första lagret. Ju längre ned i"
++" gruppen lagren ligger, desto färre detaljer innehåller de. Det nedersta"
++" lagret kallas <quote>Resterande</quote> och innehåller det som återstår när"
++" alla detaljlager har tagits bort. Det återger bildens övergripande kontrast"
++" och färger."
+ 
+ #: src/filters/enhance/wavelet-decompose.xml:67(para)
+ msgid ""
+@@ -166,10 +166,10 @@
+ "result. So, painting a wavelet scale with neutral gray (R:50% G:50% B:50%) "
+ "will erase details."
+ msgstr ""
+-"Vart och ett av skallagren är inställda att kombineras med lagerläget "
+-"Grynsammanfogning. Detta betyder att bildpunkter som har ett värde på 50% "
+-"inte kommer påverka det slutgiltiga resultatet. Så att rita en wavelet-skala "
+-"med neutral grå (R:50% G:50% B:50%) kommer radera detaljer."
++"Skalningslagren kombineras med lagerläget Grynsammanfogning. Bildpunkter med"
++" värdet 50 % påverkar därför inte slutresultatet. Om du målar på en"
++" wavelet-skala med neutralt grått (R:50 % G:50 % B:50 %) försvinner"
++" detaljerna."
+ 
+ #: src/filters/enhance/wavelet-decompose.xml:73(para)
+ msgid ""
+@@ -179,11 +179,11 @@
+ "reconstruction of the image when using integer precision. When using "
+ "floating point precision, the regular grain merge mode is used."
+ msgstr ""
+-"Observera att för bilder med heltals<link linkend=\"gimp-image-"
+-"precision\">precision</link> används det <link linkend=\"gimp-concepts-layer-"
+-"modes-legacy\">äldre</link> grynsammanfogningsläget. Detta undviker "
+-"imperfekt rekonstruktion av bilden då heltalsprecision används. När "
+-"flyttalsprecision används så används det vanliga grynsammanfogningsläget."
++"För bilder med heltal<link linkend=\"gimp-image-precision\">precision</link>"
++" används det <link linkend=\"gimp-concepts-layer-modes-legacy\">äldre</link>"
++" grynsammanfogningsläget. Det undviker att bilden återskapas ofullständigt"
++" vid heltalsprecision. Bilder med flyttalsprecision använder det vanliga"
++" grynsammanfogningsläget."
+ 
+ #: src/filters/enhance/wavelet-decompose.xml:81(para)
+ msgid ""
+@@ -193,11 +193,11 @@
+ "colors, or tones. All this is well explained in the tutorials mentioned "
+ "above."
+ msgstr ""
+-"Wavelet-separera är ett underbart filter för att släta ut och retuschera "
+-"hud, eller ta bort skönhetsfel, rynkor eller prickar från dina foton. Det "
+-"kan också användas för att öka skärpa och lokal kontrastförbättring och för "
+-"att ta bort fläckar, färger eller toner. Allt detta förklaras väl i "
+-"handledningarna som nämns ovan."
++"Wavelet-separera är användbart för att jämna ut och retuschera hud, till"
++" exempel genom att ta bort blemmor, rynkor och fläckar. Filtret kan också"
++" användas för att öka skärpan och den lokala kontrasten samt för att ta bort"
++" missfärgningar och tonavvikelser. Handledningarna ovan beskriver"
++" användningen närmare."
+ 
+ #: src/filters/enhance/wavelet-decompose.xml:89(para)
+ #: src/filters/enhance/despeckle.xml:28(para)
+@@ -251,7 +251,8 @@
+ msgid ""
+ "Default scales number is 5. You can increase it to increase scale fineness."
+ msgstr ""
+-"Standardskalnummer är 5. Du kan öka det för att öka skalans finkornighet."
++"Som standard skapas fem skalor. Du kan öka antalet för att få finare"
++" detaljnivåer."
+ 
+ #: src/filters/enhance/wavelet-decompose.xml:130(term)
+ msgid "Create a layer group to store the decomposition"
+@@ -347,20 +348,19 @@
+ "borders will be rendered a little blurred. The same phenomenon appears when "
+ "printing color dots on paper."
+ msgstr ""
+-"Ofokuserade fotografier och de flesta digitaliserade bilder behöver ofta få "
+-"sin skärpa korrigerad. Detta beror på digitaliseringsprocessen som behöver "
+-"dela ett färgkontinuum i punkter som har något olika färger. Element som är "
+-"mindre än samplingsfrekvensen kommer det beräknas ett medelvärde på och "
+-"sättas till en enhetlig färg. Så skarpa kanter kommer renderas lite oskarpt. "
+-"Samma fenomen uppstår när färgpunkter skrivs ut på papper."
++"Ofokuserade fotografier och de flesta digitaliserade bilder behöver ofta"
++" skärpas. Vid digitalisering delas ett sammanhängande färgspektrum upp i"
++" bildpunkter med något olika färger. Detaljer som är mindre än"
++" samplingsfrekvensen jämnas ut till en enhetlig färg. Därför återges skarpa"
++" kanter något oskarpt. Samma sak händer när färgpunkter trycks på papper."
+ 
+ #: src/filters/enhance/unsharp_mask.xml:51(para)
+ msgid ""
+ "The Sharpen filter (previously called Unsharp Mask) sharpens edges of the "
+ "elements without increasing noise or blemish."
+ msgstr ""
+-"Filtret Gör skarpare (tidigare kallat Oskarp mask) gör elementens kanter "
+-"skarpare utan att öka brus eller fläckar."
++"Filtret Gör skarpare (tidigare Oskarp mask) skärper kanter utan att"
++" förstärka bruset eller skapa fläckar."
+ 
+ #: src/filters/enhance/unsharp_mask.xml:56(para)
+ msgid ""
+@@ -369,11 +369,10 @@
+ "sharpening and use <acronym>GIMP</acronym> filters instead. This way you "
+ "regain the full control over the sharpening of your images."
+ msgstr ""
+-"Vissa bildenheter som digitalkameror eller bildläsare erbjuder att göra de "
+-"skapade bilderna skarpare åt dig. Vi rekommenderar starkt att du inaktiverar "
+-"detta sätt att göra skarpare och använder <acronym>GIMP</acronym>-filter i "
+-"stället. På det sättet behåller du den fulla kontrollen över hur dina bilder "
+-"görs skarpare."
++"Vissa enheter, till exempel digitalkameror och skannrar, kan automatiskt"
++" skärpa bilderna åt dig. Vi rekommenderar att du stänger av den funktionen"
++" och använder <acronym>GIMP</acronym>-filter i stället. Då har du full"
++" kontroll över bildens skärpa."
+ 
+ #: src/filters/enhance/unsharp_mask.xml:63(para)
+ msgid ""
+@@ -393,21 +392,20 @@
+ "your original image except that it will have been sharpened in the Value "
+ "component."
+ msgstr ""
+-"För att förhindra färgförvrängning då du ökar skärpan kan du <link "
+-"linkend=\"plug-in-decompose\">Separera</link> din bild till <guilabel>NMI</"
+-"guilabel> och endast arbeta på <guilabel>Intensitet</guilabel>. Gå till "
+-"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Komponenter</"
+-"guisubmenu><guimenuitem>Separera…</guimenuitem></menuchoice>. Säkerställ att "
+-"rutan <guilabel>Separera till lager</guilabel> är ikryssad. Välj NMI och "
+-"klicka OK. Du kommer få en ny grånivåbild med tre lager, ett för Nyans, ett "
+-"för Mättnad, och ett för Intensitet. (Stäng den ursprungliga bilden så du "
+-"inte blir förvirrad). Välj lagret Intensitet och tillämpa din skärpa på det. "
+-"När du är klar, vänd processen med samma lager markerat genom att använda "
+-"<link linkend=\"plug-in-compose\">Komponera</link>. Gå till "
+-"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Komponenter</"
+-"guisubmenu><guimenuitem>Komponera…</guimenuitem></menuchoice>. Välj igen NMI "
+-"och klicka OK. Du kommer få tillbaka din ursprungliga bild förutom att den "
+-"kommer ha gjorts skarpare i komponenten Intensitet."
++"Om du vill undvika färgförvrängning när du skärper bilden kan du <link"
++" linkend=\"plug-in-decompose\">separera</link> den till"
++" <guilabel>NMI</guilabel> och bara arbeta med"
++" <guilabel>Intensitet</guilabel>. Öppna"
++" <menuchoice><guimenu>Färger</guimenu><guisubmenu>Komponenter</guisubmenu><guimenuitem>Separera…</guimenuitem></menuchoice>."
++" Markera <guilabel>Separera till lager</guilabel>, välj NMI och klicka på"
++" OK. Då skapas en gråskalebild med tre lager: ett för nyans, ett för mättnad"
++" och ett för intensitet. Stäng originalbilden så att du inte blandar ihop"
++" bilderna. Markera intensitetslagret och skärp det. När du är klar markerar"
++" du samma lager och återställer bilden med <link"
++" linkend=\"plug-in-compose\">komponera</link>. Öppna"
++" <menuchoice><guimenu>Färger</guimenu><guisubmenu>Komponenter</guisubmenu><guimenuitem>Komponera…</guimenuitem></menuchoice>,"
++" välj NMI och klicka på OK. Då får du tillbaka originalbilden, nu med ökad"
++" skärpa i intensitetskomponenten."
+ 
+ #: src/filters/enhance/unsharp_mask.xml:93(para)
+ msgid ""
+@@ -501,10 +499,9 @@
+ "either side of an edge will be affected by sharpening. It is better to "
+ "always sharpen an image at its final resolution."
+ msgstr ""
+-"Skjutreglaget och inmatningsrutan (0,0-1500,0) låter dig ställa in hur många "
+-"bildpunkter på varje sida om en kant som kommer vara påverkade av "
+-"skärpeökningen. Det är bättre att alltid göra en bild skarpare i dess "
+-"slutgiltiga upplösning."
++"Med skjutreglaget och inmatningsfälten (0,0–1500,0) ställer du in hur många"
++" bildpunkter på vardera sidan om en kant som ska påverkas av skärpningen."
++" Skärp helst bilden i dess slutliga upplösning."
+ 
+ #: src/filters/enhance/unsharp_mask.xml:138(term)
+ msgid "Amount"
+@@ -515,8 +512,8 @@
+ "This slider and input boxes (0.0-300.0) allow you to set the strength of "
+ "sharpening."
+ msgstr ""
+-"Skjutreglaget och inmatningsrutan (0,0-300,0) låter dig ställa in styrkan på "
+-"skärpeökningen."
++"Med skjutreglaget och inmatningsfälten (0,0–300,0) ställer du in"
++" skärpningens styrka."
+ 
+ #: src/filters/enhance/unsharp_mask.xml:147(term)
+ #: src/filters/enhance/red-eye-removal.xml:94(term)
+@@ -530,11 +527,10 @@
+ "applied. So you can protect areas of smooth tonal transition from "
+ "sharpening, and avoid creation of blemishes in face, sky or water surface."
+ msgstr ""
+-"Skjutreglaget och inmatningsrutan (0,0-1,0) låter dig ställa in minsta "
+-"skillnaden i bildpunktsvärden som indikerar en kant där gör skarpare måste "
+-"tillämpas. Så du kan skydda områden med mjuk tonad övergång från att göras "
+-"skarpare, och undvika skapande av skönhetsfläckar i ansikten, himlen eller "
+-"vattenytor."
++"Med skjutreglaget och inmatningsfälten (0,0–1,0) anger du den minsta"
++" skillnaden mellan bildpunktsvärden som räknas som en kant och därmed ska"
++" skärpas. Då kan du skydda jämna tonövergångar från skärpning och undvika"
++" fläckar i ansikten, på himlen eller på vattenytor."
+ 
+ #: src/filters/enhance/unsharp_mask.xml:162(title)
+ msgid "How does an unsharp mask work?"
+@@ -555,10 +551,10 @@
+ "intensity: like a stair if contrast is perfectly sharp (blue), like an S if "
+ "there is some blur (yellow)."
+ msgstr ""
+-"Tänk på en bild med en kontrast någonstans. Intensitetskurvan för "
+-"bildpunkterna på en linje som går genom denna kontrast kommer visa en abrupt "
+-"ökning i intensitet: som en trappa om kontrasten är perfekt skarp (blå), som "
+-"ett S om det finns oskärpa (gul)."
++"Tänk dig en bild med en kontrastkant. Intensitetskurvan för bildpunkterna"
++" längs en linje genom kanten visar en plötslig intensitetsökning: den liknar"
++" en trappa om kanten är helt skarp (blå) och ett S om kanten är oskarp"
++" (gul)."
+ 
+ #: src/filters/enhance/unsharp_mask.xml:178(para)
+ msgid ""
+@@ -566,9 +562,8 @@
+ "sharpen. We apply some more blur: the intensity variation will be more "
+ "gradual (green curve)."
+ msgstr ""
+-"Vi har nu en ursprunglig bild med viss oskärpa (svart kurva) som vi vill "
+-"göra skarpare. Vi tillämpar lite mer oskärpa: intensitetsvariationen kommer "
+-"vara mer gradvis (grön kurva)."
++"Utgå från en originalbild med viss oskärpa (svart kurva) som du vill skärpa."
++" Lägg till mer oskärpa: intensiteten förändras då jämnare (grön kurva)."
+ 
+ #: src/filters/enhance/unsharp_mask.xml:183(para)
+ msgid ""
+@@ -577,10 +572,10 @@
+ "the original image (black curve). We get the red curve, which is more "
+ "abrupt: contrast and sharpness are increased. QED."
+ msgstr ""
+-"Låt oss subtrahera skillnaden mellan oskärpeintensitet (grön kurva) och "
+-"intensiteten hos den ursprungliga bilden (svart kurva) från intensiteten för "
+-"den ursprungliga bilden (svart kurva). Vi får den röda kurvan som är mer "
+-"abrupt: kontrast och skärpa har ökat. Vilket skulle bevisas."
++"Subtrahera skillnaden mellan den oskarpa bildens intensitet (grön kurva) och"
++" originalbildens intensitet (svart kurva) från originalbildens intensitet."
++" Då får vi den röda kurvan med den brantare övergången: kontrasten och"
++" skärpan ökar. Detta är vad vi ville visa."
+ 
+ #: src/filters/enhance/unsharp_mask.xml:195(para)
+ msgid ""
+@@ -593,19 +588,19 @@
+ "through and so will be subtracted from the light going through the original "
+ "film."
+ msgstr ""
+-"Oskarp mask användes först i silverfotografi. Fotografen skapar först en "
+-"kopia av det ursprungliga negativet genom kontakt, på en film, placerande en "
+-"tunn glasplatta mellan båda; det kommer skapa en suddig kopia på grund av "
+-"ljusdiffusion. Båda filmerna placeras sedan i en fotoförstorare för att "
+-"reproducera dem på papper. De mörka områdena av den positiva suddiga filmen, "
+-"motsatta de klara områdena på det ursprungliga negativet kommer förhindra "
+-"ljus från att gå igenom och kommer därmed subtraheras från ljuset som går "
+-"igenom den ursprungliga filmen."
++"Oskarp mask användes först inom analog fotografering. Fotografen gjorde en"
++" kontaktkopia av originalnegativet på film, med en tunn glasskiva mellan"
++" negativet och filmen. Ljusspridningen gav en oskarp kopia. Därefter"
++" placerades filmerna i en förstoringsapparat och kopierades till papper. De"
++" mörka partierna i den oskarpa positiva kopian, som låg framför negativets"
++" ljusa partier, hindrade ljuset från att nå papperet. På så sätt drogs det"
++" ljuset bort från det ljus som passerade genom originalfilmen."
+ 
+ #: src/filters/enhance/unsharp_mask.xml:207(para)
+ msgid ""
+ "In digital photography, with GIMP, you will go through the following steps:"
+-msgstr "I digitalfotografi går du med GIMP genom följande steg:"
++msgstr ""
++"I digitalfotografering med GIMP gör du så här:"
+ 
+ #: src/filters/enhance/unsharp_mask.xml:212(para)
+ msgid ""
+@@ -635,9 +630,9 @@
+ "<quote>Subtract</quote>, and in the right-click menu, select <quote>Merge "
+ "down</quote>."
+ msgstr ""
+-"Ändra i lagerdialogen för den duplicerade bilden Läge till "
+-"<quote>Subtraktion</quote>, och välj i högerklicksmenyn <quote>Sammanfoga "
+-"nedåt</quote>."
++"Ändra läget till <quote>Subtraktion</quote> i lagerdialogen för den"
++" duplicerade bilden. Välj sedan <quote>Sammanfoga nedåt</quote> i"
++" snabbmenyn."
+ 
+ #: src/filters/enhance/unsharp_mask.xml:242(para)
+ msgid ""
+@@ -666,11 +661,10 @@
+ "complementary color stripe will appear along the contrast, or a black halo "
+ "around a star on the light background of a nebula (black eye effect)."
+ msgstr ""
+-"I början på kurvan kan du se en dipp. Om oskärpa är viktig så är denna dipp "
+-"väldigt djup; resultatet av subtraktionen kan vara negativ, och en "
+-"komplementfärgremsa kommer visas tillsammans med kontrasten, eller en svart "
+-"halo runt en stjärna på den ljusa bakgrunden hos en nebulosa "
+-"(svartögoneffekt)."
++"I början av kurvan finns en svacka. Ju större oskärpa, desto djupare blir"
++" svackan. Subtraktionen kan då ge ett negativt resultat, så att en remsa i"
++" komplementfärgen syns längs kanten eller en svart gloria bildas runt en"
++" stjärna mot nebulosans ljusa bakgrund (svartögoneffekten)."
+ 
+ #: src/filters/enhance/unsharp_mask.xml:266(title)
+ msgid "Black eye effect"
+@@ -720,11 +714,13 @@
+ #: src/filters/enhance/symmetric-nearest-neighbor.xml:15(tertiary)
+ #: src/filters/enhance/symmetric-nearest-neighbor.xml:18(primary)
+ msgid "Symmetric Nearest Neighbor"
+-msgstr "Symmetriskt närmaste grannar"
++msgstr ""
++"Symmetrisk närmaste granne"
+ 
+ #: src/filters/enhance/symmetric-nearest-neighbor.xml:24(title)
+ msgid "Example for the <quote>Symmetric Nearest Neighbor</quote> filter"
+-msgstr "Exempel för filtret <quote>Symmetriskt närmaste grannar</quote>"
++msgstr ""
++"Exempel på filtret <quote>Symmetrisk närmaste granne</quote>"
+ 
+ #: src/filters/enhance/symmetric-nearest-neighbor.xml:32(para)
+ msgid "Left: original image. Right: filter applied."
+@@ -735,12 +731,13 @@
+ "This filter blurs the image preserving edges. It is very effective in noise "
+ "reduction maintaining sharp edges."
+ msgstr ""
+-"Detta filter gör bilden oskarp medan kanter bevaras. Det är väldigt "
+-"effektivt för brusreducering som bevarar skarpa kanter."
++"Filtret gör bilden oskarp men bevarar kanterna. Det reducerar brus effektivt"
++" utan att göra kanterna oskarpa."
+ 
+ #: src/filters/enhance/symmetric-nearest-neighbor.xml:50(para)
+ msgid "4 symmetric pairs"
+-msgstr "4 symmetriska par"
++msgstr ""
++"Fyra par av symmetriska bildpunkter"
+ 
+ #: src/filters/enhance/symmetric-nearest-neighbor.xml:40(para)
+ msgid ""
+@@ -748,9 +745,9 @@
+ "<emphasis>pairs</emphasis> of symmetric pixels around the center. "
+ "<placeholder-1/>"
+ msgstr ""
+-"Det fungerar genom att jämföra varje bildpunkt med dess omkringliggande "
+-"bildpunkter och med 1 eller 2 <emphasis>par</emphasis> av symmetriska "
+-"bildpunkter runt centrum. <placeholder-1/>"
++"Filtret jämför varje bildpunkt med de närmaste grannarna och med ett eller"
++" två <emphasis>par</emphasis> bildpunkter som ligger symmetriskt på varsin"
++" sida om mittpunkten. <placeholder-1/>"
+ 
+ #: src/filters/enhance/symmetric-nearest-neighbor.xml:60(para)
+ msgid ""
+@@ -764,15 +761,17 @@
+ 
+ #: src/filters/enhance/symmetric-nearest-neighbor.xml:73(title)
+ msgid "<quote>Symmetric Nearest neighbor</quote> filter options"
+-msgstr "Alternativ för filtret <quote>Symmetriskt närmaste grannar</quote>"
++msgstr ""
++"Alternativ för filtret <quote>Symmetrisk närmaste granne</quote>"
+ 
+ #: src/filters/enhance/symmetric-nearest-neighbor.xml:100(para)
+ msgid ""
+ "Radius, in pixels, of square pixel region. Width and height of this region "
+ "are <emphasis>radius*2+1</emphasis>: <placeholder-1/>"
+ msgstr ""
+-"Radie i bildpunkter för den kvadratiska bildpunktsregionen. Bredden och "
+-"höjden på denna region är <emphasis>radie*2+1</emphasis>: <placeholder-1/>"
++"Radien för den kvadratiska bildpunktsregionen, angiven i bildpunkter."
++" Regionens bredd och höjd är <emphasis>radie*2+1</emphasis>:"
++" <placeholder-1/>"
+ 
+ #: src/filters/enhance/symmetric-nearest-neighbor.xml:115(term)
+ msgid "Pairs"
+@@ -781,7 +780,8 @@
+ #: src/filters/enhance/symmetric-nearest-neighbor.xml:117(para)
+ msgid ""
+ "You can select 1 or 2 pairs: higher number preserves more acute features."
+-msgstr "Du kan välja 1 eller 2 par: ett högre tal bevarar mer skarpa drag."
++msgstr ""
++"Du kan välja ett eller två par: med fler par bevaras fler skarpa detaljer."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -810,8 +810,8 @@
+ "@@image: 'images/filters/enhance/red-eye-removal-dialog.png'; "
+ "md5=40f1a97f29d08bc0a1c0dd68463a3f42"
+ msgstr ""
+-"@@image: 'images/filters/options-enhance-red-eye-removal.png'; md5=THIS FILE "
+-"DOESN'T EXIST"
++"@@image: 'images/filters/enhance/red-eye-removal-dialog.png';"
++" md5=40f1a97f29d08bc0a1c0dd68463a3f42"
+ 
+ #: src/filters/enhance/red-eye-removal.xml:9(title)
+ #: src/filters/enhance/red-eye-removal.xml:14(tertiary)
+@@ -857,9 +857,9 @@
+ "color. The red value in each pixel is replaced by a combination of the green "
+ "and almost 20% of the blue in the same pixel."
+ msgstr ""
+-"Denna inställning låter dig justera mängden rött som behövs för att ändra "
+-"färgen. Det röda värdet i varje bildpunkt ersätts med en kombination av det "
+-"gröna och nästan 20% av det blå i samma bildpunkt."
++"Med den här inställningen justerar du hur mycket rött som ska ersättas. Det"
++" röda kanalvärdet i varje bildpunkt ersätts av en kombination av dess gröna"
++" kanalvärde och nästan 20 % av dess blå kanalvärde."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -932,8 +932,8 @@
+ "Increasing Strength lessens noise, and increases blur: find compromise using "
+ "the on-canvas preview."
+ msgstr ""
+-"Att öka Styrka minskar brus, och ökar oskärpan: hitta en kompromiss genom "
+-"förhandsvisningen på ritytan."
++"Om du ökar styrkan minskar bruset, men bilden blir oskarpare: hitta en"
++" kompromiss med förhandsvisningen på ritytan."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -952,8 +952,8 @@
+ "@@image: 'images/filters/enhance/nl-filter.png'; "
+ "md5=49903056a34914cc11770504e7229e04"
+ msgstr ""
+-"@@image: 'images/filters/filters-enhance-nlfilter.png'; md5=THIS FILE "
+-"DOESN'T EXIST"
++"@@image: 'images/filters/enhance/nl-filter.png';"
++" md5=49903056a34914cc11770504e7229e04"
+ 
+ #: src/filters/enhance/nl-filter.xml:13(title)
+ msgid "NL Filter"
+@@ -979,10 +979,10 @@
+ "sharpen enhancement functions. It works on the whole layer, not on the "
+ "selection."
+ msgstr ""
+-"NL står för <quote>Non Linear</quote> (icke-linjärt). Härlett från "
+-"<command>pnmnlfilt</command>-programmet i Unix, så slår det ihop "
+-"förbättringsfunktionerna för att jämna ut, ta bort damm och repor samt att "
+-"göra skarpare. Det arbetar på hela lagret, inte markeringen."
++"NL står för <quote>Non Linear</quote> (icke-linjär). Filtret bygger på"
++" Unix-programmet <command>pnmnlfilt</command> och kombinerar funktioner för"
++" utjämning, borttagning av damm och repor samt skärpning. Det påverkar hela"
++" lagret, inte bara markeringen."
+ 
+ #: src/filters/enhance/nl-filter.xml:56(para)
+ msgid ""
+@@ -992,19 +992,19 @@
+ "pixels in a 3×3 block, it uses a hexagonal block whose size can be set with "
+ "the Radius option."
+ msgstr ""
+-"Detta filter är något av en schweizisk armékniv. Det har tre olika körlägen. "
+-"I alla lägena undersöks varje bildpunkt i bilden och bearbetas enligt "
+-"värdena på sig själv och sina omkringliggande bildpunkter. Snarare än att "
+-"använda 9 bildpunkter i ett 3×3-block använder det ett hexagonalt block vars "
+-"storlek kan ställas in med alternativet Radie."
++"Filtret är mångsidigt och har tre olika funktionslägen. I varje läge"
++" undersöks och bearbetas bildpunkterna utifrån sina egna och de omgivande"
++" bildpunkternas värden. I stället för nio bildpunkter i ett 3×3-rutnät"
++" använder filtret ett sexkantigt område vars storlek du ställer in med"
++" alternativet Radie."
+ 
+ #: src/filters/enhance/nl-filter.xml:64(para)
+ msgid ""
+ "The filter does not work if the image is in indexed mode, or if the active "
+ "layer has an alpha channel. Then the menu entry is disabled."
+ msgstr ""
+-"Filtret fungerar inte om bilden är i indexerat läge, eller om det aktiva "
+-"lagret har en alfakanal. Menyobjektet är då inaktiverat."
++"Filtret fungerar inte om bilden är indexerad eller om det aktiva lagret har"
++" en alfakanal. Då är menyobjektet inaktiverat."
+ 
+ #: src/filters/enhance/nl-filter.xml:73(para)
+ msgid ""
+@@ -1050,11 +1050,10 @@
+ "that this parameter is related to but not the same as the <parameter>alpha</"
+ "parameter> parameter used in the <command>pnmnlfilt</command> program."
+ msgstr ""
+-"Styr mängden av filtret att tillämpa. Giltigt intervall är 0,00-1,00. Den "
+-"exakta betydelsen av detta värde beror på det valda körläget. Observera att "
+-"denna parameter är relaterad till men inte samma som parametern "
+-"<parameter>alpha</parameter> som används i programmet <command>pnmnlfilt</"
+-"command>."
++"Anger hur starkt filtret ska tillämpas. Giltigt intervall är 0,00–1,00. Det"
++" här värdet har olika betydelse beroende på valt funktionsläge. Parametern"
++" hänger ihop med, men är inte samma sak som, parametern"
++" <parameter>alpha</parameter> i programmet <command>pnmnlfilt</command>."
+ 
+ #: src/filters/enhance/nl-filter.xml:128(para)
+ msgid ""
+@@ -1063,10 +1062,10 @@
+ "(and thus the filter will have no effect), and 1.00 means all pixels in the "
+ "3×3 grid are sampled."
+ msgstr ""
+-"Styr storleken på den effektiva samplingsregionen runt varje bildpunkt. "
+-"Intervallet för detta värde är 0,33-1,00, där 0,33 betyder bara bildpunkten "
+-"själv (så filtret kommer inte ha någon effekt), och 1,00 betyder att alla "
+-"bildpunkter i 3×3-rutnätet samplas."
++"Anger storleken på det effektiva området som samplas runt varje bildpunkt."
++" Värdet ligger mellan 0,33 och 1,00. Vid 0,33 används bara själva"
++" bildpunkten, så filtret inte får någon effekt. Vid 1,00 samplas alla"
++" bildpunkter i rutnätet 3×3."
+ 
+ #: src/filters/enhance/nl-filter.xml:140(title)
+ msgid "Operating Modes"
+@@ -1093,16 +1092,16 @@
+ "parameter> = 0.55. For a more blatant effect, try <parameter>Alpha</"
+ "parameter> = 0.0 and <parameter>Radius</parameter> = 1.0."
+ msgstr ""
+-"Värdet på centrumbildpunkten kommer ersättas av medelvärdet av de 7 "
+-"hexagonvärdena, men de 7 värdena sorteras efter storlek, och den översta och "
+-"understa <parameter>Alfa</parameter>-delen av de 7 exkluderas från "
+-"medelvärdet. Detta leder till att ett <parameter>Alfa</parameter>-värde på "
+-"0,0 ger samma sorts utdata som en vanlig faltning (d.v.s. medelvärdes- eller "
+-"utjämningsfilter), där <parameter>Radie</parameter> kommer avgöra filtrets "
+-"<quote>styrka</quote>. Ett bra värde att börja från för subtil filtrering är "
+-"<parameter>Alfa</parameter> = 0,0, <parameter>Radie</parameter> = 0,55. För "
+-"en mer uppenbar effekt, pröva <parameter>Alfa</parameter> = 0,0 och "
+-"<parameter>Radie</parameter> = 1,0."
++"Mittbildpunktens värde ersätts med medelvärdet av de sju värdena i"
++" sexkanten. Värdena sorteras efter storlek, och den översta respektive"
++" nedersta andelen som anges av <parameter>Alfa</parameter> utesluts från"
++" medelvärdet. Med <parameter>Alfa</parameter> = 0,0 blir resultatet detsamma"
++" som vid vanlig faltning, till exempel med ett medelvärdes- eller"
++" utjämningsfilter. <parameter>Radie</parameter> styr då filtrets"
++" <quote>styrka</quote>. Börja med <parameter>Alfa</parameter> = 0,0 och"
++" <parameter>Radie</parameter> = 0,55 för en diskret effekt. Prova"
++" <parameter>Alfa</parameter> = 0,0 och <parameter>Radie</parameter> = 1,0"
++" för en tydligare effekt."
+ 
+ # "pop" i denna betydelse verkar härstamma från pnmnlfilt. Osäkert om det finns en vedertagen översättning.
+ #: src/filters/enhance/nl-filter.xml:164(para)
+@@ -1114,12 +1113,11 @@
+ "Judicious use of the <parameter>Radius</parameter> parameter will fine tune "
+ "the filtering."
+ msgstr ""
+-"Ett <parameter>Alfa</parameter>värde på 1,0 kommer få medianvärdet av de 7 "
+-"hexagonerna att användas för att ersätta centrumbildpunktsvärdet. Denna "
+-"sorts filter är bra för att eliminera <quote>pop</quote> eller brus av "
+-"enskilda bildpunkter från en bild utan att sprida ut bruset eller smeta ut "
+-"detaljer i bilden. Omdömesgill användning av parametern <parameter>Radie</"
+-"parameter> kommer finjustera filtreringen."
++"Med <parameter>Alfa</parameter> = 1,0 ersätts mittbildpunktens värde med"
++" medianvärdet av de sju bildpunkterna i sexkanten. Filtret tar bort enstaka"
++" avvikande bildpunkter (<quote>pop</quote>-brus) utan att sprida ut bruset"
++" eller sudda ut bildens detaljer. Justera parametern"
++" <parameter>Radie</parameter> för att finjustera filtreringen."
+ 
+ #: src/filters/enhance/nl-filter.xml:173(para)
+ msgid ""
+@@ -1129,11 +1127,11 @@
+ "<parameter>Radius</parameter> = 0.6. For a more blatant effect try "
+ "<parameter>Alpha</parameter> = 1.0, <parameter>Radius</parameter> = 1.0 ."
+ msgstr ""
+-"Mellanvärden på <parameter>Alfa</parameter> ger effekter någonstans mellan "
+-"utjämning och ”pop”-brusreducering. För subtil filtrering, börja med att "
+-"pröva med värdena <parameter>Alfa</parameter> = 0,8, <parameter>Radie</"
+-"parameter> = 0,6. För en mer uppenbar effekt, pröva <parameter>Alfa</"
+-"parameter> = 1,0, <parameter>Radie</parameter> = 1,0 ."
++"Mellanvärden på <parameter>Alfa</parameter> ger en effekt mellan utjämning"
++" och borttagning av enstaka brusbildpunkter. Prova"
++" <parameter>Alfa</parameter> = 0,8 och <parameter>Radie</parameter> = 0,6"
++" för en diskret effekt. Prova <parameter>Alfa</parameter> = 1,0 och"
++" <parameter>Radie</parameter> = 1,0 för en mer markant effekt."
+ 
+ #: src/filters/enhance/nl-filter.xml:186(term)
+ msgid "Optimal estimation"
+@@ -1158,22 +1156,19 @@
+ "get the desired effect. This type of filter is best for filtering out "
+ "dithering noise in both bitmap and color images."
+ msgstr ""
+-"Denna typ av filter tillämpar ett utjämningsfilter adaptivt över bilden. För "
+-"varje bildpunkt beräknas variansen av de intilliggande hexagonvärdena, och "
+-"mängden utjämning görs omvänt proportionell till den. Idén är att om "
+-"variansen är liten så beror det på brus i bilden, medan om variansen är stor "
+-"så beror det på <quote>önskade</quote> bilddetaljer. Som vanligt styr "
+-"parametern <parameter>Radie</parameter> den effektiva radien, men det är "
+-"troligen bäst att lämna radien mellan 0,8 och 1,0 för att variansberäkningen "
+-"ska vara betydelsefull. Parametern <parameter>Alfa</parameter> ställer in "
+-"bruströskelvärdet över vilket mindre utjämning kommer att göras. Detta "
+-"betyder att små värden på <parameter>Alfa</parameter> kommer ge den mest "
+-"subtila filtreringseffekten, medan stora värden tenderar att utjämna alla "
+-"delar av bilden. Du kan starta med värden som <parameter>Alfa</parameter> = "
+-"0,2, <parameter>Radie</parameter> = 1,0, och försöka öka eller minska "
+-"parametern <parameter>Alfa</parameter> för att få den önskade effekten. "
+-"Denna typ av filter är bäst för att filtrera ut färgutjämningsbrus i både "
+-"bitmapps- och färgbilder."
++"Den här filtertypen jämnar ut bilden adaptivt. För varje bildpunkt beräknas"
++" spridningen i värdena för den omgivande sexkanten, och utjämningen görs"
++" omvänt proportionell mot spridningen. Liten spridning tyder på brus, medan"
++" stor spridning tyder på <quote>önskade</quote> bilddetaljer. Som vanligt"
++" styr parametern <parameter>Radie</parameter> den effektiva radien. Låt den"
++" helst ligga mellan 0,8 och 1,0 så att spridningsberäkningen blir"
++" meningsfull. Parametern <parameter>Alfa</parameter> anger bruströskeln;"
++" över den tröskeln görs mindre utjämning. Låga värden på"
++" <parameter>Alfa</parameter> ger en diskret effekt, medan höga värden jämnar"
++" ut större delar av bilden. Börja exempelvis med <parameter>Alfa</parameter>"
++" = 0,2 och <parameter>Radie</parameter> = 1,0 och justera sedan"
++" <parameter>Alfa</parameter> efter önskat resultat. Filtret passar särskilt"
++" bra för att ta bort rastreringsbrus i bitmapps- och färgbilder."
+ 
+ #: src/filters/enhance/nl-filter.xml:215(term)
+ msgid "Edge enhancement"
+@@ -1188,12 +1183,12 @@
+ "values are between 0.5 and 0.9. Try starting with values of "
+ "<parameter>Alpha</parameter> = 0.3, <parameter>Radius</parameter> = 0.8."
+ msgstr ""
+-"Detta är motsatt typ av filter till utjämningsfiltret. Det förbättrar "
+-"kanter. Parametern <parameter>Alfa</parameter> styr mängden kantförbättring, "
+-"från subtil (0,1) till uppenbar (0,9). Parametern <parameter>Radie</"
+-"parameter> styr den effektiva radien som vanligt, men användbara värden är "
+-"mellan 0,5 och 0,9. Pröva starta med värdena <parameter>Alfa</parameter> = "
+-"0,3, <parameter>Radie</parameter> = 0,8."
++"Det här filtret gör motsatsen till utjämningsfiltret: det förstärker kanter."
++" Parametern <parameter>Alfa</parameter> styr förstärkningen, från diskret"
++" (0,1) till kraftig (0,9). Parametern <parameter>Radie</parameter> styr den"
++" effektiva radien. Användbara värden ligger mellan 0,5 och 0,9. Börja gärna"
++" med <parameter>Alfa</parameter> = 0,3 och <parameter>Radie</parameter> ="
++" 0,8."
+ 
+ #: src/filters/enhance/nl-filter.xml:232(title)
+ msgid "Combination use"
+@@ -1210,14 +1205,13 @@
+ "after one of the non-linear filters (alpha trimmed mean or optimal "
+ "estimation filter), as edge enhancement is the direct opposite of smoothing."
+ msgstr ""
+-"De olika arbetslägena kan användas efter varandra för att nå det önskade "
+-"resultatet. För att exempelvis omvandla en monokrom färgutjämnad bild till "
+-"en gråskalebild skulle du kunna testa en eller två körningar av "
+-"utjämningsfiltret, följt av en körning av det optimala skattningsfiltret, "
+-"sedan lite subtil kantförbättring. Observera att använda kantförbättring "
+-"endast är troligt att vara användbart efter ett av de icke-linjära filtren "
+-"(alfa-trimmat medelvärde eller optimal skattning), då kantförbättring är den "
+-"direkta motsatsen till utjämning."
++"Du kan kombinera funktionslägena för att få önskat resultat. Om du till"
++" exempel vill omvandla en monokrom, rastrerad bild till gråskala kan du"
++" först köra utjämningsfiltret en eller två gånger, sedan filtret för optimal"
++" skattning och till sist kantförbättring med låg styrka. Kantförbättring är"
++" främst användbar efter ett av de icke-linjära filtren (alfa-trimmat"
++" medelvärde eller optimal skattning), eftersom den gör motsatsen till"
++" utjämning."
+ 
+ #: src/filters/enhance/nl-filter.xml:243(para)
+ msgid ""
+@@ -1232,16 +1226,15 @@
+ "is a trade-off between filtering effectiveness and losing detail. "
+ "Experimentation is encouraged."
+ msgstr ""
+-"För att reducera färgkvantiseringsbrus i bilder (d.v.s. vända tillbaka .gif-"
+-"filer tillbaka till 24-bitarsfiler) skulle du kunna testa en körning av det "
+-"optimala skattningsfiltret (<parameter>Alfa</parameter> = 0,2, "
+-"<parameter>Radie</parameter> = 1,0), en körning av medianfiltret "
+-"(<parameter>Alfa</parameter> = 1,0, <parameter>Radie</parameter> = 0,55), "
+-"och möjligen en körning av kantförbättringsfiltret. Flera körningar av det "
+-"optimala skattningsfiltret med sjunkande värden på <parameter>Alfa</"
+-"parameter> är mer effektivt än en enda körning med ett stort värde på "
+-"<parameter>Alfa</parameter>. Som vanligt är det en avvägning mellan "
+-"filtereffekt och förlust av detaljer. Experimenterande uppmuntras."
++"Om du vill minska färgkvantiseringsbrus, till exempel genom att omvandla"
++" .gif-filer till 24-bitarsbilder, kan du köra filtret för optimal skattning"
++" en gång (<parameter>Alfa</parameter> = 0,2, <parameter>Radie</parameter> ="
++" 1,0), medianfiltret en gång (<parameter>Alfa</parameter> = 1,0,"
++" <parameter>Radie</parameter> = 0,55) och eventuellt kantförbättringsfiltret"
++" en gång. Flera körningar av filtret för optimal skattning med successivt"
++" lägre värden på <parameter>Alfa</parameter> ger bättre resultat än en enda"
++" körning med ett högt <parameter>Alfa</parameter>-värde. Som vanligt innebär"
++" effektivare filtrering en risk att detaljer går förlorade. Prova dig fram."
+ 
+ #: src/filters/enhance/introduction.xml:9(title)
+ #: src/filters/enhance/introduction.xml:13(tertiary)
+@@ -1254,9 +1247,9 @@
+ "include dust particles, noise, interlaced frames (coming usually from a TV "
+ "frame-grabber) and insufficient sharpness."
+ msgstr ""
+-"Förbättringsfilter kompenserar för brister i bilden. Sådana brister "
+-"inkluderar dammpartiklar, brus, flätade bildrutor (kommer vanligen från ett "
+-"videoupptagningskort) och otillräcklig skärpa."
++"Förbättringsfiltren kompenserar för brister i bilder, till exempel damm,"
++" brus, sammanflätade bildrutor (ofta från ett videoinspelningskort) och"
++" otillräcklig skärpa."
+ 
+ #: src/filters/enhance/introduction.xml:21(para)
+ msgid "This category describes the following filters:"
+@@ -1289,8 +1282,8 @@
+ "@@image: 'images/filters/examples/enhance/high-pass-duplicate.png'; "
+ "md5=ab6f16d3e4737f72b9365778f65af544"
+ msgstr ""
+-"@@image: 'images/filters/examples/enhance-taj-nl-filter.jpg'; md5=THIS FILE "
+-"DOESN'T EXIST"
++"@@image: 'images/filters/examples/enhance/high-pass-duplicate.png';"
++" md5=ab6f16d3e4737f72b9365778f65af544"
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1357,13 +1350,13 @@
+ "combined with the original image and \"Soft Light\" or \"Hard Light\" merge "
+ "mode, is used to sharpen images. It enhances fine details."
+ msgstr ""
+-"I ljudbehandling filtrerar ett högpassfilter höga frekvenser ovanför ett "
+-"tröskelvärde. I digitalbild hänvisar frekvens till plötsliga ändringar i "
+-"ljusstyrka eller färg i intilliggande bildpunkter. Högpassfiltret filtrerar "
+-"viktiga detaljer, och större skalgradienter tas bort. Detta resultat, "
+-"kombinerat med den ursprungliga bilden och sammanfogningslägena ”Mjukt ljus” "
+-"eller ”Hårt ljus” används för att göra bilder skarpare. Det förbättrar små "
+-"detaljer."
++"Inom ljudbehandling släpper ett högpassfilter igenom frekvenser över en viss"
++" gräns. I digitala bilder motsvarar frekvens plötsliga förändringar i"
++" ljusstyrka eller färg mellan intilliggande bildpunkter. Högpassfiltret"
++" framhäver viktiga högfrekventa detaljer och tar bort större tonövergångar."
++" Tillsammans med originalbilden och blandningsläget ”Mjukt ljus” eller ”Hårt"
++" ljus” kan resultatet användas för att skärpa bilden och framhäva fina"
++" detaljer."
+ 
+ #: src/filters/enhance/high-pass.xml:35(para)
+ msgid ""
+@@ -1388,8 +1381,8 @@
+ "Increasing this Standard Deviation lowers the filter threshold and more "
+ "image details are taken in account for treatment."
+ msgstr ""
+-"Att öka denna standardavvikelse sänker filtrets tröskelvärde så fler "
+-"bilddetaljer tas i beaktande för behandling."
++"När du ökar standardavvikelsen sänks filtrets tröskelvärde, så att fler"
++" bilddetaljer tas med i behandlingen."
+ 
+ #: src/filters/enhance/high-pass.xml:82(term)
+ msgid "Contrast"
+@@ -1397,7 +1390,8 @@
+ 
+ #: src/filters/enhance/high-pass.xml:84(para)
+ msgid "Increase/Decrease contrast of treated details."
+-msgstr "Öka/sänk kontrast för behandlade detaljer."
++msgstr ""
++"Öka eller minska kontrasten i de behandlade detaljerna."
+ 
+ #: src/filters/enhance/high-pass.xml:94(title)
+ msgid "Using High Pass Filter"
+@@ -1461,11 +1455,11 @@
+ "avoid unwanted changes in other areas of your image. The filter replaces "
+ "each pixel with the median value of the pixels within the specified radius."
+ msgstr ""
+-"Detta filter används för att ta bort små defekter från damm eller repor på "
+-"en inläst bild, och även moiréeffekter på bilder inlästa från en tidning. Du "
+-"bör markera isolerade defekter innan detta filter tillämpas, för att undvika "
+-"oönskade ändringar i andra områden i din bild. Filtret ersätter varje "
+-"bildpunkt med medianvärdet på bildpunkterna inom den angivna radien."
++"Använd filtret för att ta bort små dammfläckar och repor i inskannade bilder"
++" samt moirémönster i bilder som skannats från tidningar. Markera enskilda"
++" defekter innan du använder filtret, så påverkas inte andra delar av bilden."
++" Filtret ersätter varje bildpunkt med medianvärdet för bildpunkterna inom"
++" den angivna radien."
+ 
+ #: src/filters/enhance/despeckle.xml:36(para)
+ msgid ""
+@@ -1485,8 +1479,8 @@
+ msgid ""
+ "If checked, parameter setting results are interactively displayed in preview."
+ msgstr ""
+-"Om ikryssad visas resultat för parameterinställningar interaktivt i "
+-"förhandsvisningen."
++"Om alternativet är markerat visas resultatet av parameterändringar löpande i"
++" förhandsvisningen."
+ 
+ #: src/filters/enhance/despeckle.xml:68(term)
+ msgid "Filter Type"
+@@ -1515,9 +1509,9 @@
+ "of the region around the target pixel. The adapted radius will always be "
+ "equal to or smaller than the specified radius."
+ msgstr ""
+-"Anpassar radien till bildens eller markeringens innehåll genom att analysera "
+-"histogrammet för regionen runt målbildpunkten. Den anpassade radien kommer "
+-"alltid vara lika med eller mindre än den angivna radien."
++"Anpassar radien efter bildens eller markeringens innehåll genom att"
++" analysera histogrammet runt målbildpunkten. Den beräknade radien blir"
++" aldrig större än den angivna radien."
+ 
+ #: src/filters/enhance/despeckle.xml:93(term)
+ msgid "Recursive-Median"
+@@ -1541,9 +1535,9 @@
+ "moves over the image, and the color in it is smoothed, so imperfections are "
+ "removed."
+ msgstr ""
+-"Ställer in storleken på åtgärdsfönstret från 1 (3×3 bildpunkter) till 20 "
+-"(41×41). Detta fönster rör sig över bilden, och färgen i det är utjämnad, så "
+-"brister tas bort."
++"Ställer in storleken på filterområdet från 1 (3×3 bildpunkter) till 20"
++" (41×41 bildpunkter). Området flyttas över bilden och jämnar ut färgerna, så"
++" att ojämnheter tas bort."
+ 
+ #: src/filters/enhance/despeckle.xml:122(term)
+ msgid "Black level"
+@@ -1553,8 +1547,8 @@
+ msgid ""
+ "Only include pixels brighter than the set value in the histogram (-1-255)."
+ msgstr ""
+-"Inkludera endast bildpunkter ljusare än värdet som ställts in i histogrammet "
+-"(-1-255)."
++"Inkludera bara bildpunkter som är ljusare än det inställda värdet i"
++" histogrammet (-1–255)."
+ 
+ #: src/filters/enhance/despeckle.xml:130(term)
+ msgid "White level"
+@@ -1563,8 +1557,8 @@
+ #: src/filters/enhance/despeckle.xml:132(para)
+ msgid "Only include pixels darker than the set value in the histogram (0-256)."
+ msgstr ""
+-"Inkludera endast bildpunkter mörkare än värdet som ställts in i histogrammet "
+-"(0-256)."
++"Inkludera bara bildpunkter som är mörkare än det inställda värdet i"
++" histogrammet (0–256)."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1622,13 +1616,14 @@
+ "line of first image, etc. So, if there have been an important move between "
+ "the two images, objects will appear split, shifted, striped."
+ msgstr ""
+-"Bilder som fångas av videokort, speciellt när snabb rörelse spelas in, kan "
+-"se oskarpa och randiga ut, med delade objekt. Detta beror på hur kameror "
+-"fungerar. De spelar inte in 25 bilder per sekund, utan 50, med halv vertikal "
+-"upplösning. Det finns två flätade bilder i en bildruta. Första raden i "
+-"första bilden följs av första raden i den andra, följt av den andra raden i "
+-"den första bilden o.s.v Så om en betydande rörelse har skett mellan bilderna "
+-"kommer objekt verka delade, skiftade, randiga."
++"Videobilder med snabba rörelser kan bli oskarpa och randiga, och objekten"
++" kan se delade ut. Det beror på hur sammanflätad video spelas in: inte som"
++" 25 hela bildrutor per sekund, utan som 50 halvbilder med halva den"
++" vertikala upplösningen. Varje bildruta innehåller alltså två sammanflätade"
++" halvbilder. Den första raden i den ena halvbilden följs av den första raden"
++" i den andra, sedan av den andra raden i den första och så vidare. Om något"
++" hinner röra sig mycket mellan halvbilderna ser objekten delade, förskjutna"
++" och randiga ut."
+ 
+ #: src/filters/enhance/deinterlace.xml:29(para)
+ msgid ""
+@@ -1637,18 +1632,18 @@
+ "image, or selection, will be somewhat blurred, but can be improved by "
+ "enhance filters."
+ msgstr ""
+-"Filtret Avflätning behåller bara en av de båda bilderna och ersätter saknade "
+-"rader med en gradient mellan föregående och efterföljande rader. Den "
+-"resulterande bilden eller markeringen kommer vara något oskarp, men kan "
+-"göras bättre med förbättringsfilter."
++"Filtret Avflätning behåller bara den ena halvbilden och fyller de saknade"
++" raderna med värden som interpoleras mellan föregående och efterföljande"
++" rader. Resultatet blir något oskarpare, men kan förbättras med"
++" förbättringsfilter."
+ 
+ #: src/filters/enhance/deinterlace.xml:35(para)
+ msgid ""
+ "You can find interlaced images at <xref linkend=\"bibliography-online-wkpd-"
+ "deinterlace\"/>."
+ msgstr ""
+-"Du kan hittade flätade bilder på <xref linkend=\"bibliography-online-wkpd-"
+-"deinterlace\"/>."
++"Mer information om sammanflätade bilder finns i <xref"
++" linkend=\"bibliography-online-wkpd-deinterlace\"/>."
+ 
+ #: src/filters/enhance/deinterlace.xml:43(para)
+ msgid ""
+@@ -1675,10 +1670,10 @@
+ "kept and which are removed. Try both options to see which gives the best "
+ "results for your image."
+ msgstr ""
+-"Denna inställning låter dig välja mellan <guilabel>Behåll jämna fält</"
+-"guilabel> och <guilabel>Behåll jämna fält</guilabel>. Det avgör vilka "
+-"bildpunkter som behålls och vilka som tas bort. Pröva båda alternativen för "
+-"att se vilket som ger bäst resultat för din bild."
++"Här väljer du mellan <guilabel>Behåll jämna fält</guilabel> och"
++" <guilabel>Behåll udda fält</guilabel>. Valet avgör vilka bildpunkter som"
++" behålls och vilka som tas bort. Prova båda alternativen och se vilket som"
++" ger bäst resultat för bilden."
+ 
+ #: src/filters/enhance/deinterlace.xml:91(term)
+ msgid "Orientation"
+@@ -1689,9 +1684,8 @@
+ "This setting lets you choose between deinterlacing <guilabel>Horizontal</"
+ "guilabel> or <guilabel>Vertical</guilabel> lines."
+ msgstr ""
+-"Denna inställning låter dig välja mellan att avfläta linjer i "
+-"<guilabel>Horisontell</guilabel> eller <guilabel>Vertikal</guilabel> "
+-"riktning."
++"Här väljer du om avflätningen ska gälla <guilabel>Horisontell</guilabel>"
++" eller <guilabel>Vertikal</guilabel> riktning."
+ 
+ #: src/filters/enhance/deinterlace.xml:102(term)
+ msgid "Block size"
+@@ -1709,15 +1703,17 @@
+ 
+ #: src/filters/enhance/deinterlace.xml:117(title)
+ msgid "Simple applying example for the Deinterlace filter"
+-msgstr "Enkelt tillämpningsexempel för filtret Avflätning"
++msgstr ""
++"Enkelt exempel på hur filtret Avflätning används"
+ 
+ #: src/filters/enhance/deinterlace.xml:125(para)
+ msgid ""
+ "Top: even lines pixels are shifted by one pixel to the right. Bottom: one "
+ "line is missing. These images are zoomed to show pixels."
+ msgstr ""
+-"Överst: jämna raders bildpunkter skiftas en bildpunkt till höger. Nederst: "
+-"en rad saknas. Dessa bilder har zoomats för att visa bildpunkter."
++"Överst: bildpunkterna i de jämna raderna har förskjutits en bildpunkt åt"
++" höger. Nederst: en rad saknas. Bilderna är förstorade så att bildpunkterna"
++" syns."
+ 
+ #: src/filters/enhance/deinterlace.xml:138(para)
+ msgid ""
+@@ -1735,9 +1731,10 @@
+ "to the left, to align themselves with the odd lines. Bottom: the empty line "
+ "persists, but joins up and down through a gradient."
+ msgstr ""
+-"<quote>Behåll udda fält</quote> valt. Överst: jämna rader har skiftats till "
+-"vänster så att de justerats mot de udda raderna. Nederst: den tomma raden "
+-"består, men kopplas uppåt och nedåt genom en gradient."
++"<quote>Behåll udda fält</quote> är valt. Överst: de jämna raderna har"
++" förskjutits åt vänster så att de ligger i linje med de udda raderna."
++" Nederst: den tomma raden finns kvar, men kopplas samman med raderna ovanför"
++" och nedanför genom en toning."
+ 
+ #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+@@ -1774,9 +1771,9 @@
+ "antialiasing\">Anti-aliasing</link>) using the Scale3X edge-extrapolation "
+ "algorithm."
+ msgstr ""
+-"Detta filter reducerar pixeleringseffekter (se <link linkend=\"glossary-"
+-"antialiasing\">kantutjämning</link>) med Scale3X-"
+-"kantextrapoleringsalgoritmen."
++"Filtret minskar aliasfenomen (se <link"
++" linkend=\"glossary-antialiasing\">kantutjämning</link>) med"
++" kantextrapoleringsalgoritmen Scale3X."
+ 
+ #: src/filters/enhance/antialias.xml:27(para)
+ msgid "<xref linkend=\"bibliography-online-scale2x\"/>."
+@@ -1796,12 +1793,12 @@
+ "resolution played with video hardware like TVs, Arcade monitors, PC monitors "
+ "and LCD screens.<placeholder-2/>"
+ msgstr ""
+-"Scale3X härleds från Scale2X, vilket är en grafikeffekt för att öka "
+-"storleken på små bitmappar genom att gissa de saknade bildpunkterna utan att "
+-"interpolera bildpunkter och göra bilderna oskarpa.<placeholder-1/> Scale2X "
+-"utvecklades ursprungligen för att förbättra kvaliteten hos gamla arkad- och "
+-"PC-spel med en låg videoupplösning som spelas med videohårdvara som TV-"
+-"apparater samt arkad-, PC- och LCD-skärmar.<placeholder-2/>"
++"Scale3X bygger på Scale2X, en grafikeffekt som förstorar små bitmapbilder"
++" genom att räkna ut saknade bildpunkter utan att interpolera dem och göra"
++" bilden oskarp.<placeholder-1/> Scale2X utvecklades ursprungligen för att"
++" förbättra grafiken i äldre arkad- och PC-spel med låg upplösning, som"
++" visades på tv-apparater, arkadskärmar, datorskärmar och"
++" LCD-skärmar.<placeholder-2/>"
+ 
+ #: src/filters/enhance/antialias.xml:36(para)
+ msgid ""
+@@ -1810,11 +1807,10 @@
+ "using the colors of the pixel and its 8 adjacent pixels (extrapolation); "
+ "then it subsamples the new pixels to a weighted average pixel."
+ msgstr ""
+-"Filtret Kantutjämning fungerar som följer: för varje bildpunkt expanderar "
+-"filtret den ursprungliga bildpunkten i 9 (3×3) nya bildpunkter enligt "
+-"Scale3X-algoritmen, användande färgen på bildpunkten och dess 8 "
+-"intilliggande bildpunkter (extrapolering); den subsamplar sedan de nya "
+-"bildpunkterna till en viktad genomsnittlig bildpunkt."
++"Filtret Kantutjämning fungerar så här: för varje bildpunkt skapar det ett"
++" 3×3-block med nio bildpunkter enligt Scale3X-algoritmen, baserat på"
++" originalbildpunkten och dess åtta grannar (extrapolering). Därefter minskar"
++" filtret blocket till en bildpunkt genom att beräkna ett viktat medelvärde."
+ 
+ #: src/filters/enhance/antialias.xml:47(para)
+ msgid ""

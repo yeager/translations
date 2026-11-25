@@ -156,6 +156,10 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | issue tracker | ärendehanteringssystem | Plats för felrapporter och önskemål om nya funktioner. |
 | Slur (GIMP filter) | Smeta ut | Filter som smetar ut bildpunkter nedåt. |
 | Dulling (GIMP noise option) | dämpning | Styr hur mycket slumpmässigt färgvärde påverkar befintlig färg. |
+| dithering (GIMP-dokumentation) | rastrering | Brusmönster som används för att efterlikna saknade färger eller jämna ut tonövergångar. |
+| Dithering (GIMP UI) | färgutjämning | GIMP:s svenska namn på inställningen; använd *rastrering* i dokumentationens löptext. |
+| Wavelet Decompose (GIMP filter) | Wavelet-separera | Följ GIMP:s svenska filteretikett. |
+| aliasing effect (GIMP) | aliasfenomen | Bildartefakter som filtret Kantutjämning motverkar. |
 | speckle noise | fläckbrus | Multiplikativt, korrelerat brus. |
 | CIE LCh | CIE LCh | Färgrymdsmodell med ljushet, krominans och nyans; behåll akronymens versaler. |
 | opacity | opacitet | Använd *ogenomskinlighet* i förklarande löptext vid behov. |
