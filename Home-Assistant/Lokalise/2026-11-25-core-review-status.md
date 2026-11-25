@@ -8,18 +8,18 @@ Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 
 ## Aktuellt läge
 
-- Senast fullständigt radgranskade Lokalise-position: **29 250**. Nästa position: **29 251**.
-- De granskade sammanhängande positionerna 27 211–29 250 omfattar 2 040 poster: **1 742** aktiva Core-nycklar och **298** källfrånvarande/historiska poster.
-- Av de 1 742 aktiva nycklarna ändrades **509** svenska mål och sparades/återlästes från Lokalise; **1 233** granskades och verifierades oförändrade.
-- Senaste batchen 29 131–29 250: 120/120 nycklar aktiva och källmatchande; **16** ändringar sparade och återlästa, **104** texter oförändrade. Inga alias, pluralformer eller platshållare.
+- Senast fullständigt radgranskade Lokalise-position: **29 250**. Nästa position: **29 371**.
+- De granskade sammanhängande positionerna 27 211–29 370 omfattar 2 160 poster: **1 827** aktiva Core-nycklar och **333** källfrånvarande/historiska poster.
+- Av de 1 827 aktiva nycklarna ändrades **510** svenska mål och sparades/återlästes från Lokalise; **1 317** granskades och verifierades oförändrade.
+- Batchen 29 131–29 250: 120/120 nycklar aktiva och källmatchande; **17** ändringar sparade och återlästa, **103** texter oförändrade. Nästa batch 29 251–29 370: 85 aktuella Core-nycklar granskade utan ändring och 35 källfrånvarande poster uteslutna. 31 alias i de aktiva raderna verifierades mot live-mål; inga pluraler eller platshållaravvikelser.
 - Liveverifiering för batchen bekräftade nyckelidentitet, engelsk källtext, svensk måltext och Lokalise-ID för 120/120 poster. Rapporten innehåller fullständiga nycklar och raderna med befintlig/föreslagen text.
 
 ## TM och verktyg
 
-- Home Assistant Core kanonisk TMX uppdaterades till denna batch och validerar med **19 921** enheter: 19 690 med Lokalise-ID och 231 historiska poster utan Lokalise-ID. Batchens samtliga 120 poster har verifieringsmetod, datum och källrevision.
-- Rapport och manifest för senaste batchen: `2026-11-25-reviewed-core-29131-29250.md`, `...-precheck.json`, `...-changes.json` och `...-tm.json`.
+- Home Assistant Core kanonisk TMX validerar med **19 921** enheter: 19 690 med Lokalise-ID och 231 historiska poster utan Lokalise-ID. Den verifierade 29131–29250-batchen finns i TM-manifestet. De 85 aktiva oförändrade posterna från 29251–29370 kontrollerades mot befintlig TM; ingen TMX-enhet behövde läggas till eller ändras.
+- Rapporter och manifest: `2026-11-25-reviewed-core-29131-29250.md` och `2026-11-25-reviewed-core-29251-29370.md`, med respektive JSON-underlag. Den äldre rapportens missade KNX-förslag för `component::knx::config_panel::dpt::options::14_004` följdes upp via fullständig nyckel och sparades som `Substansmängd`; TM-posten uppdaterades retroaktivt.
 - KNX-terminologi jämfördes mot KNX Associations System Specifications. Hunspell-sv:s båda ordböcker fick stöd för de korrekta tekniska orden `ASCII`, `Deltatid`, `Kompressibilitet` och `Magnetomotorisk`; regressionstesterna passerade **19/19**.
-- `svlang skrivregler` och båda lokala Hunspell-ordlistorna ger inga skrivregel- eller stavningsträffar för batchen. Endast delar av sifferintervall (`-128`, `-32`, `-327`) står kvar som Hunspell-signaler och är inte ord.
+- `svlang skrivregler` fann inga skrivregelavvikelser i någon av de två senaste batcherna. I 29251–29370 rapporterade svlang en falskt positiv V2-varning för bisatsen “när ... passerar”. Hunspell flaggade bara fragmenten `daily`, `hourly` och `link` inuti dokumentationsplatshållare; de är inte svensk måltext.
 - Termbanken swedish-foss-terminology användes som stöd: dess befintliga svenska TM innehåller bland annat “deltatider” och “rörelsemängdsmoment”.
 
 ## Kvarstående hinder
@@ -29,9 +29,13 @@ Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 - Totalt **298** historiska/källfrånvarande poster i granskade intervall räknas inte som aktuell Core-täckning.
 - Granskningen är **inte klar**. Fortsätt från position 29 251; kontrollera nyttillkomna strängar, tidigare rapporter, referenser och hela källinventeringen.
 
+## Näst senaste batch: 29 251–29 370
+
+85/120 poster matchar aktuell Core-källrevision `86a2eabe7e43f526db5821ef068087ce8404ae07`; samtliga 85 översättningar granskades, varav 31 alias jämfördes med 21 live-mål, 31/31 matchade. 35 Lokalise-poster saknar aktiv källa i den aktuella Core-checkouten och har inte räknats in i aktuell täckning eller TM. Live-manifest verifierat 85/85. Ingen översättning ändrades. Inga pluraler eller platshållaravvikelser. Fullständiga rader finns i `2026-11-25-reviewed-core-29251-29370.md` och JSON-underlag.
+
 ## Senaste batch: 29 131–29 250
 
-120/120 aktuella Core-nycklar matchar revision `86a2eabe7e43f526db5821ef068087ce8404ae07`. 16 ändringar sparades och återlästes, 104 texter behölls. Referensalias: 0; pluralnycklar: 0; platshållaravvikelser: 0. Live-manifest verifierat 120/120. Kanonisk TMX validerar med 19 921 enheter. KNX-termerna inkluderar korrigeringar för deltatid, generiska signerade/osignerade heltal, värmeledningsförmåga, mekanisk spänning, rymdvinkel, rörelsemängd, massflöde, elektromotorisk spänning, elektrisk konduktivitet och rörelsemängdsmoment. Se `2026-11-25-reviewed-core-29131-29250.md` och dess JSON-underlag. Nästa position: **29 251**.
+120/120 aktuella Core-nycklar matchar revision `86a2eabe7e43f526db5821ef068087ce8404ae07`. 17 ändringar sparades och återlästes, 103 texter behölls. Referensalias: 0; pluralnycklar: 0; platshållaravvikelser: 0. Live-manifest verifierat 120/120. Kanonisk TMX validerar med 19 921 enheter. KNX-termerna inkluderar korrigeringar för deltatid, generiska signerade/osignerade heltal, värmeledningsförmåga, mekanisk spänning, rymdvinkel, rörelsemängd, massflöde, elektromotorisk spänning, elektrisk konduktivitet och rörelsemängdsmoment. Se `2026-11-25-reviewed-core-29131-29250.md` och dess JSON-underlag. Nästa position: **29 371**.
 
 ---
 
