@@ -8,9 +8,9 @@ Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 
 ## Framsteg
 
-- Senast fullständigt radgranskade Lokalise-position: **28 410**. Fortsätt från **28 411** och jämför varje batch mot aktuell källtext och tidigare rapporter.
-- De sammanhängande intervallen 27 211–28 410 innehåller 1 200 positioner: 966 nycklar som finns i aktuell Core-källa och 234 historiska källfrånvarande poster.
-- Bland de 966 aktuella nycklarna har **273 svenska texter ändrats och sparats/återlästs** i Lokalise; resterande **693 aktuella texter har granskats och återverifierats utan språkändring**. Därutöver har fyra LG ThinQ-referensmål korrigerats retroaktivt och dokumenterats separat.
+- Senast fullständigt radgranskade Lokalise-position: **28 530**. Fortsätt från **28 531** och jämför varje batch mot aktuell källtext och tidigare rapporter.
+- De sammanhängande intervallen 27 211–28 530 innehåller 1 320 positioner: 1 052 nycklar som finns i aktuell Core-källa och 268 historiska källfrånvarande poster.
+- Bland de 1 052 aktuella nycklarna har **293 svenska texter ändrats och sparats/återlästs** i Lokalise; resterande **759 aktuella texter har granskats och återverifierats utan språkändring**. Därutöver har fyra LG ThinQ-referensmål korrigerats retroaktivt och dokumenterats separat.
 - Den senaste batchen 27 691–27 810 innehöll 102 aktuella Core-nycklar: **31** språkändringar och **71** befintliga översättningar utan ändring. 18 äldre nycklar saknas i aktuell Core-källa och redovisas separat.
 - 13 referenser i den senaste batchen jämfördes mot live-målen; 13/13 svenska värden matchar.
 - En tidigare verifierad OpenEVSE-post utanför intervallet (component::openevse::entity::switch::current_shaper::name) korrigerades retroaktivt från Strömformare till Laststyrning; den tidigare TMX-enheten ersattes. Samma term används i de tre Shaper-sensorsammanhangen.
@@ -25,7 +25,7 @@ Den aktuella Lokalise-ordningen gav 30 nyckelposter efter position 28020. 29 mat
 
 ## TM och verktyg
 
-- Home Assistant Core-kanonisk TMX är uppdaterad till position 28410, retroaktiva LG ThinQ-referensmål och OpenEVSE-termposten. XML/proveniensvalideraren godkände **19 169** enheter; 18 938 har Lokalise-ID och 231 är historiska poster utan sådant ID. Varje batchpost anger nu också den exakta Core-källrevisionen i verifieringsproveniensen.
+- Home Assistant Core-kanonisk TMX är uppdaterad till position 28530, retroaktiva LG ThinQ-referensmål och OpenEVSE-termposten. XML/proveniensvalideraren godkände **19 255** enheter; 19 024 har Lokalise-ID och 231 är historiska poster utan sådant ID. Varje batchpost anger nu också den exakta Core-källrevisionen i verifieringsproveniensen.
 - swedish-foss-terminology innehåller sju projektspecifika HA-termer för OpenEVSE, ViCare, USB-dongel, Tibbers hushållsnod, Matter-temperaturavvikelse, Yardians tryckslag och HDFurys hotplug-knapp. Exporterna CSV/TBX/JSONL validerades; Tibber-tolkningen är markerad som källbaserad slutsats med uppföljning.
 - Hunspell-sv innehåller HA-termerna och hårdvaruidentifierarna från granskningen, däribland Tibber, OpenAI, Proxmox, SMA, Namecheap, HDFury, `upptäckbar` och `inomhusluftkvalitet`. Ordboksräknarna och stavningskontrollen verifierades. Deklarerade poster kontrollerades. Verktygsrelease har inte gjorts.
 - svlang skrivregler fann inga skrivregelavvikelser i senaste batchen. Platshållarkontrollen fann 0 avvikelser av 112 i senaste batchen.
@@ -34,8 +34,8 @@ Den aktuella Lokalise-ordningen gav 30 nyckelposter efter position 28020. 29 mat
 
 - Lokalise API-tokenen får ändra översättningstexter men får HTTP 403 (No permission to update translation status) för att sätta is_reviewed. Ingen browser är tillgänglig i den här chatten. Därför har ändrade mål sparats, men Lokalises separata Reviewed-markering kunde inte sättas.
 - Den fullständiga Core-inventeringen från 2026-11-25 fann **203 aktuella Core-källnycklar som saknas helt i Lokalise**. API-anropen för att skapa nycklar/importera fil avslogs med HTTP 403; den listan finns i 2026-11-25-full-core-missing-audit.md. Detta blockerar 100 % lokaliseringsomfattning oberoende av radgranskningen.
-- Totalt 194 källfrånvarande positioner i de hittills granskade intervallen har inte räknats som aktuell Core-täckning. Tidigare rapporter identifierar äldre HDFury- och frontend-/historiknycklar som kräver eventuell separat korsmappning.
-- Granskningen är **inte klar**. Nästa steg är fortsätta rad för rad från Lokalise-position 28 291, upptäcka nytillkomna strängar, matcha gamla rapporter via fullständig nyckel, spara ändringar direkt i Lokalise och synkronisera kanonisk TMX löpande.
+- Totalt 268 källfrånvarande positioner i de hittills granskade intervallen har inte räknats som aktuell Core-täckning. Tidigare rapporter identifierar äldre HDFury- och frontend-/historiknycklar som kräver eventuell separat korsmappning.
+- Granskningen är **inte klar**. Nästa steg är fortsätta rad för rad från Lokalise-position 28 531, upptäcka nytillkomna strängar, matcha gamla rapporter via fullständig nyckel, spara ändringar direkt i Lokalise och synkronisera kanonisk TMX löpande.
 
 
 ## Fortsatt radgranskning 2026-11-25 – position 28051–28170
@@ -46,7 +46,7 @@ Den aktuella Lokalise-ordningen gav 30 nyckelposter efter position 28020. 29 mat
 
 - Lokalise-API:t nekar fortfarande uppdatering av `is_reviewed` med HTTP 403; översättningstexterna kan sparas och återläsas.
 - 203 Core-källnycklar saknas i Lokalise; key/import-skapande har tidigare nekats med HTTP 403.
-- Granskningen är inte klar. Nästa liveposition är 28 411.
+- Granskningen är inte klar. Nästa liveposition är 28 531.
 
 
 ## Fortsatt radgranskning 2026-11-25 – position 28171–28290
@@ -56,4 +56,11 @@ Den aktuella Lokalise-ordningen gav 30 nyckelposter efter position 28020. 29 mat
 
 ## Fortsatt radgranskning 2026-11-25 – position 28291–28410
 
-112 av 120 poster matchar aktuell Core-källa och granskades rad för rad; 29 ändringar sparades och återlästes, 83 mål behölls. Åtta historiska poster saknar aktiv källsträng. Alla 24 aliasreferenser verifierades live; fyra LG ThinQ-mål korrigerades retroaktivt och därefter matchade 24/24. Platshållare kontrolleras i manifestet. Manifestets 112 batchposter verifierades via Lokalise API. TMX innehåller 19 169 giltiga enheter. Se `2026-11-25-reviewed-core-28291-28410.md` och tillhörande JSON.
+112 av 120 poster matchar aktuell Core-källa och granskades rad för rad; 29 ändringar sparades och återlästes, 83 mål behölls. Åtta historiska poster saknar aktiv källsträng. Alla 24 aliasreferenser verifierades live; fyra LG ThinQ-mål korrigerades retroaktivt och därefter matchade 24/24. Platshållare kontrolleras i manifestet. Manifestets 112 batchposter verifierades via Lokalise API. TMX innehåller 19 255 giltiga enheter. Se `2026-11-25-reviewed-core-28291-28410.md` och tillhörande JSON.
+
+
+## Fortsatt radgranskning 2026-11-25 – position 28411–28530
+
+86 av 120 poster matchade aktuell Core-källa och granskades rad för rad. 20 ändringar sparades och lästes tillbaka; 66 aktuella mål verifierades oförändrade. 34 historiska poster uteslöts ur aktuell Core-TM. Platshållare matchar 86/86; inga pluralnycklar. TM-manifestets samtliga 86 nycklar och mål verifierades live. Se `2026-11-25-reviewed-core-28411-28530.md` och tillhörande JSON. USB-dongel är bekräftad i termbanken och godkänns av båda Hunspell-ordlistorna.
+
+Referensalias i batchen 28411–28530: 18 av 18 verifierade mot live-målen utan avvikelse.
