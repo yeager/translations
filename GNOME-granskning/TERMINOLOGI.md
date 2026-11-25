@@ -117,7 +117,9 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | paintbrush tool | målarpensel | GIMP-verktyget; skilj från penselresursen. |
 | gradient (färgövergång i löptext) | toning | Använd *toning* om en färgövergång avses; GIMP:s aktuella svenska UI behåller etiketterna *Gradient* (verktyg/resurs) och *Gradienter* (dialog). |
 | gradient map | toningskarta | Filter/funktion som mappar toningar till färger. |
-| bucket (histogram) | intervall | Värdeintervall som samlar färg- eller bildpunktsvärden; översätt inte med *hink* eller *färgbucket*. |
+| bucket (histogram) | intervall | Värdeintervall som samlar färg- eller bildpunktsvärden; undvik bokstavliga översättningar. |
+| Bucket Fill (GIMP tool label) | Fyll | Verktygets korta etikett i GIMP. |
+| Bucket Fill tool (GIMP prose) | fyllnadsverktyg | Använd *fyllnadsverktyget* i löptext; undvik hink-metaforen. |
 | bucket size | intervallstorlek | Storleken på varje värdeintervall i histogram-/färgkubsanalys. |
 | color vision deficiency | färgseendebrist | GIMP-inställning för simulering av olika typer av färgseendebrist. |
 | color value range | färgvärdesintervall | Beskrivande term för ett intervall av grupperade kanalvärden. |

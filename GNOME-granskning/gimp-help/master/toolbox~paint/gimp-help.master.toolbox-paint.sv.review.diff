@@ -1,5 +1,16 @@
 --- gimp-help.master.toolbox-paint.sv.original.po
 +++ gimp-help.master.toolbox-paint.sv.reviewed.po
+@@ -6,8 +6,8 @@
+ "Project-Id-Version: gimp doc 2.6\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2026-11-22 18:35+0000\n"
+-"PO-Revision-Date: 2009-02-17 02:54+0100\n"
+-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
++"PO-Revision-Date: 2026-11-25 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <sv@li.org>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
 @@ -17,73 +17,72 @@
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
@@ -3885,8 +3896,8 @@
  "the <link linkend=\"gimp-tool-bucket-fill\">Bucket Fill Tool</link> fills "
  "with color or a pattern;"
  msgstr ""
-+"<link linkend=\"gimp-tool-bucket-fill\">Hinkfyllningsverktyget</link> "
-+"fyller med färg eller ett mönster;"
++"<link linkend=\"gimp-tool-bucket-fill\">Fyllnadsverktyget</link> fyller med "
++"färg eller ett mönster;"
  
  #: src/toolbox/paint/common-features.xml:93(para)
  msgid ""
@@ -4635,11 +4646,11 @@
  "whole selection</guilabel> option checked and the entire layer was selected. "
  "A pattern was used to paint with the Bucket Fill tool."
  msgstr ""
-+"I exempelbilden ovan finns Wilber på det övre lagret, omgiven av transparens. "
-+"Det undre lagret är helt ljusblått. <link linkend=\"gimp-tool-bucket-fill\">"
-+"Hinkfyllningsverktyget</link> användes med alternativet <guilabel>Fyll hela "
-+"markeringen</guilabel> ikryssat och hela lagret markerat. Ett mönster användes "
-+"för att måla med hinkfyllningsverktyget."
++"I exempelbilden ovan finns Wilber på det övre lagret, omgiven av "
++"transparens. Det undre lagret är helt ljusblått. <link "
++"linkend=\"gimp-tool-bucket-fill\">Fyllnadsverktyget</link> användes med "
++"alternativet <guilabel>Fyll hela markeringen</guilabel> ikryssat och hela "
++"lagret markerat. Ett mönster användes för att måla med fyllnadsverktyget."
  
  #: src/toolbox/paint/common-features.xml:903(title)
  msgid "Painting in <quote>Behind</quote> mode"
@@ -4702,7 +4713,7 @@
  "In the above example image, the color of the Bucket Fill tool was white, so "
  "white parts of Wilber were erased and the blue background shows through."
  msgstr ""
-+"I exempelbilden ovan var hinkfyllningsverktygets färg vit, så vita delar av "
++"I exempelbilden ovan var fyllnadsverktygets färg vit, så vita delar av "
 +"Wilber raderades och den blå bakgrunden syns igenom."
  
  #: src/toolbox/paint/common-features.xml:977(para)
@@ -5533,8 +5544,8 @@
  "the way transparency is handled."
  msgstr ""
 +"Detta verktyg fyller en markering med den aktuella förgrundsfärgen. Om du "
-+"<keycap>Ctrl</keycap>-klickar med hinkverktyget används bakgrundsfärgen i "
-+"stället. Beroende på verktygsalternativen fyller hinkfyllningsverktyget "
++"<keycap>Ctrl</keycap>-klickar med fyllnadsverktyget används bakgrundsfärgen "
++"i stället. Beroende på verktygsalternativen fyller fyllnadsverktyget "
 +"antingen hela markeringen eller endast delar vars färger liknar den punkt du "
 +"klickar på. Verktygsalternativen påverkar också hur transparens hanteras."
  
@@ -5552,19 +5563,20 @@
  
  #: src/toolbox/paint/bucket-fill.xml:34(para)
  msgid ""
-@@ -4830,6 +5705,11 @@
+@@ -4830,6 +5705,12 @@
  "won't fill semi-transparent pixels, and they will stand out against the fill "
  "because they have kept their original color."
  msgstr ""
-+"När du fyller objekt i ett genomskinligt lager, såsom bokstäver i ett textlager, "
-+"med en annan färg kan en kant med den gamla färgen fortfarande omge objekten. "
-+"Det beror på ett lågt fyllningströskelvärde i hinkfyllningens dialogruta. Med "
-+"ett lågt tröskelvärde fylls inte halvgenomskinliga bildpunkter, som därför "
-+"framträder mot fyllningen eftersom de behållit sin ursprungliga färg."
++"När du fyller objekt i ett genomskinligt lager, såsom bokstäver i ett "
++"textlager, med en annan färg kan en kant med den gamla färgen fortfarande "
++"omge objekten. Det beror på ett lågt fyllningströskelvärde i fyllningens "
++"dialogruta. Med ett lågt tröskelvärde fylls inte halvgenomskinliga "
++"bildpunkter, som därför framträder mot fyllningen eftersom de behållit sin "
++"ursprungliga färg."
  
  #: src/toolbox/paint/bucket-fill.xml:42(para)
  msgid ""
-@@ -4838,18 +5718,25 @@
+@@ -4838,18 +5719,25 @@
  "unchecked. If this option is checked, only the non-transparent parts of the "
  "layer will be filled."
  msgstr ""
@@ -5577,8 +5589,8 @@
  "From the main menu: <menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint "
  "Tools</guisubmenu><guimenuitem>Bucket Fill</guimenuitem></menuchoice>."
  msgstr ""
-+"Från huvudmenyn: <menuchoice><guimenu>Verktyg</guimenu><guisubmenu>"
-+"Målningsverktyg</guisubmenu><guimenuitem>Hinkfyllning</guimenuitem></menuchoice>."
++"Från huvudmenyn: "
++"<menuchoice><guimenu>Verktyg</guimenu><guisubmenu>Målningsverktyg</guisubmenu><guimenuitem>Fyll</guimenuitem></menuchoice>."
  
  #: src/toolbox/paint/bucket-fill.xml:80(para)
  msgid ""
@@ -5590,7 +5602,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:92(para)
  msgid ""
-@@ -4857,16 +5744,20 @@
+@@ -4857,16 +5745,20 @@
  "surrounding colors on canvas without having to switch to <emphasis>Color "
  "Picker tool</emphasis>."
  msgstr ""
@@ -5612,13 +5624,13 @@
  
  #: src/toolbox/paint/bucket-fill.xml:130(para)
  msgid ""
-@@ -4874,40 +5765,45 @@
+@@ -4874,40 +5766,45 @@
  "options that are common to all these tools. Only options that are specific "
  "to the Bucket Fill tool are explained here."
  msgstr ""
 +"Se <link linkend=\"gimp-tool-brush\">Målningsverktyg</link> för hjälp med "
 +"alternativ som är gemensamma för verktygen. Här förklaras endast alternativ "
-+"som är specifika för hinkfyllningsverktyget."
++"som är specifika för fyllnadsverktyget."
  
  #: src/toolbox/paint/bucket-fill.xml:140(term)
  msgid "Fill Type"
@@ -5665,7 +5677,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:170(para)
  msgid ""
-@@ -4915,10 +5811,13 @@
+@@ -4915,10 +5812,13 @@
  "use on the next fill operation. The manner in which the list is presented is "
  "controlled by the four buttons at the bottom of the selector."
  msgstr ""
@@ -5680,7 +5692,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:187(para)
  msgid ""
-@@ -4928,6 +5827,11 @@
+@@ -4928,6 +5828,11 @@
  "onto the selection. Also, pressing <keycap>Ctrl</keycap> key allows you to "
  "pick a color on the image as foreground color."
  msgstr ""
@@ -5692,7 +5704,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:197(para)
  msgid ""
-@@ -4936,6 +5840,10 @@
+@@ -4936,6 +5841,10 @@
  "color similarity is defined by options in Finding Similar Colors. Click and "
  "drag to fill."
  msgstr ""
@@ -5703,7 +5715,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:205(para)
  msgid ""
-@@ -4943,6 +5851,9 @@
+@@ -4943,6 +5852,9 @@
  "areas surrounded by <quote>line arts</quote>, trying to leave no unfilled "
  "pixels near the lines, and closing potential zones."
  msgstr ""
@@ -5713,7 +5725,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:211(para)
  msgid ""
-@@ -4950,6 +5861,9 @@
+@@ -4950,6 +5862,9 @@
  "clearly problems he met in <ulink url=\"https://girinstud.io/news/2019/02/"
  "smart-colorization-in-gimp/\"/>. Options are described below."
  msgstr ""
@@ -5723,7 +5735,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:224(term)
  msgid "Finding Similar Colors"
-@@ -4960,12 +5874,16 @@
+@@ -4960,12 +5875,16 @@
  "These options appear when the <guilabel>Fill similar colors</guilabel> "
  "option is checked:"
  msgstr ""
@@ -5740,7 +5752,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:249(para)
  msgid ""
-@@ -4973,12 +5891,15 @@
+@@ -4973,12 +5892,15 @@
  "linkend=\"diagonal-neighbors\">Diagonal-neighbors</link> in Fuzzy Select "
  "tool."
  msgstr ""
@@ -5756,7 +5768,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:263(para)
  msgid ""
-@@ -4986,6 +5907,9 @@
+@@ -4986,6 +5908,9 @@
  "weights are measured for fill boundaries. A higher setting will fill more of "
  "a multi colored image and conversely, a lower setting will fill less area."
  msgstr ""
@@ -5766,7 +5778,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:271(para)
  msgid ""
-@@ -4993,6 +5917,9 @@
+@@ -4993,6 +5918,9 @@
  "of the image GIMP shall use to calculate the similarity and to determine the "
  "borders of filling."
  msgstr ""
@@ -5776,7 +5788,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:276(para)
  msgid ""
-@@ -5004,6 +5931,13 @@
+@@ -5004,6 +5932,13 @@
  "Chroma</guimenuitem>, <guimenuitem>LCh Hue</guimenuitem>, "
  "<guimenuitem>Alpha</guimenuitem>."
  msgstr ""
@@ -5790,7 +5802,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:290(para)
  msgid ""
-@@ -5012,6 +5946,10 @@
+@@ -5012,6 +5947,10 @@
  "pixels similar for <emphasis>the red channel</emphasis> to the clicked "
  "pixel, according to the set threshold. Here is an example:"
  msgstr ""
@@ -5801,13 +5813,13 @@
  
  #: src/toolbox/paint/bucket-fill.xml:297(para)
  msgid ""
-@@ -5019,12 +5957,17 @@
+@@ -5019,12 +5958,17 @@
  "Green (0;255;0), Blue (0;0;255). We are going to use the Bucket-fill tool "
  "with the magenta color and a Threshold set to 15."
  msgstr ""
 +"Ursprunglig bild: tre remsor med toningar av rena färger: röd (255;0;0), "
-+"grön (0;255;0) och blå (0;0;255). Vi använder hinkfyllningsverktyget med "
-+"färgen magenta och tröskelvärdet 15."
++"grön (0;255;0) och blå (0;0;255). Vi använder fyllnadsverktyget med färgen "
++"magenta och tröskelvärdet 15."
  
  #: src/toolbox/paint/bucket-fill.xml:303(para)
  msgid ""
@@ -5819,7 +5831,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:308(para)
  msgid ""
-@@ -5035,6 +5978,12 @@
+@@ -5035,6 +5979,12 @@
  "very much different from the red channel value of the clicked pixel: the "
  "color doesn't spread to them."
  msgstr ""
@@ -5832,7 +5844,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:318(para)
  msgid ""
-@@ -5042,10 +5991,13 @@
+@@ -5042,10 +5992,13 @@
  "the clicked pixel in the red channel is 0. All pixels in the green and the "
  "blue strips have the same red channel value (0): they are all painted."
  msgstr ""
@@ -5847,7 +5859,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:332(para)
  #: src/toolbox/paint/bucket-fill.xml:534(para)
-@@ -5066,7 +6018,7 @@
+@@ -5066,7 +6019,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:369(term)
  msgid "Line Art Detection"
@@ -5856,7 +5868,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:371(para)
  #: src/toolbox/paint/bucket-fill.xml:427(para)
-@@ -5075,16 +6027,21 @@
+@@ -5075,16 +6028,21 @@
  "These options appear when the <guilabel>Fill by line art detection</"
  "guilabel> option is checked:"
  msgstr ""
@@ -5873,13 +5885,13 @@
  "Bucket fill tool applied by click-and-drag with default options. They don't "
  "well fit this image, especially on eyebrows that are almost wiped off."
  msgstr ""
-+"Hinkfyllningsverktyget används genom att klicka och dra med "
-+"standardalternativen. De passar inte bilden särskilt väl, i synnerhet inte "
-+"ögonbrynen som nästan försvinner."
++"Fyllnadsverktyget används genom att klicka och dra med standardalternativen. "
++"De passar inte bilden särskilt väl, i synnerhet inte ögonbrynen som nästan "
++"försvinner."
  
  #: src/toolbox/paint/bucket-fill.xml:399(para)
  msgid ""
-@@ -5094,22 +6051,31 @@
+@@ -5094,22 +6052,31 @@
  "below the selected one</guilabel>, or the <guilabel>Layer above the selected "
  "one</guilabel> as the source."
  msgstr ""
@@ -5912,7 +5924,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:433(para)
  msgid ""
-@@ -5117,6 +6083,9 @@
+@@ -5117,6 +6084,9 @@
  "<guilabel>Maximum gap length</guilabel> defines the maximum gap (in pixels) "
  "in line art which can be closed."
  msgstr ""
@@ -5922,7 +5934,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:440(para)
  msgid ""
-@@ -5124,6 +6093,9 @@
+@@ -5124,6 +6094,9 @@
  "pixels of the selected line art source layer that are using the selected "
  "fill color as line art closure."
  msgstr ""
@@ -5932,7 +5944,7 @@
  
  #: src/toolbox/paint/bucket-fill.xml:445(para)
  msgid ""
-@@ -5131,6 +6103,9 @@
+@@ -5131,6 +6104,9 @@
  "below the selected one</guilabel>, or <guilabel>Layer above the selected "
  "one</guilabel>."
  msgstr ""
@@ -5942,18 +5954,18 @@
  
  #: src/toolbox/paint/bucket-fill.xml:450(para)
  msgid ""
-@@ -5139,6 +6114,10 @@
+@@ -5139,6 +6115,10 @@
  "your color layer. Especially on larger images this can be faster than "
  "selecting <guilabel>All visible layers</guilabel> as source."
  msgstr ""
 +"Om linjeteckningsskissen har hål kan du fylla dessa med en pensel i "
 +"fyllningsfärgen på ett lager över eller under den, innan du använder "
-+"hinkfyllning på färglagret. Särskilt för stora bilder kan detta gå snabbare än "
++"fyllning på färglagret. Särskilt för stora bilder kan detta gå snabbare än "
 +"att välja <guilabel>Alla synliga lager</guilabel> som källa."
  
  #: src/toolbox/paint/bucket-fill.xml:457(para)
  msgid ""
-@@ -5147,65 +6126,76 @@
+@@ -5147,65 +6127,77 @@
  "one</guilabel> can be used when you are sketching yourself and filling the "
  "colors below the sketch."
  msgstr ""
@@ -6015,8 +6027,8 @@
  
  #: src/toolbox/paint/bucket-fill.xml:543(para)
  msgid "After clicking 3 times more with the Bucket-Fill tool"
--msgstr ""
-+msgstr "Efter ytterligare tre klick med hinkfyllningsverktyget"
+ msgstr ""
++"Efter ytterligare tre klick med fyllnadsverktyget"
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
@@ -6038,7 +6050,7 @@
  
  #: src/toolbox/paint/brush-tools.xml:21(secondary)
  msgid "Paint"
-@@ -5213,7 +6203,7 @@
+@@ -5213,7 +6205,7 @@
  
  #: src/toolbox/paint/brush-tools.xml:29(title)
  msgid "Painting example"
@@ -6047,7 +6059,7 @@
  
  #: src/toolbox/paint/brush-tools.xml:36(para)
  msgid ""
-@@ -5221,6 +6211,8 @@
+@@ -5221,6 +6213,8 @@
  "upper left), using the Pencil (left), Paintbrush (middle), and Airbrush "
  "(right)."
  msgstr ""
@@ -6056,7 +6068,7 @@
  
  #: src/toolbox/paint/brush-tools.xml:45(para)
  msgid ""
-@@ -5231,6 +6223,11 @@
+@@ -5231,6 +6225,11 @@
  "specific to an individual tool are described in the section devoted to that "
  "tool."
  msgstr ""
@@ -6068,7 +6080,7 @@
  
  #: src/toolbox/paint/brush-tools.xml:54(para)
  msgid ""
-@@ -5240,6 +6237,10 @@
+@@ -5240,6 +6239,10 @@
  "controllable. This flexibility also makes it a bit more difficult to use "
  "than the Paintbrush, however."
  msgstr ""
@@ -6079,7 +6091,7 @@
  
  #: src/toolbox/paint/brush-tools.xml:61(para)
  msgid ""
-@@ -5247,6 +6248,9 @@
+@@ -5247,6 +6250,9 @@
  "colors, either from the basic palette or from a gradient. All are capable of "
  "painting in a wide variety of modes."
  msgstr ""
@@ -6089,7 +6101,7 @@
  
  #: src/toolbox/paint/brush-tools.xml:75(para)
  msgid ""
-@@ -5256,6 +6260,11 @@
+@@ -5256,6 +6262,11 @@
  "linkend=\"gimp-toolbox-color-area\">Toolbox Color Area</link>) to the color "
  "of the pixel."
  msgstr ""
@@ -6101,7 +6113,7 @@
  
  #: src/toolbox/paint/brush-tools.xml:91(para)
  msgid ""
-@@ -5264,32 +6273,36 @@
+@@ -5264,32 +6275,36 @@
  "will generate a straight line. Consecutive clicks will continue drawing "
  "straight lines that originate from the end of the last line."
  msgstr ""
@@ -6143,7 +6155,7 @@
  
  #: src/toolbox/paint/blur-sharpen.xml:22(para)
  msgid ""
-@@ -5301,6 +6314,12 @@
+@@ -5301,6 +6316,12 @@
  "brushstroke has no effect: if you want directional blurring, use the Smudge "
  "tool."
  msgstr ""
@@ -6156,7 +6168,7 @@
  
  #: src/toolbox/paint/blur-sharpen.xml:31(para)
  msgid ""
-@@ -5311,6 +6330,11 @@
+@@ -5311,6 +6332,11 @@
  "filter-unsharp-mask\">Unsharp Mask</link>, do a much cleaner job of "
  "sharpening areas of a layer."
  msgstr ""
@@ -6168,7 +6180,7 @@
  
  #: src/toolbox/paint/blur-sharpen.xml:41(para)
  msgid ""
-@@ -5324,6 +6348,14 @@
+@@ -5324,6 +6350,14 @@
  "mix together, where the brush is applied, the sharpened version with the "
  "unsharpened version."
  msgstr ""
@@ -6183,7 +6195,7 @@
  
  #: src/toolbox/paint/blur-sharpen.xml:54(para)
  msgid ""
-@@ -5334,18 +6366,26 @@
+@@ -5334,18 +6368,26 @@
  "that can be produced by a single brushstroke, regardless of how many passes "
  "are made with it."
  msgstr ""
@@ -6210,7 +6222,7 @@
  
  #: src/toolbox/paint/blur-sharpen.xml:103(para)
  msgid ""
-@@ -5353,16 +6393,21 @@
+@@ -5353,16 +6395,21 @@
  "link> for a description of key modifiers that have the same effect on all "
  "paint tools."
  msgstr ""
@@ -6233,7 +6245,7 @@
  
  #: src/toolbox/paint/blur-sharpen.xml:166(term)
  msgid "Convolve Type"
-@@ -5378,37 +6423,43 @@
+@@ -5378,37 +6425,43 @@
  "ugly flocculation aspect. Whatever setting you choose here, you can reverse "
  "it on-the-fly by holding down the <keycap>Ctrl</keycap> key."
  msgstr ""
@@ -6283,7 +6295,7 @@
  
  #: src/toolbox/paint/airbrush.xml:16(title)
  #: src/toolbox/paint/airbrush.xml:19(primary)
-@@ -5421,6 +6472,8 @@
+@@ -5421,6 +6474,8 @@
  "The Airbrush tool emulates a traditional airbrush. This tool is suitable for "
  "painting soft areas of color."
  msgstr ""
@@ -6292,7 +6304,7 @@
  
  #: src/toolbox/paint/airbrush.xml:38(para)
  msgid ""
-@@ -5428,16 +6481,20 @@
+@@ -5428,16 +6483,20 @@
  "guimenu><guisubmenu>PaintTools</guisubmenu><guimenuitem>Airbrush</"
  "guimenuitem></menuchoice>."
  msgstr ""
@@ -6314,7 +6326,7 @@
  
  #: src/toolbox/paint/airbrush.xml:87(para)
  msgid ""
-@@ -5447,14 +6504,18 @@
+@@ -5447,14 +6506,18 @@
  "Consecutive clicks will continue drawing straight lines that originate from "
  "the end of the last line."
  msgstr ""
@@ -6335,7 +6347,7 @@
  
  #: src/toolbox/paint/airbrush.xml:144(para)
  msgid ""
-@@ -5462,12 +6523,16 @@
+@@ -5462,12 +6525,16 @@
  "that the airbrush paints. A higher setting will produce darker brush strokes "
  "in a shorter amount of time."
  msgstr ""
@@ -6352,7 +6364,7 @@
  
  #. This file is meant to be included by the paint tools files:
  #.   src/toolbox/paint/*.xml
-@@ -5477,6 +6542,9 @@
+@@ -5477,6 +6544,9 @@
  "Options</link> for a description of tool options that apply to many or all "
  "paint tools."
  msgstr ""
@@ -6362,7 +6374,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -5485,142 +6553,140 @@
+@@ -5485,142 +6555,140 @@
  "@@image: 'images/stock-icons/gimp-tool-mypaint-brush.svg'; "
  "md5=e93b87816a8d4cbb44cf6e8f85c258ed"
  msgstr ""
@@ -6533,7 +6545,7 @@
  
  #: src/toolbox/paint/MyPaint-brush.xml:14(para)
  msgid ""
-@@ -5629,6 +6695,10 @@
+@@ -5629,6 +6697,10 @@
  "linkend=\"gimp-tool-paintbrush\">Paintbrush tool</link>. <acronym>GIMP</"
  "acronym> embeds the MyPaint brush engine in the MyPaint Brush tool."
  msgstr ""
@@ -6544,7 +6556,7 @@
  
  #: src/toolbox/paint/MyPaint-brush.xml:22(para)
  msgid ""
-@@ -5637,16 +6707,22 @@
+@@ -5637,16 +6709,22 @@
  "throughout the Web, often in a compressed format, such as in a "
  "<filename>.zip</filename> file. Unzip this file into a temp folder."
  msgstr ""
@@ -6568,7 +6580,7 @@
  
  #: src/toolbox/paint/MyPaint-brush.xml:46(para)
  msgid ""
-@@ -5654,12 +6730,17 @@
+@@ -5654,12 +6732,17 @@
  "Go to your personal MyPaint folder. If it does not exist yet, you have to "
  "create it, with the brushes directory inside."
  msgstr ""
@@ -6586,7 +6598,7 @@
  
  #: src/toolbox/paint/MyPaint-brush.xml:57(para)
  msgid ""
-@@ -5669,12 +6750,19 @@
+@@ -5669,12 +6752,19 @@
  "folder, create a new folder \"mypaint\". The MyPaint path in Preferences "
  "becomes <filename>C:\\Users\\your-user-name\\mypaint</filename>."
  msgstr ""
@@ -6606,7 +6618,7 @@
  
  #: src/toolbox/paint/MyPaint-brush.xml:31(para)
  msgid ""
-@@ -5682,43 +6770,56 @@
+@@ -5682,43 +6772,56 @@
  "guisubmenu><guimenuitem>MyPaint Brushes</guimenuitem></menuchoice>. There, "
  "you will find the path to your personal Mypaint folder. <placeholder-1/>"
  msgstr ""
@@ -6665,7 +6677,7 @@
  
  #: src/toolbox/paint/MyPaint-brush.xml:167(para)
  msgid ""
-@@ -5726,23 +6827,24 @@
+@@ -5726,23 +6829,24 @@
  "icons, and view as list or as grid. The right most button opens the <link "
  "linkend=\"gimp-mypaint-brush-dialog\">MyPaint Brushes Dialog</link>."
  msgstr ""
@@ -6695,7 +6707,7 @@
  
  #: src/toolbox/paint/MyPaint-brush.xml:188(para)
  msgid ""
-@@ -5750,57 +6852,59 @@
+@@ -5750,57 +6854,59 @@
  "this option to 0.50, the maximal opacity becomes 100 * 0.50 = 50, although "
  "it is still 100.0 in the Opacity option."
  msgstr ""
@@ -6767,7 +6779,7 @@
  
  #: src/toolbox/paint/MyPaint-brush.xml:323(para)
  msgid ""
-@@ -5810,40 +6914,47 @@
+@@ -5810,40 +6916,47 @@
  "* 1.00 = 50. But this possibility is useful when your Mypaint brush has a "
  "default opacity less than 100."
  msgstr ""
@@ -6821,7 +6833,7 @@
  
  #: src/toolbox/paint/MyPaint-brush.xml:398(para)
  msgid ""
-@@ -5851,23 +6962,28 @@
+@@ -5851,23 +6964,28 @@
  "brush strokes softer or harder. If you are using a mouse, then you can "
  "simulate the effects of pressure when painting."
  msgstr ""
@@ -6853,7 +6865,7 @@
  
  #: src/toolbox/paint/MyPaint-brush.xml:432(para)
  msgid ""
-@@ -5875,6 +6991,9 @@
+@@ -5875,6 +6993,9 @@
  "tool, erased areas are transparent if there is an alpha layer, or the "
  "background color if there is no alpha layer."
  msgstr ""
@@ -6863,7 +6875,7 @@
  
  #: src/toolbox/paint/MyPaint-brush.xml:443(para)
  msgid ""
-@@ -5883,6 +7002,10 @@
+@@ -5883,6 +7004,10 @@
  "alpha of the transparent pixels will increase but the alpha of the opaque "
  "pixels will not decrease."
  msgstr ""
