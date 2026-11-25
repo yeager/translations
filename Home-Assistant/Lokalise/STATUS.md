@@ -107,3 +107,11 @@
 - En Autoskope-nyckel har avvikande historisk sökväg; aktuell källväg `additional_settings` dokumenterad och uppföljning markerad i TM.
 - Platshållare verifierade. Core-TMX validerad: 16 543 poster; exporten har 42 639 språkpar och 32 exkluderade nycklar.
 - Granskningen fortsätter.
+
+## 2026-11-25 – Core 24451–24570
+
+- 8 ändringar sparade och återlästa i Lokalise.
+- Alla källnycklar verifierade; IntelliFire Moln-valet kontrollerat mot selector.
+- Platshållare verifierade; svlang natural gav 10/10 på sju texter. Hunspell flaggade korrekt sammansättning `molnkommunikation` som ordlistegap.
+- Core-TMX validerad: 16 551 poster; exporten har 42 641 språkpar och 32 exkluderade nycklar.
+- Granskningen fortsätter.
