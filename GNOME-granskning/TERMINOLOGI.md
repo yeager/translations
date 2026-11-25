@@ -319,3 +319,6 @@ argumentet betyder i just det programmet.
 | Left/Right Trigger | vänster/höger avtryckare | Gamepadens analoga avtryckare. |
 | CRT mask: dot / slot / aperture grille | punktmask / spaltmask / bländargaller | Skärmfilter. |
 | Composite signal | komposit | Videosignal; *sammansatt* är för ospecifikt här. |
+| scanner | skanner | Enheten som digitaliserar bilder; använd *skanner*, inte *bildläsare*. |
+| destripe | ta bort bandning | GIMP-filter som tar bort lodräta band/ränder i bilder. |
+| scale division (tone mapping) | antal skalor | Reglage för antal iterationer/skalor i Retinex-filter. |
