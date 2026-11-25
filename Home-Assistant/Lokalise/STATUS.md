@@ -256,3 +256,11 @@
 - TMX ersatte tidigare mål där samma nyckel och Lokalise-ID redan fanns; nu 17 247 poster och validerad.
 - `svlang skrivregler`: inga fel. Hunspell-träffar för riktningsförkortningar, egennamn, tekniska termer och platshållare bedömdes manuellt.
 - 521 tomma svenska mål och 203 saknade Core-nycklar återstår. Granskningen fortsätter. Rapport: `../2026-11-19-granskning/granskning-empty-targets-001-120.md`.
+
+
+## 2026-11-25 – Tomma mål 121–180
+
+- Ytterligare 60 befintliga tomma svenska mål granskade mot aktuell Core `86a2eabe7e43f526db5821ef068087ce8404ae07`; alla 60 källor och svenska mål verifierades live, sparades och återlästes.
+- 11 unika referensmål kontrollerade; inga avvikelser. Tre tekniska formuleringar i cloud-klientcertifikatfelet förbättrades och återlästes.
+- TMX uppdaterad och validerad: 17 307 poster. `svlang skrivregler` utan fel; platshållare oförändrade.
+- Totalt 180 av 641 tomma mål granskade; 461 tomma mål och 203 saknade aktuella Core-nycklar återstår. Granskningen fortsätter.

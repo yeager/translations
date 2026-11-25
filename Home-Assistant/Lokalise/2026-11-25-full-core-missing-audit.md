@@ -8,7 +8,7 @@ Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 
 - Aktuell HA Core-källa innehåller **67,213** strängnycklar. Lokalise-listningen omfattade **76,341** poster över 153 API-sidor.
 - **203 aktuella källnycklar saknas helt i Lokalise.** Det är en upstream-synkfråga; en tidigare avgränsad `POST /keys`-kontroll gav HTTP 403 för tokenen.
-- **521 källsträngar har fortfarande tomt svenskt mål i befintliga Lokalise-nycklar.** Av dessa är **68** engelska källor referenser till andra HA-nycklar. Alla fullständiga nycklar och källor finns i tabellerna nedan och i den bifogade JSON-filen.
+- **461 källsträngar har fortfarande tomt svenskt mål i befintliga Lokalise-nycklar.** Av dessa är **68** engelska källor referenser till andra HA-nycklar. Alla fullständiga nycklar och källor finns i tabellerna nedan och i den bifogade JSON-filen.
 - 18956 engelska nyckelreferenser jämfördes efter att ha följt aktuell Core-referens. Tre verkliga skillnader mellan Core-källtext och Lokalises engelska registrerades.
 - Lokalise har dessutom 9,311 aktiva nycklar som inte finns i den aktuella Core-källsnapshoten. De kan vara historiska utgångna nycklar; de räknas inte som saknade nuvarande Core-nycklar och bör kontrolleras separat innan eventuell arkivering.
 
@@ -254,21 +254,12 @@ För dessa nycklar finns ingen Lokalise-post att fylla. `source_resolved` följe
 
 ## Befintliga nycklar med tom svensk text
 
-Dessa nycklar finns i Lokalise och har engelska källtext men tomt svenskt mål. Tabellen listar de 521 återstående tomma målen; 120 översatta poster dokumenteras i `2026-11-25-reviewed-empty-targets-001-120.json`. Referensbaserade engelska texter behöver följas till angivet mål innan en svensk text sparas.
+Dessa nycklar finns i Lokalise och har engelska källtext men tomt svenskt mål. Tabellen listar de 461 återstående tomma målen; 180 översatta poster dokumenteras i `2026-11-25-reviewed-empty-targets-001-120.json`. Referensbaserade engelska texter behöver följas till angivet mål innan en svensk text sparas.
 
 ### Antal per komponent
 
 | Komponent | Tomma svenska mål |
 |---|---:|
-| `benq_projector_infrared` | 9 |
-| `bosch_shc` | 12 |
-| `bosch_smart_camera` | 3 |
-| `cloud` | 3 |
-| `control4` | 5 |
-| `daikin_infrared` | 9 |
-| `ecoforest` | 9 |
-| `elkm1` | 6 |
-| `elvia` | 6 |
 | `foreca` | 29 |
 | `fuelprices_dk` | 5 |
 | `fujitsu_infrared` | 21 |
@@ -860,4 +851,4 @@ Skillnaderna gäller escape-/radbrytning i Lyric och Telegram Bot. De bör jämf
 
 ## Uppdatering 2026-11-25 – tidigare tomma mål
 
-120 av de ursprungligen 641 tomma svenska målen har nu granskats mot aktuell HA Core-källa och sparats/återlästs i Lokalise. 521 återstår. 28 unika referensmål kontrollerades live; sex värden (inklusive ett gemensamt Azure-mål) synkroniserades och lästes tillbaka. TMX har uppdaterats. Se batchrapporten `../2026-11-19-granskning/granskning-empty-targets-001-120.md` och manifesten intill denna rapport.
+180 av de ursprungligen 641 tomma svenska målen har nu granskats mot aktuell HA Core-källa och sparats/återlästs i Lokalise. 461 återstår. 38 unika referensmål kontrollerades live; sex värden (inklusive ett gemensamt Azure-mål) synkroniserades i första delbatchen, och inga avvikelser hittades i batch 121–180. TMX har uppdaterats till 17 307 poster. Se batchrapporten `../2026-11-19-granskning/granskning-empty-targets-001-120.md`, `granskning-empty-targets-121-180.md` och manifesten intill denna rapport.
