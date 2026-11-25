@@ -140,6 +140,11 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | Depth Merge (GIMP filter) | Djupsammanfogning | Filter som använder djupmappningar för att avgöra vilka delar av bildlager som visas. |
 | map (Depth Merge) | mappning | Bild som används som mask för att styra sammanfogningen. |
 | gradient (GIMP tool) | toning | Färgövergång som skapas med toningsverktyget; undvik *gradient* i användartext. |
+| default browser | standardwebbläsare | Programmet som öppnar webblänkar som standard. |
+| procedure browser | procedurbläddrare | GIMP-verktyget för att söka i PDB (Procedurdatabasen). |
+| GEGL Filter Browser | GEGL-filterbläddrare | GIMP-verktygets etablerade namn. |
+| Plug-In Browser | Bläddrare för insticksmoduler | GIMP-verktygets etablerade namn; *plug-in* översätts med *insticksmodul*. |
+| issue tracker | ärendehanteringssystem | Plats för felrapporter och önskemål om nya funktioner. |
 | opacity | opacitet | Använd *ogenomskinlighet* i förklarande löptext vid behov. |
 | feather (selection) | mjuka upp kanter | Åtgärd på en markering; substantivet är *kantutjämning* endast när kontexten avser utjämning. |
 | floating selection | flytande markering | GIMP:s särskilda lager-/markeringsläge. |

@@ -1,0 +1,916 @@
+--- original
++++ reviewed
+@@ -1,18 +1,12 @@
+-# Swedish translation for GIMP.
+-# Copyright © 2009-2026 Free Software Foundation, Inc.
+-# This file is distributed under the same license as the gimp-help package.
+-# Daniel Nylander <po@danielnylander.se>, 2009.
+-# Sebastian Rasmussen <sebras@gmail.com>, 2018.
+-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2020, 2022, 2023, 2024, 2025, 2026.
+ #
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: gimp-help menus-help\n"
++"Project-Id-Version: gimp-help — menus~help\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2026-11-24 22:40+0000\n"
+-"PO-Revision-Date: 2026-08-21 01:09+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"POT-Creation-Date: 2026-11-24 22:37+0000\n"
++"PO-Revision-Date: 2026-11-25 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
++"Language-Team: Swedish\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -43,7 +37,7 @@
+ "information."
+ msgstr ""
+ "Kommandot <guimenuitem>Välkomstdialog</guimenuitem> öppnar <link "
+-"linkend=\"gimp-welcome-dialog\">välkomstdialogen</link>. Se den för mer "
++"linkend=\"gimp-welcome-dialog\">välkomstdialogen</link>. Där finns mer "
+ "information."
+ 
+ #: src/menus/help/welcome-dialog.xml:19(title)
+@@ -60,14 +54,14 @@
+ #: src/menus/help/welcome-dialog.xml:20(para)
+ msgid ""
+ "You can access this command from the main menu through "
+-"<menuchoice><guimenu>Help</guimenu><guimenuitem>Welcome Dialog</"
+-"guimenuitem></menuchoice>."
+-msgstr ""
+-"Du kan komma åt detta kommando från huvudmenyn genom "
+-"<menuchoice><guimenu>Hjälp</guimenu><guimenuitem>Välkomstdialog</"
+-"guimenuitem></menuchoice>."
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"<menuchoice><guimenu>Help</guimenu><guimenuitem>Welcome "
++"Dialog</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar kommandot i huvudmenyn under "
++"<menuchoice><guimenu>Hjälp</guimenu><guimenuitem>Välkomstdialog</guimenuitem></menuchoice>."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/help/user-manual.xml:15(None)
+ msgid ""
+@@ -95,12 +89,11 @@
+ "the local or online user manual, either in your browser or in GIMP's own "
+ "help browser."
+ msgstr ""
+-"Kommandot <guimenuitem>Användarhandbok</guimenuitem> visar en undermeny som "
+-"listar länkar till flera delar av användarhandboken. Att klicka på en av dem "
+-"kommer öppna det önskade ämnet i användarhandboken. Beroende på dina <link "
+-"linkend=\"gimp-prefs-help\">hjälpinställningar</link> kommer detta antingen "
+-"öppna den lokala användarhandboken eller den på nätet, och den kommer "
+-"antingen öppnas i din webbläsare eller i GIMPs egen hjälpläsare."
++"Kommandot <guimenuitem>Användarhandbok</guimenuitem> visar en undermeny med "
++"länkar till olika delar av handboken. Klicka på en länk för att öppna det "
++"avsnitt du vill läsa. Beroende på dina <link linkend=\"gimp-prefs-"
++"help\">hjälpinställningar</link> öppnas den lokala handboken eller "
++"nätversionen i webbläsaren eller i GIMP:s egen hjälpvisare."
+ 
+ #: src/menus/help/tip-of-the-day.xml:11(title)
+ #: src/menus/help/tip-of-the-day.xml:15(secondary)
+@@ -110,36 +103,35 @@
+ 
+ #: src/menus/help/tip-of-the-day.xml:21(para)
+ msgid ""
+-"The <guimenuitem>Tip of the Day</guimenuitem> dialog contains useful tips to "
+-"help you gain a better understanding of some of the subtle points of using "
+-"<acronym>GIMP</acronym>. The tips often suggest ways of doing something that "
+-"are much easier or more efficient than more obvious approaches."
+-msgstr ""
+-"Dialogen <guimenuitem>Dagens tips</guimenuitem> innehåller användbara tips "
+-"för att hjälpa dig att få en bättre förståelse för en del av de subtila "
+-"delarna av att använda <acronym>GIMP</acronym>. Tipsen föreslår ofta sätt "
+-"att göra saker på som är mycket lättare eller effektivare än andra mer "
+-"uppenbara arbetssätt."
++"The <guimenuitem>Tip of the Day</guimenuitem> dialog contains useful tips to"
++" help you gain a better understanding of some of the subtle points of using "
++"<acronym>GIMP</acronym>. The tips often suggest ways of doing something that"
++" are much easier or more efficient than more obvious approaches."
++msgstr ""
++"Dialogrutan <guimenuitem>Dagens tips</guimenuitem> innehåller användbara råd"
++" om hur du använder <acronym>GIMP</acronym>. Tipsen visar ofta enklare eller"
++" effektivare sätt att utföra sådant som annars kanske verkar självklart."
+ 
+ #: src/menus/help/tip-of-the-day.xml:28(para)
+ msgid ""
+ "Some tips contain a <guilabel>Learn more</guilabel> link to the "
+ "corresponding <acronym>GIMP</acronym> manual page."
+ msgstr ""
+-"Vissa tips innehåller en länk <guilabel>Läs mer</guilabel> till motsvarande "
+-"manualsida för <acronym>GIMP</acronym>."
++"Vissa tips innehåller länken <guilabel>Läs mer</guilabel> till motsvarande "
++"sida i <acronym>GIMP</acronym>-handboken."
+ 
+ #: src/menus/help/tip-of-the-day.xml:35(para)
+ msgid ""
+ "You can access this command from the main menu through "
+-"<menuchoice><guimenu>Help</guimenu><guimenuitem>Tip of the Day</"
+-"guimenuitem></menuchoice>."
+-msgstr ""
+-"Du kan komma åt detta kommando från huvudmenyn genom "
+-"<menuchoice><guimenu>Hjälp</guimenu><guimenuitem>Dagens tips</guimenuitem></"
+-"menuchoice>."
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"<menuchoice><guimenu>Help</guimenu><guimenuitem>Tip of the "
++"Day</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar kommandot i huvudmenyn under "
++"<menuchoice><guimenu>Hjälp</guimenu><guimenuitem>Dagens "
++"tips</guimenuitem></menuchoice>."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/help/search-and-run.xml:41(None)
+ msgid ""
+@@ -158,28 +150,28 @@
+ #: src/menus/help/search-and-run.xml:15(para)
+ msgid ""
+ "The <guimenuitem>Search and Run a Command</guimenuitem> displays a dialog "
+-"where you can search for all commands that are available in GIMP, even those "
+-"that are not part of the menu. It is a quick and easy way to start a command "
+-"if you don't know exactly where to find it."
+-msgstr ""
+-"<guimenuitem>Sök och kör ett kommando</guimenuitem> visar en dialogruta där "
+-"du kan söka alla kommandon som är tillgängliga i GIMP, även de som inte är "
+-"en del av menyn. Det är ett snabbt och enkelt sätt att starta ett kommando "
+-"om du inte vet exakt var du ska hitta det."
++"where you can search for all commands that are available in GIMP, even those"
++" that are not part of the menu. It is a quick and easy way to start a "
++"command if you don't know exactly where to find it."
++msgstr ""
++"Kommandot <guimenuitem>Sök och kör ett kommando</guimenuitem> öppnar en "
++"dialogruta där du kan söka bland alla kommandon i GIMP, även de som inte "
++"finns i menyerna. Det är ett snabbt och enkelt sätt att starta ett kommando "
++"när du inte vet var det finns."
+ 
+ #: src/menus/help/search-and-run.xml:25(para)
+ msgid ""
+ "You can access this command from the main menu through "
+-"<menuchoice><guimenu>Help</guimenu><guimenuitem>Search and Run a Command</"
+-"guimenuitem></menuchoice>."
+-msgstr ""
+-"Du kan komma åt detta kommando från huvudmenyn genom "
+-"<menuchoice><guimenu>Hjälp</guimenu><guimenuitem>Sök och kör ett kommando</"
+-"guimenuitem></menuchoice>."
++"<menuchoice><guimenu>Help</guimenu><guimenuitem>Search and Run a "
++"Command</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar kommandot i huvudmenyn under "
++"<menuchoice><guimenu>Hjälp</guimenu><guimenuitem>Sök och kör ett "
++"kommando</guimenuitem></menuchoice>."
+ 
+ #: src/menus/help/search-and-run.xml:35(title)
+ msgid "Description of the dialog"
+-msgstr "Beskrivning av dialogen"
++msgstr "Beskrivning av dialogrutan"
+ 
+ #: src/menus/help/search-and-run.xml:37(title)
+ msgid "<quote>Search and Run a Command</quote> window"
+@@ -187,23 +179,21 @@
+ 
+ #: src/menus/help/search-and-run.xml:46(para)
+ msgid ""
+-"When you have not entered any search text yet, this window will be empty. As "
+-"soon as you start typing, GIMP will show all commands that contain the "
++"When you have not entered any search text yet, this window will be empty. As"
++" soon as you start typing, GIMP will show all commands that contain the "
+ "search phrase you entered."
+ msgstr ""
+-"När du inte matat in någon söktext ännu kommer fönstret vara tomt. Så fort "
+-"du börjar skriva kommer GIMP visa alla kommandon som innehåller sökfrasen "
+-"som du matat in."
++"Fönstret är tomt tills du börjar skriva. Då visar GIMP alla kommandon som "
++"innehåller söktexten."
+ 
+ #: src/menus/help/search-and-run.xml:51(para)
+ msgid ""
+ "When you see the command that you are looking for in the list, you can "
+ "double click on that command to start it."
+-msgstr ""
+-"När du ser kommandot som du söker i listan kan du dubbelklicka på det för "
+-"att starta det."
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++msgstr "Dubbelklicka på kommandot i listan för att starta det."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/help/procedure-browser.xml:48(None)
+ msgid ""
+@@ -238,18 +228,17 @@
+ "plug-ins."
+ msgstr ""
+ "Kommandot <guimenuitem>Procedurbläddrare</guimenuitem> visar procedurerna i "
+-"procedurdatabasen <link linkend=\"glossary-pdb\">PDB</link>. Dessa "
+-"procedurer är funktioner som anropas av skript eller instick."
++"<link linkend=\"glossary-pdb\">PDB</link> (Procedurdatabasen). Procedurerna "
++"är funktioner som anropas av skript och insticksmoduler."
+ 
+ #: src/menus/help/procedure-browser.xml:28(para)
+ msgid ""
+ "You can access this command from the main menu through "
+-"<menuchoice><guimenu>Help</guimenu><guimenuitem>Procedure Browser</"
+-"guimenuitem></menuchoice>."
+-msgstr ""
+-"Du kan komma åt detta kommando från huvudmenyn genom "
+-"<menuchoice><guimenu>Hjälp</guimenu><guimenuitem>Procedurbläddrare</"
+-"guimenuitem></menuchoice>."
++"<menuchoice><guimenu>Help</guimenu><guimenuitem>Procedure "
++"Browser</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar kommandot i huvudmenyn under "
++"<menuchoice><guimenu>Hjälp</guimenu><guimenuitem>Procedurbläddrare</guimenuitem></menuchoice>."
+ 
+ #: src/menus/help/procedure-browser.xml:38(title)
+ msgid "Description of the <quote>Procedure Browser</quote> dialog window"
+@@ -267,11 +256,11 @@
+ "specific procedure by querying the procedural database with a regular "
+ "expression on <guilabel>Search:</guilabel> text box:"
+ msgstr ""
+-"Figuren ovan visar dialogfönstret <guilabel>Procedurbläddrare</guilabel>. Om "
+-"du klickar på ett objekt i den rullande listan till vänster så visas "
+-"informationen om den till höger. Du kan också söka efter en specifik "
+-"procedur genom att skicka en förfrågan till procedurdatabasen med ett "
+-"reguljärt uttryck via textrutan <guilabel>Sök:</guilabel>:"
++"Bilden ovan visar dialogrutan <guilabel>Procedurbläddrare</guilabel>. Klicka"
++" på ett objekt i den rullningsbara listan till vänster för att visa "
++"information om det till höger. Du kan också söka efter en viss procedur "
++"genom att använda ett reguljärt uttryck i textrutan "
++"<guilabel>Sök:</guilabel> och söka i procedurdatabasen:"
+ 
+ #: src/menus/help/procedure-browser.xml:61(term)
+ #: src/menus/help/plug-in-gegl-filter-browser.xml:69(term)
+@@ -282,9 +271,7 @@
+ msgid ""
+ "Shows a list of procedures which have code names that contain the part of "
+ "the name you entered."
+-msgstr ""
+-"Visar en lista över procedurer som har kodnamn som innehåller delen av "
+-"namnet som du angav."
++msgstr "Visar procedurer vars kodnamn innehåller den text du angav."
+ 
+ #: src/menus/help/procedure-browser.xml:70(term)
+ #: src/menus/help/plug-in-gegl-filter-browser.xml:94(term)
+@@ -295,9 +282,7 @@
+ msgid ""
+ "Shows a list of procedures which have blurbs that contain the word you "
+ "entered."
+-msgstr ""
+-"Visar en lista över procedurer som har beskrivningar som innehåller ordet du "
+-"angav."
++msgstr "Visar procedurer vars beskrivning innehåller det angivna ordet."
+ 
+ #: src/menus/help/procedure-browser.xml:79(term)
+ msgid "by help"
+@@ -308,8 +293,7 @@
+ "Shows a list of procedures which have additional information text that "
+ "contains the word you entered."
+ msgstr ""
+-"Visar en lista över procedurer som har ytterligare informationstext som "
+-"innehåller ordet som du angav."
++"Visar procedurer vars tilläggsinformation innehåller det angivna ordet."
+ 
+ #: src/menus/help/procedure-browser.xml:88(term)
+ msgid "by authors"
+@@ -320,8 +304,8 @@
+ "Shows a list of procedures created by the author whose name contains the "
+ "word you entered."
+ msgstr ""
+-"Visar en lista över procedurer som skapats av den upphovsman vars namn "
+-"innehåller ordet du angav."
++"Visar procedurer som har skapats av upphovspersoner vars namn innehåller det"
++" angivna ordet."
+ 
+ #: src/menus/help/procedure-browser.xml:97(term)
+ msgid "by copyright"
+@@ -332,8 +316,8 @@
+ "Shows a list of procedures whose copyright are hold by someone whose name "
+ "contains the word you entered."
+ msgstr ""
+-"Visar en lista över procedurer vilkas upphovsrätt hålls av någon vars namn "
+-"innehåller det namn du angav."
++"Visar procedurer där upphovsrättsinnehavarens namn innehåller det angivna "
++"ordet."
+ 
+ #: src/menus/help/procedure-browser.xml:106(term)
+ msgid "by date"
+@@ -343,20 +327,19 @@
+ msgid ""
+ "Shows a list of procedures which have a date of a year which matches the "
+ "year you entered."
+-msgstr ""
+-"Visar en lista över procedurer som har ett datum som matchar det år du angav."
++msgstr "Visar procedurer med ett datum som innehåller det angivna året."
+ 
+ #: src/menus/help/procedure-browser.xml:113(para)
+ msgid ""
+ "This query is processed with text but not date value, so you cannot find "
+-"some procedure entries even if their date contains the year you entered. For "
+-"example, a procedure dated 2000-2005 does not match if you search procedures "
+-"with 2001, but it matches with 2000 or 2005."
+-msgstr ""
+-"Denna förfrågan hanteras som text, inte datumvärden, så ibland kanske du "
+-"inte kan hitta procedurer vars datum inkluderar det år du angivit. Till "
+-"exempel kommer en procedur daterad 2000-2005 inte att matcha en sökning "
+-"efter 2001, men matchar sökningar efter 2000 eller 2005."
++"some procedure entries even if their date contains the year you entered. For"
++" example, a procedure dated 2000-2005 does not match if you search "
++"procedures with 2001, but it matches with 2000 or 2005."
++msgstr ""
++"Sökningen görs på text, inte på datumvärden. Därför hittar du inte alltid "
++"procedurer vars datum omfattar det år du söker efter. En procedur daterad "
++"2000–2005 hittas till exempel inte vid sökning efter 2001, men däremot vid "
++"sökning efter 2000 eller 2005."
+ 
+ #: src/menus/help/procedure-browser.xml:124(term)
+ msgid "by type"
+@@ -365,14 +348,15 @@
+ #: src/menus/help/procedure-browser.xml:126(para)
+ msgid ""
+ "Shows a list of procedures which have one of four types: <quote>Internal "
+-"GIMP procedure</quote>, <quote>GIMP Plug-In </quote>, <quote>GIMP Extension</"
+-"quote>, or <quote>Temporary Procedure</quote>."
+-msgstr ""
+-"Visar en lista över procedurer som har endera av fyra typer: <quote>Intern "
+-"GIMP-procedur</quote>, <quote>GIMP-insticksmodul</quote>, <quote>GIMP-"
++"GIMP procedure</quote>, <quote>GIMP Plug-In </quote>, <quote>GIMP "
++"Extension</quote>, or <quote>Temporary Procedure</quote>."
++msgstr ""
++"Visar procedurer av någon av följande fyra typer: <quote>Intern GIMP-"
++"procedur</quote>, <quote>GIMP-insticksmodul </quote>, <quote>GIMP-"
+ "tillägg</quote> eller <quote>Tillfällig procedur</quote>."
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/help/plug-in-gegl-filter-browser.xml:44(None)
+ msgid ""
+@@ -398,20 +382,20 @@
+ "scripts. These filters perform image related actions and may have one or "
+ "more parameters that can be adjusted."
+ msgstr ""
+-"Kommandot <guimenuitem>GEGL-filterbläddrare</guimenuitem> visar de "
+-"tillgängliga <acronym>GEGL</acronym>-filter som kan anropas av "
+-"insticksmoduler eller skript. Dessa filter utför bildrelaterade åtgärder och "
+-"kan ha en eller flera parametrar som kan justeras."
++"Kommandot <guimenuitem>GEGL-filterbläddrare</guimenuitem> visar tillgängliga"
++" <acronym>GEGL</acronym>-filter som kan anropas från insticksmoduler eller "
++"skript. Filtren utför bildrelaterade åtgärder och kan ha en eller flera "
++"justerbara parametrar."
+ 
+ #: src/menus/help/plug-in-gegl-filter-browser.xml:24(para)
+ msgid ""
+ "You can access this command from the main menu through "
+-"<menuchoice><guimenu>Help</guimenu><guimenuitem>GEGL Filter Browser</"
+-"guimenuitem></menuchoice>."
++"<menuchoice><guimenu>Help</guimenu><guimenuitem>GEGL Filter "
++"Browser</guimenuitem></menuchoice>."
+ msgstr ""
+ "Du kan komma åt detta kommando från huvudmenyn genom "
+-"<menuchoice><guimenu>Hjälp</guimenu><guimenuitem>GEGL-filterbläddrare</"
+-"guimenuitem></menuchoice>."
++"<menuchoice><guimenu>Hjälp</guimenu><guimenuitem>GEGL-"
++"filterbläddrare</guimenuitem></menuchoice>."
+ 
+ #: src/menus/help/plug-in-gegl-filter-browser.xml:34(title)
+ msgid "Description of the <quote>GEGL Filter Browser</quote> dialog window"
+@@ -427,8 +411,8 @@
+ "window. If you click on an item in the list on the left, information about "
+ "the filter is displayed on the right."
+ msgstr ""
+-"Figuren ovan visar dialogfönstret <guilabel>GEGL-filterbläddrare</guilabel>. "
+-"Om du klickar på ett objekt i listan till vänster så visas information om "
++"Figuren ovan visar dialogfönstret <guilabel>GEGL-filterbläddrare</guilabel>."
++" Om du klickar på ett objekt i listan till vänster så visas information om "
+ "filtret till höger."
+ 
+ #: src/menus/help/plug-in-gegl-filter-browser.xml:53(para)
+@@ -440,12 +424,11 @@
+ "default value, and minimum and maximum values allowed. Below that, it will "
+ "show additional information, like the license."
+ msgstr ""
+-"För det valda filtret visar det först grundläggande information: namnet det "
+-"kan anropas med, kategorin det tillhör, och en beskrivning av vad filtret "
+-"gör. Efter det visas information om dess parametrar (om några). För varje "
+-"parameter visar det namnet, datatypen som krävs, dess standardvärde, och "
+-"minsta och största tillåtna värde. Under det kommer det visa ytterligare "
+-"information, som licensen."
++"För det valda filtret visas först grundläggande information: dess "
++"anropsnamn, kategori och funktion. Därefter visas eventuella parametrar. För"
++" varje parameter visas namn, datatyp, standardvärde samt tillåtna minimi- "
++"och maximivärden. Längst ned finns ytterligare information, till exempel "
++"licens."
+ 
+ #: src/menus/help/plug-in-gegl-filter-browser.xml:62(para)
+ msgid ""
+@@ -453,17 +436,16 @@
+ "Search text box. You can choose on what part of the filter information the "
+ "search is performed:"
+ msgstr ""
+-"Du kan söka efter ett specifikt filter genom att fråga filterdatabasen i "
+-"textrutan Sök. Du kan välja på vilken del av filterinformationen som "
+-"sökningen utförs:"
++"Sök efter ett visst filter i filterdatabasen genom att skriva i sökrutan. Du"
++" kan välja vilken del av filterinformationen som ska genomsökas:"
+ 
+ #: src/menus/help/plug-in-gegl-filter-browser.xml:71(para)
+ msgid ""
+ "Searches only the name of the filter. It shows a list of filters which have "
+ "the text you entered at the start of a word that is part of the name."
+ msgstr ""
+-"Söker endast namnet på filtret. Det visar en lista över filter som har "
+-"texten som du matat in i början på ett ord som är en del av namnet."
++"Söker bara i filtrets namn. Listan visar filter där något av orden i namnet "
++"börjar med den angivna texten."
+ 
+ #: src/menus/help/plug-in-gegl-filter-browser.xml:79(term)
+ msgid "by title"
+@@ -474,29 +456,30 @@
+ "Searches the title of the filter. It shows a list of filters which have the "
+ "text you entered anywhere as part of the title."
+ msgstr ""
+-"Söker titeln på filtret. Det visar en lista över filter som har texten som "
+-"du matat in var som helst som en del av titeln."
++"Söker i filtrets rubrik. Listan visar filter vars rubrik innehåller den "
++"angivna texten."
+ 
+ #: src/menus/help/plug-in-gegl-filter-browser.xml:85(para)
+ msgid ""
+ "The difference with searching by name is, that the title is how you would "
+-"write about the filter, e.g. <quote>Gaussian Blur</quote>, while the name is "
+-"how you would call the filter in your code, e.g. <quote>gegl:gaussian-blur</"
+-"quote>."
+-msgstr ""
+-"Skillnaden mot att söka efter namn är att titeln är hur du skulle skriva om "
+-"filtret, t.ex. <quote>Gaussisk oskärpa</quote>, medan namnet är hur du "
+-"skulle anropa filtret i din kod, t.ex. <quote>gegl:gaussian-blur</quote>."
++"write about the filter, e.g. <quote>Gaussian Blur</quote>, while the name is"
++" how you would call the filter in your code, e.g. <quote>gegl:gaussian-"
++"blur</quote>."
++msgstr ""
++"En rubrik är filtrets läsbara namn, till exempel <quote>Gaussisk "
++"oskärpa</quote>. Namnet är däremot den identifierare som används i kod, till"
++" exempel <quote>gegl:gaussian-blur</quote>."
+ 
+ #: src/menus/help/plug-in-gegl-filter-browser.xml:96(para)
+ msgid ""
+ "Searches the description of what the filter does. The text entered can be "
+ "anywhere in the description."
+ msgstr ""
+-"Söker i beskrivningen av vad filtret gör. Texten som matats in kan vara var "
+-"som helst i beskrivningen."
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"Söker i filtrets beskrivning. Den angivna texten kan finnas var som helst i "
++"beskrivningen."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/help/plug-in-browser.xml:53(None)
+ msgid ""
+@@ -506,7 +489,8 @@
+ "@@image: 'images/menus/help/plug-in-browser-list.png'; "
+ "md5=506935bfba07e7d921149e5a19c09272"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/help/plug-in-browser.xml:76(None)
+ msgid ""
+@@ -532,29 +516,28 @@
+ msgid ""
+ "The <guimenuitem>Plug-In Browser</guimenuitem> command displays a dialog "
+ "window which shows all of the extensions (plug-ins) which are currently "
+-"loaded in <acronym>GIMP</acronym>, both as a list and as a hierarchical tree "
+-"structure. Since many of the filters are actually plug-ins, you will "
++"loaded in <acronym>GIMP</acronym>, both as a list and as a hierarchical tree"
++" structure. Since many of the filters are actually plug-ins, you will "
+ "certainly see many familiar names here. Please note that you do not run the "
+ "extensions from this dialog window. Use the appropriate menu entry to do "
+ "that instead. For example, you can run filter plug-ins by using the "
+ "<guimenuitem>Filter</guimenuitem> command on the main menu."
+ msgstr ""
+-"Kommandot <guimenuitem>Bläddrare för insticksmoduler</guimenuitem> visar ett "
+-"dialogfönster som innehåller alla tilläggen (insticksmodulerna) som för "
+-"närvarande är inlästa i <acronym>GIMP</acronym> både som en lista och som en "
+-"hierarkisk trädstruktur. Då många av filtren faktiskt är insticksmoduler "
+-"kommer du säkerligen att se många bekanta namn här. Notera att du inte kör "
+-"insticksmodulerna från detta dialogfönster. Använd istället lämpligt "
+-"menyobjekt för att göra detta. Till exempel kan du köra filterinstick genom "
+-"kommandot <guimenuitem>Filter</guimenuitem> i huvudmenyn."
++"Kommandot <guimenuitem>Bläddrare för insticksmoduler</guimenuitem> öppnar en"
++" dialogruta med alla tillägg (insticksmoduler) som för närvarande är inlästa"
++" i <acronym>GIMP</acronym>. De visas både som en lista och som ett "
++"hierarkiskt träd. Många filter är insticksmoduler, så du känner säkert igen "
++"flera namn. Du kan inte starta insticksmoduler från dialogrutan; använd i "
++"stället motsvarande menykommando. Filterinsticksmoduler startas till exempel"
++" via kommandot <guimenuitem>Filter</guimenuitem> i huvudmenyn."
+ 
+ #: src/menus/help/plug-in-browser.xml:33(para)
+ msgid ""
+ "You can access this command from the main menu through "
+-"<menuchoice><guimenu>Help</guimenu><guimenuitem>Plug-in Browser</"
+-"guimenuitem></menuchoice>."
+-msgstr ""
+-"Du kan komma åt detta kommando från huvudmenyn genom "
++"<menuchoice><guimenu>Help</guimenu><guimenuitem>Plug-in "
++"Browser</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar kommandot i huvudmenyn under "
+ "<menuchoice><guimenu>Hjälp</guimenu><guimenuitem>Bläddrare för "
+ "insticksmoduler</guimenuitem></menuchoice>."
+ 
+@@ -569,15 +552,15 @@
+ 
+ #: src/menus/help/plug-in-browser.xml:57(para)
+ msgid ""
+-"The figure above shows the list view of the <guilabel>Plug-In Browser</"
+-"guilabel>. You can click on the name of a plug-in in the scrolled window to "
+-"display more information about it. Select the <guilabel>List View</guilabel> "
+-"by clicking on the tab at the top of the dialog."
+-msgstr ""
+-"Figuren ovan visar listvyn från <guilabel>Bläddrare för insticksmoduler</"
+-"guilabel>. Du kan klicka på ett insticks namn i fönstret för att visa mer "
+-"information om det. Välj <guilabel>Listvy</guilabel> genom att klicka på "
+-"fliken längst upp i dialogen."
++"The figure above shows the list view of the <guilabel>Plug-In "
++"Browser</guilabel>. You can click on the name of a plug-in in the scrolled "
++"window to display more information about it. Select the <guilabel>List "
++"View</guilabel> by clicking on the tab at the top of the dialog."
++msgstr ""
++"Bilden ovan visar listvyn i <guilabel>Bläddrare för "
++"insticksmoduler</guilabel>. Klicka på en insticksmodul i den rullningsbara "
++"listan för att visa mer information. Välj <guilabel>Listvy</guilabel> genom "
++"att klicka på fliken högst upp i dialogrutan."
+ 
+ #: src/menus/help/plug-in-browser.xml:64(para)
+ #: src/menus/help/plug-in-browser.xml:88(para)
+@@ -586,9 +569,9 @@
+ "the <guilabel>Search:</guilabel> text box. The left part of the dialog then "
+ "displays the matches found."
+ msgstr ""
+-"Du kan söka efter ett instick efter namn genom att mata in en del av eller "
+-"hela namnet i textrutan <guilabel>Sök:</guilabel>. Den vänstra delen av "
+-"dialogrutan visar sedan träffarna som hittats."
++"Sök efter en insticksmodul genom att skriva hela eller delar av dess namn i "
++"textrutan <guilabel>Sök:</guilabel>. Träffarna visas till vänster i "
++"dialogrutan."
+ 
+ #: src/menus/help/plug-in-browser.xml:70(title)
+ msgid "The tree view of the <quote>Plug-In Browser</quote> dialog window"
+@@ -597,22 +580,22 @@
+ 
+ #: src/menus/help/plug-in-browser.xml:80(para)
+ msgid ""
+-"The figure above shows the tree view of the <guilabel>Plug-In Browser</"
+-"guilabel>. You can click on the name of a plug-in in the scrolled window to "
+-"display more information about it. You can click on the arrowheads to expand "
+-"or contract parts of the tree. Select the <guilabel>Tree View</guilabel> by "
+-"clicking on the tab at the top of the dialog."
+-msgstr ""
+-"Figuren ovan visar trädvyn för <guilabel>Bläddrare för insticksmoduler</"
+-"guilabel>. Du kan klicka på namnet för ett instick i fönstret för att visa "
+-"mer information om det. Du kan klicka på pilarna för att expandera eller "
+-"fälla ihop delar av trädet. Välj <guilabel>Trädvy</guilabel> genom att "
+-"klicka på fliken längst upp i dialogen."
++"The figure above shows the tree view of the <guilabel>Plug-In "
++"Browser</guilabel>. You can click on the name of a plug-in in the scrolled "
++"window to display more information about it. You can click on the arrowheads"
++" to expand or contract parts of the tree. Select the <guilabel>Tree "
++"View</guilabel> by clicking on the tab at the top of the dialog."
++msgstr ""
++"Bilden ovan visar trädvyn i <guilabel>Bläddrare för "
++"insticksmoduler</guilabel>. Klicka på en insticksmodul i den rullningsbara "
++"listan för att visa mer information. Klicka på pilarna för att fälla ut "
++"eller ihop delar av trädet. Välj <guilabel>Trädvy</guilabel> genom att "
++"klicka på fliken högst upp i dialogrutan."
+ 
+ #: src/menus/help/plug-in-browser.xml:94(para)
+ msgid ""
+-"Not everything in these huge dialog windows is visible at the same time. Use "
+-"the scroll bars to view their content."
++"Not everything in these huge dialog windows is visible at the same time. Use"
++" the scroll bars to view their content."
+ msgstr ""
+ "Allting i dessa stora dialogfönster syns inte samtidigt. Använd "
+ "rullningslisterna för att visa deras innehåll."
+@@ -632,8 +615,8 @@
+ "In this section, you will find help for commands in the "
+ "<menuchoice><guimenu>Help</guimenu></menuchoice> menu."
+ msgstr ""
+-"I detta avsnitt hittar du hjälp för kommandon i <menuchoice><guimenu>Hjälp</"
+-"guimenu></menuchoice>-menyn."
++"I det här avsnittet beskrivs kommandona i menyn "
++"<menuchoice><guimenu>Hjälp</guimenu></menuchoice>."
+ 
+ #: src/menus/help/introduction.xml:23(title)
+ msgid "The Contents of the <quote>Help</quote> Menu"
+@@ -641,44 +624,42 @@
+ 
+ #: src/menus/help/help.xml:17(para)
+ msgid ""
+-"The <guimenuitem>Help</guimenuitem> command displays the <acronym>GIMP</"
+-"acronym> User Manual in your default browser."
+-msgstr ""
+-"<guimenuitem>Hjälp</guimenuitem>-kommandot visar <acronym>GIMP</acronym>s "
+-"användarhandbok i din standardbläddrare."
++"The <guimenuitem>Help</guimenuitem> command displays the "
++"<acronym>GIMP</acronym> User Manual in your default browser."
++msgstr ""
++"Kommandot <guimenuitem>Hjälp</guimenuitem> öppnar <acronym>GIMP</acronym>s "
++"användarhandbok i din standardwebbläsare."
+ 
+ #: src/menus/help/help.xml:21(para)
+ msgid ""
+ "You can choose whether you prefer to use a locally installed copy of the "
+-"manual, or the online version, in the <link linkend=\"gimp-prefs-help\">Help "
+-"System</link> section of the <guimenu>Preferences</guimenu> dialog."
+-msgstr ""
+-"Du kan välja huruvida du vill använda en lokalt installerad kopia av "
+-"handboken eller nätversionen. Detta kan du göra i avsnittet <link "
+-"linkend=\"gimp-prefs-help\">Hjälpsystem</link> i dialogen "
+-"<guimenu>Inställningar</guimenu>."
++"manual, or the online version, in the <link linkend=\"gimp-prefs-help\">Help"
++" System</link> section of the <guimenu>Preferences</guimenu> dialog."
++msgstr ""
++"I avsnittet <link linkend=\"gimp-prefs-help\">Hjälpsystem</link> i "
++"dialogrutan <guimenu>Inställningar</guimenu> väljer du om du vill använda en"
++" lokalt installerad kopia av handboken eller nätversionen."
+ 
+ #: src/menus/help/help.xml:27(para)
+ msgid ""
+ "If the help does not seem to work when you have selected local help, please "
+-"verify that the <quote>GIMP User Manual</quote> is installed on your system. "
+-"See the link above for more information."
+-msgstr ""
+-"Om hjälpen inte verkar fungera när du har valt lokal hjälp, verifiera att "
+-"<quote>GIMPs användarhandbok</quote> är installerad på ditt system. Se "
+-"länken ovan för mer information."
++"verify that the <quote>GIMP User Manual</quote> is installed on your system."
++" See the link above for more information."
++msgstr ""
++"Om hjälpen inte fungerar när du har valt lokal hjälp, kontrollera att "
++"<quote>GIMP:s användarhandbok</quote> är installerad. Mer information finns "
++"via länken ovan."
+ 
+ #: src/menus/help/help.xml:36(para)
+ msgid ""
+ "You can access this command from the main menu through "
+-"<menuchoice><shortcut><keycap>F1</keycap></shortcut><guimenu>Help</"
+-"guimenu><guimenuitem>Help</guimenuitem></menuchoice>."
++"<menuchoice><shortcut><keycap>F1</keycap></shortcut><guimenu>Help</guimenu><guimenuitem>Help</guimenuitem></menuchoice>."
+ msgstr ""
+ "Du kan komma åt detta kommando från huvudmenyn via "
+-"<menuchoice><shortcut><keycap>F1</keycap></shortcut><guimenu>Hjälp</"
+-"guimenu><guimenuitem>Hjälp</guimenuitem></menuchoice>."
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"<menuchoice><shortcut><keycap>F1</keycap></shortcut><guimenu>Hjälp</guimenu><guimenuitem>Hjälp</guimenuitem></menuchoice>."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/help/gimp-online.xml:26(None)
+ msgid ""
+@@ -708,10 +689,9 @@
+ "aspects of <acronym>GIMP</acronym>. You can click on one of the menu items "
+ "and your web browser will try to connect to the URL."
+ msgstr ""
+-"Kommandot <guimenuitem>GIMP på nätet</guimenuitem> visar en undermeny vilken "
+-"länkar till flera användbara webbplatser som har att göra med diverse "
+-"aspekter av <acronym>GIMP</acronym>. Du kan klicka på endera av menyobjekten "
+-"så kommer din webbläsare att försöka att ansluta till URL:en."
++"Kommandot <guimenuitem>GIMP på nätet</guimenuitem> visar en undermeny med "
++"länkar till webbplatser som rör olika delar av <acronym>GIMP</acronym>. "
++"Klicka på ett menyalternativ för att öppna länken i webbläsaren."
+ 
+ #: src/menus/help/gimp-online.xml:38(term)
+ msgid "Bug Reports and Feature Requests"
+@@ -731,15 +711,14 @@
+ msgid ""
+ "The issue tracker is the best place to let us know about bugs and feature "
+ "requests. Please check first if there is already an existing issue that "
+-"describes your problem. If you open a new issue, please make sure to include "
+-"all relevant information, like your exact GIMP version, your Operating "
++"describes your problem. If you open a new issue, please make sure to include"
++" all relevant information, like your exact GIMP version, your Operating "
+ "System, a screenshot, or a sample image."
+ msgstr ""
+-"Ärendehanteringssystemet är det bästa stället att meddela oss om fel och "
+-"önskemål om funktionalitet. Kontrollera först om det redan finns ett "
+-"befintligt ärende som beskriver ditt problem. Se om du öppnar ett nytt "
+-"ärende till att inkludera all relevant information, som din GIMP-version, "
+-"ditt operativsystem, en skärmbild eller en exempelbild."
++"Ärendehanteringssystemet är rätt plats för att rapportera fel och önskemål "
++"om nya funktioner. Kontrollera först om ditt problem redan har ett ärende. "
++"Om du skapar ett nytt ärende tar du med all relevant information, till "
++"exempel exakt GIMP-version, operativsystem, skärmbild eller exempelbild."
+ 
+ #: src/menus/help/gimp-online.xml:61(term)
+ msgid "Developer Web Site"
+@@ -750,8 +729,8 @@
+ "The developer website is the place to start if you are interested in "
+ "building <acronym>GIMP</acronym> yourself and helping out with development."
+ msgstr ""
+-"Webbplatsen för utvecklare är stället att starta om du är intresserad av att "
+-"bygga <acronym>GIMP</acronym> själv och hjälpa till med utveckling."
++"Börja på utvecklarwebbplatsen om du vill bygga <acronym>GIMP</acronym> själv"
++" eller bidra till utvecklingen."
+ 
+ #: src/menus/help/gimp-online.xml:71(term)
+ msgid "Main Web Site"
+@@ -770,7 +749,7 @@
+ "This website gives a rough overview of the planned development of "
+ "<acronym>GIMP</acronym>."
+ msgstr ""
+-"Denna webbplats ger en snabb översikt över den planerade utvecklingen av "
++"Webbplatsen ger en översikt över den planerade utvecklingen av "
+ "<acronym>GIMP</acronym>."
+ 
+ #: src/menus/help/gimp-online.xml:88(term)
+@@ -783,10 +762,9 @@
+ "available languages, links to quickreference guides, Windows installers to "
+ "be able to view the manual offline, and links to source releases."
+ msgstr ""
+-"Webbplatsen för användarhandboken ger åtkomst till användarhandböckerna på "
+-"alla tillgängliga språk, länkar till snabbreferensguider, Windows-"
+-"installerare för att kunna se handboken i frånkopplat läge, och länkar till "
+-"källkodsutgåvor."
++"På webbplatsen finns användarhandböcker på alla tillgängliga språk, "
++"snabbreferensguider, Windows-installationsprogram för att läsa handboken "
++"utan internetanslutning och länkar till källkodsutgåvor."
+ 
+ #: src/menus/help/context-help.xml:11(title)
+ msgid "Context Help"
+@@ -800,38 +778,37 @@
+ msgid ""
+ "The <guimenuitem>Context Help</guimenuitem> command makes the mouse pointer "
+ "context-sensitive and changes its shape to a <quote>?</quote>. You can then "
+-"click on a window, dialog or menu entry and <acronym>GIMP</acronym> displays "
+-"help about it, if it is available. You can also access context help at any "
+-"time by pressing the <keycap>F1</keycap> key while the mouse pointer is over "
+-"the object you would like help about."
+-msgstr ""
+-"Kommandot <guimenuitem>Sammanhangshjälp</guimenuitem> gör musmarkören "
+-"sammanhangskänslig och ändrar dess form till ett <quote>?</quote>. Du kan "
+-"därefter klicka på ett fönster, en dialog eller ett menyobjekt så kommer "
+-"<acronym>GIMP</acronym> att visa hjälp om det, om hjälp finns tillgänglig. "
+-"Du kan också nå sammanhangshjälpen när som helst genom att trycka på "
+-"<keycap>F1</keycap>-tangenten medan musmarkören är ovanför objektet som du "
+-"vill ha hjälp med."
++"click on a window, dialog or menu entry and <acronym>GIMP</acronym> displays"
++" help about it, if it is available. You can also access context help at any "
++"time by pressing the <keycap>F1</keycap> key while the mouse pointer is over"
++" the object you would like help about."
++msgstr ""
++"Kommandot <guimenuitem>Sammanhangshjälp</guimenuitem> gör muspekaren "
++"sammanhangskänslig och ändrar den till <quote>?</quote>. Klicka sedan på ett"
++" fönster, en dialogruta eller ett menyalternativ så visar "
++"<acronym>GIMP</acronym> hjälp om det, om sådan finns. Du kan också visa "
++"sammanhangshjälp när som helst genom att trycka på <keycap>F1</keycap> medan"
++" pekaren är över objektet du vill ha hjälp med."
+ 
+ #: src/menus/help/context-help.xml:32(para)
+ msgid ""
+ "You can access this command from the main menu through "
+-"<menuchoice><guimenu>Help</guimenu><guimenuitem>Context Help</guimenuitem></"
+-"menuchoice>."
++"<menuchoice><guimenu>Help</guimenu><guimenuitem>Context "
++"Help</guimenuitem></menuchoice>."
+ msgstr ""
+ "Du kan komma åt detta kommando från huvudmenyn genom "
+-"<menuchoice><guimenu>Hjälp</guimenu><guimenuitem>Sammanhangshjälp</"
+-"guimenuitem></menuchoice>."
++"<menuchoice><guimenu>Hjälp</guimenu><guimenuitem>Sammanhangshjälp</guimenuitem></menuchoice>."
+ 
+ #: src/menus/help/context-help.xml:41(para)
+ msgid ""
+-"You can also use the keyboard shortcut <keycombo><keycap>Shift</"
+-"keycap><keycap>F1</keycap></keycombo>."
+-msgstr ""
+-"Du kan också använda tangentbordsgenvägen <keycombo><keycap>Skift</"
+-"keycap><keycap>F1</keycap></keycombo>."
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"You can also use the keyboard shortcut "
++"<keycombo><keycap>Shift</keycap><keycap>F1</keycap></keycombo>."
++msgstr ""
++"Du kan också använda tangentbordsgenvägen "
++"<keycombo><keycap>Skift</keycap><keycap>F1</keycap></keycombo>."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/help/about.xml:50(None)
+ msgid ""
+@@ -845,13 +822,14 @@
+ 
+ #: src/menus/help/about.xml:19(para)
+ msgid ""
+-"The <guimenuitem>About</guimenuitem> command shows the <guilabel>About</"
+-"guilabel> window, which displays information about the version of "
+-"<acronym>GIMP</acronym> you are running and the many authors who wrote it."
+-msgstr ""
+-"Kommandot <guimenuitem>Om</guimenuitem> visar fönstret <guilabel>Om</"
+-"guilabel> vilket visar information om vilken version av <acronym>GIMP</"
+-"acronym> du kör och de många upphovsmän som skrivit det."
++"The <guimenuitem>About</guimenuitem> command shows the "
++"<guilabel>About</guilabel> window, which displays information about the "
++"version of <acronym>GIMP</acronym> you are running and the many authors who "
++"wrote it."
++msgstr ""
++"Kommandot <guimenuitem>Om</guimenuitem> öppnar fönstret "
++"<guilabel>Om</guilabel>, med information om din version av "
++"<acronym>GIMP</acronym> och personerna som har skapat programmet."
+ 
+ #: src/menus/help/about.xml:25(para)
+ msgid ""
+@@ -861,21 +839,19 @@
+ "you that a new version of GIMP is available. In that case the button will "
+ "allow you to go to the newest download for GIMP."
+ msgstr ""
+-"Denna dialogruta visar också knappen <guilabel>Sök uppdateringar</guilabel> "
+-"som du kan använda för att manuellt se om du har den senaste versionen av "
+-"GIMP. Om du har aktiverat automatisk kontroll av uppdateringar kan denna "
+-"ruta visa dig att en ny version av GIMP är tillgänglig. I så fall kommer "
+-"knappen låta dig gå till den nyaste hämtningen för GIMP."
++"Dialogrutan innehåller också knappen <guilabel>Sök uppdateringar</guilabel>,"
++" som du kan använda för att kontrollera om du har den senaste versionen av "
++"GIMP. Om automatisk uppdateringssökning är aktiverad visas här om en ny "
++"version finns. Knappen tar dig då till den senaste versionen för "
++"nedladdning."
+ 
+ #: src/menus/help/about.xml:35(para)
+ msgid ""
+ "You can access this command in the main menu through "
+-"<menuchoice><guimenu>Help</guimenu><guimenuitem>About</guimenuitem></"
+-"menuchoice>"
+-msgstr ""
+-"Du kan komma åt detta kommando från huvudmenyn genom "
+-"<menuchoice><guimenu>Hjälp</guimenu><guimenuitem>Om</guimenuitem></"
+-"menuchoice>"
++"<menuchoice><guimenu>Help</guimenu><guimenuitem>About</guimenuitem></menuchoice>"
++msgstr ""
++"Du hittar kommandot i huvudmenyn under "
++"<menuchoice><guimenu>Hjälp</guimenu><guimenuitem>Om</guimenuitem></menuchoice>."
+ 
+ #: src/menus/help/about.xml:45(title)
+ msgid "Description of the dialog window"
+@@ -890,41 +866,12 @@
+ "The <guibutton>Credits</guibutton> button shows a list of people that have "
+ "contributed to GIMP as developers, documenters and artists."
+ msgstr ""
+-"<guibutton>Tack till</guibutton> visar en lista över personer som bidragit "
+-"till GIMP som utvecklare, dokumentatörer och grafiker."
++"Knappen <guibutton>Tack till</guibutton> visar vilka som har bidragit till "
++"GIMP som utvecklare, dokumentatörer och grafiker."
+ 
+ #: src/menus/help/about.xml:58(para)
+ msgid ""
+ "The <guibutton>License</guibutton> button explains how to get the license."
+ msgstr ""
+-"Knappen <guibutton>Licens</guibutton> förklarar hur man får tag på licensen."
+-
+-#~ msgid "translator-credits"
+-#~ msgstr ""
+-#~ "Daniel Nylander <po@danielnylander.se>, 2009\n"
+-#~ "Sebastian Rasmussen <sebras@gmail.com>, 2018\n"
+-#~ "Anders Jonsson <anders.jonsson@norsjovallen.se>, 2023, 2024"
+-
+-#~ msgid "Activating the <quote>About</quote> Command"
+-#~ msgstr "Aktivera kommandot <quote>Om</quote>"
+-
+-#~ msgid "GIMP online"
+-#~ msgstr "GIMP på nätet"
+-
+-#~ msgid ""
+-#~ "The <guimenuitem>Help</guimenuitem> command displays the <acronym>GIMP</"
+-#~ "acronym> Users Manual in a browser. You can set the browser you would "
+-#~ "like to use in the <guilabel>Help System</guilabel> section of the "
+-#~ "<guimenu>Preferences</guimenu> dialog, as described in <xref "
+-#~ "linkend=\"gimp-prefs-help\"/>. The browser may be the built-in "
+-#~ "<acronym>GIMP</acronym> help browser, or it may be a web browser."
+-#~ msgstr ""
+-#~ "Kommandot <guimenuitem>Hjälp</guimenuitem> visar <acronym>GIMP</acronym>s "
+-#~ "användarmanual i en läsare. Du kan ställa in läsaren du vill använda i "
+-#~ "avsnittet <guilabel>Hjälpsystem</guilabel> i dialogen "
+-#~ "<guimenu>Inställningar</guimenu>, beskrivet i <xref linkend=\"gimp-prefs-"
+-#~ "help\"/>. Läsaren kan vara <acronym>GIMP</acronym>s interna hjälpläsare "
+-#~ "eller så kan det vara en webbläsare."
+-
+-#~ msgid "<quote>Tip of the Day</quote>Dialog window"
+-#~ msgstr "Dialogfönstret <quote>Dagens tips</quote>"
++"Knappen <guibutton>Licens</guibutton> visar information om programmets "
++"licens."
