@@ -360,3 +360,11 @@
 - `svlang skrivregler` utan fel; kvarvarande Hunspell-signaler är produktnamn, API-termer och kod-/filnamn och bedömdes i kontext. Osäker SmartThings-etikett `time_hold_preheat` flaggad för modellkontroll.
 - HA-TMX uppdaterad och validerad: 18 038 poster.
 - 203 Core-nycklar saknas fortfarande i Lokalise; tidigare API-importförsök gav HTTP 403. Core-granskningen fortsätter och är inte klar.
+
+
+## 2026-11-25 – Core 26971–27090
+
+- 120 poster kontrollerade; 108 matchade aktuell Core-källa och radgranskades. 37 värden korrigerades/sparades/återlästes; 71 verifierades oförändrade. 12 äldre sökvägar kontrollerades mot aktuell struktur och tidigare rapporter; samtliga är spårade och utanför aktuell TM.
+- 15 referensalias kontrollerades live; alla matchar. Platshållare bevarade. `svlang` skrivregler utan fel; naturlighet per korrigerad rad utan flaggor; Hunspell kvarvarande flaggor är namn, API-/kodord och platshållare.
+- Anthropic hoppades inte över: 9 äldre `thinking_effort`-poster kartlades till aktuell `effort`-struktur; 11 nuvarande effort-nycklar API-kontrollerades live och var redan granskade. OpenAI `short`-nyckeln kartlades till `concise` och kontrollerades live.
+- HA-TMX validerad: 18 141 poster. 203 Core-nycklar saknas fortfarande i Lokalise (API-import blockerad av HTTP 403).

@@ -1,0 +1,236 @@
+{
+  "checked_date": "2026-11-25",
+  "core_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07",
+  "current_live_entries": [
+    {
+      "current_key": "component::anthropic::config_subentries::ai_task_data::error::effort_requires_thinking",
+      "key_id": "965036870",
+      "translation_id": "10130948943",
+      "en_live": "This effort level is not supported for the selected thinking type.",
+      "sv_live": "Den här ansträngningsnivån stöds inte för den valda typen av resonemang.",
+      "live_checked": "2026-11-25"
+    },
+    {
+      "current_key": "component::anthropic::config_subentries::ai_task_data::step::model::data::effort",
+      "key_id": "965036871",
+      "translation_id": "10130949007",
+      "en_live": "Effort",
+      "sv_live": "Ansträngning",
+      "live_checked": "2026-11-25"
+    },
+    {
+      "current_key": "component::anthropic::config_subentries::ai_task_data::step::model::data_description::effort",
+      "key_id": "965036873",
+      "translation_id": "10130949135",
+      "en_live": "Control how many tokens Claude uses when responding, trading off between response thoroughness and token efficiency",
+      "sv_live": "Styr hur många token Claude använder när det svarar och balanserar svarens grundlighet mot tokeneffektivitet.",
+      "live_checked": "2026-11-25"
+    },
+    {
+      "current_key": "component::anthropic::config_subentries::conversation::error::effort_requires_thinking",
+      "key_id": "965036875",
+      "translation_id": "10130949263",
+      "en_live": "This effort level is not supported for the selected thinking type.",
+      "sv_live": "Den här ansträngningsnivån stöds inte för den valda typen av resonemang.",
+      "live_checked": "2026-11-25"
+    },
+    {
+      "current_key": "component::anthropic::config_subentries::conversation::step::model::data::effort",
+      "key_id": "965036876",
+      "translation_id": "10130949327",
+      "en_live": "Effort",
+      "sv_live": "Ansträngning",
+      "live_checked": "2026-11-25"
+    },
+    {
+      "current_key": "component::anthropic::config_subentries::conversation::step::model::data_description::effort",
+      "key_id": "965036878",
+      "translation_id": "10130949455",
+      "en_live": "Control how many tokens Claude uses when responding, trading off between response thoroughness and token efficiency",
+      "sv_live": "Styr hur många token Claude använder när det svarar och balanserar svarens grundlighet mot tokeneffektivitet.",
+      "live_checked": "2026-11-25"
+    },
+    {
+      "current_key": "component::anthropic::selector::effort::options::high",
+      "key_id": "965036880",
+      "translation_id": "10130949583",
+      "en_live": "High",
+      "sv_live": "Hög",
+      "live_checked": "2026-11-25"
+    },
+    {
+      "current_key": "component::anthropic::selector::effort::options::low",
+      "key_id": "965036881",
+      "translation_id": "10130949647",
+      "en_live": "Low",
+      "sv_live": "Låg",
+      "live_checked": "2026-11-25"
+    },
+    {
+      "current_key": "component::anthropic::selector::effort::options::max",
+      "key_id": "965036882",
+      "translation_id": "10130949711",
+      "en_live": "Max",
+      "sv_live": "Max",
+      "live_checked": "2026-11-25"
+    },
+    {
+      "current_key": "component::anthropic::selector::effort::options::medium",
+      "key_id": "965036883",
+      "translation_id": "10130949775",
+      "en_live": "Medium",
+      "sv_live": "Medel",
+      "live_checked": "2026-11-25"
+    },
+    {
+      "current_key": "component::anthropic::selector::effort::options::xhigh",
+      "key_id": "965036884",
+      "translation_id": "10130949839",
+      "en_live": "X-High",
+      "sv_live": "Extremt hög",
+      "live_checked": "2026-11-25"
+    },
+    {
+      "current_key": "component::openai_conversation::selector::reasoning_summary::options::concise",
+      "key_id": "846242506",
+      "translation_id": "8405272780",
+      "en_live": "Concise",
+      "sv_live": "Kortfattad",
+      "live_checked": "2026-11-25"
+    }
+  ],
+  "stale_key_crosswalk": [
+    {
+      "old_key": "component::teslemetry::exceptions::update_failed_invalid_data::message",
+      "old_en": "Received invalid data from API",
+      "old_sv": "Mottog ogiltig data från API",
+      "source_status": "not-in-current-core",
+      "current_key": null,
+      "follow_up": "Ingen motsvarande nyckel i aktuell Core-källa."
+    },
+    {
+      "old_key": "component::openai_conversation::selector::reasoning_summary::options::short",
+      "old_en": "Short",
+      "old_sv": "Kort",
+      "source_status": "not-in-current-core",
+      "current_key": "component::openai_conversation::selector::reasoning_summary::options::concise",
+      "follow_up": "Aktuellt enum bytte short till concise.",
+      "current_en_raw": "Concise",
+      "current_en_resolved": "Concise",
+      "current_sv_live": "Kortfattad",
+      "current_live_checked": "2026-11-25"
+    },
+    {
+      "old_key": "component::anthropic::selector::thinking_effort::options::none",
+      "old_en": "None",
+      "old_sv": "Ingen",
+      "source_status": "not-in-current-core",
+      "current_key": null,
+      "follow_up": "Ingen motsvarande nyckel i aktuell Core-källa."
+    },
+    {
+      "old_key": "component::anthropic::selector::thinking_effort::options::medium",
+      "old_en": "Medium",
+      "old_sv": "Medel",
+      "source_status": "not-in-current-core",
+      "current_key": "component::anthropic::selector::effort::options::medium",
+      "follow_up": "Nyckeln har flyttats från thinking_effort till effort.",
+      "current_en_raw": "[%key:common::state::medium%]",
+      "current_en_resolved": "Medium",
+      "current_sv_live": "Medel",
+      "current_live_checked": "2026-11-25"
+    },
+    {
+      "old_key": "component::anthropic::selector::thinking_effort::options::max",
+      "old_en": "Max",
+      "old_sv": "Max",
+      "source_status": "not-in-current-core",
+      "current_key": "component::anthropic::selector::effort::options::max",
+      "follow_up": "Nyckeln har flyttats från thinking_effort till effort.",
+      "current_en_raw": "Max",
+      "current_en_resolved": "Max",
+      "current_sv_live": "Max",
+      "current_live_checked": "2026-11-25"
+    },
+    {
+      "old_key": "component::anthropic::selector::thinking_effort::options::low",
+      "old_en": "Low",
+      "old_sv": "Låg",
+      "source_status": "not-in-current-core",
+      "current_key": "component::anthropic::selector::effort::options::low",
+      "follow_up": "Nyckeln har flyttats från thinking_effort till effort.",
+      "current_en_raw": "[%key:common::state::low%]",
+      "current_en_resolved": "Low",
+      "current_sv_live": "Låg",
+      "current_live_checked": "2026-11-25"
+    },
+    {
+      "old_key": "component::anthropic::selector::thinking_effort::options::high",
+      "old_en": "High",
+      "old_sv": "Hög",
+      "source_status": "not-in-current-core",
+      "current_key": "component::anthropic::selector::effort::options::high",
+      "follow_up": "Nyckeln har flyttats från thinking_effort till effort.",
+      "current_en_raw": "[%key:common::state::high%]",
+      "current_en_resolved": "High",
+      "current_sv_live": "Hög",
+      "current_live_checked": "2026-11-25"
+    },
+    {
+      "old_key": "component::anthropic::config_subentries::conversation::step::model::data_description::thinking_effort",
+      "old_en": "Control how many tokens Claude uses when responding, trading off between response thoroughness and token efficiency",
+      "old_sv": "Kontrollera hur många tokens Claude använder när han svarar, och kompromissa mellan svarsnoggrannhet och tokeneffektivitet",
+      "source_status": "not-in-current-core",
+      "current_key": "component::anthropic::config_subentries::conversation::step::model::data_description::effort",
+      "follow_up": "Fältet har bytt namn från thinking_effort till effort.",
+      "current_en_raw": "Control how many tokens Claude uses when responding, trading off between response thoroughness and token efficiency",
+      "current_en_resolved": "Control how many tokens Claude uses when responding, trading off between response thoroughness and token efficiency",
+      "current_sv_live": "Styr hur många token Claude använder när det svarar och balanserar svarens grundlighet mot tokeneffektivitet.",
+      "current_live_checked": "2026-11-25"
+    },
+    {
+      "old_key": "component::anthropic::config_subentries::conversation::step::model::data::thinking_effort",
+      "old_en": "Thinking effort",
+      "old_sv": "Tankeansträngning",
+      "source_status": "not-in-current-core",
+      "current_key": "component::anthropic::config_subentries::conversation::step::model::data::effort",
+      "follow_up": "Fältet har bytt namn från thinking_effort till effort.",
+      "current_en_raw": "Effort",
+      "current_en_resolved": "Effort",
+      "current_sv_live": "Ansträngning",
+      "current_live_checked": "2026-11-25"
+    },
+    {
+      "old_key": "component::anthropic::config_subentries::ai_task_data::step::model::data_description::thinking_effort",
+      "old_en": "Control how many tokens Claude uses when responding, trading off between response thoroughness and token efficiency",
+      "old_sv": "Kontrollera hur många tokens Claude använder när han svarar, och kompromissa mellan svarsnoggrannhet och tokeneffektivitet",
+      "source_status": "not-in-current-core",
+      "current_key": "component::anthropic::config_subentries::ai_task_data::step::model::data_description::effort",
+      "follow_up": "Fältet har bytt namn från thinking_effort till effort.",
+      "current_en_raw": "[%key:component::anthropic::config_subentries::conversation::step::model::data_description::effort%]",
+      "current_en_resolved": "Control how many tokens Claude uses when responding, trading off between response thoroughness and token efficiency",
+      "current_sv_live": "Styr hur många token Claude använder när det svarar och balanserar svarens grundlighet mot tokeneffektivitet.",
+      "current_live_checked": "2026-11-25"
+    },
+    {
+      "old_key": "component::anthropic::config_subentries::ai_task_data::step::model::data::thinking_effort",
+      "old_en": "Thinking effort",
+      "old_sv": "Tankeansträngning",
+      "source_status": "not-in-current-core",
+      "current_key": "component::anthropic::config_subentries::ai_task_data::step::model::data::effort",
+      "follow_up": "Fältet har bytt namn från thinking_effort till effort.",
+      "current_en_raw": "[%key:component::anthropic::config_subentries::conversation::step::model::data::effort%]",
+      "current_en_resolved": "Effort",
+      "current_sv_live": "Ansträngning",
+      "current_live_checked": "2026-11-25"
+    },
+    {
+      "old_key": "component::alexa_devices::exceptions::config_entry_not_found::message",
+      "old_en": "Config entry not found: {device_id}",
+      "old_sv": "Konfigurationsposten hittades inte: {device_id}",
+      "source_status": "not-in-current-core",
+      "current_key": null,
+      "follow_up": "Ingen motsvarande nyckel i aktuell Core-källa."
+    }
+  ]
+}

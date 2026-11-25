@@ -846,3 +846,7 @@ Positionerna 26731–26850 har jämförts med Core-revision `86a2eabe7e43f526db5
 ## Fortsatt radgranskning 2026-11-25 – position 26851–26970
 
 119 av 120 Lokalise-poster matchade aktuell Core-källa `86a2eabe7e43f526db5821ef068087ce8404ae07`. 27 mål korrigerades och API-återlästes, 92 befintliga mål verifierades. En äldre Hegel-nyckel saknar aktuell Core-källpost och hölls utanför TM. 31 delade mål korrigerades och 51 alias verifierades live. TMX validerades till 18 038 poster. Se `../2026-11-19-granskning/granskning-26851-26970.md` och manifesten i `swedish-tm`.
+
+## Fortsatt radgranskning 2026-11-25 – position 26971–27090
+
+108 av 120 Lokalise-poster matchade aktuell Core-källa; 37 mål korrigerades och återlästes, 71 verifierades oförändrade. Tolv äldre sökvägar jämfördes mot aktuell källstruktur och tidigare rapporter; se batchrapporten för fullständig nyckellista och crosswalk. Bland dem kartlades de gamla Anthropic `thinking_effort`-namnen till aktuell `effort`-struktur. Elva nuvarande Anthropic-effort-nycklar kontrollerades live (samtliga redan granskade), och OpenAI `short` har bytts mot `concise` (livevärdet `Kortfattad`). Femton referensalias matchar efter synk. TMX uppdaterad och validerad till 18 141 poster. Rapport: `../2026-11-19-granskning/granskning-26971-27090.md`.
