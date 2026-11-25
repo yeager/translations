@@ -344,3 +344,10 @@
 - 41/41 tomma mål sparade och återlästa i Lokalise. 12 unika referensmål och 13 alias kontrollerades live; samtliga alias överensstämmer. Delade tomma Volkszähler- och Workday-mål fylldes och TMX tar med målnycklarna.
 - Lokalise-livekontroll efter sparandet: 0 tomma mål av ursprungskön 641. HA-TMX uppdaterad och validerad: 17 768 poster.
 - 203 aktuella Core-källnycklar saknas fortfarande i Lokalise; behörig upstream-synk krävs. Full Core-granskning är därför inte klar.
+
+## 2026-11-25 – Core 26731–26850
+
+- 109 aktuella strängar radgranskade: 43 ändrade och sparade/återlästa, 66 befintliga mål verifierade; 11 historiska nycklar lämnades orörda.
+- 38 referensalias kontrollerade live; samtliga matchar. 15 gemensamma mål korrigerades med synkade alias. Slim Fry-nivåerna behöver fortsatt modellkontroll.
+- HA-TMX uppdaterad och validerad: 17 892 poster.
+- 203 aktuella källnycklar saknas fortsatt i Lokalise. POST /keys och POST /files/upload gav HTTP 403; importunderlag och detaljer finns i full-core-audit. Granskningen är inte klar.

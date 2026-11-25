@@ -1,0 +1,555 @@
+{
+  "checked_at": "2026-11-25",
+  "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07",
+  "aliases": [
+    {
+      "alias_key": "component::zwave_js::services::get_lock_usercode::fields::code_slot::name",
+      "alias_key_id": "801604128",
+      "alias_translation_id": "7736561172",
+      "reference_key": "component::zwave_js::device_automation::extra_fields::code_slot",
+      "reference_key_id": "491445215",
+      "sv_alias": "Kodplats",
+      "sv_reference": "Kodplats",
+      "matches": true
+    },
+    {
+      "alias_key": "component::homevolt::config::step::user::data::host",
+      "alias_key_id": "801577007",
+      "alias_translation_id": "7736202207",
+      "reference_key": "common::config_flow::data::host",
+      "reference_key_id": "22687518",
+      "sv_alias": "Värd",
+      "sv_reference": "Värd",
+      "matches": true
+    },
+    {
+      "alias_key": "component::homevolt::config::step::credentials::data::password",
+      "alias_key_id": "801577004",
+      "alias_translation_id": "7736202015",
+      "reference_key": "common::config_flow::data::password",
+      "reference_key_id": "39798295",
+      "sv_alias": "Lösenord",
+      "sv_reference": "Lösenord",
+      "matches": true
+    },
+    {
+      "alias_key": "component::homevolt::config::error::unknown",
+      "alias_key_id": "801577003",
+      "alias_translation_id": "7736201951",
+      "reference_key": "common::config_flow::error::unknown",
+      "reference_key_id": "39798292",
+      "sv_alias": "Oväntat fel",
+      "sv_reference": "Oväntat fel",
+      "matches": true
+    },
+    {
+      "alias_key": "component::homevolt::config::error::invalid_auth",
+      "alias_key_id": "801577002",
+      "alias_translation_id": "7736201887",
+      "reference_key": "common::config_flow::error::invalid_auth",
+      "reference_key_id": "39798291",
+      "sv_alias": "Ogiltig autentisering",
+      "sv_reference": "Ogiltig autentisering",
+      "matches": true
+    },
+    {
+      "alias_key": "component::homevolt::config::error::cannot_connect",
+      "alias_key_id": "801577001",
+      "alias_translation_id": "7736201823",
+      "reference_key": "common::config_flow::error::cannot_connect",
+      "reference_key_id": "43876387",
+      "sv_alias": "Det gick inte att ansluta",
+      "sv_reference": "Det gick inte att ansluta",
+      "matches": true
+    },
+    {
+      "alias_key": "component::homevolt::config::abort::already_configured",
+      "alias_key_id": "801577000",
+      "alias_translation_id": "7736201759",
+      "reference_key": "common::config_flow::abort::already_configured_device",
+      "reference_key_id": "43422350",
+      "sv_alias": "Enheten är redan konfigurerad",
+      "sv_reference": "Enheten är redan konfigurerad",
+      "matches": true
+    },
+    {
+      "alias_key": "component::telegram_bot::config_subentries::allowed_chat_ids::abort::entry_not_loaded",
+      "alias_key_id": "800998975",
+      "alias_translation_id": "7730812966",
+      "reference_key": "component::telegram_bot::exceptions::entry_not_loaded::message",
+      "reference_key_id": "800998976",
+      "sv_alias": "{telegram_bot} är inte laddad",
+      "sv_reference": "{telegram_bot} är inte laddad",
+      "matches": true
+    },
+    {
+      "alias_key": "component::victron_ble::entity::sensor::charge_state::state::storage",
+      "alias_key_id": "800998638",
+      "alias_translation_id": "7730811273",
+      "reference_key": "component::victron_ble::entity::sensor::device_state::state::storage",
+      "reference_key_id": "759362370",
+      "sv_alias": "Förvaring",
+      "sv_reference": "Förvaring",
+      "matches": true
+    },
+    {
+      "alias_key": "component::victron_ble::entity::sensor::charge_state::state::starting_up",
+      "alias_key_id": "800998637",
+      "alias_translation_id": "7730811209",
+      "reference_key": "component::victron_ble::entity::sensor::device_state::state::starting_up",
+      "reference_key_id": "759362369",
+      "sv_alias": "Startar upp",
+      "sv_reference": "Startar upp",
+      "matches": true
+    },
+    {
+      "alias_key": "component::victron_ble::entity::sensor::charge_state::state::repeated_absorption",
+      "alias_key_id": "800998636",
+      "alias_translation_id": "7730811145",
+      "reference_key": "component::victron_ble::entity::sensor::device_state::state::repeated_absorption",
+      "reference_key_id": "759362368",
+      "sv_alias": "Upprepad absorption",
+      "sv_reference": "Upprepad absorption",
+      "matches": true
+    },
+    {
+      "alias_key": "component::victron_ble::entity::sensor::charge_state::state::recondition",
+      "alias_key_id": "800998635",
+      "alias_translation_id": "7730811081",
+      "reference_key": "component::victron_ble::entity::sensor::device_state::state::recondition",
+      "reference_key_id": "759362367",
+      "sv_alias": "Rekonditionering",
+      "sv_reference": "Rekonditionering",
+      "matches": true
+    },
+    {
+      "alias_key": "component::victron_ble::entity::sensor::charge_state::state::power_supply",
+      "alias_key_id": "800998634",
+      "alias_translation_id": "7730811017",
+      "reference_key": "component::victron_ble::entity::sensor::device_state::state::power_supply",
+      "reference_key_id": "759362366",
+      "sv_alias": "Strömförsörjning",
+      "sv_reference": "Strömförsörjning",
+      "matches": true
+    },
+    {
+      "alias_key": "component::victron_ble::entity::sensor::charge_state::state::off",
+      "alias_key_id": "800998633",
+      "alias_translation_id": "7730810953",
+      "reference_key": "common::state::off",
+      "reference_key_id": "42412723",
+      "sv_alias": "Av",
+      "sv_reference": "Av",
+      "matches": true
+    },
+    {
+      "alias_key": "component::victron_ble::entity::sensor::charge_state::state::not_available",
+      "alias_key_id": "800998632",
+      "alias_translation_id": "7730810889",
+      "reference_key": "component::victron_ble::entity::sensor::device_state::state::not_available",
+      "reference_key_id": "759362364",
+      "sv_alias": "Otillgänglig",
+      "sv_reference": "Otillgänglig",
+      "matches": true
+    },
+    {
+      "alias_key": "component::victron_ble::entity::sensor::charge_state::state::low_power",
+      "alias_key_id": "800998631",
+      "alias_translation_id": "7730810825",
+      "reference_key": "component::victron_ble::entity::sensor::device_state::state::low_power",
+      "reference_key_id": "759362363",
+      "sv_alias": "Låg effekt",
+      "sv_reference": "Låg effekt",
+      "matches": true
+    },
+    {
+      "alias_key": "component::victron_ble::entity::sensor::charge_state::state::inverting",
+      "alias_key_id": "800998630",
+      "alias_translation_id": "7730810761",
+      "reference_key": "component::victron_ble::entity::sensor::device_state::state::inverting",
+      "reference_key_id": "759362362",
+      "sv_alias": "Växelriktning",
+      "sv_reference": "Växelriktning",
+      "matches": true
+    },
+    {
+      "alias_key": "component::victron_ble::entity::sensor::charge_state::state::float",
+      "alias_key_id": "800998629",
+      "alias_translation_id": "7730810697",
+      "reference_key": "component::victron_ble::entity::sensor::device_state::state::float",
+      "reference_key_id": "759362361",
+      "sv_alias": "Float",
+      "sv_reference": "Float",
+      "matches": true
+    },
+    {
+      "alias_key": "component::victron_ble::entity::sensor::charge_state::state::fault",
+      "alias_key_id": "800998628",
+      "alias_translation_id": "7730810633",
+      "reference_key": "component::victron_ble::entity::sensor::device_state::state::fault",
+      "reference_key_id": "759362360",
+      "sv_alias": "Fel",
+      "sv_reference": "Fel",
+      "matches": true
+    },
+    {
+      "alias_key": "component::victron_ble::entity::sensor::charge_state::state::external_control",
+      "alias_key_id": "800998627",
+      "alias_translation_id": "7730810569",
+      "reference_key": "component::victron_ble::entity::sensor::device_state::state::external_control",
+      "reference_key_id": "759362359",
+      "sv_alias": "Extern styrning",
+      "sv_reference": "Extern styrning",
+      "matches": true
+    },
+    {
+      "alias_key": "component::victron_ble::entity::sensor::charge_state::state::equalize_manual",
+      "alias_key_id": "800998626",
+      "alias_translation_id": "7730810505",
+      "reference_key": "component::victron_ble::entity::sensor::device_state::state::equalize_manual",
+      "reference_key_id": "759362358",
+      "sv_alias": "Manuell utjämning",
+      "sv_reference": "Manuell utjämning",
+      "matches": true
+    },
+    {
+      "alias_key": "component::victron_ble::entity::sensor::charge_state::state::bulk",
+      "alias_key_id": "800998625",
+      "alias_translation_id": "7730810441",
+      "reference_key": "component::victron_ble::entity::sensor::device_state::state::bulk",
+      "reference_key_id": "759362357",
+      "sv_alias": "Bulk",
+      "sv_reference": "Bulk",
+      "matches": true
+    },
+    {
+      "alias_key": "component::victron_ble::entity::sensor::charge_state::state::battery_safe",
+      "alias_key_id": "800998624",
+      "alias_translation_id": "7730810377",
+      "reference_key": "component::victron_ble::entity::sensor::device_state::state::battery_safe",
+      "reference_key_id": "759362356",
+      "sv_alias": "Battery Safe",
+      "sv_reference": "Battery Safe",
+      "matches": true
+    },
+    {
+      "alias_key": "component::victron_ble::entity::sensor::charge_state::state::active",
+      "alias_key_id": "800998623",
+      "alias_translation_id": "7730810313",
+      "reference_key": "component::victron_ble::entity::sensor::device_state::state::active",
+      "reference_key_id": "759362355",
+      "sv_alias": "Aktiv",
+      "sv_reference": "Aktiv",
+      "matches": true
+    },
+    {
+      "alias_key": "component::victron_ble::entity::sensor::charge_state::state::absorption",
+      "alias_key_id": "800998622",
+      "alias_translation_id": "7730810249",
+      "reference_key": "component::victron_ble::entity::sensor::device_state::state::absorption",
+      "reference_key_id": "759362354",
+      "sv_alias": "Absorption",
+      "sv_reference": "Absorption",
+      "matches": true
+    },
+    {
+      "alias_key": "component::openai_conversation::config_subentries::tts::step::init::data::prompt",
+      "alias_key_id": "800994709",
+      "alias_translation_id": "7730773679",
+      "reference_key": "common::config_flow::data::prompt",
+      "reference_key_id": "680773562",
+      "sv_alias": "Instruktioner",
+      "sv_reference": "Instruktioner",
+      "matches": true
+    },
+    {
+      "alias_key": "component::openai_conversation::config_subentries::tts::step::init::data::name",
+      "alias_key_id": "800994708",
+      "alias_translation_id": "7730773615",
+      "reference_key": "common::config_flow::data::name",
+      "reference_key_id": "59072849",
+      "sv_alias": "Namn",
+      "sv_reference": "Namn",
+      "matches": true
+    },
+    {
+      "alias_key": "component::openai_conversation::config_subentries::tts::abort::entry_not_loaded",
+      "alias_key_id": "800994703",
+      "alias_translation_id": "7730773295",
+      "reference_key": "component::openai_conversation::config_subentries::conversation::abort::entry_not_loaded",
+      "reference_key_id": "669662742",
+      "sv_alias": "Det går inte att lägga till något när konfigurationen är inaktiverad.",
+      "sv_reference": "Det går inte att lägga till något när konfigurationen är inaktiverad.",
+      "matches": true
+    },
+    {
+      "alias_key": "component::smartthings::entity::sensor::oven_mode_cavity_01::state::warming",
+      "alias_key_id": "800994202",
+      "alias_translation_id": "7730769681",
+      "reference_key": "component::smartthings::entity::sensor::oven_mode::state::warming",
+      "reference_key_id": "612610445",
+      "sv_alias": "Uppvärmning",
+      "sv_reference": "Uppvärmning",
+      "matches": true
+    },
+    {
+      "alias_key": "component::smartthings::entity::sensor::oven_mode_cavity_01::state::strong_steam",
+      "alias_key_id": "800994201",
+      "alias_translation_id": "7730769617",
+      "reference_key": "component::smartthings::entity::sensor::oven_mode::state::strong_steam",
+      "reference_key_id": "612610444",
+      "sv_alias": "Kraftig ånga",
+      "sv_reference": "Kraftig ånga",
+      "matches": true
+    },
+    {
+      "alias_key": "component::smartthings::entity::sensor::oven_mode_cavity_01::state::steam_roast",
+      "alias_key_id": "800994200",
+      "alias_translation_id": "7730769553",
+      "reference_key": "component::smartthings::entity::sensor::oven_mode::state::steam_roast",
+      "reference_key_id": "612610443",
+      "sv_alias": "Ångrostning",
+      "sv_reference": "Ångrostning",
+      "matches": true
+    },
+    {
+      "alias_key": "component::smartthings::entity::sensor::oven_mode_cavity_01::state::steam_cook",
+      "alias_key_id": "800994199",
+      "alias_translation_id": "7730769489",
+      "reference_key": "component::smartthings::entity::sensor::oven_mode::state::steam_cook",
+      "reference_key_id": "612610442",
+      "sv_alias": "Ångkokning",
+      "sv_reference": "Ångkokning",
+      "matches": true
+    },
+    {
+      "alias_key": "component::smartthings::entity::sensor::oven_mode_cavity_01::state::steam_bottom_heat_plus_convection",
+      "alias_key_id": "800994198",
+      "alias_translation_id": "7730769425",
+      "reference_key": "component::smartthings::entity::sensor::oven_mode::state::steam_bottom_heat_plus_convection",
+      "reference_key_id": "612610441",
+      "sv_alias": "Ånga, undervärme och varmluft",
+      "sv_reference": "Ånga, undervärme och varmluft",
+      "matches": true
+    },
+    {
+      "alias_key": "component::smartthings::entity::sensor::oven_mode_cavity_01::state::steam_bake",
+      "alias_key_id": "800994197",
+      "alias_translation_id": "7730769361",
+      "reference_key": "component::smartthings::entity::sensor::oven_mode::state::steam_bake",
+      "reference_key_id": "612610440",
+      "sv_alias": "Ångbakning",
+      "sv_reference": "Ångbakning",
+      "matches": true
+    },
+    {
+      "alias_key": "component::smartthings::entity::sensor::oven_mode_cavity_01::state::slow_cook",
+      "alias_key_id": "800994196",
+      "alias_translation_id": "7730769297",
+      "reference_key": "component::smartthings::entity::sensor::oven_mode::state::slow_cook",
+      "reference_key_id": "612610439",
+      "sv_alias": "Långkok",
+      "sv_reference": "Långkok",
+      "matches": true
+    },
+    {
+      "alias_key": "component::smartthings::entity::sensor::oven_mode_cavity_01::state::slim_strong",
+      "alias_key_id": "800994195",
+      "alias_translation_id": "7730769233",
+      "reference_key": "component::smartthings::entity::sensor::oven_mode::state::slim_strong",
+      "reference_key_id": "612610438",
+      "sv_alias": "Slim Fry (stark)",
+      "sv_reference": "Slim Fry (stark)",
+      "matches": true
+    },
+    {
+      "alias_key": "component::smartthings::entity::sensor::oven_mode_cavity_01::state::slim_middle",
+      "alias_key_id": "800994194",
+      "alias_translation_id": "7730769169",
+      "reference_key": "component::smartthings::entity::sensor::oven_mode::state::slim_middle",
+      "reference_key_id": "612610437",
+      "sv_alias": "Slim Fry (medel)",
+      "sv_reference": "Slim Fry (medel)",
+      "matches": true
+    },
+    {
+      "alias_key": "component::smartthings::entity::sensor::oven_mode_cavity_01::state::rinse",
+      "alias_key_id": "800994193",
+      "alias_translation_id": "7730769105",
+      "reference_key": "component::smartthings::entity::sensor::oven_mode::state::rinse",
+      "reference_key_id": "612610436",
+      "sv_alias": "Sköljning",
+      "sv_reference": "Sköljning",
+      "matches": true
+    }
+  ],
+  "alias_count": 38,
+  "matches": 38,
+  "target_corrections": [
+    {
+      "key": "component::smartthings::entity::sensor::oven_mode::state::rinse",
+      "key_id": "612610436",
+      "translation_id": "5337853462",
+      "en": "Rinse",
+      "sv": "Sköljning",
+      "previous_sv": "Skölj",
+      "verification_method": "Shared HA Core reference target checked live; corrected and API read-back verified",
+      "verified_date": "2026-11-25",
+      "status": "saved-and-read-back"
+    },
+    {
+      "key": "component::smartthings::entity::sensor::oven_mode::state::slim_middle",
+      "key_id": "612610437",
+      "translation_id": "5337853525",
+      "en": "Slim middle",
+      "sv": "Slim Fry (medel)",
+      "previous_sv": "Smal mitten",
+      "verification_method": "Shared HA Core reference target checked live; corrected and API read-back verified",
+      "verified_date": "2026-11-25",
+      "status": "saved-and-read-back"
+    },
+    {
+      "key": "component::smartthings::entity::sensor::oven_mode::state::slim_strong",
+      "key_id": "612610438",
+      "translation_id": "5337853588",
+      "en": "Slim strong",
+      "sv": "Slim Fry (stark)",
+      "previous_sv": "Smal stark",
+      "verification_method": "Shared HA Core reference target checked live; corrected and API read-back verified",
+      "verified_date": "2026-11-25",
+      "status": "saved-and-read-back"
+    },
+    {
+      "key": "component::smartthings::entity::sensor::oven_mode::state::steam_bake",
+      "key_id": "612610440",
+      "translation_id": "5337853714",
+      "en": "Steam bake",
+      "sv": "Ångbakning",
+      "previous_sv": "Ångbaka",
+      "verification_method": "Shared HA Core reference target checked live; corrected and API read-back verified",
+      "verified_date": "2026-11-25",
+      "status": "saved-and-read-back"
+    },
+    {
+      "key": "component::smartthings::entity::sensor::oven_mode::state::steam_bottom_heat_plus_convection",
+      "key_id": "612610441",
+      "translation_id": "5337853777",
+      "en": "Steam bottom heat plus convection",
+      "sv": "Ånga, undervärme och varmluft",
+      "previous_sv": "Ångbottenvärme plus konvektion",
+      "verification_method": "Shared HA Core reference target checked live; corrected and API read-back verified",
+      "verified_date": "2026-11-25",
+      "status": "saved-and-read-back"
+    },
+    {
+      "key": "component::smartthings::entity::sensor::oven_mode::state::steam_cook",
+      "key_id": "612610442",
+      "translation_id": "5337853840",
+      "en": "Steam cook",
+      "sv": "Ångkokning",
+      "previous_sv": "Ångkoka",
+      "verification_method": "Shared HA Core reference target checked live; corrected and API read-back verified",
+      "verified_date": "2026-11-25",
+      "status": "saved-and-read-back"
+    },
+    {
+      "key": "component::smartthings::entity::sensor::oven_mode::state::steam_roast",
+      "key_id": "612610443",
+      "translation_id": "5337853903",
+      "en": "Steam roast",
+      "sv": "Ångrostning",
+      "previous_sv": "Ångstekt",
+      "verification_method": "Shared HA Core reference target checked live; corrected and API read-back verified",
+      "verified_date": "2026-11-25",
+      "status": "saved-and-read-back"
+    },
+    {
+      "key": "component::smartthings::entity::sensor::oven_mode::state::strong_steam",
+      "key_id": "612610444",
+      "translation_id": "5337853966",
+      "en": "Strong steam",
+      "sv": "Kraftig ånga",
+      "previous_sv": "Stark ånga",
+      "verification_method": "Shared HA Core reference target checked live; corrected and API read-back verified",
+      "verified_date": "2026-11-25",
+      "status": "saved-and-read-back"
+    },
+    {
+      "key": "component::victron_ble::entity::sensor::device_state::state::storage",
+      "key_id": "759362370",
+      "translation_id": "7114768744",
+      "en": "Storage",
+      "sv": "Förvaring",
+      "previous_sv": "Lagring",
+      "verification_method": "Shared HA Core reference target checked live; corrected and API read-back verified",
+      "verified_date": "2026-11-25",
+      "status": "saved-and-read-back"
+    },
+    {
+      "key": "component::victron_ble::entity::sensor::device_state::state::battery_safe",
+      "key_id": "759362356",
+      "translation_id": "7114767848",
+      "en": "Battery safe",
+      "sv": "Battery Safe",
+      "previous_sv": "Batteri säkert",
+      "verification_method": "Shared HA Core reference target checked live; corrected and API read-back verified",
+      "verified_date": "2026-11-25",
+      "status": "saved-and-read-back"
+    },
+    {
+      "key": "component::victron_ble::entity::sensor::device_state::state::equalize_manual",
+      "key_id": "759362358",
+      "translation_id": "7114767976",
+      "en": "Equalize (manual)",
+      "sv": "Manuell utjämning",
+      "previous_sv": "Utjämning (manuell)",
+      "verification_method": "Shared HA Core reference target checked live; corrected and API read-back verified",
+      "verified_date": "2026-11-25",
+      "status": "saved-and-read-back"
+    },
+    {
+      "key": "component::victron_ble::entity::sensor::device_state::state::float",
+      "key_id": "759362361",
+      "translation_id": "7114768168",
+      "en": "Float",
+      "sv": "Float",
+      "previous_sv": "Flytande",
+      "verification_method": "Shared HA Core reference target checked live; corrected and API read-back verified",
+      "verified_date": "2026-11-25",
+      "status": "saved-and-read-back"
+    },
+    {
+      "key": "component::victron_ble::entity::sensor::device_state::state::inverting",
+      "key_id": "759362362",
+      "translation_id": "7114768232",
+      "en": "Inverting",
+      "sv": "Växelriktning",
+      "previous_sv": "Växelriktar",
+      "verification_method": "Shared HA Core reference target checked live; corrected and API read-back verified",
+      "verified_date": "2026-11-25",
+      "status": "saved-and-read-back"
+    },
+    {
+      "key": "component::victron_ble::entity::sensor::device_state::state::not_available",
+      "key_id": "759362364",
+      "translation_id": "7114768360",
+      "en": "Not available",
+      "sv": "Otillgänglig",
+      "previous_sv": "Inte tillgänglig",
+      "verification_method": "Shared HA Core reference target checked live; corrected and API read-back verified",
+      "verified_date": "2026-11-25",
+      "status": "saved-and-read-back"
+    },
+    {
+      "key": "component::victron_ble::entity::sensor::device_state::state::recondition",
+      "key_id": "759362367",
+      "translation_id": "7114768552",
+      "en": "Recondition",
+      "sv": "Rekonditionering",
+      "previous_sv": "Rekonditionera",
+      "verification_method": "Shared HA Core reference target checked live; corrected and API read-back verified",
+      "verified_date": "2026-11-25",
+      "status": "saved-and-read-back"
+    }
+  ]
+}

@@ -7,7 +7,7 @@ Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 ## Sammanfattning
 
 - Aktuell HA Core-källa innehåller **67,213** strängnycklar. Lokalise-listningen omfattade **76,341** poster över 153 API-sidor.
-- **203 aktuella källnycklar saknas helt i Lokalise.** Det är en upstream-synkfråga; en tidigare avgränsad `POST /keys`-kontroll gav HTTP 403 för tokenen.
+- **203 aktuella källnycklar saknas helt i Lokalise.** Den 2026-11-25 gav både `POST /keys` och `POST /files/upload` HTTP 403. Ingen import startade och inga nycklar skapades. Ett nyckelunderlag finns sparat lokalt; API-importen kräver behörighet för att skapa nycklar eller ladda upp filer.
 - **0 aktuella tomma svenska mål återstår** av den ursprungliga kön på 641 strängar; alla har granskats och sparats/lästs tillbaka. Tabellen nedan är den ursprungliga könslistan före granskningen och behålls som spårbar historik. Livekontrollen 2026-11-25 fann 0 tomma mål bland dessa. 203 aktuella källnycklar saknas fortsatt i Lokalise.
 - 18956 engelska nyckelreferenser jämfördes efter att ha följt aktuell Core-referens. Tre verkliga skillnader mellan Core-källtext och Lokalises engelska registrerades.
 - Lokalise har dessutom 9,311 aktiva nycklar som inte finns i den aktuella Core-källsnapshoten. De kan vara historiska utgångna nycklar; de räknas inte som saknade nuvarande Core-nycklar och bör kontrolleras separat innan eventuell arkivering.
@@ -835,3 +835,10 @@ Skillnaderna gäller escape-/radbrytning i Lyric och Telegram Bot. De bör jämf
 ## Uppdatering 2026-11-25 – tidigare tomma mål
 
 Samtliga 641 ursprungligen tomma mål har granskats, sparats och återlästs; den uppdaterade livekontrollen visar 0 tomma mål i kön. Totalt kontrollerades 69 unika referensmål; 15 delade referensvärden synkroniserades/sparades vid genomgången och batchen 601–641 stämde med alla 13 alias. Batch 541–600 innehöll åtta alias över fem mål; tre olika reautentiseringstitlar korrigerades och Teslemetry-målet sparades i batch 601–641. Batcherna 361–540 saknade referenser, medan 541–600 hade åtta alias. TMX har uppdaterats och validerats till 17 768 poster; felaktiga äldre TM-värden ersattes. 203 aktuella Core-nycklar saknas fortsatt i Lokalise och kräver behörig nyckelsynk. Se batchrapporterna `../2026-11-19-granskning/granskning-empty-targets-001-120.md`, `granskning-empty-targets-121-180.md`, `granskning-empty-targets-181-240.md`, `granskning-empty-targets-241-300.md`, `granskning-empty-targets-301-360.md`, `granskning-empty-targets-361-420.md`, `granskning-empty-targets-421-480.md`, `granskning-empty-targets-481-540.md`, `granskning-empty-targets-541-600.md`, `granskning-empty-targets-601-641.md` och manifesten intill denna rapport.
+
+
+## API-försök och fortsatt radgranskning 2026-11-25
+
+För att lägga till de saknade posterna testades Lokalises nyckel- och filimportvägar. `POST /keys` och `POST /files/upload` svarade båda HTTP 403. Filimporten nådde inte bearbetningssteget och gjorde ingen ändring. Källunderlaget finns i `2026-11-25-core-missing-keys-source-import.json`; ingen token ingår. När rättighet finns ska de 203 posterna importeras, granskas och verifieras separat.
+
+Positionerna 26731–26850 har jämförts med Core-revision `86a2eabe7e43f526db5821ef068087ce8404ae07`: 109 nycklar matchade aktuell källa, 43 översättningar korrigerades och återlästes, 66 befintliga översättningar verifierades och 11 äldre nycklar lämnades orörda. Alla 38 referensalias i intervallet matchar sina mål live. Rapport: `../2026-11-19-granskning/granskning-26731-26850.md`.
