@@ -8,9 +8,9 @@ Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 
 ## Framsteg
 
-- Senast fullständigt radgranskade Lokalise-position: **28 650**. Fortsätt från **28 651** och jämför varje batch mot aktuell källtext och tidigare rapporter.
-- De sammanhängande intervallen 27 211–28 650 innehåller 1 440 positioner: 1 153 nycklar som finns i aktuell Core-källa och 287 historiska källfrånvarande poster.
-- Bland de 1 153 aktuella nycklarna har **347 svenska texter ändrats och sparats/återlästs** i Lokalise; resterande **806 aktuella texter har granskats och återverifierats utan språkändring**. Därutöver har fyra LG ThinQ-referensmål korrigerats retroaktivt och dokumenterats separat.
+- Senast fullständigt radgranskade Lokalise-position: **28 770**. Fortsätt från **28 771** och jämför varje batch mot aktuell källtext och tidigare rapporter.
+- De sammanhängande intervallen 27 211–28 650 innehåller 1 560 positioner: 1 262 nycklar som finns i aktuell Core-källa och 287 historiska källfrånvarande poster.
+- Bland de 1 153 aktuella nycklarna har **347 svenska texter ändrats och sparats/återlästs** i Lokalise; resterande **889 aktuella texter har granskats och återverifierats utan språkändring**. Därutöver har fyra LG ThinQ-referensmål korrigerats retroaktivt och dokumenterats separat.
 - Den senaste batchen 27 691–27 810 innehöll 102 aktuella Core-nycklar: **31** språkändringar och **71** befintliga översättningar utan ändring. 18 äldre nycklar saknas i aktuell Core-källa och redovisas separat.
 - 13 referenser i den senaste batchen jämfördes mot live-målen; 13/13 svenska värden matchar.
 - En tidigare verifierad OpenEVSE-post utanför intervallet (component::openevse::entity::switch::current_shaper::name) korrigerades retroaktivt från Strömformare till Laststyrning; den tidigare TMX-enheten ersattes. Samma term används i de tre Shaper-sensorsammanhangen.
@@ -27,7 +27,7 @@ Den aktuella Lokalise-ordningen gav 30 nyckelposter efter position 28020. 29 mat
 
 - Home Assistant Core-kanonisk TMX är uppdaterad till position 28650, retroaktiva LG ThinQ-referensmål och OpenEVSE-termposten. XML/proveniensvalideraren godkände **19 353** enheter; 19 122 har Lokalise-ID och 231 är historiska poster utan sådant ID. Varje batchpost anger nu också den exakta Core-källrevisionen i verifieringsproveniensen.
 - swedish-foss-terminology innehåller åtta projektspecifika HA-termer för OpenEVSE, ViCare, USB-dongel, Tibbers hushållsnod, Matter-temperaturavvikelse, Yardians tryckslag, HDFurys hotplug-knapp och KNX-termen datapunkttyp. Exporterna CSV/TBX/JSONL validerades; termbankens 20 tester passerade. Tibber-tolkningen är markerad som källbaserad slutsats med uppföljning.
-- Hunspell-sv innehåller HA-termerna och hårdvaruidentifierarna från granskningen, däribland Tibber, OpenAI, Proxmox, SMA, Namecheap, HDFury, `upptäckbar` och `inomhusluftkvalitet`. Ordboksräknarna och stavningskontrollen verifierades. Deklarerade poster kontrollerades. Verktygsrelease har inte gjorts.
+- Hunspell-sv innehåller HA-termerna och hårdvaruidentifierarna från granskningen, däribland Tibber, OpenAI, Proxmox, SMA, Namecheap, HDFury, `upptäckbar` och `inomhusluftkvalitet`. Ordboksräknarna och stavningskontrollen verifierades. Deklarerade poster kontrollerades. Hunspell-sv validerades och släpptes som `v2026.11.25`; PyPI-publiceringen lyckades. swedish-foss-terminology-exporter validerades och uppdaterades.
 - svlang skrivregler fann inga skrivregelavvikelser i senaste batchen. Platshållarkontrollen fann 0 avvikelser av 112 i senaste batchen.
 
 ## Kvarstående hinder och uppföljning
@@ -69,3 +69,8 @@ Referensalias i batchen 28411–28530: 18 av 18 verifierade mot live-målen utan
 ## Fortsatt radgranskning 2026-11-25 – position 28531–28650
 
 101 av 120 poster matchade aktuell Core-källa och granskades rad för rad. 54 måländringar sparades och återlästes; 47 oförändrade mål verifierades. Nitton källfrånvarande poster uteslöts ur aktuell Core-TM. Alla 16 aliasreferenser matchade live; platshållarna matchar 101/101 och inga pluralnycklar fanns. Alla 101 manifestposter verifierades live. TMX innehåller 19 353 enheter. Hunspell hittade en korrekt teknisk KNX-term, `datapunkttyper`, som nu stöds i ordlistan och termbanken enligt officiell svensk KNX-terminologi. Se `2026-11-25-reviewed-core-28531-28650.md` och JSON-underlagen.
+
+
+## Fortsatt radgranskning 2026-11-25 – position 28651–28770
+
+109 av 120 rader matchar aktuell Core-källa; 26 svenska texter ändrades, sparades och återlästes via Lokalise API. 83 befintliga mål granskades utan ändring. Elva poster saknar aktuell Core-källtext och uteslöts ur aktuell TM. 32 alias verifierades mot referensmål; tre mål (Open Router samt två Fressnapf-poster) korrigerades retroaktivt så att alias och mål överensstämmer. Platshållare 109/109; inga pluralnycklar. Alla 111 manifestposter är liveverifierade. Kanonisk TMX validerar med 19 459 enheter. Se `2026-11-25-reviewed-core-28651-28770.md` och JSON-underlagen. Nästa position: 28 771.
