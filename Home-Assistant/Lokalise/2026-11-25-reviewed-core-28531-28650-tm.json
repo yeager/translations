@@ -1,0 +1,1012 @@
+[
+  {
+    "key": "component::bsblan::services::sync_time::name",
+    "key_id": "781016803",
+    "translation_id": "7418023267",
+    "en": "Sync time",
+    "sv": "Synkronisera tiden",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::services::sync_time::fields::device_id::name",
+    "key_id": "781016802",
+    "translation_id": "7418023203",
+    "en": "Device",
+    "sv": "Enhet",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bsblan::services::sync_time::fields::device_id::description",
+    "key_id": "781016801",
+    "translation_id": "7418023139",
+    "en": "The BSB-LAN device to sync time for.",
+    "sv": "BSB-LAN-enheten vars klocka ska synkroniseras.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::services::sync_time::description",
+    "key_id": "781016800",
+    "translation_id": "7418023075",
+    "en": "Synchronize Home Assistant time to the BSB-LAN device. Only updates if device time differs from Home Assistant time.",
+    "sv": "Synkronisera tiden från Home Assistant till BSB-LAN-enheten. Klockan uppdateras bara om enhetens tid skiljer sig från tiden i Home Assistant.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::exceptions::sync_time_failed::message",
+    "key_id": "781016799",
+    "translation_id": "7418023011",
+    "en": "Failed to sync time for {device_name}: {error}",
+    "sv": "Det gick inte att synkronisera tiden för {device_name}: {error}",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::pooldose::config::step::reconfigure::data_description::host",
+    "key_id": "780873567",
+    "translation_id": "7416524574",
+    "en": "IP address or hostname of your device",
+    "sv": "IP-adress eller värdnamn för din enhet",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::pooldose::config::step::reconfigure::data::host",
+    "key_id": "780873566",
+    "translation_id": "7416524510",
+    "en": "Host",
+    "sv": "Värd",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::pooldose::config::abort::wrong_device",
+    "key_id": "780873565",
+    "translation_id": "7416524446",
+    "en": "The provided device does not match the configured device",
+    "sv": "Den angivna enheten matchar inte den konfigurerade enheten",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::velbus::exceptions::connection_failed::message",
+    "key_id": "780873502",
+    "translation_id": "7416523684",
+    "en": "Could not connect to Velbus.",
+    "sv": "Det gick inte att ansluta till Velbus.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::velbus::exceptions::api_call_failed::message",
+    "key_id": "780873501",
+    "translation_id": "7416523620",
+    "en": "Action execute for {entity} failed.",
+    "sv": "Det gick inte att utföra åtgärden för {entity}.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::vesync::config::step::user::description",
+    "key_id": "780860822",
+    "translation_id": "7415742967",
+    "en": "Enter the account used in the vesync app. 2FA is not supported and must be disabled.",
+    "sv": "Ange kontot som används i VeSync-appen. Tvåfaktorsautentisering stöds inte och måste inaktiveras.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::vesync::config::step::user::data_description::username",
+    "key_id": "780860821",
+    "translation_id": "7415742903",
+    "en": "Email address associated with your VeSync account",
+    "sv": "E-postadress kopplad till ditt VeSync-konto",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::vesync::config::step::user::data_description::password",
+    "key_id": "780860820",
+    "translation_id": "7415742839",
+    "en": "Password associated with your VeSync account",
+    "sv": "Lösenord kopplat till ditt VeSync-konto",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::vesync::config::step::reauth_confirm::data_description::username",
+    "key_id": "780860819",
+    "translation_id": "7415742775",
+    "en": "Email address associated with your VeSync account",
+    "sv": "E-postadress kopplad till ditt VeSync-konto",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::vesync::config::step::reauth_confirm::data_description::password",
+    "key_id": "780860818",
+    "translation_id": "7415742711",
+    "en": "Password associated with your VeSync account",
+    "sv": "Lösenord kopplat till ditt VeSync-konto",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::vesync::entity::switch::auto_off_config::name",
+    "key_id": "780844926",
+    "translation_id": "7415642646",
+    "en": "Auto Off",
+    "sv": "Automatisk avstängning",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::netgear_lte::exceptions::config_entry_not_found::message",
+    "key_id": "780544358",
+    "translation_id": "7414615623",
+    "en": "Failed to perform action \"{service}\". Config entry for target not found",
+    "sv": "Det gick inte att utföra åtgärden ”{service}”. Ingen konfigurationspost hittades för målet.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::knx::config_panel::dialogs::project_upload::title",
+    "key_id": "780333660",
+    "translation_id": "7407436546",
+    "en": "Import ETS project",
+    "sv": "Importera ETS-projekt",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::dialogs::project_upload::file_upload_label",
+    "key_id": "780333659",
+    "translation_id": "7407436482",
+    "en": "ETS project file",
+    "sv": "ETS-projektfil",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::dialogs::project_upload::description",
+    "key_id": "780333658",
+    "translation_id": "7407436418",
+    "en": "Details such as group address names, datapoint types, devices and group objects are extracted from your project file. The ETS project file itself and its optional password are not stored.\n\n`.knxproj` files exported by ETS 4, 5 or 6 are supported.",
+    "sv": "Uppgifter som gruppadressnamn, datapunkttyper, enheter och gruppobjekt hämtas från projektfilen. Själva ETS-projektfilen och dess eventuella lösenord sparas inte.\n\nETS 4, 5 och 6 stöds för `.knxproj`-filer.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::knx::config_panel::dashboard::project_upload::title",
+    "key_id": "780333657",
+    "translation_id": "7407436354",
+    "en": "Import ETS project",
+    "sv": "Importera ETS-projekt",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::dashboard::project_upload::description",
+    "key_id": "780333656",
+    "translation_id": "7407436290",
+    "en": "Import a KNX project file to help configure group addresses and datapoint types",
+    "sv": "Importera en KNX-projektfil för att underlätta konfigureringen av gruppadresser och datapunktstyper.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::knx::config_panel::dashboard::options_flow::title",
+    "key_id": "780333655",
+    "translation_id": "7407436226",
+    "en": "Integration options",
+    "sv": "Integrationsalternativ",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::dashboard::options_flow::description",
+    "key_id": "780333654",
+    "translation_id": "7407436162",
+    "en": "Configure integration settings",
+    "sv": "Konfigurera integrationsinställningar",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::dashboard::connection_flow::title",
+    "key_id": "780333653",
+    "translation_id": "7407436098",
+    "en": "Connection settings",
+    "sv": "Anslutningsinställningar",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::knx::config_panel::dashboard::connection_flow::description",
+    "key_id": "780333652",
+    "translation_id": "7407436034",
+    "en": "Reconfigure KNX connection or import a new KNX keyring file",
+    "sv": "Ändra KNX-anslutningen eller importera en ny KNX-nyckelringsfil.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::togrill::entity::sensor::ambient_temperature::name",
+    "key_id": "780181480",
+    "translation_id": "7405939371",
+    "en": "Ambient temperature",
+    "sv": "Omgivningstemperatur",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::met::exceptions::update_failed::message",
+    "key_id": "780084467",
+    "translation_id": "7402074703",
+    "en": "Update of data from the web site failed: {error}",
+    "sv": "Det gick inte att uppdatera data från webbplatsen: {error}",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::smartthings::entity::fan::hood::state_attributes::preset_mode::state::smart",
+    "key_id": "780079744",
+    "translation_id": "7402015281",
+    "en": "Smart",
+    "sv": "Smart",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::wsdot::config_subentries::travel_time::step::user::title",
+    "key_id": "780070029",
+    "translation_id": "7401974390",
+    "en": "WSDOT travel time setup",
+    "sv": "Konfigurera WSDOT:s restidsövervakning",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wsdot::config_subentries::travel_time::step::user::description",
+    "key_id": "780070028",
+    "translation_id": "7401974326",
+    "en": "Select one of the provided the highway routes to monitor estimated driving time along that route",
+    "sv": "Välj en av motorvägarna i listan för att följa den beräknade körtiden längs rutten.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wsdot::config_subentries::travel_time::step::user::data_description::name",
+    "key_id": "780070027",
+    "translation_id": "7401974262",
+    "en": "The official WSDOT description of the route.",
+    "sv": "Den officiella WSDOT-beskrivningen av rutten.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::wsdot::config_subentries::travel_time::step::user::data::name",
+    "key_id": "780070026",
+    "translation_id": "7401974198",
+    "en": "Travel Route Description",
+    "sv": "Ruttbeskrivning",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wsdot::config_subentries::travel_time::initiate_flow::user",
+    "key_id": "780070025",
+    "translation_id": "7401974134",
+    "en": "Travel time",
+    "sv": "Restid",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::wsdot::config_subentries::travel_time::entry_type",
+    "key_id": "780070024",
+    "translation_id": "7401974070",
+    "en": "Travel time",
+    "sv": "Restid",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::wsdot::config::step::user::title",
+    "key_id": "780070023",
+    "translation_id": "7401974006",
+    "en": "WSDOT setup",
+    "sv": "Konfigurera WSDOT-integrationen",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wsdot::config::step::user::description",
+    "key_id": "780070022",
+    "translation_id": "7401973942",
+    "en": "Set up your Washington State Department of Transportation integration.",
+    "sv": "Konfigurera din integration med Washington State Department of Transportation.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::wsdot::config::step::user::data_description::api_key",
+    "key_id": "780070021",
+    "translation_id": "7401973878",
+    "en": "Your WSDOT API key.",
+    "sv": "Din API-nyckel för WSDOT.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::wsdot::config::step::user::data::api_key",
+    "key_id": "780070020",
+    "translation_id": "7401973814",
+    "en": "API key",
+    "sv": "API-nyckel",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::wsdot::config::error::no_travel_time",
+    "key_id": "780070019",
+    "translation_id": "7401973750",
+    "en": "Travel time route created without a travel time entity",
+    "sv": "En restidsrutt skapades utan någon restidsentitet.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wsdot::config::error::invalid_api_key",
+    "key_id": "780070017",
+    "translation_id": "7401973622",
+    "en": "Invalid API key",
+    "sv": "Ogiltig API-nyckel",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::wsdot::config::error::cannot_connect",
+    "key_id": "780070016",
+    "translation_id": "7401973558",
+    "en": "Failed to connect",
+    "sv": "Det gick inte att ansluta",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::wsdot::config::abort::already_configured",
+    "key_id": "780070015",
+    "translation_id": "7401973494",
+    "en": "Device is already configured",
+    "sv": "Enheten är redan konfigurerad",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::openrgb::exceptions::profile_not_found::message",
+    "key_id": "780063803",
+    "translation_id": "7401941485",
+    "en": "Profile `{profile}` not found",
+    "sv": "Profilen `{profile}` hittades inte.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::openrgb::entity::select::profile::name",
+    "key_id": "780063802",
+    "translation_id": "7401941421",
+    "en": "Profile",
+    "sv": "Profil",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bsblan::services::set_hot_water_schedule::name",
+    "key_id": "780057768",
+    "translation_id": "7401857889",
+    "en": "Set hot water schedule",
+    "sv": "Ställ in schema för varmvatten",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::services::set_hot_water_schedule::fields::wednesday_slots::name",
+    "key_id": "780057767",
+    "translation_id": "7401857825",
+    "en": "Wednesday time slots",
+    "sv": "Tidsintervall för onsdag",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::services::set_hot_water_schedule::fields::wednesday_slots::description",
+    "key_id": "780057766",
+    "translation_id": "7401857761",
+    "en": "Time periods for Wednesday. Add multiple slots for different heating periods throughout the day.",
+    "sv": "Tidsintervall för onsdag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::services::set_hot_water_schedule::fields::tuesday_slots::name",
+    "key_id": "780057765",
+    "translation_id": "7401857697",
+    "en": "Tuesday time slots",
+    "sv": "Tidsintervall för tisdag",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::services::set_hot_water_schedule::fields::tuesday_slots::description",
+    "key_id": "780057764",
+    "translation_id": "7401857633",
+    "en": "Time periods for Tuesday. Add multiple slots for different heating periods throughout the day.",
+    "sv": "Tidsintervall för tisdag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::services::set_hot_water_schedule::fields::thursday_slots::name",
+    "key_id": "780057763",
+    "translation_id": "7401857569",
+    "en": "Thursday time slots",
+    "sv": "Tidsintervall för torsdag",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::services::set_hot_water_schedule::fields::thursday_slots::description",
+    "key_id": "780057762",
+    "translation_id": "7401857505",
+    "en": "Time periods for Thursday. Add multiple slots for different heating periods throughout the day.",
+    "sv": "Tidsintervall för torsdag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::services::set_hot_water_schedule::fields::sunday_slots::name",
+    "key_id": "780057761",
+    "translation_id": "7401857441",
+    "en": "Sunday time slots",
+    "sv": "Tidsintervall för söndag",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::services::set_hot_water_schedule::fields::sunday_slots::description",
+    "key_id": "780057760",
+    "translation_id": "7401857377",
+    "en": "Time periods for Sunday. Add multiple slots for different heating periods throughout the day.",
+    "sv": "Tidsintervall för söndag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::services::set_hot_water_schedule::fields::saturday_slots::name",
+    "key_id": "780057759",
+    "translation_id": "7401857313",
+    "en": "Saturday time slots",
+    "sv": "Tidsintervall för lördag",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::services::set_hot_water_schedule::fields::saturday_slots::description",
+    "key_id": "780057758",
+    "translation_id": "7401857249",
+    "en": "Time periods for Saturday. Add multiple slots for different heating periods throughout the day.",
+    "sv": "Tidsintervall för lördag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::services::set_hot_water_schedule::fields::monday_slots::name",
+    "key_id": "780057757",
+    "translation_id": "7401857185",
+    "en": "Monday time slots",
+    "sv": "Tidsintervall för måndag",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::services::set_hot_water_schedule::fields::monday_slots::description",
+    "key_id": "780057756",
+    "translation_id": "7401857121",
+    "en": "Time periods for Monday. Add multiple slots for different heating periods throughout the day.",
+    "sv": "Tidsintervall för måndag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::services::set_hot_water_schedule::fields::friday_slots::name",
+    "key_id": "780057755",
+    "translation_id": "7401857057",
+    "en": "Friday time slots",
+    "sv": "Tidsintervall för fredag",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::services::set_hot_water_schedule::fields::friday_slots::description",
+    "key_id": "780057754",
+    "translation_id": "7401856993",
+    "en": "Time periods for Friday. Add multiple slots for different heating periods throughout the day.",
+    "sv": "Tidsintervall för fredag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::services::set_hot_water_schedule::fields::device_id::name",
+    "key_id": "780057753",
+    "translation_id": "7401856929",
+    "en": "Device",
+    "sv": "Enhet",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bsblan::services::set_hot_water_schedule::fields::device_id::description",
+    "key_id": "780057752",
+    "translation_id": "7401856865",
+    "en": "The BSB-LAN device to configure.",
+    "sv": "Den BSB-LAN-enhet som ska konfigureras.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bsblan::services::set_hot_water_schedule::description",
+    "key_id": "780057751",
+    "translation_id": "7401856801",
+    "en": "Set the hot water heating schedule for a BSB-LAN device.",
+    "sv": "Ställ in schemat för varmvattenuppvärmning på en BSB-LAN-enhet.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::exceptions::set_schedule_failed::message",
+    "key_id": "780057750",
+    "translation_id": "7401856737",
+    "en": "Failed to set hot water schedule: {error}",
+    "sv": "Det gick inte att ställa in varmvattenschemat: {error}",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bsblan::exceptions::end_time_before_start_time::message",
+    "key_id": "780057746",
+    "translation_id": "7401856481",
+    "en": "End time ({end_time}) must be after start time ({start_time})",
+    "sv": "Sluttiden ({end_time}) måste vara senare än starttiden ({start_time}).",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::comelit::config::step::user::data_description::vedo_pin",
+    "key_id": "780057742",
+    "translation_id": "7401856325",
+    "en": "Optional PIN for VEDO alarm system on Serial Bridge devices. Leave empty if you don't have VEDO alarm enabled.",
+    "sv": "Valfri PIN-kod för VEDO-larmsystem på Serial Bridge-enheter. Lämna tomt om VEDO-larm inte är aktiverat.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::comelit::config::step::user::data::vedo_pin",
+    "key_id": "780057741",
+    "translation_id": "7401856261",
+    "en": "VEDO alarm PIN (optional)",
+    "sv": "PIN-kod för VEDO-larm (valfri)",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::comelit::config::step::reconfigure::data_description::vedo_pin",
+    "key_id": "780057740",
+    "translation_id": "7401856197",
+    "en": "Optional PIN for VEDO alarm system on Serial Bridge devices. Leave empty if you don't have VEDO alarm enabled.",
+    "sv": "Valfri PIN-kod för VEDO-larmsystem på Serial Bridge-enheter. Lämna tomt om VEDO-larm inte är aktiverat.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::comelit::config::step::reconfigure::data::vedo_pin",
+    "key_id": "780057739",
+    "translation_id": "7401856133",
+    "en": "VEDO alarm PIN (optional)",
+    "sv": "PIN-kod för VEDO-larm (valfri)",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::comelit::config::step::reauth_confirm::data_description::vedo_pin",
+    "key_id": "780057738",
+    "translation_id": "7401856069",
+    "en": "Optional PIN for VEDO alarm system on Serial Bridge devices. Leave empty if you don't have VEDO alarm enabled.",
+    "sv": "Valfri PIN-kod för VEDO-larmsystem på Serial Bridge-enheter. Lämna tomt om VEDO-larm inte är aktiverat.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::comelit::config::step::reauth_confirm::data::vedo_pin",
+    "key_id": "780057737",
+    "translation_id": "7401856005",
+    "en": "VEDO alarm PIN (optional)",
+    "sv": "PIN-kod för VEDO-larm (valfri)",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::comelit::config::error::invalid_vedo_pin",
+    "key_id": "780057736",
+    "translation_id": "7401855941",
+    "en": "The provided VEDO PIN is invalid. It must be a 4-10 digit number.",
+    "sv": "Den angivna VEDO-PIN-koden är ogiltig. Den måste bestå av 4–10 siffror.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::comelit::config::error::invalid_vedo_auth",
+    "key_id": "780057735",
+    "translation_id": "7401855877",
+    "en": "The provided VEDO PIN is incorrect or VEDO alarm is not enabled on this device.",
+    "sv": "Den angivna VEDO-PIN-koden är felaktig eller så är VEDO-larmet inte aktiverat på den här enheten.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::comelit::config::abort::invalid_vedo_pin",
+    "key_id": "780057734",
+    "translation_id": "7401855813",
+    "en": "The provided VEDO PIN is invalid. It must be a 4-10 digit number.",
+    "sv": "Den angivna VEDO-PIN-koden är ogiltig. Den måste bestå av 4–10 siffror.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::comelit::config::abort::invalid_vedo_auth",
+    "key_id": "780057733",
+    "translation_id": "7401855749",
+    "en": "The provided VEDO PIN is incorrect or VEDO alarm is not enabled on this device.",
+    "sv": "Den angivna VEDO-PIN-koden är felaktig eller så är VEDO-larmet inte aktiverat på den här enheten.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::actron_air::exceptions::update_error::message",
+    "key_id": "780057714",
+    "translation_id": "7401855492",
+    "en": "An error occurred while retrieving data from the Actron Air API: {error}",
+    "sv": "Ett fel uppstod när data hämtades från Actron Air-API:t: {error}",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::fish_audio::selector::sort_by::options::task_count",
+    "key_id": "780056231",
+    "translation_id": "7401845634",
+    "en": "Most uses",
+    "sv": "Flest användningar",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::fish_audio::selector::sort_by::options::score",
+    "key_id": "780056230",
+    "translation_id": "7401845570",
+    "en": "Highest score",
+    "sv": "Högsta poäng",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::fish_audio::selector::sort_by::options::created_at",
+    "key_id": "780056229",
+    "translation_id": "7401845506",
+    "en": "Newest",
+    "sv": "Nyaste",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::model::title",
+    "key_id": "780056228",
+    "translation_id": "7401845442",
+    "en": "Choose your voice and model",
+    "sv": "Välj din röst och modell",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::model::description",
+    "key_id": "780056227",
+    "translation_id": "7401845378",
+    "en": "Select your preferred voice and the AI model to use for speech synthesis.",
+    "sv": "Välj vilken röst och AI-modell som ska användas för talsyntes.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::model::data_description::voice_id",
+    "key_id": "780056226",
+    "translation_id": "7401845314",
+    "en": "Choose from the list of available voices, or manually enter a specific voice ID.",
+    "sv": "Välj en röst i listan över tillgängliga röster eller ange ett specifikt röst-ID manuellt.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::model::data_description::name",
+    "key_id": "780056225",
+    "translation_id": "7401845250",
+    "en": "Enter a unique name for this TTS voice to easily identify it in Home Assistant.",
+    "sv": "Ange ett unikt namn för den här TTS-rösten så att du enkelt känner igen den i Home Assistant.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::model::data_description::latency",
+    "key_id": "780056224",
+    "translation_id": "7401845186",
+    "en": "Choose the latency mode: 'normal' for standard processing or 'balanced' for optimized speed.",
+    "sv": "Välj fördröjningsläge: ”normal” för standardbearbetning eller ”balanserad” för optimerad hastighet.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::model::data_description::backend",
+    "key_id": "780056223",
+    "translation_id": "7401845122",
+    "en": "Select the AI model that will generate the audio.",
+    "sv": "Välj den AI-modell som genererar ljudet.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::model::data::voice_id",
+    "key_id": "780056222",
+    "translation_id": "7401845058",
+    "en": "Voice",
+    "sv": "Röst",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::model::data::name",
+    "key_id": "780056221",
+    "translation_id": "7401844994",
+    "en": "Name",
+    "sv": "Namn",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::model::data::latency",
+    "key_id": "780056220",
+    "translation_id": "7401844930",
+    "en": "Latency mode",
+    "sv": "Fördröjningsläge",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::model::data::backend",
+    "key_id": "780056219",
+    "translation_id": "7401844866",
+    "en": "AI voice model",
+    "sv": "AI-röstmodell",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::init::title",
+    "key_id": "780056218",
+    "translation_id": "7401844802",
+    "en": "Voice selection filters",
+    "sv": "Filter för röstval",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::init::description",
+    "key_id": "780056217",
+    "translation_id": "7401844738",
+    "en": "Apply filters to narrow down the voice list, then select **Submit** to see the results.",
+    "sv": "Använd filter för att begränsa röstlistan och välj sedan **Bekräfta** för att se resultaten.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::init::data_description::title",
+    "key_id": "780056216",
+    "translation_id": "7401844674",
+    "en": "Filter voices by name.",
+    "sv": "Filtrera röster efter namn.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::init::data_description::sort_by",
+    "key_id": "780056215",
+    "translation_id": "7401844610",
+    "en": "Choose the order in which the voices are displayed.",
+    "sv": "Välj i vilken ordning rösterna visas.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::init::data_description::self_only",
+    "key_id": "780056214",
+    "translation_id": "7401844546",
+    "en": "When checked, this will only show the voices you have personally created or cloned.",
+    "sv": "När alternativet är markerat visas bara röster som du själv har skapat eller klonat.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::init::data_description::language",
+    "key_id": "780056213",
+    "translation_id": "7401844482",
+    "en": "Display only voices that support the selected language.",
+    "sv": "Visa endast röster som stöder det valda språket.",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::init::data::title",
+    "key_id": "780056212",
+    "translation_id": "7401844418",
+    "en": "Filter by name",
+    "sv": "Filtrera efter namn",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::init::data::sort_by",
+    "key_id": "780056211",
+    "translation_id": "7401844354",
+    "en": "Sort voices by",
+    "sv": "Sortera röster efter",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::init::data::self_only",
+    "key_id": "780056210",
+    "translation_id": "7401844290",
+    "en": "Show only my private voices",
+    "sv": "Visa endast mina privata röster",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::step::init::data::language",
+    "key_id": "780056209",
+    "translation_id": "7401844226",
+    "en": "Filter by language",
+    "sv": "Filtrera efter språk",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::initiate_flow::user",
+    "key_id": "780056208",
+    "translation_id": "7401844162",
+    "en": "Add TTS voice",
+    "sv": "Lägg till TTS-röst",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::fish_audio::config_subentries::tts::initiate_flow::reconfigure",
+    "key_id": "780056207",
+    "translation_id": "7401844098",
+    "en": "Reconfigure TTS voice",
+    "sv": "Konfigurera om TTS-röst",
+    "verification_method": "Lokalise API live read-back",
+    "verified_date": "2026-11-25",
+    "status": "verified-existing"
+  }
+]
