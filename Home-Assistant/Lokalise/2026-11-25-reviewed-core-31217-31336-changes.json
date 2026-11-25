@@ -1,0 +1,156 @@
+[
+  {
+    "position": 31217,
+    "key": "component::tplink::entity::sensor::vacuum_error::state::mainbrushstuck",
+    "key_id": "599682036",
+    "translation_id": "5180611923",
+    "en": "Main brush stuck",
+    "previous_sv": "Huvudborste sitter fast",
+    "sv": "Huvudborsten har fastnat",
+    "verified": true,
+    "reason": "Använder en naturlig felstatus med bestämd form."
+  },
+  {
+    "position": 31219,
+    "key": "component::tplink::entity::sensor::vacuum_error::state::sidebrushstuck",
+    "key_id": "599682038",
+    "translation_id": "5180612049",
+    "en": "Side brush stuck",
+    "previous_sv": "Sidoborste sitter fast",
+    "sv": "Sidoborsten har fastnat",
+    "verified": true,
+    "reason": "Använder en naturlig felstatus med bestämd form."
+  },
+  {
+    "position": 31224,
+    "key": "component::tplink::entity::sensor::vacuum_error::state::unknowninternal",
+    "key_id": "599682043",
+    "translation_id": "5180612364",
+    "en": "Unknown error, report to upstream",
+    "previous_sv": "Okänt fel, rapportera uppströms",
+    "sv": "Okänt fel. Rapportera det till utvecklarna.",
+    "verified": true,
+    "reason": "Återger uppströmsrapportering som en tydlig instruktion till utvecklarna."
+  },
+  {
+    "position": 31225,
+    "key": "component::tplink::entity::sensor::vacuum_error::state::wheelblocked",
+    "key_id": "599682044",
+    "translation_id": "5180612427",
+    "en": "Wheel blocked",
+    "previous_sv": "Hjul blockerat",
+    "sv": "Blockerat hjul",
+    "verified": true,
+    "reason": "Korrigerar kongruensen och gör felstatusen naturlig på svenska."
+  },
+  {
+    "position": 31226,
+    "key": "component::tplink::entity::switch::carpet_boost::name",
+    "key_id": "599682045",
+    "translation_id": "5180612490",
+    "en": "Carpet boost",
+    "previous_sv": "Mattboost",
+    "sv": "Ökad sugkraft på mattor",
+    "verified": true,
+    "reason": "Beskriver funktionen på svenska: ökad sugkraft vid rengöring av mattor."
+  },
+  {
+    "position": 31228,
+    "key": "component::tplink::entity::number::power_protection_threshold::name",
+    "key_id": "599684526",
+    "translation_id": "5180654860",
+    "en": "Power protection",
+    "previous_sv": "Strömskydd",
+    "sv": "Effektskydd",
+    "verified": true,
+    "reason": "Korrigerar storheten: skyddet gäller effekt, inte elektrisk ström."
+  },
+  {
+    "position": 31230,
+    "key": "component::google_drive::config::abort::access_not_configured",
+    "key_id": "599684540",
+    "translation_id": "5180655058",
+    "en": "Unable to access the Google Drive API:\n\n{message}",
+    "previous_sv": "Det går inte att komma åt Google Drive-API:et:: \n \n {message}",
+    "sv": "Det går inte att komma åt Google Drive-API:et:\n\n{message}",
+    "verified": true,
+    "reason": "Tar bort dubblerad kolon och återställer korrekt felmeddelandeformat med {message}."
+  },
+  {
+    "position": 31234,
+    "key": "component::google_drive::config::abort::create_folder_failure",
+    "key_id": "599684544",
+    "translation_id": "5180655310",
+    "en": "Error while creating Google Drive folder:\n\n{message}",
+    "previous_sv": "Fel när Google Drive-mappen skapades: \n \n {message}",
+    "sv": "Det gick inte att skapa Google Drive-mappen:\n\n{message}",
+    "verified": true,
+    "reason": "Gör felmeddelandet idiomatiskt och bevarar den separata felinformationen."
+  },
+  {
+    "position": 31253,
+    "key": "component::matter::entity::sensor::operational_state::state::seeking_charger",
+    "key_id": "599745850",
+    "translation_id": "5180977631",
+    "en": "Seeking charger",
+    "previous_sv": "Letar laddare",
+    "sv": "Söker efter laddare",
+    "verified": true,
+    "reason": "Lägger till den saknade prepositionen och återger enhetens laddarsökning naturligt."
+  },
+  {
+    "position": 31259,
+    "key": "component::filter::config::step::lowpass::data_description::time_constant",
+    "key_id": "599776108",
+    "translation_id": "5181174277",
+    "en": "Loosely relates to the amount of time it takes for a state to influence the output.",
+    "previous_sv": "Relaterar ungefär till hur lång tid det tar för ett tillstånd att påverka utgången.",
+    "sv": "Beskriver ungefär hur lång tid det tar innan ett tillstånd påverkar utvärdet.",
+    "verified": true,
+    "reason": "Förklarar tidskonstantens effekt på filtreringsresultatet med tydlig svenska."
+  },
+  {
+    "position": 31266,
+    "key": "component::filter::config::step::outlier::data_description::radius",
+    "key_id": "599776115",
+    "translation_id": "5181174718",
+    "en": "Band radius from median of previous states.",
+    "previous_sv": "Bandradie från medianen av tidigare tillstånd.",
+    "sv": "Tillåten avvikelse från medianvärdet för tidigare tillstånd.",
+    "verified": true,
+    "reason": "Återger radius-fältets faktiska funktion som tillåten avvikelse från medianvärdet."
+  },
+  {
+    "position": 31299,
+    "key": "component::filter::config::step::user::description",
+    "key_id": "599776148",
+    "translation_id": "5181176797",
+    "en": "Add a filter sensor. UI configuration is limited to a single filter, use YAML for filter chain.",
+    "previous_sv": "Lägg till en filtersensor. UI-konfigurering är begränsad till ett enskilt filter, använd YAML för att kedja flera filter.",
+    "sv": "Lägg till en filtersensor. I gränssnittet går det bara att konfigurera ett filter. Använd YAML om du vill kedja flera filter.",
+    "verified": true,
+    "reason": "Tar bort kommatering mellan huvudsatser, ersätter UI med gränssnitt och gör YAML-instruktionen tydlig."
+  },
+  {
+    "position": 31305,
+    "key": "component::filter::options::step::lowpass::data_description::time_constant",
+    "key_id": "599776154",
+    "translation_id": "5181177175",
+    "en": "Loosely relates to the amount of time it takes for a state to influence the output.",
+    "previous_sv": "Relaterar ungefär till hur lång tid det tar för ett tillstånd att påverka utgången.",
+    "sv": "Beskriver ungefär hur lång tid det tar innan ett tillstånd påverkar utvärdet.",
+    "verified": true,
+    "reason": "Synkar referensaliaset till det granskade och korrigerade målet."
+  },
+  {
+    "position": 31312,
+    "key": "component::filter::options::step::outlier::data_description::radius",
+    "key_id": "599776161",
+    "translation_id": "5181177616",
+    "en": "Band radius from median of previous states.",
+    "previous_sv": "Bandradie från medianen av tidigare tillstånd.",
+    "sv": "Tillåten avvikelse från medianvärdet för tidigare tillstånd.",
+    "verified": true,
+    "reason": "Synkar referensaliaset till det granskade och korrigerade målet."
+  }
+]
