@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-25 19:00 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-25 19:08 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -335,7 +335,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/geyes/sv/) | master | 42 | 0 | 0 | Klar | X | 1 | Klar lokalt (2026-11-24): Hela 42-strängarskatalogen är radgranskad mot senaste POT. En felaktig historisk uppgift är rättad; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](gnome-applets/master/geyes/geyes.master.sv.original.po), [granskad](gnome-applets/master/geyes/geyes.master.sv.reviewed.po), [diff](gnome-applets/master/geyes/geyes.master.sv.review.diff), [notering](gnome-applets/master/geyes/README.md) |
 | Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/accessx-status/sv/) | master | 62 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/netspeed/sv/) | master | 73 | 0 | 0 | Klar |  | — | Ej granskad |
-| Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/trash/sv/) | master | 43 | 0 | 0 | Klar |  | — | Ej granskad |
+| Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/trash/sv/) | master | 43 | 0 | 0 | Klar | X | 25 | Klar lokalt (2026-11-25): Hela 43-strängarskatalogen är radgranskad mot senaste POT. 25 befintliga översättningar är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](gnome-applets/master/trash/gnome-applets.master.trash.sv.original.po), [granskad](gnome-applets/master/trash/gnome-applets.master.trash.sv.reviewed.po), [diff](gnome-applets/master/trash/gnome-applets.master.trash.sv.diff), [notering](gnome-applets/master/trash/README.md) |
 | Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/sticky-notes/sv/) | master | 106 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/multiload/sv/) | master | 123 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/gweather/sv/) | master | 151 | 0 | 0 | Klar |  | — | Ej granskad |
