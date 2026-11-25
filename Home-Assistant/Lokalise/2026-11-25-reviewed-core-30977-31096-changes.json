@@ -1,0 +1,123 @@
+[
+  {
+    "position": 30992,
+    "key": "component::tplink::exceptions::invalid_alarm_duration::message",
+    "key_id": "599141836",
+    "translation_id": "5175866017",
+    "en": "Invalid duration {duration} available: 1-{duration_max}s",
+    "existing_sv": "Ogiltig varaktighet {duration}. Tillgänglig: 1-{duration_max}s",
+    "proposed_sv": "Ogiltig varaktighet: {duration}. Tillåtet intervall: 1–{duration_max} s.",
+    "rationale": "Gör felmeddelandet grammatiskt komplett och uttrycker intervallet med svenskt tankstreck och mellanslag före enhetssymbolen.",
+    "saved_and_read_back": true
+  },
+  {
+    "position": 31000,
+    "key": "component::youless::entity::sensor::active_power_w::name",
+    "key_id": "599287159",
+    "translation_id": "5177109476",
+    "en": "Current power usage",
+    "existing_sv": "Aktuell strömförbrukning",
+    "proposed_sv": "Aktuell effektförbrukning",
+    "rationale": "Källan och sensorbeskrivningen anger momentan effekt i watt; ”strömförbrukning” syftar felaktigt på elektrisk ström.",
+    "saved_and_read_back": true
+  },
+  {
+    "position": 31001,
+    "key": "component::youless::entity::sensor::active_s0_w::name",
+    "key_id": "599287160",
+    "translation_id": "5177109539",
+    "en": "Current usage",
+    "existing_sv": "Strömförbrukning",
+    "proposed_sv": "Aktuell effektförbrukning",
+    "rationale": "Detta är också en effektmätare i watt; lägger till aktuell och använder rätt storhet, effekt.",
+    "saved_and_read_back": true
+  },
+  {
+    "position": 31017,
+    "key": "component::nest::config::abort::pubsub_api_error",
+    "key_id": "599312717",
+    "translation_id": "5177227288",
+    "en": "Unknown error talking to Cloud Pub/Sub, see logs",
+    "existing_sv": "Okänt fel vid hämtning till Cloud Pub/Sub, se loggar för mer information",
+    "proposed_sv": "Okänt fel vid kommunikation med Cloud Pub/Sub. Se loggarna.",
+    "rationale": "Källan avser kommunikation med Cloud Pub/Sub, inte hämtning av data; delar upp instruktionen i två tydliga meningar.",
+    "saved_and_read_back": true
+  },
+  {
+    "position": 31018,
+    "key": "component::nest::config::step::pubsub_topic_confirm::description",
+    "key_id": "599312718",
+    "translation_id": "5177227351",
+    "en": "The Nest Device Access Console needs to be configured to publish device events to your Pub/Sub topic.\n\n1. Visit the [Device Access Console]({device_access_console_url}).\n2. Open the project.\n3. If *Events* are already enabled with a different topic, disable them first.\n4. Enable *Events* and set the Pub/Sub topic name to `{topic_name}`.\n5. Click *Add & Validate* to verify the topic is configured correctly.\n\nSee the integration documentation for [more info]({more_info_url}).",
+    "existing_sv": "Nest Device Access Console måste konfigureras för att publicera enhetshändelser till Pub/Sub-ämnet.\n\n1. Besök [Device Access Console]({device_access_console_url}).\n2. Öppna projektet.\n3. Om *Events* redan är aktiverat med ett annat ämne inaktiverar du det först.\n4. Aktivera *Events* och ange Pub/Sub-ämnets namn till `{topic_name}`.\n5. Klicka på *Add & Validate* för att kontrollera att ämnet är korrekt konfigurerat.\n\nSe [integrationsdokumentationen]({more_info_url}) för mer information.",
+    "proposed_sv": "Nest Device Access Console måste konfigureras för att publicera enhetshändelser till Pub/Sub-ämnet.\n\n1. Besök [Device Access Console]({device_access_console_url}).\n2. Öppna projektet.\n3. Om *Events* redan är aktiverat med ett annat ämne inaktiverar du det först.\n4. Aktivera *Events* och ange {topic_name} som namn på Pub/Sub-ämnet.\n5. Klicka på *Add & Validate* för att kontrollera att ämnet är korrekt konfigurerat.\n\nSe [integrationsdokumentationen]({more_info_url}) för mer information.",
+    "rationale": "Gör instruktionen om ämnesnamnet idiomatisk och placerar {topic_name} direkt som värdet som ska anges.",
+    "saved_and_read_back": true
+  },
+  {
+    "position": 31042,
+    "key": "component::onedrive::config::abort::wrong_drive",
+    "key_id": "599484432",
+    "translation_id": "5178914224",
+    "en": "New account does not contain previously configured OneDrive.",
+    "existing_sv": "Det nya kontot innehåller inte tidigare konfigurerad OneDrive.",
+    "proposed_sv": "Det nya kontot har inte åtkomst till den OneDrive som konfigurerades tidigare.",
+    "rationale": "Förklarar att kontot saknar åtkomst till den OneDrive-instans som användes tidigare; ”innehåller inte” blir missvisande.",
+    "saved_and_read_back": true
+  },
+  {
+    "position": 31063,
+    "key": "component::motionmount::config::step::auth::title",
+    "key_id": "599514262",
+    "translation_id": "5179157915",
+    "en": "Authenticate to your MotionMount",
+    "existing_sv": "Autentisera till din MotionMount",
+    "proposed_sv": "Autentisera din MotionMount",
+    "rationale": "Korrigerar den oidiomatiska konstruktionen ”autentisera till”.",
+    "saved_and_read_back": true
+  },
+  {
+    "position": 31065,
+    "key": "component::motionmount::config::step::backoff::title",
+    "key_id": "599514264",
+    "translation_id": "5179158041",
+    "en": "Authenticate to your MotionMount",
+    "existing_sv": "Autentisera till din MotionMount",
+    "proposed_sv": "Autentisera din MotionMount",
+    "rationale": "Korrigerar den oidiomatiska konstruktionen ”autentisera till”.",
+    "saved_and_read_back": true
+  },
+  {
+    "position": 31067,
+    "key": "component::motionmount::exceptions::no_pin_provided::message",
+    "key_id": "599514266",
+    "translation_id": "5179158167",
+    "en": "No PIN provided",
+    "existing_sv": "Ingen PIN-kod tillhandahålls",
+    "proposed_sv": "Ingen PIN-kod har angetts.",
+    "rationale": "Använder en naturlig svensk formulering för att ange att PIN-koden saknas.",
+    "saved_and_read_back": true
+  },
+  {
+    "position": 31079,
+    "key": "component::homewizard::entity::sensor::state_of_charge_pct::name",
+    "key_id": "599643724",
+    "translation_id": "5180197298",
+    "en": "State of charge",
+    "existing_sv": "Laddningsstatus",
+    "proposed_sv": "Laddningsnivå",
+    "rationale": "Mätvärdet är batteriets procentuella laddningsnivå, inte en allmän status.",
+    "saved_and_read_back": true
+  },
+  {
+    "position": 31088,
+    "key": "component::tplink::entity::button::unpair::name",
+    "key_id": "599644766",
+    "translation_id": "5180202521",
+    "en": "Unpair device",
+    "existing_sv": "Koppla bort enheten",
+    "proposed_sv": "Ta bort parkopplingen",
+    "rationale": "Skiljer åtgärden att ta bort parkopplingen från att bara koppla från enheten.",
+    "saved_and_read_back": true
+  }
+]

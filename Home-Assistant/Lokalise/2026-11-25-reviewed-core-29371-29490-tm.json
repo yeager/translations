@@ -1,0 +1,542 @@
+[
+  {
+    "key": "component::light::triggers::brightness_crossed_threshold::name",
+    "key_id": "777958362",
+    "translation_id": "7356843735",
+    "en": "Light brightness crossed threshold",
+    "sv": "Ljusstyrkan har passerat tröskelvärdet",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::climate::triggers::target_humidity_changed::description",
+    "key_id": "777981292",
+    "translation_id": "7356983328",
+    "en": "Triggers when the humidity setpoint of one or more thermostats changes.",
+    "sv": "Utlöses när börvärdet för luftfuktighet hos en eller flera termostater ändras.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::climate::triggers::target_humidity_changed::name",
+    "key_id": "777981297",
+    "translation_id": "7356983648",
+    "en": "Thermostat target humidity changed",
+    "sv": "Termostatens börvärde för luftfuktighet ändrades",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::climate::triggers::target_humidity_crossed_threshold::description",
+    "key_id": "777981298",
+    "translation_id": "7356983712",
+    "en": "Triggers when the humidity setpoint of one or more thermostats crosses a threshold.",
+    "sv": "Utlöses när börvärdet för luftfuktighet hos en eller flera termostater passerar ett tröskelvärde.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::climate::triggers::target_humidity_crossed_threshold::fields::behavior::name",
+    "key_id": "777981300",
+    "translation_id": "7356983840",
+    "en": "Trigger when",
+    "sv": "Utlös när",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::climate::triggers::target_humidity_crossed_threshold::name",
+    "key_id": "777981307",
+    "translation_id": "7356984288",
+    "en": "Thermostat target humidity crossed threshold",
+    "sv": "Termostatens börvärde för luftfuktighet passerade tröskelvärdet",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::ecoforest::entity::sensor::alarm::state::unknown",
+    "key_id": "778027700",
+    "translation_id": "7357204217",
+    "en": "Unknown alarm",
+    "sv": "Okänt larm",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::frontend::services::set_theme::fields::name_dark::description",
+    "key_id": "778029471",
+    "translation_id": "7357336359",
+    "en": "Alternative dark-mode theme that is used by default.",
+    "sv": "Alternativt tema för mörkt läge som används som standard.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::frontend::services::set_theme::fields::name_dark::name",
+    "key_id": "778029472",
+    "translation_id": "7357336423",
+    "en": "Dark theme override",
+    "sv": "Åsidosättning av mörkt tema",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::telegram_bot::services::download_file::description",
+    "key_id": "778029494",
+    "translation_id": "7357336739",
+    "en": "Download the file to a local path.",
+    "sv": "Hämta filen till en lokal sökväg.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::telegram_bot::services::download_file::fields::config_entry_id::description",
+    "key_id": "778029495",
+    "translation_id": "7357336803",
+    "en": "The config entry representing the Telegram bot to get the file.",
+    "sv": "Konfigurationsposten för Telegram-boten som ska hämta filen.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::telegram_bot::services::download_file::fields::config_entry_id::name",
+    "key_id": "778029496",
+    "translation_id": "7357336867",
+    "en": "Config entry ID",
+    "sv": "ID för konfigurationspost",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::telegram_bot::services::download_file::fields::directory_path::description",
+    "key_id": "778029497",
+    "translation_id": "7357336931",
+    "en": "Local directory path to save the file to. Defaults to the 'telegram_bot' directory within your Home Assistant configuration directory.",
+    "sv": "Lokal katalog där filen ska sparas. Som standard används katalogen `telegram_bot` i Home Assistant-konfigurationskatalogen.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::telegram_bot::services::download_file::fields::directory_path::example",
+    "key_id": "778029498",
+    "translation_id": "7357336995",
+    "en": "/config/telegram_bot",
+    "sv": "/config/telegram_bot",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::telegram_bot::services::download_file::fields::directory_path::name",
+    "key_id": "778029499",
+    "translation_id": "7357337059",
+    "en": "Directory path",
+    "sv": "Katalogsökväg",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::telegram_bot::services::download_file::fields::file_id::description",
+    "key_id": "778029500",
+    "translation_id": "7357337123",
+    "en": "ID of the file to get.",
+    "sv": "ID för den fil som ska hämtas.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::telegram_bot::services::download_file::fields::file_id::name",
+    "key_id": "778029501",
+    "translation_id": "7357337187",
+    "en": "File ID",
+    "sv": "Fil-ID",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::telegram_bot::services::download_file::fields::file_name::description",
+    "key_id": "778029502",
+    "translation_id": "7357337251",
+    "en": "Name to save the file as. If not provided, the original file name will be used.",
+    "sv": "Namnet som filen ska sparas under. Om inget anges används det ursprungliga filnamnet.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::telegram_bot::services::download_file::fields::file_name::name",
+    "key_id": "778029503",
+    "translation_id": "7357337315",
+    "en": "File name",
+    "sv": "Filnamn",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::telegram_bot::services::download_file::name",
+    "key_id": "778029504",
+    "translation_id": "7357337379",
+    "en": "Download file",
+    "sv": "Ladda ner fil",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::airobot::entity::number::hysteresis_band::name",
+    "key_id": "778451698",
+    "translation_id": "7365707788",
+    "en": "Hysteresis band",
+    "sv": "Hysteresband",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::airobot::exceptions::set_value_failed::message",
+    "key_id": "778451699",
+    "translation_id": "7365707852",
+    "en": "Failed to set value.",
+    "sv": "Det gick inte att ange värdet.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::saunum::entity::binary_sensor::alarm_door_open::name",
+    "key_id": "778451729",
+    "translation_id": "7365708301",
+    "en": "Door open during heating alarm",
+    "sv": "Larm om att dörren är öppen under uppvärmning",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::saunum::entity::binary_sensor::alarm_door_sensor::name",
+    "key_id": "778451730",
+    "translation_id": "7365708365",
+    "en": "Door open too long alarm",
+    "sv": "Larm om att dörren har stått öppen för länge",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::saunum::entity::binary_sensor::alarm_internal_temp::name",
+    "key_id": "778451731",
+    "translation_id": "7365708429",
+    "en": "Internal temperature alarm",
+    "sv": "Internt temperaturlarm",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::saunum::entity::binary_sensor::alarm_temp_sensor_open::name",
+    "key_id": "778451732",
+    "translation_id": "7365708493",
+    "en": "Temperature sensor disconnected alarm",
+    "sv": "Larm om frånkopplad temperatursensor",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::saunum::entity::binary_sensor::alarm_temp_sensor_short::name",
+    "key_id": "778451733",
+    "translation_id": "7365708557",
+    "en": "Temperature sensor shorted alarm",
+    "sv": "Larm om kortsluten temperatursensor",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::saunum::entity::binary_sensor::alarm_thermal_cutoff::name",
+    "key_id": "778451734",
+    "translation_id": "7365708621",
+    "en": "Thermal cutoff alarm",
+    "sv": "Larm om att överhettningsskyddet har löst ut",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::saunum::exceptions::door_open::message",
+    "key_id": "778451735",
+    "translation_id": "7365708685",
+    "en": "Cannot start sauna session when sauna door is open",
+    "sv": "Det går inte att starta en bastusession när bastudörren är öppen.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::velbus::exceptions::clear_cache_failed::message",
+    "key_id": "778453376",
+    "translation_id": "7365726727",
+    "en": "Cannot clear the Velbus cache at {path}.",
+    "sv": "Det gick inte att rensa Velbus-cachen på sökvägen {path}.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::velbus::exceptions::module_not_found::message",
+    "key_id": "778453377",
+    "translation_id": "7365726791",
+    "en": "Module with address {address} not found.",
+    "sv": "Modul med adress {address} hittades inte.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::velbus::exceptions::scan_failed::message",
+    "key_id": "778453378",
+    "translation_id": "7365726855",
+    "en": "Scan service: {error}.",
+    "sv": "Skanningstjänsten: {error}.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::velbus::exceptions::set_memo_text_failed::message",
+    "key_id": "778453379",
+    "translation_id": "7365726919",
+    "en": "Failed to set the memo text on the Velbus module: {error}.",
+    "sv": "Det gick inte att ange anteckningstexten på Velbus-modulen: {error}.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::velbus::exceptions::sync_clock_failed::message",
+    "key_id": "778453380",
+    "translation_id": "7365726983",
+    "en": "Failed to sync the Velbus clock: {error}.",
+    "sv": "Det gick inte att synkronisera Velbus-klockan: {error}.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::velux::config::error::invalid_auth",
+    "key_id": "778467614",
+    "translation_id": "7365837174",
+    "en": "Invalid authentication",
+    "sv": "Ogiltig autentisering",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::velux::config::step::reauth_confirm::data::password",
+    "key_id": "778467615",
+    "translation_id": "7365837238",
+    "en": "Password",
+    "sv": "Lösenord",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::velux::config::step::reauth_confirm::data_description::password",
+    "key_id": "778467616",
+    "translation_id": "7365837302",
+    "en": "The password for your KLF200 gateway.",
+    "sv": "Lösenordet för din KLF200-gateway.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::velux::config::step::reauth_confirm::description",
+    "key_id": "778467617",
+    "translation_id": "7365837366",
+    "en": "The password for {host} is incorrect. Please enter the correct password.",
+    "sv": "Lösenordet för {host} är felaktigt. Ange det korrekta lösenordet.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::fluss::config::abort::already_configured",
+    "key_id": "778548721",
+    "translation_id": "7366398030",
+    "en": "Account is already configured",
+    "sv": "Kontot är redan konfigurerat",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::fluss::config::error::cannot_connect",
+    "key_id": "778548722",
+    "translation_id": "7366398094",
+    "en": "Failed to connect",
+    "sv": "Det gick inte att ansluta",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::fluss::config::error::invalid_auth",
+    "key_id": "778548723",
+    "translation_id": "7366398158",
+    "en": "Invalid authentication",
+    "sv": "Ogiltig autentisering",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::fluss::config::error::unknown",
+    "key_id": "778548724",
+    "translation_id": "7366398222",
+    "en": "Unexpected error",
+    "sv": "Oväntat fel",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::fluss::config::step::user::data::api_key",
+    "key_id": "778548725",
+    "translation_id": "7366398286",
+    "en": "API key",
+    "sv": "API-nyckel",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::fluss::config::step::user::data_description::api_key",
+    "key_id": "778548726",
+    "translation_id": "7366398350",
+    "en": "The API key found in the profile page of the Fluss+ app.",
+    "sv": "API-nyckeln som finns på profilsidan i appen Fluss+.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::fluss::config::step::user::description",
+    "key_id": "778548727",
+    "translation_id": "7366398414",
+    "en": "Your Fluss API key, available in the profile page of the Fluss+ app",
+    "sv": "Din API-nyckel för Fluss finns på profilsidan i appen Fluss+.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::knx::config_panel::entities::create::scene::description",
+    "key_id": "778548793",
+    "translation_id": "7366398709",
+    "en": "A KNX entity can activate a KNX scene and updates when the scene number is received.",
+    "sv": "En KNX-entitet kan aktivera en KNX-scen och uppdateras när scennumret tas emot.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::knx::config_panel::entities::create::scene::knx::ga_scene::description",
+    "key_id": "778548794",
+    "translation_id": "7366398773",
+    "en": "Group address to activate a scene.",
+    "sv": "Gruppadress för att aktivera en scen.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::knx::config_panel::entities::create::scene::knx::ga_scene::label",
+    "key_id": "778548795",
+    "translation_id": "7366398837",
+    "en": "Scene",
+    "sv": "Scen",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::knx::config_panel::entities::create::scene::knx::scene_number::description",
+    "key_id": "778548796",
+    "translation_id": "7366398901",
+    "en": "The scene number this entity is associated with.",
+    "sv": "Det scennummer som entiteten är kopplad till.",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::knx::config_panel::entities::create::scene::knx::scene_number::label",
+    "key_id": "778548797",
+    "translation_id": "7366398965",
+    "en": "Scene number",
+    "sv": "Scennummer",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::transmission::selector::torrent_filter::options::active",
+    "key_id": "778560664",
+    "translation_id": "7366482590",
+    "en": "Active",
+    "sv": "Aktiv",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::transmission::selector::torrent_filter::options::all",
+    "key_id": "778560665",
+    "translation_id": "7366482654",
+    "en": "All",
+    "sv": "Alla",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::transmission::selector::torrent_filter::options::completed",
+    "key_id": "778560666",
+    "translation_id": "7366482718",
+    "en": "Completed",
+    "sv": "Slutförd",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::transmission::selector::torrent_filter::options::paused",
+    "key_id": "778560667",
+    "translation_id": "7366482782",
+    "en": "Paused",
+    "sv": "Pausad",
+    "verification_method": "Lokalise API readback",
+    "verified_date": "2026-11-25",
+    "source_revision": "86a2eabe7e43f526db5821ef068087ce8404ae07"
+  }
+]

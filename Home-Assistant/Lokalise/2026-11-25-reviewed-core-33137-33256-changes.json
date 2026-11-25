@@ -1,0 +1,200 @@
+[
+  {
+    "position": 33137,
+    "key": "component::mqtt::config_subentries::device::step::summary_menu::description",
+    "key_id": "619931476",
+    "translation_id": "5428701051",
+    "en": "Entities set up:\n{mqtt_items}\n\nDecide what to do next:",
+    "existing_sv": "Konfigurerade entiteter: \n{mqtt_items} \n\nBestäm vad du ska göra härnäst:",
+    "proposed_sv": "Konfigurerade entiteter:\n{mqtt_items}\n\nBestäm vad du vill göra härnäst:",
+    "reason": "Tar bort oavsiktliga mellanslag i gränssnittsmeddelandet och bevarar radbrytningar och platshållaren.",
+    "save_status": "saved-and-read-back"
+  },
+  {
+    "position": 33139,
+    "key": "component::mqtt::config_subentries::device::step::summary_menu::menu_options::device",
+    "key_id": "619931478",
+    "translation_id": "5428701177",
+    "en": "Update device properties",
+    "existing_sv": "Uppdatera enhetsegenskaper",
+    "proposed_sv": "Uppdatera enhetens egenskaper",
+    "reason": "Rättar sammansättningen: det är enhetens egenskaper som uppdateras.",
+    "save_status": "saved-and-read-back"
+  },
+  {
+    "position": 33140,
+    "key": "component::mqtt::config_subentries::device::step::summary_menu::menu_options::entity",
+    "key_id": "619931479",
+    "translation_id": "5428701240",
+    "en": "Add another entity to \"{mqtt_device}\"",
+    "existing_sv": "Lägg till en ytterligare entitet till \"{mqtt_device}\"",
+    "proposed_sv": "Lägg till ytterligare en entitet till \"{mqtt_device}\"",
+    "reason": "Gör åtgärdstexten idiomatisk och bevarar enhetens platshållare.",
+    "save_status": "saved-and-read-back"
+  },
+  {
+    "position": 33153,
+    "key": "component::mqtt::config_subentries::device::step::availability::data_description::availability_template",
+    "key_id": "619968204",
+    "translation_id": "5428927843",
+    "en": "A [template]({value_templating_url}) to render the availability payload received on the availability topic",
+    "existing_sv": "En [mall]({value_templating_url}) för att återge den tillgänglighetsinformation som mottagits på tillgänglighetsämnet",
+    "proposed_sv": "En [mall]({value_templating_url}) som återger nyttolasten för tillgänglighet som tas emot på tillgänglighetsämnet",
+    "reason": "Bevarar skillnaden mellan MQTT-mall, nyttolast och ämne; källans referens och platshållare behålls.",
+    "save_status": "saved-and-read-back"
+  },
+  {
+    "position": 33154,
+    "key": "component::mqtt::config_subentries::device::step::availability::data_description::availability_topic",
+    "key_id": "619968205",
+    "translation_id": "5428927906",
+    "en": "Topic to receive the availability payload on",
+    "existing_sv": "Ämne att ta emot nyttolasten för tillgänglighet på",
+    "proposed_sv": "Ämnet där nyttolasten för tillgänglighet tas emot",
+    "reason": "Förtydligar att ämnet är platsen där nyttolasten tas emot.",
+    "save_status": "saved-and-read-back"
+  },
+  {
+    "position": 33155,
+    "key": "component::mqtt::config_subentries::device::step::availability::data_description::payload_available",
+    "key_id": "619968206",
+    "translation_id": "5428927969",
+    "en": "The payload that indicates the device is available (defaults to 'online')",
+    "existing_sv": "Den nyttolast som anger att enheten är tillgänglig (standardvärde är \"online\")",
+    "proposed_sv": "Nyttolasten som anger att enheten är tillgänglig (standardvärde: \"online\")",
+    "reason": "Stramar upp fältbeskrivningen och bevarar standardvärdet.",
+    "save_status": "saved-and-read-back"
+  },
+  {
+    "position": 33156,
+    "key": "component::mqtt::config_subentries::device::step::availability::data_description::payload_not_available",
+    "key_id": "619968207",
+    "translation_id": "5428928032",
+    "en": "The payload that indicates the device is not available (defaults to 'offline')",
+    "existing_sv": "Den nyttolast som anger att enheten inte är tillgänglig (standardvärde är \"offline\")",
+    "proposed_sv": "Nyttolasten som anger att enheten inte är tillgänglig (standardvärde: \"offline\")",
+    "reason": "Stramar upp fältbeskrivningen och bevarar standardvärdet.",
+    "save_status": "saved-and-read-back"
+  },
+  {
+    "position": 33170,
+    "key": "component::habitica::services::update_daily::description",
+    "key_id": "620075779",
+    "translation_id": "5429523387",
+    "en": "Updates a specific daily for a selected Habitica character",
+    "existing_sv": "Uppdaterar en specifik dag för en vald Habitica-karaktär",
+    "proposed_sv": "Uppdaterar en specifik daglig uppgift för en vald Habitica-karaktär",
+    "reason": "Habiticas Daily är en återkommande uppgift, inte en kalenderdag.",
+    "save_status": "saved-and-read-back"
+  },
+  {
+    "position": 33205,
+    "key": "component::habitica::services::update_daily::fields::streak::description",
+    "key_id": "620075814",
+    "translation_id": "5429525622",
+    "en": "Adjust or reset the streak counter of the daily.",
+    "existing_sv": "Justera eller återställ streakräknaren för den dagliga.",
+    "proposed_sv": "Justera eller återställ sviträknaren för den dagliga uppgiften.",
+    "reason": "Översätter Habiticas streak som svit och anger att räknaren gäller den dagliga uppgiften.",
+    "save_status": "saved-and-read-back"
+  },
+  {
+    "position": 33206,
+    "key": "component::habitica::services::update_daily::fields::streak::name",
+    "key_id": "620075815",
+    "translation_id": "5429525685",
+    "en": "Adjust streak",
+    "existing_sv": "Justera streak",
+    "proposed_sv": "Justera sviten",
+    "reason": "Använder svit för Habiticas streak.",
+    "save_status": "saved-and-read-back"
+  },
+  {
+    "position": 33209,
+    "key": "component::habitica::services::update_daily::fields::task::description",
+    "key_id": "620075818",
+    "translation_id": "5429525874",
+    "en": "The name (or task ID) of the daily you want to update.",
+    "existing_sv": "Namnet (eller uppgifts-ID) på den dag som du vill uppdatera.",
+    "proposed_sv": "Namnet (eller uppgifts-ID:t) på den dagliga uppgift som du vill uppdatera.",
+    "reason": "Förtydligar att Daily är en daglig uppgift; bevarar uppgifts-ID som alternativ.",
+    "save_status": "saved-and-read-back"
+  },
+  {
+    "position": 33213,
+    "key": "component::habitica::services::update_daily::name",
+    "key_id": "620075822",
+    "translation_id": "5429526126",
+    "en": "Update a daily",
+    "existing_sv": "Uppdatera en daglig",
+    "proposed_sv": "Uppdatera en daglig uppgift",
+    "reason": "Förtydligar att Daily är en återkommande uppgift.",
+    "save_status": "saved-and-read-back"
+  },
+  {
+    "position": 33179,
+    "key": "component::habitica::services::update_daily::fields::every_x::description",
+    "key_id": "620075788",
+    "translation_id": "5429523984",
+    "en": "The number of intervals (days, weeks, months, or years) after which the daily repeats, based on the chosen repetition interval. A value of 0 makes the daily inactive ('Grey Daily').",
+    "existing_sv": "Antalet intervall (dagar, veckor, månader eller år) efter vilka dagen upprepas, baserat på det valda repetitionsintervallet. Ett värde på 0 gör att dagen är inaktiv (\"Grey Daily\").",
+    "proposed_sv": "Antalet intervall (dagar, veckor, månader eller år) efter vilka den dagliga uppgiften upprepas, baserat på det valda upprepningsintervallet. Värdet 0 gör den dagliga uppgiften inaktiv (\"Grey Daily\").",
+    "reason": "Synkar aliaset med det delade Habitica-målet efter terminologikorrigering.",
+    "save_status": "saved-and-read-back"
+  },
+  {
+    "position": 33181,
+    "key": "component::habitica::services::update_daily::fields::frequency::description",
+    "key_id": "620075790",
+    "translation_id": "5429524110",
+    "en": "The repetition interval of a daily.",
+    "existing_sv": "Upprepningsintervallet för en daglig.",
+    "proposed_sv": "Upprepningsintervallet för en daglig uppgift.",
+    "reason": "Synkar aliaset med det delade Habitica-målet efter terminologikorrigering.",
+    "save_status": "saved-and-read-back"
+  },
+  {
+    "position": 33182,
+    "key": "component::habitica::services::update_daily::fields::frequency::name",
+    "key_id": "620075791",
+    "translation_id": "5429524173",
+    "en": "Repeat interval",
+    "existing_sv": "Upprepa intervall",
+    "proposed_sv": "Upprepningsintervall",
+    "reason": "Synkar aliaset med det delade Habitica-målet efter terminologikorrigering.",
+    "save_status": "saved-and-read-back"
+  },
+  {
+    "position": 33197,
+    "key": "component::habitica::services::update_daily::fields::repeat::description",
+    "key_id": "620075806",
+    "translation_id": "5429525118",
+    "en": "The days of the week the daily repeats.",
+    "existing_sv": "De dagar i veckan som dagligen upprepas.",
+    "proposed_sv": "Veckodagarna då den dagliga uppgiften upprepas.",
+    "reason": "Synkar aliaset med det delade Habitica-målet efter terminologikorrigering.",
+    "save_status": "saved-and-read-back"
+  },
+  {
+    "position": 33220,
+    "key": "component::habitica::services::update_daily::sections::repeat_monthly_options::description",
+    "key_id": "620075829",
+    "translation_id": "5429526567",
+    "en": "Options related to monthly repetition, applicable when the repetition interval is set to monthly.",
+    "existing_sv": "Alternativ relaterade till månadsrepetition, gäller när repetitionsintervallet är inställt på månad.",
+    "proposed_sv": "Alternativ för månadsvis upprepning, som används när upprepningsintervallet är inställt på månadsvis.",
+    "reason": "Synkar aliaset med det delade Habitica-målet efter terminologikorrigering.",
+    "save_status": "saved-and-read-back"
+  },
+  {
+    "position": 33221,
+    "key": "component::habitica::services::update_daily::sections::repeat_monthly_options::name",
+    "key_id": "620075830",
+    "translation_id": "5429526630",
+    "en": "Monthly repeat day",
+    "existing_sv": "Månatlig upprepningsdag",
+    "proposed_sv": "Dag för månadsupprepning",
+    "reason": "Synkar aliaset med det delade Habitica-målet efter terminologikorrigering.",
+    "save_status": "saved-and-read-back"
+  }
+]
