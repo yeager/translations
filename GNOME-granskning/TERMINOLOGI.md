@@ -130,6 +130,12 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | context menu | snabbmeny | Meny med kommandon för den klickade delen av gränssnittet. |
 | single-window mode | enfönsterläge | GIMP-läge där dockor och bild visas i ett programfönster. |
 | tab bar | flikrad | Raden med flikar för öppna bilder. |
+| Desaturate (GIMP command) | Avmätta | Etablerat namn på GIMP-kommandot; använd *mättnad* i löpande text. |
+| luminance | luminans | Relativ fysisk luminans; beräknas med linjäriserade RGB-värden. |
+| luma | luma | Behåll den tekniska termen för gammakodad luminans; skilj den från *luminans*. |
+| lightness | ljushet | HSL/LAB-komponent; skilj från luminans. |
+| Value (HSV, GIMP UI) | NMI-intensitet | GIMP:s svenska UI-term för nyans, mättnad och intensitet. |
+| sepia toning | sepiatoning | Bildbehandlingseffekt med varm brun ton. |
 | opacity | opacitet | Använd *ogenomskinlighet* i förklarande löptext vid behov. |
 | feather (selection) | mjuka upp kanter | Åtgärd på en markering; substantivet är *kantutjämning* endast när kontexten avser utjämning. |
 | floating selection | flytande markering | GIMP:s särskilda lager-/markeringsläge. |

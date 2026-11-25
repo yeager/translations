@@ -1,0 +1,799 @@
+--- original
++++ reviewed
+@@ -1,15 +1,11 @@
+-# Swedish translation for GIMP.
+-# Copyright © 2022-2026 Free Software Foundation, Inc.
+-# This file is distributed under the same license as the gimp-help package.
+-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2022, 2023, 2024, 2026.
+ #
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: gimp-help desaturate\n"
++"Project-Id-Version: gimp-help — menus~colors~desaturate\n"
+ "POT-Creation-Date: 2026-11-24 22:37+0000\n"
+-"PO-Revision-Date: 2026-01-29 01:58+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"PO-Revision-Date: 2026-11-25 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
++"Language-Team: Swedish\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -17,7 +13,8 @@
+ "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+ "X-Generator: Poedit 3.8\n"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/colors/desaturate/sepia.xml:24(None)
+ msgid ""
+@@ -27,7 +24,8 @@
+ "@@image: 'images/filters/examples/taj_orig.jpg'; "
+ "md5=6abae556aaff78a2bc9082a46a171da8"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/colors/desaturate/sepia.xml:33(None)
+ msgid ""
+@@ -37,7 +35,8 @@
+ "@@image: 'images/filters/examples/color-taj-sepia.jpg'; "
+ "md5=52dce765126709cf80a341f655dbc08d"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/colors/desaturate/sepia.xml:64(None)
+ msgid ""
+@@ -91,7 +90,7 @@
+ "The Sepia filter imitates sepia toning to produce a black-and-white picture "
+ "with a warm brown-ish tone."
+ msgstr ""
+-"Sepiafiltret imiterar sepiatoning för att skapa en svartvit bild med en varm "
++"Sepiafiltret efterliknar sepiatoning och ger en svartvit bild en varm, "
+ "brunaktig ton."
+ 
+ #: src/menus/colors/desaturate/sepia.xml:47(title)
+@@ -103,12 +102,10 @@
+ #: src/menus/colors/desaturate/sepia.xml:48(para)
+ msgid ""
+ "You can access this command from the main menu through "
+-"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</"
+-"guisubmenu><guimenuitem>Sepia…</guimenuitem></menuchoice>."
+-msgstr ""
+-"Du kan komma åt detta kommando från huvudmenyn genom "
+-"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Avmätta</"
+-"guisubmenu><guimenuitem>Sepia…</guimenuitem></menuchoice>."
++"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</guisubmenu><guimenuitem>Sepia…</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar kommandot i huvudmenyn under "
++"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Avmätta</guisubmenu><guimenuitem>Sepia…</guimenuitem></menuchoice>."
+ 
+ #: src/menus/colors/desaturate/sepia.xml:59(title)
+ #: src/menus/colors/desaturate/desaturate.xml:49(title)
+@@ -130,7 +127,7 @@
+ #: src/menus/colors/desaturate/desaturate.xml:64(term)
+ #: src/menus/colors/desaturate/color-to-gray.xml:57(term)
+ msgid "Blending Options"
+-msgstr "Toningsalternativ"
++msgstr "Blandningsalternativ"
+ 
+ #: src/menus/colors/desaturate/sepia.xml:72(term)
+ #: src/menus/colors/desaturate/desaturate.xml:65(term)
+@@ -160,9 +157,9 @@
+ "image. 0.000 is no effect at all, 1.000 is completely replacing the image "
+ "with its sepia-toned version."
+ msgstr ""
+-"Detta skjutreglage låter dig styra hur mycket effekten blandas med den "
+-"ursprungliga bilden. 0,000 är ingen effekt alls, 1,000 ersätter helt bilden "
+-"med sin sepiatonade version."
++"Med det här skjutreglaget styr du hur starkt effekten blandas in i "
++"originalbilden. 0,000 innebär ingen effekt alls och 1,000 innebär att hela "
++"bilden ersätts av den sepiatonade versionen."
+ 
+ #: src/menus/colors/desaturate/sepia.xml:90(term)
+ msgid "sRGB"
+@@ -170,11 +167,12 @@
+ 
+ #: src/menus/colors/desaturate/sepia.xml:92(para)
+ msgid ""
+-"This checkbox allows you processing the image in either sRGB gamma-corrected "
+-"(checked) or linear (unchecked) color space."
+-msgstr ""
+-"Denna kryssruta låter dig bearbeta bilden i antingen sRGB-gammakorrigerad "
+-"färgrymd (ikryssad) eller linjär färgrymd (omarkerad)."
++"This checkbox allows you processing the image in either sRGB gamma-corrected"
++" (checked) or linear (unchecked) color space."
++msgstr ""
++"Med den här kryssrutan väljer du om bilden ska bearbetas i den "
++"gammakorrigerade sRGB-färgrymden (ikryssad) eller i en linjär färgrymd "
++"(avmarkerad)."
+ 
+ #: src/menus/colors/desaturate/mono-mixer.xml:6(title)
+ msgid "Mono Mixer"
+@@ -183,14 +181,15 @@
+ #: src/menus/colors/desaturate/mono-mixer.xml:8(para)
+ msgid ""
+ "The Mono Mixer in the <guisubmenu>Desaturate</guisubmenu> submenu is the "
+-"same operation as listed in the <guisubmenu>Components</guisubmenu> submenu. "
+-"For more information see there: <xref linkend=\"gimp-filter-mono-mixer\"/>."
+-msgstr ""
+-"Monomixer i undermenyn <guisubmenu>Avmätta</guisubmenu> är samma operation "
+-"som listas i undermenyn <guisubmenu>Komponenter</guisubmenu>. För mer "
+-"information kan du där se: <xref linkend=\"gimp-filter-mono-mixer\"/>."
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"same operation as listed in the <guisubmenu>Components</guisubmenu> submenu."
++" For more information see there: <xref linkend=\"gimp-filter-mono-mixer\"/>."
++msgstr ""
++"Monomixern i undermenyn <guisubmenu>Avmätta</guisubmenu> utför samma åtgärd "
++"som Monomixer i undermenyn <guisubmenu>Komponenter</guisubmenu>. Mer "
++"information finns i <xref linkend=\"gimp-filter-mono-mixer\"/>."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/colors/desaturate/desaturate.xml:55(None)
+ msgid ""
+@@ -200,7 +199,8 @@
+ "@@image: 'images/menus/colors/desaturate/desaturate.png'; "
+ "md5=394eb629dc244a094595c5a8c63655a3"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/colors/desaturate/desaturate.xml:168(None)
+ msgid ""
+@@ -210,7 +210,8 @@
+ "@@image: 'images/menus/colors/desaturate/colors-desaturate-original-"
+ "sunflower.png'; md5=9148c43888a8340a83f98f21be122b1b"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/colors/desaturate/desaturate.xml:177(None)
+ msgid ""
+@@ -220,7 +221,8 @@
+ "@@image: 'images/menus/colors/desaturate/colors-desaturate-original-red-"
+ "globe.png'; md5=e069e02418ef06b083d5e9c3a801b5a4"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/colors/desaturate/desaturate.xml:186(None)
+ msgid ""
+@@ -230,7 +232,8 @@
+ "@@image: 'images/menus/colors/desaturate/colors-desaturate-luminance-"
+ "sunflower.png'; md5=1b75c7de8c6fa8396a873ec73c566eb6"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/colors/desaturate/desaturate.xml:195(None)
+ msgid ""
+@@ -240,7 +243,8 @@
+ "@@image: 'images/menus/colors/desaturate/colors-desaturate-luminance-red-"
+ "globe.png'; md5=1b6d76dad650e07538f19904df6b249e"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/colors/desaturate/desaturate.xml:204(None)
+ msgid ""
+@@ -250,7 +254,8 @@
+ "@@image: 'images/menus/colors/desaturate/colors-desaturate-luma-"
+ "sunflower.png'; md5=3c67924a72f0b431599241821e662f4a"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/colors/desaturate/desaturate.xml:215(None)
+ msgid ""
+@@ -260,7 +265,8 @@
+ "@@image: 'images/menus/colors/desaturate/colors-desaturate-luma-red-"
+ "globe.png'; md5=6c1e4e1919377560d6ec19af5c13c045"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/colors/desaturate/desaturate.xml:226(None)
+ msgid ""
+@@ -270,7 +276,8 @@
+ "@@image: 'images/menus/colors/desaturate/colors-desaturate-lightness-"
+ "sunflower.png'; md5=207b375bf7bd8e5ae5227e569aa84f99"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/colors/desaturate/desaturate.xml:237(None)
+ msgid ""
+@@ -280,7 +287,8 @@
+ "@@image: 'images/menus/colors/desaturate/colors-desaturate-lightness-red-"
+ "globe.png'; md5=18b088f290f8b8a39ac33c84a66ce97c"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/colors/desaturate/desaturate.xml:248(None)
+ msgid ""
+@@ -290,7 +298,8 @@
+ "@@image: 'images/menus/colors/desaturate/colors-desaturate-average-"
+ "sunflower.png'; md5=f733b41f74d2eca92a93e1b3b8bdea2a"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/colors/desaturate/desaturate.xml:259(None)
+ msgid ""
+@@ -300,7 +309,8 @@
+ "@@image: 'images/menus/colors/desaturate/colors-desaturate-average-red-"
+ "globe.png'; md5=3c298fd3af821ebd32e347ca61a4a905"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/colors/desaturate/desaturate.xml:270(None)
+ msgid ""
+@@ -310,7 +320,8 @@
+ "@@image: 'images/menus/colors/desaturate/colors-desaturate-value-"
+ "sunflower.png'; md5=f23d785271db1a2771142c55b35c9a4d"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/colors/desaturate/desaturate.xml:281(None)
+ msgid ""
+@@ -327,48 +338,45 @@
+ "differs from converting the image to grayscale in two respects. First, it "
+ "only operates on the active layer and second, the colors on the layer are "
+ "still RGB values with three components, with R=G=B, which makes gray. This "
+-"means that you then can paint on the layer, or individual parts of it, using "
+-"non-gray colors."
+-msgstr ""
+-"Genom att använda kommandot <guimenuitem>Avmätta</guimenuitem> kan du "
+-"konvertera alla färger i det aktiva lagret till motsvarande grånyanser. "
+-"Detta skiljer sig från att konvertera bilden till gråskala på två sätt. För "
+-"det första arbetar det endast på det aktiva lagret, och för det andra så är "
+-"färgerna i lagret fortfarande RGB-värden med tre komponenter, med R=G=B, "
+-"vilket ger grå. Detta betyder att du sedan kan måla på lagret, eller "
+-"individuella delar av det, med andra färger än grå."
++"means that you then can paint on the layer, or individual parts of it, using"
++" non-gray colors."
++msgstr ""
++"Med kommandot <guimenuitem>Avmätta</guimenuitem> konverterar du färgerna i "
++"det aktiva lagret till motsvarande gråtoner. Det skiljer sig från att "
++"konvertera hela bilden till gråskala på två sätt. För det första påverkas "
++"bara det aktiva lagret. För det andra behåller färgerna i lagret sina tre "
++"RGB-komponenter, där R=G=B ger grått. Du kan alltså fortfarande måla på "
++"lagret, eller på delar av det, med färger som inte är grå."
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:29(para)
+ msgid ""
+-"This command only works on layers of <link linkend=\"glossary-rgb\">RGB</"
+-"link> images. If the image is in Grayscale or Indexed mode, it can do "
+-"nothing."
+-msgstr ""
+-"Detta kommando fungerar bara på lager för <link linkend=\"glossary-"
+-"rgb\">RGB</link>-bilder. Om bilden är i gråskala eller indexerat läge så kan "
+-"det inte göra något."
++"This command only works on layers of <link linkend=\"glossary-"
++"rgb\">RGB</link> images. If the image is in Grayscale or Indexed mode, it "
++"can do nothing."
++msgstr ""
++"Det här kommandot fungerar bara på lager i <link linkend=\"glossary-"
++"rgb\">RGB</link>-bilder. Det har ingen effekt om bilden är i gråskale- eller"
++" indexerat läge."
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:38(para)
+ msgid ""
+ "You can access this command from the main menu through "
+-"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</"
+-"guisubmenu><guimenuitem>Desaturate…</guimenuitem></menuchoice>."
+-msgstr ""
+-"Du kan komma åt detta kommando från huvudmenyn genom "
+-"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Avmätta</"
+-"guisubmenu><guimenuitem>Avmätta…</guimenuitem></menuchoice>."
++"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</guisubmenu><guimenuitem>Desaturate…</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar kommandot i huvudmenyn under "
++"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Avmätta</guisubmenu><guimenuitem>Avmätta…</guimenuitem></menuchoice>."
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:51(title)
+ msgid "The <quote>Desaturate</quote> option dialog"
+-msgstr "Dialogrutan med alternativ för <quote>Avmätta</quote>"
++msgstr "Alternativdialogrutan för <quote>Avmätta</quote>"
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:59(para)
+ msgid ""
+ "<guilabel>Mode:</guilabel> Five options are available for converting from "
+ "color to black and white:"
+ msgstr ""
+-"<guilabel>Läge:</guilabel> Fem alternativ finns tillgängliga för "
+-"konvertering från färg till svartvitt:"
++"<guilabel>Läge:</guilabel> Det finns fem alternativ för att konvertera färg "
++"till svartvitt:"
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:73(link)
+ msgid "Luminance"
+@@ -376,12 +384,13 @@
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:76(para)
+ msgid ""
+-"The shades of gray will be calculated using <ulink url=\"http://"
+-"brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html\"> linearized sRGB</ulink> "
+-"as"
+-msgstr ""
+-"Grånyanserna kommer beräknas med <ulink url=\"http://brucelindbloom.com/"
+-"index.html?Eqn_RGB_to_XYZ.html\"> linjäriserad sRGB</ulink> som"
++"The shades of gray will be calculated using <ulink "
++"url=\"http://brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html\"> linearized"
++" sRGB</ulink> as"
++msgstr ""
++"Gråtonerna beräknas med <ulink "
++"url=\"http://brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html\">linjäriserad"
++" sRGB</ulink> enligt"
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:83(phrase)
+ msgid "Luminance = (0.22 &times; R) + (0.72 &times; G) + (0.06 &times; B)"
+@@ -393,7 +402,7 @@
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:97(para)
+ msgid "The shades of gray will be calculated using non-linearized sRGB"
+-msgstr "Grånyanserna kommer beräknas med ej linjäriserad sRGB"
++msgstr "Gråtonerna beräknas med icke-linjäriserad sRGB."
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:102(phrase)
+ msgid "Luma = (0.22 &times; R) + (0.72 &times; G) + (0.06 &times; B)"
+@@ -431,10 +440,10 @@
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:163(title)
+ msgid ""
+-"Using the five modes to convert two very different color images to black and "
+-"white"
+-msgstr ""
+-"Använda de fem lägena för att konvertera två väldigt olika färgbilder till "
++"Using the five modes to convert two very different color images to black and"
++" white"
++msgstr ""
++"De fem lägena används för att konvertera två mycket olika färgbilder till "
+ "svartvitt"
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:189(para)
+@@ -467,8 +476,8 @@
+ "Comparing results from using different options for converting from color to "
+ "black and white:"
+ msgstr ""
+-"Jämförelse av resultat från att använda olika alternativ för konvertering "
+-"från färg till svartvitt:"
++"Jämförelse av resultaten från de olika alternativen för att konvertera färg "
++"till svartvitt:"
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:297(para)
+ msgid ""
+@@ -476,9 +485,8 @@
+ "black and white diverge from a straight Luminance conversion to black and "
+ "white depends on:"
+ msgstr ""
+-"Graden och riktningen i vilken de olika sätten att konvertera en bild till "
+-"svartvitt skiljer sig från en direkt luminanskonvertering till svartvitt "
+-"beror på:"
++"Hur mycket och i vilken riktning olika metoder för att konvertera en bild "
++"till svartvitt avviker från en ren luminanskonvertering beror på följande:"
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:304(para)
+ msgid "The conversion method you choose."
+@@ -495,17 +503,17 @@
+ "sunflower) producing greater amounts of deviation from a straight Luminance "
+ "conversion."
+ msgstr ""
+-"Hur mättade bilderna i den ursprungliga bilden råkar vara, där mer mättade "
+-"startfärger (såsom den röda globen och den klargula solrosen) producerar "
+-"större mängder avvikelse från en direkt luminanskonvertering."
++"Hur mättade färgerna i originalbilden är. Mer mättade startfärger, som den "
++"röda globen och den klargula solrosen, ger större avvikelser från en ren "
++"luminanskonvertering."
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:322(para)
+ msgid ""
+-"The hues (for example yellows vs reds) of the various saturated colors in an "
+-"image also make a difference."
+-msgstr ""
+-"Nyanserna (exempelvis gult gentemot rött) för de olika mättade färgerna i en "
+-"bild gör också skillnad."
++"The hues (for example yellows vs reds) of the various saturated colors in an"
++" image also make a difference."
++msgstr ""
++"Nyansen hos de mättade färgerna i bilden spelar också roll, till exempel om "
++"de drar åt gult eller rött."
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:328(para)
+ msgid ""
+@@ -514,10 +522,9 @@
+ "image, and also lighter than all the other ways to convert to black and "
+ "white."
+ msgstr ""
+-"Då det är maximum för RGB-kanalvärdena för varje bildpunkt så är en NMI-"
+-"intensitetskonvertering till svartvitt alltid ljusare än den ursprungliga "
+-"färgbilden, och även ljusare än alla andra sätten att konvertera till "
+-"svartvitt."
++"Eftersom NMI-intensiteten är det högsta RGB-kanalvärdet för varje bildpunkt "
++"blir en konvertering med NMI-intensitet alltid ljusare än originalbilden och"
++" än resultatet av de andra konverteringsmetoderna."
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:338(para)
+ msgid "Comparing the red globe to the yellow sunflower:"
+@@ -528,16 +535,16 @@
+ "For the red globe Lightness (HSL) produces a result very similar to "
+ "Luminance, and Luma produces a conversion that is much darker."
+ msgstr ""
+-"För den röda globen producerar ljushet (HSL) ett resultat som mycket liknar "
+-"luminans, och luma producerar en konvertering som är mycket mörkare."
++"För den röda globen ger ljushet (HSL) ett resultat som liknar luminans, "
++"medan luma ger en betydligt mörkare bild."
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:349(para)
+ msgid ""
+ "For the sunflower, Luma produces a result very similar to Luminance, and "
+ "Lightness (HSL) produces a conversion that is much darker."
+ msgstr ""
+-"För solrosen producerar luma ett resultat som mycket liknar luminans, och "
+-"ljushet (HSL) producerar en konvertering som är mycket mörkare."
++"För solrosen ger luma ett resultat som liknar luminans, medan ljushet (HSL) "
++"ger en betydligt mörkare bild."
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:355(para)
+ msgid ""
+@@ -545,8 +552,8 @@
+ "same, regardless of which method is chosen for converting from color to "
+ "black and white."
+ msgstr ""
+-"Observera att de mindre mättade delarna av varje bild ser mer eller mindre "
+-"desamma ut, oavsett vilken metod som väljs för konvertering från färg till "
++"Lägg märke till att de mindre mättade delarna av bilderna ser ungefär "
++"likadana ut oavsett vilken metod som används för att konvertera färg till "
+ "svartvitt."
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:367(title)
+@@ -563,15 +570,15 @@
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:374(para)
+ msgid ""
+-"\"Luminance\" is the only physically meaningful way to convert a color image "
+-"to black and white, as the resulting black and white image has the same "
++"\"Luminance\" is the only physically meaningful way to convert a color image"
++" to black and white, as the resulting black and white image has the same "
+ "relative luminance (reflects the same percentage of light from the various "
+ "shades of gray) as the colors in the original color image."
+ msgstr ""
+-"”Luminans” är det enda fysiskt betydelsefulla sättet att konvertera en "
+-"färgbild till svartvitt, då den resulterande svartvita bilden har samma "
+-"relativa luminans (reflekterar samma procent ljus från de olika "
+-"grånyanserna) som färgerna i den ursprungliga färgbilden."
++"”Luminans” är det enda fysikaliskt meningsfulla sättet att konvertera en "
++"färgbild till svartvitt. Den resulterande bilden har samma relativa luminans"
++" som originalbildens färger, det vill säga den reflekterar samma andel ljus "
++"i de olika gråtonerna."
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:383(para)
+ msgid "Luminance must be calculated using linearized RGB values."
+@@ -580,18 +587,18 @@
+ #: src/menus/colors/desaturate/desaturate.xml:388(para)
+ msgid ""
+ "For convenience we say \"Luminance\", but what we really mean is \"Relative "
+-"Luminance\". For more information, see <ulink url=\"https://en.wikipedia.org/"
+-"wiki/Relative_luminance\">Relative Luminance</ulink> and <ulink "
+-"url=\"https://en.wikipedia.org/wiki/"
+-"CIE_1931_color_space#Meaning_of_X,_Y_and_Z\"> CIE 1931 [XYZ] color space</"
+-"ulink>."
+-msgstr ""
+-"För enkelhets skull säger vi ”luminans”, men vad vi verkligen menar är "
+-"”relativ luminans”. För mer information, se <ulink url=\"https://"
+-"en.wikipedia.org/wiki/Relative_luminance\">Relativ luminans</ulink> och "
+-"<ulink url=\"https://en.wikipedia.org/wiki/"
+-"CIE_1931_color_space#Meaning_of_X,_Y_and_Z\"> CIE 1931:s [XYZ]-färgrymd</"
+-"ulink>."
++"Luminance\". For more information, see <ulink "
++"url=\"https://en.wikipedia.org/wiki/Relative_luminance\">Relative "
++"Luminance</ulink> and <ulink "
++"url=\"https://en.wikipedia.org/wiki/CIE_1931_color_space#Meaning_of_X,_Y_and_Z\">"
++" CIE 1931 [XYZ] color space</ulink>."
++msgstr ""
++"För enkelhets skull säger vi ”luminans”, men det vi egentligen menar är "
++"”relativ luminans”. Mer information finns i <ulink "
++"url=\"https://en.wikipedia.org/wiki/Relative_luminance\">Relativ "
++"luminans</ulink> och <ulink "
++"url=\"https://en.wikipedia.org/wiki/CIE_1931_color_space#Meaning_of_X,_Y_and_Z\">färgrymden"
++" CIE 1931 [XYZ]</ulink>."
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:398(para)
+ msgid ""
+@@ -599,9 +606,9 @@
+ "white. \"Future GIMP\" will support correct conversions for images in other "
+ "color spaces."
+ msgstr ""
+-"GIMP använder hårdkodade sRGB-värden för att göra luminanskonverteringar "
+-"till svartvitt. ”Framtidens GIMP” kommer ha stöd för korrekta konverteringar "
+-"för bilder i andra färgrymder."
++"GIMP använder hårdkodade sRGB-värden när luminans konverteras till "
++"svartvitt. En framtida version av GIMP kommer att hantera konverteringar "
++"korrekt även för bilder i andra färgrymder."
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:408(emphasis)
+ msgid "More information about Luma:"
+@@ -612,8 +619,8 @@
+ "\"Luma\" is what you get if you use the formula for Luminance on RGB values "
+ "that haven't been properly linearized."
+ msgstr ""
+-"”Luma” är vad du får om du använder formeln för luminans på RGB-värden som "
+-"inte har linjäriserats korrekt."
++"”Luma” får du om du använder luminansformeln på RGB-värden som inte har "
++"linjäriserats korrekt."
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:418(para)
+ msgid ""
+@@ -622,11 +629,11 @@
+ "least until the next version of the ICC specs is released and people figure "
+ "out how to deal with the new freedom to use non-D50 reference white points)."
+ msgstr ""
+-"Multiplicerarna har Bradford-adapterats korrekt till D50, vilket är "
+-"nödvändigt för användning i ett ICC-profilfärghanterat redigeringsprogram (i "
+-"alla fall till nästa version av ICC-specifikationen släpps och folk räknar "
+-"ut hur de kan hantera den nya friheten att använda andra referensvitpunkter "
+-"än D50."
++"Multiplikatorerna har anpassats med Bradford-metoden till D50, vilket krävs "
++"för användning i ett färghanterat redigeringsprogram med ICC-profiler "
++"(åtminstone tills nästa version av ICC-specifikationen har släppts och man "
++"har kommit fram till hur den nya friheten att använda andra "
++"referensvitpunkter än D50 ska hanteras)."
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:427(para)
+ msgid ""
+@@ -634,55 +641,54 @@
+ "to black and white. \"Future GIMP\" will support correct conversions for "
+ "images in other color spaces."
+ msgstr ""
+-"<acronym>GIMP</acronym> använder hårdkodade sRGB-värden för att göra "
+-"lumakonverteringar till svartvitt. ”Framtidens GIMP” kommer ha stöd för "
+-"korrekta konverteringar för bilder i andra färgrymder."
++"<acronym>GIMP</acronym> använder hårdkodade sRGB-värden när luma konverteras"
++" till svartvitt. En framtida version av GIMP kommer att hantera "
++"konverteringar korrekt även för bilder i andra färgrymder."
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:437(emphasis)
+ msgid "More information about Lightness, Average, and Value:"
+-msgstr "Mer information om Ljushet, Medel och Intensitet:"
++msgstr "Mer information om ljushet, medelvärde och intensitet:"
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:440(para)
+ msgid ""
+ "The \"Lightness (HSL)\", \"Average (HSI Intensity)\", and \"Value (HSV)\" "
+-"ways to convert a color image to black and white use color space models that "
+-"were invented for fast processing on consumer-grade computers from the "
+-"1990s. For details see <ulink url=\"https://en.wikipedia.org/wiki/"
+-"HSL_and_HSV\">HSL and HSV</ulink>, paying particular attention to the "
+-"section on <ulink url=\"https://en.wikipedia.org/wiki/"
+-"HSL_and_HSV#Disadvantages\">Disadvantages</ulink>."
+-msgstr ""
+-"Sätten ”Ljushet (HSL)”, ”Medel (HSI-intensitet)” och ”Intensitet (NMI)” för "
+-"att konvertera en färgbild till svartvitt använder färgrymdsmodeller som "
+-"uppfanns för snabb bearbetning på konsumentdatorer från 1990-talet. För "
+-"detaljer, se <ulink url=\"https://en.wikipedia.org/wiki/HSL_and_HSV\">HSL "
+-"and HSV (HSL och NMI)</ulink> och var särskilt uppmärksam på avsnittet "
+-"<ulink url=\"https://en.wikipedia.org/wiki/"
+-"HSL_and_HSV#Disadvantages\">Disadvantages (Nackdelar)</ulink>."
++"ways to convert a color image to black and white use color space models that"
++" were invented for fast processing on consumer-grade computers from the "
++"1990s. For details see <ulink "
++"url=\"https://en.wikipedia.org/wiki/HSL_and_HSV\">HSL and HSV</ulink>, "
++"paying particular attention to the section on <ulink "
++"url=\"https://en.wikipedia.org/wiki/HSL_and_HSV#Disadvantages\">Disadvantages</ulink>."
++msgstr ""
++"Metoderna ”ljushet (HSL)”, ”medelvärde (HSI-intensitet)” och ”intensitet "
++"(NMI)” för att konvertera en färgbild till svartvitt använder "
++"färgrymdsmodeller som utvecklades för snabb bearbetning på konsumentdatorer "
++"under 1990-talet. Mer information finns i <ulink "
++"url=\"https://en.wikipedia.org/wiki/HSL_and_HSV\">HSL och HSV</ulink>, "
++"särskilt avsnittet om <ulink "
++"url=\"https://en.wikipedia.org/wiki/HSL_and_HSV#Disadvantages\">nackdelar</ulink>."
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:451(para)
+ msgid ""
+ "<emphasis>In case you are wondering why LAB Lightness</emphasis> is not "
+-"among the options for converting an RGB image to black and white, a properly "
+-"calculated conversion from RGB to LAB Lightness, and then back to RGB, "
++"among the options for converting an RGB image to black and white, a properly"
++" calculated conversion from RGB to LAB Lightness, and then back to RGB, "
+ "produces exactly the same result as the Luminance conversion to black and "
+ "white. Here is why:"
+ msgstr ""
+ "<emphasis>Om du undrar varför LAB-ljushet</emphasis> inte finns bland "
+-"alternativen för att konvertera en RGB-bild till svartvitt, så är det för "
+-"att en korrekt uträknad konvertering från RGB till LAB-ljushet, och sedan "
+-"tillbaka till RGB, ger exakt samma resultat som luminanskonverteringen till "
+-"svartvitt. Här är orsaken:"
++"alternativen för att konvertera en RGB-bild till svartvitt, beror det på att"
++" en korrekt konvertering från RGB till LAB-ljushet och tillbaka till RGB ger"
++" exakt samma resultat som en luminanskonvertering. Så här fungerar det:"
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:460(para)
+ msgid ""
+ "In the XYZ color space, Y is Luminance. So if you convert a color RGB image "
+-"to XYZ, the \"Y\" of XYZ is the same number as the R=G=B values that you get "
+-"when you calculate RGB Luminance."
+-msgstr ""
+-"I XYZ-färgrymden är Y luminans. Så om du konverterar en RGB-färgbild till "
+-"XYZ så är ”Y” i XYZ samma tal som värdena R=G=B som du får när du beräknar "
+-"RGB-luminans."
++"to XYZ, the \"Y\" of XYZ is the same number as the R=G=B values that you get"
++" when you calculate RGB Luminance."
++msgstr ""
++"I XYZ-färgrymden motsvarar Y luminans. Om du konverterar en RGB-bild till "
++"XYZ är alltså Y-värdet detsamma som värdena R=G=B vid beräkning av RGB-"
++"luminans."
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:467(para)
+ msgid ""
+@@ -691,11 +697,11 @@
+ "midpoint of the A and B axes as 0.5 instead of at 0.0), and then convert "
+ "back to XYZ, the X and Z values will change, but Y will not change."
+ msgstr ""
+-"LAB är en perceptuellt uniform transform av XYZ. Om du konverterar från RGB "
+-"till XYZ och sedan till LAB, och sätter A=B=0,0 (eller 0,5 för "
+-"bildredigerare som sätter mittpunkten på A- och B-axlarna till 0,5 i stället "
+-"för vid 0,0), och sedan konverterar tillbaka till XYZ, så kommer X- och Z-"
+-"värdena att ändras, men Y kommer inte ändras."
++"LAB är en perceptuellt enhetlig transformering av XYZ. Om du konverterar "
++"från RGB till XYZ och sedan till LAB, sätter A=B=0,0 (eller 0,5 i "
++"bildredigerare där mittpunkten på A- och B-axlarna är 0,5 i stället för 0,0)"
++" och sedan konverterar tillbaka till XYZ, ändras X- och Z-värdena, men inte "
++"Y."
+ 
+ #: src/menus/colors/desaturate/desaturate.xml:476(para)
+ msgid ""
+@@ -703,11 +709,12 @@
+ "converting an RGB image to black and white using LAB Lightness, very sadly "
+ "are trading on various mathematical mistakes in the conversion routines."
+ msgstr ""
+-"Handledningar som producerar något annat än relativ luminans då de "
+-"konverterar en RGB-bild till svartvitt med LAB-ljushet förlitar sig tyvärr "
+-"på olika matematiska misstag i konverteringsrutinerna."
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"Handledningar som ger något annat än relativ luminans när en RGB-bild "
++"konverteras till svartvitt med LAB-ljushet bygger tyvärr på matematiska fel "
++"i konverteringsrutinerna."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/colors/desaturate/color-to-gray.xml:48(None)
+ msgid ""
+@@ -727,24 +734,24 @@
+ #: src/menus/colors/desaturate/color-to-gray.xml:23(para)
+ msgid ""
+ "This color to grayscale conversion uses envelopes formed with the so-called "
+-"<ulink url=\"https://pippin.gimp.org/publications/"
+-"Kolaas_11_jist_preprint.pdf\">STRESS</ulink> approach to perform local-"
+-"difference preserving grayscale generation."
+-msgstr ""
+-"Denna konvertering från färg till gråskala använder omslutningar formade med "
+-"den så kallade <ulink url=\"https://pippin.gimp.org/publications/"
+-"Kolaas_11_jist_preprint.pdf\">STRESS</ulink>-metoden för att utföra "
+-"gråskalegenerering som bevarar lokal differens."
++"<ulink "
++"url=\"https://pippin.gimp.org/publications/Kolaas_11_jist_preprint.pdf\">STRESS</ulink>"
++" approach to perform local-difference preserving grayscale generation."
++msgstr ""
++"Den här färg-till-gråskala-konverteringen använder omslutningar enligt den "
++"så kallade <ulink "
++"url=\"https://pippin.gimp.org/publications/Kolaas_11_jist_preprint.pdf\">STRESS</ulink>-metoden"
++" för att skapa gråskala som bevarar lokala skillnader."
+ 
+ #: src/menus/colors/desaturate/color-to-gray.xml:31(para)
+ msgid ""
+ "You can access this command from the main menu through "
+-"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</"
+-"guisubmenu><guimenuitem>Color to Gray…</guimenuitem></menuchoice>."
+-msgstr ""
+-"Du kan komma åt detta kommando från huvudmenyn genom "
+-"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Avmätta</"
+-"guisubmenu><guimenuitem>Färg till grå…</guimenuitem></menuchoice>."
++"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</guisubmenu><guimenuitem>Color"
++" to Gray…</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar kommandot i huvudmenyn under "
++"<menuchoice><guimenu>Färger</guimenu><guisubmenu>Avmätta</guisubmenu><guimenuitem>Färg"
++" till grå…</guimenuitem></menuchoice>."
+ 
+ #: src/menus/colors/desaturate/color-to-gray.xml:44(title)
+ msgid "<quote>Color to Gray</quote> settings"
+@@ -767,8 +774,8 @@
+ "Neighborhood taken into account, this is the radius in pixels taken into "
+ "account when deciding which colors map to which gray values."
+ msgstr ""
+-"Med omgivningen i beaktande är detta radien i bildpunkter som tas i "
+-"beaktande när det bestäms vilka färger som mappar till vilka gråskalevärden."
++"Radien i bildpunkter anger hur stor omgivning som tas med när filtret avgör "
++"vilka färger som motsvarar vilka gråvärden."
+ 
+ #: src/menus/colors/desaturate/color-to-gray.xml:77(term)
+ msgid "Samples"
+@@ -776,7 +783,7 @@
+ 
+ #: src/menus/colors/desaturate/color-to-gray.xml:79(para)
+ msgid "Number of samples to do per iteration looking for the range of colors."
+-msgstr "Antal sampel per iteration som letar efter intervallet av färger."
++msgstr "Antalet sampel som används per iteration när färgintervallet söks."
+ 
+ #: src/menus/colors/desaturate/color-to-gray.xml:87(term)
+ msgid "Iterations"
+@@ -787,8 +794,8 @@
+ "Number of iterations, a higher number of iterations provides less noisy "
+ "results at a computational cost."
+ msgstr ""
+-"Antal iterationer, ett högre antal iterationer ger ett mindre brusigt "
+-"resultat mot en ökad beräkningskostnad."
++"Antalet iterationer. Fler iterationer ger ett mindre brusigt resultat, men "
++"kräver mer beräkningstid."
+ 
+ #: src/menus/colors/desaturate/color-to-gray.xml:97(term)
+ msgid "Enhance Shadows"
+@@ -796,38 +803,6 @@
+ 
+ #: src/menus/colors/desaturate/color-to-gray.xml:99(para)
+ msgid "When enabled details in shadows are boosted at the expense of noise."
+-msgstr "Då aktiverad förstärks detaljer i skuggor på bekostnad av brus."
+-
+-#~ msgid "translator-credits"
+-#~ msgstr "Anders Jonsson <anders.jonsson@norsjovallen.se>, 2022"
+-
+-#~ msgid "Activating the Filter"
+-#~ msgstr "Aktivera filtret"
+-
+-#~ msgid ""
+-#~ "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+-#~ "guimenu><guisubmenu>Desaturate</guisubmenu><guimenuitem>Sepia…</"
+-#~ "guimenuitem></menuchoice>."
+-#~ msgstr ""
+-#~ "Detta filter hittas i huvudmenyn under <menuchoice><guimenu>Färger</"
+-#~ "guimenu><guisubmenu>Avmätta</guisubmenu><guimenuitem>Sepia…</"
+-#~ "guimenuitem></menuchoice>."
+-
+-#~ msgid ""
+-#~ "<quote>Presets</quote> are a common feature for several Colors commands. "
+-#~ "You can find its description in <xref linkend=\"colors-common-features\"/"
+-#~ ">."
+-#~ msgstr ""
+-#~ "<quote>Förinställningar</quote> är en gemensam funktion för flera "
+-#~ "färgkommandon. Du kan hitta dess beskrivning i <xref linkend=\"colors-"
+-#~ "common-features\"/>."
+-
+-#~ msgid ""
+-#~ "These are common features described in <xref linkend=\"colors-common-"
+-#~ "features\"/>."
+-#~ msgstr ""
+-#~ "Dessa är gemensamma funktioner som beskrivs i <xref linkend=\"colors-"
+-#~ "common-features\"/>."
+-
+-#~ msgid "Blending Options, Preview, Merge filter and Split view"
+-#~ msgstr "Toningsalternativ, Förhandsvisning, Sammanfoga filter och Dela vy"
++msgstr ""
++"När alternativet är aktiverat framhävs detaljer i skuggorna, men bruset "
++"ökar."
