@@ -115,3 +115,11 @@
 - Platshållare verifierade; svlang natural gav 10/10 på sju texter. Hunspell flaggade korrekt sammansättning `molnkommunikation` som ordlistegap.
 - Core-TMX validerad: 16 551 poster; exporten har 42 641 språkpar och 32 exkluderade nycklar.
 - Granskningen fortsätter.
+
+## 2026-11-25 – Core 24571–24690
+
+- 14 ändringar sparade och återlästa.
+- Fem nycklar är markerade för käll-/referensuppföljning; nio sökvägar matchar direkt.
+- Rättade retroaktivt jalusiöversättningarnas genus i intervallet 24001–24120 och använde korrekt form i denna batch.
+- Core-TMX validerad: 16 565 poster; exporten har 42 641 språkpar och 32 exkluderade nycklar.
+- Core-granskningen fortsätter.
