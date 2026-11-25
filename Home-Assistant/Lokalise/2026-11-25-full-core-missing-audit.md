@@ -8,13 +8,13 @@ Lokalise-projekt: `130246255a974bd3b5e8a1.51616605`
 
 - Aktuell HA Core-källa innehåller **67,213** strängnycklar. Lokalise-listningen omfattade **76,341** poster över 153 API-sidor.
 - **203 aktuella källnycklar saknas helt i Lokalise.** Det är en upstream-synkfråga; en tidigare avgränsad `POST /keys`-kontroll gav HTTP 403 för tokenen.
-- **401 källsträngar har fortfarande tomt svenskt mål i befintliga Lokalise-nycklar.** Av dessa är **68** engelska källor referenser till andra HA-nycklar. Alla fullständiga nycklar och källor finns i tabellerna nedan och i den bifogade JSON-filen.
+- **341 källsträngar har fortfarande tomt svenskt mål i befintliga Lokalise-nycklar.** Av dessa är **29** engelska källor referenser till andra HA-nycklar. Alla fullständiga nycklar och källor finns i tabellerna nedan och i den bifogade JSON-filen.
 - 18956 engelska nyckelreferenser jämfördes efter att ha följt aktuell Core-referens. Tre verkliga skillnader mellan Core-källtext och Lokalises engelska registrerades.
 - Lokalise har dessutom 9,311 aktiva nycklar som inte finns i den aktuella Core-källsnapshoten. De kan vara historiska utgångna nycklar; de räknas inte som saknade nuvarande Core-nycklar och bör kontrolleras separat innan eventuell arkivering.
 
 ## Nya Core-strängar sedan tidigare inventering
 
-Tre nycklar som tillkom efter föregående inventering fanns i Lokalise med tom svensk text. De granskades mot aktuella Shelly- och Tuya-källor, översattes och lästes tillbaka via API. De ingår därför inte längre i listan över tomma mål. Av dessa tidigare 641 tomma mål har nu 120 granskats och sparats; 521 återstår.
+Tre nycklar som tillkom efter föregående inventering fanns i Lokalise med tom svensk text. De granskades mot aktuella Shelly- och Tuya-källor, översattes och lästes tillbaka via API. De ingår därför inte längre i listan över tomma mål. Av dessa tidigare 641 tomma mål har nu 300 granskats och sparats; 341 återstår.
 
 | Nyckel | Engelska | Svenska |
 |---|---|---|
@@ -254,21 +254,12 @@ För dessa nycklar finns ingen Lokalise-post att fylla. `source_resolved` följe
 
 ## Befintliga nycklar med tom svensk text
 
-Dessa nycklar finns i Lokalise och har engelska källtext men tomt svenskt mål. Tabellen listar de 401 återstående tomma målen; 240 översatta poster dokumenteras i `2026-11-25-reviewed-empty-targets-001-120.json`. Referensbaserade engelska texter behöver följas till angivet mål innan en svensk text sparas.
+Dessa nycklar finns i Lokalise och har engelska källtext men tomt svenskt mål. Tabellen listar de 341 återstående tomma målen; 300 översatta poster dokumenteras i `2026-11-25-reviewed-empty-targets-001-120.json`. Referensbaserade engelska texter behöver följas till angivet mål innan en svensk text sparas.
 
 ### Antal per komponent
 
 | Komponent | Tomma svenska mål |
 |---|---:|
-| `google_travel_time` | 7 |
-| `hassio` | 2 |
-| `hikvision` | 2 |
-| `hr_energy_qube` | 4 |
-| `hue_ble` | 12 |
-| `huisbaasje` | 5 |
-| `intesis_modbus` | 2 |
-| `knx` | 3 |
-| `lastfm` | 20 |
 | `lektrico` | 1 |
 | `marantz_infrared` | 5 |
 | `matter` | 2 |
@@ -847,4 +838,4 @@ Skillnaderna gäller escape-/radbrytning i Lyric och Telegram Bot. De bör jämf
 
 ## Uppdatering 2026-11-25 – tidigare tomma mål
 
-240 av de ursprungligen 641 tomma svenska målen har nu granskats mot aktuell HA Core-källa och sparats/återlästs i Lokalise. 401 återstår. 42 unika referensmål kontrollerades live; sex värden (inklusive ett gemensamt Azure-mål) synkroniserades i första delbatchen, och inga avvikelser hittades i batch 121–240. TMX har uppdaterats till 17 367 poster. Se batchrapporten `../2026-11-19-granskning/granskning-empty-targets-001-120.md`, `granskning-empty-targets-121-180.md`, `granskning-empty-targets-181-240.md` och manifesten intill denna rapport.
+300 av de ursprungligen 641 tomma svenska målen har nu granskats mot aktuell HA Core-källa och sparats/återlästs i Lokalise. 341 återstår. 47 unika referensmål kontrollerades live; sex värden (inklusive ett gemensamt Azure-mål) synkroniserades i första delbatchen, och inga avvikelser hittades i batch 121–300. TMX har uppdaterats till 17 427 poster. Se batchrapporten `../2026-11-19-granskning/granskning-empty-targets-001-120.md`, `granskning-empty-targets-121-180.md`, `granskning-empty-targets-181-240.md`, `granskning-empty-targets-241-300.md` och manifesten intill denna rapport.

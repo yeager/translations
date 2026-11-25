@@ -272,3 +272,11 @@
 - 15 unika referensmål kontrollerades; inga avvikelser. PM2,5 följer Home Assistants gemensamma sensorreferens. Forecas API-dokumentation stöder översättningen `icing` → `underkylt regn`.
 - `svlang skrivregler` utan fel; platshållare matchar. Home Assistant-TMX uppdaterad och validerad: 17 367 poster.
 - Totalt 240 av de ursprungliga 641 tomma målen granskade; 401 tomma mål och 203 Core-nycklar utan Lokalise-post återstår. Arbetet fortsätter.
+
+
+## 2026-11-25 – Tomma mål 241–300
+
+- Ytterligare 60 tomma mål granskade mot aktuell Core-källa och live Lokalise; alla sparade och återlästa.
+- 8 unika referensmål kontrollerade; inga avvikelser. Supervisor-varningens kodformat, länkar och platshållare bevarade.
+- Hunspell-sv uppdaterad efter att korrekt böjning `API-tokenen` flaggats; 19 tester passerar. `svlang skrivregler` utan fel.
+- Home Assistant-TMX uppdaterad och validerad: 17 427 poster. Totalt 300 av 641 tomma mål granskade; 341 tomma mål och 203 Core-nycklar utan Lokalise-post återstår. Granskningen fortsätter.
