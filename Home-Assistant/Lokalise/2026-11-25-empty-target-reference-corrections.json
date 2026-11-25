@@ -1,0 +1,59 @@
+[
+  {
+    "key": "component::anova::config::step::reauth_confirm::title",
+    "translation_id": "10443035866",
+    "sv": "Autentiseringen har upphört att gälla för {name}",
+    "reason": "Exact shared reauthentication title; follows common::config_flow::title::reauth.",
+    "status": "saved-and-read-back",
+    "verified_date": "2026-11-25",
+    "verification_method": "Lokalise API PUT followed by fresh GET readback; current HA Core source checked at 86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::azure_data_explorer::config::step::reauth_confirm::title",
+    "translation_id": "10443224128",
+    "sv": "Autentiseringen har upphört att gälla för {name}",
+    "reason": "Exact shared reauthentication title; follows common::config_flow::title::reauth.",
+    "status": "saved-and-read-back",
+    "verified_date": "2026-11-25",
+    "verification_method": "Lokalise API PUT followed by fresh GET readback; current HA Core source checked at 86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::azure_data_explorer::config::step::user::data::authority_id",
+    "translation_id": "4010954048",
+    "sv": "Klientorganisations-ID",
+    "reason": "Azure source description identifies this as the directory/tenant ID; synchronize the shared target and its reauthentication reference.",
+    "status": "saved-and-read-back",
+    "verified_date": "2026-11-25",
+    "verification_method": "Lokalise API PUT followed by fresh GET readback; current HA Core source checked at 86a2eabe7e43f526db5821ef068087ce8404ae07",
+    "source": "Authority ID",
+    "source_status": "current-source-match",
+    "is_reference_target_update": true
+  },
+  {
+    "key": "component::azure_data_explorer::config::step::reauth_confirm::data::authority_id",
+    "translation_id": "10443223803",
+    "sv": "Klientorganisations-ID",
+    "reason": "Azure source description identifies this as the directory/tenant ID; synchronize with the shared target.",
+    "status": "saved-and-read-back",
+    "verified_date": "2026-11-25",
+    "verification_method": "Lokalise API PUT followed by fresh GET readback; current HA Core source checked at 86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::azure_data_explorer::config::step::reauth_confirm::data_description::authority_id",
+    "translation_id": "10443223998",
+    "sv": "I Azure-portalen kallas detta även för katalog-ID (klientorganisations-ID)",
+    "reason": "Synchronize the exact duplicate with the referenced Azure description; adds idiomatic “för” and follows source punctuation.",
+    "status": "saved-and-read-back",
+    "verified_date": "2026-11-25",
+    "verification_method": "Lokalise API PUT followed by fresh GET readback; current HA Core source checked at 86a2eabe7e43f526db5821ef068087ce8404ae07"
+  },
+  {
+    "key": "component::benq_projector_infrared::config::step::user::data_description::infrared_entity_id",
+    "translation_id": "10446902967",
+    "sv": "Sändarentiteten som ska användas för att skicka infraröda kommandon.",
+    "reason": "Synchronize with the exact shared infrared entity description.",
+    "status": "saved-and-read-back",
+    "verified_date": "2026-11-25",
+    "verification_method": "Lokalise API PUT followed by fresh GET readback; current HA Core source checked at 86a2eabe7e43f526db5821ef068087ce8404ae07"
+  }
+]

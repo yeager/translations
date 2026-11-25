@@ -247,3 +247,12 @@
 - Alla 120 positioner jämförda med HA Core `e7821a6c38d191d5cb9797f9992529281b8ebde6` och live Lokalise: 23 ändringar sparade/återlästa, 82 befintliga värden verifierade och 15 källsaknade nycklar dokumenterade separat.
 - Rättningar omfattar OneDrive-klientorganisation, IDrive e2-lagringsbehållare, Miele-programnamn, KNX-inställningar och Z-Wave-låskoder.
 - Core-TMX uppdaterad och validerad: 17 018 poster. Granskningen fortsätter.
+
+
+## 2026-11-25 – Tomma mål 001–120
+
+- 120 befintliga tomma svenska mål granskade mot Core `86a2eabe7e43f526db5821ef068087ce8404ae07`; alla 120 sparade och återlästa via Lokalise API.
+- 28 unika referensmål kontrollerades live. Sex värden över fem nycklar synkroniserades, inklusive två delade titlar, Azure-klientorganisations-ID och två beskrivningsreferenser. Alla ändringar lästes tillbaka.
+- TMX ersatte tidigare mål där samma nyckel och Lokalise-ID redan fanns; nu 17 247 poster och validerad.
+- `svlang skrivregler`: inga fel. Hunspell-träffar för riktningsförkortningar, egennamn, tekniska termer och platshållare bedömdes manuellt.
+- 521 tomma svenska mål och 203 saknade Core-nycklar återstår. Granskningen fortsätter. Rapport: `../2026-11-19-granskning/granskning-empty-targets-001-120.md`.
