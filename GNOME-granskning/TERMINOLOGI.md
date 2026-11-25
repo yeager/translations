@@ -119,6 +119,7 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | color vision deficiency | färgseendebrist | GIMP-inställning för simulering av olika typer av färgseendebrist. |
 | color value range | färgvärdesintervall | Beskrivande term för ett intervall av grupperade kanalvärden. |
 | Blending Options | Blandningsalternativ | GIMP-lager-/filterinställning; översätt inte *blending* med *toning*. |
+| Blend (animation filter) | Blanda | GIMP-filtret som blandar bildrutor mellan lager; här är *blanda* ett verb, inte GIMP-verktyget för toning. |
 | chroma range | krominansomfång | GIMP-färgförbättring; skilj från nyans och ljushet. |
 | HSV (GIMP UI) | NMI | GIMP:s etablerade svenska beteckning för nyans, mättnad och intensitet; behåll HSV i teknisk förklaring/kod där identifieraren avses. |
 | blending options | blandningsalternativ | GIMP:s lager- och filterblandning; inte *toningsalternativ*. |
