@@ -264,3 +264,11 @@
 - 11 unika referensmål kontrollerade; inga avvikelser. Tre tekniska formuleringar i cloud-klientcertifikatfelet förbättrades och återlästes.
 - TMX uppdaterad och validerad: 17 307 poster. `svlang skrivregler` utan fel; platshållare oförändrade.
 - Totalt 180 av 641 tomma mål granskade; 461 tomma mål och 203 saknade aktuella Core-nycklar återstår. Granskningen fortsätter.
+
+
+## 2026-11-25 – Tomma mål 181–240
+
+- Ytterligare 60 tomma mål granskade mot aktuell Core-källa och live Lokalise; samtliga sparade och återlästa.
+- 15 unika referensmål kontrollerades; inga avvikelser. PM2,5 följer Home Assistants gemensamma sensorreferens. Forecas API-dokumentation stöder översättningen `icing` → `underkylt regn`.
+- `svlang skrivregler` utan fel; platshållare matchar. Home Assistant-TMX uppdaterad och validerad: 17 367 poster.
+- Totalt 240 av de ursprungliga 641 tomma målen granskade; 401 tomma mål och 203 Core-nycklar utan Lokalise-post återstår. Arbetet fortsätter.
