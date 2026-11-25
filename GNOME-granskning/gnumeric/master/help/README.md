@@ -32,4 +32,6 @@ Samtliga 399 kvarvarande tomma poster är externa bildreferenser (`external ref=
 - [Unified diff](gnumeric.master.help.sv.diff)
 - [Hunspell-undantag](hunspell-exceptions.md)
 
-Ingen fil har skickats till GNOME Damned Lies.
+Damned Lies-inskick: 2026-11-25 via API. Kommentaren var `Granskad och klar. Argumentnamnen i hjälptexterna är översatta; funktionsidentifierarna är bevarade.` Aktivitetssidan visar den inskickade filen och 8 556/0/399. De 399 tomma posterna är källmarkerade externa bildreferenser.
+
+För att klara Damned Lies gräns på 3 MiB skickades en separat uppladdningskopia med endast aktuella POT-poster och utan källradreferenser. Den har exakt samma nycklar, pluralformer och översättningar som den arkiverade granskade filen (`msgfmt --check` godkänd).
