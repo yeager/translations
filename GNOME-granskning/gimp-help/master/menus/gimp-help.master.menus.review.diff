@@ -1,0 +1,638 @@
+--- original
++++ reviewed
+@@ -1,16 +1,12 @@
+-# Daniel Nylander <po@danielnylander.se>, 2009.
+-# Erik Sköldås <erik.skoldas@tele2.se>, 2017.
+-# Josef Andersson <l10nl18nsweja@gmail.com>, 2017.
+-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2021, 2023, 2024, 2026.
+ #
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: gimp-help menus\n"
++"Project-Id-Version: gimp-help — menus\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2026-11-24 22:35+0000\n"
+-"PO-Revision-Date: 2026-01-24 13:20+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"POT-Creation-Date: 2026-11-24 22:37+0000\n"
++"PO-Revision-Date: 2026-11-25 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
++"Language-Team: Swedish\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -20,7 +16,7 @@
+ 
+ #: src/menus/windows.xml:11(title)
+ msgid "The <quote>Windows</quote> Menu"
+-msgstr "<quote>Fönster</quote>-menyn"
++msgstr "Menyn <quote>Fönster</quote>"
+ 
+ #: src/menus/windows.xml:14(primary) src/menus/view.xml:14(secondary)
+ #: src/menus/tools.xml:14(primary) src/menus/select.xml:12(primary)
+@@ -47,56 +43,56 @@
+ "<menuchoice><guimenu>Windows</guimenu></menuchoice> menu, which allows you "
+ "to manage <acronym>GIMP</acronym>'s windows and docks."
+ msgstr ""
+-"I detta avsnitt hittar du hjälp för kommandon i "
+-"<menuchoice><guimenu>Fönster</guimenu></menuchoice>-menyn, som låter dig "
+-"hantera <acronym>GIMP</acronym>s fönster och dockor."
++"I det här avsnittet beskrivs kommandona i menyn "
++"<menuchoice><guimenu>Fönster</guimenu></menuchoice>, där du hanterar "
++"<acronym>GIMP</acronym>:s fönster och dockor."
+ 
+ #: src/menus/windows.xml:26(para)
+ msgid ""
+ "The available commands of this menu may vary according presence or absence "
+ "of images and docks."
+ msgstr ""
+-"De tillgängliga kommandona i denna meny kan variera beroende på närvaro "
+-"eller avsaknad av bilder och dockor."
++"Vilka kommandon som är tillgängliga i menyn beror på om det finns öppna "
++"bilder och dockor."
+ 
+ #: src/menus/windows.xml:33(title)
+ msgid "The Contents of the <quote>Windows</quote> Menu"
+-msgstr "Innehållet i <quote>Fönster</quote>-menyn"
++msgstr "Innehållet i menyn <quote>Fönster</quote>"
+ 
+ #: src/menus/windows.xml:36(term)
+ msgid "Recently Closed Docks"
+-msgstr "Senaste stängda dockningar"
++msgstr "Senast stängda dockor"
+ 
+ #: src/menus/windows.xml:38(para)
+ #: src/menus/windows-open-recent-docks.xml:16(para)
+ msgid ""
+ "This command opens the list of the docks you have closed recently. You can "
+-"reopen them by clicking on their name. Please note that isolated windows are "
+-"not concerned."
+-msgstr ""
+-"Det här kommandot öppnar listan över dockor du nyligen har stängt. Du kan "
+-"åter öppna dem genom att klicka på deras namn. Observera att isolerade "
+-"fönster inte berörs."
++"reopen them by clicking on their name. Please note that isolated windows are"
++" not concerned."
++msgstr ""
++"Kommandot visar en lista över dockor som du nyligen har stängt. Öppna en "
++"docka igen genom att klicka på dess namn. Fristående fönster visas inte i "
++"listan."
+ 
+ #: src/menus/windows.xml:43(para)
+ msgid ""
+ "For more information about docks, please see <link linkend=\"gimp-concepts-"
+ "docks\">Dialogs and Docking</link>."
+ msgstr ""
+-"För mer information om dockor, se <link linkend=\"gimp-concepts-"
++"Mer information om dockor finns i <link linkend=\"gimp-concepts-"
+ "docks\">Dialoger och dockning</link>."
+ 
+ #: src/menus/windows.xml:50(term)
+ msgid "Dockable Dialogs"
+-msgstr "Dockningsbara dialoger"
++msgstr "Dockningsbara dialogrutor"
+ 
+ #: src/menus/windows.xml:52(para)
+ msgid ""
+ "This command opens the list of dockable dialogs. Please refer to <xref "
+ "linkend=\"gimp-concepts-docks\"/>."
+ msgstr ""
+-"Det här kommandot öppnar listan över dockningsbara dialoger. Se <xref "
+-"linkend=\"gimp-concepts-docks\"/> för mer information."
++"Kommandot visar en lista över dockningsbara dialogrutor. Se <xref "
++"linkend=\"gimp-concepts-docks\"/>."
+ 
+ #: src/menus/windows.xml:60(term)
+ msgid "Toolbox"
+@@ -104,21 +100,21 @@
+ 
+ #: src/menus/windows.xml:62(para)
+ msgid ""
+-"Clicking on this command or using the <keycombo><keycap>Ctrl</"
+-"keycap><keycap>B</keycap></keycombo> shortcut, raises the toolbox usually "
+-"together with the tool options dock."
+-msgstr ""
+-"Att klicka på det här kommandot eller använda kortkommandot "
+-"<keycombo><keycap>Ctrl</keycap><keycap>B</keycap></keycombo> tar fram "
+-"verktygslådan, vanligtvis tillsammans med dockan verktygsalternativ."
++"Clicking on this command or using the "
++"<keycombo><keycap>Ctrl</keycap><keycap>B</keycap></keycombo> shortcut, "
++"raises the toolbox usually together with the tool options dock."
++msgstr ""
++"Klicka på kommandot eller använd kortkommandot "
++"<keycombo><keycap>Ctrl</keycap><keycap>B</keycap></keycombo> för att visa "
++"verktygslådan, vanligtvis tillsammans med dockan Verktygsalternativ."
+ 
+ #: src/menus/windows.xml:70(para)
+ msgid ""
+ "Note that in single-window mode this usually doesn't have any effect since "
+ "the toolbox is part of the main window."
+ msgstr ""
+-"Observera att i enfönsterläge har detta vanligen ingen effekt då "
+-"verktygslådan är en del av huvudfönstret."
++"I enfönsterläge har kommandot vanligtvis ingen effekt, eftersom "
++"verktygslådan redan ingår i huvudfönstret."
+ 
+ #: src/menus/windows.xml:78(term)
+ msgid "The list of open image windows"
+@@ -126,13 +122,13 @@
+ 
+ #: src/menus/windows.xml:80(para)
+ msgid ""
+-"Clicking on an image name, or using the <keycombo><keycap>Alt</"
+-"keycap><keycap>Number of the image</keycap></keycombo> shortcut, makes the "
+-"image active."
+-msgstr ""
+-"Genom att klicka på ett bildnamn, eller genom att använda kortkommandot "
+-"<keycombo><keycap>Alt</keycap><keycap>Numret för bilden</keycap></keycombo>, "
+-"blir bilden aktiv."
++"Clicking on an image name, or using the "
++"<keycombo><keycap>Alt</keycap><keycap>Number of the "
++"image</keycap></keycombo> shortcut, makes the image active."
++msgstr ""
++"Klicka på ett bildnamn eller använd kortkommandot "
++"<keycombo><keycap>Alt</keycap><keycap>Bildens nummer</keycap></keycombo> för"
++" att aktivera bilden."
+ 
+ #: src/menus/windows.xml:90(term)
+ msgid "The list of open docks"
+@@ -144,10 +140,9 @@
+ "dock. Clicking on a dock name raises this dock. Note that in single-window "
+ "mode only docks that are not part of the main window will be shown here."
+ msgstr ""
+-"I denna lista namnges dockorna efter namnet på den aktiva dialogen i den här "
+-"dockan. Genom att klicka på en dockas namn lyfts dockan fram. Observera att "
+-"i enfönsterläge kommer endast dockor som inte är en del av huvudfönstret att "
+-"visas här."
++"Dockorna i listan har namn efter den aktiva dialogrutan i respektive docka. "
++"Klicka på ett docknamn för att visa dockan. I enfönsterläge visas bara "
++"dockor som inte ingår i huvudfönstret."
+ 
+ #: src/menus/windows.xml:101(term)
+ msgid "Hide Docks"
+@@ -157,14 +152,13 @@
+ msgid ""
+ "Clicking on this command or using the (<keycap>Tab</keycap>) shortcut hides "
+ "all docks (usually to the left and right of the image), leaving the image "
+-"window alone. The command status is kept on quitting <acronym>GIMP</acronym> "
+-"and will be in the same state when <acronym>GIMP</acronym> starts."
+-msgstr ""
+-"Att klicka på det här kommandot eller använda kortkommandot (<keycap>Tabb</"
+-"keycap>) döljer alla dockor (vanligtvis till vänster och höger om bilden), "
+-"och lämnar enbart kvar bildfönstret. Kommandots status behålls när "
+-"<acronym>GIMP</acronym> avslutas och kommer vara i samma tillstånd då "
+-"<acronym>GIMP</acronym> startas."
++"window alone. The command status is kept on quitting <acronym>GIMP</acronym>"
++" and will be in the same state when <acronym>GIMP</acronym> starts."
++msgstr ""
++"Klicka på kommandot eller använd kortkommandot (<keycap>Tabb</keycap>) för "
++"att dölja alla dockor, vanligtvis de till vänster och höger om bilden. Då "
++"visas bara bildfönstret. Inställningen sparas när du avslutar "
++"<acronym>GIMP</acronym> och används nästa gång programmet startas."
+ 
+ #: src/menus/windows.xml:113(term)
+ msgid "Show Tabs"
+@@ -173,12 +167,12 @@
+ #: src/menus/windows.xml:115(para)
+ msgid ""
+ "In single-window mode this command changes whether or not to show the tabs "
+-"with all opened images. By default the tab bar is shown, but you can hide it "
+-"if you don't need it and want to use the extra screen space."
+-msgstr ""
+-"I enfönsterläge ändrar detta kommando huruvida flikarna med alla öppnade "
+-"bilder ska visas. Som standard visas flikraden, men du kan dölja den om du "
+-"inte behöver den och vill använda det extra skärmutrymmet."
++"with all opened images. By default the tab bar is shown, but you can hide it"
++" if you don't need it and want to use the extra screen space."
++msgstr ""
++"I enfönsterläge väljer du med det här kommandot om flikarna för öppna bilder"
++" ska visas. Flikraden visas som standard, men du kan dölja den för att få "
++"mer utrymme på skärmen."
+ 
+ #: src/menus/windows.xml:121(para) src/menus/windows.xml:137(para)
+ msgid "In multi-window mode this command is disabled."
+@@ -190,28 +184,28 @@
+ 
+ #: src/menus/windows.xml:129(para)
+ msgid ""
+-"In single-window mode you can use this command to choose the position of the "
+-"tab bar that shows the loaded images. By default the tab bar is located at "
++"In single-window mode you can use this command to choose the position of the"
++" tab bar that shows the loaded images. By default the tab bar is located at "
+ "the <guilabel>Top</guilabel>, but you can change this to show it at the "
+-"<guilabel>Bottom</guilabel>, <guilabel>Left</guilabel>, or <guilabel>Right</"
+-"guilabel>."
+-msgstr ""
+-"I enfönsterläge kan du använda detta kommando för att välja positionen för "
+-"flikraden som visar de inlästa bilderna. Som standard finns flikraden "
+-"<guilabel>Överst</guilabel>, men du kan ändra detta till <guilabel>Nederst</"
+-"guilabel>, <guilabel>Vänster</guilabel> eller <guilabel>Höger</guilabel>."
++"<guilabel>Bottom</guilabel>, <guilabel>Left</guilabel>, or "
++"<guilabel>Right</guilabel>."
++msgstr ""
++"I enfönsterläge kan du välja var flikraden med öppna bilder ska placeras. "
++"Som standard visas den <guilabel>överst</guilabel>, men du kan flytta den "
++"<guilabel>nederst</guilabel>, till <guilabel>vänster</guilabel> eller till "
++"<guilabel>höger</guilabel>."
+ 
+ #: src/menus/windows.xml:143(term)
+ msgid "Single Window Mode"
+-msgstr "Ett programfönster"
++msgstr "Enfönsterläge"
+ 
+ #: src/menus/windows.xml:145(para)
+ msgid ""
+-"When enabled, <acronym>GIMP</acronym> is in a single window mode. Please see "
++"When enabled, <acronym>GIMP</acronym> is in a single window mode. Please see"
++" <xref linkend=\"single-window-mode\"/>."
++msgstr ""
++"När läget är aktiverat visas <acronym>GIMP</acronym> i ett enda fönster. Se "
+ "<xref linkend=\"single-window-mode\"/>."
+-msgstr ""
+-"Om aktiverat så är <acronym>GIMP</acronym> i enfönsterläge. Se <xref "
+-"linkend=\"single-window-mode\"/>."
+ 
+ #: src/menus/windows-open-recent-docks.xml:9(title)
+ msgid "The <quote>Recently Closed Docks</quote> submenu"
+@@ -232,12 +226,12 @@
+ #: src/menus/windows-open-recent-docks.xml:25(para)
+ msgid ""
+ "You can access this command from the main menu through "
+-"<menuchoice><guimenu>Windows</guimenu><guimenuitem>Recently Closed Docks</"
+-"guimenuitem></menuchoice>."
+-msgstr ""
+-"Du kan komma åt detta kommando från huvudmenyn genom "
+-"<menuchoice><guimenu>Fönster</guimenu><guimenuitem>Senaste stängda "
+-"dockningar</guimenuitem></menuchoice>."
++"<menuchoice><guimenu>Windows</guimenu><guimenuitem>Recently Closed "
++"Docks</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar kommandot i huvudmenyn under "
++"<menuchoice><guimenu>Fönster</guimenu><guimenuitem>Senast stängda "
++"dockor</guimenuitem></menuchoice>."
+ 
+ #: src/menus/view.xml:10(title)
+ msgid "The <quote>View</quote> Menu"
+@@ -261,8 +255,8 @@
+ "All of the tools available in <acronym>GIMP</acronym> are extensively "
+ "described in the <link linkend=\"gimp-tools\">Tools</link> section."
+ msgstr ""
+-"Alla verktyg som finns tillgängliga i <acronym>GIMP</acronym> beskrivs "
+-"utförligt i avsnittet <link linkend=\"gimp-tools\">Verktyg</link>."
++"Alla verktyg i <acronym>GIMP</acronym> beskrivs utförligt i avsnittet <link "
++"linkend=\"gimp-tools\">Verktyg</link>."
+ 
+ #: src/menus/select.xml:9(title)
+ msgid "The <quote>Select</quote> Menu"
+@@ -276,7 +270,8 @@
+ msgid "The <quote>Layer</quote> Menu"
+ msgstr "<quote>Lager</quote>-menyn"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/introduction.xml:40(None)
+ msgid ""
+@@ -286,7 +281,8 @@
+ "@@image: 'images/menus/image-menu-bar.png'; "
+ "md5=f84c7413cb4abf0a6111d4c8ae5ab0cb"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/introduction.xml:125(None)
+ msgid ""
+@@ -296,7 +292,8 @@
+ "@@image: 'images/stock-icons/gimp-menu-left.svg'; "
+ "md5=bcd8b1befe4e36f3afb9c7850e702752"
+ 
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/menus/introduction.xml:137(None)
+ msgid ""
+@@ -321,12 +318,11 @@
+ "entries for other dialogs are described elsewhere in the chapters that "
+ "describe the dialogs themselves."
+ msgstr ""
+-"Det finns många platser i <acronym>GIMP</acronym> där du kan hitta menyer. "
+-"Syftet med detta kapitel är att förklara alla kommandon som är tillgängliga "
+-"från huvudmenyn högst upp i <acronym>GIMP</acronym>s fönster, och huvudmenyn "
+-"som du kan komma till genom att högerklicka på ritytan. Alla snabbvalsmenyer "
+-"och menyobjekten för de övriga dialogerna beskrivs någon annanstans i "
+-"kapitlet som beskriver den dialogen."
++"I <acronym>GIMP</acronym> finns menyer på flera ställen. I det här kapitlet "
++"beskrivs kommandona i huvudmenyn högst upp i "
++"<acronym>GIMP</acronym>-fönstret och menyn som öppnas när du högerklickar på"
++" ritytan. Snabbmenyer och menyalternativ i andra dialogrutor beskrivs i "
++"kapitlen om respektive dialogruta."
+ 
+ #: src/menus/introduction.xml:28(title)
+ msgid "The Main Menu"
+@@ -350,21 +346,21 @@
+ "linkend=\"gimp-concepts-script-fu\">scripts</link> or <link linkend=\"gimp-"
+ "concepts-plugins\">plug-ins</link>."
+ msgstr ""
+-"Huvudmenyn kan innehålla ytterligare poster om du har lagt till <link "
+-"linkend=\"gimp-concepts-script-fu\">skript</link> eller <link linkend=\"gimp-"
+-"concepts-plugins\">insticksmoduler</link>."
++"Huvudmenyn kan innehålla fler alternativ om du har lagt till <link "
++"linkend=\"gimp-concepts-script-fu\">skript</link> eller <link "
++"linkend=\"gimp-concepts-plugins\">insticksmoduler</link>."
+ 
+ #: src/menus/introduction.xml:56(title)
+ msgid "Context Menus"
+-msgstr "Snabbvalsmenyer"
++msgstr "Snabbmenyer"
+ 
+ #: src/menus/introduction.xml:59(primary)
+ msgid "Context menus"
+-msgstr "Snabbvalsmenyer"
++msgstr "Snabbmenyer"
+ 
+ #: src/menus/introduction.xml:63(secondary)
+ msgid "Context"
+-msgstr "Snabbval"
++msgstr "Snabbmeny"
+ 
+ #: src/menus/introduction.xml:66(para)
+ msgid ""
+@@ -374,42 +370,42 @@
+ "context menus are:"
+ msgstr ""
+ "Om du högerklickar på vissa delar av <acronym>GIMP</acronym>-gränssnittet "
+-"öppnas en <quote>snabbvalsmeny</quote>, vilken låter dig komma åt "
+-"ytterligare kommandon relaterade till där du klickade. Några ställen där du "
+-"kan komma åt snabbvalsmenyer är:"
++"öppnas en <quote>snabbmeny</quote> med ytterligare kommandon som hör till "
++"platsen du klickade på. Du kan till exempel öppna snabbmenyer på följande "
++"ställen:"
+ 
+ #: src/menus/introduction.xml:74(para)
+ msgid ""
+ "Right-clicking on an image window displays the Main menu. This is useful "
+ "when you are working in full-screen mode, without a menu bar."
+ msgstr ""
+-"Högerklick på ett bildfönster får huvudmenyn att visas. Detta är användbart "
+-"när du arbetar i helskärmsläge utan menyrad."
++"Högerklicka i ett bildfönster för att visa huvudmenyn. Det är användbart i "
++"helskärmsläge, när menyraden inte visas."
+ 
+ #: src/menus/introduction.xml:80(para)
+ msgid ""
+ "Right-clicking on a layer in the <link linkend=\"gimp-layer-dialog\">Layers "
+ "Dialog</link> or on a channel in the <link linkend=\"gimp-channel-"
+-"dialog\">Channels Dialog</link> displays functions for the selected layer or "
+-"channel."
+-msgstr ""
+-"Om du klickar på ett lager i <link linkend=\"gimp-layer-dialog\">dialogrutan "
++"dialog\">Channels Dialog</link> displays functions for the selected layer or"
++" channel."
++msgstr ""
++"Högerklicka på ett lager i <link linkend=\"gimp-layer-dialog\">dialogrutan "
+ "Lager</link> eller på en kanal i <link linkend=\"gimp-channel-"
+-"dialog\">dialogrutan Kanaler</link> visas funktioner för det valda lagret "
+-"eller kanalen."
++"dialog\">dialogrutan Kanaler</link> för att visa funktioner för lagret eller"
++" kanalen."
+ 
+ #: src/menus/introduction.xml:88(para)
+ msgid ""
+ "Right-clicking on the Main Menu bar has the same effect as left-clicking."
+-msgstr "Högerklick på huvudmenyraden har samma effekt som att vänsterklicka."
++msgstr "Högerklick på huvudmenyraden fungerar på samma sätt som vänsterklick."
+ 
+ #: src/menus/introduction.xml:94(para)
+ msgid ""
+ "Right-clicking on the title bar displays functions which do not belong to "
+ "<acronym>GIMP</acronym>, but to the window manager of your computer."
+ msgstr ""
+-"Högerklick på namnlisten visar funktioner som inte hör till <acronym>GIMP</"
+-"acronym>, utan till fönsterhanteraren för din dator."
++"Högerklick på namnlisten visar funktioner som tillhör datorns "
++"fönsterhanterare, inte <acronym>GIMP</acronym>."
+ 
+ #: src/menus/introduction.xml:104(title)
+ #: src/menus/introduction.xml:107(primary)
+@@ -425,8 +421,8 @@
+ "The <quote>Tab Menu</quote> is not related to the Main Menu, but mentioned "
+ "here for the sake of completeness:"
+ msgstr ""
+-"<quote>Flikmenyn</quote> är inte relaterad till huvudmenyn, men för "
+-"helhetens skull:"
++"<quote>Flikmenyn</quote> hör inte till huvudmenyn, men nämns här för "
++"fullständighetens skull:"
+ 
+ #: src/menus/introduction.xml:118(para)
+ msgid ""
+@@ -435,24 +431,24 @@
+ "special menu of tab-related operations, with an entry at the top that opens "
+ "the dialog's context menu."
+ msgstr ""
+-"Varje <link linkend=\"gimp-concepts-docks\">dockningsbar</link> dialog "
+-"innehåller en flikmenyknapp <placeholder-1/>. Genom att trycka på den här "
+-"flikmenyknappen öppnas en särskild meny med flikrelaterade åtgärder, med ett "
+-"objekt överst som öppnar dialogens snabbvalsmeny."
++"Varje <link linkend=\"gimp-concepts-docks\">dockningsbar</link> dialogruta "
++"har en flikmenyknapp <placeholder-1/>. Klicka på knappen för att öppna en "
++"särskild meny med flikåtgärder. Överst finns ett alternativ som öppnar "
++"dialogrutans snabbmeny."
+ 
+ #: src/menus/introduction.xml:134(title)
+ msgid "A dockable dialog."
+-msgstr "Dockningsbar dialogruta."
++msgstr "En dockningsbar dialogruta."
+ 
+ #: src/menus/introduction.xml:140(para)
+ msgid "The Tab menu."
+ msgstr "Flikmenyn."
+ 
+ #: src/menus/introduction.xml:144(para)
+-msgid ""
+-"See <xref linkend=\"gimp-dockable-menu\"/> to learn more about Tab menus."
+-msgstr ""
+-"Se <xref linkend=\"gimp-dockable-menu\"/> för att lära dig mer om flikmenyer."
++msgid "See <xref linkend=\"gimp-dockable-menu\"/> to learn more about Tab menus."
++msgstr ""
++"Mer information om flikmenyer finns i <xref linkend=\"gimp-dockable-"
++"menu\"/>."
+ 
+ #: src/menus/image.xml:12(title)
+ msgid "The <quote>Image</quote> Menu"
+@@ -476,7 +472,7 @@
+ 
+ #: src/menus/file.xml:20(secondary)
+ msgid "File menu"
+-msgstr "Arkiv-meny"
++msgstr "Arkivmenyn"
+ 
+ #: src/menus/edit.xml:14(title)
+ msgid "The <quote>Edit</quote> Menu"
+@@ -488,7 +484,7 @@
+ 
+ #: src/menus/colors.xml:18(title)
+ msgid "The <quote>Colors</quote> Menu"
+-msgstr "<quote>Färg</quote>-menyn"
++msgstr "Menyn <quote>Färger</quote>"
+ 
+ #: src/menus/about-plugin-menuitems.xml:5(para)
+ msgid ""
+@@ -497,150 +493,7 @@
+ "added by third-party plug-ins. You can find information about the "
+ "functionality of a plug-in by referring to its documentation."
+ msgstr ""
+-"Förutom de kommandon som beskrivs här kan du också hitta andra poster i "
+-"menyn. De är inte en del av <acronym>GIMP</acronym> utan har lagts till av "
+-"insticksmoduler från tredje part. Du kan hitta information om "
+-"funktionaliteten för en insticksmodul genom att se dess dokumentation."
+-
+-#~ msgid "translator-credits"
+-#~ msgstr ""
+-#~ "Daniel Nylander <po@danielnylander.se>, 2009\n"
+-#~ "Erik Sköldås <erik.skoldas@tele2.se>, 2017\n"
+-#~ "Anders Jonsson <anders.jonsson@norsjovallen.se>, 2021, 2023, 2024"
+-
+-#~ msgid ""
+-#~ "This menu allows you to manage <acronym>GIMP</acronym> windows dialogs:"
+-#~ msgstr ""
+-#~ "Denna meny gör det möjligt att hantera fönsterdialoger för <acronym>GIMP</"
+-#~ "acronym>:"
+-
+-# Tar bort raden om hur lämpligt det är med pluralnamn på menyn. Plural och singularis på fönster är samma på svenska.
+-#~ msgid ""
+-#~ "The <quote>Windows</quote> menu name is not well adapted to the new "
+-#~ "single-window mode. Nevertheless, its functions concern multi and single "
+-#~ "modes. Its display may vary according presence or absence of images and "
+-#~ "docks:"
+-#~ msgstr ""
+-#~ "<quote>Fönster</quote>-menyns funktioner rör både läget med ett fönster "
+-#~ "och det med flera fönster. Hur den visas kan variera beroende på närvaron "
+-#~ "eller frånvaron av bilder och dockor:"
+-
+-#~ msgid "With open images"
+-#~ msgstr "Med öppna bilder"
+-
+-#~ msgid ""
+-#~ "<command>Recently Closed Docks</command>: this command opens the list of "
+-#~ "the docks you have closed recently. You can reopen them by clicking on "
+-#~ "their name. Please note that isolated windows are not concerned."
+-#~ msgstr ""
+-#~ "<command>Senaste stängda dockningar</command>: det här kommandot öppnar "
+-#~ "listan över de dockor du nyligen har stängt. Du kan åter öppna dem genom "
+-#~ "att klicka på deras namn. Observera att isolerade fönster inte berörs."
+-
+-#~ msgid "Introduction to the <quote>Tools</quote> Menu"
+-#~ msgstr "Introduktion till <quote>Verktyg</quote>-menyn"
+-
+-#~ msgid "Contents of the <quote>Tools</quote> menu"
+-#~ msgstr "Innehållet i <quote>Verktyg</quote>-menyn"
+-
+-#~ msgid "Introduction to the <quote>Select</quote> Menu"
+-#~ msgstr "Introduktion till <quote>Markera</quote>-menyn"
+-
+-#~ msgid "The Contents of the <quote>Select</quote> menu"
+-#~ msgstr "Innehållet i <quote>Markera</quote>-menyn"
+-
+-#~ msgid ""
+-#~ "This section explains the commands on the <guimenu>Select</guimenu> menu "
+-#~ "of the main menu."
+-#~ msgstr ""
+-#~ "Detta avsnitt förklarar kommandona i <guimenu>Markera</guimenu>-menyn i "
+-#~ "huvudmenyn."
+-
+-#~ msgid "Introduction to the <quote>Help</quote> Menu"
+-#~ msgstr "Introduktion till <quote>Hjälp</quote>-menyn"
+-
+-#~ msgid "Menu"
+-#~ msgstr "Meny"
+-
+-#~ msgid "Help"
+-#~ msgstr "Hjälp"
+-
+-#~ msgid "Contents of the <quote>Help</quote> menu"
+-#~ msgstr "Innehållet i <quote>Hjälp</quote>-menyn"
+-
+-#~ msgid ""
+-#~ "The <guimenu>Help</guimenu> menu contains commands that assist you while "
+-#~ "you are working with <application>GIMP</application>."
+-#~ msgstr ""
+-#~ "<guimenu>Hjälp</guimenu>-menyn innehåller kommandon som hjälper dig när "
+-#~ "du arbetar med <application>GIMP</application>."
+-
+-#~ msgid "File"
+-#~ msgstr "Arkiv"
+-
+-#~ msgid "The File menu"
+-#~ msgstr "Arkiv-menyn"
+-
+-#~ msgid "A dialog window with the Tab menu button highlighted."
+-#~ msgstr "Ett dialogfönster med flikmenyknappen markerad."
+-
+-#~ msgid ""
+-#~ "This menu bar may contain other entries if you have added script-fus, "
+-#~ "python-fus or videos to your GIMP."
+-#~ msgstr ""
+-#~ "Denna menyrad kan innehålla andra poster om du har lagt till script-fu, "
+-#~ "python-fu eller videoklipp till din GIMP."
+-
+-#~ msgid "Tear-off menus"
+-#~ msgstr "Löstagbara menyer"
+-
+-#~ msgid "Tear-off line"
+-#~ msgstr "Löskopplingslinje"
+-
+-#~ msgid ""
+-#~ "There is an interesting property associated with some of the menus in "
+-#~ "<acronym>GIMP</acronym>. These are any of the menus from the Image "
+-#~ "context menu you get by right-clicking on the canvas and any of its "
+-#~ "submenus. (You can tell that a menu item leads to a submenu because there "
+-#~ "is an <guiicon><inlinegraphic fileref=\"images/menus/icon-submenu.png\" "
+-#~ "format=\"PNG\"/></guiicon> icon next to it.) When you bring up any of "
+-#~ "these menus, there is a dotted line at the top of it (tear-off line). By "
+-#~ "clicking on this dotted line, you detach the menu under it and it becomes "
+-#~ "a separate window."
+-#~ msgstr ""
+-#~ "Det finns en intressant egenskap i samband med några av menyerna i "
+-#~ "<acronym>GIMP</acronym>. Dessa är alla menyerna från bildmenyn som du når "
+-#~ "genom att högerklicka på ritytan samt deras undermenyer. (Du kan se att "
+-#~ "ett menyobjekt leder till en undermeny eftersom det finns en "
+-#~ "<guiicon><inlinegraphic fileref=\"images/menus/icon-submenu.png\" "
+-#~ "format=\"PNG\"/></guiicon>-ikon bredvid det.) När du öppnar någon av "
+-#~ "dessa menyer finns det en streckad linje överst i den "
+-#~ "(löskopplingslinje). Genom att klicka på den här streckade linjen lösgör "
+-#~ "du menyn under den och den blir ett separat fönster."
+-
+-#~ msgid "The <quote>windows</quote> submenu and its tear-off submenu"
+-#~ msgstr "Undermenyn <quote>fönster</quote> och dess löstagbara undermeny"
+-
+-#~ msgid ""
+-#~ "Tear-off menus are actually independent. They are always visible, their "
+-#~ "functions always apply to the current image, and they persist when all of "
+-#~ "the images are closed. You can close a tear-off submenu by clicking on "
+-#~ "the dotted line again or closing the window from the window manager on "
+-#~ "your computer (often by clicking on an X icon in the upper right corner "
+-#~ "of the window)."
+-#~ msgstr ""
+-#~ "Löstagbara menyer är egentligen självständiga. De är alltid synliga, "
+-#~ "deras funktioner gäller alltid för den aktuella bilden, och de är kvar "
+-#~ "när alla bilder är stängda. Du kan stänga en löstagbar undermeny genom "
+-#~ "att återigen klicka på den streckade linjen eller stänga fönstret från "
+-#~ "fönsterhanteraren på din dator (ofta genom att klicka på en X-ikon i "
+-#~ "fönstrets övre högra hörn)."
+-
+-#~ msgid ""
+-#~ "These tear-off submenus are also created in single-window mode, but are "
+-#~ "of less interest since they are masked by the window as soon as you click "
+-#~ "on it."
+-#~ msgstr ""
+-#~ "Dessa löstagbara undermenyer skapas också i läget med ett enda "
+-#~ "programfönster, men är av mindre intresse eftersom de döljs av fönstret "
+-#~ "så snart du klickar på det."
++"Menyn kan innehålla fler alternativ än de kommandon som beskrivs här. De "
++"ingår inte i <acronym>GIMP</acronym>, utan har lagts till av insticksmoduler"
++" från tredje part. Läs dokumentationen för en insticksmodul om du vill veta "
++"mer om dess funktioner."

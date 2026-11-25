@@ -125,6 +125,11 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | semi-transparency | halvgenomskinlighet | När ett bildformat simulerar genomskinlighet utan alfakanal. |
 | edge-detect filter | kantdetekteringsfilter | Filterkategori. |
 | generic filter | allmänt filter | Använd inte *generiskt filter* i användartext. |
+| dock (GIMP panel) | docka | En panel som kan dockas; plural *dockor*. Använd *dockning* för själva placeringen. |
+| dockable dialog | dockningsbar dialogruta | Dialogruta som kan placeras i en docka. |
+| context menu | snabbmeny | Meny med kommandon för den klickade delen av gränssnittet. |
+| single-window mode | enfönsterläge | GIMP-läge där dockor och bild visas i ett programfönster. |
+| tab bar | flikrad | Raden med flikar för öppna bilder. |
 | opacity | opacitet | Använd *ogenomskinlighet* i förklarande löptext vid behov. |
 | feather (selection) | mjuka upp kanter | Åtgärd på en markering; substantivet är *kantutjämning* endast när kontexten avser utjämning. |
 | floating selection | flytande markering | GIMP:s särskilda lager-/markeringsläge. |
