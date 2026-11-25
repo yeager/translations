@@ -1,0 +1,501 @@
+--- networkmanager-openvpn.main.sv.original.po
++++ networkmanager-openvpn.main.sv.reviewed.po
+@@ -11,2 +11 @@
+-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/NetworkManager-openvpn/"
+-"issues\n"
++"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/NetworkManager-openvpn/issues\n"
+@@ -14,2 +13,2 @@
+-"PO-Revision-Date: 2026-07-25 00:49+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-25 19:38+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+@@ -30 +29 @@
+-msgstr "Klient för OpenVPN virtuella privata nätverk"
++msgstr "Klient för virtuella privata nätverk med OpenVPN"
+@@ -59 +58,2 @@
+-"Stöd för att konfigurera OpenVPN virtuella privata nätverksanslutningar."
++"Stöd för att konfigurera OpenVPN-anslutningar till virtuella privata "
++"nätverk."
+@@ -63 +63,2 @@
+-msgstr "OpenVPN är en populär och flexibel VPN-lösning som är fri programvara."
++msgstr ""
++"OpenVPN är en populär och flexibel VPN-lösning som är fri programvara."
+@@ -71 +72 @@
+-msgstr "Utvecklarna av Nätverkshanteraren"
++msgstr "Utvecklarna av NetworkManager"
+@@ -153 +154 @@
+-msgstr "_Gateway"
++msgstr "_Fjärrgateway"
+@@ -157,3 +158 @@
+-"Remote gateway(s), with optional port and protocol (e.g. "
+-"ovpn.corp.com:1234:tcp). You can specify multiple hosts for redundancy (use "
+-"commas or spaces as delimiters).\n"
++"Remote gateway(s), with optional port and protocol (e.g. ovpn.corp.com:1234:tcp). You can specify multiple hosts for redundancy (use commas or spaces as delimiters).\n"
+@@ -162,3 +161 @@
+-"Fjärrgateway med valfri port och protokoll (till exempel "
+-"ovpn.corp.com:1234:tcp). Du kan ange flera värdar för redundans (använd "
+-"komma eller blanksteg som avgränsare).\n"
++"Fjärrgateway (en eller flera), med valfri port och protokoll (till exempel ovpn.corp.com:1234:tcp). Du kan ange flera värdar för redundans och avgränsa dem med kommatecken eller mellanslag.\n"
+@@ -198,2 +195 @@
+-"Username passed to OpenVPN when prompted for it. If omitted, use the name of "
+-"the system user that activates the connection.\n"
++"Username passed to OpenVPN when prompted for it. If omitted, use the name of the system user that activates the connection.\n"
+@@ -202,2 +198 @@
+-"Användarnamn skickas till OpenVPN när det efterfrågas. Om det utelämnas "
+-"används namnet för systemanvändaren som aktiverar anslutningen.\n"
++"Användarnamnet skickas till OpenVPN när det efterfrågas. Om du inte anger ett användarnamn används namnet på systemanvändaren som aktiverar anslutningen.\n"
+@@ -227 +222 @@
+-"Förutdelad fil för krypteringsläge med statisk nyckel (icke-TLS).\n"
++"Fil med fördelad nyckel för krypteringsläget med statisk nyckel (utan TLS).\n"
+@@ -249,3 +244 @@
+-"If key direction is used, it must be the opposite of that used on the VPN "
+-"peer. For example, if the peer uses “1”, this connection must use “0”. If "
+-"you are unsure what value to use, contact your system administrator.\n"
++"If key direction is used, it must be the opposite of that used on the VPN peer. For example, if the peer uses “1”, this connection must use “0”. If you are unsure what value to use, contact your system administrator.\n"
+@@ -254,5 +247,2 @@
+-"Riktning för krypteringsläge med statisk nyckel (icke-TLS).\n"
+-"Om nyckelriktning används så måste den vara motsatsen till den som används "
+-"på VPN-motparten. Om exempelvis motparten använder ”1” måste denna "
+-"anslutning vara ”0”. Om du är osäker vilket värde du ska använda kan du "
+-"kontakta din systemadministratör.\n"
++"Riktning för krypteringsläget med statisk nyckel (utan TLS).\n"
++"Om en nyckelriktning används måste den vara motsatt den som används av VPN-motparten. Om motparten till exempel använder ”1” måste den här anslutningen använda ”0”. Kontakta systemadministratören om du är osäker på vilket värde du ska använda.\n"
+@@ -297 +287 @@
+-msgstr "Använd anpassad gatewayp_ort"
++msgstr "Använd en anpassad gatewayp_ort"
+@@ -301,2 +291 @@
+-"TCP/UDP port number for peer. (Default value when there is no port for "
+-"gateway).\n"
++"TCP/UDP port number for peer. (Default value when there is no port for gateway).\n"
+@@ -305,2 +294 @@
+-"TCP/UDP-portnummer för motpart. (Standardvärde för när det inte finns en "
+-"port för gateway).\n"
++"TCP/UDP-portnummer för motparten. (Standardvärde när ingen port har angetts för gatewayen.)\n"
+@@ -318 +306 @@
+-"Omförhandla nyckel för datakanal efter angivet antal sekunder.\n"
++"Omförhandla nyckeln för datakanalen efter angivet antal sekunder.\n"
+@@ -323 +311 @@
+-msgstr "Data_komprimering"
++msgstr "_Datakomprimering"
+@@ -348,2 +336 @@
+-"(This is a default setting only used when no protocol is specified for the "
+-"gateway.)\n"
++"(This is a default setting only used when no protocol is specified for the gateway.)\n"
+@@ -352,3 +339,2 @@
+-"Använd TCP för kommunikation med fjärrvärd.\n"
+-"(Standardinställning som endast används när inget protokoll är angivet för "
+-"gateway.)\n"
++"Använd TCP för kommunikation med fjärrvärden.\n"
++"(Används som standard bara när gatewayen saknar angivet protokoll.)\n"
+@@ -363 +349 @@
+-msgstr "Sätt explicit virtuell enhetstyp och namn (TUN/TAP)."
++msgstr "Ange uttryckligen typ och namn på den virtuella enheten (TUN/TAP)."
+@@ -370 +356 @@
+-"Sätt explicit virtuell enhetstyp (TUN/TAP).\n"
++"Ange uttryckligen typ av virtuell enhet (TUN/TAP).\n"
+@@ -379,2 +365 @@
+-"Use custom name for TUN/TAP virtual device (instead of default “tun” or "
+-"“tap”).\n"
++"Use custom name for TUN/TAP virtual device (instead of default “tun” or “tap”).\n"
+@@ -383,2 +368 @@
+-"Använd anpassat namn för virtuell TUN/TAP-enhet (istället för standard ”tun” "
+-"eller ”tap”).\n"
++"Använd ett anpassat namn på den virtuella TUN/TAP-enheten i stället för standardnamnet ”tun” eller ”tap”.\n"
+@@ -389 +373 @@
+-msgstr "Använd anpassad Maximum Transmission Unit (MTU) för _tunneln"
++msgstr "Använd anpassad maximal överföringsenhet (MTU) för _tunneln"
+@@ -393,2 +377 @@
+-"Take the TUN device MTU to be the specified value and derive the link MTU "
+-"from it.\n"
++"Take the TUN device MTU to be the specified value and derive the link MTU from it.\n"
+@@ -397,2 +380 @@
+-"Sätt TUN-enhetens MTU till det specificerade värdet och härled länk-MTU från "
+-"det.\n"
++"Sätt TUN-enhetens MTU till det angivna värdet och härled länkens MTU från det.\n"
+@@ -410 +392 @@
+-"Aktivera intern datagramfragmentering med denna maximala storlek.\n"
++"Aktivera intern datagramfragmentering med den här maximala storleken.\n"
+@@ -415 +397 @@
+-msgstr "Begränsa TCP Maximum _Segment Size (MSS) för tunneln"
++msgstr "Begränsa TCP:s maximala _segmentstorlek (MSS) för tunneln"
+@@ -422 +404 @@
+-"Begränsa tunnel TCP MSS.\n"
++"Begränsa TCP-MSS för tunneln.\n"
+@@ -431,2 +413 @@
+-"Randomize the order of gateways list (remote) as a kind of basic load-"
+-"balancing measure.\n"
++"Randomize the order of gateways list (remote) as a kind of basic load-balancing measure.\n"
+@@ -435,2 +416 @@
+-"Gör sorteringen för listan över (fjärr)gateways slumpmässiga som en typ av "
+-"grundläggande lastbalanseringsåtgärd.\n"
++"Slumpa ordningen på fjärrvärdarna som en enkel form av lastbalansering.\n"
+@@ -441 +421 @@
+-msgstr "_Tillåt dragning av FQDN"
++msgstr "_Tillåt hämtning av FQDN"
+@@ -448 +428 @@
+-"Tillåt klient att dra DNS-namn från server\n"
++"Tillåt klienten att hämta DNS-namn från servern\n"
+@@ -460,2 +440 @@
+-"Lägger till en slumpmässig sträng till fjärr-DNS-namn för att undvika DNS-"
+-"cachning.\n"
++"Lägger till en slumpmässig sträng framför fjärrvärdens DNS-namn för att undvika DNS-cachelagring.\n"
+@@ -473 +452 @@
+-"Bygg en tun-länk kapabel att vidarebefordra IPv6-trafik\n"
++"Skapa en tun-länk som kan vidarebefordra IPv6-trafik\n"
+@@ -478 +457 @@
+-msgstr "Ange pin_g-intervall"
++msgstr "Ange pin_gintervall"
+@@ -482,2 +461 @@
+-"Ping remote over the TCP/UDP control channel if no packets have been sent "
+-"for at least n seconds.\n"
++"Ping remote over the TCP/UDP control channel if no packets have been sent for at least n seconds.\n"
+@@ -486,2 +464 @@
+-"Skicka ping till mottagaren över TCP/UDP-kontrollkanalen om inga paket har "
+-"skickats under minst de senaste n sekunderna.\n"
++"Skicka ping till fjärrmotparten via TCP/UDP-kontrollkanalen om inga paket har skickats på minst n sekunder.\n"
+@@ -492 +469 @@
+-msgstr "Ange _exit eller starta om ping"
++msgstr "Ange _avslut eller omstart vid utebliven ping"
+@@ -497,2 +474 @@
+-"Exit or restart after n seconds pass without reception of a ping or other "
+-"packet from remote.\n"
++"Exit or restart after n seconds pass without reception of a ping or other packet from remote.\n"
+@@ -501,2 +477 @@
+-"Avsluta eller starta om efter att n sekunder passerat utan att ha tagit emot "
+-"en ping eller ett annat paket från fjärr.\n"
++"Avsluta eller starta om efter n sekunder utan att ta emot ping eller andra paket från fjärrmotparten.\n"
+@@ -511,7 +486 @@
+-"Allow remote peer to change its IP address and/or port number, such as due "
+-"to DHCP (this is the default if --remote is not used). --float when "
+-"specified with --remote allows an OpenVPN session to initially connect to a "
+-"peer at a known address, however if packets arrive from a new address and "
+-"pass all authentication tests, the new address will take control of the "
+-"session. This is useful when you are connecting to a peer which holds a "
+-"dynamic address such as a dial-in user or DHCP client.\n"
++"Allow remote peer to change its IP address and/or port number, such as due to DHCP (this is the default if --remote is not used). --float when specified with --remote allows an OpenVPN session to initially connect to a peer at a known address, however if packets arrive from a new address and pass all authentication tests, the new address will take control of the session. This is useful when you are connecting to a peer which holds a dynamic address such as a dial-in user or DHCP client.\n"
+@@ -519,2 +488 @@
+-"Essentially, --float tells OpenVPN to accept authenticated packets from any "
+-"address, not only the address which was specified in the --remote option.\n"
++"Essentially, --float tells OpenVPN to accept authenticated packets from any address, not only the address which was specified in the --remote option.\n"
+@@ -524,7 +492 @@
+-"Tillåt fjärrmotpart att ändra dess IP-adress och/eller portnummer, som till "
+-"exempel beroende på DHCP (standard om inte --remote används). Då --float "
+-"anges med --remote möjliggörs för en OpenVPN-session att initialt ansluta "
+-"till en motpart på en känd adress, men om paket inkommer från en ny adress "
+-"och klarar alla autentiseringstester kommer den nya adressen att ta kontroll "
+-"över sessionen. Detta är användbart när du ansluter till en motpart som "
+-"håller en dynamisk adress såsom en uppringd klient eller DHCP-klient.\n"
++"Tillåt fjärrmotparten att ändra sin IP-adress och/eller port, till exempel vid DHCP (detta är standard om --remote inte används). När --float anges tillsammans med --remote kan en OpenVPN-session först ansluta till en motpart på en känd adress. Om paket sedan kommer från en ny adress och klarar alla autentiseringstester tar den nya adressen över sessionen. Detta är användbart när du ansluter till en motpart med dynamisk adress, till exempel en uppringd användare eller DHCP-klient.\n"
+@@ -532,2 +494 @@
+-"I princip gör --float att OpenVPN accepterar autentiserade paket från alla "
+-"adresser, inte bara den adress som angavs i flaggan --remote.\n"
++"Med --float accepterar OpenVPN autentiserade paket från vilken adress som helst, inte bara från adressen som angetts med --remote.\n"
+@@ -546 +507 @@
+-"Ange högsta antal rutter servern får specificera.\n"
++"Ange hur många rutter servern som mest får skicka.\n"
+@@ -551,2 +512 @@
+-"Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in "
+-"Cipher Block Chaining mode).\n"
++"Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in Cipher Block Chaining mode).\n"
+@@ -555,2 +515 @@
+-"Kryptera paket med chifferalgoritm. Standard är BF-CBC (Blowfish i Cipher "
+-"Block Chaining-läge).\n"
++"Kryptera paket med en chifferalgoritm. Standard är BF-CBC (Blowfish i Cipher Block Chaining-läge).\n"
+@@ -565,2 +524 @@
+-"Set cipher key size to a custom value. If unspecified, it defaults to cipher-"
+-"specific size.\n"
++"Set cipher key size to a custom value. If unspecified, it defaults to cipher-specific size.\n"
+@@ -569,2 +527 @@
+-"Sätt chiffernyckel till ett anpassat värde. Om ospecificerat, är standard "
+-"chifferspecifik storlek\n"
++"Ange en anpassad storlek på chiffernyckeln. Om den inte anges används chifferalgoritmens standardstorlek.\n"
+@@ -575,2 +532 @@
+-"Authenticate packets with HMAC using message digest algorithm. The default "
+-"is SHA1.\n"
++"Authenticate packets with HMAC using message digest algorithm. The default is SHA1.\n"
+@@ -579,2 +535 @@
+-"Autentisera paket med HMAC tillsammans med message digest-algoritm. Standard "
+-"är SHA1.\n"
++"Autentisera paket med HMAC och en hashalgoritm. Standardalgoritmen är SHA1.\n"
+@@ -597,2 +552 @@
+-"Configure a cipher that is used to fall back to if we could not determine "
+-"which cipher the peer is willing to use.\n"
++"Configure a cipher that is used to fall back to if we could not determine which cipher the peer is willing to use.\n"
+@@ -601,2 +555 @@
+-"Konfigurera ett chiffer som används som reserv om vi inte kunde avgöra "
+-"vilket chiffer motparten är redo att använda.\n"
++"Konfigurera ett chiffer som används som reserv om vi inte kunde avgöra vilket chiffer motparten är redo att använda.\n"
+@@ -607,3 +560 @@
+-"Restrict the allowed ciphers to be negotiated to the ciphers in cipher-list. "
+-"cipher-list is a colon-separated list of ciphers like AES-256-GCM:AES-128-"
+-"GCM.\n"
++"Restrict the allowed ciphers to be negotiated to the ciphers in cipher-list. cipher-list is a colon-separated list of ciphers like AES-256-GCM:AES-128-GCM.\n"
+@@ -612,3 +563 @@
+-"Begränsa de tillåtna chiffren att förhandla till chiffren i cipher-list. "
+-"cipher-list är en kolonseparerad lista över chiffer som AES-256-GCM:AES-128-"
+-"GCM.\n"
++"Begränsa vilka chiffer som får förhandlas till dem som anges i chifferlistan. Chifferlistan är kolonseparerad, till exempel AES-256-GCM:AES-128-GCM.\n"
+@@ -643,3 +592,3 @@
+-"Kontrollera motpartscertifikat mot den specificerade filen i PEM-format. En "
+-"CRL (certificate revocation list) används när en specifik nyckel är "
+-"komprometterad men när PKI fortfarande är intakt."
++"Kontrollera motpartscertifikatet mot den angivna filen i PEM-format. En "
++"certifikatspärrlista (CRL) används när en viss nyckel har komprometterats "
++"men resten av PKI:n fortfarande är intakt."
+@@ -657,3 +606,3 @@
+-"Kontrollera motpartscertifikat genom att titta på filer i den angivna "
+-"katalogen. Katalogen måste innehålla filer namngivna som indragna "
+-"serienummer (filerna kan vara tomma, innehållet läses aldrig)."
++"Kontrollera motpartscertifikatet mot filerna i den angivna katalogen. "
++"Katalogen måste innehålla filer med återkallade serienummer som filnamn "
++"(filerna kan vara tomma; innehållet läses aldrig)."
+@@ -671 +620 @@
+-msgstr "Matc_ha följande"
++msgstr "Matchning av certifikatets _subjekt"
+@@ -681 +630 @@
+-"Ämne eller vanligt namn att verifiera servercertifikatsinformationen mot.\n"
++"Certifikatets subjekt eller Common Name (CN) att jämföra servercertifikatet med.\n"
+@@ -683,2 +632,2 @@
+-"konfig: verify-x509-name ämne-eller-namn [läge]\n"
+-"konfig (föråldrat läge): tls-remote ämne-eller-namn"
++"konfig: verify-x509-name subject-or-name [mode]\n"
++"konfig (föråldrat läge): tls-remote subject-or-name"
+@@ -688 +637 @@
+-msgstr "Servercert_ifikatkontroll"
++msgstr "Kontroll av _servercertifikat"
+@@ -695,4 +644,2 @@
+-"When enabled, connection will only succeed if the server certificate matches "
+-"some expected properties.\n"
+-"Matching can either apply to the whole certificate subject (all the "
+-"fields),\n"
++"When enabled, connection will only succeed if the server certificate matches some expected properties.\n"
++"Matching can either apply to the whole certificate subject (all the fields),\n"
+@@ -701,2 +648 @@
+-"The legacy option tls-remote is deprecated and removed from OpenVPN 2.4 and "
+-"newer. Do not use it anymore.\n"
++"The legacy option tls-remote is deprecated and removed from OpenVPN 2.4 and newer. Do not use it anymore.\n"
+@@ -707 +653 @@
+-"Verifiera servercertifikatsinformation.\n"
++"Verifiera servercertifikatet.\n"
+@@ -709,4 +655,3 @@
+-"När aktiverad kommer anslutningen endast att lyckas om servercertifikatet "
+-"matchar några förväntade egenskaper.\n"
+-"Matchning kan antingen tillämpas på hela certifikatet (alla fält),\n"
+-"eller bara vanligt namn (CN-fältet).\n"
++"När alternativet är aktiverat lyckas anslutningen bara om servercertifikatet uppfyller de förväntade egenskaperna.\n"
++"Matchningen kan gälla hela certifikatets subjekt (alla fält)\n"
++"eller bara Common Name (CN-fältet).\n"
+@@ -714,2 +659 @@
+-"Flaggan tls-remote är föråldrat och borttagen från OpenVPN 2.4 och nyare. "
+-"Använd den inte.\n"
++"Det äldre alternativet tls-remote är föråldrat och borttaget i OpenVPN 2.4 och senare. Använd det inte.\n"
+@@ -717,2 +661,2 @@
+-"konfig: verify-x509-name ämne-eller-namn [läge]\n"
+-"konfig (föråldrat läge): tls-remote ämne-eller-namn"
++"konfig: verify-x509-name subject-or-name [mode]\n"
++"konfig (föråldrat läge): tls-remote subject-or-name"
+@@ -722 +666 @@
+-msgstr "_Verifiera certifikatanvändningssignatur för motpart (server)"
++msgstr "Verifiera nyckelanvändningen i servercertifikatet för _motparten"
+@@ -729,2 +673,2 @@
+-"Begär att motpartscertifikatet var signerat med en explicit nyckelanvändning "
+-"och en utökad nyckelanvändning baserad på regler för RFC3280 TLS."
++"Kräv att motpartscertifikatet har uttrycklig nyckelanvändning och utökad "
++"nyckelanvändning enligt RFC 3280:s TLS-regler."
+@@ -734 +678 @@
+-msgstr "Avlägsen _TLS-typ för motpartscertifikat"
++msgstr "Fjärrmotpartens _TLS-certifikattyp"
+@@ -738,2 +682 @@
+-"Require that peer certificate was signed with an explicit key usage and "
+-"extended key usage based on RFC3280 TLS rules.\n"
++"Require that peer certificate was signed with an explicit key usage and extended key usage based on RFC3280 TLS rules.\n"
+@@ -742,2 +685 @@
+-"Begär att motpartscertifikatet var signerat med en explicit nyckelanvändning "
+-"och en utökad nyckel baserade på RFC3280 TLS-regler.\n"
++"Kräv att motpartscertifikatet har en uttrycklig nyckelanvändning och en utökad nyckelanvändning enligt RFC 3280:s TLS-regler.\n"
+@@ -748 +690 @@
+-msgstr "_Verifiera nsCertType-angivning för certifikat för motpart (server)"
++msgstr "Verifiera nsCertType-angivelsen i _motpartens certifikat"
+@@ -754,3 +696 @@
+-msgstr ""
+-"Begär att motpartscertifikatet var signerat med en explicit nsCertType-"
+-"angivning."
++msgstr "Kräv att motpartscertifikatet har en uttrycklig nsCertType-angivelse."
+@@ -760 +700 @@
+-msgstr "nsCert-angivning fö_r avlägset motpartscertifikat"
++msgstr "nsCert-klassificering för _fjärrmotpartens certifikat"
+@@ -764,2 +704 @@
+-"Require that peer certificate was signed with an explicit nsCertType "
+-"designation.\n"
++"Require that peer certificate was signed with an explicit nsCertType designation.\n"
+@@ -768,2 +707 @@
+-"Begär att motpartscertifikatet var signerat med en explicit nsCertType-"
+-"angivning.\n"
++"Kräv en uttrycklig nsCertType-angivelse i motpartscertifikatet.\n"
+@@ -778,3 +716 @@
+-"Add an additional layer of HMAC authentication on top of the TLS control "
+-"channel to protect against DoS attacks. In case of TLS-Crypt mode, the "
+-"control channel is also encrypted.\n"
++"Add an additional layer of HMAC authentication on top of the TLS control channel to protect against DoS attacks. In case of TLS-Crypt mode, the control channel is also encrypted.\n"
+@@ -783,3 +719 @@
+-"Lägg till ett ytterligare lager med HMAC-autentisering ovanpå TLS-"
+-"kontrollkanalen som skydd mot DoS-attacker. Vad gäller TLS-Crypt-läge så "
+-"krypteras också kontrollkanalen.\n"
++"Lägg till ett lager av HMAC-autentisering ovanpå TLS-kontrollkanalen som skydd mot DoS-attacker. I TLS-Crypt-läge krypteras även kontrollkanalen.\n"
+@@ -791,3 +725 @@
+-"If key direction is used, it must be the opposite of that used on the VPN "
+-"peer. For example, if the peer uses “1”, this connection must use “0”. If "
+-"you are unsure what value to use, contact your system administrator.\n"
++"If key direction is used, it must be the opposite of that used on the VPN peer. For example, if the peer uses “1”, this connection must use “0”. If you are unsure what value to use, contact your system administrator.\n"
+@@ -797,4 +729 @@
+-"Om nyckelriktning används så måste den vara motsatsen till den som används "
+-"på VPN-motparten. Om exempelvis motparten använder ”1” måste denna "
+-"anslutning vara ”0”. Om du är osäker vilket värde du ska använda kan du "
+-"kontakta din systemadministratör.\n"
++"Om nyckelriktning används så måste den vara motsatsen till den som används på VPN-motparten. Om exempelvis motparten använder ”1” måste denna anslutning vara ”0”. Om du är osäker vilket värde du ska använda kan du kontakta din systemadministratör.\n"
+@@ -814 +743 @@
+-"Lägg till ett ytterligare lager av kryptering eller HMAC-autentisering."
++"Lägg till ytterligare ett lager av kryptering eller HMAC-autentisering."
+@@ -822,2 +751 @@
+-"Specify a file containing one or more PEM certs (concatenated together) that "
+-"complete the local certificate chain.\n"
++"Specify a file containing one or more PEM certs (concatenated together) that complete the local certificate chain.\n"
+@@ -826,3 +754 @@
+-"Specificera en fil innehållandes en eller flera PEM-certifikat "
+-"(konkatenerade tillsammans) för att färdigställa den lokala "
+-"certifikatskedjan.\n"
++"Ange en fil med ett eller flera sammanfogade PEM-certifikat som kompletterar den lokala certifikatskedjan.\n"
+@@ -888,2 +814,2 @@
+-"Om satt och versionen inte känns igen kommer vi bara acceptera den högsta "
+-"TLS-versionen som stöds av den lokala SSL-implementationen."
++"Om alternativet är aktiverat och versionen inte känns igen accepteras bara "
++"den högsta TLS-version som den lokala SSL-implementationen stöder."
+@@ -900 +826 @@
+-"Proxytyp: HTTP eller Socks.\n"
++"Proxytyp: HTTP eller SOCKS.\n"
+@@ -936 +862 @@
+-"Anslut till fjärrvärd genom en proxy med denna port.\n"
++"Anslut till fjärrvärden via en proxy med den här porten.\n"
+@@ -948,2 +874 @@
+-"Prova igen oändligt antal gånger vid proxyfel. Det simulerar en SIGUSR1-"
+-"återställning.\n"
++"Försök igen utan tidsgräns när proxyfel uppstår. Det simulerar en SIGUSR1-återställning.\n"
+@@ -963 +888 @@
+-"Användarnamn för HTTP/Socks-proxy skickas till OpenVPN när det efterfrågas."
++"Användarnamn för HTTP/SOCKS-proxyn skickas till OpenVPN när det efterfrågas."
+@@ -968 +893 @@
+-"Lösenord för HTTP/Socks-proxy skickas till OpenVPN när det efterfrågas."
++"Lösenord för HTTP/SOCKS-proxyn skickas till OpenVPN när det efterfrågas."
+@@ -980 +905 @@
+-msgstr "Path mtu _discovery"
++msgstr "Sökvägs-MTU-u_pptäckt"
+@@ -984 +909 @@
+-msgstr "Anslutnings_tidsgräns överskriden"
++msgstr "Anslutnings_tidsgräns"
+@@ -988,2 +913 @@
+-"The timeout in seconds before trying the next server. This timeout includes "
+-"proxy and TCP connect timeouts.\n"
++"The timeout in seconds before trying the next server. This timeout includes proxy and TCP connect timeouts.\n"
+@@ -992,2 +916 @@
+-"Tidsgräns i sekunder innan nästa server prövas. Denna tidsgräns inkluderar "
+-"tidsgränserna för proxy och TCP-anslutning.\n"
++"Tidsgräns i sekunder innan nästa server prövas. Denna tidsgräns inkluderar tidsgränserna för proxy och TCP-anslutning.\n"
+@@ -1009 +932 @@
+-"Sänd ytterligare information om klienten till servern.\n"
++"Skicka ytterligare information om klienten till servern.\n"
+@@ -1139,2 +1062 @@
+-#~ msgstr ""
+-#~ "användarnamn/lösenord från HTTP-proxy auth-fil måste vara UTF-8-kodat"
++#~ msgstr "användarnamn/lösenord från HTTP-proxy auth-fil måste vara UTF-8-kodat"
+@@ -1216,2 +1138,2 @@
+-#~ "The file to import wasn’t a valid OpenVPN configuration (--pkcs12 can not "
+-#~ "be used with --cert or --key)"
++#~ "The file to import wasn’t a valid OpenVPN configuration (--pkcs12 can not be"
++#~ " used with --cert or --key)"
+@@ -1226,2 +1148,5 @@
+-#~ "Importfilen var inte en giltig OpenVPN-konfiguration (--ca kan inte vara "
+-#~ "i PKCS#12-format)"
++#~ "Importfilen var inte en giltig OpenVPN-konfiguration (--ca kan inte vara i "
++#~ "PKCS#12-format)"
++
++#~ msgid "The file to import wasn’t a valid OpenVPN configuration (missing --ca)"
++#~ msgstr "Importfilen var inte en giltig OpenVPN-konfiguration (saknar --ca)"
+@@ -1230,2 +1155,5 @@
+-#~ "The file to import wasn’t a valid OpenVPN configuration (missing --ca)"
+-#~ msgstr "Importfilen var inte en giltig OpenVPN-konfiguration (saknar --ca)"
++#~ "The file to import wasn’t a valid OpenVPN configuration (if you use one of "
++#~ "--cert or --key, you must use them both)"
++#~ msgstr ""
++#~ "Importfilen var inte en giltig OpenVPN-konfiguration (om du använder en av "
++#~ "--cert eller --key så måste du använda båda av dem)"
+@@ -1234,12 +1162,5 @@
+-#~ "The file to import wasn’t a valid OpenVPN configuration (if you use one "
+-#~ "of --cert or --key, you must use them both)"
+-#~ msgstr ""
+-#~ "Importfilen var inte en giltig OpenVPN-konfiguration (om du använder en "
+-#~ "av --cert eller --key så måste du använda båda av dem)"
+-
+-#~ msgid ""
+-#~ "The file to import wasn’t a valid OpenVPN configuration (--cert can not "
+-#~ "be PKCS#12 format.)"
+-#~ msgstr ""
+-#~ "Importfilen var inte en giltig OpenVPN-konfiguration (--cert kan inte "
+-#~ "vara i PKCS#12-format.)"
++#~ "The file to import wasn’t a valid OpenVPN configuration (--cert can not be "
++#~ "PKCS#12 format.)"
++#~ msgstr ""
++#~ "Importfilen var inte en giltig OpenVPN-konfiguration (--cert kan inte vara i"
++#~ " PKCS#12-format.)"
+@@ -1251,2 +1172,2 @@
+-#~ "Importfilen var inte en giltig OpenVPN-konfiguration (--key kan inte vara "
+-#~ "i PKCS#12-format.)"
++#~ "Importfilen var inte en giltig OpenVPN-konfiguration (--key kan inte vara i "
++#~ "PKCS#12-format.)"
+@@ -1360,5 +1281,4 @@
+-#~ msgid ""
+-#~ "construct property \"%s\" for object '%s' can't be set after construction"
+-#~ msgstr ""
+-#~ "konstruktionsegenskap ”%s” för objektet ”%s” kan inte ställas in efter "
+-#~ "att det skapats"
++#~ msgid "construct property \"%s\" for object '%s' can't be set after construction"
++#~ msgstr ""
++#~ "konstruktionsegenskap ”%s” för objektet ”%s” kan inte ställas in efter att "
++#~ "det skapats"
+@@ -1382,2 +1302,2 @@
+-#~ "värdet ”%s” av typ ”%s” är ogiltigt eller utanför intervallet för "
+-#~ "egenskapen ”%s” av typ ”%s”"
++#~ "värdet ”%s” av typ ”%s” är ogiltigt eller utanför intervallet för egenskapen"
++#~ " ”%s” av typ ”%s”"
+@@ -1468,2 +1388,2 @@
+-#~ "Kunde inte behandla begäran eftersom inställningar i VPN-konfigurationen "
+-#~ "var ogiltiga."
++#~ "Kunde inte behandla begäran eftersom inställningar i VPN-konfigurationen var"
++#~ " ogiltiga."
+@@ -1532,2 +1452 @@
+-#~ "A CRL directory can only be specified for connections available to all "
+-#~ "users"
++#~ "A CRL directory can only be specified for connections available to all users"
+@@ -1563,2 +1482 @@
+-#~ "nm-openvpn-service provides integrated OpenVPN capability to "
+-#~ "NetworkManager."
++#~ "nm-openvpn-service provides integrated OpenVPN capability to NetworkManager."
+@@ -1636,2 +1554 @@
+-#~ "Local peer’s signed certificate in .pem format (signed by CA of CA "
+-#~ "Certificate).\n"
++#~ "Local peer’s signed certificate in .pem format (signed by CA of CA Certificate).\n"
+@@ -1640,2 +1557 @@
+-#~ "Lokal peers signerade certifikat i .pem-format (signerat av CA från CA-"
+-#~ "certifikat).\n"
++#~ "Lokal peers signerade certifikat i .pem-format (signerat av CA från CA-certifikat).\n"
+@@ -1666,2 +1582 @@
+-#~ "<i>Anslut endast till servrar vars certifikat matchar angiven "
+-#~ "information.\n"
++#~ "<i>Anslut endast till servrar vars certifikat matchar angiven information.\n"
+@@ -1671,2 +1586 @@
+-#~ "Accept connections only from a host with X509 name or common name equal "
+-#~ "to the specified one.\n"
++#~ "Accept connections only from a host with X509 name or common name equal to the specified one.\n"
+@@ -1675,2 +1589 @@
+-#~ "Acceptera endast anslutningar från en värd med X509-namn eller vanligt "
+-#~ "namn som är lika med det angivna.\n"
++#~ "Acceptera endast anslutningar från en värd med X509-namn eller vanligt namn som är lika med det angivna.\n"
