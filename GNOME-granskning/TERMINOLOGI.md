@@ -120,6 +120,11 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | Blending Options | Blandningsalternativ | GIMP-lager-/filterinställning; översätt inte *blending* med *toning*. |
 | chroma range | krominansomfång | GIMP-färgförbättring; skilj från nyans och ljushet. |
 | HSV (GIMP UI) | NMI | GIMP:s etablerade svenska beteckning för nyans, mättnad och intensitet; behåll HSV i teknisk förklaring/kod där identifieraren avses. |
+| blending options | blandningsalternativ | GIMP:s lager- och filterblandning; inte *toningsalternativ*. |
+| hot spot (image map) | aktivt område | Klickbart område i en bildkarta. |
+| semi-transparency | halvgenomskinlighet | När ett bildformat simulerar genomskinlighet utan alfakanal. |
+| edge-detect filter | kantdetekteringsfilter | Filterkategori. |
+| generic filter | allmänt filter | Använd inte *generiskt filter* i användartext. |
 | opacity | opacitet | Använd *ogenomskinlighet* i förklarande löptext vid behov. |
 | feather (selection) | mjuka upp kanter | Åtgärd på en markering; substantivet är *kantutjämning* endast när kontexten avser utjämning. |
 | floating selection | flytande markering | GIMP:s särskilda lager-/markeringsläge. |

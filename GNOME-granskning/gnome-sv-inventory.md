@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-25 20:16 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-25 20:20 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -310,7 +310,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters~edge-detect/sv/) | master | 121 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~edit/sv/) | master | 274 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters~enhance/sv/) | master | 218 | 0 | 0 | Klar |  | — | Ej granskad |
-| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters/sv/) | master | 70 | 0 | 0 | Klar |  | — | Ej granskad |
+| Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters/sv/) | master | 70 | 0 | 0 | Klar | X | 30 | Klar lokalt (2026-11-25): 70 av 70 aktiva strängar granskade mot senaste POT; 0 fuzzy, 0 oöversatta. 30 befintliga översättningar rättade. msgfmt, msgcmp och markupkontroll godkända; l10n-lint 0 fel. Ingen GNOME-inskickning har gjorts. [original](gimp-help/master/filters/gimp-help.master.filters.sv.original.po), [granskad](gimp-help/master/filters/gimp-help.master.filters.sv.reviewed.po), [diff](gimp-help/master/filters/gimp-help.master.filters.review.diff), [notering](gimp-help/master/filters/README.md) |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~filters/sv/) | master | 118 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/filters~generic/sv/) | master | 303 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gimp-help — GIMP User Manual](https://l10n.gnome.org/vertimus/gimp-help/master/menus~help/sv/) | master | 112 | 0 | 0 | Klar |  | — | Ej granskad |
