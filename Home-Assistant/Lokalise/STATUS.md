@@ -368,3 +368,12 @@
 - 15 referensalias kontrollerades live; alla matchar. Platshållare bevarade. `svlang` skrivregler utan fel; naturlighet per korrigerad rad utan flaggor; Hunspell kvarvarande flaggor är namn, API-/kodord och platshållare.
 - Anthropic hoppades inte över: 9 äldre `thinking_effort`-poster kartlades till aktuell `effort`-struktur; 11 nuvarande effort-nycklar API-kontrollerades live och var redan granskade. OpenAI `short`-nyckeln kartlades till `concise` och kontrollerades live.
 - HA-TMX validerad: 18 141 poster. 203 Core-nycklar saknas fortfarande i Lokalise (API-import blockerad av HTTP 403).
+
+
+## 2026-11-25 – Core 27091–27210
+
+- 120 positioner kontrollerade; 97 aktuella strängar radgranskade. 23 mål korrigerades eller synkades via delade referensmål; 74 befintliga mål verifierades. 23 äldre sökvägar dokumenterades och lämnades oförändrade/utanför TM.
+- 53 referensalias kontrollerades live; samtliga stämmer efter uppdatering, varav 10 synkades automatiskt från korrigerade delade mål. Platshållare matchar.
+- `svlang skrivregler` utan fel och naturlighetskontrollen utan radflaggor. Hunspell-sv saknade den etablerade sammansättningen `nedladdningskö`; den och böjningar lades till i båda ordlistorna/regressionerna. Hunspell-sv:s 19 tester passerar.
+- HA-TMX uppdaterad och validerad: 18 236 poster.
+- 203 källnycklar saknas fortsatt i Lokalise; API-importen hindras av HTTP 403. Core-granskningen fortsätter.

@@ -850,3 +850,7 @@ Positionerna 26731–26850 har jämförts med Core-revision `86a2eabe7e43f526db5
 ## Fortsatt radgranskning 2026-11-25 – position 26971–27090
 
 108 av 120 Lokalise-poster matchade aktuell Core-källa; 37 mål korrigerades och återlästes, 71 verifierades oförändrade. Tolv äldre sökvägar jämfördes mot aktuell källstruktur och tidigare rapporter; se batchrapporten för fullständig nyckellista och crosswalk. Bland dem kartlades de gamla Anthropic `thinking_effort`-namnen till aktuell `effort`-struktur. Elva nuvarande Anthropic-effort-nycklar kontrollerades live (samtliga redan granskade), och OpenAI `short` har bytts mot `concise` (livevärdet `Kortfattad`). Femton referensalias matchar efter synk. TMX uppdaterad och validerad till 18 141 poster. Rapport: `../2026-11-19-granskning/granskning-26971-27090.md`.
+
+## Fortsatt radgranskning 2026-11-25 – position 27091–27210
+
+97 av 120 poster matchade aktuell Core-källa; 23 mål korrigerades eller synkades och återlästes, medan 74 befintliga mål verifierades. 23 äldre sökvägar dokumenterades separat; ingen ändrades eller lades till i TM. 53 referensalias kontrollerades live, samtliga matchar efter synk. Hunspell-sv fick den belagda sammansättningen `nedladdningskö` med böjningar och regressionsfall; 19 tester passerar. TMX validerad till 18 236 poster. Rapporten innehåller alla fullständiga nycklar, befintlig text, granskat mål och uppföljningsstatus: `../2026-11-19-granskning/granskning-27091-27210.md`.
