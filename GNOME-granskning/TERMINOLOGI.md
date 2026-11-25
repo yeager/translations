@@ -96,6 +96,40 @@ listan är stöd, inte en ursäkt för mekanisk ersättning.
 | tone reproduction curve | tonåtergivningskurva | |
 | colorimeter | kolorimeter | |
 
+## GIMP och GIMP Help
+
+Använd dessa termer konsekvent i GIMP:s gränssnitt och användarhandbok.
+GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
+översätt inte produktnamn eller namn på algoritmer mekaniskt.
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| selection | markering | Det markerade bildområdet; använd *markera* för åtgärden. |
+| selection tool | markeringsverktyg | Verktyg som skapar eller ändrar en markering. |
+| path | bana | GIMP:s Bézierbanor; använd *sökväg* endast för filsystemssökvägar. |
+| layer | lager | |
+| layer mask | lagermask | |
+| channel | kanal | Bildkanal eller alfakanal enligt sammanhang. |
+| brush | pensel | Verktyg eller penselform. |
+| paintbrush tool | målarpensel | GIMP-verktyget; skilj från penselresursen. |
+| gradient | toning | GIMP:s färgövergång; använd *toningsverktyg* för verktygsnamnet. |
+| gradient map | toningskarta | Filter/funktion som mappar toningar till färger. |
+| bucket (histogram) | intervall | Värdeintervall som samlar färg- eller bildpunktsvärden; översätt inte med *hink* eller *färgbucket*. |
+| bucket size | intervallstorlek | Storleken på varje värdeintervall i histogram-/färgkubsanalys. |
+| color value range | färgvärdesintervall | Beskrivande term för ett intervall av grupperade kanalvärden. |
+| opacity | opacitet | Använd *ogenomskinlighet* i förklarande löptext vid behov. |
+| feather (selection) | mjuka upp kanter | Åtgärd på en markering; substantivet är *kantutjämning* endast när kontexten avser utjämning. |
+| floating selection | flytande markering | GIMP:s särskilda lager-/markeringsläge. |
+| foreground / background color | förgrundsfärg / bakgrundsfärg | |
+| clone tool | kloningsverktyg | |
+| healing tool | läkningsverktyg | Verktyget som korrigerar bildområden med omgivande bilddata. |
+| dodge / burn | skugga / efterbelys | GIMP:s verktygsnamn; behåll etablerade UI-etiketter. |
+| tone mapping | toningsmappning | HDR-/färgbehandling; skilj från *toningskarta*. |
+| filter | filter | GIMP-menyn och bildbehandlingsfilter. |
+| plug-in | insticksmodul | GIMP:s tillägg som laddas separat. |
+| drawable | rityta | GIMP-objekt som kan målas på, exempelvis lager eller kanal. |
+| marching ants | markeringskontur | Beskrivande term för den animerade streckade kanten runt markeringen. |
+
 ## Föräldrakontroller och användarkonton
 
 | Engelska | Rekommenderad svenska | Anmärkning |
