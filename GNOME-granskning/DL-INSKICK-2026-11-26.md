@@ -1,6 +1,6 @@
 # Damned Lies-inskickningar — 2026-11-26
 
-Fjorton GIMP/GIMP Help-kataloger uppladdades via API; aktivitetsidorna visar kommentaren ”Granskad och klar”. Direkt efter uppladdning visade statistikpanelen samma värden som före uppladdningen, så den lokala granskade filen är verifierad medan statistikuppdateringen väntar på behandling.
+Sexton färdiggranskade kataloger uppladdades via API; aktivitetsidorna visar kommentaren ”Granskad och klar”. De fjorton GIMP/GIMP Help-statistikpanelerna visar fortfarande värdena före uppladdning medan uppdateringarna behandlas; Console och GDM visar 137/0/0 respektive 129/0/0.
 
 | Modul | Gren | Domän | Ändrade PO-poster |
 |---|---|---|---:|
@@ -18,6 +18,8 @@ Fjorton GIMP/GIMP Help-kataloger uppladdades via API; aktivitetsidorna visar kom
 | gimp-help | master | menus~help | 49 |
 | gimp-help | master | menus | 37 |
 | gimp-help | master | filters~noise | 45 |
+| console | gnome-50 | po | 12 |
+| gdm | gnome-50 | po | 10 |
 
 ## Blockerade uppladdningar
 

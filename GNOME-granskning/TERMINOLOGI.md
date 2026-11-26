@@ -101,6 +101,7 @@ listan är stöd, inte en ursäkt för mekanisk ersättning.
 | process specifier | processangivelse | Används om värdet för --process. |
 | account | konto | |
 | password | lösenord | |
+| passkey | lösennyckel | WebAuthn-baserad inloggningsmetod. |
 | network | nätverk | |
 | connection | anslutning | |
 | proxy | proxy | Oböjligt i korta UI-etiketter. |
