@@ -586,3 +586,14 @@ argumentet betyder i just det programmet.
 | bit/s / byte/s | bit/s / byte/s | Bevara enhetssymboler och skillnaden mellan gemen och versal. |
 | loopback interface | loopback-gränssnitt | Etablerad teknisk term. |
 | point-to-point connection | punkt-till-punkt-anslutning | PPP-anslutning. |
+
+
+## phodav
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| Unix socket | Unix-domänsocket | Socket som används för lokal IPC. |
+| realm (DIGEST authentication) | autentiseringsområde | DIGEST-autentiseringsområde. |
+| loopback interface | loopback-gränssnitt | Etablerad teknisk term. |
+| upload limit | uppladdningsgräns | Storleken anges i byte. |
+| metavariables SIZE / CERT / KEY | STORLEK / CERTIFIKAT / PRIVATNYCKEL | Beskrivande argumentnamn översätts; flaggor lämnas oförändrade. |

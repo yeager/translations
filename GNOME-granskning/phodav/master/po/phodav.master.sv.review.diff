@@ -1,27 +1,29 @@
 --- phodav.master.sv.original.po
 +++ phodav.master.sv.reviewed.po
-@@ -9,8 +9,8 @@
+@@ -9,9 +9,9 @@
  "Project-Id-Version: phodav master\n"
  "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/phodav/-/issues/\n"
  "POT-Creation-Date: 2026-10-22 10:25+0000\n"
 -"PO-Revision-Date: 2026-09-17 20:29+0200\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-24 00:00+0100\n"
+-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"PO-Revision-Date: 2026-11-26 13:30+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
- "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"Language-Team: Swedish <gnome@danielnylander.se>\n"
  "Language: sv\n"
  "MIME-Version: 1.0\n"
-@@ -21,21 +21,21 @@
- 
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -22,44 +22,45 @@
  #: bin/chezdav.c:142
  msgid "--tls-cert contains no private key, pass it with --tls-key\n"
--msgstr ""
-+msgstr "--tls-cert innehåller ingen privat nyckel; ange den med --tls-key\n"
+ msgstr ""
++"Ange privatnyckeln med --tls-key: --tls-cert innehåller ingen privat "
++"nyckel\n"
  
  #: bin/chezdav.c:179
  msgid "Print program version"
 -msgstr "Skriv ut version på programmet"
-+msgstr "Skriv ut programmets version"
++msgstr "Visa programversionen"
  
  #: bin/chezdav.c:180
  msgid "Be verbose"
@@ -30,51 +32,62 @@
  
  #: bin/chezdav.c:181
 -#, fuzzy
-+#
  #| msgid "Port to listen to"
  msgid "Unix socket to listen on"
 -msgstr "Port att lyssna på"
-+msgstr "Unix-socket att lyssna på"
++msgstr "Unix-domänsocket att lyssna på"
  
  #: bin/chezdav.c:182
  msgid "Port to listen to"
-@@ -51,7 +51,7 @@
+-msgstr "Port att lyssna på"
++msgstr "Lyssningsport"
+ 
+ #: bin/chezdav.c:183
+ msgid "Listen on loopback only"
+-msgstr "Lyssna endast på loopback"
++msgstr "Lyssna endast på loopback-gränssnittet"
+ 
+ #: bin/chezdav.c:184
+ msgid "Listen on all interfaces"
+-msgstr "Lyssna på alla gränssnitt"
++msgstr "Lyssna på alla nätverksgränssnitt"
  
  #: bin/chezdav.c:185
  msgid "Path to export"
 -msgstr "Sökväg att exportera"
-+msgstr "Sökväg som ska exporteras"
++msgstr "Sökväg för export"
  
  #: bin/chezdav.c:186
  msgid "Path to htdigest file"
-@@ -59,7 +59,7 @@
+-msgstr "Sökväg till htdigest-fil"
++msgstr "Sökväg till htdigest-filen"
  
  #: bin/chezdav.c:187
  msgid "DIGEST realm"
 -msgstr "DIGEST-rike"
-+msgstr "DIGEST-domän"
++msgstr "DIGEST-autentiseringsområde"
  
  #: bin/chezdav.c:188
  msgid "Read-only access"
-@@ -67,29 +67,31 @@
+@@ -67,33 +68,35 @@
  
  #: bin/chezdav.c:189
  msgid "Refuse uploads over SIZE bytes (0 for no limit)"
 -msgstr ""
-+msgstr "Avvisa uppladdningar större än SIZE byte (0 för ingen gräns)"
++msgstr "Neka uppladdningar större än STORLEK byte (0 betyder ingen gräns)"
  
  #: bin/chezdav.c:189
  msgid "SIZE"
 -msgstr ""
-+msgstr "SIZE"
++msgstr "STORLEK"
  
  #: bin/chezdav.c:190
  msgid ""
  "Serve HTTPS, with the TLS certificate in CERT (which must include the "
  "private key, unless --tls-key is given)"
  msgstr ""
-+"Använd HTTPS med TLS-certifikatet i CERTIFIKAT (som måste innehålla den privata "
-+"nyckeln om inte --tls-key anges)"
++"Servera HTTPS med TLS-certifikatet i CERTIFIKAT (som måste innehålla den "
++"privata nyckeln, om inte --tls-key anges)"
  
  #: bin/chezdav.c:190
  msgid "CERT"
@@ -89,16 +102,21 @@
  #: bin/chezdav.c:191
  msgid "KEY"
 -msgstr ""
-+msgstr "NYCKEL"
++msgstr "PRIVATNYCKEL"
  
  #: bin/chezdav.c:193
  msgid "Skip mDNS service announcement"
-@@ -107,48 +109,48 @@
+-msgstr "Hoppa över mDNS-tjänstmeddelande"
++msgstr "Hoppa över mDNS-tjänsteannonsering"
+ 
+ #: bin/chezdav.c:205
+ msgid "- simple WebDAV server"
+@@ -107,30 +110,27 @@
  #: bin/chezdav.c:212
  #, c-format
  msgid "Option parsing failed: %s\n"
 -msgstr "Tolkande av flaggor misslyckades: %s\n"
-+msgstr "Tolkning av flaggor misslyckades: %s\n"
++msgstr "Det gick inte att tolka flaggorna: %s\n"
  
  #: bin/chezdav.c:219
  #, c-format
@@ -108,7 +126,6 @@
  
  #: bin/chezdav.c:228
 -#, fuzzy
-+#
  #| msgid "--local and --public are mutually exclusive\n"
  msgid "--socket and --local are mutually exclusive\n"
 -msgstr "--local och --public är ömsesidigt uteslutande\n"
@@ -116,7 +133,6 @@
  
  #: bin/chezdav.c:230
 -#, fuzzy
-+#
  #| msgid "--local and --public are mutually exclusive\n"
  msgid "--socket and --public are mutually exclusive\n"
 -msgstr "--local och --public är ömsesidigt uteslutande\n"
@@ -124,7 +140,6 @@
  
  #: bin/chezdav.c:232
 -#, fuzzy
-+#
  #| msgid "--local and --public are mutually exclusive\n"
  msgid "--socket and --port are mutually exclusive\n"
 -msgstr "--local och --public är ömsesidigt uteslutande\n"
@@ -132,8 +147,7 @@
  
  #: bin/chezdav.c:234
  msgid "--local and --public are mutually exclusive\n"
--msgstr "--local och --public är ömsesidigt uteslutande\n"
-+msgstr "--local och --public kan inte användas samtidigt\n"
+@@ -138,17 +138,17 @@
  
  #: bin/chezdav.c:237
  msgid "--max-upload must not be negative\n"
@@ -151,7 +165,7 @@
  #| msgid "Failed to open htdigest: %s\n"
  msgid "Failed to load the certificate: %s\n"
 -msgstr "Misslyckades med att öppna htdigest: %s\n"
-+msgstr "Kunde inte läsa in certifikatet: %s\n"
++msgstr "Det gick inte att läsa in certifikatet: %s\n"
  
  #: bin/chezdav.c:308
  #, c-format

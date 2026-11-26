@@ -1,15 +1,10 @@
-# phodav — master/po
+# phodav — master — po — svenska
 
-- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/phodav/master/po/sv/>
-- Aktuell POT: 32 aktiva poster. Den hämtade svenska katalogen hade 9 oöversatta och 5 fuzzy-poster; den granskade filen har 0 oöversatta och 0 fuzzy.
-- Granskning: hela katalogen är radgranskad. Flaggnamn, TLS-fel, Unix-socket och ömsesidigt uteslutande alternativ har fått kontextkorrekt svenska; C-formatsträngar är bevarade.
-- Acceleratorer: inga `_ä`, `_å` eller `_ö` förekommer.
-- Validering: `msgfmt --check` och `l10n-lint --language sv` utan anmärkningar. Den granskade katalogen och aktuell POT har samma 32 aktiva nycklar.
-- Hunspell: `DIGEST`, `SIZE`, `TLS`, `WebDAV`, `htdigest`, `mDNS`, `loopback` och CLI-identifierare är avsiktliga tekniska termer.
-- GNOME-inskick: inget.
-
-## Korrigering av kommandoradsmetavariabler (2026-11-24)
-
-- 3 befintliga strängar korrigerade: beskrivande kommandoradsargument översatta till svenska.
-- Validering: `msgfmt --check`; `l10n-lint`-regeln `metavariable-translation` ger inga kvarvarande träffar i de 295 granskade huvudgrenarnas kataloger.
-- Ändringen är lokal och har inte skickats till GNOME.
+- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/phodav/master/po/sv/>.
+- Aktuell PO och senaste POT hämtades 2026-11-26. POT skapad 2026-10-22 10:25 UTC; 32 aktiva poster.
+- GNOME-status före: 18 översatta, 5 fuzzy, 9 oöversatta. Efter: 32 översatta, 0 fuzzy, 0 oöversatta.
+- 9 tidigare tomma strängar översattes och 16 befintliga översättningar rättades; samtliga 5 fuzzy-markeringar granskades och togs bort.
+- Svenska metavariabler användes för översättningsbara värden: `SIZE` → `STORLEK`, `CERT` → `CERTIFIKAT`, `KEY` → `PRIVATNYCKEL`. Kommandoflaggor, printf-platshållarna `%s` och deras radbrytningar bevarades.
+- Validering: `msgfmt --check --check-format --statistics` godkänd (32 översatta); `msgcmp --use-fuzzy` godkänd. Egen printf-kontroll: inga platshållarskillnader. `l10n-lint`: 0 fel och 0 varningar; 2 informationsnotiser (argumentgräns/längd) bedömda som rimliga. `hunspell-sv` kördes; tekniska undantag finns i `hunspell-undantag.md`.
+- Ingen GNOME-inskickning har gjorts.
+- Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-26.
