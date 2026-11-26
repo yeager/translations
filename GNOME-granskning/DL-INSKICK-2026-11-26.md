@@ -5,6 +5,7 @@ Färdiggranskade kataloger som kontrollerats mot aktuell POT och laddats upp via
 | Modul | Gren | Domän | Ändrade PO-poster | API-statistik |
 |---|---|---|---:|---:|
 | ashpd | main | demo-client | 4 | 38/0/0 |
+| blurble | main | po | 1 | 29/0/0 |
 | console | gnome-50 | po | 12 | verifierad |
 | cups-pk-helper | master | po | 19 | 22/0/0 |
 | emblem | master | po | 3 | 39/0/0 |
@@ -51,6 +52,7 @@ Färdiggranskade kataloger som kontrollerats mot aktuell POT och laddats upp via
 | libgedit-gfls | main | po | 3 | 36/0/0 |
 | malcontent | main | help | 39 | 49/0/0 |
 | network-manager-iodine | master | po | 5 | 25/0/0 |
+| NetworkManager-fortisslvpn | main | po | 4 | 33/0/0 |
 | phosh-tour | main | po | 13 | 48/0/0 |
 | raider | main | po | 4 | 38/0/0 |
 | solanum | main | po | 2 | 44/0/0 |
@@ -61,35 +63,17 @@ Färdiggranskade kataloger som kontrollerats mot aktuell POT och laddats upp via
 | telegnome | master | help | 12 | 31/0/0 |
 | Warp Hjälp | main | help | 28 | 55/0/0 |
 
-## Kvarvarande blockerare
+## Aktuella hinder
 
-- `gtk-vnc/master/po` (2 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
-- `xdg-user-dirs-gtk/master/po` (3 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
-- `avahi/master/po` (3 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
-- `oo7/main/oo7-server` (7 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
-- `sushi/main/po` (6 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
-- `blurble/main/po` (1 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
-- `phodav/master/po` (25 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
-- `networkmanager-fortisslvpn/main/po` (4 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
-- `gedit-plugins/gnome-50/help` (18 ändrade poster): HTTP 500:    <!DOCTYPE html> <html lang="" >     <head>         <meta charset="UTF-8">         <meta name="viewport" content="width=device-width, initial-scale=
-- `gcab/master/po` (5 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
-- `xdg-desktop-portal-gtk/main/po` (6 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
-- `metronome/main/po` (10 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
-- `libipuz/main/po` (14 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
-- `libsoup/master/po` (19 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
-- `networkmanager-pptp/main/po` (8 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
-- `social/main/po` (1 ändrade poster): API:t erbjuder inte UploadTranslation ().
-- `help-gnome-org/master/po` (28 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
-- `fretboard/main/po` (3 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
-- `gnome-extensions-app/main/po` (2 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
-- `xdg-desktop-portal/main/po` (5 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
-- `manuals/main/po` (5 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
-- `decibels/main/po` (6 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
-- `networkmanager-vpnc/main/po` (8 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
-- `postr/master/po` (4 ändrade poster): HTTP 429: {"detail":"Request was throttled. Expected available in 390 seconds."}
+- `gedit-plugins/gnome-50/help` (18 ändrade PO-poster): API HTTP 500 (serverfel); behöver återförsök.
+- `postr/master/po` (4 ändrade PO-poster): API HTTP 429; spärrtid okänd sekunder.
+- `gtk-vnc/master/po` (2 ändrade PO-poster): Nu tillgänglig endast åtgärd: WriteAComment.
+- `gimp-help/master/po-windows-installer` (2 ändrade PO-poster): Nu tillgänglig endast åtgärd: WriteAComment.
+- `xdg-user-dirs-gtk/master/po` (3 ändrade PO-poster): Nu tillgänglig endast åtgärd: WriteAComment.
+- `avahi/master/po` (3 ändrade PO-poster): Nu tillgänglig endast åtgärd: WriteAComment.
 
 ## Status
 
-- Inskickade kataloger markerade för 2026-11-26: **56**.
-- Färdiggranskade kataloger som ännu inte har skickats är fortsatt märkta `Klar lokalt`.
-- Senaste 429-svar: **390 sekunders väntetid**. Damned Lies-inventeringen fortsätter efter att API:t tillåter nya anrop.
+- Inskickade och verifierade kataloger 2026-11-26: **58**.
+- 404-felen från tidigare URL-sluggar har rättats med modulernas kanoniska REST API-namn och återförsöken har inletts.
+- Övriga färdiggranskade kataloger står fortsatt som `Klar lokalt` tills uppladdning kan bekräftas.

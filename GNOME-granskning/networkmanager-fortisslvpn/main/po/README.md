@@ -15,3 +15,5 @@ Sammansättningar för SSLVPN har förtydligats, autentiseringsfältet *Realm* �
 `msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` har körts utan fel eller varningar. `l10n-lint` rapporterar enbart två informationsnotiser för avsiktligt ändrade acceleratorer i Avbryt och Verkställ. Platshållarkontrollen hittar inga avvikelser. Hunspell-utdata består endast av tekniska termer och ordfragment från acceleratormarkörer.
 
 Ingen GNOME-inskickning har gjorts.
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 33/0/0.
