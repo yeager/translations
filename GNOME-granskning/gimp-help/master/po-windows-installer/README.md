@@ -6,4 +6,5 @@
 - Alla fem strängar radgranskades. Två befintliga översättningar rättades: ”already present” blev idiomatiskt ”redan är installerat”, och instruktionen för flervalsmarkering använder nu ”Markera alla GIMP-installationer där …”.
 - Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-24.
 - Validering: `msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint --language sv --reference …` godkända utan fel. Platshållarna `%1` och `%2` samt radbrytningar matchar. Hunspell-sv hittade inga okända ord i ändringarna.
-- Ingen GNOME-inskickning har gjorts.
+- Ingen GNOME-inskickning har gjorts. Damned Lies-API:t erbjuder endast `WriteAComment`; uppladdning och reservation saknas.
+- Inskickning blockerad: Damned Lies erbjuder endast `WriteAComment`; uppladdning och reservation saknas.
