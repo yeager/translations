@@ -1,26 +1,104 @@
---- translations/GNOME-granskning/showtime/main/po/showtime.main.sv.original.po	2026-11-23 17:47:38.161336152 +0100
-+++ translations/GNOME-granskning/showtime/main/po/showtime.main.sv.reviewed.po	2026-11-23 17:47:38.168621853 +0100
-@@ -8,8 +8,8 @@
+--- showtime.main.sv.original.po
++++ showtime.main.sv.reviewed.po
+@@ -8,9 +8,9 @@
  "Project-Id-Version: showtime main\n"
  "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/showtime/-/issues\n"
  "POT-Creation-Date: 2026-11-21 12:39+0000\n"
 -"PO-Revision-Date: 2026-07-28 21:41+0200\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-23 00:00+0100\n"
+-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"PO-Revision-Date: 2026-11-26 19:30+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
- "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"Language-Team: Swedish <gnome@danielnylander.se>\n"
  "Language: sv\n"
  "MIME-Version: 1.0\n"
-@@ -127,7 +127,7 @@
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -44,13 +44,13 @@
+ "Play your favorite movies and video files without hassle. Video Player "
+ "features simple playback controls that fade out of your way when you're "
+ "watching, fullscreen, adjustable playback speed, multiple language and "
+-"subtitle tracks, and screenshots — everything you need for a straightforward "
+-"viewing experience."
++"subtitle tracks, and screenshots — everything you need for a straightforward"
++" viewing experience."
+ msgstr ""
+-"Spela upp dina favoritfilmer och videofiler utan problem. Videospelare har "
+-"enkla uppspelningskontroller som tonar bort medan du tittar, helskärmsläge, "
+-"justerbar uppspelningshastighet, flera språk- och undertextspår, och "
+-"skärmbilder — allt du behöver för okomplicerad visning."
++"Spela upp dina favoritfilmer och videofiler utan krångel. Videospelaren har "
++"enkla uppspelningskontroller som tonas bort när du tittar, helskärmsläge, "
++"justerbar uppspelningshastighet, flera språk- och undertextspår samt "
++"skärmbilder – allt du behöver för en enkel och smidig tittarupplevelse."
  
- #: showtime/widgets/window.py:879
- msgid "No plugin available for this media type"
--msgstr "Ingen insticksmodul tillgänglig för denna mediatyp"
-+msgstr "Ingen insticksmodul är tillgänglig för denna mediatyp"
+ #: data/org.gnome.Showtime.metainfo.xml.in:18
+ msgid "The GNOME Project"
+@@ -58,15 +58,15 @@
  
- #: showtime/widgets/window.py:887
- msgid "Unable to install the required plugin"
-@@ -277,16 +277,14 @@
+ #: data/org.gnome.Showtime.metainfo.xml.in:37
+ msgid "The app playing a video"
+-msgstr "Programmet som spelar upp ett videoklipp"
++msgstr "Programmet som spelar upp videon"
+ 
+ #: data/org.gnome.Showtime.gschema.xml.in:12
+ msgid "What to show in the end timestamp position"
+-msgstr "Vad som ska visas på sluttidsstämpelns position"
++msgstr "Vad som ska visas vid videons sluttid"
+ 
+ #: data/org.gnome.Showtime.gschema.xml.in:13
+ msgid "E.g. total duration of the video or the amount of time remaining"
+-msgstr "T.ex. total längd på videoklippet eller tiden som återstår"
++msgstr "Till exempel videoklippets totala längd eller återstående speltid"
+ 
+ #: showtime/main.py:88
+ msgid "Playing a video"
+@@ -82,8 +82,8 @@
+ #, python-brace-format
+ msgid "Undetermined, {} Channel"
+ msgid_plural "Undetermined, {} Channels"
+-msgstr[0] "Ej identifierat, {} kanal"
+-msgstr[1] "Ej identifierat, {} kanaler"
++msgstr[0] "Obestämd kanallayout, {} kanal"
++msgstr[1] "Obestämd kanallayout, {} kanaler"
+ 
+ #: showtime/widgets/options.py:87
+ msgid "Undetermined"
+@@ -140,7 +140,7 @@
+ #: showtime/widgets/window.py:898
+ #, python-brace-format
+ msgid "“{}” codecs are required to play this video"
+-msgstr "”{}”-kodekar krävs för att spela upp denna video"
++msgstr "Kodekarna ”{}” krävs för att spela upp videon"
+ 
+ #: showtime/widgets/window.py:901
+ msgid "Install Plugin"
+@@ -150,13 +150,14 @@
+ #, python-brace-format
+ msgid "The “{}” codecs required to play this video could not be found"
+ msgstr ""
+-"”{}”-kodekarna som krävs för att spela upp denna video kunde inte hittas"
++"Det gick inte att hitta kodekarna ”{}” som krävs för att spela upp videon"
+ 
+ #: showtime/widgets/window.py:917
+ msgid "Try Anyway"
+ msgstr "Försök ändå"
+ 
+-#. Translators: Replace this with your name for it to show up in the about dialog
++#. Translators: Replace this with your name for it to show up in the about
++#. dialog
+ #: showtime/widgets/window.py:1131
+ msgid "translator-credits"
+ msgstr ""
+@@ -246,7 +247,7 @@
+ 
+ #: showtime/gtk/shortcuts-dialog.blp:58 showtime/gtk/sound-options.blp:24
+ msgid "Mute/Unmute"
+-msgstr "Tysta/aktivera ljud"
++msgstr "Ljud av/på"
+ 
+ #: showtime/gtk/shortcuts-dialog.blp:64
+ msgid "View"
+@@ -277,20 +278,18 @@
  msgstr "Gå framåt 10 sekunder"
  
  #: showtime/gtk/shortcuts-dialog.blp:96
@@ -28,7 +106,7 @@
  #| msgid "Playback Speed"
  msgid "Decrease Playback Speed"
 -msgstr "Uppspelningshastighet"
-+msgstr "Sänk uppspelningshastigheten"
++msgstr "Minska uppspelningshastigheten"
  
  #: showtime/gtk/shortcuts-dialog.blp:101
 -#, fuzzy
@@ -39,3 +117,26 @@
  
  #: showtime/gtk/sound-options.blp:48
  msgid "Adjust Volume"
+-msgstr "Justera volym"
++msgstr "Justera volymen"
+ 
+ #: showtime/gtk/window.blp:6
+ msgid "_New Window"
+@@ -346,7 +345,7 @@
+ 
+ #: showtime/gtk/window.blp:272
+ msgid "Toggle Duration/Remaining"
+-msgstr "Växla längd/återstående"
++msgstr "Växla mellan total längd och återstående tid"
+ 
+ #: showtime/gtk/window.blp:323
+ msgid "Resume"
+@@ -354,7 +353,7 @@
+ 
+ #: showtime/gtk/window.blp:363
+ msgid "Start Again"
+-msgstr "Börja om"
++msgstr "Börja om från början"
+ 
+ #: showtime/gtk/window.blp:550
+ msgid "Video"

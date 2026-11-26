@@ -703,3 +703,16 @@ argumentet betyder i just det programmet.
 | screencast | skärminspelning | |
 | Code of Conduct | Uppförandekod | |
 | Issue Tracker | felhanterare | Länk till rapportering och uppföljning av fel. |
+
+
+## Showtime — Videospelare
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| Video Player | Videospelare | GNOME-programnamn. |
+| codec | kodek | Svensk fackterm; plural *kodekar*. |
+| playback speed | uppspelningshastighet | |
+| remaining time | återstående tid | Skilj från total videolängd. |
+| audio track | ljudspår | |
+| subtitle track | undertextspår | |
+| screenshot | skärmbild | |
