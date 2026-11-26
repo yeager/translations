@@ -740,3 +740,14 @@ argumentet betyder i just det programmet.
 | mute / unmute (user) | tysta / avtysta | Gäller användarens meddelanden, inte ljud. |
 | public paste service | offentlig delningstjänst | Tjänsten som Polari skickar text eller bilder till. |
 | Identify / username (parameter) | behåll som i källan | IRC-kommandot `Identify` och parametern `username` är tekniska identifierare. |
+
+
+## GNOME Tetravex
+
+| Engelska | Svenska | Anmärkning |
+|---|---|---|
+| piece (game) | spelbit / bit | En spelbit i Tetravex; använd *bit* när sammanhanget är tydligt. |
+| game board | spelplan | Brädet där spelbitarna placeras. |
+| number (on a piece) | tal | Använd *tal* i spelreglerna, inte *nummer*. |
+| high score (time-based game) | rekordtid | Tetravex poängsätts utifrån lösningstiden. |
+| matching edges | lika kanter / kanter med samma tal och färg | Bevara spelets instruktion om både tal och färg där båda nämns. |
