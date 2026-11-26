@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-26 05:19 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-26 05:30 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -293,7 +293,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [genius](https://l10n.gnome.org/vertimus/genius/master/help/sv/) | master | 2465 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [ghex](https://l10n.gnome.org/vertimus/ghex/master/po/sv/) | master | 260 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [ghex](https://l10n.gnome.org/vertimus/ghex/master/help/sv/) | master | 184 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [giara](https://l10n.gnome.org/module/giara/) | master | 89 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [giara](https://l10n.gnome.org/module/giara/) | master | 89 | 0 | 0 | Klar | X | 16 | Klar lokalt (2026-11-26): Alla 89 aktiva katalogposter radgranskade mot tillgänglig POT: 0 oöversatta, 0 fuzzy; pluralformerna är ifyllda. 16 befintliga översättningar rättade, 0 nya. msgfmt och msgcmp godkända; l10n-lint 0 fel/varningar; egna platshållar- och pluralformskontroller passerar. Ingen inskickning till GNOME. [original](giara/master/po/giara.master.sv.original.po), [granskad](giara/master/po/giara.master.sv.reviewed.po), [diff](giara/master/po/giara.master.sv.review.diff), [notering](giara/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [giggle](https://l10n.gnome.org/module/giggle/) | master | 176 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [giggle](https://l10n.gnome.org/module/giggle/) | master | 74 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gimp](https://l10n.gnome.org/vertimus/gimp/master/po-tips/sv/) | master | 26 | 0 | 0 | Klar | X | 2 | Klar lokalt (2026-11-23): Aktuell 26-strängarskatalog: två befintliga fel är rättade, bland annat Ctrl+Tab. msgfmt, msgcmp och l10n-lint är felfria. Inskickad till DL 2026-11-23 med kommentaren ”Granskad och klar”. [original](gimp/master/po-tips/gimp.master.po-tips.sv.original.po), [granskad](gimp/master/po-tips/gimp.master.po-tips.sv.reviewed.po), [diff](gimp/master/po-tips/gimp.master.po-tips.sv.review.diff), [notering](gimp/master/po-tips/README.md) |

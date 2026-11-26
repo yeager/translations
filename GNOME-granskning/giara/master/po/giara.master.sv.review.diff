@@ -1,0 +1,161 @@
+--- .work-gnome-current/giara/original.po	2026-11-26 06:21:41.318965556 +0100
++++ .work-gnome-current/giara/reviewed.po	2026-11-26 06:26:05.712733965 +0100
+@@ -9,8 +9,8 @@
+ "Project-Id-Version: giara master\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/giara/issues\n"
+ "POT-Creation-Date: 2023-09-15 01:37+0000\n"
+-"PO-Revision-Date: 2023-03-26 13:59+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-26 06:26+01:00\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -37,9 +37,10 @@
+ 
+ #: data/org.gabmus.giara.appdata.xml.in:16
+ msgid "Browse Reddit from your Linux desktop or smartphone."
+-msgstr "Surfa på Reddit från ditt Linuxskrivbord eller din smartmobil."
++msgstr "Surfa på Reddit från Linux-skrivbordet eller en smarttelefon."
+ 
+-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
++#. Translators: Search terms to find this application. Do NOT translate or
++#. localize the semicolons! The list MUST also end with a semicolon!
+ #: data/org.gabmus.giara.desktop.in:13
+ msgid "reddit;"
+ msgstr "reddit;"
+@@ -58,15 +59,17 @@
+ 
+ #: giara/auth.py:20
+ msgid "Error getting client with refresh token, retrying…"
+-msgstr "Fel vid erhållande av klient med uppdateringstoken, försöker igen…"
++msgstr "Kunde inte skapa klienten med uppdateringstoken. Försöker igen…"
+ 
+ #: giara/auth.py:30
+ msgid "Error authorizing Reddit client, retrying…"
+-msgstr "Fel vid autentisering av Reddit-klient, försöker igen…"
++msgstr "Det gick inte att autentisera Reddit-klienten. Försöker igen…"
+ 
+ #: giara/auth.py:35
+ msgid "Error authorizing Reddit client after retry, quitting…"
+-msgstr "Fel vid autentisering av Reddit-klient efter omförsök, avslutar…"
++msgstr ""
++"Det gick inte att autentisera Reddit-klienten efter ett nytt försök. "
++"Avslutar…"
+ 
+ #: giara/base_preferences.py:106
+ msgid "Choose a folder"
+@@ -80,11 +83,11 @@
+ 
+ #: giara/common_post_box.py:136
+ msgid "Are you sure you want to delete this item?"
+-msgstr "Är du säker på att du vill ta bort detta objekt?"
++msgstr "Är du säker på att du vill ta bort det här objektet?"
+ 
+ #: giara/common_post_box.py:174
+ msgid "Link copied to clipboard"
+-msgstr "Kopierade länk till urklipp"
++msgstr "Länken kopierades till urklipp"
+ 
+ #: giara/common_post_box.py:312
+ msgid "Comment: "
+@@ -134,13 +137,13 @@
+ #: giara/front_page_headerbar.py:26 giara/preferences_window.py:27
+ #: giara/single_post_stream_headerbar.py:20 giara/subreddit_view.py:202
+ msgid "Hot"
+-msgstr "Heta"
++msgstr "Hetaste"
+ 
+ #: giara/front_page_headerbar.py:30 giara/inbox_view.py:71
+ #: giara/preferences_window.py:27 giara/single_post_stream_headerbar.py:24
+ #: giara/subreddit_view.py:206
+ msgid "New"
+-msgstr "Nya"
++msgstr "Senaste"
+ 
+ #: giara/front_page_headerbar.py:34 giara/preferences_window.py:27
+ #: giara/single_post_stream_headerbar.py:28 giara/subreddit_view.py:210
+@@ -150,12 +153,12 @@
+ #: giara/front_page_headerbar.py:38 giara/preferences_window.py:28
+ #: giara/single_post_stream_headerbar.py:32 giara/subreddit_view.py:214
+ msgid "Rising"
+-msgstr "Stigande"
++msgstr "På uppgång"
+ 
+ #: giara/front_page_headerbar.py:42 giara/preferences_window.py:28
+ #: giara/single_post_stream_headerbar.py:36 giara/subreddit_view.py:218
+ msgid "Controversial"
+-msgstr "Kontroversiella"
++msgstr "Mest kontroversiella"
+ 
+ #: giara/front_page_headerbar.py:72
+ #, python-brace-format
+@@ -213,7 +216,7 @@
+ 
+ #: giara/__main__.py:112
+ msgid "Do you want to log out? This will close the application."
+-msgstr "Vill du logga ut? Detta kommer stänga programmet."
++msgstr "Vill du logga ut? Då stängs programmet."
+ 
+ #: giara/markdown_view.py:43
+ msgid "Image: "
+@@ -233,7 +236,7 @@
+ 
+ #: giara/new_post_window.py:90
+ msgid "Choose an image or video to upload"
+-msgstr "Välj en bild eller video att skicka"
++msgstr "Välj en bild eller video att ladda upp"
+ 
+ #: giara/new_post_window.py:113
+ msgid "Remove"
+@@ -245,7 +248,7 @@
+ 
+ #: giara/new_post_window.py:369
+ msgid "Select a flair…"
+-msgstr "Välj en stil…"
++msgstr "Välj en etikett…"
+ 
+ #: giara/new_post_window.py:434
+ msgid "New comment"
+@@ -321,18 +324,19 @@
+ msgid "Dark mode"
+ msgstr "Mörkt läge"
+ 
+-# Not safe for work. Används ofta på Reddit, för förståelsen i nuläget lättast att låta stå oöversatt.
++# Not safe for work. Används ofta på Reddit, för förståelsen i nuläget lättast
++# att låta stå oöversatt.
+ #: giara/preferences_window.py:64
+ msgid "Blur NSFW images"
+ msgstr "Gör NSFW-märkta bilder suddiga"
+ 
+ #: giara/preferences_window.py:69
+ msgid "Thumbnail preferences"
+-msgstr "Miniatyrbildsinställningar"
++msgstr "Inställningar för miniatyrbilder"
+ 
+ #: giara/preferences_window.py:71
+ msgid "Show thumbnails in post previews"
+-msgstr "Visa miniatyrbilder i förhandsvisning av inlägg"
++msgstr "Visa miniatyrbilder i förhandsvisningen av inlägg"
+ 
+ #: giara/preferences_window.py:76
+ msgid "Max thumbnail height"
+@@ -373,7 +377,7 @@
+ 
+ #: giara/subreddit_view.py:43
+ msgid "This subreddit is already part of this multireddit"
+-msgstr "Denna subreddit är redan en del av denna multireddit"
++msgstr "Den här subredditen ingår redan i den här multiredditen"
+ 
+ #: giara/subreddit_view.py:235
+ msgid "More actions"
+@@ -515,8 +519,7 @@
+ #~ msgstr "Väntar på autentisering…"
+ 
+ #~ msgid ""
+-#~ "The browser has not opened yet? Use the button below to copy the login "
+-#~ "link."
++#~ "The browser has not opened yet? Use the button below to copy the login link."
+ #~ msgstr ""
+ #~ "Har webbläsaren inte öppnats än? Använd knappen nedan för att kopiera "
+ #~ "inloggningslänken."
