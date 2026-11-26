@@ -1,6 +1,6 @@
 # Damned Lies-inskickningar — 2026-11-26
 
-Alla kataloger i tabellen är färdiggranskade, fullständiga mot aktuell POT och inskickade via API med kommentaren ”Granskad och klar”. Aktivitetssidorna och API-statistiken verifierades. API-begäranden är nu pausade efter en rate limit; kvarvarande färdiga kataloger står fortfarande som lokalt klara i inventeringen.
+Färdiggranskade kataloger som kontrollerats mot aktuell POT och laddats upp via API med kommentaren ”Granskad och klar”. Aktivitetssida och slutstatistik verifierades. Uppladdningarna pausas mellan omgångarna när Damned Lies svarar med rate limit.
 
 | Modul | Gren | Domän | Ändrade PO-poster | API-statistik |
 |---|---|---|---:|---:|
@@ -45,6 +45,7 @@ Alla kataloger i tabellen är färdiggranskade, fullständiga mot aktuell POT oc
 | gstreamer | main | plugins-ugly | 1 | 10/0/0 |
 | hieroglyphic — Find LaTeX symbols | main | po | 2 | 28/0/0 |
 | hitori | main | help | 3 | 43/0/0 |
+| hitori | main | po | 2 | 61/0/0 |
 | icon-library | master | po | 1 | 59/0/0 |
 | json-glib | main | po | 4 | 48/0/0 |
 | libgedit-gfls | main | po | 3 | 36/0/0 |
@@ -70,7 +71,7 @@ Alla kataloger i tabellen är färdiggranskade, fullständiga mot aktuell POT oc
 - `blurble/main/po` (1 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
 - `phodav/master/po` (25 ändrade poster): API:t erbjuder inte UploadTranslation.
 - `networkmanager-fortisslvpn/main/po` (4 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
-- `gedit-plugins/gnome-50/help` (18 ändrade poster): HTTP 500:    <!DOCTYPE html> <html lang="" >     <head>         <meta charset="UTF-8">         <meta name="viewport" content="width=device-width, initial-scale=1">         <title>           
+- `gedit-plugins/gnome-50/help` (18 ändrade poster): HTTP 500:    <!DOCTYPE html> <html lang="" >     <head>         <meta charset="UTF-8">         <meta name="viewport" content="width=device-width, initial-scale=
 - `gcab/master/po` (5 ändrade poster): API:t erbjuder inte UploadTranslation.
 - `xdg-desktop-portal-gtk/main/po` (6 ändrade poster): API:t erbjuder inte UploadTranslation.
 - `metronome/main/po` (10 ändrade poster): API:t erbjuder inte UploadTranslation.
@@ -86,8 +87,8 @@ Alla kataloger i tabellen är färdiggranskade, fullständiga mot aktuell POT oc
 - `decibels/main/po` (6 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
 - `networkmanager-vpnc/main/po` (8 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
 
-## Övrigt
+## Status
 
-- Verifierat inskickade den här dagen: **55** kataloger i indexet.
-- Färdiggranskade men ännu inte inskickade kataloger behålls som `Klar lokalt`; de räknas inte som inskickade.
-- API-spärren rapporterade en väntetid på 303 sekunder. Trafiken återupptas med högst en begäran var 15:e sekund.
+- Inskickade kataloger markerade för 2026-11-26: **56**.
+- Övriga färdiggranskade poster står kvar som lokalt klara och listas inte som inskickade.
+- Senaste API-spärren angav 251 sekunders väntetid. Fortsatt inskickning pausad efter att ett återförsök lyckades för `hitori/main/po`.
