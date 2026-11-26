@@ -206,6 +206,10 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | Wavelet Decompose (GIMP filter) | Wavelet-separera | Följ GIMP:s svenska filteretikett. |
 | aliasing effect (GIMP) | aliasfenomen | Bildartefakter som filtret Kantutjämning motverkar. |
 | speckle noise | fläckbrus | Multiplikativt, korrelerat brus. |
+| demosaicing | demosaikering | Återskapande av färgpixlar från rå sensordata. |
+| denoising / noise reduction | brusreducering | Minska brus i en bild; använd samma term för RAW- och vanliga bildfilter. |
+| stroke (Photoshop/contour effect) | kontur | Konturlinje som ritas runt en form eller markering. |
+| composite image | sammansatt bild | Sammanfogad bildrepresentation i filformat som också kan innehålla separata lager. |
 | CIE LCh | CIE LCh | Färgrymdsmodell med ljushet, krominans och nyans; behåll akronymens versaler. |
 | opacity | opacitet | Använd *ogenomskinlighet* i förklarande löptext vid behov. |
 | feather (selection) | mjuka upp kanter | Åtgärd på en markering; substantivet är *kantutjämning* endast när kontexten avser utjämning. |
