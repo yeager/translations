@@ -8,4 +8,4 @@
 - GIMP-termer: markering, bildpunkt, verktygslåda, förgrundsfärg, insticksmodul, utjämnad palett, färgvärdesintervall.
 - Validering: `msgfmt --check --statistics` och `msgcmp` godkända. `l10n-lint`: 0 fel; två informationsvarningar om DocBook-gränstecken. Hunspell granskad; kvarvarande träffar är facktermer och sammansättningen ”kalkylbladsprogram”.
 - Last-Translator: Daniel Nylander <gnome@danielnylander.se>.
-- GNOME-inskick: inget.
+- GNOME-inskick: 2026-11-26 via Damned Lies API; aktivitetsidan visar ”Granskad och klar”. Statistikpanelen behåller tills vidare föregående värden medan uppladdningen behandlas.

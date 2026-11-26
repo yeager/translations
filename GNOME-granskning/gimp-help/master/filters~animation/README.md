@@ -8,4 +8,4 @@
 - Validering: msgfmt --check/statistics och msgcmp godkända; l10n-lint 0 fel och 0 varningar. Boundary-notiser beror på korrekt flyttad `<quote>`-markup; XML-element, länkmål, platshållare och bildreferenser jämfördes separat och stämmer.
 - Hunspell: 88 okända token granskade; giltiga GIMP-termer, bildfilnamn/MD5, formatnamn, XML-element och tekniska namn dokumenterade som undantag.
 - Terminologi: animationsfiltret “Blend” översätts “Blanda”; GIMP:s gradientverktyg fortsätter heta toningsverktyget.
-- GNOME-inskick: inget.
+- GNOME-inskick: 2026-11-26 via Damned Lies API; aktivitetsidan visar ”Granskad och klar”. Statistikpanelen behåller tills vidare föregående värden medan uppladdningen behandlas.

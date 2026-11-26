@@ -9,3 +9,4 @@
 - Validering: `msgfmt --check --statistics` (218 översatta), `msgcmp` mot senaste POT och egna kontroller av platshållare, DocBook-markup, URL:er och bildmetadata utan avvikelser. `l10n-lint`: 0 fel; två informationsnotiser gäller en meningsomkastning runt DocBook-taggen för filtret Damm och repor. `hunspell-sv` kördes på de ändrade strängarna; okända ord/fragment finns i `hunspell-unknown.txt` och består av produktnamn, kommandon, DocBook-markup samt tekniska sammansättningar.
 - Ingen GNOME-inskickning har gjorts.
 - Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-26.
+- GNOME-inskick: 2026-11-26 via Damned Lies API; aktivitetsidan visar ”Granskad och klar”. Statistikpanelen behåller tills vidare föregående värden medan uppladdningen behandlas.

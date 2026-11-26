@@ -301,6 +301,7 @@ argumentet betyder i just det programmet.
 | CERT | CERTIFIKAT | Certifikatfil/-värde enligt sammanhang. |
 | COMMAND | KOMMANDO | |
 | DIR | KATALOG | I teknisk kommandoradssyntax; vanlig UI-text kan använda *mapp*. |
+| DIRNAME | KATALOGNAMN | Översättbart kommandoradsargument för ett katalognamn. |
 | FILE | FIL | |
 | FILES | FILER | |
 | FILENAME | FILNAMN | |

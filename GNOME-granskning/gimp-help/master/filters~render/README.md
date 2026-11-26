@@ -7,4 +7,4 @@
 - Validering: `msgfmt --check --statistics` och `git diff --check` är godkända. `l10n-lint` gav 0 fel; återstående informationsmärkningar och varningar gäller befintliga DocBook-gränser runt citat och platsmarkörer. `hunspell-sv` kördes; återstående träffar är DocBook-markup, länk-ID:n, filnamn, produktnamn och facktermer som IFS, Perlinbrus, Voronoi, Qbist och Sierpinski.
 - Avsiktliga undantag: inga aktiva `@@image:`-poster avviker från källan.
 - Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-23.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
+- GNOME-inskick: 2026-11-26 via Damned Lies API; aktivitetsidan visar ”Granskad och klar”. Statistikpanelen behåller tills vidare föregående värden medan uppladdningen behandlas.

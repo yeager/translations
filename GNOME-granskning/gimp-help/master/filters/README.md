@@ -7,4 +7,4 @@
 - Ändringar: 30 befintliga översättningar rättade. Bland annat *Blandningsalternativ*, *Kantdetekteringsfilter*, *Allmänna filter*, *halvgenomskinlighet* och idiomatiska instruktioner för GEGL-filter och delad förhandsvisning.
 - Validering: `msgfmt --check --statistics`, `msgcmp` och egen markupkontroll godkända. l10n-lint: 0 fel, 0 varningar; en informationsnotering om gränstecken runt citerad exempeltext. Hunspell-träffar gäller GEGL, Tjebysjov, rityta, indatatyp och tekniska sammansättningar.
 - Last-Translator: Daniel Nylander <gnome@danielnylander.se>.
-- GNOME-inskick: inget.
+- GNOME-inskick: 2026-11-26 via Damned Lies API; aktivitetsidan visar ”Granskad och klar”. Statistikpanelen behåller tills vidare föregående värden medan uppladdningen behandlas.

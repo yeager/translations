@@ -9,3 +9,4 @@
 - `hunspell-sv` på de 11 ändrade strängarna markerar `Wilber` (egennamn), GIMP-länkankare och DocBook-taggar samt `-klickar` (gräns efter `<keycap>`); inga nya svenska stavningsfel.
 - Ingen GNOME-inskickning har gjorts.
 - Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-25.
+- GNOME-inskick: 2026-11-26 via Damned Lies API; aktivitetsidan visar ”Granskad och klar”. Statistikpanelen behåller tills vidare föregående värden medan uppladdningen behandlas.

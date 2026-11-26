@@ -7,4 +7,4 @@
 - Ändringar: 37 befintliga översättningar rättade. GIMP-termer enhetliggjorda: *docka/dockor* för paneler, *dockning* för placering, *snabbmeny*, *flikrad* och *enfönsterläge*. Fönstermenyn heter *Färger*.
 - Validering: `msgfmt --check --statistics`, `msgcmp` och egen markupkontroll godkända. l10n-lint: 0 fel; en informationsnotering om gränstecken runt citerad menyrubrik. Hunspell-kandidater är tagg-/bindestrecksfragment, `GIMP:s`, `enfönsterläge`, `rityta` och etablerade UI-termer.
 - Last-Translator: Daniel Nylander <gnome@danielnylander.se>.
-- GNOME-inskick: inget.
+- GNOME-inskick: 2026-11-26 via Damned Lies API; aktivitetsidan visar ”Granskad och klar”. Statistikpanelen behåller tills vidare föregående värden medan uppladdningen behandlas.

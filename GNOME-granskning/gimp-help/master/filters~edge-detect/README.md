@@ -8,4 +8,4 @@
 - Validering: msgfmt --check/statistics, msgcmp och l10n-lint passerar (0 fel, 0 varningar; tre markup-gränsnotiser är avsiktliga). XML-taggar, länkmål, bildreferenser och platshållare matchar källan.
 - Hunspell-undantag: filnamn och MD5:or, GIMP/format-/algoritmnamn (Sobel, Laplace, Roberts, Prewitt, Gradient), XML-taggar och etablerade tekniska termer.
 - Terminologi: menygruppen heter *Leta kanter*; kantdetektering är kategoritermen. Gradient som kantalgoritm skiljs från GIMP:s toning.
-- GNOME-inskick: inget.
+- GNOME-inskick: 2026-11-26 via Damned Lies API; aktivitetsidan visar ”Granskad och klar”. Statistikpanelen behåller tills vidare föregående värden medan uppladdningen behandlas.

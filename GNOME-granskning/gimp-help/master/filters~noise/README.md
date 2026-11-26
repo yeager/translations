@@ -7,4 +7,4 @@
 - Ändringar: 45 befintliga översättningar rättade. GIMP-termerna *Smeta ut*, *Dämpning*, *normalfördelning*, *fläckbrus* och *CIE LCh* har använts konsekvent; formuleringarna om slumpfrö, brusfördelning och bildpunkter har förtydligats.
 - Validering: `msgfmt --check --statistics`, `msgcmp` och egen markupkontroll godkända. l10n-lint: 0 fel; en informationsnotering om DocBook-gränstecken. Hunspell-träffar gäller tekniska namn som NMI, CIE, LCh, CIE:s franska namn och kod-/formatentiteter.
 - Last-Translator: Daniel Nylander <gnome@danielnylander.se>.
-- GNOME-inskick: inget.
+- GNOME-inskick: 2026-11-26 via Damned Lies API; aktivitetsidan visar ”Granskad och klar”. Statistikpanelen behåller tills vidare föregående värden medan uppladdningen behandlas.

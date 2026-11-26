@@ -7,4 +7,4 @@
 - Ändringar: 55 befintliga översättningar rättade. GIMP-termerna *filmremsa*, *djupsammanfogning*, *mappning*, *gråskaletoning* och *kombinationsfilter* används konsekvent. Instruktioner och verktygsbeskrivningar har gjorts idiomatiska.
 - Validering: `msgfmt --check --statistics`, `msgcmp` och egen markupkontroll godkända. l10n-lint: 0 fel; en informationsvarning gäller svensk decimalform 0,056 i ett exempel. Hunspell-sv gav inga träffar i översatt löptext, utöver verktygsnamn som ingår i länktext.
 - Last-Translator: Daniel Nylander <gnome@danielnylander.se>.
-- GNOME-inskick: inget.
+- GNOME-inskick: 2026-11-26 via Damned Lies API; aktivitetsidan visar ”Granskad och klar”. Statistikpanelen behåller tills vidare föregående värden medan uppladdningen behandlas.
