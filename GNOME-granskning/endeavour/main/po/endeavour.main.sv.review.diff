@@ -1,31 +1,58 @@
-diff --git a/.work-gnome-review/endeavour-main-po/original.po b/.work-gnome-review/endeavour-main-po/sv.po
-index 743b0d5..4c63245 100644
---- a/.work-gnome-review/endeavour-main-po/original.po
-+++ b/.work-gnome-review/endeavour-main-po/sv.po
-@@ -11,8 +11,8 @@ msgstr ""
+--- endeavour.main.sv.original.po
++++ endeavour.main.sv.reviewed.po
+@@ -11,8 +11,8 @@
  "Project-Id-Version: Endeavour master\n"
  "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Endeavour/issues\n"
  "POT-Creation-Date: 2026-06-11 00:19+0000\n"
 -"PO-Revision-Date: 2026-07-04 10:30+0200\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-23 22:45+0000\n"
++"PO-Revision-Date: 2026-11-26 00:00+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
  "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
  "Language: sv\n"
  "MIME-Version: 1.0\n"
-@@ -46,9 +46,8 @@ msgid ""
- "Endeavour is a task management application designed for simplicity. Save and "
- "order your todos. Manage multiple todo lists. And more"
+@@ -32,10 +32,11 @@
+ msgid "Manage your tasks"
+ msgstr "Hantera dina uppgifter"
+ 
+-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
++#. Translators: Search terms to find this application. Do NOT translate or
++#. localize the semicolons! The list MUST also end with a semicolon!
+ #: data/org.gnome.Todo.desktop.in.in:12
+ msgid "Tasks;Productivity;Todo;Endeavor;"
+-msgstr "Uppgifter;Produktivitet;Effektivitet;Todo;Endeavor;"
++msgstr "Uppgifter;Produktivitet;Att göra;Endeavour;"
+ 
+ #: src/appdata/org.gnome.Todo.appdata.xml.in.in:10
+ msgid "Jamie Murphy"
+@@ -43,16 +44,15 @@
+ 
+ #: src/appdata/org.gnome.Todo.appdata.xml.in.in:17
+ msgid ""
+-"Endeavour is a task management application designed for simplicity. Save and "
+-"order your todos. Manage multiple todo lists. And more"
++"Endeavour is a task management application designed for simplicity. Save and"
++" order your todos. Manage multiple todo lists. And more"
  msgstr ""
 -"Endeavour är ett uppgiftshanteringsprogram som är designat med enkelhet i "
 -"åtanke. Spara och sortera vad du vill göra. Hantera flera uppgiftslistor med "
 -"mera"
-+"Endeavour är ett uppgiftshanteringsprogram utformat för enkelhet. Spara och "
-+"sortera dina uppgifter. Hantera flera uppgiftslistor med mera"
++"Endeavour är ett enkelt program för att hantera uppgifter. Spara och ordna "
++"det du vill göra, hantera flera uppgiftslistor och mycket mer"
  
  #: src/appdata/org.gnome.Todo.appdata.xml.in.in:35
  msgid "Empty state"
-@@ -64,7 +63,7 @@ msgstr "Fönster maximerat"
+-msgstr "Tomt tillstånd"
++msgstr "Tom vy"
+ 
+ #: src/appdata/org.gnome.Todo.appdata.xml.in.in:39
+ msgid "Task lists"
+@@ -60,11 +60,11 @@
+ 
+ #: data/org.gnome.todo.gschema.xml.in:6
+ msgid "Window maximized"
+-msgstr "Fönster maximerat"
++msgstr "Fönstret är maximerat"
  
  #: data/org.gnome.todo.gschema.xml.in:7
  msgid "Window maximized state"
@@ -34,7 +61,14 @@ index 743b0d5..4c63245 100644
  
  #: data/org.gnome.todo.gschema.xml.in:11
  msgid "Window size"
-@@ -87,11 +86,11 @@ msgstr ""
+@@ -82,16 +82,16 @@
+ msgid ""
+ "Whether it’s the first run of Endeavour (to run the initial setup) or not"
+ msgstr ""
+-"Huruvida det är den första körningen av Endeavour (för att ställa in "
+-"grundinställningarna) eller inte"
++"Anger om detta är första gången Endeavour körs (för att starta den inledande"
++" konfigurationen)"
  
  #: data/org.gnome.todo.gschema.xml.in:21
  msgid "Default provider to add new lists to"
@@ -48,35 +82,247 @@ index 743b0d5..4c63245 100644
  
  #: data/org.gnome.todo.gschema.xml.in:26 src/gui/gtd-panel-task-list.ui:43
  msgid "Show completed tasks"
-@@ -103,11 +102,11 @@ msgstr "Huruvida utförda uppgifter ska visas i uppgiftslistvyer"
+@@ -99,15 +99,15 @@
+ 
+ #: data/org.gnome.todo.gschema.xml.in:27
+ msgid "Whether to show completed tasks in task list views"
+-msgstr "Huruvida utförda uppgifter ska visas i uppgiftslistvyer"
++msgstr "Anger om slutförda uppgifter ska visas i uppgiftslistorna"
  
  #: src/engine/gtd-engine.c:142
  msgid "Error loading GNOME Online Accounts"
 -msgstr "Fel vid inläsning av GNOME Nätkonton"
-+msgstr "Fel vid inläsning av GNOME:s nätkonton"
++msgstr "Det gick inte att läsa in GNOME Nätkonton"
  
  #: src/engine/gtd-provider-eds.c:189
  msgid "Failed to connect to task list"
 -msgstr "Misslyckades med att ansluta till uppgiftslista"
-+msgstr "Kunde inte ansluta till uppgiftslistan"
++msgstr "Det gick inte att ansluta till uppgiftslistan"
  
  #: src/engine/gtd-provider-local.c:50
  msgid "On This Computer"
-@@ -120,7 +119,7 @@ msgstr "Lokal"
+@@ -120,13 +120,14 @@
  #: src/engine/gtd-task-list-eds.c:407 src/engine/gtd-task-list-eds.c:434
  #: src/engine/gtd-task-list-eds.c:458
  msgid "Error fetching tasks from list"
 -msgstr "Fel vid hämtning av uppgifter från lista"
-+msgstr "Fel vid hämtning av uppgifter från listan"
++msgstr "Det gick inte att hämta uppgifter från listan"
  
  #: src/engine/gtd-task-list-eds.c:828 src/gui/gtd-panel-inbox.c:113
  msgid "Inbox"
-@@ -142,7 +141,7 @@ msgstr "Skriv ut versionsinformation"
+ msgstr "Inkorg"
+ 
+-#. FIXME: This is only really useful if Endeavour is ran as a service. Is that desired functionality?
++#. FIXME: This is only really useful if Endeavour is ran as a service. Is that
++#. desired functionality?
+ #: src/gui/gtd-application.c:63
+ msgid "Quit Endeavour"
+ msgstr "Avsluta Endeavour"
+@@ -142,7 +143,7 @@
  #: src/gui/gtd-application.c:82
  #, c-format
  msgid "Copyright © 2015–%d The Endeavour authors"
 -msgstr "Copyright © 2015–%d Endeavour-upphovsmännen"
-+msgstr "Copyright © 2015–%d Endeavours upphovspersoner"
++msgstr "Copyright © 2015–%d Endeavour-utvecklarna"
  
  #: src/gui/gtd-application.c:176
  msgid "translator-credits"
+@@ -161,7 +162,7 @@
+ 
+ #: src/gui/gtd-edit-pane.ui:16
+ msgid "D_ue Date"
+-msgstr "Sl_utdatum"
++msgstr "_Förfallodatum"
+ 
+ #: src/gui/gtd-edit-pane.ui:84
+ msgid "_Notes"
+@@ -202,7 +203,7 @@
+ 
+ #: src/gui/gtd-new-task-list-dialog.blp:33
+ msgid "Connect to an Online Task List"
+-msgstr "Anslut till en uppgiftslista på nätet"
++msgstr "Anslut till en nätbaserad uppgiftslista"
+ 
+ #: src/gui/gtd-new-task-list-dialog.blp:36
+ msgid ""
+@@ -218,7 +219,7 @@
+ 
+ #: src/gui/gtd-new-task-list-dialog.c:69
+ msgid "An error occurred while creating a task list"
+-msgstr "Ett fel uppstod vid skapande av en uppgiftslista"
++msgstr "Ett fel uppstod när uppgiftslistan skapades"
+ 
+ #: src/gui/gtd-new-task-row.c:90
+ #, c-format
+@@ -233,7 +234,7 @@
+ 
+ #: src/gui/gtd-new-task-row.c:139
+ msgid "An error occurred while creating a task"
+-msgstr "Ett fel uppstod vid skapande av en uppgift"
++msgstr "Ett fel uppstod när uppgiften skapades"
+ 
+ #: src/gui/gtd-new-task-row.ui:14
+ msgid "New task…"
+@@ -243,13 +244,12 @@
+ #. * but the singular form is required because some languages do not
+ #. * have plurals, some languages reuse the singular form for numbers
+ #. * like 21, 31, 41, etc.
+-#.
+ #: src/gui/gtd-panel-all-tasks.c:123
+ #, c-format
+ msgid "%d day ago"
+ msgid_plural "%d days ago"
+-msgstr[0] "%d dag sedan"
+-msgstr[1] "%d dagar sedan"
++msgstr[0] "För %d dag sedan"
++msgstr[1] "För %d dagar sedan"
+ 
+ #: src/gui/gtd-panel-all-tasks.c:127 src/gui/gtd-task-row.c:133
+ msgid "Yesterday"
+@@ -280,7 +280,7 @@
+ 
+ #: src/gui/gtd-panel-task-list.c:206
+ msgid "Unarchive"
+-msgstr "Återställ från arkiv"
++msgstr "Ta bort från arkivet"
+ 
+ #: src/gui/gtd-panel-task-list.c:206 src/gui/gtd-panel-task-list.ui:59
+ msgid "Archive"
+@@ -331,7 +331,7 @@
+ 
+ #: src/gui/gtd-sidebar-provider-group.blp:17
+ msgid "Add New List to This Provider"
+-msgstr "Lägg till ny lista till denna leverantör"
++msgstr "Lägg till en ny lista hos den här leverantören"
+ 
+ #: src/gui/gtd-task-list-view.c:476
+ #, c-format
+@@ -340,7 +340,7 @@
+ 
+ #: src/gui/gtd-task-list-view.ui:65
+ msgid "Tasks Will Appear Here"
+-msgstr "Uppgifter kommer att visas här"
++msgstr "Dina uppgifter visas här"
+ 
+ #: src/gui/gtd-task-list-view.ui:74
+ msgid "Add Tasks..."
+@@ -371,8 +371,8 @@
+ "This is a development build of Endeavour. You may experience errors, wrong "
+ "behaviors, and data loss."
+ msgstr ""
+-"Detta är ett utvecklingsbygge av Endeavour. Du kan uppleva fel, felaktigt "
+-"beteende samt dataförlust."
++"Det här är en utvecklingsversion av Endeavour. Du kan stöta på fel, oväntat "
++"beteende och dataförlust."
+ 
+ #: src/gui/gtd-window.c:270
+ msgid "Close"
+@@ -400,14 +400,15 @@
+ #: src/gui/shortcuts-dialog.ui:32 src/gui/shortcuts-dialog.ui:39
+ msgctxt "shortcut window"
+ msgid "Move to the panel/view up"
+-msgstr "Gå till panelen/vyn ovan"
++msgstr "Gå till panelen/vyn ovanför"
+ 
+ #: src/gui/shortcuts-dialog.ui:46 src/gui/shortcuts-dialog.ui:53
+ msgctxt "shortcut window"
+ msgid "Move to the panel/view below"
+-msgstr "Gå till panelen/vyn nedan"
++msgstr "Gå till panelen/vyn nedanför"
+ 
+-# Ändrat ordval eftersom "personliga uppgifter" låter integritetsrelaterat på svenska.
++# Ändrat ordval eftersom "personliga uppgifter" låter integritetsrelaterat på
++# svenska.
+ #~ msgid "Manage your personal tasks"
+ #~ msgstr "Hantera dina uppgifter som ska göras"
+ 
+@@ -557,8 +558,8 @@
+ #~ "Use the light or dark variant of the GTK theme and/or GtkSourceView style "
+ #~ "scheme."
+ #~ msgstr ""
+-#~ "Använd den ljusa eller mörka varianten av GTK-temat och/eller "
+-#~ "GtkSourceViews stilschema."
++#~ "Använd den ljusa eller mörka varianten av GTK-temat och/eller GtkSourceViews"
++#~ " stilschema."
+ 
+ #~ msgid "Get some rest now"
+ #~ msgstr "Du kan vila nu"
+@@ -637,11 +638,10 @@
+ 
+ #, c-format
+ #~ msgid ""
+-#~ "Endeavour doesn’t have the necessary permissions to perform this action: "
+-#~ "%s"
++#~ "Endeavour doesn’t have the necessary permissions to perform this action: %s"
+ #~ msgstr ""
+-#~ "Endeavour har inte de nödvändiga rättigheterna för att utföra denna "
+-#~ "åtgärd: %s"
++#~ "Endeavour har inte de nödvändiga rättigheterna för att utföra denna åtgärd: "
++#~ "%s"
+ 
+ #, c-format
+ #~ msgid ""
+@@ -692,7 +692,8 @@
+ #~ msgstr ""
+ #~ "Fel vid öppnande av filövervakaren. Todo.txt kommer inte att övervakas"
+ 
+-# Vi behandlar Todo.txt som ett namn. https://github.com/ginatrapani/todo.txt-cli/wiki/The-Todo.txt-Format
++# Vi behandlar Todo.txt som ett namn. https://github.com/ginatrapani/todo.txt-
++# cli/wiki/The-Todo.txt-Format
+ #~ msgid "Todo.txt"
+ #~ msgstr "Todo.txt"
+ 
+@@ -833,8 +834,8 @@
+ 
+ #~ msgid "Removing this task will also remove its subtasks. Remove anyway?"
+ #~ msgstr ""
+-#~ "Att ta bort denna uppgift kommer också att ta bort dess underuppgifter. "
+-#~ "Ta bort i alla fall?"
++#~ "Att ta bort denna uppgift kommer också att ta bort dess underuppgifter. Ta "
++#~ "bort i alla fall?"
+ 
+ #~ msgid "Once removed, the tasks cannot be recovered."
+ #~ msgstr "Då de väl tagits bort kan uppgifterna inte återfås."
+@@ -900,11 +901,11 @@
+ #~ msgstr "Ej igenkänt element i Todo.txt-rad"
+ 
+ #~ msgid ""
+-#~ "To Do cannot recognize some tags in your Todo.txt file. Some tasks may "
+-#~ "not be loaded"
++#~ "To Do cannot recognize some tags in your Todo.txt file. Some tasks may not "
++#~ "be loaded"
+ #~ msgstr ""
+-#~ "Uppgifter känner inte igen några taggar i din Todo.txt-fil. Några "
+-#~ "uppgifter kommer kanske inte att läsas in"
++#~ "Uppgifter känner inte igen några taggar i din Todo.txt-fil. Några uppgifter "
++#~ "kommer kanske inte att läsas in"
+ 
+ #~ msgid "No task list found for some tasks"
+ #~ msgstr "Ingen uppgiftslista hittades för några uppgifter"
+@@ -914,8 +915,8 @@
+ #~ "supports tasks with a task list. Please add a list to all your tasks"
+ #~ msgstr ""
+ #~ "Några av uppgifterna i din Todo.txt-fil har ingen uppgiftslista. Detta "
+-#~ "program stöder uppgifter med en uppgiftslista. Lägg till en lista till "
+-#~ "alla dina uppgifter"
++#~ "program stöder uppgifter med en uppgiftslista. Lägg till en lista till alla "
++#~ "dina uppgifter"
+ 
+ #~ msgid "New List…"
+ #~ msgstr "Ny lista…"
+@@ -1024,11 +1025,11 @@
+ #~ msgstr "Prioritet"
+ 
+ #~ msgid ""
+-#~ "The priority of the task. 0 means no priority set, and tasks will be "
+-#~ "sorted alphabetically."
++#~ "The priority of the task. 0 means no priority set, and tasks will be sorted "
++#~ "alphabetically."
+ #~ msgstr ""
+-#~ "Uppgiftens prioritet. 0 betyder att ingen prioritet är satt och "
+-#~ "uppgifterna kommer sorteras i alfabetisk ordning."
++#~ "Uppgiftens prioritet. 0 betyder att ingen prioritet är satt och uppgifterna "
++#~ "kommer sorteras i alfabetisk ordning."
+ 
+ #~ msgid "Title of the task"
+ #~ msgstr "Titel på uppgiften"

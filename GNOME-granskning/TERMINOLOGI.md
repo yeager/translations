@@ -59,6 +59,10 @@ listan är stöd, inte en ursäkt för mekanisk ersättning.
 | selected (contacts) | markerad / markerade | Använd *markera* för åtgärden att välja kontakter i listan. |
 | link contacts | länka kontakter | När samma person finns i flera adressböcker. |
 | online accounts | nätkonton | Namnet på GNOME-funktionen **Nätkonton**. |
+| task | uppgift | Produktivitetsprogram och att-göra-listor. |
+| task list | uppgiftslista | |
+| due date | förfallodatum | Undvik *slutdatum* när det gäller när en uppgift ska vara klar. |
+| provider (task list) | leverantör | Tjänsten som tillhandahåller uppgiftslistan. |
 
 ## System och teknik
 
