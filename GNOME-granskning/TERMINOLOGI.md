@@ -499,3 +499,16 @@ argumentet betyder i just det programmet.
 | undo a move | ångra ett drag | Menyval: *Ångra senaste drag*. |
 | draw (result) | oavgjort | Ett parti utan vinnare. |
 | header bar | rubrikrad | GNOME:s fönsterdel. |
+
+## Baobab — Diskanvändningsanalysator
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| Disk Usage Analyzer | Diskanvändningsanalysator | Svenskt namn på Baobab. |
+| scan (storage) | söka av; avsökning | Använd *söka av* i instruktioner och *avsökning* om processen behöver ett substantiv. |
+| ring chart | ringdiagram | Diagramvy. |
+| treemap chart | trädkartediagram | Rutornas storlek motsvarar mappstorleken. |
+| file browser | filhanterare | Använd *filhanterare*, inte *filbläddrare*. |
+| Home folder | mappen Hem / hemmapp | UI-etiketten är `<file>Hem</file>`; använd *hemmapp* generiskt. |
+| Devices & Locations | Enheter och platser | UI-etikett. |
+| Trash | Papperskorg | UI-etikett för GNOME:s papperskorg. |
