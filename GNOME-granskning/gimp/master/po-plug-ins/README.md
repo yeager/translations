@@ -8,6 +8,7 @@
 - Validering: `msgfmt --check --check-format` och `msgcmp` mot senaste POT godkända. l10n-lint: 0 fel; 4 dokumenterade varningar (två utelämnade kolon i källans felaktiga `e.g.:` och två korrekta identiska svenska pluralformer för *filter*). Kontroll av printf-platshållare, markup, URL:er och acceleratorer godkänd.
 - Hunspell-SV körd på hela katalogen och ändringsmängden. Teknisk ordlista och rimliga undantag dokumenterade i `hunspell-undantag.md`.
 - `Last-Translator`: Daniel Nylander <gnome@danielnylander.se>.
-- Ingen GNOME-inskickning har gjorts.
+- GNOME-inskick: uppladdad till Damned Lies API 2026-11-26 med kommentaren `Granskad och klar`; aktivitetssidan verifierar sammanslagningen 3 723/0/0.
 
 Filerna `*.original.po`, `*.master.pot`, `*.reviewed.po` och `*.review.diff` innehåller aktuell upstream-baslinje, POT, granskad katalog och unified diff.
+- GNOME-inskick: uppladdad till Damned Lies API 2026-11-26 med kommentaren `Granskad och klar`; aktivitetssidan verifierar 3 723/0/0.
