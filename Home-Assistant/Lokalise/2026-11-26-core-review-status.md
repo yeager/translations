@@ -287,3 +287,13 @@ Referensalias i batchen 28411–28530: 18 av 18 verifierade mot live-målen utan
 ## Fortsatt radgranskning 2026-11-26 – position 34817–34936
 
 119 aktiva nycklar och en historisk post granskades. 39 ändringar sparades och återlästes i Lokalise; 80 aktiva mål verifierades utan ändring, varav två hade tidigare rapporter. Alla platshållare stämmer; inga pluralnycklar. Miele-rättningar omfattar tydliga matnamns-/programfel, bland annat kålrabbi för German turnip, vitkål för green cabbage och hachee-köttgryta för Dutch hash. `svlang skrivregler` fann inga fel. TMX validerar med 23626 enheter. Se batchrapport och JSON-underlag. Nästa position: **34 937**.
+
+
+## Fortsatt radgranskning 2026-11-26 – position 34937–35056
+
+119 aktiva nycklar och en historisk källa-saknad post granskades; en aktiv sträng använder ett källalias. 27 ändringar sparades och återlästes; 92 aktiva mål verifierades utan ändring. Aliaset `normal` matchar sitt live-mål. Miele-etiketter för äggens storlek/kokgrad och några tidigare missvisande råvaru-/programnamn rättades. `svlang skrivregler` utan fel. TMX validerar med 23745 enheter. Se batchrapport/JSON. Nästa position: **35 057**.
+
+
+## Retroaktiv korrigering 2026-11-26
+
+Två tidigare Miele-nycklar med `Common sole` korrigerades från ”Rödtunga” till ”Sjötunga”. Båda ändringarna sparades/lästes tillbaka i Lokalise och uppdaterades i HA Core-TM, manifestet för 34817–34936 och dess rapport.
