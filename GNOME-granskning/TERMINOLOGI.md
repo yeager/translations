@@ -472,3 +472,17 @@ argumentet betyder i just det programmet.
 | model digest | kontrollsumma | Modellens innehållshash. |
 | prompt (language model) | instruktion | Använd *instruktion* i användartext och metavariabeln `INSTRUKTION`. |
 | scrollback | rullningshistorik | Terminalens sparade utskrift. |
+
+## GNOME Remote Desktop
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| remote desktop | fjärrskrivbord | Sammansättning i löptext: *fjärrskrivbordsanslutning*. |
+| desktop sharing | skrivbordsdelning | Funktionen att dela skrivbordet med en fjärranvändare. |
+| screenshare mode | skärmdelningsläge | Använd *bildskärm* när den fysiska eller virtuella enheten avses. |
+| daemon | systemtjänst / bakgrundstjänst | Undvik *demon*. I GNOME Remote Desktop används *systemtjänst*. |
+| headless | utan bildskärm | Beskrivande term; undvik den bokstavliga översättningen *huvudlös*. |
+| backend | bakände | RDP- och VNC-bakände. |
+| keytab | nyckeltabell | Kerberos-nyckeltabell. |
+| authentication method | autentiseringsmetod | Namnvärdena `credentials`, `kerberos`, `password` och `prompt` är tekniska värden och lämnas oförändrade. |
+| command metavariable | översätts | Översätt beskrivande platshållare inom vinkelparenteser, exempelvis `<username>` → `<användarnamn>`. Kommandon, flaggor och enumvärden bevaras. |
