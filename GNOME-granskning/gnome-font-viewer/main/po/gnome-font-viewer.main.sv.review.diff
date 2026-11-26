@@ -1,0 +1,299 @@
+--- gnome-font-viewer.main.sv.original.po
++++ gnome-font-viewer.main.sv.reviewed.po
+@@ -11,11 +11,10 @@
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-font-viewer\n"
+-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-font-viewer/"
+-"issues/\n"
++"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-font-viewer/issues/\n"
+ "POT-Creation-Date: 2026-03-22 12:23+0000\n"
+-"PO-Revision-Date: 2026-08-23 13:25+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-26 12:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -25,8 +24,8 @@
+ "X-Generator: Poedit 3.9\n"
+ 
+ #: data/org.gnome.font-viewer.desktop.in.in:2
+-#: data/org.gnome.font-viewer.metainfo.xml.in:6 src/font-view-application.c:124
+-#: src/font-view-application.c:150
++#: data/org.gnome.font-viewer.metainfo.xml.in:6
++#: src/font-view-application.c:124 src/font-view-application.c:150
+ msgid "Fonts"
+ msgstr "Typsnitt"
+ 
+@@ -35,7 +34,8 @@
+ msgid "View fonts on your system"
+ msgstr "Visa typsnitt på ditt system"
+ 
+-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
++#. Translators: Search terms to find this application. Do NOT translate or
++#. localize the semicolons! The list MUST also end with a semicolon!
+ #: data/org.gnome.font-viewer.desktop.in.in:5
+ msgid "fonts;fontface;"
+ msgstr "typsnitt;teckensnitt;"
+@@ -46,19 +46,18 @@
+ "thumbnails. Selecting any thumbnails shows the full view of how the font "
+ "would look under various sizes."
+ msgstr ""
+-"Typsnitt visar dig de för dig tillgängliga installerade typsnitten på din "
+-"dator som miniatyrbilder. Att välja en miniatyrbild visar en full överblick "
+-"över hur typsnittet skulle se ut i olika storlekar."
++"Typsnitt visar installerade typsnitt som miniatyrbilder. Markera en "
++"miniatyrbild för att se hur typsnittet ser ut i olika storlekar."
+ 
+ #: data/org.gnome.font-viewer.metainfo.xml.in:15
+ msgid ""
+ "Fonts also supports installing new font files downloaded in the .ttf and "
+-"other formats. Fonts may be installed only for your use or made available to "
+-"all users on the computer."
++"other formats. Fonts may be installed only for your use or made available to"
++" all users on the computer."
+ msgstr ""
+-"Typsnitt stöder också installation av nya typsnittsfiler hämtade i "
+-"formatet .ttf och andra format. Typsnitt kan installeras endast för dig "
+-"eller göras tillgängliga för alla användare på datorn."
++"Du kan också installera nya typsnittsfiler i .ttf-format och andra format. "
++"Typsnitt kan installeras bara för dig eller göras tillgängliga för alla "
++"användare på datorn."
+ 
+ #. developer_name tag deprecated with Appstream 1.0
+ #: data/org.gnome.font-viewer.metainfo.xml.in:22
+@@ -133,7 +132,6 @@
+ #. * a 'font variation axis'. The %s gets replaced with the name
+ #. * of the axis, for example 'Width'. The three %g get replaced
+ #. * with the minimum, maximum and default values for the axis.
+-#.
+ #: src/font-view-window.c:197
+ #, c-format
+ msgid "%s %g — %g, default %g"
+@@ -193,7 +191,7 @@
+ 
+ #: src/font-view-window.c:446
+ msgid "Glyph Count"
+-msgstr "Glyfantal"
++msgstr "Antal glyfer"
+ 
+ #: src/font-view-window.c:448
+ msgid "Color Glyphs"
+@@ -249,7 +247,7 @@
+ 
+ #: src/font-view-window.ui:241
+ msgid "_Close"
+-msgstr "S_täng"
++msgstr "_Stäng"
+ 
+ #: src/main.c:37
+ msgid "GNOME Fonts"
+@@ -262,7 +260,7 @@
+ #: src/open-type-layout.h:13
+ msgctxt "OpenType layout"
+ msgid "Access All Alternates"
+-msgstr "Gör alla alternativ åtkomliga"
++msgstr "Gör alla alternativa glyfer tillgängliga"
+ 
+ #: src/open-type-layout.h:14
+ msgctxt "OpenType layout"
+@@ -307,7 +305,7 @@
+ #: src/open-type-layout.h:22
+ msgctxt "OpenType layout"
+ msgid "Contextual Alternates"
+-msgstr "Kontextuella ersättare"
++msgstr "Kontextuella glyfvarianter"
+ 
+ #: src/open-type-layout.h:23
+ msgctxt "OpenType layout"
+@@ -347,24 +345,25 @@
+ #: src/open-type-layout.h:30
+ msgctxt "OpenType layout"
+ msgid "Contextual Swash"
+-msgstr "Kontextuellt släng"
++msgstr "Kontextuella sirliga glyfer"
+ 
+ #: src/open-type-layout.h:31
+ msgctxt "OpenType layout"
+ msgid "Cursive Positioning"
+ msgstr "Kursiv positionering"
+ 
+-# Petite caps: Small caps som aldrig är större än höjden på x. Finns typsnitt där "small caps" är högre än så för att x-höjden är låg.
++# Petite caps: Small caps som aldrig är större än höjden på x. Finns typsnitt
++# där "small caps" är högre än så för att x-höjden är låg.
+ # https://en.wikipedia.org/wiki/Small_caps#petite_caps
+ #: src/open-type-layout.h:32
+ msgctxt "OpenType layout"
+ msgid "Petite Capitals From Capitals"
+-msgstr "Nätta kapitäler från versaler"
++msgstr "Petita kapitäler från versaler"
+ 
+ #: src/open-type-layout.h:33
+ msgctxt "OpenType layout"
+ msgid "Small Capitals From Capitals"
+-msgstr "Kapitäler från versaler"
++msgstr "Små kapitäler från versaler"
+ 
+ #: src/open-type-layout.h:34
+ msgctxt "OpenType layout"
+@@ -489,7 +488,7 @@
+ #: src/open-type-layout.h:58
+ msgctxt "OpenType layout"
+ msgid "Final Glyph on Line Alternates"
+-msgstr "Avslutande glyf på rad får alternativ form"
++msgstr "Alternativa glyfer i radslut"
+ 
+ #: src/open-type-layout.h:59
+ msgctxt "OpenType layout"
+@@ -509,7 +508,7 @@
+ #: src/open-type-layout.h:62
+ msgctxt "OpenType layout"
+ msgid "Flattened accent forms"
+-msgstr "Platta accentformer"
++msgstr "Plattade accentformer"
+ 
+ #: src/open-type-layout.h:63
+ msgctxt "OpenType layout"
+@@ -519,7 +518,7 @@
+ #: src/open-type-layout.h:64
+ msgctxt "OpenType layout"
+ msgid "Full Widths"
+-msgstr "Fullständiga bredder"
++msgstr "Fullbreddsformer"
+ 
+ #: src/open-type-layout.h:65
+ msgctxt "OpenType layout"
+@@ -564,12 +563,12 @@
+ #: src/open-type-layout.h:73
+ msgctxt "OpenType layout"
+ msgid "Half Widths"
+-msgstr "Halvbreda"
++msgstr "Halvbreddsformer"
+ 
+ #: src/open-type-layout.h:74
+ msgctxt "OpenType layout"
+ msgid "Initial Forms"
+-msgstr "Grundformer"
++msgstr "Inledande former"
+ 
+ #: src/open-type-layout.h:75
+ msgctxt "OpenType layout"
+@@ -629,7 +628,7 @@
+ #: src/open-type-layout.h:86
+ msgctxt "OpenType layout"
+ msgid "Lining Figures"
+-msgstr "Versala siffror"
++msgstr "Versalhöga siffror"
+ 
+ #: src/open-type-layout.h:87
+ msgctxt "OpenType layout"
+@@ -639,14 +638,16 @@
+ #: src/open-type-layout.h:88
+ msgctxt "OpenType layout"
+ msgid "Left-to-right alternates"
+-msgstr "Vänster-till-höger-alternativ"
++msgstr "Vänster-till-höger-varianter"
+ 
+ #: src/open-type-layout.h:89
+ msgctxt "OpenType layout"
+ msgid "Left-to-right mirrored forms"
+ msgstr "Vänster-till-höger-speglade former"
+ 
+-# sebras: What is referred to here is "Mark positioning as explained here: https://glyphsapp.com/tutorials/mark-to-mark-positioning which leads to https://sv.wikipedia.org/wiki/Diakritiskt_tecken
++# sebras: What is referred to here is "Mark positioning as explained here:
++# https://glyphsapp.com/tutorials/mark-to-mark-positioning which leads to
++# https://sv.wikipedia.org/wiki/Diakritiskt_tecken
+ #: src/open-type-layout.h:90
+ msgctxt "OpenType layout"
+ msgid "Mark Positioning"
+@@ -680,7 +681,7 @@
+ #: src/open-type-layout.h:96
+ msgctxt "OpenType layout"
+ msgid "Alternate Annotation Forms"
+-msgstr "Alternativa noteringsformer"
++msgstr "Alternativa annoteringsformer"
+ 
+ #: src/open-type-layout.h:97
+ msgctxt "OpenType layout"
+@@ -726,7 +727,7 @@
+ #: src/open-type-layout.h:105
+ msgctxt "OpenType layout"
+ msgid "Petite Capitals"
+-msgstr "Nätta kapitäler"
++msgstr "Petita kapitäler"
+ 
+ #: src/open-type-layout.h:106
+ msgctxt "OpenType layout"
+@@ -771,12 +772,12 @@
+ #: src/open-type-layout.h:114
+ msgctxt "OpenType layout"
+ msgid "Randomize"
+-msgstr "Gör slumpmässig"
++msgstr "Slumpa"
+ 
+ #: src/open-type-layout.h:115
+ msgctxt "OpenType layout"
+ msgid "Required Contextual Alternates"
+-msgstr "Obligatoriska alternativ"
++msgstr "Obligatoriska kontextuella glyfvarianter"
+ 
+ #: src/open-type-layout.h:116
+ msgctxt "OpenType layout"
+@@ -801,7 +802,7 @@
+ #: src/open-type-layout.h:120
+ msgctxt "OpenType layout"
+ msgid "Right-to-left alternates"
+-msgstr "Höger-till-vänsteralternativ"
++msgstr "Höger-till-vänster-varianter"
+ 
+ #: src/open-type-layout.h:121
+ msgctxt "OpenType layout"
+@@ -826,7 +827,7 @@
+ #: src/open-type-layout.h:125
+ msgctxt "OpenType layout"
+ msgid "Scientific Inferiors"
+-msgstr "Vetenskapligt indexläge"
++msgstr "Nedsänkta siffror för vetenskaplig notation"
+ 
+ #: src/open-type-layout.h:126
+ msgctxt "OpenType layout"
+@@ -836,7 +837,7 @@
+ #: src/open-type-layout.h:127
+ msgctxt "OpenType layout"
+ msgid "Small Capitals"
+-msgstr "Små versaler"
++msgstr "Små kapitäler"
+ 
+ #: src/open-type-layout.h:128
+ msgctxt "OpenType layout"
+@@ -956,17 +957,17 @@
+ #: src/open-type-layout.h:151
+ msgctxt "OpenType layout"
+ msgid "Subscript"
+-msgstr "Indexläge"
++msgstr "Nedsänkta tecken"
+ 
+ #: src/open-type-layout.h:152
+ msgctxt "OpenType layout"
+ msgid "Superscript"
+-msgstr "Exponentläge"
++msgstr "Upphöjda tecken"
+ 
+ #: src/open-type-layout.h:153
+ msgctxt "OpenType layout"
+ msgid "Swash"
+-msgstr "Släng"
++msgstr "Sirliga glyfer"
+ 
+ #: src/open-type-layout.h:154
+ msgctxt "OpenType layout"
+@@ -1056,7 +1057,7 @@
+ #: src/open-type-layout.h:171
+ msgctxt "OpenType layout"
+ msgid "Slashed Zero"
+-msgstr "Nolla med streck genom"
++msgstr "Nolla med snedstreck"
+ 
+ #~ msgid "Install"
+ #~ msgstr "Installera"

@@ -436,3 +436,16 @@ argumentet betyder i just det programmet.
 | Draw Spaces | Visa blanktecken | Namn på insticksmodul. |
 | Word Completion | ordkomplettering | |
 | Num (word suggestion) | siffra | Översättbar platshållare för sifferförslaget. |
+
+## Typografi och OpenType
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| glyph | glyf | Termen i OpenType; exempelvis *antal glyfer* och *färgglyfer*. |
+| glyph variant / alternate | glyfvariant | För alternativa glyphformer i typografiska funktioner. |
+| small capitals | små kapitäler | Typografisk term; skilj från vanliga versaler. |
+| petite capitals | petita kapitäler | Mindre kapitäler än x-höjden. |
+| swash | sirlig glyf | Beskrivande svenska för dekorativa OpenType-glyfer. |
+| lining figures | versalhöga siffror | Siffror med höjd som versaler. |
+| slashed zero | nolla med snedstreck | Typografisk sifferform. |
+| font | typsnitt | Använd konsekvent i GNOME Fonts. |
