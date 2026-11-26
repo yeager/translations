@@ -1,0 +1,540 @@
+--- loupe-help.main.sv.original.po
++++ loupe-help.main.sv.reviewed.po
+@@ -7,8 +7,8 @@
+ msgstr ""
+ "Project-Id-Version: Loupe main\n"
+ "POT-Creation-Date: 2026-11-23 10:02+0000\n"
+-"PO-Revision-Date: 2025-02-22 18:20+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-26 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -38,8 +38,8 @@
+ "Image Viewer allows users to view an image's properties. All images will "
+ "have the following basic properties:"
+ msgstr ""
+-"Bildvisare låter användare visa en bilds egenskaper. Alla bilder kommer ha "
+-"följande grundläggande egenskaper:"
++"I Bildvisare kan du visa en bilds egenskaper. Alla bilder har följande "
++"grundegenskaper:"
+ 
+ #. (itstool) path: item/p
+ #: C/image-properties.page:18
+@@ -59,21 +59,23 @@
+ #. (itstool) path: item/p
+ #: C/image-properties.page:27
+ msgid "File creation date"
+-msgstr "Filskapandedatum"
++msgstr "Skapad"
+ 
+ #. (itstool) path: item/p
+ #: C/image-properties.page:30
+ msgid "File modification date"
+-msgstr "Filändringsdatum"
++msgstr "Ändrad"
+ 
+ #. (itstool) path: page/p
+ #: C/image-properties.page:33
+ msgid ""
+-"If the file has <link href=\"https://en.wikipedia.org/wiki/Exif\">Exif</"
+-"link> metadata, it will be shown below the basic properties."
+-msgstr ""
+-"Om en fil har <link href=\"https://en.wikipedia.org/wiki/Exif\">Exif</link>-"
+-"metadata kommer de visas under de grundläggande egenskaperna."
++"If the file has <link "
++"href=\"https://en.wikipedia.org/wiki/Exif\">Exif</link> metadata, it will be"
++" shown below the basic properties."
++msgstr ""
++"Om filen innehåller <link "
++"href=\"https://en.wikipedia.org/wiki/Exif\">Exif</link>-metadata visas de "
++"under grundegenskaperna."
+ 
+ #. (itstool) path: p/media
+ #. This is a reference to an external file such as an image or video. When
+@@ -92,18 +94,18 @@
+ #. (itstool) path: page/p
+ #: C/image-properties.page:35
+ msgid ""
+-"To view the selected image's properties, press the <gui>Image Properties</"
+-"gui> (<media type=\"image\" src=\"figures/help-about-symbolic.svg\">help-"
+-"about-symbolic</media>) button."
+-msgstr ""
+-"För att visa den valda bildens egenskaper, tryck på knappen "
++"To view the selected image's properties, press the <gui>Image "
++"Properties</gui> (<media type=\"image\" src=\"figures/help-about-"
++"symbolic.svg\">help-about-symbolic</media>) button."
++msgstr ""
++"Visa egenskaperna för den valda bilden genom att trycka på knappen "
+ "<gui>Bildegenskaper</gui> (<media type=\"image\" src=\"figures/help-about-"
+ "symbolic.svg\">help-about-symbolic</media>)."
+ 
+ #. (itstool) path: info/desc
+ #: C/index.page:10
+ msgid "Browse through your images and inspect their metadata."
+-msgstr "Bläddra genom dina bilder och inspektera deras metadata."
++msgstr "Bläddra bland bilderna och visa deras metadata."
+ 
+ #. (itstool) path: page/title
+ #: C/index.page:12
+@@ -128,11 +130,11 @@
+ #. (itstool) path: info/desc
+ #: C/opening-images.page:11
+ msgid ""
+-"Open and browse through pictures via the file chooser, file manager, or drag "
+-"and drop."
+-msgstr ""
+-"Öppna och bläddra bland bilder via filväljaren, filhanteraren eller dra och "
+-"släpp."
++"Open and browse through pictures via the file chooser, file manager, or drag"
++" and drop."
++msgstr ""
++"Öppna bilder och bläddra bland dem via filväljaren, filhanteraren eller "
++"genom att dra och släppa dem."
+ 
+ #. (itstool) path: page/title
+ #: C/opening-images.page:13
+@@ -153,32 +155,34 @@
+ #: C/opening-images.page:18
+ msgid ""
+ "Image Viewer allows users to pick images with the file chooser at any time."
+-msgstr "Bildvisare låter användare välja bilder med filväljaren när som helst."
++msgstr "Du kan när som helst välja bilder i Bildvisare med filväljaren."
+ 
+ #. (itstool) path: item/p
+ #: C/opening-images.page:21
+ msgid ""
+-"Click the <gui>Open Files…</gui> button, the <gui style=\"menuitem\">Open…</"
+-"gui> menu item, or press <keyseq><key>Ctrl</key><key>O</key></keyseq>. The "
+-"<gui>Open Image</gui> file dialog will appear."
++"Click the <gui>Open Files…</gui> button, the <gui "
++"style=\"menuitem\">Open…</gui> menu item, or press "
++"<keyseq><key>Ctrl</key><key>O</key></keyseq>. The <gui>Open Image</gui> file"
++" dialog will appear."
+ msgstr ""
+ "Klicka på knappen <gui>Öppna filer…</gui>, menyobjektet <gui "
+-"style=\"menuitem\">Öppna…</gui>, eller tryck <keyseq><key>Ctrl</key><key>O</"
+-"key></keyseq>. Fildialogen <gui>Öppna bild</gui> kommer att visas."
++"style=\"menuitem\">Öppna…</gui> eller tryck på "
++"<keyseq><key>Ctrl</key><key>O</key></keyseq>. Dialogrutan <gui>Öppna "
++"bild</gui> visas."
+ 
+ #. (itstool) path: item/p
+ #: C/opening-images.page:24
+ msgid "Select the image you want to open, then click <gui>Open</gui>."
+-msgstr "Välj bilden du vill öppna, klicka sedan på <gui>Öppna</gui>."
++msgstr "Markera bilden du vill öppna och klicka sedan på <gui>Öppna</gui>."
+ 
+ #. (itstool) path: section/p
+ #: C/opening-images.page:27
+ msgid ""
+-"Image Viewer will open with the selected image showing, and the other images "
+-"in the directory can be reached by browsing."
+-msgstr ""
+-"Bildvisare kommer öppna och visa den valda bilden, och de andra bilderna i "
+-"katalogen kan nås genom att bläddra till dem."
++"Image Viewer will open with the selected image showing, and the other images"
++" in the directory can be reached by browsing."
++msgstr ""
++"Bildvisare öppnas och visar den valda bilden. Du kan sedan bläddra bland de "
++"andra bilderna i katalogen."
+ 
+ #. (itstool) path: section/title
+ #: C/opening-images.page:30
+@@ -188,17 +192,17 @@
+ #. (itstool) path: section/p
+ #: C/opening-images.page:31
+ msgid "Users can also open images in Loupe directly from their file manager."
+-msgstr "Användare kan också öppna bilder i Loupe direkt från sin filhanterare."
++msgstr "Du kan också öppna bilder i Bildvisare direkt från filhanteraren."
+ 
+ #. (itstool) path: item/p
+ #: C/opening-images.page:34
+ msgid "Open your preferred file manager application."
+-msgstr "Öppna din föredragna filhanterare."
++msgstr "Öppna filhanteraren."
+ 
+ #. (itstool) path: item/p
+ #: C/opening-images.page:37
+ msgid "Navigate to the image you want to view in Loupe."
+-msgstr "Navigera till bilden du vill visa i Loupe."
++msgstr "Gå till bilden du vill visa i Bildvisare."
+ 
+ #. (itstool) path: item/p
+ #: C/opening-images.page:40
+@@ -215,8 +219,9 @@
+ "If Image Viewer is not your default image viewer, you will need to select "
+ "<gui>Open With…</gui> or similar in the file manager, and pick Image Viewer."
+ msgstr ""
+-"Om Bildvisare inte är din standardbildvisare kommer du behöva välja "
+-"<gui>Öppna med…</gui> eller liknande i filhanteraren och välja Bildvisare."
++"Om Bildvisare inte är standardprogrammet för bilder måste du välja "
++"<gui>Öppna med…</gui> eller motsvarande i filhanteraren och sedan välja "
++"Bildvisare."
+ 
+ #. (itstool) path: section/title
+ #: C/opening-images.page:48 C/sending-to-other-apps.page:37
+@@ -233,7 +238,7 @@
+ #. (itstool) path: item/p
+ #: C/opening-images.page:52
+ msgid "In the source application, begin dragging the image."
+-msgstr "Börja i källprogrammet dra bilden."
++msgstr "Börja dra bilden i källprogrammet."
+ 
+ #. (itstool) path: item/p
+ #: C/opening-images.page:55
+@@ -241,12 +246,12 @@
+ "Drag the image over the Loupe main window. A blue highlighted area should "
+ "appear."
+ msgstr ""
+-"Dra bilden över Loupes huvudfönster. Ett blått markerat område bör dyka upp."
++"Dra bilden över huvudfönstret i Bildvisare. Ett blåmarkerat område visas."
+ 
+ #. (itstool) path: item/p
+ #: C/opening-images.page:58
+ msgid "Drop the image while it's still hovered over the main window."
+-msgstr "Släpp bilden medan den fortfarande hovras över huvudfönstret."
++msgstr "Släpp bilden medan du fortfarande håller den över huvudfönstret."
+ 
+ #. (itstool) path: section/title
+ #: C/opening-images.page:64
+@@ -284,21 +289,20 @@
+ #. (itstool) path: section/p
+ #: C/opening-images.page:65
+ msgid ""
+-"When opening an image from the file chooser or file manager, Loupe will load "
+-"other files in the parent directory of the image and sort them in "
++"When opening an image from the file chooser or file manager, Loupe will load"
++" other files in the parent directory of the image and sort them in "
+ "alphabetical order. Users can browse the other images in the directory with "
+ "the <gui>Previous Image</gui> (<media type=\"image\" src=\"figures/go-"
+-"previous-symbolic.svg\">go-previous-symbolic</media>) and <gui>Next Image</"
+-"gui> (<media type=\"image\" src=\"figures/go-next-symbolic.svg\">go-next-"
+-"symbolic</media>) buttons."
+-msgstr ""
+-"Vid öppnande av en bild från filväljaren eller filhanteraren kommer Loupe "
+-"läsa in andra filer i bildens katalog och sortera dem alfabetiskt. Användare "
+-"kan bläddra genom de övriga bilderna i katalogen med knapparna "
+-"<gui>Föregående bild</gui> (<media type=\"image\" src=\"figures/go-previous-"
+-"symbolic.svg\">go-previous-symbolic</media>) och <gui>Nästa bild</gui> "
+-"(<media type=\"image\" src=\"figures/go-next-symbolic.svg\">go-next-"
+-"symbolic</media>)."
++"previous-symbolic.svg\">go-previous-symbolic</media>) and <gui>Next "
++"Image</gui> (<media type=\"image\" src=\"figures/go-next-symbolic.svg\">go-"
++"next-symbolic</media>) buttons."
++msgstr ""
++"När du öppnar en bild via filväljaren eller filhanteraren läser Bildvisare "
++"in de andra filerna i samma katalog och sorterar dem alfabetiskt. Du kan "
++"bläddra bland bilderna med knapparna <gui>Föregående bild</gui> (<media "
++"type=\"image\" src=\"figures/go-previous-symbolic.svg\">go-previous-"
++"symbolic</media>) och <gui>Nästa bild</gui> (<media type=\"image\" "
++"src=\"figures/go-next-symbolic.svg\">go-next-symbolic</media>)."
+ 
+ #. (itstool) path: note/p
+ #: C/opening-images.page:70 C/viewing-images.page:39
+@@ -306,8 +310,8 @@
+ "Keyboard users can also use the corresponding shortcuts presented in the "
+ "<gui>Keyboard Shortcuts</gui> dialog."
+ msgstr ""
+-"Tangentbordsanvändare kan också använda motsvarande kortkommandon som "
+-"presenteras i dialogrutan <gui>Tangentbordsgenvägar</gui>."
++"Du kan också använda motsvarande kortkommandon i dialogrutan "
++"<gui>Tangentbordsgenvägar</gui>."
+ 
+ #. (itstool) path: info/desc
+ #: C/sending-to-other-apps.page:11
+@@ -333,13 +337,13 @@
+ "Click the <gui style=\"menuitem\">Open With…</gui> menu item. A dialog with "
+ "a list of applications will appear."
+ msgstr ""
+-"Klicka på menyobjektet <gui style=\"menuitem\">Öppna med…</gui>. En dialog "
+-"med en lista över program kommer visas."
++"Klicka på menyobjektet <gui style=\"menuitem\">Öppna med…</gui>. En "
++"dialogruta med en lista över program visas."
+ 
+ #. (itstool) path: item/p
+ #: C/sending-to-other-apps.page:21
+ msgid "Select the application you want to open the image with."
+-msgstr "Välj programmet som du vill öppna bilden med."
++msgstr "Välj programmet där du vill öppna bilden."
+ 
+ #. (itstool) path: section/title
+ #: C/sending-to-other-apps.page:26
+@@ -363,33 +367,33 @@
+ #. (itstool) path: item/p
+ #: C/sending-to-other-apps.page:29
+ msgid ""
+-"Click the <gui>Copy to Clipboard</gui> (<media type=\"image\" src=\"figures/"
+-"edit-copy-symbolic.svg\">edit-copy-symbolic</media>) button. A toast "
+-"notifying you that the image is in your clipboard will appear."
++"Click the <gui>Copy to Clipboard</gui> (<media type=\"image\" "
++"src=\"figures/edit-copy-symbolic.svg\">edit-copy-symbolic</media>) button. A"
++" toast notifying you that the image is in your clipboard will appear."
+ msgstr ""
+ "Klicka på knappen <gui>Kopiera till urklipp</gui> (<media type=\"image\" "
+ "src=\"figures/edit-copy-symbolic.svg\">edit-copy-symbolic</media>). Ett "
+-"meddelande kommer att visas om att bilden finns i ditt urklipp."
++"meddelande visas när bilden har kopierats till urklipp."
+ 
+ #. (itstool) path: item/p
+ #: C/sending-to-other-apps.page:32
+ msgid "Paste your image in your application of choice."
+-msgstr "Klistra in bilden i ditt föredragna program."
++msgstr "Klistra in bilden i valfritt program."
+ 
+ #. (itstool) path: item/p
+ #: C/sending-to-other-apps.page:40
+ msgid "Zoom out from the image completely."
+-msgstr "Zooma ut fullständigt från bilden."
++msgstr "Zooma ut helt."
+ 
+ #. (itstool) path: item/p
+ #: C/sending-to-other-apps.page:43
+ msgid "Click and hold the selected image."
+-msgstr "Klicka och håll den valda bilden."
++msgstr "Klicka på den valda bilden och håll ned musknappen."
+ 
+ #. (itstool) path: item/p
+ #: C/sending-to-other-apps.page:46
+ msgid "Drag the image to your application of choice."
+-msgstr "Dra bilden till ditt föredragna program."
++msgstr "Dra bilden till valfritt program."
+ 
+ #. (itstool) path: page/title
+ #: C/supported-formats.page:12
+@@ -399,17 +403,18 @@
+ #. (itstool) path: page/p
+ #: C/supported-formats.page:13
+ msgid ""
+-"Image Viewer uses <link href=\"https://gitlab.gnome.org/GNOME/"
+-"glycin\">glycin</link> for loading images. You can check <link "
++"Image Viewer uses <link "
++"href=\"https://gitlab.gnome.org/GNOME/glycin\">glycin</link> for loading "
++"images. You can check <link "
+ "href=\"https://gitlab.gnome.org/GNOME/glycin#supported-image-"
+ "formats\">glycin's README</link> for more details about the formats "
+ "supported by the default loaders and the features provided by each format."
+ msgstr ""
+-"Bildvisare använder <link href=\"https://gitlab.gnome.org/GNOME/"
+-"glycin\">glycin</link> för att läsa in bilder. Du kan se <link "
+-"href=\"https://gitlab.gnome.org/GNOME/glycin#supported-image-"
+-"formats\">glycins README</link> för mer detaljer om formaten som stöds av "
+-"standardinläsarna och funktionerna som tillhandahålls av varje format."
++"Bildvisare använder <link "
++"href=\"https://gitlab.gnome.org/GNOME/glycin\">glycin</link> för att läsa in"
++" bilder. Läs <link href=\"https://gitlab.gnome.org/GNOME/glycin#supported-"
++"image-formats\">glycins README</link> för mer information om vilka format "
++"standardinläsarna stöder och vilka funktioner varje format erbjuder."
+ 
+ #. (itstool) path: page/p
+ #: C/supported-formats.page:17
+@@ -417,8 +422,8 @@
+ "Glycin's loaders are configurable, and new loaders can be created by third "
+ "parties. Therefore the formats supported on your system may vary."
+ msgstr ""
+-"Glycins inläsare är konfigurerbara, och nya inläsare kan skapas av tredje "
+-"part, så formaten som stöds på ditt system kan variera."
++"Glycins inläsare kan konfigureras, och tredje part kan skapa nya inläsare. "
++"Därför kan vilka format som stöds variera mellan system."
+ 
+ #. (itstool) path: info/desc
+ #: C/trashing-images.page:11
+@@ -447,15 +452,15 @@
+ #. (itstool) path: page/p
+ #: C/trashing-images.page:14
+ msgid ""
+-"If a user wants to remove an image, they can press the <gui>Move To Trash</"
+-"gui> (<media type=\"image\" src=\"figures/user-trash-symbolic.svg\">user-"
+-"trash-symbolic</media>) button. A toast will appear allowing them to restore "
+-"the image with the <gui>Undo</gui> button."
+-msgstr ""
+-"Användare som vill ta bort en bild kan trycka på knappen <gui>Flytta till "
+-"papperskorgen</gui> (<media type=\"image\" src=\"figures/user-trash-"
+-"symbolic.svg\">user-trash-symbolic</media>). Ett meddelande kommer visas som "
+-"låter dem återställa bilden med knappen <gui>Ångra</gui>."
++"If a user wants to remove an image, they can press the <gui>Move To "
++"Trash</gui> (<media type=\"image\" src=\"figures/user-trash-"
++"symbolic.svg\">user-trash-symbolic</media>) button. A toast will appear "
++"allowing them to restore the image with the <gui>Undo</gui> button."
++msgstr ""
++"Tryck på knappen <gui>Flytta till papperskorgen</gui> (<media type=\"image\""
++" src=\"figures/user-trash-symbolic.svg\">user-trash-symbolic</media>) om du "
++"vill ta bort bilden. Ett meddelande visas med knappen <gui>Ångra</gui>, som "
++"återställer bilden."
+ 
+ #. (itstool) path: info/desc
+ #: C/viewing-images.page:11
+@@ -505,13 +510,13 @@
+ msgid ""
+ "Users can zoom in with the <gui>Zoom In</gui> (<media type=\"image\" "
+ "src=\"figures/zoom-in-symbolic.svg\">zoom-in-symbolic</media>) button and "
+-"zoom out with the <gui>Zoom Out</gui> (<media type=\"image\" src=\"figures/"
+-"zoom-out-symbolic.svg\">zoom-out-symbolic</media>) button."
+-msgstr ""
+-"Användare kan zooma in med knappen <gui>Zooma in</gui> (<media "
+-"type=\"image\" src=\"figures/zoom-in-symbolic.svg\">zoom-in-symbolic</"
+-"media>) och zooma ut med knappen <gui>Zooma ut</gui> (<media type=\"image\" "
+-"src=\"figures/zoom-out-symbolic.svg\">zoom-out-symbolic</media>)."
++"zoom out with the <gui>Zoom Out</gui> (<media type=\"image\" "
++"src=\"figures/zoom-out-symbolic.svg\">zoom-out-symbolic</media>) button."
++msgstr ""
++"Du kan zooma in med knappen <gui>Zooma in</gui> (<media type=\"image\" "
++"src=\"figures/zoom-in-symbolic.svg\">zoom-in-symbolic</media>) och zooma ut "
++"med knappen <gui>Zooma ut</gui> (<media type=\"image\" src=\"figures/zoom-"
++"out-symbolic.svg\">zoom-out-symbolic</media>)."
+ 
+ #. (itstool) path: section/p
+ #: C/viewing-images.page:19
+@@ -520,9 +525,9 @@
+ "gesture. On touchpads, it is also possible to zoom by pressing the "
+ "<key>Ctrl</key> key while swiping up/down with two fingers on the touchpad."
+ msgstr ""
+-"Styrplatte- och pekskärmsanvändare kan också zooma genom en nypgest med två "
+-"fingrar. På styrplattor är det också möjligt att zooma genom att hålla ned "
+-"<key>Ctrl</key> och dra upp/ned med två fingrar på styrplattan."
++"Du kan också zooma genom att nypa med två fingrar på styrplattan eller "
++"pekskärmen. På styrplattor kan du även hålla ned <key>Ctrl</key> och svepa "
++"uppåt eller nedåt med två fingrar."
+ 
+ #. (itstool) path: section/title
+ #: C/viewing-images.page:22
+@@ -536,9 +541,9 @@
+ "dragging the image. Touchscreen users can use a single-finger drag gesture "
+ "to pan the view."
+ msgstr ""
+-"Mus- och styrplatteanvändare kan panorera vyn när den är inzoomad genom att "
+-"klicka och dra bilden. Pekskärmsanvändare kan använda en draggest med ett "
+-"finger för att panorera vyn."
++"Med mus eller styrplatta kan du panorera bilden när du har zoomat in genom "
++"att klicka och dra i den. På pekskärmar panorerar du genom att dra med ett "
++"finger."
+ 
+ #. (itstool) path: section/title
+ #: C/viewing-images.page:27
+@@ -579,24 +584,24 @@
+ "Users can use the <gui>Rotate Right</gui> (<media type=\"image\" "
+ "src=\"figures/object-rotate-right-symbolic.svg\">object-rotate-right-"
+ "symbolic</media>) and <gui>Rotate Left</gui> (<media type=\"image\" "
+-"src=\"figures/object-rotate-left-symbolic.svg\">object-rotate-left-symbolic</"
+-"media>) buttons under <gui style=\"menuitem\">Rotate</gui> in the main menu "
+-"to rotate clockwise and counter-clockwise."
+-msgstr ""
+-"Användare kan använda knapparna <gui>Rotera åt höger</gui> (<media "
+-"type=\"image\" src=\"figures/object-rotate-right-symbolic.svg\">object-"
+-"rotate-right-symbolic</media>) och <gui>Rotera åt vänster</gui> (<media "
+-"type=\"image\" src=\"figures/object-rotate-left-symbolic.svg\">object-rotate-"
+-"left-symbolic</media>) under <gui style=\"menuitem\">Rotera</gui> i "
+-"huvudmenyn för att rotera medurs och moturs."
++"src=\"figures/object-rotate-left-symbolic.svg\">object-rotate-left-"
++"symbolic</media>) buttons under <gui style=\"menuitem\">Rotate</gui> in the "
++"main menu to rotate clockwise and counter-clockwise."
++msgstr ""
++"Använd knapparna <gui>Rotera åt höger</gui> (<media type=\"image\" "
++"src=\"figures/object-rotate-right-symbolic.svg\">object-rotate-right-"
++"symbolic</media>) och <gui>Rotera åt vänster</gui> (<media type=\"image\" "
++"src=\"figures/object-rotate-left-symbolic.svg\">object-rotate-left-"
++"symbolic</media>) under <gui style=\"menuitem\">Rotera</gui> i huvudmenyn "
++"för att rotera bilden medurs eller moturs."
+ 
+ #. (itstool) path: section/p
+ #: C/viewing-images.page:32
+ msgid ""
+ "Touchpad and touchscreen users can also use a two-finger rotate gesture."
+ msgstr ""
+-"Styrplatte- och pekskärmsanvändare kan också använda en rotationsgest med "
+-"två fingrar."
++"Du kan också rotera bilden med en gest med två fingrar på styrplattan eller "
++"pekskärmen."
+ 
+ #. (itstool) path: section/title
+ #: C/viewing-images.page:35
+@@ -636,15 +641,15 @@
+ msgid ""
+ "Image Viewer has a simple fullscreen mode. Users can toggle fullscreen mode "
+ "by pressing the <gui>Toggle Fullscreen</gui> (<media type=\"image\" "
+-"src=\"figures/view-fullscreen-symbolic.svg\">view-fullscreen-symbolic</"
+-"media> / <media type=\"image\" src=\"figures/view-restore-"
++"src=\"figures/view-fullscreen-symbolic.svg\">view-fullscreen-"
++"symbolic</media> / <media type=\"image\" src=\"figures/view-restore-"
+ "symbolic.svg\">view-restore-symbolic</media>) button."
+ msgstr ""
+-"Bildvisare har ett enkelt helskärmsläge. Användare kan växla helskärmsläge "
+-"genom att trycka på knappen <gui>Växla helskärmsläge</gui> (<media "
+-"type=\"image\" src=\"figures/view-fullscreen-symbolic.svg\">view-fullscreen-"
+-"symbolic</media> / <media type=\"image\" src=\"figures/view-restore-"
+-"symbolic.svg\">view-restore-symbolic</media>)."
++"Bildvisare har ett enkelt helskärmsläge. Tryck på knappen <gui>Växla "
++"helskärmsläge</gui> (<media type=\"image\" src=\"figures/view-fullscreen-"
++"symbolic.svg\">view-fullscreen-symbolic</media> / <media type=\"image\" "
++"src=\"figures/view-restore-symbolic.svg\">view-restore-symbolic</media>) för"
++" att växla mellan helskärmsläge och fönsterläge."
+ 
+ #~ msgid ""
+ #~ "Keyboard users can also use the corresponding shortcuts presented in the "
+@@ -666,22 +671,22 @@
+ #~ "zooma ut."
+ 
+ #~ msgid ""
+-#~ "<keyseq><key>Ctrl</key><key>0</key></keyseq> or <key>0</key> to zoom to "
+-#~ "the best fitting size for the window size."
++#~ "<keyseq><key>Ctrl</key><key>0</key></keyseq> or <key>0</key> to zoom to the "
++#~ "best fitting size for the window size."
+ #~ msgstr ""
+ #~ "<keyseq><key>Ctrl</key><key>0</key></keyseq> eller <key>0</key> för att "
+ #~ "zooma till storleken som bäst passar till fönsterstorleken."
+ 
+ #~ msgid ""
+-#~ "<keyseq><key>Ctrl</key><key>1</key></keyseq> or <key>1</key> to zoom to "
+-#~ "the image's original scale."
++#~ "<keyseq><key>Ctrl</key><key>1</key></keyseq> or <key>1</key> to zoom to the "
++#~ "image's original scale."
+ #~ msgstr ""
+ #~ "<keyseq><key>Ctrl</key><key>1</key></keyseq> eller <key>1</key> för att "
+ #~ "zooma till bildens ursprungliga skala."
+ 
+ #~ msgid ""
+-#~ "<keyseq><key>Ctrl</key><key>2</key></keyseq> or <key>2</key> to zoom to "
+-#~ "200% of the image's original scale."
++#~ "<keyseq><key>Ctrl</key><key>2</key></keyseq> or <key>2</key> to zoom to 200%"
++#~ " of the image's original scale."
+ #~ msgstr ""
+ #~ "<keyseq><key>Ctrl</key><key>2</key></keyseq> eller <key>2</key> för att "
+ #~ "zooma till 200% av bildens ursprungliga skala."
+@@ -702,12 +707,10 @@
+ #~ "<keyseq><key>Ctrl</key><key>→</key></keyseq> för att panorera åt höger."
+ 
+ #~ msgid "<keyseq><key>Ctrl</key><key>↑</key></keyseq> to pan up."
+-#~ msgstr ""
+-#~ "<keyseq><key>Ctrl</key><key>↑</key></keyseq> för att panorera uppåt."
++#~ msgstr "<keyseq><key>Ctrl</key><key>↑</key></keyseq> för att panorera uppåt."
+ 
+ #~ msgid "<keyseq><key>Ctrl</key><key>↓</key></keyseq> to pan down."
+-#~ msgstr ""
+-#~ "<keyseq><key>Ctrl</key><key>↓</key></keyseq> för att panorera nedåt."
++#~ msgstr "<keyseq><key>Ctrl</key><key>↓</key></keyseq> för att panorera nedåt."
+ 
+ #~ msgid "<keyseq><key>Ctrl</key><key>R</key></keyseq> to rotate clockwise."
+ #~ msgstr "<keyseq><key>Ctrl</key><key>R</key></keyseq> för att rotera medurs."
+@@ -716,8 +719,8 @@
+ #~ "<keyseq><key>Ctrl</key><key>Shift</key><key>R</key></keyseq> to rotate "
+ #~ "counter-clockwise."
+ #~ msgstr ""
+-#~ "<keyseq><key>Ctrl</key><key>Skift</key><key>R</key></keyseq> för att "
+-#~ "rotera moturs."
++#~ "<keyseq><key>Ctrl</key><key>Skift</key><key>R</key></keyseq> för att rotera "
++#~ "moturs."
+ 
+ #~ msgid "<key>→</key> to go to the next image."
+ #~ msgstr "<key>→</key> för att gå till nästa bild."
+@@ -743,8 +746,8 @@
+ 
+ #~ msgid "Fast GPU accelerated image rendering with tiled rendering for SVGs"
+ #~ msgstr ""
+-#~ "Snabb GPU-accelererad bildrendering med rendering uppdelad i rutor för "
+-#~ "SVG-bilder"
++#~ "Snabb GPU-accelererad bildrendering med rendering uppdelad i rutor för SVG-"
++#~ "bilder"
+ 
+ #~ msgid "Extendable and sandboxed raster image decoding"
+ #~ msgstr "Utökningsbar rasterbildsavkodning i sandlåda"
