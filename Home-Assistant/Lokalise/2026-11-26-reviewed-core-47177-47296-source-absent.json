@@ -1,0 +1,137 @@
+[
+  {
+    "position": 47178,
+    "key": "component::humidifier::selector::condition_behavior::options::all",
+    "en": "All",
+    "sv": "Alla",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47179,
+    "key": "component::humidifier::selector::condition_behavior::options::any",
+    "en": "Any",
+    "sv": "Något",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47180,
+    "key": "component::media_player::common::condition_behavior_description",
+    "en": "How the state should match on the targeted media players.",
+    "sv": "Hur tillståndet ska matcha valda mediaspelare.",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47183,
+    "key": "component::media_player::conditions::is_not_playing::fields::behavior::description",
+    "en": "How the state should match on the targeted media players.",
+    "sv": "Hur tillståndet ska matcha valda mediaspelare.",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47187,
+    "key": "component::media_player::conditions::is_off::fields::behavior::description",
+    "en": "How the state should match on the targeted media players.",
+    "sv": "Hur tillståndet ska matcha valda mediaspelare.",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47191,
+    "key": "component::media_player::conditions::is_on::fields::behavior::description",
+    "en": "How the state should match on the targeted media players.",
+    "sv": "Hur tillståndet ska matcha valda mediaspelare.",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47195,
+    "key": "component::media_player::conditions::is_paused::fields::behavior::description",
+    "en": "How the state should match on the targeted media players.",
+    "sv": "Hur tillståndet ska matcha valda mediaspelare.",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47199,
+    "key": "component::media_player::conditions::is_playing::fields::behavior::description",
+    "en": "How the state should match on the targeted media players.",
+    "sv": "Hur tillståndet ska matcha valda mediaspelare.",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47202,
+    "key": "component::media_player::selector::condition_behavior::options::all",
+    "en": "All",
+    "sv": "Alla",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47203,
+    "key": "component::media_player::selector::condition_behavior::options::any",
+    "en": "Any",
+    "sv": "Något",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47252,
+    "key": "component::lovelace::issues::yaml_mode_deprecated::description",
+    "en": "Your YAML dashboard configuration uses the legacy `mode: yaml` option, which will be removed in Home Assistant 2026.8. Your YAML dashboards will continue to work, you just need to update how they are defined.\n\nTo update your configuration:\n\n1. Remove `mode: yaml` from `lovelace:` in your `configuration.yaml`\n2. Add a dashboard entry instead:\n\n   ```yaml\n   lovelace:\n     resource_mode: yaml\n     dashboards:\n       lovelace:\n         mode: yaml\n         filename: {config_file}\n         title: Overview\n         icon: mdi:view-dashboard\n         show_in_sidebar: true\n   ```\n\n3. Restart Home Assistant\n\nNote: `resource_mode: yaml` keeps loading resources from YAML. If you want to manage resources through the UI instead, you can remove this line and move your resources to Settings > Dashboards > Resources.",
+    "sv": "YAML-konfigurationen för din instrumentpanel använder det äldre alternativet `mode: yaml`, som tas bort i Home Assistant 2026.8. Dina YAML-instrumentpaneler fortsätter att fungera, men du måste uppdatera hur de definieras.\n\nSå här uppdaterar du konfigurationen:\n\n1. Ta bort `mode: yaml` från `lovelace:` i `configuration.yaml`\n2. Lägg i stället till en instrumentpanelspost:\n\n   ```yaml\n   lovelace:\n     resource_mode: yaml\n     dashboards:\n       lovelace:\n         mode: yaml\n         filename: {config_file}\n         title: Overview\n         icon: mdi:view-dashboard\n         show_in_sidebar: true\n   ```\n\n3. Starta om Home Assistant\n\nObs: `resource_mode: yaml` gör att resurser fortsätter att läsas in från YAML. Om du i stället vill hantera resurser i användargränssnittet kan du ta bort raden och flytta resurserna till Inställningar > Instrumentpaneler > Resurser.",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47253,
+    "key": "component::lovelace::issues::yaml_mode_deprecated::title",
+    "en": "Lovelace YAML configuration needs update",
+    "sv": "Lovelace YAML-konfigurationen behöver uppdateras",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47262,
+    "key": "component::hdfury::config::abort::reconfigure_successful",
+    "en": "Reconfiguration was successful",
+    "sv": "Omkonfigureringen lyckades",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47278,
+    "key": "component::samsungtv::issues::deprecated_implicit_wake_on_lan::description",
+    "en": "Implicit Wake-On-LAN is deprecated and will be removed in a future version of Home Assistant. Please create an explicit Wake-On-LAN automation to turn on your TV, targeting MAC address `{mac_address}`.\n\nFor more information, see the [Wake-On-LAN documentation]({wol_documentation_url}).",
+    "sv": "Implicit Wake-On-LAN är föråldrat och kommer att tas bort i en framtida version av Home Assistant. Skapa gärna en explicit Wake-On-LAN-automatisering för att slå på din TV, riktad mot MAC-adressen `{mac_address}`.\n\nFör mer information, se [dokumentationen om Wake-On-LAN]({wol_documentation_url}).",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47279,
+    "key": "component::samsungtv::issues::deprecated_implicit_wake_on_lan::title",
+    "en": "Implicit Wake-On-LAN is deprecated",
+    "sv": "Implicit Wake-On-LAN är föråldrad",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  }
+]
