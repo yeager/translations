@@ -8,4 +8,4 @@
 - Validering: msgfmt --check/statistics, msgcmp, l10n-lint med GTK-kontroller och jämförelse av platshållare/markup godkända. Acceleratorerna i alla UI-poster bevarade; Hunspell-resultat manuellt genomgångna.
 - Hunspell-undantag: GIMP, Script-Fu, Scheme/TinyScheme, Xach, QEMU, RLE, IIR, Java-sökväg och tekniska sammansättningar som kromeffekt och flerlagersbild.
 - Terminologi: färg-/histogrammets “bucket” återges som “intervall”; inga förekomster översätts med “färgbucket”. “Drop shadow” återges som “skugga”.
-- GNOME-inskick: inget.
+- GNOME-inskick: uppladdad till Damned Lies API 2026-11-26 med kommentaren `Granskad och klar`; aktivitetssidan verifierar 330/0/0.
