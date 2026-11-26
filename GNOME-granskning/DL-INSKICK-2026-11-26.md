@@ -4,6 +4,7 @@ Färdiggranskade kataloger som kontrollerats mot aktuell POT och laddats upp via
 
 | Modul | Gren | Domän | Ändrade PO-poster | API-statistik |
 |---|---|---|---:|---:|
+| gimp | master | po-libgimp | 7 | 675/0/0 |
 <<<<<<< Updated upstream
 =======
 | gimp | master | po-python | 99 | 231/0/0 |
