@@ -1,11 +1,8 @@
 # GIMP Help — master — filters~blur — svenska
 
-- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gimp-help/master/filters~blur/sv/>.
-- Ursprunglig lokal katalog: 31 översatta, 1 fuzzy och 94 oöversatta poster.
-- Slutlig lokal katalog: 125 översatta, 0 fuzzy och 0 oöversatta poster.
-- Resultat för användarvisat innehåll: 125 översatta, 0 fuzzy och 0 oöversatta poster.
-- Åtgärd: hela `filters~blur` har radgranskats och kompletterats, inklusive sömlös, enkel, selektiv och gaussisk oskärpa, pixelisering samt rörelseoskärpa.
-- Avsiktliga undantag: bildhashposter som börjar med `@@image:` är uttryckligen icke-översättbara enligt källkommentarerna.
-- Validering: `msgfmt --check --statistics`, `git diff --check`, `l10n-lint` och `hunspell-sv` är godkända utan fel för de användarvisade strängarna.
-- Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-23.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
+- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gimp-help/master/filters~blur/sv/>
+- Aktuell POT hämtad 2026-11-26: 294 aktiva poster. Arkivfil: [senaste POT](gimp-help.master.filters-blur.latest.pot).
+- Aktuell upstream-statistik: 6 översatta, 38 fuzzy och 250 oöversatta.
+- Den lokala granskningen 2026-11-23 gällde en äldre POT med 126 poster (125 användarvisade strängar). Efter applicering av senaste POT täcker den befintliga granskade filen bara 30 av 294 poster; 264 är oöversatta i den uppdaterade katalogen. Källan har förändrats väsentligt sedan granskningen.
+- `msgcmp` mot senaste POT misslyckas med 264 ej matchade poster. Därför har ingen fil skickats in. Modulen är markerad som **Behöver arbete** tills senaste källan har kompletterats.
+- Den tidigare granskningen och dess originalfil/diff finns kvar oförändrade.
