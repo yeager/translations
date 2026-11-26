@@ -1,0 +1,461 @@
+# Swedish translation for warp.
+# Copyright © 2022-2024 warp's COPYRIGHT HOLDER
+# This file is distributed under the same license as the warp package.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2022, 2023, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: warp main\n"
+"POT-Creation-Date: 2026-11-18 21:02+0000\n"
+"PO-Revision-Date: 2024-02-23 06:51+0100\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Anders Jonsson <anders.jonsson@norsjovallen.se>, 2022"
+
+#. (itstool) path: info/desc
+#: C/details-commandline.page:11
+msgid "Interoperability with the Magic Wormhole Commandline App"
+msgstr "Interoperabilitet med kommandoradsprogrammet Magic Wormhole"
+
+#. (itstool) path: page/title
+#: C/details-commandline.page:13
+msgid "Commandline App"
+msgstr "Kommandoradsprogram"
+
+#. (itstool) path: page/p
+#: C/details-commandline.page:14
+msgid ""
+"You can use the <link href=\"https://github.com/magic-wormhole/magic-"
+"wormhole\">Magic Wormhole</link> commandline client to communicate with "
+"<app>Warp</app> directly."
+msgstr ""
+"Du kan använda kommandoradsklienten <link href=\"https://github.com/magic-"
+"wormhole/magic-wormhole\">Magic Wormhole</link> för att kommunicera direkt "
+"med <app>Warp</app>."
+
+#. (itstool) path: page/p
+#: C/details-commandline.page:16
+msgid ""
+"To receive a file that is being sent via <app>Warp</app> use this command:"
+msgstr ""
+"För att ta emot en fil som skickas med <app>Warp</app> använder du detta "
+"kommando:"
+
+#. (itstool) path: page/code
+#: C/details-commandline.page:17
+#, no-wrap
+msgid "wormhole receive"
+msgstr "wormhole receive"
+
+#. (itstool) path: page/p
+#: C/details-commandline.page:18
+msgid "and enter the code when prompted."
+msgstr "och anger koden när du ombes göra det."
+
+#. (itstool) path: page/p
+#: C/details-commandline.page:19
+msgid "To send a file use"
+msgstr "För att skicka en fil använder du"
+
+#. (itstool) path: page/code
+#: C/details-commandline.page:20
+#, no-wrap
+msgid "wormhole send FILENAME"
+msgstr "wormhole send FILNAMN"
+
+#. (itstool) path: page/p
+#: C/details-commandline.page:21
+msgid ""
+"Your peer can then enter the code into <app>Warp</app> to receive the file."
+msgstr ""
+"Din motpart kan sedan mata in koden i <app>Warp</app> för att ta emot filen."
+
+#. (itstool) path: section/title
+#: C/details-commandline.page:23
+msgid "Learn more"
+msgstr "Läs mer"
+
+#. (itstool) path: section/p
+#: C/details-commandline.page:24
+msgid ""
+"To learn more about the command line client you can take a look at the <link "
+"href=\"https://magic-wormhole.readthedocs.io/en/latest/\">Magic Wormhole "
+"documentation</link>."
+msgstr ""
+"För att lära dig mer om kommandoradsklienten kan du ta en titt på <link "
+"href=\"https://magic-wormhole.readthedocs.io/en/latest/\">dokumentationen "
+"för Magic Wormhole</link>."
+
+#. (itstool) path: info/desc
+#: C/details-glossary.page:11
+msgid "Definition of terms used through this help page"
+msgstr "Definition av termer som används på denna hjälpsida"
+
+#. (itstool) path: page/title
+#: C/details-glossary.page:13
+msgid "Glossary"
+msgstr "Ordlista"
+
+#. (itstool) path: section/title
+#: C/details-glossary.page:15
+msgid "Rendezvous Server"
+msgstr "Mötesserver"
+
+#. (itstool) path: section/p
+#: C/details-glossary.page:16
+msgid ""
+"This server is located on the internet and is operated by the <link "
+"href=\"https://github.com/magic-wormhole/magic-wormhole\">Magic Wormhole "
+"project</link>. It is used to find peers to share files with. When starting "
+"a transmission, both parties will contact the rendezvous server to find each "
+"other."
+msgstr ""
+"Denna server finns på internet och driftas av <link href=\"https://"
+"github.com/magic-wormhole/magic-wormhole\">Magic Wormhole-projektet</link>. "
+"Den används för att hitta motparter att dela filer med. När en överföring "
+"startas kommer båda parter att kontakta mötesservern för att hitta varandra."
+
+#. (itstool) path: section/p
+#: C/details-glossary.page:19
+msgid ""
+"The rendezvous server also helps the transmitting client to generate a <link "
+"xref=\"#transmit-code\"/>"
+msgstr ""
+"Mötesservern hjälper också den överförande klienten att skapa en <link "
+"xref=\"#transmit-code\"/>"
+
+#. (itstool) path: section/p
+#: C/details-glossary.page:20
+msgid ""
+"They will use this server to exchange cryptographic information for secure "
+"communication. Afterwards they will exchange information about how to "
+"contact each other for file transfer."
+msgstr ""
+"De kommer använda denna server för att utväxla kryptografisk information för "
+"säker överföring. Efteråt kommer de utväxla information om hur de kan "
+"kontakta varandra för filöverföringen."
+
+#. (itstool) path: note/p
+#: C/details-glossary.page:23
+msgid ""
+"No files are transferred via the rendezvous server. See <link "
+"xref=\"#transmit-relay\"/> and <link xref=\"#direct-transfer\"/>"
+msgstr ""
+"Inga filer överförs via mötesservern. Se <link xref=\"#transmit-relay\"/> "
+"och <link xref=\"#direct-transfer\"/>"
+
+#. (itstool) path: section/title
+#: C/details-glossary.page:27
+msgid "Transmit Code"
+msgstr "Överföringskod"
+
+#. (itstool) path: section/p
+#: C/details-glossary.page:28
+msgid ""
+"This code will be generated by the client in cooperation with the <link "
+"xref=\"#rendezvous-server\"/>. It is used to identify and encrypt the "
+"transmission of messages and files."
+msgstr ""
+"Denna kod kommer skapas av klienten tillsammans med <link xref=\"#rendezvous-"
+"server\"/>n. Den används för att identifiera och kryptera överföringen av "
+"meddelanden och filer."
+
+#. (itstool) path: section/p
+#: C/details-glossary.page:30
+msgid ""
+"To start a transmission you need a transmit code. The transmit code then "
+"needs to be communicated to the receiver (preferably via an encrypted or "
+"otherwise secure channel). After entering the transmit code at the receiver "
+"side the file transmission can begin."
+msgstr ""
+"Du behöver en överföringskod för att start en överföring. Överföringskoden "
+"behöver sedan kommuniceras till mottagaren (förslagsvis genom en krypterad "
+"eller på annat sätt säker kanal). Efter att överföringskoden angivits på "
+"mottagarsidan kan filöverföringen börja."
+
+#. (itstool) path: note/p
+#: C/details-glossary.page:34
+msgid "Every transmit code can only be entered once for security reasons."
+msgstr "Varje överföringskod kan endast anges en gång av säkerhetsskäl."
+
+#. (itstool) path: section/title
+#: C/details-glossary.page:38
+msgid "Transmit Link"
+msgstr "Överföringslänk"
+
+#. (itstool) path: section/p
+#: C/details-glossary.page:39
+msgid ""
+"It is also possible to encode the <link xref=\"#transmit-code\"/> as a link. "
+"Clicking the link will automatically open Warp and start the file "
+"transmission. A <gui>Copy Transmit Link</gui> button is available in the "
+"send screen. A transmit link looks like this:"
+msgstr ""
+"Det är också möjligt att koda <link xref=\"#transmit-code\"/>en som en länk. "
+"Att klicka på länken öppnar automatiskt Warp och startar filöverföringen. "
+"Knappen <gui>Kopiera överföringslänk</gui> finns tillgänglig på "
+"sändningsskärmen. En överföringslänk ser ut så här:"
+
+#. (itstool) path: section/code
+#: C/details-glossary.page:42
+#, no-wrap
+msgid "wormhole-transfer:{code}"
+msgstr "wormhole-transfer:{kod}"
+
+#. (itstool) path: section/title
+#: C/details-glossary.page:45
+msgid "Transmit Relay"
+msgstr "Överföringsknutpunkt"
+
+#. (itstool) path: section/p
+#: C/details-glossary.page:46
+msgid ""
+"The transmit relay is also operated by the <link href=\"https://github.com/"
+"magic-wormhole/magic-wormhole\">Magic Wormhole project</link>"
+msgstr ""
+"Överföringsknutpunkten driftas också av <link href=\"https://github.com/"
+"magic-wormhole/magic-wormhole\">Magic Wormhole-projektet</link>"
+
+#. (itstool) path: section/p
+#: C/details-glossary.page:48
+msgid ""
+"It is used if no <link xref=\"#direct-transfer\">direct communication</link> "
+"between two peers can be established. This is most commonly a problem when "
+"both parties are located in different home networks with <link "
+"href=\"https://en.wikipedia.org/wiki/Network_address_translation\">NAT</"
+"link> or restrictive <link href=\"https://en.wikipedia.org/wiki/"
+"Firewall_(computing)\">firewalls</link>."
+msgstr ""
+"Den används om <link xref=\"#direct-transfer\">direkt kommunikation</link> "
+"inte kan upprättas mellan två parter. Detta är vanligen ett problem när båda "
+"parterna finns i olika hemnätverk med <link href=\"https://en.wikipedia.org/"
+"wiki/Network_address_translation\">NAT</link> eller restriktiva <link "
+"href=\"https://en.wikipedia.org/wiki/Firewall_(computing)\">brandväggar</"
+"link>."
+
+#. (itstool) path: section/p
+#: C/details-glossary.page:52
+msgid ""
+"The files are transmitted via the transmit relay in an encrypted fashion. "
+"The relay will only know about the file size."
+msgstr ""
+"Filerna överförs krypterat via överföringsknutpunkten. Knutpunkten kommer "
+"endast känna till filstorleken."
+
+#. (itstool) path: section/p
+#: C/details-glossary.page:53
+msgid ""
+"Transfers via the transmit relay may be slower than direct transfer, "
+"depending on relay congestion."
+msgstr ""
+"Överföringar genom överföringsknutpunkten kan vara långsammare än direkt "
+"överföring, beroende på stockning i knutpunkten."
+
+#. (itstool) path: section/title
+#: C/details-glossary.page:56
+msgid "Direct Transfer"
+msgstr "Direkt överföring"
+
+#. (itstool) path: section/p
+#: C/details-glossary.page:57
+msgid ""
+"If both peers can find a direct networking path between each other they will "
+"send the file directly. This is often referred to as a <link href=\"https://"
+"en.wikipedia.org/wiki/Peer-to-peer\">Peer-to-Peer</link> connection. This "
+"type of connection is typically faster than a connection via the <link "
+"xref=\"#transmit-relay\"/>"
+msgstr ""
+"Om båda parter kan hitta en direkt nätverksväg mellan sig kommer de skicka "
+"filen direkt. Detta kallas ofta en <link href=\"https://en.wikipedia.org/"
+"wiki/Peer-to-peer\">Peer-to-Peer</link>-anslutning. Denna sorts anslutning "
+"är vanligen snabbare än en anslutning genom en <link xref=\"#transmit-"
+"relay\"/>"
+
+#. (itstool) path: info/desc
+#: C/details-qr.page:11
+msgid "Using QR Codes"
+msgstr "Använda QR-koder"
+
+#. (itstool) path: page/title
+#: C/details-qr.page:13
+msgid "QR Codes"
+msgstr "QR-koder"
+
+#. (itstool) path: page/p
+#: C/details-qr.page:14
+msgid "Instead of typing the code manually it is possible to scan a QR code."
+msgstr ""
+"I stället för att mata in koden manuellt är det möjligt att skanna en QR-kod."
+
+#. (itstool) path: page/p
+#: C/details-qr.page:15
+msgid ""
+"For a list of supported apps, see the <link href=\"https://gitlab.gnome.org/"
+"World/warp/-/blob/main/README.md#qr-codes\">readme file</link>."
+msgstr ""
+"Se <link href=\"https://gitlab.gnome.org/World/warp/-/blob/main/README.md#qr-"
+"codes\">README-filen</link> för en lista över program som stöds."
+
+#. (itstool) path: page/p
+#: C/details-qr.page:17
+msgid ""
+"Using any other apps might lead to problems scanning the code. The QR code "
+"standard is fairly new and not all apps have updated their custom QR code "
+"format to the standardized version."
+msgstr ""
+"Användning av andra program kan leda till problem med att skanna in koden. "
+"QR-kodstandarden är ganska ny och alla program har inte uppdaterat sitt "
+"anpassade QR-kodformat till den standardiserade versionen."
+
+#. (itstool) path: section/title
+#: C/details-qr.page:20
+msgid "Scan QR Codes"
+msgstr "Läs av QR-koder"
+
+#. (itstool) path: section/p
+#: C/details-qr.page:21
+msgid ""
+"To scan a QR code generated by another app, a QR code button is available on "
+"the <gui>Receive</gui> page. Successfully scanning a code will open up the "
+"transfer dialog."
+msgstr ""
+"För att läsa av en QR-kod som skapats av ett annat program så finns en QR-"
+"kodknapp på sidan <gui>Ta emot</gui>. Att lyckas läsa av en kod kommer öppna "
+"överföringsdialogen."
+
+#. (itstool) path: note/p
+#: C/details-qr.page:24
+msgid ""
+"Inverted QR codes (white on black background) are currently not supported."
+msgstr ""
+"Inverterade QR-koder (vita på svart bakgrund) stöds för närvarande inte."
+
+#. (itstool) path: section/p
+#: C/details-qr.page:26
+msgid ""
+"This functionality uses <link href=\"https://www.pipewire.org/\">PipeWire</"
+"link>, via the same mechanism as <link href=\"https://apps.gnome.org/"
+"Snapshot/\">GNOME Camera</link>."
+msgstr ""
+"Denna funktionalitet använder <link href=\"https://www.pipewire.org/"
+"\">PipeWire</link> via samma mekanism som <link href=\"https://"
+"apps.gnome.org/Snapshot/\">GNOME Kamera</link>."
+
+#. (itstool) path: section/p
+#: C/details-qr.page:28
+msgid ""
+"For troubleshooting instructions see <link href=\"https://gitlab.gnome.org/"
+"GNOME/snapshot/-/blob/main/TROUBLESHOOTING.md?ref_type=heads\">GNOME Camera "
+"on GNOME GitLab</link>."
+msgstr ""
+"Se <link href=\"https://gitlab.gnome.org/GNOME/snapshot/-/blob/main/"
+"TROUBLESHOOTING.md?ref_type=heads\">GNOME Kamera på GNOME GitLab</link> för "
+"problemlösningsinstruktioner."
+
+#. (itstool) path: info/desc
+#: C/general-intro.page:11
+msgid "Introduction to file transfer with <app>Warp</app>"
+msgstr "Introduktion till filöverföring med <app>Warp</app>"
+
+#. (itstool) path: page/title
+#: C/general-intro.page:13
+msgid "Introduction"
+msgstr "Introduktion"
+
+#. (itstool) path: page/p
+#: C/general-intro.page:14
+msgid ""
+"<app>Warp</app> is an app that allows you to send files from one device to "
+"another effortlessly. <app>Warp</app> uses a secure transmit code to "
+"identify and encrypt file transmissions."
+msgstr ""
+"<app>Warp</app> är ett program som låter dig enkelt skicka filer från en "
+"enhet till en annan. <app>Warp</app> använder en säker överföringskod för "
+"att identifiera och kryptera filöverföringar."
+
+#. (itstool) path: page/p
+#: C/general-intro.page:16
+msgid ""
+"To use <app>Warp</app> to transfer a file, the sender needs to open the app. "
+"Select a file using the <gui>Send</gui> tab. <app>Warp</app> will now try to "
+"contact the <link xref=\"details-glossary#rendezvous-server\"/> and generate "
+"a <link xref=\"details-glossary#transmit-code\"/>."
+msgstr ""
+"Användaren behöver öppna <app>Warp</app> för att använda programmet för att "
+"överföra en fil. Välj en fil med fliken <gui>Skicka</gui>. <app>Warp</app> "
+"kommer nu försöka kontakta <link xref=\"details-glossary#rendezvous-server\"/"
+">n och skapa en <link xref=\"details-glossary#transmit-code\"/>."
+
+#. (itstool) path: page/p
+#: C/general-intro.page:19
+msgid ""
+"The sender then needs to tell the receiver the transmit code of the file. "
+"(preferably via an encrypted or otherwise secure channel). After entering "
+"the transmit code at the receiver side the file transmission can begin."
+msgstr ""
+"Avsändaren behöver sedan meddela mottagaren vad filens överföringskod är. "
+"(Förslagsvis genom en krypterad eller på annat sätt säker kanal). Efter att "
+"ha angivit överföringskoden på mottagarsidan kan filöverföringen börja."
+
+#. (itstool) path: page/p
+#: C/general-intro.page:21
+msgid ""
+"It is also possible to copy a <link xref=\"details-glossary#transmit-"
+"link\">link</link> that will automatically open Warp with the displayed code."
+msgstr ""
+"Det är också möjligt att kopiera en <link xref=\"details-glossary#transmit-"
+"link\">länk</link> som automatiskt kommer öppna Warp med den visade koden."
+
+#. (itstool) path: note/p
+#: C/general-intro.page:24
+msgid ""
+"Every transmit code can only be entered once for security reasons. If the "
+"receiver mistypes the transmission code the file transfer will be aborted. "
+"The sender then needs to select the file again and generate a new code."
+msgstr ""
+"Varje överföringskod kan endast anges en gång av säkerhetsskäl. Om "
+"mottagaren stavar fel på överföringskoden så kommer filöverföringen "
+"avbrytas. Avsändaren behöver då välja filen på nytt och skapa en ny kod."
+
+#. (itstool) path: page/p
+#: C/general-intro.page:27
+msgid ""
+"A progress bar will indicate a running file transfer. Files will either be "
+"transmitted via <link xref=\"details-glossary#direct-transfer\"/> or via the "
+"<link xref=\"details-glossary#transmit-relay\"/>. The transfer can be "
+"aborted at any time using the <gui>Cancel</gui> button."
+msgstr ""
+"En förloppsindikator beskriver en aktiv filöverföring. Filer kommer antingen "
+"överföras genom <link xref=\"details-glossary#direct-transfer\"/> eller "
+"genom en <link xref=\"details-glossary#transmit-relay\"/>. Överföringen kan "
+"överföras när som helst med <gui>Avbryt</gui>-knappen."
+
+#. (itstool) path: info/desc
+#: C/index.page:10
+msgid "Fast and secure file transfer."
+msgstr "Snabb och säker filöverföring."
+
+#. (itstool) path: page/title
+#: C/index.page:12
+msgid "Warp"
+msgstr "Warp"
+
+#. (itstool) path: section/title
+#: C/index.page:14
+msgid "General"
+msgstr "Allmänt"
+
+#. (itstool) path: section/title
+#: C/index.page:17
+msgid "Details"
+msgstr "Detaljer"

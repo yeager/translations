@@ -1,0 +1,24 @@
+{
+  "files_checked": 1,
+  "entries_checked": 55,
+  "errors": 1,
+  "warnings": 0,
+  "issues": [
+    {
+      "file": ".work-gnome-current/warp-help/reviewed.po",
+      "line": 57,
+      "severity": "info",
+      "rule": "source-equals-translation",
+      "message": "Translation is identical to source (possibly untranslated)",
+      "context": "wormhole receive"
+    },
+    {
+      "file": ".work-gnome-current/warp-help/reviewed.po",
+      "line": 211,
+      "severity": "error",
+      "rule": "python-format",
+      "message": "Placeholder mismatch (python): source has [(('code', '', ''), 1)], translation has [(('kod', '', ''), 1)]",
+      "context": "wormhole-transfer:{code}"
+    }
+  ]
+}
