@@ -385,3 +385,8 @@ Alla 120 poster granskades och liveverifierades; 24 ändringar sparades/lästes 
 ## Batch 69: 37,457–37,576
 
 120/120 granskade. 14 ändringar sparade och livekontrollerade. Källor: {'current-source-match': 72, 'source-absent': 23, 'reference-resolved': 25}; 25 referenser verifierade; platshållare 120/120; 23 äldre källsaknade nycklar att följa upp. Manifest/TMX tillagt.
+
+
+## Batch 70: 37,577–37,696
+
+120/120 granskade. 15 ändringar sparade och livekontrollerade. Källor: {'current-source-match': 76, 'reference-resolved': 23, 'source-absent': 21}; 23 referenser verifierade; platshållare 120/120; 21 äldre källsaknade nycklar att följa upp. Manifest/TMX tillagt.
