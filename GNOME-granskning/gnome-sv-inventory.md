@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-26 11:22 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-26 11:40 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -291,7 +291,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [gegl](https://l10n.gnome.org/vertimus/gegl/master/po/sv/) | master | 2260 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [genius](https://l10n.gnome.org/vertimus/genius/master/po/sv/) | master | 1175 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [genius](https://l10n.gnome.org/vertimus/genius/master/help/sv/) | master | 2465 | 0 | 0 | Klar |  | — | Ej granskad |
-| Gränssnitt | Default (99% translated) | [ghex](https://l10n.gnome.org/vertimus/ghex/master/po/sv/) | master | 260 | 0 | 0 | Klar |  | — | Ej granskad |
+| Gränssnitt | Default (99% translated) | [ghex](https://l10n.gnome.org/vertimus/ghex/master/po/sv/) | master | 260 | 0 | 0 | Klar | X | 60 | Klar lokalt (2026-11-26): Alla 260 aktiva strängar radgranskade mot senaste POT: 0 oöversatta och 0 fuzzy. 60 befintliga översättningar rättade; inga nya strängar. msgfmt och msgcmp godkända; l10n-lint utan fel och med en dokumenterad ZIP+4-varning. Ingen GNOME-inskickning har gjorts. [original](ghex/master/po/ghex.master.sv.original.po), [granskad](ghex/master/po/ghex.master.sv.reviewed.po), [diff](ghex/master/po/ghex.master.sv.review.diff), [notering](ghex/master/po/README.md) |
 | Dokumentation | Default (71% translated) | [ghex](https://l10n.gnome.org/vertimus/ghex/master/help/sv/) | master | 184 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [giara](https://l10n.gnome.org/module/giara/) | master | 89 | 0 | 0 | Klar | X | 16 | Klar lokalt (2026-11-26): Alla 89 aktiva katalogposter radgranskade mot tillgänglig POT: 0 oöversatta, 0 fuzzy; pluralformerna är ifyllda. 16 befintliga översättningar rättade, 0 nya. msgfmt och msgcmp godkända; l10n-lint 0 fel/varningar; egna platshållar- och pluralformskontroller passerar. Ingen inskickning till GNOME. [original](giara/master/po/giara.master.sv.original.po), [granskad](giara/master/po/giara.master.sv.reviewed.po), [diff](giara/master/po/giara.master.sv.review.diff), [notering](giara/master/po/README.md) |
 | Gränssnitt | Default (99% translated) | [giggle](https://l10n.gnome.org/module/giggle/) | master | 176 | 0 | 0 | Klar |  | — | Blockerad (2026-11-26): Damned Lies anger att modulen har arkiverats och endast behålls för statistik; sidan ber uttryckligen att den inte längre ska översättas. Ingen kataloggranskning eller ändring har gjorts. |

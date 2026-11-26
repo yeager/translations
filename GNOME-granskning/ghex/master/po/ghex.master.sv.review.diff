@@ -1,0 +1,594 @@
+--- a/ghex.master.sv.original.po
++++ b/ghex.master.sv.reviewed.po
+@@ -12,8 +12,8 @@
+ "Project-Id-Version: ghex\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/ghex/issues/\n"
+ "POT-Creation-Date: 2026-10-14 18:41+0000\n"
+-"PO-Revision-Date: 2025-06-24 23:05+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-26 12:32+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -33,7 +33,8 @@
+ #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon! Here, 'binary' means a binary file (not the base-2 numeric system).
+ #: data/org.gnome.GHex.desktop.in.in:7
+ msgid "binary;debug;hexadecimal;"
+-msgstr "binär;felsök;debug;hexadecimal;"
++msgstr "binärfil;felsökning;hexadecimal;"
++
+ 
+ #: data/org.gnome.GHex.desktop.in.in:20
+ msgid "New Window"
+@@ -55,10 +56,11 @@
+ "hexadecimal values in one column and the ASCII representation in the other. "
+ "GHex is a useful tool for working with raw data."
+ msgstr ""
+-"GHex kan läsa in rådata från binärfiler och visa dem för redigering i den "
+-"traditionella hexadecimalredigerarvyn. Fönstret är delat i två kolumner, med "
+-"hexadecimala värden i en kolumn och ASCII-representationen i den andra. GHex "
+-"är ett användbart verktyg för att arbeta med rådata."
++"GHex kan läsa in rådata från binärfiler och visa dem i den traditionella vyn"
++" för hexadecimalredigering. Vyn är delad i två kolumner: hexadecimala värden"
++" visas i den ena och ASCII-representationen i den andra. GHex är ett "
++"användbart verktyg för att arbeta med rådata."
++
+ 
+ #: data/org.gnome.GHex.metainfo.xml.in.in:43
+ msgid "Logan Rathbone"
+@@ -118,16 +120,18 @@
+ "this program; if not, write to the Free Software Foundation, Inc., 51 "
+ "Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA"
+ msgstr ""
+-"Du bör ha fått en kopia av GNU General Public License tillsammans med "
+-"Brasero. Om inte, skriv till Free Software Foundation, Inc., 51 Franklin "
+-"Street, Fifth Floor, Boston, MA 02110-1301, USA"
++"Du bör ha fått en kopia av GNU General Public License tillsammans med GHex. "
++"Om du inte har fått det, skriv till Free Software Foundation, Inc., 51 "
++"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
++
+ 
+ #. Translators: these two strings here indicate the copyright time span,
+ #. e.g. 1998-2018.
+ #: src/common-ui.c:266
+ #, c-format
+ msgid "Copyright © %d–%d The GHex authors"
+-msgstr "Copyright © %d–%d GHex-upphovsmännen"
++msgstr "Copyright © %d–%d GHex-upphovspersonerna"
++
+ 
+ #: src/common-ui.c:286
+ msgid "translator-credits"
+@@ -260,7 +264,8 @@
+ 
+ #: src/findreplace.c:226
+ msgid "No string provided."
+-msgstr "Ingen sträng tillhandahölls."
++msgstr "Ingen söksträng har angetts."
++
+ 
+ #: src/findreplace.c:398
+ msgid ""
+@@ -268,9 +273,10 @@
+ "\n"
+ "No further matches found."
+ msgstr ""
+-"Början på filen nådd.\n"
++"Filens början har nåtts.\n"
+ "\n"
+-"Inga fler matchningar hittades."
++"Inga fler träffar hittades."
++
+ 
+ #: src/findreplace.c:400
+ msgid ""
+@@ -278,9 +284,10 @@
+ "\n"
+ "No occurrences found from cursor."
+ msgstr ""
+-"Början på filen nådd.\n"
++"Filens början har nåtts.\n"
+ "\n"
+-"Inga förekomster hittades från markören."
++"Inga förekomster hittades före markören."
++
+ 
+ #: src/findreplace.c:410
+ msgid ""
+@@ -288,9 +295,10 @@
+ "\n"
+ "No further matches found."
+ msgstr ""
+-"Slutet på filen nådd.\n"
++"Filens slut har nåtts.\n"
+ "\n"
+-"Inga fler matchningar hittades."
++"Inga fler träffar hittades."
++
+ 
+ #: src/findreplace.c:412
+ msgid ""
+@@ -298,9 +306,10 @@
+ "\n"
+ "No occurrences found from cursor."
+ msgstr ""
+-"Slutet på filen nådd.\n"
++"Filens slut har nåtts.\n"
+ "\n"
+-"Inga förekomster hittades från markören."
++"Inga förekomster hittades efter markören."
++
+ 
+ #: src/findreplace.c:483
+ msgid "No offset has been specified."
+@@ -313,7 +322,8 @@
+ 
+ #: src/findreplace.c:516
+ msgid "Can not position cursor beyond the end of file."
+-msgstr "Kan inte placera markören efter filslutet."
++msgstr "Markören kan inte flyttas förbi filens slut."
++
+ 
+ #: src/findreplace.c:527
+ msgid ""
+@@ -322,10 +332,11 @@
+ "  - a hex number, beginning with '0x', or\n"
+ "  - a '+' or '-' sign, followed by a relative offset"
+ msgstr ""
+-"Du kan endast ange position som:\n"
+-"  - ett positivt decimalnummer, eller\n"
+-"  - ett hexadecimalt nummer, som börjar med ”0x” eller\n"
+-"  - ett ”+” eller ”-”-tecken, följt av en relativ position"
++"Du kan bara ange en position på något av följande sätt:\n"
++"  - ett positivt decimaltal, eller\n"
++"  - ett hexadecimalt tal som börjar med ”0x”, eller\n"
++"  - ett ”+”- eller ”-”-tecken följt av en relativ position"
++
+ 
+ #: src/findreplace.c:586
+ msgid "String was not found."
+@@ -334,7 +345,8 @@
+ #: src/findreplace.c:650
+ #, c-format
+ msgid "Search complete: %d replacements made."
+-msgstr "Sökning slutförd: %d ersättningar gjorda."
++msgstr "Sökningen är klar: %d förekomster ersattes."
++
+ 
+ #: src/findreplace.c:657
+ msgid "No occurrences were found."
+@@ -360,8 +372,9 @@
+ "Open documents contain unsaved changes.\n"
+ "Changes which are not saved will be permanently lost."
+ msgstr ""
+-"Öppna dokument innehåller osparade ändringar.\n"
+-"Ändringar som inte har sparats kommer att förloras permanent."
++"Det finns öppna dokument med osparade ändringar.\n"
++"Det som inte sparats går förlorat permanent."
++
+ 
+ #: src/ghex-application-window.c:407 src/ghex-application-window.c:536
+ #: src/ghex-application-window.c:1272 src/paste-special.ui:53
+@@ -399,9 +412,8 @@
+ msgid ""
+ "An unknown error has occurred in attempting to reload the file you have just "
+ "saved."
+-msgstr ""
+-"Ett okänt fel har inträffat vid försök att på nytt läsa filen du just har "
+-"sparat."
++msgstr "Ett okänt fel uppstod när filen du nyss sparade skulle läsas in igen."
++
+ 
+ #: src/ghex-application-window.c:1199
+ msgid "Select a file to save buffer as"
+@@ -424,7 +436,8 @@
+ 
+ #: src/ghex-application-window.c:1273 src/ghex-application-window.ui.in:39
+ msgid "_Revert"
+-msgstr "_Återgå"
++msgstr "Å_terställ"
++
+ 
+ #: src/ghex-application-window.c:1363
+ msgid "Select a file to open"
+@@ -599,7 +612,8 @@
+ 
+ #: src/ghex-application-window.ui.in:104
+ msgid "_Quadwords (64-bit)"
+-msgstr "_Quad-ord (64 bitar)"
++msgstr "_Quadword (64 bitar)"
++
+ 
+ #: src/ghex-application-window.ui.in:113
+ msgid "_Tools"
+@@ -670,20 +684,23 @@
+ "Or, press Ctrl+W to close the window."
+ msgstr ""
+ "• Tryck på knappen Öppna\n"
+-"• Tryck Ctrl+T för att starta ett nytt dokument\n"
+-"• Tryck Ctrl+O för att bläddra efter ett dokument\n"
++"• Tryck på Ctrl+T för att starta ett nytt dokument\n"
++"• Tryck på Ctrl+O för att leta upp ett dokument\n"
+ "\n"
+-"Eller tryck Ctrl+W för att stänga fönstret."
++"Eller tryck på Ctrl+W för att stänga fönstret."
++
+ 
+ #: src/ghex-application-window.ui.in:317
+ msgid "Toggle insert mode (add data to file rather than replace existing data)"
+ msgstr ""
+-"Växla inskrivningsläge (lägg till data till fil snarare än att ersätta "
++"Växla infogningsläge (lägg till data i filen i stället för att ersätta "
+ "befintliga data)"
+ 
++
+ #: src/ghex-application-window.ui.in:329
+ msgid "Toggle a pane showing various numeric conversions"
+-msgstr "Visa/dölj en panel som visar diverse numeriska konverteringar"
++msgstr "Visa eller dölj en panel med olika numeriska konverteringar"
++
+ 
+ #: src/gtkhex.ui:23
+ msgid "Automatic geometry"
+@@ -695,7 +712,8 @@
+ 
+ #: src/gtkhex.ui:62
+ msgid "_Undo"
+-msgstr "_Ångra"
++msgstr "Å_ngra"
++
+ 
+ #: src/gtkhex.ui:66
+ msgid "_Redo"
+@@ -771,11 +789,13 @@
+ 
+ #: src/help-overlay.ui:110
+ msgid "Marks dialog"
+-msgstr "Märkesdialog"
++msgstr "Dialogruta för märken"
++
+ 
+ #: src/help-overlay.ui:117
+ msgid "Activate mark (0-9)"
+-msgstr "Aktivera märke (0-9)"
++msgstr "Aktivera märke (0–9)"
++
+ 
+ #: src/help-overlay.ui:126
+ msgid "Clipboard"
+@@ -799,7 +819,8 @@
+ 
+ #: src/help-overlay.ui:159
+ msgid "Paste special"
+-msgstr "Klista in special"
++msgstr "Klistra in special"
++
+ 
+ #: src/help-overlay.ui:168
+ msgid "Navigation"
+@@ -807,11 +828,13 @@
+ 
+ #: src/help-overlay.ui:173
+ msgid "Toggle left (hex) display"
+-msgstr "Visa/dölj vänster vy (hex)"
++msgstr "Visa eller dölj hexvyn till vänster"
++
+ 
+ #: src/help-overlay.ui:180
+ msgid "Toggle right (ASCII) display"
+-msgstr "Visa/dölj höger vy (ASCII)"
++msgstr "Visa eller dölj ASCII-vyn till höger"
++
+ 
+ #: src/help-overlay.ui:187
+ msgid "Switch to previous tab"
+@@ -827,11 +850,13 @@
+ 
+ #: src/help-overlay.ui:208
+ msgid "Move to beginning of document"
+-msgstr "Gå till början på dokumentet"
++msgstr "Gå till början av dokumentet"
++
+ 
+ #: src/help-overlay.ui:215
+ msgid "Move to end of document"
+-msgstr "Gå till slutet på dokumentet"
++msgstr "Gå till slutet av dokumentet"
++
+ 
+ #: src/help-overlay.ui:224
+ msgid "General"
+@@ -851,7 +876,8 @@
+ 
+ #: src/help-overlay.ui:250
+ msgid "Toggle insert mode"
+-msgstr "Växla inskrivningsläge"
++msgstr "Växla infogningsläge"
++
+ 
+ #: src/hex-buffer-direct.c:42 src/hex-buffer-mmap.c:50
+ msgid "The file appears to have an invalid path."
+@@ -869,7 +895,8 @@
+ 
+ #: src/hex-buffer-direct.c:193
+ msgid "Failed to read data from file."
+-msgstr "Misslyckades med att läsa data från fil."
++msgstr "Det gick inte att läsa data från filen."
++
+ 
+ #: src/hex-buffer-direct.c:212 src/hex-buffer-mmap.c:610
+ msgid "Unable to retrieve file or directory information"
+@@ -877,35 +904,42 @@
+ 
+ #: src/hex-buffer-direct.c:221 src/hex-buffer-mmap.c:619
+ msgid "Unable to create file"
+-msgstr "Kunde inte skapa fil"
++msgstr "Det gick inte att skapa filen"
++
+ 
+ #: src/hex-buffer-direct.c:230
+ msgid "Not a regular file or block device"
+-msgstr "Inte en vanlig fil eller blockenhet"
++msgstr "Det är inte en vanlig fil eller en blockenhet"
++
+ 
+ #: src/hex-buffer-direct.c:240 src/hex-buffer-mmap.c:638
+ msgid "Unable to open file for reading"
+-msgstr "Kunde inte öppna fil för läsning"
++msgstr "Det gick inte att öppna filen för läsning"
++
+ 
+ #: src/hex-buffer-direct.c:404
+ msgid "Unable to read file"
+-msgstr "Kunde inte läsa fil"
++msgstr "Det gick inte att läsa filen"
++
+ 
+ #: src/hex-buffer-direct.c:417
+ msgid "Error attempting to read block device"
+-msgstr "Fel vid försök att läsa blockenhet"
++msgstr "Ett fel uppstod när blockenheten skulle läsas"
++
+ 
+ #: src/hex-buffer-direct.c:532
+ msgid ""
+ "With direct-write mode, you cannot save a file to a path other than its "
+ "originating path"
+ msgstr ""
+-"Med direktskrivläge kan du inte spara en fil till en annan sökväg än dess "
++"I direktskrivningsläge kan du inte spara filen på en annan sökväg än den "
+ "ursprungliga"
+ 
++
+ #: src/hex-buffer-direct.c:557
+ msgid "Error writing changes to file"
+-msgstr "Fel vid skrivning av ändringar till fil"
++msgstr "Fel när ändringarna skulle skrivas till filen"
++
+ 
+ #: src/hex-buffer-mmap.c:328
+ #, c-format
+@@ -915,7 +949,8 @@
+ #: src/hex-buffer-mmap.c:377 src/hex-buffer-mmap.c:396
+ #, c-format
+ msgid "Fatal error: Memory mapping of file (%lu bytes, fd %d) failed"
+-msgstr "Ödesdigert fel: Minnesmappning av filen (%lu byte, fd %d) misslyckades"
++msgstr "Allvarligt fel: Det gick inte att minnesmappa filen (%lu byte, fd %d)"
++
+ 
+ #: src/hex-buffer-mmap.c:628
+ msgid "Not a regular file"
+@@ -923,7 +958,8 @@
+ 
+ #: src/hex-buffer-mmap.c:669
+ msgid "Failed to open temporary file."
+-msgstr "Misslyckades med att öppna temporär fil."
++msgstr "Det gick inte att öppna den temporära filen."
++
+ 
+ #: src/hex-buffer-mmap.c:708
+ msgid "Error reading file"
+@@ -967,11 +1003,13 @@
+ 
+ #: src/hex-dialog.c:78
+ msgid "Float 32 bit:"
+-msgstr "Flytande 32 bitar:"
++msgstr "32-bitars flyttal:"
++
+ 
+ #: src/hex-dialog.c:79
+ msgid "Float 64 bit:"
+-msgstr "Flytande 64 bitar:"
++msgstr "64-bitars flyttal:"
++
+ 
+ #: src/hex-dialog.c:80
+ msgid "Hexadecimal:"
+@@ -987,12 +1025,14 @@
+ 
+ #: src/hex-dialog.c:201
+ msgid "Show little endian decoding"
+-msgstr "Visa little endian-avkodning"
++msgstr "Visa avkodning i little-endian-format"
++
+ 
+ # Osäker.
+ #: src/hex-dialog.c:207
+ msgid "Show unsigned and float as hexadecimal"
+-msgstr "Visa teckenlösa och flyttal hexadecimalt"
++msgstr "Visa heltal utan tecken och flyttal i hexadecimal form"
++
+ 
+ #: src/hex-dialog.c:213
+ msgid "Stream Length:"
+@@ -1028,7 +1068,8 @@
+ 
+ #: src/hex-info-bar.ui:69
+ msgid "_Discard Changes and Reload"
+-msgstr "_Förkasta ändringar och läs in på nytt"
++msgstr "_Kasta ändringar och läs in filen igen"
++
+ 
+ #: src/jump-dialog.ui:35
+ msgid "Jump to byte (enter offset):"
+@@ -1041,10 +1082,11 @@
+ "using the '0x' prefix is used. If your string is not recognized, a dialog "
+ "will be presented explaining the valid formats of strings accepted."
+ msgstr ""
+-"Ange positionsbyten att hoppa till. Standard är decimalformat, men andra "
+-"formatsträngar stöds, såsom hexadecimalt format om notation i C-stil med "
+-"prefixet ”0x” används. Om din sträng inte känns igen kommer en dialogruta "
+-"att visas som förklarar de giltiga strängformaten som accepteras."
++"Ange bytepositionen du vill hoppa till. Standardformatet är decimalt, men "
++"även andra format stöds, till exempel hexadecimal notation med prefixet ”0x”"
++" enligt C-konventionen. Om värdet inte känns igen visas en dialogruta med de"
++" format som godtas."
++
+ 
+ #: src/jump-dialog.ui:49 src/mark-dialog.ui:110
+ msgid "_Jump"
+@@ -1052,11 +1094,13 @@
+ 
+ #: src/jump-dialog.ui:55
+ msgid "Jumps to the specified byte"
+-msgstr "Hoppar till den angivna byten"
++msgstr "Hoppar till den angivna bytepositionen"
++
+ 
+ #: src/jump-dialog.ui:65
+ msgid "Closes the jump-to-byte pane"
+-msgstr "Stänger hoppa-till-byte-fönstret"
++msgstr "Stänger panelen för att hoppa till en byteposition"
++
+ 
+ #: src/main.c:44
+ msgid "Open a new window"
+@@ -1073,7 +1117,8 @@
+ 
+ #: src/main.c:194
+ msgid "GHex - A hex editor for the GNOME desktop"
+-msgstr "GHex - En hexadecimalredigerare för GNOME-skrivbordet"
++msgstr "GHex – en hexadecimalredigerare för GNOME-skrivbordet"
++
+ 
+ #. Translators: this is meant to show a range of hex offset values.
+ #. * eg, "0xAA - 0xFF"
+@@ -1089,15 +1134,18 @@
+ 
+ #: src/mark-dialog.ui:50
+ msgid "Select the desired mark to set, jump to, or delete"
+-msgstr "Välj det önskade märket att ställa in, hoppa till eller ta bort"
++msgstr "Välj vilket märke du vill lägga till, hoppa till eller ta bort"
++
+ 
+ #: src/mark-dialog.ui:58
+ msgid "Optional custom color for the mark"
+-msgstr "Valfritt en anpassad färg för märket"
++msgstr "Valfri anpassad färg för märket"
++
+ 
+ #: src/mark-dialog.ui:74
+ msgid "Pick a custom color for the mark, if desired."
+-msgstr "Välj en anpassad färg för märket om så önskas."
++msgstr "Välj vid behov en anpassad färg för märket."
++
+ 
+ #: src/mark-dialog.ui:96
+ msgid "_Set"
+@@ -1105,11 +1153,13 @@
+ 
+ #: src/mark-dialog.ui:103
+ msgid "Set a mark on a byte or range of bytes"
+-msgstr "Ställ in ett märke på en byte eller ett intervall av byte"
++msgstr "Sätt ett märke vid en byte eller ett byteintervall"
++
+ 
+ #: src/mark-dialog.ui:122
+ msgid "Bring the cursor to the specified mark"
+-msgstr "För markören till det angivna märket"
++msgstr "Flytta markören till det angivna märket"
++
+ 
+ #: src/mark-dialog.ui:129
+ msgid "_Delete"
+@@ -1126,14 +1176,16 @@
+ #: src/paste-special.c:224
+ #, c-format
+ msgid "Failed to paste. Unexpected end of text"
+-msgstr "Misslyckades med att klistra in. Oväntat slut på text"
++msgstr "Det gick inte att klistra in. Texten tog oväntat slut"
++
+ 
+ #: src/paste-special.c:238
+ #, c-format
+ msgid "Failed to paste. The pasted string contains an invalid hex digit."
+ msgstr ""
+-"Misslyckades med att klistra in. Den inklistrade strängen innehåller en "
+-"ogiltig hexadecimal siffra."
++"Det gick inte att klistra in. Den inklistrade strängen innehåller en ogiltig"
++" hexsiffra."
++
+ 
+ #: src/paste-special.c:335
+ msgid "GHex Paste Data"
+@@ -1153,7 +1205,8 @@
+ 
+ #: src/paste-special.c:578
+ msgid "Plain text (as hex string representing bytes)"
+-msgstr "Vanlig text (som hexadecimal sträng som representerar byte)"
++msgstr "Vanlig text (som en hexsträng för byte)"
++
+ 
+ #: src/paste-special.ui:28
+ msgid "Paste Special"
+@@ -1165,7 +1218,8 @@
+ 
+ #: src/preferences.ui:33
+ msgid "Display"
+-msgstr "Utseende"
++msgstr "Visning"
++
+ 
+ #: src/preferences.ui:37
+ msgid "Appearance"
+@@ -1185,7 +1239,8 @@
+ 
+ #: src/preferences.ui:83
+ msgid "Hex Display"
+-msgstr "Hexadecimal visning"
++msgstr "Hexvisning"
++
+ 
+ #: src/preferences.ui:87
+ msgid "Group data as"
+@@ -1205,7 +1260,8 @@
+ 
+ #: src/preferences.ui:112
+ msgid "Quadwords (64-bit)"
+-msgstr "Quad-ord (64 bitar)"
++msgstr "Quadword (64 bitar)"
++
+ 
+ #: src/preferences.ui:122
+ msgid "Show offsets column"
+@@ -1257,7 +1313,8 @@
+ 
+ #: src/preferences.ui:233
+ msgid "Span across lines:"
+-msgstr "Spänn över rader:"
++msgstr "Antal skuggade rader:"
++
+ 
+ #: src/print.c:50
+ #, c-format
+@@ -1266,7 +1323,8 @@
+ 
+ #: src/replace-dialog.ui:34
+ msgid "Enter the hex data or ASCII data to replace with"
+-msgstr "Ange den hexadecimala data eller ASCII-data som ska ersättas med"
++msgstr "Ange hexdata eller ASCII-data som ska ersätta de befintliga data"
++
+ 
+ #: src/replace-dialog.ui:37
+ msgid "Replace With"

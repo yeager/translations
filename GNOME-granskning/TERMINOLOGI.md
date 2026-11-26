@@ -716,3 +716,16 @@ argumentet betyder i just det programmet.
 | audio track | ljudspår | |
 | subtitle track | undertextspår | |
 | screenshot | skärmbild | |
+
+## GHex — hexadecimalredigerare
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| hex editor | hexadecimalredigerare | Följ befintlig GNOME TM-term. |
+| offset (file position) | position | I GHex-gränssnittet; skriv byteposition när byteenheten behöver framgå. |
+| buffer backend | bufferttyp | GHex-användartext; undvik det svårbegripliga *bakände*. |
+| hex data | hexdata | Teknisk dataformatsterm i GHex. |
+| signed / unsigned | med tecken / utan tecken | Exempel: *8-bitars med tecken*, *heltal utan tecken*. |
+| little-endian | little-endian | Behåll den etablerade tekniska termen i korta gränssnittsetiketter. |
+| quadword | Quadword | Behåll termen; svensk Microsoft Learn använder *Quadword* för 64 bitar. [Microsoft Learn](https://learn.microsoft.com/sv-se/cpp/build/x64-software-conventions?view=msvc-170). |
+| Span across lines (shaded rows) | Antal skuggade rader | GHex-inställningen anger hur många rader som skuggas i följd; se `C/conf-preferences.page:82`. |
