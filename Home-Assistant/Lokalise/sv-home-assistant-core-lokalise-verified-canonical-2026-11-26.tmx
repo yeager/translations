@@ -28378,12 +28378,12 @@ Bekräfta för att starta migreringen av din IMAP-serverkonfiguration till integ
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
       <prop type="verification-method">Lokalise API PUT followed by GET readback</prop>
       <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
+      <prop type="verified-date">2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The device with address {address} is not advertising: {reason}</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Enheten med adressen {address} annonserar inte: {reason}. Se till att den är påslagen och inom räckhåll.</seg>
+        <seg>Enheten med adressen {address} annonserar inte: {reason}</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:2917055397">
@@ -325118,6 +325118,1059 @@ Ta bort de (nu obrukbara) SunWEG-integrationsposterna från din Home Assistant-k
       </tuv>
       <tuv xml:lang="sv">
         <seg>Välj den UPS på NUT-servern som ska övervakas</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5570400263">
+      <prop type="source">component::whirlpool::entity::sensor::dryer_state::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>State</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Tillstånd</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5570400326">
+      <prop type="source">component::whirlpool::entity::sensor::washer_state::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>State</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Tillstånd</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5571812482">
+      <prop type="source">component::comelit::exceptions::cannot_authenticate::message</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Error authenticating</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Fel vid autentisering</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5571812545">
+      <prop type="source">component::comelit::exceptions::cannot_connect::message</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Error connecting: {error}</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Fel vid anslutning: {error}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5576909965">
+      <prop type="source">component::samsungtv::exceptions::service_unsupported::message</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Unable to turn on {entity}, as it does not have an automation configured.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det går inte att slå på {entity} eftersom ingen automation är konfigurerad för den.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5576910028">
+      <prop type="source">component::samsungtv::exceptions::unhandled_trigger_type::message</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Unhandled trigger type {trigger_type}.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ohanterad utlösartyp {trigger_type}.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5580001935">
+      <prop type="source">component::whirlpool::config::step::reauth_confirm::data_description::password</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The password you use to log in to the Whirlpool/Maytag app</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det lösenord som du använder för att logga in på Whirlpool/Maytag-appen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5580001998">
+      <prop type="source">component::whirlpool::config::step::reauth_confirm::data_description::region</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The region where your appliances where purchased</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Den region där dina apparater köptes</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5580002061">
+      <prop type="source">component::whirlpool::config::step::user::data_description::password</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The password you use to log in to the Whirlpool/Maytag app</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det lösenord som du använder för att logga in på Whirlpool/Maytag-appen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5580002124">
+      <prop type="source">component::whirlpool::config::step::user::data_description::region</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The region where your appliances where purchased</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Den region där dina apparater köptes</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5580002187">
+      <prop type="source">component::whirlpool::config::step::user::data_description::username</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The username or email address you use to log in to the Whirlpool/Maytag app</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det användarnamn eller den e-postadress som du använder för att logga in på Whirlpool/Maytag-appen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5582827356">
+      <prop type="source">component::xiaomi_ble::device_automation::trigger_type::button_mid_left</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Button Mid Left "{subtype}"</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Knapp i mitten till vänster "{subtype}"</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5582827419">
+      <prop type="source">component::xiaomi_ble::device_automation::trigger_type::button_mid_right</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Button Mid Right "{subtype}"</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Knapp i mitten till höger "{subtype}"</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5582827484">
+      <prop type="source">component::syncthru::entity::sensor::active_alerts::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Active alerts</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Aktiva varningar</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5582827547">
+      <prop type="source">component::syncthru::entity::sensor::active_alerts::unit_of_measurement</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>alerts</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>varningar</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5582827610">
+      <prop type="source">component::syncthru::entity::sensor::drum_black::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Black drum</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Nivå för svart trumma</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5582827673">
+      <prop type="source">component::syncthru::entity::sensor::drum_cyan::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Cyan drum</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Nivå för cyan trumma</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5582827736">
+      <prop type="source">component::syncthru::entity::sensor::drum_magenta::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Magenta drum</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Nivå för magenta trumma</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5582827799">
+      <prop type="source">component::syncthru::entity::sensor::drum_yellow::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Yellow drum</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Nivå för gul trumma</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5582827862">
+      <prop type="source">component::syncthru::entity::sensor::output_tray::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Output tray {tray_number}</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Utmatningsfack {tray_number}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5582827925">
+      <prop type="source">component::syncthru::entity::sensor::toner_black::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Black toner</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Nivå för svart toner</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5582827988">
+      <prop type="source">component::syncthru::entity::sensor::toner_cyan::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Cyan toner</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Nivå för cyan toner</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5582828051">
+      <prop type="source">component::syncthru::entity::sensor::toner_magenta::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Magenta toner</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Nivå för magenta toner</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5582828114">
+      <prop type="source">component::syncthru::entity::sensor::toner_yellow::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Yellow toner</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Nivå för gul toner</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5582828177">
+      <prop type="source">component::syncthru::entity::sensor::tray::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Input tray {tray_number}</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Inmatningsfack {tray_number}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5582828240">
+      <prop type="source">component::syncthru::entity::sensor::tray_manual::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Manual feed tray</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Fack för manuell inmatning</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5582828303">
+      <prop type="source">component::syncthru::entity::sensor::tray_mp::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Multi-purpose tray</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Multifunktionsfack</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583810050">
+      <prop type="source">component::miele::application_credentials::description</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Navigate to ["Get involved" at Miele developer site]({register_url}) to request credentials then enter them below.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Navigera till ["Engagera dig" på Mieles utvecklarwebbplats]({register_url}) för att begära autentiseringsuppgifter och ange dem nedan.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583810113">
+      <prop type="source">component::miele::config::abort::account_mismatch</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The used account does not match the original account</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Kontot som används är inte samma som det ursprungliga kontot</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583810176">
+      <prop type="source">component::miele::config::abort::already_configured</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Account is already configured</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Kontot är redan konfigurerat</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583810365">
+      <prop type="source">component::miele::config::abort::missing_configuration</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The component is not configured. Please follow the documentation.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Komponenten har inte konfigurerats. Följ dokumentationen.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583811058">
+      <prop type="source">component::miele::config::create_entry::default</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Successfully authenticated</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Autentisering lyckades</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583811121">
+      <prop type="source">component::miele::config::step::confirm::description</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Do you want to start setup?</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Vill du starta installationen?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583811184">
+      <prop type="source">component::miele::config::step::pick_implementation::title</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Pick authentication method</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Välj autentiseringsmetod</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583811247">
+      <prop type="source">component::miele::config::step::reauth_confirm::description</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The Miele integration needs to re-authenticate your account</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Miele-integrationen behöver autentisera ditt konto på nytt</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583811310">
+      <prop type="source">component::miele::config::step::reauth_confirm::title</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Authentication expired for {name}</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Autentiseringen har upphört att gälla för {name}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583811373">
+      <prop type="source">component::miele::device::coffee_system::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Coffee system</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Kaffesystem</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583811436">
+      <prop type="source">component::miele::device::dialog_oven::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Dialog oven</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Dialogugn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583811499">
+      <prop type="source">component::miele::device::dishwasher::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Dishwasher</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Diskmaskin</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583811562">
+      <prop type="source">component::miele::device::freezer::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Freezer</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Frys</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583811625">
+      <prop type="source">component::miele::device::fridge_freezer::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Fridge freezer</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Kyl/frys</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583811688">
+      <prop type="source">component::miele::device::hob_extraction::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Hob with extraction</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Häll med integrerad fläkt</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583811751">
+      <prop type="source">component::miele::device::hob_highlight::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Hob highlight</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Highlight-häll</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583811814">
+      <prop type="source">component::miele::device::hood::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Hood</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Köksfläkt</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583811877">
+      <prop type="source">component::miele::device::induction_hob::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Induction hob</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Induktionshäll</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583811940">
+      <prop type="source">component::miele::device::microwave::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Microwave</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mikrovågsugn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583812003">
+      <prop type="source">component::miele::device::oven::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Oven</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ugn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583812066">
+      <prop type="source">component::miele::device::oven_microwave::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Oven microwave</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Kombiugn med mikrovågsfunktion</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583812129">
+      <prop type="source">component::miele::device::refrigerator::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Refrigerator</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Kylskåp</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583812255">
+      <prop type="source">component::miele::device::steam_oven::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Steam oven</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ångugn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583812318">
+      <prop type="source">component::miele::device::steam_oven_combi::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Steam oven combi</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Kombiångugn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583812444">
+      <prop type="source">component::miele::device::tumble_dryer::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Tumble dryer</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Torktumlare</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583812507">
+      <prop type="source">component::miele::device::warming_drawer::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Warming drawer</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Värmelåda</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583812570">
+      <prop type="source">component::miele::device::washer_dryer::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Washer dryer</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Kombinerad tvättmaskin och torktumlare</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583812633">
+      <prop type="source">component::miele::device::washing_machine::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Washing machine</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Tvättmaskin</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583812696">
+      <prop type="source">component::miele::device::wine_cabinet::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Wine cabinet</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Vinskåp</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583812759">
+      <prop type="source">component::miele::device::wine_cabinet_freezer::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Wine cabinet freezer</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Vin/frys-kombination</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583812822">
+      <prop type="source">component::miele::device::wine_conditioning_unit::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Wine conditioning unit</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Vinkonditioneringsenhet</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583812885">
+      <prop type="source">component::miele::device::wine_unit::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Wine unit</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Vinenhet</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583812948">
+      <prop type="source">component::miele::entity::sensor::status::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Status</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Status</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583813011">
+      <prop type="source">component::miele::entity::sensor::status::state::autocleaning</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Automatic cleaning</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Automatisk rengöring</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583813074">
+      <prop type="source">component::miele::entity::sensor::status::state::failure</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Failure</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Fel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583813137">
+      <prop type="source">component::miele::entity::sensor::status::state::idle</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Idle</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Inaktiv</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583813200">
+      <prop type="source">component::miele::entity::sensor::status::state::not_connected</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Not connected</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ej ansluten</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583813263">
+      <prop type="source">component::miele::entity::sensor::status::state::off</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Off</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Av</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583813326">
+      <prop type="source">component::miele::entity::sensor::status::state::on</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>On</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>På</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583813389">
+      <prop type="source">component::miele::entity::sensor::status::state::pause</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Pause</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Paus</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583813452">
+      <prop type="source">component::miele::entity::sensor::status::state::program_ended</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Program ended</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Programmet har avslutats</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583813515">
+      <prop type="source">component::miele::entity::sensor::status::state::program_interrupted</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Program interrupted</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Programmet avbröts</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583813578">
+      <prop type="source">component::miele::entity::sensor::status::state::programmed</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Programmed</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Programmerad</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583813641">
+      <prop type="source">component::miele::entity::sensor::status::state::rinse_hold</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Rinse hold</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Sköljstopp</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583813767">
+      <prop type="source">component::miele::entity::sensor::status::state::service</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Service</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Service</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583813830">
+      <prop type="source">component::miele::entity::sensor::status::state::supercooling</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Supercooling</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Superkylning</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583813893">
+      <prop type="source">component::miele::entity::sensor::status::state::supercooling_superfreezing</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Supercooling/superfreezing</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Superkylning/superfrysning</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583813956">
+      <prop type="source">component::miele::entity::sensor::status::state::superfreezing</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Superfreezing</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Superfrysning</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583814019">
+      <prop type="source">component::miele::entity::sensor::status::state::superheating</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Superheating</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Överhettning</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5583814082">
+      <prop type="source">component::miele::entity::sensor::status::state::waiting_to_start</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Waiting to start</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Väntar på att börja</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5588791545">
+      <prop type="source">component::miele::entity::sensor::status::state::in_use</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>In use</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Används</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5593333788">
+      <prop type="source">component::demo::entity::light::bed_light::state_attributes::effect::state::rainbow</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Rainbow</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Regnbåge</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5594603247">
+      <prop type="source">component::kulersky::config::error::cannot_connect</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Failed to connect</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det gick inte att ansluta</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5594603310">
+      <prop type="source">component::kulersky::config::error::unknown</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Unexpected error</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Oväntat fel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5594603373">
+      <prop type="source">component::kulersky::config::step::user::data::address</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Device</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Enhet</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5594603436">
+      <prop type="source">component::kulersky::exceptions::cannot_connect::message</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Failed to connect</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det gick inte att ansluta</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5594611361">
+      <prop type="source">component::weheat::entity::sensor::central_heating_flow_volume::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Central heating pump flow</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Pumpflöde för centralvärme</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5594611424">
+      <prop type="source">component::weheat::entity::sensor::dhw_flow_volume::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>DHW pump flow</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Pumpflöde för tappvarmvatten</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5595674038">
+      <prop type="source">component::vesync::entity::switch::display::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Display</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Skärm</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5597163204">
+      <prop type="source">component::esphome::issues::device_conflict::fix_flow::step::init::description</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>**The device `{name}` (`{model}`) at `{ip}` has reported a MAC address change from `{stored_mac}` to `{mac}`.**
+
+If you have multiple devices with the same name, please rename or remove the one with MAC address `{mac}` to avoid conflicts.
+
+If this is a hardware replacement, please confirm that you would like to migrate the Home Assistant configuration to the new device with MAC address `{mac}`.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>**Enheten `{name}` (`{model}`) på `{ip}` har rapporterat att MAC-adressen har ändrats från `{stored_mac}` till `{mac}`.**
+
+Om flera enheter har samma namn måste du byta namn på eller ta bort enheten med MAC-adressen `{mac}` för att undvika konflikter.
+
+Om du byter ut en befintlig enhet kan du bekräfta att Home Assistant-konfigurationen ska migreras till den nya enheten med MAC-adressen `{mac}`.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5597163267">
+      <prop type="source">component::esphome::issues::device_conflict::fix_flow::step::init::menu_options::manual</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Remove or rename device</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ta bort eller byt namn på enhet</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5597163330">
+      <prop type="source">component::esphome::issues::device_conflict::fix_flow::step::init::menu_options::migrate</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Migrate configuration to new device</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Migrera konfiguration till ny enhet</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5597163393">
+      <prop type="source">component::esphome::issues::device_conflict::fix_flow::step::init::title</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Device conflict for {name}</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Enhetskonflikt för {name}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5597163456">
+      <prop type="source">component::esphome::issues::device_conflict::fix_flow::step::manual::description</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>To resolve the conflict, either remove the device with MAC address `{mac}` from the network and restart the one with MAC address `{stored_mac}`, or re-flash the device with MAC address `{mac}` using a different name than `{name}`. Submit again once done.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>För att lösa konflikten, ta antingen bort enheten med MAC-adressen `{mac}` från nätverket och starta om den med MAC-adressen `{stored_mac}`, eller flasha om enheten med MAC-adressen `{mac}` med ett annat namn än `{name}`. Försök igen när du är klar.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5597163519">
+      <prop type="source">component::esphome::issues::device_conflict::fix_flow::step::manual::title</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Remove or rename device {name}</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ta bort eller byt namn på enhet {name}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5597163582">
+      <prop type="source">component::esphome::issues::device_conflict::fix_flow::step::migrate::description</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Are you sure you want to migrate the Home Assistant configuration for `{name}` (`{model}`) at `{ip}` from `{stored_mac}` to `{mac}`?</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Är du säker på att du vill migrera Home Assistant-konfigurationen för `{name}` (`{model}`) på `{ip}` från `{stored_mac}` till `{mac}`?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5597163645">
+      <prop type="source">component::esphome::issues::device_conflict::fix_flow::step::migrate::title</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Confirm device replacement for {name}</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Bekräfta ersättning av enhet för {name}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5597163708">
+      <prop type="source">component::esphome::issues::device_conflict::title</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="verified-date">2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Device conflict for {name}</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Enhetskonflikt för {name}</seg>
       </tuv>
     </tu>
   </body>

@@ -8,10 +8,10 @@ Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 
 ## Aktuellt läge
 
-- Senast fullständigt behandlade Lokalise-position: **34 096**. Alla positioner 30 617–34 096 är granskade. Nästa position: **34 097**.
-- Kumulativa granskade poster: **5 182** unika aktiva nycklar som matchar aktuell Core-källa och **730** dokumenterade historiska/källfrånvarande nycklar. Senaste blocket 34 217–34 336 innehöll 110 aktiva källmatchningar och 10 historiska poster; 14 poster återfanns i tidigare rapporter.
-- Av **4 974** aktiva nycklar har **1 487** unika aktiva nycklar korrigerats och **3 695** granskats utan slutlig textändring. Totalt **1 501** textändringar sparats och verifierats. Senaste blocket sparade och läste tillbaka 22 ändringar i aktiva Core-rader, plus ett delat NUT-titelmål utanför intervallet. En historisk sträng återställdes. Hunspell-sv kompletterades med `ineffekt`; 19/19 tester passerade.
-- Fullständiga rader, ändringsförslag, källvägar, referenser och live-ID:n finns i `2026-11-26-reviewed-core-33977-34096.md` och `.json`. De två migrerade nycklarna är uppföljda till köpositionerna som anges i rapporten.
+- Senast fullständigt behandlade Lokalise-position: **34 456**. Nästa position: **34 457**. Källrevision: `86a2eabe7e43f526db5821ef068087ce8404ae07`.
+- Kumulativa granskade poster: **5 277** unika aktiva nycklar som matchar aktuell Core-källa och **754** dokumenterade historiska/källfrånvarande nycklar.
+- Av **5 277** aktiva nycklar har **1 505** unika måltexter korrigerats och **3 772** verifierats utan slutlig textändring. Totalt **1 520** ändringstillfällen har sparats och återlästs. HA Core-TMX innehåller nu **23 213** enheter (22 982 Lokalise-ID och 231 äldre enheter).
+- Fullständiga rader, ändringsförslag, källvägar, referenser och live-ID:n finns i respektive daterade batchrapport; senaste rapport: `2026-11-26-reviewed-core-34337-34456.md` och JSON-underlaget.
 - Batchen 29 131–29 250: 120/120 nycklar aktiva och källmatchande; **17** ändringar sparade och återlästa, **103** texter oförändrade. Nästa batch 29 251–29 370: 85 aktuella Core-nycklar granskade utan ändring och 35 källfrånvarande poster uteslutna. Batchen 29 371–29 490: 54 aktiva Core-nycklar, 2 ändringar, 52 oförändrade; 66 källfrånvarande. Batchen 29 491–29 610: 95 aktiva Core-nycklar, ett OpenAI-referensalias synkat, 94 oförändrade; 25 källfrånvarande. Batchen 30 617–30 736: 104 aktiva Core-nycklar, 31 ändringar och 73 oförändrade; 16 källfrånvarande. Batchen 30 737–30 856: 110 aktuella nycklar, varav två överlappande återverifierades; 33 nya ändringar och 75 oförändrade bland de 108 nya aktiva posterna; 10 källfrånvarande. 31/31 aliasmål matchar live efter synkning. Batchen 30 857–30 976: 115 aktuella nycklar, varav två tidigare granskade återverifierades; 6 ändringar och 107 oförändrade bland 113 nya aktiva poster; 5 källfrånvarande. 24/24 aliasmål matchar. Platshållare 115/115; inga pluraler. Batchen 30 977–31 096: 96 aktuella nycklar, varav 12 tidigare granskade återverifierades; 11 ändringar och 73 oförändrade bland de 84 nya aktiva posterna; 24 källfrånvarande. 23/23 aliasmål matchar. Platshållare 96/96; inga pluraler. Batchen 31 097–31 216: 120/120 aktuella nycklar, sju fanns i tidigare dokumentation; 35 förbättringar sparades och lästes tillbaka, 85 poster verifierades oförändrade. Sex tidigare TM-värden för ZHA-energifaser rättades. Inga alias, pluraler eller platshållaravvikelser. Batchen 31 217–31 336: 110 aktuella nycklar och 10 källfrånvarande; 14 förbättringar sparades och 96 mål verifierades oförändrade. 68/68 alias matchar live; platshållare 110/110; inga pluraler. Batchen 31 337–31 456: 110 aktuella nycklar, varav 14 återverifierade från tidigare rapporter; 41 korrigeringar och 65 oförändrade bland 106 nya aktiva. Tio redan kända historiska nycklar uteslöts. Alla 13 alias matchar live. Två Synology-referensmål korrigerades retroaktivt. Batchen 31 457–31 576: 108 aktuella nycklar, varav sju återverifierades från tidigare rapporter; 14 ändringar och 87 oförändrade bland 101 nya aktiva. Tolv tidigare rapporterade historiska nycklar uteslöts. Alla 17 alias matchar live; platshållare 108/108; inga pluraler.
 - Liveverifiering för batchen bekräftade nyckelidentitet, engelsk källtext, svensk måltext och Lokalise-ID för 120/120 poster. Rapporten innehåller fullständiga nycklar och raderna med befintlig/föreslagen text.
 
@@ -248,3 +248,23 @@ Referensalias i batchen 28411–28530: 18 av 18 verifierade mot live-målen utan
 ## Fortsatt radgranskning 2026-11-26 – position 33737–33856
 
 112 av 120 nycklar matchar aktuell Core-källa; åtta redan rapporterade historiska poster uteslöts. 31 direkta översättningar korrigerades och lästes tillbaka, och en Habitica-aliastext följde en korrigerad referens; dessutom uppdaterades Habiticas delade månadsbeskrivning och aliaset `update_daily` retroaktivt. Bland aktiva rader verifierades 75 utan ändring och fem tidigare granskade återverifierades. Alla 29 källreferenser och platshållare matchar; inga pluralnycklar. Home Assistant MQTT-, Reolink- och iometer-kontext kontrollerades mot officiell dokumentation/kod. `svlang skrivregler` utan fel; Hunspell-ordlistorna fick `linjekorsning`, `intrångsdetektering`, `uppspelningskö` med böjningar samt `Pterodactyl`, och regressionerna klarade båda diktionärerna. Ingen ny Hunspell-release gjordes denna dag. TMX validerar med 22 773 enheter (22 542 Lokalise-ID, 231 historiska). En ZHA-kalibreringstolkning är markerad för kontroll mot verklig enhet; inga referensmål återstår oklara. Se `2026-11-26-reviewed-core-33737-33856.md`, JSON-underlagen och `2026-11-26-retroactive-habitica-monthly-repeat.json`. Nästa position: **33 857**.
+
+## Fortsatt radgranskning 2026-11-26 – position 33857–33976
+
+46 aktiva nycklar och 74 källfrånvarande poster granskades. 15 ändringar sparades/lästes tillbaka, inklusive två tidigare rapporterade aktiva strängar; 31 nya aktiva mål lämnades oförändrade. Alla 15 referenser matchar live-målen. Se `2026-11-26-reviewed-core-33857-33976.md`. Nästa position: **33 977**.
+
+## Fortsatt radgranskning 2026-11-26 – position 33977–34096
+
+93 aktiva nycklar och 27 historiska poster granskades; 25 mål korrigerades och lästes tillbaka, 68 behölls. Alla 45 referenser granskades. Se `2026-11-26-reviewed-core-33977-34096.md`. Nästa position: **34 097**.
+
+## Fortsatt radgranskning 2026-11-26 – position 34097–34216
+
+102 aktiva nycklar och 18 historiska poster granskades; 29 mål ändrades och lästes tillbaka, 73 behölls. Alla 27 referenser matchar live-målen. Se `2026-11-26-reviewed-core-34097-34216.md`. Nästa position: **34 217**.
+
+## Fortsatt radgranskning 2026-11-26 – position 34217–34336
+
+110 aktiva nycklar och 10 historiska poster granskades; 22 aktiva mål ändrades. Ett delat NUT-mål och dess alias uppdaterades och lästes tillbaka. Alla 36 aliasreferenser matchar live-målen. Se `2026-11-26-reviewed-core-34217-34336.md`. Nästa position: **34 337**.
+
+## Fortsatt radgranskning 2026-11-26 – position 34337–34456
+
+96 aktiva nycklar och 24 historiska poster granskades; 19 slutliga ändringar sparades och lästes tillbaka, 77 nya aktiva mål verifierades oförändrade och en tidigare aktiv nyckel återgranskades. Alla 16 aliasreferenser matchar live-målen. Platshållare 96/96; inga pluraler. Miele-klassificeringarna Highlight-häll och vin/frys-kombination rättades med stöd i Mieles svenska produktterminologi. SyncThru-sensorernas kvarvarande procent kontrollerades i koden; befintliga nivånamn behölls. TMX validerar med 23 213 enheter. Se `2026-11-26-reviewed-core-34337-34456.md` och JSON-underlaget. Nästa position: **34 457**.
