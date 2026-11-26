@@ -725,3 +725,8 @@ Terminologiverifiering av Husqvarna GeoFence ledde till en separat retroaktiv ko
 ### Senaste batch: 45 617–45 736
 
 120 positioner granskades: 77 direkta aktuella strängar, 27 referenser och 16 historiska nycklar utan aktuell källväg (samtliga 16 redan dokumenterade). Två källverifierade ändringar sparades och API-lästes tillbaka. Alla referensmål stämmer. Platshållare 120/120; inga pluraler. `svlang` utan skrivregelfel; Hunspell-flaggor manuellt bedömda. TMX validerar med 33 054 poster (32 823 Lokalise-ID, 231 historiska); 16 tillkom och 104 befintliga poster uppdaterades. Spegel byteidentisk. Nästa position **45 737**; **31 804 positioner** återstår enligt positionsräkningen. Core-granskningen fortsätter. Se `2026-11-26-reviewed-core-45617-45736.md` och JSON-underlagen.
+
+
+### Senaste batch: 45 737–45 856
+
+120 positioner radgranskades: 109 direkta aktuella strängar och 11 referenser; inga källvägar saknades. Alla referensmål matchar på engelska och svenska. Inga ändringar behövdes. Platshållare 120/120; inga pluraler. `svlang` utan skrivregelfel; Hunspell-träffar bedömdes som numeriska intervall. TMX validerar med 33 054 poster (32 823 Lokalise-ID, 231 historiska); alla 120 poster återverifierades, ingen nyckel tillkom. Spegel byteidentisk. Nästa position **45 857**; **31 684 positioner** återstår enligt positionsräkningen. Core-granskningen fortsätter. Se `2026-11-26-reviewed-core-45737-45856.md` och JSON-underlagen.
