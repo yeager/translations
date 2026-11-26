@@ -687,3 +687,7 @@ Terminologiverifiering av Husqvarna GeoFence ledde till en separat retroaktiv ko
 ### Senaste batch: 44 057–44 176
 
 120 positioner granskades: 47 direkta strängar och 73 referenser, inga historiska/källfrånvarande poster. 29 direkta ändringar sparades/lästes tillbaka. Shellys gemensamma ärenderubrik rättades, och dess referensalias synkades automatiskt samt verifierades via translations-endpointen. Alla 73 referenser matchar. Platshållare 120/120; inga pluraler. `svlang` utan skrivregelfel; Hunspell-flaggor manuellt bedömda. TMX validerar med 31 882 enheter (31 651 Lokalise-ID, 231 äldre), spegel byteidentisk. Uppföljningar: officiell B&O Control-etikett och Home Connect AC-lägesnamn. Nästa position **44 177**; 33 364 aktiva poster återstår. Se `2026-11-26-reviewed-core-44057-44176.md` och JSON-underlagen.
+
+### Senaste batch: 44 177–44 296
+
+120 positioner radgranskades: 40 direkta B&O-strängar och 80 referenser; inga historiska eller källfrånvarande poster. 40 direkta översättningar sparades och API-lästes tillbaka. Alla 80 referenser matchar live-målen. Platshållare 120/120; inga pluralnycklar. `svlang skrivregler --enable-interpunktion` utan träffar och Hunspell rapporterade inga okända ord. Kanonisk HA Core-TMX validerar med 32 002 enheter (31 771 Lokalise-ID och 231 historiska); backupkopian är byteidentisk. Nästa position **44 297**; **33 244 aktiva poster** återstår. Se `2026-11-26-reviewed-core-44177-44296.md` och JSON-underlagen. B&O-knappfärger på Control- och Light-menyerna är översatta och harmoniserade.
