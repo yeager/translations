@@ -5,6 +5,17 @@ Den följer etablerat svenskt GNOME-språk: korta, tydliga imperativ i menyer
 och naturliga svenska i hjälptexter. Källtext och sammanhang avgör alltid;
 listan är stöd, inte en ursäkt för mekanisk ersättning.
 
+## GNOME Applets och strömhantering
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| Battery Charge Monitor | batteriövervakare | Produkt-/miniprogramnamn i GNOME Applets. |
+| battery charge | batteriladdning / laddning | Skriv laddning, inte spänning, om källan avser charge. |
+| power management | strömhantering | |
+| backend | bakände | Endast i teknisk dokumentation; skriv om där svenska blir onaturlig. |
+| remaining capacity | återstående kapacitet | Batterisammanhang. |
+| fully recharged | fulladdat | Om batteri. |
+
 ## Gränssnitt och åtgärder
 
 | Engelska | Rekommenderad svenska | Anmärkning |
