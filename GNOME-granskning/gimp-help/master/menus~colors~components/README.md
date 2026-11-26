@@ -1,11 +1,10 @@
 # GIMP Help — master — menus~colors~components — svenska
 
-- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gimp-help/master/menus~colors~components/sv/>.
-- Källunderlag: senaste svenska PO och POT hämtade från aktivitetssidan 2026-11-26. POT skapad 2026-11-24 22:37 UTC; 162 aktiva poster.
-- GNOME-status före arbetet: 12 översatta, 35 fuzzy, 115 oöversatta.
-- Efter granskning mot senaste POT: 136/136 användarvisade strängar översatta, 0 fuzzy. Ytterligare 26 `@@image:`-poster är bildmetadata som POT uttryckligen säger inte används; de är därför avsiktligt tomma.
-- 111 tidigare tomma användarsträngar översattes och 13 fuzzy-strängar granskades och uppdaterades. De 12 redan godkända svenska strängarna behölls. Totalt ändrades 146 aktiva PO-poster jämfört med den aktuella GNOME-filen, inklusive synkroniserade bildmetadata.
-- Terminologi kontrollerades mot `swedish-tm`: *Compose* = *Komponera*, *Decompose* = *Uppdela*, *Channel Mixer* = *Kanalblandare*, *Mono Mixer* = *Monomixer*, *Recompose* = *Återuppbygg*. Decimaltecken följer svensk notation i beräkningsexemplen.
-- Validering: `msgfmt --check --check-format` godkänd (136 översatta, 26 avsiktligt tomma metadata); `msgcmp --use-fuzzy` mot senaste POT godkänd med en valideringskopia där de 26 bildmetadatafälten tillfälligt matchar källan; leveransfilen behåller dem tomma. `l10n-lint`: 0 fel och 0 varningar på samma valideringskopia; informationsnotiser om DocBook-citat granskades. DocBook-markup, länkar, URL:er och platshållare kontrollerades. `hunspell-sv` kördes på ändrade svenska strängar; bedömda undantag finns i `hunspell-undantag.md`.
-- Ingen GNOME-inskickning har gjorts.
-- Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-26.
+- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gimp-help/master/menus~colors~components/sv/>
+- Senaste POT hämtad 2026-11-26; skapad 2026-11-24 22:37 UTC; 162 aktiva poster. POT matchar den granskade källan.
+- Alla 136 användarvisade strängar är översatta; 0 fuzzy och 0 oöversatta användarsträngar. De 26 `@@image:`-posterna är bildmetadata som POT uttryckligen säger inte används och lämnades tomma.
+- Granskning: 111 tidigare tomma strängar översattes och 13 fuzzy-strängar granskades och uppdaterades. 145 aktiva PO-poster ändrades jämfört med arkiverat original.
+- Terminologi kontrollerad mot `swedish-tm`: *Compose* = *Komponera*, *Decompose* = *Uppdela*, *Channel Mixer* = *Kanalblandare*, *Mono Mixer* = *Monomixer*, *Recompose* = *Återuppbygg*.
+- Validering: `msgfmt --check --check-format` godkänd (136 användaröversättningar; 26 avsiktligt tomma bildposter). `msgcmp --use-fuzzy` och l10n-lint godkända på valideringskopia där bildmetadata matchar POT; 0 l10n-lint-fel och 0 varningar. DocBook-taggar, länkar, URL:er och platshållare kontrollerade. Hunspell-undantag finns i `hunspell-undantag.md`.
+- Uppladdad och sammanfogad via Damned Lies API 2026-11-26 23:30 UTC med kommentaren `Granskad och klar`. Aktivitetssidan bekräftar 136/0/26; de 26 oöversatta posterna är källmarkerad bildmetadata.
+- Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>.
