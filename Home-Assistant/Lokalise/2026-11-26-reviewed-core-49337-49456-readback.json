@@ -1,0 +1,101 @@
+[
+  {
+    "key": "component::bsblan::entity::button::sync_time::name",
+    "key_id": "806630699",
+    "translation_id": "7792866068",
+    "en": "Sync time",
+    "before": "Synka tiden",
+    "after": "Synkronisera tiden",
+    "reason": "Använder standardformen för knappens åtgärdsnamn i Home Assistant.",
+    "readback": "Synkronisera tiden",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::compit::entity::binary_sensor::airing::name",
+    "key_id": "806630808",
+    "translation_id": "7792866763",
+    "en": "Airing",
+    "before": "Luftning",
+    "after": "Vädring",
+    "reason": "Källan är en binärsensor av fönsterklass, så termen avser vädring snarare än luftning som HVAC-funktion.",
+    "readback": "Vädring",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::compit::entity::sensor::actual_buffer_temp::name",
+    "key_id": "806645540",
+    "translation_id": "7792967349",
+    "en": "Actual buffer temperature",
+    "before": "Faktisk bufferttemperatur",
+    "after": "Uppmätt bufferttemperatur",
+    "reason": "Mätvärdesnamn blir tydligare och naturligare med Uppmätt; skiljer faktisk temperatur från börvärde.",
+    "readback": "Uppmätt bufferttemperatur",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::compit::entity::sensor::actual_dhw_temp::name",
+    "key_id": "806645541",
+    "translation_id": "7792967413",
+    "en": "Actual DHW temperature",
+    "before": "Faktisk varmvattentemperatur",
+    "after": "Uppmätt varmvattentemperatur",
+    "reason": "Mätvärdesnamn blir tydligare och naturligare med Uppmätt; DHW betyder varmvatten.",
+    "readback": "Uppmätt varmvattentemperatur",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::compit::entity::sensor::actual_hc_temperature_zone::name",
+    "key_id": "806645542",
+    "translation_id": "7792967477",
+    "en": "Actual heating circuit {zone} temperature",
+    "before": "Faktisk temperatur för värmekretsen {zone}",
+    "after": "Uppmätt temperatur för värmekrets {zone}",
+    "reason": "Gör sensornamnet idiomatiskt och bevarar zonens platshållare.",
+    "readback": "Uppmätt temperatur för värmekrets {zone}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::compit::entity::sensor::actual_upper_source_temp::name",
+    "key_id": "806645543",
+    "translation_id": "7792967541",
+    "en": "Actual upper source temperature",
+    "before": "Faktisk övre källtemperatur",
+    "after": "Uppmätt övre källtemperatur",
+    "reason": "Byter den onaturliga sensorbeskrivningen Faktisk mot Uppmätt.",
+    "readback": "Uppmätt övre källtemperatur",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::openai_conversation::config_subentries::stt::entry_type",
+    "key_id": "806635383",
+    "translation_id": "7792886631",
+    "en": "Speech-to-text",
+    "before": "Tal-till-text",
+    "after": "Taligenkänning",
+    "reason": "Synkar med etablerad HA-term för Speech-to-text, som redan används för en annan STT-entitet i källans svenska TM.",
+    "readback": "Taligenkänning",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::openai_conversation::config_subentries::stt::initiate_flow::reconfigure",
+    "key_id": "806635384",
+    "translation_id": "7792886695",
+    "en": "Reconfigure speech-to-text service",
+    "before": "Konfigurera om tjänst för tal-till-text",
+    "after": "Konfigurera om tjänsten för taligenkänning",
+    "reason": "Använder samma etablerade term och naturlig svensk nominalfras.",
+    "readback": "Konfigurera om tjänsten för taligenkänning",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::openai_conversation::config_subentries::stt::initiate_flow::user",
+    "key_id": "806635385",
+    "translation_id": "7792886759",
+    "en": "Add speech-to-text service",
+    "before": "Lägg till tjänst för tal-till-text",
+    "after": "Lägg till tjänst för taligenkänning",
+    "reason": "Använder samma etablerade term konsekvent i hela STT-konfigurationsflödet.",
+    "readback": "Lägg till tjänst för taligenkänning",
+    "status": "saved-and-read-back"
+  }
+]
