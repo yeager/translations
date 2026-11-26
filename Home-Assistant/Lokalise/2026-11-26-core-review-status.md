@@ -2,7 +2,7 @@
 
 Senast uppdaterad: 2026-11-26
 
-Aktuell Home Assistant Core-källrevision: 86a2eabe7e43f526db5821ef068087ce8404ae07
+Aktuell Home Assistant Core-källrevision: c03d786a2335a70d01860cae56286798bb272871
 
 Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 
@@ -69,6 +69,8 @@ Batch 52-rättelsen samt batcher 53–60 är införda i kanonisk TMX. Validering
 
 89 aktiva nycklar granskades, 30 korrigerades och lästes tillbaka från Lokalise, 59 behölls. 31 källfrånvarande historiska poster uteslöts från TM. Alla 10 aktiva referenser matchar sina live-mål; platshållare 89/89. svlang skrivregler passerade. Recorder-gruppen var tidigare granskad och återkontrollerades mot aktuell källa. Se `2026-11-26-reviewed-core-36017-36136.md` och JSON-underlaget. Nästa position: **36 497**.
 
+- Källuppdatering: Core-checkouten flyttades till `c03d786a2335a70d01860cae56286798bb272871`. Aktiva källsträngar i positionerna 35 417–36 496 jämfördes igen; inga ändringar upptäcktes. Lokalise-kön uppdaterades från 77 528 till 77 540 nycklar. Tolv nytillagda nycklar (`geniushub` och två MQTT-klientcertifikatsträngar) ligger sist, vid positionerna 77 529–77 540, och återstår att granska när kön nås.
+
 ## Kvarstående hinder
 
 - Lokalise API-tokenen saknar behörighet att sätta `is_reviewed` (tidigare HTTP 403). Textändringar kan sparas och verifieras. Ingen separat Reviewed-markering har därför kunnat sättas.
@@ -133,6 +135,8 @@ Den aktuella Lokalise-ordningen gav 30 nyckelposter efter position 28020. 29 mat
 - swedish-foss-terminology innehåller åtta projektspecifika HA-termer för OpenEVSE, ViCare, USB-dongel, Tibbers hushållsnod, Matter-temperaturavvikelse, Yardians tryckslag, HDFurys hotplug-knapp och KNX-termen datapunkttyp. Exporterna CSV/TBX/JSONL validerades; termbankens 20 tester passerade. Tibber-tolkningen är markerad som källbaserad slutsats med uppföljning.
 - Hunspell-sv innehåller HA-termerna och hårdvaruidentifierarna från granskningen, däribland Tibber, OpenAI, Proxmox, SMA, Namecheap, HDFury, `upptäckbar`, `inomhusluftkvalitet`, `skåptorrt`, `stryktorrt`, `XL-kaffe`, `nattdisk`, `försköljning`, `kaffemaskinprogram` och `spoltryck`. Ordboksräknarna och stavningskontrollen verifierades. Deklarerade poster kontrollerades. Hunspell-sv validerades och släpptes som `v2026.11.25`; PyPI-publiceringen lyckades. swedish-foss-terminology-exporter validerades och uppdaterades.
 - svlang skrivregler fann inga skrivregelavvikelser i senaste batcherna; en regressionstestad regel flaggar felaktigt ordningstecken (º) i temperaturvärden. Platshållarkontrollen fann 0 avvikelser av 120 i senaste batchen.
+
+- Källuppdatering: Core-checkouten flyttades till `c03d786a2335a70d01860cae56286798bb272871`. Aktiva källsträngar i positionerna 35 417–36 496 jämfördes igen; inga ändringar upptäcktes. Lokalise-kön uppdaterades från 77 528 till 77 540 nycklar. Tolv nytillagda nycklar (`geniushub` och två MQTT-klientcertifikatsträngar) ligger sist, vid positionerna 77 529–77 540, och återstår att granska när kön nås.
 
 ## Kvarstående hinder och uppföljning
 
