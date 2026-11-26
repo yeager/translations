@@ -1,0 +1,775 @@
+--- gnome-applets.master.cpufreq.sv.original.po
++++ gnome-applets.master.cpufreq.sv.reviewed.po
+@@ -3,13 +3,14 @@
+ msgstr ""
+ "Project-Id-Version: applets-cpufreq\n"
+ "POT-Creation-Date: 2026-11-10 14:26+0000\n"
+-"PO-Revision-Date: 2016-09-23 23:38+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-26 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+ "X-Generator: Poedit 1.8.9\n"
+ 
+ #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+@@ -22,7 +23,7 @@
+ #. (itstool) path: articleinfo/title
+ #: C/index.docbook:20
+ msgid "CPU Frequency Scaling Monitor Manual"
+-msgstr "Handbok för Övervakare av processorfrekvensskalning"
++msgstr "Handbok för miniprogrammet som övervakar processorns frekvensskalning"
+ 
+ #. (itstool) path: abstract/para
+ #: C/index.docbook:22
+@@ -30,9 +31,8 @@
+ "CPU Frequency Scaling Monitor shows the current clock speed of the CPU and "
+ "provides an interface to change the clock speed if the CPU supports it."
+ msgstr ""
+-"Övervakare av processorfrekvensskalning visar aktuell klockhastighet för "
+-"processorn och tillhandahåller ett gränssnitt för att ändra klockhastigheten "
+-"om processorn har stöd för det."
++"Miniprogrammet visar processorns aktuella klockfrekvens och låter dig ändra "
++"den om processorn stöder det."
+ 
+ #. (itstool) path: articleinfo/copyright
+ #: C/index.docbook:25
+@@ -53,24 +53,24 @@
+ #. (itstool) path: authorgroup/author
+ #: C/index.docbook:51
+ msgid ""
+-"<firstname>Carlos</firstname> <surname>Garcia Campos</surname> <affiliation> "
+-"<orgname>GNOME Project</orgname> <address><email>carlosgc@gnome.org</email></"
+-"address> </affiliation>"
+-msgstr ""
+-"<firstname>Carlos</firstname> <surname>Garcia Campos</surname> <affiliation> "
+-"<orgname>GNOME-projektet</orgname> <address><email>carlosgc@gnome.org</"
+-"email></address> </affiliation>"
++"<firstname>Carlos</firstname> <surname>Garcia Campos</surname> <affiliation>"
++" <orgname>GNOME Project</orgname> "
++"<address><email>carlosgc@gnome.org</email></address> </affiliation>"
++msgstr ""
++"<firstname>Carlos</firstname> <surname>Garcia Campos</surname> <affiliation>"
++" <orgname>GNOME-projektet</orgname> "
++"<address><email>carlosgc@gnome.org</email></address> </affiliation>"
+ 
+ #. (itstool) path: authorgroup/author
+ #: C/index.docbook:59
+ msgid ""
+ "<firstname>Davyd</firstname> <surname>Madeley</surname> <affiliation> "
+-"<orgname>GNOME Project</orgname> <address><email>davyd@madeley.id.au</"
+-"email></address> </affiliation>"
++"<orgname>GNOME Project</orgname> "
++"<address><email>davyd@madeley.id.au</email></address> </affiliation>"
+ msgstr ""
+ "<firstname>Davyd</firstname> <surname>Madeley</surname> <affiliation> "
+-"<orgname>GNOME-projektet</orgname> <address><email>davyd@madeley.id.au</"
+-"email></address> </affiliation>"
++"<orgname>GNOME-projektet</orgname> "
++"<address><email>davyd@madeley.id.au</email></address> </affiliation>"
+ 
+ #. (itstool) path: revdescription/para
+ #: C/index.docbook:88 C/index.docbook:95
+@@ -92,8 +92,8 @@
+ "<revnumber>GNOME 2.10</revnumber> <date>March 2005</date> "
+ "<_:revdescription-1/>"
+ msgstr ""
+-"<revnumber>GNOME 2.10</revnumber> <date>Mars 2005</date> <_:revdescription-1/"
+-">"
++"<revnumber>GNOME 2.10</revnumber> <date>Mars 2005</date> "
++"<_:revdescription-1/>"
+ 
+ #. (itstool) path: revdescription/para
+ #: C/index.docbook:102
+@@ -106,15 +106,16 @@
+ "<revnumber>CPU Frequency Scaling Monitor Applet Manual V0.3</revnumber> "
+ "<date>October 2004</date> <_:revdescription-1/>"
+ msgstr ""
+-"<revnumber>Handbok för Övervakare av processorfrekvensskalning V0.3</"
+-"revnumber> <date>Oktober 2004</date> <_:revdescription-1/>"
++"<revnumber>Handbok för miniprogrammet som övervakar processorns "
++"frekvensskalning V0.3</revnumber> <date>Oktober 2004</date> "
++"<_:revdescription-1/>"
+ 
+ #. (itstool) path: articleinfo/releaseinfo
+ #: C/index.docbook:108
+ msgid "This manual describes version 2.12.0 of CPU Frequency Scaling Monitor."
+ msgstr ""
+-"Denna handbok beskriver version 2.12.0 av Övervakare av "
+-"processorfrekvensskalning."
++"Den här handboken beskriver version 2.12.0 av miniprogrammet som övervakar "
++"processorns frekvensskalning."
+ 
+ #. (itstool) path: legalnotice/title
+ #: C/index.docbook:112
+@@ -128,15 +129,15 @@
+ "Monitor applet or this manual, follow the directions in the <ulink "
+ "url=\"ghelp:gnome-feedback\" type=\"help\">GNOME Feedback Page</ulink>."
+ msgstr ""
+-"För att rapportera ett fel eller komma med förslag angående miniprogrammet "
+-"Övervakare av processorfrekvensskalning eller denna handbok, följ "
++"Om du vill rapportera ett fel eller lämna ett förslag om miniprogrammet som "
++"övervakar processorns frekvensskalning eller den här handboken följer du "
+ "anvisningarna på <ulink url=\"ghelp:gnome-feedback\" type=\"help\">GNOME:s "
+ "återkopplingssida</ulink>."
+ 
+ #. (itstool) path: article/indexterm
+ #: C/index.docbook:122
+ msgid "<primary>CPU Frequency Scaling Monitor</primary>"
+-msgstr "<primary>Övervakare av processorfrekvensskalning</primary>"
++msgstr "<primary>Övervakare för processorns frekvensskalning</primary>"
+ 
+ #. (itstool) path: sect1/title
+ #: C/index.docbook:128
+@@ -146,7 +147,7 @@
+ #. (itstool) path: figure/title
+ #: C/index.docbook:130
+ msgid "CPU Frequency Scaling Monitor"
+-msgstr "Övervakare av processorfrekvensskalning"
++msgstr "Övervakare för processorns frekvensskalning"
+ 
+ #. (itstool) path: imageobject/imagedata
+ #. This is a reference to an external file such as an image or video. When
+@@ -168,9 +169,8 @@
+ "The <application>CPU Frequency Scaling Monitor</application> provides a "
+ "convenient way to monitor the CPU Frequency Scaling for each CPU."
+ msgstr ""
+-"<application>Övervakare av processorfrekvensskalning</application> "
+-"tillhandahåller ett smidigt sätt att övervaka processorfrekvensskalningen "
+-"för varje processor."
++"<application>Övervakaren för processorns frekvensskalning</application> "
++"visar frekvensskalningen för varje processor."
+ 
+ #. (itstool) path: sect1/para
+ #: C/index.docbook:143
+@@ -180,11 +180,11 @@
+ "<menuchoice> <guimenu>Add to Panel</guimenu> <guimenuitem>CPU Frequency "
+ "Scaling Monitor</guimenuitem> </menuchoice>."
+ msgstr ""
+-"För att lägga till <application>Övervakare av processorfrekvensskalning</"
+-"application> till en panel, högerklicka på panelen för att öppna panelens "
+-"popupmeny, välj sedan <menuchoice> <guimenu>Lägg till i panel</"
+-"guimenu><guimenuitem>Övervakare av processorfrekvensskalning</guimenuitem> </"
+-"menuchoice>."
++"Lägg till <application>Övervakaren för processorns "
++"frekvensskalning</application> i en panel genom att högerklicka på panelen. "
++"Välj sedan <menuchoice> <guimenu>Lägg till i panel</guimenu> "
++"<guimenuitem>Övervakare för processorns frekvensskalning</guimenuitem> "
++"</menuchoice>."
+ 
+ #. (itstool) path: note/para
+ #: C/index.docbook:149
+@@ -193,9 +193,9 @@
+ "Linux machines that have support in the kernel. It can however, support the "
+ "several generations of frequency scaling interfaces in the kernel."
+ msgstr ""
+-"Tyvärr kan endast processorfrekvensskalning övervakas på Linux-maskiner som "
+-"har stöd för det i kärnan. Den har dock stöd för flera generationer av "
+-"frekvensskalningsgränssnitt i kärnan."
++"Tyvärr kan processorns frekvensskalning för närvarande bara övervakas på "
++"Linux-system där kärnan har stöd för det. Miniprogrammet stöder dock flera "
++"generationer av kärnans gränssnitt för frekvensskalning."
+ 
+ #. (itstool) path: sect1/para
+ #: C/index.docbook:155
+@@ -203,9 +203,8 @@
+ "When there is no CPU frequency scaling support in the system, the CPU "
+ "Frequency Scaling Monitor only displays the current CPU frequency."
+ msgstr ""
+-"När det inte finns stöd för processorfrekvensskalning i systemet, visar "
+-"Övervakare av processorfrekvensskalning endast den aktuella "
+-"processorfrekvensen."
++"Om systemet saknar stöd för processorns frekvensskalning visar "
++"miniprogrammet bara den aktuella processorfrekvensen."
+ 
+ #. (itstool) path: sect1/para
+ #: C/index.docbook:156
+@@ -215,10 +214,9 @@
+ "progress bar represents the current CPU frequency with respect to the "
+ "maximum frequency."
+ msgstr ""
+-"När processorfrekvensskalning stöds i systemet, visar Övervakare av "
+-"processorfrekvensskalning processorikonen med en förloppsindikator. "
+-"Tillståndet för förloppsindikatornn representerar den aktuella "
+-"processorfrekvensen med maximal frekvens inräknad."
++"När systemet stöder processorns frekvensskalning visar miniprogrammet en "
++"processorikon med en förloppsindikator. Indikatorn visar den aktuella "
++"processorfrekvensen i förhållande till den högsta frekvensen."
+ 
+ #. (itstool) path: sect1/para
+ #: C/index.docbook:157
+@@ -229,23 +227,21 @@
+ "to configure CPU Frequency Scaling Monitor see <xref linkend=\"cpufreq-"
+ "applet-prefs\"/>."
+ msgstr ""
+-"Som standard visar Övervakare av processorfrekvensskalning den aktuella "
+-"processorfrekvensen som ett värde i hertz (standardenheten för frekvens), "
+-"men kan även konfigureras att visa en procentandel. För mer information om "
+-"hur man konfigurerar Övervakare av processorfrekvensskalning, se <xref "
+-"linkend=\"cpufreq-applet-prefs\"/>."
++"Som standard visar miniprogrammet processorfrekvensen i hertz "
++"(standardmåttet för frekvens), men du kan ställa in det så att frekvensen "
++"visas i procent. Mer information om hur du konfigurerar miniprogrammet finns"
++" i <xref linkend=\"cpufreq-applet-prefs\"/>."
+ 
+ #. (itstool) path: sect1/para
+ #: C/index.docbook:160
+ msgid ""
+-"Each instance of CPU Frequency Scaling Monitor can monitor only one CPU. You "
+-"must start an instance of CPU Frequency Scaling Monitor for each CPU that "
++"Each instance of CPU Frequency Scaling Monitor can monitor only one CPU. You"
++" must start an instance of CPU Frequency Scaling Monitor for each CPU that "
+ "you want to monitor if you are in a multiprocessor (SMP) system."
+ msgstr ""
+-"Varje instans av Övervakare av processorfrekvensskalning kan övervaka en "
+-"processor. Du måste starta en instans av Övervakare av "
+-"processorfrekvensskalning för varje processor som du vill övervaka om du "
+-"använder ett system med flera processorer (SMP)."
++"Varje instans av miniprogrammet kan bara övervaka en processor. I ett system"
++" med flera processorer (SMP) måste du starta en instans för varje processor "
++"du vill övervaka."
+ 
+ #. (itstool) path: sect2/title
+ #: C/index.docbook:165
+@@ -259,8 +255,8 @@
+ "represent the current scaling level of the processor you are monitoring. "
+ "They are:"
+ msgstr ""
+-"Övervakare av processorfrekvensskalning har en serie ikoner som grafiskt "
+-"visar den aktuella skalningsnivån för processorn du övervakar. De är:"
++"En serie ikoner visar den aktuella frekvensnivån för processorn som "
++"övervakas:"
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:177
+@@ -280,25 +276,29 @@
+ #: C/index.docbook:186
+ msgctxt "_"
+ msgid ""
+-"external ref='figures/cpufreq-100.png' md5='298d50a03bfcf5143bb9877703de9541'"
+-msgstr ""
+-"external ref='figures/cpufreq-100.png' md5='298d50a03bfcf5143bb9877703de9541'"
++"external ref='figures/cpufreq-100.png' "
++"md5='298d50a03bfcf5143bb9877703de9541'"
++msgstr ""
++"external ref='figures/cpufreq-100.png' "
++"md5='298d50a03bfcf5143bb9877703de9541'"
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:184
+ msgid ""
+-"<inlinemediaobject><imageobject> <imagedata fileref=\"figures/"
+-"cpufreq-100.png\" format=\"PNG\"/> </imageobject><textobject> <phrase>100% "
+-"Power</phrase> </textobject></inlinemediaobject>"
+-msgstr ""
+-"<inlinemediaobject><imageobject> <imagedata fileref=\"figures/"
+-"cpufreq-100.png\" format=\"PNG\"/> </imageobject><textobject> <phrase>100% "
+-"styrka</phrase> </textobject></inlinemediaobject>"
++"<inlinemediaobject><imageobject> <imagedata "
++"fileref=\"figures/cpufreq-100.png\" format=\"PNG\"/> "
++"</imageobject><textobject> <phrase>100% Power</phrase> "
++"</textobject></inlinemediaobject>"
++msgstr ""
++"<inlinemediaobject><imageobject> <imagedata "
++"fileref=\"figures/cpufreq-100.png\" format=\"PNG\"/> "
++"</imageobject><textobject> <phrase>100 % prestanda</phrase> "
++"</textobject></inlinemediaobject>"
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:190
+ msgid "The CPU is running at, or close to, 100% throughput"
+-msgstr "Processorn kör på, eller nära, 100% styrka"
++msgstr "Processorn körs med en prestandanivå på eller nära 100 %."
+ 
+ #. (itstool) path: imageobject/imagedata
+ #. This is a reference to an external file such as an image or video. When
+@@ -315,18 +315,20 @@
+ #. (itstool) path: entry/para
+ #: C/index.docbook:195
+ msgid ""
+-"<inlinemediaobject><imageobject> <imagedata fileref=\"figures/"
+-"cpufreq-75.png\" format=\"PNG\"/> </imageobject><textobject> <phrase>75% "
+-"Power</phrase> </textobject></inlinemediaobject>"
+-msgstr ""
+-"<inlinemediaobject><imageobject> <imagedata fileref=\"figures/"
+-"cpufreq-75.png\" format=\"PNG\"/> </imageobject><textobject> <phrase>75% "
+-"styrka</phrase> </textobject></inlinemediaobject>"
++"<inlinemediaobject><imageobject> <imagedata "
++"fileref=\"figures/cpufreq-75.png\" format=\"PNG\"/> "
++"</imageobject><textobject> <phrase>75% Power</phrase> "
++"</textobject></inlinemediaobject>"
++msgstr ""
++"<inlinemediaobject><imageobject> <imagedata "
++"fileref=\"figures/cpufreq-75.png\" format=\"PNG\"/> "
++"</imageobject><textobject> <phrase>75 % prestanda</phrase> "
++"</textobject></inlinemediaobject>"
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:201
+ msgid "The CPU is running at, or close to, 75% throughput"
+-msgstr "Processorn kör på, eller nära, 75% styrka"
++msgstr "Processorn körs med en prestandanivå på eller nära 75 %."
+ 
+ #. (itstool) path: imageobject/imagedata
+ #. This is a reference to an external file such as an image or video. When
+@@ -343,18 +345,20 @@
+ #. (itstool) path: entry/para
+ #: C/index.docbook:206
+ msgid ""
+-"<inlinemediaobject><imageobject> <imagedata fileref=\"figures/"
+-"cpufreq-50.png\" format=\"PNG\"/> </imageobject><textobject> <phrase>50% "
+-"Power</phrase> </textobject></inlinemediaobject>"
+-msgstr ""
+-"<inlinemediaobject><imageobject> <imagedata fileref=\"figures/"
+-"cpufreq-50.png\" format=\"PNG\"/> </imageobject><textobject> <phrase>50% "
+-"styrka</phrase> </textobject></inlinemediaobject>"
++"<inlinemediaobject><imageobject> <imagedata "
++"fileref=\"figures/cpufreq-50.png\" format=\"PNG\"/> "
++"</imageobject><textobject> <phrase>50% Power</phrase> "
++"</textobject></inlinemediaobject>"
++msgstr ""
++"<inlinemediaobject><imageobject> <imagedata "
++"fileref=\"figures/cpufreq-50.png\" format=\"PNG\"/> "
++"</imageobject><textobject> <phrase>50 % prestanda</phrase> "
++"</textobject></inlinemediaobject>"
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:212
+ msgid "The CPU is running at, or close to, 50% throughput"
+-msgstr "Processorn kör på, eller nära, 50% styrka"
++msgstr "Processorn körs med en prestandanivå på eller nära 50 %."
+ 
+ #. (itstool) path: imageobject/imagedata
+ #. This is a reference to an external file such as an image or video. When
+@@ -371,23 +375,25 @@
+ #. (itstool) path: entry/para
+ #: C/index.docbook:217
+ msgid ""
+-"<inlinemediaobject><imageobject> <imagedata fileref=\"figures/"
+-"cpufreq-25.png\" format=\"PNG\"/> </imageobject><textobject> <phrase>25% "
+-"Power</phrase> </textobject></inlinemediaobject>"
+-msgstr ""
+-"<inlinemediaobject><imageobject> <imagedata fileref=\"figures/"
+-"cpufreq-25.png\" format=\"PNG\"/> </imageobject><textobject> <phrase>25% "
+-"styrka</phrase> </textobject></inlinemediaobject>"
++"<inlinemediaobject><imageobject> <imagedata "
++"fileref=\"figures/cpufreq-25.png\" format=\"PNG\"/> "
++"</imageobject><textobject> <phrase>25% Power</phrase> "
++"</textobject></inlinemediaobject>"
++msgstr ""
++"<inlinemediaobject><imageobject> <imagedata "
++"fileref=\"figures/cpufreq-25.png\" format=\"PNG\"/> "
++"</imageobject><textobject> <phrase>25 % prestanda</phrase> "
++"</textobject></inlinemediaobject>"
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:223
+ msgid "The CPU is running at, or close to, 25% throughput"
+-msgstr "Processorn kör på, eller nära, 25% styrka"
++msgstr "Processorn körs med en prestandanivå på eller nära 25 %."
+ 
+ #. (itstool) path: sect2/title
+ #: C/index.docbook:233
+ msgid "Frequency and Governor Selector"
+-msgstr "Väljare för frekvens och regulator"
++msgstr "Väljare för frekvens och frekvensregulator"
+ 
+ #. (itstool) path: warning/para
+ #: C/index.docbook:234
+@@ -396,9 +402,9 @@
+ "Desktop by default. Please consult your system administrator, vendor "
+ "documentation, or the documentation that came with this software."
+ msgstr ""
+-"Frekvensväljarens funktionalitet kanske inte finns tillgänglig på ditt GNOME-"
+-"skrivbord som standard. Konsultera din systemadministratör, tillverkarens "
+-"dokumentation eller dokumentationen som kommer med denna programvara."
++"Frekvensväljaren kanske inte är tillgänglig som standard på ditt GNOME-"
++"skrivbord. Kontakta systemadministratören, läs tillverkarens dokumentation "
++"eller dokumentationen som följde med programmet."
+ 
+ #. (itstool) path: sect2/para
+ #: C/index.docbook:238
+@@ -407,9 +413,8 @@
+ "shown. This menu will offer you a list of available frequencies and/or "
+ "frequency governors for your machine."
+ msgstr ""
+-"För att ställa in processorfrekvensen, (vänster)klicka på övervakaren och en "
+-"meny kommer att visas. Denna meny visar dig en lista på tillgängliga "
+-"frekvenser och/eller frekvensregulatorer för din dator."
++"Klicka med vänster musknapp på miniprogrammet för att visa en meny med "
++"tillgängliga frekvenser och/eller frekvensregulatorer för datorn."
+ 
+ #. (itstool) path: tip/para
+ #: C/index.docbook:243
+@@ -418,14 +423,14 @@
+ "in the <guilabel>Preferences</guilabel>. See <xref linkend=\"cpufreq-applet-"
+ "prefs\"/> for more information."
+ msgstr ""
+-"Du kan välja huruvida du vill visa tillgängliga frekvenser eller regulatorer "
+-"i <guilabel>Inställningar</guilabel>. Se <xref linkend=\"cpufreq-applet-"
+-"prefs\"/> för mer information."
++"I <guilabel>Inställningar</guilabel> kan du välja om frekvenser eller "
++"frekvensregulatorer ska visas. Mer information finns i <xref "
++"linkend=\"cpufreq-applet-prefs\"/>."
+ 
+ #. (itstool) path: figure/title
+ #: C/index.docbook:250
+ msgid "Frequency selector showing just frequencies"
+-msgstr "Frekvensväljaren visar bara frekvenser"
++msgstr "Frekvensväljaren med enbart frekvenser"
+ 
+ #. (itstool) path: imageobject/imagedata
+ #. This is a reference to an external file such as an image or video. When
+@@ -444,7 +449,7 @@
+ #. (itstool) path: figure/title
+ #: C/index.docbook:261
+ msgid "Frequency selector showing both frequencies and governors"
+-msgstr "Frekvensväljaren visar både frekvenser och regulatorer"
++msgstr "Frekvensväljaren med frekvenser och frekvensregulatorer"
+ 
+ #. (itstool) path: imageobject/imagedata
+ #. This is a reference to an external file such as an image or video. When
+@@ -469,12 +474,12 @@
+ #: C/index.docbook:277
+ msgid ""
+ "To configure the <application>CPU Frequency Scaling Monitor</application>, "
+-"right-click on the applet, then choose <guimenuitem>Preferences</"
+-"guimenuitem> from the popup menu."
+-msgstr ""
+-"För att konfigurera <application>Övervakare av processorfrekvensskalning</"
+-"application>, högerklicka på miniprogrammet, välj sedan "
+-"<guimenuitem>Inställningar</guimenuitem> från popupmenyn."
++"right-click on the applet, then choose "
++"<guimenuitem>Preferences</guimenuitem> from the popup menu."
++msgstr ""
++"Konfigurera <application>Övervakaren för processorns "
++"frekvensskalning</application> genom att högerklicka på miniprogrammet och "
++"välja <guimenuitem>Inställningar</guimenuitem> i snabbmenyn."
+ 
+ #. (itstool) path: sect1/para
+ #: C/index.docbook:278
+@@ -483,12 +488,13 @@
+ "components:"
+ msgstr ""
+ "Dialogrutan <guimenuitem>Inställningar</guimenuitem> innehåller följande "
+-"komponenter:"
++"delar:"
+ 
+ #. (itstool) path: figure/title
+ #: C/index.docbook:280
+ msgid "CPU Frequency Scaling Monitor Preferences Dialog"
+-msgstr "Inställningsdialogen i Övervakare av processorfrekvensskalning"
++msgstr ""
++"Inställningsdialogruta för övervakaren av processorns frekvensskalning"
+ 
+ #. (itstool) path: imageobject/imagedata
+ #. This is a reference to an external file such as an image or video. When
+@@ -512,21 +518,21 @@
+ "Monitor preferences dialog</phrase> </textobject>"
+ msgstr ""
+ "<imageobject><imagedata fileref=\"figures/cpufreq-applet-preferences.png\" "
+-"format=\"PNG\"/> </imageobject> <textobject> <phrase>Inställningsdialogen i "
+-"Övervakare av processorfrekvensskalning</phrase> </textobject>"
++"format=\"PNG\"/> </imageobject> <textobject> <phrase>Inställningsdialogruta "
++"för övervakaren av processorns frekvensskalning</phrase> </textobject>"
+ 
+ #. (itstool) path: varlistentry/term
+ #: C/index.docbook:294
+ msgid "<guilabel>Monitored CPU (only in multiprocessor systems)</guilabel>"
+ msgstr ""
+-"<guilabel>Övervakad processor (endast för system med flera processorer)</"
+-"guilabel>"
++"<guilabel>Övervakad processor (endast för system med flera "
++"processorer)</guilabel>"
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:296
+ msgid "Use this drop-down list to select the CPU that you want to monitor."
+ msgstr ""
+-"Använd denna rullgardinsmeny för att välja processorn som du vill övervaka."
++"Använd rullgardinsmenyn för att välja vilken processor du vill övervaka."
+ 
+ #. (itstool) path: figure/title
+ #: C/index.docbook:298
+@@ -551,13 +557,13 @@
+ #: C/index.docbook:300
+ msgid ""
+ "<imageobject><imagedata fileref=\"figures/cpufreq-applet-preferences-"
+-"smp.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>CPU Frequency "
+-"Scaling Monitor preferences dialog CPU selector</phrase> </textobject>"
++"smp.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>CPU Frequency"
++" Scaling Monitor preferences dialog CPU selector</phrase> </textobject>"
+ msgstr ""
+ "<imageobject><imagedata fileref=\"figures/cpufreq-applet-preferences-"
+ "smp.png\" format=\"PNG\"/> </imageobject> <textobject> "
+-"<phrase>Processorväljare i inställningsdialogen för Övervakare av "
+-"processorfrekvensskalning</phrase> </textobject>"
++"<phrase>Processorväljare i inställningsdialogrutan för övervakaren av "
++"processorns frekvensskalning</phrase> </textobject>"
+ 
+ #. (itstool) path: note/para
+ #: C/index.docbook:309
+@@ -565,7 +571,7 @@
+ "The <guilabel>Monitored CPU</guilabel> option will only appear on "
+ "multiprocessor (SMP) systems."
+ msgstr ""
+-"Alternativet <guilabel>Övervakad processor</guilabel> visas endast på system "
++"Alternativet <guilabel>Övervakad processor</guilabel> visas bara på system "
+ "med flera processorer (SMP)."
+ 
+ # TODO: ej hittad i gränssnittssträngarna.
+@@ -580,14 +586,13 @@
+ "Use this drop-down list to select the mode in which you want to display the "
+ "applet. Available modes are: Graphic, Text and both (Graphic and Text)"
+ msgstr ""
+-"Använd denna rullgardinsmeny för att välja läget i vilket du vill visa "
+-"miniprogrammet. Tillgängliga lägen är: Grafik, text och båda (grafik och "
+-"text)"
++"Använd rullgardinsmenyn för att välja visningsläge för miniprogrammet. "
++"Tillgängliga lägen är: Grafik, Text eller båda (Grafik och text)."
+ 
+ #. (itstool) path: varlistentry/term
+ #: C/index.docbook:325
+ msgid "<guilabel>Show CPU frequency as frequency</guilabel>"
+-msgstr "<guilabel>Visa processorfrekvens som frekvens</guilabel>"
++msgstr "<guilabel>Visa processorfrekvens som frekvensvärde</guilabel>"
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:327
+@@ -611,15 +616,15 @@
+ #. (itstool) path: varlistentry/term
+ #: C/index.docbook:338
+ msgid "<guilabel>Show CPU frequency as percentage</guilabel>"
+-msgstr "<guilabel>Visa processorfrekvens som procentandel</guilabel>"
++msgstr "<guilabel>Visa processorfrekvens i procent</guilabel>"
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:340
+ msgid ""
+ "Select this option to display the current CPU frequency as a percentage."
+ msgstr ""
+-"Välj detta alternativ för att visa aktuell processorfrekvens som en "
+-"procentandel."
++"Välj det här alternativet för att visa den aktuella processorfrekvensen i "
++"procent."
+ 
+ #. (itstool) path: varlistentry/term
+ #: C/index.docbook:345
+@@ -629,32 +634,32 @@
+ #. (itstool) path: figure/title
+ #: C/index.docbook:355
+ msgid "The selector configured to Frequencies and Governors"
+-msgstr "Väljaren konfigurerad till Frekvenser och Regulatorer"
++msgstr "Väljaren visar frekvenser och frekvensregulatorer"
+ 
+ #. (itstool) path: screenshot/mediaobject
+ #: C/index.docbook:357
+ msgid ""
+-"<imageobject><imagedata fileref=\"figures/cpufreq-applet-selector-both.png\" "
+-"format=\"PNG\"/> </imageobject> <textobject> <phrase>CPU governors selector</"
+-"phrase> </textobject>"
+-msgstr ""
+-"<imageobject><imagedata fileref=\"figures/cpufreq-applet-selector-both.png\" "
+-"format=\"PNG\"/> </imageobject> <textobject> "
+-"<phrase>Processorregulatorväljare</phrase> </textobject>"
++"<imageobject><imagedata fileref=\"figures/cpufreq-applet-selector-both.png\""
++" format=\"PNG\"/> </imageobject> <textobject> <phrase>CPU governors "
++"selector</phrase> </textobject>"
++msgstr ""
++"<imageobject><imagedata fileref=\"figures/cpufreq-applet-selector-both.png\""
++" format=\"PNG\"/> </imageobject> <textobject> <phrase>Väljare för "
++"frekvensregulatorer</phrase> </textobject>"
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:347
+ msgid ""
+ "This option allows you to choose how much information is shown in the "
+-"frequency selector dropdown (see <xref linkend=\"gnome-cpufreq-selector\"/"
+-">). You can select to display <guilabel>Frequencies</guilabel>, "
+-"<guilabel>Governors</guilabel> or both <guilabel>Frequencies and Governors</"
+-"guilabel>. <_:figure-1/>"
+-msgstr ""
+-"Detta alternativ låter dig välja hur mycket information som ska visas i "
++"frequency selector dropdown (see <xref linkend=\"gnome-cpufreq-"
++"selector\"/>). You can select to display <guilabel>Frequencies</guilabel>, "
++"<guilabel>Governors</guilabel> or both <guilabel>Frequencies and "
++"Governors</guilabel>. <_:figure-1/>"
++msgstr ""
++"Med det här alternativet väljer du hur mycket information som ska visas i "
+ "frekvensväljarens rullgardinsmeny (se <xref linkend=\"gnome-cpufreq-"
+-"selector\"/>). Du kan välja att visa <guilabel>Frekvenser</guilabel>, "
+-"<guilabel>Regulatorer</guilabel> eller både <guilabel>Frekvenser och "
++"selector\"/>). Du kan visa <guilabel>Frekvenser</guilabel>, "
++"<guilabel>Regulatorer</guilabel> eller båda <guilabel>Frekvenser och "
+ "regulatorer</guilabel>. <_:figure-1/>"
+ 
+ #. (itstool) path: para/ulink
+@@ -668,28 +673,28 @@
+ "Permission is granted to copy, distribute and/or modify this document under "
+ "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+ "later version published by the Free Software Foundation with no Invariant "
+-"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+-"of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
++"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy"
++" of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
+ "with this manual."
+ msgstr ""
+ "Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges "
+ "under villkoren i GNU Free Documentation License (GFDL), version 1.1 eller "
+ "senare, utgivet av Free Software Foundation utan standardavsnitt och "
+-"omslagstexter.  En kopia av GFDL finns att hämta på denna <_:ulink-1/> eller "
+-"i filen COPYING-DOCS som medföljer denna handbok."
++"omslagstexter.  En kopia av GFDL finns att hämta på denna <_:ulink-1/> eller"
++" i filen COPYING-DOCS som medföljer denna handbok."
+ 
+ #. (itstool) path: legalnotice/para
+ #: C/legal.xml:12
+ msgid ""
+ "This manual is part of a collection of GNOME manuals distributed under the "
+ "GFDL. If you want to distribute this manual separately from the collection, "
+-"you can do so by adding a copy of the license to the manual, as described in "
+-"section 6 of the license."
+-msgstr ""
+-"Denna handbok utgör en av flera GNOME-handböcker som distribueras under "
+-"villkoren i GFDL.  Om du vill distribuera denna handbok separat från övriga "
+-"handböcker kan du göra detta genom att lägga till en kopia av licensavtalet "
+-"i handboken enligt instruktionerna i avsnitt 6 i licensavtalet."
++"you can do so by adding a copy of the license to the manual, as described in"
++" section 6 of the license."
++msgstr ""
++"Den här handboken ingår i en samling GNOME-handböcker som distribueras "
++"enligt GFDL. Om du vill distribuera handboken separat från samlingen kan du "
++"göra det genom att bifoga en kopia av licensen, enligt beskrivningen i "
++"licensens avsnitt 6."
+ 
+ #. (itstool) path: legalnotice/para
+ #: C/legal.xml:19
+@@ -700,10 +705,10 @@
+ "aware of those trademarks, then the names are in capital letters or initial "
+ "capital letters."
+ msgstr ""
+-"Flera namn på produkter och tjänster är registrerade varumärken. I de fall "
+-"dessa namn förekommer i GNOME-dokumentation - och medlemmarna i GNOME-"
+-"dokumentationsprojektet är medvetna om dessa varumärken - är de skrivna med "
+-"versaler eller med inledande versal."
++"Flera namn som företag använder för att skilja sina produkter och tjänster "
++"åt är varumärken. När sådana namn förekommer i GNOME-dokumentation och "
++"medlemmarna i GNOME:s dokumentationsprojekt känner till varumärkena, skrivs "
++"namnen med versaler eller inledande versal."
+ 
+ #. (itstool) path: listitem/para
+ #: C/legal.xml:35
+@@ -720,47 +725,44 @@
+ "ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+ "OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+ msgstr ""
+-"DOKUMENTET TILLHANDAHÅLLS I \"BEFINTLIGT SKICK\" UTAN NÅGRA SOM HELST "
+-"GARANTIER, VARE SIG UTTRYCKLIGA ELLER UNDERFÖRSTÅDDA, INKLUSIVE, MEN INTE "
+-"BEGRÄNSAT TILL, GARANTIER ATT DOKUMENTET ELLER EN MODIFIERAD VERSION AV "
+-"DOKUMENTET INTE INNEHÅLLER NÅGRA FELAKTIGHETER, ÄR LÄMPLIGT FÖR ETT VISST "
+-"ÄNDAMÅL ELLER INTE STRIDER MOT LAG. HELA RISKEN VAD GÄLLER KVALITET, "
+-"EXAKTHET OCH UTFÖRANDE AV DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET "
+-"LIGGER HELT OCH HÅLLET PÅ ANVÄNDAREN. OM ETT DOKUMENT ELLER EN MODIFIERAD "
+-"VERSION AV ETT DOKUMENT SKULLE VISA SIG INNEHÅLLA FELAKTIGHETER I NÅGOT "
+-"HÄNSEENDE ÄR DET DU (INTE DEN URSPRUNGLIGA SKRIBENTEN, FÖRFATTAREN ELLER "
+-"NÅGON ANNAN MEDARBETARE) SOM FÅR STÅ FÖR ALLA EVENTUELLA KOSTNADER FÖR "
+-"SERVICE, REPARATIONER ELLER KORRIGERINGAR. DENNA GARANTIFRISKRIVNING UTGÖR "
+-"EN VÄSENTLIG DEL AV DETTA LICENSAVTAL. DETTA INNEBÄR ATT ALL ANVÄNDNING AV "
+-"ETT DOKUMENT ELLER EN MODIFIERAD VERSION AV ETT DOKUMENT BEVILJAS ENDAST "
+-"UNDER DENNA ANSVARSFRISKRIVNING;"
++"DOKUMENTET TILLHANDAHÅLLS I ”BEFINTLIGT SKICK” UTAN NÅGON SOM HELST GARANTI,"
++" VARE SIG UTTRYCKLIG ELLER UNDERFÖRSTÅDD, INKLUSIVE, MEN INTE BEGRÄNSAT "
++"TILL, GARANTIER OM ATT DOKUMENTET ELLER EN MODIFIERAD VERSION AV DOKUMENTET "
++"ÄR FELFRI, SÄLJBAR, LÄMPLIG FÖR ETT VISST ÄNDAMÅL ELLER INTE GÖR INTRÅNG I "
++"NÅGONS RÄTTIGHETER. DU BÄR HELA RISKEN FÖR DOKUMENTETS ELLER DEN MODIFIERADE"
++" VERSIONENS KVALITET, KORREKTHET OCH PRESTANDA. OM ETT DOKUMENT ELLER EN "
++"MODIFIERAD VERSION VISAR SIG HA NÅGON BRIST, FÅR DU (INTE DEN URSPRUNGLIGA "
++"SKRIBENTEN, FÖRFATTAREN ELLER NÅGON BIDRAGSGIVARE) SJÄLV STÅ FÖR KOSTNADERNA"
++" FÖR NÖDVÄNDIG SERVICE, REPARATION ELLER KORRIGERING. DENNA "
++"GARANTIFRISKRIVNING UTGÖR EN VÄSENTLIG DEL AV LICENSEN. DOKUMENTET ELLER EN "
++"MODIFIERAD VERSION FÅR ENDAST ANVÄNDAS MED FÖRBEHÅLL FÖR DENNA "
++"ANSVARSFRISKRIVNING; OCH"
+ 
+ #. (itstool) path: listitem/para
+ #: C/legal.xml:55
+ msgid ""
+-"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+-"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
++"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING"
++" NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+ "CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+ "DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+ "FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+ "ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+-"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+-"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+-"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+-"POSSIBILITY OF SUCH DAMAGES."
+-msgstr ""
+-"UNDER INGA OMSTÄNDIGHETER ELLER INOM RAMEN FÖR NÅGON LAGSTIFTNING, OAVSETT "
+-"OM DET GÄLLER KRÄNKNING (INKLUSIVE VÅRDSLÖSHET), KONTRAKT ELLER DYLIKT, SKA "
+-"FÖRFATTAREN, DEN URSPRUNGLIGA SKRIBENTEN ELLER ANNAN MEDARBETARE ELLER "
+-"ÅTERFÖRSÄLJARE AV DOKUMENTET ELLER AV EN MODIFIERAD VERSION AV DOKUMENTET "
+-"ELLER NÅGON LEVERANTÖR TILL NÅGON AV NÄMNDA PARTER STÄLLAS ANSVARIG GENTEMOT "
+-"NÅGON FÖR NÅGRA DIREKTA, INDIREKTA, SÄRSKILDA ELLER OFÖRUTSEDDA SKADOR ELLER "
+-"FÖLJDSKADOR AV NÅGOT SLAG, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, SKADOR "
+-"BETRÄFFANDE FÖRLORAD GOODWILL, HINDER I ARBETET, DATORHAVERI ELLER NÅGRA "
+-"ANDRA TÄNKBARA SKADOR ELLER FÖRLUSTER SOM KAN UPPKOMMA PÅ GRUND AV ELLER "
+-"RELATERAT TILL ANVÄNDNINGEN AV DOKUMENTET ELLER MODIFIERADE VERSIONER AV "
+-"DOKUMENTET, ÄVEN OM PART SKA HA BLIVIT INFORMERAD OM MÖJLIGHETEN TILL SÅDANA "
+-"SKADOR."
++"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES"
++" OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
++"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
++" POSSIBILITY OF SUCH DAMAGES."
++msgstr ""
++"FÖRFATTAREN, DEN URSPRUNGLIGA SKRIBENTEN, ALLA BIDRAGSGIVARE, ALLA SOM "
++"DISTRIBUERAR DOKUMENTET ELLER EN MODIFIERAD VERSION AV DET OCH ALLA "
++"LEVERANTÖRER TILL NÅGON AV DESSA PARTER SKA UNDER INGA OMSTÄNDIGHETER OCH "
++"OAVSETT RÄTTSLIG GRUND – VARE SIG SKADESTÅNDSRÄTT (INKLUSIVE VÅRDSLÖSHET), "
++"AVTAL ELLER NÅGOT ANNAT – HÅLLAS ANSVARIGA GENTEMOT NÅGON FÖR DIREKTA, "
++"INDIREKTA, SÄRSKILDA, OFÖRUTSEDDA ELLER FÖLJDSKADOR AV NÅGOT SLAG, "
++"INKLUSIVE, MEN INTE BEGRÄNSAT TILL, SKADOR TILL FÖLJD AV FÖRLORAD GOODWILL, "
++"ARBETSAVBROTT, DATORFEL ELLER FUNKTIONSSTÖRNINGAR, ELLER ANDRA SKADOR ELLER "
++"FÖRLUSTER SOM UPPSTÅR GENOM ELLER I SAMBAND MED ANVÄNDNING AV DOKUMENTET "
++"ELLER MODIFIERADE VERSIONER AV DET, ÄVEN OM PARTEN HAR INFORMERATS OM ATT "
++"SÅDANA SKADOR KAN UPPSTÅ."
+ 
+ #. (itstool) path: legalnotice/para
+ #: C/legal.xml:28
+@@ -774,20 +776,19 @@
+ "FÖRUTSÄTTNINGAR: <_:orderedlist-1/>"
+ 
+ #~ msgid ""
+-#~ "Permission is granted to copy, distribute and/or modify this document "
+-#~ "under the terms of the GNU Free Documentation License (GFDL), Version 1.1 "
+-#~ "or any later version published by the Free Software Foundation with no "
+-#~ "Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You "
+-#~ "can find a copy of the GFDL at this <ulink type=\"help\" "
+-#~ "url=\"help:fdl\">link</ulink> or in the file COPYING-DOCS distributed "
+-#~ "with this manual."
++#~ "Permission is granted to copy, distribute and/or modify this document under "
++#~ "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
++#~ "later version published by the Free Software Foundation with no Invariant "
++#~ "Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy"
++#~ " of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or "
++#~ "in the file COPYING-DOCS distributed with this manual."
+ #~ msgstr ""
+ #~ "Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges "
+-#~ "under villkoren i GNU Free Documentation License (GFDL), version 1.1 "
+-#~ "eller senare, utgivet av Free Software Foundation utan standardavsnitt "
+-#~ "och omslagstexter.  En kopia av GFDL finns att hämta på denna <ulink "
+-#~ "type=\"help\" url=\"help:fdl\">länk</ulink> eller i filen COPYING-DOCS "
+-#~ "som medföljer denna handbok."
++#~ "under villkoren i GNU Free Documentation License (GFDL), version 1.1 eller "
++#~ "senare, utgivet av Free Software Foundation utan standardavsnitt och "
++#~ "omslagstexter.  En kopia av GFDL finns att hämta på denna <ulink "
++#~ "type=\"help\" url=\"help:fdl\">länk</ulink> eller i filen COPYING-DOCS som "
++#~ "medföljer denna handbok."
+ 
+ #~ msgid "2005"
+ #~ msgstr "2005"

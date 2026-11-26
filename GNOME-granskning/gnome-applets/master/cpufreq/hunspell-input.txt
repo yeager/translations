@@ -1,0 +1,83 @@
+Daniel Nylander  , 2006
+Anders Jonsson  , 2016
+Handbok för miniprogrammet som övervakar processorns frekvensskalning
+Miniprogrammet visar processorns aktuella klockfrekvens och låter dig ändra den om processorn stöder det.
+ 2005   Davyd Madeley 
+ 2004   GNOME Foundation 
+Dokumentationsprojekt för GNOME
+ Carlos   Garcia Campos     GNOME-projektet    carlosgc@gnome.org    
+ Davyd   Madeley     GNOME-projektet    davyd@madeley.id.au    
+Davyd Madeley
+ GNOME 2.12   Augusti 2005   
+ GNOME 2.10   Mars 2005   
+Carlos Garcia Campos
+ Handbok för miniprogrammet som övervakar processorns frekvensskalning V0.3   Oktober 2004   
+Den här handboken beskriver version 2.12.0 av miniprogrammet som övervakar processorns frekvensskalning.
+Återkoppling
+Om du vill rapportera ett fel eller lämna ett förslag om miniprogrammet som övervakar processorns frekvensskalning eller den här handboken följer du anvisningarna på  GNOME:s återkopplingssida .
+ Övervakare för processorns frekvensskalning 
+Introduktion
+Övervakare för processorns frekvensskalning
+external ref='figures/cpufreq-applet.png' md5='9697917ccaea349dc6584bf8c42c2534'
+ Övervakaren för processorns frekvensskalning  visar frekvensskalningen för varje processor.
+Lägg till  Övervakaren för processorns frekvensskalning  i en panel genom att högerklicka på panelen. Välj sedan    Lägg till i panel   Övervakare för processorns frekvensskalning   .
+Tyvärr kan processorns frekvensskalning för närvarande bara övervakas på Linux-system där kärnan har stöd för det. Miniprogrammet stöder dock flera generationer av kärnans gränssnitt för frekvensskalning.
+Om systemet saknar stöd för processorns frekvensskalning visar miniprogrammet bara den aktuella processorfrekvensen.
+När systemet stöder processorns frekvensskalning visar miniprogrammet en processorikon med en förloppsindikator. Indikatorn visar den aktuella processorfrekvensen i förhållande till den högsta frekvensen.
+Som standard visar miniprogrammet processorfrekvensen i hertz (standardmåttet för frekvens), men du kan ställa in det så att frekvensen visas i procent. Mer information om hur du konfigurerar miniprogrammet finns i  .
+Varje instans av miniprogrammet kan bara övervaka en processor. I ett system med flera processorer (SMP) måste du starta en instans för varje processor du vill övervaka.
+Förstå vad ikonerna innebär
+En serie ikoner visar den aktuella frekvensnivån för processorn som övervakas:
+Ikon
+Beskrivning
+external ref='figures/cpufreq-100.png' md5='298d50a03bfcf5143bb9877703de9541'
+         100 % prestanda    
+Processorn körs med en prestandanivå på eller nära 100 %.
+external ref='figures/cpufreq-75.png' md5='5af5eba3f0627af1d14807d9e66aecd2'
+         75 % prestanda    
+Processorn körs med en prestandanivå på eller nära 75 %.
+external ref='figures/cpufreq-50.png' md5='4852c52d4056355c4f7479ffb26a8fe2'
+         50 % prestanda    
+Processorn körs med en prestandanivå på eller nära 50 %.
+external ref='figures/cpufreq-25.png' md5='4e282fbc1af212f68a939c44a9ef94a3'
+         25 % prestanda    
+Processorn körs med en prestandanivå på eller nära 25 %.
+Väljare för frekvens och frekvensregulator
+Frekvensväljaren kanske inte är tillgänglig som standard på ditt GNOME-skrivbord. Kontakta systemadministratören, läs tillverkarens dokumentation eller dokumentationen som följde med programmet.
+Klicka med vänster musknapp på miniprogrammet för att visa en meny med tillgängliga frekvenser och/eller frekvensregulatorer för datorn.
+I  Inställningar  kan du välja om frekvenser eller frekvensregulatorer ska visas. Mer information finns i  .
+Frekvensväljaren med enbart frekvenser
+external ref='figures/cpufreq-applet-selector.png' md5='4f5f2e6e80e9fb629cdc9cea283ab6b5'
+Frekvensväljaren med frekvenser och frekvensregulatorer
+external ref='figures/cpufreq-applet-selector-both.png' md5='dcee11390666adc6b497a691b7b77b2d'
+Inställningar
+Konfigurera  Övervakaren för processorns frekvensskalning  genom att högerklicka på miniprogrammet och välja  Inställningar  i snabbmenyn.
+Dialogrutan  Inställningar  innehåller följande delar:
+Inställningsdialogruta för övervakaren av processorns frekvensskalning
+external ref='figures/cpufreq-applet-preferences.png' md5='e30ba42122a806febac11082c2083605'
+        Inställningsdialogruta för övervakaren av processorns frekvensskalning   
+ Övervakad processor (endast för system med flera processorer) 
+Använd rullgardinsmenyn för att välja vilken processor du vill övervaka.
+Välja processor att övervaka
+external ref='figures/cpufreq-applet-preferences-smp.png' md5='8a33cf86190df20c295197f04eacfdbe'
+        Processorväljare i inställningsdialogrutan för övervakaren av processorns frekvensskalning   
+Alternativet  Övervakad processor  visas bara på system med flera processorer (SMP).
+ Visa i läge 
+Använd rullgardinsmenyn för att välja visningsläge för miniprogrammet. Tillgängliga lägen är: Grafik, Text eller båda (Grafik och text).
+ Visa processorfrekvens som frekvensvärde 
+Välj detta alternativ för att visa aktuell processorfrekvens.
+ Visa frekvensenheter 
+Välj detta alternativ för att visa (eller inte visa) frekvensenheterna i frekvensläget.
+ Visa processorfrekvens i procent 
+Välj det här alternativet för att visa den aktuella processorfrekvensen i procent.
+ Visa meny 
+Väljaren visar frekvenser och frekvensregulatorer
+        Väljare för frekvensregulatorer   
+Med det här alternativet väljer du hur mycket information som ska visas i frekvensväljarens rullgardinsmeny (se  ). Du kan visa  Frekvenser ,  Regulatorer  eller båda  Frekvenser och regulatorer .  
+länk
+Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges under villkoren i GNU Free Documentation License (GFDL), version 1.1 eller senare, utgivet av Free Software Foundation utan standardavsnitt och omslagstexter.  En kopia av GFDL finns att hämta på denna   eller i filen COPYING-DOCS som medföljer denna handbok.
+Den här handboken ingår i en samling GNOME-handböcker som distribueras enligt GFDL. Om du vill distribuera handboken separat från samlingen kan du göra det genom att bifoga en kopia av licensen, enligt beskrivningen i licensens avsnitt 6.
+Flera namn som företag använder för att skilja sina produkter och tjänster åt är varumärken. När sådana namn förekommer i GNOME-dokumentation och medlemmarna i GNOME:s dokumentationsprojekt känner till varumärkena, skrivs namnen med versaler eller inledande versal.
+DOKUMENTET TILLHANDAHÅLLS I ”BEFINTLIGT SKICK” UTAN NÅGON SOM HELST GARANTI, VARE SIG UTTRYCKLIG ELLER UNDERFÖRSTÅDD, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, GARANTIER OM ATT DOKUMENTET ELLER EN MODIFIERAD VERSION AV DOKUMENTET ÄR FELFRI, SÄLJBAR, LÄMPLIG FÖR ETT VISST ÄNDAMÅL ELLER INTE GÖR INTRÅNG I NÅGONS RÄTTIGHETER. DU BÄR HELA RISKEN FÖR DOKUMENTETS ELLER DEN MODIFIERADE VERSIONENS KVALITET, KORREKTHET OCH PRESTANDA. OM ETT DOKUMENT ELLER EN MODIFIERAD VERSION VISAR SIG HA NÅGON BRIST, FÅR DU (INTE DEN URSPRUNGLIGA SKRIBENTEN, FÖRFATTAREN ELLER NÅGON BIDRAGSGIVARE) SJÄLV STÅ FÖR KOSTNADERNA FÖR NÖDVÄNDIG SERVICE, REPARATION ELLER KORRIGERING. DENNA GARANTIFRISKRIVNING UTGÖR EN VÄSENTLIG DEL AV LICENSEN. DOKUMENTET ELLER EN MODIFIERAD VERSION FÅR ENDAST ANVÄNDAS MED FÖRBEHÅLL FÖR DENNA ANSVARSFRISKRIVNING; OCH
+FÖRFATTAREN, DEN URSPRUNGLIGA SKRIBENTEN, ALLA BIDRAGSGIVARE, ALLA SOM DISTRIBUERAR DOKUMENTET ELLER EN MODIFIERAD VERSION AV DET OCH ALLA LEVERANTÖRER TILL NÅGON AV DESSA PARTER SKA UNDER INGA OMSTÄNDIGHETER OCH OAVSETT RÄTTSLIG GRUND – VARE SIG SKADESTÅNDSRÄTT (INKLUSIVE VÅRDSLÖSHET), AVTAL ELLER NÅGOT ANNAT – HÅLLAS ANSVARIGA GENTEMOT NÅGON FÖR DIREKTA, INDIREKTA, SÄRSKILDA, OFÖRUTSEDDA ELLER FÖLJDSKADOR AV NÅGOT SLAG, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, SKADOR TILL FÖLJD AV FÖRLORAD GOODWILL, ARBETSAVBROTT, DATORFEL ELLER FUNKTIONSSTÖRNINGAR, ELLER ANDRA SKADOR ELLER FÖRLUSTER SOM UPPSTÅR GENOM ELLER I SAMBAND MED ANVÄNDNING AV DOKUMENTET ELLER MODIFIERADE VERSIONER AV DET, ÄVEN OM PARTEN HAR INFORMERATS OM ATT SÅDANA SKADOR KAN UPPSTÅ.
+DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET TILLHANDAHÅLLS UNDER VILLKOREN I GNU FREE DOCUMENTATION LICENSE ENDAST UNDER FÖLJANDE FÖRUTSÄTTNINGAR:  

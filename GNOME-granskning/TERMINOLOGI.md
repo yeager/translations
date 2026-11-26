@@ -254,6 +254,12 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | eject (drive) | mata ut | När en optisk enhet eller ett medium matas ut. |
 | mount status | monteringsstatus | Om enheten eller filsystemet är monterat. |
 | removable media | flyttbara medier | Exempelvis USB-enheter och flyttbara diskar. |
+| CPU Frequency Scaling Monitor | Övervakare för processorns frekvensskalning | GNOME Applet för att visa och ändra processorns frekvensskalning. |
+| CPU frequency | processorfrekvens | Aktuell frekvens för en processor. |
+| CPU frequency scaling | processorns frekvensskalning | Frekvensändring för att styra processorns prestanda. |
+| frequency selector | frekvensväljare | Appletens meny för frekvensnivåer. |
+| frequency governor | frekvensregulator | Kärnans policy för processorns frekvens. |
+| throughput (cpufreq applet) | prestandanivå | Relativ prestanda som visas i appletens ikon. |
 
 ## Föräldrakontroller och användarkonton
 
