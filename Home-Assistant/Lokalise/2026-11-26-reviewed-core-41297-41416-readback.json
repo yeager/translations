@@ -1,0 +1,1042 @@
+[
+  {
+    "key": "component::bluetooth::issues::bluetooth_adapter_passive_mode_uart::description",
+    "key_id": "709759894",
+    "translation_id": "6564986489",
+    "en": "The Bluetooth adapter **{adapter}** ({model}) is stuck in passive scanning mode despite requesting active scanning mode. **Automatic recovery was attempted but failed.** This is likely a kernel, firmware, or operating system issue, and the system requires a complete power cycle to recover the adapter.\n\nIn passive mode, the adapter can only receive advertisements but cannot request additional data from devices, which will affect device discovery and functionality.\n\n**Manual intervention required:**\n1. **Shut down the system completely** (not just a reboot)\n2. **Remove power** (unplug or turn off at the switch)\n3. Wait 10 seconds\n4. Restore power and boot the system\n\nIf the issue persists after power cycling:\n- Check for kernel/firmware updates\n- The onboard Bluetooth adapter may have hardware issues",
+    "before": "Bluetooth-adaptern **{adapter}** ({model}) har fastnat i passivt skanningsläge trots att aktivt skanningsläge har begärts. **Automatisk återställning försöktes men misslyckades.** Detta beror sannolikt på problem med kärnan, firmware eller operativsystemet, och systemet måste strömcyklas för att adaptern ska återställas.\n\nI passivt läge kan adaptern endast ta emot annonser men inte begära ytterligare data från enheter, vilket påverkar enhetsidentifiering och funktionalitet.\n\n**Manuell åtgärd krävs:**\n1. **Stäng av systemet helt** (inte bara en omstart)\n2. **Bryt strömmen** (koppla ur eller stäng av vid strömbrytaren)\n3. Vänta 10 sekunder\n4. Återanslut strömmen och starta systemet\n\nOm problemet kvarstår efter strömcyklingen:\n- Kontrollera om det finns kärn- och firmwareuppdateringar\n- Den inbyggda Bluetooth-adaptern kan ha maskinvaruproblem",
+    "after": "Bluetooth-adaptern **{adapter}** ({model}) har fastnat i passivt skanningsläge trots att aktiv skanning har begärts. **Försöket att återställa adaptern automatiskt misslyckades.** Det beror sannolikt på ett problem med kärnan, den fasta programvaran eller operativsystemet. Systemet måste stängas av helt och kopplas bort från strömmen för att adaptern ska återställas.\n\nI passivt läge kan adaptern bara ta emot Bluetooth-annonseringar. Den kan inte begära mer information från enheterna, vilket påverkar hur de upptäcks och fungerar.\n\n**Manuell åtgärd krävs:**\n1. **Stäng av systemet helt** (det räcker inte att starta om det)\n2. **Bryt strömmen** (koppla ur strömsladden eller stäng av strömbrytaren)\n3. Vänta i 10 sekunder\n4. Anslut strömmen igen och starta systemet\n\nOm problemet kvarstår efter att strömmen har brutits helt:\n- Kontrollera om det finns uppdateringar av kärnan eller den fasta programvaran\n- Den inbyggda Bluetooth-adaptern kan ha ett maskinvarufel.",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::bluetooth::issues::bluetooth_adapter_passive_mode_uart::title",
+    "key_id": "709759895",
+    "translation_id": "6564986553",
+    "en": "Bluetooth adapter requires system power cycle",
+    "before": "Bluetooth-adaptern kräver att systemets ström bryts och återansluts",
+    "after": "Bluetooth-adaptern återställs först när strömmen till systemet har brutits helt",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::bluetooth::issues::bluetooth_adapter_passive_mode_usb::description",
+    "key_id": "709759896",
+    "translation_id": "6564986617",
+    "en": "The Bluetooth adapter **{adapter}** ({model}) is stuck in passive scanning mode despite requesting active scanning mode. **Automatic recovery was attempted but failed.** This is likely a kernel, firmware, or operating system issue, and the adapter requires a manual power cycle to recover.\n\nIn passive mode, the adapter can only receive advertisements but cannot request additional data from devices, which will affect device discovery and functionality.\n\n**Manual intervention required:**\n1. **Unplug the USB adapter**\n2. Wait 5 seconds\n3. **Plug it back in**\n4. Wait for Home Assistant to detect the adapter\n\nIf the issue persists after power cycling:\n- Try a different USB port\n- Check for kernel/firmware updates\n- Consider using a different Bluetooth adapter",
+    "before": "Bluetooth-adaptern **{adapter}** ({model}) har fastnat i passivt skanningsläge trots att aktivt skanningsläge har begärts. **Automatisk återställning försöktes men misslyckades.** Detta beror sannolikt på problem med kärnan, firmware eller operativsystemet, och adaptern måste strömcyklas manuellt för att återställas.\n\nI passivt läge kan adaptern endast ta emot annonser men inte begära ytterligare data från enheter, vilket påverkar enhetsidentifiering och funktionalitet.\n\n**Manuell åtgärd krävs:**\n1. **Koppla ur USB-adaptern**\n2. Vänta 5 sekunder\n3. **Anslut den igen**\n4. Vänta tills Home Assistant upptäcker adaptern\n\nOm problemet kvarstår efter strömcyklingen:\n- Prova en annan USB-port\n- Kontrollera om det finns kärn- och firmwareuppdateringar\n- Överväg att använda en annan Bluetooth-adapter",
+    "after": "Bluetooth-adaptern **{adapter}** ({model}) har fastnat i passivt skanningsläge trots att aktiv skanning har begärts. **Försöket att återställa adaptern automatiskt misslyckades.** Det beror sannolikt på ett problem med kärnan, den fasta programvaran eller operativsystemet. Adaptern måste kopplas ur och anslutas igen för att återställas.\n\nI passivt läge kan adaptern bara ta emot Bluetooth-annonseringar. Den kan inte begära mer information från enheterna, vilket påverkar hur de upptäcks och fungerar.\n\n**Manuell åtgärd krävs:**\n1. **Koppla ur USB-adaptern**\n2. Vänta i 5 sekunder\n3. **Anslut adaptern igen**\n4. Vänta tills Home Assistant upptäcker adaptern\n\nOm problemet kvarstår efter att adaptern har kopplats ur och anslutits igen:\n- Prova en annan USB-port\n- Kontrollera om det finns uppdateringar av kärnan eller den fasta programvaran\n- Överväg att använda en annan Bluetooth-adapter.",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::bluetooth::issues::bluetooth_adapter_passive_mode_usb::title",
+    "key_id": "709759897",
+    "translation_id": "6564986681",
+    "en": "Bluetooth USB adapter requires manual power cycle",
+    "before": "Bluetooth-USB-adaptern behöver kopplas ur och anslutas igen",
+    "after": "Bluetooth-USB-adaptern måste kopplas ur och anslutas igen",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::imeon_inverter::entity::select::manager_inverter_mode::name",
+    "key_id": "709995640",
+    "translation_id": "6566934893",
+    "en": "Inverter mode",
+    "before": "Inverter läge",
+    "after": "Växelriktarläge",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::imeon_inverter::entity::select::manager_inverter_mode::state::backup",
+    "key_id": "709995641",
+    "translation_id": "6566934957",
+    "en": "Backup",
+    "before": "Backup",
+    "after": "Reservdrift",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::imeon_inverter::entity::select::manager_inverter_mode::state::off_grid",
+    "key_id": "709995642",
+    "translation_id": "6566935021",
+    "en": "Off-grid",
+    "before": "Av nätet",
+    "after": "Fristående drift",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::imeon_inverter::entity::select::manager_inverter_mode::state::on_grid",
+    "key_id": "709995643",
+    "translation_id": "6566935085",
+    "en": "On-grid",
+    "before": "På nätet",
+    "after": "Nätansluten drift",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::imeon_inverter::entity::select::manager_inverter_mode::state::smart_grid",
+    "key_id": "709995644",
+    "translation_id": "6566935149",
+    "en": "Smart grid",
+    "before": "Smart nät",
+    "after": "Smartnätsdrift",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::imeon_inverter::entity::sensor::manager_inverter_state::state::grid_synchronized_but_not_used",
+    "key_id": "709995645",
+    "translation_id": "6566935213",
+    "en": "Grid unsynchronized but used",
+    "before": "Rutnät osynkroniserat men använt",
+    "after": "Elnätet är osynkroniserat men används.",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::ntfy::issues::topic_protected::fix_flow::step::confirm::description",
+    "key_id": "710026064",
+    "translation_id": "6567364169",
+    "en": "The topic **{topic}** on **{name}** is protected and requires authentication to subscribe.\n\nTo resolve this issue, you have two options:\n\n1. **Reconfigure the ntfy integration**\nAdd a username and password that has permission to access this topic.\n\n2. **Deactivate the event entity**\nThis will stop Home Assistant from subscribing to the topic.\nSelect **Submit** to deactivate the entity.",
+    "before": "Ämnet **{topic}** på **{name}** är skyddat och kräver autentisering för att prenumerera.\n\nFör att lösa problemet har du två alternativ:\n\n1. **Konfigurera om ntfy-integrationen**\nLägg till ett användarnamn och lösenord som har behörighet att komma åt detta ämne.\n\n2. **Inaktivera händelseentiteten**\nDetta hindrar Home Assistant från att prenumerera på ämnet.\n\nTryck på **Bekräfta** för att inaktivera entiteten.",
+    "after": "Ämnet **{topic}** på **{name}** är skyddat. Det krävs autentisering för att prenumerera.\n\nDu kan åtgärda problemet på två sätt:\n\n1. **Konfigurera om ntfy-integrationen**\nLägg till ett användarnamn och lösenord som har behörighet att komma åt ämnet.\n\n2. **Inaktivera händelseentiteten**\nDå prenumererar Home Assistant inte längre på ämnet.\nVälj **Skicka** för att inaktivera entiteten.",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::ntfy::issues::topic_protected::fix_flow::step::confirm::title",
+    "key_id": "710026065",
+    "translation_id": "6567364233",
+    "en": "Topic {topic} on {name} is protected",
+    "before": "Ämne {topic} på {name} är skyddat",
+    "after": "Ämnet {topic} på {name} är skyddat",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::ntfy::issues::topic_protected::title",
+    "key_id": "710026066",
+    "translation_id": "6567364297",
+    "en": "Subscription failed: Topic {topic} on {name} is protected",
+    "before": "Prenumerationen misslyckades: Ämnet {topic} på {name} är skyddat",
+    "after": "Prenumerationen misslyckades: ämnet {topic} på {name} är skyddat",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::brother::config::step::user::data_description::type",
+    "key_id": "710063035",
+    "translation_id": "6567736136",
+    "en": "The type of the Brother printer.",
+    "before": "Typen av Brother-skrivaren.",
+    "after": "Typ av Brother-skrivare.",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::brother::config::step::user::sections::advanced_settings::data::community",
+    "key_id": "710063036",
+    "translation_id": "6567736200",
+    "en": "SNMP Community",
+    "before": "SNMP-community",
+    "after": "SNMP-communitysträng",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::brother::config::step::user::sections::advanced_settings::data_description::community",
+    "key_id": "710063038",
+    "translation_id": "6567736328",
+    "en": "A simple password for devices to communicate to each other.",
+    "before": "Ett enkelt lösenord för enheter att kommunicera med varandra.",
+    "after": "En enkel lösenordssträng som enheter använder för att kommunicera med varandra.",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::brother::config::step::user::sections::advanced_settings::data_description::port",
+    "key_id": "710063039",
+    "translation_id": "6567736392",
+    "en": "The SNMP port of the Brother printer.",
+    "before": "SNMP-porten för Brother-skrivaren.",
+    "after": "SNMP-porten på Brother-skrivaren.",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::switchbot_cloud::entity::humidifier::evaporative_humidifier::state_attributes::mode::state::drying_filter",
+    "key_id": "710168554",
+    "translation_id": "6570516467",
+    "en": "Drying filter",
+    "before": "Torkfilter",
+    "after": "Filtertorkning",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::switchbot::config::step::cloud_login::description",
+    "key_id": "710220540",
+    "translation_id": "6571970007",
+    "en": "Please provide your SwitchBot app username and password. This data won't be saved and is only used to retrieve device model information to automate discovery. Usernames and passwords are case-sensitive. OAuth sign-in is recommended when available.",
+    "before": "Vänligen ange ditt användarnamn och lösenord för SwitchBot appen. Denna information sparas inte och används endast för att hämta information om enhetsmodell för att automatisera identifiering. Användarnamn och lösenord är skiftlägeskänsliga.",
+    "after": "Ange användarnamnet och lösenordet till SwitchBot-appen. Uppgifterna sparas inte utan används bara för att hämta information om enhetsmodellen och automatisera upptäckten. Användarnamn och lösenord är skiftlägeskänsliga. OAuth-inloggning rekommenderas när den är tillgänglig.",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::switchbot::config::step::select_device::data_description::address",
+    "key_id": "710220542",
+    "translation_id": "6571970135",
+    "en": "The Bluetooth MAC address of your SwitchBot device",
+    "before": "Bluetooth MAC-adressen för din SwitchBot-enhet",
+    "after": "Bluetooth-enhetens MAC-adress för din SwitchBot-enhet.",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::switchbot::config::step::user::description",
+    "key_id": "710220543",
+    "translation_id": "6571970199",
+    "en": "One or more of your Bluetooth adapters is using passive scanning, which may not discover all SwitchBot devices. Sign in to download device information and automate discovery, or continue without signing in. OAuth is recommended and its tokens are not saved.",
+    "before": "En eller flera av dina Bluetooth-adaptrar använder passiv skanning, vilket kanske inte upptäcker alla SwitchBot-enheter. Vill du logga in på ditt SwitchBot-konto för att ladda ner enhetsinformation och automatisera upptäckten? Om du är osäker rekommenderar vi att du loggar in.",
+    "after": "En eller flera Bluetooth-adaptrar använder passiv skanning, vilket kan göra att vissa SwitchBot-enheter inte upptäcks. Logga in för att hämta enhetsinformation och automatisera upptäckten, eller fortsätt utan att logga in. OAuth rekommenderas och dess token sparas inte.",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::switchbot::config::step::user::menu_options::cloud_login",
+    "key_id": "710220544",
+    "translation_id": "6571970263",
+    "en": "Sign in with username and password",
+    "before": "Logga in på SwitchBot-konto",
+    "after": "Logga in med användarnamn och lösenord",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::litterrobot::entity::sensor::food_dispensed_today::name",
+    "key_id": "710277999",
+    "translation_id": "6572453046",
+    "en": "Food dispensed today",
+    "before": "Mat serverades idag",
+    "after": "Mat som delats ut i dag",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::litterrobot::entity::sensor::next_feeding::name",
+    "key_id": "710278001",
+    "translation_id": "6572453174",
+    "en": "Next feeding",
+    "before": "Nästa utfodring",
+    "after": "Nästa matning",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::desk_up_down::name",
+    "key_id": "710525291",
+    "translation_id": "6574022362",
+    "en": "Up/Down",
+    "before": "Upp/Ner",
+    "after": "Upp/ned",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::roborock::options::step::drawables::data_description::show_background",
+    "key_id": "710526330",
+    "translation_id": "6574030350",
+    "en": "Add a background to the map.",
+    "before": "Lägg till en bakgrund på kartan",
+    "after": "Lägg till en bakgrund på kartan.",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::sensor::total_dissolved_solids::name",
+    "key_id": "710526718",
+    "translation_id": "6574036275",
+    "en": "Total dissolved solids",
+    "before": "Totalt upplösta fasta ämnen",
+    "after": "Total mängd lösta ämnen",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::litterrobot::entity::select::globe_brightness::name",
+    "key_id": "710544395",
+    "translation_id": "6574161205",
+    "en": "Globe brightness",
+    "before": "Globens ljusstyrka",
+    "after": "Nattbelysningens ljusstyrka",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::litterrobot::entity::select::globe_light::name",
+    "key_id": "710544399",
+    "translation_id": "6574161461",
+    "en": "Globe light",
+    "before": "Glob ljus",
+    "after": "Nattbelysning i globen",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::aosmith::entity::select::hot_water_plus_level::name",
+    "key_id": "710550543",
+    "translation_id": "6574224785",
+    "en": "Hot Water+ level",
+    "before": "Varmvatten+ nivå",
+    "after": "Nivå för Hot Water+",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::openweathermap::config::step::user::data_description::language",
+    "key_id": "710953337",
+    "translation_id": "6581228539",
+    "en": "Language for the OpenWeatherMap content",
+    "before": "Språk för OpenWeatherMap innehållet",
+    "after": "Språk för OpenWeatherMap-innehållet.",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::openweathermap::config::step::user::data_description::mode",
+    "key_id": "710953340",
+    "translation_id": "6581228731",
+    "en": "Mode for the OpenWeatherMap API",
+    "before": "Läge för OpenWeatherMap API",
+    "after": "Läge för OpenWeatherMap-API:t.",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::openweathermap::config::step::user::data_description::name",
+    "key_id": "710953341",
+    "translation_id": "6581228795",
+    "en": "Name for this OpenWeatherMap location",
+    "before": "Namn för denna OpenWeatherMap plats",
+    "after": "Namn på den här OpenWeatherMap-platsen.",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::switchbot::config::step::cloud_login::data_description::password",
+    "key_id": "710220538",
+    "translation_id": "6571969879",
+    "en": "The password of your SwitchBot account",
+    "before": "Lösenordet till ditt SwitchBot konto",
+    "after": "Lösenordet för ditt SwitchBot-konto",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::litterrobot::entity::select::globe_light::state::auto",
+    "key_id": "710544400",
+    "translation_id": "6574161525",
+    "en": "Auto",
+    "before": "Automatik",
+    "after": "Auto",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::switchbot_cloud::entity::sensor::light_level::name",
+    "key_id": "709693272",
+    "translation_id": "6563862964",
+    "en": "Light level",
+    "before": "Ljusnivå",
+    "after": "Ljusnivå",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::shelly::entity::sensor::detected_objects::unit_of_measurement",
+    "key_id": "709735422",
+    "translation_id": "6564773562",
+    "en": "objects",
+    "before": "föremål",
+    "after": "föremål",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::doorbird::config::abort::not_ipv4_address",
+    "key_id": "709960900",
+    "translation_id": "6566549674",
+    "en": "Only IPv4 addresses are supported",
+    "before": "Endast IPv4-adresser stöds",
+    "after": "Endast IPv4-adresser stöds",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::doorbird::config::abort::wrong_device",
+    "key_id": "709960901",
+    "translation_id": "6566549738",
+    "en": "Device MAC address does not match",
+    "before": "Enhetens MAC-adress matchar inte",
+    "after": "Enhetens MAC-adress matchar inte",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::sensor::cat_weight::name",
+    "key_id": "710012142",
+    "translation_id": "6567251134",
+    "en": "Cat weight",
+    "before": "Kattens vikt",
+    "after": "Kattens vikt",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::desk_level::name",
+    "key_id": "710043637",
+    "translation_id": "6567476678",
+    "en": "Level",
+    "before": "Nivå",
+    "after": "Nivå",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::desk_level::state::level_1",
+    "key_id": "710043638",
+    "translation_id": "6567476742",
+    "en": "Level 1",
+    "before": "Nivå 1",
+    "after": "Nivå 1",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::desk_level::state::level_2",
+    "key_id": "710043639",
+    "translation_id": "6567476806",
+    "en": "Level 2",
+    "before": "Nivå 2",
+    "after": "Nivå 2",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::desk_level::state::level_3",
+    "key_id": "710043640",
+    "translation_id": "6567476870",
+    "en": "Level 3",
+    "before": "Nivå 3",
+    "after": "Nivå 3",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::desk_level::state::level_4",
+    "key_id": "710043641",
+    "translation_id": "6567476934",
+    "en": "Level 4",
+    "before": "Nivå 4",
+    "after": "Nivå 4",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::blanket_level::name",
+    "key_id": "710043718",
+    "translation_id": "6567477496",
+    "en": "Level",
+    "before": "Nivå",
+    "after": "Nivå",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::indexed_blanket_level::name",
+    "key_id": "710043719",
+    "translation_id": "6567477560",
+    "en": "Level {index}",
+    "before": "Nivå {index}",
+    "after": "Nivå {index}",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::indexed_blanket_level::state::level_1",
+    "key_id": "710043720",
+    "translation_id": "6567477624",
+    "en": "Low",
+    "before": "Låg",
+    "after": "Låg",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::indexed_blanket_level::state::level_10",
+    "key_id": "710043721",
+    "translation_id": "6567477688",
+    "en": "High",
+    "before": "Hög",
+    "after": "Hög",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::indexed_blanket_level::state::level_2",
+    "key_id": "710043722",
+    "translation_id": "6567477752",
+    "en": "Level 2",
+    "before": "Nivå 2",
+    "after": "Nivå 2",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::indexed_blanket_level::state::level_3",
+    "key_id": "710043723",
+    "translation_id": "6567477816",
+    "en": "Level 3",
+    "before": "Nivå 3",
+    "after": "Nivå 3",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::indexed_blanket_level::state::level_4",
+    "key_id": "710043724",
+    "translation_id": "6567477880",
+    "en": "Level 4",
+    "before": "Nivå 4",
+    "after": "Nivå 4",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::indexed_blanket_level::state::level_5",
+    "key_id": "710043725",
+    "translation_id": "6567477944",
+    "en": "Level 5",
+    "before": "Nivå 5",
+    "after": "Nivå 5",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::indexed_blanket_level::state::level_6",
+    "key_id": "710043726",
+    "translation_id": "6567478008",
+    "en": "Level 6",
+    "before": "Nivå 6",
+    "after": "Nivå 6",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::indexed_blanket_level::state::level_7",
+    "key_id": "710043727",
+    "translation_id": "6567478072",
+    "en": "Level 7",
+    "before": "Nivå 7",
+    "after": "Nivå 7",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::indexed_blanket_level::state::level_8",
+    "key_id": "710043728",
+    "translation_id": "6567478136",
+    "en": "Level 8",
+    "before": "Nivå 8",
+    "after": "Nivå 8",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::indexed_blanket_level::state::level_9",
+    "key_id": "710043729",
+    "translation_id": "6567478200",
+    "en": "Level 9",
+    "before": "Nivå 9",
+    "after": "Nivå 9",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::fritz::entity::sensor::cpu_temperature::name",
+    "key_id": "710055711",
+    "translation_id": "6567697707",
+    "en": "CPU temperature",
+    "before": "CPU-temperatur",
+    "after": "CPU-temperatur",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::brother::config::step::reconfigure::sections::advanced_settings::data::community",
+    "key_id": "710063030",
+    "translation_id": "6567735816",
+    "en": "SNMP Community",
+    "before": "SNMP-community",
+    "after": "SNMP-communitysträng",
+    "role": "reviewed-reference-alias",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::brother::config::step::reconfigure::sections::advanced_settings::data::port",
+    "key_id": "710063031",
+    "translation_id": "6567735880",
+    "en": "Port",
+    "before": "Port",
+    "after": "Port",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::brother::config::step::reconfigure::sections::advanced_settings::data_description::community",
+    "key_id": "710063032",
+    "translation_id": "6567735944",
+    "en": "A simple password for devices to communicate to each other.",
+    "before": "Ett enkelt lösenord för enheter att kommunicera med varandra.",
+    "after": "En enkel lösenordssträng som enheter använder för att kommunicera med varandra.",
+    "role": "reviewed-reference-alias",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::brother::config::step::reconfigure::sections::advanced_settings::data_description::port",
+    "key_id": "710063033",
+    "translation_id": "6567736008",
+    "en": "The SNMP port of the Brother printer.",
+    "before": "SNMP-porten för Brother-skrivaren.",
+    "after": "SNMP-porten på Brother-skrivaren.",
+    "role": "reviewed-reference-alias",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::brother::config::step::reconfigure::sections::advanced_settings::name",
+    "key_id": "710063034",
+    "translation_id": "6567736072",
+    "en": "Additional settings",
+    "before": "Ytterligare inställningar",
+    "after": "Ytterligare inställningar",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::brother::config::step::user::sections::advanced_settings::data::port",
+    "key_id": "710063037",
+    "translation_id": "6567736264",
+    "en": "Port",
+    "before": "Port",
+    "after": "Port",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::brother::config::step::user::sections::advanced_settings::name",
+    "key_id": "710063040",
+    "translation_id": "6567736456",
+    "en": "Additional settings",
+    "before": "Ytterligare inställningar",
+    "after": "Ytterligare inställningar",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::brother::config::step::zeroconf_confirm::data_description::type",
+    "key_id": "710063041",
+    "translation_id": "6567736520",
+    "en": "The type of the Brother printer.",
+    "before": "Typen av Brother-skrivaren.",
+    "after": "Typ av Brother-skrivare.",
+    "role": "reviewed-reference-alias",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::brother::config::step::zeroconf_confirm::sections::advanced_settings::data::community",
+    "key_id": "710063042",
+    "translation_id": "6567736584",
+    "en": "SNMP Community",
+    "before": "SNMP-community",
+    "after": "SNMP-communitysträng",
+    "role": "reviewed-reference-alias",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::brother::config::step::zeroconf_confirm::sections::advanced_settings::data::port",
+    "key_id": "710063043",
+    "translation_id": "6567736648",
+    "en": "Port",
+    "before": "Port",
+    "after": "Port",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::brother::config::step::zeroconf_confirm::sections::advanced_settings::data_description::community",
+    "key_id": "710063044",
+    "translation_id": "6567736712",
+    "en": "A simple password for devices to communicate to each other.",
+    "before": "Ett enkelt lösenord för enheter att kommunicera med varandra.",
+    "after": "En enkel lösenordssträng som enheter använder för att kommunicera med varandra.",
+    "role": "reviewed-reference-alias",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::brother::config::step::zeroconf_confirm::sections::advanced_settings::data_description::port",
+    "key_id": "710063045",
+    "translation_id": "6567736776",
+    "en": "The SNMP port of the Brother printer.",
+    "before": "SNMP-porten för Brother-skrivaren.",
+    "after": "SNMP-porten på Brother-skrivaren.",
+    "role": "reviewed-reference-alias",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::brother::config::step::zeroconf_confirm::sections::advanced_settings::name",
+    "key_id": "710063046",
+    "translation_id": "6567736840",
+    "en": "Additional settings",
+    "before": "Ytterligare inställningar",
+    "after": "Ytterligare inställningar",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::switchbot_cloud::entity::humidifier::evaporative_humidifier::state_attributes::mode::state::high",
+    "key_id": "710168555",
+    "translation_id": "6570516531",
+    "en": "High",
+    "before": "Hög",
+    "after": "Hög",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::switchbot_cloud::entity::humidifier::evaporative_humidifier::state_attributes::mode::state::low",
+    "key_id": "710168556",
+    "translation_id": "6570516595",
+    "en": "Low",
+    "before": "Låg",
+    "after": "Låg",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::switchbot_cloud::entity::humidifier::evaporative_humidifier::state_attributes::mode::state::medium",
+    "key_id": "710168557",
+    "translation_id": "6570516659",
+    "en": "Medium",
+    "before": "Medel",
+    "after": "Medel",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::switchbot_cloud::entity::humidifier::evaporative_humidifier::state_attributes::mode::state::quiet",
+    "key_id": "710168558",
+    "translation_id": "6570516723",
+    "en": "Quiet",
+    "before": "Tyst",
+    "after": "Tyst",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::switchbot_cloud::entity::humidifier::evaporative_humidifier::state_attributes::mode::state::target_humidity",
+    "key_id": "710168559",
+    "translation_id": "6570516787",
+    "en": "Target humidity",
+    "before": "Målfuktighet",
+    "after": "Målfuktighet",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::teslemetry::entity::switch::guest_mode_enabled::name",
+    "key_id": "710210414",
+    "translation_id": "6571898596",
+    "en": "Guest mode",
+    "before": "Gästläge",
+    "after": "Gästläge",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::switchbot::config::step::cloud_login::data::password",
+    "key_id": "710220536",
+    "translation_id": "6571969751",
+    "en": "Password",
+    "before": "Lösenord",
+    "after": "Lösenord",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::switchbot::config::step::cloud_login::data::username",
+    "key_id": "710220537",
+    "translation_id": "6571969815",
+    "en": "Username",
+    "before": "Användarnamn",
+    "after": "Användarnamn",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::switchbot::config::step::cloud_login::data_description::username",
+    "key_id": "710220539",
+    "translation_id": "6571969943",
+    "en": "The username of your SwitchBot account",
+    "before": "Användarnamnet för ditt SwitchBot-konto",
+    "after": "Användarnamnet för ditt SwitchBot-konto",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::switchbot::config::step::select_device::data::address",
+    "key_id": "710220541",
+    "translation_id": "6571970071",
+    "en": "MAC address",
+    "before": "MAC-adress",
+    "after": "MAC-adress",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::switchbot::config::step::user::menu_options::select_device",
+    "key_id": "710220545",
+    "translation_id": "6571970327",
+    "en": "Continue without signing in",
+    "before": "Fortsätt utan att logga in",
+    "after": "Fortsätt utan att logga in",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::litterrobot::entity::sensor::food_dispensed_today::unit_of_measurement",
+    "key_id": "710278000",
+    "translation_id": "6572453110",
+    "en": "cups",
+    "before": "koppar",
+    "after": "koppar",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::litterrobot::entity::switch::gravity_mode::name",
+    "key_id": "710525220",
+    "translation_id": "6574021437",
+    "en": "Gravity mode",
+    "before": "Gravitationsläge",
+    "after": "Gravitationsläge",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::desk_up_down::state::down",
+    "key_id": "710525292",
+    "translation_id": "6574022426",
+    "en": "Down",
+    "before": "Ner",
+    "after": "Ner",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::desk_up_down::state::stop",
+    "key_id": "710525293",
+    "translation_id": "6574022490",
+    "en": "Stop",
+    "before": "Stopp",
+    "after": "Stopp",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::select::desk_up_down::state::up",
+    "key_id": "710525294",
+    "translation_id": "6574022554",
+    "en": "Up",
+    "before": "Upp",
+    "after": "Upp",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::roborock::options::step::drawables::data::show_background",
+    "key_id": "710526329",
+    "translation_id": "6574030286",
+    "en": "Show background",
+    "before": "Visa bakgrund",
+    "after": "Visa bakgrund",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::switch::music::name",
+    "key_id": "710526472",
+    "translation_id": "6574033751",
+    "en": "Music",
+    "before": "Musik",
+    "after": "Musik",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::tuya::entity::switch::snooze::name",
+    "key_id": "710526473",
+    "translation_id": "6574033815",
+    "en": "Snooze",
+    "before": "Snooza",
+    "after": "Snooza",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::litterrobot::entity::select::globe_brightness::state::high",
+    "key_id": "710544396",
+    "translation_id": "6574161269",
+    "en": "High",
+    "before": "Hög",
+    "after": "Hög",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::litterrobot::entity::select::globe_brightness::state::low",
+    "key_id": "710544397",
+    "translation_id": "6574161333",
+    "en": "Low",
+    "before": "Låg",
+    "after": "Låg",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::litterrobot::entity::select::globe_brightness::state::medium",
+    "key_id": "710544398",
+    "translation_id": "6574161397",
+    "en": "Medium",
+    "before": "Medel",
+    "after": "Medel",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::litterrobot::entity::select::globe_light::state::off",
+    "key_id": "710544401",
+    "translation_id": "6574161589",
+    "en": "Off",
+    "before": "Av",
+    "after": "Av",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::litterrobot::entity::select::globe_light::state::on",
+    "key_id": "710544402",
+    "translation_id": "6574161653",
+    "en": "On",
+    "before": "På",
+    "after": "På",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::aosmith::entity::select::hot_water_plus_level::state::level1",
+    "key_id": "710550544",
+    "translation_id": "6574224849",
+    "en": "Level 1",
+    "before": "Nivå 1",
+    "after": "Nivå 1",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::aosmith::entity::select::hot_water_plus_level::state::level2",
+    "key_id": "710550545",
+    "translation_id": "6574224913",
+    "en": "Level 2",
+    "before": "Nivå 2",
+    "after": "Nivå 2",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::aosmith::entity::select::hot_water_plus_level::state::level3",
+    "key_id": "710550546",
+    "translation_id": "6574224977",
+    "en": "Level 3",
+    "before": "Nivå 3",
+    "after": "Nivå 3",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::aosmith::entity::select::hot_water_plus_level::state::off",
+    "key_id": "710550547",
+    "translation_id": "6574225041",
+    "en": "Off",
+    "before": "Av",
+    "after": "Av",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::esphome::entity::select::wake_word::state::no_wake_word",
+    "key_id": "710552364",
+    "translation_id": "6574245845",
+    "en": "No wake word",
+    "before": "Inget väckningsord",
+    "after": "Inget väckningsord",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::icloud::config::step::reauth_confirm::data::username",
+    "key_id": "710583138",
+    "translation_id": "6574480996",
+    "en": "Email",
+    "before": "E-post",
+    "after": "E-post",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::openweathermap::config::step::user::data_description::api_key",
+    "key_id": "710953336",
+    "translation_id": "6581228475",
+    "en": "API key for the OpenWeatherMap integration",
+    "before": "API-nyckel för OpenWeatherMap-integrationen",
+    "after": "API-nyckel för OpenWeatherMap-integrationen",
+    "role": "reviewed-direct",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::openweathermap::options::step::init::data_description::language",
+    "key_id": "710953342",
+    "translation_id": "6581228859",
+    "en": "Language for the OpenWeatherMap content",
+    "before": "Språk för OpenWeatherMap innehållet",
+    "after": "Språk för OpenWeatherMap-innehållet.",
+    "role": "reviewed-reference-alias",
+    "verified": "Lokalise API readback"
+  },
+  {
+    "key": "component::openweathermap::options::step::init::data_description::mode",
+    "key_id": "710953343",
+    "translation_id": "6581228923",
+    "en": "Mode for the OpenWeatherMap API",
+    "before": "Läge för OpenWeatherMap API",
+    "after": "Läge för OpenWeatherMap-API:t.",
+    "role": "reviewed-reference-alias",
+    "verified": "Lokalise API readback"
+  }
+]
