@@ -8,9 +8,9 @@ Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 
 ## Aktuellt läge
 
-- Senast behandlade Lokalise-position: **49 096** av 77 540 indexpositioner (cirka 63,3 %); 77 520 poster är aktiva. Nästa position: **49 097**; efter markören återstår 28 444 positioner enligt den löpande positionsräkningen. Källrevision: `c03d786a2335a70d01860cae56286798bb272871`.
-- De äldre totalsiffrorna har inte omräknats efter nyare batcher och ska inte användas som aktuell kumulativ summering. Den kanoniska HA Core-TMX innehåller nu **33 600** enheter (33 369 poster med Lokalise-ID och 231 historiska poster).
-- Fullständiga rader, ändringsförslag, källvägar, referenser och live-ID:n finns i respektive daterade batchrapport; senaste rapport: `2026-11-26-reviewed-core-48977-49096.md` och fullständiga JSON-underlag.
+- Senast behandlade Lokalise-position: **49 216** av 77 540 indexpositioner (cirka 63,5 %); 77 520 poster är aktiva. Nästa position: **49 217**; efter markören återstår 28 324 positioner enligt den löpande positionsräkningen. Källrevision: `c03d786a2335a70d01860cae56286798bb272871`.
+- De äldre totalsiffrorna har inte omräknats efter nyare batcher och ska inte användas som aktuell kumulativ summering. Den kanoniska HA Core-TMX innehåller nu **33 696** enheter (33 465 poster med Lokalise-ID och 231 historiska poster).
+- Fullständiga rader, ändringsförslag, källvägar, referenser och live-ID:n finns i respektive daterade batchrapport; senaste rapport: `2026-11-26-reviewed-core-49097-49216.md` och fullständiga JSON-underlag.
 - Batchen 29 131–29 250: 120/120 nycklar aktiva och källmatchande; **17** ändringar sparade och återlästa, **103** texter oförändrade. Nästa batch 29 251–29 370: 85 aktuella Core-nycklar granskade utan ändring och 35 källfrånvarande poster uteslutna. Batchen 29 371–29 490: 54 aktiva Core-nycklar, 2 ändringar, 52 oförändrade; 66 källfrånvarande. Batchen 29 491–29 610: 95 aktiva Core-nycklar, ett OpenAI-referensalias synkat, 94 oförändrade; 25 källfrånvarande. Batchen 30 617–30 736: 104 aktiva Core-nycklar, 31 ändringar och 73 oförändrade; 16 källfrånvarande. Batchen 30 737–30 856: 110 aktuella nycklar, varav två överlappande återverifierades; 33 nya ändringar och 75 oförändrade bland de 108 nya aktiva posterna; 10 källfrånvarande. 31/31 aliasmål matchar live efter synkning. Batchen 30 857–30 976: 115 aktuella nycklar, varav två tidigare granskade återverifierades; 6 ändringar och 107 oförändrade bland 113 nya aktiva poster; 5 källfrånvarande. 24/24 aliasmål matchar. Platshållare 115/115; inga pluraler. Batchen 30 977–31 096: 96 aktuella nycklar, varav 12 tidigare granskade återverifierades; 11 ändringar och 73 oförändrade bland de 84 nya aktiva posterna; 24 källfrånvarande. 23/23 aliasmål matchar. Platshållare 96/96; inga pluraler. Batchen 31 097–31 216: 120/120 aktuella nycklar, sju fanns i tidigare dokumentation; 35 förbättringar sparades och lästes tillbaka, 85 poster verifierades oförändrade. Sex tidigare TM-värden för ZHA-energifaser rättades. Inga alias, pluraler eller platshållaravvikelser. Batchen 31 217–31 336: 110 aktuella nycklar och 10 källfrånvarande; 14 förbättringar sparades och 96 mål verifierades oförändrade. 68/68 alias matchar live; platshållare 110/110; inga pluraler. Batchen 31 337–31 456: 110 aktuella nycklar, varav 14 återverifierade från tidigare rapporter; 41 korrigeringar och 65 oförändrade bland 106 nya aktiva. Tio redan kända historiska nycklar uteslöts. Alla 13 alias matchar live. Två Synology-referensmål korrigerades retroaktivt. Batchen 31 457–31 576: 108 aktuella nycklar, varav sju återverifierades från tidigare rapporter; 14 ändringar och 87 oförändrade bland 101 nya aktiva. Tolv tidigare rapporterade historiska nycklar uteslöts. Alla 17 alias matchar live; platshållare 108/108; inga pluraler.
 - Liveverifiering för batchen bekräftade nyckelidentitet, engelsk källtext, svensk måltext och Lokalise-ID för 120/120 poster. Rapporten innehåller fullständiga nycklar och raderna med befintlig/föreslagen text.
 
@@ -91,6 +91,10 @@ Batch 52-rättelsen samt batcher 53–65 är införda i kanonisk TMX. Validering
 ### Senaste batch: 48 977–49 096
 
 120 positioner granskades: 111 aktuella Core-nycklar, 31 referenser och nio historiska poster utan källväg (samtliga redan dokumenterade). Sex korrigeringar i intervallet återlästes via Lokalise; en av dem sparades under detta pass och fem fanns redan sparade före kontrollen. Referenserna matchar 31/31 och platshållare 120/120. `svlang` och anglicismkontrollen gav inga träffar; Hunspell inga träffar efter att källkodidentifierare i platshållare maskats. TMX validerar med 33 600 poster och backupen är byteidentisk. Nästa position: **49 097**. Rapport: `2026-11-26-reviewed-core-48977-49096.md`.
+
+### Senaste batch: 49 097–49 216
+
+120 positioner granskades: 106 aktuella Core-nycklar, 42 referenser och 14 historiska nycklar utan aktuell källväg (alla redan dokumenterade). Fyra korrigeringar sparades och återlästes från Lokalise: MyNeomitis komfortlägen och substantivformer för kylning/uppvärmning. Referenser 42/42, platshållare 120/120. `svlang`, anglicismkontroll och Hunspell gav inga träffar. TMX validerar med 33 696 poster och backupen uppdaterades. Nästa position: **49 217**. Rapport: `2026-11-26-reviewed-core-49097-49216.md`.
 
 ## TM och verktyg
 
@@ -183,6 +187,10 @@ Den aktuella Lokalise-ordningen gav 30 nyckelposter efter position 28020. 29 mat
 ### Senaste batch: 48 977–49 096
 
 120 positioner granskades: 111 aktuella Core-nycklar, 31 referenser och nio historiska poster utan källväg (samtliga redan dokumenterade). Sex korrigeringar i intervallet återlästes via Lokalise; en av dem sparades under detta pass och fem fanns redan sparade före kontrollen. Referenserna matchar 31/31 och platshållare 120/120. `svlang` och anglicismkontrollen gav inga träffar; Hunspell inga träffar efter att källkodidentifierare i platshållare maskats. TMX validerar med 33 600 poster och backupen är byteidentisk. Nästa position: **49 097**. Rapport: `2026-11-26-reviewed-core-48977-49096.md`.
+
+### Senaste batch: 49 097–49 216
+
+120 positioner granskades: 106 aktuella Core-nycklar, 42 referenser och 14 historiska nycklar utan aktuell källväg (alla redan dokumenterade). Fyra korrigeringar sparades och återlästes från Lokalise: MyNeomitis komfortlägen och substantivformer för kylning/uppvärmning. Referenser 42/42, platshållare 120/120. `svlang`, anglicismkontroll och Hunspell gav inga träffar. TMX validerar med 33 696 poster och backupen uppdaterades. Nästa position: **49 217**. Rapport: `2026-11-26-reviewed-core-49097-49216.md`.
 
 ## TM och verktyg
 
