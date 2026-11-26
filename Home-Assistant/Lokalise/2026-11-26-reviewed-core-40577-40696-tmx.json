@@ -1,0 +1,1072 @@
+[
+  {
+    "key": "component::bayesian::config::step::state::data::prob_given_false",
+    "key_id": "701428825",
+    "translation_id": "6448866818",
+    "en": "Probability when {parent_sensor_name} is {device_class_off}",
+    "sv": "Sannolikhet när {parent_sensor_name} är {device_class_off}",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config::step::state::data::prob_given_true",
+    "key_id": "701428826",
+    "translation_id": "6448866882",
+    "en": "Probability when {parent_sensor_name} is {device_class_on}",
+    "sv": "Sannolikhet när {parent_sensor_name} är {device_class_on}",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config::step::state::data::to_state",
+    "key_id": "701428827",
+    "translation_id": "6448866946",
+    "en": "To state",
+    "sv": "Tillstånd att matcha",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::state::data_description::entity_id",
+    "key_id": "701428828",
+    "translation_id": "6448867010",
+    "en": "An entity that is correlated with `{parent_sensor_name}`.",
+    "sv": "En enhet som är korrelerad med `{parent_sensor_name}`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config::step::state::data_description::name",
+    "key_id": "701428829",
+    "translation_id": "6448867074",
+    "en": "This name will be used for to identify this observation for editing in the future.",
+    "sv": "Namnet används för att identifiera observationen när du redigerar den senare.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::state::data_description::prob_given_false",
+    "key_id": "701428830",
+    "translation_id": "6448867138",
+    "en": "The estimated probability or proportion of time this observation is `True` while `{parent_sensor_name}` is, or should be, `{device_class_off}`.",
+    "sv": "Den uppskattade sannolikheten för att observationen är `True`, eller andelen av tiden då den är det, när `{parent_sensor_name}` är eller förväntas vara `{device_class_off}`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::state::data_description::prob_given_true",
+    "key_id": "701428831",
+    "translation_id": "6448867202",
+    "en": "The estimated probability or proportion of time this observation is `True` while `{parent_sensor_name}` is, or should be, `{device_class_on}`.",
+    "sv": "Den uppskattade sannolikheten för att observationen är `True`, eller andelen av tiden då den är det, när `{parent_sensor_name}` är eller förväntas vara `{device_class_on}`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::state::data_description::to_state",
+    "key_id": "701428832",
+    "translation_id": "6448867266",
+    "en": "The state of the sensor for which the observation will be considered `True`.",
+    "sv": "Det sensortillstånd som gör observationen `True`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::state::description",
+    "key_id": "701428833",
+    "translation_id": "6448867330",
+    "en": "Add an observation which evaluates to `True` when the value of the sensor exactly matches *'To state'*. When `False`, it will update the prior with probabilities that are the inverse of those set below. This behavior can be overridden by adding observations for the same entity's other states.",
+    "sv": "Lägg till en observation som är `True` när sensorns värde exakt motsvarar *”Tillstånd att matcha”*. Om observationen är `False` uppdateras förhandssannolikheten med de omvända sannolikheterna nedan. Du kan ersätta den här effekten genom att lägga till observationer för andra tillstånd hos samma entitet.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::state::title",
+    "key_id": "701428834",
+    "translation_id": "6448867394",
+    "en": "Add a Bayesian sensor",
+    "sv": "Lägg till en bayesiansk sensor",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::template::data::name",
+    "key_id": "701428835",
+    "translation_id": "6448867458",
+    "en": "Name",
+    "sv": "Namn",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config::step::template::data::prob_given_false",
+    "key_id": "701428836",
+    "translation_id": "6448867522",
+    "en": "Probability when {parent_sensor_name} is {device_class_off}",
+    "sv": "Sannolikhet när {parent_sensor_name} är {device_class_off}",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config::step::template::data::prob_given_true",
+    "key_id": "701428837",
+    "translation_id": "6448867586",
+    "en": "Probability when {parent_sensor_name} is {device_class_on}",
+    "sv": "Sannolikhet när {parent_sensor_name} är {device_class_on}",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config::step::template::data::value_template",
+    "key_id": "701428838",
+    "translation_id": "6448867650",
+    "en": "Template",
+    "sv": "Mall",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config::step::template::data_description::name",
+    "key_id": "701428839",
+    "translation_id": "6448867714",
+    "en": "This name will be used for to identify this observation for editing in the future.",
+    "sv": "Namnet används för att identifiera observationen när du redigerar den senare.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::template::data_description::prob_given_false",
+    "key_id": "701428840",
+    "translation_id": "6448867778",
+    "en": "The estimated probability or proportion of time this observation is `True` while `{parent_sensor_name}` is, or should be, `{device_class_off}`.",
+    "sv": "Den uppskattade sannolikheten för att observationen är `True`, eller andelen av tiden då den är det, när `{parent_sensor_name}` är eller förväntas vara `{device_class_off}`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::template::data_description::prob_given_true",
+    "key_id": "701428841",
+    "translation_id": "6448867842",
+    "en": "The estimated probability or proportion of time this observation is `True` while `{parent_sensor_name}` is, or should be, `{device_class_on}`.",
+    "sv": "Den uppskattade sannolikheten för att observationen är `True`, eller andelen av tiden då den är det, när `{parent_sensor_name}` är eller förväntas vara `{device_class_on}`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::template::data_description::value_template",
+    "key_id": "701428842",
+    "translation_id": "6448867906",
+    "en": "A template that evaluates to `True` will update the prior accordingly, A template that returns `False` or `None` will update the prior with inverse probabilities. A template that returns an error will not update probabilities. Results are coerced into being `True` or `False`",
+    "sv": "Om mallen utvärderas till `True` uppdateras förhandssannolikheten enligt de angivna värdena. Om den returnerar `False` eller `None` används de omvända sannolikheterna. Om mallen ger ett fel uppdateras inga sannolikheter. Resultatet tolkas som antingen `True` eller `False`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::template::description",
+    "key_id": "701428843",
+    "translation_id": "6448867970",
+    "en": "Add a custom observation which evaluates whether a template is observed (`True`) or not (`False`).",
+    "sv": "Lägg till en anpassad observation som utvärderar om en mall ger `True` eller `False`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::template::title",
+    "key_id": "701428844",
+    "translation_id": "6448868034",
+    "en": "Add a Bayesian sensor",
+    "sv": "Lägg till en bayesiansk sensor",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::user::data::device_class",
+    "key_id": "701428845",
+    "translation_id": "6448868098",
+    "en": "Device class",
+    "sv": "Enhetsklass",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config::step::user::data::name",
+    "key_id": "701428846",
+    "translation_id": "6448868162",
+    "en": "Name",
+    "sv": "Namn",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config::step::user::data::prior",
+    "key_id": "701428847",
+    "translation_id": "6448868226",
+    "en": "Prior",
+    "sv": "Förhandssannolikhet",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::user::data::probability_threshold",
+    "key_id": "701428848",
+    "translation_id": "6448868290",
+    "en": "Probability threshold",
+    "sv": "Tröskelvärde för sannolikhet",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config::step::user::data_description::device_class",
+    "key_id": "701428849",
+    "translation_id": "6448868354",
+    "en": "Choose the device class you would like the sensor to show as.",
+    "sv": "Välj den enhetsklass som du vill att sensorn ska visas som.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config::step::user::data_description::prior",
+    "key_id": "701428850",
+    "translation_id": "6448868418",
+    "en": "The baseline probability the sensor should be 'on', this is usually the percentage of time it is true. For example, for a sensor 'Everyone sleeping' it might be 8 hours a day, 33%.",
+    "sv": "Förhandssannolikheten anger sannolikheten för att sensorn ska vara ”på” innan observationerna vägs in. Den motsvarar oftast andelen av tiden som händelsen är sann. Om händelsen till exempel är att alla sover kan du ange 8 timmar per dygn, alltså 33 %.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::user::data_description::probability_threshold",
+    "key_id": "701428851",
+    "translation_id": "6448868482",
+    "en": "The probability above which the sensor will show as 'on'. 50% should produce the most accurate result. Use numbers greater than 50% if avoiding false positives is important, or vice-versa.",
+    "sv": "Sensorn visar ”på” när sannolikheten överstiger det här tröskelvärdet. Ett värde på 50 % ger oftast det mest träffsäkra resultatet. Välj ett högre värde om det är viktigt att undvika falska positiva resultat, eller ett lägre värde om det är viktigare att undvika falska negativa resultat.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::user::description",
+    "key_id": "701428852",
+    "translation_id": "6448868546",
+    "en": "Create a binary sensor which observes the state of multiple sensors to estimate whether an event is occurring, or if something is true. See [the documentation]({url}) for more details.",
+    "sv": "Skapa en binär sensor som observerar tillståndet hos flera sensorer för att uppskatta om en händelse inträffar eller om något är sant. Se [dokumentationen]({url}) för mer information.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config::step::user::title",
+    "key_id": "701428853",
+    "translation_id": "6448868610",
+    "en": "Add a Bayesian sensor",
+    "sv": "Lägg till en Bayesiansk sensor",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::entry_type",
+    "key_id": "701428855",
+    "translation_id": "6448868738",
+    "en": "Observation",
+    "sv": "Observation",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::error::above_below",
+    "key_id": "701428856",
+    "translation_id": "6448868802",
+    "en": "Invalid range: 'Above' must be less than 'Below' when both are set.",
+    "sv": "Ogiltigt intervall: ”Över” måste vara mindre än ”Under” när båda anges.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::error::above_or_below",
+    "key_id": "701428857",
+    "translation_id": "6448868866",
+    "en": "Invalid range: At least one of 'Above' or 'Below' must be set.",
+    "sv": "Ogiltigt intervall: Ange minst ett av fälten ”Över” och ”Under”.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::error::equal_probabilities",
+    "key_id": "701428858",
+    "translation_id": "6448868930",
+    "en": "If 'Probability given true' and 'Probability given false' are equal, this observation can have no effect, and is therefore redundant",
+    "sv": "Om ”Sannolikhet givet sant” och ”Sannolikhet givet falskt” är lika kan observationen inte påverka resultatet och är därför överflödig.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::error::extreme_prob_given_error",
+    "key_id": "701428859",
+    "translation_id": "6448868994",
+    "en": "If either 'Probability given false' or 'Probability given true' is 0 or 100 this will create certainties that override all other observations, use numbers close to 0 or 100 instead",
+    "sv": "Om antingen ”Sannolikhet givet falskt” eller ”Sannolikhet givet sant” är 0 eller 100 blir utfallet säkert och åsidosätter alla andra observationer. Använd i stället värden nära 0 eller 100.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::error::overlapping_ranges",
+    "key_id": "701428860",
+    "translation_id": "6448869058",
+    "en": "Invalid range: The 'Above' and 'Below' values overlap with another observation for the same entity.",
+    "sv": "Ogiltigt intervall: Intervallets gränser ”Över” och ”Under” överlappar ett annat observationsintervall för samma entitet.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::initiate_flow::user",
+    "key_id": "701428861",
+    "translation_id": "6448869122",
+    "en": "Add an observation",
+    "sv": "Lägg till en observation",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::numeric_state::data::above",
+    "key_id": "701428862",
+    "translation_id": "6448869186",
+    "en": "Above",
+    "sv": "Över",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::numeric_state::data::below",
+    "key_id": "701428863",
+    "translation_id": "6448869250",
+    "en": "Below",
+    "sv": "Under",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::numeric_state::data::entity_id",
+    "key_id": "701428864",
+    "translation_id": "6448869314",
+    "en": "Entity",
+    "sv": "Entitet",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::numeric_state::data::name",
+    "key_id": "701428865",
+    "translation_id": "6448869378",
+    "en": "Name",
+    "sv": "Namn",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::numeric_state::data::prob_given_false",
+    "key_id": "701428866",
+    "translation_id": "6448869442",
+    "en": "Probability when {parent_sensor_name} is {device_class_off}",
+    "sv": "Sannolikhet när {parent_sensor_name} är {device_class_off}",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::numeric_state::data::prob_given_true",
+    "key_id": "701428867",
+    "translation_id": "6448869506",
+    "en": "Probability when {parent_sensor_name} is {device_class_on}",
+    "sv": "Sannolikhet när {parent_sensor_name} är {device_class_on}",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::numeric_state::data_description::above",
+    "key_id": "701428868",
+    "translation_id": "6448869570",
+    "en": "Optional - the lower end of the numeric range. Values exactly matching this will not count",
+    "sv": "Valfritt: nedre gräns för det numeriska intervallet. Värden som är exakt lika med gränsen ingår inte.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::numeric_state::data_description::below",
+    "key_id": "701428869",
+    "translation_id": "6448869634",
+    "en": "Optional - the upper end of the numeric range. Values exactly matching this will only count if more than one range is configured for the same entity.",
+    "sv": "Valfritt: övre gräns för det numeriska intervallet. Värden som är exakt lika med gränsen ingår bara om fler än ett intervall har konfigurerats för samma entitet.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::numeric_state::data_description::entity_id",
+    "key_id": "701428870",
+    "translation_id": "6448869698",
+    "en": "An entity that is correlated with `{parent_sensor_name}`.",
+    "sv": "En enhet som är korrelerad med `{parent_sensor_name}`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::numeric_state::data_description::name",
+    "key_id": "701428871",
+    "translation_id": "6448869762",
+    "en": "This name will be used for to identify this observation for editing in the future.",
+    "sv": "Namnet används för att identifiera observationen när du redigerar den senare.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::numeric_state::data_description::prob_given_false",
+    "key_id": "701428872",
+    "translation_id": "6448869826",
+    "en": "The estimated probability or proportion of time this observation is `True` while `{parent_sensor_name}` is, or should be, `{device_class_off}`.",
+    "sv": "Den uppskattade sannolikheten för att observationen är `True`, eller andelen av tiden då den är det, när `{parent_sensor_name}` är eller förväntas vara `{device_class_off}`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::numeric_state::data_description::prob_given_true",
+    "key_id": "701428873",
+    "translation_id": "6448869890",
+    "en": "The estimated probability or proportion of time this observation is `True` while `{parent_sensor_name}` is, or should be, `{device_class_on}`.",
+    "sv": "Den uppskattade sannolikheten för att observationen är `True`, eller andelen av tiden då den är det, när `{parent_sensor_name}` är eller förväntas vara `{device_class_on}`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::numeric_state::description",
+    "key_id": "701428874",
+    "translation_id": "6448869954",
+    "en": "Add an observation which evaluates to `True` when a numeric sensor is within a chosen range.",
+    "sv": "Lägg till en observation som blir `True` när en numerisk sensor ligger inom det valda intervallet.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::numeric_state::title",
+    "key_id": "701428875",
+    "translation_id": "6448870018",
+    "en": "Add a Bayesian sensor",
+    "sv": "Lägg till en bayesiansk sensor",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::reconfigure::data::above",
+    "key_id": "701428876",
+    "translation_id": "6448870082",
+    "en": "Above",
+    "sv": "Över",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::reconfigure::data::below",
+    "key_id": "701428877",
+    "translation_id": "6448870146",
+    "en": "Below",
+    "sv": "Under",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::reconfigure::data::entity_id",
+    "key_id": "701428878",
+    "translation_id": "6448870210",
+    "en": "Entity",
+    "sv": "Entitet",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::reconfigure::data::name",
+    "key_id": "701428879",
+    "translation_id": "6448870274",
+    "en": "Name",
+    "sv": "Namn",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::reconfigure::data::prob_given_false",
+    "key_id": "701428880",
+    "translation_id": "6448870338",
+    "en": "Probability when {parent_sensor_name} is {device_class_off}",
+    "sv": "Sannolikhet när {parent_sensor_name} är {device_class_off}",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::reconfigure::data::prob_given_true",
+    "key_id": "701428881",
+    "translation_id": "6448870402",
+    "en": "Probability when {parent_sensor_name} is {device_class_on}",
+    "sv": "Sannolikhet när {parent_sensor_name} är {device_class_on}",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::reconfigure::data::to_state",
+    "key_id": "701428882",
+    "translation_id": "6448870466",
+    "en": "To state",
+    "sv": "Tillstånd att matcha",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::reconfigure::data::value_template",
+    "key_id": "701428883",
+    "translation_id": "6448870530",
+    "en": "Template",
+    "sv": "Mall",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::reconfigure::data_description::above",
+    "key_id": "701428884",
+    "translation_id": "6448870594",
+    "en": "Optional - the lower end of the numeric range. Values exactly matching this will not count",
+    "sv": "Valfritt: nedre gräns för det numeriska intervallet. Värden som är exakt lika med gränsen ingår inte.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::reconfigure::data_description::below",
+    "key_id": "701428885",
+    "translation_id": "6448870658",
+    "en": "Optional - the upper end of the numeric range. Values exactly matching this will only count if more than one range is configured for the same entity.",
+    "sv": "Valfritt: övre gräns för det numeriska intervallet. Värden som är exakt lika med gränsen ingår bara om fler än ett intervall har konfigurerats för samma entitet.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::reconfigure::data_description::entity_id",
+    "key_id": "701428886",
+    "translation_id": "6448870722",
+    "en": "An entity that is correlated with `{parent_sensor_name}`.",
+    "sv": "En enhet som är korrelerad med `{parent_sensor_name}`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::reconfigure::data_description::name",
+    "key_id": "701428887",
+    "translation_id": "6448870786",
+    "en": "This name will be used for to identify this observation for editing in the future.",
+    "sv": "Namnet används för att identifiera observationen när du redigerar den senare.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::reconfigure::data_description::prob_given_false",
+    "key_id": "701428888",
+    "translation_id": "6448870850",
+    "en": "The estimated probability or proportion of time this observation is `True` while `{parent_sensor_name}` is, or should be, `{device_class_off}`.",
+    "sv": "Den uppskattade sannolikheten för att observationen är `True`, eller andelen av tiden då den är det, när `{parent_sensor_name}` är eller förväntas vara `{device_class_off}`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::reconfigure::data_description::prob_given_true",
+    "key_id": "701428889",
+    "translation_id": "6448870914",
+    "en": "The estimated probability or proportion of time this observation is `True` while `{parent_sensor_name}` is, or should be, `{device_class_on}`.",
+    "sv": "Den uppskattade sannolikheten för att observationen är `True`, eller andelen av tiden då den är det, när `{parent_sensor_name}` är eller förväntas vara `{device_class_on}`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::reconfigure::data_description::to_state",
+    "key_id": "701428890",
+    "translation_id": "6448870978",
+    "en": "The state of the sensor for which the observation will be considered `True`.",
+    "sv": "Det sensortillstånd som gör observationen `True`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::reconfigure::data_description::value_template",
+    "key_id": "701428891",
+    "translation_id": "6448871042",
+    "en": "A template that evaluates to `True` will update the prior accordingly, A template that returns `False` or `None` will update the prior with inverse probabilities. A template that returns an error will not update probabilities. Results are coerced into being `True` or `False`",
+    "sv": "Om mallen utvärderas till `True` uppdateras förhandssannolikheten enligt de angivna värdena. Om den returnerar `False` eller `None` används de omvända sannolikheterna. Om mallen ger ett fel uppdateras inga sannolikheter. Resultatet tolkas som antingen `True` eller `False`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::reconfigure::description",
+    "key_id": "701428892",
+    "translation_id": "6448871106",
+    "en": "Add an observation which evaluates to `True` when the value of the sensor exactly matches *'To state'*. When `False`, it will update the prior with probabilities that are the inverse of those set below. This behavior can be overridden by adding observations for the same entity's other states.",
+    "sv": "Lägg till en observation som är `True` när sensorns värde exakt motsvarar *”Tillstånd att matcha”*. Om observationen är `False` uppdateras förhandssannolikheten med de omvända sannolikheterna nedan. Du kan ersätta den här effekten genom att lägga till observationer för andra tillstånd hos samma entitet.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::reconfigure::title",
+    "key_id": "701428893",
+    "translation_id": "6448871170",
+    "en": "Edit observation",
+    "sv": "Redigera observation",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::state::data::entity_id",
+    "key_id": "701428894",
+    "translation_id": "6448871234",
+    "en": "Entity",
+    "sv": "Entitet",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::state::data::name",
+    "key_id": "701428895",
+    "translation_id": "6448871298",
+    "en": "Name",
+    "sv": "Namn",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::state::data::prob_given_false",
+    "key_id": "701428896",
+    "translation_id": "6448871362",
+    "en": "Probability when {parent_sensor_name} is {device_class_off}",
+    "sv": "Sannolikhet när {parent_sensor_name} är {device_class_off}",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::state::data::prob_given_true",
+    "key_id": "701428897",
+    "translation_id": "6448871426",
+    "en": "Probability when {parent_sensor_name} is {device_class_on}",
+    "sv": "Sannolikhet när {parent_sensor_name} är {device_class_on}",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::state::data::to_state",
+    "key_id": "701428898",
+    "translation_id": "6448871490",
+    "en": "To state",
+    "sv": "Tillstånd att matcha",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::state::data_description::entity_id",
+    "key_id": "701428899",
+    "translation_id": "6448871554",
+    "en": "An entity that is correlated with `{parent_sensor_name}`.",
+    "sv": "En enhet som är korrelerad med `{parent_sensor_name}`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::state::data_description::name",
+    "key_id": "701428900",
+    "translation_id": "6448871618",
+    "en": "This name will be used for to identify this observation for editing in the future.",
+    "sv": "Namnet används för att identifiera observationen när du redigerar den senare.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::state::data_description::prob_given_false",
+    "key_id": "701428901",
+    "translation_id": "6448871682",
+    "en": "The estimated probability or proportion of time this observation is `True` while `{parent_sensor_name}` is, or should be, `{device_class_off}`.",
+    "sv": "Den uppskattade sannolikheten för att observationen är `True`, eller andelen av tiden då den är det, när `{parent_sensor_name}` är eller förväntas vara `{device_class_off}`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::state::data_description::prob_given_true",
+    "key_id": "701428902",
+    "translation_id": "6448871746",
+    "en": "The estimated probability or proportion of time this observation is `True` while `{parent_sensor_name}` is, or should be, `{device_class_on}`.",
+    "sv": "Den uppskattade sannolikheten för att observationen är `True`, eller andelen av tiden då den är det, när `{parent_sensor_name}` är eller förväntas vara `{device_class_on}`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::state::data_description::to_state",
+    "key_id": "701428903",
+    "translation_id": "6448871810",
+    "en": "The state of the sensor for which the observation will be considered `True`.",
+    "sv": "Det sensortillstånd som gör observationen `True`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::state::description",
+    "key_id": "701428904",
+    "translation_id": "6448871874",
+    "en": "Add an observation which evaluates to `True` when the value of the sensor exactly matches *'To state'*. When `False`, it will update the prior with probabilities that are the inverse of those set below. This behavior can be overridden by adding observations for the same entity's other states.",
+    "sv": "Lägg till en observation som är `True` när sensorns värde exakt motsvarar *”Tillstånd att matcha”*. Om observationen är `False` uppdateras förhandssannolikheten med de omvända sannolikheterna nedan. Du kan ersätta den här effekten genom att lägga till observationer för andra tillstånd hos samma entitet.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::state::title",
+    "key_id": "701428905",
+    "translation_id": "6448871938",
+    "en": "Add a Bayesian sensor",
+    "sv": "Lägg till en bayesiansk sensor",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::template::data::name",
+    "key_id": "701428906",
+    "translation_id": "6448872002",
+    "en": "Name",
+    "sv": "Namn",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::template::data::prob_given_false",
+    "key_id": "701428907",
+    "translation_id": "6448872066",
+    "en": "Probability when {parent_sensor_name} is {device_class_off}",
+    "sv": "Sannolikhet när {parent_sensor_name} är {device_class_off}",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::template::data::prob_given_true",
+    "key_id": "701428908",
+    "translation_id": "6448872130",
+    "en": "Probability when {parent_sensor_name} is {device_class_on}",
+    "sv": "Sannolikhet när {parent_sensor_name} är {device_class_on}",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::template::data::value_template",
+    "key_id": "701428909",
+    "translation_id": "6448872194",
+    "en": "Template",
+    "sv": "Mall",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::template::data_description::name",
+    "key_id": "701428910",
+    "translation_id": "6448872258",
+    "en": "This name will be used for to identify this observation for editing in the future.",
+    "sv": "Namnet används för att identifiera observationen när du redigerar den senare.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::template::data_description::prob_given_false",
+    "key_id": "701428911",
+    "translation_id": "6448872322",
+    "en": "The estimated probability or proportion of time this observation is `True` while `{parent_sensor_name}` is, or should be, `{device_class_off}`.",
+    "sv": "Den uppskattade sannolikheten för att observationen är `True`, eller andelen av tiden då den är det, när `{parent_sensor_name}` är eller förväntas vara `{device_class_off}`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::template::data_description::prob_given_true",
+    "key_id": "701428912",
+    "translation_id": "6448872386",
+    "en": "The estimated probability or proportion of time this observation is `True` while `{parent_sensor_name}` is, or should be, `{device_class_on}`.",
+    "sv": "Den uppskattade sannolikheten för att observationen är `True`, eller andelen av tiden då den är det, när `{parent_sensor_name}` är eller förväntas vara `{device_class_on}`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::template::data_description::value_template",
+    "key_id": "701428913",
+    "translation_id": "6448872450",
+    "en": "A template that evaluates to `True` will update the prior accordingly, A template that returns `False` or `None` will update the prior with inverse probabilities. A template that returns an error will not update probabilities. Results are coerced into being `True` or `False`",
+    "sv": "Om mallen utvärderas till `True` uppdateras förhandssannolikheten enligt de angivna värdena. Om den returnerar `False` eller `None` används de omvända sannolikheterna. Om mallen ger ett fel uppdateras inga sannolikheter. Resultatet tolkas som antingen `True` eller `False`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::template::description",
+    "key_id": "701428914",
+    "translation_id": "6448872514",
+    "en": "Add a custom observation which evaluates whether a template is observed (`True`) or not (`False`).",
+    "sv": "Lägg till en anpassad observation som utvärderar om en mall ger `True` eller `False`.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::template::title",
+    "key_id": "701428915",
+    "translation_id": "6448872578",
+    "en": "Add a Bayesian sensor",
+    "sv": "Lägg till en bayesiansk sensor",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::user::description",
+    "key_id": "701428916",
+    "translation_id": "6448872642",
+    "en": "'Observations' are the sensor or template values that are monitored and then combined in order to inform the Bayesian sensor's final probability. Each observation will update the probability of the Bayesian sensor if it is detected, or if it is not detected. If the state of the entity becomes `unavailable` or `unknown` it will be ignored. If more than one state or more than one numeric range is configured for the same entity then inverse detections will be ignored.",
+    "sv": "Observationer är sensor- eller mallvärden som övervakas och kombineras för att beräkna sannolikheten för den händelse som den bayesianska sensorn representerar. Varje observation påverkar sannolikheten beroende på om värdet detekteras. Om entitetens tillstånd blir `unavailable` eller `unknown` ignoreras observationen. Om flera tillstånd eller numeriska intervall har konfigurerats för samma entitet ignoreras omvända detektioner.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::user::menu_options::numeric_state",
+    "key_id": "701428917",
+    "translation_id": "6448872706",
+    "en": "Add an observation for a numeric range",
+    "sv": "Lägg till en observation för ett numeriskt intervall",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::user::menu_options::state",
+    "key_id": "701428918",
+    "translation_id": "6448872770",
+    "en": "Add an observation for a sensor's state",
+    "sv": "Lägg till en observation för en sensors tillstånd",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::user::menu_options::template",
+    "key_id": "701428919",
+    "translation_id": "6448872834",
+    "en": "Add an observation for a template",
+    "sv": "Lägg till en observation för en mall",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::config_subentries::observation::step::user::title",
+    "key_id": "701428920",
+    "translation_id": "6448872898",
+    "en": "Add an observation",
+    "sv": "Lägg till en observation",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::options::error::equal_probabilities",
+    "key_id": "701428921",
+    "translation_id": "6448872962",
+    "en": "If 'Probability given true' and 'Probability given false' are equal, this observation can have no effect, and is therefore redundant",
+    "sv": "Om ”Sannolikhet givet sant” och ”Sannolikhet givet falskt” är lika kan observationen inte påverka resultatet och är därför överflödig.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::options::error::extreme_prior_error",
+    "key_id": "701428922",
+    "translation_id": "6448873026",
+    "en": "'Prior' set to 0% means that it is impossible for the sensor to show 'on' and 100% means it will never show 'off', use a close number like 0.1% or 99.9% instead",
+    "sv": "Om ”Förhandssannolikhet” är 0 % kan sensorn aldrig visa ”på”, och vid 100 % kan den aldrig visa ”av”. Använd i stället ett värde nära 0 % eller 100 %, till exempel 0,1 % eller 99,9 %.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::options::error::extreme_prob_given_error",
+    "key_id": "701428923",
+    "translation_id": "6448873090",
+    "en": "If either 'Probability given false' or 'Probability given true' is 0 or 100 this will create certainties that override all other observations, use numbers close to 0 or 100 instead",
+    "sv": "Om antingen ”Sannolikhet givet falskt” eller ”Sannolikhet givet sant” är 0 eller 100 blir utfallet säkert och åsidosätter alla andra observationer. Använd i stället värden nära 0 eller 100.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::options::error::extreme_threshold_error",
+    "key_id": "701428924",
+    "translation_id": "6448873154",
+    "en": "'Probability threshold' set to 0% means that the sensor will always be 'on' and 100% mean it will always be 'off', use a close number like 0.1% or 99.9% instead",
+    "sv": "Om ”Sannolikhetströskel” är inställd på 0 % blir sensorn alltid ”på”, och vid 100 % blir den alltid ”av”. Använd i stället ett värde nära 0 % eller 100 %, till exempel 0,1 % eller 99,9 %.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::options::step::init::data::device_class",
+    "key_id": "701428925",
+    "translation_id": "6448873218",
+    "en": "Device class",
+    "sv": "Enhetsklass",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::options::step::init::data::name",
+    "key_id": "701428926",
+    "translation_id": "6448873282",
+    "en": "Name",
+    "sv": "Namn",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::options::step::init::data::prior",
+    "key_id": "701428927",
+    "translation_id": "6448873346",
+    "en": "Prior",
+    "sv": "Förhandssannolikhet",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::options::step::init::data::probability_threshold",
+    "key_id": "701428928",
+    "translation_id": "6448873410",
+    "en": "Probability threshold",
+    "sv": "Tröskelvärde för sannolikhet",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::options::step::init::data_description::prior",
+    "key_id": "701428929",
+    "translation_id": "6448873474",
+    "en": "The baseline probability the sensor should be 'on', this is usually the percentage of time it is true. For example, for a sensor 'Everyone sleeping' it might be 8 hours a day, 33%.",
+    "sv": "Förhandssannolikheten anger sannolikheten för att sensorn ska vara ”på” innan observationerna vägs in. Den motsvarar oftast andelen av tiden som händelsen är sann. Om händelsen till exempel är att alla sover kan du ange 8 timmar per dygn, alltså 33 %.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::options::step::init::data_description::probability_threshold",
+    "key_id": "701428930",
+    "translation_id": "6448873538",
+    "en": "The probability above which the sensor will show as 'on'. 50% should produce the most accurate result. Use numbers greater than 50% if avoiding false positives is important, or vice-versa.",
+    "sv": "Sensorn visar ”på” när sannolikheten överstiger det här tröskelvärdet. Ett värde på 50 % ger oftast det mest träffsäkra resultatet. Välj ett högre värde om det är viktigt att undvika falska positiva resultat, eller ett lägre värde om det är viktigare att undvika falska negativa resultat.",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::options::step::init::description",
+    "key_id": "701428931",
+    "translation_id": "6448873602",
+    "en": "These options affect how much evidence is required for the Bayesian sensor to be considered 'on'.",
+    "sv": "Dessa alternativ påverkar hur mycket bevis som krävs för att den bayesianska sensorn ska anses vara \"på\".",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::bayesian::options::step::init::title",
+    "key_id": "701428932",
+    "translation_id": "6448873666",
+    "en": "Sensor options",
+    "sv": "Sensoralternativ",
+    "verification_method": "Lokalise API fresh GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871; source references resolved and API-compared",
+    "verified_date": "2026-11-26",
+    "status": "verified-existing"
+  }
+]

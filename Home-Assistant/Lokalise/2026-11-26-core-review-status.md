@@ -521,3 +521,20 @@ Terminologiverifiering av Husqvarna GeoFence ledde till en separat retroaktiv ko
 ### Senaste batch: 40 097–40 216
 
 113 aktuella nycklar (81 direkta och 32 referenser) samt sju källfrånvarande äldre poster granskades rad för rad. De sju äldre raderna matchar exakt 2026-11-24-snapshoten och uteslöts ur aktuell TM. 34 slutliga ändringar i intervallet sparades och återlästes; 79 aktiva texter verifierades utan slutlig ändring. Alla 32 referenser matchar live efter synkning. Ett tidigare oansenligt 1-Wire-alias (`Sensed {id}`) rättades retroaktivt till `Ingångskanal {id}` efter kontroll av dess fullständiga nyckel och Home Assistants beskrivning av insignalskanalen. Totalt 114 TM-manifestposter (113 aktuella + 1 retroaktiv) verifierades mot Lokalise. Kanonisk TMX validerar med 28 517 enheter och spegelkopian är byteidentisk. `svlang`: inga skrivregelfel; Hunspell-sv 19/19 tester; swedish-foss-terminology 20/20 tester. Termbanken fick nio HA-termer, bland annat kontextbundna Fyta-gränsvärden, RMS-mätvärden och 1-Wire-kanaler. Nästa position: **40 217**; 37 388 aktiva poster återstår efter markören. Rapport: `2026-11-26-reviewed-core-40097-40216.md`.
+
+
+## Batch 92: 40 217–40 336
+
+120 positioner granskade: 112 aktiva nycklar och 8 äldre poster som matchar exakt 2026-11-24-snapshoten. 18 ändringar sparade/återlästa; 94 aktiva mål verifierade. Alla 9 referenser till 8 mål matchar. Aktuellt TM-manifest: 112 aktiva poster; TMX validerad med 28 629 enheter.
+
+## Batch 93: 40 337–40 456
+
+120 positioner granskade: 84 aktiva nycklar och 36 snapshotmatchade äldre poster. 22 ändringar sparade/återlästa; 62 aktiva mål verifierade. Alla 25 referenser till 21 mål matchar.
+
+## Batch 94: 40 457–40 576
+
+120 positioner granskade: 108 aktiva nycklar och 12 snapshotmatchade poster. 19 ändringar sparade/återlästa; 89 aktiva mål verifierade. Alla 58 referenser till 45 mål matchar. TMX validerad med 28 815 enheter före nästa batch.
+
+## Batch 95: 40 577–40 696
+
+120 positioner granskade: 107 aktiva (36 direkta källmatchningar, 71 referenser) och 13 poster som matchar exakt 2026-11-24-snapshoten. 50 aktiva ändringar sparade/återlästa; 57 aktiva mål verifierade oförändrade. Alla 71 referenser till 32 mål matchar live. 13 snapshotposter exkluderade från aktuell TM. Därtill 9 retroaktiva delade Bayesian-mål/alias rättade och API-verifierade; totalt 59 sparade ändringar. 107 aktuella och 9 retroaktiva manifestposter synkade till TM; kanonisk TMX har 28 897 enheter (28 666 Lokalise-ID:n + 231 historiska poster), spegeln är identisk. `svlang`: inga skrivregelfel; termbank 20/20 tester; TMX-validator 8/8 tester och 0 valideringsfel. Nästa position: **40 697**; **36 844 aktiva positioner återstår**. Granskningen fortsätter.

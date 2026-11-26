@@ -1,0 +1,92 @@
+[
+  {
+    "key": "component::bayesian::config::error::extreme_prior_error",
+    "key_id": "701428799",
+    "translation_id": "6448865154",
+    "en": "'Prior' set to 0% means that it is impossible for the sensor to show 'on' and 100% means it will never show 'off', use a close number like 0.1% or 99.9% instead",
+    "sv": "Om ”Förhandssannolikhet” är 0 % kan sensorn aldrig visa ”på”, och vid 100 % kan den aldrig visa ”av”. Använd i stället ett värde nära 0 % eller 100 %, till exempel 0,1 % eller 99,9 %.",
+    "verification_method": "Retroactive Bayesian terminology/reference correction; Lokalise API PUT and GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::numeric_state::data_description::above",
+    "key_id": "701428809",
+    "translation_id": "6448865794",
+    "en": "Optional - the lower end of the numeric range. Values exactly matching this will not count",
+    "sv": "Valfritt: nedre gräns för det numeriska intervallet. Värden som är exakt lika med gränsen ingår inte.",
+    "verification_method": "Retroactive Bayesian terminology/reference correction; Lokalise API PUT and GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::numeric_state::data_description::below",
+    "key_id": "701428810",
+    "translation_id": "6448865858",
+    "en": "Optional - the upper end of the numeric range. Values exactly matching this will only count if more than one range is configured for the same entity.",
+    "sv": "Valfritt: övre gräns för det numeriska intervallet. Värden som är exakt lika med gränsen ingår bara om fler än ett intervall har konfigurerats för samma entitet.",
+    "verification_method": "Retroactive Bayesian terminology/reference correction; Lokalise API PUT and GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::numeric_state::data_description::name",
+    "key_id": "701428812",
+    "translation_id": "6448865986",
+    "en": "This name will be used for to identify this observation for editing in the future.",
+    "sv": "Namnet används för att identifiera observationen när du redigerar den senare.",
+    "verification_method": "Retroactive Bayesian terminology/reference correction; Lokalise API PUT and GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::numeric_state::data_description::prob_given_false",
+    "key_id": "701428813",
+    "translation_id": "6448866050",
+    "en": "The estimated probability or proportion of time this observation is `True` while `{parent_sensor_name}` is, or should be, `{device_class_off}`.",
+    "sv": "Den uppskattade sannolikheten för att observationen är `True`, eller andelen av tiden då den är det, när `{parent_sensor_name}` är eller förväntas vara `{device_class_off}`.",
+    "verification_method": "Retroactive Bayesian terminology/reference correction; Lokalise API PUT and GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::numeric_state::data_description::prob_given_true",
+    "key_id": "701428814",
+    "translation_id": "6448866114",
+    "en": "The estimated probability or proportion of time this observation is `True` while `{parent_sensor_name}` is, or should be, `{device_class_on}`.",
+    "sv": "Den uppskattade sannolikheten för att observationen är `True`, eller andelen av tiden då den är det, när `{parent_sensor_name}` är eller förväntas vara `{device_class_on}`.",
+    "verification_method": "Retroactive Bayesian terminology/reference correction; Lokalise API PUT and GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::numeric_state::description",
+    "key_id": "701428815",
+    "translation_id": "6448866178",
+    "en": "Add an observation which evaluates to `True` when a numeric sensor is within a chosen range.",
+    "sv": "Lägg till en observation som blir `True` när en numerisk sensor ligger inom det valda intervallet.",
+    "verification_method": "Retroactive Bayesian terminology/reference correction; Lokalise API PUT and GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::numeric_state::title",
+    "key_id": "701428816",
+    "translation_id": "6448866242",
+    "en": "Add a Bayesian sensor",
+    "sv": "Lägg till en bayesiansk sensor",
+    "verification_method": "Retroactive Bayesian terminology/reference correction; Lokalise API PUT and GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::bayesian::config::step::observation_selector::description",
+    "key_id": "701428817",
+    "translation_id": "6448866306",
+    "en": "'Observations' are the sensor or template values that are monitored and then combined in order to inform the Bayesian sensor's final probability. Each observation will update the probability of the Bayesian sensor if it is detected, or if it is not detected. If the state of the entity becomes `unavailable` or `unknown` it will be ignored. If more than one state or more than one numeric range is configured for the same entity then inverse detections will be ignored.",
+    "sv": "Observationer är sensor- eller mallvärden som övervakas och kombineras för att beräkna sannolikheten för den händelse som den bayesianska sensorn representerar. Varje observation påverkar sannolikheten beroende på om värdet detekteras. Om entitetens tillstånd blir `unavailable` eller `unknown` ignoreras observationen. Om flera tillstånd eller numeriska intervall har konfigurerats för samma entitet ignoreras omvända detektioner.",
+    "verification_method": "Retroactive Bayesian terminology/reference correction; Lokalise API PUT and GET readback; HA Core source revision c03d786a2335a70d01860cae56286798bb272871",
+    "verified_date": "2026-11-26",
+    "status": "saved-and-read-back"
+  }
+]

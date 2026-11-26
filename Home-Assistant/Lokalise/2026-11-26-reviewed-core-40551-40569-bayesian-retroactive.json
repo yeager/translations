@@ -1,0 +1,110 @@
+[
+  {
+    "position": 40551,
+    "key": "component::bayesian::config::error::extreme_prior_error",
+    "key_id": "701428799",
+    "translation_id": "6448865154",
+    "en": "'Prior' set to 0% means that it is impossible for the sensor to show 'on' and 100% means it will never show 'off', use a close number like 0.1% or 99.9% instead",
+    "before": "Om ”Prior” är inställt på 0 % kan sensorn aldrig visa ”på”, och om det är inställt på 100 % kan den aldrig visa ”av”. Använd i stället ett värde nära 0 % eller 100 %, till exempel 0,1 % eller 99,9 %.",
+    "after": "Om ”Förhandssannolikhet” är 0 % kan sensorn aldrig visa ”på”, och vid 100 % kan den aldrig visa ”av”. Använd i stället ett värde nära 0 % eller 100 %, till exempel 0,1 % eller 99,9 %.",
+    "status": "saved-and-read-back",
+    "target_key": null,
+    "role": "canonical"
+  },
+  {
+    "position": 40561,
+    "key": "component::bayesian::config::step::numeric_state::data_description::above",
+    "key_id": "701428809",
+    "translation_id": "6448865794",
+    "en": "Optional - the lower end of the numeric range. Values exactly matching this will not count",
+    "before": "Valfritt - den nedre delen av det numeriska intervallet. Värden som exakt matchar detta kommer inte att räknas",
+    "after": "Valfritt: nedre gräns för det numeriska intervallet. Värden som är exakt lika med gränsen ingår inte.",
+    "status": "saved-and-read-back",
+    "target_key": "component::bayesian::config_subentries::observation::step::numeric_state::data_description::above",
+    "role": "reference-alias"
+  },
+  {
+    "position": 40562,
+    "key": "component::bayesian::config::step::numeric_state::data_description::below",
+    "key_id": "701428810",
+    "translation_id": "6448865858",
+    "en": "Optional - the upper end of the numeric range. Values exactly matching this will only count if more than one range is configured for the same entity.",
+    "before": "Valfritt - den övre änden av det numeriska intervallet. Värden som exakt matchar detta kommer endast att räknas om mer än ett intervall har konfigurerats för samma enhet.",
+    "after": "Valfritt: övre gräns för det numeriska intervallet. Värden som är exakt lika med gränsen ingår bara om fler än ett intervall har konfigurerats för samma entitet.",
+    "status": "saved-and-read-back",
+    "target_key": "component::bayesian::config_subentries::observation::step::numeric_state::data_description::below",
+    "role": "reference-alias"
+  },
+  {
+    "position": 40564,
+    "key": "component::bayesian::config::step::numeric_state::data_description::name",
+    "key_id": "701428812",
+    "translation_id": "6448865986",
+    "en": "This name will be used for to identify this observation for editing in the future.",
+    "before": "Detta namn kommer att användas för att identifiera denna observation för redigering i framtiden.",
+    "after": "Namnet används för att identifiera observationen när du redigerar den senare.",
+    "status": "saved-and-read-back",
+    "target_key": "component::bayesian::config_subentries::observation::step::state::data_description::name",
+    "role": "reference-alias"
+  },
+  {
+    "position": 40565,
+    "key": "component::bayesian::config::step::numeric_state::data_description::prob_given_false",
+    "key_id": "701428813",
+    "translation_id": "6448866050",
+    "en": "The estimated probability or proportion of time this observation is `True` while `{parent_sensor_name}` is, or should be, `{device_class_off}`.",
+    "before": "Den uppskattade sannolikheten eller andelen gånger denna observation är `True` medan `{parent_sensor_name}` är, eller borde vara, `{device_class_off}`.",
+    "after": "Den uppskattade sannolikheten för att observationen är `True`, eller andelen av tiden då den är det, när `{parent_sensor_name}` är eller förväntas vara `{device_class_off}`.",
+    "status": "saved-and-read-back",
+    "target_key": "component::bayesian::config_subentries::observation::step::state::data_description::prob_given_false",
+    "role": "reference-alias"
+  },
+  {
+    "position": 40566,
+    "key": "component::bayesian::config::step::numeric_state::data_description::prob_given_true",
+    "key_id": "701428814",
+    "translation_id": "6448866114",
+    "en": "The estimated probability or proportion of time this observation is `True` while `{parent_sensor_name}` is, or should be, `{device_class_on}`.",
+    "before": "Den uppskattade sannolikheten eller andelen gånger denna observation är `True` medan `{parent_sensor_name}` är, eller borde vara, `{device_class_on}`.",
+    "after": "Den uppskattade sannolikheten för att observationen är `True`, eller andelen av tiden då den är det, när `{parent_sensor_name}` är eller förväntas vara `{device_class_on}`.",
+    "status": "saved-and-read-back",
+    "target_key": "component::bayesian::config_subentries::observation::step::state::data_description::prob_given_true",
+    "role": "reference-alias"
+  },
+  {
+    "position": 40567,
+    "key": "component::bayesian::config::step::numeric_state::description",
+    "key_id": "701428815",
+    "translation_id": "6448866178",
+    "en": "Add an observation which evaluates to `True` when a numeric sensor is within a chosen range.",
+    "before": "Lägg till en observation som utvärderas till `True` när en numerisk sensor är inom ett valt intervall.",
+    "after": "Lägg till en observation som blir `True` när en numerisk sensor ligger inom det valda intervallet.",
+    "status": "saved-and-read-back",
+    "target_key": "component::bayesian::config_subentries::observation::step::numeric_state::description",
+    "role": "reference-alias"
+  },
+  {
+    "position": 40568,
+    "key": "component::bayesian::config::step::numeric_state::title",
+    "key_id": "701428816",
+    "translation_id": "6448866242",
+    "en": "Add a Bayesian sensor",
+    "before": "Lägg till en Bayesiansk sensor",
+    "after": "Lägg till en bayesiansk sensor",
+    "status": "saved-and-read-back",
+    "target_key": "component::bayesian::config_subentries::observation::step::state::title",
+    "role": "reference-alias"
+  },
+  {
+    "position": 40569,
+    "key": "component::bayesian::config::step::observation_selector::description",
+    "key_id": "701428817",
+    "translation_id": "6448866306",
+    "en": "'Observations' are the sensor or template values that are monitored and then combined in order to inform the Bayesian sensor's final probability. Each observation will update the probability of the Bayesian sensor if it is detected, or if it is not detected. If the state of the entity becomes `unavailable` or `unknown` it will be ignored. If more than one state or more than one numeric range is configured for the same entity then inverse detections will be ignored.",
+    "before": "\"Observationer\" är de sensor- eller mallvärden som övervakas och sedan kombineras för att informera den bayesianska sensorns slutliga sannolikhet. Varje observation uppdaterar den bayesianska sensorns sannolikhet om den upptäcks eller om den inte upptäcks. Om enhetens tillstånd blir \"otillgängligt\" eller \"okänt\" ignoreras det. Om mer än ett tillstånd eller mer än ett numeriskt intervall är konfigurerat för samma enhet ignoreras inversa detektioner.",
+    "after": "Observationer är sensor- eller mallvärden som övervakas och kombineras för att beräkna sannolikheten för den händelse som den bayesianska sensorn representerar. Varje observation påverkar sannolikheten beroende på om värdet detekteras. Om entitetens tillstånd blir `unavailable` eller `unknown` ignoreras observationen. Om flera tillstånd eller numeriska intervall har konfigurerats för samma entitet ignoreras omvända detektioner.",
+    "status": "saved-and-read-back",
+    "target_key": "component::bayesian::config_subentries::observation::step::user::description",
+    "role": "reference-alias"
+  }
+]
