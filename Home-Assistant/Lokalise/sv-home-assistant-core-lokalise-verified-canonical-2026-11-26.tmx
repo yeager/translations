@@ -47402,11 +47402,9 @@ Se till att den nya adaptern är ansluten innan du fortsätter.</seg>
     </tu>
     <tu tuid="lokalise:5679441119">
       <prop type="source">component::ntfy::config::abort::account_mismatch</prop>
-      <prop type="lokalise-key-id">641225172</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback; Swedish terminology and direct UI review</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-23</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The provided access token corresponds to the account {wrong_username}. Please re-authenticate with the account **{username}**</seg>
       </tuv>
@@ -328299,6 +328297,1326 @@ Välj ett av följande alternativ för att fortsätta:
       </tuv>
       <tuv xml:lang="sv">
         <seg>Oväntat fel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679370800">
+      <prop type="source">component::iron_os::config::error::cannot_connect</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Failed to connect</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det gick inte att ansluta</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679370864">
+      <prop type="source">component::iron_os::config::error::unknown</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Unexpected error</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Oväntat fel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679441247">
+      <prop type="source">component::ntfy::config::step::reauth_confirm::data::password</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Password</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Lösenord</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679441311">
+      <prop type="source">component::ntfy::config::step::reauth_confirm::data::token</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Access token</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Åtkomsttoken</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679441375">
+      <prop type="source">component::ntfy::config::step::reauth_confirm::data_description::password</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Enter the password corresponding to the aforementioned username to automatically create an access token</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ange lösenordet för användarnamnet ovan. Då skapar Home Assistant automatiskt en åtkomsttoken.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679441439">
+      <prop type="source">component::ntfy::config::step::reauth_confirm::data_description::token</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Enter a new access token. To create a new access token navigate to Account → Access tokens and select 'Create access token'</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ange en ny eller befintlig åtkomsttoken. Skapa en ny genom att gå till Konto → Åtkomsttoken och välja Skapa åtkomsttoken.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679441503">
+      <prop type="source">component::ntfy::config::step::reauth_confirm::description</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The access token for **{username}** is invalid. To re-authenticate with the ntfy service, you can either log in with your password (a new access token will be created automatically) or you can directly provide a valid access token</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Åtkomsttoken för **{username}** är ogiltig. Du kan autentisera på nytt med ntfy-tjänsten genom att logga in med lösenordet (då skapas en ny åtkomsttoken automatiskt) eller genom att ange en giltig åtkomsttoken.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679441567">
+      <prop type="source">component::ntfy::config::step::reauth_confirm::title</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Re-authenticate with ntfy ({name})</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Autentisera på nytt med ntfy ({name})</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679468315">
+      <prop type="source">component::samsungtv::exceptions::encrypted_mode_auth_failed::message</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Token and session ID are required in encrypted mode.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Token och sessions-ID krävs i krypterat läge.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5680277632">
+      <prop type="source">component::apcupsd::exceptions::cannot_connect::message</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Cannot connect to APC UPS Daemon.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det går inte att ansluta till APC UPS-daemonen.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5682872854">
+      <prop type="source">component::renault::config::abort::unique_id_mismatch</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The selected Kamereon account ID does not match the previous account ID</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det valda konto-ID:t för Kamereon stämmer inte överens med det tidigare konto-ID:t</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5685558079">
+      <prop type="source">component::teslemetry::entity::binary_sensor::cellular::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Cellular</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mobilnät</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5685558143">
+      <prop type="source">component::teslemetry::entity::binary_sensor::wifi::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Wi-Fi</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Wi-Fi</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5687898813">
+      <prop type="source">component::teslemetry::entity::binary_sensor::grid_status::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Grid status</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Elnätsstatus</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5687898934">
+      <prop type="source">component::miele::entity::sensor::core_target_temperature::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Core target temperature</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Kärnmåltemperatur</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5687898998">
+      <prop type="source">component::miele::entity::sensor::core_temperature::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Core temperature</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Kärntemperatur</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5690794114">
+      <prop type="source">component::teslemetry::entity::sensor::sentry_mode::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Sentry mode</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Vaktläge</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5690794178">
+      <prop type="source">component::teslemetry::entity::sensor::sentry_mode::state::armed</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Armed</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Aktiverat</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5690794242">
+      <prop type="source">component::teslemetry::entity::sensor::sentry_mode::state::aware</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Aware</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Övervakar</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5690794306">
+      <prop type="source">component::teslemetry::entity::sensor::sentry_mode::state::idle</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Idle</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Inaktiv</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5690794370">
+      <prop type="source">component::teslemetry::entity::sensor::sentry_mode::state::off</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Off</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Av</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5690794434">
+      <prop type="source">component::teslemetry::entity::sensor::sentry_mode::state::panic</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Panic</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Panik</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5690794498">
+      <prop type="source">component::teslemetry::entity::sensor::sentry_mode::state::quiet</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Quiet</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Tyst</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5692416465">
+      <prop type="source">component::miele::entity::fan::fan::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Fan</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Fläkt</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694563906">
+      <prop type="source">component::huawei_lte::entity::sensor::ims::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>IMS</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>IMS</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694563970">
+      <prop type="source">component::huawei_lte::entity::sensor::nei_cellid::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Neighbor cell ID</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Cell-ID för närliggande cell</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694564034">
+      <prop type="source">component::huawei_lte::entity::sensor::rxlev::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Received signal level</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mottagen signalstyrka</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694564098">
+      <prop type="source">component::huawei_lte::entity::sensor::sc::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Scrambling code</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Scramblingkod</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694564162">
+      <prop type="source">component::huawei_lte::entity::sensor::wdlfreq::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>WCDMA downlink frequency</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>WCDMA-nedlänksfrekvens</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694589271">
+      <prop type="source">component::miele::entity::binary_sensor::failure::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Failure</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Fel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694589335">
+      <prop type="source">component::miele::entity::binary_sensor::info::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Info</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Info</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694589399">
+      <prop type="source">component::miele::entity::sensor::energy_consumption::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Energy consumption</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Energiförbrukning</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694589463">
+      <prop type="source">component::miele::entity::sensor::program_id::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Program</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Program</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694589655">
+      <prop type="source">component::miele::entity::sensor::program_id::state::amaranth</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Amaranth</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Amarant</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694589719">
+      <prop type="source">component::miele::entity::sensor::program_id::state::apples_diced</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Apples (diced)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Äpplen (i tärningar)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694589783">
+      <prop type="source">component::miele::entity::sensor::program_id::state::apples_halved</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Apples (halved)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Äpplen (halvor)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694589847">
+      <prop type="source">component::miele::entity::sensor::program_id::state::apples_quartered</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Apples (quartered)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Äpplen (i fjärdedelar)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694589911">
+      <prop type="source">component::miele::entity::sensor::program_id::state::apples_sliced</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Apples (sliced)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Äpplen (skivade)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694589975">
+      <prop type="source">component::miele::entity::sensor::program_id::state::apples_whole</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Apples (whole)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Äpplen (hela)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694590039">
+      <prop type="source">component::miele::entity::sensor::program_id::state::appliance_rinse</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Appliance rinse</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Sköljning av apparaten</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694590103">
+      <prop type="source">component::miele::entity::sensor::program_id::state::appliance_settings</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Appliance settings menu</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Apparatens inställningsmeny</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694590167">
+      <prop type="source">component::miele::entity::sensor::program_id::state::apricots_halved_skinning</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Apricots (halved, skinning)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Aprikoser (halvor, skalning)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694590231">
+      <prop type="source">component::miele::entity::sensor::program_id::state::apricots_halved_steam_cooking</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Apricots (halved, steam cooking)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Aprikoser (halvor, ångkokas)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694590295">
+      <prop type="source">component::miele::entity::sensor::program_id::state::apricots_quartered</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Apricots (quartered)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Aprikoser (i fjärdedelar)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694590359">
+      <prop type="source">component::miele::entity::sensor::program_id::state::apricots_wedges</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Apricots (wedges)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Aprikoser (klyftor)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694590423">
+      <prop type="source">component::miele::entity::sensor::program_id::state::artichokes_large</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Artichokes large</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Kronärtskockor stora</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694590487">
+      <prop type="source">component::miele::entity::sensor::program_id::state::artichokes_medium</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Artichokes medium</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Kronärtskockor (medelstora)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694590551">
+      <prop type="source">component::miele::entity::sensor::program_id::state::artichokes_small</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Artichokes small</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Kronärtskockor små</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694590615">
+      <prop type="source">component::miele::entity::sensor::program_id::state::atlantic_catfish_fillet_1_cm</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Atlantic catfish (fillet, 1 cm)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Havskatt (filé, 1 cm)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694590679">
+      <prop type="source">component::miele::entity::sensor::program_id::state::atlantic_catfish_fillet_2_cm</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Atlantic catfish (fillet, 2 cm)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Havskatt (filé, 2 cm)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694590743">
+      <prop type="source">component::miele::entity::sensor::program_id::state::auto</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Auto</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Auto</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694590807">
+      <prop type="source">component::miele::entity::sensor::program_id::state::auto_roast</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Auto roast</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Automatisk rostning</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694590871">
+      <prop type="source">component::miele::entity::sensor::program_id::state::automatic</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Automatic</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Automatisk</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694590935">
+      <prop type="source">component::miele::entity::sensor::program_id::state::automatic_plus</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Automatic plus</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Automatisk plus</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694591063">
+      <prop type="source">component::miele::entity::sensor::program_id::state::barista_assistant</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>BaristaAssistant</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>BaristaAssistent</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694591127">
+      <prop type="source">component::miele::entity::sensor::program_id::state::basket_program</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Basket program</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Korgprogram</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694591191">
+      <prop type="source">component::miele::entity::sensor::program_id::state::basmati_rice_rapid_steam_cooking</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Basmati rice (rapid steam cooking)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Basmatiris (snabb ångkokning)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694591255">
+      <prop type="source">component::miele::entity::sensor::program_id::state::basmati_rice_steam_cooking</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Basmati rice (steam cooking)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Basmatiris (ångkokning)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694591319">
+      <prop type="source">component::miele::entity::sensor::program_id::state::bed_linen</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Bed linen</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Sängkläder</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694591383">
+      <prop type="source">component::miele::entity::sensor::program_id::state::beef_casserole</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Beef casserole</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Köttgryta</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694591447">
+      <prop type="source">component::miele::entity::sensor::program_id::state::beef_tenderloin</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Beef tenderloin</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Oxfilé</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694591511">
+      <prop type="source">component::miele::entity::sensor::program_id::state::beef_tenderloin_medaillons_1_cm_low_temperature_cooking</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Beef tenderloin (medaillons, 1 cm, low-temperature cooking)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Oxfilé (medaljonger, 1 cm, tillagning vid låg temperatur)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694591575">
+      <prop type="source">component::miele::entity::sensor::program_id::state::beef_tenderloin_medaillons_1_cm_steam_cooking</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Beef tenderloin (medaillons, 1 cm, steam cooking)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Oxfilé (medaljonger, 1 cm, ångkokning)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694591639">
+      <prop type="source">component::miele::entity::sensor::program_id::state::beef_tenderloin_medaillons_2_cm_low_temperature_cooking</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Beef tenderloin (medaillons, 2 cm, low-temperature cooking)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Oxfilé (medaljonger, 2 cm, tillagning vid låg temperatur)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694591703">
+      <prop type="source">component::miele::entity::sensor::program_id::state::beef_tenderloin_medaillons_2_cm_steam_cooking</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Beef tenderloin (medaillons, 2 cm, steam cooking)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Oxfilé (medaljonger, 2 cm, ångkokning)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694591767">
+      <prop type="source">component::miele::entity::sensor::program_id::state::beef_tenderloin_medaillons_3_cm_low_temperature_cooking</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Beef tenderloin (medaillons, 3 cm, low-temperature cooking)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Oxfilé (medaljonger, 3 cm, tillagning vid låg temperatur)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694591831">
+      <prop type="source">component::miele::entity::sensor::program_id::state::beef_tenderloin_medaillons_3_cm_steam_cooking</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Beef tenderloin (medaillons, 3 cm, steam cooking)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Oxfilé (medaljonger, 3 cm, ångkokning)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694591895">
+      <prop type="source">component::miele::entity::sensor::program_id::state::beetroot_whole_large</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Beetroot (whole, large)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Rödbetor (hela, stora)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694591959">
+      <prop type="source">component::miele::entity::sensor::program_id::state::beetroot_whole_medium</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Beetroot (whole, medium)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Rödbetor (hela, medelstora)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694592023">
+      <prop type="source">component::miele::entity::sensor::program_id::state::beetroot_whole_small</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Beetroot (whole, small)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Rödbetor (hela, små)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694592087">
+      <prop type="source">component::miele::entity::sensor::program_id::state::beluga_lentils</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Beluga lentils</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Belugalinser</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694592151">
+      <prop type="source">component::miele::entity::sensor::program_id::state::black_beans</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Black beans</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Svarta bönor</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694592215">
+      <prop type="source">component::miele::entity::sensor::program_id::state::black_salsify_medium</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Black salsify (medium)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Svartrot (medelstor)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694592279">
+      <prop type="source">component::miele::entity::sensor::program_id::state::black_salsify_thick</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Black salsify (thick)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Svartrot (grov)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694592343">
+      <prop type="source">component::miele::entity::sensor::program_id::state::black_salsify_thin</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Black salsify (thin)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Svartrot (tunn)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694592407">
+      <prop type="source">component::miele::entity::sensor::program_id::state::black_tea</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Black tea</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Svart te</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694592471">
+      <prop type="source">component::miele::entity::sensor::program_id::state::blanching</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Blanching</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Blanchering</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694592535">
+      <prop type="source">component::miele::entity::sensor::program_id::state::bologna_sausage</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Bologna sausage</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Bolognakorv</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694592599">
+      <prop type="source">component::miele::entity::sensor::program_id::state::bottling</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Bottling</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Konservering</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694592663">
+      <prop type="source">component::miele::entity::sensor::program_id::state::bottling_hard</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Bottling (hard)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Konservering (hård)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694592727">
+      <prop type="source">component::miele::entity::sensor::program_id::state::bottling_medium</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Bottling (medium)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Konservering (medel)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694592791">
+      <prop type="source">component::miele::entity::sensor::program_id::state::bottling_soft</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Bottling (soft)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Konservering (mjuk)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694592855">
+      <prop type="source">component::miele::entity::sensor::program_id::state::bottom_heat</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Bottom heat</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Undervärme</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694592919">
+      <prop type="source">component::miele::entity::sensor::program_id::state::bread_dumplings_boil_in_the_bag</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Bread dumplings (boil-in-the-bag)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Bröddumplings (koka-i-påse)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694592983">
+      <prop type="source">component::miele::entity::sensor::program_id::state::bread_dumplings_fresh</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Bread dumplings (fresh)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Bröddumplings (färska)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694593047">
+      <prop type="source">component::miele::entity::sensor::program_id::state::brewing_unit_degrease</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Brewing unit degrease</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Avfettning av bryggarenhet</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694593111">
+      <prop type="source">component::miele::entity::sensor::program_id::state::broad_beans</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Broad beans</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Bondbönor</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694593175">
+      <prop type="source">component::miele::entity::sensor::program_id::state::broccoli_florets_large</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Broccoli florets (large)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Broccolibuketter (stora)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694593239">
+      <prop type="source">component::miele::entity::sensor::program_id::state::broccoli_florets_medium</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Broccoli florets (medium)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Broccolibuketter (medelstora)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694593303">
+      <prop type="source">component::miele::entity::sensor::program_id::state::broccoli_florets_small</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Broccoli florets (small)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Broccolibuketter (små)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694593367">
+      <prop type="source">component::miele::entity::sensor::program_id::state::broccoli_whole_large</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Broccoli (whole, large)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Broccoli (hel, stor)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694593431">
+      <prop type="source">component::miele::entity::sensor::program_id::state::broccoli_whole_medium</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Broccoli (whole, medium)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Broccoli (hel, medelstor)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694593495">
+      <prop type="source">component::miele::entity::sensor::program_id::state::broccoli_whole_small</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Broccoli (whole, small)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Broccoli (hel, liten)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694593559">
+      <prop type="source">component::miele::entity::sensor::program_id::state::brown_lentils</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Brown lentils</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Bruna linser</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694593623">
+      <prop type="source">component::miele::entity::sensor::program_id::state::bruehwurst_sausages</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Brühwurst sausages</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Kokkorv</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694593687">
+      <prop type="source">component::miele::entity::sensor::program_id::state::brussels_sprout</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Brussels sprout</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Brysselkål</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694593751">
+      <prop type="source">component::miele::entity::sensor::program_id::state::bulgur</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Bulgur</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Bulgur</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694593815">
+      <prop type="source">component::miele::entity::sensor::program_id::state::bunched_carrots_cut_into_batons</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Bunched carrots (cut into batons)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Morötter i knippe (skurna i stavar)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694593879">
+      <prop type="source">component::miele::entity::sensor::program_id::state::bunched_carrots_diced</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Bunched carrots (diced)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Morötter i knippe (tärnade)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694593943">
+      <prop type="source">component::miele::entity::sensor::program_id::state::bunched_carrots_halved</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Bunched carrots (halved)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Morötter i knippe (halverade)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694594007">
+      <prop type="source">component::miele::entity::sensor::program_id::state::bunched_carrots_quartered</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Bunched carrots (quartered)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Morötter i knippe (i fjärdedelar)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694594071">
+      <prop type="source">component::miele::entity::sensor::program_id::state::bunched_carrots_sliced</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Bunched carrots (sliced)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Morötter i knippe (skivade)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694594135">
+      <prop type="source">component::miele::entity::sensor::program_id::state::bunched_carrots_whole_large</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Bunched carrots (whole, large)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Morötter i knippe (hela, stora)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694594199">
+      <prop type="source">component::miele::entity::sensor::program_id::state::bunched_carrots_whole_medium</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Bunched carrots (whole, medium)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Morötter i knippe (hela, medelstora)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694594263">
+      <prop type="source">component::miele::entity::sensor::program_id::state::bunched_carrots_whole_small</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Bunched carrots (whole, small)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Morötter i knippe (hela, små)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694594327">
+      <prop type="source">component::miele::entity::sensor::program_id::state::cafe_au_lait</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Café au lait</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Café au lait</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694594391">
+      <prop type="source">component::miele::entity::sensor::program_id::state::caffe_latte</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Caffè latte</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Caffè latte</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694594455">
+      <prop type="source">component::miele::entity::sensor::program_id::state::cappuccino</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Cappuccino</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Cappuccino</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694594519">
+      <prop type="source">component::miele::entity::sensor::program_id::state::cappuccino_italiano</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Cappuccino Italiano</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Cappuccino Italiano</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5694594583">
+      <prop type="source">component::miele::entity::sensor::program_id::state::carp</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Carp</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Karp</seg>
       </tuv>
     </tu>
   </body>
