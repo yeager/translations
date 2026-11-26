@@ -408,3 +408,11 @@ argumentet betyder i just det programmet.
 | nickname | smeknamn | När användaren väljer ett namn på IRC. |
 | paste service | tjänst för textdelning | När text läggs upp för att kunna delas i en chatt. |
 | identify (NickServ command) | identify | Kommandoordet är tekniskt och ska stå oförändrat. |
+## GNOME Panel och dokumentation
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| applet | miniprogram | GNOME-panelkomponent. |
+| spin box | snurrknapp | Numerisk inställningskontroll. |
+| fortune (command) | fortune | Kommandonamn och produktnamn lämnas oförändrade. |
+| Fish (applet) | Fisk | Översatt namn på miniprogrammet. |
