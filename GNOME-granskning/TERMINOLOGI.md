@@ -574,3 +574,15 @@ argumentet betyder i just det programmet.
 | character palette | teckenpalett | En palett med valbara tecken. |
 | accented character | bokstav med diakritiskt tecken | Undvik den bredare och ibland felaktiga termen *accentuerat tecken*. |
 | middle-click | klicka med musens mittenknapp | För infogning av markerat tecken. |
+
+
+## GNOME Applets — Näthastighet
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| network device | nätverksenhet | Hårdvaruenhet eller gränssnitt som övervakas. |
+| network interface | nätverksgränssnitt | Använd när källan avser själva gränssnittet. |
+| incoming / outgoing traffic | inkommande / utgående trafik | I korta etiketter kan *in* och *ut* användas. |
+| bit/s / byte/s | bit/s / byte/s | Bevara enhetssymboler och skillnaden mellan gemen och versal. |
+| loopback interface | loopback-gränssnitt | Etablerad teknisk term. |
+| point-to-point connection | punkt-till-punkt-anslutning | PPP-anslutning. |

@@ -1,0 +1,65 @@
+Daniel Nylander  , 2006
+Anders Jonsson  , 2019
+Handbok för miniprogrammet Näthastighet v1.1
+Miniprogrammet Näthastighet visar hur mycket nätverkstrafik som går via en angiven nätverksenhet.
+ 2002   Jörgen Scheibengruber 
+Dokumentationsprojekt för GNOME
+ Jörgen   Scheibengruber     GNOME-projektet     mfcn@gmx.de 
+ Pedro   Villavicencio Garrido     GNOME-projektet     pvillavi@gnome.org 
+ Jörgen   Scheibengruber   mfcn@gmx.de 
+ 1.2   2006   
+ Pedro   Villavicencio Garrido   pvillavi@gnome.org 
+ 1.1   2005   
+ 1.0   2002   
+Den här handboken beskriver version 0.12 av miniprogrammet Näthastighet.
+Återkoppling
+Om du vill rapportera ett fel eller lämna ett förslag om miniprogrammet Näthastighet eller den här handboken kan du skicka e-post till  Jörgen Scheibengruber .
+ Miniprogrammet Näthastighet 
+Om miniprogrammet Näthastighet
+Näthastighet
+        Näthastighet   
+Näthastighet visar summan i en 48 px hög panel.
+        Näthastighet visar summan i en 48 px hög panel.   
+ Miniprogrammet Näthastighet  visar nätverkstrafiken via en angiven enhet, till exempel eth0, ppp0 eller plip0. Det visar också information om nätverksenhetens konfiguration.
+Näthastighetsikoner på panelen
+Ikon
+Beskrivning
+         Loopback    
+Loopback-gränssnittet.
+         Ethernet    
+Ethernet-anslutning.
+         PPP    
+Punkt-till-punkt-protokollanslutning.
+         Trådlöst    
+Trådlös anslutning.
+         PLIP    
+Anslutning via Parallel Line Internet Protocol.
+Lägg till Näthastighet i en panel
+Lägg till  miniprogrammet Näthastighet  i en panel genom att högerklicka på panelen och välja   Lägg till i panel   Nätverk   Näthastighet   .
+Inställningar
+Inställningar för miniprogrammet Näthastighet
+        Inställningar för miniprogrammet Näthastighet.   
+I den här dialogrutan kan du ändra inställningarna för miniprogrammet Näthastighet:
+ Nätverksenhet:  Välj i kombinationsrutans listruta vilken nätverksenhet miniprogrammet ska övervaka. Vanligtvis visas alla tillgängliga enheter, men du kan också ange en enhet själv.
+ Uppdateringsintervall:  Ange tiden mellan två uppdateringar av miniprogrammet.
+ Teckenstorlek för etiketten:  Ange storleken på texten som visas i miniprogrammet.
+ Visa summan i stället för in- och uttrafik:  Markera rutan om miniprogrammet ska visa summan av inkommande och utgående trafik. Då tar miniprogrammet bara upp halva utrymmet på panelen.
+ Visa bit/s (b/s) i stället för byte/s (B/s):  Markera rutan om miniprogrammet ska visa bit per sekund i stället för byte/s.
+ Ändra ikon efter vald enhet:  Vanligtvis visar miniprogrammet en ikon för den typ av nätverksenhet som övervakas: en telefon för punkt-till-punkt-anslutningar (PPP-modem med mera) och ett nätverkskort för Ethernet (eth) och så vidare. Om rutan inte är markerad visas alltid nätverkskortets ikon, oavsett vilken enhet som övervakas.
+ Övervaka alltid en ansluten enhet, om möjligt:  Om anslutningen bryts söker miniprogrammet Näthastighet efter en annan aktiv enhet att övervaka.
+Dialogrutan med information
+        Dialogrutan för detaljer   
+Den här dialogrutan visar användbar information om konfigurationen av din nätverksenhet.
+ Internetadress:  Nätverksenhetens IP-adress (Internet Protocol).
+ Nätmask:  Nätmasken beror på det lokala nätverkets (LAN, Local Area Network) storlek. Ett vanligt värde är 255.255.255.0 (ett nätverk av klass C).
+ Hårdvaruadress:  Kallas även fysisk adress eller MAC-adress (Media Access Control). Det är en globalt unik identifierare för nätverkskortet.
+ P-t-P-adress:  Internetadressen till den andra änden av PPP-anslutningen (Point to Point Protocol).
+ Inkommande byte:  Antalet byte som nätverksenheten har tagit emot sedan den anslöts till nätverket.
+ Utgående byte:  Antalet byte som nätverksenheten har skickat sedan den anslöts till nätverket.
+länk
+Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges under villkoren i GNU Free Documentation License (GFDL), version 1.1 eller senare, utgivet av Free Software Foundation utan standardavsnitt och omslagstexter. En kopia av GFDL finns att hämta på denna   eller i filen COPYING-DOCS som medföljer denna handbok.
+Denna handbok utgör en av flera GNOME-handböcker som distribueras under villkoren i GFDL. Om du vill distribuera denna handbok separat från övriga handböcker kan du göra detta genom att lägga till en kopia av licensavtalet i handboken enligt instruktionerna i avsnitt 6 i licensavtalet.
+Företag hävdar varumärkesrätt till många namn som används för att skilja deras produkter och tjänster åt. När sådana namn förekommer i GNOME-dokumentation och medlemmarna i GNOME:s dokumentationsprojekt känner till varumärkesrätten skrivs namnen med versaler eller inledande versal.
+DOKUMENTET TILLHANDAHÅLLS I "BEFINTLIGT SKICK" UTAN NÅGRA SOM HELST GARANTIER, VARE SIG UTTRYCKLIGA ELLER UNDERFÖRSTÅDDA, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, GARANTIER ATT DOKUMENTET ELLER EN MODIFIERAD VERSION AV DOKUMENTET INTE INNEHÅLLER NÅGRA FELAKTIGHETER, ÄR SÄLJBART, ÄR LÄMPLIGT FÖR ETT VISST ÄNDAMÅL ELLER INTE STRIDER MOT LAG. HELA RISKEN VAD GÄLLER KVALITET, EXAKTHET OCH UTFÖRANDE AV DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET LIGGER HELT OCH HÅLLET PÅ ANVÄNDAREN. OM ETT DOKUMENT ELLER EN MODIFIERAD VERSION AV ETT DOKUMENT SKULLE VISA SIG INNEHÅLLA FELAKTIGHETER I NÅGOT HÄNSEENDE ÄR DET DU (INTE DEN URSPRUNGLIGA SKRIBENTEN, FÖRFATTAREN ELLER NÅGON ANNAN MEDARBETARE) SOM FÅR STÅ FÖR ALLA EVENTUELLA KOSTNADER FÖR SERVICE, REPARATIONER ELLER KORRIGERINGAR. DENNA GARANTIFRISKRIVNING UTGÖR EN VÄSENTLIG DEL AV DETTA LICENSAVTAL. DETTA INNEBÄR ATT ALL ANVÄNDNING AV ETT DOKUMENT ELLER EN MODIFIERAD VERSION AV ETT DOKUMENT BEVILJAS ENDAST UNDER DENNA ANSVARSFRISKRIVNING.
+UNDER INGA OMSTÄNDIGHETER ELLER INOM RAMEN FÖR NÅGON LAGSTIFTNING, OAVSETT OM DET GÄLLER KRÄNKNING (INKLUSIVE VÅRDSLÖSHET), KONTRAKT ELLER DYLIKT, SKA FÖRFATTAREN, DEN URSPRUNGLIGA SKRIBENTEN ELLER ANNAN MEDARBETARE ELLER ÅTERFÖRSÄLJARE AV DOKUMENTET ELLER AV EN MODIFIERAD VERSION AV DOKUMENTET ELLER NÅGON LEVERANTÖR TILL NÅGON AV NÄMNDA PARTER STÄLLAS ANSVARIG GENTEMOT NÅGON FÖR NÅGRA DIREKTA, INDIREKTA, SÄRSKILDA ELLER OFÖRUTSEDDA SKADOR ELLER FÖLJDSKADOR AV NÅGOT SLAG, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, SKADOR BETRÄFFANDE FÖRLORAD GOODWILL, HINDER I ARBETET, DATORHAVERI ELLER NÅGRA ANDRA TÄNKBARA SKADOR ELLER FÖRLUSTER SOM KAN UPPKOMMA PÅ GRUND AV ELLER RELATERAT TILL ANVÄNDNINGEN AV DOKUMENTET ELLER MODIFIERADE VERSIONER AV DOKUMENTET, ÄVEN OM PART SKA HA BLIVIT INFORMERAD OM MÖJLIGHETEN TILL SÅDANA SKADOR.
+DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET TILLHANDAHÅLLS UNDER VILLKOREN I GNU FREE DOCUMENTATION LICENSE ENDAST UNDER FÖLJANDE FÖRUTSÄTTNINGAR:  

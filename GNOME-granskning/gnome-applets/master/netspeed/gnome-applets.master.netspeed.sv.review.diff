@@ -1,0 +1,586 @@
+--- gnome-applets.master.netspeed.sv.original.po
++++ gnome-applets.master.netspeed.sv.reviewed.po
+@@ -8,9 +8,9 @@
+ msgstr ""
+ "Project-Id-Version: netspeed doc\n"
+ "POT-Creation-Date: 2026-11-10 14:26+0000\n"
+-"PO-Revision-Date: 2019-01-03 12:32+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"PO-Revision-Date: 2026-11-26 13:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
++"Language-Team: Swedish <gnome@danielnylander.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -35,7 +35,7 @@
+ "Netspeed Applet is shows how much traffic occurs on a specified network "
+ "device."
+ msgstr ""
+-"Miniprogrammet Näthastighet visar hur mycket trafik som skickas på en "
++"Miniprogrammet Näthastighet visar hur mycket nätverkstrafik som går via en "
+ "angiven nätverksenhet."
+ 
+ #. (itstool) path: articleinfo/copyright
+@@ -117,12 +117,12 @@
+ #. (itstool) path: legalnotice/para
+ #: C/index.docbook:116
+ msgid ""
+-"To report a bug or make a suggestion regarding the Netspeed Applet applet or "
+-"this manual, send a e-mail to <ulink url=\"mailto:mfcn@gmx.de\" "
++"To report a bug or make a suggestion regarding the Netspeed Applet applet or"
++" this manual, send a e-mail to <ulink url=\"mailto:mfcn@gmx.de\" "
+ "type=\"mail\">Jörgen Scheibengruber</ulink>."
+ msgstr ""
+-"För att rapportera ett fel eller föreslå någonting angående miniprogrammet "
+-"Näthastighet eller denna handbok, skicka ett e-postmeddelande till <ulink "
++"Om du vill rapportera ett fel eller lämna ett förslag om miniprogrammet "
++"Näthastighet eller den här handboken kan du skicka e-post till <ulink "
+ "url=\"mailto:mfcn@gmx.de\" type=\"mail\">Jörgen Scheibengruber</ulink>."
+ 
+ #. (itstool) path: article/indexterm
+@@ -158,17 +158,17 @@
+ #: C/index.docbook:131
+ msgid ""
+ "<imageobject><imagedata fileref=\"figures/netspeed_applet.png\" "
+-"format=\"PNG\"/> </imageobject> <textobject> <phrase>Netspeed.</phrase> </"
+-"textobject>"
++"format=\"PNG\"/> </imageobject> <textobject> <phrase>Netspeed.</phrase> "
++"</textobject>"
+ msgstr ""
+ "<imageobject><imagedata fileref=\"figures/netspeed_applet.png\" "
+-"format=\"PNG\"/> </imageobject> <textobject> <phrase>Näthastighet</phrase> </"
+-"textobject>"
++"format=\"PNG\"/> </imageobject> <textobject> <phrase>Näthastighet</phrase> "
++"</textobject>"
+ 
+ #. (itstool) path: figure/title
+ #: C/index.docbook:141
+ msgid "Netspeed showing the sum in a 48px panel."
+-msgstr "Näthastighet visar summan i en 48 bildpunkter stor panel."
++msgstr "Näthastighet visar summan i en 48 px hög panel."
+ 
+ #. (itstool) path: imageobject/imagedata
+ #. This is a reference to an external file such as an image or video. When
+@@ -186,28 +186,28 @@
+ #: C/index.docbook:143
+ msgid ""
+ "<imageobject><imagedata fileref=\"figures/eth_sum_48.png\" format=\"PNG\"/> "
+-"</imageobject> <textobject> <phrase>Netspeed showing the sum in a 48px panel."
+-"</phrase> </textobject>"
++"</imageobject> <textobject> <phrase>Netspeed showing the sum in a 48px "
++"panel.</phrase> </textobject>"
+ msgstr ""
+ "<imageobject><imagedata fileref=\"figures/eth_sum_48.png\" format=\"PNG\"/> "
+-"</imageobject> <textobject> <phrase>Näthastighet visar summan i en 48 "
+-"bildpunkter stor panel.</phrase> </textobject>"
++"</imageobject> <textobject> <phrase>Näthastighet visar summan i en 48 px hög"
++" panel.</phrase> </textobject>"
+ 
+ #. (itstool) path: sect1/para
+ #: C/index.docbook:152
+ msgid ""
+-"<application>Netspeed Applet</application> displays the network traffic on a "
+-"specified device like eth0, ppp0, plip0, etc. More over it provides "
++"<application>Netspeed Applet</application> displays the network traffic on a"
++" specified device like eth0, ppp0, plip0, etc. More over it provides "
+ "information about the configuration of the network device."
+ msgstr ""
+ "<application>Miniprogrammet Näthastighet</application> visar "
+-"nätverkstrafiken på en angiven enhet som eth0, ppp0, plip0, etc. Det "
+-"tillhandahåller även information om konfigurationen av nätverksgränssnittet."
++"nätverkstrafiken via en angiven enhet, till exempel eth0, ppp0 eller plip0. "
++"Det visar också information om nätverksenhetens konfiguration."
+ 
+ #. (itstool) path: sect2/title
+ #: C/index.docbook:158
+ msgid "Netspeed Icons on Panel"
+-msgstr "Näthastighetsikoner på panel"
++msgstr "Näthastighetsikoner på panelen"
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:165
+@@ -234,13 +234,13 @@
+ #. (itstool) path: entry/para
+ #: C/index.docbook:171
+ msgid ""
+-"<inlinemediaobject><imageobject> <imagedata fileref=\"figures/loopback.png\" "
+-"format=\"PNG\"/> </imageobject><textobject> <phrase>Loopback</phrase> </"
+-"textobject></inlinemediaobject>"
+-msgstr ""
+-"<inlinemediaobject><imageobject> <imagedata fileref=\"figures/loopback.png\" "
+-"format=\"PNG\"/> </imageobject><textobject> <phrase>Loopback</phrase> </"
+-"textobject></inlinemediaobject>"
++"<inlinemediaobject><imageobject> <imagedata fileref=\"figures/loopback.png\""
++" format=\"PNG\"/> </imageobject><textobject> <phrase>Loopback</phrase> "
++"</textobject></inlinemediaobject>"
++msgstr ""
++"<inlinemediaobject><imageobject> <imagedata fileref=\"figures/loopback.png\""
++" format=\"PNG\"/> </imageobject><textobject> <phrase>Loopback</phrase> "
++"</textobject></inlinemediaobject>"
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:178
+@@ -262,13 +262,13 @@
+ #. (itstool) path: entry/para
+ #: C/index.docbook:183
+ msgid ""
+-"<inlinemediaobject><imageobject> <imagedata fileref=\"figures/ethernet.png\" "
+-"format=\"PNG\"/> </imageobject><textobject> <phrase>Ethernet</phrase> </"
+-"textobject></inlinemediaobject>"
+-msgstr ""
+-"<inlinemediaobject><imageobject> <imagedata fileref=\"figures/ethernet.png\" "
+-"format=\"PNG\"/> </imageobject><textobject> <phrase>Ethernet</phrase> </"
+-"textobject></inlinemediaobject>"
++"<inlinemediaobject><imageobject> <imagedata fileref=\"figures/ethernet.png\""
++" format=\"PNG\"/> </imageobject><textobject> <phrase>Ethernet</phrase> "
++"</textobject></inlinemediaobject>"
++msgstr ""
++"<inlinemediaobject><imageobject> <imagedata fileref=\"figures/ethernet.png\""
++" format=\"PNG\"/> </imageobject><textobject> <phrase>Ethernet</phrase> "
++"</textobject></inlinemediaobject>"
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:190
+@@ -289,17 +289,17 @@
+ #: C/index.docbook:195
+ msgid ""
+ "<inlinemediaobject><imageobject> <imagedata fileref=\"figures/ppp.png\" "
+-"format=\"PNG\"/> </imageobject><textobject> <phrase>PPP</phrase> </"
+-"textobject></inlinemediaobject>"
++"format=\"PNG\"/> </imageobject><textobject> <phrase>PPP</phrase> "
++"</textobject></inlinemediaobject>"
+ msgstr ""
+ "<inlinemediaobject><imageobject> <imagedata fileref=\"figures/ppp.png\" "
+-"format=\"PNG\"/> </imageobject><textobject> <phrase>PPP</phrase> </"
+-"textobject></inlinemediaobject>"
++"format=\"PNG\"/> </imageobject><textobject> <phrase>PPP</phrase> "
++"</textobject></inlinemediaobject>"
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:202
+ msgid "Point to Point Protocol connection."
+-msgstr "Punkt-till-punkt-protokoll-anslutning."
++msgstr "Punkt-till-punkt-protokollanslutning."
+ 
+ #. (itstool) path: imageobject/imagedata
+ #. This is a reference to an external file such as an image or video. When
+@@ -317,12 +317,12 @@
+ #: C/index.docbook:207
+ msgid ""
+ "<inlinemediaobject><imageobject> <imagedata fileref=\"figures/wavelan.png\" "
+-"format=\"PNG\"/> </imageobject><textobject> <phrase>Wireless</phrase> </"
+-"textobject></inlinemediaobject>"
++"format=\"PNG\"/> </imageobject><textobject> <phrase>Wireless</phrase> "
++"</textobject></inlinemediaobject>"
+ msgstr ""
+ "<inlinemediaobject><imageobject> <imagedata fileref=\"figures/wavelan.png\" "
+-"format=\"PNG\"/> </imageobject><textobject> <phrase>Trådlöst</phrase> </"
+-"textobject></inlinemediaobject>"
++"format=\"PNG\"/> </imageobject><textobject> <phrase>Trådlöst</phrase> "
++"</textobject></inlinemediaobject>"
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:214
+@@ -337,41 +337,42 @@
+ #: C/index.docbook:221
+ msgctxt "_"
+ msgid "external ref='figures/plip.png' md5='0761a22dfa7b0b56e41e020cd701db68'"
+-msgstr "external ref='figures/plip.png' md5='0761a22dfa7b0b56e41e020cd701db68'"
++msgstr ""
++"external ref='figures/plip.png' md5='0761a22dfa7b0b56e41e020cd701db68'"
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:219
+ msgid ""
+ "<inlinemediaobject><imageobject> <imagedata fileref=\"figures/plip.png\" "
+-"format=\"PNG\"/> </imageobject><textobject> <phrase>PLIP</phrase> </"
+-"textobject></inlinemediaobject>"
++"format=\"PNG\"/> </imageobject><textobject> <phrase>PLIP</phrase> "
++"</textobject></inlinemediaobject>"
+ msgstr ""
+ "<inlinemediaobject><imageobject> <imagedata fileref=\"figures/plip.png\" "
+-"format=\"PNG\"/> </imageobject><textobject> <phrase>PLIP</phrase> </"
+-"textobject></inlinemediaobject>"
++"format=\"PNG\"/> </imageobject><textobject> <phrase>PLIP</phrase> "
++"</textobject></inlinemediaobject>"
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:226
+ msgid "Parallel Line Internet Protocol connection."
+-msgstr "Parallel Line Internet Protocol-anslutning."
++msgstr "Anslutning via Parallel Line Internet Protocol."
+ 
+ #. (itstool) path: sect2/title
+ #: C/index.docbook:235
+ msgid "To Add Netspeed to a Panel"
+-msgstr "Lägg till Näthastighet till en panel"
++msgstr "Lägg till Näthastighet i en panel"
+ 
+ #. (itstool) path: sect2/para
+ #: C/index.docbook:236
+ msgid ""
+-"To add <application>Netspeed Applet</application> to a panel, right-click on "
+-"the panel, then choose <menuchoice> <guimenu>Add to Panel</guimenu> "
++"To add <application>Netspeed Applet</application> to a panel, right-click on"
++" the panel, then choose <menuchoice> <guimenu>Add to Panel</guimenu> "
+ "<guisubmenu>Network</guisubmenu> <guimenuitem>Netspeed Applet</guimenuitem> "
+ "</menuchoice>."
+ msgstr ""
+-"För att lägga till <application>miniprogrammet Näthastighet</application> "
+-"till en panel, högerklicka på panelen och välj <menuchoice><guimenu>Lägg "
+-"till i panel</guimenu> <guisubmenu>Nätverk</guisubmenu> "
+-"<guimenuitem>Miniprogrammet Näthastighet</guimenuitem> </menuchoice>."
++"Lägg till <application>miniprogrammet Näthastighet</application> i en panel "
++"genom att högerklicka på panelen och välja <menuchoice><guimenu>Lägg till i "
++"panel</guimenu> <guisubmenu>Nätverk</guisubmenu> "
++"<guimenuitem>Näthastighet</guimenuitem> </menuchoice>."
+ 
+ #. (itstool) path: sect1/title
+ #: C/index.docbook:244
+@@ -398,12 +399,12 @@
+ #. (itstool) path: screenshot/mediaobject
+ #: C/index.docbook:248
+ msgid ""
+-"<imageobject><imagedata fileref=\"figures/settings.png\" format=\"PNG\"/> </"
+-"imageobject> <textobject> <phrase>Netspeed Applet Settings.</phrase> </"
+-"textobject>"
+-msgstr ""
+-"<imageobject><imagedata fileref=\"figures/settings.png\" format=\"PNG\"/> </"
+-"imageobject> <textobject> <phrase>Inställningar för miniprogrammet "
++"<imageobject><imagedata fileref=\"figures/settings.png\" format=\"PNG\"/> "
++"</imageobject> <textobject> <phrase>Netspeed Applet Settings.</phrase> "
++"</textobject>"
++msgstr ""
++"<imageobject><imagedata fileref=\"figures/settings.png\" format=\"PNG\"/> "
++"</imageobject> <textobject> <phrase>Inställningar för miniprogrammet "
+ "Näthastighet.</phrase> </textobject>"
+ 
+ #. (itstool) path: sect1/para
+@@ -420,9 +421,9 @@
+ "applet should monitor from the popdown list of the combobox. Usually all "
+ "available devices are listed, however you can enter one yourself, too."
+ msgstr ""
+-"<guilabel>Nätverksenhet:</guilabel> Välj den nätverksenhet som "
+-"miniprogrammet ska övervaka från rullgardinslistan för kombinationsrutan. "
+-"Vanligtvis listas alla tillgängliga enhet men du kan även ange en själv."
++"<guilabel>Nätverksenhet:</guilabel> Välj i kombinationsrutans listruta "
++"vilken nätverksenhet miniprogrammet ska övervaka. Vanligtvis visas alla "
++"tillgängliga enheter, men du kan också ange en enhet själv."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:265
+@@ -431,7 +432,7 @@
+ "the applet."
+ msgstr ""
+ "<guilabel>Uppdateringsintervall:</guilabel> Ange tiden mellan två "
+-"uppdateringar för miniprogrammet."
++"uppdateringar av miniprogrammet."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:268
+@@ -439,8 +440,8 @@
+ "<guilabel>Label font size:</guilabel> Enter the size of the text displayed "
+ "in the applet."
+ msgstr ""
+-"<guilabel>Typsnittsstorlek:</guilabel> Ange storleken för texten som visas i "
+-"miniprogrammet."
++"<guilabel>Teckenstorlek för etiketten:</guilabel> Ange storleken på texten "
++"som visas i miniprogrammet."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:271
+@@ -449,10 +450,9 @@
+ "then the applet will show the sum of the in and out rate. The applet will "
+ "take only half of the space in the panel in this case."
+ msgstr ""
+-"<guilabel>Visa summan istället för in och ut:</guilabel> Om du kryssar i den "
+-"här rutan kommer miniprogrammet att visa summan för in och ut. "
+-"Miniprogrammet kommer i det här fallet att endast ta halva utrymmet i "
+-"panelen."
++"<guilabel>Visa summan i stället för in- och uttrafik:</guilabel> Markera "
++"rutan om miniprogrammet ska visa summan av inkommande och utgående trafik. "
++"Då tar miniprogrammet bara upp halva utrymmet på panelen."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:275
+@@ -460,9 +460,8 @@
+ "<guilabel>Show bits/s (b/s) instead of bytes/s (B/s):</guilabel> Check this "
+ "if you want the applet to display bits per second instead of bytes/s."
+ msgstr ""
+-"<guilabel>Visa bitar istället för byte:</guilabel> Kryssa för den här om du "
+-"vill att miniprogrammet ska visa bitar per sekund istället för byte per "
+-"sekund."
++"<guilabel>Visa bit/s (b/s) i stället för byte/s (B/s):</guilabel> Markera "
++"rutan om miniprogrammet ska visa bit per sekund i stället för byte/s."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:279
+@@ -474,12 +473,11 @@
+ "unchecked, the applet will always show the network card icon, no matter "
+ "which device you monitor."
+ msgstr ""
+-"<guilabel>Ändra ikon efter den valda enheten:</guilabel> Vanligtvis visar "
+-"miniprogrammet en ikon som representerar den typ av nätverksenhet som du "
+-"övervakar. Det kommer till exempel att visa en telefon för Punkt-till-punkt-"
+-"anslutningar (ppp - modem, etc.), ett nätverkskort för Ethernet (eth), etc. "
+-"När den här inte är kryssad kommer miniprogrammet alltid att visa ett "
+-"nätverkskort som ikon, oavsett vilken enhet du övervakar."
++"<guilabel>Ändra ikon efter vald enhet:</guilabel> Vanligtvis visar "
++"miniprogrammet en ikon för den typ av nätverksenhet som övervakas: en "
++"telefon för punkt-till-punkt-anslutningar (PPP-modem med mera) och ett "
++"nätverkskort för Ethernet (eth) och så vidare. Om rutan inte är markerad "
++"visas alltid nätverkskortets ikon, oavsett vilken enhet som övervakas."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:285
+@@ -488,15 +486,15 @@
+ "your connection is down, Netspeed Applet look for a running one for "
+ "monitoring."
+ msgstr ""
+-"<guilabel>Övervaka alltid en ansluten enhet, om möjligt:</guilabel> När din "
+-"anslutning är nere kommer miniprogrammet Näthastighet att leta efter en som "
+-"kör för att övervaka den."
++"<guilabel>Övervaka alltid en ansluten enhet, om möjligt:</guilabel> Om "
++"anslutningen bryts söker miniprogrammet Näthastighet efter en annan aktiv "
++"enhet att övervaka."
+ 
+ #. (itstool) path: sect1/title
+ #. (itstool) path: figure/title
+ #: C/index.docbook:291 C/index.docbook:293
+ msgid "The details dialog"
+-msgstr "Dialogrutan för detaljer"
++msgstr "Dialogrutan med information"
+ 
+ #. (itstool) path: imageobject/imagedata
+ #. This is a reference to an external file such as an image or video. When
+@@ -513,12 +511,13 @@
+ #. (itstool) path: screenshot/mediaobject
+ #: C/index.docbook:295
+ msgid ""
+-"<imageobject><imagedata fileref=\"figures/details.png\" format=\"PNG\"/> </"
+-"imageobject> <textobject> <phrase>The details dialog</phrase> </textobject>"
+-msgstr ""
+-"<imageobject><imagedata fileref=\"figures/details.png\" format=\"PNG\"/> </"
+-"imageobject> <textobject> <phrase>Dialogrutan för detaljer</phrase> </"
+-"textobject>"
++"<imageobject><imagedata fileref=\"figures/details.png\" format=\"PNG\"/> "
++"</imageobject> <textobject> <phrase>The details dialog</phrase> "
++"</textobject>"
++msgstr ""
++"<imageobject><imagedata fileref=\"figures/details.png\" format=\"PNG\"/> "
++"</imageobject> <textobject> <phrase>Dialogrutan för detaljer</phrase> "
++"</textobject>"
+ 
+ #. (itstool) path: sect1/para
+ #: C/index.docbook:304
+@@ -532,21 +531,22 @@
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:309
+ msgid ""
+-"<guilabel>Internet Address:</guilabel> The IP (Internet Protocol) address of "
+-"the network device."
+-msgstr ""
+-"<guilabel>Internetadress:</guilabel> IP-adressen (Internet Protocol) för "
+-"nätverksenheten."
++"<guilabel>Internet Address:</guilabel> The IP (Internet Protocol) address of"
++" the network device."
++msgstr ""
++"<guilabel>Internetadress:</guilabel> Nätverksenhetens IP-adress (Internet "
++"Protocol)."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:312
+ msgid ""
+ "<guilabel>Netmask:</guilabel> The netmask which depends on the size of your "
+-"LAN (Local Area Network). A usual value is 255.255.255.0 (a class C network)."
+-msgstr ""
+-"<guilabel>Nätmask:</guilabel> Nätmasken som beror på storleken av ditt LAN "
+-"(Local Area Network). Ett normalt värde är 255.255.255.0 (ett klass C-"
+-"nätverk)."
++"LAN (Local Area Network). A usual value is 255.255.255.0 (a class C "
++"network)."
++msgstr ""
++"<guilabel>Nätmask:</guilabel> Nätmasken beror på det lokala nätverkets (LAN,"
++" Local Area Network) storlek. Ett vanligt värde är 255.255.255.0 (ett "
++"nätverk av klass C)."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:316
+@@ -555,9 +555,9 @@
+ "physical or MAC (Media Access Control) address. A worldwide unique "
+ "identifier for your network card."
+ msgstr ""
+-"<guilabel>Hårdvaruadress:</guilabel> Refereras ofta till som den fysiska "
+-"eller MAC-adressen (Media Access Control). En världsunik identifierare för "
+-"ditt nätverkskort."
++"<guilabel>Hårdvaruadress:</guilabel> Kallas även fysisk adress eller MAC-"
++"adress (Media Access Control). Det är en globalt unik identifierare för "
++"nätverkskortet."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:320
+@@ -565,8 +565,8 @@
+ "<guilabel>P-t-P Address:</guilabel> The internet address of the \"other "
+ "side\" of your PPP (Point to Point Protocol) connection."
+ msgstr ""
+-"<guilabel>P-t-P-adress:</guilabel> Internetadressen för \"den andra sidan\" "
+-"av din PPP-anslutning (Point to Point Protocol)."
++"<guilabel>P-t-P-adress:</guilabel> Internetadressen till den andra änden av "
++"PPP-anslutningen (Point to Point Protocol)."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:324
+@@ -574,8 +574,8 @@
+ "<guilabel>Bytes in:</guilabel> The amount of bytes that the network device "
+ "has received since it has been connected to the network."
+ msgstr ""
+-"<guilabel>Byte in:</guilabel> Mängden byte som nätverksenheten har tagit "
+-"emot sedan den blev ansluten till nätverket."
++"<guilabel>Inkommande byte:</guilabel> Antalet byte som nätverksenheten har "
++"tagit emot sedan den anslöts till nätverket."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:328
+@@ -583,8 +583,8 @@
+ "<guilabel>Bytes out:</guilabel> The amout of bytes that the network device "
+ "has sent since it has been connected to the network."
+ msgstr ""
+-"<guilabel>Byte ut:</guilabel> Mängden byte som nätverksenheten har skickat "
+-"sedan den blev ansluten till nätverket."
++"<guilabel>Utgående byte:</guilabel> Antalet byte som nätverksenheten har "
++"skickat sedan den anslöts till nätverket."
+ 
+ #. (itstool) path: para/ulink
+ #: C/legal.xml:9
+@@ -597,8 +597,8 @@
+ "Permission is granted to copy, distribute and/or modify this document under "
+ "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+ "later version published by the Free Software Foundation with no Invariant "
+-"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+-"of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
++"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy"
++" of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
+ "with this manual."
+ msgstr ""
+ "Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges "
+@@ -612,8 +612,8 @@
+ msgid ""
+ "This manual is part of a collection of GNOME manuals distributed under the "
+ "GFDL. If you want to distribute this manual separately from the collection, "
+-"you can do so by adding a copy of the license to the manual, as described in "
+-"section 6 of the license."
++"you can do so by adding a copy of the license to the manual, as described in"
++" section 6 of the license."
+ msgstr ""
+ "Denna handbok utgör en av flera GNOME-handböcker som distribueras under "
+ "villkoren i GFDL. Om du vill distribuera denna handbok separat från övriga "
+@@ -629,10 +629,10 @@
+ "aware of those trademarks, then the names are in capital letters or initial "
+ "capital letters."
+ msgstr ""
+-"Många av namnen som används av företag för att särskilja deras produkter och "
+-"tjänster är registrerade varumärken. I de fall dessa namn förekommer i GNOME-"
+-"dokumentation - och medlemmarna i GNOME-dokumentationsprojektet är medvetna "
+-"om dessa varumärken - är de skrivna med versaler eller med inledande versal."
++"Företag hävdar varumärkesrätt till många namn som används för att skilja "
++"deras produkter och tjänster åt. När sådana namn förekommer i GNOME-"
++"dokumentation och medlemmarna i GNOME:s dokumentationsprojekt känner till "
++"varumärkesrätten skrivs namnen med versaler eller inledande versal."
+ 
+ # TODO: "DEFECTS, MERCHANTABLE"?
+ #. (itstool) path: listitem/para
+@@ -653,14 +653,14 @@
+ "DOKUMENTET TILLHANDAHÅLLS I \"BEFINTLIGT SKICK\" UTAN NÅGRA SOM HELST "
+ "GARANTIER, VARE SIG UTTRYCKLIGA ELLER UNDERFÖRSTÅDDA, INKLUSIVE, MEN INTE "
+ "BEGRÄNSAT TILL, GARANTIER ATT DOKUMENTET ELLER EN MODIFIERAD VERSION AV "
+-"DOKUMENTET INTE INNEHÅLLER NÅGRA FELAKTIGHETER, ÄR SÄLJBART, ÄR LÄMPLIGT FÖR "
+-"ETT VISST ÄNDAMÅL ELLER INTE STRIDER MOT LAG. HELA RISKEN VAD GÄLLER "
++"DOKUMENTET INTE INNEHÅLLER NÅGRA FELAKTIGHETER, ÄR SÄLJBART, ÄR LÄMPLIGT FÖR"
++" ETT VISST ÄNDAMÅL ELLER INTE STRIDER MOT LAG. HELA RISKEN VAD GÄLLER "
+ "KVALITET, EXAKTHET OCH UTFÖRANDE AV DOKUMENTET OCH MODIFIERADE VERSIONER AV "
+ "DOKUMENTET LIGGER HELT OCH HÅLLET PÅ ANVÄNDAREN. OM ETT DOKUMENT ELLER EN "
+-"MODIFIERAD VERSION AV ETT DOKUMENT SKULLE VISA SIG INNEHÅLLA FELAKTIGHETER I "
+-"NÅGOT HÄNSEENDE ÄR DET DU (INTE DEN URSPRUNGLIGA SKRIBENTEN, FÖRFATTAREN "
+-"ELLER NÅGON ANNAN MEDARBETARE) SOM FÅR STÅ FÖR ALLA EVENTUELLA KOSTNADER FÖR "
+-"SERVICE, REPARATIONER ELLER KORRIGERINGAR. DENNA GARANTIFRISKRIVNING UTGÖR "
++"MODIFIERAD VERSION AV ETT DOKUMENT SKULLE VISA SIG INNEHÅLLA FELAKTIGHETER I"
++" NÅGOT HÄNSEENDE ÄR DET DU (INTE DEN URSPRUNGLIGA SKRIBENTEN, FÖRFATTAREN "
++"ELLER NÅGON ANNAN MEDARBETARE) SOM FÅR STÅ FÖR ALLA EVENTUELLA KOSTNADER FÖR"
++" SERVICE, REPARATIONER ELLER KORRIGERINGAR. DENNA GARANTIFRISKRIVNING UTGÖR "
+ "EN VÄSENTLIG DEL AV DETTA LICENSAVTAL. DETTA INNEBÄR ATT ALL ANVÄNDNING AV "
+ "ETT DOKUMENT ELLER EN MODIFIERAD VERSION AV ETT DOKUMENT BEVILJAS ENDAST "
+ "UNDER DENNA ANSVARSFRISKRIVNING;"
+@@ -668,29 +668,29 @@
+ #. (itstool) path: listitem/para
+ #: C/legal.xml:55
+ msgid ""
+-"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+-"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
++"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING"
++" NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+ "CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+ "DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+ "FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+ "ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+-"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+-"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+-"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+-"POSSIBILITY OF SUCH DAMAGES."
++"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES"
++" OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
++"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
++" POSSIBILITY OF SUCH DAMAGES."
+ msgstr ""
+ "UNDER INGA OMSTÄNDIGHETER ELLER INOM RAMEN FÖR NÅGON LAGSTIFTNING, OAVSETT "
+ "OM DET GÄLLER KRÄNKNING (INKLUSIVE VÅRDSLÖSHET), KONTRAKT ELLER DYLIKT, SKA "
+ "FÖRFATTAREN, DEN URSPRUNGLIGA SKRIBENTEN ELLER ANNAN MEDARBETARE ELLER "
+ "ÅTERFÖRSÄLJARE AV DOKUMENTET ELLER AV EN MODIFIERAD VERSION AV DOKUMENTET "
+-"ELLER NÅGON LEVERANTÖR TILL NÅGON AV NÄMNDA PARTER STÄLLAS ANSVARIG GENTEMOT "
+-"NÅGON FÖR NÅGRA DIREKTA, INDIREKTA, SÄRSKILDA ELLER OFÖRUTSEDDA SKADOR ELLER "
+-"FÖLJDSKADOR AV NÅGOT SLAG, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, SKADOR "
++"ELLER NÅGON LEVERANTÖR TILL NÅGON AV NÄMNDA PARTER STÄLLAS ANSVARIG GENTEMOT"
++" NÅGON FÖR NÅGRA DIREKTA, INDIREKTA, SÄRSKILDA ELLER OFÖRUTSEDDA SKADOR "
++"ELLER FÖLJDSKADOR AV NÅGOT SLAG, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, SKADOR "
+ "BETRÄFFANDE FÖRLORAD GOODWILL, HINDER I ARBETET, DATORHAVERI ELLER NÅGRA "
+ "ANDRA TÄNKBARA SKADOR ELLER FÖRLUSTER SOM KAN UPPKOMMA PÅ GRUND AV ELLER "
+ "RELATERAT TILL ANVÄNDNINGEN AV DOKUMENTET ELLER MODIFIERADE VERSIONER AV "
+-"DOKUMENTET, ÄVEN OM PART SKA HA BLIVIT INFORMERAD OM MÖJLIGHETEN TILL SÅDANA "
+-"SKADOR."
++"DOKUMENTET, ÄVEN OM PART SKA HA BLIVIT INFORMERAD OM MÖJLIGHETEN TILL SÅDANA"
++" SKADOR."
+ 
+ #. (itstool) path: legalnotice/para
+ #: C/legal.xml:28
+@@ -704,20 +704,19 @@
+ "FÖRUTSÄTTNINGAR: <_:orderedlist-1/>"
+ 
+ #~ msgid ""
+-#~ "Permission is granted to copy, distribute and/or modify this document "
+-#~ "under the terms of the GNU Free Documentation License (GFDL), Version 1.1 "
+-#~ "or any later version published by the Free Software Foundation with no "
+-#~ "Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You "
+-#~ "can find a copy of the GFDL at this <ulink type=\"help\" "
+-#~ "url=\"ghelp:fdl\">link</ulink> or in the file COPYING-DOCS distributed "
+-#~ "with this manual."
++#~ "Permission is granted to copy, distribute and/or modify this document under "
++#~ "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
++#~ "later version published by the Free Software Foundation with no Invariant "
++#~ "Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy"
++#~ " of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
++#~ "in the file COPYING-DOCS distributed with this manual."
+ #~ msgstr ""
+ #~ "Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges "
+-#~ "under villkoren i GNU Free Documentation License (GFDL), version 1.1 "
+-#~ "eller senare, utgivet av Free Software Foundation utan standardavsnitt "
+-#~ "och omslagstexter. En kopia av GFDL finns att hämta på denna <ulink "
+-#~ "type=\"help\" url=\"ghelp:fdl\">länk</ulink> eller i filen COPYING-DOCS "
+-#~ "som medföljer denna handbok."
++#~ "under villkoren i GNU Free Documentation License (GFDL), version 1.1 eller "
++#~ "senare, utgivet av Free Software Foundation utan standardavsnitt och "
++#~ "omslagstexter. En kopia av GFDL finns att hämta på denna <ulink "
++#~ "type=\"help\" url=\"ghelp:fdl\">länk</ulink> eller i filen COPYING-DOCS som "
++#~ "medföljer denna handbok."
+ 
+ #~ msgid "2002"
+ #~ msgstr "2002"
