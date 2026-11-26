@@ -1,35 +1,101 @@
 --- libsoup.master.sv.original.po
 +++ libsoup.master.sv.reviewed.po
-@@ -11,8 +11,8 @@
+@@ -11,9 +11,9 @@
  "Project-Id-Version: libsoup\n"
  "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libsoup/issues/\n"
  "POT-Creation-Date: 2026-10-25 16:34+0000\n"
 -"PO-Revision-Date: 2021-06-12 14:24+0200\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-23 00:00+0100\n"
+-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"PO-Revision-Date: 2026-11-26 17:00+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
- "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"Language-Team: Swedish <gnome@danielnylander.se>\n"
  "Language: sv\n"
  "MIME-Version: 1.0\n"
-@@ -45,14 +45,14 @@
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -26,7 +26,7 @@
+ 
+ #: libsoup/cache/soup-cache-input-stream.c:252
+ msgid "Failed to completely cache the resource"
+-msgstr "Misslyckades med att helt mellanlagra resursen"
++msgstr "Det gick inte att cachelagra hela resursen"
+ 
+ #: libsoup/content-decoder/soup-converter-wrapper.c:197
+ #, c-format
+@@ -45,18 +45,17 @@
  
  #: libsoup/http1/soup-body-input-stream.c:220
  #: libsoup/http1/soup-body-input-stream.c:230
 -#, fuzzy
-+#
  #| msgid "Invalid hostname"
  msgid "Invalid chunk size"
 -msgstr "Ogiltigt värdnamn"
-+msgstr "Ogiltig chunkstorlek"
++msgstr "Ogiltig blockstorlek"
  
  #: libsoup/http1/soup-body-input-stream.c:239
  msgid "Too large chunk"
 -msgstr ""
-+msgstr "För stor chunk"
++msgstr "Datablocket är för stort"
  
  #: libsoup/http1/soup-body-input-stream.c:541
  msgid "Invalid seek request"
-@@ -149,7 +149,7 @@
+-msgstr "Ogiltig ”seek”-förfrågan"
++msgstr "Ogiltig begäran om positionering"
+ 
+ #: libsoup/http1/soup-body-input-stream.c:569
+ msgid "Cannot truncate SoupBodyInputStream"
+@@ -76,7 +75,7 @@
+ 
+ #: libsoup/http1/soup-client-message-io-http1.c:484
+ msgid "Unrecognized HTTP response encoding"
+-msgstr "Okänd kodning på HTTP-svar"
++msgstr "Okänd teckenkodning i HTTP-svaret"
+ 
+ #: libsoup/http1/soup-client-message-io-http1.c:733
+ #: libsoup/http1/soup-client-message-io-http1.c:759
+@@ -88,15 +87,15 @@
+ #: libsoup/http1/soup-message-io-data.c:104
+ #: libsoup/soup-multipart-input-stream.c:415
+ msgid "Header too big"
+-msgstr "Huvudet är för stort"
++msgstr "HTTP-huvudet är för stort"
+ 
+ #: libsoup/server/soup-listener.c:265
+ msgid "Could not import existing socket: "
+-msgstr "Kan inte importera befintligt uttag (socket): "
++msgstr "Kan inte importera befintlig socket: "
+ 
+ #: libsoup/server/soup-listener.c:271
+ msgid "Can’t import unconnected socket"
+-msgstr "Kan inte importera ett icke anslutet uttag (socket)"
++msgstr "Kan inte importera en oansluten socket"
+ 
+ #: libsoup/server/soup-server.c:1238
+ msgid "Can’t create a TLS server without a TLS certificate"
+@@ -104,7 +103,7 @@
+ 
+ #: libsoup/soup-session.c:1132
+ msgid "Location header is missing or empty in response headers"
+-msgstr "Location-huvud saknas eller är tomt i svarshuvuden"
++msgstr "Location-huvudet saknas eller är tomt i svarshuvudena"
+ 
+ #: libsoup/soup-session.c:1146
+ #, c-format
+@@ -129,7 +128,7 @@
+ 
+ #: libsoup/soup-tld.c:129
+ msgid "No public-suffix list available."
+-msgstr "Ingen public-suffix-lista tillgänglig."
++msgstr "Ingen lista över publika suffix är tillgänglig."
+ 
+ #: libsoup/soup-tld.c:139 libsoup/soup-tld.c:155
+ msgid "Invalid hostname"
+@@ -145,17 +144,17 @@
+ 
+ #: libsoup/soup-tld.c:175
+ msgid "Not enough domains"
+-msgstr "Inte tillräckligt många domäner"
++msgstr "För få domäner"
  
  #: libsoup/websocket/soup-websocket-connection.c:760
  msgid "WebSocket message is too large to send"
@@ -38,3 +104,49 @@
  
  #: libsoup/websocket/soup-websocket.c:391
  #: libsoup/websocket/soup-websocket.c:435
+ #: libsoup/websocket/soup-websocket.c:451
+ msgid "Server requested unsupported extension"
+-msgstr "Servern begärde tillägg som ej stöds"
++msgstr "Servern begärde ett tillägg som inte stöds"
+ 
+ #: libsoup/websocket/soup-websocket.c:414
+ #: libsoup/websocket/soup-websocket.c:606
+@@ -184,11 +183,11 @@
+ #: libsoup/websocket/soup-websocket.c:569
+ #: libsoup/websocket/soup-websocket.c:579
+ msgid "WebSocket handshake expected"
+-msgstr "WebSocket-handskakning förväntad"
++msgstr "WebSocket-handskakning förväntades"
+ 
+ #: libsoup/websocket/soup-websocket.c:587
+ msgid "Unsupported WebSocket version"
+-msgstr "WebSocket-version stöds ej"
++msgstr "WebSocket-versionen stöds inte"
+ 
+ #: libsoup/websocket/soup-websocket.c:596
+ msgid "Invalid WebSocket key"
+@@ -196,20 +195,20 @@
+ 
+ #: libsoup/websocket/soup-websocket.c:615
+ msgid "Unsupported WebSocket subprotocol"
+-msgstr "WebSocket-underprotokoll stöds ej"
++msgstr "WebSocket-underprotokollet stöds inte"
+ 
+ #: libsoup/websocket/soup-websocket.c:821
+ msgid "Server rejected WebSocket handshake"
+-msgstr "Servern avböjde WebSocket-handskakning"
++msgstr "Servern avvisade WebSocket-handskakningen"
+ 
+ #: libsoup/websocket/soup-websocket.c:829
+ #: libsoup/websocket/soup-websocket.c:838
+ msgid "Server ignored WebSocket handshake"
+-msgstr "Servern ignorerade WebSocket-handskakning"
++msgstr "Servern ignorerade WebSocket-handskakningen"
+ 
+ #: libsoup/websocket/soup-websocket.c:850
+ msgid "Server requested unsupported protocol"
+-msgstr "Servern begärde protokoll som ej stöds"
++msgstr "Servern begärde ett protokoll som inte stöds"
+ 
+ #, c-format
+ #~ msgid "Could not listen on address %s, port %d: "

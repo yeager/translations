@@ -663,3 +663,16 @@ argumentet betyder i just det programmet.
 | keyring | nyckelring | Hemlighetshanterare. |
 | old password | gammalt lösenord | Skilj från det nya lösenordet vid lösenordsbyte. |
 | keyring password | lösenord för nyckelringen | |
+
+
+## libsoup
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| cache a resource | cachelagra en resurs | Verbform i felmeddelanden. |
+| chunk (HTTP) | datablock | För block i chunked transfer encoding. |
+| seek request | positioneringsbegäran | Flytta läs-/skrivposition i en ström. |
+| public suffix list | lista över publika suffix | Domänterminologi. |
+| socket | socket | Etablerad nätverksterm; använd utan parentetisk engelsk förklaring. |
+| HTTP header | HTTP-huvud | Skilj från sid-/dokumentrubrik. |
+| WebSocket handshake | WebSocket-handskakning | |
