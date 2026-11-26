@@ -32,6 +32,7 @@ listan är stöd, inte en ursäkt för mekanisk ersättning.
 | Back / Forward | Bakåt / Framåt | |
 | Enable / Disable | Aktivera / Inaktivera | |
 | Default | Standard | |
+| privacy | integritet | I sammanhang som gäller personlig information och integritetsskydd. |
 
 ## Filer, mappar och data
 
@@ -63,6 +64,14 @@ listan är stöd, inte en ursäkt för mekanisk ersättning.
 | task list | uppgiftslista | |
 | due date | förfallodatum | Undvik *slutdatum* när det gäller när en uppgift ska vara klar. |
 | provider (task list) | leverantör | Tjänsten som tillhandahåller uppgiftslistan. |
+
+## GNOME-webbplatsen
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| GNOME Handbook | GNOME-handboken | Översätt sidnamnet; behåll GNOME. |
+| Latest Release | senaste utgåvan | Gemener när frasen följer efter en inledande textdel. |
+| open source | öppen källkod | Sammansättning: *ekosystem för öppen källkod*. |
 
 ## System och teknik
 
