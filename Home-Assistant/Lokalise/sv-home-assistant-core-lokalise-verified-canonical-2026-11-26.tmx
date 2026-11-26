@@ -14318,7 +14318,7 @@ För att lösa problemet tar du bort de numera obrukbara integrationsposterna fr
       <tuv xml:lang="en">
         <seg>To be able to query the API an 'auth token' is required which can be obtained by following [these instructions]({auth_token_url})
 
-Selected device: **{device_type}** 
+Selected device: **{device_type}**
 
 If you prefer to use the built-in webhook method (Airlock only) please check the box below and leave 'Auth token' blank</seg>
       </tuv>
@@ -38527,7 +38527,7 @@ Uppdatera ovanstående automatiseringar eller skript så de använder den nya va
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::payload_off</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The payload that represents the "off" state.</seg>
       </tuv>
@@ -38539,7 +38539,7 @@ Uppdatera ovanstående automatiseringar eller skript så de använder den nya va
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::payload_on</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The payload that represents the "on" state.</seg>
       </tuv>
@@ -55210,30 +55210,26 @@ Välj **Skicka** för att ta bort biblioteket och dess enhet från Home Assistan
     </tu>
     <tu tuid="lokalise:8878611014">
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data::min_kelvin</prop>
-      <prop type="lokalise-key-id">875368051</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; active current-source MQTT key audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Min Kelvin</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Minsta kelvin</seg>
+        <seg>Min. färgtemperatur</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8878610950">
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data::max_kelvin</prop>
-      <prop type="lokalise-key-id">875368050</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; active current-source MQTT key audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Max Kelvin</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Högsta kelvin</seg>
+        <seg>Max. färgtemperatur</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8496521491">
@@ -147576,16 +147572,14 @@ För att åtgärda detta problem öppnar du varje berörd automatisering och/ell
     </tu>
     <tu tuid="lokalise:8878611654">
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::transition</prop>
-      <prop type="lokalise-key-id">875368061</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; active current-source MQTT key audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Enable the transition feature for this light</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Aktivera funktionen för övergångstid för den här ljuskällan</seg>
+        <seg>Stöd för mjuka övergångar</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8878611590">
@@ -147604,72 +147598,62 @@ För att åtgärda detta problem öppnar du varje berörd automatisering och/ell
     </tu>
     <tu tuid="lokalise:8878611526">
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::min_kelvin</prop>
-      <prop type="lokalise-key-id">875368059</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; active current-source MQTT key audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The minimum color temperature in Kelvin.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Den lägsta färgtemperaturen i Kelvin.</seg>
+        <seg>Min. färgtemperatur</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8878611462">
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::max_kelvin</prop>
-      <prop type="lokalise-key-id">875368058</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; active current-source MQTT key audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The maximum color temperature in Kelvin.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Den högsta färgtemperaturen i Kelvin.</seg>
+        <seg>Max. färgtemperatur</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8878611398">
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::flash_time_short</prop>
-      <prop type="lokalise-key-id">875368057</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; active current-source MQTT key audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The duration, in seconds, of a "short" flash.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Varaktigheten, i sekunder, för en "kort" blixt.</seg>
+        <seg>Kort blinktid</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8878611334">
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::flash_time_long</prop>
-      <prop type="lokalise-key-id">875368056</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; active current-source MQTT key audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The duration, in seconds, of a "long" flash.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Varaktigheten, i sekunder, för en "lång" blixt.</seg>
+        <seg>Lång blinktid</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8878611270">
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::flash</prop>
-      <prop type="lokalise-key-id">875368055</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; active current-source MQTT key audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Enable the flash feature for this light</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Aktivera blixtfunktionen för den här ljuskällan</seg>
+        <seg>Stöd för blinkning</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8878611206">
@@ -147688,16 +147672,14 @@ För att åtgärda detta problem öppnar du varje berörd automatisering och/ell
     </tu>
     <tu tuid="lokalise:8878611142">
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data::transition</prop>
-      <prop type="lokalise-key-id">875368053</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; active current-source MQTT key audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Transition support</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Stöd för övergångstid</seg>
+        <seg>Stöd för mjuka övergångar</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8878611078">
@@ -147716,44 +147698,38 @@ För att åtgärda detta problem öppnar du varje berörd automatisering och/ell
     </tu>
     <tu tuid="lokalise:8878610886">
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data::flash_time_short</prop>
-      <prop type="lokalise-key-id">875368049</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; active current-source MQTT key audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Flash time short</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Blixttid kort</seg>
+        <seg>Kort blinktid</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8878610822">
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data::flash_time_long</prop>
-      <prop type="lokalise-key-id">875368048</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; active current-source MQTT key audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Flash time long</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Blixttid lång</seg>
+        <seg>Lång blinktid</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8878610758">
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data::flash</prop>
-      <prop type="lokalise-key-id">875368047</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; active current-source MQTT key audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Flash support</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Stöd för blixtfunktion</seg>
+        <seg>Stöd för blinkning</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8878610694">
@@ -154672,7 +154648,7 @@ The sensor was used in the following automations or scripts:
 Update the above automations or scripts to use the replacement entity, then disable the deprecated sensor to have it removed after the next restart.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Sensorn {entity_name} (`{entity_id}`) är utfasad eftersom den har ersatts med `{replacement_entity_id}`. 
+        <seg>Sensorn {entity_name} (`{entity_id}`) är utfasad eftersom den har ersatts med `{replacement_entity_id}`.
 
 Sensorn användes i följande automatiseringar eller skript:
 {items}
@@ -154707,7 +154683,7 @@ Uppdatera ovanstående automatiseringar eller skript så att de använder ersät
 Update your dashboards, templates, automations and scripts to use the replacement entity, then disable the deprecated sensor to have it removed after the next restart.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Sensorn {entity_name} (`{entity_id}`) är utfasad eftersom den har ersatts med `{replacement_entity_id}`. 
+        <seg>Sensorn {entity_name} (`{entity_id}`) är utfasad eftersom den har ersatts med `{replacement_entity_id}`.
 
 Uppdatera dina instrumentpaneler, mallar, automatiseringar och skript så att de använder den ersättande enheten och inaktivera sedan den utfasade sensorn så att den tas bort efter nästa omstart.</seg>
       </tuv>
@@ -155229,7 +155205,7 @@ Uppdatera dina instrumentpaneler, mallar, automatiseringar och skript så att de
 Set up the integration through the UI to provide your credentials (your existing host `{host}` will need to be re-entered), then remove the `{domain}` entry from your `configuration.yaml` file and restart Home Assistant.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Konfigurationen av {integration_title} -integrationen via YAML är föråldrad. Integrationen kräver nu ett användarnamn och lösenord för att autentisera till din Internetbox, vilket inte kan överföras säkert från YAML. 
+        <seg>Konfigurationen av {integration_title} -integrationen via YAML är föråldrad. Integrationen kräver nu ett användarnamn och lösenord för att autentisera till din Internetbox, vilket inte kan överföras säkert från YAML.
 
 Konfigurera integrationen via användargränssnittet för att ange dina autentiseringsuppgifter (din befintliga värd `{host}` måste anges igen), ta sedan bort posten `{domain}` från din `configuration.yaml`-fil och starta om Home Assistant.</seg>
       </tuv>
@@ -158103,7 +158079,7 @@ Konfigurera integrationen via användargränssnittet för att ange dina autentis
 Make sure your broker supports protocol version 5. Update your MQTT broker's connection settings, and restart Home Assistant to fix this issue.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Den automatiska migreringen till MQTT-protokollversion 5 misslyckades. Den för närvarande konfigurerade protokollversionen för MQTT-mäklaren {broker} är {protocol}, men den här protokollversionen är föråldrad och stödet för den kommer att tas bort. 
+        <seg>Den automatiska migreringen till MQTT-protokollversion 5 misslyckades. Den för närvarande konfigurerade protokollversionen för MQTT-mäklaren {broker} är {protocol}, men den här protokollversionen är föråldrad och stödet för den kommer att tas bort.
 
 Kontrollera att din mäklare stöder protokollversion 5. Uppdatera anslutningsinställningarna för din MQTT-mäklare och starta om Home Assistant för att åtgärda problemet.</seg>
       </tuv>
@@ -159327,9 +159303,9 @@ Disabling multiprotocol support will disable Thread support provided by the {har
 It will take a few minutes to install the Zigbee firmware and restore a backup.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Multiprotokollstödet för IEEE 802.15.4-radion i din {hardware_name} har tagits bort. Migrera radion tillbaka till enbart Zigbee-firmware för att den ska fungera i framtiden. 
+        <seg>Multiprotokollstödet för IEEE 802.15.4-radion i din {hardware_name} har tagits bort. Migrera radion tillbaka till enbart Zigbee-firmware för att den ska fungera i framtiden.
 
-Om du inaktiverar multiprotokollstödet inaktiveras Thread-stödet som tillhandahålls av {hardware_name}. Dina Thread-enheter fortsätter att fungera endast om du har en annan Thread border-router i närheten. 
+Om du inaktiverar multiprotokollstödet inaktiveras Thread-stödet som tillhandahålls av {hardware_name}. Dina Thread-enheter fortsätter att fungera endast om du har en annan Thread border-router i närheten.
 
 Det tar några minuter att installera Zigbee-firmware och återställa en säkerhetskopia.</seg>
       </tuv>
@@ -159573,9 +159549,9 @@ Disabling multiprotocol support will disable Thread support provided by the {har
 It will take a few minutes to install the Zigbee firmware and restore a backup.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Multiprotokollstödet för IEEE 802.15.4-radion i din {hardware_name} har tagits bort. Migrera radion tillbaka till enbart Zigbee-firmware för att den ska fungera i framtiden. 
+        <seg>Multiprotokollstödet för IEEE 802.15.4-radion i din {hardware_name} har tagits bort. Migrera radion tillbaka till enbart Zigbee-firmware för att den ska fungera i framtiden.
 
-Om du inaktiverar multiprotokollstödet inaktiveras Thread-stödet som tillhandahålls av {hardware_name}. Dina Thread-enheter fortsätter att fungera endast om du har en annan Thread border-router i närheten. 
+Om du inaktiverar multiprotokollstödet inaktiveras Thread-stödet som tillhandahålls av {hardware_name}. Dina Thread-enheter fortsätter att fungera endast om du har en annan Thread border-router i närheten.
 
 Det tar några minuter att installera Zigbee-firmware och återställa en säkerhetskopia.</seg>
       </tuv>
@@ -159817,7 +159793,7 @@ Det tar några minuter att installera Zigbee-firmware och återställa en säker
 To fix this, reconfigure the scanner to use a different zone or recreate the missing zone.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Skannerenheten `{entity_id}` är associerad med zonen `{zone}`, men den zonen har tagits bort. 
+        <seg>Skannerenheten `{entity_id}` är associerad med zonen `{zone}`, men den zonen har tagits bort.
 
 För att åtgärda detta, konfigurera om skannern så att den använder en annan zon eller återskapa den saknade zonen.</seg>
       </tuv>
@@ -170097,11 +170073,11 @@ To resolve this:
 2. Restart Home Assistant.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Det går inte att konfigurera {integration_domain} {platform_domain} genom att lägga till `{platform_key}` i {platform_domain} -konfigurationen. Mer information om hur du konfigurerar den här integrationen finns i dokumentationen. 
+        <seg>Det går inte att konfigurera {integration_domain} {platform_domain} genom att lägga till `{platform_key}` i {platform_domain} -konfigurationen. Mer information om hur du konfigurerar den här integrationen finns i dokumentationen.
 
-Så här löser du problemet: 
+Så här löser du problemet:
 
-1. Ta bort förekomster av `{platform_key}` från konfigurationen `{platform_domain}:` i din YAML-konfigurationsfil. 
+1. Ta bort förekomster av `{platform_key}` från konfigurationen `{platform_domain}:` i din YAML-konfigurationsfil.
 
 2. Starta om Home Assistant.</seg>
       </tuv>
@@ -170143,17 +170119,17 @@ To resolve this:
 To see the detailed documentation, select Learn more.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Det går inte att konfigurera {integration_domain} -integrationen genom att lägga till `{platform_key}` under nyckeln `{platform_domain}:`. Integrationen {integration_domain} måste istället konfigureras under sin egen nyckel `{integration_domain}:`. 
+        <seg>Det går inte att konfigurera {integration_domain} -integrationen genom att lägga till `{platform_key}` under nyckeln `{platform_domain}:`. Integrationen {integration_domain} måste istället konfigureras under sin egen nyckel `{integration_domain}:`.
 
-Så här löser du detta: 
+Så här löser du detta:
 
 1. Ta bort följande från din YAML-konfigurationsfil:
 
 {yaml_example}
 
-2. Flytta konfigurationen under nyckeln `{integration_domain}:` istället. 
+2. Flytta konfigurationen under nyckeln `{integration_domain}:` istället.
 
-3. Starta om Home Assistant. 
+3. Starta om Home Assistant.
 
 För att se den detaljerade dokumentationen, välj Läs mer.</seg>
       </tuv>
@@ -186782,12 +186758,12 @@ To see the detailed documentation, select Learn more.</seg>
       <prop type="status">verified-existing</prop>
       <prop type="verified-date">2026-11-24</prop>
       <tuv xml:lang="en">
-        <seg>MAC address does not match the configured device. Expected to connect to device with MAC: `{expected_mac}`, but connected to device with MAC: `{actual_mac}`. 
+        <seg>MAC address does not match the configured device. Expected to connect to device with MAC: `{expected_mac}`, but connected to device with MAC: `{actual_mac}`.
 
 Please ensure you reconfigure against the same device.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>MAC-adressen stämmer inte överens med den konfigurerade enheten. Förväntades ansluta till enhet med MAC: `{expected_mac}`, men anslöt till enhet med MAC: `{actual_mac}`. 
+        <seg>MAC-adressen stämmer inte överens med den konfigurerade enheten. Förväntades ansluta till enhet med MAC: `{expected_mac}`, men anslöt till enhet med MAC: `{actual_mac}`.
 
 Se till att du konfigurerar om mot samma enhet.</seg>
       </tuv>
@@ -336673,7 +336649,7 @@ Säkerhetskopian har sparats till ”{file_path}”
       <prop type="source">component::rehlko::entity::sensor::engine_speed::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Engine speed</seg>
       </tuv>
@@ -336685,7 +336661,7 @@ Säkerhetskopian har sparats till ”{file_path}”
       <prop type="source">component::rehlko::entity::sensor::generator_load::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Generator load</seg>
       </tuv>
@@ -336697,7 +336673,7 @@ Säkerhetskopian har sparats till ”{file_path}”
       <prop type="source">component::rehlko::entity::sensor::generator_load_percent::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Generator load percentage</seg>
       </tuv>
@@ -336709,7 +336685,7 @@ Säkerhetskopian har sparats till ”{file_path}”
       <prop type="source">component::rehlko::entity::sensor::generator_voltage_average::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Average generator voltage</seg>
       </tuv>
@@ -336721,7 +336697,7 @@ Säkerhetskopian har sparats till ”{file_path}”
       <prop type="source">component::rehlko::entity::sensor::lube_oil_temperature::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Lube oil temperature</seg>
       </tuv>
@@ -336733,7 +336709,7 @@ Säkerhetskopian har sparats till ”{file_path}”
       <prop type="source">component::rehlko::entity::sensor::runtime_since_last_maintenance::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Runtime since last maintenance</seg>
       </tuv>
@@ -336745,7 +336721,7 @@ Säkerhetskopian har sparats till ”{file_path}”
       <prop type="source">component::rehlko::entity::sensor::server_ip_address::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Server IP address</seg>
       </tuv>
@@ -336757,7 +336733,7 @@ Säkerhetskopian har sparats till ”{file_path}”
       <prop type="source">component::rehlko::entity::sensor::total_operation::name</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Total operation</seg>
       </tuv>
@@ -336769,7 +336745,7 @@ Säkerhetskopian har sparats till ”{file_path}”
       <prop type="source">component::rehlko::entity::sensor::total_runtime::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Total runtime</seg>
       </tuv>
@@ -336781,7 +336757,7 @@ Säkerhetskopian har sparats till ”{file_path}”
       <prop type="source">component::rehlko::entity::sensor::utility_voltage::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Utility voltage</seg>
       </tuv>
@@ -336793,7 +336769,7 @@ Säkerhetskopian har sparats till ”{file_path}”
       <prop type="source">component::rehlko::exceptions::cannot_connect::message</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Cannot connect to Rehlko servers.</seg>
       </tuv>
@@ -336805,7 +336781,7 @@ Säkerhetskopian har sparats till ”{file_path}”
       <prop type="source">component::rehlko::exceptions::invalid_auth::message</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Authentication failed for email {email}.</seg>
       </tuv>
@@ -336817,7 +336793,7 @@ Säkerhetskopian har sparats till ”{file_path}”
       <prop type="source">component::rehlko::exceptions::update_failed::message</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Updating data failed after retries.</seg>
       </tuv>
@@ -336829,7 +336805,7 @@ Säkerhetskopian har sparats till ”{file_path}”
       <prop type="source">component::oncue::issues::integration_removed::description</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The Oncue integration has been removed from Home Assistant.
 
@@ -336849,7 +336825,7 @@ Ta bort de inaktuella integrationsposterna från din Home Assistant-konfiguratio
       <prop type="source">component::oncue::issues::integration_removed::title</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The Oncue integration has been removed</seg>
       </tuv>
@@ -336861,7 +336837,7 @@ Ta bort de inaktuella integrationsposterna från din Home Assistant-konfiguratio
       <prop type="source">component::rehlko::entity::sensor::engine_state::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Engine state</seg>
       </tuv>
@@ -336873,7 +336849,7 @@ Ta bort de inaktuella integrationsposterna från din Home Assistant-konfiguratio
       <prop type="source">component::rehlko::entity::sensor::generator_status::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Generator status</seg>
       </tuv>
@@ -336885,7 +336861,7 @@ Ta bort de inaktuella integrationsposterna från din Home Assistant-konfiguratio
       <prop type="source">component::rehlko::entity::sensor::power_source::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Power source</seg>
       </tuv>
@@ -336897,7 +336873,7 @@ Ta bort de inaktuella integrationsposterna från din Home Assistant-konfiguratio
       <prop type="source">component::eheimdigital::entity::time::day_start_time::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Day start time</seg>
       </tuv>
@@ -336909,7 +336885,7 @@ Ta bort de inaktuella integrationsposterna från din Home Assistant-konfiguratio
       <prop type="source">component::eheimdigital::entity::time::night_start_time::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Night start time</seg>
       </tuv>
@@ -336921,7 +336897,7 @@ Ta bort de inaktuella integrationsposterna från din Home Assistant-konfiguratio
       <prop type="source">component::smartthings::entity::switch::sabbath_mode::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Sabbath mode</seg>
       </tuv>
@@ -336933,7 +336909,7 @@ Ta bort de inaktuella integrationsposterna från din Home Assistant-konfiguratio
       <prop type="source">component::shelly::issues::ble_scanner_firmware_unsupported::fix_flow::abort::cannot_connect</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Failed to connect</seg>
       </tuv>
@@ -336945,7 +336921,7 @@ Ta bort de inaktuella integrationsposterna från din Home Assistant-konfiguratio
       <prop type="source">component::shelly::issues::ble_scanner_firmware_unsupported::fix_flow::abort::update_not_available</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Device does not offer firmware update. Check internet connectivity (gateway, DNS, time) and restart the device.</seg>
       </tuv>
@@ -336957,7 +336933,7 @@ Ta bort de inaktuella integrationsposterna från din Home Assistant-konfiguratio
       <prop type="source">component::shelly::issues::ble_scanner_firmware_unsupported::fix_flow::step::confirm::description</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Your Shelly device {device_name} with IP address {ip_address} is running firmware {firmware} and acts as a BLE scanner in Active or Auto mode. This firmware version is not supported for these BLE scanner modes.
 
@@ -336973,7 +336949,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::shelly::issues::ble_scanner_firmware_unsupported::fix_flow::step::confirm::title</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>{device_name} is running unsupported firmware</seg>
       </tuv>
@@ -336985,7 +336961,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::shelly::issues::ble_scanner_firmware_unsupported::title</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>{device_name} is running unsupported firmware</seg>
       </tuv>
@@ -336997,7 +336973,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::error::invalid_supported_color_modes</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Invalid supported color modes selection</seg>
       </tuv>
@@ -337009,7 +336985,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::error::last_reset_not_with_state_class_total</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The last reset value template option should be used with state class 'Total' only</seg>
       </tuv>
@@ -337021,7 +336997,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::error::max_below_min_kelvin</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Max Kelvin value should be greater than min Kelvin value</seg>
       </tuv>
@@ -337033,7 +337009,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::entity_platform_config::data::schema</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Schema</seg>
       </tuv>
@@ -337045,7 +337021,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::entity_platform_config::data::suggested_display_precision</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Suggested display precision</seg>
       </tuv>
@@ -337057,7 +337033,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::entity_platform_config::data_description::schema</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The schema to use. [Learn more.]({url}#comparison-of-light-mqtt-schemas)</seg>
       </tuv>
@@ -337069,7 +337045,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::entity_platform_config::data_description::suggested_display_precision</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The number of decimals which should be used in the {platform} entity state after rounding. [Learn more.]({url}#suggested_display_precision)</seg>
       </tuv>
@@ -337081,7 +337057,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::blue_template</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Blue template</seg>
       </tuv>
@@ -337093,7 +337069,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::brightness_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Brightness template</seg>
       </tuv>
@@ -337105,7 +337081,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::color_temp_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Color temperature template</seg>
       </tuv>
@@ -337117,7 +337093,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::command_off_template</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Command "off" template</seg>
       </tuv>
@@ -337129,7 +337105,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::command_on_template</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Command "on" template</seg>
       </tuv>
@@ -337141,7 +337117,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::green_template</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Green template</seg>
       </tuv>
@@ -337153,7 +337129,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::on_command_type</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>ON command type</seg>
       </tuv>
@@ -337165,7 +337141,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::payload_off</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Payload "off"</seg>
       </tuv>
@@ -337177,7 +337153,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::payload_on</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Payload "on"</seg>
       </tuv>
@@ -337189,7 +337165,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::red_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Red template</seg>
       </tuv>
@@ -337201,7 +337177,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::state_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>State template</seg>
       </tuv>
@@ -337213,7 +337189,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::state_value_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>State value template</seg>
       </tuv>
@@ -337225,7 +337201,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::supported_color_modes</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Supported color modes</seg>
       </tuv>
@@ -337237,7 +337213,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::blue_template</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>[Template]({value_templating_url}) to extract blue color from the state payload value. Expected result of the template is an integer from 0-255 range.</seg>
       </tuv>
@@ -337249,7 +337225,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::brightness_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>[Template]({value_templating_url}) to extract brightness from the state payload value. Expected result of the template is an integer from 0-255 range.</seg>
       </tuv>
@@ -337261,7 +337237,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::color_temp_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>[Template]({value_templating_url}) to extract color temperature in Kelvin from the state payload value. Expected result of the template is an integer.</seg>
       </tuv>
@@ -337273,7 +337249,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::command_off_template</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The [template]({command_templating_url}) for "off" state changes. Available variables are: `state` and `transition`.</seg>
       </tuv>
@@ -337285,7 +337261,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::command_on_template</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The [template]({command_templating_url}) for "on" state changes. Available variables: `state`, `brightness`, `color_temp`, `red`, `green`, `blue`, `hue`, `sat`, `flash`, `transition` and `effect`. Values `red`, `green`, `blue` and `brightness` are provided as integers from range 0-255. Value of `hue` is provided as float from range 0-360. Value of `sat` is provided as float from range 0-100. Value of `color_temp` is provided as integer representing Kelvin units.</seg>
       </tuv>
@@ -337297,7 +337273,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::green_template</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>[Template]({value_templating_url}) to extract green color from the state payload value. Expected result of the template is an integer from 0-255 range.</seg>
       </tuv>
@@ -337309,7 +337285,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::on_command_type</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Defines when the payload "on" is sent. Using "Last" (the default) will send any style (brightness, color, etc) topics first and then a payload "on" to the command topic. Using "First" will send the payload "on" and then any style topics. Using "Brightness" will only send brightness commands instead of the payload "on" to turn the light on.</seg>
       </tuv>
@@ -337321,7 +337297,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::red_template</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>[Template]({value_templating_url}) to extract red color from the state payload value. Expected result of the template is an integer from 0-255 range.</seg>
       </tuv>
@@ -337333,7 +337309,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::state_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>[Template]({value_templating_url}) to extract state from the state payload value.</seg>
       </tuv>
@@ -337345,7 +337321,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::supported_color_modes</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>A list of color modes supported by the light. Possible color modes are On/Off, Brightness, Color temperature, HS, XY, RGB, RGBW, RGBWW, White. Note that if On/Off or Brightness are used, that must be the only value in the list. [Learn more.]({url}#supported_color_modes)</seg>
       </tuv>
@@ -337353,167 +337329,11 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
         <seg>En lista över de färglägen som ljuskällan stöder. Möjliga färglägen är På/Av, Ljusstyrka, Färgtemperatur, HS, XY, RGB, RGBW, RGBWW och Vitt. Om På/Av eller Ljusstyrka används måste det vara det enda värdet i listan. [Läs mer.]({url}#supported_color_modes)</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:5701396196">
-      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data::flash</prop>
-      <prop type="status">source-path-follow-up</prop>
-      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
-      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data::flash</prop>
-      <tuv xml:lang="en">
-        <seg>Flash support</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Stöd för blinkning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:5701396260">
-      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data::flash_time_long</prop>
-      <prop type="status">source-path-follow-up</prop>
-      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
-      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data::flash_time_long</prop>
-      <tuv xml:lang="en">
-        <seg>Flash time long</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Lång blinktid</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:5701396324">
-      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data::flash_time_short</prop>
-      <prop type="status">source-path-follow-up</prop>
-      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
-      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data::flash_time_short</prop>
-      <tuv xml:lang="en">
-        <seg>Flash time short</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Kort blinktid</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:5701396388">
-      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data::max_kelvin</prop>
-      <prop type="status">source-path-follow-up</prop>
-      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
-      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data::max_kelvin</prop>
-      <tuv xml:lang="en">
-        <seg>Max Kelvin</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Max. färgtemperatur</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:5701396452">
-      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data::min_kelvin</prop>
-      <prop type="status">source-path-follow-up</prop>
-      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
-      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data::min_kelvin</prop>
-      <tuv xml:lang="en">
-        <seg>Min Kelvin</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Min. färgtemperatur</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:5701396516">
-      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data::transition</prop>
-      <prop type="status">source-path-follow-up</prop>
-      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
-      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data::transition</prop>
-      <tuv xml:lang="en">
-        <seg>Transition support</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Stöd för mjuka övergångar</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:5701396580">
-      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::flash</prop>
-      <prop type="status">source-path-follow-up</prop>
-      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
-      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data_description::flash</prop>
-      <tuv xml:lang="en">
-        <seg>Enable the flash feature for this light</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Aktivera blinkfunktionen för den här ljuskällan.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:5701396644">
-      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::flash_time_long</prop>
-      <prop type="status">source-path-follow-up</prop>
-      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
-      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data_description::flash_time_long</prop>
-      <tuv xml:lang="en">
-        <seg>The duration, in seconds, of a "long" flash.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Varaktigheten i sekunder för en lång blinkning.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:5701396708">
-      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::flash_time_short</prop>
-      <prop type="status">source-path-follow-up</prop>
-      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
-      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data_description::flash_time_short</prop>
-      <tuv xml:lang="en">
-        <seg>The duration, in seconds, of a "short" flash.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Varaktigheten i sekunder för en kort blinkning.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:5701396772">
-      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::max_kelvin</prop>
-      <prop type="status">source-path-follow-up</prop>
-      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
-      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data_description::max_kelvin</prop>
-      <tuv xml:lang="en">
-        <seg>The maximum color temperature in Kelvin.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Den högsta färgtemperaturen, angiven i kelvin.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:5701396836">
-      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::min_kelvin</prop>
-      <prop type="status">source-path-follow-up</prop>
-      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
-      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data_description::min_kelvin</prop>
-      <tuv xml:lang="en">
-        <seg>The minimum color temperature in Kelvin.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Den lägsta färgtemperaturen, angiven i kelvin.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:5701396900">
-      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::transition</prop>
-      <prop type="status">source-path-follow-up</prop>
-      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
-      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data_description::transition</prop>
-      <tuv xml:lang="en">
-        <seg>Enable the transition feature for this light</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Aktivera stöd för mjuka övergångar för den här ljuskällan.</seg>
-      </tuv>
-    </tu>
     <tu tuid="lokalise:5701396964">
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data::brightness</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Separate brightness</seg>
       </tuv>
@@ -337525,7 +337345,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data::brightness_command_template</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Brightness command template</seg>
       </tuv>
@@ -337537,7 +337357,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data::brightness_command_topic</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Brightness command topic</seg>
       </tuv>
@@ -337549,7 +337369,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data::brightness_scale</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Brightness scale</seg>
       </tuv>
@@ -337561,7 +337381,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data::brightness_state_topic</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Brightness state topic</seg>
       </tuv>
@@ -337573,7 +337393,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data::brightness_value_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Brightness value template</seg>
       </tuv>
@@ -337585,7 +337405,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data_description::brightness</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Flag that defines if light supports brightness when the RGB, RGBW, or RGBWW color mode is supported.</seg>
       </tuv>
@@ -337597,7 +337417,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data_description::brightness_command_template</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>A [template]({command_templating_url}) to compose the payload to be published at the brightness command topic.</seg>
       </tuv>
@@ -337609,7 +337429,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data_description::brightness_command_topic</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The publishing topic that will be used to control the brightness. [Learn more.]({url}#brightness_command_topic)</seg>
       </tuv>
@@ -337621,7 +337441,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data_description::brightness_scale</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Defines the maximum brightness value (i.e., 100%) of the maximum brightness.</seg>
       </tuv>
@@ -337633,7 +337453,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data_description::brightness_state_topic</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The MQTT topic subscribed to receive brightness state values. [Learn more.]({url}#brightness_state_topic)</seg>
       </tuv>
@@ -337645,7 +337465,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data_description::brightness_value_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Defines a [template]({value_templating_url}) to extract the brightness value.</seg>
       </tuv>
@@ -337657,7 +337477,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Brightness settings</seg>
       </tuv>
@@ -337669,7 +337489,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_mode_settings::data::color_mode_state_topic</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Color mode state topic</seg>
       </tuv>
@@ -337681,7 +337501,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_mode_settings::data::color_mode_value_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Color mode value template</seg>
       </tuv>
@@ -337693,7 +337513,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_mode_settings::data_description::color_mode_state_topic</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The MQTT topic subscribed to receive color mode updates. If this is not configured, the color mode will be automatically set according to the last received valid color or color temperature.</seg>
       </tuv>
@@ -337705,7 +337525,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_mode_settings::data_description::color_mode_value_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Defines a [template]({value_templating_url}) to extract the color mode value.</seg>
       </tuv>
@@ -337717,7 +337537,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_mode_settings::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Color mode settings</seg>
       </tuv>
@@ -337729,7 +337549,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_temp_settings::data::color_temp_command_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Color temperature command template</seg>
       </tuv>
@@ -337741,7 +337561,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_temp_settings::data::color_temp_command_topic</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Color temperature command topic</seg>
       </tuv>
@@ -337753,7 +337573,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_temp_settings::data::color_temp_state_topic</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Color temperature state topic</seg>
       </tuv>
@@ -337765,7 +337585,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_temp_settings::data::color_temp_value_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Color temperature value template</seg>
       </tuv>
@@ -337777,7 +337597,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_temp_settings::data_description::color_temp_command_template</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>A [template]({command_templating_url}) to compose the payload to be published at the color temperature command topic.</seg>
       </tuv>
@@ -337789,7 +337609,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_temp_settings::data_description::color_temp_command_topic</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The publishing topic that will be used to control the color temperature. [Learn more.]({url}#color_temp_command_topic)</seg>
       </tuv>
@@ -337801,7 +337621,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_temp_settings::data_description::color_temp_state_topic</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The MQTT topic subscribed to receive color temperature state updates. [Learn more.]({url}#color_temp_state_topic)</seg>
       </tuv>
@@ -337813,7 +337633,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_temp_settings::data_description::color_temp_value_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Defines a [template]({value_templating_url}) to extract the color temperature value.</seg>
       </tuv>
@@ -337825,7 +337645,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_temp_settings::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Color temperature settings</seg>
       </tuv>
@@ -337837,7 +337657,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data::effect</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Effect</seg>
       </tuv>
@@ -337849,7 +337669,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data::effect_command_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Effect command template</seg>
       </tuv>
@@ -337861,7 +337681,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data::effect_command_topic</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Effect command topic</seg>
       </tuv>
@@ -337873,7 +337693,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data::effect_list</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Effect list</seg>
       </tuv>
@@ -337885,7 +337705,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data::effect_state_topic</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Effect state topic</seg>
       </tuv>
@@ -337897,7 +337717,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data::effect_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Effect template</seg>
       </tuv>
@@ -337909,7 +337729,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data::effect_value_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Effect value template</seg>
       </tuv>
@@ -337921,7 +337741,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data_description::effect</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Flag that defines if the light supports effects.</seg>
       </tuv>
@@ -337933,7 +337753,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data_description::effect_command_template</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>A [template]({command_templating_url}) to compose the payload to be published at the effect command topic.</seg>
       </tuv>
@@ -337945,7 +337765,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data_description::effect_command_topic</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The publishing topic that will be used to control the light's effect state. [Learn more.]({url}#effect_command_topic)</seg>
       </tuv>
@@ -337957,7 +337777,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data_description::effect_list</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The list of effects the light supports.</seg>
       </tuv>
@@ -337969,7 +337789,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data_description::effect_state_topic</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The MQTT topic subscribed to receive effect state updates. [Learn more.]({url}#effect_state_topic)</seg>
       </tuv>
@@ -337981,7 +337801,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Effect settings</seg>
       </tuv>
@@ -337993,7 +337813,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_hs_settings::data::hs_command_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>HS command template</seg>
       </tuv>
@@ -338005,7 +337825,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_hs_settings::data::hs_command_topic</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>HS command topic</seg>
       </tuv>
@@ -338017,7 +337837,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_hs_settings::data::hs_state_topic</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>HS state topic</seg>
       </tuv>
@@ -338029,7 +337849,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_hs_settings::data::hs_value_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>HS value template</seg>
       </tuv>
@@ -338041,7 +337861,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_hs_settings::data_description::hs_command_template</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Defines a [template]({command_templating_url}) to compose message which will be sent to HS command topic. Available variables: `hue` and `sat`.</seg>
       </tuv>
@@ -338053,7 +337873,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_hs_settings::data_description::hs_command_topic</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The MQTT topic to publish commands to change the light’s color state in HS format (Hue Saturation). Range for Hue: 0° .. 360°, Range of Saturation: 0..100. Note: Brightness is sent separately in the brightness command topic. [Learn more.]({url}#hs_command_topic)</seg>
       </tuv>
@@ -338065,7 +337885,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_hs_settings::data_description::hs_state_topic</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The MQTT topic subscribed to receive color state updates in HS format. The expected payload is the hue and saturation values separated by commas, for example, `359.5,100.0`. Note: Brightness is received separately in the brightness state topic. [Learn more.]({url}#hs_state_topic)</seg>
       </tuv>
@@ -338077,7 +337897,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_hs_settings::data_description::hs_value_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Defines a [template]({value_templating_url}) to extract the HS value.</seg>
       </tuv>
@@ -338089,7 +337909,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_hs_settings::name</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>HS color mode settings</seg>
       </tuv>
@@ -338101,7 +337921,7 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgb_settings::data::rgb_command_template</prop>
       <prop type="status">verified-existing</prop>
       <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
-      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="verification">Lokalise API exact readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>RGB command template</seg>
       </tuv>
@@ -338109,5 +337929,124 @@ Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste sta
         <seg>Mall för RGB-kommandon</seg>
       </tuv>
     </tu>
-  </body>
+
+<tu tuid="lokalise:5701400164"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgb_settings::data::rgb_command_topic</prop><prop type="lokalise-key-id">643014990</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>RGB command topic</seg></tuv><tuv xml:lang="sv"><seg>Ämne för RGB-kommandon</seg></tuv></tu>
+<tu tuid="lokalise:5701400228"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgb_settings::data::rgb_state_topic</prop><prop type="lokalise-key-id">643014991</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>RGB state topic</seg></tuv><tuv xml:lang="sv"><seg>Ämne för RGB-status</seg></tuv></tu>
+<tu tuid="lokalise:5701400292"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgb_settings::data::rgb_value_template</prop><prop type="lokalise-key-id">643014992</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>RGB value template</seg></tuv><tuv xml:lang="sv"><seg>Mall för RGB-värde</seg></tuv></tu>
+<tu tuid="lokalise:5701400356"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgb_settings::data_description::rgb_command_template</prop><prop type="lokalise-key-id">643014993</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Defines a [template]({command_templating_url}) to compose message which will be sent to RGB command topic. Available variables: `red`, `green` and `blue`.</seg></tuv><tuv xml:lang="sv"><seg>Definierar en [mall]({command_templating_url}) för att skapa ett meddelande som skickas till ämnet för RGB-kommandon. Tillgängliga variabler: `red`, `green` och `blue`.</seg></tuv></tu>
+<tu tuid="lokalise:5701400420"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgb_settings::data_description::rgb_command_topic</prop><prop type="lokalise-key-id">643014994</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>The MQTT topic to publish commands to change the light’s RGB state. [Learn more.]({url}#rgb_command_topic)</seg></tuv><tuv xml:lang="sv"><seg>MQTT-ämnet där kommandon publiceras för att ändra lampans RGB-status. [Läs mer.]({url}#rgb_command_topic)</seg></tuv></tu>
+<tu tuid="lokalise:5701400484"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgb_settings::data_description::rgb_state_topic</prop><prop type="lokalise-key-id">643014995</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>The MQTT topic subscribed to receive RGB state updates. The expected payload is the RGB values separated by commas, for example, `255,0,127`. [Learn more.]({url}#rgb_state_topic)</seg></tuv><tuv xml:lang="sv"><seg>MQTT-ämnet som prenumereras på för att ta emot uppdateringar av RGB-status. Den förväntade nyttolasten består av RGB-värden åtskilda med kommatecken, till exempel `255,0,127`. [Läs mer.]({url}#rgb_state_topic)</seg></tuv></tu>
+<tu tuid="lokalise:5701400548"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgb_settings::data_description::rgb_value_template</prop><prop type="lokalise-key-id">643014996</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Defines a [template]({value_templating_url}) to extract the RGB value.</seg></tuv><tuv xml:lang="sv"><seg>Definierar en [mall]({value_templating_url}) för att extrahera RGB-värdet.</seg></tuv></tu>
+<tu tuid="lokalise:5701400612"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgb_settings::name</prop><prop type="lokalise-key-id">643014997</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>RGB color mode settings</seg></tuv><tuv xml:lang="sv"><seg>Inställningar för RGB-färgläge</seg></tuv></tu>
+<tu tuid="lokalise:5701400676"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgbw_settings::data::rgbw_command_template</prop><prop type="lokalise-key-id">643014998</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>RGBW command template</seg></tuv><tuv xml:lang="sv"><seg>Mall för RGBW-kommandon</seg></tuv></tu>
+<tu tuid="lokalise:5701400740"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgbw_settings::data::rgbw_command_topic</prop><prop type="lokalise-key-id">643014999</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>RGBW command topic</seg></tuv><tuv xml:lang="sv"><seg>Ämne för RGBW-kommandon</seg></tuv></tu>
+<tu tuid="lokalise:5701400804"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgbw_settings::data::rgbw_state_topic</prop><prop type="lokalise-key-id">643015000</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>RGBW state topic</seg></tuv><tuv xml:lang="sv"><seg>Ämne för RGBW-status</seg></tuv></tu>
+<tu tuid="lokalise:5701400868"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgbw_settings::data::rgbw_value_template</prop><prop type="lokalise-key-id">643015001</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>RGBW value template</seg></tuv><tuv xml:lang="sv"><seg>Mall för RGBW-värde</seg></tuv></tu>
+<tu tuid="lokalise:5701400932"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgbw_settings::data_description::rgbw_command_template</prop><prop type="lokalise-key-id">643015002</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Defines a [template]({command_templating_url}) to compose message which will be sent to RGBW command topic. Available variables: `red`, `green`, `blue` and `white`.</seg></tuv><tuv xml:lang="sv"><seg>Definierar en [mall]({command_templating_url}) för att skapa ett meddelande som skickas till ämnet för RGBW-kommandon. Tillgängliga variabler: `red`, `green`, `blue` och `white`.</seg></tuv></tu>
+<tu tuid="lokalise:5701400996"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgbw_settings::data_description::rgbw_command_topic</prop><prop type="lokalise-key-id">643015003</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>The MQTT topic to publish commands to change the light’s RGBW state. [Learn more.]({url}#rgbw_command_topic)</seg></tuv><tuv xml:lang="sv"><seg>MQTT-ämnet där kommandon publiceras för att ändra lampans RGBW-status. [Läs mer.]({url}#rgbw_command_topic)</seg></tuv></tu>
+<tu tuid="lokalise:5701401060"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgbw_settings::data_description::rgbw_state_topic</prop><prop type="lokalise-key-id">643015004</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>The MQTT topic subscribed to receive RGBW state updates. The expected payload is the RGBW values separated by commas, for example, `255,0,127,64`. [Learn more.]({url}#rgbw_state_topic)</seg></tuv><tuv xml:lang="sv"><seg>MQTT-ämnet som prenumereras på för att ta emot uppdateringar av RGBW-status. Den förväntade nyttolasten består av RGBW-värden åtskilda med kommatecken, till exempel `255,0,127,64`. [Läs mer.]({url}#rgbw_state_topic)</seg></tuv></tu>
+<tu tuid="lokalise:5701401124"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgbw_settings::data_description::rgbw_value_template</prop><prop type="lokalise-key-id">643015005</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Defines a [template]({value_templating_url}) to extract the RGBW value.</seg></tuv><tuv xml:lang="sv"><seg>Definierar en [mall]({value_templating_url}) för att extrahera RGBW-värdet.</seg></tuv></tu>
+<tu tuid="lokalise:5701401188"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgbw_settings::name</prop><prop type="lokalise-key-id">643015006</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>RGBW color mode settings</seg></tuv><tuv xml:lang="sv"><seg>Inställningar för RGBW-färgläge</seg></tuv></tu>
+<tu tuid="lokalise:5701401252"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgbww_settings::data::rgbww_command_template</prop><prop type="lokalise-key-id">643015007</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>RGBWW command template</seg></tuv><tuv xml:lang="sv"><seg>Mall för RGBWW-kommandon</seg></tuv></tu>
+<tu tuid="lokalise:5701401316"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgbww_settings::data::rgbww_command_topic</prop><prop type="lokalise-key-id">643015008</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>RGBWW command topic</seg></tuv><tuv xml:lang="sv"><seg>Ämne för RGBWW-kommandon</seg></tuv></tu>
+<tu tuid="lokalise:5701401380"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgbww_settings::data::rgbww_state_topic</prop><prop type="lokalise-key-id">643015009</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>RGBWW state topic</seg></tuv><tuv xml:lang="sv"><seg>Ämne för RGBWW-status</seg></tuv></tu>
+<tu tuid="lokalise:5701401444"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgbww_settings::data::rgbww_value_template</prop><prop type="lokalise-key-id">643015010</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>RGBWW value template</seg></tuv><tuv xml:lang="sv"><seg>Mall för RGBWW-värde</seg></tuv></tu>
+<tu tuid="lokalise:5701401508"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgbww_settings::data_description::rgbww_command_template</prop><prop type="lokalise-key-id">643015011</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Defines a [template]({command_templating_url}) to compose message which will be sent to RGBWW command topic. Available variables: `red`, `green`, `blue`, `cold_white` and `warm_white`.</seg></tuv><tuv xml:lang="sv"><seg>Definierar en [mall]({command_templating_url}) för att skapa ett meddelande som skickas till ämnet för RGBWW-kommandon. Tillgängliga variabler: `red`, `green`, `blue`, `cold_white` och `warm_white`.</seg></tuv></tu>
+<tu tuid="lokalise:5701401572"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgbww_settings::data_description::rgbww_command_topic</prop><prop type="lokalise-key-id">643015012</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>The MQTT topic to publish commands to change the light’s RGBWW state. [Learn more.]({url}#rgbww_command_topic)</seg></tuv><tuv xml:lang="sv"><seg>MQTT-ämnet där kommandon publiceras för att ändra lampans RGBWW-status. [Läs mer.]({url}#rgbww_command_topic)</seg></tuv></tu>
+<tu tuid="lokalise:5701401636"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgbww_settings::data_description::rgbww_state_topic</prop><prop type="lokalise-key-id">643015013</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>The MQTT topic subscribed to receive RGBWW state updates. The expected payload is the RGBWW values separated by commas, for example, `255,0,127,64,32`. [Learn more.]({url}#rgbww_state_topic)</seg></tuv><tuv xml:lang="sv"><seg>MQTT-ämnet som prenumereras på för att ta emot uppdateringar av RGBWW-status. Den förväntade nyttolasten består av RGBWW-värden åtskilda med kommatecken, till exempel `255,0,127,64,32`. [Läs mer.]({url}#rgbww_state_topic)</seg></tuv></tu>
+<tu tuid="lokalise:5701401700"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgbww_settings::data_description::rgbww_value_template</prop><prop type="lokalise-key-id">643015014</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Defines a [template]({value_templating_url}) to extract the RGBWW value.</seg></tuv><tuv xml:lang="sv"><seg>Definierar en [mall]({value_templating_url}) för att extrahera RGBWW-värdet.</seg></tuv></tu>
+<tu tuid="lokalise:5701401764"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgbww_settings::name</prop><prop type="lokalise-key-id">643015015</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>RGBWW color mode settings</seg></tuv><tuv xml:lang="sv"><seg>Inställningar för RGBWW-färgläge</seg></tuv></tu>
+<tu tuid="lokalise:5701401828"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_white_settings::data::white_command_topic</prop><prop type="lokalise-key-id">643015016</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>White command topic</seg></tuv><tuv xml:lang="sv"><seg>Ämne för vitljuskommandon</seg></tuv></tu>
+<tu tuid="lokalise:5701401892"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_white_settings::data::white_scale</prop><prop type="lokalise-key-id">643015017</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>White scale</seg></tuv><tuv xml:lang="sv"><seg>Vitskala</seg></tuv></tu>
+<tu tuid="lokalise:5701401956"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_white_settings::data_description::white_command_topic</prop><prop type="lokalise-key-id">643015018</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>The MQTT topic to publish commands to change the light to white mode with a given brightness. [Learn more.]({url}#white_command_topic)</seg></tuv><tuv xml:lang="sv"><seg>MQTT-ämnet där kommandon publiceras för att ställa lampan i vitt läge med angiven ljusstyrka. [Läs mer.]({url}#white_command_topic)</seg></tuv></tu>
+<tu tuid="lokalise:5701402020"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_white_settings::data_description::white_scale</prop><prop type="lokalise-key-id">643015019</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Defines the maximum white level (i.e., 100%) of the maximum.</seg></tuv><tuv xml:lang="sv"><seg>Definierar den maximala vitnivån (dvs. 100 %) för maximalt värde.</seg></tuv></tu>
+<tu tuid="lokalise:5701402084"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_white_settings::name</prop><prop type="lokalise-key-id">643015020</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>White color mode settings</seg></tuv><tuv xml:lang="sv"><seg>Inställningar för vitt färgläge</seg></tuv></tu>
+<tu tuid="lokalise:5701402148"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_xy_settings::data::xy_command_template</prop><prop type="lokalise-key-id">643015021</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>XY command template</seg></tuv><tuv xml:lang="sv"><seg>Mall för XY-kommandon</seg></tuv></tu>
+<tu tuid="lokalise:5701402212"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_xy_settings::data::xy_command_topic</prop><prop type="lokalise-key-id">643015022</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>XY command topic</seg></tuv><tuv xml:lang="sv"><seg>Ämne för XY-kommandon</seg></tuv></tu>
+<tu tuid="lokalise:5701402276"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_xy_settings::data::xy_state_topic</prop><prop type="lokalise-key-id">643015023</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>XY state topic</seg></tuv><tuv xml:lang="sv"><seg>Ämne för XY-status</seg></tuv></tu>
+<tu tuid="lokalise:5701402340"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_xy_settings::data::xy_value_template</prop><prop type="lokalise-key-id">643015024</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>XY value template</seg></tuv><tuv xml:lang="sv"><seg>Mall för XY-värde</seg></tuv></tu>
+<tu tuid="lokalise:5701402404"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_xy_settings::data_description::xy_command_template</prop><prop type="lokalise-key-id">643015025</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Defines a [template]({command_templating_url}) to compose message which will be sent to XY command topic. Available variables: `x` and `y`.</seg></tuv><tuv xml:lang="sv"><seg>Definierar en [mall]({command_templating_url}) för att skapa ett meddelande som skickas till ämnet för XY-kommandon. Tillgängliga variabler: `x` och `y`.</seg></tuv></tu>
+<tu tuid="lokalise:5701402468"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_xy_settings::data_description::xy_command_topic</prop><prop type="lokalise-key-id">643015026</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>The MQTT topic to publish commands to change the light’s XY state. [Learn more.]({url}#xy_command_topic)</seg></tuv><tuv xml:lang="sv"><seg>MQTT-ämnet där kommandon publiceras för att ändra lampans XY-status. [Läs mer.]({url}#xy_command_topic)</seg></tuv></tu>
+<tu tuid="lokalise:5701402532"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_xy_settings::data_description::xy_state_topic</prop><prop type="lokalise-key-id">643015027</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>The MQTT topic subscribed to receive XY state updates. The expected payload is the X and Y color values separated by commas, for example, `0.675,0.322`. [Learn more.]({url}#xy_state_topic)</seg></tuv><tuv xml:lang="sv"><seg>MQTT-ämnet som prenumereras på för att ta emot uppdateringar av XY-status. Den förväntade nyttolasten består av X- och Y-färgvärden åtskilda med kommatecken, till exempel `0.675,0.322`. [Läs mer.]({url}#xy_state_topic)</seg></tuv></tu>
+<tu tuid="lokalise:5701402596"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_xy_settings::data_description::xy_value_template</prop><prop type="lokalise-key-id">643015028</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Defines a [template]({value_templating_url}) to extract the XY value.</seg></tuv><tuv xml:lang="sv"><seg>Definierar en [mall]({value_templating_url}) för att extrahera XY-värdet.</seg></tuv></tu>
+<tu tuid="lokalise:5701402660"><prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_xy_settings::name</prop><prop type="lokalise-key-id">643015029</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>XY color mode settings</seg></tuv><tuv xml:lang="sv"><seg>Inställningar för XY-färgläge</seg></tuv></tu>
+<tu tuid="lokalise:5701402724"><prop type="source">component::mqtt::selector::light_schema::options::basic</prop><prop type="lokalise-key-id">643015030</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Default schema</seg></tuv><tuv xml:lang="sv"><seg>Standardschema</seg></tuv></tu>
+<tu tuid="lokalise:5701402788"><prop type="source">component::mqtt::selector::light_schema::options::json</prop><prop type="lokalise-key-id">643015031</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>JSON</seg></tuv><tuv xml:lang="sv"><seg>JSON</seg></tuv></tu>
+<tu tuid="lokalise:5701402852"><prop type="source">component::mqtt::selector::light_schema::options::template</prop><prop type="lokalise-key-id">643015032</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Template</seg></tuv><tuv xml:lang="sv"><seg>Mall</seg></tuv></tu>
+<tu tuid="lokalise:5701402916"><prop type="source">component::mqtt::selector::on_command_type::options::brightness</prop><prop type="lokalise-key-id">643015033</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Brightness</seg></tuv><tuv xml:lang="sv"><seg>Ljusstyrka</seg></tuv></tu>
+<tu tuid="lokalise:5701402980"><prop type="source">component::mqtt::selector::on_command_type::options::first</prop><prop type="lokalise-key-id">643015034</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>First</seg></tuv><tuv xml:lang="sv"><seg>Först</seg></tuv></tu>
+<tu tuid="lokalise:5701403044"><prop type="source">component::mqtt::selector::on_command_type::options::last</prop><prop type="lokalise-key-id">643015035</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Last</seg></tuv><tuv xml:lang="sv"><seg>Sist</seg></tuv></tu>
+<tu tuid="lokalise:5701403108"><prop type="source">component::mqtt::selector::platform::options::light</prop><prop type="lokalise-key-id">643015036</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Light</seg></tuv><tuv xml:lang="sv"><seg>Lampa</seg></tuv></tu>
+<tu tuid="lokalise:5701403172"><prop type="source">component::mqtt::selector::supported_color_modes::options::brightness</prop><prop type="lokalise-key-id">643015037</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Brightness only</seg></tuv><tuv xml:lang="sv"><seg>Endast ljusstyrka</seg></tuv></tu>
+<tu tuid="lokalise:5701403236"><prop type="source">component::mqtt::selector::supported_color_modes::options::color_temp</prop><prop type="lokalise-key-id">643015038</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Color temperature</seg></tuv><tuv xml:lang="sv"><seg>Färgtemperatur</seg></tuv></tu>
+<tu tuid="lokalise:5701403300"><prop type="source">component::mqtt::selector::supported_color_modes::options::hs</prop><prop type="lokalise-key-id">643015039</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>HS</seg></tuv><tuv xml:lang="sv"><seg>HS</seg></tuv></tu>
+<tu tuid="lokalise:5701403364"><prop type="source">component::mqtt::selector::supported_color_modes::options::onoff</prop><prop type="lokalise-key-id">643015040</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>On/Off</seg></tuv><tuv xml:lang="sv"><seg>På/Av</seg></tuv></tu>
+<tu tuid="lokalise:5701403428"><prop type="source">component::mqtt::selector::supported_color_modes::options::rgb</prop><prop type="lokalise-key-id">643015041</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>RGB</seg></tuv><tuv xml:lang="sv"><seg>RGB</seg></tuv></tu>
+<tu tuid="lokalise:5701403492"><prop type="source">component::mqtt::selector::supported_color_modes::options::rgbw</prop><prop type="lokalise-key-id">643015042</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>RGBW</seg></tuv><tuv xml:lang="sv"><seg>RGBW</seg></tuv></tu>
+<tu tuid="lokalise:5701403556"><prop type="source">component::mqtt::selector::supported_color_modes::options::rgbww</prop><prop type="lokalise-key-id">643015043</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>RGBWW</seg></tuv><tuv xml:lang="sv"><seg>RGBWW</seg></tuv></tu>
+<tu tuid="lokalise:5701403620"><prop type="source">component::mqtt::selector::supported_color_modes::options::white</prop><prop type="lokalise-key-id">643015044</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>White</seg></tuv><tuv xml:lang="sv"><seg>Vitt</seg></tuv></tu>
+<tu tuid="lokalise:5701403684"><prop type="source">component::mqtt::selector::supported_color_modes::options::xy</prop><prop type="lokalise-key-id">643015045</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>XY</seg></tuv><tuv xml:lang="sv"><seg>XY</seg></tuv></tu>
+<tu tuid="lokalise:5701515352"><prop type="source">component::home_connect::config::abort::already_configured</prop><prop type="lokalise-key-id">643033421</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Account is already configured</seg></tuv><tuv xml:lang="sv"><seg>Kontot är redan konfigurerat</seg></tuv></tu>
+<tu tuid="lokalise:5701515416"><prop type="source">component::home_connect::config::abort::wrong_account</prop><prop type="lokalise-key-id">643033422</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Please ensure you reconfigure against the same account.</seg></tuv><tuv xml:lang="sv"><seg>Kontrollera att du konfigurerar om integrationen med samma konto.</seg></tuv></tu>
+<tu tuid="lokalise:5702039212"><prop type="source">component::fritzbox::entity::binary_sensor::holiday_active::name</prop><prop type="lokalise-key-id">643126655</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Holiday mode</seg></tuv><tuv xml:lang="sv"><seg>Semesterläge</seg></tuv></tu>
+<tu tuid="lokalise:5702039276"><prop type="source">component::fritzbox::entity::binary_sensor::summer_active::name</prop><prop type="lokalise-key-id">643126656</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Summer mode</seg></tuv><tuv xml:lang="sv"><seg>Sommarläge</seg></tuv></tu>
+<tu tuid="lokalise:5702039340"><prop type="source">component::fritzbox::entity::binary_sensor::window_open::name</prop><prop type="lokalise-key-id">643126657</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Open window detected</seg></tuv><tuv xml:lang="sv"><seg>Öppet fönster</seg></tuv></tu>
+<tu tuid="lokalise:5702057772"><prop type="source">component::smartthings::entity::select::detergent_amount::name</prop><prop type="lokalise-key-id">643128511</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Detergent dispense amount</seg></tuv><tuv xml:lang="sv"><seg>Tvättmedelsdosering</seg></tuv></tu>
+<tu tuid="lokalise:5702057836"><prop type="source">component::smartthings::entity::select::detergent_amount::state::custom</prop><prop type="lokalise-key-id">643128512</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Custom</seg></tuv><tuv xml:lang="sv"><seg>Anpassad</seg></tuv></tu>
+<tu tuid="lokalise:5702057900"><prop type="source">component::smartthings::entity::select::detergent_amount::state::extra</prop><prop type="lokalise-key-id">643128513</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Extra</seg></tuv><tuv xml:lang="sv"><seg>Extra</seg></tuv></tu>
+<tu tuid="lokalise:5702057964"><prop type="source">component::smartthings::entity::select::detergent_amount::state::less</prop><prop type="lokalise-key-id">643128514</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Less</seg></tuv><tuv xml:lang="sv"><seg>Mindre</seg></tuv></tu>
+<tu tuid="lokalise:5702058028"><prop type="source">component::smartthings::entity::select::detergent_amount::state::none</prop><prop type="lokalise-key-id">643128515</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Off</seg></tuv><tuv xml:lang="sv"><seg>Av</seg></tuv></tu>
+<tu tuid="lokalise:5702058092"><prop type="source">component::smartthings::entity::select::detergent_amount::state::standard</prop><prop type="lokalise-key-id">643128516</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Standard</seg></tuv><tuv xml:lang="sv"><seg>Standard</seg></tuv></tu>
+<tu tuid="lokalise:5702058156"><prop type="source">component::smartthings::entity::select::flexible_detergent_amount::name</prop><prop type="lokalise-key-id">643128517</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Flexible compartment dispense amount</seg></tuv><tuv xml:lang="sv"><seg>Doseringsmängd från det flexibla facket</seg></tuv></tu>
+<tu tuid="lokalise:5702058220"><prop type="source">component::smartthings::entity::select::flexible_detergent_amount::state::custom</prop><prop type="lokalise-key-id">643128518</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Custom</seg></tuv><tuv xml:lang="sv"><seg>Anpassad</seg></tuv></tu>
+<tu tuid="lokalise:5702058284"><prop type="source">component::smartthings::entity::select::flexible_detergent_amount::state::extra</prop><prop type="lokalise-key-id">643128519</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Extra</seg></tuv><tuv xml:lang="sv"><seg>Extra</seg></tuv></tu>
+<tu tuid="lokalise:5702058348"><prop type="source">component::smartthings::entity::select::flexible_detergent_amount::state::less</prop><prop type="lokalise-key-id">643128520</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Less</seg></tuv><tuv xml:lang="sv"><seg>Mindre</seg></tuv></tu>
+<tu tuid="lokalise:5702058412"><prop type="source">component::smartthings::entity::select::flexible_detergent_amount::state::none</prop><prop type="lokalise-key-id">643128521</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Off</seg></tuv><tuv xml:lang="sv"><seg>Av</seg></tuv></tu>
+<tu tuid="lokalise:5702058476"><prop type="source">component::smartthings::entity::select::flexible_detergent_amount::state::standard</prop><prop type="lokalise-key-id">643128522</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Standard</seg></tuv><tuv xml:lang="sv"><seg>Standard</seg></tuv></tu>
+<tu tuid="lokalise:5702058837"><prop type="source">component::teslemetry::entity::sensor::bms_state::name</prop><prop type="lokalise-key-id">643128560</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>BMS state</seg></tuv><tuv xml:lang="sv"><seg>BMS-tillstånd</seg></tuv></tu>
+<tu tuid="lokalise:5702058901"><prop type="source">component::teslemetry::entity::sensor::bms_state::state::charge</prop><prop type="lokalise-key-id">643128561</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Charge</seg></tuv><tuv xml:lang="sv"><seg>Laddning</seg></tuv></tu>
+<tu tuid="lokalise:5702058965"><prop type="source">component::teslemetry::entity::sensor::bms_state::state::clear_fault</prop><prop type="lokalise-key-id">643128562</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Clear fault</seg></tuv><tuv xml:lang="sv"><seg>Felåterställning</seg></tuv></tu>
+<tu tuid="lokalise:5702059029"><prop type="source">component::teslemetry::entity::sensor::bms_state::state::drive</prop><prop type="lokalise-key-id">643128563</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Drive</seg></tuv><tuv xml:lang="sv"><seg>Körning</seg></tuv></tu>
+<tu tuid="lokalise:5702059093"><prop type="source">component::teslemetry::entity::sensor::bms_state::state::fault</prop><prop type="lokalise-key-id">643128564</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Fault</seg></tuv><tuv xml:lang="sv"><seg>Fel</seg></tuv></tu>
+<tu tuid="lokalise:5702059157"><prop type="source">component::teslemetry::entity::sensor::bms_state::state::full_electric_in_motion</prop><prop type="lokalise-key-id">643128565</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Full electric in motion</seg></tuv><tuv xml:lang="sv"><seg>Eldrift under körning</seg></tuv></tu>
+<tu tuid="lokalise:5702059221"><prop type="source">component::teslemetry::entity::sensor::bms_state::state::standby</prop><prop type="lokalise-key-id">643128566</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Standby</seg></tuv><tuv xml:lang="sv"><seg>Viloläge</seg></tuv></tu>
+<tu tuid="lokalise:5702059285"><prop type="source">component::teslemetry::entity::sensor::bms_state::state::support</prop><prop type="lokalise-key-id">643128567</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Support</seg></tuv><tuv xml:lang="sv"><seg>Stödläge</seg></tuv></tu>
+<tu tuid="lokalise:5702059349"><prop type="source">component::teslemetry::entity::sensor::bms_state::state::system_not_available</prop><prop type="lokalise-key-id">643128568</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>System not available</seg></tuv><tuv xml:lang="sv"><seg>Systemet är inte tillgängligt</seg></tuv></tu>
+<tu tuid="lokalise:5702059413"><prop type="source">component::teslemetry::entity::sensor::bms_state::state::test</prop><prop type="lokalise-key-id">643128569</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Test</seg></tuv><tuv xml:lang="sv"><seg>Test</seg></tuv></tu>
+<tu tuid="lokalise:5702059541"><prop type="source">component::teslemetry::entity::sensor::brake_pedal_position::name</prop><prop type="lokalise-key-id">643128571</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Brake pedal position</seg></tuv><tuv xml:lang="sv"><seg>Bromspedalens läge</seg></tuv></tu>
+<tu tuid="lokalise:5702059605"><prop type="source">component::teslemetry::entity::sensor::brick_voltage_max::name</prop><prop type="lokalise-key-id">643128572</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Brick voltage max</seg></tuv><tuv xml:lang="sv"><seg>Högsta spänning bland batteriblocken</seg></tuv></tu>
+<tu tuid="lokalise:5702059669"><prop type="source">component::teslemetry::entity::sensor::brick_voltage_min::name</prop><prop type="lokalise-key-id">643128573</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Brick voltage min</seg></tuv><tuv xml:lang="sv"><seg>Lägsta spänning bland batteriblocken</seg></tuv></tu>
+<tu tuid="lokalise:5702059733"><prop type="source">component::teslemetry::entity::sensor::charge_rate_mile_per_hour::name</prop><prop type="lokalise-key-id">643128574</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Charge rate</seg></tuv><tuv xml:lang="sv"><seg>Räckviddsökning per timme</seg></tuv></tu>
+<tu tuid="lokalise:5702059797"><prop type="source">component::teslemetry::entity::sensor::cruise_follow_distance::name</prop><prop type="lokalise-key-id">643128575</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Cruise follow distance</seg></tuv><tuv xml:lang="sv"><seg>Följavstånd för farthållaren</seg></tuv></tu>
+<tu tuid="lokalise:5702059861"><prop type="source">component::teslemetry::entity::sensor::cruise_set_speed::name</prop><prop type="lokalise-key-id">643128576</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Cruise set speed</seg></tuv><tuv xml:lang="sv"><seg>Inställd farthållarhastighet</seg></tuv></tu>
+<tu tuid="lokalise:5702059925"><prop type="source">component::teslemetry::entity::sensor::current_limit_mph::name</prop><prop type="lokalise-key-id">643128577</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Current speed limit</seg></tuv><tuv xml:lang="sv"><seg>Aktuell hastighetsgräns</seg></tuv></tu>
+<tu tuid="lokalise:5702059989"><prop type="source">component::teslemetry::entity::sensor::dc_charging_energy_in::name</prop><prop type="lokalise-key-id">643128578</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>DC charging energy in</seg></tuv><tuv xml:lang="sv"><seg>Energi tillförd vid DC-laddning</seg></tuv></tu>
+<tu tuid="lokalise:5702060053"><prop type="source">component::teslemetry::entity::sensor::dc_charging_power::name</prop><prop type="lokalise-key-id">643128579</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>DC charging power</seg></tuv><tuv xml:lang="sv"><seg>DC-laddningseffekt</seg></tuv></tu>
+<tu tuid="lokalise:5702060117"><prop type="source">component::teslemetry::entity::sensor::di_axle_speed_f::name</prop><prop type="lokalise-key-id">643128580</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Front drive inverter axle speed</seg></tuv><tuv xml:lang="sv"><seg>Axelhastighet för den främre drivinverteraren</seg></tuv></tu>
+<tu tuid="lokalise:5702060181"><prop type="source">component::teslemetry::entity::sensor::di_axle_speed_r::name</prop><prop type="lokalise-key-id">643128581</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Rear drive inverter axle speed</seg></tuv><tuv xml:lang="sv"><seg>Axelhastighet för den bakre drivinverteraren</seg></tuv></tu>
+<tu tuid="lokalise:5702060245"><prop type="source">component::teslemetry::entity::sensor::di_axle_speed_rel::name</prop><prop type="lokalise-key-id">643128582</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Rear left drive inverter axle speed</seg></tuv><tuv xml:lang="sv"><seg>Axelhastighet för den vänstra bakre drivinverteraren</seg></tuv></tu>
+<tu tuid="lokalise:5702060309"><prop type="source">component::teslemetry::entity::sensor::di_axle_speed_rer::name</prop><prop type="lokalise-key-id">643128583</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Rear right drive inverter axle speed</seg></tuv><tuv xml:lang="sv"><seg>Axelhastighet för den högra bakre drivinverteraren</seg></tuv></tu>
+<tu tuid="lokalise:5702060373"><prop type="source">component::teslemetry::entity::sensor::di_heatsink_tf::name</prop><prop type="lokalise-key-id">643128584</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Front drive inverter heatsink temperature</seg></tuv><tuv xml:lang="sv"><seg>Kylflänstemperatur för den främre drivinverteraren</seg></tuv></tu>
+<tu tuid="lokalise:5702060437"><prop type="source">component::teslemetry::entity::sensor::di_heatsink_tr::name</prop><prop type="lokalise-key-id">643128585</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Rear drive inverter heatsink temperature</seg></tuv><tuv xml:lang="sv"><seg>Kylflänstemperatur för den bakre drivinverteraren</seg></tuv></tu>
+<tu tuid="lokalise:5702060501"><prop type="source">component::teslemetry::entity::sensor::di_heatsink_trel::name</prop><prop type="lokalise-key-id">643128586</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Rear left drive inverter heatsink temperature</seg></tuv><tuv xml:lang="sv"><seg>Kylflänstemperatur för den vänstra bakre drivinverteraren</seg></tuv></tu>
+<tu tuid="lokalise:5702060565"><prop type="source">component::teslemetry::entity::sensor::di_heatsink_trer::name</prop><prop type="lokalise-key-id">643128587</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Rear right drive inverter heatsink temperature</seg></tuv><tuv xml:lang="sv"><seg>Kylflänstemperatur för den högra bakre drivinverteraren</seg></tuv></tu>
+<tu tuid="lokalise:5702060629"><prop type="source">component::teslemetry::entity::sensor::di_inverter_tf::name</prop><prop type="lokalise-key-id">643128588</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Front drive inverter temperature</seg></tuv><tuv xml:lang="sv"><seg>Temperatur för den främre drivinverteraren</seg></tuv></tu>
+<tu tuid="lokalise:5702060693"><prop type="source">component::teslemetry::entity::sensor::di_inverter_tr::name</prop><prop type="lokalise-key-id">643128589</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Rear drive inverter temperature</seg></tuv><tuv xml:lang="sv"><seg>Temperatur för den bakre drivinverteraren</seg></tuv></tu>
+<tu tuid="lokalise:5702060757"><prop type="source">component::teslemetry::entity::sensor::di_inverter_trel::name</prop><prop type="lokalise-key-id">643128590</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Rear left drive inverter temperature</seg></tuv><tuv xml:lang="sv"><seg>Temperatur för den vänstra bakre drivinverteraren</seg></tuv></tu>
+<tu tuid="lokalise:5702060821"><prop type="source">component::teslemetry::entity::sensor::di_inverter_trer::name</prop><prop type="lokalise-key-id">643128591</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Rear right drive inverter temperature</seg></tuv><tuv xml:lang="sv"><seg>Temperatur för den högra bakre drivinverteraren</seg></tuv></tu>
+<tu tuid="lokalise:5702060885"><prop type="source">component::teslemetry::entity::sensor::di_motor_current_f::name</prop><prop type="lokalise-key-id">643128592</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Front drive inverter motor current</seg></tuv><tuv xml:lang="sv"><seg>Motorström för den främre drivinverteraren</seg></tuv></tu>
+<tu tuid="lokalise:5702060949"><prop type="source">component::teslemetry::entity::sensor::di_motor_current_r::name</prop><prop type="lokalise-key-id">643128593</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Rear drive inverter motor current</seg></tuv><tuv xml:lang="sv"><seg>Motorström för den bakre drivinverteraren</seg></tuv></tu>
+<tu tuid="lokalise:5702061013"><prop type="source">component::teslemetry::entity::sensor::di_motor_current_rel::name</prop><prop type="lokalise-key-id">643128594</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Rear left drive inverter motor current</seg></tuv><tuv xml:lang="sv"><seg>Motorström för den vänstra bakre drivinverteraren</seg></tuv></tu>
+<tu tuid="lokalise:5702061077"><prop type="source">component::teslemetry::entity::sensor::di_motor_current_rer::name</prop><prop type="lokalise-key-id">643128595</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Rear right drive inverter motor current</seg></tuv><tuv xml:lang="sv"><seg>Motorström för den högra bakre drivinverteraren</seg></tuv></tu>
+<tu tuid="lokalise:5702061141"><prop type="source">component::teslemetry::entity::sensor::di_slave_torque_cmd::name</prop><prop type="lokalise-key-id">643128596</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Secondary drive unit torque</seg></tuv><tuv xml:lang="sv"><seg>Vridmoment för den sekundära drivenheten</seg></tuv></tu>
+<tu tuid="lokalise:5702061205"><prop type="source">component::teslemetry::entity::sensor::di_state_f::name</prop><prop type="lokalise-key-id">643128597</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Front drive inverter</seg></tuv><tuv xml:lang="sv"><seg>Främre drivinverterare</seg></tuv></tu>
+<tu tuid="lokalise:5702061269"><prop type="source">component::teslemetry::entity::sensor::di_state_f::state::abort</prop><prop type="lokalise-key-id">643128598</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Abort</seg></tuv><tuv xml:lang="sv"><seg>Avbryt</seg></tuv></tu>
+<tu tuid="lokalise:5702061333"><prop type="source">component::teslemetry::entity::sensor::di_state_f::state::enabled</prop><prop type="lokalise-key-id">643128599</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Enabled</seg></tuv><tuv xml:lang="sv"><seg>Aktiverad</seg></tuv></tu>
+<tu tuid="lokalise:5702061397"><prop type="source">component::teslemetry::entity::sensor::di_state_f::state::fault</prop><prop type="lokalise-key-id">643128600</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Fault</seg></tuv><tuv xml:lang="sv"><seg>Fel</seg></tuv></tu>
+<tu tuid="lokalise:5702061461"><prop type="source">component::teslemetry::entity::sensor::di_state_f::state::standby</prop><prop type="lokalise-key-id">643128601</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Standby</seg></tuv><tuv xml:lang="sv"><seg>Viloläge</seg></tuv></tu>
+<tu tuid="lokalise:5702061589"><prop type="source">component::teslemetry::entity::sensor::di_state_r::name</prop><prop type="lokalise-key-id">643128603</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Rear drive inverter</seg></tuv><tuv xml:lang="sv"><seg>Bakre drivinverterare</seg></tuv></tu>
+<tu tuid="lokalise:5702061653"><prop type="source">component::teslemetry::entity::sensor::di_state_r::state::abort</prop><prop type="lokalise-key-id">643128604</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Abort</seg></tuv><tuv xml:lang="sv"><seg>Avbryt</seg></tuv></tu>
+<tu tuid="lokalise:5702061717"><prop type="source">component::teslemetry::entity::sensor::di_state_r::state::enabled</prop><prop type="lokalise-key-id">643128605</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Enabled</seg></tuv><tuv xml:lang="sv"><seg>Aktiverad</seg></tuv></tu>
+<tu tuid="lokalise:5702061781"><prop type="source">component::teslemetry::entity::sensor::di_state_r::state::fault</prop><prop type="lokalise-key-id">643128606</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT and GET readback; Home Assistant Core source and reference audit</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop><tuv xml:lang="en"><seg>Fault</seg></tuv><tuv xml:lang="sv"><seg>Fel</seg></tuv></tu>
+</body>
 </tmx>
