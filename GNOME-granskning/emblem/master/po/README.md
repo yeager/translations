@@ -15,3 +15,5 @@ fel eller varningar; dess två informationsnotiser är kontrollerade: de tre
 svenska söktermerna för `logo;` och en avsiktligt flyttad accelerator i
 `S_quare` → `_Kvadrat`. Hunspell-sv-undantagen är produktnamn, filnamn och
 tekniska format. Ingen inskickning till GNOME har gjorts i detta steg.
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 39/0/0.

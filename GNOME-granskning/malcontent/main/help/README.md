@@ -24,3 +24,5 @@ Ingen GNOME-inskickning har gjorts.
 - [Granskad PO](malcontent.main.help.sv.reviewed.po)
 - [Diff](malcontent.main.help.sv.diff)
 - [Senaste POT](malcontent-help.main.pot)
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 49/0/0.

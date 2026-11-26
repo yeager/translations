@@ -23,3 +23,5 @@ kontrollerade. `hunspell-sv`-undantag finns i `hunspell-unknown.txt` och gäller
 produktnamn, kommandon, tekniska identifierare och sammansatta facktermer.
 
 Ingen ändring har skickats till GNOME.
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 55/0/0.

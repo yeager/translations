@@ -1,49 +1,93 @@
 # Damned Lies-inskickningar — 2026-11-26
 
-Tjugosex färdiggranskade kataloger uppladdades via API; aktivitetsidorna visar kommentaren ”Granskad och klar”. De fjorton GIMP/GIMP Help-statistikpanelerna visar fortfarande värdena före uppladdning medan uppdateringarna behandlas; Console och GDM visar 137/0/0 respektive 129/0/0.
+Alla kataloger i tabellen är färdiggranskade, fullständiga mot aktuell POT och inskickade via API med kommentaren ”Granskad och klar”. Aktivitetssidorna och API-statistiken verifierades. API-begäranden är nu pausade efter en rate limit; kvarvarande färdiga kataloger står fortfarande som lokalt klara i inventeringen.
 
-| Modul | Gren | Domän | Ändrade PO-poster |
-|---|---|---|---:|
-| gimp-help | master | filters~render | 133 |
-| gimp-help | master | menus~image | 69 |
-| gimp-help | master | toolbox~paint | 771 |
-| gimp-help | master | filters~animation | 54 |
-| gimp-help | master | menus~colors~auto | 18 |
-| gimp-help | master | menus~colors~desaturate | 40 |
-| gimp-help | master | menus~colors~info | 29 |
-| gimp-help | master | filters~combine | 55 |
-| gimp-help | master | filters~edge-detect | 55 |
-| gimp-help | master | filters~enhance | 65 |
-| gimp-help | master | filters | 30 |
-| gimp-help | master | menus~help | 49 |
-| gimp-help | master | menus | 37 |
-| gimp-help | master | filters~noise | 45 |
-| console | gnome-50 | po | 12 |
-| gdm | gnome-50 | po | 10 |
+| Modul | Gren | Domän | Ändrade PO-poster | API-statistik |
+|---|---|---|---:|---:|
+| ashpd | main | demo-client | 4 | 38/0/0 |
+| console | gnome-50 | po | 12 | verifierad |
+| cups-pk-helper | master | po | 19 | 22/0/0 |
+| emblem | master | po | 3 | 39/0/0 |
+| evolution-activesync | master | po | 4 | 60/0/0 |
+| evolution-etesync | master | po | 5 | 21/0/0 |
+| four-in-a-row | master | help | 34 | 60/0/0 |
+| gcolor3 | master | po | 7 | 59/0/0 |
+| gdm | gnome-50 | po | 10 | verifierad |
+| gimp-help | master | introduction | 1 | 3/0/0 |
+| gimp-help | master | preface | 2 | 37/0/0 |
+| gimp-help — GIMP User Manual | master | filters~enhance | 65 | verifierad |
+| gnome-2048 | master | help | 9 | 32/0/0 |
+| gnome-applets | master | drivemount | 25 | 58/0/0 |
+| gnome-applets | master | geyes | 1 | 42/0/0 |
+| gnome-applets | master | trash | 25 | 43/0/0 |
+| gnome-browser-extension | master | po | 4 | 39/0/0 |
+| gnome-characters | main | po | 8 | 56/0/0 |
+| gnome-color-manager | master | help | 3 | 26/0/0 |
+| gnome-connections | master | help | 2 | 26/0/0 |
+| gnome-desktop | master | po | 1 | 31/0/0 |
+| gnome-klotski | master | help | 15 | 53/0/0 |
+| gnome-logs | master | help | 7 | 23/0/0 |
+| gnome-menus | master | po | 3 | 27/0/0 |
+| gnome-multi-writer | master | po | 4 | 58/0/0 |
+| gnome-network-displays | master | po | 4 | 35/0/0 |
+| gnome-panel | master | fish | 25 | 57/0/0 |
+| gnome-remote-desktop | gnome-50 | po | 36 | 50/0/0 |
+| gnome-remote-desktop | main | po | 4 | 50/0/0 |
+| gnome-session | gnome-50 | po | 21 | 43/0/0 |
+| gnome-session | main | po | 10 | 43/0/0 |
+| gnome-tetravex | master | help | 37 | verifierad |
+| gnome-tour | main | po | 4 | 23/0/0 |
+| gnome-weather | main | po | 4 | 50/0/0 |
+| gparted | master | po | 1 | 18/0/0 |
+| grilo | master | po | 5 | 36/0/0 |
+| grilo-plugins | master | help | 7 | 52/0/0 |
+| gstreamer | main | plugins-bad | 1 | 29/0/0 |
+| gstreamer | main | plugins-ugly | 1 | 10/0/0 |
+| hieroglyphic — Find LaTeX symbols | main | po | 2 | 28/0/0 |
+| hitori | main | help | 3 | 43/0/0 |
+| icon-library | master | po | 1 | 59/0/0 |
+| json-glib | main | po | 4 | 48/0/0 |
+| libgedit-gfls | main | po | 3 | 36/0/0 |
+| malcontent | main | help | 39 | 49/0/0 |
+| network-manager-iodine | master | po | 5 | 25/0/0 |
+| phosh-tour | main | po | 13 | 48/0/0 |
+| raider | main | po | 4 | 38/0/0 |
+| solanum | main | po | 2 | 44/0/0 |
+| stevia | main | po | 4 | 14/0/0 |
+| sushi | gnome-50 | po | 2 | 19/0/0 |
+| sysprof | master | help | 31 | 49/0/0 |
+| tali | master | help | 38 | verifierad |
+| telegnome | master | help | 12 | 31/0/0 |
+| Warp Hjälp | main | help | 28 | 55/0/0 |
 
-## Blockerade uppladdningar
+## Kvarvarande blockerare
 
-För dessa åtta färdiggranskade kataloger saknar Damned Lies-API:t åtgärden `UploadTranslation`; tillgängliga åtgärder är endast `ReserveForTranslation` och `WriteAComment`. Ingen kommentar skickades separat.
-- `gimp/master/po` (1 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
-- `gimp/master/po-script-fu` (141 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
-- `gimp/master/po-libgimp` (7 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
-- `gimp-help/master/gimp-keys` (57 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
-- `gimp-help/master/gimp` (1 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
-- `gimp-help/master/po-windows-installer` (2 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
-- `gimp-help/master/concepts` (51 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
-- `gimp-help/master/using` (630 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
-| gimp-help | master | introduction | 1 |
-| gstreamer | main | plugins-ugly | 1 |
-| stevia | main | po | 4 |
-| gparted | master | po | 1 |
-| sushi | gnome-50 | po | 2 |
-| evolution-etesync | master | po | 5 |
-| cups-pk-helper | master | po | 19 |
-| gnome-tour | main | po | 4 |
-| gnome-logs | master | help | 7 |
-| network-manager-iodine | master | po | 5 |
-- `gtk-vnc/master/po` (2 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
-- `xdg-user-dirs-gtk/master/po` (3 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
-- `avahi/master/po` (3 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
-- `oo7/main/oo7-server` (7 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
-- `sushi/main/po` (6 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
+- `gtk-vnc/master/po` (2 ändrade poster): API:t erbjuder inte UploadTranslation.
+- `xdg-user-dirs-gtk/master/po` (3 ändrade poster): API:t erbjuder inte UploadTranslation.
+- `avahi/master/po` (3 ändrade poster): API:t erbjuder inte UploadTranslation.
+- `oo7/main/oo7-server` (7 ändrade poster): API:t erbjuder inte UploadTranslation.
+- `sushi/main/po` (6 ändrade poster): API:t erbjuder inte UploadTranslation.
+- `blurble/main/po` (1 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
+- `phodav/master/po` (25 ändrade poster): API:t erbjuder inte UploadTranslation.
+- `networkmanager-fortisslvpn/main/po` (4 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
+- `gedit-plugins/gnome-50/help` (18 ändrade poster): HTTP 500:    <!DOCTYPE html> <html lang="" >     <head>         <meta charset="UTF-8">         <meta name="viewport" content="width=device-width, initial-scale=1">         <title>           
+- `gcab/master/po` (5 ändrade poster): API:t erbjuder inte UploadTranslation.
+- `xdg-desktop-portal-gtk/main/po` (6 ändrade poster): API:t erbjuder inte UploadTranslation.
+- `metronome/main/po` (10 ändrade poster): API:t erbjuder inte UploadTranslation.
+- `libipuz/main/po` (14 ändrade poster): API:t erbjuder inte UploadTranslation.
+- `libsoup/master/po` (19 ändrade poster): API:t erbjuder inte UploadTranslation.
+- `networkmanager-pptp/main/po` (8 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
+- `social/main/po` (1 ändrade poster): API:t erbjuder inte UploadTranslation.
+- `help-gnome-org/master/po` (28 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
+- `fretboard/main/po` (3 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
+- `gnome-extensions-app/main/po` (2 ändrade poster): API:t erbjuder inte UploadTranslation.
+- `xdg-desktop-portal/main/po` (5 ändrade poster): API:t erbjuder inte UploadTranslation.
+- `manuals/main/po` (5 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
+- `decibels/main/po` (6 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
+- `networkmanager-vpnc/main/po` (8 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
+
+## Övrigt
+
+- Verifierat inskickade den här dagen: **55** kataloger i indexet.
+- Färdiggranskade men ännu inte inskickade kataloger behålls som `Klar lokalt`; de räknas inte som inskickade.
+- API-spärren rapporterade en väntetid på 303 sekunder. Trafiken återupptas med högst en begäran var 15:e sekund.

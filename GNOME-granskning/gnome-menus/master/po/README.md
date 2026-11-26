@@ -6,4 +6,4 @@
 - Terminologi: `program` och `webbprogram` följer GNOME:s svenska termlista.
 - Platshållare, markup, acceleratorer och radbrytningar: inga problem; inga acceleratorer eller platshållare förekommer i den aktuella POT:en.
 - Validering: `msgfmt --check`, `msgcmp` mot senaste POT och `l10n-lint --language sv` utan fel. Hunspell-sv kontrollerad; `Multimediameny` är en korrekt svensk sammansättning som Hunspell inte känner igen.
-- GNOME-inskick: inget. Ändringarna är lokala och väntar på eventuell separat inskickning.
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 27/0/0.

@@ -24,3 +24,5 @@ Ingen GNOME-inskickning har gjorts.
 - [Granskad PO](telegnome.master.help.sv.reviewed.po)
 - [Diff](telegnome.master.help.sv.diff)
 - [Senaste POT](telegnome-help.master.pot)
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 31/0/0.

@@ -9,4 +9,4 @@
 - Validering: `msgfmt --check --check-format` godkänd (60 översatta); `msgcmp --use-fuzzy` godkänd; `l10n-lint` 0 fel / 0 varningar; markup-, tangent-, länkmåls- och radbrytningskontroller utan avvikelser.
 - Hunspell-SV: inga vanliga svenska stavfel. Rapporterade namn, markuptermer och licensidentifierare dokumenteras i `hunspell-undantag.md`; råutdata finns i `hunspell-raw.txt`.
 - Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-26.
-- GNOME-inskick: inte inskickad.
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 60/0/0.

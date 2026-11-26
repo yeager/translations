@@ -8,3 +8,5 @@
 - Validering: `msgfmt --check --check-format --statistics` godkänd (58 översatta); `msgcmp --use-fuzzy` mot senaste POT godkänd. `l10n-lint`: 0 fel och 1 dokumenterad slutpunktsvarning eftersom källmeningen saknar slutpunkt; svensk mening behåller korrekt slutpunkt. DocBook-taggar och länkmål bevarade. `hunspell-sv` kördes; undantag finns i `hunspell-undantag.md`.
 - Ingen GNOME-inskickning har gjorts.
 - Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-26.
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 58/0/0.

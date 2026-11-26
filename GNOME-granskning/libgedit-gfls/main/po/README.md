@@ -15,3 +15,5 @@ Kodningsnamnet *Hebrew Visual* har fått korrekt svensk ordföljd. Den fragmenta
 `msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` har körts utan fel eller varningar. Platshållarkontrollen hittar inga avvikelser. Hunspell-utdata innehåller enbart tekniska kodningsnamn.
 
 Ingen GNOME-inskickning har gjorts.
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 36/0/0.

@@ -23,3 +23,5 @@ Ingen GNOME-inskickning har gjorts.
 - [Granskad PO](gnome-klotski.master.help.sv.reviewed.po)
 - [Diff](gnome-klotski.master.help.sv.diff)
 - [Senaste POT](gnome-klotski-help.master.pot)
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 53/0/0.

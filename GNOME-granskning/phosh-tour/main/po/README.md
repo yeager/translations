@@ -15,3 +15,5 @@ Introduktionsflödet har språkvårdats för idiomatik och grammatik: hemraden, 
 `msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` har körts utan fel eller varningar. En informationsnotis gäller den avsiktligt omordnade `@BRAND@`-rubriken. Platshållarkontrollen är ren när de avsiktliga e-postadresserna i `translator-credits` undantas.
 
 Ingen GNOME-inskickning har gjorts.
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 48/0/0.

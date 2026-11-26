@@ -16,3 +16,5 @@ formatsträngen `%s: %m\n` och tekniska identifierare är oförändrade.
 eller varningar. Hunspell-sv-undantagen är bevarade tekniska termer,
 systemd-enheter, kommandoradsargument och engelska giltiga argumentvärden.
 Ingen inskickning till GNOME har gjorts i detta steg.
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 43/0/0.

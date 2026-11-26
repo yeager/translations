@@ -12,3 +12,5 @@ sammansättningar och interpunktion är rättade; 0 oöversatta och 0 fuzzy åte
 `msgfmt --check` och `msgcmp --use-fuzzy` är godkända. l10n-lint har två
 dokumenterade undantag: fasta sifferintervall i upstreams licens- och källtext.
 Ingen inskickning till GNOME har gjorts i detta steg.
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 52/0/0.

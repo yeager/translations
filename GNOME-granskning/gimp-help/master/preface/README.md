@@ -14,3 +14,5 @@
 - [Original PO](gimp-help.master.preface.sv.original.po)
 - [Granskad PO](gimp-help.master.preface.sv.reviewed.po)
 - [Unified diff](gimp-help.master.preface.sv.review.diff)
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 37/0/0.

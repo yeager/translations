@@ -15,4 +15,4 @@ Inställningar.
 `msgfmt --check`, `msgcmp --use-fuzzy`, `l10n-lint` och hunspell-sv är
 godkända utan fel eller anmärkningar. Ingen inskickning till GNOME har gjorts
 i detta steg.
-- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren ‘Granskad och klar’ syns på aktivitetssidan; statistik 22/0/0.
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 22/0/0.

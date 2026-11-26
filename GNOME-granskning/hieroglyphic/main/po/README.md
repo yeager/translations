@@ -12,3 +12,5 @@ Hela katalogen är radgranskad mot senaste POT. Sök- och startinstruktionen
 
 `msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` är godkända utan fel
 eller varningar. Ingen inskickning till GNOME har gjorts i detta steg.
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 28/0/0.

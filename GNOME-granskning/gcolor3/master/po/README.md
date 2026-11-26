@@ -24,3 +24,5 @@ Daniel Nylander som senaste översättare.
 
 Den granskade filen är komplett och fuzzy-fri. Ingen inskickning till GNOME
 har gjorts i detta steg.
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 59/0/0.

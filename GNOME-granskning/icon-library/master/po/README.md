@@ -11,3 +11,5 @@
 `msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` har körts utan fel eller varningar. Den tekniska sökvägsplatshållaren `$app-name` har kontrollerats och bevarats exakt.
 
 Ingen GNOME-inskickning har gjorts.
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 59/0/0.

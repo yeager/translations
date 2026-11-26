@@ -15,3 +15,5 @@ Alla 57 aktiva poster radgranskades mot senaste POT. `Last-Translator` är uppda
 Hunspell kördes med `hunspell -d sv_SE`. Okända ord i `hunspell-unknown.txt` är namn (Paul Cutler, Sun Microsystems, Telsa Gwynne, Wanda), kommandot `fortune`, GFDL- och dokumentationsfilnamn, versionsetiketter samt giltiga framsidesammansättningar. De är dokumenterade undantag.
 
 Ingen ändring har skickats till GNOME.
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 57/0/0.

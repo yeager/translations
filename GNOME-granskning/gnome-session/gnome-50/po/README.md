@@ -22,3 +22,5 @@ identifierare, CLI-värden och tekniska sammansättningar; se
 `hunspell-unknown.txt`.
 
 Ingen ändring har skickats till GNOME.
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 43/0/0.

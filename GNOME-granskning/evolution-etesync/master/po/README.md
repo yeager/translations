@@ -12,4 +12,4 @@ kryptering, Etebase-namnet och URL-typografin är rättade. Alla 21 strängar ä
 
 `msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` är godkända utan fel
 eller varningar. Ingen inskickning till GNOME har gjorts i detta steg.
-- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren ‘Granskad och klar’ syns på aktivitetssidan; statistik 21/0/0.
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 21/0/0.

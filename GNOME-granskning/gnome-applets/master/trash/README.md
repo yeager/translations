@@ -24,3 +24,5 @@ Ingen GNOME-inskickning har gjorts.
 - [Granskad PO](gnome-applets.master.trash.sv.reviewed.po)
 - [Diff](gnome-applets.master.trash.sv.diff)
 - [Senaste POT](trash.master.pot)
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 43/0/0.

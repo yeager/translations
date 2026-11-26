@@ -27,4 +27,4 @@ Nya översättningar: 0. Rättade befintliga översättningar: 1. Den befintliga
 - [Diff](introduction.master.sv.diff)
 
 Filen är granskad lokalt och inte inskickad till Damned Lies.
-- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren ‘Granskad och klar’ syns på aktivitetssidan; statistik 3/0/0.
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 3/0/0.

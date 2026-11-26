@@ -24,3 +24,5 @@ Ingen GNOME-inskickning har gjorts.
 - [Granskad PO](sysprof.master.help.sv.reviewed.po)
 - [Diff](sysprof.master.help.sv.diff)
 - [Senaste POT](sysprof-help.master.pot)
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 49/0/0.

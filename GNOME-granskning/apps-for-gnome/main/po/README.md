@@ -7,6 +7,7 @@
 - Nya översättningar: 0
 - Rättade befintliga översättningar: 26
 - Inaktuella PO-poster: 3 markerade som obsolete eftersom de saknas i senaste POT
+- Totalt ändrade aktiva PO-poster: 29 (26 textändringar och 3 inaktuella poster)
 
 Alla 69 aktuella strängar radgranskades mot POT och käll-POn från GitLab. Damned Lies visar inga aktuella inskickningar. De återstående fem obsolete-posterna i PO-filen var redan inaktuella. `Last-Translator` är uppdaterad till Daniel Nylander <gnome@danielnylander.se>.
 

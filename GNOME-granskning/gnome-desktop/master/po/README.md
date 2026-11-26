@@ -15,3 +15,5 @@ Nylander som senaste översättare.
 `msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` är godkända utan fel
 eller varningar. Informationsnotisen gäller den avsiktligt identiska
 tidformatsträngen `%R:%S`.
+
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren `Granskad och klar` och aktivitetssidan verifierade; statistik 31/0/0.
