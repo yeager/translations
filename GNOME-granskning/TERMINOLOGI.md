@@ -449,3 +449,13 @@ argumentet betyder i just det programmet.
 | lining figures | versalhöga siffror | Siffror med höjd som versaler. |
 | slashed zero | nolla med snedstreck | Typografisk sifferform. |
 | font | typsnitt | Använd konsekvent i GNOME Fonts. |
+
+## PackageKit
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| daemon | bakgrundstjänst | Om PackageKit-tjänsten som körs i bakgrunden; undvik *demon*. |
+| offline update | uppdatering i frånkopplat läge | PackageKit förbereder uppdateringen och tillämpar den vid omstart. |
+| trusted package/source | betrott paket / betrodd källa | Säkerhetsterminologi. |
+| repository | förråd | Paketförråd i kommandotext och status. |
+| obsolete package | ersatt paket | Paket som ersätts av en annan paketversion eller ett annat paket. |

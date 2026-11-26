@@ -1,0 +1,2220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://bugzilla.freedesktop.org/\n"
+"POT-Creation-Date: 2026-11-20 18:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#. TRANSLATORS: this is a percentage value we use in messages, e.g. "90%"
+#: client/pk-offline-update.c:166
+#, c-format
+msgid "%i%%"
+msgstr ""
+
+#. TRANSLATORS: this is the message we send plymouth to
+#. * advise of the new percentage completion when installing OS upgrades
+#: client/pk-offline-update.c:172
+msgid "Installing System Upgrade"
+msgstr ""
+
+#. TRANSLATORS: this is the message we send plymouth to
+#. * advise of the new percentage completion when installing updates
+#: client/pk-offline-update.c:176
+msgid "Installing Updates"
+msgstr ""
+
+#. TRANSLATORS: we've finished doing offline updates
+#: client/pk-offline-update.c:207
+msgid "Rebooting after installing updates…"
+msgstr ""
+
+#. TRANSLATORS: we've finished doing offline updates
+#: client/pk-offline-update.c:246
+msgid "Shutting down after installing updates…"
+msgstr ""
+
+#. TRANSLATORS: we've started doing offline updates
+#: client/pk-offline-update.c:392
+msgid "Installing updates; this could take a while..."
+msgstr ""
+
+#. TRANSLATORS: we've started doing an offline OS upgrade
+#: client/pk-offline-update.c:430
+msgid "Installing operating system upgrade; this could take a while..."
+msgstr ""
+
+#. TRANSLATORS: This is when the daemon crashed, and we are up
+#. * shit creek without a paddle
+#: client/pkgc-context.c:130
+msgid "The daemon crashed mid-transaction!"
+msgstr ""
+
+#. TRANSLATORS: command line argument, do we just download or apply changes
+#: client/pkgc-manage.c:44
+msgid "Prepare the transaction by downloading packages only"
+msgstr ""
+
+#. TRANSLATORS: command line argument, do we allow package downgrades
+#: client/pkgc-manage.c:51
+msgid "Allow package downgrades"
+msgstr ""
+
+#. TRANSLATORS: command line argument, do we allow package re-installations
+#: client/pkgc-manage.c:58
+msgid "Allow package re-installations"
+msgstr ""
+
+#. TRANSLATORS: command line argument
+#: client/pkgc-manage.c:65
+msgid "Allow installation of untrusted packages"
+msgstr ""
+
+#. TRANSLATORS: command line argument
+#: client/pkgc-manage.c:72
+msgid "Do not automatically remove unused dependencies"
+msgstr ""
+
+#. TRANSLATORS: command line argument, remove configuration files too
+#: client/pkgc-manage.c:79
+msgid ""
+"Also remove residual data (config files, databases, etc.) when removing "
+"packages"
+msgstr ""
+
+#. TRANSLATORS: command line argument
+#: client/pkgc-manage.c:86
+msgid "Maximum metadata cache age in seconds (default: 3 days)"
+msgstr ""
+
+#: client/pkgc-manage.c:86
+msgid "SECONDS"
+msgstr ""
+
+#: client/pkgc-manage.c:156
+msgid "A system restart is required to complete the changes."
+msgstr ""
+
+#: client/pkgc-manage.c:161
+msgid "You need to log out and back in to complete the changes."
+msgstr ""
+
+#: client/pkgc-manage.c:167
+msgid "Affected applications need to be restarted to complete the changes."
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli refresh
+#: client/pkgc-manage.c:250
+msgid "Refresh the package metadata cache."
+msgstr ""
+
+#: client/pkgc-manage.c:276
+msgid "Package metadata refreshed"
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli install
+#: client/pkgc-manage.c:301
+msgid "Install one or more packages or local package files."
+msgstr ""
+
+#. TRANSLATORS: There was an error finding a package
+#. * for installation. The detailed error follows.
+#. TRANSLATORS: We were unable to find a package for installation.
+#: client/pkgc-manage.c:363 client/pkgc-manage.c:377
+#, c-format
+msgid "Could not find any available package: %s"
+msgstr ""
+
+#: client/pkgc-manage.c:382
+msgid "The selected package is already installed."
+msgstr ""
+
+#: client/pkgc-manage.c:438 client/pkgc-util.c:1702
+#, c-format
+msgid "Package not found: %s"
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli remove
+#: client/pkgc-manage.c:479
+msgid "Remove one or more packages from the system."
+msgstr ""
+
+#: client/pkgc-manage.c:500
+#, c-format
+msgid "Could not find installed packages: %s"
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli download
+#: client/pkgc-manage.c:542
+msgid "Download packages to the specified directory without installing."
+msgstr ""
+
+#. TRANSLATORS: There was an error getting the
+#. * details about the package. The detailed error follows
+#: client/pkgc-manage.c:555 client/pkgc-query.c:545 client/pkgc-query.c:889
+#, c-format
+msgid "Could not find packages: %s"
+msgstr ""
+
+#: client/pkgc-manage.c:563
+#, c-format
+msgid "Directory does not exist: %s"
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli update
+#: client/pkgc-manage.c:607
+msgid "Update all packages or specific packages to their latest versions."
+msgstr ""
+
+#: client/pkgc-manage.c:630
+#, c-format
+msgid "Could not find packages to update: %s"
+msgstr ""
+
+#: client/pkgc-manage.c:660 client/pkgc-manage.c:934
+#, c-format
+msgid "Failed to get updates: %s"
+msgstr ""
+
+#: client/pkgc-manage.c:672 client/pkgc-manage.c:942
+msgid "No packages require updating"
+msgstr ""
+
+#. TRANSLATORS: Description of pkgcli upgrade-os. Do not translate "list-os-upgrades"/"update"
+#: client/pkgc-manage.c:708
+msgid ""
+"Upgrade the operating system to the release with the given upgrade ID.\n"
+"The available upgrade IDs are shown by `list-os-upgrades`.\n"
+"This command does not update packages within the current release, use "
+"`update` for that."
+msgstr ""
+
+#: client/pkgc-manage.c:750
+#, c-format
+msgid "Failed to read offline update action: %s"
+msgstr ""
+
+#: client/pkgc-manage.c:760
+msgid "Offline update is not triggered."
+msgstr ""
+
+#: client/pkgc-manage.c:769
+#, c-format
+msgid "Offline update is triggered. Action after update: %s"
+msgstr ""
+
+#. TRANSLATORS: Packages that were prepared for an offline update
+#: client/pkgc-manage.c:780
+msgid "Prepared packages:"
+msgstr ""
+
+#: client/pkgc-manage.c:794
+msgid "No offline update is prepared."
+msgstr ""
+
+#: client/pkgc-manage.c:797
+#, c-format
+msgid "Failed to read prepared offline updates: %s"
+msgstr ""
+
+#: client/pkgc-manage.c:808
+msgid "No results from last offline update available."
+msgstr ""
+
+#: client/pkgc-manage.c:815
+#, c-format
+msgid "Last offline update failed: %s: %s"
+msgstr ""
+
+#: client/pkgc-manage.c:822
+msgid "Last offline update completed successfully"
+msgstr ""
+
+#: client/pkgc-manage.c:832
+#, c-format
+msgid "Updated: %s"
+msgstr ""
+
+#: client/pkgc-manage.c:856
+#, c-format
+msgid "Failed to trigger offline update: %s"
+msgstr ""
+
+#: client/pkgc-manage.c:860
+msgid "Offline update scheduled. System will update on next reboot."
+msgstr ""
+
+#. TRANSLATORS: Description of the pkgcli offline-update command.
+#. * The request values (trigger, prepare, etc.) are parameters and MUST NOT be translated.
+#: client/pkgc-manage.c:880
+msgid ""
+"Trigger & manage offline system updates.\n"
+"\n"
+"You can select one of these requests:\n"
+"  prepare - prepare an offline update and trigger it (default)\n"
+"  trigger - trigger a (manually prepared) offline update\n"
+"  cancel  - cancel a planned offline update\n"
+"  status  - show status information about a prepared or finished offline "
+"update"
+msgstr ""
+
+#: client/pkgc-manage.c:902
+#, c-format
+msgid "Failed to cancel offline update: %s"
+msgstr ""
+
+#: client/pkgc-manage.c:906
+msgid "Offline update cancelled"
+msgstr ""
+
+#: client/pkgc-manage.c:963
+#, c-format
+msgid "Unknown offline-update request: %s"
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli install-sig
+#: client/pkgc-manage.c:984
+msgid "Install a package signature for GPG verification."
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli repair
+#: client/pkgc-manage.c:1020
+msgid "Attempt to repair the package management system."
+msgstr ""
+
+#: client/pkgc-manage.c:1036
+msgid "System repaired successfully"
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli yield
+#: client/pkgc-manage.c:1058
+msgid ""
+"Cancel all queued package management tasks of all users and make the daemon "
+"quit as soon as the running tasks are done."
+msgstr ""
+
+#: client/pkgc-manage.c:1068
+#, c-format
+msgid "Failed to make the daemon yield: %s"
+msgstr ""
+
+#. TRANSLATORS: Description for refresh command in pkgcli help
+#: client/pkgc-manage.c:1088
+msgid "Refresh package metadata"
+msgstr ""
+
+#. TRANSLATORS: Description for install command in pkgcli help
+#: client/pkgc-manage.c:1095
+msgid "Install packages"
+msgstr ""
+
+#. TRANSLATORS: Description for remove command in pkgcli help
+#: client/pkgc-manage.c:1102
+msgid "Remove packages"
+msgstr ""
+
+#. TRANSLATORS: Description for update command in pkgcli help
+#: client/pkgc-manage.c:1109
+msgid "Update packages"
+msgstr ""
+
+#. TRANSLATORS: Description for upgrade-os command in pkgcli help
+#: client/pkgc-manage.c:1116
+msgid "Upgrade the operating system to a new release"
+msgstr ""
+
+#. TRANSLATORS: Description for download command in pkgcli help
+#: client/pkgc-manage.c:1123
+msgid "Download packages"
+msgstr ""
+
+#. TRANSLATORS: Description for offline-update command in pkgcli help
+#: client/pkgc-manage.c:1130
+msgid "Manage offline system updates"
+msgstr ""
+
+#. TRANSLATORS: Description for install-sig command in pkgcli help
+#: client/pkgc-manage.c:1137
+msgid "Install package signature"
+msgstr ""
+
+#. TRANSLATORS: Description for repair command in pkgcli help
+#: client/pkgc-manage.c:1144
+msgid "Repair package system"
+msgstr ""
+
+#. TRANSLATORS: Description for yield command in pkgcli help
+#: client/pkgc-manage.c:1151
+msgid "Stop all pending tasks and quit the daemon"
+msgstr ""
+
+#: client/pkgc-monitor.c:384
+msgid "Failed to get daemon state"
+msgstr ""
+
+#: client/pkgc-monitor.c:454
+msgid "Failed to get properties"
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli monitor
+#: client/pkgc-monitor.c:476
+msgid "Monitor PackageKit D-Bus events"
+msgstr ""
+
+#. TRANSLATORS: Description for monitor command in pkgcli help
+#: client/pkgc-monitor.c:594
+msgid "Monitor PackageKit bus events"
+msgstr ""
+
+#: client/pkgc-query.c:127
+msgid "There are no OS upgrades available."
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli backend
+#: client/pkgc-query.c:256
+msgid "Show PackageKit backend information."
+msgstr ""
+
+#: client/pkgc-query.c:300
+#, c-format
+msgid "Backend: %s"
+msgstr ""
+
+#: client/pkgc-query.c:303
+#, c-format
+msgid "Description: %s"
+msgstr ""
+
+#: client/pkgc-query.c:306
+#, c-format
+msgid "Author: %s"
+msgstr ""
+
+#. add some extra space before the potentially long roles list
+#. TRANSLATORS: List of backend-roles
+#: client/pkgc-query.c:312
+#, c-format
+msgid "Roles: %s"
+msgstr ""
+
+#. TRANSLATORS: Option of pkgcli history
+#: client/pkgc-query.c:335
+msgid "Show all details of every transaction"
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli history
+#: client/pkgc-query.c:346
+msgid "Show recent package management transactions."
+msgstr ""
+
+#. TRANSLATORS: Description of the pkgcli search command. MODE values must not be translated!
+#: client/pkgc-query.c:390
+msgid ""
+"Search for packages matching the given patterns. If MODE is not specified, \n"
+"'details' search is performed.\n"
+"Possible search MODEs are:\n"
+"  name    - search by package name\n"
+"  details - search by package details (default)\n"
+"  file    - search by file name\n"
+"  group   - search by package group"
+msgstr ""
+
+#: client/pkgc-query.c:418
+msgid "No search pattern specified"
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli list
+#: client/pkgc-query.c:479
+msgid "List all packages or those matching a pattern."
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli show
+#: client/pkgc-query.c:524
+msgid "Show information about one or more packages."
+msgstr ""
+
+#: client/pkgc-query.c:583 client/pkgc-query.c:869
+msgid "Check dependencies recursively"
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli list-dependencies
+#: client/pkgc-query.c:594
+msgid "Show dependencies for one or more packages."
+msgstr ""
+
+#: client/pkgc-query.c:602 client/pkgc-query.c:686 client/pkgc-query.c:800
+#, c-format
+msgid "Could not resolve packages: %s"
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli what-provides
+#: client/pkgc-query.c:635
+msgid "Show which packages provide the specified capability."
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli files
+#: client/pkgc-query.c:667
+msgid "List all files contained in one or more packages."
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli list-updates
+#: client/pkgc-query.c:760
+msgid "List all currently available package updates."
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli show-update
+#: client/pkgc-query.c:793
+msgid "Show detailed information about the specified package update."
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli resolve
+#: client/pkgc-query.c:832
+msgid "Resolve package names to package IDs."
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli list-requiring
+#: client/pkgc-query.c:880
+msgid "Show which packages require the specified packages."
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli organization
+#: client/pkgc-query.c:924
+msgid "List all available filters and groups for package organization."
+msgstr ""
+
+#. TRANSLATORS: Header for list of available package filters
+#: client/pkgc-query.c:932
+msgid "Filters:"
+msgstr ""
+
+#. TRANSLATORS: Header for list of available package groups
+#: client/pkgc-query.c:944
+msgid "Groups:"
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli list-os-upgrades
+#: client/pkgc-query.c:967
+msgid "List the operating system releases this system can be upgraded to."
+msgstr ""
+
+#. TRANSLATORS: we keep a database updated with the time that an
+#. * action was last executed
+#: client/pkgc-query.c:999
+msgid "Failed to get the time since this action was last completed"
+msgstr ""
+
+#. TRANSLATORS: this is the time since this role was used
+#: client/pkgc-query.c:1012
+msgid "Elapsed time"
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli last-time
+#: client/pkgc-query.c:1037
+msgid "Get time in seconds since the last specified action."
+msgstr ""
+
+#. TRANSLATORS: The user didn't specify what action to use
+#: client/pkgc-query.c:1048
+msgid "An action, e.g. 'update-packages' is required"
+msgstr ""
+
+#. TRANSLATORS: The user specified an invalid action
+#: client/pkgc-query.c:1056
+msgid "A correct role is required"
+msgstr ""
+
+#. TRANSLATORS: Description for backend command in pkgcli help
+#: client/pkgc-query.c:1080
+msgid "Show backend information"
+msgstr ""
+
+#. TRANSLATORS: Description for history command in pkgcli help
+#: client/pkgc-query.c:1087
+msgid "Show transaction history"
+msgstr ""
+
+#. TRANSLATORS: Description for search command in pkgcli help
+#: client/pkgc-query.c:1094
+msgid "Search for packages"
+msgstr ""
+
+#. TRANSLATORS: Description for list command in pkgcli help
+#: client/pkgc-query.c:1101
+msgid "List packages"
+msgstr ""
+
+#. TRANSLATORS: Description for show command in pkgcli help
+#: client/pkgc-query.c:1108
+msgid "Show package information"
+msgstr ""
+
+#. TRANSLATORS: Description for list-dependencies command in pkgcli help
+#: client/pkgc-query.c:1115
+msgid "List dependencies of the specified package(s)"
+msgstr ""
+
+#. TRANSLATORS: Description for list-requiring command in pkgcli help
+#: client/pkgc-query.c:1123
+msgid "List other packages requiring the specified package(s)"
+msgstr ""
+
+#. TRANSLATORS: Description for what-provides command in pkgcli help
+#: client/pkgc-query.c:1131
+msgid "List packages providing a capability"
+msgstr ""
+
+#. TRANSLATORS: Description for files command in pkgcli help
+#: client/pkgc-query.c:1138
+msgid "Show files in package"
+msgstr ""
+
+#. TRANSLATORS: Description for list-updates command in pkgcli help
+#: client/pkgc-query.c:1145
+msgid "Get available updates"
+msgstr ""
+
+#. TRANSLATORS: Description for show-update command in pkgcli help
+#: client/pkgc-query.c:1152
+msgid "Get update details"
+msgstr ""
+
+#. TRANSLATORS: Description for resolve command in pkgcli help
+#: client/pkgc-query.c:1159
+msgid "Resolve package names"
+msgstr ""
+
+#. TRANSLATORS: Description for organization command in pkgcli help
+#: client/pkgc-query.c:1166
+msgid "List available filters and groups"
+msgstr ""
+
+#. TRANSLATORS: Description for list-os-upgrades command in pkgcli help
+#: client/pkgc-query.c:1173
+msgid "List available operating system upgrades"
+msgstr ""
+
+#. TRANSLATORS: Description for last-time command in pkgcli help
+#: client/pkgc-query.c:1180
+msgid "Get time since last action"
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli repo-list
+#: client/pkgc-repo.c:79
+msgid "List all configured package repositories."
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli repo-enable
+#: client/pkgc-repo.c:113
+msgid "Enable the specified repository."
+msgstr ""
+
+#: client/pkgc-repo.c:132
+#, c-format
+msgid "Repository '%s' enabled"
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli repo-disable
+#: client/pkgc-repo.c:154
+msgid "Disable the specified repository."
+msgstr ""
+
+#: client/pkgc-repo.c:173
+#, c-format
+msgid "Repository '%s' disabled"
+msgstr ""
+
+#: client/pkgc-repo.c:196
+msgid "Automatically remove orphaned packages"
+msgstr ""
+
+#. TRANSLATORS: Description for pkgcli repo-remove
+#: client/pkgc-repo.c:208
+msgid "Remove the specified repository."
+msgstr ""
+
+#: client/pkgc-repo.c:228
+#, c-format
+msgid "Repository '%s' removed"
+msgstr ""
+
+#. TRANSLATORS: Description for repo-list command in pkgcli help
+#: client/pkgc-repo.c:246
+msgid "List repositories"
+msgstr ""
+
+#. TRANSLATORS: Description for repo-enable command in pkgcli help
+#: client/pkgc-repo.c:253
+msgid "Enable a repository"
+msgstr ""
+
+#. TRANSLATORS: Description for repo-disable command in pkgcli help
+#: client/pkgc-repo.c:260
+msgid "Disable a repository"
+msgstr ""
+
+#. TRANSLATORS: Description for repo-remove command in pkgcli help
+#: client/pkgc-repo.c:267
+msgid "Remove a repository"
+msgstr ""
+
+#: client/pkgc-util.c:110
+msgid "Not connected to PackageKit daemon"
+msgstr ""
+
+#. TRANSLATORS: A duration in seconds
+#: client/pkgc-util.c:209
+#, c-format
+msgid "%u seconds"
+msgstr ""
+
+#. TRANSLATORS: A duration in minutes & seconds
+#: client/pkgc-util.c:215
+#, c-format
+msgid "%u min %u sec"
+msgstr ""
+
+#. TRANSLATORS: A duration in minutes
+#: client/pkgc-util.c:218
+#, c-format
+msgid "%u min"
+msgstr ""
+
+#. TRANSLATORS: A duration in hours & remaining minutes
+#: client/pkgc-util.c:225
+#, c-format
+msgid "%u h %u min"
+msgstr ""
+
+#. TRANSLATORS: A duration in hours
+#: client/pkgc-util.c:228
+#, c-format
+msgid "%u h"
+msgstr ""
+
+#. TRANSLATORS: A duration in days & remaining hours
+#: client/pkgc-util.c:235
+#, c-format
+msgid "%u days %u h"
+msgstr ""
+
+#. TRANSLATORS: A duration in days
+#: client/pkgc-util.c:238
+#, c-format
+msgid "%u days"
+msgstr ""
+
+#: client/pkgc-util.c:362
+msgid "Error"
+msgstr ""
+
+#. TRANSLATORS: A warning message prefix, displayed on the command-line
+#: client/pkgc-util.c:394
+msgid "Warning:"
+msgstr ""
+
+#. TRANSLATORS: Shown in the help of a command, %s is a shorter alternative name for it
+#: client/pkgc-util.c:493
+#, c-format
+msgid "Alias: %s"
+msgstr ""
+
+#. TRANSLATORS: Failed to parse command-line options in pkgcli
+#: client/pkgc-util.c:527 client/pkgcli.c:194
+#, c-format
+msgid "Failed to parse options: %s"
+msgstr ""
+
+#. TRANSLATORS: Usage summary in pkgcli if the user has provided the wrong number of parameters
+#: client/pkgc-util.c:535
+#, c-format
+msgid "Usage: %s %s %s"
+msgstr ""
+
+#. TRANSLATORS: the severity of a package update, keep this short
+#: client/pkgc-util.c:635
+msgid "high"
+msgstr ""
+
+#. TRANSLATORS: the severity of a package update, keep this short
+#: client/pkgc-util.c:640
+msgid "critical"
+msgstr ""
+
+#. TRANSLATORS: Label for the package name in package details
+#. TRANSLATORS: Label for package update infos
+#: client/pkgc-util.c:813 client/pkgc-util.c:994
+msgid "Package:"
+msgstr ""
+
+#. TRANSLATORS: Label for the package version in package details
+#. TRANSLATORS: Label for the version of an OS release, e.g. "44"
+#: client/pkgc-util.c:817 client/pkgc-util.c:1185
+msgid "Version:"
+msgstr ""
+
+#. TRANSLATORS: Label for the package summary in package details
+#. TRANSLATORS: Label for the summary of an OS upgrade
+#: client/pkgc-util.c:823 client/pkgc-util.c:1206
+msgid "Summary:"
+msgstr ""
+
+#. TRANSLATORS: Label for the package description in package details
+#: client/pkgc-util.c:835
+msgid "Description:"
+msgstr ""
+
+#. TRANSLATORS: Label for the package license in package details
+#: client/pkgc-util.c:846
+msgid "License:"
+msgstr ""
+
+#. TRANSLATORS: Label for the package URL in package details
+#. TRANSLATORS: Label for the release notes URL of an OS upgrade
+#: client/pkgc-util.c:853 client/pkgc-util.c:1201
+msgid "URL:"
+msgstr ""
+
+#. TRANSLATORS: Label for the package group in package details
+#: client/pkgc-util.c:860
+msgid "Group:"
+msgstr ""
+
+#. TRANSLATORS: Label for the package size in package details
+#: client/pkgc-util.c:870
+msgid "Installed Size:"
+msgstr ""
+
+#. TRANSLATORS: Label for the package download size in package details
+#: client/pkgc-util.c:879
+msgid "Download Size:"
+msgstr ""
+
+#. TRANSLATORS: Header for the update details section
+#: client/pkgc-util.c:990
+msgid "Update Details:"
+msgstr ""
+
+#. TRANSLATORS: Label for update details
+#: client/pkgc-util.c:1001
+msgid "Updates:"
+msgstr ""
+
+#. TRANSLATORS: Label for obsoleted packages in update details
+#: client/pkgc-util.c:1010
+msgid "Obsoletes:"
+msgstr ""
+
+#. TRANSLATORS: Label for issue tracker entries in update details
+#: client/pkgc-util.c:1021
+msgid "Issues:"
+msgstr ""
+
+#. TRANSLATORS: Label for CVE records in update details
+#: client/pkgc-util.c:1023
+msgid "CVEs:"
+msgstr ""
+
+#. TRANSLATORS: Label for the distributor's advisory in update details
+#: client/pkgc-util.c:1025
+msgid "Advisory:"
+msgstr ""
+
+#. TRANSLATORS: Label for references of unknown kind in update details
+#: client/pkgc-util.c:1027
+msgid "References:"
+msgstr ""
+
+#. TRANSLATORS: Label for restart information in update details
+#: client/pkgc-util.c:1064
+msgid "Restart:"
+msgstr ""
+
+#. TRANSLATORS: Label for update text in update details
+#: client/pkgc-util.c:1080
+msgid "Update text:"
+msgstr ""
+
+#. TRANSLATORS: Label for changelog in update details
+#: client/pkgc-util.c:1098
+msgid "Changes:"
+msgstr ""
+
+#. TRANSLATORS: Label for update state in update details
+#: client/pkgc-util.c:1109
+msgid "State:"
+msgstr ""
+
+#. TRANSLATORS: Label for issued date in update details
+#: client/pkgc-util.c:1118
+msgid "Issued:"
+msgstr ""
+
+#. TRANSLATORS: Label for the ID of an OS upgrade, e.g. "fedora-44"
+#: client/pkgc-util.c:1167
+msgid "Upgrade:"
+msgstr ""
+
+#. TRANSLATORS: Label for the human readable name of an OS release, e.g. "Fedora 44"
+#: client/pkgc-util.c:1173
+msgid "Name:"
+msgstr ""
+
+#. TRANSLATORS: Label for the AppStream component ID of the OS, e.g. "org.fedoraproject.fedora"
+#: client/pkgc-util.c:1179
+msgid "Operating system:"
+msgstr ""
+
+#. TRANSLATORS: Label for the kind of an OS release, e.g. "stable"
+#: client/pkgc-util.c:1189
+msgid "Kind:"
+msgstr ""
+
+#. TRANSLATORS: Label for the download size of an OS upgrade
+#: client/pkgc-util.c:1195
+msgid "Download size:"
+msgstr ""
+
+#. TRANSLATORS: state of a repository in the repository list
+#: client/pkgc-util.c:1282
+msgid "enabled"
+msgstr ""
+
+#. TRANSLATORS: state of a repository in the repository list
+#: client/pkgc-util.c:1285
+msgid "disabled"
+msgstr ""
+
+#. TRANSLATORS: Label for transaction information
+#: client/pkgc-util.c:1401
+msgid "Transaction:"
+msgstr ""
+
+#. TRANSLATORS: Label for system time of the transaction
+#: client/pkgc-util.c:1405
+msgid "System time:"
+msgstr ""
+
+#. TRANSLATORS: Label for transaction success status
+#: client/pkgc-util.c:1409
+msgid "Succeeded:"
+msgstr ""
+
+#: client/pkgc-util.c:1413
+msgid "True"
+msgstr ""
+
+#: client/pkgc-util.c:1414
+msgid "False"
+msgstr ""
+
+#. TRANSLATORS: Label for transaction role
+#: client/pkgc-util.c:1418
+msgid "Role:"
+msgstr ""
+
+#. TRANSLATORS: Label for transaction duration
+#: client/pkgc-util.c:1425
+msgid "Duration:"
+msgstr ""
+
+#. TRANSLATORS: Label for transaction command line
+#: client/pkgc-util.c:1432
+msgid "Command line:"
+msgstr ""
+
+#. TRANSLATORS: Label for transaction user ID
+#: client/pkgc-util.c:1438
+msgid "User ID:"
+msgstr ""
+
+#. TRANSLATORS: Label for transaction username
+#: client/pkgc-util.c:1447
+msgid "Username:"
+msgstr ""
+
+#. TRANSLATORS: Label for transaction real name
+#: client/pkgc-util.c:1453
+msgid "Real name:"
+msgstr ""
+
+#. TRANSLATORS: Label for affected packages in transaction
+#: client/pkgc-util.c:1465
+msgid "Affected packages:"
+msgstr ""
+
+#. TRANSLATORS: column header in the transaction history
+#: client/pkgc-util.c:1506
+msgid "Date"
+msgstr ""
+
+#. TRANSLATORS: column header in the transaction history
+#: client/pkgc-util.c:1508
+msgid "Action"
+msgstr ""
+
+#. TRANSLATORS: column header in the transaction history
+#: client/pkgc-util.c:1511
+msgid "Packages"
+msgstr ""
+
+#. TRANSLATORS: column header in the transaction history
+#: client/pkgc-util.c:1513
+msgid "Duration"
+msgstr ""
+
+#. TRANSLATORS: column header in the transaction history
+#: client/pkgc-util.c:1515
+msgid "User"
+msgstr ""
+
+#: client/pkgc-util.c:1646
+msgid "More than one package matches:"
+msgstr ""
+
+#. prompt user for selection
+#: client/pkgc-util.c:1658
+#, c-format
+msgid "Please choose the correct package: "
+msgstr ""
+
+#. TRANSLATORS: command line argument, just show the version string
+#: client/pkgcli.c:79
+msgid "Show pkgcli version"
+msgstr ""
+
+#: client/pkgcli.c:81
+msgid "Show help"
+msgstr ""
+
+#: client/pkgcli.c:83
+msgid "Only provide minimal output"
+msgstr ""
+
+#: client/pkgcli.c:85
+msgid "Show more detailed output"
+msgstr ""
+
+#: client/pkgcli.c:87
+msgid "Output in JSON format"
+msgstr ""
+
+#: client/pkgcli.c:89
+msgid "Disable colored output"
+msgstr ""
+
+#. TRANSLATORS: command line argument, do we ask questions
+#: client/pkgcli.c:92
+msgid "Answer 'yes' to all questions"
+msgstr ""
+
+#. TRANSLATORS: command line argument, use a filter to narrow down results
+#: client/pkgcli.c:95
+msgid "Filter packages (installed, available, etc.)"
+msgstr ""
+
+#: client/pkgcli.c:95
+msgid "FILTER"
+msgstr ""
+
+#. TRANSLATORS: command line argument, this command is not a priority
+#: client/pkgcli.c:98
+msgid "Run the command using idle network bandwidth and also using less power"
+msgstr ""
+
+#: client/pkgcli.c:122
+msgid "No command specified. Use --help for usage information."
+msgstr ""
+
+#: client/pkgcli.c:130
+#, c-format
+msgid "Unknown command: %s"
+msgstr ""
+
+#: client/pkgcli.c:140
+#, c-format
+msgid "Failed to connect to PackageKit: %s"
+msgstr ""
+
+#: client/pkgcli.c:202
+#, c-format
+msgid "Version: %s"
+msgstr ""
+
+#: client/pkgcli.c:217
+msgid "Available Commands:"
+msgstr ""
+
+#: client/pkgcli.c:223
+msgid "Use 'pkgcli COMMAND --help' for command-specific help."
+msgstr ""
+
+#. TRANSLATORS: The user specified
+#. * an incorrect filter
+#: client/pkgcli.c:261
+msgid "The filter specified was invalid"
+msgstr ""
+
+#. TRANSLATORS: downloading repo data so we can search
+#: contrib/command-not-found/pk-command-not-found.c:425
+msgid "Downloading details about the software repositories."
+msgstr ""
+
+#. TRANSLATORS: downloading file lists so we can search
+#: contrib/command-not-found/pk-command-not-found.c:429
+msgid "Downloading filelists (this may take some time to complete)."
+msgstr ""
+
+#. TRANSLATORS: waiting for native lock
+#: contrib/command-not-found/pk-command-not-found.c:433
+msgid "Waiting for package manager lock."
+msgstr ""
+
+#. TRANSLATORS: loading package cache so we can search
+#: contrib/command-not-found/pk-command-not-found.c:437
+msgid "Loading list of packages."
+msgstr ""
+
+#. TRANSLATORS: we failed to find the package, this shouldn't happen
+#: contrib/command-not-found/pk-command-not-found.c:501
+msgid "Failed to search for file"
+msgstr ""
+
+#. TRANSLATORS: the transaction failed in a way we could not expect
+#: contrib/command-not-found/pk-command-not-found.c:515
+msgid "Getting the list of files failed"
+msgstr ""
+
+#. TRANSLATORS: we failed to launch the executable, the error follows
+#: contrib/command-not-found/pk-command-not-found.c:668
+msgid "Failed to launch:"
+msgstr ""
+
+#. TRANSLATORS: we failed to install the package
+#: contrib/command-not-found/pk-command-not-found.c:695
+msgid "Failed to install packages"
+msgstr ""
+
+#. TRANSLATORS: the transaction failed in a way we could not expect
+#: contrib/command-not-found/pk-command-not-found.c:704
+msgid "The transaction failed"
+msgstr ""
+
+#. TRANSLATORS: the prefix of all the output telling the user
+#. * why it's not executing. NOTE: this is lowercase to mimic
+#. * the style of bash itself -- apologies
+#: contrib/command-not-found/pk-command-not-found.c:820
+msgid "command not found"
+msgstr ""
+
+#. TRANSLATORS: tell the user what we think the command is
+#: contrib/command-not-found/pk-command-not-found.c:840
+msgid "Similar command is:"
+msgstr ""
+
+#. TRANSLATORS: Ask the user if we should run the similar command
+#: contrib/command-not-found/pk-command-not-found.c:853
+msgid "Run similar command:"
+msgstr ""
+
+#. TRANSLATORS: show the user a list of commands that they could have meant
+#. TRANSLATORS: show the user a list of commands we could run
+#: contrib/command-not-found/pk-command-not-found.c:865
+#: contrib/command-not-found/pk-command-not-found.c:874
+msgid "Similar commands are:"
+msgstr ""
+
+#. TRANSLATORS: ask the user to choose a file to run
+#: contrib/command-not-found/pk-command-not-found.c:881
+msgid "Please choose a command to run"
+msgstr ""
+
+#. TRANSLATORS: tell the user what package provides the command
+#: contrib/command-not-found/pk-command-not-found.c:903
+msgid "The package providing this file is:"
+msgstr ""
+
+#. TRANSLATORS: as the user if we want to install a package to provide the command
+#: contrib/command-not-found/pk-command-not-found.c:912
+#, c-format
+msgid "Install package '%s' to provide command '%s'?"
+msgstr ""
+
+#. TRANSLATORS: Show the user a list of packages that provide this command
+#: contrib/command-not-found/pk-command-not-found.c:939
+msgid "Packages providing this file are:"
+msgstr ""
+
+#. TRANSLATORS: Show the user a list of packages that they can install to provide this command
+#: contrib/command-not-found/pk-command-not-found.c:949
+msgid "Suitable packages are:"
+msgstr ""
+
+#. TRANSLATORS: ask the user to choose a file to install
+#: contrib/command-not-found/pk-command-not-found.c:957
+msgid "Please choose a package to install"
+msgstr ""
+
+#: contrib/command-not-found/pk-command-not-found.c:960
+msgid "User aborted selection"
+msgstr ""
+
+#. SECURITY:
+#. - Normal users are allowed to cancel their own task without
+#. authentication, but a different user id needs the admin password
+#. to cancel another users task.
+#: data/policy/org.freedesktop.packagekit.policy.in:23
+msgid "Cancel foreign task"
+msgstr ""
+
+#: data/policy/org.freedesktop.packagekit.policy.in:24
+msgid ""
+"Authentication is required to cancel a task that was not started by yourself"
+msgstr ""
+
+#. SECURITY:
+#. - Used by native package managers that need the package database
+#. for themselves. It stops the waiting and background tasks of all
+#. users and refuses new ones until the daemon has quit. If this
+#. action were available without authentication, any user could keep
+#. the system from ever being updated.
+#: data/policy/org.freedesktop.packagekit.policy.in:41
+msgid "Stop all software tasks and quit"
+msgstr ""
+
+#: data/policy/org.freedesktop.packagekit.policy.in:42
+msgid ""
+"Authentication is required to stop all pending package management tasks of "
+"all users and quit the management daemon"
+msgstr ""
+
+#. SECURITY:
+#. - Normal users need authentication to install signed packages
+#. from signed repositories, because otherwise the system is
+#. only as secure as the least-secure package available in the
+#. repositories.
+#: data/policy/org.freedesktop.packagekit.policy.in:58
+msgid "Install signed package"
+msgstr ""
+
+#: data/policy/org.freedesktop.packagekit.policy.in:59
+msgid "Authentication is required to install software"
+msgstr ""
+
+#. SECURITY:
+#. - Normal users require admin authentication to install untrusted or
+#. unrecognised packages, as allowing users to do this without a
+#. password would be a massive security hole.
+#. - This is not retained as each package should be authenticated.
+#: data/policy/org.freedesktop.packagekit.policy.in:75
+msgid "Install untrusted local file"
+msgstr ""
+
+#: data/policy/org.freedesktop.packagekit.policy.in:76
+msgid "Authentication is required to install untrusted software"
+msgstr ""
+
+#. SECURITY
+#. - Normal users require admin authentication to reinstall packages.
+#. - Authorization to install packages does not imply permissions to
+#. reinstall them and vice versa.
+#. - If a package in question is not trusted, user's permission to install
+#. untrusted package will be checked as well.
+#: data/policy/org.freedesktop.packagekit.policy.in:94
+msgid "Install already installed package again"
+msgstr ""
+
+#: data/policy/org.freedesktop.packagekit.policy.in:95
+msgid "Authentication is required to reinstall software"
+msgstr ""
+
+#. SECURITY
+#. - Normal users require admin authentication to downgrade packages.
+#. - User authorized to downgrade signed packages is authorized to install
+#. them as well.
+#. - If a package in question is not trusted, user's permission to install
+#. untrusted package will be checked as well.
+#: data/policy/org.freedesktop.packagekit.policy.in:112
+msgid "Install older version of installed package"
+msgstr ""
+
+#: data/policy/org.freedesktop.packagekit.policy.in:113
+msgid "Authentication is required to downgrade software"
+msgstr ""
+
+#. SECURITY:
+#. - Normal users require admin authentication to add signing keys.
+#. - This implies adding an explicit trust, and should not be granted
+#. without a secure authentication.
+#. - This is not kept as each package should be authenticated.
+#: data/policy/org.freedesktop.packagekit.policy.in:130
+msgid "Trust a key used for signing software"
+msgstr ""
+
+#: data/policy/org.freedesktop.packagekit.policy.in:131
+msgid ""
+"Authentication is required to consider a key used for signing software as "
+"trusted"
+msgstr ""
+
+#. SECURITY:
+#. - Normal users do not require admin authentication to accept new
+#. licence agreements.
+#. - Change this to 'auth_admin' for environments where users should not
+#. be given the option to make legal decisions.
+#: data/policy/org.freedesktop.packagekit.policy.in:147
+msgid "Accept EULA"
+msgstr ""
+
+#: data/policy/org.freedesktop.packagekit.policy.in:148
+msgid "Authentication is required to accept a EULA"
+msgstr ""
+
+#. SECURITY:
+#. - Normal users require admin authentication to remove packages as
+#. this can make the system unbootable or stop other applications from
+#. working.
+#. - Be sure to close the tool used to remove the packages after the
+#. admin authentication has been obtained, otherwise packages can still
+#. be removed. If this is not possible, change this authentication to
+#. 'auth_admin'.
+#. - This action is also required for any transaction that carries the
+#. purge flag (e.g. UpdatePackages), as purging deletes the
+#. configuration files and data of every package the transaction
+#. removes.
+#. TRANSLATORS: command description
+#: data/policy/org.freedesktop.packagekit.policy.in:171 src/pk-direct.c:462
+msgid "Remove package"
+msgstr ""
+
+#: data/policy/org.freedesktop.packagekit.policy.in:172
+msgid "Authentication is required to remove software"
+msgstr ""
+
+#. SECURITY:
+#. - Normal users do not require admin authentication to update the
+#. system as the packages will be signed, and the action is required
+#. to update the system when unattended.
+#. - Changing this to anything other than 'yes' will break unattended
+#. updates.
+#: data/policy/org.freedesktop.packagekit.policy.in:190
+msgid "Update software"
+msgstr ""
+
+#: data/policy/org.freedesktop.packagekit.policy.in:191
+msgid "Authentication is required to update software"
+msgstr ""
+
+#. SECURITY:
+#. - Normal users require admin authentication to enable or disable
+#. software repositories as this can be used to enable new updates or
+#. install different versions of software.
+#: data/policy/org.freedesktop.packagekit.policy.in:206
+msgid "Change software repository parameters"
+msgstr ""
+
+#: data/policy/org.freedesktop.packagekit.policy.in:207
+msgid "Authentication is required to change software repository parameters"
+msgstr ""
+
+#. SECURITY:
+#. - Normal users do not require admin authentication to refresh the
+#. cache, as this doesn't actually install or remove software.
+#: data/policy/org.freedesktop.packagekit.policy.in:221
+msgid "Refresh system repositories"
+msgstr ""
+
+#: data/policy/org.freedesktop.packagekit.policy.in:222
+msgid "Authentication is required to refresh the system repositories"
+msgstr ""
+
+#. SECURITY:
+#. - Normal users do not require admin authentication to set the proxy
+#. used for downloading packages.
+#: data/policy/org.freedesktop.packagekit.policy.in:236
+msgid "Set network proxy"
+msgstr ""
+
+#: data/policy/org.freedesktop.packagekit.policy.in:237
+msgid ""
+"Authentication is required to set the network proxy used for downloading "
+"software"
+msgstr ""
+
+#. SECURITY:
+#. - Normal users require admin authentication to upgrade the operating
+#. system to a new release as this can make the system unbootable or
+#. stop other applications from working.
+#: data/policy/org.freedesktop.packagekit.policy.in:252
+msgid "Upgrade the operating system"
+msgstr ""
+
+#: data/policy/org.freedesktop.packagekit.policy.in:253
+msgid "Authentication is required to upgrade the operating system"
+msgstr ""
+
+#. SECURITY:
+#. - Normal users require admin authentication to repair the system
+#. since this can make the system unbootable or stop other
+#. applications from working.
+#: data/policy/org.freedesktop.packagekit.policy.in:268
+msgid "Repair System"
+msgstr ""
+
+#: data/policy/org.freedesktop.packagekit.policy.in:269
+msgid "Authentication is required to repair the installed software"
+msgstr ""
+
+#. SECURITY:
+#. - Normal users are able to ask updates to be installed at
+#. early boot time without a password.
+#. SECURITY:
+#. - Normal users require admin authentication to upgrade the system
+#. to a new distribution since this can make the system unbootable or
+#. stop other applications from working.
+#: data/policy/org.freedesktop.packagekit.policy.in:283
+#: data/policy/org.freedesktop.packagekit.policy.in:299
+msgid "Trigger offline updates"
+msgstr ""
+
+#: data/policy/org.freedesktop.packagekit.policy.in:284
+#: data/policy/org.freedesktop.packagekit.policy.in:300
+msgid "Authentication is required to trigger offline updates"
+msgstr ""
+
+#. SECURITY:
+#. - Normal users are able to clear the updates message that is
+#. shown after an updates are applied at boot time.
+#: data/policy/org.freedesktop.packagekit.policy.in:314
+msgid "Clear offline update message"
+msgstr ""
+
+#: data/policy/org.freedesktop.packagekit.policy.in:315
+msgid "Authentication is required to clear the offline updates message"
+msgstr ""
+
+#: lib/pk-console-private.c:737
+#, c-format
+msgid "Please enter a number from 1 to %i: "
+msgstr ""
+
+#. TRANSLATORS: shown after a yes/no question, the capital letter is the
+#. * default answer; the letters must match the translated "y" and "n" answers
+#: lib/pk-console-private.c:844
+msgid "[Y/n]"
+msgstr ""
+
+#: lib/pk-console-private.c:844
+msgid "[N/y]"
+msgstr ""
+
+#. TRANSLATORS: short "yes" answer, must match [Y/n]
+#: lib/pk-console-private.c:861
+msgctxt "Answer"
+msgid "y"
+msgstr ""
+
+#. TRANSLATORS: full "yes" answer
+#: lib/pk-console-private.c:865
+msgctxt "Answer"
+msgid "yes"
+msgstr ""
+
+#. TRANSLATORS: short "no" answer, must match [N/y]
+#: lib/pk-console-private.c:872
+msgctxt "Answer"
+msgid "n"
+msgstr ""
+
+#. TRANSLATORS: full "no" answer
+#: lib/pk-console-private.c:876
+msgctxt "Answer"
+msgid "no"
+msgstr ""
+
+#. TRANSLATORS: This is when the transaction status is not known
+#: lib/pk-console-private.c:901
+msgid "Unknown state"
+msgstr ""
+
+#. TRANSLATORS: transaction state, the daemon is in the process of starting
+#: lib/pk-console-private.c:905
+msgid "Starting"
+msgstr ""
+
+#. TRANSLATORS: transaction state, the transaction is waiting for another to complete
+#: lib/pk-console-private.c:909
+msgid "Waiting in queue"
+msgstr ""
+
+#. TRANSLATORS: transaction state, just started
+#: lib/pk-console-private.c:913
+msgid "Running"
+msgstr ""
+
+#. TRANSLATORS: transaction state, is querying data
+#: lib/pk-console-private.c:917
+msgid "Querying"
+msgstr ""
+
+#. TRANSLATORS: transaction state, getting data from a server
+#: lib/pk-console-private.c:921
+msgid "Getting information"
+msgstr ""
+
+#. TRANSLATORS: transaction state, removing packages
+#: lib/pk-console-private.c:925
+msgid "Removing packages"
+msgstr ""
+
+#. TRANSLATORS: transaction state, downloading package files
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-console-private.c:929 lib/pk-enum.c:1278
+msgid "Downloading packages"
+msgstr ""
+
+#. TRANSLATORS: transaction state, installing packages
+#: lib/pk-console-private.c:933
+msgid "Installing packages"
+msgstr ""
+
+#. TRANSLATORS: transaction state, refreshing internal lists
+#: lib/pk-console-private.c:937
+msgid "Refreshing software list"
+msgstr ""
+
+#. TRANSLATORS: transaction state, installing updates
+#: lib/pk-console-private.c:941
+msgid "Installing updates"
+msgstr ""
+
+#. TRANSLATORS: transaction state, removing old packages, and cleaning config files
+#: lib/pk-console-private.c:945
+msgid "Cleaning up packages"
+msgstr ""
+
+#. TRANSLATORS: transaction state, obsoleting old packages
+#: lib/pk-console-private.c:949
+msgid "Obsoleting packages"
+msgstr ""
+
+#. TRANSLATORS: transaction state, checking the transaction before we do it
+#: lib/pk-console-private.c:953
+msgid "Resolving dependencies"
+msgstr ""
+
+#. TRANSLATORS: transaction state, checking if we have all the security keys for the operation
+#: lib/pk-console-private.c:957
+msgid "Checking signatures"
+msgstr ""
+
+#. TRANSLATORS: transaction state, when we're doing a test transaction
+#: lib/pk-console-private.c:961
+msgid "Testing changes"
+msgstr ""
+
+#. TRANSLATORS: transaction state, when we're writing to the system package database
+#: lib/pk-console-private.c:965
+msgid "Committing changes"
+msgstr ""
+
+#. TRANSLATORS: transaction state, requesting data from a server
+#: lib/pk-console-private.c:969
+msgid "Requesting data"
+msgstr ""
+
+#. TRANSLATORS: transaction state, all done!
+#: lib/pk-console-private.c:973
+msgid "Finished"
+msgstr ""
+
+#. TRANSLATORS: transaction state, in the process of cancelling
+#: lib/pk-console-private.c:977
+msgid "Cancelling"
+msgstr ""
+
+#. TRANSLATORS: transaction state, downloading metadata
+#: lib/pk-console-private.c:981
+msgid "Downloading repository information"
+msgstr ""
+
+#. TRANSLATORS: transaction state, downloading metadata
+#: lib/pk-console-private.c:985
+msgid "Downloading list of packages"
+msgstr ""
+
+#. TRANSLATORS: transaction state, downloading metadata
+#: lib/pk-console-private.c:989
+msgid "Downloading file lists"
+msgstr ""
+
+#. TRANSLATORS: transaction state, downloading metadata
+#: lib/pk-console-private.c:993
+msgid "Downloading lists of changes"
+msgstr ""
+
+#. TRANSLATORS: transaction state, downloading metadata
+#: lib/pk-console-private.c:997
+msgid "Downloading update information"
+msgstr ""
+
+#. TRANSLATORS: transaction state, repackaging delta files
+#: lib/pk-console-private.c:1001
+msgid "Repackaging files"
+msgstr ""
+
+#. TRANSLATORS: transaction state, loading databases
+#: lib/pk-console-private.c:1005
+msgid "Loading cache"
+msgstr ""
+
+#. TRANSLATORS: transaction state, when we're waiting for the native tools to exit
+#: lib/pk-console-private.c:1009
+msgid "Waiting for package manager lock"
+msgstr ""
+
+#. TRANSLATORS: transaction state, waiting for user to type in a password
+#: lib/pk-console-private.c:1013
+msgid "Waiting for authentication"
+msgstr ""
+
+#. TRANSLATORS: transaction state, we are copying package files before or after the transaction
+#: lib/pk-console-private.c:1017
+msgid "Copying files"
+msgstr ""
+
+#. TRANSLATORS: transaction state, we are running hooks before or after the transaction
+#: lib/pk-console-private.c:1021
+msgid "Running hooks"
+msgstr ""
+
+#. TRANSLATORS: turn on all debugging
+#: lib/pk-debug.c:148
+msgid "Show debugging information for all files"
+msgstr ""
+
+#: lib/pk-debug.c:229
+msgid "Debugging Options"
+msgstr ""
+
+#: lib/pk-debug.c:230
+msgid "Show debugging options"
+msgstr ""
+
+#. TRANSLATORS: The type of update
+#: lib/pk-enum.c:1009
+msgid "Blocked"
+msgstr ""
+
+#. TRANSLATORS: The state of a package
+#. TRANSLATORS: The action of the package, in past tense
+#: lib/pk-enum.c:1013 lib/pk-enum.c:1131
+msgid "Installed"
+msgstr ""
+
+#. TRANSLATORS: The state of a package, i.e. not installed
+#: lib/pk-enum.c:1017
+msgid "Available"
+msgstr ""
+
+#. TRANSLATORS: The state of a package: to be installed with the next action
+#: lib/pk-enum.c:1021
+msgid "Install"
+msgstr ""
+
+#. TRANSLATORS: The state of a package: to be removed with the next action
+#: lib/pk-enum.c:1025
+msgid "Remove"
+msgstr ""
+
+#. TRANSLATORS: The state of a package: to be reinstalled with the next action
+#: lib/pk-enum.c:1029
+msgid "Reinstall"
+msgstr ""
+
+#. TRANSLATORS: The state of a package: package is obsolete
+#: lib/pk-enum.c:1033
+msgid "Obsolete"
+msgstr ""
+
+#. TRANSLATORS: The state of a package: package is to be downgraded
+#: lib/pk-enum.c:1037
+msgid "Downgrade"
+msgstr ""
+
+#. TRANSLATORS: The state of a package: package is to be updated
+#: lib/pk-enum.c:1041
+msgid "Update"
+msgstr ""
+
+#. TRANSLATORS: The state of a package: to be updated with a security fix
+#: lib/pk-enum.c:1045
+msgid "Security update"
+msgstr ""
+
+#. TRANSLATORS: The state of a package: to be updated with an enhancement
+#: lib/pk-enum.c:1049
+msgid "Enhancement update"
+msgstr ""
+
+#. TRANSLATORS: The action of the package, in present tense
+#: lib/pk-enum.c:1074
+msgid "Downloading"
+msgstr ""
+
+#. TRANSLATORS: The action of the package, in present tense
+#: lib/pk-enum.c:1078
+msgid "Updating"
+msgstr ""
+
+#. TRANSLATORS: The action of the package, in present tense
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1082 lib/pk-enum.c:1217
+msgid "Installing"
+msgstr ""
+
+#. TRANSLATORS: The action of the package, in present tense
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1086 lib/pk-enum.c:1213
+msgid "Removing"
+msgstr ""
+
+#. TRANSLATORS: The action of the package, in present tense
+#: lib/pk-enum.c:1090
+msgid "Cleaning up"
+msgstr ""
+
+#. TRANSLATORS: The action of the package, in present tense
+#: lib/pk-enum.c:1094
+msgid "Obsoleting"
+msgstr ""
+
+#. TRANSLATORS: The action of the package, in present tense
+#: lib/pk-enum.c:1098
+msgid "Reinstalling"
+msgstr ""
+
+#. TRANSLATORS: The action of the package, in past tense
+#: lib/pk-enum.c:1123
+msgid "Downloaded"
+msgstr ""
+
+#. TRANSLATORS: The action of the package, in past tense
+#: lib/pk-enum.c:1127
+msgid "Updated"
+msgstr ""
+
+#. TRANSLATORS: The action of the package, in past tense
+#: lib/pk-enum.c:1135
+msgid "Removed"
+msgstr ""
+
+#. TRANSLATORS: The action of the package, in past tense
+#: lib/pk-enum.c:1139
+msgid "Cleaned up"
+msgstr ""
+
+#. TRANSLATORS: The action of the package, in past tense
+#: lib/pk-enum.c:1143
+msgid "Obsoleted"
+msgstr ""
+
+#. TRANSLATORS: The action of the package, in past tense
+#: lib/pk-enum.c:1147
+msgid "Reinstalled"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1172
+msgid "Unknown role type"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1176
+msgid "Getting dependencies"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1180
+msgid "Getting update details"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1185
+msgid "Getting details"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1189
+msgid "Getting dependents"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1193
+msgid "Getting updates"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1197
+msgid "Searching by details"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1201
+msgid "Searching by file"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1205
+msgid "Searching groups"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1209
+msgid "Searching by name"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1221
+msgid "Installing files"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1225
+msgid "Refreshing cache"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1229
+msgid "Updating packages"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1233
+msgid "Canceling"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1237
+msgid "Getting repositories"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1241
+msgid "Modifying repository"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1245
+msgid "Setting data"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1249
+msgid "Removing repository"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1253
+msgid "Resolving"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1258
+msgid "Getting file list"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1262
+msgid "Getting provides"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1266
+msgid "Installing signature"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1270
+msgid "Getting packages"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1274
+msgid "Accepting EULA"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1282
+msgid "Getting system upgrades"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1286
+msgid "Getting transaction history"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1290
+msgid "Upgrading the system"
+msgstr ""
+
+#. TRANSLATORS: The role of the transaction, in present tense
+#: lib/pk-enum.c:1294
+msgid "Repairing system"
+msgstr ""
+
+#. TRANSLATORS: ask the user if they are comfortable installing insecure packages
+#: lib/pk-task-text.c:52
+msgid "Do you want to allow installing of unsigned software?"
+msgstr ""
+
+#. TRANSLATORS: tell the user we've not done anything
+#: lib/pk-task-text.c:58
+msgid "The unsigned software will not be installed."
+msgstr ""
+
+#. TRANSLATORS: the package repository is signed by a key that is not recognised
+#: lib/pk-task-text.c:110
+msgid "Software source signature required"
+msgstr ""
+
+#. TRANSLATORS: the package that is not signed by a known key
+#. TRANSLATORS: the package name that was trying to be installed
+#: lib/pk-task-text.c:113 lib/pk-task-text.c:184
+msgid "Package"
+msgstr ""
+
+#. TRANSLATORS: the package repository name
+#: lib/pk-task-text.c:116
+msgid "Software source name"
+msgstr ""
+
+#. TRANSLATORS: the key URL
+#: lib/pk-task-text.c:119
+msgid "Key URL"
+msgstr ""
+
+#. TRANSLATORS: the username of the key
+#: lib/pk-task-text.c:122
+msgid "Key user"
+msgstr ""
+
+#. TRANSLATORS: the key ID, usually a few hex digits
+#: lib/pk-task-text.c:125
+msgid "Key ID"
+msgstr ""
+
+#. TRANSLATORS: the key fingerprint, again, yet more hex
+#: lib/pk-task-text.c:128
+msgid "Key fingerprint"
+msgstr ""
+
+#. TRANSLATORS: the timestamp (a bit like a machine readable time)
+#: lib/pk-task-text.c:131
+msgid "Key Timestamp"
+msgstr ""
+
+#. TRANSLATORS: ask the user if they want to import
+#: lib/pk-task-text.c:144
+msgid "Do you accept this signature?"
+msgstr ""
+
+#. TRANSLATORS: tell the user we've not done anything
+#: lib/pk-task-text.c:149
+msgid "The signature was not accepted."
+msgstr ""
+
+#. TRANSLATORS: this is another name for a software licence that has to be read before installing
+#: lib/pk-task-text.c:181
+msgid "End user licence agreement required"
+msgstr ""
+
+#. TRANSLATORS: the vendor (e.g. vmware) that is providing the EULA
+#: lib/pk-task-text.c:187
+msgid "Vendor"
+msgstr ""
+
+#. TRANSLATORS: the EULA text itself (long and boring)
+#: lib/pk-task-text.c:191
+msgid "Agreement"
+msgstr ""
+
+#. TRANSLATORS: ask the user if they've read and accepted the EULA
+#: lib/pk-task-text.c:195
+msgid "Do you accept this agreement?"
+msgstr ""
+
+#. TRANSLATORS: tell the user we've not done anything
+#: lib/pk-task-text.c:200
+msgid "The agreement was not accepted."
+msgstr ""
+
+#. TRANSLATORS: When processing with the purge flag, removed packages lose their configuration files and data too
+#: lib/pk-task-text.c:216
+msgid ""
+"The following packages have to be removed, including their configuration "
+"files and data:"
+msgstr ""
+
+#. TRANSLATORS: When processing, we might have to remove other dependencies
+#: lib/pk-task-text.c:219
+msgid "The following packages have to be removed:"
+msgstr ""
+
+#. TRANSLATORS: When processing, we might have to install other dependencies
+#: lib/pk-task-text.c:224
+msgid "The following packages have to be installed:"
+msgstr ""
+
+#. TRANSLATORS: When processing, we might have to update other dependencies
+#: lib/pk-task-text.c:229
+msgid "The following packages have to be updated:"
+msgstr ""
+
+#. TRANSLATORS: When processing, we might have to reinstall other dependencies
+#: lib/pk-task-text.c:234
+msgid "The following packages have to be reinstalled:"
+msgstr ""
+
+#. TRANSLATORS: When processing, we might have to downgrade other dependencies
+#: lib/pk-task-text.c:239
+msgid "The following packages have to be downgraded:"
+msgstr ""
+
+#. TRANSLATORS: When processing with the purge flag, obsoleted packages lose their configuration files and data too
+#: lib/pk-task-text.c:245
+msgid ""
+"The following packages have to be obsoleted, including their configuration "
+"files and data:"
+msgstr ""
+
+#. TRANSLATORS: When processing, we might have to obsolete other dependencies
+#: lib/pk-task-text.c:248
+msgid "The following packages have to be obsoleted:"
+msgstr ""
+
+#. TRANSLATORS: When processing, untrusted and non-verified packages may be encountered
+#: lib/pk-task-text.c:253
+msgid "The following packages are untrusted:"
+msgstr ""
+
+#. TRANSLATORS: part of the transaction summary, e.g. "2 to install, 1 to update, 0 to remove"
+#: lib/pk-task-text.c:301
+#, c-format
+msgid "%u to install"
+msgid_plural "%u to install"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: part of the transaction summary, e.g. "2 to install, 1 to update, 0 to remove"
+#: lib/pk-task-text.c:305
+#, c-format
+msgid "%u to update"
+msgid_plural "%u to update"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: part of the transaction summary, e.g. "2 to install, 1 to update, 0 to remove"
+#: lib/pk-task-text.c:309
+#, c-format
+msgid "%u to remove"
+msgid_plural "%u to remove"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: part of the transaction summary, only shown if packages are downgraded
+#: lib/pk-task-text.c:314
+#, c-format
+msgid "%u to downgrade"
+msgid_plural "%u to downgrade"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: part of the transaction summary, only shown if packages are reinstalled
+#: lib/pk-task-text.c:321
+#, c-format
+msgid "%u to reinstall"
+msgid_plural "%u to reinstall"
+msgstr[0] ""
+msgstr[1] ""
+
+#. TRANSLATORS: separator between the parts of the transaction summary
+#: lib/pk-task-text.c:327
+msgid ", "
+msgstr ""
+
+#. TRANSLATORS: ask the user if the proposed changes are okay
+#: lib/pk-task-text.c:439
+msgid "Proceed with changes?"
+msgstr ""
+
+#. TRANSLATORS: tell the user we didn't do anything
+#: lib/pk-task-text.c:444
+msgid "The transaction did not proceed."
+msgstr ""
+
+#. TRANSLATORS: this is a command alias
+#: src/pk-direct.c:98
+#, c-format
+msgid "Alias to %s"
+msgstr ""
+
+#: src/pk-direct.c:165
+msgid "Command not found, valid commands are:"
+msgstr ""
+
+#. TRANSLATORS: a backend is the system package tool, e.g. dnf, apt
+#: src/pk-direct.c:410 src/pk-main.c:123
+msgid "Packaging backend to use, e.g. dummy"
+msgstr ""
+
+#. TRANSLATORS: path to an alternative configuration file, used for testing
+#: src/pk-direct.c:413 src/pk-main.c:141
+msgid "Use this configuration file instead of the default"
+msgstr ""
+
+#: src/pk-direct.c:413 src/pk-main.c:141
+msgid "FILE"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: src/pk-direct.c:432
+msgid "Refresh the cache"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: src/pk-direct.c:437
+msgid "Refresh the cache (forced)"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: src/pk-direct.c:442
+msgid "Search by names"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: src/pk-direct.c:447
+msgid "Search by details"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: src/pk-direct.c:452
+msgid "Search by files"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: src/pk-direct.c:457
+msgid "Install package"
+msgstr ""
+
+#. TRANSLATORS: command description
+#: src/pk-direct.c:467
+msgid "Set repository options"
+msgstr ""
+
+#. TRANSLATORS: program name
+#: src/pk-direct.c:478
+msgid "PackageKit"
+msgstr ""
+
+#. TRANSLATORS: the user didn't read the man page
+#: src/pk-direct.c:484
+msgid "Failed to parse arguments"
+msgstr ""
+
+#. TRANSLATORS: probably not yet installed
+#: src/pk-direct.c:493
+msgid "Failed to load the config file"
+msgstr ""
+
+#. TRANSLATORS: cannot load the backend the user specified
+#: src/pk-direct.c:525
+msgid "Failed to load the backend"
+msgstr ""
+
+#. TRANSLATORS: cannot unload the backend the user specified
+#: src/pk-direct.c:576
+msgid "Failed to unload the backend"
+msgstr ""
+
+#. TRANSLATORS: if we should not monitor how long we are inactive for
+#: src/pk-main.c:126
+msgid "Disable the idle timer"
+msgstr ""
+
+#. TRANSLATORS: show version
+#: src/pk-main.c:129
+msgid "Show version and exit"
+msgstr ""
+
+#. TRANSLATORS: exit after we've started up, used for user profiling
+#: src/pk-main.c:132
+msgid "Exit after a small delay"
+msgstr ""
+
+#. TRANSLATORS: exit straight away, used for automatic profiling
+#: src/pk-main.c:135
+msgid "Exit after the engine has loaded"
+msgstr ""
+
+#. TRANSLATORS: don't unset environment variables, used for debugging
+#: src/pk-main.c:138
+msgid "Don't clear environment on startup"
+msgstr ""
+
+#. TRANSLATORS: describing the service that is running
+#: src/pk-main.c:163
+msgid "PackageKit service"
+msgstr ""
+
+#. TRANSLATORS: The placeholder is an error message
+#: src/pk-main.c:192
+#, c-format
+msgid "Failed to load config file: %s"
+msgstr ""
+
+#. TRANSLATORS: The placeholder is an error message.
+#. * `auto` is a potential value of the DefaultBackend= configuration key.
+#: src/pk-main.c:237
+#, c-format
+msgid "Failed to resolve auto: %s"
+msgstr ""
+
+#. TRANSLATORS: cannot load the backend the user specified
+#: src/pk-main.c:256
+#, c-format
+msgid "Failed to load the backend: %s"
+msgstr ""
+
+#. TRANSLATORS: is not GPG signed
+#: src/pk-transaction.c:2734
+msgid "The software is not from a trusted source."
+msgstr ""
+
+#: src/pk-transaction.c:2742
+msgid "Do not update this package unless you are sure it is safe to do so."
+msgstr ""
+
+#: src/pk-transaction.c:2744
+msgid "Do not update these packages unless you are sure it is safe to do so."
+msgstr ""
+
+#: src/pk-transaction.c:2755
+msgid "Do not install this package unless you are sure it is safe to do so."
+msgstr ""
+
+#: src/pk-transaction.c:2757
+msgid "Do not install these packages unless you are sure it is safe to do so."
+msgstr ""

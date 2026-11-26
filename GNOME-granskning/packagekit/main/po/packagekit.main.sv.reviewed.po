@@ -17,9 +17,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PackageKit\n"
-"Report-Msgid-Bugs-To: packagekit@lists.freedesktop.org\n"
-"POT-Creation-Date: 2026-10-22 10:19+0200\n"
-"PO-Revision-Date: 2026-11-23 12:00+0100\n"
+"Report-Msgid-Bugs-To: http://bugzilla.freedesktop.org/\n"
+"POT-Creation-Date: 2026-11-20 18:35+0000\n"
+"PO-Revision-Date: 2026-11-26 12:00+0100\n"
 "Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/packagekit/translations/sv/>\n"
 "Language: sv\n"
@@ -55,12 +55,12 @@ msgstr "Startar om efter att uppdateringar installerats…"
 #. TRANSLATORS: we've finished doing offline updates
 #: client/pk-offline-update.c:246
 msgid "Shutting down after installing updates…"
-msgstr "Stäng ner efter att uppdateringar installerats…"
+msgstr "Stänger av efter att uppdateringar har installerats…"
 
 #. TRANSLATORS: we've started doing offline updates
 #: client/pk-offline-update.c:392
 msgid "Installing updates; this could take a while..."
-msgstr "Installera uppdateringar; detta kan ta ett tag…"
+msgstr "Installerar uppdateringar. Det kan ta en stund…"
 
 #. TRANSLATORS: we've started doing an offline OS upgrade
 #: client/pk-offline-update.c:430
@@ -76,7 +76,7 @@ msgstr "Bakgrundsprocessen kraschade mitt under transaktionen!"
 #. TRANSLATORS: command line argument, do we just download or apply changes
 #: client/pkgc-manage.c:44
 msgid "Prepare the transaction by downloading packages only"
-msgstr "Förbered transaktionen genom att endast hämta ner paket"
+msgstr "Förbered transaktionen genom att bara hämta paket"
 
 #. TRANSLATORS: command line argument, do we allow package downgrades
 #: client/pkgc-manage.c:51
@@ -91,7 +91,7 @@ msgstr "Tillåt ominstallation av paket"
 #. TRANSLATORS: command line argument
 #: client/pkgc-manage.c:65
 msgid "Allow installation of untrusted packages"
-msgstr "Tillåt installation av ej betrodda paket"
+msgstr "Tillåt installation av paket som inte är betrodda"
 
 #. TRANSLATORS: command line argument
 #: client/pkgc-manage.c:72
@@ -100,8 +100,12 @@ msgstr "Ta inte automatiskt bort oanvända beroenden"
 
 #. TRANSLATORS: command line argument, remove configuration files too
 #: client/pkgc-manage.c:79
-msgid "Also remove residual data (config files, databases, etc.) when removing packages"
-msgstr "Ta även bort kvarvarande data (konfigurationsfiler, databaser o.s.v.) när paket tas bort"
+msgid ""
+"Also remove residual data (config files, databases, etc.) when removing "
+"packages"
+msgstr ""
+"Ta även bort kvarvarande data (konfigurationsfiler, databaser osv.) när "
+"paket tas bort"
 
 #. TRANSLATORS: command line argument
 #: client/pkgc-manage.c:86
@@ -114,24 +118,24 @@ msgstr "SEKUNDER"
 
 #: client/pkgc-manage.c:156
 msgid "A system restart is required to complete the changes."
-msgstr "En systemomstart krävs för att färdigställa ändringarna."
+msgstr "En omstart av systemet krävs för att slutföra ändringarna."
 
 #: client/pkgc-manage.c:161
 msgid "You need to log out and back in to complete the changes."
-msgstr "Du behöver logga ut och logga in igen för att färdigställa ändringarna."
+msgstr "Du måste logga ut och in igen för att slutföra ändringarna."
 
 #: client/pkgc-manage.c:167
 msgid "Affected applications need to be restarted to complete the changes."
-msgstr "Påverkade program behöver startas om för att färdigställa ändringarna."
+msgstr "Berörda program måste startas om för att slutföra ändringarna."
 
 #. TRANSLATORS: Description for pkgcli refresh
 #: client/pkgc-manage.c:250
 msgid "Refresh the package metadata cache."
-msgstr "Uppdatera paketets metadatacache."
+msgstr "Uppdatera cacheminnet för paketmetadata."
 
 #: client/pkgc-manage.c:276
 msgid "Package metadata refreshed"
-msgstr "Metadata för paket uppdaterades"
+msgstr "Paketmetadata har uppdaterats"
 
 #. TRANSLATORS: Description for pkgcli install
 #: client/pkgc-manage.c:301
@@ -185,7 +189,8 @@ msgstr "Katalogen finns inte: %s"
 #. TRANSLATORS: Description for pkgcli update
 #: client/pkgc-manage.c:607
 msgid "Update all packages or specific packages to their latest versions."
-msgstr "Uppdatera alla paket eller specifika paket till sina senaste versioner."
+msgstr ""
+"Uppdatera alla paket eller specifika paket till sina senaste versioner."
 
 #: client/pkgc-manage.c:630
 #, c-format
@@ -201,16 +206,17 @@ msgstr "Misslyckades med att hämta uppdateringar: %s"
 msgid "No packages require updating"
 msgstr "Inga paket behöver uppdateras"
 
-#. TRANSLATORS: Description of pkgcli upgrade-os. Do not translate "list-os-upgrades"/"update"
+#. TRANSLATORS: Description of pkgcli upgrade-os. Do not translate "list-os-
+#. upgrades"/"update"
 #: client/pkgc-manage.c:708
 msgid ""
 "Upgrade the operating system to the release with the given upgrade ID.\n"
 "The available upgrade IDs are shown by `list-os-upgrades`.\n"
 "This command does not update packages within the current release, use `update` for that."
 msgstr ""
-"Uppgradera operativsystemet till utgåvan med givet uppgraderings-ID.\n"
-"Tillgängliga uppgraderings-ID:n visas av `list-os-upgrades`.\n"
-"Detta kommando uppdaterar inte paket inom aktuell utgåva, Använd `update` för det."
+"Uppgradera operativsystemet till utgåvan med det angivna uppgraderings-ID:t.\n"
+"Tillgängliga uppgraderings-ID:n visas med `list-os-upgrades`.\n"
+"Det här kommandot uppdaterar inte paket i den aktuella utgåvan. Använd `update` för det."
 
 #: client/pkgc-manage.c:750
 #, c-format
@@ -224,7 +230,8 @@ msgstr "Frånkopplad uppdatering utlöses inte."
 #: client/pkgc-manage.c:769
 #, c-format
 msgid "Offline update is triggered. Action after update: %s"
-msgstr "Frånkopplad uppdatering utlöses. Åtgärd efter uppdatering: %s"
+msgstr ""
+"Uppdatering i frånkopplat läge har utlösts. Åtgärd efter uppdateringen: %s"
 
 #. TRANSLATORS: Packages that were prepared for an offline update
 #: client/pkgc-manage.c:780
@@ -233,21 +240,24 @@ msgstr "Förberedda paket:"
 
 #: client/pkgc-manage.c:794
 msgid "No offline update is prepared."
-msgstr "Ingen frånkopplad uppdatering har förberetts."
+msgstr "Ingen uppdatering i frånkopplat läge har förberetts."
 
 #: client/pkgc-manage.c:797
 #, c-format
 msgid "Failed to read prepared offline updates: %s"
-msgstr "Misslyckades med att läsa förberedda frånkopplade uppdateringar: %s"
+msgstr ""
+"Det gick inte att läsa förberedda uppdateringar i frånkopplat läge: %s"
 
 #: client/pkgc-manage.c:808
 msgid "No results from last offline update available."
-msgstr "Inga resultat från senaste frånkopplad uppdatering tillgängliga."
+msgstr ""
+"Inga resultat från den senaste uppdateringen i frånkopplat läge är "
+"tillgängliga."
 
 #: client/pkgc-manage.c:815
 #, c-format
 msgid "Last offline update failed: %s: %s"
-msgstr "Senaste frånkopplad uppdatering misslyckades: %s: %s"
+msgstr "Den senaste uppdateringen i frånkopplat läge misslyckades: %s: %s"
 
 #: client/pkgc-manage.c:822
 msgid "Last offline update completed successfully"
@@ -265,10 +275,13 @@ msgstr "Misslyckades med att utlösa frånkopplad uppdatering: %s"
 
 #: client/pkgc-manage.c:860
 msgid "Offline update scheduled. System will update on next reboot."
-msgstr "Frånkopplad uppdatering schemalagd. Systemet kommer uppdateras vid nästa omstart."
+msgstr ""
+"Uppdatering i frånkopplat läge har schemalagts. Systemet uppdateras vid "
+"nästa omstart."
 
 #. TRANSLATORS: Description of the pkgcli offline-update command.
-#. * The request values (trigger, prepare, etc.) are parameters and MUST NOT be translated.
+#. * The request values (trigger, prepare, etc.) are parameters and MUST NOT
+#. be translated.
 #: client/pkgc-manage.c:880
 msgid ""
 "Trigger & manage offline system updates.\n"
@@ -279,13 +292,13 @@ msgid ""
 "  cancel  - cancel a planned offline update\n"
 "  status  - show status information about a prepared or finished offline update"
 msgstr ""
-"Utlös & hantera frånkopplade systemuppdateringar.\n"
+"Utlös och hantera systemuppdateringar i frånkopplat läge.\n"
 "\n"
-"Du kan välja en av dessa förfrågningar:\n"
-"  prepare - förbered en frånkopplad uppdatering och utlös den (standard)\n"
-"  trigger - utlös en (manuellt förberedd) frånkopplad uppdatering\n"
-"  cancel  - avbryt en planerad frånkopplad uppdatering\n"
-"  status  - visa statusinformation om en förberedd eller slutförd frånkopplad uppdatering"
+"Välj en av följande åtgärder:\n"
+"  prepare - förbered en uppdatering i frånkopplat läge och utlös den (standard)\n"
+"  trigger - utlös en (manuellt förberedd) uppdatering i frånkopplat läge\n"
+"  cancel  - avbryt en planerad uppdatering i frånkopplat läge\n"
+"  status  - visa status för en förberedd eller slutförd uppdatering i frånkopplat läge"
 
 #: client/pkgc-manage.c:902
 #, c-format
@@ -315,73 +328,77 @@ msgstr "Försök reparera pakethanteringssystemet."
 msgid "System repaired successfully"
 msgstr "Reparerade systemet"
 
-#. TRANSLATORS: Description for pkgcli quit
+#. TRANSLATORS: Description for pkgcli yield
 #: client/pkgc-manage.c:1058
-msgid "Safely terminate the PackageKit daemon."
-msgstr "Avsluta PackageKit-demon på ett säkert sätt."
+msgid ""
+"Cancel all queued package management tasks of all users and make the daemon "
+"quit as soon as the running tasks are done."
+msgstr ""
+"Avbryt alla köade pakethanteringsuppgifter för alla användare och låt "
+"bakgrundstjänsten avslutas så snart de pågående uppgifterna är klara."
 
-#: client/pkgc-manage.c:1064
+#: client/pkgc-manage.c:1068
 #, c-format
-msgid "Failed to send daemon quit request: %s"
-msgstr "Misslyckades med att skicka avslutningsförfrågan till demon: %s"
+msgid "Failed to make the daemon yield: %s"
+msgstr "Det gick inte att beordra bakgrundstjänsten att avsluta: %s"
 
 #. TRANSLATORS: Description for refresh command in pkgcli help
-#: client/pkgc-manage.c:1084
+#: client/pkgc-manage.c:1088
 msgid "Refresh package metadata"
 msgstr "Uppdatera paketmetadata"
 
 #. TRANSLATORS: Description for install command in pkgcli help
-#: client/pkgc-manage.c:1091
+#: client/pkgc-manage.c:1095
 msgid "Install packages"
 msgstr "Installera paket"
 
 #. TRANSLATORS: Description for remove command in pkgcli help
-#: client/pkgc-manage.c:1098
+#: client/pkgc-manage.c:1102
 msgid "Remove packages"
 msgstr "Ta bort paket"
 
 #. TRANSLATORS: Description for update command in pkgcli help
-#: client/pkgc-manage.c:1105
+#: client/pkgc-manage.c:1109
 msgid "Update packages"
 msgstr "Uppdatera paket"
 
 #. TRANSLATORS: Description for upgrade-os command in pkgcli help
-#: client/pkgc-manage.c:1112
+#: client/pkgc-manage.c:1116
 msgid "Upgrade the operating system to a new release"
 msgstr "Uppgradera operativsystemet till en ny utgåva"
 
 #. TRANSLATORS: Description for download command in pkgcli help
-#: client/pkgc-manage.c:1119
+#: client/pkgc-manage.c:1123
 msgid "Download packages"
 msgstr "Hämta paket"
 
 #. TRANSLATORS: Description for offline-update command in pkgcli help
-#: client/pkgc-manage.c:1126
+#: client/pkgc-manage.c:1130
 msgid "Manage offline system updates"
 msgstr "Hantera frånkopplade systemuppdateringar"
 
 #. TRANSLATORS: Description for install-sig command in pkgcli help
-#: client/pkgc-manage.c:1133
+#: client/pkgc-manage.c:1137
 msgid "Install package signature"
 msgstr "Installera paketsignatur"
 
 #. TRANSLATORS: Description for repair command in pkgcli help
-#: client/pkgc-manage.c:1140
+#: client/pkgc-manage.c:1144
 msgid "Repair package system"
 msgstr "Reparera paketsystem"
 
-#. TRANSLATORS: Description for quit command in pkgcli help
-#: client/pkgc-manage.c:1147
-msgid "Safely stop the PackageKit daemon"
-msgstr "Stoppa PackageKit-demonen på ett säkert sätt"
+#. TRANSLATORS: Description for yield command in pkgcli help
+#: client/pkgc-manage.c:1151
+msgid "Stop all pending tasks and quit the daemon"
+msgstr "Stoppa alla väntande uppgifter och avsluta bakgrundstjänsten"
 
 #: client/pkgc-monitor.c:384
 msgid "Failed to get daemon state"
-msgstr "Misslyckades med läsa av tillstånd för bakgrundsprocess"
+msgstr "Det gick inte att läsa av bakgrundstjänstens tillstånd"
 
 #: client/pkgc-monitor.c:454
 msgid "Failed to get properties"
-msgstr "Misslyckades med att få egenskaper"
+msgstr "Det gick inte att hämta egenskaper"
 
 #. TRANSLATORS: Description for pkgcli monitor
 #: client/pkgc-monitor.c:476
@@ -400,7 +417,7 @@ msgstr "Det finns inga OS-uppgraderingar tillgängliga."
 #. TRANSLATORS: Description for pkgcli backend
 #: client/pkgc-query.c:256
 msgid "Show PackageKit backend information."
-msgstr "Visa PackageKit-bakändesinformation."
+msgstr "Visa information om PackageKits bakände."
 
 #: client/pkgc-query.c:300
 #, c-format
@@ -432,9 +449,10 @@ msgstr "Visa alla detaljer för varje transaktion"
 #. TRANSLATORS: Description for pkgcli history
 #: client/pkgc-query.c:346
 msgid "Show recent package management transactions."
-msgstr "Visa senaste pakethanteringstranskationer."
+msgstr "Visa de senaste transaktionerna i pakethanteringen."
 
-#. TRANSLATORS: Description of the pkgcli search command. MODE values must not be translated!
+#. TRANSLATORS: Description of the pkgcli search command. MODE values must not
+#. be translated!
 #: client/pkgc-query.c:390
 msgid ""
 "Search for packages matching the given patterns. If MODE is not specified, \n"
@@ -445,9 +463,9 @@ msgid ""
 "  file    - search by file name\n"
 "  group   - search by package group"
 msgstr ""
-"Sök paket som matchar angivna mönster. Om LÄGE inte anges \n"
-"utförs en ”details”-sökning.\n"
-"Möjliga sök-LÄGEn är:\n"
+"Sök efter paket som matchar de angivna mönstren. Om LÄGE inte anges,\n"
+"utförs en sökning efter ”details”.\n"
+"Möjliga söklägen är:\n"
 "  name    - sök efter paketnamn\n"
 "  details - sök efter paketdetaljer (standard)\n"
 "  file    - sök efter filnamn\n"
@@ -479,7 +497,7 @@ msgstr "Visa beroenden för ett eller flera paket."
 #: client/pkgc-query.c:602 client/pkgc-query.c:686 client/pkgc-query.c:800
 #, c-format
 msgid "Could not resolve packages: %s"
-msgstr "Kunde inte slå upp paket: %s"
+msgstr "Kunde inte lösa paketen: %s"
 
 #. TRANSLATORS: Description for pkgcli what-provides
 #: client/pkgc-query.c:635
@@ -499,7 +517,7 @@ msgstr "Lista alla för närvarande tillgängliga paketuppdateringar."
 #. TRANSLATORS: Description for pkgcli show-update
 #: client/pkgc-query.c:793
 msgid "Show detailed information about the specified package update."
-msgstr "Visa delaljerad information om den angivna paketuppdateringen."
+msgstr "Visa detaljerad information om den angivna paketuppdateringen."
 
 #. TRANSLATORS: Description for pkgcli resolve
 #: client/pkgc-query.c:832
@@ -535,7 +553,8 @@ msgstr "Lista operativsystemutgåvorna detta system kan uppgraderas till."
 #. * action was last executed
 #: client/pkgc-query.c:999
 msgid "Failed to get the time since this action was last completed"
-msgstr "Misslyckades med att få tiden sedan denna åtgärd senast färdigställdes"
+msgstr ""
+"Misslyckades med att få tiden sedan denna åtgärd senast färdigställdes"
 
 #. TRANSLATORS: this is the time since this role was used
 #: client/pkgc-query.c:1012
@@ -550,7 +569,7 @@ msgstr "Hämta tiden i sekunder sedan den senaste angivna åtgärden."
 #. TRANSLATORS: The user didn't specify what action to use
 #: client/pkgc-query.c:1048
 msgid "An action, e.g. 'update-packages' is required"
-msgstr "En åtgärd, t.ex ”update-packages” krävs"
+msgstr "En åtgärd krävs, till exempel ”update-packages”"
 
 #. TRANSLATORS: The user specified an invalid action
 #: client/pkgc-query.c:1056
@@ -645,7 +664,7 @@ msgstr "Aktivera det angivna förrådet."
 #: client/pkgc-repo.c:132
 #, c-format
 msgid "Repository '%s' enabled"
-msgstr "Förråd ”%s” aktiverat"
+msgstr "Förrådet ”%s” har aktiverats"
 
 #. TRANSLATORS: Description for pkgcli repo-disable
 #: client/pkgc-repo.c:154
@@ -655,7 +674,7 @@ msgstr "Inaktivera det angivna förrådet."
 #: client/pkgc-repo.c:173
 #, c-format
 msgid "Repository '%s' disabled"
-msgstr "Förråd ”%s” inaktiverat"
+msgstr "Förrådet ”%s” har inaktiverats"
 
 #: client/pkgc-repo.c:196
 msgid "Automatically remove orphaned packages"
@@ -693,7 +712,7 @@ msgstr "Ta bort ett förråd"
 
 #: client/pkgc-util.c:110
 msgid "Not connected to PackageKit daemon"
-msgstr "Inte ansluten till PackageKit-demon"
+msgstr "Inte ansluten till PackageKits bakgrundstjänst"
 
 #. TRANSLATORS: A duration in seconds
 #: client/pkgc-util.c:209
@@ -746,7 +765,8 @@ msgstr "Fel"
 msgid "Warning:"
 msgstr "Varning:"
 
-#. TRANSLATORS: Shown in the help of a command, %s is a shorter alternative name for it
+#. TRANSLATORS: Shown in the help of a command, %s is a shorter alternative
+#. name for it
 #: client/pkgc-util.c:493
 #, c-format
 msgid "Alias: %s"
@@ -756,9 +776,10 @@ msgstr "Alias: %s"
 #: client/pkgc-util.c:527 client/pkgcli.c:194
 #, c-format
 msgid "Failed to parse options: %s"
-msgstr "Misslyckades med att tolka flaggor: %s"
+msgstr "Det gick inte att tolka alternativen: %s"
 
-#. TRANSLATORS: Usage summary in pkgcli if the user has provided the wrong number of parameters
+#. TRANSLATORS: Usage summary in pkgcli if the user has provided the wrong
+#. number of parameters
 #: client/pkgc-util.c:535
 #, c-format
 msgid "Usage: %s %s %s"
@@ -790,7 +811,7 @@ msgstr "Version:"
 #. TRANSLATORS: Label for the summary of an OS upgrade
 #: client/pkgc-util.c:823 client/pkgc-util.c:1206
 msgid "Summary:"
-msgstr "Sammandrag:"
+msgstr "Sammanfattning:"
 
 #. TRANSLATORS: Label for the package description in package details
 #: client/pkgc-util.c:835
@@ -831,12 +852,12 @@ msgstr "Uppdateringsdetaljer:"
 #. TRANSLATORS: Label for update details
 #: client/pkgc-util.c:1001
 msgid "Updates:"
-msgstr "Uppdaterar:"
+msgstr "Uppdateringar:"
 
 #. TRANSLATORS: Label for obsoleted packages in update details
 #: client/pkgc-util.c:1010
 msgid "Obsoletes:"
-msgstr "Föråldrar:"
+msgstr "Ersatta paket:"
 
 #. TRANSLATORS: Label for issue tracker entries in update details
 #: client/pkgc-util.c:1021
@@ -851,7 +872,7 @@ msgstr "CVE:er:"
 #. TRANSLATORS: Label for the distributor's advisory in update details
 #: client/pkgc-util.c:1025
 msgid "Advisory:"
-msgstr "Rekommendation:"
+msgstr "Säkerhetsmeddelande:"
 
 #. TRANSLATORS: Label for references of unknown kind in update details
 #: client/pkgc-util.c:1027
@@ -886,14 +907,16 @@ msgstr "Utfärdad:"
 #. TRANSLATORS: Label for the ID of an OS upgrade, e.g. "fedora-44"
 #: client/pkgc-util.c:1167
 msgid "Upgrade:"
-msgstr "Uppgradera:"
+msgstr "Uppgradering:"
 
-#. TRANSLATORS: Label for the human readable name of an OS release, e.g. "Fedora 44"
+#. TRANSLATORS: Label for the human readable name of an OS release, e.g.
+#. "Fedora 44"
 #: client/pkgc-util.c:1173
 msgid "Name:"
 msgstr "Namn:"
 
-#. TRANSLATORS: Label for the AppStream component ID of the OS, e.g. "org.fedoraproject.fedora"
+#. TRANSLATORS: Label for the AppStream component ID of the OS, e.g.
+#. "org.fedoraproject.fedora"
 #: client/pkgc-util.c:1179
 msgid "Operating system:"
 msgstr "Operativsystem:"
@@ -901,7 +924,7 @@ msgstr "Operativsystem:"
 #. TRANSLATORS: Label for the kind of an OS release, e.g. "stable"
 #: client/pkgc-util.c:1189
 msgid "Kind:"
-msgstr "Sort:"
+msgstr "Typ:"
 
 #. TRANSLATORS: Label for the download size of an OS upgrade
 #: client/pkgc-util.c:1195
@@ -949,7 +972,7 @@ msgstr "Roll:"
 #. TRANSLATORS: Label for transaction duration
 #: client/pkgc-util.c:1425
 msgid "Duration:"
-msgstr "Längd:"
+msgstr "Varaktighet:"
 
 #. TRANSLATORS: Label for transaction command line
 #: client/pkgc-util.c:1432
@@ -969,7 +992,7 @@ msgstr "Användarnamn:"
 #. TRANSLATORS: Label for transaction real name
 #: client/pkgc-util.c:1453
 msgid "Real name:"
-msgstr "Verkligt namn:"
+msgstr "Fullständigt namn:"
 
 #. TRANSLATORS: Label for affected packages in transaction
 #: client/pkgc-util.c:1465
@@ -1003,7 +1026,7 @@ msgstr "Användare"
 
 #: client/pkgc-util.c:1646
 msgid "More than one package matches:"
-msgstr "Det finns fler än ett paket som matchar:"
+msgstr "Fler än ett paket matchar:"
 
 #. prompt user for selection
 #: client/pkgc-util.c:1658
@@ -1022,11 +1045,11 @@ msgstr "Visa hjälp"
 
 #: client/pkgcli.c:83
 msgid "Only provide minimal output"
-msgstr "Tillhandahåll endast minimal utmatning"
+msgstr "Visa endast grundläggande utdata"
 
 #: client/pkgcli.c:85
 msgid "Show more detailed output"
-msgstr "Visa mer detaljerad utmatning"
+msgstr "Visa mer detaljerad utdata"
 
 #: client/pkgcli.c:87
 msgid "Output in JSON format"
@@ -1034,30 +1057,33 @@ msgstr "Utdata i JSON-format"
 
 #: client/pkgcli.c:89
 msgid "Disable colored output"
-msgstr "Inaktivera färglagd utmatning"
+msgstr "Inaktivera färger i utdata"
 
 #. TRANSLATORS: command line argument, do we ask questions
 #: client/pkgcli.c:92
 msgid "Answer 'yes' to all questions"
 msgstr "Svara ”ja” på alla frågor"
 
-#: client/pkgcli.c:95
-msgid "FILTER"
-msgstr "FILTER"
-
 #. TRANSLATORS: command line argument, use a filter to narrow down results
 #: client/pkgcli.c:95
 msgid "Filter packages (installed, available, etc.)"
 msgstr "Filtrera paket (installerade, tillgängliga o.s.v.)"
 
+#: client/pkgcli.c:95
+msgid "FILTER"
+msgstr "FILTER"
+
 #. TRANSLATORS: command line argument, this command is not a priority
 #: client/pkgcli.c:98
 msgid "Run the command using idle network bandwidth and also using less power"
-msgstr "Kör kommandot med inaktiv nätverksbandbredd och även med mindre ström"
+msgstr ""
+"Kör kommandot med tillgänglig nätverkskapacitet och lägre strömförbrukning"
 
 #: client/pkgcli.c:122
 msgid "No command specified. Use --help for usage information."
-msgstr "Inget kommando angivet. Använd --help för användningsinformation."
+msgstr ""
+"Inget kommando har angetts. Använd --help för information om hur kommandot "
+"används."
 
 #: client/pkgcli.c:130
 #, c-format
@@ -1080,7 +1106,7 @@ msgstr "Tillgängliga kommandon:"
 
 #: client/pkgcli.c:223
 msgid "Use 'pkgcli COMMAND --help' for command-specific help."
-msgstr "Använd ”pkgcli KOMMANDO --help” för kommandospecifik hjälp."
+msgstr "Använd ”pkgcli KOMMANDO --help” för hjälp om det specifika kommandot."
 
 #. TRANSLATORS: The user specified
 #. * an incorrect filter
@@ -1096,7 +1122,7 @@ msgstr "Hämtar detaljer om programförråden."
 #. TRANSLATORS: downloading file lists so we can search
 #: contrib/command-not-found/pk-command-not-found.c:429
 msgid "Downloading filelists (this may take some time to complete)."
-msgstr "Hämtar fillistor (detta kan ta lite tid att färdigställa)."
+msgstr "Hämtar fillistor (det kan ta en stund)."
 
 #. TRANSLATORS: waiting for native lock
 #: contrib/command-not-found/pk-command-not-found.c:433
@@ -1116,7 +1142,7 @@ msgstr "Misslyckades med att söka efter filen"
 #. TRANSLATORS: the transaction failed in a way we could not expect
 #: contrib/command-not-found/pk-command-not-found.c:515
 msgid "Getting the list of files failed"
-msgstr "Hämtning av fillistorna misslyckades"
+msgstr "Det gick inte att hämta fillistan"
 
 #. TRANSLATORS: we failed to launch the executable, the error follows
 #: contrib/command-not-found/pk-command-not-found.c:668
@@ -1167,7 +1193,8 @@ msgstr "Välj ett kommando att köra"
 msgid "The package providing this file is:"
 msgstr "Paketet som tillhandahåller denna fil är:"
 
-#. TRANSLATORS: as the user if we want to install a package to provide the command
+#. TRANSLATORS: as the user if we want to install a package to provide the
+#. command
 #: contrib/command-not-found/pk-command-not-found.c:912
 #, c-format
 msgid "Install package '%s' to provide command '%s'?"
@@ -1178,7 +1205,8 @@ msgstr "Installera paketet ”%s” för att tillhandahålla kommandot ”%s”?
 msgid "Packages providing this file are:"
 msgstr "Paket som tillhandahåller denna fil är:"
 
-#. TRANSLATORS: Show the user a list of packages that they can install to provide this command
+#. TRANSLATORS: Show the user a list of packages that they can install to
+#. provide this command
 #: contrib/command-not-found/pk-command-not-found.c:949
 msgid "Suitable packages are:"
 msgstr "Lämpliga paket är:"
@@ -1190,30 +1218,49 @@ msgstr "Välj ett paket att installera"
 
 #: contrib/command-not-found/pk-command-not-found.c:960
 msgid "User aborted selection"
-msgstr "Användaren avbröt markeringen"
+msgstr "Användaren avbröt valet"
 
 #. SECURITY:
 #. - Normal users are allowed to cancel their own task without
 #. authentication, but a different user id needs the admin password
 #. to cancel another users task.
-#: data/policy/org.freedesktop.packagekit.policy.in:22
-msgid "Cancel foreign task"
-msgstr "Avbryt främmande åtgärd"
-
 #: data/policy/org.freedesktop.packagekit.policy.in:23
-msgid "Authentication is required to cancel a task that was not started by yourself"
-msgstr "Autentisering krävs för att avbryta en åtgärd som inte startades av dig själv"
+msgid "Cancel foreign task"
+msgstr "Avbryt någon annans uppgift"
+
+#: data/policy/org.freedesktop.packagekit.policy.in:24
+msgid ""
+"Authentication is required to cancel a task that was not started by yourself"
+msgstr "Autentisering krävs för att avbryta en uppgift som du inte startade"
+
+#. SECURITY:
+#. - Used by native package managers that need the package database
+#. for themselves. It stops the waiting and background tasks of all
+#. users and refuses new ones until the daemon has quit. If this
+#. action were available without authentication, any user could keep
+#. the system from ever being updated.
+#: data/policy/org.freedesktop.packagekit.policy.in:41
+msgid "Stop all software tasks and quit"
+msgstr "Stoppa alla programvaruuppgifter och avsluta"
+
+#: data/policy/org.freedesktop.packagekit.policy.in:42
+msgid ""
+"Authentication is required to stop all pending package management tasks of "
+"all users and quit the management daemon"
+msgstr ""
+"Autentisering krävs för att stoppa alla väntande pakethanteringsuppgifter "
+"för alla användare och avsluta pakethanteringens bakgrundstjänst"
 
 #. SECURITY:
 #. - Normal users need authentication to install signed packages
 #. from signed repositories, because otherwise the system is
 #. only as secure as the least-secure package available in the
 #. repositories.
-#: data/policy/org.freedesktop.packagekit.policy.in:39
+#: data/policy/org.freedesktop.packagekit.policy.in:58
 msgid "Install signed package"
 msgstr "Installera signerat paket"
 
-#: data/policy/org.freedesktop.packagekit.policy.in:40
+#: data/policy/org.freedesktop.packagekit.policy.in:59
 msgid "Authentication is required to install software"
 msgstr "Autentisering krävs för att installera programvara"
 
@@ -1222,13 +1269,14 @@ msgstr "Autentisering krävs för att installera programvara"
 #. unrecognised packages, as allowing users to do this without a
 #. password would be a massive security hole.
 #. - This is not retained as each package should be authenticated.
-#: data/policy/org.freedesktop.packagekit.policy.in:56
+#: data/policy/org.freedesktop.packagekit.policy.in:75
 msgid "Install untrusted local file"
-msgstr "Installera opålitlig lokal fil"
+msgstr "Installera lokal fil som inte är betrodd"
 
-#: data/policy/org.freedesktop.packagekit.policy.in:57
+#: data/policy/org.freedesktop.packagekit.policy.in:76
 msgid "Authentication is required to install untrusted software"
-msgstr "Autentisering krävs för att installera opålitlig programvara"
+msgstr ""
+"Autentisering krävs för att installera programvara som inte är betrodd"
 
 #. SECURITY
 #. - Normal users require admin authentication to reinstall packages.
@@ -1236,11 +1284,11 @@ msgstr "Autentisering krävs för att installera opålitlig programvara"
 #. reinstall them and vice versa.
 #. - If a package in question is not trusted, user's permission to install
 #. untrusted package will be checked as well.
-#: data/policy/org.freedesktop.packagekit.policy.in:75
+#: data/policy/org.freedesktop.packagekit.policy.in:94
 msgid "Install already installed package again"
 msgstr "Installera ett redan installerat paket en gång till"
 
-#: data/policy/org.freedesktop.packagekit.policy.in:76
+#: data/policy/org.freedesktop.packagekit.policy.in:95
 msgid "Authentication is required to reinstall software"
 msgstr "Autentisering krävs för att installera om programvara"
 
@@ -1250,11 +1298,11 @@ msgstr "Autentisering krävs för att installera om programvara"
 #. them as well.
 #. - If a package in question is not trusted, user's permission to install
 #. untrusted package will be checked as well.
-#: data/policy/org.freedesktop.packagekit.policy.in:93
+#: data/policy/org.freedesktop.packagekit.policy.in:112
 msgid "Install older version of installed package"
 msgstr "Installera äldre version av installerat paket"
 
-#: data/policy/org.freedesktop.packagekit.policy.in:94
+#: data/policy/org.freedesktop.packagekit.policy.in:113
 msgid "Authentication is required to downgrade software"
 msgstr "Autentisering krävs för att nedgradera programvara"
 
@@ -1263,24 +1311,28 @@ msgstr "Autentisering krävs för att nedgradera programvara"
 #. - This implies adding an explicit trust, and should not be granted
 #. without a secure authentication.
 #. - This is not kept as each package should be authenticated.
-#: data/policy/org.freedesktop.packagekit.policy.in:111
+#: data/policy/org.freedesktop.packagekit.policy.in:130
 msgid "Trust a key used for signing software"
 msgstr "Lita på en nyckel som använts för att signera programvara"
 
-#: data/policy/org.freedesktop.packagekit.policy.in:112
-msgid "Authentication is required to consider a key used for signing software as trusted"
-msgstr "Autentisering krävs för att anse en nyckel som använts för att signera programvara som pålitlig"
+#: data/policy/org.freedesktop.packagekit.policy.in:131
+msgid ""
+"Authentication is required to consider a key used for signing software as "
+"trusted"
+msgstr ""
+"Autentisering krävs för att markera en nyckel som använts för att signera "
+"programvara som betrodd"
 
 #. SECURITY:
 #. - Normal users do not require admin authentication to accept new
 #. licence agreements.
 #. - Change this to 'auth_admin' for environments where users should not
 #. be given the option to make legal decisions.
-#: data/policy/org.freedesktop.packagekit.policy.in:128
+#: data/policy/org.freedesktop.packagekit.policy.in:147
 msgid "Accept EULA"
 msgstr "Acceptera slutanvändaravtal"
 
-#: data/policy/org.freedesktop.packagekit.policy.in:129
+#: data/policy/org.freedesktop.packagekit.policy.in:148
 msgid "Authentication is required to accept a EULA"
 msgstr "Autentisering krävs för att acceptera ett slutanvändaravtal"
 
@@ -1297,11 +1349,11 @@ msgstr "Autentisering krävs för att acceptera ett slutanvändaravtal"
 #. configuration files and data of every package the transaction
 #. removes.
 #. TRANSLATORS: command description
-#: data/policy/org.freedesktop.packagekit.policy.in:152 src/pk-direct.c:462
+#: data/policy/org.freedesktop.packagekit.policy.in:171 src/pk-direct.c:462
 msgid "Remove package"
 msgstr "Ta bort paket"
 
-#: data/policy/org.freedesktop.packagekit.policy.in:153
+#: data/policy/org.freedesktop.packagekit.policy.in:172
 msgid "Authentication is required to remove software"
 msgstr "Autentisering krävs för att ta bort programvara"
 
@@ -1311,11 +1363,11 @@ msgstr "Autentisering krävs för att ta bort programvara"
 #. to update the system when unattended.
 #. - Changing this to anything other than 'yes' will break unattended
 #. updates.
-#: data/policy/org.freedesktop.packagekit.policy.in:171
+#: data/policy/org.freedesktop.packagekit.policy.in:190
 msgid "Update software"
 msgstr "Uppdatera programvara"
 
-#: data/policy/org.freedesktop.packagekit.policy.in:172
+#: data/policy/org.freedesktop.packagekit.policy.in:191
 msgid "Authentication is required to update software"
 msgstr "Autentisering krävs för att uppdatera programvara"
 
@@ -1323,45 +1375,49 @@ msgstr "Autentisering krävs för att uppdatera programvara"
 #. - Normal users require admin authentication to enable or disable
 #. software repositories as this can be used to enable new updates or
 #. install different versions of software.
-#: data/policy/org.freedesktop.packagekit.policy.in:187
+#: data/policy/org.freedesktop.packagekit.policy.in:206
 msgid "Change software repository parameters"
-msgstr "Ändrar parametrar för programförråden"
+msgstr "Ändra parametrar för programvaruförråd"
 
-#: data/policy/org.freedesktop.packagekit.policy.in:188
+#: data/policy/org.freedesktop.packagekit.policy.in:207
 msgid "Authentication is required to change software repository parameters"
 msgstr "Autentisering krävs för att ändra parametrar för programförråden"
 
 #. SECURITY:
 #. - Normal users do not require admin authentication to refresh the
 #. cache, as this doesn't actually install or remove software.
-#: data/policy/org.freedesktop.packagekit.policy.in:202
+#: data/policy/org.freedesktop.packagekit.policy.in:221
 msgid "Refresh system repositories"
 msgstr "Uppdatera systemförråden"
 
-#: data/policy/org.freedesktop.packagekit.policy.in:203
+#: data/policy/org.freedesktop.packagekit.policy.in:222
 msgid "Authentication is required to refresh the system repositories"
 msgstr "Autentisering krävs för att uppdatera systemprogramförråden"
 
 #. SECURITY:
 #. - Normal users do not require admin authentication to set the proxy
 #. used for downloading packages.
-#: data/policy/org.freedesktop.packagekit.policy.in:217
+#: data/policy/org.freedesktop.packagekit.policy.in:236
 msgid "Set network proxy"
 msgstr "Ange nätverksproxyserver"
 
-#: data/policy/org.freedesktop.packagekit.policy.in:218
-msgid "Authentication is required to set the network proxy used for downloading software"
-msgstr "Autentisering krävs för att ställa in nätverksproxyn som används för att hämta ner programvara"
+#: data/policy/org.freedesktop.packagekit.policy.in:237
+msgid ""
+"Authentication is required to set the network proxy used for downloading "
+"software"
+msgstr ""
+"Autentisering krävs för att ställa in nätverksproxyn som används för att "
+"hämta programvara"
 
 #. SECURITY:
 #. - Normal users require admin authentication to upgrade the operating
 #. system to a new release as this can make the system unbootable or
 #. stop other applications from working.
-#: data/policy/org.freedesktop.packagekit.policy.in:233
+#: data/policy/org.freedesktop.packagekit.policy.in:252
 msgid "Upgrade the operating system"
 msgstr "Uppgradera operativsystemet"
 
-#: data/policy/org.freedesktop.packagekit.policy.in:234
+#: data/policy/org.freedesktop.packagekit.policy.in:253
 msgid "Authentication is required to upgrade the operating system"
 msgstr "Autentisering krävs för att uppgradera operativsystemet"
 
@@ -1369,11 +1425,11 @@ msgstr "Autentisering krävs för att uppgradera operativsystemet"
 #. - Normal users require admin authentication to repair the system
 #. since this can make the system unbootable or stop other
 #. applications from working.
-#: data/policy/org.freedesktop.packagekit.policy.in:249
+#: data/policy/org.freedesktop.packagekit.policy.in:268
 msgid "Repair System"
 msgstr "Reparera systemet"
 
-#: data/policy/org.freedesktop.packagekit.policy.in:250
+#: data/policy/org.freedesktop.packagekit.policy.in:269
 msgid "Authentication is required to repair the installed software"
 msgstr "Autentisering krävs för att reparera den installerade programvaran"
 
@@ -1384,41 +1440,43 @@ msgstr "Autentisering krävs för att reparera den installerade programvaran"
 #. - Normal users require admin authentication to upgrade the system
 #. to a new distribution since this can make the system unbootable or
 #. stop other applications from working.
-#: data/policy/org.freedesktop.packagekit.policy.in:264
-#: data/policy/org.freedesktop.packagekit.policy.in:280
+#: data/policy/org.freedesktop.packagekit.policy.in:283
+#: data/policy/org.freedesktop.packagekit.policy.in:299
 msgid "Trigger offline updates"
-msgstr "Utlös frånkopplade uppdateringar"
+msgstr "Utlös uppdateringar i frånkopplat läge"
 
-#: data/policy/org.freedesktop.packagekit.policy.in:265
-#: data/policy/org.freedesktop.packagekit.policy.in:281
+#: data/policy/org.freedesktop.packagekit.policy.in:284
+#: data/policy/org.freedesktop.packagekit.policy.in:300
 msgid "Authentication is required to trigger offline updates"
-msgstr "Autentisering krävs för att utlösa frånkopplade uppdateringar"
+msgstr "Autentisering krävs för att utlösa uppdateringar i frånkopplat läge"
 
 #. SECURITY:
 #. - Normal users are able to clear the updates message that is
 #. shown after an updates are applied at boot time.
-#: data/policy/org.freedesktop.packagekit.policy.in:295
+#: data/policy/org.freedesktop.packagekit.policy.in:314
 msgid "Clear offline update message"
-msgstr "Rensa frånkopplat uppdateringsmeddelande"
+msgstr "Rensa meddelandet om uppdatering i frånkopplat läge"
 
-#: data/policy/org.freedesktop.packagekit.policy.in:296
+#: data/policy/org.freedesktop.packagekit.policy.in:315
 msgid "Authentication is required to clear the offline updates message"
-msgstr "Autentisering krävs för att rensa frånkopplat uppdateringsmeddelande"
+msgstr ""
+"Autentisering krävs för att rensa meddelandet om uppdateringar i frånkopplat"
+" läge"
 
 #: lib/pk-console-private.c:737
 #, c-format
 msgid "Please enter a number from 1 to %i: "
 msgstr "Ange ett tal från 1 till %i: "
 
-#: lib/pk-console-private.c:844
-msgid "[N/y]"
-msgstr "[N/j]"
-
 #. TRANSLATORS: shown after a yes/no question, the capital letter is the
 #. * default answer; the letters must match the translated "y" and "n" answers
 #: lib/pk-console-private.c:844
 msgid "[Y/n]"
 msgstr "[J/n]"
+
+#: lib/pk-console-private.c:844
+msgid "[N/y]"
+msgstr "[N/j]"
 
 #. TRANSLATORS: short "yes" answer, must match [Y/n]
 #: lib/pk-console-private.c:861
@@ -1454,7 +1512,8 @@ msgstr "Okänt tillstånd"
 msgid "Starting"
 msgstr "Startar"
 
-#. TRANSLATORS: transaction state, the transaction is waiting for another to complete
+#. TRANSLATORS: transaction state, the transaction is waiting for another to
+#. complete
 #: lib/pk-console-private.c:909
 msgid "Waiting in queue"
 msgstr "Väntar i kö"
@@ -1481,7 +1540,7 @@ msgstr "Tar bort paket"
 
 #. TRANSLATORS: transaction state, downloading package files
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-console-private.c:929 lib/pk-enum.c:1277
+#: lib/pk-console-private.c:929 lib/pk-enum.c:1278
 msgid "Downloading packages"
 msgstr "Hämtar paket"
 
@@ -1493,29 +1552,31 @@ msgstr "Installerar paket"
 #. TRANSLATORS: transaction state, refreshing internal lists
 #: lib/pk-console-private.c:937
 msgid "Refreshing software list"
-msgstr "Uppdaterar programlista"
+msgstr "Uppdaterar programlistan"
 
 #. TRANSLATORS: transaction state, installing updates
 #: lib/pk-console-private.c:941
 msgid "Installing updates"
 msgstr "Installerar uppdateringar"
 
-#. TRANSLATORS: transaction state, removing old packages, and cleaning config files
+#. TRANSLATORS: transaction state, removing old packages, and cleaning config
+#. files
 #: lib/pk-console-private.c:945
 msgid "Cleaning up packages"
-msgstr "Rensar upp paket"
+msgstr "Rensar paket"
 
 #. TRANSLATORS: transaction state, obsoleting old packages
 #: lib/pk-console-private.c:949
 msgid "Obsoleting packages"
-msgstr "Föråldrar paket"
+msgstr "Ersätter paket"
 
 #. TRANSLATORS: transaction state, checking the transaction before we do it
 #: lib/pk-console-private.c:953
 msgid "Resolving dependencies"
 msgstr "Löser beroenden"
 
-#. TRANSLATORS: transaction state, checking if we have all the security keys for the operation
+#. TRANSLATORS: transaction state, checking if we have all the security keys
+#. for the operation
 #: lib/pk-console-private.c:957
 msgid "Checking signatures"
 msgstr "Kontrollerar signaturer"
@@ -1525,7 +1586,8 @@ msgstr "Kontrollerar signaturer"
 msgid "Testing changes"
 msgstr "Testar ändringar"
 
-#. TRANSLATORS: transaction state, when we're writing to the system package database
+#. TRANSLATORS: transaction state, when we're writing to the system package
+#. database
 #: lib/pk-console-private.c:965
 msgid "Committing changes"
 msgstr "Verkställer ändringar"
@@ -1580,25 +1642,28 @@ msgstr "Paketerar om filer"
 msgid "Loading cache"
 msgstr "Läser in cache"
 
-#. TRANSLATORS: transaction state, when we're waiting for the native tools to exit
+#. TRANSLATORS: transaction state, when we're waiting for the native tools to
+#. exit
 #: lib/pk-console-private.c:1009
 msgid "Waiting for package manager lock"
-msgstr "Väntar på låset för pakethanteraren"
+msgstr "Väntar på att pakethanterarens lås ska frigöras"
 
 #. TRANSLATORS: transaction state, waiting for user to type in a password
 #: lib/pk-console-private.c:1013
 msgid "Waiting for authentication"
 msgstr "Väntar på autentisering"
 
-#. TRANSLATORS: transaction state, we are copying package files before or after the transaction
+#. TRANSLATORS: transaction state, we are copying package files before or
+#. after the transaction
 #: lib/pk-console-private.c:1017
 msgid "Copying files"
 msgstr "Kopierar filer"
 
-#. TRANSLATORS: transaction state, we are running hooks before or after the transaction
+#. TRANSLATORS: transaction state, we are running hooks before or after the
+#. transaction
 #: lib/pk-console-private.c:1021
 msgid "Running hooks"
-msgstr "Exekverar krokar"
+msgstr "Kör pakethanterarens skript"
 
 #. TRANSLATORS: turn on all debugging
 #: lib/pk-debug.c:148
@@ -1607,276 +1672,277 @@ msgstr "Visa felsökningsinformation för alla filer"
 
 #: lib/pk-debug.c:229
 msgid "Debugging Options"
-msgstr "Felsökningsflaggor"
+msgstr "Felsökningsalternativ"
 
 #: lib/pk-debug.c:230
 msgid "Show debugging options"
-msgstr "Visa felsökningsflaggor"
+msgstr "Visa felsökningsalternativ"
 
 #. TRANSLATORS: The type of update
-#: lib/pk-enum.c:1008
+#: lib/pk-enum.c:1009
 msgid "Blocked"
 msgstr "Blockerad"
 
 #. TRANSLATORS: The state of a package
 #. TRANSLATORS: The action of the package, in past tense
-#: lib/pk-enum.c:1012 lib/pk-enum.c:1130
+#: lib/pk-enum.c:1013 lib/pk-enum.c:1131
 msgid "Installed"
 msgstr "Installerade"
 
 #. TRANSLATORS: The state of a package, i.e. not installed
-#: lib/pk-enum.c:1016
+#: lib/pk-enum.c:1017
 msgid "Available"
 msgstr "Tillgängligt"
 
 #. TRANSLATORS: The state of a package: to be installed with the next action
-#: lib/pk-enum.c:1020
+#: lib/pk-enum.c:1021
 msgid "Install"
 msgstr "Installera"
 
 #. TRANSLATORS: The state of a package: to be removed with the next action
-#: lib/pk-enum.c:1024
+#: lib/pk-enum.c:1025
 msgid "Remove"
 msgstr "Ta bort"
 
 #. TRANSLATORS: The state of a package: to be reinstalled with the next action
-#: lib/pk-enum.c:1028
+#: lib/pk-enum.c:1029
 msgid "Reinstall"
 msgstr "Ominstallera"
 
 #. TRANSLATORS: The state of a package: package is obsolete
-#: lib/pk-enum.c:1032
+#: lib/pk-enum.c:1033
 msgid "Obsolete"
 msgstr "Föråldrat"
 
 #. TRANSLATORS: The state of a package: package is to be downgraded
-#: lib/pk-enum.c:1036
+#: lib/pk-enum.c:1037
 msgid "Downgrade"
 msgstr "Nedgradera"
 
 #. TRANSLATORS: The state of a package: package is to be updated
-#: lib/pk-enum.c:1040
+#: lib/pk-enum.c:1041
 msgid "Update"
 msgstr "Uppdatera"
 
 #. TRANSLATORS: The state of a package: to be updated with a security fix
-#: lib/pk-enum.c:1044
+#: lib/pk-enum.c:1045
 msgid "Security update"
-msgstr "Säkerhetsuppdatera"
+msgstr "Säkerhetsuppdatering"
 
 #. TRANSLATORS: The state of a package: to be updated with an enhancement
-#: lib/pk-enum.c:1048
+#: lib/pk-enum.c:1049
 msgid "Enhancement update"
-msgstr "Förbättringsuppdatera"
+msgstr "Förbättringsuppdatering"
 
 #. TRANSLATORS: The action of the package, in present tense
-#: lib/pk-enum.c:1073
+#: lib/pk-enum.c:1074
 msgid "Downloading"
 msgstr "Hämtar"
 
 #. TRANSLATORS: The action of the package, in present tense
-#: lib/pk-enum.c:1077
+#: lib/pk-enum.c:1078
 msgid "Updating"
 msgstr "Uppdaterar"
 
 #. TRANSLATORS: The action of the package, in present tense
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1081 lib/pk-enum.c:1216
+#: lib/pk-enum.c:1082 lib/pk-enum.c:1217
 msgid "Installing"
 msgstr "Installerar"
 
 #. TRANSLATORS: The action of the package, in present tense
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1085 lib/pk-enum.c:1212
+#: lib/pk-enum.c:1086 lib/pk-enum.c:1213
 msgid "Removing"
 msgstr "Tar bort"
 
 #. TRANSLATORS: The action of the package, in present tense
-#: lib/pk-enum.c:1089
+#: lib/pk-enum.c:1090
 msgid "Cleaning up"
-msgstr "Rensar upp"
+msgstr "Rensar"
 
 #. TRANSLATORS: The action of the package, in present tense
-#: lib/pk-enum.c:1093
+#: lib/pk-enum.c:1094
 msgid "Obsoleting"
-msgstr "Föråldrar"
+msgstr "Ersätter paket"
 
 #. TRANSLATORS: The action of the package, in present tense
-#: lib/pk-enum.c:1097
+#: lib/pk-enum.c:1098
 msgid "Reinstalling"
 msgstr "Installerar om"
 
 #. TRANSLATORS: The action of the package, in past tense
-#: lib/pk-enum.c:1122
+#: lib/pk-enum.c:1123
 msgid "Downloaded"
 msgstr "Hämtat"
 
 #. TRANSLATORS: The action of the package, in past tense
-#: lib/pk-enum.c:1126
+#: lib/pk-enum.c:1127
 msgid "Updated"
 msgstr "Uppdaterad"
 
 #. TRANSLATORS: The action of the package, in past tense
-#: lib/pk-enum.c:1134
+#: lib/pk-enum.c:1135
 msgid "Removed"
 msgstr "Borttaget"
 
 #. TRANSLATORS: The action of the package, in past tense
-#: lib/pk-enum.c:1138
+#: lib/pk-enum.c:1139
 msgid "Cleaned up"
-msgstr "Upprensat"
+msgstr "Rensat"
 
 #. TRANSLATORS: The action of the package, in past tense
-#: lib/pk-enum.c:1142
+#: lib/pk-enum.c:1143
 msgid "Obsoleted"
-msgstr "Föråldrat"
+msgstr "Ersatt"
 
 #. TRANSLATORS: The action of the package, in past tense
-#: lib/pk-enum.c:1146
+#: lib/pk-enum.c:1147
 msgid "Reinstalled"
 msgstr "Ominstallerat"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1171
+#: lib/pk-enum.c:1172
 msgid "Unknown role type"
 msgstr "Okänd rolltyp"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1175
+#: lib/pk-enum.c:1176
 msgid "Getting dependencies"
 msgstr "Hämtar beroenden"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1179
+#: lib/pk-enum.c:1180
 msgid "Getting update details"
 msgstr "Hämtar uppdateringsdetaljer"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1184
+#: lib/pk-enum.c:1185
 msgid "Getting details"
 msgstr "Hämtar detaljer"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1188
+#: lib/pk-enum.c:1189
 msgid "Getting dependents"
-msgstr "Hämtar paket som beror på detta"
+msgstr "Hämtar paket som är beroende av detta"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1192
+#: lib/pk-enum.c:1193
 msgid "Getting updates"
 msgstr "Hämtar uppdateringar"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1196
+#: lib/pk-enum.c:1197
 msgid "Searching by details"
 msgstr "Söker efter detaljer"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1200
+#: lib/pk-enum.c:1201
 msgid "Searching by file"
 msgstr "Söker efter fil"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1204
+#: lib/pk-enum.c:1205
 msgid "Searching groups"
 msgstr "Söker bland grupper"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1208
+#: lib/pk-enum.c:1209
 msgid "Searching by name"
 msgstr "Söker efter namn"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1220
+#: lib/pk-enum.c:1221
 msgid "Installing files"
 msgstr "Installerar filer"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1224
+#: lib/pk-enum.c:1225
 msgid "Refreshing cache"
 msgstr "Uppdaterar cache"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1228
+#: lib/pk-enum.c:1229
 msgid "Updating packages"
 msgstr "Uppdaterar paket"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1232
+#: lib/pk-enum.c:1233
 msgid "Canceling"
 msgstr "Avbryter"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1236
+#: lib/pk-enum.c:1237
 msgid "Getting repositories"
 msgstr "Hämtar förråd"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1240
+#: lib/pk-enum.c:1241
 msgid "Modifying repository"
 msgstr "Modifierar förråd"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1244
+#: lib/pk-enum.c:1245
 msgid "Setting data"
 msgstr "Ställer in data"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1248
+#: lib/pk-enum.c:1249
 msgid "Removing repository"
 msgstr "Tar bort förråd"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1252
+#: lib/pk-enum.c:1253
 msgid "Resolving"
 msgstr "Löser"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1257
+#: lib/pk-enum.c:1258
 msgid "Getting file list"
 msgstr "Hämtar fillista"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1261
+#: lib/pk-enum.c:1262
 msgid "Getting provides"
-msgstr "Hämtar tillhandahållningar"
+msgstr "Hämtar paketfunktioner"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1265
+#: lib/pk-enum.c:1266
 msgid "Installing signature"
 msgstr "Installerar signatur"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1269
+#: lib/pk-enum.c:1270
 msgid "Getting packages"
 msgstr "Hämtar paket"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1273
+#: lib/pk-enum.c:1274
 msgid "Accepting EULA"
 msgstr "Accepterar slutanvändaravtal"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1281
+#: lib/pk-enum.c:1282
 msgid "Getting system upgrades"
 msgstr "Hämtar systemuppgraderingar"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1285
+#: lib/pk-enum.c:1286
 msgid "Getting transaction history"
 msgstr "Hämtar transaktionshistorik"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1289
+#: lib/pk-enum.c:1290
 msgid "Upgrading the system"
 msgstr "Uppgraderar systemet"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/pk-enum.c:1293
+#: lib/pk-enum.c:1294
 msgid "Repairing system"
 msgstr "Reparerar systemet"
 
-#. TRANSLATORS: ask the user if they are comfortable installing insecure packages
+#. TRANSLATORS: ask the user if they are comfortable installing insecure
+#. packages
 #: lib/pk-task-text.c:52
 msgid "Do you want to allow installing of unsigned software?"
 msgstr "Vill du tillåta installation av osignerad programvara?"
@@ -1886,7 +1952,8 @@ msgstr "Vill du tillåta installation av osignerad programvara?"
 msgid "The unsigned software will not be installed."
 msgstr "Osignerad programvara kommer inte att installeras."
 
-#. TRANSLATORS: the package repository is signed by a key that is not recognised
+#. TRANSLATORS: the package repository is signed by a key that is not
+#. recognised
 #: lib/pk-task-text.c:110
 msgid "Software source signature required"
 msgstr "Signatur för programkälla krävs"
@@ -1900,7 +1967,7 @@ msgstr "Paket"
 #. TRANSLATORS: the package repository name
 #: lib/pk-task-text.c:116
 msgid "Software source name"
-msgstr "Namn på programkälla"
+msgstr "Programvarukällans namn"
 
 #. TRANSLATORS: the key URL
 #: lib/pk-task-text.c:119
@@ -1937,7 +2004,8 @@ msgstr "Godkänner du denna signatur?"
 msgid "The signature was not accepted."
 msgstr "Signaturen godkändes inte."
 
-#. TRANSLATORS: this is another name for a software licence that has to be read before installing
+#. TRANSLATORS: this is another name for a software licence that has to be
+#. read before installing
 #: lib/pk-task-text.c:181
 msgid "End user licence agreement required"
 msgstr "Godkännande av slutanvändaravtal krävs"
@@ -1950,7 +2018,7 @@ msgstr "Leverantör"
 #. TRANSLATORS: the EULA text itself (long and boring)
 #: lib/pk-task-text.c:191
 msgid "Agreement"
-msgstr "Användarvillkor"
+msgstr "Avtal"
 
 #. TRANSLATORS: ask the user if they've read and accepted the EULA
 #: lib/pk-task-text.c:195
@@ -1962,10 +2030,14 @@ msgstr "Godkänner du dessa användarvillkor?"
 msgid "The agreement was not accepted."
 msgstr "Användarvillkoren godkändes inte."
 
-#. TRANSLATORS: When processing with the purge flag, removed packages lose their configuration files and data too
+#. TRANSLATORS: When processing with the purge flag, removed packages lose
+#. their configuration files and data too
 #: lib/pk-task-text.c:216
-msgid "The following packages have to be removed, including their configuration files and data:"
-msgstr "Följande paket måste tas bort, inklusive deras konfigurationsfiler och data:"
+msgid ""
+"The following packages have to be removed, including their configuration "
+"files and data:"
+msgstr ""
+"Följande paket måste tas bort, inklusive deras konfigurationsfiler och data:"
 
 #. TRANSLATORS: When processing, we might have to remove other dependencies
 #: lib/pk-task-text.c:219
@@ -1992,22 +2064,29 @@ msgstr "Följande paket måste installeras om:"
 msgid "The following packages have to be downgraded:"
 msgstr "Följande paket måste nedgraderas:"
 
-#. TRANSLATORS: When processing with the purge flag, obsoleted packages lose their configuration files and data too
+#. TRANSLATORS: When processing with the purge flag, obsoleted packages lose
+#. their configuration files and data too
 #: lib/pk-task-text.c:245
-msgid "The following packages have to be obsoleted, including their configuration files and data:"
-msgstr "Följande paket måste föråldras, inklusive deras konfigurationsfiler och data:"
+msgid ""
+"The following packages have to be obsoleted, including their configuration "
+"files and data:"
+msgstr ""
+"Följande paket måste ersättas och tas bort, tillsammans med sina "
+"konfigurationsfiler och data:"
 
 #. TRANSLATORS: When processing, we might have to obsolete other dependencies
 #: lib/pk-task-text.c:248
 msgid "The following packages have to be obsoleted:"
-msgstr "Följande paket måste bli föråldrade:"
+msgstr "Följande paket måste ersättas och tas bort:"
 
-#. TRANSLATORS: When processing, untrusted and non-verified packages may be encountered
+#. TRANSLATORS: When processing, untrusted and non-verified packages may be
+#. encountered
 #: lib/pk-task-text.c:253
 msgid "The following packages are untrusted:"
-msgstr "Följande paket är inte pålitliga:"
+msgstr "Följande paket är inte betrodda:"
 
-#. TRANSLATORS: part of the transaction summary, e.g. "2 to install, 1 to update, 0 to remove"
+#. TRANSLATORS: part of the transaction summary, e.g. "2 to install, 1 to
+#. update, 0 to remove"
 #: lib/pk-task-text.c:301
 #, c-format
 msgid "%u to install"
@@ -2015,7 +2094,8 @@ msgid_plural "%u to install"
 msgstr[0] "%u att installera"
 msgstr[1] "%u att installera"
 
-#. TRANSLATORS: part of the transaction summary, e.g. "2 to install, 1 to update, 0 to remove"
+#. TRANSLATORS: part of the transaction summary, e.g. "2 to install, 1 to
+#. update, 0 to remove"
 #: lib/pk-task-text.c:305
 #, c-format
 msgid "%u to update"
@@ -2023,7 +2103,8 @@ msgid_plural "%u to update"
 msgstr[0] "%u att uppdatera"
 msgstr[1] "%u att uppdatera"
 
-#. TRANSLATORS: part of the transaction summary, e.g. "2 to install, 1 to update, 0 to remove"
+#. TRANSLATORS: part of the transaction summary, e.g. "2 to install, 1 to
+#. update, 0 to remove"
 #: lib/pk-task-text.c:309
 #, c-format
 msgid "%u to remove"
@@ -2031,7 +2112,8 @@ msgid_plural "%u to remove"
 msgstr[0] "%u att ta bort"
 msgstr[1] "%u att ta bort"
 
-#. TRANSLATORS: part of the transaction summary, only shown if packages are downgraded
+#. TRANSLATORS: part of the transaction summary, only shown if packages are
+#. downgraded
 #: lib/pk-task-text.c:314
 #, c-format
 msgid "%u to downgrade"
@@ -2039,7 +2121,8 @@ msgid_plural "%u to downgrade"
 msgstr[0] "%u att nedgradera"
 msgstr[1] "%u att nedgradera"
 
-#. TRANSLATORS: part of the transaction summary, only shown if packages are reinstalled
+#. TRANSLATORS: part of the transaction summary, only shown if packages are
+#. reinstalled
 #: lib/pk-task-text.c:321
 #, c-format
 msgid "%u to reinstall"
@@ -2070,21 +2153,21 @@ msgstr "Alias för %s"
 
 #: src/pk-direct.c:165
 msgid "Command not found, valid commands are:"
-msgstr "Kommando hittades inte, giltiga kommandon är:"
+msgstr "Kommandot hittades inte. Giltiga kommandon är:"
 
 #. TRANSLATORS: a backend is the system package tool, e.g. dnf, apt
 #: src/pk-direct.c:410 src/pk-main.c:123
 msgid "Packaging backend to use, e.g. dummy"
 msgstr "Paketeringsbakände att använda, t.ex. dummy"
 
-#: src/pk-direct.c:413 src/pk-main.c:141
-msgid "FILE"
-msgstr "FIL"
-
 #. TRANSLATORS: path to an alternative configuration file, used for testing
 #: src/pk-direct.c:413 src/pk-main.c:141
 msgid "Use this configuration file instead of the default"
-msgstr "Använd denna konfigurationsfil istället för standardfilen"
+msgstr "Använd den här konfigurationsfilen i stället för standardfilen"
+
+#: src/pk-direct.c:413 src/pk-main.c:141
+msgid "FILE"
+msgstr "FIL"
 
 #. TRANSLATORS: command description
 #: src/pk-direct.c:432
@@ -2119,7 +2202,7 @@ msgstr "Installera paket"
 #. TRANSLATORS: command description
 #: src/pk-direct.c:467
 msgid "Set repository options"
-msgstr "Ställ in förråds inställningar"
+msgstr "Ange alternativ för förråd"
 
 #. TRANSLATORS: program name
 #: src/pk-direct.c:478
@@ -2144,7 +2227,7 @@ msgstr "Misslyckades med att läsa in bakänden"
 #. TRANSLATORS: cannot unload the backend the user specified
 #: src/pk-direct.c:576
 msgid "Failed to unload the backend"
-msgstr "Misslyckades med att läsa ut bakänden"
+msgstr "Det gick inte att stänga av bakänden"
 
 #. TRANSLATORS: if we should not monitor how long we are inactive for
 #: src/pk-main.c:126
@@ -2159,7 +2242,7 @@ msgstr "Visa version och avsluta"
 #. TRANSLATORS: exit after we've started up, used for user profiling
 #: src/pk-main.c:132
 msgid "Exit after a small delay"
-msgstr "Avsluta efter en mindre fördröjning"
+msgstr "Avsluta efter en kort fördröjning"
 
 #. TRANSLATORS: exit straight away, used for automatic profiling
 #: src/pk-main.c:135
@@ -2169,7 +2252,7 @@ msgstr "Avsluta efter att motorn har lästs in"
 #. TRANSLATORS: don't unset environment variables, used for debugging
 #: src/pk-main.c:138
 msgid "Don't clear environment on startup"
-msgstr "Rensa inte miljön vid start"
+msgstr "Rensa inte miljövariablerna vid start"
 
 #. TRANSLATORS: describing the service that is running
 #: src/pk-main.c:163
@@ -2180,7 +2263,7 @@ msgstr "PackageKit-tjänst"
 #: src/pk-main.c:192
 #, c-format
 msgid "Failed to load config file: %s"
-msgstr "Misslyckades med att läsa in konfigurationsfil: %s"
+msgstr "Det gick inte att läsa in konfigurationsfilen: %s"
 
 #. TRANSLATORS: The placeholder is an error message.
 #. * `auto` is a potential value of the DefaultBackend= configuration key.
@@ -2196,25 +2279,39 @@ msgid "Failed to load the backend: %s"
 msgstr "Misslyckades med att läsa in bakänden: %s"
 
 #. TRANSLATORS: is not GPG signed
-#: src/pk-transaction.c:2588
+#: src/pk-transaction.c:2734
 msgid "The software is not from a trusted source."
 msgstr "Programvaran kommer inte från en pålitlig källa."
 
-#: src/pk-transaction.c:2596
+#: src/pk-transaction.c:2742
 msgid "Do not update this package unless you are sure it is safe to do so."
-msgstr "Uppdatera inte detta paket såvida inte du vet att det är säkert att göra så."
+msgstr ""
+"Uppdatera inte det här paketet om du inte är säker på att det är säkert."
 
-#: src/pk-transaction.c:2598
+#: src/pk-transaction.c:2744
 msgid "Do not update these packages unless you are sure it is safe to do so."
-msgstr "Uppdatera inte dessa paket såvida inte du vet att det är säkert att göra så."
+msgstr ""
+"Uppdatera inte de här paketen om du inte är säker på att det är säkert."
 
-#: src/pk-transaction.c:2609
+#: src/pk-transaction.c:2755
 msgid "Do not install this package unless you are sure it is safe to do so."
-msgstr "Installera inte detta paket såvida inte du vet att det är säkert att göra så."
+msgstr ""
+"Installera inte det här paketet om du inte är säker på att det är säkert."
 
-#: src/pk-transaction.c:2611
+#: src/pk-transaction.c:2757
 msgid "Do not install these packages unless you are sure it is safe to do so."
-msgstr "Installera inte dessa paket såvida inte du vet att det är säkert att göra så."
+msgstr ""
+"Installera inte de här paketen om du inte är säker på att det är säkert."
+
+#~ msgid "Safely terminate the PackageKit daemon."
+#~ msgstr "Avsluta PackageKit-demon på ett säkert sätt."
+
+#, c-format
+#~ msgid "Failed to send daemon quit request: %s"
+#~ msgstr "Misslyckades med att skicka avslutningsförfrågan till demon: %s"
+
+#~ msgid "Safely stop the PackageKit daemon"
+#~ msgstr "Stoppa PackageKit-demonen på ett säkert sätt"
 
 #~ msgid ""
 #~ "Upgrade all packages or perform a distribution upgrade.\n"
@@ -2226,7 +2323,8 @@ msgstr "Installera inte dessa paket såvida inte du vet att det är säkert att 
 #~ "Typer: minimal, default, complete"
 
 #~ msgid "Show distribution version upgrades, if any are available."
-#~ msgstr "Visa versionsuppgraderingar för distribution om några är tillgängliga."
+#~ msgstr ""
+#~ "Visa versionsuppgraderingar för distribution om några är tillgängliga."
 
 #~ msgid "Show available distribution upgrades"
 #~ msgstr "Visa tillgängliga distributionsuppgraderingar"
@@ -2369,11 +2467,19 @@ msgstr "Installera inte dessa paket såvida inte du vet att det är säkert att 
 #~ msgid "There are no updates available at this time."
 #~ msgstr "Det finns inga uppdateringar tillgängliga just nu."
 
-#~ msgid "Please restart the computer to complete the update as important security updates have been installed."
-#~ msgstr "Starta om datorn för att färdigställa uppdateringen eftersom viktiga säkerhetsuppdateringar har installerats."
+#~ msgid ""
+#~ "Please restart the computer to complete the update as important security "
+#~ "updates have been installed."
+#~ msgstr ""
+#~ "Starta om datorn för att färdigställa uppdateringen eftersom viktiga "
+#~ "säkerhetsuppdateringar har installerats."
 
-#~ msgid "Please logout and login to complete the update as important security updates have been installed."
-#~ msgstr "Logga ut och logga in igen för att färdigställa uppdateringen eftersom viktiga säkerhetsuppdateringar har installerats."
+#~ msgid ""
+#~ "Please logout and login to complete the update as important security updates"
+#~ " have been installed."
+#~ msgstr ""
+#~ "Logga ut och logga in igen för att färdigställa uppdateringen eftersom "
+#~ "viktiga säkerhetsuppdateringar har installerats."
 
 #~ msgid "Package not found"
 #~ msgstr "Paketet hittades inte"
@@ -2382,8 +2488,12 @@ msgstr "Installera inte dessa paket såvida inte du vet att det är säkert att 
 #~ msgstr "Inga paket hittades"
 
 #, c-format
-#~ msgid "Expected package name, actually got file. Try using 'pkcon install-local %s' instead."
-#~ msgstr "Förväntade paketnamn men fick fil. Prova att använda ”pkcon install-local %s” istället."
+#~ msgid ""
+#~ "Expected package name, actually got file. Try using 'pkcon install-local %s'"
+#~ " instead."
+#~ msgstr ""
+#~ "Förväntade paketnamn men fick fil. Prova att använda ”pkcon install-local "
+#~ "%s” istället."
 
 #, c-format
 #~ msgid "This tool could not find any available package: %s"
@@ -2443,11 +2553,19 @@ msgstr "Installera inte dessa paket såvida inte du vet att det är säkert att 
 #~ msgid "Automatically remove unused dependencies"
 #~ msgstr "Ta automatiskt bort oanvända beroenden"
 
-#~ msgid "Print to screen a machine readable output, rather than using animated widgets"
-#~ msgstr "Skriv ut maskinläsbart utdata på skärmen istället för att använda animerade widgetar"
+#~ msgid ""
+#~ "Print to screen a machine readable output, rather than using animated "
+#~ "widgets"
+#~ msgstr ""
+#~ "Skriv ut maskinläsbart utdata på skärmen istället för att använda animerade "
+#~ "widgetar"
 
-#~ msgid "The maximum metadata cache age (in seconds). Use -1 to use only cache, 1 to reload cache."
-#~ msgstr "Maximal cacheålder för metadata (i sekunder). Använd -1 för att endast använda cache, 1 för att läsa in cache igen."
+#~ msgid ""
+#~ "The maximum metadata cache age (in seconds). Use -1 to use only cache, 1 to "
+#~ "reload cache."
+#~ msgstr ""
+#~ "Maximal cacheålder för metadata (i sekunder). Använd -1 för att endast "
+#~ "använda cache, 1 för att läsa in cache igen."
 
 #~ msgid "Allow untrusted packages to be installed."
 #~ msgstr "Tillåt otillförlitliga paket att installeras."
