@@ -169,6 +169,8 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | chroma range | krominansomfång | GIMP-färgförbättring; skilj från nyans och ljushet. |
 | HSV (GIMP UI) | NMI | GIMP:s etablerade svenska beteckning för nyans, mättnad och intensitet; behåll HSV i teknisk förklaring/kod där identifieraren avses. |
 | blending options | blandningsalternativ | GIMP:s lager- och filterblandning; inte *toningsalternativ*. |
+| Semi-Flatten (filter) | Halvutplattning | Filter som lägger färg i halvgenomskinliga områden. |
+| Image Map | bildkarta | GIMP-filter för klickbara områden i en bild. |
 | hot spot (image map) | aktivt område | Klickbart område i en bildkarta. |
 | semi-transparency | halvgenomskinlighet | När ett bildformat simulerar genomskinlighet utan alfakanal. |
 | edge-detect filter | kantdetekteringsfilter | Filterkategori. |
