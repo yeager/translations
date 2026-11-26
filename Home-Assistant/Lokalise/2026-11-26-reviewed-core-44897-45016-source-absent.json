@@ -1,0 +1,128 @@
+[
+  {
+    "position": 44901,
+    "key": "component::google_air_quality::entity::sensor::local_category::state::unfavorable_sensitive",
+    "en": "Unfavorable air quality for sensitive groups",
+    "sv": "Ogynnsam luftkvalitet för känsliga grupper",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 44908,
+    "key": "component::google_air_quality::entity::sensor::local_category::state::very_high_air_quality",
+    "en": "Very High air pollution",
+    "sv": "Mycket hög luftförorening",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 44914,
+    "key": "component::google_air_quality::entity::sensor::local_category::state::very_unhealthy",
+    "en": "Very unhealthy air quality",
+    "sv": "Mycket ohälsosam luftkvalitet",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 44924,
+    "key": "component::google_air_quality::entity::sensor::nitrogen_dioxide::name",
+    "en": "Nitrogen dioxide",
+    "sv": "Kvävedioxid",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 44925,
+    "key": "component::google_air_quality::entity::sensor::ozone::name",
+    "en": "Ozone",
+    "sv": "Ozon",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 44926,
+    "key": "component::google_air_quality::entity::sensor::sulphur_dioxide::name",
+    "en": "Sulphur dioxide",
+    "sv": "Svaveldioxid",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 44966,
+    "key": "component::music_assistant::config::abort::reauth_successful",
+    "en": "Re-authentication was successful",
+    "sv": "Återautentisering lyckades",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 44977,
+    "key": "component::energyid::config::abort::reauth_successful",
+    "en": "Re-authentication was successful",
+    "sv": "Återautentisering lyckades",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 45005,
+    "key": "component::template::issues::deprecated_legacy_templates::description",
+    "en": "The legacy `platform: template` syntax for `{domain}` is being removed. Please migrate `{breadcrumb}` to the modern template syntax.\n#### Step 1 - Remove legacy configuration\nRemove the `{breadcrumb}` template definition from the `configuration.yaml` `{domain}:` section.\n\n**Note:** If you are using `{domain}: !include {filename}.yaml` in `configuration.yaml`, remove the {domain} definition from the included `{filename}.yaml`.\n#### Step 2 -  Add the modern configuration\nAdd new template definition inside `configuration.yaml`:\n{config}\n**Note:** If there are any existing `template:` sections in your configuration, make sure to omit the `template:` line from the yaml above.  There can only be 1 `template:` section in `configuration.yaml`.  Also, ensure the indentation is aligned with the existing entities within the `template:` section.\n#### Step 3 - Restart Home Assistant or reload template entities",
+    "sv": "Den äldre syntaxen `platform: template` för `{domain}` tas bort. Migrera `{breadcrumb}` till den moderna mallsyntaxen.\n#### Steg 1: Ta bort den äldre konfigurationen\nTa bort malldefinitionen `{breadcrumb}` från avsnittet `{domain}:` i `configuration.yaml`.\n\n**Obs:** Om du använder `{domain}: !include {filename}.yaml` i `configuration.yaml`, tar du bort definitionen `{domain}` från den inkluderade `{filename}.yaml`.\n#### Steg 2: Lägg till den moderna konfigurationen\nLägg till en ny malldefinition i `configuration.yaml`:\n{config}\n**Obs:** Om det redan finns avsnitt med `template:` i din konfiguration, utelämnar du raden `template:` i YAML-koden ovan. Det kan bara finnas ett avsnitt med `template:` i `configuration.yaml`. Kontrollera också att indraget är i linje med befintliga entiteter i avsnittet `template:`.\n#### Steg 3: Starta om Home Assistant eller läs in mallentiteterna på nytt",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 45006,
+    "key": "component::template::issues::deprecated_legacy_templates::title",
+    "en": "Legacy {domain} template deprecation",
+    "sv": "Äldre {domain} mallar (template) föråldrade",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 45008,
+    "key": "component::climate::triggers::started_cooling::description_configured",
+    "en": "Triggers when one or more thermostats start cooling.",
+    "sv": "Utlöses när en eller flera termostater börjar kyla.",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 45009,
+    "key": "component::climate::triggers::started_cooling::fields::behavior::description",
+    "en": "The behavior of the targeted climates to trigger on.",
+    "sv": "Det beteende som ska trigga för valda klimatenheter.",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 45013,
+    "key": "component::climate::triggers::started_drying::description_configured",
+    "en": "Triggers when one or more thermostats start drying.",
+    "sv": "Utlöses när en eller flera termostater börjar avfukta.",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 45014,
+    "key": "component::climate::triggers::started_drying::fields::behavior::description",
+    "en": "The behavior of the targeted climates to trigger on.",
+    "sv": "Det beteende som ska trigga för valda klimatenheter.",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  }
+]
