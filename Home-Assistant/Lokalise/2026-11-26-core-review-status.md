@@ -297,3 +297,8 @@ Referensalias i batchen 28411–28530: 18 av 18 verifierade mot live-målen utan
 ## Retroaktiv korrigering 2026-11-26
 
 Två tidigare Miele-nycklar med `Common sole` korrigerades från ”Rödtunga” till ”Sjötunga”. Båda ändringarna sparades/lästes tillbaka i Lokalise och uppdaterades i HA Core-TM, manifestet för 34817–34936 och dess rapport.
+
+
+## Fortsatt radgranskning 2026-11-26 – position 35057–35176
+
+Samtliga 120 rader matchar aktuell Core-källa. 44 ändringar sparades och återlästes; 76 mål behölls. Ingen tidigare rapporterad nyckel, ingen aliasreferens och inga pluralnycklar. Platshållare ej aktuellt i spannet. Potatisetiketter rättades från bokstavlig ”vaxartad” till fast sort, tillsammans med felaktiga fisknamn och böjningar. `svlang skrivregler` fann inga fel. TMX validerar med 23865 enheter. Se rapport och JSON-underlag. Nästa position: **35 177**.
