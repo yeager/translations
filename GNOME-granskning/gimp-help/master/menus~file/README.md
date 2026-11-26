@@ -9,3 +9,5 @@
 - Validering: `msgfmt --check --check-format --statistics` godkänd (245 översatta); `msgcmp --use-fuzzy` mot senaste POT godkänd. Platshållare, DocBook-element/attribut, länkmål, URL:er och acceleratorunderstrykningar kontrollerades utan avvikelser. `l10n-lint`: 0 fel, 2 varningar. Båda är dokumenterade avsiktliga översättningar av kommandon inne i `<quote>` respektive `<command>`; själva markupen är bevarad. `hunspell-sv` kördes på katalogen; bedömda tekniska och kontextuella undantag redovisas nedan.
 - Ingen GNOME-inskickning har gjorts.
 - Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-26.
+
+- Aktuell API-blockerare (2026-11-26 23:00 UTC): state `Translating`; endast `WriteAComment` är tillgänglig.
