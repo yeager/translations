@@ -9,3 +9,4 @@
 - Hunspell-SV hittade inga vanliga stavfel; rimliga undantag dokumenteras i `hunspell-undantag.md`.
 - Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-26.
 - GNOME-inskick: inte inskickad.
+- Inskickning pausad: Damned Lies visar state `Translating` och endast `WriteAComment`; en aktiv reservation gör uppladdning otillgänglig. Återförsök när reservationen har avslutats.
