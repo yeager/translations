@@ -622,3 +622,12 @@ argumentet betyder i just det programmet.
 | call a method | anropa en metod | |
 | service owner | tjänstens ägare | D-Bus-kontext. |
 | GVariant text format | GVariant-textformat | Behåll formatnamnet. |
+
+
+## Sushi
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| preview (verb) | förhandsgranska | Använd konsekvent i knappar och beskrivningar. |
+| previewer | förhandsgranskare | Verktyg/program för filförhandsgranskning. |
+| file preview | förhandsgranskning av filer | |

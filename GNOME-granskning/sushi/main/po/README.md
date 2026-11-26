@@ -1,13 +1,10 @@
 # Sushi — main — po — svenska
 
-- Damned Lies: https://l10n.gnome.org/vertimus/sushi/main/po/sv/
-- POT/PO-källa: https://l10n.gnome.org/POT/sushi.main/sushi.main.pot och https://l10n.gnome.org/POT/sushi.main/sushi.main.sv.po
-- Källfil hämtad 2026-11-24; POT skapades 2026-09-26 09:03 UTC.
-- Upstream vid hämtning: 24 strängar totalt, 23 översatta, 0 fuzzy, 1 oöversatt.
-- Slutlig lokal fil: 24 aktiva strängar, 0 oöversatta, 0 fuzzy.
-- Ändrade aktiva poster: 4 (3 rättade och 1 ny översättning).
-- Hela katalogen radgranskades mot aktuell POT. Rättelserna omfattar den saknade utvecklarsträngen, naturligare sammanfattning, knapptexten ”Kopiera hela felmeddelandet” och etablerad term för helskärmsläge. Behållna identifierare/nyckelord och kontextberoende ord granskades mot källreferenser.
-- `nautilus` och `sushi` är söknyckelord/identifierare och lämnas oförändrade. För musikmetadata används `by` om artist (”av”) och `from` om album (”från”).
-- Kontroll: `msgfmt --check` godkänd; `msgcmp --use-fuzzy` matchar aktuell POT; `l10n-lint --language sv` utan fel eller varningar. Egen kontroll av placeholders, acceleratorer, markup och radbrytningar utförd; inga avvikelser.
-- `hunspell-sv` kördes med GNOME-ordlistan. Rimliga undantag: produktnamn och identifierare (Sushi, GNOME, Nautilus, `nautilus`), tekniska termer och svenska sammansättningar.
-- Senaste POT/PO och aktivitetslänk sparade för spårbarhet. Ingenting har skickats till GNOME.
+- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/sushi/main/po/sv/>.
+- Aktuell PO och senaste POT hämtades 2026-11-26. POT skapad 2026-09-25 15:00 UTC; 24 aktiva poster.
+- GNOME-status före: 23 översatta, 0 fuzzy, 1 oöversatt (GNOME-projektet). Efter: 24 översatta, 0 fuzzy, 0 oöversatta. Pluralposten `%d item/items` hade redan två översatta former.
+- Alla 24 strängar radgranskades; 1 ny översättning och 5 befintliga översättningar förbättrades.
+- Förhandsvisningsterminologin gjordes konsekvent: *preview* → *förhandsgranska*, *previewer* → *förhandsgranskare*. Produktnamn och pluralplatshållare bevarades.
+- Validering: `msgfmt --check --check-format --statistics`, `msgcmp --use-fuzzy` och egen printf-/pluralformskontroll godkända. `l10n-lint`: 0 fel/varningar. `hunspell-sv` kördes; endast `nautilus` flaggades och dokumenterades.
+- Ingen GNOME-inskickning har gjorts.
+- Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-26.
