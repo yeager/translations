@@ -23,3 +23,4 @@ Ingen GNOME-inskickning har gjorts.
 - [Granskad PO](sushi.gnome-50.sv.reviewed.po)
 - [Diff](sushi.gnome-50.sv.diff)
 - [Senaste POT](sushi.gnome-50.pot)
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren ‘Granskad och klar’ syns på aktivitetssidan; statistik 19/0/0.

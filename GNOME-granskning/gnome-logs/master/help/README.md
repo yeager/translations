@@ -13,3 +13,4 @@ fuzzy återstår.
 `msgfmt --check` och `msgcmp --use-fuzzy` är godkända. l10n-lints enda
 varning gäller den fasta bildfilreferensen `gnome-logs-3-34.png`, som måste
 bevaras oförändrad. Ingen inskickning till GNOME har gjorts i detta steg.
+- GNOME-inskick: 2026-11-26 via Damned Lies API; kommentaren ‘Granskad och klar’ syns på aktivitetssidan; statistik 23/0/0.

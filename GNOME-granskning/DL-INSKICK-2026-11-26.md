@@ -1,6 +1,6 @@
 # Damned Lies-inskickningar — 2026-11-26
 
-Sexton färdiggranskade kataloger uppladdades via API; aktivitetsidorna visar kommentaren ”Granskad och klar”. De fjorton GIMP/GIMP Help-statistikpanelerna visar fortfarande värdena före uppladdning medan uppdateringarna behandlas; Console och GDM visar 137/0/0 respektive 129/0/0.
+Tjugosex färdiggranskade kataloger uppladdades via API; aktivitetsidorna visar kommentaren ”Granskad och klar”. De fjorton GIMP/GIMP Help-statistikpanelerna visar fortfarande värdena före uppladdning medan uppdateringarna behandlas; Console och GDM visar 137/0/0 respektive 129/0/0.
 
 | Modul | Gren | Domän | Ändrade PO-poster |
 |---|---|---|---:|
@@ -32,3 +32,18 @@ För dessa åtta färdiggranskade kataloger saknar Damned Lies-API:t åtgärden 
 - `gimp-help/master/po-windows-installer` (2 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
 - `gimp-help/master/concepts` (51 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
 - `gimp-help/master/using` (630 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
+| gimp-help | master | introduction | 1 |
+| gstreamer | main | plugins-ugly | 1 |
+| stevia | main | po | 4 |
+| gparted | master | po | 1 |
+| sushi | gnome-50 | po | 2 |
+| evolution-etesync | master | po | 5 |
+| cups-pk-helper | master | po | 19 |
+| gnome-tour | main | po | 4 |
+| gnome-logs | master | help | 7 |
+| network-manager-iodine | master | po | 5 |
+- `gtk-vnc/master/po` (2 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
+- `xdg-user-dirs-gtk/master/po` (3 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
+- `avahi/master/po` (3 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
+- `oo7/main/oo7-server` (7 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
+- `sushi/main/po` (6 ändrade poster): API saknar `UploadTranslation` (tillgängligt: ReserveForTranslation, WriteAComment).
