@@ -1,0 +1,600 @@
+--- zenity.master.po.sv.original.po
++++ zenity.master.po.sv.reviewed.po
+@@ -11,8 +11,8 @@
+ "Project-Id-Version: zenity\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/zenity/issues/\n"
+ "POT-Creation-Date: 2026-11-25 21:43+0000\n"
+-"PO-Revision-Date: 2026-03-22 17:02+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-26 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -36,7 +36,7 @@
+ #: src/calendar.c:91
+ #, c-format
+ msgid "Invalid date provided. Falling back to today's date.\n"
+-msgstr "Ogiltigt datum tillhandahållet. Faller tillbaka på dagens datum.\n"
++msgstr "Ogiltigt datum angavs. Använder dagens datum i stället.\n"
+ 
+ #: src/fileselection.c:41
+ #, c-format
+@@ -44,8 +44,8 @@
+ "Warning: the --extra-button option for --file-selection is deprecated and "
+ "will be removed in a future version of zenity. Ignoring.\n"
+ msgstr ""
+-"Varning: flaggan --extra-button för --file-selection är föråldrad och kommer "
+-"tas bort i en framtida version av zenity. Ignorerar.\n"
++"Varning: flaggan --extra-button för --file-selection är utfasad och tas bort"
++" i en framtida version av Zenity. Ignorerar flaggan.\n"
+ 
+ #: src/main.c:124
+ #, c-format
+@@ -68,7 +68,7 @@
+ #: src/notification.c:140
+ #, c-format
+ msgid "Could not parse command from stdin\n"
+-msgstr "Kunde inte tolka kommando från standard in\n"
++msgstr "Det gick inte att tolka kommandot från stdin\n"
+ 
+ #: src/option.c:171
+ msgid "Set the dialog title"
+@@ -125,11 +125,11 @@
+ 
+ #: src/option.c:221
+ msgid "Set the modal hint"
+-msgstr "Ställ in modalt tips"
++msgstr "Gör dialogrutan modal"
+ 
+ #: src/option.c:228
+ msgid "Set the application identifier (Since: 4.4)"
+-msgstr "Ställ in programidentifieraren (Sedan: 4.4)"
++msgstr "Ange programmets ID (från version 4.4)"
+ 
+ #: src/option.c:235 src/option.c:481 src/option.c:577 src/option.c:615
+ msgid "DEPRECATED; does nothing"
+@@ -141,7 +141,7 @@
+ 
+ #: src/option.c:242 src/option.c:249
+ msgid "DEPRECATED; use `--icon`"
+-msgstr "FÖRÅLDRAD; använd ”--icon”"
++msgstr "UTFASAD; använd `--icon`"
+ 
+ #: src/option.c:243 src/option.c:250 src/option.c:350 src/option.c:397
+ #: src/option.c:602 src/option.c:701 src/option.c:833
+@@ -150,7 +150,7 @@
+ 
+ #: src/option.c:259
+ msgid "Display calendar dialog"
+-msgstr "Visa kalenderdialog"
++msgstr "Visa en kalenderdialogruta"
+ 
+ #: src/option.c:266 src/option.c:311 src/option.c:342 src/option.c:389
+ #: src/option.c:498 src/option.c:632 src/option.c:693 src/option.c:825
+@@ -192,7 +192,7 @@
+ 
+ #: src/option.c:304
+ msgid "Display text entry dialog"
+-msgstr "Visa textinmatningsdialog"
++msgstr "Visa en textinmatningsdialogruta"
+ 
+ #: src/option.c:318
+ msgid "Set the entry text"
+@@ -204,7 +204,7 @@
+ 
+ #: src/option.c:335
+ msgid "Display error dialog"
+-msgstr "Visa feldialog"
++msgstr "Visa en feldialogruta"
+ 
+ #: src/option.c:349 src/option.c:396 src/option.c:601 src/option.c:700
+ #: src/option.c:832
+@@ -224,16 +224,16 @@
+ "Enable ellipsizing in the dialog text. This fixes the high window size with "
+ "long texts"
+ msgstr ""
+-"Aktivera elliptisering i dialogrutetexten. Detta fixar den höga "
+-"fönsterstorleken med långa texter"
++"Visa en ellips när dialogtexten kortas ned. Det hindrar fönstret från att "
++"bli för högt när texten är lång"
+ 
+ #: src/option.c:382
+ msgid "Display info dialog"
+-msgstr "Visa informationsdialog"
++msgstr "Visa en informationsdialogruta"
+ 
+ #: src/option.c:429
+ msgid "Display file selection dialog"
+-msgstr "Visa filväljardialog"
++msgstr "Visa en filväljardialogruta"
+ 
+ #: src/option.c:436
+ msgid "Set the filename"
+@@ -249,7 +249,7 @@
+ 
+ #: src/option.c:450
+ msgid "Activate directory-only selection"
+-msgstr "Aktivera markering av endast kataloger"
++msgstr "Tillåt att endast mappar väljs"
+ 
+ #: src/option.c:457
+ msgid "Activate save mode"
+@@ -257,7 +257,7 @@
+ 
+ #: src/option.c:464 src/option.c:533 src/option.c:1018
+ msgid "Set output separator character"
+-msgstr "Ställ in åtskiljartecken för utdata"
++msgstr "Ange avgränsartecken för utdata"
+ 
+ #: src/option.c:465 src/option.c:534 src/option.c:1019
+ msgid "SEPARATOR"
+@@ -275,7 +275,7 @@
+ 
+ #: src/option.c:491
+ msgid "Display list dialog"
+-msgstr "Visa listdialog"
++msgstr "Visa en listdialogruta"
+ 
+ #: src/option.c:505
+ msgid "Set the column header"
+@@ -357,20 +357,20 @@
+ #: src/option.c:654
+ #, no-c-format
+ msgid "Dismiss the dialog when 100% has been reached"
+-msgstr "Stäng dialogfönstret då 100% har nåtts"
++msgstr "Stäng dialogrutan när förloppet når 100 %"
+ 
+ #: src/option.c:661
+ msgid "Kill parent process if Cancel button is pressed"
+-msgstr "Döda föräldraprocessen om avbrytsknappen trycks"
++msgstr "Avsluta den överordnade processen om knappen Avbryt trycks ned"
+ 
+ #: src/option.c:668
+ msgid "Hide Cancel button"
+-msgstr "Dölj avbrytsknapp"
++msgstr "Dölj knappen Avbryt"
+ 
+ #: src/option.c:676
+ #, no-c-format
+ msgid "Estimate when progress will reach 100%"
+-msgstr "Beräkna när förloppet kommer att nå 100%"
++msgstr "Beräkna när förloppet når 100 %"
+ 
+ #: src/option.c:686
+ msgid "Display question dialog"
+@@ -386,7 +386,7 @@
+ 
+ #: src/option.c:747
+ msgid "Display text information dialog"
+-msgstr "Visa textinformationsdialog"
++msgstr "Visa en textinformationsdialogruta"
+ 
+ #: src/option.c:754
+ msgid "Open file"
+@@ -398,7 +398,7 @@
+ 
+ #: src/option.c:775
+ msgid "Enable an I read and agree checkbox"
+-msgstr "Aktivera en \"Jag har läst och godkänner\"-kryssruta"
++msgstr "Visa kryssrutan ”Jag har läst och godkänner”"
+ 
+ #: src/option.c:783
+ msgid "Enable HTML support"
+@@ -406,17 +406,15 @@
+ 
+ #: src/option.c:790
+ msgid ""
+-"Do not enable user interaction with the WebView. Only works if you use --"
+-"html option"
++"Do not enable user interaction with the WebView. Only works if you use "
++"--html option"
+ msgstr ""
+ "Aktivera inte användarinteraktion med WebView. Fungerar endast om du "
+ "använder flaggan --html"
+ 
+ #: src/option.c:798
+ msgid "Set an URL instead of a file. Only works if you use --html option"
+-msgstr ""
+-"Ange en URL istället för en fil. Fungerar endast om du använder flaggan --"
+-"html"
++msgstr "Ange en URL i stället för en fil. Fungerar bara med flaggan --html"
+ 
+ #: src/option.c:800
+ msgid "URL"
+@@ -425,15 +423,15 @@
+ #: src/option.c:807
+ msgid "Auto scroll the text to the end. Only when text is captured from stdin"
+ msgstr ""
+-"Rulla texten automatiskt till slutet. Bara när text matas från standard in"
++"Rulla texten automatiskt till slutet. Gäller bara när text läses från stdin"
+ 
+ #: src/option.c:818
+ msgid "Display warning dialog"
+-msgstr "Visa varningsdialog"
++msgstr "Visa en varningsdialogruta"
+ 
+ #: src/option.c:865
+ msgid "Display scale dialog"
+-msgstr "Visa skaldialog"
++msgstr "Visa en dialogruta med skjutreglage"
+ 
+ #: src/option.c:879
+ msgid "Set initial value"
+@@ -458,7 +456,7 @@
+ 
+ #: src/option.c:907
+ msgid "Print partial values"
+-msgstr "Skriv ut partiella värden"
++msgstr "Skriv ut värden löpande"
+ 
+ #: src/option.c:914
+ msgid "Hide value"
+@@ -466,11 +464,11 @@
+ 
+ #: src/option.c:924
+ msgid "Display forms dialog"
+-msgstr "Visa formulärdialog"
++msgstr "Visa en formulärdialogruta"
+ 
+ #: src/option.c:931
+ msgid "Add a new Entry in forms dialog"
+-msgstr "Lägg till en ny post i formulärdialog"
++msgstr "Lägg till ett fält i formuläret"
+ 
+ #: src/option.c:932 src/option.c:939 src/option.c:946
+ msgid "Field name"
+@@ -478,15 +476,15 @@
+ 
+ #: src/option.c:938
+ msgid "Add a new Password Entry in forms dialog"
+-msgstr "Lägg till en ny lösenordsinmatning i formulärdialog"
++msgstr "Lägg till ett lösenordsfält i formuläret"
+ 
+ #: src/option.c:945
+ msgid "Add a new multi-line entry in forms dialog (Since: 4.2)"
+-msgstr "Lägg till en ny flerradsinmatning i formulärdialog (sedan: 4.2)"
++msgstr "Lägg till ett flerradsfält i formuläret (från version 4.2)"
+ 
+ #: src/option.c:952
+ msgid "Add a new Calendar in forms dialog"
+-msgstr "Lägg till en ny kalender i formulärdialog"
++msgstr "Lägg till en kalender i formuläret"
+ 
+ #: src/option.c:953
+ msgid "Calendar field name"
+@@ -494,15 +492,15 @@
+ 
+ #: src/option.c:959
+ msgid "Add a new List in forms dialog"
+-msgstr "Lägg till en ny lista i formulärdialog"
++msgstr "Lägg till en lista i formuläret"
+ 
+ #: src/option.c:960
+ msgid "List field and header name"
+-msgstr "Lista fält- och rubriknamn"
++msgstr "Namn på listfält och kolumnrubrik"
+ 
+ #: src/option.c:966
+ msgid "List of values for List"
+-msgstr "Lista med värden för lista"
++msgstr "Värden för listan"
+ 
+ #: src/option.c:967 src/option.c:974 src/option.c:988
+ msgid "List of values separated by |"
+@@ -514,35 +512,35 @@
+ 
+ #: src/option.c:980
+ msgid "Add a new combo box in forms dialog"
+-msgstr "Lägg till en ny listbox i formulärdialog"
++msgstr "Lägg till en kombinationsruta i formuläret"
+ 
+ #: src/option.c:981
+ msgid "Combo box field name"
+-msgstr "Fältnamn på listbox"
++msgstr "Fältnamn för kombinationsrutan"
+ 
+ #: src/option.c:987
+ msgid "List of values for combo box"
+-msgstr "Lista med värden för listbox"
++msgstr "Lista med värden för kombinationsrutan"
+ 
+ #: src/option.c:1004
+ msgid "Show the columns header"
+-msgstr "Visa kolumnhuvudet"
++msgstr "Visa kolumnrubrikerna"
+ 
+ #: src/option.c:1035
+ msgid "Display password dialog"
+-msgstr "Visa lösenordsdialog"
++msgstr "Visa en lösenordsdialogruta"
+ 
+ #: src/option.c:1042
+ msgid "Display the username option"
+-msgstr "Visa flagga för användarnamnet"
++msgstr "Visa alternativet för användarnamn"
+ 
+ #: src/option.c:1049
+ msgid "Set the dialog text (Since: 4.4)"
+-msgstr "Ställ in dialogtexten (Sedan: 4.4)"
++msgstr "Ange dialogtexten (från version 4.4)"
+ 
+ #: src/option.c:1059
+ msgid "Display color selection dialog"
+-msgstr "Visa färgväljardialog"
++msgstr "Visa en färgväljardialogruta"
+ 
+ #: src/option.c:1066
+ msgid "Set the color"
+@@ -554,7 +552,7 @@
+ 
+ #: src/option.c:1083
+ msgid "About zenity"
+-msgstr "Om zenity"
++msgstr "Om Zenity"
+ 
+ #: src/option.c:1090
+ msgid "Print version"
+@@ -566,17 +564,17 @@
+ "Warning: --icon-name is deprecated and will be removed in a future version "
+ "of zenity; Treating as --icon.\n"
+ msgstr ""
+-"Varning: --icon-name är föråldrad och kommer tas bort i en framtida version "
+-"av zenity, behandlar som --icon.\n"
++"Varning: --icon-name är utfasad och tas bort i en framtida version av "
++"Zenity. Använder --icon i stället.\n"
+ 
+ #: src/option.c:1108
+ #, c-format
+ msgid ""
+-"Warning: --window-icon is deprecated and will be removed in a future version "
+-"of zenity; Treating as --icon.\n"
++"Warning: --window-icon is deprecated and will be removed in a future version"
++" of zenity; Treating as --icon.\n"
+ msgstr ""
+-"Varning: --window-icon är föråldrad och kommer tas bort i en framtida "
+-"version av zenity, behandlar som --icon.\n"
++"Varning: --window-icon är utfasad och tas bort i en framtida version av "
++"Zenity. Använder --icon i stället.\n"
+ 
+ #: src/option.c:1115
+ #, c-format
+@@ -584,8 +582,8 @@
+ "Warning: --confirm-overwrite is deprecated and will be removed in a future "
+ "version of zenity. Ignoring.\n"
+ msgstr ""
+-"Varning: --confirm-overwrite är föråldrad och kommer tas bort i en framtida "
+-"version av zenity. Ignorerar.\n"
++"Varning: --confirm-overwrite är utfasad och tas bort i en framtida version "
++"av Zenity. Ignorerar flaggan.\n"
+ 
+ #: src/option.c:1122
+ #, c-format
+@@ -593,8 +591,8 @@
+ "Warning: --attach is deprecated and will be removed in a future version of "
+ "zenity. Ignoring.\n"
+ msgstr ""
+-"Varning: --attach är föråldrad och kommer tas bort i en framtida version av "
+-"zenity. Ignorerar.\n"
++"Varning: --attach är utfasad och tas bort i en framtida version av Zenity. "
++"Ignorerar flaggan.\n"
+ 
+ #: src/option.c:1129
+ #, c-format
+@@ -602,17 +600,17 @@
+ "Warning: --hint is deprecated and will be removed in a future version of "
+ "zenity. Ignoring.\n"
+ msgstr ""
+-"Varning: --hint är föråldrad och kommer tas bort i en framtida version av "
+-"zenity. Ignorerar.\n"
++"Varning: --hint är utfasad och tas bort i en framtida version av Zenity. "
++"Ignorerar flaggan.\n"
+ 
+ #: src/option.c:1452
+ #, c-format
+ msgid ""
+-"Warning: the application ID passed to --app-id is not valid. Falling back to "
+-"the default generic ID.\n"
++"Warning: the application ID passed to --app-id is not valid. Falling back to"
++" the default generic ID.\n"
+ msgstr ""
+-"Varning: program-ID:t som skickats till --app-id är inte giltigt. Faller "
+-"tillbaka på det generiska standard-ID:t.\n"
++"Varning: program-ID:t som angavs med --app-id är ogiltigt. Använder det "
++"generiska standard-ID:t i stället.\n"
+ 
+ #: src/option.c:2062
+ msgid "General options"
+@@ -712,11 +710,11 @@
+ 
+ #: src/option.c:2207
+ msgid "Text information options"
+-msgstr "Textinformationsflaggor"
++msgstr "Flaggor för textinformation"
+ 
+ #: src/option.c:2208
+ msgid "Show text information options"
+-msgstr "Visa textinformationsflaggor"
++msgstr "Visa flaggor för textinformation"
+ 
+ #: src/option.c:2220
+ msgid "Color selection options"
+@@ -728,19 +726,19 @@
+ 
+ #: src/option.c:2233
+ msgid "Password dialog options"
+-msgstr "Flaggor för lösenordsdialog"
++msgstr "Flaggor för lösenordsdialogrutan"
+ 
+ #: src/option.c:2234
+ msgid "Show password dialog options"
+-msgstr "Visa flaggor för lösenordsdialog"
++msgstr "Visa flaggor för lösenordsdialogrutan"
+ 
+ #: src/option.c:2246
+ msgid "Forms dialog options"
+-msgstr "Flaggor för formulärdialog"
++msgstr "Flaggor för formulärdialogrutan"
+ 
+ #: src/option.c:2247
+ msgid "Show forms dialog options"
+-msgstr "Visa flaggor för formulärdialog"
++msgstr "Visa flaggor för formulärdialogrutan"
+ 
+ #: src/option.c:2259
+ msgid "Miscellaneous options"
+@@ -755,8 +753,8 @@
+ msgid ""
+ "This option is not available. Please see --help for all possible usages.\n"
+ msgstr ""
+-"Denna flagga är inte tillgänglig. Se --help för alla möjliga\n"
+-"användningsfall.\n"
++"Den här flaggan är inte tillgänglig. Se --help för information om hur den "
++"kan användas.\n"
+ 
+ #: src/option.c:2288
+ #, c-format
+@@ -774,7 +772,6 @@
+ 
+ #. Add the username label and entry and increment the row for the
+ #. * password entry so it will be added below the username.
+-#.
+ #: src/password.c:95
+ msgid "Username:"
+ msgstr "Användarnamn:"
+@@ -786,7 +783,7 @@
+ #: src/progress.c:113
+ #, c-format
+ msgid "Time remaining: %lu:%02lu:%02lu"
+-msgstr "Kvarstående tid: %lu:%02lu:%02lu"
++msgstr "Återstående tid: %lu:%02lu:%02lu"
+ 
+ #: src/progress.c:352 src/zenity.ui:15 src/zenity.ui:116 src/zenity.ui:138
+ #: src/zenity.ui:189 src/zenity.ui:268 src/zenity.ui:435 src/zenity.ui:512
+@@ -801,13 +798,11 @@
+ 
+ #. Translators: do not translate tokens starting with '--'; these
+ #. * are command-line options which are not translatable.
+-#.
+ #: src/progress.c:373
+ #, c-format
+ msgid ""
+ "Combining the options --auto-close and --percentage=100 is not supported.\n"
+-msgstr ""
+-"Att kombinera flaggorna --auto-close och --percentage=100 stöds inte.\n"
++msgstr "Att kombinera flaggorna --auto-close och --percentage=100 stöds inte.\n"
+ 
+ #: src/scale.c:62
+ #, c-format
+@@ -817,7 +812,7 @@
+ #: src/scale.c:70
+ #, c-format
+ msgid "Value out of range.\n"
+-msgstr "Värde utanför intervall.\n"
++msgstr "Värdet ligger utanför intervallet.\n"
+ 
+ #: src/tree.c:57
+ #, c-format
+@@ -825,13 +820,13 @@
+ "Warning: --mid-search is deprecated and will be removed in a future version "
+ "of zenity. Ignoring.\n"
+ msgstr ""
+-"Varning: --mid-search är föråldrad och kommer tas bort i en framtida version "
+-"av zenity. Ignorerar.\n"
++"Varning: --mid-search är utfasad och tas bort i en framtida version av "
++"Zenity. Ignorerar flaggan.\n"
+ 
+ #: src/tree.c:267
+ #, c-format
+ msgid "No column titles specified for List dialog.\n"
+-msgstr "Inga kolumntitlar angavs för listdialogfönstret.\n"
++msgstr "Kolumnrubriker saknas för listdialogen.\n"
+ 
+ #. Translators: --checklist and --radiolist should not be translated
+ #. * (command-line options).
+@@ -841,18 +836,19 @@
+ "Insufficient columns specified for List dialog (at least 2 are required for "
+ "--checklist or --radiolist).\n"
+ msgstr ""
+-"För få kolumner angivna för listdialog (åtminstone två krävs för --checklist "
+-"eller --radiolist).\n"
++"För få kolumner har angetts för listdialogen (minst två krävs med "
++"--checklist eller --radiolist).\n"
+ 
+ #: src/tree.c:284
+ #, c-format
+ msgid "You should use only one List dialog type.\n"
+-msgstr "Du bör endast använda en listdialogtyp.\n"
++msgstr "Du kan bara använda en typ av listdialog.\n"
+ 
+ #: src/util.c:81
+ #, c-format
+ msgid "Icon filename %s not found; trying theme icon."
+-msgstr "Ikonfilnamnet %s hittades inte, försöker med temaikon."
++msgstr ""
++"Ikonfilen %s hittades inte. Försöker använda en ikon från temat i stället."
+ 
+ #: src/zenity.ui:9 src/zenity.ui:31
+ msgid "Adjust the scale value"
+@@ -940,33 +936,33 @@
+ 
+ #~ msgid ""
+ #~ "This program is free software; you can redistribute it and/or modify it "
+-#~ "under the terms of the GNU Lesser General Public License as published by "
+-#~ "the Free Software Foundation; either version 2 of the License, or (at "
+-#~ "your option) any later version.\n"
++#~ "under the terms of the GNU Lesser General Public License as published by the"
++#~ " Free Software Foundation; either version 2 of the License, or (at your "
++#~ "option) any later version.\n"
+ #~ msgstr ""
+-#~ "Detta program är fri programvara. Du kan distribuera det och/eller "
+-#~ "modifiera det under villkoren i GNU Lesser General Public License, "
+-#~ "publicerad av Free Software Foundation, antingen version 2 eller (om du "
+-#~ "så vill) någon senare version.\n"
++#~ "Detta program är fri programvara. Du kan distribuera det och/eller modifiera"
++#~ " det under villkoren i GNU Lesser General Public License, publicerad av Free"
++#~ " Software Foundation, antingen version 2 eller (om du så vill) någon senare "
++#~ "version.\n"
+ 
+ #~ msgid ""
+-#~ "This program is distributed in the hope that it will be useful, but "
+-#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
+-#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser "
+-#~ "General Public License for more details.\n"
++#~ "This program is distributed in the hope that it will be useful, but WITHOUT "
++#~ "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
++#~ "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
++#~ " for more details.\n"
+ #~ msgstr ""
+-#~ "Detta program distribueras i hopp om att det ska vara användbart, men "
+-#~ "UTAN NÅGON SOM HELST GARANTI, även utan underförstådd garanti om "
+-#~ "SÄLJBARHET eller LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU Lesser "
+-#~ "General Public License för ytterligare information.\n"
++#~ "Detta program distribueras i hopp om att det ska vara användbart, men UTAN "
++#~ "NÅGON SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller"
++#~ " LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU Lesser General Public "
++#~ "License för ytterligare information.\n"
+ 
+ #~ msgid ""
+ #~ "You should have received a copy of the GNU Lesser General Public License "
+ #~ "along with this program; if not, write to the Free Software Foundation, "
+ #~ "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+ #~ msgstr ""
+-#~ "Du bör ha fått en kopia av GNU Lesser General Public License tillsammans "
+-#~ "med detta program. Om inte, skriv till Free Software Foundation, Inc., 51 "
++#~ "Du bör ha fått en kopia av GNU Lesser General Public License tillsammans med"
++#~ " detta program. Om inte, skriv till Free Software Foundation, Inc., 51 "
+ #~ "Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+ 
+ #~ msgid "translator-credits"
+@@ -1010,8 +1006,8 @@
+ #~ msgstr "Bekräfta filval om filnamnet redan finns"
+ 
+ #~ msgid ""
+-#~ "Change list default search function searching for text in the middle, not "
+-#~ "on the beginning"
++#~ "Change list default search function searching for text in the middle, not on"
++#~ " the beginning"
+ #~ msgstr ""
+ #~ "Ändra standardsökfunktion för listor till att söka text i mitten, inte i "
+ #~ "början"
