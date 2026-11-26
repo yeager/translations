@@ -1,17 +1,43 @@
 --- metronome.main.sv.original.po
 +++ metronome.main.sv.reviewed.po
-@@ -8,8 +8,8 @@
+@@ -8,9 +8,9 @@
  "Project-Id-Version: metronome master\n"
  "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/metronome/issues\n"
  "POT-Creation-Date: 2024-10-15 09:47+0000\n"
 -"PO-Revision-Date: 2024-02-12 15:58+0100\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-23 00:00+0100\n"
+-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"PO-Revision-Date: 2026-11-26 15:30+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
- "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"Language-Team: Swedish <gnome@danielnylander.se>\n"
  "Language: sv\n"
  "MIME-Version: 1.0\n"
-@@ -60,7 +60,7 @@
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -28,18 +28,19 @@
+ msgid "Keep the tempo"
+ msgstr "Håll tempot"
+ 
+-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
++#. Translators: Search terms to find this application. Do NOT translate or
++#. localize the semicolons! The list MUST also end with a semicolon!
+ #: data/com.adrienplazas.Metronome.desktop.in.in:9
+ msgid "Bar;Beats;BPM;Measure;Minute;Practice;Rhythm;Tap;Tempo;Time;"
+-msgstr "Takt;Bar;Beats;Slag;BPM;Mätning;Minut;Träning;Övning;Rytm;Klicka;Knacka;Tempo;Tid;"
++msgstr "Takt;Slag;BPM;Takt;Minut;Övning;Rytm;Knacka;Tempo;Taktart;"
+ 
+ #: data/com.adrienplazas.Metronome.metainfo.xml.in.in:10
+ msgid ""
+ "Metronome beats the rhythm for you, you simply need to tell it the required "
+ "time signature and beats per minute."
+ msgstr ""
+-"Metronom slår rytmen åt dig, du behöver bara ge det tidssignaturen som krävs "
+-"och antalet slag per minut."
++"Metronomen håller takten åt dig. Ange bara önskad taktart och tempo i slag "
++"per minut."
+ 
+ #: data/com.adrienplazas.Metronome.metainfo.xml.in.in:11
+ msgid ""
+@@ -60,7 +61,7 @@
  #: data/com.adrienplazas.Metronome.metainfo.xml.in.in:100
  #: data/com.adrienplazas.Metronome.metainfo.xml.in.in:102
  msgid "Adrien Plazas"
@@ -20,7 +46,16 @@
  
  #: data/com.adrienplazas.Metronome.gschema.xml.in:6
  #: data/com.adrienplazas.Metronome.gschema.xml.in:7
-@@ -104,7 +104,7 @@
+@@ -74,7 +75,7 @@
+ 
+ #: data/com.adrienplazas.Metronome.gschema.xml.in:16
+ msgid "Default window maximized behaviour"
+-msgstr "Standardmaximeringsbeteende för fönster"
++msgstr "Standardbeteende för maximering av fönster"
+ 
+ #: data/com.adrienplazas.Metronome.gschema.xml.in:22
+ #: data/com.adrienplazas.Metronome.gschema.xml.in:23
+@@ -104,7 +105,7 @@
  #: data/resources/ui/shortcuts.blp:26
  msgctxt "shortcut window"
  msgid "Tap"
@@ -29,7 +64,17 @@
  
  #: data/resources/ui/shortcuts.blp:31
  msgctxt "shortcut window"
-@@ -185,7 +185,7 @@
+@@ -177,15 +178,15 @@
+ 
+ #: data/resources/ui/window.blp:164
+ msgid "Increase BPM"
+-msgstr "Öka slag/minut"
++msgstr "Öka BPM"
+ 
+ #: data/resources/ui/window.blp:176
+ msgid "Decrease BPM"
+-msgstr "Minska slag/minut"
++msgstr "Minska BPM"
  
  #: data/resources/ui/window.blp:213
  msgid "TAP"
@@ -38,3 +83,27 @@
  
  #: data/resources/ui/window.blp:230
  msgid "Main Menu"
+@@ -196,16 +197,18 @@
+ "Metronome beats the rhythm for you, you simply need to tell it the required "
+ "time signature and beats per minutes.\n"
+ msgstr ""
+-"Metronom slår rytmen åt dig, du behöver bara ge det tidssignaturen som krävs "
+-"och antalet slag per minut.\n"
++"Metronomen håller takten åt dig. Ange bara önskad taktart och tempo i slag "
++"per minut.\n"
+ 
+ #: src/application.rs:125
+ msgid ""
+ "You can also tap to let the application guess the required beats per minute"
+ msgstr ""
+-"Du kan också klicka för att låta programmet gissa de slag per minut som krävs"
+-
+-#. Translators: Please enter your credits here (format: "Name https://example.com" or "Name <email@example.com>", no quotes)
++"Du kan också knacka takten så att programmet räknar ut önskat tempo i slag "
++"per minut"
++
++#. Translators: Please enter your credits here (format: "Name
++#. https://example.com" or "Name <email@example.com>", no quotes)
+ #: src/application.rs:143
+ msgid "translator-credits"
+ msgstr ""

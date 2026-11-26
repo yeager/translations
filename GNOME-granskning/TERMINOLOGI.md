@@ -631,3 +631,14 @@ argumentet betyder i just det programmet.
 | preview (verb) | förhandsgranska | Använd konsekvent i knappar och beskrivningar. |
 | previewer | förhandsgranskare | Verktyg/program för filförhandsgranskning. |
 | file preview | förhandsgranskning av filer | |
+
+
+## Metronome
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| beat | slag | Musikaliskt slag. |
+| bar / measure | takt | |
+| time signature | taktart | |
+| beats per minute (BPM) | slag per minut (BPM) | I korta kontroller kan BPM behållas. |
+| tap (tempo) | knacka takten | Används för att beräkna tempot. |
