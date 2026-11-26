@@ -302,3 +302,8 @@ Två tidigare Miele-nycklar med `Common sole` korrigerades från ”Rödtunga”
 ## Fortsatt radgranskning 2026-11-26 – position 35057–35176
 
 Samtliga 120 rader matchar aktuell Core-källa. 44 ändringar sparades och återlästes; 76 mål behölls. Ingen tidigare rapporterad nyckel, ingen aliasreferens och inga pluralnycklar. Platshållare ej aktuellt i spannet. Potatisetiketter rättades från bokstavlig ”vaxartad” till fast sort, tillsammans med felaktiga fisknamn och böjningar. `svlang skrivregler` fann inga fel. TMX validerar med 23865 enheter. Se rapport och JSON-underlag. Nästa position: **35 177**.
+
+
+## Fortsatt radgranskning 2026-11-26 – position 35177–35296
+
+Alla 120 rader matchar aktiv Core-källa. 30 ändringar sparades och återlästes; 90 mål behölls. Rättningar omfattar nötköttets silverside/ytterlår, Mieles torknivå stryktorrt och robotdammsugarens målområde. `svlang skrivregler` utan fel. TMX validerar med 23985 enheter. Två specialprogram är markerade för kontroll mot exakt apparatpanel. Se rapport och JSON-underlag. Nästa position: **35 297**.
