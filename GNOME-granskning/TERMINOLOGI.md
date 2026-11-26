@@ -690,3 +690,16 @@ argumentet betyder i just det programmet.
 | headset mode | headsetläge | |
 | latency | fördröjning | Översätt i löptext; enumvärdet `latency` bevaras. |
 | quality | ljudkvalitet | Enumvärdet `quality` bevaras i tekniska värdelistor. |
+
+
+## help.gnome.org
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| GNOME Help | GNOME-hjälpen | Namn på hjälpsajten. |
+| homepage | startsida | |
+| universal access | hjälpmedel | Kategorirubrik. |
+| workspaces | arbetsytor | GNOME:s virtuella arbetsytor. |
+| screencast | skärminspelning | |
+| Code of Conduct | Uppförandekod | |
+| Issue Tracker | felhanterare | Länk till rapportering och uppföljning av fel. |
