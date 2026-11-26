@@ -7,4 +7,4 @@ Den granskade ändringen rättar den saknade tomraden i formatsträngen `Saving 
 
 Validering: `msgfmt --check` godkänd. `l10n-lint` har ett dokumenterat undantag: den svenska licensupplysningen innehåller två extra styckebrytningar jämfört med engelskan för att tydligt skilja den informella översättningen från den juridiskt styrande originaltexten. Övriga återstående lintvarningar gäller etablerade GIMP-acceleratorer och tekniska strängar.
 
-Ingen GNOME-inskickning har gjorts.
+GNOME-inskickningen verifierades 2026-11-26 på aktivitetssidan.
