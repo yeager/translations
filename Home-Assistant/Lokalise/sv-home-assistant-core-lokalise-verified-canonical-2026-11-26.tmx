@@ -38525,30 +38525,26 @@ Uppdatera ovanstående automatiseringar eller skript så de använder den nya va
     </tu>
     <tu tuid="lokalise:5701395876">
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::payload_off</prop>
-      <prop type="lokalise-key-id">643014923</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by GET readback</prop>
       <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-22</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The payload that represents the "off" state.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Nyttolasten som representerar avstängt tillstånd.</seg>
+        <seg>Nyttolasten som motsvarar tillståndet ”off”.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:5701395940">
       <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::payload_on</prop>
-      <prop type="lokalise-key-id">643014924</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by GET readback</prop>
       <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-22</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The payload that represents the "on" state.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Nyttolasten som representerar påslaget tillstånd.</seg>
+        <seg>Nyttolasten som motsvarar tillståndet ”on”.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:6272216617">
@@ -336671,6 +336667,1446 @@ Säkerhetskopian har sparats till ”{file_path}”
       </tuv>
       <tuv xml:lang="sv">
         <seg>Motoroljetryck</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5700233064">
+      <prop type="source">component::rehlko::entity::sensor::engine_speed::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Engine speed</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Motorvarvtal</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5700233128">
+      <prop type="source">component::rehlko::entity::sensor::generator_load::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Generator load</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Generatorbelastning</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5700233192">
+      <prop type="source">component::rehlko::entity::sensor::generator_load_percent::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Generator load percentage</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Generatorbelastning i procent</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5700233256">
+      <prop type="source">component::rehlko::entity::sensor::generator_voltage_average::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Average generator voltage</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Genomsnittlig generatorspänning</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5700233320">
+      <prop type="source">component::rehlko::entity::sensor::lube_oil_temperature::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Lube oil temperature</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Smörjoljetemperatur</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5700233384">
+      <prop type="source">component::rehlko::entity::sensor::runtime_since_last_maintenance::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Runtime since last maintenance</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Körtid sedan senaste underhåll</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5700233448">
+      <prop type="source">component::rehlko::entity::sensor::server_ip_address::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Server IP address</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Serverns IP-adress</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5700233512">
+      <prop type="source">component::rehlko::entity::sensor::total_operation::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Total operation</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Total drifttid</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5700233576">
+      <prop type="source">component::rehlko::entity::sensor::total_runtime::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Total runtime</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Total körtid</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5700233640">
+      <prop type="source">component::rehlko::entity::sensor::utility_voltage::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Utility voltage</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Nätspänning</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5700233704">
+      <prop type="source">component::rehlko::exceptions::cannot_connect::message</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Cannot connect to Rehlko servers.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det går inte att ansluta till Rehlko-servrarna.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5700233768">
+      <prop type="source">component::rehlko::exceptions::invalid_auth::message</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Authentication failed for email {email}.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Autentiseringen misslyckades för e-postadressen {email}.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5700233832">
+      <prop type="source">component::rehlko::exceptions::update_failed::message</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Updating data failed after retries.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Uppdateringen av data misslyckades efter flera försök.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5700242510">
+      <prop type="source">component::oncue::issues::integration_removed::description</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The Oncue integration has been removed from Home Assistant.
+
+The Oncue service has been discontinued and [Rehlko]({rehlko}) is the integration to keep using it.
+
+To resolve this issue, please remove the (now defunct) integration entries from your Home Assistant setup. [View your existing Oncue integration entries]({entries}).</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Oncue-integrationen har tagits bort från Home Assistant.
+
+Oncue-tjänsten har lagts ned och [Rehlko]({rehlko}) är integrationen du ska använda i fortsättningen.
+
+Ta bort de inaktuella integrationsposterna från din Home Assistant-konfiguration för att åtgärda problemet. [Visa dina befintliga Oncue-integrationsposter]({entries}).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5700242574">
+      <prop type="source">component::oncue::issues::integration_removed::title</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The Oncue integration has been removed</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Oncue-integrationen har tagits bort</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5700793060">
+      <prop type="source">component::rehlko::entity::sensor::engine_state::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Engine state</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Motorns tillstånd</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5700793124">
+      <prop type="source">component::rehlko::entity::sensor::generator_status::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Generator status</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Generatorstatus</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5700793188">
+      <prop type="source">component::rehlko::entity::sensor::power_source::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Power source</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Strömkälla</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701036027">
+      <prop type="source">component::eheimdigital::entity::time::day_start_time::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Day start time</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Dagens starttid</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701036091">
+      <prop type="source">component::eheimdigital::entity::time::night_start_time::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Night start time</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Nattens starttid</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701222136">
+      <prop type="source">component::smartthings::entity::switch::sabbath_mode::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Sabbath mode</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Sabbatsläge</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701281981">
+      <prop type="source">component::shelly::issues::ble_scanner_firmware_unsupported::fix_flow::abort::cannot_connect</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Failed to connect</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det gick inte att ansluta</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701282045">
+      <prop type="source">component::shelly::issues::ble_scanner_firmware_unsupported::fix_flow::abort::update_not_available</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Device does not offer firmware update. Check internet connectivity (gateway, DNS, time) and restart the device.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det finns ingen firmwareuppdatering tillgänglig för enheten. Kontrollera internetanslutningen (gateway, DNS och tidsinställningar) och starta om enheten.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701282109">
+      <prop type="source">component::shelly::issues::ble_scanner_firmware_unsupported::fix_flow::step::confirm::description</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Your Shelly device {device_name} with IP address {ip_address} is running firmware {firmware} and acts as a BLE scanner in Active or Auto mode. This firmware version is not supported for these BLE scanner modes.
+
+Select **Submit** button to start the OTA update to the latest stable firmware version.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Din Shelly-enhet {device_name} med IP-adressen {ip_address} kör firmware {firmware} och fungerar som BLE-skanner i aktivt läge eller autoläge. Den här firmwareversionen stöds inte för dessa BLE-skannerlägen.
+
+Välj knappen **Skicka** för att starta en OTA-uppdatering till den senaste stabila firmwareversionen.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701282173">
+      <prop type="source">component::shelly::issues::ble_scanner_firmware_unsupported::fix_flow::step::confirm::title</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>{device_name} is running unsupported firmware</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>{device_name} kör firmware som inte stöds</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701282237">
+      <prop type="source">component::shelly::issues::ble_scanner_firmware_unsupported::title</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>{device_name} is running unsupported firmware</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>{device_name} kör firmware som inte stöds</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701394148">
+      <prop type="source">component::mqtt::config_subentries::device::error::invalid_supported_color_modes</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Invalid supported color modes selection</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ogiltigt val av färglägen som stöds</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701394212">
+      <prop type="source">component::mqtt::config_subentries::device::error::last_reset_not_with_state_class_total</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The last reset value template option should be used with state class 'Total' only</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Alternativet för mall för senaste återställningsvärde får endast användas med tillståndsklassen ”Total”.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701394276">
+      <prop type="source">component::mqtt::config_subentries::device::error::max_below_min_kelvin</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Max Kelvin value should be greater than min Kelvin value</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Maxvärdet för färgtemperaturen måste vara högre än minvärdet.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701394340">
+      <prop type="source">component::mqtt::config_subentries::device::step::entity_platform_config::data::schema</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Schema</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Schema</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701394404">
+      <prop type="source">component::mqtt::config_subentries::device::step::entity_platform_config::data::suggested_display_precision</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Suggested display precision</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Föreslagen visningsprecision</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701394468">
+      <prop type="source">component::mqtt::config_subentries::device::step::entity_platform_config::data_description::schema</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The schema to use. [Learn more.]({url}#comparison-of-light-mqtt-schemas)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Schemat som ska användas. [Läs mer.]({url}#comparison-of-light-mqtt-schemas)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701394532">
+      <prop type="source">component::mqtt::config_subentries::device::step::entity_platform_config::data_description::suggested_display_precision</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The number of decimals which should be used in the {platform} entity state after rounding. [Learn more.]({url}#suggested_display_precision)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det antal decimaler som ska användas i {platform}-entitetens tillstånd efter avrundning. [Läs mer.]({url}#suggested_display_precision)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701394596">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::blue_template</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Blue template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mall för blå färgkomponent</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701394660">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::brightness_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Brightness template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mall för ljusstyrka</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701394724">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::color_temp_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Color temperature template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mall för färgtemperatur</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701394788">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::command_off_template</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Command "off" template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mall för kommandot ”off”</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701394852">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::command_on_template</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Command "on" template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mall för kommandot ”on”</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701394916">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::green_template</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Green template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mall för grön färgkomponent</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701394980">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::on_command_type</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>ON command type</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Typ av ”on”-kommando</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701395044">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::payload_off</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Payload "off"</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Nyttolast ”off”</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701395108">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::payload_on</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Payload "on"</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Nyttolast ”on”</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701395172">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::red_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Red template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mall för röd</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701395236">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::state_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>State template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Tillståndsmall</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701395300">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::state_value_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>State value template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mall för tillståndsvärde</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701395364">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data::supported_color_modes</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Supported color modes</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Färglägen som stöds</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701395428">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::blue_template</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>[Template]({value_templating_url}) to extract blue color from the state payload value. Expected result of the template is an integer from 0-255 range.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>[Mall]({value_templating_url}) för att extrahera den blå färgkomponenten ur tillståndsnyttolasten. Mallens resultat ska vara ett heltal mellan 0 och 255.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701395492">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::brightness_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>[Template]({value_templating_url}) to extract brightness from the state payload value. Expected result of the template is an integer from 0-255 range.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>[Mall]({value_templating_url}) för att extrahera ljusstyrka från tillståndsnyttolasten. Förväntat resultat är ett heltal mellan 0 och 255.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701395556">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::color_temp_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>[Template]({value_templating_url}) to extract color temperature in Kelvin from the state payload value. Expected result of the template is an integer.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>[Mall]({value_templating_url}) för att extrahera färgtemperaturen i Kelvin från tillståndsnyttolasten. Förväntat resultat är ett heltal.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701395620">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::command_off_template</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The [template]({command_templating_url}) for "off" state changes. Available variables are: `state` and `transition`.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>[Mallen]({command_templating_url}) för tillståndsändringar till ”off”. Tillgängliga variabler är: `state` och `transition`.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701395684">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::command_on_template</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The [template]({command_templating_url}) for "on" state changes. Available variables: `state`, `brightness`, `color_temp`, `red`, `green`, `blue`, `hue`, `sat`, `flash`, `transition` and `effect`. Values `red`, `green`, `blue` and `brightness` are provided as integers from range 0-255. Value of `hue` is provided as float from range 0-360. Value of `sat` is provided as float from range 0-100. Value of `color_temp` is provided as integer representing Kelvin units.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>[Mallen]({command_templating_url}) för tillståndsändringar till ”on”. Tillgängliga variabler är: `state`, `brightness`, `color_temp`, `red`, `green`, `blue`, `hue`, `sat`, `flash`, `transition` och `effect`. Värdena `red`, `green`, `blue` och `brightness` anges som heltal mellan 0 och 255. Värdet för `hue` anges som flyttal mellan 0 och 360. Värdet för `sat` anges som flyttal mellan 0 och 100. Värdet för `color_temp` anges som ett heltal i kelvin.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701395748">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::green_template</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>[Template]({value_templating_url}) to extract green color from the state payload value. Expected result of the template is an integer from 0-255 range.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>[Mall]({value_templating_url}) för att extrahera den gröna färgkomponenten ur tillståndsnyttolasten. Mallens resultat ska vara ett heltal mellan 0 och 255.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701395812">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::on_command_type</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Defines when the payload "on" is sent. Using "Last" (the default) will send any style (brightness, color, etc) topics first and then a payload "on" to the command topic. Using "First" will send the payload "on" and then any style topics. Using "Brightness" will only send brightness commands instead of the payload "on" to turn the light on.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Definierar när nyttolasten ”on” skickas. Med ”Sist” (standardinställningen) publiceras först eventuella ämnen för ljusinställningar, till exempel ljusstyrka och färg, och därefter nyttolasten ”on” på kommandots ämne. Med ”Först” publiceras nyttolasten ”on” först och därefter ämnena för ljusinställningar. Med ”Ljusstyrka” skickas endast ljusstyrkekommandon i stället för nyttolasten ”on” för att tända ljuskällan.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701396004">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::red_template</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>[Template]({value_templating_url}) to extract red color from the state payload value. Expected result of the template is an integer from 0-255 range.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>[Mall]({value_templating_url}) för att extrahera den röda färgkomponenten ur tillståndsnyttolasten. Mallens resultat ska vara ett heltal mellan 0 och 255.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701396068">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::state_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>[Template]({value_templating_url}) to extract state from the state payload value.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>[Mall]({value_templating_url}) för att extrahera tillstånd från nyttolasten.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701396132">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::data_description::supported_color_modes</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>A list of color modes supported by the light. Possible color modes are On/Off, Brightness, Color temperature, HS, XY, RGB, RGBW, RGBWW, White. Note that if On/Off or Brightness are used, that must be the only value in the list. [Learn more.]({url}#supported_color_modes)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>En lista över de färglägen som ljuskällan stöder. Möjliga färglägen är På/Av, Ljusstyrka, Färgtemperatur, HS, XY, RGB, RGBW, RGBWW och Vitt. Om På/Av eller Ljusstyrka används måste det vara det enda värdet i listan. [Läs mer.]({url}#supported_color_modes)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701396196">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data::flash</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data::flash</prop>
+      <tuv xml:lang="en">
+        <seg>Flash support</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Stöd för blinkning</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701396260">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data::flash_time_long</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data::flash_time_long</prop>
+      <tuv xml:lang="en">
+        <seg>Flash time long</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Lång blinktid</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701396324">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data::flash_time_short</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data::flash_time_short</prop>
+      <tuv xml:lang="en">
+        <seg>Flash time short</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Kort blinktid</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701396388">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data::max_kelvin</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data::max_kelvin</prop>
+      <tuv xml:lang="en">
+        <seg>Max Kelvin</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Max. färgtemperatur</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701396452">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data::min_kelvin</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data::min_kelvin</prop>
+      <tuv xml:lang="en">
+        <seg>Min Kelvin</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Min. färgtemperatur</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701396516">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data::transition</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data::transition</prop>
+      <tuv xml:lang="en">
+        <seg>Transition support</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Stöd för mjuka övergångar</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701396580">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::flash</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data_description::flash</prop>
+      <tuv xml:lang="en">
+        <seg>Enable the flash feature for this light</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Aktivera blinkfunktionen för den här ljuskällan.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701396644">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::flash_time_long</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data_description::flash_time_long</prop>
+      <tuv xml:lang="en">
+        <seg>The duration, in seconds, of a "long" flash.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Varaktigheten i sekunder för en lång blinkning.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701396708">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::flash_time_short</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data_description::flash_time_short</prop>
+      <tuv xml:lang="en">
+        <seg>The duration, in seconds, of a "short" flash.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Varaktigheten i sekunder för en kort blinkning.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701396772">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::max_kelvin</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data_description::max_kelvin</prop>
+      <tuv xml:lang="en">
+        <seg>The maximum color temperature in Kelvin.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Den högsta färgtemperaturen, angiven i kelvin.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701396836">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::min_kelvin</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data_description::min_kelvin</prop>
+      <tuv xml:lang="en">
+        <seg>The minimum color temperature in Kelvin.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Den lägsta färgtemperaturen, angiven i kelvin.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701396900">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::other_settings::data_description::transition</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <prop type="lokalise_key">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::advanced_settings::data_description::transition</prop>
+      <tuv xml:lang="en">
+        <seg>Enable the transition feature for this light</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Aktivera stöd för mjuka övergångar för den här ljuskällan.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701396964">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data::brightness</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Separate brightness</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Separat styrning av ljusstyrka</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701397028">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data::brightness_command_template</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Brightness command template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mall för ljusstyrkekommandon</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701397092">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data::brightness_command_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Brightness command topic</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ämne för ljusstyrkekommandon</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701397156">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data::brightness_scale</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Brightness scale</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Skala för ljusstyrka</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701397220">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data::brightness_state_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Brightness state topic</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ämne för ljusstyrketillstånd</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701397284">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data::brightness_value_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Brightness value template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mall för ljusstyrkevärde</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701397348">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data_description::brightness</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Flag that defines if light supports brightness when the RGB, RGBW, or RGBWW color mode is supported.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Flagga som definierar om ljuskällan stöder ljusstyrka när RGB-, RGBW- eller RGBWW-färgläget stöds.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701397412">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data_description::brightness_command_template</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>A [template]({command_templating_url}) to compose the payload to be published at the brightness command topic.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>En [mall]({command_templating_url}) för att skapa nyttolasten som ska publiceras i ämnet för ljusstyrkekommandon.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701397476">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data_description::brightness_command_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The publishing topic that will be used to control the brightness. [Learn more.]({url}#brightness_command_topic)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ämnet där kommandon publiceras för att styra ljusstyrkan. [Läs mer.]({url}#brightness_command_topic)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701397540">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data_description::brightness_scale</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Defines the maximum brightness value (i.e., 100%) of the maximum brightness.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Anger det skalvärde som motsvarar den maximala ljusstyrkan (100 %).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701397604">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data_description::brightness_state_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The MQTT topic subscribed to receive brightness state values. [Learn more.]({url}#brightness_state_topic)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det MQTT-ämne som prenumereras på för att ta emot tillståndsvärden för ljusstyrka. [Läs mer.]({url}#brightness_state_topic)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701397668">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::data_description::brightness_value_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Defines a [template]({value_templating_url}) to extract the brightness value.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Definierar en [mall]({value_templating_url}) för att extrahera ljusstyrkans värde.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701397732">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_brightness_settings::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Brightness settings</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Inställningar för ljusstyrka</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701397796">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_mode_settings::data::color_mode_state_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Color mode state topic</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ämne för färglägestillstånd</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701397860">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_mode_settings::data::color_mode_value_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Color mode value template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mall för färglägesvärde</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701397924">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_mode_settings::data_description::color_mode_state_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The MQTT topic subscribed to receive color mode updates. If this is not configured, the color mode will be automatically set according to the last received valid color or color temperature.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det MQTT-ämne som prenumereras på för att ta emot uppdateringar av färgläget. Om inget ämne har angetts ställs färgläget automatiskt in utifrån den senast mottagna giltiga färgen eller färgtemperaturen.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701397988">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_mode_settings::data_description::color_mode_value_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Defines a [template]({value_templating_url}) to extract the color mode value.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Definierar en [mall]({value_templating_url}) för att extrahera färglägesvärdet.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701398052">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_mode_settings::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Color mode settings</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Inställningar för färgläge</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701398116">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_temp_settings::data::color_temp_command_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Color temperature command template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mall för kommandon för färgtemperatur</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701398180">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_temp_settings::data::color_temp_command_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Color temperature command topic</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ämne för färgtemperaturkommandon</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701398244">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_temp_settings::data::color_temp_state_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Color temperature state topic</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ämne för färgtemperaturtillstånd</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701398308">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_temp_settings::data::color_temp_value_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Color temperature value template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mall för färgtemperaturvärde</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701398372">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_temp_settings::data_description::color_temp_command_template</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>A [template]({command_templating_url}) to compose the payload to be published at the color temperature command topic.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>En [mall]({command_templating_url}) för att skapa nyttolasten som ska publiceras i ämnet för färgtemperaturkommandon.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701398436">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_temp_settings::data_description::color_temp_command_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The publishing topic that will be used to control the color temperature. [Learn more.]({url}#color_temp_command_topic)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ämnet där kommandon publiceras för att styra färgtemperaturen. [Läs mer.]({url}#color_temp_command_topic)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701398500">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_temp_settings::data_description::color_temp_state_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The MQTT topic subscribed to receive color temperature state updates. [Learn more.]({url}#color_temp_state_topic)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det MQTT-ämne som prenumereras på för att ta emot uppdateringar av färgtemperaturens tillstånd. [Läs mer.]({url}#color_temp_state_topic)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701398564">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_temp_settings::data_description::color_temp_value_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Defines a [template]({value_templating_url}) to extract the color temperature value.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Definierar en [mall]({value_templating_url}) för att extrahera värdet för färgtemperatur.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701398628">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_color_temp_settings::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Color temperature settings</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Inställningar för färgtemperatur</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701398692">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data::effect</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Effect</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Effekt</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701398756">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data::effect_command_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Effect command template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mall för kommandon för effekter</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701398820">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data::effect_command_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Effect command topic</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ämne för effektkommandon</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701398884">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data::effect_list</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Effect list</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Effektlista</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701398948">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data::effect_state_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Effect state topic</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ämne för effekttillstånd</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701399012">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data::effect_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Effect template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mall för effekt</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701399076">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data::effect_value_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Effect value template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Värdemall för effekt</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701399140">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data_description::effect</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Flag that defines if the light supports effects.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Flagga som definierar om ljuskällan stöder effekter.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701399204">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data_description::effect_command_template</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>A [template]({command_templating_url}) to compose the payload to be published at the effect command topic.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>En [mall]({command_templating_url}) för att skapa nyttolasten som ska publiceras i ämnet för effektkommandon.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701399268">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data_description::effect_command_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The publishing topic that will be used to control the light's effect state. [Learn more.]({url}#effect_command_topic)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ämnet där kommandon publiceras för att styra ljuskällans effekttillstånd. [Läs mer.]({url}#effect_command_topic)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701399332">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data_description::effect_list</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The list of effects the light supports.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Listan över effekter som ljuskällan stöder.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701399396">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::data_description::effect_state_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The MQTT topic subscribed to receive effect state updates. [Learn more.]({url}#effect_state_topic)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det MQTT-ämne som prenumereras på för att ta emot uppdateringar av effekttillståndet. [Läs mer.]({url}#effect_state_topic)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701399460">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_effect_settings::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Effect settings</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Effektinställningar</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701399524">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_hs_settings::data::hs_command_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>HS command template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mall för HS-kommandon</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701399588">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_hs_settings::data::hs_command_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>HS command topic</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ämne för HS-kommandon</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701399652">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_hs_settings::data::hs_state_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>HS state topic</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ämne för HS-tillstånd</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701399716">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_hs_settings::data::hs_value_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>HS value template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mall för HS-värde</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701399780">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_hs_settings::data_description::hs_command_template</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Defines a [template]({command_templating_url}) to compose message which will be sent to HS command topic. Available variables: `hue` and `sat`.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Definierar en [mall]({command_templating_url}) för att skapa ett meddelande som skickas till ämnet för HS-kommandon. Tillgängliga variabler är `hue` och `sat`.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701399844">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_hs_settings::data_description::hs_command_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The MQTT topic to publish commands to change the light’s color state in HS format (Hue Saturation). Range for Hue: 0° .. 360°, Range of Saturation: 0..100. Note: Brightness is sent separately in the brightness command topic. [Learn more.]({url}#hs_command_topic)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>MQTT-ämnet där kommandon publiceras för att ändra ljuskällans färg i HS-format (nyans och färgmättnad). Nyansintervallet är 0°–360° och färgmättnadsintervallet 0–100. Obs! Ljusstyrka skickas separat i ämnet för ljusstyrkekommandon. [Läs mer.]({url}#hs_command_topic)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701399908">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_hs_settings::data_description::hs_state_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The MQTT topic subscribed to receive color state updates in HS format. The expected payload is the hue and saturation values separated by commas, for example, `359.5,100.0`. Note: Brightness is received separately in the brightness state topic. [Learn more.]({url}#hs_state_topic)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det MQTT-ämne som prenumereras på för att ta emot färgtillståndsuppdateringar i HS-format. Den förväntade nyttolasten innehåller nyans- och färgmättnadsvärden separerade med kommatecken, till exempel `359.5,100.0`. Obs! Ljusstyrka tas emot separat i ämnet för ljusstyrketillstånd. [Läs mer.]({url}#hs_state_topic)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701399972">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_hs_settings::data_description::hs_value_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Defines a [template]({value_templating_url}) to extract the HS value.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Definierar en [mall]({value_templating_url}) för att extrahera HS-värdet.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701400036">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_hs_settings::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>HS color mode settings</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Inställningar för HS-färgläge</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5701400100">
+      <prop type="source">component::mqtt::config_subentries::device::step::mqtt_platform_config::sections::light_rgb_settings::data::rgb_command_template</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API exact readback; full row review 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>RGB command template</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mall för RGB-kommandon</seg>
       </tuv>
     </tu>
   </body>

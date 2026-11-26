@@ -312,3 +312,8 @@ Alla 120 rader matchar aktiv Core-källa. 30 ändringar sparades och återläste
 ## Fortsatt radgranskning 2026-11-26 – position 35297–35416
 
 110 aktiva Core-rader och 10 tidigare rapporterade historiska poster granskades. 18 ändringar sparades och återlästes i Lokalise; 92 aktiva mål behölls. Alla 21 referenser matchar live-målen; platshållare 110/110 och inga pluralformer. `svlang skrivregler` utan fel; Hunspell-flaggor och FOSS-termträffar bedömdes manuellt. TMX uppdaterades med alla 110 aktiva rader och valideras med 24095 segment. Se batchrapporten och JSON-underlaget. Nästa position: **35 417**.
+
+
+## Fortsatt radgranskning 2026-11-26 – position 35417–35536
+
+120 aktuella Core-strängar granskades; 108 Lokalise-nycklar matchar aktuell källväg och 12 MQTT-nycklar har flyttats från `advanced_settings` till `other_settings`. 62 svenska rättningar sparades och återlästes; 58 aktiva översättningar behölls. Alla 120 platshållare, båda referenserna och källtexterna kontrollerades. Tolv ändringar av Lokalise key paths är kvar: API-tokenet saknar Manage keys-rättighet (403) och webbläsare var inte tillgänglig. TMX uppdaterades med samtliga 120 aktuella källnycklar och validerar med 24213 segment. Se batchrapport och uppföljningsfil. Nästa position: **35 537**.
