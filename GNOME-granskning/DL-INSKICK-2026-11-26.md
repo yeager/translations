@@ -4,6 +4,7 @@ Färdiggranskade kataloger som kontrollerats mot aktuell POT och laddats upp via
 
 | Modul | Gren | Domän | Ändrade PO-poster | API-statistik |
 |---|---|---|---:|---:|
+| gimp-help | master | menus~filters | 48 | 118/0/0 |
 | gimp-help | master | po-windows-installer | 2 | 5/0/0 |
 | gimp-help | master | gimp-keys | 57 | 262/0/0 |
 | gimp | master | po-libgimp | 7 | 675/0/0 |
@@ -82,6 +83,6 @@ Färdiggranskade kataloger som kontrollerats mot aktuell POT och laddats upp via
 
 ## Status
 
-- Inskickade och verifierade kataloger 2026-11-26: **66**.
+- Inskickade och verifierade kataloger 2026-11-26: **67**.
 - 404-felen från tidigare URL-sluggar har rättats med modulernas kanoniska REST API-namn och återförsöken har inletts.
 - Övriga färdiggranskade kataloger står fortsatt som `Klar lokalt` tills uppladdning kan bekräftas.
