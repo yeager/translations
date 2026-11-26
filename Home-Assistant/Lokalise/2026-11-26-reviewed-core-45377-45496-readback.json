@@ -1,0 +1,200 @@
+[
+  {
+    "position": 45385,
+    "key": "component::lamarzocco::exceptions::bluetooth_required_offline::message",
+    "key_id": "772874995",
+    "translation_id": "7308267529",
+    "en": "Bluetooth is required when offline mode is enabled, but no Bluetooth device was found",
+    "before": "Bluetooth krävs när offline-läge är aktiverat, men ingen Bluetooth-enhet hittades",
+    "after": "Bluetooth krävs när frånkopplat läge är aktiverat, men ingen Bluetooth-enhet hittades.",
+    "readback": "Bluetooth krävs när frånkopplat läge är aktiverat, men ingen Bluetooth-enhet hittades.",
+    "reason": "Harmoniserar termen frånkopplat läge med inställningsnamnet."
+  },
+  {
+    "position": 45386,
+    "key": "component::lamarzocco::options::error::bluetooth_required_offline",
+    "key_id": "772874996",
+    "translation_id": "7308267593",
+    "en": "Bluetooth is required when offline mode is enabled.",
+    "before": "Bluetooth krävs när offline-läge är aktiverat.",
+    "after": "Bluetooth krävs när frånkopplat läge är aktiverat.",
+    "readback": "Bluetooth krävs när frånkopplat läge är aktiverat.",
+    "reason": "Harmoniserar termen frånkopplat läge med inställningsnamnet."
+  },
+  {
+    "position": 45388,
+    "key": "component::lamarzocco::options::step::init::data_description::offline_mode",
+    "key_id": "772874998",
+    "translation_id": "7308267721",
+    "en": "Enable offline mode to operate without internet connectivity through Bluetooth. Only local features will be available. Requires Bluetooth to be enabled.",
+    "before": "Aktivera offline-läget för att kunna använda appen utan internetanslutning via Bluetooth. Endast lokala funktioner kommer att vara tillgängliga. Bluetooth måste vara aktiverat.",
+    "after": "Aktivera frånkopplat läge för att kunna styra maskinen via Bluetooth utan internetanslutning. Endast lokala funktioner är tillgängliga. Bluetooth måste vara aktiverat.",
+    "readback": "Aktivera frånkopplat läge för att kunna styra maskinen via Bluetooth utan internetanslutning. Endast lokala funktioner är tillgängliga. Bluetooth måste vara aktiverat.",
+    "reason": "Den tidigare texten sade att appen kunde användas; källan gäller maskinens drift via Bluetooth utan internet. Harmoniseras också med fältetiketten."
+  },
+  {
+    "position": 45390,
+    "key": "component::actron_air::config::abort::wrong_account",
+    "key_id": "772876451",
+    "translation_id": "7308285095",
+    "en": "You must authenticate with the same Actron Air account that was originally configured.",
+    "before": "Du måste autentisera med samma Actron Air-konto som ursprungligen konfigurerades.",
+    "after": "Du måste autentisera dig med samma Actron Air-konto som användes när integrationen konfigurerades.",
+    "readback": "Du måste autentisera dig med samma Actron Air-konto som användes när integrationen konfigurerades.",
+    "reason": "Förtydligar vilket konto som ursprungligen konfigurerades."
+  },
+  {
+    "position": 45393,
+    "key": "component::actron_air::exceptions::auth_error::message",
+    "key_id": "772876454",
+    "translation_id": "7308285287",
+    "en": "Authentication failed, please reauthenticate",
+    "before": "Autentisering misslyckades, autentisera igen",
+    "after": "Autentiseringen misslyckades. Autentisera på nytt.",
+    "readback": "Autentiseringen misslyckades. Autentisera på nytt.",
+    "reason": "Delar upp två självständiga satser och använder den etablerade svenska frasen autentisera på nytt."
+  },
+  {
+    "position": 45398,
+    "key": "component::risco::services::set_time::fields::config_entry_id::description",
+    "key_id": "772876514",
+    "translation_id": "7308286122",
+    "en": "The Risco alarm panel to set the time for.",
+    "before": "Den Risco-larmpanel att ställa in tiden på.",
+    "after": "Risco-larmpanelen vars tid ska ställas in.",
+    "readback": "Risco-larmpanelen vars tid ska ställas in.",
+    "reason": "Rättar den ofullständiga meningen den Risco-larmpanel att ställa in tiden på."
+  },
+  {
+    "position": 45404,
+    "key": "component::octoprint::entity::sensor::status::name",
+    "key_id": "772876606",
+    "translation_id": "7308287518",
+    "en": "Current state",
+    "before": "Nuvarande tillstånd",
+    "after": "Aktuellt tillstånd",
+    "readback": "Aktuellt tillstånd",
+    "reason": "Aktuellt är naturligare svenska för en enhets pågående status än nuvarande."
+  },
+  {
+    "position": 45407,
+    "key": "component::octoprint::entity::sensor::status::state::detect_serial",
+    "key_id": "772876609",
+    "translation_id": "7308287710",
+    "en": "Detecting serial connection",
+    "before": "Detekterar serieanslutning",
+    "after": "Söker efter seriell anslutning",
+    "readback": "Söker efter seriell anslutning",
+    "reason": "Söker efter är idiomatisk svenska för att hitta en seriell anslutning."
+  },
+  {
+    "position": 45413,
+    "key": "component::octoprint::entity::sensor::status::state::operational",
+    "key_id": "772876615",
+    "translation_id": "7308288094",
+    "en": "Operational",
+    "before": "Operativ",
+    "after": "Redo",
+    "readback": "Redo",
+    "reason": "OctoPrint definierar Operational som att skrivaren är redo för nya utskriftsjobb och inte skriver ut."
+  },
+  {
+    "position": 45426,
+    "key": "component::growatt_server::selector::batt_mode::options::grid_first",
+    "key_id": "773177725",
+    "translation_id": "7313367254",
+    "en": "Grid first",
+    "before": "Rutnät först",
+    "after": "Elnätet först",
+    "readback": "Elnätet först",
+    "reason": "Grid avser elnät i en växelriktarprioritet; rutnät är fel betydelse."
+  },
+  {
+    "position": 45427,
+    "key": "component::growatt_server::selector::batt_mode::options::load_first",
+    "key_id": "773177726",
+    "translation_id": "7313367318",
+    "en": "Load first",
+    "before": "Ladda först",
+    "after": "Förbrukning först",
+    "readback": "Förbrukning först",
+    "reason": "Load avser den elektriska förbrukningen, inte verbet ladda."
+  },
+  {
+    "position": 45429,
+    "key": "component::growatt_server::services::read_time_segments::fields::device_id::description",
+    "key_id": "773177728",
+    "translation_id": "7313367446",
+    "en": "The Growatt device to perform the action on.",
+    "before": "Growatt-enheten att utföra åtgärden på.",
+    "after": "Growatt-enhet som åtgärden ska utföras på.",
+    "readback": "Growatt-enhet som åtgärden ska utföras på.",
+    "reason": "Gör den ofullständiga nominalfrasen naturlig som fältbeskrivning."
+  },
+  {
+    "position": 45477,
+    "key": "component::xbox::config_subentries::friend::abort::already_configured",
+    "key_id": "773446868",
+    "translation_id": "7316257307",
+    "en": "Already configured as a friend in this or another account.",
+    "before": "Redan konfigurerad som en vän i detta eller ett annat konto.",
+    "after": "Det här kontot har redan lagts till som vän på det här eller ett annat konto.",
+    "readback": "Det här kontot har redan lagts till som vän på det här eller ett annat konto.",
+    "reason": "Lägger till subjekt och uttrycker tydligt att vänkopplingen redan finns."
+  },
+  {
+    "position": 45478,
+    "key": "component::xbox::config_subentries::friend::abort::already_configured_as_entry",
+    "key_id": "773446869",
+    "translation_id": "7316257371",
+    "en": "Already configured as a service. This account cannot be added as a friend.",
+    "before": "Redan konfigurerad som en tjänst. Detta konto kan inte läggas till som en vän.",
+    "after": "Det här kontot är redan konfigurerat som en tjänst. Det kan inte läggas till som vän.",
+    "readback": "Det här kontot är redan konfigurerat som en tjänst. Det kan inte läggas till som vän.",
+    "reason": "Lägger till de saknade subjekten och delar upp felmeddelandet i begripliga satser."
+  },
+  {
+    "position": 45479,
+    "key": "component::xbox::config_subentries::friend::abort::config_entry_not_loaded",
+    "key_id": "773446870",
+    "translation_id": "7316257435",
+    "en": "Cannot add friend accounts when the main account is disabled or not loaded.",
+    "before": "Kan inte lägga till vänners konton när huvudkontot är inaktiverat eller inte laddat.",
+    "after": "Det går inte att lägga till vänkonton när huvudkontot är inaktiverat eller inte har lästs in.",
+    "readback": "Det går inte att lägga till vänkonton när huvudkontot är inaktiverat eller inte har lästs in.",
+    "reason": "Vänkonton är tydligare än vänners konton och inte laddat rättas till idiomatisk svenska."
+  },
+  {
+    "position": 45447,
+    "key": "component::hikvision::config::abort::already_configured",
+    "key_id": "773426405",
+    "translation_id": "7316113608",
+    "en": "Device is already configured",
+    "before": "Enhet är redan konfigurerad",
+    "after": "Enheten är redan konfigurerad",
+    "readback": "Enheten är redan konfigurerad",
+    "reason": "Synkar referensaliaset med dess gemensamma live-mål; den saknade bestämda artikeln gav en språklig skillnad."
+  },
+  {
+    "position": 45448,
+    "key": "component::hikvision::config::error::cannot_connect",
+    "key_id": "773426406",
+    "translation_id": "7316113672",
+    "en": "Failed to connect",
+    "before": "Misslyckades att ansluta",
+    "after": "Det gick inte att ansluta",
+    "readback": "Det gick inte att ansluta",
+    "reason": "Synkar referensaliaset med det gemensamma svenska live-målet."
+  },
+  {
+    "position": 45482,
+    "key": "component::xbox::config_subentries::friend::error::cannot_connect",
+    "key_id": "773446873",
+    "translation_id": "7316257627",
+    "en": "Failed to connect",
+    "before": "Misslyckades att ansluta",
+    "after": "Det gick inte att ansluta",
+    "readback": "Det gick inte att ansluta",
+    "reason": "Synkar referensaliaset med det gemensamma svenska live-målet."
+  }
+]
