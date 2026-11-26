@@ -1,0 +1,68 @@
+[
+  {
+    "key": "component::influxdb::config::step::configure_v2::data_description::bucket",
+    "key_id": "804328477",
+    "translation_id": "7767094211",
+    "en": "The name of the bucket.",
+    "before": "Namnet på lagringsbucketen.",
+    "after": "Namnet på lagringshinken.",
+    "reason": "Förklarar InfluxDB:s tekniska bucket som lagringshink i hjälpttext i stället för att lämna den oöversatt.",
+    "readback": "Namnet på lagringshinken.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::energy::issues::entity_unexpected_unit_volume_flow_rate::description",
+    "key_id": "804641921",
+    "translation_id": "7770325782",
+    "en": "The following entities do not have an expected unit of measurement (either of {flow_rate_units}):",
+    "before": "Följande entiteter har inte någon av de förväntade måttenheterna ({flow_rate_units}):",
+    "after": "Följande entiteter har inte någon av de förväntade måttenheterna ({flow_rate_units}):",
+    "reason": "Källans either of anger att den angivna listan är en av flera godtagna enheter; parentesen inför listan utan att tappa betydelsen.",
+    "readback": "Följande entiteter har inte någon av de förväntade måttenheterna ({flow_rate_units}):",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::trane::entity::switch::hold::name",
+    "key_id": "804668193",
+    "translation_id": "7770538562",
+    "en": "Hold",
+    "before": "Manuell låsning",
+    "after": "Manuell låsning",
+    "reason": "Källkoden visar att brytaren växlar mellan manuellt låst börvärde och termostatens schema; 'Håll' är en felaktig direktöversättning.",
+    "readback": "Manuell låsning",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::indevolt::entity::number::inverter_input_limit::name",
+    "key_id": "804464256",
+    "translation_id": "7768814487",
+    "en": "Inverter input limit",
+    "before": "Gräns för växelriktarens ineffekt",
+    "after": "Gräns för växelriktarens ineffekt",
+    "reason": "Källan avser en effektgräns för växelriktarens ingång, inte en gräns för ingångens storlek.",
+    "readback": "Gräns för växelriktarens ineffekt",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tessie::entity::sensor::charge_state_charge_port_latch::state::disengaged",
+    "key_id": "804460874",
+    "translation_id": "7768773468",
+    "en": "Disengaged",
+    "before": "Olåst",
+    "after": "Olåst",
+    "reason": "Statusen beskriver laddportslåsets tillstånd; 'frånkopplad' antyder elektrisk frånkoppling och är tvetydigt.",
+    "readback": "Olåst",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::tessie::entity::sensor::charge_state_charge_port_latch::state::engaged",
+    "key_id": "804460875",
+    "translation_id": "7768773532",
+    "en": "Engaged",
+    "before": "Låst",
+    "after": "Låst",
+    "reason": "Statusen beskriver laddportslåsets låsta läge, inte elektrisk inkoppling.",
+    "readback": "Låst",
+    "status": "verified-existing"
+  }
+]
