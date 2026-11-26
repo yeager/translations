@@ -1,0 +1,1463 @@
+--- translations/GNOME-granskning/gnome-calculator/main/help/gnome-calculator-help.main.sv.original.po	2026-11-26 05:34:38.317955490 +0100
++++ translations/GNOME-granskning/gnome-calculator/main/help/gnome-calculator-help.main.sv.reviewed.po	2026-11-26 05:34:38.326955497 +0100
+@@ -9,8 +9,8 @@
+ msgstr ""
+ "Project-Id-Version: gnome-calculator doc\n"
+ "POT-Creation-Date: 2026-11-25 16:17+0000\n"
+-"PO-Revision-Date: 2026-02-22 10:26+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-26 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -38,8 +38,8 @@
+ "Absolute values are calculated using the | symbol or abs <link "
+ "xref=\"function\">function</link>."
+ msgstr ""
+-"Absolutvärden beräknas med symbolen | eller abs-<link "
+-"xref=\"function\">funktionen</link>."
++"Absolutbelopp beräknas med symbolen | eller funktionen <link "
++"xref=\"function\">abs</link>."
+ 
+ #. (itstool) path: example/p
+ #: C/absolute.page:15
+@@ -54,9 +54,11 @@
+ #. (itstool) path: page/p
+ #: C/absolute.page:22
+ msgid ""
+-"Signum x÷|x| is calculated using sgn <link xref=\"function\">function</link>."
++"Signum x÷|x| is calculated using sgn <link "
++"xref=\"function\">function</link>."
+ msgstr ""
+-"Tecknet x÷|x| beräknas med sgn-<link xref=\"function\">funktionen</link>."
++"Teckenvärdet x÷|x| beräknas med funktionen <link "
++"xref=\"function\">sgn</link>."
+ 
+ #. (itstool) path: example/p
+ #: C/absolute.page:26
+@@ -75,8 +77,8 @@
+ "xref=\"superscript\">subscript numbers</link>. The following numbers are "
+ "equivalent."
+ msgstr ""
+-"För att mata in tal i en särskild talbas använd <link "
+-"xref=\"superscript\">indexlägestal</link>. Följande tal är ekvivalenta."
++"Använd <link xref=\"superscript\">indexlägestal</link> när du vill ange tal "
++"i en viss talbas. Följande tal är likvärdiga."
+ 
+ #. (itstool) path: example/p
+ #: C/base.page:16
+@@ -101,11 +103,11 @@
+ #. (itstool) path: page/p
+ #: C/base.page:29
+ msgid ""
+-"When in <link xref=\"mouse\">programming mode</link>, use the drop-down menu "
+-"to change the base of the calculation."
++"When in <link xref=\"mouse\">programming mode</link>, use the drop-down menu"
++" to change the base of the calculation."
+ msgstr ""
+-"När du är i <link xref=\"mouse\">programmeringsläget</link>, använd "
+-"rullgardinsmenyn för att ändra basen för uträkningen."
++"I <link xref=\"mouse\">programmeringsläget</link> kan du ändra beräkningens "
++"talbas i rullgardinsmenyn."
+ 
+ #. (itstool) path: page/p
+ #: C/base.page:32
+@@ -125,11 +127,11 @@
+ #. (itstool) path: page/p
+ #: C/base.page:35
+ msgid ""
+-"To convert numbers to other base on the fly, <link xref=\"conv-base\">Number "
+-"Base conversion</link> can be used."
++"To convert numbers to other base on the fly, <link xref=\"conv-base\">Number"
++" Base conversion</link> can be used."
+ msgstr ""
+-"För att konvertera tal till andra baser i farten kan <link xref=\"conv-"
+-"base\">Talbaskonvertering</link> användas."
++"Använd <link xref=\"conv-base\">talbaskonvertering</link> för att snabbt "
++"konvertera tal till en annan bas."
+ 
+ #. (itstool) path: page/title
+ #: C/boolean.page:9
+@@ -144,12 +146,12 @@
+ #. (itstool) path: page/p
+ #: C/boolean.page:14
+ msgid ""
+-"The result of some operations depend on the word size. To set the word size, "
+-"press the menu button in the top-right corner of the window and select <gui "
+-"style=\"menuitem\">Preferences</gui>."
++"The result of some operations depend on the word size. To set the word size,"
++" press the menu button in the top-right corner of the window and select <gui"
++" style=\"menuitem\">Preferences</gui>."
+ msgstr ""
+-"Resultatet av några operationer beror på ordstorleken. För att ställa in "
+-"ordstorleken, tryck på menyknappen i fönstrets övre högra hörn och välj <gui "
++"Resultatet av vissa operationer beror på ordstorleken. Ändra den genom att "
++"öppna menyn längst upp till höger i fönstret och välja <gui "
+ "style=\"menuitem\">Inställningar</gui>."
+ 
+ #. (itstool) path: page/p
+@@ -158,13 +160,14 @@
+ "Buttons for the following symbols and to set the word size are available in "
+ "<link xref=\"mode-programming\">programming mode</link>."
+ msgstr ""
+-"Knappar för följande symboler och för att ställa in ordstorleken är "
+-"tillgängliga i <link xref=\"mode-programming\">programmeringsläget</link>."
++"I <link xref=\"mode-programming\">programmeringsläget</link> finns knappar "
++"för följande symboler och för att ställa in ordstorleken."
+ 
+ #. (itstool) path: page/p
+ #: C/boolean.page:23
+ msgid "Bitwise conjunction can be calculated using the ∧ or AND operators."
+-msgstr "Bitvis konjunktion kan beräknas med hjälp av operatorerna ∧ eller AND."
++msgstr ""
++"Bitvis konjunktion kan beräknas med hjälp av operatorerna ∧ eller AND."
+ 
+ #. (itstool) path: example/p
+ #: C/boolean.page:27
+@@ -213,8 +216,8 @@
+ #. (itstool) path: page/p
+ #: C/boolean.page:59
+ msgid ""
+-"Bitwise complement for the set word size can be calculated using the ¬, ~ or "
+-"NOT operators."
++"Bitwise complement for the set word size can be calculated using the ¬, ~ or"
++" NOT operators."
+ msgstr ""
+ "Bitvist komplement för den inställda ordstorleken kan beräknas med hjälp av "
+ "operatorerna ¬, ~ eller NOT."
+@@ -232,11 +235,11 @@
+ #. (itstool) path: page/p
+ #: C/boolean.page:71
+ msgid ""
+-"Bitwise alternative denial for the set word size can be calculated using the "
+-"⊼ or NAND operators."
++"Bitwise alternative denial for the set word size can be calculated using the"
++" ⊼ or NAND operators."
+ msgstr ""
+-"Bitvist ”icke båda” för den inställda ordstorleken kan beräknas med hjälp av "
+-"operatorerna ⊼ eller NAND."
++"Bitvist ”icke båda” för den inställda ordstorleken kan beräknas med hjälp av"
++" operatorerna ⊼ eller NAND."
+ 
+ #. (itstool) path: example/p
+ #: C/boolean.page:75
+@@ -254,8 +257,8 @@
+ "Bitwise joint denial for the set word size can be calculated using the ⊽ or "
+ "NOR operators."
+ msgstr ""
+-"Bitvist ”varken eller” för den inställda ordstorleken kan beräknas med hjälp "
+-"av operatorerna ⊽ eller NOR."
++"Bitvist ”varken eller” för den inställda ordstorleken kan beräknas med hjälp"
++" av operatorerna ⊽ eller NOR."
+ 
+ #. (itstool) path: example/p
+ #: C/boolean.page:87
+@@ -273,7 +276,7 @@
+ "Bitwise biconditional for the set word size can be calculated using the ⊙, "
+ "XNOR or NXOR operators."
+ msgstr ""
+-"Bitvis ömsesidighet för den inställda ordstorleken kan beräknas med hjälp av "
++"Bitvis ekvivalens för den inställda ordstorleken kan beräknas med "
+ "operatorerna ⊙, XNOR eller NXOR."
+ 
+ #. (itstool) path: example/p
+@@ -297,27 +300,25 @@
+ "<app>Calculator</app> supports complex numbers, as well as the following "
+ "functions while in <link xref=\"mouse\">Advanced mode</link>."
+ msgstr ""
+-"<app>Kalkylator</app> har stöd för både komplexa tal och följande funktioner "
+-"i <link xref=\"mouse\">Avancerat läge</link>."
++"<app>Kalkylator</app> har stöd för både komplexa tal och följande funktioner"
++" i <link xref=\"mouse\">Avancerat läge</link>."
+ 
+ #. (itstool) path: td/p
+ #: C/complex.page:18
+-#, fuzzy
+ #| msgid "cos"
+ msgid "cis"
+-msgstr "cos"
++msgstr "cis"
+ 
+ #. (itstool) path: td/p
+ #: C/complex.page:19
+-#, fuzzy
+ #| msgid "Returns the argument of a complex number. For example:"
+ msgid "Enter a complex number in polar form. For example:"
+-msgstr "Returnerar argumentet av ett komplext tal. Till exempel:"
++msgstr "Ange ett komplext tal i polär form. Till exempel:"
+ 
+ #. (itstool) path: example/p
+ #: C/complex.page:21
+ msgid "2 cis 45 = 1.4142+1.4142i"
+-msgstr ""
++msgstr "2 cis 45 = 1.4142+1.4142i"
+ 
+ #. (itstool) path: td/p
+ #: C/complex.page:29
+@@ -382,11 +383,10 @@
+ #. (itstool) path: page/p
+ #: C/conv-base.page:11
+ msgid ""
+-"To convert the number to a different base representation use the <em>in</em> "
+-"operator."
++"To convert the number to a different base representation use the <em>in</em>"
++" operator."
+ msgstr ""
+-"För att konvertera talet till en annan basrepresentation använd operatorn "
+-"<em>in</em>."
++"Använd operatorn <em>in</em> för att konvertera talet till en annan talbas."
+ 
+ #. (itstool) path: example/p
+ #: C/conv-base.page:15
+@@ -412,10 +412,11 @@
+ #: C/conv-base.page:29
+ msgid ""
+ "Number Base conversions must be performed using the keyboard or using the "
+-"<gui>conversion mode</gui> and selecting the <gui>Number Base</gui> category."
++"<gui>conversion mode</gui> and selecting the <gui>Number Base</gui> "
++"category."
+ msgstr ""
+-"Talbaskonverteringar måste utföras med tangentbordet eller genom "
+-"<gui>konverteringsläget</gui> och att välja kategorin <gui>Talbas</gui>."
++"Talbaskonvertering görs med tangentbordet eller genom att välja "
++"<gui>konverteringsläget</gui> och kategorin <gui>Talbas</gui>."
+ 
+ #. (itstool) path: page/title
+ #: C/conv-character.page:9
+@@ -425,11 +426,11 @@
+ #. (itstool) path: page/p
+ #: C/conv-character.page:11
+ msgid ""
+-"When in <link xref=\"mouse\">programming mode</link> the <gui>á</gui> button "
+-"opens a dialog to convert characters to character codes."
++"When in <link xref=\"mouse\">programming mode</link> the <gui>á</gui> button"
++" opens a dialog to convert characters to character codes."
+ msgstr ""
+-"I <link xref=\"mouse\">programmeringsläget</link> öppnar <gui>á</gui>-"
+-"knappen en dialog för att konvertera tecken till teckenkoder."
++"I <link xref=\"mouse\">programmeringsläget</link> öppnar "
++"<gui>á</gui>-knappen en dialog för att konvertera tecken till teckenkoder."
+ 
+ #. (itstool) path: note/p
+ #: C/conv-character.page:15
+@@ -469,29 +470,27 @@
+ #. (itstool) path: page/p
+ #: C/conv-currency.page:29
+ msgid ""
+-"To convert currencies, enter the <link xref=\"financial\">financial mode</"
+-"link>, and use the <gui>Currency conversion</gui> button or enter the <link "
+-"xref=\"index#conversion\">conversion mode</link> and select the "
++"To convert currencies, enter the <link xref=\"financial\">financial "
++"mode</link>, and use the <gui>Currency conversion</gui> button or enter the "
++"<link xref=\"index#conversion\">conversion mode</link> and select the "
+ "<gui>Currency</gui> category."
+ msgstr ""
+-"För att konvertera valutor, gå in i <link xref=\"financial\">finansiellt "
+-"läge</link> och använd knappen <gui>Valutakonvertering</gui> eller gå in i "
+-"<link xref=\"index#conversion\">konverteringsläget</link> och välj kategorin "
++"Välj <link xref=\"financial\">finansiellt läge</link> och tryck på "
++"<gui>Valutakonvertering</gui>. Du kan också välja <link "
++"xref=\"index#conversion\">konverteringsläget</link> och kategorin "
+ "<gui>Valuta</gui>."
+ 
+ #. (itstool) path: item/p
+ #: C/conv-currency.page:36
+ msgid "Enter the amount which you want to convert."
+-msgstr "Mata in antalet som du vill konvertera."
++msgstr "Ange beloppet som du vill konvertera."
+ 
+ #. (itstool) path: item/p
+ #: C/conv-currency.page:39
+ msgid ""
+ "Select the currency that you want to convert from and the currency that you "
+ "want to convert to from the drop down below."
+-msgstr ""
+-"Välj valutan som du önskar konvertera från och valutan du önskar konvertera "
+-"till från rullgardinsmenyn nedanför."
++msgstr "Välj valuta att konvertera från och till i rullgardinsmenyerna nedan."
+ 
+ #. (itstool) path: note/p
+ #: C/conv-currency.page:45
+@@ -499,7 +498,7 @@
+ "Currency information is approximate and should not be used for making "
+ "financial decisions."
+ msgstr ""
+-"Valutainformation är ungefärlig och bör inte användas för att ta finansiella "
++"Valutakurserna är ungefärliga. Använd dem inte som underlag för ekonomiska "
+ "beslut."
+ 
+ #. (itstool) path: page/title
+@@ -534,13 +533,13 @@
+ #. (itstool) path: note/p
+ #: C/conv-length.page:26
+ msgid ""
+-"Length/Area/Volume conversions must be performed using the keyboard or using "
+-"the <gui>conversion mode</gui> and selecting the <gui>length/area/volume</"
+-"gui> category."
+-msgstr ""
+-"Längd/yta/volym-konverteringar måste utföras med tangentbordet eller genom "
+-"<gui>konverteringsläget</gui> och att välja kategorin <gui>Längd/Yta/Volym</"
+-"gui>."
++"Length/Area/Volume conversions must be performed using the keyboard or using"
++" the <gui>conversion mode</gui> and selecting the "
++"<gui>length/area/volume</gui> category."
++msgstr ""
++"Konvertering mellan längd-, yt- och volymenheter görs med tangentbordet "
++"eller genom att välja <gui>konverteringsläget</gui> och kategorin "
++"<gui>Längd/Yta/Volym</gui>."
+ 
+ #. (itstool) path: page/title
+ #: C/conv-time.page:9
+@@ -550,7 +549,7 @@
+ #. (itstool) path: page/p
+ #: C/conv-time.page:11
+ msgid "To convert between time use the <em>in</em> operator."
+-msgstr "För att konvertera mellan tid använd operatorn <em>in</em>."
++msgstr "Använd operatorn <em>in</em> för att konvertera mellan tidsenheter."
+ 
+ #. (itstool) path: example/p
+ #: C/conv-time.page:15
+@@ -563,8 +562,8 @@
+ "Time conversions must be performed using the keyboard or using the "
+ "<gui>conversion mode</gui> and selecting the <gui>duration</gui> category."
+ msgstr ""
+-"Tidskonverteringar måste utföras med tangentbordet eller genom "
+-"<gui>konverteringsläget</gui> och att välja kategorin <gui>Tid</gui>."
++"Tidskonvertering görs med tangentbordet eller genom att välja "
++"<gui>konverteringsläget</gui> och kategorin <gui>Tid</gui>."
+ 
+ #. (itstool) path: page/title
+ #: C/conv-weight.page:9
+@@ -574,7 +573,7 @@
+ #. (itstool) path: page/p
+ #: C/conv-weight.page:11
+ msgid "To convert between mass use the <em>in</em> operator."
+-msgstr "För att konvertera mellan massa använd operatorn <em>in</em>."
++msgstr "Använd operatorn <em>in</em> för att konvertera mellan massenheter."
+ 
+ #. (itstool) path: example/p
+ #: C/conv-weight.page:15
+@@ -587,8 +586,8 @@
+ "Mass conversions must be performed using the keyboard or using the "
+ "<gui>conversion mode</gui> and selecting the <gui>mass</gui> category."
+ msgstr ""
+-"Massakonverteringar måste utföras med tangentbordet eller genom "
+-"<gui>konverteringsläget</gui> och att välja kategorin <gui>Massa</gui>."
++"Masskonvertering görs med tangentbordet eller genom att välja "
++"<gui>konverteringsläget</gui> och kategorin <gui>Massa</gui>."
+ 
+ #. (itstool) path: info/title
+ #: C/equation.page:7
+@@ -607,8 +606,8 @@
+ "Equations are entered in standard mathematical form. For example to add 7 "
+ "and 2 enter the following:"
+ msgstr ""
+-"Ekvationer matas in i matematisk standardform. För att till exempel addera 7 "
+-"och 2 mata in följande:"
++"Skriv ekvationer i vanlig matematisk notation. Så här adderar du till "
++"exempel 7 och 2:"
+ 
+ #. (itstool) path: example/p
+ #: C/equation.page:18
+@@ -618,11 +617,11 @@
+ #. (itstool) path: page/p
+ #: C/equation.page:22
+ msgid ""
+-"To solve, press the <gui>=</gui> button with your mouse or the <key>Enter</"
+-"key> key on your keyboard."
++"To solve, press the <gui>=</gui> button with your mouse or the "
++"<key>Enter</key> key on your keyboard."
+ msgstr ""
+-"För att lösa detta, tryck på <gui>=</gui>-knappen med din mus eller "
+-"<key>Retur</key>-tangenten på ditt tangentbord."
++"Tryck på knappen <gui>=</gui> eller på <key>Retur</key> för att beräkna "
++"resultatet."
+ 
+ #. (itstool) path: page/p
+ #: C/equation.page:25
+@@ -631,9 +630,9 @@
+ "division are performed before addition and subtraction. The following "
+ "equation solves to 1 (3×2 = 6, 7−6 = 1)."
+ msgstr ""
+-"Uträkningar görs i matematisk ordning - multiplikation och division görs "
+-"före addition och subtraktion. Resultatet för följande ekvation är 1 (3×2 = "
+-"6, 7−6 = 1)."
++"Beräkningar följer den matematiska prioritetsordningen: multiplikation och "
++"division utförs före addition och subtraktion. Ekvationen nedan ger "
++"resultatet 1 (3×2 = 6, 7−6 = 1)."
+ 
+ #. (itstool) path: example/p
+ #: C/equation.page:30
+@@ -646,8 +645,8 @@
+ "To change the order of calculation use parenthesis. The following equation "
+ "solves to 8 (7−3 = 4, 4×2 = 8)."
+ msgstr ""
+-"För att ändra ordningen för uträkningar använd parenteser. Resultatet för "
+-"följande ekvation är 8 (7−3 = 4, 4×2 = 8)."
++"Använd parenteser för att ändra beräkningens ordningsföljd. Ekvationen nedan"
++" ger resultatet 8 (7−3 = 4, 4×2 = 8)."
+ 
+ #. (itstool) path: example/p
+ #: C/equation.page:39
+@@ -659,7 +658,7 @@
+ msgid ""
+ "To clear the display press the <gui>C</gui> button or <key>Escape</key>."
+ msgstr ""
+-"För att rensa skärmen, tryck på <gui>C</gui>-knappen eller <key>Escape</key>."
++"Tryck på <gui>C</gui> eller <key>Escape</key> för att rensa visningen."
+ 
+ #. (itstool) path: page/title
+ #: C/factorial.page:9
+@@ -672,8 +671,8 @@
+ "Factorials are entered using the ! symbol. To calculate the factorial of 6 "
+ "enter the following."
+ msgstr ""
+-"Fakulteter matas in med hjälp av symbolen !. För att beräkna fakulteten av 6 "
+-"mata in följande."
++"Skriv ett utropstecken efter talet för att beräkna dess fakultet. Så här "
++"beräknar du fakulteten för 6."
+ 
+ #. (itstool) path: example/p
+ #: C/factorial.page:16
+@@ -687,21 +686,22 @@
+ 
+ #. (itstool) path: page/p
+ #: C/factorize.page:11
+-#, fuzzy
+ #| msgid ""
+ #| "You can factorize the number currently displayed by pressing the "
+-#| "<gui>a×b</gui> button, or pressing <keyseq><key>Ctrl</key><key>F</key></"
+-#| "keyseq>. This button is visible in <link xref=\"mouse\">advanced mode</"
+-#| "link>."
+-msgid ""
+-"You can factorize the number currently displayed by pressing the <gui>a×b</"
+-"gui> button, or pressing <keyseq><key>Ctrl</key><key>F</key></keyseq>. This "
+-"button is visible in <link xref=\"mouse\">advanced mode</link> and <link "
++#| "<gui>a×b</gui> button, or pressing "
++#| "<keyseq><key>Ctrl</key><key>F</key></keyseq>. This button is visible in "
++#| "<link xref=\"mouse\">advanced mode</link>."
++msgid ""
++"You can factorize the number currently displayed by pressing the "
++"<gui>a×b</gui> button, or pressing "
++"<keyseq><key>Ctrl</key><key>F</key></keyseq>. This button is visible in "
++"<link xref=\"mouse\">advanced mode</link> and <link "
+ "xref=\"mouse\">programming mode</link>."
+ msgstr ""
+-"Du kan faktorisera det aktuella talet som visas genom att trycka på knappen "
+-"<gui>a×b</gui> eller genom att trycka <keyseq><key>Ctrl</key><key>F</key></"
+-"keyseq>. Denna knapp visas i <link xref=\"mouse\">avancerat läge</link>."
++"Du kan faktorisera talet som visas genom att trycka på <gui>a×b</gui> eller "
++"på <keyseq><key>Ctrl</key><key>F</key></keyseq>. Knappen finns i <link "
++"xref=\"mouse\">avancerat läge</link> och <link "
++"xref=\"mouse\">programmeringsläge</link>."
+ 
+ #. (itstool) path: page/title
+ #: C/financial.page:9
+@@ -725,9 +725,8 @@
+ "investment of present value to a future value, at a fixed interest rate per "
+ "compounding period."
+ msgstr ""
+-"Beräkna antalet sammansatta perioder som krävs för att öka en investering "
+-"för nuvarande värde till ett framtida värde, med en fast ränta per "
+-"sammansatt period."
++"Beräknar hur många ränteperioder som krävs för att öka investeringens "
++"nuvärde till ett framtida värde vid en fast ränta per period."
+ 
+ #. (itstool) path: td/p
+ #: C/financial.page:19
+@@ -740,8 +739,8 @@
+ "Calculate the depreciation allowance on an asset for a specified period of "
+ "time, using the double-declining balance method."
+ msgstr ""
+-"Beräknar avskrivningskostnaden för ett objekt för en angiven tidsperiod, som "
+-"använder metoden dubbel degressiv avskrivning."
++"Beräknar avskrivningen för en tillgång under en viss period enligt metoden "
++"med dubbel degressiv avskrivning."
+ 
+ #. (itstool) path: td/p
+ #: C/financial.page:23
+@@ -755,9 +754,8 @@
+ "payments at a periodic interest rate over the number of payment periods in "
+ "the term."
+ msgstr ""
+-"Beräknar det framtida värdet för en investering baserat på ett antal "
+-"likvärdiga betalningar med en periodisk ränta över ett antal "
+-"betalningsperioder i perioden."
++"Beräknar investeringens framtida värde utifrån lika stora betalningar med "
++"periodisk ränta under investeringens löptid."
+ 
+ #. (itstool) path: td/p
+ #: C/financial.page:27
+@@ -770,8 +768,8 @@
+ "Calculate the resale price of a product, based on the product cost and the "
+ "wanted gross profit margin."
+ msgstr ""
+-"Beräknar försäljningspriset för en produkt, baserat på produktens kostnad "
+-"och den önskade bruttovinstmarginalen."
++"Beräknar produktens försäljningspris utifrån produktkostnaden och önskad "
++"bruttomarginal."
+ 
+ #. (itstool) path: td/p
+ #: C/financial.page:31
+@@ -784,8 +782,8 @@
+ "Calculate the amount of the periodic payment of a loan, where payments are "
+ "made at the end of each payment period."
+ msgstr ""
+-"Beräknar mängden för den periodiska betalningen för ett lån, där betalningar "
+-"görs vid slutet av varje betalningsperiod."
++"Beräknar beloppet för ett låns periodiska betalning, där betalningen görs i "
++"slutet av varje period."
+ 
+ #. (itstool) path: td/p
+ #: C/financial.page:35
+@@ -799,9 +797,8 @@
+ "payments discounted at a periodic interest rate over the number of payment "
+ "periods in the term."
+ msgstr ""
+-"Beräknar det nuvarande värdet för en investering baserad på ett antal "
+-"likvärdiga betalningar rabatterade med en periodisk ränta över ett antal "
+-"betalningsperioder i perioden."
++"Beräknar investeringens nuvärde utifrån lika stora betalningar som "
++"diskonteras med en periodisk ränta under löptiden."
+ 
+ #. (itstool) path: td/p
+ #: C/financial.page:39
+@@ -814,8 +811,8 @@
+ "Calculate the periodic interest necessary to increase an investment to a "
+ "future value, over the number of compounding periods."
+ msgstr ""
+-"Beräknar den periodiska ränta som behövs för att öka en investering till ett "
+-"framtida värde, över ett antal sammansatta perioder."
++"Beräknar den periodiska ränta som krävs för att öka en investering till ett "
++"framtida värde under ett visst antal ränteperioder."
+ 
+ #. (itstool) path: td/p
+ #: C/financial.page:43
+@@ -830,10 +827,10 @@
+ "over the useful life of an asset. The useful life is the number of periods, "
+ "typically years, over which an asset is depreciated."
+ msgstr ""
+-"Beräknar den linjära avskrivningen för en tillgång under en period. Den "
+-"linjära metoden för avskrivning delar upp den avskrivna kostnaden jämnt över "
+-"den användbara livslängden för objektet. Den användbara livslängden är "
+-"antalet perioder, oftast år, över vilket ett objekt skrivs av."
++"Beräknar en tillgångs linjära avskrivning under en period. Med linjär "
++"avskrivning fördelas det avskrivningsbara värdet jämnt över tillgångens "
++"nyttjandeperiod. Nyttjandeperioden är antalet perioder, oftast år, som "
++"tillgången skrivs av under."
+ 
+ #. (itstool) path: td/p
+ #: C/financial.page:47
+@@ -844,16 +841,16 @@
+ #: C/financial.page:48
+ msgid ""
+ "Calculate the depreciation allowance on an asset for a specified period of "
+-"time, using the Sum-of-the-Years'-Digits method. This method of depreciation "
+-"accelerates the rate of depreciation, so that more depreciation expense "
++"time, using the Sum-of-the-Years'-Digits method. This method of depreciation"
++" accelerates the rate of depreciation, so that more depreciation expense "
+ "occurs in earlier periods than in later ones. The useful life is the number "
+ "of periods, typically years, over which an asset is depreciated."
+ msgstr ""
+-"Beräknar avskrivningskostnaden för en tillgång för en angiven tidsperiod och "
+-"använder metoden degressiv avskrivning. Denna metod för avskrivning "
+-"accelererar räntan för avskrivningen så att högre avskrivningskostnader "
+-"inträffar i tidigare perioder än i de senare. Den användbara livslängden är "
+-"antalet perioder, oftast år, över vilka en tillgång skrivs av."
++"Beräknar avskrivningen för en tillgång under en viss period med metoden för "
++"summan av årens siffror. Metoden ger snabbare avskrivning, så att en större "
++"del av tillgångens värde skrivs av under de första perioderna. "
++"Nyttjandeperioden är antalet perioder, oftast år, som tillgången skrivs av "
++"under."
+ 
+ #. (itstool) path: td/p
+ #: C/financial.page:51
+@@ -864,11 +861,11 @@
+ #: C/financial.page:52
+ msgid ""
+ "Calculate the number of payment periods that are necessary during the term "
+-"of an ordinary annuity, to accumulate a future value, at a periodic interest "
+-"rate."
++"of an ordinary annuity, to accumulate a future value, at a periodic interest"
++" rate."
+ msgstr ""
+-"Beräknar antalet betalningsperioder som krävs under perioden för en vanlig "
+-"annuitet, för att ackumulera ett framtida värde, med en periodisk ränta."
++"Beräknar hur många betalningsperioder som krävs för att nå ett framtida "
++"värde med en vanlig annuitet och periodisk ränta."
+ 
+ #. (itstool) path: note/p
+ #: C/financial.page:56
+@@ -889,11 +886,11 @@
+ "single variable</link> then write each argument separated by semicolon and "
+ "use parenthesis around the argument list."
+ msgstr ""
+-"Funktioner kan användas genom att mata in namnet på funktionen åtföljt av "
+-"funktionsargument. <app>Kalkylator</app> har också stöd för "
+-"användardefinierade funktioner. Om argumentet inte är ett tal eller <link "
+-"xref=\"variable\">en ensam variabel</link> skriv då varje argument separerat "
+-"av semikolon och använd parenteser runt argumentlistan."
++"Anropa en funktion genom att skriva dess namn följt av argumenten. "
++"<app>Kalkylator</app> har också stöd för användardefinierade funktioner. Om "
++"ett argument inte är ett tal eller en <link xref=\"variable\">enskild "
++"variabel</link> skriver du argumenten åtskilda med semikolon och sätter "
++"parenteser runt argumentlistan."
+ 
+ #. (itstool) path: example/p
+ #. Translators: Do not translate the word 'sin'!
+@@ -921,10 +918,9 @@
+ "characters, or underscores. The part after @ is the function description "
+ "which is optional."
+ msgstr ""
+-"För att lägga till en ny funktion, mata in funktionen på formatet som anges "
+-"nedan. Ett funktionsnamn och argument får bara innehålla versaler och "
+-"gemener eller understreck. Delen efter @ är den valfria "
+-"funktionsbeskrivningen."
++"Skriv en ny funktion i formatet nedan. Funktionsnamn och argument får bara "
++"innehålla versaler, gemener eller understreck. Texten efter @ är en valfri "
++"funktionsbeskrivning."
+ 
+ #. (itstool) path: example/p
+ #: C/functions.page:30
+@@ -946,9 +942,9 @@
+ "arguments and click on the plus sign button next to it. On the calculator "
+ "screen type the function expression and press <key>Enter</key>."
+ msgstr ""
+-"Klicka på f(x). Mata in funktionsnamnet i rutan, välj antalet argument och "
+-"klicka på plusknappen intill. Mata in funktionsuttrycket i kalkylatorskärmen "
+-"och tryck <key>Retur</key>."
++"Klicka på f(x), skriv funktionsnamnet i rutan och välj antal argument. "
++"Klicka sedan på plusknappen bredvid. Skriv funktionsuttrycket i kalkylatorns"
++" inmatningsfält och tryck på <key>Retur</key>."
+ 
+ #. (itstool) path: example/p
+ #: C/functions.page:43
+@@ -1033,15 +1029,14 @@
+ 
+ #. (itstool) path: td/p
+ #: C/functions.page:107
+-#, fuzzy
+ #| msgid "<link xref=\"complex\">Real Component</link>"
+ msgid "<link xref=\"complex\">Polar Complex</link>"
+-msgstr "<link xref=\"complex\">Realdel</link>"
++msgstr "<link xref=\"complex\">Polärt komplext tal</link>"
+ 
+ #. (itstool) path: td/p
+ #: C/functions.page:111
+ msgid "<link xref=\"complex\">Complex Argument</link>"
+-msgstr "<link xref=\"complex\">Komplexargument</link>"
++msgstr "<link xref=\"complex\">Argumentet av ett komplext tal</link>"
+ 
+ #. (itstool) path: td/p
+ #: C/functions.page:115
+@@ -1097,12 +1092,12 @@
+ #. (itstool) path: td/p
+ #: C/functions.page:153
+ msgid "<link xref=\"rounding\">Floor</link>"
+-msgstr "<link xref=\"rounding\">Golv</link>"
++msgstr "<link xref=\"rounding\">Golvfunktion</link>"
+ 
+ #. (itstool) path: td/p
+ #: C/functions.page:157
+ msgid "<link xref=\"rounding\">Ceiling</link>"
+-msgstr "<link xref=\"rounding\">Tak</link>"
++msgstr "<link xref=\"rounding\">Takfunktion</link>"
+ 
+ #. (itstool) path: td/p
+ #: C/functions.page:161
+@@ -1172,7 +1167,7 @@
+ #. (itstool) path: td/p
+ #: C/functions.page:211
+ msgid "Sundry"
+-msgstr "Diverse"
++msgstr "Övrigt"
+ 
+ #. (itstool) path: td/p
+ #: C/functions.page:215
+@@ -1197,7 +1192,7 @@
+ #. (itstool) path: td/p
+ #: C/functions.page:231
+ msgid "<link xref=\"absolute\">Signum</link>"
+-msgstr "<link xref=\"absolute\">Tecken</link>"
++msgstr "<link xref=\"absolute\">Signum</link>"
+ 
+ #. (itstool) path: td/p
+ #: C/functions.page:235
+@@ -1262,13 +1257,13 @@
+ #. (itstool) path: page/p
+ #: C/history.page:32
+ msgid ""
+-"The History View is located above the entry box and is designed to show your "
+-"previous calculations in the form of a scrollable list that can be clicked "
++"The History View is located above the entry box and is designed to show your"
++" previous calculations in the form of a scrollable list that can be clicked "
+ "and scrolled through using a mouse."
+ msgstr ""
+-"Historikvyn är placerad ovanför inmatningsrutan och är designad för att visa "
+-"dina tidigare beräkningar som en rullbar lista som kan klickas och rullas "
+-"genom med en mus."
++"Historikvyn ovanför inmatningsfältet visar dina tidigare beräkningar i en "
++"lista. Bläddra i listan med musen och klicka på en beräkning för att välja "
++"den."
+ 
+ #. (itstool) path: page/p
+ #: C/history.page:37
+@@ -1276,17 +1271,17 @@
+ "Once an entry has been selected, it will immediately show up in the entry "
+ "box for you to manipulate and use."
+ msgstr ""
+-"Då en post har markerats visas den omedelbart i inmatningsrutan så att du "
+-"kan ändra och använda den."
++"När du väljer en post visas den direkt i inmatningsfältet, där du kan ändra "
++"och använda den."
+ 
+ #. (itstool) path: page/p
+ #: C/history.page:40
+ msgid ""
+-"Finally, there is no upper limit on the number of calculations that can show "
+-"up in the list for you to use."
++"Finally, there is no upper limit on the number of calculations that can show"
++" up in the list for you to use."
+ msgstr ""
+-"Slutligen finns det ingen övre gräns på antalet beräkningar som kan visas i "
+-"listan och användas."
++"Det finns ingen gräns för hur många beräkningar som kan visas och användas i"
++" listan."
+ 
+ #. (itstool) path: info/title
+ #: C/index.page:7
+@@ -1450,13 +1445,13 @@
+ msgid ""
+ "To enter <link xref=\"superscript\">superscript numbers</link> use "
+ "<keyseq><key>Ctrl</key>number</keyseq>, for <link "
+-"xref=\"superscript\">subscript numbers</link> use <keyseq><key>Alt</"
+-"key>number</keyseq>."
++"xref=\"superscript\">subscript numbers</link> use "
++"<keyseq><key>Alt</key>number</keyseq>."
+ msgstr ""
+ "För att mata in <link xref=\"superscript\">exponentlägestal</link> använd "
+ "<keyseq><key>Ctrl</key>tal</keyseq>, för <link "
+-"xref=\"superscript\">indexlägestal</link> använd <keyseq><key>Alt</key>tal</"
+-"keyseq>."
++"xref=\"superscript\">indexlägestal</link> använd "
++"<keyseq><key>Alt</key>tal</keyseq>."
+ 
+ #. (itstool) path: p/link
+ #: C/legal.xml:4
+@@ -1472,8 +1467,8 @@
+ #: C/legal.xml:6
+ msgid ""
+ "As a special exception, the copyright holders give you permission to copy, "
+-"modify, and distribute the example code contained in this document under the "
+-"terms of your choosing, without restriction."
++"modify, and distribute the example code contained in this document under the"
++" terms of your choosing, without restriction."
+ msgstr ""
+ "Som ett speciellt undantag, ger upphovsrättsinnehavarna dig tillåtelse att "
+ "kopiera, modifiera och distribuera exempelkoden som finns i detta dokument "
+@@ -1487,8 +1482,8 @@
+ #. (itstool) path: page/p
+ #: C/logarithm.page:11
+ msgid ""
+-"Logarithms can be calculated using the log <link xref=\"function\">function</"
+-"link>."
++"Logarithms can be calculated using the log <link "
++"xref=\"function\">function</link>."
+ msgstr ""
+ "Logaritmer kan beräknas med log-<link xref=\"function\">funktionen</link>."
+ 
+@@ -1526,7 +1521,7 @@
+ #. (itstool) path: page/p
+ #: C/logarithm.page:33
+ msgid "To calculate a natural logarithm use the ln function."
+-msgstr "För att beräkna en naturlig logaritm använd funktionen ln."
++msgstr "Använd funktionen ln för att beräkna den naturliga logaritmen."
+ 
+ #. (itstool) path: example/p
+ #: C/logarithm.page:37
+@@ -1536,10 +1531,9 @@
+ #. (itstool) path: page/p
+ #: C/logarithm.page:41
+ msgid ""
+-"Euler's number can be entered by using the <link xref=\"variable\">constant</"
+-"link> e."
+-msgstr ""
+-"Eulers tal kan matas in via <link xref=\"variable\">konstanten</link> e."
++"Euler's number can be entered by using the <link "
++"xref=\"variable\">constant</link> e."
++msgstr "Eulers tal kan matas in via <link xref=\"variable\">konstanten</link> e."
+ 
+ #. (itstool) path: example/p
+ #: C/logarithm.page:45
+@@ -1562,42 +1556,41 @@
+ "numbers up to 64 bits long is displayed, where the user can manually toggle "
+ "each bit using the mouse cursor."
+ msgstr ""
+-"<gui style=\"menuitem\">Programmeringsläge</gui> tillhandahåller verktygen "
+-"som krävs för vanliga matematiska operationer i programutveckling. "
+-"Exempelvis gör programmeringsläget matematik på hexadecimala tal väldigt "
+-"lätt. Det stöder också vanliga <link xref=\"boolean\">bitvisa operatorer</"
+-"link> som <gui>NOT</gui>, <gui>AND</gui>, <gui>OR</gui> och så vidare. En "
+-"binär vy för tal upp till 64 bitar långa visas, där användaren manuellt kan "
+-"växla varje bit med muspekaren."
++"<gui style=\"menuitem\">Programmeringsläget</gui> innehåller verktyg för "
++"vanliga matematiska beräkningar i programutveckling. Det gör det till "
++"exempel enkelt att räkna med hexadecimala tal. Läget stöder också vanliga "
++"<link xref=\"boolean\">bitvisa operatorer</link> som <gui>NOT</gui>, "
++"<gui>AND</gui> och <gui>OR</gui>. Tal visas i binär form upp till 64 bitar, "
++"och du kan växla varje bit med muspekaren."
+ 
+ #. (itstool) path: page/p
+ #: C/mode-programming.page:14
+ msgid ""
+-"Additionally, bit-shifting operations are possible by using the <gui>≪</"
+-"gui>, <gui>≫</gui> and <gui>⋙</gui> buttons. <link xref=\"modulus\">Modulo "
+-"arithmetic</link> can be accomplished using the <gui>mod</gui> button."
+-msgstr ""
+-"Dessutom är bitskiftningsoperationer möjliga genom att använda knapparna "
+-"<gui>≪</gui>, <gui>≫</gui> och <gui>⋙</gui>. <link "
+-"xref=\"modulus\">Moduloaritmetik</link> kan utföras med knappen <gui>mod</"
+-"gui>."
++"Additionally, bit-shifting operations are possible by using the "
++"<gui>≪</gui>, <gui>≫</gui> and <gui>⋙</gui> buttons. <link "
++"xref=\"modulus\">Modulo arithmetic</link> can be accomplished using the "
++"<gui>mod</gui> button."
++msgstr ""
++"Du kan också förskjuta bitar med knapparna <gui>≪</gui>, <gui>≫</gui> och "
++"<gui>⋙</gui>. Knappen <gui>mod</gui> används för <link "
++"xref=\"modulus\">modulär aritmetik</link>."
+ 
+ #. (itstool) path: page/p
+ #: C/mode-programming.page:17
+ msgid ""
+ "The default word size for bitwise, two’s complement, and swap endianness "
+-"functions can be changed both in the <gui style=\"menuitem\">Preferences</"
+-"gui> menu, or by using the word size button in the bottom of the keypad "
+-"while in programming mode. This will affect how results from these functions "
+-"are shown. For example, here we show the two’s complement of the number 6B "
+-"in 64 bit and 16 bit word sizes:"
+-msgstr ""
+-"Standardordstorleken för bitvisa funktioner, tvåkomplement och funktion för "
+-"att växla byteordning kan ändras både i menyn <gui "
+-"style=\"menuitem\">Inställningar</gui>, eller genom att använda "
+-"ordstorleksknappen i botten på knappsatsen i programmeringsläge. Detta "
+-"kommer påverka hur resultat från dessa funktioner visas. Här visar vi "
+-"exempelvis tvåkomplement för talet 6B i 64 bitars och 16 bitars ordstorlekar:"
++"functions can be changed both in the <gui "
++"style=\"menuitem\">Preferences</gui> menu, or by using the word size button "
++"in the bottom of the keypad while in programming mode. This will affect how "
++"results from these functions are shown. For example, here we show the two’s "
++"complement of the number 6B in 64 bit and 16 bit word sizes:"
++msgstr ""
++"Du kan ändra standardordstorleken för bitvisa funktioner, tvåkomplement och "
++"byteordning antingen i menyn <gui style=\"menuitem\">Inställningar</gui> "
++"eller med ordstorleksknappen längst ned på knappsatsen i "
++"programmeringsläget. Inställningen påverkar hur funktionernas resultat "
++"visas. Här visas till exempel tvåkomplementet av talet 6B med 64 respektive "
++"16 bitars ordstorlek:"
+ 
+ #. (itstool) path: example/p
+ #: C/mode-programming.page:21
+@@ -1630,8 +1623,8 @@
+ "Attempting to enter a larger number than will fit in the selected word size "
+ "will result in an Overflow error."
+ msgstr ""
+-"Försök att mata in ett större tal än som kan rymmas i den valda ordstorleken "
+-"kommer resultera i ett överspillsfel."
++"Om du försöker ange ett tal som är större än vad den valda ordstorleken "
++"rymmer uppstår ett spillfel."
+ 
+ #. (itstool) path: page/title
+ #: C/modulus.page:9
+@@ -1663,8 +1656,8 @@
+ "Modular exponentiation x^y mod p is performed using the modexp <link "
+ "xref=\"function\">function</link>."
+ msgstr ""
+-"Moduloexponenter x^y mod p utförs med <link xref=\"function\">funktionen</"
+-"link> modexp."
++"Modulär exponentiering x^y mod p beräknas med funktionen <link "
++"xref=\"function\">modexp</link>."
+ 
+ #. (itstool) path: example/p
+ #: C/modulus.page:26
+@@ -1674,7 +1667,7 @@
+ #. (itstool) path: page/title
+ #: C/mouse.page:9
+ msgid "Using the Mouse"
+-msgstr "Via musen"
++msgstr "Använda musen"
+ 
+ #. (itstool) path: page/p
+ #: C/mouse.page:11
+@@ -1682,8 +1675,8 @@
+ "All equations can be entered using the mouse. To access all buttons there "
+ "are a number of modes that can be selected from the <gui>Mode</gui> menu."
+ msgstr ""
+-"Alla ekvationer kan matas in via musen. För att nå alla knappar finns det "
+-"ett antal lägen som kan väljas från menyn <gui>Läge</gui>."
++"Du kan mata in alla ekvationer med musen. Fler knappar blir tillgängliga när"
++" du väljer läge i menyn <gui>Läge</gui>."
+ 
+ #. (itstool) path: td/p
+ #: C/mouse.page:17
+@@ -1695,7 +1688,7 @@
+ msgid ""
+ "Provides buttons suitable for <link xref=\"equation\">basic equations</link>"
+ msgstr ""
+-"Erbjuder knappar lämpliga för <link xref=\"equation\">grundläggande "
++"Innehåller knappar för <link xref=\"equation\">grundläggande "
+ "ekvationer</link>"
+ 
+ #. (itstool) path: td/p
+@@ -1709,7 +1702,7 @@
+ "Provides buttons suitable for advanced mathematics such as <link "
+ "xref=\"trigonometry\"/>"
+ msgstr ""
+-"Erbjuder knappar lämpliga för avancerad matematik så som <link "
++"Innehåller knappar för avancerad matematik, till exempel <link "
+ "xref=\"trigonometry\"/>"
+ 
+ #. (itstool) path: td/p
+@@ -1720,8 +1713,8 @@
+ #. (itstool) path: td/p
+ #: C/mouse.page:26
+ msgid ""
+-"Provides buttons suitable for <link xref=\"financial\">financial equations</"
+-"link>"
++"Provides buttons suitable for <link xref=\"financial\">financial "
++"equations</link>"
+ msgstr ""
+ "Erbjuder knappar lämpliga för <link xref=\"financial\">finansiella "
+ "ekvationer</link>"
+@@ -1729,7 +1722,7 @@
+ #. (itstool) path: td/p
+ #: C/mouse.page:30
+ msgid "Provides buttons suitable for computer programmers"
+-msgstr "Erbjuder knappar lämpliga för datorprogrammerare"
++msgstr "Innehåller knappar för programmering"
+ 
+ #. (itstool) path: td/p
+ #: C/mouse.page:33
+@@ -1739,7 +1732,7 @@
+ #. (itstool) path: td/p
+ #: C/mouse.page:34
+ msgid "Provides buttons suitable for unit conversions"
+-msgstr "Erbjuder knappar lämpliga för konvertering av enheter"
++msgstr "Innehåller knappar för enhetskonvertering"
+ 
+ #. (itstool) path: page/title
+ #: C/number-display.page:9
+@@ -1753,9 +1746,8 @@
+ "top-right corner of the window and select the number format to use from the "
+ "menu."
+ msgstr ""
+-"För att ändra formatet som används för att visa resultat, tryck på "
+-"menyknappen i fönstrets övre högra hörn och välj talformatet att använda "
+-"från menyn."
++"Ändra resultatformatet genom att öppna menyn längst upp till höger i "
++"fönstret och välja ett talformat."
+ 
+ #. (itstool) path: td/p
+ #: C/number-display.page:18
+@@ -1789,33 +1781,33 @@
+ #. (itstool) path: td/p
+ #: C/number-display.page:27
+ msgid ""
+-"Results are displayed in <link xref=\"scientific\">scientific notation</link>"
+-msgstr ""
+-"Resultat visas med <link xref=\"scientific\">vetenskaplig notation</link>"
++"Results are displayed in <link xref=\"scientific\">scientific "
++"notation</link>"
++msgstr "Resultat visas med <link xref=\"scientific\">vetenskaplig notation</link>"
+ 
+ #. (itstool) path: td/p
+ #: C/number-display.page:30
+ msgid "<gui>Engineering</gui>"
+-msgstr "<gui>Ingenjör</gui>"
++msgstr "<gui>Ingenjörsnotation</gui>"
+ 
+ #. (itstool) path: td/p
+ #: C/number-display.page:31
+ msgid ""
+-"Results are displayed in scientific notation except the exponent is always a "
+-"multiple of three"
++"Results are displayed in scientific notation except the exponent is always a"
++" multiple of three"
+ msgstr ""
+-"Resultat visas i vetenskaplig notation utom exponent som alltid är en "
++"Resultaten visas i vetenskaplig notation, men exponenten är alltid en "
+ "multipel av tre"
+ 
+ #. (itstool) path: page/p
+ #: C/number-display.page:34
+ msgid ""
+-"The number of decimal places, if trailing zeroes are shown and if digits are "
+-"grouped can also be configured in <gui style=\"menuitem\">Preferences</gui>."
++"The number of decimal places, if trailing zeroes are shown and if digits are"
++" grouped can also be configured in <gui "
++"style=\"menuitem\">Preferences</gui>."
+ msgstr ""
+-"Antalet decimalplatser, huruvida avslutande nollor visas, samt huruvida "
+-"siffror grupperas kan också konfigureras i <gui "
+-"style=\"menuitem\">Inställningar</gui>."
++"Under <gui style=\"menuitem\">Inställningar</gui> kan du också ange antalet "
++"decimaler, om avslutande nollor ska visas och om siffrorna ska grupperas."
+ 
+ #. (itstool) path: page/title
+ #: C/percentage.page:9
+@@ -1834,10 +1826,9 @@
+ "the value being added or subtracted from. The following equation calculates "
+ "the price of a $140 item with 15% tax (140 + (15÷100)×140)."
+ msgstr ""
+-"Vid addition och subtraktion kommer procentsymbolen att få resultatet av en "
+-"procentandel av värdet som adderas eller subtraheras. Följande ekvationer "
+-"beräknas priset för ett objekt värt 140 dollar med 15% skatt (140 + "
+-"(15÷100)×140)."
++"Vid addition och subtraktion motsvarar procenttecknet en procent av värdet "
++"det adderas till eller subtraheras från. Ekvationen nedan beräknar priset på"
++" en vara som kostar 140 dollar med 15 % skatt (140 + (15÷100)×140)."
+ 
+ #. (itstool) path: example/p
+ #: C/percentage.page:19
+@@ -1850,8 +1841,8 @@
+ "In all other cases the percentage symbol resolves to a fraction out of 100. "
+ "The following equation calculates one quarter of 80 apples ((25÷100)×80)."
+ msgstr ""
+-"I alla andra fall får procentsymbolen värdet av en bråkdel av 100. Följande "
+-"ekvation beräknas en fjärdedel av 80 äpplen ((25÷100)×80)."
++"I övriga fall motsvarar procenttecknet en andel av 100. Ekvationen nedan "
++"beräknar 25 % av 80 äpplen ((25÷100)×80)."
+ 
+ #. (itstool) path: example/p
+ #: C/percentage.page:28
+@@ -1893,8 +1884,8 @@
+ "The inverse of a number can be entered using the inverse symbol ⁻¹ "
+ "(<keyseq><key>Ctrl</key><key>I</key></keyseq>)."
+ msgstr ""
+-"Inversen av ett tal kan matas in med inverssymbolen ⁻¹ (<keyseq><key>Ctrl</"
+-"key><key>I</key></keyseq>)."
++"Inversen av ett tal kan matas in med inverssymbolen ⁻¹ "
++"(<keyseq><key>Ctrl</key><key>I</key></keyseq>)."
+ 
+ #. (itstool) path: example/p
+ #: C/power.page:35
+@@ -1907,8 +1898,8 @@
+ "Powers can also be calculated using the ^ symbol. This allows the power to "
+ "be an equation."
+ msgstr ""
+-"Potenser kan också beräknas med symbolen ^. Detta låter potenserna vara "
+-"ekvationer."
++"Du kan också beräkna potenser med symbolen ^. Då kan exponenten vara ett "
++"uttryck."
+ 
+ #. (itstool) path: example/p
+ #: C/power.page:42
+@@ -1921,17 +1912,19 @@
+ "If your keyboard does not have a <key>^</key> key you can use <key>*</key> "
+ "twice."
+ msgstr ""
+-"Om ditt tangentbord inte har en <key>^</key>-knapp kan du använda <key>*</"
+-"key> två gånger."
++"Om ditt tangentbord inte har en <key>^</key>-knapp kan du använda "
++"<key>*</key> två gånger."
+ 
+ #. (itstool) path: page/p
+ #: C/power.page:48
+ msgid ""
+-"Square roots can be calculated using the √ symbol (<keyseq><key>Ctrl</"
+-"key><key>R</key></keyseq>) or sqrt <link xref=\"function\">function</link>."
++"Square roots can be calculated using the √ symbol "
++"(<keyseq><key>Ctrl</key><key>R</key></keyseq>) or sqrt <link "
++"xref=\"function\">function</link>."
+ msgstr ""
+-"Kvadratrötter kan beräknas med symbolen √ (<keyseq><key>Ctrl</key><key>R</"
+-"key></keyseq>) eller <link xref=\"function\">funktionen</link> sqrt."
++"Kvadratrötter kan beräknas med symbolen √ "
++"(<keyseq><key>Ctrl</key><key>R</key></keyseq>) eller <link "
++"xref=\"function\">funktionen</link> sqrt."
+ 
+ #. (itstool) path: example/p
+ #: C/power.page:52
+@@ -1951,7 +1944,7 @@
+ "xref=\"superscript\">subscript number</link> or <link "
+ "xref=\"superscript\">superscript number</link> before the root sign."
+ msgstr ""
+-"n:te rötter kan beräknas genom att placera ett <link "
++"Rötter av högre ordning kan beräknas genom att placera ett <link "
+ "xref=\"superscript\">indexlägestal</link> eller <link "
+ "xref=\"superscript\">exponentlägestal</link> före rottecknet."
+ 
+@@ -1968,8 +1961,8 @@
+ #. (itstool) path: page/p
+ #: C/rounding.page:11
+ msgid ""
+-"Nearest integer values tying away from zero are calculated using the [ and ] "
+-"symbols or round <link xref=\"function\">function</link>."
++"Nearest integer values tying away from zero are calculated using the [ and ]"
++" symbols or round <link xref=\"function\">function</link>."
+ msgstr ""
+ "Närmaste heltalsvärden där halvor avrundas bort från noll beräknas med "
+ "symbolerna [ och ] eller <link xref=\"function\">funktionen</link> round."
+@@ -1990,8 +1983,8 @@
+ "Nearest integer values toward -∞ also known as floor values are calculated "
+ "using the ⌊ and ⌋ symbols or floor <link xref=\"function\">function</link>."
+ msgstr ""
+-"Närmaste heltalsvärden mot -∞, även känt som golvvärden beräknas med "
+-"symbolerna ⌊ och ⌋ eller <link xref=\"function\">funktionen</link> floor."
++"Heltalsdelen avrundad mot −∞, även kallad golvfunktionen, beräknas med "
++"symbolerna ⌊ och ⌋ eller funktionen <link xref=\"function\">floor</link>."
+ 
+ #. (itstool) path: example/p
+ #: C/rounding.page:27
+@@ -2006,11 +1999,11 @@
+ #. (itstool) path: page/p
+ #: C/rounding.page:35
+ msgid ""
+-"Nearest integer values toward +∞ also known as ceiling values are calculated "
+-"using the ⌈ and ⌉ symbols or ceil <link xref=\"function\">function</link>."
++"Nearest integer values toward +∞ also known as ceiling values are calculated"
++" using the ⌈ and ⌉ symbols or ceil <link xref=\"function\">function</link>."
+ msgstr ""
+-"Närmaste heltalsvärden mot +∞, även känt som takvärden, beräknas med "
+-"symbolerna ⌈ och ⌉ eller <link xref=\"function\">funktionen</link> ceil."
++"Heltalsdelen avrundad mot +∞, även kallad takfunktionen, beräknas med "
++"symbolerna ⌈ och ⌉ eller funktionen <link xref=\"function\">ceil</link>."
+ 
+ #. (itstool) path: example/p
+ #: C/rounding.page:39
+@@ -2028,16 +2021,15 @@
+ "Nearest integer values toward 0 i.e. the integer components are calculated "
+ "using int <link xref=\"function\">function</link>."
+ msgstr ""
+-"Närmaste heltalsvärden mot 0, det vill säga heltalskomponenterna beräknas "
+-"med <link xref=\"function\">funktionen</link> int."
++"Heltalsdelen avrundad mot noll beräknas med funktionen <link "
++"xref=\"function\">int</link>."
+ 
+ #. (itstool) path: page/p
+ #: C/rounding.page:50
+ msgid ""
+ "The fractional components are calculated using frac <link "
+ "xref=\"function\">function</link>."
+-msgstr ""
+-"Bråkdelarna beräknas med <link xref=\"function\">funktionen</link> frac."
++msgstr "Bråkdelarna beräknas med <link xref=\"function\">funktionen</link> frac."
+ 
+ #. (itstool) path: example/p
+ #: C/rounding.page:54
+@@ -2057,15 +2049,15 @@
+ #. (itstool) path: page/p
+ #: C/scientific.page:11
+ msgid ""
+-"To enter numbers in scientific format use the <keyseq><key>Ctrl</key><key>E</"
+-"key></keyseq> shortcut. The <link xref=\"superscript\">number mode</link> "
+-"automatically changes to superscript. To enter 2×10¹⁰⁰, start by entering "
+-"the mantissa (2):"
++"To enter numbers in scientific format use the "
++"<keyseq><key>Ctrl</key><key>E</key></keyseq> shortcut. The <link "
++"xref=\"superscript\">number mode</link> automatically changes to "
++"superscript. To enter 2×10¹⁰⁰, start by entering the mantissa (2):"
+ msgstr ""
+-"För att mata in tal i vetenskaplig notation använd kortkommandot "
+-"<keyseq><key>Ctrl</key><key>E</key></keyseq>. <link "
++"Använd kortkommandot <keyseq><key>Ctrl</key><key>E</key></keyseq> för att "
++"skriva tal i vetenskaplig notation. <link "
+ "xref=\"superscript\">Talläget</link> ändras automatiskt till exponentläge. "
+-"För att mata in 2×10¹⁰⁰, börja med att mata in mantissan (2):"
++"Börja med att ange mantissan (2) för att skriva 2×10¹⁰⁰:"
+ 
+ #. (itstool) path: example/p
+ #: C/scientific.page:17
+@@ -2098,8 +2090,8 @@
+ "To show results in scientific form change the <link xref=\"number-"
+ "display\">result format</link>."
+ msgstr ""
+-"För att visa resultatet i vetenskaplig notation ändra <link xref=\"number-"
+-"display\">resultatformatet</link>."
++"Ändra <link xref=\"number-display\">resultatformatet</link> om du vill visa "
++"resultat i vetenskaplig notation."
+ 
+ #. (itstool) path: info/title
+ #: C/superscript.page:15
+@@ -2115,8 +2107,8 @@
+ #. (itstool) path: page/p
+ #: C/superscript.page:21
+ msgid ""
+-"Some equations may require numbers to be entered in superscript or subscript "
+-"form, such as:"
++"Some equations may require numbers to be entered in superscript or subscript"
++" form, such as:"
+ msgstr ""
+ "Vissa ekvationer kan kräva att tal matas in i exponent- eller "
+ "indexlägesform, exempelvis:"
+@@ -2130,27 +2122,26 @@
+ #: C/superscript.page:29
+ msgid ""
+ "To enter superscript or subscript numbers with the mouse, select the number "
+-"mode using the <gui>↑n</gui> and <gui>↓n</gui> buttons (available in all the "
+-"modes except the <gui>keyboard mode</gui> and the <gui>conversion mode</"
+-"gui>). When one of these modes is active clicking the number buttons will "
+-"enter numbers in superscript or subscript. To return to normal number mode "
+-"click the active number button."
+-msgstr ""
+-"För att mata in exponentlägestal med musen, välj talläget med knapparna "
+-"<gui>↑n</gui> och <gui>↓n</gui> (tillgängliga i alla lägena utom "
+-"<gui>Tangentbordsläge</gui> och <gui>Konverteringsläge</gui>). När ett utav "
+-"dessa lägen är aktivt kommer klickande på talknapparna att mata in tal i "
+-"exponent- eller indexläge. För att återvända till normalt talläge klicka på "
+-"den aktiva talknappen."
++"mode using the <gui>↑n</gui> and <gui>↓n</gui> buttons (available in all the"
++" modes except the <gui>keyboard mode</gui> and the <gui>conversion "
++"mode</gui>). When one of these modes is active clicking the number buttons "
++"will enter numbers in superscript or subscript. To return to normal number "
++"mode click the active number button."
++msgstr ""
++"Välj exponent- eller indexläge med knapparna <gui>↑n</gui> och <gui>↓n</gui>"
++" för att skriva sådana tal med musen. Knapparna finns i alla lägen utom "
++"<gui>tangentbordsläge</gui> och <gui>konverteringsläge</gui>. När något av "
++"lägena är aktivt skrivs tal som exponenter eller index. Klicka på den aktiva"
++" knappen igen för att återgå till normalt talläge."
+ 
+ #. (itstool) path: page/p
+ #: C/superscript.page:34
+ msgid ""
+-"To enter superscript numbers use <keyseq><key>Ctrl</key>number</keyseq>, for "
+-"subscript numbers use <keyseq><key>Alt</key>number</keyseq>."
++"To enter superscript numbers use <keyseq><key>Ctrl</key>number</keyseq>, for"
++" subscript numbers use <keyseq><key>Alt</key>number</keyseq>."
+ msgstr ""
+-"För att mata in exponentlägestal, använd <keyseq><key>Ctrl</key>tal</"
+-"keyseq>, för indexlägestal använd <keyseq><key>Alt</key>tal</keyseq>."
++"Skriv exponentlägestal med <keyseq><key>Ctrl</key>tal</keyseq> och "
++"indexlägestal med <keyseq><key>Alt</key>tal</keyseq>."
+ 
+ #. (itstool) path: page/p
+ #: C/superscript.page:37
+@@ -2158,8 +2149,8 @@
+ "The number mode returns to normal when entering the next non-number "
+ "character, such as \"+\" or \"-\"."
+ msgstr ""
+-"Talläget återgår till normalt när nästa tecken som inte är ett tal matas in, "
+-"så som ”+” eller ”-”."
++"Talläget återgår till det normala när du skriver ett tecken som inte är en "
++"siffra, till exempel + eller −."
+ 
+ #. (itstool) path: page/p
+ #: C/trigonometry.page:11
+@@ -2178,8 +2169,7 @@
+ #. (itstool) path: page/p
+ #: C/trigonometry.page:19
+ msgid "To change the angle units used, use one of the following methods:"
+-msgstr ""
+-"För att ändra de använda vinkelenheterna, använd en av följande metoder:"
++msgstr "Välj en av följande metoder för att ändra vinkelenhet:"
+ 
+ #. (itstool) path: item/p
+ #: C/trigonometry.page:23
+@@ -2196,14 +2186,14 @@
+ "In <gui>advanced mode</gui> you can use the Rad/Grad/Deg toggle button to "
+ "toggle between units"
+ msgstr ""
+-"I <gui>Avancerat läge</gui> så kan du använda växlingsknappen Grader/"
+-"Radianer/Nygrader för att växla mellan enheter"
++"I <gui>avancerat läge</gui> kan du växla mellan enheterna med knappen "
++"Rad/Grad/Deg"
+ 
+ #. (itstool) path: page/p
+ #: C/trigonometry.page:28
+ msgid ""
+-"Trigonometry buttons are visible when in <link xref=\"mouse\">Advanced mode</"
+-"link>."
++"Trigonometry buttons are visible when in <link xref=\"mouse\">Advanced "
++"mode</link>."
+ msgstr ""
+ "Trigonometriknappar är synliga i <link xref=\"mouse\">avancerat läge</link>."
+ 
+@@ -2227,9 +2217,9 @@
+ "(<keyseq><key>Ctrl</key><key>I</key></keyseq>) or the \"a\" form of the "
+ "function. The following two equations are equivalent."
+ msgstr ""
+-"Inversfunktioner matas in antingen med hjälp av inverssymbolen ⁻¹ "
+-"(<keyseq><key>Ctrl</key><key>I</key></keyseq>) eller ”a”-formen av "
+-"funktionen. Följande två ekvationer är ekvivalenta."
++"Skriv inversfunktioner med inverssymbolen ⁻¹ "
++"(<keyseq><key>Ctrl</key><key>I</key></keyseq>) eller med funktionens a-form."
++" De här två ekvationerna är likvärdiga."
+ 
+ #. (itstool) path: example/p
+ #: C/trigonometry.page:44
+@@ -2247,8 +2237,8 @@
+ "To enter <link xref=\"variable\">π</link> with the keyboard use "
+ "<keyseq><key>Ctrl</key><key>P</key></keyseq>."
+ msgstr ""
+-"För att mata in <link xref=\"variable\">π</link> med tangentbordet använd "
+-"<keyseq><key>Ctrl</key><key>P</key></keyseq>."
++"Skriv <link xref=\"variable\">π</link> med tangentbordet genom att trycka på"
++" <keyseq><key>Ctrl</key><key>P</key></keyseq>."
+ 
+ #. (itstool) path: page/title
+ #: C/variables.page:9
+@@ -2263,10 +2253,9 @@
+ "mode</link>. A variable name must only contain upper or lower case "
+ "characters, or underscores."
+ msgstr ""
+-"För att tilldela ett värde till en variabel använd symbolen = eller välj "
+-"variabeln att tilldela med <gui>x</gui>-knappen i <link "
+-"xref=\"mouse\">avancerat läge</link>. Ett variabelnamn får endast innehålla "
+-"versaler och gemener eller understreck."
++"Tilldela ett värde till en variabel med symbolen = eller välj variabeln med "
++"knappen <gui>x</gui> i <link xref=\"mouse\">avancerat läge</link>. "
++"Variabelnamn får bara innehålla versaler, gemener eller understreck."
+ 
+ #. (itstool) path: example/p
+ #: C/variables.page:16
+@@ -2285,9 +2274,9 @@
+ "their assigned value. Variables and constants can be inserted using the "
+ "<gui>x</gui> button."
+ msgstr ""
+-"Variabler och konstanter kan användas i alla ekvationer och ersätts med "
+-"deras tilldelade värde. Variabler och konstanter kan infogas med <gui>x</"
+-"gui>-knappen."
++"Du kan använda variabler och konstanter i alla ekvationer; de ersätts då med"
++" sina tilldelade värden. Lägg till variabler och konstanter med knappen "
++"<gui>x</gui>."
+ 
+ #. (itstool) path: example/p
+ #: C/variables.page:28
+@@ -2322,7 +2311,7 @@
+ #. (itstool) path: td/p
+ #: C/variables.page:45
+ msgid "Random value in the range [0,1] (changes on each read)"
+-msgstr "Slumpmässigt värde i intervallet [0,1] (ändras vid varje läsning)"
++msgstr "Slumpvärde i intervallet [0,1] (ändras vid varje avläsning)"
+ 
+ #. (itstool) path: page/p
+ #: C/variables.page:48
+@@ -2377,7 +2366,7 @@
+ #. (itstool) path: td/p
+ #: C/variables.page:76
+ msgid "Light Speed"
+-msgstr "Ljushastigheten"
++msgstr "Ljusets hastighet"
+ 
+ #. (itstool) path: td/p
+ #: C/variables.page:79
+@@ -2397,7 +2386,7 @@
+ #. (itstool) path: td/p
+ #: C/variables.page:84
+ msgid "Impedance of Vacuum"
+-msgstr "Vågimpedansen i vakuum"
++msgstr "Vakuumimpedansen"
+ 
+ #. (itstool) path: td/p
+ #: C/variables.page:87
+@@ -2407,7 +2396,7 @@
+ #. (itstool) path: td/p
+ #: C/variables.page:88
+ msgid "Permeability of Vacuum"
+-msgstr "Magnetiska konstanten"
++msgstr "Vakuumpermeabiliteten"
+ 
+ #. (itstool) path: td/p
+ #: C/variables.page:91
+@@ -2417,7 +2406,7 @@
+ #. (itstool) path: td/p
+ #: C/variables.page:92
+ msgid "Permittivity of Vacuum"
+-msgstr "Elektriska konstanten"
++msgstr "Vakuumpermittiviteten"
+ 
+ #. (itstool) path: td/p
+ #: C/variables.page:95
+@@ -2517,7 +2506,7 @@
+ #. (itstool) path: td/p
+ #: C/variables.page:134
+ msgid "Avogadro’s Number"
+-msgstr "Avogadros tal"
++msgstr "Avogadros konstant"
+ 
+ #. (itstool) path: td/p
+ #: C/variables.page:137
+@@ -2542,7 +2531,7 @@
+ #. (itstool) path: td/p
+ #: C/variables.page:145
+ msgid "Earth Acceleration"
+-msgstr "Jordaccelerationen"
++msgstr "Tyngdacceleration"
+ 
+ #~ msgid "<link xref=\"mode-programming\">Ones’ Complement</link>"
+ #~ msgstr "<link xref=\"mode-programming\">Enkomplement</link>"
+@@ -2584,49 +2573,48 @@
+ #~ msgstr "Lär dig att mata in rötter och potenser i kalkylatorn."
+ 
+ #~ msgid ""
+-#~ "Then press the scientific notation button (or press <keyseq><key>Ctrl</"
+-#~ "key><key>E</key></keyseq>):"
++#~ "Then press the scientific notation button (or press "
++#~ "<keyseq><key>Ctrl</key><key>E</key></keyseq>):"
+ #~ msgstr ""
+ #~ "Tryck sedan på knappen för vetenskaplig notation (eller tryck "
+ #~ "<keyseq><key>Ctrl</key><key>E</key></keyseq>):"
+ 
+ #~ msgid ""
+ #~ "To change the angle units used, press the menu button in the top-right "
+-#~ "corner of the window and select <gui style=\"menuitem\">Preferences</"
+-#~ "gui>. Trigonometry buttons are visible when in <link "
+-#~ "xref=\"mouse\">Advanced mode</link>."
++#~ "corner of the window and select <gui style=\"menuitem\">Preferences</gui>. "
++#~ "Trigonometry buttons are visible when in <link xref=\"mouse\">Advanced "
++#~ "mode</link>."
+ #~ msgstr ""
+-#~ "För att ändra vinkelenheterna som används, tryck på menyknappen i "
+-#~ "fönstrets övre högra hörn och välj <gui style=\"menuitem\">Inställningar</"
+-#~ "gui>. Trigonometriknappar är synliga i <link xref=\"mouse\">Avancerat "
+-#~ "läge</link>."
++#~ "För att ändra vinkelenheterna som används, tryck på menyknappen i fönstrets "
++#~ "övre högra hörn och välj <gui style=\"menuitem\">Inställningar</gui>. "
++#~ "Trigonometriknappar är synliga i <link xref=\"mouse\">Avancerat läge</link>."
+ 
+ #~ msgid "Variables"
+ #~ msgstr "Variabler"
+ 
+ #~ msgid ""
+-#~ "The History View is located above the entry box and is designed to show "
+-#~ "your previous calculations in the form of a scrollable list that can be "
+-#~ "clicked and scrolled through using a mouse or even navigated and selected "
+-#~ "using the arrow keys on a keyboard. Once an entry has been selected, it "
+-#~ "will immediately show up in the entry box for you to manipulate and use. "
+-#~ "Finally, there is no upper limit on the number of calculations that can "
+-#~ "show up in the list for you to use."
++#~ "The History View is located above the entry box and is designed to show your"
++#~ " previous calculations in the form of a scrollable list that can be clicked "
++#~ "and scrolled through using a mouse or even navigated and selected using the "
++#~ "arrow keys on a keyboard. Once an entry has been selected, it will "
++#~ "immediately show up in the entry box for you to manipulate and use. Finally,"
++#~ " there is no upper limit on the number of calculations that can show up in "
++#~ "the list for you to use."
+ #~ msgstr ""
+-#~ "Historikvyn är placerad ovanför inmatningsrutan och är designad för att "
+-#~ "visa dina tidigare beräkningar som en rullbar lista som kan klickas och "
+-#~ "rullas genom med en mus eller kan till och med navigeras och väljas med "
++#~ "Historikvyn är placerad ovanför inmatningsrutan och är designad för att visa"
++#~ " dina tidigare beräkningar som en rullbar lista som kan klickas och rullas "
++#~ "genom med en mus eller kan till och med navigeras och väljas med "
+ #~ "piltangenterna på ett tangentbord. Då en post har markerats visas den "
+-#~ "omedelbart i inmatningsrutan så att du kan ändra och använda den. "
+-#~ "Slutligen finns det ingen övre gräns på antalet beräkningar som kan visas "
+-#~ "i listan och användas."
++#~ "omedelbart i inmatningsrutan så att du kan ändra och använda den. Slutligen "
++#~ "finns det ingen övre gräns på antalet beräkningar som kan visas i listan och"
++#~ " användas."
+ 
+ #~ msgid ""
+ #~ "To enter superscript numbers with the keyboard hold down <key>Ctrl</key> "
+ #~ "while entering the number. Hold <key>Alt</key> for subscript."
+ #~ msgstr ""
+-#~ "För att mata in exponentlägestal med tangentbordet håll ner <key>Ctrl</"
+-#~ "key> medan du matar in talet. Håll ner <key>Alt</key> för indexläge."
++#~ "För att mata in exponentlägestal med tangentbordet håll ner <key>Ctrl</key> "
++#~ "medan du matar in talet. Håll ner <key>Alt</key> för indexläge."
+ 
+ #~ msgid "abs"
+ #~ msgstr "abs"
