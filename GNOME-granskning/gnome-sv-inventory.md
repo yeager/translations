@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-26 05:43 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-26 05:48 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -551,7 +551,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [pitivi](https://l10n.gnome.org/vertimus/pitivi/master/help/sv/) | master | 477 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [planner](https://l10n.gnome.org/vertimus/planner/master/po/sv/) | master | 521 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [polari](https://l10n.gnome.org/vertimus/polari/main/po/sv/) | main | 205 | 0 | 0 | Klar |  | — | Ej granskad |
-| Dokumentation | Default (71% translated) | [polari](https://l10n.gnome.org/vertimus/polari/main/help/sv/) | main | 68 | 0 | 0 | Klar |  | — | Ej granskad |
+| Dokumentation | Default (71% translated) | [polari](https://l10n.gnome.org/vertimus/polari/main/help/sv/) | main | 68 | 0 | 0 | Klar | X | 38 | Klar lokalt (2026-11-26): Alla 68 aktiva hjälpsträngar radgranskade mot senaste POT (2026-11-10): 0 oöversatta och 0 fuzzy. 38 befintliga översättningar rättade, 0 nya; två källmarkerade bildreferenser är oförändrade. msgfmt, msgcmp och l10n-lint (0 fel/varningar) godkända; egna XML-taggar, URL- och radbrytningskontroller passerar. Ingen inskickning till GNOME. [original](polari/main/help/polari.main.help.sv.original.po), [granskad](polari/main/help/polari.main.help.sv.reviewed.po), [diff](polari/main/help/polari.main.help.sv.review.diff), [notering](polari/main/help/README.md) |
 | Gränssnitt | Default (99% translated) | [postr](https://l10n.gnome.org/vertimus/postr/master/po/sv/) | master | 61 | 0 | 0 | Klar | X | 4 | Klar lokalt (2026-11-23): Aktuell 61-strängarskatalog är radgranskad mot senaste POT. Fyra befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel. Ingen GNOME-inskickning har gjorts. [original](postr/master/po/postr.master.sv.original.po), [granskad](postr/master/po/postr.master.sv.reviewed.po), [diff](postr/master/po/postr.master.sv.review.diff), [notering](postr/master/po/README.md) |
 | Dokumentation | Default (71% translated) | [postr](https://l10n.gnome.org/vertimus/postr/master/help/sv/) | master | 102 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [ptyxis](https://l10n.gnome.org/vertimus/ptyxis/gnome-50/po/sv/) | gnome-50 | 461 | 0 | 0 | Klar |  | — | Ej granskad |

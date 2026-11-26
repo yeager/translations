@@ -398,3 +398,13 @@ argumentet betyder i just det programmet.
 | move hints | dragtips | Hjälpfunktion som visar möjliga drag. |
 | board orientation | brädets orientering | |
 | bug report | felrapport | |
+## IRC och chatt
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| IRC channel | IRC-kanal | |
+| chat room | chattrum | |
+| IRC network | IRC-nätverk | |
+| nickname | smeknamn | När användaren väljer ett namn på IRC. |
+| paste service | tjänst för textdelning | När text läggs upp för att kunna delas i en chatt. |
+| identify (NickServ command) | identify | Kommandoordet är tekniskt och ska stå oförändrat. |
