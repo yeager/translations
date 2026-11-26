@@ -489,3 +489,8 @@ Alla 120 poster granskades och liveverifierades; 24 ändringar sparades/lästes 
 ### Senaste batch: 39 857–39 976
 
 120/120 positioner radgranskades; 117 poster matchar aktuell Core-källa (23 direkta och 94 referenser), tre poster saknar aktuell källväg och matchar exakt 2026-11-24-snapshoten. 35 ändringar i intervallet sparades och lästes tillbaka; 82 aktiva texter verifierades oförändrade. Samtliga 94 referenser matchar live efter synkning. Dessutom rättades 27 delade Husqvarna-mål retroaktivt och lästes tillbaka. Lokalise verifierade 144 TM-manifestposter (117 aktuella + 27 retroaktiva). Kanonisk TMX validerar med 28 288 enheter. `svlang` fann inga skrivregelfel; Hunspell-sv fick verifierade Automower-termer och produktnamn, 19/19 tester passerade. Nästa position: **39 977**; 37 620 aktiva poster återstår efter markören. Rapport och komplett radräkning: `2026-11-26-reviewed-core-39857-39976.md`. Granskningen fortsätter.
+
+
+### Terminologikorrigering: Husqvarna GeoFence
+
+Efter kontroll av Husqvarnas svenska dokumentation korrigerades fyra tidigare sparade händelse-/sensortexter: två feltexter för GeoFence och två för området utanför GeoFence. Textändringarna återlästes från Lokalise och skrevs retroaktivt över i den kanoniska HA Core-TM. Se `2026-11-26-husqvarna-geofence-terminology-correction.md`. swedish-foss-terminology har nu två kontextbundna Husqvarna-termer, och Hunspell-sv känner igen egennamnet GeoFence. Ingen ny verktygsrelease gjordes.
