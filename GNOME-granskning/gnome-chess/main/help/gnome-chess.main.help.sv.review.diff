@@ -1,0 +1,680 @@
+--- .work-gnome-current/gnome-chess/original.po	2026-11-26 06:38:32.475438124 +0100
++++ .work-gnome-current/gnome-chess/reviewed.po	2026-11-26 06:42:39.106440812 +0100
+@@ -6,8 +6,8 @@
+ msgstr ""
+ "Project-Id-Version: gnome-chess doc\n"
+ "POT-Creation-Date: 2026-11-10 14:46+0000\n"
+-"PO-Revision-Date: 2026-10-13 02:48+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-26 06:40+01:00\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -32,8 +32,8 @@
+ msgstr "Tiffany Antopolski"
+ 
+ #. (itstool) path: credit/years
+-#: C/bug-filing.page:11 C/develop.page:8 C/documentation.page:8 C/rules.page:11
+-#: C/translate.page:13
++#: C/bug-filing.page:11 C/develop.page:8 C/documentation.page:8
++#: C/rules.page:11 C/translate.page:13
+ msgid "2011"
+ msgstr "2011"
+ 
+@@ -41,7 +41,7 @@
+ #: C/bug-filing.page:14 C/develop.page:11 C/documentation.page:11
+ #: C/index.page:16 C/save-resume.page:30 C/translate.page:20
+ msgid "Creative Commons Share Alike 3.0"
+-msgstr "Creative Commons DelaLika 3.0"
++msgstr "Creative Commons Erkännande-DelaLika 3.0"
+ 
+ #. (itstool) path: page/title
+ #: C/bug-filing.page:18
+@@ -53,13 +53,13 @@
+ msgid ""
+ "<app>GNOME Chess</app> is maintained by a volunteer community. You are "
+ "welcome to participate. If you notice a problem you can file a <em>bug "
+-"report</em>. To file a bug, go to <link href=\"https://gitlab.gnome.org/"
+-"GNOME/gnome-chess/issues/\"/>."
+-msgstr ""
+-"<app>GNOME Schack</app> underhålls av en frivillig gemenskap. Du är "
+-"välkommen att delta. Om du upptäcker ett problem kan du skicka in en "
+-"<em>felrapport</em>. För att skicka in en felrapport, gå till <link "
++"report</em>. To file a bug, go to <link "
+ "href=\"https://gitlab.gnome.org/GNOME/gnome-chess/issues/\"/>."
++msgstr ""
++"<app>GNOME Schack</app> underhålls av frivilliga. Du är välkommen att bidra."
++" Om du upptäcker ett problem kan du skicka in en <em>felrapport</em> via "
++"felhanteringssystemet <link href=\"https://gitlab.gnome.org/GNOME/gnome-"
++"chess/issues/\"/>."
+ 
+ #. (itstool) path: page/p
+ #: C/bug-filing.page:22
+@@ -67,57 +67,59 @@
+ "This is a bug tracking system where users and developers can file details "
+ "about bugs, crashes and request enhancements."
+ msgstr ""
+-"Detta är ett felrapporteringssystem där användare och utvecklare kan "
+-"rapportera detaljer om fel, krascher och önska förbättringar."
++"Här kan användare och utvecklare rapportera fel och krascher samt föreslå "
++"förbättringar."
+ 
+ #. (itstool) path: page/p
+ #: C/bug-filing.page:25
+ msgid ""
+ "To participate you need an account which will give you the ability to gain "
+ "access, file bugs, and make comments. Also, you need to register so you can "
+-"receive updates by e-mail about the status of your bug. If you don't already "
+-"have an account, just click on the <gui>New Account</gui> link to create one."
+-msgstr ""
+-"För att delta behöver du ett konto som kommer att ge dig möjligheten att få "
+-"tillgång, rapportera fel och kommentera. Du måste också registrera sig så "
+-"att du kan få uppdateringar via e-post om status för ditt fel. Om du inte "
+-"redan har ett konto klicka helt enkelt på länken <gui>New Account</gui> för "
+-"att skapa ett."
++"receive updates by e-mail about the status of your bug. If you don't already"
++" have an account, just click on the <gui>New Account</gui> link to create "
++"one."
++msgstr ""
++"För att delta behöver du ett konto. Då kan du rapportera fel och kommentera."
++" Registrera dig också för att få e-postuppdateringar om dina felrapporter. "
++"Om du inte har ett konto klickar du på <gui>Nytt konto</gui> för att skapa "
++"ett."
+ 
+ #. (itstool) path: page/p
+ #: C/bug-filing.page:28
+ msgid ""
+ "Once you have an account, log in, and click on <gui>New issue</gui>. Before "
+-"reporting a bug, please read the <link href=\"https://handbook.gnome.org/"
+-"issues/reporting.html\">bug writing guidelines</link>, and please <link "
+-"href=\"https://gitlab.gnome.org/GNOME/gnome-chess/issues\">browse</link> for "
+-"the bug to see if it already exists."
+-msgstr ""
+-"När du har ett konto, logga in och klicka på <gui>New Issue</gui>. Innan du "
+-"rapporterar ett fel, läs <link href=\"https://handbook.gnome.org/issues/"
+-"reporting.html\">riktlinjerna för hur man skriver en felrapport</link> och "
+-"<link href=\"https://gitlab.gnome.org/GNOME/gnome-chess/issues\">sök</link> "
+-"för att se om felet redan rapporterats."
++"reporting a bug, please read the <link "
++"href=\"https://handbook.gnome.org/issues/reporting.html\">bug writing "
++"guidelines</link>, and please <link "
++"href=\"https://gitlab.gnome.org/GNOME/gnome-chess/issues\">browse</link> for"
++" the bug to see if it already exists."
++msgstr ""
++"När du har ett konto loggar du in och klickar på <gui>Nytt ärende</gui>. Läs"
++" <link "
++"href=\"https://handbook.gnome.org/issues/reporting.html\">riktlinjerna för "
++"felrapporter</link> innan du rapporterar ett fel. Sök även bland <link "
++"href=\"https://gitlab.gnome.org/GNOME/gnome-chess/issues\">befintliga "
++"ärenden</link> för att se om felet redan har rapporterats."
+ 
+ #. (itstool) path: page/p
+ #: C/bug-filing.page:32
+ msgid ""
+ "If you are requesting a new feature, choose <gui>1. Feature</gui> in the "
+-"<gui>Labels</gui> menu. Fill in the Title and Description sections and click "
+-"<gui>Submit Issue</gui>."
++"<gui>Labels</gui> menu. Fill in the Title and Description sections and click"
++" <gui>Submit Issue</gui>."
+ msgstr ""
+-"Om du önskar en ny funktion, välj <gui>1. Feature</gui> i menyn <gui>Labels</"
+-"gui>. Fyll i avsnitten Title och Description och klicka på <gui>Submit "
+-"Issue</gui>."
++"Om du önskar en ny funktion väljer du <gui>1. Funktion</gui> i menyn "
++"<gui>Etiketter</gui>. Fyll i fälten Titel och Beskrivning och klicka på "
++"<gui>Skicka ärende</gui>."
+ 
+ #. (itstool) path: page/p
+ #: C/bug-filing.page:36
+ msgid ""
+-"Your report will be given an ID number, and its status will be updated as it "
+-"is being dealt with."
++"Your report will be given an ID number, and its status will be updated as it"
++" is being dealt with."
+ msgstr ""
+-"Din rapport kommer att få ett ID-nummer och dess status kommer att "
+-"uppdateras allt eftersom den hanteras."
++"Din felrapport får ett ID-nummer. Statusen uppdateras medan ärendet "
++"hanteras."
+ 
+ #. (itstool) path: credit/name
+ #: C/change-board-orientation.page:11 C/save-resume.page:13
+@@ -138,7 +140,7 @@
+ #. (itstool) path: page/title
+ #: C/change-board-orientation.page:26
+ msgid "Change board orientation"
+-msgstr "Ändra brädorientering"
++msgstr "Ändra brädets orientering"
+ 
+ #. (itstool) path: item/p
+ #: C/change-board-orientation.page:28 C/change-look-feel.page:20
+@@ -148,14 +150,14 @@
+ "style=\"menuitem\">Appearance</gui></guiseq>."
+ msgstr ""
+ "Tryck på menyknappen i fönstrets övre högra hörn och välj <guiseq><gui "
+-"style=\"menuitem\">Inställningar</gui> <gui style=\"menuitem\">Utseende</"
+-"gui></guiseq>."
++"style=\"menuitem\">Inställningar</gui> <gui "
++"style=\"menuitem\">Utseende</gui></guiseq>."
+ 
+ #. (itstool) path: item/p
+ #: C/change-board-orientation.page:31
+ msgid ""
+ "Select your desired <gui>Board Orientation</gui> from the dropdown menu."
+-msgstr "Välj din önskade <gui>Brädorientering</gui> från rullgardinsmenyn."
++msgstr "Välj brädets orientering i listrutan <gui>Brädets orientering</gui>."
+ 
+ #. (itstool) path: item/p
+ #: C/change-board-orientation.page:32 C/change-look-feel.page:25
+@@ -165,19 +167,19 @@
+ #. (itstool) path: page/title
+ #: C/change-look-feel.page:18
+ msgid "Change look and feel"
+-msgstr "Ändra utseende och känsla"
++msgstr "Ändra utseende"
+ 
+ #. (itstool) path: item/p
+ #: C/change-look-feel.page:23
+ msgid "Select your desired <gui>Piece Style</gui> from the dropdown menu."
+-msgstr "Välj din önskade <gui>Pjässtil</gui> från rullgardinsmenyn."
++msgstr "Välj önskad <gui>Pjässtil</gui> i listrutan."
+ 
+ #. (itstool) path: item/p
+ #: C/change-look-feel.page:24
+ msgid ""
+ "Enable the <gui>Board numbering</gui> or <gui>Move hints</gui>, if wanted."
+ msgstr ""
+-"Aktivera <gui>Brädnumrering</gui> eller <gui>Dragtips</gui> om så önskas."
++"Aktivera <gui>Brädnumrering</gui> eller <gui>Dragtips</gui> om du vill."
+ 
+ #. (itstool) path: page/title
+ #: C/chess-engines.page:14
+@@ -192,7 +194,7 @@
+ #. (itstool) path: steps/title
+ #: C/chess-engines.page:18
+ msgid "To change the computer engine, or to play with a friend:"
+-msgstr "För att ändra spelmotor för datorn, eller för att spela med en vän:"
++msgstr "Så här byter du schackmotor eller spelar mot en vän:"
+ 
+ #. (itstool) path: item/p
+ #: C/chess-engines.page:20 C/timer.page:28
+@@ -202,30 +204,31 @@
+ "style=\"menuitem\">Game</gui></guiseq>."
+ msgstr ""
+ "Tryck på menyknappen i fönstrets övre högra hörn och välj <guiseq><gui "
+-"style=\"menuitem\">Inställningar</gui> <gui style=\"menuitem\">Spel</gui></"
+-"guiseq>."
++"style=\"menuitem\">Inställningar</gui> <gui "
++"style=\"menuitem\">Spel</gui></guiseq>."
+ 
+ #. (itstool) path: item/p
+ #: C/chess-engines.page:25
+ msgid ""
+-"Under <gui>Opposing player</gui>, choose <gui style=\"menuitem\">Human</gui> "
+-"for both players if want to play with a friend or family member."
++"Under <gui>Opposing player</gui>, choose <gui style=\"menuitem\">Human</gui>"
++" for both players if want to play with a friend or family member."
+ msgstr ""
+-"Under <gui>Motståndare</gui>, välj <gui style=\"menuitem\">Mänsklig</gui> "
+-"för båda spelarna om du vill spela med en vän eller familjemedlem."
++"Under <gui>Motståndare</gui> väljer du <gui "
++"style=\"menuitem\">Människa</gui> för båda spelarna om du vill spela mot en "
++"vän eller familjemedlem."
+ 
+ #. (itstool) path: item/p
+ #: C/chess-engines.page:28
+ msgid ""
+ "Alternatively, choose a different chess engine. The list depends on the "
+-"chess engines installed on your system. <link href=\"https://"
+-"gitlab.gnome.org/GNOME/gnome-chess\">A list of supported chess engines is "
+-"available on Gitlab.</link>"
+-msgstr ""
+-"Alternativt kan du välja en annan schackmotor. Listan beror på vilka "
+-"schackmotorer som finns installerade på ditt system. <link href=\"https://"
+-"gitlab.gnome.org/GNOME/gnome-chess\">En lista över schackmotorer som stöds "
+-"finns tillgänglig på Gitlab.</link>"
++"chess engines installed on your system. <link "
++"href=\"https://gitlab.gnome.org/GNOME/gnome-chess\">A list of supported "
++"chess engines is available on Gitlab.</link>"
++msgstr ""
++"Du kan också välja en annan schackmotor. Vilka motorer som visas beror på "
++"vilka som är installerade på systemet. En <link "
++"href=\"https://gitlab.gnome.org/GNOME/gnome-chess\">lista över schackmotorer"
++" som stöds finns på GitLab</link>."
+ 
+ #. (itstool) path: page/title
+ #: C/develop.page:15
+@@ -238,8 +241,8 @@
+ "The <app>GNOME Games</app> are developed and maintained by a volunteer "
+ "community. You are welcome to participate."
+ msgstr ""
+-"<app>GNOME-spelen</app> är utvecklade och underhålls av en frivillig "
+-"gemenskap. Du är välkommen att delta."
++"<app>GNOME-spelen</app> utvecklas och underhålls av frivilliga. Du är "
++"välkommen att bidra."
+ 
+ #. (itstool) path: page/p
+ #: C/develop.page:17
+@@ -248,16 +251,17 @@
+ "chess\">help develop <app>GNOME Games</app></link>, you can get in touch "
+ "with the developers at <link href=\"https://matrix.to/#/#gnome-"
+ "games:gnome.org\">#gnome-games:gnome.org</link> on <link xref=\"help:gnome-"
+-"help/help-matrix\">Matrix</link> or <link href=\"https://web.libera.chat/"
+-"#gnome-games\">#gnome-games</link> on irc.libera.chat, or via <link "
++"help/help-matrix\">Matrix</link> or <link "
++"href=\"https://web.libera.chat/#gnome-games\">#gnome-games</link> on "
++"irc.libera.chat, or via <link "
+ "href=\"https://discourse.gnome.org/tag/games\">GNOME Discourse</link>."
+ msgstr ""
+ "Om du vill <link href=\"https://gitlab.gnome.org/GNOME/gnome-chess\">hjälpa "
+-"till att utveckla <app>GNOME-spelen</app></link>, kan du komma i kontakt med "
+-"utvecklarna genom <link href=\"https://matrix.to/#/#gnome-"
+-"games:gnome.org\">#gnome-games:gnome.org</link> på <link xref=\"help:gnome-"
+-"help/help-matrix\">Matrix</link> eller <link href=\"https://web.libera.chat/"
+-"#gnome-games\">#gnome-games</link> på irc.libera.chat, eller via <link "
++"till att utveckla <app>GNOME-spelen</app></link> kan du kontakta utvecklarna"
++" via <link href=\"https://matrix.to/#/#gnome-games:gnome.org\">#gnome-"
++"games:gnome.org</link> på <link xref=\"help:gnome-help/help-"
++"matrix\">Matrix</link>, via <link href=\"https://web.libera.chat/#gnome-"
++"games\">#gnome-games</link> på irc.libera.chat eller via <link "
+ "href=\"https://discourse.gnome.org/tag/games\">GNOME Discourse</link>."
+ 
+ #. (itstool) path: page/title
+@@ -271,26 +275,29 @@
+ "The <app>GNOME Games</app> documentation is maintained by a volunteer "
+ "community. You are welcome to participate."
+ msgstr ""
+-"<app>GNOME-spelens</app> dokumentation underhålls av en frivillig gemenskap. "
+-"Du är välkommen att delta."
++"Dokumentationen för <app>GNOME-spelen</app> underhålls av frivilliga. Du är "
++"välkommen att bidra."
+ 
+ #. (itstool) path: page/p
+ #: C/documentation.page:19
+ msgid ""
+ "To contribute to the Documentation Project, feel free to get in touch with "
+-"us in <link href=\"https://matrix.to/#/#docs:gnome.org\">#docs:gnome.org</"
+-"link> on <link xref=\"help:gnome-help/help-matrix\">Matrix</link> or <link "
++"us in <link "
++"href=\"https://matrix.to/#/#docs:gnome.org\">#docs:gnome.org</link> on <link"
++" xref=\"help:gnome-help/help-matrix\">Matrix</link> or <link "
+ "href=\"https://web.libera.chat/#gnome-docs\">#gnome-docs</link> on "
+-"irc.libera.chat, or via <link href=\"https://discourse.gnome.org/tag/"
+-"documentation\">GNOME Discourse</link>."
+-msgstr ""
+-"Om du vill bidra till dokumentationsprojektet är du välkommen att ta kontakt "
+-"med oss i <link href=\"https://matrix.to/#/"
+-"#docs:gnome.org\">#docs:gnome.org</link> på <link xref=\"help:gnome-help/"
+-"help-matrix\">Matrix</link> eller <link href=\"https://web.libera.chat/"
+-"#gnome-docs\">#gnome-docs</link> på irc.libera.chat, eller via <link "
+-"href=\"https://discourse.gnome.org/tag/documentation\">GNOME Discourse</"
+-"link>."
++"irc.libera.chat, or via <link "
++"href=\"https://discourse.gnome.org/tag/documentation\">GNOME "
++"Discourse</link>."
++msgstr ""
++"Om du vill bidra till dokumentationsprojektet är du välkommen att kontakta "
++"oss via <link "
++"href=\"https://matrix.to/#/#docs:gnome.org\">#docs:gnome.org</link> på <link"
++" xref=\"help:gnome-help/help-matrix\">Matrix</link>, via <link "
++"href=\"https://web.libera.chat/#gnome-docs\">#gnome-docs</link> på "
++"irc.libera.chat eller via <link "
++"href=\"https://discourse.gnome.org/tag/documentation\">GNOME "
++"Discourse</link>."
+ 
+ #. (itstool) path: page/p
+ #: C/documentation.page:26
+@@ -298,8 +305,8 @@
+ "Our <link href=\"https://gitlab.gnome.org/GNOME/gnome-chess\">Gitlab</link> "
+ "page contains useful information."
+ msgstr ""
+-"Vår <link href=\"https://gitlab.gnome.org/GNOME/gnome-chess\">Gitlab</link>-"
+-"sida innehåller användbar information."
++"Vår <link href=\"https://gitlab.gnome.org/GNOME/gnome-chess\">GitLab-"
++"sida</link> innehåller användbar information."
+ 
+ #. (itstool) path: info/title
+ #: C/index.page:7
+@@ -331,19 +338,19 @@
+ "computer or another person. GNOME Chess can detect known installed <link "
+ "xref=\"chess-engines\">chess engines</link> for computer players."
+ msgstr ""
+-"<app>GNOME Schack</app> är GNOMEs schackspel. Det låter dig spela mot datorn "
+-"eller mot en annan person. GNOME Schack kan hitta kända installerade <link "
+-"xref=\"chess-engines\">schackmotorer</link> för datorspelare."
++"<app>GNOME Schack</app> är GNOMEs schackspel. Du kan spela mot datorn eller "
++"en annan person. GNOME Schack hittar kända, installerade <link xref=\"chess-"
++"engines\">schackmotorer</link> som kan spela mot dig."
+ 
+ #. (itstool) path: section/title
+ #: C/index.page:24
+ msgid "Game Play"
+-msgstr "Spelets gång"
++msgstr "Så spelar du"
+ 
+ #. (itstool) path: section/title
+ #: C/index.page:28
+ msgid "Useful tips"
+-msgstr "Värdefulla tips"
++msgstr "Användbara tips"
+ 
+ #. (itstool) path: section/title
+ #: C/index.page:32
+@@ -368,8 +375,8 @@
+ #. (itstool) path: page/p
+ #: C/license.page:12
+ msgid ""
+-"This work is distributed under a CreativeCommons Attribution-Share Alike 3.0 "
+-"Unported license."
++"This work is distributed under a CreativeCommons Attribution-Share Alike 3.0"
++" Unported license."
+ msgstr ""
+ "Detta verk distribueras under licensen Creative Commons Erkännande-DelaLika "
+ "3.0 Unported."
+@@ -377,7 +384,7 @@
+ #. (itstool) path: page/p
+ #: C/license.page:20
+ msgid "You are free:"
+-msgstr "Du har tillstånd:"
++msgstr "Du får:"
+ 
+ #. (itstool) path: item/title
+ #: C/license.page:25
+@@ -413,8 +420,8 @@
+ #: C/license.page:39
+ msgid ""
+ "You must attribute the work in the manner specified by the author or "
+-"licensor (but not in any way that suggests that they endorse you or your use "
+-"of the work)."
++"licensor (but not in any way that suggests that they endorse you or your use"
++" of the work)."
+ msgstr ""
+ "Du måste ge erkännande åt verket på det sätt som anges av författaren eller "
+ "licensgivaren (men inte på ett sätt som antyder att de godkänt eller "
+@@ -431,20 +438,23 @@
+ "If you alter, transform, or build upon this work, you may distribute the "
+ "resulting work only under the same, similar or a compatible license."
+ msgstr ""
+-"Om du ändrar, bearbetar eller bygger vidare på verket, får du distribuera "
+-"resultatet endast under samma, liknande, eller en kompatibel licens."
++"Om du ändrar, bearbetar eller bygger vidare på verket får du bara "
++"distribuera resultatet under samma, en liknande eller en kompatibel licens."
+ 
+ #. (itstool) path: page/p
+ #: C/license.page:53
+ msgid ""
+-"For the full text of the license, see the <link href=\"https://"
+-"creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
+-"link>, or read the full <link href=\"https://creativecommons.org/licenses/by-"
+-"sa/3.0/\">Commons Deed</link>."
+-msgstr ""
+-"För hela licenstexten, se <link href=\"https://creativecommons.org/licenses/"
+-"by-sa/3.0/legalcode\">CreativeCommons webbplats</link>, eller läs <link "
+-"href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Commons Deed</link>."
++"For the full text of the license, see the <link "
++"href=\"https://creativecommons.org/licenses/by-"
++"sa/3.0/legalcode\">CreativeCommons website</link>, or read the full <link "
++"href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Commons "
++"Deed</link>."
++msgstr ""
++"Läs hela licenstexten på <link "
++"href=\"https://creativecommons.org/licenses/by-sa/3.0/legalcode\">Creative "
++"Commons webbplats</link> eller läs hela <link "
++"href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Commons "
++"Deed</link>."
+ 
+ #. (itstool) path: credit/name
+ #: C/play.page:15 C/save-resume.page:25 C/timer.page:15
+@@ -462,21 +472,22 @@
+ "The player who controls the white pieces is the first to move. Click on the "
+ "piece that you plan to move. If <link xref=\"change-look-feel\"><gui>Move "
+ "hints</gui></link> has been enabled, the possible fields onto which the "
+-"piece can be moved will display the chosen piece in a transparent way. Click "
+-"on the field onto which you want to move the piece. Afterwards, it is the "
++"piece can be moved will display the chosen piece in a transparent way. Click"
++" on the field onto which you want to move the piece. Afterwards, it is the "
+ "turn of the <link xref=\"chess-engines\">opponent</link>."
+ msgstr ""
+-"Spelaren som styr de vita pjäserna drar först. Klicka på pjäsen som du vill "
+-"flytta. Om <link xref=\"change-look-feel\"><gui>Dragtips</gui></link> har "
+-"aktiverats kommer de möjliga fält som pjäsen kan flyttas till visa en "
+-"transparent kopia av den valda pjäsen. Klicka på fältet som du vill flytta "
+-"pjäsen till. Efter detta är det <link xref=\"chess-engines\">motståndarens</"
+-"link> tur."
++"Den som spelar med de vita pjäserna börjar. Klicka på pjäsen du vill flytta."
++" Om <link xref=\"change-look-feel\"><gui>Dragtips</gui></link> är aktiverat "
++"visas en genomskinlig kopia av pjäsen på rutorna den kan flyttas till. "
++"Klicka på rutan dit du vill flytta pjäsen. Därefter är det <link "
++"xref=\"chess-engines\">motståndarens</link> tur."
+ 
+ #. (itstool) path: page/p
+ #: C/play.page:31
+ msgid "Starting GNOME Chess displays the main game window as shown below."
+-msgstr "Vid start visar GNOME Schack huvudspelfönstret som visas nedan."
++msgstr ""
++"När du startar GNOME Schack visas huvudfönstret för spelet, som på bilden "
++"nedan."
+ 
+ #. (itstool) path: page/media
+ #. This is a reference to an external file such as an image or video. When
+@@ -500,7 +511,7 @@
+ #. (itstool) path: page/p
+ #: C/play.page:37
+ msgid "The main game window is organized in three main areas:"
+-msgstr "Det huvudsakliga spelfönstret är uppdelat i tre huvudområden:"
++msgstr "Spelfönstret består av tre huvudområden:"
+ 
+ #. (itstool) path: item/p
+ #: C/play.page:39
+@@ -510,10 +521,10 @@
+ "<gui style=\"button\">New Game</gui>, <link xref=\"save-resume\">save and "
+ "resume a game</link>, and resign."
+ msgstr ""
+-"I rubrikraden kan du göra dina senaste drag ogjorda och pausa spelet, och i "
+-"menyknappen i fönstrets övre högra hörn kan du starta ett <gui "
++"I rubrikraden kan du ångra ett eller flera av dina senaste drag och pausa "
++"spelet. Via menyknappen uppe till höger kan du starta ett <gui "
+ "style=\"button\">Nytt spel</gui>, <link xref=\"save-resume\">spara och "
+-"återuppta ett spel</link>, samt ge upp."
++"återuppta ett spel</link> eller ge upp."
+ 
+ #. (itstool) path: item/p
+ #: C/play.page:43
+@@ -521,19 +532,20 @@
+ "The chess board is in the middle of the window, where the game is played by "
+ "moving pieces using the mouse."
+ msgstr ""
+-"Schackbrädet är i mitten av fönstret, och spelet spelas där genom att flytta "
+-"på pjäser med musen."
++"Schackbrädet finns mitt i fönstret. Du spelar genom att flytta pjäserna med "
++"musen."
+ 
+ #. (itstool) path: item/p
+ #: C/play.page:45
+ msgid ""
+ "At the bottom, the game history panel is shown and allows going back, a "
+-"dropdown menu lists the history of the performed moves, and on the right the "
+-"<link xref=\"timer\">remaining move time for each player</link> is displayed."
+-msgstr ""
+-"Längst ner visas spelets historikpanel som tillåter dig att gå bakåt, en "
+-"rullgardinsmeny listar historiken av utförda drag, och till höger visas "
+-"<link xref=\"timer\">återstående tid för varje spelare</link>."
++"dropdown menu lists the history of the performed moves, and on the right the"
++" <link xref=\"timer\">remaining move time for each player</link> is "
++"displayed."
++msgstr ""
++"Längst ned finns spelets historikpanel, där du kan gå tillbaka till tidigare"
++" drag. I listrutan visas dragen som har utförts, och till höger visas <link "
++"xref=\"timer\">spelarnas återstående tid</link>."
+ 
+ #. (itstool) path: page/title
+ #: C/rules.page:17
+@@ -547,7 +559,7 @@
+ "the <link href=\"https://en.wikibooks.org/wiki/Chess\">Chess book on "
+ "en.wikibooks.org</link>."
+ msgstr ""
+-"Se en offentlig bok om du vill lära dig spelets regler, till exempel <link "
++"Läs en bok om spelets regler, till exempel <link "
+ "href=\"https://en.wikibooks.org/wiki/Chess\">schackboken på "
+ "en.wikibooks.org</link>."
+ 
+@@ -581,8 +593,8 @@
+ "Select a location for your game. It is best to save it in a location you "
+ "will easily remember for future retrieval."
+ msgstr ""
+-"Välj en plats för ditt spel. Det är bäst att spara det på en plats som du "
+-"lätt kommer ihåg så att du kommer åt det i framtiden."
++"Välj var spelet ska sparas. Spara det gärna på en plats som du lätt kommer "
++"ihåg, så hittar du det senare."
+ 
+ #. (itstool) path: item/p
+ #: C/save-resume.page:44
+@@ -597,7 +609,7 @@
+ #. (itstool) path: section/p
+ #: C/save-resume.page:50
+ msgid "To resume a previously saved game:"
+-msgstr "För att återuppta ett tidigare sparat spel:"
++msgstr "Så här återupptar du ett sparat spel:"
+ 
+ #. (itstool) path: item/p
+ #: C/save-resume.page:52
+@@ -626,12 +638,12 @@
+ #. (itstool) path: page/p
+ #: C/timer.page:23
+ msgid "By default, there is no limit for the players."
+-msgstr "Som standard finns det ingen tidsgräns för spelarna."
++msgstr "Som standard har spelarna ingen tidsgräns."
+ 
+ #. (itstool) path: steps/title
+ #: C/timer.page:26
+ msgid "To set a time limit:"
+-msgstr "För att ställa in en tidsgräns:"
++msgstr "Så här ställer du in en tidsgräns:"
+ 
+ #. (itstool) path: item/p
+ #: C/timer.page:33
+@@ -639,8 +651,8 @@
+ "Under <gui>Time limit</gui>, change <gui style=\"menuitem\">No limit</gui> "
+ "to the time that each player has in total for the game."
+ msgstr ""
+-"Under <gui>Tidsgräns</gui>, ändra <gui style=\"menuitem\">Ingen gräns</gui> "
+-"till den totala tiden som varje spelare ska ha för spelet."
++"Under <gui>Tidsgräns</gui> ändrar du <gui style=\"menuitem\">Ingen "
++"gräns</gui> till den totala speltid varje spelare ska ha."
+ 
+ #. (itstool) path: item/p
+ #: C/timer.page:36
+@@ -648,15 +660,15 @@
+ "You can also change the <gui>Clock type</gui> if you do not want a simple "
+ "clock that counts down."
+ msgstr ""
+-"Du kan också ändra <gui>Klocktyp</gui> om du inte vill ha en enkel klocka "
+-"som räknar ner."
++"Du kan också ändra <gui>Klocktyp</gui> om du vill använda något annat än en "
++"enkel nedräknande klocka."
+ 
+ #. (itstool) path: page/p
+ #: C/timer.page:41
+ msgid ""
+-"The remaining times for each player are displayed in the bottom right corner."
+-msgstr ""
+-"De återstående tiderna för varje spelare visas i det nedre högra hörnet."
++"The remaining times for each player are displayed in the bottom right "
++"corner."
++msgstr "Spelarnas återstående tid visas längst ned till höger."
+ 
+ #. (itstool) path: note/p
+ #: C/timer.page:44
+@@ -664,9 +676,9 @@
+ "When <gui style=\"menuitem\">No limit</gui> was set and you set a time "
+ "limit, start a new game to display remaining times in the main window."
+ msgstr ""
+-"När <gui style=\"menuitem\">Ingen gräns</gui> ställts in och du ställer in "
+-"en tidsgräns, starta ett nytt spel för att visa kvarvarande tider i "
+-"huvudfönstret."
++"Om <gui style=\"menuitem\">Ingen gräns</gui> var inställt och du sedan "
++"ställer in en tidsgräns, startar du ett nytt spel för att visa återstående "
++"tid i huvudfönstret."
+ 
+ #. (itstool) path: credit/name
+ #: C/translate.page:16
+@@ -685,8 +697,8 @@
+ "translated by a world-wide volunteer community. You are welcome to "
+ "participate."
+ msgstr ""
+-"<app>GNOME-spelens</app> användargränssnitt och dokumentation är översatta "
+-"av en världsomfattande frivillig gemenskap. Du är välkommen att delta."
++"Användargränssnittet och dokumentationen för <app>GNOME-spelen</app> "
++"översätts av frivilliga från hela världen. Du är välkommen att bidra."
+ 
+ #. (itstool) path: page/p
+ #: C/translate.page:28
+@@ -695,37 +707,37 @@
+ "languages</link> for which translations are still needed."
+ msgstr ""
+ "Det finns <link href=\"https://l10n.gnome.org/module/gnome-chess/\">många "
+-"språk</link> för vilka översättningar fortfarande behövs."
++"språk</link> där översättningar fortfarande behövs."
+ 
+ #. (itstool) path: page/p
+ #: C/translate.page:31
+ msgid ""
+-"To start translating you will need to <link href=\"https://"
+-"l10n.gnome.org\">create an account</link> and join the <link href=\"https://"
+-"l10n.gnome.org/teams/\">translation team</link> for your language. This will "
+-"give you the ability to upload new translations."
+-msgstr ""
+-"För att börja översätta kommer du att behöva <link href=\"https://"
+-"l10n.gnome.org\">skapa ett konto</link> och gå med i <link href=\"https://"
+-"l10n.gnome.org/teams/\">översättningsgruppen</link> för ditt språk. Detta "
+-"kommer att ge dig möjligheten att skicka upp nya översättningar."
++"To start translating you will need to <link "
++"href=\"https://l10n.gnome.org\">create an account</link> and join the <link "
++"href=\"https://l10n.gnome.org/teams/\">translation team</link> for your "
++"language. This will give you the ability to upload new translations."
++msgstr ""
++"För att börja översätta behöver du <link "
++"href=\"https://l10n.gnome.org\">skapa ett konto</link> och gå med i <link "
++"href=\"https://l10n.gnome.org/teams/\">översättningsgruppen</link> för ditt "
++"språk. Då kan du ladda upp nya översättningar."
+ 
+ #. (itstool) path: page/p
+ #: C/translate.page:35
+ msgid ""
+-"You can chat with GNOME translators in <link href=\"https://matrix.to/#/"
+-"#i18n:gnome.org\">#i18n:gnome.org</link> on <link xref=\"help:gnome-help/"
+-"help-matrix\">Matrix</link> or <link href=\"https://web.libera.chat/#gnome-"
+-"i18n\">#gnome-i18n</link> on irc.libera.chat. People on the channel are "
+-"located worldwide, so you may not get an immediate response as a result of "
+-"timezone differences."
+-msgstr ""
+-"Du kan chatta med GNOME-översättare i <link href=\"https://matrix.to/#/"
+-"#i18n:gnome.org\">#i18n:gnome.org</link> på <link xref=\"help:gnome-help/"
+-"help-matrix\">Matrix</link> eller <link href=\"https://web.libera.chat/"
+-"#gnome-i18n\">#gnome-i18n</link> på irc.libera.chat. Folk i kanalen finns "
+-"över hela världen, så du kanske inte får ett omedelbart svar på grund av "
+-"skillnader i tidszon."
++"You can chat with GNOME translators in <link "
++"href=\"https://matrix.to/#/#i18n:gnome.org\">#i18n:gnome.org</link> on <link"
++" xref=\"help:gnome-help/help-matrix\">Matrix</link> or <link "
++"href=\"https://web.libera.chat/#gnome-i18n\">#gnome-i18n</link> on "
++"irc.libera.chat. People on the channel are located worldwide, so you may not"
++" get an immediate response as a result of timezone differences."
++msgstr ""
++"Du kan chatta med GNOME-översättare i <link "
++"href=\"https://matrix.to/#/#i18n:gnome.org\">#i18n:gnome.org</link> på <link"
++" xref=\"help:gnome-help/help-matrix\">Matrix</link> eller i <link "
++"href=\"https://web.libera.chat/#gnome-i18n\">#gnome-i18n</link> på "
++"irc.libera.chat. Eftersom deltagarna finns över hela världen kan "
++"tidsskillnader göra att du inte får svar direkt."
+ 
+ #. (itstool) path: page/p
+ #: C/translate.page:42
+@@ -733,5 +745,5 @@
+ "Alternatively, you can contact the Internationalization Team using <link "
+ "href=\"https://discourse.gnome.org/tag/i18n\">GNOME Discourse</link>."
+ msgstr ""
+-"Alternativt kan du kontakta internationaliseringsgruppen genom <link "
++"Du kan också kontakta internationaliseringsgruppen via <link "
+ "href=\"https://discourse.gnome.org/tag/i18n\">GNOME Discourse</link>."

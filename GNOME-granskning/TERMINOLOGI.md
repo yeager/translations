@@ -388,3 +388,13 @@ argumentet betyder i just det programmet.
 | index (LaTeX document) | sakregister | Skillnad mot ett tekniskt index. |
 | forward search / backward search | framåtsökning / bakåtsökning | SyncTeX-termer för hopp mellan källtext och PDF. |
 | project main file | projektets huvudfil | |
+## Schack
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| chess engine | schackmotor | |
+| chessboard | schackbräde | |
+| chess piece | schackpjäs | |
+| move hints | dragtips | Hjälpfunktion som visar möjliga drag. |
+| board orientation | brädets orientering | |
+| bug report | felrapport | |
