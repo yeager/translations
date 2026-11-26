@@ -1,11 +1,11 @@
 # GIMP Help — master — menus~colors~components — svenska
 
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gimp-help/master/menus~colors~components/sv/>.
-- Ursprunglig lokal katalog: 45 översatta, 0 fuzzy och 85 oöversatta poster.
-- Slutlig lokal katalog: 130 översatta, 0 fuzzy och 0 oöversatta poster.
-- Åtgärd: hela `menus~colors~components` har radgranskats och kompletterats, inklusive uppdelning, återuppbyggning, komponering, färgmodeller och Kanalblandaren.
-- Befintlig svenska: bevarad eller rättad endast när betydelse, idiomatik, svensk GIMP-terminologi, markup eller skiljetecken krävde det.
-- Validering: `msgfmt --check --statistics` och `git diff --check` är godkända. `l10n-lint` gav 0 fel; kvarvarande informationsmärkningar gäller markupgränser och numerisk notation i ett tekniskt räkneexempel. `hunspell-sv` är avsedd att köras vid samlad nästa batch; de lokalt kontrollerade tekniska undantagen omfattar RGB, HSV, CMYK, LAB, YCbCr, ITU och passfärg.
-- Avsiktliga undantag: bildhashposter med `@@image:` följer källans egna kommentarer om att de inte används i översättningen. De är synkroniserade med källan och inte fuzzy.
-- Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-23.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
+- Källunderlag: senaste svenska PO och POT hämtade från aktivitetssidan 2026-11-26. POT skapad 2026-11-24 22:37 UTC; 162 aktiva poster.
+- GNOME-status före arbetet: 12 översatta, 35 fuzzy, 115 oöversatta.
+- Efter granskning mot senaste POT: 136/136 användarvisade strängar översatta, 0 fuzzy. Ytterligare 26 `@@image:`-poster är bildmetadata som POT uttryckligen säger inte används; de är därför avsiktligt tomma.
+- 111 tidigare tomma användarsträngar översattes och 13 fuzzy-strängar granskades och uppdaterades. De 12 redan godkända svenska strängarna behölls. Totalt ändrades 146 aktiva PO-poster jämfört med den aktuella GNOME-filen, inklusive synkroniserade bildmetadata.
+- Terminologi kontrollerades mot `swedish-tm`: *Compose* = *Komponera*, *Decompose* = *Uppdela*, *Channel Mixer* = *Kanalblandare*, *Mono Mixer* = *Monomixer*, *Recompose* = *Återuppbygg*. Decimaltecken följer svensk notation i beräkningsexemplen.
+- Validering: `msgfmt --check --check-format` godkänd (136 översatta, 26 avsiktligt tomma metadata); `msgcmp --use-fuzzy` mot senaste POT godkänd med en valideringskopia där de 26 bildmetadatafälten tillfälligt matchar källan; leveransfilen behåller dem tomma. `l10n-lint`: 0 fel och 0 varningar på samma valideringskopia; informationsnotiser om DocBook-citat granskades. DocBook-markup, länkar, URL:er och platshållare kontrollerades. `hunspell-sv` kördes på ändrade svenska strängar; bedömda undantag finns i `hunspell-undantag.md`.
+- Ingen GNOME-inskickning har gjorts.
+- Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-26.

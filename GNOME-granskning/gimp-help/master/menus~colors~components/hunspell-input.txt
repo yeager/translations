@@ -1,0 +1,124 @@
+Återuppbygg
+Exempel på kommandot  Återuppbygg 
+Originalbild (uppdelad i RGB)
+Kommandot  Återuppbygg  tillämpat
+Det här kommandot återskapar en bild direkt från dess RGB-, HSV- och andra komponenter, till skillnad från kommandot  Komponera , som använder en dialogruta.
+Aktivera kommandot
+Du kommer åt kommandot från huvudmenyn via   Färger  Komponenter  Återuppbygg  . Kommandot aktiveras när du har använt Uppdela.
+Monomixer
+Monomixer
+Monomixern har tillämpats
+Kommandot  Monomixer  har tillämpats med standardalternativen.
+Det här kommandot fungerar inte med gråskalebilder. Om bilden är i gråskala är menyalternativet inaktiverat.
+Du kommer åt kommandot från huvudmenyn via   Färger  Komponenter  Monomixer…  .
+Alternativ för kommandot  Monomixer 
+Förval
+Blandningsalternativ
+Förhandsgranskning
+Sammanfoga filter
+Delad vy
+Bevara luminans
+Blandningen kan göra vissa färger i bilden för ljusa. Det här alternativet minskar färgkanalernas luminans men bevarar ett bra visuellt förhållande mellan dem. På så sätt kan du ändra färgernas relativa vikt utan att ändra bildens övergripande luminans.
+Multiplikator för röd kanal
+Multiplikator för grön kanal
+Multiplikator för blå kanal
+Koefficient som tillämpas på varje kanal. Värdena sträcker sig från -5,000 till 5,000. Standardvärdena är lika för de tre kanalerna, vilket gör att bilden visas i gråskala.
+Använda monomixern
+När filtret öppnas blir bildförhandsvisningen gråskalig, men bilden är fortfarande en RGB-bild med tre kanaler tills du klickar på OK.
+Röd: 100 % Grön: 50 % Blå: 0 %. Bevara luminans är avmarkerat.
+I varje ruta har bildpunkterna omvandlats till en grånivå som motsvarar värdet för den röda kanalen i originalbilden (bakgrunden målades rosa efteråt för att alla rutor skulle synas).
+Så här fungerar  Bevara luminans  i monokromt läge:  Anta att reglagen är inställda på röd: 75 %, grön: 75 % och blå: 0 %. Om  Bevara luminans  är avmarkerat blir resultatet 75 % + 75 % + 0 % = 150 %, alltså mycket ljust. En bildpunkt med värdena R,G,B=127,100,80 får då värdet 127 × 0,75 + 100 × 0,75 + 80 × 0 = 170 för varje kanal. Om  Bevara luminans  är markerat skalas reglagen så att summan alltid blir 100 %. I det här exemplet är skalfaktorn 1/(75 % + 75 % + 0 %), alltså 0,667. Bildpunktsvärdena blir då ungefär 113. Alternativet Bevara luminans ser bara till att reglagens skalvärden alltid summerar till 100 %. Stora negativa reglagevärden kan förstås ge märkliga resultat.  (från insticksprogrammets upphovsperson).
+ Vilken kanal ska du ändra?  Det beror på vad du vill göra. Den röda kanalen passar i regel bra för kontraständringar. Den gröna lämpar sig för detaljändringar och den blå för ändringar av brus och kornighet. Du kan använda kommandot  Uppdela .
+Extrahera komponent
+Extrahera komponent har tillämpats
+Kommandot  Extrahera komponent  har tillämpats med standardalternativen.
+Med det här kommandot extraherar du en enskild färgkomponent från det aktuella lagret. Komponenten visas som ett gråskalelager. Kommandot liknar  Uppdela , men extraherar bara en komponent och arbetar på det aktuella lagret i stället för att skapa en ny bild.
+Du kommer åt kommandot från huvudmenyn via   Färger  Komponenter  Extrahera komponent…  .
+Alternativ för kommandot  Extrahera komponent 
+Komponent
+Komponenten som ska extraheras. Standardvärdet är rött i RGB: alla bildpunkter i lagret extraheras och blir grå bildpunkter med samma värde som den röda kanalen. En RGB-bildpunkt med värdet 153;70;17 blir till exempel en grå bildpunkt med värdet 153;153;153.
+Invertera komponent
+Invertera alla bildpunktsvärden i den extraherade komponenten.
+Linjär utdata
+Använd linjär utdata i stället för gammakorrigerad utdata.
+Uppdela
+Uppdelning till bilder (RGB)
+Kommandot  Uppdela  tillämpat (RGB-uppdelning) med  Uppdela till lager  avmarkerat.
+Uppdelning till lager (RGB)
+Ursprunglig bild.
+Resultatbild.
+Kommandot  Uppdela  tillämpat (RGB-uppdelning) med  Uppdela till lager  markerat.
+Det här kommandot delar upp bildens kanaler (RGB, HSV, CMYK och så vidare) i separata bilder eller lager.
+Det här kommandot fungerar bara med RGB-bilder. Om bilden är i gråskala eller har indexerade färger är menyalternativet inaktiverat.
+Du kommer åt kommandot från huvudmenyn via   Färger  Komponenter  Uppdela…  .
+Alternativ för kommandot  Uppdela 
+Extrahera kanaler
+Följande alternativ beskrivs med  Uppdela till lager  markerat.
+Om alternativet RGB väljs skapas en gråskalebild med tre lager (rött, grönt och blått) och två kanaler (grått och alfa).
+Funktionen är användbar tillsammans med tröskelverktyget. Du kan också klippa ut, klistra in eller flytta markeringar i en enskild RGB-kanal. Spara ett extraherat gråskalelager i en kanal om du vill använda det som markering eller mask (markera hela eller delar av lagret och välj sedan   Markera  Spara till kanal  ).
+Om alternativet RGBA väljs skapas en bild som liknar RGB-uppdelningen, men med ett extra alfalager som innehåller källbildens genomskinlighetsvärden. Helt genomskinliga bildpunkter är svarta och helt ogenomskinliga bildpunkter är vita.
+Det här alternativet extraherar bildens genomskinlighet, som lagras i alfakanalen i  kanaldialogrutan , till en separat bild. Helt genomskinliga bildpunkter blir svarta och helt ogenomskinliga blir vita. Gråtonerna visar mjuka övergångar i källbildens genomskinlighet.
+Det här alternativet delar upp bilden i tre gråskalelager: ett för nyans, ett för mättnad och ett för intensitet.
+Även om  Nyans  visas i gråskala representerar den färgnyanser. I färghjulet är vitt och svart överlagrade start- och slutpunkter som motsvarar rött högst upp i hjulet. Mellangrå nivåer motsvarar nyanser däremellan: mörkgrått motsvarar orange, mellangrått grönt och ljusgrått magenta.
+ Mättnad  och  Värde : Vitt är maximal mättnad (ren färg) och maximalt värde (mycket ljust). Svart är minimal mättnad (vitt) och minimalt värde (svart).
+HSL
+Detta alternativ liknar  HSV . I stället för  V ärde innehåller det tredje lagret bildens  L -komponent.
+Det här alternativet delar upp bilden i fyra gråskalelager: ett för gult, ett för magenta, ett för cyan och ett för svart.
+Det här alternativet kan vara användbart när du överför en bild till ett utskriftsprogram med stöd för CMYK.
+Det här alternativet delar upp bilden i tre gråskalelager:  L  för luminans,  A  för färger mellan grönt och rött och  B  för färger mellan blått och gult.
+LAB-uppdelningen är en färgmodell ur familjen luminans-färg. En kanal används för ljusstyrkan medan två andra kanaler används för färgerna. Färgmodellen LAB används av Photoshop.
+LCH
+Det här alternativet delar upp bilden i tre gråskalelager:  L  för luminans,  C  för krominans och  H  för nyans.
+LCH-uppdelningen tillhör färgmodellerna i familjen luminans–färg.
+YCbCr ITU R470
+YCbCr ITU R709
+YCbCr ITU R470 256
+YCbCr ITU R709 256
+ GIMP  har fyra YCbCr-uppdelningar med olika värden. Varje alternativ delar upp bilden i tre gråskalelager: ett för luminans och två för blå- respektive rödinformation.
+Färgmodellen YCbCr, även kallad YUV, används i digital video och användes ursprungligen för analog PAL-video. Den bygger på att människans öga är känsligare för luminans än för färg. YCbCr-uppdelningen använder en omvandlingsmatris. De olika alternativen anger värden som ITU (International Telecommunication Union) rekommenderar för matrisen.
+Dela upp i lager
+Om alternativet är markerat skapas en ny gråskalebild där varje lager motsvarar en kanal i det valda läget. Om det inte är markerat skapas en separat bild för varje kanal, med kanalens namn i namnlisten.
+Förgrund som passfärg
+Beskärningsmarkörer
+Källbild
+Cyan-komponent
+Svart komponent
+(Magenta- och gulkomponenterna utelämnade.)
+Detta alternativ är för specialister. Det är kopplat till CMYK-utskrift. När det är markerat blir varje bildpunkt med aktuell förgrundsfärg svart i varje komponent i de uppdelade bilderna eller lagren. Det gör att du kan synliggöra skärmärken i alla kanaler och ger en användbar referens för inriktning. Ett tunt kryss som skrivs ut i passvart kan också användas för att kontrollera om tryckplåtarna är rätt inriktade.
+Komponera
+Exempel på kommandot  Komponera 
+Uppdelad bild (RGB-uppdelning)
+ Komponera  tillämpat
+Det här kommandot skapar en bild från flera gråskalebilder eller lager, till exempel från extraherade RGB- eller HSV-komponenter. Du kan också skapa en bild från gråskalebilder eller lager som har skapats oberoende av varandra.
+Du kommer åt kommandot från huvudmenyn via   Färger  Komponenter  Komponera…  . Det är aktiverat när bilden är i gråskala.
+Alternativ för kommandot  Komponera 
+Komponera kanaler
+Här väljer du vilken färgrymd som ska användas: till exempel RGB eller HSV. De tillgängliga alternativen beskrivs under kommandot  Uppdela .
+Kanalrepresentationer
+Låter dig välja vilket lager eller vilken bild som ska användas för varje kanal. Du kan till exempel använda alternativet för att byta plats på färgkanaler:
+Exempel på kanalrepresentation: byt två kanaler
+Uppdelad till lager
+Sammansatt bild efter att röd och grön kanal har bytt plats med Kanalrepresentationer
+ Maskvärde : I stället för att välja ett lager eller en bild för att bygga kanalen kan du ge kanalen ett värde från 0 till 255. Men observera att minst en kanal måste skapas från ett lager eller en bild.
+Om du använder andra inställningar för Komponera än för Uppdela, till exempel delar upp en bild i  RGB  och sedan sätter ihop den i  LAB , kan du få intressanta färgeffekter. Prova!
+Kanalblandare
+Kanalblandare
+Exempel på filtret  Kanalblandare 
+ Kanalblandare  tillämpad
+Det här kommandot kombinerar värdena i RGB-kanalerna. Det fungerar med bilder både med och utan alfakanal.
+Du kommer åt kommandot från huvudmenyn via   Färger  Komponenter  Kanalblandare…  .
+Alternativ för kommandot  Kanalblandare 
+Röd kanal
+Grön kanal
+Blå kanal
+Varje utdatakanal har tre skjutreglage som anger hur mycket indatakanalerna rött, grönt och blått bidrar. Reglagen går från -2 till 2 och anger multiplikationsfaktorn för varje indatakanal i utdatakanalen.
+Hur fungerar Kanalblandare?
+Varje utdatakanal utgår från värdena du anger för de tre RGB-indatakanalerna. Som standard baseras varje utdatakanal till 100 % på motsvarande indatakanal: den har värdet 1,0 och de andra värdet 0,0. Du kan ställa in varje reglage från -2 till +2.
+Med de tre RGB-indataskjutreglagen anger du en procentandel för varje kanal. För varje bildpunkt summeras de beräknade kanalvärdena och resultatet används som utdatakanal. Här är ett exempel:
+Originalbilden och dess kanaler
+RGB-värdena för bildpunkterna i de röda, gröna, blå och grå rutorna visas. Den svarta rektangeln är speciell eftersom svart (0;0;0) inte påverkas av kommandot: 0 multiplicerat med en procentandel blir alltid 0. Resultatet kan varken överstiga 255 eller bli negativt.
+Utdatakanalen är röd. Grön kanal +50
+I den röda rutan är bildpunktsvärdena 230;10;10 och de relativa värdena är 1;0,5;0. Beräkningen blir 230 × 1 + 10 × 0,5 + 10 × 0 = 235. Samma beräkning gäller för de gröna och blå rutorna.
+I den grå rutan, som innehåller rött, blir beräkningsresultatet större än 255 och begränsas till 255. Ett negativt värde begränsas till 0.
+Utdatakanalen är röd. Grön kanal +50 %. Alternativet Bevara ljusstyrka är markerat.
+Värdena som tilldelas den röda utdatakanalen är lägre, vilket förhindrar att bilden blir för ljus.
