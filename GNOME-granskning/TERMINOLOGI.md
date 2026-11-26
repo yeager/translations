@@ -211,6 +211,10 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | stroke (Photoshop/contour effect) | kontur | Konturlinje som ritas runt en form eller markering. |
 | composite image | sammansatt bild | Sammanfogad bildrepresentation i filformat som också kan innehålla separata lager. |
 | CIE LCh | CIE LCh | Färgrymdsmodell med ljushet, krominans och nyans; behåll akronymens versaler. |
+| colormap | färgkarta | GIMP:s palett för indexerade bilder; skilj från färgkorrigeringsfilter. |
+| Sample Colorize | Färglägg med prov | GIMP-filter; bevara som namn i text och menyer. |
+| Color Map Rotation | Färgkarterotation | GIMP-filter som roterar färger mellan käll- och målintervall. |
+| phase shift | fasförskjutning | Färgmodellens fasförskjutningsinställningar. |
 | opacity | opacitet | Använd *ogenomskinlighet* i förklarande löptext vid behov. |
 | feather (selection) | mjuka upp kanter | Åtgärd på en markering; substantivet är *kantutjämning* endast när kontexten avser utjämning. |
 | floating selection | flytande markering | GIMP:s särskilda lager-/markeringsläge. |

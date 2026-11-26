@@ -1,0 +1,138 @@
+Ange färgkarta
+Ange
+Fönstret  Ange färgkarta 
+Detta kommando öppnar en dialogruta där du kan välja en annan palett som ersätter färgkartan för den indexerade bilden. Klicka först på knappen med namnet på den aktuella paletten, som ännu inte är bildens färgkarta, för att öppna palettväljaren:
+Dialogrutan  Palettval 
+Välj paletten du vill använda i listan. Klicka sedan på  Stäng  i dialogrutan och därefter på  OK  i dialogrutan  Ange färgkarta  för att ersätta bildens färgkarta.
+Om bilden inte är indexerad är kommandot inaktiverat.
+Aktivera kommandot
+Du kommer åt kommandot från huvudmenyn via   Färger  Avbilda  Ange färgkarta…  .
+Färglägg med prov
+Exempel på filtret  Färglägg med prov 
+Filtret  Färglägg med prov  tillämpat
+Med detta filter kan du färglägga gamla svartvita bilder genom att avbilda en färgkällbild eller en toning mot dem.
+Du kommer åt kommandot från huvudmenyn via   Färger  Avbilda  Färglägg med prov…  .
+Alternativ för filtret  Färglägg med prov 
+Filterfönstret delas i två delar: Mål till vänster och Provtagning till höger.
+Mål
+Prov
+De visade bildförhandsvisningarna återger som standard bilden som du anropade filtret från.
+ Provet  kan vara hela förhandsvisningen eller en markering i den. I listrutan kan du välja en annan provbild bland bilderna som fanns på skärmen när du anropade filtret. Om du väljer  Från toning  eller  Från omvänd toning  används den valda toningen i toningsdialogrutan, eller dess omvända variant, som prov. Den visas i toningsraden under provförhandsvisningen. Provförhandsvisningen är nedtonad och med de två markörerna kan du välja vilket toningsintervall som ska tillämpas på bilden eller markeringen.
+ Mål  är som standard källbilden. Listrutan visar bilderna som fanns på skärmen när du anropade filtret och låter dig välja en annan målbild. Om bilden innehåller en markering visas den i gråskala; annars visas hela förhandsvisningen i gråskala.
+Visa markering
+Alternativet växlar mellan hela bilden och markeringen, om den finns.
+Visa färg
+Det här alternativet växlar mellan färg och gråskala.
+Indatanivåer
+Tre inmatningsrutor och tre reglage låter dig ange betydelsen av mörka toner, mellantoner och ljusa toner. Resultatet visas interaktivt i målförhandsvisningen.
+Utdatanivåer
+Två inmatningsrutor och två reglage fungerar på samma sätt: de begränsar färgintervallet som ska tillämpas på målbilden. Du kan välja intervallet noggrant. Resultatet visas interaktivt i målförhandsvisningen.
+Behåll intensitet
+Om alternativet är markerat blir målbildens genomsnittliga ljusintensitet samma som källbildens.
+Ursprunglig intensitet
+Om alternativet är markerat används inte intensitetsinställningarna för indatanivåer: den ursprungliga intensiteten bevaras.
+Hämta provfärger
+När du klickar på knappen visar toningsraden under provförhandsvisningen provets färger. Om provet innehåller få färger kan övergångarna bli abrupta. Markera alternativet  Jämna ut prov  för att förbättra dem.
+ Använd underfärger  är lite svårare att förstå. En gråskalebild innehåller bara information om intensiteten, det vill säga hur ljust eller mörkt det är. I en RGB-bild innehåller varje bildpunkt information om rött, grönt och blått samt intensiteten. Bildpunkter med olika färger kan alltså ha samma intensitet. Om alternativet är markerat blandas färgerna och tillämpas på målbildpunkter med den intensiteten. Annars används den dominerande färgen.
+Ordna om färgkarta
+Ordna om
+Fönstret  Ordna om färgkarta 
+Med det här kommandot kan du ordna om färgerna i paletten för  indexerade  bilder. Bilden ändras inte. Du kan inte lägga till eller ta bort färger; se  dialogrutan för indexerad palett .
+Du kommer åt kommandot från huvudmenyn via   Färger  Avbilda  Ordna om färgkarta…  .
+Du kan också komma åt kommandot från  dialogrutan för färgkartan  via snabbmenyn som öppnas med högerklick:   Ordna om färgkarta…  .
+Använda dialogrutan  Ordna om färgkarta 
+Du kan dra och släppa färger med musen för att ordna om färgkartan. Med knapparna kan du sortera färgerna efter nyans, mättnad eller intensitet. Du kan också vända på färgernas ordning eller återställa den.
+Du kan också sortera färgkartan med kommandot  Sortera palett…  på snabbmenyn i  palettdialogrutan .
+Palettkarta
+Avbilda
+Det här insticksprogrammet färglägger om bilden med färger från den aktiva paletten, som du väljer i  palettdialogrutan .
+Innehållet i det angivna objektet (lager, markering och så vidare) avbildas med den aktiva paletten. Ljusstyrkan för varje bildpunkt beräknas och bildpunkten ersätts med färgen på motsvarande plats i paletten. En helt svart bildpunkt får palettens lägsta färg och en helt vit får den högsta. Filtret fungerar på gråskale- och RGB-bilder, med eller utan alfakanal.
+Du kommer åt kommandot från huvudmenyn via   Färger  Avbilda  Palettkarta  .
+Den aktiva paletten tillämpas på en toningsbild
+Den aktuella paletten med 18 färger
+Den aktiva palettens färger tillämpas på en svartvit toning. Färgen med lägst index i paletten, orange, ersätter den svarta färgen i toningen. Färgen med högst index, röd, ersätter den vita färgen. De andra färgerna sprids ut i palettens ordning.
+Toningskarta
+Exempel på toningskarta
+Exempel på toningsavbildning. Överst: originalbilden. I mitten: en toning. Längst ned: resultatet av att tillämpa toningen på originalbilden med filtret Toningskarta.
+Filtret använder den aktuella toningen, som visas i verktygslådans område Pensel/mönster/toning, för att färglägga om det aktiva lagret eller markeringen i bilden. Välj först en toning i  Toningsdialogrutan . Markera sedan den del av bilden som du vill ändra och aktivera filtret. Filtret körs automatiskt utan dialogruta och utan ytterligare inmatning. Det använder bildens färgintensiteter (0–255) och avbildar de mörkaste bildpunkterna på toningens vänstra ändfärg och de ljusaste på dess högra ändfärg. Mellanvärden får motsvarande mellanliggande färger.
+Du kommer åt kommandot från huvudmenyn via   Färger  Avbilda  Toningskarta  .
+Rotera färger
+Exempel på filtret  Rotera färger 
+Filtret  Rotera färger  har tillämpats; himlens blå färg ligger i källintervallet och omvandlas till målintervallets orange färg
+Med färgkarterotation kan du byta ett färgintervall (källintervall) mot ett annat (målintervall).
+Du kommer åt kommandot från huvudmenyn via   Färger  Avbilda  Rotera färger…  .
+Dialogrutan  Rotera färger 
+Förval
+Blandningsalternativ
+Förhandsvisning
+Sammanfoga filter
+Delad vy
+Källintervall
+Målintervall
+Både käll- och målintervallet har en markör på färghjulet. Dra i markörernas pilar för att placera dem vid önskad färg. De motsvarar skjutreglagen  Från  och  Till  nedan.
+Vinkeln för färgintervallets startposition på färghjulet.
+Vinkeln för färgintervallets slutposition på färghjulet.
+Medurs
+När alternativet är markerat beräknas intervallet från start till slut medurs; annars beräknas det moturs (standard).
+Invertera intervall
+Den här knappen inverterar värdena för  Från  och  Till .
+Markera allt
+Med den här knappen väljer du ett intervall som omfattar alla färger.
+Gråhantering
+I det här avsnittet anger du hur grått ska hanteras. Som standard räknas grått inte som en färg och påverkas därför inte av rotationen. Här kan du omvandla svagt mättade färger till grått och även göra grått till en färg utifrån inställningarna nedan.
+Den lilla cirkeln på färghjulet justerar nyans och mättnad som används för att välja färgen som representerar grått. Den motsvarar skjutreglagen  Nyans  och  Mättnad  nedan.
+Gråtröskel
+Det här skjutreglaget väljer vilka färger som ska behandlas som grå. Färger med lägre mättnad än det angivna värdet omvandlas till den valda grå färgen.
+Gråläge
+Med  Behandla som  behandlas grå färger i källintervallet som om de hade den angivna nyansen och mättnaden. Färgen roteras sedan enligt käll- och målintervallen.
+ Ändra till  ändrar grå färger till den valda nyansen och mättnaden utan att rotera dem.
+Exempel på gråhantering
+Samma exempel som högst upp på sidan, men med följande inställningar för gråhantering: gråtröskel 0,340, nyans 220,0 och mättnad 0,75.
+Om du vill få grått i stället för en annan färg ska nyans och mättnad stå på 0.
+Exempel på hantering av grått med filtret  Rotera färger 
+ Behandla som  i gråläget: alla färger med en mättnad under 0,34 omvandlas till orange eftersom kombinationen av blå nyans och mättnad i källintervallet roteras till orange i målintervallet.
+ Ändra till  i gråläget: rotationen ignoreras och färgen väljs direkt utifrån angiven nyans och mättnad.
+Om mättnad och nyans är 0 omvandlas allt under tröskelvärdet till grått.
+Färgbyte
+Byt färger
+Exempel på filtret  Färgbyte 
+Filtret har tillämpats med  Från färg  RGB (122, 149, 199),  Till färg  RGB (255, 0, 0),  röd tröskel  0,106,  grön tröskel  0,100 och  blå tröskel  0,190.
+Filtret ersätter en färg med en annan.
+Du kommer åt kommandot från huvudmenyn via   Färger  Avbilda  Färgbyte…  .
+Dialogrutan  Färgbyte 
+Det här är färgen som ska ersättas. Välj en färg genom att klicka på färgknappen för att öppna färgväljaren eller använd färgväljarverktyget för att hämta en färg från bilden.
+Det här är den nya färgen som ska användas. Välj en färg genom att klicka på färgknappen för att öppna färgväljaren eller använd färgväljarverktyget för att hämta en färg från bilden.
+Röd tröskel
+Grön tröskel
+Blå tröskel
+Med skjutreglagen anger du hur känsliga de röda, gröna och blå komponenterna ska vara för avvikelser i förhållande till  Från färg . Ju högre tröskelvärde, desto fler bildpunkter påverkas.
+Alien Map
+Exempel på filtret  Alien Map 
+Filtret har tillämpats med standardinställningarna
+Det här filtret förvränger bildens färger kraftigt genom att använda trigonometriska funktioner för att avbilda färgvärden.
+Du kommer åt kommandot från huvudmenyn via   Färger  Avbilda  Alien Map…  .
+Dialogrutan  Alien Map 
+Färgmodell
+ Färgmodellen  som används vid omvandlingen: välj mellan  RGB  (standard) och  HSL  ( nyans, mättnad och ljushet ).
+Den valda färgmodellen påverkar följande inställningar.
+Röd frekvens
+Grön frekvens
+Blå frekvens
+Nyansfrekvens
+Mättnadsfrekvens
+Ljushetsfrekvens
+Med skjutreglagen anger du frekvensmultiplikatorn för varje komponent i färgomvandlingen.
+Röd fasförskjutning
+Grön fasförskjutning
+Blå fasförskjutning
+Nyansens fasförskjutning
+Mättnadens fasförskjutning
+Ljushetens fasförskjutning
+Med skjutreglagen och vinkelväljarna anger du hur stor fasförskjutning som ska göras från en komponent till en annan för den valda indatakomponenten.
+Behåll den röda komponenten
+Behåll den gröna komponenten
+Behåll den blå komponenten
+Behåll nyanskomponenten
+Behåll mättnadskomponenten
+Behåll ljushetskomponenten
+Med kryssrutorna kan du undanta en eller flera komponenter från ändringar. Komponenter som markeras här påverkas inte av filtret.
