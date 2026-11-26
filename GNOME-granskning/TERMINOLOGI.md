@@ -486,3 +486,16 @@ argumentet betyder i just det programmet.
 | keytab | nyckeltabell | Kerberos-nyckeltabell. |
 | authentication method | autentiseringsmetod | Namnvärdena `credentials`, `kerberos`, `password` och `prompt` är tekniska värden och lämnas oförändrade. |
 | command metavariable | översätts | Översätt beskrivande platshållare inom vinkelparenteser, exempelvis `<username>` → `<användarnamn>`. Kommandon, flaggor och enumvärden bevaras. |
+
+## Fyra-i-rad
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| Four-in-a-row | Fyra-i-rad | Svensk titel på GNOME-spelet. |
+| marble | kula | Spelpjäsens form i spelet. |
+| game (one play-through) | parti | Exempel: *första partiet*, *nästa parti*. |
+| game area | spelplan | Spelbrädet där kulorna placeras. |
+| hint | tips | Spelråd som föreslår nästa drag. |
+| undo a move | ångra ett drag | Menyval: *Ångra senaste drag*. |
+| draw (result) | oavgjort | Ett parti utan vinnare. |
+| header bar | rubrikrad | GNOME:s fönsterdel. |
