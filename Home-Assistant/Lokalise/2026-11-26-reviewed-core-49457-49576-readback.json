@@ -1,0 +1,112 @@
+[
+  {
+    "key": "component::compit::entity::sensor::buffer_set_temperature::name",
+    "key_id": "806645559",
+    "translation_id": 7792968565,
+    "en": "Buffer set temperature",
+    "before": "Inställd bufferttemperatur",
+    "after": "Börvärde för bufferttemperatur",
+    "reason": "Namn på ett inställt temperaturbörvärde; ”buffer set temperature” avser målvärde.",
+    "readback": "Börvärde för bufferttemperatur",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::compit::entity::sensor::co2_percent::name",
+    "key_id": "806645567",
+    "translation_id": 7792969077,
+    "en": "CO2 percent",
+    "before": "CO2-procent",
+    "after": "CO2-halt",
+    "reason": "I källkoden har sensorn procentenhet och representerar koncentration; svensk term är halt. ASCII-formen behåller samma CO2-notation som källtexten och Home Assistant-gränssnittet.",
+    "readback": "CO2-halt",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::compit::entity::sensor::ventilation_alarm::state::damaged_exhaust_sensor",
+    "key_id": "806645626",
+    "translation_id": 7792972853,
+    "en": "Damaged exhaust sensor",
+    "before": "Skadad frånflödessensor",
+    "after": "Skadad frånluftssensor",
+    "reason": "Ventilationsfackterm; exhaust är frånluft, inte frånflöde.",
+    "readback": "Skadad frånluftssensor",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::compit::entity::sensor::ventilation_alarm::state::damaged_supply_sensor",
+    "key_id": "806645629",
+    "translation_id": 7792973045,
+    "en": "Damaged supply sensor",
+    "before": "Skadad tillflödessensor",
+    "after": "Skadad tilluftssensor",
+    "reason": "Ventilationsfackterm; supply air är tilluft.",
+    "readback": "Skadad tilluftssensor",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::roborock::entity::binary_sensor::detergent_empty::state::off",
+    "key_id": "806883529",
+    "translation_id": 7798291840,
+    "en": "Available",
+    "before": "Tillgänglig",
+    "after": "Tillgängligt",
+    "reason": "Available beskriver här tvättmedel: tillgängligt medel.",
+    "readback": "Tillgängligt",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::roborock::entity::binary_sensor::softener_empty::state::off",
+    "key_id": "806883532",
+    "translation_id": 7798292032,
+    "en": "Available",
+    "before": "Tillgänglig",
+    "after": "Tillgängligt",
+    "reason": "Available beskriver här sköljmedel: tillgängligt medel.",
+    "readback": "Tillgängligt",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::roborock::entity::select::drying_mode::state::quick",
+    "key_id": "806883545",
+    "translation_id": 7798292864,
+    "en": "Quick",
+    "before": "Snabb",
+    "after": "Snabbtorkning",
+    "reason": "Kort program för torkning; ”Quick” är tvetydigt som fristående alternativ.",
+    "readback": "Snabbtorkning",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::roborock::entity::binary_sensor::detergent_empty::state::on",
+    "key_id": "806883530",
+    "translation_id": 7798291904,
+    "en": "Empty",
+    "before": "Tomt",
+    "after": "Tom",
+    "reason": "Alias måste följa gemensam måltext common::state::empty.",
+    "readback": "Tom",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::roborock::entity::binary_sensor::softener_empty::state::on",
+    "key_id": "806883533",
+    "translation_id": 7798292096,
+    "en": "Empty",
+    "before": "Tomt",
+    "after": "Tom",
+    "reason": "Alias måste följa gemensam måltext common::state::empty.",
+    "readback": "Tom",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::compit::entity::sensor::charging_power::name",
+    "key_id": "806645565",
+    "translation_id": 7792968949,
+    "en": "Charging power",
+    "before": "Laddningseffekt",
+    "after": "Laddningsström",
+    "reason": "I sensor.py är mätaren klassad som ström, med enheten milliampere; inte effekt.",
+    "readback": "Laddningsström",
+    "status": "saved-and-read-back"
+  }
+]
