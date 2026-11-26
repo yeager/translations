@@ -4,6 +4,7 @@ Färdiggranskade kataloger som kontrollerats mot aktuell POT och laddats upp via
 
 | Modul | Gren | Domän | Ändrade PO-poster | API-statistik |
 |---|---|---|---:|---:|
+| gimp | master | po-script-fu | 141 | 330/0/0 |
 | gimp | master | po-plug-ins | 155 | 3 723/0/0 |
 | gimp-help | master | toolbox~selection | 310 | 330/0/0 |
 | gimp | master | po | 1 | 6 142/0/0 (aktivitetssida) |
