@@ -4,6 +4,7 @@ Färdiggranskade kataloger som kontrollerats mot aktuell POT och laddats upp via
 
 | Modul | Gren | Domän | Ändrade PO-poster | API-statistik |
 |---|---|---|---:|---:|
+| gimp | master | po | 1 | 6 142/0/0 (aktivitetssida) |
 | ashpd | main | demo-client | 4 | 38/0/0 |
 | blurble | main | po | 1 | 29/0/0 |
 | console | gnome-50 | po | 12 | verifierad |
