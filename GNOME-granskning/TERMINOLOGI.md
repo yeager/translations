@@ -642,3 +642,15 @@ argumentet betyder i just det programmet.
 | time signature | taktart | |
 | beats per minute (BPM) | slag per minut (BPM) | I korta kontroller kan BPM behållas. |
 | tap (tempo) | knacka takten | Används för att beräkna tempot. |
+
+
+## Avkodare (Decoder)
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| Decoder | Avkodare | Följ användarens fastställda översättning. |
+| QR code | QR-kod | Bindestreck. |
+| QR code scanner | QR-kodsläsare | |
+| QR code generator | QR-kodsgenerator | |
+| scan from screenshot | läs av från en skärmbild | I appens QR-kodskontext. |
+| Wi-Fi network | Wi-Fi-nätverk | Behåll Wi-Fi-stavningen. |
