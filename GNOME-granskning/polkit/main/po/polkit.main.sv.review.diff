@@ -1,16 +1,18 @@
 --- polkit.main.sv.original.po
 +++ polkit.main.sv.reviewed.po
-@@ -8,8 +8,8 @@
+@@ -8,9 +8,9 @@
  "Project-Id-Version: polkit master\n"
  "Report-Msgid-Bugs-To: https://github.com/polkit-org/polkit/issues\n"
  "POT-Creation-Date: 2026-11-23 09:59+0000\n"
 -"PO-Revision-Date: 2023-06-20 21:05+0200\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-24 00:00+0100\n"
+-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"PO-Revision-Date: 2026-11-26 19:00+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
- "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"Language-Team: Swedish <gnome@danielnylander.se>\n"
  "Language: sv\n"
  "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
 @@ -36,9 +36,9 @@
  "(user=$(user), user.gecos=$(user.gecos), user.display=$(user.display), "
  "program=$(program), command_line=$(command_line))"
@@ -24,16 +26,7 @@
  
  #: src/programs/pkaction.c:97
  msgid "Only output information about ACTION"
-@@ -67,7 +67,7 @@
- "%s home page: <%s>"
- msgstr ""
- "Rapportera fel till: %s\n"
--"Webbplats för %s: <%s>"
-+"%s hemsida: <%s>"
- 
- #: src/programs/pkaction.c:143 src/programs/pkcheck.c:496
- #: src/programs/pkttyagent.c:141
-@@ -87,50 +87,36 @@
+@@ -87,18 +87,12 @@
  "Application Options:\n"
  "  -a, --action-id=ACTION             Check authorization to perform ACTION\n"
  "  -u, --allow-user-interaction       Interact with the user if necessary\n"
@@ -58,15 +51,10 @@
  "  --version                          Show version\n"
  "\n"
  "Report bugs to: %s\n"
- "%s home page: <%s>\n"
- msgstr ""
- "Användning:\n"
--"  pkcheck [FLAGGA…]\n"
--"\n"
--"Hjälpflaggor:\n"
--"  -h, --help                         Visa hjälpflaggor\n"
--"\n"
--"Programflaggor:\n"
+@@ -111,22 +105,14 @@
+ "  -h, --help                         Visa hjälpflaggor\n"
+ "\n"
+ "Programflaggor:\n"
 -"  -a, --action-id=ÅTGÄRD             Kontrollera auktorisering för att "
 -"utföra ÅTGÄRD\n"
 -"  -u, --allow-user-interaction       Interagera med användaren om "
@@ -83,28 +71,17 @@
 -"auktoriseringar för aktuell session\n"
 -"  -s, --system-bus-name=BUSSNAMN     Kontrollera auktorisering för ägare av "
 -"BUSSNAMN\n"
-+"  pkcheck [FLAGGA...]\n"
-+"\n"
-+"Hjälpalternativ:\n"
-+"  -h, --help                         Visa hjälpalternativ\n"
-+"\n"
-+"Programalternativ:\n"
-+"  -a, --action-id=ÅTGÄRD             Kontrollera behörighet att utföra ÅTGÄRD\n"
-+"  -u, --allow-user-interaction       Interagera med användaren om det behövs\n"
-+"  -d, --details=NYCKEL VÄRDE          Lägg till (NYCKEL, VÄRDE) i åtgärdsinformationen\n"
-+"  --enable-internal-agent            Använd en intern autentiseringsagent om det behövs\n"
++"  -a, --action-id=ÅTGÄRD             Kontrollera auktorisering för att utföra ÅTGÄRD\n"
++"  -u, --allow-user-interaction       Interagera med användaren om nödvändigt\n"
++"  -d, --details=NYCKEL VÄRDE           Lägg till (NYCKEL, VÄRDE) till information om åtgärden\n"
++"  --enable-internal-agent            Använd en intern autentiseringsagent om nödvändigt\n"
 +"  --list-temp                        Lista tillfälliga auktoriseringar för aktuell session\n"
-+"  -p, --process=PID[,STARTTID,UID]    Kontrollera behörighet för den angivna processen\n"
++"  -p, --process=PID[,STARTTID,UID] Kontrollera auktorisering för angiven process\n"
 +"  --revoke-temp                      Återkalla alla tillfälliga auktoriseringar för aktuell session\n"
-+"  -s, --system-bus-name=BUSSNAMN     Kontrollera behörighet för ägaren av BUSSNAMN\n"
++"  -s, --system-bus-name=BUSSNAMN     Kontrollera auktorisering för ägare av BUSSNAMN\n"
  "  --version                          Visa version\n"
  "\n"
  "Rapportera fel till: %s\n"
--"Webbplats för %s: <%s>\n"
-+"%s hemsida: <%s>\n"
- 
- #: src/programs/pkcheck.c:396 src/programs/pkcheck.c:429
- #: src/programs/pkcheck.c:441
 @@ -154,15 +140,14 @@
  msgstr "%s: Subjekt ej angivet\n"
  
@@ -114,7 +91,7 @@
  #| msgid "%s: Subject not specified\n"
  msgid "%s: Action ID not specified\n"
 -msgstr "%s: Subjekt ej angivet\n"
-+msgstr "%s: Åtgärds-ID ej angivet\n"
++msgstr "%s: Åtgärds-ID har inte angetts\n"
  
  #. Translators: message shown when trying to run a program as root. Do not
  #. * translate the $(program) fragment - it will be expanded to the path
@@ -139,18 +116,3 @@
  
  #: src/programs/pkttyagent.c:87
  msgid "Don't replace existing agent if any"
-@@ -186,7 +170,7 @@
- 
- #: src/programs/pkttyagent.c:91
- msgid "Close FD when the agent is registered"
--msgstr "Stäng FD då agenten registrerats"
-+msgstr "Stäng FD när agenten har registrerats"
- 
- #: src/programs/pkttyagent.c:91
- msgid "FD"
-@@ -217,4 +201,4 @@
- #: src/programs/pkttyagent.c:179
- #, c-format
- msgid "%s: Invalid process specifier `%s'\n"
--msgstr "%s: Ogiltig processbeskrivare ”%s”\n"
-+msgstr "%s: Ogiltig processangivelse ”%s”\n"

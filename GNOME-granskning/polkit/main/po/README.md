@@ -1,18 +1,10 @@
 # polkit — main — po — svenska
 
-- Damned Lies: https://l10n.gnome.org/vertimus/polkit/main/po/sv/
-- POT/PO-källa: https://l10n.gnome.org/POT/polkit.main/polkit.main.pot och https://l10n.gnome.org/POT/polkit.main/polkit.main.sv.po
-- Senaste mall hämtad 2026-11-24; POT: 28 strängar.
-- Upstream vid hämtning: 27 översatta, 1 fuzzy, 0 tomma.
-- Slutlig lokal fil: 28 översatta, 0 fuzzy, 0 tomma.
-- Ändrade aktiva poster: 11 rättelser, inklusive en fuzzy-sträng som hade fått fel översättning.
-- Hela katalogen radgranskades. Rättelserna översätter beskrivande kommandoradsmetavariabler i pkcheck-hjälpen: ACTION, KEY, VALUE, START_TIME och BUS_NAME. Flaggar, PID och UID bevaras.
-- Validering: msgfmt --check godkänd; msgcmp --use-fuzzy matchar senaste POT; l10n-lint --language sv utan fel eller varningar. Egen kontroll av formatplatshållare, radbrytningar, acceleratormarkörer och samtliga kommandotoken godkänd.
-- hunspell-sv kördes. Rimliga undantag: kommandoradsflaggor, PID, FD och UID. Beskrivande metavariabler som START_TIME och BUS_NAME är översatta till STARTTID och BUSSNAMN., kod-/formatnamn (Frobnicate, gecos) och giltiga svenska sammansättningar.
-- Original, granskad fil, POT, diff och rapport sparade. Ingenting har skickats till GNOME.
-
-## Korrigering av kommandoradsmetavariabler (2026-11-24)
-
-- 7 befintliga strängar korrigerade: beskrivande kommandoradsargument översatta till svenska.
-- Validering: `msgfmt --check`; `l10n-lint`-regeln `metavariable-translation` ger inga kvarvarande träffar i de 295 granskade huvudgrenarnas kataloger.
-- Ändringen är lokal och har inte skickats till GNOME.
+- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/polkit/main/po/sv/>.
+- Aktuell PO och senaste POT hämtades 2026-11-26. POT skapad 2026-11-23 09:59 UTC; 28 aktiva poster.
+- GNOME-status före: 28 översatta, 1 fuzzy, 0 oöversatta. Efter: 28 översatta, 0 fuzzy, 0 oöversatta.
+- Alla 28 strängar radgranskades. Fuzzy-strängen `%s: Action ID not specified` korrigerades från den felaktiga översättningen ”Subjekt ej angivet” till `%s: Åtgärds-ID har inte angetts`.
+- Kommandoflaggor, formatplatshållare och användar-/miljövariabler bevarades.
+- Validering: `msgfmt --check --check-format --statistics`, `msgcmp --use-fuzzy`, placeholderkontroll och `l10n-lint` godkända; 0 fel/varningar. `hunspell-sv` kördes; tekniska namn/flaggar dokumenterade.
+- **Extern blockerare:** Damned Lies markerar modulen som skrivskyddad, så uppladdning via DL är inte möjlig. Ingen inskickning har gjorts.
+- Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-26.

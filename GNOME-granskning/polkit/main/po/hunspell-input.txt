@@ -1,0 +1,56 @@
+Kör ett program som en annan användare
+Autentisering krävs för att köra ett program som en annan användare
+Kör polkit-exempelprogrammet Frobnicate
+Autentisering krävs för att köra polkit-exempelprogrammet Frobnicate (user=$(user), user.gecos=$(user.gecos), user.display=$(user.display), program=$(program), command_line=$(command_line))
+Visa endast information om ÅTGÄRD
+ÅTGÄRD
+Visa detaljerad åtgärdsinformation
+Visa version
+[--action-id ÅTGÄRD]
+Rapportera fel till: %s
+Webbplats för %s: <%s>
+%s: Oväntat argument ”%s”
+
+Användning:
+  pkcheck [FLAGGA…]
+
+Hjälpflaggor:
+  -h, --help                         Visa hjälpflaggor
+
+Programflaggor:
+  -a, --action-id=ÅTGÄRD             Kontrollera auktorisering för att utföra ÅTGÄRD
+  -u, --allow-user-interaction       Interagera med användaren om nödvändigt
+  -d, --details=NYCKEL VÄRDE           Lägg till (NYCKEL, VÄRDE) till information om åtgärden
+  --enable-internal-agent            Använd en intern autentiseringsagent om nödvändigt
+  --list-temp                        Lista tillfälliga auktoriseringar för aktuell session
+  -p, --process=PID[,STARTTID,UID] Kontrollera auktorisering för angiven process
+  --revoke-temp                      Återkalla alla tillfälliga auktoriseringar för aktuell session
+  -s, --system-bus-name=BUSSNAMN     Kontrollera auktorisering för ägare av BUSSNAMN
+  --version                          Visa version
+
+Rapportera fel till: %s
+Webbplats för %s: <%s>
+
+%s: Argument förväntades efter ”%s”
+
+%s: Ogiltigt värde ”%s” för --process
+
+%s: Två argument förväntades efter ”--detail, -d”
+
+%s: Subjekt ej angivet
+
+%s: Åtgärds-ID har inte angetts
+
+Autentisering krävs för att köra ”$(cmdline_short)” som superanvändaren
+Autentisering krävs för att köra ”$(cmdline_short)” som användaren $(user.display)
+Ersätt inte befintlig agent om sådan finns
+Stäng FD då agenten registrerats
+FD
+Registrera agenten för den angivna processen
+PID[,STARTTID]
+Registrera agenten för ägaren av BUSSNAMN
+BUSSNAMN
+%s: Flaggorna --process och --system-bus-name är ömsesidigt uteslutande
+
+%s: Ogiltig processbeskrivare ”%s”
+
