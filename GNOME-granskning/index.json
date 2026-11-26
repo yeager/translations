@@ -85,15 +85,6 @@
       "note": "Hela 51-posterskatalogen är radgranskad: en idiomatisk kvalitetsbrist är rättad och 0 oöversatta eller fuzzy återstår. msgfmt, msgcmp, l10n-lint och acceleratorgranskning saknar fel. Skickad till Damned Lies 2026-11-23 med kommentaren ”Granskad och klar”."
     },
     {
-      "module": "apps.for.gnome — Apps for GNOME",
-      "branch": "main",
-      "kind": "Gränssnitt",
-      "status": "Blockerad",
-      "date": "2026-11-23",
-      "activity": "https://l10n.gnome.org/vertimus/apps-for-gnome/main/po/sv/",
-      "note": "Damned Lies visar 69 översatta strängar men dess annonserade svenska PO-fil /POT/apps.for.gnome.main/apps.for.gnome.main.sv.po returnerar HTTP 404. Ingen aktuell svensk fil kan därför hämtas, jämföras mot POT eller radgranskas."
-    },
-    {
       "module": "ashpd",
       "branch": "main",
       "kind": "Gränssnitt",
@@ -5147,13 +5138,18 @@
       "note": "Damned Lies markerar plugins-base som skrivskyddad; översättning kan inte skickas in via DL. Sidan hänvisar till plattformskoordinatorerna för att uppdatera arkivets URL."
     },
     {
-      "module": "gnome-music",
+      "module": "libgsf",
       "branch": "master",
       "kind": "Gränssnitt",
-      "status": "Blockerad",
+      "status": "Klar lokalt",
       "date": "2026-11-26",
-      "activity": "https://l10n.gnome.org/vertimus/gnome-music/master/po/sv/",
-      "note": "Aktivitetssidan och den länkade POT-filen svarar 404. Den tillgängliga modulsidan visar endast äldre, cachad statistik; aktuell katalog gick därför inte att hämta."
+      "path": "libgsf/master/po",
+      "original": "libgsf.master.sv.original.po",
+      "reviewed": "libgsf.master.sv.reviewed.po",
+      "diff": "libgsf.master.sv.review.diff",
+      "report": "README.md",
+      "activity": "https://l10n.gnome.org/vertimus/libgsf/master/po/sv/",
+      "note": "Alla 152 aktiva poster radgranskade mot den senaste tillgängliga POT-filen; 0 fuzzy och 0 oöversatta. 29 befintliga poster rättade. msgfmt, msgcmp, l10n-lint, format och hunspell-sv kontrollerade. Ingen GNOME-inskickning har gjorts."
     }
   ]
 }

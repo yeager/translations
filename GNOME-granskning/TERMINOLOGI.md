@@ -92,6 +92,9 @@ listan är stöd, inte en ursäkt för mekanisk ersättning.
 | preview | förhandsvisning / förhandsvisa | Substantiv respektive verb; välj efter sammanhang. |
 | previewer | förhandsvisare | Komponenten som visar en filförhandsvisning. |
 | fullscreen | helskärmsläge | I åtgärder: *Växla helskärmsläge*. |
+| seek (file or stream) | flytta läspositionen | Använd inte *söka* när källtexten avser att ändra läsposition. |
+| header / trailer (stream) | sidhuvud / sidfot | I strömmar och filformat. |
+| quote (CSV field delimiter) | citattecken | *Quote fields* kan skrivas *omge fält med citattecken*. |
 | rowstride | radsteg | Antal byte mellan motsvarande lägen på efterföljande pixelrader. |
 | chunk (bildformat) | block | En avgränsad del av en bildfil, exempelvis PNG-textblock. |
 | pixbuf | pixbuf | GTK/GdkPixbuf-API-typ; behåll identifieraren och böj vid behov: *pixbufen*. |

@@ -1,0 +1,277 @@
+--- libgsf.master.sv.original.po
++++ libgsf.master.sv.reviewed.po
+@@ -10,8 +10,8 @@
+ "Project-Id-Version: libgsf\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libgsf/issues\n"
+ "POT-Creation-Date: 2026-10-15 02:00+0000\n"
+-"PO-Revision-Date: 2026-05-03 01:36+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-26 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -22,19 +22,20 @@
+ #: gsf/gsf-blob.c:115
+ #, c-format
+ msgid "Not enough memory to copy %s bytes of data"
+-msgstr "Det finns inte tillräckligt minne för att kopiera %s byte data"
++msgstr "Det finns inte tillräckligt med minne för att kopiera %s byte data"
+ 
+ #: gsf/gsf-clip-data.c:165
+ #, c-format
+ msgid "The clip_data is in %s, but it is smaller than at least %s bytes"
+-msgstr "clip_data är i %s, men det är mindre än %s byte"
++msgstr "Variabeln clip_data finns i %s, men är mindre än %s byte"
+ 
+ #: gsf/gsf-clip-data.c:259
+ msgid ""
+ "The clip_data is in Windows clipboard format, but it is smaller than the "
+ "required 4 bytes."
+ msgstr ""
+-"clip_data är i Windows-urklippsformat, men det är mindre än kravet på 4 byte."
++"Variabeln clip_data innehåller data i Windows-urklippsformat, men är kortare"
++" än de nödvändiga 4 byten."
+ 
+ #: gsf/gsf-clip-data.c:270
+ msgid "Windows Metafile format"
+@@ -79,11 +80,11 @@
+ 
+ #: gsf/gsf-infile-msole.c:917
+ msgid "Failed to access child"
+-msgstr "Misslyckades med åtkomst av barn"
++msgstr "Det gick inte att komma åt underposten"
+ 
+ #: gsf/gsf-infile-msole.c:984
+ msgid "failure reading block"
+-msgstr "felaktig läsning av block"
++msgstr "Fel vid läsning av block"
+ 
+ #: gsf/gsf-infile-msvba.c:175 gsf/gsf-infile-msvba.c:395
+ msgid "Can't find the VBA directory stream"
+@@ -91,7 +92,7 @@
+ 
+ #: gsf/gsf-infile-msvba.c:222 gsf/gsf-infile-msvba.c:230
+ msgid "vba project header problem"
+-msgstr "problem med vba-projekthuvud"
++msgstr "Problem med VBA-projekthuvudet"
+ 
+ #: gsf/gsf-infile-msvba.c:404
+ msgid "No VBA signature"
+@@ -112,7 +113,7 @@
+ 
+ #: gsf/gsf-infile-tar.c:280
+ msgid "Invalid longname header"
+-msgstr "Ogiltigt huvud med långt namn"
++msgstr "Ogiltigt huvud för långt filnamn"
+ 
+ #: gsf/gsf-infile-tar.c:287
+ msgid "Failed to read longname"
+@@ -120,7 +121,7 @@
+ 
+ #: gsf/gsf-infile-tar.c:307 gsf/gsf-input.c:289
+ msgid "Seek failed"
+-msgstr "Sökning misslyckades"
++msgstr "Fel vid positionering"
+ 
+ #: gsf/gsf-infile-tar.c:315
+ msgid "Truncated archive"
+@@ -144,15 +145,15 @@
+ 
+ #: gsf/gsf-infile-zip.c:525
+ msgid "Error seeking to zip header"
+-msgstr "Fel vid sökning till zip-huvud"
++msgstr "Kunde inte flytta läspositionen till ZIP-huvudet"
+ 
+ #: gsf/gsf-infile-zip.c:527
+ msgid "Error reading zip header"
+-msgstr "Fel vid läsning av zip-huvud"
++msgstr "Fel vid läsning av ZIP-huvudet"
+ 
+ #: gsf/gsf-infile-zip.c:529
+ msgid "Error incorrect zip header"
+-msgstr "Felaktigt zip-huvud"
++msgstr "Fel: felaktigt ZIP-huvud"
+ 
+ #: gsf/gsf-infile-zip.c:560
+ msgid "problem uncompressing stream"
+@@ -164,7 +165,7 @@
+ 
+ #: gsf/gsf-infile-zip.c:1027 gsf/gsf-outfile-zip.c:1132
+ msgid "The level of compression used, zero meaning none"
+-msgstr "Nivån av komprimering som använts, noll betyder ingen"
++msgstr "Komprimeringsnivån, där 0 innebär ingen komprimering"
+ 
+ #: gsf/gsf-infile-zip.c:1047 gsf/gsf-outfile-zip.c:1154
+ msgid "Zip64"
+@@ -172,7 +173,7 @@
+ 
+ #: gsf/gsf-infile-zip.c:1048
+ msgid "Whether zip64 is being used"
+-msgstr "Huruvida zip64 används"
++msgstr "Om ZIP64 används"
+ 
+ #: gsf/gsf-input-bzip.c:50 gsf/gsf-output-bzip.c:279
+ msgid "BZ2 support not enabled"
+@@ -240,7 +241,8 @@
+ 
+ #: gsf/gsf-input.c:207
+ msgid "An optional GDateTime representing the time the input was last changed"
+-msgstr "En valfri GDateTime som representerar tiden när indata senast ändrades"
++msgstr ""
++"En valfri GDateTime som representerar tiden när indata senast ändrades"
+ 
+ #: gsf/gsf-input.c:220 gsf/gsf-output.c:250
+ msgid "Container"
+@@ -248,11 +250,11 @@
+ 
+ #: gsf/gsf-input.c:221
+ msgid "The parent GsfInfile"
+-msgstr "Överordnad GstInfile"
++msgstr "Överordnad GsfInfile"
+ 
+ #: gsf/gsf-input.c:282
+ msgid "Duplicate size mismatch"
+-msgstr "Duplicerad storlek stämmer inte"
++msgstr "Kopiornas storlekar stämmer inte överens"
+ 
+ #: gsf/gsf-input-gzip.c:169
+ msgid "Unable to initialize zlib"
+@@ -260,7 +262,7 @@
+ 
+ #: gsf/gsf-input-gzip.c:177
+ msgid "Failed to rewind source"
+-msgstr "Misslyckades med att spola tillbaka källa"
++msgstr "Misslyckades med att spola tillbaka källan"
+ 
+ #: gsf/gsf-input-gzip.c:184
+ msgid "Invalid gzip header"
+@@ -318,11 +320,12 @@
+ 
+ #: gsf/gsf-libxml.c:1579
+ msgid "Pretty print"
+-msgstr "Snygg utskrift"
++msgstr "Läsbar formatering"
+ 
+ #: gsf/gsf-libxml.c:1580
+ msgid "Should the output auto-indent elements to make reading easier?"
+-msgstr "Ska utdata autoindentera element för att göra det lättare att läsa?"
++msgstr ""
++"Ska element i utdata automatiskt få indrag så att de blir lättare att läsa?"
+ 
+ #: gsf/gsf-libxml.c:1586 gsf/gsf-open-pkg-utils.c:777
+ #: gsf/gsf-outfile-msole.c:859 gsf/gsf-outfile-zip.c:1111
+@@ -345,8 +348,8 @@
+ #: gsf/gsf-msole-utils.c:392
+ #, c-format
+ msgid ""
+-"Corrupt data in the VT_CF property; clipboard data length must be at least 4 "
+-"bytes, but the data says it only has %s bytes available."
++"Corrupt data in the VT_CF property; clipboard data length must be at least 4"
++" bytes, but the data says it only has %s bytes available."
+ msgstr ""
+ "Skadad data i egenskapen VT_CF; urklippets datalängd måste vara minst 4 "
+ "byte, men data säger att det endast har %s byte."
+@@ -379,27 +382,29 @@
+ 
+ #: gsf/gsf-opendoc-utils.c:904
+ msgid "The ODF version this object is targeting as an integer like 100"
+-msgstr "ODF-versionen som är målet för detta objekt som ett heltal så som 100"
++msgstr ""
++"ODF-versionen som objektet riktar sig mot, uttryckt som ett heltal, till "
++"exempel 100"
+ 
+ #: gsf/gsf-open-pkg-utils.c:390
+ #, c-format
+ msgid "Unable to find part id='%s' for '%s'"
+-msgstr "Kunde inte hitta delen id=\"%s\" för \"%s\""
++msgstr "Kunde inte hitta delen med id='%s' för '%s'"
+ 
+ #: gsf/gsf-open-pkg-utils.c:417
+ #, c-format
+ msgid "Unable to find part with type='%s' for '%s'"
+-msgstr "Kunde inte hitta delen med type=\"%s\" för \"%s\""
++msgstr "Kunde inte hitta en del med type='%s' för '%s'"
+ 
+ #: gsf/gsf-open-pkg-utils.c:447
+ #, c-format
+ msgid "Missing id for part in '%s'"
+-msgstr "Saknar id för delen i \"%s\""
++msgstr "Delen i '%s' saknar id"
+ 
+ #: gsf/gsf-open-pkg-utils.c:456
+ #, c-format
+ msgid "Part '%s' in '%s' from '%s' is corrupt!"
+-msgstr "Delen \"%s\" i \"%s\" från \"%s\" är skadad!"
++msgstr "Delen '%s' i '%s' från '%s' är skadad!"
+ 
+ #: gsf/gsf-open-pkg-utils.c:778
+ msgid "The GsfOutput that stores the Open Package content"
+@@ -419,7 +424,7 @@
+ 
+ #: gsf/gsf-open-pkg-utils.c:792
+ msgid "Can the outfile have children"
+-msgstr "Kan utdatafilen ha barn"
++msgstr "Kan utdatafilen innehålla underposter"
+ 
+ #: gsf/gsf-outfile-msole.c:870
+ msgid "Small block size"
+@@ -447,7 +452,7 @@
+ 
+ #: gsf/gsf-outfile-zip.c:1122
+ msgid "The filename of this member in the archive without path"
+-msgstr "Filnamnet för denna medlem i tar-arkivet utan sökväg"
++msgstr "Filnamnet på filen i arkivet, utan sökväg"
+ 
+ #: gsf/gsf-outfile-zip.c:1142 gsf/gsf-output-gzip.c:431
+ msgid "Deflate Level"
+@@ -458,12 +463,12 @@
+ "The level of deflate compression used, zero meaning none and -1 meaning the "
+ "zlib default"
+ msgstr ""
+-"Nivån av komprimering som använts, noll betyder ingen och -1 innebär zlibs "
+-"standardvärde"
++"Nivån på deflate-komprimeringen, där 0 innebär ingen komprimering och -1 "
++"innebär zlibs standardvärde"
+ 
+ #: gsf/gsf-outfile-zip.c:1155
+ msgid "Whether to use zip64 format, -1 meaning automatic"
+-msgstr "Huruvida zip64-formatet ska användas, -1 innebär automatiskt"
++msgstr "Om ZIP64-format ska användas, där -1 innebär automatiskt val"
+ 
+ #: gsf/gsf-output-bzip.c:79
+ msgid "Unable to initialize BZ2 library"
+@@ -490,7 +495,8 @@
+ msgstr "Aktuell position för utdata"
+ 
+ #: gsf/gsf-output.c:236
+-msgid "An optional GDateTime representing the time the output was last changed"
++msgid ""
++"An optional GDateTime representing the time the output was last changed"
+ msgstr "En valfri GDateTime som representerar tiden när utdata senast ändrats"
+ 
+ #: gsf/gsf-output.c:251
+@@ -503,11 +509,11 @@
+ 
+ #: gsf/gsf-output-csv.c:346
+ msgid "Quote"
+-msgstr "Citat"
++msgstr "Citattecken"
+ 
+ #: gsf/gsf-output-csv.c:347
+ msgid "The string used for quoting fields"
+-msgstr "Strängen som används för att citera fält"
++msgstr "Strängen som omger fält som avgränsas med citattecken"
+ 
+ #: gsf/gsf-output-csv.c:357
+ msgid "Quoting Mode"
+@@ -652,8 +658,7 @@
+ "Run '%s --help' to see a full list of available command line options.\n"
+ msgstr ""
+ "%s\n"
+-"Kör \"%s --help\" för att se en fullständig lista över tillgängliga "
+-"kommandoradsflaggor.\n"
++"Kör \"%s --help\" för att se en fullständig lista över tillgängliga kommandoradsflaggor.\n"
+ 
+ #: tools/gsf.c:566
+ #, c-format
