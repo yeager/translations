@@ -410,3 +410,13 @@ Alla 120 poster granskades och liveverifierades; 24 ändringar sparades/lästes 
 ## Batch 74: 38,057–38,176
 
 120/120 granskade. 22 ändringar sparade och livekontrollerade. Källor: {'current-source-match': 80, 'source-absent': 9, 'reference-resolved': 31}; 31 referenser verifierade; platshållare 120/120; 9 äldre källsaknade nycklar att följa upp. Manifest/TMX tillagt.
+
+
+## Batch 75: 38,177–38,296
+
+120/120 rader granskade; 13 ändringar sparade och liveverifierade, 107 befintliga värden behållna. Källor: {'current-source-match': 72, 'source-absent': 15, 'reference-resolved': 33}; 33 referenser/29 mål verifierade; platshållare 120/120; 15 äldre/utgångna källnycklar markerade för uppföljning. TM-manifest sparat.
+
+
+## Batch 76: 38,297–38,416
+
+120/120 granskade; 27 rättade, sparade och återlästa; 93 värden behållna. Källstatus: {'current-source-match': 63, 'source-absent': 41, 'reference-resolved': 16}. Referenser: 16/16 alias till 14 mål. Platshållare 120/120. 41 källvägar behöver följas upp. TMX-manifest tillagt.
