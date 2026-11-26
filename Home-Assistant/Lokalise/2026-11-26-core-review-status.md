@@ -430,3 +430,8 @@ Alla 120 poster granskades och liveverifierades; 24 ändringar sparades/lästes 
 ## Batch 78: 38,537–38,656
 
 120/120 granskade; 33 ändringar sparade/återlästa, 87 behållna. Källor: {'current-source-match': 89, 'reference-resolved': 22, 'source-absent': 9}; 22/22 alias till 16 mål matchar efter uppdatering. Platshållare 120/120. 9 utgångna källvägar att följa upp. TMX-manifest tillagt.
+
+
+## Batch 79: 38,657–38,776
+
+120/120 granskade; 74 rättade och sparade, 46 befintliga värden behållna. Källor: {'current-source-match': 18, 'reference-resolved': 25, 'source-absent': 77}. Referenser: 25/25 alias till 22 mål verifierade. Platshållare: 120/120. 77 källvägar följs upp, främst äldre Alexa-ljudnycklar som saknas i integrationens aktuella `strings.json`. TMX-manifest tillagt.
