@@ -1,6 +1,6 @@
 # Damned Lies-inskickningar — 2026-11-26
 
-Färdiggranskade kataloger som kontrollerats mot aktuell POT och laddats upp via API med kommentaren ”Granskad och klar”. Aktivitetssida och slutstatistik verifierades. Uppladdningarna pausas mellan omgångarna när Damned Lies svarar med rate limit.
+Färdiggranskade kataloger som kontrollerats mot aktuell POT och laddats upp via API med kommentaren ”Granskad och klar”. Aktivitetssida och slutstatistik verifierades.
 
 | Modul | Gren | Domän | Ändrade PO-poster | API-statistik |
 |---|---|---|---:|---:|
@@ -63,32 +63,33 @@ Färdiggranskade kataloger som kontrollerats mot aktuell POT och laddats upp via
 
 ## Kvarvarande blockerare
 
-- `gtk-vnc/master/po` (2 ändrade poster): API:t erbjuder inte UploadTranslation.
-- `xdg-user-dirs-gtk/master/po` (3 ändrade poster): API:t erbjuder inte UploadTranslation.
-- `avahi/master/po` (3 ändrade poster): API:t erbjuder inte UploadTranslation.
-- `oo7/main/oo7-server` (7 ändrade poster): API:t erbjuder inte UploadTranslation.
-- `sushi/main/po` (6 ändrade poster): API:t erbjuder inte UploadTranslation.
+- `gtk-vnc/master/po` (2 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
+- `xdg-user-dirs-gtk/master/po` (3 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
+- `avahi/master/po` (3 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
+- `oo7/main/oo7-server` (7 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
+- `sushi/main/po` (6 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
 - `blurble/main/po` (1 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
-- `phodav/master/po` (25 ändrade poster): API:t erbjuder inte UploadTranslation.
+- `phodav/master/po` (25 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
 - `networkmanager-fortisslvpn/main/po` (4 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
 - `gedit-plugins/gnome-50/help` (18 ändrade poster): HTTP 500:    <!DOCTYPE html> <html lang="" >     <head>         <meta charset="UTF-8">         <meta name="viewport" content="width=device-width, initial-scale=
-- `gcab/master/po` (5 ändrade poster): API:t erbjuder inte UploadTranslation.
-- `xdg-desktop-portal-gtk/main/po` (6 ändrade poster): API:t erbjuder inte UploadTranslation.
-- `metronome/main/po` (10 ändrade poster): API:t erbjuder inte UploadTranslation.
-- `libipuz/main/po` (14 ändrade poster): API:t erbjuder inte UploadTranslation.
-- `libsoup/master/po` (19 ändrade poster): API:t erbjuder inte UploadTranslation.
+- `gcab/master/po` (5 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
+- `xdg-desktop-portal-gtk/main/po` (6 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
+- `metronome/main/po` (10 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
+- `libipuz/main/po` (14 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
+- `libsoup/master/po` (19 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
 - `networkmanager-pptp/main/po` (8 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
-- `social/main/po` (1 ändrade poster): API:t erbjuder inte UploadTranslation.
+- `social/main/po` (1 ändrade poster): API:t erbjuder inte UploadTranslation ().
 - `help-gnome-org/master/po` (28 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
 - `fretboard/main/po` (3 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
-- `gnome-extensions-app/main/po` (2 ändrade poster): API:t erbjuder inte UploadTranslation.
-- `xdg-desktop-portal/main/po` (5 ändrade poster): API:t erbjuder inte UploadTranslation.
+- `gnome-extensions-app/main/po` (2 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
+- `xdg-desktop-portal/main/po` (5 ändrade poster): API:t erbjuder inte UploadTranslation (ReserveForTranslation, WriteAComment).
 - `manuals/main/po` (5 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
 - `decibels/main/po` (6 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
 - `networkmanager-vpnc/main/po` (8 ändrade poster): HTTP 404: {"detail":"No Module matches the given query."}
+- `postr/master/po` (4 ändrade poster): HTTP 429: {"detail":"Request was throttled. Expected available in 390 seconds."}
 
 ## Status
 
 - Inskickade kataloger markerade för 2026-11-26: **56**.
-- Övriga färdiggranskade poster står kvar som lokalt klara och listas inte som inskickade.
-- Senaste API-spärren angav 251 sekunders väntetid. Fortsatt inskickning pausad efter att ett återförsök lyckades för `hitori/main/po`.
+- Färdiggranskade kataloger som ännu inte har skickats är fortsatt märkta `Klar lokalt`.
+- Senaste 429-svar: **390 sekunders väntetid**. Damned Lies-inventeringen fortsätter efter att API:t tillåter nya anrop.
