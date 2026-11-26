@@ -380,3 +380,8 @@ Nyckelsnapshotten använder fältet `key`, inte `key_name`. Den tidigare statuse
 ## Fortsatt radgranskning 2026-11-26 – position 37337–37456
 
 Alla 120 poster granskades och liveverifierades; 24 ändringar sparades/lästes tillbaka, 86 aktiva översättningar behölls och 10 aktiva rader markerades för källuppföljning. 75 direkta källtexter matchar och 32 källreferenser till 19 mål löstes; samtliga alias matchar efter ändring. Ytterligare två Assist Satellite-medie-ID-etiketter korrigerades retroaktivt; totalt 26 texter sparades. Platshållare 120/120; inga pluralnycklar. Hunspell-flaggor granskades manuellt; `svlang skrivregler` utan fel. TM-manifestet liveverifierades för 122 poster. TMX validerar med 25 926 enheter (25 695 Lokalise-ID, 231 legacy-source); backup byteidentisk. Se batchrapport, JSON och `2026-11-26-retroactive-assist-satellite-updates.json`. Nästa position: **37 457**.
+
+
+## Batch 69: 37,457–37,576
+
+120/120 granskade. 14 ändringar sparade och livekontrollerade. Källor: {'current-source-match': 72, 'source-absent': 23, 'reference-resolved': 25}; 25 referenser verifierade; platshållare 120/120; 23 äldre källsaknade nycklar att följa upp. Manifest/TMX tillagt.
