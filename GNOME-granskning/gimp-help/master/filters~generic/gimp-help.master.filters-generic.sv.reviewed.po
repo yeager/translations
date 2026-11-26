@@ -1,0 +1,2248 @@
+# Swedish translation for GIMP.
+# Copyright © 2009-2026 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gimp-help package.
+# Daniel Nylander <po@danielnylander.se>, 2009.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2022, 2023, 2024, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: generic\n"
+"POT-Creation-Date: 2026-11-24 22:31+0000\n"
+"PO-Revision-Date: 2026-11-26 00:00+0100\n"
+"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/normal-map.xml:35(None)
+msgid ""
+"@@image: 'images/filters/examples/render/simplex_noise-default.png'; "
+"md5=0a4d141ed2f1e6bf580c6cecafcab6a8"
+msgstr ""
+"@@image: 'images/filters/examples/render/simplex_noise-default.png'; "
+"md5=0a4d141ed2f1e6bf580c6cecafcab6a8"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/normal-map.xml:46(None)
+msgid ""
+"@@image: 'images/filters/examples/generic/normal_map-defaults.jpg'; "
+"md5=931a868baf76e8ae3c82150a86187ab6"
+msgstr ""
+"@@image: 'images/filters/examples/generic/normal_map-defaults.jpg'; "
+"md5=931a868baf76e8ae3c82150a86187ab6"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/normal-map.xml:78(None)
+msgid ""
+"@@image: 'images/filters/generic/normal_map-dialog.png'; "
+"md5=730d89226f423805d83c5fcb9d3d7204"
+msgstr ""
+"@@image: 'images/filters/generic/normal_map-dialog.png'; "
+"md5=730d89226f423805d83c5fcb9d3d7204"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/normal-map.xml:106(None)
+msgid ""
+"@@image: 'images/filters/examples/generic/normal_map-scale.jpg'; "
+"md5=d3e2aeb7f606e7d83ac2b8ddadabffc6"
+msgstr ""
+"@@image: 'images/filters/examples/generic/normal_map-scale.jpg'; "
+"md5=d3e2aeb7f606e7d83ac2b8ddadabffc6"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/normal-map.xml:159(None)
+msgid ""
+"@@image: 'images/filters/examples/generic/normal_map-flip.jpg'; "
+"md5=161d19accf1f46d44d6f6947c955c368"
+msgstr ""
+"@@image: 'images/filters/examples/generic/normal_map-flip.jpg'; "
+"md5=161d19accf1f46d44d6f6947c955c368"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/normal-map.xml:181(None)
+msgid ""
+"@@image: 'images/filters/examples/generic/normal_map-GG+Z.jpg'; "
+"md5=6baa8092437b470c0813bc393b1b4ac0"
+msgstr ""
+"@@image: 'images/filters/examples/generic/normal_map-GG+Z.jpg'; "
+"md5=6baa8092437b470c0813bc393b1b4ac0"
+
+#: src/filters/generic/normal-map.xml:9(title)
+#: src/filters/generic/normal-map.xml:14(tertiary)
+#: src/filters/generic/normal-map.xml:17(primary)
+msgid "Normal Map"
+msgstr "Normalkarta"
+
+#: src/filters/generic/normal-map.xml:12(primary)
+#: src/filters/generic/introduction.xml:11(primary)
+#: src/filters/generic/gegl-styles.xml:8(primary)
+#: src/filters/generic/gegl-graph.xml:12(primary)
+#: src/filters/generic/erode.xml:17(primary)
+#: src/filters/generic/distance-map.xml:12(primary)
+#: src/filters/generic/dilate.xml:15(primary)
+#: src/filters/generic/convol-matrix.xml:11(primary)
+msgid "Filters"
+msgstr "Filter"
+
+#: src/filters/generic/normal-map.xml:13(secondary)
+#: src/filters/generic/introduction.xml:12(secondary)
+#: src/filters/generic/gegl-styles.xml:9(secondary)
+#: src/filters/generic/gegl-graph.xml:13(secondary)
+#: src/filters/generic/erode.xml:18(secondary)
+#: src/filters/generic/distance-map.xml:13(secondary)
+#: src/filters/generic/dilate.xml:16(secondary)
+#: src/filters/generic/convol-matrix.xml:12(secondary)
+msgid "Generic"
+msgstr "Generiska"
+
+#: src/filters/generic/normal-map.xml:21(title)
+#: src/filters/generic/gegl-styles.xml:17(title)
+#: src/filters/generic/gegl-graph.xml:21(title)
+#: src/filters/generic/erode.xml:26(title)
+#: src/filters/generic/distance-map.xml:21(title)
+#: src/filters/generic/dilate.xml:24(title)
+#: src/filters/generic/convol-matrix.xml:20(title)
+msgid "Overview"
+msgstr "Översikt"
+
+#: src/filters/generic/normal-map.xml:22(para)
+msgid ""
+"This filter generates a <emphasis>normal map</emphasis> from a "
+"<emphasis>height map</emphasis>. It's early initial work and a lot more is "
+"expected to be done."
+msgstr ""
+"Det här filtret skapar en <emphasis>normalkarta</emphasis> utifrån en "
+"<emphasis>höjdkarta</emphasis>. Arbetet med filtret har bara börjat; fler "
+"förbättringar väntas."
+
+#: src/filters/generic/normal-map.xml:31(title)
+msgid "Normal Map Example"
+msgstr "Exempel på normalkarta"
+
+#: src/filters/generic/normal-map.xml:38(para)
+msgid "The height map"
+msgstr "Höjdkartan"
+
+#: src/filters/generic/normal-map.xml:49(para)
+msgid "Filter applied with default options, giving the Normal Map"
+msgstr "Normalkartan som filtret skapar med standardinställningarna"
+
+#: src/filters/generic/normal-map.xml:27(para)
+msgid ""
+"We will use a height map created with <xref linkend=\"gimp-filter-noise-"
+"simplex\"/>: <placeholder-1/>"
+msgstr ""
+"Vi använder en höjdkarta som skapats med <xref linkend=\"gimp-filter-noise-"
+"simplex\"/>: <placeholder-1/>"
+
+#: src/filters/generic/normal-map.xml:60(title)
+#: src/filters/generic/gegl-styles.xml:49(title)
+#: src/filters/generic/gegl-graph.xml:28(title)
+#: src/filters/generic/erode.xml:99(title)
+#: src/filters/generic/distance-map.xml:30(title)
+#: src/filters/generic/dilate.xml:76(title)
+#: src/filters/generic/convol-matrix.xml:77(title)
+msgid "Activating the Filter"
+msgstr "Aktivera filtret"
+
+#: src/filters/generic/normal-map.xml:61(para)
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Generic</guisubmenu><guimenuitem>Normal"
+" Map…</guimenuitem></menuchoice>."
+msgstr ""
+"Du hittar filtret i huvudmenyn under "
+"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Generiska</guisubmenu><guimenuitem>Normalmappning…</guimenuitem></menuchoice>."
+
+#: src/filters/generic/normal-map.xml:72(title)
+#: src/filters/generic/gegl-styles.xml:61(title)
+#: src/filters/generic/gegl-graph.xml:40(title)
+#: src/filters/generic/distance-map.xml:42(title)
+#: src/filters/generic/convol-matrix.xml:89(title)
+msgid "Options"
+msgstr "Alternativ"
+
+#: src/filters/generic/normal-map.xml:74(title)
+msgid "<quote>Normal Map</quote> options"
+msgstr "Alternativ för <quote>Normalkarta</quote>"
+
+#: src/filters/generic/normal-map.xml:84(term)
+#: src/filters/generic/gegl-styles.xml:73(term)
+#: src/filters/generic/gegl-graph.xml:52(term)
+#: src/filters/generic/distance-map.xml:54(term)
+#: src/filters/generic/convol-matrix.xml:101(term)
+msgid "Presets"
+msgstr "Förinställningar"
+
+#: src/filters/generic/normal-map.xml:85(quote)
+#: src/filters/generic/gegl-styles.xml:74(quote)
+#: src/filters/generic/gegl-graph.xml:53(quote)
+#: src/filters/generic/distance-map.xml:55(quote)
+#: src/filters/generic/convol-matrix.xml:102(quote)
+msgid "Input Type"
+msgstr "Indatatyp"
+
+#: src/filters/generic/normal-map.xml:86(term)
+#: src/filters/generic/gegl-styles.xml:75(term)
+#: src/filters/generic/gegl-graph.xml:54(term)
+#: src/filters/generic/distance-map.xml:56(term)
+#: src/filters/generic/convol-matrix.xml:103(term)
+msgid "Clipping"
+msgstr "Klippning"
+
+#: src/filters/generic/normal-map.xml:87(term)
+#: src/filters/generic/gegl-styles.xml:76(term)
+#: src/filters/generic/gegl-graph.xml:55(term)
+#: src/filters/generic/distance-map.xml:57(term)
+#: src/filters/generic/convol-matrix.xml:104(term)
+msgid "Blending Options"
+msgstr "Blandningsalternativ"
+
+#: src/filters/generic/normal-map.xml:88(term)
+#: src/filters/generic/gegl-styles.xml:77(term)
+#: src/filters/generic/gegl-graph.xml:56(term)
+#: src/filters/generic/distance-map.xml:58(term)
+#: src/filters/generic/convol-matrix.xml:105(term)
+msgid "Preview"
+msgstr "Förhandsvisning"
+
+#: src/filters/generic/normal-map.xml:89(term)
+#: src/filters/generic/gegl-styles.xml:78(term)
+#: src/filters/generic/gegl-graph.xml:57(term)
+#: src/filters/generic/distance-map.xml:59(term)
+#: src/filters/generic/convol-matrix.xml:106(term)
+msgid "Merge filter"
+msgstr "Sammanfoga filter"
+
+#: src/filters/generic/normal-map.xml:90(term)
+#: src/filters/generic/gegl-styles.xml:79(term)
+#: src/filters/generic/gegl-graph.xml:58(term)
+#: src/filters/generic/distance-map.xml:60(term)
+#: src/filters/generic/convol-matrix.xml:107(term)
+msgid "Split view"
+msgstr "Dela vy"
+
+#: src/filters/generic/normal-map.xml:96(term)
+msgid "Scale"
+msgstr "Skala"
+
+#: src/filters/generic/normal-map.xml:98(para)
+msgid ""
+"The amount by which to scale the heights values: increase or decrease bumps."
+msgstr "Hur mycket höjdvärdena skalas: höj eller sänk ojämnheterna."
+
+#: src/filters/generic/normal-map.xml:109(para)
+msgid "Scale = 2"
+msgstr "Skala = 2"
+
+#: src/filters/generic/normal-map.xml:118(term)
+msgid "X Component"
+msgstr "X-komponent"
+
+#: src/filters/generic/normal-map.xml:119(term)
+msgid "Y Component"
+msgstr "Y-komponent"
+
+#: src/filters/generic/normal-map.xml:121(para)
+msgid ""
+"The component used for X, Y coordinates: you can choose between the three "
+"RGB colors for the bumps."
+msgstr ""
+"Komponenten som används för X- och Y-koordinaterna: välj en av de tre RGB-"
+"kanalerna för ojämnheterna."
+
+#: src/filters/generic/normal-map.xml:125(para)
+msgid ""
+"Note that if you change these values, new colors are added to the existing "
+"colors, giving the complementary colors."
+msgstr ""
+"Observera att när du ändrar dessa värden läggs de nya färgerna till de "
+"befintliga, så att komplementfärger skapas."
+
+#: src/filters/generic/normal-map.xml:145(term)
+msgid "Flip X"
+msgstr "Vänd X"
+
+#: src/filters/generic/normal-map.xml:146(term)
+msgid "Flip Y"
+msgstr "Vänd Y"
+
+#: src/filters/generic/normal-map.xml:148(para)
+msgid ""
+"Flip the X, Y coordinates: flip bumps colors, horizontally and vertically. "
+"Bumps have a clear border and an opposite dark border, giving a feeling that"
+" light comes from a certain direction. To see bumps instead of hollows, "
+"light must come from the upper left corner; play with Flip X and Flip Y to "
+"get this lighting."
+msgstr ""
+"Vänd X- och Y-koordinaterna: då vänds färgerna för ojämnheterna horisontellt"
+" och vertikalt. Varje ojämnhet får en ljus kant och en mörk kant mittemot, "
+"vilket skapar intrycket av att ljuset kommer från ett visst håll. För att "
+"ojämnheterna ska se upphöjda ut i stället för urholkade måste ljuset komma "
+"från det övre vänstra hörnet. Prova att ändra Vänd X och Vänd Y tills ljuset"
+" ser rätt ut."
+
+#: src/filters/generic/normal-map.xml:162(para)
+msgid "After playing with Flip X and Flip Y"
+msgstr "Efter att ha lekt med Vänd X och Vänd Y"
+
+#: src/filters/generic/normal-map.xml:171(term)
+msgid "Full Z Range"
+msgstr "Fullt Z-intervall"
+
+#: src/filters/generic/normal-map.xml:173(para)
+msgid ""
+"Use the full [0, 1] range to encode the Z coordinates: You can get a more "
+"abrupt color gradient."
+msgstr ""
+"Använd hela intervallet [0, 1] för att koda Z-koordinaterna: då kan "
+"färgövergången bli brantare."
+
+#: src/filters/generic/normal-map.xml:193(term)
+msgid "Tileable"
+msgstr "Sömlös upprepning"
+
+#: src/filters/generic/normal-map.xml:195(para)
+msgid ""
+"If checked, the resulting image will be seamlessly tileable. The right side "
+"will match the left side and the top will match the bottom. This is "
+"interesting if your image will be repeatedly used in a Web background."
+msgstr ""
+"Om alternativet är markerat kan bilden upprepas utan skarvar: högerkanten "
+"passar mot vänsterkanten och överkanten mot nederkanten. Det är användbart "
+"om bilden ska upprepas som bakgrund på en webbsida."
+
+#: src/filters/generic/introduction.xml:9(title)
+#: src/filters/generic/introduction.xml:13(tertiary)
+msgid "Introduction"
+msgstr "Introduktion"
+
+#: src/filters/generic/introduction.xml:15(para)
+msgid ""
+"Generic filters are a catch-all for filters which can't be placed elsewhere."
+msgstr ""
+"Generiska filter samlar filter som inte passar i någon annan kategori."
+
+#: src/filters/generic/introduction.xml:19(para)
+msgid "This category describes the following filters:"
+msgstr "Denna kategori beskriver följande filter:"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/gegl-styles.xml:23(None)
+msgid ""
+"@@image: 'images/filters/examples/gegl-styles.png'; "
+"md5=30f09a2f8741820b5a457aeaf55ce0c5"
+msgstr ""
+"@@image: 'images/filters/examples/gegl-styles.png'; "
+"md5=30f09a2f8741820b5a457aeaf55ce0c5"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/gegl-styles.xml:67(None)
+msgid ""
+"@@image: 'images/filters/generic/text-styling-dialog-1.png'; "
+"md5=5b2a70a3cc6d416d66fd6c6fd454249f"
+msgstr ""
+"@@image: 'images/filters/generic/text-styling-dialog-1.png'; "
+"md5=5b2a70a3cc6d416d66fd6c6fd454249f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/gegl-styles.xml:280(None)
+msgid ""
+"@@image: 'images/filters/generic/text-styling-dialog-2.png'; "
+"md5=00f244d263a67a71ff1938234fbbfaba"
+msgstr ""
+"@@image: 'images/filters/generic/text-styling-dialog-2.png'; "
+"md5=00f244d263a67a71ff1938234fbbfaba"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/gegl-styles.xml:485(None)
+msgid ""
+"@@image: 'images/filters/generic/text-styling-dialog-3.png'; "
+"md5=2d5352633895def7de1f6039eafcf41a"
+msgstr ""
+"@@image: 'images/filters/generic/text-styling-dialog-3.png'; "
+"md5=2d5352633895def7de1f6039eafcf41a"
+
+#: src/filters/generic/gegl-styles.xml:5(title)
+#: src/filters/generic/gegl-styles.xml:10(tertiary)
+#: src/filters/generic/gegl-styles.xml:13(primary)
+msgid "Text Styling"
+msgstr "Textstil"
+
+#: src/filters/generic/gegl-styles.xml:19(title)
+msgid "Applying example for the Text Styling filter"
+msgstr "Exempel på filtret Textstil"
+
+#: src/filters/generic/gegl-styles.xml:26(para)
+msgid ""
+"Text Styling examples. Topmost unstyled text; second: color, outline and "
+"shadow applied; third: bevel and inner glow applied; bottom: image and "
+"outline image overlay applied."
+msgstr ""
+"Exempel på textstilar. Överst: text utan stil. Därunder: färg, kontur och "
+"skugga. Tredje raden: avfasning och inre glöd. Nederst: bildöverlagring och "
+"konturöverlagring."
+
+#: src/filters/generic/gegl-styles.xml:34(para)
+msgid ""
+"This filter allows you to combine and apply several styles to a layer, such "
+"as an outline, shadow, bevel, inner glow and image overlay. Although this "
+"can be especially useful for text, it works on other layers too. Some of the"
+" settings require an alpha channel and transparent areas for best results."
+msgstr ""
+"Med det här filtret kan du kombinera flera effekter på ett lager, till "
+"exempel kontur, skugga, avfasning, inre glöd och bildöverlagring. Det är "
+"särskilt användbart för text, men fungerar även på andra lager. Vissa "
+"inställningar ger bäst resultat om lagret har en alfakanal och genomskinliga"
+" områden."
+
+#: src/filters/generic/gegl-styles.xml:42(para)
+msgid ""
+"The settings consist of three parts. Which part is visible can be selected "
+"by changing <guilabel>Part of filter to be displayed</guilabel>."
+msgstr ""
+"Inställningarna är indelade i tre delar. Välj vilken del som ska visas med "
+"<guilabel>Del av filtret som ska visas</guilabel>."
+
+#: src/filters/generic/gegl-styles.xml:50(para)
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Generic</guisubmenu><guimenuitem>Text"
+" Styling…</guimenuitem></menuchoice>."
+msgstr ""
+"Du hittar filtret i huvudmenyn under "
+"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Generiska</guisubmenu><guimenuitem>Textstil…</guimenuitem></menuchoice>."
+
+#: src/filters/generic/gegl-styles.xml:63(title)
+msgid "<quote>Text Styling</quote> filter options"
+msgstr "Alternativ för filtret <quote>Textstil</quote>"
+
+#: src/filters/generic/gegl-styles.xml:85(term)
+msgid "Part of filter to be displayed"
+msgstr "Del av filter att visa"
+
+#: src/filters/generic/gegl-styles.xml:87(para)
+msgid ""
+"The settings consist of three parts. Which part is visible can be changed by"
+" selecting a choice from the drop-down list here. The choices are <link "
+"linkend=\"styles-page-1\">Color, Outline, Shadow</link>, <link "
+"linkend=\"styles-page-2\">Bevel and Inner Glow</link>, and <link "
+"linkend=\"styles-page-3\">Image upload and Outline Bevel</link>."
+msgstr ""
+"Inställningarna är indelade i tre delar. Välj vilken del som ska visas i "
+"rullgardinslistan: <link linkend=\"styles-page-1\">Färg, kontur och "
+"skugga</link>, <link linkend=\"styles-page-2\">Avfasning och inre "
+"glöd</link> eller <link linkend=\"styles-page-3\">Bildöverlagring och "
+"konturavfasning</link>."
+
+#: src/filters/generic/gegl-styles.xml:98(term)
+msgid "Color, Outline and Shadow"
+msgstr "Färg, kontur och skugga"
+
+#: src/filters/generic/gegl-styles.xml:100(para)
+msgid "The below settings control color, outline and shadow styles."
+msgstr "Inställningarna nedan styr färg, kontur och skugga."
+
+#: src/filters/generic/gegl-styles.xml:105(term)
+msgid "Color Overlay"
+msgstr "Färgöverlagring"
+
+#: src/filters/generic/gegl-styles.xml:107(para)
+msgid ""
+"This sets the color of the non-transparent areas of the layer or selection. "
+"Changing the color can be done by clicking the color button, or the color "
+"picker."
+msgstr ""
+"Anger färgen för de ogenomskinliga delarna av lagret eller markeringen. "
+"Klicka på färgknappen eller använd färgväljaren för att ändra färgen."
+
+#: src/filters/generic/gegl-styles.xml:115(term)
+msgid "Color policy"
+msgstr "Färgpolicy"
+
+#: src/filters/generic/gegl-styles.xml:122(term)
+msgid "No Color"
+msgstr "Ingen färg"
+
+#: src/filters/generic/gegl-styles.xml:124(para)
+msgid "Do not use the color selected here."
+msgstr "Använd inte färgen som väljs här."
+
+#: src/filters/generic/gegl-styles.xml:130(term)
+msgid "Multiply"
+msgstr "Multiplicera"
+
+#: src/filters/generic/gegl-styles.xml:132(para)
+msgid ""
+"Multiply the color of the selection or layer with that of the styles color."
+msgstr "Multiplicera färgen på markeringen eller lagret med stilfärgen."
+
+#: src/filters/generic/gegl-styles.xml:139(term)
+msgid "Solid Color"
+msgstr "Enfärgad"
+
+#: src/filters/generic/gegl-styles.xml:141(para)
+msgid "Replace the colors of the layer or selection with the styles color."
+msgstr "Ersätt färgerna på lagret eller markeringen med stilfärgen."
+
+#: src/filters/generic/gegl-styles.xml:117(para)
+msgid ""
+"This decides how the color is applied to the layer or selection. The choices"
+" are: <placeholder-1/>"
+msgstr ""
+"Avgör hur färgen tillämpas på lagret eller markeringen. Alternativen är: "
+"<placeholder-1/>"
+
+#: src/filters/generic/gegl-styles.xml:152(term)
+msgid "Enable Outline"
+msgstr "Aktivera kontur"
+
+#: src/filters/generic/gegl-styles.xml:154(para)
+msgid ""
+"When this is enabled, an outline will be created around the edges of the "
+"objects in the selection or layer. The following settings control the "
+"parameters used to create the outline."
+msgstr ""
+"När alternativet är aktiverat skapas en kontur runt objekten i markeringen "
+"eller lagret. Inställningarna nedan styr hur konturen skapas."
+
+#: src/filters/generic/gegl-styles.xml:163(term)
+msgid "Outline Opacity"
+msgstr "Konturopacitet"
+
+#: src/filters/generic/gegl-styles.xml:165(para)
+msgid ""
+"The opacity of the outline controls how transparent the outline will be."
+msgstr "Anger hur genomskinlig konturen är."
+
+#: src/filters/generic/gegl-styles.xml:172(term)
+msgid "Outline X"
+msgstr "X-kontur"
+
+#: src/filters/generic/gegl-styles.xml:173(term)
+msgid "Outline Y"
+msgstr "Y-kontur"
+
+#: src/filters/generic/gegl-styles.xml:175(para)
+msgid "These control the location where the outline starts."
+msgstr "Anger var konturen börjar."
+
+#: src/filters/generic/gegl-styles.xml:178(para)
+#: src/filters/generic/gegl-styles.xml:237(para)
+msgid ""
+"By default these slide together. You can click the lock to the right of the "
+"sliders to make them move separately (and vice versa)."
+msgstr ""
+"Som standard flyttas reglagen tillsammans. Klicka på låset till höger om dem"
+" om du vill kunna flytta dem var för sig. Klicka igen för att låsa ihop dem."
+
+#: src/filters/generic/gegl-styles.xml:186(term)
+msgid "Outline Grow Shape"
+msgstr "Konturens utökningsform"
+
+#: src/filters/generic/gegl-styles.xml:188(para)
+msgid ""
+"The shape used to grow the outline. Choices are <guilabel>Square</guilabel>,"
+" <guilabel>Circle</guilabel> (default), and <guilabel>Diamond</guilabel>."
+msgstr ""
+"Formen som används när konturen utökas. Alternativen är "
+"<guilabel>Fyrkant</guilabel>, <guilabel>Cirkel</guilabel> (standard) och "
+"<guilabel>Romb</guilabel>."
+
+#: src/filters/generic/gegl-styles.xml:196(term)
+msgid "Outline blur radius"
+msgstr "Oskärperadie för kontur"
+
+#: src/filters/generic/gegl-styles.xml:198(para)
+msgid "This determines the amount of blur to use on the outline."
+msgstr "Anger hur mycket konturen ska göras oskarp."
+
+#: src/filters/generic/gegl-styles.xml:204(term)
+msgid "Outline grow radius"
+msgstr "Konturens utökningsradie"
+
+#: src/filters/generic/gegl-styles.xml:206(para)
+msgid "This determines the size of the outline."
+msgstr "Anger konturens storlek."
+
+#: src/filters/generic/gegl-styles.xml:212(term)
+msgid "Outline's color"
+msgstr "Konturfärg"
+
+#: src/filters/generic/gegl-styles.xml:214(para)
+msgid ""
+"This sets the color of outline. Changing the color can be done by clicking "
+"the color button, or the color picker."
+msgstr ""
+"Anger konturens färg. Klicka på färgknappen eller använd färgväljaren för "
+"att ändra den."
+
+#: src/filters/generic/gegl-styles.xml:221(term)
+msgid "Shadow/Glow opacity"
+msgstr "Opacitet för skugga/glöd"
+
+#: src/filters/generic/gegl-styles.xml:223(para)
+msgid ""
+"This controls the visibility and transparency of the shadow glow around the "
+"outline. When set to 0.0 there is no shadow glow."
+msgstr ""
+"Anger hur synlig eller genomskinlig skuggan/glöden runt konturen är. Vid 0,0"
+" visas ingen skugga eller glöd."
+
+#: src/filters/generic/gegl-styles.xml:231(term)
+msgid "Shadow/Glow X"
+msgstr "Skugga/glödens X-position"
+
+#: src/filters/generic/gegl-styles.xml:232(term)
+msgid "Shadow/Glow Y"
+msgstr "Skugga/glödens Y-position"
+
+#: src/filters/generic/gegl-styles.xml:234(para)
+msgid "These control the location where the shadow glow starts."
+msgstr "Anger skuggan/glödens position."
+
+#: src/filters/generic/gegl-styles.xml:245(term)
+msgid "Shadow/Glow's color"
+msgstr "Färg för skugga/glöd"
+
+#: src/filters/generic/gegl-styles.xml:247(para)
+msgid ""
+"This sets the color of the shadow glow. Changing the color can be done by "
+"clicking the color button, or the color picker."
+msgstr ""
+"Anger skuggan/glödens färg. Klicka på färgknappen eller använd färgväljaren "
+"för att ändra den."
+
+#: src/filters/generic/gegl-styles.xml:254(term)
+msgid "Shadow/Glow grow radius"
+msgstr "Utökningsradie för skugga/glöd"
+
+#: src/filters/generic/gegl-styles.xml:256(para)
+msgid "The distance to expand the shadow glow before blurring."
+msgstr "Hur långt skuggan/glöden utökas innan den görs oskarp."
+
+#: src/filters/generic/gegl-styles.xml:262(term)
+msgid "Shadow/Glow blur radius"
+msgstr "Oskärperadie för skugga/glöd"
+
+#: src/filters/generic/gegl-styles.xml:264(para)
+msgid "This determines the amount of blur to use for the shadow glow."
+msgstr "Anger hur mycket skuggan/glöden ska göras oskarp."
+
+#: src/filters/generic/gegl-styles.xml:273(term)
+msgid "Bevel and Inner Glow"
+msgstr "Avfasning och inre glöd"
+
+#: src/filters/generic/gegl-styles.xml:276(title)
+msgid "<quote>Bevel and Inner Glow</quote> filter options"
+msgstr "Alternativ för filtret <quote>Avfasning och inre glöd</quote>"
+
+#: src/filters/generic/gegl-styles.xml:284(para)
+msgid "The below settings control bevel and inner glow styles."
+msgstr "Inställningarna nedan styr avfasningen och den inre glöden."
+
+#: src/filters/generic/gegl-styles.xml:289(term)
+msgid "Enable Bevel"
+msgstr "Aktivera avfasning"
+
+#: src/filters/generic/gegl-styles.xml:291(para)
+msgid ""
+"When enabled a bevel is added. The settings below define how exactly the "
+"bevel is made."
+msgstr ""
+"När alternativet är aktiverat läggs en avfasning till. Inställningarna nedan"
+" avgör hur den utformas."
+
+#: src/filters/generic/gegl-styles.xml:298(term)
+msgid "Bevel blend mode"
+msgstr "Blandningsläge för avfasning"
+
+#: src/filters/generic/gegl-styles.xml:300(para)
+msgid ""
+"This selects the blend mode that will be used to blend the bevel with the "
+"layer or selection. This affects how the two will be combined and thus the "
+"visual effect."
+msgstr ""
+"Välj blandningsläge för hur avfasningen kombineras med lagret eller "
+"markeringen. Blandningsläget påverkar det visuella resultatet."
+
+#: src/filters/generic/gegl-styles.xml:305(para)
+#: src/filters/generic/gegl-styles.xml:568(para)
+msgid ""
+"Choices are <guilabel>Multiply</guilabel>, <guilabel>Add</guilabel>, "
+"<guilabel>Hard Light</guilabel>, <guilabel>Darken</guilabel>, and "
+"<guilabel>Color Dodge</guilabel>."
+msgstr ""
+"Alternativen är <guilabel>Multiplicera</guilabel>, <guilabel>Lägg "
+"till</guilabel>, <guilabel>Hårt ljus</guilabel>, <guilabel>Gör "
+"mörkare</guilabel> och <guilabel>Färgblekning</guilabel>."
+
+#: src/filters/generic/gegl-styles.xml:314(term)
+msgid "Select Bevel"
+msgstr "Välj avfasning"
+
+#: src/filters/generic/gegl-styles.xml:316(para)
+msgid ""
+"You can choose between the following bevel types: <guilabel>Bump "
+"Bevel</guilabel> (the default) and <guilabel>Chamfer Bevel</guilabel>."
+msgstr ""
+"Du kan välja mellan två typer av avfasning: "
+"<guilabel>Reliefavfasning</guilabel> (standard) och "
+"<guilabel>Kantavfasning</guilabel>."
+
+#: src/filters/generic/gegl-styles.xml:323(term)
+msgid "Bump Bevel"
+msgstr "Reliefavfasning"
+
+#: src/filters/generic/gegl-styles.xml:325(para)
+msgid "Makes a 3D effect by adding an emboss effect on top of a blur."
+msgstr ""
+"Skapar en tredimensionell effekt genom att lägga en relief ovanpå en "
+"oskärpa."
+
+#: src/filters/generic/gegl-styles.xml:332(term)
+msgid "Chamfer Bevel"
+msgstr "Kantavfasning"
+
+#: src/filters/generic/gegl-styles.xml:334(para)
+msgid ""
+"Simulates lighting of chamfered 3D-edges. Chamfered edges are sloped edges "
+"between two faces of an object."
+msgstr ""
+"Simulerar ljussättning på fasade 3D-kanter. En fasad kant lutar mellan två "
+"av objektets ytor."
+
+#: src/filters/generic/gegl-styles.xml:344(term)
+msgid "Bevel depth"
+msgstr "Avfasningsdjup"
+
+#: src/filters/generic/gegl-styles.xml:346(para)
+#: src/filters/generic/gegl-styles.xml:579(para)
+msgid ""
+"This controls the emboss depth; i.e. how deep and detailed the bevel will "
+"be."
+msgstr "Anger reliefens djup och detaljrikedom."
+
+#: src/filters/generic/gegl-styles.xml:353(term)
+msgid "Bevel elevation"
+msgstr "Avfasningshöjd"
+
+#: src/filters/generic/gegl-styles.xml:355(para)
+#: src/filters/generic/gegl-styles.xml:588(para)
+msgid "This controls the elevation angle of the bevel."
+msgstr "Anger avfasningens höjdvinkel."
+
+#: src/filters/generic/gegl-styles.xml:361(term)
+msgid "Bevel azimuth"
+msgstr "Avfasningsazimut"
+
+#: src/filters/generic/gegl-styles.xml:363(para)
+#: src/filters/generic/gegl-styles.xml:596(para)
+msgid ""
+"This controls the angle of the light source illuminating and shading the "
+"bevel."
+msgstr "Anger vinkeln på ljuskällan som belyser och skuggar avfasningen."
+
+#: src/filters/generic/gegl-styles.xml:370(term)
+msgid "Bevel radius (bump only)"
+msgstr "Avfasningsradie (endast relief)"
+
+#: src/filters/generic/gegl-styles.xml:372(para)
+msgid ""
+"Only available for <guilabel>Bump Bevel</guilabel>. This determines the size"
+" of the softening for the bump."
+msgstr ""
+"Alternativet är bara tillgängligt för <guilabel>Reliefavfasning</guilabel> "
+"och anger hur mycket reliefen mjukas upp."
+
+#: src/filters/generic/gegl-styles.xml:379(term)
+msgid "Levels low output lighting for Bevel"
+msgstr "Ljusnivå för avfasningens mörka partier"
+
+#: src/filters/generic/gegl-styles.xml:380(term)
+msgid "Levels high output lighting for Bevel"
+msgstr "Ljusnivå för avfasningens ljusa partier"
+
+#: src/filters/generic/gegl-styles.xml:382(para)
+msgid ""
+"These allow adjustment of the low and high levels of the bevel, which "
+"control the dark and light areas."
+msgstr ""
+"Här justerar du avfasningens mörka och ljusa partier med de låga och höga "
+"nivåerna."
+
+#: src/filters/generic/gegl-styles.xml:389(term)
+msgid "Dark Bevel/ignore image mode"
+msgstr "Mörk avfasning/ignorera bildläge"
+
+#: src/filters/generic/gegl-styles.xml:391(para)
+#: src/filters/generic/gegl-styles.xml:652(para)
+msgid ""
+"This instructs the outline bevel to ignore image details if there is an "
+"image file overlay below it. It also allows outline bevel to work better "
+"when the user selects darker colors."
+msgstr ""
+"Om en bildöverlagring ligger under konturavfasningen gör det här "
+"alternativet att bildens detaljer ignoreras. Det kan också förbättra "
+"resultatet med mörkare färger."
+
+#: src/filters/generic/gegl-styles.xml:397(para)
+msgid ""
+"This effect is mainly intended for <guilabel>Bump Bevel</guilabel> and will "
+"be hardly noticeable when <guilabel>Chamfer Bevel</guilabel> is selected."
+msgstr ""
+"Effekten är främst avsedd för <guilabel>Reliefavfasning</guilabel> och märks"
+" knappt med <guilabel>Kantavfasning</guilabel>."
+
+#: src/filters/generic/gegl-styles.xml:405(term)
+msgid "Enable Inner Glow"
+msgstr "Aktivera inre glöd"
+
+#: src/filters/generic/gegl-styles.xml:407(para)
+msgid ""
+"When enabled an inner glow is added. The settings below define how exactly "
+"the inner glow is made."
+msgstr ""
+"När alternativet är aktiverat läggs en inre glöd till. Inställningarna nedan"
+" avgör hur den utformas."
+
+#: src/filters/generic/gegl-styles.xml:414(term)
+msgid "Blend mode of Inner Glow"
+msgstr "Blandningsläge för inre glöd"
+
+#: src/filters/generic/gegl-styles.xml:416(para)
+msgid ""
+"This selects the blend mode that will be used to blend the inner glow with "
+"the layer or selection. This affects how the two will be combined and thus "
+"the visual effect."
+msgstr ""
+"Välj blandningsläge för hur den inre glöden kombineras med lagret eller "
+"markeringen. Blandningsläget påverkar det visuella resultatet."
+
+#: src/filters/generic/gegl-styles.xml:421(para)
+msgid ""
+"Choices are <guilabel>Normal</guilabel>, <guilabel>Overlay</guilabel>, "
+"<guilabel>Screen</guilabel>, <guilabel>Hard Light</guilabel>, "
+"<guilabel>Color Dodge</guilabel>, and <guilabel>Plus</guilabel>."
+msgstr ""
+"Val är <guilabel>Normal</guilabel>, <guilabel>Överlagring</guilabel>, "
+"<guilabel>Skärm</guilabel>, <guilabel>Hårt ljus</guilabel>, "
+"<guilabel>Färgblekning</guilabel> och <guilabel>Plus</guilabel>."
+
+#: src/filters/generic/gegl-styles.xml:430(term)
+msgid "Inner Glow's blur radius"
+msgstr "Oskärperadie för inre glöd"
+
+#: src/filters/generic/gegl-styles.xml:432(para)
+msgid "This determines the size of the blur."
+msgstr "Detta avgör storleken på oskärpan."
+
+#: src/filters/generic/gegl-styles.xml:438(term)
+msgid "Inner Glow's grow radius"
+msgstr "Tillväxtradie för inre glöd"
+
+#: src/filters/generic/gegl-styles.xml:440(para)
+msgid "The distance to expand the inner glow before blurring."
+msgstr "Avståndet att expandera den inre glöden innan den görs oskarp."
+
+#: src/filters/generic/gegl-styles.xml:446(term)
+msgid "Inner Glow's opacity"
+msgstr "Opacitet för inre glöd"
+
+#: src/filters/generic/gegl-styles.xml:448(para)
+msgid "This determines how transparent or solid the inner glow will be."
+msgstr "Anger hur genomskinlig eller ogenomskinlig den inre glöden är."
+
+#: src/filters/generic/gegl-styles.xml:455(term)
+msgid "Inner Glow's color"
+msgstr "Färg för inre glöd"
+
+#: src/filters/generic/gegl-styles.xml:457(para)
+msgid ""
+"The color to use for the glow. By default picks the current foreground "
+"color, but it can be changed using either the color selection button or the "
+"color picker."
+msgstr ""
+"Färgen som används för glöden. Som standard används den aktuella "
+"förgrundsfärgen, men du kan ändra den med färgknappen eller färgväljaren."
+
+#: src/filters/generic/gegl-styles.xml:465(term)
+msgid "Inner Glow's unmodified pixel fix"
+msgstr "Korrigering för opåverkade bildpunkter i inre glöd"
+
+# Osäker betydelse på "thin shaped corners"
+#: src/filters/generic/gegl-styles.xml:467(para)
+msgid ""
+"Median blur covers unaffected pixels. Setting this slider too high will make"
+" it outline-like. Only slide it high enough to cover thin shaped corners."
+msgstr ""
+"Medianoskärpan täcker opåverkade bildpunkter. Om reglaget ställs för högt "
+"blir effekten lik en kontur. Dra upp det så mycket som behövs för att täcka "
+"tunna hörn i formen."
+
+#: src/filters/generic/gegl-styles.xml:478(term)
+msgid "Image upload and Outline Bevel"
+msgstr "Bildöverlagring och konturavfasning"
+
+#: src/filters/generic/gegl-styles.xml:481(title)
+msgid "<quote>Image upload and Outline Bevel</quote> filter options"
+msgstr ""
+"Alternativ för filtret <quote>Bildöverlagring och konturavfasning</quote>"
+
+#: src/filters/generic/gegl-styles.xml:489(para)
+msgid "The below settings control image overlay and outline bevel styles."
+msgstr "Inställningarna nedan styr bildöverlagringen och konturavfasningen."
+
+#: src/filters/generic/gegl-styles.xml:494(term)
+msgid "Enable image upload"
+msgstr "Aktivera bildöverlagring"
+
+#: src/filters/generic/gegl-styles.xml:496(para)
+msgid ""
+"When enabled an external image will be used as overlay and adjust related "
+"settings below it."
+msgstr ""
+"När alternativet är aktiverat används en extern bild som överlagring. Du kan"
+" ändra de relaterade inställningarna nedan."
+
+#: src/filters/generic/gegl-styles.xml:503(term)
+msgid "Image file overlay"
+msgstr "Bildöverlagring"
+
+#: src/filters/generic/gegl-styles.xml:505(para)
+msgid ""
+"This allows you to browse for and select an image on your computer to be "
+"used as image overlay. This will be shown on top of the opaque parts of the "
+"layer or selection."
+msgstr ""
+"Här kan du leta upp en bild på datorn som ska användas som överlagring. Den "
+"visas ovanpå de ogenomskinliga delarna av lagret eller markeringen."
+
+#: src/filters/generic/gegl-styles.xml:513(term)
+msgid "Opacity of image file overlay"
+msgstr "Opacitet för bildöverlagring"
+
+#: src/filters/generic/gegl-styles.xml:515(para)
+msgid ""
+"This setting allows you to adjust the opacity of the image overlay. By "
+"lowering the opacity you will be able to see a combination of the overlay "
+"and what's under it."
+msgstr ""
+"Här justerar du bildöverlagringens opacitet. Sänker du den ser du både "
+"överlagringen och det som ligger under."
+
+#: src/filters/generic/gegl-styles.xml:523(term)
+msgid "Saturation"
+msgstr "Färgmättnad"
+
+#: src/filters/generic/gegl-styles.xml:525(para)
+msgid ""
+"This allows you adjust the saturation of the image overlay, or anything "
+"below it when no image was chosen."
+msgstr ""
+"Här justerar du bildöverlagringens mättnad, eller mättnaden för det som "
+"ligger under om ingen bild har valts."
+
+#: src/filters/generic/gegl-styles.xml:532(term)
+msgid "Lightness"
+msgstr "Ljushet"
+
+#: src/filters/generic/gegl-styles.xml:534(para)
+msgid ""
+"This allows you adjust the lightness of the image overlay, or anything below"
+" it when no image was chosen."
+msgstr ""
+"Här justerar du bildöverlagringens ljushet, eller ljusheten för det som "
+"ligger under om ingen bild har valts."
+
+#: src/filters/generic/gegl-styles.xml:541(term)
+msgid "Enable advanced options on Outline (requires outline)"
+msgstr "Aktivera avancerade konturalternativ (kräver kontur)"
+
+#: src/filters/generic/gegl-styles.xml:543(para)
+msgid ""
+"When enabled, and <link linkend=\"styles-enable-outline\">Enable "
+"Outline</link> is enabled, the below settings can be used to set additional "
+"outline options."
+msgstr ""
+"När alternativet är aktiverat och <link linkend=\"styles-enable-"
+"outline\">Aktivera kontur</link> också är aktiverat kan inställningarna "
+"nedan användas för att ange fler konturalternativ."
+
+#: src/filters/generic/gegl-styles.xml:552(term)
+msgid "Enable Outline Bevel (requires advanced options)"
+msgstr "Aktivera konturavfasning (kräver avancerade alternativ)"
+
+#: src/filters/generic/gegl-styles.xml:554(para)
+#: src/filters/generic/gegl-styles.xml:613(para)
+msgid ""
+"When enabled and the advanced options setting is also enabled, it allows you"
+" to outline the bevel."
+msgstr ""
+"När alternativet och de avancerade inställningarna är aktiverade kan du "
+"lägga en kontur runt avfasningen."
+
+#: src/filters/generic/gegl-styles.xml:561(term)
+msgid "Outline Bevel blend mode"
+msgstr "Blandningsläge för konturavfasning"
+
+#: src/filters/generic/gegl-styles.xml:563(para)
+msgid ""
+"This selects the blend mode that will be used to blend the bevel with the "
+"outline. This affects how the two will be combined and thus the visual "
+"effect."
+msgstr ""
+"Välj blandningsläge för hur avfasningen kombineras med konturen. "
+"Blandningsläget påverkar det visuella resultatet."
+
+#: src/filters/generic/gegl-styles.xml:577(term)
+msgid "Outline Bevel depth"
+msgstr "Konturavfasningsdjup"
+
+#: src/filters/generic/gegl-styles.xml:586(term)
+msgid "Outline Bevel elevation"
+msgstr "Konturavfasningshöjd"
+
+#: src/filters/generic/gegl-styles.xml:594(term)
+msgid "Outline Bevel azimuth"
+msgstr "Konturavfasningsazimut"
+
+#: src/filters/generic/gegl-styles.xml:603(term)
+msgid "Outline Bevel radius"
+msgstr "Konturavfasningsradie"
+
+#: src/filters/generic/gegl-styles.xml:605(para)
+msgid "This determines the size of the softening for the bump."
+msgstr "Anger hur mycket reliefen mjukas upp."
+
+#: src/filters/generic/gegl-styles.xml:611(term)
+msgid "Enable image upload on Outline (requires advanced options)"
+msgstr "Aktivera bildöverlagring på konturen (kräver avancerade alternativ)"
+
+#: src/filters/generic/gegl-styles.xml:620(term)
+msgid "Outline image file overlay"
+msgstr "Konturens bildöverlagring"
+
+#: src/filters/generic/gegl-styles.xml:622(para)
+msgid ""
+"This allows you to browse for and select an image on your computer to be "
+"used as image overlay for the outline. This will be shown on top of the "
+"opaque parts of the outline."
+msgstr ""
+"Här kan du leta upp en bild på datorn som ska användas som överlagring på "
+"konturen. Den visas ovanpå konturens ogenomskinliga delar."
+
+#: src/filters/generic/gegl-styles.xml:630(term)
+msgid "Outline image opacity"
+msgstr "Opacitet för konturens bildöverlagring"
+
+#: src/filters/generic/gegl-styles.xml:632(para)
+msgid ""
+"This setting allows you to adjust the opacity of the image overlay for the "
+"outline. By lowering the opacity you will be able to see a combination of "
+"the overlay and what's under it."
+msgstr ""
+"Här justerar du opaciteten för konturens bildöverlagring. Sänker du den ser "
+"du både överlagringen och det som ligger under."
+
+#: src/filters/generic/gegl-styles.xml:640(term)
+msgid "Levels low output lighting for Outline Bevel"
+msgstr "Ljusnivå för konturavfasningens mörka partier"
+
+#: src/filters/generic/gegl-styles.xml:641(term)
+msgid "Levels high output lighting for Outline Bevel"
+msgstr "Ljusnivå för konturavfasningens ljusa partier"
+
+#: src/filters/generic/gegl-styles.xml:643(para)
+msgid ""
+"These allow adjustment of the low and high levels of the outline bevel, "
+"which control the dark and light areas."
+msgstr ""
+"Här justerar du konturavfasningens mörka och ljusa partier med de låga och "
+"höga nivåerna."
+
+#: src/filters/generic/gegl-styles.xml:650(term)
+msgid "Outline Dark Bevel/ignore image mode"
+msgstr "Mörk konturavfasning / ignorera bildläge"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/gegl-graph.xml:46(None)
+msgid ""
+"@@image: 'images/filters/generic/gegl_graph-dialog.png'; "
+"md5=b3bd1af520b5ed50b1ed6c96729d32d2"
+msgstr ""
+"@@image: 'images/filters/generic/gegl_graph-dialog.png'; "
+"md5=b3bd1af520b5ed50b1ed6c96729d32d2"
+
+#: src/filters/generic/gegl-graph.xml:9(title)
+#: src/filters/generic/gegl-graph.xml:14(tertiary)
+#: src/filters/generic/gegl-graph.xml:17(primary)
+msgid "GEGL Graph"
+msgstr "GEGL-graf"
+
+#: src/filters/generic/gegl-graph.xml:29(para)
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Generic</guisubmenu><guimenuitem>GEGL"
+" Graph…</guimenuitem></menuchoice>."
+msgstr ""
+"Du hittar filtret i huvudmenyn under "
+"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Generiska</guisubmenu><guimenuitem>GEGL-"
+"graf…</guimenuitem></menuchoice>."
+
+#: src/filters/generic/gegl-graph.xml:42(title)
+msgid "<quote>GEGL Graph</quote> options"
+msgstr "Alternativ för <quote>GEGL-graf</quote>"
+
+#: src/filters/generic/gegl-graph.xml:64(term)
+msgid "pipeline"
+msgstr "Processkedja"
+
+#: src/filters/generic/gegl-graph.xml:66(para)
+msgid ""
+"Here you can add one or more <ulink url=\"https://gegl.org/operations\">GEGL"
+" operations</ulink> that will be performed on the active layer."
+msgstr ""
+"Här kan du lägga till en eller flera <ulink "
+"url=\"https://gegl.org/operations\">GEGL-operationer</ulink> som ska köras "
+"på det aktiva lagret."
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/erode.xml:32(None)
+#: src/filters/generic/dilate.xml:30(None)
+msgid ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
+msgstr ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/erode.xml:41(None)
+msgid ""
+"@@image: 'images/filters/examples/generic-taj-erode.jpg'; "
+"md5=30d6f1d59a14db68f8883b173fe76d9d"
+msgstr ""
+"@@image: 'images/filters/examples/generic-taj-erode.jpg'; "
+"md5=30d6f1d59a14db68f8883b173fe76d9d"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/erode.xml:62(None)
+msgid ""
+"@@image: 'images/filters/generic/erode-pixel.png'; "
+"md5=20b1c011900b45d7ae767d474290c35c"
+msgstr ""
+"@@image: 'images/filters/generic/erode-pixel.png'; "
+"md5=20b1c011900b45d7ae767d474290c35c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/erode.xml:76(None)
+msgid ""
+"@@image: 'images/filters/generic/erode-zone.png'; "
+"md5=0b997860ba66edcceb4fbd2887b9a2b5"
+msgstr ""
+"@@image: 'images/filters/generic/erode-zone.png'; "
+"md5=0b997860ba66edcceb4fbd2887b9a2b5"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/erode.xml:89(None)
+msgid ""
+"@@image: 'images/filters/generic/erode-milord.png'; "
+"md5=46f510780cc61184db917d5d3979a66d"
+msgstr ""
+"@@image: 'images/filters/generic/erode-milord.png'; "
+"md5=46f510780cc61184db917d5d3979a66d"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/erode.xml:117(None)
+msgid ""
+"@@image: 'images/filters/examples/erode-text.png'; "
+"md5=045b20bca2b0aa41b9c433fb69422485"
+msgstr ""
+"@@image: 'images/filters/examples/erode-text.png'; "
+"md5=045b20bca2b0aa41b9c433fb69422485"
+
+#: src/filters/generic/erode.xml:14(title)
+#: src/filters/generic/erode.xml:19(tertiary)
+#: src/filters/generic/erode.xml:22(primary)
+msgid "Erode"
+msgstr "Erodera"
+
+#: src/filters/generic/erode.xml:28(title)
+msgid "Applying example for the Erode filter"
+msgstr "Exempel på filtret Erodera"
+
+#: src/filters/generic/erode.xml:35(para)
+#: src/filters/generic/dilate.xml:33(para)
+msgid "Original image"
+msgstr "Ursprunglig bild"
+
+#: src/filters/generic/erode.xml:44(para)
+#: src/filters/generic/dilate.xml:42(para)
+msgid "Filter applied"
+msgstr "Filter tillämpat"
+
+#: src/filters/generic/erode.xml:48(para)
+msgid ""
+"This filter widens and enhances dark areas of the active layer or selection."
+msgstr ""
+"Filtret utvidgar och förstärker mörka områden i det aktiva lagret eller "
+"markeringen."
+
+#: src/filters/generic/erode.xml:52(para)
+msgid ""
+"For every image pixel, it brings the pixel Value (luminosity) into line with"
+" the lowest Value (the darkest) of the 8 neighboring pixels (3×3 matrix). "
+"So, a dark pixel is added around dark areas. An isolated pixel on a brighter"
+" background will be changed to a big <quote>pixel</quote>, composed of 9 "
+"pixels, and that will create some noise in the image."
+msgstr ""
+"För varje bildpunkt sätts ljushetsvärdet till det lägsta värdet (det "
+"mörkaste) bland de åtta grannbildpunkterna i en 3×3-matris. En mörk "
+"bildpunkt läggs alltså till kring mörka områden. En enstaka bildpunkt på en "
+"ljusare bakgrund blir ett större <quote>bildpunktsblock</quote> med nio "
+"bildpunkter, vilket kan skapa brus i bilden."
+
+#: src/filters/generic/erode.xml:65(para)
+msgid ""
+"In this image, the studied pixel has a red border and the studied 3×3 matrix"
+" has a green border. Thus when the pixel marked with <quote>I</quote> is "
+"inside the green border, the studied pixel turns to black."
+msgstr ""
+"I den här bilden markeras den undersökta bildpunkten med röd kant och "
+"3×3-matrisen med grön kant. När bildpunkten som märkts <quote>I</quote> "
+"ligger innanför den gröna kanten blir den undersökta bildpunkten svart."
+
+#: src/filters/generic/erode.xml:70(para)
+msgid "A larger dark area will expand by one pixel in all directions:"
+msgstr "Ett större mörkt område utvidgas med en bildpunkt åt alla håll:"
+
+#: src/filters/generic/erode.xml:79(para)
+msgid "The filter was applied 3 times."
+msgstr "Filtret tillämpades tre gånger."
+
+#: src/filters/generic/erode.xml:82(para)
+msgid ""
+"On more complex images, dark areas are widened and enhanced the same, and "
+"somewhat pixelated. Here, the filter was applied 3 times:"
+msgstr ""
+"Även i mer komplexa bilder utvidgas de mörka områdena på samma sätt och blir"
+" något pixliga. Här har filtret tillämpats tre gånger:"
+
+#: src/filters/generic/erode.xml:92(para)
+msgid ""
+"Of course, if background is darker than foreground, it will cover the whole "
+"image."
+msgstr ""
+"Om bakgrunden är mörkare än förgrunden täcker den förstås hela bilden."
+
+#: src/filters/generic/erode.xml:100(para)
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Generic</guisubmenu><guimenuitem>Erode</guimenuitem></menuchoice>."
+msgstr ""
+"Du hittar filtret i huvudmenyn under "
+"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Generiska</guisubmenu><guimenuitem>Erodera</guimenuitem></menuchoice>."
+
+#: src/filters/generic/erode.xml:111(title)
+#: src/filters/generic/dilate.xml:88(title)
+#: src/filters/generic/convol-matrix.xml:278(title)
+msgid "Examples"
+msgstr "Exempel"
+
+#: src/filters/generic/erode.xml:113(title)
+msgid "Erode text"
+msgstr "Erodera text"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/distance-map.xml:48(None)
+msgid ""
+"@@image: 'images/filters/generic/dist_map-dialog.png'; "
+"md5=5c2172d4589068cf40822b0eb5016ed6"
+msgstr ""
+"@@image: 'images/filters/generic/dist_map-dialog.png'; "
+"md5=5c2172d4589068cf40822b0eb5016ed6"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/distance-map.xml:95(None)
+msgid ""
+"@@image: 'images/filters/examples/generic/dist_map-orig.png'; "
+"md5=f4726362d161c226a0c17888f937dd54"
+msgstr ""
+"@@image: 'images/filters/examples/generic/dist_map-orig.png'; "
+"md5=f4726362d161c226a0c17888f937dd54"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/distance-map.xml:110(None)
+msgid ""
+"@@image: 'images/filters/examples/generic/dist_map-low-0.png'; "
+"md5=ac0bfb5b11349ce046c89786bed38aa0"
+msgstr ""
+"@@image: 'images/filters/examples/generic/dist_map-low-0.png'; "
+"md5=ac0bfb5b11349ce046c89786bed38aa0"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/distance-map.xml:121(None)
+msgid ""
+"@@image: 'images/filters/examples/generic/dist_map-low-1.png'; "
+"md5=fbf065a34ef39a543e6916e27428af55"
+msgstr ""
+"@@image: 'images/filters/examples/generic/dist_map-low-1.png'; "
+"md5=fbf065a34ef39a543e6916e27428af55"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/distance-map.xml:132(None)
+msgid ""
+"@@image: 'images/filters/examples/generic/dist_map-low-2.png'; "
+"md5=c7a8a741eee72340cd1d7c7d0fb41ac8"
+msgstr ""
+"@@image: 'images/filters/examples/generic/dist_map-low-2.png'; "
+"md5=c7a8a741eee72340cd1d7c7d0fb41ac8"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/distance-map.xml:143(None)
+#: src/filters/generic/distance-map.xml:188(None)
+msgid ""
+"@@image: 'images/filters/examples/generic/dist_map-low-3.png'; "
+"md5=4aa826d6d4955a4954b87eb596d79954"
+msgstr ""
+"@@image: 'images/filters/examples/generic/dist_map-low-3.png'; "
+"md5=4aa826d6d4955a4954b87eb596d79954"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/distance-map.xml:199(None)
+msgid ""
+"@@image: 'images/filters/examples/generic/dist_map-nonormalize.png'; "
+"md5=48be95baf3d1b0942c4e08272177882a"
+msgstr ""
+"@@image: 'images/filters/examples/generic/dist_map-nonormalize.png'; "
+"md5=48be95baf3d1b0942c4e08272177882a"
+
+# Distance Transform -> Avståndstransform i senare GEGL-versioner
+#: src/filters/generic/distance-map.xml:9(title)
+#: src/filters/generic/distance-map.xml:14(tertiary)
+#: src/filters/generic/distance-map.xml:17(primary)
+msgid "Distance Map"
+msgstr "Avståndskarta"
+
+#: src/filters/generic/distance-map.xml:22(para)
+msgid ""
+"Each pixel in the image is replaced with a gray value dependent on the "
+"distance to the nearest obstacle pixel, generally a boundary pixel. "
+"Different methods can be used to calculate the distance."
+msgstr ""
+"Varje bildpunkt ersätts med ett gråvärde som beror på avståndet till "
+"närmaste hinderpunkt, vanligtvis en kantpunkt. Avståndet kan beräknas med "
+"olika metoder."
+
+#: src/filters/generic/distance-map.xml:31(para)
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Generic</guisubmenu><guimenuitem>Distance"
+" Map…</guimenuitem></menuchoice>."
+msgstr ""
+"Du hittar filtret i huvudmenyn under "
+"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Generiska</guisubmenu><guimenuitem>Avståndskarta…</guimenuitem></menuchoice>."
+
+#: src/filters/generic/distance-map.xml:44(title)
+msgid "<quote>Distance Map</quote> options"
+msgstr "Alternativ för <quote>Avståndskarta</quote>"
+
+#: src/filters/generic/distance-map.xml:66(term)
+msgid "Metric"
+msgstr "Metrik"
+
+#: src/filters/generic/distance-map.xml:68(para)
+msgid "<quote>Metric</quote> is a topology term. Three methods are available:"
+msgstr "<quote>Metrik</quote> är en topologisk term. Tre metoder finns:"
+
+#: src/filters/generic/distance-map.xml:76(term)
+msgid "Edge handling"
+msgstr "Kanthantering"
+
+#: src/filters/generic/distance-map.xml:78(para)
+msgid ""
+"This defines how areas outside the input are considered when calculating "
+"distance. Choices are: <guilabel>Below threshold</guilabel> and "
+"<guilabel>Above threshold</guilabel>."
+msgstr ""
+"Anger hur områden utanför indatan behandlas när avståndet beräknas. "
+"Alternativen är: <guilabel>Under tröskelvärdet</guilabel> och <guilabel>Över"
+" tröskelvärdet</guilabel>."
+
+#: src/filters/generic/distance-map.xml:87(term)
+msgid "Threshold low"
+msgstr "Nedre tröskelvärde"
+
+#: src/filters/generic/distance-map.xml:89(para)
+msgid "Default is 0. Increasing this value selects higher lightness pixels"
+msgstr ""
+"Standardvärdet är 0. Ett högre värde väljer bildpunkter med högre ljushet"
+
+#: src/filters/generic/distance-map.xml:98(para)
+msgid ""
+"Original image for examples. Threshold low will be progressively increased. "
+"Lightness: dark red = 0.070; bright red = 0.223; green = 0.133"
+msgstr ""
+"Exempelbild. Det nedre tröskelvärdet höjs stegvis. Ljushet: mörkröd = 0,070;"
+" ljusröd = 0,223; grön = 0,133"
+
+#: src/filters/generic/distance-map.xml:106(title)
+msgid "<quote>Threshold low</quote> example"
+msgstr "Exempel på <quote>nedre tröskelvärde</quote>"
+
+#: src/filters/generic/distance-map.xml:113(para)
+msgid "Threshold low = 0: only border distances are visible."
+msgstr "Nedre tröskelvärde = 0: endast avstånden till kanterna syns."
+
+#: src/filters/generic/distance-map.xml:124(para)
+msgid "Threshold low = 0.070: <quote>dark red</quote> circle appears."
+msgstr "Nedre tröskelvärde = 0,070: en <quote>mörkröd</quote> cirkel visas."
+
+#: src/filters/generic/distance-map.xml:135(para)
+msgid "Threshold low = 0.133: <quote>green</quote> circle appears."
+msgstr "Nedre tröskelvärde = 0,133: en <quote>grön</quote> cirkel visas."
+
+#: src/filters/generic/distance-map.xml:146(para)
+msgid "Threshold low = 0.223: <quote>bright red</quote> circle appears."
+msgstr "Nedre tröskelvärde = 0,223: en <quote>ljusröd</quote> cirkel visas."
+
+#: src/filters/generic/distance-map.xml:156(term)
+msgid "Threshold high"
+msgstr "Övre tröskelvärde"
+
+#: src/filters/generic/distance-map.xml:158(para)
+msgid "Default is 1. Decreasing this value makes result darker."
+msgstr "Standardvärdet är 1. Om värdet sänks blir resultatet mörkare."
+
+#: src/filters/generic/distance-map.xml:164(term)
+msgid "Grayscale Averaging"
+msgstr "Medelvärdesbildning i gråskala"
+
+#: src/filters/generic/distance-map.xml:166(para)
+msgid "Number of computations for grayscale averaging."
+msgstr "Antal beräkningar för medelvärde i gråskala."
+
+#: src/filters/generic/distance-map.xml:172(term)
+#: src/filters/generic/convol-matrix.xml:154(term)
+msgid "Normalize"
+msgstr "Normalisera"
+
+#: src/filters/generic/distance-map.xml:174(para)
+msgid ""
+"This option is checked by default. When checked, all distances are "
+"normalized into a range of 0.0 to 1.0."
+msgstr ""
+"Detta alternativ är ikryssat som standard. När det är ikryssat normaliseras "
+"alla avstånd till intervallet 0,0 till 1,0."
+
+#: src/filters/generic/distance-map.xml:178(para)
+msgid ""
+"If you uncheck this option, non-obstacle pixels will appear white because "
+"their calculated distance will be greater than or equal to 1.0."
+msgstr ""
+"Om du avmarkerar alternativet visas bildpunkter utan hinder som vita, "
+"eftersom deras beräknade avstånd är minst 1,0."
+
+#: src/filters/generic/distance-map.xml:184(title)
+msgid "<quote>Normalize</quote> example"
+msgstr "Exempel för <quote>Normalisera</quote>"
+
+#: src/filters/generic/distance-map.xml:191(para)
+msgid "Normalize option checked."
+msgstr "Alternativet Normalisera ikryssat."
+
+#: src/filters/generic/distance-map.xml:202(para)
+msgid "Normalize option unchecked."
+msgstr "Alternativet Normalisera avmarkerat."
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/dilate.xml:39(None)
+msgid ""
+"@@image: 'images/filters/examples/generic-taj-dilate.jpg'; "
+"md5=c22c8d6ec33d367d105e32ee1000085f"
+msgstr ""
+"@@image: 'images/filters/examples/generic-taj-dilate.jpg'; "
+"md5=c22c8d6ec33d367d105e32ee1000085f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/dilate.xml:68(None)
+msgid ""
+"@@image: 'images/filters/examples/dilate-noise-removal.png'; "
+"md5=c51a9d508dacd9f0ea095955c0a6ee19"
+msgstr ""
+"@@image: 'images/filters/examples/dilate-noise-removal.png'; "
+"md5=c51a9d508dacd9f0ea095955c0a6ee19"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/dilate.xml:94(None)
+msgid ""
+"@@image: 'images/filters/examples/dilate-neon.png'; "
+"md5=7a61a9ccb519761faf80bf22df947f07"
+msgstr ""
+"@@image: 'images/filters/examples/dilate-neon.png'; "
+"md5=7a61a9ccb519761faf80bf22df947f07"
+
+#: src/filters/generic/dilate.xml:13(title)
+#: src/filters/generic/dilate.xml:17(tertiary)
+#: src/filters/generic/dilate.xml:20(primary)
+#: src/filters/generic/dilate.xml:26(title)
+msgid "Dilate"
+msgstr "Utvidga"
+
+#: src/filters/generic/dilate.xml:46(para)
+msgid ""
+"This filter widens and enhances bright areas of the active layer or "
+"selection."
+msgstr ""
+"Filtret utvidgar och förstärker ljusa områden i det aktiva lagret eller "
+"markeringen."
+
+#: src/filters/generic/dilate.xml:50(para)
+msgid ""
+"For every image pixel, it brings the pixel Value (luminosity) into line with"
+" the upper value (the brightest) of the 8 neighboring pixels (3×3 matrix). "
+"So, a bright pixel is added around bright areas. An isolated pixel on a "
+"brighter background will be deleted. A larger bright area will dilate by one"
+" pixel in all directions."
+msgstr ""
+"För varje bildpunkt sätts ljushetsvärdet till det högsta värdet (det "
+"ljusaste) bland de åtta grannbildpunkterna i en 3×3-matris. En ljus "
+"bildpunkt läggs alltså till kring ljusa områden. En enstaka bildpunkt mot en"
+" ännu ljusare bakgrund tas bort. Större ljusa områden utvidgas med en "
+"bildpunkt åt alla håll."
+
+#: src/filters/generic/dilate.xml:57(para)
+msgid ""
+"On complex images, bright areas are widened and enhanced the same, and "
+"somewhat pixelated."
+msgstr ""
+"Även i komplexa bilder utvidgas de ljusa områdena på samma sätt och blir "
+"något pixliga."
+
+#: src/filters/generic/dilate.xml:64(title)
+msgid "<quote>Dilate</quote> example"
+msgstr "Exempel på <quote>Utvidga</quote>"
+
+#: src/filters/generic/dilate.xml:61(para)
+msgid "On a solid background, this filter can delete noise: <placeholder-1/>"
+msgstr ""
+"På en enfärgad bakgrund kan detta filter ta bort brus: <placeholder-1/>"
+
+#: src/filters/generic/dilate.xml:77(para)
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Generic</guisubmenu><guimenuitem>Dilate</guimenuitem></menuchoice>."
+msgstr ""
+"Du hittar filtret i huvudmenyn under "
+"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Generiska</guisubmenu><guimenuitem>Utvidga</guimenuitem></menuchoice>."
+
+#: src/filters/generic/dilate.xml:90(title)
+msgid "Dilate neon effect"
+msgstr "Neoneffekt med filtret Utvidga"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/convol-matrix.xml:56(None)
+msgid ""
+"@@image: 'images/filters/examples/convolution-calculate.png'; "
+"md5=3b819fb436918115d670835ed13845f1"
+msgstr ""
+"@@image: 'images/filters/examples/convolution-calculate.png'; "
+"md5=3b819fb436918115d670835ed13845f1"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/convol-matrix.xml:95(None)
+msgid ""
+"@@image: 'images/filters/generic/convolution.png'; "
+"md5=d15991b4b87f7c1e8ab38a2a207ee580"
+msgstr ""
+"@@image: 'images/filters/generic/convolution.png'; "
+"md5=d15991b4b87f7c1e8ab38a2a207ee580"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/convol-matrix.xml:188(None)
+msgid ""
+"@@image: 'images/filters/generic/convolution-milord.png'; "
+"md5=4e7163e01397e7a91820a25d5e399d0a"
+msgstr ""
+"@@image: 'images/filters/generic/convolution-milord.png'; "
+"md5=4e7163e01397e7a91820a25d5e399d0a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/convol-matrix.xml:199(None)
+msgid ""
+"@@image: 'images/filters/generic/convolution-extend.png'; "
+"md5=093b420d3a4c783d0eb1965f801ba98e"
+msgstr ""
+"@@image: 'images/filters/generic/convolution-extend.png'; "
+"md5=093b420d3a4c783d0eb1965f801ba98e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/convol-matrix.xml:210(None)
+msgid ""
+"@@image: 'images/filters/generic/convolution-crop.png'; "
+"md5=1f1637609f2990c88ef1aa0f52535f4f"
+msgstr ""
+"@@image: 'images/filters/generic/convolution-crop.png'; "
+"md5=1f1637609f2990c88ef1aa0f52535f4f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/convol-matrix.xml:221(None)
+msgid ""
+"@@image: 'images/filters/generic/convolution-wrap.png'; "
+"md5=d5bd4007f7f3f71699c2679a49e51048"
+msgstr ""
+"@@image: 'images/filters/generic/convolution-wrap.png'; "
+"md5=d5bd4007f7f3f71699c2679a49e51048"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/convol-matrix.xml:288(None)
+msgid ""
+"@@image: 'images/filters/examples/convolution-sharpen.png'; "
+"md5=00d583583f501594539de1dfe17fd2de"
+msgstr ""
+"@@image: 'images/filters/examples/convolution-sharpen.png'; "
+"md5=00d583583f501594539de1dfe17fd2de"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/convol-matrix.xml:294(None)
+msgid ""
+"@@image: 'images/filters/examples/generic-taj-convmatrix-sharpen.jpg'; "
+"md5=a8f08c8a293242951879a48b955f4bc7"
+msgstr ""
+"@@image: 'images/filters/examples/generic-taj-convmatrix-sharpen.jpg'; "
+"md5=a8f08c8a293242951879a48b955f4bc7"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/convol-matrix.xml:303(None)
+msgid ""
+"@@image: 'images/filters/examples/convolution-blur.png'; "
+"md5=3b7ca8d6b2802e64899cbaa2952a3882"
+msgstr ""
+"@@image: 'images/filters/examples/convolution-blur.png'; "
+"md5=3b7ca8d6b2802e64899cbaa2952a3882"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/convol-matrix.xml:309(None)
+msgid ""
+"@@image: 'images/filters/examples/generic-taj-convmatrix-blur.jpg'; "
+"md5=7b113f082b2c42c85ec38875c302a217"
+msgstr ""
+"@@image: 'images/filters/examples/generic-taj-convmatrix-blur.jpg'; "
+"md5=7b113f082b2c42c85ec38875c302a217"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/convol-matrix.xml:318(None)
+msgid ""
+"@@image: 'images/filters/examples/convolution-edge.png'; "
+"md5=7c4d28f00bf2e7b3c00e67358ec7cdff"
+msgstr ""
+"@@image: 'images/filters/examples/convolution-edge.png'; "
+"md5=7c4d28f00bf2e7b3c00e67358ec7cdff"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/convol-matrix.xml:324(None)
+msgid ""
+"@@image: 'images/filters/examples/generic-taj-convmatrix-edge-enhance.jpg'; "
+"md5=c07e80da16324fb58940aabc7b9e646f"
+msgstr ""
+"@@image: 'images/filters/examples/generic-taj-convmatrix-edge-enhance.jpg'; "
+"md5=c07e80da16324fb58940aabc7b9e646f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/convol-matrix.xml:333(None)
+msgid ""
+"@@image: 'images/filters/examples/convolution-edge-detect1.png'; "
+"md5=8795e750c505ed77264c216b539a5379"
+msgstr ""
+"@@image: 'images/filters/examples/convolution-edge-detect1.png'; "
+"md5=8795e750c505ed77264c216b539a5379"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/convol-matrix.xml:339(None)
+msgid ""
+"@@image: 'images/filters/examples/generic-taj-convmatrix-edge-detect.jpg'; "
+"md5=dc7e07a35957fec697cea2b6e3721cf7"
+msgstr ""
+"@@image: 'images/filters/examples/generic-taj-convmatrix-edge-detect.jpg'; "
+"md5=dc7e07a35957fec697cea2b6e3721cf7"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/convol-matrix.xml:348(None)
+msgid ""
+"@@image: 'images/filters/examples/convolution-emboss.png'; "
+"md5=224b64a5d929ac012e2f76ec44a28b8f"
+msgstr ""
+"@@image: 'images/filters/examples/convolution-emboss.png'; "
+"md5=224b64a5d929ac012e2f76ec44a28b8f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/generic/convol-matrix.xml:354(None)
+msgid ""
+"@@image: 'images/filters/examples/generic-taj-convmatrix-emboss.jpg'; "
+"md5=3a15d5aaf2852a99dd8b35027c0309bc"
+msgstr ""
+"@@image: 'images/filters/examples/generic-taj-convmatrix-emboss.jpg'; "
+"md5=3a15d5aaf2852a99dd8b35027c0309bc"
+
+#: src/filters/generic/convol-matrix.xml:8(title)
+#: src/filters/generic/convol-matrix.xml:13(tertiary)
+#: src/filters/generic/convol-matrix.xml:16(primary)
+msgid "Convolution Matrix"
+msgstr "Faltningsmatris"
+
+#: src/filters/generic/convol-matrix.xml:21(para)
+msgid ""
+"Here is a mathematician's domain. Most of filters are using convolution "
+"matrix. With the Convolution Matrix filter, if the fancy takes you, you can "
+"build a custom filter."
+msgstr ""
+"Här kommer lite matematik. De flesta filter använder faltningsmatriser. Med "
+"filtret Faltningsmatris kan du skapa egna filter."
+
+#: src/filters/generic/convol-matrix.xml:26(para)
+msgid ""
+"What is a convolution matrix? It's possible to get a rough idea of it "
+"without using mathematical tools that only a few ones know. Convolution is "
+"the treatment of a matrix by another one which is called "
+"<quote>kernel</quote>."
+msgstr ""
+"Vad är en faltningsmatris? Du kan få en grov uppfattning utan att använda "
+"avancerad matematik. Faltning innebär att en matris behandlas med en annan "
+"matris, som kallas <quote>kärna</quote>."
+
+#: src/filters/generic/convol-matrix.xml:32(para)
+msgid ""
+"The Convolution Matrix filter uses a first matrix which is the Image to be "
+"treated. The image is a bi-dimensional collection of pixels in rectangular "
+"coordinates. The used kernel depends on the effect you want."
+msgstr ""
+"Filtret Faltningsmatris använder bilden som den första matrisen. En bild är "
+"en tvådimensionell samling bildpunkter ordnade i ett rektangulärt "
+"koordinatsystem. Kärnan som används beror på vilken effekt du vill uppnå."
+
+#: src/filters/generic/convol-matrix.xml:37(para)
+msgid ""
+"GIMP uses 5×5 or 3×3 matrices. We will consider only 3×3 matrices, they are "
+"the most used and they are enough for all effects you want. If all border "
+"values of a kernel are set to zero, then system will consider it as a 3×3 "
+"matrix."
+msgstr ""
+"GIMP använder matriser på 5×5 eller 3×3. Här går vi igenom 3×3-matriser, som"
+" används oftast och räcker för de flesta effekter. Om alla värden längs "
+"kärnans kanter är 0 behandlar systemet den som en 3×3-matris."
+
+#: src/filters/generic/convol-matrix.xml:43(para)
+msgid ""
+"The filter studies successively every pixel of the image. For each of them, "
+"which we will call the <quote>initial pixel</quote>, it multiplies the value"
+" of this pixel and values of the 8 surrounding pixels by the kernel "
+"corresponding value. Then it adds the results, and the initial pixel is set "
+"to this final result value."
+msgstr ""
+"Filtret går igenom bildens bildpunkter en i taget. Vi kallar den aktuella "
+"bildpunkten för <quote>startbildpunkten</quote>. Värdet för startbildpunkten"
+" och värdena för dess åtta omgivande bildpunkter multipliceras med "
+"motsvarande värden i kärnan. Därefter summeras resultaten och "
+"startbildpunkten tilldelas summan."
+
+#: src/filters/generic/convol-matrix.xml:50(para)
+msgid "A simple example:"
+msgstr "Ett enkelt exempel:"
+
+#: src/filters/generic/convol-matrix.xml:59(para)
+msgid ""
+"On the left is the image matrix: each pixel is marked with its value. The "
+"initial pixel has a red border. The kernel action area has a green border. "
+"In the middle is the kernel and, on the right is the convolution result."
+msgstr ""
+"Till vänster visas bildmatrisen: varje bildpunkt är märkt med sitt värde. "
+"Startbildpunkten markeras med röd kant och kärnans arbetsområde med grön "
+"kant. I mitten visas kärnan och till höger resultatet av faltningen."
+
+#: src/filters/generic/convol-matrix.xml:65(para)
+msgid ""
+"Here is what happened: the filter read successively, from left to right and "
+"from top to bottom, all the pixels of the kernel action area. It multiplied "
+"the value of each of them by the kernel corresponding value and added "
+"results. The initial pixel has become 42: (40*0)+(42*1)+(46*0) + "
+"(46*0)+(50*0)+(55*0) + (52*0)+(56*0)+(58*0) = 42. (the filter doesn't work "
+"on the image but on a copy). As a graphical result, the initial pixel moved "
+"a pixel downwards."
+msgstr ""
+"Filtret läste i tur och ordning alla bildpunkter i kärnans arbetsområde, "
+"från vänster till höger och uppifrån och ned. Värdet för varje bildpunkt "
+"multiplicerades med motsvarande värde i kärnan och resultaten summerades. "
+"Startbildpunkten får då värdet 42: (40*0)+(42*1)+(46*0) + "
+"(46*0)+(50*0)+(55*0) + (52*0)+(56*0)+(58*0) = 42. (Filtret arbetar på en "
+"kopia, inte direkt på bilden.) I resultatbilden har startbildpunkten "
+"flyttats en bildpunkt nedåt."
+
+#: src/filters/generic/convol-matrix.xml:78(para)
+msgid ""
+"This filter is found in the main menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Generic</guisubmenu><guimenuitem>Convolution"
+" Matrix…</guimenuitem></menuchoice>."
+msgstr ""
+"Detta filter hittas i huvudmenyn under "
+"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Allmänna</guisubmenu><guimenuitem>Faltningsmatris…</guimenuitem></menuchoice>."
+
+#: src/filters/generic/convol-matrix.xml:91(title)
+msgid "<quote>Convolution matrix</quote> options"
+msgstr "Alternativ för <quote>Faltningsmatris</quote>"
+
+#: src/filters/generic/convol-matrix.xml:113(term)
+msgid "Matrix"
+msgstr "Matris"
+
+#: src/filters/generic/convol-matrix.xml:115(para)
+msgid ""
+"This is the 5×5 kernel matrix: you enter wanted values directly into boxes."
+msgstr ""
+"Det här är en kärnmatris på 5×5: ange önskade värden direkt i rutorna."
+
+#: src/filters/generic/convol-matrix.xml:121(term)
+msgid "Divisor"
+msgstr "Delare"
+
+#: src/filters/generic/convol-matrix.xml:123(para)
+msgid ""
+"The result of previous calculation will be divided by this divisor. You will"
+" hardly use anything else than 1, which leaves results unchanged, and 9 or "
+"25 according to matrix size, which gives the average of pixel values. The "
+"divisor can only be changed when Normalize is unchecked."
+msgstr ""
+"Resultatet av föregående beräkning delas med delaren. Vanligen används 1, "
+"vilket lämnar resultatet oförändrat, eller 9 eller 25 beroende på matrisens "
+"storlek, vilket ger medelvärdet av bildpunktsvärdena. Divisorn kan bara "
+"ändras när Normalisera är avmarkerat."
+
+#: src/filters/generic/convol-matrix.xml:133(term)
+msgid "Offset"
+msgstr "Förskjutning"
+
+#: src/filters/generic/convol-matrix.xml:135(para)
+msgid ""
+"This value is added to the division result. This is useful if result may be "
+"negative. This offset may be negative. It can only be changed when Normalize"
+" is unchecked."
+msgstr ""
+"Detta värde adderas till divisionsresultatet. Det är användbart när "
+"resultatet kan bli negativt. Förskjutningen kan själv vara negativ. Den kan "
+"bara ändras när Normalisera är avmarkerat."
+
+#: src/filters/generic/convol-matrix.xml:146(term)
+msgid "Channels"
+msgstr "Kanaler"
+
+#: src/filters/generic/convol-matrix.xml:148(para)
+msgid "Here you can select which channels the filter should change."
+msgstr "Här kan du välja vilka kanaler som filtret ska ändra."
+
+#: src/filters/generic/convol-matrix.xml:156(para)
+msgid ""
+"If this option is checked, The Divisor takes the result value of "
+"convolution. If this result is equal to zero (it's not possible to divide by"
+" zero), then a 128 offset is applied. If it is negative (a negative color is"
+" not possible), a 255 offset is applied (inverts result)."
+msgstr ""
+"Om alternativet är markerat används faltningens resultat som delare. Om "
+"resultatet är noll (det går inte att dividera med noll) läggs förskjutningen"
+" 128 till. Om resultatet är negativt (negativa färgvärden är inte möjliga) "
+"läggs förskjutningen 255 till, vilket inverterar resultatet."
+
+#: src/filters/generic/convol-matrix.xml:166(term)
+msgid "Alpha-weighting"
+msgstr "Alfa-viktning"
+
+#: src/filters/generic/convol-matrix.xml:168(para)
+msgid ""
+"If this option is not checked, the filter doesn't take in account "
+"transparency and this may be cause of some artefacts when blurring."
+msgstr ""
+"Om alternativet inte är markerat tar filtret inte hänsyn till "
+"genomskinlighet, vilket kan orsaka artefakter när bilden görs oskarp."
+
+#: src/filters/generic/convol-matrix.xml:176(term)
+msgid "Border"
+msgstr "Kant"
+
+#: src/filters/generic/convol-matrix.xml:178(para)
+msgid ""
+"When the initial pixel is on a border, a part of the kernel is outside the "
+"image. You have to decide what the filter should do:"
+msgstr ""
+"När startbildpunkten ligger vid bildens kant hamnar en del av kärnan utanför"
+" bilden. Välj hur filtret ska hantera det:"
+
+#: src/filters/generic/convol-matrix.xml:184(title)
+msgid "Border examples"
+msgstr "Kantexempel"
+
+#: src/filters/generic/convol-matrix.xml:191(para)
+msgid "Source image"
+msgstr "Källbild"
+
+#: src/filters/generic/convol-matrix.xml:202(para)
+msgid "<guilabel>Clamp</guilabel> border"
+msgstr "Kantläget <guilabel>Begränsa</guilabel>"
+
+#: src/filters/generic/convol-matrix.xml:213(para)
+msgid "<guilabel>None</guilabel> border"
+msgstr "Kantläget <guilabel>Ingen</guilabel>"
+
+#: src/filters/generic/convol-matrix.xml:224(para)
+msgid "<guilabel>Loop</guilabel> border"
+msgstr "Kantläget <guilabel>Upprepa</guilabel>"
+
+#: src/filters/generic/convol-matrix.xml:232(term)
+msgid "None"
+msgstr "Ingen"
+
+#: src/filters/generic/convol-matrix.xml:234(para)
+msgid "This part of the kernel is not taken into account."
+msgstr "Den här delen av kärnan räknas inte med."
+
+#: src/filters/generic/convol-matrix.xml:238(term)
+msgid "Clamp"
+msgstr "Begränsa"
+
+#: src/filters/generic/convol-matrix.xml:240(para)
+msgid "Pixels on borders are not modified, but they are cropped."
+msgstr "Bildpunkterna vid kanterna ändras inte, utan beskärs."
+
+#: src/filters/generic/convol-matrix.xml:246(term)
+msgid "Loop"
+msgstr "Upprepa"
+
+#: src/filters/generic/convol-matrix.xml:248(para)
+msgid ""
+"This part of the kernel will be affected by pixels of the opposite border, "
+"so pixels disappearing from one side reappear on the other side."
+msgstr ""
+"Den här delen av kärnan påverkas av bildpunkter från den motsatta kanten. "
+"Bildpunkter som försvinner från ena sidan dyker alltså upp på den andra."
+
+#: src/filters/generic/convol-matrix.xml:256(term)
+msgid "Black"
+msgstr "Svart"
+
+#: src/filters/generic/convol-matrix.xml:258(para)
+msgid "Pixels on borders are changed to black."
+msgstr "Bildpunkterna vid kanterna ändras till svarta."
+
+#: src/filters/generic/convol-matrix.xml:264(term)
+msgid "White"
+msgstr "Vit"
+
+#: src/filters/generic/convol-matrix.xml:266(para)
+msgid "Pixels on borders are changed to white."
+msgstr "Bildpunkterna vid kanterna ändras till vita."
+
+#: src/filters/generic/convol-matrix.xml:279(para)
+msgid ""
+"Design of kernels is based on high levels mathematics. You can find ready-"
+"made kernels on the Web. Here are a few examples:"
+msgstr ""
+"Kärnor konstrueras med avancerad matematik. Du kan hitta färdiga kärnor på "
+"webben. Här är några exempel:"
+
+#: src/filters/generic/convol-matrix.xml:284(title)
+msgid "Sharpen"
+msgstr "Skärpa"
+
+#: src/filters/generic/convol-matrix.xml:299(title)
+msgid "Blur"
+msgstr "Oskärpa"
+
+#: src/filters/generic/convol-matrix.xml:314(title)
+msgid "Edge enhance"
+msgstr "Kantförstärkning"
+
+#: src/filters/generic/convol-matrix.xml:329(title)
+msgid "Edge detect"
+msgstr "Kantdetektering"
+
+#: src/filters/generic/convol-matrix.xml:344(title)
+msgid "Emboss"
+msgstr "Relief"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Daniel Nylander <po@danielnylander.se>, 2009\n"
+#~ "Anders Jonsson <anders.jonsson@norsjovallen.se>, 2022, 2026"
+
+#~ msgid "Generate a tileable map:"
+#~ msgstr "Skapa en plattläggningsbar mappning:"
+
+#~ msgid "Filter <quote>Erode</quote> applied"
+#~ msgstr "Filtret <quote>Erodera</quote> tillämpat"
+
+#~ msgid ""
+#~ "<guilabel>Euclidean</guilabel> default: the distance is a straight line."
+#~ msgstr "<guilabel>Euklidisk</guilabel> standard: avståndet är en rät linje."
+
+#~ msgid ""
+#~ "<guilabel>Manhattan</guilabel>: the distance is the sum of the one-"
+#~ "dimensional distances along the X and Y axes."
+#~ msgstr ""
+#~ "<guilabel>Manhattan</guilabel>: avståndet är summan av de endimensionella "
+#~ "avstånden längs X- och Y-axlarna."
+
+#~ msgid ""
+#~ "<guilabel>Chebyshev</guilabel>: the distance is the maximum of the one-"
+#~ "dimensional distances along the X and Y axes."
+#~ msgstr ""
+#~ "<guilabel>Tjebysjov</guilabel>: avståndet är maximum av de endimensionella "
+#~ "avstånden längs X- och Y-axlarna."
+
+#~ msgid "Filter <quote>Dilate</quote> applied"
+#~ msgstr "Filtret <quote>Utvidga</quote> tillämpat"
+
+#~ msgid ""
+#~ "Presets, <quote>Input Type</quote>, Clipping, Blending Options, Preview, "
+#~ "Merge filter, Split view"
+#~ msgstr ""
+#~ "Förinställningar, <quote>Indatatyp</quote>, Klippning, Toningsalternativ, "
+#~ "Förhandsvisning, Sammanfoga filter, Dela vy"
+
+#~ msgid "Not working."
+#~ msgstr "Fungerar inte."
+
+#~ msgid "GEGL Operation"
+#~ msgstr "GEGL-operation"
+
+#~ msgid "GEGL operation"
+#~ msgstr "GEGL-operation"
+
+#~ msgid ""
+#~ "<acronym>GEGL</acronym> (<quote>Generic Graphical Library</quote>) is a "
+#~ "graph based image processing library designed to handle various image "
+#~ "processing tasks needed in <acronym>GIMP</acronym>. Most "
+#~ "<acronym>GEGL</acronym> operations have their own menu commands in "
+#~ "<acronym>GIMP</acronym>. The majority of them are filters found in the "
+#~ "Colors and Filters menus."
+#~ msgstr ""
+#~ "<acronym>GEGL</acronym> (<quote>Generic Graphical Library</quote>) är ett "
+#~ "grafbaserat bildbehandlingsbibliotek som är designat för att hantera olika "
+#~ "bildbehandlingsuppgifter som behövs i <acronym>GIMP</acronym>. De flesta "
+#~ "<acronym>GEGL</acronym>-operationer har sina egna menykommandon i "
+#~ "<acronym>GIMP</acronym>. De flesta av dem är filter som hittas i menyerna "
+#~ "Färger och Filter."
+
+#~ msgid ""
+#~ "However, there are some <acronym>GEGL</acronym> operations that don't have "
+#~ "their own command. Either because the operation was not considered important"
+#~ " enough, or because the operation may still be experimental."
+#~ msgstr ""
+#~ "Det finns dock några <acronym>GEGL</acronym>-operationer som inte har något "
+#~ "eget kommando. Antingen för att operationen inte ansetts tillräckligt "
+#~ "viktig, eller kanske för att operationen fortfarande är experimentell."
+
+#~ msgid ""
+#~ "The <acronym>GEGL</acronym> Operation filter was added to give access to all"
+#~ " these operations that you can't use in another way. It enables applying "
+#~ "<acronym>GEGL</acronym> operations to the image and gives on-canvas previews"
+#~ " of the results. New <acronym>GEGL</acronym> operations made by third-party "
+#~ "developers will also show up in this dialog."
+#~ msgstr ""
+#~ "<acronym>GEGL</acronym>-operationsfiltret lades till för att ge åtkomst till"
+#~ " alla dessa operationer som du inte kan använda på något annat sätt. Det "
+#~ "aktiverar tillämpning av <acronym>GEGL</acronym>-operationer på bilden och "
+#~ "ger förhandsvisning på ritytan av resultaten. Nya "
+#~ "<acronym>GEGL</acronym>-operationer som skapats av tredjepartsutvecklare "
+#~ "kommer också visas i denna dialog."
+
+#~ msgid "GEGL Operation with no operation selected."
+#~ msgstr "GEGL-operation utan någon operation vald."
+
+#~ msgid ""
+#~ "Click on this button to select the operation you want to apply to the active"
+#~ " selection or, if there is no selection, to the active layer."
+#~ msgstr ""
+#~ "Klicka på denna knapp för att välja den operation du vill tillämpa på den "
+#~ "aktiva markeringen, eller om det inte finns någon markering, på det aktiva "
+#~ "lagret."
+
+#~ msgid ""
+#~ "Some of these operations are very basic operations like <quote>color</quote>"
+#~ " which fills the active selection or layer with the specified color, while "
+#~ "operations like <quote>fractal-explorer</quote> produce fairly complex "
+#~ "patterns &mdash; just like a <link linkend=\"filters-render\">rendering "
+#~ "filter</link>."
+#~ msgstr ""
+#~ "Vissa av dessa operationer är väldigt enkla operationer som "
+#~ "<quote>color</quote> vilket fyller den aktiva markeringen eller lagret med "
+#~ "den angivna färgen, medan operationer som <quote>fractal-explorer</quote> "
+#~ "producerar rätt komplexa mönster &mdash; precis som ett <link "
+#~ "linkend=\"filters-render\">renderingsfilter</link>."
+
+#~ msgid "Operation Settings"
+#~ msgstr "Operationsinställningar"
+
+#~ msgid ""
+#~ "The operation settings depend on the selected "
+#~ "<guilabel>Operation</guilabel>:"
+#~ msgstr ""
+#~ "Operationsinställningarna beror på vald <guilabel>Operation</guilabel>:"
+
+#~ msgid "<quote>Operation Settings</quote> example"
+#~ msgstr "Exempel för <quote>operationsinställningar</quote>"
+
+#~ msgid "GEGL operation <quote>Gaussian Blur</quote> selected."
+#~ msgstr "GEGL-operationen <quote>Gaussisk oskärpa</quote> vald."
+
+#~ msgid ""
+#~ "If the options of the selected <acronym>GEGL</acronym> operation are not "
+#~ "self-explanatory (guess what's the purpose of the <quote>color</quote> "
+#~ "operation's <quote>Color</quote> option) you can look for a corresponding "
+#~ "non-<acronym>GEGL</acronym> tool. For example, the <link linkend=\"plug-in-"
+#~ "fractalexplorer\">Fractal Explorer</link> filter may have the same or "
+#~ "similar options as the <quote>fractal-explorer</quote> operation."
+#~ msgstr ""
+#~ "Om alternativen för den valda <acronym>GEGL</acronym>-operationen inte är "
+#~ "självförklarande (som vad syftet för <quote>color</quote>-operationens "
+#~ "alternativ <quote>Färg</quote> är) så kan du leta ett motsvarande verktyg "
+#~ "som inte är ett <acronym>GEGL</acronym>-verktyg. Exempelvis kan filtret "
+#~ "<link linkend=\"plug-in-fractalexplorer\">Fraktalutforskare</link> ha samma "
+#~ "eller liknande alternativ som operationen <quote>fractal-explorer</quote>."
+
+#~ msgid ""
+#~ "Or you can make use of the nice realtime preview feature and just experiment"
+#~ " with different settings."
+#~ msgstr ""
+#~ "Eller så kan du använda den trevliga förhandsvisningen i realtid och helt "
+#~ "enkelt experimentera med olika inställningar."
+
+#~ msgid ""
+#~ "If this option is checked, as it is by default, you will get an on-canvas "
+#~ "preview of the selected operation as soon as the operation is finished. You "
+#~ "will have to press the <guibutton>OK</guibutton> button to actually apply "
+#~ "the operation to the image."
+#~ msgstr ""
+#~ "Om detta alternativ är ikryssat, som det är som standard, kommer du få en "
+#~ "förhandsvisning på duken av den valda operationen är klar. Du måste klicka "
+#~ "på <guibutton>OK</guibutton>-knappen för att faktiskt tillämpa operationen "
+#~ "på bilden."
+
+#~ msgid "The buttons"
+#~ msgstr "Knapparna"
+
+#~ msgid "Pressing this button resets the operation settings to their defaults."
+#~ msgstr ""
+#~ "Att trycka på denna knapp återställer operationsinställningarna till sina "
+#~ "standardvärden."
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid ""
+#~ "Clicking on this button aborts the <acronym>GEGL</acronym> operation and "
+#~ "leaves your image untouched. This is equivalent to close the dialog window "
+#~ "using the usual <guibutton>Close</guibutton> button provided by your window "
+#~ "manager."
+#~ msgstr ""
+#~ "Att klicka på denna knapp avbryter <acronym>GEGL</acronym>-operationen och "
+#~ "lämnar din bild orörd. Detta motsvarar att stänga dialogfönstret med den "
+#~ "vanliga <guibutton>Stäng</guibutton>-knappen som tillhandahålls av din "
+#~ "fönsterhanterare."
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid ""
+#~ "You have to press this button to apply the selected operation to the image. "
+#~ "Then the dialog window will be closed."
+#~ msgstr ""
+#~ "Du måste trycka på denna knapp för att tillämpa den valda operationen på "
+#~ "bilden. Dialogfönstret kommer då stängas."
