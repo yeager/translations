@@ -307,3 +307,8 @@ Samtliga 120 rader matchar aktuell Core-källa. 44 ändringar sparades och åter
 ## Fortsatt radgranskning 2026-11-26 – position 35177–35296
 
 Alla 120 rader matchar aktiv Core-källa. 30 ändringar sparades och återlästes; 90 mål behölls. Rättningar omfattar nötköttets silverside/ytterlår, Mieles torknivå stryktorrt och robotdammsugarens målområde. `svlang skrivregler` utan fel. TMX validerar med 23985 enheter. Två specialprogram är markerade för kontroll mot exakt apparatpanel. Se rapport och JSON-underlag. Nästa position: **35 297**.
+
+
+## Fortsatt radgranskning 2026-11-26 – position 35297–35416
+
+110 aktiva Core-rader och 10 tidigare rapporterade historiska poster granskades. 18 ändringar sparades och återlästes i Lokalise; 92 aktiva mål behölls. Alla 21 referenser matchar live-målen; platshållare 110/110 och inga pluralformer. `svlang skrivregler` utan fel; Hunspell-flaggor och FOSS-termträffar bedömdes manuellt. TMX uppdaterades med alla 110 aktiva rader och valideras med 24095 segment. Se batchrapporten och JSON-underlaget. Nästa position: **35 417**.
