@@ -173,6 +173,8 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | Image Map | bildkarta | GIMP-filter för klickbara områden i en bild. |
 | hot spot (image map) | aktivt område | Klickbart område i en bildkarta. |
 | semi-transparency | halvgenomskinlighet | När ett bildformat simulerar genomskinlighet utan alfakanal. |
+| transparency / transparent | genomskinlighet / genomskinlig | Beskriv pixelers eller bildområdens alfavärde; undvik *transparans* och *transparant*. |
+| opaque | ogenomskinlig | Pixel eller bildområde med full täckande färg; motsats till genomskinlig. |
 | edge-detect filter | kantdetekteringsfilter | Filterkategori. |
 | Edge-Detect (menu) | Leta kanter | GIMP:s menygrupp med kantfilter; i löptext och kategorirubrik används *kantdetektering*. |
 | Gradient (edge algorithm) | Gradient | Namnet på GIMP:s kantdetekteringsalgoritm; skilj från färgövergången/toningen i övriga GIMP-gränssnittet. |

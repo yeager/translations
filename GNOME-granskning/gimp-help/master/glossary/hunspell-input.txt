@@ -1,0 +1,342 @@
+Ordlista
+Alfa
+Ett alfavärde anger hur genomskinlig en pixel är. Utöver dess röda, gröna och blå värden, har en pixel ett alfavärde.  Ju lägre alfavärde en pixel har, desto mer syns färgerna under den. En pixel med ett alfavärde på 0 är helt genomskinlig. En pixel med ett alfavärde på 255 är helt ogenomskinlig.
+För vissa bilders  filformat , kan du endast ange att en pixel är helt genomskinlig eller helt ogenomskinlig. Andra filformat tillåter varierande grad av genomskinlighet.
+Alfakanal
+Transparens
+Alfakanal
+En alfa kanal  för ett lager är en gråskalebild av samma storlek som lagret och representerar dess transparens. För varje bildpunkt representerar grånivån (ett värde mellan 0 och 255) bildpunktens  alfa värde. En alfakanal kan göra delar av lagret delvis transparenta. Därför har bakgrundslagret som standard ingen alfakanal.
+Bildens alfakanal, som visas i dialogrutan Kanaler, kan betraktas som alfakanalen för det slutliga lagret när alla lager har sammanfogats.
+Se även  .
+Kantutjämning
+Förklaring
+Kantutjämning motverkar aliasing genom att minska  taggighet . Den ger mjukare kurvor genom att justera gränsen mellan bakgrunden och området med bildpunkter som kantutjämnas. Vanligen ändras bildpunkternas intensitet eller opacitet för att få en mjukare övergång till bakgrunden. För markeringar minskas opaciteten vid markeringens kant.
+Bézierkurva
+En spline är en kurva som definieras matematiskt och har en uppsättning kontrollpunkter. En Bézier-spline är en kubisk spline med fyra kontrollpunkter, där den första och den sista kontrollpunkten (noder eller ankarpunkter) är kurvans ändpunkter och de två inre kontrollpunkterna (handtagen) bestämmer kurvans riktning vid ändpunkterna.
+I icke-matematisk bemärkelse är en spline en flexibel trä- eller metallremsa som används för att rita kurvor. Användningen av sådana splines för att rita kurvor kommer från skeppsbyggeri, där vikter hängdes på splines för att böja dem. De yttre kontrollpunkterna i en Bézier-spline liknar platserna där splinen fästs, medan de inre kontrollpunkterna är där vikter fästs för att ändra kurvan.
+Bézier-splines är bara ett sätt att representera kurvor matematiskt. De utvecklades på 1960-talet av Pierre Bézier, som arbetade för Renault.
+Bézierkurvor används i  GIMP  som beståndsdelar i  banor .
+Bilden ovan visar en Bézierkurva. Punkterna P0 och P3 är punkter på banan, som skapas genom att klicka med musen. Punkterna P1 och P2 är handtag, som skapas automatiskt av  GIMP  när du sträcker ut linjen.
+Bitmapp
+Bitmap — en datafil eller datastruktur som bit för bit motsvarar en bild på skärmen, troligen i samma format som den lagras i bildskärmens videominne eller som en enhetsoberoende bitmap. En bitmap kännetecknas av bildens bredd och höjd i bildpunkter samt antalet bitar per bildpunkt, vilket avgör hur många gråtoner eller färger den kan återge. En bitmap som representerar en färgbild (en  pixmap ) har vanligen en till åtta bitar för var och en av de röda, gröna och blå komponenterna, även om andra färgkodningar också används. Den gröna komponenten har ibland fler bitar än de andra två eftersom det mänskliga ögat urskiljer nyanser bättre i denna komponent.
+Från   The Free Online Dictionary of Computing (13 mars 2001)  :  
+BMP
+Format
+BMP är ett okomprimerat  bildfilformat  som har utvecklats av Microsoft och främst används i Windows. Färger representeras vanligen med 1, 4 eller 8 bitar, även om formatet också stöder fler. Eftersom BMP inte är komprimerat och filerna är stora passar det inte särskilt väl på internet.
+Bumpmappning
+Reliefmappning är en teknik för att visa mycket detaljerade objekt utan att öka objektens geometriska komplexitet. Den används särskilt i program för tredimensionell visualisering. Tricket är att placera all nödvändig information i en textur, som visar skuggning på objektets yta.
+Reliefmappning är bara ett, mycket effektivt, sätt att simulera ytoregelbundenheter som inte faktiskt ingår i modellens geometri.
+Kanalmask
+En kanalmask är en särskild typ av mask som bestämmer hur genomskinlig en markering är. Se   för en utförlig beskrivning.
+Kanalkodning
+Kanalkodning avser hur snabbt intensiteten hos en kanal i en digital bild går från mörkt till ljust när kanalvärdena går från flyttalsvärdet 0,0 till 1,0 (0 till 255 för 8-bitars heltal och 0 till 65535 för 16-bitars heltal). För gråskalebilder och RGB-bilder är  relativ luminans  en mer tekniskt korrekt benämning på intensiteten.
+Andra benämningar på "kanalkodning" är "kompanderingskurva", "gamma" (vilket tekniskt sett inte är korrekt om kanalkodningen inte är en faktisk gammakurva), "tonåtergivningskurva" ("TRC" som förkortning) och "tonresponskurva" (också "TRC" som förkortning).
+Kanalkodning för linjärt ljus återspeglar hur ljusvågor kombineras i den verkliga världen. Den kallas också "gamma=1.0", "linjär gamma" eller bara "linjär".
+Perceptuellt likformiga kanalkodningar återspeglar hur våra ögon reagerar på förändringar i luminans.
+I ICC-profilfärghanterade arbetsflöden används ofta följande kanalkodningar:
+LAB:s kompanderingskurva, som är exakt perceptuellt likformig.
+Kanalkodningen för linjärt ljus, som naturligtvis är exakt linjär.
+Kanalkodningen sRGB och kanalkodningen "gamma=2.2", som båda är ungefär perceptuellt likformiga och ungefär lika varandra.
+Kanalkodningen "gamma=1.8", som varken är linjär eller ungefär perceptuellt likformig, men som ligger närmare perceptuell likformighet än linjäritet.
+Jämförelse av kanalkodningarna linjärt ljus, sRGB och LAB.
+I bilden ovan:
+Kanalkodningen för linjärt ljus (översta raden) visar hur ljusvågor kombineras i den verkliga världen.
+Den icke-linjära sRGB-kanalkodningen (mittraden) är nästan perceptuellt likformig.
+Kanalkodningen LAB (nedersta raden) är exakt perceptuellt likformig, vilket innebär att den visar hur våra ögon reagerar på förändringar i luminans.
+GIMP använder två olika kanalkodningar internt vid olika redigeringsåtgärder: ”Linjärt ljus” och ”Icke-linjärt” (tidigare kallat perceptuell gamma (sRGB)).
+Bilden companding-curves-compared.png ovan är en lätt modifierad version av en bild från  Completely Painless Programmer's Guide to XYZ, RGB, ICC, xyY, and TRCs , som licensieras enligt  Creative Commons Erkännande-DelaLika 3.0 Unported License .
+Kanal
+En kanal avser en viss komponent i en bild. Komponenterna i en  RGB -bild är till exempel de tre grundfärgerna rött, grönt och blått samt ibland transparens (alfa).
+Varje kanal är en gråskalebild med exakt samma storlek som bilden och består därför av lika många bildpunkter. Varje bildpunkt i denna gråskalebild kan ses som en behållare som kan fyllas med ett värde från 0 till 255. Värdets exakta innebörd beror på kanaltypen. I färgmodellen  RGB  anger till exempel värdet i  R -kanalen mängden rött som läggs till i färgen för de olika bildpunkterna; i markeringskanalen anger värdet hur starkt bildpunkterna är markerade och i alfakanalen anger värdena hur ogenomskinliga motsvarande bildpunkter är. Se även  .
+Urklipp
+Urklipp är ett tillfälligt minnesområde som används för att överföra data mellan program eller dokument. Det används när du klipper ut, kopierar eller klistrar in data i  GIMP .
+Urklipp är implementerat på lite olika sätt i olika operativsystem. Under Linux/XFree använder  GIMP  XFree-urklippet för text och  GIMP s interna bildurklipp för att överföra bilder mellan bilddokument. I andra operativsystem kan urklippet fungera annorlunda. Se  GIMP -dokumentationen för ditt operativsystem för mer information.
+Urklippets grundåtgärder är  Klipp ut ,  Kopiera  och  Klistra in . Klipp ut tar bort objektet från dokumentet och kopierar det till urklippet. Kopiera lämnar kvar objektet i dokumentet och kopierar det till urklippet. Klistra in kopierar urklippets innehåll till dokumentet.  GIMP  avgör vad som ska klistras in utifrån målet. Om målet är en rityta används bildurklippet; om målet är ett textfält används texturklippet.
+Färg
+Å ena sidan kommer  ljus  från solen eller andra strålningskällor. Det  bryts  i olika medier (vatten, atmosfär, glas) och  diffust  eller  speglande  reflekteras av ytor.
+Å andra sidan finns  färg  inte i världen på samma påtagliga sätt som ljus. Färg är i stället en del av hur vi uppfattar omvärlden. Ljuset når ögonen, behandlas av ljusreceptorerna ( tappar  och  stavar ) och skickas via synnerverna till hjärnan för vidare bearbetning och tolkning.
+Ljus har olika  våglängder , som ögonen och hjärnan tolkar som olika färgtoner (rött, blått, grönt och så vidare), och varierar även i  intensitet (även kallad ”luminans”) . Vår  färguppfattning  består alltså både av information om intensitet (”luminans”) och om kromaticitet.
+ Färgnamn  för oss från den begränsade färguppfattningen till den vidare kulturella och språkliga tolkningen och klassificeringen av färg, och därifrån till ännu större filosofiska, estetiska, teologiska och metafysiska frågor.
+Förklaringen av färg ovan är ett lätt modifierat utdrag ur  Completely Painless Programmer's Guide to XYZ, RGB, ICC, xyY, and TRCs , som licensieras enligt  Creative Commons Erkännande-DelaLika 3.0 Unported License .
+CMY, CMYK
+CMYK
+Subtraktiv färgsyntes
+CMYK är en  färgmodell  med komponenterna cyan, magenta, gul och svart. Den är en subtraktiv färgmodell, vilket är viktigt när en bild skrivs ut. Den kompletterar  RGB -färgmodellen.
+Värdena för de enskilda färgerna varierar mellan 0 % och 100 %, där 0 % motsvarar en otryckt färg och 100 % en helt tryckt färgyta. Färger bildas genom att blanda de tre grundfärgerna.
+Det sista värdet, K (svart), bidrar inte till färgen utan används endast för att göra de andra färgerna mörkare. Bokstaven K används för svart för att undvika förväxling, eftersom B vanligen står för blå.
+Subtraktiv färgmodell
+ GIMP  stöder för närvarande inte CMYK-modellen. (En experimentell insticksmodul med grundläggande CMYK-stöd finns  .)
+Detta är läget som används vid tryckning. Det är färgerna i skrivarens bläckpatroner. Läget används vid målning och för alla föremål omkring oss, där ljuset reflekteras och inte sänds ut. Föremål absorberar en del av ljusvågorna, och vi ser bara den reflekterade delen. Observera att tapparna i våra ögon uppfattar det reflekterade ljuset i RGB-läge. Ett föremål ser rött ut eftersom grönt och blått har absorberats. Eftersom kombinationen av grönt och blått är cyan absorberas cyan när du lägger till rött. Omvänt absorberas dess komplementfärg rött när du lägger till cyan. Systemet är  subtraktivt . Om du lägger till gult minskar blått och om du lägger till magenta minskar grönt.
+Det vore logiskt att tänka sig att du genom att blanda cyan, magenta och gult skulle subtrahera rött, grönt och blått och att ögat då inte skulle se något ljus alls, alltså svart. Men frågan är mer komplicerad. I själva verket skulle du se mörkbrunt. Därför har detta läge även ett svartvärde, och därför har skrivaren en svart patron. Det är billigare på så sätt: skrivaren behöver inte blanda de andra tre färgerna för att skapa ett ofullständigt svart utan behöver bara lägga till svart.
+Färgdjup
+bpp
+Färgdjup är helt enkelt antalet bitar som används för att representera en färg (bitar per bildpunkt: bpp). En bildpunkt har tre kanaler (röd, grön och blå).  GIMP  har stöd för 8 bitar per kanal, vilket kallas  åttabitarsfärg .  GIMP s färgdjup är alltså 8 * 3 = 24, vilket ger 256 * 256 * 256 = 16,777,216 möjliga färger (8 bitar ger 256 färger).
+Färgmodell
+En färgmodell är ett sätt att beskriva och ange färger. Termen används ofta i vid betydelse och syftar då både på ett färgsystem och den färgrymd som systemet bygger på.
+En färgrymd är en visualisering av det möjliga färgomfång ( gamut ) som kan visas eller kännas igen av en in- eller utenhet (skanner, bildskärm, skrivare med mera), eller som definieras av en viss färgmodell. Eftersom människans syn bygger på tre färgreceptorer kan de flesta färger, med några få undantag, anges med tre komponenter. Varje komponent kan då visas som en koordinataxel i ett tredimensionellt rum (ibland kallat en  färgkub ). Det finns fler än 30 färgmodeller; här är några av de viktigaste:
+RGB
+ HSV  och  HSL 
+CMY(K)
+YUV
+YCbCr
+Komponent
+En komponent är ett värde för en egenskap hos en bildpunkt, till exempel en enskild färg kanal .
+Visningsrelaterad
+Uttrycket "visningsrelaterad" avser bilder som kan visas på en enhet, antingen direkt eller med ICC-profilfärghantering. Visningsenheten kan vara en bildskärm, en bild utskriven på papper eller någon annan visningsteknik.
+Oavsett teknik har en enhet som visar en bild en högsta och en lägsta ljusstyrka. Den högsta respektive lägsta ljusstyrkan kallas  visningsrelaterat vitt  och  visningsrelaterat svart .
+Förklaringen ovan är ett lätt modifierat utdrag ur  Models for image editing: Display-referred and scene-referred . Författaren har tillåtit att det modifierade utdraget återges och licensierat det enligt  Creative Commons Erkännande-DelaLika 3.0 Unported License .
+Visningsrelaterat vitt
+"Visningsrelaterat vitt" (eller kort och gott "vitt") avser RGB-färgen med flyttalsvärdena (1.0, 1.0, 1.0) och heltalsekvivalenterna (255,255,255), (65535,65535,65535) och så vidare för 8-bitars heltal, 16-bitars heltal och så vidare.
+"Visningsrelaterat vitt" har den mycket särskilda innebörden att det i visningsrelaterad redigering inte finns något som är "ljusare än vitt". Vid visningsrelaterad bildredigering är alltså alla RGB-kanalvärden mindre än eller lika med 1.0, och ingen färg är ljusare än "vitt", (1.0, 1.0, 1.0).
+Visningsrelaterat svart
+"Visningsrelaterat svart" (eller kort och gott "svart") avser RGB-färgen med flyttalsvärdena (0.0, 0.0, 0.0) och dess heltalsekvivalenter. Färgen har den mycket särskilda innebörden att det inte finns något som är "mörkare än svart". Vid visningsrelaterad bildredigering är därför alla RGB-kanalvärden större än eller lika med 0.0, och ingen färg är mörkare än "svart", (0.0, 0.0, 0.0).
+Dithering
+Gitter är en teknik som används i datorgrafik för att skapa en illusion av fler färger när en bild med lågt  färgdjup  visas. I en gitterbild återges de saknade färgerna genom en viss placering av bildpunkter i de tillgängliga färgerna. Det mänskliga ögat uppfattar detta som en blandning av de enskilda färgerna.
+ Övertoningsverktyget  använder gitter. Du kan också välja att använda gitter när du konverterar en bild till  indexerat  format. När du arbetar med en bild med indexerade färger kan vissa verktyg, som mönsterfyllningsverktyget, också använda gitter om rätt färg saknas i färgkartan.
+Filtret  Tidningstryck  använder också gitter. Du kan använda  NL-filter  (icke-linjärt filter) för att ta bort oönskat gitterbrus från bilden.
+Observera också att även om  GIMP  självt använder 24-bitarsfärger kan ditt system i praktiken sakna stöd för att visa så många färger. I så fall kan även programvaran mellan  GIMP  och systemet använda gitter när färgerna visas.
+Se även glossarieposten om  Floyd-Steinberg-gitter , som används i  GIMP .
+EXIF
+Exchangeable Image File Format (officiell förkortning Exif, inte EXIF) är en specifikation för bildfilformatet som används av digitalkameror. Den skapades av Japan Electronic Industry Development Association (JEIDA). Specifikationen bygger på filformaten JPEG, TIFF Rev. 6.0 och RIFF WAVE, med tillägg av särskilda metadatataggar.
+Den senaste versionen av specifikationen gavs ut i maj 2023. Exif-taggarna bygger på strukturen i TIFF-filer. Det finns stor överlappning mellan taggarna i standarderna TIFF, Exif, TIFF/EP och DCF. Se  .
+Fjädring
+Fjädring skapar en mjuk övergång mellan ett område och bakgrunden genom att mjukt blanda områdets kanter.
+I  GIMP  kan du fjädra kanterna på en markering. Penslar kan också ha fjädrade kanter.
+Filformat
+Filformat
+Ett filformat eller en filtyp är den form som datorinformation lagras i. Eftersom ett operativsystem lagrar en fil som en linjär följd av byte, vilket inte på ett uppenbart sätt kan beskriva många slags verkliga data, har konventioner utvecklats för att tolka informationen som representationer av komplexa data. Alla konventioner för en viss  typ  av fil utgör ett filformat.
+Några vanliga filformat för att spara bilder är JPEG, TIFF, PNG och GIF. Det bästa filformatet beror på hur bilden ska användas. Om bilden till exempel ska användas på internet är filstorleken mycket viktig, medan hög upplösning och kvalitet är viktigare om bilden ska skrivas ut. Se  Formattyper .
+Flytande markering
+Markering
+Flytande markering
+En flytande markering (ibland kallad ett  flytande lager ) är ett tillfälligt lager som fungerar ungefär som ett vanligt lager. En flytande markering måste dock  förankras  innan du kan fortsätta arbeta med andra lager i bilden.
+Flytande markeringar beskrivs i  .
+I tidiga versioner av  GIMP  användes flytande markeringar för att utföra åtgärder på en begränsad del av en bild. Numera kan du göra det enklare med lager, men du kan fortfarande använda detta sätt att arbeta med bilder.
+Floyd-Steinberg
+Floyd-Steinberg
+Floyd-Steinberg-gitter är en metod för  gitter  som först publicerades 1976 av Robert W. Floyd och Louis Steinberg. Gitterprocessen börjar i bildens övre vänstra hörn. För varje bildpunkt väljs den närmaste tillgängliga färgen i paletten och skillnaden mellan den färgen och originalfärgen beräknas i varje RGB-kanal. Bestämda andelar av skillnaderna fördelas sedan mellan flera angränsande bildpunkter som ännu inte har bearbetats (nedanför och till höger om originalpunkten). På grund av bearbetningsordningen kan proceduren genomföras i en enda genomgång av bilden.
+När du konverterar en bild till  indexerat  läge kan du välja mellan två varianter av Floyd-Steinberg-dithering.
+Gamma
+Gamma eller gammakorrigering är en icke-linjär åtgärd som används för att koda och avkoda luminans- eller färgvärden i video- eller stillbildssystem. Den används i många typer av bildsystem för att räta ut ett böjt svar från signal till ljus eller från intensitet till signal. Ljuset från en CRT är exempelvis inte linjärt i förhållande till inspänningen, och spänningen från en elektronisk kamera är inte linjär i förhållande till intensiteten (effekten) hos ljuset i scenen. Gammakodning hjälper till att avbilda data på ett perceptuellt linjärt område så att det begränsade signalomfånget (det begränsade antalet bitar i varje RGB-signal) optimeras bättre perceptuellt.
+Gamma används som exponent i korrigeringsekvationen. Gammakomprimering (där gamma < 1) används för att koda linjära luminans- eller RGB-värden till färgsignaler eller digitala filvärden, och gammaexpansion (där gamma > 1) är avkodningsprocessen och sker vanligen där ström-till-spänningsfunktionen för en CRT är icke-linjär.
+För PC-video kodas bilder med gamma omkring 0,45 och avkodas med gamma 2,2. För Mac-system kodas bilder vanligen med gamma omkring 0,55 och avkodas med gamma 1,8. Färgrymdsstandarden sRGB, som används för de flesta kameror, datorer och skrivare, använder inte en enkel exponentialekvation utan har ett avkodningsgammavärde nära 2,2 över stora delar av sitt omfång.
+I  GIMP  är gamma ett alternativ som används på penselfliken i filtret  GIMPressionist  och i filtret  Flamma .  Skärmfiltren  innehåller också ett gammafilter. Se även  Nivåverktyget , där du kan använda mittreglaget för att ändra gammavärdet.
+Färgomfång
+Inom färgåtergivning, inklusive datorgrafik och fotografi, är färgomfång en fullständig delmängd av färger. Vanligast syftar termen på den delmängd färger som kan återges korrekt under givna förhållanden, exempelvis inom en viss färgrymd eller av en viss utmatningsenhet. En annan, mindre vanlig men lika korrekt betydelse avser alla färger som finns i en bild vid en viss tidpunkt. När en bild digitaliseras, konverteras till en annan färgrymd eller skickas till ett medium med en utmatningsenhet förändras vanligen färgomfånget, eftersom en del av originalets färger går förlorade i processen.  
+GIF
+ GIF  står för Graphics Interchange Format. Det är ett  filformat  med god, förlustfri komprimering för bilder med litet  färgdjup  (upp till 256 färger per bild). Sedan GIF utvecklades har formatet  Portable Network Graphics (PNG)  tillkommit. PNG är bättre än GIF i de flesta avseenden, med undantag för animeringar och några sällan använda funktioner.
+GIF introducerades av CompuServe 1987. Det blev populärt främst på grund av sin effektiva LZW-komprimering. Bildfilerna behövde klart mindre diskutrymme än andra vanliga grafikformat från den tiden, såsom PCX eller MacPaint. Även stora bilder kunde överföras på rimlig tid, också när modemen var långsamma. Dessutom gjorde CompuServes öppna licenspolicy det möjligt för vilken programmerare som helst att kostnadsfritt implementera GIF-formatet i egna program, så länge CompuServes upphovsrättsnotis bifogades.
+Färger i GIF lagras i en färgtabell som rymmer upp till 256 olika poster, valda bland 16,7 miljoner olika färgvärden. När bildformatet introducerades var detta inte någon större begränsning, eftersom få hade maskinvara som kunde visa fler färger än så. För typiska teckningar, serier, svartvita fotografier och liknande användning räcker 256 färger vanligen gott även i dag. För mer komplexa bilder, exempelvis färgfotografier, uppstår däremot en stor kvalitetsförlust, vilket gör att formatet inte anses lämpligt för sådana ändamål.
+En färgpost i paletten kan definieras som genomskinlig. Då kan GIF-bilden se ut att ha en annan form än en rektangel. Halvgenomskinlighet, som i  PNG , är däremot inte möjlig. En bildpunkt kan bara vara helt synlig eller helt genomskinlig.
+Den första versionen av GIF var 87a. År 1989 publicerade CompuServe en utökad version med namnet 89a. Den gjorde det bland annat möjligt att spara flera bilder i en GIF-fil, vilket särskilt används för enkla animeringar. Versionsnumret kan utläsas av de första sex byten i en GIF-fil. Tolkat som ASCII-tecken är de  GIF87a  eller  GIF89a .
+GNU
+GNU-projektet startades 1983 av Richard Stallman med målet att utveckla ett helt fritt operativsystem. Det är särskilt känt genom GNU General Public License (GPL) och GNU/Linux, en GNU-variant med en Linuxkärna.
+Namnet härrörde från de namnkonventioner som användes vid MIT, där Stallman arbetade vid tiden. För program som liknade andra program valdes rekursiva akronymer som namn. Eftersom det nya systemet skulle bygga på det utbredda operativsystemet Unix sökte Stallman efter ett sådant namn och kom fram till GNU, som står för  GNU is not Unix . För att undvika förväxling ska namnet uttalas med  G , inte som  new . Det fanns flera skäl till att göra GNU Unix-kompatibelt. Stallman var bland annat övertygad om att de flesta företag skulle avvisa ett helt nytt operativsystem om programmen de använde inte kunde köras på det. Unix arkitektur möjliggjorde dessutom snabb, enkel och distribuerad utveckling, eftersom Unix till största delen består av många små program som kan utvecklas oberoende av varandra. Många delar av ett Unix-system var också fritt tillgängliga för alla och kunde därför integreras direkt i GNU, exempelvis sättningssystemet TeX eller X Window System. De saknade delarna skrevs från grunden.
+ GIMP  (GNU Image Manipulation Program) är ett officiellt GNU-program  .
+Gråskala
+Översikt
+Gråskala är ett läge för kodning av färgerna i en bild som endast innehåller svart, vitt och grå nyanser.
+När du skapar en ny bild kan du välja läget Gråskala och senare färgsätta bilden genom att ändra den till RGB-läge. Du kan också ändra en befintlig bild till gråskala med  Gråskala ,  Avmätta ,  Separera  eller  Kanalmixer , även om inte alla format stöder ändringarna. Gråskala kan användas när du skapar eller konverterar bilder, men är inte en färgmodell i ordets egentliga bemärkelse.
+Som förklaras i  RGB-läge  kan 24-bitars  GIMP -bilder ha upp till 256 grånivåer. Om du ändrar från gråskala till RGB-läge får bilden en RGB-struktur med tre färgkanaler, men den förblir naturligtvis grå.
+Bildfiler i gråskala (8 bitar) är mindre än RGB-filer.
+Hjälplinjer
+Använder
+Hjälplinjer är linjer som du tillfälligt kan visa på en bild medan du arbetar med den. Du kan visa hur många hjälplinjer du vill, både vågrätt och lodrätt. Linjerna hjälper dig att placera en markering eller ett lager på bilden. De visas inte när bilden skrivs ut.
+Mer information finns i  .
+Stort dynamiskt omfång
+Med  visningsrelaterade  data finns ungefär två och ett halvt stegs utrymme ovanför mellangrått och kanske sex och ett halvt användbara steg nedanför. Därefter packas data så tätt i alltför få tonsteg att skillnader mellan rent svart och ”nästan grått” inte längre kan visas korrekt. Det ger som bäst nio stegs dynamiskt omfång, jämfört med de 20 eller fler steg som kan finnas i vissa (men långt ifrån alla) verkliga motiv.
+Den vanliga lösningen på det begränsade dynamiska omfånget hos visningsrelaterade data är att tillåta kanalvärden så höga som behövs för att koda motivets data. Det innebär att kanalvärden över visningsrelaterat vitt tillåts.
+Flera filformat som stöds av  GIMP  kan användas för att importera och exportera bilder med stort dynamiskt omfång, bland annat flyttals-TIFF, OpenEXR och FITS.
+När du arbetar med data med stort dynamiskt omfång måste  kanalkodningen  vara linjär för att undvika gammaartefakter.
+Redigering av data med stort dynamiskt omfång kräver att redigeringsåtgärder och blandningslägen inte begränsar värdena. Vid flyttalsprecision:
+Många, men inte alla, blandningslägen i GIMP begränsar inte värdena till ett visst intervall. Det gäller bland annat Normal, Addition, Subtraktion, Multiplicera, Ljusare endast, Mörkare endast, Skillnad samt LCH- och luminanslägena. Lägen som Skärm, Mjukt ljus och Överlagring begränsar däremot värdena, eftersom de är avsedda för visningsrelaterade data.
+Många redigeringsåtgärder i GIMP begränsar inte heller värdena, även om vissa gör det eftersom de är avsedda för visningsrelaterade data. Bland de obeskurna åtgärderna finns Nivåer, Exponering, omformningar som skalning och rotation samt filter som Gaussisk oskärpa.
+Delar av förklaringen av ”stort dynamiskt omfång” ovan är lätt modifierade utdrag ur  Models for image editing: Display-referred and scene-referred . Utdragen återges med tillstånd, och de modifierade utdragen licensieras enligt  Creative Commons Erkännande-DelaLika 3.0 Unported License .
+Histogram
+Vid digital bildbehandling är ett histogram ett diagram som visar den statistiska frekvensen av gråvärdena eller färgvärdena i en bild. En bilds histogram visar förekomsten av gråvärden eller färgvärden, liksom bildens kontrastomfång och ljusstyrka. I en färgbild kan du skapa ett histogram med information om alla möjliga färger eller tre histogram för de enskilda färgkanalerna. Det senare är mest meningsfullt, eftersom de flesta förfaranden utgår från gråskalebilder och därför kan vidare bearbetning göras direkt.
+HSL
+HSL (nyans, mättnad, ljushet) är en  färgmodell  som beskriver RGB-färger med termer som är mer intuitiva för konstnärer.
+HSL är nära besläktat med HSV och använder liknande terminologi. Mer information finns i avsnittet om  HSV  nedan.
+HSV
+HSV (nyans, mättnad, intensitet) är en  färgmodell  som beskriver RGB-färger med termer som är mer intuitiva för konstnärer.
+RGB-modellen är utformad för att visa färger på en skärm, men beskriver inte enkelt hur vi uppfattar dem i vardagen: ljusgrönt, blekrosa, klarrött och så vidare. Modellerna HSV och HSL ger direkt åtkomst till dessa egenskaper och kan snabbt konverteras till RGB-värdena som används för att visa bilden. De har samma totala  färgomfång  som RGB. När du ändrar en färg i HSV eller HSL ändras alltså även motsvarande RGB-värden.
+HSV och  HSL  är nära besläktade och använder liknande terminologi. GIMP använder främst HSV.
+Kort beskrivning av HSV- och HSL-komponenterna:
+Färgton
+Nyans är  färgfamiljen  – rött, gult, grönt, blått och så vidare – som tillsammans bildar en  färgcirkel  (eller  färghjul ). Nyansen anger en position på cirkeln i grader: rött börjar vid 0°, därefter följer varje ren primär- och sekundärfärg i RGB-modellen med 60° mellanrum, tills cirkeln sluts vid 360°.
+Observera att  färg  ibland används som en allmän synonym till nyans.
+Mättnad
+Det här attributet beskriver färgens intensitet eller mättnad på en skala från 0 till 100. Vid 0 är färgen helt  omättad  (gråskala), och vid 100 är den helt mättad, eller  ren .
+Mättnad beräknas olika i modellerna HSV och HSL. I HSV kan lägre mättnad ge en ren färg olika ljusa eller mörka nyanser beroende på dess intensitet. I HSL ger lägre mättnad endast toner; ljusheten avgör i stället om färgen blir ljusare eller mörkare.
+Värde
+I HSV-modellen motsvarar intensiteten ungefär den totala mängden ljus som en färg avger och liknar bildskärmens kontroller för  ljusstyrka . Lägre intensitet ger i allmänhet mindre ljus. Intensiteten mäts från 0 (svart) till 100 och motsvarar matematiskt färgens starkaste RGB-komponent, skalad till intervallet 0–100. Den är därför  inte  jämnt fördelad mellan olika nyanser och mättnadsgrader. Rent RGB-blått anses ha samma intensitet som rent grönt, gult eller vitt, trots att de senare i allmänhet ser ljusare ut.
+Ljusstyrka
+I HSL-modellen mäter ljushet (även kallad luminans) också ungefär den totala mängden ljus som en färg avger, men beräknas matematiskt annorlunda än intensiteten: Ljusheten är medelvärdet av färgens ljusaste  och mörkaste  RGB-komponenter; den tredje, mellanliggande komponenten ignoreras. En ren RGB-färg får därför ljusheten 50 %, samma som en ton med 50 % grått. Högre ljushet ger ljusare nyanser och lägre ljushet mörkare.
+Ljusheten 0 ger alltid svart. Till skillnad från intensiteten ger ljusheten 100 % alltid vitt, oavsett nyans eller mättnad.
+HTML-notation
+En hexadecimal trippel är ett sätt att koda en färg för en dator. Symbolen  #  anger att talen som följer är kodade hexadecimalt. Varje färg anges med två hexadecimala siffror som bildar en trippel (tre par) av hexadecimala värden i formen  #rrggbb , där  rr  representerar rött,  gg  grönt och  bb  blått.
+Bildslang
+En bildslang i  GIMP  är en särskild typ av pensel som består av flera bilder. Du kan till exempel ha en pensel med fotspår som består av två bilder, en för vänster fotspår och en för höger. När du målar med denna pensel visas först ett vänster fotspår, sedan ett höger, sedan ett vänster och så vidare. Den här typen av pensel är mycket kraftfull.
+En bildslang kallas också ibland  bildrör  eller  animerad pensel . En bildslang markeras i dialogrutan Penslar med en liten röd triangel i det nedre högra hörnet av penselns symbol.
+Information om hur du skapar en bildslang finns i   och  .
+Inkrementell, målningsläge
+Inkrementell
+Inkrementellt läge är ett målningsläge där varje penseldrag ritas direkt på det aktiva lagret. När läget är inställt ökar varje ytterligare penseldrag penselns effekt, upp till penselns maximala opacitet.
+Om inkrementellt läge inte är inställt ritas penseldragen på en canvasbuffert som sedan kombineras med det aktiva lagret. Penselns maximala effekt bestäms då av opaciteten och upprepade penseldrag ökar inte effekten över denna gräns.
+De två bilderna ovan skapades med en pensel vars avstånd är satt till 60 procent. Bilden till vänster visar icke-inkrementell målning och bilden till höger visar skillnaden med inkrementell målning.
+Inkrementellt läge är ett verktygsalternativ som delas av flera penselverktyg, utom dem som har reglaget  hastighet , vilket automatiskt innebär en inkrementell effekt. Du kan ställa in det genom att kryssa i rutan  Inkrementell  i verktygsalternativdialogrutan för verktyget (Målarpensel, Penna och Suddgummi).
+Indexerade färger
+Indexerade färger
+Indexerat färgläge är ett läge för att koda färger i en bild där varje bildpunkt tilldelas ett 8-bitars färgnummer. Färgen som motsvarar numret placeras sedan i en tabell (paletten). Om du ändrar en färg i paletten ändras alla bildpunkter som hänvisar till den palettfärgen. Även om du kan skapa bilder i läget  Indexerade färger  och omvandla bilder till det, är det strängt taget inte en  färgmodell .
+Se även avsnittet  Indexerad palett  och kommandot  Konvertera bild till indexerade färger .
+Interpolation
+Interpolation innebär att mellanliggande värden beräknas. När du förstorar ( zoomar digitalt ) eller på annat sätt omformar en digital bild genom att rotera, skjuva eller ge den perspektiv används interpolationsmetoder för att beräkna färgerna för bildpunkterna i den omformade bilden.  GIMP  erbjuder tre interpolationsmetoder som skiljer sig åt i kvalitet och hastighet. Ju bättre kvalitet, desto längre tid tar i allmänhet interpolationen. Se  Interpolationsmetoder .
+ GIMP  använder interpolation när du  skalar  en bild,  skalar  ett lager eller  transformerar  en bild.
+IPTC
+IPTC är en förkortning för International Press Telecommunications Council, som utvecklade Information Interchange Model (IIM) för metadata för text, bilder och andra medietyper. Se  .
+JPEG
+JPEG är ett  filformat  som stöder komprimering och fungerar med alla färgdjup. Bildkomprimeringen kan justeras, men var försiktig: För hög komprimering kan kraftigt försämra bildkvaliteten eftersom JPEG-komprimering är förstörande.
+Använd JPEG för att skapa webbgrafik eller om du inte vill att bilden ska ta upp mycket utrymme. JPEG är ett bra format för fotografier och dator-genererade bilder (CGI). Det lämpar sig inte väl för:
+digitala linjeteckningar (exempelvis skärmbilder eller vektorgrafik), där det finns många angränsande bildpunkter med samma färgvärden, få färger och skarpa kanter,
+Svartvita bilder (endast svart och vitt, en bit per bildpunkt) eller
+rastrerade bilder (tidningstryck).
+Andra format, såsom GIF, PNG eller JBIG, är mycket bättre för dessa typer av bilder.
+I allmänhet är JPEG-omvandlingar inte reversibla. Att öppna och sedan spara en JPEG-fil innebär en ny förstörande komprimering. Att senare öka kvalitetsfaktorn återställer inte den bildinformation som gått förlorad.
+L*a*b*
+Färgrymden Lab (även kallad färgrymden L*a*b*) är en  färgmodell  som utvecklades i början av 1930-talet av Commission Internationale d`Eclairage (CIE). Den omfattar alla färger som det mänskliga ögat kan uppfatta, däribland färgerna i färgrymderna RGB och CMYK. I Lab anges en färg med tre värden: L, a och b. L står för luminanskomponenten, vilket motsvarar gråvärdet, och a respektive b representerar färgens röd-gröna och blå-gula delar.
+Till skillnad från RGB och CMYK är Lab inte beroende av olika in- och utmatningsenheter. Därför används det som ett utbytesformat mellan enheter. Lab är också den interna färgmodellen i PostScript Level II.
+Lager
+Du kan föreställa dig lager som en stapel av mer eller mindre genomskinliga bilder. Varje lager representerar en aspekt av bilden och bilden är summan av alla dessa aspekter. Lagret längst ned i stapeln är bakgrundslagret. Lagren ovanför är delarna av förgrunden.
+Du kan visa och hantera bildens lager i dialogrutan  Lager .
+Exempelbild med lager
+Illustration av en bild med lager
+Slutlig bild
+Vandrande myror
+Vandrande myror är en term som beskriver den prickade linje som omger en markering. Linjen är animerad så att det ser ut som om små myror springer efter varandra.
+Maskar
+En mask är som en slöja som läggs över ett lager (lagermask) eller över alla lagren i en bild (markeringsmask). Du kan ta bort denna mask genom att måla med vitt och utöka den genom att måla med svart. När masken  tillämpas  förblir omaskerade bildpunkter synliga (de andra blir genomskinliga) eller markeras, beroende på masktypen.
+Det finns två typer av maskar:
+ Lagermask : Varje lager kan ha en egen mask. Lagermasken representerar lagrets alfakanal och låter dig hantera dess transparens. Genom att måla på lagermasken kan du göra delar av lagret ogenomskinliga eller transparenta: svart gör lagret transparent, vitt gör det ogenomskinligt och gråtoner gör det halvtransparent. Du kan använda alla målarverktyg för att måla på masken. Du kan också använda ett filter eller kopiera och klistra in. Lagermasken kan användas för övergångseffekter, volymeffekter, sammanfogning av element från en annan bild med mera. Se avsnittet  Lagermask  för mer information.
+ Kanalmask , även kallad  markeringsmask : Kanalmasker bestämmer en markerings genomskinlighet. Måla vitt på en kanalmask för att ta bort masken och utöka markeringen; måla svart för att minska markeringen. På så sätt kan du skapa en mycket exakt markering. Du kan också spara markeringar till en kanalmask med kommandot  Spara till kanal . Hämta markeringen senare med kommandot  Kanal till markering  i  kanalmenyn . Kanalmasker är så viktiga i  GIMP  att det finns en särskild typ:  snabbmasken . Se avsnittet om  markeringsmasker  för mer information.
+Moiré-effekt
+Moiré
+Moiré-effekten (uttalas  moa-ré ) är ett oavsiktligt mönster som uppstår när ett regelbundet mönster av rutnät eller linjer stör ett annat regelbundet mönster som läggs ovanpå. Det kan till exempel hända när du skannar en bild med en periodisk struktur, såsom en rutig skjorta eller en rastrerad bild, skannar en digital bild, tar ett digitalt fotografi av ett periodiskt mönster eller till och med vid silkscreentryck.
+Om du upptäcker problemet i tid är den bästa lösningen att flytta originalbilden lite i skannern eller att ändra kameravinkeln något.
+Om du inte kan återskapa bildfilen erbjuder  GIMP  några filter som kan hjälpa. Mer information finns i avsnitten om filtren  Ta bort prickar  och  NL-filter  (icke-linjärt filter).
+Parasit
+XCF
+.xcf
+En parasit är ytterligare data som kan skrivas till en XCF-fil. En parasit identifieras med ett namn och kan ses som ett tillägg till den övriga informationen i en XCF-fil.
+Parasiter i en bildkomponent kan läsas av  GIMP -insticksmoduler. Insticksmoduler kan även definiera egna parasitnamn, som ignoreras av andra insticksmoduler. Exempel på parasiter är kommentarer, sparalternativ för filformaten TIFF, JPEG och PNG, gammavärdet som bilden skapades med och EXIF-data.
+Passera genom
+Vanligtvis är lagren i en lagergrupp isolerade från resten av bilden. Lagergruppen är i praktiken en separat delbild inuti den större bilden. Du kan sammanfoga gruppen till ett enda lager, ersätta den ursprungliga gruppen med det och få samma resultat.
+I följande exempel anger namnen på de berörda lagren i bilderna lagerläget, med sammansättningsläget inom parentes där det är tillämpligt, samt lagrets opacitet.
+I det här exemplet använder gruppen läget Normal. Observera att de gröna och blå lagren inte påverkar det röda lagret: det gröna lagrets färg läggs inte till det röda lagrets färg, och det blå lagret tar bara bort det gröna lagret.
+Lagergrupper med läget Genomsläpp fungerar annorlunda: lagren i gruppen  ser  lagren under gruppen och samverkar med dem enligt sina respektive lagerlägen.
+I det här exemplet använder gruppen läget Genomsläpp. Observera att det gröna lagrets färg  läggs till  det röda lagrets färg och att det blå lagret tar bort både det gröna och det röda lagret.
+I enkla fall fungerar genomsläppsgrupper som om någon grupp inte alls var inblandad.
+De gröna och blå lagren ligger inte i en grupp och resultatet är detsamma som i föregående exempel.
+I dessa fall är gruppen främst ett organisatoriskt verktyg: den låter dig gruppera flera lager för att uppnå en önskad effekt och hantera dem som en enhet.
+I allmänhet är genomsläppsgrupper dock inte detsamma som att inte ha någon grupp alls. När gruppens opacitet till exempel är mindre än 100 % fungerar genomsläppsgrupper fortfarande som en enda enhet. Opaciteten tillämpas på hela gruppen, som för en vanlig grupp, i stället för på de enskilda lagren, samtidigt som lagren i gruppen fortfarande kan samspela med bakgrundslagren.
+Tre bilder
+Jämför dessa tre bilder, som visar samma sammansättningar som ovan, med gruppen (eller de enskilda lagren i det sista exemplet) på 50 % opacitet. När genomsläppsgrupper används för att gruppera flera lager som tillsammans ger en effekt, låter gruppens opacitet dig i praktiken styra effektens  styrka , vilket inte kan åstadkommas med vare sig vanliga grupper eller enskilda lager.
+Slinga
+En slinga är en kontur som består av raka linjer, kurvor eller båda. I  GIMP  används den för att skapa gränsen för en markering eller  strykas  för att skapa synliga märken på en bild. Om en slinga inte stryks syns den inte när bilden skrivs ut och sparas inte när bilden skrivs till en fil (om du inte använder XCF-formatet).
+Se avsnitten  Begrepp om banor  och  Använda banor  för grundläggande information om banor. I avsnittet  Banverktyget  beskrivs hur du skapar och redigerar banor. Du kan hantera bildens banor i dialogrutan  Banor .
+PDB
+Alla funktioner som  GIMP  och dess insticksmoduler tillhandahåller registreras i procedurdatabasen (PDB). Utvecklare kan söka efter användbar programmeringsinformation om funktionerna i PDB med  procedurbläddraren .
+PDF
+PDF (Portable Document Format) är ett  filformat  som utvecklades av Adobe för att avhjälpa några av bristerna i PostScript. Framför allt brukar PDF-filer vara mycket mindre än motsvarande PostScript-filer. Precis som för PostScript tillhandahålls  GIMP s stöd för PDF-formatet via de fria Ghostscript-biblioteken.
+Bildpunkt
+En bildpunkt är en enskild punkt, eller ett  bildelement , i en bild. En rektangulär bild kan bestå av tusentals bildpunkter, där var och en representerar bildens färg på en viss plats. En bildpunkts värde består normalt av flera  kanaler , såsom färgens röda, gröna och blå komponenter och ibland dess alfa (genomskinlighet).
+Insticksmodul
+Insticksmoduler
+Definition
+Insticksmoduler är externa program som körs under huvudprogrammet GIMP och tillhandahåller särskilda funktioner vid behov. Se   för mer information.
+PNG
+.png
+PNG är förkortningen för  Portable Network Graphic  (uttalas  ping ). Det här relativt nya formatet har många fördelar och några nackdelar: det är inte förstörande och ger tyngre filer än JPEG-formatet, men är utmärkt för att spara bilder eftersom de kan sparas flera gånger utan dataförlust vid varje sparning (det används för denna handbok). Det stöder äkta färger (flera miljoner färger), indexerade bilder (256 färger som GIF) och 256 nivåer av genomskinlighet (medan GIF bara stöder två nivåer).
+PostScript
+PostScript skapades av Adobe och är ett sidbeskrivningsspråk som främst används av skrivare och andra utmatningsenheter. Det är också ett utmärkt sätt att distribuera dokument.  GIMP  stöder inte PostScript direkt: programmet är beroende av ett kraftfullt program med fri programvara som heter Ghostscript.
+PostScripts stora styrka är förmågan att representera vektorgrafik — linjer, kurvor, text, slingor och så vidare — på ett upplösningsoberoende sätt. PostScript är däremot inte särskilt effektivt för pixelbaserad rastergrafik. Därför är PostScript inget bra format för att spara bilder som senare ska redigeras med  GIMP  eller något annat grafikprogram.
+PSD
+.psd
+PSD är Adobe Photoshops ursprungliga  filformat  och kan därför jämföras med  XCF  i komplexitet.  GIMP  hanterar PSD-filer på ett avancerat men inte helt felfritt sätt: vissa funktioner läses inte in eller kan se något annorlunda ut. Det finns en specifikation på nätet, men den täcker inte alla detaljer, vilket gör det svårt att stödja alla funktioner i PSD-filer.
+Kvantisering
+Kvantisering är processen att reducera färgen hos en bildpunkt till ett av ett antal fasta värden genom att matcha färgen mot den närmaste färgen i färgkartan. Faktiska bildpunktsvärden kan ha betydligt högre precision än de diskreta nivåer som kan visas av en digital bildskärm. Om bildskärmens omfång är för litet kan plötsliga färgförändringar (falska konturer eller bandning) uppträda där färgintensiteten ändras från en nivå till en annan. Detta märks särskilt i indexerade bilder som har 256 eller färre diskreta färger.
+Ett sätt att minska kvantiseringseffekter är att använda  gitter . Åtgärderna i  GIMP  som utför gitter är  övertoningsverktyget  (om alternativet för gitter är aktiverat) och kommandot  Konvertera till indexerat . De fungerar dock endast på RGB-bilder, inte på indexerade bilder.
+Återgivningsmetod
+Färghantering
+Återgivningsmetoder är sätt att hantera färger utanför   som finns i källrymden men som målrymden inte kan återge. ICC definierar fyra återgivningsmetoder:
+Perceptuell
+Den här återgivningsmetoden används vanligtvis för fotografiskt innehåll. Den skalar ett färgomfång så att det ryms inom det andra, samtidigt som färgernas relativa position behålls.
+Relativ kolorimetri
+Den här återgivningsmetoden används vanligtvis för dekorfärger. Färger som inte ligger utanför färgomfånget lämnas oförändrade. Färger utanför färgomfånget omvandlas till färger med samma ljushet, men med annan mättnad, vid färgomfångets kant.
+Den här metoden används vanligtvis för affärsgrafik. Färgernas relativa mättnad bibehålls i huvudsak, men ljusheten ändras vanligen.
+Absolut kolorimetri
+Den här återgivningsmetoden används oftast vid provtryck. Den bevarar ursprungsbildens enhetsberoende vitpunkt.
+Additiv färgmodell
+RGB är en  färgmodell  med komponenterna rött, grönt och blått. Dessa färger sänds ut av skärmelementen och reflekteras inte, som färger gör. Den resulterande färgen är en kombination av de tre primära RGB-färgerna med olika grader av ljushet. Om du tittar noga på tv-skärmen, vars punkttäthet är högre än en datorskärms, kan du se de röda, gröna och blå elementen lysa med olika intensitet. RGB-färgmodellen är  additiv .
+ GIMP  använder åtta bitar per kanal för varje primärfärg. Det innebär att det finns 256 intensiteter (värden) tillgängliga, vilket ger 256×256×256 = 16 777 216 färger.
+Det är inte självklart varför en viss kombination av primärfärger ger en viss färg. Varför ger till exempel 229R+205G+229B en rosa nyans? Detta beror på det mänskliga ögat och hjärnan. Det finns ingen färg i naturen, bara ett kontinuerligt spektrum av ljusvåglängder. Det finns tre sorters tappar i näthinnan. Samma ljusvåglängd som verkar på de tre typerna av tappar stimulerar dem olika, och sinnet har efter flera miljoner års evolution lärt sig känna igen en färg utifrån skillnaderna.
+Det är lätt att se att inget ljus (0R+0G+0B) ger fullständigt mörker, svart, och att fullt ljus (255R+255G+255B) ger vitt. Samma intensitet i alla färgkanaler ger en grånivå. Därför kan det bara finnas 256 grånivåer i  GIMP .
+Om två  primärfärger  blandas i RGB-läge fås en  sekundärfärg , alltså en färg i CMY-modellen. Att kombinera rött och grönt ger således gult, grönt och blått ger cyan och blått och rött ger magenta. Förväxla inte sekundärfärger med  komplementfärger , som ligger direkt mitt emot en primärfärg i färgcirkeln:
+Färgcirkel
+Att blanda en primärfärg med dess komplementfärg ger grått (en neutral färg).
+Det är viktigt att veta vad som händer när du arbetar med färger i  GIMP . Den viktigaste regeln att komma ihåg är att en minskning av en primärfärgs intensitet ökar intensiteten hos komplementfärgen (och vice versa). Detta beror på att när du minskar värdet för en kanal, till exempel grönt, ökar du automatiskt de andra två kanalernas, här rött och blått, relativa betydelse. Kombinationen av dessa två kanaler ger sekundärfärgen magenta, som är komplementfärgen till grönt.
+Verktyget  Färgväljare  låter dig ta reda på RGB-värdena för en bildpunkt och färgens  hexadecimala trippel .
+Sampla sammanfogat
+Sampla sammanfogade är ett alternativ som kan ställas in när du använder verktygen  Fyll ,  Färgväljare  och olika markeringsverktyg. Det är användbart när du arbetar med en bild med flera lager och det aktiva lagret antingen är halvgenomskinligt eller har ett  lagerläge  som inte är inställt på Normalt. När alternativet Sampla sammanfogade är ikryssat är färgen som används för åtgärden den sammansatta färgen från alla synliga lager. När alternativet inte är ikryssat används färgen från det aktiva lagret självt.
+Se även  klonverktyget  för hur Sampla sammanfogade används vid icke-förstörande bildredigering.
+Termen avser färgens renhet. Föreställ dig att du tillsätter pigment till vit färg. Mättnaden varierar från 0 (vit, helt nedtonad, helt utspädd) till 100 (ren färg).
+Scenrelaterad
+När man talar om bilder som har tagits med en kamera innebär scenrelaterad att intensiteterna i bildens RGB-kanaler är proportionella mot intensiteterna i motivet som fotograferades.
+"Scenrelaterad" är inte detsamma som  stort dynamiskt omfång , eftersom kameran kan ha riktats mot ett motiv med litet dynamiskt omfång, till exempel en dimmig vy tidigt på morgonen. Men om en ljuskälla läggs till i bilden, som månen som bryter igenom molnen eller en gatlykta, blir även en dimmig morgon ett motiv med stort dynamiskt omfång.
+Eftersom ljusvågor kombineras linjärt måste en scenrelaterad bild, vare sig den är verklig eller imaginär, per definition kodas linjärt för att bevara data som scenrelaterade.
+Supersampling
+Supersampling är en mer avancerad kantutjämningsteknik som minskar ojämna kanter och trappsteg längs sneda eller böjda linjer. Färgen beräknas utifrån flera provpunkter  inne i  varje bildpunkt, inte bara dess mitt. Det görs genom att återge bilden med mycket högre upplösning än den som ska visas och sedan förminska den till önskad storlek. De extra bildpunkterna används i beräkningen. Resultatet blir en jämnare övergång mellan bildpunktsrader längs objektens kanter.
+Resultatets kvalitet beror på antalet prov. Supersampling utförs ofta i intervallet 2× till 16× den ursprungliga storleken. Det ökar kraftigt den tid som krävs för att rita bilden och även det utrymme som krävs för att lagra bilden i minnet.
+Ett sätt att minska behovet av utrymme och tid är att använda adaptiv supersampling. Metoden utnyttjar att mycket få bildpunkter faktiskt ligger på en objektgräns, så endast dessa bildpunkter behöver supersamplas. Inledningsvis tas bara några få prov inom en bildpunkt. Om färgerna är mycket lika används endast de proven för att beräkna slutlig färg. Om inte används fler prov. Det innebär att det högre antalet prov bara beräknas där det behövs, vilket förbättrar prestandan.
+SVG
+SVG står för Scalable Vector Graphics. Det är ett format för tvådimensionell vektorgrafik, både statisk och animerad. Du kan exportera GIMP-banor till SVG och importera SVG-dokument till GIMP från ett vektorgrafikprogram. Se   för mer information.
+TGA
+TARGA
+TGA (TARGA Image File) är ett  filformat  som stöder 8, 16, 24 eller 32 bitar per bildpunkt och valfri RLE-komprimering. Det utvecklades ursprungligen av företaget Truevision.  TGA  står för Truevision Graphics Adapter och  TARGA  för Truevision Advanced Raster Graphics Adapter.
+TIFF
+TIFF (Tagged Image File Format) är ett  filformat  som främst utvecklades för skannad rastergrafik för färgseparering. Sex olika kodningsmetoder stöds, var och en med ett av tre bildlägen: svartvitt, gråskala och färg. Okomprimerade TIFF-bilder kan ha 1, 4, 8 eller 24 bitar per bildpunkt. TIFF-bilder komprimerade med LZW-algoritmen kan ha 6, 8 eller 24 bitar per bildpunkt. Vid sidan av PostScript-formatet är TIFF ett av de viktigaste formaten i tryckförberedelser. Det är ett filformat med hög kvalitet, lämpligt för bilder som du vill importera till andra program som FrameMaker eller CorelDRAW.
+Bricka
+En bricka är en del av en bild som  GIMP  har öppen just nu. För att slippa lagra hela bilden i minnet samtidigt delar  GIMP  upp den i mindre delar. En bricka är vanligen en kvadrat på 64 × 64 bildpunkter, men brickor vid bildens kanter kan vara mindre.
+En bricka kan när som helst finnas i primärminnet, i brickcachen i RAM eller på disk. Brickor som för närvarande bearbetas finns i primärminnet. Brickor som nyligen har använts finns i RAM. När brickcachen i RAM är full skrivs de brickor som använts minst nyligen till disk.  GIMP  kan hämta brickorna från RAM eller disk när de behövs.
+Förväxla inte dessa brickor med dem i  Brickfilter 
+URI
+En Uniform Resource Identifier (URI) är en teckensträng som används för att identifiera en abstrakt eller fysisk resurs. URI:er används för att identifiera resurser på internet (såsom webbsidor, diverse filer, anrop av webbtjänster och mottagare av e-post) och används särskilt på webben.
+URL
+URL:er (Uniform Resource Locators) är en typ av Uniform Resource Identifiers (URI:er). URL:er identifierar en resurs genom dess primära åtkomstmekanism (vanligtvis http eller ftp) och resursens plats i datornätverket. Namnet på URI-schemat härleds därför vanligen från nätverksprotokollet som används. Exempel på nätverksprotokoll är http, ftp och mailto.
+Eftersom URL:er är den första och vanligaste typen av URI används termerna ofta synonymt.
+Termen avser ofta ljusintensiteten, en färgs luminositet. Den varierar från 0 (svart) till 100 (fullt ljus).
+XDG
+ Freedesktop.org , även kallat XDG, är ett projekt som arbetar för samverkan mellan skrivbordsmiljöer i Linux och Unix-liknande operativsystem.
+Sådana operativsystem innehåller vanligtvis programvara som implementerar XDG-specifikationer. Det gör att ett program kan öppna andra program, till exempel en webbläsare, ett e-postprogram eller ett verktyg för skärmbilder.
+.xcf.gz
+XCF är ett  filformat  som är särskilt eftersom det är  GIMP s ursprungliga filformat: det utformades specifikt för att lagra alla data som ingår i en  GIMP -bild. Därför kan XCF-filer vara ganska komplexa och det finns få program förutom  GIMP  som kan läsa dem.
+När en bild lagras som en XCF-fil kodar filen nästan allt som finns att veta om bilden: bildpunktsdata för vart och ett av lagren, den aktuella markeringen, ytterligare kanaler om sådana finns, slingor om sådana finns samt hjälplinjer. Det viktigaste som  inte  sparas i en XCF-fil är ångringshistoriken.
+Bildpunktsdata i en XCF-fil representeras i en förlustfritt komprimerad form: bildens byteblock komprimeras med den förlustfria RLE-algoritmen. Det innebär att oavsett hur många gånger du läser in och sparar en bild med formatet går inte en enda bildpunkt eller annan bilddata förlorad eller ändras på grund av formatet. XCF-filer kan dock bli mycket stora, men  GIMP  låter dig komprimera själva filerna med antingen gzip- eller bzip2-komprimering, som båda är snabba, effektiva och fritt tillgängliga. Att komprimera en XCF-fil minskar den ofta med en faktor 10 eller mer.
+ GIMP -utvecklarna har lagt stor vikt vid att hålla XCF-filformatet kompatibelt mellan versioner. En fil som skapas med  GIMP  3.0 bör gå att öppna i  GIMP  2.10. En del information i filen kanske dock inte kan användas.
+Dokumentation om XCF-formatet finns på  .
+XMP
+XMP är en förkortning för Extensible Metadata Platform. Det är ett XML-baserat metadataformat som används i PDF-filer och fotografier. Se   för utförliga förklaringar.
+YCbCr är en  färgmodell  som utvecklades för PAL-tv-standarden som en enkel modifiering av YUV-färgmodellen. Den har under tiden blivit CCIR-601-standarden för bild- och videoinspelning. Den används exempelvis för JPEG-bilder och MPEG-video och därmed även på dvd:er, video-cd:er och de flesta andra utbredda digitala videostandarder. Observera att en färgmodell fortfarande inte är en färgrymd eftersom den inte avgör vilka färger som faktiskt avses med  röd ,  grön  och  blå . För en färgrymd krävs fortfarande en hänvisning till ett specifikt absolut färgvärde.
+Det finns färgmodeller som inte uttrycker en färg med de additiva grundfärgerna rött, grönt och blått (RGB), utan genom andra egenskaper, exempelvis ljushetsfärgmodellen. Kriterierna är färgernas grundläggande ljushet (från svart via grått till vitt), färgen med störst andel (rött, orange, gult, grönt, blått, violett eller andra rena färger däremellan) samt färgernas mättnad (från  gräll  till blek). Färgmodellen bygger på ögats förmåga att känna igen små skillnader i luminositet bättre än små färgskillnader, och dessa bättre än små skillnader i mättnad. Därför är grå text mot svart bakgrund lätt att läsa, medan blå text mot röd bakgrund är mycket svår att läsa, även med samma grundläggande ljushet. Sådana färgmodeller kallas ljushetsfärgmodeller.
+YCbCr-modellen är en mindre anpassning av en modell som beskriver ljushet och färg. Ett RGB-färgvärde delas upp i en grundläggande ljushet, Y, och två komponenter, Cb och Cr. Cb mäter avvikelsen från grått i blå riktning eller, om värdet är lägre än 0,5, i gul riktning. Cr mäter motsvarande avvikelse i röd eller turkos riktning. Representationen utnyttjar att ögat är särskilt känsligt för grönt ljus. Därför finns större delen av informationen om andelen grönt i grundljusheten Y, medan endast avvikelserna för rött och blått behöver representeras. I de flesta praktiska tillämpningar, till exempel på dvd:er, har Y-värdena dubbelt så hög upplösning som Cb- och Cr-värdena.
+YUV är en  färgmodell  som använder två komponenter för att representera färginformationen: luma (ljusets styrka per ytenhet) och krominans, eller färgandelen (kroma), där krominansen i sin tur består av två komponenter. Utvecklingen av färgmodellen YUV går tillbaka till färgtelevisionens utveckling (PAL), då man sökte sätt att sända färginformationen tillsammans med den svartvita signalen för att få bakåtkompatibilitet med äldre svartvita tv-apparater utan att öka den tillgängliga överföringsbandbredden. Ur den analoga tv-teknikens YUV-färgmodell utvecklades färgmodellen YCrCb, som används för de flesta typer av digital bild- och videokomprimering. Felaktigt talar man också ofta om färgmodellen YUV på dessa områden, trots att det egentligen är modellen YCbCr som används. Detta orsakar ofta förvirring.
+Vid beräkning av lumasignaler justeras underliggande RGB-data först med utmatningsenhetens  gammavärde , och en R'G'B'-signal erhålls. De tre enskilda komponenterna adderas med olika vikter för att bilda ljushetsinformationen, som också fungerar som VBS-signalen (Video Baseband Signal, den svartvita signalen) för de gamla svartvita tv-apparaterna.
+Y=R+G+B
+Den exakta beräkningen är dock mer komplicerad eftersom vissa aspekter av det mänskliga ögats färguppfattning måste beaktas. Grönt uppfattas exempelvis som ljusare än rött, och rött som ljusare än blått. I vissa system utförs dessutom först gammakorrigering av grundfärgen.
+Krominanssignalerna, och även färgdifferenssignalerna, innehåller färginformationen. De bildas av skillnaden mellan blått och luma respektive rött och luma.
+U=B-Y
+V=R-Y
+Från de tre skapade komponenterna Y, U och V kan grundfärgens enskilda färgandelar senare beräknas på nytt:
+Y + U = Y + ( B - Y ) = Y - Y + B = B
+Y + V = Y + ( R - Y ) = Y - Y + R = R
+Y - B - R = ( R + G + B ) - B - R = G
+På grund av hur människans näthinna är uppbyggd uppfattas ljushetsinformationen med högre upplösning än färgen. Därför komprimerar många format som bygger på YUV-färgmodellen krominansen för att spara bandbredd vid överföring.
