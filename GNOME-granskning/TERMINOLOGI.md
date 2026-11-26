@@ -243,6 +243,18 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | Screenshot (GIMP) | skärmbild | GIMP-dialogen och dess funktion. |
 | Shoot area (GIMP screenshot dialog) | Välj område | Dialogens val för vilket område som ska fångas. |
 
+
+## GNOME Applets — Diskmonteraren
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| Disk Mounter | Diskmonterare / Diskmonteraren | Produktnamn respektive bestämd form i löptext. |
+| mount (drive or filesystem) | montera | När en enhet eller ett filsystem görs tillgängligt. |
+| unmount | avmontera | Ta bort en monterad enhet eller ett filsystem på säkert sätt. |
+| eject (drive) | mata ut | När en optisk enhet eller ett medium matas ut. |
+| mount status | monteringsstatus | Om enheten eller filsystemet är monterat. |
+| removable media | flyttbara medier | Exempelvis USB-enheter och flyttbara diskar. |
+
 ## Föräldrakontroller och användarkonton
 
 | Engelska | Rekommenderad svenska | Anmärkning |

@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-26 09:18 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-26 09:30 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -331,7 +331,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/cpufreq/sv/) | master | 82 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/charpick/sv/) | master | 81 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/mini-commander/sv/) | master | 130 | 0 | 0 | Klar |  | — | Ej granskad |
-| Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/drivemount/sv/) | master | 58 | 0 | 0 | Klar |  | — | Ej granskad |
+| Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/drivemount/sv/) | master | 58 | 0 | 0 | Klar | X | 25 | Klar lokalt (2026-11-26): Alla 58 strängar radgranskade; 58 översatta, 0 fuzzy och 0 oöversatta före och efter. 25 befintliga översättningar förbättrades. msgfmt, msgcmp och DocBook-kontroller passerar; l10n-lint 0 fel och en dokumenterad slutpunktsvarning. Hunspell-undantag dokumenterade. Inte inskickad till GNOME. [original](gnome-applets/master/drivemount/gnome-applets.master.drivemount.sv.original.po), [granskad](gnome-applets/master/drivemount/gnome-applets.master.drivemount.sv.reviewed.po), [diff](gnome-applets/master/drivemount/gnome-applets.master.drivemount.sv.review.diff), [notering](gnome-applets/master/drivemount/README.md) |
 | Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/geyes/sv/) | master | 42 | 0 | 0 | Klar | X | 1 | Klar lokalt (2026-11-24): Hela 42-strängarskatalogen är radgranskad mot senaste POT. En felaktig historisk uppgift är rättad; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](gnome-applets/master/geyes/geyes.master.sv.original.po), [granskad](gnome-applets/master/geyes/geyes.master.sv.reviewed.po), [diff](gnome-applets/master/geyes/geyes.master.sv.review.diff), [notering](gnome-applets/master/geyes/README.md) |
 | Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/accessx-status/sv/) | master | 62 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gnome-applets](https://l10n.gnome.org/vertimus/gnome-applets/master/netspeed/sv/) | master | 73 | 0 | 0 | Klar |  | — | Ej granskad |

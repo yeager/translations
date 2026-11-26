@@ -1,0 +1,500 @@
+--- gnome-applets.master.drivemount.sv.original.po
++++ gnome-applets.master.drivemount.sv.reviewed.po
+@@ -5,13 +5,14 @@
+ msgstr ""
+ "Project-Id-Version: applets-drivemount\n"
+ "POT-Creation-Date: 2026-11-10 14:26+0000\n"
+-"PO-Revision-Date: 2021-03-27 22:49+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-26 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+ "X-Generator: Poedit 2.4.2\n"
+ 
+ #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+@@ -24,16 +25,16 @@
+ #. (itstool) path: articleinfo/title
+ #: C/index.docbook:23
+ msgid "Disk Mounter Manual"
+-msgstr "Handbok för Diskmonterare"
++msgstr "Handbok för Diskmonteraren"
+ 
+ #. (itstool) path: abstract/para
+ #: C/index.docbook:25
+ msgid ""
+-"Disk Mounter enables you to quickly mount or unmount various types of drives "
+-"and file systems from a panel."
+-msgstr ""
+-"Diskmonteraren låter dig snabbt montera eller avmontera olika typer av "
+-"enheter och filsystem från en panel."
++"Disk Mounter enables you to quickly mount or unmount various types of drives"
++" and file systems from a panel."
++msgstr ""
++"Diskmonteraren låter dig snabbt montera och avmontera olika typer av enheter"
++" och filsystem från en panel."
+ 
+ #. (itstool) path: articleinfo/copyright
+ #: C/index.docbook:28
+@@ -79,8 +80,9 @@
+ "<firstname>Sun</firstname> <surname>GNOME Documentation Team</surname> "
+ "<affiliation><orgname>Sun Microsystems</orgname></affiliation>"
+ msgstr ""
+-"<firstname>Sun</firstname> <surname>Dokumentationsgruppen för GNOME</"
+-"surname> <affiliation> <orgname>Sun Microsystems</orgname> </affiliation>"
++"<firstname>Sun</firstname> <surname>Dokumentationsgruppen för "
++"GNOME</surname> <affiliation> <orgname>Sun Microsystems</orgname> "
++"</affiliation>"
+ 
+ #. (itstool) path: authorgroup/author
+ #: C/index.docbook:76
+@@ -126,8 +128,8 @@
+ #. (itstool) path: revhistory/revision
+ #: C/index.docbook:118
+ msgid ""
+-"<revnumber>Disk Mounter Applet Manual V2.1</revnumber> <date>February 2004</"
+-"date> <_:revdescription-1/>"
++"<revnumber>Disk Mounter Applet Manual V2.1</revnumber> <date>February "
++"2004</date> <_:revdescription-1/>"
+ msgstr ""
+ "<revnumber>Handbok för miniprogrammet Diskmonterare V2.1</revnumber> "
+ "<date>Februari 2004</date> <_:revdescription-1/>"
+@@ -140,8 +142,8 @@
+ #. (itstool) path: revhistory/revision
+ #: C/index.docbook:126
+ msgid ""
+-"<revnumber>Disk Mounter Applet Manual V2.0</revnumber> <date>March 2002</"
+-"date> <_:revdescription-1/>"
++"<revnumber>Disk Mounter Applet Manual V2.0</revnumber> <date>March "
++"2002</date> <_:revdescription-1/>"
+ msgstr ""
+ "<revnumber>Handbok för miniprogrammet Diskmonterare V2.0</revnumber> "
+ "<date>Mars 2002</date> <_:revdescription-1/>"
+@@ -157,13 +159,13 @@
+ "<revnumber>Drive Mount Applet Manual</revnumber> <date>April 2000</date> "
+ "<_:revdescription-1/>"
+ msgstr ""
+-"<revnumber>Handbok för enhetsmonterarminiprogram</revnumber> <date>April "
+-"2000</date> <_:revdescription-1/>"
++"<revnumber>Handbok för miniprogrammet Enhetsmontering</revnumber> "
++"<date>April 2000</date> <_:revdescription-1/>"
+ 
+ #. (itstool) path: articleinfo/releaseinfo
+ #: C/index.docbook:148
+ msgid "This manual describes version 2.10 of Disk Mounter."
+-msgstr "Denna handbok beskriver version 2.10 av Diskmonterare."
++msgstr "Den här handboken beskriver version 2.10 av Diskmonteraren."
+ 
+ #. (itstool) path: legalnotice/title
+ #: C/index.docbook:151
+@@ -177,8 +179,8 @@
+ "Mounter</application> or this manual, follow the directions in the <ulink "
+ "url=\"ghelp:gnome-feedback\" type=\"help\">GNOME Feedback Page</ulink>."
+ msgstr ""
+-"För att rapportera ett fel eller komma med förslag angående "
+-"<application>Diskmonterare</application>eller denna handbok, följ "
++"Om du vill rapportera ett fel eller lämna ett förslag om "
++"<application>Diskmonteraren</application> eller den här handboken följer du "
+ "anvisningarna på <ulink url=\"ghelp:gnome-feedback\" type=\"help\">GNOME:s "
+ "återkopplingssida</ulink>."
+ 
+@@ -215,18 +217,18 @@
+ #: C/index.docbook:172
+ msgid ""
+ "<imageobject><imagedata fileref=\"figures/drivemount-applet_example.png\" "
+-"format=\"PNG\"/> </imageobject> <textobject> <phrase>The Disk Mounter.</"
+-"phrase> </textobject>"
++"format=\"PNG\"/> </imageobject> <textobject> <phrase>The Disk "
++"Mounter.</phrase> </textobject>"
+ msgstr ""
+ "<imageobject><imagedata fileref=\"figures/drivemount-applet_example.png\" "
+-"format=\"PNG\"/> </imageobject> <textobject> <phrase>Diskmonteraren.</"
+-"phrase> </textobject>"
++"format=\"PNG\"/> </imageobject> <textobject> "
++"<phrase>Diskmonteraren.</phrase> </textobject>"
+ 
+ #. (itstool) path: sect1/para
+ #: C/index.docbook:183
+ msgid ""
+-"The <application>Disk Mounter</application> enables you to quickly mount and "
+-"unmount various types of drives and file systems."
++"The <application>Disk Mounter</application> enables you to quickly mount and"
++" unmount various types of drives and file systems."
+ msgstr ""
+ "<application>Diskmonteraren</application> låter dig snabbt montera och "
+ "avmontera olika typer av enheter och filsystem."
+@@ -237,19 +239,18 @@
+ "For the <application>Disk Mounter</application> to work properly, your "
+ "system administrator must configure your system appropriately. For more "
+ "information about the necessary system administration tasks, see <ulink "
+-"url=\"man:fstab\" type=\"man\"><citerefentry><refentrytitle>fstab</"
+-"refentrytitle><manvolnum>5</manvolnum></citerefentry></ulink>."
+-msgstr ""
+-"För att <application>Diskmonterare</application> ska fungera korrekt måste "
+-"din systemadministratör konfigurera ditt system på lämpligt sätt. För mer "
+-"information om de nödvändiga åtgärderna, se <ulink url=\"man:fstab\" "
+-"type=\"man\"><citerefentry><refentrytitle>fstab</refentrytitle><manvolnum>5</"
+-"manvolnum></citerefentry></ulink>."
++"url=\"man:fstab\" "
++"type=\"man\"><citerefentry><refentrytitle>fstab</refentrytitle><manvolnum>5</manvolnum></citerefentry></ulink>."
++msgstr ""
++"För att <application>Diskmonteraren</application> ska fungera korrekt måste "
++"systemadministratören konfigurera systemet. Mer information om nödvändiga "
++"administrationsåtgärder finns i <ulink url=\"man:fstab\" "
++"type=\"man\"><citerefentry><refentrytitle>fstab</refentrytitle><manvolnum>5</manvolnum></citerefentry></ulink>."
+ 
+ #. (itstool) path: sect2/title
+ #: C/index.docbook:191
+ msgid "To Add Disk Mounter to a Panel"
+-msgstr "Lägga till Diskmonterare till en panel"
++msgstr "Lägga till Diskmonteraren i en panel"
+ 
+ #. (itstool) path: sect2/para
+ #: C/index.docbook:192
+@@ -259,11 +260,11 @@
+ "<application>Disk Mounter</application> in the <application>Add to the "
+ "panel</application> dialog, then click <guibutton>OK</guibutton>."
+ msgstr ""
+-"För att lägga till <application>Diskmonterare</application> till en panel, "
+-"högerklicka på panelen, välj sedan <guimenuitem>Lägg till i panel</"
+-"guimenuitem>. Välj <application>Diskmonterare</application> i dialogrutan "
+-"<application>Lägg till i panelen</application>, klicka sedan <guibutton>OK</"
+-"guibutton>."
++"Lägg till <application>Diskmonteraren</application> i en panel genom att "
++"högerklicka på panelen och välja <guimenuitem>Lägg till i "
++"panel</guimenuitem>. Välj sedan <application>Diskmonteraren</application> i "
++"dialogrutan <application>Lägg till i panelen</application> och klicka på "
++"<guibutton>OK</guibutton>."
+ 
+ #. (itstool) path: sect2/title
+ #: C/index.docbook:199
+@@ -276,7 +277,7 @@
+ "Many file systems on Linux and UNIX systems must be manually mounted and "
+ "unmounted."
+ msgstr ""
+-"Många filsystem på Linux- och UNIX-system måste monteras och avmonteras "
++"Många filsystem i Linux- och UNIX-system måste monteras och avmonteras "
+ "manuellt."
+ 
+ #. (itstool) path: sect2/para
+@@ -286,8 +287,8 @@
+ "When you finish working with a file system, you should unmount the file "
+ "system."
+ msgstr ""
+-"När ett filsystem är monterat kan du läsa och skriva till filsystemet. När "
+-"du har arbetat klart med ett filsystem bör du avmontera filsystemet."
++"När ett filsystem är monterat kan du läsa från och skriva till det. När du "
++"är klar med filsystemet bör du avmontera det."
+ 
+ #. (itstool) path: sect2/para
+ #: C/index.docbook:206
+@@ -297,10 +298,10 @@
+ "write the changes immediately. Such systems typically buffer the changes to "
+ "the disk, to improve the speed of the system."
+ msgstr ""
+-"Du måste avmontera flyttbara enheter, såsom disketter och ZIP-enheter, innan "
+-"du tar ut mediat, därför att Linux- och UNIX-system inte alltid skriver "
+-"ändringar direkt. Sådana system buffrar vanligtvis ändringarna till disken, "
+-"för att öka hastigheten på systemet."
++"Du måste avmontera flyttbara enheter, till exempel disketter och Zip-diskar,"
++" innan du tar ut mediet, eftersom Linux- och UNIX-system inte alltid skriver"
++" ändringarna till disken direkt. Sådana system buffrar vanligtvis "
++"ändringarna för att förbättra systemets prestanda."
+ 
+ #. (itstool) path: sect2/para
+ #: C/index.docbook:209
+@@ -310,23 +311,23 @@
+ "shuts down. Removable media must be mounted and unmounted manually, for "
+ "example by using the <application>Disk Mounter</application>."
+ msgstr ""
+-"Partitioner på fasta enheter, såsom din hårddisk är vanligtvis automatiskt "
+-"monterade när din dator startar upp, och avmonteras när din dator stängs "
+-"ner. Flyttbart media måste monteras och avmonteras manuellt, till exempel "
+-"genom att använda <application>Diskmonterare</application>."
++"Partitioner på fasta enheter, till exempel hårddisken, monteras vanligtvis "
++"automatiskt när datorn startar och avmonteras när den stängs av. Flyttbara "
++"medier måste monteras och avmonteras manuellt, till exempel med "
++"<application>Diskmonteraren</application>."
+ 
+ #. (itstool) path: sect2/para
+ #: C/index.docbook:212
+ msgid ""
+ "Some systems may also automatically mount some removable media (such as USB "
+-"and IEEE1394 disks), these devices may also come up in the <application>Disk "
+-"Mounter</application> so that you can unmount them when you are finished, "
++"and IEEE1394 disks), these devices may also come up in the <application>Disk"
++" Mounter</application> so that you can unmount them when you are finished, "
+ "and provide a visual indication that they are present."
+ msgstr ""
+-"Vissa system kan även automatiskt montera vissa flyttbara media (såsom USB- "
+-"och IEEE1394-diskar), dessa enheter kan även dyka upp i "
+-"<application>Diskmonterare</application> så att du kan avmontera dem när du "
+-"är färdig, och tillhandahålla en synlig indikation att de finns där."
++"Vissa system monterar även vissa flyttbara medier automatiskt, till exempel "
++"USB- och IEEE 1394-diskar. Enheterna visas då i "
++"<application>Diskmonteraren</application>, där du kan avmontera dem när du "
++"är klar; ikonerna visar att de är anslutna."
+ 
+ #. (itstool) path: sect1/title
+ #: C/index.docbook:221
+@@ -336,18 +337,17 @@
+ #. (itstool) path: sect2/title
+ #: C/index.docbook:224
+ msgid "To Display the Name and Mount Status of a Drive"
+-msgstr "Visa namnet och monteringsstatus för en enhet"
++msgstr "Visa enhetens namn och monteringsstatus"
+ 
+ #. (itstool) path: sect2/para
+ #: C/index.docbook:225
+ msgid ""
+ "To display the name and mount status of a drive, move the mouse pointer to "
+-"the drive icon in the panel. A tooltip displays the name and mount status of "
+-"the drive."
+-msgstr ""
+-"För att visa namnet och monteringsstatusen för en enhet, flytta muspekaren "
+-"till enhetsikonen i panelen. En inforuta visar namnet och monteringsstatusen "
+-"för enheten."
++"the drive icon in the panel. A tooltip displays the name and mount status of"
++" the drive."
++msgstr ""
++"Flytta muspekaren till enhetsikonen i panelen. En inforuta visar enhetens "
++"namn och monteringsstatus."
+ 
+ #. (itstool) path: imageobject/imagedata
+ #. This is a reference to an external file such as an image or video. When
+@@ -366,7 +366,7 @@
+ #. (itstool) path: sect2/title
+ #: C/index.docbook:234
+ msgid "To Mount, Unmount or Eject a Drive"
+-msgstr "För att montera, avmontera eller mata ut en enhet"
++msgstr "Montera, avmontera eller mata ut en enhet"
+ 
+ #. (itstool) path: sect2/para
+ #: C/index.docbook:235
+@@ -374,8 +374,8 @@
+ "To mount drive, click on the drive icon in the panel and then select the "
+ "<guimenuitem>Mount Drive</guimenuitem> option."
+ msgstr ""
+-"För att montera enheten, klicka på enhetsikonen i panelen och välj sedan "
+-"alternativet <guimenuitem>Montera enhet</guimenuitem>."
++"Klicka på enhetsikonen i panelen och välj sedan alternativet "
++"<guimenuitem>Montera enhet</guimenuitem>."
+ 
+ #. (itstool) path: imageobject/imagedata
+ #. This is a reference to an external file such as an image or video. When
+@@ -394,13 +394,13 @@
+ #. (itstool) path: sect2/para
+ #: C/index.docbook:241
+ msgid ""
+-"To unmount a drive, click on the drive icon in the panel and then select the "
+-"<guimenuitem>Unmount Drive</guimenuitem> option, or if the device is a CD-"
++"To unmount a drive, click on the drive icon in the panel and then select the"
++" <guimenuitem>Unmount Drive</guimenuitem> option, or if the device is a CD-"
+ "ROM Drive, it may be labelled <guimenuitem>Eject Drive</guimenuitem>"
+ msgstr ""
+-"För att avmontera en enhet, klicka på enhetsikonen i panelen och välj sedan "
+-"alternativet <guimenuitem>Avmontera enhet</guimenuitem>, eller om enheten är "
+-"en cd-rom-enhet kan det vara <guimenuitem>Mata ut enhet</guimenuitem>"
++"För att avmontera enheten klickar du på enhetsikonen i panelen och väljer "
++"<guimenuitem>Avmontera enhet</guimenuitem>. Om enheten är en cd-rom-enhet "
++"kan alternativet i stället heta <guimenuitem>Mata ut enhet</guimenuitem>."
+ 
+ #. (itstool) path: imageobject/imagedata
+ #. This is a reference to an external file such as an image or video. When
+@@ -419,7 +419,7 @@
+ #. (itstool) path: sect2/title
+ #: C/index.docbook:250
+ msgid "To Browse the Contents of a Drive"
+-msgstr "För att bläddra bland innehållet på en enhet"
++msgstr "Bläddra bland innehållet på en enhet"
+ 
+ #. (itstool) path: sect2/para
+ #: C/index.docbook:251
+@@ -427,9 +427,9 @@
+ "To use a file manager to browse the contents of a drive, click on the drive "
+ "icon in the panel, then choose <guimenuitem>Open Drive</guimenuitem>."
+ msgstr ""
+-"För att använda en filhanterare för att bläddra bland innehållet på en "
+-"enhet, klicka på enhetsikonen i panelen, välj sedan <guimenuitem>Öppna "
+-"enhet</guimenuitem>."
++"Klicka på enhetsikonen i panelen och välj <guimenuitem>Öppna "
++"enhet</guimenuitem> för att öppna den i en filhanterare och bläddra bland "
++"innehållet."
+ 
+ #. (itstool) path: imageobject/imagedata
+ #. This is a reference to an external file such as an image or video. When
+@@ -448,7 +448,7 @@
+ #. (itstool) path: sect2/para
+ #: C/index.docbook:257
+ msgid "You can only browse the contents of a mounted drive."
+-msgstr "Du kan endast bläddra bland innehållet på en monterad enhet."
++msgstr "Du kan bara bläddra bland innehållet på en monterad enhet."
+ 
+ #. (itstool) path: para/ulink
+ #: C/legal.xml:9
+@@ -461,28 +461,28 @@
+ "Permission is granted to copy, distribute and/or modify this document under "
+ "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+ "later version published by the Free Software Foundation with no Invariant "
+-"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+-"of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
++"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy"
++" of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
+ "with this manual."
+ msgstr ""
+ "Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges "
+ "under villkoren i GNU Free Documentation License (GFDL), version 1.1 eller "
+ "senare, utgivet av Free Software Foundation utan standardavsnitt och "
+-"omslagstexter.  En kopia av GFDL finns att hämta på denna <_:ulink-1/> eller "
+-"i filen COPYING-DOCS som medföljer denna handbok."
++"omslagstexter.  En kopia av GFDL finns att hämta på denna <_:ulink-1/> eller"
++" i filen COPYING-DOCS som medföljer denna handbok."
+ 
+ #. (itstool) path: legalnotice/para
+ #: C/legal.xml:12
+ msgid ""
+ "This manual is part of a collection of GNOME manuals distributed under the "
+ "GFDL. If you want to distribute this manual separately from the collection, "
+-"you can do so by adding a copy of the license to the manual, as described in "
+-"section 6 of the license."
+-msgstr ""
+-"Denna handbok utgör en av flera GNOME-handböcker som distribueras under "
+-"villkoren i GFDL.  Om du vill distribuera denna handbok separat från övriga "
+-"handböcker kan du göra detta genom att lägga till en kopia av licensavtalet "
+-"i handboken enligt instruktionerna i avsnitt 6 i licensavtalet."
++"you can do so by adding a copy of the license to the manual, as described in"
++" section 6 of the license."
++msgstr ""
++"Den här handboken ingår i en samling GNOME-handböcker som distribueras "
++"enligt GFDL. Om du vill distribuera handboken separat från samlingen kan du "
++"göra det genom att bifoga en kopia av licensen, enligt beskrivningen i "
++"licensens avsnitt 6."
+ 
+ #. (itstool) path: legalnotice/para
+ #: C/legal.xml:19
+@@ -493,10 +493,10 @@
+ "aware of those trademarks, then the names are in capital letters or initial "
+ "capital letters."
+ msgstr ""
+-"Flera namn på produkter och tjänster är registrerade varumärken. I de fall "
+-"dessa namn förekommer i GNOME-dokumentation - och medlemmarna i GNOME-"
+-"dokumentationsprojektet är medvetna om dessa varumärken - är de skrivna med "
+-"versaler eller med inledande versal."
++"Flera namn som företag använder för att skilja sina produkter och tjänster "
++"åt är varumärken. När sådana namn förekommer i GNOME-dokumentation och "
++"medlemmarna i GNOME:s dokumentationsprojekt känner till varumärkena, skrivs "
++"namnen med versaler eller inledande versal."
+ 
+ #. (itstool) path: listitem/para
+ #: C/legal.xml:35
+@@ -513,47 +513,44 @@
+ "ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+ "OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+ msgstr ""
+-"DOKUMENTET TILLHANDAHÅLLS I \"BEFINTLIGT SKICK\" UTAN NÅGRA SOM HELST "
+-"GARANTIER, VARE SIG UTTRYCKLIGA ELLER UNDERFÖRSTÅDDA, INKLUSIVE, MEN INTE "
+-"BEGRÄNSAT TILL, GARANTIER ATT DOKUMENTET ELLER EN MODIFIERAD VERSION AV "
+-"DOKUMENTET INTE INNEHÅLLER NÅGRA FELAKTIGHETER, ÄR LÄMPLIGT FÖR ETT VISST "
+-"ÄNDAMÅL ELLER INTE STRIDER MOT LAG. HELA RISKEN VAD GÄLLER KVALITET, "
+-"EXAKTHET OCH UTFÖRANDE AV DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET "
+-"LIGGER HELT OCH HÅLLET PÅ ANVÄNDAREN. OM ETT DOKUMENT ELLER EN MODIFIERAD "
+-"VERSION AV ETT DOKUMENT SKULLE VISA SIG INNEHÅLLA FELAKTIGHETER I NÅGOT "
+-"HÄNSEENDE ÄR DET DU (INTE DEN URSPRUNGLIGA SKRIBENTEN, FÖRFATTAREN ELLER "
+-"NÅGON ANNAN MEDARBETARE) SOM FÅR STÅ FÖR ALLA EVENTUELLA KOSTNADER FÖR "
+-"SERVICE, REPARATIONER ELLER KORRIGERINGAR. DENNA GARANTIFRISKRIVNING UTGÖR "
+-"EN VÄSENTLIG DEL AV DETTA LICENSAVTAL. DETTA INNEBÄR ATT ALL ANVÄNDNING AV "
+-"ETT DOKUMENT ELLER EN MODIFIERAD VERSION AV ETT DOKUMENT BEVILJAS ENDAST "
+-"UNDER DENNA ANSVARSFRISKRIVNING;"
++"DOKUMENTET TILLHANDAHÅLLS I ”BEFINTLIGT SKICK” UTAN NÅGON SOM HELST GARANTI,"
++" VARE SIG UTTRYCKLIG ELLER UNDERFÖRSTÅDD, INKLUSIVE, MEN INTE BEGRÄNSAT "
++"TILL, GARANTIER OM ATT DOKUMENTET ELLER EN MODIFIERAD VERSION AV DOKUMENTET "
++"ÄR FELFRI, SÄLJBAR, LÄMPLIG FÖR ETT VISST ÄNDAMÅL ELLER INTE GÖR INTRÅNG I "
++"NÅGONS RÄTTIGHETER. DU BÄR HELA RISKEN FÖR DOKUMENTETS ELLER DEN MODIFIERADE"
++" VERSIONENS KVALITET, KORREKTHET OCH PRESTANDA. OM ETT DOKUMENT ELLER EN "
++"MODIFIERAD VERSION VISAR SIG HA NÅGON BRIST, FÅR DU (INTE DEN URSPRUNGLIGA "
++"SKRIBENTEN, FÖRFATTAREN ELLER NÅGON BIDRAGSGIVARE) SJÄLV STÅ FÖR KOSTNADERNA"
++" FÖR NÖDVÄNDIG SERVICE, REPARATION ELLER KORRIGERING. DENNA "
++"GARANTIFRISKRIVNING UTGÖR EN VÄSENTLIG DEL AV LICENSEN. DOKUMENTET ELLER EN "
++"MODIFIERAD VERSION FÅR ENDAST ANVÄNDAS MED FÖRBEHÅLL FÖR DENNA "
++"ANSVARSFRISKRIVNING; OCH"
+ 
+ #. (itstool) path: listitem/para
+ #: C/legal.xml:55
+ msgid ""
+-"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+-"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
++"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING"
++" NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+ "CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+ "DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+ "FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+ "ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+-"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+-"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+-"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+-"POSSIBILITY OF SUCH DAMAGES."
+-msgstr ""
+-"UNDER INGA OMSTÄNDIGHETER ELLER INOM RAMEN FÖR NÅGON LAGSTIFTNING, OAVSETT "
+-"OM DET GÄLLER KRÄNKNING (INKLUSIVE VÅRDSLÖSHET), KONTRAKT ELLER DYLIKT, SKA "
+-"FÖRFATTAREN, DEN URSPRUNGLIGA SKRIBENTEN ELLER ANNAN MEDARBETARE ELLER "
+-"ÅTERFÖRSÄLJARE AV DOKUMENTET ELLER AV EN MODIFIERAD VERSION AV DOKUMENTET "
+-"ELLER NÅGON LEVERANTÖR TILL NÅGON AV NÄMNDA PARTER STÄLLAS ANSVARIG GENTEMOT "
+-"NÅGON FÖR NÅGRA DIREKTA, INDIREKTA, SÄRSKILDA ELLER OFÖRUTSEDDA SKADOR ELLER "
+-"FÖLJDSKADOR AV NÅGOT SLAG, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, SKADOR "
+-"BETRÄFFANDE FÖRLORAD GOODWILL, HINDER I ARBETET, DATORHAVERI ELLER NÅGRA "
+-"ANDRA TÄNKBARA SKADOR ELLER FÖRLUSTER SOM KAN UPPKOMMA PÅ GRUND AV ELLER "
+-"RELATERAT TILL ANVÄNDNINGEN AV DOKUMENTET ELLER MODIFIERADE VERSIONER AV "
+-"DOKUMENTET, ÄVEN OM PART SKA HA BLIVIT INFORMERAD OM MÖJLIGHETEN TILL SÅDANA "
+-"SKADOR."
++"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES"
++" OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
++"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
++" POSSIBILITY OF SUCH DAMAGES."
++msgstr ""
++"FÖRFATTAREN, DEN URSPRUNGLIGA SKRIBENTEN, ALLA BIDRAGSGIVARE, ALLA SOM "
++"DISTRIBUERAR DOKUMENTET ELLER EN MODIFIERAD VERSION AV DET OCH ALLA "
++"LEVERANTÖRER TILL NÅGON AV DESSA PARTER SKA UNDER INGA OMSTÄNDIGHETER OCH "
++"OAVSETT RÄTTSLIG GRUND – VARE SIG SKADESTÅNDSRÄTT (INKLUSIVE VÅRDSLÖSHET), "
++"AVTAL ELLER NÅGOT ANNAT – HÅLLAS ANSVARIGA GENTEMOT NÅGON FÖR DIREKTA, "
++"INDIREKTA, SÄRSKILDA, OFÖRUTSEDDA ELLER FÖLJDSKADOR AV NÅGOT SLAG, "
++"INKLUSIVE, MEN INTE BEGRÄNSAT TILL, SKADOR TILL FÖLJD AV FÖRLORAD GOODWILL, "
++"ARBETSAVBROTT, DATORFEL ELLER FUNKTIONSSTÖRNINGAR, ELLER ANDRA SKADOR ELLER "
++"FÖRLUSTER SOM UPPSTÅR GENOM ELLER I SAMBAND MED ANVÄNDNING AV DOKUMENTET "
++"ELLER MODIFIERADE VERSIONER AV DET, ÄVEN OM PARTEN HAR INFORMERATS OM ATT "
++"SÅDANA SKADOR KAN UPPSTÅ."
+ 
+ #. (itstool) path: legalnotice/para
+ #: C/legal.xml:28
+@@ -567,17 +564,16 @@
+ "FÖRUTSÄTTNINGAR: <_:orderedlist-1/>"
+ 
+ #~ msgid ""
+-#~ "Permission is granted to copy, distribute and/or modify this document "
+-#~ "under the terms of the GNU Free Documentation License (GFDL), Version 1.1 "
+-#~ "or any later version published by the Free Software Foundation with no "
+-#~ "Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You "
+-#~ "can find a copy of the GFDL at this <ulink type=\"help\" "
+-#~ "url=\"help:fdl\">link</ulink> or in the file COPYING-DOCS distributed "
+-#~ "with this manual."
++#~ "Permission is granted to copy, distribute and/or modify this document under "
++#~ "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
++#~ "later version published by the Free Software Foundation with no Invariant "
++#~ "Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy"
++#~ " of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or "
++#~ "in the file COPYING-DOCS distributed with this manual."
+ #~ msgstr ""
+ #~ "Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges "
+-#~ "under villkoren i GNU Free Documentation License (GFDL), version 1.1 "
+-#~ "eller senare, utgivet av Free Software Foundation utan standardavsnitt "
+-#~ "och omslagstexter.  En kopia av GFDL finns att hämta på denna <ulink "
+-#~ "type=\"help\" url=\"help:fdl\">länk</ulink> eller i filen COPYING-DOCS "
+-#~ "som medföljer denna handbok."
++#~ "under villkoren i GNU Free Documentation License (GFDL), version 1.1 eller "
++#~ "senare, utgivet av Free Software Foundation utan standardavsnitt och "
++#~ "omslagstexter.  En kopia av GFDL finns att hämta på denna <ulink "
++#~ "type=\"help\" url=\"help:fdl\">länk</ulink> eller i filen COPYING-DOCS som "
++#~ "medföljer denna handbok."
