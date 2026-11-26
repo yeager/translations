@@ -654,3 +654,12 @@ argumentet betyder i just det programmet.
 | QR code generator | QR-kodsgenerator | |
 | scan from screenshot | läs av från en skärmbild | I appens QR-kodskontext. |
 | Wi-Fi network | Wi-Fi-nätverk | Behåll Wi-Fi-stavningen. |
+
+
+## oo7
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| keyring | nyckelring | Hemlighetshanterare. |
+| old password | gammalt lösenord | Skilj från det nya lösenordet vid lösenordsbyte. |
+| keyring password | lösenord för nyckelringen | |

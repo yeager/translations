@@ -1,44 +1,89 @@
 --- oo7.main.oo7-server.sv.original.po
 +++ oo7.main.oo7-server.sv.reviewed.po
-@@ -8,8 +8,8 @@
+@@ -8,9 +8,9 @@
  "Project-Id-Version: oo7 main\n"
  "Report-Msgid-Bugs-To: https://github.com/linux-credentials/oo7/issues\n"
- "POT-Creation-Date: 2026-11-20 15:07+0000\n"
+ "POT-Creation-Date: 2026-11-24 09:16+0000\n"
 -"PO-Revision-Date: 2026-08-12 02:06+0200\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-22 00:00+0100\n"
+-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"PO-Revision-Date: 2026-11-26 16:30+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
- "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"Language-Team: Swedish <gnome@danielnylander.se>\n"
  "Language: sv\n"
  "MIME-Version: 1.0\n"
-@@ -23,22 +23,17 @@
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -23,22 +23,22 @@
  msgstr "Ändra lösenord för nyckelring"
  
  #: ../src/gnome/prompter.rs:160
 -#, fuzzy, rust-format
--#| msgid "Choose a new password for the “{}” keyring"
++#, rust-format
+ #| msgid "Choose a new password for the “{}” keyring"
  msgid "Enter the old password for the “{}” keyring"
 -msgstr "Välj ett nytt lösenord för nyckelringen ”{}”"
 +msgstr "Ange det gamla lösenordet för nyckelringen ”{}”"
  
  #: ../src/gnome/prompter.rs:165
 -#, fuzzy, rust-format
--#| msgid ""
++#, rust-format
+ #| msgid ""
 -#| "An application wants to change the password for the “{}” keyring. Choose "
 -#| "the new password you want to use for it."
-+#, rust-format
++#| "An application wants to change the password for the “{}” keyring. Choose the"
++#| " new password you want to use for it."
  msgid ""
  "An application wants to change the password for the “{}” keyring. Enter the "
  "old password for it."
  msgstr ""
 -"Ett program vill ändra lösenordet för nyckelringen ”{}”. Välj det nya "
 -"lösenord som du vill använda för den."
-+"Ett program vill ändra lösenordet för nyckelringen ”{}”. Ange det gamla "
-+"lösenordet för den."
++"Ett program vill ändra lösenordet för nyckelringen ”{}”. Ange dess gamla "
++"lösenord."
  
  #: ../src/gnome/prompter.rs:176 ../src/gnome/prompter.rs:201
  msgid "Continue"
-@@ -107,4 +102,4 @@
+@@ -57,11 +57,11 @@
+ #: ../src/gnome/prompter.rs:190 ../src/prompt/mod.rs:456
+ #, rust-format
+ msgid ""
+-"An application wants to change the password for the “{}” keyring. Choose the "
+-"new password you want to use for it."
++"An application wants to change the password for the “{}” keyring. Choose the"
++" new password you want to use for it."
+ msgstr ""
+ "Ett program vill ändra lösenordet för nyckelringen ”{}”. Välj det nya "
+-"lösenord som du vill använda för den."
++"lösenordet."
+ 
+ #: ../src/gnome/prompter.rs:195
+ msgid "This operation cannot be reverted"
+@@ -86,11 +86,11 @@
+ 
+ #: ../src/gnome/prompter.rs:234
+ msgid "New Keyring Password"
+-msgstr "Lösenord för ny nyckelring"
++msgstr "Lösenord för den nya nyckelringen"
+ 
+ #: ../src/gnome/prompter.rs:235
+ msgid "Choose password for new keyring"
+-msgstr "Välj lösenord för ny nyckelring"
++msgstr "Välj ett lösenord för den nya nyckelringen"
+ 
+ #: ../src/gnome/prompter.rs:238 ../src/prompt/mod.rs:451
+ #, rust-format
+@@ -98,8 +98,8 @@
+ "An application wants to create a new keyring called “{}”. Choose the "
+ "password you want to use for it."
+ msgstr ""
+-"Ett okänt program vill skapa en ny nyckelring med namnet ”{}”. Välj det "
+-"lösenord som du vill använda för den."
++"Ett program vill skapa en ny nyckelring med namnet ”{}”. Välj lösenordet som"
++" ska användas för den."
+ 
+ #: ../src/gnome/prompter.rs:249
+ msgid "Create"
+@@ -107,4 +107,4 @@
  
  #: ../src/gnome/prompter.rs:539
  msgid "The original password was incorrect"
