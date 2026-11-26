@@ -1,15 +1,13 @@
 # Damned Lies-inskickningar — 2026-11-26
 
-Färdiggranskade kataloger som kontrollerats mot aktuell POT och laddats upp via API med kommentaren ”Granskad och klar”. Aktivitetssida och slutstatistik verifierades.
+Färdiggranskade kataloger som kontrollerats mot aktuell POT och laddats upp via API med kommentaren ”Granskad och klar”. Aktivitetssida och slutstatistik verifierades. Uppladdningar på äldre gnome-grenar i tabellen är historiska; den aktiva kön följer nu endast main, master och gnome-51.
 
 | Modul | Gren | Domän | Ändrade PO-poster | API-statistik |
 |---|---|---|---:|---:|
+| gimp-help | master | po-windows-installer | 2 | 5/0/0 |
 | gimp-help | master | gimp-keys | 57 | 262/0/0 |
 | gimp | master | po-libgimp | 7 | 675/0/0 |
-<<<<<<< Updated upstream
-=======
 | gimp | master | po-python | 99 | 231/0/0 |
->>>>>>> Stashed changes
 | gimp | master | po-script-fu | 141 | 330/0/0 |
 | gimp | master | po-plug-ins | 155 | 3 723/0/0 |
 | gimp-help | master | toolbox~selection | 310 | 330/0/0 |
@@ -84,6 +82,6 @@ Färdiggranskade kataloger som kontrollerats mot aktuell POT och laddats upp via
 
 ## Status
 
-- Inskickade och verifierade kataloger 2026-11-26: **58**.
+- Inskickade och verifierade kataloger 2026-11-26: **66**.
 - 404-felen från tidigare URL-sluggar har rättats med modulernas kanoniska REST API-namn och återförsöken har inletts.
 - Övriga färdiggranskade kataloger står fortsatt som `Klar lokalt` tills uppladdning kan bekräftas.
