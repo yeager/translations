@@ -751,3 +751,20 @@ argumentet betyder i just det programmet.
 | number (on a piece) | tal | Använd *tal* i spelreglerna, inte *nummer*. |
 | high score (time-based game) | rekordtid | Tetravex poängsätts utifrån lösningstiden. |
 | matching edges | lika kanter / kanter med samma tal och färg | Bevara spelets instruktion om både tal och färg där båda nämns. |
+
+
+## GNOME Tali
+
+| Engelska | Svenska | Anmärkning |
+|---|---|---|
+| Yahtzee (generic game name) | yatzy | Varumärket *Yahtzee* står kvar när det uttryckligen nämns som Hasbros varumärke. |
+| 3 of a Kind | tretal | Tärningskombination. |
+| 4 of a Kind | fyrtal | Tärningskombination. |
+| 5 of a Kind | femtal | Tärningskombination. |
+| Full House | kåk | Tärningskombination. |
+| Full House Same Color | kåk i samma färg | Kategori i färgvarianten. |
+| Flush (all same color) | färg | Matchar Talis svenska radetikett. |
+| Large Straight / Small Straight | stor stege / liten stege | Tärningskombinationer. |
+| reroll | kasta om / omkast | Använd *omkast* som substantiv. |
+| die value | tärningsvärde | Används för ögontalen på tärningen. |
+| Colors (game type) | Färger | Svenskt namn på spelvarianten i gränssnittet; i löptext används *färgvarianten*. |

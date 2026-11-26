@@ -1,0 +1,534 @@
+--- tali.master.help.sv.original.po
++++ tali.master.help.sv.reviewed.po
+@@ -5,8 +5,8 @@
+ msgstr ""
+ "Project-Id-Version: tali doc\n"
+ "POT-Creation-Date: 2026-11-10 19:06+0000\n"
+-"PO-Revision-Date: 2020-08-06 00:09+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-26 13:30+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -34,10 +34,10 @@
+ "straight, and full house. The player is allowed 3 rolls per turn and can "
+ "hold certain dice with each roll."
+ msgstr ""
+-"Tali är som Yatzy för GNOME eller poker med tärningar. Spelaren kastar "
+-"tärningar för att försöka få de bästa möjliga kombinationerna, som fyrtal, "
+-"liten stege och kåk. Spelaren har tre kast per omgång och kan behålla "
+-"önskade tärningar efter varje kast."
++"Tali påminner om Yahtzee för GNOME och om poker med tärningar. Du kastar "
++"tärningarna för att få så bra kombinationer som möjligt, till exempel "
++"fyrtal, liten stege och kåk. Du får kasta högst tre gånger per omgång och "
++"kan spara valda tärningar mellan kasten."
+ 
+ #. (itstool) path: articleinfo/copyright
+ #: C/index.docbook:36
+@@ -112,10 +112,10 @@
+ "money. You roll five dice three times and try to create the best "
+ "<quote>hand</quote>. Your two rerolls may include any or all of your dice."
+ msgstr ""
+-"<application>GNOME Tali</application> är en typ av poker med tärningar och "
+-"mindre pengar. Du kastar fem tärningar tre gånger och försöker skapa den "
+-"bästa <quote>handen</quote>. Dina två omkast kan inkludera någon eller alla "
+-"av dina tärningar."
++"<application>GNOME Tali</application> är en sorts tärningspoker med "
++"betydligt lägre insatser. Du kastar fem tärningar tre gånger och försöker få"
++" den bästa möjliga <quote>tärningskombinationen</quote>. Vid de två omkasten"
++" kan du välja vilka tärningar som ska kastas igen."
+ 
+ #. (itstool) path: sect1/para
+ #: C/index.docbook:129
+@@ -123,8 +123,8 @@
+ "<application>GNOME Tali</application> is very similar to the dice game "
+ "Yahtzee which is a trademark of Hasbro, Inc."
+ msgstr ""
+-"<application>GNOME Tali</application> är väldigt likt tärningsspelet Yahtzee "
+-"som är ett varumärke som tillhör Hasbro, Inc."
++"<application>GNOME Tali</application> påminner mycket om tärningsspelet "
++"Yahtzee, som är ett varumärke som tillhör Hasbro, Inc."
+ 
+ #. (itstool) path: sect1/para
+ #: C/index.docbook:134
+@@ -134,10 +134,10 @@
+ "menuchoice> from the <guimenu>Main Menu</guimenu>, or type <command>gtali</"
+ "command> on the command line."
+ msgstr ""
+-"För att köra <application>GNOME Tali</application>, välj <menuchoice> "
+-"<guisubmenu>Spel</guisubmenu> <guimenuitem>GNOME Tali</guimenuitem> </"
+-"menuchoice> från <guimenu>Huvudmenyn</guimenu> eller skriv <command>gtali</"
+-"command> på kommandoraden."
++"Starta <application>GNOME Tali</application> genom att välja <menuchoice> "
++"<guisubmenu>Spel</guisubmenu> <guimenuitem>GNOME Tali</guimenuitem> "
++"</menuchoice> i <guimenu>huvudmenyn</guimenu> eller genom att skriva "
++"<command>gtali</command> på kommandoraden."
+ 
+ #. (itstool) path: sect1/para
+ #: C/index.docbook:144
+@@ -146,10 +146,9 @@
+ "games</filename> package, which is part of the GNOME desktop environment. "
+ "This document describes version 2.8 of <application>GNOME Tali</application>."
+ msgstr ""
+-"<application>GNOME Tali</application> är inkluderat i paketet "
+-"<filename>gnome-games</filename>, vilket är en del av skrivbordsmiljön "
+-"GNOME. Detta dokument beskriver version 2.8 av <application>GNOME Tali</"
+-"application>."
++"<application>GNOME Tali</application> ingår i paketet <filename>gnome-"
++"games</filename>, som är en del av GNOME-skrivbordsmiljön. Den här handboken"
++" beskriver version 2.8 av <application>GNOME Tali</application>."
+ 
+ #. (itstool) path: sect1/title
+ #: C/index.docbook:153
+@@ -159,7 +158,7 @@
+ #. (itstool) path: figure/title
+ #: C/index.docbook:156
+ msgid "GNOME Tali in action"
+-msgstr "GNOME Tali i arbete"
++msgstr "GNOME Tali i spel"
+ 
+ #. (itstool) path: imageobject/imagedata
+ #. This is a reference to an external file such as an image or video. When
+@@ -192,7 +191,7 @@
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:177
+ msgid "Click on the dice you wish to roll again."
+-msgstr "Klicka på tärningar som du vill kasta igen."
++msgstr "Klicka på de tärningar du vill kasta om."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:181
+@@ -200,8 +199,8 @@
+ "When you have selected all the dice you wish to reroll, press the "
+ "<guibutton>Roll!</guibutton> button."
+ msgstr ""
+-"Tryck på knappen <guibutton>Kasta!</guibutton> då du har valt alla tärningar "
+-"som du vill kasta om."
++"När du har valt vilka tärningar du vill kasta om trycker du på knappen "
++"<guibutton>Kasta!</guibutton>."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:186
+@@ -213,11 +212,10 @@
+ "yahtzee -- 5 of a kind -- and click on the large straight row, you will "
+ "receive a zero in your large straight score)."
+ msgstr ""
+-"Då du har en hand du gillar eller har slut på tärningskast, klicka på en rad "
+-"som motsvarar vad du tror är din bästa poängkombination. Poängen noll är "
+-"fullt möjlig, och om du klickar på fel rad kommer du att få poäng i enlighet "
+-"med detta. (Till exempel om du får yatzy -- femtal -- och klickar på raden "
+-"för stor stege, så kommer du att få en nolla i ditt poäng för stor stege.)"
++"När du är nöjd med tärningskombinationen eller har förbrukat dina kast "
++"klickar du på raden för den kombination som du tror ger bäst poäng. Du kan "
++"få noll poäng. Om du till exempel får yatzy (femtal) men klickar på raden "
++"för stor stege får du noll poäng på den raden."
+ 
+ #. (itstool) path: sect1/para
+ #: C/index.docbook:196
+@@ -225,8 +223,8 @@
+ "You can only use each combination once, i.e. once you've entered something "
+ "in a slot, you can't change the score later if you roll a better hand."
+ msgstr ""
+-"Du kan endast använda varje kombination en gång, d.v.s. då du har matat in "
+-"något i en rad så kan du inte ändra poängen senare om du får en bättre hand."
++"Du kan bara använda varje kombination en gång. När du har fyllt i en rad kan"
++" du inte ändra poängen senare, även om du får en bättre kombination."
+ 
+ #. (itstool) path: sect1/para
+ #: C/index.docbook:201
+@@ -239,12 +237,12 @@
+ "something that wasn't a 5 of a kind) then you can't put a 5 of a kind in "
+ "afterward, zero is all you will score."
+ msgstr ""
+-"Det finns ett undantag till den här regeln, om du kastar femtal en andra "
+-"gång kan du lägga det i femtalsraden igen för femtio extra poäng. Du kan "
+-"fortsätta göra detta varje gång du får femtal. Vid spelets slut kommer du "
+-"tilldelas extrakast för att fylla de andra raderna. Observera att om du får "
+-"noll i din femtalsrad (d.v.s. du fyllde den raden med något som inte var ett "
+-"femtal) så kan du inte lägga i ett femtal sedan, du kommer sluta på noll."
++"Det finns ett undantag: Om du får ett andra femtal kan du lägga in det på "
++"nytt i femtalsraden och få 50 extra poäng. Du får göra det varje gång du får"
++" ytterligare ett femtal. När spelet är slut får du extra kast för att fylla "
++"återstående rader. Om du redan har fått noll poäng på femtalsraden (det vill"
++" säga fyllt den med något annat än ett femtal) kan du inte lägga in ett "
++"femtal där senare. Poängen för raden förblir noll."
+ 
+ #. (itstool) path: sect1/para
+ #: C/index.docbook:211
+@@ -252,8 +250,8 @@
+ "There is also a bonus of 35 points if you score a total of 63 points or more "
+ "in the top six rows."
+ msgstr ""
+-"Det finns också en bonus på 35 poäng om du får 63 poäng eller mer i de "
+-"översta sex raderna."
++"Du får också 35 bonuspoäng om du får minst 63 poäng sammanlagt i de sex "
++"översta raderna."
+ 
+ #. (itstool) path: sect2/title
+ #: C/index.docbook:216
+@@ -269,12 +267,11 @@
+ "tab to switch between the roll button and the score area, use the arrow keys "
+ "to navigate up and down the rows and use space to select."
+ msgstr ""
+-"Som ett alternativ till att använda musen växlar tangenterna 1 till 5 "
+-"tärningarna som om du hade klickat på dem. Tangenten 1 motsvarar den första "
+-"tärningen och så vidare. Använd de vanliga kontrollerna för att kasta "
+-"tärningarna och välja en rad, d.v.s. använd tabb för att växla mellan "
+-"knappen Kasta och poängområdet, använd piltangenterna för att navigera upp "
+-"och ner för raderna och använd mellanslag för att välja."
++"Som alternativ till musen kan du använda tangenterna 1–5 för att växla valet"
++" av motsvarande tärning. Tangent 1 styr den första tärningen och så vidare. "
++"Använd de vanliga tangenterna för att kasta och välja en poängrad: tryck på "
++"Tab för att växla mellan knappen Kasta och poängfältet, piltangenterna för "
++"att gå mellan raderna och mellanslag för att välja."
+ 
+ #. (itstool) path: sect1/title
+ #: C/index.docbook:230
+@@ -325,8 +322,8 @@
+ "Selects the number of human players. As described above you are only allowed "
+ "six total players."
+ msgstr ""
+-"Väljer antalet mänskliga spelare. Som beskrivet ovan tillåts totalt bara sex "
+-"spelare."
++"Väljer antalet mänskliga spelare. Som nämnts ovan får ni vara högst sex "
++"spelare totalt."
+ 
+ #. (itstool) path: variablelist/title
+ #: C/index.docbook:258
+@@ -344,8 +341,8 @@
+ "Make the computer opponents pause between rolls of the dice so you can see "
+ "what they are doing. Slows down game play some."
+ msgstr ""
+-"Få datormotståndarna att pausa mellan tärningskast så att du kan se vad de "
+-"gör. Detta saktar ner spelet något."
++"Med det här alternativet pausar datormotståndarna mellan kasten så att du "
++"kan se vad de gör. Spelet går då något långsammare."
+ 
+ #. (itstool) path: varlistentry/term
+ #: C/index.docbook:269
+@@ -360,9 +357,10 @@
+ "limit, the number of human players will be decreased to maintain only six "
+ "total players."
+ msgstr ""
+-"Välj antalet datormotståndare. Du kan ha totalt sex mänskliga spelare och "
+-"datorspelare. Om du försöker öka detta nummer nära gränsen så kommer antalet "
+-"mänskliga spelare minskas så att det bara finns sex spelare totalt."
++"Välj antalet datormotståndare. Du kan ha högst sex spelare totalt, både "
++"mänskliga spelare och datorer. Om du ökar antalet motståndare när du redan "
++"är nära gränsen minskas antalet mänskliga spelare så att ni fortfarande är "
++"högst sex."
+ 
+ #. (itstool) path: variablelist/title
+ #: C/index.docbook:281
+@@ -372,7 +370,7 @@
+ #. (itstool) path: varlistentry/term
+ #: C/index.docbook:283
+ msgid "<guimenuitem>Version of the game to play</guimenuitem>"
+-msgstr "<guimenuitem>Spelversion att spela</guimenuitem>"
++msgstr "<guimenuitem>Spelvariant</guimenuitem>"
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:285
+@@ -380,8 +378,8 @@
+ "Play either the regular version (similar to Yahtzee) or the version with "
+ "colors (similar to Kismet)."
+ msgstr ""
+-"Spela antingen den vanliga versionen (liknande Yatzy) eller versionen med "
+-"färger (liknande Kismet)."
++"Spela antingen den vanliga varianten, som liknar Yahtzee, eller "
++"färgvarianten, som liknar Kismet."
+ 
+ #. (itstool) path: varlistentry/term
+ #: C/index.docbook:294
+@@ -408,12 +406,11 @@
+ "get a bonus of 55 if your upper half total is between 71 and 77, and a bonus "
+ "of 75 if your upper half total is greater than 77."
+ msgstr ""
+-"De 63 poäng som krävs för bonusen i den övre halvan motsvarar att få tre av "
+-"varje tärningstyp i varje rad. Om du får mer än tre tärningar i raderna för "
+-"femmor och sexor har du råd att placera ett dåligt kast i antingen raden för "
+-"ettor eller tvåor och fortfarande få bonusen. I färgversionen får du en "
+-"bonus på 55 om din total i den övre halvan är mellan 71 och 77, och en bonus "
+-"på 75 om din total i den övre halvan är större än 77."
++"Bonusen i den övre halvan kräver 63 poäng, vilket motsvarar tre tärningar av"
++" varje värde i respektive rad. Om du får fler än tre femmor eller sexor kan "
++"du kompensera för ett svagt kast i raden för ettor eller raden för tvåor och"
++" ändå få bonusen. I färgvarianten får du 55 bonuspoäng om delsumman i den "
++"övre halvan är 71–77 och 75 poäng om den överstiger 77."
+ 
+ #. (itstool) path: sect1/para
+ #: C/index.docbook:315
+@@ -422,8 +419,9 @@
+ "you can also put it in the 5 of a kind row for even more points. This only "
+ "applies to the regular game."
+ msgstr ""
+-"Glöm inte flera femtal. Om du får ett andra femtal kan du lägga även det i "
+-"femtalsraden för ännu fler poäng. Detta gäller endast för det vanliga spelet."
++"Tänk på att flera femtal kan löna sig. Om du får ett andra femtal kan du "
++"också lägga det i femtalsraden och få fler poäng. Detta gäller bara den "
++"vanliga spelvarianten."
+ 
+ #. (itstool) path: sect1/title
+ #: C/index.docbook:329
+@@ -436,8 +434,8 @@
+ "When you switch game type, the game does not use the new dice images until "
+ "you restart gtali. It should play correctly with the \"wrong\" dice."
+ msgstr ""
+-"Då du växlar speltyp använder spelet inte de nya tärningarna förrän du "
+-"startar om gtali. Det bör fungera korrekt med ”fel” tärningar."
++"När du byter speltyp används inte de nya tärningsbilderna förrän du startar "
++"om gtali. Spelet bör ändå fungera med de ”felaktiga” tärningsbilderna."
+ 
+ #. (itstool) path: sect1/title
+ #: C/index.docbook:338
+@@ -447,7 +445,7 @@
+ #. (itstool) path: note/para
+ #: C/index.docbook:340
+ msgid "Remember that the order of the dice is not important."
+-msgstr "Kom ihåg att tärningarnas ordning är oviktig."
++msgstr "Tärningarnas ordning spelar ingen roll."
+ 
+ #. (itstool) path: glossentry/glossterm
+ #: C/index.docbook:343
+@@ -460,8 +458,8 @@
+ "Three of the dice have the same number. The score is the total of all the "
+ "dice. e.g. 1, 2, 2, 2, 5."
+ msgstr ""
+-"Tre av tärningarna har samma siffra. Poängen är summan av alla tärningarna, "
+-"t.ex. 1, 2, 2, 2, 5."
++"Tre tärningar visar samma värde. Poängen är summan av alla tärningarnas "
++"värden, till exempel 1, 2, 2, 2, 5."
+ 
+ #. (itstool) path: glossentry/glossterm
+ #: C/index.docbook:349
+@@ -475,9 +473,9 @@
+ "dice. e.g. 2, 5, 5, 5, 5. In the Colors game, the score is 25 plus the total "
+ "of all the dice."
+ msgstr ""
+-"Fyra av tärningarna har samma siffra. Poängen är summan av alla tärningar, "
+-"t.ex. 2, 5, 5, 5, 5. I Färgspelet är poängen 25 plus summan av alla "
+-"tärningarna."
++"Fyra tärningar visar samma värde. Poängen är summan av alla tärningarnas "
++"värden, till exempel 2, 5, 5, 5, 5. I färgvarianten är poängen 25 plus "
++"summan av tärningarnas värden."
+ 
+ #. (itstool) path: glossentry/glossterm
+ #: C/index.docbook:356
+@@ -490,8 +488,8 @@
+ "Five identical dice. e.g. 3, 3, 3, 3, 3. In the Colors game, the score is 50 "
+ "plus the total of all the dice."
+ msgstr ""
+-"Fem identiska tärningar, t.ex. 3, 3, 3, 3, 3. I Färgspelet är poängen 50 "
+-"plus summan av alla tärningarna."
++"Fem tärningar visar samma värde, till exempel 3, 3, 3, 3, 3. I färgvarianten"
++" är poängen 50 plus summan av tärningarnas värden."
+ 
+ #. (itstool) path: glossentry/glossterm
+ #: C/index.docbook:362
+@@ -505,14 +503,14 @@
+ "and another group of two with the same numbers. e.g. 1, 1, 1, 4, 4. In the "
+ "Colors game, the score is 15 plus the total of all the dice."
+ msgstr ""
+-"Fem tärningar som består av två grupper: En grupp av tre med samma nummer "
+-"och en annan grupp av två med samma nummer. Till exempel:1, 1, 1, 4, 4. I "
+-"Färgspelet är poängen 15 plus summan av alla tärningar."
++"Fem tärningar i två grupper: tre med samma värde och två med ett annat "
++"gemensamt värde, till exempel 1, 1, 1, 4, 4. I färgvarianten är poängen 15 "
++"plus summan av tärningarnas värden."
+ 
+ #. (itstool) path: glossentry/glossterm
+ #: C/index.docbook:370
+ msgid "Full House Same Color"
+-msgstr "Färg"
++msgstr "Kåk i samma färg"
+ 
+ #. (itstool) path: glossdef/para
+ #: C/index.docbook:371
+@@ -524,12 +522,12 @@
+ "black, 2 and 5 are red, and 3 and 4 are green. The score is 20 plus the "
+ "total of all the dice."
+ msgstr ""
+-"Denna kategori används endast i Färgspelet. Fem tärningar bestående av två "
+-"grupper: en grupp av tre med samma siffror och en annan grupp av två med "
+-"samma siffror. Siffrorna måste alla vara av samma färg. Exempelvis 3, 3, 3, "
+-"4, 4. Två tärningar har samma färg om deras summa är 7. Siffrorna 1 och 6 är "
+-"svarta, 2 och 5 är röda, och 3 och 4 är gröna. Poängen är 20 plus totalen av "
+-"alla tärningarna."
++"Den här kategorin finns bara i färgvarianten. Fem tärningar bildar två "
++"grupper: tre med samma värde och två med ett annat gemensamt värde. Alla "
++"tärningars värden ska ha samma färg. Till exempel 3, 3, 3, 4, 4. Två "
++"tärningar har samma färg om deras värden tillsammans blir 7: 1 och 6 är "
++"svarta, 2 och 5 är röda samt 3 och 4 är gröna. Poängen är 20 plus summan av "
++"tärningarnas värden."
+ 
+ #. (itstool) path: glossentry/glossterm
+ #: C/index.docbook:381
+@@ -546,17 +544,16 @@
+ "are red, and 3 and 4 are green. The fifth die can be any value. The score is "
+ "the total of all the dice."
+ msgstr ""
+-"Denna kategori används endast i Färgspelet. Fem tärningar bestående av två "
+-"grupper: en grupp av två med samma siffror och en annan grupp av två med "
+-"samma siffror. Paren måste alla vara av samma färg. Exempelvis 3, 3, 4, 4. "
+-"Två tärningar har samma färg om deras summa är 7. Siffrorna 1 och 6 är "
+-"svarta, 2 och 5 är röda, och 3 och 4 är gröna. Den femte träningen kan ha "
+-"vilket värde som helst. Poängen är totalen av alla tärningarna."
++"Den här kategorin finns bara i färgvarianten. Fyra tärningar bildar två par "
++"med samma värde inom varje par. Paren ska ha samma färg, till exempel 3, 3, "
++"4, 4. Två tärningar har samma färg om deras värden tillsammans blir 7: 1 och"
++" 6 är svarta, 2 och 5 är röda samt 3 och 4 är gröna. Den femte tärningen kan"
++" visa vilket värde som helst. Poängen är summan av alla tärningarnas värden."
+ 
+ #. (itstool) path: glossentry/glossterm
+ #: C/index.docbook:392
+ msgid "Flush"
+-msgstr "Stege"
++msgstr "Färg"
+ 
+ #. (itstool) path: glossdef/para
+ #: C/index.docbook:393
+@@ -565,9 +562,9 @@
+ "same \"color\": Two dice are the same color if their numbers total 7: 1 and "
+ "6 are black, 2 and 5 are red, and 3 and 4 are green. The score is 35 points."
+ msgstr ""
+-"Denna kategori används endast i Färgspelet. Fem tärningar som alla har samma "
+-"”färg”. Två tärningar har samma färg om deras summa är 7. Siffrorna 1 och 6 "
+-"är svarta, 2 och 5 är röda, och 3 och 4 är gröna. Poängen är 35 poäng."
++"Den här kategorin finns bara i färgvarianten. Alla fem tärningar ska ha "
++"samma färg. Två tärningar har samma färg om deras värden tillsammans blir 7:"
++" 1 och 6 är svarta, 2 och 5 är röda samt 3 och 4 är gröna. Poängen är 35."
+ 
+ #. (itstool) path: glossentry/glossterm
+ #: C/index.docbook:400
+@@ -580,8 +577,8 @@
+ "Five dice with consecutive numbers. e.g. 2, 3, 4, 5, 6. The score is 40 "
+ "points."
+ msgstr ""
+-"Fem tärningar med löpande numrering. Till exempel: 2, 3, 4, 5, 6. Poängen är "
+-"40 poäng."
++"Fem tärningar visar fem värden i följd, till exempel 2, 3, 4, 5, 6. Poängen "
++"är 40."
+ 
+ #. (itstool) path: glossentry/glossterm
+ #: C/index.docbook:406
+@@ -595,9 +592,9 @@
+ "3, 4, 5, 5. This category is only used in the regular game. The score is 30 "
+ "points."
+ msgstr ""
+-"Fyra tärningar med löpande numrering. Den femte tärningen kan vara valfri "
+-"siffra. Till exempel: 2, 3, 4, 5, 5. Denna kategori används endast i det "
+-"vanliga spelet. Poängen är 30 poäng."
++"Fyra tärningar visar fyra värden i följd. Den femte kan visa vilket värde "
++"som helst, till exempel 2, 3, 4, 5, 5. Den här kategorin finns bara i den "
++"vanliga spelvarianten. Poängen är 30."
+ 
+ #. (itstool) path: sect1/title
+ #: C/index.docbook:421
+@@ -704,11 +701,11 @@
+ "of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
+ "with this manual."
+ msgstr ""
+-"Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges "
+-"under villkoren i GNU Free Documentation License (GFDL), version 1.1 eller "
+-"senare, utgivet av Free Software Foundation utan standardavsnitt och "
+-"omslagstexter.  En kopia av GFDL finns att hämta på denna <_:ulink-1/> eller "
+-"i filen COPYING-DOCS som medföljer denna handbok."
++"Du får kopiera, distribuera och/eller ändra det här dokumentet enligt "
++"villkoren i GNU Free Documentation License (GFDL), version 1.1 eller senare "
++"version som publicerats av Free Software Foundation, utan invarianta "
++"avsnitt, framsidestexter eller baksidestexter. En kopia av GFDL finns på "
++"<_:ulink-1/> eller i filen COPYING-DOCS som följer med handboken."
+ 
+ #. (itstool) path: legalnotice/para
+ #: C/legal.xml:12
+@@ -718,10 +715,9 @@
+ "you can do so by adding a copy of the license to the manual, as described in "
+ "section 6 of the license."
+ msgstr ""
+-"Denna handbok utgör en av flera GNOME-handböcker som distribueras under "
+-"villkoren i GFDL.  Om du vill distribuera denna handbok separat från övriga "
+-"handböcker kan du göra detta genom att lägga till en kopia av licensavtalet "
+-"i handboken enligt instruktionerna i avsnitt 6 i licensavtalet."
++"Den här handboken ingår i en samling GNOME-handböcker som distribueras under"
++" GFDL. Om du vill sprida den separat från samlingen kan du lägga till en "
++"kopia av licensen, enligt avsnitt 6 i licensen."
+ 
+ #. (itstool) path: legalnotice/para
+ #: C/legal.xml:19
+@@ -732,10 +728,10 @@
+ "aware of those trademarks, then the names are in capital letters or initial "
+ "capital letters."
+ msgstr ""
+-"Flera namn på produkter och tjänster är registrerade varumärken. I de fall "
+-"dessa namn förekommer i GNOME-dokumentation - och medlemmarna i GNOME-"
+-"dokumentationsprojektet är medvetna om dessa varumärken - är de skrivna med "
+-"versaler eller med inledande versal."
++"Företag använder ofta namn för att skilja sina produkter och tjänster från "
++"andras och hävdar att namnen är varumärken. I GNOME-dokumentation skrivs "
++"sådana namn med versaler eller inledande versal när GNOME Documentation "
++"Project känner till varumärket."
+ 
+ #. (itstool) path: listitem/para
+ #: C/legal.xml:35
+@@ -752,20 +748,17 @@
+ "ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+ "OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+ msgstr ""
+-"DOKUMENTET TILLHANDAHÅLLS I \"BEFINTLIGT SKICK\" UTAN NÅGRA SOM HELST "
+-"GARANTIER, VARE SIG UTTRYCKLIGA ELLER UNDERFÖRSTÅDDA, INKLUSIVE, MEN INTE "
+-"BEGRÄNSAT TILL, GARANTIER ATT DOKUMENTET ELLER EN MODIFIERAD VERSION AV "
+-"DOKUMENTET INTE INNEHÅLLER NÅGRA FELAKTIGHETER, ÄR LÄMPLIGT FÖR ETT VISST "
+-"ÄNDAMÅL ELLER INTE STRIDER MOT LAG. HELA RISKEN VAD GÄLLER KVALITET, "
+-"EXAKTHET OCH UTFÖRANDE AV DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET "
+-"LIGGER HELT OCH HÅLLET PÅ ANVÄNDAREN. OM ETT DOKUMENT ELLER EN MODIFIERAD "
+-"VERSION AV ETT DOKUMENT SKULLE VISA SIG INNEHÅLLA FELAKTIGHETER I NÅGOT "
+-"HÄNSEENDE ÄR DET DU (INTE DEN URSPRUNGLIGA SKRIBENTEN, FÖRFATTAREN ELLER "
+-"NÅGON ANNAN MEDARBETARE) SOM FÅR STÅ FÖR ALLA EVENTUELLA KOSTNADER FÖR "
+-"SERVICE, REPARATIONER ELLER KORRIGERINGAR. DENNA GARANTIFRISKRIVNING UTGÖR "
+-"EN VÄSENTLIG DEL AV DETTA LICENSAVTAL. DETTA INNEBÄR ATT ALL ANVÄNDNING AV "
+-"ETT DOKUMENT ELLER EN MODIFIERAD VERSION AV ETT DOKUMENT BEVILJAS ENDAST "
+-"UNDER DENNA ANSVARSFRISKRIVNING;"
++"DOKUMENTET TILLHANDAHÅLLS I ”BEFINTLIGT SKICK” UTAN NÅGRA SOM HELST "
++"GARANTIER, VARE SIG UTTRYCKLIGA ELLER UNDERFÖRSTÅDDA. DETTA INKLUDERAR, UTAN"
++" BEGRÄNSNING, GARANTIER OM ATT DOKUMENTET ELLER EN ÄNDRAD VERSION ÄR FELFRI,"
++" SÄLJBAR, LÄMPLIG FÖR ETT VISST ÄNDAMÅL ELLER INTE GÖR INTRÅNG I ANDRAS "
++"RÄTTIGHETER. DU BÄR HELA RISKEN FÖR DOKUMENTETS ELLER DEN ÄNDRADE VERSIONENS"
++" KVALITET, KORREKTHET OCH FUNKTION. OM ETT DOKUMENT ELLER EN ÄNDRAD VERSION "
++"VISAR SIG HA NÅGON BRIST, STÅR DU (INTE DEN URSPRUNGLIGA SKRIBENTEN, "
++"FÖRFATTAREN ELLER NÅGON BIDRAGSGIVARE) FÖR KOSTNADERNA FÖR NÖDVÄNDIG "
++"SERVICE, REPARATION ELLER RÄTTNING. DENNA GARANTIFRISKRIVNING ÄR EN "
++"VÄSENTLIG DEL AV LICENSEN. DOKUMENTET ELLER EN ÄNDRAD VERSION FÅR BARA "
++"ANVÄNDAS PÅ DE VILLKOR SOM ANGES I DENNA FRISKRIVNING; OCH"
+ 
+ #. (itstool) path: listitem/para
+ #: C/legal.xml:55
+@@ -781,18 +774,16 @@
+ "VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+ "POSSIBILITY OF SUCH DAMAGES."
+ msgstr ""
+-"UNDER INGA OMSTÄNDIGHETER ELLER INOM RAMEN FÖR NÅGON LAGSTIFTNING, OAVSETT "
+-"OM DET GÄLLER KRÄNKNING (INKLUSIVE VÅRDSLÖSHET), KONTRAKT ELLER DYLIKT, SKA "
+-"FÖRFATTAREN, DEN URSPRUNGLIGA SKRIBENTEN ELLER ANNAN MEDARBETARE ELLER "
+-"ÅTERFÖRSÄLJARE AV DOKUMENTET ELLER AV EN MODIFIERAD VERSION AV DOKUMENTET "
+-"ELLER NÅGON LEVERANTÖR TILL NÅGON AV NÄMNDA PARTER STÄLLAS ANSVARIG GENTEMOT "
+-"NÅGON FÖR NÅGRA DIREKTA, INDIREKTA, SÄRSKILDA ELLER OFÖRUTSEDDA SKADOR ELLER "
+-"FÖLJDSKADOR AV NÅGOT SLAG, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, SKADOR "
+-"BETRÄFFANDE FÖRLORAD GOODWILL, HINDER I ARBETET, DATORHAVERI ELLER NÅGRA "
+-"ANDRA TÄNKBARA SKADOR ELLER FÖRLUSTER SOM KAN UPPKOMMA PÅ GRUND AV ELLER "
+-"RELATERAT TILL ANVÄNDNINGEN AV DOKUMENTET ELLER MODIFIERADE VERSIONER AV "
+-"DOKUMENTET, ÄVEN OM PART SKA HA BLIVIT INFORMERAD OM MÖJLIGHETEN TILL SÅDANA "
+-"SKADOR."
++"FÖRFATTAREN, DEN URSPRUNGLIGA SKRIBENTEN, BIDRAGSGIVARE, DISTRIBUTÖRER AV "
++"DOKUMENTET ELLER EN ÄNDRAD VERSION AV DET, LIKSOM DERAS LEVERANTÖRER, ÄR "
++"UNDER INGA OMSTÄNDIGHETER OCH ENLIGT INGEN RÄTTSLIG GRUND — VARE SIG "
++"SKADESTÅNDSRÄTT (INKLUSIVE VÅRDSLÖSHET), AVTAL ELLER ANNAT — ANSVARIGA "
++"GENTEMOT NÅGON PERSON FÖR DIREKTA, INDIREKTA, SÄRSKILDA, TILLFÄLLIGA ELLER "
++"FÖLJDSKADOR AV NÅGOT SLAG. DETTA INKLUDERAR, UTAN BEGRÄNSNING, SKADOR PÅ "
++"GRUND AV FÖRLORAT ANSEENDE, ARBETSAVBROTT, DATORFEL ELLER "
++"FUNKTIONSSTÖRNINGAR SAMT ANDRA SKADOR ELLER FÖRLUSTER SOM UPPSTÅR GENOM "
++"ELLER HAR SAMBAND MED ANVÄNDNINGEN AV DOKUMENTET ELLER ÄNDRADE VERSIONER AV "
++"DET, ÄVEN OM PARTEN HAR INFORMERATS OM RISKEN FÖR SÅDANA SKADOR."
+ 
+ #. (itstool) path: legalnotice/para
+ #: C/legal.xml:28
