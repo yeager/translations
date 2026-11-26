@@ -6,9 +6,10 @@ msgstr ""
 "Project-Id-Version: gimp doc 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-21 13:33+0200\n"
-"PO-Revision-Date: 2026-11-23 06:06+0100\n"
+"PO-Revision-Date: 2026-11-26 00:00+0100\n"
 "Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
 "Language-Team: Swedish <sv@li.org>\n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2698,7 +2699,13 @@ msgid ""
 "rectangular outline, the simplest and most flexible approach is to create a "
 "rectangular selection and then <link linkend=\"gimp-selection-stroke"
 "\">stroke</link> it."
-msgstr "Verktyget används också för att rita en rektangel på en bild. Skapa en rektangulär markering och fyll den med <link linkend=\"gimp-tool-bucket-fill\">Hinkfyllningsverktyget</link> för att rita en fylld rektangel. Det enklaste och mest flexibla sättet att skapa en rektangulär kontur är att skapa en rektangulär markering och sedan <link linkend=\"gimp-selection-stroke\">dra upp</link> den."
+msgstr ""
+"Verktyget används också för att rita en rektangel på en bild. Skapa en "
+"rektangulär markering och fyll den med <link "
+"linkend=\"gimp-tool-bucket-fill\">fyllnadsverktyget</link> för att rita en "
+"fylld rektangel. Det enklaste och mest flexibla sättet att skapa en "
+"rektangulär kontur är att skapa en rektangulär markering och sedan <link "
+"linkend=\"gimp-selection-stroke\">dra upp</link> den."
 
 #: src/toolbox/tool-rect-select.xml:51(title)
 #: src/toolbox/tool-iscissors.xml:73(title)
@@ -6885,7 +6892,19 @@ msgid ""
 "inner one from the outer one; however this is not always easy to get right. "
 "The command <menuchoice><guimenu>Select</guimenu><guimenuitem>Border...</"
 "guimenuitem></menuchoice> makes it easy."
-msgstr "Verktyget används också för att rita en cirkel eller ellips på en bild. Skapa en elliptisk markering och fyll den med <link linkend=\"gimp-tool-bucket-fill\">Hinkfyllningsverktyget</link> för att rita en fylld ellips. Det enklaste och mest flexibla sättet att skapa en elliptisk kontur är att skapa en elliptisk markering och sedan <link linkend=\"gimp-selection-stroke\">dra upp</link> den. Kantutjämningens kvalitet blir dock ganska grov med detta sätt. En kontur med högre kvalitet kan skapas genom att göra två elliptiska markeringar i olika storlek och dra den inre från den yttre, men detta är inte alltid lätt att få rätt. Kommandot <menuchoice><guimenu>Markera</guimenu><guimenuitem>Kant...</guimenuitem></menuchoice> förenklar det."
+msgstr ""
+"Verktyget används också för att rita en cirkel eller ellips på en bild. "
+"Skapa en elliptisk markering och fyll den med <link "
+"linkend=\"gimp-tool-bucket-fill\">fyllnadsverktyget</link> för att rita en "
+"fylld ellips. Det enklaste och mest flexibla sättet att skapa en elliptisk "
+"kontur är att skapa en elliptisk markering och sedan <link "
+"linkend=\"gimp-selection-stroke\">dra upp</link> den. Kantutjämningens "
+"kvalitet blir dock ganska grov med detta sätt. En kontur med högre kvalitet "
+"kan skapas genom att göra två elliptiska markeringar i olika storlek och dra "
+"den inre från den yttre, men detta är inte alltid lätt att få rätt. "
+"Kommandot "
+"<menuchoice><guimenu>Markera</guimenu><guimenuitem>Kant...</guimenuitem></menuchoice> "
+"förenklar det."
 
 #: src/toolbox/tool-ellipse-select.xml:77(para)
 msgid "You can access the Ellipse Selection Tool in different ways:"
@@ -9319,7 +9338,7 @@ msgstr "Fyll"
 
 #: src/toolbox/tool-bucket-fill.xml:25(title)
 msgid "Toolbox Fill"
-msgstr "Hinkfyllning"
+msgstr "Fyll"
 
 #: src/toolbox/tool-bucket-fill.xml:33(para)
 msgid ""
@@ -9331,10 +9350,10 @@ msgid ""
 "handled."
 msgstr ""
 "Verktyget fyller en markering med den aktuella förgrundsfärgen. Om du "
-"Ctrl-klickar och använder hinkverktyget används bakgrundsfärgen i stället. "
-"Beroende på verktygsalternativen fyller hinkfyllningsverktyget antingen hela "
-"markeringen eller bara delar vars färger liknar den punkt du klickar på. "
-"Verktygsalternativen påverkar också hur genomskinlighet hanteras."
+"Ctrl-klickar och använder fyllnadsverktyget används bakgrundsfärgen i "
+"stället. Beroende på verktygsalternativen fyller fyllnadsverktyget antingen "
+"hela markeringen eller bara delar vars färger liknar den punkt du klickar "
+"på. Verktygsalternativen påverkar också hur genomskinlighet hanteras."
 
 #: src/toolbox/tool-bucket-fill.xml:41(para)
 msgid ""
@@ -9361,9 +9380,9 @@ msgstr ""
 "När du fyller objekt i ett genomskinligt lager (till exempel bokstäver i ett "
 "textlager) med en annan färg än tidigare kan en kant av den gamla färgen "
 "fortfarande omge objekten. Detta beror på ett lågt fyllnadströskelvärde i "
-"dialogrutan för hinkfyllningsalternativ. Med ett lågt tröskelvärde fyller "
-"hinkverktyget inte halvgenomskinliga bildpunkter och de framträder mot "
-"fyllningen eftersom de har behållit sin ursprungliga färg."
+"dialogrutan med inställningar för fyllnadsverktyget. Med ett lågt "
+"tröskelvärde fyller fyllnadsverktyget inte halvgenomskinliga bildpunkter och "
+"de framträder mot fyllningen eftersom de har behållit sin ursprungliga färg."
 
 #: src/toolbox/tool-bucket-fill.xml:56(para)
 msgid ""
@@ -9378,7 +9397,9 @@ msgid ""
 "You can find the Bucket Fill tool from the image-menu through: "
 "<menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint Tools</"
 "guisubmenu><guimenuitem>Bucket Fill</guimenuitem></menuchoice>"
-msgstr "Du hittar hinkfyllningsverktyget från bildmenyn via: <menuchoice><guimenu>Verktyg</guimenu><guisubmenu>Målarverktyg</guisubmenu><guimenuitem>Hinkfyllning</guimenuitem></menuchoice>"
+msgstr ""
+"Du hittar fyllnadsverktyget från bildmenyn via: "
+"<menuchoice><guimenu>Verktyg</guimenu><guisubmenu>Målarverktyg</guisubmenu><guimenuitem>Fyll</guimenuitem></menuchoice>"
 
 #: src/toolbox/tool-bucket-fill.xml:77(para)
 msgid ""
@@ -9414,7 +9435,10 @@ msgid ""
 "See <link linkend=\"gimp-tool-brush\">Paint Tools</link> for help with "
 "options that are common to all these tools. Only options that are specific "
 "to the Bucket Fill tool are explained here."
-msgstr "Se <link linkend=\"gimp-tool-brush\">målarverktyg</link> för hjälp med alternativ som är gemensamma för alla dessa verktyg. Här förklaras bara alternativ som är specifika för hinkfyllningsverktyget."
+msgstr ""
+"Se <link linkend=\"gimp-tool-brush\">målarverktyg</link> för hjälp med "
+"alternativ som är gemensamma för alla dessa verktyg. Här förklaras bara "
+"alternativ som är specifika för fyllnadsverktyget."
 
 #: src/toolbox/tool-bucket-fill.xml:138(term)
 msgid "Fill Type"
@@ -9555,7 +9579,7 @@ msgid ""
 "with the magenta color and a Threshold set to 15."
 msgstr ""
 "Ursprunglig bild: tre band med toningar av rena färger. Röd (255;0;0), grön "
-"(0;255;0), blå (0;0;255). Vi kommer att använda hinkfyllningsverktyget med "
+"(0;255;0), blå (0;0;255). Vi kommer att använda fyllnadsverktyget med "
 "magenta och ett tröskelvärde på 15."
 
 #: src/toolbox/tool-bucket-fill.xml:282(para)
@@ -9622,7 +9646,7 @@ msgstr "Exempel på <quote>Fylla en mjukkantad markering</quote>"
 
 #: src/toolbox/tool-bucket-fill.xml:371(para)
 msgid "After clicking 3 times more with the Bucket-Fill tool"
-msgstr "Efter ytterligare tre klick med hinkfyllningsverktyget"
+msgstr "Efter ytterligare tre klick med fyllnadsverktyget"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -9825,7 +9849,9 @@ msgstr "beter sig som den intuitiva föreställningen om att <quote>måla</quote
 msgid ""
 "the <link linkend=\"gimp-tool-bucket-fill\">Bucket Fill</link> fills with "
 "color or pattern;"
-msgstr "<link linkend=\"gimp-tool-bucket-fill\">Hinkfyllning</link> fyller med färg eller mönster;"
+msgstr ""
+"<link linkend=\"gimp-tool-bucket-fill\">Fyllnadsverktyget</link> fyller med "
+"färg eller mönster;"
 
 #: src/toolbox/tool-brush.xml:94(para)
 msgid ""
@@ -10085,10 +10111,10 @@ msgid ""
 "Fill tool."
 msgstr ""
 "I exempelbilden ovan ligger Wilber på det översta lagret och omges av "
-"genomskinlighet. Det undre lagret är enfärgat ljusblått. Verktyget "
-"Hinkfyllning användes med alternativet <guilabel>Fyll hela "
-"markeringen</guilabel> ikryssat och hela lagret markerat. Ett mönster "
-"användes för att måla med hinkfyllningsverktyget."
+"genomskinlighet. Det undre lagret är enfärgat ljusblått. Verktyget Fyll "
+"användes med alternativet <guilabel>Fyll hela markeringen</guilabel> "
+"ikryssat och hela lagret markerat. Ett mönster användes för att måla med "
+"fyllnadsverktyget."
 
 #: src/toolbox/tool-brush.xml:366(phrase)
 #: src/toolbox/tool-brush.xml:428(phrase)
@@ -10138,8 +10164,8 @@ msgid ""
 "In the above example image, the color of the Bucket Fill tool was white, so "
 "white parts of Wilber were erased and the blue background shows through."
 msgstr ""
-"I exempelbilden ovan var färgen för hinkfyllningsverktyget vit, så vita delar "
-"av Wilber raderades och den blå bakgrunden syns igenom."
+"I exempelbilden ovan var färgen för fyllnadsverktyget vit, så vita delar av "
+"Wilber raderades och den blå bakgrunden syns igenom."
 
 #: src/toolbox/tool-brush.xml:437(para)
 msgid ""

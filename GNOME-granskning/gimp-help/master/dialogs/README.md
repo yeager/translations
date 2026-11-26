@@ -8,3 +8,8 @@
 - Avsiktliga undantag: inga aktiva `@@image:`-poster avviker från källan.
 - Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-23.
 - GNOME-inskick: inget — enligt arbetsinstruktionen.
+
+## Riktad terminologikorrigering — 2026-11-26
+
+Två befintliga poster använder nu **Fyll** som verktygsnamn och **fyllnadsverktyg** i löptext. Katalogens tidigare radgranskning och statistik ändras inte; ingen GNOME-inskickning har gjorts.
+- Validering av termrättningen: `msgfmt --check --check-format` godkändes; l10n-lint rapporterade 0 fel och inga varningar i de ändrade posterna. Markup, platshållare, pluralformer och radbrytningar är oförändrade. Hunspell-SV markerade bara Wilber, GIMP-maskotens namn.

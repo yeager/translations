@@ -5,11 +5,13 @@
  #
  #
  msgid ""
-@@ -7,8 +6,9 @@
+@@ -6,9 +5,10 @@
+ "Project-Id-Version: gimp doc 2.6\n"
  "Report-Msgid-Bugs-To: \n"
  "POT-Creation-Date: 2009-04-21 13:33+0200\n"
- "PO-Revision-Date: 2009-02-17 02:54+0100\n"
+-"PO-Revision-Date: 2009-02-17 02:54+0100\n"
 -"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
++"PO-Revision-Date: 2026-11-26 00:00+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
  "Language-Team: Swedish <sv@li.org>\n"
 +"Language: sv\n"
@@ -2056,16 +2058,20 @@
  
  #: src/toolbox/tool-rect-select.xml:41(para)
  msgid ""
-@@ -2402,7 +2697,7 @@
- "rectangular outline, the simplest and most flexible approach is to create a "
+@@ -2403,6 +2698,12 @@
  "rectangular selection and then <link linkend=\"gimp-selection-stroke"
  "\">stroke</link> it."
--msgstr ""
-+msgstr "Verktyget används också för att rita en rektangel på en bild. Skapa en rektangulär markering och fyll den med <link linkend=\"gimp-tool-bucket-fill\">Hinkfyllningsverktyget</link> för att rita en fylld rektangel. Det enklaste och mest flexibla sättet att skapa en rektangulär kontur är att skapa en rektangulär markering och sedan <link linkend=\"gimp-selection-stroke\">dra upp</link> den."
+ msgstr ""
++"Verktyget används också för att rita en rektangel på en bild. Skapa en "
++"rektangulär markering och fyll den med <link "
++"linkend=\"gimp-tool-bucket-fill\">fyllnadsverktyget</link> för att rita en "
++"fylld rektangel. Det enklaste och mest flexibla sättet att skapa en "
++"rektangulär kontur är att skapa en rektangulär markering och sedan <link "
++"linkend=\"gimp-selection-stroke\">dra upp</link> den."
  
  #: src/toolbox/tool-rect-select.xml:51(title)
  #: src/toolbox/tool-iscissors.xml:73(title)
-@@ -2421,17 +2716,17 @@
+@@ -2421,17 +2722,17 @@
  "from the image menu bar <menuchoice><guimenu>Tools</"
  "guimenu><guisubmenu>Selection Tools</guisubmenu><guimenuitem>Rectangle "
  "Select</guimenuitem></menuchoice>,"
@@ -2086,7 +2092,7 @@
  
  #: src/toolbox/tool-rect-select.xml:92(para)
  msgid ""
-@@ -2442,7 +2737,7 @@
+@@ -2442,7 +2743,7 @@
  "resulting selection will be subtracted from the existing selection. The "
  "cursor becomes <guiicon><inlinegraphic fileref=\"images/toolbox/cursor-"
  "select-rect-minus.png\"/></guiicon>"
@@ -2095,7 +2101,7 @@
  
  #: src/toolbox/tool-rect-select.xml:112(para)
  msgid ""
-@@ -2450,7 +2745,7 @@
+@@ -2450,7 +2751,7 @@
  "starting the selection, the resulting selection will be added to the "
  "existing one. The cursor becomes <guiicon><inlinegraphic fileref=\"images/"
  "toolbox/cursor-select-rect-plus.png\"/></guiicon>"
@@ -2104,7 +2110,7 @@
  
  #: src/toolbox/tool-rect-select.xml:121(para)
  msgid ""
-@@ -2460,7 +2755,7 @@
+@@ -2460,7 +2761,7 @@
  "it is your first selection. Later, with the default <guilabel>Aspect Ratio </"
  "guilabel>, your selection will respect the aspect ratio of the previous "
  "selection."
@@ -2113,7 +2119,7 @@
  
  #: src/toolbox/tool-rect-select.xml:140(para)
  msgid ""
-@@ -2470,15 +2765,15 @@
+@@ -2470,15 +2771,15 @@
  "selection with the existing one and the pointer change shape accordingly : "
  "<guiicon><inlinegraphic fileref=\"images/toolbox/cursor-select-rect-"
  "intersect.png\"/></guiicon>"
@@ -2132,7 +2138,7 @@
  
  #: src/toolbox/tool-rect-select.xml:169(para)
  msgid ""
-@@ -2488,13 +2783,13 @@
+@@ -2488,13 +2789,13 @@
  "(or square) shape. When the mouse button is relaxed, a dotted line "
  "(<quote>marching ants</quote>) outlines the selection. It's not necessary to "
  "adjust the selection with care; you can resize it easily later."
@@ -2148,7 +2154,7 @@
  
  #: src/toolbox/tool-rect-select.xml:185(para)
  msgid ""
-@@ -2502,7 +2797,7 @@
+@@ -2502,7 +2803,7 @@
  "new selection but will erase the existing one if this isn't combined with an "
  "action on the relevant key to add or subtract another selection as described "
  "in the previous paragraph."
@@ -2157,7 +2163,7 @@
  
  #: src/toolbox/tool-rect-select.xml:191(para)
  msgid ""
-@@ -2519,7 +2814,7 @@
+@@ -2519,7 +2820,7 @@
  "fileref=\"images/toolbox/side-pt.png\"/></guiicon>. So you can click-and-"
  "drag to magnify or to shrink the selection size by moving the chosen "
  "boundary."
@@ -2166,7 +2172,7 @@
  
  #: src/toolbox/tool-rect-select.xml:214(para)
  msgid ""
-@@ -2527,7 +2822,7 @@
+@@ -2527,7 +2828,7 @@
  "object manipulation, i.e.: <guiicon><inlinegraphic fileref=\"images/toolbox/"
  "pointer.png\"/></guiicon>. So you can move the whole selection by a click-"
  "and-drag."
@@ -2175,7 +2181,7 @@
  
  #: src/toolbox/tool-rect-select.xml:223(para)
  msgid ""
-@@ -2535,24 +2830,24 @@
+@@ -2535,24 +2836,24 @@
  "option, your work will be easier because what is out the selection will be "
  "darkest than what is in the selection, and then the selection seems "
  "highlighted."
@@ -2204,7 +2210,7 @@
  
  #: src/toolbox/tool-rect-select.xml:252(para)
  msgid ""
-@@ -2561,45 +2856,45 @@
+@@ -2561,45 +2862,45 @@
  "inside the selection or by pressing the <keycap>Enter</keycap> key. Or you "
  "can just use a non-selection tool and, for example, fill or paint the "
  "selection."
@@ -2258,7 +2264,7 @@
  
  #: src/toolbox/tool-rect-select.xml:307(term)
  #: src/toolbox/tool-crop.xml:224(term) src/toolbox/tool-clone.xml:359(term)
-@@ -2610,11 +2905,11 @@
+@@ -2610,11 +2911,11 @@
  msgid ""
  "This menu allows you the option of constraining the shape of the rectangle "
  "in different ways."
@@ -2272,7 +2278,7 @@
  
  #: src/toolbox/tool-rect-select.xml:317(para)
  msgid ""
-@@ -2622,7 +2917,7 @@
+@@ -2622,7 +2923,7 @@
  "aspect ratio fixed and written within the relevant box. By default the ratio "
  "is 1:1 (so we have a square) but it can be changed. With the two little "
  "landscape and picture icons, you can invert this ratio."
@@ -2281,7 +2287,7 @@
  
  #: src/toolbox/tool-rect-select.xml:327(term)
  msgid "Width"
-@@ -2630,7 +2925,7 @@
+@@ -2630,7 +2931,7 @@
  
  #: src/toolbox/tool-rect-select.xml:329(para)
  msgid "With this choice you can fix the width of the selection."
@@ -2290,7 +2296,7 @@
  
  #: src/toolbox/tool-rect-select.xml:335(term)
  msgid "Height"
-@@ -2638,33 +2933,33 @@
+@@ -2638,33 +2939,33 @@
  
  #: src/toolbox/tool-rect-select.xml:337(para)
  msgid "With this choice you can fix the height of the selection."
@@ -2330,7 +2336,7 @@
  
  #: src/toolbox/tool-rect-select.xml:377(term)
  #: src/toolbox/tool-rect-select.xml:380(primary)
-@@ -2674,50 +2969,50 @@
+@@ -2674,50 +2975,50 @@
  
  #: src/toolbox/tool-rect-select.xml:381(secondary)
  msgid "Selection guides"
@@ -2392,7 +2398,7 @@
  
  #: src/toolbox/tool-rect-select.xml:431(para)
  msgid ""
-@@ -2730,11 +3025,11 @@
+@@ -2730,11 +3031,11 @@
  "solid-colored surround, auto-shrinking will always pick it out correctly. "
  "Note that the resulting selection does not need to have the same shape as "
  "the one you sweep out."
@@ -2406,7 +2412,7 @@
  
  #: src/toolbox/tool-rect-select.xml:450(para)
  msgid ""
-@@ -2743,7 +3038,7 @@
+@@ -2743,7 +3044,7 @@
  "just from the active layer. For further information regarding Sample Merge, "
  "see the glossary entry <link linkend=\"glossary-samplemerge\">Sample Merge</"
  "link>."
@@ -2415,7 +2421,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -2765,7 +3060,7 @@
+@@ -2765,7 +3066,7 @@
  #: src/toolbox/tool-posterize.xml:19(primary)
  #: src/toolbox/tool-posterize.xml:90(quote)
  msgid "Posterize"
@@ -2424,7 +2430,7 @@
  
  #: src/toolbox/tool-posterize.xml:21(para)
  msgid ""
-@@ -2773,6 +3068,9 @@
+@@ -2773,6 +3074,9 @@
  "selection or active layer and reduce the number of colors while maintaining "
  "a semblance of the original image characteristics."
  msgstr ""
@@ -2434,7 +2440,7 @@
  
  #: src/toolbox/tool-posterize.xml:28(para)
  msgid ""
-@@ -2782,6 +3080,10 @@
+@@ -2782,6 +3086,10 @@
  "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Posterize</guimenuitem></"
  "menuchoice>,"
  msgstr ""
@@ -2445,7 +2451,7 @@
  
  #: src/toolbox/tool-posterize.xml:40(para)
  msgid ""
-@@ -2789,14 +3091,17 @@
+@@ -2789,14 +3097,17 @@
  "tool-posterize-22.png\"/></guiicon> icon in ToolBox, if Color Tools have "
  "been added to it."
  msgstr ""
@@ -2465,7 +2471,7 @@
  
  #: src/toolbox/tool-posterize.xml:63(para)
  msgid ""
-@@ -2805,12 +3110,16 @@
+@@ -2805,12 +3116,16 @@
  "active layer. The total number of colors is the combination of these levels. "
  "A level to 3 will give 2<superscript>3</superscript> = 8 colors."
  msgstr ""
@@ -2483,7 +2489,7 @@
  
  #: src/toolbox/tool-posterize.xml:85(phrase)
  #: src/toolbox/tool-perspective-clone.xml:147(title)
-@@ -2819,13 +3128,13 @@
+@@ -2819,13 +3134,13 @@
  
  #: src/toolbox/tool-posterize.xml:89(phrase)
  msgid "Example for the <placeholder-1/> tool"
@@ -2499,7 +2505,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -2866,7 +3175,7 @@
+@@ -2866,7 +3181,7 @@
  
  #: src/toolbox/tool-perspective.xml:24(title)
  msgid "Perspective tool"
@@ -2508,7 +2514,7 @@
  
  #: src/toolbox/tool-perspective.xml:31(para)
  msgid ""
-@@ -2880,16 +3189,27 @@
+@@ -2880,16 +3195,27 @@
  "valid the transformation. At the center of the element, a circle lets you "
  "move the element by click-and-drag."
  msgstr ""
@@ -2537,7 +2543,7 @@
  
  #: src/toolbox/tool-perspective.xml:58(para)
  msgid ""
-@@ -2897,40 +3217,47 @@
+@@ -2897,40 +3223,47 @@
  "<guimenuitem>Transform Tools</guimenuitem><guimenuitem>Perspective</"
  "guimenuitem>,"
  msgstr ""
@@ -2589,7 +2595,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -2979,9 +3306,8 @@
+@@ -2979,9 +3312,8 @@
  msgstr "Perspektivkloning"
  
  #: src/toolbox/tool-perspective-clone.xml:22(title)
@@ -2600,7 +2606,7 @@
  
  #: src/toolbox/tool-perspective-clone.xml:31(para)
  msgid ""
-@@ -2991,12 +3317,18 @@
+@@ -2991,12 +3323,18 @@
  "in the same way as with the <link linkend=\"gimp-tool-clone\">Clone</link> "
  "tool."
  msgstr ""
@@ -2619,7 +2625,7 @@
  
  #: src/toolbox/tool-perspective-clone.xml:56(para)
  msgid ""
-@@ -3004,10 +3336,13 @@
+@@ -3004,10 +3342,13 @@
  "<guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-perspective-"
  "clone-22.png\"/></guiicon> in the Toolbox."
  msgstr ""
@@ -2634,7 +2640,7 @@
  
  #: src/toolbox/tool-perspective-clone.xml:86(para)
  msgid ""
-@@ -3017,14 +3352,18 @@
+@@ -3017,14 +3358,18 @@
  "key, the tool will clone along this line. Particularly useful when cloning "
  "from a pattern."
  msgstr ""
@@ -2655,7 +2661,7 @@
  
  #: src/toolbox/tool-perspective-clone.xml:115(para)
  msgid ""
-@@ -3034,38 +3373,47 @@
+@@ -3034,38 +3379,47 @@
  "guilabel> and use this in the same way as the <link linkend=\"gimp-tool-clone"
  "\">Clone</link> tool."
  msgstr ""
@@ -2707,7 +2713,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -3093,7 +3441,7 @@
+@@ -3093,7 +3447,7 @@
  
  #: src/toolbox/tool-pencil.xml:24(title)
  msgid "Pencil tool"
@@ -2716,7 +2722,7 @@
  
  #: src/toolbox/tool-pencil.xml:32(para)
  msgid ""
-@@ -3103,6 +3451,10 @@
+@@ -3103,6 +3457,10 @@
  "produce fuzzy edges, even with a very fuzzy brush. It does not even do anti-"
  "aliasing."
  msgstr ""
@@ -2727,7 +2733,7 @@
  
  #: src/toolbox/tool-pencil.xml:39(para)
  msgid ""
-@@ -3112,6 +3464,11 @@
+@@ -3112,6 +3470,11 @@
  "With the pencil tool, you can be confident that every pixel within the brush "
  "outline will be changed in exactly the way you expect."
  msgstr ""
@@ -2739,7 +2745,7 @@
  
  #: src/toolbox/tool-pencil.xml:48(para)
  msgid ""
-@@ -3119,6 +3476,9 @@
+@@ -3119,6 +3482,9 @@
  "paint tools), click at the starting point, then hold down <keycap>Shift</"
  "keycap> and click at the ending point."
  msgstr ""
@@ -2749,7 +2755,7 @@
  
  #: src/toolbox/tool-pencil.xml:59(para)
  msgid ""
-@@ -3126,6 +3486,9 @@
+@@ -3126,6 +3492,9 @@
  "<menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint Tools</"
  "guisubmenu><guimenuitem>Pencil</guimenuitem></menuchoice>"
  msgstr ""
@@ -2759,7 +2765,7 @@
  
  #: src/toolbox/tool-pencil.xml:69(para)
  msgid ""
-@@ -3133,16 +3496,21 @@
+@@ -3133,16 +3502,21 @@
  "<guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-pencil-22.png\"/"
  "></guiicon>"
  msgstr ""
@@ -2782,7 +2788,7 @@
  
  #: src/toolbox/tool-pencil.xml:103(para)
  msgid ""
-@@ -3151,10 +3519,14 @@
+@@ -3151,10 +3525,14 @@
  "will generate a straight line. Consecutive clicks will continue drawing "
  "straight lines that originate from the end of the last line."
  msgstr ""
@@ -2798,7 +2804,7 @@
  
  #: src/toolbox/tool-pencil.xml:130(term)
  #: src/toolbox/tool-paintbrush.xml:109(term)
-@@ -3162,6 +3534,8 @@
+@@ -3162,6 +3540,8 @@
  "Mode; Opacity; Brush; Scale; Brush Dynamics; Fade Out; Apply Jitter; "
  "Incremental; Use Color from Gradient"
  msgstr ""
@@ -2807,7 +2813,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -3205,7 +3579,7 @@
+@@ -3205,7 +3585,7 @@
  
  #: src/toolbox/tool-path.xml:27(primary)
  msgid "Bézier's curve"
@@ -2816,7 +2822,7 @@
  
  #: src/toolbox/tool-path.xml:30(title)
  msgid "Path tool"
-@@ -3220,38 +3594,47 @@
+@@ -3220,38 +3600,47 @@
  "Paths have their own dialog box: <link linkend=\"gimp-path-dialog\">Dialog</"
  "link>."
  msgstr ""
@@ -2868,7 +2874,7 @@
  
  #: src/toolbox/tool-path.xml:96(term)
  msgid "Ctrl/Alt"
-@@ -3264,14 +3647,18 @@
+@@ -3264,14 +3653,18 @@
  "<keycap>Ctrl</keycap> key toggles between Design and Edit. <keycap>Alt</"
  "keycap> (or Ctrl+Alt) key toggles between Design and Move."
  msgstr ""
@@ -2889,7 +2895,7 @@
  
  #: src/toolbox/tool-path.xml:137(para)
  msgid ""
-@@ -3279,10 +3666,13 @@
+@@ -3279,10 +3672,13 @@
  "path by clicking successively. You can move control points by clicking on "
  "them and dragging them. Between control points are segments."
  msgstr ""
@@ -2904,7 +2910,7 @@
  
  #: src/toolbox/tool-path.xml:161(para)
  msgid ""
-@@ -3290,6 +3680,9 @@
+@@ -3290,6 +3686,9 @@
  "arrows indicate curve. Two little handles appear that you can drag to bend "
  "the curve."
  msgstr ""
@@ -2914,7 +2920,7 @@
  
  #: src/toolbox/tool-path.xml:170(para)
  msgid ""
-@@ -3299,6 +3692,11 @@
+@@ -3299,6 +3698,11 @@
  "from path</emphasis> button or the <emphasis> Path to Selection</emphasis> "
  "button in the Path Dialog."
  msgstr ""
@@ -2926,7 +2932,7 @@
  
  #: src/toolbox/tool-path.xml:180(para)
  msgid ""
-@@ -3306,10 +3704,13 @@
+@@ -3306,10 +3710,13 @@
  "pressure on the mouse button to move handles individually. The "
  "<keycap>Shift</keycap> key will force the handles to be symmetrical again."
  msgstr ""
@@ -2941,7 +2947,7 @@
  
  #: src/toolbox/tool-path.xml:188(para)
  msgid ""
-@@ -3322,6 +3723,13 @@
+@@ -3322,6 +3729,13 @@
  "Path dialog. Pressing <keycap>Shift</keycap> forces the creation of a new "
  "component."
  msgstr ""
@@ -2955,7 +2961,7 @@
  
  #: src/toolbox/tool-path.xml:198(para)
  msgid ""
-@@ -3331,6 +3739,11 @@
+@@ -3331,6 +3745,11 @@
  "Pressing <keycombo><keycap>Ctrl</keycap><keycap>Alt </keycap></keycombo> "
  "allows to move all the path, as a selection."
  msgstr ""
@@ -2967,7 +2973,7 @@
  
  #: src/toolbox/tool-path.xml:207(para)
  msgid ""
-@@ -3338,6 +3751,9 @@
+@@ -3338,6 +3757,9 @@
  "handle appears. Drag it to bend the curve. Pressing <keycap>Shift</keycap> "
  "toggles to symmetric handles."
  msgstr ""
@@ -2977,7 +2983,7 @@
  
  #: src/toolbox/tool-path.xml:211(para)
  msgid ""
-@@ -3346,6 +3762,10 @@
+@@ -3346,6 +3768,10 @@
  "segment. As soon as you move, handles appear at both ends of the segment. "
  "Pressing <keycap>Shift</keycap> key toggles to symmetric handles."
  msgstr ""
@@ -2988,7 +2994,7 @@
  
  #: src/toolbox/tool-path.xml:220(term)
  msgid "Edit Mode"
-@@ -3358,6 +3778,10 @@
+@@ -3358,6 +3784,10 @@
  "existing path. Outside, the pointer is a small crossed circle (on the whole "
  "image if there is no path!) and you can do nothing."
  msgstr ""
@@ -2999,7 +3005,7 @@
  
  #: src/toolbox/tool-path.xml:228(para)
  msgid ""
-@@ -3366,6 +3790,10 @@
+@@ -3366,6 +3796,10 @@
  "an other node to link both nodes. This is useful when you have to link "
  "unclosed components."
  msgstr ""
@@ -3010,7 +3016,7 @@
  
  #: src/toolbox/tool-path.xml:234(para)
  msgid ""
-@@ -3374,12 +3802,18 @@
+@@ -3374,12 +3808,18 @@
  "combination, point to a segment. Pointer turns to -. Click to delete the "
  "segment."
  msgstr ""
@@ -3029,7 +3035,7 @@
  
  #: src/toolbox/tool-path.xml:243(para)
  msgid ""
-@@ -3387,6 +3821,9 @@
+@@ -3387,6 +3827,9 @@
  "keycap><keycap>Ctrl</keycap></keycombo> key combination, point to a node. "
  "Pointer turns to -. Click to delete the node."
  msgstr ""
@@ -3039,7 +3045,7 @@
  
  #: src/toolbox/tool-path.xml:248(para)
  msgid ""
-@@ -3394,6 +3831,9 @@
+@@ -3394,6 +3837,9 @@
  "to small hand. Drag the node: handle appears. Pressing <keycap>Shift</"
  "keycap> toggles to symmetric handles."
  msgstr ""
@@ -3049,7 +3055,7 @@
  
  #: src/toolbox/tool-path.xml:254(para)
  msgid ""
-@@ -3402,20 +3842,24 @@
+@@ -3402,20 +3848,24 @@
  "combination, point to a handle. The pointer doesn't turn to the expected - "
  "and remains a hand. Click to delete the handle."
  msgstr ""
@@ -3077,7 +3083,7 @@
  
  #: src/toolbox/tool-path.xml:274(para)
  msgid ""
-@@ -3423,20 +3867,23 @@
+@@ -3423,20 +3873,23 @@
  "and drag outside the path, all components are moved. Pressing <keycap>Shift</"
  "keycap> key toggles to move all components also."
  msgstr ""
@@ -3104,7 +3110,7 @@
  
  #: src/toolbox/tool-path.xml:294(para)
  msgid ""
-@@ -3447,10 +3894,16 @@
+@@ -3447,10 +3900,16 @@
  "independent. If you change tool, the path becomes invisible, but it persists "
  "in Path Dialog and you can re-activate it."
  msgstr ""
@@ -3122,7 +3128,7 @@
  
  #: src/toolbox/tool-path.xml:306(para)
  msgid ""
-@@ -3460,10 +3913,15 @@
+@@ -3460,10 +3919,15 @@
  "existent and the <keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap></"
  "keycombo> key combination will intersect the two selections."
  msgstr ""
@@ -3139,7 +3145,7 @@
  
  #: src/toolbox/tool-path.xml:319(para)
  msgid ""
-@@ -3472,12 +3930,16 @@
+@@ -3472,12 +3936,16 @@
  "<link linkend=\"gimp-path-stroke\">Stroke Path</link> and <link linkend="
  "\"gimp-using-paths\">Stroke Path</link>."
  msgstr ""
@@ -3157,7 +3163,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -3509,6 +3971,8 @@
+@@ -3509,6 +3977,8 @@
  "The paintbrush tool paints fuzzy brush strokes. All strokes are rendered "
  "using the current brush."
  msgstr ""
@@ -3166,7 +3172,7 @@
  
  #: src/toolbox/tool-paintbrush.xml:37(para)
  msgid ""
-@@ -3516,6 +3980,9 @@
+@@ -3516,6 +3986,9 @@
  "menu: <menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint Tools</"
  "guisubmenu><guimenuitem>Paintbrush</guimenuitem></menuchoice>."
  msgstr ""
@@ -3176,7 +3182,7 @@
  
  #: src/toolbox/tool-paintbrush.xml:48(para)
  msgid ""
-@@ -3523,16 +3990,21 @@
+@@ -3523,16 +3996,21 @@
  "<guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-paintbrush-22.png"
  "\"/></guiicon>"
  msgstr ""
@@ -3199,7 +3205,7 @@
  
  #: src/toolbox/tool-paintbrush.xml:82(para)
  msgid ""
-@@ -3541,10 +4013,14 @@
+@@ -3541,10 +4019,14 @@
  "will generate a straight line. Consecutive clicks will continue drawing "
  "straight lines that originate from the end of the last line."
  msgstr ""
@@ -3215,7 +3221,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -3572,38 +4048,38 @@
+@@ -3572,38 +4054,38 @@
  
  #: src/toolbox/tool-move.xml:28(title)
  msgid "The Move tool in Toolbox"
@@ -3261,7 +3267,7 @@
  
  #: src/toolbox/tool-move.xml:81(para)
  msgid ""
-@@ -3614,23 +4090,23 @@
+@@ -3614,23 +4096,23 @@
  "is enabled in <menuchoice><guimenu>Edit</guimenu><guisubmenu>Preferences</"
  "guisubmenu><guisubmenu>Image Windows</guisubmenu><guimenuitem>Space Bar</"
  "guimenuitem></menuchoice>."
@@ -3290,7 +3296,7 @@
  
  #: src/toolbox/tool-move.xml:131(para)
  msgid ""
-@@ -3640,24 +4116,24 @@
+@@ -3640,24 +4122,24 @@
  "pointer has a small hand shape (showing that you do <emphasis>not</emphasis> "
  "pick an element of the active layer), you will move a non-active layer "
  "instead (it becomes the active layer while moving)."
@@ -3319,7 +3325,7 @@
  
  #: src/toolbox/tool-move.xml:158(para)
  msgid ""
-@@ -3665,22 +4141,22 @@
+@@ -3665,22 +4147,22 @@
  "pointer turns to a small hand when it goes over a <link linkend=\"gimp-path-"
  "dialog-using\">visible path</link>. Then you can move this path by click-and-"
  "dragging it (it will be the active path while moving)."
@@ -3346,7 +3352,7 @@
  
  #: src/toolbox/tool-move.xml:185(para)
  msgid ""
-@@ -3688,6 +4164,9 @@
+@@ -3688,6 +4170,9 @@
  "<quote>Layer</quote>, you must hold down <keycombo><keycap>Ctrl</"
  "keycap><keycap>Alt</keycap></keycombo> keys."
  msgstr ""
@@ -3356,7 +3362,7 @@
  
  #: src/toolbox/tool-move.xml:190(para)
  msgid ""
-@@ -3696,6 +4175,10 @@
+@@ -3696,6 +4181,10 @@
  "selections precisely. Then, holding down the <keycap> Shift</keycap> key "
  "moves then by increments of 25 pixels."
  msgstr ""
@@ -3367,7 +3373,7 @@
  
  #: src/toolbox/tool-move.xml:196(para)
  msgid ""
-@@ -3705,12 +4188,19 @@
+@@ -3705,12 +4194,19 @@
  "to Guides (or Grid)</guimenuitem></menuchoice> option is checked: this makes "
  "aligning selections easier."
  msgstr ""
@@ -3387,7 +3393,7 @@
  
  #: src/toolbox/tool-move.xml:213(term)
  msgid "Moving a layer"
-@@ -3726,6 +4216,9 @@
+@@ -3726,6 +4222,9 @@
  "<guilabel>Move the Active Layer</guilabel> and, if you have one or more "
  "layers, <guilabel>Point to Layer (or Guide)</guilabel>."
  msgstr ""
@@ -3397,7 +3403,7 @@
  
  #: src/toolbox/tool-move.xml:228(term)
  msgid "Moving Grouped Layers"
-@@ -3736,6 +4229,8 @@
+@@ -3736,6 +4235,8 @@
  "If layers are grouped (with the little chain symbol) they will all move, "
  "regardless of which layer is currently active."
  msgstr ""
@@ -3406,7 +3412,7 @@
  
  #: src/toolbox/tool-move.xml:237(term)
  msgid "Moving a guide"
-@@ -3752,6 +4247,10 @@
+@@ -3752,6 +4253,10 @@
  "activate it by yourself. When the mouse pointer goes over a guide, this "
  "guide turns to red and you can click-and-drag to move it."
  msgstr ""
@@ -3417,7 +3423,7 @@
  
  #: src/toolbox/tool-move.xml:253(term)
  msgid "Moving a path"
-@@ -3765,6 +4264,10 @@
+@@ -3765,6 +4270,10 @@
  "visible in the Path Dialog. You can choose the path to be moved or move the "
  "active path."
  msgstr ""
@@ -3428,7 +3434,7 @@
  
  #: src/toolbox/tool-move.xml:269(term)
  msgid "Moving a text"
-@@ -3775,6 +4278,8 @@
+@@ -3775,6 +4284,8 @@
  "Every text has its own layer and can be moved as layers. See <xref linkend="
  "\"gimp-tool-text\"/>."
  msgstr ""
@@ -3437,7 +3443,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -3798,23 +4303,23 @@
+@@ -3798,23 +4309,23 @@
  #: src/toolbox/tool-measure.xml:18(secondary)
  #: src/toolbox/tool-measure.xml:21(primary)
  msgid "Measure"
@@ -3466,7 +3472,7 @@
  
  #: src/toolbox/tool-measure.xml:40(para)
  msgid ""
-@@ -3823,13 +4328,13 @@
+@@ -3823,13 +4334,13 @@
  "the angle and number of pixels between the point of click and where the "
  "mouse pointer is located. The information is displayed on the status bar or "
  "can also be displayed in the Info Window."
@@ -3482,7 +3488,7 @@
  
  #: src/toolbox/tool-measure.xml:53(title)
  msgid "Status Bar"
-@@ -3837,34 +4342,34 @@
+@@ -3837,34 +4348,34 @@
  
  #: src/toolbox/tool-measure.xml:60(para)
  msgid "Distance between the original point and the mouse pointer, in pixels."
@@ -3523,7 +3529,7 @@
  
  #: src/toolbox/tool-measure.xml:109(para)
  msgid ""
-@@ -3873,65 +4378,65 @@
+@@ -3873,65 +4384,65 @@
  "from the previous line and not from the default horizontal. The mouse "
  "pointer goes with a <quote>+</quote> sign. So, you can <emphasis>measure any "
  "angle</emphasis> on the image."
@@ -3600,7 +3606,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -4061,11 +4566,11 @@
+@@ -4061,11 +4572,11 @@
  
  #: src/toolbox/tool-levels.xml:33(primary)
  msgid "Black point"
@@ -3614,7 +3620,7 @@
  
  #: src/toolbox/tool-levels.xml:38(para)
  msgid ""
-@@ -4074,6 +4579,10 @@
+@@ -4074,6 +4585,10 @@
  "channel. This tool is used to make an image lighter or darker, to change "
  "contrast or to correct a predominant color cast."
  msgstr ""
@@ -3625,7 +3631,7 @@
  
  #: src/toolbox/tool-levels.xml:46(para)
  msgid ""
-@@ -4083,6 +4592,11 @@
+@@ -4083,6 +4598,11 @@
  "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Levels</guimenuitem></"
  "menuchoice>,"
  msgstr ""
@@ -3637,7 +3643,7 @@
  
  #: src/toolbox/tool-levels.xml:59(para)
  msgid ""
-@@ -4091,10 +4605,14 @@
+@@ -4091,10 +4611,14 @@
  "installed there. For this, go to <link linkend=\"gimp-tools-dialog\">Tools "
  "Dialog</link>."
  msgstr ""
@@ -3653,7 +3659,7 @@
  
  #: src/toolbox/tool-levels.xml:125(term) src/toolbox/tool-curves.xml:116(term)
  msgid "Channel"
-@@ -4104,7 +4622,7 @@
+@@ -4104,7 +4628,7 @@
  msgid ""
  "<guilabel>Value</guilabel> makes changes to the value of all RGB channels in "
  "the image: the image becomes darker or lighter."
@@ -3662,7 +3668,7 @@
  
  #: src/toolbox/tool-levels.xml:139(para)
  msgid ""
-@@ -4113,6 +4631,10 @@
+@@ -4113,6 +4637,10 @@
  "color. Remember that adding or removing a color result in removing or adding "
  "the complementary color"
  msgstr ""
@@ -3673,7 +3679,7 @@
  
  #: src/toolbox/tool-levels.xml:148(para)
  msgid ""
-@@ -4120,22 +4642,25 @@
+@@ -4120,22 +4648,25 @@
  "here, dark means more transparency, and white is fully opaque. Your image "
  "must have an Alpha Channel, otherwise this option is disabled."
  msgstr ""
@@ -3702,7 +3708,7 @@
  
  #: src/toolbox/tool-levels.xml:168(para)
  msgid ""
-@@ -4148,16 +4673,24 @@
+@@ -4148,16 +4679,24 @@
  "predominant color, for example, will produce a histogram shifted to the left "
  "in Green and Red channels, signified by green and red lacking on highlights."
  msgstr ""
@@ -3729,7 +3735,7 @@
  
  #: src/toolbox/tool-levels.xml:190(para)
  msgid ""
-@@ -4165,6 +4698,9 @@
+@@ -4165,6 +4704,9 @@
  "pixels with this value or less will be black (no color with a color channel "
  "selected / transparent with the Alpha channel selected)."
  msgstr ""
@@ -3739,7 +3745,7 @@
  
  #: src/toolbox/tool-levels.xml:196(para)
  msgid ""
-@@ -4172,6 +4708,9 @@
+@@ -4172,6 +4714,9 @@
  "pixels with this value or higher, will be white (fully colored with a color "
  "channel selected / fully opaque with the Alpha channel selected)."
  msgstr ""
@@ -3749,7 +3755,7 @@
  
  #: src/toolbox/tool-levels.xml:202(para)
  msgid ""
-@@ -4180,6 +4719,10 @@
+@@ -4180,6 +4725,10 @@
  "Going to the right, to the white, makes the image darker (less colored / "
  "more transparent)."
  msgstr ""
@@ -3760,7 +3766,7 @@
  
  #: src/toolbox/tool-levels.xml:211(para)
  msgid ""
-@@ -4188,10 +4731,14 @@
+@@ -4188,10 +4737,14 @@
  "according to the chosen eye-dropper. Use the left, dark one to determine the "
  "black-point; use the right, white one to determine the white point."
  msgstr ""
@@ -3776,7 +3782,7 @@
  
  #: src/toolbox/tool-levels.xml:226(para)
  msgid ""
-@@ -4201,6 +4748,11 @@
+@@ -4201,6 +4754,11 @@
  "opacity). Move the sliders to the right to lessen lightness (lessen the "
  "chosen color / lessen opacity)."
  msgstr ""
@@ -3788,7 +3794,7 @@
  
  #: src/toolbox/tool-levels.xml:239(para)
  msgid ""
-@@ -4208,10 +4760,12 @@
+@@ -4208,10 +4766,12 @@
  "Highlights (192). The histogram shows three peaks, one for each of the three "
  "tones."
  msgstr ""
@@ -3802,7 +3808,7 @@
  
  #: src/toolbox/tool-levels.xml:253(para)
  msgid ""
-@@ -4220,6 +4774,10 @@
+@@ -4220,6 +4780,10 @@
  "black (0). The Gamma (mid tones) slider is automatically moved to the middle "
  "of the tone range. Mid tones are made darker to 84 and Highlights to 171."
  msgstr ""
@@ -3813,7 +3819,7 @@
  
  #: src/toolbox/tool-levels.xml:268(para)
  msgid ""
-@@ -4228,21 +4786,25 @@
+@@ -4228,21 +4792,25 @@
  "tones) slider is automatically moved to the middle of the tone range. Mid "
  "tones are made lighter to 169 and Shadows to 84."
  msgstr ""
@@ -3842,7 +3848,7 @@
  
  #: src/toolbox/tool-levels.xml:295(para)
  msgid ""
-@@ -4250,6 +4812,9 @@
+@@ -4250,6 +4818,9 @@
  "is reduced. Shadows are made lighter: new details can show up but contrast "
  "is less; a compromise is necessary. Highlights are made darker."
  msgstr ""
@@ -3852,7 +3858,7 @@
  
  #: src/toolbox/tool-levels.xml:303(para)
  msgid ""
-@@ -4258,16 +4823,19 @@
+@@ -4258,16 +4829,19 @@
  "even a low value, will have their green channel value shifted between 100 "
  "and 140."
  msgstr ""
@@ -3874,7 +3880,7 @@
  
  #: src/toolbox/tool-levels.xml:324(para)
  msgid ""
-@@ -4276,6 +4844,10 @@
+@@ -4276,6 +4850,10 @@
  "used <menuchoice><guimenu>Windows</guimenu><guisubmenu>Dockable Dialogs</"
  "guisubmenu><guimenuitem>Histogram</guimenuitem></menuchoice>."
  msgstr ""
@@ -3885,7 +3891,7 @@
  
  #: src/toolbox/tool-levels.xml:340(para)
  msgid ""
-@@ -4284,6 +4856,10 @@
+@@ -4284,6 +4862,10 @@
  "less than 63, and no pixel is more than 189. In the image, Shadows are "
  "lighter and Highlights are darker: contrast is reduced."
  msgstr ""
@@ -3896,7 +3902,7 @@
  
  #: src/toolbox/tool-levels.xml:354(term) src/toolbox/tool-curves.xml:256(term)
  msgid "All Channels"
-@@ -4293,17 +4869,17 @@
+@@ -4293,17 +4875,17 @@
  msgid ""
  "<guilabel>Open</guilabel>: This button allows you to select a file holding "
  "level settings."
@@ -3917,7 +3923,7 @@
  
  #: src/toolbox/tool-levels.xml:365(para)
  msgid ""
-@@ -4315,112 +4891,119 @@
+@@ -4315,112 +4897,119 @@
  "the <emphasis>mid point</emphasis> according to the eye-dropper you chose. "
  "Works on all channels, even if a particular channel is selected."
  msgstr ""
@@ -4058,7 +4064,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -4452,20 +5035,19 @@
+@@ -4452,20 +5041,19 @@
  
  #: src/toolbox/tool-iscissors.xml:20(title)
  msgid "Intelligent Scissors"
@@ -4082,7 +4088,7 @@
  
  #: src/toolbox/tool-iscissors.xml:39(para)
  msgid ""
-@@ -4479,7 +5061,7 @@
+@@ -4479,7 +5067,7 @@
  "nodes, following any high-contrast edges it can find. If you are lucky, the "
  "path that the tool finds will correspond to the contour you are trying to "
  "select."
@@ -4091,7 +4097,7 @@
  
  #: src/toolbox/tool-iscissors.xml:51(para)
  msgid ""
-@@ -4490,7 +5072,7 @@
+@@ -4490,7 +5078,7 @@
  "dragging the control nodes, or by clicking to create new control nodes. When "
  "you are satisfied, click anywhere inside the curve to convert it into a "
  "selection."
@@ -4100,7 +4106,7 @@
  
  #: src/toolbox/tool-iscissors.xml:60(para)
  msgid ""
-@@ -4502,42 +5084,42 @@
+@@ -4502,42 +5090,42 @@
  "to be more useful than the Scissors, because, even though it does not have "
  "the intelligent edge-finding capability, the paths it produces persist until "
  "you delete them, and can be altered at any time."
@@ -4150,7 +4156,7 @@
  
  #: src/toolbox/tool-iscissors.xml:122(para)
  msgid ""
-@@ -4545,24 +5127,24 @@
+@@ -4545,24 +5133,24 @@
  "whenever you click and drag the mouse pointer, the Scissors tool finds the "
  "point of the maximal gradient (where the color change is maximal) for "
  "placing a new control node or moving an existing node."
@@ -4179,7 +4185,7 @@
  
  #: src/toolbox/tool-iscissors.xml:150(para)
  msgid ""
-@@ -4578,13 +5160,13 @@
+@@ -4578,13 +5166,13 @@
  "guiicon>. You can adjust the selection creating new points by clicking on "
  "the boundary or by moving each control points (merged first and last point). "
  "The selection is validated when you click inside."
@@ -4195,7 +4201,7 @@
  
  #: src/toolbox/tool-iscissors.xml:181(para)
  msgid ""
-@@ -4595,27 +5177,27 @@
+@@ -4595,27 +5183,27 @@
  "different tool, or again all of your carefully created control nodes will be "
  "lost. (But you still can transform your selection into a path and work it "
  "with the Path tool.)"
@@ -4228,7 +4234,7 @@
  
  #: src/toolbox/tool-iscissors.xml:223(para)
  msgid ""
-@@ -4625,7 +5207,7 @@
+@@ -4625,7 +5213,7 @@
  "line while you are dragging it around, and you won't see the resulting path "
  "until you release the pointer button. On slow systems, if your control nodes "
  "are far apart, this may give a bit of a speed-up."
@@ -4237,7 +4243,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -4657,9 +5239,8 @@
+@@ -4657,9 +5245,8 @@
  msgstr "Bläck"
  
  #: src/toolbox/tool-ink.xml:25(title)
@@ -4248,7 +4254,7 @@
  
  #: src/toolbox/tool-ink.xml:33(para)
  msgid ""
-@@ -4667,10 +5248,13 @@
+@@ -4667,10 +5254,13 @@
  "paint solid brush strokes with an antialiased edge. The size, shape and "
  "angle of the nib can be set to determine how the strokes will be rendered."
  msgstr ""
@@ -4263,7 +4269,7 @@
  
  #: src/toolbox/tool-ink.xml:44(para)
  msgid ""
-@@ -4678,59 +5262,67 @@
+@@ -4678,59 +5268,67 @@
  "guimenu><guisubmenu>Paint Tools</guisubmenu><guimenuitem>Ink</guimenuitem></"
  "menuchoice>."
  msgstr ""
@@ -4339,7 +4345,7 @@
  
  #: src/toolbox/tool-ink.xml:136(para)
  msgid ""
-@@ -4738,6 +5330,9 @@
+@@ -4738,6 +5336,9 @@
  "and the Angle control described above are interrelated. Experimentation is "
  "the best means of learning how to use them."
  msgstr ""
@@ -4349,7 +4355,7 @@
  
  #: src/toolbox/tool-ink.xml:145(term)
  msgid "Speed"
-@@ -4748,10 +5343,12 @@
+@@ -4748,10 +5349,12 @@
  "This controls the effective size of the nib as a function of drawing speed. "
  "That is, as with a physical pen, the faster you draw, the narrower the line."
  msgstr ""
@@ -4363,7 +4369,7 @@
  
  #: src/toolbox/tool-ink.xml:162(term)
  #: src/toolbox/tool-dodge-burn.xml:126(term)
-@@ -4760,11 +5357,11 @@
+@@ -4760,11 +5363,11 @@
  
  #: src/toolbox/tool-ink.xml:164(para)
  msgid "There are three nib shapes to choose from: circle, square, and diamond."
@@ -4377,7 +4383,7 @@
  
  #: src/toolbox/tool-ink.xml:173(para)
  msgid ""
-@@ -4772,6 +5369,8 @@
+@@ -4772,6 +5375,8 @@
  "mouse on the small square at the center of the Shape icon and moving it "
  "around."
  msgstr ""
@@ -4386,7 +4392,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -4809,17 +5408,17 @@
+@@ -4809,17 +5414,17 @@
  #: src/toolbox/tool-hue-saturation.xml:18(secondary)
  #: src/toolbox/tool-hue-saturation.xml:21(primary)
  msgid "Hue-Saturation"
@@ -4407,7 +4413,7 @@
  
  #: src/toolbox/tool-hue-saturation.xml:34(para)
  msgid ""
-@@ -4828,6 +5427,10 @@
+@@ -4828,6 +5433,10 @@
  "guimenuitem></menuchoice>, or <menuchoice><guimenu>Colors</"
  "guimenu><guimenuitem>Hue-Saturation</guimenuitem></menuchoice>"
  msgstr ""
@@ -4418,7 +4424,7 @@
  
  #: src/toolbox/tool-hue-saturation.xml:48(para)
  msgid ""
-@@ -4836,14 +5439,18 @@
+@@ -4836,14 +5445,18 @@
  "have installed color tools in Toolbox. For this, go to <link linkend=\"gimp-"
  "tools-dialog\">Tools Dialog</link>."
  msgstr ""
@@ -4439,7 +4445,7 @@
  
  #: src/toolbox/tool-hue-saturation.xml:121(para)
  msgid ""
-@@ -4855,62 +5462,68 @@
+@@ -4855,62 +5468,68 @@
  "concerned with changes. GIMP standard is to set Red as 0. Note that this "
  "colors refer to color ranges and not to color channels."
  msgstr ""
@@ -4518,7 +4524,7 @@
  
  #: src/toolbox/tool-hue-saturation.xml:203(para)
  msgid ""
-@@ -4920,24 +5533,29 @@
+@@ -4920,24 +5539,29 @@
  "changed, while only dark, bright or medium pixels luminosity will be changed "
  "with Curves or Levels tools."
  msgstr ""
@@ -4551,7 +4557,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -4963,12 +5581,11 @@
+@@ -4963,12 +5587,11 @@
  #: src/toolbox/tool-heal.xml:12(title) src/toolbox/tool-heal.xml:15(secondary)
  #: src/toolbox/tool-heal.xml:18(primary)
  msgid "Heal"
@@ -4566,7 +4572,7 @@
  
  #: src/toolbox/tool-heal.xml:29(para)
  msgid ""
-@@ -4981,6 +5598,14 @@
+@@ -4981,6 +5604,14 @@
  "algorithm used for this, is described in a scientific paper by Todor "
  "Georgiev <xref linkend=\"bibliography-online-georgiev\"/>."
  msgstr ""
@@ -4581,7 +4587,7 @@
  
  #: src/toolbox/tool-heal.xml:40(para)
  msgid ""
-@@ -4991,22 +5616,27 @@
+@@ -4991,22 +5622,27 @@
  "corrected as soon. Else, you can correct it with repeated clicks, but with a "
  "risk of daubing"
  msgstr ""
@@ -4612,7 +4618,7 @@
  
  #: src/toolbox/tool-heal.xml:90(para)
  msgid ""
-@@ -5018,6 +5648,13 @@
+@@ -5018,6 +5654,13 @@
  "at that point will be used when you first begin painting with the Heal tool. "
  "In source-selection mode, the cursor changes to a crosshair-symbol."
  msgstr ""
@@ -4626,7 +4632,7 @@
  
  #: src/toolbox/tool-heal.xml:108(para)
  msgid ""
-@@ -5026,10 +5663,14 @@
+@@ -5026,10 +5669,14 @@
  "If you click again, while going on holding the <keycap>Shift</keycap> key "
  "down, the tool will <quote>heal</quote> along this line."
  msgstr ""
@@ -4642,7 +4648,7 @@
  
  #: src/toolbox/tool-heal.xml:133(para)
  msgid ""
-@@ -5038,52 +5679,56 @@
+@@ -5038,52 +5685,56 @@
  "tools</link>. The <quote>Alignment</quote> option is described in <link "
  "linkend=\"gimp-tool-clone\">Clone tool</link>."
  msgstr ""
@@ -4708,7 +4714,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -5110,7 +5755,7 @@
+@@ -5110,7 +5761,7 @@
  
  #: src/toolbox/tool-fuzzy-select.xml:15(phrase)
  msgid "Fuzzy selection (Magic wand)"
@@ -4717,7 +4723,7 @@
  
  #: src/toolbox/tool-fuzzy-select.xml:19(secondary)
  #: src/toolbox/tool-fuzzy-select.xml:26(primary)
-@@ -5123,24 +5768,24 @@
+@@ -5123,24 +5774,24 @@
  
  #: src/toolbox/tool-fuzzy-select.xml:29(primary)
  msgid "Magic Wand"
@@ -4746,7 +4752,7 @@
  
  #: src/toolbox/tool-fuzzy-select.xml:52(para)
  msgid ""
-@@ -5154,7 +5799,7 @@
+@@ -5154,7 +5805,7 @@
  "selecting an area within a contour, or touching up imperfect selections. It "
  "often works very well for selecting a solid-colored (or nearly solid-"
  "colored) background area."
@@ -4755,7 +4761,7 @@
  
  #: src/toolbox/tool-fuzzy-select.xml:65(para)
  msgid ""
-@@ -5164,39 +5809,39 @@
+@@ -5164,39 +5815,39 @@
  "increase/decrease Threshold, during the use of Fuzzy Selection, after the "
  "first button-press, dragging the pointer downward (or to the right) or "
  "upward (or to the left)."
@@ -4802,7 +4808,7 @@
  
  #: src/toolbox/tool-fuzzy-select.xml:137(para)
  msgid ""
-@@ -5206,46 +5851,46 @@
+@@ -5206,46 +5857,46 @@
  "threshold of similarity by dragging the mouse downward or to the right: the "
  "farther you drag it, the larger you get the selected region. And you can "
  "reduce the selection by dragging upwards or to the left."
@@ -4857,7 +4863,7 @@
  
  #: src/toolbox/tool-fuzzy-select.xml:204(para)
  msgid ""
-@@ -5258,7 +5903,7 @@
+@@ -5258,7 +5909,7 @@
  "to the composite color of all visible layers. For further information, see "
  "the glossary entry <link linkend=\"glossary-samplemerge\">Sample Merged</"
  "link>."
@@ -4866,7 +4872,7 @@
  
  #: src/toolbox/tool-fuzzy-select.xml:222(para)
  msgid ""
-@@ -5270,17 +5915,17 @@
+@@ -5270,17 +5921,17 @@
  "Thus, you have the same set of possibilities regardless of the Threshold "
  "setting: what differs is the amount of dragging you have to do to get the "
  "result you want."
@@ -4887,7 +4893,7 @@
  
  #: src/toolbox/tool-fuzzy-select.xml:243(para)
  msgid ""
-@@ -5288,7 +5933,7 @@
+@@ -5288,7 +5939,7 @@
  "<guimenuitem>Green</guimenuitem>, <guimenuitem>Blue</guimenuitem>, "
  "<guimenuitem>Hue</guimenuitem>, <guimenuitem>Saturation</guimenuitem> and "
  "<guimenuitem>Value</guimenuitem>."
@@ -4896,7 +4902,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -5301,11 +5946,9 @@
+@@ -5301,11 +5952,9 @@
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/toolbox/tool-free-select.xml:85(None)
@@ -4909,7 +4915,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -5325,18 +5968,17 @@
+@@ -5325,18 +5974,17 @@
  
  #: src/toolbox/tool-free-select.xml:15(title)
  msgid "Free Selection (Lasso)"
@@ -4931,7 +4937,7 @@
  
  #: src/toolbox/tool-free-select.xml:30(primary)
  msgid "Lasso"
-@@ -5344,7 +5986,7 @@
+@@ -5344,7 +5992,7 @@
  
  #: src/toolbox/tool-free-select.xml:33(title)
  msgid "Free Selection icon in the Toolbox"
@@ -4940,7 +4946,7 @@
  
  #: src/toolbox/tool-free-select.xml:41(para)
  msgid ""
-@@ -5358,7 +6000,7 @@
+@@ -5358,7 +6006,7 @@
  "for precise definition. Experienced users find that it is often convenient "
  "to begin with the lasso tool, but then switch to <link linkend=\"gimp-qmask"
  "\">QuickMask</link> mode for detail work."
@@ -4949,7 +4955,7 @@
  
  #: src/toolbox/tool-free-select.xml:53(para)
  msgid ""
-@@ -5366,13 +6008,13 @@
+@@ -5366,13 +6014,13 @@
  "linkend=\"gimp-concepts-selection\">Selections</link>. For information on "
  "features common to all selection tools see <link linkend=\"gimp-tool-select"
  "\">Selection Tools</link>."
@@ -4965,7 +4971,7 @@
  
  #: src/toolbox/tool-free-select.xml:67(para)
  msgid ""
-@@ -5383,58 +6025,58 @@
+@@ -5383,58 +6031,58 @@
  "mouse pointer comes with the moving cross). Clicking again anchors this "
  "point and creates a segment. By pressing the <keycap>Ctrl</keycap> keyboard "
  "key while moving the mouse pointer contrains moving angles to 15°."
@@ -5035,7 +5041,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -5547,7 +6189,7 @@
+@@ -5547,7 +6195,7 @@
  
  #: src/toolbox/tool-foreground-select.xml:29(title)
  msgid "The <quote>Foreground Select</quote> tool in the Toolbox"
@@ -5044,7 +5050,7 @@
  
  #: src/toolbox/tool-foreground-select.xml:37(para)
  msgid ""
-@@ -5555,15 +6197,15 @@
+@@ -5555,15 +6203,15 @@
  "selection. It is based on the SIOX method (Simple Interactive Object "
  "Extraction). You can visit its Web page at <xref linkend=\"bibliography-"
  "online-siox\"/>."
@@ -5063,7 +5069,7 @@
  
  #: src/toolbox/tool-foreground-select.xml:50(para)
  msgid ""
-@@ -5571,7 +6213,7 @@
+@@ -5571,7 +6219,7 @@
  "you select this tool, the mouse pointer goes with the lasso icon. It "
  "actually works like the Fuzzy Select tool. Select as little as possible from "
  "the background."
@@ -5072,7 +5078,7 @@
  
  #: src/toolbox/tool-foreground-select.xml:55(para)
  msgid ""
-@@ -5579,11 +6221,11 @@
+@@ -5579,11 +6227,11 @@
  "is covered with a dark blue mask. If the selection is not closed, its ends "
  "will be linked automatically together by a straight line. The mouse pointer "
  "goes now with the Paint-brush icon for the next step."
@@ -5086,7 +5092,7 @@
  
  #: src/toolbox/tool-foreground-select.xml:72(para)
  msgid ""
-@@ -5593,36 +6235,35 @@
+@@ -5593,36 +6241,35 @@
  "extraction. The color used to draw the line is of no importance; not using "
  "the same color as foreground is better. Be careful not painting background "
  "pixels."
@@ -5130,7 +5136,7 @@
  
  #: src/toolbox/tool-foreground-select.xml:124(para)
  msgid ""
-@@ -5631,24 +6272,24 @@
+@@ -5631,24 +6278,24 @@
  "<menuchoice><guimenu>Select</guimenu><guimenuitem>None</guimenuitem></"
  "menuchoice>, and the Undo History is not concerned. To delete this "
  "selection, you must select another tool."
@@ -5159,7 +5165,7 @@
  
  #: src/toolbox/tool-foreground-select.xml:162(para)
  msgid ""
-@@ -5657,79 +6298,79 @@
+@@ -5657,79 +6304,79 @@
  "guisubmenu><guisubmenu>Interface</guisubmenu><guisubmenu>Configure Keyboard "
  "Shortcuts</guisubmenu><guisubmenu>tools</guisubmenu><guimenuitem>Foreground "
  "Select</guimenuitem></menuchoice>"
@@ -5254,7 +5260,7 @@
  
  #: src/toolbox/tool-foreground-select.xml:286(para)
  msgid ""
-@@ -5738,60 +6379,60 @@
+@@ -5738,60 +6385,60 @@
  "with a small eraser icon. The used color is the background color of Toolbox. "
  "The pixels of the selection which have the same color as the <quote>erased</"
  "quote> pixels will NOT be extracted."
@@ -5327,7 +5333,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -5815,7 +6456,7 @@
+@@ -5815,7 +6462,7 @@
  
  #: src/toolbox/tool-flip.xml:25(title)
  msgid "Flip tool"
@@ -5336,7 +5342,7 @@
  
  #: src/toolbox/tool-flip.xml:32(para)
  msgid ""
-@@ -5823,28 +6464,36 @@
+@@ -5823,28 +6470,36 @@
  "horizontally or vertically. When a selection is flipped, a new layer with a "
  "Floating Selection is created. You can use this tool to create reflections."
  msgstr ""
@@ -5374,7 +5380,7 @@
  
  #: src/toolbox/tool-flip.xml:76(term)
  #: src/toolbox/tool-color-picker.xml:92(term)
-@@ -5856,30 +6505,35 @@
+@@ -5856,30 +6511,35 @@
  "The <keycombo><keycap>Shift</keycap><keycap>F</keycap></keycombo> key "
  "combination will change the active tool to Flip."
  msgstr ""
@@ -5413,7 +5419,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -5892,16 +6546,14 @@
+@@ -5892,16 +6552,14 @@
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/toolbox/tool-eraser.xml:55(None)
@@ -5432,7 +5438,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -5927,11 +6579,11 @@
+@@ -5927,11 +6585,11 @@
  
  #: src/toolbox/tool-eraser.xml:27(secondary)
  msgid "Eraser tool"
@@ -5446,7 +5452,7 @@
  
  #: src/toolbox/tool-eraser.xml:39(para)
  msgid ""
-@@ -5945,20 +6597,30 @@
+@@ -5945,20 +6603,30 @@
  "options. You can learn more on how to add an alpha channel to a layer in "
  "<xref linkend=\"gimp-layer-alpha-add\"/>."
  msgstr ""
@@ -5479,7 +5485,7 @@
  
  #: src/toolbox/tool-eraser.xml:76(para)
  msgid ""
-@@ -5967,6 +6629,11 @@
+@@ -5967,6 +6635,11 @@
  "the Tool Options. Otherwise, sub-pixel brush placement will cause partial "
  "erasure at the edges of the brush-stroke, even if you use a hard-edged brush."
  msgstr ""
@@ -5491,7 +5497,7 @@
  
  #: src/toolbox/tool-eraser.xml:85(para)
  msgid ""
-@@ -5978,10 +6645,17 @@
+@@ -5978,10 +6651,17 @@
  "continue to function as an Eraser as long as you don't select a different "
  "tool with it."
  msgstr ""
@@ -5510,7 +5516,7 @@
  
  #: src/toolbox/tool-eraser.xml:101(para)
  msgid ""
-@@ -5989,24 +6663,31 @@
+@@ -5989,24 +6669,31 @@
  "guimenu><guisubmenu>Paint Tools</guisubmenu><guimenuitem>Eraser</"
  "guimenuitem></menuchoice>;"
  msgstr ""
@@ -5542,7 +5548,7 @@
  
  #: src/toolbox/tool-eraser.xml:139(para)
  msgid ""
-@@ -6017,6 +6698,12 @@
+@@ -6017,6 +6704,12 @@
  "is more useful, because on drawables that don't support transparency, "
  "erasing replaces the erased areas with the current background color."
  msgstr ""
@@ -5555,7 +5561,7 @@
  
  #: src/toolbox/tool-eraser.xml:155(para)
  msgid ""
-@@ -6026,16 +6713,22 @@
+@@ -6026,16 +6719,22 @@
  "by the Window Manager. If this happens to you, you may be able to use "
  "<keycombo><keycap>Alt</keycap><keycap>Shift</keycap></keycombo> instead."
  msgstr ""
@@ -5579,7 +5585,7 @@
  
  #: src/toolbox/tool-eraser.xml:195(para)
  msgid ""
-@@ -6044,20 +6737,24 @@
+@@ -6044,20 +6743,24 @@
  "with an alpha channel, the higher the opacity you use, the more transparency "
  "you get!"
  msgstr ""
@@ -5607,7 +5613,7 @@
  
  #: src/toolbox/tool-eraser.xml:215(para)
  msgid ""
-@@ -6069,6 +6766,12 @@
+@@ -6069,6 +6772,12 @@
  "the Window Manager, by holding down <keycombo><keycap>Alt</"
  "keycap><keycap>Shift</keycap></keycombo>)."
  msgstr ""
@@ -5620,7 +5626,7 @@
  
  #: src/toolbox/tool-eraser.xml:226(para)
  msgid ""
-@@ -6079,22 +6782,31 @@
+@@ -6079,22 +6788,31 @@
  "erasing increases the alpha value so that you can see the RGB data once "
  "again."
  msgstr ""
@@ -5653,7 +5659,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -6135,19 +6847,19 @@
+@@ -6135,19 +6853,19 @@
  #: src/toolbox/tool-ellipse-select.xml:25(phrase)
  #: src/toolbox/tool-ellipse-select.xml:29(secondary)
  msgid "Ellipse Selection"
@@ -5677,7 +5683,7 @@
  
  #: src/toolbox/tool-ellipse-select.xml:48(para)
  msgid ""
-@@ -6157,7 +6869,7 @@
+@@ -6157,7 +6875,7 @@
  "\"gimp-concepts-selection\">Selections</link>; for information on features "
  "common to all selection tools see <link linkend=\"gimp-tool-select"
  "\">Selection Tools</link>."
@@ -5686,12 +5692,22 @@
  
  #: src/toolbox/tool-ellipse-select.xml:56(para)
  msgid ""
-@@ -6172,26 +6884,26 @@
- "inner one from the outer one; however this is not always easy to get right. "
+@@ -6173,25 +6891,37 @@
  "The command <menuchoice><guimenu>Select</guimenu><guimenuitem>Border...</"
  "guimenuitem></menuchoice> makes it easy."
--msgstr ""
-+msgstr "Verktyget används också för att rita en cirkel eller ellips på en bild. Skapa en elliptisk markering och fyll den med <link linkend=\"gimp-tool-bucket-fill\">Hinkfyllningsverktyget</link> för att rita en fylld ellips. Det enklaste och mest flexibla sättet att skapa en elliptisk kontur är att skapa en elliptisk markering och sedan <link linkend=\"gimp-selection-stroke\">dra upp</link> den. Kantutjämningens kvalitet blir dock ganska grov med detta sätt. En kontur med högre kvalitet kan skapas genom att göra två elliptiska markeringar i olika storlek och dra den inre från den yttre, men detta är inte alltid lätt att få rätt. Kommandot <menuchoice><guimenu>Markera</guimenu><guimenuitem>Kant...</guimenuitem></menuchoice> förenklar det."
+ msgstr ""
++"Verktyget används också för att rita en cirkel eller ellips på en bild. "
++"Skapa en elliptisk markering och fyll den med <link "
++"linkend=\"gimp-tool-bucket-fill\">fyllnadsverktyget</link> för att rita en "
++"fylld ellips. Det enklaste och mest flexibla sättet att skapa en elliptisk "
++"kontur är att skapa en elliptisk markering och sedan <link "
++"linkend=\"gimp-selection-stroke\">dra upp</link> den. Kantutjämningens "
++"kvalitet blir dock ganska grov med detta sätt. En kontur med högre kvalitet "
++"kan skapas genom att göra två elliptiska markeringar i olika storlek och dra "
++"den inre från den yttre, men detta är inte alltid lätt att få rätt. "
++"Kommandot "
++"<menuchoice><guimenu>Markera</guimenu><guimenuitem>Kant...</guimenuitem></menuchoice> "
++"förenklar det."
  
  #: src/toolbox/tool-ellipse-select.xml:77(para)
  msgid "You can access the Ellipse Selection Tool in different ways:"
@@ -5718,7 +5734,7 @@
  
  #: src/toolbox/tool-ellipse-select.xml:116(para)
  msgid ""
-@@ -6201,7 +6913,7 @@
+@@ -6201,7 +6931,7 @@
  "Note that if you press the Ctrl key <emphasis>before</emphasis> starting to "
  "make the selection, the resulting selection will be subtracted from the "
  "existing selection."
@@ -5727,7 +5743,7 @@
  
  #: src/toolbox/tool-ellipse-select.xml:132(para)
  msgid ""
-@@ -6209,17 +6921,17 @@
+@@ -6209,17 +6939,17 @@
  "until you are finished, constrains the selection to be a circle. Note that "
  "if you press the Shift key <emphasis>before</emphasis> starting to make the "
  "selection, the resulting selection will be added to the existing selection."
@@ -5748,7 +5764,7 @@
  
  #: src/toolbox/tool-ellipse-select.xml:172(para)
  msgid ""
-@@ -6229,7 +6941,7 @@
+@@ -6229,7 +6959,7 @@
  "dotted line (<quote>marching ants</quote>) outlines the elliptic selection. "
  "It's not necessary to adjust the selection with care; you can resize it "
  "easily later."
@@ -5757,7 +5773,7 @@
  
  #: src/toolbox/tool-ellipse-select.xml:180(para)
  msgid ""
-@@ -6237,22 +6949,22 @@
+@@ -6237,22 +6967,22 @@
  "change. You can change the size of the selection by using handles. See <link "
  "linkend=\"tool-rect-select-manip\">Tool handling</link> within the "
  "rectangular chapter."
@@ -5784,7 +5800,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -6272,7 +6984,7 @@
+@@ -6272,7 +7002,7 @@
  
  #: src/toolbox/tool-dodge-burn.xml:13(title)
  msgid "Dodge or Burn"
@@ -5793,7 +5809,7 @@
  
  #: src/toolbox/tool-dodge-burn.xml:16(secondary)
  #: src/toolbox/tool-dodge-burn.xml:19(primary)
-@@ -6281,7 +6993,7 @@
+@@ -6281,7 +7011,7 @@
  
  #: src/toolbox/tool-dodge-burn.xml:23(title)
  msgid "Dodge tool"
@@ -5802,7 +5818,7 @@
  
  #: src/toolbox/tool-dodge-burn.xml:30(para)
  msgid ""
-@@ -6289,12 +7001,17 @@
+@@ -6289,12 +7019,17 @@
  "colors in your image. The mode will determine which type of pixels are "
  "affected."
  msgstr ""
@@ -5820,7 +5836,7 @@
  
  #: src/toolbox/tool-dodge-burn.xml:53(para)
  msgid ""
-@@ -6302,18 +7019,25 @@
+@@ -6302,18 +7037,25 @@
  "<guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-dodge-22.png\"/"
  "></guiicon>,"
  msgstr ""
@@ -5846,7 +5862,7 @@
  
  #: src/toolbox/tool-dodge-burn.xml:90(para)
  msgid ""
-@@ -6322,28 +7046,31 @@
+@@ -6322,28 +7064,31 @@
  "Dodge or Burn in a straight line. Consecutive clicks will continue Dodge or "
  "Burn in straight lines that originate from the end of the last line."
  msgstr ""
@@ -5884,7 +5900,7 @@
  
  #: src/toolbox/tool-dodge-burn.xml:135(para)
  msgid "There are three modes:"
-@@ -6351,84 +7078,78 @@
+@@ -6351,84 +7096,78 @@
  
  #: src/toolbox/tool-dodge-burn.xml:138(para)
  msgid "<guilabel>Shadows</guilabel> restricts the effect to darkest pixels."
@@ -5983,7 +5999,7 @@
  
  #: src/toolbox/tool-desaturate.xml:22(para)
  msgid ""
-@@ -6438,23 +7159,22 @@
+@@ -6438,23 +7177,22 @@
  "only operates on the active layer and second, the colors on the layer are "
  "still RGB values with three components. This means that you can paint on the "
  "layer, or individual parts of it, using color at a later time."
@@ -6011,7 +6027,7 @@
  
  #: src/toolbox/tool-desaturate.xml:45(para)
  msgid ""
-@@ -6462,7 +7182,7 @@
+@@ -6462,7 +7200,7 @@
  "guimenu><guisubmenu>Color Tools</guisubmenu><guimenuitem>Desaturate</"
  "guimenuitem></menuchoice> or <menuchoice><guimenu>Colors</"
  "guimenu><guimenuitem>Desaturate</guimenuitem></menuchoice>,"
@@ -6020,7 +6036,7 @@
  
  #: src/toolbox/tool-desaturate.xml:59(para)
  msgid ""
-@@ -6470,67 +7190,67 @@
+@@ -6470,67 +7208,67 @@
  "toolbox/stock-convert-grayscale-16.png\"/></guiicon> in Toolbox, if this "
  "tool has been installed there (see <link linkend=\"gimp-tools-dialog\">Tools "
  "dialog</link>."
@@ -6103,7 +6119,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -6620,6 +7340,10 @@
+@@ -6620,6 +7358,10 @@
  "While the Levels tool allows you to work on Shadows and Highlights, the "
  "Curves tool allows you to work on any tonal range. It works on RGB images."
  msgstr ""
@@ -6114,7 +6130,7 @@
  
  #: src/toolbox/tool-curves.xml:35(para)
  msgid ""
-@@ -6628,6 +7352,10 @@
+@@ -6628,6 +7370,10 @@
  "guimenuitem></menuchoice> or <menuchoice><guimenu>Colors</"
  "guimenu><guimenuitem>Curves</guimenuitem></menuchoice>."
  msgstr ""
@@ -6125,7 +6141,7 @@
  
  #: src/toolbox/tool-curves.xml:49(para)
  msgid ""
-@@ -6636,19 +7364,22 @@
+@@ -6636,19 +7382,22 @@
  "been installed there (see <link linkend=\"gimp-tools-dialog\">Tools dialog</"
  "link>."
  msgstr ""
@@ -6152,7 +6168,7 @@
  
  #: src/toolbox/tool-curves.xml:123(term)
  msgid "Value"
-@@ -6658,11 +7389,11 @@
+@@ -6658,11 +7407,11 @@
  msgid ""
  "The curve represents the Value, i.e. the brightness of pixels as you can see "
  "them in the composite image."
@@ -6166,7 +6182,7 @@
  
  #: src/toolbox/tool-curves.xml:134(para)
  msgid ""
-@@ -6671,6 +7402,9 @@
+@@ -6671,6 +7420,9 @@
  "of the color. <emphasis>Light</emphasis> means <emphasis>a lot</emphasis> of "
  "the color."
  msgstr ""
@@ -6176,7 +6192,7 @@
  
  #: src/toolbox/tool-curves.xml:144(term)
  msgid "Alpha"
-@@ -6683,38 +7417,42 @@
+@@ -6683,38 +7435,42 @@
  "means <emphasis>very opaque</emphasis>. Your image must have an Alpha "
  "channel for this option to be enabled."
  msgstr ""
@@ -6225,7 +6241,7 @@
  
  #: src/toolbox/tool-curves.xml:189(para)
  msgid ""
-@@ -6724,6 +7462,10 @@
+@@ -6724,6 +7480,10 @@
  "upper part then represents the <emphasis>tonal balance</emphasis> of the "
  "layer or selection."
  msgstr ""
@@ -6236,7 +6252,7 @@
  
  #: src/toolbox/tool-curves.xml:198(para)
  msgid ""
-@@ -6734,6 +7476,11 @@
+@@ -6734,6 +7494,11 @@
  "tone. GIMP automatically places an anchor at both ends of the curve, for "
  "black (0) and white (255)."
  msgstr ""
@@ -6248,7 +6264,7 @@
  
  #: src/toolbox/tool-curves.xml:206(para)
  msgid ""
-@@ -6743,6 +7490,10 @@
+@@ -6743,6 +7508,10 @@
  "outside of the curve, an anchor is also created, and the curve includes it "
  "automatically."
  msgstr ""
@@ -6259,7 +6275,7 @@
  
  #: src/toolbox/tool-curves.xml:214(para)
  msgid ""
-@@ -6753,6 +7504,11 @@
+@@ -6753,6 +7522,11 @@
  "anchor position. Holding the <keycap>Shift</keycap> down lets you move it by "
  "increments of 15 pixels."
  msgstr ""
@@ -6271,7 +6287,7 @@
  
  #: src/toolbox/tool-curves.xml:223(para)
  msgid ""
-@@ -6760,6 +7516,9 @@
+@@ -6760,6 +7534,9 @@
  "tonal range in the layer. You can click-and-drag this segment (this creates "
  "a new anchor). Of course, you can't drag it beyond the end anchors."
  msgstr ""
@@ -6281,7 +6297,7 @@
  
  #: src/toolbox/tool-curves.xml:229(para)
  msgid ""
-@@ -6767,6 +7526,9 @@
+@@ -6767,6 +7544,9 @@
  "Channel</guilabel> button. To delete only one anchor, move it onto another "
  "point or to the grid border, left or right."
  msgstr ""
@@ -6291,7 +6307,7 @@
  
  #: src/toolbox/tool-curves.xml:235(para)
  msgid ""
-@@ -6778,24 +7540,30 @@
+@@ -6778,24 +7558,30 @@
  "also Shift-drag and Ctrl-drag: this will move the vertical line and the "
  "anchor will show up when releasing the mouse left button."
  msgstr ""
@@ -6325,7 +6341,7 @@
  
  #: src/toolbox/tool-curves.xml:267(term)
  msgid "Curve type"
-@@ -6806,26 +7574,26 @@
+@@ -6806,26 +7592,26 @@
  "<guilabel>Smooth</guilabel>: This the default mode. It constrains the curve "
  "type to a smooth line with tension. It provides a more realistic render than "
  "the following."
@@ -6356,7 +6372,7 @@
  
  #: src/toolbox/tool-curves.xml:310(para)
  msgid ""
-@@ -6833,50 +7601,50 @@
+@@ -6833,50 +7619,50 @@
  "area appears as a more or less enlarged square when you maintain the click "
  "on a pixel. Here, the eye-dropper is used to locate a pixel: radius = 1 "
  "seems the best."
@@ -6417,7 +6433,7 @@
  
  #: src/toolbox/tool-curves.xml:379(para)
  msgid ""
-@@ -6891,17 +7659,26 @@
+@@ -6891,17 +7677,26 @@
  "that have moved down are made darker (green arrows). All these pixels will "
  "be extended to the whole output tonal range."
  msgstr ""
@@ -6446,7 +6462,7 @@
  
  #: src/toolbox/tool-curves.xml:417(title)
  msgid "Invert colors"
-@@ -6915,17 +7692,21 @@
+@@ -6915,17 +7710,21 @@
  "complementary color. For example: 19;197;248 a sky blue gives 255-19; 255-"
  "197; 255-248 = 236;58;7, a bright red."
  msgstr ""
@@ -6470,7 +6486,7 @@
  
  #: src/toolbox/tool-curves.xml:451(title)
  msgid "Working on color channels"
-@@ -6937,6 +7718,9 @@
+@@ -6937,6 +7736,9 @@
  "first Highlights. This lightens Highlights up. Then we shaped the curve to "
  "lighten Mid tons and Shadows while keeping black."
  msgstr ""
@@ -6480,7 +6496,7 @@
  
  #: src/toolbox/tool-curves.xml:471(para)
  msgid "The original image and the result."
-@@ -6952,10 +7736,9 @@
+@@ -6952,10 +7754,9 @@
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/toolbox/tool-crop.xml:79(None)
@@ -6492,7 +6508,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -6980,9 +7763,8 @@
+@@ -6980,9 +7781,8 @@
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/toolbox/tool-crop.xml:201(None)
@@ -6503,7 +6519,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -7016,6 +7798,11 @@
+@@ -7016,6 +7816,11 @@
  "working area. It is also useful if you need a specific image size that does "
  "not match the original dimensions of your image."
  msgstr ""
@@ -6515,7 +6531,7 @@
  
  #: src/toolbox/tool-crop.xml:46(para)
  msgid ""
-@@ -7029,75 +7816,83 @@
+@@ -7029,75 +7834,83 @@
  "the idea of how the final crop will look like. To validate cropping, click "
  "inside the crop rectangle or press the <keycap>Enter</keycap> key."
  msgstr ""
@@ -6612,7 +6628,7 @@
  
  #: src/toolbox/tool-crop.xml:170(para)
  msgid ""
-@@ -7105,55 +7900,58 @@
+@@ -7105,55 +7918,58 @@
  "layer), and even the canvas. So, you can give the size you want to the "
  "resulting image. Transparency will be used if there is no material to crop."
  msgstr ""
@@ -6681,7 +6697,7 @@
  
  #: src/toolbox/tool-crop.xml:246(para)
  msgid ""
-@@ -7164,6 +7962,12 @@
+@@ -7164,6 +7980,12 @@
  "guibutton> (widthwise) or <guibutton>Portrait</guibutton> (upright) format "
  "for the crop rectangle."
  msgstr ""
@@ -6694,7 +6710,7 @@
  
  #: src/toolbox/tool-crop.xml:260(term)
  msgid "Position"
-@@ -7178,6 +7982,11 @@
+@@ -7178,6 +8000,11 @@
  "button. The coordinate origin is the upper left corner of the canvas (not of "
  "the image)."
  msgstr ""
@@ -6706,7 +6722,7 @@
  
  #: src/toolbox/tool-crop.xml:276(para)
  msgid ""
-@@ -7186,29 +7995,33 @@
+@@ -7186,29 +8013,33 @@
  "too. It is stated in pixels, but you can change the unit thanks to the drop-"
  "down list of the <guibutton>px</guibutton> button."
  msgstr ""
@@ -6744,7 +6760,7 @@
  
  #: src/toolbox/tool-crop.xml:314(phrase)
  #: src/toolbox/tool-bucket-fill.xml:305(phrase)
-@@ -7217,24 +8030,24 @@
+@@ -7217,24 +8048,24 @@
  
  #: src/toolbox/tool-crop.xml:324(para)
  msgid "An image with a sharp limit in it and a crop rectangle."
@@ -6773,7 +6789,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -7246,22 +8059,20 @@
+@@ -7246,22 +8077,20 @@
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/toolbox/tool-convolve.xml:132(None)
@@ -6799,7 +6815,7 @@
  
  #: src/toolbox/tool-convolve.xml:34(para)
  msgid ""
-@@ -7273,6 +8084,13 @@
+@@ -7273,6 +8102,13 @@
  "brushstroke has no effect: if you want directional blurring, use the Smudge "
  "tool."
  msgstr ""
@@ -6813,7 +6829,7 @@
  
  #: src/toolbox/tool-convolve.xml:43(para)
  msgid ""
-@@ -7283,6 +8101,11 @@
+@@ -7283,6 +8119,11 @@
  "unsharp-mask\">Unsharp Mask</link>, do a much cleaner job of sharpening "
  "areas of a layer."
  msgstr ""
@@ -6825,7 +6841,7 @@
  
  #: src/toolbox/tool-convolve.xml:53(para)
  msgid ""
-@@ -7295,6 +8118,13 @@
+@@ -7295,6 +8136,13 @@
  "image. If you now paint on the original layer, you will mix together, where "
  "the brush is applied, the sharpened version with the unsharpened version."
  msgstr ""
@@ -6839,7 +6855,7 @@
  
  #: src/toolbox/tool-convolve.xml:66(para)
  msgid ""
-@@ -7305,12 +8135,20 @@
+@@ -7305,12 +8153,20 @@
  "that can be produced by a single brushstroke, regardless of how many passes "
  "are made with it."
  msgstr ""
@@ -6860,7 +6876,7 @@
  
  #: src/toolbox/tool-convolve.xml:91(para)
  msgid ""
-@@ -7318,36 +8156,47 @@
+@@ -7318,36 +8174,47 @@
  "<guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-blur-22.png\"/></"
  "guiicon> in the Toolbox."
  msgstr ""
@@ -6910,7 +6926,7 @@
  
  #: src/toolbox/tool-convolve.xml:152(para)
  msgid ""
-@@ -7359,22 +8208,31 @@
+@@ -7359,22 +8226,31 @@
  "ugly flocculation aspect. Whatever setting you choose here, you can reverse "
  "it on-the-fly by holding down the Ctrl key."
  msgstr ""
@@ -6944,7 +6960,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -7410,15 +8268,15 @@
+@@ -7410,15 +8286,15 @@
  
  #: src/toolbox/tool-color-picker.xml:25(primary)
  msgid "Eye Dropper"
@@ -6963,7 +6979,7 @@
  
  #: src/toolbox/tool-color-picker.xml:39(para)
  msgid ""
-@@ -7429,27 +8287,27 @@
+@@ -7429,27 +8305,27 @@
  "the color as it is in the image, resulting of the combination of all layers. "
  "<emphasis>Only colors in visible layers are used</emphasis>. An "
  "<guilabel>Info window</guilabel> opens when you click on the image."
@@ -6996,7 +7012,7 @@
  
  #: src/toolbox/tool-color-picker.xml:77(para)
  msgid ""
-@@ -7457,11 +8315,11 @@
+@@ -7457,11 +8333,11 @@
  "Color-picker dialog is not opened during this operation and the tool remains "
  "unchanged after releasing the key. Nevertheless, you can get information by "
  "using the <link linkend=\"gimp-pointer-info-dialog\">Pointer window</link>."
@@ -7010,7 +7026,7 @@
  
  #: src/toolbox/tool-color-picker.xml:102(para)
  msgid ""
-@@ -7471,24 +8329,24 @@
+@@ -7471,24 +8347,24 @@
  "<guilabel>Set background color</guilabel> then the key switches the mode to "
  "<guilabel>Set foreground color</guilabel>. When the pick mode is "
  "<guilabel>Pick only</guilabel>, the key doesn't do anything."
@@ -7039,7 +7055,7 @@
  
  #: src/toolbox/tool-color-picker.xml:151(para)
  msgid ""
-@@ -7496,7 +8354,7 @@
+@@ -7496,7 +8372,7 @@
  "composite from all the visible layers. Further information regarding Sample "
  "Merge is available in the glossary entry, <link linkend=\"glossary-"
  "samplemerge\">Sample Merge</link>."
@@ -7048,7 +7064,7 @@
  
  #: src/toolbox/tool-color-picker.xml:163(para)
  msgid ""
-@@ -7504,21 +8362,21 @@
+@@ -7504,21 +8380,21 @@
  "that is used to determine an average color for the final selection. When you "
  "keep clicking the layer, the mouse pointer shows the size of the square or "
  "radius."
@@ -7074,7 +7090,7 @@
  
  #: src/toolbox/tool-color-picker.xml:185(term)
  msgid "Set Foreground Color"
-@@ -7528,7 +8386,7 @@
+@@ -7528,7 +8404,7 @@
  msgid ""
  "The Foreground color, as shown in the Toolbox Color Area, will be set to the "
  "color of the pixel you click on."
@@ -7083,7 +7099,7 @@
  
  #: src/toolbox/tool-color-picker.xml:195(term)
  msgid "Set Background Color"
-@@ -7538,7 +8396,7 @@
+@@ -7538,7 +8414,7 @@
  msgid ""
  "The Background color, as shown in the Toolbox Color Area, will be set to the "
  "color of the pixel you click on."
@@ -7092,7 +7108,7 @@
  
  #: src/toolbox/tool-color-picker.xml:205(term)
  msgid "Add to Palette"
-@@ -7549,22 +8407,22 @@
+@@ -7549,22 +8425,22 @@
  "When this option box is checked, the picked color is sent to the active "
  "color palette. see <link linkend=\"gimp-palette-editor-dialog\">Palette "
  "Editor</link>"
@@ -7119,7 +7135,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -7579,7 +8437,7 @@
+@@ -7579,7 +8455,7 @@
  #: src/toolbox/tool-colorize.xml:21(secondary)
  #: src/toolbox/tool-colorize.xml:24(primary)
  msgid "Colorize"
@@ -7128,7 +7144,7 @@
  
  #: src/toolbox/tool-colorize.xml:26(para)
  msgid ""
-@@ -7588,15 +8446,18 @@
+@@ -7588,15 +8464,18 @@
  "quote> effect to your image. See <xref linkend=\"glossary-colormodel\"/> for "
  "Hue, Saturation, Luminosity."
  msgstr ""
@@ -7149,7 +7165,7 @@
  
  #: src/toolbox/tool-colorize.xml:39(para)
  msgid ""
-@@ -7605,6 +8466,10 @@
+@@ -7605,6 +8484,10 @@
  "guimenuitem></menuchoice> or <menuchoice><guimenu>Colors</"
  "guimenu><guimenuitem>Colorize</guimenuitem></menuchoice>,"
  msgstr ""
@@ -7160,7 +7176,7 @@
  
  #: src/toolbox/tool-colorize.xml:54(para)
  msgid ""
-@@ -7613,10 +8478,14 @@
+@@ -7613,10 +8496,14 @@
  "you have installed color tools in Toolbox. For this, go to <link linkend="
  "\"gimp-tools-dialog\">Tools Dialog</link>."
  msgstr ""
@@ -7176,7 +7192,7 @@
  
  #: src/toolbox/tool-colorize.xml:122(term)
  msgid "Select Color"
-@@ -7627,24 +8496,31 @@
+@@ -7627,24 +8514,31 @@
  "<guilabel>Hue</guilabel>: The slider and the numeric text box allow you to "
  "select a hue in the HSV color circle (0 - 360)."
  msgstr ""
@@ -7208,7 +7224,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -7669,10 +8545,13 @@
+@@ -7669,10 +8563,13 @@
  "layer. Changes are not drastic. This tool is suitable to correct predominant "
  "colors in digital photos."
  msgstr ""
@@ -7223,7 +7239,7 @@
  
  #: src/toolbox/tool-color-balance.xml:38(para)
  msgid ""
-@@ -7681,6 +8560,10 @@
+@@ -7681,6 +8578,10 @@
  "guimenuitem></menuchoice>, or <menuchoice><guimenu>Colors</"
  "guimenu><guimenuitem>Color Balance</guimenuitem></menuchoice>,"
  msgstr ""
@@ -7234,7 +7250,7 @@
  
  #: src/toolbox/tool-color-balance.xml:52(para)
  msgid ""
-@@ -7689,14 +8572,18 @@
+@@ -7689,14 +8590,18 @@
  "have installed color tools in Toolbox. For this, go to <link linkend=\"gimp-"
  "tools-dialog\">Tools Dialog</link>."
  msgstr ""
@@ -7255,7 +7271,7 @@
  
  #: src/toolbox/tool-color-balance.xml:122(para)
  msgid ""
-@@ -7704,10 +8591,13 @@
+@@ -7704,10 +8609,13 @@
  "changed with the sliders or input boxes for Shadows (darkest pixels), "
  "Midtones (medium pixels) and Highlights (brightest pixels)."
  msgstr ""
@@ -7270,7 +7286,7 @@
  
  #: src/toolbox/tool-color-balance.xml:133(para)
  msgid ""
-@@ -7716,26 +8606,34 @@
+@@ -7716,26 +8624,34 @@
  "the original image. You can change the pixel color either towards Red or "
  "Cyan, Green or Magenta, Blue or Yellow."
  msgstr ""
@@ -7307,7 +7323,7 @@
  
  #: src/toolbox/tool-color-balance.xml:164(para)
  msgid ""
-@@ -7743,6 +8641,9 @@
+@@ -7743,6 +8659,9 @@
  "any change made to the RGB levels are immediately seen on the active "
  "selection or layer."
  msgstr ""
@@ -7317,7 +7333,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -7809,7 +8710,7 @@
+@@ -7809,7 +8728,7 @@
  
  #: src/toolbox/tool-clone.xml:32(title)
  msgid "Clone tool icon in the Toolbox"
@@ -7326,7 +7342,7 @@
  
  #: src/toolbox/tool-clone.xml:40(para)
  msgid ""
-@@ -7821,6 +8722,13 @@
+@@ -7821,6 +8740,13 @@
  "lines or curves: see <link linkend=\"gimp-concepts-patterns\">Patterns</"
  "link> for examples."
  msgstr ""
@@ -7340,7 +7356,7 @@
  
  #: src/toolbox/tool-clone.xml:50(para)
  msgid ""
-@@ -7831,6 +8739,12 @@
+@@ -7831,6 +8757,12 @@
  "Clone tool: the tool cursor tells you this by showing "
  "<guiicon><inlinegraphic fileref=\"images/toolbox/clone-bad.png\"/></guiicon>."
  msgstr ""
@@ -7353,7 +7369,7 @@
  
  #: src/toolbox/tool-clone.xml:60(para)
  msgid ""
-@@ -7841,6 +8755,11 @@
+@@ -7841,6 +8773,11 @@
  "not happen: if you go beyond the edges of the source, the Clone tool stops "
  "producing any changes."
  msgstr ""
@@ -7365,7 +7381,7 @@
  
  #: src/toolbox/tool-clone.xml:68(para)
  msgid ""
-@@ -7851,39 +8770,44 @@
+@@ -7851,39 +8788,44 @@
  "or a layer mask), then the colors will be converted to the closest possible "
  "approximations."
  msgstr ""
@@ -7417,7 +7433,7 @@
  
  #: src/toolbox/tool-clone.xml:121(para)
  msgid ""
-@@ -7899,16 +8823,26 @@
+@@ -7899,16 +8841,26 @@
  "symbol <guiicon><inlinegraphic fileref=\"images/toolbox/clone-cross.png\"/></"
  "guiicon>."
  msgstr ""
@@ -7446,7 +7462,7 @@
  
  #: src/toolbox/tool-clone.xml:177(term)
  msgid "Source"
-@@ -7921,20 +8855,20 @@
+@@ -7921,20 +8873,20 @@
  
  #: src/toolbox/tool-clone.xml:181(secondary)
  msgid "Pattern as a source to clone"
@@ -7470,7 +7486,7 @@
  
  #: src/toolbox/tool-clone.xml:198(para)
  msgid ""
-@@ -7943,7 +8877,7 @@
+@@ -7943,7 +8895,7 @@
  "cloned. If it's unchecked, only the selected layer is cloned. For more "
  "information see the glossary entry <link linkend=\"glossary-samplemerge"
  "\">Sample Merge</link>."
@@ -7479,7 +7495,7 @@
  
  #: src/toolbox/tool-clone.xml:209(term)
  msgid "Pattern"
-@@ -7954,40 +8888,40 @@
+@@ -7954,40 +8906,40 @@
  "Clicking on the pattern symbol brings up the Patterns dialog, which you can "
  "use to select the pattern to paint with. This option is only relevant if you "
  "are cloning from a Pattern source."
@@ -7527,7 +7543,7 @@
  
  #: src/toolbox/tool-clone.xml:266(para)
  msgid ""
-@@ -7996,20 +8930,24 @@
+@@ -7996,20 +8948,24 @@
  "relationship between one brush stroke and another. In non-aligned mode, "
  "different brush strokes will usually clash if they intersect each other."
  msgstr ""
@@ -7555,7 +7571,7 @@
  
  #: src/toolbox/tool-clone.xml:294(para)
  msgid ""
-@@ -8018,16 +8956,20 @@
+@@ -8018,16 +8974,20 @@
  "the same offset. Thus, you can use as many brushstrokes as you like, and "
  "they will all mesh smoothly with one another."
  msgstr ""
@@ -7578,7 +7594,7 @@
  
  #: src/toolbox/tool-clone.xml:313(para)
  msgid ""
-@@ -8036,10 +8978,14 @@
+@@ -8036,10 +8996,14 @@
  "stroke. Here, for the following strokes, the source ends up out of the "
  "source image canvas; hence the truncated aspect."
  msgstr ""
@@ -7594,7 +7610,7 @@
  
  #: src/toolbox/tool-clone.xml:329(para)
  msgid ""
-@@ -8051,34 +8997,40 @@
+@@ -8051,34 +9015,40 @@
  "same image. (But remember that you can also clone from one image to another "
  "image.)"
  msgstr ""
@@ -7640,7 +7656,7 @@
  
  #: src/toolbox/tool-clone.xml:390(title)
  #: src/toolbox/tool-brush.xml:831(phrase)
-@@ -8093,22 +9045,26 @@
+@@ -8093,22 +9063,26 @@
  "source, the effect is weighted by the opacity of the source. So, assuming "
  "100% opacity and a hard brush:"
  msgstr ""
@@ -7671,7 +7687,7 @@
  
  #: src/toolbox/tool-clone.xml:425(para)
  msgid ""
-@@ -8117,10 +9073,14 @@
+@@ -8117,10 +9091,14 @@
  "an opaque area onto a translucent area produces an opaque result; cloning a "
  "translucent area onto another translucent area causes an increase in opacity."
  msgstr ""
@@ -7687,7 +7703,7 @@
  
  #: src/toolbox/tool-clone.xml:439(primary)
  #: src/toolbox/tool-clone.xml:460(primary)
-@@ -8129,9 +9089,8 @@
+@@ -8129,9 +9107,8 @@
  msgstr "Penslar"
  
  #: src/toolbox/tool-clone.xml:440(secondary)
@@ -7698,7 +7714,7 @@
  
  #: src/toolbox/tool-clone.xml:442(para)
  msgid ""
-@@ -8144,11 +9103,19 @@
+@@ -8144,11 +9121,19 @@
  "to set it as the source, and paint on the original layer: you will then in "
  "effect be painting the filtered image data onto the original layer."
  msgstr ""
@@ -7719,7 +7735,7 @@
  
  #: src/toolbox/tool-clone.xml:463(para)
  msgid ""
-@@ -8164,6 +9131,17 @@
+@@ -8164,6 +9149,17 @@
  "on how you do it, this gives you either an <quote>undo brush</quote> or a "
  "<quote>redo brush</quote>."
  msgstr ""
@@ -7737,7 +7753,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -8203,7 +9181,7 @@
+@@ -8203,7 +9199,7 @@
  
  #: src/toolbox/tool-by-color-select.xml:30(title)
  msgid "Select by Color tool icon in the Toolbox"
@@ -7746,7 +7762,7 @@
  
  #: src/toolbox/tool-by-color-select.xml:38(para)
  msgid ""
-@@ -8214,56 +9192,56 @@
+@@ -8214,56 +9210,56 @@
  "the starting point by paths containing no large gaps; while the Select by "
  "Color tool selects all pixels that are sufficiently similar in color to the "
  "pixel you click on, regardless of where they are located."
@@ -7813,7 +7829,7 @@
  
  #: src/toolbox/tool-by-color-select.xml:142(term)
  msgid "Similar colors"
-@@ -8274,7 +9252,7 @@
+@@ -8274,7 +9270,7 @@
  "All these options work exactly the same way, they were described for the "
  "fuzzy selection already. See for <xref linkend=\"tool-fuzzy-select-options\"/"
  "> details."
@@ -7822,28 +7838,28 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -8340,7 +9318,7 @@
+@@ -8340,7 +9336,7 @@
  
  #: src/toolbox/tool-bucket-fill.xml:25(title)
  msgid "Toolbox Fill"
 -msgstr ""
-+msgstr "Hinkfyllning"
++msgstr "Fyll"
  
  #: src/toolbox/tool-bucket-fill.xml:33(para)
  msgid ""
-@@ -8351,6 +9329,11 @@
+@@ -8351,6 +9347,11 @@
  "point you click on. The tool options also affect the way transparency is "
  "handled."
  msgstr ""
 +"Verktyget fyller en markering med den aktuella förgrundsfärgen. Om du "
-+"Ctrl-klickar och använder hinkverktyget används bakgrundsfärgen i stället. "
-+"Beroende på verktygsalternativen fyller hinkfyllningsverktyget antingen hela "
-+"markeringen eller bara delar vars färger liknar den punkt du klickar på. "
-+"Verktygsalternativen påverkar också hur genomskinlighet hanteras."
++"Ctrl-klickar och använder fyllnadsverktyget används bakgrundsfärgen i "
++"stället. Beroende på verktygsalternativen fyller fyllnadsverktyget antingen "
++"hela markeringen eller bara delar vars färger liknar den punkt du klickar "
++"på. Verktygsalternativen påverkar också hur genomskinlighet hanteras."
  
  #: src/toolbox/tool-bucket-fill.xml:41(para)
  msgid ""
-@@ -8360,6 +9343,10 @@
+@@ -8360,6 +9361,10 @@
  "and spreads outward until the color or alpha value becomes <quote>too "
  "different</quote>."
  msgstr ""
@@ -7854,20 +7870,20 @@
  
  #: src/toolbox/tool-bucket-fill.xml:48(para)
  msgid ""
-@@ -8370,6 +9357,12 @@
+@@ -8370,6 +9375,12 @@
  "won't fill semi-transparent pixels, and they will stand out against the fill "
  "because they have kept their original color."
  msgstr ""
 +"När du fyller objekt i ett genomskinligt lager (till exempel bokstäver i ett "
 +"textlager) med en annan färg än tidigare kan en kant av den gamla färgen "
 +"fortfarande omge objekten. Detta beror på ett lågt fyllnadströskelvärde i "
-+"dialogrutan för hinkfyllningsalternativ. Med ett lågt tröskelvärde fyller "
-+"hinkverktyget inte halvgenomskinliga bildpunkter och de framträder mot "
-+"fyllningen eftersom de har behållit sin ursprungliga färg."
++"dialogrutan med inställningar för fyllnadsverktyget. Med ett lågt "
++"tröskelvärde fyller fyllnadsverktyget inte halvgenomskinliga bildpunkter och "
++"de framträder mot fyllningen eftersom de har behållit sin ursprungliga färg."
  
  #: src/toolbox/tool-bucket-fill.xml:56(para)
  msgid ""
-@@ -8377,135 +9370,135 @@
+@@ -8377,7 +9388,7 @@
  "sure that the <quote>Lock</quote> option (in the Layers dialog) is "
  "unchecked. If this option is checked, only the non-transparent parts of the "
  "layer will be filled."
@@ -7876,11 +7892,12 @@
  
  #: src/toolbox/tool-bucket-fill.xml:67(para)
  msgid ""
- "You can find the Bucket Fill tool from the image-menu through: "
+@@ -8385,35 +9396,37 @@
  "<menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint Tools</"
  "guisubmenu><guimenuitem>Bucket Fill</guimenuitem></menuchoice>"
--msgstr ""
-+msgstr "Du hittar hinkfyllningsverktyget från bildmenyn via: <menuchoice><guimenu>Verktyg</guimenu><guisubmenu>Målarverktyg</guisubmenu><guimenuitem>Hinkfyllning</guimenuitem></menuchoice>"
+ msgstr ""
++"Du hittar fyllnadsverktyget från bildmenyn via: "
++"<menuchoice><guimenu>Verktyg</guimenu><guisubmenu>Målarverktyg</guisubmenu><guimenuitem>Fyll</guimenuitem></menuchoice>"
  
  #: src/toolbox/tool-bucket-fill.xml:77(para)
  msgid ""
@@ -7918,11 +7935,13 @@
  
  #: src/toolbox/tool-bucket-fill.xml:128(para)
  msgid ""
- "See <link linkend=\"gimp-tool-brush\">Paint Tools</link> for help with "
+@@ -8421,91 +9434,94 @@
  "options that are common to all these tools. Only options that are specific "
  "to the Bucket Fill tool are explained here."
--msgstr ""
-+msgstr "Se <link linkend=\"gimp-tool-brush\">målarverktyg</link> för hjälp med alternativ som är gemensamma för alla dessa verktyg. Här förklaras bara alternativ som är specifika för hinkfyllningsverktyget."
+ msgstr ""
++"Se <link linkend=\"gimp-tool-brush\">målarverktyg</link> för hjälp med "
++"alternativ som är gemensamma för alla dessa verktyg. Här förklaras bara "
++"alternativ som är specifika för fyllnadsverktyget."
  
  #: src/toolbox/tool-bucket-fill.xml:138(term)
  msgid "Fill Type"
@@ -8029,7 +8048,7 @@
  
  #: src/toolbox/tool-bucket-fill.xml:230(para)
  msgid ""
-@@ -8514,24 +9507,24 @@
+@@ -8514,24 +9530,24 @@
  "while the color information used for threshold checking is located further "
  "up. Simply select the lower level and ensure that a layer above is visible "
  "for color weighting."
@@ -8058,7 +8077,7 @@
  
  #: src/toolbox/tool-bucket-fill.xml:259(para)
  msgid ""
-@@ -8539,7 +9532,7 @@
+@@ -8539,7 +9555,7 @@
  "<guimenuitem>Red</guimenuitem>, <guimenuitem>Green</guimenuitem>, "
  "<guimenuitem>Blue</guimenuitem>, <guimenuitem>Hue</guimenuitem>, "
  "<guimenuitem>Saturation</guimenuitem> and <guimenuitem>Value</guimenuitem>."
@@ -8067,7 +8086,7 @@
  
  #: src/toolbox/tool-bucket-fill.xml:269(para)
  msgid ""
-@@ -8548,6 +9541,11 @@
+@@ -8548,6 +9564,11 @@
  "pixels similar for <emphasis>the red channel</emphasis> to the clicked "
  "pixel, according to the set threshold. Here is an example:"
  msgstr ""
@@ -8079,12 +8098,12 @@
  
  #: src/toolbox/tool-bucket-fill.xml:276(para)
  msgid ""
-@@ -8555,12 +9553,15 @@
+@@ -8555,12 +9576,15 @@
  "Green (0;255;0), Blue (0;0;255). We are going to use the Bucket-fill tool "
  "with the magenta color and a Threshold set to 15."
  msgstr ""
 +"Ursprunglig bild: tre band med toningar av rena färger. Röd (255;0;0), grön "
-+"(0;255;0), blå (0;0;255). Vi kommer att använda hinkfyllningsverktyget med "
++"(0;255;0), blå (0;0;255). Vi kommer att använda fyllnadsverktyget med "
 +"magenta och ett tröskelvärde på 15."
  
  #: src/toolbox/tool-bucket-fill.xml:282(para)
@@ -8096,7 +8115,7 @@
  
  #: src/toolbox/tool-bucket-fill.xml:287(para)
  msgid ""
-@@ -8571,6 +9572,12 @@
+@@ -8571,6 +9595,12 @@
  "very much different from the red channel value of the clicked pixel: the "
  "color doesn't spread to them."
  msgstr ""
@@ -8109,7 +8128,7 @@
  
  #: src/toolbox/tool-bucket-fill.xml:297(para)
  msgid ""
-@@ -8578,10 +9585,13 @@
+@@ -8578,10 +9608,13 @@
  "the clicked pixel in the red channel is 0. All pixels in the green and the "
  "blue strips have the same red channel value (0): they are all painted."
  msgstr ""
@@ -8124,7 +8143,7 @@
  
  #: src/toolbox/tool-bucket-fill.xml:322(para)
  msgid "Image 1"
-@@ -8597,21 +9607,21 @@
+@@ -8597,21 +9630,21 @@
  
  #: src/toolbox/tool-bucket-fill.xml:351(phrase)
  msgid "Fill a feathered selection"
@@ -8146,11 +8165,11 @@
  #: src/toolbox/tool-bucket-fill.xml:371(para)
  msgid "After clicking 3 times more with the Bucket-Fill tool"
 -msgstr ""
-+msgstr "Efter ytterligare tre klick med hinkfyllningsverktyget"
++msgstr "Efter ytterligare tre klick med fyllnadsverktyget"
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -8694,10 +9704,9 @@
+@@ -8694,10 +9727,9 @@
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
  #: src/toolbox/tool-brush.xml:542(None)
@@ -8162,7 +8181,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -8757,7 +9766,7 @@
+@@ -8757,7 +9789,7 @@
  
  #: src/toolbox/tool-brush.xml:22(primary)
  msgid "Paint Tools"
@@ -8171,7 +8190,7 @@
  
  #: src/toolbox/tool-brush.xml:25(primary)
  #: src/toolbox/toolbox-color-area.xml:30(primary)
-@@ -8769,93 +9778,95 @@
+@@ -8769,93 +9801,97 @@
  
  #: src/toolbox/tool-brush.xml:31(phrase)
  msgid "The Paint Tools (Tools menu)"
@@ -8229,8 +8248,9 @@
  msgid ""
  "the <link linkend=\"gimp-tool-bucket-fill\">Bucket Fill</link> fills with "
  "color or pattern;"
--msgstr ""
-+msgstr "<link linkend=\"gimp-tool-bucket-fill\">Hinkfyllning</link> fyller med färg eller mönster;"
+ msgstr ""
++"<link linkend=\"gimp-tool-bucket-fill\">Fyllnadsverktyget</link> fyller med "
++"färg eller mönster;"
  
  #: src/toolbox/tool-brush.xml:94(para)
  msgid ""
@@ -8284,7 +8304,7 @@
  
  #: src/toolbox/tool-brush.xml:141(para)
  msgid ""
-@@ -8864,6 +9875,10 @@
+@@ -8864,6 +9900,10 @@
  "is invaluable. These tools also have special <quote>Pressure sensitivity</"
  "quote> options that are only usable with a tablet."
  msgstr ""
@@ -8295,7 +8315,7 @@
  
  #: src/toolbox/tool-brush.xml:148(para)
  msgid ""
-@@ -8875,6 +9890,12 @@
+@@ -8875,6 +9915,12 @@
  "the section on <link linkend=\"gimp-selection-stroke\">Stroking</link> for "
  "more information."
  msgstr ""
@@ -8308,7 +8328,7 @@
  
  #: src/toolbox/tool-brush.xml:167(para)
  msgid ""
-@@ -8888,10 +9909,19 @@
+@@ -8888,10 +9934,19 @@
  "the <keycap>Ctrl</keycap> key switches between blur and sharpen modes; for "
  "the Dodge/Burn tool, it switches between dodging and burning."
  msgstr ""
@@ -8329,7 +8349,7 @@
  
  #: src/toolbox/tool-brush.xml:192(para)
  msgid ""
-@@ -8904,6 +9934,14 @@
+@@ -8904,6 +9959,14 @@
  "the Shift key, a straight line will be rendered. You can continue this "
  "process to create a series of connected line segments."
  msgstr ""
@@ -8344,7 +8364,7 @@
  
  #: src/toolbox/tool-brush.xml:215(para)
  msgid ""
-@@ -8913,10 +9951,14 @@
+@@ -8913,10 +9976,14 @@
  "multiple of 15 degrees. Use this if you want to create perfect horizontal, "
  "vertical, or diagonal lines."
  msgstr ""
@@ -8360,7 +8380,7 @@
  
  #: src/toolbox/tool-brush.xml:243(para)
  msgid ""
-@@ -8925,12 +9967,15 @@
+@@ -8925,12 +9992,15 @@
  "or to a small number of tools, are described in the sections devoted to "
  "those tools."
  msgstr ""
@@ -8377,7 +8397,7 @@
  
  #: src/toolbox/tool-brush.xml:255(para)
  msgid ""
-@@ -8945,10 +9990,20 @@
+@@ -8945,10 +10015,20 @@
  "consistency but is always grayed out. A list of modes can be found in <xref "
  "linkend=\"gimp-concepts-layer-modes\"/>."
  msgstr ""
@@ -8399,7 +8419,7 @@
  
  #: src/toolbox/tool-brush.xml:275(guilabel)
  msgid "Dissolve"
-@@ -8956,13 +10011,15 @@
+@@ -8956,13 +10036,15 @@
  
  #: src/toolbox/tool-brush.xml:279(phrase)
  msgid "Dissolve mode example"
@@ -8416,7 +8436,7 @@
  
  #: src/toolbox/tool-brush.xml:294(para)
  msgid ""
-@@ -8970,10 +10027,13 @@
+@@ -8970,10 +10052,13 @@
  "doesn't draw transparency but determines the probability of applying paint. "
  "This gives nice patterns of dots to paint-strokes or filling."
  msgstr ""
@@ -8431,7 +8451,7 @@
  
  #: src/toolbox/tool-brush.xml:309(para)
  msgid ""
-@@ -8982,16 +10042,19 @@
+@@ -8982,16 +10067,19 @@
  "opacities: 100%, 50%, 25%. Foreground color pixels are scattered along "
  "brushstroke."
  msgstr ""
@@ -8453,7 +8473,7 @@
  
  #: src/toolbox/tool-brush.xml:333(phrase)
  #: src/toolbox/tool-brush.xml:398(phrase)
-@@ -9006,6 +10069,11 @@
+@@ -9006,6 +10094,11 @@
  "result is always an increase in opacity. Of course none of this is "
  "meaningful for layers that lack an alpha channel."
  msgstr ""
@@ -8465,15 +8485,15 @@
  
  #: src/toolbox/tool-brush.xml:356(para)
  msgid ""
-@@ -9015,11 +10083,16 @@
+@@ -9015,11 +10108,16 @@
  "the entire layer was selected. A pattern was used to paint with the Bucket "
  "Fill tool."
  msgstr ""
 +"I exempelbilden ovan ligger Wilber på det översta lagret och omges av "
-+"genomskinlighet. Det undre lagret är enfärgat ljusblått. Verktyget "
-+"Hinkfyllning användes med alternativet <guilabel>Fyll hela "
-+"markeringen</guilabel> ikryssat och hela lagret markerat. Ett mönster "
-+"användes för att måla med hinkfyllningsverktyget."
++"genomskinlighet. Det undre lagret är enfärgat ljusblått. Verktyget Fyll "
++"användes med alternativet <guilabel>Fyll hela markeringen</guilabel> "
++"ikryssat och hela lagret markerat. Ett mönster användes för att måla med "
++"fyllnadsverktyget."
  
  #: src/toolbox/tool-brush.xml:366(phrase)
  #: src/toolbox/tool-brush.xml:428(phrase)
@@ -8483,7 +8503,7 @@
  
  #: src/toolbox/tool-brush.xml:375(para)
  msgid ""
-@@ -9027,20 +10100,23 @@
+@@ -9027,20 +10125,23 @@
  "pencil, red color at 100%, 50%, 25% : only transparent or semi-transparent "
  "pixels of the layer are painted."
  msgstr ""
@@ -8510,7 +8530,7 @@
  
  #: src/toolbox/tool-brush.xml:413(para)
  msgid ""
-@@ -9050,38 +10126,49 @@
+@@ -9050,38 +10151,49 @@
  "this only works on layers that possess an alpha channel; otherwise, this "
  "mode is identical to Normal."
  msgstr ""
@@ -8525,8 +8545,8 @@
  "In the above example image, the color of the Bucket Fill tool was white, so "
  "white parts of Wilber were erased and the blue background shows through."
  msgstr ""
-+"I exempelbilden ovan var färgen för hinkfyllningsverktyget vit, så vita delar "
-+"av Wilber raderades och den blå bakgrunden syns igenom."
++"I exempelbilden ovan var färgen för fyllnadsverktyget vit, så vita delar av "
++"Wilber raderades och den blå bakgrunden syns igenom."
  
  #: src/toolbox/tool-brush.xml:437(para)
  msgid ""
@@ -8563,7 +8583,7 @@
  
  #: src/toolbox/tool-brush.xml:482(para)
  msgid ""
-@@ -9095,6 +10182,15 @@
+@@ -9095,6 +10207,15 @@
  "as a bit confusing: it works out that the higher the <quote>opacity</quote> "
  "is, the more transparency you get."
  msgstr ""
@@ -8579,7 +8599,7 @@
  
  #: src/toolbox/tool-brush.xml:498(term)
  msgid "Brush"
-@@ -9112,6 +10208,14 @@
+@@ -9112,6 +10233,14 @@
  "Paintbrush, and Airbrush tools. For the other brush tools, only the "
  "intensity distribution of a brush is relevant."
  msgstr ""
@@ -8594,7 +8614,7 @@
  
  #: src/toolbox/tool-brush.xml:519(para)
  msgid ""
-@@ -9121,14 +10225,19 @@
+@@ -9121,14 +10250,19 @@
  "wheel in the Preferences. See <link linkend=\"gimp-using-variable-size-brush"
  "\">How to vary the size of a brush</link>"
  msgstr ""
@@ -8616,7 +8636,7 @@
  
  #: src/toolbox/tool-brush.xml:546(para)
  msgid ""
-@@ -9138,6 +10247,12 @@
+@@ -9138,6 +10272,12 @@
  "also usable with a mouse. The Ink tool, that supported velocity before, has "
  "been overhauled and now handles velocity-dependent painting much better."
  msgstr ""
@@ -8629,7 +8649,7 @@
  
  #: src/toolbox/tool-brush.xml:554(para)
  msgid ""
-@@ -9149,6 +10264,12 @@
+@@ -9149,6 +10289,12 @@
  "Velocity starts from zero and ramps up to full speed by the end of the "
  "stroke."
  msgstr ""
@@ -8642,7 +8662,7 @@
  
  #: src/toolbox/tool-brush.xml:563(para)
  msgid ""
-@@ -9161,20 +10282,30 @@
+@@ -9161,20 +10307,30 @@
  "them as you like. For each tool, only the ones that are meaningful are "
  "listed. Here is what they do:"
  msgstr ""
@@ -8675,7 +8695,7 @@
  
  #: src/toolbox/tool-brush.xml:597(para)
  msgid ""
-@@ -9182,6 +10313,9 @@
+@@ -9182,6 +10338,9 @@
  "which have time-based effects. Pressing harder makes these tools act more "
  "rapidly."
  msgstr ""
@@ -8685,7 +8705,7 @@
  
  #: src/toolbox/tool-brush.xml:607(para)
  msgid ""
-@@ -9189,6 +10323,9 @@
+@@ -9189,6 +10348,9 @@
  "option is checked, then pressing harder will increase the size of the area "
  "affected by the brush."
  msgstr ""
@@ -8695,7 +8715,7 @@
  
  #: src/toolbox/tool-brush.xml:617(para)
  msgid ""
-@@ -9197,10 +10334,13 @@
+@@ -9197,10 +10359,13 @@
  "conditions are met, then pressing harder causes colors to be taken from "
  "higher in the gradient."
  msgstr ""
@@ -8710,7 +8730,7 @@
  
  #: src/toolbox/tool-brush.xml:633(para)
  msgid ""
-@@ -9210,15 +10350,20 @@
+@@ -9210,15 +10375,20 @@
  "trajectory of the stroke. Note that, if you are using a tablet, this option "
  "does not change the effects of brush pressure."
  msgstr ""
@@ -8733,7 +8753,7 @@
  
  #: src/toolbox/tool-brush.xml:649(para)
  msgid ""
-@@ -9228,6 +10373,11 @@
+@@ -9228,6 +10398,11 @@
  "over a distance you can set with the <guimenuitem>Quantity</guimenuitem> "
  "slider."
  msgstr ""
@@ -8745,7 +8765,7 @@
  
  #: src/toolbox/tool-brush.xml:658(phrase)
  msgid "<placeholder-1/> example"
-@@ -9235,7 +10385,7 @@
+@@ -9235,7 +10410,7 @@
  
  #: src/toolbox/tool-brush.xml:665(para)
  msgid "From top to bottom: without jitter, jitter = 1, jitter = 4."
@@ -8754,7 +8774,7 @@
  
  #: src/toolbox/tool-brush.xml:675(term)
  msgid "Incremental"
-@@ -9253,6 +10403,15 @@
+@@ -9253,6 +10428,15 @@
  "automatically implies an incremental effect. See also <xref linkend=\"gimp-"
  "concepts-layer-modes\"/>."
  msgstr ""
@@ -8770,7 +8790,7 @@
  
  #: src/toolbox/tool-brush.xml:693(term)
  msgid "Color from Gradient"
-@@ -9260,7 +10419,7 @@
+@@ -9260,7 +10444,7 @@
  
  #: src/toolbox/tool-brush.xml:697(phrase)
  msgid "Gradient options for painting tools."
@@ -8779,7 +8799,7 @@
  
  #: src/toolbox/tool-brush.xml:705(para)
  msgid ""
-@@ -9270,12 +10429,17 @@
+@@ -9270,12 +10454,17 @@
  "brush trajectory. For basic information on gradients, see the <link linkend="
  "\"gimp-concepts-gradients\">Gradients</link> section."
  msgstr ""
@@ -8798,7 +8818,7 @@
  
  #: src/toolbox/tool-brush.xml:719(term)
  #: src/toolbox/toolbox-color-area.xml:113(primary)
-@@ -9288,10 +10452,12 @@
+@@ -9288,10 +10477,12 @@
  "Here you see a display of the current gradient. Clicking on it brings up a "
  "Gradient Selector, which will allow you to choose a different gradient."
  msgstr ""
@@ -8812,7 +8832,7 @@
  
  #: src/toolbox/tool-brush.xml:731(para)
  msgid ""
-@@ -9299,10 +10465,13 @@
+@@ -9299,10 +10490,13 @@
  "gradient, and progresses rightward. If \"Reverse\" is checked, the stroke "
  "starts with colors from the right side, and progresses leftward."
  msgstr ""
@@ -8827,7 +8847,7 @@
  
  #: src/toolbox/tool-brush.xml:742(para)
  msgid ""
-@@ -9310,50 +10479,61 @@
+@@ -9310,50 +10504,61 @@
  "the gradient colors. The default units are pixels, but you can choose a "
  "different unit from the adjoining Units menu."
  msgstr ""
@@ -8894,7 +8914,7 @@
  
  #: src/toolbox/tool-brush.xml:814(para)
  msgid ""
-@@ -9361,6 +10541,8 @@
+@@ -9361,6 +10566,8 @@
  "traversed in reverse, afterwards bouncing back and forth until the end of "
  "the brushstroke."
  msgstr ""
@@ -8903,7 +8923,7 @@
  
  #: src/toolbox/tool-brush.xml:833(para)
  msgid ""
-@@ -9374,6 +10556,15 @@
+@@ -9374,6 +10581,15 @@
  "Pencil tool, which makes all brushes perfectly hard and disables sub-pixel "
  "anti-aliasing."
  msgstr ""
@@ -8919,7 +8939,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -9385,11 +10576,11 @@
+@@ -9385,11 +10601,11 @@
  
  #: src/toolbox/tool-brightness-contrast.xml:13(title)
  msgid "Brightness-Contrast tool"
@@ -8933,7 +8953,7 @@
  
  #: src/toolbox/tool-brightness-contrast.xml:18(para)
  msgid ""
-@@ -9402,6 +10593,13 @@
+@@ -9402,6 +10618,13 @@
  "important and you want it to look as good as possible, you will use one of "
  "the other tools."
  msgstr ""
@@ -8947,7 +8967,7 @@
  
  #: src/toolbox/tool-brightness-contrast.xml:28(para)
  msgid ""
-@@ -9412,10 +10610,15 @@
+@@ -9412,10 +10635,15 @@
  "you can either press the <guilabel>OK</guilabel> button on the dialog, or "
  "hit the <keycap>Return</keycap> key on your keyboard."
  msgstr ""
@@ -8964,7 +8984,7 @@
  
  #: src/toolbox/tool-brightness-contrast.xml:44(para)
  msgid ""
-@@ -9424,6 +10627,10 @@
+@@ -9424,6 +10652,10 @@
  "Contrast</guimenuitem></menuchoice> or <menuchoice><guimenu>Colors</"
  "guimenu><guimenuitem>Brightness-Contrast</guimenuitem></menuchoice>,"
  msgstr ""
@@ -8975,7 +8995,7 @@
  
  #: src/toolbox/tool-brightness-contrast.xml:58(para)
  msgid ""
-@@ -9432,20 +10639,26 @@
+@@ -9432,20 +10664,26 @@
  "that you have installed color tools in Toolbox. For this, go to <link "
  "linkend=\"gimp-tools-dialog\">Tools Dialog</link>."
  msgstr ""
@@ -9004,7 +9024,7 @@
  
  #: src/toolbox/tool-brightness-contrast.xml:135(term)
  msgid "Contrast"
-@@ -9456,22 +10669,28 @@
+@@ -9456,22 +10694,28 @@
  "This slider sets a negative (to decrease) or positive (to increase) value "
  "for the contrast."
  msgstr ""
@@ -9034,7 +9054,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -9503,29 +10722,29 @@
+@@ -9503,29 +10747,29 @@
  
  #: src/toolbox/toolbox-color-area.xml:23(phrase)
  msgid "Color and Indicator Area"
@@ -9070,7 +9090,7 @@
  
  #: src/toolbox/toolbox-color-area.xml:58(para)
  msgid ""
-@@ -9534,10 +10753,14 @@
+@@ -9534,10 +10778,14 @@
  "operations. Clicking on either of the color displays brings up a Color "
  "Editor dialog, which permits you to change it."
  msgstr ""
@@ -9086,7 +9106,7 @@
  
  #: src/toolbox/toolbox-color-area.xml:70(para)
  msgid ""
-@@ -9545,10 +10768,13 @@
+@@ -9545,10 +10793,13 @@
  "black and white, respectively. Pressing the <keycap>D</keycap> key has the "
  "same effect."
  msgstr ""
@@ -9101,7 +9121,7 @@
  
  #: src/toolbox/toolbox-color-area.xml:81(para)
  msgid ""
-@@ -9556,27 +10782,29 @@
+@@ -9556,27 +10807,29 @@
  "and Background colors to be swapped. Pressing the <keycap>X</keycap> key has "
  "the same effect."
  msgstr ""
@@ -9135,7 +9155,7 @@
  
  #: src/toolbox/toolbox-color-area.xml:126(para)
  msgid ""
-@@ -9584,22 +10812,25 @@
+@@ -9584,22 +10837,25 @@
  "gradient. Clicking on any of them brings up a dialog that allows you to "
  "change it."
  msgstr ""
@@ -9165,7 +9185,7 @@
  
  #: src/toolbox/toolbox-color-area.xml:150(para)
  msgid ""
-@@ -9611,10 +10842,17 @@
+@@ -9611,10 +10867,17 @@
  "directly save the corresponding image; this opens a dialog where you can "
  "enter a name for the image:"
  msgstr ""
@@ -9184,7 +9204,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -9758,9 +10996,8 @@
+@@ -9758,9 +11021,8 @@
  msgstr "Tona"
  
  #: src/toolbox/tool-blend.xml:35(title)
@@ -9195,7 +9215,7 @@
  
  #: src/toolbox/tool-blend.xml:43(para)
  msgid ""
-@@ -9771,6 +11008,12 @@
+@@ -9771,6 +11033,12 @@
  "of your blend. The softness of the blend depends on how far you drag the "
  "cursor. The shorter the drag distance, the sharper it will be."
  msgstr ""
@@ -9208,7 +9228,7 @@
  
  #: src/toolbox/tool-blend.xml:51(para)
  msgid ""
-@@ -9783,6 +11026,14 @@
+@@ -9783,6 +11051,14 @@
  "be found in <xref linkend=\"gimp-concepts-gradients\"/> and <xref linkend="
  "\"gimp-gradient-dialog\"/>."
  msgstr ""
@@ -9223,7 +9243,7 @@
  
  #: src/toolbox/tool-blend.xml:62(para)
  msgid ""
-@@ -9797,6 +11048,15 @@
+@@ -9797,6 +11073,15 @@
  "selection and move the mouse, but a Shaped appears the same no matter where "
  "you click or how you move."
  msgstr ""
@@ -9239,7 +9259,7 @@
  
  #: src/toolbox/tool-blend.xml:75(para)
  msgid ""
-@@ -9804,32 +11064,41 @@
+@@ -9804,32 +11089,41 @@
  "(even with full opacity) will result in fantastic swirling patterns, "
  "changing and adding every time you drag the cursor."
  msgstr ""
@@ -9283,7 +9303,7 @@
  
  #: src/toolbox/tool-blend.xml:154(para)
  msgid ""
-@@ -9840,10 +11109,16 @@
+@@ -9840,10 +11134,16 @@
  "<guilabel>Reverse</guilabel> check-box reverse the gradient direction with "
  "the effect, for instance, of swapping the foreground and background colors."
  msgstr ""
@@ -9301,7 +9321,7 @@
  
  #: src/toolbox/tool-blend.xml:169(para)
  msgid ""
-@@ -9851,24 +11126,29 @@
+@@ -9851,24 +11151,29 @@
  "quote> of the gradient. It determines how far from the clicked starting "
  "point the gradient will begin. Shaped forms are not affected by this option."
  msgstr ""
@@ -9334,7 +9354,7 @@
  
  #: src/toolbox/tool-blend.xml:210(para) src/toolbox/tool-blend.xml:232(term)
  msgid "Linear"
-@@ -9876,11 +11156,11 @@
+@@ -9876,11 +11181,11 @@
  
  #: src/toolbox/tool-blend.xml:218(para) src/toolbox/tool-blend.xml:242(term)
  msgid "Bi-Linear"
@@ -9348,7 +9368,7 @@
  
  #: src/toolbox/tool-blend.xml:234(para)
  msgid ""
-@@ -9888,6 +11168,8 @@
+@@ -9888,6 +11193,8 @@
  "drawn line and transitions linearly to the background color at the ending "
  "point."
  msgstr ""
@@ -9357,7 +9377,7 @@
  
  #: src/toolbox/tool-blend.xml:244(para)
  msgid ""
-@@ -9895,6 +11177,9 @@
+@@ -9895,6 +11202,9 @@
  "distance determined by the length of the drawn line. It is useful, for "
  "example, for giving the appearance of a cylinder."
  msgstr ""
@@ -9367,7 +9387,7 @@
  
  #: src/toolbox/tool-blend.xml:255(para)
  msgid ""
-@@ -9902,30 +11187,33 @@
+@@ -9902,30 +11212,33 @@
  "background color outside the circle. It gives the appearance of a sphere "
  "without directional lighting."
  msgstr ""
@@ -9407,7 +9427,7 @@
  
  #: src/toolbox/tool-blend.xml:310(para)
  msgid ""
-@@ -9937,22 +11225,29 @@
+@@ -9937,22 +11250,29 @@
  "line. The four options provide a variety in the manner in which the gradient "
  "is calculated; experimentation is the best means of seeing the differences."
  msgstr ""
@@ -9441,7 +9461,7 @@
  
  #: src/toolbox/tool-blend.xml:355(para)
  msgid ""
-@@ -9961,6 +11256,9 @@
+@@ -9961,6 +11281,9 @@
  "background color from a direction determined by the direction of the drawn "
  "line."
  msgstr ""
@@ -9451,7 +9471,7 @@
  
  #: src/toolbox/tool-blend.xml:362(para)
  msgid ""
-@@ -9968,28 +11266,32 @@
+@@ -9968,28 +11291,32 @@
  "(symmetric)</guilabel> except that the \"cone\" appears to have a ridge "
  "where the line is drawn."
  msgstr ""
@@ -9488,7 +9508,7 @@
  
  #: src/toolbox/tool-blend.xml:411(para)
  msgid ""
-@@ -10000,6 +11302,11 @@
+@@ -10000,6 +11327,11 @@
  "foreground, transitions to the background, then transitions back to the "
  "foreground."
  msgstr ""
@@ -9500,7 +9520,7 @@
  
  #: src/toolbox/tool-blend.xml:423(term)
  msgid "Dithering"
-@@ -10009,11 +11316,11 @@
+@@ -10009,11 +11341,11 @@
  msgid ""
  "Dithering is fully explained in the <link linkend=\"glossary-dithering"
  "\">Glossary</link>"
@@ -9514,7 +9534,7 @@
  
  #: src/toolbox/tool-blend.xml:434(para)
  msgid ""
-@@ -10021,6 +11328,9 @@
+@@ -10021,6 +11353,9 @@
  "sharp transition of color along a slanted or curved line. Only tests can "
  "allow you to choose."
  msgstr ""
@@ -9524,7 +9544,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -10078,11 +11388,11 @@
+@@ -10078,11 +11413,11 @@
  #: src/toolbox/tool-align.xml:19(secondary)
  #: src/toolbox/tool-align.xml:120(term)
  msgid "Align"
@@ -9538,7 +9558,7 @@
  
  #: src/toolbox/tool-align.xml:30(para)
  msgid ""
-@@ -10096,10 +11406,18 @@
+@@ -10096,10 +11431,18 @@
  "path...) the selected layer will be aligned on. This object is called "
  "<emphasis>target</emphasis>."
  msgstr ""
@@ -9558,7 +9578,7 @@
  
  #: src/toolbox/tool-align.xml:48(para)
  msgid ""
-@@ -10107,22 +11425,27 @@
+@@ -10107,22 +11450,27 @@
  "guimenu><guisubmenu>Transform Tools</guisubmenu><guimenuitem>Align</"
  "guimenuitem></menuchoice>,"
  msgstr ""
@@ -9588,7 +9608,7 @@
  
  #: src/toolbox/tool-align.xml:86(para)
  msgid ""
-@@ -10132,16 +11455,20 @@
+@@ -10132,16 +11480,20 @@
  "the mouse button. Now every layer, which is completely inside the dragged "
  "rectangle, is selected."
  msgstr ""
@@ -9611,7 +9631,7 @@
  
  #: src/toolbox/tool-align.xml:124(term)
  msgid "Relative to:"
-@@ -10150,7 +11477,7 @@
+@@ -10150,7 +11502,7 @@
  #: src/toolbox/tool-align.xml:126(para)
  msgid ""
  "This is the target - the image object the selected layer will be aligned on."
@@ -9620,7 +9640,7 @@
  
  #: src/toolbox/tool-align.xml:132(para)
  msgid ""
-@@ -10158,28 +11485,32 @@
+@@ -10158,28 +11510,32 @@
  "multiple layers holding the Shift key. Note that there is no <quote>first "
  "item</quote> when you select multiple layers using rubber-banding."
  msgstr ""
@@ -9658,7 +9678,7 @@
  
  #: src/toolbox/tool-align.xml:185(para)
  msgid ""
-@@ -10187,10 +11518,13 @@
+@@ -10187,10 +11543,13 @@
  "of these buttons, you align the selected layer with left edge, horizontal "
  "middle, right edge, top edge, vertical middle, or bottom of the target."
  msgstr ""
@@ -9673,7 +9693,7 @@
  
  #: src/toolbox/tool-align.xml:222(para)
  msgid ""
-@@ -10201,6 +11535,12 @@
+@@ -10201,6 +11560,12 @@
  "Distribute add this offset to the left edges, horizontal centers, right "
  "edges, top edges, vertical centers, or bottoms of targets."
  msgstr ""
@@ -9686,7 +9706,7 @@
  
  #: src/toolbox/tool-align.xml:237(para)
  msgid ""
-@@ -10208,33 +11548,36 @@
+@@ -10208,33 +11573,36 @@
  "desired alignment effect (in pixel) regarding the target. The default value "
  "is 0; it can be positive or negative."
  msgstr ""
@@ -9729,7 +9749,7 @@
  
  #: src/toolbox/tool-align.xml:287(para)
  msgid ""
-@@ -10243,10 +11586,14 @@
+@@ -10243,10 +11611,14 @@
  "png\"/></guiicon> button (Related to). The red layer alignes with the right "
  "side of the selection."
  msgstr ""
@@ -9745,7 +9765,7 @@
  
  #: src/toolbox/tool-align.xml:305(para)
  msgid ""
-@@ -10255,10 +11602,14 @@
+@@ -10255,10 +11627,14 @@
  "gravity-east-24.png\"/></guiicon> button (Distribution). The layer is "
  "aligned 5 pixels before the right side of the yellow active layer."
  msgstr ""
@@ -9761,7 +9781,7 @@
  
  #: src/toolbox/tool-align.xml:324(para)
  msgid ""
-@@ -10266,6 +11617,9 @@
+@@ -10266,6 +11642,9 @@
  "covering the red and the yellow layer by moving the pointer towards the "
  "bottom right corner."
  msgstr ""
@@ -9771,7 +9791,7 @@
  
  #: src/toolbox/tool-align.xml:336(para)
  msgid ""
-@@ -10274,6 +11628,9 @@
+@@ -10274,6 +11653,9 @@
  "png\"/></guiicon> button, both layers aligne with the left side of the "
  "selection."
  msgstr ""
@@ -9781,7 +9801,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -10295,7 +11652,7 @@
+@@ -10295,7 +11677,7 @@
  
  #: src/toolbox/tool-airbrush.xml:15(title)
  msgid "Airbrush Tool"
@@ -9790,7 +9810,7 @@
  
  #: src/toolbox/tool-airbrush.xml:17(primary)
  #: src/toolbox/tool-airbrush.xml:21(secondary)
-@@ -10304,17 +11661,19 @@
+@@ -10304,17 +11686,19 @@
  
  #: src/toolbox/tool-airbrush.xml:25(title)
  msgid "The Airbrush tool in Toolbox"
@@ -9812,7 +9832,7 @@
  
  #: src/toolbox/tool-airbrush.xml:42(para)
  msgid ""
-@@ -10322,22 +11681,28 @@
+@@ -10322,22 +11706,28 @@
  "guimenu><guisubmenu>PaintTools</guisubmenu><guimenuitem>Airbrush</"
  "guimenuitem></menuchoice>"
  msgstr ""
@@ -9842,7 +9862,7 @@
  
  #: src/toolbox/tool-airbrush.xml:86(para)
  msgid ""
-@@ -10346,16 +11711,22 @@
+@@ -10346,16 +11736,22 @@
  "will generate a straight line. Consecutive clicks will continue drawing "
  "straight lines that originate from the end of the last line."
  msgstr ""
@@ -9866,7 +9886,7 @@
  
  #: src/toolbox/tool-airbrush.xml:123(para)
  msgid ""
-@@ -10363,20 +11734,24 @@
+@@ -10363,20 +11759,24 @@
  "that the airbrush paints. A higher setting will produce darker brush strokes "
  "in a shorter amount of time."
  msgstr ""
@@ -9893,7 +9913,7 @@
  
  #. When image changes, this message will be marked fuzzy or untranslated for you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -10415,6 +11790,10 @@
+@@ -10415,6 +11815,10 @@
  "many tools contained within The <acronym>GIMP</acronym>'s toolbox are "
  "discussed in detail here."
  msgstr ""
@@ -9904,7 +9924,7 @@
  
  #: src/toolbox/intro.xml:26(para)
  msgid ""
-@@ -10425,6 +11804,12 @@
+@@ -10425,6 +11829,12 @@
  "to think of a tool as a saw, and an image as a piece of wood, it probably "
  "won't do you a great deal of harm.)"
  msgstr ""
@@ -9917,7 +9937,7 @@
  
  #: src/toolbox/intro.xml:34(para)
  msgid ""
-@@ -10438,6 +11823,15 @@
+@@ -10438,6 +11848,15 @@
  "across the entire image; and <emphasis>Other tools</emphasis>, which don't "
  "fall into the other four categories."
  msgstr ""
@@ -9933,7 +9953,7 @@
  
  #: src/toolbox/intro.xml:46(para)
  msgid ""
-@@ -10449,6 +11843,13 @@
+@@ -10449,6 +11868,13 @@
  "emphasis> menu; also, every tool can be activated from the keyboard using an "
  "accelerator key."
  msgstr ""
@@ -9947,7 +9967,7 @@
  
  #: src/toolbox/intro.xml:62(para)
  msgid ""
-@@ -10463,6 +11864,16 @@
+@@ -10463,6 +11889,16 @@
  "always access any tool at any time using the <guimenu>Tools</guimenu> menu "
  "from an image menubar."
  msgstr ""
@@ -9964,7 +9984,7 @@
  
  #: src/toolbox/intro.xml:74(para)
  msgid ""
-@@ -10472,10 +11883,15 @@
+@@ -10472,10 +11908,15 @@
  "Pointers</guisubmenu><guimenuitem>Pointer mode</"
  "guimenuitem><guimenuitem>Tool icon</guimenuitem></menuchoice>)."
  msgstr ""
@@ -9981,7 +10001,7 @@
  
  #: src/toolbox/intro.xml:97(para)
  msgid ""
-@@ -10484,6 +11900,10 @@
+@@ -10484,6 +11925,10 @@
  "set up this way, you probably should: it is very difficult to use tools "
  "effectively without being able to manipulate their options."
  msgstr ""
@@ -9992,7 +10012,7 @@
  
  #: src/toolbox/intro.xml:104(para)
  msgid ""
-@@ -10494,6 +11914,13 @@
+@@ -10494,6 +11939,13 @@
  "docking it below the Toolbox. See the section on <link linkend=\"gimp-"
  "concepts-docks\">Dialogs and Docking</link> if you need help."
  msgstr ""
@@ -10006,7 +10026,7 @@
  
  #: src/toolbox/intro.xml:118(para)
  msgid ""
-@@ -10505,14 +11932,20 @@
+@@ -10505,14 +11957,20 @@
  "you were using some unusual option the last time you worked with it, two "
  "weeks ago."
  msgstr ""
@@ -10029,7 +10049,7 @@
  
  #: src/toolbox/intro.xml:143(para)
  msgid ""
-@@ -10522,10 +11955,15 @@
+@@ -10522,10 +11980,15 @@
  "sets for the active tool are shown, so you need not worry about including "
  "the name of the tool when you assign a name here."
  msgstr ""
@@ -10046,7 +10066,7 @@
  
  #: src/toolbox/intro.xml:165(para)
  msgid ""
-@@ -10535,10 +11973,16 @@
+@@ -10535,10 +11998,16 @@
  "showing the names of all saved option sets: choosing a menu entry will apply "
  "those settings."
  msgstr ""
@@ -10064,7 +10084,7 @@
  
  #: src/toolbox/intro.xml:187(para)
  msgid ""
-@@ -10548,21 +11992,30 @@
+@@ -10548,21 +12017,30 @@
  "showing the names of all saved option sets: choosing a menu entry will "
  "delete those settings."
  msgstr ""
@@ -10096,7 +10116,7 @@
  
  #: src/toolbox/about-common-select-options.xml:8(para)
  msgid ""
-@@ -10570,6 +12023,9 @@
+@@ -10570,6 +12048,9 @@
  "options that are common to all these tools. Only options that are specific "
  "to this tool are explained here."
  msgstr ""
@@ -10106,7 +10126,7 @@
  
  #: src/toolbox/about-common-select-modifiers.xml:8(para)
  msgid ""
-@@ -10577,12 +12033,18 @@
+@@ -10577,12 +12058,18 @@
  "modifier keys that affect all these tools in the same way. Only effects "
  "options that are specific to this tool are explained here."
  msgstr ""
@@ -10125,7 +10145,7 @@
  
  #: src/toolbox/about-common-brush-options.xml:9(para)
  msgid ""
-@@ -10590,6 +12052,9 @@
+@@ -10590,6 +12077,9 @@
  "link> for a description of tool options that apply to many or all brush "
  "tools."
  msgstr ""
