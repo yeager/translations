@@ -1,0 +1,290 @@
+{
+  "current_batch": [
+    {
+      "position": 43341,
+      "key": "component::brother::exceptions::serial_mismatch::message",
+      "key_id": "752136986",
+      "translation_id": "7006060709",
+      "en": "The serial number for {device} doesn't match the one in the configuration. It's possible that the two Brother printers have swapped IP addresses. Restore the previous IP address configuration or reconfigure the devices with Home Assistant.",
+      "before": "Serienumret för {device} stämmer inte överens med det som finns i konfigurationen. Det är möjligt att de två Brother-skrivarna har bytt IP-adresser. Återställ den tidigare IP-adresskonfigurationen eller konfigurera om enheterna med Home Assistant.",
+      "after": "Seriennumret på {device} stämmer inte med serienumret i konfigurationen. De två Brother-skrivarna kan ha fått varandras IP-adresser. Återställ den tidigare IP-konfigurationen eller konfigurera om enheterna i Home Assistant.",
+      "readback": "Seriennumret på {device} stämmer inte med serienumret i konfigurationen. De två Brother-skrivarna kan ha fått varandras IP-adresser. Återställ den tidigare IP-konfigurationen eller konfigurera om enheterna i Home Assistant.",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43344,
+      "key": "component::sunricher_dali::config::error::discovery_failed",
+      "key_id": "752309186",
+      "translation_id": "7007581527",
+      "en": "Failed to discover Sunricher DALI gateways on the network",
+      "before": "Det gick inte att upptäcka Sunricher DALI-gateways i nätverket",
+      "after": "Det gick inte att hitta Sunricher DALI-gateways i nätverket.",
+      "readback": "Det gick inte att hitta Sunricher DALI-gateways i nätverket.",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43345,
+      "key": "component::sunricher_dali::config::error::no_devices_found",
+      "key_id": "752309187",
+      "translation_id": "7007581591",
+      "en": "No Sunricher DALI gateways found on the network",
+      "before": "Inga Sunricher DALI-gateways hittades i nätverket",
+      "after": "Inga Sunricher DALI-gateways hittades i nätverket.",
+      "readback": "Inga Sunricher DALI-gateways hittades i nätverket.",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43350,
+      "key": "component::sunricher_dali::config::step::user::description",
+      "key_id": "752309192",
+      "translation_id": "7007581911",
+      "en": "**Three-step process:**\n\n1. Ensure the gateway is powered and on the same network.\n2. Select **Submit** to start discovery (searches for up to 3 minutes)\n3. While discovery is in progress, press the **Reset** button on your Sunricher DALI gateway device **once**.\n\nThe gateway will respond immediately after the button press.",
+      "before": "**Processen i tre steg:** \n\n1. Se till att gatewayen är strömförsörjd och finns i samma nätverk. \n2. Välj **Bekräfta** för att starta sökningen (söker i upp till 3 minuter). \n3. Medan identifieringen pågår trycker du på **Reset**-knappen på din Sunricher DALI-gateway-enhet **en gång**. \n\nGatewayen svarar omedelbart efter knapptryckningen.",
+      "after": "**Tre steg:**\n\n1. Kontrollera att gatewayen är påslagen och ansluten till samma nätverk.\n2. Välj **Skicka** för att starta sökningen. Den kan ta upp till tre minuter.\n3. Tryck **en gång** på knappen **Reset** på Sunricher DALI-gatewayen medan sökningen pågår.\n\nGatewayen svarar direkt efter knapptryckningen.",
+      "readback": "**Tre steg:**\n\n1. Kontrollera att gatewayen är påslagen och ansluten till samma nätverk.\n2. Välj **Skicka** för att starta sökningen. Den kan ta upp till tre minuter.\n3. Tryck **en gång** på knappen **Reset** på Sunricher DALI-gatewayen medan sökningen pågår.\n\nGatewayen svarar direkt efter knapptryckningen.",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43352,
+      "key": "component::shelly::config::abort::ble_not_permitted",
+      "key_id": "752311880",
+      "translation_id": "7007608605",
+      "en": "Device is bound to a Shelly cloud account and cannot be provisioned via Bluetooth. Please use the Shelly app to provision Wi-Fi credentials, then add the device when it appears on your network.",
+      "before": "Enheten är bunden till ett Shelly-molnkonto och kan inte tillhandahållas via Bluetooth. Använd Shelly-appen för att tillhandahålla Wi-Fi-autentiseringsuppgifter och lägg sedan till enheten när den visas i ditt nätverk.",
+      "after": "Enheten är kopplad till ett Shelly-molnkonto och kan därför inte konfigureras via Bluetooth. Använd Shelly-appen för att konfigurera Wi-Fi-inloggningsuppgifterna och lägg sedan till enheten när den visas i nätverket.",
+      "readback": "Enheten är kopplad till ett Shelly-molnkonto och kan därför inte konfigureras via Bluetooth. Använd Shelly-appen för att konfigurera Wi-Fi-inloggningsuppgifterna och lägg sedan till enheten när den visas i nätverket.",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43354,
+      "key": "component::shelly::config::abort::invalid_discovery_info",
+      "key_id": "752311882",
+      "translation_id": "7007608733",
+      "en": "Invalid Bluetooth discovery information.",
+      "before": "Ogiltig information om Bluetooth-identifiering.",
+      "after": "Ogiltiga uppgifter för Bluetooth-upptäckten.",
+      "readback": "Ogiltiga uppgifter för Bluetooth-upptäckten.",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43357,
+      "key": "component::shelly::config::abort::wifi_provisioned",
+      "key_id": "752311885",
+      "translation_id": "7007608925",
+      "en": "Wi-Fi credentials for {ssid} have been provisioned to {name}. The device is connecting to Wi-Fi and will complete setup automatically.",
+      "before": "Wi-Fi-uppgifter för {ssid} har överförts till {name}. Enheten ansluter till Wi-Fi och kommer att slutföra installationen automatiskt.",
+      "after": "Wi-Fi-inloggningsuppgifterna för {ssid} har skickats till {name}. Enheten ansluter till Wi-Fi och slutför konfigurationen automatiskt.",
+      "readback": "Wi-Fi-inloggningsuppgifterna för {ssid} har skickats till {name}. Enheten ansluter till Wi-Fi och slutför konfigurationen automatiskt.",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43358,
+      "key": "component::shelly::config::progress::provisioning",
+      "key_id": "752311886",
+      "translation_id": "7007608989",
+      "en": "Provisioning Wi-Fi credentials and waiting for device to connect",
+      "before": "Tillhandahåller Wi-Fi-autentiseringsuppgifter och väntar på att enheten ska ansluta",
+      "after": "Skickar Wi-Fi-inloggningsuppgifterna till enheten och väntar på att den ska ansluta.",
+      "readback": "Skickar Wi-Fi-inloggningsuppgifterna till enheten och väntar på att den ska ansluta.",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43359,
+      "key": "component::shelly::config::step::bluetooth_confirm::description",
+      "key_id": "752311887",
+      "translation_id": "7007609053",
+      "en": "The Shelly device {name} has been discovered via Bluetooth but is not connected to Wi-Fi.\n\nDo you want to provision Wi-Fi credentials to this device?",
+      "before": "Shelly-enheten {name} har upptäckts via Bluetooth men är inte ansluten till Wi-Fi. \n\nVill du tillhandahålla Wi-Fi-autentiseringsuppgifter till den här enheten?",
+      "after": "Shelly-enheten {name} har hittats via Bluetooth men är inte ansluten till Wi-Fi.\n\nVill du skicka Wi-Fi-inloggningsuppgifter till enheten?",
+      "readback": "Shelly-enheten {name} har hittats via Bluetooth men är inte ansluten till Wi-Fi.\n\nVill du skicka Wi-Fi-inloggningsuppgifter till enheten?",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43365,
+      "key": "component::shelly::config::step::wifi_scan::data_description::ssid",
+      "key_id": "752311893",
+      "translation_id": "7007609437",
+      "en": "Select a Wi-Fi network from the list or enter a custom SSID for hidden networks.",
+      "before": "Välj ett Wi-Fi-nätverk från listan eller ange ett anpassat SSID för dolda nätverk.",
+      "after": "Välj ett Wi-Fi-nätverk i listan eller ange SSID för ett dolt nätverk.",
+      "readback": "Välj ett Wi-Fi-nätverk i listan eller ange SSID för ett dolt nätverk.",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43366,
+      "key": "component::shelly::config::step::wifi_scan::description",
+      "key_id": "752311894",
+      "translation_id": "7007609501",
+      "en": "Select a Wi-Fi network and enter the password to provision the device.",
+      "before": "Välj ett Wi-Fi-nätverk och ange lösenordet för att konfigurera enheten.",
+      "after": "Välj ett Wi-Fi-nätverk och ange dess lösenord för att konfigurera enheten.",
+      "readback": "Välj ett Wi-Fi-nätverk och ange dess lösenord för att konfigurera enheten.",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43371,
+      "key": "component::systemmonitor::entity::sensor::fan_speed::name",
+      "key_id": "752744847",
+      "translation_id": "7015935348",
+      "en": "{fan_name} fan speed",
+      "before": "{fan_name} fläkthastighet",
+      "after": "Fläkthastighet för {fan_name}",
+      "readback": "Fläkthastighet för {fan_name}",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43372,
+      "key": "component::miele::entity::sensor::finish::name",
+      "key_id": "752933320",
+      "translation_id": "7017612742",
+      "en": "Finish",
+      "before": "Slutför",
+      "after": "Sluttid",
+      "readback": "Sluttid",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43373,
+      "key": "component::miele::entity::sensor::start::name",
+      "key_id": "752933321",
+      "translation_id": "7017612806",
+      "en": "Start",
+      "before": "Starta",
+      "after": "Starttid",
+      "readback": "Starttid",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43395,
+      "key": "component::shelly::entity::sensor::gas_detected::name",
+      "key_id": "753620767",
+      "translation_id": "7029685717",
+      "en": "Gas detected",
+      "before": "Gas upptäcktes",
+      "after": "Gasdetektering",
+      "readback": "Gasdetektering",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43400,
+      "key": "component::shelly::entity::sensor::left_slot_level::name",
+      "key_id": "753620772",
+      "translation_id": "7029686037",
+      "en": "Left slot level",
+      "before": "Vänster fack nivå",
+      "after": "Nivå i vänsterfacket",
+      "readback": "Nivå i vänsterfacket",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43401,
+      "key": "component::shelly::entity::sensor::left_slot_vial::name",
+      "key_id": "753620773",
+      "translation_id": "7029686101",
+      "en": "Left slot vial",
+      "before": "Vänster fack flaska",
+      "after": "Flaska i vänsterfacket",
+      "readback": "Flaska i vänsterfacket",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43415,
+      "key": "component::shelly::entity::sensor::right_slot_level::name",
+      "key_id": "753620787",
+      "translation_id": "7029686997",
+      "en": "Right slot level",
+      "before": "Höger fack nivå",
+      "after": "Nivå i högerfacket",
+      "readback": "Nivå i högerfacket",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43416,
+      "key": "component::shelly::entity::sensor::right_slot_vial::name",
+      "key_id": "753620788",
+      "translation_id": "7029687061",
+      "en": "Right slot vial",
+      "before": "Höger fack flaska",
+      "after": "Flaska i högerfacket",
+      "readback": "Flaska i högerfacket",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43419,
+      "key": "component::shelly::entity::sensor::session_energy::name",
+      "key_id": "753620791",
+      "translation_id": "7029687253",
+      "en": "Session energy",
+      "before": "Session energi",
+      "after": "Energi under sessionen",
+      "readback": "Energi under sessionen",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43429,
+      "key": "component::shelly::entity::sensor::water_flow_rate::name",
+      "key_id": "753620801",
+      "translation_id": "7029687893",
+      "en": "Water flow rate",
+      "before": "Vattenflödes",
+      "after": "Vattenflöde",
+      "readback": "Vattenflöde",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43439,
+      "key": "component::bthome::entity::sensor::raw::name",
+      "key_id": "753650320",
+      "translation_id": "7029933519",
+      "en": "Raw",
+      "before": "Rå",
+      "after": "Råvärde",
+      "readback": "Råvärde",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43425,
+      "key": "component::shelly::entity::sensor::voltage_with_phase_name::name",
+      "key_id": "753620797",
+      "translation_id": "7029687637",
+      "en": "Phase {phase_name} voltage",
+      "before": "Fas {phase_name} spänning",
+      "after": "Spänning i fas {phase_name}",
+      "readback": "Spänning i fas {phase_name}",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43447,
+      "key": "component::shelly::entity::sensor::current_with_phase_name::name",
+      "key_id": "753752341",
+      "translation_id": "7031819694",
+      "en": "Phase {phase_name} current",
+      "before": "Fas {phase_name} ström",
+      "after": "Ström i fas {phase_name}",
+      "readback": "Ström i fas {phase_name}",
+      "role": "reviewed-current-source"
+    },
+    {
+      "position": 43444,
+      "key": "component::shelly::entity::update::beta_firmware::name",
+      "key_id": "753748720",
+      "translation_id": "7031801388",
+      "en": "Beta firmware",
+      "before": "Beta-firmware",
+      "after": "Betaversion av fast programvara",
+      "readback": "Betaversion av fast programvara",
+      "role": "reviewed-current-source"
+    }
+  ],
+  "retroactive_shared_target": {
+    "key": "component::shelly::entity::sensor::detected_objects::unit_of_measurement",
+    "key_id": "709735422",
+    "translation_id": "6564773562",
+    "en": "objects",
+    "before": "föremål",
+    "after": "objekt",
+    "readback": "objekt",
+    "role": "retroactive-shared-reference-target",
+    "affected_alias": "component::shelly::entity::sensor::detected_objects_with_channel_name::unit_of_measurement"
+  }
+}
