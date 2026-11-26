@@ -420,3 +420,8 @@ Alla 120 poster granskades och liveverifierades; 24 ändringar sparades/lästes 
 ## Batch 76: 38,297–38,416
 
 120/120 granskade; 27 rättade, sparade och återlästa; 93 värden behållna. Källstatus: {'current-source-match': 63, 'source-absent': 41, 'reference-resolved': 16}. Referenser: 16/16 alias till 14 mål. Platshållare 120/120. 41 källvägar behöver följas upp. TMX-manifest tillagt.
+
+
+## Batch 77: 38,417–38,536
+
+120/120 granskade; 26 ändringar sparade och liveåterlästa, 94 behållna. Källstatus: {'current-source-match': 65, 'source-absent': 15, 'reference-resolved': 40}. Referenser 40/40 till 32 mål verifierade efter synkronisering. Platshållare 120/120. 15 källvägar markeras för uppföljning. TMX-manifest tillagt.
