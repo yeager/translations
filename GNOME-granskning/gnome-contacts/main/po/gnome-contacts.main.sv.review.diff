@@ -1,0 +1,331 @@
+--- gnome-contacts.main.sv.original.po
++++ gnome-contacts.main.sv.reviewed.po
+@@ -12,8 +12,8 @@
+ "Project-Id-Version: gnome-contacts\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-contacts/issues\n"
+ "POT-Creation-Date: 2026-10-16 14:23+0000\n"
+-"PO-Revision-Date: 2026-01-15 21:26+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-26 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -34,30 +34,31 @@
+ msgid "Manage your contacts"
+ msgstr "Hantera dina kontakter"
+ 
+-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
++#. Translators: Search terms to find this application. Do NOT translate or
++#. localize the semicolons! The list MUST also end with a semicolon!
+ #: data/org.gnome.Contacts.desktop.in.in:5
+ msgid "friends;address book;"
+ msgstr "vänner;adressbok;"
+ 
+ #: data/org.gnome.Contacts.metainfo.xml.in.in:9
+ msgid ""
+-"Contacts keeps and organize your contacts information. You can create, edit, "
+-"delete and link together pieces of information about your contacts. Contacts "
+-"aggregates the details from all your sources providing a centralized place "
+-"for managing your contacts."
+-msgstr ""
+-"Kontakter lagrar och organiserar dina kontakters information. Du kan skapa, "
+-"redigera, ta bort och länka ihop delar av information om dina kontakter. "
+-"Kontakter sammanför detaljerna från alla dina källor och tillhandahåller en "
+-"central plats för att hantera dina kontakter."
++"Contacts keeps and organize your contacts information. You can create, edit,"
++" delete and link together pieces of information about your contacts. "
++"Contacts aggregates the details from all your sources providing a "
++"centralized place for managing your contacts."
++msgstr ""
++"Kontakter lagrar och organiserar kontaktuppgifter. Du kan skapa, redigera "
++"och ta bort uppgifter om dina kontakter och länka ihop dem. Appen samlar "
++"information från alla dina källor på ett ställe så att du enkelt kan hantera"
++" dina kontakter."
+ 
+ #: data/org.gnome.Contacts.metainfo.xml.in.in:15
+ msgid ""
+ "Contacts will also integrate with online address books and automatically "
+ "link contacts from different online sources."
+ msgstr ""
+-"Kontakter integrerar med adressböcker på nätet och länkar automatiskt "
+-"kontakter från olika källor."
++"Kontakter kan även integreras med adressböcker på nätet och länka ihop "
++"kontakter automatiskt när de hämtas från olika källor."
+ 
+ #: data/org.gnome.Contacts.metainfo.xml.in.in:22
+ msgid "Contacts with no contacts"
+@@ -65,7 +66,7 @@
+ 
+ #: data/org.gnome.Contacts.metainfo.xml.in.in:26
+ msgid "Contacts filled with contacts"
+-msgstr "Kontakter fyllt med kontakter"
++msgstr "Kontakter fyllda med kontakter"
+ 
+ #: data/org.gnome.Contacts.metainfo.xml.in.in:30
+ msgid "Contacts in selection mode"
+@@ -101,7 +102,7 @@
+ #: data/ui/contacts-main-window.blp:309 data/ui/contacts-setup-window.blp:27
+ #: src/contacts-main-window.vala:215
+ msgid "_Done"
+-msgstr "_Färdig"
++msgstr "_Klart"
+ 
+ #: data/ui/contacts-avatar-selector.blp:72
+ msgid "_Take a Picture…"
+@@ -168,7 +169,7 @@
+ 
+ #: data/ui/contacts-main-window.blp:7
+ msgid "List Contacts By:"
+-msgstr "Lista kontakter enligt:"
++msgstr "Sortera kontakter efter:"
+ 
+ #: data/ui/contacts-main-window.blp:10
+ msgid "_First Name"
+@@ -300,7 +301,8 @@
+ msgid "Cancel Setup And Quit"
+ msgstr "Avbryt konfiguration och avsluta"
+ 
+-#. Translators: "Complete" is a verb here: a user finishes the setup by clicking this button
++#. Translators: "Complete" is a verb here: a user finishes the setup by
++#. clicking this button
+ #: data/ui/contacts-setup-window.blp:29
+ msgid "Complete setup"
+ msgstr "Slutför konfiguration"
+@@ -315,9 +317,9 @@
+ "added. If you keep your contacts in an online account, you can add them "
+ "using the online accounts settings."
+ msgstr ""
+-"Välj din huvudsakliga adressbok: det här är var nya kontakter kommer att "
+-"läggas till. Om du vill behålla dina kontakter i ett nätkonto kan du lägga "
+-"till dem med nätkontoinställningarna."
++"Välj den adressbok du använder främst: där läggs nya kontakter till. Om du "
++"har kontakter på ett nätkonto kan du lägga till kontot via inställningarna "
++"för nätkonton."
+ 
+ #: data/ui/contacts-shortcuts-dialog.blp:7
+ msgctxt "shortcut window"
+@@ -367,20 +369,20 @@
+ #: data/ui/contacts-shortcuts-dialog.blp:50
+ msgctxt "shortcut window"
+ msgid "Save current changes to contact"
+-msgstr "Spara aktuella ändringar till kontakt"
++msgstr "Spara kontaktens ändringar"
+ 
+ #: data/ui/contacts-shortcuts-dialog.blp:55
+ msgctxt "shortcut window"
+ msgid "Cancel current changes for contact"
+-msgstr "Avbryt aktuella ändringar för kontakt"
++msgstr "Ångra ändringarna i kontakten"
+ 
+ #: src/contacts-app.vala:35
+ msgid "Show contact with this email address"
+-msgstr "Visa kontakt med denna e-postadress"
++msgstr "Visa kontakten med den här e-postadressen"
+ 
+ #: src/contacts-app.vala:36
+ msgid "Show contact with this individual id"
+-msgstr "Visa kontakt med detta individuella id"
++msgstr "Visa kontakten med det här ID:t"
+ 
+ #: src/contacts-app.vala:37
+ msgid "Show contacts with the given filter"
+@@ -388,7 +390,7 @@
+ 
+ #: src/contacts-app.vala:38
+ msgid "Show the current version of Contacts"
+-msgstr "Visa aktuell version av Kontakter"
++msgstr "Visa vilken version av Kontakter som används"
+ 
+ #: src/contacts-app.vala:103 src/contacts-app.vala:164
+ msgid "Contact not found"
+@@ -397,7 +399,7 @@
+ #: src/contacts-app.vala:104
+ #, c-format
+ msgid "No contact with id %s found"
+-msgstr "Ingen kontakt med id %s hittades"
++msgstr "Ingen kontakt med ID:t %s hittades"
+ 
+ #: src/contacts-app.vala:105 src/contacts-app.vala:166
+ #: src/contacts-avatar-selector.vala:248
+@@ -421,7 +423,7 @@
+ "© 2011-2020 The Contacts Developers"
+ msgstr ""
+ "© 2011 Red Hat, Inc.\n"
+-"© 2011-2020 Utvecklarna av Kontakter"
++"© 2011–2020 Utvecklarna av Kontakter"
+ 
+ #: src/contacts-app.vala:165
+ #, c-format
+@@ -474,7 +476,7 @@
+ 
+ #: src/contacts-avatar-selector.vala:247
+ msgid "Failed to set avatar."
+-msgstr "Misslyckades med att ställa in profilbild."
++msgstr "Det gick inte att ställa in profilbilden."
+ 
+ #: src/contacts-contact-editor.vala:190
+ msgid "_Show More"
+@@ -486,7 +488,7 @@
+ 
+ #: src/contacts-contact-editor.vala:309
+ msgid "Add phone number"
+-msgstr "Lägg till ett telefonnummer"
++msgstr "Lägg till telefonnummer"
+ 
+ #: src/contacts-contact-editor.vala:336
+ msgid "Website"
+@@ -521,7 +523,7 @@
+ 
+ #: src/contacts-contact-editor.vala:724
+ msgid "Street"
+-msgstr "Gata"
++msgstr "Gatuadress"
+ 
+ #: src/contacts-contact-editor.vala:724
+ msgid "Extension"
+@@ -533,7 +535,7 @@
+ 
+ #: src/contacts-contact-editor.vala:724
+ msgid "State/Province"
+-msgstr "Län/Provins"
++msgstr "Län/region"
+ 
+ #: src/contacts-contact-editor.vala:724
+ msgid "Zip/Postal Code"
+@@ -541,7 +543,7 @@
+ 
+ #: src/contacts-contact-editor.vala:724
+ msgid "PO box"
+-msgstr "Box"
++msgstr "Postbox"
+ 
+ #: src/contacts-contact-editor.vala:724
+ msgid "Country"
+@@ -717,15 +719,15 @@
+ #, c-format
+ msgid "By continuing, you will import %u contact"
+ msgid_plural "By continuing, you will import %u contacts"
+-msgstr[0] "Genom att fortsätta kommer du importera %u kontakt"
+-msgstr[1] "Genom att fortsätta kommer du importera %u kontakter"
++msgstr[0] "Om du fortsätter importeras %u kontakt"
++msgstr[1] "Om du fortsätter importeras %u kontakter"
+ 
+ #: src/contacts-link-operation.vala:27
+ #, c-format
+ msgid "Linked %d contact"
+ msgid_plural "Linked %d contacts"
+-msgstr[0] "Länkade %d kontakt"
+-msgstr[1] "Länkade %d kontakter"
++msgstr[0] "Länkade ihop %d kontakt"
++msgstr[1] "Länkade ihop %d kontakter"
+ 
+ #: src/contacts-link-suggestion-grid.vala:38
+ #, c-format
+@@ -741,8 +743,8 @@
+ #, c-format
+ msgid "%llu Selected"
+ msgid_plural "%llu Selected"
+-msgstr[0] "%llu vald"
+-msgstr[1] "%llu valda"
++msgstr[0] "%llu markerad"
++msgstr[1] "%llu markerade"
+ 
+ #: src/contacts-main-window.vala:215
+ msgid "_Add"
+@@ -757,13 +759,13 @@
+ #, c-format
+ msgid "%d Selected"
+ msgid_plural "%d Selected"
+-msgstr[0] "%d vald"
+-msgstr[1] "%d valda"
++msgstr[0] "%d markerad"
++msgstr[1] "%d markerade"
+ 
+ #: src/contacts-main-window.vala:302 src/contacts-main-window.vala:532
+ #: src/contacts-main-window.vala:577
+ msgid "_Undo"
+-msgstr "_Ångra"
++msgstr "Å_ngra"
+ 
+ #: src/contacts-main-window.vala:402
+ msgid "New Contact"
+@@ -841,7 +843,7 @@
+ 
+ #: src/core/contacts-im-addresses-chunk.vala:18
+ msgid "Instant Messaging addresses"
+-msgstr "Snabbmeddelandeadresser"
++msgstr "Adresser för snabbmeddelanden"
+ 
+ #: src/core/contacts-notes-chunk.vala:17
+ msgid "Notes"
+@@ -960,7 +962,8 @@
+ #: src/org.gnome.Contacts.gschema.xml:7
+ msgid "Set to true after the user has run the first-time setup wizard."
+ msgstr ""
+-"Ställ in till true (sant) när användaren har kört förstagångskonfigurationen."
++"Ställ in till true (sant) när användaren har kört "
++"förstagångskonfigurationen."
+ 
+ #: src/org.gnome.Contacts.gschema.xml:11
+ msgid "Sort contacts on surname."
+@@ -971,33 +974,32 @@
+ "If this is set to true, the list of contacts will be sorted on their "
+ "surnames. Otherwise, it will be sorted on the first names of the contacts."
+ msgstr ""
+-"Om detta är satt till true (sant) kommer kontaktlistan att sorteras i "
+-"efternamnsordning. I annat fall kommer den att sorteras enligt kontakternas "
+-"förnamn."
++"Om värdet är true (sant) sorteras kontaktlistan efter efternamn. Annars "
++"sorteras den efter förnamn."
+ 
+ #: src/org.gnome.Contacts.gschema.xml:19
+ msgid "The default height of the contacts window."
+-msgstr "Standardhöjden för kontaktfönstret."
++msgstr "Standardhöjden för fönstret Kontakter."
+ 
+ #: src/org.gnome.Contacts.gschema.xml:20
+ msgid ""
+-"If the window size has not been changed by the user yet this will be used as "
+-"the initial value for the height of the window."
++"If the window size has not been changed by the user yet this will be used as"
++" the initial value for the height of the window."
+ msgstr ""
+-"Om fönsterstorleken inte ännu har ändrats av användaren kommer detta att "
+-"användas som det ursprungliga värdet för höjden på fönstret."
++"Om användaren inte har ändrat fönstrets storlek används det här värdet som "
++"starthöjd."
+ 
+ #: src/org.gnome.Contacts.gschema.xml:26
+ msgid "The default width of the contacts window."
+-msgstr "Standardbredden för kontaktfönstret."
++msgstr "Standardbredden för fönstret Kontakter."
+ 
+ #: src/org.gnome.Contacts.gschema.xml:27
+ msgid ""
+-"If the window size has not been changed by the user yet this will be used as "
+-"the initial value for the width of the window."
++"If the window size has not been changed by the user yet this will be used as"
++" the initial value for the width of the window."
+ msgstr ""
+-"Om fönsterstorleken inte ännu har ändrats av användaren kommer detta att "
+-"användas som det ursprungliga värdet för bredden på fönstret."
++"Om användaren inte har ändrat fönstrets storlek används det här värdet som "
++"startbredd."
+ 
+ #: src/org.gnome.Contacts.gschema.xml:32
+ msgid "Is the window maximized?"
+@@ -1005,11 +1007,11 @@
+ 
+ #: src/org.gnome.Contacts.gschema.xml:33 src/org.gnome.Contacts.gschema.xml:38
+ msgid "Stores if the window is currently maximized."
+-msgstr "Lagrar om fönstret för närvarande är maximerat."
++msgstr "Lagrar om fönstret är maximerat."
+ 
+ #: src/org.gnome.Contacts.gschema.xml:37
+ msgid "Is the window fullscreen"
+-msgstr "Täcker fönstret hela skärmen"
++msgstr "Om fönstret är i helskärmsläge"
+ 
+ #~ msgid "Can't import: no contacts found"
+ #~ msgstr "Kan inte importera: inga kontakter hittades"

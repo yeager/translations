@@ -48,6 +48,18 @@ listan är stöd, inte en ursäkt för mekanisk ersättning.
 | import / export | importera / exportera | |
 | clipboard | urklipp | |
 
+## Kontakter
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| contact | kontakt | Appen **Kontakter**. |
+| contact details | kontaktuppgifter | Undvik *kontakters information*. |
+| address book | adressbok | Plural: *adressböcker*. |
+| avatar | profilbild | I gränssnittet för Kontakter. |
+| selected (contacts) | markerad / markerade | Använd *markera* för åtgärden att välja kontakter i listan. |
+| link contacts | länka kontakter | När samma person finns i flera adressböcker. |
+| online accounts | nätkonton | Namnet på GNOME-funktionen **Nätkonton**. |
+
 ## System och teknik
 
 | Engelska | Rekommenderad svenska | Anmärkning |
