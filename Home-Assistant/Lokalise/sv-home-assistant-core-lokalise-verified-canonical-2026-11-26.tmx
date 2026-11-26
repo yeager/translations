@@ -17316,20 +17316,7 @@ Om koden inte kopieras automatiskt klistrar du in följande kod för att auktori
 
 Inloggningsförsöket upphör efter {expires_minutes} minuter.</seg></tuv></tu>
     <tu tuid="lokalise:7308285223"><prop type="source">component::actron_air::config::step::reauth_confirm::title</prop><prop type="lokalise-key-id">772876453</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Authentication expired</seg></tuv><tuv xml:lang="sv"><seg>Autentiseringen har löpt ut</seg></tuv></tu>
-    <tu tuid="lokalise:7401855492">
-      <prop type="source">component::actron_air::exceptions::update_error::message</prop>
-      <prop type="lokalise-key-id">780057714</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>An error occurred while retrieving data from the Actron Air API: {error}</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ett fel uppstod när data hämtades från Actron Air-API:t: {error}</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:7401855492"><prop type="source">component::actron_air::exceptions::update_error::message</prop><prop type="lokalise-key-id">780057714</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>An error occurred while retrieving data from the Actron Air API: {error}</seg></tuv><tuv xml:lang="sv"><seg>Ett fel uppstod när data hämtades från Actron Air-API:t: {error}</seg></tuv></tu>
     <tu tuid="lokalise:8107787402">
       <prop type="source">component::actron_air::exceptions::setup_connection_error::message</prop>
       <prop type="lokalise-key-id">827699053</prop>
@@ -22127,20 +22114,7 @@ Uppdatera dina automatiseringar och skript för att använda `Home Assistant Cor
         <seg>Ett fel uppstod när data skickades till BSB-LAN-enheten</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:7401856737">
-      <prop type="source">component::bsblan::exceptions::set_schedule_failed::message</prop>
-      <prop type="lokalise-key-id">780057750</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Failed to set hot water schedule: {error}</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Det gick inte att ställa in varmvattenschemat: {error}</seg>
-      </tuv>
-    </tu>
+    <tu tuid="lokalise:7401856737"><prop type="source">component::bsblan::exceptions::set_schedule_failed::message</prop><prop type="lokalise-key-id">780057750</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Failed to set hot water schedule: {error}</seg></tuv><tuv xml:lang="sv"><seg>Det gick inte att ställa in varmvattenschemat: {error}</seg></tuv></tu>
     <tu tuid="lokalise:7789472444">
       <prop type="source">component::bsblan::entity::sensor::total_energy::name</prop>
       <prop type="lokalise-key-id">806301001</prop>
@@ -27088,100 +27062,28 @@ Steg:
         <seg>Lutningsposition</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:7401973878">
-      <prop type="source">component::wsdot::config::step::user::data_description::api_key</prop>
-      <prop type="lokalise-key-id">780070021</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Your WSDOT API key.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Din API-nyckel för WSDOT.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401973686">
-      <prop type="source">component::wsdot::config::error::invalid_travel_time_id</prop>
-      <prop type="lokalise-key-id">780070018</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>WSDOT TravelTimeId does not describe a valid travel time route {travel_time_id}</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>WSDOT TravelTimeId anger inte en giltig restidsrutt: {travel_time_id}</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401974454">
-      <prop type="source">component::wsdot::issues::deprecated_yaml_import_issue_cannot_connect::description</prop>
-      <prop type="lokalise-key-id">780070030</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Live Lokalise API readback after placeholder audit; A. O. Smith password synced to current source and stale TMX records repaired.</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-23</prop>
-      <tuv xml:lang="en">
-        <seg>Configuring {domain} using YAML sensor platform is deprecated.
+    <tu tuid="lokalise:7401973878"><prop type="source">component::wsdot::config::step::user::data_description::api_key</prop><prop type="lokalise-key-id">780070021</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Your WSDOT API key.</seg></tuv><tuv xml:lang="sv"><seg>Din API-nyckel för WSDOT.</seg></tuv></tu>
+    <tu tuid="lokalise:7401973686"><prop type="source">component::wsdot::config::error::invalid_travel_time_id</prop><prop type="lokalise-key-id">780070018</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; historical key already documented; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>WSDOT TravelTimeId does not describe a valid travel time route {travel_time_id}</seg></tuv><tuv xml:lang="sv"><seg>WSDOT TravelTimeId anger inte en giltig restidsrutt: {travel_time_id}</seg></tuv></tu>
+    <tu tuid="lokalise:7401974454"><prop type="source">component::wsdot::issues::deprecated_yaml_import_issue_cannot_connect::description</prop><prop type="lokalise-key-id">780070030</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; historical key already documented; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Configuring {domain} using YAML sensor platform is deprecated.
 
-While importing your configuration, Home Assistant could not connect to the {domain} API. Please check your internet connection and the status of the {domain} API, then restart Home Assistant to try again, or remove the existing YAML configuration and set the integration up via the UI.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Konfiguration av {domain} med YAML-sensorplattformen är föråldrad.
+While importing your configuration, Home Assistant could not connect to the {domain} API. Please check your internet connection and the status of the {domain} API, then restart Home Assistant to try again, or remove the existing YAML configuration and set the integration up via the UI.</seg></tuv><tuv xml:lang="sv"><seg>Konfiguration av {domain} med YAML-sensorplattformen är föråldrad.
 
-När konfigurationen importerades kunde Home Assistant inte ansluta till {domain}-API:t. Kontrollera internetanslutningen och statusen för {domain}-API:t. Starta sedan om Home Assistant för att försöka igen, eller ta bort den befintliga YAML-konfigurationen och konfigurera integrationen via användargränssnittet.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401974582">
-      <prop type="source">component::wsdot::issues::deprecated_yaml_import_issue_invalid_auth::description</prop>
-      <prop type="lokalise-key-id">780070032</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>Configuring {domain} using YAML sensor platform is deprecated.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Konfiguration av {domain} med YAML-sensorplattformen är föråldrad.
+När konfigurationen importerades kunde Home Assistant inte ansluta till {domain}-API:t. Kontrollera internetanslutningen och statusen för {domain}-API:t. Starta sedan om Home Assistant för att försöka igen, eller ta bort den befintliga YAML-konfigurationen och konfigurera integrationen via användargränssnittet.</seg></tuv></tu>
+    <tu tuid="lokalise:7401974582"><prop type="source">component::wsdot::issues::deprecated_yaml_import_issue_invalid_auth::description</prop><prop type="lokalise-key-id">780070032</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; historical key already documented; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Configuring {domain} using YAML sensor platform is deprecated.
 
-När konfigurationen importerades hittades en ogiltig API-nyckel. Uppdatera YAML-konfigurationen eller ta bort den befintliga YAML-konfigurationen och konfigurera integrationen via användargränssnittet.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401974710">
-      <prop type="source">component::wsdot::issues::deprecated_yaml_import_issue_invalid_travel_time_id::description</prop>
-      <prop type="lokalise-key-id">780070034</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>Configuring {domain} using YAML sensor platform is deprecated.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Konfiguration av {domain} med YAML-sensorplattformen är föråldrad.
+While importing your configuration, an invalid API key was found. Please update your YAML configuration, or remove the existing YAML configuration and set the integration up via the UI.</seg></tuv><tuv xml:lang="sv"><seg>Konfiguration av {domain} med YAML-sensorplattformen är föråldrad.
 
-När konfigurationen importerades hittades ett ogiltigt travel_time_id. Uppdatera YAML-konfigurationen eller ta bort den befintliga YAML-konfigurationen och konfigurera integrationen via användargränssnittet.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401974838">
-      <prop type="source">component::wsdot::issues::deprecated_yaml_import_issue_unknown::description</prop>
-      <prop type="lokalise-key-id">780070036</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by GET readback</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
-      <tuv xml:lang="en">
-        <seg>Configuring {domain} using YAML sensor platform is deprecated.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Konfiguration av {domain} med YAML-sensorplattformen är föråldrad.
+När konfigurationen importerades hittades en ogiltig API-nyckel. Uppdatera YAML-konfigurationen eller ta bort den befintliga YAML-konfigurationen och konfigurera integrationen via användargränssnittet.</seg></tuv></tu>
+    <tu tuid="lokalise:7401974710"><prop type="source">component::wsdot::issues::deprecated_yaml_import_issue_invalid_travel_time_id::description</prop><prop type="lokalise-key-id">780070034</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; historical key already documented; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Configuring {domain} using YAML sensor platform is deprecated.
 
-Ett okänt fel uppstod när konfigurationen importerades. Starta om Home Assistant för att försöka igen, eller ta bort den befintliga YAML-konfigurationen och konfigurera integrationen via användargränssnittet.</seg>
-      </tuv>
-    </tu>
+While importing your configuration, an invalid travel_time_id was found. Please update your YAML configuration, or remove the existing YAML configuration and set the integration up via the UI.</seg></tuv><tuv xml:lang="sv"><seg>Konfiguration av {domain} med YAML-sensorplattformen är föråldrad.
+
+När konfigurationen importerades hittades ett ogiltigt travel_time_id. Uppdatera YAML-konfigurationen eller ta bort den befintliga YAML-konfigurationen och konfigurera integrationen via användargränssnittet.</seg></tuv></tu>
+    <tu tuid="lokalise:7401974838"><prop type="source">component::wsdot::issues::deprecated_yaml_import_issue_unknown::description</prop><prop type="lokalise-key-id">780070036</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; historical key already documented; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Configuring {domain} using YAML sensor platform is deprecated.
+
+While importing your configuration, an unknown error occurred. Please restart Home Assistant to try again, or remove the existing YAML configuration and set the integration up via the UI.</seg></tuv><tuv xml:lang="sv"><seg>Konfiguration av {domain} med YAML-sensorplattformen är föråldrad.
+
+Ett okänt fel uppstod när konfigurationen importerades. Starta om Home Assistant för att försöka igen, eller ta bort den befintliga YAML-konfigurationen och konfigurera integrationen via användargränssnittet.</seg></tuv></tu>
     <tu tuid="lokalise:5477258710">
       <prop type="source">component::watergate::entity::event::auto_shut_off_duration::name</prop>
       <prop type="lokalise-key-id">624573987</prop>
@@ -262527,1382 +262429,108 @@ När du har aktiverat JSON API skickar du in formuläret igen.</seg>
         <seg>Pausad</seg>
       </tuv>
     </tu>
-    <tu tuid="lokalise:7418322577">
-      <prop type="source">component::portainer::entity::sensor::container_state::state::exited</prop>
-      <prop type="lokalise-key-id">781052240</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Exited</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Avslutad</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7418322513">
-      <prop type="source">component::portainer::entity::sensor::container_state::state::dead</prop>
-      <prop type="lokalise-key-id">781052239</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Dead</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Död</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7418322449">
-      <prop type="source">component::portainer::entity::sensor::container_state::state::created</prop>
-      <prop type="lokalise-key-id">781052238</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Created</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Skapad</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7418322385">
-      <prop type="source">component::portainer::entity::sensor::container_state::name</prop>
-      <prop type="lokalise-key-id">781052237</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>State</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tillstånd</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7418251132">
-      <prop type="source">component::fressnapf_tracker::exceptions::api_error::message</prop>
-      <prop type="lokalise-key-id">781043503</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>An error occurred while communicating with the Fressnapf Tracker API: {error_message}</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ett fel uppstod vid kommunikation med Fressnapf Tracker-API:t: {error_message}</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7418232895">
-      <prop type="source">component::tplink_omada::config::abort::device_mismatch</prop>
-      <prop type="lokalise-key-id">781041855</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Please ensure you reauthenticate the same controller.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Se till att du autentiserar samma styrenhet igen.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7418049595">
-      <prop type="source">component::miele::entity::sensor::twin_dos_2_level::name</prop>
-      <prop type="lokalise-key-id">781017302</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>TwinDos 2 level</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Nivå för TwinDos 2</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7418049531">
-      <prop type="source">component::miele::entity::sensor::twin_dos_1_level::name</prop>
-      <prop type="lokalise-key-id">781017301</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>TwinDos 1 level</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Nivå för TwinDos 1</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7418049467">
-      <prop type="source">component::miele::entity::sensor::salt_level::name</prop>
-      <prop type="lokalise-key-id">781017300</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Salt level</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Saltnivå</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7418049403">
-      <prop type="source">component::miele::entity::sensor::rinse_aid_level::name</prop>
-      <prop type="lokalise-key-id">781017299</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Rinse aid level</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Glansmedelsnivå</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7418049339">
-      <prop type="source">component::miele::entity::sensor::power_disk_level::name</prop>
-      <prop type="lokalise-key-id">781017298</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>PowerDisk level</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>PowerDisk-nivå</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7418023267">
-      <prop type="source">component::bsblan::services::sync_time::name</prop>
-      <prop type="lokalise-key-id">781016803</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Sync time</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Synkronisera tiden</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7418023203">
-      <prop type="source">component::bsblan::services::sync_time::fields::device_id::name</prop>
-      <prop type="lokalise-key-id">781016802</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Device</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Enhet</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7418023139">
-      <prop type="source">component::bsblan::services::sync_time::fields::device_id::description</prop>
-      <prop type="lokalise-key-id">781016801</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>The BSB-LAN device to sync time for.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>BSB-LAN-enheten vars klocka ska synkroniseras.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7418023075">
-      <prop type="source">component::bsblan::services::sync_time::description</prop>
-      <prop type="lokalise-key-id">781016800</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Synchronize Home Assistant time to the BSB-LAN device. Only updates if device time differs from Home Assistant time.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Synkronisera tiden från Home Assistant till BSB-LAN-enheten. Klockan uppdateras bara om enhetens tid skiljer sig från tiden i Home Assistant.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7418023011">
-      <prop type="source">component::bsblan::exceptions::sync_time_failed::message</prop>
-      <prop type="lokalise-key-id">781016799</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Failed to sync time for {device_name}: {error}</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Det gick inte att synkronisera tiden för {device_name}: {error}</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7416524574">
-      <prop type="source">component::pooldose::config::step::reconfigure::data_description::host</prop>
-      <prop type="lokalise-key-id">780873567</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>IP address or hostname of your device</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>IP-adress eller värdnamn för din enhet</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7416524510">
-      <prop type="source">component::pooldose::config::step::reconfigure::data::host</prop>
-      <prop type="lokalise-key-id">780873566</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Host</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Värd</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7416524446">
-      <prop type="source">component::pooldose::config::abort::wrong_device</prop>
-      <prop type="lokalise-key-id">780873565</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>The provided device does not match the configured device</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Den angivna enheten matchar inte den konfigurerade enheten</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7416523684">
-      <prop type="source">component::velbus::exceptions::connection_failed::message</prop>
-      <prop type="lokalise-key-id">780873502</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Could not connect to Velbus.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Det gick inte att ansluta till Velbus.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7416523620">
-      <prop type="source">component::velbus::exceptions::api_call_failed::message</prop>
-      <prop type="lokalise-key-id">780873501</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Action execute for {entity} failed.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Det gick inte att utföra åtgärden för {entity}.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7415742967">
-      <prop type="source">component::vesync::config::step::user::description</prop>
-      <prop type="lokalise-key-id">780860822</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Enter the account used in the vesync app. 2FA is not supported and must be disabled.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ange kontot som används i VeSync-appen. Tvåfaktorsautentisering stöds inte och måste inaktiveras.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7415742903">
-      <prop type="source">component::vesync::config::step::user::data_description::username</prop>
-      <prop type="lokalise-key-id">780860821</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Email address associated with your VeSync account</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>E-postadress kopplad till ditt VeSync-konto</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7415742839">
-      <prop type="source">component::vesync::config::step::user::data_description::password</prop>
-      <prop type="lokalise-key-id">780860820</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Password associated with your VeSync account</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Lösenord kopplat till ditt VeSync-konto</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7415742775">
-      <prop type="source">component::vesync::config::step::reauth_confirm::data_description::username</prop>
-      <prop type="lokalise-key-id">780860819</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Email address associated with your VeSync account</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>E-postadress kopplad till ditt VeSync-konto</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7415742711">
-      <prop type="source">component::vesync::config::step::reauth_confirm::data_description::password</prop>
-      <prop type="lokalise-key-id">780860818</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Password associated with your VeSync account</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Lösenord kopplat till ditt VeSync-konto</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7415642646">
-      <prop type="source">component::vesync::entity::switch::auto_off_config::name</prop>
-      <prop type="lokalise-key-id">780844926</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Auto Off</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Automatisk avstängning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7414615623">
-      <prop type="source">component::netgear_lte::exceptions::config_entry_not_found::message</prop>
-      <prop type="lokalise-key-id">780544358</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Failed to perform action "{service}". Config entry for target not found</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Det gick inte att utföra åtgärden ”{service}”. Ingen konfigurationspost hittades för målet.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7407436546">
-      <prop type="source">component::knx::config_panel::dialogs::project_upload::title</prop>
-      <prop type="lokalise-key-id">780333660</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Import ETS project</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Importera ETS-projekt</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7407436482">
-      <prop type="source">component::knx::config_panel::dialogs::project_upload::file_upload_label</prop>
-      <prop type="lokalise-key-id">780333659</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>ETS project file</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>ETS-projektfil</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7407436418">
-      <prop type="source">component::knx::config_panel::dialogs::project_upload::description</prop>
-      <prop type="lokalise-key-id">780333658</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Details such as group address names, datapoint types, devices and group objects are extracted from your project file. The ETS project file itself and its optional password are not stored.
+    <tu tuid="lokalise:7418322577"><prop type="source">component::portainer::entity::sensor::container_state::state::exited</prop><prop type="lokalise-key-id">781052240</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Exited</seg></tuv><tuv xml:lang="sv"><seg>Avslutad</seg></tuv></tu>
+    <tu tuid="lokalise:7418322513"><prop type="source">component::portainer::entity::sensor::container_state::state::dead</prop><prop type="lokalise-key-id">781052239</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Dead</seg></tuv><tuv xml:lang="sv"><seg>Död</seg></tuv></tu>
+    <tu tuid="lokalise:7418322449"><prop type="source">component::portainer::entity::sensor::container_state::state::created</prop><prop type="lokalise-key-id">781052238</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Created</seg></tuv><tuv xml:lang="sv"><seg>Skapad</seg></tuv></tu>
+    <tu tuid="lokalise:7418322385"><prop type="source">component::portainer::entity::sensor::container_state::name</prop><prop type="lokalise-key-id">781052237</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>State</seg></tuv><tuv xml:lang="sv"><seg>Tillstånd</seg></tuv></tu>
+    <tu tuid="lokalise:7418251132"><prop type="source">component::fressnapf_tracker::exceptions::api_error::message</prop><prop type="lokalise-key-id">781043503</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>An error occurred while communicating with the Fressnapf Tracker API: {error_message}</seg></tuv><tuv xml:lang="sv"><seg>Ett fel uppstod vid kommunikation med Fressnapf Tracker-API:t: {error_message}</seg></tuv></tu>
+    <tu tuid="lokalise:7418232895"><prop type="source">component::tplink_omada::config::abort::device_mismatch</prop><prop type="lokalise-key-id">781041855</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Please ensure you reauthenticate the same controller.</seg></tuv><tuv xml:lang="sv"><seg>Se till att du autentiserar samma styrenhet igen.</seg></tuv></tu>
+    <tu tuid="lokalise:7418049595"><prop type="source">component::miele::entity::sensor::twin_dos_2_level::name</prop><prop type="lokalise-key-id">781017302</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>TwinDos 2 level</seg></tuv><tuv xml:lang="sv"><seg>Nivå för TwinDos 2</seg></tuv></tu>
+    <tu tuid="lokalise:7418049531"><prop type="source">component::miele::entity::sensor::twin_dos_1_level::name</prop><prop type="lokalise-key-id">781017301</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>TwinDos 1 level</seg></tuv><tuv xml:lang="sv"><seg>Nivå för TwinDos 1</seg></tuv></tu>
+    <tu tuid="lokalise:7418049467"><prop type="source">component::miele::entity::sensor::salt_level::name</prop><prop type="lokalise-key-id">781017300</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Salt level</seg></tuv><tuv xml:lang="sv"><seg>Saltnivå</seg></tuv></tu>
+    <tu tuid="lokalise:7418049403"><prop type="source">component::miele::entity::sensor::rinse_aid_level::name</prop><prop type="lokalise-key-id">781017299</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Rinse aid level</seg></tuv><tuv xml:lang="sv"><seg>Glansmedelsnivå</seg></tuv></tu>
+    <tu tuid="lokalise:7418049339"><prop type="source">component::miele::entity::sensor::power_disk_level::name</prop><prop type="lokalise-key-id">781017298</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>PowerDisk level</seg></tuv><tuv xml:lang="sv"><seg>PowerDisk-nivå</seg></tuv></tu>
+    <tu tuid="lokalise:7418023267"><prop type="source">component::bsblan::services::sync_time::name</prop><prop type="lokalise-key-id">781016803</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Sync time</seg></tuv><tuv xml:lang="sv"><seg>Synkronisera tiden</seg></tuv></tu>
+    <tu tuid="lokalise:7418023203"><prop type="source">component::bsblan::services::sync_time::fields::device_id::name</prop><prop type="lokalise-key-id">781016802</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Device</seg></tuv><tuv xml:lang="sv"><seg>Enhet</seg></tuv></tu>
+    <tu tuid="lokalise:7418023139"><prop type="source">component::bsblan::services::sync_time::fields::device_id::description</prop><prop type="lokalise-key-id">781016801</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>The BSB-LAN device to sync time for.</seg></tuv><tuv xml:lang="sv"><seg>BSB-LAN-enheten vars klocka ska synkroniseras.</seg></tuv></tu>
+    <tu tuid="lokalise:7418023075"><prop type="source">component::bsblan::services::sync_time::description</prop><prop type="lokalise-key-id">781016800</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Synchronize Home Assistant time to the BSB-LAN device. Only updates if device time differs from Home Assistant time.</seg></tuv><tuv xml:lang="sv"><seg>Synkronisera tiden från Home Assistant till BSB-LAN-enheten. Klockan uppdateras bara om enhetens tid skiljer sig från tiden i Home Assistant.</seg></tuv></tu>
+    <tu tuid="lokalise:7418023011"><prop type="source">component::bsblan::exceptions::sync_time_failed::message</prop><prop type="lokalise-key-id">781016799</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Failed to sync time for {device_name}: {error}</seg></tuv><tuv xml:lang="sv"><seg>Det gick inte att synkronisera tiden för {device_name}: {error}</seg></tuv></tu>
+    <tu tuid="lokalise:7416524574"><prop type="source">component::pooldose::config::step::reconfigure::data_description::host</prop><prop type="lokalise-key-id">780873567</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; English source and Swedish reference target matched</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>IP address or hostname of your device</seg></tuv><tuv xml:lang="sv"><seg>IP-adress eller värdnamn för din enhet</seg></tuv></tu>
+    <tu tuid="lokalise:7416524510"><prop type="source">component::pooldose::config::step::reconfigure::data::host</prop><prop type="lokalise-key-id">780873566</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; English source and Swedish reference target matched</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Host</seg></tuv><tuv xml:lang="sv"><seg>Värd</seg></tuv></tu>
+    <tu tuid="lokalise:7416524446"><prop type="source">component::pooldose::config::abort::wrong_device</prop><prop type="lokalise-key-id">780873565</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>The provided device does not match the configured device</seg></tuv><tuv xml:lang="sv"><seg>Den angivna enheten matchar inte den konfigurerade enheten</seg></tuv></tu>
+    <tu tuid="lokalise:7416523684"><prop type="source">component::velbus::exceptions::connection_failed::message</prop><prop type="lokalise-key-id">780873502</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Could not connect to Velbus.</seg></tuv><tuv xml:lang="sv"><seg>Det gick inte att ansluta till Velbus.</seg></tuv></tu>
+    <tu tuid="lokalise:7416523620"><prop type="source">component::velbus::exceptions::api_call_failed::message</prop><prop type="lokalise-key-id">780873501</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Action execute for {entity} failed.</seg></tuv><tuv xml:lang="sv"><seg>Det gick inte att utföra åtgärden för {entity}.</seg></tuv></tu>
+    <tu tuid="lokalise:7415742967"><prop type="source">component::vesync::config::step::user::description</prop><prop type="lokalise-key-id">780860822</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Enter the account used in the vesync app. 2FA is not supported and must be disabled.</seg></tuv><tuv xml:lang="sv"><seg>Ange kontot som används i VeSync-appen. Tvåfaktorsautentisering stöds inte och måste inaktiveras.</seg></tuv></tu>
+    <tu tuid="lokalise:7415742903"><prop type="source">component::vesync::config::step::user::data_description::username</prop><prop type="lokalise-key-id">780860821</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Email address associated with your VeSync account</seg></tuv><tuv xml:lang="sv"><seg>E-postadress kopplad till ditt VeSync-konto</seg></tuv></tu>
+    <tu tuid="lokalise:7415742839"><prop type="source">component::vesync::config::step::user::data_description::password</prop><prop type="lokalise-key-id">780860820</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Password associated with your VeSync account</seg></tuv><tuv xml:lang="sv"><seg>Lösenord kopplat till ditt VeSync-konto</seg></tuv></tu>
+    <tu tuid="lokalise:7415742775"><prop type="source">component::vesync::config::step::reauth_confirm::data_description::username</prop><prop type="lokalise-key-id">780860819</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; English source and Swedish reference target matched</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Email address associated with your VeSync account</seg></tuv><tuv xml:lang="sv"><seg>E-postadress kopplad till ditt VeSync-konto</seg></tuv></tu>
+    <tu tuid="lokalise:7415742711"><prop type="source">component::vesync::config::step::reauth_confirm::data_description::password</prop><prop type="lokalise-key-id">780860818</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; English source and Swedish reference target matched</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Password associated with your VeSync account</seg></tuv><tuv xml:lang="sv"><seg>Lösenord kopplat till ditt VeSync-konto</seg></tuv></tu>
+    <tu tuid="lokalise:7415642646"><prop type="source">component::vesync::entity::switch::auto_off_config::name</prop><prop type="lokalise-key-id">780844926</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Auto Off</seg></tuv><tuv xml:lang="sv"><seg>Automatisk avstängning</seg></tuv></tu>
+    <tu tuid="lokalise:7414615623"><prop type="source">component::netgear_lte::exceptions::config_entry_not_found::message</prop><prop type="lokalise-key-id">780544358</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Failed to perform action &quot;{service}&quot;. Config entry for target not found</seg></tuv><tuv xml:lang="sv"><seg>Det gick inte att utföra åtgärden ”{service}”. Ingen konfigurationspost hittades för målet.</seg></tuv></tu>
+    <tu tuid="lokalise:7407436546"><prop type="source">component::knx::config_panel::dialogs::project_upload::title</prop><prop type="lokalise-key-id">780333660</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Import ETS project</seg></tuv><tuv xml:lang="sv"><seg>Importera ETS-projekt</seg></tuv></tu>
+    <tu tuid="lokalise:7407436482"><prop type="source">component::knx::config_panel::dialogs::project_upload::file_upload_label</prop><prop type="lokalise-key-id">780333659</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>ETS project file</seg></tuv><tuv xml:lang="sv"><seg>ETS-projektfil</seg></tuv></tu>
+    <tu tuid="lokalise:7407436418"><prop type="source">component::knx::config_panel::dialogs::project_upload::description</prop><prop type="lokalise-key-id">780333658</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT/GET readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Details such as group address names, datapoint types, devices and group objects are extracted from your project file. The ETS project file itself and its optional password are not stored.
 
-`.knxproj` files exported by ETS 4, 5 or 6 are supported.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Uppgifter som gruppadressnamn, datapunkttyper, enheter och gruppobjekt hämtas från projektfilen. Själva ETS-projektfilen och dess eventuella lösenord sparas inte.
+`.knxproj` files exported by ETS 4, 5 or 6 are supported.</seg></tuv><tuv xml:lang="sv"><seg>Information som gruppadressnamn, datapunkttyper, enheter och gruppobjekt hämtas från projektfilen. Själva ETS-projektfilen och dess eventuella lösenord sparas inte.
 
-ETS 4, 5 och 6 stöds för `.knxproj`-filer.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7407436354">
-      <prop type="source">component::knx::config_panel::dashboard::project_upload::title</prop>
-      <prop type="lokalise-key-id">780333657</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Import ETS project</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Importera ETS-projekt</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7407436290">
-      <prop type="source">component::knx::config_panel::dashboard::project_upload::description</prop>
-      <prop type="lokalise-key-id">780333656</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Import a KNX project file to help configure group addresses and datapoint types</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Importera en KNX-projektfil för att underlätta konfigureringen av gruppadresser och datapunktstyper.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7407436226">
-      <prop type="source">component::knx::config_panel::dashboard::options_flow::title</prop>
-      <prop type="lokalise-key-id">780333655</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Integration options</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Integrationsalternativ</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7407436162">
-      <prop type="source">component::knx::config_panel::dashboard::options_flow::description</prop>
-      <prop type="lokalise-key-id">780333654</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Configure integration settings</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Konfigurera integrationsinställningar</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7407436098">
-      <prop type="source">component::knx::config_panel::dashboard::connection_flow::title</prop>
-      <prop type="lokalise-key-id">780333653</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Connection settings</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Anslutningsinställningar</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7407436034">
-      <prop type="source">component::knx::config_panel::dashboard::connection_flow::description</prop>
-      <prop type="lokalise-key-id">780333652</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Reconfigure KNX connection or import a new KNX keyring file</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ändra KNX-anslutningen eller importera en ny KNX-nyckelringsfil.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7405939371">
-      <prop type="source">component::togrill::entity::sensor::ambient_temperature::name</prop>
-      <prop type="lokalise-key-id">780181480</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Ambient temperature</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Omgivningstemperatur</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7402074703">
-      <prop type="source">component::met::exceptions::update_failed::message</prop>
-      <prop type="lokalise-key-id">780084467</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Update of data from the web site failed: {error}</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Det gick inte att uppdatera data från webbplatsen: {error}</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7402015281">
-      <prop type="source">component::smartthings::entity::fan::hood::state_attributes::preset_mode::state::smart</prop>
-      <prop type="lokalise-key-id">780079744</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Smart</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Smart</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401974390">
-      <prop type="source">component::wsdot::config_subentries::travel_time::step::user::title</prop>
-      <prop type="lokalise-key-id">780070029</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>WSDOT travel time setup</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Konfigurera WSDOT:s restidsövervakning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401974326">
-      <prop type="source">component::wsdot::config_subentries::travel_time::step::user::description</prop>
-      <prop type="lokalise-key-id">780070028</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Select one of the provided the highway routes to monitor estimated driving time along that route</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Välj en av motorvägarna i listan för att följa den beräknade körtiden längs rutten.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401974262">
-      <prop type="source">component::wsdot::config_subentries::travel_time::step::user::data_description::name</prop>
-      <prop type="lokalise-key-id">780070027</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>The official WSDOT description of the route.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Den officiella WSDOT-beskrivningen av rutten.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401974198">
-      <prop type="source">component::wsdot::config_subentries::travel_time::step::user::data::name</prop>
-      <prop type="lokalise-key-id">780070026</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Travel Route Description</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ruttbeskrivning</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401974134">
-      <prop type="source">component::wsdot::config_subentries::travel_time::initiate_flow::user</prop>
-      <prop type="lokalise-key-id">780070025</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Travel time</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Restid</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401974070">
-      <prop type="source">component::wsdot::config_subentries::travel_time::entry_type</prop>
-      <prop type="lokalise-key-id">780070024</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Travel time</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Restid</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401974006">
-      <prop type="source">component::wsdot::config::step::user::title</prop>
-      <prop type="lokalise-key-id">780070023</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>WSDOT setup</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Konfigurera WSDOT-integrationen</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401973942">
-      <prop type="source">component::wsdot::config::step::user::description</prop>
-      <prop type="lokalise-key-id">780070022</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Set up your Washington State Department of Transportation integration.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Konfigurera din integration med Washington State Department of Transportation.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401973814">
-      <prop type="source">component::wsdot::config::step::user::data::api_key</prop>
-      <prop type="lokalise-key-id">780070020</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>API key</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>API-nyckel</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401973750">
-      <prop type="source">component::wsdot::config::error::no_travel_time</prop>
-      <prop type="lokalise-key-id">780070019</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Travel time route created without a travel time entity</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>En restidsrutt skapades utan någon restidsentitet.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401973622">
-      <prop type="source">component::wsdot::config::error::invalid_api_key</prop>
-      <prop type="lokalise-key-id">780070017</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Invalid API key</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ogiltig API-nyckel</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401973558">
-      <prop type="source">component::wsdot::config::error::cannot_connect</prop>
-      <prop type="lokalise-key-id">780070016</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Failed to connect</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Det gick inte att ansluta</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401973494">
-      <prop type="source">component::wsdot::config::abort::already_configured</prop>
-      <prop type="lokalise-key-id">780070015</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Device is already configured</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Enheten är redan konfigurerad</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401941485">
-      <prop type="source">component::openrgb::exceptions::profile_not_found::message</prop>
-      <prop type="lokalise-key-id">780063803</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Profile `{profile}` not found</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Profilen `{profile}` hittades inte.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401941421">
-      <prop type="source">component::openrgb::entity::select::profile::name</prop>
-      <prop type="lokalise-key-id">780063802</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Profile</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Profil</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401857889">
-      <prop type="source">component::bsblan::services::set_hot_water_schedule::name</prop>
-      <prop type="lokalise-key-id">780057768</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Set hot water schedule</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ställ in schema för varmvatten</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401857825">
-      <prop type="source">component::bsblan::services::set_hot_water_schedule::fields::wednesday_slots::name</prop>
-      <prop type="lokalise-key-id">780057767</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Wednesday time slots</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tidsintervall för onsdag</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401857761">
-      <prop type="source">component::bsblan::services::set_hot_water_schedule::fields::wednesday_slots::description</prop>
-      <prop type="lokalise-key-id">780057766</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Time periods for Wednesday. Add multiple slots for different heating periods throughout the day.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tidsintervall för onsdag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401857697">
-      <prop type="source">component::bsblan::services::set_hot_water_schedule::fields::tuesday_slots::name</prop>
-      <prop type="lokalise-key-id">780057765</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Tuesday time slots</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tidsintervall för tisdag</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401857633">
-      <prop type="source">component::bsblan::services::set_hot_water_schedule::fields::tuesday_slots::description</prop>
-      <prop type="lokalise-key-id">780057764</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Time periods for Tuesday. Add multiple slots for different heating periods throughout the day.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tidsintervall för tisdag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401857569">
-      <prop type="source">component::bsblan::services::set_hot_water_schedule::fields::thursday_slots::name</prop>
-      <prop type="lokalise-key-id">780057763</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Thursday time slots</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tidsintervall för torsdag</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401857505">
-      <prop type="source">component::bsblan::services::set_hot_water_schedule::fields::thursday_slots::description</prop>
-      <prop type="lokalise-key-id">780057762</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Time periods for Thursday. Add multiple slots for different heating periods throughout the day.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tidsintervall för torsdag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401857441">
-      <prop type="source">component::bsblan::services::set_hot_water_schedule::fields::sunday_slots::name</prop>
-      <prop type="lokalise-key-id">780057761</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Sunday time slots</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tidsintervall för söndag</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401857377">
-      <prop type="source">component::bsblan::services::set_hot_water_schedule::fields::sunday_slots::description</prop>
-      <prop type="lokalise-key-id">780057760</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Time periods for Sunday. Add multiple slots for different heating periods throughout the day.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tidsintervall för söndag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401857313">
-      <prop type="source">component::bsblan::services::set_hot_water_schedule::fields::saturday_slots::name</prop>
-      <prop type="lokalise-key-id">780057759</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Saturday time slots</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tidsintervall för lördag</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401857249">
-      <prop type="source">component::bsblan::services::set_hot_water_schedule::fields::saturday_slots::description</prop>
-      <prop type="lokalise-key-id">780057758</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Time periods for Saturday. Add multiple slots for different heating periods throughout the day.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tidsintervall för lördag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401857185">
-      <prop type="source">component::bsblan::services::set_hot_water_schedule::fields::monday_slots::name</prop>
-      <prop type="lokalise-key-id">780057757</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Monday time slots</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tidsintervall för måndag</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401857121">
-      <prop type="source">component::bsblan::services::set_hot_water_schedule::fields::monday_slots::description</prop>
-      <prop type="lokalise-key-id">780057756</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Time periods for Monday. Add multiple slots for different heating periods throughout the day.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tidsintervall för måndag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401857057">
-      <prop type="source">component::bsblan::services::set_hot_water_schedule::fields::friday_slots::name</prop>
-      <prop type="lokalise-key-id">780057755</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Friday time slots</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tidsintervall för fredag</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401856993">
-      <prop type="source">component::bsblan::services::set_hot_water_schedule::fields::friday_slots::description</prop>
-      <prop type="lokalise-key-id">780057754</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Time periods for Friday. Add multiple slots for different heating periods throughout the day.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Tidsintervall för fredag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401856929">
-      <prop type="source">component::bsblan::services::set_hot_water_schedule::fields::device_id::name</prop>
-      <prop type="lokalise-key-id">780057753</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Device</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Enhet</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401856865">
-      <prop type="source">component::bsblan::services::set_hot_water_schedule::fields::device_id::description</prop>
-      <prop type="lokalise-key-id">780057752</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>The BSB-LAN device to configure.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Den BSB-LAN-enhet som ska konfigureras.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401856801">
-      <prop type="source">component::bsblan::services::set_hot_water_schedule::description</prop>
-      <prop type="lokalise-key-id">780057751</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Set the hot water heating schedule for a BSB-LAN device.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ställ in schemat för varmvattenuppvärmning på en BSB-LAN-enhet.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401856481">
-      <prop type="source">component::bsblan::exceptions::end_time_before_start_time::message</prop>
-      <prop type="lokalise-key-id">780057746</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>End time ({end_time}) must be after start time ({start_time})</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Sluttiden ({end_time}) måste vara senare än starttiden ({start_time}).</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401856325">
-      <prop type="source">component::comelit::config::step::user::data_description::vedo_pin</prop>
-      <prop type="lokalise-key-id">780057742</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Optional PIN for VEDO alarm system on Serial Bridge devices. Leave empty if you don't have VEDO alarm enabled.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Valfri PIN-kod för VEDO-larmsystem på Serial Bridge-enheter. Lämna tomt om VEDO-larm inte är aktiverat.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401856261">
-      <prop type="source">component::comelit::config::step::user::data::vedo_pin</prop>
-      <prop type="lokalise-key-id">780057741</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>VEDO alarm PIN (optional)</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>PIN-kod för VEDO-larm (valfri)</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401856197">
-      <prop type="source">component::comelit::config::step::reconfigure::data_description::vedo_pin</prop>
-      <prop type="lokalise-key-id">780057740</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Optional PIN for VEDO alarm system on Serial Bridge devices. Leave empty if you don't have VEDO alarm enabled.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Valfri PIN-kod för VEDO-larmsystem på Serial Bridge-enheter. Lämna tomt om VEDO-larm inte är aktiverat.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401856133">
-      <prop type="source">component::comelit::config::step::reconfigure::data::vedo_pin</prop>
-      <prop type="lokalise-key-id">780057739</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>VEDO alarm PIN (optional)</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>PIN-kod för VEDO-larm (valfri)</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401856069">
-      <prop type="source">component::comelit::config::step::reauth_confirm::data_description::vedo_pin</prop>
-      <prop type="lokalise-key-id">780057738</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Optional PIN for VEDO alarm system on Serial Bridge devices. Leave empty if you don't have VEDO alarm enabled.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Valfri PIN-kod för VEDO-larmsystem på Serial Bridge-enheter. Lämna tomt om VEDO-larm inte är aktiverat.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401856005">
-      <prop type="source">component::comelit::config::step::reauth_confirm::data::vedo_pin</prop>
-      <prop type="lokalise-key-id">780057737</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>VEDO alarm PIN (optional)</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>PIN-kod för VEDO-larm (valfri)</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401855941">
-      <prop type="source">component::comelit::config::error::invalid_vedo_pin</prop>
-      <prop type="lokalise-key-id">780057736</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>The provided VEDO PIN is invalid. It must be a 4-10 digit number.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Den angivna VEDO-PIN-koden är ogiltig. Den måste bestå av 4–10 siffror.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401855877">
-      <prop type="source">component::comelit::config::error::invalid_vedo_auth</prop>
-      <prop type="lokalise-key-id">780057735</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>The provided VEDO PIN is incorrect or VEDO alarm is not enabled on this device.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Den angivna VEDO-PIN-koden är felaktig eller så är VEDO-larmet inte aktiverat på den här enheten.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401855813">
-      <prop type="source">component::comelit::config::abort::invalid_vedo_pin</prop>
-      <prop type="lokalise-key-id">780057734</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>The provided VEDO PIN is invalid. It must be a 4-10 digit number.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Den angivna VEDO-PIN-koden är ogiltig. Den måste bestå av 4–10 siffror.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401855749">
-      <prop type="source">component::comelit::config::abort::invalid_vedo_auth</prop>
-      <prop type="lokalise-key-id">780057733</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>The provided VEDO PIN is incorrect or VEDO alarm is not enabled on this device.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Den angivna VEDO-PIN-koden är felaktig eller så är VEDO-larmet inte aktiverat på den här enheten.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401845634">
-      <prop type="source">component::fish_audio::selector::sort_by::options::task_count</prop>
-      <prop type="lokalise-key-id">780056231</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Most uses</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Flest användningar</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401845570">
-      <prop type="source">component::fish_audio::selector::sort_by::options::score</prop>
-      <prop type="lokalise-key-id">780056230</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Highest score</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Högsta poäng</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401845506">
-      <prop type="source">component::fish_audio::selector::sort_by::options::created_at</prop>
-      <prop type="lokalise-key-id">780056229</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Newest</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Nyaste</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401845442">
-      <prop type="source">component::fish_audio::config_subentries::tts::step::model::title</prop>
-      <prop type="lokalise-key-id">780056228</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Choose your voice and model</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Välj din röst och modell</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401845378">
-      <prop type="source">component::fish_audio::config_subentries::tts::step::model::description</prop>
-      <prop type="lokalise-key-id">780056227</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Select your preferred voice and the AI model to use for speech synthesis.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Välj vilken röst och AI-modell som ska användas för talsyntes.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401845314">
-      <prop type="source">component::fish_audio::config_subentries::tts::step::model::data_description::voice_id</prop>
-      <prop type="lokalise-key-id">780056226</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Choose from the list of available voices, or manually enter a specific voice ID.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Välj en röst i listan över tillgängliga röster eller ange ett specifikt röst-ID manuellt.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401845250">
-      <prop type="source">component::fish_audio::config_subentries::tts::step::model::data_description::name</prop>
-      <prop type="lokalise-key-id">780056225</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Enter a unique name for this TTS voice to easily identify it in Home Assistant.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Ange ett unikt namn för den här TTS-rösten så att du enkelt känner igen den i Home Assistant.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401845186">
-      <prop type="source">component::fish_audio::config_subentries::tts::step::model::data_description::latency</prop>
-      <prop type="lokalise-key-id">780056224</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Choose the latency mode: 'normal' for standard processing or 'balanced' for optimized speed.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Välj fördröjningsläge: ”normal” för standardbearbetning eller ”balanserad” för optimerad hastighet.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401845122">
-      <prop type="source">component::fish_audio::config_subentries::tts::step::model::data_description::backend</prop>
-      <prop type="lokalise-key-id">780056223</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Select the AI model that will generate the audio.</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Välj den AI-modell som genererar ljudet.</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401845058">
-      <prop type="source">component::fish_audio::config_subentries::tts::step::model::data::voice_id</prop>
-      <prop type="lokalise-key-id">780056222</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Voice</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Röst</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401844994">
-      <prop type="source">component::fish_audio::config_subentries::tts::step::model::data::name</prop>
-      <prop type="lokalise-key-id">780056221</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Name</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Namn</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401844930">
-      <prop type="source">component::fish_audio::config_subentries::tts::step::model::data::latency</prop>
-      <prop type="lokalise-key-id">780056220</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Latency mode</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Fördröjningsläge</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401844866">
-      <prop type="source">component::fish_audio::config_subentries::tts::step::model::data::backend</prop>
-      <prop type="lokalise-key-id">780056219</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>AI voice model</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>AI-röstmodell</seg>
-      </tuv>
-    </tu>
-    <tu tuid="lokalise:7401844802">
-      <prop type="source">component::fish_audio::config_subentries::tts::step::init::title</prop>
-      <prop type="lokalise-key-id">780056218</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read-back</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-25</prop>
-      <tuv xml:lang="en">
-        <seg>Voice selection filters</seg>
-      </tuv>
-      <tuv xml:lang="sv">
-        <seg>Filter för röstval</seg>
-      </tuv>
-    </tu>
+ETS 4, 5 och 6 stöds för `.knxproj`-filer.</seg></tuv></tu>
+    <tu tuid="lokalise:7407436354"><prop type="source">component::knx::config_panel::dashboard::project_upload::title</prop><prop type="lokalise-key-id">780333657</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; English source and Swedish reference target matched</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Import ETS project</seg></tuv><tuv xml:lang="sv"><seg>Importera ETS-projekt</seg></tuv></tu>
+    <tu tuid="lokalise:7407436290"><prop type="source">component::knx::config_panel::dashboard::project_upload::description</prop><prop type="lokalise-key-id">780333656</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API PUT/GET readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Import a KNX project file to help configure group addresses and datapoint types</seg></tuv><tuv xml:lang="sv"><seg>Importera en KNX-projektfil för att underlätta konfigureringen av gruppadresser och datapunkttyper.</seg></tuv></tu>
+    <tu tuid="lokalise:7407436226"><prop type="source">component::knx::config_panel::dashboard::options_flow::title</prop><prop type="lokalise-key-id">780333655</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Integration options</seg></tuv><tuv xml:lang="sv"><seg>Integrationsalternativ</seg></tuv></tu>
+    <tu tuid="lokalise:7407436162"><prop type="source">component::knx::config_panel::dashboard::options_flow::description</prop><prop type="lokalise-key-id">780333654</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Configure integration settings</seg></tuv><tuv xml:lang="sv"><seg>Konfigurera integrationsinställningar</seg></tuv></tu>
+    <tu tuid="lokalise:7407436098"><prop type="source">component::knx::config_panel::dashboard::connection_flow::title</prop><prop type="lokalise-key-id">780333653</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Connection settings</seg></tuv><tuv xml:lang="sv"><seg>Anslutningsinställningar</seg></tuv></tu>
+    <tu tuid="lokalise:7407436034"><prop type="source">component::knx::config_panel::dashboard::connection_flow::description</prop><prop type="lokalise-key-id">780333652</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Reconfigure KNX connection or import a new KNX keyring file</seg></tuv><tuv xml:lang="sv"><seg>Ändra KNX-anslutningen eller importera en ny KNX-nyckelringsfil.</seg></tuv></tu>
+    <tu tuid="lokalise:7405939371"><prop type="source">component::togrill::entity::sensor::ambient_temperature::name</prop><prop type="lokalise-key-id">780181480</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Ambient temperature</seg></tuv><tuv xml:lang="sv"><seg>Omgivningstemperatur</seg></tuv></tu>
+    <tu tuid="lokalise:7402074703"><prop type="source">component::met::exceptions::update_failed::message</prop><prop type="lokalise-key-id">780084467</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Update of data from the web site failed: {error}</seg></tuv><tuv xml:lang="sv"><seg>Det gick inte att uppdatera data från webbplatsen: {error}</seg></tuv></tu>
+    <tu tuid="lokalise:7402015281"><prop type="source">component::smartthings::entity::fan::hood::state_attributes::preset_mode::state::smart</prop><prop type="lokalise-key-id">780079744</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Smart</seg></tuv><tuv xml:lang="sv"><seg>Smart</seg></tuv></tu>
+    <tu tuid="lokalise:7401974390"><prop type="source">component::wsdot::config_subentries::travel_time::step::user::title</prop><prop type="lokalise-key-id">780070029</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>WSDOT travel time setup</seg></tuv><tuv xml:lang="sv"><seg>Konfigurera WSDOT:s restidsövervakning</seg></tuv></tu>
+    <tu tuid="lokalise:7401974326"><prop type="source">component::wsdot::config_subentries::travel_time::step::user::description</prop><prop type="lokalise-key-id">780070028</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Select one of the provided the highway routes to monitor estimated driving time along that route</seg></tuv><tuv xml:lang="sv"><seg>Välj en av motorvägarna i listan för att följa den beräknade körtiden längs rutten.</seg></tuv></tu>
+    <tu tuid="lokalise:7401974262"><prop type="source">component::wsdot::config_subentries::travel_time::step::user::data_description::name</prop><prop type="lokalise-key-id">780070027</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>The official WSDOT description of the route.</seg></tuv><tuv xml:lang="sv"><seg>Den officiella WSDOT-beskrivningen av rutten.</seg></tuv></tu>
+    <tu tuid="lokalise:7401974198"><prop type="source">component::wsdot::config_subentries::travel_time::step::user::data::name</prop><prop type="lokalise-key-id">780070026</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Travel Route Description</seg></tuv><tuv xml:lang="sv"><seg>Ruttbeskrivning</seg></tuv></tu>
+    <tu tuid="lokalise:7401974134"><prop type="source">component::wsdot::config_subentries::travel_time::initiate_flow::user</prop><prop type="lokalise-key-id">780070025</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Travel time</seg></tuv><tuv xml:lang="sv"><seg>Restid</seg></tuv></tu>
+    <tu tuid="lokalise:7401974070"><prop type="source">component::wsdot::config_subentries::travel_time::entry_type</prop><prop type="lokalise-key-id">780070024</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Travel time</seg></tuv><tuv xml:lang="sv"><seg>Restid</seg></tuv></tu>
+    <tu tuid="lokalise:7401974006"><prop type="source">component::wsdot::config::step::user::title</prop><prop type="lokalise-key-id">780070023</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>WSDOT setup</seg></tuv><tuv xml:lang="sv"><seg>Konfigurera WSDOT-integrationen</seg></tuv></tu>
+    <tu tuid="lokalise:7401973942"><prop type="source">component::wsdot::config::step::user::description</prop><prop type="lokalise-key-id">780070022</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Set up your Washington State Department of Transportation integration.</seg></tuv><tuv xml:lang="sv"><seg>Konfigurera din integration med Washington State Department of Transportation.</seg></tuv></tu>
+    <tu tuid="lokalise:7401973814"><prop type="source">component::wsdot::config::step::user::data::api_key</prop><prop type="lokalise-key-id">780070020</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; English source and Swedish reference target matched</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>API key</seg></tuv><tuv xml:lang="sv"><seg>API-nyckel</seg></tuv></tu>
+    <tu tuid="lokalise:7401973750"><prop type="source">component::wsdot::config::error::no_travel_time</prop><prop type="lokalise-key-id">780070019</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Travel time route created without a travel time entity</seg></tuv><tuv xml:lang="sv"><seg>En restidsrutt skapades utan någon restidsentitet.</seg></tuv></tu>
+    <tu tuid="lokalise:7401973622"><prop type="source">component::wsdot::config::error::invalid_api_key</prop><prop type="lokalise-key-id">780070017</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; English source and Swedish reference target matched</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Invalid API key</seg></tuv><tuv xml:lang="sv"><seg>Ogiltig API-nyckel</seg></tuv></tu>
+    <tu tuid="lokalise:7401973558"><prop type="source">component::wsdot::config::error::cannot_connect</prop><prop type="lokalise-key-id">780070016</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; English source and Swedish reference target matched</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Failed to connect</seg></tuv><tuv xml:lang="sv"><seg>Det gick inte att ansluta</seg></tuv></tu>
+    <tu tuid="lokalise:7401973494"><prop type="source">component::wsdot::config::abort::already_configured</prop><prop type="lokalise-key-id">780070015</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; English source and Swedish reference target matched</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Device is already configured</seg></tuv><tuv xml:lang="sv"><seg>Enheten är redan konfigurerad</seg></tuv></tu>
+    <tu tuid="lokalise:7401941485"><prop type="source">component::openrgb::exceptions::profile_not_found::message</prop><prop type="lokalise-key-id">780063803</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Profile `{profile}` not found</seg></tuv><tuv xml:lang="sv"><seg>Profilen `{profile}` hittades inte.</seg></tuv></tu>
+    <tu tuid="lokalise:7401941421"><prop type="source">component::openrgb::entity::select::profile::name</prop><prop type="lokalise-key-id">780063802</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Profile</seg></tuv><tuv xml:lang="sv"><seg>Profil</seg></tuv></tu>
+    <tu tuid="lokalise:7401857889"><prop type="source">component::bsblan::services::set_hot_water_schedule::name</prop><prop type="lokalise-key-id">780057768</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Set hot water schedule</seg></tuv><tuv xml:lang="sv"><seg>Ställ in schema för varmvatten</seg></tuv></tu>
+    <tu tuid="lokalise:7401857825"><prop type="source">component::bsblan::services::set_hot_water_schedule::fields::wednesday_slots::name</prop><prop type="lokalise-key-id">780057767</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Wednesday time slots</seg></tuv><tuv xml:lang="sv"><seg>Tidsintervall för onsdag</seg></tuv></tu>
+    <tu tuid="lokalise:7401857761"><prop type="source">component::bsblan::services::set_hot_water_schedule::fields::wednesday_slots::description</prop><prop type="lokalise-key-id">780057766</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Time periods for Wednesday. Add multiple slots for different heating periods throughout the day.</seg></tuv><tuv xml:lang="sv"><seg>Tidsintervall för onsdag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.</seg></tuv></tu>
+    <tu tuid="lokalise:7401857697"><prop type="source">component::bsblan::services::set_hot_water_schedule::fields::tuesday_slots::name</prop><prop type="lokalise-key-id">780057765</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Tuesday time slots</seg></tuv><tuv xml:lang="sv"><seg>Tidsintervall för tisdag</seg></tuv></tu>
+    <tu tuid="lokalise:7401857633"><prop type="source">component::bsblan::services::set_hot_water_schedule::fields::tuesday_slots::description</prop><prop type="lokalise-key-id">780057764</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Time periods for Tuesday. Add multiple slots for different heating periods throughout the day.</seg></tuv><tuv xml:lang="sv"><seg>Tidsintervall för tisdag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.</seg></tuv></tu>
+    <tu tuid="lokalise:7401857569"><prop type="source">component::bsblan::services::set_hot_water_schedule::fields::thursday_slots::name</prop><prop type="lokalise-key-id">780057763</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Thursday time slots</seg></tuv><tuv xml:lang="sv"><seg>Tidsintervall för torsdag</seg></tuv></tu>
+    <tu tuid="lokalise:7401857505"><prop type="source">component::bsblan::services::set_hot_water_schedule::fields::thursday_slots::description</prop><prop type="lokalise-key-id">780057762</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Time periods for Thursday. Add multiple slots for different heating periods throughout the day.</seg></tuv><tuv xml:lang="sv"><seg>Tidsintervall för torsdag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.</seg></tuv></tu>
+    <tu tuid="lokalise:7401857441"><prop type="source">component::bsblan::services::set_hot_water_schedule::fields::sunday_slots::name</prop><prop type="lokalise-key-id">780057761</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Sunday time slots</seg></tuv><tuv xml:lang="sv"><seg>Tidsintervall för söndag</seg></tuv></tu>
+    <tu tuid="lokalise:7401857377"><prop type="source">component::bsblan::services::set_hot_water_schedule::fields::sunday_slots::description</prop><prop type="lokalise-key-id">780057760</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Time periods for Sunday. Add multiple slots for different heating periods throughout the day.</seg></tuv><tuv xml:lang="sv"><seg>Tidsintervall för söndag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.</seg></tuv></tu>
+    <tu tuid="lokalise:7401857313"><prop type="source">component::bsblan::services::set_hot_water_schedule::fields::saturday_slots::name</prop><prop type="lokalise-key-id">780057759</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Saturday time slots</seg></tuv><tuv xml:lang="sv"><seg>Tidsintervall för lördag</seg></tuv></tu>
+    <tu tuid="lokalise:7401857249"><prop type="source">component::bsblan::services::set_hot_water_schedule::fields::saturday_slots::description</prop><prop type="lokalise-key-id">780057758</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Time periods for Saturday. Add multiple slots for different heating periods throughout the day.</seg></tuv><tuv xml:lang="sv"><seg>Tidsintervall för lördag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.</seg></tuv></tu>
+    <tu tuid="lokalise:7401857185"><prop type="source">component::bsblan::services::set_hot_water_schedule::fields::monday_slots::name</prop><prop type="lokalise-key-id">780057757</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Monday time slots</seg></tuv><tuv xml:lang="sv"><seg>Tidsintervall för måndag</seg></tuv></tu>
+    <tu tuid="lokalise:7401857121"><prop type="source">component::bsblan::services::set_hot_water_schedule::fields::monday_slots::description</prop><prop type="lokalise-key-id">780057756</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Time periods for Monday. Add multiple slots for different heating periods throughout the day.</seg></tuv><tuv xml:lang="sv"><seg>Tidsintervall för måndag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.</seg></tuv></tu>
+    <tu tuid="lokalise:7401857057"><prop type="source">component::bsblan::services::set_hot_water_schedule::fields::friday_slots::name</prop><prop type="lokalise-key-id">780057755</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Friday time slots</seg></tuv><tuv xml:lang="sv"><seg>Tidsintervall för fredag</seg></tuv></tu>
+    <tu tuid="lokalise:7401856993"><prop type="source">component::bsblan::services::set_hot_water_schedule::fields::friday_slots::description</prop><prop type="lokalise-key-id">780057754</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Time periods for Friday. Add multiple slots for different heating periods throughout the day.</seg></tuv><tuv xml:lang="sv"><seg>Tidsintervall för fredag. Lägg till flera intervall för olika uppvärmningsperioder under dagen.</seg></tuv></tu>
+    <tu tuid="lokalise:7401856929"><prop type="source">component::bsblan::services::set_hot_water_schedule::fields::device_id::name</prop><prop type="lokalise-key-id">780057753</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Device</seg></tuv><tuv xml:lang="sv"><seg>Enhet</seg></tuv></tu>
+    <tu tuid="lokalise:7401856865"><prop type="source">component::bsblan::services::set_hot_water_schedule::fields::device_id::description</prop><prop type="lokalise-key-id">780057752</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>The BSB-LAN device to configure.</seg></tuv><tuv xml:lang="sv"><seg>Den BSB-LAN-enhet som ska konfigureras.</seg></tuv></tu>
+    <tu tuid="lokalise:7401856801"><prop type="source">component::bsblan::services::set_hot_water_schedule::description</prop><prop type="lokalise-key-id">780057751</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Set the hot water heating schedule for a BSB-LAN device.</seg></tuv><tuv xml:lang="sv"><seg>Ställ in schemat för varmvattenuppvärmning på en BSB-LAN-enhet.</seg></tuv></tu>
+    <tu tuid="lokalise:7401856481"><prop type="source">component::bsblan::exceptions::end_time_before_start_time::message</prop><prop type="lokalise-key-id">780057746</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>End time ({end_time}) must be after start time ({start_time})</seg></tuv><tuv xml:lang="sv"><seg>Sluttiden ({end_time}) måste vara senare än starttiden ({start_time}).</seg></tuv></tu>
+    <tu tuid="lokalise:7401856325"><prop type="source">component::comelit::config::step::user::data_description::vedo_pin</prop><prop type="lokalise-key-id">780057742</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Optional PIN for VEDO alarm system on Serial Bridge devices. Leave empty if you don&#x27;t have VEDO alarm enabled.</seg></tuv><tuv xml:lang="sv"><seg>Valfri PIN-kod för VEDO-larmsystem på Serial Bridge-enheter. Lämna tomt om VEDO-larm inte är aktiverat.</seg></tuv></tu>
+    <tu tuid="lokalise:7401856261"><prop type="source">component::comelit::config::step::user::data::vedo_pin</prop><prop type="lokalise-key-id">780057741</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>VEDO alarm PIN (optional)</seg></tuv><tuv xml:lang="sv"><seg>PIN-kod för VEDO-larm (valfri)</seg></tuv></tu>
+    <tu tuid="lokalise:7401856197"><prop type="source">component::comelit::config::step::reconfigure::data_description::vedo_pin</prop><prop type="lokalise-key-id">780057740</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; English source and Swedish reference target matched</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Optional PIN for VEDO alarm system on Serial Bridge devices. Leave empty if you don&#x27;t have VEDO alarm enabled.</seg></tuv><tuv xml:lang="sv"><seg>Valfri PIN-kod för VEDO-larmsystem på Serial Bridge-enheter. Lämna tomt om VEDO-larm inte är aktiverat.</seg></tuv></tu>
+    <tu tuid="lokalise:7401856133"><prop type="source">component::comelit::config::step::reconfigure::data::vedo_pin</prop><prop type="lokalise-key-id">780057739</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; English source and Swedish reference target matched</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>VEDO alarm PIN (optional)</seg></tuv><tuv xml:lang="sv"><seg>PIN-kod för VEDO-larm (valfri)</seg></tuv></tu>
+    <tu tuid="lokalise:7401856069"><prop type="source">component::comelit::config::step::reauth_confirm::data_description::vedo_pin</prop><prop type="lokalise-key-id">780057738</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; English source and Swedish reference target matched</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Optional PIN for VEDO alarm system on Serial Bridge devices. Leave empty if you don&#x27;t have VEDO alarm enabled.</seg></tuv><tuv xml:lang="sv"><seg>Valfri PIN-kod för VEDO-larmsystem på Serial Bridge-enheter. Lämna tomt om VEDO-larm inte är aktiverat.</seg></tuv></tu>
+    <tu tuid="lokalise:7401856005"><prop type="source">component::comelit::config::step::reauth_confirm::data::vedo_pin</prop><prop type="lokalise-key-id">780057737</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; English source and Swedish reference target matched</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>VEDO alarm PIN (optional)</seg></tuv><tuv xml:lang="sv"><seg>PIN-kod för VEDO-larm (valfri)</seg></tuv></tu>
+    <tu tuid="lokalise:7401855941"><prop type="source">component::comelit::config::error::invalid_vedo_pin</prop><prop type="lokalise-key-id">780057736</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; English source and Swedish reference target matched</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>The provided VEDO PIN is invalid. It must be a 4-10 digit number.</seg></tuv><tuv xml:lang="sv"><seg>Den angivna VEDO-PIN-koden är ogiltig. Den måste bestå av 4–10 siffror.</seg></tuv></tu>
+    <tu tuid="lokalise:7401855877"><prop type="source">component::comelit::config::error::invalid_vedo_auth</prop><prop type="lokalise-key-id">780057735</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; English source and Swedish reference target matched</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>The provided VEDO PIN is incorrect or VEDO alarm is not enabled on this device.</seg></tuv><tuv xml:lang="sv"><seg>Den angivna VEDO-PIN-koden är felaktig eller så är VEDO-larmet inte aktiverat på den här enheten.</seg></tuv></tu>
+    <tu tuid="lokalise:7401855813"><prop type="source">component::comelit::config::abort::invalid_vedo_pin</prop><prop type="lokalise-key-id">780057734</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>The provided VEDO PIN is invalid. It must be a 4-10 digit number.</seg></tuv><tuv xml:lang="sv"><seg>Den angivna VEDO-PIN-koden är ogiltig. Den måste bestå av 4–10 siffror.</seg></tuv></tu>
+    <tu tuid="lokalise:7401855749"><prop type="source">component::comelit::config::abort::invalid_vedo_auth</prop><prop type="lokalise-key-id">780057733</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>The provided VEDO PIN is incorrect or VEDO alarm is not enabled on this device.</seg></tuv><tuv xml:lang="sv"><seg>Den angivna VEDO-PIN-koden är felaktig eller så är VEDO-larmet inte aktiverat på den här enheten.</seg></tuv></tu>
+    <tu tuid="lokalise:7401845634"><prop type="source">component::fish_audio::selector::sort_by::options::task_count</prop><prop type="lokalise-key-id">780056231</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Most uses</seg></tuv><tuv xml:lang="sv"><seg>Flest användningar</seg></tuv></tu>
+    <tu tuid="lokalise:7401845570"><prop type="source">component::fish_audio::selector::sort_by::options::score</prop><prop type="lokalise-key-id">780056230</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Highest score</seg></tuv><tuv xml:lang="sv"><seg>Högsta poäng</seg></tuv></tu>
+    <tu tuid="lokalise:7401845506"><prop type="source">component::fish_audio::selector::sort_by::options::created_at</prop><prop type="lokalise-key-id">780056229</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Newest</seg></tuv><tuv xml:lang="sv"><seg>Nyaste</seg></tuv></tu>
+    <tu tuid="lokalise:7401845442"><prop type="source">component::fish_audio::config_subentries::tts::step::model::title</prop><prop type="lokalise-key-id">780056228</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Choose your voice and model</seg></tuv><tuv xml:lang="sv"><seg>Välj din röst och modell</seg></tuv></tu>
+    <tu tuid="lokalise:7401845378"><prop type="source">component::fish_audio::config_subentries::tts::step::model::description</prop><prop type="lokalise-key-id">780056227</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Select your preferred voice and the AI model to use for speech synthesis.</seg></tuv><tuv xml:lang="sv"><seg>Välj vilken röst och AI-modell som ska användas för talsyntes.</seg></tuv></tu>
+    <tu tuid="lokalise:7401845314"><prop type="source">component::fish_audio::config_subentries::tts::step::model::data_description::voice_id</prop><prop type="lokalise-key-id">780056226</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Choose from the list of available voices, or manually enter a specific voice ID.</seg></tuv><tuv xml:lang="sv"><seg>Välj en röst i listan över tillgängliga röster eller ange ett specifikt röst-ID manuellt.</seg></tuv></tu>
+    <tu tuid="lokalise:7401845250"><prop type="source">component::fish_audio::config_subentries::tts::step::model::data_description::name</prop><prop type="lokalise-key-id">780056225</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Enter a unique name for this TTS voice to easily identify it in Home Assistant.</seg></tuv><tuv xml:lang="sv"><seg>Ange ett unikt namn för den här TTS-rösten så att du enkelt känner igen den i Home Assistant.</seg></tuv></tu>
+    <tu tuid="lokalise:7401845186"><prop type="source">component::fish_audio::config_subentries::tts::step::model::data_description::latency</prop><prop type="lokalise-key-id">780056224</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Choose the latency mode: &#x27;normal&#x27; for standard processing or &#x27;balanced&#x27; for optimized speed.</seg></tuv><tuv xml:lang="sv"><seg>Välj fördröjningsläge: ”normal” för standardbearbetning eller ”balanserad” för optimerad hastighet.</seg></tuv></tu>
+    <tu tuid="lokalise:7401845122"><prop type="source">component::fish_audio::config_subentries::tts::step::model::data_description::backend</prop><prop type="lokalise-key-id">780056223</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Select the AI model that will generate the audio.</seg></tuv><tuv xml:lang="sv"><seg>Välj den AI-modell som genererar ljudet.</seg></tuv></tu>
+    <tu tuid="lokalise:7401845058"><prop type="source">component::fish_audio::config_subentries::tts::step::model::data::voice_id</prop><prop type="lokalise-key-id">780056222</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Voice</seg></tuv><tuv xml:lang="sv"><seg>Röst</seg></tuv></tu>
+    <tu tuid="lokalise:7401844994"><prop type="source">component::fish_audio::config_subentries::tts::step::model::data::name</prop><prop type="lokalise-key-id">780056221</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; English source and Swedish reference target matched</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Name</seg></tuv><tuv xml:lang="sv"><seg>Namn</seg></tuv></tu>
+    <tu tuid="lokalise:7401844930"><prop type="source">component::fish_audio::config_subentries::tts::step::model::data::latency</prop><prop type="lokalise-key-id">780056220</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Latency mode</seg></tuv><tuv xml:lang="sv"><seg>Fördröjningsläge</seg></tuv></tu>
+    <tu tuid="lokalise:7401844866"><prop type="source">component::fish_audio::config_subentries::tts::step::model::data::backend</prop><prop type="lokalise-key-id">780056219</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>AI voice model</seg></tuv><tuv xml:lang="sv"><seg>AI-röstmodell</seg></tuv></tu>
+    <tu tuid="lokalise:7401844802"><prop type="source">component::fish_audio::config_subentries::tts::step::init::title</prop><prop type="lokalise-key-id">780056218</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Voice selection filters</seg></tuv><tuv xml:lang="sv"><seg>Filter för röstval</seg></tuv></tu>
     <tu tuid="lokalise:7401844738"><prop type="source">component::fish_audio::config_subentries::tts::step::init::description</prop><prop type="lokalise-key-id">780056217</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Apply filters to narrow down the voice list, then select **Submit** to see the results.</seg></tuv><tuv xml:lang="sv"><seg>Använd filter för att begränsa röstlistan och välj sedan **Bekräfta** för att se resultaten.</seg></tuv></tu>
     <tu tuid="lokalise:7401844674"><prop type="source">component::fish_audio::config_subentries::tts::step::init::data_description::title</prop><prop type="lokalise-key-id">780056216</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Filter voices by name.</seg></tuv><tuv xml:lang="sv"><seg>Filtrera röster efter namn.</seg></tuv></tu>
     <tu tuid="lokalise:7401844610"><prop type="source">component::fish_audio::config_subentries::tts::step::init::data_description::sort_by</prop><prop type="lokalise-key-id">780056215</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API GET and current source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Choose the order in which the voices are displayed.</seg></tuv><tuv xml:lang="sv"><seg>Välj i vilken ordning rösterna visas.</seg></tuv></tu>
@@ -330495,5 +329123,20 @@ Ersätt den här åtgärden och justera dina befintliga automatiseringar och skr
 <tu tuid="lokalise:7401608940"><prop type="source">component::home_connect::entity::select::active_program::state::laundry_care_washer_program_spin_drain</prop><prop type="lokalise-key-id">780032377</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; previous report confirms historical key; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Spin/drain</seg></tuv><tuv xml:lang="sv"><seg>Centrifugering/tömning</seg></tuv></tu>
 <tu tuid="lokalise:7401609132"><prop type="source">component::home_connect::entity::select::selected_program::state::laundry_care_washer_program_spin_drain</prop><prop type="lokalise-key-id">780032380</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; previous report confirms historical key; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Spin/drain</seg></tuv><tuv xml:lang="sv"><seg>Centrifugering/tömning</seg></tuv></tu>
 <tu tuid="lokalise:7401609324"><prop type="source">component::home_connect::selector::programs::options::laundry_care_washer_program_spin_drain</prop><prop type="lokalise-key-id">780032383</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; previous report confirms historical key; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Spin/drain</seg></tuv><tuv xml:lang="sv"><seg>Centrifugering/tömning</seg></tuv></tu>
+
+<tu tuid="lokalise:7401848829"><prop type="source">component::teslemetry::config::abort::oauth_error</prop><prop type="lokalise-key-id">780056981</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; historical key already documented; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Received invalid token data.</seg></tuv><tuv xml:lang="sv"><seg>Ogiltiga tokendata mottogs.</seg></tuv></tu>
+<tu tuid="lokalise:7401848893"><prop type="source">component::teslemetry::config::abort::oauth_failed</prop><prop type="lokalise-key-id">780056982</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; historical key already documented; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Error while obtaining access token.</seg></tuv><tuv xml:lang="sv"><seg>Fel vid hämtning av åtkomsttoken.</seg></tuv></tu>
+<tu tuid="lokalise:7401848957"><prop type="source">component::teslemetry::config::abort::oauth_timeout</prop><prop type="lokalise-key-id">780056983</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; historical key already documented; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Timeout while resolving the OAuth token.</seg></tuv><tuv xml:lang="sv"><seg>Tidsgränsen överskreds när OAuth-token hämtades.</seg></tuv></tu>
+<tu tuid="lokalise:7401849021"><prop type="source">component::teslemetry::config::abort::oauth_unauthorized</prop><prop type="lokalise-key-id">780056984</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; historical key already documented; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>OAuth authorization error while obtaining access token.</seg></tuv><tuv xml:lang="sv"><seg>OAuth-auktoriseringsfel vid hämtning av åtkomsttoken.</seg></tuv></tu>
+<tu tuid="lokalise:7401856417"><prop type="source">component::bsblan::exceptions::config_entry_not_loaded::message</prop><prop type="lokalise-key-id">780057745</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; historical key already documented; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>The device `{device_name}` is not currently loaded or available</seg></tuv><tuv xml:lang="sv"><seg>Enheten `{device_name}` är för närvarande inte laddad eller tillgänglig</seg></tuv></tu>
+<tu tuid="lokalise:7401856545"><prop type="source">component::bsblan::exceptions::invalid_device_id::message</prop><prop type="lokalise-key-id">780057747</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; historical key already documented; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Invalid device ID: {device_id}</seg></tuv><tuv xml:lang="sv"><seg>Ogiltigt enhets-ID: {device_id}</seg></tuv></tu>
+<tu tuid="lokalise:7401856609"><prop type="source">component::bsblan::exceptions::invalid_time_format::message</prop><prop type="lokalise-key-id">780057748</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; historical key already documented; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Invalid time format provided</seg></tuv><tuv xml:lang="sv"><seg>Ogiltigt tidsformat angivet</seg></tuv></tu>
+<tu tuid="lokalise:7401856673"><prop type="source">component::bsblan::exceptions::no_config_entry_for_device::message</prop><prop type="lokalise-key-id">780057749</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; historical key already documented; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>No configuration entry found for device: {device_id}</seg></tuv><tuv xml:lang="sv"><seg>Ingen konfigurationspost hittades för enheten: {device_id}</seg></tuv></tu>
+<tu tuid="lokalise:7401974518"><prop type="source">component::wsdot::issues::deprecated_yaml_import_issue_cannot_connect::title</prop><prop type="lokalise-key-id">780070031</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; historical key already documented; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>{domain} YAML configuration deprecated</seg></tuv><tuv xml:lang="sv"><seg>{domain} YAML-konfigurationen är föråldrad</seg></tuv></tu>
+<tu tuid="lokalise:7401974646"><prop type="source">component::wsdot::issues::deprecated_yaml_import_issue_invalid_auth::title</prop><prop type="lokalise-key-id">780070033</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; historical key already documented; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>{domain} YAML configuration deprecated</seg></tuv><tuv xml:lang="sv"><seg>{domain} YAML-konfigurationen är föråldrad</seg></tuv></tu>
+<tu tuid="lokalise:7401974774"><prop type="source">component::wsdot::issues::deprecated_yaml_import_issue_invalid_travel_time_id::title</prop><prop type="lokalise-key-id">780070035</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; historical key already documented; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>{domain} YAML configuration deprecated</seg></tuv><tuv xml:lang="sv"><seg>{domain} YAML-konfigurationen är föråldrad</seg></tuv></tu>
+<tu tuid="lokalise:7401974902"><prop type="source">component::wsdot::issues::deprecated_yaml_import_issue_unknown::title</prop><prop type="lokalise-key-id">780070037</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; historical key already documented; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>{domain} YAML configuration deprecated</seg></tuv><tuv xml:lang="sv"><seg>{domain} YAML-konfigurationen är föråldrad</seg></tuv></tu>
+<tu tuid="lokalise:7402040910"><prop type="source">component::srp_energy::config::abort::reconfigure_successful</prop><prop type="lokalise-key-id">780082648</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; historical key already documented; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Reconfiguration was successful</seg></tuv><tuv xml:lang="sv"><seg>Omkonfigureringen lyckades</seg></tuv></tu>
+<tu tuid="lokalise:7416524382"><prop type="source">component::pooldose::config::abort::reconfigure_successful</prop><prop type="lokalise-key-id">780873564</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live review; historical key already documented; current source path unresolved</prop><prop type="status">source-path-follow-up</prop><prop type="verified-date">2026-11-26</prop><prop type="source-revision">c03d786a2335a70d01860cae56286798bb272871</prop><tuv xml:lang="en"><seg>Reconfiguration was successful</seg></tuv><tuv xml:lang="sv"><seg>Omkonfigureringen lyckades</seg></tuv></tu>
 </body>
 </tmx>
