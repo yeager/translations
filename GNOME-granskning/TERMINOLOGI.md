@@ -609,3 +609,16 @@ argumentet betyder i just det programmet.
 | ipuz | ipuz | Filformatets namn lämnas oförändrat. |
 | puzzle kind | pusseltyp | |
 | whitespace | blanktecken | |
+
+
+## d-spy
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| D-Bus | D-Bus | Tekniknamn; behåll bindestrecket. |
+| write-only property | endast skrivbar egenskap | Egenskap som kan skrivas men inte läsas. |
+| read-only property | skrivskyddad egenskap | |
+| set a property | ange en egenskap | Åtgärdsknapp/verb. |
+| call a method | anropa en metod | |
+| service owner | tjänstens ägare | D-Bus-kontext. |
+| GVariant text format | GVariant-textformat | Behåll formatnamnet. |

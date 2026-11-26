@@ -1,9 +1,10 @@
-# D-Spy — main/po
+# d-spy — main — po — svenska
 
-- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/d-spy/main/po/sv/>
-- Aktuell POT: 79 aktiva poster. Den hämtade svenska katalogen hade 7 oöversatta och 4 fuzzy-poster; den granskade filen har 0 oöversatta och 0 fuzzy.
-- Granskning: hela katalogen är radgranskad. Egenskapsredigering, D-Bus-anslutning och GVariant-inmatning är kompletterade med kontextkorrekta åtgärdsetiketter.
-- Acceleratorer: inga `_ä`, `_å` eller `_ö` förekommer.
-- Validering: `msgfmt --check` och `l10n-lint --language sv` utan anmärkningar. C-formatsträngar och aktuell POT har kontrollerats.
-- Hunspell: D-Bus, GVariant, PID och bussnamn är avsiktliga tekniska termer.
-- GNOME-inskick: inget.
+- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/d-spy/main/po/sv/>.
+- Aktuell PO och senaste POT hämtades 2026-11-26. POT skapad 2026-10-13 13:41 UTC; 79 aktiva poster.
+- GNOME-status före: 68 översatta, 4 fuzzy, 7 oöversatta. Efter: 79 översatta, 0 fuzzy, 0 oöversatta.
+- Alla 79 strängar radgranskades. 7 nya översättningar och 7 befintliga rättningar; alla 4 fuzzy-poster granskades.
+- Korrigeringarna omfattar läs-/skrivbara egenskaper, uppdateringsstatus, egenskapsvärden och metodanrop. D-Bus-, GVariant- och printf-format bevarades.
+- Validering: `msgfmt --check --check-format --statistics` och `msgcmp --use-fuzzy` godkända; printf-platshållare stämmer. `l10n-lint`: 0 fel och 0 varningar. `hunspell-sv` kördes; tekniska identifierare och GVariant-exempel dokumenterade som undantag.
+- Ingen GNOME-inskickning har gjorts.
+- Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-26.

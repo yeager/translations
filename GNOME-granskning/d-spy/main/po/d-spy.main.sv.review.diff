@@ -1,47 +1,66 @@
 --- d-spy.main.sv.original.po
 +++ d-spy.main.sv.reviewed.po
-@@ -8,8 +8,8 @@
+@@ -8,9 +8,9 @@
  "Project-Id-Version: d-spy main\n"
  "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/d-spy/issues\n"
  "POT-Creation-Date: 2026-10-13 13:41+0000\n"
 -"PO-Revision-Date: 2026-08-10 15:10+0200\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-23 00:00+0100\n"
+-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"PO-Revision-Date: 2026-11-26 14:30+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
- "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"Language-Team: Swedish <gnome@danielnylander.se>\n"
  "Language: sv\n"
  "MIME-Version: 1.0\n"
-@@ -132,41 +132,41 @@
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -86,7 +86,7 @@
+ 
+ #: src/dspy-name.c:501
+ msgid "Not Running"
+-msgstr "Kör inte"
++msgstr "Körs inte"
+ 
+ #: src/dspy-property.c:63
+ msgid "read/write"
+@@ -98,7 +98,7 @@
+ 
+ #: src/dspy-property.c:67
+ msgid "read-only"
+-msgstr "endast läsning"
++msgstr "skrivskyddad"
+ 
+ #: src/dspy-property.c:234
+ msgid "Error"
+@@ -132,41 +132,39 @@
  
  #: src/dspy-window.c:602 src/dspy-window.c:647
  msgid "Property was set, but the service owner has changed"
 -msgstr ""
-+msgstr "Egenskapen angavs, men tjänstägaren har ändrats"
++msgstr "Egenskapen angavs, men tjänstens ägare har ändrats"
  
  #: src/dspy-window.c:633
  #, c-format
  msgid "Failed to set property: %s"
 -msgstr ""
-+msgstr "Kunde inte ange egenskap: %s"
++msgstr "Det gick inte att ange egenskapen: %s"
  
  #: src/dspy-window.c:661
  #, c-format
  msgid "Property was set, but could not be read back: %s"
 -msgstr ""
-+msgstr "Egenskapen angavs, men kunde inte läsas tillbaka: %s"
++msgstr "Egenskapen angavs, men det gick inte att läsa tillbaka den: %s"
  
  #: src/dspy-window.c:667
 -#, fuzzy
-+#
  #| msgid "Property"
  msgid "Property updated"
 -msgstr "Egenskap"
-+msgstr "Egenskapen uppdaterades"
++msgstr "Egenskapen har uppdaterats"
  
  #: src/dspy-window.c:694
  msgid "The D-Bus connection or service owner is unavailable"
 -msgstr ""
-+msgstr "D-Bus-anslutningen eller tjänstägaren är inte tillgänglig"
++msgstr "D-Bus-anslutningen eller tjänstens ägare är inte tillgänglig"
  
  #: src/dspy-window.c:725
  msgid "Setting property…"
@@ -54,20 +73,18 @@
  
  #: src/dspy-window.c:984
 -#, fuzzy
-+#
  #| msgid "write-only"
  msgid "Write-only property"
 -msgstr "endast skrivning"
-+msgstr "Egenskap som bara kan skrivas"
++msgstr "Endast skrivbar egenskap"
  
  #: src/dspy-window.ui:62
  msgid "Connections"
-@@ -251,24 +251,24 @@
+@@ -251,24 +249,23 @@
  msgstr "Värde"
  
  #: src/dspy-window.ui:1089
 -#, fuzzy
-+#
  #| msgid "Property"
  msgid "Set Property"
 -msgstr "Egenskap"
@@ -75,12 +92,11 @@
  
  #: src/dspy-window.ui:1090
  msgid "Enter a value in GVariant text format, such as 'hello', true, or 42."
--msgstr ""
-+msgstr "Ange ett värde i GVariants textformat, till exempel 'hello', true eller 42."
+ msgstr ""
++"Ange ett värde i GVariant-textformat, till exempel 'hello', true eller 42."
  
  #: src/dspy-window.ui:1094
 -#, fuzzy
-+#
  #| msgid "Value"
  msgid "New Value"
 -msgstr "Värde"
@@ -93,7 +109,7 @@
  
  #: src/dspy-window.ui:1248
  msgid "Signal"
-@@ -292,7 +292,7 @@
+@@ -292,7 +289,7 @@
  
  #: src/dspy-window.ui:1475
  msgid "Call Method"
