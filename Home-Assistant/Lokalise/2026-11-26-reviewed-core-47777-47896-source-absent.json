@@ -1,0 +1,209 @@
+[
+  {
+    "position": 47780,
+    "key": "component::liebherr::exceptions::set_temperature_failed::message",
+    "en": "Failed to set temperature",
+    "sv": "Det gick inte att ställa in temperaturen",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47781,
+    "key": "component::radarr::exceptions::integration_not_found::message",
+    "en": "Config entry for integration \"{target}\" not found.",
+    "sv": "Konfigurationsposten för integrationen ”{target}” hittades inte.",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47782,
+    "key": "component::radarr::exceptions::not_loaded::message",
+    "en": "Config entry \"{target}\" is not loaded.",
+    "sv": "Konfigurationsposten ”{target}” har inte laddats.",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47798,
+    "key": "component::telegram_bot::issues::migrate_chat_ids_in_target::fix_flow::step::confirm::description",
+    "en": "The `target` parameter is being deprecated. You should update any automations and scripts that use that parameter in Telegram bot actions. Use `entity_id` to specify Telegram bot notify entities or `chat_id` to replace `target`.\n\nTo fix this issue,\n1. Go to `{action_origin}`.\n1. Update the `{action}` action using either of the following methods:\n    - Delete the `target` parameter and add the new `entity_id` parameter to specify [Telegram bot notify entities]({telegram_bot_entities_url}).\n    - Replace the `target` parameter with `chat_id`.\n1. Select **Submit** to fix this issue.\n\n**Example old action:**\n{example_old}\n\n**Example new action (using notify entities):**\n{example_new_entity_id}\n\n**Example new action (replacing `target` with `chat_id`):**\n{example_new_chat_id}",
+    "sv": "Parametern `target` är på väg att fasas ut. Du bör uppdatera alla automatiseringar och skript som använder den parametern i Telegram-bot-åtgärder. Använd `entity_id` för att ange Telegram-bot-meddelandeenheter eller `chat_id` för att ersätta `target`.\n\nSå här åtgärdar du problemet:\n1. Gå till `{action_origin}`.\n1. Uppdatera åtgärden `{action}` med någon av följande metoder:\n    - Ta bort parametern `target` och lägg till den nya parametern `entity_id` för att ange [Telegram-botens meddelandeenheter]({telegram_bot_entities_url}).\n    - Ersätt parametern `target` med `chat_id`.\n1. Tryck på Bekräfta för att åtgärda problemet.\n\n**Exempel på gammal åtgärd:**\n{example_old}\n\n**Exempel på ny åtgärd (med meddelandeenheter):**\n{example_new_entity_id}\n\n**Exempel på ny åtgärd (ersätt `target` med `chat_id`):**\n{example_new_chat_id}",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47799,
+    "key": "component::telegram_bot::issues::migrate_chat_ids_in_target::fix_flow::step::confirm::title",
+    "en": "The `target` parameter for {integration_title} is being removed",
+    "sv": "Parametern `target` för {integration_title} kommer att tas bort",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47800,
+    "key": "component::telegram_bot::issues::migrate_chat_ids_in_target::title",
+    "en": "The `target` parameter for {integration_title} is being removed",
+    "sv": "Parametern `target` för {integration_title} kommer att tas bort",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47803,
+    "key": "component::telegram_bot::services::delete_message::sections::advanced::name",
+    "en": "Advanced",
+    "sv": "Avancerat",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47806,
+    "key": "component::telegram_bot::services::edit_caption::sections::advanced::name",
+    "en": "Advanced",
+    "sv": "Avancerat",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47809,
+    "key": "component::telegram_bot::services::edit_message::sections::advanced::name",
+    "en": "Advanced",
+    "sv": "Avancerat",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47812,
+    "key": "component::telegram_bot::services::edit_message_media::sections::advanced::name",
+    "en": "Advanced",
+    "sv": "Avancerat",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47815,
+    "key": "component::telegram_bot::services::edit_replymarkup::sections::advanced::name",
+    "en": "Advanced",
+    "sv": "Avancerat",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47818,
+    "key": "component::telegram_bot::services::leave_chat::sections::advanced::name",
+    "en": "Advanced",
+    "sv": "Avancerat",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47823,
+    "key": "component::telegram_bot::services::send_animation::sections::advanced::name",
+    "en": "Advanced",
+    "sv": "Avancerat",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47828,
+    "key": "component::telegram_bot::services::send_chat_action::sections::advanced::name",
+    "en": "Advanced",
+    "sv": "Avancerat",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47833,
+    "key": "component::telegram_bot::services::send_document::sections::advanced::name",
+    "en": "Advanced",
+    "sv": "Avancerat",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47838,
+    "key": "component::telegram_bot::services::send_location::sections::advanced::name",
+    "en": "Advanced",
+    "sv": "Avancerat",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47843,
+    "key": "component::telegram_bot::services::send_message::sections::advanced::name",
+    "en": "Advanced",
+    "sv": "Avancerat",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47848,
+    "key": "component::telegram_bot::services::send_photo::sections::advanced::name",
+    "en": "Advanced",
+    "sv": "Avancerat",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47853,
+    "key": "component::telegram_bot::services::send_poll::sections::advanced::name",
+    "en": "Advanced",
+    "sv": "Avancerat",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47858,
+    "key": "component::telegram_bot::services::send_sticker::sections::advanced::name",
+    "en": "Advanced",
+    "sv": "Avancerat",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47863,
+    "key": "component::telegram_bot::services::send_video::sections::advanced::name",
+    "en": "Advanced",
+    "sv": "Avancerat",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47868,
+    "key": "component::telegram_bot::services::send_voice::sections::advanced::name",
+    "en": "Advanced",
+    "sv": "Avancerat",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 47871,
+    "key": "component::telegram_bot::services::set_message_reaction::sections::advanced::name",
+    "en": "Advanced",
+    "sv": "Avancerat",
+    "previously_documented": true,
+    "current_source_status": "absent from c03d786a2335a70d01860cae56286798bb272871",
+    "status": "source-path-follow-up"
+  }
+]
