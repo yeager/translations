@@ -377,3 +377,14 @@ argumentet betyder i just det programmet.
 | gear tooth (Spyrogimp) | kugg | En tand på ett kugghjul. |
 | sample average (histogram) | medelvärde för sampel | Medelvärdet av pixelvärden som används vid histogram-/färgberäkning. |
 | Curve Pattern (Spyrogimp) | kurvform | Mönstrets kurvbaserade inställningssektion. |
+## LaTeX och dokumentredigering
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| build tool | byggverktyg | GNOME Enter-tex-hjälp. |
+| post processor | efterbehandlare | Verktyg som filtrerar kommandoutdata. |
+| dictionary | ordlista | Stavningskontroll; undvik *uppslagsverk* i denna betydelse. |
+| completion (LaTeX commands) | komplettering | Förslag på LaTeX-kommandon. |
+| index (LaTeX document) | sakregister | Skillnad mot ett tekniskt index. |
+| forward search / backward search | framåtsökning / bakåtsökning | SyncTeX-termer för hopp mellan källtext och PDF. |
+| project main file | projektets huvudfil | |

@@ -1,0 +1,677 @@
+# Swedish translation for enter-tex help.
+# Copyright © 2016, 2017, 2018, 2020 latexila's COPYRIGHT HOLDER
+# Copyright © 2026 enter-tex's COPYRIGHT HOLDER
+# This file is distributed under the same license as the enter-tex package.
+# Josef Andersson <josef.andersson@fripost.org>, 2016.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017, 2018, 2020, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enter-tex main\n"
+"POT-Creation-Date: 2026-11-10 11:48+0000\n"
+"PO-Revision-Date: 2026-09-17 19:45+0200\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Josef Andersson <josef.andersson@fripost.org>, 2016\n"
+"\n"
+"Skicka synpunkter på översättningen till\n"
+"<tp-sv@listor.tp-sv.se>."
+
+#. (itstool) path: page/title
+#: C/build_tools.page:10
+msgid "Build Tools"
+msgstr "Byggverktyg"
+
+#. (itstool) path: synopsis/p
+#: C/build_tools.page:13
+msgid ""
+"The purpose of the build tools is to generate a document in the PDF, DVI or "
+"PS format."
+msgstr ""
+"Syftet med byggverktygen är att generera ett dokument i PDF-, DVI- eller PS-"
+"format."
+
+#. (itstool) path: section/title
+#: C/build_tools.page:20
+msgid "Introduction"
+msgstr "Introduktion"
+
+#. (itstool) path: section/p
+#: C/build_tools.page:22
+msgid ""
+"Several different tools can be used for a document compilation. There are "
+"some low-level commands, and one higher-level tool: Latexmk."
+msgstr ""
+"Flera olika verktyg kan användas för dokumentkompilering. Det finns några "
+"lågnivåkommandon och ett högnivåverktyg: Latexmk."
+
+#. (itstool) path: table/title
+#: C/build_tools.page:26
+msgid "Low-level commands"
+msgstr "Lågnivåkommandon"
+
+#. (itstool) path: td/p
+#: C/build_tools.page:29
+msgid "Label"
+msgstr "Etikett"
+
+#. (itstool) path: td/p
+#: C/build_tools.page:30
+msgid "Command"
+msgstr "Kommando"
+
+#. (itstool) path: td/p
+#: C/build_tools.page:59
+msgid "Bibliography"
+msgstr "Bibliografi"
+
+#. (itstool) path: td/p
+#: C/build_tools.page:63
+msgid "Index"
+msgstr "Index"
+
+#. (itstool) path: section/p
+#: C/build_tools.page:69
+msgid ""
+"Compiling a LaTeX document can involve to execute several low-level "
+"commands, in a certain order and a certain number of times. Here is an "
+"example:"
+msgstr ""
+"Att kompilera ett LaTeX-dokument kan innebära körning av flera "
+"lågnivåkommandon i speciell ordning och ett speciellt antal gånger. Här är "
+"ett exempel:"
+
+#. (itstool) path: section/p
+#: C/build_tools.page:78
+msgid ""
+"Using a higher-level tool such as Latexmk simplify a lot all this process, "
+"since only one command is required. Indeed, Latexmk can detect how many "
+"times the <cmd>latex</cmd> or <cmd>pdflatex</cmd> command must be called, "
+"and whether <cmd>bibtex</cmd> or <cmd>makeindex</cmd> is required. By "
+"default, <app>Enter TeX</app> uses Latexmk."
+msgstr ""
+"Att använda ett verktyg på högre nivå som t.ex. Latexmk förenklar en hel del "
+"av denna process eftersom endast ett kommando krävs. Latexmk kan upptäcka "
+"hur många gånger kommandot <cmd>latex</cmd> eller <cmd>pdflatex</cmd> måste "
+"anropas och huruvida <cmd>bibtex</cmd> eller <cmd>makeindex</cmd> krävs. Som "
+"standard använder <app>Enter TeX</app> Latexmk."
+
+#. (itstool) path: section/title
+#: C/build_tools.page:86
+msgid "Execute a Build Tool"
+msgstr "Kör ett byggverktyg"
+
+#. (itstool) path: section/p
+#: C/build_tools.page:88
+msgid "There are several means to execute a build tool:"
+msgstr "Det finns flera sätta att köra ett byggverktyg på:"
+
+#. (itstool) path: item/p
+#: C/build_tools.page:90
+msgid "Open the <gui style=\"menu\">Build</gui> menu."
+msgstr "Öppna menyn <gui style=\"menu\">Bygg</gui>."
+
+#. (itstool) path: item/p
+#: C/build_tools.page:91
+msgid "Use the buttons in the main toolbar."
+msgstr "Använd knapparna i huvudverktygsfältet."
+
+#. (itstool) path: item/p
+#: C/build_tools.page:92
+msgid "Use the shortcut: <key>F2</key> → <key>F11</key>."
+msgstr "Använd genvägen: <key>F2</key> → <key>F11</key>."
+
+#. (itstool) path: section/p
+#: C/build_tools.page:95
+msgid ""
+"The build tool is executed on the currently opened file. If the file belongs "
+"to a <link xref=\"projects\">project</link>, it is executed on the project's "
+"main file."
+msgstr ""
+"Byggverktyget körs på den fil som är öppnad för tillfället. Om filen tillhör "
+"ett <link xref=\"projects\">projekt</link> körs den med projektets huvudfil."
+
+#. (itstool) path: note/title
+#: C/build_tools.page:99
+msgid "Hidden Build Tools"
+msgstr "Dolda byggverktyg"
+
+#. (itstool) path: note/p
+#: C/build_tools.page:100
+msgid ""
+"By default, a lot of build tools are hidden, so they can't be executed. To "
+"view the full list of build tools, activate or configure them, read the "
+"<link xref=\"#general_configuration\"/> section."
+msgstr ""
+"Som standard är många byggverktyg dolda så att de inte kan köras. För att se "
+"hela listan av byggverktyg, aktivera eller konfigurera dem, läs avsnittet "
+"<link xref=\"#general_configuration\"/>."
+
+#. (itstool) path: section/title
+#: C/build_tools.page:107
+msgid "General Configuration"
+msgstr "Allmän konfiguration"
+
+#. (itstool) path: section/p
+#: C/build_tools.page:109
+msgid ""
+"To configure the build tools, go to: <guiseq> <gui style=\"menu\">Build</"
+"gui> <gui style=\"menu\">Manage Build Tools</gui> </guiseq>"
+msgstr ""
+"För att konfigurera byggverktygen, gå till <guiseq> <gui "
+"style=\"menu\">Bygg</gui> <gui style=\"menu\">Hantera byggverktyg</gui> </"
+"guiseq>"
+
+#. (itstool) path: section/p
+#: C/build_tools.page:117
+msgid ""
+"You will see the list of all the default build tools, and a second list with "
+"your personal build tools. There are check buttons to enable or disable "
+"them. When a build tool is disabled, it's not possible to execute it. You "
+"can perform some actions, like moving a tool up or down, open its "
+"properties, delete or copy it, create a new one, etc."
+msgstr ""
+"Du kommer att se en lista över alla standardbyggverktyg och en till lista "
+"med dina personliga byggverktyg. Det finns kryssruteknappar för att aktivera "
+"och inaktivera dem. När ett byggverktyg är inaktiverat är det inte möjligt "
+"att köra det. Du kan utföra en del åtgärder som att flytta ett verktyg upp "
+"eller ned, öppna dess egenskaper, ta bort eller kopiera det, skapa ett nytt, "
+"o.s.v."
+
+#. (itstool) path: note/p
+#: C/build_tools.page:124
+msgid "Double-click on a build tool will open its properties."
+msgstr "Dubbelklick på ett byggverktyg kommer att öppna dess egenskaper."
+
+#. (itstool) path: section/title
+#: C/build_tools.page:129
+msgid "Jobs of a Build Tool"
+msgstr "Jobben för ett byggverktyg"
+
+#. (itstool) path: section/p
+#: C/build_tools.page:131
+msgid ""
+"In the properties of a build tool, the tricky part is to configure the jobs. "
+"A build tool can execute several jobs. Each job contains two pieces of "
+"information:"
+msgstr ""
+"I egenskaperna för ett byggverktyg är den kluriga delen att konfigurera "
+"jobben. Ett byggverktyg kan exekvera flera jobb. Varje jobb innehåller två "
+"delar information:"
+
+#. (itstool) path: item/p
+#: C/build_tools.page:135
+msgid "The command, which can use placeholders."
+msgstr "Kommandot som kan använda platshållare."
+
+#. (itstool) path: item/p
+#: C/build_tools.page:136
+msgid "The post processor (see <link xref=\"#post-processors\"/>)."
+msgstr "Postprocessorn (se <link xref=\"#post-processors\"/>)."
+
+#. (itstool) path: section/p
+#: C/build_tools.page:139
+msgid ""
+"When an error occurs during a job's execution, the execution of the build "
+"tool is aborted, so the next jobs are not launched."
+msgstr ""
+"När ett fel uppstår då ett jobb exekveras, kommer exekveringen att avbrytas "
+"så att efterföljande jobb inte startas."
+
+#. (itstool) path: section/title
+#: C/build_tools.page:144
+msgid "Post Processors"
+msgstr "Postprocessorer"
+
+#. (itstool) path: section/p
+#: C/build_tools.page:145
+msgid ""
+"The purpose of a post processor is to filter the command output and extract "
+"the useful information. Four post processors are available:"
+msgstr ""
+"Syftet med en postprocessor är att filtrera kommandoutdata och extrahera den "
+"användbara informationen. Fyra postprocessorer är tillgängliga:"
+
+#. (itstool) path: item/p
+#: C/build_tools.page:151
+msgid "The output is simply not displayed."
+msgstr "Utmatningen visas inte."
+
+#. (itstool) path: item/p
+#: C/build_tools.page:155
+msgid "All the output is displayed, without filter."
+msgstr "All utmatning visas, utan filter."
+
+#. (itstool) path: item/p
+#: C/build_tools.page:159
+msgid ""
+"Filter the output of the <cmd>latex</cmd> or <cmd>pdflatex</cmd> commands. "
+"There can be three types of errors: critical errors, warnings, or bad boxes. "
+"There are also some other useful information: the size of the document, the "
+"number of pages, and the number of errors."
+msgstr ""
+"Filtrera utmatningen för kommandona <cmd>latex</cmd> eller <cmd>pdflatex</"
+"cmd>. Det kan finnas tre typer av fel: kritiska fel, varningar eller "
+"felrutor. Det finns också en del annan användbar information: storleken på "
+"dokumenten, antalet sidor och antalet fel."
+
+#. (itstool) path: item/p
+#: C/build_tools.page:166
+msgid ""
+"Used for the <cmd>latexmk</cmd> command. Internally, this post processor "
+"uses other ones: <em>latex</em> and <em>all-output</em>."
+msgstr ""
+"Används för kommandot <cmd>latexmk</cmd>. Internt använder denna "
+"postprocessor andra kommandon: <em>latex</em> och <em>all-output</em>."
+
+#. (itstool) path: page/title
+#: C/completion.page:10
+msgid "Completion of LaTeX commands"
+msgstr "Komplettering av LaTeX-kommandon"
+
+#. (itstool) path: synopsis/p
+#: C/completion.page:13
+msgid ""
+"The purpose is to facilitate the writing of LaTeX commands, by showing "
+"proposals."
+msgstr ""
+"Syftet är att underlätta skrivandet av LaTeX-kommandon genom att visa "
+"förslag."
+
+#. (itstool) path: section/title
+#: C/completion.page:17
+msgid "Interactive completion"
+msgstr "Interaktiv komplettering"
+
+#. (itstool) path: section/p
+#: C/completion.page:18
+msgid ""
+"By default, when a LaTeX command is typed, proposals will be shown after two "
+"characters. This can be configured in the preferences dialog: <guiseq> <gui "
+"style=\"menu\">Edit</gui> <gui style=\"menu\">Preferences</gui> <gui "
+"style=\"tab\">Other</gui> </guiseq>"
+msgstr ""
+"När ett LaTeX-kommando skrivs in kommer som standard förslag att visas efter "
+"två tecken. Detta kan konfigureras i inställningsdialogen: <guiseq> <gui "
+"style=\"menu\">Redigera</gui> <gui style=\"menu\">Inställningar</gui> <gui "
+"style=\"tab\">Övriga</gui> </guiseq>"
+
+#. (itstool) path: section/title
+#: C/completion.page:30
+msgid "Manual completion"
+msgstr "Manuell komplettering"
+
+#. (itstool) path: section/p
+#: C/completion.page:31
+msgid ""
+"At any time, press <keyseq> <key>Ctrl</key> <key>Space</key> </keyseq> to "
+"show proposals."
+msgstr ""
+"Tryck närsomhelst ned <keyseq> <key>Ctrl</key> <key>Blanksteg</key> </"
+"keyseq> för att visa förslag."
+
+#. (itstool) path: page/title
+#: C/index.page:4
+msgid "Enter TeX Help"
+msgstr "Hjälp för Enter TeX"
+
+#. (itstool) path: page/title
+#: C/projects.page:10
+msgid "Projects"
+msgstr "Projekt"
+
+#. (itstool) path: synopsis/p
+#: C/projects.page:13
+msgid ""
+"When a LaTeX document is split into several *.tex files, creating a project "
+"is useful."
+msgstr ""
+"När ett LaTeX-dokument delas upp i flera *.tex-filer är det bra att skapa "
+"ett projekt."
+
+#. (itstool) path: section/title
+#: C/projects.page:18
+msgid "Manage projects"
+msgstr "Hantera projekt"
+
+#. (itstool) path: section/p
+#: C/projects.page:20
+msgid ""
+"All actions related to projects are located in the <gui "
+"style=\"menu\">Projects</gui> menu. A project contains only two pieces of "
+"information:"
+msgstr ""
+"Alla åtgärder relaterade till projekt finns i menyn <gui "
+"style=\"menu\">Projekt</gui>. Ett projekt innehåller endast två delar av "
+"information:"
+
+#. (itstool) path: item/p
+#: C/projects.page:25
+msgid "The directory where the project is located."
+msgstr "Katalogen där projektet finns."
+
+#. (itstool) path: item/p
+#: C/projects.page:26
+msgid "The main *.tex file."
+msgstr "Den huvudsakliga *.tex-filen."
+
+#. (itstool) path: section/p
+#: C/projects.page:29
+msgid ""
+"As a consequence, a directory can contain only one project, which is quite "
+"logical."
+msgstr ""
+"Som en konsekvens kan en katalog endast innehålla ett projekt, vilket är "
+"ganska logiskt."
+
+#. (itstool) path: section/title
+#: C/projects.page:35
+msgid "Usefulness of projects"
+msgstr "Nyttan med projekt"
+
+#. (itstool) path: item/p
+#: C/projects.page:37
+msgid ""
+"A <link xref=\"build_tools\">build tool</link> is executed on the project's "
+"main file."
+msgstr ""
+"Ett <link xref=\"build_tools\">byggverktyg</link> exekveras på projektets "
+"huvudfil."
+
+#. (itstool) path: item/p
+#: C/projects.page:39
+msgid ""
+"<link xref=\"synctex#from_tex_to_pdf\">Jumping from a .tex file to the PDF</"
+"link> works for a secondary .tex file belonging to a project."
+msgstr ""
+"<link xref=\"synctex#from_tex_to_pdf\">Hopp från en .tex-fil till PDF-filen</"
+"link> fungerar för en sekundär .tex-fil som tillhör ett projekt."
+
+#. (itstool) path: page/title
+#: C/spell_checking.page:10
+msgid "Spell-Checking"
+msgstr "Stavningskontroll"
+
+#. (itstool) path: synopsis/p
+#: C/spell_checking.page:13
+msgid "The purpose is to correct spelling mistakes easily."
+msgstr "Syftet är att enkelt rätta felstavningar."
+
+#. (itstool) path: section/title
+#: C/spell_checking.page:17
+msgid "Use the spell-checking"
+msgstr "Använd stavningskontrollen"
+
+#. (itstool) path: section/p
+#: C/spell_checking.page:18
+msgid ""
+"The default spell-checking settings can be changed in the preferences "
+"dialog: <guiseq> <gui style=\"menu\">Edit</gui> <gui "
+"style=\"menu\">Preferences</gui> <gui style=\"tab\">Other</gui> </guiseq>"
+msgstr ""
+"Inställningarna för standardstavningskontrollen kan ändras i "
+"inställningsdialogen: <guiseq> <gui style=\"menu\">Redigera</gui> <gui "
+"style=\"menu\">Inställningar</gui> <gui style=\"tab\">Övriga</gui> </guiseq>"
+
+#. (itstool) path: section/p
+#: C/spell_checking.page:27
+msgid ""
+"The settings can also be changed on a file-by-file basis via the <gui "
+"style=\"menu\">Tools</gui> menu."
+msgstr ""
+"Inställningar kan också ändras på fil-till-filbasis via menyn <gui "
+"style=\"menu\">Verktyg</gui>."
+
+#. (itstool) path: section/p
+#: C/spell_checking.page:32
+msgid ""
+"If you activate the <gui style=\"menu\">Highlight Misspelled Words</gui> "
+"option, the misspelled words will be underlined in red in the document. A "
+"right click on a misspelled word will show proposals."
+msgstr ""
+"Om du aktiverar alternativet <gui style=\"menu\">Markera felstavade ord</"
+"gui> kommer felstavade ord att strykas under med rött i dokumentet. Ett "
+"högerklick på ett felstavat ord kommer att visa förslag."
+
+#. (itstool) path: section/title
+#: C/spell_checking.page:40
+msgid "Dictionaries"
+msgstr "Uppslagsverk"
+
+#. (itstool) path: section/p
+#: C/spell_checking.page:41
+msgid ""
+"<link href=\"https://gitlab.gnome.org/GNOME/gspell\">gspell</link> is used "
+"for the spell-checking in <app>Enter TeX</app>. gspell uses <link "
+"href=\"https://rrthomas.github.io/enchant/\">Enchant</link>, which in turn "
+"supports several backends such as Hunspell or Aspell for the dictionaries. "
+"The Aspell backend doesn't work well with gspell, Hunspell is preferred. If "
+"dictionaries for both Aspell and Hunspell are installed for the same "
+"language, by default Enchant prefers the Hunspell one."
+msgstr ""
+"<link href=\"https://gitlab.gnome.org/GNOME/gspell\">gspell</link> används "
+"för stavningskontrollen i <app>Enter TeX</app>. gspell använder <link "
+"href=\"https://rrthomas.github.io/enchant/\">Enchant</link>, vilket i sin "
+"tur stöder flera bakändar såsom Hunspell eller Aspell för uppslagsverken. "
+"Aspell-bakänden fungerar inte bra med gspell, Hunspell är att föredra. Om "
+"uppslagsverk för både Aspell och Hunspell installerats för samma språk "
+"föredrar Enchant som standard det för Hunspell."
+
+#. (itstool) path: section/p
+#: C/spell_checking.page:51
+msgid ""
+"If your language is not listed in <app>Enter TeX</app>, install a dictionary "
+"for one of the supported Enchant backends (for most languages the best "
+"choice is to install an Hunspell dictionary)."
+msgstr ""
+"Om ditt språk inte listas i <app>Enter TeX</app>, installera ett "
+"uppslagsverk för en av de Enchant-bakändar som stöds (för de flesta språk är "
+"det bästa valet att installera ett Hunspell-uppslagsverk)."
+
+#. (itstool) path: page/title
+#: C/structure.page:10
+msgid "Document's Structure"
+msgstr "Dokumentets struktur"
+
+#. (itstool) path: synopsis/p
+#: C/structure.page:13
+msgid ""
+"The list of chapters, sections, sub-sections and other things like tables, "
+"figures, … of a document, to easily navigate in it."
+msgstr ""
+"Listan över kapitel, avsnitt, underavsnitt och andra saker som tabeller, "
+"figurer, ... för ett dokument för att enkelt navigera i det."
+
+#. (itstool) path: section/title
+#: C/structure.page:18
+msgid "Display the structure"
+msgstr "Visa strukturen"
+
+#. (itstool) path: section/p
+#: C/structure.page:20
+msgid ""
+"The structure can be displayed in the side panel. If the side panel is "
+"hidden, go to <guiseq> <gui style=\"menu\">View</gui> <gui "
+"style=\"menu\">Side panel</gui> </guiseq>."
+msgstr ""
+"Strukturen kan visas i sidopanelen. Om sidopanelen är dold, gå till <guiseq> "
+"<gui style=\"menu\">Visa</gui> <gui style=\"menu\">Sidopanel</gui> </guiseq>."
+
+#. (itstool) path: section/p
+#: C/structure.page:29
+msgid ""
+"The structure's content is not automatically updated. That's why there is a "
+"refresh button. If text is inserted in the document, the position of an item "
+"(e.g. a section) remains correct, as far as the item is still there, and is "
+"not modified."
+msgstr ""
+"Strukturinnehållet uppdateras inte automatiskt. Det är därför det finns en "
+"uppdateringsknapp. Om texten infogas i dokumentet, kvarstår positionen för "
+"ett objekt (till exempel ett stycke) korrekt, så länge som objektet är där "
+"och inte ändrats."
+
+#. (itstool) path: section/title
+#: C/structure.page:37
+msgid "Actions"
+msgstr "Åtgärder"
+
+#. (itstool) path: section/p
+#: C/structure.page:39
+msgid ""
+"Some actions such as \"cut\", \"copy\" or \"comment\" can be performed on a "
+"structure's item. Either by a right click, or via the <gui "
+"style=\"menu\">Structure</gui> menu."
+msgstr ""
+"En del åtgärder som ”klipp ut”, ”kopiera” eller ”kommentera” kan utföras på "
+"en strukturs objekt. Antingen genom högerklick eller via menyn <gui "
+"style=\"menu\">Strukturer</gui>."
+
+#. (itstool) path: section/title
+#. Do not translate the words TODO and FIXME. They are special comments
+#. that can be inserted in LaTeX documents.
+#: C/structure.page:48
+msgid "TODOs and FIXMEs"
+msgstr "TODO- och FIXME-kommentarer"
+
+#. (itstool) path: section/p
+#. Do not translate the words TODO and FIXME. They are special comments
+#. that can be inserted in LaTeX documents.
+#: C/structure.page:50
+msgid ""
+"It can be useful to add TODOs and FIXMEs comments in the document. They will "
+"be displayed in the structure. Example:"
+msgstr ""
+"Det kan vara nyttigt att lägga till TODO- och FIXME-kommentarer i "
+"dokumentet. De kommer att visas i strukturen. Exempel:"
+
+#. (itstool) path: section/code
+#. Do not translate the words TODO and FIXME. They are special comments
+#. that can be inserted in LaTeX documents.
+#: C/structure.page:55
+#, no-wrap
+msgid ""
+"\n"
+"%TODO a remaining task\n"
+"%FIXME something is broken"
+msgstr ""
+"\n"
+"%TODO en återstående uppgift\n"
+"%FIXME något är trasigt"
+
+#. (itstool) path: page/title
+#: C/synctex.page:10
+msgid "Jumping Between .tex and PDF"
+msgstr "Hoppa mellan .tex och PDF"
+
+#. (itstool) path: synopsis/p
+#: C/synctex.page:13
+msgid ""
+"Jumping between the document's *.tex files and the resulting PDF output, "
+"opened with the <app>Evince</app> document viewer."
+msgstr ""
+"Hoppa mellan dokumentets *.tex-filer och resulterande PDF-utmatning, öppnad "
+"med dokumentvisaren <app>Evince</app>."
+
+#. (itstool) path: note/p
+#: C/synctex.page:18
+msgid ""
+"For more information, read the <link "
+"href=\"help:evince#synctex\"><app>Evince</app> documentation</link>."
+msgstr ""
+"För mer information läs dokumentationen för <link "
+"href=\"help:evince#synctex\"> <app>Evince</app></link>."
+
+#. (itstool) path: section/title
+#: C/synctex.page:23
+msgid "Jumping from .tex to PDF"
+msgstr "Hoppa från .tex till PDF"
+
+#. (itstool) path: section/p
+#: C/synctex.page:25
+msgid ""
+"From a certain position in the .tex source file, jump to the corresponding "
+"position in the PDF file. Also called “forward search”."
+msgstr ""
+"Från en viss position i .tex-källfilen, hoppa till motsvarande position i "
+"PDF-filen. Också kallat ”framåtsökning”."
+
+#. (itstool) path: section/p
+#: C/synctex.page:28
+msgid "There are different ways to do this action:"
+msgstr "Det finns olika sätt att utföra denna åtgärd:"
+
+#. (itstool) path: item/p
+#: C/synctex.page:30
+msgid ""
+"In the menu: <guiseq> <gui style=\"menu\">Search</gui> <gui "
+"style=\"menu\">Jump to PDF</gui> </guiseq>"
+msgstr ""
+"I menyn: <guiseq> <gui style=\"menu\">Sök</gui> <gui style=\"menu\">Hoppa "
+"till PDF</gui> </guiseq>"
+
+#. (itstool) path: item/p
+#: C/synctex.page:36
+msgid "By pressing <keyseq> <key>Ctrl</key> <key>left click</key> </keyseq>"
+msgstr ""
+"Genom att trycka ned <keyseq> <key>Ctrl</key> <key>vänsterklick</key> </"
+"keyseq>"
+
+#. (itstool) path: section/p
+#: C/synctex.page:44
+msgid ""
+"If a document is split into several .tex files, create a <link "
+"xref=\"projects\">project</link>. Unlike what is explained in the <link "
+"href=\"help:evince/synctex-search#forward-search\"><app>Evince</app> "
+"documentation</link>, there is no need to mention the main file with a LaTeX "
+"comment in each secondary .tex file."
+msgstr ""
+"Om ett dokument är delat i flera olika .tex-filer, skapa ett <link "
+"xref=\"projects\">projekt</link>. Till skillnad till vad som förklaras i "
+"<link href=\"help:evince/synctex-search#forward-search\"> dokumentationen "
+"för <app>Evince</app></link>, så finns det finns inget behov av att nämna "
+"huvudfilen med en LaTeX-kommentar i varje sekundär .tex-fil."
+
+#. (itstool) path: section/title
+#: C/synctex.page:52
+msgid "Jumping from PDF to .tex"
+msgstr "Hoppa från PDF till .tex"
+
+#. (itstool) path: section/p
+#: C/synctex.page:54
+msgid ""
+"From a certain position in the PDF file, jump to the corresponding position "
+"in the .tex source file. Also called “backward search”."
+msgstr ""
+"Från en viss position i PDF-filen, hoppa till motsvarande position i .tex-"
+"källfilen. Också kallat ”bakåtsökning”."
+
+#. (itstool) path: section/p
+#: C/synctex.page:57
+msgid ""
+"In <app>Evince</app>, press <keyseq> <key>Ctrl</key> <key>left click</key> </"
+"keyseq>, and the corresponding position in the .tex file will be opened in "
+"<app>Enter TeX</app>."
+msgstr ""
+"I <app>Evince</app>, tryck ned <keyseq> <key>Ctrl</key> <key>vänsterklick</"
+"key> </keyseq> så kommer motsvarande position i .tex-filen att öppnas i "
+"<app>Enter TeX</app>."
+
+#. (itstool) path: section/p
+#: C/synctex.page:65
+msgid ""
+"<app>Evince</app> has to be launched by <app>Enter TeX</app>. Else, jumping "
+"from the PDF to the .tex file will not work."
+msgstr ""
+"<app>Evince</app> måste startas av <app>Enter TeX</app>. Annars kommer "
+"hoppet från PDF-filen till .tex-filen inte att fungera."

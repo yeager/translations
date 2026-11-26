@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-26 05:30 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-26 05:36 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -238,7 +238,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Gränssnitt | Default (99% translated) | [Endeavour](https://l10n.gnome.org/vertimus/endeavour/main/po/sv/) | main | 83 | 0 | 0 | Klar | X | 24 | Klar lokalt (2026-11-23): Hela 83-strängarskatalogen är radgranskad mot senaste POT. Åtta befintliga kvalitetsbrister är rättade; 0 oöversatta och 0 fuzzy återstår. msgfmt, msgcmp och l10n-lint saknar fel eller varningar. Ingen GNOME-inskickning har gjorts. [original](endeavour/main/po/endeavour.main.sv.original.po), [granskad](endeavour/main/po/endeavour.main.sv.reviewed.po), [diff](endeavour/main/po/endeavour.main.sv.review.diff), [notering](endeavour/main/po/README.md) |
 | Dokumentation | Default (71% translated) | [Endeavour](https://l10n.gnome.org/vertimus/endeavour/main/help/sv/) | main | 86 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [enter-tex](https://l10n.gnome.org/vertimus/enter-tex/main/po/sv/) | main | 563 | 0 | 0 | Klar |  | — | Ej granskad |
-| Dokumentation | Default (71% translated) | [enter-tex](https://l10n.gnome.org/vertimus/enter-tex/main/help/sv/) | main | 84 | 0 | 0 | Klar |  | — | Ej granskad |
+| Dokumentation | Default (71% translated) | [enter-tex](https://l10n.gnome.org/vertimus/enter-tex/main/help/sv/) | main | 84 | 0 | 0 | Klar | X | 46 | Klar lokalt (2026-11-26): Alla 84 aktiva hjälpsträngar radgranskade mot senaste POT (2026-11-10): 0 oöversatta och 0 fuzzy. 46 befintliga översättningar rättade, 0 nya. msgfmt, msgcmp och l10n-lint (0 fel/varningar) godkända; egna Yelp/XML-taggar, attribut, URL- och radbrytningskontroller passerar. Ingen inskickning till GNOME. [original](enter-tex/main/help/enter-tex.main.help.sv.original.po), [granskad](enter-tex/main/help/enter-tex.main.help.sv.reviewed.po), [diff](enter-tex/main/help/enter-tex.main.help.sv.review.diff), [notering](enter-tex/main/help/README.md) |
 | Gränssnitt | Default (99% translated) | [eog — Eye of GNOME](https://l10n.gnome.org/vertimus/eog/master/po/sv/) | master | 317 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [eog — Eye of GNOME](https://l10n.gnome.org/vertimus/eog/master/help/sv/) | master | 325 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [eog-plugins](https://l10n.gnome.org/vertimus/eog-plugins/master/po/sv/) | master | 100 | 0 | 0 | Klar | X | 30 | Klar lokalt (2026-11-25): Radgranskad mot senaste POT: 100/100 översatt, 0 fuzzy, 0 oöversatt; 30 befintliga poster rättade. msgfmt, msgcmp, l10n-lint och placeholder-/markup-/acceleratorjämförelser godkända; Hunspell-undantag dokumenterade. Inte inskickad till GNOME. [original](eog-plugins/master/po/eog-plugins.master.po.sv.original.po), [granskad](eog-plugins/master/po/eog-plugins.master.po.sv.reviewed.po), [diff](eog-plugins/master/po/eog-plugins.master.po.sv.review.diff), [notering](eog-plugins/master/po/README.md) |
