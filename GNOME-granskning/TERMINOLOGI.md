@@ -459,3 +459,16 @@ argumentet betyder i just det programmet.
 | trusted package/source | betrott paket / betrodd källa | Säkerhetsterminologi. |
 | repository | förråd | Paketförråd i kommandotext och status. |
 | obsolete package | ersatt paket | Paket som ersätts av en annan paketversion eller ett annat paket. |
+
+## Foundry och utvecklarverktyg
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| indentation | indrag | I källkodsredigeraren; verb: *dra in*. |
+| brace | klammerparentes | Skilj från *hakparentes* (`bracket`) och *parentes* (`parenthesis`). |
+| build/CI pipeline | byggpipeline / CI-pipeline | Behåll den etablerade utvecklartermen; översätt inte bokstavligt till *rörledning*. |
+| forge | kodplattform | Tjänst för Git-projekt och samarbete, till exempel GitLab. |
+| documentation bundle | dokumentationspaket | Inte *dokumentationsbunt*. |
+| model digest | kontrollsumma | Modellens innehållshash. |
+| prompt (language model) | instruktion | Använd *instruktion* i användartext och metavariabeln `INSTRUKTION`. |
+| scrollback | rullningshistorik | Terminalens sparade utskrift. |
