@@ -8,9 +8,9 @@ Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 
 ## Aktuellt läge
 
-- Senast behandlade Lokalise-position: **48 856** av 77 540 indexpositioner (cirka 62,9 %); 77 520 poster är aktiva. Nästa position: **48 857**; efter markören återstår 28 684 positioner enligt den löpande positionsräkningen. Källrevision: `c03d786a2335a70d01860cae56286798bb272871`.
-- De äldre totalsiffrorna har inte omräknats efter nyare batcher och ska inte användas som aktuell kumulativ summering. Den kanoniska HA Core-TMX innehåller nu **33 401** enheter (33 170 poster med Lokalise-ID och 231 historiska poster).
-- Fullständiga rader, ändringsförslag, källvägar, referenser och live-ID:n finns i respektive daterade batchrapport; senaste rapport: `2026-11-26-reviewed-core-48737-48856.md` och fullständiga JSON-underlag.
+- Senast behandlade Lokalise-position: **48 976** av 77 540 indexpositioner (cirka 63,1 %); 77 520 poster är aktiva. Nästa position: **48 977**; efter markören återstår 28 564 positioner enligt den löpande positionsräkningen. Källrevision: `c03d786a2335a70d01860cae56286798bb272871`.
+- De äldre totalsiffrorna har inte omräknats efter nyare batcher och ska inte användas som aktuell kumulativ summering. Den kanoniska HA Core-TMX innehåller nu **33 497** enheter (33 266 poster med Lokalise-ID och 231 historiska poster).
+- Fullständiga rader, ändringsförslag, källvägar, referenser och live-ID:n finns i respektive daterade batchrapport; senaste rapport: `2026-11-26-reviewed-core-48857-48976.md` och fullständiga JSON-underlag.
 - Batchen 29 131–29 250: 120/120 nycklar aktiva och källmatchande; **17** ändringar sparade och återlästa, **103** texter oförändrade. Nästa batch 29 251–29 370: 85 aktuella Core-nycklar granskade utan ändring och 35 källfrånvarande poster uteslutna. Batchen 29 371–29 490: 54 aktiva Core-nycklar, 2 ändringar, 52 oförändrade; 66 källfrånvarande. Batchen 29 491–29 610: 95 aktiva Core-nycklar, ett OpenAI-referensalias synkat, 94 oförändrade; 25 källfrånvarande. Batchen 30 617–30 736: 104 aktiva Core-nycklar, 31 ändringar och 73 oförändrade; 16 källfrånvarande. Batchen 30 737–30 856: 110 aktuella nycklar, varav två överlappande återverifierades; 33 nya ändringar och 75 oförändrade bland de 108 nya aktiva posterna; 10 källfrånvarande. 31/31 aliasmål matchar live efter synkning. Batchen 30 857–30 976: 115 aktuella nycklar, varav två tidigare granskade återverifierades; 6 ändringar och 107 oförändrade bland 113 nya aktiva poster; 5 källfrånvarande. 24/24 aliasmål matchar. Platshållare 115/115; inga pluraler. Batchen 30 977–31 096: 96 aktuella nycklar, varav 12 tidigare granskade återverifierades; 11 ändringar och 73 oförändrade bland de 84 nya aktiva posterna; 24 källfrånvarande. 23/23 aliasmål matchar. Platshållare 96/96; inga pluraler. Batchen 31 097–31 216: 120/120 aktuella nycklar, sju fanns i tidigare dokumentation; 35 förbättringar sparades och lästes tillbaka, 85 poster verifierades oförändrade. Sex tidigare TM-värden för ZHA-energifaser rättades. Inga alias, pluraler eller platshållaravvikelser. Batchen 31 217–31 336: 110 aktuella nycklar och 10 källfrånvarande; 14 förbättringar sparades och 96 mål verifierades oförändrade. 68/68 alias matchar live; platshållare 110/110; inga pluraler. Batchen 31 337–31 456: 110 aktuella nycklar, varav 14 återverifierade från tidigare rapporter; 41 korrigeringar och 65 oförändrade bland 106 nya aktiva. Tio redan kända historiska nycklar uteslöts. Alla 13 alias matchar live. Två Synology-referensmål korrigerades retroaktivt. Batchen 31 457–31 576: 108 aktuella nycklar, varav sju återverifierades från tidigare rapporter; 14 ändringar och 87 oförändrade bland 101 nya aktiva. Tolv tidigare rapporterade historiska nycklar uteslöts. Alla 17 alias matchar live; platshållare 108/108; inga pluraler.
 - Liveverifiering för batchen bekräftade nyckelidentitet, engelsk källtext, svensk måltext och Lokalise-ID för 120/120 poster. Rapporten innehåller fullständiga nycklar och raderna med befintlig/föreslagen text.
 
@@ -83,6 +83,10 @@ Batch 52-rättelsen samt batcher 53–65 är införda i kanonisk TMX. Validering
 ### Senaste batch: 48 737–48 856
 
 120 positioner granskades rad för rad: 116 aktuella Core-nycklar och fyra historiska nycklar utan aktuell källväg (samtliga redan dokumenterade). Sju ändringar sparades och lästes tillbaka från Lokalise; övriga 109 aktiva texter verifierades oförändrade. Alla 25 referenser och 120/120 platshållaruppsättningar matchar; inga pluralnycklar. `svlang skrivregler --enable-interpunktion` rapporterade inga fel. Hunspell flaggade endast `name` i platshållarkontext; alla svenska ordformer godkändes. TMX validerar med 33 401 enheter och spegeln är byteidentisk. Nästa position: **48 857**. Se `2026-11-26-reviewed-core-48737-48856.md`.
+
+### Senaste batch: 48 857–48 976
+
+120 positioner granskades: 111 aktuella Core-nycklar och nio historiska nycklar utan aktuell källväg (alla redan dokumenterade). Fyra textändringar sparades och återlästes från Lokalise. Alla 18 referenser matchar aktuell engelsk källa och svensk måltext; två delade Ness Alarm-alias hade redan synkats till det gemensamma anslutningsfelet vid livekontrollen. Platshållare 120/120, inga pluralnycklar. `svlang skrivregler` och anglicismkontrollen gav inga träffar; Hunspell-träffarna gällde kodidentifierare. TMX validerar med 33 497 enheter och backupen är byteidentisk. Nästa position: **48 977**. Se `2026-11-26-reviewed-core-48857-48976.md`.
 
 ## TM och verktyg
 
@@ -167,6 +171,10 @@ Den aktuella Lokalise-ordningen gav 30 nyckelposter efter position 28020. 29 mat
 ### Senaste batch: 48 737–48 856
 
 120 positioner granskades rad för rad: 116 aktuella Core-nycklar och fyra historiska nycklar utan aktuell källväg (samtliga redan dokumenterade). Sju ändringar sparades och lästes tillbaka från Lokalise; övriga 109 aktiva texter verifierades oförändrade. Alla 25 referenser och 120/120 platshållaruppsättningar matchar; inga pluralnycklar. `svlang skrivregler --enable-interpunktion` rapporterade inga fel. Hunspell flaggade endast `name` i platshållarkontext; alla svenska ordformer godkändes. TMX validerar med 33 401 enheter och spegeln är byteidentisk. Nästa position: **48 857**. Se `2026-11-26-reviewed-core-48737-48856.md`.
+
+### Senaste batch: 48 857–48 976
+
+120 positioner granskades: 111 aktuella Core-nycklar och nio historiska nycklar utan aktuell källväg (alla redan dokumenterade). Fyra textändringar sparades och återlästes från Lokalise. Alla 18 referenser matchar aktuell engelsk källa och svensk måltext; två delade Ness Alarm-alias hade redan synkats till det gemensamma anslutningsfelet vid livekontrollen. Platshållare 120/120, inga pluralnycklar. `svlang skrivregler` och anglicismkontrollen gav inga träffar; Hunspell-träffarna gällde kodidentifierare. TMX validerar med 33 497 enheter och backupen är byteidentisk. Nästa position: **48 977**. Se `2026-11-26-reviewed-core-48857-48976.md`.
 
 ## TM och verktyg
 

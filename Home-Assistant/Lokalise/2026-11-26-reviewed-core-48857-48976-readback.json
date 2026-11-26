@@ -1,0 +1,145 @@
+[
+  {
+    "key": "component::ness_alarm::config::abort::cannot_connect",
+    "key_id": "804126270",
+    "translation_id": "7764315197",
+    "en": "Failed to connect",
+    "before": "Det gick inte att ansluta",
+    "after": "Det gick inte att ansluta",
+    "reason": "Synkar referensaliaset med den gemensamma feltexten för anslutningsproblem.",
+    "readback": "Det gick inte att ansluta",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::ness_alarm::config::error::cannot_connect",
+    "key_id": "804126272",
+    "translation_id": "7764315325",
+    "en": "Failed to connect",
+    "before": "Det gick inte att ansluta",
+    "after": "Det gick inte att ansluta",
+    "reason": "Synkar referensaliaset med den gemensamma feltexten för anslutningsproblem.",
+    "readback": "Det gick inte att ansluta",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::vacuum::issues::segments_changed::title",
+    "key_id": "803789214",
+    "translation_id": "7761861713",
+    "en": "Vacuum segments have changed for {entity_id}",
+    "before": "Dammsugarens segment har ändrats för {entity_id}",
+    "after": "Dammsugarens segment har ändrats för {entity_id}",
+    "reason": "Behåller korrekt hänvisning till dammsugarens segment och placeholder.",
+    "readback": "Dammsugarens segment har ändrats för {entity_id}",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::ness_alarm::config_subentries::zone::step::user::data_description::type",
+    "key_id": "804126290",
+    "translation_id": "7764316477",
+    "en": "Choose the device class you would like the sensor to show as",
+    "before": "Välj den enhetsklass som sensorn ska visa.",
+    "after": "Välj den enhetsklass som sensorn ska visa.",
+    "reason": "Kortar den grammatiskt oidiomatiska konstruktionen 'visas som' och gör instruktionen direkt.",
+    "readback": "Välj den enhetsklass som sensorn ska visa.",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::ness_alarm::config_subentries::zone::step::reconfigure::data_description::type",
+    "key_id": "804126286",
+    "translation_id": "7764316221",
+    "en": "Choose the device class you would like the sensor to show as",
+    "before": "Välj den enhetsklass som sensorn ska visa.",
+    "after": "Välj den enhetsklass som sensorn ska visa.",
+    "reason": "Synkar referensalias med det rättade användarfältet.",
+    "readback": "Välj den enhetsklass som sensorn ska visa.",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::homematicip_cloud::entity::light::optical_signal_light::state_attributes::effect::state::billow",
+    "key_id": "804126444",
+    "translation_id": "7764454721",
+    "en": "Billow",
+    "before": "Pulserande",
+    "after": "Pulserande",
+    "reason": "Billow är här ett ljusmönster/optisk signal, inte verbet bölja; beskriver ett pulserande ljusläge.",
+    "readback": "Pulserande",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::homematicip_cloud::entity::light::optical_signal_light::state_attributes::effect::state::flash",
+    "key_id": "804126446",
+    "translation_id": "7764454849",
+    "en": "Flash",
+    "before": "Blixt",
+    "after": "Blixt",
+    "reason": "Namnet på ljuseffekten uttrycks naturligare som substantiv, parallellt med de andra effektlägena.",
+    "readback": "Blixt",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::aws_s3::entity::sensor::backups_size::name",
+    "key_id": "804166535",
+    "translation_id": "7765252522",
+    "en": "Total size of backups",
+    "before": "Säkerhetskopiornas totala storlek",
+    "after": "Säkerhetskopiornas totala storlek",
+    "reason": "Gör relationen tydlig och idiomatisk i sensornamnet.",
+    "readback": "Säkerhetskopiornas totala storlek",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::history_stats::options::step::init::data_description::state_class",
+    "key_id": "804254683",
+    "translation_id": "7766059791",
+    "en": "The state class for statistics calculation. Changing the state class will require statistics to be reset.",
+    "before": "Tillståndsklass för statistikberäkning. Om du ändrar den måste statistiken återställas.",
+    "after": "Tillståndsklass för statistikberäkning. Om du ändrar den måste statistiken återställas.",
+    "reason": "Undviker onödig upprepning av termen och gör följden av ändringen tydlig.",
+    "readback": "Tillståndsklass för statistikberäkning. Om du ändrar den måste statistiken återställas.",
+    "status": "verified-existing"
+  },
+  {
+    "key": "component::ness_alarm::issues::deprecated_yaml_import_issue_cannot_connect::description",
+    "key_id": "804126294",
+    "translation_id": "7764316733",
+    "en": "Configuring {integration_title} via YAML is deprecated and will be removed in a future release. While importing your configuration, a connection error occurred. Please correct your YAML configuration and restart Home Assistant, or remove the {domain} key from your configuration and configure the integration via the UI.",
+    "before": "Konfigurering av {integration_title} via YAML är föråldrad och kommer att tas bort i en framtida version. Ett anslutningsfel uppstod när din konfiguration importerades. Korrigera din YAML-konfiguration och starta om Home Assistant, eller ta bort {domain} -nyckeln från din konfiguration och konfigurera integrationen via användargränssnittet.",
+    "after": "Konfigurering av {integration_title} via YAML är föråldrad och kommer att tas bort i en framtida version. Ett anslutningsfel uppstod när konfigurationen importerades. Korrigera YAML-konfigurationen och starta om Home Assistant, eller ta bort nyckeln {domain} från konfigurationen och konfigurera integrationen via användargränssnittet.",
+    "reason": "Rättar det oavsiktliga mellanrummet före -nyckeln och återger remove the {domain} key korrekt; nyckel är inte en del av domännamnet.",
+    "readback": "Konfigurering av {integration_title} via YAML är föråldrad och kommer att tas bort i en framtida version. Ett anslutningsfel uppstod när konfigurationen importerades. Korrigera YAML-konfigurationen och starta om Home Assistant, eller ta bort nyckeln {domain} från konfigurationen och konfigurera integrationen via användargränssnittet.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::ness_alarm::issues::deprecated_yaml_import_issue_unknown::description",
+    "key_id": "804126296",
+    "translation_id": "7764316861",
+    "en": "Configuring {integration_title} via YAML is deprecated and will be removed in a future release. While importing your configuration, an unknown error occurred. Please correct your YAML configuration and restart Home Assistant, or remove the {domain} key from your configuration and configure the integration via the UI.",
+    "before": "Konfigurationen av {integration_title} via YAML är föråldrad och kommer att tas bort i en framtida version. Ett okänt fel uppstod när din konfiguration importerades. Korrigera din YAML-konfiguration och starta om Home Assistant, eller ta bort {domain}-nyckeln från din konfiguration och konfigurera integrationen via användargränssnittet.",
+    "after": "Konfigurering av {integration_title} via YAML är föråldrad och kommer att tas bort i en framtida version. Ett okänt fel uppstod när konfigurationen importerades. Korrigera YAML-konfigurationen och starta om Home Assistant, eller ta bort nyckeln {domain} från konfigurationen och konfigurera integrationen via användargränssnittet.",
+    "reason": "Gör formuleringen parallell med anslutningsfelsmeddelandet och tydliggör att {domain} är en nyckel i konfigurationen.",
+    "readback": "Konfigurering av {integration_title} via YAML är föråldrad och kommer att tas bort i en framtida version. Ett okänt fel uppstod när konfigurationen importerades. Korrigera YAML-konfigurationen och starta om Home Assistant, eller ta bort nyckeln {domain} från konfigurationen och konfigurera integrationen via användargränssnittet.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::duckdns::issues::deprecated_call_without_config_entry::description",
+    "key_id": "804167266",
+    "translation_id": "7765255427",
+    "en": "Calling the `duckdns.set_txt` action without specifying a config entry is deprecated.\n\nThe `config_entry_id` field will be required in a future release.\n\nPlease update your automations and scripts to include the `config_entry_id` parameter.",
+    "before": "Att anropa åtgärden `duckdns.set_txt` utan att ange en konfigurationspost är utfasad.\n\nFältet `config_entry_id` kommer att vara obligatoriskt i en framtida version.\n\nUppdatera dina automatiseringar och skript så att de istället inkluderar parametern `config_entry_id`.",
+    "after": "Det är föråldrat att anropa åtgärden `duckdns.set_txt` utan att ange en konfigurationspost.\n\nFältet `config_entry_id` kommer att krävas i en framtida version.\n\nUppdatera dina automatiseringar och skript så att de inkluderar parametern `config_entry_id`.",
+    "reason": "Flyttar utfasad från grammatisk bestämning av anropet till idiomatisk svensk sats; tar bort det överflödiga “i stället” eftersom källan säger include.",
+    "readback": "Det är föråldrat att anropa åtgärden `duckdns.set_txt` utan att ange en konfigurationspost.\n\nFältet `config_entry_id` kommer att krävas i en framtida version.\n\nUppdatera dina automatiseringar och skript så att de inkluderar parametern `config_entry_id`.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::duckdns::issues::deprecated_call_without_config_entry::title",
+    "key_id": "804167267",
+    "translation_id": "7765255491",
+    "en": "Detected deprecated use of action without config entry",
+    "before": "Upptäckte föråldrad användning av åtgärd utan konfigurationspost",
+    "after": "Föråldrat anrop av åtgärd utan konfigurationspost upptäckt",
+    "reason": "Ger naturligare ordföljd och behåller innebörden att en åtgärd anropats utan konfigurationspost.",
+    "readback": "Föråldrat anrop av åtgärd utan konfigurationspost upptäckt",
+    "status": "saved-and-read-back"
+  }
+]
