@@ -1,28 +1,44 @@
 --- libipuz.main.sv.original.po
 +++ libipuz.main.sv.reviewed.po
-@@ -8,8 +8,8 @@
+@@ -8,9 +8,9 @@
  "Project-Id-Version: libipuz main\n"
  "Report-Msgid-Bugs-To: https://gitlab.gnome.org/jrb/libipuz/issues/\n"
- "POT-Creation-Date: 2026-11-23 08:15+0000\n"
+ "POT-Creation-Date: 2026-11-25 04:28+0000\n"
 -"PO-Revision-Date: 2026-03-03 17:36+0100\n"
 -"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-+"PO-Revision-Date: 2026-11-23 00:00+0100\n"
+-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"PO-Revision-Date: 2026-11-26 14:00+0100\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
- "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"Language-Team: Swedish <gnome@danielnylander.se>\n"
  "Language: sv\n"
  "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -42,11 +42,11 @@
+ 
+ #: libipuz/ipuz-clue.c:727
+ msgid "Diagonal Down Left"
+-msgstr "Diagonalt nedåt vänster"
++msgstr "Diagonalt nedåt till vänster"
+ 
+ #: libipuz/ipuz-clue.c:728
+ msgid "Diagonal Up Left"
+-msgstr "Diagonalt uppåt vänster"
++msgstr "Diagonalt uppåt till vänster"
+ 
+ #: libipuz/ipuz-clue.c:729
+ msgid "Zones"
 @@ -67,40 +67,40 @@
  #: libipuz/ipuz-grid.c:637
  #, c-format
  msgid "The grid is larger than the maximum size of %d by %d."
 -msgstr ""
-+msgstr "Rutnätet är större än maxstorleken %d × %d."
++msgstr "Rutnätet är större än den maximala storleken på %d × %d rutor."
  
  #: libipuz/ipuz-puzzle.c:1516
  #, c-format
  msgid "Document is not an ipuz file: it has no version."
 -msgstr ""
-+msgstr "Dokumentet är inte en ipuz-fil: det saknar versionsangivelse."
++msgstr "Dokumentet är inte en ipuz-fil: det saknar versionsnummer."
  
  #: libipuz/ipuz-puzzle.c:1528
  #, c-format
@@ -45,7 +61,7 @@
  #: libipuz/ipuz-puzzle.c:1724
  msgid "Document was empty or contained only whitespace."
 -msgstr ""
-+msgstr "Dokumentet var tomt eller innehöll endast blanksteg."
++msgstr "Dokumentet är tomt eller innehåller bara blanktecken."
  
  #: libipuz/ipuz-puzzle.c:1731
  msgid "Document is not an ipuz file: it must contain a JSON object."
@@ -56,7 +72,44 @@
  #, c-format
  msgid "Document is not valid JSON: %s"
 -msgstr ""
-+msgstr "Dokumentet är inte giltig JSON: %s"
++msgstr "Dokumentet innehåller ogiltig JSON: %s"
  
  #. TRANSLATORS: A circle drawn on the background of a cell
  #: libipuz/ipuz-style.c:1021
+@@ -130,22 +130,22 @@
+ #. TRANSLATORS: A triangle facing left drawn on the background of a cell
+ #: libipuz/ipuz-style.c:1031
+ msgid "Left Triangle"
+-msgstr "Triangel till vänster"
++msgstr "Triangel som pekar åt vänster"
+ 
+ #. TRANSLATORS: A triangle facing right drawn on the background of a cell
+ #: libipuz/ipuz-style.c:1033
+ msgid "Right Triangle"
+-msgstr "Triangel till höger"
++msgstr "Triangel som pekar åt höger"
+ 
+ #. TRANSLATORS: A triangle facing up drawn on the background of a cell
+ #: libipuz/ipuz-style.c:1035
+ msgid "Up Triangle"
+-msgstr "Triangel uppåt"
++msgstr "Triangel som pekar uppåt"
+ 
+ #. TRANSLATORS: A triangle facing down drawn on the background of a cell
+ #: libipuz/ipuz-style.c:1037
+ msgid "Down Triangle"
+-msgstr "Triangel nedåt"
++msgstr "Triangel som pekar nedåt"
+ 
+ #. TRANSLATORS: A diamond (card suit) drawn on the background of a cell
+ #: libipuz/ipuz-style.c:1039
+@@ -192,7 +192,8 @@
+ msgid "Backslash"
+ msgstr "Omvänt snedstreck"
+ 
+-#. TRANSLATORS: An X "X" drawn on the background of a cell. Likely no need to translate
++#. TRANSLATORS: An X "X" drawn on the background of a cell. Likely no need to
++#. translate
+ #: libipuz/ipuz-style.c:1057
+ msgid "X"
+ msgstr "X"

@@ -597,3 +597,15 @@ argumentet betyder i just det programmet.
 | loopback interface | loopback-gränssnitt | Etablerad teknisk term. |
 | upload limit | uppladdningsgräns | Storleken anges i byte. |
 | metavariables SIZE / CERT / KEY | STORLEK / CERTIFIKAT / PRIVATNYCKEL | Beskrivande argumentnamn översätts; flaggor lämnas oförändrade. |
+
+
+## libipuz
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| Across | vågrätt | Ledtråds-/rutnätsriktning. |
+| Down | lodrätt | Ledtråds-/rutnätsriktning. |
+| Diagonal Up/Down Left | diagonalt uppåt/nedåt till vänster | Beskriv rutnätsriktningen. |
+| ipuz | ipuz | Filformatets namn lämnas oförändrat. |
+| puzzle kind | pusseltyp | |
+| whitespace | blanktecken | |
