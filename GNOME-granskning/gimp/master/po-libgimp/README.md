@@ -7,4 +7,4 @@
 - Ändringar: 7 katalogposter: 2 fuzzy/tom post åtgärdad och 5 befintliga översättningar förbättrade. Pluralformer räknas separat och bevaras.
 - Validering: msgfmt --check/statistics, msgcmp, l10n-lint, platshållar-, markup- och acceleratorjämförelser godkända.
 - Hunspell: 103 okända token granskade; kvarvarande är produkt-/API-namn, ICC/Exif/XMP/CMYK/NMI-termer, kodexempel, svenska GIMP-sammansättningar och acceleratorordfragment. Inga felstavningar kvar efter granskning.
-- GNOME-inskick: inget, enligt instruktion.
+- GNOME-inskick: uppladdad till Damned Lies API 2026-11-26 med kommentaren `Granskad och klar`; aktivitetssidan verifierar 675/0/0.
