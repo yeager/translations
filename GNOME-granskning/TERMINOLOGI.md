@@ -149,7 +149,7 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | tile (GIMP image data) | bricka | GIMP delar bilddata i brickor. |
 | tile cache | brickcache | GIMP:s cache för bildbrickor; används konsekvent i GIMP Help. |
 | Bucket Fill (GIMP tool label) | Fyll | Verktygets korta etikett i GIMP. |
-| Bucket Fill tool (GIMP prose) | verktyget Fyll | Skriv exempelvis ”använd verktyget Fyll”; undvik *färgbucket*, *hinkfyllning* och *fyllnadsverktyg*. |
+| Bucket Fill tool (GIMP prose) | fyllnadsverktyget | Etablerad svensk GIMP-term; använd exempelvis ”klicka med fyllnadsverktyget”. Undvik *färgbucket* och *hinkfyllning*. |
 | bucket size | intervallstorlek | Storleken på varje värdeintervall i histogram-/färgkubsanalys. |
 | color vision deficiency | färgseendebrist | GIMP-inställning för simulering av olika typer av färgseendebrist. |
 | color value range | färgvärdesintervall | Beskrivande term för ett intervall av grupperade kanalvärden. |
