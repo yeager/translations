@@ -1,0 +1,233 @@
+[
+  {
+    "position": 45018,
+    "key": "component::wled::config::abort::unique_id_mismatch",
+    "key_id": "764236690",
+    "translation_id": "7183166654",
+    "en": "MAC address does not match the configured device. Expected to connect to device with MAC: `{expected_mac}`, but connected to device with MAC: `{actual_mac}`. \n\nPlease ensure you reconfigure against the same device.",
+    "before": "MAC-adressen stämmer inte överens med den konfigurerade enheten. Förväntades ansluta till enhet med MAC: `{expected_mac}`, men anslöt till enhet med MAC: `{actual_mac}`. \n\nSe till att du konfigurerar om mot samma enhet.",
+    "after": "MAC-adressen stämmer inte med den konfigurerade enhetens MAC-adress. Anslutningen skulle göras till enheten med MAC-adressen `{expected_mac}`, men gjordes till enheten med MAC-adressen `{actual_mac}`.\n\nSe till att du konfigurerar om mot samma enhet.",
+    "readback": "MAC-adressen stämmer inte med den konfigurerade enhetens MAC-adress. Anslutningen skulle göras till enheten med MAC-adressen `{expected_mac}`, men gjordes till enheten med MAC-adressen `{actual_mac}`.\n\nSe till att du konfigurerar om mot samma enhet.",
+    "reason": "Gör feltexten fullständig och idiomatisk på svenska, och skiljer den förväntade enheten från den enhet som faktiskt anslöts."
+  },
+  {
+    "position": 45019,
+    "key": "component::wled::exceptions::mac_address_mismatch::message",
+    "key_id": "764236691",
+    "translation_id": "7183166718",
+    "en": "MAC address does not match the configured device. Expected to connect to device with MAC: {expected_mac}, but connected to device with MAC: {actual_mac}.",
+    "before": "MAC-adressen stämmer inte överens med den konfigurerade enheten. Förväntades ansluta till enhet med MAC: `{expected_mac}`, men anslöt till enhet med MAC: `{actual_mac}`.",
+    "after": "MAC-adressen stämmer inte med den konfigurerade enhetens MAC-adress. Anslutningen skulle göras till enheten med MAC-adressen {expected_mac}, men gjordes till enheten med MAC-adressen {actual_mac}.",
+    "readback": "MAC-adressen stämmer inte med den konfigurerade enhetens MAC-adress. Anslutningen skulle göras till enheten med MAC-adressen {expected_mac}, men gjordes till enheten med MAC-adressen {actual_mac}.",
+    "reason": "Rättar den ofullständiga meningen och tar bort felaktiga kodformateringsmarkörer som saknas i källan."
+  },
+  {
+    "position": 45024,
+    "key": "component::nest::exceptions::reauth_required::message",
+    "key_id": "764435498",
+    "translation_id": "7186362892",
+    "en": "Reauthentication is required, please follow the instructions in the UI to reauthenticate your account.",
+    "before": "Du måste autentisera dig på nytt. Följ anvisningarna i användargränssnittet för att autentisera ditt konto på nytt.",
+    "after": "Du måste logga in på kontot på nytt. Följ anvisningarna i gränssnittet.",
+    "readback": "Du måste logga in på kontot på nytt. Följ anvisningarna i gränssnittet.",
+    "reason": "Tar bort upprepningen av autentisera på nytt och ger en naturlig instruktion."
+  },
+  {
+    "position": 45025,
+    "key": "component::nest::exceptions::subscriber_error::message",
+    "key_id": "764435499",
+    "translation_id": "7186362956",
+    "en": "Subscriber failed to connect to Google, please see logs for details.",
+    "before": "Det gick inte att ansluta till Google. Se loggarna för mer information.",
+    "after": "Prenumeranten kunde inte ansluta till Google. Se loggarna för mer information.",
+    "readback": "Prenumeranten kunde inte ansluta till Google. Se loggarna för mer information.",
+    "reason": "Den befintliga texten utelämnade att det är prenumeranten som inte kunde ansluta."
+  },
+  {
+    "position": 45026,
+    "key": "component::nest::exceptions::subscriber_timeout::message",
+    "key_id": "764435500",
+    "translation_id": "7186363020",
+    "en": "Subscriber timed out while attempting to connect to Google. Please check your network connection and IPv6 configuration if applicable.",
+    "before": "Användaren fick ett tidsöverskridningsfel vid försök att ansluta till Google. Kontrollera din nätverksanslutning och, i förekommande fall, din IPv6-konfiguration.",
+    "after": "Tidsgränsen överskreds när prenumeranten försökte ansluta till Google. Kontrollera nätverksanslutningen och IPv6-konfigurationen, om en sådan används.",
+    "readback": "Tidsgränsen överskreds när prenumeranten försökte ansluta till Google. Kontrollera nätverksanslutningen och IPv6-konfigurationen, om en sådan används.",
+    "reason": "Subscriber är den tekniska prenumeranten, inte användaren; den befintliga översättningen ändrade vem som drabbades av tidsgränsen."
+  },
+  {
+    "position": 45039,
+    "key": "component::unifiprotect::exceptions::no_users_found::message",
+    "key_id": "764859456",
+    "translation_id": "7191047543",
+    "en": "No users found, please check Protect permissions",
+    "before": "Inga användare hittades. Kontrollera behörighet i Protect",
+    "after": "Inga användare hittades. Kontrollera behörigheterna i Protect.",
+    "readback": "Inga användare hittades. Kontrollera behörigheterna i Protect.",
+    "reason": "Permissions syftar på flera behörigheter och bör stå i plural."
+  },
+  {
+    "position": 45041,
+    "key": "component::unifiprotect::exceptions::privacy_zone_not_found::message",
+    "key_id": "764859458",
+    "translation_id": "7191047671",
+    "en": "Could not find privacy zone with name {zone_name} on camera {camera_name}",
+    "before": "Det gick inte att hitta någon sekretesszon med namnet ” {zone_name} ” på kameran {camera_name}",
+    "after": "Det gick inte att hitta sekretesszonen {zone_name} på kameran {camera_name}.",
+    "readback": "Det gick inte att hitta sekretesszonen {zone_name} på kameran {camera_name}.",
+    "reason": "Tar bort ogrundade citattecken och felaktiga mellanslag runt platshållaren."
+  },
+  {
+    "position": 45043,
+    "key": "component::unifiprotect::exceptions::stream_error::message",
+    "key_id": "764859460",
+    "translation_id": "7191047799",
+    "en": "Error playing audio, check the logs for more details",
+    "before": "Fel vid uppspelning av ljud, kontrollera loggarna för mer detaljer",
+    "after": "Det gick inte att spela upp ljudet. Kontrollera loggarna för mer information.",
+    "readback": "Det gick inte att spela upp ljudet. Kontrollera loggarna för mer information.",
+    "reason": "Rättar kommatering mellan självständiga satser och gör avslutningen idiomatisk."
+  },
+  {
+    "position": 45046,
+    "key": "component::unifiprotect::options::step::init::data_description::max_media",
+    "key_id": "764859463",
+    "translation_id": "7191047991",
+    "en": "Maximum number of events to load in the Media Browser. Higher values use more RAM.",
+    "before": "Maximalt antal händelser att läsa in i medieläsaren. Högre värden använder mer RAM.",
+    "after": "Maximalt antal händelser som läses in i mediebläddraren. Högre värden använder mer RAM.",
+    "readback": "Maximalt antal händelser som läses in i mediebläddraren. Högre värden använder mer RAM.",
+    "reason": "Media Browser är en bläddringsvy; medieläsaren är en missvisande direktöversättning."
+  },
+  {
+    "position": 45047,
+    "key": "component::unifiprotect::options::step::init::data_description::override_connection_host",
+    "key_id": "764859464",
+    "translation_id": "7191048055",
+    "en": "Override the connection host for the UniFi Protect device.",
+    "before": "Åsidosätt anslutningsvärden för UniFi Protect-enheten.",
+    "after": "Använd en annan värd för anslutningen till UniFi Protect-enheten.",
+    "readback": "Använd en annan värd för anslutningen till UniFi Protect-enheten.",
+    "reason": "Rättar den tvetydiga sammansättningen anslutningsvärden, som kan läsas som anslutningens värden i stället för nätverksvärd."
+  },
+  {
+    "position": 45048,
+    "key": "component::unifiprotect::entity::number::doorbell_ring_volume::name",
+    "key_id": "765158105",
+    "translation_id": "7198836156",
+    "en": "Doorbell ring volume",
+    "before": "Dörrklockans volym",
+    "after": "Volym för dörrklockans ringsignal",
+    "readback": "Volym för dörrklockans ringsignal",
+    "reason": "Källan avser ringljudets volym, inte dörrklockans volym i allmänhet."
+  },
+  {
+    "position": 45050,
+    "key": "component::pooldose::entity::sensor::water_meter_total_permanent::name",
+    "key_id": "765158636",
+    "translation_id": "7198843171",
+    "en": "Totalizer",
+    "before": "Totalizer",
+    "after": "Vattenmätarställning",
+    "readback": "Vattenmätarställning",
+    "reason": "Detta är ett kumulativt volymvärde för vattenmätaren (TOTAL_INCREASING), inte ett oöversatt produktord."
+  },
+  {
+    "position": 45054,
+    "key": "component::airobot::config::step::reauth_confirm::description",
+    "key_id": "765364225",
+    "translation_id": "7201097283",
+    "en": "The authentication for Airobot thermostat at {host} (Device ID: {username}) has expired. Please enter the password to reauthenticate. Find the password in the thermostat settings menu under Connectivity → Mobile app.",
+    "before": "Autentiseringen för Airobot-termostaten på {host} (Enhets-ID: {username}) har gått ut. Ange lösenordet för att autentisera igen. Hitta lösenordet i termostatens inställningsmeny under Anslutning → Mobilapp.",
+    "after": "Autentiseringen för Airobot-termostaten på {host} (enhets-ID: {username}) har gått ut. Autentisera dig på nytt med lösenordet. Du hittar lösenordet i termostatens inställningar under Anslutning → Mobilapp.",
+    "readback": "Autentiseringen för Airobot-termostaten på {host} (enhets-ID: {username}) har gått ut. Autentisera dig på nytt med lösenordet. Du hittar lösenordet i termostatens inställningar under Anslutning → Mobilapp.",
+    "reason": "Förbättrar den klumpiga instruktionen och använder svensk gemen i enhets-ID."
+  },
+  {
+    "position": 45055,
+    "key": "component::airobot::exceptions::authentication_failed::message",
+    "key_id": "765364226",
+    "translation_id": "7201097347",
+    "en": "Authentication failed, please reauthenticate.",
+    "before": "Autentiseringen misslyckades. Autentisera igen.",
+    "after": "Autentiseringen misslyckades. Autentisera på nytt.",
+    "readback": "Autentiseringen misslyckades. Autentisera på nytt.",
+    "reason": "Använder konsekvent uttrycket autentisera på nytt."
+  },
+  {
+    "position": 45068,
+    "key": "component::fressnapf_tracker::config::step::reconfigure::description",
+    "key_id": "765389899",
+    "translation_id": "7201946985",
+    "en": "Choose how to authenticate with your Fressnapf Tracker account.",
+    "before": "Uppdatera din Fressnapf Tracker-kontokonfiguration.",
+    "after": "Välj hur du vill autentisera dig med ditt Fressnapf Tracker-konto.",
+    "readback": "Välj hur du vill autentisera dig med ditt Fressnapf Tracker-konto.",
+    "reason": "Den tidigare texten sade att konfigurationen skulle uppdateras och utelämnade valet av autentiseringsmetod."
+  },
+  {
+    "position": 45077,
+    "key": "component::nederlandse_spoorwegen::entity::sensor::arrival_platform_planned::name",
+    "key_id": "766283574",
+    "translation_id": "7214159440",
+    "en": "Planned arrival platform",
+    "before": "Planerad ankomstplattform",
+    "after": "Planerad ankomstperrong",
+    "readback": "Planerad ankomstperrong",
+    "reason": "Harmoniserar terminologin med faktisk ankomstperrong."
+  },
+  {
+    "position": 45081,
+    "key": "component::nederlandse_spoorwegen::entity::sensor::departure_platform_actual::name",
+    "key_id": "766283578",
+    "translation_id": "7214159696",
+    "en": "Actual departure platform",
+    "before": "Faktisk avgångsplattform",
+    "after": "Faktisk avgångsperrong",
+    "readback": "Faktisk avgångsperrong",
+    "reason": "Harmoniserar terminologin med ankomstperrong."
+  },
+  {
+    "position": 45082,
+    "key": "component::nederlandse_spoorwegen::entity::sensor::departure_platform_planned::name",
+    "key_id": "766283579",
+    "translation_id": "7214159760",
+    "en": "Planned departure platform",
+    "before": "Planerad avgångsplattform",
+    "after": "Planerad avgångsperrong",
+    "readback": "Planerad avgångsperrong",
+    "reason": "Harmoniserar terminologin med ankomstperrong."
+  },
+  {
+    "position": 45092,
+    "key": "component::nederlandse_spoorwegen::entity::sensor::transfers::name",
+    "key_id": "766283589",
+    "translation_id": "7214160400",
+    "en": "Transfers",
+    "before": "Överföringar",
+    "after": "Tågbyten",
+    "readback": "Tågbyten",
+    "reason": "I en tågresplan betyder transfers byten mellan tåg, inte dataöverföringar."
+  },
+  {
+    "position": 45099,
+    "key": "component::mystrom::entity::sensor::energy_since_boot::name",
+    "key_id": "766329131",
+    "translation_id": "7214487457",
+    "en": "Energy since boot",
+    "before": "Energi sedan omstart",
+    "after": "Energi sedan uppstart",
+    "readback": "Energi sedan uppstart",
+    "reason": "Boot avser här att enheten startar; uppstart är tydligare än omstart."
+  },
+  {
+    "position": 45136,
+    "key": "component::vivotek::options::step::init::data::framerate",
+    "key_id": "766432560",
+    "translation_id": "7215308016",
+    "en": "Frame rate",
+    "before": "Uppdateringsfrekvens",
+    "after": "Bildfrekvens",
+    "readback": "Bildfrekvens",
+    "reason": "Frame rate är antal bildrutor per sekund; bildfrekvens är etablerad svensk fackterm."
+  }
+]
