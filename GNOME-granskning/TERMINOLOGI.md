@@ -729,3 +729,14 @@ argumentet betyder i just det programmet.
 | little-endian | little-endian | Behåll den etablerade tekniska termen i korta gränssnittsetiketter. |
 | quadword | Quadword | Behåll termen; svensk Microsoft Learn använder *Quadword* för 64 bitar. [Microsoft Learn](https://learn.microsoft.com/sv-se/cpp/build/x64-software-conventions?view=msvc-170). |
 | Span across lines (shaded rows) | Antal skuggade rader | GHex-inställningen anger hur många rader som skuggas i följd; se `C/conf-preferences.page:82`. |
+
+## Polari — IRC-chatt
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| room | rum | Polaris samtalsrum; skilj från IRC-kanal när källan uttryckligen säger *channel*. |
+| channel | kanal | IRC-kanal. |
+| nickname / nick | smeknamn | Användarens IRC-namn. |
+| mute / unmute (user) | tysta / avtysta | Gäller användarens meddelanden, inte ljud. |
+| public paste service | offentlig delningstjänst | Tjänsten som Polari skickar text eller bilder till. |
+| Identify / username (parameter) | behåll som i källan | IRC-kommandot `Identify` och parametern `username` är tekniska identifierare. |

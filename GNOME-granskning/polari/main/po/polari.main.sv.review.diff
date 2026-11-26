@@ -1,0 +1,609 @@
+--- a/polari.main.sv.original.po
++++ b/polari.main.sv.reviewed.po
+@@ -11,8 +11,8 @@
+ "Project-Id-Version: polari main\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/polari/issues\n"
+ "POT-Creation-Date: 2026-05-31 15:27+0000\n"
+-"PO-Revision-Date: 2025-10-28 19:35+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-26 12:47+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -29,7 +29,7 @@
+ 
+ #: data/metainfo/org.gnome.Polari.metainfo.xml.in:13
+ msgid "Talk to people on IRC"
+-msgstr "Prata med folk på IRC"
++msgstr "Chatta med folk på IRC"
+ 
+ #. developer_name tag deprecated with Appstream 1.0
+ #: data/metainfo/org.gnome.Polari.metainfo.xml.in:28
+@@ -43,9 +43,8 @@
+ "seamlessly with GNOME; it features a simple and beautiful interface which "
+ "allows you to focus on your conversations."
+ msgstr ""
+-"En enkel klient för IRC (Internet Relay Chat) som är designad för att "
+-"integrera sömlöst med GNOME. Den har ett vackert, enkelt gränssnitt som "
+-"tillåter dig att fokusera dig på dina konversationer."
++"En enkel IRC-klient som är väl integrerad med GNOME och har ett snyggt, "
++"avskalat gränssnitt där du kan fokusera på samtalen."
+ 
+ #: data/metainfo/org.gnome.Polari.metainfo.xml.in:71
+ msgid ""
+@@ -53,18 +52,18 @@
+ "private one-to-one conversations. Notifications make sure that you never "
+ "miss an important message."
+ msgstr ""
+-"Du kan använda Polari för att chatta publikt med personer i en kanal, och ha "
+-"privata enskilda samtal. Aviseringar garanterar dig att aldrig missa ett "
+-"viktigt meddelande."
++"Du kan använda Polari för att chatta öppet med personer i en kanal eller ha "
++"privata samtal med en person i taget. Aviseringar gör att du inte missar "
++"viktiga meddelanden."
+ 
+ #: data/org.gnome.Polari.desktop.in:3
+ msgid "An Internet Relay Chat Client for GNOME"
+-msgstr "En IRC-chattklient för GNOME"
++msgstr "En IRC-klient för GNOME"
+ 
+ #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+ #: data/org.gnome.Polari.desktop.in:14
+ msgid "IRC;Internet;Relay;Chat;"
+-msgstr "IRC;Internet;Chatt;"
++msgstr "IRC;Internet;chatt;"
+ 
+ #: data/org.gnome.Polari.gschema.xml:13
+ msgid "Saved channel list"
+@@ -80,7 +79,7 @@
+ 
+ #: data/org.gnome.Polari.gschema.xml:19
+ msgid "Keep running in background when closed."
+-msgstr "Fortsätt att köra i bakgrunden vid stängning."
++msgstr "Fortsätt att köra i bakgrunden när fönstret stängs."
+ 
+ #: data/org.gnome.Polari.gschema.xml:23
+ msgid "Window width"
+@@ -96,23 +95,23 @@
+ 
+ #: data/org.gnome.Polari.gschema.xml:32
+ msgid "Window maximized state"
+-msgstr "Maximerat tillstånd för fönster"
++msgstr "Fönstrets maximeringsläge"
+ 
+ #: data/org.gnome.Polari.gschema.xml:36
+ msgid "Last active channel"
+-msgstr "Senast aktiva kanal"
++msgstr "Senast använda kanal"
+ 
+ #: data/org.gnome.Polari.gschema.xml:37
+ msgid "Last active (selected) channel"
+-msgstr "Senast aktiva (valda) kanal"
++msgstr "Senast aktiva (valda) kanalen"
+ 
+ #: data/org.gnome.Polari.gschema.xml:44
+ msgid "Identify botname"
+-msgstr "Identify-botnamn"
++msgstr "Botens namn för Identify"
+ 
+ #: data/org.gnome.Polari.gschema.xml:45
+ msgid "Nickname of the bot to identify with"
+-msgstr "Smeknamn på boten att identifiera mot"
++msgstr "Botens smeknamn som används för identifiering"
+ 
+ #: data/org.gnome.Polari.gschema.xml:49
+ msgid "Identify command"
+@@ -120,7 +119,7 @@
+ 
+ #: data/org.gnome.Polari.gschema.xml:50
+ msgid "Command used to identify with bot"
+-msgstr "Kommando som används för att identifiera mot en bot"
++msgstr "Kommando som skickas till boten för att identifiera dig"
+ 
+ #: data/org.gnome.Polari.gschema.xml:54
+ msgid "Identify username"
+@@ -128,16 +127,15 @@
+ 
+ #: data/org.gnome.Polari.gschema.xml:55
+ msgid "Username to use in identify command"
+-msgstr "Användarnamn att använda i identify-kommando"
++msgstr "Användarnamn att använda i Identify-kommandot"
+ 
+ #: data/org.gnome.Polari.gschema.xml:59
+ msgid "Identify username supported"
+-msgstr "Identify-användarnamn stöds"
++msgstr "Stöd för användarnamn i Identify"
+ 
+ #: data/org.gnome.Polari.gschema.xml:60
+ msgid "Whether the identify command is known to support the username parameter"
+-msgstr ""
+-"Huruvida identify-kommandot är känt för att ha stöd för parametern username"
++msgstr "Anger om Identify-kommandot har stöd för parametern username"
+ 
+ #: data/org.gnome.Polari.gschema.xml:66
+ msgid "List of muted usernames"
+@@ -146,9 +144,7 @@
+ #: data/org.gnome.Polari.gschema.xml:67
+ msgid ""
+ "A list of usernames for whose private messages not to show notifications"
+-msgstr ""
+-"En lista över användarnamn vars privata meddelanden inte kommer skapa "
+-"aviseringar"
++msgstr "Användarnamn vars privata meddelanden inte ska utlösa aviseringar"
+ 
+ #: data/ui/connection-details.ui:20
+ msgid "_Server Address"
+@@ -208,7 +204,7 @@
+ msgid ""
+ "Polari is an easy way to chat using IRC. Select a network to get started."
+ msgstr ""
+-"Polari är ett enkelt sätt att chatta via IRC. Välj ett nätverk för att komma "
++"Polari gör det enkelt att chatta via IRC. Välj ett nätverk för att komma "
+ "igång."
+ 
+ #: data/ui/initial-setup-window.ui:83
+@@ -217,11 +213,11 @@
+ "later, by clicking the + button."
+ msgstr ""
+ "Välj rum som du vill ansluta till. Du kan lägga till fler nätverk och rum "
+-"senare genom att trycka på +-knappen."
++"senare genom att klicka på plusknappen."
+ 
+ #: data/ui/join-room-dialog.ui:19
+ msgid "Join Chat Room"
+-msgstr "Gå in i chattrummet"
++msgstr "Anslut till chattrum"
+ 
+ #: data/ui/join-room-dialog.ui:36
+ msgid "_Join"
+@@ -297,7 +293,8 @@
+ 
+ #: data/ui/main-window.ui:257
+ msgid "Importing old conversations — Will be back after conversion"
+-msgstr "Importerar gamla konversationer — Tillbaka efter konvertering"
++msgstr ""
++"Importerar gamla konversationer – Återkommer när konverteringen är klar"
+ 
+ #: data/ui/nick-popover.ui:24
+ msgid "Change nickname:"
+@@ -305,7 +302,7 @@
+ 
+ #: data/ui/nick-popover.ui:34
+ msgid "_Change"
+-msgstr "_Ändra"
++msgstr "Ä_ndra"
+ 
+ #: data/ui/room-list-header.ui:150
+ msgid "Connect"
+@@ -329,7 +326,7 @@
+ 
+ #: data/ui/server-room-list.ui:49
+ msgid "Enter room name to add"
+-msgstr "Ange rumsnamn att lägga till"
++msgstr "Ange namnet på rummet som ska läggas till"
+ 
+ #: data/ui/shortcuts-dialog.ui:13
+ msgctxt "shortcut window"
+@@ -339,7 +336,7 @@
+ #: data/ui/shortcuts-dialog.ui:16
+ msgctxt "shortcut window"
+ msgid "Join Room"
+-msgstr "Gå in i rum"
++msgstr "Anslut till ett rum"
+ 
+ #: data/ui/shortcuts-dialog.ui:22
+ msgctxt "shortcut window"
+@@ -354,7 +351,7 @@
+ #: data/ui/shortcuts-dialog.ui:34
+ msgctxt "shortcut window"
+ msgid "Toggle Search"
+-msgstr "Växla sökning"
++msgstr "Visa eller dölj sökfältet"
+ 
+ #: data/ui/shortcuts-dialog.ui:40
+ msgctxt "shortcut window"
+@@ -431,7 +428,7 @@
+ 
+ #: data/ui/user-details.ui:153
+ msgid "Will notify if user appears online."
+-msgstr "Kommer att avisera om användaren kopplar upp."
++msgstr "Avisera när användaren blir tillgänglig."
+ 
+ #: data/ui/user-details.ui:175
+ msgid "Start Conversation"
+@@ -443,7 +440,7 @@
+ 
+ #: src/application.js:73
+ msgid "Start Telepathy client"
+-msgstr "Starta Telepathy-klient"
++msgstr "Starta Telepathy-klienten"
+ 
+ #: src/application.js:78
+ msgid "Start in debug mode"
+@@ -455,16 +452,16 @@
+ 
+ #: src/application.js:84
+ msgid "Print version and exit"
+-msgstr "Skriv ut version och avsluta"
++msgstr "Skriv ut versionsinformationen och avsluta"
+ 
+ #: src/application.js:531 src/utils.js:280
+ msgid "Failed to open link"
+-msgstr "Misslyckades med att öppna länk"
++msgstr "Det gick inte att öppna länken"
+ 
+ #: src/application.js:798
+ #, javascript-format
+ msgid "%s removed."
+-msgstr "%s borttagen."
++msgstr "%s har tagits bort."
+ 
+ #: src/application.js:799
+ msgid "Undo"
+@@ -495,32 +492,32 @@
+ #: src/chatView.js:1012
+ #, javascript-format
+ msgid "%s is now known as %s"
+-msgstr "%s är nu känd som %s"
++msgstr "%s kallas nu %s"
+ 
+ #: src/chatView.js:1017
+ #, javascript-format
+ msgid "%s has disconnected"
+-msgstr "%s har kopplat ner"
++msgstr "%s kopplade från"
+ 
+ #: src/chatView.js:1026
+ #, javascript-format
+ msgid "%s has been kicked by %s"
+-msgstr "%s har sparkats ut av %s"
++msgstr "%s kastades ut av %s"
+ 
+ #: src/chatView.js:1027
+ #, javascript-format
+ msgid "%s has been kicked"
+-msgstr "%s har sparkats ut"
++msgstr "%s kastades ut"
+ 
+ #: src/chatView.js:1034
+ #, javascript-format
+ msgid "%s has been banned by %s"
+-msgstr "%s har blivit bannlyst av %s"
++msgstr "%s bannlystes av %s"
+ 
+ #: src/chatView.js:1035
+ #, javascript-format
+ msgid "%s has been banned"
+-msgstr "%s har blivit bannlyst"
++msgstr "%s bannlystes"
+ 
+ #: src/chatView.js:1040
+ #, javascript-format
+@@ -530,7 +527,7 @@
+ #: src/chatView.js:1045
+ #, javascript-format
+ msgid "%s left"
+-msgstr "%s lämnade"
++msgstr "%s lämnade rummet"
+ 
+ #: src/chatView.js:1142
+ #, javascript-format
+@@ -543,8 +540,8 @@
+ #, javascript-format
+ msgid "%d user left"
+ msgid_plural "%d users left"
+-msgstr[0] "%d användare lämnade"
+-msgstr[1] "%d användare lämnade"
++msgstr[0] "%d användare lämnade rummet"
++msgstr[1] "%d användare lämnade rummet"
+ 
+ #: src/connections.js:65
+ msgid "Already added"
+@@ -571,35 +568,35 @@
+ #, javascript-format
+ msgid "Paste %s line of text to public paste service?"
+ msgid_plural "Paste %s lines of text to public paste service?"
+-msgstr[0] "Klistra in %s rad text i en publik inklistringstjänst?"
+-msgstr[1] "Klistra in %s rader text i en publik inklistringstjänst?"
++msgstr[0] "Vill du skicka %s rad text till en offentlig delningstjänst?"
++msgstr[1] "Vill du skicka %s rader text till en offentlig delningstjänst?"
+ 
+ #: src/entryArea.js:385
+ #, javascript-format
+ msgid "Uploading %s line of text to public paste service…"
+ msgid_plural "Uploading %s lines of text to public paste service…"
+-msgstr[0] "Skickar %s rad text till en publik inklistringstjänst…"
+-msgstr[1] "Skickar %s rader text till en publik inklistringstjänst…"
++msgstr[0] "Skickar %s rad text till en offentlig delningstjänst…"
++msgstr[1] "Skickar %s rader text till en offentlig delningstjänst…"
+ 
+ #: src/entryArea.js:392
+ msgid "Upload image to public paste service?"
+-msgstr "Skicka bild till en publik inklistringstjänst?"
++msgstr "Vill du skicka bilden till en offentlig delningstjänst?"
+ 
+ #: src/entryArea.js:393
+ msgid "Uploading image to public paste service…"
+-msgstr "Skickar bild till en publik inklistringstjänst…"
++msgstr "Skickar bilden till en offentlig delningstjänst…"
+ 
+ #. Translators: %s is a filename
+ #: src/entryArea.js:410
+ #, javascript-format
+ msgid "Upload “%s” to public paste service?"
+-msgstr "Skicka ”%s” till en publik inklistringstjänst?"
++msgstr "Vill du skicka ”%s” till en offentlig delningstjänst?"
+ 
+ #. Translators: %s is a filename
+ #: src/entryArea.js:412
+ #, javascript-format
+ msgid "Uploading “%s” to public paste service…"
+-msgstr "Skickar ”%s” till en publik inklistringstjänst…"
++msgstr "Skickar ”%s” till en offentlig delningstjänst…"
+ 
+ #. translators: %s is a nick, #%s a channel
+ #: src/entryArea.js:421
+@@ -610,7 +607,7 @@
+ #: src/entryArea.js:423
+ #, javascript-format
+ msgid "Paste from %s"
+-msgstr "Inklistring från %s"
++msgstr "Text från %s"
+ 
+ #: src/initialSetup.js:92
+ msgid "_Back"
+@@ -637,40 +634,40 @@
+ msgid ""
+ "/CLOSE [<channel>] [<reason>] — closes <channel>, by default the current one"
+ msgstr ""
+-"/CLOSE [<kanal>] [<orsak>] — stänger <kanal>, som standard den nuvarande "
+-"kanalen"
++"/CLOSE [<kanal>] [<orsak>] – stänger <kanal> eller, om den utelämnas, den "
++"aktuella kanalen"
+ 
+ #: src/ircParser.js:35
+ msgid ""
+ "/HELP [<command>] — displays help for <command>, or a list of available "
+ "commands"
+ msgstr ""
+-"/HELP [<kommando>] — visar hjälp för <kommando>, eller en lista över "
+-"tillgängliga kommandon"
++"/HELP [<kommando>] – visar hjälp för <kommando> eller listar tillgängliga "
++"kommandon"
+ 
+ #: src/ircParser.js:36
+ msgid ""
+ "/INVITE <nick> [<channel>] — invites <nick> to <channel>, or the current one"
+ msgstr ""
+-"/INVITE <smeknamn> [<kanal>] — bjuder in <smeknamn> till <kanal>, eller den "
+-"nuvarande"
++"/INVITE <smeknamn> [<kanal>] – bjuder in <smeknamn> till <kanal> eller den "
++"aktuella kanalen"
+ 
+ #: src/ircParser.js:37
+ msgid "/JOIN <channel> — joins <channel>"
+-msgstr "/JOIN <kanal> — ansluter till <kanal>"
++msgstr "/JOIN <kanal> – ansluter till <kanal>"
+ 
+ #: src/ircParser.js:38
+ msgid "/KICK <nick> — kicks <nick> from current channel"
+-msgstr "/KICK <smeknamn> — sparkar ut <smeknamn> från den nuvarande kanalen"
++msgstr "/KICK <smeknamn> – kastar ut <smeknamn> från den aktuella kanalen"
+ 
+ #: src/ircParser.js:39
+ msgid "/ME <action> — sends <action> to the current channel"
+-msgstr "/ME <händelse> — skickar <händelse> till den nuvarande kanalen"
++msgstr "/ME <handling> – skickar <handling> till den aktuella kanalen"
+ 
+ #: src/ircParser.js:40
+ msgid "/MSG <nick> [<message>] — sends a private message to <nick>"
+ msgstr ""
+-"/MSG <smeknamn> [<meddelande>] — skickar ett privat meddelande till "
++"/MSG <smeknamn> [<meddelande>] – skickar ett privat meddelande till "
+ "<smeknamn>"
+ 
+ #: src/ircParser.js:41
+@@ -679,42 +676,39 @@
+ 
+ #: src/ircParser.js:42
+ msgid "/NICK <nickname> — sets your nick to <nickname>"
+-msgstr "/NICK <smeknamn> — byter ditt smeknamn till <smeknamn>"
++msgstr "/NICK <smeknamn> – byter ditt smeknamn till <smeknamn>"
+ 
+ #: src/ircParser.js:43
+ msgid ""
+ "/PART [<channel>] [<reason>] — leaves <channel>, by default the current one"
+ msgstr ""
+-"/PART [<kanal>] [<orsak>] — lämnar <kanal>, som standard den nuvarande "
+-"kanalen"
++"/PART [<kanal>] [<orsak>] – lämnar <kanal> eller, om den utelämnas, den "
++"aktuella kanalen"
+ 
+ #: src/ircParser.js:44
+ msgid "/QUERY <nick> — opens a private conversation with <nick>"
+-msgstr "/QUERY <smeknamn> — öppnar en privat konversation med <smeknamn>"
++msgstr "/QUERY <smeknamn> – öppnar en privat konversation med <smeknamn>"
+ 
+ #: src/ircParser.js:45
+ msgid "/QUIT [<reason>] — disconnects from the current server"
+-msgstr "/QUIT [<orsak>] — kopplar ner från den nuvarande servern"
++msgstr "/QUIT [<orsak>] – kopplar från den aktuella servern"
+ 
+ #: src/ircParser.js:46
+ msgid "/SAY <text> — sends <text> to the current room/contact"
+-msgstr ""
+-"/SAY <text> — skickar <text> till det nuvarande rummet/den nuvarande "
+-"kontakten"
++msgstr "/SAY <text> – skickar <text> till det aktuella rummet eller kontakten"
+ 
+ #: src/ircParser.js:47
+ msgid "/TOPIC <topic> — sets the topic to <topic>, or shows the current one"
+ msgstr ""
+-"/TOPIC <ämne> — ställer in ämnet till <ämne> eller visar det nuvarande ämnet"
++"/TOPIC <ämne> – ställer in ämnet som <ämne> eller visar det aktuella ämnet"
+ 
+ #: src/ircParser.js:48
+ msgid "/WHOIS <nick> — requests information on <nick>"
+-msgstr "/WHOIS <smeknamn> — begär information om <smeknamn>"
++msgstr "/WHOIS <smeknamn> – begär information om <smeknamn>"
+ 
+ #: src/ircParser.js:51
+ msgid "Unknown command — try /HELP for a list of available commands"
+-msgstr ""
+-"Okänt kommando — försök med /HELP för en lista över tillgängliga kommandon"
++msgstr "Okänt kommando – prova /HELP för en lista över tillgängliga kommandon"
+ 
+ #: src/ircParser.js:104
+ msgid "Known commands:"
+@@ -727,7 +721,7 @@
+ #: src/ircParser.js:312
+ #, javascript-format
+ msgid "User: %s - Last activity: %s"
+-msgstr "Användare: %s - Senaste aktivitet: %s"
++msgstr "Användare: %s – Senaste aktivitet: %s"
+ 
+ #: src/ircParser.js:365
+ #, javascript-format
+@@ -756,7 +750,7 @@
+ 
+ #: src/roomList.js:311
+ msgid "Unmute"
+-msgstr "Tysta ej"
++msgstr "Avtysta"
+ 
+ #: src/roomList.js:315
+ msgid "Mute"
+@@ -765,7 +759,7 @@
+ #: src/roomList.js:480
+ #, javascript-format
+ msgid "Network %s has an error"
+-msgstr "Nätverket %s har ett fel"
++msgstr "Ett fel har uppstått i nätverket %s"
+ 
+ #. Translators: This is an account name followed by a
+ #. server address, e.g. "Libera (irc.libera.chat)"
+@@ -822,8 +816,7 @@
+ #, javascript-format
+ msgid ""
+ "Identification will happen automatically the next time you connect to %s"
+-msgstr ""
+-"Identifiering kommer att ske automatiskt nästa gång du ansluter till %s"
++msgstr "Identifieringen sker automatiskt nästa gång du ansluter till %s"
+ 
+ #: src/roomStack.js:189
+ msgid "_Save Password"
+@@ -831,7 +824,7 @@
+ 
+ #: src/roomStack.js:218
+ msgid "Failed to join the room"
+-msgstr "Misslyckades med att gå in i rummet"
++msgstr "Det gick inte att ansluta till rummet"
+ 
+ #: src/roomStack.js:222
+ msgid "_Retry"
+@@ -847,20 +840,19 @@
+ 
+ #: src/roomStack.js:251
+ msgid "The room is invite-only."
+-msgstr "Rummet är endast för inbjudna."
++msgstr "Du kan bara ansluta till rummet om du har blivit inbjuden."
+ 
+ #: src/roomStack.js:254
+ msgid "You have been kicked from the room."
+-msgstr "Du har sparkats ut från rummet."
++msgstr "Du har blivit utkastad från rummet."
+ 
+ #: src/roomStack.js:257
+ msgid "It is not possible to join the room now, but you can retry later."
+-msgstr ""
+-"Det är inte möjligt att gå in i rummet nu, men du kan försöka igen senare."
++msgstr "Det går inte att ansluta till rummet just nu. Försök igen senare."
+ 
+ #: src/roomStack.js:279
+ msgid "Join a room using the + button."
+-msgstr "Gå in i ett rum med +-knappen."
++msgstr "Klicka på plusknappen för att ansluta till ett rum."
+ 
+ #: src/telepathyClient.js:510
+ msgid "Good Bye"
+@@ -886,7 +878,7 @@
+ 
+ #: src/userList.js:390
+ msgid "Available in another room."
+-msgstr "Tillgänglig i annat rum."
++msgstr "Tillgänglig i ett annat rum."
+ 
+ #: src/userList.js:392
+ msgid "Online"
+@@ -981,7 +973,7 @@
+ #: src/utils.js:502
+ #, no-c-format
+ msgid "%A, %H∶%M"
+-msgstr "%A, %H∶%M"
++msgstr "%A, %H:%M"
+ 
+ #. this year
+ #. Translators: this is the month name and day number
+@@ -990,7 +982,7 @@
+ #: src/utils.js:508
+ #, no-c-format
+ msgid "%B %d, %H∶%M"
+-msgstr "%d %B, %H∶%M"
++msgstr "%d %B, %H:%M"
+ 
+ #. before this year
+ #. Translators: this is the month name, day number, year
+@@ -999,14 +991,14 @@
+ #: src/utils.js:514
+ #, no-c-format
+ msgid "%B %d %Y, %H∶%M"
+-msgstr "%d %B %Y, %H∶%M"
++msgstr "%d %B %Y, %H:%M"
+ 
+ #. eslint-disable-next-line no-lonely-if
+ #. today
+ #. Translators: Time in 12h format
+ #: src/utils.js:520
+ msgid "%l∶%M %p"
+-msgstr "%l∶%M %p"
++msgstr "%l:%M %p"
+ 
+ #. yesterday
+ #. Translators: this is the word "Yesterday" followed by a
+@@ -1014,7 +1006,7 @@
+ #: src/utils.js:525
+ #, no-c-format
+ msgid "Yesterday, %l∶%M %p"
+-msgstr "I går, %I:%M %p"
++msgstr "I går, %l:%M %p"
+ 
+ #. this week
+ #. Translators: this is the week day name followed by a time
+@@ -1022,7 +1014,7 @@
+ #: src/utils.js:530
+ #, no-c-format
+ msgid "%A, %l∶%M %p"
+-msgstr "%A, %l∶%M %p"
++msgstr "%A, %l:%M %p"
+ 
+ #. this year
+ #. Translators: this is the month name and day number
+@@ -1031,7 +1023,7 @@
+ #: src/utils.js:536
+ #, no-c-format
+ msgid "%B %d, %l∶%M %p"
+-msgstr "%d %B, %l∶%M %p"
++msgstr "%d %B, %l:%M %p"
+ 
+ #. before this year
+ #. Translators: this is the month name, day number, year
+@@ -1040,7 +1032,7 @@
+ #: src/utils.js:542
+ #, no-c-format
+ msgid "%B %d %Y, %l∶%M %p"
+-msgstr "%d %B %Y, %l∶%M %p"
++msgstr "%d %B %Y, %l:%M %p"
+ 
+ #~ msgid "Window size (width and height)."
+ #~ msgstr "Fönsterstorlek (bredd och höjd)."
