@@ -1,14 +1,16 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: file\n"
-"POT-Creation-Date: 2023-07-15 15:38-0400\n"
-"PO-Revision-Date: 2009-02-17 03:19+0100\n"
+"POT-Creation-Date: 2026-11-24 22:39+0000\n"
+"PO-Revision-Date: 2026-11-26 00:00+0000\n"
 "Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/menus/file/show-in-file-manager.xml:6(title)
 #: src/menus/file/show-in-file-manager.xml:8(primary)
@@ -16,13 +18,18 @@ msgid "Show in File Manager"
 msgstr "Visa i filhanteraren"
 
 #: src/menus/file/show-in-file-manager.xml:11(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>File</guimenu><guisubmenu>Show in File "
+#| "Manager</guisubmenu></menuchoice>."
 msgid ""
-"You can access this command from the image menubar through "
-"<menuchoice><guimenu>File</guimenu><guisubmenu>Show in File Manager</"
-"guisubmenu></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>File</guimenu><guisubmenu>Show in File "
+"Manager</guisubmenu></menuchoice>."
 msgstr ""
-"Du når kommandot från bildens menyrad via <menuchoice><guimenu>Arkiv</"
-"guimenu><guisubmenu>Visa i filhanteraren</guisubmenu></menuchoice>."
+"Du hittar kommandot i huvudmenyn via "
+"<menuchoice><guimenu>Arkiv</guimenu><guisubmenu>Visa i "
+"filhanteraren</guisubmenu></menuchoice>."
 
 #: src/menus/file/show-in-file-manager.xml:19(para)
 msgid ""
@@ -38,44 +45,263 @@ msgid "Send by Email"
 msgstr "Skicka med e-post"
 
 #: src/menus/file/send-by-email.xml:11(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>File</guimenu><guisubmenu>Send by "
+#| "Email…</guisubmenu></menuchoice>."
 msgid ""
-"You can access this command from the image menubar through "
-"<menuchoice><guimenu>File</guimenu><guisubmenu>Send by Email…</guisubmenu></"
-"menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>File</guimenu><guisubmenu>Send by "
+"Email…</guisubmenu></menuchoice>."
 msgstr ""
-"Du når kommandot från bildens menyrad via <menuchoice><guimenu>Arkiv</"
-"guimenu><guisubmenu>Skicka med e-post…</guisubmenu></menuchoice>."
+"Du hittar kommandot i huvudmenyn via "
+"<menuchoice><guimenu>Arkiv</guimenu><guisubmenu>Skicka med "
+"e-post…</guisubmenu></menuchoice>."
 
 #: src/menus/file/send-by-email.xml:19(para)
+#| msgid ""
+#| "This command opens a small dialog with the name of the image to be sent (you"
+#| " can edit it). Clicking on the <guibutton>Send</guibutton> button opens your"
+#| " default mail software with the image attached."
 msgid ""
-"This command opens a small dialog with the name of the image to be sent (you "
-"can edit it). Clicking on the <guibutton>Send</guibutton> button opens your "
-"default mail software with the image attached."
+"This command opens a dialog with the name of the image to be sent via email "
+"(you can edit it). Clicking on the <guibutton>Send</guibutton> button opens "
+"your local default mail software with the image attached."
 msgstr ""
-"Detta kommando öppnar en liten dialogruta med namnet på bilden som ska "
-"skickas (du kan redigera det). När du klickar på knappen <guibutton>Skicka</"
-"guibutton> öppnas ditt standardsystem för e-post med bilden bifogad."
+"Kommandot öppnar en dialogruta med bildens namn i e-postmeddelandet (du kan "
+"ändra namnet). När du klickar på <guibutton>Skicka</guibutton> öppnas det "
+"förvalda e-postprogrammet med bilden bifogad."
 
-#: src/menus/file/save-as-copy.xml:9(title)
-msgid "Save a Copy…"
-msgstr "Spara en kopia…"
+#: src/menus/file/send-by-email.xml:26(para)
+msgid ""
+"This command is only available on Unix/Linux-like operating systems with the"
+" <link linkend=\"glossary-xdg\">xdg-utils</link> package installed, or if "
+"your <acronym>GIMP</acronym> version was explicitly created (compiled) with "
+"Sendmail support."
+msgstr ""
+"Kommandot är bara tillgängligt i Unix- och Linux-liknande operativsystem där"
+" paketet <link linkend=\"glossary-xdg\">xdg-utils</link> är installerat, "
+"eller om din version av <acronym>GIMP</acronym> uttryckligen har byggts med "
+"Sendmail-stöd."
 
+#: src/menus/file/save.xml:8(title)
+msgid "Save"
+msgstr "Spara"
+
+#: src/menus/file/save.xml:13(para)
+msgid "This command opens <xref linkend=\"gimp-save-dialog\"/>."
+msgstr "Detta kommando öppnar <xref linkend=\"gimp-save-dialog\"/>."
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/file/save-as.xml:62(None)
+msgid ""
+"@@image: 'images/menus/file/save-as.png'; "
+"md5=147bcd9ccc96af74120d238c36a1014f"
+msgstr ""
+"@@image: 'images/menus/file/save-as.png'; "
+"md5=147bcd9ccc96af74120d238c36a1014f"
+
+#: src/menus/file/save-as.xml:12(title)
+#| msgid "Save as…"
+msgid "Save As…"
+msgstr "Spara som…"
+
+#: src/menus/file/save-as.xml:15(primary)
 #: src/menus/file/save-as-copy.xml:12(primary)
-#: src/menus/file/save-as.xml:15(primary) src/menus/file/revert.xml:12(primary)
+#: src/menus/file/revert.xml:12(primary) src/menus/file/open.xml:16(primary)
 #: src/menus/file/open-recent.xml:12(primary)
 #: src/menus/file/open-location.xml:15(primary)
+#: src/menus/file/open-as-link-layer.xml:8(primary)
 #: src/menus/file/open-as-layer.xml:15(primary)
-#: src/menus/file/open.xml:16(primary) src/menus/file/new.xml:16(primary)
-#: src/menus/file/new.xml:72(primary) src/menus/file/new.xml:181(primary)
-#: src/menus/file/new.xml:432(primary) src/menus/file/export-as.xml:12(primary)
+#: src/menus/file/new.xml:16(primary) src/menus/file/new.xml:75(primary)
+#: src/menus/file/new.xml:154(primary) src/menus/file/new.xml:455(primary)
+#: src/menus/file/export-as.xml:12(primary)
 #: src/menus/file/create.xml:14(primary) src/menus/file/close.xml:13(primary)
 msgid "Image"
 msgstr "Bild"
 
-#: src/menus/file/save-as-copy.xml:13(secondary)
 #: src/menus/file/save-as.xml:16(secondary)
+#: src/menus/file/save-as-copy.xml:13(secondary)
 msgid "Save image"
 msgstr "Spara bild"
+
+#: src/menus/file/save-as.xml:17(tertiary)
+#: src/menus/file/save-as.xml:20(primary)
+#| msgid "Save as"
+msgid "Save As"
+msgstr "Spara som"
+
+#: src/menus/file/save-as.xml:23(para)
+#| msgid ""
+#| "The <guimenuitem>Save as</guimenuitem> command displays the <quote>Save "
+#| "Image</quote> dialog. The Save as dialog allows you to save your XCF image "
+#| "with another name and/or to another folder. For other image file formats you"
+#| " should use the <guimenuitem>Export As…</guimenuitem> command."
+msgid ""
+"The <guimenuitem>Save As</guimenuitem> command displays the <quote>Save "
+"Image</quote> dialog. The Save as dialog allows you to save your XCF image "
+"with another name and/or to another folder. For other image file formats you"
+" should use the <guimenuitem>Export As…</guimenuitem> command."
+msgstr ""
+"Kommandot <guimenuitem>Spara som</guimenuitem> visar dialogrutan "
+"<quote>Spara bild</quote>. Där kan du spara XCF-bilden med ett annat namn "
+"och/eller i en annan mapp. För andra bildformat ska du använda kommandot "
+"<guimenuitem>Exportera som…</guimenuitem>."
+
+#: src/menus/file/save-as.xml:31(title)
+#: src/menus/file/save-as-copy.xml:37(title)
+#: src/menus/file/revert.xml:39(title) src/menus/file/quit.xml:29(title)
+#: src/menus/file/print.xml:40(title) src/menus/file/open-recent.xml:29(title)
+#: src/menus/file/open-location.xml:30(title)
+#: src/menus/file/open-as-link-layer.xml:28(title)
+#: src/menus/file/open-as-layer.xml:35(title) src/menus/file/new.xml:35(title)
+#: src/menus/file/export-as.xml:38(title)
+#: src/menus/file/create-template.xml:36(title)
+#: src/menus/file/close.xml:39(title) src/menus/file/close-all.xml:14(title)
+msgid "Activating the Command"
+msgstr "Aktivera kommandot"
+
+#: src/menus/file/save-as.xml:34(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Save "
+#| "As…</guimenuitem></menuchoice>,"
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Save "
+"As…</guimenuitem></menuchoice>."
+msgstr ""
+"Du hittar kommandot i huvudmenyn via "
+"<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Spara "
+"som…</guimenuitem></menuchoice>."
+
+#: src/menus/file/save-as.xml:43(para)
+#| msgid ""
+#| "or by using the keyboard shortcut "
+#| "<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>S</keycap></keycombo>."
+msgid ""
+"You can also use the keyboard shortcut "
+"<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>S</keycap></keycombo>."
+msgstr ""
+"Du kan också använda tangentbordsgenvägen "
+"<keycombo><keycap>Skift</keycap><keycap>Ctrl</keycap><keycap>S</keycap></keycombo>."
+
+#: src/menus/file/save-as.xml:56(title) src/menus/file/save-as.xml:58(title)
+msgid "The <quote>Save Image</quote> dialog"
+msgstr "Dialogrutan <quote>Spara bild</quote>"
+
+#. 1
+#: src/menus/file/save-as.xml:68(para)
+msgid ""
+"The left panel is divided into two parts. The upper part lists your main "
+"directories and your storage devices; you cannot modify this list. The lower"
+" part lists your bookmarks; you can add or remove "
+"<emphasis>bookmarks</emphasis>. To add a bookmark, select a directory or a "
+"file in the middle panel and click on the <guibutton>Add</guibutton> button "
+"at the bottom of the left panel. You can also use the <guilabel>Add to "
+"bookmarks</guilabel> command in the context menu, which you get by clicking "
+"the right mouse button. You can delete a bookmark by selecting it and "
+"clicking on the <guibutton>Remove</guibutton> button."
+msgstr ""
+"Den vänstra panelen är uppdelad i två delar. Den övre delen visar dina "
+"huvudkataloger och lagringsenheter; du kan inte ändra listan. Den nedre "
+"delen visar dina bokmärken; du kan lägga till eller ta bort "
+"<emphasis>bokmärken</emphasis>. För att lägga till ett bokmärke väljer du en"
+" katalog eller fil i mittpanelen och klickar på knappen <guibutton>Lägg "
+"till</guibutton> längst ned i den vänstra panelen. Du kan också använda "
+"kommandot <guilabel>Lägg till i bokmärken</guilabel> i snabbmenyn som visas "
+"när du högerklickar. Du tar bort ett bokmärke genom att välja det och klicka"
+" på knappen <guibutton>Ta bort</guibutton>."
+
+#. 2
+#: src/menus/file/save-as.xml:82(para)
+msgid ""
+"The middle panel displays a list of the files in the current directory. "
+"Change your current directory by double left-clicking on a directory in this"
+" panel. Select a file with a single left click. You can then save to the "
+"file you have selected by clicking on the <guibutton>Save</guibutton> "
+"button. Note that a double left click saves the file directly."
+msgstr ""
+"Mittpanelen visar en lista över filerna i den aktuella katalogen. Byt "
+"aktuell katalog genom att dubbelklicka med vänster musknapp på en katalog i "
+"panelen. Välj en fil med ett enkelt vänsterklick. Du kan sedan spara till "
+"den valda filen genom att klicka på knappen <guibutton>Spara</guibutton>. "
+"Observera att ett dubbelklick med vänster musknapp sparar filen direkt."
+
+#: src/menus/file/save-as.xml:90(para)
+msgid ""
+"You can right click on the middle panel to access the <emphasis>Show Hidden "
+"Files</emphasis> command."
+msgstr ""
+"Du kan högerklicka på mittpanelen för att komma åt kommandot <emphasis>Visa "
+"dolda filer</emphasis>."
+
+#. 3
+#: src/menus/file/save-as.xml:96(para)
+msgid ""
+"The selected image is displayed in the <guilabel>Preview </guilabel> window."
+" File size, resolution and image composition are displayed below the preview"
+" window."
+msgstr ""
+"Den valda bilden visas i fönstret <guilabel>Förhandsvisning</guilabel>. "
+"Filstorlek, upplösning och bildsammansättning visas under "
+"förhandsvisningsfönstret."
+
+#: src/menus/file/save-as.xml:101(para)
+msgid ""
+"If your image has been modified by another program, click on the preview to "
+"update it."
+msgstr ""
+"Om bilden har ändrats av ett annat program klickar du på förhandsvisningen "
+"för att uppdatera den."
+
+#. 4
+#: src/menus/file/save-as.xml:107(para)
+msgid "Enter the filename of the new image file here."
+msgstr "Ange filnamnet för den nya bildfilen här."
+
+#: src/menus/file/save-as.xml:109(para)
+msgid ""
+"If the image has already been saved, <acronym>GIMP</acronym> suggests the "
+"same filename to you. If you click on <emphasis>Save</emphasis>, the file is"
+" overwritten."
+msgstr ""
+"Om bilden redan har sparats föreslår <acronym>GIMP</acronym> samma filnamn. "
+"Om du klickar på <emphasis>Spara</emphasis> skrivs filen över."
+
+#. 5
+#: src/menus/file/save-as.xml:118(para)
+msgid ""
+"Above the middle panel, the path of the current directory is displayed. You "
+"can navigate along this path by clicking on one of the buttons."
+msgstr ""
+"Ovanför mittpanelen visas sökvägen till den aktuella katalogen. Du kan "
+"navigera längs sökvägen genom att klicka på en av knapparna."
+
+#. 6
+#: src/menus/file/save-as.xml:125(para)
+msgid ""
+"If you want to save the image into a folder that doesn't yet exist, you can "
+"create it by clicking on <guilabel>Create Folder</guilabel> and following "
+"the instructions."
+msgstr ""
+"Om du vill spara bilden i en mapp som ännu inte finns kan du skapa den genom"
+" att klicka på <guilabel>Skapa mapp</guilabel> och följa instruktionerna."
+
+#. 7
+#: src/menus/file/save-as.xml:132(para)
+msgid ""
+"At <guilabel>Select File Type</guilabel>, you can select a compressed format"
+" for your XCF file."
+msgstr ""
+"Under <guilabel>Välj filtyp</guilabel> kan du välja ett komprimerat format "
+"för XCF-filen."
+
+#: src/menus/file/save-as-copy.xml:9(title)
+msgid "Save a Copy…"
+msgstr "Spara en kopia…"
 
 #: src/menus/file/save-as-copy.xml:14(tertiary)
 #: src/menus/file/save-as-copy.xml:17(primary)
@@ -95,8 +321,8 @@ msgstr ""
 "Kommandot <guimenuitem>Spara en kopia</guimenuitem> gör samma sak som "
 "<guimenuitem>Spara</guimenuitem>, men med en viktig skillnad. Det frågar "
 "alltid efter ett filnamn och sparar bilden i XCF-format, men ändrar inte "
-"namnet på den aktiva bilden och markerar den inte som <quote>ren</quote>. Om "
-"du sedan försöker ta bort bilden eller avsluta <acronym>GIMP</acronym> får "
+"namnet på den aktiva bilden och markerar den inte som <quote>ren</quote>. Om"
+" du sedan försöker ta bort bilden eller avsluta <acronym>GIMP</acronym> får "
 "du veta att bilden är <quote>ändrad</quote> och möjlighet att spara den."
 
 #: src/menus/file/save-as-copy.xml:30(para)
@@ -105,197 +331,22 @@ msgid ""
 "current state, but continue to work with the original file without "
 "interruption."
 msgstr ""
-"Kommandot är användbart när du vill spara en kopia av bilden i dess aktuella "
-"tillstånd men fortsätta arbeta med originalfilen utan avbrott."
+"Kommandot är användbart när du vill spara en kopia av bilden i dess aktuella"
+" tillstånd men fortsätta arbeta med originalfilen utan avbrott."
 
-#: src/menus/file/save-as-copy.xml:37(title)
-#: src/menus/file/save-as.xml:31(title) src/menus/file/revert.xml:39(title)
-#: src/menus/file/quit.xml:29(title) src/menus/file/print.xml:40(title)
-#: src/menus/file/open-recent.xml:29(title)
-#: src/menus/file/open-location.xml:30(title)
-#: src/menus/file/open-as-layer.xml:35(title) src/menus/file/new.xml:35(title)
-#: src/menus/file/export-as.xml:38(title)
-#: src/menus/file/create-template.xml:36(title)
-#: src/menus/file/close-all.xml:14(title) src/menus/file/close.xml:39(title)
-msgid "Activating the Command"
-msgstr "Aktivera kommandot"
-
-#: src/menus/file/save-as-copy.xml:40(para)
+#: src/menus/file/save-as-copy.xml:38(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Save a "
+#| "Copy…</guimenuitem></menuchoice>. There is no default keyboard shortcut."
 msgid ""
-"You can access this command from the image menubar through "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Save a Copy…</guimenuitem></"
-"menuchoice>. There is no default keyboard shortcut."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Save a "
+"Copy…</guimenuitem></menuchoice>. There is no default keyboard shortcut."
 msgstr ""
-"Du når kommandot från bildens menyrad via <menuchoice><guimenu>Arkiv</"
-"guimenu><guimenuitem>Spara en kopia…</guimenuitem></menuchoice>. Det har "
-"ingen standardtangentbordsgenväg."
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/file/save-as.xml:61(None)
-msgid ""
-"@@image: 'images/menus/file/save-as.png'; "
-"md5=147bcd9ccc96af74120d238c36a1014f"
-msgstr ""
-"@@image: 'images/menus/file/save-as.png'; "
-"md5=147bcd9ccc96af74120d238c36a1014f"
-
-#: src/menus/file/save-as.xml:12(title)
-msgid "Save as…"
-msgstr "Spara som…"
-
-#: src/menus/file/save-as.xml:17(tertiary)
-#: src/menus/file/save-as.xml:20(primary)
-msgid "Save as"
-msgstr "Spara som"
-
-#: src/menus/file/save-as.xml:23(para)
-msgid ""
-"The <guimenuitem>Save as</guimenuitem> command displays the <quote>Save "
-"Image</quote> dialog. The Save as dialog allows you to save your XCF image "
-"with another name and/or to another folder. For other image file formats you "
-"should use the <guimenuitem>Export As…</guimenuitem> command."
-msgstr ""
-"Kommandot <guimenuitem>Spara som</guimenuitem> visar dialogrutan "
-"<quote>Spara bild</quote>. Dialogrutan Spara som låter dig spara XCF-bilden "
-"med ett annat namn och/eller i en annan mapp. För andra bildfilformat ska du "
-"använda kommandot <guimenuitem>Exportera som…</guimenuitem>."
-
-#: src/menus/file/save-as.xml:34(para)
-msgid ""
-"You can access this command from the image menubar through "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Save As…</guimenuitem></"
-"menuchoice>,"
-msgstr ""
-"Du når kommandot från bildens menyrad via <menuchoice><guimenu>Arkiv</"
-"guimenu><guimenuitem>Spara som…</guimenuitem></menuchoice>,"
-
-#: src/menus/file/save-as.xml:43(para)
-msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Shift</"
-"keycap><keycap>Ctrl</keycap><keycap>S</keycap></keycombo>."
-msgstr ""
-"eller med tangentbordsgenvägen <keycombo><keycap>Skift</keycap><keycap>Ctrl</"
-"keycap><keycap>S</keycap></keycombo>."
-
-#: src/menus/file/save-as.xml:55(title) src/menus/file/save-as.xml:57(title)
-msgid "The <quote>Save Image</quote> dialog"
-msgstr "Dialogrutan <quote>Spara bild</quote>"
-
-#. 1
-#: src/menus/file/save-as.xml:67(para)
-msgid ""
-"The left panel is divided into two parts. The upper part lists your main "
-"directories and your storage devices; you cannot modify this list. The lower "
-"part lists your bookmarks; you can add or remove <emphasis>bookmarks</"
-"emphasis>. To add a bookmark, select a directory or a file in the middle "
-"panel and click on the <guibutton>Add</guibutton> button at the bottom of "
-"the left panel. You can also use the <guilabel>Add to bookmarks</guilabel> "
-"command in the context menu, which you get by clicking the right mouse "
-"button. You can delete a bookmark by selecting it and clicking on the "
-"<guibutton>Remove</guibutton> button."
-msgstr ""
-"Den vänstra panelen är uppdelad i två delar. Den övre delen visar dina "
-"huvudkataloger och lagringsenheter; du kan inte ändra listan. Den nedre "
-"delen visar dina bokmärken; du kan lägga till eller ta bort "
-"<emphasis>bokmärken</emphasis>. För att lägga till ett bokmärke väljer du en "
-"katalog eller fil i mittpanelen och klickar på knappen <guibutton>Lägg till</"
-"guibutton> längst ned i den vänstra panelen. Du kan också använda kommandot "
-"<guilabel>Lägg till i bokmärken</guilabel> i snabbmenyn som visas när du "
-"högerklickar. Du tar bort ett bokmärke genom att välja det och klicka på "
-"knappen <guibutton>Ta bort</guibutton>."
-
-#. 2
-#: src/menus/file/save-as.xml:81(para)
-msgid ""
-"The middle panel displays a list of the files in the current directory. "
-"Change your current directory by double left-clicking on a directory in this "
-"panel. Select a file with a single left click. You can then save to the file "
-"you have selected by clicking on the <guibutton>Save</guibutton> button. "
-"Note that a double left click saves the file directly."
-msgstr ""
-"Mittpanelen visar en lista över filerna i den aktuella katalogen. Byt "
-"aktuell katalog genom att dubbelklicka med vänster musknapp på en katalog i "
-"panelen. Välj en fil med ett enkelt vänsterklick. Du kan sedan spara till "
-"den valda filen genom att klicka på knappen <guibutton>Spara</guibutton>. "
-"Observera att ett dubbelklick med vänster musknapp sparar filen direkt."
-
-#: src/menus/file/save-as.xml:89(para)
-msgid ""
-"You can right click on the middle panel to access the <emphasis>Show Hidden "
-"Files</emphasis> command."
-msgstr ""
-"Du kan högerklicka på mittpanelen för att komma åt kommandot <emphasis>Visa "
-"dolda filer</emphasis>."
-
-#. 3
-#: src/menus/file/save-as.xml:95(para)
-msgid ""
-"The selected image is displayed in the <guilabel>Preview </guilabel> window. "
-"File size, resolution and image composition are displayed below the preview "
-"window."
-msgstr ""
-"Den valda bilden visas i fönstret <guilabel>Förhandsvisning</guilabel>. "
-"Filstorlek, upplösning och bildsammansättning visas under "
-"förhandsvisningsfönstret."
-
-#: src/menus/file/save-as.xml:100(para)
-msgid ""
-"If your image has been modified by another program, click on the preview to "
-"update it."
-msgstr ""
-"Om bilden har ändrats av ett annat program klickar du på förhandsvisningen "
-"för att uppdatera den."
-
-#. 4
-#: src/menus/file/save-as.xml:106(para)
-msgid "Enter the filename of the new image file here."
-msgstr "Ange filnamnet för den nya bildfilen här."
-
-#: src/menus/file/save-as.xml:108(para)
-msgid ""
-"If the image has already been saved, <acronym>GIMP</acronym> suggests the "
-"same filename to you. If you click on <emphasis>Save</emphasis>, the file is "
-"overwritten."
-msgstr ""
-"Om bilden redan har sparats föreslår <acronym>GIMP</acronym> samma filnamn. "
-"Om du klickar på <emphasis>Spara</emphasis> skrivs filen över."
-
-#. 5
-#: src/menus/file/save-as.xml:117(para)
-msgid ""
-"Above the middle panel, the path of the current directory is displayed. You "
-"can navigate along this path by clicking on one of the buttons."
-msgstr ""
-"Ovanför mittpanelen visas sökvägen till den aktuella katalogen. Du kan "
-"navigera längs sökvägen genom att klicka på en av knapparna."
-
-#. 6
-#: src/menus/file/save-as.xml:124(para)
-msgid ""
-"If you want to save the image into a folder that doesn't yet exist, you can "
-"create it by clicking on <guilabel>Create Folder</guilabel> and following "
-"the instructions."
-msgstr ""
-"Om du vill spara bilden i en mapp som ännu inte finns kan du skapa den genom "
-"att klicka på <guilabel>Skapa mapp</guilabel> och följa instruktionerna."
-
-#. 7
-#: src/menus/file/save-as.xml:131(para)
-msgid ""
-"At <guilabel>Select File Type</guilabel>, you can select a compressed format "
-"for your XCF file."
-msgstr ""
-"Under <guilabel>Välj filtyp</guilabel> kan du välja ett komprimerat format "
-"för XCF-filen."
-
-#: src/menus/file/save.xml:8(title)
-msgid "Save"
-msgstr "Spara"
-
-#: src/menus/file/save.xml:13(para)
-msgid "This command opens <xref linkend=\"gimp-save-dialog\"/>."
-msgstr "Detta kommando öppnar <xref linkend=\"gimp-save-dialog\"/>."
+"Du hittar kommandot i huvudmenyn via "
+"<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Spara en "
+"kopia…</guimenuitem></menuchoice>. Det finns ingen standardgenväg."
 
 #: src/menus/file/revert.xml:9(title)
 msgid "Revert"
@@ -313,8 +364,8 @@ msgstr "Återställ (kommando)"
 msgid ""
 "The <guimenuitem>Revert</guimenuitem> command reloads the image from disk, "
 "so that it looks just like it did the last time it was saved — unless, that "
-"is, you or some application other than <acronym>GIMP</acronym> have modified "
-"the image file, in which case, the new contents are loaded."
+"is, you or some application other than <acronym>GIMP</acronym> have modified"
+" the image file, in which case, the new contents are loaded."
 msgstr ""
 "Kommandot <guimenuitem>Återställ</guimenuitem> läser in bilden från disken "
 "igen, så att den ser ut precis som när den sparades senast — om inte du "
@@ -323,8 +374,8 @@ msgstr ""
 
 #: src/menus/file/revert.xml:27(para)
 msgid ""
-"When <acronym>GIMP</acronym> reverts a file, it actually closes the existing "
-"image and creates a new image. Because of this, reverting an image is not "
+"When <acronym>GIMP</acronym> reverts a file, it actually closes the existing"
+" image and creates a new image. Because of this, reverting an image is not "
 "undoable, and causes the undo history of the image to be lost. "
 "<acronym>GIMP</acronym> tries to protect you from losing your work in this "
 "way by asking you to confirm that you really want to revert the image."
@@ -335,15 +386,19 @@ msgstr ""
 "skydda dig från att förlora arbete på detta sätt genom att be dig bekräfta "
 "att du verkligen vill återställa bilden."
 
-#: src/menus/file/revert.xml:42(para)
+#: src/menus/file/revert.xml:40(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Revert</guimenuitem></menuchoice>."
+#| " There is no default keyboard shortcut."
 msgid ""
-"You can access this command from the image menubar through "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Revert</guimenuitem></"
-"menuchoice>. There is no default keyboard shortcut."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Revert</guimenuitem></menuchoice>."
+" There is no default keyboard shortcut."
 msgstr ""
-"Du når kommandot från bildens menyrad via <menuchoice><guimenu>Arkiv</"
-"guimenu><guimenuitem>Återställ</guimenuitem></menuchoice>. Det har ingen "
-"standardtangentbordsgenväg."
+"Du hittar kommandot i huvudmenyn via "
+"<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Återställ</guimenuitem></menuchoice>."
+" Det finns ingen standardgenväg."
 
 #: src/menus/file/quit.xml:8(title)
 msgid "Quit"
@@ -361,49 +416,72 @@ msgid ""
 "<acronym>GIMP</acronym> notifies you and displays a list of the unsaved "
 "images. You can then choose which images you would like to save, or you can "
 "cancel the command. Note that if you have a large number of images open, or "
-"are using a large part of the RAM on your system, it may take a little while "
-"for everything to shut down."
+"are using a large part of the RAM on your system, it may take a little while"
+" for everything to shut down."
 msgstr ""
-"Kommandot <guimenuitem>Avsluta</guimenuitem> får <acronym>GIMP</acronym> att "
-"stänga alla bilder och avslutas. Om det finns öppna bilder med osparade "
+"Kommandot <guimenuitem>Avsluta</guimenuitem> får <acronym>GIMP</acronym> att"
+" stänga alla bilder och avslutas. Om det finns öppna bilder med osparade "
 "ändringar (de är alltså inte markerade som <quote>rena</quote>) meddelar "
-"<acronym>GIMP</acronym> dig och visar en lista över de osparade bilderna. Du "
-"kan sedan välja vilka bilder du vill spara eller avbryta kommandot. "
-"Observera att det kan ta en stund innan allt avslutas om du har många bilder "
-"öppna eller använder en stor del av datorns RAM-minne."
+"<acronym>GIMP</acronym> dig och visar en lista över de osparade bilderna. Du"
+" kan sedan välja vilka bilder du vill spara eller avbryta kommandot. "
+"Observera att det kan ta en stund innan allt avslutas om du har många bilder"
+" öppna eller använder en stor del av datorns RAM-minne."
 
 #: src/menus/file/quit.xml:32(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Quit</guimenuitem></menuchoice>,"
 msgid ""
-"You can access this command from the image menubar through "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Quit</guimenuitem></"
-"menuchoice>,"
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Quit</guimenuitem></menuchoice>."
 msgstr ""
-"Du når kommandot från bildens menyrad via <menuchoice><guimenu>Arkiv</"
-"guimenu><guimenuitem>Avsluta</guimenuitem></menuchoice>,"
+"Du hittar kommandot i huvudmenyn via "
+"<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Avsluta</guimenuitem></menuchoice>."
 
 #: src/menus/file/quit.xml:41(para)
+#| msgid ""
+#| "or by using the keyboard shortcut "
+#| "<keycombo><keycap>Ctrl</keycap><keycap>Q</keycap></keycombo>."
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>Q</"
-"keycap></keycombo>."
+"You can also use the keyboard shortcut "
+"<keycombo><keycap>Ctrl</keycap><keycap>Q</keycap></keycombo>."
 msgstr ""
-"eller med tangentbordsgenvägen <keycombo><keycap>Ctrl</keycap><keycap>Q</"
-"keycap></keycombo>."
+"Du kan också använda tangentbordsgenvägen "
+"<keycombo><keycap>Ctrl</keycap><keycap>Q</keycap></keycombo>."
 
-#: src/menus/file/quit.xml:47(para)
+#: src/menus/file/quit.xml:50(para)
+#| msgid ""
+#| "For most systems on which <acronym>GIMP</acronym> runs, you can also execute"
+#| " it by clicking on a <quote>Close</quote> button somewhere on the main image"
+#| " window's titlebar. The location and appearance of this button are "
+#| "determined by the windowing system and the window manager. Clicking on this "
+#| "button closes GIMP when no image is open."
 msgid ""
-"For most systems on which <acronym>GIMP</acronym> runs, you can also execute "
-"it by clicking on a <quote>Close</quote> button somewhere on the main image "
-"window's titlebar. The location and appearance of this button are determined "
-"by the windowing system and the window manager. Clicking on this button "
-"closes GIMP when no image is open."
+"For most systems on which <acronym>GIMP</acronym> runs, you can also execute"
+" it by clicking the <quote>Close</quote> button on the main window titlebar "
+"in single-window mode. In multi-window mode, this closes the image, unless "
+"no image is open."
 msgstr ""
-"På de flesta system där <acronym>GIMP</acronym> körs kan du också avsluta "
-"det genom att klicka på en knapp för <quote>Stäng</quote> någonstans i "
-"huvudbildfönstrets titelrad. Fönstersystemet och fönsterhanteraren avgör "
-"knappens plats och utseende. När ingen bild är öppen avslutar ett klick på "
-"knappen GIMP."
+"I de flesta system där <acronym>GIMP</acronym> körs kan du också avsluta "
+"programmet genom att klicka på knappen <quote>Stäng</quote> i huvudfönstrets"
+" namnlist när en-fönsterläget används. I flerfönsterläget stängs i stället "
+"den aktiva bilden, eller GIMP om ingen bild är öppen."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#: src/menus/file/quit.xml:56(para)
+msgid ""
+"The location and appearance of this button vary from system to system. "
+"Activating this button will close <acronym>GIMP</acronym>. If there are open"
+" images with unsaved changes you will be asked whether you want to quit, "
+"possibly losing changes, or go back to working in <acronym>GIMP</acronym> so"
+" you can save the images."
+msgstr ""
+"Knappens placering och utseende varierar mellan olika system. Om du klickar "
+"på den stängs <acronym>GIMP</acronym>. Om det finns bilder med osparade "
+"ändringar får du välja om du vill avsluta och eventuellt förlora "
+"ändringarna, eller återgå till <acronym>GIMP</acronym> och spara bilderna."
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/file/print.xml:28(None)
 msgid ""
@@ -440,40 +518,69 @@ msgstr "Dialogrutan <quote>Skriv ut</quote>"
 
 #: src/menus/file/print.xml:33(para)
 msgid ""
-"See <link linkend=\"gimp-using-photography-printing\">Printing your photos</"
-"link>."
+"See <link linkend=\"gimp-using-photography-printing\">Printing your "
+"photos</link>."
 msgstr ""
-"Se <link linkend=\"gimp-using-photography-printing\">Skriva ut dina foton</"
-"link>."
+"Se <link linkend=\"gimp-using-photography-printing\">Skriva ut dina "
+"foton</link>."
 
 #: src/menus/file/print.xml:43(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Print</guimenuitem></menuchoice>,"
 msgid ""
-"You can access this command from the image menubar through "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Print</guimenuitem></"
-"menuchoice>,"
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Print</guimenuitem></menuchoice>."
 msgstr ""
-"Du når kommandot från bildens menyrad via <menuchoice><guimenu>Arkiv</"
-"guimenu><guimenuitem>Skriv ut</guimenuitem></menuchoice>,"
+"Du hittar kommandot i huvudmenyn via "
+"<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Skriv "
+"ut</guimenuitem></menuchoice>."
 
 #: src/menus/file/print.xml:52(para)
+#| msgid ""
+#| "or by using the keyboard shortcut "
+#| "<keycombo><keycap>Ctrl</keycap><keycap>P</keycap></keycombo>."
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>P</"
-"keycap></keycombo>."
+"You can also use the keyboard shortcut "
+"<keycombo><keycap>Ctrl</keycap><keycap>P</keycap></keycombo>."
 msgstr ""
-"eller med tangentbordsgenvägen <keycombo><keycap>Ctrl</keycap><keycap>P</"
-"keycap></keycombo>."
+"Du kan också använda tangentbordsgenvägen "
+"<keycombo><keycap>Ctrl</keycap><keycap>P</keycap></keycombo>."
+
+#: src/menus/file/open.xml:13(title)
+msgid "Open…"
+msgstr "Öppna…"
+
+#: src/menus/file/open.xml:17(secondary) src/menus/file/open.xml:19(primary)
+#: src/menus/file/open-recent.xml:13(secondary)
+#: src/menus/file/open-location.xml:16(secondary)
+#: src/menus/file/open-as-link-layer.xml:9(secondary)
+#: src/menus/file/open-as-layer.xml:16(secondary)
+msgid "Open"
+msgstr "Öppna"
+
+#: src/menus/file/open.xml:21(para)
+msgid ""
+"The <guimenuitem>Open…</guimenuitem> command activates the <link "
+"linkend=\"gimp-open-dialog\">Open Image</link> dialog that lets you select "
+"an image to be loaded from your hard-drive or an external device."
+msgstr ""
+"Kommandot <guimenuitem>Öppna…</guimenuitem> aktiverar dialogrutan <link "
+"linkend=\"gimp-open-dialog\">Öppna bild</link>, där du kan välja en bild som"
+" ska läsas in från hårddisken eller en extern enhet."
+
+#: src/menus/file/open.xml:26(para)
+msgid ""
+"For other ways of opening files, see the commands described on the next "
+"pages (<xref linkend=\"gimp-file-open-as-layer\"/> etc.)."
+msgstr ""
+"För andra sätt att öppna filer, se kommandona som beskrivs på nästa sidor "
+"(<xref linkend=\"gimp-file-open-as-layer\"/> osv.)."
 
 #: src/menus/file/open-recent.xml:9(title)
 #: src/menus/file/open-recent.xml:17(primary)
 msgid "Open Recent"
 msgstr "Öppna senaste"
-
-#: src/menus/file/open-recent.xml:13(secondary)
-#: src/menus/file/open-location.xml:16(secondary)
-#: src/menus/file/open-as-layer.xml:16(secondary)
-#: src/menus/file/open.xml:17(secondary) src/menus/file/open.xml:19(primary)
-msgid "Open"
-msgstr "Öppna"
 
 #: src/menus/file/open-recent.xml:14(tertiary)
 msgid "Open recent"
@@ -481,11 +588,11 @@ msgstr "Öppna senaste"
 
 #: src/menus/file/open-recent.xml:20(para)
 msgid ""
-"Selecting <guimenuitem>Open Recent</guimenuitem> displays a submenu with the "
-"names of the files that you have opened recently in <acronym>GIMP</acronym>. "
-"Simply click on a name to reopen it. See the <link linkend=\"gimp-document-"
-"dialog\">Document History dialog</link> at the bottom of the Open Recent "
-"submenu if you cannot find your image."
+"Selecting <guimenuitem>Open Recent</guimenuitem> displays a submenu with the"
+" names of the files that you have opened recently in "
+"<acronym>GIMP</acronym>. Simply click on a name to reopen it. See the <link "
+"linkend=\"gimp-document-dialog\">Document History dialog</link> at the "
+"bottom of the Open Recent submenu if you cannot find your image."
 msgstr ""
 "När du väljer <guimenuitem>Öppna senaste</guimenuitem> visas en undermeny "
 "med namnen på filerna som du nyligen har öppnat i <acronym>GIMP</acronym>. "
@@ -493,14 +600,19 @@ msgstr ""
 "document-dialog\">dialogrutan Dokumenthistorik</link> längst ner i "
 "undermenyn Öppna senaste om du inte hittar bilden."
 
-#: src/menus/file/open-recent.xml:32(para)
+#: src/menus/file/open-recent.xml:30(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Open "
+#| "Recent</guimenuitem></menuchoice>."
 msgid ""
-"You can access this command from the image menubar through "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Open Recent</guimenuitem></"
-"menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Open "
+"Recent</guimenuitem></menuchoice>."
 msgstr ""
-"Du når kommandot från bildens menyrad via <menuchoice><guimenu>Arkiv</"
-"guimenu><guimenuitem>Öppna senaste</guimenuitem></menuchoice>."
+"Du hittar kommandot i huvudmenyn via "
+"<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Öppna "
+"senaste</guimenuitem></menuchoice>."
 
 #: src/menus/file/open-location.xml:12(title)
 msgid "Open Location…"
@@ -515,42 +627,50 @@ msgid "Open Location"
 msgstr "Öppna plats"
 
 #: src/menus/file/open-location.xml:23(para)
+#| msgid ""
+#| "This command opens the <quote>Open Location</quote> dialog that lets you "
+#| "load an image from a network location, specified by a URI, in any of the "
+#| "formats that <acronym>GIMP</acronym> supports."
 msgid ""
-"This command opens the <quote>Open Location</quote> dialog that lets you "
-"load an image from a network location, specified by a URI, in any of the "
-"formats that <acronym>GIMP</acronym> supports."
+"This command opens the <quote>Open Location</quote> dialog, which lets you "
+"load an image from an online or network location, specified by a URI, in any"
+" of the formats that <acronym>GIMP</acronym> supports."
 msgstr ""
-"Detta kommando öppnar dialogrutan <quote>Öppna plats</quote>, som låter dig "
-"läsa in en bild från en nätverksplats som anges med en URI, i något av de "
-"format som <acronym>GIMP</acronym> stöder."
+"Kommandot öppnar dialogrutan <quote>Öppna plats</quote>. Där kan du läsa in "
+"en bild via en URI från en plats på nätet eller i ett nätverk, i något av de"
+" format som <acronym>GIMP</acronym> stöder."
 
-#: src/menus/file/open-location.xml:33(para)
+#: src/menus/file/open-location.xml:31(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Open "
+#| "Recent</guimenuitem></menuchoice>."
 msgid ""
-"You can access this command from the Toolbox menubar or the image menubar "
-"through <menuchoice><guimenu>File</guimenu><guimenuitem>Open Location…</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Open "
+"Location…</guimenuitem></menuchoice>."
 msgstr ""
-"Du når kommandot från verktygslådans menyrad eller bildens menyrad via "
-"<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Öppna plats…</guimenuitem></"
-"menuchoice>."
+"Du hittar kommandot i huvudmenyn via "
+"<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Öppna "
+"plats…</guimenuitem></menuchoice>."
 
-#: src/menus/file/open-location.xml:46(title)
+#: src/menus/file/open-location.xml:41(title)
 msgid "Description of the dialog window"
 msgstr "Beskrivning av dialogfönstret"
 
-#: src/menus/file/open-location.xml:47(para)
+#: src/menus/file/open-location.xml:42(para)
 msgid "The most typical schemes to open images with are:"
 msgstr "De vanligaste protokollen för att öppna bilder är:"
 
-#: src/menus/file/open-location.xml:50(term)
+#: src/menus/file/open-location.xml:45(term)
 msgid "file://"
 msgstr "file://"
 
-#: src/menus/file/open-location.xml:52(para)
+#: src/menus/file/open-location.xml:47(para)
 msgid "to open an image from a local drive"
 msgstr "för att öppna en bild från en lokal enhet"
 
-#: src/menus/file/open-location.xml:53(para)
+#: src/menus/file/open-location.xml:48(para)
 msgid ""
 "You can omit the <quote>file://</quote> prefix and open images simply by "
 "putting an absolute or relative path and filename in here."
@@ -558,49 +678,55 @@ msgstr ""
 "Du kan utelämna prefixet <quote>file://</quote> och öppna bilder genom att "
 "bara ange en absolut eller relativ sökväg och ett filnamn här."
 
-#: src/menus/file/open-location.xml:58(para)
+#: src/menus/file/open-location.xml:53(para)
 msgid ""
 "The default base directory for relative paths depends on your operating "
 "system. It is typically <filename>/home/&lt;username&gt;/</filename> on "
-"Linux, <filename role=\"html\">C:\\Documents and Settings\\&lt;username&gt;"
-"\\My Documents\\My Images\\</filename><filename role=\"tex\">C:\\\\Documents "
-"and Settings\\\\&lt;username&gt;\\\\My Documents\\\\My Images\\\\</filename> "
-"on Windows and <filename>/Users/&lt;username&gt;/</filename> on Mac OS X."
+"Linux, <filename role=\"html\">C:\\Documents and "
+"Settings\\&lt;username&gt;\\My Documents\\My Images\\</filename><filename "
+"role=\"tex\">C:\\\\Documents and Settings\\\\&lt;username&gt;\\\\My "
+"Documents\\\\My Images\\\\</filename> on Windows and "
+"<filename>/Users/&lt;username&gt;/</filename> on Mac OS X."
 msgstr ""
-"Standardbaskatalogen för relativa sökvägar beror på operativsystemet. Den är "
+"Standardkatalogen för relativa sökvägar beror på operativsystemet. Den är "
 "vanligen <filename>/home/&lt;username&gt;/</filename> i Linux, <filename "
-"role=\"html\">C:\\Documents and Settings\\&lt;username&gt;\\My Documents\\My "
-"Images\\</filename><filename role=\"tex\">C:\\\\Documents and Settings\\"
-"\\&lt;username&gt;\\\\My Documents\\\\My Images\\\\</filename> i Windows och "
-"<filename>/Users/&lt;username&gt;/</filename> i Mac OS X."
+"role=\"html\">C:\\Documents and Settings\\&lt;username&gt;\\My Documents\\My"
+" Images\\</filename><filename role=\"tex\">C:\\\\Documents and "
+"Settings\\\\&lt;username&gt;\\\\My Documents\\\\My Images\\\\</filename> i "
+"Windows och <filename>/Users/&lt;username&gt;/</filename> i Mac OS X."
 
-#: src/menus/file/open-location.xml:72(term)
+#: src/menus/file/open-location.xml:67(term)
 msgid "ftp://"
 msgstr "ftp://"
 
-#: src/menus/file/open-location.xml:74(para)
+#: src/menus/file/open-location.xml:69(para)
 msgid "to open an image from a ftp server"
 msgstr "för att öppna en bild från en FTP-server"
 
-#: src/menus/file/open-location.xml:78(term)
+#: src/menus/file/open-location.xml:73(term)
+#| msgid "http://"
+msgid "https://"
+msgstr "https://"
+
+#: src/menus/file/open-location.xml:74(term)
 msgid "http://"
 msgstr "http://"
 
-#: src/menus/file/open-location.xml:80(para)
+#: src/menus/file/open-location.xml:76(para)
 msgid "to load an image from a website"
 msgstr "för att läsa in en bild från en webbplats"
 
-#: src/menus/file/open-location.xml:82(para)
+#: src/menus/file/open-location.xml:78(para)
 msgid ""
 "When you are visiting an Internet site, you can right-click on an image and "
-"choose <quote>Copy link address</quote> in the drop-down menu. Then paste it "
-"in the <quote>Open Location</quote> dialog to open it in GIMP."
+"choose <quote>Copy link address</quote> in the drop-down menu. Then paste it"
+" in the <quote>Open Location</quote> dialog to open it in GIMP."
 msgstr ""
 "När du besöker en webbplats kan du högerklicka på en bild och välja "
 "<quote>Kopiera länkadress</quote> i snabbmenyn. Klistra sedan in den i "
 "dialogrutan <quote>Öppna plats</quote> för att öppna bilden i GIMP."
 
-#: src/menus/file/open-location.xml:88(para)
+#: src/menus/file/open-location.xml:84(para)
 msgid ""
 "Even if this command makes it very easy to grab images from web sites: "
 "<emphasis> Please respect the copyright! Images, even if published on the "
@@ -610,6 +736,77 @@ msgstr ""
 "<emphasis>Respektera upphovsrätten! Bilder som publiceras på internet får "
 "inte alltid användas fritt.</emphasis>"
 
+#: src/menus/file/open-as-link-layer.xml:6(title)
+#| msgid "Open as Layers…"
+msgid "Open as Link Layer…"
+msgstr "Öppna som länklager…"
+
+#: src/menus/file/open-as-link-layer.xml:10(tertiary)
+#| msgid "As layers"
+msgid "As link layer"
+msgstr "Som länklager"
+
+#: src/menus/file/open-as-link-layer.xml:13(primary)
+#: src/menus/file/open-as-layer.xml:20(primary)
+msgid "Layer"
+msgstr "Lager"
+
+#: src/menus/file/open-as-link-layer.xml:14(secondary)
+#: src/menus/file/open-as-layer.xml:21(secondary)
+msgid "Stack managing"
+msgstr "Hantera stapeln"
+
+#: src/menus/file/open-as-link-layer.xml:15(tertiary)
+#| msgid "Open image as layers"
+msgid "Open image as link layer"
+msgstr "Öppna bild som länklager"
+
+#: src/menus/file/open-as-link-layer.xml:18(primary)
+#| msgid "Open as layers"
+msgid "Open as link layer"
+msgstr "Öppna som länklager"
+
+#: src/menus/file/open-as-link-layer.xml:21(para)
+#| msgid ""
+#| "The <guimenu>Open Image as layers</guimenu> command opens the <link "
+#| "linkend=\"gimp-file-open\">Open Image</link> dialog. The layers of the "
+#| "selected file are added to the current image as the top layers in the stack."
+msgid ""
+"The <guimenu>Open as link layer</guimenu> command opens the <link "
+"linkend=\"gimp-open-dialog\">Open Image</link> dialog. The image is added as"
+" a so-called <link linkend=\"gimp-layer-type-link-layer\">Link Layer</link> "
+"that can be changed and updated separately."
+msgstr ""
+"Kommandot <guimenu>Öppna som länklager</guimenu> öppnar dialogrutan <link "
+"linkend=\"gimp-open-dialog\">Öppna bild</link>. Bilden läggs till som ett så"
+" kallat <link linkend=\"gimp-layer-type-link-layer\">länklager</link>, som "
+"kan ändras och uppdateras separat."
+
+#: src/menus/file/open-as-link-layer.xml:31(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Open as "
+#| "layers…</guimenuitem></menuchoice>,"
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Open as Link "
+"Layer…</guimenuitem></menuchoice>."
+msgstr ""
+"Du hittar kommandot i huvudmenyn via "
+"<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Öppna som "
+"länklager…</guimenuitem></menuchoice>."
+
+#: src/menus/file/open-as-link-layer.xml:40(para)
+#| msgid ""
+#| "or by using the keyboard shortcut "
+#| "<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>S</keycap></keycombo>."
+msgid ""
+"You can also use the keyboard shortcut "
+"<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>Alt</keycap><keycap>O</keycap></keycombo>."
+msgstr ""
+"Du kan också använda tangentbordsgenvägen "
+"<keycombo><keycap>Skift</keycap><keycap>Ctrl</keycap><keycap>Alt</keycap><keycap>O</keycap></keycombo>."
+
 #: src/menus/file/open-as-layer.xml:13(title)
 msgid "Open as Layers…"
 msgstr "Öppna som lager…"
@@ -617,14 +814,6 @@ msgstr "Öppna som lager…"
 #: src/menus/file/open-as-layer.xml:17(tertiary)
 msgid "As layers"
 msgstr "Som lager"
-
-#: src/menus/file/open-as-layer.xml:20(primary)
-msgid "Layer"
-msgstr "Lager"
-
-#: src/menus/file/open-as-layer.xml:21(secondary)
-msgid "Stack managing"
-msgstr "Hantera stapeln"
 
 #: src/menus/file/open-as-layer.xml:22(tertiary)
 msgid "Open image as layers"
@@ -635,91 +824,71 @@ msgid "Open as layers"
 msgstr "Öppna som lager"
 
 #: src/menus/file/open-as-layer.xml:28(para)
+#| msgid ""
+#| "The <guimenu>Open Image as layers</guimenu> command opens the <link "
+#| "linkend=\"gimp-file-open\">Open Image</link> dialog. The layers of the "
+#| "selected file are added to the current image as the top layers in the stack."
 msgid ""
 "The <guimenu>Open Image as layers</guimenu> command opens the <link "
-"linkend=\"gimp-file-open\">Open Image</link> dialog. The layers of the "
+"linkend=\"gimp-open-dialog\">Open Image</link> dialog. The layers of the "
 "selected file are added to the current image as the top layers in the stack."
 msgstr ""
 "Kommandot <guimenu>Öppna bild som lager</guimenu> öppnar dialogrutan <link "
-"linkend=\"gimp-file-open\">Öppna bild</link>. Lagren i den valda filen läggs "
-"till i den aktuella bilden som de översta lagren i stapeln."
+"linkend=\"gimp-open-dialog\">Öppna bild</link>. Lagren från den valda filen "
+"läggs till överst i lagerhögen i den aktuella bilden."
 
 #: src/menus/file/open-as-layer.xml:38(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Open as "
+#| "layers…</guimenuitem></menuchoice>,"
 msgid ""
-"You can access this command from the image menubar through "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Open as layers…</"
-"guimenuitem></menuchoice>,"
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Open as "
+"Layers…</guimenuitem></menuchoice>."
 msgstr ""
-"Du når kommandot från bildens menyrad via <menuchoice><guimenu>Arkiv</"
-"guimenu><guimenuitem>Öppna som lager…</guimenuitem></menuchoice>,"
+"Du hittar kommandot i huvudmenyn via "
+"<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Öppna som "
+"lager…</guimenuitem></menuchoice>."
 
 #: src/menus/file/open-as-layer.xml:47(para)
+#| msgid ""
+#| "or by using the keyboard shortcut "
+#| "<keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap><keycap>O</keycap></keycombo>."
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</"
-"keycap><keycap>Alt</keycap><keycap>O</keycap></keycombo>."
+"You can also use the keyboard shortcut "
+"<keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap><keycap>O</keycap></keycombo>."
 msgstr ""
-"eller med tangentbordsgenvägen <keycombo><keycap>Ctrl</keycap><keycap>Alt</"
-"keycap><keycap>O</keycap></keycombo>."
+"Du kan också använda tangentbordsgenvägen "
+"<keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap><keycap>O</keycap></keycombo>."
 
-#: src/menus/file/open.xml:13(title)
-msgid "Open…"
-msgstr "Öppna…"
-
-#: src/menus/file/open.xml:21(para)
-msgid ""
-"The <guimenuitem>Open…</guimenuitem> command activates the <link "
-"linkend=\"gimp-open-dialog\">Open Image</link> dialog that lets you select "
-"an image to be loaded from your hard-drive or an external device."
-msgstr ""
-"Kommandot <guimenuitem>Öppna…</guimenuitem> aktiverar dialogrutan <link "
-"linkend=\"gimp-open-dialog\">Öppna bild</link>, där du kan välja en bild som "
-"ska läsas in från hårddisken eller en extern enhet."
-
-#: src/menus/file/open.xml:26(para)
-msgid ""
-"For other ways of opening files, see the commands described on the next "
-"pages (<xref linkend=\"gimp-file-open-as-layer\"/> etc.)."
-msgstr ""
-"För andra sätt att öppna filer, se kommandona som beskrivs på nästa sidor "
-"(<xref linkend=\"gimp-file-open-as-layer\"/> osv.)."
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/file/new.xml:61(None)
-msgid ""
-"@@image: 'images/menus/file/new.png'; md5=91c33dbb59296722126cb68b4e9060b1"
-msgstr ""
-"@@image: 'images/menus/file/new.png'; md5=91c33dbb59296722126cb68b4e9060b1"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/file/new.xml:87(None)
-msgid ""
-"@@image: 'images/menus/file/new/templates.png'; "
-"md5=13f6ba75446ccb2dc74dfb737e9c216e"
-msgstr ""
-"@@image: 'images/menus/file/new/templates.png'; "
-"md5=13f6ba75446ccb2dc74dfb737e9c216e"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/file/new.xml:168(None)
+#: src/menus/file/new.xml:65(None)
+#| msgid ""
+#| "@@image: 'images/menus/file/new/advanced-dialog.png'; "
+#| "md5=f86cb204f6966c3db4ca7e2b5b84323d"
 msgid ""
 "@@image: 'images/menus/file/new/advanced-dialog.png'; "
-"md5=f86cb204f6966c3db4ca7e2b5b84323d"
+"md5=feb164b2744f288b72b901f5283248a6"
 msgstr ""
 "@@image: 'images/menus/file/new/advanced-dialog.png'; "
-"md5=f86cb204f6966c3db4ca7e2b5b84323d"
+"md5=feb164b2744f288b72b901f5283248a6"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/file/new.xml:329(None)
+#: src/menus/file/new.xml:297(None)
+#| msgid ""
+#| "@@image: 'images/menus/file/new/precision.png'; "
+#| "md5=92fcbfaf8ba7e13d07b638a351aee645"
 msgid ""
 "@@image: 'images/menus/file/new/precision.png'; "
-"md5=92fcbfaf8ba7e13d07b638a351aee645"
+"md5=bc1cda74763f2a80b2969e9f4b35e3ff"
 msgstr ""
 "@@image: 'images/menus/file/new/precision.png'; "
-"md5=92fcbfaf8ba7e13d07b638a351aee645"
+"md5=bc1cda74763f2a80b2969e9f4b35e3ff"
 
 #: src/menus/file/new.xml:13(title)
 msgid "New…"
@@ -744,59 +913,61 @@ msgstr ""
 "flera bilder på skärmen samtidigt."
 
 #: src/menus/file/new.xml:38(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>New…</guimenuitem></menuchoice>,"
 msgid ""
-"You can access this command from the image menubar through "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>New…</guimenuitem></"
-"menuchoice>,"
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>New…</guimenuitem></menuchoice>."
 msgstr ""
-"Du kommer åt detta kommando från bildens menyrad via "
-"<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Ny…</guimenuitem></"
-"menuchoice>,"
+"Du hittar kommandot i huvudmenyn via "
+"<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Ny…</guimenuitem></menuchoice>."
 
 #: src/menus/file/new.xml:47(para)
+#| msgid ""
+#| "or by using the keyboard shortcut "
+#| "<keycombo><keycap>Ctrl</keycap><keycap>N</keycap></keycombo>."
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>N</"
-"keycap></keycombo>."
+"You can also use the keyboard shortcut "
+"<keycombo><keycap>Ctrl</keycap><keycap>N</keycap></keycombo>."
 msgstr ""
-"eller med tangentbordsgenvägen <keycombo><keycap>Ctrl</keycap><keycap>N</"
-"keycap></keycombo>."
+"Du kan också använda tangentbordsgenvägen "
+"<keycombo><keycap>Ctrl</keycap><keycap>N</keycap></keycombo>."
 
-#: src/menus/file/new.xml:56(title)
-msgid "Basic Options"
-msgstr "Grundläggande alternativ"
+#: src/menus/file/new.xml:59(title)
+#| msgid "Basic Options"
+msgid "Options"
+msgstr "Alternativ"
 
-#: src/menus/file/new.xml:58(title)
+#: src/menus/file/new.xml:61(title)
 msgid "The <quote>Create a New Image</quote> dialog"
 msgstr "Dialogrutan <quote>Skapa en ny bild</quote>"
 
-#: src/menus/file/new.xml:68(primary) src/menus/file/new.xml:80(term)
+#: src/menus/file/new.xml:71(primary) src/menus/file/new.xml:83(term)
 #: src/menus/file/create-template.xml:15(primary)
 msgid "Template"
 msgstr "Mall"
 
-#: src/menus/file/new.xml:69(secondary)
+#: src/menus/file/new.xml:72(secondary)
+#: src/menus/file/introduction.xml:7(primary)
 msgid "Menu"
 msgstr "Meny"
 
-#: src/menus/file/new.xml:73(secondary) src/menus/file/new.xml:77(primary)
+#: src/menus/file/new.xml:76(secondary) src/menus/file/new.xml:80(primary)
 msgid "Image size"
 msgstr "Bildstorlek"
 
-#: src/menus/file/new.xml:74(tertiary)
+#: src/menus/file/new.xml:77(tertiary)
 msgid "When creating"
 msgstr "När den skapas"
 
-#: src/menus/file/new.xml:83(title)
-msgid "The <quote>Template</quote> dialog"
-msgstr "Dialogrutan <quote>Mall</quote>"
-
-#: src/menus/file/new.xml:92(para)
+#: src/menus/file/new.xml:85(para)
 msgid ""
 "Rather than entering all the values by hand, you can select some predefined "
 "values for your image from a menu of templates, which represent image types "
 "that are somewhat commonly useful. The templates set values for the size, "
-"resolution, comments, etc. If there is a particular image shape that you use "
-"often and it does not appear on the list, you can create a new template, "
+"resolution, comments, etc. If there is a particular image shape that you use"
+" often and it does not appear on the list, you can create a new template, "
 "using the <link linkend=\"gimp-template-dialog\">Templates</link> dialog."
 msgstr ""
 "I stället för att ange alla värden för hand kan du välja fördefinierade "
@@ -806,27 +977,27 @@ msgstr ""
 "listan kan du skapa en ny mall i dialogrutan <link linkend=\"gimp-template-"
 "dialog\">Mallar</link>."
 
-#: src/menus/file/new.xml:104(term)
+#: src/menus/file/new.xml:97(term)
 msgid "Image Size"
 msgstr "Bildstorlek"
 
-#: src/menus/file/new.xml:106(para)
+#: src/menus/file/new.xml:99(para)
 msgid ""
 "Here you set the <guilabel>Width</guilabel> and <guilabel>Height</guilabel> "
 "of the new image. The default units are pixels, but you can choose a "
-"different unit if you prefer, using the adjoining menu. If you do, note that "
-"the resulting pixel size is determined by the X and Y resolution (which you "
-"can change in the <guilabel>Advanced Options</guilabel>), and by setting "
+"different unit if you prefer, using the adjoining menu. If you do, note that"
+" the resulting pixel size is determined by the X and Y resolution (which you"
+" can change in the <guilabel>Advanced Options</guilabel>), and by setting "
 "<quote>Dot for Dot</quote> in the <guimenu>View</guimenu> menu."
 msgstr ""
-"Här anger du den nya bildens <guilabel>Bredd</guilabel> och <guilabel>Höjd</"
-"guilabel>. Standardenheten är bildpunkter, men du kan välja en annan enhet i "
-"menyn intill. Observera då att den resulterande storleken i bildpunkter "
-"bestäms av X- och Y-upplösningen (som du kan ändra under "
+"Här anger du den nya bildens <guilabel>Bredd</guilabel> och "
+"<guilabel>Höjd</guilabel>. Standardenheten är bildpunkter, men du kan välja "
+"en annan enhet i menyn intill. Observera då att den resulterande storleken i"
+" bildpunkter bestäms av X- och Y-upplösningen (som du kan ändra under "
 "<guilabel>Avancerade alternativ</guilabel>) och av inställningen "
 "<quote>Punkt för punkt</quote> i menyn <guimenu>Visa</guimenu>."
 
-#: src/menus/file/new.xml:117(para)
+#: src/menus/file/new.xml:110(para)
 msgid ""
 "If no image is open, the <quote>New</quote> image is opened in the empty "
 "image window, with the default size you have determined. If you open the "
@@ -835,81 +1006,78 @@ msgid ""
 msgstr ""
 "Om ingen bild är öppen visas den <quote>Nya</quote> bilden i det tomma "
 "bildfönstret med den förvalda storlek du har angett. Om du öppnar en "
-"<quote>Ny</quote> bild när en annan bild är eller har varit öppen, visas den "
-"i ett annat fönster med samma storlek som den första bilden."
+"<quote>Ny</quote> bild när en annan bild är eller har varit öppen, visas den"
+" i ett annat fönster med samma storlek som den första bilden."
 
-#: src/menus/file/new.xml:125(para)
-msgid ""
-"Keep in mind that every pixel of an image is stored in memory. If you create "
-"large files with a high pixel density, <acronym>GIMP</acronym> will need a "
-"lot of time and memory for every function you apply to the image."
-msgstr ""
-"Tänk på att varje bildpunkt i en bild lagras i minnet. Om du skapar stora "
-"filer med hög bildpunktstäthet behöver <acronym>GIMP</acronym> mycket tid "
-"och minne för varje funktion du tillämpar på bilden."
-
-#: src/menus/file/new.xml:136(term)
+#: src/menus/file/new.xml:120(term)
 msgid "Portrait/Landscape buttons"
 msgstr "Knappar för stående/liggande format"
 
-#: src/menus/file/new.xml:139(primary)
+#: src/menus/file/new.xml:123(primary)
 msgid "Portrait/Landscape mode"
 msgstr "Stående/liggande format"
 
-#: src/menus/file/new.xml:141(para)
+#: src/menus/file/new.xml:125(para)
+#| msgid ""
+#| "There are two buttons which toggle between Portrait and Landscape mode. What"
+#| " they actually do is to exchange the values for Width and Height. (If the "
+#| "Width and Height are the same, these buttons are not activated.) If the X "
+#| "and Y resolutions are not the same (which you can set in Advanced Options), "
+#| "then these values are also exchanged. On the right of the dialog, image "
+#| "size, screen resolution and color space are displayed."
 msgid ""
-"There are two buttons which toggle between Portrait and Landscape mode. What "
-"they actually do is to exchange the values for Width and Height. (If the "
-"Width and Height are the same, these buttons are not activated.) If the X "
-"and Y resolutions are not the same (which you can set in Advanced Options), "
-"then these values are also exchanged. On the right of the dialog, image "
-"size, screen resolution and color space are displayed."
+"These buttons toggle between Portrait and Landscape mode. Their effect is to"
+" exchange the values for <guilabel>Width</guilabel> and "
+"<guilabel>Height</guilabel>. If the X and Y resolutions are different (in "
+"Advanced Options), then these values are also exchanged. On the right, image"
+" size, image resolution and color space are displayed."
 msgstr ""
-"Det finns två knappar som växlar mellan stående och liggande format. De "
-"byter i själva verket värdena för bredd och höjd. (Om bredden och höjden är "
-"samma aktiveras inte knapparna.) Om X- och Y-upplösningen skiljer sig åt, "
-"vilket du kan ange under Avancerade alternativ, byts även de värdena. Till "
-"höger i dialogrutan visas bildstorlek, skärmupplösning och färgrymd."
+"De här knapparna växlar mellan stående och liggande format. De byter värdena"
+" för <guilabel>Bredd</guilabel> och <guilabel>Höjd</guilabel>. Om X- och "
+"Y-upplösningarna skiljer sig åt (under Avancerade alternativ) byts även "
+"dessa värden. Till höger visas bildstorlek, bildupplösning och färgrymd."
 
-#: src/menus/file/new.xml:156(title)
+#: src/menus/file/new.xml:138(title)
 msgid "Advanced Options"
 msgstr "Avancerade alternativ"
 
-#: src/menus/file/new.xml:158(primary) src/menus/file/new.xml:267(term)
+#: src/menus/file/new.xml:140(primary) src/menus/file/new.xml:240(term)
 msgid "Precision"
 msgstr "Precision"
 
-#: src/menus/file/new.xml:161(primary)
+#: src/menus/file/new.xml:143(primary)
 msgid "8-bit, 16-bit, 32-bit"
 msgstr "8 bitar, 16 bitar, 32 bitar"
 
-#: src/menus/file/new.xml:164(title)
-msgid "New Image dialog (Advanced Options)"
-msgstr "Dialogrutan Ny bild (avancerade alternativ)"
-
-#: src/menus/file/new.xml:173(para)
+#: src/menus/file/new.xml:145(para)
+#| msgid ""
+#| "The <guilabel>Advanced Options</guilabel> are mostly of interest to more "
+#| "advanced <acronym>GIMP</acronym> users. You can display these options by "
+#| "clicking on the small triangle on the lower edge of the dialog window."
 msgid ""
 "The <guilabel>Advanced Options</guilabel> are mostly of interest to more "
 "advanced <acronym>GIMP</acronym> users. You can display these options by "
-"clicking on the small triangle on the lower edge of the dialog window."
+"clicking on the small triangle on the lower edge of the dialog window. Note "
+"that you will need to scroll down to see all the available options."
 msgstr ""
 "<guilabel>Avancerade alternativ</guilabel> är främst av intresse för mer "
-"erfarna <acronym>GIMP</acronym>-användare. Du kan visa alternativen genom "
-"att klicka på den lilla triangeln vid dialogfönstrets nedre kant."
+"erfarna <acronym>GIMP</acronym>-användare. Klicka på den lilla triangeln vid"
+" dialogfönstrets nedre kant för att visa alternativen. Du kan behöva rulla "
+"nedåt för att se alla tillgängliga alternativ."
 
-#: src/menus/file/new.xml:182(secondary) src/menus/file/new.xml:186(primary)
+#: src/menus/file/new.xml:155(secondary) src/menus/file/new.xml:159(primary)
 msgid "Resolution"
 msgstr "Upplösning"
 
-#: src/menus/file/new.xml:183(tertiary) src/menus/file/new.xml:187(secondary)
+#: src/menus/file/new.xml:156(tertiary) src/menus/file/new.xml:160(secondary)
 msgid "Setting when creating"
 msgstr "Inställning vid skapande"
 
-#: src/menus/file/new.xml:190(term)
+#: src/menus/file/new.xml:163(term)
 msgid "X and Y resolution"
 msgstr "X- och Y-upplösning"
 
-#: src/menus/file/new.xml:192(para)
+#: src/menus/file/new.xml:165(para)
 msgid ""
 "The values in the <guilabel>X resolution</guilabel> and <guilabel>Y "
 "resolution</guilabel> fields relate mainly to printing: they do not affect "
@@ -917,50 +1085,60 @@ msgid ""
 "when it is printed. The X and Y resolution values can determine how pixels "
 "are translated into other measurement units, such as millimeters or inches."
 msgstr ""
-"Värdena i fälten <guilabel>X-upplösning</guilabel> och <guilabel>Y-"
-"upplösning</guilabel> gäller främst utskrift: de påverkar inte bildens "
-"storlek i bildpunkter, men kan avgöra dess fysiska storlek vid utskrift. "
-"Värdena för X- och Y-upplösning kan avgöra hur bildpunkter omvandlas till "
-"andra måttenheter, till exempel millimeter eller tum."
+"Värdena i fälten <guilabel>X-upplösning</guilabel> och "
+"<guilabel>Y-upplösning</guilabel> gäller främst utskrift: de påverkar inte "
+"bildens storlek i bildpunkter, men kan avgöra dess fysiska storlek vid "
+"utskrift. Värdena för X- och Y-upplösning kan avgöra hur bildpunkter "
+"omvandlas till andra måttenheter, till exempel millimeter eller tum."
 
-#: src/menus/file/new.xml:202(para)
+#: src/menus/file/new.xml:175(para)
+#| msgid ""
+#| "If you want to display the image on the screen at the correct dimensions, "
+#| "select <menuchoice><guimenu>View</guimenu><guimenuitem>Dot for "
+#| "Dot</guimenuitem></menuchoice> Set the zoom factor to 100% to see the image "
+#| "at its true screen size. The calibration of the screen size is normally done"
+#| " when <acronym>GIMP</acronym> is installed, but if the image does not "
+#| "display at the correct size, you may have to adjust the screen parameters in"
+#| " <acronym>GIMP</acronym>. You can do this in the <link linkend=\"gimp-prefs-"
+#| "display\">Preferences</link> dialog."
 msgid ""
 "If you want to display the image on the screen at the correct dimensions, "
-"select <menuchoice><guimenu>View</guimenu><guimenuitem>Dot for Dot</"
-"guimenuitem></menuchoice> Set the zoom factor to 100% to see the image at "
-"its true screen size. The calibration of the screen size is normally done "
-"when <acronym>GIMP</acronym> is installed, but if the image does not display "
-"at the correct size, you may have to adjust the screen parameters in "
-"<acronym>GIMP</acronym>. You can do this in the <link linkend=\"gimp-prefs-"
+"select <menuchoice><guimenu>View</guimenu><guimenuitem>Dot for "
+"Dot</guimenuitem></menuchoice>. Set the zoom factor to 100% to see the image"
+" at its true screen size. The calibration of the screen size is normally "
+"done when <acronym>GIMP</acronym> is installed, but if the image does not "
+"display at the correct size, you may have to adjust the screen parameters in"
+" <acronym>GIMP</acronym>. You can do this in the <link linkend=\"gimp-prefs-"
 "display\">Preferences</link> dialog."
 msgstr ""
-"Om du vill visa bilden på skärmen i rätt mått väljer du "
-"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Punkt för punkt</"
-"guimenuitem></menuchoice>. Ställ in zoomfaktorn på 100 % för att se bilden i "
-"dess verkliga skärmstorlek. Skärmstorleken kalibreras normalt när "
-"<acronym>GIMP</acronym> installeras, men om bilden inte visas i rätt storlek "
-"kan du behöva justera skärmparametrarna i <acronym>GIMP</acronym>. Det gör "
-"du i dialogrutan <link linkend=\"gimp-prefs-display\">Inställningar</link>."
+"Om du vill visa bilden i rätt storlek på skärmen väljer du "
+"<menuchoice><guimenu>Visa</guimenu><guimenuitem>Punkt för "
+"punkt</guimenuitem></menuchoice>. Ställ in zoomfaktorn på 100 % för att se "
+"bilden i dess verkliga skärmstorlek. Skärmen kalibreras normalt när "
+"<acronym>GIMP</acronym> installeras. Om bilden ändå inte visas i rätt "
+"storlek kan du behöva justera skärmens parametrar i <acronym>GIMP</acronym>."
+" Det gör du i dialogrutan <link linkend=\"gimp-prefs-"
+"display\">Inställningar</link>."
 
-#: src/menus/file/new.xml:222(term)
+#: src/menus/file/new.xml:195(term)
 msgid "Color space"
 msgstr "Färgrymd"
 
-#: src/menus/file/new.xml:224(para)
+#: src/menus/file/new.xml:197(para)
 msgid ""
 "You can create the new image in different <link linkend=\"gimp-image-"
-"mode\">color modes</link>, as either an <link linkend=\"glossary-rgb\">RGB</"
-"link> image or a grayscale image."
+"mode\">color modes</link>, as either an <link linkend=\"glossary-"
+"rgb\">RGB</link> image or a grayscale image."
 msgstr ""
 "Du kan skapa den nya bilden i olika <link linkend=\"gimp-image-"
-"mode\">färglägen</link>, antingen som en <link linkend=\"glossary-rgb\">RGB</"
-"link>-bild eller en gråskalebild."
+"mode\">färglägen</link>, antingen som en <link linkend=\"glossary-"
+"rgb\">RGB</link>-bild eller en gråskalebild."
 
-#: src/menus/file/new.xml:231(term)
+#: src/menus/file/new.xml:204(term)
 msgid "RGB color"
 msgstr "RGB-färg"
 
-#: src/menus/file/new.xml:233(para)
+#: src/menus/file/new.xml:206(para)
 msgid ""
 "The image is created in the Red, Green, Blue color system, which is the one "
 "used by your monitor or your television screen."
@@ -968,105 +1146,108 @@ msgstr ""
 "Bilden skapas i färgsystemet rött, grönt, blått, som används av din "
 "bildskärm eller tv-skärm."
 
-#: src/menus/file/new.xml:241(term)
+#: src/menus/file/new.xml:214(term)
 msgid "Grayscale"
 msgstr "Gråskala"
 
-#: src/menus/file/new.xml:243(para)
+#: src/menus/file/new.xml:216(para)
 msgid ""
 "The image is created in black and white, with various shades of gray. Aside "
 "from your artistic interests, this type of image may be necessary for some "
 "plug-ins. Nevertheless, <acronym>GIMP</acronym> allows you to <link "
-"linkend=\"gimp-image-convert-grayscale\">change an RGB image into grayscale</"
-"link>, if you would like."
+"linkend=\"gimp-image-convert-grayscale\">change an RGB image into "
+"grayscale</link>, if you would like."
 msgstr ""
 "Bilden skapas i svartvitt med olika grå nyanser. Utöver dina konstnärliga "
 "intressen kan den här bildtypen vara nödvändig för vissa insticksmoduler. "
 "<acronym>GIMP</acronym> låter dig dock <link linkend=\"gimp-image-convert-"
 "grayscale\">ändra en RGB-bild till gråskala</link>, om du vill."
 
-#: src/menus/file/new.xml:254(para)
+#: src/menus/file/new.xml:227(para)
 msgid ""
 "You cannot create an indexed image directly with this menu, but of course "
 "you can always convert the image to indexed mode after it has been created. "
-"To do that, use the <menuchoice><guimenu>Image</guimenu><guisubmenu>Mode</"
-"guisubmenu><guimenuitem>Indexed</guimenuitem></menuchoice> command."
+"To do that, use the "
+"<menuchoice><guimenu>Image</guimenu><guisubmenu>Mode</guisubmenu><guimenuitem>Indexed</guimenuitem></menuchoice>"
+" command."
 msgstr ""
 "Du kan inte skapa en indexerad bild direkt med denna meny, men du kan "
 "naturligtvis alltid konvertera bilden till indexerat läge efter att den har "
-"skapats. Det gör du med kommandot <menuchoice><guimenu>Bild</"
-"guimenu><guisubmenu>Läge</guisubmenu><guimenuitem>Indexerad</guimenuitem></"
-"menuchoice>."
+"skapats. Det gör du med kommandot "
+"<menuchoice><guimenu>Bild</guimenu><guisubmenu>Läge</guisubmenu><guimenuitem>Indexerad</guimenuitem></menuchoice>."
 
-#: src/menus/file/new.xml:270(para)
+#: src/menus/file/new.xml:243(para)
 msgid ""
-"A huge step for GIMP: 16-32 bits per channel support is at last available. "
-"You are now able to work with a lot more color information and detail in "
-"your pictures. This support basically gives you the ability to create super-"
-"smooth color transitions on your picture. Next improvement will be to have "
-"RAW files edited with GIMP <emphasis>directly</emphasis> since there is "
-"enough color space to bring back all the details that are stored inside a "
-"RAW file – however this is not implemented yet."
+"This setting lets you define the encoding used to store pixel information. "
+"For more details, please see the <link linkend=\"gimp-image-choosing-"
+"precision-encoding\"> Image Encoding</link> section."
 msgstr ""
-"Ett stort steg för GIMP: stöd för 16–32 bitar per kanal är äntligen "
-"tillgängligt. Du kan nu arbeta med mycket mer färginformation och detalj i "
-"bilderna. Stödet gör det i princip möjligt att skapa mycket jämna "
-"färgövergångar i bilden. Nästa förbättring blir att kunna redigera RAW-filer "
-"<emphasis>direkt</emphasis> med GIMP, eftersom färgrymden räcker för att få "
-"tillbaka alla detaljer som lagras i en RAW-fil – men det är ännu inte "
-"implementerat."
+"Med den här inställningen anger du kodningen som används för att lagra "
+"bildpunktsinformation. Mer information finns i avsnittet <link "
+"linkend=\"gimp-image-choosing-precision-encoding\">Bildkodning</link>."
 
-#: src/menus/file/new.xml:285(para)
+#: src/menus/file/new.xml:253(para)
 msgid "8-bit integer"
 msgstr "8-bitars heltal"
 
-#: src/menus/file/new.xml:290(para)
+#: src/menus/file/new.xml:258(para)
 msgid "16-bit integer"
 msgstr "16-bitars heltal"
 
-#: src/menus/file/new.xml:295(para)
+#: src/menus/file/new.xml:263(para)
 msgid "32-bit integer"
 msgstr "32-bitars heltal"
 
-#: src/menus/file/new.xml:300(para)
+#: src/menus/file/new.xml:268(para)
 msgid "16-bit floating point"
 msgstr "16-bitars flyttal"
 
-#: src/menus/file/new.xml:305(para)
+#: src/menus/file/new.xml:273(para)
 msgid "32-bit floating point"
 msgstr "32-bitars flyttal"
 
-#: src/menus/file/new.xml:281(para)
+#: src/menus/file/new.xml:249(para)
 msgid "Five options are available: <placeholder-1/>"
 msgstr "Det finns fem alternativ: <placeholder-1/>"
 
-#: src/menus/file/new.xml:311(para)
+#: src/menus/file/new.xml:279(para)
+#| msgid ""
+#| "If you wonder what the difference is between integer and floating point (in "
+#| "the graphics area): If you have an image with 16-bit integer precision per "
+#| "channel, then you have 65.536 shades of different red, green and blue color "
+#| "tones – all of them equally stepped to each other (equal color distance). If"
+#| " you have it in floating point, then there are no equal-wide steps – so you "
+#| "can distribute the possible color values over selected ranges. For example: "
+#| "if you know that you have a very dark image with many shades of dark red "
+#| "color tones then you would benefit from floating point because you can "
+#| "decrease the importance of the brighter color tones and get most color "
+#| "detail out of only the darker reds."
 msgid ""
 "If you wonder what the difference is between integer and floating point (in "
 "the graphics area): If you have an image with 16-bit integer precision per "
-"channel, then you have 65.536 shades of different red, green and blue color "
-"tones – all of them equally stepped to each other (equal color distance). If "
-"you have it in floating point, then there are no equal-wide steps – so you "
+"channel, then you have 65,536 shades of different red, green and blue color "
+"tones – all of them equally stepped to each other (equal color distance). If"
+" you have it in floating point, then there are no equal-wide steps – so you "
 "can distribute the possible color values over selected ranges. For example: "
 "if you know that you have a very dark image with many shades of dark red "
 "color tones then you would benefit from floating point because you can "
 "decrease the importance of the brighter color tones and get most color "
 "detail out of only the darker reds."
 msgstr ""
-"Om du undrar vad skillnaden är mellan heltal och flyttal inom grafiken: om "
-"du har en bild med 16-bitars heltalsprecision per kanal har du 65 536 "
-"nyanser av rött, grönt och blått, alla med lika stora steg mellan sig (lika "
-"färgavstånd). Med flyttal finns inga lika stora steg, så du kan fördela de "
-"möjliga färgvärdena över valda intervall. Om du till exempel vet att du har "
-"en mycket mörk bild med många mörkröda nyanser har du nytta av flyttal, "
-"eftersom du kan minska betydelsen av ljusare färgtoner och få fram mesta "
-"möjliga färgdetalj i de mörkare röda tonerna."
+"Om du undrar vad skillnaden är mellan heltal och flyttal i grafiksammanhang:"
+" En bild med 16-bitars heltalsprecision per kanal har 65 536 nyanser av "
+"rött, grönt och blått, med lika stora steg mellan nyanserna (samma "
+"färgavstånd). Med flyttal är stegen inte lika stora, så du kan fördela de "
+"möjliga färgvärdena över valda intervall. Om du till exempel har en mycket "
+"mörk bild med många mörkröda nyanser kan flyttal vara användbart: du kan "
+"minska betydelsen av ljusare färgtoner och få fram fler färgdetaljer ur de "
+"mörkare röda tonerna."
 
-#: src/menus/file/new.xml:325(title)
+#: src/menus/file/new.xml:293(title)
 msgid "Precision example"
 msgstr "Exempel på precision"
 
-#: src/menus/file/new.xml:332(para)
+#: src/menus/file/new.xml:300(para)
 msgid ""
 "Left image is 8-bit, right is 32-bit. You can see that there are much more "
 "available colors between color transitions on the right image."
@@ -1074,11 +1255,11 @@ msgstr ""
 "Den vänstra bilden är 8-bitars och den högra är 32-bitars. I den högra "
 "bilden finns det betydligt fler tillgängliga färger mellan färgövergångarna."
 
-#: src/menus/file/new.xml:344(term)
+#: src/menus/file/new.xml:312(term)
 msgid "Gamma"
 msgstr "Gamma"
 
-#: src/menus/file/new.xml:346(para)
+#: src/menus/file/new.xml:314(para)
 msgid ""
 "Here you can choose the <link linkend=\"glossary-channel-encoding\">channel "
 "encoding</link> for your image. Choices are <guilabel>Non-linear</guilabel> "
@@ -1087,18 +1268,19 @@ msgid ""
 "light. For more information see <link linkend=\"gimp-image-choosing-"
 "precision-encoding\">which precision options should you choose</link>."
 msgstr ""
-"Här kan du välja <link linkend=\"glossary-channel-encoding\">kanalkodning</"
-"link> för bilden. Alternativen är <guilabel>Icke-linjär</guilabel> och "
-"<guilabel>Linjärt ljus</guilabel>. För 8-bitars heltalsprecision är "
-"standardvärdet Icke-linjär, och för 32-bitars flyttalsprecision är det "
-"Linjärt ljus. Mer information finns i <link linkend=\"gimp-image-choosing-"
-"precision-encoding\">vilka precisionsalternativ du bör välja</link>."
+"Här kan du välja <link linkend=\"glossary-channel-"
+"encoding\">kanalkodning</link> för bilden. Alternativen är <guilabel>Icke-"
+"linjär</guilabel> och <guilabel>Linjärt ljus</guilabel>. För 8-bitars "
+"heltalsprecision är standardvärdet Icke-linjär, och för 32-bitars "
+"flyttalsprecision är det Linjärt ljus. Mer information finns i <link "
+"linkend=\"gimp-image-choosing-precision-encoding\">vilka "
+"precisionsalternativ du bör välja</link>."
 
-#: src/menus/file/new.xml:361(term)
+#: src/menus/file/new.xml:329(term)
 msgid "Color profile"
 msgstr "Färgprofil"
 
-#: src/menus/file/new.xml:363(para)
+#: src/menus/file/new.xml:331(para)
 msgid ""
 "Here you can choose a color profile to be used for your image. The default "
 "is GIMP's standard color profile based on <guilabel>Color space</guilabel>, "
@@ -1113,56 +1295,139 @@ msgstr ""
 "använda en annan färgprofil kan du välja en ICC-färgprofilfil på datorn med "
 "<guilabel>Välj färgprofil från disk…</guilabel>."
 
-#: src/menus/file/new.xml:376(term)
+#: src/menus/file/new.xml:344(term)
+#| msgid "Color profile"
+msgid "Soft-proofing color profile"
+msgstr "Färgprofil för korrekturgranskning"
+
+#: src/menus/file/new.xml:346(para)
+#| msgid ""
+#| "Here you can choose a color profile to be used for your image. The default "
+#| "is GIMP's standard color profile based on <guilabel>Color space</guilabel>, "
+#| "<guilabel>Precision</guilabel>, and <guilabel>Gamma</guilabel>. If you "
+#| "prefer to use a different color profile you can select an ICC color profile "
+#| "file from a location on your computer by choosing <guilabel>Select color "
+#| "profile from disk…</guilabel>."
+msgid ""
+"You can attach a CMYK color profile to the image with this option. This "
+"profile will be used to create a soft-proofed display of the image when the "
+"<guilabel>Proof Colors</guilabel> option is enabled in the "
+"<guilabel>View</guilabel> menu. As with the <guilabel>Color "
+"Profile</guilabel>, if you prefer to use a different color profile you can "
+"select an ICC color profile file from a location on your computer by "
+"choosing <guilabel>Select color profile from disk…</guilabel>."
+msgstr ""
+"Med det här alternativet kan du koppla en CMYK-färgprofil till bilden. "
+"Profilen används för att skapa en korrekturgranskad vy av bilden när "
+"alternativet <guilabel>Korrekturgranska färger</guilabel> är aktiverat i "
+"menyn <guilabel>Visa</guilabel>. Precis som för "
+"<guilabel>Färgprofil</guilabel> kan du välja en annan ICC-färgprofilfil på "
+"datorn med <guilabel>Välj färgprofil från disk…</guilabel>."
+
+#: src/menus/file/new.xml:360(term)
+msgid "Soft-proofing rendering intent"
+msgstr "Återgivningsmetod för korrekturgranskning"
+
+#: src/menus/file/new.xml:362(para)
+msgid ""
+"This option lets you select the rendering intent that will be used to "
+"convert the colors from the soft-proofed image to your display device when "
+"<menuchoice><guimenu>View</guimenu><guisubmenu>Color "
+"Management</guisubmenu><guimenuitem>Proof Colors</guimenuitem></menuchoice> "
+"is enabled. The four intents are <quote>Perceptual</quote>, <quote>Relative "
+"colorimetric</quote>, <quote>Saturation</quote> and <quote>Absolute "
+"colorimetric</quote>. See <xref linkend=\"gimp-prefs-color-management\"/> "
+"and <xref linkend=\"gimp-image-color-management\"/> for more information."
+msgstr ""
+"Med det här alternativet väljer du vilken återgivningsmetod som används för "
+"att konvertera färgerna från den korrekturgranskade bilden till "
+"visningsenheten när "
+"<menuchoice><guimenu>Visa</guimenu><guisubmenu>Färghantering</guisubmenu><guimenuitem>Korrekturgranska"
+" färger</guimenuitem></menuchoice> är aktiverat. De fyra metoderna är "
+"<quote>Perceptuell</quote>, <quote>Relativ kolorimetri</quote>, "
+"<quote>Mättnad</quote> och <quote>Absolut kolorimetri</quote>. Mer "
+"information finns i <xref linkend=\"gimp-prefs-color-management\"/> och "
+"<xref linkend=\"gimp-image-color-management\"/>."
+
+#: src/menus/file/new.xml:381(term)
+msgid "Use Black Point Compensation"
+msgstr "Använd svartpunktskompensering"
+
+#: src/menus/file/new.xml:383(para)
+msgid ""
+"When enabled, the BPC algorithm attempts to adjust the display of darker "
+"areas in the image when the <guilabel>Proof Colors</guilabel> option is "
+"enabled in the <guilabel>View</guilabel> menu."
+msgstr ""
+"När det här alternativet är aktiverat försöker BPC-algoritmen justera "
+"återgivningen av bildens mörkare partier när <guilabel>Korrekturgranska "
+"färger</guilabel> är aktiverat i menyn <guilabel>Visa</guilabel>."
+
+#: src/menus/file/new.xml:392(term)
 msgid "Fill with"
 msgstr "Fyll med"
 
-#: src/menus/file/new.xml:378(para)
+#: src/menus/file/new.xml:394(para)
+#| msgid ""
+#| "Here, you specify the background color that is used for your new image. It "
+#| "is certainly possible to change the background of an image later, too. You "
+#| "can find more information about doing that in the <link linkend=\"gimp-"
+#| "layer-dialog\">Layer dialog</link>."
 msgid ""
 "Here, you specify the background color that is used for your new image. It "
 "is certainly possible to change the background of an image later, too. You "
-"can find more information about doing that in the <link linkend=\"gimp-layer-"
-"dialog\">Layer dialog</link>."
+"can find more information about doing that in the <link linkend=\"gimp-"
+"layer-dialog\">Layers Dialog</link>."
 msgstr ""
-"Här anger du den bakgrundsfärg som används för den nya bilden. Det går "
-"naturligtvis även att ändra en bilds bakgrund senare. Mer information finns "
-"i <link linkend=\"gimp-layer-dialog\">Lagerdialogrutan</link>."
+"Här anger du bakgrundsfärgen för den nya bilden. Du kan även ändra bildens "
+"bakgrund senare. Mer information finns i <link linkend=\"gimp-layer-"
+"dialog\">Lagerdialogrutan</link>."
 
-#: src/menus/file/new.xml:385(para)
+#: src/menus/file/new.xml:401(para)
 msgid "There are several choices:"
 msgstr "Det finns flera alternativ:"
 
-#: src/menus/file/new.xml:387(para)
+#: src/menus/file/new.xml:403(para)
 msgid ""
-"Fill the image with the current <guilabel>Foreground color</guilabel>, shown "
-"in the Toolbox."
+"Fill the image with the current <guilabel>Foreground color</guilabel>, shown"
+" in the Toolbox."
 msgstr ""
 "Fyll bilden med den aktuella <guilabel>Förgrundsfärgen</guilabel> som visas "
 "i verktygslådan."
 
-#: src/menus/file/new.xml:391(para)
+#: src/menus/file/new.xml:407(para)
 msgid ""
-"Note that you can change the foreground color while the <quote>New Image</"
-"quote> dialog window is open."
+"Note that you can change the foreground color while the <quote>New "
+"Image</quote> dialog window is open."
 msgstr ""
 "Observera att du kan ändra förgrundsfärgen medan dialogfönstret <quote>Ny "
 "bild</quote> är öppet."
 
-#: src/menus/file/new.xml:397(para)
+#: src/menus/file/new.xml:413(para)
 msgid ""
-"Fill the image with the current <guilabel>Background color</guilabel>, shown "
-"in the Toolbox. (You can change the background color too, while the dialog "
+"Fill the image with the current <guilabel>Background color</guilabel>, shown"
+" in the Toolbox. (You can change the background color too, while the dialog "
 "window is open.)"
 msgstr ""
 "Fyll bilden med den aktuella <guilabel>Bakgrundsfärgen</guilabel> som visas "
-"i verktygslådan. (Du kan också ändra bakgrundsfärgen medan dialogfönstret är "
-"öppet.)"
+"i verktygslådan. (Du kan också ändra bakgrundsfärgen medan dialogfönstret är"
+" öppet.)"
 
-#: src/menus/file/new.xml:404(para)
+#: src/menus/file/new.xml:420(para)
+msgid ""
+"Fill the image with <guilabel>Middle Gray (CIELAB)</guilabel>. This will "
+"create a layer with a gray color that is 50% of perceptual lightness in the "
+"selected <link linkend=\"gimp-image-mode\">color mode</link>."
+msgstr ""
+"Fyll bilden med <guilabel>Mellangrå (CIELAB)</guilabel>. Då skapas ett lager"
+" med en grå färg vars perceptuella ljushet är 50 % i det valda <link "
+"linkend=\"gimp-image-mode\">färgläget</link>."
+
+#: src/menus/file/new.xml:427(para)
 msgid "Fill the image with <guilabel>White</guilabel>."
 msgstr "Fyll bilden med <guilabel>Vitt</guilabel>."
 
-#: src/menus/file/new.xml:409(para)
+#: src/menus/file/new.xml:432(para)
 msgid ""
 "Fill the image with <guilabel>Transparency</guilabel>. If you choose this "
 "option, the image is created with an <link linkend=\"glossary-alpha-"
@@ -1173,25 +1438,25 @@ msgstr ""
 "Fyll bilden med <guilabel>Genomskinlighet</guilabel>. Om du väljer detta "
 "alternativ skapas bilden med en <link linkend=\"glossary-alpha-"
 "channel\">alfakanal</link> och bakgrunden blir genomskinlig. Bildens "
-"genomskinliga delar visas då med ett schackrutat mönster för att markera "
+"genomskinliga delar visas då med ett rutigt mönster för att markera "
 "genomskinligheten."
 
-#: src/menus/file/new.xml:419(para)
+#: src/menus/file/new.xml:442(para)
 msgid ""
 "Fill the image with a <guilabel>Pattern</guilabel>. If you choose this "
-"option, the image is filled with the currently active pattern (which you can "
-"change while this dialog is open)."
+"option, the image is filled with the currently active pattern (which you can"
+" change while this dialog is open)."
 msgstr ""
 "Fyll bilden med ett <guilabel>Mönster</guilabel>. Om du väljer detta "
 "alternativ fylls bilden med det för närvarande aktiva mönstret, som du kan "
 "ändra medan dialogrutan är öppen."
 
-#: src/menus/file/new.xml:429(term) src/menus/file/new.xml:433(secondary)
-#: src/menus/file/new.xml:436(primary)
+#: src/menus/file/new.xml:452(term) src/menus/file/new.xml:456(secondary)
+#: src/menus/file/new.xml:459(primary)
 msgid "Comment"
 msgstr "Kommentar"
 
-#: src/menus/file/new.xml:438(para)
+#: src/menus/file/new.xml:461(para)
 msgid ""
 "You can write a descriptive comment here. The text is attached to the image "
 "as a <link linkend=\"glossary-parasite\">parasite</link>, and is saved with "
@@ -1201,7 +1466,7 @@ msgstr ""
 "<link linkend=\"glossary-parasite\">parasit</link> och sparas med bilden av "
 "vissa filformat (PNG, JPEG, GIF)."
 
-#: src/menus/file/new.xml:445(para)
+#: src/menus/file/new.xml:468(para)
 msgid ""
 "You can view and edit this comment in the <link linkend=\"gimp-image-"
 "properties\">Image Properties</link> dialog."
@@ -1209,15 +1474,75 @@ msgstr ""
 "Du kan visa och redigera kommentaren i dialogrutan <link linkend=\"gimp-"
 "image-properties\">Bildegenskaper</link>."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#: src/menus/file/introduction.xml:5(title)
+#| msgid "Overwrite"
+msgid "Overview"
+msgstr "Översikt"
+
+#: src/menus/file/introduction.xml:8(secondary)
+msgid "File"
+msgstr "Arkiv"
+
+#: src/menus/file/introduction.xml:11(para)
+msgid ""
+"In this section, you will find help for commands in the "
+"<menuchoice><guimenu>File</guimenu></menuchoice> menu."
+msgstr ""
+"Här finns hjälp om kommandona i menyn "
+"<menuchoice><guimenu>Arkiv</guimenu></menuchoice>."
+
+#: src/menus/file/introduction.xml:18(title)
+#| msgid "The <quote>Create</quote> submenu"
+msgid "The Contents of the <quote>File</quote> Menu"
+msgstr "Innehållet i menyn <quote>Arkiv</quote>"
+
+#: src/menus/file/export.xml:8(title)
+msgid "Export… and Overwrite…"
+msgstr "Exportera… och skriv över…"
+
+#: src/menus/file/export.xml:11(primary)
+msgid "Export"
+msgstr "Exportera"
+
+#: src/menus/file/export.xml:14(primary)
+msgid "Overwrite"
+msgstr "Skriv över"
+
+#: src/menus/file/export.xml:17(para)
+msgid ""
+"When the opened image is a native XCF file this command is called "
+"<quote>Export</quote>. In that case, it does the same thing as "
+"<command>Export As…</command>."
+msgstr ""
+"När den öppna bilden är en ursprunglig XCF-fil kallas kommandot "
+"<quote>Exportera</quote>. Då gör det samma sak som <command>Exportera "
+"som…</command>."
+
+#: src/menus/file/export.xml:23(para)
+msgid ""
+"When the opened image was imported, this command is called <quote>Overwrite "
+"filename.extension</quote>. Using this command, you can export the imported "
+"image directly in its original file format, without going through the export"
+" dialog."
+msgstr ""
+"När den öppna bilden importerades kallas kommandot <quote>Skriv över "
+"filnamn.filändelse</quote>. Med detta kommando kan du exportera den "
+"importerade bilden direkt i dess ursprungliga filformat utan att gå via "
+"exportdialogrutan."
+
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/file/export-as.xml:26(None)
+#| msgid ""
+#| "@@image: 'images/using/export-image-dialog.png'; "
+#| "md5=66b13a524ccadfb6d5547e7e571ba563"
 msgid ""
-"@@image: 'images/using/export-image-dialog.png'; "
-"md5=66b13a524ccadfb6d5547e7e571ba563"
+"@@image: 'images/dialogs/export-image-dialog.png'; "
+"md5=cace03c797782eb4780233cbebb59497"
 msgstr ""
-"@@image: 'images/using/export-image-dialog.png'; "
-"md5=66b13a524ccadfb6d5547e7e571ba563"
+"@@image: 'images/dialogs/export-image-dialog.png'; "
+"md5=cace03c797782eb4780233cbebb59497"
 
 #: src/menus/file/export-as.xml:9(title)
 msgid "Export As…"
@@ -1245,138 +1570,48 @@ msgstr ""
 "olika filformat."
 
 #: src/menus/file/export-as.xml:41(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Export "
+#| "As…</guimenuitem></menuchoice>,"
 msgid ""
-"You can access this command from the image menubar through "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Export As…</guimenuitem></"
-"menuchoice>,"
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Export "
+"As…</guimenuitem></menuchoice>."
 msgstr ""
-"Du når kommandot från bildens menyrad via <menuchoice><guimenu>Arkiv</"
-"guimenu><guimenuitem>Exportera som…</guimenuitem></menuchoice>,"
+"Du hittar kommandot i huvudmenyn via "
+"<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Exportera "
+"som…</guimenuitem></menuchoice>."
 
 #: src/menus/file/export-as.xml:50(para)
+#| msgid ""
+#| "or by using the keyboard shortcut "
+#| "<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>E</keycap></keycombo>."
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Shift</"
-"keycap><keycap>Ctrl</keycap><keycap>E</keycap></keycombo>."
+"You can also use the keyboard shortcut "
+"<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>E</keycap></keycombo>."
 msgstr ""
-"eller med tangentbordsgenvägen <keycombo><keycap>Skift</keycap><keycap>Ctrl</"
-"keycap><keycap>E</keycap></keycombo>."
+"Du kan också använda tangentbordsgenvägen "
+"<keycombo><keycap>Skift</keycap><keycap>Ctrl</keycap><keycap>E</keycap></keycombo>."
 
-#: src/menus/file/export.xml:8(title)
-msgid "Export… and Overwrite…"
-msgstr "Exportera… och skriv över…"
-
-#: src/menus/file/export.xml:11(primary)
-msgid "Export"
-msgstr "Exportera"
-
-#: src/menus/file/export.xml:14(primary)
-msgid "Overwrite"
-msgstr "Skriv över"
-
-#: src/menus/file/export.xml:17(para)
-msgid ""
-"When the opened image is a native XCF file this command is called "
-"<quote>Export</quote>. In that case, it does the same thing as "
-"<command>Export As…</command>."
-msgstr ""
-"När den öppna bilden är en ursprunglig XCF-fil kallas kommandot "
-"<quote>Exportera</quote>. Då gör det samma sak som <command>Exportera som…</"
-"command>."
-
-#: src/menus/file/export.xml:23(para)
-msgid ""
-"When the opened image was imported, this command is called <quote>Overwrite "
-"filename.extension</quote>. Using this command, you can export the imported "
-"image directly in its original file format, without going through the export "
-"dialog."
-msgstr ""
-"När den öppna bilden importerades kallas kommandot <quote>Skriv över "
-"filnamn.filändelse</quote>. Med detta kommando kan du exportera den "
-"importerade bilden direkt i dess ursprungliga filformat utan att gå via "
-"exportdialogrutan."
-
-#. TO TRANLATORS: this file comes from the old save-as-template xml file
-#: src/menus/file/create-template.xml:9(title)
-msgid "Create Template…"
-msgstr "Skapa mall…"
-
-#: src/menus/file/create-template.xml:12(primary)
-#: src/menus/file/create-template.xml:16(secondary)
-msgid "Create Template"
-msgstr "Skapa mall"
-
-#: src/menus/file/create-template.xml:21(para)
-msgid ""
-"The <guimenuitem>Create Template…</guimenuitem> command opens the "
-"<quote>Create New Template</quote> dialog that allows you to create a "
-"template with the same dimensions and color space as the current image. A "
-"dialog pops up, which asks you to name the new template. Then the template "
-"is saved and becomes available in the <link linkend=\"gimp-file-new\">New "
-"Image</link> dialog. If you give a name that already exists, <acronym>GIMP</"
-"acronym> generates a unique name by appending a number to it. You can use "
-"the <link linkend=\"gimp-template-dialog\">Templates</link> dialog to modify "
-"or delete templates."
-msgstr ""
-"Kommandot <guimenuitem>Skapa mall…</guimenuitem> öppnar dialogrutan "
-"<quote>Skapa ny mall</quote>, där du kan skapa en mall med samma mått och "
-"färgrymd som den aktuella bilden. En dialogruta ber dig namnge den nya "
-"mallen. Mallen sparas sedan och blir tillgänglig i dialogrutan <link "
-"linkend=\"gimp-file-new\">Ny bild</link>. Om namnet redan finns skapar "
-"<acronym>GIMP</acronym> ett unikt namn genom att lägga till en siffra. Du "
-"kan använda dialogrutan <link linkend=\"gimp-template-dialog\">Mallar</link> "
-"för att ändra eller ta bort mallar."
-
-#: src/menus/file/create-template.xml:39(para)
-msgid ""
-"You can access this command from the image menubar through "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Create Template…</"
-"guimenuitem></menuchoice>. There is no default keyboard shortcut."
-msgstr ""
-"Du når kommandot från bildens menyrad via <menuchoice><guimenu>Arkiv</"
-"guimenu><guimenuitem>Skapa mall…</guimenuitem></menuchoice>. Det har ingen "
-"standardtangentbordsgenväg."
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/file/create.xml:25(None)
-msgid ""
-"@@image: 'images/menus/file/create.png'; md5=b89d2c4186b64dc1912278d349c11abe"
-msgstr ""
-"@@image: 'images/menus/file/create.png'; md5=b89d2c4186b64dc1912278d349c11abe"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/file/create.xml:35(None)
-msgid ""
-"@@image: 'images/menus/file/create_win.png'; "
-"md5=7e2d2412fa796e3d4235778381aa855f"
-msgstr ""
-"@@image: 'images/menus/file/create_win.png'; "
-"md5=7e2d2412fa796e3d4235778381aa855f"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/file/create.xml:95(None)
-msgid ""
-"@@image: 'images/menus/file/create/webpage.png'; "
-"md5=edd99ea00a48aa420c9b25915497bfb4"
-msgstr ""
-"@@image: 'images/menus/file/create/webpage.png'; "
-"md5=edd99ea00a48aa420c9b25915497bfb4"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/file/create.xml:117(None)
+#: src/menus/file/create.xml:79(None)
+#| msgid ""
+#| "@@image: 'images/menus/file/create/screenshot.png'; "
+#| "md5=ac289e5657c5aba2888f75c54632e524"
 msgid ""
 "@@image: 'images/menus/file/create/screenshot.png'; "
-"md5=ac289e5657c5aba2888f75c54632e524"
+"md5=9a9431cf3d11091174fd829aa15f4294"
 msgstr ""
 "@@image: 'images/menus/file/create/screenshot.png'; "
-"md5=ac289e5657c5aba2888f75c54632e524"
+"md5=9a9431cf3d11091174fd829aa15f4294"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. When image changes, this message will be marked fuzzy or untranslated for
+#. you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/file/create.xml:211(None)
+#: src/menus/file/create.xml:248(None)
 msgid ""
 "@@image: 'images/menus/file/create/scanner.png'; "
 "md5=c23ab96984c2a4ef6d78874d882bdec1"
@@ -1396,53 +1631,52 @@ msgstr "Hämta in en bild"
 msgid "Acquire"
 msgstr "Hämta in"
 
-#: src/menus/file/create.xml:22(title)
-msgid "The <quote>Create</quote> submenu"
-msgstr "Undermenyn <quote>Skapa</quote>"
-
-#: src/menus/file/create.xml:28(para)
-msgid "Under Linux"
-msgstr "Under Linux"
-
-#: src/menus/file/create.xml:38(para)
-msgid "Under Windows"
-msgstr "Under Windows"
-
-#: src/menus/file/create.xml:45(para)
+#: src/menus/file/create.xml:21(para)
+#| msgid ""
+#| "These commands vary somewhat, depending upon your system, since "
+#| "<acronym>GIMP</acronym> makes calls to system functions."
 msgid ""
-"These commands vary somewhat, depending upon your system, since "
-"<acronym>GIMP</acronym> makes calls to system functions."
+"The commands in this submenu vary somewhat, depending upon your system, "
+"since <acronym>GIMP</acronym> makes calls to system functions."
 msgstr ""
-"Kommandona varierar något beroende på systemet, eftersom <acronym>GIMP</"
-"acronym> anropar systemfunktioner."
+"Kommandona i den här undermenyn varierar något beroende på systemet, "
+"eftersom <acronym>GIMP</acronym> anropar systemfunktioner."
 
 #. id="gimp-file-create-activate"
-#: src/menus/file/create.xml:51(title)
+#: src/menus/file/create.xml:28(title)
 msgid "Activating the Submenu"
 msgstr "Aktivera undermenyn"
 
-#: src/menus/file/create.xml:54(para)
+#: src/menus/file/create.xml:29(para)
+#| msgid ""
+#| "You can access this submenu from the Image menu bar through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Create</guimenuitem></menuchoice>"
 msgid ""
-"You can access this submenu from the Image menu bar through "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Create</guimenuitem></"
-"menuchoice>"
+"You can access this submenu from the main menu through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Create</guimenuitem></menuchoice>."
 msgstr ""
-"Du når undermenyn från Bild-menyraden via <menuchoice><guimenu>Arkiv</"
-"guimenu><guimenuitem>Skapa</guimenuitem></menuchoice>"
+"Du hittar undermenyn i huvudmenyn via "
+"<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Skapa</guimenuitem></menuchoice>."
 
-#: src/menus/file/create.xml:66(title)
+#: src/menus/file/create.xml:39(title)
 msgid "From Clipboard"
 msgstr "Från urklipp"
 
-#: src/menus/file/create.xml:67(para)
+#: src/menus/file/create.xml:40(para)
 msgid ""
-"When you copy a selection, it goes into the clipboard. Then you can create a "
-"new image with it."
+"When you copy a selection, it goes into the clipboard. Use "
+"<menuchoice><guimenu>File</guimenu><guisubmenu>Create</guisubmenu><guimenuitem>From"
+" Clipboard</guimenuitem></menuchoice> or press "
+"<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>V</keycap></keycombo>"
+" to create a new image from the content in the clipboard."
 msgstr ""
-"När du kopierar en markering hamnar den i urklipp. Sedan kan du skapa en ny "
-"bild av den."
+"När du kopierar en markering läggs den i urklipp. Välj "
+"<menuchoice><guimenu>Arkiv</guimenu><guisubmenu>Skapa</guisubmenu><guimenuitem>Från"
+" urklipp</guimenuitem></menuchoice> eller tryck på "
+"<keycombo><keycap>Skift</keycap><keycap>Ctrl</keycap><keycap>V</keycap></keycombo>"
+" för att skapa en ny bild av innehållet i urklipp."
 
-#: src/menus/file/create.xml:71(para)
+#: src/menus/file/create.xml:51(para)
 msgid ""
 "This command has the same action as the <link linkend=\"gimp-edit-paste-as-"
 "new-image\">Paste as New Image</link> command."
@@ -1450,106 +1684,102 @@ msgstr ""
 "Kommandot har samma effekt som kommandot <link linkend=\"gimp-edit-paste-as-"
 "new-image\">Klistra in som ny bild</link>."
 
-#: src/menus/file/create.xml:76(para)
+#: src/menus/file/create.xml:56(para)
 msgid ""
 "The <keycap>Print Screen</keycap> keyboard key captures the screen and puts "
 "it in the clipboard. This command has the same action as <quote>taking a "
 "screenshot of the entire screen</quote> in the <link linkend=\"plug-in-"
-"screenshot\">Screenshot</link> dialog window. The <keycombo><keycap>Alt</"
-"keycap><keycap>Print Screen</keycap></keycombo> key combination grabs the "
-"active window in the screen with its decorations and puts it in the "
-"clipboard."
+"screenshot\">Screenshot</link> dialog window. The "
+"<keycombo><keycap>Alt</keycap><keycap>Print Screen</keycap></keycombo> key "
+"combination grabs the active window in the screen with its decorations and "
+"puts it in the clipboard."
 msgstr ""
 "Tangenten <keycap>Print Screen</keycap> fångar skärmen och lägger den i "
 "urklipp. Kommandot har samma effekt som <quote>ta en skärmbild av hela "
 "skärmen</quote> i dialogrutan <link linkend=\"plug-in-"
-"screenshot\">Skärmbild</link>. Tangentkombinationen <keycombo><keycap>Alt</"
-"keycap><keycap>Print Screen</keycap></keycombo> fångar det aktiva fönstret "
-"med dekorationer och lägger det i urklipp."
+"screenshot\">Skärmbild</link>. Tangentkombinationen "
+"<keycombo><keycap>Alt</keycap><keycap>Print Screen</keycap></keycombo> "
+"fångar det aktiva fönstret med dekorationer och lägger det i urklipp."
 
-#: src/menus/file/create.xml:88(title)
-msgid "From Web page"
-msgstr "Från webbsida"
-
-#: src/menus/file/create.xml:89(para)
-msgid ""
-"This command opens a dialog where you can enter the URL of a Web page and "
-"get the image in GIMP."
-msgstr ""
-"Detta kommando öppnar en dialogruta där du kan ange URL:en till en webbsida "
-"och hämta bilden i GIMP."
-
-#: src/menus/file/create.xml:98(para)
-msgid "The command defaults to gimp.org. Please have a try to it."
-msgstr "Kommandot har gimp.org som standard. Prova gärna."
-
-#: src/menus/file/create.xml:106(title) src/menus/file/create.xml:109(primary)
+#: src/menus/file/create.xml:68(title) src/menus/file/create.xml:71(primary)
 msgid "Screenshot"
 msgstr "Skärmbild"
 
-#: src/menus/file/create.xml:113(title)
-msgid "The <quote>Screenshot</quote> window"
-msgstr "Fönstret <quote>Skärmbild</quote>"
+#: src/menus/file/create.xml:75(title)
+#| msgid "The <quote>Screenshot</quote> window"
+msgid "The <quote>Screenshot</quote> dialog"
+msgstr "Dialogrutan <quote>Skärmbild</quote>"
 
-#: src/menus/file/create.xml:122(para)
+#: src/menus/file/create.xml:82(para)
 msgid ""
-"The <guimenuitem>Screenshot</guimenuitem> command opens a dialog with two "
-"parts:"
+"The Windows version of the Screenshot Dialog, without the "
+"<guilabel>Selection delay</guilabel> setting."
 msgstr ""
-"Kommandot <guimenuitem>Skärmbild</guimenuitem> öppnar en dialogruta med två "
-"delar:"
+"Windows-versionen av dialogrutan Skärmbild, utan inställningen "
+"<guilabel>Fördröjning av markering</guilabel>."
 
-#: src/menus/file/create.xml:129(term)
-msgid "Area"
-msgstr "Område"
+#: src/menus/file/create.xml:91(para)
+msgid ""
+"The Screenshot dialog may look different depending on your operating system."
+" For example, on a Linux system which implements the <link "
+"linkend=\"glossary-xdg\">XDG portal</link> specification, the screenshot "
+"dialog provided by your operating system may get opened instead of "
+"<acronym>GIMP</acronym>'s built-in dialog described in this section."
+msgstr ""
+"Dialogrutan Skärmbild kan se olika ut beroende på operativsystem. I ett "
+"Linux-system som följer specifikationen för <link linkend=\"glossary-"
+"xdg\">XDG-portalen</link> kan operativsystemets egen dialogruta för "
+"skärmbilder öppnas i stället för den inbyggda dialogrutan i "
+"<acronym>GIMP</acronym> som beskrivs här."
 
-#: src/menus/file/create.xml:133(term)
+#: src/menus/file/create.xml:101(para)
+#| msgid ""
+#| "The <guimenuitem>Screenshot</guimenuitem> command opens a dialog with two "
+#| "parts:"
+msgid ""
+"The <guimenuitem>Screenshot…</guimenuitem> command opens a dialog with the "
+"following options:"
+msgstr ""
+"Kommandot <guimenuitem>Skärmbild…</guimenuitem> öppnar en dialogruta med "
+"följande alternativ:"
+
+#: src/menus/file/create.xml:108(term)
+msgid "Shoot area"
+msgstr "Välj område"
+
+#: src/menus/file/create.xml:112(term)
 msgid "Take a screenshot of a single window"
 msgstr "Ta en skärmbild av ett fönster"
 
-#: src/menus/file/create.xml:135(para)
+#: src/menus/file/create.xml:114(para)
 msgid ""
 "The mouse pointer becomes a cross. Click in the image window you want to "
-"capture. A new image is created. If the <guilabel>Include window decoration</"
-"guilabel> option is unchecked, the title bar and the blue frame around the "
-"image will be removed."
+"capture. A new image is created."
 msgstr ""
-"Muspekaren blir ett hårkors. Klicka i det bildfönster som du vill fånga. En "
-"ny bild skapas. Om alternativet <guilabel>Inkludera fönsterdekoration</"
-"guilabel> inte är ikryssat tas titelraden och den blå ramen runt bilden bort."
+"Muspekaren blir ett hårkors. Klicka i bildfönstret som du vill fånga. En ny "
+"bild skapas."
 
-#: src/menus/file/create.xml:145(term)
+#: src/menus/file/create.xml:121(term)
 msgid "Take a screenshot of the entire screen"
 msgstr "Ta en skärmbild av hela skärmen"
 
-#: src/menus/file/create.xml:147(para)
+#: src/menus/file/create.xml:123(para)
 msgid ""
-"This is useful if you want to capture a pop menu. A delay is then necessary, "
-"so that you have time to pull the pop menu down."
+"This is useful if you want to capture a pop menu. A delay is then necessary,"
+" so that you have time to pull the pop menu down."
 msgstr ""
 "Detta är användbart om du vill fånga en snabbmeny. En fördröjning krävs då "
 "så att du hinner öppna snabbmenyn."
 
-#: src/menus/file/create.xml:152(para)
-msgid ""
-"If the <guilabel>Include mouse pointer</guilabel> option is checked, then "
-"the mouse pointer and its coming with icon are also captured. The mouse "
-"pointer is captured in a separate layer. So you can move it to another place "
-"in the image."
-msgstr ""
-"Om alternativet <guilabel>Inkludera muspekare</guilabel> är ikryssat fångas "
-"även muspekaren och dess ikon. Muspekaren fångas i ett separat lager, så att "
-"du kan flytta den till en annan plats i bilden."
-
-#: src/menus/file/create.xml:161(term)
+#: src/menus/file/create.xml:131(term)
 msgid "Select a region to grab"
 msgstr "Välj ett område att fånga"
 
-#: src/menus/file/create.xml:163(para)
+#: src/menus/file/create.xml:133(para)
 msgid ""
 "The mouse pointer becomes a cross. Click and drag to create a rectangular "
-"selection in the image window. This selection will be opened as a new image. "
-"Its size is adapted to the selection size. Note: this setting is not "
+"selection in the image window. This selection will be opened as a new image."
+" Its size is adapted to the selection size. Note: this setting is not "
 "available on Windows."
 msgstr ""
 "Muspekaren blir ett hårkors. Klicka och dra för att skapa en rektangulär "
@@ -1557,11 +1787,60 @@ msgstr ""
 "anpassas till markeringens storlek. Observera: denna inställning är inte "
 "tillgänglig i Windows."
 
+#: src/menus/file/create.xml:147(term)
+msgid "Contents"
+msgstr "Innehåll"
+
+#: src/menus/file/create.xml:151(term)
+msgid "Include window decoration"
+msgstr "Inkludera fönsterdekoration"
+
+#: src/menus/file/create.xml:153(para)
+#| msgid ""
+#| "The mouse pointer becomes a cross. Click in the image window you want to "
+#| "capture. A new image is created. If the <guilabel>Include window "
+#| "decoration</guilabel> option is unchecked, the title bar and the blue frame "
+#| "around the image will be removed."
+msgid ""
+"If the <guilabel>Include window decoration</guilabel> option is unchecked, "
+"the title bar and the frame around the image will be removed."
+msgstr ""
+"Om alternativet <guilabel>Inkludera fönsterdekoration</guilabel> inte är "
+"markerat tas namnlisten och ramen runt bilden bort."
+
+#: src/menus/file/create.xml:162(term)
+msgid "Include mouse pointer"
+msgstr "Inkludera muspekare"
+
+#: src/menus/file/create.xml:164(para)
+msgid ""
+"If the <guilabel>Include mouse pointer</guilabel> option is checked, then "
+"the mouse pointer and its coming with icon are also captured. The mouse "
+"pointer is captured in a separate layer. So you can move it to another place"
+" in the image."
+msgstr ""
+"Om alternativet <guilabel>Inkludera muspekare</guilabel> är ikryssat fångas "
+"även muspekaren och dess ikon. Muspekaren fångas i ett separat lager, så att"
+" du kan flytta den till en annan plats i bilden."
+
 #: src/menus/file/create.xml:177(term)
 msgid "Delay"
 msgstr "Fördröjning"
 
-#: src/menus/file/create.xml:179(para)
+#: src/menus/file/create.xml:181(term)
+msgid "Selection delay (not available on Windows)"
+msgstr "Fördröjning vid områdesval (inte tillgänglig i Windows)"
+
+#: src/menus/file/create.xml:183(para)
+msgid "The seconds to let pass until you select the shoot area."
+msgstr "Antal sekunder som ska gå innan du väljer området som ska fångas."
+
+#: src/menus/file/create.xml:189(term)
+#| msgid "Screenshot"
+msgid "Screenshot delay"
+msgstr "Fördröjning för skärmbild"
+
+#: src/menus/file/create.xml:191(para)
 msgid ""
 "When taking a screenshot of the entire screen, the screen is captured after "
 "this delay. In the other cases, the mouse pointer turns to a cross after "
@@ -1571,32 +1850,57 @@ msgstr ""
 "fördröjning. I de andra fallen blir muspekaren ett hårkors efter "
 "fördröjningen."
 
-#: src/menus/file/create.xml:191(title)
+#: src/menus/file/create.xml:203(term)
+#| msgid "Color profile"
+msgid "Color Profile"
+msgstr "Färgprofil"
+
+#: src/menus/file/create.xml:205(para)
+msgid ""
+"Select whether to <guilabel>Tag image with monitor profile</guilabel> or to "
+"<guilabel>Convert image with sRGB</guilabel> to <acronym>GIMP</acronym>'s "
+"built-in sRGB color space. See <xref linkend=\"gimp-image-color-"
+"management\"/> for more information."
+msgstr ""
+"Välj om du vill <guilabel>Tagga bilden med bildskärmsprofilen</guilabel> "
+"eller <guilabel>Konvertera bilden med sRGB</guilabel> till "
+"<acronym>GIMP</acronym>s inbyggda sRGB-färgrymd. Mer information finns i "
+"<xref linkend=\"gimp-image-color-management\"/>."
+
+#: src/menus/file/create.xml:214(para)
+msgid ""
+"Due to a <ulink "
+"url=\"https://gitlab.gnome.org/GNOME/gimp/-/issues/2457\">software "
+"bug</ulink>, <acronym>GIMP</acronym> may assign an incorrect color profile "
+"to screenshots."
+msgstr ""
+"På grund av ett <ulink "
+"url=\"https://gitlab.gnome.org/GNOME/gimp/-/issues/2457\">programfel</ulink>"
+" kan <acronym>GIMP</acronym> tilldela skärmbilder en felaktig färgprofil."
+
+#: src/menus/file/create.xml:228(title)
 msgid "Scanner/Camera"
 msgstr "Bildläsare/kamera"
 
 #. <anchor id="twain-acquire"/>
-#: src/menus/file/create.xml:193(para)
+#: src/menus/file/create.xml:230(para)
 msgid ""
 "This item is present in Windows operating system, using TWAIN. Image input "
 "devices appear in the dialog, if they are plugged-in. On Linux, you need to "
 "install third-party XSane plug-in which will be available in the "
-"<menuchoice><guimenu>File</guimenu><guisubmenu>Create</"
-"guisubmenu><guisubmenu>XSane</guisubmenu><guimenuitem>Device dialog…</"
-"guimenuitem></menuchoice> menu."
+"<menuchoice><guimenu>File</guimenu><guisubmenu>Create</guisubmenu><guisubmenu>XSane</guisubmenu><guimenuitem>Device"
+" dialog…</guimenuitem></menuchoice> menu."
 msgstr ""
-"Detta objekt finns i Windows och använder TWAIN. Bildinmatningsenheter visas "
-"i dialogrutan om de är anslutna. I Linux måste du installera insticksmodulen "
-"XSane från tredje part, som blir tillgänglig via menyn "
-"<menuchoice><guimenu>Arkiv</guimenu><guisubmenu>Skapa</"
-"guisubmenu><guisubmenu>XSane</guisubmenu><guimenuitem>Enhetsdialog…</"
-"guimenuitem></menuchoice>."
+"Detta objekt finns i Windows och använder TWAIN. Bildinmatningsenheter visas"
+" i dialogrutan om de är anslutna. I Linux måste du installera "
+"insticksmodulen XSane från tredje part, som blir tillgänglig via menyn "
+"<menuchoice><guimenu>Arkiv</guimenu><guisubmenu>Skapa</guisubmenu><guisubmenu>XSane</guisubmenu><guimenuitem>Enhetsdialog…</guimenuitem></menuchoice>."
 
-#: src/menus/file/create.xml:207(title)
+#: src/menus/file/create.xml:244(title)
 msgid "Scanner and Camera"
 msgstr "Bildinläsare och kamera"
 
-#: src/menus/file/create.xml:215(para)
+#: src/menus/file/create.xml:252(para)
 msgid ""
 "The kinds of devices used to take pictures are too varied to be described "
 "here. Fortunately, their use is fairly intuitive. In the example shown "
@@ -1605,8 +1909,53 @@ msgid ""
 msgstr ""
 "Det finns alltför många olika typer av enheter för att ta bilder för att de "
 "ska kunna beskrivas här. Lyckligtvis är de ganska intuitiva att använda. I "
-"det visade exemplet (under Windows 7) kan du starta en bildläsare eller läsa "
-"in en bild från ett kamerakort."
+"det visade exemplet (under Windows 7) kan du starta en bildläsare eller läsa"
+" in en bild från ett kamerakort."
+
+#. TO TRANSLATORS: this file comes from the old save-as-template xml file
+#: src/menus/file/create-template.xml:9(title)
+msgid "Create Template…"
+msgstr "Skapa mall…"
+
+#: src/menus/file/create-template.xml:12(primary)
+#: src/menus/file/create-template.xml:16(secondary)
+msgid "Create Template"
+msgstr "Skapa mall"
+
+#: src/menus/file/create-template.xml:21(para)
+msgid ""
+"The <guimenuitem>Create Template…</guimenuitem> command opens the "
+"<quote>Create New Template</quote> dialog that allows you to create a "
+"template with the same dimensions and color space as the current image. A "
+"dialog pops up, which asks you to name the new template. Then the template "
+"is saved and becomes available in the <link linkend=\"gimp-file-new\">New "
+"Image</link> dialog. If you give a name that already exists, "
+"<acronym>GIMP</acronym> generates a unique name by appending a number to it."
+" You can use the <link linkend=\"gimp-template-dialog\">Templates</link> "
+"dialog to modify or delete templates."
+msgstr ""
+"Kommandot <guimenuitem>Skapa mall…</guimenuitem> öppnar dialogrutan "
+"<quote>Skapa ny mall</quote>, där du kan skapa en mall med samma mått och "
+"färgrymd som den aktuella bilden. En dialogruta ber dig namnge den nya "
+"mallen. Mallen sparas sedan och blir tillgänglig i dialogrutan <link "
+"linkend=\"gimp-file-new\">Ny bild</link>. Om namnet redan finns skapar "
+"<acronym>GIMP</acronym> ett unikt namn genom att lägga till en siffra. Du "
+"kan använda dialogrutan <link linkend=\"gimp-template-dialog\">Mallar</link>"
+" för att ändra eller ta bort mallar."
+
+#: src/menus/file/create-template.xml:37(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Create "
+#| "Template…</guimenuitem></menuchoice>. There is no default keyboard shortcut."
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Create "
+"Template…</guimenuitem></menuchoice>. There is no default keyboard shortcut."
+msgstr ""
+"Du hittar kommandot i huvudmenyn via "
+"<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Skapa "
+"mall…</guimenuitem></menuchoice>. Det finns ingen standardgenväg."
 
 #: src/menus/file/copy-location.xml:6(title)
 #: src/menus/file/copy-location.xml:8(primary)
@@ -1614,62 +1963,46 @@ msgid "Copy Image Location"
 msgstr "Kopiera bildplats"
 
 #: src/menus/file/copy-location.xml:11(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>File</guimenu><guisubmenu>Copy Image "
+#| "Location</guisubmenu></menuchoice>."
 msgid ""
-"You can access this command from the image menubar through "
-"<menuchoice><guimenu>File</guimenu><guisubmenu>Copy Image Location</"
-"guisubmenu></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>File</guimenu><guisubmenu>Copy Image "
+"Location</guisubmenu></menuchoice>."
 msgstr ""
-"Du når kommandot från bildens menyrad via <menuchoice><guimenu>Arkiv</"
-"guimenu><guisubmenu>Kopiera bildplats</guisubmenu></menuchoice>."
+"Du hittar kommandot i huvudmenyn via "
+"<menuchoice><guimenu>Arkiv</guimenu><guisubmenu>Kopiera "
+"bildplats</guisubmenu></menuchoice>."
 
 #: src/menus/file/copy-location.xml:19(para)
 msgid ""
 "This command copies the image path to the clipboard. So, you can past it in "
 "a text."
 msgstr ""
-"Detta kommando kopierar bildens sökväg till urklipp. Du kan sedan klistra in "
-"den i en text."
-
-#: src/menus/file/close-all.xml:8(title)
-msgid "Close all"
-msgstr "Stäng alla"
-
-#: src/menus/file/close-all.xml:9(para)
-msgid "This command closes all images you have opened."
-msgstr "Detta kommando stänger alla bilder som du har öppnat."
-
-#: src/menus/file/close-all.xml:17(para)
-msgid ""
-"You can access this command from the image menubar through "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Close All</guimenuitem></"
-"menuchoice>,"
-msgstr ""
-"Du når kommandot från bildens menyrad via <menuchoice><guimenu>Arkiv</"
-"guimenu><guimenuitem>Stäng alla</guimenuitem></menuchoice>,"
-
-#: src/menus/file/close-all.xml:23(para)
-msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Shift</"
-"keycap><keycap>Ctrl</keycap><keycap>W</keycap></keycombo>."
-msgstr ""
-"eller med tangentbordsgenvägen <keycombo><keycap>Skift</keycap><keycap>Ctrl</"
-"keycap><keycap>W</keycap></keycombo>."
+"Detta kommando kopierar bildens sökväg till urklipp. Du kan sedan klistra in"
+" den i en text."
 
 #: src/menus/file/close.xml:9(title) src/menus/file/close.xml:17(primary)
-msgid "Close"
-msgstr "Stäng"
+#| msgid "Close image"
+msgid "Close View"
+msgstr "Stäng vy"
 
 #: src/menus/file/close.xml:14(secondary)
 msgid "Close image"
 msgstr "Stäng bild"
 
 #: src/menus/file/close.xml:20(para)
+#| msgid ""
+#| "The <guimenuitem>Close</guimenuitem> command closes the active image. It is "
+#| "disabled if no image is open."
 msgid ""
-"The <guimenuitem>Close</guimenuitem> command closes the active image. It is "
-"disabled if no image is open."
+"The <guimenuitem>Close View</guimenuitem> command closes the active image. "
+"It is disabled if no image is open."
 msgstr ""
-"Kommandot <guimenuitem>Stäng</guimenuitem> stänger den aktiva bilden. Det är "
-"inaktiverat om ingen bild är öppen."
+"Kommandot <guimenuitem>Stäng vy</guimenuitem> stänger den aktiva bilden. Det"
+" är inaktiverat om ingen bild är öppen."
 
 #: src/menus/file/close.xml:24(para)
 msgid ""
@@ -1686,55 +2019,218 @@ msgstr ""
 #: src/menus/file/close.xml:31(para)
 msgid ""
 "An image is only marked as clean when it is saved as an XCF file. Exporting "
-"to a different image format does not mark a changed image as clean, since it "
-"does not preserve all the information in the image."
+"to a different image format does not mark a changed image as clean, since it"
+" does not preserve all the information in the image."
 msgstr ""
 "En bild markeras som ren endast när den sparas som en XCF-fil. Export till "
 "ett annat bildformat markerar inte en ändrad bild som ren, eftersom all "
 "information i bilden inte bevaras."
 
 #: src/menus/file/close.xml:42(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Close</guimenuitem></menuchoice>,"
 msgid ""
-"You can access this command from the image menubar through "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Close</guimenuitem></"
-"menuchoice>,"
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Close "
+"View</guimenuitem></menuchoice>."
 msgstr ""
-"Du når kommandot från bildens menyrad via <menuchoice><guimenu>Arkiv</"
-"guimenu><guimenuitem>Stäng</guimenuitem></menuchoice>,"
+"Du hittar kommandot i huvudmenyn via "
+"<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Stäng "
+"vy</guimenuitem></menuchoice>."
 
 #: src/menus/file/close.xml:51(para)
+#| msgid ""
+#| "or by using the keyboard shortcut "
+#| "<keycombo><keycap>Ctrl</keycap><keycap>W</keycap></keycombo>."
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>W</"
-"keycap></keycombo>."
+"You can also use the keyboard shortcut "
+"<keycombo><keycap>Ctrl</keycap><keycap>W</keycap></keycombo>."
 msgstr ""
-"eller med tangentbordsgenvägen <keycombo><keycap>Ctrl</keycap><keycap>W</"
-"keycap></keycombo>."
+"Du kan också använda tangentbordsgenvägen "
+"<keycombo><keycap>Ctrl</keycap><keycap>W</keycap></keycombo>."
 
-#: src/menus/file/close.xml:57(para)
+#: src/menus/file/close.xml:60(para)
 msgid ""
-"For most systems on which <acronym>GIMP</acronym> runs, you can also execute "
-"it by clicking on a <quote>Close</quote> button somewhere on the image "
-"window titlebar. The location and appearance of this button are determined "
-"by the windowing system and the window manager. If no image is open, "
-"clicking on this button closes GIMP."
+"In single-window mode, you can also execute it by clicking the "
+"<quote>Close</quote> button on the image bar. In multi-window mode, you "
+"click the <quote>Close</quote> button on the image window."
 msgstr ""
-"På de flesta system där <acronym>GIMP</acronym> körs kan du också utföra "
-"detta genom att klicka på en knapp för <quote>Stäng</quote> någonstans i "
-"bildfönstrets titelrad. Fönstersystemet och fönsterhanteraren avgör knappens "
-"plats och utseende. Om ingen bild är öppen avslutar ett klick på knappen "
-"GIMP."
+"I en-fönsterläget kan du också stänga bilden genom att klicka på knappen "
+"<quote>Stäng</quote> i bildlisten. I flerfönsterläget klickar du på knappen "
+"<quote>Stäng</quote> i bildfönstret."
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/menus/file/close.xml:0(None)
-msgid "translator-credits"
-msgstr "Daniel Nylander <po@danielnylander.se>, 2009"
+#: src/menus/file/close.xml:66(para)
+msgid ""
+"If the image has unsaved changes you will be asked whether you want to close"
+" it, possibly losing changes, or go back to working in "
+"<acronym>GIMP</acronym> so you can save the image."
+msgstr ""
+"Om bilden innehåller osparade ändringar får du välja om du vill stänga den "
+"och eventuellt förlora ändringarna, eller återgå till "
+"<acronym>GIMP</acronym> och spara bilden."
+
+#: src/menus/file/close-all.xml:8(title)
+#| msgid "Close all"
+msgid "Close All"
+msgstr "Stäng alla"
+
+#: src/menus/file/close-all.xml:9(para)
+msgid "This command closes all images you have opened."
+msgstr "Detta kommando stänger alla bilder som du har öppnat."
+
+#: src/menus/file/close-all.xml:17(para)
+#| msgid ""
+#| "You can access this command from the image menubar through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Close "
+#| "All</guimenuitem></menuchoice>,"
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Close "
+"All</guimenuitem></menuchoice>."
+msgstr ""
+"Du hittar kommandot i huvudmenyn via "
+"<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Stäng "
+"alla</guimenuitem></menuchoice>."
+
+#: src/menus/file/close-all.xml:26(para)
+#| msgid ""
+#| "or by using the keyboard shortcut "
+#| "<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>W</keycap></keycombo>."
+msgid ""
+"You can also use the keyboard shortcut "
+"<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>W</keycap></keycombo>."
+msgstr ""
+"Du kan också använda tangentbordsgenvägen "
+"<keycombo><keycap>Skift</keycap><keycap>Ctrl</keycap><keycap>W</keycap></keycombo>."
+
+#~ msgid ""
+#~ "You can access this command from the Toolbox menubar or the image menubar "
+#~ "through <menuchoice><guimenu>File</guimenu><guimenuitem>Open "
+#~ "Location…</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Du når kommandot från verktygslådans menyrad eller bildens menyrad via "
+#~ "<menuchoice><guimenu>Arkiv</guimenu><guimenuitem>Öppna "
+#~ "plats…</guimenuitem></menuchoice>."
+
+#~ msgid ""
+#~ "@@image: 'images/menus/file/new.png'; md5=91c33dbb59296722126cb68b4e9060b1"
+#~ msgstr ""
+#~ "@@image: 'images/menus/file/new.png'; md5=91c33dbb59296722126cb68b4e9060b1"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/file/new/templates.png'; "
+#~ "md5=13f6ba75446ccb2dc74dfb737e9c216e"
+#~ msgstr ""
+#~ "@@image: 'images/menus/file/new/templates.png'; "
+#~ "md5=13f6ba75446ccb2dc74dfb737e9c216e"
+
+#~ msgid "The <quote>Template</quote> dialog"
+#~ msgstr "Dialogrutan <quote>Mall</quote>"
+
+#~ msgid ""
+#~ "Keep in mind that every pixel of an image is stored in memory. If you create"
+#~ " large files with a high pixel density, <acronym>GIMP</acronym> will need a "
+#~ "lot of time and memory for every function you apply to the image."
+#~ msgstr ""
+#~ "Tänk på att varje bildpunkt i en bild lagras i minnet. Om du skapar stora "
+#~ "filer med hög bildpunktstäthet behöver <acronym>GIMP</acronym> mycket tid "
+#~ "och minne för varje funktion du tillämpar på bilden."
+
+#~ msgid "New Image dialog (Advanced Options)"
+#~ msgstr "Dialogrutan Ny bild (avancerade alternativ)"
+
+#~ msgid ""
+#~ "A huge step for GIMP: 16-32 bits per channel support is at last available. "
+#~ "You are now able to work with a lot more color information and detail in "
+#~ "your pictures. This support basically gives you the ability to create super-"
+#~ "smooth color transitions on your picture. Next improvement will be to have "
+#~ "RAW files edited with GIMP <emphasis>directly</emphasis> since there is "
+#~ "enough color space to bring back all the details that are stored inside a "
+#~ "RAW file – however this is not implemented yet."
+#~ msgstr ""
+#~ "Ett stort steg för GIMP: stöd för 16–32 bitar per kanal är äntligen "
+#~ "tillgängligt. Du kan nu arbeta med mycket mer färginformation och detalj i "
+#~ "bilderna. Stödet gör det i princip möjligt att skapa mycket jämna "
+#~ "färgövergångar i bilden. Nästa förbättring blir att kunna redigera RAW-filer"
+#~ " <emphasis>direkt</emphasis> med GIMP, eftersom färgrymden räcker för att få"
+#~ " tillbaka alla detaljer som lagras i en RAW-fil – men det är ännu inte "
+#~ "implementerat."
+
+#~ msgid ""
+#~ "@@image: 'images/menus/file/create.png'; "
+#~ "md5=b89d2c4186b64dc1912278d349c11abe"
+#~ msgstr ""
+#~ "@@image: 'images/menus/file/create.png'; "
+#~ "md5=b89d2c4186b64dc1912278d349c11abe"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/file/create_win.png'; "
+#~ "md5=7e2d2412fa796e3d4235778381aa855f"
+#~ msgstr ""
+#~ "@@image: 'images/menus/file/create_win.png'; "
+#~ "md5=7e2d2412fa796e3d4235778381aa855f"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/file/create/webpage.png'; "
+#~ "md5=edd99ea00a48aa420c9b25915497bfb4"
+#~ msgstr ""
+#~ "@@image: 'images/menus/file/create/webpage.png'; "
+#~ "md5=edd99ea00a48aa420c9b25915497bfb4"
+
+#~ msgid "Under Linux"
+#~ msgstr "Under Linux"
+
+#~ msgid "Under Windows"
+#~ msgstr "Under Windows"
+
+#~ msgid ""
+#~ "When you copy a selection, it goes into the clipboard. Then you can create a"
+#~ " new image with it."
+#~ msgstr ""
+#~ "När du kopierar en markering hamnar den i urklipp. Sedan kan du skapa en ny "
+#~ "bild av den."
+
+#~ msgid "From Web page"
+#~ msgstr "Från webbsida"
+
+#~ msgid ""
+#~ "This command opens a dialog where you can enter the URL of a Web page and "
+#~ "get the image in GIMP."
+#~ msgstr ""
+#~ "Detta kommando öppnar en dialogruta där du kan ange URL:en till en webbsida "
+#~ "och hämta bilden i GIMP."
+
+#~ msgid "The command defaults to gimp.org. Please have a try to it."
+#~ msgstr "Kommandot har gimp.org som standard. Prova gärna."
+
+#~ msgid "Area"
+#~ msgstr "Område"
+
+#~ msgid "Close"
+#~ msgstr "Stäng"
+
+#~ msgid ""
+#~ "For most systems on which <acronym>GIMP</acronym> runs, you can also execute"
+#~ " it by clicking on a <quote>Close</quote> button somewhere on the image "
+#~ "window titlebar. The location and appearance of this button are determined "
+#~ "by the windowing system and the window manager. If no image is open, "
+#~ "clicking on this button closes GIMP."
+#~ msgstr ""
+#~ "På de flesta system där <acronym>GIMP</acronym> körs kan du också utföra "
+#~ "detta genom att klicka på en knapp för <quote>Stäng</quote> någonstans i "
+#~ "bildfönstrets titelrad. Fönstersystemet och fönsterhanteraren avgör knappens"
+#~ " plats och utseende. Om ingen bild är öppen avslutar ett klick på knappen "
+#~ "GIMP."
+
+#~ msgid "translator-credits"
+#~ msgstr "Daniel Nylander <po@danielnylander.se>, 2009"
 
 #~ msgid ""
 #~ "@@image: 'images/menus/file/open/folder-context-menu.png'; "
 #~ "md5=176c8f89fdbffbc3735b34b18e810c5c"
 #~ msgstr ""
-#~ "@@image: 'images/menus/folder-context-menu.png'; md5=THIS FILE DOESN'T "
-#~ "EXIST"
+#~ "@@image: 'images/menus/folder-context-menu.png'; md5=THIS FILE DOESN'T EXIST"
 
 #~ msgid "Activating the Dialog"
 #~ msgstr "Aktivera dialogrutan"
@@ -1760,18 +2256,15 @@ msgstr "Daniel Nylander <po@danielnylander.se>, 2009"
 #~ msgstr "Aktivera dialogrutan"
 
 #~ msgid ""
-#~ "@@image: 'images/menus/file/open-location.png'; md5=THIS FILE DOESN'T "
-#~ "EXIST"
+#~ "@@image: 'images/menus/file/open-location.png'; md5=THIS FILE DOESN'T EXIST"
 #~ msgstr ""
 #~ "@@image: 'images/dialogs/menus-file-open-location.png'; md5=THIS FILE "
 #~ "DOESN'T EXIST"
 
 #~ msgid ""
-#~ "@@image: 'images/dialogs/dialogs-new-image.png'; md5=THIS FILE DOESN'T "
-#~ "EXIST"
+#~ "@@image: 'images/dialogs/dialogs-new-image.png'; md5=THIS FILE DOESN'T EXIST"
 #~ msgstr ""
-#~ "@@image: 'images/dialogs/dialogs-new-image.png'; md5=THIS FILE DOESN'T "
-#~ "EXIST"
+#~ "@@image: 'images/dialogs/dialogs-new-image.png'; md5=THIS FILE DOESN'T EXIST"
 
 #~ msgid ""
 #~ "@@image: 'images/dialogs/dialogs-new-image-templates.png'; md5=THIS FILE "
@@ -1795,11 +2288,11 @@ msgstr "Daniel Nylander <po@danielnylander.se>, 2009"
 #~ "DOESN'T EXIST"
 
 #~ msgid ""
-#~ "@@image: 'images/dialogs/dialogs-new-image-fill.png'; md5=THIS FILE "
-#~ "DOESN'T EXIST"
+#~ "@@image: 'images/dialogs/dialogs-new-image-fill.png'; md5=THIS FILE DOESN'T "
+#~ "EXIST"
 #~ msgstr ""
-#~ "@@image: 'images/dialogs/dialogs-new-image-fill.png'; md5=THIS FILE "
-#~ "DOESN'T EXIST"
+#~ "@@image: 'images/dialogs/dialogs-new-image-fill.png'; md5=THIS FILE DOESN'T "
+#~ "EXIST"
 
 #~ msgid "New image"
 #~ msgstr "Ny bild"
@@ -1824,8 +2317,7 @@ msgstr "Daniel Nylander <po@danielnylander.se>, 2009"
 #~ "@@image: '../images/menus/file-image.png'; md5=THIS FILE DOESN'T EXIST"
 
 #~ msgid ""
-#~ "@@image: 'images/menus/file-create-submenu.png'; md5=THIS FILE DOESN'T "
-#~ "EXIST"
+#~ "@@image: 'images/menus/file-create-submenu.png'; md5=THIS FILE DOESN'T EXIST"
 #~ msgstr ""
 #~ "@@image: '../images/menus/file-create-submenu.png'; md5=THIS FILE DOESN'T "
 #~ "EXIST"
@@ -1886,20 +2378,15 @@ msgstr "Daniel Nylander <po@danielnylander.se>, 2009"
 #~ msgid "Toolbox"
 #~ msgstr "Verktygslåda"
 
-#~ msgid "File"
-#~ msgstr "Arkiv"
-
 #~ msgid "The File menu of the Toolbox"
 #~ msgstr "Arkiv-menyn för verktygslådan"
 
 #~ msgid ""
-#~ "There is a <guimenu>File</guimenu> menu on both the Toolbox window and "
-#~ "the image window. Only some of the menu items in these two menus are the "
-#~ "same."
+#~ "There is a <guimenu>File</guimenu> menu on both the Toolbox window and the "
+#~ "image window. Only some of the menu items in these two menus are the same."
 #~ msgstr ""
-#~ "Det finns en <guimenu>Arkiv</guimenu>-meny i både verktygslådsfönstret "
-#~ "och bildfönstret. Endast några av menyobjekten i dessa två menyer är "
-#~ "samma."
+#~ "Det finns en <guimenu>Arkiv</guimenu>-meny i både verktygslådsfönstret och "
+#~ "bildfönstret. Endast några av menyobjekten i dessa två menyer är samma."
 
 #~ msgid "2008-12-22"
 #~ msgstr "2008-12-22"

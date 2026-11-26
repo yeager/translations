@@ -233,6 +233,16 @@ GIMP har etablerade verktygs- och filtertermer; kontrollera sammanhanget och
 | multi-layer image | bild med flera lager | Föredras framför den svårlästa sammansättningen *flerlagersbild*. |
 | marching ants | markeringskontur | Beskrivande term för den animerade streckade kanten runt markeringen. |
 
+
+| Link Layer (GIMP) | länklager | GIMP-lager som kan uppdateras separat från källbilden. |
+| Open as Link Layer (GIMP) | Öppna som länklager | GIMP-kommandots svenska UI-etikett. |
+| Close View (GIMP) | Stäng vy | GIMP-kommandots UI-etikett. |
+| soft-proofing (GIMP) | korrekturgranskning | GIMP:s etablerade term för färgkorrekturvisning. |
+| rendering intent (GIMP color management) | återgivningsmetod | Färghanteringsinställning för hur färger återges. |
+| monitor profile (GIMP) | bildskärmsprofil | Profil för den bildskärm som visar bilden. |
+| Screenshot (GIMP) | skärmbild | GIMP-dialogen och dess funktion. |
+| Shoot area (GIMP screenshot dialog) | Välj område | Dialogens val för vilket område som ska fångas. |
+
 ## Föräldrakontroller och användarkonton
 
 | Engelska | Rekommenderad svenska | Anmärkning |
