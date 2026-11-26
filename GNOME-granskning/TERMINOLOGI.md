@@ -563,3 +563,14 @@ argumentet betyder i just det programmet.
 | Home folder | mappen Hem / hemmapp | UI-etiketten är `<file>Hem</file>`; använd *hemmapp* generiskt. |
 | Devices & Locations | Enheter och platser | UI-etikett. |
 | Trash | Papperskorg | UI-etikett för GNOME:s papperskorg. |
+
+
+## GNOME Applets — Teckenpalett
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| Character Palette | Teckenpalett / teckenpaletten | Produktnamnet skrivs med gemen efter egennamnet i löptext. |
+| Character Map | Teckenkarta | GNOME-programmets svenska namn. |
+| character palette | teckenpalett | En palett med valbara tecken. |
+| accented character | bokstav med diakritiskt tecken | Undvik den bredare och ibland felaktiga termen *accentuerat tecken*. |
+| middle-click | klicka med musens mittenknapp | För infogning av markerat tecken. |

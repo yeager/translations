@@ -1,0 +1,669 @@
+--- gnome-applets.master.charpick.sv.original.po
++++ gnome-applets.master.charpick.sv.reviewed.po
+@@ -3,9 +3,9 @@
+ msgstr ""
+ "Project-Id-Version: applets-charpick\n"
+ "POT-Creation-Date: 2026-11-10 14:26+0000\n"
+-"PO-Revision-Date: 2016-09-23 23:02+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"PO-Revision-Date: 2026-11-26 12:30+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
++"Language-Team: Swedish <gnome@danielnylander.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -22,7 +22,7 @@
+ #. (itstool) path: articleinfo/title
+ #: C/index.docbook:22
+ msgid "Character Palette Manual"
+-msgstr "Handbok för Teckenpalett"
++msgstr "Handbok för teckenpaletten"
+ 
+ #. (itstool) path: abstract/para
+ #: C/index.docbook:24
+@@ -31,9 +31,9 @@
+ "not on your keyboard, such as accented characters, mathematical symbols, "
+ "special symbols, and punctuation marks."
+ msgstr ""
+-"Teckenpalett tillhandahåller ett smidigt sätt att komma åt tecken som inte "
+-"finns på ditt tangentbord, såsom diakritiska tecken, matematiska symboler, "
+-"specialtecken och skiljetecken."
++"Teckenpaletten gör det enkelt att komma åt tecken som saknas på "
++"tangentbordet, till exempel bokstäver med diakritiska tecken, matematiska "
++"symboler, specialtecken och skiljetecken."
+ 
+ #. (itstool) path: articleinfo/copyright
+ #: C/index.docbook:28
+@@ -73,19 +73,20 @@
+ "<firstname>Sun</firstname> <surname>GNOME Documentation Team</surname> "
+ "<affiliation> <orgname>Sun Microsystems</orgname> </affiliation>"
+ msgstr ""
+-"<firstname>Sun</firstname> <surname>Dokumentationsgruppen för GNOME</"
+-"surname> <affiliation> <orgname>Sun Microsystems</orgname> </affiliation>"
++"<firstname>Sun</firstname> <surname>Dokumentationsgruppen för "
++"GNOME</surname> <affiliation> <orgname>Sun Microsystems</orgname> "
++"</affiliation>"
+ 
+ #. (itstool) path: authorgroup/author
+ #: C/index.docbook:62
+ msgid ""
+ "<firstname>Dan</firstname> <surname>Mueth</surname> <affiliation> "
+-"<orgname>GNOME Documentation Project</orgname> </affiliation> <email>d-"
+-"mueth@uchicago.edu</email>"
++"<orgname>GNOME Documentation Project</orgname> </affiliation> "
++"<email>d-mueth@uchicago.edu</email>"
+ msgstr ""
+ "<firstname>Dan</firstname> <surname>Mueth</surname> <affiliation> "
+-"<orgname>Dokumentationsprojekt för GNOME</orgname> </affiliation> <email>d-"
+-"mueth@uchicago.edu</email>"
++"<orgname>Dokumentationsprojekt för GNOME</orgname> </affiliation> "
++"<email>d-mueth@uchicago.edu</email>"
+ 
+ #. (itstool) path: authorgroup/author
+ #: C/index.docbook:70
+@@ -111,8 +112,8 @@
+ #: C/index.docbook:85
+ msgid ""
+ "<firstname>Davyd</firstname> <surname>Madeley</surname> <affiliation> "
+-"<orgname>GNOME Project</orgname> </affiliation> <email>davyd@madeley.id.au</"
+-"email>"
++"<orgname>GNOME Project</orgname> </affiliation> "
++"<email>davyd@madeley.id.au</email>"
+ msgstr ""
+ "<firstname>Davyd</firstname> <surname>Madeley</surname> <affiliation> "
+ "<orgname>GNOME-projektet</orgname> </affiliation> "
+@@ -140,7 +141,8 @@
+ #. (itstool) path: revhistory/revision
+ #: C/index.docbook:105
+ msgid ""
+-"<revnumber>Version 2.8</revnumber> <date>Unknown</date> <_:revdescription-1/>"
++"<revnumber>Version 2.8</revnumber> <date>Unknown</date> "
++"<_:revdescription-1/>"
+ msgstr ""
+ "<revnumber>Version 2.8</revnumber> <date>Okänt</date> <_:revdescription-1/>"
+ 
+@@ -189,8 +191,8 @@
+ #. (itstool) path: revhistory/revision
+ #: C/index.docbook:145
+ msgid ""
+-"<revnumber>Character Palette Applet Manual V2.1</revnumber> <date>July 2002</"
+-"date> <_:revdescription-1/>"
++"<revnumber>Character Palette Applet Manual V2.1</revnumber> <date>July "
++"2002</date> <_:revdescription-1/>"
+ msgstr ""
+ "<revnumber>Handbok för miniprogrammet Teckenpalett V2.1</revnumber> "
+ "<date>Juli 2002</date> <_:revdescription-1/>"
+@@ -237,7 +239,8 @@
+ msgstr ""
+ "För att rapportera ett fel eller komma med förslag angående programmet "
+ "Teckenpalett eller denna handbok, följ anvisningarna på <ulink "
+-"url=\"ghelp:gnome-feedback\" type=\"help\">GNOME:s återkopplingssida</ulink>."
++"url=\"ghelp:gnome-feedback\" type=\"help\">GNOME:s "
++"återkopplingssida</ulink>."
+ 
+ #. (itstool) path: article/indexterm
+ #: C/index.docbook:182
+@@ -272,12 +275,12 @@
+ #: C/index.docbook:192
+ msgid ""
+ "<imageobject><imagedata fileref=\"figures/charpalette_applet.png\" "
+-"format=\"PNG\"/> </imageobject> <textobject> <phrase>Character Palette</"
+-"phrase> </textobject>"
++"format=\"PNG\"/> </imageobject> <textobject> <phrase>Character "
++"Palette</phrase> </textobject>"
+ msgstr ""
+ "<imageobject><imagedata fileref=\"figures/charpalette_applet.png\" "
+-"format=\"PNG\"/> </imageobject> <textobject> <phrase>Teckenpalett</phrase> </"
+-"textobject>"
++"format=\"PNG\"/> </imageobject> <textobject> <phrase>Teckenpalett</phrase> "
++"</textobject>"
+ 
+ #. (itstool) path: sect1/para
+ #: C/index.docbook:199
+@@ -286,29 +289,29 @@
+ "to access characters that are not on your keyboard, such as accented "
+ "characters, mathematical symbols, special symbols, and punctuation marks. "
+ "You can insert characters from the applet into text strings, for example in "
+-"text documents or at the command line. You can customize the contents of the "
+-"applet to suit your requirements."
+-msgstr ""
+-"<application>Teckenpalett</application> tillhandahåller ett smidigt sätt att "
+-"komma åt tecken som inte finns på ditt tangentbord, såsom gamla tecken, "
+-"matematiska symboler, specialtecken och skiljetecken. Du kan infoga tecken "
+-"från miniprogrammet i textsträngar, till exempel i textdokument eller på "
+-"kommandoraden. Du kan anpassa innehållet i miniprogrammet för att passa dina "
+-"krav."
++"text documents or at the command line. You can customize the contents of the"
++" applet to suit your requirements."
++msgstr ""
++"<application>Teckenpaletten</application> gör det enkelt att komma åt tecken"
++" som saknas på tangentbordet, till exempel bokstäver med diakritiska tecken,"
++" matematiska symboler, specialtecken och skiljetecken. Du kan infoga tecken "
++"från miniprogrammet i text, till exempel i dokument eller på kommandoraden. "
++"Du kan anpassa miniprogrammets innehåll efter dina behov."
+ 
+ #. (itstool) path: sect1/para
+ #: C/index.docbook:206
+ msgid ""
+ "<application>Character Palette</application> supports the UTF-8 character "
+-"encoding so you can use the palette to display or copy any Unicode character."
+-msgstr ""
+-"<application>Teckenpalett</application> har stöd för UTF-8-teckenkodningen "
+-"så att du kan använda paletten för att visa eller kopiera Unicode-tecken."
++"encoding so you can use the palette to display or copy any Unicode "
++"character."
++msgstr ""
++"<application>Teckenpaletten</application> har stöd för teckenkodningen "
++"UTF-8, så att du kan visa eller kopiera alla Unicode-tecken med paletten."
+ 
+ #. (itstool) path: sect2/title
+ #: C/index.docbook:211
+ msgid "To Add Character Palette to a Panel"
+-msgstr "Lägga till Teckenpalett i en panel"
++msgstr "Lägg till teckenpaletten i en panel"
+ 
+ #. (itstool) path: sect2/para
+ #: C/index.docbook:212
+@@ -318,11 +321,11 @@
+ "<application>Character Palette</application> in the <application>Add to the "
+ "panel</application> dialog, then click <guibutton>OK</guibutton>."
+ msgstr ""
+-"För att lägga till <application>Teckenpalett</application> till en panel, "
+-"högerklicka på panelen, välj sedan <guimenuitem>Lägg till i panel</"
+-"guimenuitem>. Välj <application>Teckenpalett</application> i dialogrutan "
+-"<application>Lägg till i panelen</application>, klicka sedan <guibutton>OK</"
+-"guibutton>."
++"Lägg till <application>Teckenpaletten</application> i en panel genom att "
++"högerklicka på panelen och välja <guimenuitem>Lägg till i "
++"panel</guimenuitem>. Välj <application>Teckenpalett</application> i "
++"dialogrutan <application>Lägg till i panelen</application> och klicka sedan "
++"på <guibutton>OK</guibutton>."
+ 
+ #. (itstool) path: sect1/title
+ #: C/index.docbook:221
+@@ -332,17 +335,17 @@
+ #. (itstool) path: sect1/para
+ #: C/index.docbook:222
+ msgid ""
+-"When you add <application>Character Palette</application> to a panel for the "
+-"first time, the application displays a default palette of characters. You "
++"When you add <application>Character Palette</application> to a panel for the"
++" first time, the application displays a default palette of characters. You "
+ "can select a character from the default palette, or you can select a "
+-"character from predefined palettes of characters. Each predefined palette of "
+-"characters is associated with a standard character on your keyboard."
+-msgstr ""
+-"När du lägger till <application>Teckenpalett</application> till en panel för "
+-"första gången kommer programmet att visa en standardpalett av tecken. Du kan "
+-"välja ett tecken från standardpaletten, eller så kan du välja ett tecken "
+-"från de fördefinierade teckenpaletterna. Varje fördefinierad teckenpalett är "
+-"associerad med ett standardtecken på ditt tangentbord."
++"character from predefined palettes of characters. Each predefined palette of"
++" characters is associated with a standard character on your keyboard."
++msgstr ""
++"När du lägger till <application>Teckenpaletten</application> i en panel "
++"första gången visas en standardpalett med tecken. Du kan välja ett tecken "
++"från standardpaletten eller från någon av de fördefinierade "
++"teckenpaletterna. Varje fördefinierad palett är kopplad till en tangent på "
++"tangentbordet."
+ 
+ #. (itstool) path: sect2/title
+ #: C/index.docbook:225
+@@ -355,8 +358,7 @@
+ "To select a character from the palette and insert the character into a text "
+ "string, perform the following steps:"
+ msgstr ""
+-"För att välja ett tecken från paletten och infoga tecknet i en textsträng, "
+-"utför följande steg:"
++"Gör så här för att välja ett tecken i paletten och infoga det i en text:"
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:228
+@@ -364,8 +366,8 @@
+ "In the palette, click on the character that you require. The character "
+ "button is pressed in to indicate that the character is selected."
+ msgstr ""
+-"Klicka på tecknet som du önskar i paletten.  Teckenknappen trycks in för att "
+-"indikera att tecknet är valt."
++"Klicka på önskat tecken i paletten. Teckenknappen trycks ned för att visa "
++"att tecknet är markerat."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:232
+@@ -375,30 +377,29 @@
+ "into the application if the application allows you to paste from the "
+ "clipboard."
+ msgstr ""
+-"Peka på platsen i programmet där du vill infoga tecknet och tryck på musens "
+-"mittenknapp för att infoga tecknet. Du kan även klistra in tecknet i "
+-"programmet om programmet låter dig klistra in från urklipp."
++"Placera markören där du vill infoga tecknet i programmet och klicka med "
++"musens mittenknapp. Du kan också klistra in tecknet från urklipp om "
++"programmet stöder inklistring."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:237
+ msgid ""
+ "You can repeat the insertion using middle-click as many times as you want "
+ "until you either deselect the character or select text in another "
+-"application. You can continue pasting the character from the clipboard until "
+-"you either deselect the character or copy to the clipboard from another "
++"application. You can continue pasting the character from the clipboard until"
++" you either deselect the character or copy to the clipboard from another "
+ "application."
+ msgstr ""
+-"Du kan upprepa infogning med musens mittenknapp så många gånger som du vill "
+-"tills du antingen avmarkerar tecknet eller väljer text i ett annat program. "
+-"Du kan fortsätta klistra in tecknet från urklipp till du antingen avmarkerar "
+-"tecknet eller kopierar till urklipp från ett annat program."
++"Du kan infoga tecknet igen genom att klicka med mittenknappen så många "
++"gånger du vill, tills du avmarkerar tecknet eller markerar text i ett annat "
++"program. Du kan fortsätta klistra in tecknet från urklipp tills du "
++"avmarkerar tecknet eller kopierar något till urklipp från ett annat program."
+ 
+ #. (itstool) path: sect2/para
+ #: C/index.docbook:245
+ msgid "To deselect the character, click it again or click another character."
+ msgstr ""
+-"För att avmarkera tecknet, klicka på det igen eller klicka på ett annat "
+-"tecken."
++"Avmarkera tecknet genom att klicka på det igen eller på ett annat tecken."
+ 
+ #. (itstool) path: note/para
+ #: C/index.docbook:247
+@@ -413,13 +414,12 @@
+ #. (itstool) path: sect2/para
+ #: C/index.docbook:252
+ msgid ""
+-"You can change the characters that are displayed in the application from the "
+-"default palette to a predefined palette of characters. To display a palette "
+-"of predefined characters, perform the following steps:"
+-msgstr ""
+-"Du kan ändra tecknen som visas i programmet från standardpaletten till en "
+-"fördefinierad teckenpalett. För att visa en palett av fördefinierade tecken, "
+-"utför följande steg:"
++"You can change the characters that are displayed in the application from the"
++" default palette to a predefined palette of characters. To display a palette"
++" of predefined characters, perform the following steps:"
++msgstr ""
++"Du kan byta från standardpaletten till en fördefinierad teckenpalett. Gör så"
++" här för att visa en sådan palett:"
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:255
+@@ -427,8 +427,8 @@
+ "Click on the <guibutton>Available palettes</guibutton> button on the "
+ "application, the down arrow on the left."
+ msgstr ""
+-"Klicka på knappen <guibutton>Tillgängliga paletter</guibutton> i programmet, "
+-"nedåtpilen på vänster sida."
++"Klicka på knappen <guibutton>Tillgängliga paletter</guibutton> i programmet "
++"(nedåtpilen till vänster)."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:258
+@@ -438,35 +438,34 @@
+ #. (itstool) path: sect2/para
+ #: C/index.docbook:261
+ msgid ""
+-"You can select the character that you require from the palette of characters "
+-"that is displayed in the application, then insert the character into your "
++"You can select the character that you require from the palette of characters"
++" that is displayed in the application, then insert the character into your "
+ "text string."
+ msgstr ""
+-"Du kan välja tecknet som du önskar från teckenpaletten som visas i "
+-"programmet, infoga sedan tecknet i din textsträng."
++"Välj önskat tecken i paletten som visas i programmet och infoga det sedan i "
++"texten."
+ 
+ #. (itstool) path: sect2/title
+ #: C/index.docbook:265
+ msgid "Characters' Keys"
+-msgstr "Tecknens tangenter"
++msgstr "Tangenter för teckengrupper"
+ 
+ #. (itstool) path: sect2/para
+ #: C/index.docbook:266
+ msgid ""
+-"The following chart lists keyboard characters and their associated groups of "
+-"characters. The keyboard characters are listed in the first column of each "
++"The following chart lists keyboard characters and their associated groups of"
++" characters. The keyboard characters are listed in the first column of each "
+ "section in the chart. The character groups that are associated with each "
+ "keyboard character are shown in the other columns."
+ msgstr ""
+-"Följande lista visar tangentbordstecken och deras associerade teckengrupper. "
+-"Tangentbordstecknet listas i första kolumnen av varje sektion i listan. "
+-"Teckengrupper som är associerade med varje tangentbordstecken visas i de "
+-"andra kolumnerna."
++"Följande tabell visar tangentbordstecken och de teckengrupper som hör till "
++"dem. Tangentbordstecknen visas i den första kolumnen i varje tabellavsnitt, "
++"och motsvarande teckengrupper i de övriga kolumnerna."
+ 
+ #. (itstool) path: figure/title
+ #: C/index.docbook:268
+ msgid "Character Groups Associated With Keyboard Keys"
+-msgstr "Teckengrupper associerade med tangentbordets tangenter"
++msgstr "Teckengrupper som hör till tangentbordets tangenter"
+ 
+ #. (itstool) path: imageobject/imagedata
+ #. This is a reference to an external file such as an image or video. When
+@@ -490,18 +489,18 @@
+ "associated with various keyboard keys. </phrase> </textobject>"
+ msgstr ""
+ "<imageobject> <imagedata fileref=\"figures/charpick_characters.png\" "
+-"format=\"PNG\"/> </imageobject> <textobject> <phrase>Visar teckengrupper "
+-"associerade med diverse tangenter på tangentbordet. </phrase> </textobject>"
++"format=\"PNG\"/> </imageobject> <textobject> <phrase>Visar teckengrupper som"
++" hör till olika tangenter på tangentbordet. </phrase> </textobject>"
+ 
+ #. (itstool) path: sect1/title
+ #: C/index.docbook:286
+ msgid "Customizing Character Palette"
+-msgstr "Anpassa teckenpalett"
++msgstr "Anpassa teckenpaletten"
+ 
+ #. (itstool) path: figure/title
+ #: C/index.docbook:288
+ msgid "Character Palette Preferences"
+-msgstr "Inställningar för Teckenpalett"
++msgstr "Inställningar för teckenpaletten"
+ 
+ #. (itstool) path: imageobject/imagedata
+ #. This is a reference to an external file such as an image or video. When
+@@ -526,7 +525,7 @@
+ msgstr ""
+ "<imageobject><imagedata fileref=\"figures/charpick-preferences.png\" "
+ "format=\"PNG\"/> </imageobject> <textobject> <phrase>Inställningar för "
+-"Teckenpalett</phrase> </textobject>"
++"teckenpaletten</phrase> </textobject>"
+ 
+ #. (itstool) path: sect2/title
+ #: C/index.docbook:297
+@@ -543,12 +542,12 @@
+ "available from the applet. To close the <guilabel>Character Palette "
+ "Preferences</guilabel> dialog, click <guibutton>Close</guibutton>."
+ msgstr ""
+-"För att konfigurera <application>Teckenpalett</application>, högerklicka på "
+-"miniprogrammet, välj sedan <guimenuitem>Inställningar</guimenuitem>. "
+-"Dialogrutan <guilabel>Inställningar för Teckenpalett</guilabel> innehåller "
+-"listrutan <guilabel>Paletter</guilabel>, som listar tillgängliga paletter i "
+-"miniprogrammet. För att stänga dialogrutan <guilabel>Inställningar för "
+-"Teckenpalett</guilabel>, klicka på <guibutton>Stäng</guibutton>."
++"Konfigurera <application>Teckenpaletten</application> genom att högerklicka "
++"på miniprogrammet och välja <guimenuitem>Inställningar</guimenuitem>. "
++"Dialogrutan <guilabel>Inställningar för teckenpaletten</guilabel> innehåller"
++" listrutan <guilabel>Paletter</guilabel>, där de paletter som finns i "
++"miniprogrammet visas. Stäng dialogrutan <guilabel>Inställningar för "
++"teckenpaletten</guilabel> genom att klicka på <guibutton>Stäng</guibutton>."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:300
+@@ -556,9 +555,9 @@
+ "To add a new palette to the applet, click on the <guibutton>Add</guibutton> "
+ "button. See <xref linkend=\"charpick-default-new\"/> for more information."
+ msgstr ""
+-"För att lägga till en ny palett till miniprogrammet, klicka på knappen "
+-"<guibutton>Lägg till</guibutton>. Se <xref linkend=\"charpick-default-new\"/"
+-"> för mer information."
++"Lägg till en ny palett i miniprogrammet genom att klicka på <guibutton>Lägg "
++"till</guibutton>. Mer information finns i <xref linkend=\"charpick-default-"
++"new\"/>."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:301
+@@ -566,49 +565,49 @@
+ "To delete a palette from the applet, select the palette, then click on the "
+ "<guibutton>Delete</guibutton> button."
+ msgstr ""
+-"För att ta bort en palett från miniprogrammet, välj paletten, klicka sedan "
+-"på knappen <guibutton>Ta bort</guibutton>."
++"Ta bort en palett från miniprogrammet genom att markera den och klicka på "
++"<guibutton>Ta bort</guibutton>."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:302
+ msgid ""
+-"To modify a palette, select the palette, then click on the <guibutton>Edit</"
+-"guibutton> button. Modify the palette in the <guilabel>Edit Palette</"
+-"guilabel> dialog, then click <guibutton>OK</guibutton>."
+-msgstr ""
+-"För att ändra en palett, välj paletten, klicka sedan på knappen "
+-"<guibutton>Redigera</guibutton>. Ändra paletten i dialogrutan "
+-"<guilabel>Redigera palett</guilabel>, klicka sedan på <guibutton>OK</"
+-"guibutton>."
++"To modify a palette, select the palette, then click on the "
++"<guibutton>Edit</guibutton> button. Modify the palette in the <guilabel>Edit"
++" Palette</guilabel> dialog, then click <guibutton>OK</guibutton>."
++msgstr ""
++"Ändra en palett genom att markera den och klicka på "
++"<guibutton>Redigera</guibutton>. Gör ändringarna i dialogrutan "
++"<guilabel>Redigera palett</guilabel> och klicka sedan på "
++"<guibutton>OK</guibutton>."
+ 
+ #. (itstool) path: sect2/title
+ #: C/index.docbook:306
+ msgid "Setting Up a New Palette of Characters"
+-msgstr "Ställa in en ny teckenpalett"
++msgstr "Skapa en ny teckenpalett"
+ 
+ #. (itstool) path: sect2/para
+ #: C/index.docbook:307
+ msgid ""
+-"You can use a character selection application such as <application>Character "
+-"Map</application> to set up a new palette of characters. For example, to "
++"You can use a character selection application such as <application>Character"
++" Map</application> to set up a new palette of characters. For example, to "
+ "create a new palette with <application>Character Map</application>, perform "
+ "the following steps:"
+ msgstr ""
+-"Du kan använda ett teckenvalprogram såsom <application>Teckenkarta</"
+-"application> för att ställa in en ny teckenpalett. Till exempel, för att "
+-"skapa en ny palett med <application>Teckenkarta</application>, utför "
+-"följande steg:"
++"Du kan använda ett teckenvalsprogram, till exempel "
++"<application>Teckenkarta</application>, för att skapa en ny teckenpalett. "
++"Gör så här för att skapa en palett med "
++"<application>Teckenkarta</application>:"
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:310
+ msgid ""
+-"Right-click on the applet, then choose <guimenuitem>Preferences</"
+-"guimenuitem>. The <guilabel>Character Palette Preferences</guilabel> dialog "
+-"is displayed."
+-msgstr ""
+-"Högerklicka på miniprogrammet, välj sedan <guimenuitem>Inställningar</"
+-"guimenuitem>. Dialogrutan <guilabel>Inställningar för teckenpalett</"
+-"guilabel> kommer att visas."
++"Right-click on the applet, then choose "
++"<guimenuitem>Preferences</guimenuitem>. The <guilabel>Character Palette "
++"Preferences</guilabel> dialog is displayed."
++msgstr ""
++"Högerklicka på miniprogrammet och välj "
++"<guimenuitem>Inställningar</guimenuitem>. Dialogrutan "
++"<guilabel>Inställningar för teckenpaletten</guilabel> öppnas."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:313
+@@ -616,8 +615,8 @@
+ "Click on the <guibutton>Add</guibutton> button and the <guilabel>Add "
+ "Palette</guilabel> dialog is displayed."
+ msgstr ""
+-"Klicka på knappen <guibutton>Lägg till</guibutton> så kommer dialogrutan "
+-"<guilabel>Lägg till palett</guilabel> att visas."
++"Klicka på <guibutton>Lägg till</guibutton>. Dialogrutan <guilabel>Lägg till "
++"palett</guilabel> öppnas."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:316
+@@ -626,19 +625,20 @@
+ "that you want to display in the new palette. You can select up to 25 "
+ "characters."
+ msgstr ""
+-"Öppna <application>Teckenkarta</application>, välj sedan tecknen som du vill "
+-"visa i den nya paletten. Du kan välja upp till 25 tecken."
++"Öppna <application>Teckenkarta</application> och markera tecknen som du vill"
++" visa i den nya paletten. Du kan markera upp till 25 tecken."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:319
+ msgid ""
+ "Copy the contents of the <guilabel>Text to copy</guilabel> text box from "
+-"<application>Character Map</application> to the <guilabel>Palette</guilabel> "
+-"text box in the <guilabel>Add Palette</guilabel> window."
++"<application>Character Map</application> to the <guilabel>Palette</guilabel>"
++" text box in the <guilabel>Add Palette</guilabel> window."
+ msgstr ""
+ "Kopiera innehållet i textrutan <guilabel>Text att kopiera</guilabel> från "
+-"<application>Teckenkarta</application> till textrutan <guilabel>Palett</"
+-"guilabel> i fönstret <guilabel>Lägg till palett</guilabel>."
++"<application>Teckenkarta</application> till textrutan "
++"<guilabel>Palett</guilabel> i fönstret <guilabel>Lägg till "
++"palett</guilabel>."
+ 
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:322
+@@ -651,8 +651,8 @@
+ "<application>Character Palette</application> adds the new palette of "
+ "characters to the list of available palettes."
+ msgstr ""
+-"<application>Teckenpalett</application> lägger till den nya teckenpaletten "
+-"till listan av tillgängliga paletter."
++"<application>Teckenpaletten</application> lägger till den nya teckenpaletten"
++" i listan över tillgängliga paletter."
+ 
+ #. (itstool) path: para/ulink
+ #: C/legal.xml:9
+@@ -665,23 +665,23 @@
+ "Permission is granted to copy, distribute and/or modify this document under "
+ "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+ "later version published by the Free Software Foundation with no Invariant "
+-"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+-"of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
++"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy"
++" of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
+ "with this manual."
+ msgstr ""
+ "Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges "
+ "under villkoren i GNU Free Documentation License (GFDL), version 1.1 eller "
+ "senare, utgivet av Free Software Foundation utan standardavsnitt och "
+-"omslagstexter.  En kopia av GFDL finns att hämta på denna <_:ulink-1/> eller "
+-"i filen COPYING-DOCS som medföljer denna handbok."
++"omslagstexter.  En kopia av GFDL finns att hämta på denna <_:ulink-1/> eller"
++" i filen COPYING-DOCS som medföljer denna handbok."
+ 
+ #. (itstool) path: legalnotice/para
+ #: C/legal.xml:12
+ msgid ""
+ "This manual is part of a collection of GNOME manuals distributed under the "
+ "GFDL. If you want to distribute this manual separately from the collection, "
+-"you can do so by adding a copy of the license to the manual, as described in "
+-"section 6 of the license."
++"you can do so by adding a copy of the license to the manual, as described in"
++" section 6 of the license."
+ msgstr ""
+ "Denna handbok utgör en av flera GNOME-handböcker som distribueras under "
+ "villkoren i GFDL.  Om du vill distribuera denna handbok separat från övriga "
+@@ -722,42 +722,42 @@
+ "BEGRÄNSAT TILL, GARANTIER ATT DOKUMENTET ELLER EN MODIFIERAD VERSION AV "
+ "DOKUMENTET INTE INNEHÅLLER NÅGRA FELAKTIGHETER, ÄR LÄMPLIGT FÖR ETT VISST "
+ "ÄNDAMÅL ELLER INTE STRIDER MOT LAG. HELA RISKEN VAD GÄLLER KVALITET, "
+-"EXAKTHET OCH UTFÖRANDE AV DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET "
+-"LIGGER HELT OCH HÅLLET PÅ ANVÄNDAREN. OM ETT DOKUMENT ELLER EN MODIFIERAD "
++"EXAKTHET OCH UTFÖRANDE AV DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET"
++" LIGGER HELT OCH HÅLLET PÅ ANVÄNDAREN. OM ETT DOKUMENT ELLER EN MODIFIERAD "
+ "VERSION AV ETT DOKUMENT SKULLE VISA SIG INNEHÅLLA FELAKTIGHETER I NÅGOT "
+ "HÄNSEENDE ÄR DET DU (INTE DEN URSPRUNGLIGA SKRIBENTEN, FÖRFATTAREN ELLER "
+ "NÅGON ANNAN MEDARBETARE) SOM FÅR STÅ FÖR ALLA EVENTUELLA KOSTNADER FÖR "
+ "SERVICE, REPARATIONER ELLER KORRIGERINGAR. DENNA GARANTIFRISKRIVNING UTGÖR "
+ "EN VÄSENTLIG DEL AV DETTA LICENSAVTAL. DETTA INNEBÄR ATT ALL ANVÄNDNING AV "
+ "ETT DOKUMENT ELLER EN MODIFIERAD VERSION AV ETT DOKUMENT BEVILJAS ENDAST "
+-"UNDER DENNA ANSVARSFRISKRIVNING;"
++"UNDER DENNA ANSVARSFRISKRIVNING."
+ 
+ #. (itstool) path: listitem/para
+ #: C/legal.xml:55
+ msgid ""
+-"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+-"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
++"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING"
++" NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+ "CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+ "DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+ "FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+ "ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+-"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+-"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+-"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+-"POSSIBILITY OF SUCH DAMAGES."
++"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES"
++" OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
++"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
++" POSSIBILITY OF SUCH DAMAGES."
+ msgstr ""
+ "UNDER INGA OMSTÄNDIGHETER ELLER INOM RAMEN FÖR NÅGON LAGSTIFTNING, OAVSETT "
+ "OM DET GÄLLER KRÄNKNING (INKLUSIVE VÅRDSLÖSHET), KONTRAKT ELLER DYLIKT, SKA "
+ "FÖRFATTAREN, DEN URSPRUNGLIGA SKRIBENTEN ELLER ANNAN MEDARBETARE ELLER "
+ "ÅTERFÖRSÄLJARE AV DOKUMENTET ELLER AV EN MODIFIERAD VERSION AV DOKUMENTET "
+-"ELLER NÅGON LEVERANTÖR TILL NÅGON AV NÄMNDA PARTER STÄLLAS ANSVARIG GENTEMOT "
+-"NÅGON FÖR NÅGRA DIREKTA, INDIREKTA, SÄRSKILDA ELLER OFÖRUTSEDDA SKADOR ELLER "
+-"FÖLJDSKADOR AV NÅGOT SLAG, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, SKADOR "
++"ELLER NÅGON LEVERANTÖR TILL NÅGON AV NÄMNDA PARTER STÄLLAS ANSVARIG GENTEMOT"
++" NÅGON FÖR NÅGRA DIREKTA, INDIREKTA, SÄRSKILDA ELLER OFÖRUTSEDDA SKADOR "
++"ELLER FÖLJDSKADOR AV NÅGOT SLAG, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, SKADOR "
+ "BETRÄFFANDE FÖRLORAD GOODWILL, HINDER I ARBETET, DATORHAVERI ELLER NÅGRA "
+ "ANDRA TÄNKBARA SKADOR ELLER FÖRLUSTER SOM KAN UPPKOMMA PÅ GRUND AV ELLER "
+ "RELATERAT TILL ANVÄNDNINGEN AV DOKUMENTET ELLER MODIFIERADE VERSIONER AV "
+-"DOKUMENTET, ÄVEN OM PART SKA HA BLIVIT INFORMERAD OM MÖJLIGHETEN TILL SÅDANA "
+-"SKADOR."
++"DOKUMENTET, ÄVEN OM PART SKA HA BLIVIT INFORMERAD OM MÖJLIGHETEN TILL SÅDANA"
++" SKADOR."
+ 
+ #. (itstool) path: legalnotice/para
+ #: C/legal.xml:28
+@@ -771,20 +771,19 @@
+ "FÖRUTSÄTTNINGAR: <_:orderedlist-1/>"
+ 
+ #~ msgid ""
+-#~ "Permission is granted to copy, distribute and/or modify this document "
+-#~ "under the terms of the GNU Free Documentation License (GFDL), Version 1.1 "
+-#~ "or any later version published by the Free Software Foundation with no "
+-#~ "Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You "
+-#~ "can find a copy of the GFDL at this <ulink type=\"help\" "
+-#~ "url=\"help:fdl\">link</ulink> or in the file COPYING-DOCS distributed "
+-#~ "with this manual."
++#~ "Permission is granted to copy, distribute and/or modify this document under "
++#~ "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
++#~ "later version published by the Free Software Foundation with no Invariant "
++#~ "Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy"
++#~ " of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or "
++#~ "in the file COPYING-DOCS distributed with this manual."
+ #~ msgstr ""
+ #~ "Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges "
+-#~ "under villkoren i GNU Free Documentation License (GFDL), version 1.1 "
+-#~ "eller senare, utgivet av Free Software Foundation utan standardavsnitt "
+-#~ "och omslagstexter.  En kopia av GFDL finns att hämta på denna <ulink "
+-#~ "type=\"help\" url=\"help:fdl\">länk</ulink> eller i filen COPYING-DOCS "
+-#~ "som medföljer denna handbok."
++#~ "under villkoren i GNU Free Documentation License (GFDL), version 1.1 eller "
++#~ "senare, utgivet av Free Software Foundation utan standardavsnitt och "
++#~ "omslagstexter.  En kopia av GFDL finns att hämta på denna <ulink "
++#~ "type=\"help\" url=\"help:fdl\">länk</ulink> eller i filen COPYING-DOCS som "
++#~ "medföljer denna handbok."
+ 
+ #~ msgid "2005"
+ #~ msgstr "2005"
+@@ -901,8 +900,8 @@
+ #~ msgstr "Visar teckengrupper associerade med olika tangenter."
+ 
+ #~ msgid ""
+-#~ "Click on the <guibutton>Available palettes</guibutton> button on the "
+-#~ "applet, the down arrow on the left."
++#~ "Click on the <guibutton>Available palettes</guibutton> button on the applet,"
++#~ " the down arrow on the left."
+ #~ msgstr ""
+ #~ "Klicka på knappen <guibutton>Tillgängliga paletter</guibutton> i "
+ #~ "panelprogrammet, nedåtpilen på vänster sida."
