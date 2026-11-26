@@ -282,3 +282,8 @@ Referensalias i batchen 28411–28530: 18 av 18 verifierade mot live-målen utan
 ## Fortsatt radgranskning 2026-11-26 – position 34697–34816
 
 111 aktiva nycklar och 9 historiska poster granskades; 33 ändringar sparades och återlästes i Lokalise, 78 aktiva mål behölls. 12 rader hade tidigare rapporter. Alla åtta referensalias matchar; platshållare 111/111; inga pluralnycklar. `svlang skrivregler` utan fel. Tesla SentryMode `aware` är markerat som uppföljningsfall eftersom enumdokumentationen inte definierar den precisa etiketten. TMX validerar med 23508 enheter. Se batchrapporten och JSON-underlagen. Nästa position: **34 817**.
+
+
+## Fortsatt radgranskning 2026-11-26 – position 34817–34936
+
+119 aktiva nycklar och en historisk post granskades. 39 ändringar sparades och återlästes i Lokalise; 80 aktiva mål verifierades utan ändring, varav två hade tidigare rapporter. Alla platshållare stämmer; inga pluralnycklar. Miele-rättningar omfattar tydliga matnamns-/programfel, bland annat kålrabbi för German turnip, vitkål för green cabbage och hachee-köttgryta för Dutch hash. `svlang skrivregler` fann inga fel. TMX validerar med 23626 enheter. Se batchrapport och JSON-underlag. Nästa position: **34 937**.
