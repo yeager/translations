@@ -8,4 +8,4 @@
 - Validering: `msgfmt --check --statistics` godkänd (231 översatta meddelanden); `msgcmp` mot aktuell POT godkänd; `l10n-lint --language sv --gtk` utan fel eller varningar; platshållare, markup, acceleratorer och formatuttryck kontrollerade utan avvikelser.
 - Hunspell: kontrollerad med `tools/hunspell-sv/sv_SE`. Träffarna gäller tekniska/produktnamn och korrekta facktermer/sammansättningar: Epitrokoid, Krominans, Lissajous, HSL, LCHab, OpenRaster, Python-Fu, spirograf, ritsats, kugghjuls- och toningsverktygstermer, MyPaint-pensel samt filändelser/enheter (`.ora`, `.kpl`, `px`) och källkodens `hole=100`.
 - Last-Translator: Daniel Nylander <gnome@danielnylander.se>.
-- GNOME-inskick: inget.
+- GNOME-inskick: uppladdad till Damned Lies API 2026-11-26 med kommentaren `Granskad och klar`; aktivitetssidan verifierar 231/0/0.
