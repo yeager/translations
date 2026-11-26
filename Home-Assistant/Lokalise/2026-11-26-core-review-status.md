@@ -272,3 +272,8 @@ Referensalias i batchen 28411–28530: 18 av 18 verifierade mot live-målen utan
 ## Fortsatt radgranskning 2026-11-26 – position 34457–34576
 
 98 aktiva nycklar och 22 historiska poster granskades; 41 slutliga ändringar sparades och lästes tillbaka. 57 aktiva texter verifierades oförändrade, varav fem tidigare aktiva rader återgranskades; en redan rapporterad sträng förbättrades. Alla 16 aliasreferenser kontrollerades: 14 följer live-målen och två Overkiz-väljare fick motiverade kontextuella overrides. Platshållare 98/98; inga pluralnycklar. `svlang` fann inga skrivregelfel. Hunspell-sv uppdaterades med `förinfusion` och böjningar; tester 19/19. Ingen ny release denna dag. TMX validerar med 23 307 enheter (23 076 Lokalise-ID, 231 äldre). Se `2026-11-26-reviewed-core-34457-34576.md` och JSON-underlaget. Nästa position: **34 577**.
+
+
+## Fortsatt radgranskning 2026-11-26 – position 34577–34696
+
+95 aktiva nycklar och 25 historiska poster granskades. 35 ändringar sparades i Lokalise och lästes tillbaka; 60 aktiva mål behölls efter radgranskning. 31 tidigare rapporterade nycklar återkontrollerades. Alla 38 aliasreferenser matchar live-målen. Platshållare 95/95; inga pluralnycklar. `svlang skrivregler` gav inga träffar; Hunspell flaggade `ntfy` och `pushaviseringar`, manuellt godkända i kontext. TMX valideras efter att samtliga 95 aktiva nycklar synkats med spårbara Lokalise-ID:n. Se `2026-11-26-reviewed-core-34577-34696.md` och JSON-underlagen. Nästa position: **34 697**.

@@ -47346,11 +47346,9 @@ Please, fix this issue by updating your automations or scripts to use the new `n
     </tu>
     <tu tuid="lokalise:5656593684">
       <prop type="source">component::ntfy::exceptions::authentication_error::message</prop>
-      <prop type="lokalise-key-id">639583996</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback; Swedish UI and terminology review</prop>
-      <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-23</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Failed to authenticate with ntfy service. Please verify your credentials</seg>
       </tuv>
@@ -47360,39 +47358,33 @@ Please, fix this issue by updating your automations or scripts to use the new `n
     </tu>
     <tu tuid="lokalise:5670451122">
       <prop type="source">component::shelly::config::abort::firmware_not_fully_provisioned</prop>
-      <prop type="lokalise-key-id">640723908</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback; Swedish terminology and direct UI review</prop>
       <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-23</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Device not fully provisioned. Please contact Shelly support</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Enheten är inte helt konfigurerad. Kontakta Shellys support.</seg>
+        <seg>Enheten är inte färdigkonfigurerad. Kontakta Shellys support.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:5673663893">
       <prop type="source">component::zwave_js::config::abort::different_device</prop>
-      <prop type="lokalise-key-id">640880383</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback; Swedish terminology and direct UI review</prop>
       <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-23</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>The connected USB device is not the same as previously configured for this config entry. Please instead create a new config entry for the new device.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Den anslutna USB-enheten är inte densamma som tidigare konfigurerats för den här konfigurationsposten. Skapa i stället en ny konfigurationspost för den nya enheten.</seg>
+        <seg>Den anslutna USB-enheten är inte samma enhet som tidigare konfigurerades för den här konfigurationsposten. Skapa i stället en ny konfigurationspost för den nya enheten.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:5673664789">
       <prop type="source">component::zwave_js::config::step::instruct_unplug::description</prop>
-      <prop type="lokalise-key-id">640880397</prop>
-      <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback; Swedish terminology and direct UI review</prop>
       <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-23</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
       <tuv xml:lang="en">
         <seg>Backup saved to "{file_path}"
 
@@ -47401,11 +47393,11 @@ Your old adapter has not been reset. You should now unplug it to prevent it from
 Please make sure your new adapter is plugged in before continuing.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Säkerhetskopia sparad till "{file_path}"
+        <seg>Säkerhetskopian har sparats i "{file_path}".
 
-Din gamla styrenhet har inte återställts. Koppla ur den nu för att förhindra att den stör den nya styrenheten.
+Din gamla adapter har inte återställts. Koppla ur den nu så att den inte stör den nya adaptern.
 
-Se till att din nya styrenhet är ansluten innan du fortsätter.</seg>
+Se till att den nya adaptern är ansluten innan du fortsätter.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:5679441119">
@@ -327215,6 +327207,1098 @@ Välj ett av följande alternativ för att fortsätta:
       </tuv>
       <tuv xml:lang="sv">
         <seg>fas</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656591636">
+      <prop type="source">component::ntfy::common::add_topic_description</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Set up a topic for notifications.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ställ in ett ämne för aviseringar.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656591700">
+      <prop type="source">component::ntfy::common::topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Topic</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ämne</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656591764">
+      <prop type="source">component::ntfy::config::abort::already_configured</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Service is already configured</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Tjänsten är redan konfigurerad</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656591828">
+      <prop type="source">component::ntfy::config::error::cannot_connect</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Failed to connect</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det gick inte att ansluta</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656591892">
+      <prop type="source">component::ntfy::config::error::invalid_auth</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Invalid authentication</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ogiltig autentisering</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656591956">
+      <prop type="source">component::ntfy::config::error::unknown</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Unexpected error</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Oväntat fel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656592020">
+      <prop type="source">component::ntfy::config::step::user::data::url</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Service URL</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>URL för tjänsten</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656592084">
+      <prop type="source">component::ntfy::config::step::user::data_description::url</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Address of the ntfy service. Modify this if you want to use a different server</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Adressen till ntfy-tjänsten. Ändra den om du vill använda en annan server.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656592148">
+      <prop type="source">component::ntfy::config::step::user::description</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Set up **ntfy** push notification service</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Konfigurera tjänsten ntfy för pushaviseringar.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656592212">
+      <prop type="source">component::ntfy::config::step::user::sections::auth::data::password</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Password</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Lösenord</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656592276">
+      <prop type="source">component::ntfy::config::step::user::sections::auth::data::username</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Username</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Användarnamn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656592340">
+      <prop type="source">component::ntfy::config::step::user::sections::auth::data_description::password</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Enter the password corresponding to the provided username for authentication</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ange lösenordet som motsvarar det angivna användarnamnet för autentisering</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656592404">
+      <prop type="source">component::ntfy::config::step::user::sections::auth::data_description::username</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Enter the username required to authenticate with protected ntfy topics</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ange användarnamnet som krävs för att autentisera mot skyddade ntfy-ämnen.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656592468">
+      <prop type="source">component::ntfy::config::step::user::sections::auth::description</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Depending on whether the server is configured to support access control, some topics may be read/write protected so that only users with the correct credentials can subscribe or publish to them. To publish/subscribe to protected topics, you can provide a username and password. Home Assistant will automatically generate an access token to authenticate with ntfy.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Beroende på om servern har stöd för åtkomstkontroll kan vissa ämnen vara skrivskyddade eller lässkyddade, så att bara användare med rätt inloggningsuppgifter kan prenumerera på dem eller publicera till dem. Ange ett användarnamn och lösenord för att publicera till eller prenumerera på skyddade ämnen. Home Assistant skapar automatiskt en åtkomsttoken för autentisering mot ntfy.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656592532">
+      <prop type="source">component::ntfy::config::step::user::sections::auth::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Authentication</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Autentisering</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656592596">
+      <prop type="source">component::ntfy::config_subentries::topic::abort::already_configured</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Topic is already configured</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ämnet är redan konfigurerat</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656592724">
+      <prop type="source">component::ntfy::config_subentries::topic::entry_type</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Topic</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ämne</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656592788">
+      <prop type="source">component::ntfy::config_subentries::topic::error::cannot_connect</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Failed to connect</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det gick inte att ansluta</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656592852">
+      <prop type="source">component::ntfy::config_subentries::topic::error::publish_forbidden</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Publishing to this topic is forbidden</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det är inte tillåtet att publicera till det här ämnet</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656592916">
+      <prop type="source">component::ntfy::config_subentries::topic::error::unknown</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Unexpected error</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Oväntat fel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656592980">
+      <prop type="source">component::ntfy::config_subentries::topic::initiate_flow::user</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Add topic</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Lägg till ämne</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656593044">
+      <prop type="source">component::ntfy::config_subentries::topic::step::add_topic::data::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Display name</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Visningsnamn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656593108">
+      <prop type="source">component::ntfy::config_subentries::topic::step::add_topic::data::topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Topic</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ämne</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656593172">
+      <prop type="source">component::ntfy::config_subentries::topic::step::add_topic::data_description::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Set an alternative name to display instead of the topic name. This helps identify topics with complex or hard-to-read names more easily.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ange ett alternativt visningsnamn för ämnet. Det gör det lättare att identifiera ämnen med komplicerade eller svårlästa namn.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656593236">
+      <prop type="source">component::ntfy::config_subentries::topic::step::add_topic::data_description::topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Enter the name of the topic you want to use for notifications. Topics may not be password-protected, so choose a name that's not easy to guess.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ange namnet på ämnet som du vill använda för aviseringar. Ämnen är inte alltid lösenordsskyddade, så välj ett namn som är svårt att gissa.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656593300">
+      <prop type="source">component::ntfy::config_subentries::topic::step::add_topic::description</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Set up a topic for notifications.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ställ in ett topic för aviseringar.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656593364">
+      <prop type="source">component::ntfy::config_subentries::topic::step::add_topic::title</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Topic</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Topic</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656593428">
+      <prop type="source">component::ntfy::config_subentries::topic::step::user::description</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Set up a topic for notifications.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ställ in ett topic för aviseringar.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656593492">
+      <prop type="source">component::ntfy::config_subentries::topic::step::user::menu_options::add_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Enter topic</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ange ämne</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656593556">
+      <prop type="source">component::ntfy::config_subentries::topic::step::user::menu_options::generate_topic</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Generate topic name</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Skapa ett ämnesnamn</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656593620">
+      <prop type="source">component::ntfy::config_subentries::topic::step::user::title</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Topic</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Topic</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656593748">
+      <prop type="source">component::ntfy::exceptions::connection_error::message</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Failed to connect to ntfy service due to a connection error</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det gick inte att ansluta till ntfy-tjänsten på grund av ett anslutningsfel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656593812">
+      <prop type="source">component::ntfy::exceptions::publish_failed_exception::message</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Failed to publish notification due to a connection error</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det gick inte att publicera aviseringen på grund av ett anslutningsfel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656593876">
+      <prop type="source">component::ntfy::exceptions::publish_failed_request_error::message</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Failed to publish notification: {error_msg}</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det gick inte att publicera aviseringen: {error_msg}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656593940">
+      <prop type="source">component::ntfy::exceptions::server_error::message</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Failed to connect to ntfy service due to a server error: {error_msg}</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det gick inte att ansluta till ntfy-tjänsten på grund av ett serverfel: {error_msg}</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5656594004">
+      <prop type="source">component::ntfy::exceptions::timeout_error::message</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Failed to connect to ntfy service due to a connection timeout</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Anslutningen till ntfy-tjänsten överskred tidsgränsen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5657205674">
+      <prop type="source">component::ntfy::config_subentries::topic::error::invalid_topic</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Invalid topic. Only letters, numbers, underscores, or dashes allowed.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ogiltigt topic. Endast bokstäver, siffror, understreck eller bindestreck tillåtna.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5658096337">
+      <prop type="source">component::esphome::config::error::requires_encryption_key</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The ESPHome device requires an encryption key. Enter the key defined in the device’s YAML configuration under `api -&gt; encryption -&gt; key`.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>ESPHome-enheten kräver en krypteringsnyckel. Ange nyckeln som definierats i enhetens YAML-konfiguration under `api -&gt; encryption -&gt; key`.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5665590906">
+      <prop type="source">component::miele::entity::light::ambient_light::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Ambient light</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Omgivningsbelysning</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5665590970">
+      <prop type="source">component::miele::entity::light::light::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Light</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Lampa</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5665591034">
+      <prop type="source">component::miele::exceptions::set_state_error::message</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Failed to set state for {entity}.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det gick inte att ställa in tillståndet för {entity}.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5668446286">
+      <prop type="source">component::whirlpool::exceptions::appliances_fetch_failed::message</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Failed to fetch appliances</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det gick inte att hämta hushållsapparaterna</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5668451687">
+      <prop type="source">component::esphome::config::abort::reconfigure_already_configured</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>A device `{name}` with MAC address `{mac}` is already configured as `{title}`. Reconfiguration was aborted because the new configuration appears to refer to a different device.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>En enhet `{name}` med MAC-adress `{mac}` är redan konfigurerad som `{title}`. Omkonfigurationen avbröts eftersom den nya konfigurationen verkar hänvisa till en annan enhet.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5672850680">
+      <prop type="source">component::plex::entity::update::server_update::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Update</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Uppdatering</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673663765">
+      <prop type="source">component::zwave_js::config::abort::addon_required</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>The Z-Wave migration flow requires the integration to be configured using the Z-Wave JS app. If you are using Z-Wave JS UI, please follow our [migration instructions]({zwave_js_ui_migration}).</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Z-Wave-migreringsflödet kräver att integrationen konfigureras med Z-Wave JS-appen. Om du använder Z-Wave JS UI följer du våra [migreringsinstruktioner]({zwave_js_ui_migration}).</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673663829">
+      <prop type="source">component::zwave_js::config::abort::addon_stop_failed</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Failed to stop the Z-Wave JS app.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det gick inte att stoppa Z-Wave JS-appen.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673663957">
+      <prop type="source">component::zwave_js::config::abort::migration_successful</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Migration successful.</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Migreringen lyckades.</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673664021">
+      <prop type="source">component::zwave_js::config::abort::reconfigure_successful</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Reconfiguration was successful</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Omkonfigureringen lyckades</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673664085">
+      <prop type="source">component::zwave_js::config::step::choose_serial_port::data::usb_path</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>USB device path</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>USB-enhetens sökväg</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673664149">
+      <prop type="source">component::zwave_js::config::step::choose_serial_port::title</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Select your Z-Wave device</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Välj din Z-Wave-enhet</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673664341">
+      <prop type="source">component::zwave_js::config::step::configure_addon_reconfigure::data::s0_legacy_key</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>S0 Key (Legacy)</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>S0-nyckel (äldre)</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673664405">
+      <prop type="source">component::zwave_js::config::step::configure_addon_reconfigure::data::s2_access_control_key</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>S2 Access Control Key</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>S2 Nyckel för åtkomstkontroll</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673664469">
+      <prop type="source">component::zwave_js::config::step::configure_addon_reconfigure::data::s2_authenticated_key</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>S2 Authenticated Key</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>S2 Autentiserad nyckel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673664533">
+      <prop type="source">component::zwave_js::config::step::configure_addon_reconfigure::data::s2_unauthenticated_key</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>S2 Unauthenticated Key</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>S2 Oautentiserad nyckel</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673664597">
+      <prop type="source">component::zwave_js::config::step::configure_addon_reconfigure::data::usb_path</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>USB device path</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>USB-enhetens sökväg</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673664661">
+      <prop type="source">component::zwave_js::config::step::configure_addon_reconfigure::description</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Select your Z-Wave adapter</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Välj Z-Wave-adaptern</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673664725">
+      <prop type="source">component::zwave_js::config::step::configure_addon_reconfigure::title</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Enter the Z-Wave JS app configuration</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ange konfigurationen för Z-Wave JS-appen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673664853">
+      <prop type="source">component::zwave_js::config::step::instruct_unplug::title</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Unplug your old adapter</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Koppla ur den gamla adaptern</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673665045">
+      <prop type="source">component::zwave_js::config::step::manual_reconfigure::data::url</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>URL</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>URL</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673665109">
+      <prop type="source">component::zwave_js::config::step::on_supervisor_reconfigure::data::use_addon</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Use the Z-Wave JS app</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Använd Z-Wave JS-appen</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673665173">
+      <prop type="source">component::zwave_js::config::step::on_supervisor_reconfigure::description</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Do you want to use the Z-Wave JS app?</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Vill du använda Z-Wave JS-appen?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673665237">
+      <prop type="source">component::zwave_js::config::step::on_supervisor_reconfigure::title</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Select connection method</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Välj anslutningsmetod</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673665301">
+      <prop type="source">component::zwave_js::config::step::reconfigure::description</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Are you migrating to a new adapter or reconfiguring the current adapter?</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Ska du migrera till en ny adapter eller konfigurera om den befintliga adaptern?</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673665365">
+      <prop type="source">component::zwave_js::config::step::reconfigure::menu_options::intent_migrate</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Migrate to a new adapter</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Migrera till en ny adapter</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673665429">
+      <prop type="source">component::zwave_js::config::step::reconfigure::menu_options::intent_reconfigure</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Reconfigure the current adapter</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Konfigurera om den befintliga adaptern</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5673665493">
+      <prop type="source">component::zwave_js::config::step::reconfigure::title</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Migrate or reconfigure</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Migrera eller konfigurera om</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5676368693">
+      <prop type="source">component::matter::entity::binary_sensor::boost_state::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Boost state</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Boost-läge</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5676368757">
+      <prop type="source">component::matter::entity::select::water_heater_mode::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Water heater mode</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Varmvattenläge</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5676368821">
+      <prop type="source">component::matter::entity::sensor::estimated_heat_required::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Required heating energy</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Nödvändig värmeenergi</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5676368885">
+      <prop type="source">component::matter::entity::sensor::tank_percentage::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Hot water level</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Varmvattennivå</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5676368949">
+      <prop type="source">component::matter::entity::sensor::tank_volume::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Tank volume</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Tankvolym</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5676369013">
+      <prop type="source">component::matter::entity::water_heater::water_heater::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Water heater</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Varmvattenberedare</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679087617">
+      <prop type="source">component::miele::entity::switch::power::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Power</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>På/av</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679087681">
+      <prop type="source">component::miele::entity::switch::supercooling::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Supercooling</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Superkylning</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679087745">
+      <prop type="source">component::miele::entity::switch::superfreezing::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Superfreezing</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Superfrysning</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679106006">
+      <prop type="source">component::miele::entity::button::pause::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Pause</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Pausa</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679106070">
+      <prop type="source">component::miele::entity::button::start::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Start</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Starta</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679106134">
+      <prop type="source">component::miele::entity::button::stop::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Stop</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Stoppa</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679111676">
+      <prop type="source">component::miele::entity::climate::freezer::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Freezer</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Frys</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679111740">
+      <prop type="source">component::miele::entity::climate::refrigerator::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Refrigerator</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Kylskåp</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679111804">
+      <prop type="source">component::miele::entity::climate::wine_cabinet::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Wine cabinet</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Vinskåp</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679111868">
+      <prop type="source">component::miele::entity::climate::zone_1::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Zone 1</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Zon 1</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679111932">
+      <prop type="source">component::miele::entity::climate::zone_2::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Zone 2</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Zon 2</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679111996">
+      <prop type="source">component::miele::entity::climate::zone_3::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Zone 3</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Zon 3</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679144454">
+      <prop type="source">component::miele::entity::binary_sensor::mobile_start::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Mobile start</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Mobil start</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679144518">
+      <prop type="source">component::miele::entity::binary_sensor::notification_active::name</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Notification active</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Avisering aktiv</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679144582">
+      <prop type="source">component::miele::entity::binary_sensor::remote_control::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Remote control</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Fjärrkontroll</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679144646">
+      <prop type="source">component::miele::entity::binary_sensor::smart_grid::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Smart grid</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Smart elnät</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679275000">
+      <prop type="source">component::huawei_lte::entity::sensor::mode::name</prop>
+      <prop type="status">verified-existing</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Mode</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Läge</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679370672">
+      <prop type="source">component::iron_os::config::abort::cannot_connect</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Failed to connect</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Det gick inte att ansluta</seg>
+      </tuv>
+    </tu>
+    <tu tuid="lokalise:5679370736">
+      <prop type="source">component::iron_os::config::abort::unknown</prop>
+      <prop type="status">revalidated-prior-review</prop>
+      <prop type="source_revision">86a2eabe7e43f526db5821ef068087ce8404ae07</prop>
+      <prop type="verification">Lokalise API readback; Home Assistant Core source audit 2026-11-26</prop>
+      <tuv xml:lang="en">
+        <seg>Unexpected error</seg>
+      </tuv>
+      <tuv xml:lang="sv">
+        <seg>Oväntat fel</seg>
       </tuv>
     </tu>
   </body>
