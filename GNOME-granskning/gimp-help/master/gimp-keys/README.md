@@ -8,4 +8,4 @@
 - Validering: msgfmt --check/statistics, msgcmp, l10n-lint (inga fel/varningar), platshållar- och DocBook-markupkontroll godkända.
 - Hunspell: nio okända ord granskade; rimliga undantag: GIMP, XCF, MyPaint, Skift/markupnycklar, snabbmask, rityta, färgsamplingspunkt, burtransformering och vikningstransformering.
 - Terminologi: verktygs- och dialognamn harmoniserade mot GIMP:s svenska gränssnitt, inklusive *Gradient* och *Gradienter*.
-- GNOME-inskick: inget.
+- GNOME-inskick: uppladdad till Damned Lies API 2026-11-26 med kommentaren `Granskad och klar`; aktivitetssidan verifierar 262/0/0.
