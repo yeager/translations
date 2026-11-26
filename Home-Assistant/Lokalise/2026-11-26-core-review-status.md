@@ -368,3 +368,7 @@ Alla 120 rader matchar aktiv Core-källa. 30 ändringar sparades och återläste
 ### Korrigering av tidigare rapport
 
 Nyckelsnapshotten använder fältet `key`, inte `key_name`. Den tidigare statusen om saknade aktiva nycklar och blockerad nyckelnamnsändring var felaktig. De aktuella nycklarna finns och är nu granskade; endast de äldre, inaktuella Lokalise-posterna ligger kvar med sina ursprungliga värden.
+
+## Fortsatt radgranskning 2026-11-26 – position 37097–37216
+
+120 Lokalise-poster liveverifierades rad för rad; 19 textändringar sparades via API och lästes tillbaka, 90 aktiva nycklar behölls och 11 aktiva nycklar markerades med `source-path-follow-up`. Källkontrollen fann 73 direkta Core-källträffar och 28 aliasreferenser till 15 mål; samtliga engelska och svenska alias matchar sina live-mål. Elva poster saknar fortfarande motsvarande källnod i den valda Core-revisionens `strings.json` och är uttryckligen listade i rapporten för uppföljning. Platshållare matchar 120/120; inga pluralnycklar. `svlang skrivregler` utan fel. Hunspell-flaggor bedömdes manuellt; ingen ordboksändring. TMX-manifestet verifierades live mot 120 Lokalise-poster och TMX validerar med 25 690 enheter (25 459 Lokalise-ID, 231 legacy-source); backup byteidentisk. API:t avvisade endast ändring av granskningsflaggan (403); textändringarna sparades utan flagga. Se `2026-11-26-reviewed-core-37097-37216.md` och JSON-underlaget. Nästa position: **37 217**.
