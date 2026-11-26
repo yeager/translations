@@ -8,8 +8,8 @@ Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 
 ## Aktuellt läge
 
-- Senast behandlade Lokalise-position: **35 776**. Nästa position: **35 777**. Källrevision: `86a2eabe7e43f526db5821ef068087ce8404ae07`.
-- De äldre totalsiffrorna har inte omräknats efter nyare batcher och ska inte användas som aktuell kumulativ summering. Den kanoniska HA Core-TMX innehåller nu **24 434** enheter (24 203 Lokalise-ID och 231 historiska poster).
+- Senast behandlade Lokalise-position: **35 896**. Nästa position: **35 897**. Källrevision: `86a2eabe7e43f526db5821ef068087ce8404ae07`.
+- De äldre totalsiffrorna har inte omräknats efter nyare batcher och ska inte användas som aktuell kumulativ summering. Den kanoniska HA Core-TMX innehåller nu **24 535** enheter (24 304 Lokalise-ID och 231 historiska poster).
 - Fullständiga rader, ändringsförslag, källvägar, referenser och live-ID:n finns i respektive daterade batchrapport; senaste rapport: `2026-11-26-reviewed-core-34457-34576.md` och JSON-underlaget.
 - Batchen 29 131–29 250: 120/120 nycklar aktiva och källmatchande; **17** ändringar sparade och återlästa, **103** texter oförändrade. Nästa batch 29 251–29 370: 85 aktuella Core-nycklar granskade utan ändring och 35 källfrånvarande poster uteslutna. Batchen 29 371–29 490: 54 aktiva Core-nycklar, 2 ändringar, 52 oförändrade; 66 källfrånvarande. Batchen 29 491–29 610: 95 aktiva Core-nycklar, ett OpenAI-referensalias synkat, 94 oförändrade; 25 källfrånvarande. Batchen 30 617–30 736: 104 aktiva Core-nycklar, 31 ändringar och 73 oförändrade; 16 källfrånvarande. Batchen 30 737–30 856: 110 aktuella nycklar, varav två överlappande återverifierades; 33 nya ändringar och 75 oförändrade bland de 108 nya aktiva posterna; 10 källfrånvarande. 31/31 aliasmål matchar live efter synkning. Batchen 30 857–30 976: 115 aktuella nycklar, varav två tidigare granskade återverifierades; 6 ändringar och 107 oförändrade bland 113 nya aktiva poster; 5 källfrånvarande. 24/24 aliasmål matchar. Platshållare 115/115; inga pluraler. Batchen 30 977–31 096: 96 aktuella nycklar, varav 12 tidigare granskade återverifierades; 11 ändringar och 73 oförändrade bland de 84 nya aktiva posterna; 24 källfrånvarande. 23/23 aliasmål matchar. Platshållare 96/96; inga pluraler. Batchen 31 097–31 216: 120/120 aktuella nycklar, sju fanns i tidigare dokumentation; 35 förbättringar sparades och lästes tillbaka, 85 poster verifierades oförändrade. Sex tidigare TM-värden för ZHA-energifaser rättades. Inga alias, pluraler eller platshållaravvikelser. Batchen 31 217–31 336: 110 aktuella nycklar och 10 källfrånvarande; 14 förbättringar sparades och 96 mål verifierades oförändrade. 68/68 alias matchar live; platshållare 110/110; inga pluraler. Batchen 31 337–31 456: 110 aktuella nycklar, varav 14 återverifierade från tidigare rapporter; 41 korrigeringar och 65 oförändrade bland 106 nya aktiva. Tio redan kända historiska nycklar uteslöts. Alla 13 alias matchar live. Två Synology-referensmål korrigerades retroaktivt. Batchen 31 457–31 576: 108 aktuella nycklar, varav sju återverifierades från tidigare rapporter; 14 ändringar och 87 oförändrade bland 101 nya aktiva. Tolv tidigare rapporterade historiska nycklar uteslöts. Alla 17 alias matchar live; platshållare 108/108; inga pluraler.
 - Liveverifiering för batchen bekräftade nyckelidentitet, engelsk källtext, svensk måltext och Lokalise-ID för 120/120 poster. Rapporten innehåller fullständiga nycklar och raderna med befintlig/föreslagen text.
@@ -27,7 +27,7 @@ Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 
 110 aktuella Core-nycklar och 10 källfrånvarande poster radgranskades. 16 ändringar i intervallet sparades och lästes tillbaka, plus ett NUT-referenstarget utanför intervallet; 94 aktiva mål i intervallet verifierades oförändrade. Alla 36 referenser matchar live-mål. Platshållare 110/110; inga pluraler. 14 nycklar återfanns i tidigare rapporter. TMX validerar med 23 118 enheter och varje aktiv manifestpost matchar. Hunspell-sv fick tillägget `ineffekt` i båda ordböckerna och regressionerna; 19/19 tester passerade. Se `2026-11-26-reviewed-core-34217-34336.md` med JSON-underlag. Nästa position: **34 337**.
 
-### Senaste genomförda batcher: 35 297–35 776
+### Senaste genomförda batcher: 35 297–35 896
 
 Batch 51 (35 297–35 416): se dess daterade rapport och tidigare commit. Batch 52 (35 417–35 536) korrigerades efter att en felaktig key-path-jämförelse använde fel snapshotfält: 108 aktuella nycklar verifierades; 50 översättningar ändrades och sparades, 58 behölls; 12 äldre `advanced_settings`-poster återställdes till sina ursprungliga texter och uteslöts. De aktuella `other_settings`-nycklarna vid positionerna 58 572–58 586 granskades separat (12/12). Korrigeringsrapporten och TM manifesten skiljer nu äldre nycklar från aktiva aktuella nycklar.
 
@@ -35,7 +35,9 @@ Batch 53 (35 537–35 656): 119 aktuella Core-nycklar identifierades; 118 gransk
 
 Batch 54 (35 657–35 776): 117 aktiva nycklar, 3 äldre inaktuella nycklar. 116 aktiva mål granskades och sparades/lästes tillbaka; 61 korrigeringar och 55 oförändrade. 18/18 referenser matchar live-mål; platshållare 117/117, inga pluraler. Lämnades uppföljning för `Tonneau`-terminologi och hard TPMS-varningar. Se `2026-11-26-reviewed-core-35657-35776.md` med JSON-underlag.
 
-Batch 52-rättelsen samt batcher 53–54 är införda i kanonisk TMX. Validering: **24 434** poster, 24 203 med Lokalise-ID och 231 historiska. Backupen i `translations` är byte-identisk med TM-repot. Nästa Lokalise-position: **35 777**.
+Batch 55 (35 777–35 896): 104 aktuella nycklar och 16 historiska. Alla 104 aktiva sparade/lästes tillbaka; 28 korrigeringar och 76 oförändrade. Alla 41 referenser matchar live-mål efter synkning av två delade Z-Wave S2-mål. Platshållare 104/104; inga pluraler. Se `2026-11-26-reviewed-core-35777-35896.md` och JSON-underlaget.
+
+Batch 52-rättelsen samt batcher 53–55 är införda i kanonisk TMX. Validering: **24 535** poster, 24 304 med Lokalise-ID och 231 historiska. Backupen i `translations` är byte-identisk med TM-repot. Nästa Lokalise-position: **35 897**.
 
 ## TM och verktyg
 
@@ -58,7 +60,7 @@ Batch 52-rättelsen samt batcher 53–54 är införda i kanonisk TMX. Validering
 - Lokalise API-tokenen saknar behörighet att sätta `is_reviewed` (tidigare HTTP 403). Textändringar kan sparas och verifieras. Ingen separat Reviewed-markering har därför kunnat sättas.
 - Inventeringen 2026-11-25 fann **203 aktuella Core-källnycklar som saknas helt i Lokalise**. Skapande/import av nycklar avslogs tidigare med HTTP 403; se `2026-11-25-full-core-missing-audit.md`.
 - Totalt **685** källfrånvarande/historiska nycklar är exkluderade från aktuell Core-täckning. Tio flyttade nycklar från det senaste blocket har aktuella mål senare i Lokalise-ordningen och är markerade för granskning vid respektive position.
-- Granskningen är **inte klar**. Fortsätt från position **35 777**; kontrollera källvägar, nya strängar, tidigare rapporter, referenser och hela Core-inventeringen.
+- Granskningen är **inte klar**. Fortsätt från position **35 897**; kontrollera källvägar, nya strängar, tidigare rapporter, referenser och hela Core-inventeringen.
 
 ## Äldre batch: 31 457–31 576
 
