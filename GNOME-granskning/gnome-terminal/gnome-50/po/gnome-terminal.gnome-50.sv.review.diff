@@ -1,0 +1,531 @@
+--- translations/GNOME-granskning/gnome-terminal/gnome-50/po/gnome-terminal.gnome-50.sv.original.po	2026-11-26 04:17:29.910115593 +0100
++++ translations/GNOME-granskning/gnome-terminal/gnome-50/po/gnome-terminal.gnome-50.sv.reviewed.po	2026-11-26 04:17:29.920115604 +0100
+@@ -13,8 +13,8 @@
+ "Project-Id-Version: gnome-terminal\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-terminal/issues/\n"
+ "POT-Creation-Date: 2026-11-09 19:39+0000\n"
+-"PO-Revision-Date: 2025-01-27 00:57+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-26 00:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -38,7 +38,8 @@
+ 
+ #: data/org.gnome.Terminal.desktop.in:4
+ msgid "shell;prompt;command;commandline;cmd;ptyxis;terminal;cli;console;"
+-msgstr "skal;shell;prompt;kommando;kommandorad;cmd;ptyxis;terminal;cli;konsol;"
++msgstr ""
++"skal;shell;prompt;kommando;kommandorad;cmd;ptyxis;terminal;cli;konsol;"
+ 
+ #: data/org.gnome.Terminal.desktop.in:22 src/terminal-accels.cc:127
+ msgid "New Window"
+@@ -77,12 +78,12 @@
+ 
+ #: data/org.gnome.Terminal.metainfo.xml.in:40
+ msgid ""
+-"GNOME Terminal is a terminal emulator application for accessing a UNIX shell "
+-"environment which can be used to run programs available on your system."
++"GNOME Terminal is a terminal emulator application for accessing a UNIX shell"
++" environment which can be used to run programs available on your system."
+ msgstr ""
+ "GNOME Terminal är en terminalemulator som gör det möjligt att använda en "
+-"UNIX-skalmiljö vilken kan användas för att köra program tillgängliga på ditt "
+-"system."
++"UNIX-skalmiljö vilken kan användas för att köra program tillgängliga på ditt"
++" system."
+ 
+ #: data/org.gnome.Terminal.metainfo.xml.in:41
+ msgid ""
+@@ -112,9 +113,11 @@
+ 
+ #: data/org.gnome.Terminal.metainfo.xml.in:50
+ msgid ""
+-"https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-terminal.png"
++"https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-"
++"terminal.png"
+ msgstr ""
+-"https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-terminal.png"
++"https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-"
++"terminal.png"
+ 
+ #: data/org.gnome.Terminal.metainfo.xml.in:54
+ msgid "HiDpiIcon"
+@@ -143,10 +146,9 @@
+ 
+ #: data/org.gnome.Terminal.metainfo.xml.in:61
+ #: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:44
+-#, fuzzy
+ #| msgid "https://gitlab.gnome.org/GNOME/gnome-terminal/-/issues"
+ msgid "https://gitlab.gnome.org/GNOME/gnome-terminal/-/work_items"
+-msgstr "https://gitlab.gnome.org/GNOME/gnome-terminal/-/issues"
++msgstr "https://gitlab.gnome.org/GNOME/gnome-terminal/-/work_items"
+ 
+ #: data/org.gnome.Terminal.metainfo.xml.in:62
+ #: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:45
+@@ -197,13 +199,14 @@
+ 
+ #: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:41
+ msgid ""
+-"Open Terminal is a plugin for the Files application that adds a menu item to "
+-"the context menu to open a terminal in the currently browsed directory."
++"Open Terminal is a plugin for the Files application that adds a menu item to"
++" the context menu to open a terminal in the currently browsed directory."
+ msgstr ""
+ "Öppna terminal är en insticksmodul för programmet Filer som lägger till ett "
+ "menyobjekt i kontextmenyn för att öppna en terminal i den öppnade katalogen."
+ 
+-#. Translators: This needs to be parsed as a GVariant string, so keep the regular single quotes around the string as-is, and do not add extra quotes.
++#. Translators: This needs to be parsed as a GVariant string, so keep the
++#. regular single quotes around the string as-is, and do not add extra quotes.
+ #: src/org.gnome.Terminal.gschema.xml:133
+ msgctxt "visible-name"
+ msgid "'Unnamed'"
+@@ -223,8 +226,8 @@
+ 
+ #: src/org.gnome.Terminal.gschema.xml:140
+ msgid ""
+-"Default color of text in the terminal, as a color specification (can be HTML-"
+-"style hex digits, or a color name such as “red”)."
++"Default color of text in the terminal, as a color specification (can be "
++"HTML-style hex digits, or a color name such as “red”)."
+ msgstr ""
+ "Standardfärg för texten i terminalfönstret som en färgspecifikation (kan "
+ "vara hexadecimala siffror i HTML-stil, eller ett färgnamn som ”red”)."
+@@ -247,8 +250,8 @@
+ 
+ #: src/org.gnome.Terminal.gschema.xml:150
+ msgid ""
+-"Default color of bold text in the terminal, as a color specification (can be "
+-"HTML-style hex digits, or a color name such as “red”). This is ignored if "
++"Default color of bold text in the terminal, as a color specification (can be"
++" HTML-style hex digits, or a color name such as “red”). This is ignored if "
+ "bold-color-same-as-fg is true."
+ msgstr ""
+ "Standardfärg för fet text i terminalfönstret som en färgspecifikation (kan "
+@@ -296,8 +299,8 @@
+ #: src/org.gnome.Terminal.gschema.xml:175
+ msgid ""
+ "Custom color of the background of the terminal’s cursor, as a color "
+-"specification (can be HTML-style hex digits, or a color name such as “red”). "
+-"This is ignored if cursor-colors-set is false."
++"specification (can be HTML-style hex digits, or a color name such as “red”)."
++" This is ignored if cursor-colors-set is false."
+ msgstr ""
+ "Anpassad färg för bakgrunden till terminalens markör som en "
+ "färgspecifikation (kan vara hexadecimala siffror i HTML-stil eller ett "
+@@ -332,8 +335,8 @@
+ #: src/org.gnome.Terminal.gschema.xml:190
+ msgid ""
+ "Custom color of the background of the terminal’s highlight, as a color "
+-"specification (can be HTML-style hex digits, or a color name such as “red”). "
+-"This is ignored if highlight-colors-set is false."
++"specification (can be HTML-style hex digits, or a color name such as “red”)."
++" This is ignored if highlight-colors-set is false."
+ msgstr ""
+ "Anpassad färg för bakgrunden till terminalens färgmarkering som en "
+ "färgspecifikation (kan vara hexadecimala siffror i HTML-stil eller ett "
+@@ -351,8 +354,8 @@
+ "or a color name such as “red”). This is ignored if highlight-colors-set is "
+ "false."
+ msgstr ""
+-"Anpassad färg för teckens förgrund på terminalens färgmarkeringsposition som "
+-"en färgspecifikation (kan vara hexadecimala siffror i HTML-stil eller ett "
++"Anpassad färg för teckens förgrund på terminalens färgmarkeringsposition som"
++" en färgspecifikation (kan vara hexadecimala siffror i HTML-stil eller ett "
+ "färgnamn som ”red”). Detta ignoreras om highlight-colors-set är false "
+ "(falskt)."
+ 
+@@ -398,7 +401,7 @@
+ 
+ #: src/org.gnome.Terminal.gschema.xml:223
+ msgid "List of punctuation characters that are treated as word characters"
+-msgstr "Lista över skiljetecken som ska behandlas som tecken i ord"
++msgstr "Lista över skiljetecken som ska räknas som ordtecken"
+ 
+ #: src/org.gnome.Terminal.gschema.xml:224
+ msgid ""
+@@ -406,9 +409,8 @@
+ "boundaries. This list of exceptions will instead be treated as part of the "
+ "word."
+ msgstr ""
+-"Som standard delar de flesta skiljetecken upp ordgränser vid ordvis "
+-"markering. Denna lista över undantag kommer i stället behandlas som en del "
+-"av ordet."
++"Som standard delar de flesta skiljetecken upp ord vid markering ord för ord."
++" Tecknen i den här undantagslistan räknas i stället till ordet."
+ 
+ #: src/org.gnome.Terminal.gschema.xml:229
+ msgid "Default number of columns"
+@@ -445,8 +447,8 @@
+ #: src/org.gnome.Terminal.gschema.xml:245
+ msgid ""
+ "Number of scrollback lines to keep around. You can scroll back in the "
+-"terminal by this number of lines; lines that don’t fit in the scrollback are "
+-"discarded. If scrollback_unlimited is true, this value is ignored."
++"terminal by this number of lines; lines that don’t fit in the scrollback are"
++" discarded. If scrollback_unlimited is true, this value is ignored."
+ msgstr ""
+ "Antal rader i rullningshistoriken som ska behållas. Du kan rulla bakåt i "
+ "terminalfönstret med detta antal rader; rader som inte får plats i "
+@@ -455,13 +457,14 @@
+ 
+ #: src/org.gnome.Terminal.gschema.xml:249
+ msgid "Whether an unlimited number of lines should be kept in scrollback"
+-msgstr "Huruvida ett obegränsat antal rader ska behållas i rullningshistoriken"
++msgstr ""
++"Huruvida ett obegränsat antal rader ska behållas i rullningshistoriken"
+ 
+ #: src/org.gnome.Terminal.gschema.xml:250
+ msgid ""
+-"If true, scrollback lines will never be discarded. The scrollback history is "
+-"stored on disk temporarily, so this may cause the system to run out of disk "
+-"space if there is a lot of output to the terminal."
++"If true, scrollback lines will never be discarded. The scrollback history is"
++" stored on disk temporarily, so this may cause the system to run out of disk"
++" space if there is a lot of output to the terminal."
+ msgstr ""
+ "Om true (sant) kommer rader i rullningshistoriken aldrig att förkastas. "
+ "Rullningshistoriken lagras temporärt på disk så detta kan orsaka att "
+@@ -475,9 +478,7 @@
+ msgid ""
+ "If true, the terminal will scroll to the bottom when text is inserted by "
+ "paste."
+-msgstr ""
+-"Om true (sant) kommer terminalen rullas till nedersta läget då text klistras "
+-"in."
++msgstr "Om värdet är sant rullar terminalen längst ned när text klistras in."
+ 
+ #: src/org.gnome.Terminal.gschema.xml:259
+ msgid "Whether to scroll to the bottom when a key is pressed"
+@@ -497,8 +498,8 @@
+ msgid ""
+ "If true, whenever there’s new output the terminal will scroll to the bottom."
+ msgstr ""
+-"Om true (sant) kommer terminalfönstret att rulla till nedersta läget så fort "
+-"det finns nya utdata."
++"Om true (sant) kommer terminalfönstret att rulla till nedersta läget så fort"
++" det finns nya utdata."
+ 
+ #: src/org.gnome.Terminal.gschema.xml:269
+ msgid "What to do with the terminal when the child command exits"
+@@ -507,10 +508,11 @@
+ #: src/org.gnome.Terminal.gschema.xml:270
+ msgid ""
+ "Possible values are “close” to close the terminal, “restart” to restart the "
+-"command, and “hold” to keep the terminal open with no command running inside."
++"command, and “hold” to keep the terminal open with no command running "
++"inside."
+ msgstr ""
+-"Möjliga värden är ”close” för att stänga terminalfönstret, ”restart” för att "
+-"starta om kommandot och ”hold” för att hålla terminalfönstret öppet utan "
++"Möjliga värden är ”close” för att stänga terminalfönstret, ”restart” för att"
++" starta om kommandot och ”hold” för att hålla terminalfönstret öppet utan "
+ "något kommando körandes inuti."
+ 
+ #: src/org.gnome.Terminal.gschema.xml:274
+@@ -547,8 +549,8 @@
+ "If true, the value of the custom_command setting will be used in place of "
+ "running a shell."
+ msgstr ""
+-"Om true (sant) kommer värdet för inställningen custom_command att användas i "
+-"stället för att ett skal körs."
++"Om true (sant) kommer värdet för inställningen custom_command att användas i"
++" stället för att ett skal körs."
+ 
+ #: src/org.gnome.Terminal.gschema.xml:291
+ msgid "Whether to blink the cursor"
+@@ -556,8 +558,8 @@
+ 
+ #: src/org.gnome.Terminal.gschema.xml:292
+ msgid ""
+-"The possible values are “system” to use the global cursor blinking settings, "
+-"or “on” or “off” to set the mode explicitly."
++"The possible values are “system” to use the global cursor blinking settings,"
++" or “on” or “off” to set the mode explicitly."
+ msgstr ""
+ "Möjliga värden är ”system” för att använda globala inställningar för "
+ "markörblinkning, eller ”on” eller ”off” för att uttryckligen ställa in "
+@@ -636,7 +638,8 @@
+ 
+ #: src/org.gnome.Terminal.gschema.xml:373
+ msgid "Keyboard shortcut to save the current tab contents to file"
+-msgstr "Tangentbordsgenväg för att spara innehållet i aktuell flik till en fil"
++msgstr ""
++"Tangentbordsgenväg för att spara innehållet i aktuell flik till en fil"
+ 
+ #: src/org.gnome.Terminal.gschema.xml:377
+ msgid ""
+@@ -806,12 +809,12 @@
+ #: src/org.gnome.Terminal.gschema.xml:640
+ msgid ""
+ "Whether to have Alt+letter access keys for the menubar. They may interfere "
+-"with some applications run inside the terminal so it’s possible to turn them "
+-"off."
++"with some applications run inside the terminal so it’s possible to turn them"
++" off."
+ msgstr ""
+ "Huruvida det ska finnas åtkomsttangenter med Alt+bokstav för menyraden. De "
+-"kan kollidera med en del program som körs inuti terminalfönstret, och det är "
+-"därför möjligt att inaktivera dem."
++"kan kollidera med en del program som körs inuti terminalfönstret, och det är"
++" därför möjligt att inaktivera dem."
+ 
+ #: src/org.gnome.Terminal.gschema.xml:649
+ msgid "Whether shortcuts are enabled"
+@@ -819,8 +822,8 @@
+ 
+ #: src/org.gnome.Terminal.gschema.xml:650
+ msgid ""
+-"Whether shortcuts are enabled. They may interfere with some applications run "
+-"inside the terminal so it’s possible to turn them off."
++"Whether shortcuts are enabled. They may interfere with some applications run"
++" inside the terminal so it’s possible to turn them off."
+ msgstr ""
+ "Huruvida snabbtangenter är aktiverade. De kan påverka vissa program som kör "
+ "i terminalen, så det är möjligt att slå av dem."
+@@ -1291,10 +1294,11 @@
+ 
+ #: src/preferences.ui:1987
+ msgid ""
+-"Warning! Large scrollback buffers may lead to exhaustion of system resources."
++"Warning! Large scrollback buffers may lead to exhaustion of system "
++"resources."
+ msgstr ""
+-"Varning! Stora buffertar för rullningshistorik kan leda till utarmning av "
+-"systemresurser."
++"Varning! Stora rullningsbuffertar kan göra att systemet får slut på "
++"resurser."
+ 
+ #: src/preferences.ui:2021
+ msgid "Scrolling"
+@@ -1306,7 +1310,7 @@
+ 
+ #: src/preferences.ui:2053
+ msgid "Ru_n a custom command instead of my shell"
+-msgstr "K_ör ett eget kommando i stället för mitt skal"
++msgstr "_Kör ett eget kommando i stället för mitt skal"
+ 
+ #: src/preferences.ui:2070
+ msgid "Custom co_mmand:"
+@@ -1346,7 +1350,7 @@
+ 
+ #: src/preferences.ui:2334
+ msgid "_Reset Compatibility Options to Defaults"
+-msgstr "_Återställ kompatibilitetsalternativ till standardvärden"
++msgstr "Återstä_ll kompatibilitetsalternativ till standardvärden"
+ 
+ #: src/preferences.ui:2357
+ msgid "Compatibility"
+@@ -1392,32 +1396,38 @@
+ msgid "White on black"
+ msgstr "Vitt på svart"
+ 
+-#. Translators: "GNOME" is the name of a colour scheme, "light" can be translated
++#. Translators: "GNOME" is the name of a colour scheme, "light" can be
++#. translated
+ #: src/profile-editor.cc:178
+ msgid "GNOME light"
+ msgstr "GNOME ljus"
+ 
+-#. Translators: "GNOME" is the name of a colour scheme, "dark" can be translated
++#. Translators: "GNOME" is the name of a colour scheme, "dark" can be
++#. translated
+ #: src/profile-editor.cc:183
+ msgid "GNOME dark"
+ msgstr "GNOME mörk"
+ 
+-#. Translators: "Tango" is the name of a colour scheme, "light" can be translated
++#. Translators: "Tango" is the name of a colour scheme, "light" can be
++#. translated
+ #: src/profile-editor.cc:188
+ msgid "Tango light"
+ msgstr "Tango ljus"
+ 
+-#. Translators: "Tango" is the name of a colour scheme, "dark" can be translated
++#. Translators: "Tango" is the name of a colour scheme, "dark" can be
++#. translated
+ #: src/profile-editor.cc:193
+ msgid "Tango dark"
+ msgstr "Tango mörk"
+ 
+-#. Translators: "Solarized" is the name of a colour scheme, "light" can be translated
++#. Translators: "Solarized" is the name of a colour scheme, "light" can be
++#. translated
+ #: src/profile-editor.cc:198
+ msgid "Solarized light"
+ msgstr "Ljus Solarized"
+ 
+-#. Translators: "Solarized" is the name of a colour scheme, "dark" can be translated
++#. Translators: "Solarized" is the name of a colour scheme, "dark" can be
++#. translated
+ #: src/profile-editor.cc:203
+ msgid "Solarized dark"
+ msgstr "Mörk Solarized"
+@@ -1634,11 +1644,11 @@
+ 
+ #: src/terminal-accels.cc:151
+ msgid "Find Next"
+-msgstr "Sök n_ästa"
++msgstr "Sök nästa"
+ 
+ #: src/terminal-accels.cc:152
+ msgid "Find Previous"
+-msgstr "Sök före_gående"
++msgstr "Sök föregående"
+ 
+ #: src/terminal-accels.cc:153
+ msgid "Clear Highlight"
+@@ -1744,7 +1754,7 @@
+ 
+ #: src/terminal-accels.cc:551
+ msgid "_Action"
+-msgstr "_Åtgärd"
++msgstr "Åt_gärd"
+ 
+ #: src/terminal-accels.cc:570
+ msgid "Shortcut _Key"
+@@ -1807,11 +1817,11 @@
+ 
+ #: src/terminal-headermenu.ui:63 src/terminal-menubar.ui.in:161
+ msgid "_Reset"
+-msgstr "_Återställ"
++msgstr "Återstä_ll"
+ 
+ #: src/terminal-headermenu.ui:68 src/terminal-menubar.ui.in:166
+ msgid "Reset and C_lear"
+-msgstr "Återställ och t_öm"
++msgstr "Återställ och tö_m"
+ 
+ #: src/terminal-headermenu.ui:75 src/terminal-menubar.ui.in:173
+ msgid "_1. 80×24"
+@@ -1917,7 +1927,7 @@
+ 
+ #: src/terminal-menubar.ui.in:125
+ msgid "_Find…"
+-msgstr "S_ök…"
++msgstr "Sö_k…"
+ 
+ #: src/terminal-menubar.ui.in:129
+ msgid "Find _Next"
+@@ -2009,7 +2019,8 @@
+ "Flaggan ”%s” är föråldrad och kan tas bort i en senare version av gnome-"
+ "terminal."
+ 
+-#. %s is being replaced with "-- " (without quotes), which must be used literally, not translatable
++#. %s is being replaced with "-- " (without quotes), which must be used
++#. literally, not translatable
+ #: src/terminal-options.cc:344
+ #, c-format
+ msgid ""
+@@ -2027,7 +2038,7 @@
+ #: src/terminal-options.cc:439
+ #, c-format
+ msgid "Cannot specify more than one command to run"
+-msgstr "Kan inte ange mer än ett kommando att köra"
++msgstr "Det går inte att ange fler än ett kommando"
+ 
+ #: src/terminal-options.cc:448
+ #, c-format
+@@ -2437,18 +2448,18 @@
+ msgid ""
+ "GNOME Terminal is distributed in the hope that it will be useful, but "
+ "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
+-"or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+-"more details."
++"or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
++" more details."
+ msgstr ""
+ "GNOME-terminal distribueras i hopp om att det ska vara användbart, men UTAN "
+-"NÅGON SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller "
+-"LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General Public License för "
++"NÅGON SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller"
++" LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General Public License för "
+ "ytterligare information."
+ 
+ #: src/terminal-util.cc:430
+ msgid ""
+-"You should have received a copy of the GNU General Public License along with "
+-"GNOME Terminal.  If not, see <http://www.gnu.org/licenses/>."
++"You should have received a copy of the GNU General Public License along with"
++" GNOME Terminal.  If not, see <http://www.gnu.org/licenses/>."
+ msgstr ""
+ "Du bör ha fått en kopia av GNU General Public License tillsammans med detta "
+ "program. Om inte, se <http://www.gnu.org/licenses/>."
+@@ -2499,7 +2510,7 @@
+ 
+ #: src/terminal-window.cc:1742
+ msgid "_Open Link"
+-msgstr "_Öppna länk"
++msgstr "Öpp_na länk"
+ 
+ #: src/terminal-window.cc:1743
+ msgid "Copy _Link"
+@@ -2511,7 +2522,7 @@
+ 
+ #: src/terminal-window.cc:1834
+ msgid "L_eave Full Screen"
+-msgstr "L_ämna helskärm"
++msgstr "_Lämna helskärm"
+ 
+ #: src/terminal-window.cc:2298
+ msgid "Set GNOME Terminal as your default terminal?"
+@@ -2543,8 +2554,8 @@
+ 
+ #: src/terminal-window.cc:3338
+ msgid ""
+-"There is still a process running in this terminal. Closing the terminal will "
+-"kill it."
++"There is still a process running in this terminal. Closing the terminal will"
++" kill it."
+ msgstr ""
+ "Det finns fortfarande en process igång i denna terminal. Stängning av "
+ "terminalen kommer att döda den."
+@@ -2582,8 +2593,7 @@
+ #~ msgstr "Huruvida fet text ska tillåtas"
+ 
+ #~ msgid "If true, allow applications in the terminal to make text boldface."
+-#~ msgstr ""
+-#~ "Om true (sant), tillåt program i terminalfönstret att göra text fet."
++#~ msgstr "Om true (sant), tillåt program i terminalfönstret att göra text fet."
+ 
+ #~ msgid "Hindi"
+ #~ msgstr "Hindi"
+@@ -2641,8 +2651,8 @@
+ #~ "Open the currently open folder in the terminal file manager Midnight "
+ #~ "Commander"
+ #~ msgstr ""
+-#~ "Öppna den för tillfället öppna mappen i den terminalbaserade "
+-#~ "filhanteraren Midnight Commander"
++#~ "Öppna den för tillfället öppna mappen i den terminalbaserade filhanteraren "
++#~ "Midnight Commander"
+ 
+ #~ msgid "Open _Midnight Commander"
+ #~ msgstr "Öppna _Midnight Commander"
+@@ -2757,8 +2767,8 @@
+ #~ msgstr "Lista med tillgängliga kodningar"
+ 
+ #~ msgid ""
+-#~ "A subset of possible encodings are presented in the Encoding submenu. "
+-#~ "This is a list of encodings to appear there."
++#~ "A subset of possible encodings are presented in the Encoding submenu. This "
++#~ "is a list of encodings to appear there."
+ #~ msgstr ""
+ #~ "En delmängd av möjliga kodningar visas i kodningsmenyn. Detta är en lista "
+ #~ "med kodningar som visas där."
+@@ -2785,11 +2795,10 @@
+ #~ msgid ""
+ #~ "<b>Note:</b> These options may cause some applications to behave "
+ #~ "incorrectly.  They are only here to allow you to work around certain "
+-#~ "applications and operating systems that expect different terminal "
+-#~ "behavior."
++#~ "applications and operating systems that expect different terminal behavior."
+ #~ msgstr ""
+-#~ "<b>Notera:</b> Dessa alternativ kan orsaka att en del program inte beter "
+-#~ "sig som de ska. De finns endast här för att låta dig kunna använda vissa "
++#~ "<b>Notera:</b> Dessa alternativ kan orsaka att en del program inte beter sig"
++#~ " som de ska. De finns endast här för att låta dig kunna använda vissa "
+ #~ "program och operativsystem som förväntar sig ett annat terminalbeteende."
+ 
+ #~ msgid "New Terminal in New Tab"
