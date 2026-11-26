@@ -11,3 +11,6 @@ innehöll felaktiga semikolon efter navigeringspilarna. Den är sparad och
 API-återläst 2026-11-21 som `**Inställningar -> Enheter och tjänster -> Pi-hole**`
 med Lokalise-ID `6102686362`.
 
+## Uppföljning 2026-11-26
+
+Migreringsrubriken och beskrivningen korrigerades i Lokalise och lästes tillbaka via API. Texten använder nu ”din gamla API-token” och rätt menyväg till Reparationer.

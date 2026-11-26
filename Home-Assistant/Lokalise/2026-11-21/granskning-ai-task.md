@@ -12,3 +12,7 @@ Status: samtliga aktuella bladnycklar i Core `2fdaa177` är radgranskade. Sju ko
 | `component::ai_task::exceptions::{attachments_not_supported,entity_not_found,evaluate_not_supported,generate_data_not_supported,generate_image_not_supported}` | AI-uppgiftsentiteten `{entity_id}` … | Gör benämningen konsekvent med komponenttiteln `AI-uppgift`; samtliga `{entity_id}` är bevarade. Lokalise-ID `954271059`, `954271060`, `954271062`–`954271064`. |
 
 Tjänsterna för rensning, utvärdering, data- och bildgenerering samt aktuella undantag är granskade. Äldre `generate_text`-poster hålls åtskilda eftersom de saknas i aktuell källfil.
+
+## Uppföljning 2026-11-26
+
+Strukturbeskrivningen korrigerades i Lokalise till en idiomatisk text med ”ordlista” och oförändrade schemanycklar `description`, `selector` och `required`; API-läsning bekräftade slutvärdet.
