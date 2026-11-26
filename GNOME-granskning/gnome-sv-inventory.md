@@ -1,6 +1,6 @@
 # GNOME – svensk översättningsinventering
 
-Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-26 06:03 UTC. Endast `main`, `master` och `gnome-50` ingår.
+Källa: [GNOME Damned Lies, svenska](https://l10n.gnome.org/languages/sv/). Hämtad 2026-11-26 06:07 UTC. Endast `main`, `master` och `gnome-50` ingår.
 
 Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 
@@ -287,7 +287,7 @@ Terminologistöd: [Svenska GNOME-termer](TERMINOLOGI.md).
 | Dokumentation | Default (71% translated) | [gedit](https://l10n.gnome.org/vertimus/gedit/main/help/sv/) | main | 388 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [gedit](https://l10n.gnome.org/vertimus/gedit/gnome-50/help/sv/) | gnome-50 | 367 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [gedit-latex](https://l10n.gnome.org/vertimus/gedit-latex/master/po/sv/) | master | 211 | 0 | 0 | Klar |  | — | Ej granskad |
-| Dokumentation | Default (71% translated) | [gedit-plugins — Collection of plugins for the gedit text editor](https://l10n.gnome.org/vertimus/gedit-plugins/gnome-50/help/sv/) | gnome-50 | 33 | 0 | 0 | Klar |  | — | Ej granskad |
+| Dokumentation | Default (71% translated) | [gedit-plugins — Collection of plugins for the gedit text editor](https://l10n.gnome.org/vertimus/gedit-plugins/gnome-50/help/sv/) | gnome-50 | 33 | 0 | 0 | Klar | X | 18 | Klar lokalt (2026-11-26): Alla 33 aktiva hjälpsträngar radgranskade mot senaste POT (2026-11-10): 0 oöversatta och 0 fuzzy. 18 befintliga översättningar rättade, 0 nya. msgfmt, msgcmp och l10n-lint (0 fel/varningar) godkända; egna Yelp/XML-, URL- och radbrytningskontroller passerar. Ingen inskickning till GNOME. [original](gedit-plugins/gnome-50/help/gedit-plugins.gnome-50.help.sv.original.po), [granskad](gedit-plugins/gnome-50/help/gedit-plugins.gnome-50.help.sv.reviewed.po), [diff](gedit-plugins/gnome-50/help/gedit-plugins.gnome-50.help.sv.review.diff), [notering](gedit-plugins/gnome-50/help/README.md) |
 | Gränssnitt | Default (99% translated) | [gegl](https://l10n.gnome.org/vertimus/gegl/master/po/sv/) | master | 2260 | 0 | 0 | Klar |  | — | Ej granskad |
 | Gränssnitt | Default (99% translated) | [genius](https://l10n.gnome.org/vertimus/genius/master/po/sv/) | master | 1175 | 0 | 0 | Klar |  | — | Ej granskad |
 | Dokumentation | Default (71% translated) | [genius](https://l10n.gnome.org/vertimus/genius/master/help/sv/) | master | 2465 | 0 | 0 | Klar |  | — | Ej granskad |

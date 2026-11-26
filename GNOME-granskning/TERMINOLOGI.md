@@ -427,3 +427,12 @@ argumentet betyder i just det programmet.
 | renew a ticket | förnya en biljett | |
 | Kerberos Network Authentication Dialog | Kerberos Network Authentication Dialog | Programnamn; lämnas oförändrat. |
 | PKINIT / pkcs11 | PKINIT / pkcs11 | Protokoll- och bibliotekidentifierare. |
+## gedit-plugins
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| bookmark | bokmärke | |
+| whitespace | blanktecken | Mellanslag, tabbar och liknande osynliga tecken. |
+| Draw Spaces | Visa blanktecken | Namn på insticksmodul. |
+| Word Completion | ordkomplettering | |
+| Num (word suggestion) | siffra | Översättbar platshållare för sifferförslaget. |
