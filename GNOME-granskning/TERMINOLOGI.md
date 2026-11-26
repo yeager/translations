@@ -676,3 +676,17 @@ argumentet betyder i just det programmet.
 | socket | socket | Etablerad nätverksterm; använd utan parentetisk engelsk förklaring. |
 | HTTP header | HTTP-huvud | Skilj från sid-/dokumentrubrik. |
 | WebSocket handshake | WebSocket-handskakning | |
+
+
+## WirePlumber
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| audio sink | ljudutgång | PipeWire-ljudmål. |
+| audio source | ljudkälla | PipeWire-ljudkälla/ingång. |
+| stream | ström / ljudström | Använd *ljudström* när sammanhanget kräver tydlighet. |
+| route | rutt | Enhetens valda ljudväg/rutt i WirePlumber. |
+| ducking | automatisk volymsänkning | Volymen sänks för att en ström med högre prioritet ska höras. |
+| headset mode | headsetläge | |
+| latency | fördröjning | Översätt i löptext; enumvärdet `latency` bevaras. |
+| quality | ljudkvalitet | Enumvärdet `quality` bevaras i tekniska värdelistor. |
