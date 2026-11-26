@@ -1,0 +1,583 @@
+--- .work-gnome-current/krb5-auth-dialog/original.po	2026-11-26 06:59:02.799299610 +0100
++++ .work-gnome-current/krb5-auth-dialog/reviewed.po	2026-11-26 07:02:28.074669829 +0100
+@@ -9,8 +9,8 @@
+ msgstr ""
+ "Project-Id-Version: krb5-auth-dialog master\n"
+ "POT-Creation-Date: 2026-11-10 17:16+0000\n"
+-"PO-Revision-Date: 2025-01-17 21:08+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-26 07:00+01:00\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -32,7 +32,7 @@
+ msgid ""
+ "<application>Kerberos Network Authentication Dialog</application> Manual"
+ msgstr ""
+-"<application>Nätverksautentiseringsdialog för Kerberos</application>-handbok"
++"<application>Kerberos Network Authentication Dialog</application> – handbok"
+ 
+ #. (itstool) path: abstract/para
+ #: C/index.docbook:41
+@@ -40,8 +40,8 @@
+ "Kerberos Network Authentication Dialog is a small helper that monitors and "
+ "refreshes your Kerberos ticket."
+ msgstr ""
+-"Kerberos-nätverksautentiseringsdialog är ett litet hjälpverktyg som "
+-"övervakar och uppdaterar din Kerberos-biljett."
++"Kerberos Network Authentication Dialog är ett litet hjälpverktyg som "
++"övervakar och förnyar din Kerberos-biljett."
+ 
+ #. (itstool) path: articleinfo/copyright
+ #: C/index.docbook:45
+@@ -79,7 +79,8 @@
+ #. (itstool) path: revhistory/revision
+ #: C/index.docbook:102
+ msgid "<revnumber>3.0</revnumber> <date>May 2009</date> <_:revdescription-1/>"
+-msgstr "<revnumber>3.0</revnumber> <date>Maj 2009</date> <_:revdescription-1/>"
++msgstr ""
++"<revnumber>3.0</revnumber> <date>Maj 2009</date> <_:revdescription-1/>"
+ 
+ #. (itstool) path: articleinfo/releaseinfo
+ #: C/index.docbook:112
+@@ -87,13 +88,13 @@
+ "This manual describes how to use the Kerberos Network Authentication Dialog "
+ "to manage your Kerberos tickets."
+ msgstr ""
+-"Handboken beskriver hur nätverksautentiseringsdialogen för Kerberos ska "
+-"hantera dina Kerberos-biljetter."
++"Den här handboken beskriver hur du använder Kerberos Network Authentication "
++"Dialog för att hantera dina Kerberos-biljetter."
+ 
+ #. (itstool) path: legalnotice/title
+ #: C/index.docbook:116
+ msgid "Feedback"
+-msgstr "Återkoppling"
++msgstr "Synpunkter"
+ 
+ #. (itstool) path: legalnotice/para
+ #: C/index.docbook:117
+@@ -102,9 +103,9 @@
+ "use <ulink url=\"https://gitlab.gnome.org/GNOME/krb5-auth-dialog/issues/\" "
+ "type=\"http\">GNOME Gitlab</ulink>."
+ msgstr ""
+-"För att rapportera ett fel eller för att ge ett förslag gällande detta paket "
+-"eller denna handbok, använd <ulink url=\"https://gitlab.gnome.org/GNOME/krb5-"
+-"auth-dialog/issues/\" type=\"http\">GNOME:s Gitlab</ulink>."
++"Använd <ulink url=\"https://gitlab.gnome.org/GNOME/krb5-auth-"
++"dialog/issues/\" type=\"http\">GNOME GitLab</ulink> för att rapportera fel "
++"eller lämna förslag om paketet eller handboken."
+ 
+ #. (itstool) path: section/title
+ #: C/index.docbook:129
+@@ -114,12 +115,13 @@
+ #. (itstool) path: section/indexterm
+ #: C/index.docbook:130
+ msgid ""
+-"<primary><application>Kerberos Network Authentication Dialog</application></"
+-"primary> <secondary>Manual</secondary> <tertiary>krb5-auth-dialog</tertiary>"
+-msgstr ""
+-"<primary><application>Nätverksautentiseringsdialog för Kerberos</"
+-"application></primary> <secondary>Handbok</secondary> <tertiary>krb5-auth-"
+-"dialog</tertiary>"
++"<primary><application>Kerberos Network Authentication "
++"Dialog</application></primary> <secondary>Manual</secondary> "
++"<tertiary>krb5-auth-dialog</tertiary>"
++msgstr ""
++"<primary><application>Kerberos Network Authentication "
++"Dialog</application></primary> <secondary>Handbok</secondary> "
++"<tertiary>krb5-auth-dialog</tertiary>"
+ 
+ #. (itstool) path: section/para
+ #: C/index.docbook:136
+@@ -128,9 +130,9 @@
+ "<systemitem>GNOME desktop</systemitem> that monitors and refreshes your "
+ "Kerberos ticket. It pops up reminders when the ticket is about to expire."
+ msgstr ""
+-"Kerberos-nätverksautentiseringsdialog är ett miniprogram för "
+-"<systemitem>GNOME-skrivbordet</systemitem> som övervakar och uppdaterar din "
+-"Kerberos-biljett. Den visar påminnelser när biljetten håller på att gå ut."
++"Kerberos Network Authentication Dialog är ett miniprogram för "
++"<systemitem>GNOME-skrivbordet</systemitem> som övervakar och förnyar din "
++"Kerberos-biljett. Det visar en påminnelse när biljetten snart går ut."
+ 
+ #. (itstool) path: section/para
+ #: C/index.docbook:141
+@@ -140,11 +142,10 @@
+ "can also be used to destroy (remove) the credential cache, to acquire a "
+ "ticket with different options or to switch to another principal."
+ msgstr ""
+-"När du har erhållit en Kerberos-biljett - må vara genom GDM eller via själva "
+-"miniprogrammet - kommer miniprogrammet att hantera biljettens förnyelse "
+-"tills den går ut. Det kan också användas till att förstöra (ta bort) cachen "
+-"för autentiseringsuppgifter, för att kunna erhålla en biljett med andra "
+-"alternativ eller för att byta till en annan principal."
++"När du har hämtat en Kerberos-biljett (via GDM eller miniprogrammet) förnyar"
++" miniprogrammet den tills den går ut. Du kan också använda det för att ta "
++"bort cachen för autentiseringsuppgifter, hämta en biljett med andra "
++"alternativ eller byta till en annan principal."
+ 
+ #. (itstool) path: section/title
+ #: C/index.docbook:146
+@@ -154,14 +155,13 @@
+ #. (itstool) path: section/para
+ #: C/index.docbook:147
+ msgid ""
+-"<application>Kerberos Network Authentication Dialog</application> is usually "
+-"started in GNOME startup, but you can manually start <application>Kerberos "
++"<application>Kerberos Network Authentication Dialog</application> is usually"
++" started in GNOME startup, but you can manually start <application>Kerberos "
+ "Network Authentication Dialog</application> by doing:"
+ msgstr ""
+-"<application>Kerberos-nätverksautentiseringsdialog</application> startas "
+-"vanligen vid GNOME-uppstart, men du kan manuellt starta "
+-"<application>Kerberos-nätverksautentiseringsdialog</application> genom att "
+-"utföra:"
++"<application>Kerberos Network Authentication Dialog</application> startas "
++"vanligtvis när GNOME startar. Du kan också starta <application>Kerberos "
++"Network Authentication Dialog</application> manuellt så här:"
+ 
+ #. (itstool) path: varlistentry/term
+ #: C/index.docbook:153
+@@ -171,31 +171,32 @@
+ #. (itstool) path: listitem/para
+ #: C/index.docbook:155
+ msgid ""
+-"Type <command>krb5-auth-dialog</command>, then press <keycap>Return</keycap>:"
++"Type <command>krb5-auth-dialog</command>, then press "
++"<keycap>Return</keycap>:"
+ msgstr ""
+-"Skriv <command>krb5-auth-dialog</command> och tryck sedan ned <keycap>Retur</"
+-"keycap>:"
++"Skriv <command>krb5-auth-dialog</command> och tryck sedan ned "
++"<keycap>Retur</keycap>:"
+ 
+ #. (itstool) path: section/para
+ #: C/index.docbook:162
+ msgid ""
+-"From now on <application>Kerberos Network Authentication Dialog</"
+-"application> will display notifications when the status of your Kerberos "
+-"tickets changes. If you want to get an overview of the current tickets just "
+-"activate <application>Kerberos Network Authentication Dialog</application> "
+-"by clicking on the notification or by starting it again as described above."
+-msgstr ""
+-"Hädanefter kommer <application>Kerberos-nätverksautentiseringsdialog</"
+-"application> att visa aviseringar när status ändras för dina Kerberos-"
+-"biljetter. Om du vill få en överblick över de aktuella biljetterna kan du "
+-"helt enkelt aktivera <application>Kerberos-nätverksautentiseringsdialog</"
+-"application> genom att klicka på aviseringen eller genom att starta det igen "
+-"som beskrivits ovan."
++"From now on <application>Kerberos Network Authentication "
++"Dialog</application> will display notifications when the status of your "
++"Kerberos tickets changes. If you want to get an overview of the current "
++"tickets just activate <application>Kerberos Network Authentication "
++"Dialog</application> by clicking on the notification or by starting it again"
++" as described above."
++msgstr ""
++"Därefter visar <application>Kerberos Network Authentication "
++"Dialog</application> aviseringar när statusen för dina Kerberos-biljetter "
++"ändras. Om du vill få en översikt över aktuella biljetter klickar du på "
++"aviseringen eller startar <application>Kerberos Network Authentication "
++"Dialog</application> igen enligt beskrivningen ovan."
+ 
+ #. (itstool) path: section/title
+ #: C/index.docbook:171
+ msgid "Notification Messages"
+-msgstr "Aviseringsmeddelanden"
++msgstr "Aviseringar"
+ 
+ #. (itstool) path: section/para
+ #: C/index.docbook:172
+@@ -203,13 +204,13 @@
+ "When Kerberos Network Authentication Dialog has started, the following "
+ "notifications may be displayed."
+ msgstr ""
+-"När Kerberos-nätverksautentiseringsdialog har startat kan följande "
++"När Kerberos Network Authentication Dialog har startat kan följande "
+ "aviseringar visas."
+ 
+ #. (itstool) path: section/title
+ #: C/index.docbook:177
+ msgid "Kerberos credentials valid"
+-msgstr "Giltiga Kerberos-autentiseringsuppgifter"
++msgstr "Kerberos-autentiseringsuppgifter är giltiga"
+ 
+ #. (itstool) path: section/para
+ #: C/index.docbook:178
+@@ -217,7 +218,7 @@
+ "You just acquired a valid Kerberos ticket that can be used to authenticate "
+ "to network services."
+ msgstr ""
+-"Du har just begärt en giltig Kerberos-biljett som kan användas för att "
++"Du har just hämtat en giltig Kerberos-biljett som kan användas för att "
+ "autentisera mot nätverkstjänster."
+ 
+ #. (itstool) path: figure/title
+@@ -240,7 +241,7 @@
+ #. (itstool) path: section/title
+ #: C/index.docbook:192
+ msgid "Kerberos credentials expiring"
+-msgstr "Kerberos-autentiseringsuppgifter förfaller"
++msgstr "Kerberos-autentiseringsuppgifter går snart ut"
+ 
+ #. (itstool) path: section/para
+ #: C/index.docbook:193
+@@ -248,13 +249,13 @@
+ "Your Kerberos credentials are about to expire. You can click on \"Get "
+ "Ticket\" in the notification to refresh them."
+ msgstr ""
+-"Dina Kerberos-autentiseringsuppgifter är på väg att förfalla. Du kan klicka "
+-"på ”Hämta biljett” i aviseringen för att uppdatera dem."
++"Dina Kerberos-autentiseringsuppgifter går snart ut. Klicka på ”Hämta "
++"biljett” i aviseringen för att förnya dem."
+ 
+ #. (itstool) path: figure/title
+ #: C/index.docbook:195
+ msgid "Notification when Kerberos credentials expiring"
+-msgstr "Avisering när Kerberos-autentiseringsuppgifter förfaller"
++msgstr "Avisering när Kerberos-autentiseringsuppgifter snart går ut"
+ 
+ #. (itstool) path: imageobject/imagedata
+ #. This is a reference to an external file such as an image or video. When
+@@ -264,30 +265,32 @@
+ #: C/index.docbook:199
+ msgctxt "_"
+ msgid ""
+-"external ref='figures/ka-expiring.png' md5='ba1c279842de639e8774b2e4509ea596'"
++"external ref='figures/ka-expiring.png' "
++"md5='ba1c279842de639e8774b2e4509ea596'"
+ msgstr ""
+-"external ref='figures/ka-expiring.png' md5='ba1c279842de639e8774b2e4509ea596'"
++"external ref='figures/ka-expiring.png' "
++"md5='ba1c279842de639e8774b2e4509ea596'"
+ 
+ #. (itstool) path: section/title
+ #: C/index.docbook:207
+ msgid "Kerberos credentials expired"
+-msgstr "Kerberos-autentiseringsuppgifter har förfallit"
++msgstr "Kerberos-autentiseringsuppgifter har gått ut"
+ 
+ #. (itstool) path: section/para
+ #: C/index.docbook:208
+ msgid ""
+ "Your Kerberos credentials just expired. They can no longer be used to "
+-"authenticate to network services. You can click on \"Get Ticket\" to acquire "
+-"valid credentials."
++"authenticate to network services. You can click on \"Get Ticket\" to acquire"
++" valid credentials."
+ msgstr ""
+-"Dina Kerberos-autentiseringsuppgifter förföll nyss. De kan inte längre "
+-"användas för att autentisera mot nätverkstjänster. Du kan klicka på ”Hämta "
+-"biljett” för att erhålla giltiga autentiseringsuppgifter."
++"Dina Kerberos-autentiseringsuppgifter har just gått ut och kan inte längre "
++"användas för att autentisera mot nätverkstjänster. Klicka på ”Hämta biljett”"
++" för att hämta giltiga autentiseringsuppgifter."
+ 
+ #. (itstool) path: figure/title
+ #: C/index.docbook:213
+ msgid "Notification when Kerberos credentials expired"
+-msgstr "Avisering när Kerberos-autentiseringsuppgifter förfallit"
++msgstr "Avisering när Kerberos-autentiseringsuppgifter har gått ut"
+ 
+ #. (itstool) path: imageobject/imagedata
+ #. This is a reference to an external file such as an image or video. When
+@@ -333,14 +336,14 @@
+ "you change this setting you have to destroy the credential cache before "
+ "these setting takes effect."
+ msgstr ""
+-"Kerberos-principal att använda. Lämna tomt för att använda ditt aktuella "
+-"användarnamn. Om du ändrar denna inställning måste du tömma cachen för "
+-"autentiseringsuppgifter innan inställningarna ger effekt."
++"Kerberos-principal att använda. Lämna fältet tomt om du vill använda ditt "
++"nuvarande användarnamn. Om du ändrar inställningen måste du ta bort cachen "
++"för autentiseringsuppgifter innan ändringen börjar gälla."
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:256
+ msgid "<guilabel>PKINIT Userid</guilabel>"
+-msgstr "<guilabel>PKINIT-användarID</guilabel>"
++msgstr "<guilabel>PKINIT-användar-ID</guilabel>"
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:261
+@@ -349,26 +352,26 @@
+ "using PKINIT. To enable using a security token add the path to the pkcs11 "
+ "Library here, e.g. \"PKCS11:/usr/lib/opensc/opensc-pkcs11.so\""
+ msgstr ""
+-"Principalens offentlig/privat/certifikatidentifierare. Lämna tomt om du inte "
+-"använder PKINIT. För att aktivera användning av en säkerhetstoken, lägg till "
+-"en sökväg till pkcs11-biblioteket här, till exempel \"PKCS11:/usr/lib/opensc/"
+-"opensc-pkcs11.so\""
++"Principalens identifierare för publik nyckel, privat nyckel eller "
++"certifikat. Lämna fältet tomt om du inte använder PKINIT. Om du vill använda"
++" en säkerhetstoken anger du sökvägen till pkcs11-biblioteket här, till "
++"exempel ”PKCS11:/usr/lib/opensc/opensc-pkcs11.so”"
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:266
+ msgid "<guilabel>PKINIT anchors</guilabel>"
+-msgstr "<guilabel>PKINIT-ankare</guilabel>"
++msgstr "<guilabel>PKINIT-förtroendeankare</guilabel>"
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:271
+ msgid ""
+ "Path to CA certificates used as trust anchors for pkinit. You only need to "
+-"set this if it hasn't been set up globally in <filename>/etc/krb5.conf</"
+-"filename>"
++"set this if it hasn't been set up globally in "
++"<filename>/etc/krb5.conf</filename>"
+ msgstr ""
+-"Sökväg till CA-certifikat att använda som förtroendeankare för pkinit. Du "
+-"behöver bara ställa in detta om det inte angetts globalt i <filename>/etc/"
+-"krb5.conf</filename>"
++"Sökväg till CA-certifikat som används som förtroendeankare för pkinit. Ange "
++"bara detta om sökvägen inte redan har konfigurerats globalt i "
++"<filename>/etc/krb5.conf</filename>"
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:276
+@@ -378,7 +381,8 @@
+ #. (itstool) path: entry/para
+ #: C/index.docbook:281
+ msgid "Whether the requested Kerberos ticket should be forwardable."
+-msgstr "Huruvida den begärda Kerberos-biljetten ska vara vidarebefordringsbar."
++msgstr ""
++"Huruvida den begärda Kerberos-biljetten ska vara vidarebefordringsbar."
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:286
+@@ -404,7 +408,7 @@
+ #. (itstool) path: entry/para
+ #: C/index.docbook:306
+ msgid "<guilabel>Warn .. minutes before ticket expiry</guilabel>"
+-msgstr "<guilabel>Varna .. minuter innan biljett förfaller</guilabel>"
++msgstr "<guilabel>Varna .. minuter innan biljetten går ut</guilabel>"
+ 
+ #. (itstool) path: entry/para
+ #: C/index.docbook:311
+@@ -412,8 +416,8 @@
+ "Notifications that your credentials are about to expire will be sent that "
+ "many minutes before expiry."
+ msgstr ""
+-"Aviseringar om att dina autentiseringsuppgifter kommer att förfalla kommer "
+-"att skickas ut så här många minuter innan de förfaller."
++"Aviseringar om att dina autentiseringsuppgifter snart går ut visas så många "
++"minuter i förväg."
+ 
+ #. (itstool) path: section/para
+ #: C/index.docbook:227
+@@ -421,8 +425,8 @@
+ "You can set preferences by selecting \"Preferences\" from the window's "
+ "hamburger menu. <_:table-1/>"
+ msgstr ""
+-"Du kan ange inställningar genom att välja ”Inställningar” från fönstrets "
+-"hamburgermeny. <_:table-1/>"
++"Välj ”Inställningar” i fönstrets hamburgermeny för att ändra "
++"inställningarna. <_:table-1/>"
+ 
+ #. (itstool) path: para/ulink
+ #: C/legal.xml:9
+@@ -435,28 +439,27 @@
+ "Permission is granted to copy, distribute and/or modify this document under "
+ "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+ "later version published by the Free Software Foundation with no Invariant "
+-"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+-"of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
++"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy"
++" of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
+ "with this manual."
+ msgstr ""
+-"Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges "
+-"under villkoren i GNU Free Documentation License (GFDL), version 1.1 eller "
+-"senare, utgivet av Free Software Foundation utan standardavsnitt och "
+-"omslagstexter. En kopia av GFDL finns att hämta på denna <_:ulink-1/> eller "
+-"i filen COPYING-DOCS som medföljer denna handbok."
++"Du får kopiera, distribuera och/eller ändra det här dokumentet enligt "
++"villkoren i GNU Free Documentation License (GFDL), version 1.1 eller senare "
++"version som publicerats av Free Software Foundation, utan invarianta "
++"avsnitt, framsidestexter eller baksidestexter. En kopia av GFDL finns på "
++"<_:ulink-1/> eller i filen COPYING-DOCS som följer med handboken."
+ 
+ #. (itstool) path: legalnotice/para
+ #: C/legal.xml:12
+ msgid ""
+ "This manual is part of a collection of GNOME manuals distributed under the "
+ "GFDL. If you want to distribute this manual separately from the collection, "
+-"you can do so by adding a copy of the license to the manual, as described in "
+-"section 6 of the license."
++"you can do so by adding a copy of the license to the manual, as described in"
++" section 6 of the license."
+ msgstr ""
+-"Denna handbok utgör en av flera GNOME-handböcker som distribueras under "
+-"villkoren i GFDL. Om du vill distribuera denna handbok separat från övriga "
+-"handböcker kan du göra detta genom att lägga till en kopia av licensavtalet "
+-"i handboken enligt instruktionerna i avsnitt 6 i licensavtalet."
++"Den här handboken ingår i en samling GNOME-handböcker som distribueras under"
++" GFDL. Om du vill distribuera handboken separat kan du lägga till en kopia "
++"av licensen enligt beskrivningen i avsnitt 6."
+ 
+ #. (itstool) path: legalnotice/para
+ #: C/legal.xml:19
+@@ -467,10 +470,10 @@
+ "aware of those trademarks, then the names are in capital letters or initial "
+ "capital letters."
+ msgstr ""
+-"Flera namn på produkter och tjänster är registrerade varumärken. I de fall "
+-"dessa namn förekommer i GNOME-dokumentation - och medlemmarna i GNOME-"
+-"dokumentationsprojektet är medvetna om dessa varumärken - är de skrivna med "
+-"versaler eller med inledande versal."
++"Många namn som företag använder för att skilja sina produkter och tjänster "
++"åt är varumärken. När sådana namn förekommer i GNOME-dokumentation och "
++"medlemmarna i GNOMEs dokumentationsprojekt känner till varumärkena, skrivs "
++"namnen med versaler eller inledande versal."
+ 
+ #. (itstool) path: listitem/para
+ #: C/legal.xml:35
+@@ -487,46 +490,42 @@
+ "ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+ "OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+ msgstr ""
+-"DOKUMENTET TILLHANDAHÅLLS I \"BEFINTLIGT SKICK\" UTAN NÅGRA SOM HELST "
+-"GARANTIER, VARE SIG UTTRYCKLIGA ELLER UNDERFÖRSTÅDDA, INKLUSIVE, MEN INTE "
+-"BEGRÄNSAT TILL, GARANTIER ATT DOKUMENTET ELLER EN MODIFIERAD VERSION AV "
+-"DOKUMENTET INTE INNEHÅLLER NÅGRA FELAKTIGHETER, ÄR LÄMPLIGT FÖR ETT VISST "
+-"ÄNDAMÅL ELLER INTE STRIDER MOT LAG. HELA RISKEN VAD GÄLLER KVALITET, "
+-"EXAKTHET OCH UTFÖRANDE AV DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET "
+-"LIGGER HELT OCH HÅLLET PÅ ANVÄNDAREN. OM ETT DOKUMENT ELLER EN MODIFIERAD "
+-"VERSION AV ETT DOKUMENT SKULLE VISA SIG INNEHÅLLA FELAKTIGHETER I NÅGOT "
+-"HÄNSEENDE ÄR DET DU (INTE DEN URSPRUNGLIGA SKRIBENTEN, FÖRFATTAREN ELLER "
+-"NÅGON ANNAN MEDARBETARE) SOM FÅR STÅ FÖR ALLA EVENTUELLA KOSTNADER FÖR "
+-"SERVICE, REPARATIONER ELLER KORRIGERINGAR. DENNA GARANTIFRISKRIVNING UTGÖR "
+-"EN VÄSENTLIG DEL AV DETTA LICENSAVTAL. DETTA INNEBÄR ATT ALL ANVÄNDNING AV "
+-"ETT DOKUMENT ELLER EN MODIFIERAD VERSION AV ETT DOKUMENT BEVILJAS ENDAST "
+-"UNDER DENNA ANSVARSFRISKRIVNING;"
++"DOKUMENTET TILLHANDAHÅLLS I ”BEFINTLIGT SKICK”, UTAN NÅGON SOM HELST "
++"GARANTI, UTTRYCKLIG ELLER UNDERFÖRSTÅDD. DETTA INKLUDERAR, UTAN BEGRÄNSNING,"
++" GARANTIER OM ATT DOKUMENTET ELLER EN ÄNDRAD VERSION AV DET ÄR FELFRI, AV "
++"SÄLJBAR KVALITET, LÄMPLIG FÖR ETT VISST ÄNDAMÅL ELLER INTE GÖR INTRÅNG I "
++"NÅGONS RÄTTIGHETER. DU BÄR HELA RISKEN FÖR DOKUMENTETS ELLER EN ÄNDRAD "
++"VERSIONS KVALITET, KORREKTHET OCH FUNKTION. OM ETT DOKUMENT ELLER EN ÄNDRAD "
++"VERSION VISAR SIG HA NÅGON BRIST SKA DU (INTE DEN URSPRUNGLIGA SKRIBENTEN, "
++"FÖRFATTAREN ELLER NÅGON MEDARBETARE) STÅ FÖR ALLA KOSTNADER FÖR NÖDVÄNDIG "
++"SERVICE, REPARATION ELLER KORRIGERING. DENNA GARANTIFRISKRIVNING ÄR EN "
++"VÄSENTLIG DEL AV LICENSEN. DOKUMENTET ELLER EN ÄNDRAD VERSION FÅR ENDAST "
++"ANVÄNDAS I ENLIGHET MED DENNA FRISKRIVNING; OCH"
+ 
+ #. (itstool) path: listitem/para
+ #: C/legal.xml:55
+ msgid ""
+-"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+-"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
++"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING"
++" NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+ "CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+ "DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+ "FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+ "ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+-"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+-"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+-"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+-"POSSIBILITY OF SUCH DAMAGES."
+-msgstr ""
+-"UNDER INGA OMSTÄNDIGHETER ELLER INOM RAMEN FÖR NÅGON LAGSTIFTNING, OAVSETT "
+-"OM DET GÄLLER KRÄNKNING (INKLUSIVE VÅRDSLÖSHET), KONTRAKT ELLER DYLIKT, SKA "
+-"FÖRFATTAREN, DEN URSPRUNGLIGA SKRIBENTEN ELLER ANNAN MEDARBETARE ELLER "
+-"ÅTERFÖRSÄLJARE AV DOKUMENTET ELLER AV EN MODIFIERAD VERSION AV DOKUMENTET "
+-"ELLER NÅGON LEVERANTÖR TILL NÅGON AV NÄMNDA PARTER STÄLLAS ANSVARIG GENTEMOT "
+-"NÅGON FÖR NÅGRA DIREKTA, INDIREKTA, SÄRSKILDA ELLER OFÖRUTSEDDA SKADOR ELLER "
+-"FÖLJDSKADOR AV NÅGOT SLAG, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, SKADOR "
+-"BETRÄFFANDE FÖRLORAD GOODWILL, HINDER I ARBETET, DATORHAVERI ELLER NÅGRA "
+-"ANDRA TÄNKBARA SKADOR ELLER FÖRLUSTER SOM KAN UPPKOMMA PÅ GRUND AV ELLER "
+-"RELATERAT TILL ANVÄNDNINGEN AV DOKUMENTET ELLER MODIFIERADE VERSIONER AV "
+-"DOKUMENTET, ÄVEN OM PART SKA HA BLIVIT INFORMERAD OM MÖJLIGHETEN TILL SÅDANA "
++"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES"
++" OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
++"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
++" POSSIBILITY OF SUCH DAMAGES."
++msgstr ""
++"UNDER INGA OMSTÄNDIGHETER OCH OAVSETT RÄTTSLIG GRUND, VARE SIG DET GÄLLER "
++"UTOMOBLIGATORISKT SKADESTÅND (INKLUSIVE VÅRDSLÖSHET), AVTAL ELLER ANNAT, SKA"
++" FÖRFATTAREN, DEN URSPRUNGLIGA SKRIBENTEN, VARJE MEDARBETARE ELLER "
++"DISTRIBUTÖR AV DOKUMENTET ELLER EN ÄNDRAD VERSION AV DET, ELLER LEVERANTÖR "
++"TILL NÅGON AV DESSA PARTER, INTE ANSVARA GENTEMOT NÅGON FÖR DIREKTA, "
++"INDIREKTA, SÄRSKILDA, TILLFÄLLIGA ELLER FÖLJDRELATERADE SKADOR AV NÅGOT "
++"SLAG. DETTA GÄLLER BLAND ANNAT FÖRLUST AV GOODWILL, ARBETSAVBROTT, DATORFEL "
++"ELLER FUNKTIONSSTÖRNINGAR OCH ALLA ANDRA SKADOR ELLER FÖRLUSTER SOM UPPSTÅR "
++"TILL FÖLJD AV ELLER HAR SAMBAND MED ANVÄNDNINGEN AV DOKUMENTET ELLER ÄNDRADE"
++" VERSIONER AV DET, ÄVEN OM PARTEN HAR INFORMERATS OM RISKEN FÖR SÅDANA "
+ "SKADOR."
+ 
+ #. (itstool) path: legalnotice/para
+@@ -541,44 +540,43 @@
+ "FÖRUTSÄTTNINGAR: <_:orderedlist-1/>"
+ 
+ #~ msgid ""
+-#~ "Permission is granted to copy, distribute and/or modify this document "
+-#~ "under the terms of the GNU Free Documentation License (GFDL), Version 1.1 "
+-#~ "or any later version published by the Free Software Foundation with no "
+-#~ "Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You "
+-#~ "can find a copy of the GFDL at this <ulink type=\"help\" "
+-#~ "url=\"ghelp:fdl\">link</ulink> or in the file COPYING-DOCS distributed "
+-#~ "with this manual."
++#~ "Permission is granted to copy, distribute and/or modify this document under "
++#~ "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
++#~ "later version published by the Free Software Foundation with no Invariant "
++#~ "Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy"
++#~ " of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
++#~ "in the file COPYING-DOCS distributed with this manual."
+ #~ msgstr ""
+ #~ "Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges "
+-#~ "under villkoren i GNU Free Documentation License (GFDL), version 1.1 "
+-#~ "eller senare, utgivet av Free Software Foundation utan standardavsnitt "
+-#~ "och omslagstexter. En kopia av GFDL finns att hämta på denna <ulink "
+-#~ "type=\"help\" url=\"ghelp:fdl\">länk</ulink> eller i filen COPYING-DOCS "
+-#~ "som medföljer denna handbok."
++#~ "under villkoren i GNU Free Documentation License (GFDL), version 1.1 eller "
++#~ "senare, utgivet av Free Software Foundation utan standardavsnitt och "
++#~ "omslagstexter. En kopia av GFDL finns att hämta på denna <ulink "
++#~ "type=\"help\" url=\"ghelp:fdl\">länk</ulink> eller i filen COPYING-DOCS som "
++#~ "medföljer denna handbok."
+ 
+ #~ msgid ""
+-#~ "Whether the requested Kerberos ticket should be forwardable. Changing "
+-#~ "this setting requires to you to reauthenticate by left clicking on the "
+-#~ "tray icon and entering your password."
++#~ "Whether the requested Kerberos ticket should be forwardable. Changing this "
++#~ "setting requires to you to reauthenticate by left clicking on the tray icon "
++#~ "and entering your password."
+ #~ msgstr ""
+-#~ "Huruvida den begärda Kerberos-biljetten ska vara vidarebefordringsbar. "
+-#~ "Att ändra denna inställning kräver att du återautentiserar genom att "
+-#~ "klicka på ikonen i aktivitetsfältet och anger ditt lösenord."
++#~ "Huruvida den begärda Kerberos-biljetten ska vara vidarebefordringsbar. Att "
++#~ "ändra denna inställning kräver att du återautentiserar genom att klicka på "
++#~ "ikonen i aktivitetsfältet och anger ditt lösenord."
+ 
+ #~ msgid ""
+ #~ "Whether the requested Kerberos ticket should be renewable. Changing this "
+-#~ "setting requires to you to reauthenticate by left clicking on the tray "
+-#~ "icon and entering your password."
++#~ "setting requires to you to reauthenticate by left clicking on the tray icon "
++#~ "and entering your password."
+ #~ msgstr ""
+ #~ "Huruvida den begärda Kerberos-biljetten ska vara förnyelsebar. Att ändra "
+-#~ "denna inställning kräver att du återautentiserar genom att klicka på "
+-#~ "ikonen i aktivitetsfältet och anger ditt lösenord."
++#~ "denna inställning kräver att du återautentiserar genom att klicka på ikonen "
++#~ "i aktivitetsfältet och anger ditt lösenord."
+ 
+ #~ msgid ""
+ #~ "Whether the requested Kerberos ticket should be proxiable. Changing this "
+-#~ "setting requires to you to reauthenticate by left clicking on the tray "
+-#~ "icon and entering your password."
++#~ "setting requires to you to reauthenticate by left clicking on the tray icon "
++#~ "and entering your password."
+ #~ msgstr ""
+-#~ "Huruvida den begärda Kerberos-biljetten ska vara proxybar. Att ändra "
+-#~ "denna inställning kräver att du återautentiserar genom att klicka på "
+-#~ "ikonen i aktivitetsfältet och anger ditt lösenord."
++#~ "Huruvida den begärda Kerberos-biljetten ska vara proxybar. Att ändra denna "
++#~ "inställning kräver att du återautentiserar genom att klicka på ikonen i "
++#~ "aktivitetsfältet och anger ditt lösenord."

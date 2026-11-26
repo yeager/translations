@@ -416,3 +416,14 @@ argumentet betyder i just det programmet.
 | spin box | snurrknapp | Numerisk inställningskontroll. |
 | fortune (command) | fortune | Kommandonamn och produktnamn lämnas oförändrade. |
 | Fish (applet) | Fisk | Översatt namn på miniprogrammet. |
+## Kerberos
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| Kerberos ticket | Kerberos-biljett | |
+| credential cache | cache för autentiseringsuppgifter | |
+| principal | principal | Behåll Kerberos-termen. |
+| trust anchor | förtroendeankare | |
+| renew a ticket | förnya en biljett | |
+| Kerberos Network Authentication Dialog | Kerberos Network Authentication Dialog | Programnamn; lämnas oförändrat. |
+| PKINIT / pkcs11 | PKINIT / pkcs11 | Protokoll- och bibliotekidentifierare. |
