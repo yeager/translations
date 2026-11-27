@@ -13,3 +13,11 @@
 - 1 befintlig sträng korrigerad: beskrivande kommandoradsargument översatta till svenska.
 - Validering: `msgfmt --check`; `l10n-lint`-regeln `metavariable-translation` ger inga kvarvarande träffar i de 295 granskade huvudgrenarnas kataloger.
 - Ändringen är lokal och har inte skickats till GNOME.
+
+## Uppföljning efter tidigare uppladdning
+
+En kommandoradsmetavariabel korrigerades 2026-11-24 efter uppladdningen 2026-11-23. Den aktuella katalogen är komplett mot POT; uppföljningsändringen väntar på inskickning.
+
+`l10n-lint` ger 0 fel och 1 varning om identiska pluralformer för `About %u year(s) ago`; identiskt `år` är korrekt på svenska i singular och plural. Gränsnotiserna beror på giltigt flyttade ASCII-acceleratorer.
+
+- Hunspell: `hunspell-unknown.txt` innehåller stavningslexikonets okända token från den aktuella granskade filen. Träffarna är kontrollerade: tekniska namn/flaggar och svenska sammansättningar, acceleratorfragment samt i Ptyxis den avsiktliga fontprovstexten `hwila` (pangram med bokstaven w). För GNOME Text Editor är pluralvarningen för `år` dokumenterad; samma form är korrekt på svenska.

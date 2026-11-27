@@ -13,3 +13,11 @@
 - 4 befintliga strängar korrigerade: beskrivande kommandoradsargument översatta till svenska.
 - Validering: `msgfmt --check`; `l10n-lint`-regeln `metavariable-translation` ger inga kvarvarande träffar i de 295 granskade huvudgrenarnas kataloger.
 - Ändringen är lokal och har inte skickats till GNOME.
+
+## Uppföljning efter tidigare uppladdning
+
+Fyra kommandoradsmetavariabler korrigerades 2026-11-24 efter uppladdningen 2026-11-23. En ytterligare formulering rättades 2026-11-27: `Removed profile “%s”` blev `Profilen ”%s” togs bort`. Uppföljningsfilen laddades upp 2026-11-27 21:09 UTC med kommentaren `Granskad och klar`; aktivitet 1582105 bekräftar 473/0/0. Den sammanslagna PO-filen matchar den granskade filen exakt. `l10n-lint` ger 0 fel och 0 varningar; informationsnotiserna gäller placering av giltiga ASCII-acceleratorer och valutastil.
+
+- Hunspell: `hunspell-unknown.txt` innehåller stavningslexikonets okända token från den aktuella granskade filen. Träffarna är kontrollerade: tekniska namn/flaggor och svenska sammansättningar, acceleratorfragment samt den avsiktliga fontprovstexten `hwila` (pangram med bokstaven w).
+
+- Uppladdningsverifiering: `submission.json`, `activity-after-upload.html` och `ptyxis.main.sv.submitted.merged.po`.
