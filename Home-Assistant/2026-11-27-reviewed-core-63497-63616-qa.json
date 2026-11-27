@@ -1,0 +1,1217 @@
+{
+  "source_revision": "1d07105b760c73093145526a51758938e87cc658",
+  "reviewed_positions": 120,
+  "current_strings": 116,
+  "direct_strings": 83,
+  "references": 33,
+  "source_absent": 4,
+  "previously_reported": 31,
+  "placeholder_verified": 116,
+  "plural_keys": 0,
+  "changes_saved_and_read_back": 26,
+  "proposed_text_already_current": 1,
+  "row_outcomes": [
+    {
+      "position": 63497,
+      "key": "component::zhong_hong::config::error::cannot_connect",
+      "en": "Failed to connect",
+      "existing_sv": "Det gick inte att ansluta",
+      "reviewed_sv": "Det gick inte att ansluta",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63498,
+      "key": "component::zhong_hong::config::error::no_devices_found",
+      "en": "Connected to the gateway, but it did not report any air conditioners.",
+      "existing_sv": "Ansluten till gatewayen, men den rapporterade inga luftkonditioneringsenheter.",
+      "reviewed_sv": "Ansluten till gatewayen, men den rapporterade inga luftkonditioneringsenheter.",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63499,
+      "key": "component::zhong_hong::config::step::user::data::gateway_address",
+      "en": "Gateway address",
+      "existing_sv": "Gateway-adress",
+      "reviewed_sv": "Gateway-adress",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63500,
+      "key": "component::zhong_hong::config::step::user::data::host",
+      "en": "Host",
+      "existing_sv": "Värd",
+      "reviewed_sv": "Värd",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63501,
+      "key": "component::zhong_hong::config::step::user::data::port",
+      "en": "Port",
+      "existing_sv": "Port",
+      "reviewed_sv": "Port",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63502,
+      "key": "component::zhong_hong::config::step::user::data_description::gateway_address",
+      "en": "The address the gateway itself answers to, which is 1 from the factory. Change this only if the gateway was set to another address.",
+      "existing_sv": "Adressen som din gateway själv svarar på; fabriksinställningen är 1. Ändra bara detta om din gateway har ställts in på en annan adress.",
+      "reviewed_sv": "Adressen som din gateway själv svarar på; fabriksinställningen är 1. Ändra bara detta om din gateway har ställts in på en annan adress.",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63503,
+      "key": "component::zhong_hong::config::step::user::data_description::host",
+      "en": "The hostname or IP address of the ZhongHong gateway on your network.",
+      "existing_sv": "Värdnamnet eller IP-adressen för din ZhongHong-gateway i ditt nätverk.",
+      "reviewed_sv": "Värdnamnet eller IP-adressen för din ZhongHong-gateway i ditt nätverk.",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63504,
+      "key": "component::zhong_hong::config::step::user::data_description::port",
+      "en": "The port the gateway accepts connections on. This is 9999 unless it was changed on the gateway.",
+      "existing_sv": "Porten som din gateway accepterar anslutningar på. Den är 9999 om den inte har ändrats.",
+      "reviewed_sv": "Porten som din gateway accepterar anslutningar på. Den är 9999 om den inte har ändrats.",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63505,
+      "key": "component::zhong_hong::exceptions::cannot_connect::message",
+      "en": "Failed to connect to the ZhongHong gateway at {host}.",
+      "existing_sv": "Det gick inte att ansluta till ZhongHong-gatewayen på {host}.",
+      "reviewed_sv": "Det gick inte att ansluta till ZhongHong-gatewayen på {host}.",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63506,
+      "key": "component::zhong_hong::exceptions::no_devices_found::message",
+      "en": "The ZhongHong gateway at {host} did not report any air conditioners.",
+      "existing_sv": "ZhongHong-gatewayen på {host} rapporterade inga luftkonditioneringsenheter.",
+      "reviewed_sv": "ZhongHong-gatewayen på {host} rapporterade inga luftkonditioneringsenheter.",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63507,
+      "key": "component::zhong_hong::exceptions::send_command_failed::message",
+      "en": "Failed to send {command} command to the ZhongHong gateway.",
+      "existing_sv": "Det gick inte att skicka kommandot {command} till ZhongHong-gatewayen.",
+      "reviewed_sv": "Det gick inte att skicka kommandot {command} till ZhongHong-gatewayen.",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63508,
+      "key": "component::zhong_hong::issues::deprecated_yaml_import_issue_cannot_connect::description",
+      "en": "Configuring {integration_title} using YAML is being removed, but the gateway at {host} could not be reached, so the configuration could not be imported.\n\nCheck that the gateway is switched on and reachable at that address, then restart Home Assistant. If it is gone for good, remove the {domain} YAML configuration from your configuration.yaml file.",
+      "existing_sv": "Konfiguration av {integration_title} med YAML håller på att tas bort, men gatewayen på {host} kunde inte nås, så konfigurationen kunde inte importeras.\n\nKontrollera att gatewayen är påslagen och kan nås på den adressen och starta sedan om Home Assistant. Om den är permanent borta tar du bort YAML-konfigurationen för {domain} från filen configuration.yaml.",
+      "reviewed_sv": "Konfiguration av {integration_title} med YAML håller på att tas bort, men gatewayen på {host} kunde inte nås, så konfigurationen kunde inte importeras.\n\nKontrollera att gatewayen är påslagen och kan nås på den adressen och starta sedan om Home Assistant. Om den är permanent borta tar du bort YAML-konfigurationen för {domain} från filen configuration.yaml.",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63509,
+      "key": "component::zhong_hong::issues::deprecated_yaml_import_issue_cannot_connect::title",
+      "en": "The {integration_title} YAML configuration could not be imported",
+      "existing_sv": "YAML-konfigurationen för {integration_title} kunde inte importeras",
+      "reviewed_sv": "YAML-konfigurationen för {integration_title} kunde inte importeras",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63510,
+      "key": "component::zhong_hong::issues::deprecated_yaml_import_issue_no_devices_found::description",
+      "en": "Configuring {integration_title} using YAML is being removed, but the gateway at {host} did not report any air conditioners, so the configuration could not be imported.\n\nCheck that the air conditioners are switched on and addressed on the gateway, then restart Home Assistant.",
+      "existing_sv": "Konfiguration av {integration_title} med YAML håller på att tas bort, men gatewayen på {host} rapporterade inga luftkonditioneringsenheter, så konfigurationen kunde inte importeras.\n\nKontrollera att luftkonditioneringsenheterna är påslagna och adresserade i gatewayen och starta sedan om Home Assistant.",
+      "reviewed_sv": "Konfiguration av {integration_title} med YAML håller på att tas bort, men gatewayen på {host} rapporterade inga luftkonditioneringsenheter, så konfigurationen kunde inte importeras.\n\nKontrollera att luftkonditioneringsenheterna är påslagna och har fått adresser i gatewayen. Starta sedan om Home Assistant.",
+      "changed": true,
+      "previously_reported": true,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63511,
+      "key": "component::zhong_hong::issues::deprecated_yaml_import_issue_no_devices_found::title",
+      "en": "The {integration_title} YAML configuration could not be imported",
+      "existing_sv": "YAML-konfigurationen för {integration_title} kunde inte importeras",
+      "reviewed_sv": "YAML-konfigurationen för {integration_title} kunde inte importeras",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63512,
+      "key": "component::gatus::entity::sensor::certificate_expiration::name",
+      "en": "Certificate expiration",
+      "existing_sv": "Certifikatets utgångsdatum",
+      "reviewed_sv": "Certifikatets utgångsdatum",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63513,
+      "key": "component::neopool::entity::button::escape::name",
+      "en": "Clear error messages",
+      "existing_sv": "Rensa felmeddelanden",
+      "reviewed_sv": "Rensa felmeddelanden",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63514,
+      "key": "component::neopool::entity::button::reset_cell_partial::name",
+      "en": "Reset partial runtime counters",
+      "existing_sv": "Återställ räknare för partiella körtider",
+      "reviewed_sv": "Återställ delräknare för drifttid",
+      "changed": true,
+      "previously_reported": false,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63515,
+      "key": "component::neopool::entity::button::sync_time::name",
+      "en": "Synchronize device time",
+      "existing_sv": "Synkronisera enhetens tid",
+      "reviewed_sv": "Synkronisera enhetens tid",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63516,
+      "key": "component::homematicip_cloud::entity::sensor::channel_1_temperature::name",
+      "en": "Channel 1 temperature",
+      "existing_sv": "Temperatur för kanal 1",
+      "reviewed_sv": "Temperatur för kanal 1",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63517,
+      "key": "component::homematicip_cloud::entity::sensor::channel_2_temperature::name",
+      "en": "Channel 2 temperature",
+      "existing_sv": "Temperatur för kanal 2",
+      "reviewed_sv": "Temperatur för kanal 2",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63518,
+      "key": "component::homematicip_cloud::entity::sensor::delta_temperature::name",
+      "en": "Delta temperature",
+      "existing_sv": "Deltatemperatur",
+      "reviewed_sv": "Deltatemperatur",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63519,
+      "key": "component::homematicip_cloud::entity::sensor::duty_cycle::name",
+      "en": "Duty cycle",
+      "existing_sv": "Arbetscykel",
+      "reviewed_sv": "Sändningsandel",
+      "changed": true,
+      "previously_reported": false,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63520,
+      "key": "component::homematicip_cloud::entity::sensor::heating::name",
+      "en": "Heating",
+      "existing_sv": "Värmer",
+      "reviewed_sv": "Uppvärmning",
+      "changed": true,
+      "previously_reported": false,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63521,
+      "key": "component::homematicip_cloud::entity::sensor::tilt_angle::name",
+      "en": "Tilt angle",
+      "existing_sv": "Lutningsvinkel",
+      "reviewed_sv": "Lutningsvinkel",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63522,
+      "key": "component::homematicip_cloud::entity::sensor::today_rain::name",
+      "en": "Today rain",
+      "existing_sv": "Nederbörd i dag",
+      "reviewed_sv": "Nederbörd i dag",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63523,
+      "key": "component::gatus::config::abort::reauth_successful",
+      "en": "Re-authentication was successful",
+      "existing_sv": "Återautentisering lyckades",
+      "reviewed_sv": "Återautentisering lyckades",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "source path absent; existing text retained; follow-up documented"
+    },
+    {
+      "position": 63524,
+      "key": "component::gatus::config::error::invalid_auth",
+      "en": "Invalid authentication",
+      "existing_sv": "Ogiltig autentisering",
+      "reviewed_sv": "Ogiltig autentisering",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63525,
+      "key": "component::gatus::config::step::reauth_confirm::data::password",
+      "en": "Password",
+      "existing_sv": "Lösenord",
+      "reviewed_sv": "Lösenord",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63526,
+      "key": "component::gatus::config::step::reauth_confirm::data::token",
+      "en": "API key",
+      "existing_sv": "API-nyckel",
+      "reviewed_sv": "API-nyckel",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63527,
+      "key": "component::gatus::config::step::reauth_confirm::data::username",
+      "en": "Username",
+      "existing_sv": "Användarnamn",
+      "reviewed_sv": "Användarnamn",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63528,
+      "key": "component::gatus::config::step::reauth_confirm::data_description::password",
+      "en": "Optional password for HTTP Basic Authentication.",
+      "existing_sv": "Valfritt lösenord för HTTP Basic-autentisering.",
+      "reviewed_sv": "Valfritt lösenord för HTTP Basic-autentisering.",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63529,
+      "key": "component::gatus::config::step::reauth_confirm::data_description::token",
+      "en": "Optional API token / Bearer token for authentication.",
+      "existing_sv": "Valfri API-token/Bearer-token för autentisering.",
+      "reviewed_sv": "Valfri API-token eller Bearer-token för autentisering.",
+      "changed": true,
+      "previously_reported": false,
+      "review_status": "reference; target checked live; updated and read back"
+    },
+    {
+      "position": 63530,
+      "key": "component::gatus::config::step::reauth_confirm::data_description::username",
+      "en": "Optional username for HTTP Basic Authentication.",
+      "existing_sv": "Valfritt användarnamn för HTTP Basic-autentisering.",
+      "reviewed_sv": "Valfritt användarnamn för HTTP Basic-autentisering.",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63531,
+      "key": "component::gatus::config::step::reauth_confirm::description",
+      "en": "Please re-enter your credentials for Gatus.",
+      "existing_sv": "Ange dina inloggningsuppgifter för Gatus igen.",
+      "reviewed_sv": "Ange dina inloggningsuppgifter för Gatus igen.",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63532,
+      "key": "component::gatus::config::step::reconfigure::data::password",
+      "en": "Password",
+      "existing_sv": "Lösenord",
+      "reviewed_sv": "Lösenord",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63533,
+      "key": "component::gatus::config::step::reconfigure::data::token",
+      "en": "API key",
+      "existing_sv": "API-nyckel",
+      "reviewed_sv": "API-nyckel",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63534,
+      "key": "component::gatus::config::step::reconfigure::data::username",
+      "en": "Username",
+      "existing_sv": "Användarnamn",
+      "reviewed_sv": "Användarnamn",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63535,
+      "key": "component::gatus::config::step::reconfigure::data_description::password",
+      "en": "Optional password for HTTP Basic Authentication.",
+      "existing_sv": "Valfritt lösenord för HTTP Basic-autentisering.",
+      "reviewed_sv": "Valfritt lösenord för HTTP Basic-autentisering.",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63536,
+      "key": "component::gatus::config::step::reconfigure::data_description::token",
+      "en": "Optional API token / Bearer token for authentication.",
+      "existing_sv": "Valfri API-token/Bearer-token för autentisering.",
+      "reviewed_sv": "Valfri API-token eller Bearer-token för autentisering.",
+      "changed": true,
+      "previously_reported": false,
+      "review_status": "reference; target checked live; updated and read back"
+    },
+    {
+      "position": 63537,
+      "key": "component::gatus::config::step::reconfigure::data_description::username",
+      "en": "Optional username for HTTP Basic Authentication.",
+      "existing_sv": "Valfritt användarnamn för HTTP Basic-autentisering.",
+      "reviewed_sv": "Valfritt användarnamn för HTTP Basic-autentisering.",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63538,
+      "key": "component::gatus::config::step::user::data::password",
+      "en": "Password",
+      "existing_sv": "Lösenord",
+      "reviewed_sv": "Lösenord",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63539,
+      "key": "component::gatus::config::step::user::data::token",
+      "en": "API key",
+      "existing_sv": "API-nyckel",
+      "reviewed_sv": "API-nyckel",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63540,
+      "key": "component::gatus::config::step::user::data::username",
+      "en": "Username",
+      "existing_sv": "Användarnamn",
+      "reviewed_sv": "Användarnamn",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63541,
+      "key": "component::gatus::config::step::user::data_description::password",
+      "en": "Optional password for HTTP Basic Authentication.",
+      "existing_sv": "Valfritt lösenord för HTTP Basic-autentisering.",
+      "reviewed_sv": "Valfritt lösenord för HTTP Basic-autentisering.",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63542,
+      "key": "component::gatus::config::step::user::data_description::token",
+      "en": "Optional API token / Bearer token for authentication.",
+      "existing_sv": "Valfri API-token/Bearer-token för autentisering.",
+      "reviewed_sv": "Valfri API-token eller Bearer-token för autentisering.",
+      "changed": true,
+      "previously_reported": false,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63543,
+      "key": "component::gatus::config::step::user::data_description::username",
+      "en": "Optional username for HTTP Basic Authentication.",
+      "existing_sv": "Valfritt användarnamn för HTTP Basic-autentisering.",
+      "reviewed_sv": "Valfritt användarnamn för HTTP Basic-autentisering.",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63544,
+      "key": "component::sofar::entity::sensor::offgrid_load_peak_ratio::name",
+      "en": "Off-grid load peak ratio",
+      "existing_sv": "Off-grid topplast kvot",
+      "reviewed_sv": "Topplastkvot vid fristående drift",
+      "changed": true,
+      "previously_reported": true,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63545,
+      "key": "component::sofar::entity::sensor::offgrid_load_peak_ratio_l1::name",
+      "en": "Off-grid load peak ratio L1",
+      "existing_sv": "Off-grid topplast kvot L1",
+      "reviewed_sv": "Topplastkvot vid fristående drift L1",
+      "changed": true,
+      "previously_reported": true,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63546,
+      "key": "component::sofar::entity::sensor::offgrid_load_peak_ratio_l2::name",
+      "en": "Off-grid load peak ratio L2",
+      "existing_sv": "Off-grid topplast kvot L2",
+      "reviewed_sv": "Topplastkvot vid fristående drift L2",
+      "changed": true,
+      "previously_reported": true,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63547,
+      "key": "component::sofar::entity::sensor::offgrid_load_peak_ratio_l3::name",
+      "en": "Off-grid load peak ratio L3",
+      "existing_sv": "Off-grid topplast kvot L3",
+      "reviewed_sv": "Topplastkvot vid fristående drift L3",
+      "changed": true,
+      "previously_reported": true,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63548,
+      "key": "component::matter::entity::switch::display::name",
+      "en": "Display",
+      "existing_sv": "Display",
+      "reviewed_sv": "Display",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63549,
+      "key": "component::sofar::device::battery::name",
+      "en": "Battery {number}",
+      "existing_sv": "Batteri {number}",
+      "reviewed_sv": "Batteri {number}",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63550,
+      "key": "component::sofar::device::pv_string::name",
+      "en": "PV string {number}",
+      "existing_sv": "PV-sträng {number}",
+      "reviewed_sv": "PV-sträng {number}",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63551,
+      "key": "component::sofar::entity::sensor::charge_cycle::name",
+      "en": "Charge cycle",
+      "existing_sv": "Laddningscykel",
+      "reviewed_sv": "Laddningscykel",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63552,
+      "key": "component::sofar::entity::sensor::current::name",
+      "en": "Current",
+      "existing_sv": "Ström",
+      "reviewed_sv": "Ström",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63553,
+      "key": "component::sofar::entity::sensor::power::name",
+      "en": "Power",
+      "existing_sv": "Effekt",
+      "reviewed_sv": "Effekt",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63554,
+      "key": "component::sofar::entity::sensor::state_of_charge::name",
+      "en": "State of charge",
+      "existing_sv": "Laddningstillstånd",
+      "reviewed_sv": "Laddningstillstånd",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63555,
+      "key": "component::sofar::entity::sensor::state_of_health::name",
+      "en": "State of health",
+      "existing_sv": "Hälsotillstånd",
+      "reviewed_sv": "Hälsotillstånd",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63556,
+      "key": "component::sofar::entity::sensor::temperature::name",
+      "en": "Temperature",
+      "existing_sv": "Temperatur",
+      "reviewed_sv": "Temperatur",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63557,
+      "key": "component::sofar::entity::sensor::voltage::name",
+      "en": "Voltage",
+      "existing_sv": "Spänning",
+      "reviewed_sv": "Spänning",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63558,
+      "key": "component::fronius::entity::number::ac_power_limit::name",
+      "en": "AC power limit",
+      "existing_sv": "AC-effektgräns",
+      "reviewed_sv": "AC-effektgräns",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63559,
+      "key": "component::fronius::entity::switch::ac_power_limit_enabled::name",
+      "en": "AC power limiting",
+      "existing_sv": "AC-effektbegränsning",
+      "reviewed_sv": "AC-effektbegränsning",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63560,
+      "key": "component::midea::entity::climate::climate::state_attributes::fan_mode::state::full",
+      "en": "Full",
+      "existing_sv": "Full",
+      "reviewed_sv": "Full hastighet",
+      "changed": true,
+      "previously_reported": false,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63561,
+      "key": "component::midea::entity::climate::climate::state_attributes::fan_mode::state::silent",
+      "en": "Silent",
+      "existing_sv": "Tyst",
+      "reviewed_sv": "Tyst",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63562,
+      "key": "component::sofar::entity::button::iv_curve_scan::name",
+      "en": "IV curve scan",
+      "existing_sv": "IV-kurvskanning",
+      "reviewed_sv": "Skanning av I–V-kurva",
+      "changed": true,
+      "previously_reported": false,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63563,
+      "key": "component::sofar::entity::button::rtc_sync::name",
+      "en": "RTC sync",
+      "existing_sv": "RTC-synk",
+      "reviewed_sv": "RTC-synk",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63564,
+      "key": "component::neopool::config::abort::reconfigure_successful",
+      "en": "Reconfiguration was successful",
+      "existing_sv": "Omkonfigureringen lyckades",
+      "reviewed_sv": "Omkonfigureringen lyckades",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "source path absent; existing text retained; follow-up documented"
+    },
+    {
+      "position": 63565,
+      "key": "component::neopool::config::abort::serial_mismatch",
+      "en": "The device at this address has a different serial number than the one originally configured.",
+      "existing_sv": "Enheten på den här adressen har ett annat serienummer än den enhet som ursprungligen konfigurerades.",
+      "reviewed_sv": "Enheten på den här adressen har ett annat serienummer än den enhet som ursprungligen konfigurerades.",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63566,
+      "key": "component::neopool::config::step::reconfigure::data::host",
+      "en": "Host",
+      "existing_sv": "Värd",
+      "reviewed_sv": "Värd",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63567,
+      "key": "component::neopool::config::step::reconfigure::data::modbus_framer",
+      "en": "Modbus framer",
+      "existing_sv": "Modbus-inramning",
+      "reviewed_sv": "Modbus-inramning",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63568,
+      "key": "component::neopool::config::step::reconfigure::data::port",
+      "en": "Port",
+      "existing_sv": "Port",
+      "reviewed_sv": "Port",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63569,
+      "key": "component::neopool::config::step::reconfigure::data::unit_id",
+      "en": "Unit ID",
+      "existing_sv": "Enhets-ID",
+      "reviewed_sv": "Enhets-ID",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "source path absent; earlier transient proposal reverted; previous text restored and read back"
+    },
+    {
+      "position": 63570,
+      "key": "component::neopool::config::step::reconfigure::data_description::host",
+      "en": "Enter the IP address of the Modbus TCP gateway connected to your pool controller.",
+      "existing_sv": "Ange IP-adressen till Modbus TCP-gatewayen som är ansluten till poolstyrenheten.",
+      "reviewed_sv": "Ange IP-adressen till Modbus TCP-gatewayen som är ansluten till poolstyrenheten.",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63571,
+      "key": "component::neopool::config::step::reconfigure::data_description::modbus_framer",
+      "en": "Wire protocol used by the gateway. Select TCP for MBAP framing (default for Ethernet-native gateways). Select RTU for RTU framing tunnelled through a TCP socket, used by passthrough serial-to-TCP bridges like ESPHome's stream_server.",
+      "existing_sv": "Protokollet som gatewayen använder. Välj TCP för MBAP-inramning, vilket är standard för Ethernet-baserade gatewayar. Välj RTU för RTU-inramning som tunnlas genom en TCP-socket. Det används av bryggor mellan serieport och TCP, till exempel ESPHomes stream_server.",
+      "reviewed_sv": "Protokollet som gatewayen använder. Välj TCP för MBAP-inramning, vilket är standard för Ethernet-baserade gatewayar. Välj RTU för RTU-inramning som tunnlas genom en TCP-socket. Det används av bryggor mellan serieport och TCP, till exempel ESPHomes stream_server.",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63572,
+      "key": "component::neopool::config::step::reconfigure::data_description::port",
+      "en": "Standard Modbus TCP port (default: 502). Change only if your gateway uses a non-standard port.",
+      "existing_sv": "Standardport för Modbus TCP, 502. Ändra bara om gatewayen använder en annan port.",
+      "reviewed_sv": "Standardport för Modbus TCP, 502. Ändra bara om gatewayen använder en annan port.",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63573,
+      "key": "component::neopool::config::step::reconfigure::data_description::unit_id",
+      "en": "Modbus device address (1-247). Identifies the specific device on a shared bus. Most direct-connected devices use 1. Gateways may route requests to different addresses.",
+      "existing_sv": "Modbus-enhetsadress (1–247). Identifierar den specifika enheten på en delad buss. De flesta direktanslutna enheter använder adress 1. Gateway-enheter kan dirigera förfrågningar till olika adresser.",
+      "reviewed_sv": "Modbus-enhetsadress (1–247). Identifierar den specifika enheten på en delad buss. De flesta direktanslutna enheter använder adress 1. Gateway-enheter kan dirigera förfrågningar till olika adresser.",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "source path absent; existing text retained; follow-up documented"
+    },
+    {
+      "position": 63574,
+      "key": "component::neopool::config::step::reconfigure::description",
+      "en": "Update the connection settings for your NeoPool controller.",
+      "existing_sv": "Uppdatera anslutningsinställningarna för din NeoPool-styrenhet.",
+      "reviewed_sv": "Uppdatera anslutningsinställningarna för din NeoPool-styrenhet.",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63575,
+      "key": "component::neopool::config::step::reconfigure::title",
+      "en": "Reconfigure NeoPool Connection",
+      "existing_sv": "Konfigurera om NeoPool-anslutningen",
+      "reviewed_sv": "Konfigurera om NeoPool-anslutningen",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63576,
+      "key": "component::openevse::entity::sensor::status::state::charging",
+      "en": "Charging",
+      "existing_sv": "Laddar",
+      "reviewed_sv": "Laddar",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63577,
+      "key": "component::openevse::entity::sensor::status::state::connected",
+      "en": "Connected",
+      "existing_sv": "Ansluten",
+      "reviewed_sv": "Ansluten",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63578,
+      "key": "component::openevse::entity::sensor::status::state::diode_check_failed",
+      "en": "Diode check failed",
+      "existing_sv": "Diodkontroll misslyckades",
+      "reviewed_sv": "Diodkontroll misslyckades",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63579,
+      "key": "component::openevse::entity::sensor::status::state::disabled",
+      "en": "Disabled",
+      "existing_sv": "Inaktiverad",
+      "reviewed_sv": "Inaktiverad",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63580,
+      "key": "component::openevse::entity::sensor::status::state::gfci_fault",
+      "en": "GFCI fault",
+      "existing_sv": "GFCI-fel",
+      "reviewed_sv": "Jordfelsbrytarfel",
+      "changed": true,
+      "previously_reported": false,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63581,
+      "key": "component::openevse::entity::sensor::status::state::gfci_self_test_failure",
+      "en": "GFCI self-test failure",
+      "existing_sv": "Fel vid GFCI-självtest",
+      "reviewed_sv": "Fel vid jordfelsbrytarens självtest",
+      "changed": true,
+      "previously_reported": true,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63582,
+      "key": "component::openevse::entity::sensor::status::state::no_ground",
+      "en": "No ground",
+      "existing_sv": "Ingen jord",
+      "reviewed_sv": "Skyddsjord saknas",
+      "changed": true,
+      "previously_reported": false,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63583,
+      "key": "component::openevse::entity::sensor::status::state::not_connected",
+      "en": "Not connected",
+      "existing_sv": "Inte ansluten",
+      "reviewed_sv": "Inte ansluten",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63584,
+      "key": "component::openevse::entity::sensor::status::state::over_temperature",
+      "en": "Over temperature",
+      "existing_sv": "Övertemperatur",
+      "reviewed_sv": "Övertemperatur",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63585,
+      "key": "component::openevse::entity::sensor::status::state::sleeping",
+      "en": "Sleeping",
+      "existing_sv": "Sover",
+      "reviewed_sv": "Sover",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63586,
+      "key": "component::openevse::entity::sensor::status::state::stuck_relay",
+      "en": "Stuck relay",
+      "existing_sv": "Reläet har fastnat",
+      "reviewed_sv": "Reläet har fastnat",
+      "changed": false,
+      "previously_reported": true,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63587,
+      "key": "component::openevse::entity::sensor::status::state::vent_required",
+      "en": "Vent required",
+      "existing_sv": "Ventilation krävs",
+      "reviewed_sv": "Ventilation krävs",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; proposed text already current"
+    },
+    {
+      "position": 63588,
+      "key": "component::knx::exceptions::device_trigger_invalid_config::message",
+      "en": "Invalid KNX telegram trigger configuration: {error}",
+      "existing_sv": "Ogiltig konfiguration av KNX-telegramutlösare: {error}",
+      "reviewed_sv": "Ogiltig konfiguration av KNX-telegramutlösare: {error}",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63589,
+      "key": "component::dlna_dmr::exceptions::request_connection_error::message",
+      "en": "Could not connect to device when calling service for action {action}",
+      "existing_sv": "Det gick inte att ansluta till enheten när tjänsten anropades för åtgärden {action}",
+      "reviewed_sv": "Det gick inte att ansluta till enheten när tjänsten anropades för åtgärden {action}",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63590,
+      "key": "component::dlna_dmr::exceptions::request_error::message",
+      "en": "Error when calling device service for action {action}: {upnperror}",
+      "existing_sv": "Fel vid anrop av enhetstjänst för åtgärd {action}: {upnperror}",
+      "reviewed_sv": "Fel vid anrop av enhetstjänst för åtgärd {action}: {upnperror}",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63591,
+      "key": "component::matter::entity::number::slat_rotation_time::name",
+      "en": "Slat rotation time",
+      "existing_sv": "Rotationstid för lamell",
+      "reviewed_sv": "Rotationstid för lamellen",
+      "changed": true,
+      "previously_reported": false,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63592,
+      "key": "component::matter::entity::number::travel_time_down::name",
+      "en": "Travel time down",
+      "existing_sv": "Gångtid ner",
+      "reviewed_sv": "Rörelsetid nedåt",
+      "changed": true,
+      "previously_reported": true,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63593,
+      "key": "component::matter::entity::number::travel_time_up::name",
+      "en": "Travel time up",
+      "existing_sv": "Gångtid upp",
+      "reviewed_sv": "Rörelsetid uppåt",
+      "changed": true,
+      "previously_reported": true,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63594,
+      "key": "component::hassio::issues::issue_mount_mount_failed::fix_flow::step::mount_execute_remove::description",
+      "en": "Select **Submit** to remove the network storage `{reference}` from Home Assistant. Any data stored on the device itself is not affected, but automations, backups or apps relying on this storage will no longer have access to it.\n\nYou can add the network storage again later from [storage]({storage_url}).",
+      "existing_sv": "Välj **Bekräfta** för att ta bort nätverkslagringen `{reference}` från Home Assistant. Data som lagras på själva enheten påverkas inte, men automatiseringar, säkerhetskopior eller appar som är beroende av denna lagring kommer inte längre att ha åtkomst till den.\n\nDu kan lägga till nätverkslagringen igen senare från [lagring]({storage_url}).",
+      "reviewed_sv": "Välj **Bekräfta** för att ta bort nätverkslagringen `{reference}` från Home Assistant. Data som lagras på själva enheten påverkas inte, men automatiseringar, säkerhetskopior eller appar som är beroende av denna lagring kommer inte längre att ha åtkomst till den.\n\nDu kan lägga till nätverkslagringen igen senare från [lagring]({storage_url}).",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63595,
+      "key": "component::google_sheets::exceptions::append_failed::message",
+      "en": "Failed to write data to the Google Sheets document",
+      "existing_sv": "Det gick inte att skriva data till Google Sheets-dokumentet",
+      "reviewed_sv": "Det gick inte att skriva data till Google Sheets-dokumentet",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63596,
+      "key": "component::google_sheets::exceptions::get_failed::message",
+      "en": "Failed to retrieve data from the Google Sheets document",
+      "existing_sv": "Det gick inte att hämta data från Google Sheets-dokumentet",
+      "reviewed_sv": "Det gick inte att hämta data från Google Sheets-dokumentet",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63597,
+      "key": "component::webostv::exceptions::screen_control_not_supported::message",
+      "en": "{name} does not support turning the screen on or off.",
+      "existing_sv": "{name} stöder inte att slå på eller stänga av skärmen.",
+      "reviewed_sv": "{name} har inte stöd för att slå på eller stänga av skärmen.",
+      "changed": true,
+      "previously_reported": false,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63598,
+      "key": "component::peblar::entity::sensor::charge_current_limit_source::state::internal_power_limit",
+      "en": "Internal power limit",
+      "existing_sv": "Intern effektgräns",
+      "reviewed_sv": "Intern effektgräns",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63599,
+      "key": "component::peblar::entity::sensor::charge_current_limit_source::state::reserved",
+      "en": "Reserved",
+      "existing_sv": "Reserverad",
+      "reviewed_sv": "Reserverad",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63600,
+      "key": "component::peblar::entity::select::buzzer_volume::name",
+      "en": "Buzzer volume",
+      "existing_sv": "Volym för summer",
+      "reviewed_sv": "Summerns volym",
+      "changed": true,
+      "previously_reported": true,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63601,
+      "key": "component::peblar::entity::select::buzzer_volume::state::high",
+      "en": "High",
+      "existing_sv": "Hög",
+      "reviewed_sv": "Hög",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63602,
+      "key": "component::peblar::entity::select::buzzer_volume::state::low",
+      "en": "Low",
+      "existing_sv": "Låg",
+      "reviewed_sv": "Låg",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63603,
+      "key": "component::peblar::entity::select::buzzer_volume::state::low_medium",
+      "en": "Low medium",
+      "existing_sv": "Mellanlåg",
+      "reviewed_sv": "Låg–medel",
+      "changed": true,
+      "previously_reported": true,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63604,
+      "key": "component::peblar::entity::select::buzzer_volume::state::medium",
+      "en": "Medium",
+      "existing_sv": "Medel",
+      "reviewed_sv": "Medel",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63605,
+      "key": "component::peblar::entity::select::buzzer_volume::state::off",
+      "en": "Off",
+      "existing_sv": "Av",
+      "reviewed_sv": "Av",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63606,
+      "key": "component::peblar::entity::select::led_brightness::name",
+      "en": "LED brightness",
+      "existing_sv": "LED-ljusstyrka",
+      "reviewed_sv": "LED-ljusstyrka",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63607,
+      "key": "component::peblar::entity::select::led_brightness::state::automatic",
+      "en": "Auto",
+      "existing_sv": "Auto",
+      "reviewed_sv": "Auto",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63608,
+      "key": "component::peblar::entity::select::led_brightness::state::bright",
+      "en": "Bright",
+      "existing_sv": "Ljus",
+      "reviewed_sv": "Hög",
+      "changed": true,
+      "previously_reported": false,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63609,
+      "key": "component::peblar::entity::select::led_brightness::state::dim",
+      "en": "Dim",
+      "existing_sv": "Dämpad",
+      "reviewed_sv": "Dämpad",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63610,
+      "key": "component::peblar::entity::select::led_brightness::state::medium",
+      "en": "Medium",
+      "existing_sv": "Medel",
+      "reviewed_sv": "Medel",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63611,
+      "key": "component::peblar::entity::select::led_brightness::state::off",
+      "en": "Off",
+      "existing_sv": "Av",
+      "reviewed_sv": "Av",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reference; target checked live"
+    },
+    {
+      "position": 63612,
+      "key": "component::peblar::exceptions::no_rfid_hardware::message",
+      "en": "{charger} has no RFID reader, so it has no standalone authorization list.",
+      "existing_sv": "{charger} har ingen RFID-läsare och har därför ingen fristående behörighetslista.",
+      "reviewed_sv": "{charger} har ingen RFID-läsare och har därför ingen fristående behörighetslista.",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63613,
+      "key": "component::peblar::services::add_rfid_token::description",
+      "en": "Adds an RFID token to the charger's standalone authorization list.",
+      "existing_sv": "Lägger till en RFID-token i laddarens fristående behörighetslista.",
+      "reviewed_sv": "Lägger till en RFID-tagg i laddarens fristående behörighetslista.",
+      "changed": true,
+      "previously_reported": false,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63614,
+      "key": "component::peblar::services::add_rfid_token::fields::config_entry_id::description",
+      "en": "The Peblar EV charger to add the RFID token to.",
+      "existing_sv": "Den Peblar-laddare som RFID-token ska läggas till i.",
+      "reviewed_sv": "Den Peblar EV-laddare som RFID-taggen ska läggas till på.",
+      "changed": true,
+      "previously_reported": false,
+      "review_status": "saved and read back"
+    },
+    {
+      "position": 63615,
+      "key": "component::peblar::services::add_rfid_token::fields::config_entry_id::name",
+      "en": "Peblar EV charger",
+      "existing_sv": "Peblar EV-laddare",
+      "reviewed_sv": "Peblar EV-laddare",
+      "changed": false,
+      "previously_reported": false,
+      "review_status": "reviewed; unchanged"
+    },
+    {
+      "position": 63616,
+      "key": "component::peblar::services::add_rfid_token::fields::description::description",
+      "en": "A human-readable label for this RFID token.",
+      "existing_sv": "En läsbar etikett för denna RFID-token.",
+      "reviewed_sv": "Ett läsbart namn för den här RFID-taggen.",
+      "changed": true,
+      "previously_reported": true,
+      "review_status": "saved and read back"
+    }
+  ],
+  "status": "reviewed; four source-path follow-ups remain; one transient write was reverted and API-verified",
+  "temporarily_written_source_absent_reverted": 1
+}
