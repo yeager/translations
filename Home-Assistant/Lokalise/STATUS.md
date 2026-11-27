@@ -2239,3 +2239,11 @@ Kompletterande granskning utanför den löpande ordningen: position 46 937–47 
 ## Sekventiell granskningsmarkör – 2026-11-27
 
 Senaste granskade position: **55 696** av 77 656. Nästa position: **55 697**; **21 960 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+
+### Batch: 55 697–55 816
+
+120 positioner radgranskades: 50 aktuella direkta strängar, 14 referenser och 56 historiska nycklar vars källväg saknas i aktuell Core. Alla 56 historiska poster fanns i tidigare rapporter. 15 rättelser i intervallet och en retroaktiv rättelse sparades och lästes tillbaka i Lokalise; alla 14 referensmål matchar. Platshållare 120/120, inga pluralnycklar. `svlang` hittade inga skrivregelfel; Hunspell-flaggorna bedömdes manuellt och motiverade ingen ordlisteändring. TMX validerar med 35 753 poster (35 522 Lokalise-ID, 231 historiska), speglarna är byteidentiska.
+
+## Sekventiell granskningsmarkör – 2026-11-27
+
+Senaste granskade position: **55 816** av 77 656. Nästa position: **55 817**; **21 840 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
