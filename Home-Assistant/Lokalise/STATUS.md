@@ -2306,3 +2306,12 @@ Senaste granskade position: **56 536** av 77 656. Nästa position: **56 537**; *
 ## Sekventiell granskningsmarkör – 2026-11-27
 
 Senaste granskade position: **56 656** av 77 656. Nästa position: **56 657**; **21 000 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+
+
+### Batch: 56 657–56 776
+
+120 positioner radgranskades: 78 direkta aktuella strängar, 39 referenser (36 unika mål) och tre tidigare dokumenterade nycklar utan aktuell källväg. Alla referensägare matchar målens engelska och svenska texter. 37 direkta rättelser sparades i Lokalise och lästes tillbaka; fyra delade knappnamnsreferenser följde sina uppdaterade mål och lästes också tillbaka. Platshållare 120/120; inga pluralnycklar. `svlang` hittade inga skrivregelfel. Hunspell-flaggor var produktnamn och tekniska identifierare. Home Assistants IMGW-PIB-dokumentation bekräftar att vegetationssensorerna mäter procentuell täckningsgrad. `EZ Adjust` i LG:s fjärrkontrollhändelser står kvar som osäker uppföljning. Föregående blocks osäkra kategorier `Vlach` och `Sabian` är fortfarande öppna. TMX validerar med 35 753 poster; live-manifestverifiering passerade 117/117.
+
+## Sekventiell granskningsmarkör – 2026-11-27
+
+Senaste granskade position: **56 776** av 77 656. Nästa position: **56 777**; **20 880 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
