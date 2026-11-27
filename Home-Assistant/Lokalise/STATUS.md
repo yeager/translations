@@ -2390,3 +2390,9 @@ Senaste position: **57 976** av 77 656. Nästa: **57 977**; **19 680 återstår*
 120 positioner granskades: 85 aktuella direkta strängar, 25 referenser och 10 historiska nycklar utan aktuell källväg. 25 rättelser sparades och API-lästes tillbaka. Alla referenser matchar; platshållare 120/120, inga pluralnycklar. `svlang` hittade inga skrivregelfel. HA-TMX uppdaterad och validerad.
 
 Senaste position: **58 096** av 77 656. Nästa: **58 097**; **19 560 återstår**. Granskningen fortsätter.
+
+### Batch: 58 097–58 216
+
+120 positioner granskades: 76 aktuella strängar  31 referenser och 13 dokumenterade äldre sökvägar (sju källor flyttade  sex saknar motsvarande nyckel). 16 rättelser sparades och API-lästes tillbaka. Referenser 31/31; flyttade källor 7/7; platshållare 120/120. HA-TMX validerar.
+
+Senaste position: **58 216** av 77 656. Nästa: **58 217**; **19 440 återstår**. Granskningen fortsätter.

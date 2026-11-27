@@ -1,0 +1,24 @@
+{
+  "positions": [
+    58097,
+    58216
+  ],
+  "positions_reviewed": 120,
+  "current_source_direct_keys": 76,
+  "reference_keys": 31,
+  "relocated_source_keys": 7,
+  "no_current_source_path_keys": 6,
+  "historical_source_path_followups": 13,
+  "changes_saved_and_read_back": 16,
+  "reference_source_and_translation_matches": "31/31",
+  "placeholder_checks_passed": "120/120",
+  "plural_keys": 0,
+  "svlang": "No writing-rule findings in sanitized proposed Swedish text.",
+  "hunspell_sv": "Reviewed hits are hyphenated compound fragments from acronym stripping; no unresolved ordinary Swedish spelling findings.",
+  "source_revision": "1d07105b760c73093145526a51758938e87cc658",
+  "followups": [
+    "13 Lokalise keys have no old direct source path; 7 Environment Canada keys exactly match current source text after moving under options.step.init.sections. Map these correspondences for future audits.",
+    "6 remain source-path follow-ups: Aqvify meter_value/water_level were renamed to level_from_sensor/level_from_top; Aqvify and Yoto reauth_successful and SMTP invalid_cert have no current key; KlikAanKlikUit config::error is empty in current source and blank structurally plural in Lokalise. Do not invent English text. All were documented previously."
+  ],
+  "notes": "All current referenced targets were live-fetched, with English and Swedish matching 31/31. Environment Canada moved paths were explicitly matched to current English strings."
+}
