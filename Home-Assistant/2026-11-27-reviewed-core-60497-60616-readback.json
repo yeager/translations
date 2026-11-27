@@ -1,0 +1,182 @@
+[
+  {
+    "key": "component::knx::config_panel::dashboard::send::description",
+    "key_id": "896674276",
+    "translation_id": "9170589009",
+    "en": "Send an arbitrary telegram to the KNX bus.",
+    "before": "Skicka ett godtyckligt telegram till KNX-bussen.",
+    "after": "Skicka ett valfritt telegram till KNX-bussen.",
+    "readback": "Skicka ett valfritt telegram till KNX-bussen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::knx::config_panel::entities::create::yaml::yaml_error",
+    "key_id": "896674289",
+    "translation_id": "9170589841",
+    "en": "There are YAML errors and it cannot be parsed. Switching to the visual editor may cause pending changes to be lost.",
+    "before": "Det finns YAML-fel och det kan inte tolkas. Om du byter till den visuella redigeraren kan det leda till att väntande ändringar går förlorade.",
+    "after": "YAML-koden innehåller fel och kan inte tolkas. Byter du till den visuella redigeraren kan väntande ändringar gå förlorade.",
+    "readback": "YAML-koden innehåller fel och kan inte tolkas. Byter du till den visuella redigeraren kan väntande ändringar gå förlorade.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::knx::config_panel::expose::create::yaml::mode_hint",
+    "key_id": "896674290",
+    "translation_id": "9170589905",
+    "en": "This is an internal representation of the expose configuration and may change in future Home Assistant versions. YAML mode is intended for debugging, and for sharing or copying configurations — prefer the visual editor for everyday use.",
+    "before": "Detta är en intern representation av Expose-konfigurationen och kan komma att ändras i framtida versioner av Home Assistant. YAML-läget är avsett för felsökning samt för att dela eller kopiera konfigurationer – använd helst den visuella redigeraren för daglig användning.",
+    "after": "Detta är en intern representation av konfigurationen för entitetsexponering och kan ändras i framtida versioner av Home Assistant. YAML-läget är avsett för felsökning och för att dela eller kopiera konfigurationer – använd helst den visuella redigeraren i vardagen.",
+    "readback": "Detta är en intern representation av konfigurationen för entitetsexponering och kan ändras i framtida versioner av Home Assistant. YAML-läget är avsett för felsökning och för att dela eller kopiera konfigurationer – använd helst den visuella redigeraren i vardagen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wiim::exceptions::device_setup_failed::message",
+    "key_id": "896962408",
+    "translation_id": "9174654356",
+    "en": "Device setup failed for {host}",
+    "before": "Enhetskonfigurationen misslyckades för {host}",
+    "after": "Konfigurationen av enheten på {host} misslyckades.",
+    "readback": "Konfigurationen av enheten på {host} misslyckades.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wiim::exceptions::http_api_request_failed::message",
+    "key_id": "896962410",
+    "translation_id": "9174654484",
+    "en": "HTTP API request failed for {host}",
+    "before": "HTTP API-begäran misslyckades för {host}",
+    "after": "HTTP API-anropet misslyckades för {host}.",
+    "readback": "HTTP API-anropet misslyckades för {host}.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wiim::exceptions::invalid_track_id::message",
+    "key_id": "896962413",
+    "translation_id": "9174654676",
+    "en": "Invalid media ID: {media_id}. Expected a valid track index.",
+    "before": "Ogiltigt medie-ID: {media_id}. Ett giltigt spårindex förväntas.",
+    "after": "Ogiltigt medie-ID: {media_id}. Ett giltigt spårindex måste anges.",
+    "readback": "Ogiltigt medie-ID: {media_id}. Ett giltigt spårindex måste anges.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wiim::exceptions::unsupported_media_type::message",
+    "key_id": "896962415",
+    "translation_id": "9174654804",
+    "en": "Unsupported media type: {media_type}",
+    "before": "Medietyp stöds inte: {media_type}",
+    "after": "Medietypen stöds inte: {media_type}",
+    "readback": "Medietypen stöds inte: {media_type}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::hassio::issues::unhealthy_data_filesystem_check_error::description",
+    "key_id": "897161294",
+    "translation_id": "9178069288",
+    "en": "System is currently unhealthy because a filesystem integrity check failed on the data partition. This can be caused by unexpected power loss or failing storage and may affect configuration, apps, or backups. For troubleshooting information, select Learn more.",
+    "before": "Systemet är för närvarande ohälsosamt eftersom en integritetskontroll av filsystemet misslyckades på datapartitionen. Detta kan orsakas av oväntade strömavbrott eller ett fel på lagringsenheten och kan påverka konfigurationen, appar eller säkerhetskopior. För felsökningsinformation, välj Läs mer.",
+    "after": "Systemet har för närvarande nedsatt hälsostatus eftersom en kontroll av filsystemets integritet misslyckades på datapartitionen. Detta kan bero på ett oväntat strömavbrott eller ett lagringsmedium som håller på att gå sönder, och det kan påverka konfigurationen, appar eller säkerhetskopior. Välj Läs mer för felsökningsinformation.",
+    "readback": "Systemet har för närvarande nedsatt hälsostatus eftersom en kontroll av filsystemets integritet misslyckades på datapartitionen. Detta kan bero på ett oväntat strömavbrott eller ett lagringsmedium som håller på att gå sönder, och det kan påverka konfigurationen, appar eller säkerhetskopior. Välj Läs mer för felsökningsinformation.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::hassio::issues::unhealthy_data_filesystem_check_error::title",
+    "key_id": "897161295",
+    "translation_id": "9178069352",
+    "en": "Unhealthy system - Data partition filesystem check failed",
+    "before": "Ohälsosamt system - Kontroll av datapartitionens filsystem misslyckades",
+    "after": "System med nedsatt hälsostatus – filsystemskontrollen misslyckades på datapartitionen",
+    "readback": "System med nedsatt hälsostatus – filsystemskontrollen misslyckades på datapartitionen",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::hassio::issues::unhealthy_os_filesystem_check_error::description",
+    "key_id": "897161296",
+    "translation_id": "9178069416",
+    "en": "System is currently unhealthy because a filesystem integrity check failed on an operating system partition. This can be caused by unexpected power loss or failing storage. For troubleshooting information, select Learn more.",
+    "before": "Systemet är för närvarande ohälsosamt eftersom en integritetskontroll av filsystemet misslyckades på ett av operativsystemets partitioner. Detta kan orsakas av oväntade strömavbrott eller ett fel på lagringsenheten. För felsökningsinformation, välj Läs mer.",
+    "after": "Systemet har för närvarande nedsatt hälsostatus eftersom en kontroll av filsystemets integritet misslyckades på en partition där operativsystemet finns. Detta kan bero på ett oväntat strömavbrott eller ett lagringsmedium som håller på att gå sönder. Välj Läs mer för felsökningsinformation.",
+    "readback": "Systemet har för närvarande nedsatt hälsostatus eftersom en kontroll av filsystemets integritet misslyckades på en partition där operativsystemet finns. Detta kan bero på ett oväntat strömavbrott eller ett lagringsmedium som håller på att gå sönder. Välj Läs mer för felsökningsinformation.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::hassio::issues::unhealthy_os_filesystem_check_error::title",
+    "key_id": "897161297",
+    "translation_id": "9178069480",
+    "en": "Unhealthy system - OS partition filesystem check failed",
+    "before": "Ohälsosamt system - Kontroll av OS-partitionens filsystem misslyckades",
+    "after": "System med nedsatt hälsostatus – filsystemskontrollen misslyckades på operativsystemspartitionen",
+    "readback": "System med nedsatt hälsostatus – filsystemskontrollen misslyckades på operativsystemspartitionen",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mikrotik::config::step::reauth_confirm::data_description::password",
+    "key_id": "897619204",
+    "translation_id": "9183503699",
+    "en": "The password for your Mikrotik device.",
+    "before": "Lösenordet för din Mikrotik-enhet.",
+    "after": "Lösenordet för din MikroTik-enhet.",
+    "readback": "Lösenordet för din MikroTik-enhet.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mikrotik::config::step::user::data_description::host",
+    "key_id": "897619205",
+    "translation_id": "9183503763",
+    "en": "The hostname or IP address of your Mikrotik router.",
+    "before": "Värdnamnet eller IP-adressen för din Mikrotik-router.",
+    "after": "Värdnamnet eller IP-adressen för din MikroTik-router.",
+    "readback": "Värdnamnet eller IP-adressen för din MikroTik-router.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mikrotik::config::step::user::data_description::name",
+    "key_id": "897619206",
+    "translation_id": "9183503827",
+    "en": "The name of your Mikrotik router.",
+    "before": "Namnet på din Mikrotik-router.",
+    "after": "Namnet på din MikroTik-router.",
+    "readback": "Namnet på din MikroTik-router.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mikrotik::config::step::user::data_description::password",
+    "key_id": "897619207",
+    "translation_id": "9183503891",
+    "en": "The password for your Mikrotik router.",
+    "before": "Lösenordet till din MikroTik-router.",
+    "after": "Lösenordet för din MikroTik-router.",
+    "readback": "Lösenordet för din MikroTik-router.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mikrotik::config::step::user::data_description::port",
+    "key_id": "897619208",
+    "translation_id": "9183503955",
+    "en": "The port of your Mikrotik router.",
+    "before": "Porten på din MikroTik-router.",
+    "after": "Porten för din MikroTik-router.",
+    "readback": "Porten för din MikroTik-router.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mikrotik::config::step::user::data_description::username",
+    "key_id": "897619209",
+    "translation_id": "9183504019",
+    "en": "The username for your Mikrotik router.",
+    "before": "Användarnamnet för din Mikrotik-router.",
+    "after": "Användarnamnet för din MikroTik-router.",
+    "readback": "Användarnamnet för din MikroTik-router.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mikrotik::config::step::user::data_description::verify_ssl",
+    "key_id": "897619210",
+    "translation_id": "9183504083",
+    "en": "Verify SSL certificate of your Mikrotik router.",
+    "before": "Verifiera SSL-certifikatet för din Mikrotik-router.",
+    "after": "Verifiera SSL-certifikatet för din MikroTik-router.",
+    "readback": "Verifiera SSL-certifikatet för din MikroTik-router.",
+    "status": "saved-and-read-back"
+  }
+]
