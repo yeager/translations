@@ -1,0 +1,102 @@
+[
+  {
+    "key": "component::marketplace::exceptions::repository_in_use::message",
+    "key_id": "946921673",
+    "translation_id": "9909777375",
+    "en": "{repository} is still set up, and without its files that setup would fail to load. Delete it under Settings > Devices & services before uninstalling it.",
+    "before": "{repository} är fortfarande konfigurerat och konfigurationen kan inte läsas in utan dess filer. Ta bort det under Inställningar > Enheter och tjänster innan du avinstallerar det.",
+    "after": "{repository} används fortfarande, och konfigurationen kan inte läsas in utan filerna. Ta bort konfigurationen under Inställningar > Enheter och tjänster innan du avinstallerar arkivet.",
+    "readback": "{repository} används fortfarande, och konfigurationen kan inte läsas in utan filerna. Ta bort konfigurationen under Inställningar > Enheter och tjänster innan du avinstallerar arkivet.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::marketplace::exceptions::warning_not_accepted::message",
+    "key_id": "946921698",
+    "translation_id": "9909778975",
+    "en": "Open the Marketplace and read the warning first, installing and updating work once it is accepted.",
+    "before": "Öppna Marketplace och läs varningen först. Installation och uppdatering fungerar när du har godkänt den.",
+    "after": "Öppna Marketplace och läs varningen först. Därefter kan du installera och uppdatera.",
+    "readback": "Öppna Marketplace och läs varningen först. Därefter kan du installera och uppdatera.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::marketplace::issues::critical_repository::fix_flow::step::confirm::description",
+    "key_id": "946921701",
+    "translation_id": "9909779167",
+    "en": "The Marketplace uninstalled {repository} and restarted Home Assistant, because the Marketplace catalog marks it as critical.\n\nThe reason given: {reason}\n\nCheck whether anything that depended on {repository} needs your attention. Select **Submit** once you have read this.",
+    "before": "Marketplace avinstallerade {repository} och startade om Home Assistant eftersom Marketplace-katalogen markerar det som kritiskt.\n\nAngiven orsak: {reason}\n\nKontrollera om något som var beroende av {repository} behöver din uppmärksamhet. Välj **Skicka** när du har läst detta.",
+    "after": "Marketplace avinstallerade {repository} och startade om Home Assistant eftersom katalogen markerar arkivet som kritiskt.\n\nAngiven orsak: {reason}\n\nKontrollera om något som var beroende av {repository} behöver åtgärdas. Välj **Skicka** när du har läst detta.",
+    "readback": "Marketplace avinstallerade {repository} och startade om Home Assistant eftersom katalogen markerar arkivet som kritiskt.\n\nAngiven orsak: {reason}\n\nKontrollera om något som var beroende av {repository} behöver åtgärdas. Välj **Skicka** när du har läst detta.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::marketplace::issues::removed::description",
+    "key_id": "946921708",
+    "translation_id": "9909779615",
+    "en": "`{name}` was removed from the catalog. It stays installed, but no longer gets updates.\n\nThe reason given: {reason}\n\nUninstall it from its [page in the Marketplace](/marketplace/repository/{repository_id}).",
+    "before": "`{name}` har tagits bort från katalogen. Det förblir installerat men får inte längre uppdateringar.\n\nAngiven orsak: {reason}\n\nAvinstallera det från dess [sida i Marketplace](/marketplace/repository/{repository_id}).",
+    "after": "`{name}` har tagits bort från katalogen. Det är fortfarande installerat men får inte längre några uppdateringar.\n\nAngiven orsak: {reason}\n\nAvinstallera det från [dess sida i Marketplace](/marketplace/repository/{repository_id}).",
+    "readback": "`{name}` har tagits bort från katalogen. Det är fortfarande installerat men får inte längre några uppdateringar.\n\nAngiven orsak: {reason}\n\nAvinstallera det från [dess sida i Marketplace](/marketplace/repository/{repository_id}).",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::marketplace::issues::removed_without_reason::description",
+    "key_id": "946921710",
+    "translation_id": "9909779743",
+    "en": "`{name}` was removed from the catalog. It stays installed, but no longer gets updates.\n\nUninstall it from its [page in the Marketplace](/marketplace/repository/{repository_id}).",
+    "before": "`{name}` har tagits bort från katalogen. Det förblir installerat men får inte längre uppdateringar.\n\nAvinstallera det från dess [sida i Marketplace](/marketplace/repository/{repository_id}).",
+    "after": "`{name}` har tagits bort från katalogen. Det är fortfarande installerat men får inte längre några uppdateringar.\n\nAvinstallera det från [dess sida i Marketplace](/marketplace/repository/{repository_id}).",
+    "readback": "`{name}` har tagits bort från katalogen. Det är fortfarande installerat men får inte längre några uppdateringar.\n\nAvinstallera det från [dess sida i Marketplace](/marketplace/repository/{repository_id}).",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::marketplace::system_health::info::github_api_calls_remaining",
+    "key_id": "946921722",
+    "translation_id": "9909780511",
+    "en": "GitHub API calls remaining",
+    "before": "Återstående GitHub-API-anrop",
+    "after": "Återstående antal GitHub-API-anrop",
+    "readback": "Återstående antal GitHub-API-anrop",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wattwaechter::entity::sensor::apparent_power_import::name",
+    "key_id": "947119389",
+    "translation_id": "9911675965",
+    "en": "Apparent power consumption",
+    "before": "Förbrukning av skenbar effekt",
+    "after": "Förbrukad skenbar effekt",
+    "readback": "Förbrukad skenbar effekt",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wattwaechter::entity::sensor::reactive_energy_quadrant_1::name",
+    "key_id": "947119393",
+    "translation_id": "9911676221",
+    "en": "Reactive energy quadrant I",
+    "before": "Kvadrant I för reaktiv energi",
+    "after": "Reaktiv energi, kvadrant I",
+    "readback": "Reaktiv energi, kvadrant I",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wattwaechter::entity::sensor::reactive_energy_quadrant_2::name",
+    "key_id": "947119394",
+    "translation_id": "9911676285",
+    "en": "Reactive energy quadrant II",
+    "before": "Kvadrant II för reaktiv energi",
+    "after": "Reaktiv energi, kvadrant II",
+    "readback": "Reaktiv energi, kvadrant II",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::wattwaechter::entity::sensor::reactive_energy_quadrant_3::name",
+    "key_id": "947119395",
+    "translation_id": "9911676349",
+    "en": "Reactive energy quadrant III",
+    "before": "Kvadrant III för reaktiv energi",
+    "after": "Reaktiv energi, kvadrant III",
+    "readback": "Reaktiv energi, kvadrant III",
+    "status": "saved-and-read-back"
+  }
+]

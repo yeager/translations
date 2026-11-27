@@ -2,13 +2,15 @@
 
 Uppdaterad: 2026-11-27
 
-- Senast granskade intervall: 65 897–66 016 (120/120 poster).
-- Nästa position: 66 017.
-- Återstår enligt katalogens aktuella Lokalise-ordning: cirka 11 520 poster.
-- Senaste batchen: 13 ändringar sparade i Lokalise och verifierade med API-readback.
-- Källmatchning: 103 direkta, 13 referenser (12 mål), 4 utan aktiv källtext.
-- Öppna följdfrågor: ZHA `sensor_expiration` behöver implementationens kontext; fyra poster utan aktuell källväg behöver spåras.
-- HA TMX: uppdaterad och validerad; 35905 unika TM-enheter.
-- Verktygsstatus: hunspell-sv-regressionstester passerar (19); ingen release skapad i dag.
+- Senast färdiggranskade intervall: 66 017–66 256 (240/240 strängar).
+- Nästa position: 66 257.
+- Återstår vid aktuell Lokalise-omfattning: cirka 11 280 strängar.
+- Batch 276: 0 ändringar; 113 direkta källmatchningar, 5 referenser, 2 poster utan aktiv källtext.
+- Batch 277: 10 ändringar sparade och API-readback-verifierade; 111 direkta källmatchningar, 7 referenser, 2 poster utan aktiv källtext.
+- I båda batcherna matchar alla referenser sina mål och alla platshållare är intakta; inga pluralposter.
+- Öppna källvägsärenden: Reolink skrivfel, äldre Marketplace-enkelinstanspost och två Nanoleaf tryckutlösare.
+- Home Assistant-TMX: 35915 poster; validering godkänd.
+- svlang skrivregler/svengelska: inga träffar i respektive batch.
+- hunspell-sv: uppdaterad med teknisk term keogram, 19 tester godkända; ingen ny release i dag.
 
-Övergripande granskning är pågående och inte färdig.
+Övergripande Core-granskning pågår.
