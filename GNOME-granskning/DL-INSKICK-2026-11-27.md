@@ -4,6 +4,7 @@ Färdiggranskade kataloger som laddats upp via API. Uppladdning verifieras mot a
 
 | Modul | Gren | Domän | Ändrade PO-poster | Verifiering |
 |---|---|---|---:|---|
+| video-trimmer | main | po | 7 | Uppladdad 01:55 UTC; aktivitetssidan bekräftar sammanslagning 69/0/0. |
 | www-gnome-org | main | po | 29 | Uppladdad 01:44 UTC; aktivitetssidan bekräftar sammanslagning 123/0/0. |
 | showtime | main | po | 13 | Uppladdad 01:34 UTC; aktivitetssidan bekräftar sammanslagning 80/0/0. Statistik-API:t visar ännu 78/2/0. |
 | gcab | master | po | 5 | Uppladdad 01:23 UTC; aktivitetssidan bekräftar sammanslagning 34/0/0. |
@@ -18,5 +19,5 @@ Färdiggranskade kataloger som laddats upp via API. Uppladdning verifieras mot a
 
 ## Status
 
-- Uppladdade och verifierade händelser: **11**.
-- Sammanslagna: `phodav/master/po` (32/0/0), `d-spy/main/po` (79/0/0) och `realmd/master/po` (139/0/0) `libsoup/master/po` (40/0/0) och `Errands/main/po` (179/0/0) och `metronome/main/po` (37/0/0) och `help.gnome.org/master/po` (46/0/0) och `libipuz/main/po` (39/0/0) och `gcab/master/po` (34/0/0) och `showtime/main/po` (80/0/0) och `www-gnome-org/main/po` (123/0/0). Deras statistik-API visar ännu äldre värden.
+- Uppladdade och verifierade händelser: **12**.
+- Sammanslagna: `phodav/master/po` (32/0/0), `d-spy/main/po` (79/0/0) och `realmd/master/po` (139/0/0) `libsoup/master/po` (40/0/0) och `Errands/main/po` (179/0/0) och `metronome/main/po` (37/0/0) och `help.gnome.org/master/po` (46/0/0) och `libipuz/main/po` (39/0/0) och `gcab/master/po` (34/0/0) och `showtime/main/po` (80/0/0) och `www-gnome-org/main/po` (123/0/0) och `video-trimmer/main/po` (69/0/0). Deras statistik-API visar ännu äldre värden.
