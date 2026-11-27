@@ -2630,3 +2630,9 @@ Senaste position: **62 656** av 77 656. Nästa: **62 657**; **15 000 återstår*
 120 positioner granskades: 87 aktuella strängar  1 referens och 32 nycklar utan aktuell källväg. 24 ändringar sparades och lästes tillbaka. Referensen matchar 1/1. Platshållare 120/120; inga pluralnycklar.
 
 Senaste position: **62 776** av 77 656. Nästa: **62 777**; **14 880 återstår**. Granskningen fortsätter.
+
+### Batch: 62 777–62 896
+
+120 positioner granskades: 119 aktuella strängar och 1 äldre nyckel utan källväg. 41 ändringar sparades och lästes tillbaka. Tio riskokarprogram flaggades som osäkra utifrån en öppen upstream-rapport. Platshållare 120/120; inga pluralnycklar.
+
+Senaste position: **62 896** av 77 656. Nästa: **62 897**; **14 760 återstår**. Granskningen fortsätter.
