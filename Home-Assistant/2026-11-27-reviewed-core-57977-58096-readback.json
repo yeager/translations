@@ -1,0 +1,252 @@
+[
+  {
+    "key": "component::openevse::entity::binary_sensor::divert_active::name",
+    "key_id": "866462746",
+    "translation_id": "8732829201",
+    "en": "Divert active",
+    "before": "Vidarekoppling aktiv",
+    "after": "Solcellsavledning aktiv",
+    "readback": "Solcellsavledning aktiv",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::openevse::entity::binary_sensor::mqtt_connected::name",
+    "key_id": "866462748",
+    "translation_id": "8732829329",
+    "en": "MQTT connected",
+    "before": "MQTT ansluten",
+    "after": "Ansluten via MQTT",
+    "readback": "Ansluten via MQTT",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::openevse::entity::binary_sensor::shaper_active::name",
+    "key_id": "866462749",
+    "translation_id": "8732829393",
+    "en": "Shaper active",
+    "before": "Shaper aktiv",
+    "after": "Laststyrning aktiv",
+    "readback": "Laststyrning aktiv",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::edifier_infrared::config::abort::no_emitters",
+    "key_id": "866517233",
+    "translation_id": "8733435054",
+    "en": "No infrared emitter entities found. Please set up an infrared device first.",
+    "before": "Inga entiteter för infraröda sändare hittades. Konfigurera först en infraröd enhet.",
+    "after": "Inga infrarödsändare hittades. Konfigurera först en infraröd enhet.",
+    "readback": "Inga infrarödsändare hittades. Konfigurera först en infraröd enhet.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::edifier_infrared::config::step::user::data::infrared_entity_id",
+    "key_id": "866517234",
+    "translation_id": "8733435118",
+    "en": "Infrared emitter",
+    "before": "Infraröd sändare",
+    "after": "Infrarödsändare",
+    "readback": "Infrarödsändare",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::edifier_infrared::config::step::user::data_description::infrared_entity_id",
+    "key_id": "866517236",
+    "translation_id": "8733435246",
+    "en": "The infrared emitter entity to use for sending commands.",
+    "before": "Sändarentiteten som ska användas för att skicka infraröda kommandon.",
+    "after": "Entiteten för infrarödsändaren som ska skicka kommandon.",
+    "readback": "Entiteten för infrarödsändaren som ska skicka kommandon.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::swisscom::issues::deprecated_yaml_import_issue_credentials_required::description",
+    "key_id": "867262173",
+    "translation_id": "8746092981",
+    "en": "Configuring the {integration_title} integration through YAML is deprecated. The integration now requires a username and password to authenticate to your Internet-Box, which cannot be safely carried over from YAML.\n\nSet up the integration through the UI to provide your credentials (your existing host `{host}` will need to be re-entered), then remove the `{domain}` entry from your `configuration.yaml` file and restart Home Assistant.",
+    "before": "Konfigurationen av {integration_title} -integrationen via YAML är föråldrad. Integrationen kräver nu ett användarnamn och lösenord för att autentisera till din Internetbox, vilket inte kan överföras säkert från YAML. \n\nKonfigurera integrationen via användargränssnittet för att ange dina autentiseringsuppgifter (din befintliga värd `{host}` måste anges igen), ta sedan bort posten `{domain}` från din `configuration.yaml`-fil och starta om Home Assistant.",
+    "after": "Konfiguration via YAML av integrationen {integration_title} är utfasad. Integrationen kräver nu ett användarnamn och lösenord för autentisering mot din Internet-Box. Uppgifterna kan inte överföras säkert från YAML.\n\nKonfigurera integrationen i användargränssnittet och ange inloggningsuppgifterna där. Du måste ange den befintliga värden `{host}` igen. Ta sedan bort posten `{domain}` från filen `configuration.yaml` och starta om Home Assistant.",
+    "readback": "Konfiguration via YAML av integrationen {integration_title} är utfasad. Integrationen kräver nu ett användarnamn och lösenord för autentisering mot din Internet-Box. Uppgifterna kan inte överföras säkert från YAML.\n\nKonfigurera integrationen i användargränssnittet och ange inloggningsuppgifterna där. Du måste ange den befintliga värden `{host}` igen. Ta sedan bort posten `{domain}` från filen `configuration.yaml` och starta om Home Assistant.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::swisscom::issues::deprecated_yaml_import_issue_credentials_required::title",
+    "key_id": "867262174",
+    "translation_id": "8746093045",
+    "en": "The {integration_title} YAML configuration is being removed",
+    "before": "YAML-konfigurering för {integration_title} tas bort",
+    "after": "YAML-konfigurationen för {integration_title} tas bort",
+    "readback": "YAML-konfigurationen för {integration_title} tas bort",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::samsung_infrared::exceptions::invalid_source::message",
+    "key_id": "867588155",
+    "translation_id": "8748996037",
+    "en": "Cannot select input source {invalid_source} for media player. Valid sources: {valid_sources}.",
+    "before": "Det går inte att välja ingångskälla {invalid_source} för mediaspelare. Giltiga källor: {valid_sources}.",
+    "after": "Det går inte att välja ingångskällan {invalid_source} för mediaspelaren. Giltiga källor: {valid_sources}.",
+    "readback": "Det går inte att välja ingångskällan {invalid_source} för mediaspelaren. Giltiga källor: {valid_sources}.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::hypontech::entity::sensor::load_power::name",
+    "key_id": "868829772",
+    "translation_id": "8769468138",
+    "en": "Load power",
+    "before": "Last effekt",
+    "after": "Lasteffekt",
+    "readback": "Lasteffekt",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::hypontech::entity::sensor::pv_power::name",
+    "key_id": "868829773",
+    "translation_id": "8769468202",
+    "en": "PV power",
+    "before": "Solceller effekt",
+    "after": "Solcellseffekt",
+    "readback": "Solcellseffekt",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::ovhcloud_ai_endpoints::config_subentries::conversation::step::reconfigure::description",
+    "key_id": "868850492",
+    "translation_id": "8769859162",
+    "en": "Update the instructions and the tools for this conversation agent. Create a new conversation agent to use a different model.",
+    "before": "Uppdatera prompten och Home Assistant LLM-API:erna för denna konversationsagent. Skapa en ny konversationsagent för att använda en annan modell.",
+    "after": "Uppdatera instruktionerna och verktygen för den här konversationsagenten. Skapa en ny konversationsagent om du vill använda en annan modell.",
+    "readback": "Uppdatera instruktionerna och verktygen för den här konversationsagenten. Skapa en ny konversationsagent om du vill använda en annan modell.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::kiosker::services::navigate_url::fields::url::description",
+    "key_id": "869000733",
+    "translation_id": "8771620747",
+    "en": "The URL to navigate to",
+    "before": "URL att navigera till",
+    "after": "URL:en att navigera till",
+    "readback": "URL:en att navigera till",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::kiosker::services::navigate_url::name",
+    "key_id": "869000735",
+    "translation_id": "8771620875",
+    "en": "Navigate to URL",
+    "before": "Navigera till URL",
+    "after": "Navigera till en URL",
+    "readback": "Navigera till en URL",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::kiosker::services::set_blackout::fields::background::description",
+    "key_id": "869000737",
+    "translation_id": "8771621003",
+    "en": "Background color in rgb format",
+    "before": "Bakgrundsfärg i rgb-format",
+    "after": "Bakgrundsfärg i RGB-format",
+    "readback": "Bakgrundsfärg i RGB-format",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::kiosker::services::set_blackout::fields::button_background::description",
+    "key_id": "869000739",
+    "translation_id": "8771621131",
+    "en": "Background color of the dismiss button in rgb format",
+    "before": "Bakgrundsfärg för avfärdaknapp i rgb-format",
+    "after": "Bakgrundsfärg för stängningsknappen i RGB-format",
+    "readback": "Bakgrundsfärg för stängningsknappen i RGB-format",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::kiosker::services::set_blackout::fields::button_foreground::description",
+    "key_id": "869000741",
+    "translation_id": "8771621259",
+    "en": "Text color of the dismiss button in rgb format",
+    "before": "Textfärgen på avfärdaknapp i rgb-format",
+    "after": "Textfärg för stängningsknappen i RGB-format",
+    "readback": "Textfärg för stängningsknappen i RGB-format",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::kiosker::services::set_blackout::fields::button_text::description",
+    "key_id": "869000743",
+    "translation_id": "8771621387",
+    "en": "Text to display on the dismiss button",
+    "before": "Text som ska visas på avfärdaknapp",
+    "after": "Text som ska visas på stängningsknappen",
+    "readback": "Text som ska visas på stängningsknappen",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::kiosker::services::set_blackout::fields::dismissible::description",
+    "key_id": "869000747",
+    "translation_id": "8771621643",
+    "en": "Whether the blackout can be dismissed by user interaction",
+    "before": "Om mörkläggningsläget kan avfärdas genom användarinteraktion",
+    "after": "Om användaren kan stänga mörkläggningsskärmen genom att trycka på den",
+    "readback": "Om användaren kan stänga mörkläggningsskärmen genom att trycka på den",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::kiosker::services::set_blackout::fields::dismissible::name",
+    "key_id": "869000748",
+    "translation_id": "8771621707",
+    "en": "Dismissible",
+    "before": "Kan avfärdas",
+    "after": "Kan stängas",
+    "readback": "Kan stängas",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::kiosker::services::set_blackout::fields::expire::name",
+    "key_id": "869000750",
+    "translation_id": "8771621835",
+    "en": "Expire time",
+    "before": "Utgångstid",
+    "after": "Upphör efter",
+    "readback": "Upphör efter",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::kiosker::services::set_blackout::fields::foreground::description",
+    "key_id": "869000751",
+    "translation_id": "8771621899",
+    "en": "Text color in rgb format",
+    "before": "Textfärg i rgb-format",
+    "after": "Textfärg i RGB-format",
+    "readback": "Textfärg i RGB-format",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::kiosker::services::set_blackout::fields::sound::description",
+    "key_id": "869000755",
+    "translation_id": "8771622155",
+    "en": "Sound to play when blackout is displayed (SystemSoundID, e.g., 1007)",
+    "before": "Ljud som ska spelas upp när skärmen slocknar (SystemSoundID, t.ex. 1007)",
+    "after": "Ljud som spelas upp när mörkläggningsskärmen visas (SystemSoundID, t.ex. 1007)",
+    "readback": "Ljud som spelas upp när mörkläggningsskärmen visas (SystemSoundID, t.ex. 1007)",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::evohome::issues::deprecated_refresh_system_service::description",
+    "key_id": "867598649",
+    "translation_id": "8749044336",
+    "en": "The `refresh_system` action is deprecated and will stop working in Home Assistant {breaks_in_ha_version}. Instead, use the `homeassistant.update_entity` action, targeting the controller's climate entity.",
+    "before": "Åtgärden `refresh_system` är utfasad och kommer inte längre att fungera i Home Assistant {breaks_in_ha_version}. Använd istället åtgärden `homeassistant.update_entity` och rikta den mot styrenhetens klimatentitet.",
+    "after": "Åtgärden `refresh_system` är utfasad och slutar fungera i Home Assistant {breaks_in_ha_version}. Använd i stället åtgärden `homeassistant.update_entity` för styrenhetens klimatentitet.",
+    "readback": "Åtgärden `refresh_system` är utfasad och slutar fungera i Home Assistant {breaks_in_ha_version}. Använd i stället åtgärden `homeassistant.update_entity` för styrenhetens klimatentitet.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::evohome::issues::deprecated_refresh_system_service::title",
+    "key_id": "867598650",
+    "translation_id": "8749044400",
+    "en": "Evohome 'Refresh system' action is deprecated",
+    "before": "Funktionen ”Refresh system” i Evohome är utfasad",
+    "after": "Åtgärden ”Refresh system” i Evohome är utfasad",
+    "readback": "Åtgärden ”Refresh system” i Evohome är utfasad",
+    "status": "saved-and-read-back"
+  }
+]
