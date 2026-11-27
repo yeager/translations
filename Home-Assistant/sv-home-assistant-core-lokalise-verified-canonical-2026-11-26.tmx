@@ -20195,9 +20195,10 @@ När du har uppdaterat inställningarna löses problemet automatiskt.</seg></tuv
       <prop type="source">component::blebox::entity::binary_sensor::input::name</prop>
       <prop type="lokalise-key-id">892225516</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Input</seg>
       </tuv>
@@ -116996,37 +116997,40 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::energieleser::issues::meter_locked::title</prop>
       <prop type="lokalise-key-id">892105172</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Meter PIN Required</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Mätarens PIN-kod krävs</seg>
+        <seg>PIN-kod krävs för elmätaren</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9112994272">
       <prop type="source">component::energieleser::issues::meter_locked::description</prop>
       <prop type="lokalise-key-id">892105171</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The electricity meter connected to {device_name} is not providing high-resolution data. You need to unlock the physical meter by entering the PIN (provided by your electricity company or grid operator) directly on the meter. Once the meter is unlocked, high-resolution data will be provided and this issue will resolve itself automatically. See the linked instructions for details on how to enter the PIN.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Elmätaren som är ansluten till {device_name} levererar inte data med hög upplösning. Du måste låsa upp den fysiska mätaren genom att ange PIN-koden (som du fått av ditt elbolag eller nätoperatör) direkt på mätaren. När mätaren är upplåst kommer data med hög upplösning att levereras och problemet löser sig automatiskt. Se instruktionerna i länken för mer information om hur du anger PIN-koden.</seg>
+        <seg>Elmätaren som är ansluten till {device_name} skickar inte mätvärden med hög upplösning. Lås upp elmätaren genom att ange PIN-koden direkt på den. Du får PIN-koden från ditt elbolag eller elnätsbolag. När mätaren har låsts upp börjar den automatiskt skicka mätvärden med hög upplösning och problemet löses. Se den länkade instruktionen för mer information om hur du anger PIN-koden.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110637953">
       <prop type="source">component::template::options::step::weather::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948372</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117038,9 +117042,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::weather::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948371</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117052,9 +117057,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::vacuum::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948370</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117066,23 +117072,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::vacuum::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948369</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110637697">
       <prop type="source">component::template::options::step::vacuum::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948368</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117094,9 +117102,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::update::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948367</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117108,23 +117117,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::update::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948366</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110637505">
       <prop type="source">component::template::options::step::update::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948365</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117136,9 +117147,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::switch::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948364</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117150,23 +117162,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::switch::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948363</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110637313">
       <prop type="source">component::template::options::step::switch::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948362</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117178,9 +117192,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::sensor::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948361</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117192,23 +117207,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::sensor::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948360</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110637121">
       <prop type="source">component::template::options::step::sensor::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948359</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117220,9 +117237,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::select::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948358</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117234,23 +117252,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::select::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948357</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110636929">
       <prop type="source">component::template::options::step::select::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948356</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117262,9 +117282,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::number::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948355</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117276,23 +117297,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::number::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948354</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110636737">
       <prop type="source">component::template::options::step::number::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948353</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117304,9 +117327,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::lock::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948352</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117318,23 +117342,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::lock::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948351</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110636545">
       <prop type="source">component::template::options::step::lock::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948350</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117346,9 +117372,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::light::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948349</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117360,23 +117387,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::light::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948348</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110636353">
       <prop type="source">component::template::options::step::light::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948347</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117388,9 +117417,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::image::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948346</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117402,23 +117432,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::image::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948345</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110636161">
       <prop type="source">component::template::options::step::image::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948344</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117430,9 +117462,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::fan::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948343</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117444,23 +117477,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::fan::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948342</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110635969">
       <prop type="source">component::template::options::step::fan::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948341</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117472,9 +117507,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::event::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948340</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117486,23 +117522,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::event::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948339</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110635777">
       <prop type="source">component::template::options::step::event::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948338</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117514,9 +117552,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::device_tracker::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948337</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117528,37 +117567,40 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::device_tracker::sections::additional_options::data_description::location_accuracy</prop>
       <prop type="lokalise-key-id">891948336</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the accuracy of the device tracker's location in meters. Valid values are numbers greater than or equal to `0`.</seg>
+        <seg>Defines a template to get the accuracy of the device tracker&#x27;s location in meters. Valid values are numbers greater than or equal to `0`.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att få noggrannheten för enhetens trackerposition i meter. Giltiga värden är tal som är större än eller lika med `0`.</seg>
+        <seg>Definierar en mall som hämtar enhetsspårarens positionsnoggrannhet i meter. Giltiga värden är tal som är minst 0.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110635585">
       <prop type="source">component::template::options::step::device_tracker::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948335</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110635521">
       <prop type="source">component::template::options::step::device_tracker::sections::additional_options::data::location_accuracy</prop>
       <prop type="lokalise-key-id">891948334</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Location accuracy</seg>
       </tuv>
@@ -117570,9 +117612,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::device_tracker::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948333</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117584,9 +117627,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::cover::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948332</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117598,23 +117642,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::cover::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948331</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110635265">
       <prop type="source">component::template::options::step::cover::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948330</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117626,9 +117672,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::button::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948329</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117640,23 +117687,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::button::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948328</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110635073">
       <prop type="source">component::template::options::step::button::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948327</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117668,9 +117717,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::binary_sensor::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948326</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117682,23 +117732,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::binary_sensor::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948325</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110634881">
       <prop type="source">component::template::options::step::binary_sensor::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948324</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117710,9 +117762,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::alarm_control_panel::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948323</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117724,23 +117777,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::options::step::alarm_control_panel::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948322</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110634689">
       <prop type="source">component::template::options::step::alarm_control_panel::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948321</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117752,9 +117807,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::weather::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948320</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117766,9 +117822,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::weather::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948319</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117780,9 +117837,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::vacuum::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948318</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117794,23 +117852,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::vacuum::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948317</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110634369">
       <prop type="source">component::template::config::step::vacuum::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948316</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117822,9 +117882,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::update::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948315</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117836,23 +117897,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::update::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948314</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110634177">
       <prop type="source">component::template::config::step::update::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948313</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117864,9 +117927,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::switch::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948312</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117878,23 +117942,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::switch::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948311</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110633985">
       <prop type="source">component::template::config::step::switch::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948310</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117906,9 +117972,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::sensor::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948309</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117920,23 +117987,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::sensor::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948308</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110633793">
       <prop type="source">component::template::config::step::sensor::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948307</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117948,9 +118017,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::select::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948306</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -117962,23 +118032,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::select::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948305</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110633601">
       <prop type="source">component::template::config::step::select::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948304</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -117990,9 +118062,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::number::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948303</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -118004,23 +118077,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::number::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948302</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110633409">
       <prop type="source">component::template::config::step::number::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948301</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -118032,9 +118107,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::lock::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948300</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -118046,23 +118122,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::lock::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948299</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110633217">
       <prop type="source">component::template::config::step::lock::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948298</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -118074,9 +118152,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::light::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948297</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -118088,23 +118167,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::light::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948296</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110633025">
       <prop type="source">component::template::config::step::light::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948295</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -118116,9 +118197,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::image::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948294</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -118130,23 +118212,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::image::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948293</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110632833">
       <prop type="source">component::template::config::step::image::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948292</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -118158,9 +118242,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::fan::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948291</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -118172,23 +118257,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::fan::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948290</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110632641">
       <prop type="source">component::template::config::step::fan::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948289</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -118200,9 +118287,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::event::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948288</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -118214,23 +118302,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::event::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948287</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110632449">
       <prop type="source">component::template::config::step::event::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948286</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -118242,9 +118332,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::device_tracker::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948285</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -118256,37 +118347,40 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::device_tracker::sections::additional_options::data_description::location_accuracy</prop>
       <prop type="lokalise-key-id">891948284</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the accuracy of the device tracker's location in meters. Valid values are numbers greater than or equal to `0`.</seg>
+        <seg>Defines a template to get the accuracy of the device tracker&#x27;s location in meters. Valid values are numbers greater than or equal to `0`.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att få noggrannheten för enhetens trackerposition i meter. Giltiga värden är tal som är större än eller lika med `0`.</seg>
+        <seg>Definierar en mall som hämtar enhetsspårarens positionsnoggrannhet i meter. Giltiga värden är tal som är minst 0.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110632257">
       <prop type="source">component::template::config::step::device_tracker::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948283</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110632193">
       <prop type="source">component::template::config::step::device_tracker::sections::additional_options::data::location_accuracy</prop>
       <prop type="lokalise-key-id">891948282</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Location accuracy</seg>
       </tuv>
@@ -118298,9 +118392,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::device_tracker::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948281</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -118312,9 +118407,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::cover::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948280</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -118326,23 +118422,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::cover::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948279</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110631937">
       <prop type="source">component::template::config::step::cover::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948278</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -118354,9 +118452,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::button::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948277</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -118368,23 +118467,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::button::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948276</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110631745">
       <prop type="source">component::template::config::step::button::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948275</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -118396,9 +118497,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::binary_sensor::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948274</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -118410,23 +118512,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::binary_sensor::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948273</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110631553">
       <prop type="source">component::template::config::step::binary_sensor::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948272</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -118438,9 +118542,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::alarm_control_panel::sections::additional_options::name</prop>
       <prop type="lokalise-key-id">891948271</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -118452,23 +118557,25 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::config::step::alarm_control_panel::sections::additional_options::data_description::availability</prop>
       <prop type="lokalise-key-id">891948270</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `"TrUe"` and `"yEs"` are allowed.</seg>
+        <seg>Defines a template to get the `available` state of the entity. If the template either fails to render or returns `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;`, or a non-zero number, the entity will be `available`. If the template returns any other value, the entity will be `unavailable`. If not configured, the entity will always be `available`. Note that the string comparison is not case sensitive; `&quot;TrUe&quot;` and `&quot;yEs&quot;` are allowed.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `"1"`, `"true"`, `"yes"`, `"on"`, `"enable"` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `"TrUe"` och `"yEs"` tillåts.</seg>
+        <seg>Definierar en mall för att hämta entitetens `available`-tillstånd. Om mallen antingen inte kan återges eller returnerar `True`, `&quot;1&quot;`, `&quot;true&quot;`, `&quot;yes&quot;`, `&quot;on&quot;`, `&quot;enable&quot;` eller ett tal som inte är noll blir entiteten `available`. Om mallen returnerar något annat värde blir entiteten `unavailable`. Om den inte konfigureras är entiteten alltid `available`. Observera att strängjämförelsen inte är skiftlägeskänslig; `&quot;TrUe&quot;` och `&quot;yEs&quot;` tillåts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9110631361">
       <prop type="source">component::template::config::step::alarm_control_panel::sections::additional_options::data::availability</prop>
       <prop type="lokalise-key-id">891948269</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Availability</seg>
       </tuv>
@@ -118480,9 +118587,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::template::common::additional_options</prop>
       <prop type="lokalise-key-id">891948268</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Additional options</seg>
       </tuv>
@@ -118494,9 +118602,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::knx::selector::telegram_backend::options::sqlite</prop>
       <prop type="lokalise-key-id">891743434</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Internal storage (Default)</seg>
       </tuv>
@@ -118508,9 +118617,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::knx::selector::telegram_backend::options::postgres</prop>
       <prop type="lokalise-key-id">891743433</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>PostgreSQL (External)</seg>
       </tuv>
@@ -118522,9 +118632,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::knx::options::step::telegram_store_postgres::title</prop>
       <prop type="lokalise-key-id">891743432</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>PostgreSQL connection</seg>
       </tuv>
@@ -118536,9 +118647,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::knx::options::step::telegram_store_postgres::data_description::user</prop>
       <prop type="lokalise-key-id">891743431</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Username to authenticate with the PostgreSQL server.</seg>
       </tuv>
@@ -118550,9 +118662,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::knx::options::step::telegram_store_postgres::data_description::tls</prop>
       <prop type="lokalise-key-id">891743430</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Encrypt the connection to the PostgreSQL server (`sslmode=require`). Note that the server certificate is not verified.</seg>
       </tuv>
@@ -118564,9 +118677,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::knx::options::step::telegram_store_postgres::data_description::port</prop>
       <prop type="lokalise-key-id">891743429</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Port the PostgreSQL server is listening on.</seg>
       </tuv>
@@ -118578,9 +118692,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::knx::options::step::telegram_store_postgres::data_description::password</prop>
       <prop type="lokalise-key-id">891743428</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Password for the PostgreSQL user. Leave blank to keep the current password.</seg>
       </tuv>
@@ -118592,9 +118707,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::knx::options::step::telegram_store_postgres::data_description::host</prop>
       <prop type="lokalise-key-id">891743427</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Hostname or IP address of the PostgreSQL server.</seg>
       </tuv>
@@ -118606,9 +118722,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::knx::options::step::telegram_store_postgres::data_description::database</prop>
       <prop type="lokalise-key-id">891743426</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Name of the database to store telegrams in.</seg>
       </tuv>
@@ -118620,9 +118737,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::knx::options::step::telegram_store_postgres::data::user</prop>
       <prop type="lokalise-key-id">891743425</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Username</seg>
       </tuv>
@@ -118634,9 +118752,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::knx::options::step::telegram_store_postgres::data::tls</prop>
       <prop type="lokalise-key-id">891743424</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Use TLS</seg>
       </tuv>
@@ -118648,9 +118767,10 @@ Uppdatera alla kontrollpaneler, mallar, automatiseringar och skript för att anv
       <prop type="source">component::knx::options::step::telegram_store_postgres::data::port</prop>
       <prop type="lokalise-key-id">891743423</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Port</seg>
       </tuv>
