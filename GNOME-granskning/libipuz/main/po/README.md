@@ -6,5 +6,5 @@
 - Alla 39 strängar radgranskades. 8 nya översättningar och 6 befintliga rättningar.
 - Korrigeringarna omfattar pusselriktningar och triangelorientering; felaktiga och saknade dokumentations-/JSON-felmeddelanden kompletterades. `%d` och `%s` bevarades.
 - Validering: `msgfmt --check --check-format --statistics` och `msgcmp --use-fuzzy` godkända; printf-platshållarkontroll utan skillnader. `l10n-lint`: 0 fel och 0 varningar. `hunspell-sv` kördes; `ipuz` och `ipuz-fil` är dokumenterade formatundantag.
-- Ingen GNOME-inskickning har gjorts.
+- Uppladdad 2026-11-27 kl. 01:13 UTC med kommentaren ”Granskad och klar”. Aktivitetssidan bekräftar sammanslagning 39/0/0; statistik-API:t visar ännu äldre 31/0/8.
 - Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-26.
