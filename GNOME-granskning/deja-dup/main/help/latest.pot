@@ -1,0 +1,625 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2026-11-21 11:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/support.page:13
+msgid "Get more help"
+msgstr ""
+
+#. (itstool) path: license/p
+#: C/support.page:18
+#: C/restore-worst-case.page:18
+#: C/contribute.page:18
+#: C/index.page:20
+#: C/prefs.page:18
+#: C/restore-full.page:18
+msgid "Creative Commons Attribution-Share Alike 4.0 Unported License"
+msgstr ""
+
+#. (itstool) path: page/title
+#. (itstool) path: section/title
+#: C/support.page:20
+#: C/contribute.page:45
+msgid "Support"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/support.page:22
+msgid "If you have unanswered questions or a problem you don’t understand, please <link href=\"https://gitlab.gnome.org/World/deja-dup/-/work_items/new\">file a help request</link> in our issue tracker."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/support.page:24
+msgid "Keep in mind that the people answering your questions are volunteers and that while <app>Déjà Dup</app> is intended to work well, it <link xref=\"license\">comes with no warranty</link>. So please be polite and patient."
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/restore-worst-case.page:13
+msgid "What to do if you can’t restore your files"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/restore-worst-case.page:21
+msgid "When Everything Goes Wrong"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/restore-worst-case.page:23
+msgid "<app>Déjà Dup</app> may fail. Maybe it crashes or gives you an error when you try to restore. When you really need your data back, the last thing you want do deal with is a bug. Consider filing a <link href=\"https://gitlab.gnome.org/World/deja-dup/-/work_items/new\">help request</link> but in the meantime, here are some approaches to workaround a misbehaving <app>Déjà Dup</app> and get your data back."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/restore-worst-case.page:25
+msgid "This is going to get technical. If none of this makes sense to you, don’t be afraid to <link xref=\"support\">ask for help</link>."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/restore-worst-case.page:27
+msgid "These instructions assume you have a command line available. Open a <app>Terminal</app> window first."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/restore-worst-case.page:30
+msgid "Restic or Duplicity?"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-worst-case.page:32
+msgid "Over time, <app>Déjà Dup</app> has used different backup tools under the covers. Originally, it used <app>Duplicity</app>. Nowadays, it uses <app>Restic</app>."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-worst-case.page:33
+msgid "Your backup might be in either format, depending on when you created it."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-worst-case.page:34
+msgid "Look in the folder where your backup is kept:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/restore-worst-case.page:36
+msgid "If the filenames all start with <_:cmd-1/>, then it's a <app>Duplicity</app> backup. Read the <app>Duplicity</app> sections below."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/restore-worst-case.page:37
+msgid "If you see a <_:cmd-1/> file and a few folders like <_:cmd-2/>, then it's a <app>Restic</app> backup. Read the <app>Restic</app> sections below."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/restore-worst-case.page:42
+msgid "Restoring with Restic"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-worst-case.page:44
+msgid "On the assumption that <app>Déjà Dup</app> is just not working for you right now, let’s use the command line tool <app>Restic</app> that is used by <app>Déjà Dup</app> behind the scenes to back up and restore your files."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/restore-worst-case.page:46
+msgid "If you want more information about <app>Restic</app> than presented here, run <_:cmd-1/>."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-worst-case.page:48
+#: C/restore-worst-case.page:63
+msgid "The first thing we’ll try is a simple restore of all your data. Assuming your files are on an external drive mounted as <_:file-1/> and you chose to encrypt the backup, try this:"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-worst-case.page:51
+#: C/restore-worst-case.page:66
+msgid "If you didn’t encrypt the backup, add <_:cmd-1/> to the command."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-worst-case.page:53
+msgid "If you need to do more advanced debugging, read their <link href=\"https://restic.readthedocs.io/en/stable/077_troubleshooting.html\">troubleshooting guide</link>."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/restore-worst-case.page:57
+msgid "Restoring with Duplicity"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-worst-case.page:59
+msgid "On the assumption that <app>Déjà Dup</app> is just not working for you right now, let’s use the command line tool <app>duplicity</app> that is used by <app>Déjà Dup</app> behind the scenes to back up and restore your files."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/restore-worst-case.page:61
+msgid "If you want more information about <app>Duplicity</app> than presented here, read <link href=\"http://duplicity.gitlab.io/docs.html\">its online documentation</link>."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/restore-worst-case.page:69
+msgid "Other Storage Locations"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-worst-case.page:70
+msgid "If you backed up to a remote or cloud server, the syntax you use with <app>Duplicity</app> will be different than the external drive example above."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-worst-case.page:71
+msgid "Read the <app>Duplicity</app> documentation for instructions on how to connect to your server, or try downloading all the <app>Duplicity</app> files yourself to a local folder and following the simpler example above."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/restore-worst-case.page:75
+msgid "Restoring Duplicity Files by Hand"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-worst-case.page:77
+msgid "If even <app>duplicity</app> isn’t working for you, there may be little hope. The backup file format is complicated and not easily manipulated. But if you’re desperate, it’s worth a try."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-worst-case.page:79
+msgid "If you used a remote or cloud server to store your backup, first download all the <app>duplicity</app> files and place them in a folder on your computer. Then enter that folder in your terminal."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-worst-case.page:81
+msgid "<app>Duplicity</app> stores your data in small chunks called volumes. Some volumes belong to the periodic ‘full’ or fresh backups and others to the ‘inc’ or incremental backups. Starting with a full backup set of volumes at volume 1, you’ll need to restore files volume by volume."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-worst-case.page:83
+msgid "If you encrypted your backup, first you must decrypt the volume with <_:cmd-1/>. Say you have <_:file-2/>:"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-worst-case.page:86
+msgid "Or to do all at once (make sure you have plenty of space!):"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-worst-case.page:89
+msgid "Now you have either a <_:file-1/> or a <_:file-2/> volume (depending on whether you had to decrypt it or not). Use <_:cmd-3/> on whichever one you have to extract the individual patch files:"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-worst-case.page:92
+msgid "Or again, to do all at once:"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-worst-case.page:95
+msgid "Now the patch files will be in <_:file-1/> and <_:file-2/> folders. Each file that spanned multiple volumes will be in <_:file-3/>. Let’s say you backed up <_:file-4/>:"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-worst-case.page:99
+msgid "To recover data from incremental backups, use <_:cmd-1/> to stitch the files together. See <_:cmd-2/> for usage."
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/contribute.page:13
+msgid "Help make <app>Déjà Dup</app> better"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/contribute.page:20
+msgid "Getting Involved"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/contribute.page:22
+msgid "So you want to help make <app>Déjà Dup</app> even better? Excellent! Here are some suggestions."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/contribute.page:25
+msgid "Report Issues"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/contribute.page:27
+msgid "Did you see a flaw? Do you have an idea for a new feature? Simply <link href=\"https://gitlab.gnome.org/World/deja-dup/-/work_items/new\">report it as an issue</link>. Be patient for a reply."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/contribute.page:29
+msgid "Note that bug reports should be in English only."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/contribute.page:33
+msgid "Talk to Us"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/contribute.page:35
+msgid "We don’t bite. Start a discussion with us on the <link href=\"https://discourse.gnome.org/tags/c/applications/7/deja-dup\">forums</link>."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/contribute.page:39
+msgid "Translating"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/contribute.page:41
+msgid "Do you speak both English and another language? Great! You can help translate <link href=\"https://l10n.gnome.org/module/deja-dup/\"><app>Déjà Dup</app></link> through <link href=\"https://wiki.gnome.org/TranslationProject/JoiningTranslation\">the GNOME translation project</link>. It’s really quite easy and is very appreciated."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/contribute.page:47
+msgid "Do you like helping people? Subscribe to <link href=\"https://gitlab.gnome.org/World/deja-dup/-/labels\">the <var>support</var> issue label</link> and help answer requests for help."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/contribute.page:49
+msgid "This is another great way for non-English speakers to get involved, as you can answer questions posted in your language."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/contribute.page:53
+msgid "Coding"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/contribute.page:55
+msgid "There are always more bugs to fix. If you want to find out what needs doing, talk to us on the forums as described above."
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/index.page:14
+msgctxt "link:trail"
+msgid "Déjà Dup Backups Help"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/index.page:15
+msgctxt "link"
+msgid "Déjà Dup Backups Help"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/index.page:16
+msgctxt "text"
+msgid "Déjà Dup Backups Help"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/index.page:23
+msgid "Déjà Dup Backups Help"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/index.page:26
+msgid "Backing Up"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/index.page:30
+msgid "File Recovery"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/index.page:34
+msgid "About <app>Backups</app>"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/prefs.page:13
+msgid "Adjust your backup settings"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/prefs.page:20
+msgid "Creating Backups"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/prefs.page:23
+msgid "First Backup"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/prefs.page:24
+msgid "The first time you open <app>Déjà Dup</app>, you will need to set up your first backup."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prefs.page:26
+msgid "Click on the <gui style=\"button\">Create Your First Backup…</gui> button."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prefs.page:27
+msgid "A dialog will appear asking for some important initial settings. See below for more information on them."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prefs.page:28
+msgid "Click <gui style=\"button\">Back Up</gui>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prefs.page:29
+msgid "You will likely be prompted to set an encryption password for the backup."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prefs.page:30
+msgid "Wait for your first backup to finish. It may take some time!"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/prefs.page:35
+msgid "Schedule"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/prefs.page:36
+msgid "By default, you must click <gui style=\"button\">Back Up Now</gui> to make further backups. But it’s strongly recommended that you enable automatic backups."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/prefs.page:37
+msgid "To edit the automatic backup schedule, click the <gui style=\"button\">Schedule</gui> option from the main window."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/prefs.page:40
+msgid "<gui>Back Up Automatically</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prefs.page:41
+msgid "Turn this option on to have <app>Déjà Dup</app> automatically back up for you. This is recommended so that you don’t forget to do it yourself. Backups are more useful the more recent they are, so it is important to back up regularly."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/prefs.page:44
+msgid "<gui>Automatic Backup Frequency</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prefs.page:45
+msgid "Choose how frequently you want your automatic backups to be scheduled. Exact timing of the day is not customizable, but backups will be occur in the middle of the night if possible. Additionally, automatic backups are paused and/or not scheduled when in Power Saver or Game Mode."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/prefs.page:48
+msgid "<gui>Keep Backups</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prefs.page:49
+msgid "Choose the minimum amount of time to keep backup files. If you find that the backup files are taking up too much space, you may want to decrease this duration. Due to implementation details, files may be kept a bit longer than the chosen time. But no files will be deleted early."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/prefs.page:50
+msgid "Backups are kept forever by default, but still may be deleted earlier if the storage location begins to run out of space."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/prefs.page:56
+msgid "Folders"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/prefs.page:57
+msgid "By default, your entire home folder (minus the Trash and Downloads folders) are included in backups."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/prefs.page:58
+msgid "To edit the list of included folders, click the <gui style=\"button\">Folders</gui> option from the main window."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/prefs.page:61
+msgid "<gui>Folders to Back Up</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prefs.page:62
+msgid "Choose a list of folders to save in your backup. Press the <gui style=\"button\">Add Backed Up Folder…</gui> or <gui style=\"button\">Remove</gui> buttons to modify the list."
+msgstr ""
+
+#. (itstool) path: item/title
+#: C/prefs.page:65
+msgid "<gui>Folders to Ignore</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prefs.page:66
+msgid "Choose a list of folders to not save in your backup. Press the <gui style=\"button\">Add Ignored Folder…</gui> or <gui style=\"button\">Remove</gui> buttons to modify the list."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prefs.page:67
+msgid "Some of your data may be large and not very important to you. In that case, you can save yourself some time and space by not backing them up."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/prefs.page:69
+msgid "Some locations are always ignored by default:"
+msgstr ""
+
+#. (itstool) path: p/span
+#: C/prefs.page:75
+msgid "(which by default also ignores <_:file-1/>)"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prefs.page:87
+msgid "Any folder with a <_:file-1/> or <_:file-2/> file in it."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/prefs.page:95
+msgid "Storage Location"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/prefs.page:96
+msgid "The storage location is where <app>Déjà Dup</app> will put its copies of your files so that they can be restored later."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/prefs.page:97
+msgid "To change where backups are kept, click the <gui style=\"button\">Storage Location</gui> option from the main window."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/prefs.page:98
+msgid "Note that backups can be quite large, so make sure you have enough free disk space."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/prefs.page:99
+msgid "If you'd like to use an external drive as a storage location, plug it in and it will show up in the list."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/prefs.page:100
+msgid "While you can choose a local folder for your backups, this is not recommended. If your hardware fails, you will lose both your original data and your backups all at once."
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/restore-full.page:13
+msgid "Recover lost files"
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/restore-full.page:20
+msgid "Restoring"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/restore-full.page:22
+msgid "Scanning for Backups"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-full.page:23
+msgid "Each time a new backup happens, it adds a new \"snapshot\" of your files. Each snapshot has its own record of files at the time of backup."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-full.page:24
+msgid "In order to browse and restore from an existing backup, we must first scan the available backups and pick one to examine."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/restore-full.page:27
+msgid "Fresh Install"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-full.page:28
+msgid "If you haven’t used <app>Déjà Dup</app> on your computer before (for example, if you are working on a freshly installed system), you have to do some initial setup."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/restore-full.page:30
+#: C/restore-full.page:42
+msgid "Open <gui>Déjà Dup Backups</gui>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/restore-full.page:31
+msgid "Click on the <gui style=\"button\">Restore From a Previous Backup…</gui> button."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/restore-full.page:32
+msgid "A restore dialog will appear asking where your backup files are stored (your <gui>Backup location</gui>)."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/restore-full.page:33
+msgid "Click <gui style=\"button\">Search</gui>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/restore-full.page:34
+#: C/restore-full.page:44
+msgid "Wait for <app>Déjà Dup</app> to scan the backup location."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/restore-full.page:39
+msgid "Existing Install"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-full.page:40
+msgid "If you are trying to restore a file from a previous backup on your computer, that’s easy too."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/restore-full.page:43
+msgid "Click on the <gui style=\"button\">Browse &amp; Restore Files</gui> button."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/restore-full.page:51
+msgid "Restore Files"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-full.page:52
+msgid "Scroll the available backup dates and click the one you want to examine. Then one of two things will happen, depending on when you first made a backup."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/restore-full.page:55
+msgid "Restic"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-full.page:56
+msgid "If your backups were first created with a modern version of <app>Déjà Dup</app> (49.0 or later), it made Restic backups."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-full.page:57
+msgid "In that case, a file manager window will appear. You can then open files directly or copy them elsewhere to restore them."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/restore-full.page:61
+msgid "Duplicity"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-full.page:62
+msgid "If your backups were first created with an older version of <app>Déjà Dup</app> (48.2 or earlier), it made Duplicity backups."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/restore-full.page:63
+msgid "In that case, you'll see a built-in file browser. Select the files you want to restore, click <gui>Restore</gui>, and choose the destination."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/restore-full.page:67
+msgid "If you hit problems restoring, there are <link xref=\"restore-worst-case\">more drastic things</link> you can try."
+msgstr ""
+

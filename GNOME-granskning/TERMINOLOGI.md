@@ -862,3 +862,17 @@ argumentet betyder i just det programmet.
 | Monitor (process) | Övervakaren | Pika Backups process för schemalagda säkerhetskopior. |
 | Background Portal | Bakgrundsportal | Funktion i xdg-desktop-portal. |
 | shell command | skalkommando | Kommandon som körs före eller efter säkerhetskopiering. |
+
+
+## Déjà Dup
+
+| Engelska | Svenska | Anmärkning |
+|---|---|---|
+| backup (noun) | säkerhetskopia | Den sparade kopian av data. |
+| back up (verb) | säkerhetskopiera | Skapa eller spara en säkerhetskopia. |
+| restore (files/data) | återställa | Återskapa data från en säkerhetskopia. |
+| storage location | lagringsplats | Platsen där säkerhetskopior sparas. |
+| incremental backup | inkrementell säkerhetskopia | Säkerhetskopia med ändringar sedan föregående kopia. |
+| snapshot | ögonblicksbild | Ögonblicksbild av filer vid en viss tidpunkt. |
+| volume (Duplicity) | volym | Del av en Duplicity-säkerhetskopia. |
+| removable media | flyttbara medier | Exempelvis USB-minnen och externa diskar. |

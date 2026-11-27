@@ -1,0 +1,1941 @@
+--- original.sv.po
++++ reviewed.sv.po
+@@ -7,15 +7,15 @@
+ "Project-Id-Version: deja-dup\n"
+ "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+ "POT-Creation-Date: 2026-11-21 11:30+0000\n"
+-"PO-Revision-Date: 2026-11-07 02:19+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-27 17:00+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"X-Generator: Poedit 3.10\n"
+ "X-Launchpad-Export-Date: 2020-07-07 06:23+0000\n"
+-"X-Generator: Poedit 3.10\n"
+ 
+ #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+ msgctxt "_"
+@@ -28,156 +28,137 @@
+ "Anders Jonsson <anders.jonsson@norsjovallen.se>"
+ 
+ #. (itstool) path: info/desc
+-#: C/support.page:13
+ msgid "Get more help"
+ msgstr "Få mer hjälp"
+ 
+ #. (itstool) path: license/p
+-#: C/support.page:18 C/restore-worst-case.page:18 C/contribute.page:18
+-#: C/index.page:20 C/prefs.page:18 C/restore-full.page:18
+ msgid "Creative Commons Attribution-Share Alike 4.0 Unported License"
+ msgstr "Licensen Creative Commons Erkännande-DelaLika 4.0 Unported"
+ 
+ #. (itstool) path: page/title
+ #. (itstool) path: section/title
+-#: C/support.page:20 C/contribute.page:45
+ msgid "Support"
+ msgstr "Support"
+ 
+ #. (itstool) path: page/p
+-#: C/support.page:22
+ msgid ""
+ "If you have unanswered questions or a problem you don’t understand, please "
+-"<link href=\"https://gitlab.gnome.org/World/deja-dup/-/work_items/new\">file "
+-"a help request</link> in our issue tracker."
++"<link href=\"https://gitlab.gnome.org/World/deja-dup/-/work_items/new\">file"
++" a help request</link> in our issue tracker."
+ msgstr ""
+ "Om du har obesvarade frågor eller ett problem du inte förstår, <link "
+ "href=\"https://gitlab.gnome.org/World/deja-dup/-/work_items/new\">skapa en "
+ "förfrågan om hjälp</link> i vårt ärendehanteringssystem."
+ 
+ #. (itstool) path: page/p
+-#: C/support.page:24
+ msgid ""
+ "Keep in mind that the people answering your questions are volunteers and "
+ "that while <app>Déjà Dup</app> is intended to work well, it <link "
+ "xref=\"license\">comes with no warranty</link>. So please be polite and "
+ "patient."
+ msgstr ""
+-"Tänk på att de som svarar på dina frågor är volontärer och medan <app>Déjà "
+-"Dup</app> är tänkt att fungera bra så <link xref=\"license\">levereras det "
+-"utan garanti</link>. Så var snäll och artig."
++"Tänk på att de som svarar på dina frågor är volontärer. <app>Déjà Dup</app> "
++"är avsett att fungera bra, men <link xref=\"license\">levereras utan "
++"garanti</link>. Visa därför hänsyn och ha tålamod."
+ 
+ #. (itstool) path: info/desc
+-#: C/restore-worst-case.page:13
+ msgid "What to do if you can’t restore your files"
+ msgstr "Vad gör du om du inte kan återställa dina filer"
+ 
+ #. (itstool) path: page/title
+-#: C/restore-worst-case.page:21
+ msgid "When Everything Goes Wrong"
+ msgstr "När allt går fel"
+ 
+ #. (itstool) path: page/p
+-#: C/restore-worst-case.page:23
+ msgid ""
+ "<app>Déjà Dup</app> may fail. Maybe it crashes or gives you an error when "
+ "you try to restore. When you really need your data back, the last thing you "
+-"want do deal with is a bug. Consider filing a <link href=\"https://"
+-"gitlab.gnome.org/World/deja-dup/-/work_items/new\">help request</link> but "
+-"in the meantime, here are some approaches to workaround a misbehaving "
+-"<app>Déjà Dup</app> and get your data back."
+-msgstr ""
+-"<app>Déjà Dup</app> kan misslyckas. Kanske kraschar det eller ger dig ett "
+-"fel när du försöker återställa. När du verkligen behöver dina data tillbaka "
+-"är det sista du vill att råka ut för ett fel. Överväg att skicka in en <link "
+-"href=\"https://gitlab.gnome.org/World/deja-dup/-/work_items/"
+-"new\">hjälpförfrågan</link>, men under tiden finns här några metoder för att "
+-"lösa när <app>Déjà Dup</app> missköter sig och få dina data tillbaka."
++"want do deal with is a bug. Consider filing a <link "
++"href=\"https://gitlab.gnome.org/World/deja-dup/-/work_items/new\">help "
++"request</link> but in the meantime, here are some approaches to workaround a"
++" misbehaving <app>Déjà Dup</app> and get your data back."
++msgstr ""
++"<app>Déjà Dup</app> kan sluta fungera. Programmet kanske kraschar eller "
++"visar ett fel när du försöker återställa filer. När du verkligen behöver få "
++"tillbaka dina data är ett programfel det sista du vill råka ut för. Överväg "
++"att <link href=\"https://gitlab.gnome.org/World/deja-"
++"dup/-/work_items/new\">skapa ett ärende</link>. Under tiden kan du prova "
++"följande metoder för att kringgå problem med <app>Déjà Dup</app> och få "
++"tillbaka dina data."
+ 
+ #. (itstool) path: note/p
+-#: C/restore-worst-case.page:25
+-msgid ""
+-"This is going to get technical. If none of this makes sense to you, don’t be "
+-"afraid to <link xref=\"support\">ask for help</link>."
+-msgstr ""
+-"Detta kommer att bli tekniskt. Om detta är oförståeligt för dig, var inte "
+-"rädd för <link xref=\"support\">att fråga om hjälp</link>."
++msgid ""
++"This is going to get technical. If none of this makes sense to you, don’t be"
++" afraid to <link xref=\"support\">ask for help</link>."
++msgstr ""
++"Nu blir det tekniskt. Om du inte förstår instruktionerna ska du inte tveka "
++"att <link xref=\"support\">be om hjälp</link>."
+ 
+ #. (itstool) path: note/p
+-#: C/restore-worst-case.page:27
+ msgid ""
+ "These instructions assume you have a command line available. Open a "
+ "<app>Terminal</app> window first."
+ msgstr ""
+-"Dessa instruktioner antar att du har en kommandorad tillgänglig. Öppna ett "
+-"<app>Terminal</app>-fönster först."
+-
+-#. (itstool) path: section/title
+-#: C/restore-worst-case.page:30
++"Instruktionerna förutsätter att du har tillgång till en kommandorad. Börja "
++"med att öppna ett <app>Terminal</app>-fönster."
++
++#. (itstool) path: section/title
+ msgid "Restic or Duplicity?"
+ msgstr "Restic eller Duplicity?"
+ 
+ #. (itstool) path: section/p
+-#: C/restore-worst-case.page:32
+ msgid ""
+ "Over time, <app>Déjà Dup</app> has used different backup tools under the "
+ "covers. Originally, it used <app>Duplicity</app>. Nowadays, it uses "
+ "<app>Restic</app>."
+ msgstr ""
+-"Genom tiderna har <app>Déjà Dup</app> använt olika "
+-"säkerhetskopieringsverktyg bakom kulisserna. Ursprungligen använde det "
+-"<app>Duplicity</app>. Nu för tiden använder det <app>Restic</app>."
+-
+-#. (itstool) path: section/p
+-#: C/restore-worst-case.page:33
++"<app>Déjà Dup</app> har använt olika verktyg för säkerhetskopiering. "
++"Tidigare använde programmet <app>Duplicity</app>, men numera använder det "
++"<app>Restic</app>."
++
++#. (itstool) path: section/p
+ msgid ""
+ "Your backup might be in either format, depending on when you created it."
+ msgstr ""
+-"Din säkerhetskopia kan vara i endera formatet, beroende på när du skapade "
+-"den."
+-
+-#. (itstool) path: section/p
+-#: C/restore-worst-case.page:34
++"Beroende på när du skapade säkerhetskopian kan den vara i något av de två "
++"formaten."
++
++#. (itstool) path: section/p
+ msgid "Look in the folder where your backup is kept:"
+ msgstr "Titta i mappen där din säkerhetskopia finns:"
+ 
+ #. (itstool) path: item/p
+-#: C/restore-worst-case.page:36
+-msgid ""
+-"If the filenames all start with <_:cmd-1/>, then it's a <app>Duplicity</app> "
+-"backup. Read the <app>Duplicity</app> sections below."
+-msgstr ""
+-"Om alla filnamn startar med <_:cmd-1/> så är det en <app>Duplicity</app>-"
+-"säkerhetskopia. Läs avsnitten om <app>Duplicity</app> nedan."
+-
+-#. (itstool) path: item/p
+-#: C/restore-worst-case.page:37
++msgid ""
++"If the filenames all start with <_:cmd-1/>, then it's a <app>Duplicity</app>"
++" backup. Read the <app>Duplicity</app> sections below."
++msgstr ""
++"Om alla filnamn börjar med <_:cmd-1/> är det en säkerhetskopia från "
++"<app>Duplicity</app>. Läs avsnitten om <app>Duplicity</app> nedan."
++
++#. (itstool) path: item/p
+ msgid ""
+ "If you see a <_:cmd-1/> file and a few folders like <_:cmd-2/>, then it's a "
+ "<app>Restic</app> backup. Read the <app>Restic</app> sections below."
+ msgstr ""
+-"Om du ser en <_:cmd-1/>-fil och några mappar som <_:cmd-2/> så är det en "
+-"<app>Restic</app>-säkerhetskopia. Läs avsnitten om <app>Restic</app> nedan."
+-
+-#. (itstool) path: section/title
+-#: C/restore-worst-case.page:42
++"Om du ser en fil med namnet <_:cmd-1/> och några mappar som <_:cmd-2/> är "
++"det en säkerhetskopia från <app>Restic</app>. Läs avsnitten om "
++"<app>Restic</app> nedan."
++
++#. (itstool) path: section/title
+ msgid "Restoring with Restic"
+-msgstr "Återställande med Restic"
+-
+-#. (itstool) path: section/p
+-#: C/restore-worst-case.page:44
+-msgid ""
+-"On the assumption that <app>Déjà Dup</app> is just not working for you right "
+-"now, let’s use the command line tool <app>Restic</app> that is used by "
++msgstr "Återställ med Restic"
++
++#. (itstool) path: section/p
++msgid ""
++"On the assumption that <app>Déjà Dup</app> is just not working for you right"
++" now, let’s use the command line tool <app>Restic</app> that is used by "
+ "<app>Déjà Dup</app> behind the scenes to back up and restore your files."
+ msgstr ""
+-"Under antagandet att <app>Déjà Dup</app> helt enkelt inte fungerar för dig "
+-"just nu, låt oss använda kommandoradsverktyget <app>Restic</app> som används "
+-"av <app>Déjà Dup</app> bakom kulisserna för att säkerhetskopiera och "
+-"återställa dina filer."
++"Om <app>Déjà Dup</app> inte fungerar just nu kan du använda "
++"kommandoradsverktyget <app>Restic</app>, som <app>Déjà Dup</app> använder i "
++"bakgrunden för att säkerhetskopiera och återställa filer."
+ 
+ #. (itstool) path: note/p
+-#: C/restore-worst-case.page:46
+ msgid ""
+ "If you want more information about <app>Restic</app> than presented here, "
+ "run <_:cmd-1/>."
+@@ -186,7 +167,6 @@
+ "här, kör <_:cmd-1/>."
+ 
+ #. (itstool) path: section/p
+-#: C/restore-worst-case.page:48 C/restore-worst-case.page:63
+ msgid ""
+ "The first thing we’ll try is a simple restore of all your data. Assuming "
+ "your files are on an external drive mounted as <_:file-1/> and you chose to "
+@@ -197,255 +177,229 @@
+ "och du valde att kryptera säkerhetskopian, prova detta:"
+ 
+ #. (itstool) path: section/p
+-#: C/restore-worst-case.page:51 C/restore-worst-case.page:66
+ msgid "If you didn’t encrypt the backup, add <_:cmd-1/> to the command."
+ msgstr ""
+-"Om du inte krypterade säkerhetskopian lägger du till <_:cmd-1/> till "
+-"kommandot."
+-
+-#. (itstool) path: section/p
+-#: C/restore-worst-case.page:53
+-msgid ""
+-"If you need to do more advanced debugging, read their <link href=\"https://"
+-"restic.readthedocs.io/en/stable/077_troubleshooting.html\">troubleshooting "
+-"guide</link>."
+-msgstr ""
+-"Om du behöver göra mer avancerad felsökning, läs deras <link href=\"https://"
+-"restic.readthedocs.io/en/stable/"
+-"077_troubleshooting.html\">problemlösningsguide</link>."
+-
+-#. (itstool) path: section/title
+-#: C/restore-worst-case.page:57
++"Om säkerhetskopian inte är krypterad lägger du till <_:cmd-1/> i kommandot."
++
++#. (itstool) path: section/p
++msgid ""
++"If you need to do more advanced debugging, read their <link "
++"href=\"https://restic.readthedocs.io/en/stable/077_troubleshooting.html\">troubleshooting"
++" guide</link>."
++msgstr ""
++"Om du behöver felsöka mer avancerade problem kan du läsa <link "
++"href=\"https://restic.readthedocs.io/en/stable/077_troubleshooting.html\">Restics"
++" felsökningsguide</link>."
++
++#. (itstool) path: section/title
+ msgid "Restoring with Duplicity"
+-msgstr "Återställande med Duplicity"
+-
+-#. (itstool) path: section/p
+-#: C/restore-worst-case.page:59
+-msgid ""
+-"On the assumption that <app>Déjà Dup</app> is just not working for you right "
+-"now, let’s use the command line tool <app>duplicity</app> that is used by "
++msgstr "Återställ med Duplicity"
++
++#. (itstool) path: section/p
++msgid ""
++"On the assumption that <app>Déjà Dup</app> is just not working for you right"
++" now, let’s use the command line tool <app>duplicity</app> that is used by "
+ "<app>Déjà Dup</app> behind the scenes to back up and restore your files."
+ msgstr ""
+-"Under antagandet att <app>Déjà Dup</app> helt enkelt inte fungerar för dig "
+-"just nu, låt oss använda kommandoradsverktyget <app>duplicity</app> som "
+-"används av <app>Déjà Dup</app> bakom kulisserna för att säkerhetskopiera och "
+-"återställa dina filer."
++"Om <app>Déjà Dup</app> inte fungerar just nu kan du använda "
++"kommandoradsverktyget <app>duplicity</app>, som <app>Déjà Dup</app> använder"
++" i bakgrunden för att säkerhetskopiera och återställa filer."
+ 
+ #. (itstool) path: note/p
+-#: C/restore-worst-case.page:61
+-msgid ""
+-"If you want more information about <app>Duplicity</app> than presented here, "
+-"read <link href=\"http://duplicity.gitlab.io/docs.html\">its online "
++msgid ""
++"If you want more information about <app>Duplicity</app> than presented here,"
++" read <link href=\"http://duplicity.gitlab.io/docs.html\">its online "
+ "documentation</link>."
+ msgstr ""
+-"Om du vill ha mer information om <app>Duplicity</app> än vad som presenteras "
+-"här, läs <link href=\"http://duplicity.gitlab.io/docs.html\">dess "
+-"nätdokumentation</link>."
+-
+-#. (itstool) path: section/title
+-#: C/restore-worst-case.page:69
++"Om du vill veta mer om <app>Duplicity</app> kan du läsa <link "
++"href=\"http://duplicity.gitlab.io/docs.html\">dokumentationen på "
++"nätet</link>."
++
++#. (itstool) path: section/title
+ msgid "Other Storage Locations"
+ msgstr "Andra lagringsplatser"
+ 
+ #. (itstool) path: section/p
+-#: C/restore-worst-case.page:70
+ msgid ""
+ "If you backed up to a remote or cloud server, the syntax you use with "
+-"<app>Duplicity</app> will be different than the external drive example above."
+-msgstr ""
+-"Om du säkerhetskopierade till en fjärr- eller molnserver kommer syntaxen du "
+-"använder med <app>Duplicity</app> att skilja sig från exemplet med en extern "
+-"enhet ovan."
+-
+-#. (itstool) path: section/p
+-#: C/restore-worst-case.page:71
++"<app>Duplicity</app> will be different than the external drive example "
++"above."
++msgstr ""
++"Om du sparade säkerhetskopian på en fjärrserver eller molntjänst skiljer sig"
++" syntaxen för <app>Duplicity</app> från exemplet med en extern enhet ovan."
++
++#. (itstool) path: section/p
+ msgid ""
+ "Read the <app>Duplicity</app> documentation for instructions on how to "
+ "connect to your server, or try downloading all the <app>Duplicity</app> "
+ "files yourself to a local folder and following the simpler example above."
+ msgstr ""
+-"Läs <app>Duplicity</app>-dokumentationen för instruktioner om hur du "
+-"ansluter till din server, eller försök hämta alla <app>Duplicity</app>-filer "
+-"själv till en lokal mapp och följ det enklare exemplet ovan."
+-
+-#. (itstool) path: section/title
+-#: C/restore-worst-case.page:75
++"Läs dokumentationen för <app>Duplicity</app> om hur du ansluter till "
++"servern. Du kan också hämta alla <app>Duplicity</app>-filer till en lokal "
++"mapp och följa det enklare exemplet ovan."
++
++#. (itstool) path: section/title
+ msgid "Restoring Duplicity Files by Hand"
+-msgstr "Återställa Duplicity-filer för hand"
+-
+-#. (itstool) path: section/p
+-#: C/restore-worst-case.page:77
++msgstr "Återställ Duplicity-filer manuellt"
++
++#. (itstool) path: section/p
+ msgid ""
+ "If even <app>duplicity</app> isn’t working for you, there may be little "
+ "hope. The backup file format is complicated and not easily manipulated. But "
+ "if you’re desperate, it’s worth a try."
+ msgstr ""
+-"Om inte ens <app>duplicity</app> fungerar för dig finns det lite hopp. "
+-"Säkerhetskopieringsfilformatet är komplicerat och inte lätt att manipulera. "
+-"Men om du är desperat så är det värt ett försök."
+-
+-#. (itstool) path: section/p
+-#: C/restore-worst-case.page:79
++"Om inte ens <app>duplicity</app> fungerar kan det vara svårt att rädda "
++"filerna. Säkerhetskopieringsformatet är komplicerat och svårt att hantera "
++"manuellt, men det kan ändå vara värt ett försök."
++
++#. (itstool) path: section/p
+ msgid ""
+ "If you used a remote or cloud server to store your backup, first download "
+ "all the <app>duplicity</app> files and place them in a folder on your "
+ "computer. Then enter that folder in your terminal."
+ msgstr ""
+-"Om du använde en fjärr- eller molnserver för att lagra din säkerhetskopia "
+-"hämtar du först ner alla filer i <app>duplicity</app> och placerar dem i en "
+-"mapp på datorn. Ange sedan den mappen i din terminal."
+-
+-#. (itstool) path: section/p
+-#: C/restore-worst-case.page:81
++"Om du sparade säkerhetskopian på en fjärrserver eller molntjänst hämtar du "
++"först alla <app>duplicity</app>-filer till en mapp på datorn. Gå sedan till "
++"den mappen i terminalen."
++
++#. (itstool) path: section/p
+ msgid ""
+ "<app>Duplicity</app> stores your data in small chunks called volumes. Some "
+ "volumes belong to the periodic ‘full’ or fresh backups and others to the "
+ "‘inc’ or incremental backups. Starting with a full backup set of volumes at "
+ "volume 1, you’ll need to restore files volume by volume."
+ msgstr ""
+-"<app>Duplicity</app> lagrar dina data i små bitar som kallas volymer. Vissa "
+-"volymer tillhör de periodiska fullständiga säkerhetskopiorna ”full” och "
+-"andra till de inkrementella säkerhetskopiorna ”inc”. Efter att ha börjat med "
+-"volym 1 av en fullständig volymuppsättning av säkerhetskopior, måste du "
+-"återställa filer volym efter volym."
+-
+-#. (itstool) path: section/p
+-#: C/restore-worst-case.page:83
++"<app>Duplicity</app> delar upp dina data i små delar som kallas volymer. "
++"Vissa volymer hör till fullständiga säkerhetskopior (”full”), andra till "
++"inkrementella säkerhetskopior (”inc”). Börja med volym 1 i den fullständiga "
++"säkerhetskopian och återställ sedan filerna volym för volym."
++
++#. (itstool) path: section/p
+ msgid ""
+ "If you encrypted your backup, first you must decrypt the volume with "
+ "<_:cmd-1/>. Say you have <_:file-2/>:"
+ msgstr ""
+-"Om du krypterade din säkerhetskopia måste du först dekryptera volymen med "
+-"<_:cmd-1/>. Säg att du har <_:file-2/>:"
+-
+-#. (itstool) path: section/p
+-#: C/restore-worst-case.page:86
++"Om du krypterade säkerhetskopian måste du först dekryptera volymen med "
++"<_:cmd-1/>. Anta att du har <_:file-2/>:"
++
++#. (itstool) path: section/p
+ msgid "Or to do all at once (make sure you have plenty of space!):"
+-msgstr "Eller att göra allt på en gång (se till att du har gott om utrymme!):"
+-
+-#. (itstool) path: section/p
+-#: C/restore-worst-case.page:89
++msgstr ""
++"Du kan också göra allt på en gång (se till att det finns gott om ledigt "
++"utrymme!):"
++
++#. (itstool) path: section/p
+ msgid ""
+ "Now you have either a <_:file-1/> or a <_:file-2/> volume (depending on "
+ "whether you had to decrypt it or not). Use <_:cmd-3/> on whichever one you "
+ "have to extract the individual patch files:"
+ msgstr ""
+-"Nu har du antingen en volym med ändelsen <_:file-1/> eller <_:file-2/> "
+-"(beroende på om du var tvungen att dekryptera den eller inte). Använd "
+-"<_:cmd-3/> på den du har för att extrahera de enskilda patchfilerna:"
+-
+-#. (itstool) path: section/p
+-#: C/restore-worst-case.page:92
++"Nu har du antingen en volym med filändelsen <_:file-1/> eller <_:file-2/>, "
++"beroende på om den behövde dekrypteras. Använd <_:cmd-3/> på filen för att "
++"packa upp de enskilda delarna:"
++
++#. (itstool) path: section/p
+ msgid "Or again, to do all at once:"
+-msgstr "Eller igen, för att göra allt på en gång:"
+-
+-#. (itstool) path: section/p
+-#: C/restore-worst-case.page:95
++msgstr "Du kan också göra allt på en gång:"
++
++#. (itstool) path: section/p
+ msgid ""
+ "Now the patch files will be in <_:file-1/> and <_:file-2/> folders. Each "
+ "file that spanned multiple volumes will be in <_:file-3/>. Let’s say you "
+ "backed up <_:file-4/>:"
+ msgstr ""
+-"Nu kommer patchfilerna att finnas i mapparna <_:file-1/> och <_:file-2/>. "
+-"Varje fil som spänner över flera volymer kommer att finnas i <_:file-3/>. "
+-"Låt oss säga att du säkerhetskopierade <_:file-4/>:"
+-
+-#. (itstool) path: section/p
+-#: C/restore-worst-case.page:99
+-msgid ""
+-"To recover data from incremental backups, use <_:cmd-1/> to stitch the files "
+-"together. See <_:cmd-2/> for usage."
+-msgstr ""
+-"För att återställa data från inkrementella säkerhetskopior, använd <_:cmd-1/"
+-"> för att sy ihop filerna. Se <_:cmd-2/> för användning."
++"Nu finns delarna i mapparna <_:file-1/> och <_:file-2/>. Filer som sträcker "
++"sig över flera volymer finns i <_:file-3/>. Anta att du säkerhetskopierade "
++"<_:file-4/>:"
++
++#. (itstool) path: section/p
++msgid ""
++"To recover data from incremental backups, use <_:cmd-1/> to stitch the files"
++" together. See <_:cmd-2/> for usage."
++msgstr ""
++"Om du vill återställa data från inkrementella säkerhetskopior använder du "
++"<_:cmd-1/> för att sätta ihop filerna. Se <_:cmd-2/> för information om hur "
++"kommandot används."
+ 
+ #. (itstool) path: info/desc
+-#: C/contribute.page:13
+ msgid "Help make <app>Déjà Dup</app> better"
+ msgstr "Hjälp till att göra <app>Déjà Dup</app> bättre"
+ 
+ #. (itstool) path: page/title
+-#: C/contribute.page:20
+ msgid "Getting Involved"
+ msgstr "Engagera dig"
+ 
+ #. (itstool) path: page/p
+-#: C/contribute.page:22
+ msgid ""
+ "So you want to help make <app>Déjà Dup</app> even better? Excellent! Here "
+ "are some suggestions."
+ msgstr ""
+-"Så du vill hjälpa till att göra <app>Déjà Dup</app> ännu bättre? Lysande, "
+-"här är några förslag."
+-
+-#. (itstool) path: section/title
+-#: C/contribute.page:25
++"Vill du hjälpa till att göra <app>Déjà Dup</app> ännu bättre? Vad roligt! "
++"Här är några förslag."
++
++#. (itstool) path: section/title
+ msgid "Report Issues"
+ msgstr "Rapportera problem"
+ 
+ #. (itstool) path: section/p
+-#: C/contribute.page:27
+ msgid ""
+ "Did you see a flaw? Do you have an idea for a new feature? Simply <link "
+ "href=\"https://gitlab.gnome.org/World/deja-dup/-/work_items/new\">report it "
+ "as an issue</link>. Be patient for a reply."
+ msgstr ""
+ "Hittade du ett fel? Har du en idé till en ny funktion? Du kan helt enkelt "
+-"<link href=\"https://gitlab.gnome.org/World/deja-dup/-/work_items/"
+-"new\">felrapportera det</link>. Ha tålamod i väntan på svar."
+-
+-#. (itstool) path: section/p
+-#: C/contribute.page:29
++"<link href=\"https://gitlab.gnome.org/World/deja-"
++"dup/-/work_items/new\">felrapportera det</link>. Ha tålamod i väntan på "
++"svar."
++
++#. (itstool) path: section/p
+ msgid "Note that bug reports should be in English only."
+ msgstr "Observera att felrapporter endast bör skrivas på engelska."
+ 
+ #. (itstool) path: section/title
+-#: C/contribute.page:33
+ msgid "Talk to Us"
+ msgstr "Kommunicera med oss"
+ 
+ #. (itstool) path: section/p
+-#: C/contribute.page:35
+-msgid ""
+-"We don’t bite. Start a discussion with us on the <link href=\"https://"
+-"discourse.gnome.org/tags/c/applications/7/deja-dup\">forums</link>."
+-msgstr ""
+-"Vi bits inte. Börja diskutera med oss på <link href=\"https://"
+-"discourse.gnome.org/tags/c/applications/7/deja-dup\">forumen</link>."
+-
+-#. (itstool) path: section/title
+-#: C/contribute.page:39
++msgid ""
++"We don’t bite. Start a discussion with us on the <link "
++"href=\"https://discourse.gnome.org/tags/c/applications/7/deja-"
++"dup\">forums</link>."
++msgstr ""
++"Vi bits inte. Börja diskutera med oss på <link "
++"href=\"https://discourse.gnome.org/tags/c/applications/7/deja-"
++"dup\">forumen</link>."
++
++#. (itstool) path: section/title
+ msgid "Translating"
+ msgstr "Översätta"
+ 
+ #. (itstool) path: section/p
+-#: C/contribute.page:41
+ msgid ""
+ "Do you speak both English and another language? Great! You can help "
+ "translate <link href=\"https://l10n.gnome.org/module/deja-dup/\"><app>Déjà "
+-"Dup</app></link> through <link href=\"https://wiki.gnome.org/"
+-"TranslationProject/JoiningTranslation\">the GNOME translation project</"
+-"link>. It’s really quite easy and is very appreciated."
++"Dup</app></link> through <link "
++"href=\"https://wiki.gnome.org/TranslationProject/JoiningTranslation\">the "
++"GNOME translation project</link>. It’s really quite easy and is very "
++"appreciated."
+ msgstr ""
+ "Kan du både engelska och ett annat språk? Bra! Du kan hjälpa till att "
+ "översätta <link href=\"https://l10n.gnome.org/module/deja-dup/\"><app>Déjà "
+-"Dup</app></link> genom <link href=\"https://wiki.gnome.org/"
+-"TranslationProject/JoiningTranslation\">GNOME Translation Project</link>. "
+-"Det är väldigt enkelt och mycket uppskattat."
+-
+-#. (itstool) path: section/p
+-#: C/contribute.page:47
+-msgid ""
+-"Do you like helping people? Subscribe to <link href=\"https://"
+-"gitlab.gnome.org/World/deja-dup/-/labels\">the <var>support</var> issue "
+-"label</link> and help answer requests for help."
+-msgstr ""
+-"Tycker du om att hjälpa människor? Prenumerera på <link href=\"https://"
+-"gitlab.gnome.org/World/deja-dup/-/labels\">ärendeetiketten <var>support</"
+-"var></link> och hjälp till att svara på användares frågor."
+-
+-#. (itstool) path: section/p
+-#: C/contribute.page:49
++"Dup</app></link> genom <link "
++"href=\"https://wiki.gnome.org/TranslationProject/JoiningTranslation\">GNOME "
++"Translation Project</link>. Det är väldigt enkelt och mycket uppskattat."
++
++#. (itstool) path: section/p
++msgid ""
++"Do you like helping people? Subscribe to <link "
++"href=\"https://gitlab.gnome.org/World/deja-dup/-/labels\">the "
++"<var>support</var> issue label</link> and help answer requests for help."
++msgstr ""
++"Tycker du om att hjälpa människor? Prenumerera på <link "
++"href=\"https://gitlab.gnome.org/World/deja-dup/-/labels\">ärendeetiketten "
++"<var>support</var></link> och hjälp till att svara på användares frågor."
++
++#. (itstool) path: section/p
+ msgid ""
+ "This is another great way for non-English speakers to get involved, as you "
+ "can answer questions posted in your language."
+@@ -454,105 +408,87 @@
+ "engagera sig, eftersom du kan svara på frågor publicerade på ditt språk."
+ 
+ #. (itstool) path: section/title
+-#: C/contribute.page:53
+ msgid "Coding"
+ msgstr "Programmering"
+ 
+ #. (itstool) path: section/p
+-#: C/contribute.page:55
+-msgid ""
+-"There are always more bugs to fix. If you want to find out what needs doing, "
+-"talk to us on the forums as described above."
++msgid ""
++"There are always more bugs to fix. If you want to find out what needs doing,"
++" talk to us on the forums as described above."
+ msgstr ""
+ "Det finns alltid fel att fixa. Om du vill veta vad som behöver göras, skriv "
+ "till oss på forumen som nämnts ovan."
+ 
+ #. (itstool) path: info/title
+-#: C/index.page:14
+ msgctxt "link:trail"
+ msgid "Déjà Dup Backups Help"
+ msgstr "Hjälp för Déjà Dup Säkerhetskopior"
+ 
+ #. (itstool) path: info/title
+-#: C/index.page:15
+ msgctxt "link"
+ msgid "Déjà Dup Backups Help"
+ msgstr "Hjälp för Déjà Dup Säkerhetskopior"
+ 
+ #. (itstool) path: info/title
+-#: C/index.page:16
+ msgctxt "text"
+ msgid "Déjà Dup Backups Help"
+ msgstr "Hjälp för Déjà Dup Säkerhetskopior"
+ 
+ #. (itstool) path: page/title
+-#: C/index.page:23
+ msgid "Déjà Dup Backups Help"
+ msgstr "Hjälp för Déjà Dup Säkerhetskopior"
+ 
+ #. (itstool) path: section/title
+-#: C/index.page:26
+ msgid "Backing Up"
+ msgstr "Säkerhetskopiera"
+ 
+ #. (itstool) path: section/title
+-#: C/index.page:30
+ msgid "File Recovery"
+ msgstr "Filåterställning"
+ 
+ #. (itstool) path: section/title
+-#: C/index.page:34
+ msgid "About <app>Backups</app>"
+ msgstr "Om <app>Säkerhetskopior</app>"
+ 
+ #. (itstool) path: info/desc
+-#: C/prefs.page:13
+ msgid "Adjust your backup settings"
+ msgstr "Justera dina inställningar för säkerhetskopiering"
+ 
+ #. (itstool) path: page/title
+-#: C/prefs.page:20
+ msgid "Creating Backups"
+ msgstr "Skapa säkerhetskopior"
+ 
+ #. (itstool) path: section/title
+-#: C/prefs.page:23
+ msgid "First Backup"
+ msgstr "Första säkerhetskopian"
+ 
+ #. (itstool) path: section/p
+-#: C/prefs.page:24
+ msgid ""
+ "The first time you open <app>Déjà Dup</app>, you will need to set up your "
+ "first backup."
+ msgstr ""
+-"Den första gången du öppnar <app>Déjà Dup</app> kommer du behöva konfigurera "
+-"din första säkerhetskopia."
+-
+-#. (itstool) path: item/p
+-#: C/prefs.page:26
+-msgid ""
+-"Click on the <gui style=\"button\">Create Your First Backup…</gui> button."
+-msgstr ""
+-"Klicka på knappen <gui style=\"button\">Skapa din första säkerhetskopia…</"
+-"gui>."
+-
+-#. (itstool) path: item/p
+-#: C/prefs.page:27
++"Första gången du öppnar <app>Déjà Dup</app> behöver du konfigurera en "
++"säkerhetskopia."
++
++#. (itstool) path: item/p
++msgid "Click on the <gui style=\"button\">Create Your First Backup…</gui> button."
++msgstr ""
++"Klicka på knappen <gui style=\"button\">Skapa din första "
++"säkerhetskopia…</gui>."
++
++#. (itstool) path: item/p
+ msgid ""
+ "A dialog will appear asking for some important initial settings. See below "
+ "for more information on them."
+ msgstr ""
+-"En dialogruta kommer visas som frågar efter några viktiga "
+-"ursprungsinställningar. Se nedan för mer information om dem."
+-
+-#. (itstool) path: item/p
+-#: C/prefs.page:28
++"En dialogruta ber dig ange några viktiga grundinställningar. Mer information"
++" finns nedan."
++
++#. (itstool) path: item/p
+ msgid "Click <gui style=\"button\">Back Up</gui>."
+ msgstr "Klicka på <gui style=\"button\">Säkerhetskopiera</gui>."
+ 
+ #. (itstool) path: item/p
+-#: C/prefs.page:29
+ msgid ""
+ "You will likely be prompted to set an encryption password for the backup."
+ msgstr ""
+@@ -560,28 +496,25 @@
+ "säkerhetskopian."
+ 
+ #. (itstool) path: item/p
+-#: C/prefs.page:30
+ msgid "Wait for your first backup to finish. It may take some time!"
+-msgstr "Vänta på att din första säkerhetskopia slutförs. Det kan ta lite tid!"
+-
+-#. (itstool) path: section/title
+-#: C/prefs.page:35
++msgstr ""
++"Vänta tills den första säkerhetskopieringen är klar. Det kan ta en stund!"
++
++#. (itstool) path: section/title
+ msgid "Schedule"
+ msgstr "Schema"
+ 
+ #. (itstool) path: section/p
+-#: C/prefs.page:36
+ msgid ""
+ "By default, you must click <gui style=\"button\">Back Up Now</gui> to make "
+ "further backups. But it’s strongly recommended that you enable automatic "
+ "backups."
+ msgstr ""
+-"Som standard måste du klicka på <gui style=\"button\">Säkerhetskopiera nu</"
+-"gui> för att göra vidare säkerhetskopior. Men det rekommenderas starkt att "
+-"du aktiverar automatiska säkerhetskopior."
+-
+-#. (itstool) path: section/p
+-#: C/prefs.page:37
++"Som standard måste du klicka på <gui style=\"button\">Säkerhetskopiera "
++"nu</gui> för att skapa fler säkerhetskopior. Vi rekommenderar att du "
++"aktiverar automatisk säkerhetskopiering."
++
++#. (itstool) path: section/p
+ msgid ""
+ "To edit the automatic backup schedule, click the <gui "
+ "style=\"button\">Schedule</gui> option from the main window."
+@@ -590,16 +523,14 @@
+ "alternativet <gui style=\"button\">Schema</gui> från huvudfönstret."
+ 
+ #. (itstool) path: item/title
+-#: C/prefs.page:40
+ msgid "<gui>Back Up Automatically</gui>"
+ msgstr "<gui>Säkerhetskopiera automatiskt</gui>"
+ 
+ #. (itstool) path: item/p
+-#: C/prefs.page:41
+ msgid ""
+ "Turn this option on to have <app>Déjà Dup</app> automatically back up for "
+-"you. This is recommended so that you don’t forget to do it yourself. Backups "
+-"are more useful the more recent they are, so it is important to back up "
++"you. This is recommended so that you don’t forget to do it yourself. Backups"
++" are more useful the more recent they are, so it is important to back up "
+ "regularly."
+ msgstr ""
+ "Slå på det här alternativet så att <app>Déjà Dup</app> automatiskt "
+@@ -608,240 +539,206 @@
+ "det är viktigt att säkerhetskopiera regelbundet."
+ 
+ #. (itstool) path: item/title
+-#: C/prefs.page:44
+ msgid "<gui>Automatic Backup Frequency</gui>"
+ msgstr "<gui>Frekvens för automatisk säkerhetskopiering</gui>"
+ 
+ # TODO: what is *game mode*?
+ #. (itstool) path: item/p
+-#: C/prefs.page:45
+-msgid ""
+-"Choose how frequently you want your automatic backups to be scheduled. Exact "
+-"timing of the day is not customizable, but backups will be occur in the "
++msgid ""
++"Choose how frequently you want your automatic backups to be scheduled. Exact"
++" timing of the day is not customizable, but backups will be occur in the "
+ "middle of the night if possible. Additionally, automatic backups are paused "
+ "and/or not scheduled when in Power Saver or Game Mode."
+ msgstr ""
+-"Välj hur ofta du vill att dina automatiska säkerhetskopior ska schemaläggas. "
+-"Exakt tid på dagen kan inte ställas in, men säkerhetskopior kommer utföras "
+-"mitt i natten om möjligt. Vidare så pausas och/eller schemaläggs inte "
+-"automatiska säkerhetskopior i strömsparläge eller spelläge."
++"Välj hur ofta automatiska säkerhetskopior ska skapas. Du kan inte ställa in "
++"en exakt tid, men om möjligt körs säkerhetskopieringen mitt i natten. "
++"Automatiska säkerhetskopior pausas eller schemaläggs inte när strömsparläge "
++"eller spelläge är aktiverat."
+ 
+ #. (itstool) path: item/title
+-#: C/prefs.page:48
+ msgid "<gui>Keep Backups</gui>"
+ msgstr "<gui>Behåll säkerhetskopior</gui>"
+ 
+ #. (itstool) path: item/p
+-#: C/prefs.page:49
+-msgid ""
+-"Choose the minimum amount of time to keep backup files. If you find that the "
+-"backup files are taking up too much space, you may want to decrease this "
+-"duration. Due to implementation details, files may be kept a bit longer than "
+-"the chosen time. But no files will be deleted early."
+-msgstr ""
+-"Välj minsta tid för att behålla säkerhetskopior. Om du upptäcker att "
+-"säkerhetskopiorna tar upp för mycket utrymme kanske du vill minska denna "
+-"varaktighet. På grund av implementeringsdetaljer kan filer hållas lite "
+-"längre än den valda tiden. Men inga filer kommer att raderas för tidigt."
++msgid ""
++"Choose the minimum amount of time to keep backup files. If you find that the"
++" backup files are taking up too much space, you may want to decrease this "
++"duration. Due to implementation details, files may be kept a bit longer than"
++" the chosen time. But no files will be deleted early."
++msgstr ""
++"Välj hur länge säkerhetskopior minst ska sparas. Om de tar för mycket plats "
++"kan du korta tiden. På grund av tekniska omständigheter kan filer sparas "
++"något längre än den valda tiden, men inga filer tas bort i förtid."
+ 
+ #. (itstool) path: note/p
+-#: C/prefs.page:50
+-msgid ""
+-"Backups are kept forever by default, but still may be deleted earlier if the "
+-"storage location begins to run out of space."
++msgid ""
++"Backups are kept forever by default, but still may be deleted earlier if the"
++" storage location begins to run out of space."
+ msgstr ""
+ "Säkerhetskopior behålls för alltid som standard, men kan fortfarande tas "
+ "bort tidigare om lagringsplatsen börjar få ont om utrymme."
+ 
+ #. (itstool) path: section/title
+-#: C/prefs.page:56
+ msgid "Folders"
+ msgstr "Mappar"
+ 
+ #. (itstool) path: section/p
+-#: C/prefs.page:57
+ msgid ""
+ "By default, your entire home folder (minus the Trash and Downloads folders) "
+ "are included in backups."
+ msgstr ""
+-"Som standard inkluderas hela din hemmapp (minus mapparna för papperskorg och "
+-"hämtningar) i säkerhetskopior."
+-
+-#. (itstool) path: section/p
+-#: C/prefs.page:58
++"Som standard säkerhetskopieras hela din hemmapp, utom mapparna Papperskorgen"
++" och Hämtningar."
++
++#. (itstool) path: section/p
+ msgid ""
+ "To edit the list of included folders, click the <gui "
+ "style=\"button\">Folders</gui> option from the main window."
+ msgstr ""
+-"För att redigera listan över inkluderade mappar, klicka på alternativet <gui "
+-"style=\"button\">Mappar</gui> från huvudfönstret."
++"För att redigera listan över inkluderade mappar, klicka på alternativet <gui"
++" style=\"button\">Mappar</gui> från huvudfönstret."
+ 
+ #. (itstool) path: item/title
+-#: C/prefs.page:61
+ msgid "<gui>Folders to Back Up</gui>"
+ msgstr "<gui>Mappar att säkerhetskopiera</gui>"
+ 
+ #. (itstool) path: item/p
+-#: C/prefs.page:62
+ msgid ""
+ "Choose a list of folders to save in your backup. Press the <gui "
+ "style=\"button\">Add Backed Up Folder…</gui> or <gui "
+ "style=\"button\">Remove</gui> buttons to modify the list."
+ msgstr ""
+-"Välj en lista med mappar att spara i din säkerhetskopia. Tryck på knappen "
+-"<gui style=\"button\">Lägg till säkerhetskopierad mapp…</gui> eller <gui "
+-"style=\"button\">Ta bort</gui> för att ändra listan."
++"Välj vilka mappar som ska ingå i säkerhetskopian. Ändra listan med knapparna"
++" <gui style=\"button\">Lägg till mapp för säkerhetskopiering…</gui> och <gui"
++" style=\"button\">Ta bort</gui>."
+ 
+ #. (itstool) path: item/title
+-#: C/prefs.page:65
+ msgid "<gui>Folders to Ignore</gui>"
+ msgstr "<gui>Mappar att ignorera</gui>"
+ 
+ #. (itstool) path: item/p
+-#: C/prefs.page:66
+ msgid ""
+ "Choose a list of folders to not save in your backup. Press the <gui "
+-"style=\"button\">Add Ignored Folder…</gui> or <gui style=\"button\">Remove</"
+-"gui> buttons to modify the list."
+-msgstr ""
+-"Välj en lista med mappar som inte sparas i din säkerhetskopia. Tryck på "
+-"knappen <gui style=\"button\">Lägg till ignorerad mapp…</gui> eller <gui "
+-"style=\"button\">Ta bort</gui> för att ändra listan."
+-
+-#. (itstool) path: item/p
+-#: C/prefs.page:67
++"style=\"button\">Add Ignored Folder…</gui> or <gui "
++"style=\"button\">Remove</gui> buttons to modify the list."
++msgstr ""
++"Välj vilka mappar som inte ska ingå i säkerhetskopian. Ändra listan med "
++"knapparna <gui style=\"button\">Lägg till mapp att ignorera…</gui> och <gui "
++"style=\"button\">Ta bort</gui>."
++
++#. (itstool) path: item/p
+ msgid ""
+ "Some of your data may be large and not very important to you. In that case, "
+ "you can save yourself some time and space by not backing them up."
+ msgstr ""
+-"Några av dina data kan vara stora och inte väldigt viktiga för dig. I så "
+-"fall kan du spara lite tid och utrymme genom att inte säkerhetskopiera dem."
++"Vissa filer kan vara stora och mindre viktiga. Då kan du spara både tid och "
++"utrymme genom att utesluta dem från säkerhetskopieringen."
+ 
+ #. (itstool) path: note/p
+-#: C/prefs.page:69
+ msgid "Some locations are always ignored by default:"
+ msgstr "Vissa platser ignoreras alltid som standard:"
+ 
+ #. (itstool) path: p/span
+-#: C/prefs.page:75
+ msgid "(which by default also ignores <_:file-1/>)"
+ msgstr "(som även ignorerar <_:file-1/>)"
+ 
+ #. (itstool) path: item/p
+-#: C/prefs.page:87
+ msgid "Any folder with a <_:file-1/> or <_:file-2/> file in it."
+ msgstr "Alla mappar med filerna <_:file-1/> eller <_:file-2/> i sig."
+ 
+ #. (itstool) path: section/title
+-#: C/prefs.page:95
+ msgid "Storage Location"
+ msgstr "Lagringsplats"
+ 
+ #. (itstool) path: section/p
+-#: C/prefs.page:96
+ msgid ""
+ "The storage location is where <app>Déjà Dup</app> will put its copies of "
+ "your files so that they can be restored later."
+ msgstr ""
+-"Lagringsplatsen är platsen där <app>Déjà Dup</app> kommer stoppa sina kopior "
+-"av dina filer så att de kan återställas senare."
+-
+-#. (itstool) path: section/p
+-#: C/prefs.page:97
++"Lagringsplatsen är där <app>Déjà Dup</app> sparar kopior av dina filer så "
++"att du kan återställa dem senare."
++
++#. (itstool) path: section/p
+ msgid ""
+ "To change where backups are kept, click the <gui style=\"button\">Storage "
+ "Location</gui> option from the main window."
+ msgstr ""
+-"För att ändra var säkerhetskopior lagras, klicka på alternativet <gui "
+-"style=\"button\">Lagringsplats</gui> från huvudfönstret."
+-
+-#. (itstool) path: section/p
+-#: C/prefs.page:98
+-msgid ""
+-"Note that backups can be quite large, so make sure you have enough free disk "
+-"space."
++"Om du vill ändra var säkerhetskopiorna sparas väljer du <gui "
++"style=\"button\">Lagringsplats</gui> i huvudfönstret."
++
++#. (itstool) path: section/p
++msgid ""
++"Note that backups can be quite large, so make sure you have enough free disk"
++" space."
+ msgstr ""
+ "Observera att säkerhetskopior kan vara rätt stora, så säkerställ att du har "
+ "tillräckligt mycket diskutrymme."
+ 
+ #. (itstool) path: section/p
+-#: C/prefs.page:99
+-msgid ""
+-"If you'd like to use an external drive as a storage location, plug it in and "
+-"it will show up in the list."
+-msgstr ""
+-"Om du vill använda en extern enhet som en lagringsplats kan du ansluta den "
+-"till datorn så kommer den att visas i listan."
++msgid ""
++"If you'd like to use an external drive as a storage location, plug it in and"
++" it will show up in the list."
++msgstr ""
++"Om du vill använda en extern enhet som lagringsplats ansluter du den till "
++"datorn. Då visas den i listan."
+ 
+ #. (itstool) path: note/p
+-#: C/prefs.page:100
+ msgid ""
+ "While you can choose a local folder for your backups, this is not "
+ "recommended. If your hardware fails, you will lose both your original data "
+ "and your backups all at once."
+ msgstr ""
+-"Även om du kan välja en lokal mapp för dina säkerhetskopior så rekommenderas "
+-"detta inte. Om din hårdvara havererar kommer du förlora både dina original "
++"Även om du kan välja en lokal mapp för dina säkerhetskopior så rekommenderas"
++" detta inte. Om din hårdvara havererar kommer du förlora både dina original "
+ "och dina säkerhetskopior samtidigt."
+ 
+ #. (itstool) path: info/desc
+-#: C/restore-full.page:13
+ msgid "Recover lost files"
+ msgstr "Rädda förlorade filer"
+ 
+ #. (itstool) path: page/title
+-#: C/restore-full.page:20
+ msgid "Restoring"
+ msgstr "Återställande"
+ 
+ #. (itstool) path: section/title
+-#: C/restore-full.page:22
+ msgid "Scanning for Backups"
+ msgstr "Söka efter säkerhetskopior"
+ 
+ #. (itstool) path: section/p
+-#: C/restore-full.page:23
+ msgid ""
+ "Each time a new backup happens, it adds a new \"snapshot\" of your files. "
+ "Each snapshot has its own record of files at the time of backup."
+ msgstr ""
+-"Varje gång en ny säkerhetskopia utförs lägger den till en ny "
+-"”ögonblicksbild” av dina filer. Varje ögonblicksbild har sin egen "
+-"förteckning över filer vid tiden för säkerhetskopiering."
+-
+-#. (itstool) path: section/p
+-#: C/restore-full.page:24
++"Varje ny säkerhetskopiering skapar en ”ögonblicksbild” av filerna. Den "
++"innehåller en förteckning över filerna vid säkerhetskopieringstillfället."
++
++#. (itstool) path: section/p
+ msgid ""
+ "In order to browse and restore from an existing backup, we must first scan "
+ "the available backups and pick one to examine."
+ msgstr ""
+-"För att bläddra bland och återställa från en befintlig säkerhetskopia "
+-"behöver vi först söka igenom de tillgängliga säkerhetskopiorna och välja en "
+-"att undersöka."
+-
+-#. (itstool) path: section/title
+-#: C/restore-full.page:27
++"Innan du kan bläddra bland eller återställa filer från en befintlig "
++"säkerhetskopia måste programmet söka igenom tillgängliga säkerhetskopior. "
++"Välj sedan en att undersöka."
++
++#. (itstool) path: section/title
+ msgid "Fresh Install"
+ msgstr "Ny installation"
+ 
+ #. (itstool) path: section/p
+-#: C/restore-full.page:28
+ msgid ""
+ "If you haven’t used <app>Déjà Dup</app> on your computer before (for "
+ "example, if you are working on a freshly installed system), you have to do "
+ "some initial setup."
+ msgstr ""
+-"Om du inte har använt <app>Déjà Dup</app> på din dator innan (om du "
+-"exempelvis arbetar på ett nyinstallerat sytem), så behöver du göra lite "
+-"inledande konfiguration."
+-
+-#. (itstool) path: item/p
+-#: C/restore-full.page:30 C/restore-full.page:42
++"Om du inte har använt <app>Déjà Dup</app> på datorn tidigare, till exempel "
++"efter en nyinstallation, behöver du först göra några grundinställningar."
++
++#. (itstool) path: item/p
+ msgid "Open <gui>Déjà Dup Backups</gui>."
+ msgstr "Öppna <gui>Déjà Dup Säkerhetskopior</gui>."
+ 
+ #. (itstool) path: item/p
+-#: C/restore-full.page:31
+ msgid ""
+ "Click on the <gui style=\"button\">Restore From a Previous Backup…</gui> "
+ "button."
+@@ -850,116 +747,103 @@
+ "säkerhetskopia…</gui>."
+ 
+ #. (itstool) path: item/p
+-#: C/restore-full.page:32
+-msgid ""
+-"A restore dialog will appear asking where your backup files are stored (your "
+-"<gui>Backup location</gui>)."
+-msgstr ""
+-"En återställningsdialog kommer att fråga var dina säkerhetskopior lagras "
+-"(din <gui>Plats för säkerhetskopior</gui>)."
+-
+-#. (itstool) path: item/p
+-#: C/restore-full.page:33
++msgid ""
++"A restore dialog will appear asking where your backup files are stored (your"
++" <gui>Backup location</gui>)."
++msgstr ""
++"En dialogruta frågar var säkerhetskopiorna finns (<gui>Plats för "
++"säkerhetskopior</gui>)."
++
++#. (itstool) path: item/p
+ msgid "Click <gui style=\"button\">Search</gui>."
+ msgstr "Klicka på <gui style=\"button\">Sök</gui>."
+ 
+ #. (itstool) path: item/p
+-#: C/restore-full.page:34 C/restore-full.page:44
+ msgid "Wait for <app>Déjà Dup</app> to scan the backup location."
+-msgstr "Vänta på att <app>Déjà Dup</app> söker av säkerhetskopieringsplatsen."
+-
+-#. (itstool) path: section/title
+-#: C/restore-full.page:39
++msgstr ""
++"Vänta medan <app>Déjà Dup</app> söker igenom lagringsplatsen efter "
++"säkerhetskopior."
++
++#. (itstool) path: section/title
+ msgid "Existing Install"
+ msgstr "Befintlig installation"
+ 
+ #. (itstool) path: section/p
+-#: C/restore-full.page:40
+-msgid ""
+-"If you are trying to restore a file from a previous backup on your computer, "
+-"that’s easy too."
+-msgstr ""
+-"Om du försöker återställa en fil från en tidigare säkerhetskopia på datorn "
+-"så är det också lätt."
+-
+-#. (itstool) path: item/p
+-#: C/restore-full.page:43
++msgid ""
++"If you are trying to restore a file from a previous backup on your computer,"
++" that’s easy too."
++msgstr ""
++"Det är enkelt att återställa en fil från en tidigare säkerhetskopia på "
++"datorn."
++
++#. (itstool) path: item/p
+ msgid ""
+ "Click on the <gui style=\"button\">Browse &amp; Restore Files</gui> button."
+ msgstr ""
+-"Klicka på knappen <gui style=\"button\">Bläddra bland och återställ filer</"
+-"gui>."
+-
+-#. (itstool) path: section/title
+-#: C/restore-full.page:51
++"Klicka på knappen <gui style=\"button\">Bläddra bland och återställ "
++"filer</gui>."
++
++#. (itstool) path: section/title
+ msgid "Restore Files"
+ msgstr "Återställ filer"
+ 
+ #. (itstool) path: section/p
+-#: C/restore-full.page:52
+ msgid ""
+ "Scroll the available backup dates and click the one you want to examine. "
+ "Then one of two things will happen, depending on when you first made a "
+ "backup."
+ msgstr ""
+-"Rulla genom de tillgängliga datumen för säkerhetskopior och klicka på den du "
+-"vill utforska. Sedan kommer en av två saker hända, beroende på när du först "
+-"gjorde en säkerhetskopia."
+-
+-#. (itstool) path: section/title
+-#: C/restore-full.page:55
++"Bläddra bland datumen för de tillgängliga säkerhetskopiorna och klicka på "
++"det du vill undersöka. Vad som händer sedan beror på när den första "
++"säkerhetskopian skapades."
++
++#. (itstool) path: section/title
+ msgid "Restic"
+ msgstr "Restic"
+ 
+ #. (itstool) path: section/p
+-#: C/restore-full.page:56
+-msgid ""
+-"If your backups were first created with a modern version of <app>Déjà Dup</"
+-"app> (49.0 or later), it made Restic backups."
+-msgstr ""
+-"Om dina säkerhetskopior först skapades med en modern version av <app>Déjà "
+-"Dup</app> (49.0 eller senare), så gjorde det Restic-säkerhetskopior."
+-
+-#. (itstool) path: section/p
+-#: C/restore-full.page:57
++msgid ""
++"If your backups were first created with a modern version of <app>Déjà "
++"Dup</app> (49.0 or later), it made Restic backups."
++msgstr ""
++"Om säkerhetskopiorna först skapades med <app>Déjà Dup</app> 49.0 eller "
++"senare är de skapade med Restic."
++
++#. (itstool) path: section/p
+ msgid ""
+ "In that case, a file manager window will appear. You can then open files "
+ "directly or copy them elsewhere to restore them."
+ msgstr ""
+-"I det fallet kommer ett filhanterarfönster att visas. Du kan öppna filer "
+-"direkt eller dra och släppa dem någon annanstans för att återställa dem."
+-
+-#. (itstool) path: section/title
+-#: C/restore-full.page:61
++"Då öppnas ett filhanterarfönster. Du kan öppna filerna direkt eller kopiera "
++"dem till en annan plats för att återställa dem."
++
++#. (itstool) path: section/title
+ msgid "Duplicity"
+ msgstr "Duplicity"
+ 
+ #. (itstool) path: section/p
+-#: C/restore-full.page:62
+-msgid ""
+-"If your backups were first created with an older version of <app>Déjà Dup</"
+-"app> (48.2 or earlier), it made Duplicity backups."
+-msgstr ""
+-"Om dina säkerhetskopior först skapades med en äldre version av <app>Déjà "
+-"Dup</app> (48.2 eller tidigare), så gjorde det Duplicity-säkerhetskopior."
+-
+-#. (itstool) path: section/p
+-#: C/restore-full.page:63
++msgid ""
++"If your backups were first created with an older version of <app>Déjà "
++"Dup</app> (48.2 or earlier), it made Duplicity backups."
++msgstr ""
++"Om säkerhetskopiorna först skapades med <app>Déjà Dup</app> 48.2 eller "
++"tidigare är de skapade med Duplicity."
++
++#. (itstool) path: section/p
+ msgid ""
+ "In that case, you'll see a built-in file browser. Select the files you want "
+ "to restore, click <gui>Restore</gui>, and choose the destination."
+ msgstr ""
+-"I det fallet kommer du se en inbyggd filbläddrare. Välj filerna du vill "
+-"återställa, klicka på <gui>Återställ</gui>, och välj målet."
++"Då visas en inbyggd filbläddrare. Välj filerna du vill återställa, klicka på"
++" <gui>Återställ</gui> och välj målplats."
+ 
+ #. (itstool) path: note/p
+-#: C/restore-full.page:67
+ msgid ""
+ "If you hit problems restoring, there are <link xref=\"restore-worst-"
+ "case\">more drastic things</link> you can try."
+ msgstr ""
+-"Om du stöter på problem med återställning så finns det <link xref=\"restore-"
+-"worst-case\">mer drastiska saker</link> du kan försöka."
++"Om det uppstår problem vid återställningen kan du prova <link "
++"xref=\"restore-worst-case\">mer drastiska åtgärder</link>."
+ 
+ #~ msgid "Restore a previous version of a file"
+ #~ msgstr "Återställ en tidigare version av en fil"
+@@ -981,15 +865,14 @@
+ #~ "Välj filen eller filerna som du vill återställa genom att klicka på dem."
+ 
+ #~ msgid "Click <gui style=\"button\">Restore</gui> on the bottom left."
+-#~ msgstr ""
+-#~ "Klicka på <gui style=\"button\">Återställ</gui> längst ner till vänster."
++#~ msgstr "Klicka på <gui style=\"button\">Återställ</gui> längst ned till vänster."
+ 
+ #~ msgid ""
+ #~ "A restore dialog will appear. Choose whether you want to override the "
+ #~ "original backed up files or restore to a new location."
+ #~ msgstr ""
+-#~ "En återställningsdialog kommer att visas. Välj om du vill åsidosätta de "
+-#~ "ursprungliga säkerhetskopierade filerna eller återställa till en ny plats."
++#~ "En dialogruta för återställning visas. Välj om du vill skriva över de "
++#~ "ursprungliga filerna eller återställa dem till en annan plats."
+ 
+ #~ msgid ""
+ #~ "Click <gui style=\"button\">Restore</gui> and wait for the restore to "
+@@ -1002,8 +885,8 @@
+ #~ "You can also choose the backup date from which you are restoring in the "
+ #~ "bottom right of the <gui>Restore</gui> tab."
+ #~ msgstr ""
+-#~ "Du kan också välja säkerhetskopieringsdatumet som du återställer från "
+-#~ "längst ner till höger i fliken <gui>Återställ</gui>."
++#~ "Du kan också välja datum för säkerhetskopian längst ned till höger på fliken"
++#~ " <gui>Återställ</gui>."
+ 
+ #~ msgid "You can also revert files on the command line:"
+ #~ msgstr "Du kan även återställa filer på kommandoraden:"
+@@ -1013,15 +896,15 @@
+ #~ msgstr "<_:span-1/>FIL1 FIL2"
+ 
+ #~ msgid ""
+-#~ "Open a <app>Terminal</app> window by pressing <keyseq><key>Ctrl</"
+-#~ "key><key>Alt</key><key>T</key></keyseq>."
++#~ "Open a <app>Terminal</app> window by pressing "
++#~ "<keyseq><key>Ctrl</key><key>Alt</key><key>T</key></keyseq>."
+ #~ msgstr ""
+ #~ "Öppna ett <app>Terminal</app>-fönster genom att trycka på "
+ #~ "<keyseq><key>Ctrl</key><key>Alt</key><key>T</key></keyseq>."
+ 
+ #~ msgid ""
+-#~ "Create the directory in which you will place your restored files. This "
+-#~ "guide will use <_:file-1/>:"
++#~ "Create the directory in which you will place your restored files. This guide"
++#~ " will use <_:file-1/>:"
+ #~ msgstr ""
+ #~ "Skapa katalogen där du ska placera dina återställda filer. Den här guiden "
+ #~ "kommer att använda <_:file-1/>:"
+@@ -1042,8 +925,8 @@
+ #~ "<var>PASSWORD</var> in the example below with those respective values."
+ #~ msgstr ""
+ #~ "Leta upp din serveradress, port, användarnamn och lösenord och ersätt "
+-#~ "förekomster av <var>SERVER</var>, <var>PORT</var>, <var>ANVÄNDARNAMN</"
+-#~ "var> och <var>LÖSENORD</var> i exemplet nedan med dessa respektive värden."
++#~ "förekomster av <var>SERVER</var>, <var>PORT</var>, <var>ANVÄNDARNAMN</var> "
++#~ "och <var>LÖSENORD</var> i exemplet nedan med dessa respektive värden."
+ 
+ #~ msgid ""
+ #~ "You may have specified a folder in which to put the backup files. In the "
+@@ -1056,8 +939,8 @@
+ #~ "If you chose to not log in with a username, use <_:var-1/> as your "
+ #~ "<var>USERNAME</var> below."
+ #~ msgstr ""
+-#~ "Om du väljer att inte logga in med ett användarnamn, använd <_:var-1/> "
+-#~ "som ditt <var>ANVÄNDARNAMN</var> nedan."
++#~ "Om du väljer att inte logga in med ett användarnamn använder du <_:var-1/> "
++#~ "som <var>ANVÄNDARNAMN</var> i exemplet nedan."
+ 
+ #, no-wrap
+ #~ msgid "USERNAME"
+@@ -1093,22 +976,22 @@
+ #~ msgstr "Windows-delning"
+ 
+ #~ msgid ""
+-#~ "Look up your server address, username, and password and replace instances "
+-#~ "of <var>SERVER</var>, <var>USERNAME</var>, and <var>PASSWORD</var> in the "
++#~ "Look up your server address, username, and password and replace instances of"
++#~ " <var>SERVER</var>, <var>USERNAME</var>, and <var>PASSWORD</var> in the "
+ #~ "example below with those respective values."
+ #~ msgstr ""
+-#~ "Leta upp din serveradress, användarnamn och lösenord och ersätt "
+-#~ "förekomster av <var>SERVER</var>, <var>ANVÄNDARNAMN</var> och "
+-#~ "<var>LÖSENORD</var> i exemplet nedan med dessa respektive värden."
+-
+-#~ msgid ""
+-#~ "If you specified a domain for your Windows server, add it to the "
+-#~ "beginning of <var>USERNAME</var> with a semicolon between them. For "
+-#~ "example, <var>domain;username</var>."
+-#~ msgstr ""
+-#~ "Om du har angett en domän för din Windows-server lägger du till den i "
+-#~ "början av <var>ANVÄNDARNAMN</var> med ett semikolon mellan dem. Till "
+-#~ "exempel <var>domän;användarnamn</var>."
++#~ "Leta upp din serveradress, användarnamn och lösenord och ersätt förekomster "
++#~ "av <var>SERVER</var>, <var>ANVÄNDARNAMN</var> och <var>LÖSENORD</var> i "
++#~ "exemplet nedan med dessa respektive värden."
++
++#~ msgid ""
++#~ "If you specified a domain for your Windows server, add it to the beginning "
++#~ "of <var>USERNAME</var> with a semicolon between them. For example, "
++#~ "<var>domain;username</var>."
++#~ msgstr ""
++#~ "Om du har angett en domän för Windows-servern lägger du till den före "
++#~ "<var>ANVÄNDARNAMN</var> och skiljer dem åt med semikolon, till exempel "
++#~ "<var>domän;användarnamn</var>."
+ 
+ #~ msgid "Adjust your backup preferences"
+ #~ msgstr "Justera dina inställningar för säkerhetskopiering"
+@@ -1121,21 +1004,21 @@
+ #~ "corner of the window and select <guiseq><gui "
+ #~ "style=\"menuitem\">Preferences</gui></guiseq>."
+ #~ msgstr ""
+-#~ "För att granska dina inställningar för säkerhetskopior, tryck på "
+-#~ "menyknappen i fönstrets övre högra hörn och välj <guiseq><gui "
++#~ "För att granska dina inställningar för säkerhetskopior, tryck på menyknappen"
++#~ " i fönstrets övre högra hörn och välj <guiseq><gui "
+ #~ "style=\"menuitem\">Inställningar</gui></guiseq>."
+ 
+ #~ msgid ""
+ #~ "Choose a list of folders to save in your backup. Press the <gui "
+-#~ "style=\"button\">Add</gui> or <gui style=\"button\">Remove</gui> buttons "
+-#~ "to modify the list. If you are only interested in backing up your own "
+-#~ "data, the default of <gui>Home</gui> is sufficient."
++#~ "style=\"button\">Add</gui> or <gui style=\"button\">Remove</gui> buttons to "
++#~ "modify the list. If you are only interested in backing up your own data, the"
++#~ " default of <gui>Home</gui> is sufficient."
+ #~ msgstr ""
+ #~ "Välj en lista med mappar som ska sparas i din säkerhetskopia. Tryck på "
+-#~ "knappen <gui style=\"button\">Lägg till</gui> eller <gui "
+-#~ "style=\"button\">Ta bort</gui> för att ändra listan. Om du bara är "
+-#~ "intresserad av att säkerhetskopiera dina egna data är standardvärdet "
+-#~ "<gui>Hem</gui> tillräckligt."
++#~ "knappen <gui style=\"button\">Lägg till</gui> eller <gui style=\"button\">Ta"
++#~ " bort</gui> för att ändra listan. Om du bara är intresserad av att "
++#~ "säkerhetskopiera dina egna data är standardvärdet <gui>Hem</gui> "
++#~ "tillräckligt."
+ 
+ #~ msgid "Full System Restore"
+ #~ msgstr "Full systemåterställning"
+@@ -1150,41 +1033,35 @@
+ #~ "settings to change anything, as any customizations you make now may get "
+ #~ "overridden once you restore."
+ #~ msgstr ""
+-#~ "Få ditt system till ett nytt tillstånd. Till exempel en ny installation "
+-#~ "eller ett nytt konto på en gammal dator. Oroa dig inte om att få det att "
+-#~ "kännas bekvämt eller anpassa inställningar ännu. Vänta tills du har "
+-#~ "återställt dina tidigare inställningar innan du ändrar något, eftersom "
+-#~ "eventuella anpassningar du gör nu kan komma att åsidosättas när du "
+-#~ "återställer."
+-
+-#~ msgid ""
+-#~ "Next, you need to install <app>Déjà Dup</app>. Your distribution vendor "
+-#~ "may package it for you. Otherwise, install it from flathub or the snap "
+-#~ "store."
+-#~ msgstr ""
+-#~ "Härnäst behöver du installera <app>Déjà Dup</app>. Din distribution "
+-#~ "kanske har paketerat det åt dig. I andra fall kan du installera det från "
+-#~ "flathub eller snap store."
++#~ "Börja med ett rent system, till exempel en nyinstallation eller ett nytt "
++#~ "konto på en äldre dator. Vänta med att anpassa inställningarna tills du har "
++#~ "återställt de tidigare. Anpassningar du gör nu kan annars skrivas över vid "
++#~ "återställningen."
++
++#~ msgid ""
++#~ "Next, you need to install <app>Déjà Dup</app>. Your distribution vendor may "
++#~ "package it for you. Otherwise, install it from flathub or the snap store."
++#~ msgstr ""
++#~ "Installera sedan <app>Déjà Dup</app>. Det kan finnas som ett paket i din "
++#~ "distribution. Annars kan du installera det från Flathub eller Snap Store."
+ 
+ #~ msgid ""
+ #~ "Choose the date you want to restore from. Usually you can just leave this "
+ #~ "alone, as the default is the most recent backup."
+ #~ msgstr ""
+-#~ "Välj det datum du vill återställa från. Vanligtvis kan du lämna detta "
+-#~ "orört eftersom standardvärdet är den senaste säkerhetskopian."
+-
+-#~ msgid ""
+-#~ "Choose where to restore. Since this is a full system backup, leave it as "
+-#~ "the default (which restores over your current install)."
+-#~ msgstr ""
+-#~ "Välj var du vill återställa. Eftersom detta är en fullständig "
+-#~ "systemsäkerhetskopiering, lämna den som standard (som återställs över din "
+-#~ "nuvarande installation)."
+-
+-#~ msgid ""
+-#~ "Review your selections and click <gui style=\"button\">Restore</gui>."
+-#~ msgstr ""
+-#~ "Granska dina val och klicka på <gui style=\"button\">Återställ</gui>."
++#~ "Välj det datum du vill återställa från. Vanligtvis kan du lämna detta orört "
++#~ "eftersom standardvärdet är den senaste säkerhetskopian."
++
++#~ msgid ""
++#~ "Choose where to restore. Since this is a full system backup, leave it as the"
++#~ " default (which restores over your current install)."
++#~ msgstr ""
++#~ "Välj var du vill återställa filerna. Eftersom det här är en fullständig "
++#~ "säkerhetskopia av systemet låter du standardplatsen vara vald. Då återställs"
++#~ " filerna ovanpå den nuvarande installationen."
++
++#~ msgid "Review your selections and click <gui style=\"button\">Restore</gui>."
++#~ msgstr "Granska dina val och klicka på <gui style=\"button\">Återställ</gui>."
+ 
+ #~ msgid "Wait. It may take a long time to finish restoring."
+ #~ msgstr "Vänta. Det kan ta lång tid att slutföra återställningen."
+@@ -1192,19 +1069,18 @@
+ #~ msgid ""
+ #~ "Finally, reinstall any programs that you enjoyed in your previous install."
+ #~ msgstr ""
+-#~ "Slutligen, installera alla program som du haft i din tidigare "
+-#~ "installation."
+-
+-#~ msgid ""
+-#~ "If for whatever reason you have a problem after trying to restore with "
+-#~ "the <gui style=\"checkbox\">Restore files to original locations</gui> "
+-#~ "option, try restoring instead to a temporary directory and moving your "
+-#~ "files to where they belong."
++#~ "Slutligen, installera alla program som du haft i din tidigare installation."
++
++#~ msgid ""
++#~ "If for whatever reason you have a problem after trying to restore with the "
++#~ "<gui style=\"checkbox\">Restore files to original locations</gui> option, "
++#~ "try restoring instead to a temporary directory and moving your files to "
++#~ "where they belong."
+ #~ msgstr ""
+ #~ "Om du av någon anledning har problem efter att ha försökt återställa med "
+-#~ "alternativet <gui style=\"checkbox\">Återställ filer till deras "
+-#~ "ursprungliga platser</gui>, försök att i stället återställa till en "
+-#~ "tillfällig katalog och flytta dina filer dit de hör hemma."
++#~ "alternativet <gui style=\"checkbox\">Återställ filer till deras ursprungliga"
++#~ " platser</gui>, försök att i stället återställa till en tillfällig katalog "
++#~ "och flytta dina filer dit de hör hemma."
+ 
+ #~ msgctxt "link:trail"
+ #~ msgid "<app>Backups</app> Help"
+@@ -1225,8 +1101,8 @@
+ #~ "We don’t bite. Send an email to the <link href=\"mailto:deja-dup-"
+ #~ "list@gnome.org\">mailing list</link>."
+ #~ msgstr ""
+-#~ "Vi bits inte. Skicka ett e-postmeddelande till vår <link "
+-#~ "href=\"mailto:deja-dup-list@gnome.org\">mejllista</link>."
++#~ "Vi bits inte. Skicka ett e-postmeddelande till <link href=\"mailto:deja-dup-"
++#~ "list@gnome.org\">e-postlistan</link>."
+ 
+ #~ msgid ""
+ #~ "Or <link href=\"https://mail.gnome.org/mailman/listinfo/deja-dup-"
+@@ -1239,10 +1115,10 @@
+ #~ msgstr "Observera att listan endast är på engelska."
+ 
+ #~ msgid "Meet the team"
+-#~ msgstr "Träffa arbetslaget"
++#~ msgstr "Träffa utvecklargruppen"
+ 
+ #~ msgid "Credits"
+-#~ msgstr "Tack till"
++#~ msgstr "Medverkande"
+ 
+ #~ msgid "Development"
+ #~ msgstr "Utveckling"
+@@ -1264,37 +1140,37 @@
+ 
+ #~ msgid ""
+ #~ "This program is free software; you can redistribute it and/or modify it "
+-#~ "under the terms of the GNU General Public License as published by the "
+-#~ "Free Software Foundation; either version 3 of the License, or (at your "
+-#~ "option) any later version."
+-#~ msgstr ""
+-#~ "Detta program är fri programvara; du kan distribuera det och/eller ändra "
+-#~ "det under villkoren för GNU General Public License som publicerats av "
+-#~ "Free Software Foundation; antingen version 3 av licensen, eller (enligt "
+-#~ "dig själv) någon senare version."
+-
+-#~ msgid ""
+-#~ "This program is distributed in the hope that it will be useful, but "
+-#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
+-#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General "
+-#~ "Public License for more details."
+-#~ msgstr ""
+-#~ "Detta program distribueras i hopp om att det ska vara användbart, men "
+-#~ "UTAN NÅGON SOM HELST GARANTI, även utan underförstådd garanti om "
+-#~ "SÄLJBARHET eller LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General "
+-#~ "Public License för mer information."
+-
+-#~ msgid ""
+-#~ "You should have received a copy of the GNU General Public License along "
+-#~ "with this program. If not, see <link href=\"http://www.gnu.org/licenses/"
+-#~ "\">http://www.gnu.org/licenses/</link>."
+-#~ msgstr ""
+-#~ "Du borde ha fått en kopia av GNU General Public License tillsammans med "
+-#~ "det här programmet. Om inte, se <link href=\"http://www.gnu.org/licenses/"
+-#~ "\">http://www.gnu.org/licenses/</link>."
++#~ "under the terms of the GNU General Public License as published by the Free "
++#~ "Software Foundation; either version 3 of the License, or (at your option) "
++#~ "any later version."
++#~ msgstr ""
++#~ "Det här programmet är fri programvara. Du får distribuera och/eller ändra "
++#~ "det enligt villkoren i GNU General Public License, publicerad av Free "
++#~ "Software Foundation, antingen version 3 av licensen eller (om du vill) en "
++#~ "senare version."
++
++#~ msgid ""
++#~ "This program is distributed in the hope that it will be useful, but WITHOUT "
++#~ "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
++#~ "FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for "
++#~ "more details."
++#~ msgstr ""
++#~ "Programmet distribueras i hopp om att det ska vara användbart, men UTAN "
++#~ "NÅGON SOM HELST GARANTI, inte heller underförstådd garanti om SÄLJBARHET "
++#~ "eller LÄMPLIGHET FÖR ETT VISST ÄNDAMÅL. Se GNU General Public License för "
++#~ "mer information."
++
++#~ msgid ""
++#~ "You should have received a copy of the GNU General Public License along with"
++#~ " this program. If not, see <link "
++#~ "href=\"http://www.gnu.org/licenses/\">http://www.gnu.org/licenses/</link>."
++#~ msgstr ""
++#~ "Du bör ha fått en kopia av GNU General Public License tillsammans med "
++#~ "programmet. Om inte, se <link "
++#~ "href=\"http://www.gnu.org/licenses/\">http://www.gnu.org/licenses/</link>."
+ 
+ #~ msgid "Removable Media"
+-#~ msgstr "Flyttbara media"
++#~ msgstr "Flyttbara medier"
+ 
+ #~ msgid "Amazon S3"
+ #~ msgstr "Amazon S3"
+@@ -1320,12 +1196,12 @@
+ #~ msgstr "Om <app>Déjà Dup säkerhetskopieringsverktyg</app>"
+ 
+ #~ msgid ""
+-#~ "Next, you need to install <app>Déjà Dup</app>. Your distribution vendor "
+-#~ "may package it for you. Otherwise, download and compile it."
++#~ "Next, you need to install <app>Déjà Dup</app>. Your distribution vendor may "
++#~ "package it for you. Otherwise, download and compile it."
+ #~ msgstr ""
+ #~ "Därefter måste du installera <app>Déjà Dup</app>. Din "
+-#~ "distributionsleverantör kan paketera det för dig. Annars hämta och "
+-#~ "kompilera det."
++#~ "distributionsleverantör kan paketera det för dig. Annars hämta och kompilera"
++#~ " det."
+ 
+ #~ msgid "Give yourself peace of mind"
+ #~ msgstr "Ge dig själv sinnesro"
+@@ -1334,24 +1210,24 @@
+ #~ msgstr "Starta nu"
+ 
+ #~ msgid ""
+-#~ "If you only back up when you remember to do so, you’re not backing up "
+-#~ "often enough. Fortunately, it’s easy to set up automatic backups."
+-#~ msgstr ""
+-#~ "Om du endast säkerhetskopierar när du kommer ihåg så blir det inte "
+-#~ "tillräckligt ofta. Lyckligtvis är det enkelt att konfigurera automatisk "
++#~ "If you only back up when you remember to do so, you’re not backing up often "
++#~ "enough. Fortunately, it’s easy to set up automatic backups."
++#~ msgstr ""
++#~ "Om du bara säkerhetskopierar när du kommer ihåg det gör du det inte "
++#~ "tillräckligt ofta. Som tur är är det enkelt att ställa in automatisk "
+ #~ "säkerhetskopiering."
+ 
+ #~ msgid ""
+-#~ "Review your <link xref=\"prefs\">backup settings</link>, to confirm they "
+-#~ "are what you want."
+-#~ msgstr ""
+-#~ "Granska dina <link xref=\"prefs\">säkerhetskopieringsinställningar</"
+-#~ "link>, för att bekräfta att de är vad du vill ha."
+-
+-#~ msgid ""
+-#~ "Wait. It may take a long time to backup, especially if you are backing up "
+-#~ "to a remote server. Just let it run in the background while you do "
+-#~ "something else."
++#~ "Review your <link xref=\"prefs\">backup settings</link>, to confirm they are"
++#~ " what you want."
++#~ msgstr ""
++#~ "Kontrollera att dina <link xref=\"prefs\">inställningar för "
++#~ "säkerhetskopiering</link> är som du vill ha dem."
++
++#~ msgid ""
++#~ "Wait. It may take a long time to backup, especially if you are backing up to"
++#~ " a remote server. Just let it run in the background while you do something "
++#~ "else."
+ #~ msgstr ""
+ #~ "Vänta. Det kan ta en stund att säkerhetskopiera, speciellt om du kopierar "
+ #~ "till en fjärrserver. Låt kopieringen köra i bakgrunden medan du gör "
+@@ -1361,28 +1237,27 @@
+ #~ "Click on the <gui style=\"button\">Back Up Now…</gui> button on the "
+ #~ "<gui>Overview</gui> page."
+ #~ msgstr ""
+-#~ "Klicka på knappen <gui style=\"button\">Säkerhetskopiera nu...</gui> på "
+-#~ "sidan <gui>Översikt</gui>."
++#~ "Klicka på knappen <gui style=\"button\">Säkerhetskopiera nu…</gui> på sidan "
++#~ "<gui>Översikt</gui>."
+ 
+ #~ msgid ""
+ #~ "Consider only saving your backups for a certain length of time, using the "
+-#~ "<gui>Keep backups</gui> option on the <gui>Schedule</gui> page. "
+-#~ "Otherwise, they may end up consuming a lot of space while you’re not "
+-#~ "paying attention."
+-#~ msgstr ""
+-#~ "Överväg att endast spara säkerhetskopiorna en viss tid genom att "
+-#~ "använda<gui>Behåll säkerhetskopior</gui> på fliken <gui>Schema</gui>. "
+-#~ "Annars kan det gå åt mycket diskutrymme."
+-
+-#~ msgid ""
+-#~ "Turn on the <gui>Automatic backups</gui> option on the <gui>Overview</"
+-#~ "gui> page."
+-#~ msgstr ""
+-#~ "Slå på <gui>Automatiska säkerhetskopior</gui> som finns på "
+-#~ "fliken<gui>Översikt</gui>"
++#~ "<gui>Keep backups</gui> option on the <gui>Schedule</gui> page. Otherwise, "
++#~ "they may end up consuming a lot of space while you’re not paying attention."
++#~ msgstr ""
++#~ "Du kan välja att bara spara säkerhetskopiorna en viss tid med alternativet "
++#~ "<gui>Behåll säkerhetskopior</gui> på sidan <gui>Schema</gui>. Annars kan de "
++#~ "ta upp mycket diskutrymme utan att du märker det."
++
++#~ msgid ""
++#~ "Turn on the <gui>Automatic backups</gui> option on the <gui>Overview</gui> "
++#~ "page."
++#~ msgstr ""
++#~ "Aktivera <gui>Automatiska säkerhetskopior</gui> på sidan "
++#~ "<gui>Översikt</gui>."
+ 
+ #~ msgid "Open your <gui>Backups</gui> settings."
+-#~ msgstr "Öppna dina <gui>Säkerhetskopierings</gui>inställningar."
++#~ msgstr "Öppna inställningarna för <gui>Säkerhetskopior</gui>."
+ 
+ #~ msgid "<gui>Folders to ignore</gui>"
+ #~ msgstr "<gui>Mappar att ignorera</gui>"
+@@ -1397,23 +1272,22 @@
+ #~ msgstr "Inställningar"
+ 
+ #~ msgid ""
+-#~ "You may also want to choose a local folder as a storage location. Note "
+-#~ "that backups can be quite large, so make sure you have enough free disk "
+-#~ "space."
+-#~ msgstr ""
+-#~ "Du kanske också vill välja en lokal mapp som en lagringsplats. Observera "
+-#~ "att säkerhetskopior kan vara ganska stora, så se till att du har "
+-#~ "tillräckligt med ledigt diskutrymme."
++#~ "You may also want to choose a local folder as a storage location. Note that "
++#~ "backups can be quite large, so make sure you have enough free disk space."
++#~ msgstr ""
++#~ "Du kanske också vill välja en lokal mapp som en lagringsplats. Observera att"
++#~ " säkerhetskopior kan vara ganska stora, så se till att du har tillräckligt "
++#~ "med ledigt diskutrymme."
+ 
+ #~ msgid "Remote Servers"
+ #~ msgstr "Fjärrservrar"
+ 
+ #~ msgid ""
+-#~ "Use these options to specify the storage location that <app>Déjà Dup</"
+-#~ "app> will use when backing up or restoring:"
+-#~ msgstr ""
+-#~ "Använd dessa alternativ för att ange lagringsplatsen som <app>Déjà Dup</"
+-#~ "app> kommer att använda när du säkerhetskopierar eller återställer:"
++#~ "Use these options to specify the storage location that <app>Déjà Dup</app> "
++#~ "will use when backing up or restoring:"
++#~ msgstr ""
++#~ "Använd dessa alternativ för att ange lagringsplatsen som <app>Déjà Dup</app>"
++#~ " kommer att använda när du säkerhetskopierar eller återställer:"
+ 
+ #~ msgid ""
+ #~ "You may see removable media like external hard drives or thumb drives "
+@@ -1431,15 +1305,14 @@
+ #~ msgid ""
+ #~ "The first few storage locations are cloud storage services provided by "
+ #~ "various companies. For a small fee, they hold your data for you. A cloud "
+-#~ "service like this is recommended because it is an easy way to keep your "
+-#~ "data offsite (meaning out of your home: in case of disaster or theft, "
+-#~ "your data will still be safe)."
+-#~ msgstr ""
+-#~ "De första lagringsplatserna är molnlagringstjänster som tillhandahålls av "
+-#~ "olika företag. För en liten avgift, håller de dina data för dig. En "
+-#~ "molntjänst som denna rekommenderas eftersom det är ett enkelt sätt att "
+-#~ "hålla dina data på en annan plats (vilket betyder utanför ditt hem: i "
+-#~ "händelse av katastrof eller stöld, är dina data fortfarande säkra)."
++#~ "service like this is recommended because it is an easy way to keep your data"
++#~ " offsite (meaning out of your home: in case of disaster or theft, your data "
++#~ "will still be safe)."
++#~ msgstr ""
++#~ "De första alternativen är molntjänster som tillhandahålls av olika företag. "
++#~ "Mot en mindre avgift lagrar de dina data åt dig. En sådan tjänst "
++#~ "rekommenderas eftersom den förvarar dina data utanför hemmet. Om en olycka "
++#~ "eller stöld inträffar finns data då kvar på en annan plats."
+ 
+ #~ msgid ""
+ #~ "These services cost money. Read their rates carefully before using them."
+@@ -1447,54 +1320,54 @@
+ #~ "Dessa tjänster kostar pengar. Läs deras priser noga innan du använder dem."
+ 
+ #~ msgid ""
+-#~ "Choose the type of remote server to which you want to connect. Then you "
+-#~ "can enter the server information. Alternatively, if you know your "
+-#~ "server’s URL, choose <gui>Custom Location</gui> and enter it."
+-#~ msgstr ""
+-#~ "Välj vilken typ av fjärrserver som du vill ansluta till. Då kan du ange "
+-#~ "serverns information. Alternativt, om du känner till din serveradress, "
+-#~ "välj <gui>Anpassad plats</gui> och ange den."
+-
+-#~ msgid ""
+-#~ "This is not recommended, because if your hardware fails, you will lose "
+-#~ "both your original data and your backups."
+-#~ msgstr ""
+-#~ "Detta rekommenderas inte, för om hårdvaran misslyckas kommer du att "
+-#~ "förlora både dina ursprungliga data och dina säkerhetskopior."
++#~ "Choose the type of remote server to which you want to connect. Then you can "
++#~ "enter the server information. Alternatively, if you know your server’s URL, "
++#~ "choose <gui>Custom Location</gui> and enter it."
++#~ msgstr ""
++#~ "Välj först vilken typ av fjärrserver du vill ansluta till och ange sedan "
++#~ "serverinformationen. Om du känner till serverns URL kan du i stället välja "
++#~ "<gui>Anpassad plats</gui> och ange den."
++
++#~ msgid ""
++#~ "This is not recommended, because if your hardware fails, you will lose both "
++#~ "your original data and your backups."
++#~ msgstr ""
++#~ "Det här rekommenderas inte. Om maskinvaran går sönder förlorar du både "
++#~ "originalfilerna och säkerhetskopiorna."
+ 
+ #~ msgid "Browse to the folder containing the file you lost."
+ #~ msgstr "Bläddra till mappen som innehåller filen du förlorade."
+ 
+ #~ msgid ""
+-#~ "When you see the file you want to restore appear, select it and click "
+-#~ "<gui style=\"button\">Forward</gui>."
+-#~ msgstr ""
+-#~ "När du ser filen du vill återställa ska du välja den och klicka på <gui "
++#~ "When you see the file you want to restore appear, select it and click <gui "
++#~ "style=\"button\">Forward</gui>."
++#~ msgstr ""
++#~ "När filen du vill återställa visas markerar du den och klickar på <gui "
+ #~ "style=\"button\">Framåt</gui>."
+ 
+ #~ msgid ""
+ #~ "Click <guiseq><gui style=\"menuitem\">File</gui><gui "
+ #~ "style=\"menuitem\">Restore Missing Files…</gui></guiseq>."
+ #~ msgstr ""
+-#~ "Klicka på <guiseq><gui style=\"menuitem\">File</gui><gui "
++#~ "Klicka på <guiseq><gui style=\"menuitem\">Arkiv</gui><gui "
+ #~ "style=\"menuitem\">Återställ saknade filer…</gui></guiseq>."
+ 
+ #~ msgid ""
+-#~ "When the <gui>Restore</gui> dialog appears, it will scan for files that "
+-#~ "are in the backup but no longer in the folder."
+-#~ msgstr ""
+-#~ "När dialogrutan <gui>Återställ</gui> visas kommer den att söka efter "
+-#~ "filer som finns i säkerhetskopian men inte längre i mappen."
++#~ "When the <gui>Restore</gui> dialog appears, it will scan for files that are "
++#~ "in the backup but no longer in the folder."
++#~ msgstr ""
++#~ "När dialogrutan <gui>Återställ</gui> visas kommer den att söka efter filer "
++#~ "som finns i säkerhetskopian men inte längre i mappen."
+ 
+ #~ msgid ""
+ #~ "You can restore lost files from the command line as well, if you remember "
+ #~ "what their filenames were:"
+ #~ msgstr ""
+-#~ "Du kan också återställa förlorade filer från kommandoraden också om du "
+-#~ "kommer ihåg vad deras filnamn var:"
++#~ "Du kan också återställa förlorade filer från kommandoraden, om du kommer "
++#~ "ihåg deras filnamn:"
+ 
+ #~ msgid "Restore a file that is no longer present"
+-#~ msgstr "Återställ en fil som inte längre är närvarande"
++#~ msgstr "Återställ en fil som inte längre finns"
+ 
+ #~ msgid "Browse to the folder containing the file you want to revert."
+ #~ msgstr "Bläddra till mappen som innehåller filen du vill återgå till."
+@@ -1506,8 +1379,8 @@
+ #~ msgstr "Hjälp med säkerhetskopiering"
+ 
+ #~ msgid ""
+-#~ "Review your selections and click <gui style=\"button\">Restore</gui>. "
+-#~ "Note that this will overwrite your current version of the file."
++#~ "Review your selections and click <gui style=\"button\">Restore</gui>. Note "
++#~ "that this will overwrite your current version of the file."
+ #~ msgstr ""
+ #~ "Granska dina val och klicka på <gui style=\"button\">Återställ</gui>. "
+ #~ "Observera att detta kommer att skriva över din nuvarande version av filen."
+@@ -1516,38 +1389,37 @@
+ #~ "When the <gui>Restore</gui> dialog appears, choose the date from which to "
+ #~ "restore."
+ #~ msgstr ""
+-#~ "När dialogrutan <gui>Återställ</gui> visas väljer du det datum från "
+-#~ "vilket du vill återställa."
++#~ "När dialogrutan <gui>Återställ</gui> visas väljer du det datum från vilket "
++#~ "du vill återställa."
+ 
+ #~ msgid ""
+ #~ "Click <guiseq><gui style=\"menuitem\">Edit</gui><gui "
+ #~ "style=\"menuitem\">Revert to Previous Version…</gui></guiseq>."
+ #~ msgstr ""
+ #~ "Klicka på <guiseq><gui style=\"menuitem\">Redigera</gui><gui "
+-#~ "style=\"menuitem\">Återgå till föregående version...</gui></guiseq>."
++#~ "style=\"menuitem\">Återgå till föregående version…</gui></guiseq>."
+ 
+ #~ msgid "You can select multiple files at once before reverting."
+-#~ msgstr "Du kan välja flera filer samtidigt innan du återgår."
++#~ msgstr "Du kan välja flera filer samtidigt innan du återställer dem."
+ 
+ #~ msgid "ID"
+ #~ msgstr "ID"
+ 
+ #~ msgid ""
+ #~ "Look up your Amazon S3 access key ID and secret access key and replace "
+-#~ "instances of <var>ID</var> and <var>SECRET</var> in the example below "
+-#~ "with those respective values."
+-#~ msgstr ""
+-#~ "Slå upp din Amazon S3 access key ID och secret access key och ersätt "
+-#~ "instanser av <var>ID</var> och <var>SECRET</var> i exemplet nedan med "
+-#~ "dessa respektive värden."
+-
+-#~ msgid ""
+-#~ "You may have specified a container in which to put the backup files. In "
+-#~ "the example below, replace any instance of <var>CONTAINER</var> with that "
+-#~ "name."
+-#~ msgstr ""
+-#~ "Du kan ha angett en behållare för att sätta säkerhetskopiorna. I exemplet "
+-#~ "nedan ersätter du en instans av <var>CONTAINER</var > med det namnet."
++#~ "instances of <var>ID</var> and <var>SECRET</var> in the example below with "
++#~ "those respective values."
++#~ msgstr ""
++#~ "Ta reda på ditt Amazon S3-åtkomstnyckel-ID och din hemliga åtkomstnyckel. "
++#~ "Ersätt <var>ID</var> och <var>SECRET</var> i exemplet nedan med respektive "
++#~ "värde."
++
++#~ msgid ""
++#~ "You may have specified a container in which to put the backup files. In the "
++#~ "example below, replace any instance of <var>CONTAINER</var> with that name."
++#~ msgstr ""
++#~ "Du kan ha angett en behållare där säkerhetskopiorna ska sparas. Ersätt varje"
++#~ " förekomst av <var>BEHÅLLARE</var> i exemplet nedan med behållarens namn."
+ 
+ #~ msgid "KEY"
+ #~ msgstr "NYCKEL"
+@@ -1563,9 +1435,9 @@
+ #~ "<var>USERNAME</var> and <var>KEY</var> in the example below with those "
+ #~ "respective values."
+ #~ msgstr ""
+-#~ "Slå upp ditt Rackspace-användarnamn och API-nyckel och ersätt instanser "
+-#~ "av <var>ANVÄNDARNAMN</var> och<var>NYCKEL</var> i exemplet nedan med "
+-#~ "dessa respektive värden."
++#~ "Slå upp ditt Rackspace-användarnamn och API-nyckel och ersätt instanser av "
++#~ "<var>ANVÄNDARNAMN</var> och <var>NYCKEL</var> i exemplet nedan med dessa "
++#~ "respektive värden."
+ 
+ #~ msgid "Rackspace Cloud Files"
+-#~ msgstr "Rackspace-molnfiler"
++#~ msgstr "Rackspace Cloud Files"
