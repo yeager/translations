@@ -1,0 +1,622 @@
+[
+  {
+    "key": "component::melcloud_home::exceptions::temperature_max_below_min::message",
+    "key_id": "889358651",
+    "translation_id": "9075369627",
+    "en": "The maximum temperature must be higher than the minimum temperature.",
+    "before": "Den högsta temperaturen måste vara högre än den lägsta temperaturen.",
+    "after": "Den högsta temperaturen måste vara högre än den lägsta temperaturen.",
+    "readback": "Den högsta temperaturen måste vara högre än den lägsta temperaturen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::melcloud_home::exceptions::temperature_min_exceeds_max::message",
+    "key_id": "889358652",
+    "translation_id": "9075369691",
+    "en": "The minimum temperature must be lower than the maximum temperature.",
+    "before": "Den lägsta temperaturen måste vara lägre än den högsta temperaturen.",
+    "after": "Den lägsta temperaturen måste vara lägre än den högsta temperaturen.",
+    "readback": "Den lägsta temperaturen måste vara lägre än den högsta temperaturen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::steam_online::config::abort::already_configured_as_subentry",
+    "key_id": "889700943",
+    "translation_id": "9079042642",
+    "en": "This Steam account is already configured as a sub-entry.",
+    "before": "Det här Steam-kontot är redan konfigurerat som en underpost.",
+    "after": "Det här Steam-kontot är redan konfigurerat som en underpost.",
+    "readback": "Det här Steam-kontot är redan konfigurerat som en underpost.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::steam_online::config_subentries::friend::entry_type",
+    "key_id": "889700952",
+    "translation_id": "9079043218",
+    "en": "Friend",
+    "before": "Vän",
+    "after": "Vän",
+    "readback": "Vän",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::scorpiontrack::config::step::user::title",
+    "key_id": "890444318",
+    "translation_id": "9089056523",
+    "en": "Connect a ScorpionTrack share",
+    "before": "Anslut en ScorpionTrack-delning",
+    "after": "Anslut en ScorpionTrack-delning",
+    "readback": "Anslut en ScorpionTrack-delning",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::scorpiontrack::exceptions::invalid_token::message",
+    "key_id": "890444320",
+    "translation_id": "9089056651",
+    "en": "ScorpionTrack rejected the configured share token.",
+    "before": "ScorpionTrack avvisade den konfigurerade delningstoken.",
+    "after": "ScorpionTrack avvisade den konfigurerade delningstoken.",
+    "readback": "ScorpionTrack avvisade den konfigurerade delningstoken.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::scorpiontrack::exceptions::share_unavailable::message",
+    "key_id": "890444321",
+    "translation_id": "9089056715",
+    "en": "The shared location is unavailable.",
+    "before": "Den delade platsen är inte tillgänglig.",
+    "after": "Den delade platsen är inte tillgänglig.",
+    "readback": "Den delade platsen är inte tillgänglig.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::liebherr::exceptions::device_timeout_error::message",
+    "key_id": "888925631",
+    "translation_id": "9071424082",
+    "en": "Timeout communicating with device {device_id}",
+    "before": "Timeout för kommunikation med enheten {device_id}",
+    "after": "Tidsgränsen för kommunikationen med enheten {device_id} överskreds.",
+    "readback": "Tidsgränsen för kommunikationen med enheten {device_id} överskreds.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::fronius::entity::binary_sensor::backup_mode::name",
+    "key_id": "888974620",
+    "translation_id": "9071951477",
+    "en": "Backup mode",
+    "before": "Läge för säkerhetskopiering",
+    "after": "Reservdriftläge",
+    "readback": "Reservdriftläge",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::fronius::entity::binary_sensor::battery_standby::name",
+    "key_id": "888974621",
+    "translation_id": "9071951541",
+    "en": "Battery standby",
+    "before": "Batteri standby",
+    "after": "Batteri i vänteläge",
+    "readback": "Batteri i vänteläge",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::subaru::entity::sensor::vehicle_state::name",
+    "key_id": "888988530",
+    "translation_id": "9072278723",
+    "en": "Vehicle state",
+    "before": "Fordonets tillstånd",
+    "after": "Fordonets status",
+    "readback": "Fordonets status",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::subaru::entity::sensor::vehicle_state::state::ignition_acc",
+    "key_id": "888988532",
+    "translation_id": "9072278851",
+    "en": "Accessory power",
+    "before": "Tillbehörsström",
+    "after": "Tillbehörsläge",
+    "readback": "Tillbehörsläge",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::subaru::entity::sensor::vehicle_state::state::ignition_off",
+    "key_id": "888988533",
+    "translation_id": "9072278915",
+    "en": "Ignition off",
+    "before": "Tändning av",
+    "after": "Tändningen är av",
+    "readback": "Tändningen är av",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::subaru::entity::sensor::vehicle_state::state::ignition_on",
+    "key_id": "888988534",
+    "translation_id": "9072278979",
+    "en": "Ignition on",
+    "before": "Tändning på",
+    "after": "Tändningen är på",
+    "readback": "Tändningen är på",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::velux::entity::number::closed_position_limitation::name",
+    "key_id": "889014432",
+    "translation_id": "9072643484",
+    "en": "Closed position limit",
+    "before": "Gräns för stängd position",
+    "after": "Begränsning för stängt läge",
+    "readback": "Begränsning för stängt läge",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::velux::entity::number::open_position_limitation::name",
+    "key_id": "889014433",
+    "translation_id": "9072643548",
+    "en": "Open position limit",
+    "before": "Gräns för öppen position",
+    "after": "Begränsning för öppet läge",
+    "readback": "Begränsning för öppet läge",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::exceptions::credential_required::message",
+    "key_id": "889058188",
+    "translation_id": "9072889483",
+    "en": "This device requires a credential when adding a user.",
+    "before": "Den här enheten kräver inloggningsuppgifter när en användare läggs till.",
+    "after": "Enheten kräver en åtkomstuppgift när en användare läggs till.",
+    "readback": "Enheten kräver en åtkomstuppgift när en användare läggs till.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::set_user::fields::credential_data::description",
+    "key_id": "889058189",
+    "translation_id": "9072889547",
+    "en": "The credential data (e.g. PIN digits or password string).",
+    "before": "Autentiseringsuppgift (t.ex. PIN-siffror eller lösenordssträng).",
+    "after": "Åtkomstuppgiften (t.ex. PIN-kod eller lösenord).",
+    "readback": "Åtkomstuppgiften (t.ex. PIN-kod eller lösenord).",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::set_user::fields::credential_data::name",
+    "key_id": "889058190",
+    "translation_id": "9072889611",
+    "en": "Credential data",
+    "before": "Autentiseringsuppgift",
+    "after": "Åtkomstuppgift",
+    "readback": "Åtkomstuppgift",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::set_user::fields::credential_slot::description",
+    "key_id": "889058191",
+    "translation_id": "9072889675",
+    "en": "Credential slot index. If not specified, the first available slot is used.",
+    "before": "Index för autentiseringsuppgift. Om inget anges används den första tillgängliga platsen.",
+    "after": "Index för åtkomstuppgiftens plats. Om inget anges används den första lediga platsen.",
+    "readback": "Index för åtkomstuppgiftens plats. Om inget anges används den första lediga platsen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::set_user::fields::credential_slot::name",
+    "key_id": "889058192",
+    "translation_id": "9072889739",
+    "en": "Credential slot",
+    "before": "Plats för autentiseringsuppgift",
+    "after": "Plats för åtkomstuppgift",
+    "readback": "Plats för åtkomstuppgift",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::set_user::fields::credential_type::description",
+    "key_id": "889058193",
+    "translation_id": "9072889803",
+    "en": "The type of credential (pin_code or password).",
+    "before": "Typ av autentiseringsuppgift (PIN-kod eller lösenord).",
+    "after": "Typ av åtkomstuppgift (PIN-kod eller lösenord).",
+    "readback": "Typ av åtkomstuppgift (PIN-kod eller lösenord).",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zwave_js::services::set_user::fields::credential_type::name",
+    "key_id": "889058194",
+    "translation_id": "9072889867",
+    "en": "Credential type",
+    "before": "Typ av autentisering",
+    "after": "Typ av åtkomstuppgift",
+    "readback": "Typ av åtkomstuppgift",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::melcloud_home::entity::number::frost_protection_max_temp::name",
+    "key_id": "889358647",
+    "translation_id": "9075369371",
+    "en": "Frost protection maximum temperature",
+    "before": "Frostskydd högsta temperatur",
+    "after": "Högsta temperatur för frostskydd",
+    "readback": "Högsta temperatur för frostskydd",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::melcloud_home::entity::number::frost_protection_min_temp::name",
+    "key_id": "889358648",
+    "translation_id": "9075369435",
+    "en": "Frost protection minimum temperature",
+    "before": "Frostskydd lägsta temperatur",
+    "after": "Lägsta temperatur för frostskydd",
+    "readback": "Lägsta temperatur för frostskydd",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::melcloud_home::entity::number::overheat_protection_max_temp::name",
+    "key_id": "889358649",
+    "translation_id": "9075369499",
+    "en": "Overheat protection maximum temperature",
+    "before": "Överhettningsskydd högsta temperatur",
+    "after": "Högsta temperatur för överhettningsskydd",
+    "readback": "Högsta temperatur för överhettningsskydd",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::melcloud_home::entity::number::overheat_protection_min_temp::name",
+    "key_id": "889358650",
+    "translation_id": "9075369563",
+    "en": "Overheat protection minimum temperature",
+    "before": "Överhettningsskydd lägsta temperatur",
+    "after": "Lägsta temperatur för överhettningsskydd",
+    "readback": "Lägsta temperatur för överhettningsskydd",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::steam_online::config_subentries::friend::abort::already_configured",
+    "key_id": "889700944",
+    "translation_id": "9079042706",
+    "en": "Already configured as a friend in this or another account.",
+    "before": "Du är redan registrerad som vän på det här eller ett annat konto.",
+    "after": "Kontot är redan konfigurerat som vän i det här eller ett annat Steam-konto.",
+    "readback": "Kontot är redan konfigurerat som vän i det här eller ett annat Steam-konto.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::steam_online::config_subentries::friend::abort::already_configured_as_entry",
+    "key_id": "889700945",
+    "translation_id": "9079042770",
+    "en": "This account is already configured as a service and cannot be added as a friend.",
+    "before": "Det här kontot är redan konfigurerat som en tjänst och kan inte läggas till som en vän.",
+    "after": "Det här kontot är redan konfigurerat som en tjänst och kan inte läggas till som vän.",
+    "readback": "Det här kontot är redan konfigurerat som en tjänst och kan inte läggas till som vän.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::steam_online::config_subentries::friend::abort::config_entry_not_loaded",
+    "key_id": "889700947",
+    "translation_id": "9079042898",
+    "en": "Cannot add friend accounts when the main account is disabled or not loaded.",
+    "before": "Det går inte att lägga till vänkonton när huvudkontot är inaktiverat eller inte har laddats in.",
+    "after": "Det går inte att lägga till vänkonton när huvudkontot är inaktiverat eller inte inläst.",
+    "readback": "Det går inte att lägga till vänkonton när huvudkontot är inaktiverat eller inte inläst.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::steam_online::config_subentries::friend::abort::friendlist_private",
+    "key_id": "889700948",
+    "translation_id": "9079042962",
+    "en": "Your friend list appears to be private or inaccessible.\n\nTo add friend accounts open Steam and go to [**{name} > Profile > Edit Profile > Privacy Settings**]({privacy_settings_url}) and set **Friends List** to **Public**.\n\nOnce your friends are added, you can switch it back to your preferred privacy setting.",
+    "before": "Din vänlista verkar vara privat eller oåtkomlig.\n\nFör att lägga till vänkonton, öppna Steam och gå till [**{name} > Profil > Redigera profil > Sekretessinställningar**]({privacy_settings_url}) och ställ in **Vänlista** till **Offentlig**.\n\nNär dina vänner har lagts till kan du återställa till de sekretessinställningar som du önskar.",
+    "after": "Din vänlista verkar vara privat eller oåtkomlig.\n\nOm du vill lägga till vänkonton öppnar du Steam och går till [**{name} > Profile > Edit Profile > Privacy Settings**]({privacy_settings_url}). Ställ in **Friends List** på **Public**.\n\nNär du har lagt till dina vänner kan du återställa önskad sekretessinställning.",
+    "readback": "Din vänlista verkar vara privat eller oåtkomlig.\n\nOm du vill lägga till vänkonton öppnar du Steam och går till [**{name} > Profile > Edit Profile > Privacy Settings**]({privacy_settings_url}). Ställ in **Friends List** på **Public**.\n\nNär du har lagt till dina vänner kan du återställa önskad sekretessinställning.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::steam_online::config_subentries::friend::abort::no_more_friends",
+    "key_id": "889700949",
+    "translation_id": "9079043026",
+    "en": "All friends from your friend list have already been added.",
+    "before": "Alla vänner från din vänlista har redan lagts till.",
+    "after": "Alla vänner i vänlistan har redan lagts till.",
+    "readback": "Alla vänner i vänlistan har redan lagts till.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::steam_online::config_subentries::friend::step::user::data_description::account",
+    "key_id": "889700958",
+    "translation_id": "9079043602",
+    "en": "Select a friend from your friend list to track their online status.",
+    "before": "Välj en vän från din vänlista för att spåra deras onlinestatus.",
+    "after": "Välj en vän i vänlistan vars onlinestatus ska följas.",
+    "readback": "Välj en vän i vänlistan vars onlinestatus ska följas.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::steam_online::config_subentries::friend::step::user::description",
+    "key_id": "889700959",
+    "translation_id": "9079043666",
+    "en": "Track the online status of a Steam friend.",
+    "before": "Spåra en Steam-väns onlinestatus.",
+    "after": "Följ en Steam-väns onlinestatus.",
+    "readback": "Följ en Steam-väns onlinestatus.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::steam_online::config_subentries::friend::step::user::title",
+    "key_id": "889700960",
+    "translation_id": "9079043730",
+    "en": "Friend online status",
+    "before": "Väns online-status",
+    "after": "Onlinestatus för vän",
+    "readback": "Onlinestatus för vän",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::gree::entity::climate::climate::state_attributes::swing_mode::state::fixed_lower",
+    "key_id": "889701855",
+    "translation_id": "9079151587",
+    "en": "Fixed lower",
+    "before": "Fast nedre",
+    "after": "Fast läge nedåt",
+    "readback": "Fast läge nedåt",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::gree::entity::climate::climate::state_attributes::swing_mode::state::fixed_lower_middle",
+    "key_id": "889701856",
+    "translation_id": "9079151651",
+    "en": "Fixed lower middle",
+    "before": "Fast nedre mitten",
+    "after": "Fast läge nedåt i mitten",
+    "readback": "Fast läge nedåt i mitten",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::gree::entity::climate::climate::state_attributes::swing_mode::state::fixed_middle",
+    "key_id": "889701857",
+    "translation_id": "9079151715",
+    "en": "Fixed middle",
+    "before": "Fast mitten",
+    "after": "Fast läge i mitten",
+    "readback": "Fast läge i mitten",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::gree::entity::climate::climate::state_attributes::swing_mode::state::fixed_upper",
+    "key_id": "889701858",
+    "translation_id": "9079151779",
+    "en": "Fixed upper",
+    "before": "Fast övre",
+    "after": "Fast läge uppåt",
+    "readback": "Fast läge uppåt",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::gree::entity::climate::climate::state_attributes::swing_mode::state::fixed_upper_middle",
+    "key_id": "889701859",
+    "translation_id": "9079151843",
+    "en": "Fixed upper middle",
+    "before": "Fast övre mitten",
+    "after": "Fast läge uppåt i mitten",
+    "readback": "Fast läge uppåt i mitten",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::gree::entity::climate::climate::state_attributes::swing_mode::state::swing_lower",
+    "key_id": "889701861",
+    "translation_id": "9079151971",
+    "en": "Swing lower",
+    "before": "Sving nedre",
+    "after": "Svängning nedåt",
+    "readback": "Svängning nedåt",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::gree::entity::climate::climate::state_attributes::swing_mode::state::swing_lower_middle",
+    "key_id": "889701862",
+    "translation_id": "9079152035",
+    "en": "Swing lower middle",
+    "before": "Sving nedre mitten",
+    "after": "Svängning nedåt i mitten",
+    "readback": "Svängning nedåt i mitten",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::gree::entity::climate::climate::state_attributes::swing_mode::state::swing_middle",
+    "key_id": "889701863",
+    "translation_id": "9079152099",
+    "en": "Swing middle",
+    "before": "Sving mitten",
+    "after": "Svängning i mitten",
+    "readback": "Svängning i mitten",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::gree::entity::climate::climate::state_attributes::swing_mode::state::swing_upper",
+    "key_id": "889701864",
+    "translation_id": "9079152163",
+    "en": "Swing upper",
+    "before": "Sving övre",
+    "after": "Svängning uppåt",
+    "readback": "Svängning uppåt",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::gree::entity::climate::climate::state_attributes::swing_mode::state::swing_upper_middle",
+    "key_id": "889701865",
+    "translation_id": "9079152227",
+    "en": "Swing upper middle",
+    "before": "Sving övre mitten",
+    "after": "Svängning uppåt i mitten",
+    "readback": "Svängning uppåt i mitten",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::teslemetry::exceptions::auth_failed_login_required::message",
+    "key_id": "889703411",
+    "translation_id": "9079165323",
+    "en": "Login is no longer valid, please reauthenticate",
+    "before": "Inloggningen är inte längre giltig. Vänligen logga in på nytt.",
+    "after": "Inloggningen är inte längre giltig. Logga in på nytt.",
+    "readback": "Inloggningen är inte längre giltig. Logga in på nytt.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::kiosker::config::step::reauth_confirm::data_description::api_token",
+    "key_id": "889704101",
+    "translation_id": "9079168707",
+    "en": "The API token for the Kiosker App. This can be generated in the app API settings.",
+    "before": "API-token för Kiosker-appen. Denna kan genereras i appens API-inställningar.",
+    "after": "API-token för Kiosker-appen. Du kan skapa den i appens API-inställningar.",
+    "readback": "API-token för Kiosker-appen. Du kan skapa den i appens API-inställningar.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::kiosker::config::step::reauth_confirm::description",
+    "key_id": "889704102",
+    "translation_id": "9079168771",
+    "en": "Re-authenticate {name} with Home Assistant. Generate a new API token in the Kiosker app settings.",
+    "before": "Återautentisera {name} med Home Assistant. Generera en ny API-token i Kiosker-appens inställningar.",
+    "after": "Autentisera {name} på nytt med Home Assistant. Skapa en ny API-token i Kiosker-appens inställningar.",
+    "readback": "Autentisera {name} på nytt med Home Assistant. Skapa en ny API-token i Kiosker-appens inställningar.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::kiosker::config::step::reauth_confirm::title",
+    "key_id": "889704103",
+    "translation_id": "9079168835",
+    "en": "Re-authenticate Kiosker",
+    "before": "Återautentisera Kiosker",
+    "after": "Autentisera Kiosker på nytt",
+    "readback": "Autentisera Kiosker på nytt",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::reolink::entity::select::floodlight_mode::state::scheduleplus",
+    "key_id": "889758446",
+    "translation_id": "9079891617",
+    "en": "Schedule plus",
+    "before": "Schema plus",
+    "after": "Schedule Plus",
+    "readback": "Schedule Plus",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::yardian::entity::button::stop_irrigation::name",
+    "key_id": "890307459",
+    "translation_id": "9087528848",
+    "en": "Stop irrigation",
+    "before": "Stoppa bevattning",
+    "after": "Stoppa bevattningen",
+    "readback": "Stoppa bevattningen",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::homekit::options::step::climate::description",
+    "key_id": "890444275",
+    "translation_id": "9089054868",
+    "en": "Choose which accessory each climate entity uses in HomeKit. Heater Cooler puts the mode, temperature, and the supported fan speed and swing controls on one air conditioner style tile; Thermostat is the classic temperature dial with a separate fan. Automatic keeps the accessory the entity already uses and picks the best fit when it is bridged for the first time. Changing the accessory type keeps the room and name, but HomeKit scenes or automations that used the old controls may need to be recreated.",
+    "before": "Välj vilket tillbehör varje klimatentitet använder i HomeKit. ”Värmare/kylare” visar läge, temperatur samt de stödda inställningarna för fläkthastighet och svängning på en bricka. ”Termostat” är den klassiska temperaturreglaget med en separat fläkt. ”Automatisk” behåller det tillbehör som entiteten redan använder och väljer det som passar bäst när den ansluts för första gången. Om du byter tillbehörstyp behålls rummet och namnet, men HomeKit-scener eller automatiseringar som använde de gamla kontrollerna kan behöva göras om på nytt.",
+    "after": "Välj vilket tillbehör varje klimatenhet ska använda i HomeKit. **Värmare/kylare** visar läge, temperatur och stödda reglage för fläkthastighet och svängning på en och samma luftkonditioneringsbricka. **Termostat** visar den klassiska temperaturväljaren och en separat fläkt. **Automatiskt** behåller tillbehöret som entiteten redan använder och väljer det som passar bäst första gången den bryggas. Om du ändrar tillbehörstyp behålls rummet och namnet, men HomeKit-scener eller automatiseringar som använde de gamla reglagen kan behöva återskapas.",
+    "readback": "Välj vilket tillbehör varje klimatenhet ska använda i HomeKit. **Värmare/kylare** visar läge, temperatur och stödda reglage för fläkthastighet och svängning på en och samma luftkonditioneringsbricka. **Termostat** visar den klassiska temperaturväljaren och en separat fläkt. **Automatiskt** behåller tillbehöret som entiteten redan använder och väljer det som passar bäst första gången den bryggas. Om du ändrar tillbehörstyp behålls rummet och namnet, men HomeKit-scener eller automatiseringar som använde de gamla reglagen kan behöva återskapas.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::homekit::options::step::climate::title",
+    "key_id": "890444276",
+    "translation_id": "9089054932",
+    "en": "Climate accessory configuration",
+    "before": "Konfiguration av klimattillbehör",
+    "after": "Konfigurera klimattillbehör",
+    "readback": "Konfigurera klimattillbehör",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::smtp::config_subentries::recipient::step::reconfigure::title",
+    "key_id": "890444309",
+    "translation_id": "9089055942",
+    "en": "Reconfigure recipient",
+    "before": "Konfigurera om mottagaren",
+    "after": "Konfigurera om mottagarens e-postadress",
+    "readback": "Konfigurera om mottagarens e-postadress",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::scorpiontrack::config::error::cannot_connect",
+    "key_id": "890444311",
+    "translation_id": "9089056075",
+    "en": "The ScorpionTrack share could not be reached right now.",
+    "before": "ScorpionTrack-delningen kunde inte nås just nu.",
+    "after": "Det går inte att nå ScorpionTrack-delningen just nu.",
+    "readback": "Det går inte att nå ScorpionTrack-delningen just nu.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::scorpiontrack::config::error::share_unavailable",
+    "key_id": "890444313",
+    "translation_id": "9089056203",
+    "en": "Your shared-location link is invalid, expired, has been revoked, or no longer returns data.",
+    "before": "Din länk till den delade platsen är ogiltig, har gått ut, har återkallats eller returnerar inte längre data.",
+    "after": "Länken till den delade platsen är ogiltig, har upphört att gälla eller återkallats, eller så returneras inga data längre.",
+    "readback": "Länken till den delade platsen är ogiltig, har upphört att gälla eller återkallats, eller så returneras inga data längre.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::scorpiontrack::config::step::user::data::share_token",
+    "key_id": "890444315",
+    "translation_id": "9089056331",
+    "en": "Share URL or token",
+    "before": "Dela URL eller token",
+    "after": "URL eller token för delning",
+    "readback": "URL eller token för delning",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::scorpiontrack::config::step::user::data_description::share_token",
+    "key_id": "890444316",
+    "translation_id": "9089056395",
+    "en": "Paste the full ScorpionTrack shared-location URL or just the token itself.",
+    "before": "Klistra in hela ScorpionTrack-URL:en för den delade platsen eller bara själva token.",
+    "after": "Klistra in hela URL:en till den delade ScorpionTrack-platsen eller bara token från URL:en.",
+    "readback": "Klistra in hela URL:en till den delade ScorpionTrack-platsen eller bara token från URL:en.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::scorpiontrack::config::step::user::description",
+    "key_id": "890444317",
+    "translation_id": "9089056459",
+    "en": "Paste a ScorpionTrack shared-location URL or the token from that URL.",
+    "before": "Klistra in en ScorpionTrack-URL för delad plats eller token från den URL:en.",
+    "after": "Klistra in en URL till en delad ScorpionTrack-plats eller token från URL:en.",
+    "readback": "Klistra in en URL till en delad ScorpionTrack-plats eller token från URL:en.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::scorpiontrack::exceptions::cannot_connect::message",
+    "key_id": "890444319",
+    "translation_id": "9089056587",
+    "en": "The ScorpionTrack share could not be reached right now.",
+    "before": "ScorpionTrack-delningen kunde inte nås just nu.",
+    "after": "Det går inte att nå ScorpionTrack-delningen just nu.",
+    "readback": "Det går inte att nå ScorpionTrack-delningen just nu.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::izone::config::abort::discovery_failed",
+    "key_id": "890444637",
+    "translation_id": "9089060269",
+    "en": "Failed to start iZone discovery. Make sure your network is properly configured.",
+    "before": "Det gick inte att starta iZone-upptäckt. Kontrollera att nätverket är korrekt konfigurerat.",
+    "after": "Det gick inte att starta iZone-identifieringen. Kontrollera att nätverket är rätt konfigurerat.",
+    "readback": "Det gick inte att starta iZone-identifieringen. Kontrollera att nätverket är rätt konfigurerat.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::izone::config::abort::discovery_started",
+    "key_id": "890444638",
+    "translation_id": "9089060333",
+    "en": "iZone discovery has started. Your controllers will appear as discovered devices under Settings > Devices & services.",
+    "before": "iZone-upptäckten har påbörjats. Dina styrenheter kommer att visas som upptäckta enheter under Inställningar > Enheter och tjänster.",
+    "after": "iZone-identifieringen har startat. Styrenheterna visas som upptäckta enheter under Inställningar > Enheter och tjänster.",
+    "readback": "iZone-identifieringen har startat. Styrenheterna visas som upptäckta enheter under Inställningar > Enheter och tjänster.",
+    "status": "saved-and-read-back"
+  }
+]
