@@ -1,0 +1,90 @@
+[
+  {
+    "position": 50781,
+    "key": "component::victron_ble::entity::sensor::ac_current::name",
+    "en": "AC current",
+    "before": "Växelström",
+    "after": "AC-ström",
+    "reason": "Återställer den tidigare liveverifierade svenska eltermen; den aktuella Lokalise-texten hade avvikit från det dokumenterade beslutet.",
+    "key_id": "816762753",
+    "translation_id": "7947380284",
+    "kind": "direct",
+    "readback": "AC-ström",
+    "status": "saved-and-read-back"
+  },
+  {
+    "position": 50810,
+    "key": "component::growatt_server::services::write_ac_charge_times::fields::period_1_end::name",
+    "en": "Period 1 end",
+    "before": "Sluttid för period 1\n\n",
+    "after": "Sluttid för period 1",
+    "reason": "Tar bort två avslutande tomrader som inte finns i källtexten.",
+    "key_id": "816772100",
+    "translation_id": "7947415238",
+    "kind": "direct",
+    "readback": "Sluttid för period 1",
+    "status": "saved-and-read-back"
+  },
+  {
+    "position": 50869,
+    "key": "component::ollama::config::step::reauth_confirm::description",
+    "en": "The Ollama integration needs to re-authenticate with your Ollama API key.",
+    "before": "Ollama-integrationen måste autentiseras på nytt med din API-nyckel för Ollama.\n\n",
+    "after": "Ollama-integrationen måste autentiseras på nytt med din Ollama-API-nyckel.",
+    "reason": "Tar bort avslutande tomrader och gör sammansättningen med produktnamnet naturligare.",
+    "key_id": "816774036",
+    "translation_id": "7947436463",
+    "kind": "direct",
+    "readback": "Ollama-integrationen måste autentiseras på nytt med din Ollama-API-nyckel.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "position": 50894,
+    "key": "component::gardena_bluetooth::entity::select::watering_active::state::setup_mode",
+    "en": "Setup",
+    "before": "Installation",
+    "after": "Inställningsläge",
+    "reason": "Översätter läget Setup i bevattningslägets enum; ”Installation” kan felaktigt tolkas som installation av själva enheten.",
+    "key_id": "816908805",
+    "translation_id": "7950752237",
+    "kind": "direct",
+    "readback": "Inställningsläge",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::growatt_server::services::write_ac_discharge_times::fields::period_1_start::name",
+    "en": "Period 1 start",
+    "before": "Start för period 1",
+    "after": "Starttid för period 1",
+    "reason": "Synkar referensaliaset med den liveverifierade översättningen för samma engelska målnyckel.",
+    "key_id": "816772128",
+    "translation_id": "7947417030",
+    "kind": "reference-alias",
+    "readback": "Starttid för period 1",
+    "status": "reference-alias-synced-and-read-back"
+  },
+  {
+    "key": "component::growatt_server::services::write_ac_discharge_times::fields::period_2_start::name",
+    "en": "Period 2 start",
+    "before": "Start för period 2",
+    "after": "Starttid för period 2",
+    "reason": "Synkar referensaliaset med den liveverifierade översättningen för samma engelska målnyckel.",
+    "key_id": "816772134",
+    "translation_id": "7947417414",
+    "kind": "reference-alias",
+    "readback": "Starttid för period 2",
+    "status": "reference-alias-synced-and-read-back"
+  },
+  {
+    "key": "component::growatt_server::services::write_ac_discharge_times::fields::period_3_start::name",
+    "en": "Period 3 start",
+    "before": "Start för period 3",
+    "after": "Starttid för period 3",
+    "reason": "Synkar referensaliaset med den liveverifierade översättningen för samma engelska målnyckel.",
+    "key_id": "816772140",
+    "translation_id": "7947417798",
+    "kind": "reference-alias",
+    "readback": "Starttid för period 3",
+    "status": "reference-alias-synced-and-read-back"
+  }
+]
