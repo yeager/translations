@@ -24174,9 +24174,10 @@ Kontrollera att `{host}` går att nå, uppdatera `configuration.yaml` vid behov 
       <prop type="source">component::unifi_discovery::config::abort::discovery_started</prop>
       <prop type="lokalise-key-id">832433446</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Discovery started</seg>
       </tuv>
@@ -188567,9 +188568,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::duco::entity::sensor::iaq_rh::name</prop>
       <prop type="lokalise-key-id">833942005</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Humidity air quality index</seg>
       </tuv>
@@ -188581,9 +188583,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::duco::entity::sensor::iaq_co2::name</prop>
       <prop type="lokalise-key-id">833942004</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>CO2 air quality index</seg>
       </tuv>
@@ -188595,9 +188598,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::todo::selector::condition_behavior::options::any</prop>
       <prop type="lokalise-key-id">833933402</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise live review; previously reported historical key; no current source path</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Any</seg>
       </tuv>
@@ -188609,9 +188613,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::todo::selector::condition_behavior::options::all</prop>
       <prop type="lokalise-key-id">833933401</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise live review; previously reported historical key; no current source path</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>All</seg>
       </tuv>
@@ -188623,37 +188628,40 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::todo::conditions::incomplete::name</prop>
       <prop type="lokalise-key-id">833933400</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Incomplete to-do items</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Ofullständiga uppgifter</seg>
+        <seg>Oavslutade uppgifter</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8216238956">
       <prop type="source">component::todo::conditions::incomplete::fields::threshold::name</prop>
       <prop type="lokalise-key-id">833933399</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Threshold type</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
+        <seg>Typ av tröskelvärde</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8216238892">
       <prop type="source">component::todo::conditions::incomplete::fields::behavior::name</prop>
       <prop type="lokalise-key-id">833933398</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Condition passes if</seg>
       </tuv>
@@ -188665,9 +188673,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::todo::conditions::incomplete::description</prop>
       <prop type="lokalise-key-id">833933397</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Tests the number of incomplete to-do items in one or more to-do lists.</seg>
       </tuv>
@@ -188679,9 +188688,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::todo::conditions::all_completed::name</prop>
       <prop type="lokalise-key-id">833933396</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>All to-do items completed</seg>
       </tuv>
@@ -188693,9 +188703,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::todo::conditions::all_completed::fields::behavior::name</prop>
       <prop type="lokalise-key-id">833933395</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Condition passes if</seg>
       </tuv>
@@ -188707,9 +188718,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::todo::conditions::all_completed::description</prop>
       <prop type="lokalise-key-id">833933394</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Tests if all to-do items are completed in one or more to-do lists.</seg>
       </tuv>
@@ -188721,23 +188733,25 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::todo::common::condition_threshold_name</prop>
       <prop type="lokalise-key-id">833933393</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Threshold type</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Tröskelvärdestyp</seg>
+        <seg>Typ av tröskelvärde</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8216238508">
       <prop type="source">component::todo::common::condition_behavior_name</prop>
       <prop type="lokalise-key-id">833933392</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Condition passes if</seg>
       </tuv>
@@ -188749,9 +188763,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::remote::selector::condition_behavior::options::any</prop>
       <prop type="lokalise-key-id">833897121</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise live review; previously reported historical key; no current source path</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Any</seg>
       </tuv>
@@ -188763,9 +188778,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::remote::selector::condition_behavior::options::all</prop>
       <prop type="lokalise-key-id">833897120</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise live review; previously reported historical key; no current source path</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>All</seg>
       </tuv>
@@ -188777,23 +188793,25 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::remote::conditions::is_on::name</prop>
       <prop type="lokalise-key-id">833897119</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Remote is on</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Fjärrkontroll är påslagen</seg>
+        <seg>Fjärrkontrollen är påslagen</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8215957871">
       <prop type="source">component::remote::conditions::is_on::fields::behavior::name</prop>
       <prop type="lokalise-key-id">833897118</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Condition passes if</seg>
       </tuv>
@@ -188805,9 +188823,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::remote::conditions::is_on::description</prop>
       <prop type="lokalise-key-id">833897117</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Tests if one or more remotes are on.</seg>
       </tuv>
@@ -188819,23 +188838,25 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::remote::conditions::is_off::name</prop>
       <prop type="lokalise-key-id">833897116</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Remote is off</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Fjärrkontroll är avstängd</seg>
+        <seg>Fjärrkontrollen är avstängd</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8215957679">
       <prop type="source">component::remote::conditions::is_off::fields::behavior::name</prop>
       <prop type="lokalise-key-id">833897115</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Condition passes if</seg>
       </tuv>
@@ -188847,9 +188868,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::remote::conditions::is_off::description</prop>
       <prop type="lokalise-key-id">833897114</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Tests if one or more remotes are off.</seg>
       </tuv>
@@ -188861,9 +188883,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::remote::common::condition_behavior_name</prop>
       <prop type="lokalise-key-id">833897113</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Condition passes if</seg>
       </tuv>
@@ -188875,9 +188898,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::unifi_access::config::step::discovery_confirm::description</prop>
       <prop type="lokalise-key-id">833637424</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>A UniFi Access controller was discovered at {ip_address} ({name}).</seg>
       </tuv>
@@ -188889,9 +188913,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::unifi_access::config::step::discovery_confirm::data_description::verify_ssl</prop>
       <prop type="lokalise-key-id">833637423</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Verify the SSL certificate of the controller.</seg>
       </tuv>
@@ -188903,9 +188928,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::unifi_access::config::step::discovery_confirm::data_description::api_token</prop>
       <prop type="lokalise-key-id">833637422</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>API token generated in the UniFi Access settings.</seg>
       </tuv>
@@ -188917,9 +188943,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::unifi_access::config::step::discovery_confirm::data::verify_ssl</prop>
       <prop type="lokalise-key-id">833637421</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Verify SSL certificate</seg>
       </tuv>
@@ -188931,9 +188958,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::unifi_access::config::step::discovery_confirm::data::api_token</prop>
       <prop type="lokalise-key-id">833637420</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>API token</seg>
       </tuv>
@@ -188945,9 +188973,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::template::options::step::binary_sensor::data::device_class</prop>
       <prop type="lokalise-key-id">833554818</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Device class</seg>
       </tuv>
@@ -188959,23 +188988,25 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::eurotronic_cometblue::entity::button::sync_time::name</prop>
       <prop type="lokalise-key-id">832986110</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Sync time</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Synka tiden</seg>
+        <seg>Synkronisera tiden</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8199615005">
       <prop type="source">component::rdw::exceptions::unknown_error::message</prop>
       <prop type="lokalise-key-id">832984211</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>An unknown error occurred while communicating with the RDW service.</seg>
       </tuv>
@@ -188987,9 +189018,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::rdw::exceptions::communication_error::message</prop>
       <prop type="lokalise-key-id">832984210</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>An error occurred while communicating with the RDW service.</seg>
       </tuv>
@@ -189001,9 +189033,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::luftdaten::exceptions::unknown_error::message</prop>
       <prop type="lokalise-key-id">832984209</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>An unknown error occurred while communicating with the Sensor.Community service.</seg>
       </tuv>
@@ -189015,9 +189048,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::luftdaten::exceptions::no_data_received::message</prop>
       <prop type="lokalise-key-id">832984208</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Did not receive sensor data from the Sensor.Community service.</seg>
       </tuv>
@@ -189029,9 +189063,10 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::luftdaten::exceptions::communication_error::message</prop>
       <prop type="lokalise-key-id">832984207</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>An error occurred while communicating with the Sensor.Community service.</seg>
       </tuv>
@@ -189043,29 +189078,31 @@ Går det inte att tolka entiteter? Formatera ditt meddelande enligt [formatering
       <prop type="source">component::mastodon::services::post::fields::quote_approval_policy::name</prop>
       <prop type="lokalise-key-id">832940588</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Who can quote</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Vem kan citera</seg>
+        <seg>Vem får citera</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8198922333">
       <prop type="source">component::mastodon::services::post::fields::quote_approval_policy::description</prop>
       <prop type="lokalise-key-id">832940587</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Who can quote this post (default: account setting).
 Ignored if visibility is private or direct.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Vem kan citera det här inlägget (standard: kontoinställning).
+        <seg>Vem som får citera det här inlägget (standard: kontots inställning).
 Ignoreras om synligheten är privat eller direkt.</seg>
       </tuv>
     </tu>
@@ -189073,37 +189110,40 @@ Ignoreras om synligheten är privat eller direkt.</seg>
       <prop type="source">component::mastodon::selector::quote_approval_policy::options::public</prop>
       <prop type="lokalise-key-id">832940586</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Public - Anyone can quote this post</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Offentligt - Vem som helst kan citera det här inlägget</seg>
+        <seg>Offentligt – vem som helst kan citera det här inlägget.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8198922205">
       <prop type="source">component::mastodon::selector::quote_approval_policy::options::nobody</prop>
       <prop type="lokalise-key-id">832940585</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Nobody - No one but you can quote this post</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Ingen – Det är bara du som kan citera det här inlägget</seg>
+        <seg>Ingen – bara du kan citera det här inlägget.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8198922141">
       <prop type="source">component::mastodon::selector::quote_approval_policy::options::followers</prop>
       <prop type="lokalise-key-id">832940584</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Followers - Only accounts that follow you can quote this post</seg>
       </tuv>
@@ -189115,9 +189155,10 @@ Ignoreras om synligheten är privat eller direkt.</seg>
       <prop type="source">component::elgato::config::step::reconfigure::data_description::host</prop>
       <prop type="lokalise-key-id">832665517</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The hostname or IP address of your Elgato device.</seg>
       </tuv>
@@ -189129,9 +189170,10 @@ Ignoreras om synligheten är privat eller direkt.</seg>
       <prop type="source">component::elgato::config::step::reconfigure::data::host</prop>
       <prop type="lokalise-key-id">832665516</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Host</seg>
       </tuv>
@@ -189143,9 +189185,10 @@ Ignoreras om synligheten är privat eller direkt.</seg>
       <prop type="source">component::elgato::config::abort::reconfigure_successful</prop>
       <prop type="lokalise-key-id">832665515</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise live review; previously reported historical key; no current source path</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Reconfiguration was successful</seg>
       </tuv>
@@ -189157,9 +189200,10 @@ Ignoreras om synligheten är privat eller direkt.</seg>
       <prop type="source">component::elgato::config::abort::different_device</prop>
       <prop type="lokalise-key-id">832665514</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The configured Elgato device is not the same as the one at this address.</seg>
       </tuv>
@@ -189171,9 +189215,10 @@ Ignoreras om synligheten är privat eller direkt.</seg>
       <prop type="source">component::unifi_discovery::config::step::user::description</prop>
       <prop type="lokalise-key-id">832433447</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>UniFi Discovery is set up automatically.</seg>
       </tuv>
@@ -189185,9 +189230,10 @@ Ignoreras om synligheten är privat eller direkt.</seg>
       <prop type="source">component::unifi_discovery::config::abort::already_in_progress</prop>
       <prop type="lokalise-key-id">832433445</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>This is already being configured. Finish the existing configuration before starting again.</seg>
       </tuv>
@@ -189199,9 +189245,10 @@ Ignoreras om synligheten är privat eller direkt.</seg>
       <prop type="source">component::tailwind::exceptions::unknown_error::message</prop>
       <prop type="lokalise-key-id">832116330</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>An unknown error occurred while communicating with the Tailwind device.</seg>
       </tuv>
@@ -189213,27 +189260,29 @@ Ignoreras om synligheten är privat eller direkt.</seg>
       <prop type="source">component::tailwind::config::step::reconfigure::description</prop>
       <prop type="lokalise-key-id">832086553</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Reconfigure your Tailwind garage door opener.
 
 This allows you to change the IP address and local control key of your Tailwind device.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Konfigurera om din Tailwind-garagedörröppnare.
+        <seg>Konfigurera om din garageportsöppnare från Tailwind.
 
-På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din Tailwind-enhet.</seg>
+Då kan du ändra IP-adressen och den lokala kontrollnyckeln för din Tailwind-enhet.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8180041504">
       <prop type="source">component::tailwind::config::step::reconfigure::data_description::token</prop>
       <prop type="lokalise-key-id">832086552</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>To find local control key token, browse to the [Tailwind web portal]({url}), log in with your Tailwind account, and select the [**Local Control Key**]({url}) tab. The 6-digit number shown is your local control key token.</seg>
       </tuv>
@@ -189245,11 +189294,12 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::tailwind::config::step::reconfigure::data_description::host</prop>
       <prop type="lokalise-key-id">832086551</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>The hostname or IP address of your Tailwind device. You can find the IP address by going into the Tailwind app and selecting your Tailwind device's cog icon. The IP address is shown in the **Device Info** section.</seg>
+        <seg>The hostname or IP address of your Tailwind device. You can find the IP address by going into the Tailwind app and selecting your Tailwind device&#x27;s cog icon. The IP address is shown in the **Device Info** section.</seg>
       </tuv>
       <tuv xml:lang="sv">
         <seg>Värdnamnet eller IP-adressen för din Tailwind-enhet. Du kan hitta IP-adressen genom att gå in i Tailwind-appen och välja Tailwind-enhetens kugghjulsikon. IP-adressen visas i avsnittet **Enhetsinfo**.</seg>
@@ -189259,9 +189309,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::tailwind::config::step::reconfigure::data::token</prop>
       <prop type="lokalise-key-id">832086550</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Local control key token</seg>
       </tuv>
@@ -189273,9 +189324,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::tailwind::config::step::reconfigure::data::host</prop>
       <prop type="lokalise-key-id">832086549</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Host</seg>
       </tuv>
@@ -189287,9 +189339,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::tailwind::config::abort::reconfigure_successful</prop>
       <prop type="lokalise-key-id">832086548</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise live review; previously reported historical key; no current source path</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Reconfiguration was successful</seg>
       </tuv>
@@ -189301,9 +189354,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::tailwind::config::abort::different_device</prop>
       <prop type="lokalise-key-id">832086547</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The entered information is for a different Tailwind device.</seg>
       </tuv>
@@ -189315,9 +189369,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::twentemilieu::exceptions::unknown_error::message</prop>
       <prop type="lokalise-key-id">831760495</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>An unknown error occurred while communicating with the Twente Milieu service.</seg>
       </tuv>
@@ -189329,9 +189384,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::twentemilieu::exceptions::communication_error::message</prop>
       <prop type="lokalise-key-id">831760494</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>An error occurred while communicating with the Twente Milieu service.</seg>
       </tuv>
@@ -189343,9 +189399,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::elgato::exceptions::unknown_error::message</prop>
       <prop type="lokalise-key-id">831760493</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>An unknown error occurred while communicating with the Elgato device.</seg>
       </tuv>
@@ -189357,9 +189414,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::elgato::exceptions::communication_error::message</prop>
       <prop type="lokalise-key-id">831760492</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>An error occurred while communicating with the Elgato device.</seg>
       </tuv>
@@ -189371,9 +189429,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::elgato::config::abort::no_devices_found</prop>
       <prop type="lokalise-key-id">831760464</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>No devices found on the network</seg>
       </tuv>
@@ -189385,9 +189444,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::eurotronic_cometblue::config::step::pick_device::data_description::address</prop>
       <prop type="lokalise-key-id">831755438</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Select device to continue.</seg>
       </tuv>
@@ -189399,9 +189459,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::eurotronic_cometblue::config::step::pick_device::data::address</prop>
       <prop type="lokalise-key-id">831755437</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Discovered devices</seg>
       </tuv>
@@ -189413,9 +189474,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::eurotronic_cometblue::config::step::bluetooth_confirm::data_description::pin</prop>
       <prop type="lokalise-key-id">831755436</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>6-digit device PIN</seg>
       </tuv>
@@ -189427,9 +189489,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::eurotronic_cometblue::config::step::bluetooth_confirm::data::pin</prop>
       <prop type="lokalise-key-id">831755435</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>PIN code</seg>
       </tuv>
@@ -189441,9 +189504,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::eurotronic_cometblue::config::error::unknown</prop>
       <prop type="lokalise-key-id">831755434</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Unexpected error</seg>
       </tuv>
@@ -189455,9 +189519,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::eurotronic_cometblue::config::error::timeout_connect</prop>
       <prop type="lokalise-key-id">831755433</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Timeout while establishing a connection</seg>
       </tuv>
@@ -189469,9 +189534,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::eurotronic_cometblue::config::error::invalid_pin</prop>
       <prop type="lokalise-key-id">831755432</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Invalid device PIN</seg>
       </tuv>
@@ -189483,9 +189549,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::eurotronic_cometblue::config::error::cannot_connect</prop>
       <prop type="lokalise-key-id">831755431</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to connect</seg>
       </tuv>
@@ -189497,9 +189564,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::eurotronic_cometblue::config::abort::reconfigure_successful</prop>
       <prop type="lokalise-key-id">831755430</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise live review; previously reported historical key; no current source path</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Reconfiguration was successful</seg>
       </tuv>
@@ -189511,9 +189579,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::eurotronic_cometblue::config::abort::no_devices_found</prop>
       <prop type="lokalise-key-id">831755429</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>No Comet Blue Bluetooth TRVs discovered.</seg>
       </tuv>
@@ -189525,9 +189594,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::eurotronic_cometblue::config::abort::already_configured</prop>
       <prop type="lokalise-key-id">831755428</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Device is already configured</seg>
       </tuv>
@@ -189539,9 +189609,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::waze_travel_time::services::get_travel_times::fields::base_coordinates::name</prop>
       <prop type="lokalise-key-id">831755198</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Base coordinates</seg>
       </tuv>
@@ -189553,9 +189624,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::waze_travel_time::services::get_travel_times::fields::base_coordinates::description</prop>
       <prop type="lokalise-key-id">831755197</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>When Waze finds multiple matching locations for an address, it selects the one closest to these coordinates.</seg>
       </tuv>
@@ -189567,9 +189639,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::waze_travel_time::options::step::init::data_description::base_coordinates</prop>
       <prop type="lokalise-key-id">831755196</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>When Waze finds multiple matching locations for an address, it selects the one closest to these coordinates.</seg>
       </tuv>
@@ -189581,9 +189654,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::waze_travel_time::options::step::init::data::base_coordinates</prop>
       <prop type="lokalise-key-id">831755195</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Base coordinates</seg>
       </tuv>
@@ -189595,9 +189669,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::subaru::entity::button::remote_stop::name</prop>
       <prop type="lokalise-key-id">831755078</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Remote stop</seg>
       </tuv>
@@ -189609,9 +189684,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::subaru::entity::button::remote_start::name</prop>
       <prop type="lokalise-key-id">831755077</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Remote start</seg>
       </tuv>
@@ -189623,23 +189699,25 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::iaqualink::config::step::reauth_confirm::title</prop>
       <prop type="lokalise-key-id">831732196</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Reauthenticate iAquaLink</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Återautentisera iAquaLink</seg>
+        <seg>Autentisera iAquaLink igen</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8177365492">
       <prop type="source">component::iaqualink::config::step::reauth_confirm::description</prop>
       <prop type="lokalise-key-id">831732195</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Please enter the username and password for your iAquaLink account.</seg>
       </tuv>
@@ -189651,9 +189729,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::iaqualink::config::step::reauth_confirm::data::username</prop>
       <prop type="lokalise-key-id">831732194</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Username</seg>
       </tuv>
@@ -189665,9 +189744,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::iaqualink::config::step::reauth_confirm::data::password</prop>
       <prop type="lokalise-key-id">831732193</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Password</seg>
       </tuv>
@@ -189679,9 +189759,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::iaqualink::config::abort::reauth_successful</prop>
       <prop type="lokalise-key-id">831732192</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise live review; previously reported historical key; no current source path</prop>
+      <prop type="status">source-path-follow-up</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Re-authentication was successful</seg>
       </tuv>
@@ -189693,9 +189774,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::warehouse_loft</prop>
       <prop type="lokalise-key-id">831702234</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Warehouse loft</seg>
       </tuv>
@@ -189707,9 +189789,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::village_vanguard</prop>
       <prop type="lokalise-key-id">831702233</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Village Vanguard</seg>
       </tuv>
@@ -189721,9 +189804,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::village_gate</prop>
       <prop type="lokalise-key-id">831702232</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Village Gate</seg>
       </tuv>
@@ -189735,51 +189819,55 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::vienna</prop>
       <prop type="lokalise-key-id">831702231</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Hall in Vienna</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Hall i Wien</seg>
+        <seg>Konserthall i Wien</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8177151775">
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::usa_b</prop>
       <prop type="lokalise-key-id">831702230</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Hall in USA B</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Hall i USA B</seg>
+        <seg>Konserthall B i USA</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8177151711">
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::usa_a</prop>
       <prop type="lokalise-key-id">831702229</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Hall in USA A</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Hall i USA A</seg>
+        <seg>Konserthall A i USA</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8177151647">
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::tv_program</prop>
       <prop type="lokalise-key-id">831702228</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>TV program</seg>
       </tuv>
@@ -189791,9 +189879,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::tokyo</prop>
       <prop type="lokalise-key-id">831702227</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Church in Tokyo</seg>
       </tuv>
@@ -189805,9 +189894,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::target</prop>
       <prop type="lokalise-key-id">831702226</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Target</seg>
       </tuv>
@@ -189819,9 +189909,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::talk_show</prop>
       <prop type="lokalise-key-id">831702225</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Talk show</seg>
       </tuv>
@@ -189833,9 +189924,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::surr_decoder</prop>
       <prop type="lokalise-key-id">831702224</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Surround decoder</seg>
       </tuv>
@@ -189847,37 +189939,40 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::stuttgart</prop>
       <prop type="lokalise-key-id">831702223</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Hall in Stuttgart</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Hall i Stuttgart</seg>
+        <seg>Konserthall i Stuttgart</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8177151263">
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::straight</prop>
       <prop type="lokalise-key-id">831702222</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Straight</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Rakt</seg>
+        <seg>Direkt</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8177151199">
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::stereo</prop>
       <prop type="lokalise-key-id">831702221</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Stereo</seg>
       </tuv>
@@ -189889,9 +189984,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::standard</prop>
       <prop type="lokalise-key-id">831702220</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Standard</seg>
       </tuv>
@@ -189903,9 +189999,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::sports</prop>
       <prop type="lokalise-key-id">831702219</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Sports</seg>
       </tuv>
@@ -189917,9 +190014,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::spectacle</prop>
       <prop type="lokalise-key-id">831702218</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Spectacle</seg>
       </tuv>
@@ -189931,9 +190029,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::sci-fi</prop>
       <prop type="lokalise-key-id">831702217</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Sci-fi</seg>
       </tuv>
@@ -189945,9 +190044,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::royaumont</prop>
       <prop type="lokalise-key-id">831702216</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Church in Royaumont</seg>
       </tuv>
@@ -189959,9 +190059,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::roxy_theatre</prop>
       <prop type="lokalise-key-id">831702215</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The Roxy Theatre</seg>
       </tuv>
@@ -189973,9 +190074,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::roleplaying_game</prop>
       <prop type="lokalise-key-id">831702214</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Roleplaying game</seg>
       </tuv>
@@ -189987,9 +190089,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::recital_opera</prop>
       <prop type="lokalise-key-id">831702213</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Recital/opera</seg>
       </tuv>
@@ -190001,9 +190104,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::pavilion</prop>
       <prop type="lokalise-key-id">831702212</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Pavilion</seg>
       </tuv>
@@ -190015,9 +190119,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::off</prop>
       <prop type="lokalise-key-id">831702211</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live review; reference target English and Swedish matched</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Off</seg>
       </tuv>
@@ -190029,23 +190134,25 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::my_surround</prop>
       <prop type="lokalise-key-id">831702210</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>My surround</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Min surround</seg>
+        <seg>Mitt surroundljud</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8177150431">
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::music_video</prop>
       <prop type="lokalise-key-id">831702209</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Music video</seg>
       </tuv>
@@ -190057,9 +190164,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::music</prop>
       <prop type="lokalise-key-id">831702208</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Music</seg>
       </tuv>
@@ -190071,51 +190179,55 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::munich_b</prop>
       <prop type="lokalise-key-id">831702207</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Hall in Munich B</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Hall i München B</seg>
+        <seg>Konserthall i München B</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8177150239">
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::munich_a</prop>
       <prop type="lokalise-key-id">831702206</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Hall in Munich A</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Hall i München A</seg>
+        <seg>Konserthall i München A</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8177150175">
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::munich</prop>
       <prop type="lokalise-key-id">831702205</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Hall in Munich</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Hall i München</seg>
+        <seg>Konserthall i München</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8177150111">
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::movie</prop>
       <prop type="lokalise-key-id">831702204</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Movie</seg>
       </tuv>
@@ -190127,23 +190239,25 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::mono_movie</prop>
       <prop type="lokalise-key-id">831702203</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Mono movie</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Film mono</seg>
+        <seg>Monofilm</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8177149983">
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::jazz_club</prop>
       <prop type="lokalise-key-id">831702202</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Jazz club</seg>
       </tuv>
@@ -190155,9 +190269,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::game</prop>
       <prop type="lokalise-key-id">831702201</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Game</seg>
       </tuv>
@@ -190169,9 +190284,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::freiburg</prop>
       <prop type="lokalise-key-id">831702200</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Church in Freiburg</seg>
       </tuv>
@@ -190183,23 +190299,25 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::frankfurt</prop>
       <prop type="lokalise-key-id">831702199</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Hall in Frankfurt</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Hall i Frankfurt</seg>
+        <seg>Konserthall i Frankfurt</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:8177149727">
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::enhanced</prop>
       <prop type="lokalise-key-id">831702198</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Enhanced</seg>
       </tuv>
@@ -190211,9 +190329,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::drama</prop>
       <prop type="lokalise-key-id">831702197</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Drama</seg>
       </tuv>
@@ -190225,9 +190344,10 @@ På så sätt kan du ändra IP-adressen och den lokala kontrollnyckeln för din 
       <prop type="source">component::music_assistant::entity::media_player::media_player::state_attributes::sound_mode::state::disco</prop>
       <prop type="lokalise-key-id">831702196</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API GET and current source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Disco</seg>
       </tuv>
@@ -208661,15 +208781,15 @@ Ta bort `tplink_lte`-konfigurationen från din `configuration.yaml`-fil och star
     <tu tuid="lokalise:8036789845"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::warehouse_loft</prop><prop type="lokalise-key-id">823003318</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Warehouse loft</seg></tuv><tuv xml:lang="sv"><seg>Warehouse Loft</seg></tuv></tu>
     <tu tuid="lokalise:8036789781"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::village_vanguard</prop><prop type="lokalise-key-id">823003317</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Village Vanguard</seg></tuv><tuv xml:lang="sv"><seg>Village Vanguard</seg></tuv></tu>
     <tu tuid="lokalise:8036789717"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::village_gate</prop><prop type="lokalise-key-id">823003316</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Village Gate</seg></tuv><tuv xml:lang="sv"><seg>Village Gate</seg></tuv></tu>
-    <tu tuid="lokalise:8036789653"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::vienna</prop><prop type="lokalise-key-id">823003315</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in Vienna</seg></tuv><tuv xml:lang="sv"><seg>Hall i Wien</seg></tuv></tu>
-    <tu tuid="lokalise:8036789589"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::usa_b</prop><prop type="lokalise-key-id">823003314</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in USA B</seg></tuv><tuv xml:lang="sv"><seg>Hall i USA B</seg></tuv></tu>
-    <tu tuid="lokalise:8036789525"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::usa_a</prop><prop type="lokalise-key-id">823003313</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in USA A</seg></tuv><tuv xml:lang="sv"><seg>Hall i USA A</seg></tuv></tu>
+    <tu tuid="lokalise:8036789653"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::vienna</prop><prop type="lokalise-key-id">823003315</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Retroactive Yamaha/Music Assistant sound-mode terminology synchronization; API readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in Vienna</seg></tuv><tuv xml:lang="sv"><seg>Konserthall i Wien</seg></tuv></tu>
+    <tu tuid="lokalise:8036789589"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::usa_b</prop><prop type="lokalise-key-id">823003314</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Retroactive Yamaha/Music Assistant sound-mode terminology synchronization; API readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in USA B</seg></tuv><tuv xml:lang="sv"><seg>Konserthall B i USA</seg></tuv></tu>
+    <tu tuid="lokalise:8036789525"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::usa_a</prop><prop type="lokalise-key-id">823003313</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Retroactive Yamaha/Music Assistant sound-mode terminology synchronization; API readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in USA A</seg></tuv><tuv xml:lang="sv"><seg>Konserthall A i USA</seg></tuv></tu>
     <tu tuid="lokalise:8036789461"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::tv_program</prop><prop type="lokalise-key-id">823003312</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>TV program</seg></tuv><tuv xml:lang="sv"><seg>TV-program</seg></tuv></tu>
     <tu tuid="lokalise:8036789397"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::tokyo</prop><prop type="lokalise-key-id">823003311</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Church in Tokyo</seg></tuv><tuv xml:lang="sv"><seg>Kyrka i Tokyo</seg></tuv></tu>
     <tu tuid="lokalise:8036789333"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::target</prop><prop type="lokalise-key-id">823003310</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Target</seg></tuv><tuv xml:lang="sv"><seg>Target</seg></tuv></tu>
     <tu tuid="lokalise:8036789269"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::talk_show</prop><prop type="lokalise-key-id">823003309</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Talk show</seg></tuv><tuv xml:lang="sv"><seg>Talkshow</seg></tuv></tu>
     <tu tuid="lokalise:8036789205"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::surr_decoder</prop><prop type="lokalise-key-id">823003308</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Surround decoder</seg></tuv><tuv xml:lang="sv"><seg>Surround-dekoder</seg></tuv></tu>
-    <tu tuid="lokalise:8036789141"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::stuttgart</prop><prop type="lokalise-key-id">823003307</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in Stuttgart</seg></tuv><tuv xml:lang="sv"><seg>Hall i Stuttgart</seg></tuv></tu>
+    <tu tuid="lokalise:8036789141"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::stuttgart</prop><prop type="lokalise-key-id">823003307</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Retroactive Yamaha/Music Assistant sound-mode terminology synchronization; API readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in Stuttgart</seg></tuv><tuv xml:lang="sv"><seg>Konserthall i Stuttgart</seg></tuv></tu>
     <tu tuid="lokalise:8036789077"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::straight</prop><prop type="lokalise-key-id">823003306</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Straight</seg></tuv><tuv xml:lang="sv"><seg>Direkt</seg></tuv></tu>
     <tu tuid="lokalise:8036789013"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::stereo</prop><prop type="lokalise-key-id">823003305</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Stereo</seg></tuv><tuv xml:lang="sv"><seg>Stereo</seg></tuv></tu>
     <tu tuid="lokalise:8036788949"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::standard</prop><prop type="lokalise-key-id">823003304</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Standard</seg></tuv><tuv xml:lang="sv"><seg>Standard</seg></tuv></tu>
@@ -208682,18 +208802,18 @@ Ta bort `tplink_lte`-konfigurationen från din `configuration.yaml`-fil och star
     <tu tuid="lokalise:8036788501"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::recital_opera</prop><prop type="lokalise-key-id">823003297</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Recital/opera</seg></tuv><tuv xml:lang="sv"><seg>Solokonsert/opera</seg></tuv></tu>
     <tu tuid="lokalise:8036788437"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::pavilion</prop><prop type="lokalise-key-id">823003296</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Pavilion</seg></tuv><tuv xml:lang="sv"><seg>Paviljong</seg></tuv></tu>
     <tu tuid="lokalise:8036788373"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::off</prop><prop type="lokalise-key-id">823003295</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Off</seg></tuv><tuv xml:lang="sv"><seg>Av</seg></tuv></tu>
-    <tu tuid="lokalise:8036788309"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::my_surround</prop><prop type="lokalise-key-id">823003294</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>My surround</seg></tuv><tuv xml:lang="sv"><seg>Min surround</seg></tuv></tu>
+    <tu tuid="lokalise:8036788309"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::my_surround</prop><prop type="lokalise-key-id">823003294</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Retroactive Yamaha/Music Assistant sound-mode terminology synchronization; API readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>My surround</seg></tuv><tuv xml:lang="sv"><seg>Mitt surroundljud</seg></tuv></tu>
     <tu tuid="lokalise:8036788245"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::music_video</prop><prop type="lokalise-key-id">823003293</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Music video</seg></tuv><tuv xml:lang="sv"><seg>Musikvideo</seg></tuv></tu>
     <tu tuid="lokalise:8036788181"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::music</prop><prop type="lokalise-key-id">823003292</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Music</seg></tuv><tuv xml:lang="sv"><seg>Musik</seg></tuv></tu>
-    <tu tuid="lokalise:8036788117"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::munich_b</prop><prop type="lokalise-key-id">823003291</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in Munich B</seg></tuv><tuv xml:lang="sv"><seg>Hall i München B</seg></tuv></tu>
-    <tu tuid="lokalise:8036788053"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::munich_a</prop><prop type="lokalise-key-id">823003290</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in Munich A</seg></tuv><tuv xml:lang="sv"><seg>Hall i München A</seg></tuv></tu>
-    <tu tuid="lokalise:8036787989"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::munich</prop><prop type="lokalise-key-id">823003289</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in Munich</seg></tuv><tuv xml:lang="sv"><seg>Hall i München</seg></tuv></tu>
+    <tu tuid="lokalise:8036788117"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::munich_b</prop><prop type="lokalise-key-id">823003291</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Retroactive Yamaha/Music Assistant sound-mode terminology synchronization; API readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in Munich B</seg></tuv><tuv xml:lang="sv"><seg>Konserthall i München B</seg></tuv></tu>
+    <tu tuid="lokalise:8036788053"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::munich_a</prop><prop type="lokalise-key-id">823003290</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Retroactive Yamaha/Music Assistant sound-mode terminology synchronization; API readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in Munich A</seg></tuv><tuv xml:lang="sv"><seg>Konserthall i München A</seg></tuv></tu>
+    <tu tuid="lokalise:8036787989"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::munich</prop><prop type="lokalise-key-id">823003289</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Retroactive Yamaha/Music Assistant sound-mode terminology synchronization; API readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in Munich</seg></tuv><tuv xml:lang="sv"><seg>Konserthall i München</seg></tuv></tu>
     <tu tuid="lokalise:8036787925"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::movie</prop><prop type="lokalise-key-id">823003288</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Movie</seg></tuv><tuv xml:lang="sv"><seg>Film</seg></tuv></tu>
-    <tu tuid="lokalise:8036787861"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::mono_movie</prop><prop type="lokalise-key-id">823003287</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Mono movie</seg></tuv><tuv xml:lang="sv"><seg>Film mono</seg></tuv></tu>
+    <tu tuid="lokalise:8036787861"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::mono_movie</prop><prop type="lokalise-key-id">823003287</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Retroactive Yamaha/Music Assistant sound-mode terminology synchronization; API readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Mono movie</seg></tuv><tuv xml:lang="sv"><seg>Monofilm</seg></tuv></tu>
     <tu tuid="lokalise:8036787797"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::jazz_club</prop><prop type="lokalise-key-id">823003286</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Jazz club</seg></tuv><tuv xml:lang="sv"><seg>Jazzklubb</seg></tuv></tu>
     <tu tuid="lokalise:8036787733"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::game</prop><prop type="lokalise-key-id">823003285</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Game</seg></tuv><tuv xml:lang="sv"><seg>Spel</seg></tuv></tu>
     <tu tuid="lokalise:8036787669"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::freiburg</prop><prop type="lokalise-key-id">823003284</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Church in Freiburg</seg></tuv><tuv xml:lang="sv"><seg>Kyrka i Freiburg</seg></tuv></tu>
-    <tu tuid="lokalise:8036787605"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::frankfurt</prop><prop type="lokalise-key-id">823003283</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in Frankfurt</seg></tuv><tuv xml:lang="sv"><seg>Hall i Frankfurt</seg></tuv></tu>
+    <tu tuid="lokalise:8036787605"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::frankfurt</prop><prop type="lokalise-key-id">823003283</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Retroactive Yamaha/Music Assistant sound-mode terminology synchronization; API readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Hall in Frankfurt</seg></tuv><tuv xml:lang="sv"><seg>Konserthall i Frankfurt</seg></tuv></tu>
     <tu tuid="lokalise:8036787541"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::enhanced</prop><prop type="lokalise-key-id">823003282</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Enhanced</seg></tuv><tuv xml:lang="sv"><seg>Förbättrad</seg></tuv></tu>
     <tu tuid="lokalise:8036787477"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::drama</prop><prop type="lokalise-key-id">823003281</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Drama</seg></tuv><tuv xml:lang="sv"><seg>Drama</seg></tuv></tu>
     <tu tuid="lokalise:8036787413"><prop type="source">component::yamaha_musiccast::entity::media_player::zone::state_attributes::sound_mode::state::disco</prop><prop type="lokalise-key-id">823003280</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API live readback + Home Assistant Core source review</prop><prop type="status">verified-existing</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Disco</seg></tuv><tuv xml:lang="sv"><seg>Disco</seg></tuv></tu>
