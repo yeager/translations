@@ -8,6 +8,8 @@ Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 
 ## Aktuellt läge
 
+- Batch 64 097–64 216: 120 positioner granskades (67 direkta, 46 referenser, 7 äldre källfrånvarande poster); 118 hade tidigare rapporter. 27 ändringar i intervallet och sex delade Husqvarna-mål utanför intervallet sparades/lästes tillbaka (33 poster totalt). Referenser 46/46, platshållare 113/113, inga pluralnycklar; `svlang` utan skrivregel- eller anglicismträffar. TMX validerar med 35 771 enheter (35 540 Lokalise-ID, 231 historiska). Nästa position 64 217; 13 440 indexpositioner återstår. Se `2026-11-27-reviewed-core-64097-64216.md` och JSON-underlagen.
+
 - Batch 63 977–64 096: 120 positioner granskades (97 direkta, 15 referenser, 8 äldre källfrånvarande poster); 36 hade tidigare rapporter. Tretton ändringar sparades/lästes tillbaka. Referenser 15/15, platshållare 112/112, inga pluralnycklar; `svlang` utan skrivregel- eller anglicismträffar. En SolarEdge-etikett för negativ anläggningsgräns behöver dokumentationskontroll. TMX validerar med 35 768 enheter (35 537 Lokalise-ID, 231 historiska). Nästa position 64 097; 13 560 indexpositioner återstår. Se `2026-11-27-reviewed-core-63977-64096.md` och JSON-underlagen.
 
 - Batch 63 857–63 976: samtliga 120 positioner granskades (85 direkta, 31 referenser, 4 äldre källfrånvarande poster); 23 hade tidigare rapporter. 23 ändringar sparades/lästes tillbaka i intervallet och sex delade referensmål synkades retroaktivt. Referenser 31/31, platshållare 116/116, pluralnycklar 0; `svlang` utan skrivregel- eller anglicismträffar. TMX validerar med 35 757 enheter (35 526 Lokalise-ID, 231 historiska). Nästa position 63 977; 13 680 indexpositioner återstår. Se `2026-11-27-reviewed-core-63857-63976.md` och JSON-underlagen.
