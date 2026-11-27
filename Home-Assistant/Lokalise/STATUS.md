@@ -7,6 +7,8 @@ Aktuell Home Assistant Core-källrevision: 1d07105b760c73093145526a51758938e87cc
 Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 
 ## Aktuellt läge
+- Batch 55,217–55,336: 48 direkta källsträngar, 26 referenser och 46 tidigare dokumenterade källvägar radgranskades. 17 korrigeringar sparades/lästes tillbaka och 47 gemensamma OAuth2-alias synkades retroaktivt. Platshållare 120/120; alias matchade före rättelserna. TM-manifest 140 poster live-verifierat. TMX validerar med 35 753 enheter (35 522 Lokalise-ID, 231 historiska). Nästa position 55 337; 22 320 återstår. Se `2026-11-27-reviewed-core-55217-55336.md` och JSON-underlagen.
+
 - Batch 55,097–55,216: 61 nya direkta strängar, 33 tidigare granskade direkta strängar, 20 referenser och sex historiska källvägar radgranskades. 30 rättelser sparades/lästes tillbaka; alla 20 referensmål matchade live. Platshållare 120/120, inga pluralnycklar. TM-manifest 114 aktuella poster; sex äldre icke-skalära källvägar dokumenterades separat. Nästa position 55,217; 22,440 återstår. Se `2026-11-27-reviewed-core-55097-55216.md` och JSON-underlagen.
 
 
