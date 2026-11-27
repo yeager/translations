@@ -837,3 +837,15 @@ argumentet betyder i just det programmet.
 | Kerberos realm | Kerberos-sfär | Realm-värdet är en sfär, inte en vanlig domän. |
 | offline mode | frånkopplat läge | Konsekvent med Evolution-terminologi. |
 | Editor (permission role) | redigerare | Roll med redigeringsbehörighet. |
+
+## GNOME Health
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| Health (app) | Hälsa | Appnamn. |
+| step goal | stegmål | Målet för steg per dag. |
+| weight goal | målvikt | Målvärde för användarens vikt. |
+| streak | svit | Sammanhängande följd av dagar då stegmålet nås. |
+| Imperial | brittiskt måttsystem | Motsats till metriska måttenheter i appens val. |
+| mile (unit) | engelsk mil | Skilj från svensk mil. |
+| idle calories | kalorier i vila | Kaloriförbrukning när användaren vilar. |
