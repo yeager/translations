@@ -18622,37 +18622,40 @@ Kontrollera att anslutningen till {integration_title} fungerar och starta om Hom
       <prop type="source">component::anglian_water::config::error::consent_required</prop>
       <prop type="lokalise-key-id">899675235</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>You need to accept the terms and conditions for your Anglian Water account before using this integration. Log in to their website for further information.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Du måste godkänna villkoren för ditt Anglian Water-konto innan du använder den här integrationen. Logga in på Anglian Waters webbplats för mer information.</seg>
+        <seg>Du måste godkänna villkoren för ditt Anglian Water-konto innan du kan använda integreringen. Logga in på webbplatsen för Anglian Water för mer information.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211450408">
       <prop type="source">component::anglian_water::exceptions::consent_required::message</prop>
       <prop type="lokalise-key-id">899675236</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The terms and conditions for your Anglian Water account have been updated. Please visit and log in to your Anglian Water account to accept the new terms and conditions.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Villkoren för ditt Anglian Water-konto har uppdaterats. Logga in på ditt Anglian Water-konto och godkänn de nya villkoren.</seg>
+        <seg>Villkoren för ditt Anglian Water-konto har uppdaterats. Logga in på kontot och godkänn de nya villkoren.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211450472">
       <prop type="source">component::anglian_water::issues::consent_required::description</prop>
       <prop type="lokalise-key-id">899675237</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The terms and conditions for account {account_number} have been updated. Please visit and log in to your Anglian Water account to accept the new terms and conditions.
 
@@ -18661,16 +18664,17 @@ This issue will automatically resolve once the new conditions have been accepted
       <tuv xml:lang="sv">
         <seg>Villkoren för kontot {account_number} har uppdaterats. Logga in på ditt Anglian Water-konto och godkänn de nya villkoren.
 
-Det här problemet löses automatiskt när de nya villkoren har godkänts vid nästa uppdateringscykel.</seg>
+Det här problemet åtgärdas automatiskt när du har godkänt de nya villkoren och nästa uppdateringscykel har körts.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211450536">
       <prop type="source">component::anglian_water::issues::consent_required::title</prop>
       <prop type="lokalise-key-id">899675238</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Anglian Water terms and conditions updated</seg>
       </tuv>
@@ -37901,9 +37905,10 @@ Uppdateringar för dessa skript kommer inte längre från Marketplace. Håll dem
       <prop type="source">component::sky_remote::exceptions::invalid_command::message</prop>
       <prop type="lokalise-key-id">899674967</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Invalid command: {command}</seg>
       </tuv>
@@ -107549,37 +107554,40 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::white_brightness_25</prop>
       <prop type="lokalise-key-id">900354798</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>White brightness 25%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Vit ljusstyrka 25 %</seg>
+        <seg>Vit ljusstyrka: 25 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9224425413">
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::white_brightness_100</prop>
       <prop type="lokalise-key-id">900354797</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>White brightness 100%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Vit ljusstyrka 100 %</seg>
+        <seg>Vit ljusstyrka: 100 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9224425349">
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::slow</prop>
       <prop type="lokalise-key-id">900354796</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Slow</seg>
       </tuv>
@@ -107591,37 +107599,40 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::red_up</prop>
       <prop type="lokalise-key-id">900354795</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Red up</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Röd upp</seg>
+        <seg>Öka den röd kanalen</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9224425221">
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::red_down</prop>
       <prop type="lokalise-key-id">900354794</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Red down</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Röd ner</seg>
+        <seg>Minska den röd kanalen</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9224425157">
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::quick</prop>
       <prop type="lokalise-key-id">900354793</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Quick</seg>
       </tuv>
@@ -107633,9 +107644,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::pink</prop>
       <prop type="lokalise-key-id">900354792</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Color: Pink</seg>
       </tuv>
@@ -107647,9 +107659,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::magenta</prop>
       <prop type="lokalise-key-id">900354791</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Color: Magenta</seg>
       </tuv>
@@ -107661,9 +107674,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::light_cyan</prop>
       <prop type="lokalise-key-id">900354790</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Color: Light Cyan</seg>
       </tuv>
@@ -107675,9 +107689,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::lavender_blush</prop>
       <prop type="lokalise-key-id">900354789</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Color: Lavender Blush</seg>
       </tuv>
@@ -107689,9 +107704,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::jump7</prop>
       <prop type="lokalise-key-id">900354788</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Jump 7</seg>
       </tuv>
@@ -107703,9 +107719,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::jump3</prop>
       <prop type="lokalise-key-id">900354787</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Jump 3</seg>
       </tuv>
@@ -107717,37 +107734,40 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::green_up</prop>
       <prop type="lokalise-key-id">900354786</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Green up</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Grön upp</seg>
+        <seg>Öka den grön kanalen</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9224424645">
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::green_down</prop>
       <prop type="lokalise-key-id">900354785</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Green down</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Grön ner</seg>
+        <seg>Minska den grön kanalen</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9224424581">
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::ghost_white</prop>
       <prop type="lokalise-key-id">900354784</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Color: Ghost White</seg>
       </tuv>
@@ -107759,9 +107779,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::floral_white</prop>
       <prop type="lokalise-key-id">900354783</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Color: Floral White</seg>
       </tuv>
@@ -107773,9 +107794,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::fade7</prop>
       <prop type="lokalise-key-id">900354782</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Fade 7</seg>
       </tuv>
@@ -107787,9 +107809,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::fade3</prop>
       <prop type="lokalise-key-id">900354781</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Fade 3</seg>
       </tuv>
@@ -107801,9 +107824,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::diy6</prop>
       <prop type="lokalise-key-id">900354780</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>DIY 6</seg>
       </tuv>
@@ -107815,9 +107839,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::diy5</prop>
       <prop type="lokalise-key-id">900354779</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>DIY 5</seg>
       </tuv>
@@ -107829,9 +107854,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::diy4</prop>
       <prop type="lokalise-key-id">900354778</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>DIY 4</seg>
       </tuv>
@@ -107843,9 +107869,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::diy3</prop>
       <prop type="lokalise-key-id">900354777</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>DIY 3</seg>
       </tuv>
@@ -107857,9 +107884,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::diy2</prop>
       <prop type="lokalise-key-id">900354776</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>DIY 2</seg>
       </tuv>
@@ -107871,9 +107899,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::diy1</prop>
       <prop type="lokalise-key-id">900354775</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>DIY 1</seg>
       </tuv>
@@ -107885,9 +107914,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::deep_blue</prop>
       <prop type="lokalise-key-id">900354774</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Color: Deep Blue</seg>
       </tuv>
@@ -107899,37 +107929,40 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::blue_up</prop>
       <prop type="lokalise-key-id">900354773</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Blue up</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Blå upp</seg>
+        <seg>Öka den blå kanalen</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9224423813">
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::blue_down</prop>
       <prop type="lokalise-key-id">900354772</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Blue down</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Blå ner</seg>
+        <seg>Minska den blå kanalen</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9224423749">
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::auto</prop>
       <prop type="lokalise-key-id">900354771</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Auto</seg>
       </tuv>
@@ -107941,9 +107974,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::led_infrared::entity::event::received_command::state_attributes::event_type::state::aqua</prop>
       <prop type="lokalise-key-id">900354770</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Color: Aqua</seg>
       </tuv>
@@ -107955,23 +107989,25 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::yeelight::exceptions::set_music_mode_failed::message</prop>
       <prop type="lokalise-key-id">900348998</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Unable to set music mode for {name}: {error}. Consider disabling the music mode option.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Det gick inte att ställa in musikläge för {name}: {error}. Överväg att inaktivera musikläge.</seg>
+        <seg>Det gick inte att aktivera musikläget för {name}: {error}. Prova att inaktivera alternativet för musikläge.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223519114">
       <prop type="source">component::enphase_envoy::entity::sensor::acb_battery_soc::name</prop>
       <prop type="lokalise-key-id">900325963</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>State of charge</seg>
       </tuv>
@@ -107983,9 +108019,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::enphase_envoy::entity::sensor::acb_battery_sleep_state::state::waking</prop>
       <prop type="lokalise-key-id">900325962</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Waking</seg>
       </tuv>
@@ -107997,9 +108034,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::enphase_envoy::entity::sensor::acb_battery_sleep_state::state::going_to_sleep</prop>
       <prop type="lokalise-key-id">900325961</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Going to sleep</seg>
       </tuv>
@@ -108011,9 +108049,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::enphase_envoy::entity::sensor::acb_battery_sleep_state::state::awake</prop>
       <prop type="lokalise-key-id">900325960</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Awake</seg>
       </tuv>
@@ -108025,9 +108064,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::enphase_envoy::entity::sensor::acb_battery_sleep_state::state::asleep</prop>
       <prop type="lokalise-key-id">900325959</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Asleep</seg>
       </tuv>
@@ -108039,23 +108079,25 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::enphase_envoy::entity::sensor::acb_battery_sleep_state::name</prop>
       <prop type="lokalise-key-id">900325958</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Sleep state</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Sömnläge</seg>
+        <seg>Batteriets viloläge</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223518730">
       <prop type="source">component::enphase_envoy::entity::sensor::acb_battery_sleep_soc_target::name</prop>
       <prop type="lokalise-key-id">900325957</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Sleep SOC target</seg>
       </tuv>
@@ -108067,9 +108109,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::enphase_envoy::entity::sensor::acb_battery_charge_status::state::idle</prop>
       <prop type="lokalise-key-id">900325956</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Idle</seg>
       </tuv>
@@ -108081,9 +108124,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::enphase_envoy::entity::sensor::acb_battery_charge_status::state::discharging</prop>
       <prop type="lokalise-key-id">900325955</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Discharging</seg>
       </tuv>
@@ -108095,9 +108139,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::enphase_envoy::entity::sensor::acb_battery_charge_status::state::charging</prop>
       <prop type="lokalise-key-id">900325954</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Charging</seg>
       </tuv>
@@ -108109,9 +108154,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::enphase_envoy::entity::sensor::acb_battery_charge_status::name</prop>
       <prop type="lokalise-key-id">900325953</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Charge status</seg>
       </tuv>
@@ -108123,9 +108169,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::enphase_envoy::entity::sensor::acb_aggregate_sleep_state::state::waking</prop>
       <prop type="lokalise-key-id">900325952</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Waking</seg>
       </tuv>
@@ -108137,37 +108184,40 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::enphase_envoy::entity::sensor::acb_aggregate_sleep_state::state::mixed</prop>
       <prop type="lokalise-key-id">900325951</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Mixed</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Blandad</seg>
+        <seg>Blandat</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223518282">
       <prop type="source">component::enphase_envoy::entity::sensor::acb_aggregate_sleep_state::state::going_to_sleep</prop>
       <prop type="lokalise-key-id">900325950</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Going to sleep</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Somnar</seg>
+        <seg>Går till viloläge</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223518218">
       <prop type="source">component::enphase_envoy::entity::sensor::acb_aggregate_sleep_state::state::awake</prop>
       <prop type="lokalise-key-id">900325949</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Awake</seg>
       </tuv>
@@ -108179,9 +108229,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::enphase_envoy::entity::sensor::acb_aggregate_sleep_state::state::asleep</prop>
       <prop type="lokalise-key-id">900325948</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Asleep</seg>
       </tuv>
@@ -108193,345 +108244,370 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::enphase_envoy::entity::sensor::acb_aggregate_sleep_state::name</prop>
       <prop type="lokalise-key-id">900325947</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Sleep state</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Sömnläge</seg>
+        <seg>Batteriernas viloläge</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223518026">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::95-100</prop>
       <prop type="lokalise-key-id">900325946</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>95 - 100%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>95 - 100%</seg>
+        <seg>95–100 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223517962">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::90-95</prop>
       <prop type="lokalise-key-id">900325945</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>90 - 95%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>90 - 95%</seg>
+        <seg>90–95 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223517898">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::85-90</prop>
       <prop type="lokalise-key-id">900325944</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>85 - 90%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>85 - 90%</seg>
+        <seg>85–90 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223517834">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::80-85</prop>
       <prop type="lokalise-key-id">900325943</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>80 - 85%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>80 - 85%</seg>
+        <seg>80–85 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223517770">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::75-80</prop>
       <prop type="lokalise-key-id">900325942</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>75 - 80%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>75 - 80%</seg>
+        <seg>75–80 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223517706">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::70-75</prop>
       <prop type="lokalise-key-id">900325941</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>70 - 75%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>70 - 75%</seg>
+        <seg>70–75 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223517642">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::65-70</prop>
       <prop type="lokalise-key-id">900325940</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>65 - 70%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>65 - 70%</seg>
+        <seg>65–70 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223517578">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::60-65</prop>
       <prop type="lokalise-key-id">900325939</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>60 - 65%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>60 - 65%</seg>
+        <seg>60–65 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223517514">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::55-60</prop>
       <prop type="lokalise-key-id">900325938</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>55 - 60%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>55 - 60%</seg>
+        <seg>55–60 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223517450">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::50-55</prop>
       <prop type="lokalise-key-id">900325937</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>50 - 55%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>50 - 55%</seg>
+        <seg>50–55 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223517386">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::5-10</prop>
       <prop type="lokalise-key-id">900325936</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>5 - 10%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>5 - 10%</seg>
+        <seg>5–10 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223517322">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::45-50</prop>
       <prop type="lokalise-key-id">900325935</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>45 - 50%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>45 - 50%</seg>
+        <seg>45–50 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223517258">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::40-45</prop>
       <prop type="lokalise-key-id">900325934</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>40 - 45%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>40 - 45%</seg>
+        <seg>40–45 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223517194">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::35-40</prop>
       <prop type="lokalise-key-id">900325933</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>35 - 40%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>35 - 40%</seg>
+        <seg>35–40 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223517130">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::30-35</prop>
       <prop type="lokalise-key-id">900325932</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>30 - 35%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>30 - 35%</seg>
+        <seg>30–35 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223517066">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::25-30</prop>
       <prop type="lokalise-key-id">900325931</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>25 - 30%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>25 - 30%</seg>
+        <seg>25–30 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223517002">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::20-25</prop>
       <prop type="lokalise-key-id">900325930</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>20 - 25%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>20 - 25%</seg>
+        <seg>20–25 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223516938">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::15-20</prop>
       <prop type="lokalise-key-id">900325929</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>15 - 20%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>15 - 20%</seg>
+        <seg>15–20 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223516874">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::10-15</prop>
       <prop type="lokalise-key-id">900325928</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>10 - 15%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>10 - 15%</seg>
+        <seg>10–15 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223516810">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::state::0-5</prop>
       <prop type="lokalise-key-id">900325927</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>0 - 5%</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>0 - 5%</seg>
+        <seg>0–5 %</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223516746">
       <prop type="source">component::enphase_envoy::entity::select::acb_sleep_soc::name</prop>
       <prop type="lokalise-key-id">900325926</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Battery sleep SOC target</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>SOC mål för batterivila</seg>
+        <seg>Laddningstillstånd för batteriets viloläge</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223516682">
       <prop type="source">component::enphase_envoy::entity::button::acb_wake::name</prop>
       <prop type="lokalise-key-id">900325925</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Wake</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Vakna</seg>
+        <seg>Väck</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223516618">
       <prop type="source">component::enphase_envoy::entity::button::acb_sleep::name</prop>
       <prop type="lokalise-key-id">900325924</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Sleep</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Sova</seg>
+        <seg>Aktivera viloläge</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9223516554">
       <prop type="source">component::enphase_envoy::entity::binary_sensor::producing::name</prop>
       <prop type="lokalise-key-id">900325923</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Producing</seg>
       </tuv>
@@ -108543,9 +108619,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::enphase_envoy::entity::binary_sensor::operating::name</prop>
       <prop type="lokalise-key-id">900325922</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Operating</seg>
       </tuv>
@@ -108557,9 +108634,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::environment_canada::selector::radar_colors::options::8</prop>
       <prop type="lokalise-key-id">900325883</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>8 colours</seg>
       </tuv>
@@ -108571,9 +108649,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::environment_canada::selector::radar_colors::options::14</prop>
       <prop type="lokalise-key-id">900325882</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>14 colours</seg>
       </tuv>
@@ -108613,23 +108692,25 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::google_health::entity::sensor::last_sync_time::name</prop>
       <prop type="lokalise-key-id">900295375</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Last sync time</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Senaste synkroniseringstid</seg>
+        <seg>Senaste synkronisering</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9222376602">
       <prop type="source">component::melcloud::entity::select::operation_mode::state::room</prop>
       <prop type="lokalise-key-id">900253834</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Room</seg>
       </tuv>
@@ -108641,9 +108722,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::melcloud::entity::select::operation_mode::state::flow</prop>
       <prop type="lokalise-key-id">900253833</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Flow</seg>
       </tuv>
@@ -108655,9 +108737,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::melcloud::entity::select::operation_mode::state::curve</prop>
       <prop type="lokalise-key-id">900253832</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Curve</seg>
       </tuv>
@@ -108669,9 +108752,10 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::melcloud::entity::select::operation_mode::name</prop>
       <prop type="lokalise-key-id">900253831</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Operation mode</seg>
       </tuv>
@@ -108683,37 +108767,40 @@ Välj den enhet som denna hjälpare ska kopplas till, eller lämna fältet tomt 
       <prop type="source">component::device_tracker::issues::deprecated_see_action::title</prop>
       <prop type="lokalise-key-id">900241233</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Detected use of deprecated action device_tracker.see</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Användning av föråldrad åtgärd device_tracker.see upptäcktes</seg>
+        <seg>Användning av den föråldrade åtgärden device_tracker.see upptäcktes</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9222269697">
       <prop type="source">component::device_tracker::issues::deprecated_see_action::fix_flow::step::confirm::title</prop>
       <prop type="lokalise-key-id">900241232</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Detected use of deprecated action device_tracker.see</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Användning av föråldrad åtgärd device_tracker.see upptäcktes</seg>
+        <seg>Användning av den föråldrade åtgärden device_tracker.see upptäcktes</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9222269633">
       <prop type="source">component::device_tracker::issues::deprecated_see_action::fix_flow::step::confirm::description</prop>
       <prop type="lokalise-key-id">900241231</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The `device_tracker.see` action is deprecated and will be removed in Home Assistant Core 2027.5.
 
@@ -108722,44 +108809,47 @@ Use a [template device tracker]({docs_url}) instead, then remove any use of this
       <tuv xml:lang="sv">
         <seg>Åtgärden `device_tracker.see` är föråldrad och kommer att tas bort i Home Assistant Core 2027.5.
 
-Använd en [mall för enhetsspårning]({docs_url}) istället, ta sedan bort all användning av den här åtgärden från dina automatiseringar och skript och välj sedan **Bekräfta** för att stänga det här meddelandet.</seg>
+Använd en [mallbaserad enhetsspårare]({docs_url}). Ta sedan bort åtgärden från dina automationer och skript och välj **Skicka** för att stänga problemet.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9222210286">
       <prop type="source">component::shelly::entity::update::lora_firmware::name</prop>
       <prop type="lokalise-key-id">900233418</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>LoRa add-on firmware</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>LoRa add-on firmware</seg>
+        <seg>Fast programvara för LoRa-tillägget</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211452200">
       <prop type="source">component::eurotronic_cometblue::services::set_schedule::name</prop>
       <prop type="lokalise-key-id">899675264</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Set schedule</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Ställ in schema</seg>
+        <seg>Ställ in uppvärmningsschema</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211452136">
       <prop type="source">component::eurotronic_cometblue::services::set_schedule::fields::wednesday::name</prop>
       <prop type="lokalise-key-id">899675263</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Wednesday</seg>
       </tuv>
@@ -108771,23 +108861,25 @@ Använd en [mall för enhetsspårning]({docs_url}) istället, ta sedan bort all 
       <prop type="source">component::eurotronic_cometblue::services::set_schedule::fields::wednesday::description</prop>
       <prop type="lokalise-key-id">899675262</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Heating time periods for Wednesday. Up to 4 heat times can be set.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Uppvärmningstidsperioder för onsdag. Upp till 4 uppvärmningstider kan ställas in.</seg>
+        <seg>Uppvärmningstider för onsdag. Du kan ange högst fyra perioder.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211452008">
       <prop type="source">component::eurotronic_cometblue::services::set_schedule::fields::tuesday::name</prop>
       <prop type="lokalise-key-id">899675261</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Tuesday</seg>
       </tuv>
@@ -108799,23 +108891,25 @@ Använd en [mall för enhetsspårning]({docs_url}) istället, ta sedan bort all 
       <prop type="source">component::eurotronic_cometblue::services::set_schedule::fields::tuesday::description</prop>
       <prop type="lokalise-key-id">899675260</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Heating time periods for Tuesday. Up to 4 heat times can be set.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Uppvärmningstidsperioder för tisdag. Upp till 4 uppvärmningstider kan ställas in.</seg>
+        <seg>Uppvärmningstider för tisdag. Du kan ange högst fyra perioder.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211451880">
       <prop type="source">component::eurotronic_cometblue::services::set_schedule::fields::thursday::name</prop>
       <prop type="lokalise-key-id">899675259</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Thursday</seg>
       </tuv>
@@ -108827,23 +108921,25 @@ Använd en [mall för enhetsspårning]({docs_url}) istället, ta sedan bort all 
       <prop type="source">component::eurotronic_cometblue::services::set_schedule::fields::thursday::description</prop>
       <prop type="lokalise-key-id">899675258</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Heating time periods for Thursday. Up to 4 heat times can be set.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Uppvärmningstidsperioder för torsdag. Upp till 4 uppvärmningstider kan ställas in.</seg>
+        <seg>Uppvärmningstider för torsdag. Du kan ange högst fyra perioder.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211451752">
       <prop type="source">component::eurotronic_cometblue::services::set_schedule::fields::sunday::name</prop>
       <prop type="lokalise-key-id">899675257</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Sunday</seg>
       </tuv>
@@ -108855,23 +108951,25 @@ Använd en [mall för enhetsspårning]({docs_url}) istället, ta sedan bort all 
       <prop type="source">component::eurotronic_cometblue::services::set_schedule::fields::sunday::description</prop>
       <prop type="lokalise-key-id">899675256</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Heating time periods for Sunday. Up to 4 heat times can be set.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Uppvärmningstidsperioder för söndag. Upp till 4 uppvärmningstider kan ställas in.</seg>
+        <seg>Uppvärmningstider för söndag. Du kan ange högst fyra perioder.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211451624">
       <prop type="source">component::eurotronic_cometblue::services::set_schedule::fields::saturday::name</prop>
       <prop type="lokalise-key-id">899675255</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Saturday</seg>
       </tuv>
@@ -108883,23 +108981,25 @@ Använd en [mall för enhetsspårning]({docs_url}) istället, ta sedan bort all 
       <prop type="source">component::eurotronic_cometblue::services::set_schedule::fields::saturday::description</prop>
       <prop type="lokalise-key-id">899675254</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Heating time periods for Saturday. Up to 4 heat times can be set.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Uppvärmningstidsperioder för lördag. Upp till 4 uppvärmningstider kan ställas in.</seg>
+        <seg>Uppvärmningstider för lördag. Du kan ange högst fyra perioder.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211451496">
       <prop type="source">component::eurotronic_cometblue::services::set_schedule::fields::monday::name</prop>
       <prop type="lokalise-key-id">899675253</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Monday</seg>
       </tuv>
@@ -108911,23 +109011,25 @@ Använd en [mall för enhetsspårning]({docs_url}) istället, ta sedan bort all 
       <prop type="source">component::eurotronic_cometblue::services::set_schedule::fields::monday::description</prop>
       <prop type="lokalise-key-id">899675252</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Heating time periods for Monday. Up to 4 heat times can be set.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Uppvärmningstidsperioder för måndag. Upp till 4 uppvärmningstider kan ställas in.</seg>
+        <seg>Uppvärmningstider för måndag. Du kan ange högst fyra perioder.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211451368">
       <prop type="source">component::eurotronic_cometblue::services::set_schedule::fields::friday::name</prop>
       <prop type="lokalise-key-id">899675251</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Friday</seg>
       </tuv>
@@ -108939,51 +109041,55 @@ Använd en [mall för enhetsspårning]({docs_url}) istället, ta sedan bort all 
       <prop type="source">component::eurotronic_cometblue::services::set_schedule::fields::friday::description</prop>
       <prop type="lokalise-key-id">899675250</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Heating time periods for Friday. Up to 4 heat times can be set.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Uppvärmningstidsperioder för fredag. Upp till 4 uppvärmningstider kan ställas in.</seg>
+        <seg>Uppvärmningstider för fredag. Du kan ange högst fyra perioder.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211451240">
       <prop type="source">component::eurotronic_cometblue::services::set_schedule::description</prop>
       <prop type="lokalise-key-id">899675249</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Sets the configured heating time ranges of one or multiple devices. Days not included will be left unchanged.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Ställer in de konfigurerade uppvärmningstidsintervallen för en eller flera enheter. Dagar som inte inkluderas kommer att lämnas oförändrade.</seg>
+        <seg>Ställer in de konfigurerade tidsintervallen för uppvärmning för en eller flera enheter. Dagar som utelämnas lämnas oförändrade.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211451176">
       <prop type="source">component::eurotronic_cometblue::services::set_holiday::name</prop>
       <prop type="lokalise-key-id">899675248</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Set holiday/away mode</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Ställ in semester/borta läge</seg>
+        <seg>Aktivera semester- eller bortaläge</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211451112">
       <prop type="source">component::eurotronic_cometblue::services::set_holiday::fields::to::name</prop>
       <prop type="lokalise-key-id">899675247</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>To</seg>
       </tuv>
@@ -108995,23 +109101,25 @@ Använd en [mall för enhetsspårning]({docs_url}) istället, ta sedan bort all 
       <prop type="source">component::eurotronic_cometblue::services::set_holiday::fields::to::description</prop>
       <prop type="lokalise-key-id">899675246</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>End of the away mode.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Slut på bortaläge.</seg>
+        <seg>När bortaläget slutar.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211450984">
       <prop type="source">component::eurotronic_cometblue::services::set_holiday::fields::temperature::name</prop>
       <prop type="lokalise-key-id">899675245</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Temperature</seg>
       </tuv>
@@ -109023,23 +109131,25 @@ Använd en [mall för enhetsspårning]({docs_url}) istället, ta sedan bort all 
       <prop type="source">component::eurotronic_cometblue::services::set_holiday::fields::temperature::description</prop>
       <prop type="lokalise-key-id">899675244</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Temperature during away mode.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Temperatur under bortaläge.</seg>
+        <seg>Temperaturen i bortaläget.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211450856">
       <prop type="source">component::eurotronic_cometblue::services::set_holiday::fields::from::name</prop>
       <prop type="lokalise-key-id">899675243</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>From</seg>
       </tuv>
@@ -109051,37 +109161,40 @@ Använd en [mall för enhetsspårning]({docs_url}) istället, ta sedan bort all 
       <prop type="source">component::eurotronic_cometblue::services::set_holiday::fields::from::description</prop>
       <prop type="lokalise-key-id">899675242</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Start of the away mode.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Start av bortaläge.</seg>
+        <seg>När bortaläget börjar.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211450728">
       <prop type="source">component::eurotronic_cometblue::services::set_holiday::description</prop>
       <prop type="lokalise-key-id">899675241</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Sets holiday/away mode on one or multiple devices.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Ställer in semester/bortaläge på en eller flera enheter.</seg>
+        <seg>Aktiverar semester- eller bortaläge på en eller flera enheter.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211450664">
       <prop type="source">component::eurotronic_cometblue::services::get_schedule::name</prop>
       <prop type="lokalise-key-id">899675240</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Get schedule</seg>
       </tuv>
@@ -109093,23 +109206,25 @@ Använd en [mall för enhetsspårning]({docs_url}) istället, ta sedan bort all 
       <prop type="source">component::eurotronic_cometblue::services::get_schedule::description</prop>
       <prop type="lokalise-key-id">899675239</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Retrieves the configured heating time ranges of one or multiple devices.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Hämtar de konfigurerade uppvärmningstidsintervallen för en eller flera enheter.</seg>
+        <seg>Hämtar de konfigurerade tidsintervallen för uppvärmning för en eller flera enheter.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211450187">
       <prop type="source">component::dsmr::config::step::encryption_key::title</prop>
       <prop type="lokalise-key-id">899675228</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Encryption key</seg>
       </tuv>
@@ -109121,23 +109236,25 @@ Använd en [mall för enhetsspårning]({docs_url}) istället, ta sedan bort all 
       <prop type="source">component::dsmr::config::step::encryption_key::data_description::encryption_key</prop>
       <prop type="lokalise-key-id">899675227</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The encryption key of your meter, provided by your grid operator (32 hexadecimal characters)</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Krypteringsnyckeln för din mätare, tillhandahållen av din nätoperatör (32 hexadecimala tecken)</seg>
+        <seg>Krypteringsnyckeln till din mätare, som du fått från nätoperatören (32 hexadecimala tecken)</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211450059">
       <prop type="source">component::dsmr::config::step::encryption_key::data::encryption_key</prop>
       <prop type="lokalise-key-id">899675226</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Encryption key</seg>
       </tuv>
@@ -109149,14 +109266,15 @@ Använd en [mall för enhetsspårning]({docs_url}) istället, ta sedan bort all 
       <prop type="source">component::dsmr::config::error::invalid_key</prop>
       <prop type="lokalise-key-id">899675225</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to decrypt the telegram, check the encryption key</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Misslyckades med att dekryptera telegrammet, kontrollera krypteringsnyckeln</seg>
+        <seg>Det gick inte att dekryptera telegrammet. Kontrollera krypteringsnyckeln.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9211444993">
