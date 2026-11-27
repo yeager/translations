@@ -12,3 +12,7 @@
 
 Tolv befintliga poster använder nu **Fyll** som verktygsnamn och **fyllnadsverktyg** i löptext. Katalogens tidigare radgranskning och statistik ändras inte; ingen GNOME-inskickning har gjorts.
 - Validering av termrättningen: `msgfmt --check --check-format` godkändes; l10n-lint rapporterade 0 fel och inga varningar i de ändrade posterna. Markup, platshållare, pluralformer och radbrytningar är oförändrade. Hunspell-SV markerade bara Wilber, GIMP-maskotens namn.
+
+## Kontroll mot senaste POT — 2026-11-26
+
+Senaste POT skapades 2026-11-24 och innehåller 478 poster. Den arkiverade granskningen från 2026-11-23 matchar inte längre POT:en; katalogen laddas inte upp och måste uppdateras mot aktuell mall. API-statistik vid kontrollen: 28 översatta, 42 fuzzy och 408 oöversatta.
