@@ -801,3 +801,19 @@ argumentet betyder i just det programmet.
 | array of equations | ekvationsuppställning | För `align*` och `align`; skriv inte *vektor*. |
 | proceedings | konferenshandlingar | Publikationstyp. |
 | flashcard | övningskort | LaTeX-mall. |
+
+
+## Sound Juicer — CD-ljud och metadata
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| CD ripper / ripping | CD-rippare / CD-rippning | Använd *extrahera* som verb i åtgärder när det är tydligare. |
+| track | spår | Ljudspår på skivan. |
+| release label | skivbolag | Musikmetadata; inte *etikett*. |
+| format specifier | formatkod | För `%at`, `%tt` och motsvarande mallvärden. |
+| paranoia flags | paranoiaflaggor | Behåll värdena `disable`, `fragment`, `overlap`, `scratch`, `repair` exakt. |
+| pipeline | pipeline | GStreamer-term; översätt inte till *rör*. |
+| source element | källelement | GStreamer-källa för CD-läsning. |
+| Catalog No. / Catalog Nos. | Katalognummer | Samma svenska form i singular och plural. |
+| Lieder | konstsång | Musikgenre. |
+| Spoken Word | talad poesi | Musikgenre. |

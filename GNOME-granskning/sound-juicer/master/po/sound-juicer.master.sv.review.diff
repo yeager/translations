@@ -1,0 +1,708 @@
+--- sound-juicer.master.sv.original.po
++++ sound-juicer.master.sv.reviewed.po
+@@ -9,8 +9,8 @@
+ "Project-Id-Version: sound-juicer\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/sound-juicer/issues/\n"
+ "POT-Creation-Date: 2026-01-01 13:34+0000\n"
+-"PO-Revision-Date: 2023-06-25 11:37+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-27 14:13+0000\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -27,21 +27,20 @@
+ 
+ #: data/metainfo/org.gnome.SoundJuicer.metainfo.xml.in:9
+ msgid "CD ripper with a clean interface and simple preferences"
+-msgstr "CD-extraherare med ett stilrent gränssnitt och enkla inställningar"
++msgstr "CD-rippare med ett stilrent gränssnitt och enkla inställningar"
+ 
+ #: data/metainfo/org.gnome.SoundJuicer.metainfo.xml.in:11
+ msgid ""
+-"Sound Juicer is a simple and clean CD ripping tool. It allows you to extract "
+-"the audio from audio compact discs and convert them into audio files that "
++"Sound Juicer is a simple and clean CD ripping tool. It allows you to extract"
++" the audio from audio compact discs and convert them into audio files that "
+ "your computer can understand and play. Sound Juicer can also play the audio "
+ "tracks directly from the CD, allowing you to preview the CD before ripping "
+ "it."
+ msgstr ""
+-"Sound Juicer är ett enkelt och stilrent CD-extraheringsverktyg. Det låter "
+-"dig extrahera ljudet från ljud-cd-skivor och konvertera dem till ljudfiler "
+-"som din dator kan förstå och spela upp. Sound Juicer kan också spela upp "
+-"ljudspåren direkt från cd-skivan, vilket låter dig förhandsgranska cd-skivan "
+-"innan du extraherar den."
++"Sound Juicer är ett enkelt och avskalat program för att rippa CD-skivor. Det"
++" låter dig extrahera ljudspåren och konvertera dem till ljudfiler som datorn"
++" kan läsa och spela upp. Du kan också spela upp spåren direkt från CD-skivan"
++" och förhandslyssna innan du rippar den."
+ 
+ #: data/metainfo/org.gnome.SoundJuicer.metainfo.xml.in:18
+ msgid ""
+@@ -50,10 +49,10 @@
+ "drive and try to locate information about the audio tracks using the freely-"
+ "available MusicBrainz service."
+ msgstr ""
+-"Sound Juicer är designat för att vara lättanvänt och fungera med få insatser "
+-"från användaren. När du startar Sound Juicer kommer det undersöka cd-skivan "
+-"i enheten och försöka att hitta information om ljudspåren med hjälp av den "
+-"fritt tillgängliga tjänsten MusicBrainz."
++"Sound Juicer är lätt att använda och kräver få ingripanden från användaren. "
++"När du startar programmet läser det av CD-skivan i enheten och försöker "
++"hitta information om ljudspåren med hjälp av den fritt tillgängliga tjänsten"
++" MusicBrainz."
+ 
+ #. This is a translatable version of project_group
+ #: data/metainfo/org.gnome.SoundJuicer.metainfo.xml.in:40
+@@ -62,20 +61,21 @@
+ 
+ #: data/org.gnome.SoundJuicer.desktop.in:3
+ msgid "Audio CD Extractor"
+-msgstr "Ljud-cd-extraherare"
++msgstr "CD-rippare"
+ 
+ #: data/org.gnome.SoundJuicer.desktop.in:4
+ msgid "Copy music from your CDs"
+ msgstr "Kopiera musik från dina cd-skivor"
+ 
+-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
++#. Translators: Search terms to find this application. Do NOT translate or
++#. localize the semicolons! The list MUST also end with a semicolon!
+ #: data/org.gnome.SoundJuicer.desktop.in:6
+ msgid "Ripper;"
+-msgstr "Extraherare;Ripper;"
++msgstr "Extraherare;CD-rippare;"
+ 
+ #: data/org.gnome.sound-juicer.gschema.xml:19
+ msgid "The CD to extract from"
+-msgstr "Cd-skivan att extrahera från"
++msgstr "CD-skivan som ska extraheras"
+ 
+ #: data/org.gnome.sound-juicer.gschema.xml:20
+ msgid ""
+@@ -89,41 +89,41 @@
+ 
+ #: data/org.gnome.sound-juicer.gschema.xml:25
+ msgid "Whether to eject the CD when finished extracting"
+-msgstr "Huruvida cd-skivan ska matas ut vid avslutad extrahering"
++msgstr "Om cd-skivan ska matas ut när extraheringen är klar"
+ 
+ #: data/org.gnome.sound-juicer.gschema.xml:30
+ msgid "Whether to open the target directory when finished extracting"
+-msgstr "Huruvida målkatalogen ska öppnas när extrahering är färdig"
++msgstr "Om målmappen ska öppnas när extraheringen är klar"
+ 
+ #: data/org.gnome.sound-juicer.gschema.xml:35
+ msgid "The URI to save the extracted music to"
+-msgstr "URI:n att spara den extraherade musiken till"
++msgstr "URI där den extraherade musiken ska sparas"
+ 
+ #: data/org.gnome.sound-juicer.gschema.xml:40
+ msgid "The directory structure for the files"
+-msgstr "Katalogstrukturen för filerna"
++msgstr "Mappstruktur för filerna"
+ 
+ #: data/org.gnome.sound-juicer.gschema.xml:41
+ msgid ""
+ "Format specifiers: %at - album title; %aT - album title (lowercase); %aa - "
+-"album artist; %aA - album artist (lowercase); %as - album artist (sortable); "
+-"%aS - album artist (sortable lowercase); %ac - album composer; %aC - album "
++"album artist; %aA - album artist (lowercase); %as - album artist (sortable);"
++" %aS - album artist (sortable lowercase); %ac - album composer; %aC - album "
+ "composer (lowercase); %ap - album composer (sortable); %aP - album composer "
+-"(sortable lowercase); %ay - album year; %tt - track title; %tT - track title "
+-"(lowercase); %ta - track artist; %tA - track artist (lowercase); %ts - track "
+-"artist (sortable); %tS - track artist (sortable lowercase); %tc - track "
+-"composer; %tC - track composer (lowercase); %tp - track composer (sortable); "
+-"%tP - track composer (sortable lowercase)."
++"(sortable lowercase); %ay - album year; %tt - track title; %tT - track title"
++" (lowercase); %ta - track artist; %tA - track artist (lowercase); %ts - "
++"track artist (sortable); %tS - track artist (sortable lowercase); %tc - "
++"track composer; %tC - track composer (lowercase); %tp - track composer "
++"(sortable); %tP - track composer (sortable lowercase)."
+ msgstr ""
+-"Formatbeskrivare: %at - albumtitel; %aT - albumtitel (gemener); %aa - "
+-"albumartist; %aA - albumartist (gemener); %as - albumartist (sorterbar); %aS "
+-"- albumartist (sorterbar, gemener); %ac - albumkompositör; %aC - "
+-"albumkompositör (gemener); %ap - albumkompositör (sorterbar); %aP - "
+-"albumkompositör (sorterbar, gemener); %ay - albumår; %tt - spårtitel; %tT - "
+-"spårtitel (gemener); %ta - spårartist; %tA - spårartist (gemener); %ts - "
+-"spårartist (sorterbar); %tS - spårartist (sorterbar, gemener); %tc - "
+-"spårkompositör; %tC - spårkompositör (gemener); %tp - spårkompositör "
+-"(sorterbar); %tP - spårkompositör (sorterbar, gemener)."
++"Formatkoder: %at – albumtitel; %aT – albumtitel (gemener); %aa – "
++"albumartist; %aA – albumartist (gemener); %as – albumartist (för sortering);"
++" %aS – albumartist (för sortering, gemener); %ac – albumkompositör; %aC – "
++"albumkompositör (gemener); %ap – albumkompositör (för sortering); %aP – "
++"albumkompositör (för sortering, gemener); %ay – albumår; %tt – spårtitel; "
++"%tT – spårtitel (gemener); %ta – spårartist; %tA – spårartist (gemener); %ts"
++" – spårartist (för sortering); %tS – spårartist (för sortering, gemener); "
++"%tc – spårkompositör; %tC – spårkompositör (gemener); %tp – spårkompositör "
++"(för sortering); %tP – spårkompositör (för sortering, gemener)."
+ 
+ #: data/org.gnome.sound-juicer.gschema.xml:46
+ msgid "The name pattern for files"
+@@ -132,34 +132,34 @@
+ #: data/org.gnome.sound-juicer.gschema.xml:47
+ msgid ""
+ "Do not specify an extension. Format specifiers: %at - album title; %aT - "
+-"album title (lowercase); %aa - album artist; %aA - album artist (lowercase); "
+-"%as - album artist (sortable); %aS - album artist (sortable lowercase); %ac "
+-"- album composer; %aC - album composer (lowercase); %ap - album composer "
++"album title (lowercase); %aa - album artist; %aA - album artist (lowercase);"
++" %as - album artist (sortable); %aS - album artist (sortable lowercase); %ac"
++" - album composer; %aC - album composer (lowercase); %ap - album composer "
+ "(sortable); %aP - album composer (sortable lowercase); %tn - track number "
+ "(i.e 8); %tN - track number, zero padded (i.e 08); %tt - track title; %tT - "
+-"track title (lowercase); %ta - track artist; %tA - track artist (lowercase); "
+-"%ts - track artist (sortable); %tS - track artist (sortable lowercase); %tc "
+-"- track composer; %tC - track composer (lowercase); %tp - track composer "
++"track title (lowercase); %ta - track artist; %tA - track artist (lowercase);"
++" %ts - track artist (sortable); %tS - track artist (sortable lowercase); %tc"
++" - track composer; %tC - track composer (lowercase); %tp - track composer "
+ "(sortable); %tP - track composer (sortable lowercase); %dn - disc and track "
+ "number (i.e Disk 2 - 6, or 6); %dN - disc number, zero padded (i.e d02t06, "
+ "or 06)."
+ msgstr ""
+-"Ange inte en filändelse. Formatbeskrivare: %at - albumtitel; %aT - "
+-"albumtitel (gemener); %aa - albumartist; %aA - albumartist (gemener); %as - "
+-"albumartist (sorterbar); %aS - albumartist (sorterbar, gemener); %ac - "
+-"albumkompositör; %aC - albumkompositör (gemener); %ap - albumkompositör "
+-"(sorterbar); %aP - albumkompositör (sorterbar, gemener); %tn - spårnummer "
+-"(t.ex. 8); %tN - spårnummer, utfyllt med nolla (t.ex. 08); %tt - spårtitel; "
+-"%tT - spårtitel (gemener); %ta - spårartist; %tA - spårartist (gemener); %ts "
+-"- spårartist (sorterbar); %tS - spårartist (sorterbar, gemener); %tc - "
+-"spårkompositör; %tC - spårkompositör (gemener); %tp - spårkompositör "
+-"(sorterbar); %tP - spårkompositör (sorterbar, gemener);  %dn - skiv- eller "
+-"spårnummer (t.ex. Disc 2 - 6, eller 6); %dN - skivnummer, utfyllt med nolla "
+-"(t.ex. d02t06, eller 06)."
++"Ange inte någon filändelse. Formatkoder: %at – albumtitel; %aT – albumtitel "
++"(gemener); %aa – albumartist; %aA – albumartist (gemener); %as – albumartist"
++" (för sortering); %aS – albumartist (för sortering, gemener); %ac – "
++"albumkompositör; %aC – albumkompositör (gemener); %ap – albumkompositör (för"
++" sortering); %aP – albumkompositör (för sortering, gemener); %tn – "
++"spårnummer (t.ex. 8); %tN – spårnummer med inledande nolla (t.ex. 08); %tt –"
++" spårtitel; %tT – spårtitel (gemener); %ta – spårartist; %tA – spårartist "
++"(gemener); %ts – spårartist (för sortering); %tS – spårartist (för "
++"sortering, gemener); %tc – spårkompositör; %tC – spårkompositör (gemener); "
++"%tp – spårkompositör (för sortering); %tP – spårkompositör (för sortering, "
++"gemener); %dn – skiv- och spårnummer (t.ex. skiva 2–6 eller 6); %dN – "
++"skivnummer med nollutfyllnad (t.ex. d02t06 eller 06)."
+ 
+ #: data/org.gnome.sound-juicer.gschema.xml:52
+ msgid "The paranoia mode to use"
+-msgstr "Paranoialäget att använda"
++msgstr "Paranoialäge som ska användas"
+ 
+ #: data/org.gnome.sound-juicer.gschema.xml:53
+ msgid "Paranoia flags: disable; fragment; overlap; scratch; repair."
+@@ -167,15 +167,15 @@
+ 
+ #: data/org.gnome.sound-juicer.gschema.xml:58
+ msgid "Whether to strip special characters from filenames"
+-msgstr "Huruvida specialtecken ska tas bort från filnamn"
++msgstr "Om specialtecken ska tas bort från filnamn"
+ 
+ #: data/org.gnome.sound-juicer.gschema.xml:59
+ msgid ""
+-"If enabled, special characters such as space, wildcards and backslashes will "
+-"be removed from the output filename."
++"If enabled, special characters such as space, wildcards and backslashes will"
++" be removed from the output filename."
+ msgstr ""
+-"Om detta är aktiverat kommer specialtecken som blanksteg, jokertecken och "
+-"omvända snedstreck att tas bort från utdatafilnamn."
++"När det är aktiverat tas specialtecken som blanksteg, jokertecken och "
++"omvända snedstreck bort från namnet på utdatafilen."
+ 
+ #: data/org.gnome.sound-juicer.gschema.xml:64
+ msgid "Media type to encode to"
+@@ -199,7 +199,7 @@
+ 
+ #: data/sj-album-chooser-dialog.ui:27
+ msgid "This CD could be more than one album. Please select which album it is."
+-msgstr "Denna cd-skiva kan vara mer än ett album. Välj det album som det är."
++msgstr "Skivan kan motsvara flera album. Välj vilket album den innehåller."
+ 
+ #: data/sound-juicer-shortcuts.ui:14
+ msgctxt "shortcut window"
+@@ -209,12 +209,12 @@
+ #: data/sound-juicer-shortcuts.ui:19
+ msgctxt "shortcut window"
+ msgid "Reread track names"
+-msgstr "Läs spårnamn igen"
++msgstr "Läs in spårnamnen igen"
+ 
+ #: data/sound-juicer-shortcuts.ui:26
+ msgctxt "shortcut window"
+ msgid "Eject disc"
+-msgstr "Mata ut skiva"
++msgstr "Mata ut skivan"
+ 
+ #: data/sound-juicer-shortcuts.ui:33
+ msgctxt "shortcut window"
+@@ -267,11 +267,11 @@
+ 
+ #: data/sound-juicer.ui:68
+ msgid "_Reload Album"
+-msgstr "_Läs om album"
++msgstr "_Läs in albumet igen"
+ 
+ #: data/sound-juicer.ui:161
+ msgid "_Year:"
+-msgstr "_År:"
++msgstr "Å_r:"
+ 
+ #: data/sound-juicer.ui:196
+ msgid "_Disc:"
+@@ -324,15 +324,15 @@
+ 
+ #: data/sound-juicer.ui:576
+ msgid "CD _drive:"
+-msgstr "Cd-_enhet:"
++msgstr "CD-_enhet:"
+ 
+ #: data/sound-juicer.ui:603
+ msgid "_Eject after extracting tracks"
+-msgstr "Mata _ut efter extrahering av spår"
++msgstr "Mata _ut när spåren har extraherats"
+ 
+ #: data/sound-juicer.ui:618
+ msgid "_Open music folder when finished"
+-msgstr "_Öppna musikmapp när färdig"
++msgstr "Ö_ppna musikmappen när extraheringen är klar"
+ 
+ #: data/sound-juicer.ui:636
+ msgid "Music Folder"
+@@ -352,7 +352,7 @@
+ 
+ #: data/sound-juicer.ui:697
+ msgid "Folder hie_rarchy:"
+-msgstr "Mapphie_rarki:"
++msgstr "Mapp_hierarki:"
+ 
+ #: data/sound-juicer.ui:728
+ msgid "File _name:"
+@@ -405,7 +405,7 @@
+ #: libjuicer/sj-extractor.c:350
+ #, c-format
+ msgid "Could not create GStreamer CD reader"
+-msgstr "Kunde inte skapa GStreamer-cd-läsare"
++msgstr "Kunde inte skapa en GStreamer-cd-läsare"
+ 
+ #: libjuicer/sj-extractor.c:368
+ #, c-format
+@@ -415,56 +415,54 @@
+ #: libjuicer/sj-extractor.c:380
+ #, c-format
+ msgid "Could not create GStreamer file output"
+-msgstr "Kunde inte skapa GStreamer-filutdata"
++msgstr "Kunde inte skapa GStreamer-utdata för en fil"
+ 
+ #: libjuicer/sj-extractor.c:394
+ #, c-format
+ msgid "Could not link pipeline"
+-msgstr "Kunde inte länka rör"
++msgstr "Kunde inte länka pipeline"
+ 
+ #: libjuicer/sj-extractor.c:417
+ msgid "Could not get current track position"
+-msgstr "Kunde inte få tag på aktuell spårposition"
++msgstr "Kunde inte hämta aktuell position i spåret"
+ 
+ #: libjuicer/sj-extractor.c:446
+ #, c-format
+ msgid ""
+ "Extractor object is not valid. This is bad, check your console for errors."
+-msgstr ""
+-"Extraktörsobjekt är inte giltigt. Detta är illa. Kontrollera eventuella fel "
+-"på din konsol."
++msgstr "Extraheraren är ogiltig. Kontrollera konsolen efter felmeddelanden."
+ 
+ #: libjuicer/sj-extractor.c:708
+ #, c-format
+ msgid "The plugin necessary for CD access was not found"
+-msgstr "Insticksmodulen som är nödvändig för cd-åtkomst hittades inte"
++msgstr "Insticksmodulen som behövs för cd-åtkomst hittades inte"
+ 
+ #: libjuicer/sj-extractor.c:716
+ #, c-format
+ msgid "The plugin necessary for file access was not found"
+-msgstr "Insticksmodulen som är nödvändig för filåtkomst hittades inte"
++msgstr "Insticksmodulen som behövs för filåtkomst hittades inte"
+ 
+ #: libjuicer/sj-metadata.c:223
+ #, c-format
+ msgid "Cannot get device ‘%s’"
+-msgstr "Kan inte komma åt enheten ”%s”"
++msgstr "Kunde inte hämta enheten ”%s”"
+ 
+ #: libjuicer/sj-metadata.c:236
+ #, c-format
+ msgid "Device ‘%s’ does not contain any media"
+-msgstr "Enheten ”%s” innehåller inget medium"
++msgstr "Enheten ”%s” innehåller inga medier"
+ 
+ #: libjuicer/sj-metadata.c:239
+ #, c-format
+ msgid ""
+ "Device ‘%s’ could not be opened. Check the access permissions on the device."
+ msgstr ""
+-"Enheten ”%s” kunde inte öppnas. Kontrollera åtkomsträttigheterna för enheten."
++"Enheten ”%s” kunde inte öppnas. Kontrollera enhetens åtkomstbehörigheter."
+ 
+ #: libjuicer/sj-metadata.c:242
+ #, c-format
+ msgid "Cannot read CD: %s"
+-msgstr "Kan inte läsa cd-skiva: %s"
++msgstr "Kunde inte läsa cd-skivan: %s"
+ 
+ #: libjuicer/sj-metadata.c:369
+ msgid "Czechoslovakia"
+@@ -497,7 +495,7 @@
+ #: libjuicer/sj-metadata-gvfs.c:95
+ #, c-format
+ msgid "Cannot access CD"
+-msgstr "Kan inte komma åt cd"
++msgstr "Kunde inte komma åt cd-skivan"
+ 
+ #: libjuicer/sj-metadata-gvfs.c:117 src/egg-play-preview.c:570
+ #: src/sj-main.c:357
+@@ -517,7 +515,7 @@
+ #: libjuicer/sj-metadata-gvfs.c:174
+ #, c-format
+ msgid "Cannot access CD: %s"
+-msgstr "Kan inte komma åt cd: %s"
++msgstr "Kunde inte komma åt cd-skivan: %s"
+ 
+ #. Translators: This string is used to build the composer tag
+ #. when a track has composers and arrangers, or a composer and a
+@@ -587,14 +585,14 @@
+ "more details."
+ msgstr ""
+ "Sound Juicer distribueras i hopp om att det ska vara användbart, men UTAN "
+-"NÅGON SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller "
+-"LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General Public License för "
++"NÅGON SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller"
++" LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General Public License för "
+ "ytterligare information."
+ 
+ #: src/sj-about.c:59
+ msgid ""
+-"You should have received a copy of the GNU General Public License along with "
+-"Sound Juicer; if not, write to the Free Software Foundation, Inc., 51 "
++"You should have received a copy of the GNU General Public License along with"
++" Sound Juicer; if not, write to the Free Software Foundation, Inc., 51 "
+ "Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
+ msgstr ""
+ "Du bör ha fått en kopia av GNU General Public License tillsammans med Sound "
+@@ -603,7 +601,7 @@
+ 
+ #: src/sj-about.c:70
+ msgid "An Audio CD Extractor"
+-msgstr "En ljudextraherare"
++msgstr "En CD-rippare"
+ 
+ #. Translators: put here your name and email
+ #. so it will show up in the "about" box
+@@ -622,8 +620,8 @@
+ #: src/sj-album-chooser-dialog.c:242
+ msgid "Catalog No.: "
+ msgid_plural "Catalog Nos.: "
+-msgstr[0] "Katalog-nr:"
+-msgstr[1] "Katalog-nr:"
++msgstr[0] "Katalognummer: "
++msgstr[1] "Katalognummer: "
+ 
+ #. Translators: this string appears when multiple CDs were
+ #. found in musicbrainz online database, it corresponds to
+@@ -631,7 +629,7 @@
+ #: src/sj-album-chooser-dialog.c:284
+ #, c-format
+ msgid "Released: %s in %d on %s"
+-msgstr "Utgiven: %s under %d på %s"
++msgstr "Utgiven: %s, år %d, på %s"
+ 
+ #. Translators: this string appears when multiple CDs were
+ #. found in musicbrainz online database, it corresponds to
+@@ -647,7 +645,7 @@
+ #: src/sj-album-chooser-dialog.c:299
+ #, c-format
+ msgid "Released: %s in %d"
+-msgstr "Utgiven: %s under %d"
++msgstr "Utgiven: %s, år %d"
+ 
+ #. Translators: this string appears when multiple CDs were
+ #. found in musicbrainz online database, it corresponds to
+@@ -663,7 +661,7 @@
+ #: src/sj-album-chooser-dialog.c:313
+ #, c-format
+ msgid "Released in %d on %s"
+-msgstr "Utgiven under %d på %s"
++msgstr "Utgiven år %d på %s"
+ 
+ #. Translators: this string appears when multiple CDs were
+ #. found in musicbrainz online database, it corresponds to
+@@ -671,7 +669,7 @@
+ #: src/sj-album-chooser-dialog.c:320
+ #, c-format
+ msgid "Released in %d"
+-msgstr "Utgiven under %d"
++msgstr "Utgiven år %d"
+ 
+ #. Translators: this string appears when multiple CDs were
+ #. found in musicbrainz online database, it corresponds to
+@@ -684,7 +682,7 @@
+ #: src/sj-album-chooser-dialog.c:330
+ #, c-format
+ msgid "Release label, year & country unknown"
+-msgstr "År, land och skivbolag för utgivning okända"
++msgstr "Skivbolag, år och land för utgivningen är okända"
+ 
+ #. Translators: this string identifies
+ #. the number of the barcode printed on
+@@ -701,7 +699,7 @@
+ #: src/sj-extracting.c:146
+ #, c-format
+ msgid "Failed to get output format"
+-msgstr "Misslyckades med att få utdataformat"
++msgstr "Kunde inte hämta utdataformatet"
+ 
+ #: src/sj-extracting.c:171
+ msgid "Name too long"
+@@ -717,8 +715,8 @@
+ "A file called ‘%s’ exists, size %s.\n"
+ "Do you want to skip this track or overwrite it?"
+ msgstr ""
+-"En fil med namnet ”%s” finns redan med storleken %s.\n"
+-"Vill du hoppa över detta spår eller skriva över det?"
++"En fil som heter ”%s” finns redan. Den är %s stor.\n"
++"Vill du hoppa över det här spåret eller skriva över filen?"
+ 
+ #: src/sj-extracting.c:322
+ msgid "_Skip"
+@@ -730,7 +728,7 @@
+ 
+ #: src/sj-extracting.c:324
+ msgid "_Overwrite"
+-msgstr "Skriv _över"
++msgstr "Skriv öv_er"
+ 
+ #: src/sj-extracting.c:325
+ msgid "Overwrite _All"
+@@ -739,7 +737,7 @@
+ #: src/sj-extracting.c:374
+ #, c-format
+ msgid "Failed to create output directory: %s"
+-msgstr "Misslyckades med att skapa utdatakatalog: %s"
++msgstr "Kunde inte skapa utdatamappen: %s"
+ 
+ #: src/sj-extracting.c:514
+ #, c-format
+@@ -752,11 +750,11 @@
+ 
+ #: src/sj-extracting.c:606
+ msgid "CD rip complete"
+-msgstr "Cd-extraheringen är färdig"
++msgstr "CD-rippningen är klar"
+ 
+ #: src/sj-extracting.c:698
+ msgid "Sound Juicer could not extract this CD."
+-msgstr "Sound Juicer kunde inte extrahera denna cd-skiva."
++msgstr "Sound Juicer kunde inte extrahera den här cd-skivan."
+ 
+ #: src/sj-extracting.c:700 src/sj-main.c:178 src/sj-main.c:420
+ #: src/sj-main.c:461 src/sj-main.c:844 src/sj-main.c:1024
+@@ -770,7 +768,7 @@
+ 
+ #: src/sj-extracting.c:823
+ msgid "Extracting audio from CD"
+-msgstr "Extrahera ljud från cd-skiva"
++msgstr "Extraherar ljud från cd-skivan"
+ 
+ #: src/sj-extracting.c:979
+ msgid "Unknown Composer"
+@@ -790,7 +788,7 @@
+ 
+ #: src/sj-genres.c:35 src/sj-main.c:506
+ msgid "Classical"
+-msgstr "Klassisk"
++msgstr "Klassiskt"
+ 
+ #: src/sj-genres.c:36
+ msgid "Country"
+@@ -798,7 +796,7 @@
+ 
+ #: src/sj-genres.c:37
+ msgid "Dance"
+-msgstr "Dans"
++msgstr "Dansmusik"
+ 
+ #: src/sj-genres.c:38
+ msgid "Electronica"
+@@ -842,7 +840,7 @@
+ 
+ #: src/sj-genres.c:48
+ msgid "Spoken Word"
+-msgstr "Talmusik"
++msgstr "Talad poesi"
+ 
+ #: src/sj-genres.c:197
+ #, c-format
+@@ -858,7 +856,8 @@
+ msgstr "Läs dokumentationen för hjälp."
+ 
+ #: src/sj-main.c:236
+-msgid "You are currently extracting a CD. Do you want to quit now or continue?"
++msgid ""
++"You are currently extracting a CD. Do you want to quit now or continue?"
+ msgstr ""
+ "Du håller på att extrahera en cd-skiva. Vill du avsluta nu eller fortsätta?"
+ 
+@@ -887,8 +886,8 @@
+ "This album is not in the MusicBrainz database, please click ‘Edit Album’ to "
+ "open your browser and edit it in MusicBrainz."
+ msgstr ""
+-"Albumet finns inte i MusicBrainz databas, klicka ”Redigera album” för att "
+-"öppna din webbläsare och redigera i MusicBrainz."
++"Albumet finns inte i MusicBrainz-databasen. Klicka på ”Redigera album” för "
++"att öppna MusicBrainz i webbläsaren och redigera albumuppgifterna."
+ 
+ #: src/sj-main.c:360
+ #, c-format
+@@ -896,22 +895,22 @@
+ "Could not find %s by %s on MusicBrainz, please click ‘Edit Album’ to open "
+ "your browser and edit it in MusicBrainz."
+ msgstr ""
+-"Kunde inte hitta %s med %s hos MusicBrainz, klicka ”Redigera album” för att "
+-"öppna din webbläsare och redigera i MusicBrainz."
++"Kunde inte hitta %s av %s i MusicBrainz. Klicka på ”Redigera album” för att "
++"öppna MusicBrainz i webbläsaren och ändra uppgifterna."
+ 
+ #: src/sj-main.c:396
+ msgid "Click ‘Reload’ to load the edited album details from MusicBrainz"
+ msgstr ""
+-"Klicka ”Läs om” för att läsa in de redigerade albumdetaljerna från "
+-"MusicBrainz."
++"Klicka på ”Läs in albumet igen” för att hämta de ändrade albumuppgifterna "
++"från MusicBrainz"
+ 
+ #: src/sj-main.c:418
+ msgid "Could not open URL"
+-msgstr "Kunde inte öppna URL"
++msgstr "Kunde inte öppna webbadressen"
+ 
+ #: src/sj-main.c:419
+ msgid "Sound Juicer could not open the submission URL"
+-msgstr "Sound Juicer kunde inte öppna URL för insändning"
++msgstr "Sound Juicer kunde inte öppna webbadressen för inskickning"
+ 
+ #: src/sj-main.c:459
+ msgid "Could not duplicate disc"
+@@ -923,7 +922,7 @@
+ 
+ #: src/sj-main.c:506
+ msgid "Lieder"
+-msgstr "Romans"
++msgstr "Konstsång"
+ 
+ #: src/sj-main.c:506
+ msgid "Opera"
+@@ -948,22 +947,23 @@
+ #: src/sj-main.c:986
+ #, c-format
+ msgid "Sound Juicer could not use the CD-ROM device ‘%s’"
+-msgstr "Sound Juicer kunde inte använda cd-romenheten ”%s”"
++msgstr "Sound Juicer kunde inte använda CD-ROM-enheten ”%s”"
+ 
+ #: src/sj-main.c:993
+ msgid "HAL daemon may not be running."
+-msgstr "HAL-demonen kanske inte kör."
++msgstr "HAL-demonen kanske inte körs."
+ 
+ #: src/sj-main.c:1015
+ #, c-format
+ msgid "Sound Juicer could not access the CD-ROM device ‘%s’"
+-msgstr "Sound Juicer kunde inte komma åt cd-romenheten ”%s”"
++msgstr "Sound Juicer kunde inte komma åt CD-ROM-enheten ”%s”"
+ 
+ #: src/sj-main.c:1132
+ msgid ""
+ "The currently selected audio profile is not available on your installation."
+ msgstr ""
+-"Den för tillfället valda ljudprofilen är inte tillgänglig i din installation."
++"Den för tillfället valda ljudprofilen är inte tillgänglig i din "
++"installation."
+ 
+ #: src/sj-main.c:1134
+ msgid "_Change Profile"
+@@ -988,7 +988,7 @@
+ 
+ #: src/sj-main.c:1866 src/sj-play.c:300
+ msgid "_Pause"
+-msgstr "Gör _paus"
++msgstr "_Pausa"
+ 
+ #: src/sj-main.c:1941
+ msgid "Track"
+@@ -1012,7 +1012,7 @@
+ 
+ #: src/sj-main.c:2078
+ msgid "Start extracting immediately"
+-msgstr "Starta extrahering direkt"
++msgstr "Börja extrahera direkt"
+ 
+ #: src/sj-main.c:2079
+ msgid "Start playing immediately"
+@@ -1020,7 +1020,7 @@
+ 
+ #: src/sj-main.c:2080
+ msgid "What CD device to read"
+-msgstr "Vilken cd-enhet att läsa från"
++msgstr "Vilken cd-enhet som ska läsas"
+ 
+ #: src/sj-main.c:2080
+ msgid "DEVICE"
+@@ -1028,7 +1028,7 @@
+ 
+ #: src/sj-main.c:2081
+ msgid "URI to the CD device to read"
+-msgstr "URI till cd-enheten att läsa från"
++msgstr "URI till cd-enheten som ska läsas"
+ 
+ #: src/sj-play.c:192 src/sj-play.c:418 src/sj-play.c:454
+ #, c-format
+@@ -1037,19 +1037,19 @@
+ "\n"
+ "Reason: %s"
+ msgstr ""
+-"Fel vid uppspelning av cd-skiva.\n"
++"Fel vid uppspelning av cd-skivan.\n"
+ "\n"
+ "Orsak: %s"
+ 
+ #: src/sj-play.c:356
+ #, c-format
+ msgid "Failed to create CD source element"
+-msgstr "Misslyckades med att skapa cd-källelement"
++msgstr "Kunde inte skapa källelementet för cd-skivan"
+ 
+ #: src/sj-play.c:594
+ #, c-format
+ msgid "Seeking to %s"
+-msgstr "Spolar till %s"
++msgstr "Flyttar uppspelningspositionen till %s"
+ 
+ #: src/sj-prefs.c:48
+ msgid "Album Artist, Album Title"
+@@ -1132,7 +1132,8 @@
+ msgid "Number-Track Artist-Track Title (lowercase)"
+ msgstr "Nummer-Spårartist-Spårtitel (gemener)"
+ 
+-#. {N_("Number-Track Artist (sortable)-Track Title (lowercase)"), "%tN-%tS-%tT"},
++#. {N_("Number-Track Artist (sortable)-Track Title (lowercase)"),
++#. "%tN-%tS-%tT"},
+ #: src/sj-prefs.c:74
+ msgid "Track Composer - Track Artist - Track Title"
+ msgstr "Spårkompositör - Spårartist - Spårtitel"
