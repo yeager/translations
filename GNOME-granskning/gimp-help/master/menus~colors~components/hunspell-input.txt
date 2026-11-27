@@ -1,4 +1,7 @@
 Återuppbygg
+Färger
+Komponenter
+Översikt
 Exempel på kommandot  Återuppbygg 
 Originalbild (uppdelad i RGB)
 Kommandot  Återuppbygg  tillämpat
@@ -8,9 +11,11 @@ Du kommer åt kommandot från huvudmenyn via   Färger  Komponenter  Återuppbyg
 Monomixer
 Monomixer
 Monomixern har tillämpats
+Ursprunglig bild
 Kommandot  Monomixer  har tillämpats med standardalternativen.
 Det här kommandot fungerar inte med gråskalebilder. Om bilden är i gråskala är menyalternativet inaktiverat.
 Du kommer åt kommandot från huvudmenyn via   Färger  Komponenter  Monomixer…  .
+Alternativ
 Alternativ för kommandot  Monomixer 
 Förval
 Blandningsalternativ
@@ -54,17 +59,24 @@ Du kommer åt kommandot från huvudmenyn via   Färger  Komponenter  Uppdela… 
 Alternativ för kommandot  Uppdela 
 Extrahera kanaler
 Följande alternativ beskrivs med  Uppdela till lager  markerat.
+Färgmodell
+RGB
 Om alternativet RGB väljs skapas en gråskalebild med tre lager (rött, grönt och blått) och två kanaler (grått och alfa).
 Funktionen är användbar tillsammans med tröskelverktyget. Du kan också klippa ut, klistra in eller flytta markeringar i en enskild RGB-kanal. Spara ett extraherat gråskalelager i en kanal om du vill använda det som markering eller mask (markera hela eller delar av lagret och välj sedan   Markera  Spara till kanal  ).
+RGBA
 Om alternativet RGBA väljs skapas en bild som liknar RGB-uppdelningen, men med ett extra alfalager som innehåller källbildens genomskinlighetsvärden. Helt genomskinliga bildpunkter är svarta och helt ogenomskinliga bildpunkter är vita.
+Alfa
 Det här alternativet extraherar bildens genomskinlighet, som lagras i alfakanalen i  kanaldialogrutan , till en separat bild. Helt genomskinliga bildpunkter blir svarta och helt ogenomskinliga blir vita. Gråtonerna visar mjuka övergångar i källbildens genomskinlighet.
+HSV
 Det här alternativet delar upp bilden i tre gråskalelager: ett för nyans, ett för mättnad och ett för intensitet.
 Även om  Nyans  visas i gråskala representerar den färgnyanser. I färghjulet är vitt och svart överlagrade start- och slutpunkter som motsvarar rött högst upp i hjulet. Mellangrå nivåer motsvarar nyanser däremellan: mörkgrått motsvarar orange, mellangrått grönt och ljusgrått magenta.
  Mättnad  och  Värde : Vitt är maximal mättnad (ren färg) och maximalt värde (mycket ljust). Svart är minimal mättnad (vitt) och minimalt värde (svart).
 HSL
 Detta alternativ liknar  HSV . I stället för  V ärde innehåller det tredje lagret bildens  L -komponent.
+CMYK
 Det här alternativet delar upp bilden i fyra gråskalelager: ett för gult, ett för magenta, ett för cyan och ett för svart.
 Det här alternativet kan vara användbart när du överför en bild till ett utskriftsprogram med stöd för CMYK.
+LAB
 Det här alternativet delar upp bilden i tre gråskalelager:  L  för luminans,  A  för färger mellan grönt och rött och  B  för färger mellan blått och gult.
 LAB-uppdelningen är en färgmodell ur familjen luminans-färg. En kanal används för ljusstyrkan medan två andra kanaler används för färgerna. Färgmodellen LAB används av Photoshop.
 LCH
