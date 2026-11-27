@@ -1,0 +1,34 @@
+{
+  "positions": [
+    56537,
+    56656
+  ],
+  "positions_reviewed": 120,
+  "current_core_keys": 110,
+  "direct_current_strings": 87,
+  "reference_strings": 23,
+  "previously_documented_historical_keys_without_current_source": 10,
+  "current_changes_saved_and_read_back": 42,
+  "all_23_reference_source_and_translation_matches": true,
+  "placeholder_checks_passed": "120/120",
+  "plural_keys": 0,
+  "svlang": "no writing-rule findings",
+  "hunspell": "No Swedish target spelling issues; Hunspell flags were product names, abbreviations, and technical identifiers.",
+  "comparison_to_previous_reports": "All 10 source-absent rows had previous documentation. Current live Swedish values were compared against prior TM/report records. The 87 direct current rows and 23 alias owners were reviewed in context; 36 direct corrections were saved and read back; six reference-owner translations were updated through their shared targets and read back.",
+  "source_revision": "1d07105b760c73093145526a51758938e87cc658",
+  "official_product_sources": [
+    "https://www.home-assistant.io/integrations/guntamatic/",
+    "https://www.guntamatic.com/fileadmin/PDF_Produkte/Bedienungsanleitungen/BMK/BA_BMK_EN-B30-004-V06-0412.pdf"
+  ],
+  "uncertainties": [
+    {
+      "key": "component::workday::selector::category::options::vlach",
+      "reason": "Vlach is an ethnonym used as a Workday holiday category; verify the established Swedish exonym before changing the current label."
+    },
+    {
+      "key": "component::workday::selector::category::options::sabian",
+      "reason": "Sabian is a specialized ethnoreligious holiday category; verify the established Swedish form before changing the current label."
+    }
+  ],
+  "live_lokalise_manifest_verification": "passed: 110/110 key identity, English source, and Swedish translation checks"
+}

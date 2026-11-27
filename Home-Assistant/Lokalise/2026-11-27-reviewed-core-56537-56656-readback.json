@@ -1,0 +1,428 @@
+[
+  {
+    "key": "component::unifi::options::step::init::sections::more_options::data::detection_time",
+    "key_id": "852832833",
+    "translation_id": "8511643301",
+    "en": "Time in seconds from last seen until considered away",
+    "before": "Tid i sekunder från senast sedd tills betraktad som borta",
+    "after": "Tid utan kontakt innan klienten räknas som borta (sekunder)",
+    "readback": "Tid utan kontakt innan klienten räknas som borta (sekunder)",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::unifi::options::step::init::sections::more_options::data::dpi_restrictions",
+    "key_id": "852832834",
+    "translation_id": "8511643365",
+    "en": "Allow control of DPI restriction groups",
+    "before": "Tillåt kontroll av DPI-restriktionsgrupper",
+    "after": "Tillåt styrning av DPI-begränsningsgrupper",
+    "readback": "Tillåt styrning av DPI-begränsningsgrupper",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::unifi::options::step::init::sections::more_options::data::ignore_wired_bug",
+    "key_id": "852832835",
+    "translation_id": "8511643429",
+    "en": "Disable UniFi Network wired bug logic",
+    "before": "Inaktivera bugglogik för trådbunden UniFi-nätverk",
+    "after": "Inaktivera lösningen för UniFi Network-felet med trådbundna klienter",
+    "readback": "Inaktivera lösningen för UniFi Network-felet med trådbundna klienter",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::unifi::options::step::init::sections::more_options::data::ssid_filter",
+    "key_id": "852832836",
+    "translation_id": "8511643493",
+    "en": "Select SSIDs to track wireless clients on",
+    "before": "Välj SSID för att spåra trådlösa klienter på",
+    "after": "Välj SSID:er för att spåra trådlösa klienter",
+    "readback": "Välj SSID:er för att spåra trådlösa klienter",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::unifi::options::step::init::sections::more_options::data::track_wired_clients",
+    "key_id": "852832837",
+    "translation_id": "8511643557",
+    "en": "Include wired network clients",
+    "before": "Inkludera klienter i trådbundna nätverk",
+    "after": "Ta med trådbundna nätverksklienter",
+    "readback": "Ta med trådbundna nätverksklienter",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::unifi::options::step::init::sections::more_options::data_description::allow_bandwidth_sensors",
+    "key_id": "852832838",
+    "translation_id": "8511643621",
+    "en": "Create bandwidth usage sensors for network clients.",
+    "before": "Skapa sensorer för bandbreddsanvändning för nätverksklienter.",
+    "after": "Skapa sensorer som visar nätverksklienternas bandbreddsanvändning.",
+    "readback": "Skapa sensorer som visar nätverksklienternas bandbreddsanvändning.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::unifi::options::step::init::sections::more_options::data_description::allow_uptime_sensors",
+    "key_id": "852832839",
+    "translation_id": "8511643685",
+    "en": "Create uptime sensors for network clients.",
+    "before": "Skapa sensorer för drifttid för nätverksklienter.",
+    "after": "Skapa upptidssensorer för nätverksklienter.",
+    "readback": "Skapa upptidssensorer för nätverksklienter.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::unifi::options::step::init::sections::more_options::data_description::client_source",
+    "key_id": "852832840",
+    "translation_id": "8511643749",
+    "en": "Select which network clients to create entities from.",
+    "before": "Välj vilka nätverksklienter du vill skapa enheter från.",
+    "after": "Välj vilka nätverksklienter som entiteter ska skapas för.",
+    "readback": "Välj vilka nätverksklienter som entiteter ska skapas för.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::unifi::options::step::init::sections::more_options::data_description::detection_time",
+    "key_id": "852832841",
+    "translation_id": "8511643813",
+    "en": "Number of seconds since last seen before a client is considered away.",
+    "before": "Antal sekunder sedan senast sedd innan en klient anses vara borta.",
+    "after": "Antal sekunder sedan klienten senast sågs innan den räknas som frånvarande.",
+    "readback": "Antal sekunder sedan klienten senast sågs innan den räknas som frånvarande.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::unifi::options::step::init::sections::more_options::data_description::dpi_restrictions",
+    "key_id": "852832842",
+    "translation_id": "8511643877",
+    "en": "Enable switches to control DPI restriction groups.",
+    "before": "Aktivera växlar för att styra DPI-begränsningsgrupper.",
+    "after": "Aktivera brytare för att styra DPI-begränsningsgrupperna.",
+    "readback": "Aktivera brytare för att styra DPI-begränsningsgrupperna.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::unifi::options::step::init::sections::more_options::data_description::ssid_filter",
+    "key_id": "852832844",
+    "translation_id": "8511644005",
+    "en": "Only track wireless clients connected to selected SSIDs.",
+    "before": "Spåra endast trådlösa klienter anslutna till utvalda SSID:er.",
+    "after": "Spåra endast trådlösa klienter som är anslutna till valda SSID:er.",
+    "readback": "Spåra endast trådlösa klienter som är anslutna till valda SSID:er.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::unifi::options::step::init::sections::more_options::data_description::track_wired_clients",
+    "key_id": "852832845",
+    "translation_id": "8511644069",
+    "en": "Include wired clients in device tracking.",
+    "before": "Inkludera trådbundna klienter i enhetsspårningen.",
+    "after": "Ta med trådbundna klienter i enhetsspårningen.",
+    "readback": "Ta med trådbundna klienter i enhetsspårningen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::asuswrt::config::step::user::sections::more_options::data::port",
+    "key_id": "852898019",
+    "translation_id": "8512357537",
+    "en": "Port (leave empty for protocol default)",
+    "before": "Port (lämna tomt för standard)",
+    "after": "Port (lämna tomt för protokollets standardport)",
+    "readback": "Port (lämna tomt för protokollets standardport)",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::asuswrt::config::step::user::sections::more_options::data::ssh_key",
+    "key_id": "852898020",
+    "translation_id": "8512357601",
+    "en": "Path to your SSH key file (instead of password)",
+    "before": "Sökväg till din SSH-nyckelfil (istället för lösenord)",
+    "after": "Sökväg till SSH-nyckelfilen (i stället för lösenord)",
+    "readback": "Sökväg till SSH-nyckelfilen (i stället för lösenord)",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::data_grand_lyon::entity::binary_sensor::station_open::name",
+    "key_id": "853418303",
+    "translation_id": "8522743754",
+    "en": "Station open",
+    "before": "Station öppen",
+    "after": "Stationen är öppen",
+    "readback": "Stationen är öppen",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::fritzbox::common::data_description_password",
+    "key_id": "853466272",
+    "translation_id": "8523513163",
+    "en": "Password for the user to connect Home Assistant to your FRITZ!Box.",
+    "before": "Lösenord för användaren som ska ansluta Home Assistant till din FRITZ!Box.",
+    "after": "Lösenord för användarkontot som Home Assistant använder för att ansluta till din FRITZ!Box.",
+    "readback": "Lösenord för användarkontot som Home Assistant använder för att ansluta till din FRITZ!Box.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::fritzbox::common::data_description_username",
+    "key_id": "853466273",
+    "translation_id": "8523513227",
+    "en": "Name of the user to connect Home Assistant to your FRITZ!Box.",
+    "before": "Namn på användaren som ska ansluta Home Assistant till din FRITZ!Box.",
+    "after": "Användarnamn för kontot som Home Assistant använder för att ansluta till din FRITZ!Box.",
+    "readback": "Användarnamn för kontot som Home Assistant använder för att ansluta till din FRITZ!Box.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::guntamatic::config::abort::bad_data",
+    "key_id": "853488058",
+    "translation_id": "8523670506",
+    "en": "The heater did not provide the required identification information. Verify that the host points to a supported controller and the correct endpoint.",
+    "before": "Värmaren tillhandahöll inte den nödvändiga identifieringsinformationen. Kontrollera att värden pekar på en stödd styrenhet och rätt slutpunkt.",
+    "after": "Värmaren lämnade inte de identifieringsuppgifter som krävs. Kontrollera att adressen pekar på en styrenhet som stöds och på rätt slutpunkt.",
+    "readback": "Värmaren lämnade inte de identifieringsuppgifter som krävs. Kontrollera att adressen pekar på en styrenhet som stöds och på rätt slutpunkt.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::guntamatic::config::error::bad_data",
+    "key_id": "853488060",
+    "translation_id": "8523670634",
+    "en": "The heater did not provide the required identification information. Verify that the host points to a supported controller and the correct endpoint.",
+    "before": "Värmaren tillhandahöll inte den nödvändiga identifieringsinformationen. Kontrollera att värden pekar på en stödd styrenhet och rätt slutpunkt.",
+    "after": "Värmaren lämnade inte de identifieringsuppgifter som krävs. Kontrollera att adressen pekar på en styrenhet som stöds och på rätt slutpunkt.",
+    "readback": "Värmaren lämnade inte de identifieringsuppgifter som krävs. Kontrollera att adressen pekar på en styrenhet som stöds och på rätt slutpunkt.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::guntamatic::config::step::discovery_confirm::description",
+    "key_id": "853488063",
+    "translation_id": "8523670826",
+    "en": "Do you want to set up this Guntamatic heater?",
+    "before": "Vill du konfigurera den här Guntamatic-värmaren?",
+    "after": "Vill du konfigurera den här Guntamatic-pannan?",
+    "readback": "Vill du konfigurera den här Guntamatic-pannan?",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::guntamatic::config::step::discovery_confirm::title",
+    "key_id": "853488064",
+    "translation_id": "8523670890",
+    "en": "Discovered Guntamatic heater",
+    "before": "Upptäckta Guntamatic-värmare",
+    "after": "Guntamatic-panna hittad",
+    "readback": "Guntamatic-panna hittad",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::guntamatic::config::step::user::data_description::host",
+    "key_id": "853488066",
+    "translation_id": "8523671018",
+    "en": "The hostname or IP address of your Guntamatic heater.",
+    "before": "Värdnamn eller IP-adress för din Guntamatic-värmare.",
+    "after": "Värdnamn eller IP-adress till din Guntamatic-panna.",
+    "readback": "Värdnamn eller IP-adress till din Guntamatic-panna.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::guntamatic::entity::sensor::buffer_load::name",
+    "key_id": "853488070",
+    "translation_id": "8523671274",
+    "en": "Buffer load",
+    "before": "Buffertlast",
+    "after": "Bufferttankens laddningsgrad",
+    "readback": "Bufferttankens laddningsgrad",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::guntamatic::entity::sensor::domestic_hot_water_0_temperature::name",
+    "key_id": "853488072",
+    "translation_id": "8523671402",
+    "en": "Domestic hot water circuit 0 temperature",
+    "before": "Temperatur för varmvattenkrets 0",
+    "after": "Temperatur i tappvarmvattenkrets 0",
+    "readback": "Temperatur i tappvarmvattenkrets 0",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::guntamatic::entity::sensor::program::state::dhw",
+    "key_id": "853488075",
+    "translation_id": "8523671594",
+    "en": "Domestic hot water",
+    "before": "Varmvatten för hushållsbruk",
+    "after": "Tappvarmvatten",
+    "readback": "Tappvarmvatten",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::guntamatic::entity::sensor::program::state::dhw_boost",
+    "key_id": "853488076",
+    "translation_id": "8523671658",
+    "en": "Domestic hot water boost",
+    "before": "Varmvattenboost",
+    "after": "Snabbuppvärmning av tappvarmvatten",
+    "readback": "Snabbuppvärmning av tappvarmvatten",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::satel_integra::config_subentries::zone::error::zone_does_not_report_temperature",
+    "key_id": "853562310",
+    "translation_id": "8525190188",
+    "en": "This zone does not report temperature data.",
+    "before": "Denna zon rapporterar inte temperaturdata.",
+    "after": "Den här zonen rapporterar inga temperaturdata.",
+    "readback": "Den här zonen rapporterar inga temperaturdata.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "common::config_flow::abort::no_radio_frequency_transmitters",
+    "key_id": "853721313",
+    "translation_id": "8526384564",
+    "en": "No radio frequency transmitters are available. Please set up a device first.",
+    "before": "Inga radiofrekvenssändare finns tillgängliga. Vänligen installera en enhet först.",
+    "after": "Inga radiofrekvenssändare finns tillgängliga. Konfigurera först en enhet.",
+    "readback": "Inga radiofrekvenssändare finns tillgängliga. Konfigurera först en enhet.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "common::config_flow::data::radio_frequency_transmitter",
+    "key_id": "853721316",
+    "translation_id": "8526384756",
+    "en": "Radio frequency transmitter",
+    "before": "Sändare för radiofrekvens",
+    "after": "Radiofrekvenssändare",
+    "readback": "Radiofrekvenssändare",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "common::config_flow::data_description::radio_frequency_transmitter",
+    "key_id": "853721318",
+    "translation_id": "8526384884",
+    "en": "The radio frequency transmitter to use for sending commands.",
+    "before": "Den radiofrekvenssändare som ska användas för att skicka kommandon.",
+    "after": "Radiofrekvenssändaren som ska användas för att skicka kommandon.",
+    "readback": "Radiofrekvenssändaren som ska användas för att skicka kommandon.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "common::entity::button::num_0::name",
+    "key_id": "853721332",
+    "translation_id": "8526385780",
+    "en": "Number 0",
+    "before": "Nummer 0",
+    "after": "Sifferknapp 0",
+    "readback": "Sifferknapp 0",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "common::entity::button::num_1::name",
+    "key_id": "853721333",
+    "translation_id": "8526385844",
+    "en": "Number 1",
+    "before": "Nummer 1",
+    "after": "Sifferknapp 1",
+    "readback": "Sifferknapp 1",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "common::entity::button::num_2::name",
+    "key_id": "853721334",
+    "translation_id": "8526385908",
+    "en": "Number 2",
+    "before": "Nummer 2",
+    "after": "Sifferknapp 2",
+    "readback": "Sifferknapp 2",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "common::entity::button::num_3::name",
+    "key_id": "853721335",
+    "translation_id": "8526385972",
+    "en": "Number 3",
+    "before": "Nummer 3",
+    "after": "Sifferknapp 3",
+    "readback": "Sifferknapp 3",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "common::entity::button::num_4::name",
+    "key_id": "853721336",
+    "translation_id": "8526386036",
+    "en": "Number 4",
+    "before": "Nummer 4",
+    "after": "Sifferknapp 4",
+    "readback": "Sifferknapp 4",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "common::entity::button::num_5::name",
+    "key_id": "853721337",
+    "translation_id": "8526386100",
+    "en": "Number 5",
+    "before": "Nummer 5",
+    "after": "Sifferknapp 5",
+    "readback": "Sifferknapp 5",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::fritzbox::config::step::confirm::data_description::password",
+    "key_id": "853466274",
+    "translation_id": "8523513291",
+    "en": "Password for the user to connect Home Assistant to your FRITZ!Box.",
+    "before": "Lösenord för användaren som ska ansluta Home Assistant till din FRITZ!Box.",
+    "after": "Lösenord för användarkontot som Home Assistant använder för att ansluta till din FRITZ!Box.",
+    "readback": "Lösenord för användarkontot som Home Assistant använder för att ansluta till din FRITZ!Box.",
+    "status": "reference-updated-and-read-back-from-lokalise",
+    "updated_via_shared_target": "component::fritzbox::common::data_description_password"
+  },
+  {
+    "key": "component::fritzbox::config::step::confirm::data_description::username",
+    "key_id": "853466275",
+    "translation_id": "8523513355",
+    "en": "Name of the user to connect Home Assistant to your FRITZ!Box.",
+    "before": "Namn på användaren som ska ansluta Home Assistant till din FRITZ!Box.",
+    "after": "Användarnamn för kontot som Home Assistant använder för att ansluta till din FRITZ!Box.",
+    "readback": "Användarnamn för kontot som Home Assistant använder för att ansluta till din FRITZ!Box.",
+    "status": "reference-updated-and-read-back-from-lokalise",
+    "updated_via_shared_target": "component::fritzbox::common::data_description_username"
+  },
+  {
+    "key": "component::fritzbox::config::step::reauth_confirm::data_description::password",
+    "key_id": "853466276",
+    "translation_id": "8523513419",
+    "en": "Password for the user to connect Home Assistant to your FRITZ!Box.",
+    "before": "Lösenord för användaren som ska ansluta Home Assistant till din FRITZ!Box.",
+    "after": "Lösenord för användarkontot som Home Assistant använder för att ansluta till din FRITZ!Box.",
+    "readback": "Lösenord för användarkontot som Home Assistant använder för att ansluta till din FRITZ!Box.",
+    "status": "reference-updated-and-read-back-from-lokalise",
+    "updated_via_shared_target": "component::fritzbox::common::data_description_password"
+  },
+  {
+    "key": "component::fritzbox::config::step::reauth_confirm::data_description::username",
+    "key_id": "853466277",
+    "translation_id": "8523513483",
+    "en": "Name of the user to connect Home Assistant to your FRITZ!Box.",
+    "before": "Namn på användaren som ska ansluta Home Assistant till din FRITZ!Box.",
+    "after": "Användarnamn för kontot som Home Assistant använder för att ansluta till din FRITZ!Box.",
+    "readback": "Användarnamn för kontot som Home Assistant använder för att ansluta till din FRITZ!Box.",
+    "status": "reference-updated-and-read-back-from-lokalise",
+    "updated_via_shared_target": "component::fritzbox::common::data_description_username"
+  },
+  {
+    "key": "component::fritzbox::config::step::user::data_description::password",
+    "key_id": "853466278",
+    "translation_id": "8523513547",
+    "en": "Password for the user to connect Home Assistant to your FRITZ!Box.",
+    "before": "Lösenord för användaren som ska ansluta Home Assistant till din FRITZ!Box.",
+    "after": "Lösenord för användarkontot som Home Assistant använder för att ansluta till din FRITZ!Box.",
+    "readback": "Lösenord för användarkontot som Home Assistant använder för att ansluta till din FRITZ!Box.",
+    "status": "reference-updated-and-read-back-from-lokalise",
+    "updated_via_shared_target": "component::fritzbox::common::data_description_password"
+  },
+  {
+    "key": "component::fritzbox::config::step::user::data_description::username",
+    "key_id": "853466279",
+    "translation_id": "8523513611",
+    "en": "Name of the user to connect Home Assistant to your FRITZ!Box.",
+    "before": "Namn på användaren som ska ansluta Home Assistant till din FRITZ!Box.",
+    "after": "Användarnamn för kontot som Home Assistant använder för att ansluta till din FRITZ!Box.",
+    "readback": "Användarnamn för kontot som Home Assistant använder för att ansluta till din FRITZ!Box.",
+    "status": "reference-updated-and-read-back-from-lokalise",
+    "updated_via_shared_target": "component::fritzbox::common::data_description_username"
+  }
+]

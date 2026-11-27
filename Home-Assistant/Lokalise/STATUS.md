@@ -2297,3 +2297,12 @@ Senaste granskade position: **56 416** av 77 656. Nästa position: **56 417**; *
 ## Sekventiell granskningsmarkör – 2026-11-27
 
 Senaste granskade position: **56 536** av 77 656. Nästa position: **56 537**; **21 120 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+
+
+### Batch: 56 537–56 656
+
+120 positioner radgranskades: 87 direkta aktuella strängar, 23 referenser (13 unika mål) och tio tidigare dokumenterade nycklar utan aktuell källväg. Alla referensägare matchar målens engelska och svenska texter. 36 direkta rättelser sparades i Lokalise och lästes tillbaka via API; sex delade referensägare följde sina uppdaterade mål och lästes också tillbaka. Platshållare 120/120; inga pluralnycklar. `svlang` hittade inga skrivregelfel. Hunspell-flaggor var produktnamn, förkortningar och tekniska identifierare. Home Assistants Guntamatic-dokumentation och Guntamatics BMK-handbok bekräftar att `Buffer load` är bufferttankens laddningsgrad. `Vlach` och `Sabian` är osäkra helgdagskategorier vars svenska former kräver uppföljning. TMX validerar med 35 753 poster; live-manifestverifiering passerade 110/110.
+
+## Sekventiell granskningsmarkör – 2026-11-27
+
+Senaste granskade position: **56 656** av 77 656. Nästa position: **56 657**; **21 000 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
