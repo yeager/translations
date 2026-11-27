@@ -4,6 +4,7 @@ Färdiggranskade kataloger som laddats upp via API. Uppladdning verifieras mot a
 
 | Modul | Gren | Domän | Ändrade PO-poster | Verifiering |
 |---|---|---|---:|---|
+| fprintd | master | po | 5 | DL API accepterade filen 03:14 UTC med ”Granskad och klar”; aktivitetssidan visar 67/0/0, men varnar att repository-URL inte är skrivbar eftersom översättningen är externt hostad. |
 | eyedropper | main | po | 5 | Uppladdad 03:04 UTC med ”Granskad och klar”; aktivitetssidan bekräftar sammanslagning 66/0/0. |
 | symbolic-preview | master | po | 6 | Uppladdad 02:54 UTC med ”Granskad och klar”; aktivitetssidan bekräftar sammanslagning 63/0/0. |
 | elastic | main | po | 14 | Uppladdad 02:44 UTC med ”Granskad och klar”; aktivitetssidan bekräftar sammanslagning 64/0/0. |
@@ -26,5 +27,5 @@ Färdiggranskade kataloger som laddats upp via API. Uppladdning verifieras mot a
 
 ## Status
 
-- Uppladdade och verifierade händelser: **19**.
-- Samtliga 19 uppladdningar är verifierade på aktivitetssidorna; aktuell sammanslagningsstatistik anges per modul i tabellen.
+- Uppladdade och verifierade händelser: **20**.
+- Samtliga 20 API-uppladdningar är verifierade på aktivitetssidorna; aktuell sammanslagningsstatistik anges per modul i tabellen.
