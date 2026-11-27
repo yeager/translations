@@ -2378,3 +2378,9 @@ Senaste position: **57 736** av 77 656. Nästa: **57 737**; **19 920 återstår*
 120 positioner granskades: 76 direkta aktuella strängar, 40 referenser och fyra tidigare dokumenterade nycklar utan aktuell källväg. 13 rättelser sparades och lästes tillbaka; en gemensam zonreferens rättades retroaktivt och båda aliasen verifierades. Alla referenser matchar, platshållare 120/120, inga pluralnycklar. `svlang` och Hunspell passerade.
 
 Senaste position: **57 856** av 77 656. Nästa: **57 857**; **19 800 återstår**. Arbetet fortsätter.
+
+### Batch: 57 857–57 976
+
+120 positioner granskades: 92 aktuella direkta strängar och 28 referenser. 32 rättelser sparades och API-lästes tillbaka; en äldre Matter-term rättades retroaktivt. Alla referenser matchar; platshållare 120/120, inga pluralnycklar. `svlang` och Hunspell riktad kontroll passerade.
+
+Senaste position: **57 976** av 77 656. Nästa: **57 977**; **19 680 återstår**. Granskningen fortsätter.

@@ -1,0 +1,322 @@
+[
+  {
+    "key": "component::victron_gx::entity::sensor::multi_mppt_mpptnumber_current::name",
+    "key_id": "864742962",
+    "translation_id": "8714090868",
+    "en": "MPPT {mpptnumber} current",
+    "before": "MPPT {mpptnumber} ström",
+    "after": "Ström för MPPT {mpptnumber}",
+    "readback": "Ström för MPPT {mpptnumber}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::victron_gx::entity::sensor::solarcharger_tracker_tracker_current::name",
+    "key_id": "864742964",
+    "translation_id": "8714090996",
+    "en": "PV tracker {tracker} current",
+    "before": "PV-tracker {tracker} ström",
+    "after": "Ström för PV-spårare {tracker}",
+    "readback": "Ström för PV-spårare {tracker}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::growatt_server::exceptions::rate_limited::message",
+    "key_id": "864757139",
+    "translation_id": "8714258944",
+    "en": "Growatt API rate limited, will retry: {error}",
+    "before": "Growatt API har begränsad bandbredd, försöker igen: {error}",
+    "after": "Growatts API begränsar antalet förfrågningar. Försöker igen: {error}",
+    "readback": "Growatts API begränsar antalet förfrågningar. Försöker igen: {error}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::vistapool::entity::number::intel_temperature::name",
+    "key_id": "865207300",
+    "translation_id": "8717747448",
+    "en": "Intel temperature",
+    "before": "Temperatur intelligent läge",
+    "after": "Temperatur i intelligent läge",
+    "readback": "Temperatur i intelligent läge",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::vistapool::entity::number::redox_setpoint::name",
+    "key_id": "865207303",
+    "translation_id": "8717747640",
+    "en": "Redox setpoint",
+    "before": "Redox-börvärde",
+    "after": "Börvärde för redoxpotential",
+    "readback": "Börvärde för redoxpotential",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::envertech_evt800::config::step::user::data_description::port",
+    "key_id": "865234464",
+    "translation_id": "8718074651",
+    "en": "The Port of your Envertech EVT800 device.",
+    "before": "Porten på din Envertech EVT800-enhet.",
+    "after": "Porten för din Envertech EVT800-enhet.",
+    "readback": "Porten för din Envertech EVT800-enhet.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::envertech_evt800::config::step::user::description",
+    "key_id": "865234465",
+    "translation_id": "8718074715",
+    "en": "Enter your EVT800 device information.",
+    "before": "Ange din EVT800-enhetsinformation.",
+    "after": "Ange uppgifterna för din EVT800-enhet.",
+    "readback": "Ange uppgifterna för din EVT800-enhet.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::template::config::step::device_tracker::data_description::in_zones",
+    "key_id": "865365160",
+    "translation_id": "8721394260",
+    "en": "Defines a template that returns a list of zones the device tracker is currently in. The template should return a list of zone entity IDs. If the device tracker is not in any zone, the template should return an empty list.",
+    "before": "Definierar en mall som returnerar en lista över zoner som enhetsspåraren för närvarande befinner sig i. Mallen ska returnera en lista över zonens enhets-ID:n. Om enhetsspåraren inte finns i någon zon ska mallen returnera en tom lista.",
+    "after": "Definierar en mall som returnerar en lista över zonerna där spårningsenheten befinner sig. Mallen ska returnera en lista med zonernas entitets-ID:n. Om spårningsenheten inte befinner sig i någon zon ska mallen returnera en tom lista.",
+    "readback": "Definierar en mall som returnerar en lista över zonerna där spårningsenheten befinner sig. Mallen ska returnera en lista med zonernas entitets-ID:n. Om spårningsenheten inte befinner sig i någon zon ska mallen returnera en tom lista.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zone::conditions::in_zone::description",
+    "key_id": "865476526",
+    "translation_id": "8723037414",
+    "en": "Tests if one or more persons or device trackers are in a zone.",
+    "before": "Testar om en eller flera personer eller enhetsspårare befinner sig i en zon.",
+    "after": "Testar om en eller flera personer eller spårningsenheter befinner sig i en zon.",
+    "readback": "Testar om en eller flera personer eller spårningsenheter befinner sig i en zon.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zone::conditions::not_in_zone::description",
+    "key_id": "865476532",
+    "translation_id": "8723037798",
+    "en": "Tests if one or more persons or device trackers are not in a zone.",
+    "before": "Testar om en eller flera personer eller enhetsspårare inte befinner sig i en zon.",
+    "after": "Testar om en eller flera personer eller spårningsenheter inte befinner sig i en zon.",
+    "readback": "Testar om en eller flera personer eller spårningsenheter inte befinner sig i en zon.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zone::conditions::in_zone::name",
+    "key_id": "865476531",
+    "translation_id": "8723037734",
+    "en": "Is in zone",
+    "before": "Är i zonen",
+    "after": "Befinner sig i zonen",
+    "readback": "Befinner sig i zonen",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zone::conditions::not_in_zone::name",
+    "key_id": "865476537",
+    "translation_id": "8723038118",
+    "en": "Is not in zone",
+    "before": "Är inte i zonen",
+    "after": "Befinner sig inte i zonen",
+    "readback": "Befinner sig inte i zonen",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::imou::config::step::user::data_description::app_id",
+    "key_id": "865532238",
+    "translation_id": "8723849894",
+    "en": "The app ID obtained from the Imou cloud platform",
+    "before": "Det App-ID som hämtats från Imous molnplattform",
+    "after": "Det app-ID som har hämtats från Imous molnplattform.",
+    "readback": "Det app-ID som har hämtats från Imous molnplattform.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::imou::config::step::user::data_description::app_secret",
+    "key_id": "865532239",
+    "translation_id": "8723849958",
+    "en": "The app secret obtained from the Imou cloud platform",
+    "before": "Apphemligheten som hämtats från Imous molnplattform",
+    "after": "Den apphemlighet som har hämtats från Imous molnplattform.",
+    "readback": "Den apphemlighet som har hämtats från Imous molnplattform.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::imou::config::step::user::title",
+    "key_id": "865532240",
+    "translation_id": "8723850022",
+    "en": "Log in to Imou cloud",
+    "before": "Logga in på Imou Cloud",
+    "after": "Logga in på Imous molntjänst",
+    "readback": "Logga in på Imous molntjänst",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::imou::entity::button::mute::name",
+    "key_id": "865532241",
+    "translation_id": "8723850086",
+    "en": "Mute",
+    "before": "Mute",
+    "after": "Ljud av",
+    "readback": "Ljud av",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zone::conditions::occupancy_is_detected::name",
+    "key_id": "865535411",
+    "translation_id": "8723884163",
+    "en": "Zone occupancy is detected",
+    "before": "Närvaro upptäckt i zonen",
+    "after": "Närvaro har upptäckts i zonen",
+    "readback": "Närvaro har upptäckts i zonen",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zone::conditions::occupancy_is_not_detected::name",
+    "key_id": "865535416",
+    "translation_id": "8723884483",
+    "en": "Zone occupancy is not detected",
+    "before": "Ingen närvaro upptäckt i zonen",
+    "after": "Ingen närvaro har upptäckts i zonen",
+    "readback": "Ingen närvaro har upptäckts i zonen",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::envertech_evt800::entity::sensor::ac_frequency_1::name",
+    "key_id": "865234467",
+    "translation_id": "8718074843",
+    "en": "AC Frequency MPPT 1",
+    "before": "AC-frekvens MPPT 1",
+    "after": "AC-frekvens för MPPT 1",
+    "readback": "AC-frekvens för MPPT 1",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::envertech_evt800::entity::sensor::ac_frequency_2::name",
+    "key_id": "865234468",
+    "translation_id": "8718074907",
+    "en": "AC Frequency MPPT 2",
+    "before": "AC-frekvens MPPT 2",
+    "after": "AC-frekvens för MPPT 2",
+    "readback": "AC-frekvens för MPPT 2",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::envertech_evt800::entity::sensor::ac_voltage_1::name",
+    "key_id": "865234469",
+    "translation_id": "8718074971",
+    "en": "AC Voltage MPPT 1",
+    "before": "AC-spänning MPPT 1",
+    "after": "AC-spänning för MPPT 1",
+    "readback": "AC-spänning för MPPT 1",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::envertech_evt800::entity::sensor::ac_voltage_2::name",
+    "key_id": "865234470",
+    "translation_id": "8718075035",
+    "en": "AC Voltage MPPT 2",
+    "before": "AC-spänning MPPT 2",
+    "after": "AC-spänning för MPPT 2",
+    "readback": "AC-spänning för MPPT 2",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::envertech_evt800::entity::sensor::current_1::name",
+    "key_id": "865234471",
+    "translation_id": "8718075099",
+    "en": "DC Current MPPT 1",
+    "before": "DC-ström MPPT 1",
+    "after": "DC-ström för MPPT 1",
+    "readback": "DC-ström för MPPT 1",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::envertech_evt800::entity::sensor::current_2::name",
+    "key_id": "865234472",
+    "translation_id": "8718075163",
+    "en": "DC Current MPPT 2",
+    "before": "DC-ström MPPT 2",
+    "after": "DC-ström för MPPT 2",
+    "readback": "DC-ström för MPPT 2",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::envertech_evt800::entity::sensor::input_voltage_1::name",
+    "key_id": "865234473",
+    "translation_id": "8718075227",
+    "en": "DC Voltage MPPT 1",
+    "before": "DC-spänning MPPT 1",
+    "after": "DC-spänning för MPPT 1",
+    "readback": "DC-spänning för MPPT 1",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::envertech_evt800::entity::sensor::input_voltage_2::name",
+    "key_id": "865234474",
+    "translation_id": "8718075291",
+    "en": "DC Voltage MPPT 2",
+    "before": "DC-spänning MPPT 2",
+    "after": "DC-spänning för MPPT 2",
+    "readback": "DC-spänning för MPPT 2",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::envertech_evt800::entity::sensor::power_1::name",
+    "key_id": "865234477",
+    "translation_id": "8718075483",
+    "en": "DC Power MPPT 1",
+    "before": "DC-effekt MPPT 1",
+    "after": "DC-effekt för MPPT 1",
+    "readback": "DC-effekt för MPPT 1",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::envertech_evt800::entity::sensor::power_2::name",
+    "key_id": "865234478",
+    "translation_id": "8718075547",
+    "en": "DC Power MPPT 2",
+    "before": "DC-effekt MPPT 2",
+    "after": "DC-effekt för MPPT 2",
+    "readback": "DC-effekt för MPPT 2",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::envertech_evt800::entity::sensor::temperature_1::name",
+    "key_id": "865234479",
+    "translation_id": "8718075611",
+    "en": "Temperature MPPT 1",
+    "before": "Temperatur MPPT 1",
+    "after": "Temperatur för MPPT 1",
+    "readback": "Temperatur för MPPT 1",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::envertech_evt800::entity::sensor::temperature_2::name",
+    "key_id": "865234480",
+    "translation_id": "8718075675",
+    "en": "Temperature MPPT 2",
+    "before": "Temperatur MPPT 2",
+    "after": "Temperatur för MPPT 2",
+    "readback": "Temperatur för MPPT 2",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::envertech_evt800::entity::sensor::total_energy_1::name",
+    "key_id": "865234481",
+    "translation_id": "8718075739",
+    "en": "Total Energy MPPT 1",
+    "before": "Total energi MPPT 1",
+    "after": "Total energi för MPPT 1",
+    "readback": "Total energi för MPPT 1",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::envertech_evt800::entity::sensor::total_energy_2::name",
+    "key_id": "865234482",
+    "translation_id": "8718075803",
+    "en": "Total Energy MPPT 2",
+    "before": "Total energi MPPT 2",
+    "after": "Total energi för MPPT 2",
+    "readback": "Total energi för MPPT 2",
+    "status": "saved-and-read-back"
+  }
+]
