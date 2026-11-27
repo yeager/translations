@@ -8,6 +8,8 @@ Lokalise-projekt: 130246255a974bd3b5e8a1.51616605
 
 ## Aktuellt läge
 
+- Batch 63 977–64 096: 120 positioner granskades (97 direkta, 15 referenser, 8 äldre källfrånvarande poster); 36 hade tidigare rapporter. Tretton ändringar sparades/lästes tillbaka. Referenser 15/15, platshållare 112/112, inga pluralnycklar; `svlang` utan skrivregel- eller anglicismträffar. En SolarEdge-etikett för negativ anläggningsgräns behöver dokumentationskontroll. TMX validerar med 35 768 enheter (35 537 Lokalise-ID, 231 historiska). Nästa position 64 097; 13 560 indexpositioner återstår. Se `2026-11-27-reviewed-core-63977-64096.md` och JSON-underlagen.
+
 - Batch 63 857–63 976: samtliga 120 positioner granskades (85 direkta, 31 referenser, 4 äldre källfrånvarande poster); 23 hade tidigare rapporter. 23 ändringar sparades/lästes tillbaka i intervallet och sex delade referensmål synkades retroaktivt. Referenser 31/31, platshållare 116/116, pluralnycklar 0; `svlang` utan skrivregel- eller anglicismträffar. TMX validerar med 35 757 enheter (35 526 Lokalise-ID, 231 historiska). Nästa position 63 977; 13 680 indexpositioner återstår. Se `2026-11-27-reviewed-core-63857-63976.md` och JSON-underlagen.
 
 - Batch 63 737–63 856: 120 positioner granskades (96 direkta, 20 referenser, 4 källfrånvarande äldre nycklar); 31 tidigare rapporterade kontrollerades om. Elva ändringar sparades/lästes tillbaka. Referenser 20/20, platshållare 116/116, pluralnycklar 0; `svlang` utan skrivregelfel. Tre semantiska uppföljningar är markerade för Lyric, SOFAR Time of Use och Lunatone DALI-status. TMX validerar med 35 757 enheter (35 526 Lokalise-ID, 231 historiska). Nästa position 63 857; 13 800 positioner återstår. Se `2026-11-27-reviewed-core-63737-63856.md` och JSON-underlagen.
