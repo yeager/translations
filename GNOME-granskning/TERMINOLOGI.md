@@ -770,3 +770,19 @@ argumentet betyder i just det programmet.
 | reroll | kasta om / omkast | Använd *omkast* som substantiv. |
 | die value | tärningsvärde | Används för ögontalen på tärningen. |
 | Colors (game type) | Färger | Svenskt namn på spelvarianten i gränssnittet; i löptext används *färgvarianten*. |
+
+## GStreamer och multimedia
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| codec | kodek | Följ etablerad svensk teknisk term. |
+| video codec / audio codec / subtitle codec | videokodek / ljudkodek / undertextkodek | Skriv isär som svenska sammansättningar. |
+| decoder / encoder | avkodare / kodare | Komponentnamn, inte verb. |
+| performer | artist | Musikmetadata. |
+| conductor | dirigent | Musikmetadata. |
+| publisher (music metadata) | skivbolag | När metadatafältet syftar på skivutgivaren. |
+| pipeline | pipeline | GStreamer-specifik teknisk term; behåll i API- och felsökningstext. |
+| caps | caps | GStreamer-formatförhandlingens tekniska objekt. |
+| pad, source pad, sink pad | pad, source-pad, sink-pad | GStreamer-objekt; behåll engelska sammansättningar i teknisk text. |
+| bin | bin | GStreamer-behållarelement; behåll API-termen. |
+| ReplayGain, R128 | ReplayGain, R128 | Standardiserade namn; översätt inte. |

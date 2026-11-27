@@ -1,0 +1,459 @@
+Skriv ut GStreamer-versionen
+Behandla alla varningar som allvarliga fel
+Skriv ut tillgängliga felsökningskategorier och avsluta
+Standardnivå för felsökning, från 1 (endast fel) till 9 (allt) eller 0 (ingen utmatning)
+NIVÅ
+Kommaseparerade kategorinamn:nivå-par för att ange specifika nivåer för enskilda kategorier. Exempel: GST_AUTOPLUG:5,GST_ELEMENT_*:3
+LISTA
+Inaktivera färgkodad felsökningsutmatning
+Ändrar färgläget för felsökningsloggen. Möjliga lägen: off, on, disable, auto, unix
+Inaktivera felsökning
+Kolonseparerade sökvägar som innehåller insticksmoduler
+SÖKVÄGAR
+Kommaseparerad lista över insticksmoduler som ska läsas in i förväg, utöver listan i miljövariabeln GST_PLUGIN_PATH
+INSTICKSMODULER
+Inaktivera fångst av segmenteringsfel under inläsning av insticksmoduler
+Inaktivera uppdatering av registret
+Inaktivera start av en hjälpprocess vid avsökning av registret
+GStreamer-alternativ
+Visa GStreamer-alternativ
+Okänt alternativ
+GStreamer stötte på ett allmänt fel i kärnbiblioteket.
+Utvecklarna av GStreamer var för lata för att tilldela detta fel ett felnummer.
+Internt GStreamer-fel: koden har inte implementerats.
+GStreamer-fel: tillståndsändring misslyckades och några element misslyckades med att skicka ett korrekt felmeddelande med anledningen till felet.
+Internt GStreamer-fel: pad-problem.
+Internt GStreamer-fel: trådproblem.
+GStreamer-fel: förhandlingsproblem.
+Internt GStreamer-fel: händelseproblem.
+Internt GStreamer-fel: spolningsproblem.
+Internt GStreamer-fel: caps-problem.
+Internt GStreamer-fel: taggproblem.
+Din GStreamer-installation saknar en insticksmodul.
+GStreamer-fel: klockproblem.
+Det här programmet försöker använda GStreamer-funktionalitet som har inaktiverats.
+GStreamer stötte på ett allmänt fel i stödbibliotek.
+Kunde inte initiera stödbibliotek.
+Kunde inte stänga stödbibliotek.
+Kunde inte konfigurera stödbibliotek.
+Kodningsfel.
+GStreamer stötte på ett allmänt resursfel.
+Resursen kunde inte hittas.
+Resursen upptagen eller inte tillgänglig.
+Kunde inte öppna resursen för läsning.
+Kunde inte öppna resursen för skrivning.
+Kunde inte öppna resursen för läsning och skrivning.
+Kunde inte stänga resursen.
+Kunde inte läsa från resursen.
+Kunde inte skriva till resursen.
+Kunde inte söka i resursen.
+Kunde inte synkronisera på resursen.
+Kunde inte hämta eller ställa in inställningar för resursen.
+Inget ledigt utrymme på resursen.
+Behörighet saknas för att komma åt resursen.
+GStreamer stötte på ett allmänt strömfel.
+Elementet stöder inte hantering av denna ström. Skicka gärna in en felrapport.
+Kunde inte fastställa typen av ström.
+Strömmen har en annan typ än det här elementet kan hantera.
+Ingen kodek kan hantera strömtypen.
+Kunde inte avkoda strömmen.
+Kunde inte koda strömmen.
+Kunde inte demultiplexa strömmen.
+Kunde inte multiplexa strömmen.
+Strömmen är av fel format.
+Strömmen är krypterad och dekryptering stöds inte.
+Strömmen är krypterad och kan inte dekrypteras eftersom ingen lämplig nyckel har angetts.
+Inget felmeddelande för domänen %s.
+Inget standardfelmeddelande för domänen %s och koden %d.
+Vald klocka kan inte användas i rörledning.
+Sökvägen ”%s” är inte åtkomlig
+”%s” är inte en sökväg till en katalog
+Fel vid skrivning av registercache till %s: %s
+titel
+vanligt förekommande titel
+sorteringsnamn för titel
+vanligen använd titel för sortering
+artist
+personer som ansvarar för inspelningen
+sorteringsnamn för artist
+personer som ansvarar för inspelningen, för sortering
+album
+album som innehåller materialet
+sorteringsnamn för album
+album som innehåller materialet, för sortering
+albumartist
+Artisten som ska visas för hela albumet
+sorteringsnamn för albumartist
+Artisten för hela albumet, sorterad enligt artistnamnet
+datum
+datum då materialet skapades (som en GDate-struktur)
+datum och tid
+datum och tid då materialet skapades (som en GstDateTime-struktur)
+genre
+genre som dessa data tillhör
+kommentar
+fritextkommentar om materialet
+utökad kommentar
+fritextkommentar om materialet i formatet key=value eller key[en]=comment
+spårnummer
+spårnummer i den samling som spåret tillhör
+antal spår
+antal spår i den samling som spåret tillhör
+skivnummer
+skivnummer i den samling som skivan tillhör
+antal skivor
+antal skivor i den samling som skivan tillhör
+plats
+Mediets ursprung som URI (platsen där originalfilen eller -strömmen finns)
+webbsida
+Webbsida för mediet (till exempel artistens eller filmens webbplats)
+beskrivning
+kort text som beskriver innehållet i materialet
+version
+version av dessa data
+ISRC
+International Standard Recording Code – se http://www.ifpi.org/isrc/
+organisation
+upphovsrätt
+upphovsrättsnotis för materialet
+upphovsrätts-URI
+URI till upphovsrättsnotisen för materialet
+kodat av
+namn på den person eller organisation som kodat
+kontakt
+kontaktinformation
+licens
+licens för materialet
+licens-URI
+URI till licensen för materialet
+artist
+personer som framför verket
+kompositör
+personer som komponerade inspelningen
+dirigent
+precisering av dirigent/artist
+varaktighet
+längd i GStreamer-tidsenheter (nanosekunder)
+kodek
+kodek som materialet lagras med
+videokodek
+kodek som videomaterialet lagras med
+ljudkodek
+kodek som ljudmaterialet lagras med
+undertextkodek
+kodek som undertextmaterialet lagras med
+behållarformat
+behållarformatet som dessa data lagras med
+bitfrekvens
+exakt eller genomsnittlig bitfrekvens i bit/s
+nominell bitfrekvens
+nominell bitfrekvens i bitar/s
+minsta bitfrekvens
+minsta bitfrekvens i bitar/s
+högsta bitfrekvens
+högsta bitfrekvens i bitar/s
+kodare
+kodare som har använts för att koda strömmen
+kodarversion
+version av kodaren som har använts för att koda strömmen
+serienummer
+serienummer för spåret
+spårförstärkning (ReplayGain)
+spårets förstärkning i dB
+spårförstärkning (R128)
+spårets förstärkning i dB (R128)
+spårets toppnivå (ReplayGain)
+spårets toppnivå
+albumförstärkning (ReplayGain)
+albumförstärkning i dB
+albumförstärkning (R128)
+albumförstärkning i dB (R128)
+albumets toppnivå (ReplayGain)
+albumets toppnivå
+referensnivå för ReplayGain
+referensnivå för förstärkningsvärden för spår och album
+språkkod
+Språkkod för strömmen enligt ISO-639-1 eller ISO-639-2
+språknamn
+fritextnamn på språket i strömmen
+bild
+bild som hör till strömmen
+förhandsvisningsbild
+förhandsvisningsbild för strömmen
+bilaga
+fil som är bifogad till strömmen
+slag per minut
+antalet slag per minut i ljudet
+nyckelord
+kommaseparerade nyckelord som beskriver innehållet
+geografisk plats
+läsbar beskrivning av platsen där mediet spelades in eller skapades
+geografisk latitud
+latitud i grader för platsen där mediet spelades in eller skapades, enligt WGS84 (0 vid ekvatorn och negativa värden söder om ekvatorn)
+geografisk longitud
+longitud i grader för platsen där mediet spelades in eller skapades, enligt WGS84 (0 vid nollmeridianen i Greenwich och negativa värden väster om den)
+geografisk höjd
+höjd i meter för platsen där mediet spelades in eller skapades, enligt WGS84 (0 motsvarar medelhavsnivå)
+land där mediet spelades in
+landets namn på engelska, där mediet spelades in eller skapades
+ort där mediet spelades in
+ortens namn på engelska, där mediet spelades in eller skapades
+geografisk delplats
+plats i en stad där mediet spelades in eller skapades (till exempel en stadsdel)
+osäkerhet i horisontell position
+förväntad osäkerhet i den horisontella positionsangivelsen (meter)
+inspelningsenhetens rörelsehastighet
+inspelningsenhetens rörelsehastighet under inspelningen i m/s
+inspelningsenhetens rörelseriktning
+anger inspelningsenhetens rörelseriktning. Värdet anges i grader som flyttal; 0 betyder geografiskt norr och värdet ökar medurs
+inspelningsriktning
+anger riktningen som enheten pekar åt när den spelar in mediet. Värdet anges i grader som flyttal; 0 betyder geografiskt norr och värdet ökar medurs
+programnamn
+Namn på tv-programmet, podden eller serien som mediet kommer från
+sorteringsnamn för program
+Namn på tv-programmet, podden eller serien som mediet kommer från, för sortering
+avsnittsnummer
+Avsnittsnummer i säsongen som mediet ingår i
+säsongsnummer
+Säsongsnummer för programmet som mediet ingår i
+låttexter
+Låttext för mediet, vanligen en sångtext
+sorteringsnamn för kompositör
+personer som komponerade inspelningen, för sortering
+gruppering
+Grupperar relaterat medieinnehåll över flera spår, till exempel satserna i ett konsertverk. Gruppen ligger över spårnivån men under albumnivån
+användarbetyg
+Betyg som en användare har gett. Ju högre betyg, desto mer tycker användaren om mediet
+enhetstillverkare
+Tillverkare av enheten som användes för att skapa mediet
+enhetsmodell
+Modell på enheten som användes för att skapa mediet
+programnamn
+Program som användes för att skapa mediet
+programdata
+Godtyckliga programdata som serialiseras in i mediet
+bildorientering
+Hur bilden ska roteras eller vändas före visning
+utgivare
+Skivbolagets eller utgivarens namn
+tolkad av
+Information om personerna bakom en remix eller liknande tolkning
+MIDI-basnot
+MIDI-tonnummer för ljudspåret.
+privata data
+Privata data
+behållarspecifikt spår-ID
+Spår-ID som är specifikt för behållaren
+, 
+Ogiltig URI: %s
+Ingen URI-hanterare hittades för protokollet %s
+URI-schemat ”%s” stöds inte
+FEL: från element %s: %s
+
+Ytterligare felsökningsinformation:
+%s
+
+egenskapen ”%s” i elementet ”%s” är inte tillåten när opålitliga indata tolkas
+länken saknar en source-pad [sink=%s@%p]
+länken saknar en sink-pad [source=%s@%p]
+kunde inte ställa in egenskapen ”%s” i elementet ”%s” till ”%s”
+Ingen sådan egenskap.
+ingen ”%s”-egenskap i elementet ”%s”
+Elementet ”%s” är inte en GstPreset
+kunde inte ställa in förinställningen ”%s” i elementet ”%s”
+inget ”%s”-element
+elementet ”%s” är inte tillåtet vid tolkning av opålitliga indata
+Det gick inte att ställa in egenskapen ”%s” i ett underordnat element till ”%s” med värdet ”%s”
+Fördröjd länkning misslyckades.
+kunde inte länka %s till %s; %s kan inte hantera caps %s
+kunde inte länka %s till %s; inget av elementen kan hantera caps %s
+kunde inte länka %s till %s med caps %s
+kunde inte länka %s till %s
+oväntad referens ”%s” – ignoreras
+oväntad pad-referens ”%s” – ignoreras
+kunde inte tolka caps ”%s”
+inget sink-element hittades för URI:n ”%s”
+inget source-element hittades för URI:n ”%s”
+syntaxfel
+den angivna bin-enheten ”%s” är tom, vilket inte är tillåtet
+ingen bin-enhet ”%s” hittades; packar upp elementen
+en tom pipeline är inte tillåten
+egenskapen ”%s” kan inte ställas in på ett underordnat element som ännu inte finns när opålitliga indata tolkas
+Pipelinebygget är ogiltigt. Lägg till köer.
+Många buffertar kastas bort.
+Internt dataflödesproblem.
+Internt fel i dataflöde.
+Internt klockfel.
+Misslyckades med att mappa buffert.
+Filtrera caps
+Begränsa vilka caps som tillåts (NULL betyder ANY). När den här egenskapen ställs in tas en referens till det angivna GstCaps-objektet.
+Caps-ändringsläge
+Ändringsbeteende för caps-filtret
+Ingen temporärkatalog angiven.
+Kunde inte skapa temporärfilen ”%s”.
+Kunde inte öppna filen ”%s” för läsning.
+Fel vid skrivning till hämtningsfilen.
+Inget filnamn angivet för skrivning.
+Kunde inte öppna filen ”%s” för skrivning.
+Fel vid stängning av filen ”%s”.
+Fel vid sökning i filen ”%s”.
+Fel vid skrivning till filen ”%s”.
+Inget filnamn angivet för läsning.
+Kunde inte få information om ”%s”.
+”%s” är en katalog.
+Filen ”%s” är en socket.
+Misslyckades efter det begärda antalet iterationer.
+eos-after och error-after kan inte båda definieras.
+förmågor
+detekterade förmågor i strömmen
+minimum
+tvinga förmågor
+tvinga förmågor utan att göra en typefind
+Strömmen innehåller inte tillräckligt med data.
+Strömmen innehåller inga data.
+%sImplementerade gränssnitt%s:
+
+%sElementflaggor%s:
+
+läsbar
+skrivbar
+föråldrad
+kontrollerbar
+villkorligt tillgänglig
+Känslig när den anges i en opålitlig pipelinebeskrivning
+kan bara sättas vid tidpunkten då objektet konstrueras
+ändringsbart i tillstånden NULL, READY, PAUSED eller PLAYING
+ändringsbart endast i tillstånden NULL, READY eller PAUSED
+ändringsbart endast i tillstånden NULL eller READY
+Svartlistade filer:
+%sTotalt antal%s: %s
+%d svartlistad fil
+%d svartlistade filer
+%d insticksmodul
+%d insticksmoduler
+%d svartlistad post
+%d svartlistade poster
+%d funktion
+%d funktioner
+Skriv ut alla element
+Skriv ut lista över svartlistade filer
+Skriv ut en maskintolkningsbar lista över funktioner som den angivna insticksmodulen eller alla insticksmoduler tillhandahåller.
+                                       Användbart tillsammans med externa mekanismer för automatisk installation av insticksmoduler
+Lista insticksmodulens innehåll
+En snedstrecksseparerad lista över elementtyper (även kallade klass), osorterad
+Kontrollera om det angivna elementet eller insticksmodulen existerar
+När du kontrollerar om ett element eller en insticksmodul finns, kontrollera också att versionen är minst den angivna
+Skriv ut de URI-scheman som stöds och elementen som hanterar dem
+Inaktivera färger i utdata. Du kan också åstadkomma detsamma genom att sätta miljövariabeln ”GST_INSPECT_NO_COLORS” till vilket värde som helst.
+Färgsätt utdata även när den inte skickas till en TTY.
+Kunde inte läsa in fil för insticksmodul: %s
+
+Det finns inget element eller någon insticksmodul med namnet ”%s”
+
+Indexstatistik
+FEL: %s
+
+Detaljer:
+%s
+
+Ställer pipelinen i PLAYING-läge ...
+
+FEL: pipelinen kan inte gå över till PLAYING-läget.
+
+Tog emot meddelande #%u från elementet ”%s” (%s): 
+Tog emot meddelande #%u från pad ”%s:%s” (%s): 
+Tog emot meddelande #%u från objektet ”%s” (%s): 
+Tog emot meddelande #%u (%s): 
+Tog emot EOS från elementet ”%s”.
+
+EOS mottogs – stoppar pipelinen...
+
+HITTADE TAGG   : hittad av elementet ”%s”.
+
+HITTADE TAGG   : hittad via pad ”%s:%s”.
+
+HITTADE TAGG   : hittad via objektet ”%s”.
+
+HITTADE TAGG
+
+HITTADE INNEHÅLL: hittat av elementet ”%s”.
+
+HITTADE INNEHÅLL: hittat av objektet ”%s”.
+
+HITTADE INNEHÅLL
+
+INFO:
+%s
+
+VARNING: från elementet %s: %s
+
+Pipelinen har nått PREROLLED-läget ...
+
+PREROLL klar, väntar på att buffringen ska bli klar...
+
+PREROLL klar, väntar på att förloppet ska bli klart...
+
+buffrar...
+Buffringen är klar. Ställer pipelinen i PLAYING-läge ...
+
+Buffrar. Ställer pipelinen i PAUSED-läge ...
+
+Omfördelar latensen...
+
+Ställer in tillståndet till %s enligt begäran från %s...
+
+Avbrott: stoppar pipelinen ...
+
+Avbrott under väntan på EOS – stoppar pipelinen...
+
+EOS vid avstängning är aktiverat – skickar EOS till pipelinen
+
+Väntar på EOS...
+
+Förlopp: (%s) %s
+
+Element saknas: %s
+
+Fick kontext från elementet ”%s”: %s=%s
+
+FEL: pipelinen kan inte utföra PREROLL.
+
+Ett fel inträffade vid väntan på EOS
+
+Använd Windows högupplösta klocka, precision: %u ms
+
+Skriv ut taggar (även kallade metadata)
+Skriv ut innehållsförteckningen (TOC: kapitel och utgåvor)
+Skriv ut statusinformation och egenskapsnotifieringar
+Skriv inte ut någon förloppsinformation
+Skriv ut meddelanden
+Mata inte ut statusinformation för den angivna egenskapen om utförlig diagnostik är aktiverad (kan användas flera gånger)
+EGENSKAPSNAMN
+Ange programmets namn
+PROGRAMNAMN
+Installera inte en felhanterare
+Tvinga EOS på källor innan rörledningen stängs av
+Samla och skriv ut indexstatistik
+Skriv inte ut pipelinens aktuella position. Om alternativet inte anges visas positionen när standardutmatningen är en TTY. Om positionen ska visas även när standardutmatningen inte är en TTY, använd alternativet ”force-position”
+Tillåt utskrift av pipelinens aktuella position även om standardutmatningen inte är en TTY. Alternativet har ingen effekt om ”no-position” anges
+FEL: pipelinen kunde inte skapas: %s.
+
+FEL: pipelinen kunde inte skapas.
+
+VARNING: ogiltig pipeline: %s
+
+FEL: ”pipeline”-elementet hittades inte.
+
+Ställer pipelinen i PAUSED-läge ...
+
+Kunde inte ställa pipelinen i PAUSED-läge.
+
+Pipelinen är live och behöver inte PREROLL ...
+
+Pipelinen är i PREROLLING-läget ...
+
+Körning avslutades efter %
+Ställer in rörledningen till NULL...
+
+Frigör pipelinen ...
+

@@ -1,0 +1,2795 @@
+[
+  {
+    "source": "Print the GStreamer version",
+    "reviewed": "Skriv ut GStreamer-versionen",
+    "tm_matches": [
+      "Skriv ut GStreamer-versionen"
+    ]
+  },
+  {
+    "source": "Make all warnings fatal",
+    "reviewed": "Behandla alla varningar som allvarliga fel",
+    "tm_matches": [
+      "Gör alla varningar ödesdigra"
+    ]
+  },
+  {
+    "source": "Print available debug categories and exit",
+    "reviewed": "Skriv ut tillgängliga felsökningskategorier och avsluta",
+    "tm_matches": [
+      "Skriv ut tillgängliga felsökningskategorier och avsluta"
+    ]
+  },
+  {
+    "source": "Default debug level from 1 (only error) to 9 (anything) or 0 for no output",
+    "reviewed": "Standardnivå för felsökning, från 1 (endast fel) till 9 (allt) eller 0 (ingen utmatning)",
+    "tm_matches": [
+      "Standardfelsökningsnivå från 1 (endast fel) till 9 (allting) eller 0 för ingen utmatning"
+    ]
+  },
+  {
+    "source": "LEVEL",
+    "reviewed": "NIVÅ",
+    "tm_matches": [
+      "NIVÅ"
+    ]
+  },
+  {
+    "source": "Comma-separated list of category_name:level pairs to set specific levels for the individual categories. Example: GST_AUTOPLUG:5,GST_ELEMENT_*:3",
+    "reviewed": "Kommaseparerade kategorinamn:nivå-par för att ange specifika nivåer för enskilda kategorier. Exempel: GST_AUTOPLUG:5,GST_ELEMENT_*:3",
+    "tm_matches": [
+      "Kommaseparerad lista med kategorinamn:nivå-par för att ställa in specifika nivåer för de enskilda kategorierna. Exempel: GST_AUTOPLUG:5,GST_ELEMENT_*:3"
+    ]
+  },
+  {
+    "source": "LIST",
+    "reviewed": "LISTA",
+    "tm_matches": [
+      "LISTA"
+    ]
+  },
+  {
+    "source": "Disable colored debugging output",
+    "reviewed": "Inaktivera färgkodad felsökningsutmatning",
+    "tm_matches": [
+      "Inaktivera färglagd felsökningsutmatning"
+    ]
+  },
+  {
+    "source": "Changes coloring mode of the debug log. Possible modes: off, on, disable, auto, unix",
+    "reviewed": "Ändrar färgläget för felsökningsloggen. Möjliga lägen: off, on, disable, auto, unix",
+    "tm_matches": [
+      "Ändrar färgläggning av felsökningsutskrifter. Möjliga lägen: off, on, disable, auto, unix"
+    ]
+  },
+  {
+    "source": "Disable debugging",
+    "reviewed": "Inaktivera felsökning",
+    "tm_matches": [
+      "Inaktivera felsökning"
+    ]
+  },
+  {
+    "source": "Colon-separated paths containing plugins",
+    "reviewed": "Kolonseparerade sökvägar som innehåller insticksmoduler",
+    "tm_matches": [
+      "Kolonseparerade sökvägar som innehåller insticksmoduler"
+    ]
+  },
+  {
+    "source": "PATHS",
+    "reviewed": "SÖKVÄGAR",
+    "tm_matches": [
+      "SÖKVÄGAR"
+    ]
+  },
+  {
+    "source": "Comma-separated list of plugins to preload in addition to the list stored in environment variable GST_PLUGIN_PATH",
+    "reviewed": "Kommaseparerad lista över insticksmoduler som ska läsas in i förväg, utöver listan i miljövariabeln GST_PLUGIN_PATH",
+    "tm_matches": [
+      "Kommaseparerad lista med insticksmoduler att förhandsinläsa utöver listan som lagras i miljövariabeln GST_PLUGIN_PATH"
+    ]
+  },
+  {
+    "source": "PLUGINS",
+    "reviewed": "INSTICKSMODULER",
+    "tm_matches": [
+      "INSTICKSMODULER"
+    ]
+  },
+  {
+    "source": "Disable trapping of segmentation faults during plugin loading",
+    "reviewed": "Inaktivera fångst av segmenteringsfel under inläsning av insticksmoduler",
+    "tm_matches": [
+      "Inaktivera fångst av segmenteringsfel under inläsning av insticksmoduler"
+    ]
+  },
+  {
+    "source": "Disable updating the registry",
+    "reviewed": "Inaktivera uppdatering av registret",
+    "tm_matches": [
+      "Inaktivera uppdatering av registret"
+    ]
+  },
+  {
+    "source": "Disable spawning a helper process while scanning the registry",
+    "reviewed": "Inaktivera start av en hjälpprocess vid avsökning av registret",
+    "tm_matches": [
+      "Inaktivera start av en hjälpprocess vid avsökning av registret"
+    ]
+  },
+  {
+    "source": "GStreamer Options",
+    "reviewed": "GStreamer-alternativ",
+    "tm_matches": [
+      "GStreamer-flaggor"
+    ]
+  },
+  {
+    "source": "Show GStreamer Options",
+    "reviewed": "Visa GStreamer-alternativ",
+    "tm_matches": [
+      "Visa GStreamer-flaggor"
+    ]
+  },
+  {
+    "source": "Unknown option",
+    "reviewed": "Okänt alternativ",
+    "tm_matches": [
+      "Okänt flagga"
+    ]
+  },
+  {
+    "source": "GStreamer encountered a general core library error.",
+    "reviewed": "GStreamer stötte på ett allmänt fel i kärnbiblioteket.",
+    "tm_matches": [
+      "GStreamer stötte på ett allmänt fel i kärnbibliotek."
+    ]
+  },
+  {
+    "source": "GStreamer developers were too lazy to assign an error code to this error.",
+    "reviewed": "Utvecklarna av GStreamer var för lata för att tilldela detta fel ett felnummer.",
+    "tm_matches": [
+      "Utvecklarna av GStreamer var för lata för att tilldela detta fel ett felnummer."
+    ]
+  },
+  {
+    "source": "Internal GStreamer error: code not implemented.",
+    "reviewed": "Internt GStreamer-fel: koden har inte implementerats.",
+    "tm_matches": [
+      "Internt GStreamer-fel: koden inte implementerad."
+    ]
+  },
+  {
+    "source": "GStreamer error: state change failed and some element failed to post a proper error message with the reason for the failure.",
+    "reviewed": "GStreamer-fel: tillståndsändring misslyckades och några element misslyckades med att skicka ett korrekt felmeddelande med anledningen till felet.",
+    "tm_matches": [
+      "GStreamer-fel: tillståndsändring misslyckades och några element misslyckades med att skicka ett korrekt felmeddelande med anledningen till felet."
+    ]
+  },
+  {
+    "source": "Internal GStreamer error: pad problem.",
+    "reviewed": "Internt GStreamer-fel: pad-problem.",
+    "tm_matches": [
+      "Internt GStreamer-fel: kontaktproblem."
+    ]
+  },
+  {
+    "source": "Internal GStreamer error: thread problem.",
+    "reviewed": "Internt GStreamer-fel: trådproblem.",
+    "tm_matches": [
+      "Internt GStreamer-fel: trådproblem."
+    ]
+  },
+  {
+    "source": "GStreamer error: negotiation problem.",
+    "reviewed": "GStreamer-fel: förhandlingsproblem.",
+    "tm_matches": [
+      "GStreamer-fel: förhandlingsproblem."
+    ]
+  },
+  {
+    "source": "Internal GStreamer error: event problem.",
+    "reviewed": "Internt GStreamer-fel: händelseproblem.",
+    "tm_matches": [
+      "Internt GStreamer-fel: händelseproblem."
+    ]
+  },
+  {
+    "source": "Internal GStreamer error: seek problem.",
+    "reviewed": "Internt GStreamer-fel: spolningsproblem.",
+    "tm_matches": [
+      "Internt GStreamer-fel: spolningsproblem."
+    ]
+  },
+  {
+    "source": "Internal GStreamer error: caps problem.",
+    "reviewed": "Internt GStreamer-fel: caps-problem.",
+    "tm_matches": [
+      "Internt GStreamer-fel: förmågeproblem."
+    ]
+  },
+  {
+    "source": "Internal GStreamer error: tag problem.",
+    "reviewed": "Internt GStreamer-fel: taggproblem.",
+    "tm_matches": [
+      "Internt GStreamer-fel: taggproblem."
+    ]
+  },
+  {
+    "source": "Your GStreamer installation is missing a plug-in.",
+    "reviewed": "Din GStreamer-installation saknar en insticksmodul.",
+    "tm_matches": [
+      "Din GStreamer-installation saknar en insticksmodul."
+    ]
+  },
+  {
+    "source": "GStreamer error: clock problem.",
+    "reviewed": "GStreamer-fel: klockproblem.",
+    "tm_matches": [
+      "GStreamer-fel: klockproblem."
+    ]
+  },
+  {
+    "source": "This application is trying to use GStreamer functionality that has been disabled.",
+    "reviewed": "Det här programmet försöker använda GStreamer-funktionalitet som har inaktiverats.",
+    "tm_matches": [
+      "Det här programmet försöker använda GStreamer-funktionalitet som har inaktiverats."
+    ]
+  },
+  {
+    "source": "GStreamer encountered a general supporting library error.",
+    "reviewed": "GStreamer stötte på ett allmänt fel i stödbibliotek.",
+    "tm_matches": [
+      "GStreamer stötte på ett allmänt fel i stödbibliotek."
+    ]
+  },
+  {
+    "source": "Could not initialize supporting library.",
+    "reviewed": "Kunde inte initiera stödbibliotek.",
+    "tm_matches": [
+      "Kunde inte initiera stödbibliotek."
+    ]
+  },
+  {
+    "source": "Could not close supporting library.",
+    "reviewed": "Kunde inte stänga stödbibliotek.",
+    "tm_matches": [
+      "Kunde inte stänga stödbibliotek."
+    ]
+  },
+  {
+    "source": "Could not configure supporting library.",
+    "reviewed": "Kunde inte konfigurera stödbibliotek.",
+    "tm_matches": [
+      "Kunde inte konfigurera stödbibliotek."
+    ]
+  },
+  {
+    "source": "Encoding error.",
+    "reviewed": "Kodningsfel.",
+    "tm_matches": [
+      "Kodningsfel."
+    ]
+  },
+  {
+    "source": "GStreamer encountered a general resource error.",
+    "reviewed": "GStreamer stötte på ett allmänt resursfel.",
+    "tm_matches": [
+      "GStreamer stötte på ett allmänt resursfel."
+    ]
+  },
+  {
+    "source": "Resource not found.",
+    "reviewed": "Resursen kunde inte hittas.",
+    "tm_matches": [
+      "Resursen kunde inte hittas."
+    ]
+  },
+  {
+    "source": "Resource busy or not available.",
+    "reviewed": "Resursen upptagen eller inte tillgänglig.",
+    "tm_matches": [
+      "Resursen upptagen eller inte tillgänglig."
+    ]
+  },
+  {
+    "source": "Could not open resource for reading.",
+    "reviewed": "Kunde inte öppna resursen för läsning.",
+    "tm_matches": [
+      "Kunde inte öppna resursen för läsning."
+    ]
+  },
+  {
+    "source": "Could not open resource for writing.",
+    "reviewed": "Kunde inte öppna resursen för skrivning.",
+    "tm_matches": [
+      "Kunde inte öppna resursen för skrivning."
+    ]
+  },
+  {
+    "source": "Could not open resource for reading and writing.",
+    "reviewed": "Kunde inte öppna resursen för läsning och skrivning.",
+    "tm_matches": [
+      "Kunde inte öppna resursen för läsning och skrivning."
+    ]
+  },
+  {
+    "source": "Could not close resource.",
+    "reviewed": "Kunde inte stänga resursen.",
+    "tm_matches": [
+      "Kunde inte stänga resursen."
+    ]
+  },
+  {
+    "source": "Could not read from resource.",
+    "reviewed": "Kunde inte läsa från resursen.",
+    "tm_matches": [
+      "Kunde inte läsa från resursen."
+    ]
+  },
+  {
+    "source": "Could not write to resource.",
+    "reviewed": "Kunde inte skriva till resursen.",
+    "tm_matches": [
+      "Kunde inte skriva till resursen."
+    ]
+  },
+  {
+    "source": "Could not perform seek on resource.",
+    "reviewed": "Kunde inte söka i resursen.",
+    "tm_matches": [
+      "Kunde inte utföra spolning på resursen."
+    ]
+  },
+  {
+    "source": "Could not synchronize on resource.",
+    "reviewed": "Kunde inte synkronisera på resursen.",
+    "tm_matches": [
+      "Kunde inte synkronisera på resursen."
+    ]
+  },
+  {
+    "source": "Could not get/set settings from/on resource.",
+    "reviewed": "Kunde inte hämta eller ställa in inställningar för resursen.",
+    "tm_matches": [
+      "Kunde inte hämta/ställa in inställningar från/på resursen."
+    ]
+  },
+  {
+    "source": "No space left on the resource.",
+    "reviewed": "Inget ledigt utrymme på resursen.",
+    "tm_matches": [
+      "Inget ledigt utrymme på resursen."
+    ]
+  },
+  {
+    "source": "Not authorized to access resource.",
+    "reviewed": "Behörighet saknas för att komma åt resursen.",
+    "tm_matches": [
+      "Har ej befogenhet att använda resursen."
+    ]
+  },
+  {
+    "source": "GStreamer encountered a general stream error.",
+    "reviewed": "GStreamer stötte på ett allmänt strömfel.",
+    "tm_matches": [
+      "GStreamer stötte på ett allmänt strömfel."
+    ]
+  },
+  {
+    "source": "Element doesn't implement handling of this stream. Please file a bug.",
+    "reviewed": "Elementet stöder inte hantering av denna ström. Skicka gärna in en felrapport.",
+    "tm_matches": [
+      "Elementet stöder inte hantering av denna ström. Skicka gärna in en felrapport."
+    ]
+  },
+  {
+    "source": "Could not determine type of stream.",
+    "reviewed": "Kunde inte fastställa typen av ström.",
+    "tm_matches": [
+      "Kunde inte fastställa typen av ström."
+    ]
+  },
+  {
+    "source": "The stream is of a different type than handled by this element.",
+    "reviewed": "Strömmen har en annan typ än det här elementet kan hantera.",
+    "tm_matches": [
+      "Strömmen är av en annan typ än den som hanteras av detta element."
+    ]
+  },
+  {
+    "source": "There is no codec present that can handle the stream's type.",
+    "reviewed": "Ingen kodek kan hantera strömtypen.",
+    "tm_matches": [
+      "Det finns ingen omkodare som kan hantera denna strömtyp."
+    ]
+  },
+  {
+    "source": "Could not decode stream.",
+    "reviewed": "Kunde inte avkoda strömmen.",
+    "tm_matches": [
+      "Kunde inte avkoda ström."
+    ]
+  },
+  {
+    "source": "Could not encode stream.",
+    "reviewed": "Kunde inte koda strömmen.",
+    "tm_matches": [
+      "Kunde inte koda ström."
+    ]
+  },
+  {
+    "source": "Could not demultiplex stream.",
+    "reviewed": "Kunde inte demultiplexa strömmen.",
+    "tm_matches": [
+      "Kunde inte avmultiplexera ström."
+    ]
+  },
+  {
+    "source": "Could not multiplex stream.",
+    "reviewed": "Kunde inte multiplexa strömmen.",
+    "tm_matches": [
+      "Kunde inte multiplexera ström."
+    ]
+  },
+  {
+    "source": "The stream is in the wrong format.",
+    "reviewed": "Strömmen är av fel format.",
+    "tm_matches": [
+      "Strömmen är av fel format."
+    ]
+  },
+  {
+    "source": "The stream is encrypted and decryption is not supported.",
+    "reviewed": "Strömmen är krypterad och dekryptering stöds inte.",
+    "tm_matches": [
+      "Strömmen är krypterad och dekryptering stöds inte."
+    ]
+  },
+  {
+    "source": "The stream is encrypted and can't be decrypted because no suitable key has been supplied.",
+    "reviewed": "Strömmen är krypterad och kan inte dekrypteras eftersom ingen lämplig nyckel har angetts.",
+    "tm_matches": [
+      "Strömmen är krypterad och kan inte dekrypteras därför att det inte finns en lämplig nyckel."
+    ]
+  },
+  {
+    "source": "No error message for domain %s.",
+    "reviewed": "Inget felmeddelande för domänen %s.",
+    "tm_matches": [
+      "Inget felmeddelande för domänen %s."
+    ]
+  },
+  {
+    "source": "No standard error message for domain %s and code %d.",
+    "reviewed": "Inget standardfelmeddelande för domänen %s och koden %d.",
+    "tm_matches": [
+      "Inget standardfelmeddelande för domänen %s och koden %d."
+    ]
+  },
+  {
+    "source": "Selected clock cannot be used in pipeline.",
+    "reviewed": "Vald klocka kan inte användas i rörledning.",
+    "tm_matches": [
+      "Vald klocka kan inte användas i rörledning."
+    ]
+  },
+  {
+    "source": "%s is not accessible",
+    "reviewed": "Sökvägen ”%s” är inte åtkomlig",
+    "tm_matches": [
+      "Det går inte att komma åt %s"
+    ]
+  },
+  {
+    "source": "%s is not a path",
+    "reviewed": "”%s” är inte en sökväg till en katalog",
+    "tm_matches": [
+      "%s är ingen sökväg"
+    ]
+  },
+  {
+    "source": "Error writing registry cache to %s: %s",
+    "reviewed": "Fel vid skrivning av registercache till %s: %s",
+    "tm_matches": [
+      "Fel vid skrivning av registercache till %s: %s"
+    ]
+  },
+  {
+    "source": "title",
+    "reviewed": "titel",
+    "tm_matches": [
+      "titel"
+    ]
+  },
+  {
+    "source": "commonly used title",
+    "reviewed": "vanligt förekommande titel",
+    "tm_matches": [
+      "vanligtvis använd titel"
+    ]
+  },
+  {
+    "source": "title sortname",
+    "reviewed": "sorteringsnamn för titel",
+    "tm_matches": [
+      "sorteringsnamn för titel"
+    ]
+  },
+  {
+    "source": "commonly used title for sorting purposes",
+    "reviewed": "vanligen använd titel för sortering",
+    "tm_matches": [
+      "vanligen använd titel för sorteringsändamål"
+    ]
+  },
+  {
+    "source": "artist",
+    "reviewed": "artist",
+    "tm_matches": [
+      "artist"
+    ]
+  },
+  {
+    "source": "person(s) responsible for the recording",
+    "reviewed": "personer som ansvarar för inspelningen",
+    "tm_matches": [
+      "person(er) som ansvarar för inspelningen"
+    ]
+  },
+  {
+    "source": "artist sortname",
+    "reviewed": "sorteringsnamn för artist",
+    "tm_matches": [
+      "sorteringsnamn för artist"
+    ]
+  },
+  {
+    "source": "person(s) responsible for the recording for sorting purposes",
+    "reviewed": "personer som ansvarar för inspelningen, för sortering",
+    "tm_matches": [
+      "person(er) som ansvarar för inspelningen för sorteringsändamål"
+    ]
+  },
+  {
+    "source": "album",
+    "reviewed": "album",
+    "tm_matches": [
+      "album"
+    ]
+  },
+  {
+    "source": "album containing this data",
+    "reviewed": "album som innehåller materialet",
+    "tm_matches": [
+      "album som innehåller dessa data"
+    ]
+  },
+  {
+    "source": "album sortname",
+    "reviewed": "sorteringsnamn för album",
+    "tm_matches": [
+      "sorteringsnamn för album"
+    ]
+  },
+  {
+    "source": "album containing this data for sorting purposes",
+    "reviewed": "album som innehåller materialet, för sortering",
+    "tm_matches": [
+      "album som innehåller dessa data för sorteringsändamål"
+    ]
+  },
+  {
+    "source": "album artist",
+    "reviewed": "albumartist",
+    "tm_matches": [
+      "albumartist"
+    ]
+  },
+  {
+    "source": "The artist of the entire album, as it should be displayed",
+    "reviewed": "Artisten som ska visas för hela albumet",
+    "tm_matches": [
+      "Artisten för hela albumet, som det ska visas"
+    ]
+  },
+  {
+    "source": "album artist sortname",
+    "reviewed": "sorteringsnamn för albumartist",
+    "tm_matches": [
+      "sorteringsnamn för albumartist"
+    ]
+  },
+  {
+    "source": "The artist of the entire album, as it should be sorted",
+    "reviewed": "Artisten för hela albumet, sorterad enligt artistnamnet",
+    "tm_matches": [
+      "Artisten för hela albumet, som det ska sorteras"
+    ]
+  },
+  {
+    "source": "date",
+    "reviewed": "datum",
+    "tm_matches": [
+      "datum"
+    ]
+  },
+  {
+    "source": "date the data was created (as a GDate structure)",
+    "reviewed": "datum då materialet skapades (som en GDate-struktur)",
+    "tm_matches": [
+      "datum då dessa data skapades (som en GDate-struktur)"
+    ]
+  },
+  {
+    "source": "datetime",
+    "reviewed": "datum och tid",
+    "tm_matches": [
+      "datumtid"
+    ]
+  },
+  {
+    "source": "date and time the data was created (as a GstDateTime structure)",
+    "reviewed": "datum och tid då materialet skapades (som en GstDateTime-struktur)",
+    "tm_matches": [
+      "datum och tid då dessa data skapades (som en GstDateTime-struktur)"
+    ]
+  },
+  {
+    "source": "genre",
+    "reviewed": "genre",
+    "tm_matches": [
+      "genre"
+    ]
+  },
+  {
+    "source": "genre this data belongs to",
+    "reviewed": "genre som dessa data tillhör",
+    "tm_matches": [
+      "genre som dessa data tillhör"
+    ]
+  },
+  {
+    "source": "comment",
+    "reviewed": "kommentar",
+    "tm_matches": [
+      "kommentar"
+    ]
+  },
+  {
+    "source": "free text commenting the data",
+    "reviewed": "fritextkommentar om materialet",
+    "tm_matches": [
+      "fri text som kommenterar dessa data"
+    ]
+  },
+  {
+    "source": "extended comment",
+    "reviewed": "utökad kommentar",
+    "tm_matches": [
+      "utökad kommentar"
+    ]
+  },
+  {
+    "source": "free text commenting the data in key=value or key[en]=comment form",
+    "reviewed": "fritextkommentar om materialet i formatet key=value eller key[en]=comment",
+    "tm_matches": [
+      "fri text som kommenterar dessa data i formatet key=värde eller key[sv]=kommentar"
+    ]
+  },
+  {
+    "source": "track number",
+    "reviewed": "spårnummer",
+    "tm_matches": [
+      "spårnummer"
+    ]
+  },
+  {
+    "source": "track number inside a collection",
+    "reviewed": "spårnummer i den samling som spåret tillhör",
+    "tm_matches": [
+      "spårnummer inuti en samling"
+    ]
+  },
+  {
+    "source": "track count",
+    "reviewed": "antal spår",
+    "tm_matches": [
+      "spårantal"
+    ]
+  },
+  {
+    "source": "count of tracks inside collection this track belongs to",
+    "reviewed": "antal spår i den samling som spåret tillhör",
+    "tm_matches": [
+      "antal spår inuti den samling som detta spår tillhör"
+    ]
+  },
+  {
+    "source": "disc number",
+    "reviewed": "skivnummer",
+    "tm_matches": [
+      "skivnummer"
+    ]
+  },
+  {
+    "source": "disc number inside a collection",
+    "reviewed": "skivnummer i den samling som skivan tillhör",
+    "tm_matches": [
+      "skivnummer inuti en samling"
+    ]
+  },
+  {
+    "source": "disc count",
+    "reviewed": "antal skivor",
+    "tm_matches": [
+      "skivantal"
+    ]
+  },
+  {
+    "source": "count of discs inside collection this disc belongs to",
+    "reviewed": "antal skivor i den samling som skivan tillhör",
+    "tm_matches": [
+      "antal skivor inuti den samling som denna skiva tillhör"
+    ]
+  },
+  {
+    "source": "location",
+    "reviewed": "plats",
+    "tm_matches": [
+      "plats"
+    ]
+  },
+  {
+    "source": "Origin of media as a URI (location, where the original of the file or stream is hosted)",
+    "reviewed": "Mediets ursprung som URI (platsen där originalfilen eller -strömmen finns)",
+    "tm_matches": [
+      "Ursprunget för mediet som en URI (plats där den ursprungliga filen eller strömmen finns)"
+    ]
+  },
+  {
+    "source": "homepage",
+    "reviewed": "webbsida",
+    "tm_matches": [
+      "webbsida"
+    ]
+  },
+  {
+    "source": "Homepage for this media (i.e. artist or movie homepage)",
+    "reviewed": "Webbsida för mediet (till exempel artistens eller filmens webbplats)",
+    "tm_matches": [
+      "Webbsida för detta media (alltså webbsidan för artisten eller filmen)"
+    ]
+  },
+  {
+    "source": "description",
+    "reviewed": "beskrivning",
+    "tm_matches": [
+      "beskrivning"
+    ]
+  },
+  {
+    "source": "short text describing the content of the data",
+    "reviewed": "kort text som beskriver innehållet i materialet",
+    "tm_matches": [
+      "kort text som beskriver innehållet av dessa data"
+    ]
+  },
+  {
+    "source": "version",
+    "reviewed": "version",
+    "tm_matches": [
+      "version"
+    ]
+  },
+  {
+    "source": "version of this data",
+    "reviewed": "version av dessa data",
+    "tm_matches": [
+      "version av dessa data"
+    ]
+  },
+  {
+    "source": "ISRC",
+    "reviewed": "ISRC",
+    "tm_matches": [
+      "ISRC"
+    ]
+  },
+  {
+    "source": "International Standard Recording Code - see http://www.ifpi.org/isrc/",
+    "reviewed": "International Standard Recording Code – se http://www.ifpi.org/isrc/",
+    "tm_matches": [
+      "International Standard Recording Code - se http://www.ifpi.org/isrc/"
+    ]
+  },
+  {
+    "source": "organization",
+    "reviewed": "organisation",
+    "tm_matches": [
+      "organisation"
+    ]
+  },
+  {
+    "source": "copyright",
+    "reviewed": "upphovsrätt",
+    "tm_matches": [
+      "copyright"
+    ]
+  },
+  {
+    "source": "copyright notice of the data",
+    "reviewed": "upphovsrättsnotis för materialet",
+    "tm_matches": [
+      "copyrightnotis för dessa data"
+    ]
+  },
+  {
+    "source": "copyright uri",
+    "reviewed": "upphovsrätts-URI",
+    "tm_matches": [
+      "copyright-uri"
+    ]
+  },
+  {
+    "source": "URI to the copyright notice of the data",
+    "reviewed": "URI till upphovsrättsnotisen för materialet",
+    "tm_matches": [
+      "Uri till copyrightnotis för datat"
+    ]
+  },
+  {
+    "source": "encoded by",
+    "reviewed": "kodat av",
+    "tm_matches": [
+      "kodat av"
+    ]
+  },
+  {
+    "source": "name of the encoding person or organization",
+    "reviewed": "namn på den person eller organisation som kodat",
+    "tm_matches": [
+      "namn på den person eller organisation som kodat"
+    ]
+  },
+  {
+    "source": "contact",
+    "reviewed": "kontakt",
+    "tm_matches": [
+      "kontakt"
+    ]
+  },
+  {
+    "source": "contact information",
+    "reviewed": "kontaktinformation",
+    "tm_matches": [
+      "kontaktinformation"
+    ]
+  },
+  {
+    "source": "license",
+    "reviewed": "licens",
+    "tm_matches": [
+      "licens"
+    ]
+  },
+  {
+    "source": "license of data",
+    "reviewed": "licens för materialet",
+    "tm_matches": [
+      "licens för data"
+    ]
+  },
+  {
+    "source": "license uri",
+    "reviewed": "licens-URI",
+    "tm_matches": [
+      "licens-uri"
+    ]
+  },
+  {
+    "source": "URI to the license of the data",
+    "reviewed": "URI till licensen för materialet",
+    "tm_matches": [
+      "Uri till licens för datat"
+    ]
+  },
+  {
+    "source": "performer",
+    "reviewed": "artist",
+    "tm_matches": [
+      "aktör"
+    ]
+  },
+  {
+    "source": "person(s) performing",
+    "reviewed": "personer som framför verket",
+    "tm_matches": [
+      "person(er) som agerar"
+    ]
+  },
+  {
+    "source": "composer",
+    "reviewed": "kompositör",
+    "tm_matches": [
+      "kompositör"
+    ]
+  },
+  {
+    "source": "person(s) who composed the recording",
+    "reviewed": "personer som komponerade inspelningen",
+    "tm_matches": [
+      "person(er) som komponerade inspelningen"
+    ]
+  },
+  {
+    "source": "conductor",
+    "reviewed": "dirigent",
+    "tm_matches": [
+      "konduktör"
+    ]
+  },
+  {
+    "source": "conductor/performer refinement",
+    "reviewed": "precisering av dirigent/artist",
+    "tm_matches": [
+      "konduktör/artist förfining"
+    ]
+  },
+  {
+    "source": "duration",
+    "reviewed": "varaktighet",
+    "tm_matches": [
+      "varaktighet"
+    ]
+  },
+  {
+    "source": "length in GStreamer time units (nanoseconds)",
+    "reviewed": "längd i GStreamer-tidsenheter (nanosekunder)",
+    "tm_matches": [
+      "längd i GStreamer-tidsenheter (nanosekunder)"
+    ]
+  },
+  {
+    "source": "codec",
+    "reviewed": "kodek",
+    "tm_matches": [
+      "komprimeringsmetod"
+    ]
+  },
+  {
+    "source": "codec the data is stored in",
+    "reviewed": "kodek som materialet lagras med",
+    "tm_matches": [
+      "komprimeringsmetod som dessa data lagras med"
+    ]
+  },
+  {
+    "source": "video codec",
+    "reviewed": "videokodek",
+    "tm_matches": [
+      "videokomprimeringsmetod"
+    ]
+  },
+  {
+    "source": "codec the video data is stored in",
+    "reviewed": "kodek som videomaterialet lagras med",
+    "tm_matches": [
+      "komprimeringsmetod som dessa videodata lagras med"
+    ]
+  },
+  {
+    "source": "audio codec",
+    "reviewed": "ljudkodek",
+    "tm_matches": [
+      "ljudkomprimeringsmetod"
+    ]
+  },
+  {
+    "source": "codec the audio data is stored in",
+    "reviewed": "kodek som ljudmaterialet lagras med",
+    "tm_matches": [
+      "komprimeringsmetod som dessa ljuddata lagras med"
+    ]
+  },
+  {
+    "source": "subtitle codec",
+    "reviewed": "undertextkodek",
+    "tm_matches": [
+      "omkodare för undertext"
+    ]
+  },
+  {
+    "source": "codec the subtitle data is stored in",
+    "reviewed": "kodek som undertextmaterialet lagras med",
+    "tm_matches": [
+      "omkodare som undertextdata lagrats med"
+    ]
+  },
+  {
+    "source": "container format",
+    "reviewed": "behållarformat",
+    "tm_matches": [
+      "behållarformat"
+    ]
+  },
+  {
+    "source": "container format the data is stored in",
+    "reviewed": "behållarformatet som dessa data lagras med",
+    "tm_matches": [
+      "behållarformatet som dessa data lagras med"
+    ]
+  },
+  {
+    "source": "bitrate",
+    "reviewed": "bitfrekvens",
+    "tm_matches": [
+      "bitfrekvens"
+    ]
+  },
+  {
+    "source": "exact or average bitrate in bits/s",
+    "reviewed": "exakt eller genomsnittlig bitfrekvens i bit/s",
+    "tm_matches": [
+      "exakt bitfrekvens eller genomsnittlig bitfrekvens i bitar/s"
+    ]
+  },
+  {
+    "source": "nominal bitrate",
+    "reviewed": "nominell bitfrekvens",
+    "tm_matches": [
+      "nominell bitfrekvens"
+    ]
+  },
+  {
+    "source": "nominal bitrate in bits/s",
+    "reviewed": "nominell bitfrekvens i bitar/s",
+    "tm_matches": [
+      "nominell bitfrekvens i bitar/s"
+    ]
+  },
+  {
+    "source": "minimum bitrate",
+    "reviewed": "minsta bitfrekvens",
+    "tm_matches": [
+      "minsta bitfrekvens"
+    ]
+  },
+  {
+    "source": "minimum bitrate in bits/s",
+    "reviewed": "minsta bitfrekvens i bitar/s",
+    "tm_matches": [
+      "minsta bitfrekvens i bitar/s"
+    ]
+  },
+  {
+    "source": "maximum bitrate",
+    "reviewed": "högsta bitfrekvens",
+    "tm_matches": [
+      "högsta bitfrekvens"
+    ]
+  },
+  {
+    "source": "maximum bitrate in bits/s",
+    "reviewed": "högsta bitfrekvens i bitar/s",
+    "tm_matches": [
+      "högsta bitfrekvens i bitar/s"
+    ]
+  },
+  {
+    "source": "encoder",
+    "reviewed": "kodare",
+    "tm_matches": [
+      "kodare"
+    ]
+  },
+  {
+    "source": "encoder used to encode this stream",
+    "reviewed": "kodare som har använts för att koda strömmen",
+    "tm_matches": [
+      "kodare som använts för att koda denna ström"
+    ]
+  },
+  {
+    "source": "encoder version",
+    "reviewed": "kodarversion",
+    "tm_matches": [
+      "kodarversion"
+    ]
+  },
+  {
+    "source": "version of the encoder used to encode this stream",
+    "reviewed": "version av kodaren som har använts för att koda strömmen",
+    "tm_matches": [
+      "version av kodaren som använts för att koda denna ström"
+    ]
+  },
+  {
+    "source": "serial",
+    "reviewed": "serienummer",
+    "tm_matches": [
+      "serienummer"
+    ]
+  },
+  {
+    "source": "serial number of track",
+    "reviewed": "serienummer för spåret",
+    "tm_matches": [
+      "serienummer för spår"
+    ]
+  },
+  {
+    "source": "replaygain track gain",
+    "reviewed": "spårförstärkning (ReplayGain)",
+    "tm_matches": [
+      "uppspelningsförstärkning spårförstärkning"
+    ]
+  },
+  {
+    "source": "track gain in dB",
+    "reviewed": "spårets förstärkning i dB",
+    "tm_matches": [
+      "spårförstärkning i dB"
+    ]
+  },
+  {
+    "source": "r128 track gain",
+    "reviewed": "spårförstärkning (R128)",
+    "tm_matches": [
+      "r128 spårförstärkning"
+    ]
+  },
+  {
+    "source": "track gain in dB (r128)",
+    "reviewed": "spårets förstärkning i dB (R128)",
+    "tm_matches": [
+      "spårförstärkning i dB (r128)"
+    ]
+  },
+  {
+    "source": "replaygain track peak",
+    "reviewed": "spårets toppnivå (ReplayGain)",
+    "tm_matches": [
+      "uppspelningsförstärkning spårtopp"
+    ]
+  },
+  {
+    "source": "peak of the track",
+    "reviewed": "spårets toppnivå",
+    "tm_matches": [
+      "toppen för spåret"
+    ]
+  },
+  {
+    "source": "replaygain album gain",
+    "reviewed": "albumförstärkning (ReplayGain)",
+    "tm_matches": [
+      "uppspelningsförstärkning albumförstärkning"
+    ]
+  },
+  {
+    "source": "album gain in dB",
+    "reviewed": "albumförstärkning i dB",
+    "tm_matches": [
+      "albumförstärkning i dB"
+    ]
+  },
+  {
+    "source": "r128 album gain",
+    "reviewed": "albumförstärkning (R128)",
+    "tm_matches": [
+      "r128 albumförstärkning"
+    ]
+  },
+  {
+    "source": "album gain in dB (r128)",
+    "reviewed": "albumförstärkning i dB (R128)",
+    "tm_matches": [
+      "albumförstärkning i dB (r128)"
+    ]
+  },
+  {
+    "source": "replaygain album peak",
+    "reviewed": "albumets toppnivå (ReplayGain)",
+    "tm_matches": [
+      "uppspelningsförstärkning albumtopp"
+    ]
+  },
+  {
+    "source": "peak of the album",
+    "reviewed": "albumets toppnivå",
+    "tm_matches": [
+      "toppen för albumet"
+    ]
+  },
+  {
+    "source": "replaygain reference level",
+    "reviewed": "referensnivå för ReplayGain",
+    "tm_matches": [
+      "referensnivå för uppspelningsförstärkning"
+    ]
+  },
+  {
+    "source": "reference level of track and album gain values",
+    "reviewed": "referensnivå för förstärkningsvärden för spår och album",
+    "tm_matches": [
+      "referensnivå för förstärkningsvärden för spår och album"
+    ]
+  },
+  {
+    "source": "language code",
+    "reviewed": "språkkod",
+    "tm_matches": [
+      "språkkod"
+    ]
+  },
+  {
+    "source": "language code for this stream, conforming to ISO-639-1 or ISO-639-2",
+    "reviewed": "Språkkod för strömmen enligt ISO-639-1 eller ISO-639-2",
+    "tm_matches": [
+      "språkkod för denna ström, enligt ISO-639-1 eller ISO-639-2"
+    ]
+  },
+  {
+    "source": "language name",
+    "reviewed": "språknamn",
+    "tm_matches": [
+      "språknamn"
+    ]
+  },
+  {
+    "source": "freeform name of the language this stream is in",
+    "reviewed": "fritextnamn på språket i strömmen",
+    "tm_matches": [
+      "namn på det språk som denna ström använder"
+    ]
+  },
+  {
+    "source": "image",
+    "reviewed": "bild",
+    "tm_matches": [
+      "bild"
+    ]
+  },
+  {
+    "source": "image related to this stream",
+    "reviewed": "bild som hör till strömmen",
+    "tm_matches": [
+      "bild relaterad till den här strömmen"
+    ]
+  },
+  {
+    "source": "preview image",
+    "reviewed": "förhandsvisningsbild",
+    "tm_matches": [
+      "förhandsvisningsbild"
+    ]
+  },
+  {
+    "source": "preview image related to this stream",
+    "reviewed": "förhandsvisningsbild för strömmen",
+    "tm_matches": [
+      "förhandsvisningsbild relaterad till den här strömmen"
+    ]
+  },
+  {
+    "source": "attachment",
+    "reviewed": "bilaga",
+    "tm_matches": [
+      "bilaga"
+    ]
+  },
+  {
+    "source": "file attached to this stream",
+    "reviewed": "fil som är bifogad till strömmen",
+    "tm_matches": [
+      "fil bifogad till den här strömmen"
+    ]
+  },
+  {
+    "source": "beats per minute",
+    "reviewed": "slag per minut",
+    "tm_matches": [
+      "slag per minut"
+    ]
+  },
+  {
+    "source": "number of beats per minute in audio",
+    "reviewed": "antalet slag per minut i ljudet",
+    "tm_matches": [
+      "antalet slag per minut i ljudet"
+    ]
+  },
+  {
+    "source": "keywords",
+    "reviewed": "nyckelord",
+    "tm_matches": [
+      "nyckelord"
+    ]
+  },
+  {
+    "source": "comma separated keywords describing the content",
+    "reviewed": "kommaseparerade nyckelord som beskriver innehållet",
+    "tm_matches": [
+      "kommaseparerade nyckelord som beskriver innehållet"
+    ]
+  },
+  {
+    "source": "geo location name",
+    "reviewed": "geografisk plats",
+    "tm_matches": [
+      "geografiskt platsnamn"
+    ]
+  },
+  {
+    "source": "human readable descriptive location of where the media has been recorded or produced",
+    "reviewed": "läsbar beskrivning av platsen där mediet spelades in eller skapades",
+    "tm_matches": [
+      "mänskligt läslig beskrivande plats för var mediet har spelats in eller producerats"
+    ]
+  },
+  {
+    "source": "geo location latitude",
+    "reviewed": "geografisk latitud",
+    "tm_matches": [
+      "latitud för geografisk plats"
+    ]
+  },
+  {
+    "source": "geo latitude location of where the media has been recorded or produced in degrees according to WGS84 (zero at the equator, negative values for southern latitudes)",
+    "reviewed": "latitud i grader för platsen där mediet spelades in eller skapades, enligt WGS84 (0 vid ekvatorn och negativa värden söder om ekvatorn)",
+    "tm_matches": [
+      "latitud i grader för geografisk plats där mediet har spelats in eller producerats enligt WGS84 (noll för ekvatorn, negativa värden för sydliga latituder)"
+    ]
+  },
+  {
+    "source": "geo location longitude",
+    "reviewed": "geografisk longitud",
+    "tm_matches": [
+      "longitud för geografisk plats"
+    ]
+  },
+  {
+    "source": "geo longitude location of where the media has been recorded or produced in degrees according to WGS84 (zero at the prime meridian in Greenwich/UK,  negative values for western longitudes)",
+    "reviewed": "longitud i grader för platsen där mediet spelades in eller skapades, enligt WGS84 (0 vid nollmeridianen i Greenwich och negativa värden väster om den)",
+    "tm_matches": [
+      "longitud i grader för geografisk plats där mediet har spelats in eller producerats enligt WGS84 (noll för meridianlinjen i Greenwich, Storbritannien, negativa värden för västliga longituder)"
+    ]
+  },
+  {
+    "source": "geo location elevation",
+    "reviewed": "geografisk höjd",
+    "tm_matches": [
+      "höjd för geografisk plats"
+    ]
+  },
+  {
+    "source": "geo elevation of where the media has been recorded or produced in meters according to WGS84 (zero is average sea level)",
+    "reviewed": "höjd i meter för platsen där mediet spelades in eller skapades, enligt WGS84 (0 motsvarar medelhavsnivå)",
+    "tm_matches": [
+      "höjd i meter för geografisk plats där mediet har spelats in eller producerats enligt WGS84 (noll för genomsnittlig havsnivå)"
+    ]
+  },
+  {
+    "source": "geo location country",
+    "reviewed": "land där mediet spelades in",
+    "tm_matches": [
+      "land för geografisk plats"
+    ]
+  },
+  {
+    "source": "country (english name) where the media has been recorded or produced",
+    "reviewed": "landets namn på engelska, där mediet spelades in eller skapades",
+    "tm_matches": [
+      "land (engelskt namn) där mediet har spelats in eller producerats"
+    ]
+  },
+  {
+    "source": "geo location city",
+    "reviewed": "ort där mediet spelades in",
+    "tm_matches": [
+      "stad för geografisk plats"
+    ]
+  },
+  {
+    "source": "city (english name) where the media has been recorded or produced",
+    "reviewed": "ortens namn på engelska, där mediet spelades in eller skapades",
+    "tm_matches": [
+      "stad (engelskt namn) där mediet har spelats in eller producerats"
+    ]
+  },
+  {
+    "source": "geo location sublocation",
+    "reviewed": "geografisk delplats",
+    "tm_matches": [
+      "specifik plats för geografisk plats"
+    ]
+  },
+  {
+    "source": "a location within a city where the media has been produced or created (e.g. the neighborhood)",
+    "reviewed": "plats i en stad där mediet spelades in eller skapades (till exempel en stadsdel)",
+    "tm_matches": [
+      "en plats inom en stad där mediet har producerats eller skapats (t.ex. närområde)"
+    ]
+  },
+  {
+    "source": "geo location horizontal error",
+    "reviewed": "osäkerhet i horisontell position",
+    "tm_matches": [
+      "fel i horisontell geografisk plats"
+    ]
+  },
+  {
+    "source": "expected error of the horizontal positioning measures (in meters)",
+    "reviewed": "förväntad osäkerhet i den horisontella positionsangivelsen (meter)",
+    "tm_matches": [
+      "förväntat fel i horisontell positioneringsmätning (i meter)"
+    ]
+  },
+  {
+    "source": "geo location movement speed",
+    "reviewed": "inspelningsenhetens rörelsehastighet",
+    "tm_matches": [
+      "förflyttningshastighet för geografisk plats"
+    ]
+  },
+  {
+    "source": "movement speed of the capturing device while performing the capture in m/s",
+    "reviewed": "inspelningsenhetens rörelsehastighet under inspelningen i m/s",
+    "tm_matches": [
+      "förflyttningshastighet för fångstenheten när mediet skapas (i meter/s)"
+    ]
+  },
+  {
+    "source": "geo location movement direction",
+    "reviewed": "inspelningsenhetens rörelseriktning",
+    "tm_matches": [
+      "förflyttningsriktning för geografisk plats"
+    ]
+  },
+  {
+    "source": "indicates the movement direction of the device performing the capture of a media. It is represented as degrees in floating point representation, 0 means the geographic north, and increases clockwise",
+    "reviewed": "anger inspelningsenhetens rörelseriktning. Värdet anges i grader som flyttal; 0 betyder geografiskt norr och värdet ökar medurs",
+    "tm_matches": [
+      "indikerar riktningen som enheten förflyttas när mediet skapas. Det representeras som grader i flyttalsrepresentation, 0 betyder geografiskt nordlig riktning och ökar medsols"
+    ]
+  },
+  {
+    "source": "geo location capture direction",
+    "reviewed": "inspelningsriktning",
+    "tm_matches": [
+      "fångstriktning för geografisk plats"
+    ]
+  },
+  {
+    "source": "indicates the direction the device is pointing to when capturing  a media. It is represented as degrees in floating point  representation, 0 means the geographic north, and increases clockwise",
+    "reviewed": "anger riktningen som enheten pekar åt när den spelar in mediet. Värdet anges i grader som flyttal; 0 betyder geografiskt norr och värdet ökar medurs",
+    "tm_matches": [
+      "indikerar riktningen som enheten pekar mot när mediet skapas. Det representeras som grader i flyttalsrepresentation, 0 betyder geografiskt nordlig riktning och ökar medsols"
+    ]
+  },
+  {
+    "source": "show name",
+    "reviewed": "programnamn",
+    "tm_matches": [
+      "visningsnamn"
+    ]
+  },
+  {
+    "source": "Name of the tv/podcast/series show the media is from",
+    "reviewed": "Namn på tv-programmet, podden eller serien som mediet kommer från",
+    "tm_matches": [
+      "Namn på TV-program/poddsändning/serie som mediet kommer från"
+    ]
+  },
+  {
+    "source": "show sortname",
+    "reviewed": "sorteringsnamn för program",
+    "tm_matches": [
+      "visa sorteringsnamn"
+    ]
+  },
+  {
+    "source": "Name of the tv/podcast/series show the media is from, for sorting purposes",
+    "reviewed": "Namn på tv-programmet, podden eller serien som mediet kommer från, för sortering",
+    "tm_matches": [
+      "Namn på TV-program/poddsändning/serie som mediet kommer från, för sorteringsändamål"
+    ]
+  },
+  {
+    "source": "episode number",
+    "reviewed": "avsnittsnummer",
+    "tm_matches": [
+      "avsnittsnummer"
+    ]
+  },
+  {
+    "source": "The episode number in the season the media is part of",
+    "reviewed": "Avsnittsnummer i säsongen som mediet ingår i",
+    "tm_matches": [
+      "Avsnittsnumret i säsongen som mediet är en del av"
+    ]
+  },
+  {
+    "source": "season number",
+    "reviewed": "säsongsnummer",
+    "tm_matches": [
+      "säsongsnummer"
+    ]
+  },
+  {
+    "source": "The season number of the show the media is part of",
+    "reviewed": "Säsongsnummer för programmet som mediet ingår i",
+    "tm_matches": [
+      "Säsongsnumret för programmet som mediet är en del av"
+    ]
+  },
+  {
+    "source": "lyrics",
+    "reviewed": "låttexter",
+    "tm_matches": [
+      "låttexter"
+    ]
+  },
+  {
+    "source": "The lyrics of the media, commonly used for songs",
+    "reviewed": "Låttext för mediet, vanligen en sångtext",
+    "tm_matches": [
+      "Låttexter för mediet, används oftast för låtar"
+    ]
+  },
+  {
+    "source": "composer sortname",
+    "reviewed": "sorteringsnamn för kompositör",
+    "tm_matches": [
+      "sorteringsnamn för kompositör"
+    ]
+  },
+  {
+    "source": "person(s) who composed the recording, for sorting purposes",
+    "reviewed": "personer som komponerade inspelningen, för sortering",
+    "tm_matches": [
+      "person(er) som komponerade inspelningen, för sorteringsändamål"
+    ]
+  },
+  {
+    "source": "grouping",
+    "reviewed": "gruppering",
+    "tm_matches": [
+      "gruppering"
+    ]
+  },
+  {
+    "source": "Groups related media that spans multiple tracks, like the different pieces of a concerto. It is a higher level than a track, but lower than an album",
+    "reviewed": "Grupperar relaterat medieinnehåll över flera spår, till exempel satserna i ett konsertverk. Gruppen ligger över spårnivån men under albumnivån",
+    "tm_matches": [
+      "Grupprelaterade media som spänner över flera spår, såsom olika delar av en konsert. Det är en högre nivå än ett spår, men lägre än ett album"
+    ]
+  },
+  {
+    "source": "user rating",
+    "reviewed": "användarbetyg",
+    "tm_matches": [
+      "användarbetyg"
+    ]
+  },
+  {
+    "source": "Rating attributed by a user. The higher the rank, the more the user likes this media",
+    "reviewed": "Betyg som en användare har gett. Ju högre betyg, desto mer tycker användaren om mediet",
+    "tm_matches": [
+      "Betyg angivit av en användare. Desto högre rankning, desto mer gillar användaren detta media"
+    ]
+  },
+  {
+    "source": "device manufacturer",
+    "reviewed": "enhetstillverkare",
+    "tm_matches": [
+      "enhetstillverkare"
+    ]
+  },
+  {
+    "source": "Manufacturer of the device used to create this media",
+    "reviewed": "Tillverkare av enheten som användes för att skapa mediet",
+    "tm_matches": [
+      "Tillverkare av enheten som använts för att skapa detta media"
+    ]
+  },
+  {
+    "source": "device model",
+    "reviewed": "enhetsmodell",
+    "tm_matches": [
+      "enhetsmodell"
+    ]
+  },
+  {
+    "source": "Model of the device used to create this media",
+    "reviewed": "Modell på enheten som användes för att skapa mediet",
+    "tm_matches": [
+      "Modell av enheten som använts för att skapa detta media"
+    ]
+  },
+  {
+    "source": "application name",
+    "reviewed": "programnamn",
+    "tm_matches": [
+      "programnamn"
+    ]
+  },
+  {
+    "source": "Application used to create the media",
+    "reviewed": "Program som användes för att skapa mediet",
+    "tm_matches": [
+      "Programmet som använts för att skapa detta media"
+    ]
+  },
+  {
+    "source": "application data",
+    "reviewed": "programdata",
+    "tm_matches": [
+      "programdata"
+    ]
+  },
+  {
+    "source": "Arbitrary application data to be serialized into the media",
+    "reviewed": "Godtyckliga programdata som serialiseras in i mediet",
+    "tm_matches": [
+      "Godtycklig programdata att serialisera inuti detta media"
+    ]
+  },
+  {
+    "source": "image orientation",
+    "reviewed": "bildorientering",
+    "tm_matches": [
+      "bildorientering"
+    ]
+  },
+  {
+    "source": "How the image should be rotated or flipped before display",
+    "reviewed": "Hur bilden ska roteras eller vändas före visning",
+    "tm_matches": [
+      "Hur bilden ska roteras eller vändas före visning"
+    ]
+  },
+  {
+    "source": "publisher",
+    "reviewed": "utgivare",
+    "tm_matches": [
+      "utgivare"
+    ]
+  },
+  {
+    "source": "Name of the label or publisher",
+    "reviewed": "Skivbolagets eller utgivarens namn",
+    "tm_matches": [
+      "Namn på förlag eller utgivare"
+    ]
+  },
+  {
+    "source": "interpreted-by",
+    "reviewed": "tolkad av",
+    "tm_matches": [
+      "tolkad av"
+    ]
+  },
+  {
+    "source": "Information about the people behind a remix and similar interpretations",
+    "reviewed": "Information om personerna bakom en remix eller liknande tolkning",
+    "tm_matches": [
+      "Information om människorna bakom en remix eller liknande tolkning"
+    ]
+  },
+  {
+    "source": "midi-base-note",
+    "reviewed": "MIDI-basnot",
+    "tm_matches": [
+      "midi-bas-not"
+    ]
+  },
+  {
+    "source": "Midi note number of the audio track.",
+    "reviewed": "MIDI-tonnummer för ljudspåret.",
+    "tm_matches": [
+      "Midi-not-nummer för ljudspåret."
+    ]
+  },
+  {
+    "source": "private-data",
+    "reviewed": "privata data",
+    "tm_matches": [
+      "privat-data"
+    ]
+  },
+  {
+    "source": "Private data",
+    "reviewed": "Privata data",
+    "tm_matches": [
+      "Privat data"
+    ]
+  },
+  {
+    "source": "container-specific-track-id",
+    "reviewed": "behållarspecifikt spår-ID",
+    "tm_matches": [
+      "container-specific-track-id"
+    ]
+  },
+  {
+    "source": "Container-specific Track ID",
+    "reviewed": "Spår-ID som är specifikt för behållaren",
+    "tm_matches": [
+      "Behållarspecifikt spår-ID"
+    ]
+  },
+  {
+    "source": ", ",
+    "reviewed": ", ",
+    "tm_matches": [
+      ", "
+    ]
+  },
+  {
+    "source": "Invalid URI: %s",
+    "reviewed": "Ogiltig URI: %s",
+    "tm_matches": [
+      "Ogiltig URI: %s"
+    ]
+  },
+  {
+    "source": "No URI handler for the %s protocol found",
+    "reviewed": "Ingen URI-hanterare hittades för protokollet %s",
+    "tm_matches": [
+      "Ingen uri-hanterare hittades för %s-protokollet"
+    ]
+  },
+  {
+    "source": "URI scheme '%s' not supported",
+    "reviewed": "URI-schemat ”%s” stöds inte",
+    "tm_matches": [
+      "Uri-schema ”%s” saknar stöd"
+    ]
+  },
+  {
+    "source": "ERROR: from element %s: %s\n",
+    "reviewed": "FEL: från element %s: %s\n",
+    "tm_matches": [
+      "FEL: från element %s: %s\n"
+    ]
+  },
+  {
+    "source": "Additional debug info:\n%s\n",
+    "reviewed": "Ytterligare felsökningsinformation:\n%s\n",
+    "tm_matches": [
+      "Ytterligare felsökningsinformation:\n%s\n"
+    ]
+  },
+  {
+    "source": "property \"%s\" in element \"%s\" is not allowed when parsing untrusted input",
+    "reviewed": "egenskapen ”%s” i elementet ”%s” är inte tillåten när opålitliga indata tolkas",
+    "tm_matches": [
+      "Egenskapen ”%s” i elementet ”%s” är inte tillåten vid tolkning av opålitliga indata"
+    ]
+  },
+  {
+    "source": "link has no source [sink=%s@%p]",
+    "reviewed": "länken saknar en source-pad [sink=%s@%p]",
+    "tm_matches": [
+      "länk har ingen källa [utgång=%s@%p]"
+    ]
+  },
+  {
+    "source": "link has no sink [source=%s@%p]",
+    "reviewed": "länken saknar en sink-pad [source=%s@%p]",
+    "tm_matches": [
+      "länk har ingen utgång [källa=%s@%p]"
+    ]
+  },
+  {
+    "source": "could not set property \"%s\" in element \"%s\" to \"%s\"",
+    "reviewed": "kunde inte ställa in egenskapen ”%s” i elementet ”%s” till ”%s”",
+    "tm_matches": [
+      "kunde inte ställa in egenskapen ”%s” i elementet ”%s” till ”%s”"
+    ]
+  },
+  {
+    "source": "No such property.",
+    "reviewed": "Ingen sådan egenskap.",
+    "tm_matches": [
+      "Ingen sådan egenskap."
+    ]
+  },
+  {
+    "source": "no property \"%s\" in element \"%s\"",
+    "reviewed": "ingen ”%s”-egenskap i elementet ”%s”",
+    "tm_matches": [
+      "ingen ”%s”-egenskap i elementet ”%s”"
+    ]
+  },
+  {
+    "source": "Element \"%s\" is not a GstPreset",
+    "reviewed": "Elementet ”%s” är inte en GstPreset",
+    "tm_matches": [
+      "Elementet ”%s” är inte en GstPreset"
+    ]
+  },
+  {
+    "source": "could not set preset \"%s\" in element \"%s\"",
+    "reviewed": "kunde inte ställa in förinställningen ”%s” i elementet ”%s”",
+    "tm_matches": [
+      "kunde inte ställa in förinställningen ”%s” i elementet ”%s”"
+    ]
+  },
+  {
+    "source": "no element \"%s\"",
+    "reviewed": "inget ”%s”-element",
+    "tm_matches": [
+      "inget ”%s”-element"
+    ]
+  },
+  {
+    "source": "element \"%s\" is not allowed when parsing untrusted input",
+    "reviewed": "elementet ”%s” är inte tillåtet vid tolkning av opålitliga indata",
+    "tm_matches": [
+      "Elementet ”%s” är inte tillåtet vid tolkning av opålitliga indata"
+    ]
+  },
+  {
+    "source": "could not set property \"%s\" in child of element \"%s\" to \"%s\"",
+    "reviewed": "Det gick inte att ställa in egenskapen ”%s” i ett underordnat element till ”%s” med värdet ”%s”",
+    "tm_matches": [
+      "kunde inte ställa in egenskapen ”%s” i barn till elementet ”%s” till ”%s”"
+    ]
+  },
+  {
+    "source": "Delayed linking failed.",
+    "reviewed": "Fördröjd länkning misslyckades.",
+    "tm_matches": [
+      "Fördröjd länkning misslyckades."
+    ]
+  },
+  {
+    "source": "could not link %s to %s, %s can't handle caps %s",
+    "reviewed": "kunde inte länka %s till %s; %s kan inte hantera caps %s",
+    "tm_matches": [
+      "kunde inte länka %s med %s, %s kan inte hantera förmågorna %s"
+    ]
+  },
+  {
+    "source": "could not link %s to %s, neither element can handle caps %s",
+    "reviewed": "kunde inte länka %s till %s; inget av elementen kan hantera caps %s",
+    "tm_matches": [
+      "kunde inte länka %s med %s, ingetdera element kan hantera förmågorna %s"
+    ]
+  },
+  {
+    "source": "could not link %s to %s with caps %s",
+    "reviewed": "kunde inte länka %s till %s med caps %s",
+    "tm_matches": [
+      "kunde inte länka %s till %s med förmågorna %s"
+    ]
+  },
+  {
+    "source": "could not link %s to %s",
+    "reviewed": "kunde inte länka %s till %s",
+    "tm_matches": [
+      "kunde inte länka %s med %s"
+    ]
+  },
+  {
+    "source": "unexpected reference \"%s\" - ignoring",
+    "reviewed": "oväntad referens ”%s” – ignoreras",
+    "tm_matches": [
+      "oväntad referens ”%s” - ignorerar"
+    ]
+  },
+  {
+    "source": "unexpected pad-reference \"%s\" - ignoring",
+    "reviewed": "oväntad pad-referens ”%s” – ignoreras",
+    "tm_matches": [
+      "oväntad kontakt-referens ”%s” - ignorerar"
+    ]
+  },
+  {
+    "source": "could not parse caps \"%s\"",
+    "reviewed": "kunde inte tolka caps ”%s”",
+    "tm_matches": [
+      "kunde inte tolka förmågorna ”%s”"
+    ]
+  },
+  {
+    "source": "no sink element for URI \"%s\"",
+    "reviewed": "inget sink-element hittades för URI:n ”%s”",
+    "tm_matches": [
+      "inget utgångselement för URI:n ”%s”"
+    ]
+  },
+  {
+    "source": "no source element for URI \"%s\"",
+    "reviewed": "inget source-element hittades för URI:n ”%s”",
+    "tm_matches": [
+      "inget källelement för URI:n ”%s”"
+    ]
+  },
+  {
+    "source": "syntax error",
+    "reviewed": "syntaxfel",
+    "tm_matches": [
+      "syntaxfel"
+    ]
+  },
+  {
+    "source": "specified empty bin \"%s\", not allowed",
+    "reviewed": "den angivna bin-enheten ”%s” är tom, vilket inte är tillåtet",
+    "tm_matches": [
+      "angav tom korg ”%s”, inte tillåtet"
+    ]
+  },
+  {
+    "source": "no bin \"%s\", unpacking elements",
+    "reviewed": "ingen bin-enhet ”%s” hittades; packar upp elementen",
+    "tm_matches": [
+      "ingen korg ”%s”, packar upp element"
+    ]
+  },
+  {
+    "source": "empty pipeline not allowed",
+    "reviewed": "en tom pipeline är inte tillåten",
+    "tm_matches": [
+      "tom rörledning är inte tillåtet"
+    ]
+  },
+  {
+    "source": "property \"%s\" cannot be set on a child that does not exist yet when parsing untrusted input",
+    "reviewed": "egenskapen ”%s” kan inte ställas in på ett underordnat element som ännu inte finns när opålitliga indata tolkas",
+    "tm_matches": [
+      "Egenskapen ”%s” kan inte ställas in för ett underordnat objekt som ännu inte finns vid tolkning av opålitliga indata"
+    ]
+  },
+  {
+    "source": "Pipeline construction is invalid, please add queues.",
+    "reviewed": "Pipelinebygget är ogiltigt. Lägg till köer.",
+    "tm_matches": [
+      "Rörledningskonstruktion ogiltig, lägg till köer."
+    ]
+  },
+  {
+    "source": "A lot of buffers are being dropped.",
+    "reviewed": "Många buffertar kastas bort.",
+    "tm_matches": [
+      "Förkastar en stor mängd buffertar."
+    ]
+  },
+  {
+    "source": "Internal data flow problem.",
+    "reviewed": "Internt dataflödesproblem.",
+    "tm_matches": [
+      "Internt dataflödesproblem."
+    ]
+  },
+  {
+    "source": "Internal data flow error.",
+    "reviewed": "Internt fel i dataflöde.",
+    "tm_matches": [
+      "Internt fel i dataflöde."
+    ]
+  },
+  {
+    "source": "Internal clock error.",
+    "reviewed": "Internt klockfel.",
+    "tm_matches": [
+      "Internt klockfel."
+    ]
+  },
+  {
+    "source": "Failed to map buffer.",
+    "reviewed": "Misslyckades med att mappa buffert.",
+    "tm_matches": [
+      "Misslyckades med att mappa buffert."
+    ]
+  },
+  {
+    "source": "Filter caps",
+    "reviewed": "Filtrera caps",
+    "tm_matches": [
+      "Filtrera förmågor"
+    ]
+  },
+  {
+    "source": "Restrict the possible allowed capabilities (NULL means ANY). Setting this property takes a reference to the supplied GstCaps object.",
+    "reviewed": "Begränsa vilka caps som tillåts (NULL betyder ANY). När den här egenskapen ställs in tas en referens till det angivna GstCaps-objektet.",
+    "tm_matches": [
+      "Begränsa de möjliga tillåtna förmågorna (NULL betyder ANY). Inställning av egenskapen tar en referens till det angivna GstCaps-objektet."
+    ]
+  },
+  {
+    "source": "Caps Change Mode",
+    "reviewed": "Caps-ändringsläge",
+    "tm_matches": [
+      "Ändringsläge för förmågor"
+    ]
+  },
+  {
+    "source": "Filter caps change behaviour",
+    "reviewed": "Ändringsbeteende för caps-filtret",
+    "tm_matches": [
+      "Ändringsläge för filterförmågor"
+    ]
+  },
+  {
+    "source": "No Temp directory specified.",
+    "reviewed": "Ingen temporärkatalog angiven.",
+    "tm_matches": [
+      "Ingen temporärkatalog angiven."
+    ]
+  },
+  {
+    "source": "Could not create temp file \"%s\".",
+    "reviewed": "Kunde inte skapa temporärfilen ”%s”.",
+    "tm_matches": [
+      "Kunde inte skapa temporärfilen ”%s”."
+    ]
+  },
+  {
+    "source": "Could not open file \"%s\" for reading.",
+    "reviewed": "Kunde inte öppna filen ”%s” för läsning.",
+    "tm_matches": [
+      "Kunde inte öppna filen ”%s” för läsning."
+    ]
+  },
+  {
+    "source": "Error while writing to download file.",
+    "reviewed": "Fel vid skrivning till hämtningsfilen.",
+    "tm_matches": [
+      "Fel vid skrivning till hämtningsfilen."
+    ]
+  },
+  {
+    "source": "No file name specified for writing.",
+    "reviewed": "Inget filnamn angivet för skrivning.",
+    "tm_matches": [
+      "Inget filnamn angivet för skrivning."
+    ]
+  },
+  {
+    "source": "Could not open file \"%s\" for writing.",
+    "reviewed": "Kunde inte öppna filen ”%s” för skrivning.",
+    "tm_matches": [
+      "Kunde inte öppna filen ”%s” för skrivning."
+    ]
+  },
+  {
+    "source": "Error closing file \"%s\".",
+    "reviewed": "Fel vid stängning av filen ”%s”.",
+    "tm_matches": [
+      "Fel vid stängning av filen ”%s”."
+    ]
+  },
+  {
+    "source": "Error while seeking in file \"%s\".",
+    "reviewed": "Fel vid sökning i filen ”%s”.",
+    "tm_matches": [
+      "Fel vid sökning i filen ”%s”."
+    ]
+  },
+  {
+    "source": "Error while writing to file \"%s\".",
+    "reviewed": "Fel vid skrivning till filen ”%s”.",
+    "tm_matches": [
+      "Fel vid skrivning till filen ”%s”."
+    ]
+  },
+  {
+    "source": "No file name specified for reading.",
+    "reviewed": "Inget filnamn angivet för läsning.",
+    "tm_matches": [
+      "Inget filnamn angivet för läsning."
+    ]
+  },
+  {
+    "source": "Could not get info on \"%s\".",
+    "reviewed": "Kunde inte få information om ”%s”.",
+    "tm_matches": [
+      "Kunde inte få information om ”%s”."
+    ]
+  },
+  {
+    "source": "\"%s\" is a directory.",
+    "reviewed": "”%s” är en katalog.",
+    "tm_matches": [
+      "”%s” är en katalog."
+    ]
+  },
+  {
+    "source": "File \"%s\" is a socket.",
+    "reviewed": "Filen ”%s” är en socket.",
+    "tm_matches": [
+      "Filen ”%s” är ett uttag."
+    ]
+  },
+  {
+    "source": "Failed after iterations as requested.",
+    "reviewed": "Misslyckades efter det begärda antalet iterationer.",
+    "tm_matches": [
+      "Misslyckades efter iterationer som begärt."
+    ]
+  },
+  {
+    "source": "eos-after and error-after can't both be defined.",
+    "reviewed": "eos-after och error-after kan inte båda definieras.",
+    "tm_matches": [
+      "eos-after och error-after kan inte båda definieras."
+    ]
+  },
+  {
+    "source": "caps",
+    "reviewed": "förmågor",
+    "tm_matches": [
+      "förmågor"
+    ]
+  },
+  {
+    "source": "detected capabilities in stream",
+    "reviewed": "detekterade förmågor i strömmen",
+    "tm_matches": [
+      "detekterade förmågor i strömmen"
+    ]
+  },
+  {
+    "source": "minimum",
+    "reviewed": "minimum",
+    "tm_matches": [
+      "minimum"
+    ]
+  },
+  {
+    "source": "force caps",
+    "reviewed": "tvinga förmågor",
+    "tm_matches": [
+      "tvinga förmågor"
+    ]
+  },
+  {
+    "source": "force caps without doing a typefind",
+    "reviewed": "tvinga förmågor utan att göra en typefind",
+    "tm_matches": [
+      "tvinga förmågor utan att göra en typefind"
+    ]
+  },
+  {
+    "source": "Stream doesn't contain enough data.",
+    "reviewed": "Strömmen innehåller inte tillräckligt med data.",
+    "tm_matches": [
+      "Strömmen innehåller inte tillräckligt med data."
+    ]
+  },
+  {
+    "source": "Stream contains no data.",
+    "reviewed": "Strömmen innehåller inga data.",
+    "tm_matches": [
+      "Strömmen innehåller inget data."
+    ]
+  },
+  {
+    "source": "%sImplemented Interfaces%s:\n",
+    "reviewed": "%sImplementerade gränssnitt%s:\n",
+    "tm_matches": [
+      "%sImplementerade gränssnitt%s:\n"
+    ]
+  },
+  {
+    "source": "%sElement Flags%s:\n",
+    "reviewed": "%sElementflaggor%s:\n",
+    "tm_matches": [
+      "%sElementflaggor%s:\n"
+    ]
+  },
+  {
+    "source": "readable",
+    "reviewed": "läsbar",
+    "tm_matches": [
+      "läsbar"
+    ]
+  },
+  {
+    "source": "writable",
+    "reviewed": "skrivbar",
+    "tm_matches": [
+      "skrivbar"
+    ]
+  },
+  {
+    "source": "deprecated",
+    "reviewed": "föråldrad",
+    "tm_matches": [
+      "föråldrad"
+    ]
+  },
+  {
+    "source": "controllable",
+    "reviewed": "kontrollerbar",
+    "tm_matches": [
+      "kontrollerbar"
+    ]
+  },
+  {
+    "source": "conditionally available",
+    "reviewed": "villkorligt tillgänglig",
+    "tm_matches": [
+      "villkorligt tillgänglig"
+    ]
+  },
+  {
+    "source": "sensitive when set from an untrusted pipeline description",
+    "reviewed": "Känslig när den anges i en opålitlig pipelinebeskrivning",
+    "tm_matches": [
+      "känslig när den ställs in från en opålitlig rörledningsbeskrivning"
+    ]
+  },
+  {
+    "source": "can be set only at object construction time",
+    "reviewed": "kan bara sättas vid tidpunkten då objektet konstrueras",
+    "tm_matches": [
+      "kan bara sättas vid tidpunkten då objektet konstrueras"
+    ]
+  },
+  {
+    "source": "changeable in NULL, READY, PAUSED or PLAYING state",
+    "reviewed": "ändringsbart i tillstånden NULL, READY, PAUSED eller PLAYING",
+    "tm_matches": [
+      "ändringsbart i tillstånden NULL, READY, PAUSED eller PLAYING"
+    ]
+  },
+  {
+    "source": "changeable only in NULL, READY or PAUSED state",
+    "reviewed": "ändringsbart endast i tillstånden NULL, READY eller PAUSED",
+    "tm_matches": [
+      "ändringsbart endast i tillstånden NULL, READY eller PAUSED"
+    ]
+  },
+  {
+    "source": "changeable only in NULL or READY state",
+    "reviewed": "ändringsbart endast i tillstånden NULL eller READY",
+    "tm_matches": [
+      "ändringsbart endast i tillstånden NULL eller READY"
+    ]
+  },
+  {
+    "source": "Blacklisted files:",
+    "reviewed": "Svartlistade filer:",
+    "tm_matches": [
+      "Svartlistade filer:"
+    ]
+  },
+  {
+    "source": "%sTotal count%s: %s",
+    "reviewed": "%sTotalt antal%s: %s",
+    "tm_matches": [
+      "%sTotalt antal%s: %s"
+    ]
+  },
+  {
+    "source": "Print all elements",
+    "reviewed": "Skriv ut alla element",
+    "tm_matches": [
+      "Skriv ut alla element"
+    ]
+  },
+  {
+    "source": "Print list of blacklisted files",
+    "reviewed": "Skriv ut lista över svartlistade filer",
+    "tm_matches": [
+      "Skriv ut lista över svartlistade filer"
+    ]
+  },
+  {
+    "source": "Print a machine-parsable list of features the specified plugin or all plugins provide.\n                                       Useful in connection with external automatic plugin installation mechanisms",
+    "reviewed": "Skriv ut en maskintolkningsbar lista över funktioner som den angivna insticksmodulen eller alla insticksmoduler tillhandahåller.\n                                       Användbart tillsammans med externa mekanismer för automatisk installation av insticksmoduler",
+    "tm_matches": [
+      "Skriv ut en maskintolkningsbar lista över funktioner som den angivna insticksmodulen eller alla insticksmoduler tillhandahåller.\n                                       Användbart tillsammans med externa mekanismer för automatisk installation av insticksmoduler"
+    ]
+  },
+  {
+    "source": "List the plugin contents",
+    "reviewed": "Lista insticksmodulens innehåll",
+    "tm_matches": [
+      "Lista insticksmodulens innehåll"
+    ]
+  },
+  {
+    "source": "A slashes ('/') separated list of types of elements (also known as klass) to list. (unordered)",
+    "reviewed": "En snedstrecksseparerad lista över elementtyper (även kallade klass), osorterad",
+    "tm_matches": [
+      "En snedstreckseparerad lista (”/”) av typer av element (också känd som en klass) att lista. (oordnad)"
+    ]
+  },
+  {
+    "source": "Check if the specified element or plugin exists",
+    "reviewed": "Kontrollera om det angivna elementet eller insticksmodulen existerar",
+    "tm_matches": [
+      "Kontrollera om det angivna elementet eller insticksmodulen existerar"
+    ]
+  },
+  {
+    "source": "When checking if an element or plugin exists, also check that its version is at least the version specified",
+    "reviewed": "När du kontrollerar om ett element eller en insticksmodul finns, kontrollera också att versionen är minst den angivna",
+    "tm_matches": [
+      "När existensen av ett element eller insticksmodul kontrolleras, kontrollera även att dess version åtminstone är den angivna"
+    ]
+  },
+  {
+    "source": "Print supported URI schemes, with the elements that implement them",
+    "reviewed": "Skriv ut de URI-scheman som stöds och elementen som hanterar dem",
+    "tm_matches": [
+      "Skriv ut uri-scheman som stöds, tillsammans med elementen som implementerar dem"
+    ]
+  },
+  {
+    "source": "Disable colors in output. You can also achieve the same by setting 'GST_INSPECT_NO_COLORS' environment variable to any value.",
+    "reviewed": "Inaktivera färger i utdata. Du kan också åstadkomma detsamma genom att sätta miljövariabeln ”GST_INSPECT_NO_COLORS” till vilket värde som helst.",
+    "tm_matches": [
+      "Inaktivera färger i utdata. Du kan också åstadkomma detsamma genom att sätta miljövariabeln ”GST_INSPECT_NO_COLORS” till vilket värde som helst."
+    ]
+  },
+  {
+    "source": "Color output, even when not sending to a tty.",
+    "reviewed": "Färgsätt utdata även när den inte skickas till en TTY.",
+    "tm_matches": [
+      "Färgutmatning, även då utmatning inte skickas till en tty."
+    ]
+  },
+  {
+    "source": "Could not load plugin file: %s\n",
+    "reviewed": "Kunde inte läsa in fil för insticksmodul: %s\n",
+    "tm_matches": [
+      "Kunde inte läsa in fil för insticksmodul: %s\n"
+    ]
+  },
+  {
+    "source": "No such element or plugin '%s'\n",
+    "reviewed": "Det finns inget element eller någon insticksmodul med namnet ”%s”\n",
+    "tm_matches": [
+      "Inget sådant element eller insticksmodul ”%s”\n"
+    ]
+  },
+  {
+    "source": "Index statistics",
+    "reviewed": "Indexstatistik",
+    "tm_matches": [
+      "Indexstatistik"
+    ]
+  },
+  {
+    "source": "ERROR: %s\n",
+    "reviewed": "FEL: %s\n",
+    "tm_matches": [
+      "FEL: %s\n"
+    ]
+  },
+  {
+    "source": "Details:\n%s\n",
+    "reviewed": "Detaljer:\n%s\n",
+    "tm_matches": [
+      "Detaljer:\n%s\n"
+    ]
+  },
+  {
+    "source": "Setting pipeline to PLAYING ...\n",
+    "reviewed": "Ställer pipelinen i PLAYING-läge ...\n",
+    "tm_matches": [
+      "Ställer in rörledningen till PLAYING...\n"
+    ]
+  },
+  {
+    "source": "ERROR: pipeline doesn't want to play.\n",
+    "reviewed": "FEL: pipelinen kan inte gå över till PLAYING-läget.\n",
+    "tm_matches": [
+      "FEL: rörledningen vill inte spela.\n"
+    ]
+  },
+  {
+    "source": "Got message #%u from element \"%s\" (%s): ",
+    "reviewed": "Tog emot meddelande #%u från elementet ”%s” (%s): ",
+    "tm_matches": [
+      "Fick meddelande #%u från elementet ”%s” (%s): "
+    ]
+  },
+  {
+    "source": "Got message #%u from pad \"%s:%s\" (%s): ",
+    "reviewed": "Tog emot meddelande #%u från pad ”%s:%s” (%s): ",
+    "tm_matches": [
+      "Fick meddelande #%u från kontakten (pad) ”%s:%s” (%s): "
+    ]
+  },
+  {
+    "source": "Got message #%u from object \"%s\" (%s): ",
+    "reviewed": "Tog emot meddelande #%u från objektet ”%s” (%s): ",
+    "tm_matches": [
+      "Fick meddelande #%u från objektet ”%s” (%s): "
+    ]
+  },
+  {
+    "source": "Got message #%u (%s): ",
+    "reviewed": "Tog emot meddelande #%u (%s): ",
+    "tm_matches": [
+      "Fick meddelande #%u (%s): "
+    ]
+  },
+  {
+    "source": "Got EOS from element \"%s\".\n",
+    "reviewed": "Tog emot EOS från elementet ”%s”.\n",
+    "tm_matches": [
+      "Fick EOS från element ”%s”.\n"
+    ]
+  },
+  {
+    "source": "EOS received - stopping pipeline...\n",
+    "reviewed": "EOS mottogs – stoppar pipelinen...\n",
+    "tm_matches": [
+      "EOS togs emot - stoppar rörledning...\n"
+    ]
+  },
+  {
+    "source": "FOUND TAG      : found by element \"%s\".\n",
+    "reviewed": "HITTADE TAGG   : hittad av elementet ”%s”.\n",
+    "tm_matches": [
+      "HITTADE TAGG: hittat av elementet ”%s”.\n"
+    ]
+  },
+  {
+    "source": "FOUND TAG      : found by pad \"%s:%s\".\n",
+    "reviewed": "HITTADE TAGG   : hittad via pad ”%s:%s”.\n",
+    "tm_matches": [
+      "HITTADE TAGG: hittat av kontakten ”%s:%s”.\n"
+    ]
+  },
+  {
+    "source": "FOUND TAG      : found by object \"%s\".\n",
+    "reviewed": "HITTADE TAGG   : hittad via objektet ”%s”.\n",
+    "tm_matches": [
+      "HITTADE TAGG: hittat av objektet ”%s”.\n"
+    ]
+  },
+  {
+    "source": "FOUND TAG\n",
+    "reviewed": "HITTADE TAGG\n",
+    "tm_matches": [
+      "HITTADE TAGG\n"
+    ]
+  },
+  {
+    "source": "FOUND TOC      : found by element \"%s\".\n",
+    "reviewed": "HITTADE INNEHÅLL: hittat av elementet ”%s”.\n",
+    "tm_matches": [
+      "HITTADE INNEHÅLL: hittat av elementet ”%s”.\n"
+    ]
+  },
+  {
+    "source": "FOUND TOC      : found by object \"%s\".\n",
+    "reviewed": "HITTADE INNEHÅLL: hittat av objektet ”%s”.\n",
+    "tm_matches": [
+      "HITTADE INNEHÅLL: hittat av objektet ”%s”.\n"
+    ]
+  },
+  {
+    "source": "FOUND TOC\n",
+    "reviewed": "HITTADE INNEHÅLL\n",
+    "tm_matches": [
+      "HITTADE INNEHÅLL\n"
+    ]
+  },
+  {
+    "source": "INFO:\n%s\n",
+    "reviewed": "INFO:\n%s\n",
+    "tm_matches": [
+      "INFO:\n%s\n"
+    ]
+  },
+  {
+    "source": "WARNING: from element %s: %s\n",
+    "reviewed": "VARNING: från elementet %s: %s\n",
+    "tm_matches": [
+      "VARNING: från elementet %s: %s\n"
+    ]
+  },
+  {
+    "source": "Pipeline is PREROLLED ...\n",
+    "reviewed": "Pipelinen har nått PREROLLED-läget ...\n",
+    "tm_matches": [
+      "Rörledningen har utfört PREROLL...\n"
+    ]
+  },
+  {
+    "source": "Prerolled, waiting for buffering to finish...\n",
+    "reviewed": "PREROLL klar, väntar på att buffringen ska bli klar...\n",
+    "tm_matches": [
+      "Förinläst, väntar på att buffringen ska bli färdig...\n"
+    ]
+  },
+  {
+    "source": "Prerolled, waiting for progress to finish...\n",
+    "reviewed": "PREROLL klar, väntar på att förloppet ska bli klart...\n",
+    "tm_matches": [
+      "Förinläst, väntar på att förloppet ska avslutas...\n"
+    ]
+  },
+  {
+    "source": "buffering...",
+    "reviewed": "buffrar...",
+    "tm_matches": [
+      "buffrar..."
+    ]
+  },
+  {
+    "source": "Done buffering, setting pipeline to PLAYING ...\n",
+    "reviewed": "Buffringen är klar. Ställer pipelinen i PLAYING-läge ...\n",
+    "tm_matches": [
+      "Färdig med buffringen, ställer in rörledningen till PLAYING...\n"
+    ]
+  },
+  {
+    "source": "Buffering, setting pipeline to PAUSED ...\n",
+    "reviewed": "Buffrar. Ställer pipelinen i PAUSED-läge ...\n",
+    "tm_matches": [
+      "Buffrar, ställer in rörledningen till PAUSED...\n"
+    ]
+  },
+  {
+    "source": "Redistribute latency...\n",
+    "reviewed": "Omfördelar latensen...\n",
+    "tm_matches": [
+      "Fördröjning för vidaresändning...\n"
+    ]
+  },
+  {
+    "source": "Setting state to %s as requested by %s...\n",
+    "reviewed": "Ställer in tillståndet till %s enligt begäran från %s...\n",
+    "tm_matches": [
+      "Ställer in tillståndet till %s enligt begäran från %s...\n"
+    ]
+  },
+  {
+    "source": "Interrupt: Stopping pipeline ...\n",
+    "reviewed": "Avbrott: stoppar pipelinen ...\n",
+    "tm_matches": [
+      "Avbrott: Stoppar rörledningen ...\n"
+    ]
+  },
+  {
+    "source": "Interrupt while waiting for EOS - stopping pipeline...\n",
+    "reviewed": "Avbrott under väntan på EOS – stoppar pipelinen...\n",
+    "tm_matches": [
+      "Avbrott medan EOS väntades på: Stoppar rörledningen...\n"
+    ]
+  },
+  {
+    "source": "EOS on shutdown enabled -- Forcing EOS on the pipeline\n",
+    "reviewed": "EOS vid avstängning är aktiverat – skickar EOS till pipelinen\n",
+    "tm_matches": [
+      "EOS vid avstängning aktiverad -- Tvingar EOS på rörledningen\n"
+    ]
+  },
+  {
+    "source": "Waiting for EOS...\n",
+    "reviewed": "Väntar på EOS...\n",
+    "tm_matches": [
+      "Väntar på EOS...\n"
+    ]
+  },
+  {
+    "source": "Progress: (%s) %s\n",
+    "reviewed": "Förlopp: (%s) %s\n",
+    "tm_matches": [
+      "Förlopp: (%s) %s\n"
+    ]
+  },
+  {
+    "source": "Missing element: %s\n",
+    "reviewed": "Element saknas: %s\n",
+    "tm_matches": [
+      "Element saknas: %s\n"
+    ]
+  },
+  {
+    "source": "Got context from element '%s': %s=%s\n",
+    "reviewed": "Fick kontext från elementet ”%s”: %s=%s\n",
+    "tm_matches": [
+      "Fick kontext från elementet ”%s”: %s=%s\n"
+    ]
+  },
+  {
+    "source": "ERROR: pipeline doesn't want to preroll.\n",
+    "reviewed": "FEL: pipelinen kan inte utföra PREROLL.\n",
+    "tm_matches": [
+      "FEL: rörledningen vill inte utföra preroll.\n"
+    ]
+  },
+  {
+    "source": "An error happened while waiting for EOS\n",
+    "reviewed": "Ett fel inträffade vid väntan på EOS\n",
+    "tm_matches": [
+      "Ett fel inträffade vid väntan på EOS\n"
+    ]
+  },
+  {
+    "source": "Use Windows high-resolution clock, precision: %u ms\n",
+    "reviewed": "Använd Windows högupplösta klocka, precision: %u ms\n",
+    "tm_matches": [
+      "Använd Windows högupplösta klocka, precision: %u ms\n"
+    ]
+  },
+  {
+    "source": "Output tags (also known as metadata)",
+    "reviewed": "Skriv ut taggar (även kallade metadata)",
+    "tm_matches": [
+      "Mata ut taggar (även känt som metadata)"
+    ]
+  },
+  {
+    "source": "Output TOC (chapters and editions)",
+    "reviewed": "Skriv ut innehållsförteckningen (TOC: kapitel och utgåvor)",
+    "tm_matches": [
+      "Skriv ut INNEHÅLL (kapitel och utgåvor)"
+    ]
+  },
+  {
+    "source": "Output status information and property notifications",
+    "reviewed": "Skriv ut statusinformation och egenskapsnotifieringar",
+    "tm_matches": [
+      "Skriv ut statusinformation och egenskapsnotifieringar"
+    ]
+  },
+  {
+    "source": "Do not print any progress information",
+    "reviewed": "Skriv inte ut någon förloppsinformation",
+    "tm_matches": [
+      "Skriv inte ut någon förloppsinformation"
+    ]
+  },
+  {
+    "source": "Output messages",
+    "reviewed": "Skriv ut meddelanden",
+    "tm_matches": [
+      "Mata ut meddelanden"
+    ]
+  },
+  {
+    "source": "Do not output status information for the specified property if verbose output is enabled (can be used multiple times)",
+    "reviewed": "Mata inte ut statusinformation för den angivna egenskapen om utförlig diagnostik är aktiverad (kan användas flera gånger)",
+    "tm_matches": [
+      "Mata inte ut statusinformation för den angivna egenskapen om utförlig diagnostik är aktiverad (kan användas flera gånger)"
+    ]
+  },
+  {
+    "source": "PROPERTY-NAME",
+    "reviewed": "EGENSKAPSNAMN",
+    "tm_matches": [
+      "EGENSKAPSNAMN"
+    ]
+  },
+  {
+    "source": "Set the name of the program",
+    "reviewed": "Ange programmets namn",
+    "tm_matches": [
+      "Sätt namnet på programmet"
+    ]
+  },
+  {
+    "source": "PROGRAM-NAME",
+    "reviewed": "PROGRAMNAMN",
+    "tm_matches": [
+      "PROGRAMNAMN"
+    ]
+  },
+  {
+    "source": "Do not install a fault handler",
+    "reviewed": "Installera inte en felhanterare",
+    "tm_matches": [
+      "Installera inte en felhanterare"
+    ]
+  },
+  {
+    "source": "Force EOS on sources before shutting the pipeline down",
+    "reviewed": "Tvinga EOS på källor innan rörledningen stängs av",
+    "tm_matches": [
+      "Tvinga EOS på källor innan rörledningen stängs av"
+    ]
+  },
+  {
+    "source": "Gather and print index statistics",
+    "reviewed": "Samla och skriv ut indexstatistik",
+    "tm_matches": [
+      "Samla och skriv ut indexstatistik"
+    ]
+  },
+  {
+    "source": "Do not print current position of pipeline. If this option is unspecified, the position will be printed when stdout is a TTY. To enable printing position when stdout is not a TTY, use \"force-position\" option",
+    "reviewed": "Skriv inte ut pipelinens aktuella position. Om alternativet inte anges visas positionen när standardutmatningen är en TTY. Om positionen ska visas även när standardutmatningen inte är en TTY, använd alternativet ”force-position”",
+    "tm_matches": [
+      "Skriv inte ut aktuell position för rörledningen. Om denna flagga inte är angivet, kommer positionen att skrivas ut då standard ut är en TTY. För att aktivera utskrift av position när standard ut inte är en TTY använd ”force-position”-flaggan"
+    ]
+  },
+  {
+    "source": "Allow printing current position of pipeline even if stdout is not a TTY. This option has no effect if the \"no-position\" option is specified",
+    "reviewed": "Tillåt utskrift av pipelinens aktuella position även om standardutmatningen inte är en TTY. Alternativet har ingen effekt om ”no-position” anges",
+    "tm_matches": [
+      "Tillåt utskrift av aktuell position av rörledningen även om standard ut inte är en TTY. Denna flagga har ingen effekt om flaggan ”no-position” är angiven"
+    ]
+  },
+  {
+    "source": "ERROR: pipeline could not be constructed: %s.\n",
+    "reviewed": "FEL: pipelinen kunde inte skapas: %s.\n",
+    "tm_matches": [
+      "FEL: rörledningen kunde inte konstrueras: %s.\n"
+    ]
+  },
+  {
+    "source": "ERROR: pipeline could not be constructed.\n",
+    "reviewed": "FEL: pipelinen kunde inte skapas.\n",
+    "tm_matches": [
+      "FEL: rörledningen kunde inte konstrueras.\n"
+    ]
+  },
+  {
+    "source": "WARNING: erroneous pipeline: %s\n",
+    "reviewed": "VARNING: ogiltig pipeline: %s\n",
+    "tm_matches": [
+      "VARNING: felaktig rörledning: %s\n"
+    ]
+  },
+  {
+    "source": "ERROR: the 'pipeline' element wasn't found.\n",
+    "reviewed": "FEL: ”pipeline”-elementet hittades inte.\n",
+    "tm_matches": [
+      "FEL: ”pipeline”-elementet hittades inte.\n"
+    ]
+  },
+  {
+    "source": "Setting pipeline to PAUSED ...\n",
+    "reviewed": "Ställer pipelinen i PAUSED-läge ...\n",
+    "tm_matches": [
+      "Ställer in rörledningen till PAUSED...\n"
+    ]
+  },
+  {
+    "source": "Failed to set pipeline to PAUSED.\n",
+    "reviewed": "Kunde inte ställa pipelinen i PAUSED-läge.\n",
+    "tm_matches": [
+      "Misslyckades med att sätta rörledningen till PAUSED.\n"
+    ]
+  },
+  {
+    "source": "Pipeline is live and does not need PREROLL ...\n",
+    "reviewed": "Pipelinen är live och behöver inte PREROLL ...\n",
+    "tm_matches": [
+      "Rörledningen lever och behöver inte PREROLL ...\n"
+    ]
+  },
+  {
+    "source": "Pipeline is PREROLLING ...\n",
+    "reviewed": "Pipelinen är i PREROLLING-läget ...\n",
+    "tm_matches": [
+      "Rörledningen utför PREROLL...\n"
+    ]
+  },
+  {
+    "source": "Execution ended after %",
+    "reviewed": "Körning avslutades efter %",
+    "tm_matches": [
+      "Körning avslutades efter %"
+    ]
+  },
+  {
+    "source": "Setting pipeline to NULL ...\n",
+    "reviewed": "Ställer in rörledningen till NULL...\n",
+    "tm_matches": [
+      "Ställer in rörledningen till NULL...\n"
+    ]
+  },
+  {
+    "source": "Freeing pipeline ...\n",
+    "reviewed": "Frigör pipelinen ...\n",
+    "tm_matches": [
+      "Frigör rörledning ...\n"
+    ]
+  }
+]
