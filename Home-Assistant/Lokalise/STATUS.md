@@ -2314,4 +2314,13 @@ Senaste granskade position: **56 656** av 77 656. Nästa position: **56 657**; *
 
 ## Sekventiell granskningsmarkör – 2026-11-27
 
-Senaste granskade position: **56 776** av 77 656. Nästa position: **56 777**; **20 880 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+Senaste granskade position: **56 896** av 77 656. Nästa position: **56 897**; **20 760 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+
+
+### Batch: 56 777–56 896
+
+120 positioner radgranskades: 95 direkta aktuella strängar, 21 referenser och fyra tidigare dokumenterade nycklar utan aktuell källväg. 25 direkta texter (24 batchnycklar samt ett delat Anthropic-referenstarget) sparades och API-lästes tillbaka; referenser matchar 21/21 efter synkningen. Platshållare 120/120; inga pluralnycklar. `svlang` hittade inga skrivregelfel. Hunspell flaggade produktnamn och tekniska identifierare; inga ordlisteändringar behövdes. Öppna termuppföljningar: Marantz `Loudness`/`Source Direct`, PrusaLink `Farm mode` och Miele `Pot rests and filters`. TMX validerar med 35 753 poster; manifestet innehåller 116 aktuella poster.
+
+## Sekventiell granskningsmarkör – 2026-11-27
+
+Senaste granskade position: **56 896** av 77 656. Nästa position: **56 897**; **20 760 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
