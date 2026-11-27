@@ -2642,3 +2642,9 @@ Senaste position: **62 896** av 77 656. Nästa: **62 897**; **14 760 återstår*
 120 positioner granskades: 102 aktuella strängar  13 referenser och 5 äldre nycklar utan källväg. 15 ändringar sparades och lästes tillbaka; alla 13 referenser matchar. Två Midea-programnamn och wrapped-key-terminologin flaggades för uppföljning. Platshållare 120/120; inga pluralnycklar.
 
 Senaste position: **63 016** av 77 656. Nästa: **63 017**; **14 640 återstår**. Granskningen fortsätter.
+
+### Batch: 63 017–63 136
+
+120 positioner granskades: 112 aktuella strängar och 8 referenser; ingen källväg saknades. 39 ändringar inom intervallet och 4 delade Sun-referenser i nästa intervall sparades och lästes tillbaka. Alla 12 referenser matchar. Platshållare 124/124; inga pluralnycklar.
+
+Senaste fullständigt granskade position: **63 136** av 77 656. Nästa: **63 137**; **14 520 återstår**. Fyra referensägare är synkroniserade men ska radgranskas i sitt sammanhang. Granskningen fortsätter.
