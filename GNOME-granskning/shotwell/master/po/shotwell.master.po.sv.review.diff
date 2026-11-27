@@ -1,0 +1,2296 @@
+--- shotwell.master.po.sv.original.po
++++ shotwell.master.po.sv.reviewed.po
+@@ -19,15 +19,15 @@
+ "Project-Id-Version: shotwell\n"
+ "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/shotwell/issues\n"
+ "POT-Creation-Date: 2026-11-26 19:32+0000\n"
+-"PO-Revision-Date: 2026-11-26 21:48+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"PO-Revision-Date: 2026-11-27 18:32+0000\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
++"Language-Team: Swedish\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+-"X-Generator: Poedit 3.10\n"
++"X-Generator: Poedit 3.9\n"
+ "X-Project-Style: gnome\n"
+ 
+ #: data/gsettings/org.gnome.shotwell-extras.gschema.xml:9
+@@ -36,8 +36,10 @@
+ msgstr "OAuth-token för åtkomstfas"
+ 
+ #: data/gsettings/org.gnome.shotwell-extras.gschema.xml:10
+-msgid "The authorization token for the currently logged in Tumblr user, if any"
+-msgstr "Autentiseringstoken för inloggad Tumblr-användare, om någon"
++msgid ""
++"The authorization token for the currently logged in Tumblr user, if any"
++msgstr ""
++"Autentiseringstoken för den inloggade Tumblr-användaren, om en sådan finns"
+ 
+ #: data/gsettings/org.gnome.shotwell-extras.gschema.xml:15
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:450
+@@ -49,8 +51,8 @@
+ "The cryptographic secret used to sign requests against the authorization "
+ "token for the currently logged in Tumblr user, if any"
+ msgstr ""
+-"Den kryptografiska hemligheten använd för att signera begäran mot "
+-"auktoriseringstoken för den inloggade Tumblr-användaren, om någon"
++"Kryptografisk hemlighet som används för att signera begäranden med "
++"autentiseringstoken för den inloggade Tumblr-användaren, om en sådan finns"
+ 
+ #: data/gsettings/org.gnome.shotwell-extras.gschema.xml:21
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:456
+@@ -62,7 +64,7 @@
+ #: data/gsettings/org.gnome.shotwell-extras.gschema.xml:22
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:457
+ msgid "The user name of the currently logged in Flickr user, if any"
+-msgstr "Användarnamnet för den inloggade Flickr-användaren, om någon"
++msgstr "Användarnamnet för den inloggade Flickr-användaren, om en sådan finns"
+ 
+ #: data/gsettings/org.gnome.shotwell-extras.gschema.xml:27
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:488
+@@ -72,8 +74,7 @@
+ #: data/gsettings/org.gnome.shotwell-extras.gschema.xml:28
+ msgid ""
+ "A numeric code representing the default size for photos uploaded to Tumblr"
+-msgstr ""
+-"En sifferkod representerande standardstorlek för bilder skickade till Tumblr"
++msgstr "Sifferkod för standardstorleken på bilder som laddas upp till Tumblr"
+ 
+ #: data/gsettings/org.gnome.shotwell-extras.gschema.xml:33
+ msgid "default blog"
+@@ -89,8 +90,7 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:26
+ msgid "True if the basic properties pane is to be displayed, false otherwise"
+-msgstr ""
+-"True om panelen för de grundläggande egenskaperna ska visas, annars false"
++msgstr "Sant om panelen med grundläggande egenskaper ska visas, annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:31
+ msgid "display extended properties"
+@@ -99,7 +99,7 @@
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:32
+ msgid ""
+ "True if the extended properties window is to be displayed, false otherwise"
+-msgstr "True om panelen för de utökade egenskaperna ska visas, annars false"
++msgstr "Sant om fönstret med utökade egenskaper ska visas, annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:37
+ msgid "display sidebar"
+@@ -107,7 +107,7 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:38
+ msgid "True if the sidebar is to be displayed, false otherwise"
+-msgstr "True om sidopanelen ska visas, annars false"
++msgstr "Sant om sidopanelen ska visas, annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:43
+ msgid "display toolbar"
+@@ -115,7 +115,7 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:44
+ msgid "True if the bottom toolbar is to be displayed, false otherwise"
+-msgstr "True om det nedre verktygsfältet ska visas, annars false"
++msgstr "Sant om det nedre verktygsfältet ska visas, annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:49
+ msgid "display map widget"
+@@ -123,7 +123,7 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:50
+ msgid "True if the map widget is to be displayed, false otherwise"
+-msgstr "True om kartkomponenten ska visas, annars false"
++msgstr "Sant om kartkomponenten ska visas, annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:55
+ msgid "display search bar"
+@@ -131,7 +131,7 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:56
+ msgid "True if the Search/Filter Toolbar is to be displayed, false otherwise"
+-msgstr "True om sök-/filterverktygsfältet ska visas, annars false"
++msgstr "Sant om sök- och filterverktygsfältet ska visas, annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:61
+ msgid "display photo titles"
+@@ -142,8 +142,8 @@
+ "True if photo titles are to be displayed beneath thumbnails in collection "
+ "views, false otherwise"
+ msgstr ""
+-"True om bildtitlar ska visas under miniatyrbilder i samlingsvyerna, annars "
+-"false"
++"Sant om bildtitlar ska visas under miniatyrbilderna i samlingsvyerna, annars"
++" falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:67
+ msgid "display photo comments"
+@@ -154,8 +154,8 @@
+ "True if photo comments are to be displayed beneath thumbnails in collection "
+ "views, false otherwise"
+ msgstr ""
+-"True om bildkommentarer ska visas under miniatyrbilder i samlingsvyerna, "
+-"annars false"
++"Sant om bildkommentarer ska visas under miniatyrbilderna i samlingsvyerna, "
++"annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:73
+ msgid "display event comments"
+@@ -166,8 +166,8 @@
+ "True if event comments are to be displayed beneath thumbnails in event "
+ "views, false otherwise"
+ msgstr ""
+-"True om händelsekommentarer ska visas under miniatyrbilder i samlingsvyerna, "
+-"annars false"
++"Sant om händelsekommentarer ska visas under miniatyrbilderna i "
++"händelsevyerna, annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:79
+ msgid "display photo tags"
+@@ -178,8 +178,8 @@
+ "True if photo tags are to be listed beneath thumbnails in collection views, "
+ "false otherwise"
+ msgstr ""
+-"True om bildtaggar ska visas under miniatyrbilder i samlingsvyerna, annars "
+-"false"
++"Sant om bildtaggar ska visas under miniatyrbilderna i samlingsvyerna, annars"
++" falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:85
+ msgid "display photo ratings"
+@@ -189,7 +189,8 @@
+ msgid ""
+ "True if a photo’s rating should be displayed as overlaid trinket, false "
+ "otherwise"
+-msgstr "True om ett bildbetyg ska visas som en överlagd fasad, annars false"
++msgstr ""
++"Sant om bildens betyg ska visas som en överlagrad symbol, annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:91
+ msgid "rating filter level"
+@@ -211,7 +212,8 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:98
+ msgid "True if events should be sorted ascending, false if descending"
+-msgstr "True om händelser ska sorteras stigande, false om fallande"
++msgstr ""
++"Sant om händelser ska sorteras i stigande ordning, annars i fallande ordning"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:103
+ msgid "sort library photos ascending"
+@@ -219,7 +221,9 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:104
+ msgid "True if library photos should be sorted ascending, false if descending"
+-msgstr "True om biblioteksbilder ska sorteras stigande, false om fallande"
++msgstr ""
++"Sant om bibliotekets bilder ska sorteras i stigande ordning, annars i "
++"fallande ordning"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:109
+ msgid "sort library photos criteria"
+@@ -228,7 +232,7 @@
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:110
+ msgid ""
+ "A numeric code that specifies the sort criteria for photos in library views"
+-msgstr "En sifferkod som specificerar sökkriterier för bilder i biblioteksvyer"
++msgstr "Sifferkod som anger sorteringskriteriet för bilder i biblioteksvyer"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:115
+ msgid "sort event photos ascending"
+@@ -236,7 +240,9 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:116
+ msgid "True if event photos should be sorted ascending, false if descending"
+-msgstr "True om händelsebilder ska sorteras stigande, false om fallande"
++msgstr ""
++"Sant om händelsebilder ska sorteras i stigande ordning, annars i fallande "
++"ordning"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:121
+ msgid "sort event photos criteria"
+@@ -244,7 +250,7 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:122
+ msgid "Specifies the sort criteria for event photos"
+-msgstr "Specificerar sorteringskriterier för händelsebilder"
++msgstr "Anger sorteringskriteriet för händelsebilder"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:127
+ msgid "use 24 hour time"
+@@ -252,11 +258,9 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:128
+ msgid ""
+-"True if should display times with a 24 hour clock, false if times should use "
+-"AM/PM notation"
+-msgstr ""
+-"True om tid ska visas med en 24-timmars klocka, false om den ska visas med "
+-"AM/PM-notation"
++"True if should display times with a 24 hour clock, false if times should use"
++" AM/PM notation"
++msgstr "Sant om tider ska visas med 24-timmarsklocka, annars med AM/PM-format"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:133
+ msgid "keep relative time between photos"
+@@ -267,20 +271,20 @@
+ "True if when adjusting time/date of photos, relative time should be "
+ "maintained. False if all photos should be set to the same time"
+ msgstr ""
+-"True om relativ tid ska bevaras vid justering av tid/datum för bilder. False "
+-"om alla bilder sätts till samma tid"
++"Sant om tidsintervallet mellan bilder ska behållas när deras datum och tid "
++"justeras. Falskt om alla bilder ska få samma tid"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:139
+ msgid "modify original photo files"
+-msgstr "modifiera filerna för originalbilderna"
++msgstr "ändra originalbildfiler"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:140
+ msgid ""
+ "True if when adjusting time/date of photos, the original files should be "
+ "modified as well. False if changes are made only in the database"
+ msgstr ""
+-"True om originalfilerna ska ändras vid justering av tid/datum för bilder. "
+-"False om ändringar endast ska ske i databasen"
++"Sant om originalfilerna också ska ändras när bilders datum och tid justeras."
++" Falskt om ändringarna bara ska göras i databasen"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:145
+ msgid "show welcome dialog on startup"
+@@ -290,8 +294,7 @@
+ msgid ""
+ "True if, when on startup, a welcome dialog should be shown. False if it "
+ "should not be shown"
+-msgstr ""
+-"True om en välkomstdialog ska visas vid uppstart. False om den inte ska visas"
++msgstr "Sant om en välkomstdialog ska visas vid programstart, annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:151
+ msgid "sidebar position"
+@@ -323,7 +326,7 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:170
+ msgid "Whether to use the dark theme of GTK+ for Shotwell or not"
+-msgstr "Huruvida det mörka temat för GTK+ ska användas för Shotwell eller inte"
++msgstr "Om det mörka temat för GTK+ ska användas för Shotwell eller inte"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:175
+ msgid "background for transparent images"
+@@ -338,10 +341,11 @@
+ msgstr "färg för heltäckande transparent bakgrund"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:182
+-msgid "Color to use if background for transparent images is set to solid color"
++msgid ""
++"Color to use if background for transparent images is set to solid color"
+ msgstr ""
+-"Färgen att använda om bakgrunden för transparenta bilder är satt till solid "
+-"färg"
++"Färg som används om bakgrunden för genomskinliga bilder är inställd på "
++"enfärgad"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:187
+ msgid "Selection state of “hide photos” option"
+@@ -380,7 +384,7 @@
+ msgid ""
+ "The time (in seconds) to show each transition between photos in a slideshow"
+ msgstr ""
+-"Tiden (i sekunder) som varje övergång visas mellan bilder i ett bildspel"
++"Tiden (i sekunder) som varje övergång mellan bilder i ett bildspel varar"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:213
+ msgid "Show title"
+@@ -388,7 +392,7 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:214
+ msgid "Whether to show the title of a photo during the slideshow"
+-msgstr "Huruvida titel för en bild ska visas under bildspelet"
++msgstr "Om bildens titel ska visas under bildspelet"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:219
+ #: data/ui/slideshow_settings.ui:78
+@@ -397,7 +401,7 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:220
+ msgid "Whether to shuffle the order of photos during the slideshow"
+-msgstr "Huruvida bildordningen ska blandas under bildspelet"
++msgstr "Om bilderna ska visas i slumpmässig ordning under bildspelet"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:227
+ msgid "maximize library window"
+@@ -405,7 +409,7 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:228
+ msgid "True if library application is maximized, false otherwise"
+-msgstr "True om biblioteksprogrammet är maximerat, annars false"
++msgstr "Sant om biblioteksfönstret är maximerat, annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:233
+ msgid "width of library window"
+@@ -429,7 +433,7 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:246
+ msgid "True if direct-edit application is maximized, false otherwise"
+-msgstr "True om direktredigeringsprogrammet är maximerat, annars false"
++msgstr "Sant om direktredigeringsfönstret är maximerat, annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:251
+ msgid "width of direct-edit window"
+@@ -474,7 +478,8 @@
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:278
+ msgid ""
+ "If true, files added to the library directory are automatically imported"
+-msgstr "Om true importeras filer tillagda i bibliotekskatalogen automatiskt"
++msgstr ""
++"Om sant importeras filer som läggs till i bibliotekskatalogen automatiskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:283
+ msgid "write metadata to master files"
+@@ -485,8 +490,8 @@
+ "If true, changes to metadata (tags, titles, etc.) are written to the master "
+ "photo file"
+ msgstr ""
+-"Om true skrivs ändringar i metadata (taggar, titlar och så vidare) till "
+-"huvudbildfilen"
++"Om sant skrivs ändringar i metadata (taggar, titlar med mera) till "
++"originalbildfilen"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:289
+ msgid "use lowercase filenames"
+@@ -496,9 +501,7 @@
+ msgid ""
+ "If true, Shotwell will convert all filenames to lowercase when importing "
+ "photo files"
+-msgstr ""
+-"Om true kommer Shotwell att konvertera alla filnamn till gemener vid import "
+-"av bildfiler"
++msgstr "Om sant gör Shotwell alla filnamn till gemener när bilder importeras"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:295
+ msgid "directory pattern"
+@@ -538,9 +541,7 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:316
+ msgid "A numeric code representing the last crop menu choice the user made"
+-msgstr ""
+-"En sifferkod representerande det senast använda beskärningsmenyvalet en "
+-"användare gjorde"
++msgstr "Sifferkod för användarens senaste val i beskärningsmenyn"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:320
+ msgid "Most-recently-used crop custom aspect ratio’s numerator"
+@@ -551,8 +552,8 @@
+ "A nonzero, positive integer representing the width part of the last custom "
+ "crop ratio the user entered"
+ msgstr ""
+-"Ett nollskilt, positivt heltal motsvarande bredd-delen för det senast "
+-"använda anpassade bildförhållandet för beskärning som användaren valde"
++"Positivt heltal större än noll som anger bredden i det senast angivna "
++"anpassade beskärningsförhållandet"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:325
+ msgid "Most-recently-used crop custom aspect ratio’s denominator"
+@@ -563,8 +564,8 @@
+ "A nonzero, positive integer representing the height part of the last custom "
+ "crop ratio the user entered"
+ msgstr ""
+-"Ett nollskilt, positivt heltal motsvarande höjddelen för det senast använda "
+-"anpassade bildförhållandet för beskärning som användaren valde"
++"Positivt heltal större än noll som anger höjden i det senast angivna "
++"anpassade beskärningsförhållandet"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:333
+ msgid "external photo editor"
+@@ -635,15 +636,15 @@
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:430
+ msgid ""
+ "A numeric code representing the last service to which photos were published"
+-msgstr ""
+-"En sifferkod representerande senaste tjänsten till vilken bilder publicerades"
++msgstr "Sifferkod för den senaste tjänsten där bilder publicerades"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:429
+ msgid "default publishing service"
+ msgstr "standardtjänst för publicering"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:445
+-msgid "The authorization token for the currently logged in Flickr user, if any"
++msgid ""
++"The authorization token for the currently logged in Flickr user, if any"
+ msgstr "Autentiseringstoken för inloggad Flickr-användare, om någon"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:451
+@@ -651,8 +652,8 @@
+ "The cryptographic secret used to sign requests against the authorization "
+ "token for the currently logged in Flickr user, if any"
+ msgstr ""
+-"Den kryptografiska hemligheten använd för att signera begäran mot "
+-"auktoriseringstoken för den inloggade Flickr-användaren, om någon"
++"Kryptografisk hemlighet som används för att signera begäranden med "
++"autentiseringstoken för den inloggade Flickr-användaren, om en sådan finns"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:462
+ msgid "default size code"
+@@ -661,9 +662,7 @@
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:463
+ msgid ""
+ "A numeric code representing the default size for photos published to Flickr"
+-msgstr ""
+-"En sifferkod representerande standardstorleken för bilder publicerade till "
+-"Flickr"
++msgstr "Sifferkod för standardstorleken på bilder som publiceras till Flickr"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:468
+ msgid "default visibility"
+@@ -673,9 +672,7 @@
+ msgid ""
+ "A numeric code representing the default visibility for photos published to "
+ "Flickr"
+-msgstr ""
+-"En sifferkod representerande standardsynlighet för bilder publicerade till "
+-"Flickr"
++msgstr "Sifferkod för standardvisningen av bilder som publiceras till Flickr"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:474
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:500
+@@ -688,7 +685,7 @@
+ msgid ""
+ "Whether images being uploaded to Flickr should have their metadata removed "
+ "first"
+-msgstr "Huruvida bilder uppskickade till Flickr ska rensas på metadata först"
++msgstr "Om metadata ska tas bort från bilder innan de laddas upp till Flickr"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:482
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:620
+@@ -700,16 +697,16 @@
+ "The OAuth token used to refresh the Google Photos session for the currently "
+ "logged in user, if any"
+ msgstr ""
+-"OAuth-token använd för att uppdatera Google Foto-sessionen för den inloggade "
+-"användaren, om någon"
++"OAuth-token som används för att förnya den inloggade användarens Google "
++"Foto-session, om en sådan finns"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:489
+ msgid ""
+ "A numeric code representing the default size for photos uploaded to Google "
+ "Photos Albums"
+ msgstr ""
+-"En sifferkod representerande standardstorleken för bilder uppskickade till "
+-"Google Foto-album"
++"Sifferkod för standardstorleken på bilder som laddas upp till Google Foto-"
++"album"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:494
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:594
+@@ -719,14 +716,15 @@
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:495
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:595
+ msgid "The name of the last album the user published photos to, if any"
+-msgstr "Namnet på senaste albumet användaren publicerade bilder till, om något"
++msgstr ""
++"Namnet på senaste albumet användaren publicerade bilder till, om något"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:501
+ msgid ""
+ "Whether images being uploaded to Google Photos should have their metadata "
+ "removed first"
+ msgstr ""
+-"Huruvida bilder som skickas upp till Google Foto ska rensas på metadata först"
++"Om metadata ska tas bort från bilder innan de laddas upp till Google Foto"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:508
+ msgid "Piwigo URL"
+@@ -754,7 +752,7 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:527
+ msgid "If true, remember the Piwigo password"
+-msgstr "Om true, kom ihåg Piwigo-lösenordet"
++msgstr "Om sant sparas Piwigo-lösenordet"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:532
+ msgid "last category"
+@@ -781,53 +779,54 @@
+ "A numeric code representing the last photo size preset used when publishing "
+ "to Piwigo"
+ msgstr ""
+-"En sifferkod representerande den senaste förinställningen för bildstorlek "
+-"använd vid publicering till Piwigo"
++"Sifferkod för den senaste förinställda bildstorleken som användes vid "
++"publicering till Piwigo"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:551
+ msgid ""
+ "Whether images being uploaded to Piwigo should have their metadata removed "
+ "first"
+-msgstr "Huruvida bilder uppskickade till Piwigo ska rensas på metadata först"
++msgstr "Om metadata ska tas bort från bilder innan de laddas upp till Piwigo"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:556
+ msgid ""
+-"if title is set and comment unset, use title as comment for uploads to Piwigo"
++"if title is set and comment unset, use title as comment for uploads to "
++"Piwigo"
+ msgstr ""
+-"om en titel är angiven men inte kommentaren, använd titeln som kommentar för "
+-"sändningar till Piwigo"
++"om en titel är angiven men inte kommentaren, använd titeln som kommentar för"
++" sändningar till Piwigo"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:557
+ msgid ""
+ "Whether images being uploaded to Piwigo should have their comment set from "
+ "the title if title is set and comment unset"
+ msgstr ""
+-"Huruvida bilder uppskickade till Piwigo ska ha sin kommentar satt från "
+-"titeln om titel är angivet och kommentar tomt"
++"Om bildens kommentar ska hämtas från titeln vid uppladdning till Piwigo, när"
++" en titel finns men ingen kommentar"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:562
+ msgid "do not upload tags when uploading to Piwigo"
+-msgstr "skicka inte upp taggar vid sändning till Piwigo"
++msgstr "ladda inte upp taggar till Piwigo"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:563
+ msgid ""
+ "Whether images being uploaded to Piwigo should have their tags removed on "
+ "upload, such that these tags will not appear on the remote Piwigo server"
+ msgstr ""
+-"Huruvida bilder som skickas upp till Piwigo ska rensas på taggar innan, så "
+-"att dessa taggar inte dyker upp på fjärr-Piwigo-servern"
++"Om taggar ska utelämnas vid uppladdning till Piwigo så att de inte visas på "
++"Piwigo-servern"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:568
+ msgid "do not upload ratings when uploading to Piwigo"
+-msgstr "skicka inte upp betyg vid sändning till Piwigo"
++msgstr "ladda inte upp betyg till Piwigo"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:569
+ msgid ""
+ "Whether images being uploaded to Piwigo should have their ratings uploaded, "
+ "such that these ratings will not appear on the remote Piwigo server"
+ msgstr ""
+-"Huruvida bilder som skickas upp till Piwigo ska rensas på betyg innan, så "
+-"att dessa betyg inte dyker upp på fjärr-Piwigo-servern"
++"Om betyg ska utelämnas vid uppladdning till Piwigo så att de inte visas på "
++"Piwigo-servern"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:577
+ msgid "Gallery3 username"
+@@ -851,9 +850,10 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:601
+ msgid ""
+-"Whether images being uploaded to Gallery3 should have their metadata removed "
+-"first"
+-msgstr "Huruvida bilder uppskickade till Gallery3 ska rensas på metadata först"
++"Whether images being uploaded to Gallery3 should have their metadata removed"
++" first"
++msgstr ""
++"Om metadata ska tas bort från bilder innan de laddas upp till Gallery3"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:606
+ msgid "scaling constraint of uploaded picture"
+@@ -877,11 +877,11 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:621
+ msgid ""
+-"The OAuth token used to refresh the YouTube session for the currently logged "
+-"in user, if any"
++"The OAuth token used to refresh the YouTube session for the currently logged"
++" in user, if any"
+ msgstr ""
+-"OAuth-token använd för att uppdatera YouTube-sessionen för den inloggade "
+-"användaren, om någon"
++"OAuth-token som används för att förnya den inloggade användarens YouTube-"
++"session, om en sådan finns"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:628
+ msgid "last used import service"
+@@ -890,8 +890,7 @@
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:629
+ msgid ""
+ "A numeric code representing the last service from which photos were imported"
+-msgstr ""
+-"En sifferkod representerande senaste tjänsten till vilken bilder importerades"
++msgstr "Sifferkod för den senaste tjänsten som bilder importerades från"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:636
+ msgid "content layout mode"
+@@ -908,8 +907,10 @@
+ msgstr "innehålls-ppi"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:643
+-msgid "The number of pixels per inch (ppi) sent to the printer during printing"
+-msgstr "Antalet bildpunkter per tum (ppi) skickat till skrivaren vid utskrift"
++msgid ""
++"The number of pixels per inch (ppi) sent to the printer during printing"
++msgstr ""
++"Antalet bildpunkter per tum (ppi) som skickas till skrivaren vid utskrift"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:648
+ msgid "content width"
+@@ -917,7 +918,7 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:649
+ msgid "The width of the printed emulsion on the page when printing"
+-msgstr "Bredden på den utskrivna emulsionen för sidan vid utskrift"
++msgstr "Bredden på bildytan på den utskrivna sidan"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:654
+ msgid "content height"
+@@ -925,7 +926,7 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:655
+ msgid "The height of the printed emulsion on the page when printing"
+-msgstr "Höjden på den utskrivna emulsionen för sidan vid utskrift"
++msgstr "Höjden på bildytan på den utskrivna sidan"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:660
+ msgid "content units"
+@@ -936,8 +937,7 @@
+ "A numeric code representing unit of measure (inches or centimeters) used "
+ "when printing"
+ msgstr ""
+-"En sifferkod representerande mätningsenhet (tum eller centimeter) använd vid "
+-"utskrift"
++"Sifferkod för måttenheten (tum eller centimeter) som används vid utskrift"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:666
+ msgid "images per page code"
+@@ -945,11 +945,9 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:667
+ msgid ""
+-"A numeric code representing the currently selected images per page mode used "
+-"when printing"
+-msgstr ""
+-"En sifferkod representerande aktuellt valda bilder per sidoläge använt vid "
+-"utskrift"
++"A numeric code representing the currently selected images per page mode used"
++" when printing"
++msgstr "Sifferkod för det valda läget för antal bilder per sida vid utskrift"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:672
+ msgid "size selection"
+@@ -971,8 +969,8 @@
+ "Determines whether custom print sizes must match the aspect ratio of the "
+ "original photo"
+ msgstr ""
+-"Avgör huruvida anpassade utskriftsstorlekar måste matcha bildförhållandet "
+-"för originalbilden"
++"Anger om anpassade utskriftsstorlekar måste ha samma bildförhållande som "
++"originalbilden"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:684
+ msgid "print titles"
+@@ -982,7 +980,8 @@
+ msgid ""
+ "True if the title of a photo should be printed when the photo is printed, "
+ "false otherwise"
+-msgstr "True om en bildtitel ska skrivas ut när bilden skrivs ut, annars false"
++msgstr ""
++"Sant om bildens titel ska skrivas ut tillsammans med bilden, annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:690
+ msgid "titles font"
+@@ -1015,7 +1014,7 @@
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:715
+ msgid "True if the Flickr publishing plugin is enabled, false otherwise"
+ msgstr ""
+-"True om insticksmodulen för Flickr-publicering är aktiverad, annars false"
++"Sant om insticksmodulen för Flickr-publicering är aktiverad, annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:720
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:726
+@@ -1024,10 +1023,11 @@
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:721
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:727
+-msgid "True if the Google Photos publishing plugin is enabled, false otherwise"
++msgid ""
++"True if the Google Photos publishing plugin is enabled, false otherwise"
+ msgstr ""
+-"True om insticksmodulen för Google Foto-publicering är aktiverad, annars "
+-"false"
++"Sant om insticksmodulen för Google Foto-publicering är aktiverad, annars "
++"falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:732
+ msgid "enable youtube publishing plugin"
+@@ -1036,7 +1036,7 @@
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:733
+ msgid "True if the YouTube publishing plugin is enabled, false otherwise"
+ msgstr ""
+-"True om insticksmodulen för YouTube-publicering är aktiverad, annars false"
++"Sant om insticksmodulen för YouTube-publicering är aktiverad, annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:738
+ msgid "enable piwigo publishing plugin"
+@@ -1045,7 +1045,7 @@
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:739
+ msgid "True if the Piwigo publishing plugin is enabled, false otherwise"
+ msgstr ""
+-"True om insticksmodulen för Piwigo-publicering är aktiverad, annars false"
++"Sant om insticksmodulen för Piwigo-publicering är aktiverad, annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:744
+ msgid "enable tumblr publishing plugin"
+@@ -1054,7 +1054,7 @@
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:745
+ msgid "True if the Tumblr publishing plugin is enabled, false otherwise"
+ msgstr ""
+-"True om insticksmodulen för Tumblr-publicering är aktiverad, annars false"
++"Sant om insticksmodulen för Tumblr-publicering är aktiverad, annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:750
+ msgid "enable gallery3 publishing plugin"
+@@ -1063,7 +1063,7 @@
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:751
+ msgid "True if the Gallery3 publishing plugin is enabled, false otherwise"
+ msgstr ""
+-"True om insticksmodulen för Gallery3-publicering är aktiverad, annars false"
++"Sant om insticksmodulen för Gallery3-publicering är aktiverad, annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:756
+ msgid "enable slideshow crumble transition"
+@@ -1073,8 +1073,8 @@
+ msgid ""
+ "True if the Crumble slideshow transition plugin is enabled, false otherwise"
+ msgstr ""
+-"True om insticksmodulen Smula sönder för bildspelsövergångar är aktiverad, "
+-"annars false"
++"Sant om insticksmodulen för övergången Smula sönder i bildspel är aktiverad,"
++" annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:762
+ msgid "enable slideshow fade transition"
+@@ -1084,8 +1084,8 @@
+ msgid ""
+ "True if the Fade slideshow transition plugin is enabled, false otherwise"
+ msgstr ""
+-"True om insticksmodulen Tona ut för bildspelsövergångar är aktiverad, annars "
+-"false"
++"Sant om insticksmodulen för övergången Tona ut i bildspel är aktiverad, "
++"annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:768
+ msgid "enable slideshow slide transition"
+@@ -1095,8 +1095,8 @@
+ msgid ""
+ "True if the Slide slideshow transition plugin is enabled, false otherwise"
+ msgstr ""
+-"True om insticksmodulen Glid för bildspelsövergångar är aktiverad, annars "
+-"false"
++"Sant om insticksmodulen för övergången Glid i bildspel är aktiverad, annars "
++"falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:774
+ msgid "enable slideshow clock transition"
+@@ -1106,8 +1106,8 @@
+ msgid ""
+ "True if the Clock slideshow transition plugin is enabled, false otherwise"
+ msgstr ""
+-"True om insticksmodulen Klocka för bildspelsövergångar är aktiverad, annars "
+-"false"
++"Sant om insticksmodulen för övergången Klocka i bildspel är aktiverad, "
++"annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:780
+ msgid "enable slideshow circle transition"
+@@ -1117,8 +1117,8 @@
+ msgid ""
+ "True if the Circle slideshow transition plugin is enabled, false otherwise"
+ msgstr ""
+-"True om insticksmodulen Cirkel för bildspelsövergångar är aktiverad, annars "
+-"false"
++"Sant om insticksmodulen för övergången Cirkel i bildspel är aktiverad, "
++"annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:786
+ msgid "enable slideshow circles transition"
+@@ -1128,8 +1128,8 @@
+ msgid ""
+ "True if the Circles slideshow transition plugin is enabled, false otherwise"
+ msgstr ""
+-"True om insticksmodulen Cirklar för bildspelsövergångar är aktiverad, annars "
+-"false"
++"Sant om insticksmodulen för övergången Cirklar i bildspel är aktiverad, "
++"annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:792
+ msgid "enable slideshow blinds transition"
+@@ -1139,8 +1139,8 @@
+ msgid ""
+ "True if the Blinds slideshow transition plugin is enabled, false otherwise"
+ msgstr ""
+-"True om insticksmodulen Persienner för bildspelsövergångar är aktiverad, "
+-"annars false"
++"Sant om insticksmodulen för övergången Persienner i bildspel är aktiverad, "
++"annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:798
+ msgid "enable slideshow squares transition"
+@@ -1150,8 +1150,8 @@
+ msgid ""
+ "True if the Squares slideshow transition plugin is enabled, false otherwise"
+ msgstr ""
+-"True om insticksmodulen Rutor för bildspelsövergångar är aktiverad, annars "
+-"false"
++"Sant om insticksmodulen för övergången Rutor i bildspel är aktiverad, annars"
++" falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:804
+ msgid "enable slideshow stripes transition"
+@@ -1161,8 +1161,8 @@
+ msgid ""
+ "True if the Stripes slideshow transition plugin is enabled, false otherwise"
+ msgstr ""
+-"True om insticksmodulen Randig för bildspelsövergångar är aktiverad, annars "
+-"false"
++"Sant om insticksmodulen för övergången Ränder i bildspel är aktiverad, "
++"annars falskt"
+ 
+ #: data/gsettings/org.gnome.shotwell.gschema.xml:810
+ msgid "enable slideshow chess transition"
+@@ -1173,8 +1173,8 @@
+ "True if the Chess-Board slideshow transition plugin is enabled, false "
+ "otherwise"
+ msgstr ""
+-"True om insticksmodulen Schackrutig för bildspelsövergångar är aktiverad, "
+-"annars false"
++"Sant om insticksmodulen för övergången Schackbräde i bildspel är aktiverad, "
++"annars falskt"
+ 
+ #: data/org.gnome.Shotwell.desktop.in:5
+ #: data/org.gnome.Shotwell.metainfo.xml.in:11 data/ui/collection.ui:87
+@@ -1192,10 +1192,13 @@
+ msgid "Organize your photos"
+ msgstr "Organisera dina bilder"
+ 
+-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
++#. Translators: Search terms to find this application. Do NOT translate or
++#. localize the semicolons! The list MUST also end with a semicolon!
+ #: data/org.gnome.Shotwell.desktop.in:9
+-msgid "album;camera;cameras;crop;edit;enhance;export;gallery;image;images;import;organize;photo;photographs;photos;picture;pictures;photography;print;publish;rotate;share;tags;video;flickr;picasa;youtube;piwigo;"
+-msgstr "album;kamera;kameror;beskär;redigera;förbättra;exportera;galleri;bild;bilder;importera;organisera;bild;foto;foton;bilder;fotografier;skriv;ut;utskrift;publicera;rotera;dela;taggar;video;flickr;picasa;youtube;piwigo;"
++msgid ""
++"album;camera;cameras;crop;edit;enhance;export;gallery;image;images;import;organize;photo;photographs;photos;picture;pictures;photography;print;publish;rotate;share;tags;video;flickr;picasa;youtube;piwigo;"
++msgstr ""
++"album;kamera;kameror;beskär;redigera;förbättra;exportera;galleri;bild;bilder;importera;organisera;bild;foto;foton;bilder;fotografier;skriv;ut;utskrift;publicera;rotera;dela;taggar;video;flickr;picasa;youtube;piwigo;"
+ 
+ #: data/org.gnome.Shotwell.desktop.in:22
+ msgid "Manage Different Profiles"
+@@ -1224,15 +1227,16 @@
+ 
+ #: data/org.gnome.Shotwell.metainfo.xml.in:21
+ msgid ""
+-"When ready, Shotwell can upload your photos to various web services, such as "
+-"Flickr, Google Photos, and more."
++"When ready, Shotwell can upload your photos to various web services, such as"
++" Flickr, Google Photos, and more."
+ msgstr ""
+ "Shotwell kan, om så önskas, skicka dina bilder till olika webbtjänster som "
+ "Flickr, Google Foto med flera."
+ 
+ #: data/org.gnome.Shotwell.metainfo.xml.in:25
+ msgid "Shotwell supports JPEG, PNG, TIFF, and a variety of RAW file formats."
+-msgstr "Shotwell stödjer JPEG, PNG, TIFF och flera varianter av RAW-filformat."
++msgstr ""
++"Shotwell stödjer JPEG, PNG, TIFF och flera varianter av RAW-filformat."
+ 
+ #: data/org.gnome.Shotwell.metainfo.xml.in:37
+ msgid "The Shotwell developers"
+@@ -1270,13 +1274,13 @@
+ #: data/ui/event.ui:446 data/ui/photo_context.ui:9 data/ui/photo.ui:224
+ #: src/CollectionPage.vala:106 src/Resources.vala:159
+ msgid "_Enhance"
+-msgstr "Förbä_ttra"
++msgstr "_Förbättra"
+ 
+ #: data/ui/collection.ui:15 data/ui/direct_context.ui:15 data/ui/direct.ui:166
+ #: data/ui/event.ui:451 data/ui/photo_context.ui:14 data/ui/photo.ui:251
+ #: src/CollectionPage.vala:107 src/Resources.vala:187
+ msgid "Re_vert to Original"
+-msgstr "_Återställ till original"
++msgstr "Åters_täll till original"
+ 
+ #: data/ui/collection.ui:21 data/ui/event.ui:406 data/ui/event.ui:457
+ #: data/ui/faces.ui:389 data/ui/media.ui:389 data/ui/photo.ui:376
+@@ -1288,7 +1292,7 @@
+ #: data/ui/faces.ui:394 data/ui/media.ui:394 data/ui/photo_context.ui:25
+ #: data/ui/photo.ui:381 data/ui/tags.ui:394 src/Resources.vala:359
+ msgid "Modif_y Tags…"
+-msgstr "_Ändra taggar…"
++msgstr "Ändra _taggar…"
+ 
+ #: data/ui/collection.ui:35 data/ui/event.ui:280 data/ui/event.ui:471
+ #: data/ui/faces.ui:280 data/ui/media.ui:280 data/ui/photo_context.ui:33
+@@ -1367,7 +1371,7 @@
+ #: data/ui/faces.ui:380 data/ui/media.ui:380 data/ui/photo_context.ui:129
+ #: data/ui/tags.ui:380
+ msgid "View Eve_nt for Photo"
+-msgstr "_Visa bildhändelse"
++msgstr "Visa _bildhändelse"
+ 
+ #: data/ui/collection.ui:125 data/ui/direct_context.ui:21 data/ui/direct.ui:33
+ #: data/ui/event.ui:26 data/ui/event.ui:561 data/ui/faces.ui:26
+@@ -1432,8 +1436,8 @@
+ 
+ #: data/ui/direct.ui:8 data/ui/events_directory.ui:8 data/ui/event.ui:8
+ #: data/ui/faces.ui:8 data/ui/import_queue.ui:8 data/ui/import.ui:8
+-#: data/ui/media.ui:8 data/ui/offline.ui:9 data/ui/photo.ui:8 data/ui/tags.ui:8
+-#: data/ui/trash.ui:9
++#: data/ui/media.ui:8 data/ui/offline.ui:9 data/ui/photo.ui:8
++#: data/ui/tags.ui:8 data/ui/trash.ui:9
+ msgid "_File"
+ msgstr "_Arkiv"
+ 
+@@ -1443,7 +1447,7 @@
+ 
+ #: data/ui/direct.ui:16
+ msgid "Save _As…"
+-msgstr "_Spara som…"
++msgstr "Spara s_om…"
+ 
+ #: data/ui/direct.ui:40 data/ui/events_directory.ui:24 data/ui/event.ui:39
+ #: data/ui/faces.ui:39 data/ui/import_queue.ui:30 data/ui/import.ui:32
+@@ -1464,7 +1468,7 @@
+ #: data/ui/offline.ui:35 data/ui/photo.ui:59 data/ui/tags.ui:49
+ #: data/ui/trash.ui:40 src/Resources.vala:197
+ msgid "_Undo"
+-msgstr "_Ångra"
++msgstr "Ån_gra"
+ 
+ #: data/ui/direct.ui:55 data/ui/events_directory.ui:39 data/ui/event.ui:54
+ #: data/ui/faces.ui:54 data/ui/import.ui:47 data/ui/media.ui:54
+@@ -1503,11 +1507,11 @@
+ 
+ #: data/ui/direct.ui:89 data/ui/photo.ui:162
+ msgid "Zoom _100%"
+-msgstr "_Visa 100%"
++msgstr "Zoom _100 %"
+ 
+ #: data/ui/direct.ui:94 data/ui/photo.ui:167
+ msgid "Zoom _200%"
+-msgstr "_Visa 200%"
++msgstr "Zoom _200 %"
+ 
+ #: data/ui/direct.ui:101 data/ui/photo.ui:188
+ msgid "_Photo"
+@@ -1582,7 +1586,7 @@
+ #: data/ui/media.ui:410 data/ui/offline.ui:188 data/ui/photo.ui:396
+ #: data/ui/tags.ui:429 data/ui/trash.ui:197
+ msgid "_Frequently Asked Questions"
+-msgstr "_Återkommande frågor"
++msgstr "Vanliga _frågor"
+ 
+ #: data/ui/direct.ui:191 data/ui/events_directory.ui:161 data/ui/event.ui:431
+ #: data/ui/faces.ui:441 data/ui/import_queue.ui:76 data/ui/import.ui:194
+@@ -1659,7 +1663,7 @@
+ #: data/ui/offline.ui:19 data/ui/photo.ui:43 data/ui/tags.ui:33
+ #: data/ui/trash.ui:24 data/ui/trash.ui:234 data/ui/trash.ui:242
+ msgid "Empty T_rash"
+-msgstr "_Töm papperskorgen"
++msgstr "Töm pappe_rskorgen"
+ 
+ #: data/ui/events_directory.ui:46 data/ui/event.ui:61 data/ui/faces.ui:61
+ #: data/ui/import.ui:54 data/ui/media.ui:61 data/ui/offline.ui:47
+@@ -1710,7 +1714,7 @@
+ #: data/ui/import.ui:91 data/ui/media.ui:116 data/ui/offline.ui:96
+ #: data/ui/photo.ui:109 data/ui/tags.ui:116 data/ui/trash.ui:105
+ msgid "S_idebar"
+-msgstr "S_idofält"
++msgstr "Sido_fält"
+ 
+ #: data/ui/events_directory.ui:93 data/ui/event.ui:121 data/ui/faces.ui:121
+ #: data/ui/import.ui:96 data/ui/media.ui:121 data/ui/offline.ui:101
+@@ -1752,12 +1756,12 @@
+ #: data/ui/events_directory.ui:134 data/ui/events_directory.ui:176
+ #: src/Resources.vala:215
+ msgid "_Merge Events"
+-msgstr "Sa_mmanfoga händelser"
++msgstr "Samman_foga händelser"
+ 
+ #: data/ui/events_directory.ui:138 data/ui/events_directory.ui:180
+ #: data/ui/event.ui:392 data/ui/event.ui:587 src/Resources.vala:203
+ msgid "Re_name Event…"
+-msgstr "Byt namn på händelse…"
++msgstr "Byt _namn på händelse…"
+ 
+ #: data/ui/event.ui:16 data/ui/faces.ui:16 data/ui/media.ui:16
+ #: data/ui/photo.ui:16 data/ui/tags.ui:16 src/Resources.vala:263
+@@ -1828,7 +1832,7 @@
+ #: data/ui/event.ui:218 data/ui/faces.ui:218 data/ui/media.ui:218
+ #: data/ui/tags.ui:218
+ msgid "By Exposure _Date"
+-msgstr "Efter exponerings_ögonblick"
++msgstr "Efter _exponeringsögonblick"
+ 
+ #: data/ui/event.ui:223 data/ui/faces.ui:223 data/ui/media.ui:223
+ #: data/ui/tags.ui:223
+@@ -1888,7 +1892,7 @@
+ 
+ #: data/ui/import.ui:279 src/camera/ImportPage.vala:732
+ msgid "Stop fetching media from the camera"
+-msgstr "Stoppa hämtning av media från kameran"
++msgstr "Stoppa hämtningen från kameran"
+ 
+ #: data/ui/import.ui:299 data/ui/multitextentrydialog.ui:41
+ #: data/ui/textentrydialog.ui:46 src/AppWindow.vala:220 src/AppWindow.vala:245
+@@ -2010,7 +2014,7 @@
+ msgid ""
+ "When viewing images that are transparent, they will be drawn against this "
+ "background."
+-msgstr "Då transparenta bilder visas kommer de att ritas på denna bakgrund."
++msgstr "Genomskinliga bilder visas mot den här bakgrunden."
+ 
+ #: data/ui/preferences_dialog.ui:338
+ msgid "Transparent Background:"
+@@ -2287,7 +2291,7 @@
+ #: data/ui/trash.ui:68 data/ui/trash.ui:221 data/ui/trash.ui:266
+ #: src/Resources.vala:779
+ msgid "_Restore"
+-msgstr "Åt_erställ"
++msgstr "Åters_täll"
+ 
+ #: data/ui/trash.ui:255 src/Resources.vala:776
+ msgid "Remove the selected photos from the trash"
+@@ -2309,13 +2313,11 @@
+ msgid ""
+ "You are not currently logged into Flickr.\n"
+ "\n"
+-"Click Log in to log into Flickr in your Web browser. You will have to "
+-"authorize Shotwell Connect to link to your Flickr account."
++"Click Log in to log into Flickr in your Web browser. You will have to authorize Shotwell Connect to link to your Flickr account."
+ msgstr ""
+ "Du är för närvarande inte inloggad på Flickr.\n"
+ "\n"
+-"Klicka på Logga in för att logga in på Flickr med din webbläsare. Du måste "
+-"specifikt godkänna att Shotwell Connect kan länka till ditt Flickr-konto."
++"Klicka på Logga in för att logga in på Flickr med din webbläsare. Du måste specifikt godkänna att Shotwell Connect kan länka till ditt Flickr-konto."
+ 
+ #: plugins/authenticator/shotwell/FlickrPublishingAuthenticator.vala:90
+ #: plugins/authenticator/shotwell/TumblrAuthenticator.vala:100
+@@ -2331,74 +2333,37 @@
+ msgid ""
+ "You are not currently logged into YouTube.\n"
+ "\n"
+-"You must have already signed up for a Google account and set it up for use "
+-"with YouTube to continue. You can set up most accounts by using your browser "
+-"to log into the YouTube site at least once.\n"
+-"\n"
+-"Shotwell uses the YouTube API services <a href=\"https://"
+-"developers.google.com/youtube\">https://developers.google.com/youtube</a> "
+-"for accessing your YouTube channel and upload the videos. By using Shotwell "
+-"to access YouTube, you agree to be bound to the YouTube Terms of Service as "
+-"available at <a href=\"https://www.youtube.com/t/terms\">https://"
+-"www.youtube.com/t/terms</a>\n"
+-"\n"
+-"Shotwell's privacy policy regarding the use of data related to your Google "
+-"account in general and YouTube in particular can be found in our <a "
+-"href=\"help:shotwell/privacy-policy\">online services privacy policy</a>\n"
++"You must have already signed up for a Google account and set it up for use with YouTube to continue. You can set up most accounts by using your browser to log into the YouTube site at least once.\n"
+ "\n"
+-"For Google's own privacy policy, please refer to <a href=\"https://"
+-"policies.google.com/privacy\">https://policies.google.com/privacy</a>"
++"Shotwell uses the YouTube API services <a href=\"https://developers.google.com/youtube\">https://developers.google.com/youtube</a> for accessing your YouTube channel and upload the videos. By using Shotwell to access YouTube, you agree to be bound to the YouTube Terms of Service as available at <a href=\"https://www.youtube.com/t/terms\">https://www.youtube.com/t/terms</a>\n"
++"\n"
++"Shotwell's privacy policy regarding the use of data related to your Google account in general and YouTube in particular can be found in our <a href=\"help:shotwell/privacy-policy\">online services privacy policy</a>\n"
++"\n"
++"For Google's own privacy policy, please refer to <a href=\"https://policies.google.com/privacy\">https://policies.google.com/privacy</a>"
+ msgstr ""
+ "Du är för närvarande inte inloggad på YouTube.\n"
+ "\n"
+-"Du måste ha registrerat ett Google-konto och konfigurera det för YouTube-"
+-"användning för att fortsätta. Du kan konfigurera de flesta konton genom att "
+-"använda din webbläsare för att logga in på YouTube-webbplatsen minst en "
+-"gång.\n"
+-"\n"
+-"Shotwell använder YouTubes API-tjänster <a href=\"https://"
+-"developers.google.com/youtube\">https://developers.google.com/youtube</a> "
+-"för att komma åt din YouTube-kanal och skicka videoklippen. Genom att "
+-"använda Shotwell för att komma åt YouTube så behöver du följa YouTubes "
+-"användningsvillkor som finns på <a href=\"https://www.youtube.com/t/"
+-"terms\">https://www.youtube.com/t/terms</a>\n"
+-"\n"
+-"Shotwells sekretesspolicy kring användning av data relaterade till ditt "
+-"Google-konto i allmänhet och YouTube i synnerhet kan ses i vår <a "
+-"href=\"help:shotwell/privacy-policy\">sekretesspolicy för nättjänster</a>\n"
++"Du måste ha registrerat ett Google-konto och konfigurera det för YouTube-användning för att fortsätta. Du kan konfigurera de flesta konton genom att använda din webbläsare för att logga in på YouTube-webbplatsen minst en gång.\n"
++"\n"
++"Shotwell använder YouTubes API-tjänster <a href=\"https://developers.google.com/youtube\">https://developers.google.com/youtube</a> för att komma åt din YouTube-kanal och skicka videoklippen. Genom att använda Shotwell för att komma åt YouTube så behöver du följa YouTubes användningsvillkor som finns på <a href=\"https://www.youtube.com/t/terms\">https://www.youtube.com/t/terms</a>\n"
++"\n"
++"Shotwells sekretesspolicy kring användning av data relaterade till ditt Google-konto i allmänhet och YouTube i synnerhet kan ses i vår <a href=\"help:shotwell/privacy-policy\">sekretesspolicy för nättjänster</a>\n"
+ "\n"
+-"Se <a href=\"https://policies.google.com/privacy\">https://"
+-"policies.google.com/privacy</a> för Googles egen sekretesspolicy"
++"Se <a href=\"https://policies.google.com/privacy\">https://policies.google.com/privacy</a> för Googles egen sekretesspolicy"
+ 
+ #: plugins/authenticator/shotwell/ShotwellAuthenticatorFactory.vala:36
+ msgid ""
+ "You are not currently logged into Google Photos.\n"
+ "\n"
+-"You must have already signed up for a Google account and set it up for use "
+-"with Google Photos. Shotwell uses the Google Photos API services <a "
+-"href=\"https://developers.google.com/photos/\">https://developers.google.com/"
+-"photos/</a> for all interaction with your Google Photos data. You will have "
+-"to grant access Shotwell to your Google Photos library.\n"
+-"\n"
+-"Shotwell's privacy policy regarding the use of data related to your Google "
+-"account in general and Google Photos in particular can be found in our <a "
+-"href=\"help:shotwell/privacy-policy\">online services privacy policy</a>. "
+-"For Google's own privacy policy, please refer to <a href=\"https://"
+-"policies.google.com/privacy\">https://policies.google.com/privacy</a>"
++"You must have already signed up for a Google account and set it up for use with Google Photos. Shotwell uses the Google Photos API services <a href=\"https://developers.google.com/photos/\">https://developers.google.com/photos/</a> for all interaction with your Google Photos data. You will have to grant access Shotwell to your Google Photos library.\n"
++"\n"
++"Shotwell's privacy policy regarding the use of data related to your Google account in general and Google Photos in particular can be found in our <a href=\"help:shotwell/privacy-policy\">online services privacy policy</a>. For Google's own privacy policy, please refer to <a href=\"https://policies.google.com/privacy\">https://policies.google.com/privacy</a>"
+ msgstr ""
+ "Du är för närvarande inte inloggad på Google Foto.\n"
+ "\n"
+-"Du måste ha registrerat ett Google-konto och konfigurera det för användning "
+-"med Google Foto. Shotwell använder Google Fotos API-tjänster <a "
+-"href=\"https://developers.google.com/photos/\">https://developers.google.com/"
+-"photos/</a> för all interaktion med dina Google Foto-data. Du kommer att "
+-"behöva ge Shotwell åtkomst till ditt Google Foto-bibliotek.\n"
+-"\n"
+-"Shotwells sekretesspolicy kring användning av data relaterade till ditt "
+-"Google-konto i allmänhet och Google Foto i synnerhet kan ses i vår <a "
+-"href=\"help:shotwell/privacy-policy\">sekretesspolicy för nättjänster</a>. "
+-"Se <a href=\"https://policies.google.com/privacy\">https://"
+-"policies.google.com/privacy</a> för Googles egen sekretesspolicy"
++"Du måste ha registrerat ett Google-konto och konfigurera det för användning med Google Foto. Shotwell använder Google Fotos API-tjänster <a href=\"https://developers.google.com/photos/\">https://developers.google.com/photos/</a> för all interaktion med dina Google Foto-data. Du kommer att behöva ge Shotwell åtkomst till ditt Google Foto-bibliotek.\n"
++"\n"
++"Shotwells sekretesspolicy kring användning av data relaterade till ditt Google-konto i allmänhet och Google Foto i synnerhet kan ses i vår <a href=\"help:shotwell/privacy-policy\">sekretesspolicy för nättjänster</a>. Se <a href=\"https://policies.google.com/privacy\">https://policies.google.com/privacy</a> för Googles egen sekretesspolicy"
+ 
+ #: plugins/authenticator/shotwell/tumblr_authentication_pane.ui:31
+ msgid "_Email address"
+@@ -2418,13 +2383,11 @@
+ msgid ""
+ "You are not currently logged into Tumblr.\n"
+ "\n"
+-"Click Log in to log into Tumblr in your Web browser. You will have to "
+-"authorize Shotwell Connect to link to your Tumblr account."
++"Click Log in to log into Tumblr in your Web browser. You will have to authorize Shotwell Connect to link to your Tumblr account."
+ msgstr ""
+ "Du är för närvarande inte inloggad på Tumblr.\n"
+ "\n"
+-"Klicka på Logga in för att logga in på Tumblr med din webbläsare. Du måste "
+-"specifikt godkänna att Shotwell Connect kan länka till ditt Tumblr-konto."
++"Klicka på Logga in för att logga in på Tumblr med din webbläsare. Du måste specifikt godkänna att Shotwell Connect kan länka till ditt Tumblr-konto."
+ 
+ #: plugins/common/Resources.vala:7 src/plugins/SpitInterfaces.vala:174
+ msgid "Visit the Shotwell home page"
+@@ -2477,8 +2440,8 @@
+ #. Possible error message when a site presents a bad certificate.
+ #: plugins/common/RESTSupport.vala:268
+ msgid ""
+-"⚫ This website’s identification has been revoked by the trusted "
+-"organization that issued it."
++"⚫ This website’s identification has been revoked by the trusted organization"
++" that issued it."
+ msgstr ""
+ "⚫ Den här webbplatsens identifiering har återkallats av den betrodda "
+ "organisation som utfärdade den."
+@@ -2529,11 +2492,11 @@
+ #, c-format
+ msgid ""
+ "This does not look like the real %s. Attackers might be trying to steal or "
+-"alter information going to or from this site (for example, private messages, "
+-"credit card information, or passwords)."
++"alter information going to or from this site (for example, private messages,"
++" credit card information, or passwords)."
+ msgstr ""
+-"Det här ser inte ut som det äkta %s. En anfallare kanske försöker att stjäla "
+-"eller ändra information som passerar till eller från denna webbplats (till "
++"Det här ser inte ut som det äkta %s. En anfallare kanske försöker att stjäla"
++" eller ändra information som passerar till eller från denna webbplats (till "
+ "exempel, privata meddelanden, kreditkortsinformation eller lösenord)."
+ 
+ #: plugins/common/WebAuthenticationPane.vala:32
+@@ -2590,8 +2553,7 @@
+ #: plugins/shotwell-publishing/FlickrPublishing.vala:543
+ #, c-format
+ msgid ""
+-"Your free Flickr account limits how many photos you can upload to the "
+-"service.\n"
++"Your free Flickr account limits how many photos you can upload to the service.\n"
+ "You have uploaded %llu out of your %lld file limit."
+ msgstr ""
+ "Ditt gratiskonto på Flickr begränsar hur många bilder som du kan skicka\n"
+@@ -2745,7 +2707,8 @@
+ msgid "Photos will appear in:"
+ msgstr "Bilder kommer att visas i:"
+ 
+-#. Activate last known album id. If none was chosen, either use the old default (Shotwell connect)
++#. Activate last known album id. If none was chosen, either use the old
++#. default (Shotwell connect)
+ #. or the new "Default album" album for Google Photos
+ #: plugins/shotwell-publishing/PhotosPublishingPane.vala:105
+ msgid "Default album"
+@@ -2827,10 +2790,11 @@
+ 
+ #: plugins/shotwell-publishing/PiwigoPublishing.vala:1025
+ msgid ""
+-"Shotwell cannot contact your Piwigo photo library. Please verify the URL you "
+-"entered"
++"Shotwell cannot contact your Piwigo photo library. Please verify the URL you"
++" entered"
+ msgstr ""
+-"Shotwell kan inte nå ditt Piwigo-bildbibliotek. Kontrollera länkadressen igen"
++"Shotwell kan inte nå ditt Piwigo-bildbibliotek. Kontrollera länkadressen "
++"igen"
+ 
+ #: plugins/shotwell-publishing/PiwigoPublishing.vala:1026
+ msgid "Username and/or password invalid. Please try again"
+@@ -3040,13 +3004,11 @@
+ #: src/AppWindow.vala:268
+ #, c-format
+ msgid ""
+-"A fatal error occurred when accessing Shotwell’s library. Shotwell cannot "
+-"continue.\n"
++"A fatal error occurred when accessing Shotwell’s library. Shotwell cannot continue.\n"
+ "\n"
+ "%s"
+ msgstr ""
+-"Ett allvarligt fel inträffade vid åtkomsten till Shotwells bibliotek. "
+-"Shotwell kan inte fortsätta.\n"
++"Ett allvarligt fel inträffade vid åtkomsten till Shotwells bibliotek. Shotwell kan inte fortsätta.\n"
+ "\n"
+ "%s"
+ 
+@@ -3138,8 +3100,10 @@
+ msgid "List of all discovered camera devices"
+ msgstr "Lista över identifierade kameraenheter"
+ 
+-#. Translators: First %s is the name of camera as gotten from GPhoto, second is the GVolume name, e.g. Mass storage camera (510MB volume)
+-#. Translators: First %s is the name of camera as gotten from GPhoto, second is the GMount name, e.g. Mass storage camera (510MB volume)
++#. Translators: First %s is the name of camera as gotten from GPhoto, second
++#. is the GVolume name, e.g. Mass storage camera (510MB volume)
++#. Translators: First %s is the name of camera as gotten from GPhoto, second
++#. is the GMount name, e.g. Mass storage camera (510MB volume)
+ #: src/camera/DiscoveredCamera.vala:288 src/camera/DiscoveredCamera.vala:292
+ #, c-format
+ msgid "%s (%s)"
+@@ -3166,11 +3130,11 @@
+ 
+ #: src/camera/ImportPage.vala:737
+ msgid "_Re-scan"
+-msgstr "Sök igenom _igen"
++msgstr "_Skanna igen"
+ 
+ #: src/camera/ImportPage.vala:739
+ msgid "Scan the camera again for media"
+-msgstr "Sök igenom kameran igen efter media"
++msgstr "Skanna kameran igen efter mediefiler"
+ 
+ #. The user stopped the scan; leave the page in its (empty) non-busy state.
+ #: src/camera/ImportPage.vala:796
+@@ -3221,11 +3185,12 @@
+ msgid "Unmounting…"
+ msgstr "Avmonterar…"
+ 
+-#. Setup progressbar here. All camera interaction starting below might take quite some time.
++#. Setup progressbar here. All camera interaction starting below might take
++#. quite some time.
+ #. Keep the user entertained
+ #: src/camera/ImportPage.vala:938
+ msgid "Connecting to camera"
+-msgstr "Ansluter till kamera"
++msgstr "Ansluter till kameran, vänta…"
+ 
+ #: src/camera/ImportPage.vala:976
+ msgid "Starting import, please wait…"
+@@ -3233,7 +3198,7 @@
+ 
+ #: src/camera/ImportPage.vala:982
+ msgid "Fetching camera information"
+-msgstr "Hämtar kamerainformation"
++msgstr "Hämtar information om kameran"
+ 
+ #: src/camera/ImportPage.vala:987
+ msgid "Fetching file list"
+@@ -3241,11 +3206,11 @@
+ 
+ #: src/camera/ImportPage.vala:1063
+ msgid "Associating files"
+-msgstr "Associerar filer"
++msgstr "Kopplar ihop matchande filer"
+ 
+ #: src/camera/ImportPage.vala:1066
+ msgid "Getting preview images and image metadata"
+-msgstr "Hämtar förhandsvisningsbilder och bildmetadata"
++msgstr "Hämtar förhandsvisningar och bildmetadata"
+ 
+ #: src/camera/ImportPage.vala:1179
+ #, c-format
+@@ -3296,7 +3261,8 @@
+ #: src/camera/ImportPage.vala:1498
+ #, c-format
+ msgid "Unable to delete %d photo/video from the camera due to errors."
+-msgid_plural "Unable to delete %d photos/videos from the camera due to errors."
++msgid_plural ""
++"Unable to delete %d photos/videos from the camera due to errors."
+ msgstr[0] ""
+ "Kunde inte radera %d bild och film från kameran på grund av ett fel."
+ msgstr[1] ""
+@@ -3487,7 +3453,7 @@
+ 
+ #: src/Commands.vala:1429 src/Commands.vala:1446
+ msgid "Time Adjustment Error"
+-msgstr "Anpassning av tidsfel"
++msgstr "Fel vid tidsjustering"
+ 
+ #: src/Commands.vala:1444
+ msgid "Time adjustments could not be undone on the following photo file."
+@@ -3587,12 +3553,14 @@
+ msgid "Unable to restore photo database %s"
+ msgstr "Kunde inte återställa bilddatabasen %s"
+ 
+-#. Use empty list for addresses instead of null to word around bug in xdg-desktop-portal-gtk
++#. Use empty list for addresses instead of null to word around bug in xdg-
++#. desktop-portal-gtk
+ #: src/DesktopIntegration.vala:111
+ msgid "Send files per Mail: "
+ msgstr "Skicka filer via e-post: "
+ 
+-#. Translators: The first %s is the name of the file, the second %s is the reason why it could not be sent
++#. Translators: The first %s is the name of the file, the second %s is the
++#. reason why it could not be sent
+ #: src/DesktopIntegration.vala:114
+ #, c-format
+ msgid "Unable to send file %s, %s"
+@@ -3619,11 +3587,11 @@
+ 
+ #: src/dialogs/AdjustDateTimeDialog.vala:79
+ msgid "AM"
+-msgstr "AM"
++msgstr "fm"
+ 
+ #: src/dialogs/AdjustDateTimeDialog.vala:80
+ msgid "PM"
+-msgstr "PM"
++msgstr "em"
+ 
+ #: src/dialogs/AdjustDateTimeDialog.vala:81
+ msgid "24 Hr"
+@@ -3703,8 +3671,10 @@
+ msgstr[0] "sekund"
+ msgstr[1] "sekunder"
+ 
+-#. "Unmodified" and "Current," though they appear in the "Format:" popup menu, really
+-#. aren't formats so much as they are operating modes that determine specific formats.
++#. "Unmodified" and "Current," though they appear in the "Format:" popup menu,
++#. really
++#. aren't formats so much as they are operating modes that determine specific
++#. formats.
+ #. Hereafter we'll refer to these as "special formats."
+ #: src/dialogs/ExportDialog.vala:13
+ msgid "Unmodified"
+@@ -3736,7 +3706,8 @@
+ msgstr "Exportera _metadata:"
+ 
+ #. We're installed system-wide, so use the system help.
+-#. We're being run from the build directory; we'll have to handle clicks to this
++#. We're being run from the build directory; we'll have to handle clicks to
++#. this
+ #. link manually ourselves, due to a limitation of help: URIs.
+ #: src/dialogs/Preferences.vala:116 src/dialogs/Preferences.vala:120
+ msgid "(Help)"
+@@ -3825,8 +3796,8 @@
+ "Om du ändrar råbildsframkallare kommer alla ändringar du gjort på bilden i "
+ "Shotwell att återställas"
+ msgstr[1] ""
+-"Om du ändrar råbildsframkallare kommer alla ändringar du gjort på bilderna i "
+-"Shotwell att återställas"
++"Om du ändrar råbildsframkallare kommer alla ändringar du gjort på bilderna i"
++" Shotwell att återställas"
+ 
+ #: src/Dialogs.vala:38
+ msgid "_Switch Developer"
+@@ -3914,9 +3885,7 @@
+ msgstr[0] "Av dessa importerades %d fil framgångsrikt."
+ msgstr[1] "Av dessa importerades %d filer framgångsrikt."
+ 
+-#.
+ #. Duplicates
+-#.
+ #: src/Dialogs.vala:242
+ msgid "Duplicate Photos/Videos Not Imported:"
+ msgstr "Dubbletter av bilder/filmer som inte importerades:"
+@@ -3925,9 +3894,7 @@
+ msgid "duplicates existing media item"
+ msgstr "dubblett av befintligt media"
+ 
+-#.
+ #. Files Not Imported Due to Camera Errors
+-#.
+ #: src/Dialogs.vala:257
+ msgid "Photos/Videos Not Imported Due to Camera Errors:"
+ msgstr "På grund av ett kamerafel importerades inga bilder eller filmer:"
+@@ -3937,18 +3904,16 @@
+ msgid "error message:"
+ msgstr "felmeddelande:"
+ 
+-#.
+ #. Files Not Imported Because They Weren't Recognized as Photos or Videos
+-#.
+ #: src/Dialogs.vala:271
+-msgid "Files Not Imported Because They Weren’t Recognized as Photos or Videos:"
++msgid ""
++"Files Not Imported Because They Weren’t Recognized as Photos or Videos:"
+ msgstr ""
+ "Filerna importerades inte på grund av att de inte kändes igen som bild- "
+ "eller filmfiler:"
+ 
+-#.
+-#. Photos/Videos Not Imported Because They Weren't in a Format Shotwell Understands
+-#.
++#. Photos/Videos Not Imported Because They Weren't in a Format Shotwell
++#. Understands
+ #: src/Dialogs.vala:286
+ msgid ""
+ "Photos/Videos Not Imported Because They Weren’t in a Format Shotwell "
+@@ -3957,9 +3922,8 @@
+ "Bilderna eller filmerna importerades inte på grund av att de var i ett "
+ "format som Shotwell inte stödjer:"
+ 
+-#.
+-#. Photos/Videos Not Imported Because Shotwell Couldn't Copy Them into its Library
+-#.
++#. Photos/Videos Not Imported Because Shotwell Couldn't Copy Them into its
++#. Library
+ #: src/Dialogs.vala:301
+ msgid ""
+ "Photos/Videos Not Imported Because Shotwell Couldn’t Copy Them into its "
+@@ -3977,16 +3941,13 @@
+ "det gick inte att kopiera %s\n"
+ "\ttill %s"
+ 
+-#.
+-#. Photos/Videos Not Imported Because GDK Pixbuf Library Identified them as Corrupt
+-#.
++#. Photos/Videos Not Imported Because GDK Pixbuf Library Identified them as
++#. Corrupt
+ #: src/Dialogs.vala:317
+ msgid "Photos/Videos Not Imported Because Files Are Corrupt:"
+ msgstr "Bilder/filmer importerades inte eftersom filer är korrupta:"
+ 
+-#.
+ #. Photos/Videos Not Imported for Other Reasons
+-#.
+ #: src/Dialogs.vala:332
+ msgid "Photos/Videos Not Imported for Other Reasons:"
+ msgstr "Bilder/filmer importerades inte på grund av andra anledningar:"
+@@ -4054,7 +4015,8 @@
+ #: src/Dialogs.vala:395
+ #, c-format
+ msgid ""
+-"1 photo failed to import because the photo library folder was not writable:\n"
++"1 photo failed to import because the photo library folder was not "
++"writable:\n"
+ msgid_plural ""
+ "%d photos failed to import because the photo library folder was not "
+ "writable:\n"
+@@ -4068,7 +4030,8 @@
+ #: src/Dialogs.vala:398
+ #, c-format
+ msgid ""
+-"1 video failed to import because the photo library folder was not writable:\n"
++"1 video failed to import because the photo library folder was not "
++"writable:\n"
+ msgid_plural ""
+ "%d videos failed to import because the photo library folder was not "
+ "writable:\n"
+@@ -4102,8 +4065,8 @@
+ "%d files failed to import because the photo library folder was not "
+ "writable:\n"
+ msgstr[0] ""
+-"En fil gick inte att importera på grund av att bildbiblioteksmappen inte var "
+-"skrivbar:\n"
++"En fil gick inte att importera på grund av att bildbiblioteksmappen inte var"
++" skrivbar:\n"
+ msgstr[1] ""
+ "%d filer gick inte att importera på grund av att bildbiblioteksmappen inte "
+ "var skrivbar:\n"
+@@ -4169,7 +4132,8 @@
+ msgstr[1] "%d filer gick inte att importera eftersom de var korrupta:\n"
+ 
+ #. we have no notion of "unsupported" video files right now in Shotwell (all
+-#. standard container formats are supported, it's just that the streams in them
++#. standard container formats are supported, it's just that the streams in
++#. them
+ #. might or might not be interpretable), so this message does not need to be
+ #. media specific
+ #: src/Dialogs.vala:467
+@@ -4237,7 +4201,8 @@
+ msgstr[0] "En bild och film importerades.\n"
+ msgstr[1] "%d bilder och filmer importerades.\n"
+ 
+-#. if no media items were imported at all (i.e. an empty directory attempted), need to at least
++#. if no media items were imported at all (i.e. an empty directory attempted),
++#. need to at least
+ #. report that nothing was imported
+ #: src/Dialogs.vala:538
+ msgid "No photos or videos imported.\n"
+@@ -4350,18 +4315,20 @@
+ msgstr[0] ""
+ "\n"
+ "\n"
+-"och %d annat."
++"Och %d annat."
+ msgstr[1] ""
+ "\n"
+ "\n"
+-"och %d andra."
++"Och %d andra."
+ 
+ #: src/Dialogs.vala:887 src/Dialogs.vala:924
+ msgid "Tags (separated by commas):"
+ msgstr "Taggar (separerade med kommatecken):"
+ 
+-#. This function is used to determine whether or not files should be copied or linked when imported.
+-#. Returns ACCEPT for copy, REJECT for link, and CANCEL for (drum-roll) cancel.
++#. This function is used to determine whether or not files should be copied or
++#. linked when imported.
++#. Returns ACCEPT for copy, REJECT for link, and CANCEL for (drum-roll)
++#. cancel.
+ #: src/Dialogs.vala:1002
+ msgid ""
+ "Shotwell can copy the photos into your library folder or it can import them "
+@@ -4395,69 +4362,57 @@
+ #: src/Dialogs.vala:1042
+ #, c-format
+ msgid ""
+-"This will remove the photo/video from your Shotwell library. Would you also "
+-"like to move the file to your desktop trash?\n"
++"This will remove the photo/video from your Shotwell library. Would you also like to move the file to your desktop trash?\n"
+ "\n"
+ "This action cannot be undone."
+ msgid_plural ""
+-"This will remove %d photos/videos from your Shotwell library. Would you also "
+-"like to move the files to your desktop trash?\n"
++"This will remove %d photos/videos from your Shotwell library. Would you also like to move the files to your desktop trash?\n"
+ "\n"
+ "This action cannot be undone."
+ msgstr[0] ""
+-"Det här kommer att ta bort bilden eller filmen från ditt Shotwell-bibliotek. "
+-"Vill du även flytta filen till papperskorgen?\n"
++"Det här kommer att ta bort bilden eller filmen från ditt Shotwell-bibliotek. Vill du även flytta filen till papperskorgen?\n"
+ "\n"
+ "Den här åtgärden kan inte ångras."
+ msgstr[1] ""
+-"Det här kommer att ta bort %d bilder eller filmer från ditt Shotwell-"
+-"bibliotek. Vill du även flytta filerna till papperskorgen?\n"
++"Det här kommer att ta bort %d bilder eller filmer från ditt Shotwell-bibliotek. Vill du även flytta filerna till papperskorgen?\n"
+ "\n"
+ "Den här åtgärden kan inte ångras."
+ 
+ #: src/Dialogs.vala:1046
+ #, c-format
+ msgid ""
+-"This will remove the video from your Shotwell library. Would you also like "
+-"to move the file to your desktop trash?\n"
++"This will remove the video from your Shotwell library. Would you also like to move the file to your desktop trash?\n"
+ "\n"
+ "This action cannot be undone."
+ msgid_plural ""
+-"This will remove %d videos from your Shotwell library. Would you also like "
+-"to move the files to your desktop trash?\n"
++"This will remove %d videos from your Shotwell library. Would you also like to move the files to your desktop trash?\n"
+ "\n"
+ "This action cannot be undone."
+ msgstr[0] ""
+-"Det här kommer att ta bort filmen från ditt Shotwell-bibliotek. Vill du även "
+-"flytta filmen till papperskorgen?\n"
++"Det här kommer att ta bort filmen från ditt Shotwell-bibliotek. Vill du även flytta filmen till papperskorgen?\n"
+ "\n"
+ "Den här åtgärden kan inte ångras."
+ msgstr[1] ""
+-"Det här kommer att ta bort %d filmer från ditt Shotwell-bibliotek. Vill du "
+-"även flytta filmerna till papperskorgen?\n"
++"Det här kommer att ta bort %d filmer från ditt Shotwell-bibliotek. Vill du även flytta filmerna till papperskorgen?\n"
+ "\n"
+ "Den här åtgärd kan inte ångras."
+ 
+ #: src/Dialogs.vala:1050
+ #, c-format
+ msgid ""
+-"This will remove the photo from your Shotwell library. Would you also like "
+-"to move the file to your desktop trash?\n"
++"This will remove the photo from your Shotwell library. Would you also like to move the file to your desktop trash?\n"
+ "\n"
+ "This action cannot be undone."
+ msgid_plural ""
+-"This will remove %d photos from your Shotwell library. Would you also like "
+-"to move the files to your desktop trash?\n"
++"This will remove %d photos from your Shotwell library. Would you also like to move the files to your desktop trash?\n"
+ "\n"
+ "This action cannot be undone."
+ msgstr[0] ""
+-"Det här kommer att ta bort bilden från ditt Shotwell-bibliotek. Vill du även "
+-"flytta bilden till papperskorgen?\n"
++"Det här kommer att ta bort bilden från ditt Shotwell-bibliotek. Vill du även flytta bilden till papperskorgen?\n"
+ "\n"
+ "Den här åtgärden kan inte ångras."
+ msgstr[1] ""
+-"Det här kommer att ta bort %d bilder från ditt Shotwell-bibliotek. Vill du "
+-"även flytta bilderna till papperskorgen?\n"
++"Det här kommer att ta bort %d bilder från ditt Shotwell-bibliotek. Vill du även flytta bilderna till papperskorgen?\n"
+ "\n"
+ "Den här åtgärden kan inte ångras."
+ 
+@@ -4565,7 +4520,8 @@
+ #, c-format
+ msgid "%s has unsaved changes. If you quit now, these changes will be lost."
+ msgstr ""
+-"%s har osparade ändringar. Om du avslutar nu kommer dessa ändringar förloras."
++"%s har osparade ändringar. Om du avslutar nu kommer dessa ändringar "
++"förloras."
+ 
+ #: src/direct/DirectPhotoPage.vala:316
+ msgid "Discard changes"
+@@ -4602,7 +4558,7 @@
+ #: src/editing_tools/AdjustTool.vala:45
+ #: src/editing_tools/StraightenTool.vala:100
+ msgid "_Reset"
+-msgstr "Åt_erställ"
++msgstr "Åters_täll"
+ 
+ #. fit both on the top line, emit and move on
+ #: src/editing_tools/AdjustTool.vala:59 src/Properties.vala:449
+@@ -5043,8 +4999,8 @@
+ "(schema %d). Please use the latest version of Shotwell."
+ msgstr ""
+ "Ditt bildbibliotek är inte kompatibelt med den här versionen av Shotwell. "
+-"Det verkar som det skapades med Shotwell %s (schema %d). Denna version är %s "
+-"(schema %d). Använd den senaste versionen av Shotwell."
++"Det verkar som det skapades med Shotwell %s (schema %d). Denna version är %s"
++" (schema %d). Använd den senaste versionen av Shotwell."
+ 
+ #: src/main.vala:57
+ #, c-format
+@@ -5073,11 +5029,11 @@
+ #: src/main.vala:69
+ #, c-format
+ msgid "Unknown error attempting to verify Shotwell’s database: %s"
+-msgstr "Okänt fel vid försök att verifiera Shotwells databas: %s"
++msgstr "Okänt fel när Shotwells databas skulle verifieras: %s"
+ 
+ #: src/main.vala:79
+ msgid "Unable to start Shotwell"
+-msgstr "Kunde inte starta Shotwell"
++msgstr "Det gick inte att starta Shotwell"
+ 
+ #: src/main.vala:115
+ msgid "Loading Shotwell"
+@@ -5230,7 +5186,9 @@
+ msgid "WebP"
+ msgstr "WebP"
+ 
+-#. TRANSLATORS: "modified" here is part of a file name that was changed with another image tool outside of Shotwell. Note that there are potential issues with UTF-8 characters
++#. TRANSLATORS: "modified" here is part of a file name that was changed with
++#. another image tool outside of Shotwell. Note that there are potential
++#. issues with UTF-8 characters
+ #: src/Photo.vala:4001
+ msgid "modified"
+ msgstr "ändrad"
+@@ -5239,7 +5197,8 @@
+ msgid "Enable or disable the plugin"
+ msgstr "Aktivera eller inaktivera insticksmodulen"
+ 
+-#. TRANSLATORS: %s is the name of an online service such as YouTube, Mastodon, ...
++#. TRANSLATORS: %s is the name of an online service such as YouTube, Mastodon,
++#. ...
+ #: src/plugins/ManifestWidget.vala:155
+ #, c-format
+ msgid "Manage accounts for %s"
+@@ -5532,8 +5491,8 @@
+ #: src/publishing/PublishingPluginHost.vala:98
+ msgid "To try publishing to another service, select one from the above menu."
+ msgstr ""
+-"För att försöka att publicera till en annan tjänst, välj en från ovanstående "
+-"meny."
++"För att försöka att publicera till en annan tjänst, välj en från ovanstående"
++" meny."
+ 
+ #: src/publishing/PublishingUI.vala:67
+ msgid "Publish Photos"
+@@ -5580,7 +5539,7 @@
+ 
+ #: src/publishing/PublishingUI.vala:394
+ msgid "_Close"
+-msgstr "S_täng"
++msgstr "_Stäng"
+ 
+ #: src/publishing/Publishing.vala:13
+ msgid "Publishing"
+@@ -5594,7 +5553,8 @@
+ msgid "Logging in…"
+ msgstr "Loggar in…"
+ 
+-#. Here, we check whether more than one item is being uploaded, and if so, display
++#. Here, we check whether more than one item is being uploaded, and if so,
++#. display
+ #. an alternate message.
+ #: src/publishing/SuccessPaneWidget.vala:15
+ msgid "The selected video was successfully published."
+@@ -5676,7 +5636,7 @@
+ 
+ #: src/Resources.vala:147
+ msgid "_Revert"
+-msgstr "_Återställ"
++msgstr "Åters_täll"
+ 
+ #: src/Resources.vala:149
+ msgid "Save _As"
+@@ -5696,7 +5656,7 @@
+ 
+ #: src/Resources.vala:153
+ msgid "_Undelete"
+-msgstr "_Ångra radering"
++msgstr "Återställ _radering"
+ 
+ #: src/Resources.vala:154
+ msgid "_Normal Size"
+@@ -5704,7 +5664,7 @@
+ 
+ #: src/Resources.vala:155
+ msgid "Best _Fit"
+-msgstr "_Passa"
++msgstr "Bästa _passning"
+ 
+ #: src/Resources.vala:164
+ msgid "Copy Color Adjustments"
+@@ -5866,7 +5826,7 @@
+ 
+ #: src/Resources.vala:267
+ msgid "Pu_blish…"
+-msgstr "_Publicera…"
++msgstr "Pu_blicera…"
+ 
+ #. Button label
+ #: src/Resources.vala:273
+@@ -6105,7 +6065,7 @@
+ #: src/Resources.vala:786
+ #, c-format
+ msgid "Unable to open in file manager: %s"
+-msgstr "Kunde inte öppna i filhanterare: %s"
++msgstr "Det gick inte att öppna filen i filhanteraren: %s"
+ 
+ #: src/Resources.vala:794
+ msgid "Select all items"
+@@ -6113,21 +6073,29 @@
+ 
+ #. ...precache the timestamp string...
+ #. / Locale-specific time format for 12-hour time, i.e. 8:31 PM
+-#. / Precede modifier with a dash ("-") to pad with spaces, otherwise will pad with zeroes
+-#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+-#. / Locale-specific time format for 12-hour time with seconds, i.e. 8:31:42 PM
+-#. / Precede modifier with a dash ("-") to pad with spaces, otherwise will pad with zeroes
+-#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
++#. / Precede modifier with a dash ("-") to pad with spaces, otherwise will pad
++#. with zeroes
++#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-
++#. format
++#. / Locale-specific time format for 12-hour time with seconds, i.e. 8:31:42
++#. PM
++#. / Precede modifier with a dash ("-") to pad with spaces, otherwise will pad
++#. with zeroes
++#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-
++#. format
+ #. / Locale-specific calendar date format, i.e. "Tue Mar 08, 2006"
+-#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
++#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-
++#. format
+ #: src/Resources.vala:853
+ msgid "%a %b %d, %Y"
+ msgstr "%a %d %b, %Y"
+ 
+-# Till denna ordning är vi nödda och tvungna så det ser någorlunda ut även då strängarna för dagsintervall trycks ihop.
++# Till denna ordning är vi nödda och tvungna så det ser någorlunda ut även då
++# strängarna för dagsintervall trycks ihop.
+ #. / Locale-specific starting date format for multi-date strings,
+ #. / i.e. the "Tue Mar 08" in "Tue Mar 08 - 10, 2006"
+-#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
++#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-
++#. format
+ #: src/Resources.vala:859
+ #, no-c-format
+ msgctxt "MultidayFormat"
+@@ -6136,7 +6104,8 @@
+ 
+ #. / Locale-specific ending date format for multi-date strings,
+ #. / i.e. the "10, 2006" in "Tue Mar 08 - 10, 2006"
+-#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
++#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-
++#. format
+ #: src/Resources.vala:864
+ msgctxt "MultidayFormat"
+ msgid "%d, %Y"
+@@ -6144,7 +6113,8 @@
+ 
+ #. / Locale-specific calendar date format for multi-month strings,
+ #. / i.e. the "Tue Mar 08" in "Tue Mar 08 to Mon Apr 06, 2006"
+-#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
++#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-
++#. format
+ #: src/Resources.vala:870
+ #, no-c-format
+ msgctxt "MultimonthFormat"
+@@ -6153,7 +6123,8 @@
+ 
+ #. / Locale-specific calendar date format for multi-month strings,
+ #. / i.e. the "Mon Apr 06, 2006" in "Tue Mar 08 to Mon Apr 06, 2006"
+-#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
++#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-
++#. format
+ #: src/Resources.vala:875
+ msgctxt "MultimonthFormat"
+ msgid "%a %b %d, %Y"
+@@ -6445,8 +6416,8 @@
+ #~ msgstr "Kunde inte ladda användargränssnittet: %s"
+ 
+ #~ msgid ""
+-#~ "A file required for publishing is unavailable. Publishing to YouTube "
+-#~ "can’t continue."
++#~ "A file required for publishing is unavailable. Publishing to YouTube can’t "
++#~ "continue."
+ #~ msgstr ""
+ #~ "En fil som krävs för publiceringen saknas. Därför kan publiceringen till "
+ #~ "YouTube inte fortsätta."
+@@ -6462,24 +6433,19 @@
+ #~ msgid "Importing from %s can’t continue because an error occurred:"
+ #~ msgstr "Importen från %s kan inte fortsätta då ett fel uppstod:"
+ 
+-#~ msgid ""
+-#~ "To try importing from another service, select one from the above menu."
++#~ msgid "To try importing from another service, select one from the above menu."
+ #~ msgstr ""
+-#~ "För att försöka att importera från en annan tjänst, välj en från "
+-#~ "ovanstående meny."
++#~ "För att försöka att importera från en annan tjänst, välj en från ovanstående"
++#~ " meny."
+ 
+ #~ msgid ""
+ #~ "You do not have any data imports plugins enabled.\n"
+ #~ "\n"
+-#~ "In order to use the Import From Application functionality, you need to "
+-#~ "have at least one data imports plugin enabled. Plugins can be enabled in "
+-#~ "the Preferences dialog."
++#~ "In order to use the Import From Application functionality, you need to have at least one data imports plugin enabled. Plugins can be enabled in the Preferences dialog."
+ #~ msgstr ""
+ #~ "Du har inte aktiverat några dataimport-insticksmoduler.\n"
+ #~ "\n"
+-#~ "För att använda kommandot Importera från program, måste du åtminstone ha "
+-#~ "en insticksmodul aktiverad. Insticksmoduler kan aktiveras i programmets "
+-#~ "inställningar."
++#~ "För att använda kommandot Importera från program, måste du åtminstone ha en insticksmodul aktiverad. Insticksmoduler kan aktiveras i programmets inställningar."
+ 
+ #~ msgid "Database file"
+ #~ msgstr "Databasfil"
+@@ -6530,15 +6496,12 @@
+ #~ msgstr "Misslyckades med Flickr-auktorisering"
+ 
+ #~ msgid ""
+-#~ "You have already logged in and out of a Google service during this "
+-#~ "Shotwell session.\n"
++#~ "You have already logged in and out of a Google service during this Shotwell session.\n"
+ #~ "\n"
+-#~ "To continue publishing to Google services, quit and restart Shotwell, "
+-#~ "then try publishing again."
++#~ "To continue publishing to Google services, quit and restart Shotwell, then try publishing again."
+ #~ msgstr ""
+ #~ "Du har redan loggat in och ut från Google under denna Shotwell-session.\n"
+-#~ "För att fortsätta att publicera till Google så måste du starta om "
+-#~ "Shotwell och försök att publicera igen."
++#~ "För att fortsätta att publicera till Google så måste du starta om Shotwell och försök att publicera igen."
+ 
+ #~ msgid "Select Library Folder"
+ #~ msgstr "Välj biblioteksmapp"
+@@ -6602,8 +6565,8 @@
+ 
+ #~ msgid "_Remove location, tag and camera-identifying data before uploading"
+ #~ msgstr ""
+-#~ "_Ta bort plats, tagg och identifieringsdata för kameran innan du skickar "
+-#~ "upp något"
++#~ "_Ta bort plats, tagg och identifieringsdata för kameran innan du skickar upp"
++#~ " något"
+ 
+ #~ msgid "Scaling constraint:"
+ #~ msgstr "Skalningsbegränsning:"
+@@ -6617,8 +6580,7 @@
+ #~ msgid ""
+ #~ "You are not currently logged into your Gallery.\n"
+ #~ "\n"
+-#~ "You must have already signed up for a Gallery3 account to complete the "
+-#~ "login process."
++#~ "You must have already signed up for a Gallery3 account to complete the login process."
+ #~ msgstr ""
+ #~ "Du är för närvarande inte inloggad till ditt galleri.\n"
+ #~ "\n"
+@@ -6631,13 +6593,11 @@
+ #~ msgid ""
+ #~ "\n"
+ #~ "\n"
+-#~ "The file “%s” may not be supported by or may be too large for this "
+-#~ "instance of Gallery3."
++#~ "The file “%s” may not be supported by or may be too large for this instance of Gallery3."
+ #~ msgstr ""
+ #~ "\n"
+ #~ "\n"
+-#~ "Filen ”%s” kanske inte stöds eller kan vara för stor för denna instans av "
+-#~ "Gallery3."
++#~ "Filen ”%s” kanske inte stöds eller kan vara för stor för denna instans av Gallery3."
+ 
+ #~ msgid ""
+ #~ "\n"
+@@ -6659,27 +6619,27 @@
+ #~ msgstr "Publicera till %s som %s."
+ 
+ #~ msgid ""
+-#~ "Enter the URL for your Gallery3 site and the username and password (or "
+-#~ "API key) for your Gallery3 account."
++#~ "Enter the URL for your Gallery3 site and the username and password (or API "
++#~ "key) for your Gallery3 account."
+ #~ msgstr ""
+-#~ "Skriv in URL:en för din Gallery3-webbplats och användarnamnet och "
+-#~ "lösenordet (eller API-nyckeln) för ditt Gallery3-konto."
++#~ "Skriv in URL:en för din Gallery3-webbplats och användarnamnet och lösenordet"
++#~ " (eller API-nyckeln) för ditt Gallery3-konto."
+ 
+ #~ msgid ""
+-#~ "The username and password or API key were incorrect. To try again, re-"
+-#~ "enter your username and password below."
++#~ "The username and password or API key were incorrect. To try again, re-enter "
++#~ "your username and password below."
+ #~ msgstr ""
+ #~ "Användarnamnet och lösenordet eller API-nyckeln var felaktig. För att "
+ #~ "försöka igen, skriv in ditt användarnamn och lösenord på nytt nedan."
+ 
+ #~ msgid ""
+ #~ "The URL entered does not appear to be the main directory of a Gallery3 "
+-#~ "instance. Please make sure you typed it correctly and it does not have "
+-#~ "any trailing components (e.g., index.php)."
++#~ "instance. Please make sure you typed it correctly and it does not have any "
++#~ "trailing components (e.g., index.php)."
+ #~ msgstr ""
+-#~ "Den angivna URL:en verkar inte vara huvudkatalogen för en Gallery3-"
+-#~ "instans. Kontrollera att du angivit det korrekt och att du inte har några "
+-#~ "avslutande komponenter (exempelvis index.php)."
++#~ "Den angivna URL:en verkar inte vara huvudkatalogen för en Gallery3-instans. "
++#~ "Kontrollera att du angivit det korrekt och att du inte har några avslutande "
++#~ "komponenter (exempelvis index.php)."
+ 
+ #~ msgid "Unrecognized User"
+ #~ msgstr "Okänd användare"
+@@ -6700,10 +6660,8 @@
+ #~ msgstr "kaka för tillståndstolkare"
+ 
+ #~ msgid ""
+-#~ "A numeric code that captures the state of the GStreamer plug-in "
+-#~ "environment"
+-#~ msgstr ""
+-#~ "En sifferkod som fångar upp tillståndet för GStreamers insticksmiljö"
++#~ "A numeric code that captures the state of the GStreamer plug-in environment"
++#~ msgstr "En sifferkod som fångar upp tillståndet för GStreamers insticksmiljö"
+ 
+ #~ msgid "delay"
+ #~ msgstr "fördröjning"
+@@ -6740,8 +6698,8 @@
+ #~ msgstr "Senast valda Rajce-kategori"
+ 
+ #~ msgid ""
+-#~ "A numeric code representing the last photo size preset used when "
+-#~ "publishing to Rajce"
++#~ "A numeric code representing the last photo size preset used when publishing "
++#~ "to Rajce"
+ #~ msgstr ""
+ #~ "En sifferkod representerande den senaste förinställningen för bildstorlek "
+ #~ "använd vid publicering till Rajce"
+@@ -6776,14 +6734,12 @@
+ 
+ #~ msgid "True if the Facebook publishing plugin is enabled, false otherwise"
+ #~ msgstr ""
+-#~ "True om insticksmodulen för Facebook-publicering är aktiverad, annars "
+-#~ "false"
++#~ "True om insticksmodulen för Facebook-publicering är aktiverad, annars false"
+ 
+ #~ msgid "enable yandex publishing plugin"
+ #~ msgstr "aktivera insticksmodulen för Yandex-publicering"
+ 
+-#~ msgid ""
+-#~ "True if the Yandex.Fotki publishing plugin is enabled, false otherwise"
++#~ msgid "True if the Yandex.Fotki publishing plugin is enabled, false otherwise"
+ #~ msgstr ""
+ #~ "True om insticksmodulen för Yandex.Fotki-publicering är aktiverad, annars "
+ #~ "false"
+@@ -6799,8 +6755,7 @@
+ #~ msgstr "aktivera insticksmodulen för F-Spot-import"
+ 
+ #~ msgid "True if the F-Spot import plugin is enabled, false otherwise"
+-#~ msgstr ""
+-#~ "True om insticksmodulen för F-Spot-import är aktiverad, annars false"
++#~ msgstr "True om insticksmodulen för F-Spot-import är aktiverad, annars false"
+ 
+ #~ msgid "_Remember"
+ #~ msgstr "_Kom ihåg"
+@@ -6820,10 +6775,8 @@
+ #~ msgid "Copyright © 2013 rajce.net"
+ #~ msgstr "Copyright © 2013 rajce.net"
+ 
+-#~ msgid ""
+-#~ "An error message occurred when publishing to Rajce. Please try again."
+-#~ msgstr ""
+-#~ "Ett felmeddelande visades vid publiceringen till Rajce. Försök igen."
++#~ msgid "An error message occurred when publishing to Rajce. Please try again."
++#~ msgstr "Ett felmeddelande visades vid publiceringen till Rajce. Försök igen."
+ 
+ #~ msgid "Enter email and password associated with your Rajce account."
+ #~ msgstr "Fyll i användarnamn och lösenord för ditt Rajce-konto."
+@@ -6874,31 +6827,24 @@
+ #~ msgid ""
+ #~ "You are not currently logged into YouTube.\n"
+ #~ "\n"
+-#~ "You must have already signed up for a Google account and set it up for "
+-#~ "use with YouTube to continue. You can set up most accounts by using your "
+-#~ "browser to log into the YouTube site at least once."
++#~ "You must have already signed up for a Google account and set it up for use with YouTube to continue. You can set up most accounts by using your browser to log into the YouTube site at least once."
+ #~ msgstr ""
+ #~ "Du är för närvarande inte inloggad på YouTube.\n"
+ #~ "\n"
+-#~ "Du måste redan ha registrerat ett Google-konto och konfigurerat det för "
+-#~ "användning med YouTube för att fortsätta. Du kan konfigurera de flesta "
+-#~ "konton genom att logga in på YouTube med din webbläsare."
++#~ "Du måste redan ha registrerat ett Google-konto och konfigurerat det för användning med YouTube för att fortsätta. Du kan konfigurera de flesta konton genom att logga in på YouTube med din webbläsare."
+ 
+ #~ msgid ""
+ #~ "You are not currently logged into Google Photos.\n"
+ #~ "\n"
+-#~ "You must have already signed up for a Google account and set it up for "
+-#~ "use with Google Photos.\n"
++#~ "You must have already signed up for a Google account and set it up for use with Google Photos.\n"
+ #~ "\n"
+ #~ "You will have to authorize Shotwell to link to your Google Photos account."
+ #~ msgstr ""
+ #~ "Du är för närvarande inte inloggad på Google Foto.\n"
+ #~ "\n"
+-#~ "Du måste redan ha registrerat ett Google-konto och konfigurerat det för "
+-#~ "användning med Google Foto.\n"
++#~ "Du måste redan ha registrerat ett Google-konto och konfigurerat det för användning med Google Foto.\n"
+ #~ "\n"
+-#~ "Du måste specifikt godkänna att Shotwell kan länka till ditt Google Foto-"
+-#~ "konto."
++#~ "Du måste specifikt godkänna att Shotwell kan länka till ditt Google Foto-konto."
+ 
+ #~ msgid "Removing Photos From Library"
+ #~ msgstr "Tar bort bilder från bibliotek"
+@@ -6937,12 +6883,12 @@
+ #~ "A numeric code representing the default size for photos published to "
+ #~ "Facebook"
+ #~ msgstr ""
+-#~ "En sifferkod representerande standardstorleken för bilder publicerade "
+-#~ "till Facebook"
++#~ "En sifferkod representerande standardstorleken för bilder publicerade till "
++#~ "Facebook"
+ 
+ #~ msgid ""
+-#~ "Whether images being uploaded to Facebook should have their metadata "
+-#~ "removed first"
++#~ "Whether images being uploaded to Facebook should have their metadata removed"
++#~ " first"
+ #~ msgstr ""
+ #~ "Huruvida bilder som skickas upp till Facebook ska rensas på metadata först"
+ 
+@@ -6958,28 +6904,18 @@
+ #~ msgid ""
+ #~ "You are not currently logged into Facebook.\n"
+ #~ "\n"
+-#~ "If you don’t yet have a Facebook account, you can create one during the "
+-#~ "login process. During login, Shotwell Connect may ask you for permission "
+-#~ "to upload photos and publish to your feed. These permissions are required "
+-#~ "for Shotwell Connect to function."
++#~ "If you don’t yet have a Facebook account, you can create one during the login process. During login, Shotwell Connect may ask you for permission to upload photos and publish to your feed. These permissions are required for Shotwell Connect to function."
+ #~ msgstr ""
+ #~ "Du är för närvarande inte inloggad på Facebook.\n"
+ #~ "\n"
+-#~ "Om du ännu inte har ett Facebook-konto så kan du skapa ett under "
+-#~ "inloggningsprocessen. Under inloggningen kan Shotwell Connect fråga dig "
+-#~ "om behörighet att skicka upp bilder och publicera till din logg. Dessa "
+-#~ "behörigheter krävs för att Shotwell Connect ska fungera."
++#~ "Om du ännu inte har ett Facebook-konto så kan du skapa ett under inloggningsprocessen. Under inloggningen kan Shotwell Connect fråga dig om behörighet att skicka upp bilder och publicera till din logg. Dessa behörigheter krävs för att Shotwell Connect ska fungera."
+ 
+ #~ msgid ""
+-#~ "You have already logged in and out of Facebook during this Shotwell "
+-#~ "session.\n"
+-#~ "To continue publishing to Facebook, quit and restart Shotwell, then try "
+-#~ "publishing again."
+-#~ msgstr ""
+-#~ "Du har redan loggat in och ut från Facebook under denna Shotwell-"
+-#~ "session.\n"
+-#~ "För att fortsätta att publicera på Facebook, starta om Shotwell och "
+-#~ "försök att publicera igen."
++#~ "You have already logged in and out of Facebook during this Shotwell session.\n"
++#~ "To continue publishing to Facebook, quit and restart Shotwell, then try publishing again."
++#~ msgstr ""
++#~ "Du har redan loggat in och ut från Facebook under denna Shotwell-session.\n"
++#~ "För att fortsätta att publicera på Facebook, starta om Shotwell och försök att publicera igen."
+ 
+ #~ msgid "Publish to an e_xisting album:"
+ #~ msgstr "Publicera till ett _befintligt album:"
+@@ -7003,8 +6939,8 @@
+ #~ msgstr "Skapar album…"
+ 
+ #~ msgid ""
+-#~ "A file required for publishing is unavailable. Publishing to Facebook "
+-#~ "can’t continue."
++#~ "A file required for publishing is unavailable. Publishing to Facebook can’t "
++#~ "continue."
+ #~ msgstr ""
+ #~ "En fil som krävs för publiceringen saknas. Därför kan publiceringen till "
+ #~ "Facebook inte fortsätta."
+@@ -7027,14 +6963,12 @@
+ #~ "inloggade användaren, om någon."
+ 
+ #~ msgid ""
+-#~ "Whether images being uploaded to Picasa should have their metadata "
+-#~ "removed first"
+-#~ msgstr ""
+-#~ "Huruvida bilder uppskickade till Picasa ska rensas på metadata först"
++#~ "Whether images being uploaded to Picasa should have their metadata removed "
++#~ "first"
++#~ msgstr "Huruvida bilder uppskickade till Picasa ska rensas på metadata först"
+ 
+ #~ msgid ""
+-#~ "True if the Picasa Web Albums publishing plugin is enabled, false "
+-#~ "otherwise"
++#~ "True if the Picasa Web Albums publishing plugin is enabled, false otherwise"
+ #~ msgstr ""
+ #~ "True om insticksmodulen för Picasa Web Albums-publicering är aktiverad, "
+ #~ "annars false"
+@@ -7042,15 +6976,11 @@
+ #~ msgid ""
+ #~ "You are not currently logged into Picasa Web Albums.\n"
+ #~ "\n"
+-#~ "Click Log in to log into Picasa Web Albums in your Web browser. You will "
+-#~ "have to authorize Shotwell Connect to link to your Picasa Web Albums "
+-#~ "account."
++#~ "Click Log in to log into Picasa Web Albums in your Web browser. You will have to authorize Shotwell Connect to link to your Picasa Web Albums account."
+ #~ msgstr ""
+ #~ "Du är för närvarande inte inloggad på Picasa Web Albums.\n"
+ #~ "\n"
+-#~ "Klicka på Logga in för att logga in på Picasa Web Albums med din "
+-#~ "webbläsare. Du måste specifikt godkänna att Shotwell Connect kan länka "
+-#~ "till ditt Picasa Web Albums-konto."
++#~ "Klicka på Logga in för att logga in på Picasa Web Albums med din webbläsare. Du måste specifikt godkänna att Shotwell Connect kan länka till ditt Picasa Web Albums-konto."
+ 
+ #~ msgid ""
+ #~ "A file required for publishing is unavailable. Publishing to Picasa can’t "
+@@ -7087,8 +7017,8 @@
+ #~ "Enter the confirmation number which appears after you log into Flickr in "
+ #~ "your Web browser."
+ #~ msgstr ""
+-#~ "Ange bekräftelsesiffrorna som visas efter att du loggat in till Flickr i "
+-#~ "din webbläsare."
++#~ "Ange bekräftelsesiffrorna som visas efter att du loggat in till Flickr i din"
++#~ " webbläsare."
+ 
+ #~ msgid "Authorization _Number:"
+ #~ msgstr "Autentiserings_nummer:"
+@@ -7102,14 +7032,11 @@
+ #~ msgid ""
+ #~ "Welcome to the F-Spot library import service.\n"
+ #~ "\n"
+-#~ "Please select a library to import, either by selecting one of the "
+-#~ "existing libraries found by Shotwell or by selecting an alternative F-"
+-#~ "Spot database file."
++#~ "Please select a library to import, either by selecting one of the existing libraries found by Shotwell or by selecting an alternative F-Spot database file."
+ #~ msgstr ""
+ #~ "Välkommen till tjänsten för import av F-Spot-bibliotek.\n"
+ #~ "\n"
+-#~ "Välj ett bibliotek att importera, antingen det som Shotwell automatiskt "
+-#~ "hittar, eller genom att välja en alternativ F-Spot-databas."
++#~ "Välj ett bibliotek att importera, antingen det som Shotwell automatiskt hittar, eller genom att välja en alternativ F-Spot-databas."
+ 
+ #~ msgid ""
+ #~ "Welcome to the F-Spot library import service.\n"
+@@ -7124,8 +7051,8 @@
+ #~ msgstr "Välj manuellt den F-Spot-databasfil du vill importera:"
+ 
+ #~ msgid ""
+-#~ "Cannot open the selected F-Spot database file: the file does not exist or "
+-#~ "is not an F-Spot database"
++#~ "Cannot open the selected F-Spot database file: the file does not exist or is"
++#~ " not an F-Spot database"
+ #~ msgstr ""
+ #~ "Det går inte att öppna den F-Spot-databasfil som du har valt: antingen "
+ #~ "saknas filen, eller så är det inte en F-Spot-databas"
+@@ -7134,8 +7061,8 @@
+ #~ "Cannot open the selected F-Spot database file: this version of the F-Spot "
+ #~ "database is not supported by Shotwell"
+ #~ msgstr ""
+-#~ "Det går inte att öppna den valda F-Spot-databasfilen: den här versionen "
+-#~ "av F-Spot-databasen stöds inte av Shotwell"
++#~ "Det går inte att öppna den valda F-Spot-databasfilen: den här versionen av "
++#~ "F-Spot-databasen stöds inte av Shotwell"
+ 
+ #~ msgid ""
+ #~ "Cannot read the selected F-Spot database file: error while reading tags "
+@@ -7152,17 +7079,13 @@
+ #~ "bildtabellen skulle läsas"
+ 
+ #~ msgid ""
+-#~ "Shotwell has found %d photos in the F-Spot library and is currently "
+-#~ "importing them. Duplicates will be automatically detected and removed.\n"
++#~ "Shotwell has found %d photos in the F-Spot library and is currently importing them. Duplicates will be automatically detected and removed.\n"
+ #~ "\n"
+-#~ "You can close this dialog and start using Shotwell while the import is "
+-#~ "taking place in the background."
++#~ "You can close this dialog and start using Shotwell while the import is taking place in the background."
+ #~ msgstr ""
+-#~ "Shotwell har hittat %d bilder i F-Spot-biblioteket och importerar dem nu. "
+-#~ "Dubbletter kommer att hittas och tas bort automatiskt.\n"
++#~ "Shotwell har hittat %d bilder i F-Spot-biblioteket och importerar dem nu. Dubbletter kommer att hittas och tas bort automatiskt.\n"
+ #~ "\n"
+-#~ "Du kan stänga den här dialogrutan. Importen kommer att fortsätta i "
+-#~ "bakgrunden."
++#~ "Du kan stänga den här dialogrutan. Importen kommer att fortsätta i bakgrunden."
+ 
+ #~ msgid "F-Spot library: %s"
+ #~ msgstr "F-Spot-bibliotek: %s"
+@@ -7186,14 +7109,11 @@
+ #~ msgstr "Testar anslutningen till Facebook…"
+ 
+ #~ msgid ""
+-#~ "You have already logged in and out of Flickr during this Shotwell "
+-#~ "session.\n"
+-#~ "To continue publishing to Flickr, quit and restart Shotwell, then try "
+-#~ "publishing again."
++#~ "You have already logged in and out of Flickr during this Shotwell session.\n"
++#~ "To continue publishing to Flickr, quit and restart Shotwell, then try publishing again."
+ #~ msgstr ""
+ #~ "Du har redan loggat in och ut från Flickr under denna Shotwell-session.\n"
+-#~ "För att fortsätta att publicera till Flickr, starta om Shotwell och "
+-#~ "försök att publicera igen."
++#~ "För att fortsätta att publicera till Flickr, starta om Shotwell och försök att publicera igen."
+ 
+ #~ msgid "L_ist album in public gallery"
+ #~ msgstr "L_ista album i publikt galleri"
+@@ -7424,8 +7344,7 @@
+ #~ msgstr "Ta _endast bort"
+ 
+ #~ msgid "Shotwell is configured to import photos to your home directory.\n"
+-#~ msgstr ""
+-#~ "Shotwell har ställts in till att importera bilder till din hemmapp.\n"
++#~ msgstr "Shotwell har ställts in till att importera bilder till din hemmapp.\n"
+ 
+ #~ msgid ""
+ #~ "You are logged into Tumblr as (name).\n"
