@@ -1,0 +1,34 @@
+{
+  "positions": [
+    58337,
+    58456
+  ],
+  "positions_reviewed": 120,
+  "current_source_strings": 80,
+  "reference_keys": 28,
+  "selector_keys_resolved_to_shared_source": 6,
+  "active_python_key_missing_strings_json_name": 1,
+  "no_current_source_path_keys": 5,
+  "historical_source_path_followups": 12,
+  "changes_in_interval_saved_and_read_back": 23,
+  "retroactive_reference_target_change_saved_and_read_back": 1,
+  "reference_source_and_translation_matches": "28/28",
+  "placeholder_checks_passed": "120/120",
+  "plural_keys": 0,
+  "svlang": "No writing-rule findings in sanitized proposed Swedish text.",
+  "hunspell_sv": "Remaining hits are hyphenated acronym/brand compounds or a station-code example; manually reviewed, no unresolved ordinary spelling issue.",
+  "source_revision": "1d07105b760c73093145526a51758938e87cc658",
+  "uncertainties": [
+    "Yoto card insertion state “Remote” is currently “Fjärr”; the UI context says Content source but integration-specific remote-versus-streaming semantics need verification.",
+    "Five previously tracked keys have no corresponding source path in the current Core snapshot; retain as source-path follow-up."
+  ],
+  "evidence_sources": [
+    "https://www.home-assistant.io/integrations/vistapool/",
+    "https://www.litter-robot.com/eu/support/article/whisker-app-scoops-saved-feature/",
+    "https://blebox.eu/wp-content/uploads/energyMeter_DIN_Manual_EN.pdf",
+    "https://blebox.eu/en/product/energymeter-din/",
+    "https://media.miele.com/downloads/83/fc/03_C7F13838E0281FE0B6E4F48F195183FC.pdf",
+    "https://www.miele.se/media/professional_se/media/files/infomaterial/MieleBroschyr_vard.pdf"
+  ],
+  "notes": "References were re-resolved after the BleBox target update. Six template selector labels map to shared current sensor device-class source strings. The Greencell power sensor has a live Python translation_key but lacks its source string entry."
+}
