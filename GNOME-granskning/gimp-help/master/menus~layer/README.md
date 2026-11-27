@@ -1,15 +1,13 @@
-# GIMP Help — master — menus~layer — svenska
+# GIMP Help — master — `menus~layer` — svenska
 
-- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gimp-help/master/menus~layer/sv/>.
-- Ursprunglig lokal katalog: 104 översatta, 12 fuzzy och 315 oöversatta poster.
-- Slutlig lokal katalog: 431 översatta, 0 fuzzy och 0 oöversatta poster.
-- Åtgärd: hela `menus~layer` har radgranskats och kompletterats, inklusive lagerstack, skala, rotation, förskjutning, lagermasker, flytande markeringar, beskärning och alfakanaler.
-- Befintlig svenska: bevarad eller rättad endast när betydelse, idiomatik, svensk GIMP-terminologi, markup eller skiljetecken krävde det.
-- Validering: `msgfmt --check --statistics` och `git diff --check` är godkända. `l10n-lint` gav 0 fel. De två återstående varningarna är avsiktliga: en kontrollrubrik upprepar ordet ”Ingen”, och tangentkombinationen innehåller `Ctrl` två gånger. `hunspell-sv` kördes; återstående träffar är DocBook-markup, filnamn, länk-ID:n, produktnamn och tekniska termer såsom alfamarkering och snabbundermeny.
-- Avsiktliga undantag: bildhashposter med `@@image:` följer källans egna kommentarer om att de inte används i översättningen. De är synkroniserade med källan och inte fuzzy.
-- Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-23.
-- GNOME-inskick: inget — enligt arbetsinstruktionen.
+- GNOME-aktivitet: <https://l10n.gnome.org/vertimus/gimp-help/master/menus~layer/sv/>
+- Källa: senaste POT skapad 2026-11-24 22:41 UTC och hämtad 2026-11-27; 585 aktiva poster.
+- Upstream före arbetet: 39 översatta, 76 fuzzy, 470 oöversatta.
+- Lokal radgranskning: samtliga 527 användarvisade strängar är översatta och 0 fuzzy återstår. De 58 `@@image:`-posterna är bildreferensmetadata som enligt källkommentaren inte används i översättningen; deras värden är kopierade ordagrant från POT-filen.
+- Ändringar mot aktuell serverfil: 422 nya användarvisade översättningar, 66 fuzzy-texter rättade och 1 befintlig ren översättning korrigerad; 38 rena översättningar lämnades oförändrade. Bildreferenserna synkroniserades ordagrant.
+- `msgfmt --check --check-format`, `msgcmp --use-fuzzy` mot senaste POT och egna kontroller av XML-taggar, platshållare, länkmål och URL:er: godkända utan fel. `l10n-lint --language sv`: 0 fel, 1 varning. Varningen är en upprepning av ”lager” i den korrekta menystigen `Lager → Lager till bildstorlek`.
+- `hunspell-sv` flaggade 31 unika ordformer. Varje träff har kontrollerats; sammansättningar, GIMP-termer, tangentnamn, enheter och tekniska akronymer dokumenteras i [`hunspell-undantag.md`](hunspell-undantag.md).
+- Upstream är inte uppdaterad och visar därför fortfarande 39/76/470: 488 användarvisade strängar (422 tomma, 66 fuzzy) väntar på synkronisering. **Ingen fil har skickats till GNOME.**
+- PO-metadata: Daniel Nylander <gnome@danielnylander.se>.
 
-## Kontroll mot senaste POT — 2026-11-26
-
-Senaste POT skapades 2026-11-24 och innehåller 585 poster. Den arkiverade granskningen från 2026-11-23 matchar inte längre POT:en; katalogen laddas inte upp och måste uppdateras mot aktuell mall. API-statistik vid kontrollen: 39 översatta, 76 fuzzy och 470 oöversatta.
+Arkivet innehåller den aktuella server-PO-filen, den POT som granskningen bygger på, den granskade PO-filen, unified diff, lint- och Hunspell-resultat samt denna modulrapport. Den tidigare granskningen från 2026-11-24 finns kvar som daterad säkerhetskopia.
