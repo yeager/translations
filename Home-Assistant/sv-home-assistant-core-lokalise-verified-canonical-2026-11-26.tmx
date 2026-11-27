@@ -23489,14 +23489,15 @@ Kontrollera att YAML-konfigurationen är korrekt och starta om Home Assistant f�
       <prop type="source">component::duco::exceptions::failed_to_set_identify::message</prop>
       <prop type="lokalise-key-id">943456373</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API PUT followed by direct GET readback</prop>
+      <prop type="verification-method">Lokalise API write and live readback</prop>
       <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-21</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to set node identification.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Det gick inte att ange nodidentifieringen.</seg>
+        <seg>Det gick inte att ställa in nodidentifieringen.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:2914606413">
@@ -37359,14 +37360,15 @@ Kontrollera att UPnP är aktiverat på Sonos-systemet.
       <prop type="source">component::fronius::config::step::reconfigure::data_description::auto_revert_power_limit</prop>
       <prop type="lokalise-key-id">943419473</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API readback; established HA terminology: integration/integrationer</prop>
+      <prop type="verification-method">Lokalise API write and live readback</prop>
       <prop type="status">saved-and-read-back</prop>
-      <prop type="verified-date">2026-11-22</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The inverter drops the AC power limit and the battery charge and discharge limits an hour after it last received them, and returns to its own settings. Home Assistant sends active limits again every 15 minutes, so this only takes effect once it stops sending - because Home Assistant is down, or because the integration was removed. The battery minimum reserve and grid charging are not affected.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Växelriktaren tar bort AC-effektgränsen en timme efter att den senast tog emot den och återgår till sina egna inställningar. Home Assistant skickar gränsen igen var femtonde minut, så detta får bara effekt när systemet slutar skicka den eftersom Home Assistant är nere eller integrationen tagits bort. Batteriernas börvärden påverkas inte. Växelriktaren har ingen tidsgräns för dem.</seg>
+        <seg>Växelriktaren tar bort gränsen för växelströmseffekt och gränserna för batteriets laddning och urladdning en timme efter att den senast tog emot dem och återgår till sina egna inställningar. Home Assistant skickar aktiva gränser igen var femtonde minut, så detta sker först när Home Assistant slutar skicka dem, till exempel när Home Assistant är nere eller integrationen har tagits bort. Batteriets lägsta reservnivå och laddning från elnätet påverkas inte.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9864226147">
@@ -58923,7 +58925,7 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::teslemetry::config_subentries::energy_site::error::key_not_approved</prop>
       <prop type="lokalise-key-id">929850151</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="verification-method">Lokalise API write and live readback</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="verified-date">2026-11-27</prop>
       <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
@@ -58931,7 +58933,7 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
         <seg>Your Powerwall system rejected Home Assistant&#x27;s key because it has not been approved. Flick the On/Off switch on your primary Powerwall off and back on to approve it, then submit again.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Powerwall-systemet avvisade Home Assistants åtkomstnyckel eftersom den inte har godkänts. Slå av strömbrytaren på din primära Powerwall och slå sedan på den igen för att godkänna nyckeln. Skicka sedan in formuläret igen.</seg>
+        <seg>Powerwall-systemet avvisade åtkomstnyckeln från Home Assistant eftersom den inte har godkänts. Slå av strömbrytaren på din primära Powerwall och slå sedan på den igen för att godkänna nyckeln. Skicka sedan in formuläret igen.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9674562050">
@@ -58997,7 +58999,7 @@ Ett fel uppstod när din konfiguration importerades vid ett försök att ansluta
       <prop type="source">component::teslemetry::config_subentries::energy_site::abort::entry_not_loaded</prop>
       <prop type="lokalise-key-id">929850146</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live readback or source revalidation</prop>
+      <prop type="verification-method">Lokalise API write and live readback</prop>
       <prop type="status">saved-and-read-back</prop>
       <prop type="verified-date">2026-11-27</prop>
       <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
@@ -91162,15 +91164,15 @@ Du kan ansluta till den via nätverket, med en Modbus TCP-brygga eller en adapte
       <prop type="source">component::besen::config::step::user::data_description::pin</prop>
       <prop type="lokalise-key-id">919309827</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
-      <prop type="status">verified-existing</prop>
+      <prop type="verification-method">Lokalise API write and live readback</prop>
+      <prop type="status">saved-and-read-back</prop>
       <prop type="verified-date">2026-11-27</prop>
       <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The 6-digit Bluetooth PIN configured on the charger.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Den 6-siffriga Bluetooth-PIN-koden som har ställts in på laddaren.</seg>
+        <seg>Den sexsiffriga Bluetooth-PIN-koden som har ställts in på laddaren.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9531396615">
@@ -300255,8 +300257,20 @@ När du registrerar dig på gateway.threema.ch klistrar du in den offentliga nyc
 <tu tuid="lokalise:9824939596"><prop type="source">component::teslemetry::config_subentries::energy_site::error::key_expired</prop><prop type="lokalise-key-id">940150476</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API write and live readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>The approval window on your Powerwall closed before the key was approved. Submit to open a new window, flick the On/Off switch on your primary Powerwall off and back on to approve it, then submit again.</seg></tuv><tuv xml:lang="sv"><seg>Godkännandefönstret på din Powerwall stängdes innan nyckeln godkändes. Välj Skicka för att öppna ett nytt fönster, slå av och på strömbrytaren på din primära Powerwall för att godkänna nyckeln och välj sedan Skicka igen.</seg></tuv></tu>
 <tu tuid="lokalise:9853026529"><prop type="source">component::tuya::config::step::reauth_confirm::title</prop><prop type="lokalise-key-id">942276563</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API write and live readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Authentication expired for {name}</seg></tuv><tuv xml:lang="sv"><seg>Autentiseringen har upphört att gälla för {name}</seg></tuv></tu>
 <tu tuid="lokalise:9859191885"><prop type="source">component::openai_conversation::config::step::reconfigure::data_description::api_key</prop><prop type="lokalise-key-id">942881069</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API write and live readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Your OpenAI API key.</seg></tuv><tuv xml:lang="sv"><seg>Din API-nyckel från OpenAI.</seg></tuv></tu>
-<tu tuid="lokalise:9864225955"><prop type="source">component::fronius::config::step::reconfigure::data::auto_revert_power_limit</prop><prop type="lokalise-key-id">943419472</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API write and live readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Revert the power and battery limits if Home Assistant stops</seg></tuv><tuv xml:lang="sv"><seg>Återställ effekt- och batterigränserna om Home Assistant stannar</seg></tuv></tu>
+<tu tuid="lokalise:9864225955"><prop type="source">component::fronius::config::step::reconfigure::data::auto_revert_power_limit</prop><prop type="lokalise-key-id">943419472</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API write and live readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Revert the power and battery limits if Home Assistant stops</seg></tuv><tuv xml:lang="sv"><seg>Återställ effektgränserna och batterigränserna om Home Assistant stannar</seg></tuv></tu>
 
 <tu tuid="lokalise:9859208857"><prop type="source">component::nextdns::entity::switch::block_free_hosting_domains::name</prop><prop type="lokalise-key-id">942882748</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API write and live readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Block free hosting domains</seg></tuv><tuv xml:lang="sv"><seg>Blockera domäner på kostnadsfria webbhotell</seg></tuv></tu>
+
+<tu tuid="lokalise:9865618862"><prop type="source">component::teslemetry::issues::gateway_not_found::fix_flow::abort::entry_not_loaded</prop><prop type="lokalise-key-id">943573127</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API write and live readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>The Teslemetry account must be loaded before setting up local control. Try again once it has finished loading.</seg></tuv><tuv xml:lang="sv"><seg>Teslemetry-kontot måste ha lästs in innan lokal styrning kan konfigureras. Försök igen när inläsningen är klar.</seg></tuv></tu>
+<tu tuid="lokalise:9865619054"><prop type="source">component::teslemetry::issues::gateway_not_found::fix_flow::error::key_not_approved</prop><prop type="lokalise-key-id">943573130</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API write and live readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Your Powerwall system rejected Home Assistant&#x27;s key because it has not been approved. Flick the On/Off switch on your primary Powerwall off and back on to approve it, then submit again.</seg></tuv><tuv xml:lang="sv"><seg>Powerwall-systemet avvisade åtkomstnyckeln från Home Assistant eftersom den inte har godkänts. Slå av strömbrytaren på din primära Powerwall och slå sedan på den igen för att godkänna nyckeln. Skicka sedan in formuläret igen.</seg></tuv></tu>
+<tu tuid="lokalise:9864759279"><prop type="source">component::neopool::exceptions::device_not_found::message</prop><prop type="lokalise-key-id">943456610</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API write and live readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>No loaded NeoPool device found for device_id {device_id}</seg></tuv><tuv xml:lang="sv"><seg>Ingen aktiv NeoPool-enhet hittades med enhets-ID {device_id}</seg></tuv></tu>
+<tu tuid="lokalise:9864759535"><prop type="source">component::neopool::exceptions::no_coordinator::message</prop><prop type="lokalise-key-id">943456614</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API write and live readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>No NeoPool coordinator found for entry_id {entry_id}</seg></tuv><tuv xml:lang="sv"><seg>Ingen NeoPool-samordnare hittades för konfigurationspostens ID {entry_id}</seg></tuv></tu>
+<tu tuid="lokalise:9864759599"><prop type="source">component::neopool::exceptions::no_loaded_entry::message</prop><prop type="lokalise-key-id">943456615</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API write and live readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>No loaded NeoPool config entry available</seg></tuv><tuv xml:lang="sv"><seg>Ingen aktiv NeoPool-konfiguration är tillgänglig</seg></tuv></tu>
+<tu tuid="lokalise:9864759663"><prop type="source">component::neopool::services::get_device_time::description</prop><prop type="lokalise-key-id">943456616</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API write and live readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Read the current wall-clock time from the device RTC and report its drift from Home Assistant.</seg></tuv><tuv xml:lang="sv"><seg>Läs av enhetens aktuella tid från realtidsklockan (RTC) och rapportera tidsavvikelsen jämfört med Home Assistant.</seg></tuv></tu>
+<tu tuid="lokalise:9864760111"><prop type="source">component::neopool::services::set_device_time::name</prop><prop type="lokalise-key-id">943456623</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API write and live readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Set device time</seg></tuv><tuv xml:lang="sv"><seg>Ställ in enhetens tid</seg></tuv></tu>
+<tu tuid="lokalise:9864728630"><prop type="source">component::tuya::entity::sensor::water_once::name</prop><prop type="lokalise-key-id">943450102</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API write and live readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Session water usage</seg></tuv><tuv xml:lang="sv"><seg>Vattenförbrukning under sessionen</seg></tuv></tu>
+<tu tuid="lokalise:9865591757"><prop type="source">component::brother::entity::binary_sensor::no_ink::name</prop><prop type="lokalise-key-id">943569054</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API write and live readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>No ink</seg></tuv><tuv xml:lang="sv"><seg>Bläcket är slut</seg></tuv></tu>
+<tu tuid="lokalise:9864226083"><prop type="source">component::fronius::config::step::user::data::auto_revert_power_limit</prop><prop type="lokalise-key-id">943419474</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API write and live readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>Revert the power and battery limits if Home Assistant stops</seg></tuv><tuv xml:lang="sv"><seg>Återställ effektgränserna och batterigränserna om Home Assistant stannar</seg></tuv></tu>
+<tu tuid="lokalise:9864858562"><prop type="source">component::besen::config::step::reauth_confirm::data_description::pin</prop><prop type="lokalise-key-id">943471012</prop><prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop><prop type="verification-method">Lokalise API write and live readback</prop><prop type="status">saved-and-read-back</prop><prop type="verified-date">2026-11-27</prop><prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop><tuv xml:lang="en"><seg>The 6-digit Bluetooth PIN configured on the charger.</seg></tuv><tuv xml:lang="sv"><seg>Den sexsiffriga Bluetooth-PIN-koden som har ställts in på laddaren.</seg></tuv></tu>
 </body>
 </tmx>

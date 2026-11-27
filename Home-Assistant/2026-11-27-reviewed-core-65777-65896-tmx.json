@@ -1,0 +1,189 @@
+[
+  {
+    "key": "component::fronius::config::step::reconfigure::data_description::auto_revert_power_limit",
+    "key_id": "943419473",
+    "translation_id": "9864226019",
+    "en": "The inverter drops the AC power limit and the battery charge and discharge limits an hour after it last received them, and returns to its own settings. Home Assistant sends active limits again every 15 minutes, so this only takes effect once it stops sending - because Home Assistant is down, or because the integration was removed. The battery minimum reserve and grid charging are not affected.",
+    "sv": "Växelriktaren tar bort gränsen för växelströmseffekt och gränserna för batteriets laddning och urladdning en timme efter att den senast tog emot dem och återgår till sina egna inställningar. Home Assistant skickar aktiva gränser igen var femtonde minut, så detta sker först när Home Assistant slutar skicka dem, till exempel när Home Assistant är nere eller integrationen har tagits bort. Batteriets lägsta reservnivå och laddning från elnätet påverkas inte.",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::teslemetry::issues::gateway_not_found::fix_flow::abort::entry_not_loaded",
+    "key_id": "943573127",
+    "translation_id": "9865618862",
+    "en": "The Teslemetry account must be loaded before setting up local control. Try again once it has finished loading.",
+    "sv": "Teslemetry-kontot måste ha lästs in innan lokal styrning kan konfigureras. Försök igen när inläsningen är klar.",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::teslemetry::issues::gateway_not_found::fix_flow::error::key_not_approved",
+    "key_id": "943573130",
+    "translation_id": "9865619054",
+    "en": "Your Powerwall system rejected Home Assistant's key because it has not been approved. Flick the On/Off switch on your primary Powerwall off and back on to approve it, then submit again.",
+    "sv": "Powerwall-systemet avvisade åtkomstnyckeln från Home Assistant eftersom den inte har godkänts. Slå av strömbrytaren på din primära Powerwall och slå sedan på den igen för att godkänna nyckeln. Skicka sedan in formuläret igen.",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::duco::exceptions::failed_to_set_identify::message",
+    "key_id": "943456373",
+    "translation_id": "9864758365",
+    "en": "Failed to set node identification.",
+    "sv": "Det gick inte att ställa in nodidentifieringen.",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::neopool::exceptions::device_not_found::message",
+    "key_id": "943456610",
+    "translation_id": "9864759279",
+    "en": "No loaded NeoPool device found for device_id {device_id}",
+    "sv": "Ingen aktiv NeoPool-enhet hittades med enhets-ID {device_id}",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::neopool::exceptions::no_coordinator::message",
+    "key_id": "943456614",
+    "translation_id": "9864759535",
+    "en": "No NeoPool coordinator found for entry_id {entry_id}",
+    "sv": "Ingen NeoPool-samordnare hittades för konfigurationspostens ID {entry_id}",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::neopool::exceptions::no_loaded_entry::message",
+    "key_id": "943456615",
+    "translation_id": "9864759599",
+    "en": "No loaded NeoPool config entry available",
+    "sv": "Ingen aktiv NeoPool-konfiguration är tillgänglig",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::neopool::services::get_device_time::description",
+    "key_id": "943456616",
+    "translation_id": "9864759663",
+    "en": "Read the current wall-clock time from the device RTC and report its drift from Home Assistant.",
+    "sv": "Läs av enhetens aktuella tid från realtidsklockan (RTC) och rapportera tidsavvikelsen jämfört med Home Assistant.",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::neopool::services::set_device_time::name",
+    "key_id": "943456623",
+    "translation_id": "9864760111",
+    "en": "Set device time",
+    "sv": "Ställ in enhetens tid",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::tuya::entity::sensor::water_once::name",
+    "key_id": "943450102",
+    "translation_id": "9864728630",
+    "en": "Session water usage",
+    "sv": "Vattenförbrukning under sessionen",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::brother::entity::binary_sensor::no_ink::name",
+    "key_id": "943569054",
+    "translation_id": "9865591757",
+    "en": "No ink",
+    "sv": "Bläcket är slut",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::fronius::config::step::user::data::auto_revert_power_limit",
+    "key_id": "943419474",
+    "translation_id": "9864226083",
+    "en": "Revert the power and battery limits if Home Assistant stops",
+    "sv": "Återställ effektgränserna och batterigränserna om Home Assistant stannar",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::fronius::config::step::reconfigure::data::auto_revert_power_limit",
+    "key_id": "943419472",
+    "translation_id": "9864225955",
+    "en": "Revert the power and battery limits if Home Assistant stops",
+    "sv": "Återställ effektgränserna och batterigränserna om Home Assistant stannar",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::teslemetry::config_subentries::energy_site::abort::entry_not_loaded",
+    "key_id": "929850146",
+    "translation_id": "9674561794",
+    "en": "The Teslemetry account must be loaded before setting up local control. Try again once it has finished loading.",
+    "sv": "Teslemetry-kontot måste ha lästs in innan lokal styrning kan konfigureras. Försök igen när inläsningen är klar.",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::teslemetry::config_subentries::energy_site::error::key_not_approved",
+    "key_id": "929850151",
+    "translation_id": "9674562114",
+    "en": "Your Powerwall system rejected Home Assistant's key because it has not been approved. Flick the On/Off switch on your primary Powerwall off and back on to approve it, then submit again.",
+    "sv": "Powerwall-systemet avvisade åtkomstnyckeln från Home Assistant eftersom den inte har godkänts. Slå av strömbrytaren på din primära Powerwall och slå sedan på den igen för att godkänna nyckeln. Skicka sedan in formuläret igen.",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::besen::config::step::reauth_confirm::data_description::pin",
+    "key_id": "943471012",
+    "translation_id": "9864858562",
+    "en": "The 6-digit Bluetooth PIN configured on the charger.",
+    "sv": "Den sexsiffriga Bluetooth-PIN-koden som har ställts in på laddaren.",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::besen::config::step::user::data_description::pin",
+    "key_id": "919309827",
+    "translation_id": "9531396679",
+    "en": "The 6-digit Bluetooth PIN configured on the charger.",
+    "sv": "Den sexsiffriga Bluetooth-PIN-koden som har ställts in på laddaren.",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  }
+]
