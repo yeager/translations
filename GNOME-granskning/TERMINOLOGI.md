@@ -786,3 +786,18 @@ argumentet betyder i just det programmet.
 | pad, source pad, sink pad | pad, source-pad, sink-pad | GStreamer-objekt; behåll engelska sammansättningar i teknisk text. |
 | bin | bin | GStreamer-behållarelement; behåll API-termen. |
 | ReplayGain, R128 | ReplayGain, R128 | Standardiserade namn; översätt inte. |
+
+
+## gedit-latex och LaTeX-redigering
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| LaTeX Plugin | LaTeX-insticksmodul | Skriv LaTeX med korrekt versalisering. |
+| outline | översikt | Namn på panelen som visar dokumentets struktur. |
+| box warnings | boxvarningar | LaTeX-diagnostik; undvik den missvisande vardagliga betydelsen *rutvarningar*. |
+| itemize | punktlista | LaTeX-listmiljö. |
+| enumerate | numrerad lista | LaTeX-listmiljö. |
+| description | beskrivningslista | LaTeX-listmiljö. |
+| array of equations | ekvationsuppställning | För `align*` och `align`; skriv inte *vektor*. |
+| proceedings | konferenshandlingar | Publikationstyp. |
+| flashcard | övningskort | LaTeX-mall. |

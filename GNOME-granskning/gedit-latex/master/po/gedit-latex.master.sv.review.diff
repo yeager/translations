@@ -1,0 +1,300 @@
+--- gedit-latex.master.sv.original.po
++++ gedit-latex.master.sv.reviewed.po
+@@ -7,11 +7,10 @@
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: gedit-latex\n"
+-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/browse.cgi?"
+-"product=gedit&component=latex\n"
++"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/browse.cgi?product=gedit&component=latex\n"
+ "POT-Creation-Date: 2024-07-24 14:05+0000\n"
+-"PO-Revision-Date: 2019-08-27 21:33+0200\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
++"PO-Revision-Date: 2026-11-27 14:05+0000\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
+ "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+@@ -37,43 +36,43 @@
+ 
+ #: org.gnome.gedit.plugins.latex.gschema.xml:17
+ msgid "Connect Outline to Editor"
+-msgstr "Anslut översikt till redigerare"
++msgstr "Koppla översikten till redigeraren"
+ 
+ #: org.gnome.gedit.plugins.latex.gschema.xml:21
+ msgid "Show Labels in Outline"
+-msgstr "Visa etiketter i översikt"
++msgstr "Visa etiketter i översikten"
+ 
+ #: org.gnome.gedit.plugins.latex.gschema.xml:25
+ msgid "Show Tables in Outline"
+-msgstr "Visa tabeller i översikt"
++msgstr "Visa tabeller i översikten"
+ 
+ #: org.gnome.gedit.plugins.latex.gschema.xml:29
+ msgid "Show Graphics in Outline"
+-msgstr "Visa grafik i översikt"
++msgstr "Visa grafik i översikten"
+ 
+ #: org.gnome.gedit.plugins.latex.gschema.xml:33
+ msgid "Show Warnings in Issues"
+-msgstr "Visa varningar i Problem"
++msgstr "Visa varningar i problemvyn"
+ 
+ #: org.gnome.gedit.plugins.latex.gschema.xml:37
+ msgid "Show Tasks in Issues"
+-msgstr "Visa uppgifter i Problem"
++msgstr "Visa uppgifter i problemvyn"
+ 
+ #: org.gnome.gedit.plugins.latex.gschema.xml:41 data/ui/configure.ui:239
+ msgid "Hide Box Warnings"
+-msgstr "Dölj rutvarningar"
++msgstr "Dölj boxvarningar"
+ 
+ #: org.gnome.gedit.plugins.latex.gschema.xml:45
+ msgid ""
+ "Show LaTeX Toolbar below (normal), combined with the main toolbar, or "
+ "disabled"
+ msgstr ""
+-"Visa LaTeX-verktygsfält nedtill (normalt), kombinerat med "
+-"huvudverktygsfältet, eller inaktiverat"
++"Visa LaTeX-verktygsfältet nedtill (standard), tillsammans med "
++"huvudverktygsfältet eller inte alls"
+ 
+ #: org.gnome.gedit.plugins.latex.gschema.xml:49
+ msgid "Expanded Symbol Groups"
+-msgstr "Utökade symbolgrupper"
++msgstr "Utfällda symbolgrupper"
+ 
+ #: org.gnome.gedit.plugins.latex.gschema.xml:53
+ msgid "LaTeX Extensions"
+@@ -85,12 +84,12 @@
+ 
+ #: org.gnome.gedit.plugins.latex.gschema.xml:61
+ msgid "Paths Relative to .tex File to Look for Graphics"
+-msgstr "Sökvägar relativa till .tex-fil att söka efter grafik i"
++msgstr "Sökvägar till grafik relativt .tex-filen"
+ 
+ #: org.gnome.gedit.plugins.latex.gschema.xml:65
+ msgid "Extra LaTeX commands used to mark issues, such as \\fxnote{foo}"
+ msgstr ""
+-"Extra LaTeX-kommandon som används för att markera problem, som \\fxnote{foo}"
++"Extra LaTeX-kommandon för att markera problem, till exempel \\fxnote{foo}"
+ 
+ #: data/ui/build_image_dialog.ui:16
+ msgid "Render to Image"
+@@ -138,7 +137,7 @@
+ 
+ #: data/ui/build_image_dialog.ui:325
+ msgid "Attempt to render tight bounding box"
+-msgstr "Försök att rendera minimal begränsningsruta"
++msgstr "Försök rendera med en snäv begränsningsruta"
+ 
+ #: data/ui/choose_master_dialog.ui:9
+ msgid "Select Master Document"
+@@ -153,8 +152,8 @@
+ "Remember to run all commands in batch mode (e.g. append <tt>-interaction "
+ "batchmode</tt> to <tt>latex</tt>)"
+ msgstr ""
+-"Kom ihåg att köra alla kommandon i satsvis läge (lägg t.ex. till <tt>-"
+-"interaction batchmode</tt> till <tt>latex</tt>)"
++"Kom ihåg att köra alla kommandon i batchläge (lägg till exempel till "
++"<tt>-interaction batchmode</tt> i anropet till <tt>latex</tt>)"
+ 
+ #: data/ui/configure_tool.ui:118
+ msgid "<b>_Label</b>"
+@@ -186,7 +185,7 @@
+ 
+ #: data/ui/configure_tool.ui:482
+ msgid "_User Defined:"
+-msgstr "Användardefinie_rad:"
++msgstr "_Användardefinierad:"
+ 
+ #: data/ui/configure_tool.ui:506
+ msgid "<Ctrl><Alt>1"
+@@ -210,7 +209,7 @@
+ 
+ #: data/ui/configure.ui:193
+ msgid "Maximum Parsed File Size:"
+-msgstr "Maximal storlek på tolkad fil:"
++msgstr "Maximal filstorlek vid tolkning:"
+ 
+ #: data/ui/configure.ui:217
+ msgid "KB"
+@@ -300,7 +299,7 @@
+ #: data/ui/insert_listing_dialog.ui:7 latex/latex/actions.py:388
+ #: latex/latex/actions.py:390
+ msgid "Insert Source Code Listing"
+-msgstr "Infoga källkod"
++msgstr "Infoga källkodslista"
+ 
+ #: data/ui/insert_listing_dialog.ui:71
+ msgid "Load From _File:"
+@@ -308,7 +307,7 @@
+ 
+ #: data/ui/insert_listing_dialog.ui:108
+ msgid "Programming _Language:"
+-msgstr "Programmeringss_pråk:"
++msgstr "Programmerings_språk:"
+ 
+ #: data/ui/insert_listing_dialog.ui:138
+ msgid "_Dialect:"
+@@ -365,7 +364,7 @@
+ 
+ #: data/ui/new_document_template_dialog.ui:165
+ msgid "Di_rectory:"
+-msgstr "Katalo_g:"
++msgstr "_Mapp:"
+ 
+ #: data/ui/new_document_template_dialog.ui:179
+ msgid "_Name:"
+@@ -405,7 +404,7 @@
+ 
+ #: data/ui/new_document_template_dialog.ui:400
+ msgid "Base Font Size:"
+-msgstr "Bastypsnittsstorlek:"
++msgstr "Grundstorlek för typsnitt:"
+ 
+ #: data/ui/new_document_template_dialog.ui:426
+ msgid "Document _Class:"
+@@ -422,7 +421,7 @@
+ #: data/ui/new_document_template_dialog.ui:461
+ msgid "This adds metadata to the document. Requires package <tt>ifpdf</tt>."
+ msgstr ""
+-"Detta lägger till metadata till dokumentet. Kräver paketet <tt>ifpdf</tt>."
++"Detta lägger till metadata i dokumentet. Kräver paketet <tt>ifpdf</tt>."
+ 
+ #: data/ui/new_document_template_dialog.ui:492
+ msgid "Date:"
+@@ -450,7 +449,7 @@
+ 
+ #: data/ui/new_document_template_dialog.ui:635
+ msgid "Default F_ont Family:"
+-msgstr "Standard_typsnittsfamilj:"
++msgstr "Standardfamilj för _typsnitt:"
+ 
+ #: data/ui/use_bibliography_dialog.ui:9 latex/latex/actions.py:159
+ msgid "Use Bibliography"
+@@ -573,7 +572,7 @@
+ 
+ #: latex/latex/actions.py:236 latex/latex/actions.py:237
+ msgid "Sans Serif"
+-msgstr "Sans Serif"
++msgstr "Sans serif"
+ 
+ #: latex/latex/actions.py:243 latex/latex/actions.py:244
+ msgid "Typewriter"
+@@ -599,15 +598,15 @@
+ 
+ #: latex/latex/actions.py:278 latex/latex/actions.py:279
+ msgid "Itemize"
+-msgstr "Gör punktlista"
++msgstr "Punktlista"
+ 
+ #: latex/latex/actions.py:291 latex/latex/actions.py:292
+ msgid "Enumerate"
+-msgstr "Gör uppräkning"
++msgstr "Numrerad lista"
+ 
+ #: latex/latex/actions.py:298 latex/latex/actions.py:299
+ msgid "Description"
+-msgstr "Beskrivning"
++msgstr "Beskrivningslista"
+ 
+ #: latex/latex/actions.py:304 latex/latex/actions.py:305
+ #: latex/latex/actions.py:330 latex/latex/actions.py:331
+@@ -662,7 +661,7 @@
+ 
+ #: latex/latex/actions.py:452 latex/latex/actions.py:453
+ msgid "Justify Center"
+-msgstr "Centerjustera"
++msgstr "Centrera"
+ 
+ #: latex/latex/actions.py:465 latex/latex/actions.py:466
+ msgid "Justify Right"
+@@ -687,11 +686,11 @@
+ 
+ #: latex/latex/actions.py:506 latex/latex/actions.py:507
+ msgid "Array of Equations"
+-msgstr "Vektor av ekvationer"
++msgstr "Ekvationsuppställning"
+ 
+ #: latex/latex/actions.py:516 latex/latex/actions.py:517
+ msgid "Numbered Array of Equations"
+-msgstr "Numrerad vektor av ekvationer"
++msgstr "Numrerad ekvationsuppställning"
+ 
+ #: latex/latex/dialogs.py:331
+ msgid "Default"
+@@ -759,7 +758,7 @@
+ 
+ #: latex/latex/environment.py:147
+ msgid "Proceedings (AMS)"
+-msgstr "Konferenstryck (AMS)"
++msgstr "Konferenshandlingar (AMS)"
+ 
+ #: latex/latex/environment.py:148
+ msgid "Report"
+@@ -767,7 +766,7 @@
+ 
+ #: latex/latex/environment.py:149
+ msgid "Beamer slides"
+-msgstr "Beamer-bildspel"
++msgstr "Beamer-presentation"
+ 
+ #: latex/latex/environment.py:150
+ msgid "Belgian letter"
+@@ -779,11 +778,11 @@
+ 
+ #: latex/latex/environment.py:152
+ msgid "Flashcard"
+-msgstr "Snabbkort"
++msgstr "Övningskort"
+ 
+ #: latex/latex/environment.py:153
+ msgid "Proceedings (IAG)"
+-msgstr "Konferenstryck (IAG)"
++msgstr "Konferenshandlingar (IAG)"
+ 
+ #: latex/latex/environment.py:154
+ msgid "Letter"
+@@ -803,7 +802,7 @@
+ 
+ #: latex/latex/environment.py:158
+ msgid "Proceedings"
+-msgstr "Konferenstryck"
++msgstr "Konferenshandlingar"
+ 
+ #: latex/latex/environment.py:159
+ msgid "Article (KOMA-Script)"
+@@ -843,7 +842,7 @@
+ 
+ #: latex/outline.py:58
+ msgid "Follow Editor"
+-msgstr "Följ redigerare"
++msgstr "Följ redigeraren"
+ 
+ #: latex/outline.py:63
+ msgid "Expand All"
+@@ -863,8 +862,8 @@
+ "The file “%s” is corrupted and cannot be parsed. It was moved to “%s”, and "
+ "the Latex Plugin will now fallback to the default tools."
+ msgstr ""
+-"Filen ”%s” är skadad och kan inte tolkas. Den flyttades till ”%s”, och Latex-"
+-"insticksmodulen kommer nu falla tillbaka till att använda standardverktygen."
++"Filen ”%s” är skadad och kan inte tolkas. Den flyttades till ”%s”, och "
++"LaTeX-insticksmodulen återgår nu till standardverktygen."
+ 
+ #: latex/tools/views.py:62
+ msgid "Job"
+@@ -898,7 +897,8 @@
+ msgid "Show/Hide Tasks"
+ msgstr "Visa/dölj uppgifter"
+ 
+-# 'Problem' är eventuellt ett väl hårt ordval med tanke på de två sista kategorierna: "An issue can be a warning, an error, an info or a task"
++# 'Problem' är eventuellt ett väl hårt ordval med tanke på de två sista
++# kategorierna: "An issue can be a warning, an error, an info or a task"
+ #: latex/views.py:139
+ msgid "Issues"
+ msgstr "Problem"
