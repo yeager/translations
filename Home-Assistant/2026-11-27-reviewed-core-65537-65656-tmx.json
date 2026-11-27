@@ -1,0 +1,145 @@
+[
+  {
+    "key": "component::environment_canada::services::get_precipitation_forecast::description",
+    "key_id": "939390661",
+    "translation_id": "9811619058",
+    "en": "Retrieves the precipitation forecast series from the selected weather service.",
+    "sv": "Hämtar tidsserien med nederbördsprognosen från den valda vädertjänsten.",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::environment_canada::services::get_precipitation_forecast::fields::future_minutes::name",
+    "key_id": "939390665",
+    "translation_id": "9811619314",
+    "en": "Future minutes",
+    "sv": "Minuter framåt",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::environment_canada::services::get_precipitation_forecast::fields::hourly_hours::name",
+    "key_id": "939390667",
+    "translation_id": "9811619442",
+    "en": "Hourly hours",
+    "sv": "Antal timmar i timserien",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::environment_canada::services::get_precipitation_forecast::fields::past_minutes::name",
+    "key_id": "939390669",
+    "translation_id": "9811619570",
+    "en": "Past minutes",
+    "sv": "Minuter bakåt",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::threema::config::step::setup_new::description",
+    "key_id": "939426352",
+    "translation_id": "9813015183",
+    "en": "Your keys have been generated. Save them now before continuing!\n\nPublic key: `{public_key}`\nPrivate key: `{private_key}`\n\nWhen registering at gateway.threema.ch, paste the public key as shown above. Store the private key securely — it cannot be recovered.",
+    "sv": "Nycklarna har genererats. Spara dem nu innan du fortsätter!\n\nOffentlig nyckel: `{public_key}`\nPrivat nyckel: `{private_key}`\n\nNär du registrerar dig på gateway.threema.ch klistrar du in den offentliga nyckeln enligt ovan. Förvara den privata nyckeln säkert. Den går inte att återställa.",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::threema::config::step::credentials::data_description::api_secret",
+    "key_id": "939426346",
+    "translation_id": "9813014799",
+    "en": "Secret you received from Threema",
+    "sv": "API-hemligheten du fick från Threema",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::threema::config::step::credentials::data_description::private_key",
+    "key_id": "939426348",
+    "translation_id": "9813014927",
+    "en": "Private key as hex string (64 characters). A 'private:' prefix, as used by Threema's key export tools, is accepted and stripped automatically. Leave empty for simple (non-E2E) mode.",
+    "sv": "Privat nyckel i hexadecimalt format (64 tecken). Prefixet 'private:', som används av Threemas verktyg för nyckelexport, accepteras och tas bort automatiskt. Lämna tomt för enkelt läge utan E2E.",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::threema::config::step::credentials::data_description::public_key",
+    "key_id": "939426349",
+    "translation_id": "9813014991",
+    "en": "Never stored — only checked once against the private key above to catch copy-paste mistakes. Paste the public key you registered at gateway.threema.ch (a 'public:' prefix is accepted).",
+    "sv": "Lagras aldrig. Kontrolleras endast en gång mot den privata nyckeln ovan för att upptäcka misstag när du kopierar och klistrar in. Klistra in den offentliga nyckel som du registrerat på gateway.threema.ch (prefixet 'public:' accepteras).",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::threema::config::step::credentials::title",
+    "key_id": "939426351",
+    "translation_id": "9813015119",
+    "en": "Gateway credentials",
+    "sv": "Inloggningsuppgifter för Gateway",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::threema::exceptions::send_error::message",
+    "key_id": "939426369",
+    "translation_id": "9813016271",
+    "en": "Error sending message: {error}",
+    "sv": "Det gick inte att skicka meddelandet: {error}",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::knx::config_panel::dpt::options::1_013",
+    "key_id": "939515315",
+    "translation_id": "9816294609",
+    "en": "Dimming send style",
+    "sv": "Sändningsmetod för dimning",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::theben_conexa::config::step::user::data_description::host",
+    "key_id": "939426380",
+    "translation_id": "9813016988",
+    "en": "The IP of your smartmeter gateway provided by your power grid operator",
+    "sv": "IP-adressen till gatewayen för den smarta elmätaren, som du fått från elnätsoperatören.",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  },
+  {
+    "key": "component::theben_conexa::config::step::user::description",
+    "key_id": "939426383",
+    "translation_id": "9813017180",
+    "en": "As a prerequisite you must be able to log in to your smartmeter gateway from a web browser via `https://[IP of your gateway]`.",
+    "sv": "Du måste kunna logga in på gatewayen för den smarta elmätaren i en webbläsare via `https://[IP-adressen för din gateway]`.",
+    "verification_method": "Lokalise API write and live readback",
+    "verified_date": "2026-11-27",
+    "status": "saved-and-read-back",
+    "source_revision": "1d07105b760c73093145526a51758938e87cc658"
+  }
+]
