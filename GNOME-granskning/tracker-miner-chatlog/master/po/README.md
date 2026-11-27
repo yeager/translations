@@ -6,3 +6,5 @@
 - Ändringar: en aktiv översättning samt granskaruppgifterna i PO-huvudet har uppdaterats.
 - Validering: `msgfmt --check` och `l10n-lint --check --language sv` utan fel. `hunspell -d sv_SE` rapporterar den tekniska sammansättningen `Chattloggsindexerare`, som har kontrollerats manuellt.
 - GNOME-inskick: inget.
+
+- Status: externt blockerad för inskickning. Damned Lies anger att modulen är arkiverad och inte längre ska översättas. POT: 2023-06-30; äldre än två år. Inget har skickats in.
