@@ -18,4 +18,4 @@ eller varningar. Informationsnotiserna gäller giltiga acceleratortangenter.
 
 Den granskade filen är komplett och fuzzy-fri. Hunspell markerar endast plattformsnamnet `GTK`, personnamnet `Elmoussaoui`, produktnamnet `GNOME`/`Gnome`, korrekt sammansättningar som `Ikonnamn` och `Ikonsamlingsvy`, SVG-termer samt accelerator-delarna `ppna` och `vbryt`; undantagen finns i `hunspell-undantag.md`.
 
-Ingen inskickning till GNOME har ännu gjorts.
+Uppladdad till Damned Lies 2026-11-27 02:54 UTC med kommentaren ”Granskad och klar”; aktivitetssidan bekräftar 63/0/0.
