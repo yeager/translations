@@ -10,4 +10,4 @@
 
 `msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` har körts utan fel eller varningar. C-platshållare och pluralformer är kontrollerade.
 
-Ingen GNOME-inskickning har gjorts.
+Insändning avvaktar: `nycklingsdata` i ”Unexpected error while exporting keying data” är språkligt tveksamt. Granskningen gjordes 2026-11-24; ingen ändring görs före 14-dagarsgränsen.
