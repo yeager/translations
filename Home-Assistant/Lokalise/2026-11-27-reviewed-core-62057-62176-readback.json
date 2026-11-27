@@ -1,0 +1,82 @@
+[
+  {
+    "key": "component::midea::entity::select::wind_ud_angle::state::up_mid",
+    "key_id": "918180366",
+    "translation_id": "9509696838",
+    "en": "Up middle",
+    "before": "Övre mitten",
+    "after": "Övre mittläge",
+    "readback": "Övre mittläge",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::midea::entity::number::seat_temp_level::name",
+    "key_id": "918279931",
+    "translation_id": "9511328031",
+    "en": "Seat temperature level",
+    "before": "Sätestemperaturnivå",
+    "after": "Temperaturnivå för sitsen",
+    "readback": "Temperaturnivå för sitsen",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::midea::entity::number::water_temp_level::name",
+    "key_id": "918279934",
+    "translation_id": "9511328223",
+    "en": "Water temperature level",
+    "before": "Vattentemperaturnivå",
+    "after": "Temperaturnivå för vattnet",
+    "readback": "Temperaturnivå för vattnet",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::midea::entity::number::flushing_days::name",
+    "key_id": "918279928",
+    "translation_id": "9511327839",
+    "en": "Flushing days",
+    "before": "Spolningsdagar",
+    "after": "Spolningsintervall",
+    "readback": "Spolningsintervall",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::midea::entity::number::leak_water_protection_value::name",
+    "key_id": "918279930",
+    "translation_id": "9511327967",
+    "en": "Leak water protection value",
+    "before": "Värde för läckageskydd",
+    "after": "Läckageskyddets gränsvärde",
+    "readback": "Läckageskyddets gränsvärde",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::youtube::entity::sensor::latest_short::name",
+    "key_id": "918942637",
+    "translation_id": "9526564446",
+    "en": "Latest short",
+    "before": "Senaste short",
+    "after": "Senaste Shorts-video",
+    "readback": "Senaste Shorts-video",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::midea::entity::fan::fan::state_attributes::preset_mode::state::baby",
+    "key_id": "919138859",
+    "translation_id": "9529146632",
+    "en": "Baby",
+    "before": "Bebis",
+    "after": "Babyläge",
+    "readback": "Babyläge",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::netio::issues::deprecated_yaml::description",
+    "key_id": "919013736",
+    "translation_id": "9528032834",
+    "en": "Configuring the Netio switch platform using YAML is being removed. The integration now connects to your device using the JSON API, which requires a new setup.\n\nTo set up your device:\n\n1. Open the web interface of your Netio device and enable the **JSON API** protocol (**Settings** > **M2M API Protocols** > **JSON API**), creating an account with read-write access.\n2. [Add the Netio integration]({url}) and enter the connection details, using the JSON API account credentials.\n3. Remove the `netio` switch platform configuration from your `configuration.yaml` file and restart Home Assistant.\n\nAfterwards, your device outputs are available as switch entities again.",
+    "before": "Konfigurationen av Netio-switchplattformen med YAML tas bort. Integrationen ansluter nu till din enhet via JSON API, vilket kräver en ny konfiguration.\n\nSå här konfigurerar du din enhet:\n\n1. Öppna webbgränssnittet för din Netio-enhet och aktivera **JSON API**-protokollet (**Inställningar** > **M2M API-protokoll** > **JSON API**) och skapa ett konto med läs- och skrivbehörighet.\n2. [Lägg till Netio-integrationen]({url}) och ange anslutningsuppgifterna med hjälp av inloggningsuppgifterna för JSON API-kontot.\n3. Ta bort konfigurationen för `netio`-switchplattformen från din `configuration.yaml`-fil och starta om Home Assistant.\n\nDärefter är utgångarna från din enhet återigen tillgängliga som switch-enheter.",
+    "after": "Konfigurationen av Netio-switchplattformen med YAML tas bort. Integrationen ansluter nu till enheten via JSON API, vilket kräver att den konfigureras på nytt.\n\nSå här konfigurerar du enheten:\n\n1. Öppna webbgränssnittet för Netio-enheten och aktivera protokollet **JSON API** (**Inställningar** > **M2M API Protocols** > **JSON API**). Skapa ett konto med läs- och skrivbehörighet.\n2. [Lägg till Netio-integrationen]({url}) och ange anslutningsuppgifterna för JSON API-kontot.\n3. Ta bort konfigurationen för `netio`-switchplattformen från filen `configuration.yaml` och starta om Home Assistant.\n\nDärefter är enhetens utgångar åter tillgängliga som brytare i Home Assistant.",
+    "readback": "Konfigurationen av Netio-switchplattformen med YAML tas bort. Integrationen ansluter nu till enheten via JSON API, vilket kräver att den konfigureras på nytt.\n\nSå här konfigurerar du enheten:\n\n1. Öppna webbgränssnittet för Netio-enheten och aktivera protokollet **JSON API** (**Inställningar** > **M2M API Protocols** > **JSON API**). Skapa ett konto med läs- och skrivbehörighet.\n2. [Lägg till Netio-integrationen]({url}) och ange anslutningsuppgifterna för JSON API-kontot.\n3. Ta bort konfigurationen för `netio`-switchplattformen från filen `configuration.yaml` och starta om Home Assistant.\n\nDärefter är enhetens utgångar åter tillgängliga som brytare i Home Assistant.",
+    "status": "saved-and-read-back"
+  }
+]

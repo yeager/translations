@@ -90904,9 +90904,10 @@ Du kan ansluta till den via nätverket, med en Modbus TCP-brygga eller en adapte
       <prop type="source">component::midea::entity::fan::fan::state_attributes::preset_mode::state::circulation</prop>
       <prop type="lokalise-key-id">919138860</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Circulation</seg>
       </tuv>
@@ -90918,14 +90919,15 @@ Du kan ansluta till den via nätverket, med en Modbus TCP-brygga eller en adapte
       <prop type="source">component::midea::entity::fan::fan::state_attributes::preset_mode::state::baby</prop>
       <prop type="lokalise-key-id">919138859</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Baby</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Bebis</seg>
+        <seg>Babyläge</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9528746318">
@@ -90974,9 +90976,10 @@ Du kan ansluta till den via nätverket, med en Modbus TCP-brygga eller en adapte
       <prop type="source">component::netio::issues::deprecated_yaml::title</prop>
       <prop type="lokalise-key-id">919013737</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The Netio YAML configuration is being removed</seg>
       </tuv>
@@ -90988,9 +90991,10 @@ Du kan ansluta till den via nätverket, med en Modbus TCP-brygga eller en adapte
       <prop type="source">component::netio::issues::deprecated_yaml::description</prop>
       <prop type="lokalise-key-id">919013736</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Configuring the Netio switch platform using YAML is being removed. The integration now connects to your device using the JSON API, which requires a new setup.
 
@@ -91003,24 +91007,25 @@ To set up your device:
 Afterwards, your device outputs are available as switch entities again.</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Konfigurationen av Netio-switchplattformen med YAML tas bort. Integrationen ansluter nu till din enhet via JSON API, vilket kräver en ny konfiguration.
+        <seg>Konfigurationen av Netio-switchplattformen med YAML tas bort. Integrationen ansluter nu till enheten via JSON API, vilket kräver att den konfigureras på nytt.
 
-Så här konfigurerar du din enhet:
+Så här konfigurerar du enheten:
 
-1. Öppna webbgränssnittet för din Netio-enhet och aktivera **JSON API**-protokollet (**Inställningar** &gt; **M2M API-protokoll** &gt; **JSON API**) och skapa ett konto med läs- och skrivbehörighet.
-2. [Lägg till Netio-integrationen]({url}) och ange anslutningsuppgifterna med hjälp av inloggningsuppgifterna för JSON API-kontot.
-3. Ta bort konfigurationen för `netio`-switchplattformen från din `configuration.yaml`-fil och starta om Home Assistant.
+1. Öppna webbgränssnittet för Netio-enheten och aktivera protokollet **JSON API** (**Inställningar** &gt; **M2M API Protocols** &gt; **JSON API**). Skapa ett konto med läs- och skrivbehörighet.
+2. [Lägg till Netio-integrationen]({url}) och ange anslutningsuppgifterna för JSON API-kontot.
+3. Ta bort konfigurationen för `netio`-switchplattformen från filen `configuration.yaml` och starta om Home Assistant.
 
-Därefter är utgångarna från din enhet återigen tillgängliga som switch-enheter.</seg>
+Därefter är enhetens utgångar åter tillgängliga som brytare i Home Assistant.</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9528032770">
       <prop type="source">component::netio::config::step::user::data_description::verify_ssl</prop>
       <prop type="lokalise-key-id">919013735</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Verify the SSL certificate of the device when using HTTPS.</seg>
       </tuv>
@@ -91032,9 +91037,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::netio::config::step::user::data_description::username</prop>
       <prop type="lokalise-key-id">919013734</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The username of a device account with read-write access to the JSON API.</seg>
       </tuv>
@@ -91046,9 +91052,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::netio::config::step::user::data_description::ssl</prop>
       <prop type="lokalise-key-id">919013733</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Connect to the device using HTTPS.</seg>
       </tuv>
@@ -91060,9 +91067,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::netio::config::step::user::data_description::port</prop>
       <prop type="lokalise-key-id">919013732</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The port of the JSON API web server on the device.</seg>
       </tuv>
@@ -91074,9 +91082,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::netio::config::step::user::data_description::password</prop>
       <prop type="lokalise-key-id">919013731</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The password of the device account.</seg>
       </tuv>
@@ -91088,9 +91097,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::netio::config::step::user::data_description::host</prop>
       <prop type="lokalise-key-id">919013730</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The hostname or IP address of your Netio device.</seg>
       </tuv>
@@ -91102,9 +91112,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::netio::config::step::user::data::verify_ssl</prop>
       <prop type="lokalise-key-id">919013729</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Verify SSL certificate</seg>
       </tuv>
@@ -91116,9 +91127,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::netio::config::step::user::data::username</prop>
       <prop type="lokalise-key-id">919013728</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Username</seg>
       </tuv>
@@ -91130,9 +91142,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::netio::config::step::user::data::ssl</prop>
       <prop type="lokalise-key-id">919013727</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Uses an SSL certificate</seg>
       </tuv>
@@ -91144,9 +91157,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::netio::config::step::user::data::port</prop>
       <prop type="lokalise-key-id">919013726</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Port</seg>
       </tuv>
@@ -91158,9 +91172,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::netio::config::step::user::data::password</prop>
       <prop type="lokalise-key-id">919013725</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Password</seg>
       </tuv>
@@ -91172,9 +91187,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::netio::config::step::user::data::host</prop>
       <prop type="lokalise-key-id">919013724</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Host</seg>
       </tuv>
@@ -91186,9 +91202,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::netio::config::error::unknown</prop>
       <prop type="lokalise-key-id">919013723</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Unexpected error</seg>
       </tuv>
@@ -91200,9 +91217,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::netio::config::error::invalid_auth</prop>
       <prop type="lokalise-key-id">919013722</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Invalid authentication</seg>
       </tuv>
@@ -91214,9 +91232,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::netio::config::error::cannot_connect</prop>
       <prop type="lokalise-key-id">919013721</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to connect</seg>
       </tuv>
@@ -91228,9 +91247,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::netio::config::abort::already_configured</prop>
       <prop type="lokalise-key-id">919013720</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Device is already configured</seg>
       </tuv>
@@ -91242,9 +91262,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::services::withdraw_from_pot::name</prop>
       <prop type="lokalise-key-id">918996592</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Withdraw from pot</seg>
       </tuv>
@@ -91256,9 +91277,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::services::withdraw_from_pot::fields::pot::name</prop>
       <prop type="lokalise-key-id">918996591</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>From pot</seg>
       </tuv>
@@ -91270,9 +91292,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::services::withdraw_from_pot::fields::pot::description</prop>
       <prop type="lokalise-key-id">918996590</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The pot to move money from.</seg>
       </tuv>
@@ -91284,9 +91307,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::services::withdraw_from_pot::fields::amount::name</prop>
       <prop type="lokalise-key-id">918996589</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Amount</seg>
       </tuv>
@@ -91298,9 +91322,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::services::withdraw_from_pot::fields::amount::description</prop>
       <prop type="lokalise-key-id">918996588</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The amount of money to move.</seg>
       </tuv>
@@ -91312,9 +91337,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::services::withdraw_from_pot::fields::account::name</prop>
       <prop type="lokalise-key-id">918996587</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>To account</seg>
       </tuv>
@@ -91326,9 +91352,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::services::withdraw_from_pot::fields::account::description</prop>
       <prop type="lokalise-key-id">918996586</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The account to move money into.</seg>
       </tuv>
@@ -91340,9 +91367,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::services::withdraw_from_pot::description</prop>
       <prop type="lokalise-key-id">918996585</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Moves money from a Monzo pot into an account.</seg>
       </tuv>
@@ -91354,9 +91382,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::services::deposit_into_pot::name</prop>
       <prop type="lokalise-key-id">918996584</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Deposit into pot</seg>
       </tuv>
@@ -91368,9 +91397,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::services::deposit_into_pot::fields::pot::name</prop>
       <prop type="lokalise-key-id">918996583</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>To pot</seg>
       </tuv>
@@ -91382,9 +91412,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::services::deposit_into_pot::fields::pot::description</prop>
       <prop type="lokalise-key-id">918996582</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The pot to move money into.</seg>
       </tuv>
@@ -91396,9 +91427,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::services::deposit_into_pot::fields::amount::name</prop>
       <prop type="lokalise-key-id">918996581</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Amount</seg>
       </tuv>
@@ -91410,9 +91442,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::services::deposit_into_pot::fields::amount::description</prop>
       <prop type="lokalise-key-id">918996580</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The amount of money to move.</seg>
       </tuv>
@@ -91424,9 +91457,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::services::deposit_into_pot::fields::account::name</prop>
       <prop type="lokalise-key-id">918996579</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>From account</seg>
       </tuv>
@@ -91438,9 +91472,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::services::deposit_into_pot::fields::account::description</prop>
       <prop type="lokalise-key-id">918996578</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The account to move money from.</seg>
       </tuv>
@@ -91452,9 +91487,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::services::deposit_into_pot::description</prop>
       <prop type="lokalise-key-id">918996577</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Moves money from a Monzo account into a pot.</seg>
       </tuv>
@@ -91466,9 +91502,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::exceptions::transfer_status_unknown::message</prop>
       <prop type="lokalise-key-id">918996576</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Home Assistant could not confirm whether the transfer completed. Check your Monzo balance before trying again.</seg>
       </tuv>
@@ -91480,9 +91517,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::exceptions::transfer_rejected::message</prop>
       <prop type="lokalise-key-id">918996575</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Monzo rejected the transfer for {account_name} (account type: {account_type}): {reason}. If the reason does not explain why this account cannot be used for pot transfers, report an issue with the Monzo integration and include these details.</seg>
       </tuv>
@@ -91494,9 +91532,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::exceptions::transfer_failed::message</prop>
       <prop type="lokalise-key-id">918996574</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The money could not be transferred. Try again later.</seg>
       </tuv>
@@ -91508,9 +91547,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::exceptions::pot_selected_as_account::message</prop>
       <prop type="lokalise-key-id">918996573</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>{device_name} is a pot, not an account. Choose a Monzo account in the Account field.</seg>
       </tuv>
@@ -91522,9 +91562,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::exceptions::pot_account_mismatch::message</prop>
       <prop type="lokalise-key-id">918996572</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>{pot_name} belongs to {pot_account_name}, not {account_name}. Choose its associated Monzo account, or choose a pot belonging to {account_name}.</seg>
       </tuv>
@@ -91536,9 +91577,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::exceptions::invalid_transfer_account::message</prop>
       <prop type="lokalise-key-id">918996571</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>{device_name} does not support pot transfers. Choose a different Monzo account.</seg>
       </tuv>
@@ -91550,9 +91592,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::exceptions::invalid_pot::message</prop>
       <prop type="lokalise-key-id">918996570</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The selected device ({device_name}) is not a pot belonging to this Monzo connection.</seg>
       </tuv>
@@ -91564,9 +91607,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::exceptions::invalid_device::message</prop>
       <prop type="lokalise-key-id">918996569</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The selected Monzo device could not be found.</seg>
       </tuv>
@@ -91578,9 +91622,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::exceptions::invalid_account::message</prop>
       <prop type="lokalise-key-id">918996568</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The selected device ({device_name}) is not an account belonging to this Monzo connection.</seg>
       </tuv>
@@ -91592,9 +91637,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::exceptions::different_entries::message</prop>
       <prop type="lokalise-key-id">918996567</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The selected account and pot must belong to the same Monzo connection.</seg>
       </tuv>
@@ -91606,9 +91652,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::exceptions::authentication_expired::message</prop>
       <prop type="lokalise-key-id">918996566</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Authentication with Monzo has expired. Reauthentication has been started.</seg>
       </tuv>
@@ -91620,9 +91667,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::monzo::exceptions::account_selected_as_pot::message</prop>
       <prop type="lokalise-key-id">918996565</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>{device_name} is an account, not a pot. Choose a Monzo pot in the Pot field.</seg>
       </tuv>
@@ -91634,9 +91682,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::unifiprotect::exceptions::light_not_available::message</prop>
       <prop type="lokalise-key-id">918969510</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Light {light_name} is no longer available</seg>
       </tuv>
@@ -91648,9 +91697,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::exceptions::command_rejected::message</prop>
       <prop type="lokalise-key-id">918955678</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The TV rejected the command: {error}</seg>
       </tuv>
@@ -91662,9 +91712,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::exceptions::command_failed::message</prop>
       <prop type="lokalise-key-id">918955677</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to send the command to the TV: {error}</seg>
       </tuv>
@@ -91676,9 +91727,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::exceptions::cannot_connect::message</prop>
       <prop type="lokalise-key-id">918955676</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Error connecting to the Samsung TV: {error}</seg>
       </tuv>
@@ -91690,9 +91742,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::tv</prop>
       <prop type="lokalise-key-id">918955675</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>TV</seg>
       </tuv>
@@ -91704,9 +91757,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::s_video3</prop>
       <prop type="lokalise-key-id">918955674</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>S-Video 3</seg>
       </tuv>
@@ -91718,9 +91772,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::s_video2</prop>
       <prop type="lokalise-key-id">918955673</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>S-Video 2</seg>
       </tuv>
@@ -91732,9 +91787,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::s_video1</prop>
       <prop type="lokalise-key-id">918955672</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>S-Video 1</seg>
       </tuv>
@@ -91746,9 +91802,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::rvu</prop>
       <prop type="lokalise-key-id">918955671</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>RVU</seg>
       </tuv>
@@ -91760,9 +91817,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::pc3</prop>
       <prop type="lokalise-key-id">918955670</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>PC 3</seg>
       </tuv>
@@ -91774,9 +91832,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::pc2</prop>
       <prop type="lokalise-key-id">918955669</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>PC 2</seg>
       </tuv>
@@ -91788,9 +91847,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::pc1</prop>
       <prop type="lokalise-key-id">918955668</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>PC 1</seg>
       </tuv>
@@ -91802,9 +91862,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::hdmi4</prop>
       <prop type="lokalise-key-id">918955667</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>HDMI 4</seg>
       </tuv>
@@ -91816,9 +91877,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::hdmi3</prop>
       <prop type="lokalise-key-id">918955666</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>HDMI 3</seg>
       </tuv>
@@ -91830,9 +91892,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::hdmi2</prop>
       <prop type="lokalise-key-id">918955665</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>HDMI 2</seg>
       </tuv>
@@ -91844,9 +91907,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::hdmi1</prop>
       <prop type="lokalise-key-id">918955664</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>HDMI 1</seg>
       </tuv>
@@ -91858,9 +91922,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::dvi3</prop>
       <prop type="lokalise-key-id">918955663</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>DVI 3</seg>
       </tuv>
@@ -91872,9 +91937,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::dvi2</prop>
       <prop type="lokalise-key-id">918955662</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>DVI 2</seg>
       </tuv>
@@ -91886,9 +91952,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::dvi1</prop>
       <prop type="lokalise-key-id">918955661</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>DVI 1</seg>
       </tuv>
@@ -91900,9 +91967,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::component3</prop>
       <prop type="lokalise-key-id">918955660</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Component 3</seg>
       </tuv>
@@ -91914,9 +91982,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::component2</prop>
       <prop type="lokalise-key-id">918955659</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Component 2</seg>
       </tuv>
@@ -91928,9 +91997,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::component1</prop>
       <prop type="lokalise-key-id">918955658</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Component 1</seg>
       </tuv>
@@ -91942,9 +92012,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::av3</prop>
       <prop type="lokalise-key-id">918955657</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>AV 3</seg>
       </tuv>
@@ -91956,9 +92027,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::av2</prop>
       <prop type="lokalise-key-id">918955656</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>AV 2</seg>
       </tuv>
@@ -91970,9 +92042,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::entity::media_player::tv::state_attributes::source::state::av1</prop>
       <prop type="lokalise-key-id">918955655</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>AV 1</seg>
       </tuv>
@@ -91984,9 +92057,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::config::step::user::description</prop>
       <prop type="lokalise-key-id">918955654</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Make sure the TV is powered on before continuing. Home Assistant queries the TV during setup to confirm the connection, and a TV in standby will not respond.</seg>
       </tuv>
@@ -91998,11 +92072,12 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::config::step::user::data_description::model</prop>
       <prop type="lokalise-key-id">918955653</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
-        <seg>Select your TV's generation to translate the active input back into a named source. Leave empty if your model is not listed; you can still switch sources.</seg>
+        <seg>Select your TV&#x27;s generation to translate the active input back into a named source. Leave empty if your model is not listed; you can still switch sources.</seg>
       </tuv>
       <tuv xml:lang="sv">
         <seg>Välj din TV:s generation för att omvandla den aktiva ingången till en namngiven källa. Lämna fältet tomt om din modell inte finns med i listan; du kan fortfarande växla mellan källor.</seg>
@@ -92012,9 +92087,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::config::step::user::data_description::device</prop>
       <prop type="lokalise-key-id">918955652</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Serial port path to connect to.</seg>
       </tuv>
@@ -92026,9 +92102,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::config::step::user::data::model</prop>
       <prop type="lokalise-key-id">918955651</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>TV generation</seg>
       </tuv>
@@ -92040,9 +92117,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::config::step::user::data::device</prop>
       <prop type="lokalise-key-id">918955650</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Port</seg>
       </tuv>
@@ -92054,9 +92132,10 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::config::step::troubleshoot::title</prop>
       <prop type="lokalise-key-id">918955649</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Connection failed</seg>
       </tuv>
@@ -92068,17 +92147,18 @@ Därefter är utgångarna från din enhet återigen tillgängliga som switch-enh
       <prop type="source">component::samsung_exlink::config::step::troubleshoot::description</prop>
       <prop type="lokalise-key-id">918955648</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Home Assistant could not communicate with the Samsung TV over the serial port.
 
-The most common cause is that ExLink control is not enabled. On TVs that use the USB-to-ExLink dongle, **EXT Link Support** and **USB Serial** must be enabled in the hidden service menu (on the remote, press **Mute → 1 → 8 → 2 → Power**); the exact path varies by model, so check your TV's documentation.
+The most common cause is that ExLink control is not enabled. On TVs that use the USB-to-ExLink dongle, **EXT Link Support** and **USB Serial** must be enabled in the hidden service menu (on the remote, press **Mute → 1 → 8 → 2 → Power**); the exact path varies by model, so check your TV&#x27;s documentation.
 
 Also make sure that:
 - The TV is powered on. A TV in standby does not answer status queries.
-- The cable is connected to the TV's 3.5 mm ExLink jack (or the Samsung USB-to-ExLink dongle) and is fully seated.
+- The cable is connected to the TV&#x27;s 3.5 mm ExLink jack (or the Samsung USB-to-ExLink dongle) and is fully seated.
 - The correct serial port was selected.
 
 Select **Submit** to try again.</seg>
@@ -92100,9 +92180,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::samsung_exlink::config::error::unknown</prop>
       <prop type="lokalise-key-id">918955647</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Unexpected error</seg>
       </tuv>
@@ -92114,9 +92195,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::samsung_exlink::config::error::cannot_connect</prop>
       <prop type="lokalise-key-id">918955646</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Failed to connect</seg>
       </tuv>
@@ -92128,9 +92210,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::samsung_exlink::config::abort::already_configured</prop>
       <prop type="lokalise-key-id">918955645</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Device is already configured</seg>
       </tuv>
@@ -92142,9 +92225,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::youtube::entity::sensor::latest_video::state_attributes::video_id::name</prop>
       <prop type="lokalise-key-id">918942642</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Video ID</seg>
       </tuv>
@@ -92156,9 +92240,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::youtube::entity::sensor::latest_video::state_attributes::published_at::name</prop>
       <prop type="lokalise-key-id">918942641</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Published at</seg>
       </tuv>
@@ -92170,9 +92255,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::youtube::entity::sensor::latest_video::name</prop>
       <prop type="lokalise-key-id">918942640</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Latest video</seg>
       </tuv>
@@ -92184,9 +92270,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::youtube::entity::sensor::latest_short::state_attributes::video_id::name</prop>
       <prop type="lokalise-key-id">918942639</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Video ID</seg>
       </tuv>
@@ -92198,9 +92285,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::youtube::entity::sensor::latest_short::state_attributes::published_at::name</prop>
       <prop type="lokalise-key-id">918942638</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Published at</seg>
       </tuv>
@@ -92212,23 +92300,25 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::youtube::entity::sensor::latest_short::name</prop>
       <prop type="lokalise-key-id">918942637</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Latest short</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Senaste short</seg>
+        <seg>Senaste Shorts-video</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9522738277">
       <prop type="source">component::tonewinner::entity::media_player::tonewinner::name</prop>
       <prop type="lokalise-key-id">918682105</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Tonewinner</seg>
       </tuv>
@@ -92240,9 +92330,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::tonewinner::config::step::user::title</prop>
       <prop type="lokalise-key-id">918682104</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Set up Tonewinner</seg>
       </tuv>
@@ -92254,9 +92345,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::tonewinner::config::step::user::description</prop>
       <prop type="lokalise-key-id">918682103</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Enter the serial port of your Tonewinner AV receiver.</seg>
       </tuv>
@@ -92268,9 +92360,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::tonewinner::config::step::user::data_description::serial_port</prop>
       <prop type="lokalise-key-id">918682102</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Serial port path to connect to</seg>
       </tuv>
@@ -92282,9 +92375,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::tonewinner::config::step::user::data::serial_port</prop>
       <prop type="lokalise-key-id">918682101</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Port</seg>
       </tuv>
@@ -92296,9 +92390,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::tonewinner::config::step::reconfigure::title</prop>
       <prop type="lokalise-key-id">918682100</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Reconfigure Tonewinner</seg>
       </tuv>
@@ -92310,9 +92405,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::tonewinner::config::step::reconfigure::description</prop>
       <prop type="lokalise-key-id">918682099</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Update the serial port for your Tonewinner AV receiver.</seg>
       </tuv>
@@ -92324,9 +92420,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::tonewinner::config::step::reconfigure::data_description::serial_port</prop>
       <prop type="lokalise-key-id">918682098</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Serial port path to connect to</seg>
       </tuv>
@@ -92338,9 +92435,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::tonewinner::config::step::reconfigure::data::serial_port</prop>
       <prop type="lokalise-key-id">918682097</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Port</seg>
       </tuv>
@@ -92352,9 +92450,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::tonewinner::config::error::unknown</prop>
       <prop type="lokalise-key-id">918682096</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>An unknown error occurred</seg>
       </tuv>
@@ -92366,9 +92465,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::tonewinner::config::error::cannot_connect</prop>
       <prop type="lokalise-key-id">918682095</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Cannot connect to the serial port. Please check the port and permissions.</seg>
       </tuv>
@@ -92380,9 +92480,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::tonewinner::config::abort::reconfigure_unload_failed</prop>
       <prop type="lokalise-key-id">918682094</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>The existing configuration could not be unloaded. Please try again.</seg>
       </tuv>
@@ -92408,9 +92509,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::tonewinner::config::abort::already_configured</prop>
       <prop type="lokalise-key-id">918682092</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read; reference source and target rechecked after writes</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Device is already configured</seg>
       </tuv>
@@ -92422,23 +92524,25 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::midea::entity::number::water_temp_level::name</prop>
       <prop type="lokalise-key-id">918279934</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Water temperature level</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Vattentemperaturnivå</seg>
+        <seg>Temperaturnivå för vattnet</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9511328159">
       <prop type="source">component::midea::entity::number::water_hardness::name</prop>
       <prop type="lokalise-key-id">918279933</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Water hardness</seg>
       </tuv>
@@ -92450,9 +92554,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::midea::entity::number::vacation_days::name</prop>
       <prop type="lokalise-key-id">918279932</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Vacation days</seg>
       </tuv>
@@ -92464,37 +92569,40 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::midea::entity::number::seat_temp_level::name</prop>
       <prop type="lokalise-key-id">918279931</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Seat temperature level</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Sätestemperaturnivå</seg>
+        <seg>Temperaturnivå för sitsen</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9511327967">
       <prop type="source">component::midea::entity::number::leak_water_protection_value::name</prop>
       <prop type="lokalise-key-id">918279930</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Leak water protection value</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Värde för läckageskydd</seg>
+        <seg>Läckageskyddets gränsvärde</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9511327903">
       <prop type="source">component::midea::entity::number::heating_level::name</prop>
       <prop type="lokalise-key-id">918279929</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Heating level</seg>
       </tuv>
@@ -92506,23 +92614,25 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::midea::entity::number::flushing_days::name</prop>
       <prop type="lokalise-key-id">918279928</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Flushing days</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Spolningsdagar</seg>
+        <seg>Spolningsintervall</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9511327775">
       <prop type="source">component::midea::entity::number::dry_level::name</prop>
       <prop type="lokalise-key-id">918279927</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Dry level</seg>
       </tuv>
@@ -92534,9 +92644,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::unifiprotect::entity::select::infrared_mode::state::manual</prop>
       <prop type="lokalise-key-id">918271700</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Manual</seg>
       </tuv>
@@ -92548,9 +92659,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::unifiprotect::entity::select::infrared_mode::state::custom_filter_only</prop>
       <prop type="lokalise-key-id">918271699</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Custom (IR filter only)</seg>
       </tuv>
@@ -92562,9 +92674,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::reolink::entity::switch::tamper_enabled::name</prop>
       <prop type="lokalise-key-id">918181032</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Tamper alarm</seg>
       </tuv>
@@ -92576,23 +92689,25 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::midea::entity::select::wind_ud_angle::state::up_mid</prop>
       <prop type="lokalise-key-id">918180366</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
-      <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verification-method">Lokalise API PUT/GET readback</prop>
+      <prop type="status">saved-and-read-back</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Up middle</seg>
       </tuv>
       <tuv xml:lang="sv">
-        <seg>Övre mitten</seg>
+        <seg>Övre mittläge</seg>
       </tuv>
     </tu>
     <tu tuid="lokalise:9509696774">
       <prop type="source">component::midea::entity::select::wind_ud_angle::state::up</prop>
       <prop type="lokalise-key-id">918180365</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Up</seg>
       </tuv>
@@ -92604,9 +92719,10 @@ Välj **Bekräfta** för att försöka igen.</seg>
       <prop type="source">component::midea::entity::select::wind_ud_angle::state::off</prop>
       <prop type="lokalise-key-id">918180364</prop>
       <prop type="lokalise-project-id">130246255a974bd3b5e8a1.51616605</prop>
-      <prop type="verification-method">Prior line-by-line Lokalise report and current full API export; checked against HA Core source and shared reference targets</prop>
+      <prop type="verification-method">Lokalise API live read plus current Core source review</prop>
       <prop type="status">verified-existing</prop>
-      <prop type="verified-date">2026-11-24</prop>
+      <prop type="verified-date">2026-11-27</prop>
+      <prop type="source-revision">1d07105b760c73093145526a51758938e87cc658</prop>
       <tuv xml:lang="en">
         <seg>Off</seg>
       </tuv>
