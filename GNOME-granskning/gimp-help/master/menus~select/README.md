@@ -9,3 +9,7 @@
 - Avsiktliga undantag: bildhashposter med `@@image:` följer källans egna kommentarer om att de inte används i översättningen. De är nu synkroniserade med källan och inte fuzzy.
 - Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-23.
 - GNOME-inskick: inget — enligt arbetsinstruktionen.
+
+## Aktuell POT-kontroll (2026-11-27)
+
+Damned Lies senaste POT innehåller nu 289 poster, medan granskningen från 2026-11-23 avsåg en äldre mall med 203 poster. En separat sammanslagning utan fuzzy-matchning bevarar 90 exakta översättningar och lämnar 118 fuzzy samt 81 oöversatta poster. Därför är den äldre granskade filen inte aktuell och ska inte skickas in. Ingen ny radgranskning utförs inom 14 dagar från den tidigare granskningen. POT-filen är arkiverad som `latest.pot`.
