@@ -16,4 +16,4 @@ I den tidigare inskickade katalogen var `MSI_FILE` redan korrekt översatt som
 
 - 2 befintliga strängar korrigerade: beskrivande kommandoradsargument översatta till svenska.
 - Validering: `msgfmt --check`; `l10n-lint`-regeln `metavariable-translation` ger inga kvarvarande träffar i de 295 granskade huvudgrenarnas kataloger.
-- Ändringen är lokal och har inte skickats till GNOME.
+- Den aktuella API-filen matchar den granskade PO-filen exakt; metavariabelrättelsen är redan publicerad. Ingen ny uppladdning behövs.
