@@ -1,83 +1,556 @@
---- gimp-help.master.filters-blur.sv.original.po
-+++ gimp-help.master.filters-blur.sv.reviewed.po
-@@ -3,7 +3,8 @@
+--- server-current.sv.po
++++ reviewed.sv.po
+@@ -1,16 +1,18 @@
++#
+ msgid ""
+ msgstr ""
  "Project-Id-Version: blur\n"
- "POT-Creation-Date: 2009-04-21 13:33+0200\n"
- "PO-Revision-Date: 2009-02-17 03:28+0100\n"
+ "POT-Creation-Date: 2026-11-24 22:29+0000\n"
+-"PO-Revision-Date: 2009-02-17 03:28+0100\n"
 -"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
++"PO-Revision-Date: 2026-11-27 06:55+0000\n"
 +"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
-+"Language: sv\n"
  "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+ "Language: sv\n"
  "MIME-Version: 1.0\n"
  "Content-Type: text/plain; charset=UTF-8\n"
-@@ -45,7 +46,7 @@
- #: src/filters/blur/tileable.xml:18(tertiary)
- #: src/filters/blur/tileable.xml:21(primary)
- msgid "Tileable Blur"
--msgstr ""
-+msgstr "Sömlös oskärpa"
+ "Content-Transfer-Encoding: 8bit\n"
  
- #: src/filters/blur/tileable.xml:16(primary)
- #: src/filters/blur/pixelise.xml:26(primary)
-@@ -68,7 +69,7 @@
- #: src/filters/blur/blur.xml:28(tertiary)
- #: src/filters/blur/blur.xml:31(primary)
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/zoom-motion.xml:27(None)
+ #: src/filters/blur/variable-blur.xml:24(None)
+@@ -21,45 +23,43 @@
+ #: src/filters/blur/linear-motion.xml:26(None)
+ #: src/filters/blur/lens-blur.xml:24(None)
+ #: src/filters/blur/gauss_select.xml:27(None)
+-#: src/filters/blur/gauss.xml:27(None) src/filters/blur/focus-blur.xml:24(None)
++#: src/filters/blur/gauss.xml:27(None)
++#: src/filters/blur/focus-blur.xml:24(None)
+ #: src/filters/blur/circular-motion.xml:27(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/taj_orig.jpg'; md5=THIS FILE DOESN'T "
+-#| "EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/taj_orig.jpg'; "
+ "md5=6abae556aaff78a2bc9082a46a171da8"
+ msgstr ""
+-"@@image: 'images/filters/examples/taj_orig.jpg'; md5=THIS FILE DOESN'T EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/taj_orig.jpg'; "
++"md5=6abae556aaff78a2bc9082a46a171da8"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/zoom-motion.xml:36(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-taj-mblur-zoom.jpg'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur-taj-zoom.jpg'; "
+ "md5=4f26c42fd44cfac2701fa51272bfa8d7"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-taj-mblur-zoom.jpg'; md5=THIS FILE "
+-"DOESN'T EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur-taj-zoom.jpg'; "
++"md5=4f26c42fd44cfac2701fa51272bfa8d7"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/zoom-motion.xml:71(None)
+ msgid ""
+ "@@image: 'images/filters/blur/zoom-options.png'; "
+ "md5=601ec890d68a67a9753a073cf5328403"
+ msgstr ""
++"@@image: 'images/filters/blur/zoom-options.png'; "
++"md5=601ec890d68a67a9753a073cf5328403"
+ 
+ #: src/filters/blur/zoom-motion.xml:9(title)
+ #: src/filters/blur/zoom-motion.xml:17(primary)
+ #: src/filters/blur/introduction.xml:168(title)
+ msgid "Zoom Motion Blur"
+-msgstr ""
++msgstr "Zoomrörelseoskärpa"
+ 
+ #: src/filters/blur/zoom-motion.xml:12(primary)
+ #: src/filters/blur/variable-blur.xml:9(primary)
+@@ -91,11 +91,11 @@
+ #: src/filters/blur/focus-blur.xml:10(secondary)
+ #: src/filters/blur/circular-motion.xml:13(secondary)
  msgid "Blur"
 -msgstr ""
 +msgstr "Oskärpa"
  
- #: src/filters/blur/tileable.xml:25(title)
- #: src/filters/blur/pixelise.xml:35(phrase)
-@@ -79,20 +80,19 @@
- msgstr "Översikt"
+ #: src/filters/blur/zoom-motion.xml:14(tertiary)
+ msgid "Zoom Motion"
+-msgstr ""
++msgstr "Zoomrörelse"
  
- #: src/filters/blur/tileable.xml:27(title)
+ #: src/filters/blur/zoom-motion.xml:21(title)
+ #: src/filters/blur/variable-blur.xml:18(title)
+@@ -114,7 +114,7 @@
+ 
+ #: src/filters/blur/zoom-motion.xml:23(title)
+ msgid "The Zoom Motion Blur filter"
+-msgstr ""
++msgstr "Filtret Zoomrörelseoskärpa"
+ 
+ #: src/filters/blur/zoom-motion.xml:30(para)
+ #: src/filters/blur/variable-blur.xml:27(para)
+@@ -128,7 +128,8 @@
+ #: src/filters/blur/lens-blur.xml:27(para)
+ #: src/filters/blur/introduction.xml:65(title)
+ #: src/filters/blur/gauss_select.xml:30(para)
+-#: src/filters/blur/gauss.xml:30(para) src/filters/blur/focus-blur.xml:27(para)
++#: src/filters/blur/gauss.xml:30(para)
++#: src/filters/blur/focus-blur.xml:27(para)
+ #: src/filters/blur/circular-motion.xml:30(para)
+ msgid "Original image"
+ msgstr "Ursprunglig bild"
+@@ -142,10 +143,11 @@
+ #: src/filters/blur/linear-motion.xml:38(para)
+ #: src/filters/blur/lens-blur.xml:36(para)
+ #: src/filters/blur/gauss_select.xml:39(para)
+-#: src/filters/blur/gauss.xml:39(para) src/filters/blur/focus-blur.xml:36(para)
++#: src/filters/blur/gauss.xml:39(para)
++#: src/filters/blur/focus-blur.xml:36(para)
+ #: src/filters/blur/circular-motion.xml:39(para)
+ msgid "Filter applied"
+-msgstr ""
++msgstr "Filter tillämpat"
+ 
+ #: src/filters/blur/zoom-motion.xml:43(para)
+ msgid ""
+@@ -154,6 +156,10 @@
+ "layer or selection. You can set center somewhere in the layer and this "
+ "center is applied to the layer or to a selection if it exists."
+ msgstr ""
++"Filtret borde egentligen heta <quote>Radiell</quote>. Det skapar oskärpa i "
++"alla riktningar runt en mittpunkt. Standardmittpunkten är lagrets eller "
++"markeringens mitt. Du kan placera mittpunkten var som helst på lagret; den "
++"tillämpas på lagret eller, om det finns en, på markeringen."
+ 
+ #: src/filters/blur/zoom-motion.xml:52(title)
+ #: src/filters/blur/variable-blur.xml:48(title)
+@@ -167,17 +173,17 @@
+ #: src/filters/blur/gauss.xml:57(title)
+ #: src/filters/blur/focus-blur.xml:50(title)
+ #: src/filters/blur/circular-motion.xml:52(title)
+-#, fuzzy
+-#| msgid "Activate the filter"
+ msgid "Activating the Filter"
+ msgstr "Aktivera filtret"
+ 
+ #: src/filters/blur/zoom-motion.xml:53(para)
+ msgid ""
+-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+-"guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Zoom Motion Blur…</"
+-"guimenuitem></menuchoice>."
+-msgstr ""
++"This filter is found in the main menu under "
++"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Zoom"
++" Motion Blur…</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar filtret i huvudmenyn under "
++"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Oskärpa</guisubmenu><guimenuitem>Zoomrörelseoskärpa…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/blur/zoom-motion.xml:65(title)
+ #: src/filters/blur/variable-blur.xml:60(title)
+@@ -196,7 +202,7 @@
+ 
+ #: src/filters/blur/zoom-motion.xml:67(title)
+ msgid "<quote>Zoom Motion Blur</quote> filter options"
+-msgstr ""
++msgstr "Alternativ för filtret <quote>Zoomrörelseoskärpa</quote>"
+ 
+ #: src/filters/blur/zoom-motion.xml:78(term)
+ #: src/filters/blur/variable-blur.xml:75(term)
+@@ -206,10 +212,11 @@
+ #: src/filters/blur/linear-motion.xml:75(term)
+ #: src/filters/blur/lens-blur.xml:73(term)
+ #: src/filters/blur/gauss_select.xml:81(term)
+-#: src/filters/blur/gauss.xml:81(term) src/filters/blur/focus-blur.xml:77(term)
++#: src/filters/blur/gauss.xml:81(term)
++#: src/filters/blur/focus-blur.xml:77(term)
+ #: src/filters/blur/circular-motion.xml:77(term)
+ msgid "Presets"
+-msgstr ""
++msgstr "Förinställningar"
+ 
+ #: src/filters/blur/zoom-motion.xml:79(quote)
+ #: src/filters/blur/variable-blur.xml:76(quote)
+@@ -223,7 +230,7 @@
+ #: src/filters/blur/focus-blur.xml:78(quote)
+ #: src/filters/blur/circular-motion.xml:78(quote)
+ msgid "Input Type"
+-msgstr ""
++msgstr "Indatatyp"
+ 
+ #: src/filters/blur/zoom-motion.xml:80(term)
+ #: src/filters/blur/variable-blur.xml:77(term)
+@@ -233,10 +240,11 @@
+ #: src/filters/blur/linear-motion.xml:77(term)
+ #: src/filters/blur/lens-blur.xml:75(term)
+ #: src/filters/blur/gauss_select.xml:83(term)
+-#: src/filters/blur/gauss.xml:83(term) src/filters/blur/focus-blur.xml:79(term)
++#: src/filters/blur/gauss.xml:83(term)
++#: src/filters/blur/focus-blur.xml:79(term)
+ #: src/filters/blur/circular-motion.xml:79(term)
+ msgid "Clipping"
+-msgstr ""
++msgstr "Klippning"
+ 
+ #: src/filters/blur/zoom-motion.xml:81(term)
+ #: src/filters/blur/variable-blur.xml:78(term)
+@@ -246,12 +254,11 @@
+ #: src/filters/blur/linear-motion.xml:78(term)
+ #: src/filters/blur/lens-blur.xml:76(term)
+ #: src/filters/blur/gauss_select.xml:84(term)
+-#: src/filters/blur/gauss.xml:84(term) src/filters/blur/focus-blur.xml:80(term)
++#: src/filters/blur/gauss.xml:84(term)
++#: src/filters/blur/focus-blur.xml:80(term)
+ #: src/filters/blur/circular-motion.xml:80(term)
+-#, fuzzy
+-#| msgid "Options"
+ msgid "Blending Options"
+-msgstr "Alternativ"
++msgstr "Blandningsalternativ"
+ 
+ #: src/filters/blur/zoom-motion.xml:82(term)
+ #: src/filters/blur/variable-blur.xml:79(term)
+@@ -261,12 +268,11 @@
+ #: src/filters/blur/linear-motion.xml:79(term)
+ #: src/filters/blur/lens-blur.xml:77(term)
+ #: src/filters/blur/gauss_select.xml:85(term)
+-#: src/filters/blur/gauss.xml:85(term) src/filters/blur/focus-blur.xml:81(term)
++#: src/filters/blur/gauss.xml:85(term)
++#: src/filters/blur/focus-blur.xml:81(term)
+ #: src/filters/blur/circular-motion.xml:81(term)
+-#, fuzzy
+-#| msgid "Overview"
+ msgid "Preview"
+-msgstr "Översikt"
++msgstr "Förhandsgranskning"
+ 
+ #: src/filters/blur/zoom-motion.xml:83(term)
+ #: src/filters/blur/variable-blur.xml:80(term)
+@@ -276,10 +282,11 @@
+ #: src/filters/blur/linear-motion.xml:80(term)
+ #: src/filters/blur/lens-blur.xml:78(term)
+ #: src/filters/blur/gauss_select.xml:86(term)
+-#: src/filters/blur/gauss.xml:86(term) src/filters/blur/focus-blur.xml:82(term)
++#: src/filters/blur/gauss.xml:86(term)
++#: src/filters/blur/focus-blur.xml:82(term)
+ #: src/filters/blur/circular-motion.xml:82(term)
+ msgid "Merge filter"
+-msgstr ""
++msgstr "Sammanfoga filter"
+ 
+ #: src/filters/blur/zoom-motion.xml:84(term)
+ #: src/filters/blur/variable-blur.xml:81(term)
+@@ -289,22 +296,23 @@
+ #: src/filters/blur/linear-motion.xml:81(term)
+ #: src/filters/blur/lens-blur.xml:79(term)
+ #: src/filters/blur/gauss_select.xml:87(term)
+-#: src/filters/blur/gauss.xml:87(term) src/filters/blur/focus-blur.xml:83(term)
++#: src/filters/blur/gauss.xml:87(term)
++#: src/filters/blur/focus-blur.xml:83(term)
+ #: src/filters/blur/circular-motion.xml:83(term)
+ msgid "Split view"
+-msgstr ""
++msgstr "Delad vy"
+ 
+ #: src/filters/blur/zoom-motion.xml:91(term)
+ #: src/filters/blur/focus-blur.xml:172(term)
+ #: src/filters/blur/circular-motion.xml:90(term)
+ msgid "Center X"
+-msgstr ""
++msgstr "Centrum X"
+ 
+ #: src/filters/blur/zoom-motion.xml:92(term)
+ #: src/filters/blur/focus-blur.xml:173(term)
+ #: src/filters/blur/circular-motion.xml:91(term)
+ msgid "Center Y"
+-msgstr ""
++msgstr "Centrum Y"
+ 
+ #: src/filters/blur/zoom-motion.xml:94(para)
+ msgid ""
+@@ -313,69 +321,77 @@
+ "on the rectangle button with an arrow on the right and then click on the "
+ "image to pick coordinates."
+ msgstr ""
++"Här ställer du in zoomens centrum. Skjutreglagen och rotationsknapparna styr"
++" centrumpositionen på den horisontella och vertikala axeln. Du kan också "
++"klicka på rektangelknappen med en pil till höger och sedan klicka i bilden "
++"för att välja koordinater."
+ 
+ #: src/filters/blur/zoom-motion.xml:104(term)
+ msgid "Blurring factor"
+-msgstr ""
++msgstr "Oskärpefaktor"
+ 
+ #: src/filters/blur/zoom-motion.xml:106(para)
+ msgid ""
+ "Increasing factor will result in more blurring in all directions of zoom."
+-msgstr ""
++msgstr "Ett högre värde ger mer oskärpa i alla zoomriktningar."
+ 
+ #: src/filters/blur/zoom-motion.xml:114(term)
+ #: src/filters/blur/linear-motion.xml:109(term)
+ #: src/filters/blur/focus-blur.xml:230(term)
+ #: src/filters/blur/circular-motion.xml:112(term)
+ msgid "On-canvas controls"
+-msgstr ""
++msgstr "Kontroller på arbetsytan"
+ 
+ #: src/filters/blur/zoom-motion.xml:116(para)
+ msgid ""
+-"This option (default) allows you to modify blur settings directly on canvas, "
+-"for easier visual tweaking of blur settings. It displays a line with handle "
+-"on both ends to vary center and blurring factor."
+-msgstr ""
++"This option (default) allows you to modify blur settings directly on canvas,"
++" for easier visual tweaking of blur settings. It displays a line with handle"
++" on both ends to vary center and blurring factor."
++msgstr ""
++"Med det här alternativet (standard) kan du ändra oskärpeinställningarna "
++"direkt på arbetsytan för att enkelt finjustera oskärpan visuellt. En linje "
++"med handtag i båda ändarna visas, så att du kan ändra centrum och "
++"oskärpefaktor."
+ 
+ #: src/filters/blur/zoom-motion.xml:121(para)
+ msgid "Press <keycap>Alt</keycap> key to vary center only."
+-msgstr ""
++msgstr "Tryck på <keycap>Alt</keycap> för att bara ändra centrum."
+ 
+ #: src/filters/blur/zoom-motion.xml:124(para)
+ msgid "Press <keycap>Ctrl</keycap> key to vary blurring factor only."
+-msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++msgstr "Tryck på <keycap>Ctrl</keycap> för att bara ändra oskärpefaktorn."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/variable-blur.xml:33(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-taj-blur.jpg'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur-taj-variable.jpg'; "
+ "md5=44f9573f87159d48433e5f3c3a104d27"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-taj-blur.jpg'; md5=THIS FILE DOESN'T "
+-"EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur-taj-variable.jpg'; "
++"md5=44f9573f87159d48433e5f3c3a104d27"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/variable-blur.xml:68(None)
+ msgid ""
+ "@@image: 'images/filters/blur/variable-blur-dialog.png'; "
+ "md5=ab7df1f9ba23a0a8dec70f29a90d8f8e"
+ msgstr ""
++"@@image: 'images/filters/blur/variable-blur-dialog.png'; "
++"md5=ab7df1f9ba23a0a8dec70f29a90d8f8e"
+ 
+ #: src/filters/blur/variable-blur.xml:6(title)
+ #: src/filters/blur/variable-blur.xml:11(tertiary)
+ #: src/filters/blur/variable-blur.xml:14(primary)
+ msgid "Variable Blur"
+-msgstr ""
++msgstr "Variabel oskärpa"
+ 
+ #: src/filters/blur/variable-blur.xml:20(title)
+ msgid "The Variable Blur filter"
+-msgstr ""
++msgstr "Filtret Variabel oskärpa"
+ 
+ #: src/filters/blur/variable-blur.xml:40(para)
+ msgid ""
+@@ -383,21 +399,27 @@
+ "<guilabel>Input</guilabel>. Black in the mask layer will be minimally "
+ "blurred, and white will be blurred at maximum value."
+ msgstr ""
++"Variabel oskärpa gör bilden olika oskarp med hjälp av en mask som anges i "
++"<guilabel>Indata</guilabel>. Svarta områden i masklagret får minimal oskärpa"
++" och vita områden maximal oskärpa."
+ 
+ #: src/filters/blur/variable-blur.xml:49(para)
+ msgid ""
+-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+-"guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Variable Blur…</"
+-"guimenuitem></menuchoice>."
+-msgstr ""
++"This filter is found in the main menu under "
++"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Variable"
++" Blur…</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar filtret i huvudmenyn under "
++"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Oskärpa</guisubmenu><guimenuitem>Variabel"
++" oskärpa…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/blur/variable-blur.xml:62(title)
+ msgid "Variable Blur filter dialog options"
+-msgstr ""
++msgstr "Dialogalternativ för Variabel oskärpa"
+ 
+ #: src/filters/blur/variable-blur.xml:88(term)
+ msgid "Input"
+-msgstr ""
++msgstr "Indata"
+ 
+ #: src/filters/blur/variable-blur.xml:90(para)
+ msgid ""
+@@ -405,6 +427,9 @@
+ "input layer will be blurred. Black areas in the mask will result in minimal "
+ "blurring of the output, and white will be blurred the most."
+ msgstr ""
++"Här väljer du masken som avgör hur mycket olika delar av indatalagret ska "
++"göras oskarpa. Svarta områden i masken ger minimal oskärpa i resultatet och "
++"vita områden maximal oskärpa."
+ 
+ #: src/filters/blur/variable-blur.xml:100(term)
+ #: src/filters/blur/tileable.xml:145(term)
+@@ -412,73 +437,74 @@
+ #: src/filters/blur/lens-blur.xml:99(term)
+ #: src/filters/blur/focus-blur.xml:181(term)
+ msgid "Radius"
+-msgstr ""
++msgstr "Radie"
+ 
+ #: src/filters/blur/variable-blur.xml:102(para)
+ msgid "Maximal blur radius."
+-msgstr ""
++msgstr "Maximal oskärperadie."
+ 
+ #: src/filters/blur/variable-blur.xml:109(term)
+ #: src/filters/blur/lens-blur.xml:137(term)
+-#, fuzzy
+-#| msgid "Linear"
+ msgid "Linear mask"
+-msgstr "Linjär"
++msgstr "Linjär mask"
+ 
+ #: src/filters/blur/variable-blur.xml:111(para)
+ #: src/filters/blur/lens-blur.xml:139(para)
+ msgid "If enabled, use linear mask values."
+-msgstr ""
++msgstr "Om det här alternativet är aktiverat används linjära maskvärden."
+ 
+ #: src/filters/blur/variable-blur.xml:118(term)
+ #: src/filters/blur/focus-blur.xml:125(term)
+ msgid "High quality"
+-msgstr ""
++msgstr "Hög kvalitet"
+ 
+ #: src/filters/blur/variable-blur.xml:120(para)
+ msgid ""
+ "If enabled, generates more accurate and consistent output, at the cost of "
+ "being slower."
+ msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"Om det här alternativet är aktiverat blir resultatet noggrannare och "
++"jämnare, men beräkningen tar längre tid."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/tileable.xml:35(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-taj-tblur.jpg'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur-taj-tblur.jpg'; "
+ "md5=f29dc0106640ba234b0d21ac3a6faa19"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-taj-tblur.jpg'; md5=THIS FILE DOESN'T "
+-"EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur-taj-tblur.jpg'; "
++"md5=f29dc0106640ba234b0d21ac3a6faa19"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/tileable.xml:139(None)
+ msgid ""
+ "@@image: 'images/filters/blur/tileable-options.png'; "
+ "md5=48f3735f1dbf5688a42cd1b32a823c5d"
+ msgstr ""
++"@@image: 'images/filters/blur/tileable-options.png'; "
++"md5=48f3735f1dbf5688a42cd1b32a823c5d"
+ 
+ #: src/filters/blur/tileable.xml:8(title)
+ #: src/filters/blur/tileable.xml:13(tertiary)
+ #: src/filters/blur/tileable.xml:16(primary)
+ msgid "Tileable Blur"
+-msgstr ""
++msgstr "Sömlös oskärpa"
+ 
+ #: src/filters/blur/tileable.xml:22(title)
 -#, fuzzy
  msgid "Example for the <quote>Tileable</quote> filter"
 -msgstr "Exempel för filtret <placeholder-1/>"
 +msgstr "Exempel på filtret <quote>Sömlös</quote>"
  
- #: src/filters/blur/tileable.xml:33(para)
- #: src/filters/blur/pixelise.xml:48(para) src/filters/blur/gauss.xml:49(para)
- #: src/filters/blur/gauss_select.xml:32(para)
- #: src/filters/blur/blur.xml:48(para)
- msgid "Original"
--msgstr ""
-+msgstr "Original"
- 
- #: src/filters/blur/tileable.xml:41(para)
- msgid "Filter <quote>Tileable Blur</quote> applied"
--msgstr ""
-+msgstr "Filtret <quote>Sömlös oskärpa</quote> tillämpat"
- 
- #: src/filters/blur/tileable.xml:45(para)
+ #: src/filters/blur/tileable.xml:42(para)
  msgid ""
-@@ -100,24 +100,34 @@
- "It does this by blending and blurring the boundary between images that will "
- "be next to each other after tiling."
- msgstr ""
-+"Det här verktyget används för att mjuka upp skarvar mellan bildplattor i "
-+"bilder som används som kaklade bakgrunder. Det gör det genom att blanda och "
-+"göra gränsen mellan bilder som kommer att ligga bredvid varandra efter "
-+"plattläggningen oskarp."
+-"Tileable Blur is actually implemented by a Script-Fu script that invokes the "
+-"Gaussian blur plug-in."
+-msgstr ""
++"Tileable Blur is actually implemented by a Script-Fu script that invokes the"
++" Gaussian blur plug-in."
++msgstr ""
++"Sömlös oskärpa är egentligen implementerat med ett Script-Fu-skript som "
++"anropar insticksmodulen för gaussisk oskärpa."
  
- #: src/filters/blur/tileable.xml:51(para)
+ #: src/filters/blur/tileable.xml:46(para)
+ msgid ""
+@@ -486,68 +512,93 @@
+ "backgrounds. It does this by blending and blurring the boundary between "
+ "images that will be next to each other after tiling."
+ msgstr ""
++"Filtret jämnar ut skarvarna där bilddelar möts i en upprepad bakgrund genom "
++"att blanda och göra bildkanterna oskarpa."
+ 
+ #: src/filters/blur/tileable.xml:52(para)
  msgid ""
  "If you want to treat only images borders, you can't apply filter to the "
  "whole image. The solution to get the wanted effect is as follows:"
  msgstr ""
-+"Om du bara vill behandla bildens kanter kan du inte tillämpa filtret på hela "
-+"bilden. Gör så här för att få önskad effekt:"
++"Om du bara vill behandla bildens kanter kan du inte tillämpa filtret på hela"
++" bilden. Gör så här för att få önskad effekt:"
  
- #: src/filters/blur/tileable.xml:58(para)
+ #: src/filters/blur/tileable.xml:59(para)
  msgid ""
  "Duplicate layer (<menuchoice><guimenu>Layer</guimenu><guimenuitem>Duplicate "
- "Layer</guimenuitem></menuchoice>) and select it to work on it."
+ "Layers</guimenuitem></menuchoice>) and select it to work on it."
  msgstr ""
-+"Duplicera lagret (<menuchoice><guimenu>Lager</guimenu><guimenuitem>Duplicera "
-+"lager</guimenuitem></menuchoice>) och markera det för att arbeta med det."
++"Duplicera lagret (<menuchoice><guimenu>Lager</guimenu><guimenuitem>Duplicera"
++" lager</guimenuitem></menuchoice>) och markera kopian för att arbeta med "
++"den."
  
- #: src/filters/blur/tileable.xml:68(para)
+ #: src/filters/blur/tileable.xml:69(para)
  msgid ""
  "Apply <quote>Tileable Blur</quote> filter with a 20 pixels radius to this "
  "layer."
@@ -85,69 +558,84 @@
 +"Tillämpa filtret <quote>Sömlös oskärpa</quote> med radien 20 bildpunkter på "
 +"detta lager."
  
- #: src/filters/blur/tileable.xml:74(para)
+ #: src/filters/blur/tileable.xml:75(para)
  msgid ""
-@@ -126,6 +136,9 @@
- "guimenu><guimenuitem>Shrink</guimenuitem></menuchoice>) to create a border "
- "with the wanted width."
- msgstr ""
+ "Select all (<keycombo><keycap>Ctrl</keycap><keycap>A</keycap></keycombo>) "
+-"and reduce selection (<menuchoice><guimenu>Selection</"
+-"guimenu><guimenuitem>Shrink</guimenuitem></menuchoice>) to create a border "
+-"with the wanted width."
+-msgstr ""
++"and reduce selection "
++"(<menuchoice><guimenu>Selection</guimenu><guimenuitem>Shrink</guimenuitem></menuchoice>)"
++" to create a border with the wanted width."
++msgstr ""
 +"Markera allt (<keycombo><keycap>Ctrl</keycap><keycap>A</keycap></keycombo>) "
-+"och krymp markeringen (<menuchoice><guimenu>Markera</guimenu><guimenuitem>"
-+"Krymp</guimenuitem></menuchoice>) för att skapa en kant med önskad bredd."
++"och krymp markeringen "
++"(<menuchoice><guimenu>Markera</guimenu><guimenuitem>Krymp</guimenuitem></menuchoice>)"
++" för att skapa en kant med önskad bredd."
  
- #: src/filters/blur/tileable.xml:86(para)
+ #: src/filters/blur/tileable.xml:87(para)
  msgid ""
-@@ -133,18 +146,24 @@
- "<menuchoice><guimenu>Selection</guimenu><guimenuitem>Feather</guimenuitem></"
- "menuchoice>."
- msgstr ""
-+"Ge markeringen en mjuk kant med <menuchoice><guimenu>Markera</guimenu>"
-+"<guimenuitem>Mjuka upp</guimenuitem></menuchoice>."
+ "Give a feathered border to the selection by using "
+-"<menuchoice><guimenu>Selection</guimenu><guimenuitem>Feather</guimenuitem></"
+-"menuchoice>."
+-msgstr ""
++"<menuchoice><guimenu>Selection</guimenu><guimenuitem>Feather</guimenuitem></menuchoice>."
++msgstr ""
++"Ge markeringen en mjuk kant med "
++"<menuchoice><guimenu>Markera</guimenu><guimenuitem>Mjuka "
++"upp</guimenuitem></menuchoice>."
  
- #: src/filters/blur/tileable.xml:95(para)
+ #: src/filters/blur/tileable.xml:96(para)
  msgid ""
- "Delete selection with <keycombo><keycap>Ctrl</keycap><keycap>K</keycap></"
- "keycombo>."
- msgstr ""
-+"Ta bort markeringen med <keycombo><keycap>Ctrl</keycap><keycap>K</keycap></"
-+"keycombo>."
+-"Delete selection with <keycombo><keycap>Ctrl</keycap><keycap>K</keycap></"
+-"keycombo>."
+-msgstr ""
++"Delete selection with "
++"<keycombo><keycap>Ctrl</keycap><keycap>K</keycap></keycombo>."
++msgstr ""
++"Ta bort markeringen med "
++"<keycombo><keycap>Ctrl</keycap><keycap>K</keycap></keycombo>."
  
- #: src/filters/blur/tileable.xml:101(para)
+ #: src/filters/blur/tileable.xml:102(para)
  msgid ""
  "Merge layers with <menuchoice><guimenu>Layer</guimenu><guimenuitem>Merge "
  "down</guimenuitem></menuchoice>."
  msgstr ""
-+"Sammanfoga lagren med <menuchoice><guimenu>Lager</guimenu><guimenuitem>"
-+"Sammanfoga nedåt</guimenuitem></menuchoice>."
++"Sammanfoga lagren med "
++"<menuchoice><guimenu>Lager</guimenu><guimenuitem>Sammanfoga "
++"nedåt</guimenuitem></menuchoice>."
  
- #: src/filters/blur/tileable.xml:114(title)
- #: src/filters/blur/pixelise.xml:69(phrase)
-@@ -160,6 +179,9 @@
- "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</"
- "guisubmenu><guimenuitem>Tileable Blur</guimenuitem></menuchoice>."
+ #: src/filters/blur/tileable.xml:113(para)
+ msgid ""
+ "If the image is in grayscale mode or indexed mode, this menu entry is "
+ "disabled."
  msgstr ""
-+"Du hittar filtret i bildmenyn under <menuchoice><guimenu>Filter</guimenu>"
-+"<guisubmenu>Oskärpa</guisubmenu><guimenuitem>Sömlös oskärpa</guimenuitem></"
-+"menuchoice>."
++"Om bilden är i gråskaleläge eller indexerat läge är detta menyobjekt "
++"inaktiverat."
  
- #: src/filters/blur/tileable.xml:126(title)
- #: src/filters/blur/pixelise.xml:78(phrase)
-@@ -170,12 +192,12 @@
+ #: src/filters/blur/tileable.xml:122(para)
+ msgid ""
+-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+-"guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Tileable Blur…</"
+-"guimenuitem></menuchoice>."
+-msgstr ""
++"This filter is found in the main menu under "
++"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Tileable"
++" Blur…</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar filtret i huvudmenyn under "
++"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Oskärpa</guisubmenu><guimenuitem>Sömlös"
++" oskärpa…</guimenuitem></menuchoice>."
  
- #: src/filters/blur/tileable.xml:128(title)
+ #: src/filters/blur/tileable.xml:135(title)
  msgid "<quote>Tileable Blur</quote> filter options"
 -msgstr ""
 +msgstr "Filteralternativ för <quote>Sömlös oskärpa</quote>"
  
- #: src/filters/blur/tileable.xml:138(term) src/filters/blur/gauss.xml:98(term)
- #: src/filters/blur/gauss_select.xml:80(term)
- msgid "Blur Radius"
--msgstr ""
-+msgstr "Oskärperadie"
- 
- #: src/filters/blur/tileable.xml:140(para)
+ #: src/filters/blur/tileable.xml:147(para)
  msgid ""
-@@ -183,39 +205,42 @@
+@@ -555,69 +606,74 @@
  "<guilabel>Horizontal</guilabel> and <guilabel>Vertical</guilabel>, you can "
  "make the horizontal and vertical borders tileable."
  msgstr ""
@@ -155,611 +643,2140 @@
 +"<guilabel>Horisontellt</guilabel> och <guilabel>Vertikalt</guilabel> kan du "
 +"göra de vågräta och lodräta kanterna sömlösa."
  
- #: src/filters/blur/tileable.xml:148(term)
- msgid "Blur vertically / horizontally"
+ #: src/filters/blur/tileable.xml:155(term)
+ msgid "Blur vertically"
 -msgstr ""
-+msgstr "Gör oskarp lodrätt/vågrätt"
++msgstr "Gör vertikalt oskarp"
  
- #: src/filters/blur/tileable.xml:150(para)
+ #: src/filters/blur/tileable.xml:156(term)
+ msgid "Blur horizontally"
+-msgstr ""
++msgstr "Gör horisontellt oskarp"
+ 
+ #: src/filters/blur/tileable.xml:158(para)
  msgid "These options are self-explanatory."
 -msgstr ""
 +msgstr "Dessa alternativ är självförklarande."
  
- #: src/filters/blur/tileable.xml:156(term)
- #: src/filters/blur/mblur.xml:112(term)
- msgid "Blur Type"
+ #: src/filters/blur/tileable.xml:164(term)
+ #: src/filters/blur/focus-blur.xml:104(term)
+ msgid "Blur type"
 -msgstr ""
-+msgstr "Typ av oskärpa"
++msgstr "Oskärpetyp"
  
- #: src/filters/blur/tileable.xml:158(para)
- msgid "Choose the algorithm to be applied:"
+ #: src/filters/blur/tileable.xml:167(para)
+ msgid "This setting is ignored."
 -msgstr ""
-+msgstr "Välj den algoritm som ska tillämpas:"
- 
- #: src/filters/blur/tileable.xml:161(term)
- msgid "IIR"
--msgstr ""
-+msgstr "IIR"
- 
- #: src/filters/blur/tileable.xml:163(para)
- msgid "for photographic or scanned images."
--msgstr ""
-+msgstr "för fotografiska eller skannade bilder."
- 
- #: src/filters/blur/tileable.xml:167(term)
- msgid "RLE"
--msgstr ""
-+msgstr "RLE"
- 
- #: src/filters/blur/tileable.xml:169(para)
- msgid "for computer-generated images."
--msgstr ""
-+msgstr "för datorgenererade bilder."
- 
- #. When image changes, this message will be marked fuzzy or untranslated for you.
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++msgstr "Den här inställningen ignoreras."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -241,13 +266,13 @@
- #: src/filters/blur/pixelise.xml:28(tertiary)
- #: src/filters/blur/pixelise.xml:31(primary)
- msgid "Pixelise"
--msgstr ""
-+msgstr "Pixelisera"
+ #: src/filters/blur/pixelize.xml:35(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-taj-pixelise.jpg'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur-taj-pixelise.jpg'; "
+ "md5=3a624ae1bcb7fa3ac25649f5b931e91e"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-taj-pixelise.jpg'; md5=THIS FILE "
+-"DOESN'T EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur-taj-pixelise.jpg'; "
++"md5=3a624ae1bcb7fa3ac25649f5b931e91e"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/pixelize.xml:69(None)
+ msgid ""
+ "@@image: 'images/filters/blur/pixelize-options.png'; "
+ "md5=347c82c52b694df0a6a99e9164ff0b97"
+ msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/blur/pixelize-options.png'; "
++"md5=347c82c52b694df0a6a99e9164ff0b97"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/pixelize.xml:111(None)
+ msgid ""
+ "@@image: 'images/stock-icons/gimp-vchain.svg'; "
+ "md5=d47eea1ce790b9e3211d223704a1e9de"
+ msgstr ""
++"@@image: 'images/stock-icons/gimp-vchain.svg'; "
++"md5=d47eea1ce790b9e3211d223704a1e9de"
  
- #: src/filters/blur/pixelise.xml:40(quote)
- #: src/filters/blur/pixelise.xml:82(quote)
- #: src/filters/blur/introduction.xml:94(title)
+ #: src/filters/blur/pixelize.xml:8(title)
+ #: src/filters/blur/pixelize.xml:13(tertiary)
+ #: src/filters/blur/pixelize.xml:16(primary)
+ #: src/filters/blur/introduction.xml:96(title)
  msgid "Pixelize"
 -msgstr ""
 +msgstr "Pixelisera"
  
- #: src/filters/blur/pixelise.xml:39(phrase)
- #: src/filters/blur/gauss.xml:40(phrase)
-@@ -258,7 +283,7 @@
- #: src/filters/blur/gauss_select.xml:41(para)
- #: src/filters/blur/blur.xml:56(para)
- msgid "Blur applied"
--msgstr ""
-+msgstr "Oskärpa tillämpad"
+ #: src/filters/blur/pixelize.xml:22(title)
+-#, fuzzy
+ msgid "Example for the <quote>Pixelize</quote> filter"
+-msgstr "Exempel för filtret <placeholder-1/>"
++msgstr "Exempel på filtret <quote>Pixelisera</quote>"
  
- #: src/filters/blur/pixelise.xml:60(para)
+ #: src/filters/blur/pixelize.xml:42(para)
  msgid ""
-@@ -267,6 +292,10 @@
+@@ -626,23 +682,27 @@
  "trial. It is used for the <quote>Abraham Lincoln effect</quote>: see <xref "
  "linkend=\"bibliography-online-bach\"/>."
  msgstr ""
-+"Filtret Pixelisera återger bilden med stora färgblock. Det liknar mycket den "
-+"effekt som syns i tv när en brottsling döljs under en rättegång. Det används "
-+"för <quote>Abraham Lincoln-effekten</quote>; se <xref linkend=\"bibliography-"
++"Filtret Pixelisera återger bilden med stora färgblock. Det påminner om tv:s "
++"sätt att dölja en brottsling under en rättegång. Filtret kan skapa "
++"<quote>Abraham Lincoln-effekten</quote>: se <xref linkend=\"bibliography-"
 +"online-bach\"/>."
  
- #: src/filters/blur/pixelise.xml:71(para)
+ #: src/filters/blur/pixelize.xml:52(para)
  msgid ""
-@@ -274,45 +303,50 @@
- "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</"
- "guisubmenu><guimenuitem>Pixelise</guimenuitem></menuchoice>"
- msgstr ""
-+"Du hittar filtret i bildmenyn under <menuchoice><guimenu>Filter</guimenu>"
-+"<guisubmenu>Oskärpa</guisubmenu><guimenuitem>Pixelisera</guimenuitem></"
-+"menuchoice>"
- 
- #: src/filters/blur/pixelise.xml:82(phrase)
- #: src/filters/blur/mblur.xml:101(phrase)
- msgid "<placeholder-1/> filter options"
+-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+-"guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Pixelize…</guimenuitem></"
+-"menuchoice>."
 -msgstr ""
-+msgstr "Filteralternativ för <placeholder-1/>"
++"This filter is found in the main menu under "
++"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Pixelize…</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar filtret i huvudmenyn under "
++"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Oskärpa</guisubmenu><guimenuitem>Pixelisera…</guimenuitem></menuchoice>."
  
- #: src/filters/blur/pixelise.xml:93(term)
- msgid "Pixel Width"
+ #: src/filters/blur/pixelize.xml:65(title)
+-#, fuzzy
+ msgid "<quote>Pixelize</quote> filter options"
+-msgstr "Exempel för filtret <placeholder-1/>"
++msgstr "Alternativ för filtret <quote>Pixelisera</quote>"
+ 
+ #: src/filters/blur/pixelize.xml:87(term)
+ #: src/filters/blur/focus-blur.xml:90(term)
+ msgid "Shape"
 -msgstr ""
-+msgstr "Bildpunktsbredd"
++msgstr "Form"
  
- #: src/filters/blur/pixelise.xml:95(para)
- msgid "Here you can set the desired width of the blocks."
--msgstr ""
-+msgstr "Här kan du ange önskad bredd för blocken."
- 
- #: src/filters/blur/pixelise.xml:101(term)
- msgid "Pixel Height"
--msgstr ""
-+msgstr "Bildpunktshöjd"
- 
- #: src/filters/blur/pixelise.xml:103(para)
- msgid "Here you can set the height of the blocks."
--msgstr ""
-+msgstr "Här kan du ange blockens höjd."
- 
- #: src/filters/blur/pixelise.xml:107(term)
- msgid "Chain Button"
--msgstr ""
-+msgstr "Kedjeknapp"
- 
- #: src/filters/blur/pixelise.xml:109(para)
+ #: src/filters/blur/pixelize.xml:89(para)
  msgid ""
- "If the chain is broken, you can set width and height separately. Otherwise, "
- "they are linked."
+@@ -651,18 +711,23 @@
+ "Diamond and Round shapes will only be visible when you lower <guilabel>Size "
+ "Ratio X/Y</guilabel> to about 0.6 (Diamond) or 0.5 (Round)."
  msgstr ""
-+"Om kedjan är bruten kan du ange bredd och höjd var för sig. Annars är de "
-+"länkade."
++"Det finns tre formval: <guilabel>Romb</guilabel>, <guilabel>Rund</guilabel> "
++"och <guilabel>Fyrkant</guilabel> (standard). Rombformen och den runda formen"
++" syns först när du sänker <guilabel>Storleksförhållande X/Y</guilabel> till "
++"ungefär 0,6 (romb) respektive 0,5 (rund)."
  
- #: src/filters/blur/pixelise.xml:116(term)
- msgid "Unit Input Box"
+ #: src/filters/blur/pixelize.xml:99(term)
+ msgid "Block width"
 -msgstr ""
-+msgstr "Inmatningsruta för enhet"
++msgstr "Blockbredd"
  
- #: src/filters/blur/pixelise.xml:118(para)
- msgid "Here you can select the unit of measure for height and width."
+ #: src/filters/blur/pixelize.xml:100(term)
+ msgid "Block height"
 -msgstr ""
-+msgstr "Här kan du välja måttenhet för höjd och bredd."
++msgstr "Blockhöjd"
  
- #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #: src/filters/blur/pixelize.xml:102(para)
+-msgid "Here you can set the desired width and height of the blocks, in pixels."
+-msgstr ""
++msgid ""
++"Here you can set the desired width and height of the blocks, in pixels."
++msgstr "Här anger du blockens bredd och höjd i pixlar."
+ 
+ #: src/filters/blur/pixelize.xml:106(para)
+ msgid ""
+@@ -670,26 +735,29 @@
+ "chain symbol next to the input boxes. If you want to set width and height "
+ "separately, click on that chain symbol to unlink them."
+ msgstr ""
++"Som standard är bredd och höjd länkade. Det visas av kedjesymbolen "
++"<placeholder-1/> bredvid inmatningsfälten. Klicka på kedjesymbolen för att "
++"bryta länken och ställa in bredd och höjd var för sig."
+ 
+ #: src/filters/blur/pixelize.xml:121(term)
+ msgid "Offset X"
+-msgstr ""
++msgstr "X-förskjutning"
+ 
+ #: src/filters/blur/pixelize.xml:122(term)
+ msgid "Offset Y"
+-msgstr ""
++msgstr "Y-förskjutning"
+ 
+ #: src/filters/blur/pixelize.xml:124(para)
+ msgid "Horizontal/Vertical offset of the shapes in pixels inside a block."
+-msgstr ""
++msgstr "Formernas horisontella/vertikala förskjutning i ett block, i pixlar."
+ 
+ #: src/filters/blur/pixelize.xml:131(term)
+ msgid "Size ratio X"
+-msgstr ""
++msgstr "Storleksförhållande X"
+ 
+ #: src/filters/blur/pixelize.xml:132(term)
+ msgid "Size ratio Y"
+-msgstr ""
++msgstr "Storleksförhållande Y"
+ 
+ #: src/filters/blur/pixelize.xml:134(para)
+ msgid ""
+@@ -698,10 +766,14 @@
+ "change ratio, block size changes, and missing pixels are replaced with the "
+ "background color."
+ msgstr ""
++"En pixels horisontella/vertikala storleksförhållande (0,000–1,000) i ett "
++"block. Standardvärdet är 1,000. Antalet block är oförändrat. Om du ändrar "
++"förhållandet ändras blockstorleken, och saknade pixlar ersätts med "
++"bakgrundsfärgen."
+ 
+ #: src/filters/blur/pixelize.xml:143(term)
+ msgid "Background color"
+-msgstr ""
++msgstr "Bakgrundsfärg"
+ 
+ #: src/filters/blur/pixelize.xml:145(para)
+ msgid ""
+@@ -710,147 +782,164 @@
+ "selection dialog</link>, or picking a color using the <link linkend=\"gimp-"
+ "tool-color-picker\">color picker</link> on the right."
+ msgstr ""
++"Standardbakgrunden är verktygslådans bakgrundsfärg. Du kan ändra den genom "
++"att klicka på färgkällan, som öppnar en <link linkend=\"gimp-color-"
++"dialog\">färgväljardialog</link>, eller genom att välja en färg med <link "
++"linkend=\"gimp-tool-color-picker\">färgväljaren</link> till höger."
+ 
+ #: src/filters/blur/pixelize.xml:153(para)
+ msgid ""
+ "Note that you can change the background color to be partially or completely "
+ "transparent by lowering the alpha value in the color selection dialog. This "
+-"can lead to interesting effects provided the layer you are working on has an "
+-"alpha channel."
+-msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"can lead to interesting effects provided the layer you are working on has an"
++" alpha channel."
++msgstr ""
++"Du kan göra bakgrundsfärgen delvis eller helt genomskinlig genom att sänka "
++"alfavärdet i färgväljardialogen. Det kan ge intressanta effekter om lagret "
++"du arbetar med har en alfakanal."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -357,11 +391,11 @@
- #: src/filters/blur/mblur.xml:30(primary)
- #: src/filters/blur/mblur.xml:101(quote)
- msgid "Motion Blur"
--msgstr ""
-+msgstr "Rörelseoskärpa"
- 
- #: src/filters/blur/mblur.xml:38(phrase)
- msgid "Starting example for Motion Blur filter"
--msgstr ""
-+msgstr "Utgångsexempel för filtret Rörelseoskärpa"
- 
- #: src/filters/blur/mblur.xml:47(para)
- msgid "Original image"
-@@ -369,19 +403,19 @@
- 
- #: src/filters/blur/mblur.xml:55(para)
- msgid "Linear blur"
--msgstr ""
-+msgstr "Linjär oskärpa"
- 
- #: src/filters/blur/mblur.xml:61(phrase)
- msgid "Using example for Motion Blur filter"
--msgstr ""
-+msgstr "Exempel på användning av filtret Rörelseoskärpa"
- 
- #: src/filters/blur/mblur.xml:68(para)
- msgid "Radial blur"
--msgstr ""
-+msgstr "Radiell oskärpa"
- 
- #: src/filters/blur/mblur.xml:76(para)
- msgid "Zoom blur"
--msgstr ""
-+msgstr "Zoomoskärpa"
- 
- #: src/filters/blur/mblur.xml:80(para)
+ #: src/filters/blur/median-blur.xml:35(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-taj-mblur-radial.jpg'; md5=THIS "
+-#| "FILE DOESN'T EXIST"
  msgid ""
-@@ -389,6 +423,9 @@
- "Linear, Radial, and Zoom movements. Each of these movements can be further "
- "adjusted, with Length, or Angle settings available."
+ "@@image: 'images/filters/examples/blur-taj-median.jpg'; "
+ "md5=2da3580d3ff0b9991aea4de3b7f93b7c"
  msgstr ""
-+"Filtret Rörelseoskärpa skapar rörelseoskärpa. Filtret kan skapa linjära, "
-+"radiella och zoomande rörelser. Varje rörelse kan finjusteras med "
-+"inställningarna Längd och Vinkel."
- 
- #: src/filters/blur/mblur.xml:90(para)
+-"@@image: 'images/filters/examples/blur-taj-mblur-radial.jpg'; md5=THIS FILE "
+-"DOESN'T EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur-taj-median.jpg'; "
++"md5=2da3580d3ff0b9991aea4de3b7f93b7c"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/median-blur.xml:51(None)
  msgid ""
-@@ -396,6 +433,9 @@
- "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</"
- "guisubmenu><guimenuitem>Motion Blur</guimenuitem></menuchoice>"
+ "@@image: 'images/filters/examples/blur/median-calcul.png'; "
+ "md5=f5e2b47c7758b44c5d81fe937deb25d6"
  msgstr ""
-+"Du hittar filtret i bildmenyn under <menuchoice><guimenu>Filter</guimenu>"
-+"<guisubmenu>Oskärpa</guisubmenu><guimenuitem>Rörelseoskärpa</guimenuitem></"
-+"menuchoice>"
- 
- #: src/filters/blur/mblur.xml:116(term)
- msgid "Linear"
-@@ -409,10 +449,15 @@
- "actual angle of the movement. Thus, a setting of 90 will produce a vertical "
- "blur, and a setting of 0 will produce a horizontal blur."
- msgstr ""
-+"Är en oskärpa som rör sig i en riktning, till exempel vågrätt. I detta fall "
-+"har Längd samma betydelse som Radie i andra filter: den anger oskärpans "
-+"styrka. Större längd ger mer oskärpa. Vinkel beskriver rörelsens faktiska "
-+"vinkel. Inställningen 90 ger därför lodrät oskärpa, medan 0 ger vågrät "
-+"oskärpa."
- 
- #: src/filters/blur/mblur.xml:132(term)
- msgid "Radial"
--msgstr ""
-+msgstr "Radiell"
- 
- #: src/filters/blur/mblur.xml:134(para)
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur/median-calcul.png'; "
++"md5=f5e2b47c7758b44c5d81fe937deb25d6"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/median-blur.xml:86(None)
  msgid ""
-@@ -422,6 +467,11 @@
- "direction. The Radial motion blur is similar to the effect of a spinning "
- "object. The center of the spin in this case, is the center of the image."
+ "@@image: 'images/filters/blur/median-dialog.png'; "
+ "md5=51dcc89ab7526d9fe2722fef84c9778b"
  msgstr ""
-+"Rörelseoskärpa som skapar en cirkelformad oskärpa. Reglaget Längd är inte "
-+"viktigt för denna typ av oskärpa. Vinkel är däremot huvudinställningen som "
-+"påverkar oskärpan. Större vinkel ger mer oskärpa i cirkelformad riktning. "
-+"Radiell rörelseoskärpa liknar effekten hos ett snurrande objekt. "
-+"Rotationens centrum är i detta fall bildens centrum."
- 
- #: src/filters/blur/mblur.xml:148(term)
- msgid "Zoom"
-@@ -435,18 +485,23 @@
- "into the image. Length is the main setting here, and affects the amount of "
- "speed, as it were, toward the center of the image."
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/blur/median-dialog.png'; "
++"md5=51dcc89ab7526d9fe2722fef84c9778b"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/median-blur.xml:118(None)
+ msgid ""
+ "@@image: 'images/filters/examples/blur/median-neighbor.png'; "
+ "md5=ff44eb4042764539b24b950fe5d36ada"
  msgstr ""
-+"Skapar en oskärpa som strålar ut från bildens centrum. Bildens centrum "
-+"förblir relativt lugnt medan de yttre områdena blir oskarpa mot centrum. "
-+"Filteralternativet ger intryck av en framåtrörelse in i bilden. Längd är "
-+"huvudinställningen här och påverkar hur snabb rörelsen mot bildens centrum "
-+"upplevs."
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur/median-neighbor.png'; "
++"md5=ff44eb4042764539b24b950fe5d36ada"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/median-blur.xml:147(None)
+ #: src/filters/blur/gauss.xml:202(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-demo-gauss10.png'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur/median-vs-gaussian.png'; "
+ "md5=91faa0e407d69371db163e74769a52f5"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-demo-gauss10.png'; md5=THIS FILE "
+-"DOESN'T EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur/median-vs-gaussian.png'; "
++"md5=91faa0e407d69371db163e74769a52f5"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/median-blur.xml:168(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-demo-gauss10.png'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur/median-radius-100.png'; "
+ "md5=fc79e1dc5614ac197b642d5feba62889"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-demo-gauss10.png'; md5=THIS FILE "
+-"DOESN'T EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur/median-radius-100.png'; "
++"md5=fc79e1dc5614ac197b642d5feba62889"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/median-blur.xml:197(None)
+ msgid ""
+ "@@image: 'images/filters/examples/blur/median-percent.jpg'; "
+ "md5=78f9a017ca9d77c8e210b0e156d8a014"
+ msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur/median-percent.jpg'; "
++"md5=78f9a017ca9d77c8e210b0e156d8a014"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/median-blur.xml:234(None)
+ msgid ""
+ "@@image: 'images/filters/examples/blur/median-alpha-percent-bw.png'; "
+ "md5=9374ef330b817307a6665be93e3fd311"
+ msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur/median-alpha-percent-bw.png'; "
++"md5=9374ef330b817307a6665be93e3fd311"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/median-blur.xml:242(None)
+ msgid ""
+ "@@image: 'images/filters/examples/blur/median-alpha-percent.png'; "
+ "md5=712b1ffbc6f622629ee0f3f923201cc4"
+ msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur/median-alpha-percent.png'; "
++"md5=712b1ffbc6f622629ee0f3f923201cc4"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/median-blur.xml:289(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-demo-orig.png'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur/median-noise.png'; "
+ "md5=1a3b936bdb67171168fbda06b2a67b49"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-demo-orig.png'; md5=THIS FILE DOESN'T "
+-"EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur/median-noise.png'; "
++"md5=1a3b936bdb67171168fbda06b2a67b49"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/median-blur.xml:312(None)
+ msgid ""
+ "@@image: 'images/filters/examples/blur/median-scratch.png'; "
+ "md5=9cec4ba3ae3fce0e66de206154140137"
+ msgstr ""
++"@@image: 'images/filters/examples/blur/median-scratch.png'; "
++"md5=9cec4ba3ae3fce0e66de206154140137"
  
- #: src/filters/blur/mblur.xml:165(term)
- msgid "Blur settings"
+ #: src/filters/blur/median-blur.xml:8(title)
+ #: src/filters/blur/median-blur.xml:13(tertiary)
+ #: src/filters/blur/median-blur.xml:16(primary)
+ msgid "Median Blur"
 -msgstr ""
-+msgstr "Oskärpeinställningar"
++msgstr "Medianoskärpa"
  
- #: src/filters/blur/mblur.xml:169(term)
+ #: src/filters/blur/median-blur.xml:22(title)
+-#, fuzzy
+ msgid "Example for the <quote>Median Blur</quote> filter"
+-msgstr "Exempel för filtret <placeholder-1/>"
++msgstr "Exempel på filtret <quote>Medianoskärpa</quote>"
+ 
+ #: src/filters/blur/median-blur.xml:47(title)
+ msgid "Calculating Median"
+-msgstr ""
++msgstr "Beräkna medianen"
+ 
+ #: src/filters/blur/median-blur.xml:54(para)
+ msgid ""
+ "A 3×3 neighborhood. Values in ascending order. Median surrounded in red."
+ msgstr ""
++"En omgivning på 3 × 3 pixlar. Värdena visas i stigande ordning. Medianen är "
++"inringad med rött."
+ 
+ #: src/filters/blur/median-blur.xml:42(para)
+ msgid ""
+@@ -859,23 +948,32 @@
+ "median: <placeholder-1/> This calculation does not create a new value, and "
+ "an unrepresentative pixel in the neighborhood will not affect the result. "
+ "So, the filter preserves edges and rounds corners. It is used to reduce "
+-"noise, especially salt and pepper noise, and delete scratches on photographs."
+-msgstr ""
++"noise, especially salt and pepper noise, and delete scratches on "
++"photographs."
++msgstr ""
++"Medan filtret <quote>Gaussisk oskärpa</quote> beräknar medelvärdet av "
++"intilliggande pixlar, beräknar filtret <quote>Medianoskärpa</quote> "
++"medianen: <placeholder-1/> Beräkningen skapar inget nytt värde, och en "
++"avvikande pixel i omgivningen påverkar därför inte resultatet. Filtret "
++"bevarar alltså kanter och rundar av hörn. Det används för att minska brus, "
++"särskilt salt-och-pepparbrus, och ta bort repor i fotografier."
+ 
+ #: src/filters/blur/median-blur.xml:69(para)
+ msgid ""
+-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+-"guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Median Blur…</"
+-"guimenuitem></menuchoice>."
+-msgstr ""
++"This filter is found in the main menu under "
++"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Median"
++" Blur…</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar filtret i huvudmenyn under "
++"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Oskärpa</guisubmenu><guimenuitem>Medianoskärpa…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/blur/median-blur.xml:82(title)
+ msgid "<quote>Median</quote> filter parameters"
+-msgstr ""
++msgstr "Parametrar för filtret <quote>Median</quote>"
+ 
+ #: src/filters/blur/median-blur.xml:105(term)
+ msgid "Neighborhood"
+-msgstr ""
++msgstr "Omgivning"
+ 
+ #: src/filters/blur/median-blur.xml:107(para)
+ msgid ""
+@@ -884,18 +982,22 @@
+ "Differences are subtle and not predictable: experiment, on-canvas editing "
+ "makes this easy."
+ msgstr ""
++"Omgivningens form. Välj mellan tre alternativ: <guilabel>Fyrkant</guilabel>,"
++" <guilabel>Cirkel</guilabel> (standard) och <guilabel>Romb</guilabel>. "
++"Skillnaderna är små och svåra att förutse, så prova dig fram. Redigering "
++"direkt på arbetsytan gör det enkelt."
+ 
+ #: src/filters/blur/median-blur.xml:114(title)
+ msgid "<quote>Median</quote> Neighborhood"
+-msgstr ""
++msgstr "Pixelomgivning för <quote>Median</quote>-filtret"
+ 
+ #: src/filters/blur/median-blur.xml:121(para)
+ msgid "Radius=3. Left: Square."
+-msgstr ""
++msgstr "Radie = 3. Till vänster: fyrkant."
+ 
+ #: src/filters/blur/median-blur.xml:124(para)
+ msgid "Middle: Circle. Right: Diamond."
+-msgstr ""
++msgstr "Mitten: cirkel. Till höger: romb."
+ 
+ #: src/filters/blur/median-blur.xml:136(para)
+ msgid ""
+@@ -903,17 +1005,19 @@
+ "to the <quote>Gaussian</quote> filter, edges are not blurred. Corners are "
+ "rounded and convex surfaces are eroded."
+ msgstr ""
++"Omgivningens radie. En större radie ger mer oskärpa. Till skillnad från "
++"filtret <quote>Gaussisk oskärpa</quote> görs kanterna inte oskarpa. Hörnen "
++"rundas av och konvexa ytor eroderas."
+ 
+ #: src/filters/blur/median-blur.xml:142(title)
+ msgid "<quote>Median</quote> blur vs <quote>Gaussian</quote> blur"
+ msgstr ""
++"<quote>Medianoskärpa</quote> jämfört med <quote>Gaussisk oskärpa</quote>"
+ 
+ #: src/filters/blur/median-blur.xml:150(para)
+ #: src/filters/blur/gauss.xml:205(para)
+-#, fuzzy
+-#| msgid "Original image"
+ msgid "Left: Original image"
+-msgstr "Ursprunglig bild"
++msgstr "Till vänster: originalbilden"
+ 
+ #: src/filters/blur/median-blur.xml:153(para)
+ #: src/filters/blur/gauss.xml:208(para)
+@@ -921,6 +1025,8 @@
+ "Middle: <link linkend=\"gimp-filter-median-blur\">Median Blur</link> filter "
+ "applied"
+ msgstr ""
++"Mitten: filtret <link linkend=\"gimp-filter-median-"
++"blur\">Medianoskärpa</link> tillämpat"
+ 
+ #: src/filters/blur/median-blur.xml:156(para)
+ #: src/filters/blur/gauss.xml:211(para)
+@@ -928,23 +1034,25 @@
+ "Right: <link linkend=\"gimp-filter-gaussian-blur\">Gaussian Blur</link> "
+ "filter applied"
+ msgstr ""
++"Till höger: filtret <link linkend=\"gimp-filter-gaussian-blur\">Gaussisk "
++"oskärpa</link> tillämpat"
+ 
+ #: src/filters/blur/median-blur.xml:162(para)
+ msgid "Increasing radius too much can create unwanted effects:"
+-msgstr ""
++msgstr "En alltför stor radie kan ge oönskade effekter:"
+ 
+ #: src/filters/blur/median-blur.xml:171(para)
+ #: src/filters/blur/median-blur.xml:200(para)
+ msgid "Left: Origin"
+-msgstr ""
++msgstr "Till vänster: utgångsläget"
+ 
+ #: src/filters/blur/median-blur.xml:174(para)
+ msgid "Right: Radius=100"
+-msgstr ""
++msgstr "Till höger: radie = 100"
+ 
+ #: src/filters/blur/median-blur.xml:183(term)
+ msgid "Percentile"
+-msgstr ""
++msgstr "Percentil"
+ 
+ #: src/filters/blur/median-blur.xml:185(para)
+ msgid ""
+@@ -955,25 +1063,35 @@
+ "the color components. Lower values shift the image toward darker tones and "
+ "higher values toward brighter ones."
+ msgstr ""
++"Som standard beräknar filtret Medianoskärpa medianvärdet i varje pixels "
++"omgivning. Trots namnet kan filtret beräkna vilken percentil som helst, inte"
++" bara medianen (det vill säga den 50:e percentilen). Parametern ”Percentil” "
++"anger vilken percentil som används för färgkomponenterna. Lägre värden gör "
++"bilden mörkare och högre värden ljusare."
+ 
+ #: src/filters/blur/median-blur.xml:203(para)
+ msgid "Middle: Percentile=0. Image is darker. Stems are enlarged but sharp."
+ msgstr ""
++"Mitten: percentil = 0. Bilden är mörkare. Växtstjälkarna är större men "
++"fortfarande skarpa."
+ 
+ #: src/filters/blur/median-blur.xml:207(para)
+ msgid "Right: Percentile=100. Image is brighter and much blurred."
+-msgstr ""
++msgstr "Till höger: percentil = 100. Bilden är ljusare och mycket oskarp."
+ 
+ #: src/filters/blur/median-blur.xml:216(term)
+ msgid "Alpha percentile"
+-msgstr ""
++msgstr "Alfapercentil"
+ 
+ #: src/filters/blur/median-blur.xml:218(para)
+ msgid ""
+-"To see the effect of this parameter, you need an image with transparency. If "
+-"the alpha channel is opaque everywhere, the result will also be fully "
++"To see the effect of this parameter, you need an image with transparency. If"
++" the alpha channel is opaque everywhere, the result will also be fully "
+ "opaque, regardless of the percentile."
+ msgstr ""
++"Du behöver en genomskinlig bild för att se effekten av den här parametern. "
++"Om alfakanalen är opak överallt blir resultatet helt opakt, oavsett "
++"percentilvärdet."
+ 
+ #: src/filters/blur/median-blur.xml:223(para)
+ msgid ""
+@@ -983,27 +1101,34 @@
+ "less than 50% make the opaque regions of the image smaller, while values "
+ "greater than 50% make the opaque regions of the image larger."
+ msgstr ""
++"Lägre värden för parametern <quote>Alfapercentil</quote> gör bilden mer "
++"genomskinlig, medan högre värden gör den mer opak. Vid 50 % är balansen "
++"jämn. Grovt uttryckt gör värden under 50 % de opaka områdena mindre och "
++"värden över 50 % större."
+ 
+ #: src/filters/blur/median-blur.xml:238(title)
+ msgid "<quote>Alpha percentile</quote> option example"
+-msgstr ""
++msgstr "Exempel på alternativet <quote>Alfapercentil</quote>"
+ 
+ #: src/filters/blur/median-blur.xml:245(para)
+ msgid "Left: Origin. The image has an alpha channel. A circle is transparent."
+ msgstr ""
++"Till vänster: utgångsläget. Bilden har en alfakanal och en cirkel är "
++"genomskinlig."
+ 
+ #: src/filters/blur/median-blur.xml:249(para)
+ msgid "Middle: Percentile=0%. Transparent circle is enlarged."
+-msgstr ""
++msgstr "Mitten: percentil = 0 %. Den genomskinliga cirkeln blir större."
+ 
+ #: src/filters/blur/median-blur.xml:252(para)
+ msgid "Right: Alpha percentile=100%. Transparent circle is reduced."
+ msgstr ""
++"Till höger: alfapercentil = 100 %. Den genomskinliga cirkeln blir mindre."
+ 
+ #: src/filters/blur/median-blur.xml:261(term)
+ #: src/filters/blur/gauss.xml:142(term)
+ msgid "Abyss policy"
+-msgstr ""
++msgstr "Avgrundspolicy"
+ 
+ #: src/filters/blur/median-blur.xml:263(para)
+ #: src/filters/blur/gauss.xml:144(para)
+@@ -1011,112 +1136,127 @@
+ "Abyss policy (border management) is treated with <xref linkend=\"abyss-"
+ "policy\"/>."
+ msgstr ""
++"Avgrundspolicy (kantbehandling) beskrivs under <xref linkend=\"abyss-"
++"policy\"/>."
+ 
+ #: src/filters/blur/median-blur.xml:270(term)
+ msgid "High precision"
+-msgstr ""
++msgstr "Hög precision"
+ 
+ #: src/filters/blur/median-blur.xml:272(para)
+ msgid "This option avoids clipping and quantization but is slower."
+ msgstr ""
++"Det här alternativet undviker klippning och kvantisering, men är "
++"långsammare."
+ 
+ #: src/filters/blur/median-blur.xml:281(title)
+ msgid "Using Median Blur"
+-msgstr ""
++msgstr "Använda Medianoskärpa"
+ 
+ #: src/filters/blur/median-blur.xml:284(term)
+ msgid "Reducing salt and pepper noise"
+-msgstr ""
++msgstr "Minska salt-och-pepparbrus"
+ 
+ #: src/filters/blur/median-blur.xml:292(para)
+ #: src/filters/blur/median-blur.xml:315(para)
+ msgid "Left: origin"
+-msgstr ""
++msgstr "Till vänster: utgångsläget"
+ 
+ #: src/filters/blur/median-blur.xml:295(para)
+ msgid "Middle: radius = 1 applied twice"
+-msgstr ""
++msgstr "Mitten: radie = 1 tillämpad två gånger"
+ 
+ #: src/filters/blur/median-blur.xml:298(para)
+ msgid "Right: radius = 1 applied three times"
+-msgstr ""
++msgstr "Till höger: radie = 1 tillämpad tre gånger"
+ 
+ #: src/filters/blur/median-blur.xml:307(term)
+ msgid "Reducing scratches"
+-msgstr ""
++msgstr "Ta bort repor"
+ 
+ #: src/filters/blur/median-blur.xml:318(para)
+ msgid "Middle: radius = 2"
+-msgstr ""
++msgstr "Mitten: radie = 2"
+ 
+ #: src/filters/blur/median-blur.xml:321(para)
+ msgid "Right: radius = 1 applied twice. The image is less blurred."
+-msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++msgstr "Till höger: radie = 1 tillämpad två gånger. Bilden är mindre oskarp."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/mean-curvature-blur.xml:36(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-taj-tblur.jpg'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur-taj-curvature.jpg'; "
+ "md5=9af5d946241cb5dd6b6c39178f3eb79a"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-taj-tblur.jpg'; md5=THIS FILE DOESN'T "
+-"EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur-taj-curvature.jpg'; "
++"md5=9af5d946241cb5dd6b6c39178f3eb79a"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/mean-curvature-blur.xml:73(None)
+ msgid ""
+ "@@image: 'images/filters/blur/mean_curvature-dialog.png'; "
+ "md5=aa745b283613b087662a99e28ee345e1"
+ msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/blur/mean_curvature-dialog.png'; "
++"md5=aa745b283613b087662a99e28ee345e1"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/mean-curvature-blur.xml:108(None)
+ msgid ""
+ "@@image: 'images/filters/examples/blur/mean_curvature-ex-1.jpg'; "
+ "md5=2b8c26de40adfe06e07011ab005d787b"
+ msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur/mean_curvature-ex-1.jpg'; "
++"md5=2b8c26de40adfe06e07011ab005d787b"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/mean-curvature-blur.xml:119(None)
+ msgid ""
+ "@@image: 'images/filters/examples/blur/mean_curvature-ex-2.jpg'; "
+ "md5=1edf290abe20dea44255534483067e05"
+ msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur/mean_curvature-ex-2.jpg'; "
++"md5=1edf290abe20dea44255534483067e05"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/mean-curvature-blur.xml:135(None)
+ msgid ""
+ "@@image: 'images/filters/examples/enhance/noise-reduction-ex1.png'; "
+ "md5=67cda93dfb4a5635f2b2c1e280fe2b9e"
+ msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/enhance/noise-reduction-ex1.png'; "
++"md5=67cda93dfb4a5635f2b2c1e280fe2b9e"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/mean-curvature-blur.xml:146(None)
+ msgid ""
+ "@@image: 'images/filters/examples/blur/mean_curvature-denoise.jpg'; "
+ "md5=d634104e0b7b92eb42e00d44abeff28b"
+ msgstr ""
++"@@image: 'images/filters/examples/blur/mean_curvature-denoise.jpg'; "
++"md5=d634104e0b7b92eb42e00d44abeff28b"
+ 
+ #: src/filters/blur/mean-curvature-blur.xml:9(title)
+ #: src/filters/blur/mean-curvature-blur.xml:14(tertiary)
+ #: src/filters/blur/mean-curvature-blur.xml:17(primary)
+ msgid "Mean Curvature Blur"
+-msgstr ""
++msgstr "Oskärpa med medelkrökning"
+ 
+ #: src/filters/blur/mean-curvature-blur.xml:23(title)
+-#, fuzzy
+ msgid "Example for the <quote>Mean Curvature Blur</quote> filter"
+-msgstr "Exempel för filtret <placeholder-1/>"
++msgstr "Exempel på filtret <quote>Oskärpa med medelkrökning</quote>"
+ 
+ #: src/filters/blur/mean-curvature-blur.xml:43(para)
+ msgid ""
+@@ -1124,91 +1264,97 @@
+ "value: this filter uses the mean curvature algorithm to blur the image "
+ "preserving edges."
+ msgstr ""
++"Filtret jämnar ut geometrin med en hastighet som följer den lokala "
++"medelkrökningen: algoritmen för medelkrökning gör bilden oskarp samtidigt "
++"som kanterna bevaras."
+ 
+ #: src/filters/blur/mean-curvature-blur.xml:48(para)
+ msgid ""
+-"The Mean Curvature algorithm is described on <ulink url=\"https://"
+-"en.wikipedia.org/wiki/Mean_curvature\">Wikipedia</ulink>."
+-msgstr ""
++"The Mean Curvature algorithm is described on <ulink "
++"url=\"https://en.wikipedia.org/wiki/Mean_curvature\">Wikipedia</ulink>."
++msgstr ""
++"Algoritmen för medelkrökning beskrivs på <ulink "
++"url=\"https://en.wikipedia.org/wiki/Mean_curvature\">Wikipedia</ulink>."
+ 
+ #: src/filters/blur/mean-curvature-blur.xml:56(para)
+ msgid ""
+-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+-"guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Mean Curvature Blur…</"
+-"guimenuitem></menuchoice>."
+-msgstr ""
++"This filter is found in the main menu under "
++"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Mean"
++" Curvature Blur…</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar filtret i huvudmenyn under "
++"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Oskärpa</guisubmenu><guimenuitem>Oskärpa"
++" med medelkrökning…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/blur/mean-curvature-blur.xml:69(title)
+ msgid "<quote>Mean Curvature Blur</quote> filter parameters"
+-msgstr ""
++msgstr "Parametrar för filtret <quote>Oskärpa med medelkrökning</quote>"
+ 
+ #: src/filters/blur/mean-curvature-blur.xml:92(term)
+-#, fuzzy
+-#| msgid "Introduction"
+ msgid "Iterations"
+-msgstr "Introduktion"
++msgstr "Iterationer"
+ 
+ #: src/filters/blur/mean-curvature-blur.xml:94(para)
+ msgid "Increasing Iterations increases blur."
+-msgstr ""
++msgstr "Fler iterationer ger mer oskärpa."
+ 
+ #: src/filters/blur/mean-curvature-blur.xml:103(title)
+ msgid "Examples"
+-msgstr ""
++msgstr "Exempel"
+ 
+ #: src/filters/blur/mean-curvature-blur.xml:122(para)
+ msgid "Iterations = 4"
+-msgstr ""
++msgstr "Iterationer = 4"
+ 
+ #: src/filters/blur/mean-curvature-blur.xml:131(title)
+ msgid "Mean Curvature Blur to denoise"
+-msgstr ""
++msgstr "Oskärpa med medelkrökning för brusreducering"
+ 
+ #: src/filters/blur/mean-curvature-blur.xml:149(para)
+ msgid "Iterations = 9"
+-msgstr ""
++msgstr "Iterationer = 9"
+ 
+ #: src/filters/blur/mean-curvature-blur.xml:128(para)
+ msgid "Mean Curvature Blur can be used to denoise an image: <placeholder-1/>"
+ msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"Oskärpa med medelkrökning kan användas för att reducera brus i en bild: "
++"<placeholder-1/>"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/linear-motion.xml:35(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-taj-mblur-linear.jpg'; md5=THIS "
+-#| "FILE DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur-taj-linear.jpg'; "
+ "md5=48702b7c3c7d20d10a3d252323eec89b"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-taj-mblur-linear.jpg'; md5=THIS FILE "
+-"DOESN'T EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur-taj-linear.jpg'; "
++"md5=48702b7c3c7d20d10a3d252323eec89b"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/linear-motion.xml:68(None)
+ msgid ""
+ "@@image: 'images/filters/blur/linear-options.png'; "
+ "md5=92110ac567a4292a1e8a084da6d68104"
+ msgstr ""
++"@@image: 'images/filters/blur/linear-options.png'; "
++"md5=92110ac567a4292a1e8a084da6d68104"
+ 
+ #: src/filters/blur/linear-motion.xml:9(title)
+ #: src/filters/blur/linear-motion.xml:16(primary)
+ #: src/filters/blur/introduction.xml:155(title)
+ msgid "Linear Motion Blur"
+-msgstr ""
++msgstr "Linjär rörelseoskärpa"
+ 
+ #: src/filters/blur/linear-motion.xml:13(tertiary)
+-#, fuzzy
+-#| msgid "Linear"
+ msgid "Linear Motion"
+-msgstr "Linjär"
++msgstr "Linjär rörelse"
+ 
+ #: src/filters/blur/linear-motion.xml:22(title)
+ msgid "The Linear Motion Blur filter"
+-msgstr ""
++msgstr "Filtret Linjär rörelseoskärpa"
+ 
+ #: src/filters/blur/linear-motion.xml:42(para)
+ msgid ""
+@@ -1216,27 +1362,35 @@
+ "<quote>Angle</quote> option. The default direction is horizontal to the "
+ "right (0.000 degree)."
+ msgstr ""
++"Filtret skapar linjär oskärpa i en riktning som anges med alternativet "
++"<quote>Vinkel</quote>. Standardriktningen är horisontellt åt höger (0,000 "
++"grader)."
+ 
+ #: src/filters/blur/linear-motion.xml:51(para)
+ msgid ""
+-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+-"guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Linear Motion Blur…</"
+-"guimenuitem></menuchoice>."
+-msgstr ""
++"This filter is found in the main menu under "
++"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Linear"
++" Motion Blur…</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar filtret i huvudmenyn under "
++"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Oskärpa</guisubmenu><guimenuitem>Linjär"
++" rörelseoskärpa…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/blur/linear-motion.xml:64(title)
+ msgid "<quote>Linear Motion Blur</quote> filter options"
+-msgstr ""
++msgstr "Alternativ för filtret <quote>Linjär rörelseoskärpa</quote>"
+ 
+ #: src/filters/blur/linear-motion.xml:88(term)
  msgid "Length"
 -msgstr ""
 +msgstr "Längd"
  
- #: src/filters/blur/mblur.xml:171(para)
- msgid "This slider controls the distance pixels are moved (1 - 256)"
--msgstr ""
-+msgstr "Detta reglage styr sträckan som bildpunkterna flyttas (1–256)."
- 
- #: src/filters/blur/mblur.xml:178(term)
- msgid "Angle"
-@@ -454,11 +509,11 @@
- 
- #: src/filters/blur/mblur.xml:180(para)
- msgid "As seen above, Angle slider effect depends on Blur type (0 - 360)."
--msgstr ""
-+msgstr "Som framgår ovan beror vinkelreglagets effekt på typen av oskärpa (0–360)."
- 
- #: src/filters/blur/mblur.xml:190(term)
- msgid "Blur Center"
--msgstr ""
-+msgstr "Oskärpecentrum"
- 
- #: src/filters/blur/mblur.xml:192(para)
+ #: src/filters/blur/linear-motion.xml:90(para)
  msgid ""
-@@ -467,6 +522,10 @@
- "instance, you set rotation center. With Zoom Type, vanishing point. This "
- "option is greyed out with Linear type."
+ "In this case, <quote>Length</quote> represents the blur intensity. More "
+ "Length will result in more blurring."
  msgstr ""
-+"Med detta alternativ kan du ange rörelsens startpunkt. Effekten skiljer sig "
-+"åt beroende på vilken typ av oskärpa du valt. Med den radiella typen anger du "
-+"till exempel rotationscentrum, med zoomtypen flyktpunkten. Alternativet är "
-+"nedtonat för den linjära typen."
++"Här anger <quote>Längd</quote> oskärpans styrka. Ju större längd, desto mer "
++"oskärpa."
  
- #: src/filters/blur/mblur.xml:199(para)
+ #: src/filters/blur/linear-motion.xml:98(term)
+ #: src/filters/blur/circular-motion.xml:103(term)
+@@ -1249,96 +1403,109 @@
+ "setting of 90 will produce a vertical blur, and a setting of 0 will produce "
+ "a horizontal blur."
+ msgstr ""
++"Med <quote>Vinkel</quote> anger du rörelseriktningen. Värdet 90 ger vertikal"
++" oskärpa och värdet 0 horisontell oskärpa."
+ 
+ #: src/filters/blur/linear-motion.xml:111(para)
  msgid ""
-@@ -475,6 +534,10 @@
- "you can see its coordinates in the lower left corner of the image window. "
- "Only copy them out into the input boxes."
- msgstr ""
-+"Du måste ange oskärpecentrets koordinater. Tyvärr går det inte att göra det "
-+"genom att klicka på bilden. Men när du flyttar muspekaren över bilden kan du "
-+"se koordinaterna i bildfönstrets nedre vänstra hörn. Kopiera dem sedan till "
-+"inmatningsrutorna."
+-"This option (default) allows you to modify blur settings directly on canvas, "
+-"for easier visual tweaking of blur settings. It displays a line with handle "
+-"on both ends to vary direction and transform."
+-msgstr ""
++"This option (default) allows you to modify blur settings directly on canvas,"
++" for easier visual tweaking of blur settings. It displays a line with handle"
++" on both ends to vary direction and transform."
++msgstr ""
++"Med det här alternativet (standard) kan du ändra oskärpeinställningarna "
++"direkt på arbetsytan för att enkelt finjustera effekten visuellt. En linje "
++"med handtag i båda ändarna visas, så att du kan ändra riktning och "
++"omformning."
  
- #. When image changes, this message will be marked fuzzy or untranslated for you.
+ #: src/filters/blur/linear-motion.xml:116(para)
+ msgid "Press <keycap>Ctrl</keycap> key to change direction by 15° steps."
+ msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"Tryck på <keycap>Ctrl</keycap> för att ändra riktningen i steg om 15°."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -542,7 +605,7 @@
- 
- #: src/filters/blur/introduction.xml:18(title)
- msgid "Original for demo"
--msgstr ""
-+msgstr "Original för demonstration"
- 
- #: src/filters/blur/introduction.xml:26(para)
+ #: src/filters/blur/lens-blur.xml:33(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-taj-blur.jpg'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
  msgid ""
-@@ -554,10 +617,17 @@
- "are, of course, only examples: most of the filters have parameter settings "
- "that allow you to vary the magnitude or type of blurring."
+ "@@image: 'images/filters/examples/blur-taj-lens.jpg'; "
+ "md5=467ce588a9604dfdcaa9c57f670d7c2b"
  msgstr ""
-+"Detta är en samling filter som gör bilder, eller delar av dem, oskarpa på "
-+"olika sätt. Om det finns en markering görs bara de markerade delarna av "
-+"bilden oskarpa. Färger från det skarpa området kan dock läcka in i det "
-+"oskarpa området. För att hjälpa dig att välja illustrerar vi vad varje filter "
-+"gör när det tillämpas på bilden till höger. Detta är naturligtvis bara "
-+"exempel: de flesta filter har parameterinställningar som låter dig variera "
-+"oskärpans grad eller typ."
- 
- #: src/filters/blur/introduction.xml:38(title)
- msgid "Gaussian blur (radius 10)"
--msgstr ""
-+msgstr "Gaussisk oskärpa (radie 10)"
- 
- #: src/filters/blur/introduction.xml:46(para)
- msgid ""
-@@ -566,10 +636,14 @@
- "way.) It has an efficient implementation that allows it to create a very "
- "blurry blur in a relatively short time."
- msgstr ""
-+"Det mest användbara av dessa filter är gaussisk oskärpa. (Låt inte ordet "
-+"<quote>gaussisk</quote> avskräcka dig: filtret gör bilden oskarp på det mest "
-+"grundläggande sättet.) Det har en effektiv implementering som kan skapa "
-+"mycket kraftig oskärpa på relativt kort tid."
- 
- #: src/filters/blur/introduction.xml:55(title)
- msgid "Simple blur"
--msgstr ""
-+msgstr "Enkel oskärpa"
- 
- #: src/filters/blur/introduction.xml:63(para)
- msgid ""
-@@ -581,10 +655,18 @@
- "you want a strong blurring effect, this filter is too slow to be a good "
- "choice: use a Gaussian blur instead."
- msgstr ""
-+"Om du bara vill göra bilden lite oskarp, för att mjuka upp den, kan du "
-+"använda det enkla filtret <quote>Oskärpa</quote>. Filtret körs automatiskt "
-+"utan att någon dialogruta öppnas. Effekten är så diskret att du kanske inte "
-+"ens märker den, men du kan få en starkare effekt genom att upprepa den. I "
-+"GIMP 2.0 visar filtret en dialogruta där du kan ange ett "
-+"<quote>upprepningsantal</quote>. Om du vill ha en stark oskärpeeffekt är "
-+"filtret för långsamt för att vara ett bra val: använd gaussisk oskärpa i "
-+"stället."
- 
- #: src/filters/blur/introduction.xml:74(title)
- msgid "Selective blur"
--msgstr ""
-+msgstr "Selektiv oskärpa"
- 
- #: src/filters/blur/introduction.xml:82(para)
- msgid ""
-@@ -595,6 +677,12 @@
- "implementation is much slower than a Gaussian blur, though, so you should "
- "not use it unless you really need the selectivity."
- msgstr ""
-+"Filtret Selektiv oskärpa låter dig ange ett tröskelvärde så att endast "
-+"bildpunkter som liknar varandra görs oskarpa tillsammans. Det är ofta "
-+"användbart för att minska kornighet i foton utan att göra skarpa kanter "
-+"oskarpa. (Observera i exemplet att bakgrundens kornighet har minskat.) "
-+"Implementeringen är dock mycket långsammare än gaussisk oskärpa, så använd "
-+"den inte om du inte verkligen behöver selektiviteten."
- 
- #: src/filters/blur/introduction.xml:102(para)
- msgid ""
-@@ -604,6 +692,11 @@
- "a similar effect, but with irregular blobs instead of perfectly square "
- "pixels.)"
- msgstr ""
-+"Filtret Pixelisera skapar den välkända <quote>Abraham Lincoln-effekten</"
-+"quote> genom att omvandla bilden till stora fyrkantiga bildpunkter. (Filtret "
-+"<link linkend=\"plug-in-oilify\">Oljemåla</link> i gruppen Konstnärliga "
-+"filter har en liknande effekt, men med oregelbundna fläckar i stället för "
-+"helt fyrkantiga bildpunkter.)"
- 
- #: src/filters/blur/introduction.xml:110(para)
- msgid ""
-@@ -612,16 +705,22 @@
- "painting <quote>Gala Contemplating the Mediterranean Sea</quote> turning to "
- "an Abraham Lincoln's portrait when looking at it from a distance."
- msgstr ""
-+"En bra förklaring av Abraham Lincoln-effekten finns på <xref linkend=\""
-+"bibliography-online-bach\"/>. Där ser du Salvador Dalís målning <quote>Gala "
-+"Contemplating the Mediterranean Sea</quote> förvandlas till ett porträtt av "
-+"Abraham Lincoln när du ser den på avstånd."
- 
- #: src/filters/blur/introduction.xml:120(title)
- msgid "Motion blur"
--msgstr ""
-+msgstr "Rörelseoskärpa"
- 
- #: src/filters/blur/introduction.xml:128(para)
- msgid ""
- "The Motion Blur filter blurs in a specific direction at each point, which "
- "allows you to create a sense of motion: either linear, radial, or rotational."
- msgstr ""
-+"Filtret Rörelseoskärpa gör bilden oskarp i en viss riktning vid varje punkt, "
-+"vilket låter dig skapa en känsla av rörelse: linjär, radiell eller roterande."
- 
- #: src/filters/blur/introduction.xml:134(para)
- msgid ""
-@@ -630,12 +729,18 @@
- "edge effects when you create a pattern by tiling multiple copies of the "
- "image side by side."
- msgstr ""
-+"Slutligen är filtret Sömlös oskärpa egentligen samma sak som gaussisk "
-+"oskärpa, utom att det omsluter bildens kanter för att hjälpa dig minska "
-+"kanteffekter när du skapar ett mönster genom att lägga flera kopior av bilden "
-+"sida vid sida."
- 
- #: src/filters/blur/introduction.xml:141(para)
- msgid ""
- "Tileable Blur is actually implemented by a Script-Fu script that invokes the "
- "Gaussian blur plug-in."
- msgstr ""
-+"Sömlös oskärpa är egentligen implementerat med ett Script-Fu-skript som "
-+"anropar insticksmodulen för gaussisk oskärpa."
- 
- #. When image changes, this message will be marked fuzzy or untranslated for you.
+-"@@image: 'images/filters/examples/blur-taj-blur.jpg'; md5=THIS FILE DOESN'T "
+-"EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur-taj-lens.jpg'; "
++"md5=467ce588a9604dfdcaa9c57f670d7c2b"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -659,7 +764,7 @@
- #: src/filters/blur/gauss.xml:29(tertiary)
- #: src/filters/blur/gauss.xml:32(primary) src/filters/blur/gauss.xml:41(quote)
+ #: src/filters/blur/lens-blur.xml:66(None)
+ msgid ""
+ "@@image: 'images/filters/blur/lens-blur-dialog.png'; "
+ "md5=1742be03ff780476a10e01ef2eb8e705"
+ msgstr ""
++"@@image: 'images/filters/blur/lens-blur-dialog.png'; "
++"md5=1742be03ff780476a10e01ef2eb8e705"
+ 
+ #: src/filters/blur/lens-blur.xml:6(title)
+ #: src/filters/blur/lens-blur.xml:11(tertiary)
+ #: src/filters/blur/lens-blur.xml:14(primary)
+ msgid "Lens Blur"
+-msgstr ""
++msgstr "Linsoskärpa"
+ 
+ #: src/filters/blur/lens-blur.xml:20(title)
+ msgid "The Lens Blur filter"
+-msgstr ""
++msgstr "Filtret Linsoskärpa"
+ 
+ #: src/filters/blur/lens-blur.xml:40(para)
+ msgid "Lens blur simulates an out-of-focus camera picture."
+-msgstr ""
++msgstr "Linsoskärpa efterliknar en bild som tagits med kameran ur fokus."
+ 
+ #: src/filters/blur/lens-blur.xml:47(para)
+ msgid ""
+-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+-"guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Lens Blur…</guimenuitem></"
+-"menuchoice>."
+-msgstr ""
++"This filter is found in the main menu under "
++"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Lens"
++" Blur…</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar filtret i huvudmenyn under "
++"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Oskärpa</guisubmenu><guimenuitem>Linsoskärpa…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/blur/lens-blur.xml:60(title)
+ msgid "Lens Blur filter dialog options"
+-msgstr ""
++msgstr "Dialogalternativ för Linsoskärpa"
+ 
+ #: src/filters/blur/lens-blur.xml:86(term)
+ #: src/filters/blur/gauss_select.xml:93(term)
+ msgid "Aux"
+-msgstr ""
++msgstr "Extra indata"
+ 
+ #: src/filters/blur/lens-blur.xml:88(para)
+ msgid ""
+-"This allows you to select an additional input layer or channel, that will be "
+-"used to compute the lens blur. Clicking on the square picture allows you to "
+-"select from a list of available layers and channels. The <guilabel>Aux</"
+-"guilabel> will only be used if this setting is enabled."
+-msgstr ""
++"This allows you to select an additional input layer or channel, that will be"
++" used to compute the lens blur. Clicking on the square picture allows you to"
++" select from a list of available layers and channels. The "
++"<guilabel>Aux</guilabel> will only be used if this setting is enabled."
++msgstr ""
++"Här väljer du ett extra indatalager eller en kanal som används för att "
++"beräkna linsoskärpan. Klicka på fyrkantsbilden för att välja bland "
++"tillgängliga lager och kanaler. <guilabel>Extra indata</guilabel> används "
++"bara om det här alternativet är aktiverat."
+ 
+ #: src/filters/blur/lens-blur.xml:101(para)
+ msgid "The size of the blur radius."
+-msgstr ""
++msgstr "Storleken på oskärperadien."
+ 
+ #: src/filters/blur/lens-blur.xml:108(term)
+ #: src/filters/blur/focus-blur.xml:137(term)
+ msgid "Highlight factor"
+-msgstr ""
++msgstr "Faktor för högdagrar"
+ 
+ #: src/filters/blur/lens-blur.xml:110(para)
+ #: src/filters/blur/focus-blur.xml:139(para)
+ msgid "Relative highlight strength."
+-msgstr ""
++msgstr "Högdagrarnas relativa styrka."
+ 
+ #: src/filters/blur/lens-blur.xml:117(term)
+ #: src/filters/blur/focus-blur.xml:149(term)
+ msgid "Highlight threshold"
+-msgstr ""
++msgstr "Tröskelvärde för högdagrar"
+ 
+ #: src/filters/blur/lens-blur.xml:119(para)
+ #: src/filters/blur/focus-blur.xml:151(para)
+@@ -1347,112 +1514,95 @@
+ "set either by dragging the black and white triangles, or inputting exact "
+ "values into the number entry fields."
+ msgstr ""
++"Här anger du de lägsta och högsta värdena för högdagrarna. Dra de svarta och"
++" vita trianglarna eller skriv in exakta värden i sifferfälten."
+ 
+ #: src/filters/blur/lens-blur.xml:128(term)
+ msgid "Clip to input extents"
+-msgstr ""
++msgstr "Beskär till indatans utsträckning"
+ 
+ #: src/filters/blur/lens-blur.xml:130(para)
+ msgid "If enabled, this limits the output to the input extents."
+ msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"Om alternativet är aktiverat begränsas resultatet till indatans "
++"utsträckning."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/introduction.xml:69(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-demo-orig.png'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur-demo-orig.png'; "
+ "md5=e1ece9c9822c9504a872adbd723df8ca"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-demo-orig.png'; md5=THIS FILE DOESN'T "
+-"EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur-demo-orig.png'; "
++"md5=e1ece9c9822c9504a872adbd723df8ca"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/introduction.xml:85(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-demo-gauss10.png'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur-demo-gauss10.png'; "
+ "md5=eab465ad7182d587c9a3c80383a36407"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-demo-gauss10.png'; md5=THIS FILE "
+-"DOESN'T EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur-demo-gauss10.png'; "
++"md5=eab465ad7182d587c9a3c80383a36407"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/introduction.xml:100(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-demo-pixelize.png'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur-demo-pixelize.png'; "
+ "md5=5500784f034a6792505f8e2df2d4613e"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-demo-pixelize.png'; md5=THIS FILE "
+-"DOESN'T EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur-demo-pixelize.png'; "
++"md5=5500784f034a6792505f8e2df2d4613e"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/introduction.xml:126(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-demo-selective.png'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur-demo-selective.png'; "
+ "md5=8c79b757174b828c9232535c2849101a"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-demo-selective.png'; md5=THIS FILE "
+-"DOESN'T EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur-demo-selective.png'; "
++"md5=8c79b757174b828c9232535c2849101a"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/introduction.xml:145(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-demo-blur.png'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur-demo-circular.png'; "
+ "md5=8838c9411723cbaad7b4c0e4103fda42"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-demo-blur.png'; md5=THIS FILE DOESN'T "
+-"EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur-demo-circular.png'; "
++"md5=8838c9411723cbaad7b4c0e4103fda42"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/introduction.xml:159(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-demo-blur.png'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur-demo-linear.png'; "
+ "md5=ac87b6cd27a88e65f574ce590a1e500c"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-demo-blur.png'; md5=THIS FILE DOESN'T "
+-"EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur-demo-linear.png'; "
++"md5=ac87b6cd27a88e65f574ce590a1e500c"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/introduction.xml:172(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-demo-orig.png'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur-demo-zoom.png'; "
+ "md5=312b769d6f6db99d7962bb7871986c7a"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-demo-orig.png'; md5=THIS FILE DOESN'T "
+-"EXIST"
++"@@image: 'images/filters/examples/blur-demo-zoom.png'; "
++"md5=312b769d6f6db99d7962bb7871986c7a"
+ 
+ #: src/filters/blur/introduction.xml:8(title)
+ msgid "Introduction"
+@@ -1465,40 +1615,54 @@
+ "however, be some leakage of colors from the unblurred area into the blurred "
+ "area."
+ msgstr ""
++"Oskärpefilter gör hela bilden eller delar av den oskarp på olika sätt. Om "
++"det finns en markering görs bara de markerade delarna oskarpa. Färger kan "
++"dock läcka från det skarpa området in i det oskarpa området."
+ 
+ #: src/filters/blur/introduction.xml:22(para)
+ msgid "This category describes the following filters:"
+-msgstr ""
++msgstr "Den här kategorin beskriver följande filter:"
+ 
+ #: src/filters/blur/introduction.xml:73(para)
+ msgid ""
+ "To help you pick the one you need, we will illustrate what some of the "
+-"filters do when applied to the image shown above. These are, of course, only "
+-"examples: most of the filters have settings that allow you to vary the "
++"filters do when applied to the image shown above. These are, of course, only"
++" examples: most of the filters have settings that allow you to vary the "
+ "magnitude or type of blurring."
+ msgstr ""
++"För att hjälpa dig välja rätt filter visar vi vad några av filtren gör med "
++"bilden ovan. Exemplen visar bara ett urval: de flesta filter har "
++"inställningar där du kan ändra oskärpans styrka eller typ."
+ 
+ #: src/filters/blur/introduction.xml:81(title)
+ #: src/filters/blur/gauss.xml:9(title) src/filters/blur/gauss.xml:14(tertiary)
+ #: src/filters/blur/gauss.xml:17(primary)
  msgid "Gaussian Blur"
 -msgstr ""
 +msgstr "Gaussisk oskärpa"
  
- #: src/filters/blur/gauss.xml:61(para)
+ #: src/filters/blur/introduction.xml:89(para)
  msgid ""
-@@ -671,6 +776,13 @@
- "GIMP supports two implementations of Gaussian Blur: IIR G.B. and RLE G.B. "
- "They both produce the same results, but each one can be faster in some cases."
- msgstr ""
-+"Insticksmodulen IIR Gaussisk oskärpa verkar på varje bildpunkt i det aktiva "
-+"lagret eller markeringen och sätter dess värde till medelvärdet av alla "
-+"bildpunktsvärden inom en radie som anges i dialogrutan. Ett högre värde ger "
-+"mer oskärpa. Oskärpan kan göras starkare i en riktning än i den andra genom "
-+"att bryta kedjeknappen och ändra radien. GIMP har två implementeringar av "
-+"gaussisk oskärpa: IIR G.B. och RLE G.B. Båda ger samma resultat, men den ena "
-+"kan vara snabbare i vissa fall."
- 
- #: src/filters/blur/gauss.xml:76(para)
- msgid ""
-@@ -678,14 +790,17 @@
- "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</"
- "guisubmenu><guimenuitem>Gaussian Blur</guimenuitem></menuchoice>"
- msgstr ""
-+"Du hittar filtret i bildmenyn under <menuchoice><guimenu>Filter</guimenu>"
-+"<guisubmenu>Oskärpa</guisubmenu><guimenuitem>Gaussisk oskärpa</guimenuitem>"
-+"</menuchoice>"
- 
- #: src/filters/blur/gauss.xml:87(quote)
- msgid "Gaussian"
+ "The most commonly used blur filter is the Gaussian Blur. Don't let the word "
+-"<quote>Gaussian</quote> throw you off: this filter is the most basic kind of "
+-"blur. It allows you to create a strong blur in a relatively short time."
 -msgstr ""
-+msgstr "Gaussisk"
++"<quote>Gaussian</quote> throw you off: this filter is the most basic kind of"
++" blur. It allows you to create a strong blur in a relatively short time."
++msgstr ""
++"Det vanligaste oskärpefiltret är Gaussisk oskärpa. Låt inte ordet "
++"<quote>Gaussisk</quote> avskräcka dig: det här är den enklaste typen av "
++"oskärpa. Du kan skapa kraftig oskärpa på kort tid."
  
- #: src/filters/blur/gauss.xml:87(phrase)
- msgid "<placeholder-1/> filter parameters settings"
--msgstr ""
-+msgstr "Parameterinställningar för filtret <placeholder-1/>"
- 
- #: src/filters/blur/gauss.xml:100(para)
+ #: src/filters/blur/introduction.xml:104(para)
  msgid ""
-@@ -693,10 +808,13 @@
- "vertical blur, you can give the effect of a motion blur. You can choose the "
- "unit with the drop list."
+ "The Pixelize filter produces the well-known <quote>Abraham Lincoln</quote> "
+ "effect by turning the image into a set of large square pixels. (The <link "
+-"linkend=\"gimp-filter-oilify\">Oilify</link> filter, in the Artistic Filters "
+-"group, has a similar effect, but with irregular blobs instead of perfectly "
++"linkend=\"gimp-filter-oilify\">Oilify</link> filter, in the Artistic Filters"
++" group, has a similar effect, but with irregular blobs instead of perfectly "
+ "square pixels.)"
  msgstr ""
-+"Här kan du ange oskärpans styrka. Genom att ändra förhållandet mellan "
-+"vågrät och lodrät oskärpa kan du ge intryck av rörelseoskärpa. Du kan välja "
-+"enhet i listrutan."
++"Filtret Pixelisera skapar den välkända <quote>Abraham "
++"Lincoln</quote>-effekten genom att omvandla bilden till stora fyrkantiga "
++"pixlar. (<link linkend=\"gimp-filter-oilify\">Oljemålning</link> i gruppen "
++"Konstnärliga filter ger en liknande effekt, men med oregelbundna fläckar i "
++"stället för perfekta fyrkantiga pixlar.)"
  
- #: src/filters/blur/gauss.xml:108(term)
- msgid "Blur Method"
--msgstr ""
-+msgstr "Oskärpemetod"
- 
- #: src/filters/blur/gauss.xml:110(para)
+ #: src/filters/blur/introduction.xml:112(para)
  msgid ""
-@@ -704,6 +822,9 @@
- "quote>.This blur works best for large radius values and for images which are "
- "not computer generated."
+@@ -1507,45 +1671,60 @@
+ "painting <quote>Gala Contemplating the Mediterranean Sea</quote> turning "
+ "into Abraham Lincoln's portrait when looking at it from a distance."
  msgstr ""
-+"<guilabel>IIR</guilabel>: IIR står för <quote>Infinite Impulse Response</"
-+"quote>. Denna oskärpa fungerar bäst för stora radievärden och för bilder som "
-+"inte är datorgenererade."
++"En bra förklaring av Abraham Lincoln-effekten finns i <xref "
++"linkend=\"bibliography-online-bach\"/>. På Salvador Dalís målning "
++"<quote>Gala som betraktar Medelhavet</quote> framträder ett porträtt av "
++"Abraham Lincoln när man betraktar den på avstånd."
  
- #: src/filters/blur/gauss.xml:114(para)
- msgid ""
-@@ -711,6 +832,9 @@
- "Blur is best used on computer-generated images or those with large areas of "
- "constant intensity."
- msgstr ""
-+"<guilabel>RLE</guilabel>: RLE står för run-length encoding. RLE-gaussisk "
-+"oskärpa används bäst på datorgenererade bilder eller bilder med stora områden "
-+"med konstant intensitet."
- 
- #. When image changes, this message will be marked fuzzy or untranslated for you.
- #. It doesn't matter what you translate it to: it's not used at all.
-@@ -735,15 +859,15 @@
- #: src/filters/blur/gauss_select.xml:13(title)
- #: src/filters/blur/gauss_select.xml:20(primary)
+ #: src/filters/blur/introduction.xml:122(title)
+ #: src/filters/blur/gauss_select.xml:9(title)
+ #: src/filters/blur/gauss_select.xml:17(primary)
  msgid "Selective Gaussian Blur"
 -msgstr ""
 +msgstr "Selektiv gaussisk oskärpa"
  
- #: src/filters/blur/gauss_select.xml:17(tertiary)
+ #: src/filters/blur/introduction.xml:130(para)
+ msgid ""
+ "The Selective Gaussian Blur filter allows you to set a threshold so that "
+-"only pixels that are similar to each other are blurred together. It is often "
+-"useful as a tool for reducing graininess in photos without blurring sharp "
++"only pixels that are similar to each other are blurred together. It is often"
++" useful as a tool for reducing graininess in photos without blurring sharp "
+ "edges. (In the example, note that the graininess of the background has been "
+ "reduced.) This filter is much slower than a Gaussian Blur, though, so only "
+ "consider using it when you really need the selectivity."
+ msgstr ""
++"Med filtret Selektiv gaussisk oskärpa kan du ange en tröskel, så att bara "
++"likartade pixlar görs oskarpa tillsammans. Det är ofta användbart för att "
++"minska kornighet i foton utan att sudda ut skarpa kanter. (I exemplet har "
++"bakgrundens kornighet minskat.) Filtret är dock mycket långsammare än "
++"Gaussisk oskärpa, så använd det bara när du behöver den här selektiviteten."
+ 
+ #: src/filters/blur/introduction.xml:141(title)
+ #: src/filters/blur/circular-motion.xml:9(title)
+ #: src/filters/blur/circular-motion.xml:17(primary)
+ msgid "Circular Motion Blur"
+-msgstr ""
++msgstr "Cirkulär rörelseoskärpa"
+ 
+ #: src/filters/blur/introduction.xml:149(para)
+ msgid ""
+ "The Circular Motion Blur filter blurs in a radial direction around a center "
+ "that you can set."
+ msgstr ""
++"Filtret Cirkulär rörelseoskärpa gör bilden radiellt oskarp runt ett centrum "
++"som du själv väljer."
+ 
+ #: src/filters/blur/introduction.xml:163(para)
+ msgid ""
+ "The Linear Motion Blur filter blurs in a linear direction that you can set."
+ msgstr ""
++"Filtret Linjär rörelseoskärpa gör bilden oskarp i en riktning som du själv "
++"väljer."
+ 
+ #: src/filters/blur/introduction.xml:176(para)
+ msgid ""
+-"The Zoom Motion Blur filter blurs in a radial direction around a center that "
+-"you can set, while at the same time enlarging further away from the center."
+-msgstr ""
++"The Zoom Motion Blur filter blurs in a radial direction around a center that"
++" you can set, while at the same time enlarging further away from the center."
++msgstr ""
++"Filtret Zoomrörelseoskärpa gör bilden radiellt oskarp runt ett centrum som "
++"du själv väljer och förstorar samtidigt bilden längre bort från centrum."
+ 
+ #: src/filters/blur/introduction.xml:182(para)
+ msgid ""
+@@ -1554,36 +1733,39 @@
+ "edge effects when you create a pattern by tiling multiple copies of the "
+ "image side by side."
+ msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"Filtret Sömlös oskärpa fungerar i grunden som Gaussisk oskärpa, men "
++"fortsätter över bildens kanter. Det minskar kanteffekter när du skapar ett "
++"mönster genom att lägga flera kopior av bilden sida vid sida."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/gauss_select.xml:36(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-taj-selective.jpg'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur-taj-selective.jpg'; "
+ "md5=4523a312059a7a79b2f409a8a2fcec89"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-taj-selective.jpg'; md5=THIS FILE "
+-"DOESN'T EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur-taj-selective.jpg'; "
++"md5=4523a312059a7a79b2f409a8a2fcec89"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/gauss_select.xml:75(None)
+ msgid ""
+ "@@image: 'images/filters/blur/gaussian-selective-options.png'; "
+ "md5=e22d22d65c602f3e3d852bcdaff0a5fe"
+ msgstr ""
++"@@image: 'images/filters/blur/gaussian-selective-options.png'; "
++"md5=e22d22d65c602f3e3d852bcdaff0a5fe"
+ 
+ #: src/filters/blur/gauss_select.xml:14(tertiary)
  msgid "Selective Gaussian"
 -msgstr ""
 +msgstr "Selektiv gaussisk"
  
- #: src/filters/blur/gauss_select.xml:25(title)
+ #: src/filters/blur/gauss_select.xml:23(title)
  msgid "The Selective Gaussian Blur filter"
 -msgstr ""
 +msgstr "Filtret Selektiv gaussisk oskärpa"
  
- #: src/filters/blur/gauss_select.xml:45(para)
+ #: src/filters/blur/gauss_select.xml:43(para)
  msgid ""
-@@ -755,6 +879,13 @@
+@@ -1595,35 +1777,45 @@
  "subject will stand out better. This add a sense of depth to the image with "
  "only a single operation."
  msgstr ""
 +"Till skillnad från andra insticksmoduler för oskärpa verkar Selektiv "
 +"gaussisk oskärpa inte på alla bildpunkter: oskärpa tillämpas bara om "
 +"skillnaden mellan dess värde och omgivande bildpunkters värde är mindre än "
-+"ett angivet deltavärde. Kontraster bevaras alltså eftersom skillnaden är stor "
-+"vid kontrastgränser. Filtret används för att göra en bakgrund oskarp så att "
-+"motiv i förgrunden framträder bättre. Det ger bilden en känsla av djup med "
-+"bara en åtgärd."
++"ett angivet deltavärde. Kontraster bevaras alltså eftersom skillnaden är "
++"stor vid kontrastgränser. Filtret används för att göra en bakgrund oskarp så"
++" att motiv i förgrunden framträder bättre. Det ger bilden en känsla av djup "
++"med bara en åtgärd."
  
- #: src/filters/blur/gauss_select.xml:57(para)
+ #: src/filters/blur/gauss_select.xml:56(para)
  msgid ""
-@@ -762,18 +893,21 @@
- "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</"
- "guisubmenu><guimenuitem>Selective Gaussian Blur</guimenuitem></menuchoice>"
- msgstr ""
-+"Du hittar filtret i bildmenyn under <menuchoice><guimenu>Filter</guimenu>"
-+"<guisubmenu>Oskärpa</guisubmenu><guimenuitem>Selektiv gaussisk oskärpa</"
-+"guimenuitem></menuchoice>"
+-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+-"guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Selective Gaussian Blur…</"
+-"guimenuitem></menuchoice>."
+-msgstr ""
++"This filter is found in the main menu under "
++"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Selective"
++" Gaussian Blur…</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar filtret i huvudmenyn under "
++"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Oskärpa</guisubmenu><guimenuitem>Selektiv"
++" gaussisk oskärpa…</guimenuitem></menuchoice>."
  
  #: src/filters/blur/gauss_select.xml:69(title)
  msgid "<quote>Selective Gaussian</quote> filter parameters settings"
 -msgstr ""
 +msgstr "Parameterinställningar för filtret <quote>Selektiv gaussisk</quote>"
  
- #: src/filters/blur/gauss_select.xml:82(para)
+ #: src/filters/blur/gauss_select.xml:95(para)
+ msgid ""
+ "If there is another image on screen, you can select it as auxiliary input."
+-msgstr ""
++msgstr "Om en annan bild är öppen kan du välja den som extra indata."
+ 
+ #: src/filters/blur/gauss_select.xml:102(term)
+ #: src/filters/blur/focus-blur.xml:116(term)
+ msgid "Blur radius"
+-msgstr ""
++msgstr "Oskärperadie"
+ 
+ #: src/filters/blur/gauss_select.xml:104(para)
  msgid "Here you can set the blur intensity, in pixels."
 -msgstr ""
 +msgstr "Här kan du ange oskärpans styrka i bildpunkter."
  
- #: src/filters/blur/gauss_select.xml:88(term)
- msgid "Max. Delta"
+ #: src/filters/blur/gauss_select.xml:110(term)
+ msgid "Max. delta"
 -msgstr ""
-+msgstr "Max. delta"
++msgstr "Maximal delta"
  
- #: src/filters/blur/gauss_select.xml:90(para)
+ #: src/filters/blur/gauss_select.xml:112(para)
  msgid ""
-@@ -781,6 +915,9 @@
- "the surrounding pixel values. Above this Delta, blur will not be applied to "
- "that pixel."
+@@ -1631,195 +1823,225 @@
+ "blurred and its surrounding pixels. When the value is above this delta, the "
+ "blur will not be applied to that pixel."
  msgstr ""
-+"Här kan du ange den största skillnaden (0–255) mellan bildpunktens värde och "
-+"omgivande bildpunkters värden. Över detta delta tillämpas ingen oskärpa på "
-+"bildpunkten."
- 
- #. When image changes, this message will be marked fuzzy or untranslated for you.
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"Maximal delta anger den största skillnaden (0,0–1,0) mellan pixeln som ska "
++"göras oskarp och de omgivande pixlarna. Om skillnaden överskrider delta "
++"tillämpas inte oskärpan på pixeln."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
  #. It doesn't matter what you translate it to: it's not used at all.
-@@ -794,7 +931,7 @@
+ #: src/filters/blur/gauss.xml:36(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-taj-gauss.jpg'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur-taj-gauss.jpg'; "
+ "md5=2dcbafec4e011abd8d1d5c4c6066ffcd"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-taj-gauss.jpg'; md5=THIS FILE DOESN'T "
+-"EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur-taj-gauss.jpg'; "
++"md5=2dcbafec4e011abd8d1d5c4c6066ffcd"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/gauss.xml:75(None)
+ msgid ""
+ "@@image: 'images/filters/blur/gauss-options.png'; "
+ "md5=2eadbb1606d5f561bba60029fdbf57a1"
+ msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/blur/gauss-options.png'; "
++"md5=2eadbb1606d5f561bba60029fdbf57a1"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/gauss.xml:163(None)
+ msgid ""
+ "@@image: 'images/filters/blur/clip-orig.png'; "
+ "md5=47165984fcc205290ef2986fc207ae8a"
+ msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/blur/clip-orig.png'; "
++"md5=47165984fcc205290ef2986fc207ae8a"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/gauss.xml:174(None)
+ msgid ""
+ "@@image: 'images/filters/blur/clip-0.png'; "
+ "md5=791b84325a5e2832deb23633d9f36f15"
+ msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/blur/clip-0.png'; "
++"md5=791b84325a5e2832deb23633d9f36f15"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/gauss.xml:185(None)
+ msgid ""
+ "@@image: 'images/filters/blur/clip-1.png'; "
+ "md5=b6301b561b57cbf3a134739711567fa9"
+ msgstr ""
++"@@image: 'images/filters/blur/clip-1.png'; "
++"md5=b6301b561b57cbf3a134739711567fa9"
  
- #: src/filters/blur/blur.xml:39(phrase)
- msgid "The Blur filter applied to a photograph"
+ #: src/filters/blur/gauss.xml:23(title)
+-#, fuzzy
+ msgid "Example for the <quote>Gaussian Blur</quote> filter"
+-msgstr "Exempel för filtret <placeholder-1/>"
++msgstr "Exempel på filtret <quote>Gaussisk oskärpa</quote>"
+ 
+ #: src/filters/blur/gauss.xml:43(para)
+ msgid ""
+ "The Gaussian Blur filter acts on each pixel of the active layer or "
+-"selection, setting its Value to the average of all pixel Values present in a "
+-"radius defined in the dialog. A higher Value will produce a higher amount of "
+-"blur. The blur can be set to act in one direction more than the other by "
++"selection, setting its Value to the average of all pixel Values present in a"
++" radius defined in the dialog. A higher Value will produce a higher amount "
++"of blur. The blur can be set to act in one direction more than the other by "
+ "clicking the Chain Button so that it is broken, and altering the radius. "
+ "GIMP supports two implementations of Gaussian Blur: FIR and IIR. They both "
+-"produce the same results, but each one can be faster in some cases. They are "
+-"complemented by the default Auto setting, that automatically picks the "
++"produce the same results, but each one can be faster in some cases. They are"
++" complemented by the default Auto setting, that automatically picks the "
+ "optimal choice."
+ msgstr ""
++"Filtret Gaussisk oskärpa bearbetar varje pixel i det aktiva lagret eller "
++"markeringen och sätter dess värde till medelvärdet av alla pixlars värden "
++"inom den radie som anges i dialogrutan. Ett högre värde ger mer oskärpa. Du "
++"kan göra oskärpan starkare i den ena riktningen genom att klicka på "
++"kedjeknappen så att länken bryts och sedan ändra radien. GIMP stöder två "
++"implementationer av Gaussisk oskärpa: FIR och IIR. Båda ger samma resultat, "
++"men den ena kan vara snabbare än den andra i vissa fall. Med "
++"standardinställningen Automatisk väljs det bästa alternativet."
+ 
+ #: src/filters/blur/gauss.xml:58(para)
+ msgid ""
+-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+-"guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Gaussian Blur…</"
+-"guimenuitem></menuchoice>."
 -msgstr ""
-+msgstr "Filtret Oskärpa tillämpat på ett fotografi"
++"This filter is found in the main menu under "
++"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Gaussian"
++" Blur…</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar filtret i huvudmenyn under "
++"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Oskärpa</guisubmenu><guimenuitem>Gaussisk"
++" oskärpa…</guimenuitem></menuchoice>."
  
- #: src/filters/blur/blur.xml:60(para)
- msgid ""
-@@ -803,16 +940,22 @@
- "the present pixel value and the value of adjacent pixels and sets the "
- "present pixel to that average value."
- msgstr ""
-+"Det enkla filtret Oskärpa ger en effekt som liknar ett foto taget med en "
-+"ur fokus-kamera. För att skapa oskärpan beräknar filtret medelvärdet av den "
-+"aktuella bildpunktens värde och intilliggande bildpunkters värden och sätter "
-+"den aktuella bildpunkten till detta medelvärde."
- 
- #: src/filters/blur/blur.xml:66(para)
- msgid "Filter advantage is its calculation speed. It suits big images."
+ #: src/filters/blur/gauss.xml:71(title)
+ msgid "<quote>Gaussian</quote> filter parameters settings"
 -msgstr ""
-+msgstr "Filtrets fördel är dess beräkningshastighet. Det passar stora bilder."
++msgstr "Parametrar för filtret <quote>Gaussisk oskärpa</quote>"
  
- #: src/filters/blur/blur.xml:69(para)
+ #: src/filters/blur/gauss.xml:94(term)
+ msgid "Size X"
+-msgstr ""
++msgstr "Storlek X"
+ 
+ #: src/filters/blur/gauss.xml:95(term)
+ msgid "Size Y"
+-msgstr ""
++msgstr "Storlek Y"
+ 
+ #: src/filters/blur/gauss.xml:97(para)
  msgid ""
- "Filter disadvantage is that its action is hardly perceptible on big images, "
- "but very strong on small images."
+ "Here you can set the blur intensity. By altering the ratio of horizontal to "
+ "vertical blur, you can give the effect of a motion blur."
  msgstr ""
-+"Filtrets nackdel är att dess verkan knappt märks på stora bilder, men är "
-+"mycket stark på små bilder."
++"Här anger du oskärpans styrka. Genom att ändra förhållandet mellan "
++"horisontell och vertikal oskärpa kan du skapa en rörelseoskärpeeffekt."
  
- #: src/filters/blur/blur.xml:78(para)
+ #: src/filters/blur/gauss.xml:106(term)
+-#, fuzzy
+-#| msgid "Filters"
+ msgid "Filter"
+ msgstr "Filter"
+ 
+ #: src/filters/blur/gauss.xml:108(para)
+ msgid "Here you can select the filter type."
+-msgstr ""
++msgstr "Här väljer du filtertyp."
+ 
+ #: src/filters/blur/gauss.xml:114(term)
+ msgid "Auto"
+-msgstr ""
++msgstr "Automatisk"
+ 
+ #: src/filters/blur/gauss.xml:116(para)
  msgid ""
-@@ -820,6 +963,8 @@
- "guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Blur</guimenuitem></"
- "menuchoice>"
+ "Try to select the best filter automatically. In most cases this default is "
+ "best left alone."
  msgstr ""
-+"Du hittar filtret under: <menuchoice><guimenu>Filter</guimenu><guisubmenu>"
-+"Oskärpa</guisubmenu><guimenuitem>Oskärpa</guimenuitem></menuchoice>"
++"Försöker välja det bästa filtret automatiskt. I de flesta fall bör du "
++"behålla den här standardinställningen."
  
- #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
- #: src/filters/blur/blur.xml:0(None)
+ #: src/filters/blur/gauss.xml:123(term)
+ msgid "FIR"
+-msgstr ""
++msgstr "FIR"
+ 
+ #: src/filters/blur/gauss.xml:125(para)
+ msgid "Stands for <quote>Finite Impulse Response</quote>."
+ msgstr ""
++"Förkortning för <quote>Finite Impulse Response</quote> (ändligt impulssvar)."
+ 
+ #: src/filters/blur/gauss.xml:130(term)
+ msgid "IIR"
+-msgstr ""
++msgstr "IIR"
+ 
+ #: src/filters/blur/gauss.xml:132(para)
+ msgid "Stands for <quote>Infinite Impulse Response</quote>."
+ msgstr ""
++"Förkortning för <quote>Infinite Impulse Response</quote> (oändligt "
++"impulssvar)."
+ 
+ #: src/filters/blur/gauss.xml:152(term)
+ msgid "Clip to the input extent"
+-msgstr ""
++msgstr "Beskär till indatans utsträckning"
+ 
+ #: src/filters/blur/gauss.xml:154(para)
+ msgid ""
+-"Should the output extent be clipped to the input extent: this option removes "
+-"unwanted pixels created on borders by blurring."
+-msgstr ""
++"Should the output extent be clipped to the input extent: this option removes"
++" unwanted pixels created on borders by blurring."
++msgstr ""
++"Välj om resultatet ska beskäras till indatans utsträckning: det tar bort "
++"oönskade pixlar som oskärpan skapar vid kanterna."
+ 
+ #: src/filters/blur/gauss.xml:159(title)
+ msgid "Example"
+-msgstr ""
++msgstr "Exempel"
+ 
+ #: src/filters/blur/gauss.xml:166(para)
+ msgid "Right-up corner of the image, zoom x800"
+-msgstr ""
++msgstr "Övre högra hörnet av bilden, förstorat 800×"
+ 
+ #: src/filters/blur/gauss.xml:177(para)
+ msgid "<quote>Clip to the input extent</quote> unchecked"
+-msgstr ""
++msgstr "<quote>Beskär till indatans utsträckning</quote> avmarkerat"
+ 
+ #: src/filters/blur/gauss.xml:188(para)
+ msgid "<quote>Clip to the input extent</quote> checked"
+-msgstr ""
++msgstr "<quote>Beskär till indatans utsträckning</quote> markerat"
+ 
+ #: src/filters/blur/gauss.xml:197(para)
+ msgid ""
+-"The Gaussian Blur filter doesn't preserve edges in the image: <placeholder-1/"
+-">"
+-msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"The Gaussian Blur filter doesn't preserve edges in the image: "
++"<placeholder-1/>"
++msgstr ""
++"Filtret Gaussisk oskärpa bevarar inte bildens kanter: <placeholder-1/>"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/focus-blur.xml:33(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-taj-gauss.jpg'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur-taj-focus.jpg'; "
+ "md5=f9ec78a32fd6d7e79a36e92d6a8dc958"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-taj-gauss.jpg'; md5=THIS FILE DOESN'T "
+-"EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur-taj-focus.jpg'; "
++"md5=f9ec78a32fd6d7e79a36e92d6a8dc958"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/focus-blur.xml:70(None)
+ msgid ""
+ "@@image: 'images/filters/blur/focus-blur-dialog.png'; "
+ "md5=f9e93deb8abd1b7bfc2c799eb6db8917"
+ msgstr ""
++"@@image: 'images/filters/blur/focus-blur-dialog.png'; "
++"md5=f9e93deb8abd1b7bfc2c799eb6db8917"
+ 
+ #: src/filters/blur/focus-blur.xml:6(title)
+ #: src/filters/blur/focus-blur.xml:11(tertiary)
+ #: src/filters/blur/focus-blur.xml:14(primary)
+ msgid "Focus Blur"
+-msgstr ""
++msgstr "Fokusoskärpa"
+ 
+ #: src/filters/blur/focus-blur.xml:20(title)
+ msgid "The Focus Blur filter"
+-msgstr ""
++msgstr "Filtret Fokusoskärpa"
+ 
+ #: src/filters/blur/focus-blur.xml:40(para)
+ msgid ""
+@@ -1828,25 +2050,34 @@
+ "this focal point by dragging the center point. All other points and lines "
+ "can also be dragged to adjust the shape and focus area of the image."
+ msgstr ""
++"Fokusoskärpa gör bilden oskarp i alla riktningar runt en fokuspunkt. Som "
++"standard ligger fokuspunkten i mitten av lagret eller markeringen. Dra "
++"mittpunkten för att flytta den. Du kan också dra de andra punkterna och "
++"linjerna för att justera bildens form och fokusområde."
+ 
+ #: src/filters/blur/focus-blur.xml:51(para)
+ msgid ""
+-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+-"guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Focus Blur…</guimenuitem></"
+-"menuchoice>."
+-msgstr ""
++"This filter is found in the main menu under "
++"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Focus"
++" Blur…</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar filtret i huvudmenyn under "
++"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Oskärpa</guisubmenu><guimenuitem>Fokusoskärpa…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/blur/focus-blur.xml:64(title)
+ msgid "Focus Blur filter dialog options with Geometry Options expanded"
+-msgstr ""
++msgstr "Dialogalternativ för Fokusoskärpa med Geometrialternativ utfällda"
+ 
+ #: src/filters/blur/focus-blur.xml:92(para)
+ msgid ""
+-"Here, you can select the shape used for creating the focus blur. The choices "
+-"are <guilabel>Circle</guilabel>, <guilabel>Square</guilabel>, "
++"Here, you can select the shape used for creating the focus blur. The choices"
++" are <guilabel>Circle</guilabel>, <guilabel>Square</guilabel>, "
+ "<guilabel>Diamond</guilabel>, <guilabel>Horizontal</guilabel> and "
+ "<guilabel>Vertical</guilabel>."
+ msgstr ""
++"Här väljer du formen på fokusoskärpan: <guilabel>Cirkel</guilabel>, "
++"<guilabel>Fyrkant</guilabel>, <guilabel>Romb</guilabel>, "
++"<guilabel>Horisontell</guilabel> eller <guilabel>Vertikal</guilabel>."
+ 
+ #: src/filters/blur/focus-blur.xml:106(para)
+ msgid ""
+@@ -1855,58 +2086,65 @@
+ "blur\">Lens Blur</link>. It will use the filters of the same name to do the "
+ "actual blurring."
+ msgstr ""
++"Typ av oskärpa. Välj <link linkend=\"gimp-filter-gaussian-blur\">Gaussisk "
++"oskärpa</link> eller <link linkend=\"gimp-filter-lens-"
++"blur\">Linsoskärpa</link>. Filtret med motsvarande namn används för själva "
++"oskärpan."
+ 
+ #: src/filters/blur/focus-blur.xml:118(para)
+ msgid "The size of the out-of-blur radius."
+-msgstr ""
++msgstr "Storleken på den yttre oskärperadien."
+ 
+ #: src/filters/blur/focus-blur.xml:127(para)
+ msgid "Generate more accurate and consistent output. This is slower."
+-msgstr ""
++msgstr "Ger ett noggrannare och jämnare resultat, men tar längre tid."
+ 
+ #: src/filters/blur/focus-blur.xml:130(para)
+ msgid "Only available when <guilabel>Blur Type</guilabel> is Gaussian Blur."
+ msgstr ""
++"Bara tillgängligt när <guilabel>Oskärpetyp</guilabel> är Gaussisk oskärpa."
+ 
+ #: src/filters/blur/focus-blur.xml:142(para)
+ #: src/filters/blur/focus-blur.xml:156(para)
+ msgid "Only available when <guilabel>Blur Type</guilabel> is Lens Blur."
+-msgstr ""
++msgstr "Bara tillgängligt när <guilabel>Oskärpetyp</guilabel> är Linsoskärpa."
+ 
+ #: src/filters/blur/focus-blur.xml:163(term)
+-#, fuzzy
+-#| msgid "Options"
+ msgid "Geometry Options"
+-msgstr "Alternativ"
++msgstr "Geometrialternativ"
+ 
+ #: src/filters/blur/focus-blur.xml:165(para)
+ msgid ""
+ "These geometry related options can all be changed by using the visual on-"
+-"canvas controls. In case you need more fine-grained control, they can be set "
+-"manually here."
+-msgstr ""
++"canvas controls. In case you need more fine-grained control, they can be set"
++" manually here."
++msgstr ""
++"Alla de här geometrialternativen kan ändras med de visuella kontrollerna på "
++"arbetsytan. Om du behöver finare kontroll kan du ställa in dem manuellt här."
+ 
+ #: src/filters/blur/focus-blur.xml:175(para)
+ msgid "Specifies the center X and Y position of the focus blur."
+-msgstr ""
++msgstr "Anger fokusoskärpans X- och Y-centrum."
+ 
+ #: src/filters/blur/focus-blur.xml:183(para)
+ msgid ""
+ "The radius of the outer focus region. Visible as the outer continuous line."
+ msgstr ""
++"Den yttre fokusregionens radie. Den visas som den yttre heldragna linjen."
+ 
+ #: src/filters/blur/focus-blur.xml:190(term)
+ msgid "Sharpness"
+-msgstr ""
++msgstr "Skärpa"
+ 
+ #: src/filters/blur/focus-blur.xml:192(para)
+ msgid ""
+ "The radius of the inner focus region. Visible as the inner continuous line."
+ msgstr ""
++"Den inre fokusregionens radie. Den visas som den inre heldragna linjen."
+ 
+ #: src/filters/blur/focus-blur.xml:199(term)
+ msgid "Midpoint"
+-msgstr ""
++msgstr "Mittpunkt"
+ 
+ #: src/filters/blur/focus-blur.xml:201(para)
+ msgid ""
+@@ -1914,82 +2152,100 @@
+ "inner (sharpness) line to the midpoint, is where the focus area turns into "
+ "the blurred area."
+ msgstr ""
++"Fokusövergångens mittpunkt, som visas med en streckad linje. Mellan den inre"
++" linjen (skärpan) och mittpunkten övergår fokusområdet till det oskarpa "
++"området."
+ 
+ #: src/filters/blur/focus-blur.xml:209(term)
+ msgid "Aspect ratio"
+-msgstr ""
++msgstr "Bildförhållande"
+ 
+ #: src/filters/blur/focus-blur.xml:211(para)
+ msgid "This controls the aspect ratio."
+-msgstr ""
++msgstr "Anger bildförhållandet."
+ 
+ #: src/filters/blur/focus-blur.xml:217(term)
+ msgid "Rotation"
+-msgstr ""
++msgstr "Rotation"
+ 
+ #: src/filters/blur/focus-blur.xml:219(para)
+ msgid ""
+ "This controls the rotation in degrees. You can either use the circular "
+ "control or enter numbers."
+ msgstr ""
++"Anger rotationen i grader. Du kan använda cirkelreglaget eller skriva in ett"
++" värde."
+ 
+ #: src/filters/blur/focus-blur.xml:232(para)
+ msgid ""
+-"This option (default) allows you to modify blur settings directly on canvas, "
+-"for easier visual tweaking of blur settings. It displays lines in the "
++"This option (default) allows you to modify blur settings directly on canvas,"
++" for easier visual tweaking of blur settings. It displays lines in the "
+ "selected shape with points on it. Both the lines and the points can be "
+-"dragged with a mouse to change the focus center, the blurring area and other "
+-"settings that are also available in the <guilabel>Geometry Options</"
+-"guilabel>."
+-msgstr ""
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"dragged with a mouse to change the focus center, the blurring area and other"
++" settings that are also available in the <guilabel>Geometry "
++"Options</guilabel>."
++msgstr ""
++"Med det här alternativet (standard) kan du ändra oskärpeinställningarna "
++"direkt på arbetsytan och enkelt finjustera dem visuellt. Linjer i den valda "
++"formen visas med punkter. Dra linjerna eller punkterna med musen för att "
++"ändra fokuscentrum, oskärpeområde och andra inställningar som även finns "
++"under <guilabel>Geometrialternativ</guilabel>."
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/circular-motion.xml:36(None)
+-#, fuzzy
+-#| msgid ""
+-#| "@@image: 'images/filters/examples/blur-taj-blur.jpg'; md5=THIS FILE "
+-#| "DOESN'T EXIST"
+ msgid ""
+ "@@image: 'images/filters/examples/blur-taj-circular.jpg'; "
+ "md5=221b5cce7d3f3b9f5ecb9b36750242f5"
+ msgstr ""
+-"@@image: 'images/filters/examples/blur-taj-blur.jpg'; md5=THIS FILE DOESN'T "
+-"EXIST"
+-
+-#. When image changes, this message will be marked fuzzy or untranslated for you.
++"@@image: 'images/filters/examples/blur-taj-circular.jpg'; "
++"md5=221b5cce7d3f3b9f5ecb9b36750242f5"
++
++#. When image changes, this message will be marked fuzzy or untranslated for
++#. you.
+ #. It doesn't matter what you translate it to: it's not used at all.
+ #: src/filters/blur/circular-motion.xml:70(None)
+ msgid ""
+ "@@image: 'images/filters/blur/circular-options.png'; "
+ "md5=ae1893c3714f55bbeaaa65a251178080"
+ msgstr ""
++"@@image: 'images/filters/blur/circular-options.png'; "
++"md5=ae1893c3714f55bbeaaa65a251178080"
+ 
+ #: src/filters/blur/circular-motion.xml:14(tertiary)
+ msgid "Circular Motion"
+-msgstr ""
++msgstr "Cirkulär rörelse"
+ 
+ #: src/filters/blur/circular-motion.xml:23(title)
+ msgid "The Circular Motion Blur filter"
+-msgstr ""
++msgstr "Filtret Cirkulär rörelseoskärpa"
+ 
+ #: src/filters/blur/circular-motion.xml:43(para)
+ msgid ""
+ "This filters creates a circular blur around a center. The default center is "
+ "the center of the layer or selection. You can set center somewhere in the "
+-"layer and this center is applied to the layer or to a selection if it exists."
+-msgstr ""
++"layer and this center is applied to the layer or to a selection if it "
++"exists."
++msgstr ""
++"Det här filtret skapar cirkulär oskärpa runt ett centrum. Som standard "
++"ligger centrum i mitten av lagret eller markeringen. Du kan placera det var "
++"som helst på lagret; det tillämpas på lagret eller, om det finns en, på "
++"markeringen."
+ 
+ #: src/filters/blur/circular-motion.xml:53(para)
+ msgid ""
+-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+-"guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Circular Motion Blur…</"
+-"guimenuitem></menuchoice>."
+-msgstr ""
++"This filter is found in the main menu under "
++"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Circular"
++" Motion Blur…</guimenuitem></menuchoice>."
++msgstr ""
++"Du hittar filtret i huvudmenyn under "
++"<menuchoice><guimenu>Filter</guimenu><guisubmenu>Oskärpa</guisubmenu><guimenuitem>Cirkulär"
++" rörelseoskärpa…</guimenuitem></menuchoice>."
+ 
+ #: src/filters/blur/circular-motion.xml:66(title)
+ msgid "<quote>Circular Motion Blur</quote> filter options"
+-msgstr ""
++msgstr "Alternativ för filtret <quote>Cirkulär rörelseoskärpa</quote>"
+ 
+ #: src/filters/blur/circular-motion.xml:93(para)
+ msgid ""
+@@ -1998,97 +2254,34 @@
+ "click on the rectangle button with an arrow on the right and then click on "
+ "the image to pick coordinates."
+ msgstr ""
++"Här ställer du in rotationscentrum. Skjutreglagen och rotationsknapparna "
++"styr dess position på den horisontella och vertikala axeln. Du kan också "
++"klicka på rektangelknappen med en pil till höger och sedan klicka i bilden "
++"för att välja koordinater."
+ 
+ #: src/filters/blur/circular-motion.xml:105(para)
+ msgid "More Angle will result in more blurring in a circular direction."
+-msgstr ""
++msgstr "En större vinkel ger mer cirkulär oskärpa."
+ 
+ #: src/filters/blur/circular-motion.xml:114(para)
+ msgid ""
+-"This option (default) allows you to modify blur settings directly on canvas, "
+-"for easier visual tweaking of blur settings. It displays a line with handle "
+-"on both ends to move rotation center and transform."
+-msgstr ""
++"This option (default) allows you to modify blur settings directly on canvas,"
++" for easier visual tweaking of blur settings. It displays a line with handle"
++" on both ends to move rotation center and transform."
++msgstr ""
++"Med det här alternativet (standard) kan du ändra oskärpeinställningarna "
++"direkt på arbetsytan och enkelt finjustera dem visuellt. En linje med "
++"handtag i båda ändarna visas, så att du kan flytta rotationscentrum och "
++"omforma effekten."
+ 
+ #: src/filters/blur/circular-motion.xml:120(para)
+ msgid ""
+ "Press <keycap>Alt</keycap> key to only move rotation center without "
+ "transforming."
+ msgstr ""
++"Tryck på <keycap>Alt</keycap> för att bara flytta rotationscentrum utan att "
++"omforma effekten."
+ 
+ #: src/filters/blur/circular-motion.xml:124(para)
+ msgid "Press <keycap>Ctrl</keycap> key to rotate by 15° steps."
+-msgstr ""
+-
+-#~ msgid ""
+-#~ "@@image: 'images/filters/filters-blur-tileable.png'; md5=THIS FILE "
+-#~ "DOESN'T EXIST"
+-#~ msgstr ""
+-#~ "@@image: 'images/filters/filters-blur-tileable.png'; md5=THIS FILE "
+-#~ "DOESN'T EXIST"
+-
+-#~ msgid ""
+-#~ "@@image: 'images/filters/filters-blur-pixelize.png'; md5=THIS FILE "
+-#~ "DOESN'T EXIST"
+-#~ msgstr ""
+-#~ "@@image: 'images/filters/filters-blur-pixelize.png'; md5=THIS FILE "
+-#~ "DOESN'T EXIST"
+-
+-#~ msgid "Example for the <placeholder-1/> filter"
+-#~ msgstr "Exempel för filtret <placeholder-1/>"
+-
+-#~ msgid ""
+-#~ "@@image: 'images/filters/options-blur-mblur.png'; md5=THIS FILE DOESN'T "
+-#~ "EXIST"
+-#~ msgstr ""
+-#~ "@@image: 'images/filters/options-blur-mblur.png'; md5=THIS FILE DOESN'T "
+-#~ "EXIST"
+-
+-#~ msgid "Zoom"
+-#~ msgstr "Zooma"
+-
+-#~ msgid ""
+-#~ "@@image: 'images/filters/examples/blur-demo-mblur.png'; md5=THIS FILE "
+-#~ "DOESN'T EXIST"
+-#~ msgstr ""
+-#~ "@@image: 'images/filters/examples/blur-demo-mblur.png'; md5=THIS FILE "
+-#~ "DOESN'T EXIST"
+-
+-#~ msgid ""
+-#~ "@@image: 'images/filters/options-blur-gauss.png'; md5=THIS FILE DOESN'T "
+-#~ "EXIST"
+-#~ msgstr ""
+-#~ "@@image: 'images/filters/options-blur-gauss.png'; md5=THIS FILE DOESN'T "
+-#~ "EXIST"
+-
+-#~ msgid ""
+-#~ "@@image: 'images/filters/filters-blur-gaussselect.png'; md5=THIS FILE "
+-#~ "DOESN'T EXIST"
+-#~ msgstr ""
+-#~ "@@image: 'images/filters/filters-blur-gaussselect.png'; md5=THIS FILE "
+-#~ "DOESN'T EXIST"
+-
+-#~ msgid "translator-credits"
+-#~ msgstr "Daniel Nylander <po@danielnylander.se>, 2009"
+-
+-#, fuzzy
+-#~ msgid "$Revision: 2687 $"
+-#~ msgstr ""
+-#~ "#-#-#-#-#  blur.po (PACKAGE VERSION)  #-#-#-#-#\n"
+-#~ "$Revision: 2644 $\n"
+-#~ "#-#-#-#-#  gauss.po (PACKAGE VERSION)  #-#-#-#-#\n"
+-#~ "$Revision: 2635 $\n"
+-#~ "#-#-#-#-#  gauss_select.po (PACKAGE VERSION)  #-#-#-#-#\n"
+-#~ "$Revision: 2635 $\n"
+-#~ "#-#-#-#-#  mblur.po (PACKAGE VERSION)  #-#-#-#-#\n"
+-#~ "$Revision: 2635 $\n"
+-#~ "#-#-#-#-#  pixelise.po (PACKAGE VERSION)  #-#-#-#-#\n"
+-#~ "$Revision: 2635 $\n"
+-#~ "#-#-#-#-#  tileable.po (PACKAGE VERSION)  #-#-#-#-#\n"
+-#~ "$Revision: 2635 $"
+-
+-#~ msgid "2006-10-23"
+-#~ msgstr "2006-10-23"
+-
+-#~ msgid "j.h"
+-#~ msgstr "j.h"
++msgstr "Tryck på <keycap>Ctrl</keycap> för att rotera i steg om 15°."
