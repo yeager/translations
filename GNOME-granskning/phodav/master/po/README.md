@@ -6,5 +6,5 @@
 - 9 tidigare tomma strängar översattes och 16 befintliga översättningar rättades; samtliga 5 fuzzy-markeringar granskades och togs bort.
 - Svenska metavariabler användes för översättningsbara värden: `SIZE` → `STORLEK`, `CERT` → `CERTIFIKAT`, `KEY` → `PRIVATNYCKEL`. Kommandoflaggor, printf-platshållarna `%s` och deras radbrytningar bevarades.
 - Validering: `msgfmt --check --check-format --statistics` godkänd (32 översatta); `msgcmp --use-fuzzy` godkänd. Egen printf-kontroll: inga platshållarskillnader. `l10n-lint`: 0 fel och 0 varningar; 2 informationsnotiser (argumentgräns/längd) bedömda som rimliga. `hunspell-sv` kördes; tekniska undantag finns i `hunspell-undantag.md`.
-- Ingen GNOME-inskickning har gjorts.
+- Uppladdad till Damned Lies 2026-11-27 kl. 00:02 UTC med kommentaren ”Granskad och klar”. Aktivitetssidan visar uppladdningshändelsen; statistikpanelen visar ännu 18/5/9 och inväntar sammanslagning.
 - Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-26.
