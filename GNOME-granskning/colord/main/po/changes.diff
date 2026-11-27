@@ -1,0 +1,866 @@
+--- original.sv.po
++++ reviewed.sv.po
+@@ -16,10 +16,9 @@
+ "Report-Msgid-Bugs-To: https://bugs.freedesktop.org/buglist.cgi?"
+ "product=colord&resolution=---\n"
+ "POT-Creation-Date: 2026-11-03 16:18+0000\n"
+-"PO-Revision-Date: 2024-01-22 12:38+0000\n"
+-"Last-Translator: Richard Hughes <richard@hughsie.com>, 2024\n"
+-"Language-Team: Swedish (https://app.transifex.com/freedesktop/teams/12151/"
+-"sv/)\n"
++"PO-Revision-Date: 2026-11-27 14:00+0000\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
++"Language-Team: Swedish\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -34,7 +33,7 @@
+ #. TRANSLATORS: program name
+ #: client/cd-create-profile.c:867
+ msgid "ICC profile creation program"
+-msgstr "ICC-profilsskapare"
++msgstr "Program för att skapa ICC-profiler"
+ 
+ #. TRANSLATORS: the user didn't read the man page
+ #: client/cd-create-profile.c:872 client/cd-fix-profile.c:679
+@@ -65,7 +64,7 @@
+ #. TRANSLATORS: command line option
+ #: client/cd-fix-profile.c:585
+ msgid "The locale to use when setting localized text"
+-msgstr "Lokalen att använda när lokaliserad text används"
++msgstr "Språkvarianten som ska användas för lokaliserad text"
+ 
+ #. TRANSLATORS: command description
+ #: client/cd-fix-profile.c:606
+@@ -85,7 +84,7 @@
+ #. TRANSLATORS: command description
+ #: client/cd-fix-profile.c:621
+ msgid "Add a metadata item to the profile"
+-msgstr "Lägg till ett metadataobjekt till profilen"
++msgstr "Lägg till ett metadataobjekt i profilen"
+ 
+ #. TRANSLATORS: command description
+ #: client/cd-fix-profile.c:626
+@@ -95,37 +94,37 @@
+ #. TRANSLATORS: command description
+ #: client/cd-fix-profile.c:631
+ msgid "Sets the copyright string"
+-msgstr "Sätter upphovsrättssträngen"
++msgstr "Anger upphovsrättstexten"
+ 
+ #. TRANSLATORS: command description
+ #: client/cd-fix-profile.c:636
+ msgid "Sets the description string"
+-msgstr "Sätter beskrivningssträngen"
++msgstr "Anger beskrivningstexten"
+ 
+ #. TRANSLATORS: command description
+ #: client/cd-fix-profile.c:641
+ msgid "Sets the manufacturer string"
+-msgstr "Sätter tillverkarsträngen"
++msgstr "Anger tillverkarnamnet"
+ 
+ #. TRANSLATORS: command description
+ #: client/cd-fix-profile.c:646
+ msgid "Sets the model string"
+-msgstr "Sätter modellsträngen"
++msgstr "Anger modellnamnet"
+ 
+ #. TRANSLATORS: command description
+ #: client/cd-fix-profile.c:651
+ msgid "Automatically fix metadata in the profile"
+-msgstr "Fixa automatiskt metadata i profilen"
++msgstr "Korrigera automatiskt metadata i profilen"
+ 
+ #. TRANSLATORS: command description
+ #: client/cd-fix-profile.c:656
+ msgid "Set the ICC profile version"
+-msgstr "Sätt versionen för ICC-profilen"
++msgstr "Ange ICC-profilens version"
+ 
+ #. TRANSLATORS: command description
+ #: client/cd-fix-profile.c:661
+ msgid "Export the tag data"
+-msgstr "Exportera taggdatan"
++msgstr "Exportera taggdata"
+ 
+ #. TRANSLATORS: program name
+ #: client/cd-fix-profile.c:674 client/cd-it8.c:516 client/cd-util.c:2228
+@@ -136,12 +135,12 @@
+ #. TRANSLATORS: program name
+ #: client/cd-iccdump.c:84
+ msgid "ICC profile dump program"
+-msgstr "ICC-profil dumpprogram"
++msgstr "Program för att dumpa ICC-profiler"
+ 
+ #. TRANSLATORS: command line option
+ #: client/cd-it8.c:471
+ msgid "Write embedded creation timestamps"
+-msgstr "Skriv inbäddade skapelsetidsstämplar"
++msgstr "Skriv inbäddade tidsstämplar för skapandet"
+ 
+ #. TRANSLATORS: command description
+ #: client/cd-it8.c:491
+@@ -156,7 +155,7 @@
+ #. TRANSLATORS: command description
+ #: client/cd-it8.c:503
+ msgid "Create a CCMX from reference and measurement data"
+-msgstr "Skapa en CCMX från referens och uppmätt data"
++msgstr "Skapa en CCMX från referens- och mätdata"
+ 
+ #. TRANSLATORS: this is the profile creation date strftime format
+ #: client/cd-util.c:122
+@@ -209,7 +208,7 @@
+ #. TRANSLATORS: the object scope, e.g. temp, disk, etc
+ #: client/cd-util.c:199 client/cd-util.c:336
+ msgid "Scope"
+-msgstr "Omfattning"
++msgstr "Omfång"
+ 
+ #. TRANSLATORS: if the profile has a Video Card Gamma Table lookup
+ #: client/cd-util.c:205
+@@ -219,7 +218,7 @@
+ #. TRANSLATORS: if the profile is installed for all users
+ #: client/cd-util.c:210
+ msgid "System Wide"
+-msgstr "Systemtäckande"
++msgstr "För hela systemet"
+ 
+ #. TRANSLATORS: profile filename
+ #: client/cd-util.c:215
+@@ -279,7 +278,7 @@
+ 
+ #: client/cd-util.c:308
+ msgid "Inhibitors"
+-msgstr "Hämmare"
++msgstr "Blockeringar"
+ 
+ #. TRANSLATORS: the device serial number
+ #: client/cd-util.c:312
+@@ -294,7 +293,7 @@
+ #. * different sessions running on them
+ #: client/cd-util.c:322
+ msgid "Seat"
+-msgstr "Säte"
++msgstr "Sessionplats"
+ 
+ #. TRANSLATORS: the device identifier
+ #: client/cd-util.c:347
+@@ -358,13 +357,13 @@
+ #. * where LCD stands for 'Liquid Crystal Display'
+ #: client/cd-util.c:443
+ msgid "LCD Generic"
+-msgstr "LCD generell"
++msgstr "Generisk LCD-skärm"
+ 
+ #. TRANSLATORS: this is the display technology where
+ #. * LED stands for 'Light Emitted Diode'
+ #: client/cd-util.c:448
+ msgid "LED Generic"
+-msgstr "LED generell"
++msgstr "Generisk LED-skärm"
+ 
+ #. TRANSLATORS: this is the display technology,
+ #. * sometimes called PDP displays. See
+@@ -392,19 +391,19 @@
+ #. * better than normal consumer monitors
+ #: client/cd-util.c:472
+ msgid "Wide Gamut LCD CCFL"
+-msgstr "Bred färgomfångs-LCD kallkatodslampa"
++msgstr "LCD med stort färgomfång, CCFL"
+ 
+ #. TRANSLATORS: this is the display technology
+ #: client/cd-util.c:476
+ msgid "Wide Gamut LCD RGB LED"
+-msgstr "Bred färgomfångs-LCD RGB LED"
++msgstr "LCD-skärm med stort färgomfång och RGB-LED-bakgrundsbelysning"
+ 
+ #. TRANSLATORS: this is the display technology, where
+ #. * white means the color of the backlight, i.e. not
+ #. * RGB LED
+ #: client/cd-util.c:482
+ msgid "LCD White LED"
+-msgstr "LCD vit LED"
++msgstr "LCD med vit LED"
+ 
+ #. TRANSLATORS: this an unknown display technology
+ #: client/cd-util.c:485
+@@ -445,12 +444,12 @@
+ #. * display types, e.g. LCD, LED, Projector
+ #: client/cd-util.c:629
+ msgid "Capabilities"
+-msgstr "Förmågor"
++msgstr "Funktioner"
+ 
+ #: client/cd-util.c:971 client/cd-util.c:1000 client/cd-util.c:1048
+ #: client/cd-util.c:1176 client/cd-util.c:1260
+ msgid "There are no supported sensors attached"
+-msgstr "Det finns inga anslutna sensorer som stöds"
++msgstr "Inga anslutna sensorer stöds"
+ 
+ #. TRANSLATORS: this is the sensor title
+ #: client/cd-util.c:1060 client/cd-util.c:1197 client/cd-util.c:1289
+@@ -460,26 +459,26 @@
+ #. TRANSLATORS: the user needs to change something on the device
+ #: client/cd-util.c:1079
+ msgid "Set the device to the calibrate position and press enter."
+-msgstr "Ställ in enheten på kalibreringspositionen och tryck retur."
++msgstr "Ställ enheten i kalibreringsläget och tryck på Retur."
+ 
+ #. TRANSLATORS: the user needs to change something on the device
+ #: client/cd-util.c:1088
+ msgid "Set the device to the surface position and press enter."
+-msgstr "Ställ in enheten på ytpositionen och tryck retur."
++msgstr "Ställ enheten i ytmätningsläget och tryck på Retur."
+ 
+ #. TRANSLATORS: the user needs to change something on the device
+ #: client/cd-util.c:1097
+ msgid "Put the device in a dark place and press enter."
+-msgstr "Placera enheten på en mörk plats och tryck retur."
++msgstr "Placera enheten på en mörk plats och tryck på Retur."
+ 
+ #. TRANSLATORS: the user needs to change something on the device
+ #: client/cd-util.c:1107
+ msgid "Calibrate with a 3200K light source."
+-msgstr "Kalibrera med en 3200K ljuskälla."
++msgstr "Kalibrera med en ljuskälla på 3 200 K."
+ 
+ #: client/cd-util.c:1124
+ msgid "Put the device on the color to be measured and press enter."
+-msgstr "Placera enheten på färgen som ska mätas och tryck retur."
++msgstr "Placera enheten mot färgen som ska mätas och tryck på Retur."
+ 
+ #: client/cd-util.c:1130
+ msgid "Color"
+@@ -488,7 +487,7 @@
+ #. TRANSLATORS: sensor can't do this
+ #: client/cd-util.c:1192 client/cd-util.c:1212
+ msgid "No spectral capability"
+-msgstr "Ingen spektral förmåga"
++msgstr "Saknar stöd för spektralmätning"
+ 
+ #. TRANSLATORS: command line option
+ #: client/cd-util.c:2016
+@@ -508,7 +507,7 @@
+ #. TRANSLATORS: command description
+ #: client/cd-util.c:2041
+ msgid "Dump all debug data to a file"
+-msgstr "Dumpa all felsökningsdata till en fil"
++msgstr "Skriv all felsökningsinformation till en fil"
+ 
+ #. TRANSLATORS: command description
+ #: client/cd-util.c:2047
+@@ -558,7 +557,7 @@
+ #. TRANSLATORS: command description
+ #: client/cd-util.c:2101
+ msgid "Find a device from the device ID"
+-msgstr "Hitta en enhet från enhets-ID:t"
++msgstr "Hitta en enhet utifrån dess ID"
+ 
+ #. TRANSLATORS: command description
+ #: client/cd-util.c:2107
+@@ -568,7 +567,7 @@
+ #. TRANSLATORS: command description
+ #: client/cd-util.c:2113
+ msgid "Find a profile from the profile ID"
+-msgstr "Hitta en profil från profil-ID:t"
++msgstr "Hitta en profil utifrån dess ID"
+ 
+ #. TRANSLATORS: command description
+ #: client/cd-util.c:2119
+@@ -588,7 +587,7 @@
+ #. TRANSLATORS: command description
+ #: client/cd-util.c:2137
+ msgid "Add a profile to a device that already exists"
+-msgstr "Lägg till en profil till en enhet som redan existerar"
++msgstr "Lägg till en profil för en befintlig enhet"
+ 
+ #. TRANSLATORS: command description
+ #: client/cd-util.c:2143
+@@ -623,7 +622,7 @@
+ #. TRANSLATORS: command description
+ #: client/cd-util.c:2179
+ msgid "Gets the default profile for a device"
+-msgstr "Anger standardprofilen för en enhet"
++msgstr "Hämtar enhetens standardprofil"
+ 
+ #. TRANSLATORS: command description
+ #: client/cd-util.c:2185
+@@ -643,7 +642,7 @@
+ #. TRANSLATORS: command description
+ #: client/cd-util.c:2203
+ msgid "Inhibits color profiles for this device"
+-msgstr "Hämmar färgprofiler för denna enhet"
++msgstr "Blockerar färgprofiler för den här enheten"
+ 
+ #. TRANSLATORS: command description
+ #: client/cd-util.c:2209
+@@ -683,38 +682,37 @@
+ 
+ #: contrib/session-helper/cd-debug.c:206 src/cd-debug.c:206
+ msgid "Debugging Options"
+-msgstr "Felsökningsflaggor"
++msgstr "Felsökningsalternativ"
+ 
+ #: contrib/session-helper/cd-debug.c:207 src/cd-debug.c:207
+ msgid "Show debugging options"
+-msgstr "Visa felsökningsflaggor"
++msgstr "Visa felsökningsalternativ"
+ 
+ #: contrib/session-helper/org.freedesktop.ColorHelper.gschema.xml:5
+ msgid "Default gamma for the display"
+-msgstr "Standard gamma för skärmen"
++msgstr "Standardskärmvärde för gamma"
+ 
+ #: contrib/session-helper/org.freedesktop.ColorHelper.gschema.xml:6
+ msgid ""
+ "The default target gamma value for the display. Common values are 1.8, 2.2 "
+ "and 2.4."
+-msgstr ""
+-"Standardmålvärde för gamma för skärmen. Vanliga värden är 1,8, 2,2 och 2,4."
++msgstr "Standardskärmvärdet för gamma. Vanliga värden är 1,8, 2,2 och 2,4."
+ 
+ #: contrib/session-helper/org.freedesktop.ColorHelper.gschema.xml:13
+ msgid "Default display target whitepoint"
+-msgstr "Standardvitpunkt för skärm"
++msgstr "Skärmens standardvitpunkt"
+ 
+ #: contrib/session-helper/org.freedesktop.ColorHelper.gschema.xml:14
+ msgid ""
+ "The default target whitepoint in Kelvin for display calibration, with 0 "
+ "meaning display native. Common values are 6500 for D65 and 5000 for D50."
+ msgstr ""
+-"Standardvitpunkt i Kelvin för skärmkalibrering, där 0 betyder skärmberoende. "
+-"Vanliga värden är 6500 för D65 och 5000 för D50."
++"Standardvitpunkten i kelvin för skärmkalibrering. 0 betyder skärmens "
++"ursprungliga vitpunkt. Vanliga värden är 6 500 för D65 och 5 000 för D50."
+ 
+ #: contrib/session-helper/org.freedesktop.ColorHelper.gschema.xml:22
+ msgid "Delay between sample intervals"
+-msgstr "Fördröjning mellan sampelintervall"
++msgstr "Fördröjning mellan mätintervall"
+ 
+ #: contrib/session-helper/org.freedesktop.ColorHelper.gschema.xml:23
+ msgid ""
+@@ -722,9 +720,9 @@
+ "instrument to take a sample. It is required because both the graphics driver "
+ "and the display itself introduce latency."
+ msgstr ""
+-"Detta är fördröjningen mellan då sampelfärgen ställs in och när "
+-"mätinstrumentet ombes att ta ett sampel. Det krävs eftersom både "
+-"grafikdrivrutinen och skärmen själv introducerar latens."
++"Fördröjningen mellan att provfärgen ställs in och att mätinstrumentet tar "
++"ett prov. Den behövs eftersom både grafikdrivrutinen och själva skärmen ger "
++"upphov till fördröjning."
+ 
+ #: data/profiles/AdobeRGB1998.iccprofile.xml:3
+ msgid "AdobeRGB1998"
+@@ -772,7 +770,8 @@
+ #: data/profiles/WideGamutRGB.iccprofile.xml:5
+ #: data/profiles/x11-colors.iccprofile.xml:5
+ msgid "This profile is free of known copyright restrictions"
+-msgstr "Denna profil är fri från kända upphovsrättsbegränsningar"
++msgstr ""
++"Den här profilen omfattas inte av några kända upphovsrättsliga begränsningar"
+ 
+ #.
+ #. TRANSLATORS: a editing space is a profile you use for editing,
+@@ -784,10 +783,9 @@
+ "for editing photographs and for use in printing, as all the SWOP colors can "
+ "be reproduced."
+ msgstr ""
+-"Denna redigeringsrymd designades som SMPTE-240M och täcker merparten av de "
+-"möjliga färgerna som finns tillgängliga i en CMYK-färgskrivare. Detta är ett "
+-"populärt alternativ för att redigera fotografier och för användning inom "
+-"tryckning då alla SWOP-färgerna kan återges."
++"Den här redigeringsfärgrymden togs fram för SMPTE-240M och omfattar de "
++"flesta färger som kan återges av en CMYK-skrivare. Den är populär för "
++"bildredigering och tryck eftersom alla SWOP-färger kan återges."
+ 
+ #: data/profiles/AppleRGB.iccprofile.xml:3
+ msgid "AppleRGB"
+@@ -807,10 +805,9 @@
+ "is similar to sRGB, it should not be used as a display profile or for new "
+ "images."
+ msgstr ""
+-"Denna föråldrade profil skapades från början av Adobe för att användas med "
+-"Photoshop och Illustrator. Eftersom den är baserad på Apples 13\" "
+-"originalfärgskärm och liknar sRGB, bör den inte användas som skärmprofil för "
+-"nya bilder."
++"Den här äldre profilen skapades ursprungligen av Adobe för Photoshop och "
++"Illustrator. Den bygger på Apples ursprungliga 13-tums RGB-skärm och liknar "
++"sRGB. Använd den därför inte som skärmprofil eller för nya bilder."
+ 
+ #: data/profiles/BestRGB.iccprofile.xml:3
+ msgid "BestRGB"
+@@ -830,10 +827,10 @@
+ "advertisements. It is very similar to DonRGB4, but can show super-saturated "
+ "red colors sometimes present in Fujichrome Velvia."
+ msgstr ""
+-"Denna redigeringsfärgrymd kan visa fler mättade färger än Adobe RGB och är "
+-"lämplig för bilder med väldigt mättade färger som ofta används i reklam. Den "
+-"är väldigt lik DonRGB4, men kan visa övermättade röda färger som ibland "
+-"förekommer i Fujichrome Velvia."
++"Den här redigeringsfärgrymden kan visa mer mättade färger än Adobe RGB och "
++"passar bilder med kraftiga färger, som ofta används i reklam. Den liknar "
++"DonRGB4 men kan visa extremt mättade röda färger som ibland förekommer i "
++"Fujichrome Velvia."
+ 
+ #: data/profiles/BetaRGB.iccprofile.xml:3
+ msgid "BetaRGB"
+@@ -851,14 +848,14 @@
+ "shadow detail is preserved. In most instances ProPhoto RGB is probably a "
+ "better choice."
+ msgstr ""
+-"Denna redigeringsrymd kan visa fler mättade färger än Adobe RGB. Den är "
+-"mindre benägen att skapa kvantiseringsfel jämfört med ProPhoto RGB även om "
+-"fler skuggdetaljer bevaras. I de flesta fall är ProPhoto RGB troligtvis ett "
++"Den här redigeringsfärgrymden kan visa mer mättade färger än Adobe RGB. "
++"Jämfört med ProPhoto RGB är den mindre känslig för kvantiseringsfel, men "
++"bevarar fler skuggdetaljer. I de flesta fall är ProPhoto RGB troligen ett "
+ "bättre val."
+ 
+ #: data/profiles/Bluish.iccprofile.xml:3
+ msgid "bluish"
+-msgstr "bluish"
++msgstr "blåaktig"
+ 
+ #: data/profiles/Bluish.iccprofile.xml:5
+ msgid "Blue"
+@@ -871,9 +868,9 @@
+ "blue by altering the video card lookup table. This allows the user to check "
+ "the calibration is being applied correctly."
+ msgstr ""
+-"Denna testprofil används för att göra alla färger på skärmen något mer blå "
+-"genom att justera grafikkortets uppslagstabell. Detta låter användaren "
+-"kontrollera att kalibreringen tillämpas korrekt."
++"Den här testprofilen gör alla färger på skärmen något blåare genom att ändra "
++"grafikkortets uppslagstabell. På så sätt kan användaren kontrollera att "
++"kalibreringen tillämpas korrekt."
+ 
+ #: data/profiles/BruceRGB.iccprofile.xml:3
+ msgid "BruceRGB"
+@@ -890,9 +887,9 @@
+ "was designed as an output-centric compromise between ColorMatch RGB and "
+ "Adobe RGB and used to be preferred by some photograph printing services."
+ msgstr ""
+-"Detta är en RGB-redigeringsrymd som kan användas med Adobe Photoshop 5.0 och "
+-"senare. Den designades som en utmatningsfokuserad kompromiss mellan "
+-"ColorMatch RGB och Adobe RGB och brukade föredras av vissa fototrycktjänster."
++"Det här är en RGB-redigeringsfärgrymd för Adobe Photoshop 5.0 och senare. "
++"Den utformades som en kompromiss med fokus på utdata mellan ColorMatch RGB "
++"och Adobe RGB och föredrogs tidigare av vissa fotolabb."
+ 
+ #: data/profiles/CIE-RGB.iccprofile.xml:3
+ msgid "CIE-RGB"
+@@ -909,9 +906,8 @@
+ "probably don't want to use this profile as a editing space or a display "
+ "profile."
+ msgstr ""
+-"Denna teoretiska profil är designad för att användas i färgexperiment. Du "
+-"vill troligen inte använda denna profil som en redigeringsrymd eller en "
+-"skärmprofil."
++"Den här teoretiska profilen är avsedd för färgexperiment. Den lämpar sig "
++"troligen inte som redigeringsfärgrymd eller skärmprofil."
+ 
+ #: data/profiles/ColorMatchRGB.iccprofile.xml:3
+ msgid "ColorMatchRGB"
+@@ -929,10 +925,10 @@
+ "significantly different to sRGB. You should only need to use this profile if "
+ "viewing images created on a PressView monitor."
+ msgstr ""
+-"Denna profil designades av Radius för PressView-skärmen. Använd bara denna "
+-"profil som en skärmprofil eller som en redigeringsrymd då profilen inte är "
+-"väsentligt annorlunda än sRGB. Du bör bara behöva använda denna profil om du "
+-"ska visa bilder som skapats på en PressView-skärm."
++"Den här profilen togs fram av Radius för skärmen PressView. Använd den bara "
++"som skärmprofil eller redigeringsfärgrymd, eftersom den inte skiljer sig "
++"nämnvärt från sRGB. Du behöver normalt bara profilen för att visa bilder som "
++"skapats på en PressView-skärm."
+ 
+ #: data/profiles/Crayons.iccprofile.xml:3
+ msgid "Crayons"
+@@ -951,9 +947,8 @@
+ "use. It is a test profile designed for testing embedding named colors into "
+ "documents."
+ msgstr ""
+-"Denna färgnamnsprofil innehåller alla Crayola-kritfärger som vanligtvis "
+-"förekommer. Detta är en testprofil designad för att testa att bädda in "
+-"namngivna färger i dokument."
++"Den här namngivna färgprofilen innehåller alla vanliga Crayola-kritfärger. "
++"Det är en testprofil för att prova hur namngivna färger bäddas in i dokument."
+ 
+ #: data/profiles/DonRGB4.iccprofile.xml:3
+ msgid "DonRGB4"
+@@ -971,7 +966,7 @@
+ "advertisements."
+ msgstr ""
+ "Denna redigeringsrymd kan visa fler mättade färger än Adobe RGB och är "
+-"lämplig för bilder med väldigt mättade färger som ofta används i reklam. "
++"lämplig för bilder med väldigt mättade färger som ofta används i reklam."
+ 
+ #: data/profiles/ECI-RGBv1.iccprofile.xml:3
+ msgid "ECI-RGBv1"
+@@ -989,10 +984,10 @@
+ "that can be printed on printing presses. This is sometimes used as a color "
+ "data exchange format between publishers and printing houses."
+ msgstr ""
+-"Denna profil rekommenderas av ECI (European Color Initiative) som en "
+-"redigeringsrymd för professionell bildredigering och ämnar att täcka alla "
+-"färger som kan skrivas ut av en tryckpress. Den används ibland som ett "
+-"utbytesformat av färgdata mellan utgivare och tryckerier."
++"ECI (European Color Initiative) rekommenderar profilen som "
++"redigeringsfärgrymd för professionell bildbehandling. Den är avsedd att "
++"omfatta alla färger som kan tryckas i en tryckpress och används ibland för "
++"utbyte av färgdata mellan utgivare och tryckerier."
+ 
+ #: data/profiles/ECI-RGBv2.iccprofile.xml:3
+ msgid "ECI-RGBv2"
+@@ -1009,9 +1004,9 @@
+ "monitor will have to be also calibrated in the same way. This profile is "
+ "only useful for advanced users and is not recommended for general use."
+ msgstr ""
+-"Denna profil designades med en ljusstyrkegammakurva vilket innebär att "
+-"skärmen också måste kalibreras på samma sätt. Denna profil är endast "
+-"användbar för avancerade användare och rekommenderas inte för allmänt bruk."
++"Profilen har en gammakurva för ljushet, vilket innebär att skärmen också "
++"måste kalibreras på samma sätt. Den är bara användbar för avancerade "
++"användare och rekommenderas inte för allmänt bruk."
+ 
+ #: data/profiles/EktaSpacePS5.iccprofile.xml:3
+ msgid "EktaSpacePS5"
+@@ -1028,9 +1023,8 @@
+ "It is suitable for storing images from color negatives, although nowadays "
+ "ProPhoto RGB is a more popular profile for archival."
+ msgstr ""
+-"Denna profil designades för att lagra arkiv av inskannad transparent film. "
+-"Den är lämplig för att spara bilder från färgnegativ, även om ProPhoto RGB "
+-"idag är en mer populär profil för arkivering."
++"Profilen togs fram för arkivering av inskannad diafilm. Den passar även för "
++"bilder från färgnegativ, men i dag är ProPhoto RGB en vanligare arkivprofil."
+ 
+ #: data/profiles/FOGRA27L_coated.iccprofile.xml:3
+ msgid "FOGRA27L Coated"
+@@ -1043,9 +1037,9 @@
+ "and 2 (coated or matte), sheetfed offset. This profile set should no longer "
+ "be used for production, use FOGRA39L instead."
+ msgstr ""
+-"Denna profil används för positiv plåtframställning, tryck på papper av typ 1 "
+-"och 2 (bestruket eller matt), arkoffset. Denna profiluppsättning bör inte "
+-"längre användas för produktion, använd FOGRA39L istället."
++"Profilen används för positiv plåtframställning och arkoffsettryck på "
++"papperstyp 1 och 2 (bestruket eller matt). Profiluppsättningen bör inte "
++"längre användas i produktion; använd FOGRA39L i stället."
+ 
+ #: data/profiles/FOGRA28L_webcoated.iccprofile.xml:3
+ msgid "FOGRA28L Web Coated"
+@@ -1060,9 +1054,9 @@
+ "(LWC), webfed offset. This profile should no longer be used for production, "
+ "use FOGRA45 instead."
+ msgstr ""
+-"Denna profil används för positiv plåtframställning, tryck på papperstyp 3 "
+-"(LWC), rulloffset. Denna profil bör inte längre användas för produktion, "
+-"använd FOGRA45 istället."
++"Profilen används för positiv plåtframställning och rulloffsettryck på "
++"papperstyp 3 (LWC). Den bör inte längre användas i produktion; använd "
++"FOGRA45 i stället."
+ 
+ #: data/profiles/FOGRA29L_uncoated.iccprofile.xml:3
+ msgid "FOGRA29L Uncoated"
+@@ -1075,9 +1069,9 @@
+ "(uncoated white), sheetfed offset. This profile should no longer be used for "
+ "production, use FOGRA47 instead."
+ msgstr ""
+-"Denna profil används för positiv plåtframställning, tryck på papperstyp 4 "
+-"(obestruket vitt), arkoffset. Denna profil bör inte längre användas för "
+-"produktion, använd FOGRA47 istället."
++"Profilen används för positiv plåtframställning och arkoffsettryck på "
++"papperstyp 4 (obestruket vitt). Den bör inte längre användas i produktion; "
++"använd FOGRA47 i stället."
+ 
+ #: data/profiles/FOGRA30L_uncoated_yellowish.iccprofile.xml:3
+ msgid "FOGRA30L Uncoated Yellowish"
+@@ -1089,8 +1083,8 @@
+ "This profile is used for positive plate making, printing on paper type 5 "
+ "(uncoated yellowish), sheetfed offset."
+ msgstr ""
+-"Denna profil används för positiv plåtframställning, tryck på papperstyp 5 "
+-"(obestruket gulaktig), arkoffset."
++"Profilen används för positiv plåtframställning och arkoffsettryck på "
++"papperstyp 5 (obestruket gulaktigt papper)."
+ 
+ #: data/profiles/FOGRA39L_coated.iccprofile.xml:3
+ msgid "FOGRA39L Coated"
+@@ -1119,8 +1113,8 @@
+ "This profile is used for printing on SC (supercalendered) paper, webfed "
+ "offset. There is no known U.S. equivalent."
+ msgstr ""
+-"Denna profil används för tryck på SC (superkalendrerat) papper, rulloffset. "
+-"Det finns ingen känd U.S.-motsvarighet."
++"Profilen används för rulloffsettryck på SC-papper (superkalandrerat papper). "
++"Det finns ingen känd motsvarande profil i USA."
+ 
+ #: data/profiles/FOGRA45L_lwc.iccprofile.xml:3
+ msgid "FOGRA45L Lightweight Coated"
+@@ -1133,8 +1127,8 @@
+ "light-weight coated (LWC) paper for 60 l/cm heatset web offset printing. It "
+ "replaces FOGRA28L."
+ msgstr ""
+-"Denna ISO 12647-2:2004-kompatibla profil används för tryck på förbättrat "
+-"lättviktsbestruket papper (LWC) för 60 l/cm värmehärdat rulloffsettryck. Den "
++"Den här profilen följer ISO 12647-2:2004 och används för värmehärdande "
++"rulloffsettryck med 60 l/cm på förbättrat lättbestruket papper (LWC). Den "
+ "ersätter FOGRA28L."
+ 
+ #: data/profiles/FOGRA47L_uncoated.iccprofile.xml:3
+@@ -1147,8 +1141,8 @@
+ "This ISO 12647-2 compliant profile is used for printing on 115 gsm uncoated "
+ "white (paper type 4) for 60 l/cm sheetfed offset printing."
+ msgstr ""
+-"Denna ISO 12647-2-kompatibla profil används för tryck på 115 gsm obestruket "
+-"vitt (papperstyp 4) för 60l/cm arkoffsettryck."
++"Den här profilen följer ISO 12647-2 och används för arkoffsettryck med 60 l/"
++"cm på obestruket vitt papper, 115 g/m² (papperstyp 4)."
+ 
+ #: data/profiles/Gamma5000K.iccprofile.xml:3
+ #: data/profiles/Gamma5500K.iccprofile.xml:3
+@@ -1170,7 +1164,7 @@
+ 
+ #: data/profiles/GRACoL_TR006_coated.iccprofile.xml:3
+ msgid "GRACoL TR006 Coated"
+-msgstr "GRACoL TR006 Obestruket"
++msgstr "GRACoL TR006 Bestruket"
+ 
+ #. TRANSLATORS: coated = smooth and expensive
+ #: data/profiles/GRACoL_TR006_coated.iccprofile.xml:6
+@@ -1178,8 +1172,8 @@
+ "This profile is used for printing on U.S. grade 1 and 2 coated paper, "
+ "sheetfed offset and gravure. It is the U.S. equivalent of FOGRA39."
+ msgstr ""
+-"Denna profil används för tryck på U.S. klass 1 och 2 bestruket papper, "
+-"arkoffsettryck och gravyr. Det är U.S.-motsvarigheten till FOGRA39."
++"Profilen används för arkoffsettryck och djuptryck på bestruket papper av "
++"amerikansk kvalitet 1 och 2. Den motsvarar FOGRA39 i USA."
+ 
+ #: data/profiles/IFRA26S_2004_newsprint.iccprofile.xml:3
+ msgid "IFRA26S 2004 Newsprint"
+@@ -1195,10 +1189,9 @@
+ "gain). It is recommended by WAN-IFRA for coldset printing on newsprint "
+ "worldwide."
+ msgstr ""
+-"Denna profil används för tryck på tidningspapper och är en ISO 12647-3:2005-"
+-"kompatibel profil designad för en tryckpress med 26% TVI (punktförstoring). "
+-"Den rekommenderas av WAN-IFRA för kallhärdat tryck på tidningspapper över "
+-"hela världen."
++"Profilen används för tryck på tidningspapper. Den följer ISO 12647-3:2005 "
++"och är avsedd för tryckpressar med 26 % tonvärdesökning (TVI). WAN-IFRA "
++"rekommenderar den för kallsettryck på tidningspapper världen över."
+ 
+ #: data/profiles/NTSC-RGB.iccprofile.xml:3
+ msgid "NTSC-RGB"
+@@ -1217,9 +1210,9 @@
+ "It is an obsolete standard that has been replaced by SMTE-C. You should only "
+ "use this profile to decode archived video."
+ msgstr ""
+-"Denna profil definierar mängden färger som används av NTSC-videostandarden. "
+-"Det är en föråldrad standard som har ersatts av SMTE-C. Du bör bara använda "
+-"denna profil för att avkoda arkiverad video."
++"Profilen definierar färgomfånget för videostandarden NTSC. Standarden är "
++"föråldrad och har ersatts av SMPTE-C. Använd profilen endast för att avkoda "
++"arkiverad video."
+ 
+ #: data/profiles/PAL-RGB.iccprofile.xml:3
+ msgid "PAL-RGB"
+@@ -1236,9 +1229,8 @@
+ "standards and is very similar to sRGB. You should only use this profile to "
+ "encode or decode video."
+ msgstr ""
+-"Denna profil definierar mängden färger som används i PAL- och SECAM-"
+-"videostandarderna och är väldigt lik sRGB. Du bör bara använda denna profil "
+-"för att koda eller avkoda video."
++"Profilen definierar färgomfånget för videostandarderna PAL och SECAM och "
++"liknar sRGB. Använd den endast för att koda eller avkoda video."
+ 
+ #: data/profiles/ProPhotoRGB.iccprofile.xml:3
+ msgid "ProPhotoRGB"
+@@ -1256,11 +1248,10 @@
+ "rendering, editing and archiving RAW images. Unless you are working with 16 "
+ "bits per channel precision, you may see color banding when editing images."
+ msgstr ""
+-"Denna profil, från början designad av Eastman Koak och kallad ROMM RGB, kan "
+-"visa en stor mängd färger och används av många fotografer för rendering, "
+-"redigering och arkivering av RAW-bilder. Om du inte arbetar med 16 bitars "
+-"precision per kanal, kan du komma att se färgbandning när du redigerar "
+-"bilder."
++"Profilen utvecklades ursprungligen av Eastman Kodak och kallades ROMM RGB. "
++"Den kan visa ett mycket stort färgomfång och används av många fotografer för "
++"återgivning, redigering och arkivering av RAW-bilder. Om du inte arbetar med "
++"16 bitars precision per kanal kan färgbandning uppstå vid bildredigering."
+ 
+ #: data/profiles/Rec709.iccprofile.xml:3
+ msgid "Rec709"
+@@ -1278,9 +1269,9 @@
+ "was first approved in 1990. The Rec. 709 profile uses the same range of "
+ "colors as sRGB although the luminance curve is different."
+ msgstr ""
+-"ITU-R rekommendationen BT.709 är en högupplöst televisionsstandard som först "
+-"godkändes 1990. Rek.709-profilen använder samma mängd färger som sRGB även "
+-"om luminanskurvan är olika."
++"ITU-R-rekommendationen BT.709 är en HDTV-standard som godkändes första "
++"gången 1990. Profilen Rec. 709 använder samma färgomfång som sRGB, men har "
++"en annan luminanskurva."
+ 
+ #: data/profiles/SMPTE-C-RGB.iccprofile.xml:3
+ msgid "SMPTE-C-RGB"
+@@ -1296,9 +1287,8 @@
+ "This is the current standard used by North America and Japan for studio "
+ "recording. You should only use this profile to encode or decode video."
+ msgstr ""
+-"Detta är den nuvarande standard som används av Nordamerika och Japan för "
+-"studioinspelning. Du bör bara använda denna profil för att koda eller avkoda "
+-"video."
++"Det här är den aktuella standarden för studioinspelning i Nordamerika och "
++"Japan. Använd profilen endast för att koda eller avkoda video."
+ 
+ #: data/profiles/SNAP_TR002_newsprint.iccprofile.xml:3
+ msgid "SNAP TR002 Newsprint"
+@@ -1310,8 +1300,8 @@
+ "This is an ANSI CGATS/SNAP TR 002-2007 based profile for printing on "
+ "newsprint in the U.S., coldset offset. The TVI (dot gain) is 26%."
+ msgstr ""
+-"Detta är en ANSI CGAT/SNAP TR 002-2007-baserad profil för tryck på "
+-"tidningspapper i U.S kallhärdad offset. TVI (punktförstoringen) är 26%."
++"Profilen bygger på ANSI CGATS/SNAP TR 002-2007 och används för "
++"kallsetarkoffset på tidningspapper i USA. Tonvärdesökningen (TVI) är 26 %."
+ 
+ #: data/profiles/sRGB.iccprofile.xml:3 data/profiles/sRGB.iccprofile.xml:4
+ msgid "sRGB"
+@@ -1328,11 +1318,10 @@
+ "colors available in sRGB, although this profile is sometimes a poor choice "
+ "for printing."
+ msgstr ""
+-"Denna generella profil designades av Hewlett-Packard och Microsoft och lever "
+-"vidare som standardprofilen på internet för RGB-färger utan angiven "
+-"färgprofil och används i HDTV. De flesta okalibrerade skärmar kan visa de "
+-"flesta av färgerna som finns i sRGB, även om denna profil ibland är ett "
+-"dåligt val för tryck."
++"Den här allmänna profilen utvecklades av Hewlett-Packard och Microsoft. Den "
++"används på internet som standardprofil för RGB-färger utan färgprofil och i "
++"HDTV. De flesta okalibrerade skärmar kan visa merparten av sRGB-färgerna, "
++"men profilen passar ibland dåligt för tryck."
+ 
+ #: data/profiles/SwappedRedAndGreen.iccprofile.xml:3
+ msgid "SwappedRedAndGreen"
+@@ -1340,7 +1329,7 @@
+ 
+ #: data/profiles/SwappedRedAndGreen.iccprofile.xml:4
+ msgid "Swapped Red and Green"
+-msgstr "Utbytt röd och grön"
++msgstr "Röd och grön kanal omkastade"
+ 
+ #. TRANSLATORS: channels refer to the RGB values in an image
+ #: data/profiles/SwappedRedAndGreen.iccprofile.xml:7
+@@ -1349,9 +1338,9 @@
+ "check that profiles are being applied correctly. If this profile is applied "
+ "twice, the image looks unchanged."
+ msgstr ""
+-"Denna testprofil byter ut de röda och gröna färgkanalerna och är användbar "
+-"som en visuell kontroll att profilerna tillämpas korrekt. Om denna profil "
+-"tillämpas två gånger ser bilden oförändrad ut."
++"Testprofilen kastar om den röda och gröna kanalen. Den kan användas för att "
++"visuellt kontrollera att profiler tillämpas korrekt. Om profilen tillämpas "
++"två gånger ser bilden oförändrad ut."
+ 
+ #: data/profiles/SWOP_TR003_coated_3.iccprofile.xml:3
+ msgid "SWOP TR003 Coated"
+@@ -1364,8 +1353,9 @@
+ "offset and gravure. It is used for high quality magazine printing with white "
+ "paper."
+ msgstr ""
+-"Denna profil används för tryck på U.S. klass 3 bestruket papper, arkoffset "
+-"och gravyr. Den används för högkvalitativt tidskriftstryck med vitt papper."
++"Profilen används för arkoffsettryck och djuptryck på bestruket papper av "
++"amerikansk kvalitet 3. Den är avsedd för tidskrifter av hög kvalitet tryckta "
++"på vitt papper."
+ 
+ #: data/profiles/SWOP_TR005_coated_5.iccprofile.xml:3
+ msgid "SWOP TR005 Coated"
+@@ -1378,9 +1368,9 @@
+ "offset and gravure. It is use for standard magazine printing with yellowish "
+ "paper."
+ msgstr ""
+-"Denna profil används för tryck på U.S. klass 5 bestruket papper, arkmatad "
+-"offset och gravyr. Den används för standard tidskriftstryck med gulaktigt "
+-"papper."
++"Profilen används för arkoffsettryck och djuptryck på bestruket papper av "
++"amerikansk kvalitet 5. Den är avsedd för standardtryck av tidskrifter på "
++"gulaktigt papper."
+ 
+ #: data/profiles/WideGamutRGB.iccprofile.xml:3
+ msgid "WideGamutRGB"
+@@ -1388,7 +1378,7 @@
+ 
+ #: data/profiles/WideGamutRGB.iccprofile.xml:4
+ msgid "Wide Gamut RGB"
+-msgstr "Bred färgomfångs-RGB"
++msgstr "RGB med stort färgomfång"
+ 
+ #. TRANSLATORS: 'Adobe Systems' is a trademark, don't translate that
+ #: data/profiles/WideGamutRGB.iccprofile.xml:7
+@@ -1399,11 +1389,11 @@
+ "screen. Unless you are working with 16 bits per channel precision, you may "
+ "see color banding when editing images."
+ msgstr ""
+-"Denna redigeringsrymd designades av Adobe Systems för att täcka många fler "
+-"färger än Adobe RGB. Denna profil används för att trycka på enheter så som "
+-"filminspelare och kan definiera många färger som inte kan visas på en "
+-"datorskärm. Om du inte arbetar med 16 bitars precision per kanal, kan du "
+-"komma att se färgbandning när du redigerar bilder."
++"Den här redigeringsfärgrymden utvecklades av Adobe Systems och omfattar "
++"betydligt fler färger än Adobe RGB. Profilen används för utskrift till "
++"enheter som filmregistrering och kan definiera färger som inte går att visa "
++"på en datorskärm. Om du inte arbetar med 16 bitars precision per kanal kan "
++"färgbandning uppstå vid bildredigering."
+ 
+ #: data/profiles/x11-colors.iccprofile.xml:3
+ msgid "x11-colors"
+@@ -1421,8 +1411,8 @@
+ "This named color profile contains all the colors defined by X11, assuming "
+ "the source colors were supposed to be sRGB."
+ msgstr ""
+-"Denna färgnamnsprofil innehåller alla färger som definieras av X11, under "
+-"antagandet att källfärgerna avsågs vara sRGB."
++"Den här namngivna färgprofilen innehåller alla färger som definieras av X11, "
++"under antagandet att källfärgerna är avsedda för sRGB."
+ 
+ #. SECURITY:
+ #. - Normal users should not have to authenticate to add devices
+@@ -1504,11 +1494,11 @@
+ #. devices.
+ #: policy/org.freedesktop.color.policy.in.in:131
+ msgid "Inhibit color profile selection"
+-msgstr "Hämma färgprofilval"
++msgstr "Blockera val av färgprofil"
+ 
+ #: policy/org.freedesktop.color.policy.in.in:132
+ msgid "Authentication is required to disable profile matching for a device"
+-msgstr "Autentisering krävs för att inaktivera profilmatchning för en enhet"
++msgstr "Autentisering krävs för att inaktivera profilmatchning för enheten"
+ 
+ #. SECURITY:
+ #. - Normal users should not have to authenticate to use the
+@@ -1529,12 +1519,12 @@
+ #. TRANSLATORS: exit straight away, used for automatic profiling
+ #: src/cd-main.c:2370
+ msgid "Exit after the engine has loaded"
+-msgstr "Avsluta efter att motorn har lästs in"
++msgstr "Avsluta när motorn har lästs in"
+ 
+ #. TRANSLATORS: exit straight away, used for automatic profiling
+ #: src/cd-main.c:2373
+ msgid "Create a dummy sensor for testing"
+-msgstr "Skapa en attrappsensor för testning"
++msgstr "Skapa en testsensor"
+ 
+ #: src/cd-main.c:2389
+ msgid "Color Management D-Bus Service"

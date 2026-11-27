@@ -974,3 +974,26 @@ argumentet betyder i just det programmet.
 | peer | motpart | Deltagare/klient i P2P-överföringen. |
 | metered network | nätverk med datatak | Nätverk med datagräns eller avgifter. |
 | tracker | spårare | BitTorrent-tjänst som hjälper till att hitta motparter. |
+
+## Färghantering och ICC-profiler
+
+| Engelska | Rekommenderad svenska | Anmärkning |
+|---|---|---|
+| color management | färghantering | colord och färgprofiler. |
+| color profile / ICC profile | färgprofil / ICC-profil | Behåll ICC som förkortning. |
+| colorspace | färgrymd | |
+| gamut | färgomfång | Exempel: stort färgomfång. |
+| whitepoint | vitpunkt | Skärmkalibrering. |
+| sample (measurement) | mätprov / mätvärde | Välj efter om källan avser provet eller avläst värde. |
+| qualifier | kvalificerare | Teknisk profilbeteckning. |
+| scope | omfång | Objektets räckvidd. |
+| inhibitor | blockering | colord-egenskap som hindrar profilhantering. |
+| coated / uncoated | bestruket / obestruket | Tryckpapper. |
+| sheetfed offset | arkoffsettryck | Tryckteknik. |
+| webfed offset | rulloffsettryck | Tryckteknik. |
+| tone value increase (TVI) | tonvärdesökning (TVI) | Tidigare kallat punktförstoring i vissa sammanhang. |
+| color sensor | färgsensor | |
+| calibration | kalibrering | |
+| bluish | blåaktig | |
+
+Bevara standardiserade namn och identifierare som `sRGB`, `Adobe RGB`, `D50`, `D65`, `FOGRA`, `SMPTE-C` och `X11`.
