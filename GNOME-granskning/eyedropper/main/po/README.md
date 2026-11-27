@@ -14,4 +14,4 @@ och felmeddelanden gjorda idiomatiska på svenska.
 `msgfmt --check`, `msgcmp --use-fuzzy` och `l10n-lint` är godkända utan fel
 eller varningar. Hunspell flaggar endast produktnamn, färgformat, protokoll och tekniska termer samt en sträng i översättaruppgifterna; dessa undantag dokumenteras i `hunspell-undantag.md`.
 
-Ingen inskickning till GNOME har ännu gjorts.
+Uppladdad till Damned Lies 2026-11-27 03:04 UTC med kommentaren ”Granskad och klar”; aktivitetssidan bekräftar 66/0/0.
