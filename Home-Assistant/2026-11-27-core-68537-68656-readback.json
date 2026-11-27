@@ -1,0 +1,242 @@
+[
+  {
+    "key": "component::daikin::services::set_demand_control::description",
+    "key_id": "955578521",
+    "translation_id": "10017600613",
+    "en": "Limits the maximum power of the Daikin unit as a percentage of its nominal power, for example during peak electricity price periods.",
+    "before": "Begränsar Daikin-enhetens högsta effekt till en procentandel av dess nominella effekt, till exempel under perioder med högt elpris.",
+    "after": "Begränsar Daikin-enhetens maximala effekt till en viss procent av märkeffekten, till exempel under perioder med höga elpriser.",
+    "readback": "Begränsar Daikin-enhetens maximala effekt till en viss procent av märkeffekten, till exempel under perioder med höga elpriser.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::daikin::services::set_demand_control::fields::device_id::description",
+    "key_id": "955578522",
+    "translation_id": "10017600677",
+    "en": "The Daikin device to limit.",
+    "before": "Daikin-enheten att begränsa.",
+    "after": "Daikin-enheten vars effekt ska begränsas.",
+    "readback": "Daikin-enheten vars effekt ska begränsas.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::daikin::services::set_demand_control::fields::max_pow::description",
+    "key_id": "955578526",
+    "translation_id": "10017600933",
+    "en": "Maximum power as a percentage of the unit's nominal power. Only used when enabling demand control.",
+    "before": "Högsta effekt som procentandel av enhetens nominella effekt. Används bara när effektstyrning aktiveras.",
+    "after": "Maximal effekt som procent av enhetens märkeffekt. Används bara när effektstyrningen aktiveras.",
+    "readback": "Maximal effekt som procent av enhetens märkeffekt. Används bara när effektstyrningen aktiveras.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::daikin::services::set_demand_control::name",
+    "key_id": "955578530",
+    "translation_id": "10017601189",
+    "en": "Set demand control",
+    "before": "Ange effektstyrning",
+    "after": "Ställ in effektstyrning",
+    "readback": "Ställ in effektstyrning",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::renault::config::step::two_factor_email::data_description::email",
+    "key_id": "956623410",
+    "translation_id": "10031839834",
+    "en": "The email address to send the verification code to",
+    "before": "E-postadressen som verifieringskoden ska skickas till",
+    "after": "E-postadressen som ska ta emot verifieringskoden.",
+    "readback": "E-postadressen som ska ta emot verifieringskoden.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::lg_infrared::config::step::reconfigure::data_description::infrared_entity_id",
+    "key_id": "956810109",
+    "translation_id": "10036732271",
+    "en": "The infrared emitter entity to use for sending commands.",
+    "before": "Sändarentiteten som ska användas för att skicka infraröda kommandon.",
+    "after": "Entiteten för den infraröda sändaren som ska användas för att skicka kommandon.",
+    "readback": "Entiteten för den infraröda sändaren som ska användas för att skicka kommandon.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::lg_infrared::config::step::reconfigure::data_description::infrared_receiver_entity_id",
+    "key_id": "956810110",
+    "translation_id": "10036732335",
+    "en": "The infrared receiver entity to use for receiving signals.",
+    "before": "Mottagarentiteten som ska användas för att ta emot infraröda signaler.",
+    "after": "Entiteten för den infraröda mottagaren som ska användas för att ta emot signaler.",
+    "readback": "Entiteten för den infraröda mottagaren som ska användas för att ta emot signaler.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::lg_infrared::config::step::reconfigure::description",
+    "key_id": "956810111",
+    "translation_id": "10036732399",
+    "en": "Change the infrared entities used by your LG device. For an air conditioner, you can also change its supported modes.",
+    "before": "Ändra de infraröda entiteter som LG-enheten använder. För en luftkonditionering kan du även ändra de driftlägen den stöder.",
+    "after": "Ändra de infraröda entiteter som LG-enheten använder. För en luftkonditionering kan du även ändra vilka driftlägen den stöder.",
+    "readback": "Ändra de infraröda entiteter som LG-enheten använder. För en luftkonditionering kan du även ändra vilka driftlägen den stöder.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::tesla_fleet::services::navigate_to_waypoints::description",
+    "key_id": "956821828",
+    "translation_id": "10036804702",
+    "en": "Sets vehicle navigation to an ordered list of Google Place IDs. The last place is the final destination.",
+    "before": "Anger bilens navigering till en ordnad lista med Google Place-ID:n. Den sista platsen är slutdestinationen.",
+    "after": "Ställer in bilens navigering via en ordnad lista med Google Place-ID:n. Den sista platsen är slutdestinationen.",
+    "readback": "Ställer in bilens navigering via en ordnad lista med Google Place-ID:n. Den sista platsen är slutdestinationen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::tesla_fleet::services::navigate_to_waypoints::name",
+    "key_id": "956821833",
+    "translation_id": "10036805022",
+    "en": "Navigate to waypoints",
+    "before": "Navigera till delmål",
+    "after": "Navigera via delmål",
+    "readback": "Navigera via delmål",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::shelly::entity::switch::effect_reverse::name",
+    "key_id": "956831532",
+    "translation_id": "10037358513",
+    "en": "Reverse effect",
+    "before": "Omvänd effekt",
+    "after": "Vänd effektriktningen",
+    "readback": "Vänd effektriktningen",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::unifiprotect::services::trigger_alarm_webhook::description",
+    "key_id": "956833248",
+    "translation_id": "10037370640",
+    "en": "Fires an Alarm Manager webhook trigger, running the alarms that use it.",
+    "before": "Aktiverar en Alarm Manager-webhook-utlösare och kör de larm som använder den.",
+    "after": "Utlöser en webhook-utlösare i Alarm Manager och kör de larm som använder den.",
+    "readback": "Utlöser en webhook-utlösare i Alarm Manager och kör de larm som använder den.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::besen::services::start_charging::fields::duration::description",
+    "key_id": "956901113",
+    "translation_id": "10038399767",
+    "en": "How long the charger charges before it ends the session. Leave empty for no time limit.",
+    "before": "Hur länge laddaren laddar innan sessionen avslutas. Lämna tomt för ingen tidsgräns.",
+    "after": "Hur länge laddaren ska ladda innan laddningssessionen avslutas. Lämna tomt om laddningen inte ska tidsbegränsas.",
+    "readback": "Hur länge laddaren ska ladda innan laddningssessionen avslutas. Lämna tomt om laddningen inte ska tidsbegränsas.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::besen::services::start_charging::fields::start::description",
+    "key_id": "956901115",
+    "translation_id": "10038399895",
+    "en": "When the charger starts charging, at most 24 hours ahead. Leave empty to start now.",
+    "before": "När laddaren ska börja ladda, högst 24 timmar framåt. Lämna tomt för att starta nu.",
+    "after": "Ange när laddningen ska starta, högst 24 timmar i förväg. Lämna tomt för att starta direkt.",
+    "readback": "Ange när laddningen ska starta, högst 24 timmar i förväg. Lämna tomt för att starta direkt.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::nature_remo::exceptions::auth_failed::message",
+    "key_id": "957030715",
+    "translation_id": "10041755129",
+    "en": "Access token is invalid or was revoked",
+    "before": "Åtkomsttoken är ogiltig eller har återkallats.",
+    "after": "Åtkomsttokenen är ogiltig eller har återkallats.",
+    "readback": "Åtkomsttokenen är ogiltig eller har återkallats.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::nature_remo::exceptions::update_failed::message",
+    "key_id": "957030716",
+    "translation_id": "10041755193",
+    "en": "Error communicating with the Nature API: {error}",
+    "before": "Fel vid kommunikation med Nature-API:t: {error}",
+    "after": "Det gick inte att kommunicera med Nature-API:t: {error}",
+    "readback": "Det gick inte att kommunicera med Nature-API:t: {error}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::nature_remo::exceptions::update_rate_limited::message",
+    "key_id": "957030717",
+    "translation_id": "10041755257",
+    "en": "Nature API rate limit exceeded; requests are accepted again at {reset}",
+    "before": "Gränsen för antalet anrop till Nature-API:t har överskridits. Anrop tas emot igen {reset}.",
+    "after": "Gränsen för antalet anrop till Nature-API:t har överskridits. Nya anrop godtas från och med {reset}.",
+    "readback": "Gränsen för antalet anrop till Nature-API:t har överskridits. Nya anrop godtas från och med {reset}.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::knx::services::save_scene::description",
+    "key_id": "957499537",
+    "translation_id": "10049759594",
+    "en": "Tells KNX actuators to store their current state in the scene of the selected scene entity. Requires actuators supporting scene learning (DPT 18.001).",
+    "before": "Ber KNX-aktorer att lagra sitt aktuella tillstånd i scenen för den valda scenentiteten. Kräver aktorer med stöd för sceninlärning (DPT 18.001).",
+    "after": "Sparar de aktuella tillstånden från KNX-aktorerna i den valda scenen. Kräver stöd för sceninlärning (DPT 18.001).",
+    "readback": "Sparar de aktuella tillstånden från KNX-aktorerna i den valda scenen. Kräver stöd för sceninlärning (DPT 18.001).",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::homeassistant::integration_category::ai_voice::description",
+    "key_id": "957787145",
+    "translation_id": "10053458829",
+    "en": "AI models and agents, voice assistants, speech-to-text, text-to-speech and image recognition.",
+    "before": "AI-modeller och agenter, röstassistenter, tal till text, text till tal och bildigenkänning.",
+    "after": "AI-modeller och agenter, röstassistenter, tal-till-text, text-till-tal och bildigenkänning.",
+    "readback": "AI-modeller och agenter, röstassistenter, tal-till-text, text-till-tal och bildigenkänning.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::homeassistant::integration_category::appliances_cleaning::name",
+    "key_id": "957787152",
+    "translation_id": "10053459277",
+    "en": "Appliances & cleaning",
+    "before": "Apparater och rengöring",
+    "after": "Hushållsapparater och städning",
+    "readback": "Hushållsapparater och städning",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::infrared::common::infrared_entity_id_description",
+    "key_id": "986389159",
+    "translation_id": "10425483497",
+    "en": "The infrared emitter entity to use for sending commands.",
+    "before": "Sändarentiteten som ska användas för att skicka infraröda kommandon.",
+    "after": "Entiteten för den infraröda sändaren som ska användas för att skicka kommandon.",
+    "readback": "Entiteten för den infraröda sändaren som ska användas för att skicka kommandon.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::infrared::common::infrared_receiver_entity_id_description",
+    "key_id": "986488181",
+    "translation_id": "10426429810",
+    "en": "The infrared receiver entity to use for receiving signals.",
+    "before": "Mottagarentiteten som ska användas för att ta emot infraröda signaler.",
+    "after": "Entiteten för den infraröda mottagaren som ska användas för att ta emot signaler.",
+    "readback": "Entiteten för den infraröda mottagaren som ska användas för att ta emot signaler.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::unifiprotect::services::trigger_alarm_webhook::name",
+    "key_id": "956833253",
+    "translation_id": "10037370960",
+    "en": "Trigger alarm webhook",
+    "before": "Aktivera larmwebhook",
+    "after": "Utlös larmwebhook",
+    "readback": "Utlös larmwebhook",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::daikin::exceptions::demand_control_invalid_device::message",
+    "key_id": "955578517",
+    "translation_id": "10017600357",
+    "en": "No Daikin config entry found for the given device.",
+    "before": "Ingen Daikin-konfigurationspost hittades för den angivna enheten.",
+    "after": "Ingen konfigurationspost för Daikin hittades för den angivna enheten.",
+    "readback": "Ingen konfigurationspost för Daikin hittades för den angivna enheten.",
+    "status": "saved-and-read-back"
+  }
+]
