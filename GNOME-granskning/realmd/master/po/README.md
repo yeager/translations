@@ -6,4 +6,4 @@
 - Acceleratorer: inga `_ä`, `_å` eller `_ö` förekommer.
 - Validering: `msgfmt --check` utan fel. `l10n-lint --language sv` har 0 fel och 0 varningar; fyra informationsnotiser gäller typografi kring tekniska uttryck.
 - Hunspell: AD, IPA, LDAP, LDAPS, Netlogon, Samba, SSSD, keytab och sssd.conf är avsiktliga tekniska termer.
-- GNOME-inskick: inget.
+- Uppladdad 2026-11-27 kl. 00:22 UTC med kommentaren ”Granskad och klar”. Aktivitetssidan bekräftar sammanslagning 139/0/0; statistik-API:t visar ännu äldre 119/10/10.
