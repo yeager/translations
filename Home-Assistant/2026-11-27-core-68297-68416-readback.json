@@ -1,0 +1,272 @@
+[
+  {
+    "key": "component::theben_conexa::config::abort::unique_id_mismatch",
+    "key_id": "954260514",
+    "translation_id": "10001649052",
+    "en": "The credentials belong to a different smartmeter gateway than the one configured.",
+    "before": "Autentiseringsuppgifterna hör till en annan smartmätargateway än den konfigurerade.",
+    "after": "Autentiseringsuppgifterna hör till en annan smartmätargateway än den som integreringen konfigurerades med.",
+    "readback": "Autentiseringsuppgifterna hör till en annan smartmätargateway än den som integreringen konfigurerades med.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::theben_conexa::config::step::reauth_confirm::description",
+    "key_id": "954260517",
+    "translation_id": "10001649244",
+    "en": "The password for user {username} on the smartmeter gateway at {host} is no longer valid. Please enter the current password.",
+    "before": "Lösenordet för användaren {username} på smartmätargatewayen på {host} är inte längre giltigt. Ange aktuellt lösenord.",
+    "after": "Lösenordet för användaren {username} till smartmätargatewayen på {host} är inte längre giltigt. Ange det aktuella lösenordet.",
+    "readback": "Lösenordet för användaren {username} till smartmätargatewayen på {host} är inte längre giltigt. Ange det aktuella lösenordet.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::flow_it::config::abort::unique_id_mismatch",
+    "key_id": "954260589",
+    "translation_id": "10001651563",
+    "en": "The device you are trying to reauthenticate is not the same as the one configured.",
+    "before": "Enheten som du försöker autentisera på nytt är inte samma som den konfigurerade.",
+    "after": "Enheten du försöker autentisera på nytt är inte samma enhet som integreringen konfigurerades med.",
+    "readback": "Enheten du försöker autentisera på nytt är inte samma enhet som integreringen konfigurerades med.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::flow_it::config::step::reauth_confirm::data_description::password",
+    "key_id": "954260591",
+    "translation_id": "10001651691",
+    "en": "The password is available on the physical device LCD display, by interacting with the menu, clicking on the 'settings' icon and then on the 'wifi icon'.",
+    "before": "Lösenordet visas på enhetens LCD-skärm. Öppna menyn, välj ikonen ”Inställningar” och sedan Wi-Fi-ikonen.",
+    "after": "Lösenordet visas på enhetens LCD-skärm. Öppna menyn, tryck på ikonen ”Inställningar” och sedan på Wi-Fi-ikonen.",
+    "readback": "Lösenordet visas på enhetens LCD-skärm. Öppna menyn, tryck på ikonen ”Inställningar” och sedan på Wi-Fi-ikonen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::flow_it::config::step::user::data_description::password",
+    "key_id": "912753082",
+    "translation_id": "9427863469",
+    "en": "The password is available on the physical device LCD display, by interacting with the menu, clicking on the 'settings' icon and then on the 'wifi icon'.",
+    "before": "Lösenordet visas på enhetens LCD-skärm. Öppna menyn, tryck på ikonen Inställningar och sedan på Wi-Fi-ikonen.",
+    "after": "Lösenordet visas på enhetens LCD-skärm. Öppna menyn, tryck på ikonen ”Inställningar” och sedan på Wi-Fi-ikonen.",
+    "readback": "Lösenordet visas på enhetens LCD-skärm. Öppna menyn, tryck på ikonen ”Inställningar” och sedan på Wi-Fi-ikonen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::saj::config::step::reauth_confirm::data_description::password",
+    "key_id": "954260600",
+    "translation_id": "10001652267",
+    "en": "The password used to log in to the Wi-Fi module of the inverter.",
+    "before": "Lösenordet som används för att logga in på växelriktarens WiFi-modul.",
+    "after": "Lösenordet som används för att logga in på växelriktarens Wi-Fi-modul.",
+    "readback": "Lösenordet som används för att logga in på växelriktarens Wi-Fi-modul.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sofar::config::step::reconfigure::description",
+    "key_id": "954261134",
+    "translation_id": "10001657633",
+    "en": "Update where this inverter is reached, for example after it moved to another address or its RS485 bus was rewired. Moving it between a network and a serial connection keeps this entry and its history.\n\nIt has to stay the same inverter: the serial number that answers is checked against the one this entry was set up with.",
+    "before": "Uppdatera var växelriktaren nås, till exempel om den har flyttats till en annan adress eller om dess RS485-buss har kopplats om. Att flytta den mellan en nätverksanslutning och en seriell anslutning behåller den här posten och dess historik.\n\nDet måste vara samma växelriktare: serienumret som svarar kontrolleras mot det som posten ursprungligen konfigurerades med.",
+    "after": "Uppdatera adressen som används för att nå växelriktaren, till exempel om den får en ny adress eller om RS-485-bussen kopplas om. Om du byter mellan nätverks- och serieanslutning behålls konfigurationsposten och dess historik.\n\nDet måste vara samma växelriktare: serienumret från växelriktaren kontrolleras mot serienumret för enheten som posten konfigurerades med.",
+    "readback": "Uppdatera adressen som används för att nå växelriktaren, till exempel om den får en ny adress eller om RS-485-bussen kopplas om. Om du byter mellan nätverks- och serieanslutning behålls konfigurationsposten och dess historik.\n\nDet måste vara samma växelriktare: serienumret från växelriktaren kontrolleras mot serienumret för enheten som posten konfigurerades med.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::chess_com::exceptions::update_error::message",
+    "key_id": "954270858",
+    "translation_id": "10002117561",
+    "en": "An error occurred while communicating with Chess.com: {error}",
+    "before": "Ett fel uppstod vid kommunikation med Chess.com: {error}",
+    "after": "Ett fel uppstod i kommunikationen med Chess.com: {error}",
+    "readback": "Ett fel uppstod i kommunikationen med Chess.com: {error}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::analytics_insights::exceptions::connection_error::message",
+    "key_id": "954270859",
+    "translation_id": "10002117626",
+    "en": "Could not reach Home Assistant Analytics while fetching {endpoint}: {error}",
+    "before": "Det gick inte att nå Home Assistant Analytics vid hämtning av {endpoint}: {error}",
+    "after": "Det gick inte att nå Home Assistant Analytics när {endpoint} hämtades: {error}",
+    "readback": "Det gick inte att nå Home Assistant Analytics när {endpoint} hämtades: {error}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::knocki::exceptions::update_error::message",
+    "key_id": "954270863",
+    "translation_id": "10002117882",
+    "en": "An error occurred while communicating with Knocki",
+    "before": "Ett fel uppstod vid kommunikation med Knocki.",
+    "after": "Det gick inte att kommunicera med Knocki.",
+    "readback": "Det gick inte att kommunicera med Knocki.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::youtube::exceptions::update_error::message",
+    "key_id": "954270929",
+    "translation_id": "10002118626",
+    "en": "An error occurred while communicating with YouTube.",
+    "before": "Ett fel uppstod vid kommunikation med YouTube.",
+    "after": "Ett fel uppstod i kommunikationen med YouTube.",
+    "readback": "Ett fel uppstod i kommunikationen med YouTube.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::open_router::exceptions::api_error::message",
+    "key_id": "954271015",
+    "translation_id": "10002119210",
+    "en": "Error communicating with the OpenRouter API: {error}",
+    "before": "Fel vid kommunikation med OpenRouter-API:t: {error}",
+    "after": "Fel i kommunikationen med OpenRouter-API:t: {error}",
+    "readback": "Fel i kommunikationen med OpenRouter-API:t: {error}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::smartthings::exceptions::cannot_connect::message",
+    "key_id": "954271027",
+    "translation_id": "10002119978",
+    "en": "An error occurred while communicating with SmartThings: {error}",
+    "before": "Ett fel uppstod vid kommunikation med SmartThings: {error}",
+    "after": "Ett fel uppstod i kommunikationen med SmartThings: {error}",
+    "readback": "Ett fel uppstod i kommunikationen med SmartThings: {error}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::smartthings::exceptions::dishwasher_machine_state::message",
+    "key_id": "954271030",
+    "translation_id": "10002120170",
+    "en": "Can only be changed when the dishwasher machine state is {machine_state}",
+    "before": "Kan bara ändras när diskmaskinens maskintillstånd är {machine_state}",
+    "after": "Kan bara ändras när diskmaskinen är i läget {machine_state}",
+    "readback": "Kan bara ändras när diskmaskinen är i läget {machine_state}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::spotify::exceptions::invalid_account::message",
+    "key_id": "954271033",
+    "translation_id": "10002120362",
+    "en": "Invalid Spotify account specified",
+    "before": "Ogiltigt Spotify-konto har angetts.",
+    "after": "Det angivna Spotify-kontot är ogiltigt.",
+    "readback": "Det angivna Spotify-kontot är ogiltigt.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::spotify::exceptions::invalid_url::message",
+    "key_id": "954271034",
+    "translation_id": "10002120426",
+    "en": "Invalid Spotify URL specified",
+    "before": "Ogiltig Spotify-URL har angetts.",
+    "after": "Den angivna Spotify-URL:en är ogiltig.",
+    "readback": "Den angivna Spotify-URL:en är ogiltig.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::spotify::exceptions::media_not_found::message",
+    "key_id": "954271035",
+    "translation_id": "10002120490",
+    "en": "Spotify media not found: {media_content_type} / {media_content_id}",
+    "before": "Spotify-media hittades inte: {media_content_type} / {media_content_id}",
+    "after": "Spotify-innehållet hittades inte: {media_content_type} / {media_content_id}",
+    "readback": "Spotify-innehållet hittades inte: {media_content_type} / {media_content_id}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::spotify::exceptions::missing_scopes::message",
+    "key_id": "954271036",
+    "translation_id": "10002120554",
+    "en": "The Spotify access token is missing required permissions. Please reauthenticate",
+    "before": "Spotify-åtkomsttoken saknar nödvändiga behörigheter. Autentisera på nytt.",
+    "after": "Spotify-åtkomsttokenen saknar nödvändiga behörigheter. Autentisera på nytt.",
+    "readback": "Spotify-åtkomsttokenen saknar nödvändiga behörigheter. Autentisera på nytt.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::spotify::exceptions::token_refresh_failed::message",
+    "key_id": "954271037",
+    "translation_id": "10002120618",
+    "en": "An error occurred while refreshing the Spotify access token: {error}",
+    "before": "Ett fel uppstod vid förnyelse av Spotify-åtkomsttoken: {error}",
+    "after": "Ett fel uppstod när Spotify-åtkomsttokenen förnyades: {error}",
+    "readback": "Ett fel uppstod när Spotify-åtkomsttokenen förnyades: {error}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::spotify::exceptions::update_failed::message",
+    "key_id": "954271038",
+    "translation_id": "10002120682",
+    "en": "An error occurred while communicating with Spotify: {error}",
+    "before": "Ett fel uppstod vid kommunikation med Spotify: {error}",
+    "after": "Ett fel uppstod i kommunikationen med Spotify: {error}",
+    "readback": "Ett fel uppstod i kommunikationen med Spotify: {error}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::text::exceptions::value_too_long::message",
+    "key_id": "954271049",
+    "translation_id": "10002121417",
+    "en": "Value {value} for {entity_id} is too long (maximum length {max}).",
+    "before": "Värdet {value} för {entity_id} är för långt, högsta längd är {max}.",
+    "after": "Värdet {value} för {entity_id} är för långt (maximal längd: {max}).",
+    "readback": "Värdet {value} för {entity_id} är för långt (maximal längd: {max}).",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::text::exceptions::value_too_short::message",
+    "key_id": "954271050",
+    "translation_id": "10002121481",
+    "en": "Value {value} for {entity_id} is too short (minimum length {min}).",
+    "before": "Värdet {value} för {entity_id} är för kort, minsta längd är {min}.",
+    "after": "Värdet {value} för {entity_id} är för kort (minsta längd: {min}).",
+    "readback": "Värdet {value} för {entity_id} är för kort (minsta längd: {min}).",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::ai_task::exceptions::generate_data_not_supported::message",
+    "key_id": "954271063",
+    "translation_id": "10002122094",
+    "en": "AI Task entity {entity_id} does not support generating data.",
+    "before": "AI Task-entiteten {entity_id} stöder inte datagenerering.",
+    "after": "AI-uppgiftsentiteten {entity_id} stöder inte datagenerering.",
+    "readback": "AI-uppgiftsentiteten {entity_id} stöder inte datagenerering.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::ai_task::exceptions::generate_image_not_supported::message",
+    "key_id": "954271064",
+    "translation_id": "10002122158",
+    "en": "AI Task entity {entity_id} does not support generating images.",
+    "before": "AI Task-entiteten {entity_id} stöder inte bildgenerering.",
+    "after": "AI-uppgiftsentiteten {entity_id} stöder inte bildgenerering.",
+    "readback": "AI-uppgiftsentiteten {entity_id} stöder inte bildgenerering.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::ai_task::exceptions::no_entity::message",
+    "key_id": "954271066",
+    "translation_id": "10002122286",
+    "en": "No entity_id provided and no preferred entity set.",
+    "before": "Inget entity_id har angetts och ingen prioriterad entitet har angetts.",
+    "after": "Inget entity_id har angetts och ingen föredragen entitet har konfigurerats.",
+    "readback": "Inget entity_id har angetts och ingen föredragen entitet har konfigurerats.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::tts::exceptions::no_tts_audio::message",
+    "key_id": "954271078",
+    "translation_id": "10002123069",
+    "en": "No text-to-speech audio from {engine} for \"{message}\".",
+    "before": "Inget ljud för text till tal från {engine} för ”{message}”.",
+    "after": "Motorn {engine} genererade inget talat ljud för ”{message}”.",
+    "readback": "Motorn {engine} genererade inget talat ljud för ”{message}”.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::zonneplan::entity::sensor::battery_state::state::backup_power_active",
+    "key_id": "954356648",
+    "translation_id": "10004170304",
+    "en": "Backup power active",
+    "before": "Reservström aktiv",
+    "after": "Reservkraft aktiv",
+    "readback": "Reservkraft aktiv",
+    "status": "saved-and-read-back"
+  }
+]
