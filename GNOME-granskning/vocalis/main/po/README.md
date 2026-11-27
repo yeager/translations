@@ -1,7 +1,8 @@
 # Vocalis — main/po — svensk granskning
 
 - GNOME-aktivitet: <https://l10n.gnome.org/vertimus/vocalis/main/po/sv/>
-- Granskad: 2026-11-23
+- Ursprunglig granskning: 2026-11-23
+- Senaste statuskontroll och inskickning: 2026-11-27 02:03 UTC
 - Aktuell POT: 73 aktiva strängar
 - Nya översättningar: 0
 - Korrigerade befintliga översättningar: 10
@@ -17,5 +18,4 @@ platshållare är oförändrade. PO-rubriken anger Daniel Nylander som senaste
 eller varningar. Lint-informationen gäller giltiga svenska acceleratorer i
 _Återuppta och A_vbryt.
 
-Den granskade filen är komplett och fuzzy-fri. Ingen inskickning till GNOME
-har gjorts i detta steg.
+Den granskade filen är komplett och fuzzy-fri. Uppladdad via Damned Lies API 2026-11-27 02:03 UTC med kommentaren ”Granskad och klar”. Aktivitetssidan bekräftar 73/0/0.
