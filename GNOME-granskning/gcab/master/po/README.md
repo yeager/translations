@@ -16,4 +16,4 @@ felfria. Filen laddades upp med kommentaren `Granskad och klar`; API:t svarade
 
 - 3 befintliga strängar korrigerade: beskrivande kommandoradsargument översatta till svenska.
 - Validering: `msgfmt --check`; `l10n-lint`-regeln `metavariable-translation` ger inga kvarvarande träffar i de 295 granskade huvudgrenarnas kataloger.
-- Ändringen är lokal och har inte skickats till GNOME.
+- Den uppdaterade granskningen innehöll fem ändrade poster jämfört med den aktuella GNOME-filen. Uppladdad 2026-11-27 kl. 01:23 UTC med kommentaren ”Granskad och klar”; aktivitetssidan bekräftar sammanslagning 34/0/0.
