@@ -1,0 +1,1362 @@
+--- donate-gnome-org.main.sv.original.po
++++ donate-gnome-org.main.sv.reviewed.po
+@@ -8,9 +8,9 @@
+ "Project-Id-Version: \n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2026-11-19 12:07+0000\n"
+-"PO-Revision-Date: 2026-11-20 23:58+0100\n"
+-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
++"PO-Revision-Date: 2026-11-27 22:30+0100\n"
++"Last-Translator: Daniel Nylander <gnome@danielnylander.se>\n"
++"Language-Team: Swedish\n"
+ "Language: sv\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+@@ -27,8 +27,8 @@
+ "GNOME needs your help. Your donation will sustain our open source project "
+ "for future generations."
+ msgstr ""
+-"GNOME behöver din hjälp. Din donation kommer stödja vårt öppen "
+-"källkodsprojekt för framtida generationer."
++"GNOME behöver din hjälp. Din donation bidrar till att säkra framtiden för "
++"vårt projekt med öppen källkod."
+ 
+ #: donate/campaigns.py:16
+ msgid "Let's build the future of GNOME together"
+@@ -39,12 +39,12 @@
+ "Help us reach our fundraiser goal for 2026, to build a stronger, healthier "
+ "GNOME ecosystem"
+ msgstr ""
+-"Hjälp oss nå vårt insamlingsmål för 2026 så vi kan bygga ett starkare, "
+-"hälsosammare GNOME-ekosystem"
++"Hjälp oss att nå insamlingsmålet för 2026 och bygga ett starkare och mer "
++"livskraftigt GNOME-ekosystem"
+ 
+ #: donate/forms.py:16
+ msgid "Minimum donation is 1"
+-msgstr "Minsta donation är 1"
++msgstr "Minsta donationen är 1"
+ 
+ #: donate/forms.py:45
+ msgid "Please select a valid year"
+@@ -52,7 +52,7 @@
+ 
+ #: donate/models.py:21 donate/models.py:27
+ msgid "Not Activated"
+-msgstr "Inte aktiverat"
++msgstr "Inte aktiverad"
+ 
+ #: donate/models.py:22 donate/models.py:28
+ msgid "Activated"
+@@ -60,7 +60,7 @@
+ 
+ #: donate/models.py:23 donate/models.py:29
+ msgid "Discontinued"
+-msgstr "Avslutat"
++msgstr "Avslutad"
+ 
+ #: donate/models.py:142
+ msgid "PayPal subscription"
+@@ -72,16 +72,16 @@
+ 
+ #: donate/models.py:161
+ msgid "PayPal webhook event"
+-msgstr "PayPal-webbkrokshändelse"
++msgstr "PayPal-webhookhändelse"
+ 
+ #: donate/models.py:162
+ msgid "PayPal webhook events"
+-msgstr "PayPal-webbkrokshändelser"
++msgstr "PayPal-webhookhändelser"
+ 
+ #: donate/utils/email.py:13
+ #, python-format
+ msgid "GNOME Foundation - Your %(year)s Donation Receipt"
+-msgstr "GNOME Foundation - Ditt donationskvitto för %(year)s"
++msgstr "GNOME Foundation – ditt donationskvitto för %(year)s"
+ 
+ #: donate/utils/email.py:16
+ #, python-format
+@@ -100,16 +100,15 @@
+ msgstr ""
+ "Hej,\n"
+ "\n"
+-"Du begärde ett donationskvitto för %(year)s från GNOME Foundation.\n"
++"Du har begärt ett donationskvitto från GNOME Foundation för %(year)s.\n"
+ "\n"
+-"För att hämta ditt kvitto, besök:\n"
++"Hämta kvittot via länken:\n"
+ "\n"
+ "%(verification_url)s\n"
+ "\n"
+-"Denna länk kommer sluta gälla om 24 timmar.\n"
++"Länken slutar gälla om 24 timmar.\n"
+ "\n"
+-"Om du inte begärde detta kvitto kan du lugnt ignorera detta e-"
+-"postmeddelande.\n"
++"Om du inte har begärt kvittot kan du bortse från det här meddelandet.\n"
+ 
+ #: donate/utils/email.py:46
+ msgid "Activate Your Profile on donate.gnome.org"
+@@ -127,12 +126,9 @@
+ #: donate/utils/email.py:53
+ #, python-format
+ msgid ""
+-"I'm Bart, an infrastructure engineer at the GNOME Foundation. Thank you for "
+-"becoming a Friend of GNOME!\n"
++"I'm Bart, an infrastructure engineer at the GNOME Foundation. Thank you for becoming a Friend of GNOME!\n"
+ "\n"
+-"We noticed that you haven't activated your profile on donate.gnome.org yet. "
+-"It's a completely optional step, but if you choose to do so, your name will "
+-"become visible on the website.\n"
++"We noticed that you haven't activated your profile on donate.gnome.org yet. It's a completely optional step, but if you choose to do so, your name will become visible on the website.\n"
+ "\n"
+ "To activate your profile, visit:\n"
+ "\n"
+@@ -143,12 +139,9 @@
+ "Best regards,\n"
+ "Bart\n"
+ msgstr ""
+-"Mitt namn är Bart, infrastrukturingenjör på GNOME Foundation. Tack för att "
+-"du blivit en vän till GNOME!\n"
++"Mitt namn är Bart, infrastrukturingenjör på GNOME Foundation. Tack för att du blivit en vän till GNOME!\n"
+ "\n"
+-"Vi upptäckte att du inte har aktiverat din profil på donate.gnome.org ännu. "
+-"Detta är helt frivilligt, men om du väljer att göra det kommer ditt namn "
+-"vara synligt på webbplatsen.\n"
++"Vi upptäckte att du inte har aktiverat din profil på donate.gnome.org ännu. Detta är helt frivilligt, men om du väljer att göra det kommer ditt namn vara synligt på webbplatsen.\n"
+ "\n"
+ "För att aktivera din profil, besök:\n"
+ "\n"
+@@ -161,7 +154,7 @@
+ 
+ #: donate/utils/email.py:89
+ msgid "Your Friend of GNOME profile link"
+-msgstr "Din Friend of GNOME-profillänk"
++msgstr "Länk till din profil som vän till GNOME"
+ 
+ #: donate/utils/email.py:92
+ #, python-format
+@@ -178,14 +171,13 @@
+ msgstr ""
+ "Hej,\n"
+ "\n"
+-"någon begärde en länk för att uppdatera din Friend of GNOME-profil.\n"
++"Någon har begärt en länk för att uppdatera din profil som vän till GNOME.\n"
+ "\n"
+-"Använd denna länk för att ändra ditt visningsnamn och dina offentliga "
+-"donatorinställningar:\n"
++"Använd länken för att ändra visningsnamn och inställningar för den offentliga donatorprofilen:\n"
+ "\n"
+ "%(profile_url)s\n"
+ "\n"
+-"Om du inte begärde detta kan du lugnt ignorera detta e-postmeddelande.\n"
++"Om du inte har begärt länken kan du bortse från det här meddelandet.\n"
+ 
+ #: donate/views.py:129
+ #, python-format
+@@ -195,27 +187,27 @@
+ #: donate/views.py:140
+ #, python-format
+ msgid "About Donations - %(organization_name)s"
+-msgstr "Om donationer - %(organization_name)s"
++msgstr "Om donationer – %(organization_name)s"
+ 
+ #: donate/views.py:152
+ #, python-format
+ msgid "Alternative Donations - %(organization_name)s"
+-msgstr "Alternativa donationer - %(organization_name)s"
++msgstr "Alternativa donationssätt – %(organization_name)s"
+ 
+ #: donate/views.py:163
+ #, python-format
+ msgid "Donation Help - %(organization_name)s"
+-msgstr "Donationshjälp - %(organization_name)s"
++msgstr "Hjälp med donationer – %(organization_name)s"
+ 
+ #: donate/views.py:174
+ #, python-format
+ msgid "One-Time Donations - %(organization_name)s"
+-msgstr "Engångsdonationer - %(organization_name)s"
++msgstr "Engångsdonationer – %(organization_name)s"
+ 
+ #: donate/views.py:187
+ #, python-format
+ msgid "Corporate Sponsorship - %(organization_name)s"
+-msgstr "Företagssponsring - %(organization_name)s"
++msgstr "Företagssponsring – %(organization_name)s"
+ 
+ #: donate/views.py:334
+ msgid "Custom Donation"
+@@ -223,7 +215,7 @@
+ 
+ #: donate/views.py:347
+ msgid "Failed to create checkout session"
+-msgstr "Misslyckades med att skapa utcheckningssession"
++msgstr "Det gick inte att skapa en betalningssession"
+ 
+ #: donate/views.py:354
+ #, python-format
+@@ -275,7 +267,7 @@
+ 
+ #: donate/views.py:513 donate/views.py:678 donate/views.py:706
+ msgid "Failed to retrieve session"
+-msgstr "Misslyckades med att hämta session"
++msgstr "Det gick inte att hämta sessionen"
+ 
+ #: donate/views.py:613
+ #, python-format
+@@ -285,7 +277,7 @@
+ #: donate/views.py:620
+ #, python-format
+ msgid "Failed to activate membership: %(error)s"
+-msgstr "Misslyckades med att aktivera medlemskap: %(error)s"
++msgstr "Det gick inte att aktivera medlemskapet: %(error)s"
+ 
+ #: donate/views.py:642 donate/views.py:760
+ #, python-format
+@@ -299,12 +291,12 @@
+ 
+ #: donate/views.py:720
+ msgid "Failed to verify session"
+-msgstr "Misslyckades med att verifiera session"
++msgstr "Det gick inte att verifiera sessionen"
+ 
+ #: donate/views.py:767
+ #, python-format
+ msgid "Failed to activate sponsorship: %(error)s"
+-msgstr "Misslyckades med att aktivera sponsring: %(error)s"
++msgstr "Det gick inte att aktivera sponsringen: %(error)s"
+ 
+ #: donate/views.py:1000 donate/views.py:1022
+ #, python-format
+@@ -324,7 +316,7 @@
+ #: donate/views.py:1265
+ #, python-format
+ msgid "GNOME Foundation Donation Receipt %(year)s"
+-msgstr "GNOME Foundation-donationskvitto för %(year)s"
++msgstr "Donationskvitto från GNOME Foundation för %(year)s"
+ 
+ #: donate/views.py:1267
+ #, python-format
+@@ -341,8 +333,8 @@
+ "Thank you for your generous donations to the GNOME Foundation in %(year)s. "
+ "Your contributions were as follows:"
+ msgstr ""
+-"Tack för dina generösa donationer till GNOME Foundation %(year)s. Dina "
+-"bidrag var följande:"
++"Tack för dina generösa donationer till GNOME Foundation under %(year)s. Dina"
++" bidrag var:"
+ 
+ #: donate/views.py:1341
+ msgid "Date"
+@@ -350,21 +342,20 @@
+ 
+ #: donate/views.py:1341
+ msgid "Amount"
+-msgstr "Mängd"
++msgstr "Belopp"
+ 
+ #: donate/views.py:1359
+ msgid "Total"
+-msgstr "Totalt"
++msgstr "Summa"
+ 
+ #: donate/views.py:1392
+ msgid ""
+ "Your support helps us continue our mission to create a free and open "
+-"computing platform for the general public. Thank you for being a part of the "
+-"GNOME community."
++"computing platform for the general public. Thank you for being a part of the"
++" GNOME community."
+ msgstr ""
+-"Ditt stöd hjälper oss fortsätta vårt uppdrag att skapa en fri och öppen "
+-"datorplattform för allmänheten. Tack för att du är en del av GNOME-"
+-"gemenskapen."
++"Ditt stöd hjälper oss att fortsätta vårt uppdrag att skapa en fri och öppen "
++"datorplattform för alla. Tack för att du är en del av GNOME-gemenskapen."
+ 
+ #: donate/views.py:1406
+ msgid "President"
+@@ -380,8 +371,9 @@
+ "04-3572618). No goods or services were provided in exchange for these "
+ "contributions."
+ msgstr ""
+-"GNOME Foundation är ett ideellt 501(c)(3)-bolag (EIN: 04-3572618). Inga "
+-"varor eller tjänster tillhandahölls för dessa bidrag."
++"GNOME Foundation är en ideell organisation enligt 501(c)(3) (EIN: "
++"04-3572618). Inga varor eller tjänster har tillhandahållits i utbyte mot "
++"bidragen."
+ 
+ #: templates/gnome/alternatives.html:11
+ #: templates/gnome/corporate-sponsorships.html:12 templates/gnome/help.html:14
+@@ -411,68 +403,41 @@
+ #: templates/gnome/alternatives.html:30
+ msgid ""
+ "\n"
+-"        Thanks for your interest in supporting the GNOME Foundation! Our "
+-"donation platform allows payments to be made by credit card, <em>SEPA Direct "
+-"Debit</em>, <em>Satispay</em>, and <em>Apple Pay</em>. If you'd prefer to "
+-"give another way, or you're able to give at a larger scale, we have other "
+-"payment options available. See below for details.\n"
++"        Thanks for your interest in supporting the GNOME Foundation! Our donation platform allows payments to be made by credit card, <em>SEPA Direct Debit</em>, <em>Satispay</em>, and <em>Apple Pay</em>. If you'd prefer to give another way, or you're able to give at a larger scale, we have other payment options available. See below for details.\n"
+ "        "
+ msgstr ""
+ "\n"
+-"        Tack för ditt intresse att stödja GNOME Foundation! Vår "
+-"donationsplattform tillåter betalningar via kreditkort, <em>SEPA Direct "
+-"Debit</em>, <em>Satispay</em> och <em>Apple Pay</em>. Om du föredrar att ge "
+-"på ett annat sätt, eller om du kan ge i större skala, så har vi andra "
+-"betalningsalternativ tillgängliga. Se nedan för detaljer.\n"
++"        Tack för att du vill stödja GNOME Foundation! På donationsplattformen kan du betala med kreditkort, <em>SEPA Direct Debit</em>, <em>Satispay</em> eller <em>Apple Pay</em>. Om du föredrar ett annat betalningssätt eller vill ge en större gåva finns fler alternativ. Se nedan.\n"
+ "        "
+ 
+ #: templates/gnome/alternatives.html:34
+ msgid "Employer matching"
+-msgstr "Arbetsgivarmatchning"
++msgstr "Matchning av donationer via arbetsgivaren"
+ 
+ #: templates/gnome/alternatives.html:36
+ msgid ""
+ "\n"
+-"        Many employers match charitable gifts, which can double or more the "
+-"value of your donation. The GNOME Foundation is available on a number of "
+-"employer matching platforms, including <em>Benevity</em> and "
+-"<em>Cybergrants</em>. Search for “GNOME Foundation” in your employer's "
+-"giving portal, or ask your HR team how matching works at your company.\n"
++"        Many employers match charitable gifts, which can double or more the value of your donation. The GNOME Foundation is available on a number of employer matching platforms, including <em>Benevity</em> and <em>Cybergrants</em>. Search for “GNOME Foundation” in your employer's giving portal, or ask your HR team how matching works at your company.\n"
+ "        "
+ msgstr ""
+ "\n"
+-"        Många arbetsgivare matchar donationer till välgörenhet, vilket kan "
+-"öka värdet av din donation till det dubbla eller mer. GNOME Foundation är "
+-"tillgänglig på ett antal plattformar för arbetsgivarmatchning, inklusive "
+-"<em>Benevity</em> och <em>Cybergrants</em>. Sök ”GNOME Foundation” i din "
+-"arbetsgivares donationsportal, eller fråga din HR-enhet hur matchning "
+-"fungerar på ditt företag.\n"
++"        Många arbetsgivare matchar medarbetarnas donationer, vilket kan fördubbla eller mer än fördubbla värdet på din gåva. GNOME Foundation finns på flera plattformar för donationsmatchning, bland annat <em>Benevity</em> och <em>Cybergrants</em>. Sök efter ”GNOME Foundation” i arbetsgivarens donationsportal eller fråga personalavdelningen hur matchningen fungerar.\n"
+ "        "
+ 
+ # USA-specifikt koncept.
+ #: templates/gnome/alternatives.html:40
+ msgid "Donor-advised funds (DAFs)"
+-msgstr "Donor-advised fund (DAF)"
++msgstr "Donatorrådgivna fonder (DAF)"
+ 
+ #: templates/gnome/alternatives.html:42
+ #, python-format
+ msgid ""
+ "\n"
+-"        If you have a donor-advised fund, you can recommend a grant to the "
+-"GNOME Foundation through your provider. We are available on <em>Chariot</"
+-"em>, <em>Network for Good</em>, <em>YourCause</em> and <em>DAF Giving 360</"
+-"em>, and you can also search for us by name with any other DAF sponsor. Our "
+-"legal name is \"GNOME Foundation\" and our EIN is <b>043572618</b>. Our "
+-"address can be <a href=\"%(foundation_url)s\">found on our website</a>.\n"
++"        If you have a donor-advised fund, you can recommend a grant to the GNOME Foundation through your provider. We are available on <em>Chariot</em>, <em>Network for Good</em>, <em>YourCause</em> and <em>DAF Giving 360</em>, and you can also search for us by name with any other DAF sponsor. Our legal name is \"GNOME Foundation\" and our EIN is <b>043572618</b>. Our address can be <a href=\"%(foundation_url)s\">found on our website</a>.\n"
+ "        "
+ msgstr ""
+ "\n"
+-"        Om du har en ”donor-advised fund” kan du rekommendera en gåva till "
+-"GNOME Foundation genom din leverantör. Vi finns tillgängliga på <em>Chariot</"
+-"em>, <em>Network for Good</em>, <em>YourCause</em> och <em>DAF Giving 360</"
+-"em>, och du kan också söka oss efter namn med alla andra DAF-sponsorer. Vårt "
+-"juridiska namn \"GNOME Foundation\" och vår EIN är <b>043572618</b>. Vår "
+-"adress kan <a href=\"%(foundation_url)s\">hittas på vår webbplats</a>.\n"
++"        Om du har en donatorrådgiven fond kan du via fondens förvaltare rekommendera ett bidrag till GNOME Foundation. Vi finns hos <em>Chariot</em>, <em>Network for Good</em>, <em>YourCause</em> och <em>DAF Giving 360</em>. Du kan också söka efter oss hos andra DAF-förvaltare. Vårt juridiska namn är ”GNOME Foundation” och vårt EIN är <b>043572618</b>. Vår adress finns på <a href=\"%(foundation_url)s\">vår webbplats</a>.\n"
+ "        "
+ 
+ #: templates/gnome/alternatives.html:46
+@@ -482,27 +447,21 @@
+ #: templates/gnome/alternatives.html:48
+ msgid ""
+ "\n"
+-"        For donations over $100, we can accept other payment methods, "
+-"including (but not limited to) ACH, Bill.com, PayPal, check, and wire "
+-"transfer. We also accept Bitcoin.\n"
++"        For donations over $100, we can accept other payment methods, including (but not limited to) ACH, Bill.com, PayPal, check, and wire transfer. We also accept Bitcoin.\n"
+ "        "
+ msgstr ""
+ "\n"
+-"        För donationer över $100 kan vi acceptera andra betalningsmetoder, "
+-"inklusive (men inte begränsat till) ACH, Bill.com, PayPal, check och "
+-"banköverföring. Vi accepterar också Bitcoin.\n"
++"        För donationer över $100 kan vi även ta emot betalningar via ACH, Bill.com, PayPal, check och banköverföring. Vi tar också emot Bitcoin.\n"
+ "        "
+ 
+ #: templates/gnome/alternatives.html:53
+ msgid ""
+ "\n"
+-"        To arrange a gift, contact us and we'll be happy to send you the "
+-"details.\n"
++"        To arrange a gift, contact us and we'll be happy to send you the details.\n"
+ "        "
+ msgstr ""
+ "\n"
+-"        För att arrangera en gåva, kontakta oss så skickar vi dig gärna "
+-"detaljerna.\n"
++"        Kontakta oss om du vill ordna en gåva, så skickar vi gärna mer information.\n"
+ "        "
+ 
+ #: templates/gnome/alternatives.html:57
+@@ -512,13 +471,11 @@
+ #: templates/gnome/alternatives.html:59
+ msgid ""
+ "\n"
+-"        For information about how to donate to the GNOME Foundation, please "
+-"don't hesitate to contact us.\n"
++"        For information about how to donate to the GNOME Foundation, please don't hesitate to contact us.\n"
+ "        "
+ msgstr ""
+ "\n"
+-"        För information om hur du kan donera till GNOME Foundation, tveka "
+-"inte att kontakta oss.\n"
++"        För information om hur du kan donera till GNOME Foundation, tveka inte att kontakta oss.\n"
+ "        "
+ 
+ #: templates/gnome/alternatives.html:64 templates/gnome/help.html:103
+@@ -538,10 +495,10 @@
+ "an independent software platform, corporate sponsors also have their logos "
+ "added to the GNOME website and promotional materials."
+ msgstr ""
+-"Är du del av ett företag, en myndighet, universitetsinstitution, eller "
+-"ideell förening intresserad av att stödja GNOME? Utöver att stödja framtiden "
+-"för en oberoende programvaruplattform så får företagssponsorer också sin "
+-"logotyp tillagd på GNOMEs webbplats och reklammaterial."
++"Representerar du ett företag, en myndighet, en universitetsinstitution eller"
++" en ideell organisation som vill finansiera GNOME? Företagssponsorer stöder "
++"en oberoende programvaruplattform och får dessutom sin logotyp på GNOMEs "
++"webbplats och i informationsmaterial."
+ 
+ #: templates/gnome/corporate-sponsorships.html:37
+ msgid "Support tiers and benefits"
+@@ -565,7 +522,7 @@
+ 
+ #: templates/gnome/corporate-sponsorships.html:47
+ msgid "Name and URL on website"
+-msgstr "Namn och URL på webbplats"
++msgstr "Namn och webbadress på webbplatsen"
+ 
+ #: templates/gnome/corporate-sponsorships.html:52
+ msgid "Logo on website"
+@@ -573,11 +530,11 @@
+ 
+ #: templates/gnome/corporate-sponsorships.html:58
+ msgid "Yearly mention on social media"
+-msgstr "Årliga omnämnanden i sociala medier"
++msgstr "Årligt omnämnande i sociala medier"
+ 
+ #: templates/gnome/corporate-sponsorships.html:63
+ msgid "Acknowledgement in reports and at events"
+-msgstr "Tillkännagivande i rapporter och på evenemang"
++msgstr "Uppmärksammande i rapporter och vid evenemang"
+ 
+ #: templates/gnome/corporate-sponsorships.html:71
+ #: templates/gnome/corporate-sponsorships.html:77
+@@ -617,51 +574,42 @@
+ #: templates/gnome/help.html:40
+ msgid ""
+ "\n"
+-"        Our platform allows payments to be made by credit card, SEPA Direct "
+-"Debit, Satispay, and Apple Pay. Some of\n"
+-"        these payment methods are only available in certain countries and "
+-"currencies.\n"
++"        Our platform allows payments to be made by credit card, SEPA Direct Debit, Satispay, and Apple Pay. Some of\n"
++"        these payment methods are only available in certain countries and currencies.\n"
+ "        "
+ msgstr ""
+ "\n"
+-"        Vår plattform tillåter betalning från kreditkord, SEPA Direct Debit, "
+-"Satispay och Apple Pay. Vissa av\n"
+-"        dessa betalningsmetoder är endast tillgängliga i vissa länder och "
+-"valutor.\n"
++"        På vår plattform kan du betala med kreditkort, SEPA Direct Debit, Satispay eller Apple Pay. Vissa av\n"
++"        betalningssätten är bara tillgängliga i vissa länder och valutor.\n"
+ "        "
+ 
+ #: templates/gnome/help.html:46
+ #, python-format
+ msgid ""
+ "\n"
+-"        Our <a href=\"%(alternatives_url)s\">other ways to donate</a> page "
+-"contains details on other payment methods. If none of these work for you, "
+-"please\n"
++"        Our <a href=\"%(alternatives_url)s\">other ways to donate</a> page contains details on other payment methods. If none of these work for you, please\n"
+ "        feel free to reach out using the contact link below.\n"
+ "        "
+ msgstr ""
+ "\n"
+-"        Vår sida för <a href=\"%(alternatives_url)s\">andra sätt att donera</"
+-"a> innehåller detaljer om andra betalningsmetoder. Hör gärna av dig\n"
+-"        med kontaktlänken nedan om ingen av dessa fungerar för dig.\n"
++"        På sidan <a href=\"%(alternatives_url)s\">andra sätt att donera</a> finns information om fler betalningssätt. Om inget av dem passar kan du\n"
++"        kontakta oss via länken nedan.\n"
+ "        "
+ 
+ #: templates/gnome/help.html:52
+ msgid "Which currencies can I donate?"
+-msgstr "Vilka valutor kan jag donera?"
++msgstr "Vilka valutor kan jag använda för donationer?"
+ 
+ #: templates/gnome/help.html:55
+ msgid ""
+ "\n"
+-"        Our platform allows donations in US dollars and Euros only. If you "
+-"would like to donate a larger amount in a\n"
++"        Our platform allows donations in US dollars and Euros only. If you would like to donate a larger amount in a\n"
+ "        different currency, please get in touch using our contact form.\n"
+ "        "
+ msgstr ""
+ "\n"
+-"        Vår plattform tillåter endast donationer i USA-dollar och Euro. Om "
+-"du vill donera en större summa i en annan\n"
+-"        valuta kan du kontakta oss genom vårt kontaktformulär.\n"
++"        Plattformen tar bara emot donationer i US-dollar och euro. Om du vill skänka ett större belopp i en annan\n"
++"        valuta kan du kontakta oss via kontaktformuläret.\n"
+ "        "
+ 
+ #: templates/gnome/help.html:61
+@@ -672,14 +620,13 @@
+ #, python-format
+ msgid ""
+ "We use Stripe to process payments, and you can use the <a "
+-"href=\"%(stripe_customer_portal_url)s\">Stripe customer portal</a> to update "
+-"your email address, change the monthly donation amount, or cancel your "
++"href=\"%(stripe_customer_portal_url)s\">Stripe customer portal</a> to update"
++" your email address, change the monthly donation amount, or cancel your "
+ "subscription."
+ msgstr ""
+-"Vi använder Stripe för att bearbeta betalningar, och du kan använda <a "
+-"href=\"%(stripe_customer_portal_url)s\">Stripe-kundportalen</a> för att "
+-"uppdatera din e-postadress, ändra det månatliga donationsbeloppet, eller "
+-"avbryta din prenumeration."
++"Vi använder Stripe för att behandla betalningar. I <a "
++"href=\"%(stripe_customer_portal_url)s\">Stripes kundportal</a> kan du ändra "
++"e-postadress, justera månadsbeloppet eller avsluta prenumerationen."
+ 
+ #: templates/gnome/help.html:70
+ msgid "How do I change my name on the Friends of GNOME list?"
+@@ -692,10 +639,9 @@
+ "the link, you can use the link to change your visibility, name, avatar, and "
+ "contact preferences."
+ msgstr ""
+-"För att ändra namnet som visas på donatorlistan, begär <a "
+-"href=\"profile_link_request_url\">en profillänk</a>. Då du har tagit emot "
+-"länken, kan du använda den för att ändra profilens synlighet, namn, "
+-"profilbild och kontaktinställningar."
++"Om du vill ändra namnet på donatorlistan kan du begära <a "
++"href=\"profile_link_request_url\">en profillänk</a>. När du fått länken kan "
++"du ändra synlighet, namn, profilbild och kontaktinställningar."
+ 
+ #: templates/gnome/help.html:79
+ msgid ""
+@@ -708,58 +654,44 @@
+ #, python-format
+ msgid ""
+ "\n"
+-"        The GNOME Foundation is a 501c(3) non-profit corporation, and "
+-"donations are tax-deductible in the USA. If you\n"
+-"        need a receipt for your taxes you can <a "
+-"href=\"%(receipt_url)s\">generate one</a> for your donations.\n"
++"        The GNOME Foundation is a 501c(3) non-profit corporation, and donations are tax-deductible in the USA. If you\n"
++"        need a receipt for your taxes you can <a href=\"%(receipt_url)s\">generate one</a> for your donations.\n"
+ "        "
+ msgstr ""
+ "\n"
+-"        GNOME Foundation är en ideell 501c(3)-organisation, och donationer "
+-"är avdragsgilla i USA. Om du\n"
+-"        behöver ett kvitto för deklarationen kan du <a "
+-"href=\"%(receipt_url)s\">generera ett</a> för dina donationer.\n"
++"        GNOME Foundation är en ideell organisation enligt 501c(3), och donationer är avdragsgilla i USA. Om du\n"
++"        behöver ett kvitto för deklarationen kan du <a href=\"%(receipt_url)s\">skapa ett</a> för dina donationer.\n"
+ "        "
+ 
+ #: templates/gnome/help.html:88
+ #, python-format
+ msgid ""
+ "\n"
+-"        Donations to the GNOME Foundation are typically not tax deductible "
+-"outside of the USA. However, you may be able to get tax\n"
+-"        relief if you donate through an intermediary, such as a Donor "
+-"Advised Fund or employer donation matching scheme.\n"
+-"        See <a href=\"%(alternatives_url)s\">other donation methods</a> for "
+-"more information.\n"
++"        Donations to the GNOME Foundation are typically not tax deductible outside of the USA. However, you may be able to get tax\n"
++"        relief if you donate through an intermediary, such as a Donor Advised Fund or employer donation matching scheme.\n"
++"        See <a href=\"%(alternatives_url)s\">other donation methods</a> for more information.\n"
+ "        "
+ msgstr ""
+ "\n"
+-"        Donationer till GNOME Foundation är vanligen inte avdragsgilla "
+-"utanför USA. Du kan dock möjligen få skattelättnader om du\n"
+-"        donerar genom en mellanhand, såsom en ”Donor Advised Fund” eller "
+-"donationsmatchningsplan hos din arbetsgivare.\n"
+-"        Se <a href=\"%(alternatives_url)s\">andra donationsmetoder</a> för "
+-"mer information.\n"
++"        Donationer till GNOME Foundation är vanligtvis inte avdragsgilla utanför USA. Du kan dock få skattelättnader om du\n"
++"        donerar via en mellanhand, till exempel en donatorrådgiven fond eller arbetsgivarens donationsmatchning.\n"
++"        Läs mer under <a href=\"%(alternatives_url)s\">andra sätt att donera</a>.\n"
+ "        "
+ 
+ #: templates/gnome/help.html:95
+ msgid "Any other problems?"
+-msgstr "Något annat problem?"
++msgstr "Några andra problem?"
+ 
+ #: templates/gnome/help.html:98
+ msgid ""
+ "\n"
+-"        If you are experiencing problems making a donation or if something "
+-"seems wrong with your Friend of GNOME\n"
+-"        membership or Sponsorship status, please contact us and we'll help "
+-"you as soon as we can.\n"
++"        If you are experiencing problems making a donation or if something seems wrong with your Friend of GNOME\n"
++"        membership or Sponsorship status, please contact us and we'll help you as soon as we can.\n"
+ "        "
+ msgstr ""
+ "\n"
+-"        Om du upplever problem med att göra en donation eller om något "
+-"verkar fel med ditt Friend of GNOME-medlemskap\n"
+-"        eller din sponsorstatus, tveka inte att kontakta oss så hjälper vi "
+-"dig så fort vi kan.\n"
++"        Om du har problem med en donation eller något verkar fel med ditt medlemskap som vän till GNOME eller din\n"
++"        sponsorstatus, kontakta oss så hjälper vi dig så snart vi kan.\n"
+ "        "
+ 
+ #: templates/gnome/home.html:34
+@@ -776,12 +708,12 @@
+ "Public donations are GNOME's biggest source of funding and are essential to "
+ "the work we do."
+ msgstr ""
+-"Offentliga donationer är GNOMEs största inkomstkälla och är avgörande för "
+-"arbetet vi gör."
++"Donationer från allmänheten är GNOMEs största inkomstkälla och avgörande för"
++" vårt arbete."
+ 
+ #: templates/gnome/home.html:41
+ msgid "Hero Image"
+-msgstr "Hjältebild"
++msgstr "Huvudbild"
+ 
+ #: templates/gnome/home.html:58
+ msgid "Donations provide funding for:"
+@@ -793,19 +725,19 @@
+ 
+ #: templates/gnome/home.html:70
+ msgid "Dedicated developers"
+-msgstr "Drivna utvecklare"
++msgstr "Engagerade utvecklare"
+ 
+ #: templates/gnome/home.html:76
+ msgid "Technology that empowers everyone"
+-msgstr "Teknologi som stärker alla"
++msgstr "Teknik som ger alla nya möjligheter"
+ 
+ #: templates/gnome/home.html:82
+ msgid "A thriving and welcoming community"
+-msgstr "En växande och välkomnande gemenskap"
++msgstr "En livskraftig och välkomnande gemenskap"
+ 
+ #: templates/gnome/home.html:86
+ msgid "Learn how your donations help"
+-msgstr "Läs mer om hur dina donationer hjälper"
++msgstr "Se vilken skillnad dina donationer gör"
+ 
+ #: templates/gnome/home.html:93
+ msgid "Corporate Sponsorship"
+@@ -814,12 +746,12 @@
+ #: templates/gnome/home.html:95
+ msgid ""
+ "Is your organization interested in supporting our work? We'd love to hear "
+-"from businesses, universities, public bodies and other non-profits. We offer "
+-"a range of benefits to institutional donors."
++"from businesses, universities, public bodies and other non-profits. We offer"
++" a range of benefits to institutional donors."
+ msgstr ""
+-"Är din organisation intresserad i att stödja vårt arbete? Vi blir gärna "
+-"kontaktade av företag, universitet, myndigheter och andra ideella "
+-"organisationer. Vi erbjuder många fördelar för organisationsdonatorer."
++"Vill er organisation stödja vårt arbete? Vi vill gärna höra från företag, "
++"universitet, myndigheter och andra ideella organisationer. Vi erbjuder flera"
++" förmåner till organisationer som donerar."
+ 
+ #: templates/gnome/home.html:105
+ msgid "Thanks to our Corporate Sponsors!"
+@@ -839,12 +771,12 @@
+ #, python-format
+ msgid "…and %(count)s anonymous donor"
+ msgid_plural "…and %(count)s anonymous donors"
+-msgstr[0] "…och %(count)s anonym donator"
+-msgstr[1] "…och %(count)s anonyma donatorer"
++msgstr[0] "…och %(count)s anonym givare"
++msgstr[1] "…och %(count)s anonyma givare"
+ 
+ #: templates/gnome/home.html:127
+ msgid "Be the first to become a Friend of GNOME!"
+-msgstr "Bli den första att bli en vän till GNOME!"
++msgstr "Bli först med att bli vän till GNOME!"
+ 
+ #: templates/gnome/includes/breadcrumbs.html:6
+ msgid "Home"
+@@ -857,14 +789,14 @@
+ #: templates/gnome/includes/campaign-widget.html:17
+ #, python-format
+ msgid "<span>%(percent)s%%</span> raised of our %(goal)s goal"
+-msgstr "<span>%(percent)s%%</span> uppnått av vårt mål på %(goal)s"
++msgstr "<span>%(percent)s%%</span> insamlat av målet på %(goal)s"
+ 
+ #: templates/gnome/includes/campaign-widget.html:18
+ #, python-format
+ msgid "<span>%(days)s</span> day remaining"
+ msgid_plural "<span>%(days)s</span> days remaining"
+-msgstr[0] "<span>%(days)s</span> dag kvar"
+-msgstr[1] "<span>%(days)s</span> dagar kvar"
++msgstr[0] "<span>%(days)s</span> dag återstår"
++msgstr[1] "<span>%(days)s</span> dagar återstår"
+ 
+ #: templates/gnome/includes/donate-widget.html:7
+ msgid "Monthly"
+@@ -880,11 +812,11 @@
+ 
+ #: templates/gnome/includes/donate-widget.html:16
+ msgid ""
+-"Paying monthly to be a Friend of GNOME comes with the option to display your "
+-"name on our wall of thanks"
++"Paying monthly to be a Friend of GNOME comes with the option to display your"
++" name on our wall of thanks"
+ msgstr ""
+-"Att betala varje månad för att vara en vän till GNOME kommer med "
+-"alternativet att visa ditt namn på våran tackvägg"
++"Som månadsdonator och vän till GNOME kan du välja att visa ditt namn på vår "
++"tackvägg."
+ 
+ #: templates/gnome/includes/donate-widget.html:19
+ #: templates/gnome/includes/donate-widget.html:20
+@@ -917,7 +849,7 @@
+ #: templates/gnome/includes/donate-widget.html:80
+ #, python-format
+ msgid "Donation amount (%(symbol)s):"
+-msgstr "Donationsmängd (%(symbol)s):"
++msgstr "Donationsbelopp (%(symbol)s):"
+ 
+ #: templates/gnome/includes/donate-widget.html:81
+ #, python-format
+@@ -928,20 +860,18 @@
+ #, python-format
+ msgid ""
+ "\n"
+-"      Find out about <a href=\"%(alternatives_url)s\">other ways to donate</"
+-"a> and <a href=\"%(help_url)s\">tax deductions</a>\n"
++"      Find out about <a href=\"%(alternatives_url)s\">other ways to donate</a> and <a href=\"%(help_url)s\">tax deductions</a>\n"
+ "      "
+ msgstr ""
+ "\n"
+-"      Lär dig mer om <a href=\"%(alternatives_url)s\">andra sätt att donera</"
+-"a> och <a href=\"%(help_url)s\">skatteavdrag</a>\n"
++"      Lär dig mer om <a href=\"%(alternatives_url)s\">andra sätt att donera</a> och <a href=\"%(help_url)s\">skatteavdrag</a>\n"
+ "      "
+ 
+ #: templates/gnome/includes/donate-widget.html:168
+ #: templates/gnome/onetime.html:84
+ #, python-format
+ msgid "Minimum donation amount is %(symbol)s1"
+-msgstr "Minsta donationsmängd är %(symbol)s1"
++msgstr "Minsta donationsbelopp är %(symbol)s1"
+ 
+ #: templates/gnome/includes/footer-basic.html:4
+ #: templates/gnome/includes/footer.html:31
+@@ -966,7 +896,7 @@
+ 
+ #: templates/gnome/includes/footer.html:12
+ msgid "GNOME Handbook"
+-msgstr "GNOME Handbook"
++msgstr "GNOME-handboken"
+ 
+ #: templates/gnome/includes/footer.html:13
+ msgid "Issue Tracker"
+@@ -998,7 +928,7 @@
+ 
+ #: templates/gnome/includes/footer.html:20
+ msgid "Logo & Brand"
+-msgstr "Logo och varumärke"
++msgstr "Logotyp och varumärke"
+ 
+ #: templates/gnome/includes/footer.html:37
+ msgid "Select Language"
+@@ -1037,7 +967,7 @@
+ 
+ #: templates/gnome/information.html:29
+ msgid "How donations are spent"
+-msgstr "Hur donationer spenderas"
++msgstr "Så används donationerna"
+ 
+ #: templates/gnome/information.html:31
+ msgid ""
+@@ -1045,9 +975,9 @@
+ "GNOME project. Donations are used to maintain our organization and advance "
+ "our charitable purpose."
+ msgstr ""
+-"GNOME Foundation är nödvändig för hälsan och hållbarheten för GNOME-"
+-"projektet. Donationer används för att hålla igång vår organisation och för "
+-"att utveckla våra välgörenhetssyften."
++"GNOME Foundation är avgörande för GNOME-projektets välmående och långsiktiga"
++" hållbarhet. Donationerna finansierar organisationens verksamhet och hjälper"
++" den att uppfylla sitt välgörenhetsändamål."
+ 
+ #: templates/gnome/information.html:38
+ msgid "Learn more about the GNOME Foundation"
+@@ -1055,7 +985,7 @@
+ 
+ #: templates/gnome/information.html:48
+ msgid "Developer Funding"
+-msgstr "Betalning till utvecklare"
++msgstr "Utvecklarstöd"
+ 
+ #: templates/gnome/information.html:50
+ #, python-format
+@@ -1063,21 +993,21 @@
+ "Donations are used to fund developers to work on under-resourced parts of "
+ "GNOME as part of our <a href=\"%(fellowship_url)s\">Fellowship Program</a>"
+ msgstr ""
+-"Donationer används för att betala utvecklare att arbeta på delar av GNOME "
+-"som saknar resurser som del av vårt <a "
++"Donationerna finansierar utvecklare som arbetar med delar av GNOME där "
++"resurserna inte räcker till, inom ramen för vårt <a "
+ "href=\"%(fellowship_url)s\">Fellowship-program</a>"
+ 
+ #: templates/gnome/information.html:56
+ msgid "Community Travel"
+-msgstr "Resande för gemenskapen"
++msgstr "Resor för gemenskapen"
+ 
+ #: templates/gnome/information.html:58
+ msgid ""
+ "Donations provide sponsorship for community members to attend GNOME "
+ "conferences and hackfests"
+ msgstr ""
+-"Donationer ger sponsring för gemensamhetsmedlemmar för att besöka GNOME-"
+-"konferenser och hackfester"
++"Donationerna hjälper medlemmar i gemenskapen att delta i GNOME-konferenser "
++"och hackfester."
+ 
+ #: templates/gnome/information.html:64
+ msgid "Development Infrastructure"
+@@ -1088,20 +1018,20 @@
+ "Donations pay for sysadmin time and server costs, to provide the platforms "
+ "on which GNOME is developed"
+ msgstr ""
+-"Donationer betalar för systemadministratörstid och serverkostnader, för att "
+-"tillhandahålla plattformarna som GNOME utvecklas på"
++"Donationerna täcker kostnader för systemadministration och servrar, så att "
++"GNOME:s utvecklingsplattformar kan hållas igång."
+ 
+ #: templates/gnome/information.html:72
+ msgid "Community Conferences"
+-msgstr "Gemensamhetskonferenser"
++msgstr "Konferenser för gemenskapen"
+ 
+ #: templates/gnome/information.html:74
+ msgid ""
+ "Donations help to pay for GNOME's conferences, which play a vital role in "
+ "planning, design, and development"
+ msgstr ""
+-"Donationer hjälper till att betala för GNOMEs konferenser, vilka spelar en "
+-"vital roll i planering, design och utveckling"
++"Donationerna bidrar till GNOME:s konferenser, som spelar en viktig roll i "
++"planering, design och utveckling."
+ 
+ #: templates/gnome/information.html:80
+ msgid "Legal Support"
+@@ -1112,24 +1042,24 @@
+ "Donations are used to provide legal services for the GNOME project, "
+ "including protecting GNOME's trademarks"
+ msgstr ""
+-"Donationer används för att tillhandahålla juridiska tjänster för GNOME-"
+-"projektet, inkluderande skydd av GNOMEs varumärken"
++"Donationerna finansierar juridiskt stöd till GNOME-projektet, bland annat "
++"för att skydda GNOMEs varumärken."
+ 
+ #: templates/gnome/information.html:88
+ msgid "Core Operations"
+-msgstr "Kärnoperationer"
++msgstr "Grundläggande verksamhet"
+ 
+ #: templates/gnome/information.html:90
+ msgid ""
+ "Donations pay for essential GNOME Foundation functions, which allow us to "
+ "carry out our other work"
+ msgstr ""
+-"Donationer betalar för nödvändiga GNOME Foundation-funktioner, vilket "
+-"möjliggör för oss att utföra vårt övriga arbete"
++"Donationerna finansierar GNOME Foundations grundläggande verksamhet och gör "
++"det möjligt för oss att utföra övrigt arbete."
+ 
+ #: templates/gnome/information.html:98
+ msgid "Our charitable status"
+-msgstr "Vår välgörenhetsstatus"
++msgstr "Vår status som välgörenhetsorganisation"
+ 
+ #: templates/gnome/information.html:100
+ #, python-format
+@@ -1152,8 +1082,8 @@
+ "Thank you for being a Friend of GNOME! You can use this page to update your "
+ "details and preferences.."
+ msgstr ""
+-"Tack för att du är en vän till GNOME! Du kan använda denna sida för att "
+-"uppdatera dina detaljer och inställningar."
++"Tack för att du är vän till GNOME! Här kan du uppdatera dina uppgifter och "
++"inställningar."
+ 
+ #: templates/gnome/member_activate.html:14
+ #: templates/gnome/member_activated.html:9
+@@ -1168,8 +1098,8 @@
+ "Your valuable donation helps the GNOME Foundation grow and pay contributors "
+ "and contractors. You can activate your membership below."
+ msgstr ""
+-"Din värdefulla donation hjälper GNOME Foundation växa och betala "
+-"bidragsgivare och konsulter. Du kan aktivera din sponsring nedan."
++"Din generösa donation hjälper GNOME Foundation att växa och betala "
++"bidragsgivare och uppdragstagare. Du kan aktivera ditt medlemskap nedan."
+ 
+ #: templates/gnome/member_activate.html:17
+ msgid "Display Name"
+@@ -1177,12 +1107,12 @@
+ 
+ #: templates/gnome/member_activate.html:20
+ msgid ""
+-"Friends of GNOME can have their name displayed on our wall of thanks. If you "
+-"would prefer not to have your name displayed, please use the private donor "
++"Friends of GNOME can have their name displayed on our wall of thanks. If you"
++" would prefer not to have your name displayed, please use the private donor "
+ "option below."
+ msgstr ""
+-"Vänner till GNOME kan få sina namn visade på vår tackvägg. Om du skulle "
+-"föredra att ditt namn inte visas väljer du alternativet privat donator nedan."
++"Vänner till GNOME kan välja att visa sitt namn på tackväggen. Om du inte "
++"vill att ditt namn ska visas väljer du alternativet ”Privat givare” nedan."
+ 
+ #: templates/gnome/member_activate.html:25
+ msgid "Private Donor"
+@@ -1228,7 +1158,7 @@
+ 
+ #: templates/gnome/member_activated.html:10
+ msgid "Your Friend of GNOME membership has been successfully activated!"
+-msgstr "Ditt Friend of GNOME-medlemsskap har aktiverats!"
++msgstr "Ditt medlemskap som vän till GNOME har aktiverats!"
+ 
+ #: templates/gnome/member_activated.html:11
+ #: templates/gnome/member_profile_link_email_sent.html:21
+@@ -1236,7 +1166,7 @@
+ #: templates/gnome/receipt_email_sent.html:28
+ #: templates/gnome/sponsor_activated.html:16
+ msgid "Return Home"
+-msgstr "Gå hem"
++msgstr "Till startsidan"
+ 
+ #: templates/gnome/member_profile_link_email_sent.html:9
+ #: templates/gnome/receipt_email_sent.html:9
+@@ -1248,8 +1178,8 @@
+ "If we found an active recurring donation for that email address, we've sent "
+ "a profile link."
+ msgstr ""
+-"Om vi hittade en aktiv återkommande donation för den e-postadressen har vi "
+-"skickat en profillänk."
++"Om vi hittar en aktiv återkommande donation för den e-postadressen skickar "
++"vi en profillänk."
+ 
+ #: templates/gnome/member_profile_link_email_sent.html:16
+ #, python-format
+@@ -1276,7 +1206,8 @@
+ #, python-format
+ msgid ""
+ "If the problem persists, please <a href=\"%(contact_url)s\">contact us</a>."
+-msgstr "<a href=\"%(contact_url)s\">Kontakta oss</a> om problemet kvarstår."
++msgstr ""
++"Om problemet kvarstår kan du <a href=\"%(contact_url)s\">kontakta oss</a>."
+ 
+ #: templates/gnome/member_profile_link_error.html:17
+ #: templates/gnome/receipt_error.html:17
+@@ -1294,11 +1225,11 @@
+ 
+ #: templates/gnome/member_profile_link_request.html:13
+ msgid ""
+-"Enter the email address you used for your recurring donation. We'll send you "
+-"a link to update your public donor profile."
++"Enter the email address you used for your recurring donation. We'll send you"
++" a link to update your public donor profile."
+ msgstr ""
+-"Ange e-postadressen du använde för din återkommande donation. Vi kommer "
+-"skicka dig en länk för att uppdatera din offentliga donatorprofil."
++"Ange e-postadressen du använde för din återkommande donation. Vi skickar en "
++"länk där du kan uppdatera din offentliga donatorprofil."
+ 
+ #: templates/gnome/member_profile_link_request.html:17
+ #: templates/gnome/receipt_form.html:28
+@@ -1319,25 +1250,25 @@
+ "Sponsor, since this ensures GNOME's sustainability. Of course, a one-time "
+ "donation is still the right choice for some."
+ msgstr ""
+-"Vi uppmanar alla våra donatorer att gå med oss som en vän till GNOME eller "
+-"officiell sponsor, då detta säkrar GNOMEs hållbarhet. En engångsdonation är "
+-"förstås fortfarande rätt val för vissa."
++"Vi uppmuntrar alla donatorer att bli vän till GNOME eller officiell sponsor,"
++" eftersom det bidrar till GNOMEs långsiktiga hållbarhet. En engångsdonation "
++"är förstås också rätt val för vissa."
+ 
+ #: templates/gnome/onetime.html:37
+ #, python-format
+ msgid ""
+-"Donations can be made directly to the GNOME Foundation via Stripe using this "
+-"page. You can also donate via Paypal at <a "
++"Donations can be made directly to the GNOME Foundation via Stripe using this"
++" page. You can also donate via Paypal at <a "
+ "href=\"%(paypal_url)s\">paypal.me<wbr/>/gnomefoundation</a>."
+ msgstr ""
+-"Donationer kan göras direkt till GNOME Foundation genom Stripe med denna "
+-"sida. Du kan också donera genom Paypal på <a "
++"Du kan donera direkt till GNOME Foundation via Stripe på den här sidan. Du "
++"kan också donera via PayPal på <a "
+ "href=\"%(paypal_url)s\">paypal.me<wbr/>/gnomefoundation</a>."
+ 
+ #: templates/gnome/onetime.html:44
+ #, python-format
+ msgid "Enter a custom donation amount (%(symbol)s):"
+-msgstr "Ange en anpassad donationsmängd (%(symbol)s):"
++msgstr "Ange ett eget donationsbelopp (%(symbol)s):"
+ 
+ #: templates/gnome/onetime.html:45
+ #, python-format
+@@ -1346,8 +1277,7 @@
+ 
+ #: templates/gnome/onetime.html:49
+ #, python-format
+-msgid ""
+-"Having a problem with your donation? <a href=\"%(help_url)s\">Get Help</a>"
++msgid "Having a problem with your donation? <a href=\"%(help_url)s\">Get Help</a>"
+ msgstr "Har du problem med din donation? <a href=\"%(help_url)s\">Få hjälp</a>"
+ 
+ #: templates/gnome/onetime.html:124 templates/gnome/onetime.html:129
+@@ -1358,8 +1288,8 @@
+ "Consider a <b>%(symbol)s%(amount)s/month</b> Friend of GNOME membership for "
+ "a year instead."
+ msgstr ""
+-"Överväg ett Friend of GNOME-medlemsskap på <b>%(symbol)s%(amount)s/månad</b> "
+-"i ett år i stället."
++"Överväg i stället att bli vän till GNOME i ett år genom att donera "
++"<b>%(symbol)s%(amount)s/månad</b>."
+ 
+ #: templates/gnome/onetime.html:127 templates/gnome/onetime.html:132
+ #: templates/gnome/onetime.html:137 templates/gnome/onetime.html:142
+@@ -1375,7 +1305,8 @@
+ 
+ #: templates/gnome/receipt_email_sent.html:14
+ #, python-format
+-msgid "Click the link in the email to download your %(year)s donation receipt."
++msgid ""
++"Click the link in the email to download your %(year)s donation receipt."
+ msgstr ""
+ "Klicka på länken i e-postmeddelandet för att hämta ditt donationskvitto för "
+ "%(year)s."
+@@ -1388,7 +1319,7 @@
+ #: templates/gnome/receipt_form.html:22
+ msgid "The downloadable receipt PDF is currently available only in English."
+ msgstr ""
+-"Denna hämtningsbara kvitto-PDF är för närvarande endast tillgänglig på "
++"Den nedladdningsbara PDF-filen med kvittot finns för närvarande bara på "
+ "engelska."
+ 
+ #: templates/gnome/receipt_email_sent.html:23
+@@ -1406,8 +1337,8 @@
+ 
+ #: templates/gnome/receipt_error.html:9
+ msgid ""
+-"We encountered an error while generating your receipt. Please try again in a "
+-"few minutes."
++"We encountered an error while generating your receipt. Please try again in a"
++" few minutes."
+ msgstr ""
+ "Vi stötte på ett fel då ditt kvitto genererades. Försök igen om några "
+ "minuter."
+@@ -1418,17 +1349,18 @@
+ 
+ #: templates/gnome/receipt_form.html:13
+ msgid "Tax Donation Receipt"
+-msgstr "Donationsskattekvitto"
++msgstr "Donationskvitto för deklarationen"
+ 
+ #: templates/gnome/receipt_form.html:14
+ msgid ""
+ "The GNOME Foundation is a 501c(3) non-profit corporation and donations are "
+-"tax deductible in the USA. To generate a receipt for tax purposes, enter the "
+-"email address associated with your donation(s) and select a tax year."
++"tax deductible in the USA. To generate a receipt for tax purposes, enter the"
++" email address associated with your donation(s) and select a tax year."
+ msgstr ""
+-"GNOME Foundation är en ideell 501c(3)-organisation, och donationer är "
+-"avdragsgilla i USA. För att generera ett kvitto i skattesyfte, ange e-"
+-"postadressen som är associerad med dina donationer och välj ett skatteår."
++"GNOME Foundation är en ideell organisation enligt 501c(3), och donationer är"
++" avdragsgilla i USA. Om du vill skapa ett kvitto för deklarationen anger du "
++"e-postadressen som är kopplad till donationen eller donationerna och väljer "
++"skatteår."
+ 
+ #: templates/gnome/receipt_form.html:16
+ #, python-format
+@@ -1457,8 +1389,8 @@
+ "We could not find any donations associated with <strong>%(email)s</strong> "
+ "for the year <strong>%(year)s</strong>."
+ msgstr ""
+-"Vi kunde inte hitta några donationer associerade med <strong>%(email)s</"
+-"strong> för året <strong>%(year)s</strong>."
++"Vi hittade inga donationer kopplade till <strong>%(email)s</strong> för "
++"<strong>%(year)s</strong>."
+ 
+ #: templates/gnome/receipt_not_found.html:14
+ msgid "This could happen if:"
+@@ -1466,26 +1398,27 @@
+ 
+ #: templates/gnome/receipt_not_found.html:16
+ msgid "You used a different email address when donating"
+-msgstr "Du använde en annan e-postadress vid donation"
++msgstr "Du använde en annan e-postadress när du donerade"
+ 
+ #: templates/gnome/receipt_not_found.html:17
+ msgid "Your donation was made in a different year"
+-msgstr "Din donation gjordes under ett annat år"
++msgstr "Du donerade under ett annat år"
+ 
+ #: templates/gnome/receipt_not_found.html:18
+ msgid ""
+ "Your donation was made through a different payment method (e.g., wire "
+ "transfer, PayPal)"
+ msgstr ""
+-"Din donation gjordes genom en annan betalningsmetod (t.ex. banköverföring, "
+-"PayPal)"
++"Du donerade via en annan betalningsmetod (t.ex. banköverföring eller PayPal)"
+ 
+ #: templates/gnome/receipt_not_found.html:21
+ #, python-format
+ msgid ""
+ "If you believe this is an error, please <a href=\"%(contact_url)s\">contact "
+ "us</a>."
+-msgstr "<a href=\"%(contact_url)s\">Kontakta oss</a> om du tror detta är fel."
++msgstr ""
++"Om du tror att detta är ett fel kan du <a href=\"%(contact_url)s\">kontakta "
++"oss</a>."
+ 
+ #: templates/gnome/receipt_token_invalid.html:7
+ msgid "Link Invalid or Expired"
+@@ -1493,7 +1426,7 @@
+ 
+ #: templates/gnome/receipt_token_invalid.html:9
+ msgid "This receipt download link is invalid or has expired."
+-msgstr "Denna hämtningslänk för kvitto är ogiltig eller har slutat gälla."
++msgstr "Hämtningslänken till kvittot är ogiltig eller har slutat gälla."
+ 
+ #: templates/gnome/receipt_token_invalid.html:12
+ msgid "Receipt links expire after 24 hours for security reasons."
+@@ -1512,8 +1445,8 @@
+ "Your valuable donation helps the GNOME Foundation grow and pay contributors "
+ "and contractors. You can activate your sponsorship below."
+ msgstr ""
+-"Din värdefulla donation hjälper GNOME Foundation växa och betala "
+-"bidragsgivare och konsulter. Du kan aktivera din sponsring nedan."
++"Din generösa donation hjälper GNOME Foundation att växa och betala "
++"bidragsgivare och uppdragstagare. Du kan aktivera sponsringen nedan."
+ 
+ #: templates/gnome/sponsor_activate.html:12
+ msgid "Sponsor Name"
+@@ -1521,7 +1454,7 @@
+ 
+ #: templates/gnome/sponsor_activate.html:13
+ msgid "Provide the name you want to appear on our donations page."
+-msgstr "Tillhandahåll namnet du vill ska visas på vår donationssida."
++msgstr "Ange namnet du vill visa på donationssidan."
+ 
+ #: templates/gnome/sponsor_activate.html:16
+ msgid "Sponsor E-mail"
+@@ -1531,16 +1464,16 @@
+ msgid ""
+ "We will contact you at this email address to request a copy of your logo."
+ msgstr ""
+-"Vi kommer kontakta dig på denna e-postadress för att begära en kopia av din "
+-"logotyp."
++"Vi kontaktar dig på den här e-postadressen för att be om en kopia av "
++"logotypen."
+ 
+ #: templates/gnome/sponsor_activate.html:23
+ msgid ""
+ "Optionally subscribe to the quarterly newsletter from the Foundation's "
+ "Executive Director"
+ msgstr ""
+-"Prenumerera valfritt på kvartalsnyhetsbrevet från stiftelsens verkställande "
+-"direktör"
++"Du kan också prenumerera på stiftelsens verkställande direktörs nyhetsbrev, "
++"som skickas ut varje kvartal."
+ 
+ #: templates/gnome/sponsor_activated.html:11
+ msgid ""
+@@ -1548,19 +1481,19 @@
+ "to speak to you about which version of your logo you would like to see on "
+ "our website."
+ msgstr ""
+-"Din sponsring av GNOME Foundation är aktiverad. Vi kommer kontakta dig snart "
+-"för att diskutera vilken version av din logotyp du vill se på vår webbplats."
++"Din sponsring av GNOME Foundation har aktiverats! Vi hör av oss inom kort "
++"för att fråga vilken version av logotypen du vill visa på webbplatsen."
+ 
+ #~ msgid ""
+ #~ "The GNOME Foundation is a 501c(3) corporation and donations are tax "
+ #~ "deductible in the USA."
+ #~ msgstr ""
+-#~ "GNOME Foundation är en 501c(3)-organisation och donationer är "
+-#~ "avdragsgilla på skatten i USA."
++#~ "GNOME Foundation är en 501c(3)-organisation och donationer är avdragsgilla "
++#~ "på skatten i USA."
+ 
+ #~ msgid ""
+-#~ "Enter the email address associated with your donation(s) and select the "
+-#~ "tax year to request a receipt for your donations."
++#~ "Enter the email address associated with your donation(s) and select the tax "
++#~ "year to request a receipt for your donations."
+ #~ msgstr ""
+ #~ "Ange e-postadressen som är associerad med dina donationer och välj "
+ #~ "skatteåret för att begära ett kvitto för dina donationer."
+@@ -1569,8 +1502,8 @@
+ #~ msgstr "Engagera dig"
+ 
+ #~ msgid ""
+-#~ "We understand that not everyone can contribute at our standard levels. "
+-#~ "Here are some alternative options that may work better for your situation."
++#~ "We understand that not everyone can contribute at our standard levels. Here "
++#~ "are some alternative options that may work better for your situation."
+ #~ msgstr ""
+ #~ "Vi förstår att inte alla kan bidra på våra standardnivåer. Här är några "
+ #~ "alternativ som kan fungera bättre för din situation."
+@@ -1592,18 +1525,18 @@
+ #~ "Having a problem with your membership or sponsorship? <a "
+ #~ "href=\"%(help_url)s\">Get Help</a>"
+ #~ msgstr ""
+-#~ "Har du problem med medlemskap eller sponsring? <a "
+-#~ "href=\"%(help_url)s\">Få hjälp</a>"
++#~ "Har du problem med medlemskap eller sponsring? <a href=\"%(help_url)s\">Få "
++#~ "hjälp</a>"
+ 
+ #~ msgid "Managing your donation"
+ #~ msgstr "Hantera din donation"
+ 
+ #, python-format
+ #~ msgid ""
+-#~ "You can manage your donation through the <a "
+-#~ "href=\"%(portal_url)s\">customer portal</a>. Here you can update your "
+-#~ "name, email address, and monthly donation amount. Corporate sponsors "
+-#~ "should <a href=\"%(contact_url)s\">contact us directly</a> for changes."
++#~ "You can manage your donation through the <a href=\"%(portal_url)s\">customer"
++#~ " portal</a>. Here you can update your name, email address, and monthly "
++#~ "donation amount. Corporate sponsors should <a "
++#~ "href=\"%(contact_url)s\">contact us directly</a> for changes."
+ #~ msgstr ""
+ #~ "Du kan hantera din donation genom <a "
+ #~ "href=\"%(portal_url)s\">kundportalen</a>. Här kan du uppdatera ditt namn, "
+@@ -1615,26 +1548,25 @@
+ 
+ #, python-format
+ #~ msgid ""
+-#~ "Need a receipt for your taxes? You can <a "
+-#~ "href=\"%(receipt_url)s\">generate a tax receipt</a> for your donations."
++#~ "Need a receipt for your taxes? You can <a href=\"%(receipt_url)s\">generate "
++#~ "a tax receipt</a> for your donations."
+ #~ msgstr ""
+ #~ "Behöver du ett kvitto för deklarationen? Du kan <a "
+-#~ "href=\"%(receipt_url)s\">generera ett skattekvitto</a> för dina "
+-#~ "donationer."
++#~ "href=\"%(receipt_url)s\">generera ett skattekvitto</a> för dina donationer."
+ 
+ #~ msgid "Having trouble with your donation?"
+ #~ msgstr "Har du problem med din donation?"
+ 
+ #~ msgid ""
+-#~ "Donate to the GNOME Foundation and make a difference to GNOME and the "
+-#~ "open source ecosystem."
++#~ "Donate to the GNOME Foundation and make a difference to GNOME and the open "
++#~ "source ecosystem."
+ #~ msgstr ""
+-#~ "Donera till GNOME Foundation och gör skillnad för GNOME och öppen "
+-#~ "källkods-ekosystemet."
++#~ "Donera till GNOME Foundation och gör skillnad för GNOME och öppen källkods-"
++#~ "ekosystemet."
+ 
+ #~ msgid ""
+-#~ "Donations are funding the GNOME Fellowship program. Help us to sustain "
+-#~ "this important initiative!"
++#~ "Donations are funding the GNOME Fellowship program. Help us to sustain this "
++#~ "important initiative!"
+ #~ msgstr ""
+ #~ "Donationer är vad som betalar GNOME Fellowship-programmet. Hjälp oss att "
+ #~ "bevara detta viktiga initiativ!"
+@@ -1644,9 +1576,9 @@
+ #~ "individual who becomes a Friend of GNOME gets the option to display their "
+ #~ "name on this page."
+ #~ msgstr ""
+-#~ "Stöd GNOME Foundation genom att bli en <b>Friend of GNOME</b>! Varje "
+-#~ "individ som blir en vän till GNOME har alternativet att visa sitt namn på "
+-#~ "denna sida."
++#~ "Stöd GNOME Foundation genom att bli en <b>Friend of GNOME</b>! Varje individ"
++#~ " som blir en vän till GNOME har alternativet att visa sitt namn på denna "
++#~ "sida."
+ 
+ #~ msgid "Seed"
+ #~ msgstr "Så"
+@@ -1669,31 +1601,30 @@
+ #, python-format
+ #~ msgid ""
+ #~ "For a less expensive option, see our <a "
+-#~ "href=\"%(alternatives_url)s\">alternatives</a> for individual membership, "
+-#~ "or you can make a <a href=\"%(onetime_url)s\">one-time donation</a>. "
+-#~ "Having a problem with your Friend of GNOME membership? <a "
+-#~ "href=\"%(help_url)s\">Get Help</a>."
++#~ "href=\"%(alternatives_url)s\">alternatives</a> for individual membership, or"
++#~ " you can make a <a href=\"%(onetime_url)s\">one-time donation</a>. Having a "
++#~ "problem with your Friend of GNOME membership? <a href=\"%(help_url)s\">Get "
++#~ "Help</a>."
+ #~ msgstr ""
+ #~ "För ett billigare alternativ, se våra <a "
+ #~ "href=\"%(alternatives_url)s\">alternativ</a> för individuellt medlemskap, "
+-#~ "eller så kan du göra en <a href=\"%(onetime_url)s\">engångsdonation</a>. "
+-#~ "Har du problem med ditt Friend of GNOME-medlemskap? <a "
+-#~ "href=\"%(help_url)s\">Få hjälp</a>."
++#~ "eller så kan du göra en <a href=\"%(onetime_url)s\">engångsdonation</a>. Har"
++#~ " du problem med ditt Friend of GNOME-medlemskap? <a href=\"%(help_url)s\">Få"
++#~ " hjälp</a>."
+ 
+ #~ msgid "About Donations"
+ #~ msgstr "Om donationer"
+ 
+ #~ msgid ""
+-#~ "Provide a preferred name for our records which will appear on our "
+-#~ "donations page. If you opt into being a private donor, your donation will "
+-#~ "not appear publicly."
++#~ "Provide a preferred name for our records which will appear on our donations "
++#~ "page. If you opt into being a private donor, your donation will not appear "
++#~ "publicly."
+ #~ msgstr ""
+-#~ "Tillhandahåll ett föredraget namn för våra register som kommer visas på "
+-#~ "vår donationssida. Om du väljer att vara en privat donator så kommer din "
++#~ "Tillhandahåll ett föredraget namn för våra register som kommer visas på vår "
++#~ "donationssida. Om du väljer att vara en privat donator så kommer din "
+ #~ "donation inte visas offentligt."
+ 
+-#~ msgid ""
+-#~ "Hide your name (and avatar) from being displayed on our donations page"
++#~ msgid "Hide your name (and avatar) from being displayed on our donations page"
+ #~ msgstr ""
+ #~ "Dölj ditt namn (och din profilbild) från att visas på vår donationssida"
+ 
+@@ -1706,5 +1637,4 @@
+ #~ "Subscribe to the quarterly newsletter from the Foundation's Executive "
+ #~ "Director"
+ #~ msgstr ""
+-#~ "Prenumerera på kvartalsnyhetsbrevet från stiftelsens verkställande "
+-#~ "direktör"
++#~ "Prenumerera på kvartalsnyhetsbrevet från stiftelsens verkställande direktör"
