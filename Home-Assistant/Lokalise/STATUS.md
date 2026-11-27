@@ -2438,3 +2438,9 @@ Senaste position: **58 936** av 77 656. Nästa: **58 937**; **18 720 återstår*
 120 positioner granskades: 103 aktuella strängar  14 referenser och 3 tidigare dokumenterade saknade källvägar. 48 ändringar sparades och lästes tillbaka från Lokalise. Referenser 16/16; platshållare 120/120; inga pluralnycklar. HA-TMX validerad.
 
 Senaste position: **59 056** av 77 656. Nästa: **59 057**; **18 600 återstår**. Granskningen fortsätter.
+
+### Batch: 59 057–59 176
+
+120 positioner granskades; 23 rättelser sparades. 24 referenser verifierades. 20 äldre Anthropic/OpenAI-nycklar mappades till aktuella källvägar och TMX som spårbara uppföljningar; fyra rubriknycklar saknar nuvarande UI-text. Platshållare 120/120; pluralnycklar 0.
+
+Senaste position: **59 176** av 77 656. Nästa: **59 177**; **18 480 återstår**. Granskningen fortsätter.
