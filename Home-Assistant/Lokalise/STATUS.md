@@ -2263,3 +2263,11 @@ Senaste granskade position: **55 936** av 77 656. Nästa position: **55 937**; *
 ## Sekventiell granskningsmarkör – 2026-11-27
 
 Senaste granskade position: **56 056** av 77 656. Nästa position: **56 057**; **21 600 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+
+### Batch: 56 057–56 176
+
+120 positioner radgranskades: 74 direkta aktuella strängar, 34 referenser (17 unika mål) och tolv tidigare dokumenterade källfrånvarande nycklar. 29 rättelser sparades och API-lästes tillbaka. Alla referensmål matchar; platshållare 120/120, inga pluralnycklar. `svlang` hittade inga skrivregelfel. Home Assistants PTDevices- och Overkiz-dokumentation samt V2C:s produktinformation användes för kontextkontroller. TMX validerar med 35 753 poster (35 522 Lokalise-ID, 231 historiska). Liveverifiering passerade för samtliga 108 aktuella manifestposter.
+
+## Sekventiell granskningsmarkör – 2026-11-27
+
+Senaste granskade position: **56 176** av 77 656. Nästa position: **56 177**; **21 480 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.

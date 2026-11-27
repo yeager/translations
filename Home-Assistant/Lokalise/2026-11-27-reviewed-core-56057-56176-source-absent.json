@@ -1,0 +1,110 @@
+[
+  {
+    "position": 56070,
+    "key": "component::command_line::issues::platform_yaml_not_supported::description",
+    "en": "Platform YAML setup is not supported.\nChange from configuring it using the `{platform}:` key to using the `command_line:` key directly in configuration.yaml and restart Home Assistant to resolve the issue.\nTo see the detailed documentation, select Learn more.",
+    "sv": "YAML-konfigurationen för plattformen stöds inte. Ändra från att konfigurera den med hjälp av nyckeln `{platform}:` till att använda nyckeln `command_line:` direkt i configuration.yaml och starta om Home Assistant för att lösa problemet. För att se den detaljerade dokumentationen, välj Läs mer.",
+    "previously_documented": true,
+    "current_source_status": "absent from 1d07105b760c73093145526a51758938e87cc658",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 56071,
+    "key": "component::command_line::issues::platform_yaml_not_supported::title",
+    "en": "Platform YAML is not supported in Command Line",
+    "sv": "Plattforms-YAML stöds inte i Command Line",
+    "previously_documented": true,
+    "current_source_status": "absent from 1d07105b760c73093145526a51758938e87cc658",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 56112,
+    "key": "component::airnow::config::step::user::data_description::latitude",
+    "en": "The latitude of your location.",
+    "sv": "Latitud för din position.",
+    "previously_documented": true,
+    "current_source_status": "absent from 1d07105b760c73093145526a51758938e87cc658",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 56113,
+    "key": "component::airnow::config::step::user::data_description::longitude",
+    "en": "The longitude of your location.",
+    "sv": "Longitud för din position.",
+    "previously_documented": true,
+    "current_source_status": "absent from 1d07105b760c73093145526a51758938e87cc658",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 56114,
+    "key": "component::airnow::config::step::user::data_description::radius",
+    "en": "The radius in miles around your location to search for reporting stations.",
+    "sv": "Radien i engelska mil runt din plats för att söka efter rapporteringsstationer.",
+    "previously_documented": true,
+    "current_source_status": "absent from 1d07105b760c73093145526a51758938e87cc658",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 56124,
+    "key": "component::mqtt::issues::protocol_5_migration::fix_flow::abort::mqtt_broker_migration_to_v5_failed",
+    "en": "Migrating the broker ({broker}) protocol version from {protocol} to 5 failed, and the migration has been aborted.\n\nYour broker may not support MQTT protocol version 5.\n\nPlease [reconfigure your MQTT broker settings]({url_mqtt_broker_configuration}) or upgrade your broker to support MQTT protocol version 5 to fix this issue.",
+    "sv": "Migreringen av mäklarens ({broker}) protokollversion från {protocol} till 5 misslyckades, och migreringen har avbrutits.\n\nDin mäklare stöder kanske inte MQTT-protokollversion 5.\n\n[Konfigurera om inställningarna för din MQTT-mäklare]({url_mqtt_broker_configuration}) eller uppgradera din mäklare så att den stöder MQTT-protokollversion 5 för att lösa problemet.",
+    "previously_documented": true,
+    "current_source_status": "absent from 1d07105b760c73093145526a51758938e87cc658",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 56125,
+    "key": "component::mqtt::issues::protocol_5_migration::fix_flow::step::confirm::description",
+    "en": "Home Assistant needs to migrate to MQTT protocol version 5. The currently configured protocol version for broker {broker} is {protocol}. This protocol version is deprecated, and support for it will be removed.\n\nSubmitting this form will attempt to migrate your MQTT broker configuration to use protocol version 5 to fix this issue. If the broker cannot be reached using MQTT protocol version 5, for example because it does not support it, the migration will be aborted.",
+    "sv": "Home Assistant måste uppgraderas till MQTT-protokollversion 5. Den protokollversion som för närvarande är konfigurerad för mäklaren {broker} är {protocol}. Denna protokollversion är utfasad och stödet för den kommer att tas bort.\n\nNär du skickar in detta formulär kommer systemet att försöka migrera din MQTT-mäklarkonfiguration till protokollversion 5 för att åtgärda detta problem. Om mäklaren inte kan nås med MQTT-protokollversion 5, till exempel för att den inte stöder den, kommer migreringen att avbrytas.",
+    "previously_documented": true,
+    "current_source_status": "absent from 1d07105b760c73093145526a51758938e87cc658",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 56126,
+    "key": "component::mqtt::issues::protocol_5_migration::fix_flow::step::confirm::title",
+    "en": "MQTT protocol change required",
+    "sv": "Ändring av MQTT-protokollet krävs",
+    "previously_documented": true,
+    "current_source_status": "absent from 1d07105b760c73093145526a51758938e87cc658",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 56131,
+    "key": "component::timer::triggers::time_remaining::description",
+    "en": "Triggers when one or more timers reach a specific remaining time.",
+    "sv": "Utlöses när en eller flera timers når en viss återstående tid.",
+    "previously_documented": true,
+    "current_source_status": "absent from 1d07105b760c73093145526a51758938e87cc658",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 56132,
+    "key": "component::timer::triggers::time_remaining::fields::remaining::name",
+    "en": "Time remaining",
+    "sv": "Återstående tid",
+    "previously_documented": true,
+    "current_source_status": "absent from 1d07105b760c73093145526a51758938e87cc658",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 56133,
+    "key": "component::timer::triggers::time_remaining::name",
+    "en": "Timer time remaining",
+    "sv": "Återstående timertid",
+    "previously_documented": true,
+    "current_source_status": "absent from 1d07105b760c73093145526a51758938e87cc658",
+    "status": "source-path-follow-up"
+  },
+  {
+    "position": 56159,
+    "key": "component::prusalink::entity::sensor::location::name",
+    "en": "Location",
+    "sv": "Plats",
+    "previously_documented": true,
+    "current_source_status": "absent from 1d07105b760c73093145526a51758938e87cc658",
+    "status": "source-path-follow-up"
+  }
+]
