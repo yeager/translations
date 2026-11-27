@@ -1055,3 +1055,12 @@ Alla 120 positioner matchade aktuell Core-källa. Samtliga 120 måltexter radgra
 ## Aktuell status – 2026-11-27
 
 Senaste granskade position: **52,576** av 77 656. Nästa position: **52,577**; **25,080 positioner återstår**. 77 636 aktiva nycklar i totalomfånget; arbete fortsätter. Home Assistant Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`.
+
+
+### Senaste batch: 52 577–52 696
+
+120 positioner granskades: 14 direkta nycklar, 44 alias och 62 tidigare rapporterade, källfrånvarande nycklar. Fyra Growatt-feltexter rättades och API-lästes tillbaka; två är retroaktiva korrigeringar av redan granskade fel. Alla 44 alias och platshållare för 58 aktuella nycklar verifierades. `svlang` gav inga skrivregelfel och 10/10 naturlighetspoäng för de nya formuleringarna; Hunspell markerade bara tidsformaten. TMX validerar med 35 748 poster (35 517 Lokalise-ID, 231 historiska).
+
+## Aktuell status – 2026-11-27
+
+Senaste granskade position: **52 696** av 77 656. Nästa position: **52 697**; **24 960 positioner återstår**. 77 636 aktiva nycklar i totalomfånget. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
