@@ -2271,3 +2271,11 @@ Senaste granskade position: **56 056** av 77 656. Nästa position: **56 057**; *
 ## Sekventiell granskningsmarkör – 2026-11-27
 
 Senaste granskade position: **56 176** av 77 656. Nästa position: **56 177**; **21 480 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+
+### Batch: 56 177–56 296
+
+120 positioner radgranskades: 69 direkta aktuella strängar, 25 referenser (19 unika mål) och 26 tidigare dokumenterade källfrånvarande nycklar. 11 rättelser sparades och API-lästes tillbaka; de delade Grand Lyon-målen uppdaterades och referenserna verifierades mot dem. Platshållare 120/120, inga pluralnycklar. `svlang` hittade inga skrivregelfel. Hunspell saknade den verifierade DNS-termen `DNS-resolver`; fyra former lades till i båda ordlistorna och regressionerna. Tester passerade 19/19; ingen ny release gjordes eftersom dagens release redan skapats. TMX validerar med 35 753 poster (35 522 Lokalise-ID, 231 historiska), liveverifiering passerade för 94/94 aktuella poster.
+
+## Sekventiell granskningsmarkör – 2026-11-27
+
+Senaste granskade position: **56 296** av 77 656. Nästa position: **56 297**; **21 360 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
