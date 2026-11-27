@@ -1,0 +1,312 @@
+[
+  {
+    "key": "component::solaredge_modbus::entity::select::storage_default_mode::state::discharge_to_maximize_export",
+    "key_id": "923419385",
+    "translation_id": "9594905370",
+    "en": "Discharge to maximize export",
+    "before": "Ladda ur för att maximera exporten",
+    "after": "Ladda ur för att maximera exporten",
+    "readback": "Ladda ur för att maximera exporten",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::solaredge_modbus::entity::select::storage_default_mode::state::discharge_to_minimize_import",
+    "key_id": "923419386",
+    "translation_id": "9594905434",
+    "en": "Discharge to minimize import",
+    "before": "Ladda ur för att minimera importen",
+    "after": "Ladda ur för att minimera importen",
+    "readback": "Ladda ur för att minimera importen",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mcp_server::options::step::init::data_description::llm_hass_api",
+    "key_id": "923345188",
+    "translation_id": "9593723618",
+    "en": "**Device control** only accesses the entities you expose to voice assistants. **Home Assistant** accesses everything and requires an administrator account.",
+    "before": "**Enhetsstyrning** har endast åtkomst till de enheter som du gör tillgängliga för röstassistenter. **Home Assistant** har åtkomst till allt och kräver ett administratörskonto.",
+    "after": "**Enhetsstyrning** har endast åtkomst till de entiteter som du gör tillgängliga för röstassistenter. **Home Assistant** har åtkomst till allt och kräver ett administratörskonto.",
+    "readback": "**Enhetsstyrning** har endast åtkomst till de entiteter som du gör tillgängliga för röstassistenter. **Home Assistant** har åtkomst till allt och kräver ett administratörskonto.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mcp_server::options::step::init::description",
+    "key_id": "923345189",
+    "translation_id": "9593723682",
+    "en": "These settings apply to the main URL (`/api/mcp`). Each set of tools also has its own URL, which ignores these settings. See the [integration documentation]({more_info_url}) for setup instructions.",
+    "before": "Se [integrationsdokumentationen]({more_info_url}) för installationsanvisningar.",
+    "after": "Dessa inställningar gäller huvud-URL:en (`/api/mcp`). Varje uppsättning verktyg har också en egen URL, som inte påverkas av dessa inställningar. Se [integrationsdokumentationen]({more_info_url}) för installationsanvisningar.",
+    "readback": "Dessa inställningar gäller huvud-URL:en (`/api/mcp`). Varje uppsättning verktyg har också en egen URL, som inte påverkas av dessa inställningar. Se [integrationsdokumentationen]({more_info_url}) för installationsanvisningar.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::nobo_hub::exceptions::set_disable_global_override_failed::message",
+    "key_id": "923346239",
+    "translation_id": "9593736349",
+    "en": "Failed to change whether global overrides are disabled for the zone.",
+    "before": "Det gick inte att ändra om globala åsidosättningar är inaktiverade för zonen.",
+    "after": "Det gick inte att ändra inställningen för om globala åsidosättningar ska inaktiveras för zonen.",
+    "readback": "Det gick inte att ändra inställningen för om globala åsidosättningar ska inaktiveras för zonen.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::peblar::services::authorize_charge_session::description",
+    "key_id": "923346252",
+    "translation_id": "9593736776",
+    "en": "Presents a token to the charger, as if it were held against the reader. This authorizes a session that is waiting for it, and stops one that is already running.",
+    "before": "Presenterar en token för laddaren som om den hölls mot läsaren. Detta auktoriserar en session som väntar på den och stoppar en session som redan pågår.",
+    "after": "Presenterar en RFID-tagg för laddaren, som om den hölls mot läsaren. Det auktoriserar en session som väntar på taggen och stoppar en session som redan pågår.",
+    "readback": "Presenterar en RFID-tagg för laddaren, som om den hölls mot läsaren. Det auktoriserar en session som väntar på taggen och stoppar en session som redan pågår.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::peblar::services::authorize_charge_session::fields::config_entry_id::description",
+    "key_id": "923346253",
+    "translation_id": "9593736840",
+    "en": "The Peblar EV charger to present the token to.",
+    "before": "Den Peblar-laddare som token ska presenteras för.",
+    "after": "Den Peblar-laddare som RFID-taggen ska presenteras för.",
+    "readback": "Den Peblar-laddare som RFID-taggen ska presenteras för.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::peblar::services::authorize_charge_session::fields::description::description",
+    "key_id": "923346255",
+    "translation_id": "9593736968",
+    "en": "The label of the RFID token to present, instead of its UID.",
+    "before": "Etiketten för den RFID-token som ska presenteras, i stället för dess UID.",
+    "after": "Etiketten för RFID-taggen som ska presenteras i stället för dess UID.",
+    "readback": "Etiketten för RFID-taggen som ska presenteras i stället för dess UID.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::peblar::services::authorize_charge_session::fields::uid::description",
+    "key_id": "923346257",
+    "translation_id": "9593737096",
+    "en": "The unique identifier of the RFID token to present.",
+    "before": "Den unika identifieraren för den RFID-token som ska presenteras.",
+    "after": "RFID-taggens unika identifierare.",
+    "readback": "RFID-taggens unika identifierare.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::synology_dsm::options::abort::entry_not_loaded",
+    "key_id": "923354383",
+    "translation_id": "9593789318",
+    "en": "The integration is not loaded, so the shares to back up to cannot be listed.",
+    "before": "Integrationen har inte lästs in, så det går inte att visa de utdelade mappar som det går att säkerhetskopiera till.",
+    "after": "Integrationen har inte lästs in, så det går inte att visa vilka delade mappar säkerhetskopior kan sparas i.",
+    "readback": "Integrationen har inte lästs in, så det går inte att visa vilka delade mappar säkerhetskopior kan sparas i.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::duco::entity::number::bypass_supply_target_temperature_zone::name",
+    "key_id": "923385355",
+    "translation_id": "9593884357",
+    "en": "Bypass target {zone}",
+    "before": "Bypassbörvärde {zone}",
+    "after": "Börvärde för bypass {zone}",
+    "readback": "Börvärde för bypass {zone}",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::duco::exceptions::failed_to_set_bypass_supply_temperature_target::message",
+    "key_id": "923385356",
+    "translation_id": "9593884421",
+    "en": "Failed to set bypass supply target temperature.",
+    "before": "Det gick inte att ange måltemperaturen för bypass-tilluft.",
+    "after": "Det gick inte att ange börvärdet för tilluftstemperaturen efter bypass.",
+    "readback": "Det gick inte att ange börvärdet för tilluftstemperaturen efter bypass.",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sunsynk::entity::sensor::charge_total::name",
+    "key_id": "923419084",
+    "translation_id": "9594898430",
+    "en": "Charge total",
+    "before": "Laddning totalt",
+    "after": "Total laddning",
+    "readback": "Total laddning",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sunsynk::entity::sensor::discharge_total::name",
+    "key_id": "923419087",
+    "translation_id": "9594898622",
+    "en": "Discharge total",
+    "before": "Urladdning totalt",
+    "after": "Total urladdning",
+    "readback": "Total urladdning",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sunsynk::entity::sensor::grid_export_total::name",
+    "key_id": "923419089",
+    "translation_id": "9594898750",
+    "en": "Grid export total",
+    "before": "Export till nätet totalt",
+    "after": "Total export till nätet",
+    "readback": "Total export till nätet",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sunsynk::entity::sensor::grid_import_total::name",
+    "key_id": "923419092",
+    "translation_id": "9594898942",
+    "en": "Grid import total",
+    "before": "Import från nätet totalt",
+    "after": "Total import från nätet",
+    "readback": "Total import från nätet",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sunsynk::entity::sensor::grid_power::name",
+    "key_id": "923419093",
+    "translation_id": "9594899006",
+    "en": "Grid power",
+    "before": "Näteffekt",
+    "after": "Effekt från elnätet",
+    "readback": "Effekt från elnätet",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sunsynk::entity::sensor::load_energy_today::name",
+    "key_id": "923419094",
+    "translation_id": "9594899070",
+    "en": "Load energy today",
+    "before": "Förbrukningsenergi i dag",
+    "after": "Energiförbrukning i dag",
+    "readback": "Energiförbrukning i dag",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sunsynk::entity::sensor::load_energy_total::name",
+    "key_id": "923419095",
+    "translation_id": "9594899134",
+    "en": "Load energy total",
+    "before": "Förbrukningsenergi totalt",
+    "after": "Total energiförbrukning",
+    "readback": "Total energiförbrukning",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::sunsynk::entity::sensor::solar_energy_total::name",
+    "key_id": "923419099",
+    "translation_id": "9594899390",
+    "en": "Solar energy total",
+    "before": "Solenergi totalt",
+    "after": "Total solenergi",
+    "readback": "Total solenergi",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::solaredge_modbus::entity::select::storage_default_mode::state::charge_from_clipped_solar",
+    "key_id": "923419382",
+    "translation_id": "9594905178",
+    "en": "Charge from clipped solar",
+    "before": "Ladda från begränsad solproduktion",
+    "after": "Ladda från solel som annars skulle begränsas",
+    "readback": "Ladda från solel som annars skulle begränsas",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::solaredge_modbus::entity::select::storage_default_mode::state::charge_from_solar",
+    "key_id": "923419383",
+    "translation_id": "9594905242",
+    "en": "Charge from solar",
+    "before": "Ladda från solenergi",
+    "after": "Ladda från solel",
+    "readback": "Ladda från solel",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::solaredge_modbus::entity::select::storage_default_mode::state::charge_from_solar_and_grid",
+    "key_id": "923419384",
+    "translation_id": "9594905306",
+    "en": "Charge from solar and grid",
+    "before": "Ladda från solenergi och elnätet",
+    "after": "Ladda från solel och elnätet",
+    "readback": "Ladda från solel och elnätet",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::solaredge_modbus::entity::select::storage_default_mode::state::maximize_self_consumption",
+    "key_id": "923419387",
+    "translation_id": "9594905498",
+    "en": "Maximize self-consumption",
+    "before": "Maximera egenförbrukningen",
+    "after": "Maximera egenanvändningen",
+    "readback": "Maximera egenanvändningen",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::mcp_server::options::step::init::data::llm_hass_api",
+    "key_id": "923345187",
+    "translation_id": "9593723554",
+    "en": "AI tools",
+    "before": "AI-verktyg",
+    "after": "AI-verktyg för styrning av Home Assistant",
+    "readback": "AI-verktyg för styrning av Home Assistant",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::solaredge_modbus::entity::select::storage_command_mode::state::charge_from_clipped_solar",
+    "key_id": "923419368",
+    "translation_id": "9594904282",
+    "en": "Charge from clipped solar",
+    "before": "Ladda från begränsad solproduktion",
+    "after": "Ladda från solel som annars skulle begränsas",
+    "readback": "Ladda från solel som annars skulle begränsas",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "common::config_flow::data::llm_hass_api",
+    "key_id": "481510933",
+    "translation_id": "3996373455",
+    "en": "AI tools",
+    "before": "AI-verktyg",
+    "after": "AI-verktyg för styrning av Home Assistant",
+    "readback": "AI-verktyg för styrning av Home Assistant",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::solaredge_modbus::entity::select::storage_command_mode::state::charge_from_solar",
+    "key_id": "923419369",
+    "translation_id": "9594904346",
+    "en": "Charge from solar",
+    "before": "Ladda från solenergi",
+    "after": "Ladda från solel",
+    "readback": "Ladda från solel",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::solaredge_modbus::entity::select::storage_command_mode::state::charge_from_solar_and_grid",
+    "key_id": "923419370",
+    "translation_id": "9594904410",
+    "en": "Charge from solar and grid",
+    "before": "Ladda från solenergi och elnätet",
+    "after": "Ladda från solel och elnätet",
+    "readback": "Ladda från solel och elnätet",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::solaredge_modbus::entity::select::storage_command_mode::state::maximize_self_consumption",
+    "key_id": "923419373",
+    "translation_id": "9594904602",
+    "en": "Maximize self-consumption",
+    "before": "Maximera egenförbrukningen",
+    "after": "Maximera egenanvändningen",
+    "readback": "Maximera egenanvändningen",
+    "status": "saved-and-read-back"
+  },
+  {
+    "key": "component::solaredge_modbus::entity::number::backup_reserve::name",
+    "key_id": "923343495",
+    "translation_id": "9593706136",
+    "en": "Backup reserve",
+    "before": "Reserv för strömavbrott",
+    "after": "Reserv för reservkraft",
+    "readback": "Reserv för reservkraft",
+    "status": "restored-existing-verified-translation"
+  }
+]
