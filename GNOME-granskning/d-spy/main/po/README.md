@@ -6,5 +6,5 @@
 - Alla 79 strängar radgranskades. 7 nya översättningar och 7 befintliga rättningar; alla 4 fuzzy-poster granskades.
 - Korrigeringarna omfattar läs-/skrivbara egenskaper, uppdateringsstatus, egenskapsvärden och metodanrop. D-Bus-, GVariant- och printf-format bevarades.
 - Validering: `msgfmt --check --check-format --statistics` och `msgcmp --use-fuzzy` godkända; printf-platshållare stämmer. `l10n-lint`: 0 fel och 0 varningar. `hunspell-sv` kördes; tekniska identifierare och GVariant-exempel dokumenterade som undantag.
-- Ingen GNOME-inskickning har gjorts.
+- Uppladdad 2026-11-27 kl. 00:12 UTC med kommentaren ”Granskad och klar”; aktivitetssidan bekräftar sammanslagning och 79/0/0. Statistik-API:t visar ännu 68/4/7.
 - Översättarmetadata: Daniel Nylander <gnome@danielnylander.se>, 2026-11-26.
