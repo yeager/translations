@@ -1,0 +1,29 @@
+{
+  "positions": [
+    56297,
+    56416
+  ],
+  "positions_reviewed": 120,
+  "current_core_keys": 109,
+  "direct_current_strings": 81,
+  "reference_strings": 28,
+  "previously_documented_historical_keys_without_current_source": 11,
+  "current_changes_saved_and_read_back": 11,
+  "all_28_reference_source_and_translation_matches": true,
+  "placeholder_checks_passed": "120/120",
+  "plural_keys": 0,
+  "svlang": "no writing-rule findings",
+  "hunspell": "No Swedish target spelling issues; proper product names and technical identifiers were flagged. Missing reviewed DNS-resolver forms were added to both dictionaries and regression vocabulary; 19/19 tests pass. No release created (a release was already made today).",
+  "comparison_to_previous_reports": "All 11 source-absent rows had previous documentation. Current live Swedish values were compared against prior TM/report records. The 81 direct current rows and 28 alias owners were reviewed in context; 11 corrections were saved and read back.",
+  "source_revision": "1d07105b760c73093145526a51758938e87cc658",
+  "official_product_sources": [
+    "https://www.home-assistant.io/integrations/data_grand_lyon/"
+  ],
+  "uncertainties": [
+    {
+      "key": "component::tuya::entity::binary_sensor::coil_freeze::name",
+      "reason": "The generic Tuya bitmap label does not specify which HVAC coil is meant; translating coil as a specific evaporator/condenser part would be speculative. Existing Swedish label remains flagged for follow-up."
+    }
+  ],
+  "live_lokalise_manifest_verification": "passed: 109/109 key identity, English source, and Swedish translation checks"
+}

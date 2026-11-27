@@ -2279,3 +2279,12 @@ Senaste granskade position: **56 176** av 77 656. Nästa position: **56 177**; *
 ## Sekventiell granskningsmarkör – 2026-11-27
 
 Senaste granskade position: **56 296** av 77 656. Nästa position: **56 297**; **21 360 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
+
+
+### Batch: 56 297–56 416
+
+120 positioner radgranskades: 81 direkta aktuella strängar, 28 referenser (20 unika mål) och elva tidigare dokumenterade nycklar utan aktuell källväg. Alla referensägare matchar målens engelska och svenska texter. Elva rättelser sparades i Lokalise och lästes tillbaka via API. Platshållare 120/120; inga pluralnycklar. `svlang` hittade inga skrivregelfel; Hunspell flaggade endast `nickname` och `topic` i testfilen, båda avsiktliga källtermer/platshållare. Den generiska Tuya-etiketten för `coil_freeze` står kvar som osäker uppföljning eftersom källan inte anger vilken typ av HVAC-spole som avses. TMX validerar med 35 753 poster; live-manifestverifiering passerade 109/109.
+
+## Sekventiell granskningsmarkör – 2026-11-27
+
+Senaste granskade position: **56 416** av 77 656. Nästa position: **56 417**; **21 240 positioner återstår**. Core-källrevision: `1d07105b760c73093145526a51758938e87cc658`. Arbetet fortsätter.
